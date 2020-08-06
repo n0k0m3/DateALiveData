@@ -1,0 +1,1 @@
+{"Configs":[{"Line":{"Vel":200,"AccAngle":90,"isExtends":false,"Acc":80,"Angle":90},"FlyType":0,"Frame":{"y":150,"x":0}}],"Active":true,"Visible":true,"Name":"飞行轨迹 1","Scale":{"Y":1,"X":1},"Alpha":255,"FileName":"orbit_2-9_1","Rotation":0,"ID":1,"type":"MapOrbit","Position":{"Y":700,"X":968},"Z":0,"Color":{"R":255,"B":255,"G":255}}

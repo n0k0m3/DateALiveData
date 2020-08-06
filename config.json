@@ -1,0 +1,14 @@
+{
+    "useImgui":false,
+    "designSize": {
+        "width": 1136,
+        "height": 640
+    },
+    "winScale": 1,
+    "winTitle": "DAL",
+    "mainLua": "TFFramework/Main",
+    "orderPath": [
+        "src",
+        "res/basic"
+    ]
+}

@@ -1,0 +1,1 @@
+{"Configs":[{"Line":{"Vel":300,"AccAngle":180,"isExtends":false,"Acc":100,"Angle":270},"FlyType":0,"Frame":{"y":200,"x":0}}],"Active":true,"Visible":true,"Name":"飞行轨迹 1 clone clone","Scale":{"Y":1,"X":1},"Alpha":255,"FileName":"dailyExp_3_5","Rotation":0,"ID":4,"type":"MapOrbit","Position":{"Y":-80,"X":800},"Z":0,"Color":{"R":255,"B":255,"G":255}}

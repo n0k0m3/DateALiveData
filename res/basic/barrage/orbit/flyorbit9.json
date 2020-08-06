@@ -1,0 +1,40 @@
+{
+  "Configs": [
+    {
+      "Line": {
+        "Vel": 100,
+        "AccAngle": 88,
+        "isExtends": false,
+        "Acc": 88,
+        "Angle": 80
+      },
+      "FlyType": 0,
+      "Frame": {
+        "y": 200,
+        "x": 0
+      }
+    }
+  ],
+  "Active": true,
+  "Visible": true,
+  "Name": "飞行轨迹 9",
+  "Scale": {
+    "Y": 1,
+    "X": 1
+  },
+  "Alpha": 255,
+  "FileName": "flyorbit9",
+  "Rotation": 0,
+  "ID": 9,
+  "type": "MapOrbit",
+  "Position": {
+    "Y": 236,
+    "X": 655
+  },
+  "Z": 0,
+  "Color": {
+    "R": 255,
+    "B": 255,
+    "G": 255
+  }
+}

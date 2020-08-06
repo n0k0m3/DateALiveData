@@ -1,0 +1,222 @@
+return {
+    ["links"] = {
+        ["F378D27FAA5344B29367CFF2D10FFF78"] = {
+            [1] = "F15D3A0ACC394B2796FE9DD7A16350F0",
+        },
+        ["CF5919CA30F84E078AC71C7D95D203AA"] = {
+            [1] = "E107971CC8D84E33A9E5A8738C73A5F9",
+        },
+        ["DCAF7558116A42E0B40BDD17E58F8327"] = {
+            [1] = "CF5919CA30F84E078AC71C7D95D203AA",
+        },
+        ["385DCEB5A8604BE5BEDBCE40DCFCFEE7"] = {
+            [1] = "F7BFB3FEEAB64A09816E7E358EEBA8E9",
+        },
+        ["C0E6C5D4C986433A91F7AB464C98DE11"] = {
+            [1] = "F6A7F1817E164F1AAE377E70F57DCE7C",
+        },
+        ["1AE59C60C5B44B57B93B8280395448CB"] = {
+            [1] = "F378D27FAA5344B29367CFF2D10FFF78",
+        },
+        ["BE5B54D2E32249539ED728490D5AD759"] = {
+            [1] = "C0E6C5D4C986433A91F7AB464C98DE11",
+        },
+        ["3D1132AC17414D5E83678CC1751A5D78"] = {
+            [1] = "385DCEB5A8604BE5BEDBCE40DCFCFEE7",
+        },
+        ["4BAED0BCE3FE4EA69EC88F781EB5697B"] = {
+            [1] = "1AE59C60C5B44B57B93B8280395448CB",
+            [2] = "DCAF7558116A42E0B40BDD17E58F8327",
+            [3] = "BE5B54D2E32249539ED728490D5AD759",
+            [4] = "3D1132AC17414D5E83678CC1751A5D78",
+        },
+    },
+    ["nodes"] = {
+        ["F6A7F1817E164F1AAE377E70F57DCE7C"] = {
+            ["Desc"] = "施放技能",
+            ["Pos"] = {
+                ["y"] = 324,
+                ["x"] = 1073,
+            },
+            ["Weight"] = 1,
+            ["Class"] = "ReleaseSkillBevNode",
+            ["NodeTag"] = "F6A7F1817E164F1AAE377E70F57DCE7C",
+            ["ID"] = 2001018,
+            ["Type"] = 1,
+            ["Static"] = false,
+        },
+        ["F378D27FAA5344B29367CFF2D10FFF78"] = {
+            ["Pos"] = {
+                ["y"] = 184,
+                ["x"] = 761,
+            },
+            ["Class"] = "ConditionInFightTimeoutNode",
+            ["NodeTag"] = "F378D27FAA5344B29367CFF2D10FFF78",
+            ["Duration"] = 1700,
+            ["Type"] = 1,
+            ["Static"] = false,
+        },
+        ["F7BFB3FEEAB64A09816E7E358EEBA8E9"] = {
+            ["Desc"] = "施放技能",
+            ["Pos"] = {
+                ["y"] = 684,
+                ["x"] = 1066,
+            },
+            ["Weight"] = 1,
+            ["Class"] = "ReleaseSkillBevNode",
+            ["NodeTag"] = "F7BFB3FEEAB64A09816E7E358EEBA8E9",
+            ["ID"] = 2001018,
+            ["Type"] = 1,
+            ["Static"] = false,
+        },
+        ["DCAF7558116A42E0B40BDD17E58F8327"] = {
+            ["Desc"] = "子节点",
+            ["Duration"] = 9700,
+            ["NodeTag"] = "DCAF7558116A42E0B40BDD17E58F8327",
+            ["Force"] = 0,
+            ["TriggerType"] = 0,
+            ["Static"] = false,
+            ["Pos"] = {
+                ["y"] = 514,
+                ["x"] = 461,
+            },
+            ["Class"] = "ChildNode",
+            ["Loop"] = 1,
+            ["Priority"] = 0,
+            ["DurationInterval"] = {
+                [1] = 0,
+                [2] = 0,
+            },
+        },
+        ["F15D3A0ACC394B2796FE9DD7A16350F0"] = {
+            ["Desc"] = "施放技能",
+            ["Pos"] = {
+                ["y"] = 177,
+                ["x"] = 1070,
+            },
+            ["Weight"] = 1,
+            ["Class"] = "ReleaseSkillBevNode",
+            ["NodeTag"] = "F15D3A0ACC394B2796FE9DD7A16350F0",
+            ["ID"] = 2001023,
+            ["Type"] = 1,
+            ["Static"] = false,
+        },
+        ["E107971CC8D84E33A9E5A8738C73A5F9"] = {
+            ["Desc"] = "施放技能",
+            ["Pos"] = {
+                ["y"] = 510,
+                ["x"] = 1070,
+            },
+            ["Weight"] = 1,
+            ["Class"] = "ReleaseSkillBevNode",
+            ["NodeTag"] = "E107971CC8D84E33A9E5A8738C73A5F9",
+            ["ID"] = 2001023,
+            ["Type"] = 1,
+            ["Static"] = false,
+        },
+        ["3D1132AC17414D5E83678CC1751A5D78"] = {
+            ["Desc"] = "子节点",
+            ["Duration"] = 11100,
+            ["NodeTag"] = "3D1132AC17414D5E83678CC1751A5D78",
+            ["Force"] = 0,
+            ["TriggerType"] = 0,
+            ["Static"] = false,
+            ["Pos"] = {
+                ["y"] = 677,
+                ["x"] = 457,
+            },
+            ["Class"] = "ChildNode",
+            ["Loop"] = 1,
+            ["Priority"] = 0,
+            ["DurationInterval"] = {
+                [1] = 0,
+                [2] = 0,
+            },
+        },
+        ["385DCEB5A8604BE5BEDBCE40DCFCFEE7"] = {
+            ["Pos"] = {
+                ["y"] = 697,
+                ["x"] = 752,
+            },
+            ["Class"] = "ConditionInFightTimeoutNode",
+            ["NodeTag"] = "385DCEB5A8604BE5BEDBCE40DCFCFEE7",
+            ["Duration"] = 11100,
+            ["Type"] = 1,
+            ["Static"] = false,
+        },
+        ["CF5919CA30F84E078AC71C7D95D203AA"] = {
+            ["Pos"] = {
+                ["y"] = 514,
+                ["x"] = 750,
+            },
+            ["Class"] = "ConditionInFightTimeoutNode",
+            ["NodeTag"] = "CF5919CA30F84E078AC71C7D95D203AA",
+            ["Duration"] = 9700,
+            ["Type"] = 1,
+            ["Static"] = false,
+        },
+        ["1AE59C60C5B44B57B93B8280395448CB"] = {
+            ["Desc"] = "子节点",
+            ["Duration"] = 1700,
+            ["NodeTag"] = "1AE59C60C5B44B57B93B8280395448CB",
+            ["Force"] = 0,
+            ["TriggerType"] = 0,
+            ["Static"] = false,
+            ["Pos"] = {
+                ["y"] = 176,
+                ["x"] = 461,
+            },
+            ["Class"] = "ChildNode",
+            ["Loop"] = 1,
+            ["Priority"] = 0,
+            ["DurationInterval"] = {
+                [1] = 0,
+                [2] = 0,
+            },
+        },
+        ["BE5B54D2E32249539ED728490D5AD759"] = {
+            ["Desc"] = "子节点",
+            ["Duration"] = 3900,
+            ["NodeTag"] = "BE5B54D2E32249539ED728490D5AD759",
+            ["Force"] = 0,
+            ["TriggerType"] = 0,
+            ["Static"] = false,
+            ["Pos"] = {
+                ["y"] = 337,
+                ["x"] = 460,
+            },
+            ["Class"] = "ChildNode",
+            ["Loop"] = 1,
+            ["Priority"] = 0,
+            ["DurationInterval"] = {
+                [1] = 0,
+                [2] = 0,
+            },
+        },
+        ["C0E6C5D4C986433A91F7AB464C98DE11"] = {
+            ["Pos"] = {
+                ["y"] = 339,
+                ["x"] = 754,
+            },
+            ["Class"] = "ConditionInFightTimeoutNode",
+            ["NodeTag"] = "C0E6C5D4C986433A91F7AB464C98DE11",
+            ["Duration"] = 3900,
+            ["Type"] = 1,
+            ["Static"] = false,
+        },
+        ["4BAED0BCE3FE4EA69EC88F781EB5697B"] = {
+            ["Desc"] = "新的 AI",
+            ["Pos"] = {
+                ["y"] = 300,
+                ["x"] = 250,
+            },
+            ["Category"] = 8,
+            ["Class"] = "RootNode",
+            ["NodeTag"] = "4BAED0BCE3FE4EA69EC88F781EB5697B",
+            ["ID"] = "10000108",
+            ["Name"] = "新的 AI",
+            ["Static"] = true,
+        },
+    },
+    ["root"] = "4BAED0BCE3FE4EA69EC88F781EB5697B",
+}

@@ -1,0 +1,1 @@
+return {[1] = {Evts = {[1] = {Evts = {[1] = {evtType = "monsterAIEvt",class = "Evt",val = true,},[2] = {evtType = "playerCtrlEvt",class = "Evt",isEnable = true,},[3] = {evtType = "ctrlEvt",class = "Evt",list = {[1] = {group = 3,val = true,},},},},class = "EvtSpaw",},},class = "EvtSequence",enbaleSkip = false,},}

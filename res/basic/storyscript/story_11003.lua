@@ -1,0 +1,1 @@
+return {[1] = {Evts = {[1] = {evtType = "delayTimeEvt",duration = 500,},[2] = {evtType = "waveScreenEvt",class = "Evt",count = 2,waveStyle = 1,},[3] = {evtType = "delayTimeEvt",duration = 500,},[4] = {evtType = "waveScreenEvt",class = "Evt",count = 2,waveStyle = 1,},},class = "EvtSequence",enbaleSkip = false,},}

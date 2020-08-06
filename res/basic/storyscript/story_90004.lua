@@ -1,0 +1,1 @@
+return {[1] = {Evts = {[1] = {evtType = "BGMVolumeEvt",class = "Evt",volume = 0.7,},},class = "EvtSequence",enbaleSkip = false,},}

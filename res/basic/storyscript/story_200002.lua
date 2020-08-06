@@ -1,0 +1,1 @@
+return {[1] = {Evts = {[1] = {evtType = "showBattleGuideEvt",class = "Evt",guideId = 2,},},class = "EvtSequence",enbaleSkip = false,},}

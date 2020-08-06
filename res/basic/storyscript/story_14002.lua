@@ -1,0 +1,1 @@
+return {[1] = {Evts = {[1] = {Evts = {[1] = {evtType = "monsterAIEvt",class = "Evt",val = false,},},class = "EvtSpaw",},},class = "EvtSequence",enbaleSkip = false,},}

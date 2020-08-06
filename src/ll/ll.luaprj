@@ -1,0 +1,2966 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<Project Name="ll.luaprj" Cmd="" Arg="" Dir="" Toggle="false" >
+    <Filter RelativePath=".\.." Toggle="false" >
+        <LuaFile RelativePath=".\debugScript.lua" />
+        <Filter RelativePath=".\language" Toggle="true" >
+            <LuaFile RelativePath=".\StringUtils_format.lua" />
+        </Filter>
+        <Filter RelativePath=".\ll" Toggle="true" />
+        <Filter RelativePath=".\lua" Toggle="false" >
+            <LuaFile RelativePath=".\gameinit.lua" />
+            <LuaFile RelativePath=".\gameinitPart1.lua" />
+            <LuaFile RelativePath=".\gameinitPart2.lua" />
+            <LuaFile RelativePath=".\gameinitPart3.lua" />
+            <LuaFile RelativePath=".\TestLayer.lua" />
+            <LuaFile RelativePath=".\UINameFormat.txt" />
+            <Filter RelativePath=".\ai" Toggle="true" >
+                <LuaFile RelativePath=".\ai_1.lua" />
+                <LuaFile RelativePath=".\ai_10.lua" />
+                <LuaFile RelativePath=".\ai_10000101.lua" />
+                <LuaFile RelativePath=".\ai_10000102.lua" />
+                <LuaFile RelativePath=".\ai_10000103.lua" />
+                <LuaFile RelativePath=".\ai_10000104.lua" />
+                <LuaFile RelativePath=".\ai_10000105.lua" />
+                <LuaFile RelativePath=".\ai_10000106.lua" />
+                <LuaFile RelativePath=".\ai_10000107.lua" />
+                <LuaFile RelativePath=".\ai_10000108.lua" />
+                <LuaFile RelativePath=".\ai_10000109.lua" />
+                <LuaFile RelativePath=".\ai_10001.lua" />
+                <LuaFile RelativePath=".\ai_10002.lua" />
+                <LuaFile RelativePath=".\ai_10006.lua" />
+                <LuaFile RelativePath=".\ai_10007.lua" />
+                <LuaFile RelativePath=".\ai_10020901.lua" />
+                <LuaFile RelativePath=".\ai_10020902.lua" />
+                <LuaFile RelativePath=".\ai_10020903.lua" />
+                <LuaFile RelativePath=".\ai_10020904.lua" />
+                <LuaFile RelativePath=".\ai_1010.lua" />
+                <LuaFile RelativePath=".\ai_1011.lua" />
+                <LuaFile RelativePath=".\ai_1012060001.lua" />
+                <LuaFile RelativePath=".\ai_10120600013.lua" />
+                <LuaFile RelativePath=".\ai_1012060002.lua" />
+                <LuaFile RelativePath=".\ai_1012060003.lua" />
+                <LuaFile RelativePath=".\ai_1012060004.lua" />
+                <LuaFile RelativePath=".\ai_1012060005.lua" />
+                <LuaFile RelativePath=".\ai_1012060006.lua" />
+                <LuaFile RelativePath=".\ai_1012060007.lua" />
+                <LuaFile RelativePath=".\ai_1012060008.lua" />
+                <LuaFile RelativePath=".\ai_1012060009.lua" />
+                <LuaFile RelativePath=".\ai_1012060010.lua" />
+                <LuaFile RelativePath=".\ai_1012060011.lua" />
+                <LuaFile RelativePath=".\ai_1012060012.lua" />
+                <LuaFile RelativePath=".\ai_1012060013.lua" />
+                <LuaFile RelativePath=".\ai_1012060102.lua" />
+                <LuaFile RelativePath=".\ai_1012060105.lua" />
+                <LuaFile RelativePath=".\ai_1012060106.lua" />
+                <LuaFile RelativePath=".\ai_1012060107.lua" />
+                <LuaFile RelativePath=".\ai_1012060112.lua" />
+                <LuaFile RelativePath=".\ai_1020.lua" />
+                <LuaFile RelativePath=".\ai_1021.lua" />
+                <LuaFile RelativePath=".\ai_1050.lua" />
+                <LuaFile RelativePath=".\ai_1051.lua" />
+                <LuaFile RelativePath=".\ai_1060.lua" />
+                <LuaFile RelativePath=".\ai_1061.lua" />
+                <LuaFile RelativePath=".\ai_1070.lua" />
+                <LuaFile RelativePath=".\ai_1071.lua" />
+                <LuaFile RelativePath=".\ai_1080.lua" />
+                <LuaFile RelativePath=".\ai_1081.lua" />
+                <LuaFile RelativePath=".\ai_1082.lua" />
+                <LuaFile RelativePath=".\ai_1083.lua" />
+                <LuaFile RelativePath=".\ai_11.lua" />
+                <LuaFile RelativePath=".\ai_110101.lua" />
+                <LuaFile RelativePath=".\ai_110103.lua" />
+                <LuaFile RelativePath=".\ai_110201.lua" />
+                <LuaFile RelativePath=".\ai_110208.lua" />
+                <LuaFile RelativePath=".\ai_110209.lua" />
+                <LuaFile RelativePath=".\ai_110210.lua" />
+                <LuaFile RelativePath=".\ai_110301.lua" />
+                <LuaFile RelativePath=".\ai_110302.lua" />
+                <LuaFile RelativePath=".\ai_110401.lua" />
+                <LuaFile RelativePath=".\ai_110402.lua" />
+                <LuaFile RelativePath=".\ai_110501.lua" />
+                <LuaFile RelativePath=".\ai_110601.lua" />
+                <LuaFile RelativePath=".\ai_110602.lua" />
+                <LuaFile RelativePath=".\ai_110701.lua" />
+                <LuaFile RelativePath=".\ai_110801.lua" />
+                <LuaFile RelativePath=".\ai_110901.lua" />
+                <LuaFile RelativePath=".\ai_111001.lua" />
+                <LuaFile RelativePath=".\ai_111002.lua" />
+                <LuaFile RelativePath=".\ai_112001.lua" />
+                <LuaFile RelativePath=".\ai_113001.lua" />
+                <LuaFile RelativePath=".\ai_113002.lua" />
+                <LuaFile RelativePath=".\ai_2.lua" />
+                <LuaFile RelativePath=".\ai_2000.lua" />
+                <LuaFile RelativePath=".\ai_20001.lua" />
+                <LuaFile RelativePath=".\ai_20002.lua" />
+                <LuaFile RelativePath=".\ai_2001.lua" />
+                <LuaFile RelativePath=".\ai_2010.lua" />
+                <LuaFile RelativePath=".\ai_2011.lua" />
+                <LuaFile RelativePath=".\ai_2020.lua" />
+                <LuaFile RelativePath=".\ai_2021.lua" />
+                <LuaFile RelativePath=".\ai_2030.lua" />
+                <LuaFile RelativePath=".\ai_2031.lua" />
+                <LuaFile RelativePath=".\ai_2040.lua" />
+                <LuaFile RelativePath=".\ai_2041.lua" />
+                <LuaFile RelativePath=".\ai_2050.lua" />
+                <LuaFile RelativePath=".\ai_2051.lua" />
+                <LuaFile RelativePath=".\ai_2060.lua" />
+                <LuaFile RelativePath=".\ai_2061.lua" />
+                <LuaFile RelativePath=".\ai_21.lua" />
+                <LuaFile RelativePath=".\ai_3.lua" />
+                <LuaFile RelativePath=".\ai_3000.lua" />
+                <LuaFile RelativePath=".\ai_30001.lua" />
+                <LuaFile RelativePath=".\ai_30002.lua" />
+                <LuaFile RelativePath=".\ai_30003.lua" />
+                <LuaFile RelativePath=".\ai_30004.lua" />
+                <LuaFile RelativePath=".\ai_3010.lua" />
+                <LuaFile RelativePath=".\ai_3020.lua" />
+                <LuaFile RelativePath=".\ai_3030.lua" />
+                <LuaFile RelativePath=".\ai_3031.lua" />
+                <LuaFile RelativePath=".\ai_3040.lua" />
+                <LuaFile RelativePath=".\ai_3041.lua" />
+                <LuaFile RelativePath=".\ai_3050.lua" />
+                <LuaFile RelativePath=".\ai_3051.lua" />
+                <LuaFile RelativePath=".\ai_3060.lua" />
+                <LuaFile RelativePath=".\ai_3061.lua" />
+                <LuaFile RelativePath=".\ai_4.lua" />
+                <LuaFile RelativePath=".\ai_4000.lua" />
+                <LuaFile RelativePath=".\ai_4001.lua" />
+                <LuaFile RelativePath=".\ai_4001301.lua" />
+                <LuaFile RelativePath=".\ai_4001303.lua" />
+                <LuaFile RelativePath=".\ai_4002.lua" />
+                <LuaFile RelativePath=".\ai_4002301.lua" />
+                <LuaFile RelativePath=".\ai_4003301.lua" />
+                <LuaFile RelativePath=".\ai_4004301.lua" />
+                <LuaFile RelativePath=".\ai_40051.lua" />
+                <LuaFile RelativePath=".\ai_40052.lua" />
+                <LuaFile RelativePath=".\ai_4005301.lua" />
+                <LuaFile RelativePath=".\ai_4010.lua" />
+                <LuaFile RelativePath=".\ai_40101.lua" />
+                <LuaFile RelativePath=".\ai_40102.lua" />
+                <LuaFile RelativePath=".\ai_4011.lua" />
+                <LuaFile RelativePath=".\ai_4012.lua" />
+                <LuaFile RelativePath=".\ai_4020.lua" />
+                <LuaFile RelativePath=".\ai_40201.lua" />
+                <LuaFile RelativePath=".\ai_4020101.lua" />
+                <LuaFile RelativePath=".\ai_4020102.lua" />
+                <LuaFile RelativePath=".\ai_4020103.lua" />
+                <LuaFile RelativePath=".\ai_4021.lua" />
+                <LuaFile RelativePath=".\ai_4022.lua" />
+                <LuaFile RelativePath=".\ai_4030.lua" />
+                <LuaFile RelativePath=".\ai_40301.lua" />
+                <LuaFile RelativePath=".\ai_4030102.lua" />
+                <LuaFile RelativePath=".\ai_4030103.lua" />
+                <LuaFile RelativePath=".\ai_4030201.lua" />
+                <LuaFile RelativePath=".\ai_4031.lua" />
+                <LuaFile RelativePath=".\ai_4032.lua" />
+                <LuaFile RelativePath=".\ai_4040.lua" />
+                <LuaFile RelativePath=".\ai_4041.lua" />
+                <LuaFile RelativePath=".\ai_4042.lua" />
+                <LuaFile RelativePath=".\ai_4050.lua" />
+                <LuaFile RelativePath=".\ai_4051.lua" />
+                <LuaFile RelativePath=".\ai_4052.lua" />
+                <LuaFile RelativePath=".\ai_4060.lua" />
+                <LuaFile RelativePath=".\ai_4060101.lua" />
+                <LuaFile RelativePath=".\ai_40602.lua" />
+                <LuaFile RelativePath=".\ai_40603.lua" />
+                <LuaFile RelativePath=".\ai_406309.lua" />
+                <LuaFile RelativePath=".\ai_4070.lua" />
+                <LuaFile RelativePath=".\ai_4070101.lua" />
+                <LuaFile RelativePath=".\ai_4080.lua" />
+                <LuaFile RelativePath=".\ai_4080101.lua" />
+                <LuaFile RelativePath=".\ai_4080201.lua" />
+                <LuaFile RelativePath=".\ai_4080202.lua" />
+                <LuaFile RelativePath=".\ai_4080301.lua" />
+                <LuaFile RelativePath=".\ai_4081.lua" />
+                <LuaFile RelativePath=".\ai_4090101.lua" />
+                <LuaFile RelativePath=".\ai_4090102.lua" />
+                <LuaFile RelativePath=".\ai_4090103.lua" />
+                <LuaFile RelativePath=".\ai_4090201.lua" />
+                <LuaFile RelativePath=".\ai_5001001.lua" />
+                <LuaFile RelativePath=".\ai_5001002.lua" />
+                <LuaFile RelativePath=".\ai_5001003.lua" />
+                <LuaFile RelativePath=".\ai_5001004.lua" />
+                <LuaFile RelativePath=".\ai_5002001.lua" />
+                <LuaFile RelativePath=".\ai_5002002.lua" />
+                <LuaFile RelativePath=".\ai_5002003.lua" />
+                <LuaFile RelativePath=".\ai_5002004.lua" />
+                <LuaFile RelativePath=".\ai_5003001.lua" />
+                <LuaFile RelativePath=".\ai_5003002.lua" />
+                <LuaFile RelativePath=".\ai_5003003.lua" />
+                <LuaFile RelativePath=".\ai_5003004.lua" />
+                <LuaFile RelativePath=".\ai_5003005.lua" />
+                <LuaFile RelativePath=".\ai_5003006.lua" />
+                <LuaFile RelativePath=".\ai_5004001.lua" />
+                <LuaFile RelativePath=".\ai_5004002.lua" />
+                <LuaFile RelativePath=".\ai_5004003.lua" />
+                <LuaFile RelativePath=".\ai_5004004.lua" />
+                <LuaFile RelativePath=".\ai_5004005.lua" />
+                <LuaFile RelativePath=".\ai_5004006.lua" />
+                <LuaFile RelativePath=".\ai_5004007.lua" />
+                <LuaFile RelativePath=".\ai_5004008.lua" />
+                <LuaFile RelativePath=".\ai_501.lua" />
+                <LuaFile RelativePath=".\ai_5010.lua" />
+                <LuaFile RelativePath=".\ai_5011.lua" />
+                <LuaFile RelativePath=".\ai_502.lua" />
+                <LuaFile RelativePath=".\ai_5020.lua" />
+                <LuaFile RelativePath=".\ai_503.lua" />
+                <LuaFile RelativePath=".\ai_5030.lua" />
+                <LuaFile RelativePath=".\ai_504.lua" />
+                <LuaFile RelativePath=".\ai_5040.lua" />
+                <LuaFile RelativePath=".\ai_5050.lua" />
+                <LuaFile RelativePath=".\ai_521.lua" />
+                <LuaFile RelativePath=".\ai_550.lua" />
+                <LuaFile RelativePath=".\ai_551.lua" />
+                <LuaFile RelativePath=".\ai_5510.lua" />
+                <LuaFile RelativePath=".\ai_552.lua" />
+                <LuaFile RelativePath=".\ai_6.lua" />
+                <LuaFile RelativePath=".\ai_6010.lua" />
+                <LuaFile RelativePath=".\ai_6020.lua" />
+                <LuaFile RelativePath=".\ai_6030.lua" />
+                <LuaFile RelativePath=".\ai_6040.lua" />
+                <LuaFile RelativePath=".\ai_6041.lua" />
+                <LuaFile RelativePath=".\ai_6042.lua" />
+                <LuaFile RelativePath=".\ai_6050.lua" />
+                <LuaFile RelativePath=".\ai_6051.lua" />
+                <LuaFile RelativePath=".\ai_6060.lua" />
+                <LuaFile RelativePath=".\ai_6100.lua" />
+                <LuaFile RelativePath=".\ai_6101.lua" />
+                <LuaFile RelativePath=".\ai_6102.lua" />
+                <LuaFile RelativePath=".\ai_6110.lua" />
+                <LuaFile RelativePath=".\ai_6111.lua" />
+                <LuaFile RelativePath=".\ai_6112.lua" />
+                <LuaFile RelativePath=".\ai_620002.lua" />
+                <LuaFile RelativePath=".\ai_624001.lua" />
+                <LuaFile RelativePath=".\ai_624002.lua" />
+                <LuaFile RelativePath=".\ai_624003.lua" />
+                <LuaFile RelativePath=".\ai_624004.lua" />
+                <LuaFile RelativePath=".\ai_624005.lua" />
+                <LuaFile RelativePath=".\ai_624006.lua" />
+                <LuaFile RelativePath=".\ai_624007.lua" />
+                <LuaFile RelativePath=".\ai_624008.lua" />
+                <LuaFile RelativePath=".\ai_624009.lua" />
+                <LuaFile RelativePath=".\ai_624010.lua" />
+                <LuaFile RelativePath=".\ai_624011.lua" />
+                <LuaFile RelativePath=".\ai_624012.lua" />
+                <LuaFile RelativePath=".\ai_6240121.lua" />
+                <LuaFile RelativePath=".\ai_624013.lua" />
+                <LuaFile RelativePath=".\ai_624014.lua" />
+                <LuaFile RelativePath=".\ai_6240141.lua" />
+                <LuaFile RelativePath=".\ai_624020.lua" />
+                <LuaFile RelativePath=".\ai_624021.lua" />
+                <LuaFile RelativePath=".\ai_624031.lua" />
+                <LuaFile RelativePath=".\ai_624032.lua" />
+                <LuaFile RelativePath=".\ai_624033.lua" />
+                <LuaFile RelativePath=".\ai_624034.lua" />
+                <LuaFile RelativePath=".\ai_624041.lua" />
+                <LuaFile RelativePath=".\ai_624051.lua" />
+                <LuaFile RelativePath=".\ai_624061.lua" />
+                <LuaFile RelativePath=".\ai_624071.lua" />
+                <LuaFile RelativePath=".\ai_624072.lua" />
+                <LuaFile RelativePath=".\ai_624073.lua" />
+                <LuaFile RelativePath=".\ai_624076.lua" />
+                <LuaFile RelativePath=".\ai_624081.lua" />
+                <LuaFile RelativePath=".\ai_624086.lua" />
+                <LuaFile RelativePath=".\ai_666661.lua" />
+                <LuaFile RelativePath=".\ai_666666.lua" />
+                <LuaFile RelativePath=".\ai_800001.lua" />
+                <LuaFile RelativePath=".\ai_800002.lua" />
+                <LuaFile RelativePath=".\ai_800003.lua" />
+                <LuaFile RelativePath=".\ai_800004.lua" />
+                <LuaFile RelativePath=".\ai_8010.lua" />
+                <LuaFile RelativePath=".\ai_8020.lua" />
+                <LuaFile RelativePath=".\ai_8030.lua" />
+                <LuaFile RelativePath=".\ai_8040.lua" />
+                <LuaFile RelativePath=".\ai_8050.lua" />
+                <LuaFile RelativePath=".\ai_8051.lua" />
+                <LuaFile RelativePath=".\ai_880001.lua" />
+                <LuaFile RelativePath=".\ai_910101.lua" />
+                <LuaFile RelativePath=".\ai_910102.lua" />
+                <LuaFile RelativePath=".\ai_910103.lua" />
+                <LuaFile RelativePath=".\ai_910111.lua" />
+                <LuaFile RelativePath=".\ai_910112.lua" />
+                <LuaFile RelativePath=".\ai_910113.lua" />
+                <LuaFile RelativePath=".\ai_910121.lua" />
+                <LuaFile RelativePath=".\ai_910122.lua" />
+                <LuaFile RelativePath=".\ai_910123.lua" />
+                <LuaFile RelativePath=".\ai_910124.lua" />
+                <LuaFile RelativePath=".\ai_910125.lua" />
+                <LuaFile RelativePath=".\ai_910126.lua" />
+                <LuaFile RelativePath=".\ai_910201.lua" />
+                <LuaFile RelativePath=".\ai_910202.lua" />
+                <LuaFile RelativePath=".\ai_910203.lua" />
+                <LuaFile RelativePath=".\ai_910302.lua" />
+                <LuaFile RelativePath=".\ai_910303.lua" />
+                <LuaFile RelativePath=".\ai_910304.lua" />
+                <LuaFile RelativePath=".\ai_910305.lua" />
+                <LuaFile RelativePath=".\ai_910306.lua" />
+                <LuaFile RelativePath=".\ai_910307.lua" />
+                <LuaFile RelativePath=".\ai_910308.lua" />
+                <LuaFile RelativePath=".\ai_910309.lua" />
+                <LuaFile RelativePath=".\ai_910310.lua" />
+                <LuaFile RelativePath=".\ai_910311.lua" />
+                <LuaFile RelativePath=".\ai_920101.lua" />
+                <LuaFile RelativePath=".\ai_114001.lua" />
+                <LuaFile RelativePath=".\ai_115001.lua" />
+                <LuaFile RelativePath=".\ai_624015.lua" />
+                <LuaFile RelativePath=".\ai_624091.lua" />
+                <LuaFile RelativePath=".\ai_624092.lua" />
+                <LuaFile RelativePath=".\ai_624101.lua" />
+                <LuaFile RelativePath=".\ai_624102.lua" />
+                <LuaFile RelativePath=".\ai_624103.lua" />
+                <LuaFile RelativePath=".\ai_624104.lua" />
+                <LuaFile RelativePath=".\ai_624105.lua" />
+                <LuaFile RelativePath=".\ai_624106.lua" />
+            </Filter>
+            <Filter RelativePath=".\character_set" Toggle="true" >
+                <LuaFile RelativePath=".\urlCodec.lua" />
+                <LuaFile RelativePath=".\utf8.lua" />
+            </Filter>
+            <Filter RelativePath=".\dataMgr" Toggle="true" >
+                <LuaFile RelativePath=".\ActivityDataMgr.lua" />
+                <LuaFile RelativePath=".\ActivityDataMgr2.lua" />
+                <LuaFile RelativePath=".\AgoraDataMgr.lua" />
+                <LuaFile RelativePath=".\AngelDataMgr.lua" />
+                <LuaFile RelativePath=".\AvatarDataMgr.lua" />
+                <LuaFile RelativePath=".\BaseDataMgr.lua" />
+                <LuaFile RelativePath=".\BattleDataMgr.lua" />
+                <LuaFile RelativePath=".\BingoDataMgr.lua" />
+                <LuaFile RelativePath=".\CatchDollDataMgr.lua" />
+                <LuaFile RelativePath=".\ChatDataMgr.lua" />
+                <LuaFile RelativePath=".\ChronoCrossDataMgr.lua" />
+                <LuaFile RelativePath=".\CityDataMgr.lua" />
+                <LuaFile RelativePath=".\CityJobDataMgr.lua" />
+                <LuaFile RelativePath=".\CoffeeDataMgr.lua" />
+                <LuaFile RelativePath=".\CollectDataMgr.lua" />
+                <LuaFile RelativePath=".\CommentDataMgr.lua" />
+                <LuaFile RelativePath=".\DalMapDataMgr.lua" />
+                <LuaFile RelativePath=".\DatingDataMgr.lua" />
+                <LuaFile RelativePath=".\DatingPhoneDataMgr.lua" />
+                <LuaFile RelativePath=".\DfwDataMgr.lua" />
+                <LuaFile RelativePath=".\DispatchDataMgr.lua" />
+                <LuaFile RelativePath=".\DlsDataMgr.lua" />
+                <LuaFile RelativePath=".\EquipmentDataMgr.lua" />
+                <LuaFile RelativePath=".\FileCheckMgr.lua" />
+                <LuaFile RelativePath=".\FileLoadMgr.lua" />
+                <LuaFile RelativePath=".\FriendDataMgr.lua" />
+                <LuaFile RelativePath=".\FubenDataMgr.lua" />
+                <LuaFile RelativePath=".\FunctionDataMgr.lua" />
+                <LuaFile RelativePath=".\GlobalVarDataMgr.lua" />
+                <LuaFile RelativePath=".\GoodsDataMgr.lua" />
+                <LuaFile RelativePath=".\GuideDataMgr.lua" />
+                <LuaFile RelativePath=".\HeroDataMgr.lua" />
+                <LuaFile RelativePath=".\InfoStationDataMgr.lua" />
+                <LuaFile RelativePath=".\initDataMgr.lua" />
+                <LuaFile RelativePath=".\KabalaTreeDataMgr.lua" />
+                <LuaFile RelativePath=".\LeagueDataMgr.lua" />
+                <LuaFile RelativePath=".\LoginWatingDataMgr.lua" />
+                <LuaFile RelativePath=".\MailDataMgr.lua" />
+                <LuaFile RelativePath=".\MainAdDataMgr.lua" />
+                <LuaFile RelativePath=".\MakeFoodDataMgr.lua" />
+                <LuaFile RelativePath=".\ManualMakeDataMgr.lua" />
+                <LuaFile RelativePath=".\MedalDataMgr.lua" />
+                <LuaFile RelativePath=".\MerryChristmas.lua" />
+                <LuaFile RelativePath=".\NewCityDataMgr.lua" />
+                <LuaFile RelativePath=".\NoticeDataMgr.lua" />
+                <LuaFile RelativePath=".\OSDDataMgr.lua" />
+                <LuaFile RelativePath=".\PayDataMgr.lua" />
+                <LuaFile RelativePath=".\PrefabDataMgr.lua" />
+                <LuaFile RelativePath=".\RechargeDataMgr.lua" />
+                <LuaFile RelativePath=".\RoleDataMgr.lua" />
+                <LuaFile RelativePath=".\SceneSoundDataMgr.lua" />
+                <LuaFile RelativePath=".\ServerDataMgr.lua" />
+                <LuaFile RelativePath=".\SettingDataMgr.lua" />
+                <LuaFile RelativePath=".\ShareDataMgr.lua" />
+                <LuaFile RelativePath=".\SignDataMgr.lua" />
+                <LuaFile RelativePath=".\SkyLadderDataMgr.lua" />
+                <LuaFile RelativePath=".\StoreDataMgr.lua" />
+                <LuaFile RelativePath=".\SummonDataMgr.lua" />
+                <LuaFile RelativePath=".\SxBirthdayDataMgr.lua" />
+                <LuaFile RelativePath=".\TabDataMgr.lua" />
+                <LuaFile RelativePath=".\TaskDataMgr.lua" />
+                <LuaFile RelativePath=".\TeamFightDataMgr.lua" />
+                <LuaFile RelativePath=".\TeamPveDataMgr.lua" />
+                <LuaFile RelativePath=".\TextDataMgr.lua" />
+                <LuaFile RelativePath=".\TiledMapDataMgr.lua" />
+                <LuaFile RelativePath=".\TitleDataMgr.lua" />
+                <LuaFile RelativePath=".\TopDataMgr.lua" />
+                <LuaFile RelativePath=".\TopHelpDataMgr.lua" />
+                <LuaFile RelativePath=".\ValentineDataMgr.lua" />
+                <LuaFile RelativePath=".\VoiceDataMgr.lua" />
+                <LuaFile RelativePath=".\BlackAndWhiteDataMgr.lua" />
+                <LuaFile RelativePath=".\SimulationSummonDataMgr.lua" />
+                <LuaFile RelativePath=".\DanmuDataMgr.lua" />
+                <LuaFile RelativePath=".\OneYearDataMgr.lua" />
+                <LuaFile RelativePath=".\RoleSwitchDataMgr.lua" />
+                <LuaFile RelativePath=".\MainUISettingMgr.lua" />
+                <LuaFile RelativePath=".\RoleTeachDataMgr.lua" />
+                <LuaFile RelativePath=".\BlockGameDataMgr.lua" />
+            </Filter>
+            <Filter RelativePath=".\gamedata" Toggle="true" >
+                <LuaFile RelativePath=".\CommonManager.lua" />
+                <LuaFile RelativePath=".\ErrorCodeManager.lua" />
+                <LuaFile RelativePath=".\FileLoader.lua" />
+                <LuaFile RelativePath=".\MainPlayer.lua" />
+            </Filter>
+            <Filter RelativePath=".\logic" Toggle="false" >
+                <LuaFile RelativePath=".\BaseLayer.lua" />
+                <LuaFile RelativePath=".\BaseScene.lua" />
+                <LuaFile RelativePath=".\SceneType.lua" />
+                <Filter RelativePath=".\activity" Toggle="false" >
+                    <LuaFile RelativePath=".\ActivityBuyConfirmView.lua" />
+                    <LuaFile RelativePath=".\ActivityCAEMainView.lua" />
+                    <LuaFile RelativePath=".\ActivityEntrustView.lua" />
+                    <LuaFile RelativePath=".\ActivityMain.lua" />
+                    <LuaFile RelativePath=".\ActivityMainView.lua" />
+                    <LuaFile RelativePath=".\ActivityMainView2.lua" />
+                    <LuaFile RelativePath=".\ActivityNianShouView.lua" />
+                    <LuaFile RelativePath=".\ActivityScoreRewardView.lua" />
+                    <LuaFile RelativePath=".\ActivitySpecialCgView.lua" />
+                    <LuaFile RelativePath=".\ActivitySynthesisView.lua" />
+                    <LuaFile RelativePath=".\AddRechargeActivityView.lua" />
+                    <LuaFile RelativePath=".\AssistActivityView.lua" />
+                    <LuaFile RelativePath=".\AssistMainView.lua" />
+                    <LuaFile RelativePath=".\AssistRankingView.lua" />
+                    <LuaFile RelativePath=".\AssistRankRewardView.lua" />
+                    <LuaFile RelativePath=".\BackPlayerTipsView.lua" />
+                    <LuaFile RelativePath=".\BackPlayerView.lua" />
+                    <LuaFile RelativePath=".\BingoActivityView.lua" />
+                    <LuaFile RelativePath=".\BirthdayView.lua" />
+                    <LuaFile RelativePath=".\BoxDetailView.lua" />
+                    <LuaFile RelativePath=".\ChristmasSignInView.lua" />
+                    <LuaFile RelativePath=".\ChronoCrossActivityView.lua" />
+                    <LuaFile RelativePath=".\ChunrijiActivityView.lua" />
+                    <LuaFile RelativePath=".\ClotheseSummonView.lua" />
+                    <LuaFile RelativePath=".\CoffeeActivityView.lua" />
+                    <LuaFile RelativePath=".\CuteNewPlayerView.lua" />
+                    <LuaFile RelativePath=".\DropActivityView.lua" />
+                    <LuaFile RelativePath=".\DuanwuActivityView.lua" />
+                    <LuaFile RelativePath=".\DuanwuMainView.lua" />
+                    <LuaFile RelativePath=".\DuanwuMakeView.lua" />
+                    <LuaFile RelativePath=".\DuanwuSubmitView.lua" />
+                    <LuaFile RelativePath=".\DuanwuTaskView.lua" />
+                    <LuaFile RelativePath=".\EntrustDetailView.lua" />
+                    <LuaFile RelativePath=".\EntrustEntranceView.lua" />
+                    <LuaFile RelativePath=".\EntrustGemFlushView.lua" />
+                    <LuaFile RelativePath=".\GiftActivityView.lua" />
+                    <LuaFile RelativePath=".\json.lua" />
+                    <LuaFile RelativePath=".\JumpActivityView.lua" />
+                    <LuaFile RelativePath=".\MonthCardView.lua" />
+                    <LuaFile RelativePath=".\NewGuySummonView.lua" />
+                    <LuaFile RelativePath=".\NewYearActivityExtendUI.lua" />
+                    <LuaFile RelativePath=".\NewYearDetailView.lua" />
+                    <LuaFile RelativePath=".\NewYearEntranceView.lua" />
+                    <LuaFile RelativePath=".\NianShouCallSuccessTip.lua" />
+                    <LuaFile RelativePath=".\NianShouTip.lua" />
+                    <LuaFile RelativePath=".\RechargeActivityView.lua" />
+                    <LuaFile RelativePath=".\SevenExGiftView.lua" />
+                    <LuaFile RelativePath=".\SevenSignView.lua" />
+                    <LuaFile RelativePath=".\StoreActivityView.lua" />
+                    <LuaFile RelativePath=".\SummerActivityView.lua" />
+                    <LuaFile RelativePath=".\SummonActivityView.lua" />
+                    <LuaFile RelativePath=".\SupportStoreView.lua" />
+                    <LuaFile RelativePath=".\SxBirthdayActivityView.lua" />
+                    <LuaFile RelativePath=".\SxBirthdayCityView.lua" />
+                    <LuaFile RelativePath=".\SxBirthdayDatingView.lua" />
+                    <LuaFile RelativePath=".\SxBirthdayMainView.lua" />
+                    <LuaFile RelativePath=".\SxBirthdayRewardView.lua" />
+                    <LuaFile RelativePath=".\SxBirthdayTravelView.lua" />
+                    <LuaFile RelativePath=".\TaskActivityView.lua" />
+                    <LuaFile RelativePath=".\ValentineActivityView.lua" />
+                    <LuaFile RelativePath=".\ValentineLetterView.lua" />
+                    <LuaFile RelativePath=".\ValentineReviewView.lua" />
+                    <LuaFile RelativePath=".\WelfareRechargeView.lua" />
+                    <LuaFile RelativePath=".\WelfareSignView.lua" />
+                    <LuaFile RelativePath=".\WelfareTaskView.lua" />
+                    <LuaFile RelativePath=".\WhiteValentineActivityView.lua" />
+                    <LuaFile RelativePath=".\YanHuaSelectView.lua" />
+                    <LuaFile RelativePath=".\BlackAndWhiteActivityView.lua" />
+                    <LuaFile RelativePath=".\ActivityMainView3.lua" />
+                    <LuaFile RelativePath=".\ActivityMainView4.lua" />
+                    <LuaFile RelativePath=".\ActivityZhouNianQingHuiYi.lua" />
+                    <LuaFile RelativePath=".\AnniversaryFeedbackView.lua" />
+                    <LuaFile RelativePath=".\AnniversaryPreheatView.lua" />
+                    <LuaFile RelativePath=".\ZhouNianQingGuanQia.lua" />
+                    <LuaFile RelativePath=".\ZhouNianQingHuiGu.lua" />
+                    <LuaFile RelativePath=".\ZhouNianQingJiangLi.lua" />
+                    <LuaFile RelativePath=".\ZhouNianQingMain.lua" />
+                    <LuaFile RelativePath=".\ZhouNianQingPopView.lua" />
+                    <LuaFile RelativePath=".\ZhouNianQingRuKou.lua" />
+                    <LuaFile RelativePath=".\ZhouNianQingXinJian.lua" />
+                    <LuaFile RelativePath=".\AutumnActivityView.lua" />
+                    <LuaFile RelativePath=".\HalloweenActivityView.lua" />
+                </Filter>
+                <Filter RelativePath=".\agora" Toggle="true" >
+                    <LuaFile RelativePath=".\AgoraComposeGetItems.lua" />
+                    <LuaFile RelativePath=".\AgoraComposeView.lua" />
+                    <LuaFile RelativePath=".\AgoraContributionView.lua" />
+                    <LuaFile RelativePath=".\AgoraFightZone.lua" />
+                    <LuaFile RelativePath=".\AgoraLevelView.lua" />
+                    <LuaFile RelativePath=".\AgoraLotteryHistoryView.lua" />
+                    <LuaFile RelativePath=".\AgoraLotteryPreviewView.lua" />
+                    <LuaFile RelativePath=".\AgoraLotteryView.lua" />
+                    <LuaFile RelativePath=".\AgoraMainView.lua" />
+                    <LuaFile RelativePath=".\AgoraTaskView.lua" />
+                </Filter>
+                <Filter RelativePath=".\angel" Toggle="true" >
+                    <LuaFile RelativePath=".\AngelAwakenResult.lua" />
+                    <LuaFile RelativePath=".\AngelInfo.lua" />
+                    <LuaFile RelativePath=".\AngelReset.lua" />
+                    <LuaFile RelativePath=".\AngelTalentAdd.lua" />
+                </Filter>
+                <Filter RelativePath=".\angelNew" Toggle="true" >
+                    <LuaFile RelativePath=".\AngelInfo.lua" />
+                    <LuaFile RelativePath=".\AngelTabLayer.lua" />
+                    <LuaFile RelativePath=".\SkillPreView.lua" />
+                </Filter>
+                <Filter RelativePath=".\bag" Toggle="true" >
+                    <LuaFile RelativePath=".\BagView.lua" />
+                    <LuaFile RelativePath=".\GetItemView.lua" />
+                    <LuaFile RelativePath=".\ItemAccessView.lua" />
+                    <LuaFile RelativePath=".\ItemInfoView.lua" />
+                    <LuaFile RelativePath=".\ItemSellConfirmView.lua" />
+                    <LuaFile RelativePath=".\RecoverItemView.lua" />
+                    <LuaFile RelativePath=".\UseItemSelectView.lua" />
+                </Filter>
+                <Filter RelativePath=".\battle" Toggle="false" >
+                    <LuaFile RelativePath=".\ActionMgr.lua" />
+                    <LuaFile RelativePath=".\Actor.lua" />
+                    <LuaFile RelativePath=".\AIAgent.lua" />
+                    <LuaFile RelativePath=".\AwakeMgr.lua" />
+                    <LuaFile RelativePath=".\BattleCamera.lua" />
+                    <LuaFile RelativePath=".\BattleCGLayer.lua" />
+                    <LuaFile RelativePath=".\BattleConfig.lua" />
+                    <LuaFile RelativePath=".\BattleController.lua" />
+                    <LuaFile RelativePath=".\BattleGuide.lua" />
+                    <LuaFile RelativePath=".\BattleMap.lua" />
+                    <LuaFile RelativePath=".\BattleMgr.lua" />
+                    <LuaFile RelativePath=".\BattlePauseView.lua" />
+                    <LuaFile RelativePath=".\BattleResultShareView.lua" />
+                    <LuaFile RelativePath=".\BattleResultView.lua" />
+                    <LuaFile RelativePath=".\BattleScene.lua" />
+                    <LuaFile RelativePath=".\BattleStatus.lua" />
+                    <LuaFile RelativePath=".\BattleTimerManager.lua" />
+                    <LuaFile RelativePath=".\BattleUtils.lua" />
+                    <LuaFile RelativePath=".\BattleView.lua" />
+                    <LuaFile RelativePath=".\BFEffect.lua" />
+                    <LuaFile RelativePath=".\BrushMonster.lua" />
+                    <LuaFile RelativePath=".\Buffer.lua" />
+                    <LuaFile RelativePath=".\CountDown.lua" />
+                    <LuaFile RelativePath=".\CurtainLayer.lua" />
+                    <LuaFile RelativePath=".\EndlessCountdownView.lua" />
+                    <LuaFile RelativePath=".\EndlessLevelResultView.lua" />
+                    <LuaFile RelativePath=".\EndlessPauseView.lua" />
+                    <LuaFile RelativePath=".\Energy.lua" />
+                    <LuaFile RelativePath=".\enum.lua" />
+                    <LuaFile RelativePath=".\EventTrigger.lua" />
+                    <LuaFile RelativePath=".\ExEventTrigger.lua" />
+                    <LuaFile RelativePath=".\Form.lua" />
+                    <LuaFile RelativePath=".\FullMaskLayer.lua" />
+                    <LuaFile RelativePath=".\GameObject.lua" />
+                    <LuaFile RelativePath=".\Hero.lua" />
+                    <LuaFile RelativePath=".\IconListView.lua" />
+                    <LuaFile RelativePath=".\KeyBoard.lua" />
+                    <LuaFile RelativePath=".\KeyQueue.lua" />
+                    <LuaFile RelativePath=".\KeyStateMgr.lua" />
+                    <LuaFile RelativePath=".\LevelInfoLayer.lua" />
+                    <LuaFile RelativePath=".\LevelParse.lua" />
+                    <LuaFile RelativePath=".\LockStep.lua" />
+                    <LuaFile RelativePath=".\MusicGame.lua" />
+                    <LuaFile RelativePath=".\MusicMgr.lua" />
+                    <LuaFile RelativePath=".\Operate.lua" />
+                    <LuaFile RelativePath=".\PauseView.lua" />
+                    <LuaFile RelativePath=".\PracticeSetView.lua" />
+                    <LuaFile RelativePath=".\Property.lua" />
+                    <LuaFile RelativePath=".\PropertyEx.lua" />
+                    <LuaFile RelativePath=".\RandomGenerator.lua" />
+                    <LuaFile RelativePath=".\ResLoader.lua" />
+                    <LuaFile RelativePath=".\Roulette.lua" />
+                    <LuaFile RelativePath=".\ScriptEvtNode.lua" />
+                    <LuaFile RelativePath=".\selectTarget.lua" />
+                    <LuaFile RelativePath=".\SimpleHero.lua" />
+                    <LuaFile RelativePath=".\Skill.lua" />
+                    <LuaFile RelativePath=".\SkillEffect.lua" />
+                    <LuaFile RelativePath=".\SkillEx.lua" />
+                    <LuaFile RelativePath=".\SkillHelpView.lua" />
+                    <LuaFile RelativePath=".\StateMachine.lua" />
+                    <LuaFile RelativePath=".\StateMachineEx.lua" />
+                    <LuaFile RelativePath=".\StateMgr.lua" />
+                    <LuaFile RelativePath=".\Statistics.lua" />
+                    <LuaFile RelativePath=".\StoryScriptParse.lua" />
+                    <LuaFile RelativePath=".\SuperArmor.lua" />
+                    <LuaFile RelativePath=".\Team.lua" />
+                    <LuaFile RelativePath=".\TeamFightNetWait.lua" />
+                    <LuaFile RelativePath=".\TeamFightResultView.lua" />
+                    <LuaFile RelativePath=".\TeamFightReviveView.lua" />
+                    <LuaFile RelativePath=".\TeamView.lua" />
+                    <LuaFile RelativePath=".\TheaterBossResultView.lua" />
+                    <LuaFile RelativePath=".\TheaterDatingResultView.lua" />
+                    <LuaFile RelativePath=".\TrainMatrixPauseView.lua" />
+                    <LuaFile RelativePath=".\TxjzResultView.lua" />
+                    <LuaFile RelativePath=".\VictoryDecide.lua" />
+                    <LuaFile RelativePath=".\VisualHero.lua" />
+                    <LuaFile RelativePath=".\WitchTime.lua" />
+                    <Filter RelativePath=".\flight" Toggle="true" >
+                        <LuaFile RelativePath=".\Bomb.lua" />
+                        <LuaFile RelativePath=".\CaptainBase.lua" />
+                        <LuaFile RelativePath=".\FighterBase.lua" />
+                        <LuaFile RelativePath=".\FlightBrushMonster.lua" />
+                        <LuaFile RelativePath=".\FlightController.lua" />
+                        <LuaFile RelativePath=".\FlightKeyBoard.lua" />
+                        <LuaFile RelativePath=".\FlightView.lua" />
+                        <LuaFile RelativePath=".\Impact.lua" />
+                        <LuaFile RelativePath=".\MonsterCaptain.lua" />
+                        <LuaFile RelativePath=".\MonsterFighter.lua" />
+                        <LuaFile RelativePath=".\ObjectPool.lua" />
+                        <LuaFile RelativePath=".\PlayerCaptain.lua" />
+                        <LuaFile RelativePath=".\PlayerFighter.lua" />
+                        <LuaFile RelativePath=".\SpellBase.lua" />
+                        <LuaFile RelativePath=".\Wingman.lua" />
+                        <LuaFile RelativePath=".\WingmanCaptain.lua" />
+                    </Filter>
+                </Filter>
+                <Filter RelativePath=".\bingo" Toggle="true" >
+                    <LuaFile RelativePath=".\BingoDatingView.lua" />
+                    <LuaFile RelativePath=".\BingoDiceView.lua" />
+                    <LuaFile RelativePath=".\BingoDivinationView.lua" />
+                    <LuaFile RelativePath=".\BingoMainView.lua" />
+                    <LuaFile RelativePath=".\BingoMainViewNew.lua" />
+                    <LuaFile RelativePath=".\BingoResultView.lua" />
+                    <LuaFile RelativePath=".\BingoTaskView.lua" />
+                    <LuaFile RelativePath=".\BingoTurnPlateView.lua" />
+                </Filter>
+                <Filter RelativePath=".\catchDoll" Toggle="true" >
+                    <LuaFile RelativePath=".\CatchDollScene.lua" />
+                    <LuaFile RelativePath=".\CatchDollUIView.lua" />
+                </Filter>
+                <Filter RelativePath=".\cg" Toggle="true" >
+                    <LuaFile RelativePath=".\CgView.lua" />
+                </Filter>
+                <Filter RelativePath=".\chat" Toggle="true" >
+                    <LuaFile RelativePath=".\ChatView.lua" />
+                    <LuaFile RelativePath=".\DeleteFrientsView.lua" />
+                    <LuaFile RelativePath=".\DifficultyChoice.lua" />
+                    <LuaFile RelativePath=".\PlayerInfoView.lua" />
+                    <LuaFile RelativePath=".\ScrollBar.lua" />
+                </Filter>
+                <Filter RelativePath=".\chronoCross" Toggle="true" >
+                    <LuaFile RelativePath=".\ChronoCrossConfirmView.lua" />
+                    <LuaFile RelativePath=".\ChronoCrossDating.lua" />
+                    <LuaFile RelativePath=".\ChronoCrossMainView.lua" />
+                    <LuaFile RelativePath=".\ChronoCrossTaskView.lua" />
+                    <LuaFile RelativePath=".\ChronoPuzzleView.lua" />
+                    <LuaFile RelativePath=".\ChronoTaskConfirmView.lua" />
+                </Filter>
+                <Filter RelativePath=".\city" Toggle="true" >
+                    <LuaFile RelativePath=".\BuildLevelUpView.lua" />
+                    <LuaFile RelativePath=".\BuildUnlockView.lua" />
+                    <LuaFile RelativePath=".\CityInfoView.lua" />
+                    <LuaFile RelativePath=".\CityJobView.lua" />
+                    <LuaFile RelativePath=".\CityMainView.lua" />
+                    <LuaFile RelativePath=".\CitySpriteSelectView.lua" />
+                    <LuaFile RelativePath=".\CityWorkView.lua" />
+                    <LuaFile RelativePath=".\GetJobRewardView.lua" />
+                </Filter>
+                <Filter RelativePath=".\coffee" Toggle="true" >
+                    <LuaFile RelativePath=".\CoffeeChangeView.lua" />
+                    <LuaFile RelativePath=".\CoffeeDetailsView.lua" />
+                    <LuaFile RelativePath=".\CoffeeFettersView.lua" />
+                    <LuaFile RelativePath=".\CoffeeMainView.lua" />
+                    <LuaFile RelativePath=".\CoffeeRecoverView.lua" />
+                    <LuaFile RelativePath=".\CoffeeRecruitView.lua" />
+                    <LuaFile RelativePath=".\CoffeeStoryView.lua" />
+                    <LuaFile RelativePath=".\CoffeeTaskView.lua" />
+                </Filter>
+                <Filter RelativePath=".\collect" Toggle="true" >
+                    <LuaFile RelativePath=".\CollectBaseView.lua" />
+                    <LuaFile RelativePath=".\CollectBGMView.lua" />
+                    <LuaFile RelativePath=".\CollectCGView.lua" />
+                    <LuaFile RelativePath=".\CollectDatingView.lua" />
+                    <LuaFile RelativePath=".\CollectDressView.lua" />
+                    <LuaFile RelativePath=".\CollectEquipView.lua" />
+                    <LuaFile RelativePath=".\CollectMainView.lua" />
+                    <LuaFile RelativePath=".\CollectMedalView.lua" />
+                    <LuaFile RelativePath=".\CollectorView.lua" />
+                    <LuaFile RelativePath=".\CollectPortraitView.lua" />
+                    <LuaFile RelativePath=".\CollectScenePreView.lua" />
+                    <LuaFile RelativePath=".\CollectSceneView.lua" />
+                    <LuaFile RelativePath=".\CollectSpriteView.lua" />
+                    <LuaFile RelativePath=".\CollectTokenView.lua" />
+                </Filter>
+                <Filter RelativePath=".\common" Toggle="true" >
+                    <LuaFile RelativePath=".\BaseLayer.lua" />
+                    <LuaFile RelativePath=".\BuyResourceView.lua" />
+                    <LuaFile RelativePath=".\CgAnimation.lua" />
+                    <LuaFile RelativePath=".\CgView.lua" />
+                    <LuaFile RelativePath=".\ChangeEquipConfirmView.lua" />
+                    <LuaFile RelativePath=".\ChooseMessageBox.lua" />
+                    <LuaFile RelativePath=".\ConfirmBoxView.lua" />
+                    <LuaFile RelativePath=".\ConfirmConvertView.lua" />
+                    <LuaFile RelativePath=".\DatingRewardView.lua" />
+                    <LuaFile RelativePath=".\ElvesNpc.lua" />
+                    <LuaFile RelativePath=".\ExtAssetsDownloadView.lua" />
+                    <LuaFile RelativePath=".\FavorAndMoodView.lua" />
+                    <LuaFile RelativePath=".\FavorInfoView.lua" />
+                    <LuaFile RelativePath=".\FavorUpView.lua" />
+                    <LuaFile RelativePath=".\FunctionOpenView.lua" />
+                    <LuaFile RelativePath=".\FunctionTipsView.lua" />
+                    <LuaFile RelativePath=".\GameAlertView.lua" />
+                    <LuaFile RelativePath=".\GameConfig.lua" />
+                    <LuaFile RelativePath=".\GetCgItemView.lua" />
+                    <LuaFile RelativePath=".\HelpView.lua" />
+                    <LuaFile RelativePath=".\InputLayer.lua" />
+                    <LuaFile RelativePath=".\ItemCoolDownTips.lua" />
+                    <LuaFile RelativePath=".\KanBanNiangView.lua" />
+                    <LuaFile RelativePath=".\LevelUpView.lua" />
+                    <LuaFile RelativePath=".\LoadingLayer.lua" />
+                    <LuaFile RelativePath=".\MessageBox.lua" />
+                    <LuaFile RelativePath=".\NoticeMarQueeLayer.lua" />
+                    <LuaFile RelativePath=".\PreviewRewardView.lua" />
+                    <LuaFile RelativePath=".\RechargeJumpView.lua" />
+                    <LuaFile RelativePath=".\ReConfirmTipsView.lua" />
+                    <LuaFile RelativePath=".\ToastMessage.lua" />
+                    <LuaFile RelativePath=".\TopBar.lua" />
+                    <LuaFile RelativePath=".\VideoView.lua" />
+                </Filter>
+                <Filter RelativePath=".\dafuwong" Toggle="true" >
+                    <LuaFile RelativePath=".\DfwCardView.lua" />
+                    <LuaFile RelativePath=".\DfwEventView.lua" />
+                    <LuaFile RelativePath=".\DfwHandAccountView.lua" />
+                    <LuaFile RelativePath=".\DfwMainView.lua" />
+                    <LuaFile RelativePath=".\DfwStepRewardView.lua" />
+                    <LuaFile RelativePath=".\DfwTaskView.lua" />
+                    <LuaFile RelativePath=".\DfwTurntableView.lua" />
+                </Filter>
+                <Filter RelativePath=".\dalMap" Toggle="true" >
+                    <LuaFile RelativePath=".\DalBigMiniMap.lua" />
+                    <LuaFile RelativePath=".\DalGame.lua" />
+                    <LuaFile RelativePath=".\DalMapFight.lua" />
+                    <LuaFile RelativePath=".\DalMapFormation.lua" />
+                    <LuaFile RelativePath=".\DalMapMainView.lua" />
+                    <LuaFile RelativePath=".\DalMapTransport.lua" />
+                    <LuaFile RelativePath=".\DalminiMap.lua" />
+                    <LuaFile RelativePath=".\GenerateDalMap.lua" />
+                    <LuaFile RelativePath=".\GenerateItem.lua" />
+                    <LuaFile RelativePath=".\GenerateNpc.lua" />
+                </Filter>
+                <Filter RelativePath=".\dating" Toggle="true" >
+                    <LuaFile RelativePath=".\BuyDatingTimesView.lua" />
+                    <LuaFile RelativePath=".\DailyCityInfoView.lua" />
+                    <LuaFile RelativePath=".\DatingChangeBgView.lua" />
+                    <LuaFile RelativePath=".\DatingCompleteView.lua" />
+                    <LuaFile RelativePath=".\DatingConfig.lua" />
+                    <LuaFile RelativePath=".\DatingDayView.lua" />
+                    <LuaFile RelativePath=".\DatingDressView.lua" />
+                    <LuaFile RelativePath=".\DatingEdit.lua" />
+                    <LuaFile RelativePath=".\DatingFailView.lua" />
+                    <LuaFile RelativePath=".\DatingFavorRewardView.lua" />
+                    <LuaFile RelativePath=".\DatingGiftView.lua" />
+                    <LuaFile RelativePath=".\DatingGiveGiftView.lua" />
+                    <LuaFile RelativePath=".\DatingLetterView.lua" />
+                    <LuaFile RelativePath=".\DatingMainInfoView.lua" />
+                    <LuaFile RelativePath=".\DatingMainView.lua" />
+                    <LuaFile RelativePath=".\DatingOptionView.lua" />
+                    <LuaFile RelativePath=".\DatingOutsideView.lua" />
+                    <LuaFile RelativePath=".\DatingPublic.lua" />
+                    <LuaFile RelativePath=".\DatingQualityView.lua" />
+                    <LuaFile RelativePath=".\DatingResLoader.lua" />
+                    <LuaFile RelativePath=".\DatingReverseLayer.lua" />
+                    <LuaFile RelativePath=".\DatingReview.lua" />
+                    <LuaFile RelativePath=".\DatingRewardInfoView.lua" />
+                    <LuaFile RelativePath=".\DatingRewardPreviewView.lua" />
+                    <LuaFile RelativePath=".\DatingScene.lua" />
+                    <LuaFile RelativePath=".\DatingScriptConfig.lua" />
+                    <LuaFile RelativePath=".\DatingScriptView.lua" />
+                    <LuaFile RelativePath=".\DatingStarSettlementView.lua" />
+                    <LuaFile RelativePath=".\DatingTestView.lua" />
+                    <LuaFile RelativePath=".\DatingTypeView.lua" />
+                    <LuaFile RelativePath=".\DecorateRoomView.lua" />
+                    <LuaFile RelativePath=".\DecorationsEffect.lua" />
+                    <LuaFile RelativePath=".\DressLayer.lua" />
+                    <LuaFile RelativePath=".\DressView.lua" />
+                    <LuaFile RelativePath=".\FavorUpgradeLayer.lua" />
+                    <LuaFile RelativePath=".\FavorView.lua" />
+                    <LuaFile RelativePath=".\FubenCitySettlementLayer.lua" />
+                    <LuaFile RelativePath=".\GiftsLayer.lua" />
+                    <LuaFile RelativePath=".\GiftsView.lua" />
+                    <LuaFile RelativePath=".\KanBanLayer.lua" />
+                    <LuaFile RelativePath=".\MoodLayer.lua" />
+                    <LuaFile RelativePath=".\MoodView.lua" />
+                    <LuaFile RelativePath=".\NewDatingDayView.lua" />
+                    <LuaFile RelativePath=".\RoleAreaView.lua" />
+                    <LuaFile RelativePath=".\RoleInfoLayer.lua" />
+                    <LuaFile RelativePath=".\RoomView.lua" />
+                    <LuaFile RelativePath=".\SettlementLayer.lua" />
+                    <LuaFile RelativePath=".\SpecialCgView.lua" />
+                    <LuaFile RelativePath=".\SpecialEffectsTestLayer.lua" />
+                    <LuaFile RelativePath=".\UnlockGoodsView.lua" />
+                    <LuaFile RelativePath=".\DatingLetterOptionView.lua" />
+                </Filter>
+                <Filter RelativePath=".\datingPhone" Toggle="true" >
+                    <LuaFile RelativePath=".\PhoneDatingView.lua" />
+                    <LuaFile RelativePath=".\PhoneMainView.lua" />
+                    <LuaFile RelativePath=".\PhoneMainViewAI.lua" />
+                    <LuaFile RelativePath=".\PhoneMainViewAIH.lua" />
+                    <LuaFile RelativePath=".\PhoneScene.lua" />
+                    <LuaFile RelativePath=".\PhoneTipView.lua" />
+                    <LuaFile RelativePath=".\SceondAIChatView.lua" />
+                    <LuaFile RelativePath=".\AiLabshowView.lua" />
+                    <LuaFile RelativePath=".\RoleTachMacro.lua" />
+                    <LuaFile RelativePath=".\RoleTeachBuyView.lua" />
+                    <LuaFile RelativePath=".\RoleTeachFuncLayer.lua" />
+                    <LuaFile RelativePath=".\TeachCardShowView.lua" />
+                </Filter>
+                <Filter RelativePath=".\default" Toggle="true" >
+                    <LuaFile RelativePath=".\DefaultLayer.lua" />
+                    <LuaFile RelativePath=".\DefaultScene.lua" />
+                </Filter>
+                <Filter RelativePath=".\dfwSummer" Toggle="true" >
+                    <LuaFile RelativePath=".\DfwSummerCardView.lua" />
+                    <LuaFile RelativePath=".\DfwSummerEventView.lua" />
+                    <LuaFile RelativePath=".\DfwSummerHandAccountView.lua" />
+                    <LuaFile RelativePath=".\DfwSummerMainView.lua" />
+                    <LuaFile RelativePath=".\DfwSummerStepRewardView.lua" />
+                    <LuaFile RelativePath=".\DfwSummerTaskView.lua" />
+                    <LuaFile RelativePath=".\DfwSummerTurntableView.lua" />
+                </Filter>
+                <Filter RelativePath=".\dispatch" Toggle="true" >
+                    <LuaFile RelativePath=".\DispatchAddHeroLayer.lua" />
+                    <LuaFile RelativePath=".\DispatchDetailLayer.lua" />
+                    <LuaFile RelativePath=".\DispatchHeroLayer.lua" />
+                    <LuaFile RelativePath=".\DispatchMainLayer.lua" />
+                    <LuaFile RelativePath=".\DispatchRewardShowLayer.lua" />
+                </Filter>
+                <Filter RelativePath=".\dls" Toggle="true" >
+                    <LuaFile RelativePath=".\DlsMainView.lua" />
+                    <LuaFile RelativePath=".\DlsReadyView.lua" />
+                    <LuaFile RelativePath=".\DlsTreasureHouseView.lua" />
+                    <LuaFile RelativePath=".\DlsTreasureRewardView.lua" />
+                    <LuaFile RelativePath=".\DlsWelfareRewardView.lua" />
+                    <LuaFile RelativePath=".\DlsWelfareView.lua" />
+                </Filter>
+                <Filter RelativePath=".\Equipment" Toggle="true" >
+                    <LuaFile RelativePath=".\EquipConvertTips.lua" />
+                    <LuaFile RelativePath=".\EquipmentConvert.lua" />
+                    <LuaFile RelativePath=".\EquipmentInfo.lua" />
+                    <LuaFile RelativePath=".\EquipmentRecycle.lua" />
+                    <LuaFile RelativePath=".\EquipmentRecycleConfirm.lua" />
+                    <LuaFile RelativePath=".\EquipmentReform.lua" />
+                    <LuaFile RelativePath=".\EquipmentSelect.lua" />
+                    <LuaFile RelativePath=".\EquipmentStarUp.lua" />
+                    <LuaFile RelativePath=".\EquipmentStrengthen.lua" />
+                    <LuaFile RelativePath=".\EquipStrengthTips.lua" />
+                    <LuaFile RelativePath=".\StarUpEquipChoose.lua" />
+                </Filter>
+                <Filter RelativePath=".\fairy" Toggle="true" >
+                    <LuaFile RelativePath=".\FairyLevelUp.lua" />
+                    <LuaFile RelativePath=".\FairyLevelUpResult.lua" />
+                    <LuaFile RelativePath=".\FairyMainLayer.lua" />
+                    <LuaFile RelativePath=".\FormationLayer.lua" />
+                    <LuaFile RelativePath=".\StrengthenResult.lua" />
+                </Filter>
+                <Filter RelativePath=".\fairyNew" Toggle="true" >
+                    <LuaFile RelativePath=".\BaoshiChooselView.lua" />
+                    <LuaFile RelativePath=".\BaoshiComposeView.lua" />
+                    <LuaFile RelativePath=".\BaoshiDecomposeView.lua" />
+                    <LuaFile RelativePath=".\BaoshiDetailView.lua" />
+                    <LuaFile RelativePath=".\BaoshiRaritySortChooseView.lua" />
+                    <LuaFile RelativePath=".\BaoshiRecastView.lua" />
+                    <LuaFile RelativePath=".\BaoshiSkillShowView.lua" />
+                    <LuaFile RelativePath=".\BaoshiSkillTipsView.lua" />
+                    <LuaFile RelativePath=".\BaoshiSpecialComposeView.lua" />
+                    <LuaFile RelativePath=".\BaoshiTuzhiSortView.lua" />
+                    <LuaFile RelativePath=".\BeforeEvloutionShowView.lua" />
+                    <LuaFile RelativePath=".\CrystalTransform.lua" />
+                    <LuaFile RelativePath=".\EquipSuitBagShowView.lua" />
+                    <LuaFile RelativePath=".\EquipSuitLevelUpSuccess.lua" />
+                    <LuaFile RelativePath=".\EquipSuitMainLayer.lua" />
+                    <LuaFile RelativePath=".\EquipSuitShowView.lua" />
+                    <LuaFile RelativePath=".\EquipSuitStarUpSuccess.lua" />
+                    <LuaFile RelativePath=".\EquipSuitStarUpView.lua" />
+                    <LuaFile RelativePath=".\EquipSuitUpView.lua" />
+                    <LuaFile RelativePath=".\EvaluationView.lua" />
+                    <LuaFile RelativePath=".\FairyDetailsLayer.lua" />
+                    <LuaFile RelativePath=".\FairyEnergyBreakUpView.lua" />
+                    <LuaFile RelativePath=".\FairyEnergyBreakView.lua" />
+                    <LuaFile RelativePath=".\FairyEnergyLevelUp.lua" />
+                    <LuaFile RelativePath=".\FairyEnergyLevelUpView.lua" />
+                    <LuaFile RelativePath=".\FairyEnergyResetView.lua" />
+                    <LuaFile RelativePath=".\FairyEnergyUpView.lua" />
+                    <LuaFile RelativePath=".\FairyEnergyUseView.lua" />
+                    <LuaFile RelativePath=".\FairyEvolutionLayer.lua" />
+                    <LuaFile RelativePath=".\FairyHeroEnergyUnlockView.lua" />
+                    <LuaFile RelativePath=".\FairyLevelUp.lua" />
+                    <LuaFile RelativePath=".\FairyLevelUpResult.lua" />
+                    <LuaFile RelativePath=".\FairyMainLayer.lua" />
+                    <LuaFile RelativePath=".\FairyMainLayer_temp.lua" />
+                    <LuaFile RelativePath=".\FairySkillinfo.lua" />
+                    <LuaFile RelativePath=".\FairyStrategyView.lua" />
+                    <LuaFile RelativePath=".\FastEvolutionTips.lua" />
+                    <LuaFile RelativePath=".\StrengthenResult.lua" />
+                </Filter>
+                <Filter RelativePath=".\friend" Toggle="true" >
+                    <LuaFile RelativePath=".\FriendView.lua" />
+                </Filter>
+                <Filter RelativePath=".\fuben" Toggle="false" >
+                    <LuaFile RelativePath=".\CgVideoView.lua" />
+                    <LuaFile RelativePath=".\FubenChapterPassView.lua" />
+                    <LuaFile RelativePath=".\FubenChapterView.lua" />
+                    <LuaFile RelativePath=".\FubenDailyBuyCountView.lua" />
+                    <LuaFile RelativePath=".\FubenDailyOpenRuleView.lua" />
+                    <LuaFile RelativePath=".\FubenDailyView.lua" />
+                    <LuaFile RelativePath=".\FubenEndlessJumpView.lua" />
+                    <LuaFile RelativePath=".\FubenEndlessTotalRank.lua" />
+                    <LuaFile RelativePath=".\FubenEndlessView.lua" />
+                    <LuaFile RelativePath=".\FubenFlightSquadView.lua" />
+                    <LuaFile RelativePath=".\FubenHalloweenView.lua" />
+                    <LuaFile RelativePath=".\FubenLevelView.lua" />
+                    <LuaFile RelativePath=".\FubenPlotBuyCountView.lua" />
+                    <LuaFile RelativePath=".\FubenReadyView.lua" />
+                    <LuaFile RelativePath=".\FubenSelectCountView.lua" />
+                    <LuaFile RelativePath=".\FubenSpriteExtraView.lua" />
+                    <LuaFile RelativePath=".\FubenSpriteRewardView.lua" />
+                    <LuaFile RelativePath=".\FubenSpriteView.lua" />
+                    <LuaFile RelativePath=".\FubenSquadView.lua" />
+                    <LuaFile RelativePath=".\FubenStarRewardView.lua" />
+                    <LuaFile RelativePath=".\FubenTheaterBossView.lua" />
+                    <LuaFile RelativePath=".\FubenTheaterCountView.lua" />
+                    <LuaFile RelativePath=".\FubenTheaterLevelView.lua" />
+                    <LuaFile RelativePath=".\FubenTheaterRewardView.lua" />
+                    <LuaFile RelativePath=".\MainLinePassView.lua" />
+                    <LuaFile RelativePath=".\MainLineView.lua" />
+                    <LuaFile RelativePath=".\NewFubenTheaterHardLevelView.lua" />
+                    <LuaFile RelativePath=".\FubenHalloweenLevelView.lua" />
+                </Filter>
+                <Filter RelativePath=".\guide" Toggle="true" >
+                    <LuaFile RelativePath=".\GameGuide.lua" />
+                    <LuaFile RelativePath=".\GuideMain.lua" />
+                    <LuaFile RelativePath=".\GuideMgr.lua" />
+                    <LuaFile RelativePath=".\GuideView.lua" />
+                </Filter>
+                <Filter RelativePath=".\infoStation" Toggle="true" >
+                    <LuaFile RelativePath=".\InfoStationLayer.lua" />
+                </Filter>
+                <Filter RelativePath=".\kabalaTree" Toggle="true" >
+                    <LuaFile RelativePath=".\KabalaAStarPath.lua" />
+                    <LuaFile RelativePath=".\KabalaTreeAward.lua" />
+                    <LuaFile RelativePath=".\KabalaTreeAwardBuff.lua" />
+                    <LuaFile RelativePath=".\KabalaTreeBag.lua" />
+                    <LuaFile RelativePath=".\KabalaTreeBigMiniMap.lua" />
+                    <LuaFile RelativePath=".\KabalaTreeCg.lua" />
+                    <LuaFile RelativePath=".\KabalaTreeCleanTask.lua" />
+                    <LuaFile RelativePath=".\KabalaTreeConcealBoss.lua" />
+                    <LuaFile RelativePath=".\KabalaTreeExploreView.lua" />
+                    <LuaFile RelativePath=".\KabalaTreeFight.lua" />
+                    <LuaFile RelativePath=".\KabalaTreeFightConfirm.lua" />
+                    <LuaFile RelativePath=".\KabalaTreeFormation.lua" />
+                    <LuaFile RelativePath=".\KabalaTreeGame.lua" />
+                    <LuaFile RelativePath=".\KabalaTreeGridMap.lua" />
+                    <LuaFile RelativePath=".\KabalaTreeItem.lua" />
+                    <LuaFile RelativePath=".\KabalaTreeMainView.lua" />
+                    <LuaFile RelativePath=".\KabalaTreeMapInfo.lua" />
+                    <LuaFile RelativePath=".\KabalaTreeMiniMap.lua" />
+                    <LuaFile RelativePath=".\KabalaTreeNpc.lua" />
+                    <LuaFile RelativePath=".\KabalaTreePlayGuide.lua" />
+                    <LuaFile RelativePath=".\KabalaTreeRadarView.lua" />
+                    <LuaFile RelativePath=".\KabalaTreeState.lua" />
+                    <LuaFile RelativePath=".\KabalaTreeStatistics.lua" />
+                    <LuaFile RelativePath=".\KabalaTreeStore.lua" />
+                    <LuaFile RelativePath=".\KabalaTreeStrongPoint.lua" />
+                    <LuaFile RelativePath=".\KabalaTreeTransport.lua" />
+                    <LuaFile RelativePath=".\KabalaTreeUseItem.lua" />
+                </Filter>
+                <Filter RelativePath=".\league" Toggle="true" >
+                    <LuaFile RelativePath=".\CreateLeagueLayer.lua" />
+                    <LuaFile RelativePath=".\EditJoinLimitView.lua" />
+                    <LuaFile RelativePath=".\EditNoticeView.lua" />
+                    <LuaFile RelativePath=".\JoinLeagueLayer.lua" />
+                    <LuaFile RelativePath=".\LeagueApliesInfoView.lua" />
+                    <LuaFile RelativePath=".\LeagueBuildingMainView.lua" />
+                    <LuaFile RelativePath=".\LeagueDegreeView.lua" />
+                    <LuaFile RelativePath=".\LeagueDelateInfoView.lua" />
+                    <LuaFile RelativePath=".\LeagueFlagChangeView.lua" />
+                    <LuaFile RelativePath=".\LeagueHallView.lua" />
+                    <LuaFile RelativePath=".\LeagueHunterMainView.lua" />
+                    <LuaFile RelativePath=".\LeagueHunterPreviewView.lua" />
+                    <LuaFile RelativePath=".\LeagueHunterRankView.lua" />
+                    <LuaFile RelativePath=".\LeagueHunterRewardView.lua" />
+                    <LuaFile RelativePath=".\LeagueMainLayer.lua" />
+                    <LuaFile RelativePath=".\LeagueMainScene.lua" />
+                    <LuaFile RelativePath=".\LeagueOpenRedPacketView.lua" />
+                    <LuaFile RelativePath=".\LeagueRedPacketDetailView.lua" />
+                    <LuaFile RelativePath=".\LeagueSendRedPacketView.lua" />
+                    <LuaFile RelativePath=".\LeagueSnapInfoView.lua" />
+                    <LuaFile RelativePath=".\LeagueSupplyDropView.lua" />
+                    <LuaFile RelativePath=".\LeagueTrainingBriefView.lua" />
+                    <LuaFile RelativePath=".\LeagueTrainingReadyView.lua" />
+                    <LuaFile RelativePath=".\LeagueTrainingStageView.lua" />
+                    <LuaFile RelativePath=".\LeagueTrainingTaskView.lua" />
+                    <LuaFile RelativePath=".\LeagueTrainingView.lua" />
+                    <LuaFile RelativePath=".\NoLeagueLayer.lua" />
+                    <LuaFile RelativePath=".\LeagueHunterHonorView.lua" />
+                </Filter>
+                <Filter RelativePath=".\load" Toggle="true" >
+                    <LuaFile RelativePath=".\LoadScene.lua" />
+                    <LuaFile RelativePath=".\LoadView.lua" />
+                </Filter>
+                <Filter RelativePath=".\login" Toggle="true" >
+                    <LuaFile RelativePath=".\ActivationLayer.lua" />
+                    <LuaFile RelativePath=".\CleanUpView.lua" />
+                    <LuaFile RelativePath=".\ClientUpdate.lua" />
+                    <LuaFile RelativePath=".\DownLoadingTips.lua" />
+                    <LuaFile RelativePath=".\LoginLayer.lua" />
+                    <LuaFile RelativePath=".\LoginNotice.lua" />
+                    <LuaFile RelativePath=".\LoginScene.lua" />
+                    <LuaFile RelativePath=".\LoginWating.lua" />
+                    <LuaFile RelativePath=".\LogoLayer.lua" />
+                    <LuaFile RelativePath=".\LogoScene.lua" />
+                    <LuaFile RelativePath=".\NoticeBoard.lua" />
+                    <LuaFile RelativePath=".\ObbDownloadLayer.lua" />
+                    <LuaFile RelativePath=".\ServerChoose.lua" />
+                    <LuaFile RelativePath=".\UpdateLayer_new.lua" />
+                </Filter>
+                <Filter RelativePath=".\mail" Toggle="true" >
+                    <LuaFile RelativePath=".\MailMain.lua" />
+                    <LuaFile RelativePath=".\ShowMail.lua" />
+                </Filter>
+                <Filter RelativePath=".\MainScene" Toggle="true" >
+                    <LuaFile RelativePath=".\EvaluateView.lua" />
+                    <LuaFile RelativePath=".\MainLayer.lua" />
+                    <LuaFile RelativePath=".\MainScene.lua" />
+                    <LuaFile RelativePath=".\NoticeView.lua" />
+                    <LuaFile RelativePath=".\Preview.lua" />
+                    <LuaFile RelativePath=".\ProclamationView.lua" />
+                    <LuaFile RelativePath=".\QuestionnaireView.lua" />
+                    <LuaFile RelativePath=".\WeChatView.lua" />
+                </Filter>
+                <Filter RelativePath=".\movie" Toggle="true" >
+                    <LuaFile RelativePath=".\MovieLayer.lua" />
+                    <LuaFile RelativePath=".\MovieScene.lua" />
+                </Filter>
+                <Filter RelativePath=".\newCity" Toggle="true" >
+                    <LuaFile RelativePath=".\Avatar.lua" />
+                    <LuaFile RelativePath=".\CityController.lua" />
+                    <LuaFile RelativePath=".\CityShape.lua" />
+                    <LuaFile RelativePath=".\ISOMap.lua" />
+                    <LuaFile RelativePath=".\MakeFoodView.lua" />
+                    <LuaFile RelativePath=".\ManualMakeView.lua" />
+                    <LuaFile RelativePath=".\MapParse.lua" />
+                    <LuaFile RelativePath=".\NewCityBagView.lua" />
+                    <LuaFile RelativePath=".\NewCityDatingBagView.lua" />
+                    <LuaFile RelativePath=".\NewCityEventSettlementView.lua" />
+                    <LuaFile RelativePath=".\NewCityFairListView.lua" />
+                    <LuaFile RelativePath=".\NewCityFavorTestView.lua" />
+                    <LuaFile RelativePath=".\NewCityGuideView.lua" />
+                    <LuaFile RelativePath=".\NewCityInfoView.lua" />
+                    <LuaFile RelativePath=".\NewCityLoadScene.lua" />
+                    <LuaFile RelativePath=".\NewCityLoadView.lua" />
+                    <LuaFile RelativePath=".\NewCityMainLayer.lua" />
+                    <LuaFile RelativePath=".\NewCityMainScene.lua" />
+                    <LuaFile RelativePath=".\NewCityMessageView.lua" />
+                    <LuaFile RelativePath=".\NewCityPersonalInfoView.lua" />
+                    <LuaFile RelativePath=".\NewCityRemindView.lua" />
+                    <LuaFile RelativePath=".\NewCityResLoader.lua" />
+                    <LuaFile RelativePath=".\NewCityRewardView.lua" />
+                    <LuaFile RelativePath=".\NewCityRoomView.lua" />
+                    <LuaFile RelativePath=".\NewCityUpdateView.lua" />
+                    <LuaFile RelativePath=".\NpcBehave.lua" />
+                    <LuaFile RelativePath=".\PropertyBehave.lua" />
+                    <LuaFile RelativePath=".\RoleBehave.lua" />
+                </Filter>
+                <Filter RelativePath=".\osd" Toggle="true" >
+                    <LuaFile RelativePath=".\AffixPreviewLayer.lua" />
+                    <LuaFile RelativePath=".\BaseCamera.lua" />
+                    <LuaFile RelativePath=".\BaseHero.lua" />
+                    <LuaFile RelativePath=".\BaseMap.lua" />
+                    <LuaFile RelativePath=".\BaseMapParse.lua" />
+                    <LuaFile RelativePath=".\BaseMapView.lua" />
+                    <LuaFile RelativePath=".\BaseOSDScene.lua" />
+                    <LuaFile RelativePath=".\HuntingInvitationCountHelpView.lua" />
+                    <LuaFile RelativePath=".\HuntingInvitationView.lua" />
+                    <LuaFile RelativePath=".\LuckdrawLayer.lua" />
+                    <LuaFile RelativePath=".\MapUtils.lua" />
+                    <LuaFile RelativePath=".\OSDConfig.lua" />
+                    <LuaFile RelativePath=".\OSDConnector.lua" />
+                    <LuaFile RelativePath=".\OSDControl.lua" />
+                    <LuaFile RelativePath=".\OSDEnum.lua" />
+                    <LuaFile RelativePath=".\OSDKeyStateMgr.lua" />
+                    <LuaFile RelativePath=".\OSDLevelEntranceView.lua" />
+                    <LuaFile RelativePath=".\OSDLevelReadyView.lua" />
+                    <LuaFile RelativePath=".\OSDResUtils.lua" />
+                    <LuaFile RelativePath=".\RokerView.lua" />
+                    <LuaFile RelativePath=".\SelectHeroLayer.lua" />
+                    <LuaFile RelativePath=".\TaskLayer.lua" />
+                    <LuaFile RelativePath=".\TeamLevelHelpView.lua" />
+                    <LuaFile RelativePath=".\TransitionScene.lua" />
+                </Filter>
+                <Filter RelativePath=".\playerInfo" Toggle="true" >
+                    <LuaFile RelativePath=".\AvatarChangeView.lua" />
+                    <LuaFile RelativePath=".\ChangeAssistView.lua" />
+                    <LuaFile RelativePath=".\ExchangeCodeView.lua" />
+                    <LuaFile RelativePath=".\LogoutView.lua" />
+                    <LuaFile RelativePath=".\MedalDetailView.lua" />
+                    <LuaFile RelativePath=".\MedalIndexView.lua" />
+                    <LuaFile RelativePath=".\MedalInfoView.lua" />
+                    <LuaFile RelativePath=".\ModifyNameView.lua" />
+                    <LuaFile RelativePath=".\PlayerAccountView.lua" />
+                    <LuaFile RelativePath=".\PlayerInfoConfig.lua" />
+                    <LuaFile RelativePath=".\PlayerInfoPublic.lua" />
+                    <LuaFile RelativePath=".\PlayerInfoSettingView.lua" />
+                    <LuaFile RelativePath=".\PlayerSetting.lua" />
+                    <LuaFile RelativePath=".\TipOff.lua" />
+                    <LuaFile RelativePath=".\TipsGetAvatarFrame.lua" />
+                    <LuaFile RelativePath=".\TipsGetMedal.lua" />
+                    <LuaFile RelativePath=".\UnlockAvatarFrame.lua" />
+                    <LuaFile RelativePath=".\UnlockMedalView.lua" />
+                </Filter>
+                <Filter RelativePath=".\role" Toggle="true" >
+                    <LuaFile RelativePath=".\NewRoleShowView.lua" />
+                    <LuaFile RelativePath=".\NewSceneChangeConfirm.lua" />
+                    <LuaFile RelativePath=".\NewSceneShowView.lua" />
+                    <LuaFile RelativePath=".\RoleListView.lua" />
+                    <LuaFile RelativePath=".\RoleShowView.lua" />
+                    <LuaFile RelativePath=".\RoleTextViewEx.lua" />
+                    <LuaFile RelativePath=".\RoleSwitchSettingView.lua" />
+                </Filter>
+                <Filter RelativePath=".\settings" Toggle="true" >
+                    <LuaFile RelativePath=".\SettingsView.lua" />
+                </Filter>
+                <Filter RelativePath=".\simulationTrial" Toggle="true" >
+                    <LuaFile RelativePath=".\FairyTrailDetailsLayer.lua" />
+                    <LuaFile RelativePath=".\HeroGrowUpView.lua" />
+                    <LuaFile RelativePath=".\SimulationTrialLevelView.lua" />
+                    <LuaFile RelativePath=".\SimulationTrialMainView.lua" />
+                    <LuaFile RelativePath=".\SimulationTrialReward.lua" />
+                    <LuaFile RelativePath=".\SimulationTrialRewardPreview.lua" />
+                </Filter>
+                <Filter RelativePath=".\skyLadder" Toggle="true" >
+                    <LuaFile RelativePath=".\SkyLadderCardBagView.lua" />
+                    <LuaFile RelativePath=".\SkyLadderCardLevelUpView.lua" />
+                    <LuaFile RelativePath=".\SkyLadderCardPackageView.lua" />
+                    <LuaFile RelativePath=".\SkyLadderCardSetView.lua" />
+                    <LuaFile RelativePath=".\SkyLadderCardView.lua" />
+                    <LuaFile RelativePath=".\SkyLadderEndRankView.lua" />
+                    <LuaFile RelativePath=".\SkyLadderEndSeasonView.lua" />
+                    <LuaFile RelativePath=".\SkyLadderEndView.lua" />
+                    <LuaFile RelativePath=".\SkyLadderMainView.lua" />
+                    <LuaFile RelativePath=".\SkyLadderRewardView.lua" />
+                    <LuaFile RelativePath=".\SkyLadderStageView.lua" />
+                    <LuaFile RelativePath=".\SkyLadderTaskView.lua" />
+                    <LuaFile RelativePath=".\SkyLadderTipView.lua" />
+                    <LuaFile RelativePath=".\SkyLadderZonesView.lua" />
+                </Filter>
+                <Filter RelativePath=".\smallGame" Toggle="true" >
+                    <LuaFile RelativePath=".\EliminationGame.lua" />
+                    <LuaFile RelativePath=".\World.lua" />
+                </Filter>
+                <Filter RelativePath=".\store" Toggle="true" >
+                    <LuaFile RelativePath=".\BuyConfirmView.lua" />
+                    <LuaFile RelativePath=".\ChristmasBag.lua" />
+                    <LuaFile RelativePath=".\MCardActivated.lua" />
+                    <LuaFile RelativePath=".\MonthCard.lua" />
+                    <LuaFile RelativePath=".\MonthlyCardTipView.lua" />
+                    <LuaFile RelativePath=".\NewGuyGiftBag.lua" />
+                    <LuaFile RelativePath=".\RechargeMain.lua" />
+                    <LuaFile RelativePath=".\RepeatBuyTipsView.lua" />
+                    <LuaFile RelativePath=".\ShareMainView.lua" />
+                    <LuaFile RelativePath=".\StoreMainView.lua" />
+                    <LuaFile RelativePath=".\OneYearShareView.lua" />
+                    <LuaFile RelativePath=".\WarOrderView.lua" />
+                </Filter>
+                <Filter RelativePath=".\summon" Toggle="true" >
+                    <LuaFile RelativePath=".\SummonBuyResourceView.lua" />
+                    <LuaFile RelativePath=".\SummonComposePreviewView.lua" />
+                    <LuaFile RelativePath=".\SummonComposeView.lua" />
+                    <LuaFile RelativePath=".\SummonContractDetailsView.lua" />
+                    <LuaFile RelativePath=".\SummonContractMainView.lua" />
+                    <LuaFile RelativePath=".\SummonContractPreviewView.lua" />
+                    <LuaFile RelativePath=".\SummonContractResult.lua" />
+                    <LuaFile RelativePath=".\SummonEquipView.lua" />
+                    <LuaFile RelativePath=".\SummonGetEquipmentView.lua" />
+                    <LuaFile RelativePath=".\SummonGetHeroView.lua" />
+                    <LuaFile RelativePath=".\SummonHeroView.lua" />
+                    <LuaFile RelativePath=".\SummonHistoryView.lua" />
+                    <LuaFile RelativePath=".\SummonHotNoticeView.lua" />
+                    <LuaFile RelativePath=".\SummonMainView.lua" />
+                    <LuaFile RelativePath=".\SummonPreviewView.lua" />
+                    <LuaFile RelativePath=".\SummonResultView.lua" />
+                    <LuaFile RelativePath=".\SummonShowView.lua" />
+                    <LuaFile RelativePath=".\SummonSpeedView.lua" />
+                    <LuaFile RelativePath=".\SummonView.lua" />
+                    <LuaFile RelativePath=".\SimulationSummonView.lua" />
+                    <LuaFile RelativePath=".\SimulationSummonMainView.lua" />
+                    <LuaFile RelativePath=".\SimulationSummonExchangeView.lua" />
+                    <LuaFile RelativePath=".\SimulationSummonExchangeTipsView.lua" />
+                    <LuaFile RelativePath=".\SimulationSummonResultView.lua" />
+                </Filter>
+                <Filter RelativePath=".\talk" Toggle="true" >
+                    <LuaFile RelativePath=".\BubbleChatLayer.lua" />
+                    <LuaFile RelativePath=".\TalkMainLayer.lua" />
+                </Filter>
+                <Filter RelativePath=".\task" Toggle="true" >
+                    <LuaFile RelativePath=".\TaskMainView.lua" />
+                    <LuaFile RelativePath=".\TaskRewardPreviewView.lua" />
+                    <LuaFile RelativePath=".\TaskSignInView.lua" />
+                    <LuaFile RelativePath=".\TaskTrainingBuyLevelView.lua" />
+                    <LuaFile RelativePath=".\TaskTrainingChargeView.lua" />
+                    <LuaFile RelativePath=".\TaskTrainingFastRewardView.lua" />
+                </Filter>
+                <Filter RelativePath=".\teamFight" Toggle="true" >
+                    <LuaFile RelativePath=".\TeamBuyChanceView.lua" />
+                    <LuaFile RelativePath=".\TeamFightChangeHeroView.lua" />
+                    <LuaFile RelativePath=".\TeamFightCountDown.lua" />
+                    <LuaFile RelativePath=".\TeamFightTeamView.lua" />
+                    <LuaFile RelativePath=".\TeamInviteFriendView.lua" />
+                    <LuaFile RelativePath=".\TeamLevelGroupSelView.lua" />
+                    <LuaFile RelativePath=".\TeamLevelPreview.lua" />
+                    <LuaFile RelativePath=".\TeamLevelSelView.lua" />
+                    <LuaFile RelativePath=".\TeamWaitingTimer.lua" />
+                </Filter>
+                <Filter RelativePath=".\teamPve" Toggle="true" >
+                    <LuaFile RelativePath=".\TeamPveLevelPreview.lua" />
+                    <LuaFile RelativePath=".\TeamPveLevelView.lua" />
+                    <LuaFile RelativePath=".\TeamPveMainView.lua" />
+                </Filter>
+                <Filter RelativePath=".\test" Toggle="true" >
+                    <LuaFile RelativePath=".\GMView.lua" />
+                    <LuaFile RelativePath=".\MyTestLayer.lua" />
+                    <LuaFile RelativePath=".\ServerListView.lua" />
+                    <LuaFile RelativePath=".\StoryTestView.lua" />
+                    <LuaFile RelativePath=".\TestView.lua" />
+                </Filter>
+                <Filter RelativePath=".\tiledMap" Toggle="true" >
+                    <LuaFile RelativePath=".\TiledMapAStarPath.lua" />
+                </Filter>
+                <Filter RelativePath=".\Title" Toggle="true" >
+                    <LuaFile RelativePath=".\TitleDetailView.lua" />
+                    <LuaFile RelativePath=".\TitleMainView.lua" />
+                </Filter>
+                <Filter RelativePath=".\valentine" Toggle="true" >
+                    <LuaFile RelativePath=".\ValentineComposeView.lua" />
+                    <LuaFile RelativePath=".\ValentineGiftView.lua" />
+                    <LuaFile RelativePath=".\ValentineHandselView.lua" />
+                    <LuaFile RelativePath=".\ValentineMainView.lua" />
+                    <LuaFile RelativePath=".\ValentineRankView.lua" />
+                    <LuaFile RelativePath=".\ValentineTaskView.lua" />
+                </Filter>
+                <Filter RelativePath=".\blackAndWhite" Toggle="true" >
+                    <LuaFile RelativePath=".\BlackAndWhiteRankingView.lua" />
+                    <LuaFile RelativePath=".\BlackAndWhiteMainView.lua" />
+                    <LuaFile RelativePath=".\BlackAndWhiteTaskView.lua" />
+                </Filter>
+                <Filter RelativePath=".\linkage" Toggle="true" >
+                    <LuaFile RelativePath=".\LinkageView.lua" />
+                </Filter>
+                <Filter RelativePath=".\oneYear" Toggle="true" >
+                    <LuaFile RelativePath=".\AddressConfirmView.lua" />
+                    <LuaFile RelativePath=".\AddressView.lua" />
+                    <LuaFile RelativePath=".\CelebrationLuckyTipView.lua" />
+                    <LuaFile RelativePath=".\CelebrationRuleView.lua" />
+                    <LuaFile RelativePath=".\CelebrationView.lua" />
+                    <LuaFile RelativePath=".\LuckyListView.lua" />
+                    <LuaFile RelativePath=".\WelfareRecordView.lua" />
+                    <LuaFile RelativePath=".\WelfareScanView.lua" />
+                    <LuaFile RelativePath=".\WelfareView.lua" />
+                </Filter>
+                <Filter RelativePath=".\dfwautumn" Toggle="true" >
+                    <LuaFile RelativePath=".\DfwAutumnCardView.lua" />
+                    <LuaFile RelativePath=".\DfwAutumnEventView.lua" />
+                    <LuaFile RelativePath=".\DfwAutumnHandAccountView.lua" />
+                    <LuaFile RelativePath=".\DfwAutumnMainView.lua" />
+                    <LuaFile RelativePath=".\DfwAutumnStepRewardView.lua" />
+                    <LuaFile RelativePath=".\DfwAutumnTaskView.lua" />
+                    <LuaFile RelativePath=".\DfwAutumnTurntableView.lua" />
+                </Filter>
+                <Filter RelativePath=".\halloween" Toggle="true" >
+                    <LuaFile RelativePath=".\HalloweenBuffView.lua" />
+                    <LuaFile RelativePath=".\HalloweenGameView.lua" />
+                    <LuaFile RelativePath=".\HalloweenRankView.lua" />
+                    <LuaFile RelativePath=".\HalloweenTaskView.lua" />
+                </Filter>
+            </Filter>
+            <Filter RelativePath=".\manager" Toggle="true" >
+                <LuaFile RelativePath=".\LogonHelper.lua" />
+                <LuaFile RelativePath=".\SdkManager.lua" />
+            </Filter>
+            <Filter RelativePath=".\net" Toggle="true" >
+                <LuaFile RelativePath=".\codes_c2s.lua" />
+                <LuaFile RelativePath=".\codes_s2c.lua" />
+                <LuaFile RelativePath=".\NetWork.lua" />
+                <LuaFile RelativePath=".\protos_c2s.lua" />
+                <LuaFile RelativePath=".\protos_s2c.lua" />
+            </Filter>
+            <Filter RelativePath=".\physics" Toggle="true" >
+                <LuaFile RelativePath=".\catchDoll_scene.lua" />
+                <LuaFile RelativePath=".\toy1_scene.lua" />
+                <LuaFile RelativePath=".\toy2_scene.lua" />
+                <LuaFile RelativePath=".\toy3_scene.lua" />
+            </Filter>
+            <Filter RelativePath=".\public" Toggle="true" >
+                <LuaFile RelativePath=".\AlertManager.lua" />
+                <LuaFile RelativePath=".\AudioExchangePlay.lua" />
+                <LuaFile RelativePath=".\DeviceAdpter.lua" />
+                <LuaFile RelativePath=".\EnumConfig.lua" />
+                <LuaFile RelativePath=".\EventConfig.lua" />
+                <LuaFile RelativePath=".\EventMgr.lua" />
+                <LuaFile RelativePath=".\GlobalVarConfig.lua" />
+                <LuaFile RelativePath=".\GroupButtonManager.lua" />
+                <LuaFile RelativePath=".\GroupLayerManager.lua" />
+                <LuaFile RelativePath=".\HollowScrollView.lua" />
+                <LuaFile RelativePath=".\MEMapArray.lua" />
+                <LuaFile RelativePath=".\PropertyShape.lua" />
+                <LuaFile RelativePath=".\Public.lua" />
+                <LuaFile RelativePath=".\ScrollFlow.lua" />
+                <LuaFile RelativePath=".\ScrollMenu.lua" />
+                <LuaFile RelativePath=".\TFLanguageUtils.lua" />
+                <LuaFile RelativePath=".\TFLengthArray.lua" />
+                <LuaFile RelativePath=".\TFScrollRichText.lua" />
+                <LuaFile RelativePath=".\TFTimeLabel.lua" />
+                <LuaFile RelativePath=".\TimeRecoverProperty.lua" />
+                <LuaFile RelativePath=".\TPageView.lua" />
+                <LuaFile RelativePath=".\UIObliqueList.lua" />
+                <LuaFile RelativePath=".\Utils.lua" />
+                <LuaFile RelativePath=".\ViewAnimationHelper.lua" />
+                <LuaFile RelativePath=".\ViewDataCache.lua" />
+                <LuaFile RelativePath=".\VlcPlayer.lua" />
+                <LuaFile RelativePath=".\DanmuFrame.lua" />
+            </Filter>
+            <Filter RelativePath=".\save" Toggle="true" >
+                <LuaFile RelativePath=".\SaveManager.lua" />
+            </Filter>
+            <Filter RelativePath=".\table" Toggle="true" >
+                <LuaFile RelativePath=".\Access.lua" />
+                <LuaFile RelativePath=".\ActivityCity.lua" />
+                <LuaFile RelativePath=".\ActivityEntrustGift.lua" />
+                <LuaFile RelativePath=".\ActivityEntrustTask.lua" />
+                <LuaFile RelativePath=".\AdWeight.lua" />
+                <LuaFile RelativePath=".\AIboard.lua" />
+                <LuaFile RelativePath=".\AImotion.lua" />
+                <LuaFile RelativePath=".\AIVoice.lua" />
+                <LuaFile RelativePath=".\AngelPassiveSkillGrooves.lua" />
+                <LuaFile RelativePath=".\AngelSkillFunction.lua" />
+                <LuaFile RelativePath=".\AngelSkillPage.lua" />
+                <LuaFile RelativePath=".\AngelSkillTree.lua" />
+                <LuaFile RelativePath=".\Anger.lua" />
+                <LuaFile RelativePath=".\AntiCheating.lua" />
+                <LuaFile RelativePath=".\Auction.lua" />
+                <LuaFile RelativePath=".\AuctionItem.lua" />
+                <LuaFile RelativePath=".\BasicCity.lua" />
+                <LuaFile RelativePath=".\BattleDrop.lua" />
+                <LuaFile RelativePath=".\BattleEventsMusic.lua" />
+                <LuaFile RelativePath=".\BattleGuide.lua" />
+                <LuaFile RelativePath=".\BattleGuideStep.lua" />
+                <LuaFile RelativePath=".\BehaviorTree.lua" />
+                <LuaFile RelativePath=".\BgmChange.lua" />
+                <LuaFile RelativePath=".\Buffer.lua" />
+                <LuaFile RelativePath=".\BufferEffect.lua" />
+                <LuaFile RelativePath=".\BufferEffectList.lua" />
+                <LuaFile RelativePath=".\BuffState.lua" />
+                <LuaFile RelativePath=".\Build.lua" />
+                <LuaFile RelativePath=".\Bullet.lua" />
+                <LuaFile RelativePath=".\Camp.lua" />
+                <LuaFile RelativePath=".\Cg.lua" />
+                <LuaFile RelativePath=".\ChallengeBuff.lua" />
+                <LuaFile RelativePath=".\ChallengeDungen.lua" />
+                <LuaFile RelativePath=".\ChallengeRandom.lua" />
+                <LuaFile RelativePath=".\ChasmDungeon.lua" />
+                <LuaFile RelativePath=".\ChasmDungeonGroup.lua" />
+                <LuaFile RelativePath=".\ChatEmotion.lua" />
+                <LuaFile RelativePath=".\ChatUseBubble.lua" />
+                <LuaFile RelativePath=".\Chesses.lua" />
+                <LuaFile RelativePath=".\ChessesBuff.lua" />
+                <LuaFile RelativePath=".\ChessesDice.lua" />
+                <LuaFile RelativePath=".\ChessesEvent.lua" />
+                <LuaFile RelativePath=".\ChristmasCompose.lua" />
+                <LuaFile RelativePath=".\ChristmasComposeLuck.lua" />
+                <LuaFile RelativePath=".\ChristmasDonate.lua" />
+                <LuaFile RelativePath=".\ChristmasDungen.lua" />
+                <LuaFile RelativePath=".\ChristmasDungenLevel.lua" />
+                <LuaFile RelativePath=".\ChristmasInfo.lua" />
+                <LuaFile RelativePath=".\ChristmasInvade.lua" />
+                <LuaFile RelativePath=".\ChristmasMap.lua" />
+                <LuaFile RelativePath=".\ChristmasMapgift.lua" />
+                <LuaFile RelativePath=".\City.lua" />
+                <LuaFile RelativePath=".\CityEffect.lua" />
+                <LuaFile RelativePath=".\CityJob.lua" />
+                <LuaFile RelativePath=".\CityLines.lua" />
+                <LuaFile RelativePath=".\CityRole.lua" />
+                <LuaFile RelativePath=".\CityRoleModel.lua" />
+                <LuaFile RelativePath=".\CityState.lua" />
+                <LuaFile RelativePath=".\ClubBaes.lua" />
+                <LuaFile RelativePath=".\ClubBuild.lua" />
+                <LuaFile RelativePath=".\ClubEmblem.lua" />
+                <LuaFile RelativePath=".\ClubPacket.lua" />
+                <LuaFile RelativePath=".\ClubRights.lua" />
+                <LuaFile RelativePath=".\ClubTask.lua" />
+                <LuaFile RelativePath=".\CollideModeLevel.lua" />
+                <LuaFile RelativePath=".\Commodity.lua" />
+                <LuaFile RelativePath=".\Compose.lua" />
+                <LuaFile RelativePath=".\ConfigList.lua" />
+                <LuaFile RelativePath=".\ContractSpirit.lua" />
+                <LuaFile RelativePath=".\CookQte.lua" />
+                <LuaFile RelativePath=".\CreateRoleMail.lua" />
+                <LuaFile RelativePath=".\DailyChapterMultiple.lua" />
+                <LuaFile RelativePath=".\DalMapDress.lua" />
+                <LuaFile RelativePath=".\Dating.lua" />
+                <LuaFile RelativePath=".\Dating101.lua" />
+                <LuaFile RelativePath=".\Dating102.lua" />
+                <LuaFile RelativePath=".\Dating103.lua" />
+                <LuaFile RelativePath=".\Dating104.lua" />
+                <LuaFile RelativePath=".\Dating105.lua" />
+                <LuaFile RelativePath=".\Dating110.lua" />
+                <LuaFile RelativePath=".\Dating112.lua" />
+                <LuaFile RelativePath=".\Dating113.lua" />
+                <LuaFile RelativePath=".\Dating2.lua" />
+                <LuaFile RelativePath=".\DatingEffectMgr.lua" />
+                <LuaFile RelativePath=".\DatingInterCg.lua" />
+                <LuaFile RelativePath=".\DatingInterCgScript.lua" />
+                <LuaFile RelativePath=".\DatingProcess.lua" />
+                <LuaFile RelativePath=".\DatingReserve.lua" />
+                <LuaFile RelativePath=".\DatingRule.lua" />
+                <LuaFile RelativePath=".\DatingTypeMgr.lua" />
+                <LuaFile RelativePath=".\DatingVariable.lua" />
+                <LuaFile RelativePath=".\Decorations.lua" />
+                <LuaFile RelativePath=".\DecorationsEffect.lua" />
+                <LuaFile RelativePath=".\Dialog.lua" />
+                <LuaFile RelativePath=".\DiscreteData.lua" />
+                <LuaFile RelativePath=".\Dlsdungen.lua" />
+                <LuaFile RelativePath=".\DlsEvent.lua" />
+                <LuaFile RelativePath=".\DlsEventCount.lua" />
+                <LuaFile RelativePath=".\Dlsform.lua" />
+                <LuaFile RelativePath=".\Dlsgame.lua" />
+                <LuaFile RelativePath=".\DlsGridType.lua" />
+                <LuaFile RelativePath=".\DlsMapPath.lua" />
+                <LuaFile RelativePath=".\DlsMission.lua" />
+                <LuaFile RelativePath=".\Dlsoption.lua" />
+                <LuaFile RelativePath=".\Dlsquestion.lua" />
+                <LuaFile RelativePath=".\DlsServerData.lua" />
+                <LuaFile RelativePath=".\DlsWorld.lua" />
+                <LuaFile RelativePath=".\Downlaod.lua" />
+                <LuaFile RelativePath=".\Dress.lua" />
+                <LuaFile RelativePath=".\DressAI.lua" />
+                <LuaFile RelativePath=".\Drop.lua" />
+                <LuaFile RelativePath=".\DungeonChapter.lua" />
+                <LuaFile RelativePath=".\DungeonLevel.lua" />
+                <LuaFile RelativePath=".\DungeonLevelGroup.lua" />
+                <LuaFile RelativePath=".\DungeonLevelSound.lua" />
+                <LuaFile RelativePath=".\DungeonLevelStep.lua" />
+                <LuaFile RelativePath=".\DungeonLevelStepExt.lua" />
+                <LuaFile RelativePath=".\DungeonSTGLevel.lua" />
+                <LuaFile RelativePath=".\Egg.lua" />
+                <LuaFile RelativePath=".\Elasticframe.lua" />
+                <LuaFile RelativePath=".\Email.lua" />
+                <LuaFile RelativePath=".\EndlessBuff.lua" />
+                <LuaFile RelativePath=".\EndlessCloisterLevel.lua" />
+                <LuaFile RelativePath=".\EnergyBreak.lua" />
+                <LuaFile RelativePath=".\EnergyLevel.lua" />
+                <LuaFile RelativePath=".\EnergyProperty.lua" />
+                <LuaFile RelativePath=".\EnergySupplement.lua" />
+                <LuaFile RelativePath=".\Equipment.lua" />
+                <LuaFile RelativePath=".\EquipmentCombination.lua" />
+                <LuaFile RelativePath=".\EquipmentGrowth.lua" />
+                <LuaFile RelativePath=".\EquipmentRandom.lua" />
+                <LuaFile RelativePath=".\EquipmentStar.lua" />
+                <LuaFile RelativePath=".\EquipmentSuit.lua" />
+                <LuaFile RelativePath=".\EquipmentXilian.lua" />
+                <LuaFile RelativePath=".\Event.lua" />
+                <LuaFile RelativePath=".\EventCondition.lua" />
+                <LuaFile RelativePath=".\EventState.lua" />
+                <LuaFile RelativePath=".\EventStateCfg.lua" />
+                <LuaFile RelativePath=".\Evolution.lua" />
+                <LuaFile RelativePath=".\EvolutionMaterial.lua" />
+                <LuaFile RelativePath=".\EvtCarnivalDating.lua" />
+                <LuaFile RelativePath=".\EvtMiniga.lua" />
+                <LuaFile RelativePath=".\EvtMinigaAwardType.lua" />
+                <LuaFile RelativePath=".\EvtMinigaCard.lua" />
+                <LuaFile RelativePath=".\EvtMinigaCorrectParam.lua" />
+                <LuaFile RelativePath=".\EvtMinigaDice.lua" />
+                <LuaFile RelativePath=".\EvtMinigaWheel.lua" />
+                <LuaFile RelativePath=".\ExtraChapter.lua" />
+                <LuaFile RelativePath=".\ExtraTrigger.lua" />
+                <LuaFile RelativePath=".\Favor.lua" />
+                <LuaFile RelativePath=".\FavorDating.lua" />
+                <LuaFile RelativePath=".\FavorDating101.lua" />
+                <LuaFile RelativePath=".\FavorDating102.lua" />
+                <LuaFile RelativePath=".\FavorDating103.lua" />
+                <LuaFile RelativePath=".\FavorDating104.lua" />
+                <LuaFile RelativePath=".\FavorDating105.lua" />
+                <LuaFile RelativePath=".\FavorDating110.lua" />
+                <LuaFile RelativePath=".\FavorDating112.lua" />
+                <LuaFile RelativePath=".\FavorDating113.lua" />
+                <LuaFile RelativePath=".\FavorEnd.lua" />
+                <LuaFile RelativePath=".\FavorMessage.lua" />
+                <LuaFile RelativePath=".\FavorScript.lua" />
+                <LuaFile RelativePath=".\FavorStep.lua" />
+                <LuaFile RelativePath=".\FireWork.lua" />
+                <LuaFile RelativePath=".\FlyForm.lua" />
+                <LuaFile RelativePath=".\FlyLevelItem.lua" />
+                <LuaFile RelativePath=".\FlyModeLevel.lua" />
+                <LuaFile RelativePath=".\FlySkill.lua" />
+                <LuaFile RelativePath=".\FontFace.lua" />
+                <LuaFile RelativePath=".\Foodbase.lua" />
+                <LuaFile RelativePath=".\FriendHelp.lua" />
+                <LuaFile RelativePath=".\FriendRequest.lua" />
+                <LuaFile RelativePath=".\FubenDrop.lua" />
+                <LuaFile RelativePath=".\Function.lua" />
+                <LuaFile RelativePath=".\Gashapon.lua" />
+                <LuaFile RelativePath=".\GrowUp.lua" />
+                <LuaFile RelativePath=".\Guide.lua" />
+                <LuaFile RelativePath=".\HandAccount.lua" />
+                <LuaFile RelativePath=".\Handworkbase.lua" />
+                <LuaFile RelativePath=".\Hangup.lua" />
+                <LuaFile RelativePath=".\HangupBuff.lua" />
+                <LuaFile RelativePath=".\HangupResult.lua" />
+                <LuaFile RelativePath=".\HangupSystem.lua" />
+                <LuaFile RelativePath=".\HelpView.lua" />
+                <LuaFile RelativePath=".\Hero.lua" />
+                <LuaFile RelativePath=".\HeroAttribute.lua" />
+                <LuaFile RelativePath=".\Herodemo.lua" />
+                <LuaFile RelativePath=".\HeroDispatch.lua" />
+                <LuaFile RelativePath=".\HeroForm.lua" />
+                <LuaFile RelativePath=".\HeroLimitforDungeon.lua" />
+                <LuaFile RelativePath=".\HeroModle.lua" />
+                <LuaFile RelativePath=".\HeroPower.lua" />
+                <LuaFile RelativePath=".\HeroProgress.lua" />
+                <LuaFile RelativePath=".\HeroSkillMix.lua" />
+                <LuaFile RelativePath=".\HeroSkin.lua" />
+                <LuaFile RelativePath=".\HeroTag.lua" />
+                <LuaFile RelativePath=".\HeroTest.lua" />
+                <LuaFile RelativePath=".\HerotestGuide.lua" />
+                <LuaFile RelativePath=".\HerotestMission.lua" />
+                <LuaFile RelativePath=".\HeroWeaponModle.lua" />
+                <LuaFile RelativePath=".\HighTeamDungeon.lua" />
+                <LuaFile RelativePath=".\HighTeamDungeonLevel.lua" />
+                <LuaFile RelativePath=".\HitMusic.lua" />
+                <LuaFile RelativePath=".\HuntingBuff.lua" />
+                <LuaFile RelativePath=".\HuntingLevel.lua" />
+                <LuaFile RelativePath=".\Intelligence.lua" />
+                <LuaFile RelativePath=".\Interaction.lua" />
+                <LuaFile RelativePath=".\Item.lua" />
+                <LuaFile RelativePath=".\ItemRecover.lua" />
+                <LuaFile RelativePath=".\ItemTime.lua" />
+                <LuaFile RelativePath=".\Jump.lua" />
+                <LuaFile RelativePath=".\Kabalabuff.lua" />
+                <LuaFile RelativePath=".\KabalaDiceButton.lua" />
+                <LuaFile RelativePath=".\KabalaEvent.lua" />
+                <LuaFile RelativePath=".\KabalaEventCount.lua" />
+                <LuaFile RelativePath=".\Kabalaform.lua" />
+                <LuaFile RelativePath=".\Kabalagame.lua" />
+                <LuaFile RelativePath=".\KabalaGridType.lua" />
+                <LuaFile RelativePath=".\KabalaMission.lua" />
+                <LuaFile RelativePath=".\KabalaServerData.lua" />
+                <LuaFile RelativePath=".\KabalaShop.lua" />
+                <LuaFile RelativePath=".\KabalaWorld.lua" />
+                <LuaFile RelativePath=".\LevelUp.lua" />
+                <LuaFile RelativePath=".\Maid.lua" />
+                <LuaFile RelativePath=".\MaidBuff.lua" />
+                <LuaFile RelativePath=".\MainAdBoard.lua" />
+                <LuaFile RelativePath=".\MainDialogue.lua" />
+                <LuaFile RelativePath=".\MainLine.lua" />
+                <LuaFile RelativePath=".\MainSceneBgm.lua" />
+                <LuaFile RelativePath=".\MainSceneChange.lua" />
+                <LuaFile RelativePath=".\MainSceneGroup.lua" />
+                <LuaFile RelativePath=".\Map.lua" />
+                <LuaFile RelativePath=".\MapBarrier.lua" />
+                <LuaFile RelativePath=".\MayuriGrade.lua" />
+                <LuaFile RelativePath=".\MayuriGradeEver.lua" />
+                <LuaFile RelativePath=".\MayuriSpirit.lua" />
+                <LuaFile RelativePath=".\Medal.lua" />
+                <LuaFile RelativePath=".\Minipack.lua" />
+                <LuaFile RelativePath=".\modlePos.lua" />
+                <LuaFile RelativePath=".\Monster.lua" />
+                <LuaFile RelativePath=".\MonsterAffix.lua" />
+                <LuaFile RelativePath=".\MonsterLevel.lua" />
+                <LuaFile RelativePath=".\MonsterPool.lua" />
+                <LuaFile RelativePath=".\MonsterSection.lua" />
+                <LuaFile RelativePath=".\MonthCard.lua" />
+                <LuaFile RelativePath=".\MonthCardSign.lua" />
+                <LuaFile RelativePath=".\MonthCardStore.lua" />
+                <LuaFile RelativePath=".\MultiConditionEvent.lua" />
+                <LuaFile RelativePath=".\MusicGame.lua" />
+                <LuaFile RelativePath=".\MusicSymbol.lua" />
+                <LuaFile RelativePath=".\NewbleAdd.lua" />
+                <LuaFile RelativePath=".\NewBuild.lua" />
+                <LuaFile RelativePath=".\NewEquip.lua" />
+                <LuaFile RelativePath=".\NewEquipAdvance.lua" />
+                <LuaFile RelativePath=".\NewEquipSkill.lua" />
+                <LuaFile RelativePath=".\NewEquipStrengthen.lua" />
+                <LuaFile RelativePath=".\NewEquipSuit.lua" />
+                <LuaFile RelativePath=".\NewPokedex.lua" />
+                <LuaFile RelativePath=".\NewPokedexPage.lua" />
+                <LuaFile RelativePath=".\NewPokedexTitle.lua" />
+                <LuaFile RelativePath=".\NewPokedexType.lua" />
+                <LuaFile RelativePath=".\NewYearModel.lua" />
+                <LuaFile RelativePath=".\NewYearTask.lua" />
+                <LuaFile RelativePath=".\NianBeast.lua" />
+                <LuaFile RelativePath=".\Novel.lua" />
+                <LuaFile RelativePath=".\NovelDating.lua" />
+                <LuaFile RelativePath=".\NovelScript.lua" />
+                <LuaFile RelativePath=".\NovelStep.lua" />
+                <LuaFile RelativePath=".\Npc.lua" />
+                <LuaFile RelativePath=".\Outside.lua" />
+                <LuaFile RelativePath=".\OutsideDating.lua" />
+                <LuaFile RelativePath=".\OutsideEnd.lua" />
+                <LuaFile RelativePath=".\OutsideMessage.lua" />
+                <LuaFile RelativePath=".\OutsideScript.lua" />
+                <LuaFile RelativePath=".\OutsideStep.lua" />
+                <LuaFile RelativePath=".\PackBranch.lua" />
+                <LuaFile RelativePath=".\ParticleEffect.lua" />
+                <LuaFile RelativePath=".\PassiveSkills.lua" />
+                <LuaFile RelativePath=".\Phone.lua" />
+                <LuaFile RelativePath=".\Pokedex.lua" />
+                <LuaFile RelativePath=".\PokedexActivity.lua" />
+                <LuaFile RelativePath=".\PokedexWeight.lua" />
+                <LuaFile RelativePath=".\Portrait.lua" />
+                <LuaFile RelativePath=".\RankMatch.lua" />
+                <LuaFile RelativePath=".\RankMatchBuff.lua" />
+                <LuaFile RelativePath=".\RankMatchCard.lua" />
+                <LuaFile RelativePath=".\RankMatchLevel.lua" />
+                <LuaFile RelativePath=".\Recharge.lua" />
+                <LuaFile RelativePath=".\RechargeGiftBag.lua" />
+                <LuaFile RelativePath=".\ReturnNewble.lua" />
+                <LuaFile RelativePath=".\ReturnNewbleItem.lua" />
+                <LuaFile RelativePath=".\Role.lua" />
+                <LuaFile RelativePath=".\RoleAction.lua" />
+                <LuaFile RelativePath=".\RoleDescribe.lua" />
+                <LuaFile RelativePath=".\RoleEyeOpenPara.lua" />
+                <LuaFile RelativePath=".\RoleModel.lua" />
+                <LuaFile RelativePath=".\RoleModelMotion.lua" />
+                <LuaFile RelativePath=".\RoleSet.lua" />
+                <LuaFile RelativePath=".\Room.lua" />
+                <LuaFile RelativePath=".\RString.lua" />
+                <LuaFile RelativePath=".\ScrollingDisplay.lua" />
+                <LuaFile RelativePath=".\SevenGift.lua" />
+                <LuaFile RelativePath=".\SevenSign.lua" />
+                <LuaFile RelativePath=".\Share.lua" />
+                <LuaFile RelativePath=".\Sign.lua" />
+                <LuaFile RelativePath=".\Skill.lua" />
+                <LuaFile RelativePath=".\SkillAction.lua" />
+                <LuaFile RelativePath=".\SkillDefense.lua" />
+                <LuaFile RelativePath=".\SkillEffect.lua" />
+                <LuaFile RelativePath=".\SkillGrab.lua" />
+                <LuaFile RelativePath=".\SkillHurt.lua" />
+                <LuaFile RelativePath=".\SkillMusic.lua" />
+                <LuaFile RelativePath=".\SkillShow.lua" />
+                <LuaFile RelativePath=".\Sound.lua" />
+                <LuaFile RelativePath=".\SpecialAction.lua" />
+                <LuaFile RelativePath=".\Stone.lua" />
+                <LuaFile RelativePath=".\StoneAngel.lua" />
+                <LuaFile RelativePath=".\StoneCompose.lua" />
+                <LuaFile RelativePath=".\StoneSmelt.lua" />
+                <LuaFile RelativePath=".\Store.lua" />
+                <LuaFile RelativePath=".\StoryDungeonComment.lua" />
+                <LuaFile RelativePath=".\StoryDungeonLevel.lua" />
+                <LuaFile RelativePath=".\StoryModel.lua" />
+                <LuaFile RelativePath=".\String.lua" />
+                <LuaFile RelativePath=".\StroyDungeonLevel.lua" />
+                <LuaFile RelativePath=".\Summon.lua" />
+                <LuaFile RelativePath=".\SummonCompose.lua" />
+                <LuaFile RelativePath=".\SummonComposeOld.lua" />
+                <LuaFile RelativePath=".\SummonComposePreview.lua" />
+                <LuaFile RelativePath=".\SummonGift.lua" />
+                <LuaFile RelativePath=".\SummonItem.lua" />
+                <LuaFile RelativePath=".\SummonLoop.lua" />
+                <LuaFile RelativePath=".\SummonPool.lua" />
+                <LuaFile RelativePath=".\SummonPreview.lua" />
+                <LuaFile RelativePath=".\SupplyDrop.lua" />
+                <LuaFile RelativePath=".\SystemMusic.lua" />
+                <LuaFile RelativePath=".\Task.lua" />
+                <LuaFile RelativePath=".\TitleBase.lua" />
+                <LuaFile RelativePath=".\TohkaDating.lua" />
+                <LuaFile RelativePath=".\TohkaEvent.lua" />
+                <LuaFile RelativePath=".\TomorrowSign.lua" />
+                <LuaFile RelativePath=".\TopHelp.lua" />
+                <LuaFile RelativePath=".\TotalRecharge.lua" />
+                <LuaFile RelativePath=".\TrainDungeon.lua" />
+                <LuaFile RelativePath=".\TrainDungeonLevel.lua" />
+                <LuaFile RelativePath=".\TrainingMatrix.lua" />
+                <LuaFile RelativePath=".\TrainingRank.lua" />
+                <LuaFile RelativePath=".\Trial.lua" />
+                <LuaFile RelativePath=".\TrialHeroSkin.lua" />
+                <LuaFile RelativePath=".\TriggerEvent.lua" />
+                <LuaFile RelativePath=".\Turntable.lua" />
+                <LuaFile RelativePath=".\ValentineRole.lua" />
+                <LuaFile RelativePath=".\Video.lua" />
+                <LuaFile RelativePath=".\Voice.lua" />
+                <LuaFile RelativePath=".\WitchTime.lua" />
+                <LuaFile RelativePath=".\SimulatedCall.lua" />
+                <LuaFile RelativePath=".\AnniversaryMonth.lua" />
+                <LuaFile RelativePath=".\AnniversarymonthBg.lua" />
+                <LuaFile RelativePath=".\CurriculumVitae.lua" />
+                <LuaFile RelativePath=".\Dating3.lua" />
+                <LuaFile RelativePath=".\BattlePass.lua" />
+                <LuaFile RelativePath=".\BattlePassLevel.lua" />
+                <LuaFile RelativePath=".\Uichange.lua" />
+                <LuaFile RelativePath=".\HalloweenDungeon.lua" />
+                <LuaFile RelativePath=".\HalloweenBuff.lua" />
+                <LuaFile RelativePath=".\SpeedLink.lua" />
+            </Filter>
+            <Filter RelativePath=".\uiconfig" Toggle="false" >
+                <Filter RelativePath=".\activity" Toggle="true" >
+                    <LuaFile RelativePath=".\ActivityCAEMainView.lua" />
+                    <LuaFile RelativePath=".\activityCgView.lua" />
+                    <LuaFile RelativePath=".\ActivityEntrustView.lua" />
+                    <LuaFile RelativePath=".\ActivityMain.lua" />
+                    <LuaFile RelativePath=".\activityMainView.lua" />
+                    <LuaFile RelativePath=".\activityMainView2.lua" />
+                    <LuaFile RelativePath=".\ActivityNianShouView.lua" />
+                    <LuaFile RelativePath=".\ActivityScoreRewardView.lua" />
+                    <LuaFile RelativePath=".\ActivitySynthesisView.lua" />
+                    <LuaFile RelativePath=".\addRechargeActivityView.lua" />
+                    <LuaFile RelativePath=".\addRechargeActivityView1.lua" />
+                    <LuaFile RelativePath=".\assistActivityView.lua" />
+                    <LuaFile RelativePath=".\assistRankingView.lua" />
+                    <LuaFile RelativePath=".\assistRankRewardView.lua" />
+                    <LuaFile RelativePath=".\BackPlayerTipsView.lua" />
+                    <LuaFile RelativePath=".\BackPlayerView.lua" />
+                    <LuaFile RelativePath=".\bingoActivityView.lua" />
+                    <LuaFile RelativePath=".\birthdayView.lua" />
+                    <LuaFile RelativePath=".\BoxDetailView.lua" />
+                    <LuaFile RelativePath=".\christmasSignInView.lua" />
+                    <LuaFile RelativePath=".\ChronoCrossActivityView.lua" />
+                    <LuaFile RelativePath=".\chunrijiActivityView.lua" />
+                    <LuaFile RelativePath=".\clotheseSummonView.lua" />
+                    <LuaFile RelativePath=".\coffeeActivityView.lua" />
+                    <LuaFile RelativePath=".\CuteNewPlayerView.lua" />
+                    <LuaFile RelativePath=".\dropActivityView.lua" />
+                    <LuaFile RelativePath=".\duanwuActivityView.lua" />
+                    <LuaFile RelativePath=".\duanwuMainView.lua" />
+                    <LuaFile RelativePath=".\duanwuMakeView.lua" />
+                    <LuaFile RelativePath=".\duanwuSubmitView.lua" />
+                    <LuaFile RelativePath=".\duanwuTaskView.lua" />
+                    <LuaFile RelativePath=".\EntrustDetailView.lua" />
+                    <LuaFile RelativePath=".\EntrustEntranceView.lua" />
+                    <LuaFile RelativePath=".\EntrustGemFlushView.lua" />
+                    <LuaFile RelativePath=".\giftActivityView.lua" />
+                    <LuaFile RelativePath=".\hunterLevelActivity.lua" />
+                    <LuaFile RelativePath=".\jumpActivityModel.lua" />
+                    <LuaFile RelativePath=".\monthCardView.lua" />
+                    <LuaFile RelativePath=".\newGuySummonView.lua" />
+                    <LuaFile RelativePath=".\NewYearActivityExtendUI.lua" />
+                    <LuaFile RelativePath=".\NewYearDetailView.lua" />
+                    <LuaFile RelativePath=".\NewYearEntranceView.lua" />
+                    <LuaFile RelativePath=".\NianShouCallSuccessTip.lua" />
+                    <LuaFile RelativePath=".\NianShouTip.lua" />
+                    <LuaFile RelativePath=".\rechargeActivityView.lua" />
+                    <LuaFile RelativePath=".\roleTeachView.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                    <LuaFile RelativePath=".\sevenExGiftView.lua" />
+                    <LuaFile RelativePath=".\sevenSignView.lua" />
+                    <LuaFile RelativePath=".\storeActivityView.lua" />
+                    <LuaFile RelativePath=".\storeActivityView1.lua" />
+                    <LuaFile RelativePath=".\summerActivityView.lua" />
+                    <LuaFile RelativePath=".\summonActivity.lua" />
+                    <LuaFile RelativePath=".\supportStoreView.lua" />
+                    <LuaFile RelativePath=".\sxBirthdayActivityView.lua" />
+                    <LuaFile RelativePath=".\sxBirthdayCityView.lua" />
+                    <LuaFile RelativePath=".\sxBirthdayDatingView.lua" />
+                    <LuaFile RelativePath=".\sxBirthdayMainView.lua" />
+                    <LuaFile RelativePath=".\sxBirthdayRewardView.lua" />
+                    <LuaFile RelativePath=".\sxBirthdayTravelView.lua" />
+                    <LuaFile RelativePath=".\taskActivityView.lua" />
+                    <LuaFile RelativePath=".\taskActivityView1.lua" />
+                    <LuaFile RelativePath=".\valentineActivityView.lua" />
+                    <LuaFile RelativePath=".\valentineLetterView.lua" />
+                    <LuaFile RelativePath=".\valentineReviewView.lua" />
+                    <LuaFile RelativePath=".\welfareRechargeView.lua" />
+                    <LuaFile RelativePath=".\welfareSignView.lua" />
+                    <LuaFile RelativePath=".\welfareTaskView.lua" />
+                    <LuaFile RelativePath=".\whiteValentineActivityView.lua" />
+                    <LuaFile RelativePath=".\YanHuaSelectView.lua" />
+                    <LuaFile RelativePath=".\BlackAndWhiteActivityView.lua" />
+                    <LuaFile RelativePath=".\activityAnniversaryView.lua" />
+                    <LuaFile RelativePath=".\activityMainView3.lua" />
+                    <LuaFile RelativePath=".\addRechargeActivityView3.lua" />
+                    <LuaFile RelativePath=".\anniversaryFeedbackView.lua" />
+                    <LuaFile RelativePath=".\anniversaryPreheatView.lua" />
+                    <LuaFile RelativePath=".\chapterDetailView.lua" />
+                    <LuaFile RelativePath=".\giftActivityView1.lua" />
+                    <LuaFile RelativePath=".\jumpActivity1.lua" />
+                    <LuaFile RelativePath=".\jumpActivity2.lua" />
+                    <LuaFile RelativePath=".\letterDetailView.lua" />
+                    <LuaFile RelativePath=".\midAutumnActivityView.lua" />
+                    <LuaFile RelativePath=".\midAutumnMainView.lua" />
+                    <LuaFile RelativePath=".\midAutumnMakeView.lua" />
+                    <LuaFile RelativePath=".\midAutumnSubmitView.lua" />
+                    <LuaFile RelativePath=".\midAutumnTaskView.lua" />
+                    <LuaFile RelativePath=".\rewardDetailView.lua" />
+                    <LuaFile RelativePath=".\storeActivityView4.lua" />
+                    <LuaFile RelativePath=".\taskActivityView4.lua" />
+                    <LuaFile RelativePath=".\welfareRechargeView1.lua" />
+                    <LuaFile RelativePath=".\znqActivityModelView.lua" />
+                    <LuaFile RelativePath=".\znqEntranceView.lua" />
+                    <LuaFile RelativePath=".\znqHuiGuView.lua" />
+                    <LuaFile RelativePath=".\znqMainView.lua" />
+                    <LuaFile RelativePath=".\znqPopView.lua" />
+                    <LuaFile RelativePath=".\autumnActivityView.lua" />
+                </Filter>
+                <Filter RelativePath=".\agora" Toggle="true" >
+                    <LuaFile RelativePath=".\agoraComposeGetItems.lua" />
+                    <LuaFile RelativePath=".\agoraComposeView.lua" />
+                    <LuaFile RelativePath=".\agoraContributionView.lua" />
+                    <LuaFile RelativePath=".\agoraFightZone.lua" />
+                    <LuaFile RelativePath=".\agoraLevelView.lua" />
+                    <LuaFile RelativePath=".\agoraLotteryHistoryView.lua" />
+                    <LuaFile RelativePath=".\agoraLotteryPreviewView.lua" />
+                    <LuaFile RelativePath=".\agoraLotteryView.lua" />
+                    <LuaFile RelativePath=".\agoraMainView.lua" />
+                    <LuaFile RelativePath=".\agoraTaskView.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                </Filter>
+                <Filter RelativePath=".\angel" Toggle="true" >
+                    <LuaFile RelativePath=".\angelInfo.lua" />
+                    <LuaFile RelativePath=".\angelReset.lua" />
+                    <LuaFile RelativePath=".\angelTalentAdd.lua" />
+                    <LuaFile RelativePath=".\angelWakenResult.lua" />
+                    <LuaFile RelativePath=".\Angle_skill.lua" />
+                    <LuaFile RelativePath=".\fairyLevelUpResult.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                </Filter>
+                <Filter RelativePath=".\angelNew" Toggle="true" >
+                    <LuaFile RelativePath=".\angelInfo.lua" />
+                    <LuaFile RelativePath=".\angle_passive_skill.lua" />
+                    <LuaFile RelativePath=".\Angle_skill-1102.lua" />
+                    <LuaFile RelativePath=".\Angle_skill-1103.lua" />
+                    <LuaFile RelativePath=".\Angle_skill-1104.lua" />
+                    <LuaFile RelativePath=".\Angle_skill-1105.lua" />
+                    <LuaFile RelativePath=".\Angle_skill-1106.lua" />
+                    <LuaFile RelativePath=".\Angle_skill-1107.lua" />
+                    <LuaFile RelativePath=".\Angle_skill-1108.lua" />
+                    <LuaFile RelativePath=".\Angle_skill-1109.lua" />
+                    <LuaFile RelativePath=".\Angle_skill-1110.lua" />
+                    <LuaFile RelativePath=".\Angle_skill.lua" />
+                    <LuaFile RelativePath=".\Angle_skill_10102.lua" />
+                    <LuaFile RelativePath=".\Angle_skill_10208.lua" />
+                    <LuaFile RelativePath=".\Angle_skill_10209.lua" />
+                    <LuaFile RelativePath=".\Angle_skill_10210.lua" />
+                    <LuaFile RelativePath=".\Angle_skill_10302.lua" />
+                    <LuaFile RelativePath=".\Angle_skill_10602.lua" />
+                    <LuaFile RelativePath=".\Angle_skill_1101.lua" />
+                    <LuaFile RelativePath=".\Angle_skill_1102.lua" />
+                    <LuaFile RelativePath=".\Angle_skill_1103.lua" />
+                    <LuaFile RelativePath=".\Angle_skill_1104.lua" />
+                    <LuaFile RelativePath=".\Angle_skill_1105.lua" />
+                    <LuaFile RelativePath=".\Angle_skill_1106.lua" />
+                    <LuaFile RelativePath=".\Angle_skill_1107.lua" />
+                    <LuaFile RelativePath=".\Angle_skill_1108.lua" />
+                    <LuaFile RelativePath=".\Angle_skill_1109.lua" />
+                    <LuaFile RelativePath=".\Angle_skill_1110.lua" />
+                    <LuaFile RelativePath=".\Angle_skill_11201.lua" />
+                    <LuaFile RelativePath=".\Angle_skill_11301.lua" />
+                    <LuaFile RelativePath=".\Angle_skill_1301.lua" />
+                    <LuaFile RelativePath=".\angle_tab.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                    <LuaFile RelativePath=".\skillPreview.lua" />
+                    <LuaFile RelativePath=".\Angle_skill_11401.lua" />
+                    <LuaFile RelativePath=".\Angle_skill_11501.lua" />
+                </Filter>
+                <Filter RelativePath=".\bag" Toggle="true" >
+                    <LuaFile RelativePath=".\getItemView.lua" />
+                    <LuaFile RelativePath=".\itemAccessView.lua" />
+                    <LuaFile RelativePath=".\itemBagView.lua" />
+                    <LuaFile RelativePath=".\itemInfoView.lua" />
+                    <LuaFile RelativePath=".\itemSellConfirmView.lua" />
+                    <LuaFile RelativePath=".\recoverView.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                    <LuaFile RelativePath=".\useItemSelectView.lua" />
+                </Filter>
+                <Filter RelativePath=".\battle" Toggle="true" >
+                    <LuaFile RelativePath=".\battleCGLayer.lua" />
+                    <LuaFile RelativePath=".\battleComboView.lua" />
+                    <LuaFile RelativePath=".\battleResultShareView.lua" />
+                    <LuaFile RelativePath=".\battleResultView.lua" />
+                    <LuaFile RelativePath=".\battleStatus.lua" />
+                    <LuaFile RelativePath=".\battleView.lua" />
+                    <LuaFile RelativePath=".\ctrlView.lua" />
+                    <LuaFile RelativePath=".\curtainLayer.lua" />
+                    <LuaFile RelativePath=".\endlessCountdownnView.lua" />
+                    <LuaFile RelativePath=".\endlessLevelResultView.lua" />
+                    <LuaFile RelativePath=".\endlessPauseView.lua" />
+                    <LuaFile RelativePath=".\endlessResultView.lua" />
+                    <LuaFile RelativePath=".\flightCtrlView.lua" />
+                    <LuaFile RelativePath=".\flightView.lua" />
+                    <LuaFile RelativePath=".\fullMaskLayer.lua" />
+                    <LuaFile RelativePath=".\levelInfoLayer.lua" />
+                    <LuaFile RelativePath=".\miniMap.lua" />
+                    <LuaFile RelativePath=".\musicgame.lua" />
+                    <LuaFile RelativePath=".\pauseView.lua" />
+                    <LuaFile RelativePath=".\practiceSetView.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                    <LuaFile RelativePath=".\setView.lua" />
+                    <LuaFile RelativePath=".\skillHelpView.lua" />
+                    <LuaFile RelativePath=".\teamClearingView.lua" />
+                    <LuaFile RelativePath=".\teamReviveView.lua" />
+                    <LuaFile RelativePath=".\teamView.lua" />
+                    <LuaFile RelativePath=".\theaterBossResultView.lua" />
+                    <LuaFile RelativePath=".\theaterDatingResultView.lua" />
+                    <LuaFile RelativePath=".\trainMatrixPauseView.lua" />
+                    <LuaFile RelativePath=".\txjzResultView.lua" />
+                    <LuaFile RelativePath=".\visualBattleView.lua" />
+                </Filter>
+                <Filter RelativePath=".\bingo" Toggle="true" >
+                    <LuaFile RelativePath=".\bingoDatingView.lua" />
+                    <LuaFile RelativePath=".\bingoDiceView.lua" />
+                    <LuaFile RelativePath=".\bingoDivinationView.lua" />
+                    <LuaFile RelativePath=".\bingoMainView.lua" />
+                    <LuaFile RelativePath=".\bingoMainViewNew.lua" />
+                    <LuaFile RelativePath=".\bingoResultView.lua" />
+                    <LuaFile RelativePath=".\bingoTaskView.lua" />
+                    <LuaFile RelativePath=".\bingoTurnPlateView.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                </Filter>
+                <Filter RelativePath=".\cg" Toggle="true" >
+                    <LuaFile RelativePath=".\cgView.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                </Filter>
+                <Filter RelativePath=".\chat" Toggle="true" >
+                    <LuaFile RelativePath=".\chatView.lua" />
+                    <LuaFile RelativePath=".\deleteFriendsView.lua" />
+                    <LuaFile RelativePath=".\difficultyChoice.lua" />
+                    <LuaFile RelativePath=".\playerInfoView.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                </Filter>
+                <Filter RelativePath=".\chronoCross" Toggle="true" >
+                    <LuaFile RelativePath=".\chronoCrossConfirmView.lua" />
+                    <LuaFile RelativePath=".\chronoCrossDating.lua" />
+                    <LuaFile RelativePath=".\chronoCrossMainView.lua" />
+                    <LuaFile RelativePath=".\chronoCrossTaskView.lua" />
+                    <LuaFile RelativePath=".\chronoPuzzleView.lua" />
+                    <LuaFile RelativePath=".\chronoTaskConfirmView.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                </Filter>
+                <Filter RelativePath=".\city" Toggle="true" >
+                    <LuaFile RelativePath=".\buildLevelUpView.lua" />
+                    <LuaFile RelativePath=".\buildUnlockView.lua" />
+                    <LuaFile RelativePath=".\cityInfoView.lua" />
+                    <LuaFile RelativePath=".\cityMainView.lua" />
+                    <LuaFile RelativePath=".\citySpriteSelectView.lua" />
+                    <LuaFile RelativePath=".\cityWorkView.lua" />
+                    <LuaFile RelativePath=".\makeFoodView.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                </Filter>
+                <Filter RelativePath=".\coffee" Toggle="true" >
+                    <LuaFile RelativePath=".\coffeeChangeView.lua" />
+                    <LuaFile RelativePath=".\coffeeDetailsView.lua" />
+                    <LuaFile RelativePath=".\coffeeFettersView.lua" />
+                    <LuaFile RelativePath=".\coffeeMainView.lua" />
+                    <LuaFile RelativePath=".\coffeeRecoverView.lua" />
+                    <LuaFile RelativePath=".\coffeeRecruitView.lua" />
+                    <LuaFile RelativePath=".\coffeeStoryView.lua" />
+                    <LuaFile RelativePath=".\coffeeTaskView.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                    <LuaFile RelativePath=".\coffeeMaidInfoView.lua" />
+                </Filter>
+                <Filter RelativePath=".\collect" Toggle="true" >
+                    <LuaFile RelativePath=".\collectBaseView.lua" />
+                    <LuaFile RelativePath=".\collectBGMView.lua" />
+                    <LuaFile RelativePath=".\collectCGView.lua" />
+                    <LuaFile RelativePath=".\collectDatingView.lua" />
+                    <LuaFile RelativePath=".\collectDressView.lua" />
+                    <LuaFile RelativePath=".\collectEquipView.lua" />
+                    <LuaFile RelativePath=".\collectMainView.lua" />
+                    <LuaFile RelativePath=".\collectMedalView.lua" />
+                    <LuaFile RelativePath=".\collectorView.lua" />
+                    <LuaFile RelativePath=".\collectPortraitView.lua" />
+                    <LuaFile RelativePath=".\collectScenePreView.lua" />
+                    <LuaFile RelativePath=".\collectSceneView.lua" />
+                    <LuaFile RelativePath=".\collectSpriteView.lua" />
+                    <LuaFile RelativePath=".\collectTokenView.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                </Filter>
+                <Filter RelativePath=".\common" Toggle="true" >
+                    <LuaFile RelativePath=".\baseView.lua" />
+                    <LuaFile RelativePath=".\buyResourceView.lua" />
+                    <LuaFile RelativePath=".\cgView.lua" />
+                    <LuaFile RelativePath=".\changeEquipConfirmView.lua" />
+                    <LuaFile RelativePath=".\chooseMessageBox.lua" />
+                    <LuaFile RelativePath=".\confirmBoxView.lua" />
+                    <LuaFile RelativePath=".\confirmConvertView.lua" />
+                    <LuaFile RelativePath=".\datingRewardView.lua" />
+                    <LuaFile RelativePath=".\extAssetsDownloadView.lua" />
+                    <LuaFile RelativePath=".\favorAndMoodView.lua" />
+                    <LuaFile RelativePath=".\favorInfoView.lua" />
+                    <LuaFile RelativePath=".\favorUpView.lua" />
+                    <LuaFile RelativePath=".\functionOpenView.lua" />
+                    <LuaFile RelativePath=".\functionTipsView.lua" />
+                    <LuaFile RelativePath=".\gameAlertView.lua" />
+                    <LuaFile RelativePath=".\helpView.lua" />
+                    <LuaFile RelativePath=".\inputLayer.lua" />
+                    <LuaFile RelativePath=".\inputLayerS.lua" />
+                    <LuaFile RelativePath=".\itemCoolDownTips.lua" />
+                    <LuaFile RelativePath=".\kanBanNiangView.lua" />
+                    <LuaFile RelativePath=".\levelUpView.lua" />
+                    <LuaFile RelativePath=".\marqueeLayer.lua" />
+                    <LuaFile RelativePath=".\messageBox.lua" />
+                    <LuaFile RelativePath=".\prefabView.lua" />
+                    <LuaFile RelativePath=".\previewRewardView.lua" />
+                    <LuaFile RelativePath=".\rechargeJumpView.lua" />
+                    <LuaFile RelativePath=".\reConfirmTipsView.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                    <LuaFile RelativePath=".\selectattr.lua" />
+                    <LuaFile RelativePath=".\ToastMessage.lua" />
+                    <LuaFile RelativePath=".\topLayer.lua" />
+                    <LuaFile RelativePath=".\videoView.lua" />
+                    <LuaFile RelativePath=".\danmuFrame.lua" />
+                </Filter>
+                <Filter RelativePath=".\dafuwong" Toggle="true" >
+                    <LuaFile RelativePath=".\dfwCardView.lua" />
+                    <LuaFile RelativePath=".\dfwEventView.lua" />
+                    <LuaFile RelativePath=".\dfwHandAccountView.lua" />
+                    <LuaFile RelativePath=".\dfwMainView.lua" />
+                    <LuaFile RelativePath=".\dfwStepRewardView.lua" />
+                    <LuaFile RelativePath=".\dfwSummerCardView.lua" />
+                    <LuaFile RelativePath=".\dfwSummerEventView.lua" />
+                    <LuaFile RelativePath=".\dfwSummerHandAccountView.lua" />
+                    <LuaFile RelativePath=".\dfwSummerMainView.lua" />
+                    <LuaFile RelativePath=".\dfwSummerStepRewardView.lua" />
+                    <LuaFile RelativePath=".\dfwSummerTaskView.lua" />
+                    <LuaFile RelativePath=".\dfwSummerTurntableView.lua" />
+                    <LuaFile RelativePath=".\dfwTaskView.lua" />
+                    <LuaFile RelativePath=".\dfwTurntableView.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                    <LuaFile RelativePath=".\dfwAutumnCardView.lua" />
+                    <LuaFile RelativePath=".\dfwAutumnEventView.lua" />
+                    <LuaFile RelativePath=".\dfwAutumnHandAccountView.lua" />
+                    <LuaFile RelativePath=".\dfwAutumnMainView.lua" />
+                    <LuaFile RelativePath=".\dfwAutumnStepRewardView.lua" />
+                    <LuaFile RelativePath=".\dfwAutumnTaskView.lua" />
+                    <LuaFile RelativePath=".\dfwAutumnTurntableView.lua" />
+                </Filter>
+                <Filter RelativePath=".\dating" Toggle="true" >
+                    <LuaFile RelativePath=".\2004_1.lua" />
+                    <LuaFile RelativePath=".\2105003_1.lua" />
+                    <LuaFile RelativePath=".\buyDatingTimesView.lua" />
+                    <LuaFile RelativePath=".\cg1.lua" />
+                    <LuaFile RelativePath=".\cityJobView.lua" />
+                    <LuaFile RelativePath=".\cityRoomUIView.lua" />
+                    <LuaFile RelativePath=".\dailyCityInfoView.lua" />
+                    <LuaFile RelativePath=".\datingChangeBgView.lua" />
+                    <LuaFile RelativePath=".\datingCompleteView.lua" />
+                    <LuaFile RelativePath=".\datingDayView.lua" />
+                    <LuaFile RelativePath=".\datingDecorateRoom.lua" />
+                    <LuaFile RelativePath=".\datingEdit.lua" />
+                    <LuaFile RelativePath=".\datingFailView.lua" />
+                    <LuaFile RelativePath=".\datingFavorRewardView.lua" />
+                    <LuaFile RelativePath=".\datingGiftAndDressView.lua" />
+                    <LuaFile RelativePath=".\datingGiveGiftView.lua" />
+                    <LuaFile RelativePath=".\datingLayer.lua" />
+                    <LuaFile RelativePath=".\datingLetterView.lua" />
+                    <LuaFile RelativePath=".\datingMainInfoView.lua" />
+                    <LuaFile RelativePath=".\datingMainView.lua" />
+                    <LuaFile RelativePath=".\datingOptionView.lua" />
+                    <LuaFile RelativePath=".\datingOutsideView.lua" />
+                    <LuaFile RelativePath=".\datingPokedexSpriteView.lua" />
+                    <LuaFile RelativePath=".\datingQualityView.lua" />
+                    <LuaFile RelativePath=".\datingReverseLayer.lua" />
+                    <LuaFile RelativePath=".\datingReview.lua" />
+                    <LuaFile RelativePath=".\datingRewardInfoView.lua" />
+                    <LuaFile RelativePath=".\datingRewardPreviewView.lua" />
+                    <LuaFile RelativePath=".\datingScriptView.lua" />
+                    <LuaFile RelativePath=".\datingStarSettlementView.lua" />
+                    <LuaFile RelativePath=".\datingTestView.lua" />
+                    <LuaFile RelativePath=".\datingTypeView.lua" />
+                    <LuaFile RelativePath=".\decorateRoomView.lua" />
+                    <LuaFile RelativePath=".\dressLayer.lua" />
+                    <LuaFile RelativePath=".\dressView.lua" />
+                    <LuaFile RelativePath=".\favorUpgradeLayer.lua" />
+                    <LuaFile RelativePath=".\favorView.lua" />
+                    <LuaFile RelativePath=".\favorView2.lua" />
+                    <LuaFile RelativePath=".\fubenCitySettlementLayer.lua" />
+                    <LuaFile RelativePath=".\getJobRewardView.lua" />
+                    <LuaFile RelativePath=".\giftsLayer.lua" />
+                    <LuaFile RelativePath=".\giftsView.lua" />
+                    <LuaFile RelativePath=".\kanBanLayer.lua" />
+                    <LuaFile RelativePath=".\Module1.lua" />
+                    <LuaFile RelativePath=".\moodLayer.lua" />
+                    <LuaFile RelativePath=".\moodView.lua" />
+                    <LuaFile RelativePath=".\newDatingDayView.lua" />
+                    <LuaFile RelativePath=".\outsideSettlementLayer.lua" />
+                    <LuaFile RelativePath=".\placeLayer.lua" />
+                    <LuaFile RelativePath=".\roleArea1.lua" />
+                    <LuaFile RelativePath=".\roleInfoLayer.lua" />
+                    <LuaFile RelativePath=".\room01.lua" />
+                    <LuaFile RelativePath=".\room02.lua" />
+                    <LuaFile RelativePath=".\room03.lua" />
+                    <LuaFile RelativePath=".\room04.lua" />
+                    <LuaFile RelativePath=".\room05.lua" />
+                    <LuaFile RelativePath=".\room06.lua" />
+                    <LuaFile RelativePath=".\room07.lua" />
+                    <LuaFile RelativePath=".\room08.lua" />
+                    <LuaFile RelativePath=".\room09.lua" />
+                    <LuaFile RelativePath=".\room10.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                    <LuaFile RelativePath=".\settlementDailyLayer.lua" />
+                    <LuaFile RelativePath=".\settlementLayer.lua" />
+                    <LuaFile RelativePath=".\settlementMainLineLayer.lua" />
+                    <LuaFile RelativePath=".\specialEffectsTestLayer.lua" />
+                    <LuaFile RelativePath=".\uiScrollItem.lua" />
+                    <LuaFile RelativePath=".\uiScrollLayer.lua" />
+                    <LuaFile RelativePath=".\unlockGoods.lua" />
+                    <LuaFile RelativePath=".\letterOptionView.lua" />
+                </Filter>
+                <Filter RelativePath=".\dispatch" Toggle="true" >
+                    <LuaFile RelativePath=".\dispatchAddHeroLayer.lua" />
+                    <LuaFile RelativePath=".\dispatchDetailLayer.lua" />
+                    <LuaFile RelativePath=".\dispatchHeroLayer.lua" />
+                    <LuaFile RelativePath=".\dispatchMainLayer.lua" />
+                    <LuaFile RelativePath=".\dispatchRewardShowLayer.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                </Filter>
+                <Filter RelativePath=".\dls" Toggle="true" >
+                    <LuaFile RelativePath=".\dalBigMiniMap.lua" />
+                    <LuaFile RelativePath=".\dalGame.lua" />
+                    <LuaFile RelativePath=".\dalMapFight.lua" />
+                    <LuaFile RelativePath=".\dalMapFormation.lua" />
+                    <LuaFile RelativePath=".\dalMapMainView.lua" />
+                    <LuaFile RelativePath=".\dalMapTransport.lua" />
+                    <LuaFile RelativePath=".\dls_map_1.lua" />
+                    <LuaFile RelativePath=".\dlsMainView.lua" />
+                    <LuaFile RelativePath=".\dlsReadyView.lua" />
+                    <LuaFile RelativePath=".\dlsTreasureHouseView.lua" />
+                    <LuaFile RelativePath=".\dlsTreasureRewardView.lua" />
+                    <LuaFile RelativePath=".\dlsWelfareRewardView.lua" />
+                    <LuaFile RelativePath=".\dlsWelfareView.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                </Filter>
+                <Filter RelativePath=".\Equip" Toggle="true" >
+                    <LuaFile RelativePath=".\EquipConvert.lua" />
+                    <LuaFile RelativePath=".\EquipConvertTips.lua" />
+                    <LuaFile RelativePath=".\EquipInfoLayer.lua" />
+                    <LuaFile RelativePath=".\EquipRecycle.lua" />
+                    <LuaFile RelativePath=".\EquipRecycleConfirm.lua" />
+                    <LuaFile RelativePath=".\EquipReform.lua" />
+                    <LuaFile RelativePath=".\EquipReformLayer.lua" />
+                    <LuaFile RelativePath=".\EquipSelectLayer.lua" />
+                    <LuaFile RelativePath=".\EquipStarUp.lua" />
+                    <LuaFile RelativePath=".\EquipStrengthen.lua" />
+                    <LuaFile RelativePath=".\EquipStrengthTips.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                    <LuaFile RelativePath=".\StarUpEquipChoose.lua" />
+                </Filter>
+                <Filter RelativePath=".\fairy" Toggle="true" >
+                    <LuaFile RelativePath=".\fairyLevelUp.lua" />
+                    <LuaFile RelativePath=".\fairyLevelUpResult.lua" />
+                    <LuaFile RelativePath=".\fairyMain.lua" />
+                    <LuaFile RelativePath=".\formationLayer.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                    <LuaFile RelativePath=".\showHero.lua" />
+                    <LuaFile RelativePath=".\strengthenResult.lua" />
+                </Filter>
+                <Filter RelativePath=".\fairyNew" Toggle="true" >
+                    <LuaFile RelativePath=".\baoshiChooselView.lua" />
+                    <LuaFile RelativePath=".\baoshiComposeView.lua" />
+                    <LuaFile RelativePath=".\baoshiDecomposeView.lua" />
+                    <LuaFile RelativePath=".\baoshiDetailView.lua" />
+                    <LuaFile RelativePath=".\baoshiRecastView.lua" />
+                    <LuaFile RelativePath=".\baoshiSkillShowView.lua" />
+                    <LuaFile RelativePath=".\baoshiSkillTipsView.lua" />
+                    <LuaFile RelativePath=".\baoshiSortChooseView.lua" />
+                    <LuaFile RelativePath=".\baoshiSpecialComposeView.lua" />
+                    <LuaFile RelativePath=".\baoshiTuzhiSortView.lua" />
+                    <LuaFile RelativePath=".\beforeRoleEvlutionShow.lua" />
+                    <LuaFile RelativePath=".\crystalTransform.lua" />
+                    <LuaFile RelativePath=".\equipSuitBagShowView.lua" />
+                    <LuaFile RelativePath=".\equipSuitLevelUpSuccess.lua" />
+                    <LuaFile RelativePath=".\equipSuitMainLayer.lua" />
+                    <LuaFile RelativePath=".\equipSuitShowView.lua" />
+                    <LuaFile RelativePath=".\equipSuitStarUpSuccess.lua" />
+                    <LuaFile RelativePath=".\equipSuitStarUpView.lua" />
+                    <LuaFile RelativePath=".\equipSuitUpView.lua" />
+                    <LuaFile RelativePath=".\evaluationViewEx.lua" />
+                    <LuaFile RelativePath=".\fairyDetails.lua" />
+                    <LuaFile RelativePath=".\fairyEnergyBreakUpView.lua" />
+                    <LuaFile RelativePath=".\fairyEnergyBreakView.lua" />
+                    <LuaFile RelativePath=".\fairyEnergyLevelUpView.lua" />
+                    <LuaFile RelativePath=".\fairyEnergyResetView.lua" />
+                    <LuaFile RelativePath=".\fairyEnergyUpView.lua" />
+                    <LuaFile RelativePath=".\fairyEnergyUseUpView.lua" />
+                    <LuaFile RelativePath=".\fairyEnergyUseView.lua" />
+                    <LuaFile RelativePath=".\fairyEvolution.lua" />
+                    <LuaFile RelativePath=".\fairyHeroEnergyUnlockView.lua" />
+                    <LuaFile RelativePath=".\fairyLevelUp.lua" />
+                    <LuaFile RelativePath=".\fairyLevelUpResult.lua" />
+                    <LuaFile RelativePath=".\fairyMain.lua" />
+                    <LuaFile RelativePath=".\fairySkillInfo.lua" />
+                    <LuaFile RelativePath=".\fairyStrategy.lua" />
+                    <LuaFile RelativePath=".\fairyTrailDetails.lua" />
+                    <LuaFile RelativePath=".\fastEvolutionTips.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                    <LuaFile RelativePath=".\strengthenResult.lua" />
+                    <LuaFile RelativePath=".\crystalTransform2.lua" />
+                </Filter>
+                <Filter RelativePath=".\friend" Toggle="true" >
+                    <LuaFile RelativePath=".\friendView.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                </Filter>
+                <Filter RelativePath=".\fuben" Toggle="true" >
+                    <LuaFile RelativePath=".\cgVideoView.lua" />
+                    <LuaFile RelativePath=".\fubenActivityView.lua" />
+                    <LuaFile RelativePath=".\fubenBuyCountView.lua" />
+                    <LuaFile RelativePath=".\fubenChapterPassView.lua" />
+                    <LuaFile RelativePath=".\fubenChapterView.lua" />
+                    <LuaFile RelativePath=".\fubenDailyOpenRuleView.lua" />
+                    <LuaFile RelativePath=".\fubenDailyView.lua" />
+                    <LuaFile RelativePath=".\fubenEndlessJumpView.lua" />
+                    <LuaFile RelativePath=".\fubenEndlessTotalRank.lua" />
+                    <LuaFile RelativePath=".\fubenEndlessView.lua" />
+                    <LuaFile RelativePath=".\fubenFightInfoView.lua" />
+                    <LuaFile RelativePath=".\fubenFlightSquadView.lua" />
+                    <LuaFile RelativePath=".\fubenHalloweenView.lua" />
+                    <LuaFile RelativePath=".\fubenLevelView.lua" />
+                    <LuaFile RelativePath=".\fubenReadyView.lua" />
+                    <LuaFile RelativePath=".\fubenSelectCountView.lua" />
+                    <LuaFile RelativePath=".\fubenSpriteExtraView.lua" />
+                    <LuaFile RelativePath=".\fubenSpriteRewardView.lua" />
+                    <LuaFile RelativePath=".\fubenSpriteView.lua" />
+                    <LuaFile RelativePath=".\fubenSquadView.lua" />
+                    <LuaFile RelativePath=".\fubenStarRewardView.lua" />
+                    <LuaFile RelativePath=".\fubenTheaterBossView.lua" />
+                    <LuaFile RelativePath=".\fubenTheaterCountView.lua" />
+                    <LuaFile RelativePath=".\fubenTheaterLevelView.lua" />
+                    <LuaFile RelativePath=".\fubenTheaterRewardView.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                    <LuaFile RelativePath=".\simulationTrialGrowUpView.lua" />
+                    <LuaFile RelativePath=".\simulationTrialLevelView.lua" />
+                    <LuaFile RelativePath=".\simulationTrialMainView.lua" />
+                    <LuaFile RelativePath=".\simulationTrialRewardPreviewView.lua" />
+                    <LuaFile RelativePath=".\simulationTrialRewradView.lua" />
+                    <LuaFile RelativePath=".\theater_chapter_1.lua" />
+                    <LuaFile RelativePath=".\theater_chapter_10301.lua" />
+                    <LuaFile RelativePath=".\theater_chapter_10302.lua" />
+                    <LuaFile RelativePath=".\theater_chapter_10303.lua" />
+                    <LuaFile RelativePath=".\theater_chapter_2.lua" />
+                    <LuaFile RelativePath=".\theater_chapter_3.lua" />
+                    <LuaFile RelativePath=".\theater_chapter_4.lua" />
+                    <LuaFile RelativePath=".\theater_chapter_5.lua" />
+                    <LuaFile RelativePath=".\linkage_chapter_1.lua" />
+                    <LuaFile RelativePath=".\linkage_chapter_2.lua" />
+                    <LuaFile RelativePath=".\linkageView.lua" />
+                    <LuaFile RelativePath=".\simulationTrialGrowUpView2.lua" />
+                    <LuaFile RelativePath=".\simulationTrialGrowUpView3.lua" />
+                    <LuaFile RelativePath=".\simulationTrialLevelView2.lua" />
+                    <LuaFile RelativePath=".\simulationTrialLevelView3.lua" />
+                    <LuaFile RelativePath=".\simulationTrialMainView2.lua" />
+                    <LuaFile RelativePath=".\simulationTrialMainView3.lua" />
+                    <LuaFile RelativePath=".\simulationTrialRewradView2.lua" />
+                    <LuaFile RelativePath=".\simulationTrialRewradView3.lua" />
+                    <LuaFile RelativePath=".\fubenHalloweenLevelView.lua" />
+                    <LuaFile RelativePath=".\Halloween_linkage_chapter.lua" />
+                </Filter>
+                <Filter RelativePath=".\guide" Toggle="true" >
+                    <LuaFile RelativePath=".\guideMain.lua" />
+                    <LuaFile RelativePath=".\guideView.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                </Filter>
+                <Filter RelativePath=".\infoStation" Toggle="true" >
+                    <LuaFile RelativePath=".\infoStationLayer.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                </Filter>
+                <Filter RelativePath=".\iphone" Toggle="true" >
+                    <LuaFile RelativePath=".\PhoneDatingView.lua" />
+                    <LuaFile RelativePath=".\PhoneMainView.lua" />
+                    <LuaFile RelativePath=".\PhoneMainViewAI.lua" />
+                    <LuaFile RelativePath=".\PhoneMainViewAIH.lua" />
+                    <LuaFile RelativePath=".\PhoneTipView.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                    <LuaFile RelativePath=".\secondAIChatRoom.lua" />
+                    <LuaFile RelativePath=".\secondAIChatView.lua" />
+                    <LuaFile RelativePath=".\aiLabshowView.lua" />
+                    <LuaFile RelativePath=".\roleTeachBuyView.lua" />
+                    <LuaFile RelativePath=".\roleTeachLayer.lua" />
+                    <LuaFile RelativePath=".\teachCardView.lua" />
+                </Filter>
+                <Filter RelativePath=".\kabalaTree" Toggle="true" >
+                    <LuaFile RelativePath=".\kabalaTreeAward.lua" />
+                    <LuaFile RelativePath=".\kabalaTreeAwardBuff.lua" />
+                    <LuaFile RelativePath=".\kabalaTreeBag.lua" />
+                    <LuaFile RelativePath=".\kabalaTreeBigMiniMap.lua" />
+                    <LuaFile RelativePath=".\kabalaTreeCg.lua" />
+                    <LuaFile RelativePath=".\kabalaTreeCleanTask.lua" />
+                    <LuaFile RelativePath=".\kabalaTreeConcealBoss.lua" />
+                    <LuaFile RelativePath=".\kabalaTreeExploreView.lua" />
+                    <LuaFile RelativePath=".\kabalaTreeFight.lua" />
+                    <LuaFile RelativePath=".\kabalaTreeFightConfirm.lua" />
+                    <LuaFile RelativePath=".\kabalaTreeFormation.lua" />
+                    <LuaFile RelativePath=".\kabalaTreeFormationNew.lua" />
+                    <LuaFile RelativePath=".\kabalaTreeGame.lua" />
+                    <LuaFile RelativePath=".\kabalaTreeMainView.lua" />
+                    <LuaFile RelativePath=".\kabalaTreeMapInfo.lua" />
+                    <LuaFile RelativePath=".\kabalaTreePlayGuide.lua" />
+                    <LuaFile RelativePath=".\kabalaTreeRadarView.lua" />
+                    <LuaFile RelativePath=".\kabalaTreeState.lua" />
+                    <LuaFile RelativePath=".\kabalaTreeStatistics.lua" />
+                    <LuaFile RelativePath=".\kabalaTreeStore.lua" />
+                    <LuaFile RelativePath=".\kabalaTreeStrongPoint.lua" />
+                    <LuaFile RelativePath=".\kabalaTreeTransport.lua" />
+                    <LuaFile RelativePath=".\kabalaTreeUseItem.lua" />
+                    <LuaFile RelativePath=".\kabalaTreeUseItemNew.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                </Filter>
+                <Filter RelativePath=".\league" Toggle="true" >
+                    <LuaFile RelativePath=".\createLeagueLayer.lua" />
+                    <LuaFile RelativePath=".\editJoinLimitView.lua" />
+                    <LuaFile RelativePath=".\editNoticeView.lua" />
+                    <LuaFile RelativePath=".\JoinLeagueLayer.lua" />
+                    <LuaFile RelativePath=".\leagueApliesInfoView.lua" />
+                    <LuaFile RelativePath=".\leagueBuildingMainView.lua" />
+                    <LuaFile RelativePath=".\leagueDegreeView.lua" />
+                    <LuaFile RelativePath=".\leagueDelateInfoView.lua" />
+                    <LuaFile RelativePath=".\leagueFlagChangeView.lua" />
+                    <LuaFile RelativePath=".\leagueHallView.lua" />
+                    <LuaFile RelativePath=".\leagueHunterMainView.lua" />
+                    <LuaFile RelativePath=".\leagueHunterPreviewView.lua" />
+                    <LuaFile RelativePath=".\leagueHunterRankingView.lua" />
+                    <LuaFile RelativePath=".\leagueHunterRewardView.lua" />
+                    <LuaFile RelativePath=".\leagueMainLayer.lua" />
+                    <LuaFile RelativePath=".\leagueOpenRedPacketView.lua" />
+                    <LuaFile RelativePath=".\leagueRedPacketDetailView.lua" />
+                    <LuaFile RelativePath=".\leagueSendRedPacketView.lua" />
+                    <LuaFile RelativePath=".\leagueSnapInfoView.lua" />
+                    <LuaFile RelativePath=".\leagueSupplyDropView.lua" />
+                    <LuaFile RelativePath=".\leagueTrainingBriefView.lua" />
+                    <LuaFile RelativePath=".\leagueTrainingReadyView.lua" />
+                    <LuaFile RelativePath=".\leagueTrainingStageView.lua" />
+                    <LuaFile RelativePath=".\leagueTrainingTaskView.lua" />
+                    <LuaFile RelativePath=".\leagueTrainingView.lua" />
+                    <LuaFile RelativePath=".\noLeagueLayer.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                    <LuaFile RelativePath=".\leagueHunterHonorView.lua" />
+                </Filter>
+                <Filter RelativePath=".\load" Toggle="true" >
+                    <LuaFile RelativePath=".\LoadView.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                </Filter>
+                <Filter RelativePath=".\loginScene" Toggle="true" >
+                    <LuaFile RelativePath=".\ActivationLayer.lua" />
+                    <LuaFile RelativePath=".\cleanUpView.lua" />
+                    <LuaFile RelativePath=".\downLoadingTips.lua" />
+                    <LuaFile RelativePath=".\loginedLayer.lua" />
+                    <LuaFile RelativePath=".\loginLayer.lua" />
+                    <LuaFile RelativePath=".\loginLoading.lua" />
+                    <LuaFile RelativePath=".\loginNotice.lua" />
+                    <LuaFile RelativePath=".\loginWaiting.lua" />
+                    <LuaFile RelativePath=".\noticeBoard.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                    <LuaFile RelativePath=".\serverChoose.lua" />
+                    <LuaFile RelativePath=".\updateLayer.lua" />
+                    <LuaFile RelativePath=".\oneYearloginLayer.lua" />
+                </Filter>
+                <Filter RelativePath=".\mail" Toggle="true" >
+                    <LuaFile RelativePath=".\mailMain.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                    <LuaFile RelativePath=".\showMail.lua" />
+                </Filter>
+                <Filter RelativePath=".\MainScene" Toggle="true" >
+                    <LuaFile RelativePath=".\EvaluateView.lua" />
+                    <LuaFile RelativePath=".\MainLayer.lua" />
+                    <LuaFile RelativePath=".\noticeView.lua" />
+                    <LuaFile RelativePath=".\preview.lua" />
+                    <LuaFile RelativePath=".\proclamationView.lua" />
+                    <LuaFile RelativePath=".\questionnaireView.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                    <LuaFile RelativePath=".\WxChatView.lua" />
+                    <LuaFile RelativePath=".\MainLayer_copy.lua" />
+                    <LuaFile RelativePath=".\OneCelebrationMainLayer.lua" />
+                    <LuaFile RelativePath=".\DefaultMainLayer.lua" />
+                    <LuaFile RelativePath=".\WanKryptonMainLayer.lua" />
+                </Filter>
+                <Filter RelativePath=".\miniGame" Toggle="true" >
+                    <LuaFile RelativePath=".\catchDollUIView.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                </Filter>
+                <Filter RelativePath=".\newCity" Toggle="true" >
+                    <LuaFile RelativePath=".\makeFoodView.lua" />
+                    <LuaFile RelativePath=".\manualMakeView.lua" />
+                    <LuaFile RelativePath=".\newCityBagView.lua" />
+                    <LuaFile RelativePath=".\newCityDatingBagView.lua" />
+                    <LuaFile RelativePath=".\newCityEventSettlementView.lua" />
+                    <LuaFile RelativePath=".\newCityFairListView.lua" />
+                    <LuaFile RelativePath=".\newCityFavorTestView.lua" />
+                    <LuaFile RelativePath=".\newCityGuideView.lua" />
+                    <LuaFile RelativePath=".\newCityInfoView.lua" />
+                    <LuaFile RelativePath=".\newCityLoadView.lua" />
+                    <LuaFile RelativePath=".\newCityMainLayer.lua" />
+                    <LuaFile RelativePath=".\newCityMessageView.lua" />
+                    <LuaFile RelativePath=".\newCityRemindView.lua" />
+                    <LuaFile RelativePath=".\newCityRewardView.lua" />
+                    <LuaFile RelativePath=".\newCityRoomFuncView.lua" />
+                    <LuaFile RelativePath=".\newCityRoomView.lua" />
+                    <LuaFile RelativePath=".\newCityUpdateView.lua" />
+                    <LuaFile RelativePath=".\personalInfoView.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                </Filter>
+                <Filter RelativePath=".\NewYear" Toggle="true" >
+                    <LuaFile RelativePath=".\MainLayer.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                </Filter>
+                <Filter RelativePath=".\osd" Toggle="true" >
+                    <LuaFile RelativePath=".\AffixPreviewView.lua" />
+                    <LuaFile RelativePath=".\entrance.lua" />
+                    <LuaFile RelativePath=".\HeroListLayer.lua" />
+                    <LuaFile RelativePath=".\HuntingInvitationCountHelpView.lua" />
+                    <LuaFile RelativePath=".\HuntingInvitationView.lua" />
+                    <LuaFile RelativePath=".\LevelHelpView.lua" />
+                    <LuaFile RelativePath=".\LevelReady.lua" />
+                    <LuaFile RelativePath=".\Luckdraw.lua" />
+                    <LuaFile RelativePath=".\MapLayer.lua" />
+                    <LuaFile RelativePath=".\Prefabe.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                    <LuaFile RelativePath=".\TaskLayer.lua" />
+                </Filter>
+                <Filter RelativePath=".\playerInfo" Toggle="true" >
+                    <LuaFile RelativePath=".\avatarChangeView.lua" />
+                    <LuaFile RelativePath=".\changeAssist.lua" />
+                    <LuaFile RelativePath=".\changeAssistView.lua" />
+                    <LuaFile RelativePath=".\exchangeCodeView.lua" />
+                    <LuaFile RelativePath=".\logoutView.lua" />
+                    <LuaFile RelativePath=".\medalDetailView.lua" />
+                    <LuaFile RelativePath=".\medalIndexView.lua" />
+                    <LuaFile RelativePath=".\medalInfoView.lua" />
+                    <LuaFile RelativePath=".\modifyNameView.lua" />
+                    <LuaFile RelativePath=".\playerAccount.lua" />
+                    <LuaFile RelativePath=".\playerAccountView.lua" />
+                    <LuaFile RelativePath=".\playerInfoSettingView.lua" />
+                    <LuaFile RelativePath=".\playerSetting.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                    <LuaFile RelativePath=".\tipOff.lua" />
+                    <LuaFile RelativePath=".\tipsGetMedal.lua" />
+                    <LuaFile RelativePath=".\titleChangeView.lua" />
+                    <LuaFile RelativePath=".\titleDetailView.lua" />
+                    <LuaFile RelativePath=".\unlockMedalView.lua" />
+                </Filter>
+                <Filter RelativePath=".\pokedex" Toggle="true" >
+                    <LuaFile RelativePath=".\pokedexActivityView.lua" />
+                    <LuaFile RelativePath=".\pokedexEquipmentView.lua" />
+                    <LuaFile RelativePath=".\pokedexMainView.lua" />
+                    <LuaFile RelativePath=".\pokedexSelectView.lua" />
+                    <LuaFile RelativePath=".\pokedexSpriteView.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                </Filter>
+                <Filter RelativePath=".\recharge" Toggle="true" >
+                    <LuaFile RelativePath=".\christmasBag.lua" />
+                    <LuaFile RelativePath=".\mCardActivated.lua" />
+                    <LuaFile RelativePath=".\monthCard.lua" />
+                    <LuaFile RelativePath=".\monthlyCardTipView.lua" />
+                    <LuaFile RelativePath=".\NewGuyGiftBag.lua" />
+                    <LuaFile RelativePath=".\rechargeMain.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                    <LuaFile RelativePath=".\shareMainView.lua" />
+                    <LuaFile RelativePath=".\oneYearShareView.lua" />
+                    <LuaFile RelativePath=".\warOrderView.lua" />
+                </Filter>
+                <Filter RelativePath=".\role" Toggle="true" >
+                    <LuaFile RelativePath=".\newRoleShowView.lua" />
+                    <LuaFile RelativePath=".\newSceneChangeConfirm.lua" />
+                    <LuaFile RelativePath=".\newSceneShowView.lua" />
+                    <LuaFile RelativePath=".\roleListView.lua" />
+                    <LuaFile RelativePath=".\roleShowView.lua" />
+                    <LuaFile RelativePath=".\roleTextView.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                    <LuaFile RelativePath=".\roleSwitchSettingView.lua" />
+                </Filter>
+                <Filter RelativePath=".\settings" Toggle="true" >
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                    <LuaFile RelativePath=".\settingsView.lua" />
+                </Filter>
+                <Filter RelativePath=".\skyladder" Toggle="true" >
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                    <LuaFile RelativePath=".\skyladderAward.lua" />
+                    <LuaFile RelativePath=".\skyladderCardBagView.lua" />
+                    <LuaFile RelativePath=".\skyladderCardLevelUpView.lua" />
+                    <LuaFile RelativePath=".\skyladderCardPackageView.lua" />
+                    <LuaFile RelativePath=".\skyladderCardSetView.lua" />
+                    <LuaFile RelativePath=".\skyladderCardView.lua" />
+                    <LuaFile RelativePath=".\skyladderEndRankView.lua" />
+                    <LuaFile RelativePath=".\skyladderEndView.lua" />
+                    <LuaFile RelativePath=".\skyladderMainView.lua" />
+                    <LuaFile RelativePath=".\skyladderSeasonEndView.lua" />
+                    <LuaFile RelativePath=".\skyladderStage.lua" />
+                    <LuaFile RelativePath=".\skyladderTaskView.lua" />
+                    <LuaFile RelativePath=".\skyladderTipView.lua" />
+                    <LuaFile RelativePath=".\skyladderZonesView.lua" />
+                </Filter>
+                <Filter RelativePath=".\smallGame" Toggle="true" >
+                    <LuaFile RelativePath=".\eliminationGame.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                </Filter>
+                <Filter RelativePath=".\store" Toggle="true" >
+                    <LuaFile RelativePath=".\buyConfirmView.lua" />
+                    <LuaFile RelativePath=".\repeatBuyTipsView.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                    <LuaFile RelativePath=".\storeMainView.lua" />
+                </Filter>
+                <Filter RelativePath=".\story" Toggle="true" >
+                    <LuaFile RelativePath=".\mainStoryLayer.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                </Filter>
+                <Filter RelativePath=".\summon" Toggle="true" >
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                    <LuaFile RelativePath=".\summonComposePreviewView.lua" />
+                    <LuaFile RelativePath=".\summonComposeView.lua" />
+                    <LuaFile RelativePath=".\summonContractDetailsView.lua" />
+                    <LuaFile RelativePath=".\summonContractMainView.lua" />
+                    <LuaFile RelativePath=".\summonContractPreviewVIew.lua" />
+                    <LuaFile RelativePath=".\summonContractResult.lua" />
+                    <LuaFile RelativePath=".\summonGetEquipmentView.lua" />
+                    <LuaFile RelativePath=".\summonGetHeroView.lua" />
+                    <LuaFile RelativePath=".\summonHeroView.lua" />
+                    <LuaFile RelativePath=".\summonHistoryView.lua" />
+                    <LuaFile RelativePath=".\summonHotNoticeView.lua" />
+                    <LuaFile RelativePath=".\summonMainView.lua" />
+                    <LuaFile RelativePath=".\summonPointView.lua" />
+                    <LuaFile RelativePath=".\summonPreviewView.lua" />
+                    <LuaFile RelativePath=".\summonResultView.lua" />
+                    <LuaFile RelativePath=".\summonShowView.lua" />
+                    <LuaFile RelativePath=".\summonSpeedView.lua" />
+                    <LuaFile RelativePath=".\summonView.lua" />
+                    <LuaFile RelativePath=".\SimulationSummonView.lua" />
+                    <LuaFile RelativePath=".\SimulationSummonExchangeTipsView.lua" />
+                    <LuaFile RelativePath=".\SimulationSummonExchangeView.lua" />
+                    <LuaFile RelativePath=".\SimulationSummonMainView.lua" />
+                    <LuaFile RelativePath=".\SimulationSummonResultView.lua" />
+                </Filter>
+                <Filter RelativePath=".\task" Toggle="true" >
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                    <LuaFile RelativePath=".\signInMonthView.lua" />
+                    <LuaFile RelativePath=".\taskMainView.lua" />
+                    <LuaFile RelativePath=".\taskRewardPreviewView.lua" />
+                    <LuaFile RelativePath=".\taskSingInView.lua" />
+                    <LuaFile RelativePath=".\taskTrainingBuyLevelView.lua" />
+                    <LuaFile RelativePath=".\taskTrainingChargeView.lua" />
+                    <LuaFile RelativePath=".\taskTrainingFastRewardView.lua" />
+                </Filter>
+                <Filter RelativePath=".\teamFight" Toggle="true" >
+                    <LuaFile RelativePath=".\matchTimerView.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                    <LuaFile RelativePath=".\teamBuyChance.lua" />
+                    <LuaFile RelativePath=".\teamCountDown.lua" />
+                    <LuaFile RelativePath=".\teamFight.lua" />
+                    <LuaFile RelativePath=".\teamInviteFriendView.lua" />
+                    <LuaFile RelativePath=".\teamLevelGroupSelView.lua" />
+                    <LuaFile RelativePath=".\teamLevelPreview.lua" />
+                    <LuaFile RelativePath=".\teamLevelSelView.lua" />
+                    <LuaFile RelativePath=".\teamMatchView.lua" />
+                    <LuaFile RelativePath=".\teamPveLevelView.lua" />
+                    <LuaFile RelativePath=".\teamPveMainView.lua" />
+                    <LuaFile RelativePath=".\teamSingleMatch.lua" />
+                    <LuaFile RelativePath=".\teamTest.lua" />
+                    <LuaFile RelativePath=".\teamPveLevelView2.lua" />
+                    <LuaFile RelativePath=".\teamPveMainView2.lua" />
+                </Filter>
+                <Filter RelativePath=".\test" Toggle="true" >
+                    <LuaFile RelativePath=".\gmView.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                    <LuaFile RelativePath=".\serverListView.lua" />
+                    <LuaFile RelativePath=".\storyTestView.lua" />
+                    <LuaFile RelativePath=".\testArcView.lua" />
+                    <LuaFile RelativePath=".\testView.lua" />
+                </Filter>
+                <Filter RelativePath=".\valentine" Toggle="true" >
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                    <LuaFile RelativePath=".\valentineComposeView.lua" />
+                    <LuaFile RelativePath=".\valentineGiftView.lua" />
+                    <LuaFile RelativePath=".\valentineHandselView.lua" />
+                    <LuaFile RelativePath=".\valentineMainView.lua" />
+                    <LuaFile RelativePath=".\valentineRankView.lua" />
+                    <LuaFile RelativePath=".\valentineTaskView.lua" />
+                </Filter>
+                <LuaFile RelativePath=".\ui_prj.lua" />
+                <Filter RelativePath=".\blackAndWhite" Toggle="true" >
+                    <LuaFile RelativePath=".\BlackAndWhiteRankingView.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                    <LuaFile RelativePath=".\BlackAndWhiteMainView.lua" />
+                    <LuaFile RelativePath=".\BlackAndWhiteTaskView.lua" />
+                </Filter>
+                <Filter RelativePath=".\oneYear" Toggle="true" >
+                    <LuaFile RelativePath=".\addressConfirmView.lua" />
+                    <LuaFile RelativePath=".\addressView.lua" />
+                    <LuaFile RelativePath=".\celebrationLuckyTipView.lua" />
+                    <LuaFile RelativePath=".\celebrationRuleView.lua" />
+                    <LuaFile RelativePath=".\celebrationView.lua" />
+                    <LuaFile RelativePath=".\LuckyListView.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                    <LuaFile RelativePath=".\welfareRecordView.lua" />
+                    <LuaFile RelativePath=".\welfareScanView.lua" />
+                    <LuaFile RelativePath=".\welfareView.lua" />
+                </Filter>
+                <Filter RelativePath=".\oneYearMain" Toggle="true" >
+                    <LuaFile RelativePath=".\OneCelebrationMainLayer.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                </Filter>
+                <Filter RelativePath=".\halloween" Toggle="true" >
+                    <LuaFile RelativePath=".\halloweenBuffView.lua" />
+                    <LuaFile RelativePath=".\halloweenGameView.lua" />
+                    <LuaFile RelativePath=".\halloweenRankView.lua" />
+                    <LuaFile RelativePath=".\halloweenTaskView.lua" />
+                    <LuaFile RelativePath=".\sceneConfig.lua" />
+                </Filter>
+            </Filter>
+        </Filter>
+        <Filter RelativePath=".\LuaScript" Toggle="false" >
+            <LuaFile RelativePath=".\adapt.lua" />
+            <LuaFile RelativePath=".\TFAssetsManager.lua" />
+            <LuaFile RelativePath=".\TFGameStartup.lua" />
+            <LuaFile RelativePath=".\TFPathConfig.lua" />
+            <Filter RelativePath=".\extends" Toggle="true" >
+                <LuaFile RelativePath=".\Action.lua" />
+                <LuaFile RelativePath=".\BaseFunction.lua" />
+                <LuaFile RelativePath=".\CCNodeEx.lua" />
+                <LuaFile RelativePath=".\date.lua" />
+                <LuaFile RelativePath=".\json.lua" />
+                <LuaFile RelativePath=".\ShaderEx.lua" />
+                <LuaFile RelativePath=".\TFAudioEx.lua" />
+                <LuaFile RelativePath=".\TFCheckBoxEx.lua" />
+                <LuaFile RelativePath=".\TFLabelEx.lua" />
+                <LuaFile RelativePath=".\TFTableViewEx.lua" />
+                <LuaFile RelativePath=".\UIGridView.lua" />
+                <LuaFile RelativePath=".\UIListView.lua" />
+                <LuaFile RelativePath=".\UIPageView.lua" />
+                <LuaFile RelativePath=".\UIScrollBar.lua" />
+                <LuaFile RelativePath=".\UITurnView.lua" />
+            </Filter>
+        </Filter>
+        <Filter RelativePath=".\sdkConfig" Toggle="true" >
+            <LuaFile RelativePath=".\sdkInfo.lua" />
+            <LuaFile RelativePath=".\sdkInfo_Empty.lua" />
+            <LuaFile RelativePath=".\sdkInfo_FaceBook.lua" />
+            <LuaFile RelativePath=".\sdkInfo_IPay.lua" />
+            <LuaFile RelativePath=".\sdkInfo_ITools.lua" />
+            <LuaFile RelativePath=".\sdkInfo_KY.lua" />
+            <LuaFile RelativePath=".\sdkInfo_PP.lua" />
+            <LuaFile RelativePath=".\sdkInfo_TB.lua" />
+        </Filter>
+        <Filter RelativePath=".\TFFramework" Toggle="false" >
+            <LuaFile RelativePath=".\init.lua" />
+            <LuaFile RelativePath=".\Main.lua" />
+            <LuaFile RelativePath=".\Main_Editor.lua" />
+            <LuaFile RelativePath=".\Main_R.lua" />
+            <LuaFile RelativePath=".\mobdebug.lua" />
+            <LuaFile RelativePath=".\ResPathConfig.lua" />
+            <LuaFile RelativePath=".\ResPathConfig_Editor.lua" />
+            <LuaFile RelativePath=".\SkeletonAnimationEx.lua" />
+            <LuaFile RelativePath=".\SkilEditor.lua" />
+            <LuaFile RelativePath=".\TFVersion.lua" />
+            <Filter RelativePath=".\algorithm" Toggle="true" >
+                <LuaFile RelativePath=".\PathFinder.lua" />
+                <LuaFile RelativePath=".\Polygon.lua" />
+                <LuaFile RelativePath=".\TFArray.lua" />
+                <LuaFile RelativePath=".\Triangulate.lua" />
+            </Filter>
+            <Filter RelativePath=".\base" Toggle="false" >
+                <LuaFile RelativePath=".\bit.lua" />
+                <LuaFile RelativePath=".\bit_64.lua" />
+                <LuaFile RelativePath=".\class.lua" />
+                <LuaFile RelativePath=".\functions.lua" />
+                <LuaFile RelativePath=".\macros.lua" />
+                <Filter RelativePath=".\me" Toggle="false" >
+                    <LuaFile RelativePath=".\initME.lua" />
+                    <LuaFile RelativePath=".\StackTracePlus.lua" />
+                    <LuaFile RelativePath=".\TF_Adaptor.lua" />
+                    <Filter RelativePath=".\cocos" Toggle="true" >
+                        <LuaFile RelativePath=".\cocos2d.lua" />
+                        <LuaFile RelativePath=".\enums.lua" />
+                    </Filter>
+                    <Filter RelativePath=".\gui" Toggle="true" >
+                        <LuaFile RelativePath=".\init.lua" />
+                        <LuaFile RelativePath=".\PopWindow.lua" />
+                    </Filter>
+                    <Filter RelativePath=".\loader" Toggle="true" >
+                        <LuaFile RelativePath=".\initLoader.lua" />
+                        <LuaFile RelativePath=".\MCLoader.lua" />
+                    </Filter>
+                    <Filter RelativePath=".\mango" Toggle="true" >
+                        <LuaFile RelativePath=".\adapt.lua" />
+                        <LuaFile RelativePath=".\classes.lua" />
+                        <LuaFile RelativePath=".\definitions.lua" />
+                        <LuaFile RelativePath=".\helpers.lua" />
+                        <LuaFile RelativePath=".\json.lua" />
+                        <LuaFile RelativePath=".\physics.lua" />
+                        <LuaFile RelativePath=".\platform.lua" />
+                        <LuaFile RelativePath=".\shortcut.lua" />
+                        <LuaFile RelativePath=".\TFConsoleCmds.lua" />
+                        <LuaFile RelativePath=".\TFLuaOcJava.lua" />
+                    </Filter>
+                </Filter>
+            </Filter>
+            <Filter RelativePath=".\client" Toggle="false" >
+                <Filter RelativePath=".\director" Toggle="true" >
+                    <LuaFile RelativePath=".\TFDirector.lua" />
+                    <LuaFile RelativePath=".\TFDirector_Adaptor.lua" />
+                    <LuaFile RelativePath=".\TFDirector_Debug.lua" />
+                    <LuaFile RelativePath=".\TFDirector_Event_Timer.lua" />
+                    <LuaFile RelativePath=".\TFDirector_KeyHook.lua" />
+                    <LuaFile RelativePath=".\TFDirector_Net.lua" />
+                    <LuaFile RelativePath=".\TFDirector_UIManager.lua" />
+                </Filter>
+                <Filter RelativePath=".\entity" Toggle="true" >
+                    <LuaFile RelativePath=".\TFEaseType.lua" />
+                    <LuaFile RelativePath=".\TFLogType.lua" />
+                </Filter>
+                <Filter RelativePath=".\manager" Toggle="false" >
+                    <LuaFile RelativePath=".\TFBaseManager.lua" />
+                    <LuaFile RelativePath=".\TFEnterFrameManager.lua" />
+                    <LuaFile RelativePath=".\TFEventManager.lua" />
+                    <LuaFile RelativePath=".\TFLogManager.lua" />
+                    <LuaFile RelativePath=".\TFProtocolManager.lua" />
+                    <LuaFile RelativePath=".\TFSceneManager.lua" />
+                    <LuaFile RelativePath=".\TFShaderManager.lua" />
+                    <LuaFile RelativePath=".\TFTimerManager.lua" />
+                    <LuaFile RelativePath=".\TFTweenManager.lua" />
+                    <LuaFile RelativePath=".\TFUILoadManager.lua" />
+                    <Filter RelativePath=".\tween" Toggle="true" >
+                        <LuaFile RelativePath=".\ActionFunction.lua" />
+                    </Filter>
+                </Filter>
+                <Filter RelativePath=".\system" Toggle="false" >
+                    <Filter RelativePath=".\components" Toggle="false" >
+                        <LuaFile RelativePath=".\initComponents.lua" />
+                        <LuaFile RelativePath=".\TFArmature.lua" />
+                        <LuaFile RelativePath=".\TFAudio.lua" />
+                        <LuaFile RelativePath=".\TFButton.lua" />
+                        <LuaFile RelativePath=".\TFButtonGroup.lua" />
+                        <LuaFile RelativePath=".\TFCheckBox.lua" />
+                        <LuaFile RelativePath=".\TFClippingNode.lua" />
+                        <LuaFile RelativePath=".\TFCoverFlow.lua" />
+                        <LuaFile RelativePath=".\TFDragPanel.lua" />
+                        <LuaFile RelativePath=".\TFGroupButton.lua" />
+                        <LuaFile RelativePath=".\TFImage.lua" />
+                        <LuaFile RelativePath=".\TFLabel.lua" />
+                        <LuaFile RelativePath=".\TFLabel2.lua" />
+                        <LuaFile RelativePath=".\TFLabelBMFont.lua" />
+                        <LuaFile RelativePath=".\TFListView.lua" />
+                        <LuaFile RelativePath=".\TFLoading.lua" />
+                        <LuaFile RelativePath=".\TFLoadingBar.lua" />
+                        <LuaFile RelativePath=".\TFLua.lua" />
+                        <LuaFile RelativePath=".\TFMovieClip.lua" />
+                        <LuaFile RelativePath=".\TFPageView.lua" />
+                        <LuaFile RelativePath=".\TFPanel.lua" />
+                        <LuaFile RelativePath=".\TFParticle.lua" />
+                        <LuaFile RelativePath=".\TFRichText.lua" />
+                        <LuaFile RelativePath=".\TFScrollView.lua" />
+                        <LuaFile RelativePath=".\TFSkeleton.lua" />
+                        <LuaFile RelativePath=".\TFSlider.lua" />
+                        <LuaFile RelativePath=".\TFSpine.lua" />
+                        <LuaFile RelativePath=".\TFTableView.lua" />
+                        <LuaFile RelativePath=".\TFTableViewCell.lua" />
+                        <LuaFile RelativePath=".\TFTextArea.lua" />
+                        <LuaFile RelativePath=".\TFTextButton.lua" />
+                        <LuaFile RelativePath=".\TFTextField.lua" />
+                        <LuaFile RelativePath=".\TFUIBase.lua" />
+                        <LuaFile RelativePath=".\TFWidget.lua" />
+                        <Filter RelativePath=".\luacomps" Toggle="true" >
+                            <LuaFile RelativePath=".\init.lua" />
+                            <LuaFile RelativePath=".\TFLuaComponent.lua" />
+                            <LuaFile RelativePath=".\TFLuaTransform.lua" />
+                        </Filter>
+                        <Filter RelativePath=".\TFUIBase" Toggle="true" >
+                            <LuaFile RelativePath=".\TFUIBase_Actions.lua" />
+                            <LuaFile RelativePath=".\TFUIBase_Fundation.lua" />
+                            <LuaFile RelativePath=".\TFUIBase_Load.lua" />
+                            <LuaFile RelativePath=".\TFUIBase_LoadMEAction.lua" />
+                            <LuaFile RelativePath=".\TFUIBase_LoadMEArmature.lua" />
+                            <LuaFile RelativePath=".\TFUIBase_LoadMEBigMap.lua" />
+                            <LuaFile RelativePath=".\TFUIBase_LoadMEButton.lua" />
+                            <LuaFile RelativePath=".\TFUIBase_LoadMEButtonGroup.lua" />
+                            <LuaFile RelativePath=".\TFUIBase_LoadMECheckBox.lua" />
+                            <LuaFile RelativePath=".\TFUIBase_LoadMEColorProps.lua" />
+                            <LuaFile RelativePath=".\TFUIBase_LoadMEDragPanel.lua" />
+                            <LuaFile RelativePath=".\TFUIBase_LoadMEGroupButton.lua" />
+                            <LuaFile RelativePath=".\TFUIBase_LoadMEIconLabel.lua" />
+                            <LuaFile RelativePath=".\TFUIBase_LoadMEImage.lua" />
+                            <LuaFile RelativePath=".\TFUIBase_LoadMELabel.lua" />
+                            <LuaFile RelativePath=".\TFUIBase_LoadMELabelBMFont.lua" />
+                            <LuaFile RelativePath=".\TFUIBase_LoadMEListView.lua" />
+                            <LuaFile RelativePath=".\TFUIBase_LoadMELoadingBar.lua" />
+                            <LuaFile RelativePath=".\TFUIBase_LoadMELua.lua" />
+                            <LuaFile RelativePath=".\TFUIBase_LoadMEMovieClip.lua" />
+                            <LuaFile RelativePath=".\TFUIBase_LoadMEPageView.lua" />
+                            <LuaFile RelativePath=".\TFUIBase_LoadMEPanel.lua" />
+                            <LuaFile RelativePath=".\TFUIBase_LoadMEParticle.lua" />
+                            <LuaFile RelativePath=".\TFUIBase_LoadMERichText.lua" />
+                            <LuaFile RelativePath=".\TFUIBase_LoadMEScrollView.lua" />
+                            <LuaFile RelativePath=".\TFUIBase_LoadMESkeleton.lua" />
+                            <LuaFile RelativePath=".\TFUIBase_LoadMESlider.lua" />
+                            <LuaFile RelativePath=".\TFUIBase_LoadMESpine.lua" />
+                            <LuaFile RelativePath=".\TFUIBase_LoadMETableView.lua" />
+                            <LuaFile RelativePath=".\TFUIBase_LoadMETextArea.lua" />
+                            <LuaFile RelativePath=".\TFUIBase_LoadMETextButton.lua" />
+                            <LuaFile RelativePath=".\TFUIBase_LoadMETextField.lua" />
+                            <LuaFile RelativePath=".\TFUIBase_LoadMEWidget.lua" />
+                            <LuaFile RelativePath=".\TFUIBase_LoadPageView.lua" />
+                            <LuaFile RelativePath=".\TFUIBase_LoadTFClippingNode.lua" />
+                            <LuaFile RelativePath=".\TFUIBase_NewSetter.lua" />
+                            <LuaFile RelativePath=".\TFUIBase_Setter.lua" />
+                            <LuaFile RelativePath=".\TFUIBase_Unity.lua" />
+                        </Filter>
+                    </Filter>
+                </Filter>
+                <Filter RelativePath=".\timer" Toggle="true" >
+                    <LuaFile RelativePath=".\TFTimer.lua" />
+                    <LuaFile RelativePath=".\TFTimerQueue.lua" />
+                </Filter>
+                <Filter RelativePath=".\tween" Toggle="true" >
+                    <LuaFile RelativePath=".\TFTween.lua" />
+                </Filter>
+            </Filter>
+            <Filter RelativePath=".\Editor" Toggle="false" >
+                <LuaFile RelativePath=".\EditBigMap.lua" />
+                <LuaFile RelativePath=".\EditLua.lua" />
+                <LuaFile RelativePath=".\EditMapData.lua" />
+                <LuaFile RelativePath=".\EditUtils.lua" />
+                <LuaFile RelativePath=".\EditVirtualBase.lua" />
+                <Filter RelativePath=".\EditorAdvance" Toggle="true" >
+                    <LuaFile RelativePath=".\EditorAdvance_Aligment.lua" />
+                    <LuaFile RelativePath=".\EditorAdvance_KeyBoardEvent.lua" />
+                    <LuaFile RelativePath=".\EditorAdvance_Load.lua" />
+                    <LuaFile RelativePath=".\EditorAdvance_LuaData.lua" />
+                    <LuaFile RelativePath=".\EditorAdvance_SelectedRect.lua" />
+                    <LuaFile RelativePath=".\EditorAdvance_TouchEvent.lua" />
+                </Filter>
+                <Filter RelativePath=".\EditorBase" Toggle="true" >
+                    <LuaFile RelativePath=".\EditorBase_Fundation.lua" />
+                    <LuaFile RelativePath=".\EditorBase_Load.lua" />
+                    <LuaFile RelativePath=".\EditorBase_LoadCCClippingNode.lua" />
+                    <LuaFile RelativePath=".\EditorBase_LoadSkeletonAnimation.lua" />
+                    <LuaFile RelativePath=".\EditorBase_LoadTFAction.lua" />
+                    <LuaFile RelativePath=".\EditorBase_LoadTFArmature.lua" />
+                    <LuaFile RelativePath=".\EditorBase_LoadTFBigMap.lua" />
+                    <LuaFile RelativePath=".\EditorBase_LoadTFButton.lua" />
+                    <LuaFile RelativePath=".\EditorBase_LoadTFButtonGroup.lua" />
+                    <LuaFile RelativePath=".\EditorBase_LoadTFCheckBox.lua" />
+                    <LuaFile RelativePath=".\EditorBase_LoadTFDragPanel.lua" />
+                    <LuaFile RelativePath=".\EditorBase_LoadTFGroupButton.lua" />
+                    <LuaFile RelativePath=".\EditorBase_LoadTFIconLabel.lua" />
+                    <LuaFile RelativePath=".\EditorBase_LoadTFImage.lua" />
+                    <LuaFile RelativePath=".\EditorBase_LoadTFLabel.lua" />
+                    <LuaFile RelativePath=".\EditorBase_LoadTFLabelBMFont.lua" />
+                    <LuaFile RelativePath=".\EditorBase_LoadTFLayout.lua" />
+                    <LuaFile RelativePath=".\EditorBase_LoadTFLoadingBar.lua" />
+                    <LuaFile RelativePath=".\EditorBase_LoadTFLua.lua" />
+                    <LuaFile RelativePath=".\EditorBase_LoadTFMovieClip.lua" />
+                    <LuaFile RelativePath=".\EditorBase_LoadTFNPC.lua" />
+                    <LuaFile RelativePath=".\EditorBase_LoadTFPageView.lua" />
+                    <LuaFile RelativePath=".\EditorBase_LoadTFPanel.lua" />
+                    <LuaFile RelativePath=".\EditorBase_LoadTFParticle.lua" />
+                    <LuaFile RelativePath=".\EditorBase_LoadTFRichText.lua" />
+                    <LuaFile RelativePath=".\EditorBase_LoadTFScrollView.lua" />
+                    <LuaFile RelativePath=".\EditorBase_LoadTFSlider.lua" />
+                    <LuaFile RelativePath=".\EditorBase_LoadTFTableView.lua" />
+                    <LuaFile RelativePath=".\EditorBase_LoadTFTextArea.lua" />
+                    <LuaFile RelativePath=".\EditorBase_LoadTFTextButton.lua" />
+                    <LuaFile RelativePath=".\EditorBase_LoadTFTextField.lua" />
+                    <LuaFile RelativePath=".\EditorBase_LoadTFWidget.lua" />
+                </Filter>
+            </Filter>
+            <Filter RelativePath=".\HeitaoSdk" Toggle="false" >
+                <LuaFile RelativePath=".\HeitaoSdk.lua" />
+                <Filter RelativePath=".\android" Toggle="true" >
+                    <LuaFile RelativePath=".\HeitaoSdkAndroid.lua" />
+                </Filter>
+            </Filter>
+            <Filter RelativePath=".\IMSDK" Toggle="true" >
+                <LuaFile RelativePath=".\TFIMManager.lua" />
+            </Filter>
+            <Filter RelativePath=".\jit" Toggle="true" >
+                <LuaFile RelativePath=".\bc.lua" />
+                <LuaFile RelativePath=".\bcsave.lua" />
+                <LuaFile RelativePath=".\dis_arm.lua" />
+                <LuaFile RelativePath=".\dis_arm64.lua" />
+                <LuaFile RelativePath=".\dis_arm64be.lua" />
+                <LuaFile RelativePath=".\dis_mips.lua" />
+                <LuaFile RelativePath=".\dis_mips64.lua" />
+                <LuaFile RelativePath=".\dis_mips64el.lua" />
+                <LuaFile RelativePath=".\dis_mipsel.lua" />
+                <LuaFile RelativePath=".\dis_ppc.lua" />
+                <LuaFile RelativePath=".\dis_x64.lua" />
+                <LuaFile RelativePath=".\dis_x86.lua" />
+                <LuaFile RelativePath=".\dump.lua" />
+                <LuaFile RelativePath=".\p.lua" />
+                <LuaFile RelativePath=".\v.lua" />
+                <LuaFile RelativePath=".\vmdef.lua" />
+                <LuaFile RelativePath=".\zone.lua" />
+            </Filter>
+            <Filter RelativePath=".\luacomponents" Toggle="false" >
+                <LuaFile RelativePath=".\initLuaComponents.lua" />
+                <Filter RelativePath=".\common" Toggle="true" >
+                    <LuaFile RelativePath=".\TFBagCtrl.lua" />
+                    <LuaFile RelativePath=".\TFBarrage.lua" />
+                    <LuaFile RelativePath=".\TFBarrageEx.lua" />
+                    <LuaFile RelativePath=".\TFBigMap.lua" />
+                    <LuaFile RelativePath=".\TFIconLabel.lua" />
+                    <LuaFile RelativePath=".\TFMultiTouchPanel.lua" />
+                    <LuaFile RelativePath=".\TFNPC.lua" />
+                    <LuaFile RelativePath=".\TFScrollText.lua" />
+                    <LuaFile RelativePath=".\TFTableViewEx.lua" />
+                    <LuaFile RelativePath=".\TFTree.lua" />
+                </Filter>
+            </Filter>
+            <Filter RelativePath=".\net" Toggle="true" >
+                <LuaFile RelativePath=".\NetHelper.lua" />
+                <LuaFile RelativePath=".\TFClientNet.lua" />
+                <LuaFile RelativePath=".\TFClientNetOp.lua" />
+                <LuaFile RelativePath=".\TFClientNetVar.lua" />
+                <LuaFile RelativePath=".\TFClientNetVarOp.lua" />
+                <LuaFile RelativePath=".\TFClientNewUpdate.lua" />
+                <LuaFile RelativePath=".\TFClientUpdate.lua" />
+                <LuaFile RelativePath=".\TFPackageManager.lua" />
+            </Filter>
+            <Filter RelativePath=".\Plugins" Toggle="false" >
+                <LuaFile RelativePath=".\anysdkConst.lua" />
+                <LuaFile RelativePath=".\TFPlugins.lua" />
+                <LuaFile RelativePath=".\TFPluginsBase.lua" />
+                <Filter RelativePath=".\win32" Toggle="true" >
+                    <LuaFile RelativePath=".\TFPluginsWin32.lua" />
+                </Filter>
+            </Filter>
+            <Filter RelativePath=".\push" Toggle="true" >
+                <LuaFile RelativePath=".\TFPush.lua" />
+            </Filter>
+            <Filter RelativePath=".\res" Toggle="false" >
+                <Filter RelativePath=".\img" Toggle="true" />
+                <Filter RelativePath=".\uiConfig" Toggle="true" >
+                    <LuaFile RelativePath=".\Debug.lua" />
+                </Filter>
+            </Filter>
+            <Filter RelativePath=".\SDK" Toggle="false" >
+                <LuaFile RelativePath=".\TFSdk.lua" />
+                <Filter RelativePath=".\android" Toggle="true" >
+                    <LuaFile RelativePath=".\SDKConfig.lua" />
+                    <LuaFile RelativePath=".\TFSdkAndroid.lua" />
+                    <LuaFile RelativePath=".\urlCodec.lua" />
+                    <LuaFile RelativePath=".\utf8.lua" />
+                </Filter>
+                <Filter RelativePath=".\ios" Toggle="true" >
+                    <LuaFile RelativePath=".\TFSdkFunction.lua" />
+                    <LuaFile RelativePath=".\TFSdkIos.lua" />
+                </Filter>
+                <Filter RelativePath=".\win32" Toggle="true" >
+                    <LuaFile RelativePath=".\TFSdkWin32.lua" />
+                </Filter>
+            </Filter>
+            <Filter RelativePath=".\shaders" Toggle="true" />
+            <Filter RelativePath=".\update" Toggle="true" >
+                <LuaFile RelativePath=".\ResourceUpdate.lua" />
+                <LuaFile RelativePath=".\updateScene.lua" />
+            </Filter>
+            <Filter RelativePath=".\utils" Toggle="false" >
+                <LuaFile RelativePath=".\Bugly.lua" />
+                <LuaFile RelativePath=".\FileHelper.lua" />
+                <LuaFile RelativePath=".\TFDeviceInfo.lua" />
+                <LuaFile RelativePath=".\TFFunctionUtils.lua" />
+                <LuaFile RelativePath=".\TFIOUtils.lua" />
+                <LuaFile RelativePath=".\TFLanguageUtils.lua" />
+                <LuaFile RelativePath=".\TFPointUtils.lua" />
+                <LuaFile RelativePath=".\TFStringUtils.lua" />
+                <LuaFile RelativePath=".\TFTableUtils.lua" />
+                <LuaFile RelativePath=".\TFVisibleUtils.lua" />
+                <LuaFile RelativePath=".\TFWebView.lua" />
+                <LuaFile RelativePath=".\XMLHelper.lua" />
+                <Filter RelativePath=".\doc++" Toggle="false" >
+                    <LuaFile RelativePath=".\LuaDoc.lua" />
+                    <LuaFile RelativePath=".\test.lua" />
+                </Filter>
+            </Filter>
+        </Filter>
+    </Filter>
+</Project>

@@ -1,0 +1,586 @@
+local t = 
+{
+	version = 1,
+	components = 
+	{
+		
+		{
+			controlID = "Panel-activityMainView6_kuangsanAssist_activity_Game",
+			UUID = "226a6866_0a0e_43aa_bbac_a53ee9b3f4a4",
+			anchorPoint = "False",
+			anchorPointX = "0",
+			anchorPointY = "0",
+			backGroundScale9Enable = "False",
+			bgColorOpacity = "50",
+			bIsOpenClipping = "False",
+			classname = "MEPanel",
+			colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+			DesignHeight = "640",
+			DesignType = "0",
+			DesignWidth = "960",
+			dstBlendFunc = "771",
+			height = "640",
+			ignoreSize = "False",
+			name = "Panel",
+			PanelRelativeSizeModel = 
+			{
+				PanelRelativeEnable = true,
+			},
+			sizepercentx = "100",
+			sizepercenty = "100",
+			sizeType = "1",
+			srcBlendFunc = "1",
+			touchAble = "False",
+			UILayoutViewModel = 
+			{
+				nType = 3,
+			},
+			uipanelviewmodel = 
+			{
+				Layout="Relative",
+				nType = "3"
+			},
+			width = "960",
+			ZOrder = "1",
+			components = 
+			{
+				
+				{
+					controlID = "Panel_root_Panel-activityMainView6_kuangsanAssist_activity_Game",
+					UUID = "6908e524_e116_4003_9f73_a2fce32d57c1",
+					anchorPoint = "False",
+					anchorPointX = "0.5",
+					anchorPointY = "0.5",
+					backGroundScale9Enable = "False",
+					bgColorOpacity = "50",
+					bIsOpenClipping = "False",
+					classname = "MEPanel",
+					colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+					DesignHeight = "640",
+					DesignType = "0",
+					DesignWidth = "960",
+					dstBlendFunc = "771",
+					height = "640",
+					ignoreSize = "False",
+					name = "Panel_root",
+					sizepercentx = "0",
+					sizepercenty = "0",
+					sizeType = "0",
+					srcBlendFunc = "1",
+					touchAble = "False",
+					UILayoutViewModel = 
+					{
+						PositionX = 446,
+						PositionY = 354,
+						relativeToName = "Panel",
+						nType = 3,
+						nGravity = 6,
+						nAlign = 5
+					},
+					uipanelviewmodel = 
+					{
+						Layout="Absolute",
+						nType = "0"
+					},
+					width = "1136",
+					ZOrder = "1",
+					components = 
+					{
+						
+						{
+							controlID = "Image_bg_Panel_root_Panel-activityMainView6_kuangsanAssist_activity_Game",
+							UUID = "1b12ea8d_075a_4525_b425_de990e53a812",
+							anchorPoint = "False",
+							anchorPointX = "0.5",
+							anchorPointY = "0.5",
+							backGroundScale9Enable = "False",
+							classname = "MEImage",
+							dstBlendFunc = "771",
+							height = "640",
+							ignoreSize = "True",
+							name = "Image_bg",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "1",
+							texturePath = "ui/activity/assist/kuangsan/bg.png",
+							touchAble = "False",
+							UILayoutViewModel = 
+							{
+								LeftPositon = 536,
+								TopPosition = 288,
+								relativeToName = "Panel",
+							},
+							width = "1386",
+							ZOrder = "1",
+						},
+						{
+							controlID = "Panel_activity_Panel_root_Panel-activityMainView6_kuangsanAssist_activity_Game",
+							UUID = "c2ab306c_e869_45f9_900b_7ef2fc6adc02",
+							anchorPoint = "False",
+							anchorPointX = "0.5",
+							anchorPointY = "0.5",
+							backGroundScale9Enable = "False",
+							bgColorOpacity = "50",
+							bIsOpenClipping = "False",
+							classname = "MEPanel",
+							colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+							DesignHeight = "640",
+							DesignType = "0",
+							DesignWidth = "960",
+							dstBlendFunc = "771",
+							height = "548",
+							ignoreSize = "False",
+							name = "Panel_activity",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "1",
+							touchAble = "False",
+							UILayoutViewModel = 
+							{
+								PositionX = 102,
+								PositionY = -35,
+							},
+							uipanelviewmodel = 
+							{
+								Layout="Absolute",
+								nType = "0"
+							},
+							width = "924",
+							ZOrder = "1",
+						},
+						{
+							controlID = "ScrollView_activity_Panel_root_Panel-activityMainView6_kuangsanAssist_activity_Game",
+							UUID = "bfb414dd_9328_4c26_88b8_47b99739d335",
+							anchorPoint = "False",
+							anchorPointX = "0",
+							anchorPointY = "0.5",
+							backGroundScale9Enable = "False",
+							bgColorOpacity = "50",
+							bIsOpenClipping = "True",
+							bounceEnable = "True",
+							classname = "MEScrollView",
+							colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+							direction = "1",
+							dstBlendFunc = "771",
+							height = "550",
+							ignoreSize = "False",
+							innerHeight = "550",
+							innerWidth = "212",
+							name = "ScrollView_activity",
+							showScrollbar = "False",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "1",
+							touchAble = "True",
+							UILayoutViewModel = 
+							{
+								PositionX = -570,
+								PositionY = -42,
+							},
+							uipanelviewmodel = 
+							{
+								Layout="Absolute",
+								nType = "0"
+							},
+							width = "212",
+							ZOrder = "1",
+						},
+					},
+				},
+				{
+					controlID = "Panel_prefab_Panel-activityMainView6_kuangsanAssist_activity_Game",
+					UUID = "7b8cb005_dec5_48d3_a1fc_982ebb56224f",
+					anchorPoint = "False",
+					anchorPointX = "0.5",
+					anchorPointY = "0.5",
+					backGroundScale9Enable = "False",
+					bgColorOpacity = "50",
+					bIsOpenClipping = "False",
+					classname = "MEPanel",
+					colorType = "1;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+					DesignHeight = "640",
+					DesignType = "0",
+					DesignWidth = "960",
+					dstBlendFunc = "771",
+					height = "640",
+					ignoreSize = "False",
+					name = "Panel_prefab",
+					sizepercentx = "0",
+					sizepercenty = "0",
+					sizeType = "0",
+					srcBlendFunc = "1",
+					touchAble = "False",
+					UILayoutViewModel = 
+					{
+						PositionX = 561,
+						PositionY = -286,
+						LeftPositon = -7,
+						TopPosition = 675,
+						relativeToName = "Panel",
+						nType = 3,
+						nGravity = 2,
+					},
+					uipanelviewmodel = 
+					{
+						Layout="Absolute",
+						nType = "0"
+					},
+					width = "1136",
+					ZOrder = "1",
+					components = 
+					{
+						
+						{
+							controlID = "Panel_activityItem_Panel_prefab_Panel-activityMainView6_kuangsanAssist_activity_Game",
+							UUID = "0349901c_e8ef_4ca8_862b_f3a2824e7e92",
+							anchorPoint = "False",
+							anchorPointX = "0",
+							anchorPointY = "0",
+							backGroundScale9Enable = "False",
+							bgColorOpacity = "50",
+							bIsOpenClipping = "False",
+							classname = "MEPanel",
+							colorType = "0;SingleColor:#FFFFA500;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+							DesignHeight = "640",
+							DesignType = "0",
+							DesignWidth = "960",
+							dstBlendFunc = "771",
+							height = "70",
+							ignoreSize = "False",
+							name = "Panel_activityItem",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "1",
+							touchAble = "False",
+							UILayoutViewModel = 
+							{
+								PositionX = -680,
+							},
+							uipanelviewmodel = 
+							{
+								Layout="Absolute",
+								nType = "0"
+							},
+							width = "205",
+							ZOrder = "1",
+							components = 
+							{
+								
+								{
+									controlID = "ImageNormal_Panel_activityItem_Panel_prefab_Panel-activityMainView6_kuangsanAssist_activity_Game",
+									UUID = "6fd4e6a6_68c7_4185_bc07_d9cc3fbbf857",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MEImage",
+									dstBlendFunc = "771",
+									height = "78",
+									ignoreSize = "True",
+									name = "ImageNormal",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									texturePath = "ui/activity/assist/kuangsan/btn_1n.png",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = 37,
+										PositionY = 34,
+									},
+									width = "78",
+									ZOrder = "1",
+									components = 
+									{
+										
+										{
+											controlID = "Image_item_bg_ImageNormal_Panel_activityItem_Panel_prefab_Panel-activityMainView6_kuangsanAssist_activity_Game",
+											UUID = "29a2e382_f289_4580_9997_950bc1f22233",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											classname = "MEImage",
+											dstBlendFunc = "771",
+											height = "70",
+											ignoreSize = "True",
+											name = "Image_item_bg",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											texturePath = "ui/activity/assist/kuangsan/041.png",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = 66,
+												PositionY = 3,
+											},
+											width = "200",
+											ZOrder = "-1",
+										},
+										{
+											controlID = "activityName_ImageNormal_Panel_activityItem_Panel_prefab_Panel-activityMainView6_kuangsanAssist_activity_Game",
+											UUID = "51730a52_e7b6_4bac_bb3c_5db8c73c5f8f",
+											anchorPoint = "False",
+											anchorPointX = "1",
+											anchorPointY = "0.5",
+											classname = "MELabel",
+											compPath = "luacomponents.common.MEIconLabel",
+											dstBlendFunc = "771",
+											FontColor = "#FFFFA6A7",
+											fontName = "font/MFLiHei_Noncommercial.ttf",
+											fontShadow = 
+											{
+												IsShadow = false,
+												ShadowColor = "#FFFFFFFF",
+												ShadowAlpha = 255,
+												OffsetX = 0,
+												OffsetY = 0,
+											},
+											fontSize = "22",
+											fontStroke = 
+											{
+												IsStroke = false,
+												StrokeColor = "#FFE6E6E6",
+												StrokeSize = 1,
+											},
+											height = "27",
+											ignoreSize = "True",
+											name = "activityName",
+											nTextAlign = "0",
+											nTextHAlign = "0",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "770",
+											text = "礼包商店",
+											touchAble = "False",
+											touchScaleEnable = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = 142,
+											},
+											width = "91",
+											ZOrder = "1",
+										},
+										{
+											controlID = "Image_new_ImageNormal_Panel_activityItem_Panel_prefab_Panel-activityMainView6_kuangsanAssist_activity_Game",
+											UUID = "16cbf43e_587e_4e12_82cc_adb647a77b31",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											classname = "MEImage",
+											dstBlendFunc = "771",
+											height = "30",
+											ignoreSize = "True",
+											name = "Image_new",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											texturePath = "ui/common/news_small.png",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = 18,
+												PositionY = 12,
+											},
+											width = "30",
+											ZOrder = "1",
+										},
+									},
+								},
+								{
+									controlID = "ImageSelect_Panel_activityItem_Panel_prefab_Panel-activityMainView6_kuangsanAssist_activity_Game",
+									UUID = "15cba77b_1619_46d6_807b_c59ae36746b6",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MEImage",
+									dstBlendFunc = "771",
+									height = "78",
+									ignoreSize = "True",
+									name = "ImageSelect",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									texturePath = "ui/activity/assist/kuangsan/btn_1s.png",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = 52,
+										PositionY = 33,
+									},
+									width = "78",
+									ZOrder = "1",
+									components = 
+									{
+										
+										{
+											controlID = "Image_item_bg_ImageSelect_Panel_activityItem_Panel_prefab_Panel-activityMainView6_kuangsanAssist_activity_Game",
+											UUID = "0be83fa1_3025_4225_93d6_665459a544d2",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											classname = "MEImage",
+											dstBlendFunc = "771",
+											height = "70",
+											ignoreSize = "True",
+											name = "Image_item_bg",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											texturePath = "ui/activity/assist/kuangsan/040.png",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = 53,
+												PositionY = 2,
+											},
+											width = "200",
+											ZOrder = "-1",
+										},
+										{
+											controlID = "activityName_ImageSelect_Panel_activityItem_Panel_prefab_Panel-activityMainView6_kuangsanAssist_activity_Game",
+											UUID = "98381ecf_b38e_4ed2_9431_cc43777632fa",
+											anchorPoint = "False",
+											anchorPointX = "1",
+											anchorPointY = "0.5",
+											classname = "MELabel",
+											compPath = "luacomponents.common.MEIconLabel",
+											dstBlendFunc = "771",
+											FontColor = "#FFFFFFFF",
+											fontName = "font/MFLiHei_Noncommercial.ttf",
+											fontShadow = 
+											{
+												IsShadow = false,
+												ShadowColor = "#FFFFFFFF",
+												ShadowAlpha = 255,
+												OffsetX = 0,
+												OffsetY = 0,
+											},
+											fontSize = "22",
+											fontStroke = 
+											{
+												IsStroke = false,
+												StrokeColor = "#FFE6E6E6",
+												StrokeSize = 1,
+											},
+											height = "27",
+											ignoreSize = "True",
+											name = "activityName",
+											nTextAlign = "0",
+											nTextHAlign = "0",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "770",
+											text = "礼包商店",
+											touchAble = "False",
+											touchScaleEnable = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = 139,
+											},
+											width = "91",
+											ZOrder = "1",
+										},
+										{
+											controlID = "Image_new_ImageSelect_Panel_activityItem_Panel_prefab_Panel-activityMainView6_kuangsanAssist_activity_Game",
+											UUID = "e4c7c9e5_3796_4b0f_b93d_c35252d9d054",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											classname = "MEImage",
+											dstBlendFunc = "771",
+											height = "30",
+											ignoreSize = "True",
+											name = "Image_new",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											texturePath = "ui/common/news_small.png",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = 16,
+												PositionY = 13,
+											},
+											width = "30",
+											ZOrder = "1",
+										},
+									},
+								},
+								{
+									controlID = "Image_line_Panel_activityItem_Panel_prefab_Panel-activityMainView6_kuangsanAssist_activity_Game",
+									UUID = "f6a79291_8533_40cf_8ec1_a638af8e3681",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MEImage",
+									dstBlendFunc = "771",
+									height = "2",
+									ignoreSize = "True",
+									name = "Image_line",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									texturePath = "ui/activity/assist/kuangsan/039.png",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = 102,
+									},
+									width = "116",
+									ZOrder = "1",
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+	},
+	actions = 
+	{
+		
+	},
+	respaths = 
+	{
+		textures = 
+		{
+			"ui/activity/assist/kuangsan/bg.png",
+			"ui/activity/assist/kuangsan/btn_1n.png",
+			"ui/activity/assist/kuangsan/041.png",
+			"ui/common/news_small.png",
+			"ui/activity/assist/kuangsan/btn_1s.png",
+			"ui/activity/assist/kuangsan/040.png",
+			"ui/activity/assist/kuangsan/039.png",
+		},
+		armatures = 
+		{
+			
+		},
+		movieclips = 
+		{
+			
+		},
+	},
+}
+return t
+
