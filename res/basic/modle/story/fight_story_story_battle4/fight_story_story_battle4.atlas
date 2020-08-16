@@ -1,0 +1,383 @@
+
+fight_story_story_battle4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+PNG/texiao/shixiang/shitou1/shitou_00188
+  rotate: false
+  xy: 595, 612
+  size: 134, 121
+  orig: 225, 225
+  offset: 52, 56
+  index: -1
+PNG/texiao/shixiang/shitou1/shitou_00191
+  rotate: true
+  xy: 643, 215
+  size: 141, 126
+  orig: 225, 225
+  offset: 58, 55
+  index: -1
+PNG/texiao/shixiang/shitou2/shitou_00009
+  rotate: false
+  xy: 2, 15
+  size: 114, 208
+  orig: 300, 300
+  offset: 150, 21
+  index: -1
+PNG/texiao/shixiang/shitou2/shitou_00010
+  rotate: false
+  xy: 118, 15
+  size: 108, 208
+  orig: 300, 300
+  offset: 165, 5
+  index: -1
+PNG/texiao/shixiang/shitou2/shitou_00011
+  rotate: false
+  xy: 118, 15
+  size: 108, 208
+  orig: 300, 300
+  offset: 165, 5
+  index: -1
+PNG/texiao/shixiang/shitou2/shitou_00012
+  rotate: true
+  xy: 701, 746
+  size: 76, 108
+  orig: 300, 300
+  offset: 176, 48
+  index: -1
+PNG/texiao/shixiang/shitouxiu/shitou_00136
+  rotate: true
+  xy: 715, 548
+  size: 36, 61
+  orig: 375, 480
+  offset: 284, 194
+  index: -1
+PNG/texiao/shixiang/shitouxiu/shitou_00140
+  rotate: true
+  xy: 228, 17
+  size: 206, 319
+  orig: 375, 480
+  offset: 123, 33
+  index: -1
+PNG/texiao/shixiang/shitouxiu/shitou_00144
+  rotate: false
+  xy: 2, 225
+  size: 273, 385
+  orig: 375, 480
+  offset: 56, 22
+  index: -1
+PNG/texiao/shixiang/shitouxiu/shitou_00148
+  rotate: false
+  xy: 2, 612
+  size: 297, 410
+  orig: 375, 480
+  offset: 27, 22
+  index: -1
+PNG/texiao/shixiang/weiyi_00161
+  rotate: true
+  xy: 701, 824
+  size: 198, 111
+  orig: 225, 113
+  offset: 19, 0
+  index: -1
+PNG/texiao/shixiang/yanwu/yanwu_00013
+  rotate: true
+  xy: 715, 358
+  size: 188, 54
+  orig: 375, 150
+  offset: 76, 32
+  index: -1
+PNG/texiao/shixiang/yanwu/yanwu_00015
+  rotate: true
+  xy: 277, 317
+  size: 293, 71
+  orig: 375, 150
+  offset: 52, 32
+  index: -1
+PNG/texiao/shixiang/yanwu/yanwu_00017
+  rotate: true
+  xy: 507, 732
+  size: 290, 78
+  orig: 375, 150
+  offset: 45, 30
+  index: -1
+PNG/texiao/shixiang/yanwu/yanwu_00019
+  rotate: true
+  xy: 422, 731
+  size: 291, 83
+  orig: 375, 150
+  offset: 39, 28
+  index: -1
+PNG/texiao/shixiang/yanwu/yanwu_00021
+  rotate: false
+  xy: 277, 229
+  size: 270, 86
+  orig: 375, 150
+  offset: 35, 24
+  index: -1
+PNG/texiao/shixiang/yanwu/yanwu_00023
+  rotate: false
+  xy: 549, 270
+  size: 91, 45
+  orig: 375, 150
+  offset: 171, 31
+  index: -1
+PNG/texiao/shixiang/yanwu1/yanwu_00136_00137
+  rotate: true
+  xy: 549, 2
+  size: 96, 176
+  orig: 225, 225
+  offset: 66, 24
+  index: -1
+PNG/texiao/shixiang/yanwu1/yanwu_00136_00139
+  rotate: true
+  xy: 801, 579
+  size: 104, 194
+  orig: 225, 225
+  offset: 64, 15
+  index: -1
+PNG/texiao/shixiang/yanwu1/yanwu_00136_00141
+  rotate: false
+  xy: 608, 409
+  size: 105, 201
+  orig: 225, 225
+  offset: 63, 12
+  index: -1
+PNG/texiao/shixiang/yanwu2/yanwu_00203
+  rotate: true
+  xy: 471, 317
+  size: 86, 170
+  orig: 225, 225
+  offset: 132, 39
+  index: -1
+PNG/texiao/shixiang/yanwu2/yanwu_00204
+  rotate: true
+  xy: 471, 317
+  size: 86, 170
+  orig: 225, 225
+  offset: 132, 39
+  index: -1
+PNG/texiao/shixiang/yanwu2/yanwu_00205
+  rotate: false
+  xy: 731, 586
+  size: 68, 158
+  orig: 225, 225
+  offset: 150, 51
+  index: -1
+PNG/texiao/shixiang/yanwu5/yanwu_00015
+  rotate: false
+  xy: 771, 211
+  size: 189, 168
+  orig: 225, 225
+  offset: 30, 40
+  index: -1
+PNG/texiao/shixiang/yanwu5/yanwu_00023
+  rotate: true
+  xy: 549, 101
+  size: 112, 130
+  orig: 225, 225
+  offset: 104, 81
+  index: -1
+PNG/texiao/shixiang/yanwu5/yanwu_00027
+  rotate: false
+  xy: 681, 101
+  size: 101, 108
+  orig: 225, 225
+  offset: 115, 105
+  index: -1
+PNG/texiao/shixiang/yanwu5/yanwu_00029
+  rotate: false
+  xy: 997, 666
+  size: 21, 17
+  orig: 225, 225
+  offset: 159, 154
+  index: -1
+PNG/texiao/yanwu/yanwu_00003
+  rotate: true
+  xy: 471, 405
+  size: 205, 135
+  orig: 225, 225
+  offset: 20, 55
+  index: -1
+PNG/texiao/yanwu/yanwu_00004
+  rotate: false
+  xy: 814, 883
+  size: 197, 139
+  orig: 225, 225
+  offset: 18, 54
+  index: -1
+PNG/texiao/yanwu/yanwu_00005
+  rotate: false
+  xy: 814, 685
+  size: 194, 149
+  orig: 225, 225
+  offset: 12, 49
+  index: -1
+PNG/texiao/yanwu/yanwu_00006
+  rotate: false
+  xy: 771, 381
+  size: 191, 152
+  orig: 225, 225
+  offset: 9, 49
+  index: -1
+PNG/texiao/yanwu/yanwu_00007
+  rotate: false
+  xy: 784, 55
+  size: 174, 154
+  orig: 225, 225
+  offset: 5, 47
+  index: -1
+PNG/texiao/yanwu1/yanwu_00202
+  rotate: false
+  xy: 727, 14
+  size: 155, 39
+  orig: 225, 113
+  offset: 22, 35
+  index: -1
+PNG/texiao/yanwu1/yanwu_00204
+  rotate: false
+  xy: 778, 535
+  size: 194, 42
+  orig: 225, 113
+  offset: 0, 35
+  index: -1
+PNG/texiao/yanwu1/yanwu_00206
+  rotate: false
+  xy: 814, 836
+  size: 197, 45
+  orig: 225, 113
+  offset: 0, 35
+  index: -1
+PNG/texiao/yanwu1/yanwu_00208
+  rotate: true
+  xy: 964, 238
+  size: 173, 49
+  orig: 225, 113
+  offset: 0, 35
+  index: -1
+PNG/texiao/yanwu1/yanwu_00210
+  rotate: true
+  xy: 974, 413
+  size: 164, 45
+  orig: 225, 113
+  offset: 9, 35
+  index: -1
+PNG/texiao/yanwu1/yanwu_00212
+  rotate: true
+  xy: 962, 100
+  size: 136, 45
+  orig: 225, 113
+  offset: 33, 35
+  index: -1
+PNG/texiao/yanwu1/yanwu_00213
+  rotate: false
+  xy: 2, 3
+  size: 25, 10
+  orig: 225, 113
+  offset: 83, 37
+  index: -1
+PNG/texiao/yanwu2/yanwu_00001
+  rotate: true
+  xy: 350, 328
+  size: 282, 119
+  orig: 360, 192
+  offset: 37, 31
+  index: -1
+PNG/texiao/yanwu2/yanwu_00002
+  rotate: true
+  xy: 587, 735
+  size: 287, 112
+  orig: 360, 192
+  offset: 32, 31
+  index: -1
+PNG/texiao/yanwu2/yanwu_00006
+  rotate: false
+  xy: 301, 612
+  size: 292, 116
+  orig: 360, 192
+  offset: 27, 30
+  index: -1
+PNG/texiao/yanwu2/yanwu_00007
+  rotate: true
+  xy: 301, 730
+  size: 292, 119
+  orig: 360, 192
+  offset: 27, 30
+  index: -1
+
+fight_story_story_battle42.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+PNG/texiao/shixiang/shitou1/shitou_00189
+  rotate: false
+  xy: 2, 128
+  size: 137, 125
+  orig: 225, 225
+  offset: 55, 55
+  index: -1
+PNG/texiao/shixiang/shitou1/shitou_00192
+  rotate: false
+  xy: 688, 807
+  size: 145, 116
+  orig: 225, 225
+  offset: 60, 66
+  index: -1
+PNG/texiao/shixiang/yanwu2/yanwu_00189
+  rotate: false
+  xy: 356, 767
+  size: 164, 156
+  orig: 225, 225
+  offset: 45, 42
+  index: -1
+PNG/texiao/shixiang/yanwu2/yanwu_00191
+  rotate: true
+  xy: 2, 422
+  size: 162, 159
+  orig: 225, 225
+  offset: 48, 41
+  index: -1
+PNG/texiao/shixiang/yanwu2/yanwu_00192
+  rotate: false
+  xy: 193, 762
+  size: 161, 161
+  orig: 225, 225
+  offset: 51, 40
+  index: -1
+PNG/texiao/shixiang/yanwu2/yanwu_00197
+  rotate: false
+  xy: 2, 586
+  size: 159, 168
+  orig: 225, 225
+  offset: 57, 39
+  index: -1
+PNG/texiao/shixiang/yanwu5/yanwu_00017
+  rotate: false
+  xy: 2, 756
+  size: 189, 167
+  orig: 225, 225
+  offset: 30, 42
+  index: -1
+PNG/texiao/shixiang/yanwu5/yanwu_00019
+  rotate: false
+  xy: 2, 255
+  size: 138, 165
+  orig: 225, 225
+  offset: 82, 45
+  index: -1
+PNG/texiao/shixiang/yanwu5/yanwu_00021
+  rotate: true
+  xy: 522, 787
+  size: 136, 164
+  orig: 225, 225
+  offset: 84, 46
+  index: -1
+PNG/texiao/shixiang/yanwu5/yanwu_00025
+  rotate: false
+  xy: 2, 2
+  size: 100, 124
+  orig: 225, 225
+  offset: 116, 88
+  index: -1

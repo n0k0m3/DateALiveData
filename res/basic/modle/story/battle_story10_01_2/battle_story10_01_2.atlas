@@ -1,0 +1,145 @@
+
+battle_story10_01_2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+texiao/shoujinormal/shoujinormal_00015
+  rotate: false
+  xy: 2, 358
+  size: 298, 287
+  orig: 445, 374
+  offset: 77, 40
+  index: -1
+texiao/shoujinormal/shoujinormal_00017
+  rotate: true
+  xy: 2, 3
+  size: 289, 279
+  orig: 445, 374
+  offset: 80, 40
+  index: -1
+texiao/shoujinormal/shoujinormal_00019
+  rotate: false
+  xy: 2, 647
+  size: 445, 374
+  orig: 445, 374
+  offset: 0, 0
+  index: -1
+texiao/shoujinormal/shoujinormal_00021
+  rotate: false
+  xy: 448, 294
+  size: 295, 290
+  orig: 445, 374
+  offset: 75, 42
+  index: -1
+texiao/shoujinormal/shoujinormal_00023
+  rotate: false
+  xy: 449, 586
+  size: 298, 290
+  orig: 445, 374
+  offset: 71, 45
+  index: -1
+texiao/shoujinormal/shoujinormal_00025
+  rotate: true
+  xy: 745, 291
+  size: 288, 275
+  orig: 445, 374
+  offset: 76, 60
+  index: -1
+texiao/shoujinormal/shoujinormal_00027
+  rotate: true
+  xy: 749, 581
+  size: 286, 272
+  orig: 445, 374
+  offset: 76, 61
+  index: -1
+texiao/shoujinormal/shoujinormal_00029
+  rotate: true
+  xy: 422, 7
+  size: 282, 267
+  orig: 445, 374
+  offset: 77, 63
+  index: -1
+texiao/shoujinormal/shoujinormal_00031
+  rotate: false
+  xy: 745, 43
+  size: 257, 246
+  orig: 445, 374
+  offset: 87, 74
+  index: -1
+texiao/shoujinormal/shoujinormal_00035
+  rotate: false
+  xy: 790, 869
+  size: 224, 152
+  orig: 445, 374
+  offset: 108, 108
+  index: -1
+texiao/shoujinormal/shoujinormal_00039
+  rotate: true
+  xy: 302, 306
+  size: 148, 143
+  orig: 445, 374
+  offset: 145, 117
+  index: -1
+texiao/shoujinormal/shoujinormal_00041
+  rotate: true
+  xy: 302, 456
+  size: 189, 144
+  orig: 445, 374
+  offset: 146, 114
+  index: -1
+texiao/shoujinormal/shoujinormal_00045
+  rotate: false
+  xy: 691, 242
+  size: 52, 50
+  orig: 445, 374
+  offset: 148, 118
+  index: -1
+texiao/zuihoudi/jinchangdilie_00010
+  rotate: true
+  xy: 283, 3
+  size: 289, 137
+  orig: 487, 416
+  offset: 110, 136
+  index: -1
+texiao/zuihoudi/jinchangdilie_00011
+  rotate: false
+  xy: 449, 878
+  size: 339, 143
+  orig: 487, 416
+  offset: 82, 133
+  index: -1
+
+battle_story10_01_22.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+texiao/shoujinormal/shoujinormal_00033
+  rotate: false
+  xy: 2, 230
+  size: 207, 174
+  orig: 445, 374
+  offset: 131, 92
+  index: -1
+texiao/shoujinormal/shoujinormal_00037
+  rotate: false
+  xy: 2, 79
+  size: 180, 149
+  orig: 445, 374
+  offset: 145, 111
+  index: -1
+texiao/shoujinormal/shoujinormal_00043
+  rotate: false
+  xy: 2, 6
+  size: 71, 71
+  orig: 445, 374
+  offset: 148, 118
+  index: -1
+texiao/zuihoudi/jinchangdilie_00009
+  rotate: false
+  xy: 211, 284
+  size: 193, 120
+  orig: 487, 416
+  offset: 159, 144
+  index: -1

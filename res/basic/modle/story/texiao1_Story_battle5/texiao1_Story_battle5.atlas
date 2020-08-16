@@ -1,0 +1,118 @@
+
+texiao1_Story_battle5.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shanbai
+  rotate: false
+  xy: 606, 670
+  size: 70, 32
+  orig: 70, 32
+  offset: 0, 0
+  index: -1
+suduxian/suduxian_00000
+  rotate: false
+  xy: 2, 908
+  size: 300, 100
+  orig: 300, 100
+  offset: 0, 0
+  index: -1
+suduxian/suduxian_00001
+  rotate: false
+  xy: 2, 806
+  size: 300, 100
+  orig: 300, 100
+  offset: 0, 0
+  index: -1
+suduxian/suduxian_00002
+  rotate: false
+  xy: 304, 908
+  size: 300, 100
+  orig: 300, 100
+  offset: 0, 0
+  index: -1
+suduxian/suduxian_00003
+  rotate: false
+  xy: 2, 704
+  size: 300, 100
+  orig: 300, 100
+  offset: 0, 0
+  index: -1
+suduxian/suduxian_00004
+  rotate: false
+  xy: 304, 806
+  size: 300, 100
+  orig: 300, 100
+  offset: 0, 0
+  index: -1
+suduxian/suduxian_00005
+  rotate: false
+  xy: 606, 908
+  size: 300, 100
+  orig: 300, 100
+  offset: 0, 0
+  index: -1
+suduxian/suduxian_00006
+  rotate: false
+  xy: 2, 602
+  size: 300, 100
+  orig: 300, 100
+  offset: 0, 0
+  index: -1
+suduxian/suduxian_00007
+  rotate: false
+  xy: 304, 704
+  size: 300, 100
+  orig: 300, 100
+  offset: 0, 0
+  index: -1
+suduxian/suduxian_00008
+  rotate: false
+  xy: 606, 806
+  size: 300, 100
+  orig: 300, 100
+  offset: 0, 0
+  index: -1
+suduxian/suduxian_00009
+  rotate: false
+  xy: 2, 500
+  size: 300, 100
+  orig: 300, 100
+  offset: 0, 0
+  index: -1
+suduxian/suduxian_00010
+  rotate: false
+  xy: 304, 602
+  size: 300, 100
+  orig: 300, 100
+  offset: 0, 0
+  index: -1
+suduxian/suduxian_00011
+  rotate: false
+  xy: 606, 704
+  size: 300, 100
+  orig: 300, 100
+  offset: 0, 0
+  index: -1
+suduxian/suduxian_00012
+  rotate: true
+  xy: 908, 708
+  size: 300, 100
+  orig: 300, 100
+  offset: 0, 0
+  index: -1
+suduxian/suduxian_00013
+  rotate: false
+  xy: 2, 398
+  size: 300, 100
+  orig: 300, 100
+  offset: 0, 0
+  index: -1
+suduxian/suduxian_00014
+  rotate: false
+  xy: 304, 500
+  size: 300, 100
+  orig: 300, 100
+  offset: 0, 0
+  index: -1

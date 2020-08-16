@@ -1,0 +1,279 @@
+
+paintshow_11301_1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+biyan
+  rotate: false
+  xy: 567, 95
+  size: 79, 45
+  orig: 79, 45
+  offset: 0, 0
+  index: -1
+l_chibang
+  rotate: true
+  xy: 571, 357
+  size: 94, 52
+  orig: 94, 52
+  offset: 0, 0
+  index: -1
+l_dabi
+  rotate: false
+  xy: 2, 8
+  size: 88, 78
+  orig: 88, 78
+  offset: 0, 0
+  index: -1
+l_jiao
+  rotate: false
+  xy: 2, 359
+  size: 146, 442
+  orig: 146, 442
+  offset: 0, 0
+  index: -1
+l_lianzi1
+  rotate: false
+  xy: 354, 781
+  size: 18, 20
+  orig: 18, 20
+  offset: 0, 0
+  index: -1
+l_lianzi2
+  rotate: true
+  xy: 614, 467
+  size: 24, 67
+  orig: 24, 67
+  offset: 0, 0
+  index: -1
+l_shou
+  rotate: false
+  xy: 92, 10
+  size: 56, 34
+  orig: 56, 34
+  offset: 0, 0
+  index: -1
+l_xiaobi1
+  rotate: false
+  xy: 408, 64
+  size: 62, 83
+  orig: 62, 83
+  offset: 0, 0
+  index: -1
+l_xiaobi2
+  rotate: false
+  xy: 338, 62
+  size: 68, 85
+  orig: 68, 85
+  offset: 0, 0
+  index: -1
+lian
+  rotate: false
+  xy: 614, 493
+  size: 111, 114
+  orig: 111, 114
+  offset: 0, 0
+  index: -1
+maozi1
+  rotate: false
+  xy: 2, 803
+  size: 370, 219
+  orig: 370, 219
+  offset: 0, 0
+  index: -1
+r_chibang
+  rotate: true
+  xy: 285, 43
+  size: 91, 51
+  orig: 91, 51
+  offset: 0, 0
+  index: -1
+r_dabi
+  rotate: true
+  xy: 472, 99
+  size: 41, 93
+  orig: 41, 93
+  offset: 0, 0
+  index: -1
+r_jiao
+  rotate: true
+  xy: 374, 891
+  size: 131, 397
+  orig: 131, 397
+  offset: 0, 0
+  index: -1
+r_lianzi1
+  rotate: true
+  xy: 354, 762
+  size: 17, 18
+  orig: 17, 18
+  offset: 0, 0
+  index: -1
+r_lianzi2
+  rotate: false
+  xy: 324, 335
+  size: 8, 33
+  orig: 8, 33
+  offset: 0, 0
+  index: -1
+r_xiaobi
+  rotate: false
+  xy: 492, 142
+  size: 148, 161
+  orig: 148, 161
+  offset: 0, 0
+  index: -1
+r_yifu
+  rotate: false
+  xy: 761, 640
+  size: 128, 98
+  orig: 128, 98
+  offset: 0, 0
+  index: -1
+toufa 4
+  rotate: true
+  xy: 932, 762
+  size: 69, 90
+  orig: 69, 90
+  offset: 0, 0
+  index: -1
+toufa1
+  rotate: false
+  xy: 891, 644
+  size: 52, 94
+  orig: 52, 94
+  offset: 0, 0
+  index: -1
+toufa10
+  rotate: false
+  xy: 164, 136
+  size: 158, 232
+  orig: 158, 232
+  offset: 0, 0
+  index: -1
+toufa11
+  rotate: false
+  xy: 150, 515
+  size: 202, 286
+  orig: 202, 286
+  offset: 0, 0
+  index: -1
+toufa12
+  rotate: false
+  xy: 354, 453
+  size: 258, 210
+  orig: 258, 210
+  offset: 0, 0
+  index: -1
+toufa13
+  rotate: true
+  xy: 2, 88
+  size: 269, 160
+  orig: 269, 160
+  offset: 0, 0
+  index: -1
+toufa14
+  rotate: false
+  xy: 773, 833
+  size: 235, 189
+  orig: 235, 189
+  offset: 0, 0
+  index: -1
+toufa15
+  rotate: true
+  xy: 374, 665
+  size: 224, 263
+  orig: 224, 263
+  offset: 0, 0
+  index: -1
+toufa2
+  rotate: false
+  xy: 727, 513
+  size: 55, 94
+  orig: 55, 94
+  offset: 0, 0
+  index: -1
+toufa3
+  rotate: true
+  xy: 472, 45
+  size: 52, 78
+  orig: 52, 78
+  offset: 0, 0
+  index: -1
+toufa5
+  rotate: true
+  xy: 945, 675
+  size: 85, 74
+  orig: 85, 74
+  offset: 0, 0
+  index: -1
+toufa6
+  rotate: false
+  xy: 324, 149
+  size: 166, 154
+  orig: 166, 154
+  offset: 0, 0
+  index: -1
+toufa7
+  rotate: true
+  xy: 639, 749
+  size: 140, 124
+  orig: 140, 124
+  offset: 0, 0
+  index: -1
+toufa8
+  rotate: false
+  xy: 765, 740
+  size: 165, 91
+  orig: 165, 91
+  offset: 0, 0
+  index: -1
+toufa9
+  rotate: false
+  xy: 150, 370
+  size: 193, 143
+  orig: 193, 143
+  offset: 0, 0
+  index: -1
+xiong
+  rotate: true
+  xy: 164, 48
+  size: 86, 119
+  orig: 86, 119
+  offset: 0, 0
+  index: -1
+yanjing
+  rotate: false
+  xy: 92, 46
+  size: 70, 40
+  orig: 70, 40
+  offset: 0, 0
+  index: -1
+yao
+  rotate: false
+  xy: 639, 609
+  size: 120, 138
+  orig: 120, 138
+  offset: 0, 0
+  index: -1
+yifu
+  rotate: false
+  xy: 345, 305
+  size: 224, 146
+  orig: 224, 146
+  offset: 0, 0
+  index: -1
+yifu3
+  rotate: false
+  xy: 571, 321
+  size: 46, 34
+  orig: 46, 34
+  offset: 0, 0
+  index: -1
+zui
+  rotate: false
+  xy: 324, 136
+  size: 12, 11
+  orig: 12, 11
+  offset: 0, 0
+  index: -1

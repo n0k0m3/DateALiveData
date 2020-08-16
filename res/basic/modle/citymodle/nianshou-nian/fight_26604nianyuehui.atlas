@@ -1,0 +1,279 @@
+
+fight_26604nianyuehui.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+b_s_fa1
+  rotate: false
+  xy: 406, 451
+  size: 68, 59
+  orig: 68, 59
+  offset: 0, 0
+  index: -1
+b_s_fa2
+  rotate: true
+  xy: 89, 244
+  size: 44, 31
+  orig: 44, 31
+  offset: 0, 0
+  index: -1
+b_s_fa3
+  rotate: true
+  xy: 207, 386
+  size: 26, 25
+  orig: 26, 25
+  offset: 0, 0
+  index: -1
+b_s_fa4
+  rotate: true
+  xy: 406, 396
+  size: 53, 67
+  orig: 53, 67
+  offset: 0, 0
+  index: -1
+b_s_fa5
+  rotate: false
+  xy: 89, 211
+  size: 37, 31
+  orig: 37, 31
+  offset: 0, 0
+  index: -1
+b_s_lyan1
+  rotate: false
+  xy: 122, 254
+  size: 31, 40
+  orig: 31, 40
+  offset: 0, 0
+  index: -1
+b_s_lzhuizi1
+  rotate: true
+  xy: 86, 144
+  size: 23, 35
+  orig: 23, 35
+  offset: 0, 0
+  index: -1
+b_s_lzhuizi2
+  rotate: false
+  xy: 233, 351
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+b_s_nei
+  rotate: false
+  xy: 2, 215
+  size: 85, 73
+  orig: 85, 73
+  offset: 0, 0
+  index: -1
+b_s_ryan1
+  rotate: false
+  xy: 162, 370
+  size: 43, 42
+  orig: 43, 42
+  offset: 0, 0
+  index: -1
+b_s_rzhuizi1
+  rotate: true
+  xy: 66, 66
+  size: 32, 27
+  orig: 32, 27
+  offset: 0, 0
+  index: -1
+b_s_rzhuizi2
+  rotate: false
+  xy: 248, 351
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+b_s_shenti
+  rotate: false
+  xy: 2, 389
+  size: 158, 121
+  orig: 158, 121
+  offset: 0, 0
+  index: -1
+b_s_tou
+  rotate: false
+  xy: 234, 439
+  size: 82, 71
+  orig: 82, 71
+  offset: 0, 0
+  index: -1
+b_s_tou2
+  rotate: false
+  xy: 2, 142
+  size: 82, 71
+  orig: 82, 71
+  offset: 0, 0
+  index: -1
+b_s_weiba
+  rotate: true
+  xy: 476, 477
+  size: 33, 34
+  orig: 33, 34
+  offset: 0, 0
+  index: -1
+n_ler1
+  rotate: false
+  xy: 476, 454
+  size: 31, 21
+  orig: 31, 21
+  offset: 0, 0
+  index: -1
+n_ler2
+  rotate: false
+  xy: 152, 347
+  size: 31, 21
+  orig: 31, 21
+  offset: 0, 0
+  index: -1
+n_lshou1
+  rotate: true
+  xy: 234, 383
+  size: 16, 37
+  orig: 16, 37
+  offset: 0, 0
+  index: -1
+n_ltui1
+  rotate: false
+  xy: 185, 345
+  size: 18, 23
+  orig: 18, 23
+  offset: 0, 0
+  index: -1
+n_lyan1
+  rotate: true
+  xy: 15, 2
+  size: 9, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+n_lye1
+  rotate: false
+  xy: 207, 366
+  size: 23, 18
+  orig: 23, 18
+  offset: 0, 0
+  index: -1
+n_mao1
+  rotate: false
+  xy: 152, 302
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+n_rer1
+  rotate: true
+  xy: 96, 105
+  size: 37, 20
+  orig: 37, 20
+  offset: 0, 0
+  index: -1
+n_rer2
+  rotate: false
+  xy: 273, 379
+  size: 37, 20
+  orig: 37, 20
+  offset: 0, 0
+  index: -1
+n_rshou1
+  rotate: false
+  xy: 86, 169
+  size: 28, 40
+  orig: 28, 40
+  offset: 0, 0
+  index: -1
+n_rshou2
+  rotate: false
+  xy: 66, 100
+  size: 28, 40
+  orig: 28, 40
+  offset: 0, 0
+  index: -1
+n_rtui1
+  rotate: true
+  xy: 205, 347
+  size: 17, 26
+  orig: 17, 26
+  offset: 0, 0
+  index: -1
+n_ryan1
+  rotate: false
+  xy: 2, 2
+  size: 11, 9
+  orig: 11, 9
+  offset: 0, 0
+  index: -1
+n_rye1
+  rotate: false
+  xy: 152, 326
+  size: 27, 19
+  orig: 27, 19
+  offset: 0, 0
+  index: -1
+n_shentii1
+  rotate: false
+  xy: 2, 290
+  size: 110, 97
+  orig: 110, 97
+  offset: 0, 0
+  index: -1
+n_tou1
+  rotate: false
+  xy: 318, 448
+  size: 86, 62
+  orig: 86, 62
+  offset: 0, 0
+  index: -1
+n_tou2
+  rotate: true
+  xy: 2, 54
+  size: 86, 62
+  orig: 86, 62
+  offset: 0, 0
+  index: -1
+n_weiba1
+  rotate: false
+  xy: 162, 414
+  size: 70, 96
+  orig: 70, 96
+  offset: 0, 0
+  index: -1
+n_zui1
+  rotate: false
+  xy: 234, 401
+  size: 84, 36
+  orig: 84, 36
+  offset: 0, 0
+  index: -1
+n_zui2
+  rotate: false
+  xy: 320, 410
+  size: 84, 36
+  orig: 84, 36
+  offset: 0, 0
+  index: -1
+n_zuiex1
+  rotate: true
+  xy: 232, 366
+  size: 15, 27
+  orig: 15, 27
+  offset: 0, 0
+  index: -1
+s_xiaba1
+  rotate: false
+  xy: 2, 13
+  size: 59, 39
+  orig: 59, 39
+  offset: 0, 0
+  index: -1
+s_zui1
+  rotate: true
+  xy: 114, 296
+  size: 91, 36
+  orig: 91, 36
+  offset: 0, 0
+  index: -1

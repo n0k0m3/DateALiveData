@@ -1,0 +1,153 @@
+
+angel_10201.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+b
+  rotate: false
+  xy: 529, 750
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+gj
+  rotate: false
+  xy: 398, 946
+  size: 583, 76
+  orig: 583, 76
+  offset: 0, 0
+  index: -1
+h
+  rotate: false
+  xy: 282, 381
+  size: 42, 43
+  orig: 42, 43
+  offset: 0, 0
+  index: -1
+h2
+  rotate: false
+  xy: 814, 908
+  size: 15, 36
+  orig: 15, 36
+  offset: 0, 0
+  index: -1
+huanlizi
+  rotate: false
+  xy: 398, 697
+  size: 42, 43
+  orig: 42, 43
+  offset: 0, 0
+  index: -1
+jian
+  rotate: false
+  xy: 2, 668
+  size: 394, 354
+  orig: 394, 354
+  offset: 0, 0
+  index: -1
+l
+  rotate: false
+  xy: 2, 2
+  size: 40, 41
+  orig: 40, 41
+  offset: 0, 0
+  index: -1
+l2
+  rotate: false
+  xy: 282, 354
+  size: 17, 25
+  orig: 17, 25
+  offset: 0, 0
+  index: -1
+l3
+  rotate: false
+  xy: 44, 9
+  size: 15, 34
+  orig: 15, 34
+  offset: 0, 0
+  index: -1
+l4
+  rotate: false
+  xy: 730, 839
+  size: 30, 29
+  orig: 30, 29
+  offset: 0, 0
+  index: -1
+languang
+  rotate: false
+  xy: 398, 794
+  size: 330, 150
+  orig: 330, 150
+  offset: 0, 0
+  index: -1
+lanlizi
+  rotate: false
+  xy: 730, 870
+  size: 82, 74
+  orig: 82, 74
+  offset: 0, 0
+  index: -1
+nenlian
+  rotate: false
+  xy: 91, 426
+  size: 271, 240
+  orig: 271, 240
+  offset: 0, 0
+  index: -1
+p1
+  rotate: true
+  xy: 2, 45
+  size: 621, 87
+  orig: 621, 87
+  offset: 0, 0
+  index: -1
+p2
+  rotate: false
+  xy: 398, 742
+  size: 129, 50
+  orig: 129, 50
+  offset: 0, 0
+  index: -1
+p3
+  rotate: true
+  xy: 364, 630
+  size: 36, 25
+  orig: 36, 25
+  offset: 0, 0
+  index: -1
+p4
+  rotate: false
+  xy: 91, 295
+  size: 79, 34
+  orig: 79, 34
+  offset: 0, 0
+  index: -1
+p6
+  rotate: false
+  xy: 91, 331
+  size: 189, 93
+  orig: 189, 93
+  offset: 0, 0
+  index: -1
+s
+  rotate: false
+  xy: 91, 255
+  size: 11, 38
+  orig: 11, 38
+  offset: 0, 0
+  index: -1
+x
+  rotate: true
+  xy: 172, 318
+  size: 11, 38
+  orig: 11, 38
+  offset: 0, 0
+  index: -1
+y
+  rotate: false
+  xy: 983, 990
+  size: 36, 32
+  orig: 36, 32
+  offset: 0, 0
+  index: -1

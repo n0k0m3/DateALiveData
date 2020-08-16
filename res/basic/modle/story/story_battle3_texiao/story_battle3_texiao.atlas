@@ -1,0 +1,228 @@
+
+story_battle3_texiao.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baiping
+  rotate: false
+  xy: 2, 421
+  size: 46, 46
+  orig: 46, 46
+  offset: 0, 0
+  index: -1
+daoguang2/daoguang2/daoguang_00000
+  rotate: false
+  xy: 2, 469
+  size: 700, 545
+  orig: 700, 560
+  offset: 0, 0
+  index: -1
+daoguang2/daoguang2/daoguang_00001
+  rotate: false
+  xy: 2, 4
+  size: 668, 414
+  orig: 700, 560
+  offset: 13, 0
+  index: -1
+daoguang2/daoguang2/daoguang_00002
+  rotate: true
+  xy: 672, 140
+  size: 278, 342
+  orig: 700, 560
+  offset: 39, 61
+  index: -1
+daoguang2/daoguang_00002
+  rotate: true
+  xy: 704, 782
+  size: 232, 310
+  orig: 700, 560
+  offset: 78, 69
+  index: -1
+effects3/FZ/SD/SD_1_01
+  rotate: false
+  xy: 704, 420
+  size: 296, 360
+  orig: 678, 615
+  offset: 176, 111
+  index: -1
+skillA1/daoguang_002
+  rotate: false
+  xy: 672, 22
+  size: 201, 116
+  orig: 280, 280
+  offset: 34, 60
+  index: -1
+skillA1/daoguang_003
+  rotate: false
+  xy: 250, 435
+  size: 99, 32
+  orig: 280, 280
+  offset: 33, 63
+  index: -1
+suduxian_00000
+  rotate: false
+  xy: 50, 433
+  size: 198, 34
+  orig: 211, 52
+  offset: 9, 9
+  index: -1
+
+story_battle3_texiao2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+daoguang2/daoguang_00000
+  rotate: false
+  xy: 2, 516
+  size: 638, 505
+  orig: 700, 560
+  offset: 28, 34
+  index: -1
+daoguang2/daoguang_00001
+  rotate: true
+  xy: 642, 399
+  size: 622, 343
+  orig: 700, 560
+  offset: 51, 29
+  index: -1
+effects3/FZ/SD/SD_1_02
+  rotate: true
+  xy: 555, 112
+  size: 285, 219
+  orig: 678, 615
+  offset: 172, 321
+  index: -1
+flare_00066
+  rotate: false
+  xy: 2, 279
+  size: 551, 235
+  orig: 551, 235
+  offset: 0, 0
+  index: -1
+ren_quan2/ren_quan2_03
+  rotate: false
+  xy: 277, 54
+  size: 226, 223
+  orig: 368, 345
+  offset: 74, 68
+  index: -1
+ren_quan2/ren_quan2_07
+  rotate: false
+  xy: 776, 178
+  size: 240, 219
+  orig: 368, 345
+  offset: 71, 83
+  index: -1
+skillA1/daoguang_001
+  rotate: false
+  xy: 776, 3
+  size: 196, 173
+  orig: 280, 280
+  offset: 39, 55
+  index: -1
+yanwu01/yanwu_00002
+  rotate: false
+  xy: 505, 5
+  size: 268, 105
+  orig: 336, 179
+  offset: 30, 29
+  index: -1
+yanwu01/yanwu_00006
+  rotate: false
+  xy: 2, 2
+  size: 273, 108
+  orig: 336, 179
+  offset: 25, 28
+  index: -1
+yanwu01/yanwu_00007
+  rotate: false
+  xy: 2, 166
+  size: 272, 111
+  orig: 336, 179
+  offset: 26, 28
+  index: -1
+
+story_battle3_texiao3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+daoguang2/daoguang2/daoguang_00003
+  rotate: false
+  xy: 447, 759
+  size: 202, 192
+  orig: 700, 560
+  offset: 100, 192
+  index: -1
+daoguang2/daoguang_00003
+  rotate: true
+  xy: 188, 326
+  size: 186, 178
+  orig: 700, 560
+  offset: 108, 199
+  index: -1
+effects3/FZ/SD/SD_1_04
+  rotate: true
+  xy: 2, 286
+  size: 226, 184
+  orig: 678, 615
+  offset: 167, 313
+  index: -1
+ren_quan2/ren_quan2_01
+  rotate: false
+  xy: 234, 745
+  size: 211, 206
+  orig: 368, 345
+  offset: 83, 77
+  index: -1
+ren_quan2/ren_quan2_09
+  rotate: false
+  xy: 2, 737
+  size: 230, 214
+  orig: 368, 345
+  offset: 72, 80
+  index: -1
+ren_quan2/ren_quan2_11
+  rotate: false
+  xy: 2, 514
+  size: 217, 221
+  orig: 368, 345
+  offset: 78, 76
+  index: -1
+skillA1/daoguang_000
+  rotate: false
+  xy: 651, 765
+  size: 194, 186
+  orig: 280, 280
+  offset: 41, 53
+  index: -1
+yanwu01/yanwu_00001
+  rotate: true
+  xy: 2, 21
+  size: 263, 111
+  orig: 336, 179
+  offset: 35, 29
+  index: -1
+yanwu01/yanwu_00003
+  rotate: true
+  xy: 115, 15
+  size: 269, 101
+  orig: 336, 179
+  offset: 27, 28
+  index: -1
+yanwu01/yanwu_00004
+  rotate: true
+  xy: 847, 681
+  size: 270, 104
+  orig: 336, 179
+  offset: 25, 28
+  index: -1
+yanwu01/yanwu_00005
+  rotate: true
+  xy: 847, 681
+  size: 270, 104
+  orig: 336, 179
+  offset: 25, 28
+  index: -1

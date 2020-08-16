@@ -1,0 +1,515 @@
+
+fight_10101_Story_battle2_texiao.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skilld/daoguang/daoguang_00059
+  rotate: true
+  xy: 291, 325
+  size: 191, 155
+  orig: 191, 155
+  offset: 0, 0
+  index: -1
+effects/skilld/daoguang/daoguang_00061
+  rotate: false
+  xy: 888, 396
+  size: 131, 131
+  orig: 131, 131
+  offset: 0, 0
+  index: -1
+effects/skilld/daoguang/daoguang_00077
+  rotate: false
+  xy: 416, 3
+  size: 163, 98
+  orig: 163, 98
+  offset: 0, 0
+  index: -1
+effects/skilld/daoguang/daoguang_00078
+  rotate: false
+  xy: 291, 107
+  size: 127, 46
+  orig: 127, 46
+  offset: 0, 0
+  index: -1
+effects/skilld/daoguang/daoguang_00091
+  rotate: false
+  xy: 893, 696
+  size: 129, 80
+  orig: 129, 80
+  offset: 0, 0
+  index: -1
+effects/skilld/daoguang/daoguang_00092
+  rotate: true
+  xy: 795, 15
+  size: 86, 72
+  orig: 86, 72
+  offset: 0, 0
+  index: -1
+effects/skilld/golw_0001
+  rotate: false
+  xy: 581, 7
+  size: 212, 94
+  orig: 214, 98
+  offset: 1, 4
+  index: -1
+effects/skilld/qiliu/qiliu _00059
+  rotate: true
+  xy: 940, 11
+  size: 67, 43
+  orig: 154, 94
+  offset: 3, 13
+  index: -1
+effects/skilld/shandian/shandian_00061
+  rotate: false
+  xy: 291, 155
+  size: 148, 168
+  orig: 149, 185
+  offset: 1, 17
+  index: -1
+effects/skilld/shandian2/shandian2_00094
+  rotate: true
+  xy: 878, 287
+  size: 107, 140
+  orig: 107, 150
+  offset: 0, 0
+  index: -1
+effects/skilld/shandian2/shandian2_00098
+  rotate: true
+  xy: 893, 778
+  size: 85, 129
+  orig: 107, 150
+  offset: 9, 4
+  index: -1
+effects/skilld/shandian2/shandian2_00102
+  rotate: true
+  xy: 878, 204
+  size: 81, 140
+  orig: 107, 150
+  offset: 0, 10
+  index: -1
+effects/skilld/shandian2/shandian2_00104
+  rotate: false
+  xy: 940, 80
+  size: 82, 122
+  orig: 107, 150
+  offset: 0, 22
+  index: -1
+effects/skilld/shandian3/shandian3_00100
+  rotate: true
+  xy: 888, 610
+  size: 84, 132
+  orig: 99, 133
+  offset: 11, 1
+  index: -1
+effects/skilld/shandian3/shandian3_00102
+  rotate: true
+  xy: 888, 529
+  size: 79, 132
+  orig: 99, 133
+  offset: 11, 0
+  index: -1
+effects/skilld/shandian3/shandian3_00104
+  rotate: false
+  xy: 2, 397
+  size: 61, 119
+  orig: 99, 133
+  offset: 10, 1
+  index: -1
+effects/skilld/suishi/suishi_00011
+  rotate: false
+  xy: 451, 410
+  size: 435, 311
+  orig: 447, 321
+  offset: 0, 0
+  index: -1
+effects/skilld/suishi/suishi_00013
+  rotate: false
+  xy: 448, 103
+  size: 428, 305
+  orig: 447, 321
+  offset: 0, 0
+  index: -1
+effects/skilld/suishi/suishi_00017
+  rotate: false
+  xy: 2, 717
+  size: 447, 305
+  orig: 447, 321
+  offset: 0, 0
+  index: -1
+effects/skilld/suishi/suishi_00019
+  rotate: false
+  xy: 451, 723
+  size: 440, 299
+  orig: 447, 321
+  offset: 7, 0
+  index: -1
+effects/skilld/suishi/suishi_00023
+  rotate: true
+  xy: 2, 19
+  size: 375, 287
+  orig: 447, 321
+  offset: 43, 0
+  index: -1
+effects/skilld/suishi/suishi_00029
+  rotate: true
+  xy: 65, 433
+  size: 282, 224
+  orig: 447, 321
+  offset: 80, 42
+  index: -1
+effects/skilld/suishi/suishi_00033
+  rotate: true
+  xy: 291, 518
+  size: 197, 157
+  orig: 447, 321
+  offset: 126, 93
+  index: -1
+effects/skilld/suishi/suishi_00035
+  rotate: true
+  xy: 893, 865
+  size: 157, 129
+  orig: 447, 321
+  offset: 145, 112
+  index: -1
+effects/skilld/suishi/suishi_00037
+  rotate: false
+  xy: 291, 2
+  size: 123, 99
+  orig: 447, 321
+  offset: 161, 134
+  index: -1
+effects/skilld/xulitiaodai/xulitiaodai_00092
+  rotate: false
+  xy: 878, 2
+  size: 60, 200
+  orig: 79, 202
+  offset: 4, 2
+  index: -1
+effects/skilld/xulitiaodai/xulitiaodai_00095
+  rotate: false
+  xy: 2, 528
+  size: 60, 187
+  orig: 79, 202
+  offset: 13, 3
+  index: -1
+
+fight_10101_Story_battle2_texiao2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skilld/daoguang/daoguang_00060
+  rotate: false
+  xy: 824, 248
+  size: 195, 145
+  orig: 195, 145
+  offset: 0, 0
+  index: -1
+effects/skilld/daoguang/daoguang_00062
+  rotate: false
+  xy: 576, 283
+  size: 110, 65
+  orig: 110, 65
+  offset: 0, 0
+  index: -1
+effects/skilld/daoguang/daoguang_00063
+  rotate: true
+  xy: 354, 261
+  size: 87, 37
+  orig: 87, 37
+  offset: 0, 0
+  index: -1
+effects/skilld/daoguang/daoguang_00079
+  rotate: false
+  xy: 688, 307
+  size: 41, 41
+  orig: 41, 41
+  offset: 0, 0
+  index: -1
+effects/skilld/daoguang/daoguang_00090
+  rotate: false
+  xy: 821, 82
+  size: 159, 164
+  orig: 159, 164
+  offset: 0, 0
+  index: -1
+effects/skilld/qiliu/qiliu _00061
+  rotate: false
+  xy: 682, 6
+  size: 127, 71
+  orig: 154, 94
+  offset: 9, 9
+  index: -1
+effects/skilld/qiliu/qiliu _00063
+  rotate: false
+  xy: 462, 263
+  size: 112, 85
+  orig: 154, 94
+  offset: 30, 4
+  index: -1
+effects/skilld/qiliu/qiliu _00065
+  rotate: false
+  xy: 729, 618
+  size: 105, 92
+  orig: 154, 94
+  offset: 47, 2
+  index: -1
+effects/skilld/shandian/shandian_00059
+  rotate: true
+  xy: 462, 350
+  size: 115, 173
+  orig: 149, 185
+  offset: 30, 1
+  index: -1
+effects/skilld/shandian2/shandian2_00092
+  rotate: false
+  xy: 729, 489
+  size: 94, 127
+  orig: 107, 150
+  offset: 6, 0
+  index: -1
+effects/skilld/shandian2/shandian2_00096
+  rotate: false
+  xy: 729, 350
+  size: 93, 137
+  orig: 107, 150
+  offset: 4, 8
+  index: -1
+effects/skilld/shandian2/shandian2_00100
+  rotate: false
+  xy: 338, 588
+  size: 80, 139
+  orig: 107, 150
+  offset: 3, 6
+  index: -1
+effects/skilld/shandian3/shandian3_00096
+  rotate: true
+  xy: 558, 5
+  size: 72, 122
+  orig: 99, 133
+  offset: 14, 0
+  index: -1
+effects/skilld/shandian3/shandian3_00098
+  rotate: false
+  xy: 338, 456
+  size: 80, 130
+  orig: 99, 133
+  offset: 13, 0
+  index: -1
+effects/skilld/shandian3/shandian3_00106
+  rotate: true
+  xy: 811, 11
+  size: 66, 116
+  orig: 99, 133
+  offset: 7, 0
+  index: -1
+effects/skilld/suishi/suishi_00015
+  rotate: false
+  xy: 423, 712
+  size: 413, 310
+  orig: 447, 321
+  offset: 0, 0
+  index: -1
+effects/skilld/suishi/suishi_00021
+  rotate: false
+  xy: 2, 729
+  size: 419, 293
+  orig: 447, 321
+  offset: 24, 0
+  index: -1
+effects/skilld/suishi/suishi_00025
+  rotate: false
+  xy: 2, 459
+  size: 334, 268
+  orig: 447, 321
+  offset: 60, 13
+  index: -1
+effects/skilld/suishi/suishi_00027
+  rotate: false
+  xy: 420, 467
+  size: 307, 243
+  orig: 447, 321
+  offset: 70, 31
+  index: -1
+effects/skilld/suishi/suishi_00031
+  rotate: true
+  xy: 2, 5
+  size: 241, 194
+  orig: 447, 321
+  offset: 103, 65
+  index: -1
+effects/skilld/xuli/xulilizi_00004
+  rotate: false
+  xy: 838, 846
+  size: 184, 176
+  orig: 184, 176
+  offset: 0, 0
+  index: -1
+effects/skilld/xuli/xulilizi_00008
+  rotate: false
+  xy: 838, 668
+  size: 184, 176
+  orig: 184, 176
+  offset: 0, 0
+  index: -1
+effects/skilld/xulitiaodai/xulitiaodai_00094
+  rotate: false
+  xy: 2, 253
+  size: 58, 201
+  orig: 79, 202
+  offset: 6, 1
+  index: -1
+effects/skilld/xulitiaodai/xulitiaodai_00097
+  rotate: false
+  xy: 393, 263
+  size: 67, 191
+  orig: 79, 202
+  offset: 9, 2
+  index: -1
+fanghuzhao/baiping
+  rotate: false
+  xy: 929, 14
+  size: 66, 66
+  orig: 66, 66
+  offset: 0, 0
+  index: -1
+fanghuzhao/fanghuzhao_00000
+  rotate: false
+  xy: 198, 6
+  size: 176, 240
+  orig: 300, 300
+  offset: 50, 32
+  index: -1
+fanghuzhao/fanghuzhao_00001
+  rotate: false
+  xy: 376, 8
+  size: 180, 251
+  orig: 300, 300
+  offset: 52, 26
+  index: -1
+fanghuzhao/fanghuzhao_00002
+  rotate: true
+  xy: 558, 79
+  size: 182, 261
+  orig: 300, 300
+  offset: 55, 21
+  index: -1
+fanghuzhao/fanghuzhao_00003
+  rotate: false
+  xy: 836, 395
+  size: 183, 271
+  orig: 300, 300
+  offset: 60, 16
+  index: -1
+fanghuzhao/fanghuzhao_00005
+  rotate: true
+  xy: 62, 255
+  size: 199, 290
+  orig: 300, 300
+  offset: 57, 6
+  index: -1
+
+fight_10101_Story_battle2_texiao3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skilld/daoguang/daoguang_00075
+  rotate: false
+  xy: 505, 682
+  size: 172, 118
+  orig: 172, 118
+  offset: 0, 0
+  index: -1
+effects/skilld/daoguang/daoguang_00076
+  rotate: false
+  xy: 679, 689
+  size: 170, 111
+  orig: 170, 111
+  offset: 0, 0
+  index: -1
+effects/skilld/daoguang/daoguang_00088
+  rotate: false
+  xy: 2, 233
+  size: 178, 182
+  orig: 178, 182
+  offset: 0, 0
+  index: -1
+effects/skilld/daoguang/daoguang_00089
+  rotate: false
+  xy: 193, 791
+  size: 176, 187
+  orig: 176, 187
+  offset: 0, 0
+  index: -1
+effects/skilld/golw
+  rotate: false
+  xy: 851, 673
+  size: 127, 127
+  orig: 128, 128
+  offset: 1, 0
+  index: -1
+effects/skilld/golw/golw_00120
+  rotate: false
+  xy: 192, 450
+  size: 161, 161
+  orig: 162, 162
+  offset: 0, 0
+  index: -1
+effects/skilld/shandian/shandian_00063
+  rotate: false
+  xy: 376, 636
+  size: 127, 164
+  orig: 149, 185
+  offset: 2, 21
+  index: -1
+effects/skilld/xuli/xulilizi_00000
+  rotate: false
+  xy: 556, 802
+  size: 182, 176
+  orig: 184, 176
+  offset: 0, 0
+  index: -1
+effects/skilld/xuli/xulilizi_00012
+  rotate: false
+  xy: 740, 802
+  size: 181, 176
+  orig: 184, 176
+  offset: 1, 0
+  index: -1
+effects/skilld/xuli/xulilizi_00016
+  rotate: false
+  xy: 371, 802
+  size: 183, 176
+  orig: 184, 176
+  offset: 1, 0
+  index: -1
+effects/skilld/xuli/xulilizi_00020
+  rotate: true
+  xy: 2, 48
+  size: 183, 176
+  orig: 184, 176
+  offset: 1, 0
+  index: -1
+effects/skilld/xuli/xulilizi_00024
+  rotate: false
+  xy: 193, 613
+  size: 181, 176
+  orig: 184, 176
+  offset: 3, 0
+  index: -1
+fanghuzhao/fanghuzhao_00004
+  rotate: false
+  xy: 2, 698
+  size: 189, 280
+  orig: 300, 300
+  offset: 60, 11
+  index: -1
+fanghuzhao/fanghuzhao_00006
+  rotate: false
+  xy: 2, 417
+  size: 188, 279
+  orig: 300, 300
+  offset: 65, 11
+  index: -1

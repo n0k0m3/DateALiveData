@@ -1,0 +1,41 @@
+
+angel_1115011.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+TX1
+  rotate: false
+  xy: 2, 467
+  size: 820, 548
+  orig: 820, 548
+  offset: 0, 0
+  index: -1
+fu
+  rotate: false
+  xy: 2, 2
+  size: 708, 463
+  orig: 708, 463
+  offset: 0, 0
+  index: -1
+fu1
+  rotate: false
+  xy: 824, 847
+  size: 135, 168
+  orig: 135, 168
+  offset: 0, 0
+  index: -1
+ggg2
+  rotate: false
+  xy: 824, 734
+  size: 111, 111
+  orig: 111, 111
+  offset: 0, 0
+  index: -1
+tx2
+  rotate: false
+  xy: 712, 424
+  size: 39, 41
+  orig: 39, 41
+  offset: 0, 0
+  index: -1

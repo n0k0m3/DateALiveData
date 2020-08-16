@@ -1,0 +1,28 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"bust_31401_new.moc",
+	"textures":[
+		"bust_31401_new.1024/texture_00.png",
+		"bust_31401_new.1024/texture_01.png"
+	],
+	"motions":{
+		"id_normal_2":[
+			{"file":"motions/id_normal_2.mtn","fade_in":1000,"fade_out":0}
+		],
+		"id_normal_12":[
+			{"file":"motions/id_normal_12.mtn","fade_in":1000,"fade_out":0}
+		],
+		"id_normal_9":[
+			{"file":"motions/id_normal_9.mtn","fade_in":1000,"fade_out":0}
+		],
+		"id_normal_4":[
+			{"file":"motions/id_normal_4.mtn","fade_in":1000,"fade_out":0}
+		],
+		"id_normal_13":[
+			{"file":"motions/id_normal_13.mtn","fade_in":1000,"fade_out":0}
+		]
+	},
+	"physics":"physics.json",
+	"project_settings":"bust_31401_new.settings.json",
+	"name":"bust_xianyiren_new"
+}

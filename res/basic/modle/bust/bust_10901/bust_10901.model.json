@@ -1,0 +1,15 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"bust_10901.moc",
+	"textures":[
+		"bust_10901.1024/texture_00.png",
+		"bust_10901.1024/texture_01.png"
+	],
+	"motions":{
+		"id_favor1":[
+			{"file":"motions/id_favor1.mtn"}
+		]
+	},
+	"project_settings":"bust_10901.settings.json",
+	"name":"bust_10901"
+}

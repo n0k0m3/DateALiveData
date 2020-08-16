@@ -1,0 +1,13 @@
+
+fight_10101_Story_battle2_baiping.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fanghuzhao/baiping
+  rotate: false
+  xy: 2, 2
+  size: 66, 66
+  orig: 66, 66
+  offset: 0, 0
+  index: -1

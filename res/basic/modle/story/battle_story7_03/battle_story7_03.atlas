@@ -1,0 +1,41 @@
+
+battle_story7_03.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/BG/dalou1
+  rotate: false
+  xy: 2, 55
+  size: 541, 960
+  orig: 541, 960
+  offset: 0, 0
+  index: -1
+images/BG/dong
+  rotate: false
+  xy: 545, 352
+  size: 245, 346
+  orig: 245, 346
+  offset: 0, 0
+  index: -1
+images/BG/shueipian
+  rotate: false
+  xy: 545, 700
+  size: 330, 315
+  orig: 330, 315
+  offset: 0, 0
+  index: -1
+images/BG/shueipian_gaoguang
+  rotate: false
+  xy: 2, 2
+  size: 56, 51
+  orig: 56, 51
+  offset: 0, 0
+  index: -1
+images/BG/shueipian_suipian
+  rotate: false
+  xy: 877, 890
+  size: 76, 125
+  orig: 76, 125
+  offset: 0, 0
+  index: -1

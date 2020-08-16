@@ -1,0 +1,54 @@
+
+angel_1110011.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 2, 459
+  size: 949, 544
+  orig: 949, 544
+  offset: 0, 0
+  index: -1
+guangxian
+  rotate: false
+  xy: 783, 245
+  size: 207, 212
+  orig: 207, 212
+  offset: 0, 0
+  index: -1
+pj
+  rotate: false
+  xy: 2, 78
+  size: 779, 379
+  orig: 779, 379
+  offset: 0, 0
+  index: -1
+xx
+  rotate: false
+  xy: 2, 2
+  size: 71, 74
+  orig: 71, 74
+  offset: 0, 0
+  index: -1
+
+angel_11100112.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dian
+  rotate: false
+  xy: 2, 251
+  size: 436, 436
+  orig: 436, 436
+  offset: 0, 0
+  index: -1
+guang
+  rotate: false
+  xy: 2, 2
+  size: 262, 247
+  orig: 262, 247
+  offset: 0, 0
+  index: -1

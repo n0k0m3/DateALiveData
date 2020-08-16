@@ -1,0 +1,83 @@
+
+angel_1102102.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+2a86cd91
+  rotate: false
+  xy: 899, 899
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+ZT1
+  rotate: false
+  xy: 2, 177
+  size: 252, 794
+  orig: 252, 794
+  offset: 0, 0
+  index: -1
+ZT2
+  rotate: false
+  xy: 256, 397
+  size: 338, 574
+  orig: 338, 574
+  offset: 0, 0
+  index: -1
+ZT3
+  rotate: false
+  xy: 596, 493
+  size: 195, 478
+  orig: 195, 478
+  offset: 0, 0
+  index: -1
+ZT4
+  rotate: false
+  xy: 793, 585
+  size: 104, 386
+  orig: 104, 386
+  offset: 0, 0
+  index: -1
+fx_guang1
+  rotate: true
+  xy: 2, 83
+  size: 92, 247
+  orig: 92, 247
+  offset: 0, 0
+  index: -1
+ggg
+  rotate: false
+  xy: 256, 240
+  size: 155, 155
+  orig: 155, 155
+  offset: 0, 0
+  index: -1
+ggg1
+  rotate: false
+  xy: 413, 258
+  size: 137, 137
+  orig: 137, 137
+  offset: 0, 0
+  index: -1
+ggg2
+  rotate: false
+  xy: 596, 358
+  size: 133, 133
+  orig: 133, 133
+  offset: 0, 0
+  index: -1
+ggg3
+  rotate: false
+  xy: 2, 45
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+smokewispy6
+  rotate: false
+  xy: 793, 506
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1

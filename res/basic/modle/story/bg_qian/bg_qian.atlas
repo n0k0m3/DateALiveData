@@ -1,0 +1,83 @@
+
+bg_qian.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shitou01
+  rotate: false
+  xy: 320, 18
+  size: 48, 59
+  orig: 48, 59
+  offset: 0, 0
+  index: -1
+shitou02
+  rotate: true
+  xy: 320, 79
+  size: 70, 75
+  orig: 70, 75
+  offset: 0, 0
+  index: -1
+shitou03
+  rotate: false
+  xy: 109, 2
+  size: 136, 104
+  orig: 136, 104
+  offset: 0, 0
+  index: -1
+shitou04
+  rotate: false
+  xy: 415, 104
+  size: 93, 72
+  orig: 93, 72
+  offset: 0, 0
+  index: -1
+shitou13
+  rotate: true
+  xy: 92, 108
+  size: 146, 128
+  orig: 146, 128
+  offset: 0, 0
+  index: -1
+shitou15
+  rotate: false
+  xy: 316, 151
+  size: 97, 103
+  orig: 97, 103
+  offset: 0, 0
+  index: -1
+shitou16
+  rotate: false
+  xy: 2, 7
+  size: 105, 97
+  orig: 105, 97
+  offset: 0, 0
+  index: -1
+shitou17
+  rotate: false
+  xy: 415, 178
+  size: 95, 76
+  orig: 95, 76
+  offset: 0, 0
+  index: -1
+shitou19
+  rotate: true
+  xy: 2, 106
+  size: 148, 88
+  orig: 148, 88
+  offset: 0, 0
+  index: -1
+shitou21
+  rotate: false
+  xy: 222, 136
+  size: 92, 118
+  orig: 92, 118
+  offset: 0, 0
+  index: -1
+yingzi/yansejiandan01
+  rotate: false
+  xy: 247, 20
+  size: 71, 114
+  orig: 71, 114
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,10 @@
+{
+	"type":"Live2D Expression",
+	"fade_in":500,
+	"fade_out":500,
+	"params":[
+		{"id":"PARAM_MOUTH_FORM","val":0.77},
+		{"id":"PARAM_MOUTH_SCALE","val":0.23},
+		{"id":"PARAM_CHEEK","val":0.5}
+	]
+}

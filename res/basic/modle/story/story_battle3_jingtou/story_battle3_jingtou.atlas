@@ -1,0 +1,13 @@
+
+story_battle3_jingtou.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jingtoukuang
+  rotate: false
+  xy: 2, 77
+  size: 139, 64
+  orig: 139, 64
+  offset: 0, 0
+  index: -1

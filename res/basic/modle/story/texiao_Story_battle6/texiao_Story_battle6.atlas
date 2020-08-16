@@ -1,0 +1,153 @@
+
+texiao_Story_battle6.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chuchang/yanwu/yanwu_00022
+  rotate: false
+  xy: 772, 900
+  size: 220, 92
+  orig: 220, 92
+  offset: 0, 0
+  index: -1
+chuchang/yanwu/yanwu_00024
+  rotate: false
+  xy: 2, 448
+  size: 220, 92
+  orig: 220, 92
+  offset: 0, 0
+  index: -1
+chuchang/yanwu/yanwu_00026
+  rotate: false
+  xy: 387, 561
+  size: 220, 92
+  orig: 220, 92
+  offset: 0, 0
+  index: -1
+chuchang/yanwu/yanwu_00028
+  rotate: false
+  xy: 772, 806
+  size: 220, 92
+  orig: 220, 92
+  offset: 0, 0
+  index: -1
+chuchang/yanwu/yanwu_00030
+  rotate: false
+  xy: 2, 354
+  size: 220, 92
+  orig: 220, 92
+  offset: 0, 0
+  index: -1
+chuchang/yanwu/yanwu_00032
+  rotate: false
+  xy: 772, 712
+  size: 220, 92
+  orig: 220, 92
+  offset: 0, 0
+  index: -1
+chuchang/yanwu/yanwu_00034
+  rotate: false
+  xy: 2, 260
+  size: 220, 92
+  orig: 220, 92
+  offset: 0, 0
+  index: -1
+chuchang/yanwu/yanwu_00036
+  rotate: true
+  xy: 224, 320
+  size: 220, 92
+  orig: 220, 92
+  offset: 0, 0
+  index: -1
+skilla/yanwu/yanwu_00026
+  rotate: false
+  xy: 2, 160
+  size: 157, 98
+  orig: 157, 98
+  offset: 0, 0
+  index: -1
+skilla/yanwu/yanwu_00027
+  rotate: false
+  xy: 2, 60
+  size: 157, 98
+  orig: 157, 98
+  offset: 0, 0
+  index: -1
+skilla/yanwu/yanwu_00028
+  rotate: false
+  xy: 609, 555
+  size: 157, 98
+  orig: 157, 98
+  offset: 0, 0
+  index: -1
+skilla/yanwu/yanwu_00029
+  rotate: true
+  xy: 318, 383
+  size: 157, 98
+  orig: 157, 98
+  offset: 0, 0
+  index: -1
+skilla/yanwu/yanwu_00030
+  rotate: false
+  xy: 418, 461
+  size: 157, 98
+  orig: 157, 98
+  offset: 0, 0
+  index: -1
+skilla/yanwu/yanwu_00031
+  rotate: false
+  xy: 418, 361
+  size: 157, 98
+  orig: 157, 98
+  offset: 0, 0
+  index: -1
+skilld/yanwu/yanwu_00013
+  rotate: false
+  xy: 2, 881
+  size: 383, 111
+  orig: 383, 111
+  offset: 0, 0
+  index: -1
+skilld/yanwu/yanwu_00014
+  rotate: false
+  xy: 2, 768
+  size: 383, 111
+  orig: 383, 111
+  offset: 0, 0
+  index: -1
+skilld/yanwu/yanwu_00015
+  rotate: false
+  xy: 387, 881
+  size: 383, 111
+  orig: 383, 111
+  offset: 0, 0
+  index: -1
+skilld/yanwu/yanwu_00017
+  rotate: false
+  xy: 2, 655
+  size: 383, 111
+  orig: 383, 111
+  offset: 0, 0
+  index: -1
+skilld/yanwu/yanwu_00019
+  rotate: false
+  xy: 387, 768
+  size: 383, 111
+  orig: 383, 111
+  offset: 0, 0
+  index: -1
+skilld/yanwu/yanwu_00021
+  rotate: false
+  xy: 2, 542
+  size: 383, 111
+  orig: 383, 111
+  offset: 0, 0
+  index: -1
+skilld/yanwu/yanwu_00023
+  rotate: false
+  xy: 387, 655
+  size: 383, 111
+  orig: 383, 111
+  offset: 0, 0
+  index: -1

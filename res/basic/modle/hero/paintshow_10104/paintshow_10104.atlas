@@ -1,0 +1,299 @@
+
+paintshow_10104.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eye1
+  rotate: true
+  xy: 954, 249
+  size: 82, 43
+  orig: 84, 45
+  offset: 1, 1
+  index: -1
+eye2
+  rotate: true
+  xy: 981, 164
+  size: 83, 40
+  orig: 85, 42
+  offset: 1, 1
+  index: -1
+eye4
+  rotate: false
+  xy: 916, 461
+  size: 82, 27
+  orig: 84, 29
+  offset: 1, 1
+  index: -1
+l_jiao
+  rotate: true
+  xy: 230, 16
+  size: 59, 162
+  orig: 61, 164
+  offset: 1, 1
+  index: -1
+l_shou
+  rotate: true
+  xy: 167, 15
+  size: 60, 61
+  orig: 62, 63
+  offset: 1, 1
+  index: -1
+l_xiabi
+  rotate: true
+  xy: 916, 630
+  size: 106, 99
+  orig: 108, 101
+  offset: 1, 1
+  index: -1
+l_xiatui
+  rotate: true
+  xy: 561, 461
+  size: 271, 353
+  orig: 273, 355
+  offset: 1, 1
+  index: -1
+meimao
+  rotate: true
+  xy: 954, 163
+  size: 84, 25
+  orig: 86, 27
+  offset: 1, 1
+  index: -1
+qunzi
+  rotate: false
+  xy: 2, 77
+  size: 509, 380
+  orig: 511, 382
+  offset: 1, 1
+  index: -1
+r_jiao
+  rotate: true
+  xy: 2, 5
+  size: 70, 163
+  orig: 72, 165
+  offset: 1, 1
+  index: -1
+r_piaodai
+  rotate: false
+  xy: 797, 19
+  size: 147, 141
+  orig: 149, 143
+  offset: 1, 1
+  index: -1
+r_shangbi
+  rotate: true
+  xy: 954, 333
+  size: 126, 51
+  orig: 128, 53
+  offset: 1, 1
+  index: -1
+r_shou
+  rotate: true
+  xy: 394, 27
+  size: 48, 83
+  orig: 50, 85
+  offset: 1, 1
+  index: -1
+toufa10
+  rotate: true
+  xy: 561, 734
+  size: 288, 282
+  orig: 290, 284
+  offset: 1, 1
+  index: -1
+toufa3
+  rotate: false
+  xy: 513, 162
+  size: 439, 295
+  orig: 441, 297
+  offset: 1, 1
+  index: -1
+toufa5
+  rotate: true
+  xy: 513, 14
+  size: 146, 282
+  orig: 148, 284
+  offset: 1, 1
+  index: -1
+toufa77
+  rotate: false
+  xy: 845, 738
+  size: 173, 284
+  orig: 173, 284
+  offset: 0, 0
+  index: -1
+toufa8
+  rotate: false
+  xy: 916, 490
+  size: 85, 138
+  orig: 87, 140
+  offset: 1, 1
+  index: -1
+toushi
+  rotate: true
+  xy: 946, 58
+  size: 102, 76
+  orig: 104, 78
+  offset: 1, 1
+  index: -1
+wuqi
+  rotate: false
+  xy: 2, 459
+  size: 557, 563
+  orig: 559, 565
+  offset: 1, 1
+  index: -1
+
+paintshow_101042.png
+size: 977,977
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+b_qun
+  rotate: false
+  xy: 503, 165
+  size: 167, 203
+  orig: 169, 205
+  offset: 1, 1
+  index: -1
+eye3
+  rotate: true
+  xy: 183, 31
+  size: 83, 34
+  orig: 85, 36
+  offset: 1, 1
+  index: -1
+head
+  rotate: true
+  xy: 672, 103
+  size: 107, 122
+  orig: 109, 124
+  offset: 1, 1
+  index: -1
+l_piaodai
+  rotate: false
+  xy: 672, 212
+  size: 111, 173
+  orig: 113, 175
+  offset: 1, 1
+  index: -1
+l_qun
+  rotate: false
+  xy: 2, 728
+  size: 362, 247
+  orig: 364, 249
+  offset: 1, 1
+  index: -1
+l_shangbi
+  rotate: false
+  xy: 267, 372
+  size: 122, 78
+  orig: 124, 80
+  offset: 1, 1
+  index: -1
+l_shangtui
+  rotate: true
+  xy: 2, 116
+  size: 271, 258
+  orig: 273, 260
+  offset: 1, 1
+  index: -1
+r_qun
+  rotate: true
+  xy: 665, 387
+  size: 192, 242
+  orig: 194, 244
+  offset: 1, 1
+  index: -1
+r_shangtui
+  rotate: false
+  xy: 396, 516
+  size: 267, 243
+  orig: 269, 245
+  offset: 1, 1
+  index: -1
+r_xiabi
+  rotate: false
+  xy: 796, 134
+  size: 82, 108
+  orig: 84, 110
+  offset: 1, 1
+  index: -1
+r_xiatui
+  rotate: false
+  xy: 267, 452
+  size: 127, 274
+  orig: 129, 276
+  offset: 1, 1
+  index: -1
+shangshen2
+  rotate: true
+  xy: 785, 244
+  size: 141, 121
+  orig: 141, 121
+  offset: 0, 0
+  index: -1
+toufa1
+  rotate: false
+  xy: 481, 23
+  size: 157, 140
+  orig: 159, 142
+  offset: 1, 1
+  index: -1
+toufa11
+  rotate: true
+  xy: 668, 780
+  size: 195, 300
+  orig: 197, 302
+  offset: 1, 1
+  index: -1
+toufa12
+  rotate: true
+  xy: 366, 761
+  size: 214, 300
+  orig: 216, 302
+  offset: 1, 1
+  index: -1
+toufa2
+  rotate: false
+  xy: 396, 370
+  size: 243, 144
+  orig: 245, 146
+  offset: 1, 1
+  index: -1
+toufa4
+  rotate: true
+  xy: 2, 7
+  size: 107, 179
+  orig: 109, 181
+  offset: 1, 1
+  index: -1
+toufa6
+  rotate: false
+  xy: 2, 389
+  size: 263, 337
+  orig: 265, 339
+  offset: 1, 1
+  index: -1
+toufa7
+  rotate: true
+  xy: 668, 581
+  size: 197, 243
+  orig: 199, 245
+  offset: 1, 1
+  index: -1
+toufa9
+  rotate: false
+  xy: 262, 166
+  size: 239, 202
+  orig: 241, 204
+  offset: 1, 1
+  index: -1
+xiashen3
+  rotate: true
+  xy: 262, 2
+  size: 162, 217
+  orig: 162, 217
+  offset: 0, 0
+  index: -1

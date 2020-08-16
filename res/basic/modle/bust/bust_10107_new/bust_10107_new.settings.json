@@ -1,0 +1,26 @@
+{
+	"canvas_window": {
+		"top": 1,
+		"bottom": -1,
+		"left": -1,
+		"right": 1,
+		"scaleX": 1,
+		"bgColorA": 0,
+		"scaleY": 1,
+		"x": -45,
+		"bgColorR": 1,
+		"y": 84,
+		"bgColorG": 1,
+		"bgColorB": 1,
+		"transparent": false,
+		"width": 605,
+		"height": 657,
+		"displayState": "normal"
+	},
+	"inspector_window": {
+		"y": 102,
+		"width": 1079,
+		"height": 847,
+		"x": 433
+	}
+}

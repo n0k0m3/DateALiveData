@@ -1,0 +1,13 @@
+
+fight_Story_battle6_jingtou.png
+size: 16,16
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jingtou_zhanwei
+  rotate: false
+  xy: 2, 2
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1

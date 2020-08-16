@@ -1,0 +1,14 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"bust_10902.moc",
+	"textures":[
+		"bust_10902.1024/texture_00.png"
+	],
+	"motions":{
+		"ldle":[
+			{"file":"motions/ldle.mtn","fade_in":1000,"fade_out":0}
+		]
+	},
+	"project_settings":"bust_10902.settings.json",
+	"name":"PreviewModel"
+}

@@ -1,0 +1,256 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "bust_shixiang_ai.moc3",
+		"Textures": [
+			"bust_shixiang_ai.1024/texture_00.png",
+			"bust_shixiang_ai.1024/texture_01.png",
+			"bust_shixiang_ai.1024/texture_02.png",
+			"bust_shixiang_ai.1024/texture_03.png",
+			"bust_shixiang_ai.1024/texture_04.png",
+			"bust_shixiang_ai.1024/texture_05.png"
+		],
+		"Physics": "bust_shixiang_ai.physics3.json",
+		"Motions": {
+			"Idle": [
+				{
+					"File": "motions/idle.motion3.json",
+					"FadeInTime": 0.1,
+					"FadeOutTime": 0.1
+				}
+			],
+			"Id_normal_1": [
+				{
+					"File": "motions/id_normal_1.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_normal_10": [
+				{
+					"File": "motions/id_normal_10.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_normal_11": [
+				{
+					"File": "motions/id_normal_11.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_normal_12": [
+				{
+					"File": "motions/id_normal_12.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_normal_13": [
+				{
+					"File": "motions/id_normal_13.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_normal_14": [
+				{
+					"File": "motions/id_normal_14.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_normal_15": [
+				{
+					"File": "motions/id_normal_15.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_normal_16": [
+				{
+					"File": "motions/id_normal_16.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_normal_17": [
+				{
+					"File": "motions/id_normal_17.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_normal_18": [
+				{
+					"File": "motions/id_normal_18.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_normal_19": [
+				{
+					"File": "motions/id_normal_19.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_normal_2": [
+				{
+					"File": "motions/id_normal_2.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_normal_20": [
+				{
+					"File": "motions/id_normal_20.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_normal_21": [
+				{
+					"File": "motions/id_normal_21.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_normal_22": [
+				{
+					"File": "motions/id_normal_22.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_normal_23": [
+				{
+					"File": "motions/id_normal_23.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_normal_24": [
+				{
+					"File": "motions/id_normal_24.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_normal_25": [
+				{
+					"File": "motions/id_normal_25.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_normal_26": [
+				{
+					"File": "motions/id_normal_26.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_normal_27": [
+				{
+					"File": "motions/id_normal_27.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_normal_28": [
+				{
+					"File": "motions/id_normal_28.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_normal_3": [
+				{
+					"File": "motions/id_normal_3.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_normal_4": [
+				{
+					"File": "motions/id_normal_4.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_normal_6": [
+				{
+					"File": "motions/id_normal_6.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_normal_7": [
+				{
+					"File": "motions/id_normal_7.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_normal_8": [
+				{
+					"File": "motions/id_normal_8.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_normal_9": [
+				{
+					"File": "motions/id_normal_9.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_normal_29": [
+				{
+					"File": "motions/id_normal_29.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_normal_5": [
+				{
+					"File": "motions/id_normal_5.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_normal_30": [
+				{
+					"File": "motions/id_normal_30.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_normal_31": [
+				{
+					"File": "motions/id_normal_31.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_normal_32": [
+				{
+					"File": "motions/id_normal_32.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	],
+	"HitAreas": []
+}

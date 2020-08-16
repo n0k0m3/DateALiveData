@@ -1,0 +1,97 @@
+
+angel_10208.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Fx_dian2
+  rotate: false
+  xy: 427, 589
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+b
+  rotate: false
+  xy: 151, 2
+  size: 34, 34
+  orig: 34, 34
+  offset: 0, 0
+  index: -1
+guanman
+  rotate: false
+  xy: 354, 863
+  size: 446, 159
+  orig: 446, 159
+  offset: 0, 0
+  index: -1
+jian
+  rotate: false
+  xy: 261, 27
+  size: 91, 995
+  orig: 91, 995
+  offset: 0, 0
+  index: -1
+lan
+  rotate: false
+  xy: 802, 896
+  size: 32, 33
+  orig: 32, 33
+  offset: 0, 0
+  index: -1
+langguang
+  rotate: false
+  xy: 802, 931
+  size: 174, 91
+  orig: 174, 91
+  offset: 0, 0
+  index: -1
+langguangb
+  rotate: false
+  xy: 427, 770
+  size: 174, 91
+  orig: 174, 91
+  offset: 0, 0
+  index: -1
+lizi
+  rotate: true
+  xy: 354, 378
+  size: 86, 64
+  orig: 86, 64
+  offset: 0, 0
+  index: -1
+qiang
+  rotate: false
+  xy: 2, 38
+  size: 257, 984
+  orig: 257, 984
+  offset: 0, 0
+  index: -1
+qiang2
+  rotate: false
+  xy: 354, 466
+  size: 71, 395
+  orig: 71, 395
+  offset: 0, 0
+  index: -1
+qiang3
+  rotate: true
+  xy: 2, 3
+  size: 33, 147
+  orig: 33, 147
+  offset: 0, 0
+  index: -1
+s
+  rotate: false
+  xy: 978, 992
+  size: 9, 30
+  orig: 9, 30
+  offset: 0, 0
+  index: -1
+saoguang
+  rotate: false
+  xy: 427, 693
+  size: 135, 75
+  orig: 135, 75
+  offset: 0, 0
+  index: -1

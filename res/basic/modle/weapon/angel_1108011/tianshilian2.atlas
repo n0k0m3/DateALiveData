@@ -1,0 +1,230 @@
+
+tianshilian2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guangquan1
+  rotate: true
+  xy: 895, 676
+  size: 128, 127
+  orig: 130, 129
+  offset: 1, 1
+  index: -1
+guangquan2
+  rotate: true
+  xy: 376, 2
+  size: 189, 198
+  orig: 189, 198
+  offset: 0, 0
+  index: -1
+guangquan3
+  rotate: false
+  xy: 2, 258
+  size: 393, 393
+  orig: 484, 484
+  offset: 46, 45
+  index: -1
+guangyun11
+  rotate: true
+  xy: 397, 286
+  size: 365, 325
+  orig: 377, 345
+  offset: 12, 9
+  index: -1
+guangyun22
+  rotate: false
+  xy: 535, 668
+  size: 358, 349
+  orig: 381, 369
+  offset: 11, 10
+  index: -1
+lian1
+  rotate: false
+  xy: 576, 148
+  size: 41, 43
+  orig: 43, 45
+  offset: 1, 1
+  index: -1
+lianatiao66
+  rotate: true
+  xy: 376, 220
+  size: 36, 19
+  orig: 38, 21
+  offset: 1, 1
+  index: -1
+liantao44
+  rotate: false
+  xy: 576, 107
+  size: 32, 39
+  orig: 34, 41
+  offset: 1, 1
+  index: -1
+liantiao10
+  rotate: false
+  xy: 649, 166
+  size: 24, 25
+  orig: 26, 27
+  offset: 1, 1
+  index: -1
+liantiao100
+  rotate: false
+  xy: 944, 364
+  size: 23, 25
+  orig: 25, 27
+  offset: 1, 1
+  index: -1
+liantiao11
+  rotate: false
+  xy: 995, 610
+  size: 27, 64
+  orig: 29, 66
+  offset: 1, 1
+  index: -1
+liantiao12
+  rotate: false
+  xy: 376, 208
+  size: 11, 10
+  orig: 13, 12
+  offset: 1, 1
+  index: -1
+liantiao13
+  rotate: true
+  xy: 270, 7
+  size: 47, 84
+  orig: 49, 86
+  offset: 1, 1
+  index: -1
+liantiao14
+  rotate: false
+  xy: 724, 311
+  size: 133, 78
+  orig: 135, 80
+  offset: 1, 1
+  index: -1
+liantiao15
+  rotate: false
+  xy: 397, 193
+  size: 329, 91
+  orig: 331, 93
+  offset: 1, 1
+  index: -1
+liantiao16
+  rotate: false
+  xy: 2, 7
+  size: 266, 249
+  orig: 268, 251
+  offset: 1, 1
+  index: -1
+liantiao2
+  rotate: false
+  xy: 619, 149
+  size: 28, 42
+  orig: 30, 44
+  offset: 1, 1
+  index: -1
+liantiao22
+  rotate: false
+  xy: 995, 565
+  size: 24, 43
+  orig: 26, 45
+  offset: 1, 1
+  index: -1
+liantiao3
+  rotate: false
+  xy: 859, 349
+  size: 42, 40
+  orig: 44, 42
+  offset: 1, 1
+  index: -1
+liantiao4
+  rotate: false
+  xy: 859, 312
+  size: 33, 35
+  orig: 35, 37
+  offset: 1, 1
+  index: -1
+liantiao5
+  rotate: false
+  xy: 903, 361
+  size: 39, 28
+  orig: 41, 30
+  offset: 1, 1
+  index: -1
+liantiao6
+  rotate: false
+  xy: 728, 261
+  size: 38, 23
+  orig: 40, 25
+  offset: 1, 1
+  index: -1
+liantiao7
+  rotate: false
+  xy: 777, 287
+  size: 32, 22
+  orig: 34, 24
+  offset: 1, 1
+  index: -1
+liantiao8
+  rotate: false
+  xy: 535, 654
+  size: 33, 12
+  orig: 35, 14
+  offset: 1, 1
+  index: -1
+liantiao88
+  rotate: true
+  xy: 356, 21
+  size: 33, 11
+  orig: 35, 13
+  offset: 1, 1
+  index: -1
+liantiao9
+  rotate: false
+  xy: 576, 77
+  size: 28, 28
+  orig: 30, 30
+  offset: 1, 1
+  index: -1
+liantiaoguang2
+  rotate: false
+  xy: 2, 653
+  size: 531, 364
+  orig: 533, 366
+  offset: 1, 1
+  index: -1
+liantiaoguang3
+  rotate: false
+  xy: 2, 653
+  size: 531, 364
+  orig: 533, 366
+  offset: 1, 1
+  index: -1
+liantiaotou
+  rotate: false
+  xy: 270, 56
+  size: 104, 200
+  orig: 106, 202
+  offset: 1, 1
+  index: -1
+liantiaowei
+  rotate: false
+  xy: 724, 286
+  size: 51, 23
+  orig: 53, 25
+  offset: 1, 1
+  index: -1
+xingguang3
+  rotate: false
+  xy: 724, 391
+  size: 269, 275
+  orig: 271, 277
+  offset: 1, 1
+  index: -1
+xingugang2
+  rotate: true
+  xy: 895, 806
+  size: 211, 127
+  orig: 213, 129
+  offset: 1, 1
+  index: -1

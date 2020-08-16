@@ -1,0 +1,54 @@
+
+angel_10501.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect2
+  rotate: false
+  xy: 620, 586
+  size: 376, 410
+  orig: 500, 450
+  offset: 63, 19
+  index: -1
+effect3
+  rotate: false
+  xy: 488, 177
+  size: 363, 407
+  orig: 500, 450
+  offset: 63, 20
+  index: -1
+f1
+  rotate: false
+  xy: 2, 621
+  size: 616, 375
+  orig: 616, 375
+  offset: 0, 0
+  index: -1
+flare1
+  rotate: false
+  xy: 2, 135
+  size: 484, 484
+  orig: 484, 484
+  offset: 0, 0
+  index: -1
+guangxian
+  rotate: true
+  xy: 2, 85
+  size: 48, 193
+  orig: 60, 224
+  offset: 6, 15
+  index: -1
+
+angel_105012.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect1
+  rotate: false
+  xy: 2, 2
+  size: 311, 387
+  orig: 500, 450
+  offset: 97, 31
+  index: -1

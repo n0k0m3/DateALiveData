@@ -1,0 +1,27 @@
+
+battle_story7_jingtou.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/BG/tx2_0001
+  rotate: false
+  xy: 2, 2
+  size: 374, 179
+  orig: 383, 181
+  offset: 6, 1
+  index: -1
+images/BG/tx2_0002
+  rotate: true
+  xy: 699, 131
+  size: 374, 179
+  orig: 383, 181
+  offset: 6, 1
+  index: -1
+jingtoukuang
+  rotate: false
+  xy: 2, 183
+  size: 695, 322
+  orig: 695, 322
+  offset: 0, 0
+  index: -1

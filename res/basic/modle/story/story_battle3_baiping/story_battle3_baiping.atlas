@@ -1,0 +1,13 @@
+
+story_battle3_baiping.png
+size: 16,16
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baiping
+  rotate: false
+  xy: 2, 2
+  size: 7, 7
+  orig: 7, 7
+  offset: 0, 0
+  index: -1

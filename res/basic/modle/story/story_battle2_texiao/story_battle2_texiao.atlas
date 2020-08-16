@@ -1,0 +1,357 @@
+
+story_battle2_texiao.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/shixiang/baodian/shouji_baodian_00001
+  rotate: false
+  xy: 2, 165
+  size: 852, 852
+  orig: 852, 852
+  offset: 0, 0
+  index: -1
+effects/shixiang/baodian1/shouji_00002
+  rotate: true
+  xy: 856, 847
+  size: 170, 153
+  orig: 345, 332
+  offset: 88, 83
+  index: -1
+effects/shixiang/baodian1/shouji_00004
+  rotate: true
+  xy: 856, 400
+  size: 215, 143
+  orig: 345, 332
+  offset: 81, 82
+  index: -1
+effects/shixiang/baodian1/shouji_00005
+  rotate: true
+  xy: 856, 174
+  size: 224, 139
+  orig: 345, 332
+  offset: 76, 79
+  index: -1
+effects/shixiang/baodian1/shouji_00006
+  rotate: true
+  xy: 856, 617
+  size: 228, 151
+  orig: 345, 332
+  offset: 75, 76
+  index: -1
+effects/shixiang/baodian1/shouji_00007
+  rotate: false
+  xy: 461, 5
+  size: 229, 158
+  orig: 345, 332
+  offset: 74, 73
+  index: -1
+effects/shixiang/baodian1/shouji_00008
+  rotate: false
+  xy: 232, 3
+  size: 227, 160
+  orig: 345, 332
+  offset: 75, 73
+  index: -1
+effects/shixiang/baodian1/shouji_00009
+  rotate: false
+  xy: 2, 3
+  size: 228, 160
+  orig: 345, 332
+  offset: 74, 73
+  index: -1
+effects/shixiang/baodian1/shouji_00010
+  rotate: false
+  xy: 692, 5
+  size: 182, 158
+  orig: 345, 332
+  offset: 72, 75
+  index: -1
+effects/shixiang/baodian1/shouji_00013
+  rotate: true
+  xy: 876, 3
+  size: 169, 141
+  orig: 345, 332
+  offset: 68, 96
+  index: -1
+
+story_battle2_texiao2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/shixiang/SD_1_01
+  rotate: false
+  xy: 656, 636
+  size: 317, 386
+  orig: 726, 659
+  offset: 189, 119
+  index: -1
+effects/shixiang/baodian/shouji_baodian_00000
+  rotate: false
+  xy: 2, 369
+  size: 652, 653
+  orig: 852, 852
+  offset: 100, 100
+  index: -1
+effects/shixiang/baodian1/baodian_00163
+  rotate: false
+  xy: 2, 54
+  size: 480, 313
+  orig: 750, 600
+  offset: 121, 187
+  index: -1
+effects/shixiang/baodian1/baodian_00164
+  rotate: false
+  xy: 484, 31
+  size: 401, 269
+  orig: 750, 600
+  offset: 123, 202
+  index: -1
+effects/shixiang/baodian1/shouji_00000
+  rotate: false
+  xy: 656, 302
+  size: 345, 332
+  orig: 345, 332
+  offset: 0, 0
+  index: -1
+effects/shixiang/baodian1/shouji_00011
+  rotate: true
+  xy: 887, 116
+  size: 184, 135
+  orig: 345, 332
+  offset: 70, 99
+  index: -1
+effects/shixiang/skilla_daoguang_add_00035
+  rotate: false
+  xy: 887, 29
+  size: 128, 85
+  orig: 129, 86
+  offset: 1, 0
+  index: -1
+
+story_battle2_texiao3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/shixiang/baodian/shouji_baodian_00002
+  rotate: false
+  xy: 2, 503
+  size: 742, 519
+  orig: 852, 852
+  offset: 54, 166
+  index: -1
+effects/shixiang/baodian/shouji_baodian_00003
+  rotate: true
+  xy: 434, 3
+  size: 498, 553
+  orig: 852, 852
+  offset: 177, 149
+  index: -1
+effects/shixiang/baodian/shouji_baodian_00004
+  rotate: true
+  xy: 2, 2
+  size: 499, 430
+  orig: 852, 852
+  offset: 156, 248
+  index: -1
+effects/shixiang/baodian1/baodian_00165
+  rotate: false
+  xy: 746, 783
+  size: 181, 239
+  orig: 750, 600
+  offset: 247, 202
+  index: -1
+effects/shixiang/baodian1/baodian_00166
+  rotate: false
+  xy: 746, 585
+  size: 181, 196
+  orig: 750, 600
+  offset: 247, 244
+  index: -1
+
+story_battle2_texiao4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/shanyan/yanwu_00002
+  rotate: false
+  xy: 730, 2
+  size: 287, 112
+  orig: 360, 192
+  offset: 32, 31
+  index: -1
+effects/shanyan/yanwu_00004
+  rotate: false
+  xy: 439, 2
+  size: 289, 112
+  orig: 360, 192
+  offset: 27, 30
+  index: -1
+effects/shanyan/yanwu_00005
+  rotate: false
+  xy: 439, 2
+  size: 289, 112
+  orig: 360, 192
+  offset: 27, 30
+  index: -1
+effects/shanyan/yanwu_00007
+  rotate: true
+  xy: 754, 623
+  size: 292, 119
+  orig: 360, 192
+  offset: 27, 30
+  index: -1
+effects/shixiang/DG_1_01
+  rotate: true
+  xy: 439, 116
+  size: 472, 518
+  orig: 813, 692
+  offset: 222, 83
+  index: -1
+effects/shixiang/baodian/shouji_baodian_00005
+  rotate: true
+  xy: 2, 26
+  size: 562, 435
+  orig: 852, 852
+  offset: 119, 238
+  index: -1
+effects/shixiang/baodian1/baodian_00159
+  rotate: false
+  xy: 2, 590
+  size: 750, 431
+  orig: 750, 600
+  offset: 0, 96
+  index: -1
+effects/shixiang/baodian1/shouji_00012
+  rotate: true
+  xy: 875, 733
+  size: 182, 139
+  orig: 345, 332
+  offset: 69, 97
+  index: -1
+effects/shixiang/guang_00006
+  rotate: false
+  xy: 754, 917
+  size: 207, 104
+  orig: 225, 150
+  offset: 9, 23
+  index: -1
+
+story_battle2_texiao5.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/shanyan/yanwu_00001
+  rotate: false
+  xy: 436, 40
+  size: 282, 119
+  orig: 360, 192
+  offset: 37, 31
+  index: -1
+effects/shanyan/yanwu_00006
+  rotate: false
+  xy: 720, 43
+  size: 292, 116
+  orig: 360, 192
+  offset: 27, 30
+  index: -1
+effects/shixiang/baodian1/baodian_00158
+  rotate: false
+  xy: 2, 585
+  size: 750, 427
+  orig: 750, 600
+  offset: 0, 106
+  index: -1
+effects/shixiang/baodian1/baodian_00160
+  rotate: true
+  xy: 2, 101
+  size: 482, 432
+  orig: 750, 600
+  offset: 121, 95
+  index: -1
+effects/shixiang/baodian1/baodian_00161
+  rotate: false
+  xy: 436, 161
+  size: 482, 422
+  orig: 750, 600
+  offset: 120, 96
+  index: -1
+effects/shixiang/baodian1/shouji_00001
+  rotate: false
+  xy: 754, 699
+  size: 173, 173
+  orig: 345, 332
+  offset: 86, 73
+  index: -1
+effects/shixiang/baodian1/shouji_00003
+  rotate: false
+  xy: 754, 874
+  size: 199, 138
+  orig: 345, 332
+  offset: 85, 88
+  index: -1
+effects/shixiang/baodian1/shouji_00014
+  rotate: false
+  xy: 754, 585
+  size: 170, 112
+  orig: 345, 332
+  offset: 67, 126
+  index: -1
+
+story_battle2_texiao6.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/shanyan/yanwu_00003
+  rotate: false
+  xy: 2, 3
+  size: 288, 108
+  orig: 360, 192
+  offset: 29, 30
+  index: -1
+effects/shixiang/baodian/shouji_baodian_00006
+  rotate: false
+  xy: 411, 170
+  size: 610, 425
+  orig: 852, 852
+  offset: 85, 241
+  index: -1
+effects/shixiang/baodian1/baodian_00157
+  rotate: false
+  xy: 2, 597
+  size: 750, 424
+  orig: 750, 600
+  offset: 0, 95
+  index: -1
+effects/shixiang/baodian1/baodian_00162
+  rotate: true
+  xy: 2, 113
+  size: 482, 407
+  orig: 750, 600
+  offset: 120, 97
+  index: -1
+
+story_battle2_texiao7.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/shixiang/baodian/shouji_baodian_00007
+  rotate: false
+  xy: 2, 2
+  size: 659, 420
+  orig: 852, 852
+  offset: 52, 224
+  index: -1
+effects/shixiang/baodian/shouji_baodian_00008
+  rotate: false
+  xy: 2, 424
+  size: 699, 433
+  orig: 852, 852
+  offset: 30, 210
+  index: -1

@@ -1,0 +1,106 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "bust_10507_new.moc3",
+		"Textures": [
+			"bust_10507_new.1024/texture_00.png",
+			"bust_10507_new.1024/texture_01.png",
+			"bust_10507_new.1024/texture_02.png",
+			"bust_10507_new.1024/texture_03.png"
+		],
+		"Physics": "bust_10507_new.physics3.json",
+		"Motions": {
+			"Id_favor1_1": [
+				{
+					"File": "motions/id_favor1_1.motion3.json",
+					"Sound": "modle/bust/sounds/KOTORI_06_a.mp3",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_favor1_2": [
+				{
+					"File": "motions/id_favor1_2.motion3.json",
+					"Sound": "modle/bust/sounds/KOTORI_03_a.mp3",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_favor1_3": [
+				{
+					"File": "motions/id_favor1_3.motion3.json",
+					"Sound": "modle/bust/sounds/KOTORI_01_A_a.mp3",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_favor2_1": [
+				{
+					"File": "motions/id_favor2_1.motion3.json",
+					"Sound": "modle/bust/sounds/KOTORI_88_a.mp3",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_favor3_1": [
+				{
+					"File": "motions/id_favor3_1.motion3.json",
+					"Sound": "modle/bust/sounds/KOTORI_16_a.mp3",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_favor4_1": [
+				{
+					"File": "motions/id_favor4_1.motion3.json",
+					"Sound": "modle/bust/sounds/KOTORI_11_a.mp3",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_favor5_1": [
+				{
+					"File": "motions/id_favor5_1.motion3.json",
+					"Sound": "modle/bust/sounds/KOTORI_12_a.mp3",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0
+				}
+			],
+			"Idle": [
+				{
+					"File": "motions/id_favor.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"PARAM_MOUTH_OPEN_Y"
+			]
+		}
+	],
+	"HitAreas": [
+		{
+			"Id": "HitArea",
+			"Name": "head"
+		},
+		{
+			"Id": "HitArea2",
+			"Name": "body"
+		},
+		{
+			"Id": "HitArea3",
+			"Name": "tui"
+		}
+	]
+}

@@ -1,0 +1,432 @@
+
+angel_1102101.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ZT1
+  rotate: false
+  xy: 2, 378
+  size: 216, 644
+  orig: 219, 648
+  offset: 2, 3
+  index: -1
+ZT2
+  rotate: false
+  xy: 220, 538
+  size: 289, 484
+  orig: 292, 488
+  offset: 1, 3
+  index: -1
+ZT3
+  rotate: false
+  xy: 2, 32
+  size: 175, 344
+  orig: 178, 347
+  offset: 2, 1
+  index: -1
+dian/dian1_1
+  rotate: true
+  xy: 959, 491
+  size: 55, 36
+  orig: 155, 333
+  offset: 49, 142
+  index: -1
+dian/dian1_4
+  rotate: false
+  xy: 541, 55
+  size: 139, 316
+  orig: 155, 333
+  offset: 13, 1
+  index: -1
+dian/dian1_5
+  rotate: true
+  xy: 511, 577
+  size: 151, 331
+  orig: 155, 333
+  offset: 0, 2
+  index: -1
+dian/dian1_6
+  rotate: false
+  xy: 248, 20
+  size: 66, 45
+  orig: 155, 333
+  offset: 0, 287
+  index: -1
+dian/dian2_2
+  rotate: false
+  xy: 930, 250
+  size: 92, 121
+  orig: 140, 356
+  offset: 27, 116
+  index: -1
+dian/dian2_5
+  rotate: false
+  xy: 682, 27
+  size: 133, 344
+  orig: 140, 356
+  offset: 7, 1
+  index: -1
+dian/dian2_6
+  rotate: false
+  xy: 817, 19
+  size: 111, 352
+  orig: 140, 356
+  offset: 26, 1
+  index: -1
+dian/dian2_7
+  rotate: false
+  xy: 926, 721
+  size: 94, 301
+  orig: 140, 356
+  offset: 27, 55
+  index: -1
+dian/dian3_1
+  rotate: false
+  xy: 959, 447
+  size: 33, 42
+  orig: 209, 294
+  offset: 67, 105
+  index: -1
+dian/dian3_4
+  rotate: true
+  xy: 220, 360
+  size: 176, 289
+  orig: 209, 294
+  offset: 0, 1
+  index: -1
+dian/dian3_5
+  rotate: false
+  xy: 511, 730
+  size: 207, 292
+  orig: 209, 294
+  offset: 1, 1
+  index: -1
+dian/dian3_6
+  rotate: false
+  xy: 720, 730
+  size: 204, 292
+  orig: 209, 294
+  offset: 1, 1
+  index: -1
+dian/dian3_7
+  rotate: true
+  xy: 511, 373
+  size: 202, 291
+  orig: 209, 294
+  offset: 3, 1
+  index: -1
+dian/dian4_3
+  rotate: false
+  xy: 804, 373
+  size: 153, 202
+  orig: 185, 291
+  offset: 9, 55
+  index: -1
+dian/dian4_5
+  rotate: false
+  xy: 366, 68
+  size: 173, 290
+  orig: 185, 291
+  offset: 6, 0
+  index: -1
+dian/dian4_6
+  rotate: false
+  xy: 179, 67
+  size: 185, 291
+  orig: 185, 291
+  offset: 0, 0
+  index: -1
+dian/dian4_7
+  rotate: false
+  xy: 959, 406
+  size: 30, 39
+  orig: 185, 291
+  offset: 0, 72
+  index: -1
+dian/dian5_1
+  rotate: false
+  xy: 959, 548
+  size: 53, 58
+  orig: 116, 189
+  offset: 34, 60
+  index: -1
+dian/dian6_1
+  rotate: true
+  xy: 179, 29
+  size: 36, 67
+  orig: 119, 187
+  offset: 51, 64
+  index: -1
+dian/dian7_1
+  rotate: false
+  xy: 316, 3
+  size: 41, 62
+  orig: 73, 161
+  offset: 6, 37
+  index: -1
+dian/dian7_4
+  rotate: false
+  xy: 844, 583
+  size: 66, 145
+  orig: 73, 161
+  offset: 4, 8
+  index: -1
+dian/dian8_1
+  rotate: true
+  xy: 930, 2
+  size: 38, 72
+  orig: 68, 162
+  offset: 25, 39
+  index: -1
+dian/dian8_4
+  rotate: true
+  xy: 366, 2
+  size: 64, 152
+  orig: 68, 162
+  offset: 0, 8
+  index: -1
+fx_guang1
+  rotate: false
+  xy: 930, 42
+  size: 77, 206
+  orig: 77, 206
+  offset: 0, 0
+  index: -1
+ggg
+  rotate: false
+  xy: 912, 608
+  size: 110, 111
+  orig: 130, 130
+  offset: 9, 10
+  index: -1
+ggg3
+  rotate: false
+  xy: 959, 374
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+
+angel_11021012.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ZT4
+  rotate: false
+  xy: 2, 495
+  size: 93, 279
+  orig: 95, 282
+  offset: 1, 2
+  index: -1
+dian/dian1_2
+  rotate: true
+  xy: 2, 11
+  size: 104, 140
+  orig: 155, 333
+  offset: 12, 63
+  index: -1
+dian/dian1_3
+  rotate: true
+  xy: 419, 924
+  size: 97, 228
+  orig: 155, 333
+  offset: 21, 1
+  index: -1
+dian/dian2_1
+  rotate: true
+  xy: 97, 506
+  size: 85, 103
+  orig: 140, 356
+  offset: 38, 116
+  index: -1
+dian/dian2_3
+  rotate: true
+  xy: 840, 922
+  size: 99, 181
+  orig: 140, 356
+  offset: 15, 62
+  index: -1
+dian/dian2_4
+  rotate: false
+  xy: 303, 807
+  size: 114, 214
+  orig: 140, 356
+  offset: 0, 37
+  index: -1
+dian/dian3_2
+  rotate: false
+  xy: 908, 811
+  size: 106, 109
+  orig: 209, 294
+  offset: 46, 106
+  index: -1
+dian/dian3_3
+  rotate: false
+  xy: 178, 792
+  size: 123, 229
+  orig: 209, 294
+  offset: 15, 43
+  index: -1
+dian/dian4_1
+  rotate: false
+  xy: 210, 518
+  size: 105, 98
+  orig: 185, 291
+  offset: 37, 100
+  index: -1
+dian/dian4_2
+  rotate: true
+  xy: 387, 554
+  size: 102, 113
+  orig: 185, 291
+  offset: 39, 101
+  index: -1
+dian/dian4_4
+  rotate: false
+  xy: 2, 776
+  size: 174, 245
+  orig: 185, 291
+  offset: 6, 20
+  index: -1
+dian/dian5_2
+  rotate: false
+  xy: 263, 333
+  size: 73, 72
+  orig: 116, 189
+  offset: 18, 57
+  index: -1
+dian/dian5_3
+  rotate: false
+  xy: 609, 796
+  size: 71, 126
+  orig: 116, 189
+  offset: 20, 32
+  index: -1
+dian/dian5_4
+  rotate: false
+  xy: 210, 618
+  size: 105, 172
+  orig: 116, 189
+  offset: 11, 11
+  index: -1
+dian/dian5_5
+  rotate: true
+  xy: 419, 806
+  size: 116, 188
+  orig: 116, 189
+  offset: 0, 0
+  index: -1
+dian/dian5_6
+  rotate: true
+  xy: 649, 926
+  size: 95, 189
+  orig: 116, 189
+  offset: 0, 0
+  index: -1
+dian/dian6_2
+  rotate: false
+  xy: 502, 557
+  size: 79, 99
+  orig: 119, 187
+  offset: 17, 42
+  index: -1
+dian/dian6_3
+  rotate: false
+  xy: 317, 661
+  size: 90, 144
+  orig: 119, 187
+  offset: 18, 8
+  index: -1
+dian/dian6_4
+  rotate: false
+  xy: 97, 593
+  size: 111, 181
+  orig: 119, 187
+  offset: 2, 0
+  index: -1
+dian/dian6_5
+  rotate: false
+  xy: 2, 306
+  size: 119, 187
+  orig: 119, 187
+  offset: 0, 0
+  index: -1
+dian/dian6_6
+  rotate: false
+  xy: 2, 117
+  size: 118, 187
+  orig: 119, 187
+  offset: 0, 0
+  index: -1
+dian/dian7_2
+  rotate: false
+  xy: 397, 476
+  size: 65, 76
+  orig: 73, 161
+  offset: 5, 37
+  index: -1
+dian/dian7_3
+  rotate: false
+  xy: 317, 547
+  size: 68, 112
+  orig: 73, 161
+  offset: 4, 22
+  index: -1
+dian/dian7_5
+  rotate: true
+  xy: 409, 731
+  size: 73, 159
+  orig: 73, 161
+  offset: 0, 2
+  index: -1
+dian/dian7_6
+  rotate: true
+  xy: 409, 658
+  size: 71, 161
+  orig: 73, 161
+  offset: 0, 0
+  index: -1
+dian/dian8_2
+  rotate: false
+  xy: 330, 453
+  size: 65, 92
+  orig: 68, 162
+  offset: 0, 32
+  index: -1
+dian/dian8_3
+  rotate: false
+  xy: 263, 407
+  size: 65, 109
+  orig: 68, 162
+  offset: 0, 28
+  index: -1
+dian/dian8_5
+  rotate: false
+  xy: 193, 344
+  size: 68, 160
+  orig: 68, 162
+  offset: 0, 0
+  index: -1
+dian/dian8_6
+  rotate: false
+  xy: 123, 342
+  size: 68, 162
+  orig: 68, 162
+  offset: 0, 0
+  index: -1
+ggg1
+  rotate: false
+  xy: 682, 813
+  size: 111, 111
+  orig: 115, 115
+  offset: 2, 2
+  index: -1
+ggg2
+  rotate: false
+  xy: 795, 809
+  size: 111, 111
+  orig: 111, 111
+  offset: 0, 0
+  index: -1

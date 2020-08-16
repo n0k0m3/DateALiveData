@@ -1,0 +1,334 @@
+
+paintshow_12301_1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bqun
+  rotate: false
+  xy: 2, 607
+  size: 615, 415
+  orig: 615, 415
+  offset: 0, 0
+  index: -1
+fa1
+  rotate: false
+  xy: 773, 6
+  size: 37, 95
+  orig: 37, 95
+  offset: 0, 0
+  index: -1
+fa12
+  rotate: false
+  xy: 619, 303
+  size: 204, 307
+  orig: 204, 307
+  offset: 0, 0
+  index: -1
+fa13
+  rotate: true
+  xy: 2, 9
+  size: 193, 328
+  orig: 193, 328
+  offset: 0, 0
+  index: -1
+fa15
+  rotate: true
+  xy: 344, 102
+  size: 199, 325
+  orig: 199, 325
+  offset: 0, 0
+  index: -1
+fa3
+  rotate: false
+  xy: 556, 516
+  size: 53, 89
+  orig: 53, 89
+  offset: 0, 0
+  index: -1
+fa4
+  rotate: true
+  xy: 482, 318
+  size: 28, 94
+  orig: 28, 94
+  offset: 0, 0
+  index: -1
+fa5
+  rotate: false
+  xy: 964, 649
+  size: 53, 165
+  orig: 53, 165
+  offset: 0, 0
+  index: -1
+fa7
+  rotate: true
+  xy: 543, 10
+  size: 36, 118
+  orig: 36, 118
+  offset: 0, 0
+  index: -1
+fa8
+  rotate: false
+  xy: 964, 816
+  size: 54, 145
+  orig: 54, 145
+  offset: 0, 0
+  index: -1
+fa9
+  rotate: true
+  xy: 466, 48
+  size: 52, 192
+  orig: 52, 192
+  offset: 0, 0
+  index: -1
+fadai
+  rotate: false
+  xy: 964, 963
+  size: 56, 59
+  orig: 56, 59
+  offset: 0, 0
+  index: -1
+lqun1
+  rotate: false
+  xy: 482, 348
+  size: 123, 123
+  orig: 123, 123
+  offset: 0, 0
+  index: -1
+lqun2
+  rotate: false
+  xy: 825, 6
+  size: 175, 381
+  orig: 175, 381
+  offset: 0, 0
+  index: -1
+lshou
+  rotate: true
+  xy: 773, 226
+  size: 75, 47
+  orig: 75, 47
+  offset: 0, 0
+  index: -1
+lshoubi1
+  rotate: true
+  xy: 144, 313
+  size: 107, 119
+  orig: 107, 119
+  offset: 0, 0
+  index: -1
+lshoubi2
+  rotate: false
+  xy: 773, 103
+  size: 45, 121
+  orig: 45, 121
+  offset: 0, 0
+  index: -1
+ltui1
+  rotate: false
+  xy: 671, 7
+  size: 100, 294
+  orig: 100, 294
+  offset: 0, 0
+  index: -1
+ltui2
+  rotate: true
+  xy: 332, 16
+  size: 84, 132
+  orig: 84, 132
+  offset: 0, 0
+  index: -1
+ltui3
+  rotate: true
+  xy: 2, 204
+  size: 97, 340
+  orig: 97, 340
+  offset: 0, 0
+  index: -1
+meimao1
+  rotate: true
+  xy: 1002, 291
+  size: 39, 7
+  orig: 39, 7
+  offset: 0, 0
+  index: -1
+meimao2
+  rotate: true
+  xy: 1002, 360
+  size: 27, 20
+  orig: 27, 20
+  offset: 0, 0
+  index: -1
+rpiao1
+  rotate: false
+  xy: 292, 309
+  size: 188, 162
+  orig: 188, 162
+  offset: 0, 0
+  index: -1
+rqun1
+  rotate: true
+  xy: 619, 612
+  size: 410, 343
+  orig: 410, 343
+  offset: 0, 0
+  index: -1
+rshoubi1
+  rotate: true
+  xy: 2, 305
+  size: 115, 140
+  orig: 115, 140
+  offset: 0, 0
+  index: -1
+rtui1
+  rotate: true
+  xy: 292, 473
+  size: 132, 262
+  orig: 132, 262
+  offset: 0, 0
+  index: -1
+rtui2
+  rotate: true
+  xy: 825, 389
+  size: 221, 196
+  orig: 221, 196
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: true
+  xy: 2, 422
+  size: 183, 288
+  orig: 183, 288
+  offset: 0, 0
+  index: -1
+xianglian1
+  rotate: true
+  xy: 1002, 332
+  size: 26, 20
+  orig: 26, 20
+  offset: 0, 0
+  index: -1
+xianglian2
+  rotate: true
+  xy: 964, 619
+  size: 28, 29
+  orig: 28, 29
+  offset: 0, 0
+  index: -1
+xianglian3
+  rotate: true
+  xy: 995, 617
+  size: 30, 26
+  orig: 30, 26
+  offset: 0, 0
+  index: -1
+yan
+  rotate: false
+  xy: 466, 7
+  size: 75, 39
+  orig: 75, 39
+  offset: 0, 0
+  index: -1
+
+paintshow_12301_12.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fa10
+  rotate: false
+  xy: 2, 684
+  size: 171, 332
+  orig: 171, 332
+  offset: 0, 0
+  index: -1
+fa11
+  rotate: false
+  xy: 475, 939
+  size: 155, 77
+  orig: 155, 77
+  offset: 0, 0
+  index: -1
+fa14
+  rotate: false
+  xy: 2, 254
+  size: 138, 190
+  orig: 138, 190
+  offset: 0, 0
+  index: -1
+fa16
+  rotate: false
+  xy: 354, 816
+  size: 119, 200
+  orig: 119, 200
+  offset: 0, 0
+  index: -1
+fa2
+  rotate: true
+  xy: 740, 953
+  size: 63, 112
+  orig: 63, 112
+  offset: 0, 0
+  index: -1
+fa6
+  rotate: true
+  xy: 175, 735
+  size: 67, 175
+  orig: 67, 175
+  offset: 0, 0
+  index: -1
+lpiao1
+  rotate: true
+  xy: 626, 858
+  size: 78, 88
+  orig: 78, 88
+  offset: 0, 0
+  index: -1
+lpiao2
+  rotate: false
+  xy: 854, 940
+  size: 89, 76
+  orig: 89, 76
+  offset: 0, 0
+  index: -1
+rqun2
+  rotate: false
+  xy: 175, 804
+  size: 177, 212
+  orig: 177, 212
+  offset: 0, 0
+  index: -1
+rqun3
+  rotate: false
+  xy: 2, 446
+  size: 155, 236
+  orig: 155, 236
+  offset: 0, 0
+  index: -1
+rshou
+  rotate: false
+  xy: 632, 938
+  size: 106, 78
+  orig: 106, 78
+  offset: 0, 0
+  index: -1
+rshoubi2
+  rotate: false
+  xy: 2, 2
+  size: 80, 118
+  orig: 80, 118
+  offset: 0, 0
+  index: -1
+rtui3
+  rotate: true
+  xy: 475, 858
+  size: 79, 149
+  orig: 79, 149
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 2, 122
+  size: 104, 130
+  orig: 104, 130
+  offset: 0, 0
+  index: -1

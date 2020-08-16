@@ -1,0 +1,153 @@
+
+angel_1113011.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+X
+  rotate: false
+  xy: 2, 698
+  size: 243, 254
+  orig: 243, 254
+  offset: 0, 0
+  index: -1
+chibang1
+  rotate: false
+  xy: 247, 662
+  size: 148, 85
+  orig: 148, 85
+  offset: 0, 0
+  index: -1
+chibang2
+  rotate: false
+  xy: 703, 829
+  size: 99, 123
+  orig: 99, 123
+  offset: 0, 0
+  index: -1
+dian
+  rotate: false
+  xy: 2, 20
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1
+gan
+  rotate: false
+  xy: 247, 749
+  size: 279, 203
+  orig: 279, 203
+  offset: 0, 0
+  index: -1
+guang
+  rotate: false
+  xy: 205, 681
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+guang1
+  rotate: false
+  xy: 397, 658
+  size: 105, 89
+  orig: 150, 150
+  offset: 21, 34
+  index: -1
+hengtiao
+  rotate: false
+  xy: 2, 954
+  size: 784, 37
+  orig: 784, 37
+  offset: 0, 0
+  index: -1
+hengtiao2
+  rotate: false
+  xy: 719, 663
+  size: 46, 8
+  orig: 46, 8
+  offset: 0, 0
+  index: -1
+lianyyy
+  rotate: true
+  xy: 149, 85
+  size: 80, 60
+  orig: 81, 60
+  offset: 1, 0
+  index: -1
+lianzi
+  rotate: false
+  xy: 719, 673
+  size: 79, 63
+  orig: 80, 64
+  offset: 1, 0
+  index: -1
+mao1
+  rotate: false
+  xy: 2, 2
+  size: 63, 16
+  orig: 63, 16
+  offset: 0, 0
+  index: -1
+mao2
+  rotate: false
+  xy: 528, 737
+  size: 176, 68
+  orig: 176, 68
+  offset: 0, 0
+  index: -1
+mao3
+  rotate: false
+  xy: 504, 665
+  size: 115, 70
+  orig: 115, 71
+  offset: 0, 0
+  index: -1
+mao4
+  rotate: false
+  xy: 528, 807
+  size: 173, 145
+  orig: 173, 145
+  offset: 0, 0
+  index: -1
+mao5
+  rotate: true
+  xy: 2, 414
+  size: 282, 201
+  orig: 282, 206
+  offset: 0, 5
+  index: -1
+mao6
+  rotate: false
+  xy: 706, 738
+  size: 101, 89
+  orig: 101, 89
+  offset: 0, 0
+  index: -1
+mao7
+  rotate: false
+  xy: 149, 22
+  size: 61, 61
+  orig: 61, 61
+  offset: 0, 0
+  index: -1
+shan
+  rotate: true
+  xy: 2, 167
+  size: 245, 192
+  orig: 245, 192
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 621, 657
+  size: 96, 78
+  orig: 97, 79
+  offset: 1, 1
+  index: -1
+xx
+  rotate: false
+  xy: 804, 930
+  size: 55, 61
+  orig: 63, 69
+  offset: 4, 4
+  index: -1

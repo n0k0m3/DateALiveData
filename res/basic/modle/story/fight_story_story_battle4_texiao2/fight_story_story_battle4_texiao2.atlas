@@ -1,0 +1,778 @@
+
+fight_story_story_battle4_texiao2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+PNG/texiao/shixiang/baodian/shouji_baodian_00001
+  rotate: false
+  xy: 2, 272
+  size: 750, 750
+  orig: 750, 750
+  offset: 0, 0
+  index: -1
+PNG/texiao/shixiang/daoguangdi/daoguangdi_00013
+  rotate: false
+  xy: 470, 74
+  size: 547, 196
+  orig: 660, 528
+  offset: 5, 115
+  index: -1
+PNG/texiao/shixiang/shandian4/shandian4_00121
+  rotate: false
+  xy: 470, 2
+  size: 94, 70
+  orig: 100, 83
+  offset: 1, 13
+  index: -1
+PNG/texiao/shixiang/shitou2/shitou_00012
+  rotate: true
+  xy: 757, 5
+  size: 67, 96
+  orig: 264, 264
+  offset: 155, 42
+  index: -1
+PNG/texiao/shixiang/shitouxiu/shitou_00144
+  rotate: false
+  xy: 754, 283
+  size: 240, 338
+  orig: 330, 422
+  offset: 49, 20
+  index: -1
+PNG/texiao/shixiang/shitouxiu/shitou_00148
+  rotate: true
+  xy: 2, 9
+  size: 261, 360
+  orig: 330, 422
+  offset: 24, 20
+  index: -1
+PNG/texiao/shixiang/yanwu01/yanwu_00002
+  rotate: false
+  xy: 754, 720
+  size: 253, 98
+  orig: 317, 169
+  offset: 28, 28
+  index: -1
+PNG/texiao/yanwu2/yanwu_00002
+  rotate: false
+  xy: 754, 720
+  size: 253, 98
+  orig: 317, 169
+  offset: 28, 28
+  index: -1
+PNG/texiao/shixiang/yanwu01/yanwu_00003
+  rotate: false
+  xy: 754, 623
+  size: 253, 95
+  orig: 317, 169
+  offset: 26, 27
+  index: -1
+PNG/texiao/shixiang/yanwu01/yanwu_00004
+  rotate: false
+  xy: 754, 820
+  size: 254, 98
+  orig: 317, 169
+  offset: 24, 27
+  index: -1
+PNG/texiao/shixiang/yanwu01/yanwu_00006
+  rotate: false
+  xy: 754, 920
+  size: 257, 102
+  orig: 317, 169
+  offset: 24, 27
+  index: -1
+PNG/texiao/yanwu2/yanwu_00006
+  rotate: false
+  xy: 754, 920
+  size: 257, 102
+  orig: 317, 169
+  offset: 24, 27
+  index: -1
+PNG/texiao/shixiang/yanwu01/yanwu_00007
+  rotate: true
+  xy: 364, 13
+  size: 257, 104
+  orig: 317, 169
+  offset: 24, 27
+  index: -1
+PNG/texiao/yanwu2/yanwu_00007
+  rotate: true
+  xy: 364, 13
+  size: 257, 104
+  orig: 317, 169
+  offset: 24, 27
+  index: -1
+PNG/texiao/shixiang/yanwu1/yanwu_00136_00136
+  rotate: true
+  xy: 636, 5
+  size: 67, 119
+  orig: 198, 198
+  offset: 61, 38
+  index: -1
+PNG/texiao/shixiang/yanwu3/yanwu_00204
+  rotate: false
+  xy: 855, 2
+  size: 159, 33
+  orig: 198, 99
+  offset: 0, 33
+  index: -1
+PNG/texiao/shixiang/yanwu3/yanwu_00206
+  rotate: false
+  xy: 855, 37
+  size: 161, 35
+  orig: 198, 99
+  offset: 0, 33
+  index: -1
+PNG/texiao/xiaoguai/xuli/xuli_00009
+  rotate: false
+  xy: 566, 3
+  size: 68, 69
+  orig: 198, 198
+  offset: 62, 66
+  index: -1
+PNG/texiao/yanwu1/yanwu_00213
+  rotate: false
+  xy: 364, 3
+  size: 21, 8
+  orig: 198, 99
+  offset: 74, 33
+  index: -1
+
+fight_story_story_battle4_texiao22.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+PNG/texiao/shixiang/baodian/shouji_baodian_00002
+  rotate: false
+  xy: 2, 565
+  size: 653, 457
+  orig: 750, 750
+  offset: 48, 146
+  index: -1
+PNG/texiao/shixiang/baodian1/shouji_00004
+  rotate: true
+  xy: 701, 110
+  size: 188, 126
+  orig: 304, 292
+  offset: 72, 72
+  index: -1
+PNG/texiao/shixiang/baodian1/shouji_00014
+  rotate: true
+  xy: 922, 149
+  size: 149, 98
+  orig: 304, 292
+  offset: 59, 111
+  index: -1
+PNG/texiao/shixiang/daoguang/DG_1_01
+  rotate: false
+  xy: 239, 107
+  size: 415, 456
+  orig: 715, 609
+  offset: 195, 73
+  index: -1
+PNG/texiao/shixiang/daoguangdi/daoguang_00013
+  rotate: true
+  xy: 2, 7
+  size: 556, 235
+  orig: 660, 528
+  offset: 0, 110
+  index: -1
+PNG/texiao/shixiang/daoguangdi/daoguang_00014
+  rotate: false
+  xy: 239, 3
+  size: 147, 102
+  orig: 660, 528
+  offset: 32, 219
+  index: -1
+PNG/texiao/shixiang/daoguangdi/daoguangdi_00010
+  rotate: true
+  xy: 657, 529
+  size: 493, 364
+  orig: 660, 528
+  offset: 77, 102
+  index: -1
+PNG/texiao/shixiang/daoguangdi/daoguangdi_00014
+  rotate: true
+  xy: 922, 3
+  size: 144, 93
+  orig: 660, 528
+  offset: 36, 223
+  index: -1
+PNG/texiao/shixiang/shandian4/shandian4_00125
+  rotate: true
+  xy: 656, 296
+  size: 77, 43
+  orig: 100, 83
+  offset: 18, 0
+  index: -1
+PNG/texiao/shixiang/shandian4/shandian4_00127
+  rotate: true
+  xy: 656, 137
+  size: 78, 40
+  orig: 100, 83
+  offset: 19, 0
+  index: -1
+PNG/texiao/shixiang/shitou1/shitou_00188
+  rotate: false
+  xy: 702, 2
+  size: 117, 106
+  orig: 198, 198
+  offset: 46, 49
+  index: -1
+PNG/texiao/shixiang/shitou1/shitou_00192
+  rotate: false
+  xy: 388, 3
+  size: 127, 102
+  orig: 198, 198
+  offset: 53, 58
+  index: -1
+PNG/texiao/shixiang/shitou2/shitou_00009
+  rotate: true
+  xy: 517, 5
+  size: 100, 183
+  orig: 264, 264
+  offset: 132, 19
+  index: -1
+PNG/texiao/shixiang/shitouxiu/shitou_00142
+  rotate: true
+  xy: 702, 300
+  size: 227, 318
+  orig: 330, 422
+  offset: 62, 19
+  index: -1
+PNG/texiao/xiaoguai/daoguang1/daoguang1_00011
+  rotate: false
+  xy: 829, 214
+  size: 90, 84
+  orig: 90, 88
+  offset: 0, 0
+  index: -1
+PNG/texiao/xiaoguai/daoguang1/daoguang1_00012
+  rotate: false
+  xy: 829, 138
+  size: 87, 74
+  orig: 90, 88
+  offset: 0, 0
+  index: -1
+PNG/texiao/xiaoguai/shandian/shandian_00010
+  rotate: false
+  xy: 656, 217
+  size: 41, 77
+  orig: 132, 132
+  offset: 45, 26
+  index: -1
+PNG/texiao/xiaoguai/xuli/xuli_00010
+  rotate: true
+  xy: 821, 8
+  size: 100, 99
+  orig: 198, 198
+  offset: 46, 51
+  index: -1
+PNG/texiao/yanwu1/yanwu_00208
+  rotate: true
+  xy: 656, 375
+  size: 152, 43
+  orig: 198, 99
+  offset: 0, 31
+  index: -1
+
+fight_story_story_battle4_texiao23.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+PNG/texiao/shixiang/baodian/shouji_baodian_00004
+  rotate: true
+  xy: 226, 90
+  size: 439, 379
+  orig: 750, 750
+  offset: 137, 218
+  index: -1
+PNG/texiao/shixiang/baodian/shouji_baodian_00005
+  rotate: true
+  xy: 620, 528
+  size: 494, 382
+  orig: 750, 750
+  offset: 105, 210
+  index: -1
+PNG/texiao/shixiang/baodian/shouji_baodian_00008
+  rotate: false
+  xy: 2, 641
+  size: 616, 381
+  orig: 750, 750
+  offset: 26, 185
+  index: -1
+PNG/texiao/shixiang/daoguang/DG_1_03
+  rotate: false
+  xy: 808, 59
+  size: 213, 137
+  orig: 715, 609
+  offset: 351, 356
+  index: -1
+PNG/texiao/shixiang/daoguangdi/daoguangdi_00011
+  rotate: false
+  xy: 607, 198
+  size: 414, 328
+  orig: 660, 528
+  offset: 156, 100
+  index: -1
+PNG/texiao/shixiang/flare_00066
+  rotate: true
+  xy: 2, 7
+  size: 519, 222
+  orig: 519, 222
+  offset: 0, 0
+  index: -1
+PNG/texiao/shixiang/ren_quan2/flare_00066
+  rotate: true
+  xy: 2, 7
+  size: 519, 222
+  orig: 519, 222
+  offset: 0, 0
+  index: -1
+PNG/texiao/shixiang/ren_quan2/ren_quan2_01
+  rotate: false
+  xy: 607, 2
+  size: 199, 194
+  orig: 347, 325
+  offset: 78, 72
+  index: -1
+PNG/texiao/shixiang/shandian4/shandian4_00123
+  rotate: false
+  xy: 383, 5
+  size: 79, 83
+  orig: 100, 83
+  offset: 16, 0
+  index: -1
+PNG/texiao/shixiang/shitou1/shitou_00189
+  rotate: false
+  xy: 2, 529
+  size: 121, 110
+  orig: 198, 198
+  offset: 48, 49
+  index: -1
+PNG/texiao/shixiang/shitouxiu/shitou_00136
+  rotate: false
+  xy: 808, 4
+  size: 31, 53
+  orig: 330, 422
+  offset: 250, 171
+  index: -1
+PNG/texiao/shixiang/yanwu01/yanwu_00001
+  rotate: false
+  xy: 272, 534
+  size: 248, 105
+  orig: 317, 169
+  offset: 33, 27
+  index: -1
+PNG/texiao/yanwu2/yanwu_00001
+  rotate: false
+  xy: 272, 534
+  size: 248, 105
+  orig: 317, 169
+  offset: 33, 27
+  index: -1
+PNG/texiao/shixiang/yanwu1/yanwu_00136_00137
+  rotate: true
+  xy: 226, 4
+  size: 84, 155
+  orig: 198, 198
+  offset: 58, 21
+  index: -1
+PNG/texiao/shixiang/yanwu3/yanwu_00208
+  rotate: false
+  xy: 464, 49
+  size: 141, 39
+  orig: 198, 99
+  offset: 0, 33
+  index: -1
+PNG/texiao/shixiang/yanwu3/yanwu_00212
+  rotate: true
+  xy: 125, 530
+  size: 109, 35
+  orig: 198, 99
+  offset: 30, 33
+  index: -1
+PNG/texiao/xiaoguai/shandian/shandian_00008
+  rotate: true
+  xy: 522, 599
+  size: 40, 64
+  orig: 132, 132
+  offset: 47, 25
+  index: -1
+PNG/texiao/xiaoguai/xuli/xuli_00011
+  rotate: false
+  xy: 162, 531
+  size: 108, 108
+  orig: 198, 198
+  offset: 42, 46
+  index: -1
+PNG/texiao/yanwu1/yanwu_00202
+  rotate: false
+  xy: 464, 13
+  size: 137, 34
+  orig: 198, 99
+  offset: 19, 31
+  index: -1
+PNG/texiao/yanwu1/yanwu_00206
+  rotate: false
+  xy: 841, 18
+  size: 174, 39
+  orig: 198, 99
+  offset: 0, 31
+  index: -1
+
+fight_story_story_battle4_texiao24.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+PNG/texiao/shixiang/baodian/shouji_baodian_00000
+  rotate: true
+  xy: 2, 77
+  size: 574, 575
+  orig: 750, 750
+  offset: 88, 88
+  index: -1
+PNG/texiao/shixiang/baodian/shouji_baodian_00003
+  rotate: false
+  xy: 579, 111
+  size: 439, 487
+  orig: 750, 750
+  offset: 155, 131
+  index: -1
+PNG/texiao/shixiang/baodian/shouji_baodian_00007
+  rotate: false
+  xy: 2, 653
+  size: 580, 369
+  orig: 750, 750
+  offset: 46, 197
+  index: -1
+PNG/texiao/shixiang/final_00047
+  rotate: false
+  xy: 584, 600
+  size: 438, 422
+  orig: 438, 422
+  offset: 0, 0
+  index: -1
+PNG/texiao/shixiang/shitou2/shitou_00010
+  rotate: true
+  xy: 579, 13
+  size: 96, 184
+  orig: 264, 264
+  offset: 145, 4
+  index: -1
+PNG/texiao/shixiang/shitou2/shitou_00011
+  rotate: true
+  xy: 579, 13
+  size: 96, 184
+  orig: 264, 264
+  offset: 145, 4
+  index: -1
+PNG/texiao/shixiang/weiyi_00161
+  rotate: false
+  xy: 765, 14
+  size: 175, 95
+  orig: 198, 99
+  offset: 16, 0
+  index: -1
+PNG/texiao/shixiang/yanwu3/yanwu_00202
+  rotate: false
+  xy: 2, 4
+  size: 124, 30
+  orig: 198, 99
+  offset: 21, 33
+  index: -1
+PNG/texiao/shixiang/yanwu3/yanwu_00210
+  rotate: false
+  xy: 269, 2
+  size: 130, 35
+  orig: 198, 99
+  offset: 12, 33
+  index: -1
+PNG/texiao/shixiang/yanwu3/yanwu_00211
+  rotate: false
+  xy: 401, 2
+  size: 115, 35
+  orig: 198, 99
+  offset: 24, 33
+  index: -1
+PNG/texiao/yanwu1/yanwu_00204
+  rotate: false
+  xy: 269, 39
+  size: 171, 36
+  orig: 198, 99
+  offset: 0, 31
+  index: -1
+PNG/texiao/yanwu1/yanwu_00210
+  rotate: false
+  xy: 2, 36
+  size: 143, 39
+  orig: 198, 99
+  offset: 9, 31
+  index: -1
+PNG/texiao/yanwu1/yanwu_00212
+  rotate: false
+  xy: 147, 36
+  size: 120, 39
+  orig: 198, 99
+  offset: 29, 31
+  index: -1
+
+fight_story_story_battle4_texiao25.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+PNG/texiao/shixiang/baodian/shouji_baodian_00006
+  rotate: true
+  xy: 2, 24
+  size: 536, 375
+  orig: 750, 750
+  offset: 75, 212
+  index: -1
+PNG/texiao/shixiang/baodian1/shouji_00003
+  rotate: true
+  xy: 828, 15
+  size: 175, 122
+  orig: 304, 292
+  offset: 75, 77
+  index: -1
+PNG/texiao/shixiang/daoguang/DG_1_02
+  rotate: true
+  xy: 579, 720
+  size: 299, 439
+  orig: 715, 609
+  offset: 326, 100
+  index: -1
+PNG/texiao/shixiang/daoguangdi/daoguang_00011
+  rotate: false
+  xy: 568, 351
+  size: 451, 367
+  orig: 660, 528
+  offset: 124, 64
+  index: -1
+PNG/texiao/shixiang/daoguangdi/daoguang_00012
+  rotate: false
+  xy: 2, 783
+  size: 575, 236
+  orig: 660, 528
+  offset: 0, 75
+  index: -1
+PNG/texiao/shixiang/daoguangdi/daoguangdi_00012
+  rotate: false
+  xy: 2, 562
+  size: 564, 219
+  orig: 660, 528
+  offset: 6, 100
+  index: -1
+PNG/texiao/shixiang/shitouxiu/shitou_00138
+  rotate: true
+  xy: 734, 192
+  size: 157, 237
+  orig: 330, 422
+  offset: 132, 34
+  index: -1
+PNG/texiao/shixiang/shitouxiu/shitou_00140
+  rotate: false
+  xy: 379, 280
+  size: 181, 280
+  orig: 330, 422
+  offset: 108, 29
+  index: -1
+PNG/texiao/shixiang/shitouxiu/shitou_00146
+  rotate: true
+  xy: 379, 30
+  size: 248, 353
+  orig: 330, 422
+  offset: 41, 18
+  index: -1
+PNG/texiao/shixiang/yanwu1/yanwu_00136_00141
+  rotate: false
+  xy: 734, 13
+  size: 92, 177
+  orig: 198, 198
+  offset: 56, 10
+  index: -1
+
+fight_story_story_battle4_texiao26.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+PNG/texiao/shixiang/baodian1/shouji_00000
+  rotate: false
+  xy: 2, 309
+  size: 304, 292
+  orig: 304, 292
+  offset: 0, 0
+  index: -1
+PNG/texiao/shixiang/baodian1/shouji_00001
+  rotate: false
+  xy: 527, 277
+  size: 152, 151
+  orig: 304, 292
+  offset: 76, 65
+  index: -1
+PNG/texiao/shixiang/baodian1/shouji_00002
+  rotate: false
+  xy: 833, 297
+  size: 150, 135
+  orig: 304, 292
+  offset: 77, 73
+  index: -1
+PNG/texiao/shixiang/baodian1/shouji_00005
+  rotate: true
+  xy: 351, 111
+  size: 197, 123
+  orig: 304, 292
+  offset: 67, 69
+  index: -1
+PNG/texiao/shixiang/baodian1/shouji_00006
+  rotate: true
+  xy: 217, 106
+  size: 201, 132
+  orig: 304, 292
+  offset: 66, 67
+  index: -1
+PNG/texiao/shixiang/baodian1/shouji_00007
+  rotate: false
+  xy: 758, 881
+  size: 202, 139
+  orig: 304, 292
+  offset: 65, 64
+  index: -1
+PNG/texiao/shixiang/baodian1/shouji_00008
+  rotate: false
+  xy: 736, 596
+  size: 200, 141
+  orig: 304, 292
+  offset: 66, 64
+  index: -1
+PNG/texiao/shixiang/baodian1/shouji_00009
+  rotate: false
+  xy: 758, 739
+  size: 201, 140
+  orig: 304, 292
+  offset: 65, 65
+  index: -1
+PNG/texiao/shixiang/baodian1/shouji_00010
+  rotate: true
+  xy: 630, 114
+  size: 161, 139
+  orig: 304, 292
+  offset: 63, 66
+  index: -1
+PNG/texiao/shixiang/baodian1/shouji_00011
+  rotate: false
+  xy: 735, 475
+  size: 162, 119
+  orig: 304, 292
+  offset: 62, 87
+  index: -1
+PNG/texiao/shixiang/baodian1/shouji_00012
+  rotate: true
+  xy: 899, 434
+  size: 160, 121
+  orig: 304, 292
+  offset: 61, 86
+  index: -1
+PNG/texiao/shixiang/baodian1/shouji_00013
+  rotate: false
+  xy: 771, 171
+  size: 148, 124
+  orig: 304, 292
+  offset: 60, 85
+  index: -1
+PNG/texiao/shixiang/daoguangdi/daoguang_00010
+  rotate: false
+  xy: 2, 603
+  size: 526, 417
+  orig: 660, 528
+  offset: 81, 65
+  index: -1
+PNG/texiao/shixiang/ren_quan2/ren_quan2_03
+  rotate: false
+  xy: 2, 97
+  size: 213, 210
+  orig: 347, 325
+  offset: 70, 64
+  index: -1
+PNG/texiao/shixiang/ren_quan2/ren_quan2_07
+  rotate: false
+  xy: 530, 813
+  size: 226, 207
+  orig: 347, 325
+  offset: 67, 78
+  index: -1
+PNG/texiao/shixiang/ren_quan2/ren_quan2_09
+  rotate: false
+  xy: 308, 400
+  size: 217, 201
+  orig: 347, 325
+  offset: 68, 76
+  index: -1
+PNG/texiao/shixiang/ren_quan2/ren_quan2_11
+  rotate: false
+  xy: 530, 604
+  size: 204, 207
+  orig: 347, 325
+  offset: 74, 72
+  index: -1
+PNG/texiao/shixiang/shitou1/shitou_00190
+  rotate: true
+  xy: 621, 478
+  size: 124, 112
+  orig: 198, 198
+  offset: 51, 48
+  index: -1
+PNG/texiao/shixiang/shitou1/shitou_00191
+  rotate: true
+  xy: 621, 478
+  size: 124, 112
+  orig: 198, 198
+  offset: 51, 48
+  index: -1
+PNG/texiao/shixiang/yanwu1/yanwu_00136_00138
+  rotate: true
+  xy: 308, 310
+  size: 88, 163
+  orig: 198, 198
+  offset: 57, 17
+  index: -1
+PNG/texiao/shixiang/yanwu1/yanwu_00136_00139
+  rotate: false
+  xy: 527, 430
+  size: 92, 171
+  orig: 198, 198
+  offset: 56, 13
+  index: -1
+PNG/texiao/shixiang/yanwu1/yanwu_00136_00140
+  rotate: true
+  xy: 2, 3
+  size: 92, 175
+  orig: 198, 198
+  offset: 56, 11
+  index: -1
+PNG/texiao/xiaoguai/xuli/xuli_00012
+  rotate: true
+  xy: 771, 37
+  size: 132, 133
+  orig: 198, 198
+  offset: 30, 33
+  index: -1
+PNG/texiao/xiaoguai/xuli/xuli_00013
+  rotate: false
+  xy: 681, 323
+  size: 150, 150
+  orig: 198, 198
+  offset: 21, 24
+  index: -1
+PNG/texiao/xiaoguai/xuli/xuli_00014
+  rotate: false
+  xy: 476, 122
+  size: 152, 153
+  orig: 198, 198
+  offset: 20, 23
+  index: -1

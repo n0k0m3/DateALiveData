@@ -1,0 +1,76 @@
+
+angel_1116011.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 2, 234
+  size: 285, 300
+  orig: 289, 304
+  offset: 2, 2
+  index: -1
+dian1
+  rotate: false
+  xy: 289, 380
+  size: 99, 154
+  orig: 103, 158
+  offset: 2, 2
+  index: -1
+dian2
+  rotate: true
+  xy: 289, 251
+  size: 127, 103
+  orig: 131, 107
+  offset: 2, 2
+  index: -1
+dian3
+  rotate: false
+  xy: 946, 925
+  size: 54, 81
+  orig: 58, 85
+  offset: 2, 2
+  index: -1
+dian4
+  rotate: false
+  xy: 256, 190
+  size: 30, 42
+  orig: 34, 46
+  offset: 2, 2
+  index: -1
+guang
+  rotate: false
+  xy: 2, 536
+  size: 463, 470
+  orig: 467, 474
+  offset: 2, 2
+  index: -1
+shandian/shandian_000
+  rotate: false
+  xy: 729, 790
+  size: 215, 216
+  orig: 260, 260
+  offset: 22, 27
+  index: -1
+shandian/shandian_001
+  rotate: false
+  xy: 467, 538
+  size: 238, 225
+  orig: 260, 260
+  offset: 9, 14
+  index: -1
+shandian/shandian_002
+  rotate: false
+  xy: 2, 2
+  size: 252, 230
+  orig: 260, 260
+  offset: 4, 8
+  index: -1
+shandian/shandian_003
+  rotate: false
+  xy: 467, 765
+  size: 260, 241
+  orig: 260, 260
+  offset: 0, 6
+  index: -1

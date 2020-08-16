@@ -1,0 +1,320 @@
+
+paintshow_10901.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bikou
+  rotate: false
+  xy: 296, 2
+  size: 30, 12
+  orig: 32, 14
+  offset: 1, 1
+  index: -1
+diyingying
+  rotate: false
+  xy: 837, 10
+  size: 162, 346
+  orig: 164, 348
+  offset: 1, 1
+  index: -1
+l_calf
+  rotate: true
+  xy: 2, 71
+  size: 276, 833
+  orig: 278, 835
+  offset: 1, 1
+  index: -1
+l_chsdfds
+  rotate: false
+  xy: 453, 357
+  size: 360, 665
+  orig: 362, 667
+  offset: 1, 1
+  index: -1
+l_foot
+  rotate: false
+  xy: 987, 532
+  size: 35, 117
+  orig: 37, 119
+  offset: 1, 1
+  index: -1
+l_hand
+  rotate: false
+  xy: 705, 17
+  size: 81, 52
+  orig: 83, 54
+  offset: 1, 1
+  index: -1
+l_tuichi2
+  rotate: false
+  xy: 651, 2
+  size: 52, 67
+  orig: 54, 69
+  offset: 1, 1
+  index: -1
+l_uparm
+  rotate: true
+  xy: 500, 19
+  size: 50, 149
+  orig: 52, 151
+  offset: 1, 1
+  index: -1
+meimao_R
+  rotate: false
+  xy: 296, 16
+  size: 69, 14
+  orig: 71, 16
+  offset: 1, 1
+  index: -1
+r_calf
+  rotate: true
+  xy: 2, 2
+  size: 67, 292
+  orig: 69, 294
+  offset: 1, 1
+  index: -1
+r_ch11
+  rotate: false
+  xy: 2, 349
+  size: 449, 673
+  orig: 451, 675
+  offset: 1, 1
+  index: -1
+r_foot
+  rotate: false
+  xy: 934, 483
+  size: 51, 166
+  orig: 53, 168
+  offset: 1, 1
+  index: -1
+r_jianjia1
+  rotate: true
+  xy: 934, 361
+  size: 120, 74
+  orig: 122, 76
+  offset: 1, 1
+  index: -1
+toufa1
+  rotate: false
+  xy: 815, 358
+  size: 117, 291
+  orig: 119, 293
+  offset: 1, 1
+  index: -1
+toufa3s
+  rotate: false
+  xy: 815, 651
+  size: 199, 371
+  orig: 201, 373
+  offset: 1, 1
+  index: -1
+toushi1
+  rotate: false
+  xy: 1001, 327
+  size: 21, 32
+  orig: 23, 34
+  offset: 1, 1
+  index: -1
+toushi2
+  rotate: false
+  xy: 987, 499
+  size: 19, 31
+  orig: 21, 33
+  offset: 1, 1
+  index: -1
+weapon_R
+  rotate: true
+  xy: 296, 32
+  size: 37, 202
+  orig: 39, 204
+  offset: 1, 1
+  index: -1
+zhangkou
+  rotate: false
+  xy: 328, 2
+  size: 30, 12
+  orig: 32, 14
+  offset: 1, 1
+  index: -1
+
+paintshow_109012.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+beijhin3
+  rotate: false
+  xy: 272, 157
+  size: 106, 173
+  orig: 108, 175
+  offset: 1, 1
+  index: -1
+beijidbei
+  rotate: true
+  xy: 873, 482
+  size: 180, 149
+  orig: 182, 151
+  offset: 1, 1
+  index: -1
+beijing2
+  rotate: false
+  xy: 556, 496
+  size: 112, 190
+  orig: 114, 192
+  offset: 1, 1
+  index: -1
+biyan3
+  rotate: true
+  xy: 973, 930
+  size: 92, 34
+  orig: 94, 36
+  offset: 1, 1
+  index: -1
+dajppian
+  rotate: true
+  xy: 556, 396
+  size: 98, 104
+  orig: 100, 106
+  offset: 1, 1
+  index: -1
+diyingqing
+  rotate: false
+  xy: 864, 664
+  size: 107, 358
+  orig: 109, 360
+  offset: 1, 1
+  index: -1
+head
+  rotate: false
+  xy: 547, 113
+  size: 103, 128
+  orig: 105, 130
+  offset: 1, 1
+  index: -1
+l_jianjia
+  rotate: false
+  xy: 380, 203
+  size: 147, 205
+  orig: 149, 207
+  offset: 1, 1
+  index: -1
+l_lowarm
+  rotate: true
+  xy: 652, 146
+  size: 95, 93
+  orig: 97, 95
+  offset: 1, 1
+  index: -1
+l_thigh
+  rotate: false
+  xy: 463, 418
+  size: 91, 264
+  orig: 93, 266
+  offset: 1, 1
+  index: -1
+l_tuichi1
+  rotate: false
+  xy: 2, 196
+  size: 268, 427
+  orig: 270, 429
+  offset: 1, 1
+  index: -1
+r_jianjia2
+  rotate: false
+  xy: 249, 2
+  size: 123, 153
+  orig: 125, 155
+  offset: 1, 1
+  index: -1
+r_lowarm
+  rotate: true
+  xy: 374, 7
+  size: 92, 142
+  orig: 94, 144
+  offset: 1, 1
+  index: -1
+r_thigh
+  rotate: false
+  xy: 369, 410
+  size: 92, 272
+  orig: 94, 274
+  offset: 1, 1
+  index: -1
+r_tuichi1
+  rotate: false
+  xy: 2, 625
+  size: 312, 397
+  orig: 314, 399
+  offset: 1, 1
+  index: -1
+r_tuichi2
+  rotate: false
+  xy: 316, 627
+  size: 50, 55
+  orig: 52, 57
+  offset: 1, 1
+  index: -1
+r_uparm
+  rotate: true
+  xy: 380, 101
+  size: 100, 165
+  orig: 102, 167
+  offset: 1, 1
+  index: -1
+spine01efer
+  rotate: true
+  xy: 2, 41
+  size: 153, 245
+  orig: 155, 247
+  offset: 1, 1
+  index: -1
+spine02
+  rotate: true
+  xy: 529, 243
+  size: 151, 148
+  orig: 153, 150
+  offset: 1, 1
+  index: -1
+toufa3
+  rotate: false
+  xy: 704, 661
+  size: 158, 361
+  orig: 160, 363
+  offset: 1, 1
+  index: -1
+toufa4
+  rotate: false
+  xy: 316, 684
+  size: 193, 338
+  orig: 195, 340
+  offset: 1, 1
+  index: -1
+toufa4222
+  rotate: false
+  xy: 511, 688
+  size: 191, 334
+  orig: 193, 336
+  offset: 1, 1
+  index: -1
+toufa5
+  rotate: true
+  xy: 670, 471
+  size: 188, 201
+  orig: 190, 203
+  offset: 1, 1
+  index: -1
+weapon_L
+  rotate: false
+  xy: 272, 332
+  size: 95, 291
+  orig: 97, 293
+  offset: 1, 1
+  index: -1
+zhengchang
+  rotate: false
+  xy: 2, 5
+  size: 91, 34
+  orig: 93, 36
+  offset: 1, 1
+  index: -1
