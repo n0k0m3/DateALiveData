@@ -36,7 +36,7 @@ return {
         site = 6,
         title = 30131,
         callLimit = 1,
-        isOpen = 0,
+        isOpen = 1,
         expitem = {
             [1] = 510101,
             [2] = 510102,
@@ -2974,7 +2974,7 @@ return {
         site = 12,
         title = 30131,
         callLimit = 1,
-        isOpen = 0,
+        isOpen = 1,
         expitem = {
             [1] = 510101,
             [2] = 510102,

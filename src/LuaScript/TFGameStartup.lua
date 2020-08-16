@@ -92,13 +92,13 @@ if VERSION_DEBUG == true then
 elseif CC_TARGET_PLATFORM == CC_PLATFORM_IOS then
     VersionPaths[1] = "https://c-en.datealive.com/dal_eng/release_ios/"
     FilePaths[1]    = "https://c-en.datealive.com/dal_eng/release_ios/"
-    VersionPaths[2] = "https://c2-en.datealive.com/dal_eng/release_ios/"
-    FilePaths[2]    = "https://c2-en.datealive.com/dal_eng/release_ios/"
+    VersionPaths[2] = "https://c-dal-en.heitaoglobal.com/dal_eng/release_ios/"
+    FilePaths[2]    = "https://c-dal-en.heitaoglobal.com/dal_eng/release_ios/"
 elseif CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID then
     VersionPaths[1] = "http://c-en.datealive.com/dal_eng/release_android/"
     FilePaths[1]    = "http://c-en.datealive.com/dal_eng/release_android/"
-    VersionPaths[2] = "http://c2-en.datealive.com/dal_eng/release_android/"
-    FilePaths[2]    = "http://c2-en.datealive.com/dal_eng/release_android/"
+    VersionPaths[2] = "http://c-dal-en.heitaoglobal.com/dal_eng/release_android/"
+    FilePaths[2]    = "http://c-dal-en.heitaoglobal.com/dal_eng/release_android/"
 end
 
 

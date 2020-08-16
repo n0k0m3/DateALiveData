@@ -644,9 +644,10 @@ end
 function FubenEndlessView:onJumpLevelEvent(isJump)
     local endlessInfo = FubenDataMgr:getEndlessInfo()
     local tabIndex = 1
-    if FubenDataMgr:isEndlessRacingMode(endlessInfo.curStage) then
-        tabIndex = 2
-    end
+    --屏蔽直通高层后切换至第二标签
+    -- if FubenDataMgr:isEndlessRacingMode(endlessInfo.curStage) then
+    --     tabIndex = 2
+    -- end
     self:selectTab(tabIndex)
 end
 

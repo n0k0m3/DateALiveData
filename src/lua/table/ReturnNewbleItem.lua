@@ -2702,7 +2702,7 @@ return {
         finishParams = "",
         group = 232,
         taskParam = "",
-        reward = "{500088:1}",
+        reward = "{566039:1}",
         des3 = 0,
         inheritType = 1,
         des = "213080",

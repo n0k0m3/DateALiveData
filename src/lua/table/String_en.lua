@@ -4541,7 +4541,7 @@ return {
     },
     [270494] = {
         id = 270494,
-        text = "Resets daily",
+        text = "Reset daily",
     },
     [213073] = {
         id = 213073,
@@ -4853,7 +4853,7 @@ return {
     },
     [213103] = {
         id = 213103,
-        text = "Temporarily gaining the Spirit Power of all Spirits, Tohka obtains a new Astral Dress that allows her to use both Shekinah and Sandalphon.",
+        text = "Temporarily gaining the Spirit Power of all Spirits, Tohka obtains a new Astral Dress that allows her to use both Shekhinah and Sandalphon.",
     },
     [12040] = {
         id = 12040,
@@ -5265,7 +5265,7 @@ return {
     },
     [1410050] = {
         id = 1410050,
-        text = "Halloween Store",
+        text = "Inverse Tohka – Exchange Store",
     },
     [10231084] = {
         id = 10231084,
@@ -6249,7 +6249,7 @@ return {
     },
     [1000119] = {
         id = 1000119,
-        text = "I will give you everything... except my Mana.",
+        text = "I will give you everything... except my Spirit powers.",
     },
     [213175] = {
         id = 213175,
@@ -10017,7 +10017,7 @@ return {
     },
     [22080] = {
         id = 22080,
-        text = "Open and get Hot Games Bento*3, Date Coupon*3, Essence Choice Giftbox*4, Infinity Gem *10, Lv.4 Gold Card*10",
+        text = "Open and get Hot Games Bento*3, Date Coupon*3, Essence Choice Giftbox*4, Endless Gem *10, Lv.4 Gold Card*10",
     },
     [25152] = {
         id = 25152,
@@ -10897,7 +10897,7 @@ return {
     },
     [42131] = {
         id = 42131,
-        text = "D Class Energy Gem, obtain it to get a D Class Gem for a random skill of [Shekinah Tohka]. (Auto used once obtained)",
+        text = "D Class Energy Gem, obtain it to get a D Class Gem for a random skill of [Shekhinah Tohka]. (Auto used once obtained)",
     },
     [22090] = {
         id = 22090,
@@ -10913,7 +10913,7 @@ return {
     },
     [42132] = {
         id = 42132,
-        text = "C Class Energy Gem, obtain it to get a C Class Gem for a random skill of [Shekinah Tohka]. (Auto used once obtained)",
+        text = "C Class Energy Gem, obtain it to get a C Class Gem for a random skill of [Shekhinah Tohka]. (Auto used once obtained)",
     },
     [63636] = {
         id = 63636,
@@ -10945,7 +10945,7 @@ return {
     },
     [42134] = {
         id = 42134,
-        text = "A Class Energy Gem, obtain it to get an A Class Gem for a random skill of [Shekinah Tohka]. (Auto used once obtained)",
+        text = "A Class Energy Gem, obtain it to get an A Class Gem for a random skill of [Shekhinah Tohka]. (Auto used once obtained)",
     },
     [12070] = {
         id = 12070,
@@ -10965,11 +10965,11 @@ return {
     },
     [42135] = {
         id = 42135,
-        text = "S Class Energy Gem, obtain it to get an S Class Gem for a random skill of [Shekinah Tohka]. (Auto used once obtained)",
+        text = "S Class Energy Gem, obtain it to get an S Class Gem for a random skill of [Shekhinah Tohka]. (Auto used once obtained)",
     },
     [22092] = {
         id = 22092,
-        text = "Open and select one of the 5-star set Sephiroth for Kotori: Scorch: Wind Embers, Scorch: Scarlet Embrace, and Scorch: Exorcist's End",
+        text = "Open and get the 5-star set Sephiroth for Kotori: Scorch: Wind Embers, Scorch: Scarlet Embrace, and Scorch: Exorcist's End",
     },
     [25164] = {
         id = 25164,
@@ -10981,7 +10981,7 @@ return {
     },
     [42136] = {
         id = 42136,
-        text = "SS Class Energy Gem, obtain it to get a SS Class Gem for a random skill of [Shekinah Tohka]. (Auto used once obtained)",
+        text = "SS Class Energy Gem, obtain it to get a SS Class Gem for a random skill of [Shekhinah Tohka]. (Auto used once obtained)",
     },
     [4007002] = {
         id = 4007002,
@@ -11021,7 +11021,7 @@ return {
     },
     [42137] = {
         id = 42137,
-        text = "SSS Class Energy Gem, obtain it to get a SSS Class Gem for a random skill of [Shekinah Tohka]. (Auto used once obtained)",
+        text = "SSS Class Energy Gem, obtain it to get a SSS Class Gem for a random skill of [Shekhinah Tohka]. (Auto used once obtained)",
     },
     [22093] = {
         id = 22093,
@@ -11090,6 +11090,14 @@ return {
     [213604] = {
         id = 213604,
         text = "Illegal interference with story plot",
+    },
+    [3210045] = {
+        id = 3210045,
+        text = "Elemental DMG +10%",
+    },
+    [10131051] = {
+        id = 10131051,
+        text = "Berserk",
     },
     [1250001] = {
         id = 1250001,
@@ -11207,29 +11215,49 @@ return {
         id = 1250029,
         text = "Crafting material, used to pray for Malkuth Sephiroth.",
     },
+    [10221128] = {
+        id = 10221128,
+        text = "[Methratton] ATK Speed +12%.",
+    },
+    [190000072] = {
+        id = 190000072,
+        text = "Kurumi's Gift",
+    },
+    [2460038] = {
+        id = 2460038,
+        text = "Rose Crown",
+    },
+    [190000070] = {
+        id = 190000070,
+        text = "Duel Card*3",
+    },
+    [10703105] = {
+        id = 10703105,
+        text = "All attacks of Kaguya gain +30% Crit DMG, inflict +15% DMG to vulnerable targets.",
+    },
+    [10911141] = {
+        id = 10911141,
+        text = "[Cross Slash] Crit Rate +6%.",
+    },
+    [10703031] = {
+        id = 10703031,
+        text = "[Wind Cannon] can charge up 2 times (won't be interrupted midway).\nWhen charged fully, inflicts Tempest DMG equal to 420% ATK over 3 strikes.",
+    },
+    [2100032] = {
+        id = 2100032,
+        text = "Entering Floor %s of %s....",
+    },
+    [1224010] = {
+        id = 1224010,
+        text = "Origami Tobiichi - Minimalism",
+    },
+    [190000064] = {
+        id = 190000064,
+        text = "Neko Badge",
+    },
     [63644] = {
         id = 63644,
         text = "Upgrade Covenant",
-    },
-    [19023] = {
-        id = 19023,
-        text = "Special Item 12",
-    },
-    [20047] = {
-        id = 20047,
-        text = "White Sparrow",
-    },
-    [41117] = {
-        id = 41117,
-        text = "SSS Class Gem Scroll, obtain it to get a SSS Class Gem Scroll for a random skill of [Inverse Tohka]. (Auto used once obtained)",
-    },
-    [42141] = {
-        id = 42141,
-        text = "D Class Energy Gem, obtain it to get a D Class Gem for a random skill of [Mayuri]. (Auto used once obtained)",
-    },
-    [22095] = {
-        id = 22095,
-        text = "Purple Rank Up Item",
     },
     [13300171] = {
         id = 13300171,
@@ -11247,21 +11275,77 @@ return {
         id = 190000060,
         text = "Nice to meet you. Welcome to Tengu City! ",
     },
-    [25167] = {
-        id = 25167,
-        text = "Anime Points",
-    },
-    [190000032] = {
-        id = 190000032,
-        text = "There is no available item card, you can buy it in the store.",
+    [901177] = {
+        id = 901177,
+        text = "Hello there, this is Tohka, the smartest, cutest, kindest girl in the world! Not Kurumi, Kotori, or Shiori! If you have question or wanna talk, feel free~! Tohka will try her best to reply!",
     },
     [190000054] = {
         id = 190000054,
         text = "You can buy this avatar frame at the Exclusive Pack in Month Card in September.",
     },
+    [19023] = {
+        id = 19023,
+        text = "Special Item 12",
+    },
     [190000053] = {
         id = 190000053,
         text = "You can buy this avatar frame at the Exclusive Pack in Month Card in August.",
+    },
+    [20047] = {
+        id = 20047,
+        text = "White Sparrow",
+    },
+    [41117] = {
+        id = 41117,
+        text = "SSS Class Gem Scroll, obtain it to get a SSS Class Gem Scroll for a random skill of [Inverse Tohka]. (Auto used once obtained)",
+    },
+    [42141] = {
+        id = 42141,
+        text = "D Class Energy Gem, obtain it to get a D Class Gem for a random skill of [Mayuri]. (Auto used once obtained)",
+    },
+    [190000052] = {
+        id = 190000052,
+        text = "You can buy this avatar frame at the Exclusive Pack in Month Card in July.",
+    },
+    [22095] = {
+        id = 22095,
+        text = "Purple Rank Up Item",
+    },
+    [1320466] = {
+        id = 1320466,
+        text = "Player reaches Lv.25",
+    },
+    [1605015] = {
+        id = 1605015,
+        text = " - Sign-in rewards\n – Multiple privileges",
+    },
+    [190000049] = {
+        id = 190000049,
+        text = "You can buy this avatar frame at the Exclusive Pack in Month Card in April.",
+    },
+    [471032] = {
+        id = 471032,
+        text = "# inflicts extra Pure DMG equal to 6% DMG dealt.",
+    },
+    [1021611] = {
+        id = 1021611,
+        text = "Oh~ Where is the key to the closet?",
+    },
+    [25167] = {
+        id = 25167,
+        text = "Anime Points",
+    },
+    [190000046] = {
+        id = 190000046,
+        text = "You need to log in the game again to change the language. Do you want to change it?",
+    },
+    [2106064] = {
+        id = 2106064,
+        text = "1. You can challenge 3 different powerful rivals daily. Rivals change at 0:00 daily.",
+    },
+    [3004032] = {
+        id = 3004032,
+        text = "Life Essence",
     },
     [5000003] = {
         id = 5000003,
@@ -11283,17 +11367,17 @@ return {
         id = 5000006,
         text = "Login for 6 days",
     },
-    [190000052] = {
-        id = 190000052,
-        text = "You can buy this avatar frame at the Exclusive Pack in Month Card in July.",
+    [3210046] = {
+        id = 3210046,
+        text = "Elemental DMG +11%",
     },
-    [1320466] = {
-        id = 1320466,
-        text = "Player reaches Lv.25",
+    [3210060] = {
+        id = 3210060,
+        text = "Frost DMG +15%",
     },
-    [1605015] = {
-        id = 1605015,
-        text = " - Sign-in rewards\n – Multiple privileges",
+    [190000041] = {
+        id = 190000041,
+        text = "Favor Lv.%s",
     },
     [31311] = {
         id = 31311,
@@ -11303,61 +11387,61 @@ return {
         id = 63645,
         text = "Transcend Covenant",
     },
-    [190000049] = {
-        id = 190000049,
-        text = "You can buy this avatar frame at the Exclusive Pack in Month Card in April.",
-    },
-    [471032] = {
-        id = 471032,
-        text = "# inflicts extra Pure DMG equal to 6% DMG dealt.",
-    },
-    [1021611] = {
-        id = 1021611,
-        text = "Oh~ Where is the key to the closet?",
-    },
-    [190000046] = {
-        id = 190000046,
-        text = "You need to log in the game again to change the language. Do you want to change it?",
-    },
-    [2106064] = {
-        id = 2106064,
-        text = "1. You can challenge 3 different powerful rivals daily. Rivals change at 0:00 daily.",
-    },
-    [3004032] = {
-        id = 3004032,
-        text = "Life Essence",
-    },
-    [3210046] = {
-        id = 3210046,
-        text = "Elemental DMG +11%",
-    },
-    [3210060] = {
-        id = 3210060,
-        text = "Frost DMG +15%",
-    },
-    [10024] = {
-        id = 10024,
-        text = "DPS",
-    },
-    [190000041] = {
-        id = 190000041,
-        text = "Favor Lv.%s",
-    },
-    [42142] = {
-        id = 42142,
-        text = "C Class Energy Gem, obtain it to get a C Class Gem for a random skill of [Mayuri]. (Auto used once obtained)",
-    },
     [190000040] = {
         id = 190000040,
         text = "You can have up to ten item cards. If you buy it again, it will turn to",
     },
     [190000039] = {
         id = 190000039,
-        text = "You can buy it if the time for your continuous purchase of month cards is less than 5 days",
+        text = "Get the reward by buying the month card again at the specified time",
     },
     [190000038] = {
         id = 190000038,
         text = "Clear daily instance once",
+    },
+    [10703106] = {
+        id = 10703106,
+        text = "Kaguya gains 5 Wind Energy when she defeats an enemy.",
+    },
+    [10911142] = {
+        id = 10911142,
+        text = "[Cross Slash] Crit Rate +8%.",
+    },
+    [11000222] = {
+        id = 11000222,
+        text = "Very fun~",
+    },
+    [11201053] = {
+        id = 11201053,
+        text = "Stab: Perish",
+    },
+    [23006] = {
+        id = 23006,
+        text = "The exclusive model kit of Kurumi will inspire you daily from now on. When the ranking are settled, winners need to write in home address in the event page. Physical rewards will be delivered to you by express after the event ends!",
+    },
+    [10024] = {
+        id = 10024,
+        text = "DPS",
+    },
+    [190000032] = {
+        id = 190000032,
+        text = "There is no available item card, you can buy it in the store.",
+    },
+    [42142] = {
+        id = 42142,
+        text = "C Class Energy Gem, obtain it to get a C Class Gem for a random skill of [Mayuri]. (Auto used once obtained)",
+    },
+    [13300172] = {
+        id = 13300172,
+        text = "Meanings of Attire",
+    },
+    [13410019] = {
+        id = 13410019,
+        text = "Bond Maids",
+    },
+    [190000029] = {
+        id = 190000029,
+        text = "Total Spin: %d",
     },
     [10131007] = {
         id = 10131007,
@@ -11431,29 +11515,29 @@ return {
         id = 63646,
         text = "Already transcended to the max level!",
     },
-    [10703106] = {
-        id = 10703106,
-        text = "Kaguya gains 5 Wind Energy when she defeats an enemy.",
+    [190000028] = {
+        id = 190000028,
+        text = "The ball exuding mysterious power seems to be able to be used to summon mysterious objects. ",
     },
     [230001] = {
         id = 230001,
         text = "Club - Hunter's Pursuit: 1st Kill Reward doesn't exist.",
     },
-    [10911142] = {
-        id = 10911142,
-        text = "[Cross Slash] Crit Rate +8%.",
+    [190000027] = {
+        id = 190000027,
+        text = "Divination ball",
     },
-    [11000222] = {
-        id = 11000222,
-        text = "Very fun~",
+    [190000022] = {
+        id = 190000022,
+        text = "Endless Battle",
     },
-    [11201053] = {
-        id = 11201053,
-        text = "Stab: Perish",
+    [190000021] = {
+        id = 190000021,
+        text = "The reward in current grid has been obtained and cannot be obtained repeatedly",
     },
-    [23006] = {
-        id = 23006,
-        text = "The exclusive model kit of Kurumi will inspire you daily from now on. When the ranking are settled, winners need to write in home address in the event page. Physical rewards will be delivered to you by express after the event ends!",
+    [190000020] = {
+        id = 190000020,
+        text = "The selected number exceeds the allowable range",
     },
     [19024] = {
         id = 19024,
@@ -11475,65 +11559,13 @@ return {
         id = 21072,
         text = "Ehyeh - Inverse",
     },
-    [13300172] = {
-        id = 13300172,
-        text = "Meanings of Attire",
-    },
-    [22096] = {
-        id = 22096,
-        text = "Acquires a random Purple item that can rank up Blue and Purple Bonds items.",
-    },
-    [13410019] = {
-        id = 13410019,
-        text = "Bond Maids",
-    },
-    [190000029] = {
-        id = 190000029,
-        text = "Total Spin: %d",
-    },
-    [190000028] = {
-        id = 190000028,
-        text = "The ball exuding mysterious power seems to be able to be used to summon mysterious objects. ",
-    },
-    [190000027] = {
-        id = 190000027,
-        text = "Divination ball",
-    },
-    [230003] = {
-        id = 230003,
-        text = "Club - Hunter's Pursuit: Last Hit Reward doesn't exist.",
-    },
-    [25168] = {
-        id = 25168,
-        text = "The long-anticipated Date A Live Season 3 is live! Thanks for your support! DAL: Dating Never Stops!",
-    },
-    [190000022] = {
-        id = 190000022,
-        text = "Endless Battle",
-    },
-    [190000021] = {
-        id = 190000021,
-        text = "The reward in current grid has been obtained and cannot be obtained repeatedly",
-    },
-    [190000020] = {
-        id = 190000020,
-        text = "The selected number exceeds the allowable range",
-    },
-    [901177] = {
-        id = 901177,
-        text = "Hello there, this is Tohka, the smartest, cutest, kindest girl in the world! Not Kurumi, Kotori, or Shiori! If you have question or wanna talk, feel free~! Tohka will try her best to reply!",
-    },
-    [20000000] = {
-        id = 20000000,
-        text = "Reserved for beat'em up mode",
-    },
     [1327107] = {
         id = 1327107,
         text = "Title Unlocked %s Unlocked",
     },
-    [230004] = {
-        id = 230004,
-        text = "Club - Hunter's Pursuit: Last Hit Reward has been claimed",
+    [22096] = {
+        id = 22096,
+        text = "Acquires a random Purple item that can rank up Blue and Purple Bonds items.",
     },
     [190000017] = {
         id = 190000017,
@@ -11550,6 +11582,58 @@ return {
     [190000014] = {
         id = 190000014,
         text = "You can specify any number of dice moves for the next roll",
+    },
+    [230003] = {
+        id = 230003,
+        text = "Club - Hunter's Pursuit: Last Hit Reward doesn't exist.",
+    },
+    [25168] = {
+        id = 25168,
+        text = "The long-anticipated Date A Live Season 3 is live! Thanks for your support! DAL: Dating Never Stops!",
+    },
+    [2106066] = {
+        id = 2106066,
+        text = "3. Each rival will carry an Affix skill. You'd better be prepared for that.",
+    },
+    [190000012] = {
+        id = 190000012,
+        text = "Double",
+    },
+    [3210047] = {
+        id = 3210047,
+        text = "Elemental DMG +12%",
+    },
+    [10131054] = {
+        id = 10131054,
+        text = "Spot Weakness: Boss",
+    },
+    [20000000] = {
+        id = 20000000,
+        text = "Reserved for beat'em up mode",
+    },
+    [10221129] = {
+        id = 10221129,
+        text = "[Methratton] Can inflict the 4th strike. The skill inflicts Holy DMG equal to 500% of Origami's ATK.",
+    },
+    [230004] = {
+        id = 230004,
+        text = "Club - Hunter's Pursuit: Last Hit Reward has been claimed",
+    },
+    [190000008] = {
+        id = 190000008,
+        text = "Coins obtained in the Dice event can be exchanged for items in the Dice store",
+    },
+    [10403102] = {
+        id = 10403102,
+        text = "[Shooting Gallery] DMG dealt to bosses +10%.",
+    },
+    [190000006] = {
+        id = 190000006,
+        text = "Dice",
+    },
+    [10703107] = {
+        id = 10703107,
+        text = "Gains 1 Wind Energy when Kaguya crits.",
     },
     [31312] = {
         id = 31312,
@@ -11631,73 +11715,73 @@ return {
         id = 230007,
         text = "Club - Hunter's Pursuit: Insufficient Club Merits",
     },
-    [2106066] = {
-        id = 2106066,
-        text = "3. Each rival will carry an Affix skill. You'd better be prepared for that.",
-    },
-    [190000012] = {
-        id = 190000012,
-        text = "Double",
-    },
-    [3210047] = {
-        id = 3210047,
-        text = "Elemental DMG +12%",
-    },
-    [10131054] = {
-        id = 10131054,
-        text = "Spot Weakness: Boss",
-    },
-    [10221129] = {
-        id = 10221129,
-        text = "[Methratton] Can inflict the 4th strike. The skill inflicts Holy DMG equal to 500% of Origami's ATK.",
-    },
-    [190000008] = {
-        id = 190000008,
-        text = "Coins obtained in the Dice event can be exchanged for items in the Dice store",
-    },
-    [10403102] = {
-        id = 10403102,
-        text = "[Shooting Gallery] DMG dealt to bosses +10%.",
-    },
-    [230008] = {
-        id = 230008,
-        text = "Club - Hunter's Pursuit: Conditions to unlock boss not met",
-    },
-    [190000006] = {
-        id = 190000006,
-        text = "Dice",
-    },
-    [920001] = {
-        id = 920001,
-        text = "Young Baker",
-    },
-    [10703107] = {
-        id = 10703107,
-        text = "Gains 1 Wind Energy when Kaguya crits.",
-    },
-    [920002] = {
-        id = 920002,
-        text = "Serious Eggbeater",
-    },
     [10911143] = {
         id = 10911143,
         text = "[Cross Slash] Crit DMG +5%.",
-    },
-    [920003] = {
-        id = 920003,
-        text = "Where is Baking Soda? Ⅰ",
     },
     [11000223] = {
         id = 11000223,
         text = "Hehe~",
     },
+    [11201054] = {
+        id = 11201054,
+        text = "Flowing Cloud",
+    },
+    [12000149] = {
+        id = 12000149,
+        text = "Kerubiel Lv.1",
+    },
+    [100000358] = {
+        id = 100000358,
+        text = "Clear Story instance Volume 7",
+    },
+    [100000357] = {
+        id = 100000357,
+        text = "Clear Story instance Volume 6",
+    },
+    [100000356] = {
+        id = 100000356,
+        text = "Clear Story instance Volume 5",
+    },
+    [230008] = {
+        id = 230008,
+        text = "Club - Hunter's Pursuit: Conditions to unlock boss not met",
+    },
+    [100000355] = {
+        id = 100000355,
+        text = "Clear Story instance Volume 4",
+    },
+    [920001] = {
+        id = 920001,
+        text = "Young Baker",
+    },
+    [100000354] = {
+        id = 100000354,
+        text = "Clear Story instance Volume 3",
+    },
+    [920002] = {
+        id = 920002,
+        text = "Serious Eggbeater",
+    },
+    [28140] = {
+        id = 28140,
+        text = "Prayer Book obtained from Daily - [Pray Clash]. Can exchange advanced Sephiroth in Pray.",
+    },
+    [920003] = {
+        id = 920003,
+        text = "Where is Baking Soda? Ⅰ",
+    },
+    [2300116] = {
+        id = 2300116,
+        text = "Despair",
+    },
     [920004] = {
         id = 920004,
         text = "Euro Flour Ferry Ⅰ",
     },
-    [11201054] = {
-        id = 11201054,
-        text = "Flowing Cloud",
+    [100000351] = {
+        id = 100000351,
+        text = "Summon in the Neko Kurumi Costume pool %s times",
     },
     [920005] = {
         id = 920005,
@@ -11743,9 +11827,9 @@ return {
         id = 920010,
         text = "Move Flour and Eggs Ⅰ",
     },
-    [12000149] = {
-        id = 12000149,
-        text = "Kerubiel Lv.1",
+    [100000350] = {
+        id = 100000350,
+        text = "Cumulative consume %s Tokens",
     },
     [920011] = {
         id = 920011,
@@ -12001,7 +12085,7 @@ return {
     },
     [100000328] = {
         id = 100000328,
-        text = "Double for your 1st purchase, and +30% for follow-up purchases!",
+        text = "Double for your 1st purchase, and +30% for follow-up purchases!",
     },
     [920043] = {
         id = 920043,
@@ -12009,7 +12093,7 @@ return {
     },
     [100000327] = {
         id = 100000327,
-        text = "Double for your 1st purchase, and +25% for follow-up purchases!",
+        text = "Double for your 1st purchase, and +25% for follow-up purchases!",
     },
     [920044] = {
         id = 920044,
@@ -12025,7 +12109,7 @@ return {
     },
     [100000326] = {
         id = 100000326,
-        text = "Double for your 1st purchase, and +20% for follow-up purchases!",
+        text = "Double for your 1st purchase, and +20% for follow-up purchases!",
     },
     [920046] = {
         id = 920046,
@@ -12033,7 +12117,7 @@ return {
     },
     [100000325] = {
         id = 100000325,
-        text = "Double for your 1st purchase, and +15% for follow-up purchases!",
+        text = "Double for your 1st purchase, and +15% for follow-up purchases!",
     },
     [920047] = {
         id = 920047,
@@ -12041,7 +12125,7 @@ return {
     },
     [100000324] = {
         id = 100000324,
-        text = "Double for your 1st purchase, and +10% for follow-up purchases!",
+        text = "Double for your 1st purchase, and +10% for follow-up purchases!",
     },
     [920048] = {
         id = 920048,
@@ -12049,7 +12133,7 @@ return {
     },
     [100000323] = {
         id = 100000323,
-        text = "Double for your 1st purchase",
+        text = "Double for your 1st purchase",
     },
     [920049] = {
         id = 920049,
@@ -12249,7 +12333,7 @@ return {
     },
     [22099] = {
         id = 22099,
-        text = "Shekinah Tohka",
+        text = "Shekhinah Tohka",
     },
     [920074] = {
         id = 920074,
@@ -12505,7 +12589,7 @@ return {
     },
     [22100] = {
         id = 22100,
-        text = "Grants Shekinah Tohka. Duplicates of the Spirit will be turned into her fragments.",
+        text = "Grants Shekhinah Tohka. Duplicates of the Spirit will be turned into her fragments.",
     },
     [920106] = {
         id = 920106,
@@ -12777,7 +12861,7 @@ return {
     },
     [100000275] = {
         id = 100000275,
-        text = "通关夏拉姆高级副本%s次",
+        text = "Clear any Sharam team instance %s times",
     },
     [920140] = {
         id = 920140,
@@ -12793,7 +12877,7 @@ return {
     },
     [100000274] = {
         id = 100000274,
-        text = "购买月卡领取每日奖励",
+        text = "Buy Month Card to claim rewards daily",
     },
     [920142] = {
         id = 920142,
@@ -12801,7 +12885,7 @@ return {
     },
     [100000273] = {
         id = 100000273,
-        text = "加入任意社团",
+        text = "Join any club",
     },
     [920143] = {
         id = 920143,
@@ -12825,7 +12909,7 @@ return {
     },
     [100000270] = {
         id = 100000270,
-        text = "通关第%s卷",
+        text = "Clear Volume %s",
     },
     [920146] = {
         id = 920146,
@@ -12833,7 +12917,7 @@ return {
     },
     [100000269] = {
         id = 100000269,
-        text = "玩家等级达到%s",
+        text = "Player reaches Lv.%s",
     },
     [920147] = {
         id = 920147,
@@ -12841,7 +12925,7 @@ return {
     },
     [100000268] = {
         id = 100000268,
-        text = "地狱[主线]第%s卷1-2",
+        text = "Hell [Main] Volume %s 1-2",
     },
     [920148] = {
         id = 920148,
@@ -12929,7 +13013,7 @@ return {
     },
     [100000267] = {
         id = 100000267,
-        text = "地狱第%s卷1-1",
+        text = "Hell Volume %s 1-1",
     },
     [920159] = {
         id = 920159,
@@ -12937,7 +13021,7 @@ return {
     },
     [100000266] = {
         id = 100000266,
-        text = "困难[主线]第%s卷1-2",
+        text = "Hard [Main] Volume %s 1-2",
     },
     [920160] = {
         id = 920160,
@@ -12945,7 +13029,7 @@ return {
     },
     [100000265] = {
         id = 100000265,
-        text = "困难第%s卷1-1",
+        text = "Hard Volume %s 1-1",
     },
     [920161] = {
         id = 920161,
@@ -12953,7 +13037,7 @@ return {
     },
     [100000264] = {
         id = 100000264,
-        text = "普通第%s卷1-1",
+        text = "Normal Volume %s 1-1",
     },
     [920162] = {
         id = 920162,
@@ -12961,7 +13045,7 @@ return {
     },
     [100000263] = {
         id = 100000263,
-        text = "拥有%s个角色",
+        text = "Have %s character",
     },
     [920163] = {
         id = 920163,
@@ -12969,7 +13053,7 @@ return {
     },
     [100000262] = {
         id = 100000262,
-        text = "单次战斗中连击数达到%s",
+        text = "Get 30 or higher combo in a battle",
     },
     [920164] = {
         id = 920164,
@@ -12977,7 +13061,7 @@ return {
     },
     [100000261] = {
         id = 100000261,
-        text = "进行%s次质点改造",
+        text = "Modify Sephira %s times",
     },
     [920165] = {
         id = 920165,
@@ -13025,7 +13109,7 @@ return {
     },
     [100000260] = {
         id = 100000260,
-        text = "手机截屏分享%s次游戏",
+        text = "Share %s times with mobile screenshot",
     },
     [920171] = {
         id = 920171,
@@ -13033,7 +13117,7 @@ return {
     },
     [100000259] = {
         id = 100000259,
-        text = "战斗中连击达到%s击以上",
+        text = "Get %s or higher combo in the battle",
     },
     [920172] = {
         id = 920172,
@@ -14241,7 +14325,7 @@ return {
     },
     [100000191] = {
         id = 100000191,
-        text = "pray %s times",
+        text = "Pray %s times",
     },
     [411019] = {
         id = 411019,
@@ -14249,15 +14333,15 @@ return {
     },
     [100000190] = {
         id = 100000190,
-        text = "earn %s stars",
+        text = "Earn %s stars",
     },
     [100000189] = {
         id = 100000189,
-        text = "get %s gold",
+        text = "Get %s gold",
     },
     [100000188] = {
         id = 100000188,
-        text = "spend %s stamina",
+        text = "Spend %s stamina",
     },
     [411020] = {
         id = 411020,
@@ -14269,7 +14353,7 @@ return {
     },
     [100000187] = {
         id = 100000187,
-        text = "spend %s gold",
+        text = "Spend %s gold",
     },
     [19035] = {
         id = 19035,
@@ -14285,7 +14369,7 @@ return {
     },
     [100000186] = {
         id = 100000186,
-        text = "spend %s diamonds",
+        text = "Spend %s diamonds",
     },
     [21083] = {
         id = 21083,
@@ -14313,11 +14397,11 @@ return {
     },
     [100000183] = {
         id = 100000183,
-        text = "spend %s Fate Badges",
+        text = "Spend %s Fate Badges",
     },
     [100000182] = {
         id = 100000182,
-        text = "spend %s Proofs of Oath",
+        text = "Spend %s Proofs of Oath",
     },
     [25179] = {
         id = 25179,
@@ -14333,7 +14417,7 @@ return {
     },
     [100000180] = {
         id = 100000180,
-        text = "%s折",
+        text = "%s off",
     },
     [100000179] = {
         id = 100000179,
@@ -14445,7 +14529,7 @@ return {
     },
     [1702375] = {
         id = 1702375,
-        text = "Unlock after Main Instance - Volume 3",
+        text = "Unlock after clearing the Main Instance - Volume 3",
     },
     [2400001] = {
         id = 2400001,
@@ -15865,51 +15949,51 @@ return {
     },
     [1120145] = {
         id = 1120145,
-        text = "Shekinah Tohka S Class Blueprint",
+        text = "Shekhinah Tohka S Class Blueprint",
     },
     [1120146] = {
         id = 1120146,
-        text = "Shekinah Tohka S Class Blueprint",
+        text = "Shekhinah Tohka S Class Blueprint",
     },
     [1120147] = {
         id = 1120147,
-        text = "Shekinah Tohka S Class Blueprint",
+        text = "Shekhinah Tohka S Class Blueprint",
     },
     [1120148] = {
         id = 1120148,
-        text = "Shekinah Tohka S Class Blueprint",
+        text = "Shekhinah Tohka S Class Blueprint",
     },
     [1120149] = {
         id = 1120149,
-        text = "Shekinah Tohka SS Class Blueprint",
+        text = "Shekhinah Tohka SS Class Blueprint",
     },
     [1120150] = {
         id = 1120150,
-        text = "Shekinah Tohka SS Class Blueprint",
+        text = "Shekhinah Tohka SS Class Blueprint",
     },
     [1120151] = {
         id = 1120151,
-        text = "Shekinah Tohka SS Class Blueprint",
+        text = "Shekhinah Tohka SS Class Blueprint",
     },
     [1120152] = {
         id = 1120152,
-        text = "Shekinah Tohka SS Class Blueprint",
+        text = "Shekhinah Tohka SS Class Blueprint",
     },
     [1120153] = {
         id = 1120153,
-        text = "Shekinah Tohka SSS Class Blueprint",
+        text = "Shekhinah Tohka SSS Class Blueprint",
     },
     [1120154] = {
         id = 1120154,
-        text = "Shekinah Tohka SSS Class Blueprint",
+        text = "Shekhinah Tohka SSS Class Blueprint",
     },
     [1120155] = {
         id = 1120155,
-        text = "Shekinah Tohka SSS Class Blueprint",
+        text = "Shekhinah Tohka SSS Class Blueprint",
     },
     [1120156] = {
         id = 1120156,
-        text = "Shekinah Tohka SSS Class Blueprint",
+        text = "Shekhinah Tohka SSS Class Blueprint",
     },
     [1120157] = {
         id = 1120157,
@@ -16521,7 +16605,7 @@ return {
     },
     [111000420] = {
         id = 111000420,
-        text = "Open and get 1 from: Shekinah Tohka Fragment, Kurumi Tokisaki Fragment, Kotori Itsuka Fragment, DEM Ellen Fragment*1.",
+        text = "Open and get 1 from: Shekhinah Tohka Fragment, Kurumi Tokisaki Fragment, Kotori Itsuka Fragment, DEM Ellen Fragment*1.",
     },
     [111000419] = {
         id = 111000419,
@@ -16965,7 +17049,7 @@ return {
     },
     [280121] = {
         id = 280121,
-        text = "Shekinah Tohka Temp Oath",
+        text = "Shekhinah Tohka Temp Oath",
     },
     [10035] = {
         id = 10035,
@@ -17101,7 +17185,7 @@ return {
     },
     [290000014] = {
         id = 290000014,
-        text = "Today I was going to the hospital to see Origami, but I didn't expect to run into Tohka with a gift on the way.",
+        text = "Today I was going to see Origami, but I didn't expect to run into Tohka with a gift on the way.",
     },
     [42187] = {
         id = 42187,
@@ -18821,7 +18905,7 @@ return {
     },
     [14220103] = {
         id = 14220103,
-        text = "Shekinah Tohka's exclusive Sephira set",
+        text = "Shekhinah Tohka's exclusive Sephira set",
     },
     [14220102] = {
         id = 14220102,
@@ -19565,7 +19649,7 @@ return {
     },
     [14210286] = {
         id = 14210286,
-        text = "Pierce stat has returned! Shekinah Tohka will reign supreme once more! Take your sword and join the battle!",
+        text = "Pierce stat has returned! Shekhinah Tohka will reign supreme once more! Take your sword and join the battle!",
     },
     [272092] = {
         id = 272092,
@@ -19581,7 +19665,7 @@ return {
     },
     [14210284] = {
         id = 14210284,
-        text = "Pierce stat has returned! Shekinah Tohka will reign supreme once more! Take your sword and join the battle!",
+        text = "Pierce stat has returned! Shekhinah Tohka will reign supreme once more! Take your sword and join the battle!",
     },
     [272093] = {
         id = 272093,
@@ -20417,7 +20501,7 @@ return {
     },
     [2108022] = {
         id = 2108022,
-        text = "The road forward is lonely and confusing. However, the [Shekinah] in hands never hesitate.",
+        text = "The road forward is lonely and confusing. However, the [Shekhinah] in hands never hesitate.",
     },
     [14210140] = {
         id = 14210140,
@@ -21917,7 +22001,7 @@ return {
     },
     [14110273] = {
         id = 14110273,
-        text = "Dropped gems in this area: Yoshino, Shekinah Tohka, DEM Origami, Inverse Origami, and Crimson Nightmare Kurumi",
+        text = "Dropped gems in this area: Yoshino, Shekhinah Tohka, DEM Origami, Inverse Origami, and Crimson Nightmare Kurumi",
     },
     [305006] = {
         id = 305006,
@@ -26129,7 +26213,7 @@ return {
     },
     [1221012] = {
         id = 1221012,
-        text = "Shekinah Tohka",
+        text = "Shekhinah Tohka",
     },
     [1221013] = {
         id = 1221013,
@@ -27361,7 +27445,7 @@ return {
     },
     [13300266] = {
         id = 13300266,
-        text = "Used to summon rare clothes in the clothes summoning.",
+        text = "Used to summon rare clothes in the clothes summon.",
     },
     [13300265] = {
         id = 13300265,
@@ -28321,7 +28405,7 @@ return {
     },
     [13310533] = {
         id = 13310533,
-        text = "Dear Covenanters, \n After months of training, now Shekinah Tohka is much more powerful. The \"Pierce\" effect has also been buffed up. \n We have fulfilled our promises. Rest assured, the game will get better and your waifu will become stronger (with a bigger appetite). \n A designer under the pseudonym of D·A·L",
+        text = "Dear Covenanters, \n After months of training, now Shekhinah Tohka is much more powerful. The \"Pierce\" effect has also been buffed up. \n We have fulfilled our promises. Rest assured, the game will get better and your waifu will become stronger (with a bigger appetite). \n A designer under the pseudonym of D·A·L",
     },
     [13310541] = {
         id = 13310541,
@@ -30125,7 +30209,7 @@ return {
     },
     [1222011] = {
         id = 1222011,
-        text = "Shekinah Tohka Fragment",
+        text = "Shekhinah Tohka Fragment",
     },
     [17049] = {
         id = 17049,
@@ -30849,7 +30933,7 @@ return {
     },
     [1320493] = {
         id = 1320493,
-        text = "Defeat Shekinah Tohka in Spirit Trials 1 time",
+        text = "Defeat Shekhinah Tohka in Spirit Trials 1 time",
     },
     [1320494] = {
         id = 1320494,
@@ -32965,7 +33049,7 @@ return {
     },
     [281121] = {
         id = 281121,
-        text = "Use to swear a 3-day oath with Shekinah Tohka",
+        text = "Use to swear a 3-day oath with Shekhinah Tohka",
     },
     [20132] = {
         id = 20132,
@@ -34429,7 +34513,7 @@ return {
     },
     [30121] = {
         id = 30121,
-        text = "Shekinah Tohka",
+        text = "Shekhinah Tohka",
     },
     [41127] = {
         id = 41127,
@@ -36035,9 +36119,9 @@ return {
         id = 190000033,
         text = "Surprise Rewards",
     },
-    [1224010] = {
-        id = 1224010,
-        text = "Origami Tobiichi - Minimalism",
+    [190000065] = {
+        id = 190000065,
+        text = "Neko Kurumi Costume (Adv.)",
     },
     [12000096] = {
         id = 12000096,
@@ -37453,7 +37537,7 @@ return {
     },
     [265018] = {
         id = 265018,
-        text = "Shekinah Tohka",
+        text = "Shekhinah Tohka",
     },
     [11311040] = {
         id = 11311040,
@@ -39393,15 +39477,15 @@ return {
     },
     [11203106] = {
         id = 11203106,
-        text = "Restores 3 Mana every sec.",
+        text = "Restores 3 Spirit powers every sec.",
     },
     [11203105] = {
         id = 11203105,
-        text = "Using <Mana Burst> increases DMG by +20% for 8s. When triggered again, reset the CD timer. Effects don't stack.",
+        text = "Using <Spirit powers Burst> increases DMG by +20% for 8s. When triggered again, reset the CD timer. Effects don't stack.",
     },
     [11203104] = {
         id = 11203104,
-        text = "Using <Mana Burst> grants Superarmor and reduces DMG taken by 50% for 8s. When triggered again, reset the CD timer. Effects don't stack.",
+        text = "Using <Spirit powers Burst> grants Superarmor and reduces DMG taken by 50% for 8s. When triggered again, reset the CD timer. Effects don't stack.",
     },
     [11203103] = {
         id = 11203103,
@@ -40131,9 +40215,9 @@ return {
         id = 190000034,
         text = "Neehee, I was so lucky! I got rewards!",
     },
-    [2100032] = {
-        id = 2100032,
-        text = "Entering Floor %s of %s....",
+    [190000066] = {
+        id = 190000066,
+        text = "Fate Badge*5",
     },
     [11201051] = {
         id = 11201051,
@@ -43681,7 +43765,7 @@ return {
     },
     [243003] = {
         id = 243003,
-        text = "Explore Tohka error ",
+        text = "Explore Tohka error ",
     },
     [11000326] = {
         id = 11000326,
@@ -44227,9 +44311,9 @@ return {
         id = 190000035,
         text = "Double",
     },
-    [10703031] = {
-        id = 10703031,
-        text = "[Wind Cannon] can charge up 2 times (won't be interrupted midway).\nWhen charged fully, inflicts Tempest DMG equal to 420% ATK over 3 strikes.",
+    [190000067] = {
+        id = 190000067,
+        text = "Transcend Supply Box*6",
     },
     [11000220] = {
         id = 11000220,
@@ -45501,7 +45585,7 @@ return {
     },
     [265521] = {
         id = 265521,
-        text = "Get Shekinah Tohka to activate this avatar",
+        text = "Get Shekhinah Tohka to activate this avatar",
     },
     [10931218] = {
         id = 10931218,
@@ -45789,7 +45873,7 @@ return {
     },
     [265539] = {
         id = 265539,
-        text = "Rank up Shekinah Tohka to EX rank to activate this avatar",
+        text = "Rank up Shekhinah Tohka to EX rank to activate this avatar",
     },
     [10931169] = {
         id = 10931169,
@@ -48323,9 +48407,9 @@ return {
         id = 190000036,
         text = "Immune",
     },
-    [10911141] = {
-        id = 10911141,
-        text = "[Cross Slash] Crit Rate +6%.",
+    [190000068] = {
+        id = 190000068,
+        text = "Ultra EXP Chip*7",
     },
     [10103056] = {
         id = 10103056,
@@ -50977,7 +51061,7 @@ return {
     },
     [405123] = {
         id = 405123,
-        text = "Shekinah Tohka in Sephira form fights with dual swords with strength way beyond other Sephiroth. Sephira: Kether. Contains 4 random stats",
+        text = "Shekhinah Tohka in Sephira form fights with dual swords with strength way beyond other Sephiroth. Sephira: Kether. Contains 4 random stats",
     },
     [10901046] = {
         id = 10901046,
@@ -50993,7 +51077,7 @@ return {
     },
     [405124] = {
         id = 405124,
-        text = "Shekinah Tohka in Sephira form fights with dual sword with strength way beyond other Sephiroth. Sephira is Chokhmah. Contains 4 random stats",
+        text = "Shekhinah Tohka in Sephira form fights with dual sword with strength way beyond other Sephiroth. Sephira is Chokhmah. Contains 4 random stats",
     },
     [10901042] = {
         id = 10901042,
@@ -51009,7 +51093,7 @@ return {
     },
     [405125] = {
         id = 405125,
-        text = "Shekinah Tohka in Sephira form fights with dual sword with strength way beyond other Sephiroth. Sephira is Binah. Contains 4 random stats",
+        text = "Shekhinah Tohka in Sephira form fights with dual sword with strength way beyond other Sephiroth. Sephira is Binah. Contains 4 random stats",
     },
     [10901039] = {
         id = 10901039,
@@ -52419,9 +52503,9 @@ return {
         id = 190000037,
         text = "You are enjoying the [Double the reward] buff",
     },
-    [10703105] = {
-        id = 10703105,
-        text = "All attacks of Kaguya gain +30% Crit DMG, inflict +15% DMG to vulnerable targets.",
+    [190000069] = {
+        id = 190000069,
+        text = "Fine Rice Ball*18",
     },
     [10703104] = {
         id = 10703104,
@@ -56633,7 +56717,7 @@ return {
     },
     [1130337] = {
         id = 1130337,
-        text = "Shekinah Tohka exclusive. Can be inserted to a Base ATK gem slot.",
+        text = "Shekhinah Tohka exclusive. Can be inserted to a Base ATK gem slot.",
     },
     [1023923] = {
         id = 1023923,
@@ -56641,63 +56725,63 @@ return {
     },
     [1130339] = {
         id = 1130339,
-        text = "Shekinah Tohka exclusive. Can be inserted to a Skill 2 gem slot.",
+        text = "Shekhinah Tohka exclusive. Can be inserted to a Skill 2 gem slot.",
     },
     [1130340] = {
         id = 1130340,
-        text = "Shekinah Tohka exclusive. Can be inserted to an Ultimate gem slot.",
+        text = "Shekhinah Tohka exclusive. Can be inserted to an Ultimate gem slot.",
     },
     [1130341] = {
         id = 1130341,
-        text = "Shekinah Tohka exclusive. Can be inserted to a Base ATK gem slot.",
+        text = "Shekhinah Tohka exclusive. Can be inserted to a Base ATK gem slot.",
     },
     [1130342] = {
         id = 1130342,
-        text = "Shekinah Tohka exclusive. Can be inserted to a Skill 1 gem slot.",
+        text = "Shekhinah Tohka exclusive. Can be inserted to a Skill 1 gem slot.",
     },
     [1130343] = {
         id = 1130343,
-        text = "Shekinah Tohka exclusive. Can be inserted to a Skill 2 gem slot.",
+        text = "Shekhinah Tohka exclusive. Can be inserted to a Skill 2 gem slot.",
     },
     [1130344] = {
         id = 1130344,
-        text = "Shekinah Tohka exclusive. Can be inserted to an Ultimate gem slot.",
+        text = "Shekhinah Tohka exclusive. Can be inserted to an Ultimate gem slot.",
     },
     [1130345] = {
         id = 1130345,
-        text = "Shekinah Tohka exclusive. Can be inserted to a Base ATK gem slot.",
+        text = "Shekhinah Tohka exclusive. Can be inserted to a Base ATK gem slot.",
     },
     [1130346] = {
         id = 1130346,
-        text = "Shekinah Tohka exclusive. Can be inserted to a Skill 1 gem slot.",
+        text = "Shekhinah Tohka exclusive. Can be inserted to a Skill 1 gem slot.",
     },
     [1130347] = {
         id = 1130347,
-        text = "Shekinah Tohka exclusive. Can be inserted to a Skill 2 gem slot.",
+        text = "Shekhinah Tohka exclusive. Can be inserted to a Skill 2 gem slot.",
     },
     [1130348] = {
         id = 1130348,
-        text = "Shekinah Tohka exclusive. Can be inserted to an Ultimate gem slot.",
+        text = "Shekhinah Tohka exclusive. Can be inserted to an Ultimate gem slot.",
     },
     [1130349] = {
         id = 1130349,
-        text = "Shekinah Tohka exclusive. Can be inserted to a Base ATK gem slot.",
+        text = "Shekhinah Tohka exclusive. Can be inserted to a Base ATK gem slot.",
     },
     [1130350] = {
         id = 1130350,
-        text = "Shekinah Tohka exclusive. Can be inserted to a Skill 1 gem slot.",
+        text = "Shekhinah Tohka exclusive. Can be inserted to a Skill 1 gem slot.",
     },
     [1130351] = {
         id = 1130351,
-        text = "Shekinah Tohka exclusive. Can be inserted to a Skill 2 gem slot.",
+        text = "Shekhinah Tohka exclusive. Can be inserted to a Skill 2 gem slot.",
     },
     [1130352] = {
         id = 1130352,
-        text = "Shekinah Tohka exclusive. Can be inserted to an Ultimate gem slot.",
+        text = "Shekhinah Tohka exclusive. Can be inserted to an Ultimate gem slot.",
     },
     [1130353] = {
         id = 1130353,
-        text = "Shekinah Tohka exclusive. Can be inserted to a Base ATK gem slot. Can activate 1 extra angel skill",
+        text = "Shekhinah Tohka exclusive. Can be inserted to a Base ATK gem slot. Can activate 1 extra angel skill",
     },
     [1023931] = {
         id = 1023931,
@@ -56705,7 +56789,7 @@ return {
     },
     [1130355] = {
         id = 1130355,
-        text = "Shekinah Tohka exclusive. Can be inserted to a Skill 2 gem slot. Can activate 1 extra angel skill",
+        text = "Shekhinah Tohka exclusive. Can be inserted to a Skill 2 gem slot. Can activate 1 extra angel skill",
     },
     [1023932] = {
         id = 1023932,
@@ -56713,7 +56797,7 @@ return {
     },
     [1130357] = {
         id = 1130357,
-        text = "Shekinah Tohka exclusive. Can be inserted to a Base ATK gem slot. Can activate 2 extra angel skill",
+        text = "Shekhinah Tohka exclusive. Can be inserted to a Base ATK gem slot. Can activate 2 extra angel skill",
     },
     [1023933] = {
         id = 1023933,
@@ -56721,27 +56805,27 @@ return {
     },
     [1130359] = {
         id = 1130359,
-        text = "Shekinah Tohka exclusive. Can be inserted to a Skill 2 gem slot. Can activate 2 extra angel skill",
+        text = "Shekhinah Tohka exclusive. Can be inserted to a Skill 2 gem slot. Can activate 2 extra angel skill",
     },
     [1130360] = {
         id = 1130360,
-        text = "Shekinah Tohka exclusive. Can be inserted to an Ultimate gem slot. Can activate 2 extra angel skill",
+        text = "Shekhinah Tohka exclusive. Can be inserted to an Ultimate gem slot. Can activate 2 extra angel skill",
     },
     [1130361] = {
         id = 1130361,
-        text = "Shekinah Tohka exclusive. Can be inserted to a Base ATK gem slot. Can activate 3 extra angel skill",
+        text = "Shekhinah Tohka exclusive. Can be inserted to a Base ATK gem slot. Can activate 3 extra angel skill",
     },
     [1130362] = {
         id = 1130362,
-        text = "Shekinah Tohka exclusive. Can be inserted to a Skill 1 gem slot. Can activate 3 extra angel skill",
+        text = "Shekhinah Tohka exclusive. Can be inserted to a Skill 1 gem slot. Can activate 3 extra angel skill",
     },
     [1130363] = {
         id = 1130363,
-        text = "Shekinah Tohka exclusive. Can be inserted to a Skill 2 gem slot. Can activate 3 extra angel skill",
+        text = "Shekhinah Tohka exclusive. Can be inserted to a Skill 2 gem slot. Can activate 3 extra angel skill",
     },
     [1130364] = {
         id = 1130364,
-        text = "Shekinah Tohka exclusive. Can be inserted to an Ultimate gem slot. Can activate 3 extra angel skill",
+        text = "Shekhinah Tohka exclusive. Can be inserted to an Ultimate gem slot. Can activate 3 extra angel skill",
     },
     [1130365] = {
         id = 1130365,
@@ -58021,7 +58105,7 @@ return {
     },
     [16003] = {
         id = 16003,
-        text = "Shekinah Tohka Fragment",
+        text = "Shekhinah Tohka Fragment",
     },
     [10503011] = {
         id = 10503011,
@@ -58533,7 +58617,7 @@ return {
     },
     [16004] = {
         id = 16004,
-        text = "Shekinah Tohka fragment, used to activate Shekinah Tohka or increase her capability.",
+        text = "Shekhinah Tohka fragment, used to activate Shekhinah Tohka or increase her capability.",
     },
     [2081056] = {
         id = 2081056,
@@ -60611,9 +60695,9 @@ return {
         id = 252017,
         text = "Insufficient food ingredient. Cannot cook",
     },
-    [2460038] = {
-        id = 2460038,
-        text = "Rose Crown",
+    [190000071] = {
+        id = 190000071,
+        text = "Used to summon Neko Kurumi Costume in the clothes summon during the ''Be Your Kitty'' event.",
     },
     [10403099] = {
         id = 10403099,
@@ -62497,7 +62581,7 @@ return {
     },
     [63021] = {
         id = 63021,
-        text = "You must get well prepared before a battle. Deploy different characters based on conditions of each stage. Beware that in the world of Date A Live, you can't deploy duplicated characters (except assistants). Example: if you've deployed Tohka Yatogami, Shekinah Tohka won't be deployable.",
+        text = "You must get well prepared before a battle. Deploy different characters based on conditions of each stage. Beware that in the world of Date A Live, you can't deploy duplicated characters (except assistants). Example: if you've deployed Tohka Yatogami, Shekhinah Tohka won't be deployable.",
     },
     [10311206] = {
         id = 10311206,
@@ -64493,7 +64577,7 @@ return {
     },
     [266708] = {
         id = 266708,
-        text = "Join the White Valentines' Day event to obtain",
+        text = "Get the costume – \"Be Your Kitty\" to activate this avatar frame",
     },
     [910221] = {
         id = 910221,
@@ -65437,7 +65521,7 @@ return {
     },
     [62020] = {
         id = 62020,
-        text = "There are 5 types of summon: Rookie Summon, Heat Summon, Friendship Summon, Precise Summon and Limited Summon: \n\nRookie Summon\nSpend Fate Badges to summon Sephiroth and Spirits from a large pool which excludes the latest and rarer Sephiroth or Spirits. You will 100% get an A-Class or better Spirit or a 5-Star Sephira for every 10 rookie summons. \nRookie Summon enjoys much higher chance to summon rare characters and Sephiroth. After doing Rookie Summon 60 times, you will 100% summon a random S-class character. \nNote that Rookie Summon is only available for 7 days after you start the game.\n\nHeat Summon\nIn Heat Summon, one character and Sephira set will be featured per term in the prize pool and enjoy much higher drop rate. Featured drops change in rotation per term. \nLike Rookie Summon, every 10 Heat Summon will guarantee an A-class character or above or 5-star Sephiroth. If you fail to summon a S-class or better character for 80 Heat Summons, the next summon will 100% drop a S-class character, and most likely the featured character of the term. \nIf you fail to summon a 5-star Set Sephira for 50 Heat Summons, the next summon will 100% drop a Set Sephira, and most likely the featured Set Sephira. Note that attempts in this summon are kept after each turn ends and won't be cleared. \n\nFriendship Summon\nSpend Friend Points to summon from a smaller prize pool with no rare Sephiroth or Spirits. Also, it has no guaranteed reward. \n\nPrecise Summon\nSpend Fate Badges to summon either Sephira or Spirit from a prize pool smaller than that of Rookie and Heat Summon. Each term has featured Sephira or Spirit with higher summon rate. You can also exchange featured Sephira or get Spirit reward for your summon count. \n\nLimited Summon\nSpend Proof of Oath to summon rarer featured Sephira and Spirit that won't be added to other prize pools after Limited Summon ends.",
+        text = "There are 5 types of summon: Rookie Summon, Heat Summon, Friendship Summon, Precise Summon and Limited Summon: \n\nRookie Summon\nSpend Fate Badges to summon Sephiroth and Spirits from a large pool which excludes the latest and rarer Sephiroth or Spirits. You will 100% get an A-Class or better Spirit or a 5-Star Sephira for every 10 rookie summons. \nRookie Summon enjoys much higher chance to summon rare characters and Sephiroth. After doing Rookie Summon 60 times, you will 100% summon a random S-class character. \nNote that Rookie Summon is only available for 7 days after you start the game.\n\nHeat Summon\nIn Heat Summon, one character and Sephira set will be featured per term in the prize pool and enjoy much higher drop rate. Featured drops change in rotation per term. \nLike Rookie Summon, every 10 Heat Summon will guarantee an A-class character or above or 5-star Sephiroth. If you fail to summon a S-class or better character for 80 Heat Summons, the next summon will 100% drop a S-class character, and most likely the featured character of the term. \nIf you fail to summon a 5-star Set Sephira for 50 Heat Summons, the next summon will 100% drop a Set Sephira, and most likely the featured Set Sephira. Note that attempts in this summon are kept after each turn ends and won't be cleared. \n(Note: If an S-class character or 5-star set Sephira is drawn, the cumulative number of summon will be reset)\n\nFriendship Summon\nSpend Friend Points to summon from a smaller prize pool with no rare Sephiroth or Spirits. Also, it has no guaranteed reward. \n\nPrecise Summon\nSpend Fate Badges to summon either Sephira or Spirit from a prize pool smaller than that of Rookie and Heat Summon. Each term has featured Sephira or Spirit with higher summon rate. You can also exchange featured Sephira or get Spirit reward for your summon count. \n\nLimited Summon\nSpend Proof of Oath to summon rarer featured Sephira and Spirit that won't be added to other prize pools after Limited Summon ends.",
     },
     [1329141] = {
         id = 1329141,
@@ -68803,9 +68887,9 @@ return {
         id = 2201160,
         text = "Summons Paverschlev to unleash a destructive sword beam, inflicting Dark DMG equal to 1000% ATK.",
     },
-    [10221128] = {
-        id = 10221128,
-        text = "[Methratton] ATK Speed +12%.",
+    [190000073] = {
+        id = 190000073,
+        text = "Confirm to use %s to exchange %s?",
     },
     [10221127] = {
         id = 10221127,
@@ -69221,7 +69305,7 @@ return {
     },
     [2201370] = {
         id = 2201370,
-        text = "Sandalphon and Shekinah will auto return to Tohka's hands, attacking adjacent enemies. The skill inflicts Holy DMG equal to 140% ATK.",
+        text = "Sandalphon and Shekhinah will auto return to Tohka's hands, attacking adjacent enemies. The skill inflicts Holy DMG equal to 140% ATK.",
     },
     [12185] = {
         id = 12185,
@@ -69753,7 +69837,7 @@ return {
     },
     [13210] = {
         id = 13210,
-        text = "Used to mock summon from Shekinah Tohka card pool",
+        text = "Used to mock summon from Shekhinah Tohka card pool",
     },
     [960029] = {
         id = 960029,
@@ -71581,7 +71665,7 @@ return {
     },
     [62068] = {
         id = 62068,
-        text = "The vessel for verification - Mayuri suddenly descended to Tengu City. Sealed Spirit Power of Spirits are getting unstable. The overflown Spirit Wave tainted nearby items with weak Mana. \n\nGuardians of Tengu City must collect stuff tainted by Spirit Power during the date, be it food, gifts or others. Some special items, as souvenir for dates with Spirits, can be collected and stored as \"Keepsakes\". \n\n\"Keepsakes\" can be equipped on human or Spirits to grant extra power. When linked \"Keepsakes\" are put together, amazing bonds effects will get activated. Some \"Keepsakes\" prefer certain person or Spirits and will grant special effects when equipped by them. \n\n\"Keepsake\" Level Enhancement: Spirit Wave Polymers and other materials with special energy can enhance \"Keepsakes\" level, boosting their stats. \n\n\"Keepsake\" Rankup: Rank of Keepsakes can be increased when special materials are used to boost level cap and stats. Rankup is unavailable when the rank cap is reached.",
+        text = "The vessel for verification - Mayuri suddenly descended to Tengu City. Sealed Spirit Power of Spirits are getting unstable. The overflown Spirit Wave tainted nearby items with weak Spirit powers. \n\nGuardians of Tengu City must collect stuff tainted by Spirit Power during the date, be it food, gifts or others. Some special items, as souvenir for dates with Spirits, can be collected and stored as \"Keepsakes\". \n\n\"Keepsakes\" can be equipped on human or Spirits to grant extra power. When linked \"Keepsakes\" are put together, amazing bonds effects will get activated. Some \"Keepsakes\" prefer certain person or Spirits and will grant special effects when equipped by them. \n\n\"Keepsake\" Level Enhancement: Spirit Wave Polymers and other materials with special energy can enhance \"Keepsakes\" level, boosting their stats. \n\n\"Keepsake\" Rankup: Rank of Keepsakes can be increased when special materials are used to boost level cap and stats. Rankup is unavailable when the rank cap is reached.",
     },
     [10203008] = {
         id = 10203008,
@@ -72173,7 +72257,7 @@ return {
     },
     [431023] = {
         id = 431023,
-        text = "When equipped by Shekinah Tohka, Spirit Power Burst Base Effects +50%, Duration +100%.",
+        text = "When equipped by Shekhinah Tohka, Spirit Power Burst Base Effects +50%, Duration +100%.",
     },
     [10133103] = {
         id = 10133103,
@@ -72899,9 +72983,9 @@ return {
         id = 190000042,
         text = "Costume %s ",
     },
-    [10131051] = {
-        id = 10131051,
-        text = "Berserk",
+    [190000074] = {
+        id = 190000074,
+        text = "Current top-up amount: ",
     },
     [10131050] = {
         id = 10131050,
@@ -73393,7 +73477,7 @@ return {
     },
     [1200061] = {
         id = 1200061,
-        text = "Clothes Summoning",
+        text = "Clothes Summon",
     },
     [1200062] = {
         id = 1200062,
@@ -76993,11 +77077,11 @@ return {
     },
     [190000043] = {
         id = 190000043,
-        text = "Get rewards by buying the month card before %s ",
+        text = "Get the reward by buying the month card again before %s",
     },
-    [3210045] = {
-        id = 3210045,
-        text = "Elemental DMG +10%",
+    [190000075] = {
+        id = 190000075,
+        text = "Inverse Tohka – Event Package",
     },
     [3210044] = {
         id = 3210044,
@@ -78641,7 +78725,7 @@ return {
     },
     [42133] = {
         id = 42133,
-        text = "B Class Energy Gem, obtain it to get a B Class Gem for a random skill of [Shekinah Tohka]. (Auto used once obtained)",
+        text = "B Class Energy Gem, obtain it to get a B Class Gem for a random skill of [Shekhinah Tohka]. (Auto used once obtained)",
     },
     [3204512] = {
         id = 3204512,
@@ -79569,7 +79653,7 @@ return {
     },
     [25012] = {
         id = 25012,
-        text = "The base currency generated in Endless Corridor. Used to exchange for a complete Infinity Gem.",
+        text = "The base currency generated in Endless Corridor. Used to exchange for a complete Endless Gem.",
     },
     [3202004] = {
         id = 3202004,
@@ -80373,7 +80457,7 @@ return {
     },
     [21046] = {
         id = 21046,
-        text = "Type: Astral Dress\nOwner: Shekinah Tohka\nAstral Dress - \n<Adonai Melekh Ensufall>. \nTohka temporarily gains the Spirit Power of all Spirits. Sandalphon and Shekinah give her unprecedented power!",
+        text = "Type: Astral Dress\nOwner: Shekhinah Tohka\nAstral Dress - \n<Adonai Melekh Ensufall>. \nTohka temporarily gains the Spirit Power of all Spirits. Sandalphon and Shekhinah give her unprecedented power!",
     },
     [3006010] = {
         id = 3006010,
@@ -80933,7 +81017,7 @@ return {
     },
     [3004104] = {
         id = 3004104,
-        text = "Lighthouse without Spirit Power. Defeat guards and inject Mana to light up the surrounding area.",
+        text = "Lighthouse without Spirit Power. Defeat guards and inject Spirit powers to light up the surrounding area.",
     },
     [3004103] = {
         id = 3004103,
@@ -82041,7 +82125,7 @@ return {
     },
     [13234] = {
         id = 13234,
-        text = "Used to exchange resources in the event store after Oct 30",
+        text = "Used to exchange resources in the event store",
     },
     [2450007] = {
         id = 2450007,
@@ -82195,9 +82279,9 @@ return {
         id = 276006,
         text = "This club is full",
     },
-    [2300116] = {
-        id = 2300116,
-        text = "Despair",
+    [100000352] = {
+        id = 100000352,
+        text = "Clear Story instance Volume 1",
     },
     [2300114] = {
         id = 2300114,
@@ -83117,7 +83201,7 @@ return {
     },
     [2200023] = {
         id = 2200023,
-        text = "Shekinah - Sandalphon",
+        text = "Shekhinah - Sandalphon",
     },
     [2200022] = {
         id = 2200022,
@@ -84177,7 +84261,7 @@ return {
     },
     [2108193] = {
         id = 2108193,
-        text = "",
+        text = "08.12 - 09.01",
     },
     [2108192] = {
         id = 2108192,
@@ -84769,7 +84853,7 @@ return {
     },
     [2108056] = {
         id = 2108056,
-        text = "Stage opens at 0:00 %s-%s",
+        text = "Stage opens at %s/%s 00:00",
     },
     [2108054] = {
         id = 2108054,
@@ -84993,7 +85077,7 @@ return {
     },
     [14210285] = {
         id = 14210285,
-        text = "Pierce stat has returned! Shekinah Tohka will reign supreme once more! Take your sword and join the battle!",
+        text = "Pierce stat has returned! Shekhinah Tohka will reign supreme once more! Take your sword and join the battle!",
     },
     [28015] = {
         id = 28015,
@@ -87189,7 +87273,7 @@ return {
     },
     [15036] = {
         id = 15036,
-        text = "The substance crafted with SP Crystalloid contains lots of Mana. Used to transcend Spirits.",
+        text = "The substance crafted with SP Crystalloid contains lots of Spirit powers. Used to transcend Spirits.",
     },
     [2100136] = {
         id = 2100136,
@@ -89581,7 +89665,7 @@ return {
     },
     [1110339] = {
         id = 1110339,
-        text = "Shekinah Tohka D Class Gem",
+        text = "Shekhinah Tohka D Class Gem",
     },
     [1702561] = {
         id = 1702561,
@@ -89613,7 +89697,7 @@ return {
     },
     [1110347] = {
         id = 1110347,
-        text = "Shekinah Tohka B Class Gem",
+        text = "Shekhinah Tohka B Class Gem",
     },
     [1702555] = {
         id = 1702555,
@@ -89621,7 +89705,7 @@ return {
     },
     [1110349] = {
         id = 1110349,
-        text = "Shekinah Tohka A Class Gem",
+        text = "Shekhinah Tohka A Class Gem",
     },
     [1702553] = {
         id = 1702553,
@@ -89629,7 +89713,7 @@ return {
     },
     [1110351] = {
         id = 1110351,
-        text = "Shekinah Tohka A Class Gem",
+        text = "Shekhinah Tohka A Class Gem",
     },
     [1702551] = {
         id = 1702551,
@@ -89661,7 +89745,7 @@ return {
     },
     [1110363] = {
         id = 1110363,
-        text = "Shekinah Tohka SSS Class Gem",
+        text = "Shekhinah Tohka SSS Class Gem",
     },
     [1702543] = {
         id = 1702543,
@@ -90293,11 +90377,11 @@ return {
     },
     [1702394] = {
         id = 1702394,
-        text = "Unlock after Main Instance - Volume 7",
+        text = "Unlock after clearing the Main Instance - Volume 7",
     },
     [1702393] = {
         id = 1702393,
-        text = "Unlock after Main Instance - Volume 9",
+        text = "Unlock after clearing the Main Instance - Volume 9",
     },
     [1020422] = {
         id = 1020422,
@@ -90387,9 +90471,9 @@ return {
         id = 100000289,
         text = "在精灵试炼中战胜%s次狂三",
     },
-    [28140] = {
-        id = 28140,
-        text = "Prayer Book obtained from Daily - [Pray Clash]. Can exchange advanced Sephiroth in Pray.",
+    [100000353] = {
+        id = 100000353,
+        text = "Clear Story instance Volume 2",
     },
     [1702371] = {
         id = 1702371,
@@ -90425,7 +90509,7 @@ return {
     },
     [1702363] = {
         id = 1702363,
-        text = "Unlock after Main Instance - Volume 4",
+        text = "Unlock after clearing the Main Instance - Volume 4",
     },
     [274011] = {
         id = 274011,
@@ -91401,7 +91485,7 @@ return {
     },
     [1130338] = {
         id = 1130338,
-        text = "Shekinah Tohka exclusive. Can be inserted to a Skill 1 gem slot.",
+        text = "Shekhinah Tohka exclusive. Can be inserted to a Skill 1 gem slot.",
     },
     [301157] = {
         id = 301157,
@@ -91521,7 +91605,7 @@ return {
     },
     [1130354] = {
         id = 1130354,
-        text = "Shekinah Tohka exclusive. Can be inserted to a Skill 1 gem slot. Can activate 1 extra angel skill",
+        text = "Shekhinah Tohka exclusive. Can be inserted to a Skill 1 gem slot. Can activate 1 extra angel skill",
     },
     [1702213] = {
         id = 1702213,
@@ -91529,7 +91613,7 @@ return {
     },
     [1130356] = {
         id = 1130356,
-        text = "Shekinah Tohka exclusive. Can be inserted to an Ultimate gem slot. Can activate 1 extra angel skill",
+        text = "Shekhinah Tohka exclusive. Can be inserted to an Ultimate gem slot. Can activate 1 extra angel skill",
     },
     [301165] = {
         id = 301165,
@@ -91541,7 +91625,7 @@ return {
     },
     [1130358] = {
         id = 1130358,
-        text = "Shekinah Tohka exclusive. Can be inserted to a Skill 1 gem slot. Can activate 2 extra angel skill",
+        text = "Shekhinah Tohka exclusive. Can be inserted to a Skill 1 gem slot. Can activate 2 extra angel skill",
     },
     [212025] = {
         id = 212025,
@@ -92209,7 +92293,7 @@ return {
     },
     [1140152] = {
         id = 1140152,
-        text = "A material required to craft Shekinah Tohka SS Class Ultimate Gem",
+        text = "A material required to craft Shekhinah Tohka SS Class Ultimate Gem",
     },
     [23014] = {
         id = 23014,
@@ -93889,7 +93973,7 @@ return {
     },
     [25014] = {
         id = 25014,
-        text = "The embodiment of Kabbalah Tree of Life's essence. Used to awaken following characters' angelic power: \nShekinah Tohka",
+        text = "The embodiment of Kabbalah Tree of Life's essence. Used to awaken following characters' angelic power: \nShekhinah Tohka",
     },
     [1701957] = {
         id = 1701957,
@@ -95865,31 +95949,31 @@ return {
     },
     [1140145] = {
         id = 1140145,
-        text = "A material required to craft Shekinah Tohka S Class Base ATK Gem",
+        text = "A material required to craft Shekhinah Tohka S Class Base ATK Gem",
     },
     [1140146] = {
         id = 1140146,
-        text = "A material required to craft Shekinah Tohka S Class Skill 1 Gem",
+        text = "A material required to craft Shekhinah Tohka S Class Skill 1 Gem",
     },
     [1140147] = {
         id = 1140147,
-        text = "A material required to craft Shekinah Tohka S Class Skill 2 Gem",
+        text = "A material required to craft Shekhinah Tohka S Class Skill 2 Gem",
     },
     [1140148] = {
         id = 1140148,
-        text = "A material required to craft Shekinah Tohka S Class Ultimate Gem",
+        text = "A material required to craft Shekhinah Tohka S Class Ultimate Gem",
     },
     [1140149] = {
         id = 1140149,
-        text = "A material required to craft Shekinah Tohka SS Class Base ATK Gem",
+        text = "A material required to craft Shekhinah Tohka SS Class Base ATK Gem",
     },
     [1140150] = {
         id = 1140150,
-        text = "A material required to craft Shekinah Tohka SS Class Skill 1 Gem",
+        text = "A material required to craft Shekhinah Tohka SS Class Skill 1 Gem",
     },
     [1140151] = {
         id = 1140151,
-        text = "A material required to craft Shekinah Tohka SS Class Skill 2 Gem",
+        text = "A material required to craft Shekhinah Tohka SS Class Skill 2 Gem",
     },
     [15053] = {
         id = 15053,
@@ -95897,19 +95981,19 @@ return {
     },
     [1140153] = {
         id = 1140153,
-        text = "A material required to craft Shekinah Tohka SSS Class Base ATK Gem",
+        text = "A material required to craft Shekhinah Tohka SSS Class Base ATK Gem",
     },
     [1140154] = {
         id = 1140154,
-        text = "A material required to craft Shekinah Tohka SSS Class Skill 1 Gem",
+        text = "A material required to craft Shekhinah Tohka SSS Class Skill 1 Gem",
     },
     [1140155] = {
         id = 1140155,
-        text = "A material required to craft Shekinah Tohka SSS Class Skill 2 Gem",
+        text = "A material required to craft Shekhinah Tohka SSS Class Skill 2 Gem",
     },
     [1140156] = {
         id = 1140156,
-        text = "A material required to craft Shekinah Tohka SSS Class Ultimate Gem",
+        text = "A material required to craft Shekhinah Tohka SSS Class Ultimate Gem",
     },
     [1140157] = {
         id = 1140157,
@@ -98061,7 +98145,7 @@ return {
     },
     [28166] = {
         id = 28166,
-        text = "Duplicate costumes and Astral Dresses will be turned to costume fragments and Astra Dress fragments.",
+        text = "Duplicate costumes and Astral Dresses will be turned to costume fragments and Astral Dress fragments.",
     },
     [471071] = {
         id = 471071,
@@ -98297,7 +98381,7 @@ return {
     },
     [28167] = {
         id = 28167,
-        text = "Duplicate costumes and Astral Dresses will be turned to costume fragments and Astra Dress fragments.",
+        text = "Duplicate costumes and Astral Dresses will be turned to costume fragments and Astral Dress fragments.",
     },
     [27043] = {
         id = 27043,
@@ -98681,7 +98765,7 @@ return {
     },
     [490022] = {
         id = 490022,
-        text = "Equitable",
+        text = "Equipable",
     },
     [270423] = {
         id = 270423,
@@ -102381,7 +102465,7 @@ return {
     },
     [25011] = {
         id = 25011,
-        text = "Infinity Fragment",
+        text = "Endless Fragment",
     },
     [441103] = {
         id = 441103,
@@ -102621,7 +102705,7 @@ return {
     },
     [210011] = {
         id = 210011,
-        text = "Added. Auto Rejected as the list is full",
+        text = "Added successfully. Automatically ignore if the player's friends have reached the limit.",
     },
     [441118] = {
         id = 441118,
@@ -102721,7 +102805,7 @@ return {
     },
     [441124] = {
         id = 441124,
-        text = "When equipped by Shekinah Tohka, restores 2 Spirit Power every sec and grants 10 extra Energy when a combination skill is casted.",
+        text = "When equipped by Shekhinah Tohka, restores 2 Spirit Power every sec and grants 10 extra Energy when a combination skill is casted.",
     },
     [63028] = {
         id = 63028,
@@ -102737,7 +102821,7 @@ return {
     },
     [441125] = {
         id = 441125,
-        text = "ATK+15%; When equipped by Shekinah Tohka, Spirit Power Burst increases ATK by 25% for 8s.",
+        text = "ATK+15%; When equipped by Shekhinah Tohka, Spirit Power Burst increases ATK by 25% for 8s.",
     },
     [1310224] = {
         id = 1310224,
@@ -104345,7 +104429,7 @@ return {
     },
     [28168] = {
         id = 28168,
-        text = "Duplicate costumes and Astral Dresses will be turned to costume fragments and Astra Dress fragments.",
+        text = "Duplicate costumes and Astral Dresses will be turned to costume fragments and Astral Dress fragments.",
     },
     [1310325] = {
         id = 1310325,
@@ -105805,7 +105889,7 @@ return {
     },
     [1550009] = {
         id = 1550009,
-        text = "※※※Formal Server Rebate Rules  ※※※\nRebate Ratio - USD: Diamonds =1:10\n[Top Up]\n1. All bonus diamonds provided by the 1st top-up will also be rebated.\n(All tiers included: $6, $30, $88, $168, $328, $648)\n2. Note: Tiers bought in test won't grant double diamonds in the formal server.\n\n[Pack]\n1. Each tier refund diamonds at a 1:10 ratio (including $3, $6, $18, $50 and $88 tiers).\n2. The bonus diamonds will also be founded (like the 120 diamonds granted by $18, $50 and $88)\n\n[Month Card]\n1. The first month card bought will refund doubled (600) diamonds \n2. Afterwards, they refund 300 Diamonds per month.\n3. Note: Diamonds rewarded by the month card daily won't be rebated",
+        text = "※※※Formal Server Rebate Rules  ※※※\nRebate Ratio - USD: Diamonds =1:10\n[Top Up]\n1. All bonus diamonds provided by the 1st top-up will also be rebated.\n(All tiers included: $6, $30, $88, $168, $328, $648)\n2. Note: Tiers bought in test won't grant double diamonds in the formal server.\n\n[Pack]\n1. Each tier refund diamonds at a 1:10 ratio (including $3, $6, $18, $50 and $88 tiers).\n2. The bonus diamonds will also be founded (like the 120 diamonds granted by $18, $50 and $88)\n\n[Month Card]\n1. The first month card bought will refund doubled (600) diamonds \n2. Afterwards, they refund 300 Diamonds per month.\n3. Note: Diamonds rewarded by the month card daily won't be rebated",
     },
     [1550008] = {
         id = 1550008,
@@ -106189,7 +106273,7 @@ return {
     },
     [1400012] = {
         id = 1400012,
-        text = "[Event]",
+        text = "[Event] ",
     },
     [1223037] = {
         id = 1223037,
@@ -107701,11 +107785,11 @@ return {
     },
     [1110337] = {
         id = 1110337,
-        text = "Shekinah Tohka D Class Gem",
+        text = "Shekhinah Tohka D Class Gem",
     },
     [1110338] = {
         id = 1110338,
-        text = "Shekinah Tohka D Class Gem",
+        text = "Shekhinah Tohka D Class Gem",
     },
     [932006] = {
         id = 932006,
@@ -107713,31 +107797,31 @@ return {
     },
     [1110340] = {
         id = 1110340,
-        text = "Shekinah Tohka D Class Gem",
+        text = "Shekhinah Tohka D Class Gem",
     },
     [1110341] = {
         id = 1110341,
-        text = "Shekinah Tohka C Class Gem",
+        text = "Shekhinah Tohka C Class Gem",
     },
     [1110342] = {
         id = 1110342,
-        text = "Shekinah Tohka C Class Gem",
+        text = "Shekhinah Tohka C Class Gem",
     },
     [1110343] = {
         id = 1110343,
-        text = "Shekinah Tohka C Class Gem",
+        text = "Shekhinah Tohka C Class Gem",
     },
     [1110344] = {
         id = 1110344,
-        text = "Shekinah Tohka C Class Gem",
+        text = "Shekhinah Tohka C Class Gem",
     },
     [1110345] = {
         id = 1110345,
-        text = "Shekinah Tohka B Class Gem",
+        text = "Shekhinah Tohka B Class Gem",
     },
     [1110346] = {
         id = 1110346,
-        text = "Shekinah Tohka B Class Gem",
+        text = "Shekhinah Tohka B Class Gem",
     },
     [932010] = {
         id = 932010,
@@ -107745,7 +107829,7 @@ return {
     },
     [1110348] = {
         id = 1110348,
-        text = "Shekinah Tohka B Class Gem",
+        text = "Shekhinah Tohka B Class Gem",
     },
     [932011] = {
         id = 932011,
@@ -107753,7 +107837,7 @@ return {
     },
     [1110350] = {
         id = 1110350,
-        text = "Shekinah Tohka A Class Gem",
+        text = "Shekhinah Tohka A Class Gem",
     },
     [932012] = {
         id = 932012,
@@ -107761,47 +107845,47 @@ return {
     },
     [1110352] = {
         id = 1110352,
-        text = "Shekinah Tohka A Class Gem",
+        text = "Shekhinah Tohka A Class Gem",
     },
     [1110353] = {
         id = 1110353,
-        text = "Shekinah Tohka S Class Gem",
+        text = "Shekhinah Tohka S Class Gem",
     },
     [1110354] = {
         id = 1110354,
-        text = "Shekinah Tohka S Class Gem",
+        text = "Shekhinah Tohka S Class Gem",
     },
     [1110355] = {
         id = 1110355,
-        text = "Shekinah Tohka S Class Gem",
+        text = "Shekhinah Tohka S Class Gem",
     },
     [1110356] = {
         id = 1110356,
-        text = "Shekinah Tohka S Class Gem",
+        text = "Shekhinah Tohka S Class Gem",
     },
     [1110357] = {
         id = 1110357,
-        text = "Shekinah Tohka SS Class Gem",
+        text = "Shekhinah Tohka SS Class Gem",
     },
     [1110358] = {
         id = 1110358,
-        text = "Shekinah Tohka SS Class Gem",
+        text = "Shekhinah Tohka SS Class Gem",
     },
     [1110359] = {
         id = 1110359,
-        text = "Shekinah Tohka SS Class Gem",
+        text = "Shekhinah Tohka SS Class Gem",
     },
     [1110360] = {
         id = 1110360,
-        text = "Shekinah Tohka SS Class Gem",
+        text = "Shekhinah Tohka SS Class Gem",
     },
     [1110361] = {
         id = 1110361,
-        text = "Shekinah Tohka SSS Class Gem",
+        text = "Shekhinah Tohka SSS Class Gem",
     },
     [1110362] = {
         id = 1110362,
-        text = "Shekinah Tohka SSS Class Gem",
+        text = "Shekhinah Tohka SSS Class Gem",
     },
     [932018] = {
         id = 932018,
@@ -107809,7 +107893,7 @@ return {
     },
     [1110364] = {
         id = 1110364,
-        text = "Shekinah Tohka SSS Class Gem",
+        text = "Shekhinah Tohka SSS Class Gem",
     },
     [1110365] = {
         id = 1110365,
@@ -109041,7 +109125,7 @@ return {
     },
     [441094] = {
         id = 441094,
-        text = "When equipped by Mayuri, restores 2 Energy every sec. For every 1 Mana Mayuri currently has, increases 0.15% Overall DMG Boost.",
+        text = "When equipped by Mayuri, restores 2 Energy every sec. For every 1 Spirit powers Mayuri currently has, increases 0.15% Overall DMG Boost.",
     },
     [1325321] = {
         id = 1325321,
@@ -109993,7 +110077,7 @@ return {
     },
     [41135] = {
         id = 41135,
-        text = "S Class Gem Scroll, obtain it to get a S Class Gem Scroll for a random skill of [Shekinah Tohka]. (Auto used once obtained)",
+        text = "S Class Gem Scroll, obtain it to get a S Class Gem Scroll for a random skill of [Shekhinah Tohka]. (Auto used once obtained)",
     },
     [63662] = {
         id = 63662,
@@ -110001,7 +110085,7 @@ return {
     },
     [41136] = {
         id = 41136,
-        text = "SS Class Gem Scroll, obtain it to get a SS Class Gem Scroll for a random skill of [Shekinah Tohka]. (Auto used once obtained)",
+        text = "SS Class Gem Scroll, obtain it to get a SS Class Gem Scroll for a random skill of [Shekhinah Tohka]. (Auto used once obtained)",
     },
     [21081] = {
         id = 21081,
@@ -110025,7 +110109,7 @@ return {
     },
     [41137] = {
         id = 41137,
-        text = "SSS Class Gem Scroll, obtain it to get a SSS Class Gem Scroll for a random skill of [Shekinah Tohka]. (Auto used once obtained)",
+        text = "SSS Class Gem Scroll, obtain it to get a SSS Class Gem Scroll for a random skill of [Shekhinah Tohka]. (Auto used once obtained)",
     },
     [1310801] = {
         id = 1310801,
@@ -110397,7 +110481,7 @@ return {
     },
     [22112] = {
         id = 22112,
-        text = "Open to select one from: DEM Ellen, Kurumi Tokisaki, Shekinah Tohka and Kotori Itsuka.",
+        text = "Open to select one from: DEM Ellen, Kurumi Tokisaki, Shekhinah Tohka and Kotori Itsuka.",
     },
     [411069] = {
         id = 411069,
@@ -113805,19 +113889,19 @@ return {
     },
     [1701669] = {
         id = 1701669,
-        text = "Own the character - Shekinah Tohka",
+        text = "Own the character - Shekhinah Tohka",
     },
     [1701670] = {
         id = 1701670,
-        text = "Shekinah Tohka reaches Lv.30",
+        text = "Shekhinah Tohka reaches Lv.30",
     },
     [1701671] = {
         id = 1701671,
-        text = "Own the character - Shekinah Tohka",
+        text = "Own the character - Shekhinah Tohka",
     },
     [1701672] = {
         id = 1701672,
-        text = "Own the character - Shekinah Tohka",
+        text = "Own the character - Shekhinah Tohka",
     },
     [1701673] = {
         id = 1701673,
@@ -116577,7 +116661,7 @@ return {
     },
     [1702362] = {
         id = 1702362,
-        text = "Unlock after Main Instance - Volume 6",
+        text = "Unlock after clearing the Main Instance - Volume 6",
     },
     [900348] = {
         id = 900348,
@@ -116633,7 +116717,7 @@ return {
     },
     [1702376] = {
         id = 1702376,
-        text = "Unlock after Main Instance - Volume 1",
+        text = "Unlock after clearing the Main Instance - Volume 1",
     },
     [900355] = {
         id = 900355,
@@ -116649,7 +116733,7 @@ return {
     },
     [1702380] = {
         id = 1702380,
-        text = "Unlock after Main Instance - Volume 5",
+        text = "Unlock after clearing the Main Instance - Volume 5",
     },
     [900357] = {
         id = 900357,
@@ -116689,7 +116773,7 @@ return {
     },
     [1702390] = {
         id = 1702390,
-        text = "Unlock after Main Instance - Volume 2",
+        text = "Unlock after clearing the Main Instance - Volume 2",
     },
     [900362] = {
         id = 900362,
@@ -116697,7 +116781,7 @@ return {
     },
     [1702392] = {
         id = 1702392,
-        text = "Unlock after Main Instance - Volume 8",
+        text = "Unlock after clearing the Main Instance - Volume 8",
     },
     [900363] = {
         id = 900363,
@@ -118553,7 +118637,7 @@ return {
     },
     [25009] = {
         id = 25009,
-        text = "Infinity Gem",
+        text = "Endless Gem",
     },
     [900595] = {
         id = 900595,

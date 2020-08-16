@@ -69,6 +69,16 @@ function TFDeviceInfo:getCurAppVersion()
     end
 end
 
+function TFDeviceInfo:getAppVersionCode()
+    if CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 or CC_TARGET_PLATFORM == CC_PLATFORM_IOS then 
+        return "0"
+    else
+        local ok,ret = TFLuaOcJava.callStaticMethod(TFDeviceInfo.CLASS_NAME, "getAppVersionCode",nil,"()I")
+        return TFDeviceInfo.checkResult(ok,ret)
+    end
+end
+
+
 function TFDeviceInfo:getPhoneNumber()
     local ok,ret = TFLuaOcJava.callStaticMethod(TFDeviceInfo.CLASS_NAME, "getPhoneNumber",nil,"()Ljava/lang/String;")
     return TFDeviceInfo.checkResult(ok,ret)

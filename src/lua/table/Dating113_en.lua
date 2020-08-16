@@ -1925,7 +1925,7 @@ return {
         endType = 0,
         isIgonreAction2 = false,
         expressionAction2 = "",
-        text = "But you must date me in you original form, Natsumi!",
+        text = "But you must date me in your original form, Natsumi!",
         game = 0,
         video = {
         },
@@ -25675,7 +25675,7 @@ return {
         endType = 0,
         isIgonreAction2 = false,
         expressionAction2 = "",
-        text = "It's all my fault, as apology, I'll promise Natsumi anything!",
+        text = "It's all my fault, as an apology, I'll promise Natsumi anything!",
         game = 0,
         video = {
         },
@@ -29771,7 +29771,7 @@ return {
         endType = 0,
         isIgonreAction2 = false,
         expressionAction2 = "",
-        text = "Hmm! Natsumi must really like bouquet of fresh flowers.",
+        text = "Hmm! Natsumi must really like a bouquet of fresh flowers.",
         game = 0,
         video = {
         },
@@ -33970,7 +33970,7 @@ return {
         endType = 0,
         isIgonreAction2 = false,
         expressionAction2 = "",
-        text = "But you must date me in you original form, Natsumi!",
+        text = "But you must date me in your original form, Natsumi!",
         game = 0,
         video = {
         },
@@ -48030,7 +48030,7 @@ return {
         endType = 0,
         isIgonreAction2 = false,
         expressionAction2 = "",
-        text = "Over fried bacon, scorched toast, and milk that somehow reduced to half fulled...",
+        text = "Over fried bacon, scorched toast, and milk that somehow reduced to half-fulled...",
         game = 0,
         video = {
         },
@@ -63605,7 +63605,7 @@ return {
         endType = 0,
         isIgonreAction2 = false,
         expressionAction2 = "",
-        text = "Hmm, only after repeated practice have I reached current level.",
+        text = "Hmm, only after repeated practice have I reached the current level.",
         game = 0,
         video = {
         },
@@ -64535,7 +64535,7 @@ return {
         endType = 0,
         isIgonreAction2 = false,
         expressionAction2 = "",
-        text = "Haha, I took it serious accidentally...",
+        text = "Haha, I took it a bit seriously accidentally...",
         game = 0,
         video = {
         },
@@ -72362,7 +72362,7 @@ return {
         endType = 0,
         isIgonreAction2 = false,
         expressionAction2 = "",
-        text = "It's all my fault, as apology, I'll promise Natsumi anything!",
+        text = "It's all my fault, as an apology, I'll promise Natsumi anything!",
         game = 0,
         video = {
         },
@@ -95003,7 +95003,7 @@ return {
         endType = 0,
         isIgonreAction2 = false,
         expressionAction2 = "",
-        text = "After preparing the materials, I chose to assist Natsumi arranging flowers to her own liking.",
+        text = "After preparing the materials, I chose to assist Natsumi in arranging flowers to her own liking.",
         game = 0,
         video = {
         },
@@ -121554,7 +121554,7 @@ return {
         endType = 0,
         isIgonreAction2 = false,
         expressionAction2 = "",
-        text = "No... I shouldn't have done excessive thing this morning...",
+        text = "No... I shouldn't have done excessive things this morning...",
         game = 0,
         video = {
         },
@@ -131139,7 +131139,7 @@ return {
         endType = 0,
         isIgonreAction2 = false,
         expressionAction2 = "",
-        text = "Yes, as for thin and small, why would I dislike that? It only makes my heart ache.",
+        text = "Yes, as for thin and small, why would I dislike that? It only makes my heartache.",
         game = 0,
         video = {
         },
@@ -132444,7 +132444,7 @@ return {
         endType = 0,
         isIgonreAction2 = false,
         expressionAction2 = "",
-        text = "Put hand on waist and get up slowly",
+        text = "Put hands on waist and get up slowly",
         game = 0,
         video = {
         },
@@ -147069,7 +147069,7 @@ return {
         endType = 0,
         isIgonreAction2 = false,
         expressionAction2 = "",
-        text = "Onii-chan, don't you have a \"suspect list\"?",
+        text = "Big Brother, don't you have a \"suspect list\"?",
         game = 0,
         video = {
         },

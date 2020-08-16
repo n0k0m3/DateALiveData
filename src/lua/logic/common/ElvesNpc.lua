@@ -446,7 +446,7 @@ function TTFLive2D:newStartAction(acName,priority,deyTime,loopName,interval,soun
 
     soundValue = soundValue or 1
 	local voicePath = Npc:getModelBindVoicePath(self.modelId,acName)
-	if voicePath == nil then return end
+	--if voicePath == nil then return end
     self.voicePath = voicePath
 	self:setVoiceVolume(soundValue)
 

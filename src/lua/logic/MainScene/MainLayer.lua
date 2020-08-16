@@ -21,7 +21,8 @@ function MainLayer:ctor(data)
 
     self.isTouchRole = false
 	
-	self.showRffect = data
+    self.showRffect = data
+    self.giftButton = {}
 
     self.UTC_TIME = -7  --主界面显示时区为UTC-7
 
@@ -125,6 +126,9 @@ function MainLayer:initUI(ui)
     self.Button_ScoreReward:setVisible(false)
 
     self.Image_noticeTip = TFDirector:getChildByPath(self.Button_notice, "Image_noticeTip")
+
+
+    
 	if not self:isOneCelebrationMainLayer() then
 		 self.Button_friend = TFDirector:getChildByPath(self.Panel_right,"Button_friend");
 	else
@@ -210,6 +214,19 @@ function MainLayer:initUI(ui)
     self.Image_activity_red6 = TFDirector:getChildByPath(self.ui, "Image_activity_red6"):hide()
     self.Button_Activity7 = TFDirector:getChildByPath(self.ui, "Button_Activity7")
     self.Image_activity_red7 = TFDirector:getChildByPath(self.ui, "Image_activity_red7"):hide()
+
+
+    --创建反十活动图标
+    self.Button_Activity1001 = TFButton:create("ui/activity/fanshiAssist/fanshiActivity.png")
+    self.Button_Activity1001:setPosition(488 , 62)
+    self.Button_Activity1001:hide()
+    self.Image_activity_red1001 = TFImage:create("ui/common/news_small.png")
+    self.Button_Activity1001:addChild(self.Image_activity_red1001)
+    self.Image_activity_red1001:hide()
+    self.Image_activity_red1001:setPosition(49 , 0)
+    TFDirector:getChildByPath(self.Panel_right , "Panel_clip"):addChild(self.Button_Activity1001)
+
+
 
     self.Button_backPlayer = TFDirector:getChildByPath(self.Panel_left, "Button_backPlayer")
     self.Image_backPlayerTip = TFDirector:getChildByPath(self.Button_backPlayer, "Image_backPlayerTip"):show()
@@ -374,6 +391,8 @@ function MainLayer:initUI(ui)
     self.button_OneYear   = TFDirector:getChildByPath(ui,"button_OneYear")
     self.Image_OneYearClip = TFDirector:getChildByPath(ui,"Image_OneYearClip")
 
+    self.GiftRoot = TFDirector:getChildByPath(self.ui,"GiftRoot")
+
     if FunctionDataMgr:isMainLayerOneYearUI() then
         self.Image_OneYearClip:setVisible(false)
         self.Image_CaociyuanClip:setVisible(false)
@@ -405,6 +424,11 @@ function MainLayer:initUI(ui)
             self.Button_btnListEx.effect:play("idle_3",0)
         end
         self.Panel_btListEx:hide()
+
+
+        self.Button_kefu = self:createCustomBtnOnBear("ui/mainLayer/new_ui/kefu_btn.png" , ccp(52 , 101) , "http://api-en.datealive.com/yhdzz/customer?" , true)
+        self.Button_fb = self:createCustomBtnOnBear("ui/mainLayer/new_ui/btn_fb.png" , ccp(52 , 101) , "https://www.facebook.com/DALSpiritPledge.Global")
+        self.Button_twitter = self:createCustomBtnOnBear("ui/mainLayer/new_ui/btn_twitter.png" , ccp(52 , 101) , "https://twitter.com/SpiritPledgeDAL")
 	end
 
     local activityInfos = ActivityDataMgr2:getActivityInfo(nil,2)
@@ -415,6 +439,9 @@ function MainLayer:initUI(ui)
 
     local activityInfos = ActivityDataMgr2:getActivityInfo(nil,6)
     self.Button_Activity6:setVisible(#activityInfos > 0)
+
+    local activityInfos = ActivityDataMgr2:getActivityInfo(nil,EC_ActivityType2.FANSHI_ASSIST)
+    self.Button_Activity1001:setVisible(#activityInfos > 0)
 
     local activityInfos = ActivityDataMgr2:getActivityInfo(nil,7)
     self.Button_Activity7:setVisible(#activityInfos > 0)
@@ -567,7 +594,7 @@ function MainLayer:updateLeftButtons()
         local idx_1 = 1
         for k,v in ipairs(tmAllBtns) do
             -- 按钮位置无需改变的
-            local tempBtnNames = {"Button_notice","Button_mail","Button_welfare", "Button_activity","Button_focus","Button_OneYearShare"}
+            local tempBtnNames = {"Button_notice","Button_mail","Button_welfare", "Button_activity","Button_focus","Button_OneYearShare" }
             local isExist = false 
             for i, name in ipairs(tempBtnNames) do
                 if v:getName() == name then
@@ -627,7 +654,7 @@ function MainLayer:updateLeftButtons()
 		end
 		]]
 	else
-		local tmAllBtns2 = {self.Button_notice, self.Button_welfare, self.Button_activity,self.Button_focus, self.Button_ScoreReward, self.Button_RoleTeach, self.btn_zhibo}
+		local tmAllBtns2 = {self.Button_notice, self.Button_welfare, self.Button_activity,self.Button_focus, self.Button_ScoreReward, self.Button_RoleTeach, self.btn_zhibo }
         if self.Button_serverGiftActivity then
             table.insert(tmAllBtns2,self.Button_serverGiftActivity)
         end
@@ -643,7 +670,7 @@ function MainLayer:updateLeftButtons()
 			end
 		end
 		
-		local tmAllBtns3 = {self.Button_update, self.Button_backPlayer, self.Button_wj,self.Button_preview,self.Button_OneYearShare,self.btn_zhuifan}
+		local tmAllBtns3 = { self.Button_kefu , self.Button_fb, self.Button_twitter,self.Button_update, self.Button_backPlayer, self.Button_wj,self.Button_preview,self.Button_OneYearShare,self.btn_zhuifan}
 		local tmAllBtnspos3 = {ccp(52,104),ccp(165,104),ccp(265,104),ccp(52,43),ccp(165,43),ccp(265,43)}
         local idx = 1
         local isShowSpineBtn = false
@@ -721,6 +748,14 @@ function MainLayer:showLeftBtnAnim()
         local orgPos = self.Button_Activity6:getPosition()
         self.Button_Activity6:setPosition(me.p(orgPos.x - 20,orgPos.y))
         self.Button_Activity6:runAction(Spawn:create({FadeIn:create(0.3),MoveTo:create(0.3,orgPos),ScaleTo:create(0.3,1)}))
+    end
+
+    if self.Button_Activity1001:isVisible() then
+        self.Button_Activity1001:setScale(0.85)
+        self.Button_Activity1001:setOpacity(0)
+        local orgPos = self.Button_Activity1001:getPosition()
+        self.Button_Activity1001:setPosition(me.p(orgPos.x - 20,orgPos.y))
+        self.Button_Activity1001:runAction(Spawn:create({FadeIn:create(0.3),MoveTo:create(0.3,orgPos),ScaleTo:create(0.3,1)}))
     end
 
     if self.Button_Activity7:isVisible() then
@@ -1655,6 +1690,11 @@ function MainLayer:registerEvents()
         FunctionDataMgr:jActivity6()
     end)
 
+    --反十应援活动
+    self.Button_Activity1001:onClick(function()
+        FunctionDataMgr:jActivity1001()
+    end)
+
     --狂三应援
     self.Button_Activity7:onClick(function()
         FunctionDataMgr:jActivity7()
@@ -1862,6 +1902,61 @@ function MainLayer:registerEvents()
     end
 end
 
+function MainLayer:createCustomBtnOnBear(texture , pos , openUrl  , needParam)
+    local  btn_ = TFButton:create(texture)
+    btn_:setPosition(pos)
+    self.Panel_btListEx:addChild(btn_)
+    if needParam then
+        btn_:onClick(function( ... )
+             if me.platform == "win32" then
+                return
+            end
+            local url = openUrl --"http://api-en.datealive.com/yhdzz/customer?"
+            local vname = string.url_encode(TFDeviceInfo:getCurAppVersion())
+            local uid = string.url_encode(HeitaoSdk.getuserid())
+            local sid = string.url_encode(ServerDataMgr:getServerGroupID())
+            local role_name = string.url_encode(MainPlayer:getPlayerName())
+            local role_id = string.url_encode(MainPlayer:getPlayerId())
+            local lang = "en"
+            if GAME_LANGUAGE_VAR == EC_LanguageType.Chinese then
+                lang = "cn"
+            end
+            if CC_TARGET_PLATFORM == CC_PLATFORM_IOS then
+                url = url .."vname=" ..vname .."&uid=" ..uid .."&sid=" ..sid .."&role_name=" ..role_name .."&role_id=" ..role_id .."&lang=" ..lang
+                local idfa = string.url_encode(((TFDeviceInfo:getMachineOnlyID()) or 1))
+                url = url .."&idfa=" ..idfa
+            elseif CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID then
+                local vcode = string.url_encode(TFDeviceInfo:getAppVersionCode() or 0)
+                url = url .."vname=" ..vname .."&vcode=" ..vcode .."&uid=" ..uid .."&sid=" ..sid .."&role_name=" ..role_name .."&role_id=" ..role_id .."&lang=" ..lang
+                local imei = "000000000000000"
+                if HeitaoSdk then
+                    local custom = HeitaoSdk.getcustom()
+                    if custom ~= "" then
+                        local jsonData = json.decode(custom)
+                        if jsonData ~= nil and jsonData.imei ~= nil and jsonData.imei ~= "" then
+                            imei = jsonData.imei
+                        end
+                    end
+                end
+                url = url .."&imei=" ..imei
+            end
+            TFDeviceInfo:openUrl(url)
+        end)
+
+    else
+        btn_:onClick(function( ... )
+            if me.platform == "win32" then
+                return
+            end
+            local url = openUrl --"http://api-en.datealive.com/yhdzz/customer?"
+            TFDeviceInfo:openUrl(url)
+        end)
+    end
+    
+
+    return btn_
+end
+
 function MainLayer:registerTouchEvent(node)
     node:addMEListener(TFWIDGET_TOUCHBEGAN, function(...)
         self:onTouchEvent("began", ...)
@@ -1987,6 +2082,8 @@ function MainLayer:hideOrShowUI(uiVisible)
     self.topLayer:setVisible(uiVisible)
     self.Panel_left:setVisible(uiVisible)
     self.label_serverTime:setVisible(uiVisible)
+
+    self.GiftRoot:setVisible(uiVisible) 
 end
 
 function MainLayer:onClickButton_wj()
@@ -2030,6 +2127,8 @@ function MainLayer:widgetHide()
     -- self.Panel_bottom:runAction(CCMoveBy:create(0.2,ccp(0,-100)));
     self.Panel_chat:runAction(CCMoveBy:create(0.2,ccp(-455,0)));
     --self.Panel_top:runAction(CCMoveBy:create(0.2,ccp(0,80)))
+
+    self.GiftRoot:runAction(CCFadeOut:create(0.2))
 end
 
 function MainLayer:widgetShow()
@@ -2038,6 +2137,8 @@ function MainLayer:widgetShow()
     -- self.Panel_bottom:runAction(Sequence:create({CCDelayTime:create(0.2),CCMoveBy:create(0.2,ccp(0,100))}))
     self.Panel_chat:runAction(Sequence:create({CCDelayTime:create(0.2),CCMoveBy:create(0.2,ccp(455,0))}))
     --self.Panel_top:runAction(Sequence:create({CCDelayTime:create(0.2),CCMoveBy:create(0.2,ccp(0,-80))}))
+    
+    self.GiftRoot:runAction(Sequence:create({CCDelayTime:create(0.2),CCFadeIn:create(0.2)}))
 end
 
 function MainLayer:onChatViewClose()
@@ -2411,6 +2512,8 @@ function MainLayer:onRedPointUpdateActivity()
     self.Image_activity_red5:setVisible(isShow)
     local isShow = ActivityDataMgr2:isShowRedPointInMainView(6)
     self.Image_activity_red6:setVisible(isShow)
+    local isShow = ActivityDataMgr2:isShowRedPointInMainView(1001)
+    self.Image_activity_red1001:setVisible(isShow)
     local isShow = ActivityDataMgr2:isShowRedPointInMainView(7)
     self.Image_activity_red7:setVisible(isShow)
 
@@ -2545,14 +2648,18 @@ function MainLayer:onCountDownPer(dt)
         self.Panel_feelling_info:hide()
     end
 
-    local giftBagEndTime = RechargeDataMgr:getLimitGiftBagTime()
-    if giftBagEndTime > 0 and giftBagEndTime > ServerDataMgr:getServerTime() then
-        local day, hour, min = Utils:getFuzzyDHMS(giftBagEndTime - ServerDataMgr:getServerTime(), true)
-        self.Label_left_time:show()
-        self.Label_left_time:setTextById(1260001, tostring(hour), tostring(min))
-    else
-        self.Label_left_time:hide()
-    end
+
+    --屏蔽补给站礼包时间显示
+    -- local giftBagEndTime = RechargeDataMgr:getLimitGiftBagTime()
+    -- if giftBagEndTime > 0 and giftBagEndTime > ServerDataMgr:getServerTime() then
+    --     local day, hour, min = Utils:getFuzzyDHMS(giftBagEndTime - ServerDataMgr:getServerTime(), true)
+    --     self.Label_left_time:show()
+    --     self.Label_left_time:setTextById(1260001, tostring(hour), tostring(min))
+    -- else
+    --     self.Label_left_time:hide()
+    -- end
+
+    self:updateGiftTime()
 end
 
 function MainLayer:onTouchRole()
@@ -2609,6 +2716,7 @@ function MainLayer:onShow()
 
     self.dateBtn:setTouchEnabled(true)
     self.battleBtn:setTouchEnabled(true)
+    self.Button_Activity1001:setTouchEnabled(true)
 
     --活动按钮是否显示
     self.Button_activity:setVisible(table.count(ActivityDataMgr2:getActivityInfo()) > 0);
@@ -2850,7 +2958,7 @@ function MainLayer:updateOneYearBtns()
 		
 		--按钮移动位置
 		if not self:isOneCelebrationMainLayer() then
-			if  (self.Button_Activity5 and self.Button_Activity5:isVisible()) or (self.Button_Activity6 and self.Button_Activity6:isVisible()) or (self.button_OneYear and self.button_OneYear:isVisible()) or (self.button_Caociyuan and self.button_Caociyuan:isVisible()) or (self.Button_Activity7 and self.Button_Activity7:isVisible()) then
+			if  (self.Button_Activity5 and self.Button_Activity5:isVisible()) or (self.Button_Activity6 and self.Button_Activity6:isVisible()) or (self.Button_Activity1001 and self.Button_Activity1001:isVisible()) or (self.button_OneYear and self.button_OneYear:isVisible()) or (self.button_Caociyuan and self.button_Caociyuan:isVisible()) or (self.Button_Activity7 and self.Button_Activity7:isVisible()) then
                 self.dateBtn:setPosition(ccp(393,200))
 				self.battleBtn:setPosition(ccp(581,200))
 				
@@ -3521,6 +3629,9 @@ function MainLayer:onUpdateActivitysState()
     local activityInfos = ActivityDataMgr2:getActivityInfo(nil,6)
     self.Button_Activity6:setVisible(#activityInfos > 0)
 
+    local activityInfos = ActivityDataMgr2:getActivityInfo(nil,1001)
+    self.Button_Activity1001:setVisible(#activityInfos > 0)
+
     local activityInfos = ActivityDataMgr2:getActivityInfo(nil,7)
     self.Button_Activity7:setVisible(#activityInfos > 0)
 
@@ -3626,6 +3737,7 @@ function MainLayer:excuteGuideFunc1002(guideFuncId)
     local targetNode = self.battleBtn
     self.guideFuncId = guideFuncId
     self.dateBtn:setTouchEnabled(false)
+    self.Button_Activity1001:setTouchEnabled(false)
     GameGuide:guideTargetNode(targetNode)
 end
 
@@ -3689,13 +3801,78 @@ function MainLayer:onRecyclingItems(data)
 end
 
 function MainLayer:onCheckPushGift()
-    if RechargeDataMgr:getPushGift() then
+    self:updatePushGiftList()
+	local giftData = RechargeDataMgr:getPushGift(1)
+    if giftData then
         local currentScene = Public:currentScene()
         if currentScene and currentScene:getTopLayer() and currentScene:getTopLayer().__cname == "MainLayer" then
-            Utils:openView("store.LimitGiftPackShowView")
+            --Utils:openView("store.LimitGiftPackShowView")
+			Utils:openView("store.PushGiftView", giftData)
         end
     end
 end
+
+function MainLayer:updatePushGiftList()
+	local GiftRoot = TFDirector:getChildByPath(self.ui,"GiftRoot");
+	if GiftRoot == nil then
+		return;
+	end
+	GiftRoot:removeAllChildren()
+	local giftPrefab = TFDirector:getChildByPath(self.ui,"PrefabGift");
+	local limitData = RechargeDataMgr:getLimitGiftData()   
+    if not limitData then return end
+	local scale = 1
+	for i = 1, #limitData do
+		local data = limitData[i]
+		local serverTime = ServerDataMgr:getServerTime()	
+		if data.triggerEndDate and data.triggerEndDate - serverTime > 0 then
+			local exData = json.decode(data.extendData)
+			if exData then
+				local clone = giftPrefab:clone()	
+				clone.data = data
+
+				GiftRoot:addChild(clone)
+				clone:setPosition(0,0)
+				clone:setScale(scale)
+				clone.size = clone:getSize()
+				clone:setPositionX((i - 1) * 70)
+
+				clone.button = clone:getChildByName("Button_Gift")
+				clone.button:setTextureNormal(exData["Icon"]);
+				clone.button:onClick(function()
+					 Utils:openView("store.PushGiftView", clone.data)
+				end)
+
+				clone.Name = clone:getChildByName("Name")
+				clone.Name:setText(data["name"])
+                clone.Name:setSkewX(10)
+
+				clone.TimeCount = clone:getChildByName("TimeCount")		
+                clone.TimeCount:setPositionY(-32)
+                clone.Name:setPositionY(0)
+				local hour, min = Utils:getFuzzyTime(data.triggerEndDate - serverTime, true)
+				local str = TextDataMgr:getText(301011,hour, min)
+				clone.TimeCount:setText(str)
+
+				table.insert(self.giftButton, clone)
+			end
+		end		
+	end
+end
+
+function MainLayer:updateGiftTime()
+	local serverTime = ServerDataMgr:getServerTime()	
+	for k, btn in pairs(self.giftButton) do
+		if btn.data then
+			local TimeCount = btn:getChildByName("TimeCount")
+            local time = math.max(btn.data.triggerEndDate - serverTime,0)						
+			local hour, min = Utils:getFuzzyTime(time, true)
+			local str = TextDataMgr:getText(301011,hour, min)
+			TimeCount:setText(str)
+		end
+	end
+end
+
 
 return MainLayer;
 

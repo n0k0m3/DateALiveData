@@ -1653,6 +1653,7 @@ EC_ActivityType2 = {
     CRAZY_DIAMOND = 1017, --疯狂砖石
     TURNTABLE = 1075  ,  --占卜罗盘活动
     DFW_NEW = 1076,         -- 新-大富翁活动
+    FANSHI_ASSIST = 1001,  --反十应援活动
 }
 
 EC_Activity_CHRISTMAS_Subtype = {

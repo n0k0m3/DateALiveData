@@ -599,6 +599,11 @@ function FunctionDataMgr:jActivity6(activitId, activityShowType)
     Utils:openView("activity.ActivityMainView6", activitId, activityShowType)
 end
 
+function FunctionDataMgr:jActivity1001(activitId, activityShowType)
+    activityShowType = activityShowType or 1001
+    Utils:openView("activity.ActivityMainView1001", activitId, activityShowType)
+end
+
 function FunctionDataMgr:jActivity2(activitId, activityShowType)
     if not self:checkFuncOpen() then return end
     self:closeChronoCrossOpenedView(activitId)

@@ -70,6 +70,8 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
+						PositionX = -58,
+						PositionY = 35,
 						relativeToName = "Panel",
 						nType = 3,
 						nGravity = 6,
@@ -173,7 +175,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "32",
+									height = "31",
 									ignoreSize = "True",
 									name = "Label_tokenPopView_1",
 									nTextAlign = "1",
@@ -190,7 +192,7 @@ local t =
 										PositionX = -298,
 										PositionY = 180,
 									},
-									width = "105",
+									width = "126",
 									ZOrder = "1",
 								},
 								{
@@ -236,7 +238,7 @@ local t =
 										PositionX = -187,
 										PositionY = 179,
 									},
-									width = "107",
+									width = "106",
 									ZOrder = "1",
 								},
 							},
@@ -605,10 +607,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 217,
-										PositionY = 32,
+										PositionX = 266,
+										PositionY = 33,
 									},
-									width = "301",
+									width = "513",
 									ZOrder = "1",
 									components = 
 									{
@@ -684,7 +686,7 @@ local t =
 										PositionX = 213,
 										PositionY = 152,
 									},
-									width = "165",
+									width = "73",
 									ZOrder = "1",
 								},
 								{
@@ -979,7 +981,7 @@ local t =
 											{
 												
 											},
-											width = "105",
+											width = "103",
 											ZOrder = "1",
 										},
 									},
@@ -1058,7 +1060,7 @@ local t =
 											{
 												
 											},
-											width = "68",
+											width = "87",
 											ZOrder = "1",
 										},
 									},

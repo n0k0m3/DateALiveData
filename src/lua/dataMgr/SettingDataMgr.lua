@@ -456,16 +456,16 @@ function SettingDataMgr:setTouchPower(power )
 end
 
 function SettingDataMgr:getDarkModel( )
-    local darkModel = UserDefalt:getStringForKey("DarkModel")
+    local darkModel = UserDefalt:getStringForKey("DarkModelNew")
     if darkModel == "" then
-        return 1
+        return 3
     else
         return tonumber(darkModel)
     end
 end
 
 function SettingDataMgr:setDarkModel( darkModel )
-    UserDefalt:setStringForKey("DarkModel", darkModel)
+    UserDefalt:setStringForKey("DarkModelNew", darkModel)
 end
 
 function SettingDataMgr:getDifficultyChoice()

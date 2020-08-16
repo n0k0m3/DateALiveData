@@ -12,6 +12,9 @@ function StoreActivityView:ctor(...)
     self:initData(...)
 
     local uiName = self.activityInfo_.extendData.uiName or "storeActivityView"
+    if self.activityInfo_.extendData.activityShowType == EC_ActivityType2.FANSHI_ASSIST then
+        uiName = "storeActivityViewFanshi"
+    end
     self:init("lua.uiconfig.activity."..uiName)
 end
 

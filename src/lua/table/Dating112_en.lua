@@ -19167,7 +19167,7 @@ return {
         endType = 0,
         isIgonreAction2 = false,
         expressionAction2 = "",
-        text = "I hadn't realized but there were barely any distance left between our cheeks.",
+        text = "I hadn't realized but there was barely any distance left between our cheeks.",
         game = 0,
         video = {
         },
@@ -28494,7 +28494,7 @@ return {
         endType = 0,
         isIgonreAction2 = false,
         expressionAction2 = "",
-        text = "No, but I'll go to anywhere you like, %s.",
+        text = "No, but I'll go anywhere you like, %s.",
         game = 0,
         video = {
         },
@@ -38750,7 +38750,7 @@ return {
         endType = 0,
         isIgonreAction2 = false,
         expressionAction2 = "",
-        text = "I get it now. Mayuri is an unique Spirit.",
+        text = "I get it now. Mayuri is a unique Spirit.",
         game = 0,
         video = {
         },
@@ -43502,7 +43502,7 @@ return {
         endType = 0,
         isIgonreAction2 = false,
         expressionAction2 = "",
-        text = "I have took notice of the popularity contest app you're investigating a few days ago. I asked many people, but——",
+        text = "I have taken notice of the popularity contest app you're investigating a few days ago. I asked many people, but——",
         game = 0,
         video = {
         },
@@ -71136,7 +71136,7 @@ return {
         endType = 0,
         isIgonreAction2 = false,
         expressionAction2 = "",
-        text = "There's other types of fish up ahead!",
+        text = "There are other types of fish up ahead!",
         game = 0,
         video = {
         },
@@ -84476,7 +84476,7 @@ return {
         endType = 0,
         isIgonreAction2 = false,
         expressionAction2 = "",
-        text = "We can go on the rides any time.",
+        text = "We can go on the rides at any time.",
         game = 0,
         video = {
         },
@@ -93146,7 +93146,7 @@ return {
         endType = 0,
         isIgonreAction2 = false,
         expressionAction2 = "",
-        text = "Yeah! There is legend of that sort. Don't you have the feeling?",
+        text = "Yeah! There is a legend of that sort. Don't you have the feeling?",
         game = 0,
         video = {
         },
@@ -103395,7 +103395,7 @@ return {
         endType = 0,
         isIgonreAction2 = false,
         expressionAction2 = "",
-        text = "The color looks like an orb of weak energy wave.",
+        text = "The color looks like an orb of weak Spirit Wave.",
         game = 0,
         video = {
         },
@@ -111878,7 +111878,7 @@ return {
         endType = 0,
         isIgonreAction2 = false,
         expressionAction2 = "",
-        text = "She looked at me silently after giving her answer.",
+        text = "She looked at me silently after giving her an answer.",
         game = 0,
         video = {
         },
@@ -115520,7 +115520,7 @@ return {
         endType = 0,
         isIgonreAction2 = false,
         expressionAction2 = "",
-        text = "I looked down at my own palms and majority of the feed were still there.",
+        text = "I looked down at my own palms and majority of the feed was still there.",
         game = 0,
         video = {
         },
@@ -123085,7 +123085,7 @@ return {
         endType = 0,
         isIgonreAction2 = false,
         expressionAction2 = "",
-        text = "Would you like to visit the Food Street? Or the cinema or doll house? Oh! What about an hot spring trip?",
+        text = "Would you like to visit the Food Street? Or the cinema or doll house? Oh! What about a hot spring trip?",
         game = 0,
         video = {
         },
@@ -127183,7 +127183,7 @@ return {
         endType = 0,
         isIgonreAction2 = false,
         expressionAction2 = "",
-        text = "No. You are an unique existence.",
+        text = "No. You are a unique existence.",
         game = 0,
         video = {
         },
@@ -142671,7 +142671,7 @@ return {
         endType = 0,
         isIgonreAction2 = false,
         expressionAction2 = "",
-        text = "A girl in white uniform appeared before me... Mayuri?",
+        text = "A girl in a white uniform appeared before me... Mayuri?",
         game = 0,
         video = {
         },
@@ -144345,7 +144345,7 @@ return {
         endType = 0,
         isIgonreAction2 = false,
         expressionAction2 = "",
-        text = "Don't worry. I won't let you disappear, so don't mention memorabilia any more.",
+        text = "Don't worry. I won't let you disappear, so don't mention memorabilia anymore.",
         game = 0,
         video = {
         },

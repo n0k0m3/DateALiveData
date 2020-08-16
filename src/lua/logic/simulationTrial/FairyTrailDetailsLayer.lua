@@ -415,6 +415,15 @@ function FairyTrailDetailsLayer:initUI(ui)
 	table.insert(self.tabButtons, {btn = self.btn_jiban, panel = self.tabPanels[4].pl,id = 4,uiType = self.tabPanels[4].uiType})
 	table.insert(self.tabButtons, {btn = self.btn_bone, panel = self.tabPanels[5].pl,id = 5,uiType = self.tabPanels[5].uiType})
 
+	--屏蔽信物和宝石
+	self.btn_attr:setPosition(self.btn_zhidian:getPosition())
+	self.btn_zhidian:setPosition(self.btn_angel:getPosition())
+	self.btn_angel:setPosition(self.btn_jiban:getPosition())
+	self.btn_jiban:hide()
+	self.btn_bone:hide()
+
+
+
 	for i,v in ipairs(self.tabButtons) do
 		v.btn:setTexturePressed(self.resConfig.selectedBtnTexture[v.id]);
 	end
@@ -1557,8 +1566,8 @@ function FairyTrailDetailsLayer:showGuide( )
     elvesNpc:setPosition(ccp(0, -380))
     Panel_modle:addChild(elvesNpc, 1)
     elvesNpc:newStartAction(guideCfg.action,EC_PRIORITY.FORCE)
-	Label_talk:setDimensions(250, 0)
-    Label_talk:setString(guideCfg.des)
+	Label_talk:setDimensions(270, 0)
+    Label_talk:setString(guideCfg.desc)
     local talkHeight = Label_talk:getContentSize().height
     Image_talk_bg:setSize(CCSizeMake(288, math.max(60, talkHeight + 50)))
 

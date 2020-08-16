@@ -38,3 +38,4 @@ GV_MIDAUTUMN_580129_FIRSTMAKE = make("GV_MIDAUTUMN_580129_FIRSTMAKE", "boolean",
 
 
 GV_UTC_TIME_ZONE = -7   ---Utc时区设置 目前 正负即为 对应+ - 时区
+GV_UTC_TIME_STRING = "(UTC-7)"

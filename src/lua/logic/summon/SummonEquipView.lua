@@ -431,7 +431,13 @@ function SummonEquipView:registerEvents()
             table.insert(tab,tostring(id))
             local equipconf = TabDataMgr:getData("Equipment", tonumber(equipcid))
             if equipconf then
-                equipnamestr = equipnamestr .. TextDataMgr:getText(equipconf.nameTextId) .. " "
+                local strTag = ""
+                if GAME_LANGUAGE_VAR ~= "" and i~= #self.selectEquipId then
+                    strTag = ", "
+                elseif  GAME_LANGUAGE_VAR == "" then
+                    strTag = " "
+                end
+                equipnamestr = equipnamestr .. TextDataMgr:getText(equipconf.nameTextId) .. strTag
             end
         end
 
@@ -444,7 +450,7 @@ function SummonEquipView:registerEvents()
             }
             SummonDataMgr:send_SUMMON_REQ_EXCHANGE(msg)
         end)
-        view:setRContent("r130002", equipnamestr, targetname)
+        view:setRContent(190000073, equipnamestr, targetname)
     end)
 
     self.Button_check:onClick(function()

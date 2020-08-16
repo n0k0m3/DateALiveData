@@ -33,6 +33,9 @@ function GiftActivityView:ctor(...)
     self.super.ctor(self)
     self:initData(...)
     local uiName = self.activityInfo_.extendData.uiName or "giftActivityView"
+    if self.activityInfo_.extendData.activityShowType == EC_ActivityType2.FANSHI_ASSIST then
+        uiName = "giftActivityViewFanshi"
+    end
     self:init("lua.uiconfig.activity."..uiName)
 end
 
@@ -47,6 +50,12 @@ function GiftActivityView:initUI(ui)
     local ScrollView_goods = TFDirector:getChildByPath(self.Panel_root, "ScrollView_goods")
     self.ListView_goods = UIListView:create(ScrollView_goods)
     self:refreshView( )
+
+    --英文版屏蔽超值礼包图片
+    if self.activityInfo_.extendData.activityShowType == EC_ActivityType2.FANSHI_ASSIST then
+        TFDirector:getChildByPath(ui , "Image_gift"):hide()
+    end
+    
 end
 
 function GiftActivityView:refreshView( )
@@ -76,7 +85,7 @@ end
 function GiftActivityView:updateGiftItem(item,data)
     local Image_diban   = TFDirector:getChildByPath(item,"Image_diban");
     local Label_price   = TFDirector:getChildByPath(item,"Label_price");
-    Label_price:setString("￥ "..data.rechargeCfg.price);
+    Label_price:setTextById(1605003 ,data.rechargeCfg.price / 100);
 
     local Image_exchange = TFDirector:getChildByPath(item,"Image_exchange")
     if data.buyType == 1 then
@@ -90,14 +99,14 @@ function GiftActivityView:updateGiftItem(item,data)
     end
 
     local Label_num     = TFDirector:getChildByPath(item,"Label_num");
-    Label_num:setText(data.name);
+    Label_num:setText(Utils:splitLanguageStringByTag(data.name));
 
     local Label_leftTime= TFDirector:getChildByPath(item,"Label_leftTime");
     Label_leftTime:setString(data.buyCount - RechargeDataMgr:getBuyCount(data.rechargeCfg.id));
     Label_leftTime:setVisible(data.buyCount ~= 0);
 
     local Label_buyCount     = TFDirector:getChildByPath(item,"Label_buyCount");
-    Label_buyCount:setText(data.des2)
+    Label_buyCount:setText(Utils:splitLanguageStringByTag(data.des2))
     Label_buyCount:setVisible(data.buyCount ~= 0);
 
     local Label_tips    = TFDirector:getChildByPath(item,"Label_tips");
@@ -145,6 +154,14 @@ function GiftActivityView:updateGiftItem(item,data)
         Label_tips:setFontColor( isCanBuy and ccc3(226,182,190) or ccc3(226,182,190))
         Label_leftTime:setFontColor( isCanBuy and ccc3(226,182,190) or ccc3(226,182,190))
         Label_price:setColor( isCanBuy and ccc3(210,94,95) or ccc3(210,94,95))
+        Button_buy:setGrayEnabled(not isCanBuy)
+        Button_buy:setTouchEnabled(isCanBuy)
+    elseif self.activityInfo_.extendData.activityShowType == EC_ActivityType2.FANSHI_ASSIST then
+        Image_diban:setTexture( isCanBuy and "ui/activity/fanshiAssist/storeActivity/03.png" or "ui/activity/fanshiAssist/storeActivity/04.png" )
+        Label_num:setFontColor( isCanBuy and ccc3(67,26,90) or ccc3(196,198,229))
+        Label_buyCount:setFontColor( isCanBuy and ccc3(255,255,255) or ccc3(196,198,229))
+        Label_tips:setFontColor( isCanBuy and ccc3(255,255,255) or ccc3(196,198,229))
+        Label_leftTime:setFontColor( isCanBuy and ccc3(255,255,255) or ccc3(252,56,112))
         Button_buy:setGrayEnabled(not isCanBuy)
         Button_buy:setTouchEnabled(isCanBuy)
     else

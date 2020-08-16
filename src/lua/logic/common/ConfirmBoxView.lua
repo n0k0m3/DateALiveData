@@ -41,12 +41,17 @@ function ConfirmBoxView:setContent(content)
 end
 
 function ConfirmBoxView:setRContent(contentId,...)
-    self.Label_content:hide()
-    local richLabel = TFRichText:create(ccs(self.Panel_frame:getSize().width, 0))
-    richLabel:AnchorPoint(me.p(0.5, 1))
-    local text = TextDataMgr:getFormatText(TextDataMgr:getTextAttr(contentId) , ...)
-    richLabel:Text(text)
-    richLabel:AddTo(self.Panel_frame)
+    if type(contentId) == "number" then
+        self.Label_content:setTextById(contentId,...)
+    else
+        self.Label_content:hide()
+        local richLabel = TFRichText:create(ccs(self.Panel_frame:getSize().width, 0))
+        richLabel:AnchorPoint(me.p(0.5, 1))
+        local text = TextDataMgr:getFormatText(TextDataMgr:getTextAttr(contentId) , ...)
+        richLabel:Text(text)
+        richLabel:AddTo(self.Panel_frame)
+    end
+    
     --self.Label_content:ignoreContentAdaptWithSize(true)
     --self.Label_content:setWidth(0)
     --self.Label_content:setTextById(contentId,...)

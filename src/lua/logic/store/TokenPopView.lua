@@ -66,6 +66,8 @@ function TokenPopView:initUI(ui)
     self._ui.imgToken:setTexture(exchangeCfg.icon);
     self._ui.imgToken:setSize(CCSizeMake(45,45));
 
+    TFDirector:getChildByPath(ui , "Label_tokenPopView_2"):hide()
+
     self:refreshBottomPannel();
 end
 

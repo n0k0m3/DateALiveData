@@ -216,7 +216,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "26",
 									ignoreSize = "True",
 									name = "Label_view",
 									nTextAlign = "1",
@@ -232,7 +232,7 @@ local t =
 									{
 										PositionY = -24,
 									},
-									width = "47",
+									width = "91",
 									ZOrder = "1",
 								},
 								{
@@ -420,8 +420,8 @@ local t =
 										StrokeColor = "#FFE37393",
 										StrokeSize = 2,
 									},
-									height = "34",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_exchange",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -436,7 +436,7 @@ local t =
 									{
 										
 									},
-									width = "101",
+									width = "199",
 									ZOrder = "1",
 								},
 							},
@@ -502,8 +502,8 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_check",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -518,7 +518,7 @@ local t =
 									{
 										PositionX = -35,
 									},
-									width = "91",
+									width = "100",
 									ZOrder = "1",
 								},
 								{
@@ -567,14 +567,14 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "30",
+							fontSize = "20",
 							fontStroke = 
 							{
 								IsStroke = true,
 								StrokeColor = "#FF3A4260",
 								StrokeSize = 2,
 							},
-							height = "41",
+							height = "28",
 							ignoreSize = "True",
 							name = "Label_tip1",
 							nTextAlign = "1",
@@ -588,10 +588,10 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 386,
+								PositionX = 314,
 								PositionY = 193,
 							},
-							width = "125",
+							width = "141",
 							ZOrder = "1",
 						},
 						{
@@ -613,14 +613,14 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "30",
+							fontSize = "20",
 							fontStroke = 
 							{
 								IsStroke = true,
 								StrokeColor = "#FF3A4260",
 								StrokeSize = 2,
 							},
-							height = "41",
+							height = "28",
 							ignoreSize = "True",
 							name = "Label_tip2",
 							nTextAlign = "1",
@@ -634,10 +634,10 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -382,
-								PositionY = -236,
+								PositionX = -324,
+								PositionY = -234,
 							},
-							width = "125",
+							width = "185",
 							ZOrder = "1",
 						},
 						{

@@ -183,6 +183,10 @@ function SummonView:updateSelectInfo()
 
     self.Button_goto:setVisible(summonCfg.summonType == EC_SummonType.CLOTHESE)
     self.Button_show:setVisible(summonCfg.summonType == EC_SummonType.CLOTHESE)
+    
+    --暂时屏蔽狂三卡池试用
+    self.Button_show:hide()
+
 
     if summonInfo and summonCfg.summonType == EC_SummonType.APPOINT_EQUIPMENT then
         if summonInfo.equipRewards and next(summonInfo.equipRewards) then
@@ -264,9 +268,18 @@ function SummonView:updateSelectInfo()
     self.Label_tips:setText("")
     if summonCfg.summonType == EC_SummonType.APPOINT_EQUIPMENT or summonCfg.summonType == EC_SummonType.APPOINT_HERO then
         if summonInfo then
-            local startShow = TFDate(summonInfo.startShow):tolocal():fmt("%Y.%m.%d")
-            local endShow = TFDate(summonInfo.endShow):tolocal():fmt("%Y.%m.%d %H:%M")
-            self.Label_tips:setTextById(14300100, startShow, endShow)
+            local startShow = TFDate(summonInfo.startShow + GV_UTC_TIME_ZONE * 3600):fmt("%Y.%m.%d")
+            local endShow = TFDate(summonInfo.endShow+ GV_UTC_TIME_ZONE * 3600):fmt("%Y.%m.%d %H:%M")
+            self.Label_tips:setText(TextDataMgr:getText( 14300100, startShow, endShow)..GV_UTC_TIME_STRING)
+        end
+    end
+
+    --增加狂三猫爪娘日期
+    if summonCfg.summonType == EC_SummonType.CLOTHESE then
+       if summonInfo then
+            local startShow = TFDate(summonInfo.startShow + GV_UTC_TIME_ZONE * 3600):fmt("%Y.%m.%d")
+            local endShow = TFDate(summonInfo.endShow+ GV_UTC_TIME_ZONE * 3600):fmt("%Y.%m.%d %H:%M")
+            self.Label_tips:setText(TextDataMgr:getText( 14300100, startShow, endShow)..GV_UTC_TIME_STRING)
         end
     end
 
@@ -326,9 +339,9 @@ function SummonView:updateSelectInfo()
         self.Label_hotCount_2:setTextById(summonType == EC_SummonType.HOT_ROLE and 1200067 or 1200068)
         local tabData = self.hotSpotData_[self.selectHotTabIndex_]
         local timestamp = SummonDataMgr:getHotSummonEndTime(tabData.loopType)
-        local date = TFDate(timestamp):tolocal()
+        local date = TFDate(timestamp + GV_UTC_TIME_ZONE * 3600)
         local timeStr = date:fmt("%Y-%m-%d %H:%M:%S")
-        self.Label_tips:setTextById(1200070, timeStr)
+        self.Label_tips:setTextById(1200070, timeStr..GV_UTC_TIME_STRING)
         local remainCount = SummonDataMgr:getHotSummonRemainCount(tabData.loopType)
         self.Label_hotCount:setText(remainCount)
         self.Image_hotPlay:setVisible(tabData.loopType == EC_SummonLoopType.ROLE)
@@ -530,7 +543,7 @@ function SummonView:registerEvents()
     end)
 
     self.Button_goto:onClick(function()
-        Utils:openView("role.NewRoleShowView", 101, 410111)
+        Utils:openView("role.NewRoleShowView", 104, 410409)
     end)
 
     self.Button_show:onClick(function()

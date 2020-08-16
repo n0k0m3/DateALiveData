@@ -156,7 +156,7 @@ return {
         des = "SSS级能量宝石，获取后可随机得到【诱宵美九】任意技能SSS级宝石。",
     },
     [520050] = {
-        superType = 12,
+        superType = 7,
         desTextId = 22100,
         cost = "",
         order = 1,
@@ -53626,6 +53626,103 @@ return {
         },
         des = "开启后会从夜刀神十香、四糸乃、AST折纸、DEM真那、八舞耶具矢、八舞夕弦中随机获取一个。",
     },
+    [566038] = {
+        superType = 6,
+        desTextId = 190000071,
+        cost = "",
+        order = 0,
+        pileUp = true,
+        useProfit = {
+        },
+        buyItemRecover = 0,
+        gridMax = 999,
+        bornEffect = false,
+        outTime = 0,
+        bagType = 5,
+        autoUse = false,
+        nameTextId = 190000064,
+        icon = "icon/item/goods/566038.png",
+        quality = 6,
+        isHide = false,
+        delete = false,
+        useCast = {
+        },
+        onceUseLimit = 0,
+        id = 566038,
+        totalMax = 999,
+        subType = 4,
+        sellProfit = {
+            [1] = {
+                [1] = 500001,
+                [2] = 10000,
+            },
+        },
+        batchUse = false,
+        convertMax = {
+        },
+        iconShow = "",
+        smallType = 0,
+        dealProfit = {
+        },
+        star = 0,
+        accessId = {
+            [1] = 301,
+            [2] = 129,
+        },
+        des = "可以替代货币（钻石）进行召唤的道具。外形是一个设计精巧的徽章",
+    },
+    [566039] = {
+        superType = 7,
+        desTextId = 20901,
+        cost = "",
+        order = 1,
+        pileUp = false,
+        useProfit = {
+            fix = {
+                items = {
+                    [1] = {
+                        id = 410124,
+                        num = 1,
+                    },
+                },
+            },
+        },
+        buyItemRecover = 0,
+        gridMax = 1,
+        bornEffect = false,
+        outTime = 0,
+        bagType = 4,
+        autoUse = true,
+        nameTextId = 20900,
+        icon = "icon/item/goods/566039.png",
+        quality = 4,
+        isHide = false,
+        delete = false,
+        useCast = {
+        },
+        onceUseLimit = 0,
+        id = 566039,
+        totalMax = 1,
+        subType = 3,
+        sellProfit = {
+            [1] = {
+                [1] = 500001,
+                [2] = 1,
+            },
+        },
+        batchUse = false,
+        convertMax = {
+            [570004] = 30,
+        },
+        iconShow = "",
+        smallType = 0,
+        dealProfit = {
+        },
+        star = 0,
+        accessId = {
+        },
+        des = "意外的合适呢，就是有点紧...",
+    },
     [533301] = {
         superType = 6,
         desTextId = 260531,
@@ -70283,7 +70380,7 @@ return {
         des = "",
     },
     [520012] = {
-        superType = 12,
+        superType = 7,
         desTextId = 22024,
         cost = "",
         order = 1,
@@ -103495,7 +103592,7 @@ return {
         des = "三星饮品1",
     },
     [520013] = {
-        superType = 12,
+        superType = 7,
         desTextId = 22026,
         cost = "",
         order = 1,
@@ -104308,7 +104405,7 @@ return {
         des = "三星饮品2",
     },
     [520017] = {
-        superType = 12,
+        superType = 7,
         desTextId = 22034,
         cost = "",
         order = 1,

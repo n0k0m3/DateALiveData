@@ -15288,7 +15288,7 @@ return {
             },
             [3] = {
                 speed = 60,
-                text = "我I guess I'll just have to wipe her out.",
+                text = "I guess I'll just have to wipe her out.",
             },
         },
         actionL = {
@@ -16140,6 +16140,30 @@ return {
         effect = "",
         id = 473,
         text = {
+            [1] = {
+                speed = 60,
+                text = "Wonderful! ",
+                delay = 1820,
+            },
+            [2] = {
+                speed = 60,
+                text = "This is the first time I've seen such an excellent inversion. ",
+                delay = 3100,
+            },
+            [3] = {
+                speed = 60,
+                text = "Look, Ellen. ",
+                delay = 1400,
+            },
+            [4] = {
+                speed = 60,
+                text = "That is our dream, ",
+                delay = 1820,
+            },
+            [5] = {
+                speed = 60,
+                text = "our dearest wish.",
+            },
         },
         actionL = {
         },
@@ -16577,12 +16601,12 @@ return {
             },
             [3] = {
                 speed = 60,
-                text = "Let us meet again. ",
+                text = "Let us meet again, %s",
                 delay = 1320,
             },
             [4] = {
                 speed = 60,
-                text = "IF you survive, that is.",
+                text = "If you survive, that is.",
             },
         },
         actionL = {
@@ -19445,7 +19469,7 @@ return {
             },
             [5] = {
                 speed = 40,
-                text = "I will protect our onii-chan.",
+                text = "I will protect our Big Brother.",
             },
         },
         actionL = {
@@ -21792,15 +21816,26 @@ return {
         scriptId = 100012,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 633,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "The center of that so called Spirit wave,",
+                delay = 400,
+            },
+            [2] = {
+                speed = 40,
+                text = "is probably this way.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -22206,15 +22241,41 @@ return {
         scriptId = 100014,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 643,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 80,
+                text = "Shekhinah?",
+                delay = 1000,
+            },
+            [2] = {
+                speed = 80,
+                text = "Why...",
+                delay = 800,
+            },
+            [3] = {
+                speed = 60,
+                text = "Ah,",
+                delay = 600,
+            },
+            [4] = {
+                speed = 60,
+                text = "I see,",
+                delay = 400,
+            },
+            [5] = {
+                speed = 40,
+                text = "you helped me again. ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -22434,15 +22495,47 @@ return {
         scriptId = 100015,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 649,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Come on,",
+                delay = 400,
+            },
+            [2] = {
+                speed = 40,
+                text = "cut off the despair embraced by that sword,",
+                delay = 600,
+            },
+            [3] = {
+                speed = 40,
+                text = "with the hope",
+            },
+            [4] = {
+                speed = 40,
+                text = "boarding in",
+            },
+            [5] = {
+                speed = 40,
+                text = "Sandalphon",
+            },
+            [6] = {
+                speed = 40,
+                text = "and",
+            },
+            [7] = {
+                speed = 40,
+                text = "Shekhinah!",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -26673,15 +26766,26 @@ return {
         scriptId = 100026,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 760,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Weather control device?",
+                delay = 1000,
+            },
+            [2] = {
+                speed = 40,
+                text = "Then that is where we will go next!",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -34086,15 +34190,26 @@ return {
         scriptId = 100051,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 947,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Roger!",
+                delay = 1000,
+            },
+            [2] = {
+                speed = 40,
+                text = "Kerubiel, here we go!",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -34420,7 +34535,7 @@ return {
             },
             [2] = {
                 speed = 40,
-                text = "Are they aiming for onii-chan?!",
+                text = "Are they aiming for Big Brother?!",
             },
         },
         actionL = {
@@ -38021,15 +38136,21 @@ return {
         scriptId = 9052,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 1107,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "The weaklings are mostly eaten, but the taste is really bad.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -38058,7 +38179,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Let's get out of here, onii-chan... he can't hold it much longer.",
+                text = "Let's get out of here, Big Brother... he can't hold it much longer.",
             },
         },
         actionL = {
@@ -38117,15 +38238,21 @@ return {
         scriptId = 9052,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 1110,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Sorry, we can't stay here... that Lucky Pervert is about to faint.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -38247,15 +38374,21 @@ return {
         scriptId = 9052,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 1114,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Where is Divine Veil? We are running out of time!",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -38309,15 +38442,21 @@ return {
         scriptId = 9053,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 1116,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Is this a part of the Divine Veil? ... try it.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -38745,15 +38884,21 @@ return {
         scriptId = 9056,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 1129,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Divine Veil can only protect him? Tohka... is also getting worse.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -38773,15 +38918,21 @@ return {
         scriptId = 9056,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 1130,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Originally, Divine Veil could protect the entire Chesed world, but ASTAROTH's power weakened it.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -39019,7 +39170,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "No, %s and Tohka-san... must not... please use my Spirit Power!",
+                text = "No, %s and Tohka... must not... please use my Spirit Power!",
             },
         },
         actionL = {
@@ -39121,7 +39272,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "The best and fastest way... to save onii-chan and Tohka... is to destroy that guy?",
+                text = "The best and fastest way... to save Big Brother and Tohka... is to destroy that guy?",
             },
         },
         actionL = {
@@ -39146,15 +39297,21 @@ return {
         scriptId = 9056,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 1141,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "That's right, deplete ASTAROTH's power, let Divine Veil protect %s.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -39217,7 +39374,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "No... we must protect onii-chan, let's retreat for now.",
+                text = "No... we must protect Big Brother, let's retreat for now.",
             },
         },
         actionL = {
@@ -39251,7 +39408,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Tohka-san... are you okay?... You don't look well.",
+                text = "Tohka... are you okay?... You don't look well.",
             },
         },
         actionL = {
@@ -39557,7 +39714,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Onii-chan, Tohka, have you recovered?",
+                text = "Big Brother, Tohka, have you recovered?",
             },
         },
         actionL = {
@@ -40058,15 +40215,21 @@ return {
         scriptId = 9063,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 1169,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Oh... you won't stop until I am killed?",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -40086,15 +40249,21 @@ return {
         scriptId = 9063,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 1170,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Spirits must be destroyed.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -40250,15 +40419,21 @@ return {
         scriptId = 9064,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 1175,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Did that Spirit hunter appear?",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -41128,15 +41303,21 @@ return {
         scriptId = 9070,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 1205,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Miku, calm down... she is the Spirit Hunter.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -41156,15 +41337,21 @@ return {
         scriptId = 9070,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 1206,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Spirit Hunter indeed, I felt captured when I first saw you.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -42145,7 +42332,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Baka! Devil is too dangerous, I can't let onii-chan contact her directly.",
+                text = "Baka! Devil is too dangerous, I can't let Big Brother contact her directly.",
             },
         },
         actionL = {
@@ -42374,15 +42561,21 @@ return {
         scriptId = 9078,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 1250,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Let me bury the Spirit Hunter from purgatory!",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -42402,15 +42595,21 @@ return {
         scriptId = 9078,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 1251,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Expectant, Kaguya wanted to be Spirit hunter terminator for a long time.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -43527,7 +43726,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Shekinah!",
+                text = "Shekhinah!",
             },
         },
         actionL = {
@@ -48035,15 +48234,21 @@ return {
         scriptId = 9124,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 1464,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "What is a Spirit? Besides, I'm not a Spirit. I won't change my name no matter what, my name is...",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -48097,15 +48302,21 @@ return {
         scriptId = 9125,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 1467,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "This is the end, Spirit!",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -48125,15 +48336,21 @@ return {
         scriptId = 9125,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 1468,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Ah... like I said, I'm not what you called Spirit.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -48153,15 +48370,21 @@ return {
         scriptId = 9125,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 1469,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "My name is Neptune and I'm a goddess of Planeptune.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -48181,15 +48404,21 @@ return {
         scriptId = 9125,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 1470,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Goddess? I don't know what you are talking about, my objective is to bring you back to the base.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -48651,15 +48880,21 @@ return {
         scriptId = 9128,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 1487,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Huh? Did you just say Spirit!? You are the spirit those people are trying to capture!?",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -50345,15 +50580,21 @@ return {
         scriptId = 9138,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 1549,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Okay, open your eyes and witness the mighty goddess!",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -51495,15 +51736,21 @@ return {
         scriptId = 9145,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 1589,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "What...? How did you know about Spirit? Who told you?",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -53257,15 +53504,21 @@ return {
         scriptId = 9156,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 1650,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Neptune? Why are you with those Spirits?",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -53795,15 +54048,21 @@ return {
         scriptId = 9158,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 1669,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "I'm here to bring back our goddess.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -53823,15 +54082,21 @@ return {
         scriptId = 9158,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 1670,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Oh my, it seems that your goddess no longer believes your lies.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -54565,15 +54830,21 @@ return {
         scriptId = 9163,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 1700,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "After studying your power source, Ike has customized a special trap just for you.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -54593,15 +54864,21 @@ return {
         scriptId = 9163,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 1701,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "You won't get any Power of Faith while inside this space and will only grow weaker.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -54723,15 +55000,21 @@ return {
         scriptId = 9164,
         headMirrorL = true,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 1708,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "This device uses Power of Faith as fuel to apply inverse load to Spirit Crystal.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -55193,15 +55476,21 @@ return {
         scriptId = 9167,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 1725,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "You won't get any Power of Faith while inside this space isolated by Realizer.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -56037,15 +56326,21 @@ return {
         scriptId = 9172,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 1757,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "That's right ~ the pumpkin lamp that took Tohka away has entered this castle!",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -56133,15 +56428,21 @@ return {
         scriptId = 9172,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 1760,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Kidnapped by Pumpkin Lamp, sounds like something out of an absurd comedy, could it be real?",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -56229,15 +56530,21 @@ return {
         scriptId = 9172,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 1763,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "That huge pumpkin said that the demon king chosen by the castle shall be reborn under the blood moon... then it took Tohka away!",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -56257,15 +56564,21 @@ return {
         scriptId = 9172,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 1764,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "The demon king chosen by the castle?... What a weird title.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -56353,15 +56666,21 @@ return {
         scriptId = 9172,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 1767,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "The castle is called Mold Castle, originally a military fortress, also an execution site, rumored to be haunted.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -56891,15 +57210,21 @@ return {
         scriptId = 9174,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 1785,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "They are indeed moving pumpkins!... So it really was the pumpkin lamp that took Tohka away!",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -56919,15 +57244,21 @@ return {
         scriptId = 9174,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 1786,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "I told you! It really is a pumpkin lamp!",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -57151,15 +57482,21 @@ return {
         scriptId = 9175,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 1794,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Are you... the enemies... of that lady?",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -57179,15 +57516,21 @@ return {
         scriptId = 9175,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 1795,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Who is that lady? Do you mean Tohka?",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -57207,15 +57550,21 @@ return {
         scriptId = 9175,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 1796,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "You're not allowed to approach that lady!",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -57235,15 +57584,21 @@ return {
         scriptId = 9176,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 1798,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "We still don't know who that lady is in the end...",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -57943,15 +58298,21 @@ return {
         scriptId = 9179,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 1822,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "These crushed pumpkins should be the food of the ghosts.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -58005,15 +58366,21 @@ return {
         scriptId = 9179,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 1824,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Looks like we are more delicious than pumpkins… They are coming!",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -58042,7 +58409,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "My onii-chan is not a pumpkin to be cooked!",
+                text = "My Big Brother is not a pumpkin to be cooked!",
             },
         },
         actionL = {
@@ -58271,15 +58638,21 @@ return {
         scriptId = 9181,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 1834,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "So you are the ones who are trying to kidnap that lady!",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -58333,15 +58706,21 @@ return {
         scriptId = 9181,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 1836,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "We will protect that lady! Our lord won't allow you to approach her!",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -58361,15 +58740,21 @@ return {
         scriptId = 9181,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 1837,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Our lord? You mean the leader of your organization?",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -58389,15 +58774,21 @@ return {
         scriptId = 9181,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 1838,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Our lord is the owner of the castle, that lady is an honored guest of our lord!",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -58417,15 +58808,21 @@ return {
         scriptId = 9181,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 1839,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Can't let you take that lady away, she will be reborn under the blood moon. No! Can't allow that to happen!",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -58479,15 +58876,21 @@ return {
         scriptId = 9182,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 1842,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "That lady is under the protection of our lord, no one can take away her power!",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -58541,15 +58944,21 @@ return {
         scriptId = 9182,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 1844,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Our Lord must be staying with that lady!",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -58603,15 +59012,21 @@ return {
         scriptId = 9182,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 1846,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "You ARE against that lady! Villains! Evil intruders!",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -59617,15 +60032,21 @@ return {
         scriptId = 9187,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 1881,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "If you want to play with the Witch, I can satisfy you.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -60631,15 +61052,21 @@ return {
         scriptId = 9195,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 1920,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Probably... but shouldn't there be guardians near the treasures?",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -60761,15 +61188,21 @@ return {
         scriptId = 9197,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 1926,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "So you are the evil intruders, the witches who want to take away the power of that lady!",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -60789,15 +61222,21 @@ return {
         scriptId = 9197,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 1927,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "I'll never allow you to hurt that lady!",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -60817,15 +61256,21 @@ return {
         scriptId = 9197,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 1928,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Is that lady Tohka? Why did you take her away?!",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -60845,15 +61290,21 @@ return {
         scriptId = 9197,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 1929,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "It was this castle that chose that lady and gave her the power of Demon King.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -60941,15 +61392,21 @@ return {
         scriptId = 9197,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 1932,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "No! I'll protect that lady!",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -61037,15 +61494,21 @@ return {
         scriptId = 9198,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 1936,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "You won't succeed... that lady has already gained the power of the Demon King.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -61065,15 +61528,21 @@ return {
         scriptId = 9198,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 1937,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Wait... Demon King?!",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -61229,15 +61698,21 @@ return {
         scriptId = 9199,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 1944,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "The so-called power of the Demon King is actually the power of Inversed Spirit Crystal?",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -61504,7 +61979,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "No... Tohka-san must not hurt everyone.",
+                text = "No... Tohka must not hurt everyone.",
             },
         },
         actionL = {
@@ -61572,7 +62047,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "... Please... return to the usual Tohka-san.",
+                text = "... Please... return to the usual Tohka.",
             },
         },
         actionL = {
@@ -61674,7 +62149,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "I'm, fine... Tohka-san is too strong.",
+                text = "I'm, fine... Tohka is too strong.",
             },
         },
         actionL = {
@@ -61980,7 +62455,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Come here, Yoshino, Natsumi. Tohka-san of this state is super scary.",
+                text = "Come here, Yoshino, Natsumi. Tohka of this state is super scary.",
             },
         },
         actionL = {
@@ -62048,7 +62523,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Last time I saw Tohka-san like this, I almost got killed.",
+                text = "Last time I saw Tohka like this, I almost got killed.",
             },
         },
         actionL = {
@@ -62150,7 +62625,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "So scary... Tohka-san in this state is super terrifying.",
+                text = "So scary... Tohka in this state is super terrifying.",
             },
         },
         actionL = {
@@ -62184,7 +62659,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Tohka-san... doesn't seem to recognize us...",
+                text = "Tohka... doesn't seem to recognize us...",
             },
         },
         actionL = {
@@ -62243,15 +62718,21 @@ return {
         scriptId = 9207,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 1982,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "It's Ratatoskr's fault for failing to notice Tohka's inverse.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -62305,15 +62786,21 @@ return {
         scriptId = 9207,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 1984,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "You! How dare you call my existence an error…",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -62367,15 +62854,21 @@ return {
         scriptId = 9208,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 1987,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Nothing significant at the moment, but I suspect it is related to the castle.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -62395,15 +62888,21 @@ return {
         scriptId = 9208,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 1988,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Castle? Those pumpkins also mentioned it...",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -68778,15 +69277,21 @@ return {
         scriptId = 100164,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 10016401,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Big Brother, how much do you know about Command Battle?",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -70681,15 +71186,21 @@ return {
         scriptId = 9226,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 2094,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Go to the old church, maybe you can find a clue for the world gate there.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -71015,15 +71526,21 @@ return {
         scriptId = 9231,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 2134,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "In order to defeat me, the betrayer, they have no other choice...",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -71742,15 +72259,31 @@ return {
         scriptId = 101003,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 10100304,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "If you don't mind,",
+                delay = 300,
+            },
+            [2] = {
+                speed = 40,
+                text = "can you tell me,",
+                delay = 300,
+            },
+            [3] = {
+                speed = 40,
+                text = "where did you learn this name of Kurumi?",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -71838,15 +72371,21 @@ return {
         scriptId = 1501002,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 150100201,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Please tell us how to get to the programming department.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -73764,7 +74303,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Mayuri, onii-chan said he wanted to hear your voice.",
+                text = "Mayuri, Big Brother said he wanted to hear your voice.",
             },
         },
         actionL = {
@@ -74003,15 +74542,21 @@ return {
         scriptId = 100314,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 10031404,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Of course not! Change into this ~ Frankenstein!",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -74142,7 +74687,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Onii-chan, why do you look so weird?",
+                text = "Big Brother, why do you look so weird?",
             },
         },
         actionL = {
@@ -74439,15 +74984,21 @@ return {
         scriptId = 100800,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 1000803,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Origami Tobiichi... I hate you. That hasn't changed one bit. But this hate and the hate of the past are somewhat different.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -74661,7 +75212,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Humph, onii-chan is busy spending Halloween with me!",
+                text = "Humph, Big Brother is busy spending Halloween with me!",
             },
         },
         actionL = {
@@ -74729,7 +75280,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Is that more important than onii-chan?",
+                text = "Is that more important than Big Brother?",
             },
         },
         actionL = {
@@ -77392,7 +77943,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Onii-chan just ate the hot pot from Origami... that was terrible.",
+                text = "Big Brother just ate the hot pot from Origami... that was terrible.",
             },
         },
         actionL = {
@@ -79924,7 +80475,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Did you come here to ask onii-chan a question?",
+                text = "Did you come here to ask Big Brother a question?",
             },
         },
         actionL = {
@@ -81922,15 +82473,21 @@ return {
         scriptId = 2501167,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 250116702,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "According to the data, this is the most fierce Nian Beast Nian.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -82479,7 +83036,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Sorry, Tohka. But this time, onii-chan will definitely protect you!",
+                text = "Sorry, Tohka. But this time, Big Brother will definitely protect you!",
             },
         },
         actionL = {
@@ -85215,7 +85772,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Yoshinon... boo hoo...",
+                text = "Yoshinon... *Sniff*…",
             },
         },
         actionL = {
@@ -86965,15 +87522,21 @@ return {
         scriptId = 201003,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 20100306,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Hot Games… is that the name of your organization? This intel seems important.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -90088,15 +90651,21 @@ return {
         scriptId = 100345,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 10034509,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Tohka has become so strong! But I'm worried about this leave me alone attitude of hers.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -91491,15 +92060,21 @@ return {
         scriptId = 2501166,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 250116604,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "According to the data, this guy here is Nian Beast Xi.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -96942,7 +97517,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Your reasoning is pretty good, onii-chan.",
+                text = "Your reasoning is pretty good, Big Brother.",
             },
         },
         actionL = {
@@ -103098,15 +103673,21 @@ return {
         scriptId = 9228,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 2108,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Second... you want to hog the good stuff below, right? Good nourishment? You must be talking about Qliphoth energy.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -107229,15 +107810,26 @@ return {
         scriptId = 101004,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 10100402,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Please tell me,",
+                delay = 300,
+            },
+            [2] = {
+                speed = 40,
+                text = "where did you download this app.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -109554,7 +110146,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Onii-chan, don't you know that there are bond bonuses between Spirits?",
+                text = "Big Brother, don't you know that there are bond bonuses between Spirits?",
             },
         },
         actionL = {
@@ -109749,15 +110341,21 @@ return {
         scriptId = 100110,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 10011002,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Looks like 12 is your lucky number.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -110228,7 +110826,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Anyway, I need to thank you, onii-chan.",
+                text = "Anyway, I need to thank you, Big Brother.",
             },
         },
         actionL = {
@@ -112637,15 +113235,21 @@ return {
         scriptId = 8018,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 801803,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "By then, the existence of everyone here will belong to me.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -114184,7 +114788,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "I think, onii-chan also wants to see you, right?",
+                text = "I think, Big Brother also wants to see you, right?",
             },
         },
         actionL = {
@@ -117803,7 +118407,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Shekinah! Sandalphon!",
+                text = "Shekhinah! Sandalphon!",
             },
         },
         actionL = {
@@ -120574,15 +121178,21 @@ Father... Mother...",
         scriptId = 9229,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 2117,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Finding the world gate means the end of my alliance with BELPHEGOR. Also, you can get your nourishment after I leave this world...",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -124787,7 +125397,7 @@ Father... Mother...",
         text = {
             [1] = {
                 speed = 40,
-                text = "Umu! Shekinah Tohka has been added into Spirit Card Pool, with the power of Sephira set, we can save Mayuri!",
+                text = "Umu! Shekhinah Tohka has been added into Spirit Card Pool, with the power of Sephira set, we can save Mayuri!",
             },
         },
         actionL = {
@@ -124914,15 +125524,21 @@ Father... Mother...",
         scriptId = 90018,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 9001806,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Looks like I'll just have to use that.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -125519,15 +126135,21 @@ Father... Mother...",
         scriptId = 100311,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 10031103,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Maid outfits...? Umu! I know! After wearing it, one must say welcome back, master ~",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -127829,15 +128451,21 @@ Father... Mother...",
         scriptId = 100141,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 10014103,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "But I seemed to have said congratulations, right?",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,

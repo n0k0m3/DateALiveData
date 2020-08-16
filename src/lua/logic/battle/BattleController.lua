@@ -1349,10 +1349,12 @@ end
 function battleController._endBattle()
     --战斗结束音效
     musicMgr.playEndOfBattle(this.bWin)
-    EventMgr:dispatchEvent(eEvent.EVENT_SHOW__STACE_CLEAR, function ()end)
+    EventMgr:dispatchEvent(eEvent.EVENT_SHOW__STACE_CLEAR, function()
+        this.requestFightingOver()
+    end)
     HeroDataMgr:changeDataToSelf()
     --向服务发送战斗结束请求
-    this.requestFightingOver()
+    --this.requestFightingOver()
 end
 
 --移除
@@ -1365,7 +1367,7 @@ end
 
 --结束战斗
 function battleController.endBattle(bWin)
-    printError("endBattle")
+    --printError("endBattle")
     if this.isZLJH() then --追猎技术啊没有失败默认胜利
         bWin = true
     end

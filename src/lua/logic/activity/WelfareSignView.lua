@@ -29,8 +29,10 @@ function WelfareSignView:ctor( data )
 	self.activityId = data
     self.activityInfo = ActivityDataMgr2:getActivityInfo(self.activityId)
     local uiName = self.activityInfo.extendData.uiName or "welfareSignView"
+    if self.activityInfo.extendData.activityShowType == EC_ActivityType2.FANSHI_ASSIST then
+        uiName = "fanshiAssistSignView"
+    end
     self:init("lua.uiconfig.activity."..uiName)
-	
 end
 
 function WelfareSignView:initUI(ui)
@@ -107,6 +109,7 @@ end
 function WelfareSignView:updateByPage()
 	--设置背景图
 	if self.activityInfo.extendData.activityShowType and self.activityInfo.extendData.activityShowType == 6 then
+	elseif self.activityInfo.extendData.activityShowType and self.activityInfo.extendData.activityShowType == EC_ActivityType2.FANSHI_ASSIST then
 	else
 		self.Image_bg:setTexture("ui/activity/activityStyle/wefareSignActivity/styleCur/bg"..self.selectPage_.. ".png")
 	end
@@ -153,6 +156,9 @@ function WelfareSignView:updateByPage()
 			--设置领取状态背景
 			if self.activityInfo.extendData.activityShowType and self.activityInfo.extendData.activityShowType == 6 then
 				local pic_path = "ui/activity/assist/kuangsan/sign_00".._index..".png"
+				_foo.Image_border:setTexture(pic_path)
+			elseif self.activityInfo.extendData.activityShowType and self.activityInfo.extendData.activityShowType == EC_ActivityType2.FANSHI_ASSIST then
+				local pic_path = "ui/activity/fanshiAssist/signView/sign_00".._index..".png"
 				_foo.Image_border:setTexture(pic_path)
 			else
 				if _progressInfo.status ~= EC_TaskStatus.ING  then

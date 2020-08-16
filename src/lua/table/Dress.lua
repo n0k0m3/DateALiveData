@@ -697,7 +697,7 @@ return {
         roleModel = 210115,
         icon = "icon/role/dress_kanban/10115.png",
         accessId = {
-            [1] = 98,
+            [1] = 302,
         },
         totalMax = 1,
     },

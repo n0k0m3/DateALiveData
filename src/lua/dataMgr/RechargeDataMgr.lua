@@ -13,6 +13,8 @@ function RechargeDataMgr:reset()
 	self.monthCardSignData = {}--月卡签到数据
 	self.monthCardGiftData = {}--月卡礼包数据
 	self.fundDataDic = {}  -- 养成基金数据
+
+	self.pushGiftData = nil
 end
 
 function RechargeDataMgr:init()
@@ -34,7 +36,9 @@ function RechargeDataMgr:init()
 	TFDirector:addProto(s2c.RECHARGE_RES_MONCARD_SIGN,self,self.recvMonthCardSign)
 	TFDirector:addProto(s2c.RECHARGE_RES_MONCARD_STORE,self,self.recvMonthCardGiftBuy)
 
-	TFDirector:addProto(s2c.RECHARGE_RES_TRIGGER_GIFT_INFO,self,self.recvTriggerGift)
+	--新加的触发式限时礼包的推送
+	--TFDirector:addProto(s2c.RECHARGE_RES_TRIGGER_GIFT_INFO, self, self.recvTriggerGiftInfo)
+    TFDirector:addProto(s2c.RECHARGE_RES_TRIGGER_GIFT_INFO,self, self.recvTriggerGift)
 
 	TFDirector:addProto(s2c.RECHARGE_RESP_RECEIVE_SYS_FUN_INFO,self,self.recvGrowFundList)
 	TFDirector:addProto(s2c.RECHARGE_RESP_GET_FUN_AWARD,self,self.recvGrowFundAwards)
@@ -90,6 +94,7 @@ function RechargeDataMgr:onLogin()
 	TFDirector:send(c2s.RECHARGE_GET_BUY_RECORD_INFO, {})
 	TFDirector:send(c2s.RECHARGE_GET_MONTH_CARD_INFO, {})
 	TFDirector:send(c2s.RECHARGE_REQ_RECEIVE_SYS_FUN_INFO, {})
+	TFDirector:send(c2s.RECHARGE_REQ_GIFT_LOGIN_CHECK, {})
 	self:sendGetTotalPayRewardInfo()
 	self:sendGetTotalPayRewardCfg()
 	self:sendGetMonthCardInfo()
@@ -98,6 +103,7 @@ function RechargeDataMgr:onLogin()
 			s2c.RECHARGE_GET_RECHARGE_CFG,
 			s2c.RECHARGE_GET_BUY_RECORD_INFO,
 			s2c.RECHARGE_GET_MONTH_CARD_INFO,
+			s2c.RECHARGE_RES_GIFT_LOGIN_CHECK,
 			--s2c.RECHARGE_RES_TOTAL_PAY_REWARD_INFO,
 			--s2c.RECHARGE_RES_TOTAL_PAY_REWARD_CFG
 		}
@@ -470,20 +476,27 @@ function RechargeDataMgr:recvGoodsList(event)
 	self:checkNewGiftBag()
 end
 
-
 function RechargeDataMgr:recvTriggerGift(event)
 	if event.data then
+		self.pushGiftData = {}
 		if event.data.rechargeGiftBagCfg then
 			if self.goodsList and self.goodsList.rechargeGiftBagCfg then
-				for k,v in pairs(self.goodsList.rechargeGiftBagCfg) do
-					if v.rechargeCfg.id == event.data.rechargeGiftBagCfg.rechargeCfg.id then
-						v.triggerEndDate = event.data.rechargeGiftBagCfg.triggerEndDate
-						v.isTrigger = true
-						break
+				for i,j in pairs(event.data.rechargeGiftBagCfg) do
+					for k,v in pairs(self.goodsList.rechargeGiftBagCfg) do
+						if v.rechargeCfg.id == j.rechargeCfg.id then
+							v.triggerEndDate = j.triggerEndDate						
+							if event.data.pushStatus == 1 then
+								v.isTrigger = true
+								table.insert(self.pushGiftData, j)
+							else
+								v.isTrigger = false
+							end
+							break
+						end
 					end
 				end
 			end
-			self.pushGiftData = event.data.rechargeGiftBagCfg
+			--self.pushGiftData = event.data.rechargeGiftBagCfg
 		else
 			self:resetPushGift()
 			if self.goodsList and self.goodsList.rechargeGiftBagCfg then
@@ -575,8 +588,18 @@ function RechargeDataMgr:getLimitGiftBagTime()
 	return 0
 end
 
-function RechargeDataMgr:getPushGift()
+function RechargeDataMgr:getPushGift(idx)
+	self.pushGiftData = self.pushGiftData or{}
+	if idx then
+		return self.pushGiftData[idx]
+	end
 	return self.pushGiftData
+end
+
+function RechargeDataMgr:tiggerGift(idx)
+	if self.pushGiftData and self.pushGiftData[idx] then
+		table.remove(self.pushGiftData, idx)
+	end
 end
 
 function RechargeDataMgr:resetPushGift()

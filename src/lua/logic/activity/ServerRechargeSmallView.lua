@@ -29,6 +29,9 @@ function ServerRechargeSmallView:ctor( data )
 	self.activityId_ = data
 	self.activityInfo_ = ActivityDataMgr2:getActivityInfo(self.activityId_)
 	local uiName = self.activityInfo_.extendData.uiName or "serverRechargeSmallView"
+	if self.activityInfo_.extendData.activityShowType == EC_ActivityType2.FANSHI_ASSIST then
+		uiName = "serverRechargeSmallViewFanshi"
+	end
 	self:init("lua.uiconfig.activity."..uiName)
 end
 

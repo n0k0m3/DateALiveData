@@ -15,7 +15,7 @@ function FileCheckMgr:ctor()
     if CC_TARGET_PLATFORM == CC_PLATFORM_IOS then
         self.urlHeads = {
             "https://c-en.datealive.com/dal_eng/",
-            "https://c2-en.datealive.com/dal_eng/",
+            "https://c-dal-en.heitaoglobal.com/dal_eng/",
         }
     elseif CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 then
         self.urlHeads = {
@@ -24,7 +24,7 @@ function FileCheckMgr:ctor()
     else
         self.urlHeads = {
             "https:c-en.datealive.com/dal_eng/",
-            "https:c2-en.datealive.com/dal_eng/",
+            "https:c-dal-en.heitaoglobal.com/dal_eng/",
         }
     end
 

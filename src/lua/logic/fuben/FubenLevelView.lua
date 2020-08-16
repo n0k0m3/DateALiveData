@@ -304,7 +304,7 @@ function FubenLevelView:selectDiff(index)
         if count == 1 then
             local levelName = FubenDataMgr:getLevelName(firstLevelCfg.preLevelId[1])
             local preLevelCfg = FubenDataMgr:getLevelCfg(firstLevelCfg.preLevelId[1])
-            local diffData = self:getDiffData(preLevelCfg1.difficulty)
+            local diffData = self:getDiffData(preLevelCfg.difficulty)
             local diffName = TextDataMgr:getText(diffData.name)
             Utils:showTips(300004, diffName .. levelName)
         elseif count == 2 then
@@ -632,6 +632,13 @@ function FubenLevelView:onShow()
     self:timeOut(function()
             GameGuide:checkGuide(self)
     end, 0.1)
+
+    if FubenDataMgr:checkIsAllChapterPassWin() then   --按需求要弹出四糸乃跳转提示
+        local mainFuncInfo = FunctionDataMgr:getMainFuncInfo(207)
+        if mainFuncInfo and tobool(mainFuncInfo.openWelfare) then
+            Utils:openView("fuben.SisinaiChapterTipsView")
+        end
+    end
 end
 
 function FubenLevelView:registerEvents()

@@ -10342,7 +10342,7 @@ return {
         endType = 0,
         isIgonreAction2 = false,
         expressionAction2 = "",
-        text = "It was a date with Miku, but I was absent-minded...",
+        text = "It was a date with Miku, but I was absentminded...",
         game = 0,
         video = {
         },
@@ -11739,7 +11739,7 @@ return {
         endType = 0,
         isIgonreAction2 = false,
         expressionAction2 = "",
-        text = "But you seem absent-minded, are you tired?",
+        text = "But you seem absentminded, are you tired?",
         game = 0,
         video = {
         },
@@ -19964,7 +19964,7 @@ return {
         endType = 0,
         isIgonreAction2 = false,
         expressionAction2 = "",
-        text = "As I thought... this it too conspicuous...",
+        text = "As I thought... this is too conspicuous...",
         game = 0,
         video = {
         },
@@ -20803,7 +20803,7 @@ return {
         endType = 0,
         isIgonreAction2 = false,
         expressionAction2 = "",
-        text = "Is that so?\nI think your skin is already pretty and you have a nice figure, Miku...",
+        text = "Is that so?\nI think your skin is already fair and your figure is quite good, Miku...",
         game = 0,
         video = {
         },
@@ -24824,7 +24824,7 @@ return {
         endType = 0,
         isIgonreAction2 = false,
         expressionAction2 = "",
-        text = "Ah... Miku’s presence as a singer is undeniable . Even I became involuntarily infatuated.",
+        text = "Ah... Miku is a very beautiful a singer, even I became involuntarily infatuated.",
         game = 0,
         video = {
         },
@@ -29209,7 +29209,7 @@ return {
         endType = 0,
         isIgonreAction2 = false,
         expressionAction2 = "",
-        text = "But you seem absent-minded, are you tired?",
+        text = "But you seem absentminded, are you tired?",
         game = 0,
         video = {
         },
@@ -35583,7 +35583,7 @@ return {
         endType = 0,
         isIgonreAction2 = false,
         expressionAction2 = "",
-        text = "Yes, let's do it.",
+        text = "No problem.",
         game = 0,
         video = {
         },
@@ -36612,7 +36612,7 @@ return {
         endType = 0,
         isIgonreAction2 = false,
         expressionAction2 = "",
-        text = "Miku and I were carrying lots of shopping bags and could hardly hold any more.",
+        text = "Miku and I were carrying lots of shopping bags and could hardly hold anymore.",
         game = 0,
         video = {
         },
@@ -39222,7 +39222,7 @@ return {
         endType = 0,
         isIgonreAction2 = false,
         expressionAction2 = "",
-        text = "Oh no, Tohka and Yoshino... will this incident affect fluctuations of Spirit Power...",
+        text = "Oh no, Tohka and Yoshino... will this incident affect Mana fluctuations...",
         game = 0,
         video = {
         },
@@ -43606,7 +43606,7 @@ return {
         endType = 0,
         isIgonreAction2 = false,
         expressionAction2 = "",
-        text = "Oh ~ I see! It must be a secret mission of %s? Don't worry, I won't tell anyone!",
+        text = "Oh ~ I see! It must be some kind of secret mission of %s? Don't worry, I won't tell anyone!",
         game = 0,
         video = {
         },
@@ -44734,7 +44734,7 @@ return {
         endType = 0,
         isIgonreAction2 = false,
         expressionAction2 = "",
-        text = "I quickly picked a simple style as I wanted to end this farce ASAP.",
+        text = "I quickly picked a simple style and wanted to end this farce asap.",
         game = 0,
         video = {
         },
@@ -67381,7 +67381,7 @@ return {
         endType = 0,
         isIgonreAction2 = false,
         expressionAction2 = "",
-        text = "*Sniff*... darling ~",
+        text = "Boo hoo... darling ~",
         game = 0,
         video = {
         },

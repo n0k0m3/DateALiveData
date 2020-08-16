@@ -11,8 +11,10 @@ function TaskActivityView:ctor(...)
     self.super.ctor(self)
     self:initData(...)
     local uiName = self.activityInfo_.extendData.uiName or "taskActivityView"
+    if self.activityInfo_.extendData.activityShowType == EC_ActivityType2.FANSHI_ASSIST then
+        uiName = "taskActivityViewFanshi"
+    end
     self:init("lua.uiconfig.activity."..uiName)
-    print(uiName , "4444444")
 end
 
 function TaskActivityView:initUI(ui)

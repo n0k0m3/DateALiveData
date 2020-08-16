@@ -229,6 +229,9 @@ function FubenDataMgr:init()
     self.theaterControlProcess = {}
     -- 模拟试炼数据
     self.simulationTrialInfo_ = {}
+
+    --检查是否需要检测所关卡全部完成
+    self.isNeedCheckAllPassWin = false
 end
 
 function FubenDataMgr:reset()
@@ -2344,6 +2347,16 @@ function FubenDataMgr:onRecvFightOver(event)
     if levelInfo and levelInfo.win then
         local levelGroupCfg = self:getLevelGroupCfg(levelCfg.levelGroupId)
         local rawUnlock = self:isPassPlotLevel(levelInfo.cid)
+
+        if levelGroupCfg.dungeonChapterId == 1 then  --英文版检测第一章是否全通关
+            local dataDisCreateLevel = TabDataMgr:getData("DiscreteData" , 1100008).data
+            for k ,v in pairs(dataDisCreateLevel.levelId) do
+                if not self.levelInfo_[v] then
+                    self.isNeedCheckAllPassWin = true
+                end
+            end
+        end
+
         self.levelInfo_[data.levelInfo.cid] = levelInfo
         if not rawUnlock then
             if levelCfg.lastOne then
@@ -2808,6 +2821,19 @@ end
 ---狂三副本
 function FubenDataMgr:getKsanLevelInfo(dungenLevel)
     return self.ksDungeonCityCfgMap[dungenLevel]
+end
+
+
+function FubenDataMgr:checkIsAllChapterPassWin()
+    if not self.isNeedCheckAllPassWin then  return end
+    local data = TabDataMgr:getData("DiscreteData",1100008).data
+    for k , v in pairs(data.levelId) do
+        if not self:isPassPlotLevel(v) then
+            return false
+        end
+    end
+    self.isNeedCheckAllPassWin = false
+    return true
 end
 
 return FubenDataMgr:new()

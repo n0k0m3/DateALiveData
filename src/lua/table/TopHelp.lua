@@ -7282,4 +7282,35 @@ return {
         icon = "icon/system/025.png",
         isDiban = true,
     },
+    [1001] = {
+        helpDes = 0,
+        resource = {
+            [1] = {
+                [1] = 500004,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 500096,
+                [2] = 0,
+            },
+            [3] = {
+                [1] = 500002,
+                [2] = 1,
+            },
+        },
+        dynamic = false,
+        id = 1001,
+        helpTitle = 0,
+        fileName = "ActivityMainView1001",
+        isResource = true,
+        helpInterface = {
+        },
+        isHelp = false,
+        help = "",
+        isMain = true,
+        isBack = true,
+        name = "反转十香",
+        icon = "icon/system/025.png",
+        isDiban = true,
+    },
 }

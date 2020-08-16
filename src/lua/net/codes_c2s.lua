@@ -77,6 +77,12 @@ c2s.LIMITLESS_SUMMON_REQ_LIMITLESS_SUMMON_REFRESH_POOL = 3503
 c2s.ZILLIONAIRE_REQ_CHOOSE_ITEM = 5222
 
 --[[
+	[1] = {--ReqRefreshTask
+	}
+--]]
+c2s.ZILLIONAIRE_REQ_REFRESH_TASK = 5223
+
+--[[
 	[1] = {--ReqTimeLinkageInfo
 	}
 --]]
@@ -117,10 +123,10 @@ c2s.EQUIPMENT_REQ_EQUIP_BACKUP_INFO = 2841
 c2s.NEW_BUILDING_REQGET_FOODBASE_INFO = 2066
 
 --[[
-	[1] = {--ReqRefreshTask
+	[1] = {--ReqUnion
 	}
 --]]
-c2s.ZILLIONAIRE_REQ_REFRESH_TASK = 5223
+c2s.UNION_REQ_UNION = 6662
 
 --[[
 	[1] = {--ReqExitFight
@@ -154,12 +160,6 @@ c2s.SUMMON_SUMMON = 3329
 c2s.EXTRA_DATING_REQ_FAVOR_DATING_TEST_INFO = 5660
 
 --[[
-	[1] = {--ReqUnion
-	}
---]]
-c2s.UNION_REQ_UNION = 6662
-
---[[
 	[1] = {--ReqEquipItem
 		[1] = 'int32':itemCid	[道具配置ID]
 	}
@@ -172,6 +172,12 @@ c2s.ZILLIONAIRE_REQ_EQUIP_ITEM = 5221
 	}
 --]]
 c2s.ACTIVITY_REQ_CROSS_RANK_ACTIVITY = 5153
+
+--[[
+	[1] = {--ReqYouciMsg
+	}
+--]]
+c2s.YOUCI_REQ_YOUCI = 9101
 
 --[[
 	[1] = {--ReqChasmStartFight
@@ -187,10 +193,10 @@ c2s.CHASM_REQ_CHASM_START_FIGHT = 6145
 c2s.ELEMENT_COLLECT_GET_ELEMENT_REWARD = 4867
 
 --[[
-	[1] = {--ReqYouciMsg
+	[1] = {--ReqManRefreshYouci
 	}
 --]]
-c2s.YOUCI_REQ_YOUCI = 9101
+c2s.YOUCI_REQ_MAN_REFRESH_YOUCI = 9103
 
 --[[
 	[1] = {--ProgressMsg
@@ -247,12 +253,6 @@ c2s.FIGHT_REQ_END_FIGHT = 25605
 c2s.ENDLESS_CLOISTER_REQ_START_FIGHT_ENDLESS = 5378
 
 --[[
-	[1] = {--ReqManRefreshYouci
-	}
---]]
-c2s.YOUCI_REQ_MAN_REFRESH_YOUCI = 9103
-
---[[
 	[1] = {--ReqYouciRank
 	}
 --]]
@@ -275,6 +275,12 @@ c2s.EQUIPMENT_UPGRADE = 2820
 c2s.LIMITLESS_SUMMON_REQ_LIMITLESS_SUMMON = 3502
 
 --[[
+	[1] = {--ReqYearLottoInfo
+	}
+--]]
+c2s.YEAR_LOTTO_REQ_YEAR_LOTTO_INFO = 8701
+
+--[[
 	[1] = {--OfficeWorldInfoMsg
 		[1] = 'int32':worldCid	[当前世界cid]
 	}
@@ -286,12 +292,6 @@ c2s.OFFICE_EXPLORE_OFFICE_WORLD_INFO = 7202
 	}
 --]]
 c2s.MAIL_GET_MAILS = 772
-
---[[
-	[1] = {--ReqYearLottoInfo
-	}
---]]
-c2s.YEAR_LOTTO_REQ_YEAR_LOTTO_INFO = 8701
 
 --[[
 	[1] = {--ReqYearLottoList
@@ -306,16 +306,27 @@ c2s.YEAR_LOTTO_REQ_YEAR_LOTTO_LIST = 8702
 c2s.YEAR_LOTTO_REQ_JOIN_YEAR_LOTTO = 8703
 
 --[[
+	[1] = {--ValentineRankMsg
+	}
+--]]
+c2s.VALENTINE_VALENTINE_RANK = 7401
+
+--[[
 	[1] = {--ReqSevenCarnival
 	}
 --]]
 c2s.SIGN_REQ_SEVEN_CARNIVAL = 5160
 
 --[[
-	[1] = {--ValentineRankMsg
+	[1] = {--ValentinePresentMsg
+		[1] = 'int32':roleid	[ 情人节看板娘id]
+		[2] = {--repeated ValentineGiftInfo
+			[1] = 'int32':giftCid	[ 礼物id]
+			[2] = 'int32':giftNum	[ 礼物数量]
+		},
 	}
 --]]
-c2s.VALENTINE_VALENTINE_RANK = 7401
+c2s.VALENTINE_VALENTINE_PRESENT = 7403
 
 --[[
 	[1] = {--ReqResultPreview
@@ -339,15 +350,10 @@ c2s.ACTIVITY_REQ_GET_ZZALL_RANK = 5138
 c2s.EQUIPMENT_REQ_SAVE_EQUIP_BACKUP_DECR = 2843
 
 --[[
-	[1] = {--ValentinePresentMsg
-		[1] = 'int32':roleid	[ 情人节看板娘id]
-		[2] = {--repeated ValentineGiftInfo
-			[1] = 'int32':giftCid	[ 礼物id]
-			[2] = 'int32':giftNum	[ 礼物数量]
-		},
+	[1] = {--ReqGiftLoginCheck
 	}
 --]]
-c2s.VALENTINE_VALENTINE_PRESENT = 7403
+c2s.RECHARGE_REQ_GIFT_LOGIN_CHECK = 4386
 
 --[[
 	[1] = {--UseItemMsg
@@ -1217,6 +1223,7 @@ c2s.DUNGEON_FIGHT_START = 1793
 		[2] = 'string':discountId	[折扣券道具id]
 		[3] = 'int32':redPackId	[社团红包id]
 		[4] = 'string':bless	[社团红包祝福]
+		[5] = 'int32':buyCount	[兑换数量]
 	}
 --]]
 c2s.RECHARGE_REQ_CHARGE_EXCHANGE = 4368
@@ -1526,11 +1533,10 @@ c2s.PLAYER_GET_PLAYER_INFO = 267
 c2s.NEW_WORLD_REQ_PRE_ENTER_NEW_WORLD = 6800
 
 --[[
-	[1] = {--ReqRewardTotalPay
-		[1] = 'int32':id	[奖励id]
+	[1] = {--ReqMonthCardSign
 	}
 --]]
-c2s.RECHARGE_REQ_REWARD_TOTAL_PAY = 4363
+c2s.RECHARGE_REQ_MONTH_CARD_SIGN = 4366
 
 --[[
 	[1] = {--ChallengeInfoMsg
@@ -2026,11 +2032,10 @@ c2s.RECHARGE_REQ_GROWTH_FUNDS_INFO = 4370
 c2s.ITEM_REQ_USE_TRIAL_CARD = 517
 
 --[[
-	[1] = {--ReqReceiveLevelAward
-		[1] = 'int32':id	[ 成长基金id]
+	[1] = {--GainMonthCardItem
 	}
 --]]
-c2s.RECHARGE_REQ_RECEIVE_LEVEL_AWARD = 4371
+c2s.RECHARGE_GAIN_MONTH_CARD_ITEM = 4354
 
 --[[
 	[1] = {--ReqChangeNewWorldRoom
@@ -2040,10 +2045,11 @@ c2s.RECHARGE_REQ_RECEIVE_LEVEL_AWARD = 4371
 c2s.NEW_WORLD_REQ_CHANGE_NEW_WORLD_ROOM = 6806
 
 --[[
-	[1] = {--GetMonthCardInfo
+	[1] = {--ReqGetFunAward
+		[1] = 'int32':id	[ 系统基金id]
 	}
 --]]
-c2s.RECHARGE_GET_MONTH_CARD_INFO = 4356
+c2s.RECHARGE_REQ_GET_FUN_AWARD = 4375
 
 --[[
 	[1] = {--ReqSupportAddress
@@ -2073,24 +2079,23 @@ c2s.ACTIVITY_REQ_UPDATE_SUPPORT_ADDRESS = 5154
 c2s.RECHARGE_REQ_MONTH_CARD_STORE = 4367
 
 --[[
-	[1] = {--GainMonthCardItem
+	[1] = {--GetBuyRecordInfo
 	}
 --]]
-c2s.RECHARGE_GAIN_MONTH_CARD_ITEM = 4354
+c2s.RECHARGE_GET_BUY_RECORD_INFO = 4357
 
 --[[
-	[1] = {--ReqMonthCardSign
+	[1] = {--ReqReceiveSysFunInfo
 	}
 --]]
-c2s.RECHARGE_REQ_MONTH_CARD_SIGN = 4366
+c2s.RECHARGE_REQ_RECEIVE_SYS_FUN_INFO = 4374
 
 --[[
-	[1] = {--GetOrderNo
-		[1] = 'int32':goodsId	[商品id]
-		[2] = 'string':extinfo	[额外信息 json]
+	[1] = {--ReqReceiveLevelAward
+		[1] = 'int32':id	[ 成长基金id]
 	}
 --]]
-c2s.RECHARGE_GET_ORDER_NO = 4353
+c2s.RECHARGE_REQ_RECEIVE_LEVEL_AWARD = 4371
 
 --[[
 	[1] = {--ReqPushNextStage
@@ -2100,10 +2105,10 @@ c2s.RECHARGE_GET_ORDER_NO = 4353
 c2s.ACTIVITY_REQ_PUSH_NEXT_STAGE = 5142
 
 --[[
-	[1] = {--ReqReceiveSysFunInfo
+	[1] = {--GetMonthCardInfo
 	}
 --]]
-c2s.RECHARGE_REQ_RECEIVE_SYS_FUN_INFO = 4374
+c2s.RECHARGE_GET_MONTH_CARD_INFO = 4356
 
 --[[
 	[1] = {--SellInfo
@@ -2123,17 +2128,19 @@ c2s.STORE_SELL_INFO = 2565
 c2s.NEW_BUILDING_REQ_GET_HAND_WORK_INFO = 2080
 
 --[[
-	[1] = {--GetBuyRecordInfo
+	[1] = {--GetOrderNo
+		[1] = 'int32':goodsId	[商品id]
+		[2] = 'string':extinfo	[额外信息 json]
 	}
 --]]
-c2s.RECHARGE_GET_BUY_RECORD_INFO = 4357
+c2s.RECHARGE_GET_ORDER_NO = 4353
 
 --[[
-	[1] = {--ReqGetFunAward
-		[1] = 'int32':id	[ 系统基金id]
+	[1] = {--ReqRewardTotalPay
+		[1] = 'int32':id	[奖励id]
 	}
 --]]
-c2s.RECHARGE_REQ_GET_FUN_AWARD = 4375
+c2s.RECHARGE_REQ_REWARD_TOTAL_PAY = 4363
 
 --[[
 	[1] = {--ComposeSummon

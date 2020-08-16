@@ -49,6 +49,11 @@ return {
         name = 1702225,
         icon = "icon/role/sceneChangeGroup/12.png",
     },
+    [10014] = {
+        id = 10014,
+        name = 1702227,
+        icon = "icon/role/sceneChangeGroup/14.png",
+    },
     [10001] = {
         id = 10001,
         name = 1702214,

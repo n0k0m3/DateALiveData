@@ -24,15 +24,15 @@ return {
         },
     },
     [3] = {
-        show = 0,
+        show = 1,
         heroSkinId = 1101031,
-        sort = 21,
+        sort = 4,
         id = 3,
         heroId = 110103,
-        scale  = 0.22,
+        scale  = 0.4,
         paintPosition = {
-            y = 90,
-            x = 210,
+            y = 75,
+            x = 255,
         },
     },
     [4] = {

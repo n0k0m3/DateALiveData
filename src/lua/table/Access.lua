@@ -1462,4 +1462,26 @@ return {
         },
         accessType = 51,
     },
+    [301] = {
+        accessparam = "",
+        name = "1400012",
+        name2 = "190000072",
+        id = 301,
+        jumpInterface = 6,
+        parameter = {
+            [1] = 3,
+        },
+        accessType = 51,
+    },
+    [302] = {
+        accessparam = "",
+        name = "1400012",
+        name2 = "190000075",
+        id = 302,
+        jumpInterface = 6,
+        parameter = {
+            [1] = 7,
+        },
+        accessType = 51,
+    },
 }

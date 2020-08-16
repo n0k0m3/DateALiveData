@@ -318,10 +318,10 @@ function getAndroidVersion()
 end
 
 function takeScreenshot()
-    -- if true then
-    --     Utils:showTips("Locked")
-    --     return
-    -- end
+    if true then
+        Utils:showTips(221010)
+        return
+    end
     -- local filePath = me.FileUtils:getWritablePath() .. "screenshot.png"
     -- local _isSuccess
     -- CUtils.onCaptureScreen(function(isSuccess,fileName)

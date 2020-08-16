@@ -1894,7 +1894,7 @@ function ChatView:registerEvents()
     end)
 
     self.TextButton_input:onClick(function()
-        if not FunctionDataMgr:checkFuncOpen(42) then return end
+        if not RELEASE_TEST and not FunctionDataMgr:checkFuncOpen(42) then return end
         self.tf_input:openIME()
         self.btn_send:show()
         self.TextButton_input:hide()

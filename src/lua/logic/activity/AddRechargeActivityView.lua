@@ -10,6 +10,8 @@ function AddRechargeActivityView:ctor(...)
         self:init("lua.uiconfig.activity.addRechargeActivityView3")
     elseif self.activityInfo_.extendData.activityShowType == 6 then
         self:init("lua.uiconfig.activity.addRechargeActivityView6")
+    elseif self.activityInfo_.extendData.activityShowType == EC_ActivityType2.FANSHI_ASSIST then
+        self:init("lua.uiconfig.activity.addRechargeActivityViewFanshi")
     else
         self:init("lua.uiconfig.activity.addRechargeActivityView")
     end
@@ -158,7 +160,7 @@ function AddRechargeActivityView:updateActivity()
         end)
     end
     if self.Label_addRecharge_title then
-        self.Label_addRecharge_title:setText("当前充值金额：")
+        self.Label_addRecharge_title:setTextById(190000074)
         self.Label_recharge:setTextById(1890020, curRecharge)
     else
         self.Label_recharge:setTextById(1890020, curRecharge)

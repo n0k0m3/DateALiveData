@@ -490,6 +490,16 @@ local t = {
 			logic="",
 		},
 		{
+			name="sisinaiChapterTips",
+			ui ="sisinaiChapterTips.lua",
+			x=0,
+			y=0,
+			speed=0,
+			layer="fuben",
+			canLoad=true,
+			logic="",
+		},
+		{
 			name="theater_chapter_1",
 			ui ="theater_chapter_1.lua",
 			x=0,

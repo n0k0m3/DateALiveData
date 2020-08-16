@@ -346,7 +346,7 @@ function PrefabDataMgr:set_Panel_element(item , elementId , isUp , isTouch)
     if isTouch then
         item:setTouchEnabled(true)
         item:onClick(function ( ... )
-            Utils:openView("fairyNew.FairyElementPanel")
+            --Utils:openView("fairyNew.FairyElementPanel")
         end)
     else
         item:setTouchEnabled(false)

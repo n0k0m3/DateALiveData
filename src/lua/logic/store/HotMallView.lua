@@ -129,6 +129,8 @@ function HotMallView:updateGiftItem(item, data)
     Label_price:setTextById(1605003 , string.format("%.2f" ,data.rechargeCfg.price/100))
 
     local Image_exchange = TFDirector:getChildByPath(item,"Image_exchange")
+    Image_exchange:hide()
+    Label_price:setPositionX(0)
     if data.buyType == 1 then
         local exchangeCfg = GoodsDataMgr:getItemCfg(data.exchangeCost[1].id)
         Image_exchange:show();

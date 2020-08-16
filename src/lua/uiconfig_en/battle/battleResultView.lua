@@ -3646,14 +3646,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "22",
+													fontSize = "19",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
+													height = "22",
 													ignoreSize = "True",
 													name = "Label_reward_title",
 													nTextAlign = "1",
@@ -3667,10 +3667,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -6,
-														PositionY = 5,
+														PositionX = -5,
+														PositionY = 7,
 													},
-													width = "150",
+													width = "132",
 													ZOrder = "1",
 												},
 												{

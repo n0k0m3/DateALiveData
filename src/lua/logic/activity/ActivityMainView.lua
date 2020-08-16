@@ -51,7 +51,8 @@ function ActivityMainView:initData(selectActivityId,activityShowType)
             [EC_ActivityType2.CHRISTMAS_FIGHT] = requireNew("lua.logic.activity.MapActivityContainer"),
             [EC_ActivityType2.CRAZY_DIAMOND] = requireNew("lua.logic.activity.CrazyDiamondActivityView"),
             [EC_ActivityType2.TURNTABLE] = requireNew("lua.logic.activity.TurntableActivityView"),
-            [EC_ActivityType2.DFW_NEW] = requireNew("lua.logic.activity.DfwNewActivityView")
+            [EC_ActivityType2.DFW_NEW] = requireNew("lua.logic.activity.DfwNewActivityView"),
+
         },
         [3] = {
             [EC_ActivityType2.ONEYEAR_WELFARE] = requireNew("lua.logic.oneYear.WelfareView"),
@@ -72,7 +73,10 @@ function ActivityMainView:initData(selectActivityId,activityShowType)
         },
 		[7] = {
 			[EC_ActivityType2.WELFARE_JUMP] = requireNew("lua.logic.activity.ChrismasActivityEntry"),
-		}
+		},
+        [EC_ActivityType2.FANSHI_ASSIST] = {
+            [EC_ActivityType2.WELFARE_JUMP] = requireNew("lua.logic.activity.ActivityFanShiEntry"),
+        }
     }
 
     if activityShowType then

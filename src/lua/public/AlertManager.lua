@@ -879,7 +879,7 @@ end
 -- 关闭最顶层弹出框，并显示下一个
 function AlertManager:getLayerByName(name)
     for layer in self.layerQueue:iterator() do
-        if layer.name == name then
+        if layer.__cname == name then
            return layer;
         end
     end

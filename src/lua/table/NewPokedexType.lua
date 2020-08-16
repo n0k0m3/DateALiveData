@@ -600,7 +600,7 @@ return {
     },
     [10014] = {
         type2 = 110014,
-        isOpen = false,
+        isOpen = true,
         type1 = 11,
         type3 = {
             [1] = 210001,
@@ -1328,6 +1328,7 @@ return {
             [5] = 205007,
             [6] = 205008,
             [7] = 205009,
+            [8] = 205010,
         },
         id = 5001,
         roleId = 0,
@@ -1506,7 +1507,7 @@ return {
     },
     [1003] = {
         type2 = 101003,
-        isOpen = false,
+        isOpen = true,
         type1 = 1,
         type3 = {
             [1] = 201001,

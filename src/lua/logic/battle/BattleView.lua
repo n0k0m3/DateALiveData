@@ -2830,14 +2830,21 @@ function BattleView:endAniCallback(callback)
             callback()
         end
     elseif self.battleType_ == EC_BattleType.COMMON then
-        self:commonFightResult()
+        if callback then
+            callback()
+        end
+        --self:commonFightResult()
     elseif self.battleType_ == EC_BattleType.ENDLESS then
-        self:endlessFightResult()
+        if callback then
+            callback()
+        end
+        --self:endlessFightResult()
     end
 end
 
 function BattleView:onStaceClear(callback)
     if self.levelCfg_ and self.levelCfg_.isPlayVictorAction then  --是否展示胜利失败动画
+        self.endAniFlag_ = true
         local size = self.Panel_ui_effect_top:getSize()
         local bWin = battleController.isWin()
         local skeletonNode
@@ -2849,9 +2856,9 @@ function BattleView:onStaceClear(callback)
         end
         skeletonNode:play("animation", 0)
         skeletonNode:setPosition(me.p(size.width/2, size.height/2))
-        skeletonNode:addMEListener(TFARMATURE_COMPLETE,function(_skeletonNode)
-                                       self.endAniFlag_ = true
-                                       self:endAniCallback(callback)
+        skeletonNode:removeMEListener(TFARMATURE_COMPLETE)    
+        skeletonNode:addMEListener(TFARMATURE_COMPLETE,function(_skeletonNode)                                    
+                self:endAniCallback(callback)
         end)
         self.battleEndSkeletonNode_ = skeletonNode
         self.Panel_ui_effect_top:addChild(skeletonNode)

@@ -1492,7 +1492,6 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									visible = "False",
 									width = "480",
 									ZOrder = "1",
 									components = 
@@ -1981,6 +1980,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
+									visible = "False",
 									width = "510",
 									ZOrder = "1",
 									components = 
@@ -7391,6 +7391,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
+									visible = "False",
 									width = "535",
 									ZOrder = "1",
 									components = 
@@ -11268,14 +11269,14 @@ local t =
 																		OffsetX = 0,
 																		OffsetY = 0,
 																	},
-																	fontSize = "22",
+																	fontSize = "18",
 																	fontStroke = 
 																	{
 																		IsStroke = false,
 																		StrokeColor = "#FFE6E6E6",
 																		StrokeSize = 1,
 																	},
-																	height = "60",
+																	height = "0",
 																	ignoreSize = "False",
 																	name = "Label_suit",
 																	nTextAlign = "1",
@@ -11289,9 +11290,9 @@ local t =
 																	touchScaleEnable = "False",
 																	UILayoutViewModel = 
 																	{
-																		
+																		PositionY = 1,
 																	},
-																	width = "60",
+																	width = "62",
 																	ZOrder = "1",
 																},
 															},
@@ -11656,6 +11657,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
+									visible = "False",
 									width = "750",
 									ZOrder = "1",
 									components = 
@@ -13514,7 +13516,7 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 284,
+										PositionX = 356,
 										PositionY = 16,
 									},
 									width = "32",
@@ -16113,7 +16115,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = -20,
+												PositionY = -18,
 											},
 											width = "39",
 											ZOrder = "2",
@@ -16364,7 +16366,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = -20,
+												PositionY = -18,
 											},
 											width = "39",
 											ZOrder = "2",

@@ -185,21 +185,24 @@ function Utils:showReward(rewardList,staticRewardList,hideCallBack)
     local isSkyCardCnt = 0
     for k,v in ipairs(rewardList) do
         local itemCfg = GoodsDataMgr:getItemCfg(v.id)
-        if itemCfg.superType == EC_ResourceType.SKYLADDER then
-            if itemCfg.subType == 1 then
-                isSkyCardCnt = isSkyCardCnt + 1
-                table.insert(cardList,{id = v.id,num = v.num})
-            else
-                local cardId = SkyLadderDataMgr:getCovertOrigalId(v.id)
-                if cardId then
+        if itemCfg == nil then
+            Bugly:ReportLuaException("Utils:showReward: ========================= " .. tostring(v.id))
+        else
+            if itemCfg.superType == EC_ResourceType.SKYLADDER then
+                if itemCfg.subType == 1 then
                     isSkyCardCnt = isSkyCardCnt + 1
-                    table.insert(cardList,{id = cardId,num = v.num})
+                    table.insert(cardList,{id = v.id,num = v.num})
+                else
+                    local cardId = SkyLadderDataMgr:getCovertOrigalId(v.id)
+                    if cardId then
+                        isSkyCardCnt = isSkyCardCnt + 1
+                        table.insert(cardList,{id = cardId,num = v.num})
+                    end
                 end
             end
-        end
-
-        if itemCfg.isHide then
-            table.remove(rewardList,k)
+            if itemCfg.isHide then
+                table.remove(rewardList,k)
+            end
         end
     end
 
@@ -861,8 +864,12 @@ function Utils:createTeamHeroModel(heroId, heroImg,_skinId,isHuntingModelPos)
     return model
 end
 
-function Utils:getUTCDate(timestamp)
-    local date = TFDate(timestamp)
+function Utils:getUTCDate(timestamp , timeZone)
+    local timeStep = timestamp
+    if timeZone then
+        timeStep = timeStep + timeZone * 3600
+    end
+    local date = TFDate(timeStep)
     return date
 end
 
@@ -1745,10 +1752,11 @@ function Utils:getTimeCountDownString(time,stringType)
 end
 
 function Utils:getActivityDateString(startTime, endTime, stringType)
-    local startDate = Utils:getLocalDate(startTime)
+    local startDate = self:getUTCDate(startTime ,GV_UTC_TIME_ZONE)
     local startDateStr = startDate:fmt("%Y.%m.%d")
-    local endDate = Utils:getLocalDate(endTime)
+    local endDate = self:getUTCDate(endTime ,GV_UTC_TIME_ZONE)
     local endDateStr = endDate:fmt("%Y.%m.%d")
+
 
     if stringType == 1 then
         startDateStr = startDate:fmt("%m.%d")
@@ -1759,7 +1767,7 @@ function Utils:getActivityDateString(startTime, endTime, stringType)
 
     local text2 = TextDataMgr:getText(800041, startDateStr, endDateStr)
 
-    return --[[text1..]]text2
+    return --[[text1..]]text2..GV_UTC_TIME_STRING
 
 end
 
@@ -1872,4 +1880,15 @@ function Utils:showTipTool(targetNode, offsetPos)
     tipTool:showAnimIn()
 end
 
+
+function Utils:splitLanguageStringByTag(text , tag )
+    tag = tag or "#####"
+    local strName = string.split(text , tag)
+    if GAME_LANGUAGE_VAR == EC_LanguageType.Chinese then
+        text = strName[1]
+    else
+        text = strName[2]
+    end
+    return text or ""
+end
 return Utils

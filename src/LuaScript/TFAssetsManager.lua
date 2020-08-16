@@ -42,13 +42,13 @@ function TFAssetsManager:init()
 	    self.extAssetsSavePath = writablePath .. '../Library/TFDebug/'
 	    self.remoteUrl = {
 			[1] = "https://c-en.datealive.com/dal_eng/ext_assets/release_ios/"..self.baseAppVersion.."/",
-			[2] = "https://c2-en.datealive.com/dal_eng/ext_assets/release_ios/"..self.baseAppVersion.."/",
+			[2] = "https://c-dal-en.heitaoglobal.com/dal_eng/ext_assets/release_ios/"..self.baseAppVersion.."/",
 			--[2] = "http://c.dal.heitao2014.com/dal/ext_assets/release_ios/"..self.baseAppVersion.."/",
 		}
 		if VERSION_DEBUG == true then
 			self.remoteUrl = {
 				[1] = "http://c-en.datealive.com/dal_eng/ext_assets/debug_ios/"..self.baseAppVersion.."/",
-				[2] = "http://c2-en.datealive.com/dal_eng/ext_assets/debug_ios/"..self.baseAppVersion.."/",
+				[2] = "http://c-dal-en.heitaoglobal.com/dal_eng/ext_assets/debug_ios/"..self.baseAppVersion.."/",
 				--[2] = "http://c.dal.heitao2014.com/dal/ext_assets/debug_ios/"..self.baseAppVersion.."/",
 			}
 		end
@@ -56,13 +56,13 @@ function TFAssetsManager:init()
 	    self.extAssetsSavePath = writablePath .. 'TFDebug/'
 	    self.remoteUrl = {
 			[1] = "http://c-en.datealive.com/dal_eng/ext_assets/release_android/"..self.baseAppVersion.."/",
-			[2] = "http://c2-en.datealive.com/dal_eng/ext_assets/release_android/"..self.baseAppVersion.."/",
+			[2] = "http://c-dal-en.heitaoglobal.com/dal_eng/ext_assets/release_android/"..self.baseAppVersion.."/",
 			--[2] = "http://c.dal.heitao2014.com/dal/ext_assets/release_android/"..self.baseAppVersion.."/",
 		}
 		if VERSION_DEBUG == true then
 			self.remoteUrl = {
 				[1] = "http://c-en.datealive.com/dal_eng/ext_assets/debug_android/"..self.baseAppVersion.."/",
-				[2] = "http://c2-en.datealive.com/dal_eng/ext_assets/debug_android/"..self.baseAppVersion.."/",
+				[2] = "http://c-dal-en.heitaoglobal.com/dal_eng/ext_assets/debug_android/"..self.baseAppVersion.."/",
 				--[2] = "http://c.dal.heitao2014.com/dal/ext_assets/debug_android/"..self.baseAppVersion.."/",
 			}
 		end
@@ -70,7 +70,7 @@ function TFAssetsManager:init()
 		self.extAssetsSavePath = writablePath .. "../Library/TFDebug/"
 		self.remoteUrl = {
 			[1] = "http://c-en.datealive.com/dal_eng/ext_assets/test/"..self.baseAppVersion.."/",
-			[2] = "http://c2-en.datealive.com/dal_eng/ext_assets/test/"..self.baseAppVersion.."/",
+			[2] = "http://c-dal-en.heitaoglobal.com/dal_eng/ext_assets/test/"..self.baseAppVersion.."/",
 			--[2] = "http://c.dal.heitao2014.com/dal/ext_assets/test/"..self.baseAppVersion.."/",
 		}
 		-- if VERSION_DEBUG == true then
