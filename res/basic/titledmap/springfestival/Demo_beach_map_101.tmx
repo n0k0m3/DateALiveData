@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.3" orientation="isometric" renderorder="right-down" width="18" height="19" tilewidth="360" tileheight="180" nextobjectid="1">
+ <tileset firstgid="1" name="event" tilewidth="90" tileheight="45" tilecount="100" columns="10">
+  <tileoffset x="130" y="-90"/>
+  <image source="event.png" width="900" height="450"/>
+ </tileset>
+ <tileset firstgid="101" name="decoration_event" tilewidth="90" tileheight="45" tilecount="50" columns="10">
+  <tileoffset x="130" y="-90"/>
+  <image source="decoration_event.png" width="900" height="225"/>
+ </tileset>
+ <tileset firstgid="151" name="floor" tilewidth="360" tileheight="266" tilecount="9" columns="3">
+  <image source="floor.png" width="1080" height="798"/>
+ </tileset>
+ <tileset firstgid="160" name="y_204_sand" tilewidth="626" tileheight="224" tilecount="1" columns="1">
+  <tileoffset x="30" y="-70"/>
+  <image source="../../ui/dalmap/dressup/y_204_sand.png" width="626" height="224"/>
+ </tileset>
+ <tileset firstgid="161" name="y_301_chair" tilewidth="416" tileheight="358" tilecount="1" columns="1">
+  <tileoffset x="50" y="-30"/>
+  <image source="../../ui/dalmap/dressup/y_301_chair.png" width="416" height="358"/>
+ </tileset>
+ <tileset firstgid="162" name="y_302_chair" tilewidth="404" tileheight="360" tilecount="1" columns="1">
+  <tileoffset x="50" y="-30"/>
+  <image source="../../ui/dalmap/dressup/y_302_chair.png" width="404" height="360"/>
+ </tileset>
+ <tileset firstgid="163" name="y_303_chair" tilewidth="406" tileheight="386" tilecount="1" columns="1">
+  <tileoffset x="65" y="-10"/>
+  <image source="../../ui/dalmap/dressup/y_303_chair.png" width="406" height="386"/>
+ </tileset>
+ <tileset firstgid="164" name="y_402_item" tilewidth="219" tileheight="299" tilecount="1" columns="1">
+  <tileoffset x="60" y="-40"/>
+  <image source="../../ui/dalmap/dressup/y_402_item.png" width="219" height="299"/>
+ </tileset>
+ <tileset firstgid="165" name="y_403_item" tilewidth="760" tileheight="356" tilecount="1" columns="1">
+  <tileoffset x="-50" y="3"/>
+  <image source="../../ui/dalmap/dressup/y_403_item.png" width="760" height="356"/>
+ </tileset>
+ <tileset firstgid="166" name="y_404_item" tilewidth="206" tileheight="349" tilecount="1" columns="1">
+  <tileoffset x="80" y="-15"/>
+  <image source="../../ui/dalmap/dressup/y_404_item.png" width="206" height="349"/>
+ </tileset>
+ <tileset firstgid="167" name="y_405_item" tilewidth="196" tileheight="146" tilecount="1" columns="1">
+  <tileoffset x="90" y="-110"/>
+  <image source="../../ui/dalmap/dressup/y_405_item.png" width="196" height="146"/>
+ </tileset>
+ <tileset firstgid="168" name="y_406_item" tilewidth="166" tileheight="136" tilecount="1" columns="1">
+  <tileoffset x="100" y="-110"/>
+  <image source="../../ui/dalmap/dressup/y_406_item.png" width="166" height="136"/>
+ </tileset>
+ <tileset firstgid="169" name="y_407_item" tilewidth="166" tileheight="212" tilecount="1" columns="1">
+  <tileoffset x="70" y="-80"/>
+  <image source="../../ui/dalmap/dressup/y_407_item.png" width="166" height="212"/>
+ </tileset>
+ <tileset firstgid="170" name="y_408_item" tilewidth="192" tileheight="136" tilecount="1" columns="1">
+  <tileoffset x="90" y="-120"/>
+  <image source="../../ui/dalmap/dressup/y_408_item.png" width="192" height="136"/>
+ </tileset>
+ <tileset firstgid="171" name="y_103_tree" tilewidth="785" tileheight="754" tilecount="1" columns="1">
+  <tileoffset x="100" y="-50"/>
+  <image source="../../ui/dalmap/dressup/y_103_tree.png" width="785" height="754"/>
+ </tileset>
+ <tileset firstgid="172" name="y_104_tree" tilewidth="453" tileheight="568" tilecount="1" columns="1">
+  <tileoffset x="95" y="-70"/>
+  <image source="../../ui/dalmap/dressup/y_104_tree.png" width="453" height="568"/>
+ </tileset>
+ <tileset firstgid="173" name="y_201_sand" tilewidth="451" tileheight="676" tilecount="1" columns="1">
+  <tileoffset x="200" y="-60"/>
+  <image source="../../ui/dalmap/dressup/y_201_sand.png" width="451" height="676"/>
+ </tileset>
+ <tileset firstgid="174" name="y_202_sand" tilewidth="233" tileheight="102" tilecount="1" columns="1">
+  <tileoffset x="50" y="-130"/>
+  <image source="../../ui/dalmap/dressup/y_202_sand.png" width="233" height="102"/>
+ </tileset>
+ <tileset firstgid="175" name="y_203_sand" tilewidth="423" tileheight="190" tilecount="1" columns="1">
+  <tileoffset x="110" y="-80"/>
+  <image source="../../ui/dalmap/dressup/y_203_sand.png" width="423" height="190"/>
+ </tileset>
+ <tileset firstgid="176" name="y_205_sand" tilewidth="306" tileheight="184" tilecount="1" columns="1">
+  <tileoffset x="30" y="-110"/>
+  <image source="../../ui/dalmap/dressup/y_205_sand.png" width="306" height="184"/>
+ </tileset>
+ <tileset firstgid="177" name="y_206_sand" tilewidth="326" tileheight="150" tilecount="1" columns="1">
+  <tileoffset x="10" y="-130"/>
+  <image source="../../ui/dalmap/dressup/y_206_sand.png" width="326" height="150"/>
+ </tileset>
+ <tileset firstgid="178" name="y_207_sand" tilewidth="604" tileheight="584" tilecount="1" columns="1">
+  <tileoffset x="10" y="-20"/>
+  <image source="../../ui/dalmap/dressup/y_207_sand.png" width="604" height="584"/>
+ </tileset>
+ <tileset firstgid="179" name="y_102_tree" tilewidth="648" tileheight="701" tilecount="1" columns="1">
+  <tileoffset x="10" y="-120"/>
+  <image source="../../ui/dalmap/dressup/y_102_tree.png" width="648" height="701"/>
+ </tileset>
+ <layer name="floor" width="18" height="19">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,153,154,153,154,153,154,153,0,153,154,153,154,153,0,0,
+0,0,153,154,153,154,153,154,153,154,153,154,153,154,153,154,153,0,
+0,153,154,153,154,153,154,153,154,153,154,153,154,153,154,153,154,0,
+0,0,153,154,153,154,153,154,153,154,153,154,153,154,153,154,0,0,
+0,153,154,153,154,153,154,153,154,153,154,153,154,153,154,153,154,0,
+0,154,153,154,153,154,153,154,153,154,153,154,153,154,153,154,153,0,
+0,153,154,153,154,153,154,153,154,153,154,153,154,153,154,153,154,0,
+0,0,153,154,153,154,153,154,153,154,153,154,153,154,153,154,153,0,
+0,153,154,153,154,153,154,153,154,153,154,153,154,153,154,153,154,0,
+0,154,153,154,153,154,153,154,153,154,153,154,153,154,153,154,0,0,
+0,153,154,153,154,153,154,153,154,153,154,153,154,153,154,153,154,0,
+0,154,153,154,153,154,153,154,153,154,153,154,153,154,153,154,153,0,
+0,0,154,153,154,153,154,153,154,153,154,153,154,153,154,153,154,0,
+0,154,153,154,153,154,153,154,153,154,153,154,153,154,153,154,153,0,
+0,153,154,153,154,153,154,153,154,153,154,153,154,153,154,153,0,0,
+0,0,153,154,153,154,153,154,153,0,0,154,153,154,153,154,153,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer name="decoration" width="18" height="19">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,169,0,0,164,0,164,0,0,0,0,0,0,164,0,0,
+0,0,0,0,160,0,0,0,0,0,0,178,0,177,0,0,0,0,
+0,171,0,0,0,0,0,0,0,0,0,0,169,176,0,0,0,0,
+0,0,177,179,0,0,0,0,175,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,174,0,0,0,0,0,0,167,0,
+0,0,174,0,0,0,0,170,0,0,0,0,174,0,0,0,0,0,
+0,0,0,0,0,0,162,0,0,0,0,0,0,0,0,172,0,0,
+0,0,0,0,0,0,161,0,165,0,0,0,0,0,0,0,179,0,
+0,0,0,0,0,0,0,166,168,0,0,0,0,0,0,0,0,0,
+0,172,0,0,0,173,0,167,0,164,0,0,160,0,0,0,0,0,
+0,0,0,0,174,0,0,176,0,0,0,0,0,0,0,0,0,0,
+0,179,0,0,0,0,0,0,0,0,0,0,0,0,0,171,0,0,
+0,0,0,0,0,0,0,0,0,174,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,177,0,
+0,177,0,0,0,0,0,0,0,175,0,0,0,172,0,0,0,0,
+0,0,0,0,174,0,171,0,0,0,0,164,0,164,0,0,164,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer name="dress" width="18" height="19">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,119,107,107,114,0,114,0,0,110,110,0,0,114,0,0,
+0,0,0,0,107,107,0,0,0,0,0,110,110,109,0,0,0,0,
+0,102,0,0,0,0,0,0,106,106,0,0,119,108,0,0,0,0,
+0,0,109,101,0,0,0,0,106,106,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,105,0,0,0,0,0,0,117,0,
+0,0,105,0,0,0,0,120,0,0,0,0,105,0,0,103,103,0,
+0,0,0,0,0,0,112,112,115,115,0,0,0,0,0,103,103,0,
+0,0,0,0,0,0,111,111,115,115,0,0,0,0,0,0,101,0,
+0,103,103,0,0,104,104,116,118,0,0,0,107,107,0,0,0,0,
+0,103,103,0,0,104,104,117,0,114,0,0,107,107,0,0,0,0,
+0,0,0,0,105,0,0,108,0,0,0,0,0,0,0,0,0,0,
+0,101,0,0,0,0,0,0,0,0,0,0,0,0,0,0,102,0,
+0,0,0,0,0,0,0,0,0,105,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,106,106,0,0,103,103,0,109,0,
+0,109,0,0,0,0,0,0,0,106,106,0,0,103,103,0,0,0,
+0,0,0,0,105,0,102,0,0,0,0,114,0,114,0,0,114,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer name="event" width="18" height="19">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,2,2,2,0,2,0,0,2,2,0,0,2,0,0,
+0,0,0,0,2,2,0,0,0,0,0,2,2,2,0,0,0,0,
+0,2,2,0,0,0,0,0,2,2,0,0,0,2,0,0,0,0,
+0,0,2,2,0,0,0,0,2,2,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,2,2,0,
+0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,2,2,0,
+0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,2,0,
+0,2,2,0,0,2,2,2,0,0,0,0,2,2,0,0,0,0,
+0,2,2,0,0,2,2,0,0,2,0,0,2,2,0,0,0,0,
+0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,
+0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,2,2,0,0,2,2,0,2,0,
+0,2,1,0,0,0,0,0,0,2,2,0,0,2,2,0,0,0,
+0,0,0,0,0,0,2,0,0,0,0,2,0,2,0,0,2,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>
