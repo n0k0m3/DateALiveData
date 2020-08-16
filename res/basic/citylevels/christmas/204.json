@@ -1,0 +1,489 @@
+{
+    "root": {
+        "BornID1": 0,
+        "AirBlockID": 0,
+        "Name": "关卡默认实例",
+        "SceneHeight": 0,
+        "MoveLayerID": 0,
+        "CanBorkenID": 0,
+        "Size": {
+            "W": 1474,
+            "H": 640
+        },
+        "ID": 0,
+        "BlockSize": 20,
+        "BlockOutline": 1.5
+    },
+    "resources": {
+        "effects": {},
+        "images": [
+            "christmas\/room\/204\/1.png"
+        ]
+    },
+    "children": [
+        {
+            "children": [
+                {
+                    "Path": "christmas\/room\/204\/1.png",
+                    "Position": {
+                        "Y": 320,
+                        "X": 737
+                    },
+                    "FlipY": false,
+                    "Visible": true,
+                    "FlipX": false,
+                    "Z": 1,
+                    "Scale": {
+                        "Y": 1,
+                        "X": 1
+                    },
+                    "Alpha": 255,
+                    "Rotation": 0,
+                    "Size": {
+                        "H": 640,
+                        "W": 1474
+                    },
+                    "ID": 1001,
+                    "type": "MapImage",
+                    "Name": "room_204_1",
+                    "Color": {
+                        "R": 255,
+                        "B": 255,
+                        "G": 255
+                    },
+                    "Active": true
+                }
+            ],
+            "Active": true,
+            "CameraZ": 0,
+            "Visible": true,
+            "Mark": "1",
+            "Z": 0,
+            "Scale": {
+                "Y": 1,
+                "X": 1
+            },
+            "Alpha": 255,
+            "Rotation": 0,
+            "Size": {
+                "H": 100,
+                "W": 100
+            },
+            "ID": 1000,
+            "Color": {
+                "R": 255,
+                "B": 255,
+                "G": 255
+            },
+            "Position": {
+                "Y": 0,
+                "X": 0
+            },
+            "Name": "bg",
+            "type": "MapLayer"
+        },
+        {
+            "children": [
+                {
+                    "Position": {
+                        "Y": 108.4616394043,
+                        "X": 180.99984741211
+                    },
+                    "Visible": true,
+                    "Z": 2,
+                    "Mark": "0",
+                    "Alpha": 255,
+                    "Radius": 15,
+                    "ID": 5001,
+                    "type": "PointLayer",
+                    "Name": "点控件",
+                    "Color": {
+                        "R": 0,
+                        "B": 0,
+                        "A": 0.5,
+                        "G": 1
+                    },
+                    "Active": true
+                },
+                {
+                    "Position": {
+                        "Y": 48.706146240234,
+                        "X": 489.62405395508
+                    },
+                    "Visible": true,
+                    "Z": 3,
+                    "Mark": "0",
+                    "Alpha": 255,
+                    "Radius": 15,
+                    "ID": 5002,
+                    "type": "PointLayer",
+                    "Name": "点控件",
+                    "Color": {
+                        "R": 0,
+                        "B": 0,
+                        "A": 0.5,
+                        "G": 1
+                    },
+                    "Active": true
+                },
+                {
+                    "Position": {
+                        "Y": 93.129241943359,
+                        "X": 609.43188476563
+                    },
+                    "Visible": true,
+                    "Z": 4,
+                    "Mark": "0",
+                    "Alpha": 255,
+                    "Radius": 15,
+                    "ID": 5003,
+                    "type": "PointLayer",
+                    "Name": "点控件",
+                    "Color": {
+                        "R": 0,
+                        "B": 0,
+                        "A": 0.5,
+                        "G": 1
+                    },
+                    "Active": true
+                },
+                {
+                    "Position": {
+                        "Y": 91.783111572266,
+                        "X": 737.31652832031
+                    },
+                    "Visible": true,
+                    "Z": 4,
+                    "Mark": "0",
+                    "Alpha": 255,
+                    "Radius": 15,
+                    "ID": 5004,
+                    "type": "PointLayer",
+                    "Name": "点控件",
+                    "Color": {
+                        "R": 0,
+                        "B": 0,
+                        "A": 0.5,
+                        "G": 1
+                    },
+                    "Active": true
+                },
+                {
+                    "Position": {
+                        "Y": 93.129241943359,
+                        "X": 857.12426757813
+                    },
+                    "Visible": true,
+                    "Z": 4,
+                    "Mark": "0",
+                    "Alpha": 255,
+                    "Radius": 15,
+                    "ID": 5005,
+                    "type": "PointLayer",
+                    "Name": "点控件",
+                    "Color": {
+                        "R": 0,
+                        "B": 0,
+                        "A": 0.5,
+                        "G": 1
+                    },
+                    "Active": true
+                },
+                {
+                    "Position": {
+                        "Y": 47.360015869141,
+                        "X": 954.04736328125
+                    },
+                    "Visible": true,
+                    "Z": 4,
+                    "Mark": "0",
+                    "Alpha": 255,
+                    "Radius": 15,
+                    "ID": 5006,
+                    "type": "PointLayer",
+                    "Name": "点控件",
+                    "Color": {
+                        "R": 0,
+                        "B": 0,
+                        "A": 0.5,
+                        "G": 1
+                    },
+                    "Active": true
+                },
+                {
+                    "Position": {
+                        "Y": 103.89846801758,
+                        "X": 377.89321899414
+                    },
+                    "Visible": true,
+                    "Z": 4,
+                    "Mark": "0",
+                    "Alpha": 255,
+                    "Radius": 15,
+                    "ID": 5007,
+                    "type": "PointLayer",
+                    "Name": "点控件",
+                    "Color": {
+                        "R": 0,
+                        "B": 0,
+                        "A": 0.5,
+                        "G": 1
+                    },
+                    "Active": true
+                },
+                {
+                    "Position": {
+                        "Y": 118.70620727539,
+                        "X": 1056.3551025391
+                    },
+                    "Visible": true,
+                    "Z": 4,
+                    "Mark": "0",
+                    "Alpha": 255,
+                    "Radius": 15,
+                    "ID": 5008,
+                    "type": "PointLayer",
+                    "Name": "点控件",
+                    "Color": {
+                        "R": 0,
+                        "B": 0,
+                        "A": 0.5,
+                        "G": 1
+                    },
+                    "Active": true
+                },
+                {
+                    "Position": {
+                        "Y": 44.667694091797,
+                        "X": 1135.7783203125
+                    },
+                    "Visible": true,
+                    "Z": 4,
+                    "Mark": "0",
+                    "Alpha": 255,
+                    "Radius": 15,
+                    "ID": 5009,
+                    "type": "PointLayer",
+                    "Name": "点控件",
+                    "Color": {
+                        "R": 0,
+                        "B": 0,
+                        "A": 0.5,
+                        "G": 1
+                    },
+                    "Active": true
+                },
+                {
+                    "Position": {
+                        "Y": 85.052337646484,
+                        "X": 1297.3167724609
+                    },
+                    "Visible": true,
+                    "Z": 4,
+                    "Mark": "0",
+                    "Alpha": 255,
+                    "Radius": 15,
+                    "ID": 5010,
+                    "type": "PointLayer",
+                    "Name": "点控件",
+                    "Color": {
+                        "R": 0,
+                        "B": 0,
+                        "A": 0.5,
+                        "G": 1
+                    },
+                    "Active": true
+                }
+            ],
+            "Active": true,
+            "CameraZ": 0,
+            "Visible": true,
+            "Mark": "1",
+            "Z": 0,
+            "Scale": {
+                "Y": 1,
+                "X": 1
+            },
+            "Alpha": 255,
+            "Rotation": 0,
+            "Size": {
+                "H": 100,
+                "W": 100
+            },
+            "ID": 5000,
+            "Color": {
+                "R": 255,
+                "B": 255,
+                "G": 255
+            },
+            "Position": {
+                "Y": 0,
+                "X": 0
+            },
+            "Name": "point",
+            "type": "MapLayer"
+        },
+        {
+            "children": [
+                {
+                    "Position": {
+                        "Y": 11.906463623047,
+                        "X": 83.999694824219
+                    },
+                    "Blocks": {},
+                    "Visible": true,
+                    "Rotation": 0,
+                    "Z": 1,
+                    "Scale": {
+                        "Y": 1,
+                        "X": 1
+                    },
+                    "Alpha": 255,
+                    "PointSize": 4,
+                    "ControlPoint": [
+                        {
+                            "Y": 0,
+                            "X": 0
+                        },
+                        {
+                            "Y": 0,
+                            "X": 1322
+                        },
+                        {
+                            "Y": 151,
+                            "X": 1274
+                        },
+                        {
+                            "Y": 153,
+                            "X": 23
+                        }
+                    ],
+                    "ID": 3001,
+                    "type": "MoveLayer",
+                    "Name": "行走面",
+                    "Color": {
+                        "R": 1,
+                        "B": 0,
+                        "A": 0.5,
+                        "G": 0
+                    },
+                    "Active": true
+                }
+            ],
+            "Active": true,
+            "CameraZ": 0,
+            "Visible": true,
+            "Mark": "1",
+            "Z": 0,
+            "Scale": {
+                "Y": 1,
+                "X": 1
+            },
+            "Alpha": 255,
+            "Rotation": 0,
+            "Size": {
+                "H": 100,
+                "W": 100
+            },
+            "ID": 3000,
+            "Color": {
+                "R": 255,
+                "B": 255,
+                "G": 255
+            },
+            "Position": {
+                "Y": 0,
+                "X": 0
+            },
+            "Name": "walk",
+            "type": "MapLayer"
+        },
+        {
+            "Active": true,
+            "CameraZ": 0,
+            "Visible": true,
+            "Mark": "1",
+            "Z": 0,
+            "Scale": {
+                "Y": 1,
+                "X": 1
+            },
+            "Alpha": 255,
+            "Rotation": 0,
+            "Size": {
+                "H": 100,
+                "W": 100
+            },
+            "ID": 6000,
+            "Color": {
+                "R": 255,
+                "B": 255,
+                "G": 255
+            },
+            "Position": {
+                "Y": 0,
+                "X": 0
+            },
+            "Name": "action",
+            "type": "MapLayer"
+        },
+        {
+            "Active": true,
+            "CameraZ": 0,
+            "Visible": true,
+            "Mark": "1",
+            "Z": 0,
+            "Scale": {
+                "Y": 1,
+                "X": 1
+            },
+            "Alpha": 255,
+            "Rotation": 0,
+            "Size": {
+                "H": 100,
+                "W": 100
+            },
+            "ID": 2000,
+            "Color": {
+                "R": 255,
+                "B": 255,
+                "G": 255
+            },
+            "Position": {
+                "Y": 0,
+                "X": 0
+            },
+            "Name": "room",
+            "type": "MapLayer"
+        },
+        {
+            "Active": true,
+            "CameraZ": 0,
+            "Visible": true,
+            "Mark": "1",
+            "Z": 0,
+            "Scale": {
+                "Y": 1,
+                "X": 1
+            },
+            "Alpha": 255,
+            "Rotation": 0,
+            "Size": {
+                "H": 100,
+                "W": 100
+            },
+            "ID": 4000,
+            "Color": {
+                "R": 255,
+                "B": 255,
+                "G": 255
+            },
+            "Position": {
+                "Y": 0,
+                "X": 0
+            },
+            "Name": "block",
+            "type": "MapLayer"
+        }
+    ]
+}
