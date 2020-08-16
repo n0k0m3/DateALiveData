@@ -1,0 +1,278 @@
+
+effects_10309_skillF.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/dimian_00000
+  rotate: false
+  xy: 2, 913
+  size: 329, 109
+  orig: 350, 140
+  offset: 12, 7
+  index: -1
+images/effect/skillF/baodian/baodian_00000
+  rotate: false
+  xy: 327, 4
+  size: 205, 206
+  orig: 280, 280
+  offset: 40, 41
+  index: -1
+images/effect/skillF/baodian/baodian_00002
+  rotate: false
+  xy: 501, 346
+  size: 231, 230
+  orig: 280, 280
+  offset: 27, 29
+  index: -1
+images/effect/skillF/baodian/baodian_00004
+  rotate: true
+  xy: 2, 307
+  size: 243, 245
+  orig: 280, 280
+  offset: 16, 21
+  index: -1
+images/effect/skillF/baodian/baodian_00006
+  rotate: true
+  xy: 551, 578
+  size: 252, 254
+  orig: 280, 280
+  offset: 11, 16
+  index: -1
+images/effect/skillF/baodian/baodian_00008
+  rotate: false
+  xy: 807, 636
+  size: 212, 176
+  orig: 280, 280
+  offset: 37, 55
+  index: -1
+images/effect/skillF/baodian/baodian_00010
+  rotate: false
+  xy: 658, 34
+  size: 218, 181
+  orig: 280, 280
+  offset: 32, 50
+  index: -1
+images/effect/skillF/bing/bing_00013
+  rotate: false
+  xy: 340, 212
+  size: 158, 145
+  orig: 318, 183
+  offset: 75, 2
+  index: -1
+images/effect/skillF/bing/bing_00017
+  rotate: false
+  xy: 267, 616
+  size: 248, 163
+  orig: 318, 183
+  offset: 39, 2
+  index: -1
+images/effect/skillF/bing/bing_00023
+  rotate: false
+  xy: 2, 552
+  size: 248, 163
+  orig: 318, 183
+  offset: 39, 2
+  index: -1
+images/effect/skillF/diyan/diyan_00036
+  rotate: false
+  xy: 282, 781
+  size: 267, 116
+  orig: 305, 152
+  offset: 24, 18
+  index: -1
+images/effect/skillF/diyan/diyan_00040
+  rotate: false
+  xy: 619, 901
+  size: 275, 121
+  orig: 305, 152
+  offset: 20, 17
+  index: -1
+images/effect/skillF/diyan/diyan_00044
+  rotate: false
+  xy: 333, 899
+  size: 284, 123
+  orig: 305, 152
+  offset: 13, 15
+  index: -1
+images/effect/skillF/diyan/diyan_00048
+  rotate: false
+  xy: 2, 829
+  size: 278, 82
+  orig: 305, 152
+  offset: 9, 16
+  index: -1
+images/effect/skillF/diyan/diyan_00052
+  rotate: false
+  xy: 619, 832
+  size: 275, 67
+  orig: 305, 152
+  offset: 15, 24
+  index: -1
+images/effect/skillF/efc_c_halo_0001
+  rotate: false
+  xy: 878, 52
+  size: 107, 107
+  orig: 179, 179
+  offset: 36, 36
+  index: -1
+images/effect/skillF/extra3/extra3_dimian_00006
+  rotate: true
+  xy: 114, 65
+  size: 240, 95
+  orig: 249, 139
+  offset: 3, 13
+  index: -1
+images/effect/skillF/hua/hua_00000
+  rotate: false
+  xy: 879, 161
+  size: 118, 179
+  orig: 140, 280
+  offset: 9, 93
+  index: -1
+images/effect/skillF/hua/hua_00002
+  rotate: false
+  xy: 211, 72
+  size: 114, 233
+  orig: 140, 280
+  offset: 13, 39
+  index: -1
+images/effect/skillF/hua/hua_00004
+  rotate: true
+  xy: 2, 717
+  size: 110, 263
+  orig: 140, 280
+  offset: 17, 10
+  index: -1
+images/effect/skillF/hua/hua_00006
+  rotate: true
+  xy: 252, 504
+  size: 110, 247
+  orig: 140, 280
+  offset: 20, 23
+  index: -1
+images/effect/skillF/hua/hua_00008
+  rotate: false
+  xy: 2, 62
+  size: 110, 243
+  orig: 140, 280
+  offset: 22, 20
+  index: -1
+images/effect/skillF/sidai/sidai_00000
+  rotate: true
+  xy: 500, 213
+  size: 131, 73
+  orig: 249, 157
+  offset: 89, 18
+  index: -1
+images/effect/skillF/sidai/sidai_00002
+  rotate: true
+  xy: 534, 12
+  size: 199, 122
+  orig: 249, 157
+  offset: 18, 11
+  index: -1
+images/effect/skillF/sidai/sidai_00004
+  rotate: true
+  xy: 896, 814
+  size: 208, 124
+  orig: 249, 157
+  offset: 19, 15
+  index: -1
+images/effect/skillF/sidai/sidai_00006
+  rotate: false
+  xy: 807, 525
+  size: 207, 109
+  orig: 249, 157
+  offset: 21, 21
+  index: -1
+images/effect/skillF/sidai/sidai_00008
+  rotate: true
+  xy: 249, 320
+  size: 182, 89
+  orig: 249, 157
+  offset: 38, 25
+  index: -1
+images/effect/skillF/yan/yan_00008
+  rotate: true
+  xy: 878, 342
+  size: 181, 140
+  orig: 247, 202
+  offset: 52, 31
+  index: -1
+images/effect/skillF/yan/yan_00012
+  rotate: false
+  xy: 726, 221
+  size: 151, 119
+  orig: 247, 202
+  offset: 65, 48
+  index: -1
+images/effect/skillF/yan/yan_00016
+  rotate: false
+  xy: 575, 217
+  size: 149, 127
+  orig: 247, 202
+  offset: 50, 37
+  index: -1
+images/effect/skillF/yan/yan_00020
+  rotate: false
+  xy: 340, 359
+  size: 159, 143
+  orig: 247, 202
+  offset: 29, 35
+  index: -1
+images/effect/skillF/yan/yan_00024
+  rotate: true
+  xy: 734, 347
+  size: 176, 139
+  orig: 247, 202
+  offset: 42, 36
+  index: -1
+images/effect/win/glow_000
+  rotate: false
+  xy: 211, 2
+  size: 68, 68
+  orig: 70, 70
+  offset: 1, 1
+  index: -1
+
+effects_10309_skillF2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/skillF/bing/bing_00015
+  rotate: false
+  xy: 2, 331
+  size: 224, 147
+  orig: 318, 183
+  offset: 49, 2
+  index: -1
+images/effect/skillF/diyan/diyan_00032
+  rotate: true
+  xy: 113, 166
+  size: 163, 72
+  orig: 305, 152
+  offset: 88, 29
+  index: -1
+images/effect/skillF/hua/hua_00010
+  rotate: true
+  xy: 228, 370
+  size: 108, 219
+  orig: 140, 280
+  offset: 24, 29
+  index: -1
+images/effect/skillF/hua/hua_00012
+  rotate: false
+  xy: 2, 106
+  size: 109, 223
+  orig: 140, 280
+  offset: 24, 25
+  index: -1
+images/effect/win/huaan_00013
+  rotate: false
+  xy: 2, 2
+  size: 100, 102
+  orig: 122, 125
+  offset: 12, 10
+  index: -1

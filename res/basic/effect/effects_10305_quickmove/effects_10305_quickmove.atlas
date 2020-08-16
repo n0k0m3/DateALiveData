@@ -1,0 +1,419 @@
+
+effects_10305_quickmove.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/extra_skillB_new/yanwu/yanwu_00000
+  rotate: false
+  xy: 103, 532
+  size: 196, 117
+  orig: 200, 125
+  offset: 2, 8
+  index: -1
+images/effects/extra_skillB_new/yanwu/yanwu_00001
+  rotate: false
+  xy: 501, 651
+  size: 190, 117
+  orig: 200, 125
+  offset: 10, 8
+  index: -1
+images/effects/extra_skillB_new/yanwu/yanwu_00002
+  rotate: false
+  xy: 285, 294
+  size: 192, 117
+  orig: 200, 125
+  offset: 8, 8
+  index: -1
+images/effects/extra_skillB_new/yanwu/yanwu_00003
+  rotate: false
+  xy: 479, 294
+  size: 191, 117
+  orig: 200, 125
+  offset: 9, 8
+  index: -1
+images/effects/extra_skillB_new/yanwu/yanwu_00004
+  rotate: false
+  xy: 498, 532
+  size: 192, 117
+  orig: 200, 125
+  offset: 8, 8
+  index: -1
+images/effects/extra_skillB_new/yanwu/yanwu_00005
+  rotate: false
+  xy: 103, 413
+  size: 194, 117
+  orig: 200, 125
+  offset: 6, 8
+  index: -1
+images/effects/extra_skillB_new/yanwu/yanwu_00006
+  rotate: true
+  xy: 108, 26
+  size: 190, 117
+  orig: 200, 125
+  offset: 5, 8
+  index: -1
+images/effects/extra_skillB_new/yanwu/yanwu_00007
+  rotate: false
+  xy: 299, 413
+  size: 194, 117
+  orig: 200, 125
+  offset: 3, 8
+  index: -1
+images/effects/extra_skillB_new/yanwu/yanwu_00008
+  rotate: false
+  xy: 103, 651
+  size: 198, 117
+  orig: 200, 125
+  offset: 0, 8
+  index: -1
+images/effects/extra_skillB_new/yanwu/yanwu_00009
+  rotate: true
+  xy: 2, 16
+  size: 199, 104
+  orig: 200, 125
+  offset: 0, 8
+  index: -1
+images/effects/extra_skillB_new/yanwu/yanwu_00010
+  rotate: false
+  xy: 270, 186
+  size: 199, 106
+  orig: 200, 125
+  offset: 0, 8
+  index: -1
+images/effects/extra_skillB_new/yanwu/yanwu_00011
+  rotate: false
+  xy: 420, 74
+  size: 194, 107
+  orig: 200, 125
+  offset: 0, 8
+  index: -1
+images/effects/extra_skillB_new/yanwu/yanwu_00012
+  rotate: false
+  xy: 471, 183
+  size: 195, 109
+  orig: 200, 125
+  offset: 0, 8
+  index: -1
+images/effects/extra_skillB_new/yanwu/yanwu_00013
+  rotate: true
+  xy: 807, 648
+  size: 190, 110
+  orig: 200, 125
+  offset: 4, 8
+  index: -1
+images/effects/extra_skillB_new/yanwu/yanwu_00014
+  rotate: true
+  xy: 693, 651
+  size: 187, 112
+  orig: 200, 125
+  offset: 2, 8
+  index: -1
+images/effects/extra_skillB_new/yanwu/yanwu_00015
+  rotate: false
+  xy: 227, 69
+  size: 191, 115
+  orig: 200, 125
+  offset: 0, 8
+  index: -1
+images/effects/extra_skillB_new/yanwu/yanwu_00016
+  rotate: false
+  xy: 495, 413
+  size: 192, 117
+  orig: 200, 125
+  offset: 0, 8
+  index: -1
+images/effects/extra_skillB_new/yanwu/yanwu_00017
+  rotate: false
+  xy: 90, 294
+  size: 193, 117
+  orig: 200, 125
+  offset: 0, 8
+  index: -1
+images/effects/extra_skillB_new/yanwu/yanwu_00018
+  rotate: false
+  xy: 301, 532
+  size: 195, 117
+  orig: 200, 125
+  offset: 0, 8
+  index: -1
+images/effects/extra_skillB_new/yanwu/yanwu_00019
+  rotate: false
+  xy: 303, 651
+  size: 196, 117
+  orig: 200, 125
+  offset: 0, 8
+  index: -1
+images/effects/quickmove/bianfu/bianfu_00000
+  rotate: false
+  xy: 227, 189
+  size: 29, 27
+  orig: 50, 50
+  offset: 13, 7
+  index: -1
+images/effects/quickmove/bianfu/bianfu_00002
+  rotate: false
+  xy: 810, 375
+  size: 29, 20
+  orig: 50, 50
+  offset: 10, 15
+  index: -1
+images/effects/quickmove/bianfu/bianfu_00004
+  rotate: false
+  xy: 841, 374
+  size: 24, 21
+  orig: 50, 50
+  offset: 8, 17
+  index: -1
+images/effects/quickmove/bianfu/bianfu_00006
+  rotate: false
+  xy: 810, 347
+  size: 23, 26
+  orig: 50, 50
+  offset: 9, 18
+  index: -1
+images/effects/quickmove/zhuadd/zhuadd_00000
+  rotate: false
+  xy: 90, 218
+  size: 178, 74
+  orig: 200, 100
+  offset: 22, 11
+  index: -1
+images/effects/quickmove/zhuadd/zhuadd_00001
+  rotate: true
+  xy: 692, 460
+  size: 189, 78
+  orig: 200, 100
+  offset: 11, 9
+  index: -1
+images/effects/quickmove/zhuadd/zhuadd_00002
+  rotate: false
+  xy: 673, 840
+  size: 195, 78
+  orig: 200, 100
+  offset: 5, 9
+  index: -1
+images/effects/quickmove/zhunor/zhunor_00000
+  rotate: false
+  xy: 345, 770
+  size: 322, 125
+  orig: 350, 125
+  offset: 28, 0
+  index: -1
+images/effects/quickmove/zhunor/zhunor_00001
+  rotate: false
+  xy: 2, 770
+  size: 341, 125
+  orig: 350, 125
+  offset: 9, 0
+  index: -1
+images/effects/quickmove/zhunor/zhunor_00002
+  rotate: false
+  xy: 2, 897
+  size: 343, 125
+  orig: 350, 125
+  offset: 7, 0
+  index: -1
+images/effects/quickmove/zhunor/zhunor_00003
+  rotate: false
+  xy: 347, 897
+  size: 324, 125
+  orig: 350, 125
+  offset: 26, 0
+  index: -1
+images/effects/quickmove/zhunor/zhunor_00004
+  rotate: false
+  xy: 673, 920
+  size: 341, 102
+  orig: 350, 125
+  offset: 9, 9
+  index: -1
+images/effects/quickmove/zhunor/zhunor_00005
+  rotate: true
+  xy: 2, 418
+  size: 350, 99
+  orig: 350, 125
+  offset: 0, 6
+  index: -1
+images/effects/quickmove/zhunor/zhunor_00006
+  rotate: true
+  xy: 2, 217
+  size: 199, 86
+  orig: 350, 125
+  offset: 109, 13
+  index: -1
+images/effects/quickmove/zhunor/zhunor_00007
+  rotate: true
+  xy: 668, 18
+  size: 106, 67
+  orig: 350, 125
+  offset: 138, 26
+  index: -1
+images/effects/quickmove/zhunor/zhunor_00008
+  rotate: false
+  xy: 689, 394
+  size: 104, 64
+  orig: 350, 125
+  offset: 137, 27
+  index: -1
+images/effects/quickmove/zhunor/zhunor_00009
+  rotate: false
+  xy: 672, 333
+  size: 99, 59
+  orig: 350, 125
+  offset: 136, 29
+  index: -1
+images/effects/skilld_new_2/bingfeng/bingfeng_00002
+  rotate: false
+  xy: 870, 842
+  size: 47, 25
+  orig: 89, 36
+  offset: 20, 2
+  index: -1
+images/effects/skilld_new_2/bingfeng/bingfeng_00003
+  rotate: true
+  xy: 988, 499
+  size: 52, 34
+  orig: 89, 36
+  offset: 16, 0
+  index: -1
+images/effects/skilld_new_2/bingfeng/bingfeng_00004
+  rotate: true
+  xy: 988, 553
+  size: 62, 34
+  orig: 89, 36
+  offset: 9, 0
+  index: -1
+images/effects/skilld_new_2/bingfeng/bingfeng_00005
+  rotate: true
+  xy: 934, 459
+  size: 64, 35
+  orig: 89, 36
+  offset: 9, 0
+  index: -1
+images/effects/skilld_new_2/bingfeng/bingfeng_00006
+  rotate: true
+  xy: 773, 327
+  size: 65, 35
+  orig: 89, 36
+  offset: 9, 0
+  index: -1
+images/effects/skilld_new_2/bingfeng/bingfeng_00007
+  rotate: false
+  xy: 795, 397
+  size: 68, 35
+  orig: 89, 36
+  offset: 7, 1
+  index: -1
+images/effects/skilld_new_2/bingfeng/bingfeng_00008
+  rotate: false
+  xy: 795, 434
+  size: 77, 35
+  orig: 89, 36
+  offset: 6, 0
+  index: -1
+images/effects/skilld_new_2/bingfeng/bingfeng_00011
+  rotate: true
+  xy: 988, 617
+  size: 82, 34
+  orig: 89, 36
+  offset: 2, 0
+  index: -1
+images/effects/skilld_new_2/bingfeng/bingfeng_00013
+  rotate: true
+  xy: 722, 218
+  size: 80, 31
+  orig: 89, 36
+  offset: 4, 1
+  index: -1
+images/effects/skilld_new_2/bingfeng/bingfeng_00015
+  rotate: false
+  xy: 672, 300
+  size: 83, 31
+  orig: 89, 36
+  offset: 2, 1
+  index: -1
+images/effects/skilld_new_2/bingfeng/bingfeng_00017
+  rotate: true
+  xy: 722, 136
+  size: 80, 31
+  orig: 89, 36
+  offset: 5, 1
+  index: -1
+images/effects/skilld_new_2/bingquan/bingquan_00000
+  rotate: false
+  xy: 870, 869
+  size: 136, 49
+  orig: 175, 52
+  offset: 18, 3
+  index: -1
+images/effects/skilld_new_2/bingquan/bingquan_00001
+  rotate: true
+  xy: 616, 21
+  size: 160, 50
+  orig: 175, 52
+  offset: 6, 2
+  index: -1
+images/effects/skilld_new_2/bingquan/bingquan_00002
+  rotate: true
+  xy: 668, 126
+  size: 166, 52
+  orig: 175, 52
+  offset: 5, 0
+  index: -1
+images/effects/skilld_new_2/bingquan/bingquan_00003
+  rotate: true
+  xy: 934, 525
+  size: 167, 52
+  orig: 175, 52
+  offset: 3, 0
+  index: -1
+images/effects/skilld_new_2/bingquan/bingquan_00004
+  rotate: true
+  xy: 919, 694
+  size: 173, 52
+  orig: 175, 52
+  offset: 0, 0
+  index: -1
+images/effects/skilld_new_2/bingquan/bingquan_00006
+  rotate: false
+  xy: 227, 15
+  size: 175, 52
+  orig: 175, 52
+  offset: 0, 0
+  index: -1
+images/effects/skilld_new_2/bingquan/bingquan_00008
+  rotate: true
+  xy: 772, 471
+  size: 175, 52
+  orig: 175, 52
+  offset: 0, 0
+  index: -1
+images/effects/skilld_new_2/bingquan/bingquan_00010
+  rotate: true
+  xy: 826, 471
+  size: 175, 52
+  orig: 175, 52
+  offset: 0, 0
+  index: -1
+images/effects/skilld_new_2/bingquan/bingquan_00012
+  rotate: true
+  xy: 880, 472
+  size: 174, 52
+  orig: 175, 52
+  offset: 1, 0
+  index: -1
+images/effects/skilld_new_2/bingquan/bingquan_00014
+  rotate: false
+  xy: 420, 20
+  size: 173, 52
+  orig: 175, 52
+  offset: 2, 0
+  index: -1
+images/effects/skilld_new_2/bingquan/bingquan_00016
+  rotate: true
+  xy: 973, 701
+  size: 166, 45
+  orig: 175, 52
+  offset: 9, 4
+  index: -1

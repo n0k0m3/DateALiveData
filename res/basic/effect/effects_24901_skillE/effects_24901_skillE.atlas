@@ -1,0 +1,48 @@
+
+effects_24901_skillE.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ccc
+  rotate: false
+  xy: 516, 734
+  size: 90, 286
+  orig: 90, 286
+  offset: 0, 0
+  index: -1
+effects/skillE/add/zhuan_0002
+  rotate: false
+  xy: 2, 508
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+effects/skillE/nor/zhuan_0000
+  rotate: false
+  xy: 2, 64
+  size: 432, 442
+  orig: 512, 512
+  offset: 47, 37
+  index: -1
+l_1
+  rotate: true
+  xy: 2, 2
+  size: 60, 145
+  orig: 60, 145
+  offset: 0, 0
+  index: -1
+l_1_2
+  rotate: false
+  xy: 516, 646
+  size: 86, 86
+  orig: 86, 86
+  offset: 0, 0
+  index: -1
+l_1_3
+  rotate: false
+  xy: 436, 466
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1

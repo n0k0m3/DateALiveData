@@ -1,0 +1,69 @@
+
+effects_interface5_fullscreen.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dian1
+  rotate: false
+  xy: 77, 131
+  size: 4, 4
+  orig: 6, 6
+  offset: 1, 1
+  index: -1
+images/sanjiao1
+  rotate: false
+  xy: 2, 308
+  size: 213, 106
+  orig: 215, 108
+  offset: 1, 1
+  index: -1
+images/sanjiao2
+  rotate: false
+  xy: 2, 137
+  size: 133, 169
+  orig: 135, 171
+  offset: 1, 1
+  index: -1
+images/sanjiao3
+  rotate: false
+  xy: 217, 319
+  size: 161, 95
+  orig: 163, 97
+  offset: 1, 1
+  index: -1
+images/sanjiao4
+  rotate: false
+  xy: 2, 17
+  size: 73, 118
+  orig: 75, 120
+  offset: 1, 1
+  index: -1
+xudian1
+  rotate: false
+  xy: 380, 401
+  size: 14, 13
+  orig: 16, 15
+  offset: 1, 1
+  index: -1
+yuan3
+  rotate: false
+  xy: 2, 2
+  size: 13, 13
+  orig: 15, 15
+  offset: 1, 1
+  index: -1
+yuan4
+  rotate: false
+  xy: 217, 308
+  size: 9, 9
+  orig: 11, 11
+  offset: 1, 1
+  index: -1
+yumao_00000
+  rotate: false
+  xy: 137, 241
+  size: 57, 65
+  orig: 57, 65
+  offset: 0, 0
+  index: -1

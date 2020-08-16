@@ -1,0 +1,55 @@
+
+wugui.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ke
+  rotate: false
+  xy: 2, 49
+  size: 91, 70
+  orig: 91, 70
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 95, 73
+  size: 94, 46
+  orig: 94, 46
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 191, 51
+  size: 62, 68
+  orig: 62, 68
+  offset: 0, 0
+  index: -1
+tui1
+  rotate: false
+  xy: 2, 2
+  size: 49, 45
+  orig: 49, 45
+  offset: 0, 0
+  index: -1
+tui2
+  rotate: false
+  xy: 95, 45
+  size: 44, 26
+  orig: 44, 26
+  offset: 0, 0
+  index: -1
+tui3
+  rotate: false
+  xy: 141, 46
+  size: 30, 25
+  orig: 30, 25
+  offset: 0, 0
+  index: -1
+tui4
+  rotate: true
+  xy: 53, 6
+  size: 41, 33
+  orig: 41, 33
+  offset: 0, 0
+  index: -1

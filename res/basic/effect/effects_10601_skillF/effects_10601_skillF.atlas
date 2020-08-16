@@ -1,0 +1,1026 @@
+
+effects_10601_skillF.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skill_new/skilla_new/yanwu2/yanwu2_00072
+  rotate: true
+  xy: 981, 601
+  size: 130, 41
+  orig: 133, 42
+  offset: 0, 1
+  index: -1
+images/effects/skill_new/skilla_new/yanwu2/yanwu2_00074
+  rotate: true
+  xy: 967, 169
+  size: 125, 40
+  orig: 133, 42
+  offset: 5, 2
+  index: -1
+images/effects/xinzeng/skillfe/canying/canying_007
+  rotate: false
+  xy: 968, 330
+  size: 54, 83
+  orig: 120, 120
+  offset: 42, 27
+  index: -1
+images/effects/xinzeng/skillfe/daoguang/daoguang_000
+  rotate: true
+  xy: 307, 166
+  size: 247, 155
+  orig: 300, 169
+  offset: 22, 5
+  index: -1
+images/effects/xinzeng/skillfe/daoguang/daoguang_001
+  rotate: false
+  xy: 464, 276
+  size: 244, 157
+  orig: 300, 169
+  offset: 19, 4
+  index: -1
+images/effects/xinzeng/skillfe/daoguang/daoguang_002
+  rotate: false
+  xy: 464, 118
+  size: 245, 156
+  orig: 300, 169
+  offset: 20, 4
+  index: -1
+images/effects/xinzeng/skillfe/daoguang/daoguang_003
+  rotate: false
+  xy: 734, 553
+  size: 245, 156
+  orig: 300, 169
+  offset: 18, 5
+  index: -1
+images/effects/xinzeng/skillfe/daoguang/daoguang_004
+  rotate: false
+  xy: 534, 711
+  size: 281, 152
+  orig: 300, 169
+  offset: 19, 7
+  index: -1
+images/effects/xinzeng/skillfe/daoguang/daoguang_005
+  rotate: false
+  xy: 181, 415
+  size: 275, 161
+  orig: 300, 169
+  offset: 22, 0
+  index: -1
+images/effects/xinzeng/skillfe/daoguang/daoguang_006
+  rotate: false
+  xy: 534, 865
+  size: 281, 157
+  orig: 300, 169
+  offset: 19, 4
+  index: -1
+images/effects/xinzeng/skillfe/daoguang/daoguang_007
+  rotate: false
+  xy: 181, 578
+  size: 284, 155
+  orig: 300, 169
+  offset: 16, 4
+  index: -1
+images/effects/xinzeng/skillfe/daoguang/daoguang_008
+  rotate: false
+  xy: 2, 2
+  size: 279, 154
+  orig: 300, 169
+  offset: 21, 4
+  index: -1
+images/effects/xinzeng/skillfe/daoguang/daoguang_009
+  rotate: true
+  xy: 817, 741
+  size: 281, 149
+  orig: 300, 169
+  offset: 19, 9
+  index: -1
+images/effects/xinzeng/skillfe/guangquan_000
+  rotate: true
+  xy: 968, 733
+  size: 82, 54
+  orig: 90, 90
+  offset: 4, 18
+  index: -1
+images/effects/xinzeng/skillfe/kuodian/kuodian_003
+  rotate: true
+  xy: 918, 19
+  size: 147, 104
+  orig: 198, 150
+  offset: 25, 20
+  index: -1
+images/effects/xinzeng/skillfe/shandian0/shandian0_000
+  rotate: false
+  xy: 973, 415
+  size: 49, 136
+  orig: 60, 210
+  offset: 7, 74
+  index: -1
+images/effects/xinzeng/skillfe/shandian0/shandian0_001
+  rotate: true
+  xy: 817, 720
+  size: 19, 93
+  orig: 60, 210
+  offset: 22, 96
+  index: -1
+images/effects/xinzeng/skillfe/shandian0/shandian0_002
+  rotate: false
+  xy: 968, 817
+  size: 53, 205
+  orig: 60, 210
+  offset: 5, 4
+  index: -1
+images/effects/xinzeng/skillfe/shandian2/shandian22_000_001
+  rotate: true
+  xy: 413, 5
+  size: 111, 253
+  orig: 180, 300
+  offset: 42, 37
+  index: -1
+images/effects/xinzeng/skillfe/shandian2/shandian22_000_002
+  rotate: true
+  xy: 714, 428
+  size: 123, 257
+  orig: 180, 300
+  offset: 33, 33
+  index: -1
+images/effects/xinzeng/skillfe/shandian2/shandian22_000_003
+  rotate: true
+  xy: 711, 168
+  size: 126, 254
+  orig: 180, 300
+  offset: 30, 36
+  index: -1
+images/effects/xinzeng/skillfe/shandian2/shandian22_000_005
+  rotate: false
+  xy: 181, 158
+  size: 124, 255
+  orig: 180, 300
+  offset: 30, 34
+  index: -1
+images/effects/xinzeng/skillfe/shandian2/shandian2_000
+  rotate: false
+  xy: 360, 735
+  size: 172, 287
+  orig: 180, 300
+  offset: 7, 3
+  index: -1
+images/effects/xinzeng/skillfe/shandian2/shandian2_001
+  rotate: false
+  xy: 182, 735
+  size: 176, 287
+  orig: 180, 300
+  offset: 3, 3
+  index: -1
+images/effects/xinzeng/skillfe/shandian2/shandian2_002
+  rotate: false
+  xy: 2, 446
+  size: 177, 287
+  orig: 180, 300
+  offset: 2, 3
+  index: -1
+images/effects/xinzeng/skillfe/shandian2/shandian2_003
+  rotate: false
+  xy: 2, 158
+  size: 177, 286
+  orig: 180, 300
+  offset: 2, 4
+  index: -1
+images/effects/xinzeng/skillfe/shandian2/shandian2_004
+  rotate: false
+  xy: 2, 735
+  size: 178, 287
+  orig: 180, 300
+  offset: 2, 3
+  index: -1
+images/effects/xinzeng/skillfe/shandian2/shandian2_005
+  rotate: true
+  xy: 467, 572
+  size: 137, 265
+  orig: 180, 300
+  offset: 24, 22
+  index: -1
+images/effects/xinzeng/skillfe/shandian2/shandian2_006
+  rotate: true
+  xy: 458, 435
+  size: 135, 254
+  orig: 180, 300
+  offset: 15, 28
+  index: -1
+images/effects/xinzeng/skillfe/shandian2/shandian2_008
+  rotate: true
+  xy: 710, 296
+  size: 130, 256
+  orig: 180, 300
+  offset: 23, 22
+  index: -1
+images/effects/xinzeng/skillfe/wuqi/wuqi_023
+  rotate: false
+  xy: 668, 2
+  size: 96, 114
+  orig: 210, 150
+  offset: 82, 22
+  index: -1
+images/effects/xinzeng/skillfe/xiaodian/xiandian_004
+  rotate: false
+  xy: 283, 2
+  size: 128, 154
+  orig: 180, 180
+  offset: 16, 13
+  index: -1
+images/effects/xinzeng/skillfe/xiaodian/xiandian_007
+  rotate: false
+  xy: 766, 2
+  size: 150, 164
+  orig: 180, 180
+  offset: 10, 10
+  index: -1
+
+effects_10601_skillF2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skill_new/skilla_new/yanwu2/yanwu2_00070
+  rotate: true
+  xy: 982, 330
+  size: 120, 39
+  orig: 133, 42
+  offset: 8, 1
+  index: -1
+images/effects/skill_new/skilla_new/yanwu2/yanwu2_00071
+  rotate: false
+  xy: 842, 124
+  size: 127, 41
+  orig: 133, 42
+  offset: 2, 1
+  index: -1
+images/effects/skill_new/skilla_new/yanwu2/yanwu2_00073
+  rotate: false
+  xy: 797, 81
+  size: 128, 41
+  orig: 133, 42
+  offset: 1, 1
+  index: -1
+images/effects/skill_new/skillc/yanwu/yanwu_00031
+  rotate: false
+  xy: 927, 2
+  size: 86, 31
+  orig: 126, 36
+  offset: 13, 2
+  index: -1
+images/effects/skill_new/skillc/yanwu/yanwu_00034
+  rotate: true
+  xy: 790, 292
+  size: 116, 34
+  orig: 126, 36
+  offset: 4, 1
+  index: -1
+images/effects/skill_new/skillc/yanwu/yanwu_00036
+  rotate: true
+  xy: 983, 204
+  size: 124, 34
+  orig: 126, 36
+  offset: 1, 2
+  index: -1
+images/effects/xinzeng/buff/wuqibuff/wuqibuff_000
+  rotate: true
+  xy: 275, 142
+  size: 131, 65
+  orig: 150, 90
+  offset: 8, 7
+  index: -1
+images/effects/xinzeng/buff/wuqibuff/wuqibuff_002
+  rotate: true
+  xy: 810, 773
+  size: 101, 60
+  orig: 150, 90
+  offset: 23, 15
+  index: -1
+images/effects/xinzeng/buff/wuqibuff/wuqibuff_014
+  rotate: true
+  xy: 719, 290
+  size: 141, 69
+  orig: 150, 90
+  offset: 3, 16
+  index: -1
+images/effects/xinzeng/glow_000
+  rotate: false
+  xy: 867, 21
+  size: 58, 58
+  orig: 60, 60
+  offset: 1, 1
+  index: -1
+images/effects/xinzeng/guangxian2_000
+  rotate: false
+  xy: 353, 711
+  size: 208, 68
+  orig: 240, 72
+  offset: 16, 2
+  index: -1
+images/effects/xinzeng/guangxian_000
+  rotate: false
+  xy: 142, 731
+  size: 209, 63
+  orig: 216, 71
+  offset: 3, 4
+  index: -1
+images/effects/xinzeng/skillfe/canying/canying_004
+  rotate: false
+  xy: 927, 35
+  size: 95, 74
+  orig: 120, 120
+  offset: 19, 22
+  index: -1
+images/effects/xinzeng/skillfe/canying/canying_006
+  rotate: false
+  xy: 782, 2
+  size: 83, 77
+  orig: 120, 120
+  offset: 27, 34
+  index: -1
+images/effects/xinzeng/skillfe/daoguang/daoguang_010
+  rotate: false
+  xy: 142, 878
+  size: 234, 144
+  orig: 300, 169
+  offset: 26, 11
+  index: -1
+images/effects/xinzeng/skillfe/daoguang/daoguang_011
+  rotate: false
+  xy: 378, 891
+  size: 232, 131
+  orig: 300, 169
+  offset: 24, 16
+  index: -1
+images/effects/xinzeng/skillfe/daoguang/daoguang_012
+  rotate: false
+  xy: 385, 781
+  size: 191, 108
+  orig: 300, 169
+  offset: 47, 29
+  index: -1
+images/effects/xinzeng/skillfe/didian/didian_000
+  rotate: true
+  xy: 452, 427
+  size: 151, 95
+  orig: 180, 120
+  offset: 13, 0
+  index: -1
+images/effects/xinzeng/skillfe/didian/didian_001
+  rotate: true
+  xy: 671, 93
+  size: 161, 93
+  orig: 180, 120
+  offset: 11, 1
+  index: -1
+images/effects/xinzeng/skillfe/didian/didian_002
+  rotate: true
+  xy: 455, 259
+  size: 166, 94
+  orig: 180, 120
+  offset: 10, 1
+  index: -1
+images/effects/xinzeng/skillfe/didian/didian_003
+  rotate: false
+  xy: 170, 275
+  size: 170, 106
+  orig: 180, 120
+  offset: 9, 1
+  index: -1
+images/effects/xinzeng/skillfe/didian/didian_004
+  rotate: true
+  xy: 80, 100
+  size: 169, 70
+  orig: 180, 120
+  offset: 9, 25
+  index: -1
+images/effects/xinzeng/skillfe/kuodian/kuodian_001
+  rotate: false
+  xy: 170, 2
+  size: 107, 89
+  orig: 198, 150
+  offset: 33, 17
+  index: -1
+images/effects/xinzeng/skillfe/kuodian/kuodian_002
+  rotate: false
+  xy: 901, 452
+  size: 121, 94
+  orig: 198, 150
+  offset: 36, 21
+  index: -1
+images/effects/xinzeng/skillfe/kuodian/kuodian_004
+  rotate: true
+  xy: 342, 260
+  size: 161, 111
+  orig: 198, 150
+  offset: 21, 21
+  index: -1
+images/effects/xinzeng/skillfe/kuodian/kuodian_005
+  rotate: true
+  xy: 551, 257
+  size: 174, 118
+  orig: 198, 150
+  offset: 14, 20
+  index: -1
+images/effects/xinzeng/skillfe/kuodian/kuodian_006
+  rotate: false
+  xy: 558, 574
+  size: 182, 123
+  orig: 198, 150
+  offset: 11, 19
+  index: -1
+images/effects/xinzeng/skillfe/kuodian/kuodian_007
+  rotate: true
+  xy: 170, 383
+  size: 184, 127
+  orig: 198, 150
+  offset: 9, 16
+  index: -1
+images/effects/xinzeng/skillfe/kuodian/kuodian_008
+  rotate: false
+  xy: 287, 584
+  size: 184, 125
+  orig: 198, 150
+  offset: 9, 19
+  index: -1
+images/effects/xinzeng/skillfe/kuodian/kuodian_009
+  rotate: true
+  xy: 342, 128
+  size: 130, 104
+  orig: 198, 150
+  offset: 36, 7
+  index: -1
+images/effects/xinzeng/skillfe/shandian0/shandian0_003
+  rotate: false
+  xy: 791, 410
+  size: 25, 162
+  orig: 60, 210
+  offset: 19, 25
+  index: -1
+images/effects/xinzeng/skillfe/shandian0/shandian0_004
+  rotate: true
+  xy: 578, 749
+  size: 59, 210
+  orig: 60, 210
+  offset: 0, 0
+  index: -1
+images/effects/xinzeng/skillfe/shandian0/shandian0_005
+  rotate: false
+  xy: 766, 121
+  size: 29, 167
+  orig: 60, 210
+  offset: 15, 22
+  index: -1
+images/effects/xinzeng/skillfe/shandian0/shandian0_006
+  rotate: false
+  xy: 671, 256
+  size: 46, 175
+  orig: 60, 210
+  offset: 10, 4
+  index: -1
+images/effects/xinzeng/skillfe/shandian0/shandian0_008
+  rotate: false
+  xy: 797, 130
+  size: 43, 160
+  orig: 60, 210
+  offset: 10, 9
+  index: -1
+images/effects/xinzeng/skillfe/shandian1/shandain1_000
+  rotate: true
+  xy: 612, 876
+  size: 68, 252
+  orig: 102, 270
+  offset: 18, 13
+  index: -1
+images/effects/xinzeng/skillfe/shandian1/shandain1_001
+  rotate: false
+  xy: 2, 271
+  size: 91, 256
+  orig: 102, 270
+  offset: 9, 7
+  index: -1
+images/effects/xinzeng/skillfe/shandian1/shandain1_003
+  rotate: false
+  xy: 2, 7
+  size: 76, 262
+  orig: 102, 270
+  offset: 17, 8
+  index: -1
+images/effects/xinzeng/skillfe/shandian1/shandain1_004
+  rotate: true
+  xy: 612, 946
+  size: 76, 268
+  orig: 102, 270
+  offset: 16, 1
+  index: -1
+images/effects/xinzeng/skillfe/shandian1/shandain1_005
+  rotate: false
+  xy: 95, 276
+  size: 73, 251
+  orig: 102, 270
+  offset: 14, 9
+  index: -1
+images/effects/xinzeng/skillfe/shandian1/shandain1_006
+  rotate: true
+  xy: 578, 810
+  size: 64, 230
+  orig: 102, 270
+  offset: 17, 11
+  index: -1
+images/effects/xinzeng/skillfe/shandian1/shandain1_007
+  rotate: true
+  xy: 563, 699
+  size: 48, 207
+  orig: 102, 270
+  offset: 17, 24
+  index: -1
+images/effects/xinzeng/skillfe/shandian2/shandian22_000_004
+  rotate: false
+  xy: 2, 529
+  size: 126, 249
+  orig: 180, 300
+  offset: 30, 39
+  index: -1
+images/effects/xinzeng/skillfe/shandian2/shandian2_007
+  rotate: false
+  xy: 2, 780
+  size: 138, 242
+  orig: 180, 300
+  offset: 25, 38
+  index: -1
+images/effects/xinzeng/skillfe/shandian2/shandian2_009
+  rotate: true
+  xy: 142, 796
+  size: 80, 241
+  orig: 180, 300
+  offset: 35, 34
+  index: -1
+images/effects/xinzeng/skillfe/wuqi/wuqi_006
+  rotate: false
+  xy: 971, 111
+  size: 51, 73
+  orig: 210, 150
+  offset: 52, 8
+  index: -1
+images/effects/xinzeng/skillfe/wuqi/wuqi_008
+  rotate: false
+  xy: 279, 2
+  size: 80, 89
+  orig: 210, 150
+  offset: 22, 5
+  index: -1
+images/effects/xinzeng/skillfe/wuqi/wuqi_013
+  rotate: true
+  xy: 922, 548
+  size: 85, 100
+  orig: 210, 150
+  offset: 16, 7
+  index: -1
+images/effects/xinzeng/skillfe/wuqi/wuqi_020
+  rotate: false
+  xy: 80, 2
+  size: 88, 96
+  orig: 210, 150
+  offset: 6, 5
+  index: -1
+images/effects/xinzeng/skillfe/wuqi/wuqi_021
+  rotate: false
+  xy: 649, 25
+  size: 131, 66
+  orig: 210, 150
+  offset: 17, 37
+  index: -1
+images/effects/xinzeng/skillfe/wuqi/wuqi_022
+  rotate: false
+  xy: 805, 648
+  size: 131, 112
+  orig: 210, 150
+  offset: 38, 25
+  index: -1
+images/effects/xinzeng/skillfe/wuqi/wuqi_024
+  rotate: false
+  xy: 872, 762
+  size: 145, 60
+  orig: 210, 150
+  offset: 46, 53
+  index: -1
+images/effects/xinzeng/skillfe/wuqi/wuqi_025
+  rotate: true
+  xy: 473, 580
+  size: 129, 83
+  orig: 210, 150
+  offset: 38, 41
+  index: -1
+images/effects/xinzeng/skillfe/wuqi/wuqi_026
+  rotate: true
+  xy: 448, 122
+  size: 135, 98
+  orig: 210, 150
+  offset: 52, 52
+  index: -1
+images/effects/xinzeng/skillfe/wuqi/wuqi_029
+  rotate: true
+  xy: 826, 300
+  size: 136, 75
+  orig: 210, 150
+  offset: 46, 13
+  index: -1
+images/effects/xinzeng/skillfe/wuqi/wuqi_030
+  rotate: true
+  xy: 922, 186
+  size: 126, 59
+  orig: 210, 150
+  offset: 39, 35
+  index: -1
+images/effects/xinzeng/skillfe/wuqi/wuqi_031
+  rotate: true
+  xy: 742, 574
+  size: 123, 61
+  orig: 210, 150
+  offset: 41, 34
+  index: -1
+images/effects/xinzeng/skillfe/wuqi/wuqi_033
+  rotate: true
+  xy: 437, 2
+  size: 118, 72
+  orig: 210, 150
+  offset: 42, 30
+  index: -1
+images/effects/xinzeng/skillfe/wuqi/wuqi_034
+  rotate: true
+  xy: 938, 635
+  size: 125, 81
+  orig: 210, 150
+  offset: 36, 31
+  index: -1
+images/effects/xinzeng/skillfe/wuqi/wuqi_035
+  rotate: true
+  xy: 903, 314
+  size: 136, 77
+  orig: 210, 150
+  offset: 37, 36
+  index: -1
+images/effects/xinzeng/skillfe/wuqi/wuqi_036
+  rotate: false
+  xy: 882, 948
+  size: 140, 74
+  orig: 210, 150
+  offset: 39, 40
+  index: -1
+images/effects/xinzeng/skillfe/wuqi/wuqi_037
+  rotate: true
+  xy: 710, 433
+  size: 139, 79
+  orig: 210, 150
+  offset: 38, 38
+  index: -1
+images/effects/xinzeng/skillfe/wuqi/wuqi_038
+  rotate: false
+  xy: 511, 26
+  size: 136, 83
+  orig: 210, 150
+  offset: 39, 36
+  index: -1
+images/effects/xinzeng/skillfe/wuqi/wuqi_039
+  rotate: true
+  xy: 818, 438
+  size: 135, 81
+  orig: 210, 150
+  offset: 38, 39
+  index: -1
+images/effects/xinzeng/skillfe/wuqi/wuqi_040
+  rotate: true
+  xy: 842, 167
+  size: 131, 78
+  orig: 210, 150
+  offset: 42, 43
+  index: -1
+images/effects/xinzeng/skillfe/wuqi/wuqi_041
+  rotate: true
+  xy: 361, 3
+  size: 123, 74
+  orig: 210, 150
+  offset: 44, 47
+  index: -1
+images/effects/xinzeng/skillfe/wuqi/wuqi_042
+  rotate: false
+  xy: 805, 575
+  size: 115, 71
+  orig: 210, 150
+  offset: 46, 50
+  index: -1
+images/effects/xinzeng/skillfe/xiaodian/xiandian_001
+  rotate: true
+  xy: 882, 824
+  size: 122, 137
+  orig: 180, 180
+  offset: 22, 18
+  index: -1
+images/effects/xinzeng/skillfe/xiaodian/xiandian_002
+  rotate: false
+  xy: 548, 111
+  size: 121, 144
+  orig: 180, 180
+  offset: 27, 15
+  index: -1
+images/effects/xinzeng/skillfe/xiaodian/xiandian_003
+  rotate: true
+  xy: 549, 433
+  size: 139, 159
+  orig: 180, 180
+  offset: 16, 13
+  index: -1
+images/effects/xinzeng/skillfe/xiaodian/xiandian_005
+  rotate: false
+  xy: 130, 569
+  size: 155, 160
+  orig: 180, 180
+  offset: 9, 11
+  index: -1
+images/effects/xinzeng/skillfe/xiaodian/xiandian_006
+  rotate: false
+  xy: 152, 115
+  size: 121, 158
+  orig: 180, 180
+  offset: 22, 8
+  index: -1
+images/effects/xinzeng/skillfe/xiaodian/xiandian_008
+  rotate: false
+  xy: 299, 423
+  size: 151, 159
+  orig: 180, 180
+  offset: 8, 14
+  index: -1
+
+effects_10601_skillF3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skill_new/skillc/yanwu/yanwu_00032
+  rotate: false
+  xy: 180, 899
+  size: 98, 33
+  orig: 126, 36
+  offset: 10, 2
+  index: -1
+images/effects/skill_new/skillc/yanwu/yanwu_00033
+  rotate: false
+  xy: 389, 917
+  size: 108, 35
+  orig: 126, 36
+  offset: 5, 1
+  index: -1
+images/effects/skill_new/skillc/yanwu/yanwu_00035
+  rotate: false
+  xy: 727, 948
+  size: 120, 35
+  orig: 126, 36
+  offset: 1, 1
+  index: -1
+images/effects/skill_new/skillc/yanwu/yanwu_00037
+  rotate: false
+  xy: 727, 985
+  size: 124, 34
+  orig: 126, 36
+  offset: 1, 2
+  index: -1
+images/effects/skill_new/skillc/yanwu/yanwu_00038
+  rotate: false
+  xy: 853, 986
+  size: 124, 33
+  orig: 126, 36
+  offset: 1, 3
+  index: -1
+images/effects/xinzeng/buff/wuqibuff/wuqibuff_004
+  rotate: false
+  xy: 94, 282
+  size: 81, 73
+  orig: 150, 90
+  offset: 33, 14
+  index: -1
+images/effects/xinzeng/buff/wuqibuff/wuqibuff_006
+  rotate: false
+  xy: 84, 217
+  size: 82, 63
+  orig: 150, 90
+  offset: 33, 11
+  index: -1
+images/effects/xinzeng/buff/wuqibuff/wuqibuff_008
+  rotate: true
+  xy: 91, 615
+  size: 91, 66
+  orig: 150, 90
+  offset: 28, 7
+  index: -1
+images/effects/xinzeng/buff/wuqibuff/wuqibuff_010
+  rotate: false
+  xy: 507, 957
+  size: 113, 62
+  orig: 150, 90
+  offset: 17, 17
+  index: -1
+images/effects/xinzeng/buff/wuqibuff/wuqibuff_012
+  rotate: true
+  xy: 2, 118
+  size: 97, 75
+  orig: 150, 90
+  offset: 25, 10
+  index: -1
+images/effects/xinzeng/guangci2_000
+  rotate: false
+  xy: 2, 316
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+images/effects/xinzeng/guangquan1_000
+  rotate: false
+  xy: 86, 2
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+images/effects/xinzeng/skillfe/canying/canying_000
+  rotate: false
+  xy: 79, 148
+  size: 76, 67
+  orig: 120, 120
+  offset: 5, 20
+  index: -1
+images/effects/xinzeng/skillfe/canying/canying_001
+  rotate: true
+  xy: 2, 25
+  size: 91, 82
+  orig: 120, 120
+  offset: 5, 18
+  index: -1
+images/effects/xinzeng/skillfe/canying/canying_002
+  rotate: true
+  xy: 92, 441
+  size: 83, 82
+  orig: 120, 120
+  offset: 20, 18
+  index: -1
+images/effects/xinzeng/skillfe/canying/canying_003
+  rotate: false
+  xy: 159, 666
+  size: 90, 80
+  orig: 120, 120
+  offset: 24, 20
+  index: -1
+images/effects/xinzeng/skillfe/canying/canying_005
+  rotate: false
+  xy: 179, 748
+  size: 91, 82
+  orig: 120, 120
+  offset: 19, 29
+  index: -1
+images/effects/xinzeng/skillfe/canying/canying_008
+  rotate: true
+  xy: 94, 357
+  size: 82, 78
+  orig: 120, 120
+  offset: 25, 17
+  index: -1
+images/effects/xinzeng/skillfe/canying/canying_009
+  rotate: true
+  xy: 86, 64
+  size: 82, 60
+  orig: 120, 120
+  offset: 25, 17
+  index: -1
+images/effects/xinzeng/skillfe/kuodian/kuodian_000
+  rotate: false
+  xy: 251, 664
+  size: 57, 82
+  orig: 198, 150
+  offset: 86, 27
+  index: -1
+images/effects/xinzeng/skillfe/shandian1/shandain1_002
+  rotate: true
+  xy: 180, 832
+  size: 65, 92
+  orig: 102, 270
+  offset: 26, 14
+  index: -1
+images/effects/xinzeng/skillfe/wuqi/wuqi_005
+  rotate: true
+  xy: 86, 708
+  size: 48, 71
+  orig: 210, 150
+  offset: 56, 12
+  index: -1
+images/effects/xinzeng/skillfe/wuqi/wuqi_007
+  rotate: false
+  xy: 176, 583
+  size: 59, 81
+  orig: 210, 150
+  offset: 42, 4
+  index: -1
+images/effects/xinzeng/skillfe/wuqi/wuqi_009
+  rotate: true
+  xy: 90, 836
+  size: 82, 88
+  orig: 210, 150
+  offset: 20, 6
+  index: -1
+images/effects/xinzeng/skillfe/wuqi/wuqi_010
+  rotate: false
+  xy: 92, 526
+  size: 82, 87
+  orig: 210, 150
+  offset: 21, 7
+  index: -1
+images/effects/xinzeng/skillfe/wuqi/wuqi_011
+  rotate: false
+  xy: 2, 708
+  size: 82, 103
+  orig: 210, 150
+  offset: 19, 7
+  index: -1
+images/effects/xinzeng/skillfe/wuqi/wuqi_012
+  rotate: false
+  xy: 2, 813
+  size: 85, 101
+  orig: 210, 150
+  offset: 16, 7
+  index: -1
+images/effects/xinzeng/skillfe/wuqi/wuqi_014
+  rotate: false
+  xy: 2, 916
+  size: 86, 103
+  orig: 210, 150
+  offset: 14, 6
+  index: -1
+images/effects/xinzeng/skillfe/wuqi/wuqi_015
+  rotate: true
+  xy: 180, 934
+  size: 85, 101
+  orig: 210, 150
+  offset: 14, 6
+  index: -1
+images/effects/xinzeng/skillfe/wuqi/wuqi_016
+  rotate: false
+  xy: 2, 607
+  size: 87, 99
+  orig: 210, 150
+  offset: 11, 5
+  index: -1
+images/effects/xinzeng/skillfe/wuqi/wuqi_017
+  rotate: false
+  xy: 90, 920
+  size: 88, 99
+  orig: 210, 150
+  offset: 9, 5
+  index: -1
+images/effects/xinzeng/skillfe/wuqi/wuqi_018
+  rotate: false
+  xy: 2, 507
+  size: 88, 98
+  orig: 210, 150
+  offset: 8, 5
+  index: -1
+images/effects/xinzeng/skillfe/wuqi/wuqi_019
+  rotate: false
+  xy: 2, 408
+  size: 88, 97
+  orig: 210, 150
+  offset: 7, 5
+  index: -1
+images/effects/xinzeng/skillfe/wuqi/wuqi_027
+  rotate: false
+  xy: 89, 758
+  size: 88, 76
+  orig: 210, 150
+  offset: 79, 55
+  index: -1
+images/effects/xinzeng/skillfe/wuqi/wuqi_028
+  rotate: false
+  xy: 2, 217
+  size: 80, 97
+  orig: 210, 150
+  offset: 81, 16
+  index: -1
+images/effects/xinzeng/skillfe/wuqi/wuqi_032
+  rotate: false
+  xy: 389, 954
+  size: 116, 65
+  orig: 210, 150
+  offset: 46, 32
+  index: -1
+images/effects/xinzeng/skillfe/wuqi/wuqi_043
+  rotate: false
+  xy: 622, 963
+  size: 103, 56
+  orig: 210, 150
+  offset: 52, 62
+  index: -1
+images/effects/xinzeng/skillfe/xiaodian/xiandian_000
+  rotate: true
+  xy: 283, 938
+  size: 81, 104
+  orig: 180, 180
+  offset: 43, 33
+  index: -1

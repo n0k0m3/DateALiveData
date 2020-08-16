@@ -1,0 +1,27 @@
+
+effect_yun_15.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+yun1
+  rotate: false
+  xy: 2, 638
+  size: 945, 357
+  orig: 945, 357
+  offset: 0, 0
+  index: -1
+yun2
+  rotate: false
+  xy: 2, 2
+  size: 466, 160
+  orig: 466, 160
+  offset: 0, 0
+  index: -1
+yun3
+  rotate: false
+  xy: 2, 164
+  size: 797, 472
+  orig: 797, 472
+  offset: 0, 0
+  index: -1

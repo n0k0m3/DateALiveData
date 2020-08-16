@@ -1,0 +1,236 @@
+
+effects_10102_BQ.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Effects/baoqi/baoqi/baoqi_003
+  rotate: false
+  xy: 486, 550
+  size: 239, 234
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+Effects/baoqi/baoqi/baoqi_004
+  rotate: false
+  xy: 2, 781
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+Effects/baoqi/baoqi/baoqi_005
+  rotate: false
+  xy: 2, 539
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+Effects/baoqi/baoqi/baoqi_006
+  rotate: true
+  xy: 727, 320
+  size: 232, 234
+  orig: 240, 240
+  offset: 4, 2
+  index: -1
+Effects/baoqi/baoqi/baoqi_007
+  rotate: false
+  xy: 2, 297
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+Effects/baoqi/baoqi/baoqi_008
+  rotate: false
+  xy: 2, 55
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+Effects/baoqi/baoqi/baoqi_009
+  rotate: true
+  xy: 244, 785
+  size: 236, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+Effects/baoqi/baoqi/baoqi_010
+  rotate: true
+  xy: 486, 786
+  size: 235, 239
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+Effects/baoqi/baoqi/baoqi_011
+  rotate: true
+  xy: 727, 786
+  size: 235, 239
+  orig: 240, 240
+  offset: 1, 0
+  index: -1
+Effects/baoqi/baoqi/baoqi_012
+  rotate: true
+  xy: 244, 549
+  size: 234, 239
+  orig: 240, 240
+  offset: 2, 0
+  index: -1
+Effects/baoqi/baoqi/baoqi_013
+  rotate: true
+  xy: 727, 554
+  size: 230, 238
+  orig: 240, 240
+  offset: 3, 0
+  index: -1
+Effects/baoqi/baoqi/baoqi_014
+  rotate: true
+  xy: 485, 322
+  size: 226, 236
+  orig: 240, 240
+  offset: 7, 0
+  index: -1
+Effects/baoqi/baoqi/baoqi_015
+  rotate: true
+  xy: 244, 322
+  size: 225, 233
+  orig: 240, 240
+  offset: 8, 3
+  index: -1
+Effects/baoqi/baoqi/baoqi_016
+  rotate: false
+  xy: 244, 91
+  size: 223, 229
+  orig: 240, 240
+  offset: 9, 4
+  index: -1
+Effects/baoqi/baoqi/baoqi_017
+  rotate: true
+  xy: 469, 100
+  size: 220, 229
+  orig: 240, 240
+  offset: 10, 4
+  index: -1
+Effects/baoqi/baoqi/baoqi_018
+  rotate: false
+  xy: 700, 100
+  size: 203, 218
+  orig: 240, 240
+  offset: 19, 11
+  index: -1
+Effects/baoqi/buff/lizi_000
+  rotate: true
+  xy: 905, 46
+  size: 131, 115
+  orig: 180, 180
+  offset: 20, 38
+  index: -1
+Effects/baoqi/buff/lizi_008
+  rotate: true
+  xy: 905, 179
+  size: 139, 113
+  orig: 180, 180
+  offset: 0, 26
+  index: -1
+Effects/baoqi/lanhuan_000
+  rotate: false
+  xy: 469, 8
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+Effects/glow_000
+  rotate: false
+  xy: 963, 494
+  size: 58, 58
+  orig: 60, 60
+  offset: 1, 1
+  index: -1
+
+effects_10102_BQ2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Effects/baoqi/baoqi/baoqi_000
+  rotate: false
+  xy: 484, 870
+  size: 126, 133
+  orig: 240, 240
+  offset: 42, 18
+  index: -1
+Effects/baoqi/baoqi/baoqi_001
+  rotate: false
+  xy: 2, 463
+  size: 145, 144
+  orig: 240, 240
+  offset: 30, 16
+  index: -1
+Effects/baoqi/baoqi/baoqi_002
+  rotate: false
+  xy: 2, 811
+  size: 208, 192
+  orig: 240, 240
+  offset: 7, 4
+  index: -1
+Effects/baoqi/baoqi/baoqi_019
+  rotate: false
+  xy: 2, 609
+  size: 166, 200
+  orig: 240, 240
+  offset: 48, 21
+  index: -1
+Effects/baoqi/baoqi/baoqi_020
+  rotate: false
+  xy: 212, 852
+  size: 140, 151
+  orig: 240, 240
+  offset: 49, 39
+  index: -1
+Effects/baoqi/buff/lizi_002
+  rotate: false
+  xy: 875, 881
+  size: 128, 122
+  orig: 180, 180
+  offset: 24, 27
+  index: -1
+Effects/baoqi/buff/lizi_004
+  rotate: false
+  xy: 354, 857
+  size: 128, 146
+  orig: 180, 180
+  offset: 26, 0
+  index: -1
+Effects/baoqi/buff/lizi_006
+  rotate: false
+  xy: 612, 874
+  size: 126, 129
+  orig: 180, 180
+  offset: 10, 16
+  index: -1
+Effects/baoqi/buff/lizi_010
+  rotate: true
+  xy: 2, 181
+  size: 140, 118
+  orig: 180, 180
+  offset: 8, 29
+  index: -1
+Effects/baoqi/buff/lizi_012
+  rotate: false
+  xy: 2, 323
+  size: 133, 138
+  orig: 180, 180
+  offset: 18, 18
+  index: -1
+Effects/baoqi/buff/lizi_014
+  rotate: false
+  xy: 740, 882
+  size: 133, 121
+  orig: 180, 180
+  offset: 16, 34
+  index: -1
+Effects/baoqi/jinhuan_000
+  rotate: false
+  xy: 2, 69
+  size: 117, 110
+  orig: 120, 120
+  offset: 2, 3
+  index: -1

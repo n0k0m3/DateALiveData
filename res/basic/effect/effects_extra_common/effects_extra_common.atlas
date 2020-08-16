@@ -1,0 +1,20 @@
+
+effects_extra_common.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/diquan1_00000
+  rotate: true
+  xy: 2, 2
+  size: 269, 87
+  orig: 270, 100
+  offset: 1, 7
+  index: -1
+images/diquan2_00000
+  rotate: false
+  xy: 2, 273
+  size: 268, 100
+  orig: 270, 100
+  offset: 1, 0
+  index: -1

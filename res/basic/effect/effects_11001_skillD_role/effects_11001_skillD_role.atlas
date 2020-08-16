@@ -1,0 +1,625 @@
+
+effects_11001_skillD_role.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skilld/white_00078
+  rotate: false
+  xy: 1003, 54
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+effects/skilld/wuxianpu/wuxianpu_00018
+  rotate: false
+  xy: 674, 98
+  size: 45, 53
+  orig: 62, 167
+  offset: 2, 0
+  index: -1
+effects/skilld/wuxianpu/wuxianpu_00020
+  rotate: true
+  xy: 674, 153
+  size: 56, 118
+  orig: 62, 167
+  offset: 0, 2
+  index: -1
+effects/skilld/wuxianpu/wuxianpu_00022
+  rotate: true
+  xy: 2, 4
+  size: 61, 162
+  orig: 62, 167
+  offset: 1, 5
+  index: -1
+effects/skilld/wuxianpu/wuxianpu_00024
+  rotate: true
+  xy: 839, 13
+  size: 58, 162
+  orig: 62, 167
+  offset: 4, 5
+  index: -1
+effects/skilld/yinhuan/yinhuan_00057
+  rotate: true
+  xy: 806, 502
+  size: 214, 216
+  orig: 263, 263
+  offset: 24, 22
+  index: -1
+effects/skilld/yinhuan/yinhuan_00059
+  rotate: true
+  xy: 806, 286
+  size: 214, 216
+  orig: 263, 263
+  offset: 24, 22
+  index: -1
+effects/skilld/yinhuan/yinhuan_00061
+  rotate: true
+  xy: 806, 73
+  size: 211, 216
+  orig: 263, 263
+  offset: 25, 22
+  index: -1
+lihui_13
+  rotate: false
+  xy: 319, 68
+  size: 32, 27
+  orig: 32, 27
+  offset: 0, 0
+  index: -1
+lihui_14
+  rotate: true
+  xy: 270, 5
+  size: 60, 41
+  orig: 60, 41
+  offset: 0, 0
+  index: -1
+lihui_15
+  rotate: true
+  xy: 313, 6
+  size: 59, 40
+  orig: 59, 40
+  offset: 0, 0
+  index: -1
+lihui_2
+  rotate: false
+  xy: 535, 522
+  size: 266, 194
+  orig: 266, 194
+  offset: 0, 0
+  index: -1
+lihui_20
+  rotate: true
+  xy: 197, 5
+  size: 60, 71
+  orig: 60, 71
+  offset: 0, 0
+  index: -1
+lihui_22
+  rotate: true
+  xy: 535, 404
+  size: 116, 264
+  orig: 116, 264
+  offset: 0, 0
+  index: -1
+lihui_26
+  rotate: false
+  xy: 535, 101
+  size: 137, 301
+  orig: 137, 301
+  offset: 0, 0
+  index: -1
+lihui_3
+  rotate: false
+  xy: 674, 287
+  size: 127, 115
+  orig: 127, 115
+  offset: 0, 0
+  index: -1
+lihui_37
+  rotate: false
+  xy: 319, 97
+  size: 214, 619
+  orig: 214, 619
+  offset: 0, 0
+  index: -1
+lihui_4
+  rotate: true
+  xy: 355, 3
+  size: 92, 107
+  orig: 92, 107
+  offset: 0, 0
+  index: -1
+lihui_5
+  rotate: true
+  xy: 806, 12
+  size: 59, 31
+  orig: 59, 31
+  offset: 0, 0
+  index: -1
+lihui_6
+  rotate: true
+  xy: 166, 4
+  size: 61, 29
+  orig: 61, 29
+  offset: 0, 0
+  index: -1
+lihui_piano_1
+  rotate: false
+  xy: 674, 211
+  size: 126, 74
+  orig: 126, 74
+  offset: 0, 0
+  index: -1
+lihui_piano_2
+  rotate: false
+  xy: 464, 4
+  size: 340, 91
+  orig: 340, 91
+  offset: 0, 0
+  index: -1
+popo
+  rotate: true
+  xy: 2, 67
+  size: 649, 315
+  orig: 649, 316
+  offset: 0, 1
+  index: -1
+wutai
+  rotate: false
+  xy: 2, 718
+  size: 1003, 304
+  orig: 1013, 312
+  offset: 2, 7
+  index: -1
+
+effects_11001_skillD_role2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skilld/wuxianpu/wuxianpu_00026
+  rotate: true
+  xy: 268, 15
+  size: 57, 163
+  orig: 62, 167
+  offset: 5, 4
+  index: -1
+effects/skilld/wuxianpu/wuxianpu_00028
+  rotate: true
+  xy: 433, 17
+  size: 55, 164
+  orig: 62, 167
+  offset: 7, 3
+  index: -1
+effects/skilld/yinhuan/yinhuan_00063
+  rotate: false
+  xy: 813, 535
+  size: 208, 215
+  orig: 263, 263
+  offset: 27, 22
+  index: -1
+lihui_19
+  rotate: false
+  xy: 2, 560
+  size: 809, 462
+  orig: 809, 462
+  offset: 0, 0
+  index: -1
+lihui_28
+  rotate: false
+  xy: 2, 4
+  size: 264, 68
+  orig: 264, 68
+  offset: 0, 0
+  index: -1
+lihui_32
+  rotate: false
+  xy: 2, 74
+  size: 757, 484
+  orig: 757, 484
+  offset: 0, 0
+  index: -1
+lihui_36
+  rotate: false
+  xy: 761, 9
+  size: 256, 524
+  orig: 256, 524
+  offset: 0, 0
+  index: -1
+lihui_7
+  rotate: true
+  xy: 813, 752
+  size: 270, 209
+  orig: 270, 209
+  offset: 0, 0
+  index: -1
+lihui_8
+  rotate: true
+  xy: 599, 22
+  size: 50, 159
+  orig: 50, 159
+  offset: 0, 0
+  index: -1
+
+effects_11001_skillD_role3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skilld/guangci/guangci_00042
+  rotate: false
+  xy: 2, 9
+  size: 199, 44
+  orig: 228, 123
+  offset: 16, 7
+  index: -1
+effects/skilld/guangci/guangci_00043
+  rotate: true
+  xy: 911, 10
+  size: 200, 98
+  orig: 228, 123
+  offset: 16, 5
+  index: -1
+effects/skilld/xunhuanlizi/xunhuanlizi_00042
+  rotate: false
+  xy: 567, 2
+  size: 342, 144
+  orig: 342, 149
+  offset: 0, 4
+  index: -1
+lihui_12
+  rotate: false
+  xy: 907, 795
+  size: 105, 227
+  orig: 105, 227
+  offset: 0, 0
+  index: -1
+lihui_23
+  rotate: false
+  xy: 792, 171
+  size: 103, 521
+  orig: 103, 521
+  offset: 0, 0
+  index: -1
+lihui_25
+  rotate: false
+  xy: 897, 212
+  size: 110, 480
+  orig: 110, 480
+  offset: 0, 0
+  index: -1
+lihui_33
+  rotate: false
+  xy: 2, 555
+  size: 602, 467
+  orig: 602, 467
+  offset: 0, 0
+  index: -1
+lihui_34
+  rotate: true
+  xy: 2, 275
+  size: 278, 603
+  orig: 278, 603
+  offset: 0, 0
+  index: -1
+lihui_35
+  rotate: true
+  xy: 2, 55
+  size: 218, 563
+  orig: 218, 563
+  offset: 0, 0
+  index: -1
+lihui_38
+  rotate: false
+  xy: 607, 148
+  size: 183, 544
+  orig: 183, 544
+  offset: 0, 0
+  index: -1
+lihui_39
+  rotate: false
+  xy: 606, 694
+  size: 299, 328
+  orig: 299, 328
+  offset: 0, 0
+  index: -1
+
+effects_11001_skillD_role4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skilld/beijing_glow2/beijing_glow2_00043
+  rotate: false
+  xy: 303, 88
+  size: 281, 137
+  orig: 281, 150
+  offset: 0, 0
+  index: -1
+effects/skilld/glow2_00043
+  rotate: true
+  xy: 733, 309
+  size: 261, 173
+  orig: 302, 191
+  offset: 19, 0
+  index: -1
+effects/skilld/guangci/guangci_00044
+  rotate: false
+  xy: 733, 195
+  size: 190, 112
+  orig: 228, 123
+  offset: 19, 3
+  index: -1
+effects/skilld/guangci/guangci_00045
+  rotate: false
+  xy: 276, 7
+  size: 181, 79
+  orig: 228, 123
+  offset: 23, 0
+  index: -1
+effects/skilld/smoker/smoker_00051
+  rotate: true
+  xy: 793, 11
+  size: 182, 206
+  orig: 182, 206
+  offset: 0, 0
+  index: -1
+effects/skilld/xunhuanlizi/xunhuanlizi_00044
+  rotate: false
+  xy: 298, 873
+  size: 342, 149
+  orig: 342, 149
+  offset: 0, 0
+  index: -1
+effects/skilld/xunhuanlizi/xunhuanlizi_00046
+  rotate: true
+  xy: 2, 225
+  size: 342, 149
+  orig: 342, 149
+  offset: 0, 0
+  index: -1
+effects/skilld/xunhuanlizi/xunhuanlizi_00048
+  rotate: true
+  xy: 153, 225
+  size: 342, 148
+  orig: 342, 149
+  offset: 0, 1
+  index: -1
+effects/skilld/xunhuanlizi/xunhuanlizi_00050
+  rotate: false
+  xy: 642, 873
+  size: 342, 149
+  orig: 342, 149
+  offset: 0, 0
+  index: -1
+effects/skilld/xunhuanlizi/xunhuanlizi_00052
+  rotate: false
+  xy: 298, 722
+  size: 342, 149
+  orig: 342, 149
+  offset: 0, 0
+  index: -1
+effects/skilld/xunhuanlizi/xunhuanlizi_00054
+  rotate: false
+  xy: 642, 722
+  size: 342, 149
+  orig: 342, 149
+  offset: 0, 0
+  index: -1
+effects/skilld/xunhuanlizi/xunhuanlizi_00056
+  rotate: true
+  xy: 303, 227
+  size: 342, 145
+  orig: 342, 149
+  offset: 0, 4
+  index: -1
+effects/skilld/xunhuanlizi/xunhuanlizi_00058
+  rotate: false
+  xy: 258, 571
+  size: 342, 149
+  orig: 342, 149
+  offset: 0, 0
+  index: -1
+effects/skilld/xunhuanlizi/xunhuanlizi_00060
+  rotate: false
+  xy: 602, 572
+  size: 342, 148
+  orig: 342, 149
+  offset: 0, 1
+  index: -1
+effects/skilld/xunhuanlizi/xunhuanlizi_00062
+  rotate: true
+  xy: 450, 227
+  size: 342, 145
+  orig: 342, 149
+  offset: 0, 4
+  index: -1
+lihui_0
+  rotate: false
+  xy: 2, 816
+  size: 294, 206
+  orig: 294, 206
+  offset: 0, 0
+  index: -1
+lihui_1
+  rotate: true
+  xy: 908, 343
+  size: 227, 101
+  orig: 227, 101
+  offset: 0, 0
+  index: -1
+lihui_17
+  rotate: false
+  xy: 2, 569
+  size: 254, 245
+  orig: 254, 245
+  offset: 0, 0
+  index: -1
+lihui_21
+  rotate: false
+  xy: 597, 228
+  size: 134, 341
+  orig: 134, 341
+  offset: 0, 0
+  index: -1
+lihui_29
+  rotate: false
+  xy: 2, 44
+  size: 272, 179
+  orig: 272, 179
+  offset: 0, 0
+  index: -1
+lihui_30
+  rotate: false
+  xy: 586, 2
+  size: 205, 191
+  orig: 205, 191
+  offset: 0, 0
+  index: -1
+
+effects_11001_skillD_role5.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skilld/smoker/smoker_00042
+  rotate: false
+  xy: 234, 10
+  size: 133, 171
+  orig: 182, 206
+  offset: 24, 0
+  index: -1
+effects/skilld/smoker/smoker_00045
+  rotate: false
+  xy: 857, 811
+  size: 157, 204
+  orig: 182, 206
+  offset: 14, 0
+  index: -1
+effects/skilld/smoker/smoker_00048
+  rotate: true
+  xy: 625, 650
+  size: 178, 206
+  orig: 182, 206
+  offset: 4, 0
+  index: -1
+effects/skilld/smoker/smoker_00054
+  rotate: true
+  xy: 417, 618
+  size: 182, 206
+  orig: 182, 206
+  offset: 0, 0
+  index: -1
+effects/skilld/smoker/smoker_00057
+  rotate: false
+  xy: 833, 608
+  size: 182, 201
+  orig: 182, 206
+  offset: 0, 5
+  index: -1
+effects/skilld/smoker/smoker_00060
+  rotate: true
+  xy: 625, 466
+  size: 182, 192
+  orig: 182, 206
+  offset: 0, 14
+  index: -1
+effects/skilld/smoker/smoker_00063
+  rotate: false
+  xy: 819, 424
+  size: 182, 182
+  orig: 182, 206
+  offset: 0, 24
+  index: -1
+effects/skilld/smoker/smoker_00066
+  rotate: true
+  xy: 177, 183
+  size: 182, 179
+  orig: 182, 206
+  offset: 0, 27
+  index: -1
+effects/skilld/yinhuan/yinhuan_00065
+  rotate: false
+  xy: 2, 800
+  size: 205, 215
+  orig: 263, 263
+  offset: 28, 22
+  index: -1
+effects/skilld/yinhuan/yinhuan_00067
+  rotate: false
+  xy: 209, 801
+  size: 206, 214
+  orig: 263, 263
+  offset: 28, 22
+  index: -1
+effects/skilld/yinhuan/yinhuan_00069
+  rotate: false
+  xy: 2, 586
+  size: 205, 212
+  orig: 263, 263
+  offset: 29, 23
+  index: -1
+effects/skilld/yinhuan/yinhuan_00071
+  rotate: false
+  xy: 417, 802
+  size: 206, 213
+  orig: 263, 263
+  offset: 29, 23
+  index: -1
+lihui_10
+  rotate: false
+  xy: 202, 415
+  size: 75, 169
+  orig: 75, 169
+  offset: 0, 0
+  index: -1
+lihui_11
+  rotate: true
+  xy: 2, 5
+  size: 122, 230
+  orig: 122, 230
+  offset: 0, 0
+  index: -1
+lihui_16
+  rotate: true
+  xy: 625, 830
+  size: 185, 230
+  orig: 185, 230
+  offset: 0, 0
+  index: -1
+lihui_18
+  rotate: false
+  xy: 2, 367
+  size: 198, 217
+  orig: 206, 227
+  offset: 0, 7
+  index: -1
+lihui_24
+  rotate: false
+  xy: 2, 129
+  size: 173, 236
+  orig: 173, 236
+  offset: 0, 0
+  index: -1
+lihui_27
+  rotate: false
+  xy: 279, 430
+  size: 110, 157
+  orig: 110, 157
+  offset: 0, 0
+  index: -1
+lihui_31
+  rotate: true
+  xy: 209, 589
+  size: 210, 182
+  orig: 210, 182
+  offset: 0, 0
+  index: -1
+lihui_9
+  rotate: true
+  xy: 393, 522
+  size: 94, 164
+  orig: 94, 164
+  offset: 0, 0
+  index: -1

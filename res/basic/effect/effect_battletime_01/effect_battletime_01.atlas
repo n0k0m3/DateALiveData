@@ -1,0 +1,13 @@
+
+effect_battletime_01.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tiao_00000
+  rotate: false
+  xy: 2, 121
+  size: 187, 68
+  orig: 200, 100
+  offset: 9, 15
+  index: -1

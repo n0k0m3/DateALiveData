@@ -1,0 +1,20 @@
+
+effect_shengmingshu_xiantiao.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/tiaoma1
+  rotate: false
+  xy: 15, 56
+  size: 19, 906
+  orig: 19, 906
+  offset: 0, 0
+  index: -1
+images/tiaoma2
+  rotate: false
+  xy: 2, 2
+  size: 11, 960
+  orig: 11, 960
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,83 @@
+
+action_main_ui1.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 81, 172
+  size: 60, 69
+  orig: 60, 69
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 81, 119
+  size: 54, 51
+  orig: 54, 51
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 2, 66
+  size: 72, 87
+  orig: 72, 87
+  offset: 0, 0
+  index: -1
+ICON
+  rotate: false
+  xy: 76, 68
+  size: 39, 49
+  orig: 41, 51
+  offset: 1, 1
+  index: -1
+g_0
+  rotate: false
+  xy: 191, 180
+  size: 46, 61
+  orig: 46, 62
+  offset: 0, 0
+  index: -1
+g_1
+  rotate: false
+  xy: 2, 2
+  size: 46, 62
+  orig: 46, 62
+  offset: 0, 0
+  index: -1
+g_2
+  rotate: false
+  xy: 143, 179
+  size: 46, 62
+  orig: 46, 62
+  offset: 0, 0
+  index: -1
+g_3
+  rotate: false
+  xy: 50, 3
+  size: 43, 61
+  orig: 43, 61
+  offset: 0, 0
+  index: -1
+g_4
+  rotate: false
+  xy: 95, 23
+  size: 30, 43
+  orig: 30, 43
+  offset: 0, 0
+  index: -1
+g_5
+  rotate: true
+  xy: 95, 5
+  size: 16, 23
+  orig: 16, 23
+  offset: 0, 0
+  index: -1
+guang_00000
+  rotate: false
+  xy: 2, 155
+  size: 77, 86
+  orig: 100, 100
+  offset: 12, 5
+  index: -1

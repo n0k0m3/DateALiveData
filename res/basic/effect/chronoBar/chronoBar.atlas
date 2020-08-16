@@ -1,0 +1,132 @@
+
+chronoBar.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/jinduxijie/xijie_00000
+  rotate: false
+  xy: 2, 943
+  size: 320, 6
+  orig: 338, 21
+  offset: 7, 8
+  index: -1
+images/jinduxijie/xijie_00002
+  rotate: false
+  xy: 668, 982
+  size: 320, 6
+  orig: 338, 21
+  offset: 7, 8
+  index: -1
+images/jinduxijie/xijie_00004
+  rotate: false
+  xy: 2, 935
+  size: 320, 6
+  orig: 338, 21
+  offset: 7, 8
+  index: -1
+images/jinduxijie/xijie_00006
+  rotate: false
+  xy: 324, 943
+  size: 320, 6
+  orig: 338, 21
+  offset: 7, 8
+  index: -1
+images/jinduxijie/xijie_00008
+  rotate: false
+  xy: 668, 974
+  size: 320, 6
+  orig: 338, 21
+  offset: 7, 8
+  index: -1
+images/jinduxijie/xijie_00010
+  rotate: false
+  xy: 2, 927
+  size: 320, 6
+  orig: 338, 21
+  offset: 7, 8
+  index: -1
+images/jinduxijie/xijie_00012
+  rotate: false
+  xy: 324, 935
+  size: 320, 6
+  orig: 338, 21
+  offset: 7, 8
+  index: -1
+images/jinduxijie/xijie_00014
+  rotate: false
+  xy: 668, 966
+  size: 320, 6
+  orig: 338, 21
+  offset: 7, 8
+  index: -1
+images/jinduxijie/xijie_00016
+  rotate: false
+  xy: 2, 919
+  size: 320, 6
+  orig: 338, 21
+  offset: 7, 8
+  index: -1
+images/jinduxijie/xijie_00018
+  rotate: false
+  xy: 324, 927
+  size: 320, 6
+  orig: 338, 21
+  offset: 7, 8
+  index: -1
+images/jinduxijie/xijie_00020
+  rotate: false
+  xy: 668, 958
+  size: 320, 6
+  orig: 338, 21
+  offset: 7, 8
+  index: -1
+images/jinduxijie/xijie_00022
+  rotate: false
+  xy: 2, 911
+  size: 320, 6
+  orig: 338, 21
+  offset: 7, 8
+  index: -1
+images/jinduxijie/xijie_00024
+  rotate: false
+  xy: 324, 919
+  size: 320, 6
+  orig: 338, 21
+  offset: 7, 8
+  index: -1
+images/jinduxijie/xijie_00026
+  rotate: false
+  xy: 2, 903
+  size: 320, 6
+  orig: 338, 21
+  offset: 7, 8
+  index: -1
+images/jinduxijie/xijie_00028
+  rotate: false
+  xy: 324, 911
+  size: 320, 6
+  orig: 338, 21
+  offset: 7, 8
+  index: -1
+images/jinduxijie/xijie_00030
+  rotate: false
+  xy: 2, 895
+  size: 320, 6
+  orig: 338, 21
+  offset: 7, 8
+  index: -1
+images/jinduxijie/xijie_00032
+  rotate: false
+  xy: 324, 903
+  size: 320, 6
+  orig: 338, 21
+  offset: 7, 8
+  index: -1
+images/kuang_00000
+  rotate: false
+  xy: 2, 951
+  size: 664, 37
+  orig: 666, 40
+  offset: 1, 1
+  index: -1

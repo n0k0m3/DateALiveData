@@ -1,0 +1,20 @@
+
+effects_10101_1_bladestorm_2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+beiguan
+  rotate: false
+  xy: 2, 178
+  size: 336, 322
+  orig: 336, 322
+  offset: 0, 0
+  index: -1
+xianquan
+  rotate: false
+  xy: 2, 2
+  size: 174, 174
+  orig: 174, 174
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,335 @@
+
+effects_10301_extra_skillB4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/extra_skillB/bingqiudown/bingqiudown_add_00000
+  rotate: false
+  xy: 2, 749
+  size: 129, 129
+  orig: 132, 132
+  offset: 3, 2
+  index: -1
+images/effects/extra_skillB/bingqiudown/bingqiudown_add_00002
+  rotate: false
+  xy: 151, 893
+  size: 129, 129
+  orig: 132, 132
+  offset: 3, 2
+  index: -1
+images/effects/extra_skillB/bingqiudown/bingqiudown_add_00004
+  rotate: false
+  xy: 2, 618
+  size: 129, 129
+  orig: 132, 132
+  offset: 3, 2
+  index: -1
+images/effects/extra_skillB/bingqiudown/bingqiudown_add_00006
+  rotate: false
+  xy: 282, 893
+  size: 129, 129
+  orig: 132, 132
+  offset: 3, 2
+  index: -1
+images/effects/extra_skillB/bingqiudown/bingqiudown_add_00008
+  rotate: false
+  xy: 2, 487
+  size: 129, 129
+  orig: 132, 132
+  offset: 3, 2
+  index: -1
+images/effects/extra_skillB/bingqiudown/bingqiudown_add_00010
+  rotate: false
+  xy: 413, 893
+  size: 129, 129
+  orig: 132, 132
+  offset: 3, 2
+  index: -1
+images/effects/extra_skillB/bingqiudown/bingqiudown_add_00012
+  rotate: false
+  xy: 2, 356
+  size: 129, 129
+  orig: 132, 132
+  offset: 3, 2
+  index: -1
+images/effects/extra_skillB/bingqiudown/bingqiudown_add_00014
+  rotate: false
+  xy: 544, 893
+  size: 129, 129
+  orig: 132, 132
+  offset: 3, 2
+  index: -1
+images/effects/extra_skillB/bingqiudown/bingqiudown_add_00016
+  rotate: false
+  xy: 2, 225
+  size: 129, 129
+  orig: 132, 132
+  offset: 3, 2
+  index: -1
+images/effects/extra_skillB/bingqiudown/bingqiudown_add_00018
+  rotate: false
+  xy: 675, 893
+  size: 129, 129
+  orig: 132, 132
+  offset: 3, 2
+  index: -1
+images/effects/extra_skillB/bingqiudown/bingqiudown_add_00020
+  rotate: false
+  xy: 2, 94
+  size: 129, 129
+  orig: 132, 132
+  offset: 3, 2
+  index: -1
+images/effects/extra_skillB/bingqiudown/bingqiudown_add_00022
+  rotate: false
+  xy: 806, 893
+  size: 129, 129
+  orig: 132, 132
+  offset: 3, 2
+  index: -1
+images/effects/extra_skillB/bingqiudown/bingqiudown_add_00024
+  rotate: false
+  xy: 133, 749
+  size: 129, 129
+  orig: 132, 132
+  offset: 3, 2
+  index: -1
+images/effects/extra_skillB/bingqiudown/bingqiudown_add_00026
+  rotate: false
+  xy: 133, 618
+  size: 129, 129
+  orig: 132, 132
+  offset: 3, 2
+  index: -1
+images/effects/extra_skillB/bingqiudown/bingqiudown_add_00028
+  rotate: false
+  xy: 133, 487
+  size: 129, 129
+  orig: 132, 132
+  offset: 3, 2
+  index: -1
+images/effects/extra_skillB/bingqiudown/bingqiudown_nor_00000
+  rotate: true
+  xy: 133, 2
+  size: 99, 104
+  orig: 132, 132
+  offset: 16, 14
+  index: -1
+images/effects/extra_skillB/bingqiuup/bingqiuup_add_00000
+  rotate: false
+  xy: 133, 359
+  size: 126, 126
+  orig: 132, 132
+  offset: 5, 4
+  index: -1
+images/effects/extra_skillB/bingqiuup/bingqiuup_add_00002
+  rotate: false
+  xy: 133, 231
+  size: 126, 126
+  orig: 132, 132
+  offset: 5, 4
+  index: -1
+images/effects/extra_skillB/bingqiuup/bingqiuup_add_00004
+  rotate: false
+  xy: 133, 103
+  size: 126, 126
+  orig: 132, 132
+  offset: 5, 4
+  index: -1
+images/effects/extra_skillB/bingqiuup/bingqiuup_add_00006
+  rotate: false
+  xy: 264, 765
+  size: 126, 126
+  orig: 132, 132
+  offset: 5, 4
+  index: -1
+images/effects/extra_skillB/bingqiuup/bingqiuup_add_00008
+  rotate: false
+  xy: 264, 637
+  size: 126, 126
+  orig: 132, 132
+  offset: 5, 4
+  index: -1
+images/effects/extra_skillB/bingqiuup/bingqiuup_add_00010
+  rotate: false
+  xy: 392, 765
+  size: 126, 126
+  orig: 132, 132
+  offset: 5, 4
+  index: -1
+images/effects/extra_skillB/bingqiuup/bingqiuup_add_00012
+  rotate: false
+  xy: 264, 509
+  size: 126, 126
+  orig: 132, 132
+  offset: 5, 4
+  index: -1
+images/effects/extra_skillB/bingqiuup/bingqiuup_add_00014
+  rotate: false
+  xy: 392, 637
+  size: 126, 126
+  orig: 132, 132
+  offset: 5, 4
+  index: -1
+images/effects/extra_skillB/bingqiuup/bingqiuup_add_00016
+  rotate: false
+  xy: 520, 765
+  size: 126, 126
+  orig: 132, 132
+  offset: 5, 4
+  index: -1
+images/effects/extra_skillB/bingqiuup/bingqiuup_add_00018
+  rotate: false
+  xy: 392, 509
+  size: 126, 126
+  orig: 132, 132
+  offset: 5, 4
+  index: -1
+images/effects/extra_skillB/bingqiuup/bingqiuup_add_00020
+  rotate: false
+  xy: 520, 637
+  size: 126, 126
+  orig: 132, 132
+  offset: 5, 4
+  index: -1
+images/effects/extra_skillB/bingqiuup/bingqiuup_add_00022
+  rotate: false
+  xy: 648, 765
+  size: 126, 126
+  orig: 132, 132
+  offset: 5, 4
+  index: -1
+images/effects/extra_skillB/bingqiuup/bingqiuup_add_00024
+  rotate: false
+  xy: 520, 509
+  size: 126, 126
+  orig: 132, 132
+  offset: 5, 4
+  index: -1
+images/effects/extra_skillB/bingqiuup/bingqiuup_add_00026
+  rotate: false
+  xy: 648, 637
+  size: 126, 126
+  orig: 132, 132
+  offset: 5, 4
+  index: -1
+images/effects/extra_skillB/bingqiuup/bingqiuup_add_00028
+  rotate: false
+  xy: 776, 765
+  size: 126, 126
+  orig: 132, 132
+  offset: 5, 4
+  index: -1
+images/effects/extra_skillB/bingqiuup/bingqiuup_nor_00000
+  rotate: true
+  xy: 904, 783
+  size: 108, 79
+  orig: 132, 132
+  offset: 14, 37
+  index: -1
+images/effects/extra_skillB/bingqiuup/bingqiuup_nor_00002
+  rotate: true
+  xy: 261, 125
+  size: 107, 79
+  orig: 132, 132
+  offset: 14, 37
+  index: -1
+images/effects/extra_skillB/bingqiuup/bingqiuup_nor_00004
+  rotate: false
+  xy: 484, 426
+  size: 107, 81
+  orig: 132, 132
+  offset: 14, 37
+  index: -1
+images/effects/extra_skillB/bingqiuup/bingqiuup_nor_00006
+  rotate: false
+  xy: 648, 554
+  size: 109, 81
+  orig: 132, 132
+  offset: 12, 37
+  index: -1
+images/effects/extra_skillB/bingqiuup/bingqiuup_nor_00008
+  rotate: false
+  xy: 2, 11
+  size: 110, 81
+  orig: 132, 132
+  offset: 11, 37
+  index: -1
+images/effects/extra_skillB/bingqiuup/bingqiuup_nor_00010
+  rotate: false
+  xy: 776, 682
+  size: 109, 81
+  orig: 132, 132
+  offset: 12, 37
+  index: -1
+images/effects/extra_skillB/bingqiuup/bingqiuup_nor_00012
+  rotate: true
+  xy: 937, 913
+  size: 109, 82
+  orig: 132, 132
+  offset: 13, 36
+  index: -1
+images/effects/extra_skillB/bingqiuup/bingqiuup_nor_00014
+  rotate: false
+  xy: 261, 344
+  size: 107, 81
+  orig: 132, 132
+  offset: 14, 36
+  index: -1
+images/effects/extra_skillB/bingqiuup/bingqiuup_nor_00016
+  rotate: false
+  xy: 264, 427
+  size: 108, 80
+  orig: 132, 132
+  offset: 13, 36
+  index: -1
+images/effects/extra_skillB/bingqiuup/bingqiuup_nor_00018
+  rotate: false
+  xy: 374, 427
+  size: 108, 80
+  orig: 132, 132
+  offset: 13, 36
+  index: -1
+images/effects/extra_skillB/bingqiuup/bingqiuup_nor_00020
+  rotate: false
+  xy: 480, 345
+  size: 107, 79
+  orig: 132, 132
+  offset: 14, 37
+  index: -1
+images/effects/extra_skillB/bingqiuup/bingqiuup_nor_00022
+  rotate: true
+  xy: 261, 234
+  size: 108, 79
+  orig: 132, 132
+  offset: 14, 37
+  index: -1
+images/effects/extra_skillB/bingqiuup/bingqiuup_nor_00024
+  rotate: false
+  xy: 648, 473
+  size: 110, 79
+  orig: 132, 132
+  offset: 13, 37
+  index: -1
+images/effects/extra_skillB/bingqiuup/bingqiuup_nor_00026
+  rotate: false
+  xy: 776, 601
+  size: 110, 79
+  orig: 132, 132
+  offset: 13, 37
+  index: -1
+images/effects/extra_skillB/bingqiuup/bingqiuup_nor_00028
+  rotate: false
+  xy: 370, 346
+  size: 108, 79
+  orig: 132, 132
+  offset: 14, 37
+  index: -1
+images/effects/extra_skillB/glow_00000
+  rotate: false
+  xy: 2, 880
+  size: 147, 142
+  orig: 154, 154
+  offset: 6, 4
+  index: -1

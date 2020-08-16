@@ -1,0 +1,509 @@
+
+effects_26701_skillD.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+danmu_0001
+  rotate: false
+  xy: 755, 10
+  size: 264, 33
+  orig: 264, 33
+  offset: 0, 0
+  index: -1
+danmu_0002
+  rotate: true
+  xy: 796, 555
+  size: 467, 34
+  orig: 467, 34
+  offset: 0, 0
+  index: -1
+danmu_0003
+  rotate: true
+  xy: 350, 381
+  size: 604, 34
+  orig: 604, 34
+  offset: 0, 0
+  index: -1
+danmu_0004
+  rotate: true
+  xy: 666, 457
+  size: 528, 34
+  orig: 528, 34
+  offset: 0, 0
+  index: -1
+danmu_0005
+  rotate: true
+  xy: 662, 18
+  size: 434, 34
+  orig: 434, 34
+  offset: 0, 0
+  index: -1
+danmu_0006
+  rotate: true
+  xy: 231, 336
+  size: 649, 35
+  orig: 649, 35
+  offset: 0, 0
+  index: -1
+danmu_0007
+  rotate: true
+  xy: 172, 294
+  size: 691, 35
+  orig: 691, 35
+  offset: 0, 0
+  index: -1
+danmu_0008
+  rotate: true
+  xy: 964, 618
+  size: 404, 36
+  orig: 404, 36
+  offset: 0, 0
+  index: -1
+danmu_0009
+  rotate: true
+  xy: 628, 454
+  size: 531, 36
+  orig: 531, 36
+  offset: 0, 0
+  index: -1
+danmu_0010
+  rotate: true
+  xy: 312, 377
+  size: 608, 36
+  orig: 608, 36
+  offset: 0, 0
+  index: -1
+danmu_00111
+  rotate: true
+  xy: 590, 450
+  size: 535, 36
+  orig: 535, 36
+  offset: 0, 0
+  index: -1
+danmu_00112
+  rotate: true
+  xy: 702, 483
+  size: 502, 34
+  orig: 502, 34
+  offset: 0, 0
+  index: -1
+danmu_00113
+  rotate: true
+  xy: 738, 483
+  size: 502, 34
+  orig: 502, 34
+  offset: 0, 0
+  index: -1
+danmu_00115
+  rotate: true
+  xy: 408, 425
+  size: 560, 40
+  orig: 560, 40
+  offset: 0, 0
+  index: -1
+danmu_00116
+  rotate: true
+  xy: 408, 425
+  size: 560, 40
+  orig: 560, 40
+  offset: 0, 0
+  index: -1
+danmu_00117
+  rotate: true
+  xy: 698, 12
+  size: 443, 33
+  orig: 443, 33
+  offset: 0, 0
+  index: -1
+danmu_00118
+  rotate: true
+  xy: 450, 420
+  size: 565, 34
+  orig: 565, 34
+  offset: 0, 0
+  index: -1
+danmu_00119
+  rotate: true
+  xy: 68, 232
+  size: 753, 36
+  orig: 753, 36
+  offset: 0, 0
+  index: -1
+danmu_00120
+  rotate: false
+  xy: 2, 987
+  size: 784, 35
+  orig: 784, 35
+  offset: 0, 0
+  index: -1
+danmu_00121
+  rotate: true
+  xy: 486, 431
+  size: 554, 36
+  orig: 554, 36
+  offset: 0, 0
+  index: -1
+effect/bai_000
+  rotate: false
+  xy: 832, 580
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+effect/bbo/bbo_000
+  rotate: true
+  xy: 401, 25
+  size: 360, 127
+  orig: 360, 144
+  offset: 0, 10
+  index: -1
+effect/bbo/bbo_002
+  rotate: true
+  xy: 832, 662
+  size: 360, 130
+  orig: 360, 144
+  offset: 0, 14
+  index: -1
+effect/bbo/bbo_004
+  rotate: true
+  xy: 552, 44
+  size: 360, 108
+  orig: 360, 144
+  offset: 0, 17
+  index: -1
+effect/bbo/bbo_006
+  rotate: true
+  xy: 755, 116
+  size: 360, 124
+  orig: 360, 144
+  offset: 0, 14
+  index: -1
+effect/bbo/bbo_008
+  rotate: true
+  xy: 881, 187
+  size: 360, 115
+  orig: 360, 144
+  offset: 0, 16
+  index: -1
+effect/dibo/dibo_004
+  rotate: true
+  xy: 280, 4
+  size: 317, 119
+  orig: 320, 120
+  offset: 3, 1
+  index: -1
+effect/kuobo/kuobo_000
+  rotate: true
+  xy: 881, 45
+  size: 140, 141
+  orig: 240, 240
+  offset: 50, 51
+  index: -1
+effect/kuobo/kuobo_010
+  rotate: false
+  xy: 46, 2
+  size: 210, 204
+  orig: 240, 240
+  offset: 15, 19
+  index: -1
+effect/zimu/01
+  rotate: true
+  xy: 209, 298
+  size: 687, 20
+  orig: 687, 20
+  offset: 0, 0
+  index: -1
+effect/zimu/02
+  rotate: true
+  xy: 524, 418
+  size: 567, 20
+  orig: 567, 20
+  offset: 0, 0
+  index: -1
+effect/zimu/03
+  rotate: true
+  xy: 546, 406
+  size: 579, 20
+  orig: 579, 20
+  offset: 0, 0
+  index: -1
+effect/zimu/04
+  rotate: true
+  xy: 2, 92
+  size: 93, 14
+  orig: 93, 14
+  offset: 0, 0
+  index: -1
+effect/zimu/05
+  rotate: true
+  xy: 386, 387
+  size: 598, 20
+  orig: 598, 20
+  offset: 0, 0
+  index: -1
+effect/zimu/06
+  rotate: true
+  xy: 128, 233
+  size: 752, 20
+  orig: 752, 20
+  offset: 0, 0
+  index: -1
+effect/zimu/07
+  rotate: true
+  xy: 150, 265
+  size: 720, 20
+  orig: 720, 20
+  offset: 0, 0
+  index: -1
+effect/zimu/08
+  rotate: true
+  xy: 46, 208
+  size: 777, 20
+  orig: 777, 20
+  offset: 0, 0
+  index: -1
+effect/zimu/09
+  rotate: true
+  xy: 2, 187
+  size: 798, 20
+  orig: 798, 20
+  offset: 0, 0
+  index: -1
+effect/zimu/10
+  rotate: true
+  xy: 106, 229
+  size: 756, 20
+  orig: 756, 20
+  offset: 0, 0
+  index: -1
+effect/zimu/11
+  rotate: true
+  xy: 258, 2
+  size: 319, 20
+  orig: 319, 20
+  offset: 0, 0
+  index: -1
+effect/zimu/12
+  rotate: true
+  xy: 1002, 549
+  size: 473, 20
+  orig: 473, 20
+  offset: 0, 0
+  index: -1
+effect/zimu/13
+  rotate: true
+  xy: 268, 323
+  size: 662, 20
+  orig: 662, 20
+  offset: 0, 0
+  index: -1
+effect/zimu/14
+  rotate: true
+  xy: 530, 9
+  size: 395, 20
+  orig: 395, 20
+  offset: 0, 0
+  index: -1
+effect/zimu/15
+  rotate: true
+  xy: 24, 187
+  size: 798, 20
+  orig: 798, 20
+  offset: 0, 0
+  index: -1
+effect/zimu/16
+  rotate: true
+  xy: 568, 415
+  size: 570, 20
+  orig: 570, 20
+  offset: 0, 0
+  index: -1
+effect/zimu/17
+  rotate: true
+  xy: 733, 11
+  size: 470, 20
+  orig: 470, 20
+  offset: 0, 0
+  index: -1
+effect/zimu/18
+  rotate: true
+  xy: 290, 324
+  size: 661, 20
+  orig: 661, 20
+  offset: 0, 0
+  index: -1
+effect/zimu/19
+  rotate: true
+  xy: 774, 478
+  size: 507, 20
+  orig: 507, 20
+  offset: 0, 0
+  index: -1
+effect/zimu/20
+  rotate: true
+  xy: 998, 234
+  size: 313, 20
+  orig: 313, 20
+  offset: 0, 0
+  index: -1
+
+effects_26701_skillD2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+danmu_00114
+  rotate: false
+  xy: 646, 704
+  size: 342, 36
+  orig: 342, 36
+  offset: 0, 0
+  index: -1
+danmu_00122
+  rotate: false
+  xy: 646, 669
+  size: 302, 33
+  orig: 302, 33
+  offset: 0, 0
+  index: -1
+effect/dianyin/dianyin_000
+  rotate: false
+  xy: 2, 689
+  size: 320, 162
+  orig: 320, 176
+  offset: 0, 0
+  index: -1
+effect/dianyin/dianyin_002
+  rotate: false
+  xy: 2, 853
+  size: 320, 169
+  orig: 320, 176
+  offset: 0, 0
+  index: -1
+effect/dianyin/dianyin_004
+  rotate: false
+  xy: 324, 862
+  size: 320, 160
+  orig: 320, 176
+  offset: 0, 3
+  index: -1
+effect/dianyin/dianyin_006
+  rotate: false
+  xy: 646, 864
+  size: 320, 158
+  orig: 320, 176
+  offset: 0, 0
+  index: -1
+effect/dianyin/dianyin_008
+  rotate: false
+  xy: 324, 701
+  size: 320, 159
+  orig: 320, 176
+  offset: 0, 0
+  index: -1
+effect/dibo/dibo_000
+  rotate: true
+  xy: 175, 145
+  size: 304, 119
+  orig: 320, 120
+  offset: 8, 0
+  index: -1
+effect/dibo/dibo_002
+  rotate: false
+  xy: 646, 742
+  size: 316, 120
+  orig: 320, 120
+  offset: 2, 0
+  index: -1
+effect/dibo/dibo_006
+  rotate: false
+  xy: 324, 579
+  size: 307, 120
+  orig: 320, 120
+  offset: 3, 0
+  index: -1
+effect/dibo/dibo_008
+  rotate: false
+  xy: 248, 458
+  size: 305, 119
+  orig: 320, 120
+  offset: 6, 0
+  index: -1
+effect/guangxian
+  rotate: false
+  xy: 2, 82
+  size: 156, 62
+  orig: 160, 64
+  offset: 3, 1
+  index: -1
+effect/jiaban_000
+  rotate: true
+  xy: 2, 146
+  size: 303, 171
+  orig: 304, 182
+  offset: 0, 7
+  index: -1
+effect/kuobo/kuobo_001
+  rotate: false
+  xy: 692, 13
+  size: 162, 160
+  orig: 240, 240
+  offset: 39, 43
+  index: -1
+effect/kuobo/kuobo_002
+  rotate: false
+  xy: 515, 2
+  size: 175, 171
+  orig: 240, 240
+  offset: 32, 30
+  index: -1
+effect/kuobo/kuobo_004
+  rotate: false
+  xy: 736, 175
+  size: 200, 200
+  orig: 240, 240
+  offset: 20, 19
+  index: -1
+effect/kuobo/kuobo_006
+  rotate: false
+  xy: 736, 377
+  size: 198, 206
+  orig: 240, 240
+  offset: 21, 19
+  index: -1
+effect/kuobo/kuobo_008
+  rotate: false
+  xy: 519, 240
+  size: 215, 216
+  orig: 240, 240
+  offset: 14, 11
+  index: -1
+effect/kuobo/kuobo_012
+  rotate: false
+  xy: 296, 20
+  size: 217, 214
+  orig: 240, 240
+  offset: 10, 10
+  index: -1
+effect/kuobo/kuobo_016
+  rotate: false
+  xy: 296, 236
+  size: 221, 220
+  orig: 240, 240
+  offset: 10, 10
+  index: -1
+effect/sheguang_010
+  rotate: false
+  xy: 2, 451
+  size: 244, 236
+  orig: 280, 280
+  offset: 14, 41
+  index: -1
+effect/zimu/21
+  rotate: false
+  xy: 633, 585
+  size: 263, 82
+  orig: 269, 82
+  offset: 2, 0
+  index: -1

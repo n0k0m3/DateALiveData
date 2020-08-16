@@ -1,0 +1,90 @@
+
+effect_zhounian_04.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: false
+  xy: 714, 949
+  size: 238, 61
+  orig: 246, 64
+  offset: 4, 3
+  index: -1
+02
+  rotate: false
+  xy: 454, 447
+  size: 143, 61
+  orig: 246, 64
+  offset: 49, 3
+  index: -1
+03
+  rotate: false
+  xy: 2, 94
+  size: 137, 64
+  orig: 264, 64
+  offset: 57, 0
+  index: -1
+final_00047_00000
+  rotate: false
+  xy: 2, 510
+  size: 656, 500
+  orig: 664, 500
+  offset: 8, 0
+  index: -1
+gong_00000
+  rotate: false
+  xy: 2, 2
+  size: 84, 90
+  orig: 84, 90
+  offset: 0, 0
+  index: -1
+huangse
+  rotate: false
+  xy: 304, 167
+  size: 40, 31
+  orig: 42, 33
+  offset: 1, 1
+  index: -1
+kai_00000
+  rotate: false
+  xy: 714, 857
+  size: 87, 90
+  orig: 87, 90
+  offset: 0, 0
+  index: -1
+neng_00000
+  rotate: false
+  xy: 454, 355
+  size: 85, 90
+  orig: 85, 90
+  offset: 0, 0
+  index: -1
+shenglidi
+  rotate: true
+  xy: 660, 380
+  size: 630, 52
+  orig: 630, 52
+  offset: 0, 0
+  index: -1
+tiao1_00000
+  rotate: false
+  xy: 2, 200
+  size: 450, 308
+  orig: 450, 320
+  offset: 0, 12
+  index: -1
+tiao_00000
+  rotate: false
+  xy: 2, 160
+  size: 300, 38
+  orig: 300, 100
+  offset: 0, 31
+  index: -1
+xin_00000
+  rotate: false
+  xy: 714, 765
+  size: 79, 90
+  orig: 79, 90
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,813 @@
+
+effects_10102_AOYI.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Effects/Aoyi/boli/boli_000
+  rotate: true
+  xy: 788, 788
+  size: 104, 60
+  orig: 120, 120
+  offset: 8, 30
+  index: -1
+Effects/Aoyi/boli/boli_003
+  rotate: true
+  xy: 923, 7
+  size: 96, 75
+  orig: 120, 120
+  offset: 12, 21
+  index: -1
+Effects/Aoyi/daci/daci_000
+  rotate: false
+  xy: 854, 664
+  size: 128, 67
+  orig: 360, 200
+  offset: 195, 26
+  index: -1
+Effects/Aoyi/dadaoguang/dadaoguang_000
+  rotate: true
+  xy: 923, 105
+  size: 349, 84
+  orig: 448, 160
+  offset: 50, 36
+  index: -1
+Effects/Aoyi/dadaoguang/dadaoguang_010
+  rotate: true
+  xy: 923, 105
+  size: 349, 84
+  orig: 448, 160
+  offset: 50, 36
+  index: -1
+Effects/Aoyi/dadaoguang/dadaoguang_002
+  rotate: false
+  xy: 404, 646
+  size: 448, 119
+  orig: 448, 160
+  offset: 0, 15
+  index: -1
+Effects/Aoyi/dadaoguang/dadaoguang_004
+  rotate: false
+  xy: 388, 401
+  size: 448, 114
+  orig: 448, 160
+  offset: 0, 17
+  index: -1
+Effects/Aoyi/guangyi/guangyi_000
+  rotate: false
+  xy: 383, 273
+  size: 440, 126
+  orig: 440, 128
+  offset: 0, 0
+  index: -1
+Effects/Aoyi/guangyi/guangyi_008
+  rotate: false
+  xy: 388, 517
+  size: 440, 127
+  orig: 440, 128
+  offset: 0, 0
+  index: -1
+Effects/Aoyi/liziyumao/liziyumao_006
+  rotate: true
+  xy: 2, 2
+  size: 223, 240
+  orig: 240, 240
+  offset: 17, 0
+  index: -1
+Effects/Aoyi/liziyumao2/liziyumao2_000
+  rotate: false
+  xy: 838, 456
+  size: 184, 188
+  orig: 240, 240
+  offset: 34, 30
+  index: -1
+Effects/Aoyi/nengliangju/nengliangju_001
+  rotate: false
+  xy: 2, 227
+  size: 379, 227
+  orig: 400, 280
+  offset: 1, 14
+  index: -1
+Effects/Aoyi/nengliangju/nengliangju_003
+  rotate: false
+  xy: 2, 456
+  size: 384, 256
+  orig: 400, 280
+  offset: 0, 10
+  index: -1
+Effects/Aoyi/nengliangju/nengliangju_005
+  rotate: false
+  xy: 404, 767
+  size: 382, 255
+  orig: 400, 280
+  offset: 0, 8
+  index: -1
+Effects/Aoyi/sky_000
+  rotate: false
+  xy: 2, 714
+  size: 400, 308
+  orig: 400, 320
+  offset: 0, 6
+  index: -1
+Effects/Aoyi/smoke/Smoke_000
+  rotate: true
+  xy: 244, 6
+  size: 219, 119
+  orig: 240, 136
+  offset: 18, 0
+  index: -1
+Effects/Aoyi/smoke/Smoke_006
+  rotate: false
+  xy: 788, 894
+  size: 234, 128
+  orig: 240, 136
+  offset: 0, 2
+  index: -1
+Effects/bai_000
+  rotate: true
+  xy: 838, 280
+  size: 174, 80
+  orig: 174, 80
+  offset: 0, 0
+  index: -1
+Effects/tongyong/dabaoshan/dabaoshan_002
+  rotate: false
+  xy: 655, 4
+  size: 266, 267
+  orig: 280, 280
+  offset: 8, 6
+  index: -1
+Effects/tongyong/dabaoshan/dabaoshan_004
+  rotate: true
+  xy: 383, 2
+  size: 269, 270
+  orig: 280, 280
+  offset: 6, 5
+  index: -1
+Effects/tongyong/shanxian/shanxian_007
+  rotate: false
+  xy: 854, 733
+  size: 168, 159
+  orig: 240, 240
+  offset: 37, 34
+  index: -1
+
+effects_10102_AOYI2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Effects/Aoyi/BGkuosan/BGkuosan_008
+  rotate: false
+  xy: 2, 464
+  size: 291, 306
+  orig: 320, 320
+  offset: 14, 8
+  index: -1
+Effects/Aoyi/BGkuosan/BGkuosan_010
+  rotate: false
+  xy: 2, 155
+  size: 290, 307
+  orig: 320, 320
+  offset: 15, 7
+  index: -1
+Effects/Aoyi/BGkuosan/BGkuosan_012
+  rotate: true
+  xy: 714, 734
+  size: 288, 307
+  orig: 320, 320
+  offset: 18, 6
+  index: -1
+Effects/Aoyi/BGkuosan/BGkuosan_016
+  rotate: false
+  xy: 735, 361
+  size: 287, 281
+  orig: 320, 320
+  offset: 14, 27
+  index: -1
+Effects/Aoyi/daci/daci_006
+  rotate: false
+  xy: 352, 624
+  size: 360, 196
+  orig: 360, 200
+  offset: 0, 0
+  index: -1
+Effects/Aoyi/daci/daci_008
+  rotate: false
+  xy: 656, 160
+  size: 360, 199
+  orig: 360, 200
+  offset: 0, 0
+  index: -1
+Effects/Aoyi/daci/daci_010
+  rotate: false
+  xy: 352, 822
+  size: 360, 200
+  orig: 360, 200
+  offset: 0, 0
+  index: -1
+Effects/Aoyi/daci/daci_012
+  rotate: false
+  xy: 294, 200
+  size: 360, 200
+  orig: 360, 200
+  offset: 0, 0
+  index: -1
+Effects/Aoyi/daci/daci_016
+  rotate: false
+  xy: 294, 3
+  size: 360, 195
+  orig: 360, 200
+  offset: 0, 5
+  index: -1
+Effects/Aoyi/dadaobo/dadaobo_002
+  rotate: false
+  xy: 2, 59
+  size: 290, 94
+  orig: 320, 120
+  offset: 23, 18
+  index: -1
+Effects/Aoyi/dadaobo/dadaobo_008
+  rotate: false
+  xy: 714, 644
+  size: 308, 88
+  orig: 320, 120
+  offset: 1, 15
+  index: -1
+Effects/Aoyi/dadaoguang/dadaoguang_008
+  rotate: false
+  xy: 295, 402
+  size: 421, 103
+  orig: 448, 160
+  offset: 14, 24
+  index: -1
+Effects/Aoyi/guangyi/guangyi_002
+  rotate: false
+  xy: 295, 507
+  size: 438, 115
+  orig: 440, 128
+  offset: 2, 5
+  index: -1
+Effects/Aoyi/nengliangju/nengliangju_007
+  rotate: false
+  xy: 2, 772
+  size: 348, 250
+  orig: 400, 280
+  offset: 35, 15
+  index: -1
+Effects/Aoyi/ziqi_000
+  rotate: true
+  xy: 656, 2
+  size: 156, 157
+  orig: 160, 160
+  offset: 1, 3
+  index: -1
+Effects/tongyong/shanxian/shanxian_009
+  rotate: false
+  xy: 815, 22
+  size: 170, 136
+  orig: 240, 240
+  offset: 35, 52
+  index: -1
+
+effects_10102_AOYI3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Effects/Aoyi/BGkuosan/BGkuosan_000
+  rotate: false
+  xy: 409, 477
+  size: 287, 257
+  orig: 320, 320
+  offset: 15, 49
+  index: -1
+Effects/Aoyi/BGkuosan/BGkuosan_002
+  rotate: true
+  xy: 744, 730
+  size: 291, 270
+  orig: 320, 320
+  offset: 15, 37
+  index: -1
+Effects/Aoyi/BGkuosan/BGkuosan_004
+  rotate: false
+  xy: 2, 121
+  size: 291, 296
+  orig: 320, 320
+  offset: 14, 13
+  index: -1
+Effects/Aoyi/BGkuosan/BGkuosan_006
+  rotate: false
+  xy: 2, 721
+  size: 291, 300
+  orig: 320, 320
+  offset: 14, 14
+  index: -1
+Effects/Aoyi/BGkuosan/BGkuosan_014
+  rotate: false
+  xy: 2, 419
+  size: 291, 300
+  orig: 320, 320
+  offset: 14, 13
+  index: -1
+Effects/Aoyi/BGkuosan/BGkuosan_018
+  rotate: false
+  xy: 452, 736
+  size: 290, 285
+  orig: 320, 320
+  offset: 14, 23
+  index: -1
+Effects/Aoyi/boli/boli_001
+  rotate: true
+  xy: 765, 416
+  size: 70, 104
+  orig: 120, 120
+  offset: 26, 8
+  index: -1
+Effects/Aoyi/daci/daci_002
+  rotate: false
+  xy: 403, 127
+  size: 288, 146
+  orig: 360, 200
+  offset: 54, 10
+  index: -1
+Effects/Aoyi/daci/daci_014
+  rotate: false
+  xy: 403, 275
+  size: 360, 200
+  orig: 360, 200
+  offset: 0, 0
+  index: -1
+Effects/Aoyi/dadaobo/dadaobo_006
+  rotate: false
+  xy: 693, 29
+  size: 315, 102
+  orig: 320, 120
+  offset: 1, 15
+  index: -1
+Effects/Aoyi/dadaoguang/dadaoguang_006
+  rotate: false
+  xy: 2, 8
+  size: 448, 111
+  orig: 448, 160
+  offset: 0, 18
+  index: -1
+Effects/Aoyi/guangyi/guangyi_004
+  rotate: true
+  xy: 295, 581
+  size: 440, 112
+  orig: 440, 128
+  offset: 0, 7
+  index: -1
+Effects/Aoyi/guangyi/guangyi_006
+  rotate: true
+  xy: 295, 139
+  size: 440, 106
+  orig: 440, 128
+  offset: 0, 15
+  index: -1
+Effects/Aoyi/guangzhu_000
+  rotate: false
+  xy: 940, 416
+  size: 80, 312
+  orig: 80, 320
+  offset: 0, 0
+  index: -1
+Effects/Aoyi/jingxing_000
+  rotate: false
+  xy: 698, 488
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+Effects/Aoyi/nengliangju/nengliangju_009
+  rotate: true
+  xy: 765, 133
+  size: 281, 253
+  orig: 400, 280
+  offset: 94, 13
+  index: -1
+Effects/Aoyi/smoke/Smoke_002
+  rotate: false
+  xy: 452, 2
+  size: 228, 123
+  orig: 240, 136
+  offset: 6, 0
+  index: -1
+
+effects_10102_AOYI4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Effects/Aoyi/blood_000
+  rotate: true
+  xy: 99, 164
+  size: 160, 141
+  orig: 160, 160
+  offset: 0, 6
+  index: -1
+Effects/Aoyi/caihuan_000
+  rotate: false
+  xy: 2, 326
+  size: 239, 240
+  orig: 240, 240
+  offset: 1, 0
+  index: -1
+Effects/Aoyi/canying/canying3_000
+  rotate: true
+  xy: 584, 582
+  size: 171, 195
+  orig: 240, 240
+  offset: 21, 32
+  index: -1
+Effects/Aoyi/canying/canying_000
+  rotate: false
+  xy: 242, 5
+  size: 233, 187
+  orig: 240, 240
+  offset: 3, 22
+  index: -1
+Effects/Aoyi/cloud_000
+  rotate: false
+  xy: 862, 421
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+Effects/Aoyi/daci/daci_004
+  rotate: false
+  xy: 604, 146
+  size: 345, 192
+  orig: 360, 200
+  offset: 15, 0
+  index: -1
+Effects/Aoyi/daci/daci_018
+  rotate: false
+  xy: 2, 827
+  size: 360, 195
+  orig: 360, 200
+  offset: 0, 5
+  index: -1
+Effects/Aoyi/daci/daci_020
+  rotate: false
+  xy: 261, 382
+  size: 360, 195
+  orig: 360, 200
+  offset: 0, 5
+  index: -1
+Effects/Aoyi/daci/daci_022
+  rotate: false
+  xy: 243, 194
+  size: 359, 186
+  orig: 360, 200
+  offset: 1, 5
+  index: -1
+Effects/Aoyi/dadaobo/dadaobo_000
+  rotate: true
+  xy: 261, 579
+  size: 246, 100
+  orig: 320, 120
+  offset: 54, 18
+  index: -1
+Effects/Aoyi/dadaobo/dadaobo_004
+  rotate: true
+  xy: 2, 8
+  size: 316, 95
+  orig: 320, 120
+  offset: 1, 18
+  index: -1
+Effects/Aoyi/huan2_000
+  rotate: true
+  xy: 838, 13
+  size: 131, 159
+  orig: 160, 160
+  offset: 10, 0
+  index: -1
+Effects/Aoyi/huan_000
+  rotate: false
+  xy: 477, 72
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+Effects/Aoyi/kuohuan_000
+  rotate: false
+  xy: 623, 340
+  size: 237, 240
+  orig: 240, 240
+  offset: 1, 0
+  index: -1
+Effects/Aoyi/lanxing_000
+  rotate: true
+  xy: 99, 7
+  size: 155, 140
+  orig: 160, 160
+  offset: 2, 10
+  index: -1
+Effects/Aoyi/liziyumao2/liziyumao2_002
+  rotate: true
+  xy: 363, 581
+  size: 172, 219
+  orig: 240, 240
+  offset: 36, 7
+  index: -1
+Effects/Aoyi/liziyumao2/liziyumao2_010
+  rotate: false
+  xy: 873, 801
+  size: 149, 221
+  orig: 240, 240
+  offset: 34, 3
+  index: -1
+Effects/Aoyi/liziyumao2/liziyumao2_014
+  rotate: true
+  xy: 781, 583
+  size: 199, 230
+  orig: 240, 240
+  offset: 17, 7
+  index: -1
+Effects/Aoyi/smoke/Smoke_004
+  rotate: false
+  xy: 599, 13
+  size: 237, 131
+  orig: 240, 136
+  offset: 0, 0
+  index: -1
+Effects/glow_000
+  rotate: false
+  xy: 862, 343
+  size: 76, 76
+  orig: 80, 80
+  offset: 2, 2
+  index: -1
+Effects/tongyong/dabaoshan/dabaoshan_001
+  rotate: false
+  xy: 2, 568
+  size: 257, 257
+  orig: 280, 280
+  offset: 12, 11
+  index: -1
+Effects/tongyong/dabaoshan/dabaoshan_006
+  rotate: false
+  xy: 364, 755
+  size: 266, 267
+  orig: 280, 280
+  offset: 8, 6
+  index: -1
+Effects/tongyong/shanxian/shanxian_005
+  rotate: true
+  xy: 632, 784
+  size: 238, 239
+  orig: 240, 240
+  offset: 1, 1
+  index: -1
+
+effects_10102_AOYI5.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Effects/Aoyi/baicixian_000
+  rotate: true
+  xy: 757, 8
+  size: 110, 117
+  orig: 120, 120
+  offset: 8, 3
+  index: -1
+Effects/Aoyi/boli/boli_002
+  rotate: true
+  xy: 876, 14
+  size: 104, 88
+  orig: 120, 120
+  offset: 8, 16
+  index: -1
+Effects/Aoyi/canying/canying2_000
+  rotate: true
+  xy: 414, 68
+  size: 211, 170
+  orig: 240, 240
+  offset: 12, 33
+  index: -1
+Effects/Aoyi/dadaobo/dadaobo_010
+  rotate: true
+  xy: 419, 281
+  size: 277, 83
+  orig: 320, 120
+  offset: 11, 20
+  index: -1
+Effects/Aoyi/jianciguang/jianciguang_000
+  rotate: true
+  xy: 586, 76
+  size: 255, 93
+  orig: 280, 93
+  offset: 0, 0
+  index: -1
+Effects/Aoyi/jianciguang/jianciguang_001
+  rotate: true
+  xy: 327, 71
+  size: 263, 85
+  orig: 280, 93
+  offset: 0, 3
+  index: -1
+Effects/Aoyi/jianciguang/jianciguang_002
+  rotate: true
+  xy: 681, 56
+  size: 275, 74
+  orig: 280, 93
+  offset: 0, 9
+  index: -1
+Effects/Aoyi/jianciguang/jianciguang_003
+  rotate: false
+  xy: 2, 2
+  size: 264, 82
+  orig: 280, 93
+  offset: 0, 5
+  index: -1
+Effects/Aoyi/juguangxian_000
+  rotate: true
+  xy: 864, 374
+  size: 205, 102
+  orig: 205, 102
+  offset: 0, 0
+  index: -1
+Effects/Aoyi/liziyumao/liziyumao_002
+  rotate: false
+  xy: 757, 120
+  size: 185, 217
+  orig: 240, 240
+  offset: 35, 9
+  index: -1
+Effects/Aoyi/liziyumao/liziyumao_004
+  rotate: false
+  xy: 466, 782
+  size: 215, 240
+  orig: 240, 240
+  offset: 22, 0
+  index: -1
+Effects/Aoyi/liziyumao/liziyumao_008
+  rotate: false
+  xy: 2, 86
+  size: 202, 240
+  orig: 240, 240
+  offset: 38, 0
+  index: -1
+Effects/Aoyi/liziyumao/liziyumao_010
+  rotate: true
+  xy: 466, 561
+  size: 219, 211
+  orig: 240, 240
+  offset: 14, 26
+  index: -1
+Effects/Aoyi/liziyumao/liziyumao_012
+  rotate: false
+  xy: 234, 336
+  size: 183, 222
+  orig: 240, 240
+  offset: 32, 0
+  index: -1
+Effects/Aoyi/liziyumao2/liziyumao2_004
+  rotate: false
+  xy: 684, 339
+  size: 178, 221
+  orig: 240, 240
+  offset: 34, 0
+  index: -1
+Effects/Aoyi/liziyumao2/liziyumao2_006
+  rotate: false
+  xy: 504, 333
+  size: 178, 226
+  orig: 240, 240
+  offset: 32, 0
+  index: -1
+Effects/Aoyi/liziyumao2/liziyumao2_008
+  rotate: false
+  xy: 848, 581
+  size: 170, 211
+  orig: 240, 240
+  offset: 37, 0
+  index: -1
+Effects/Aoyi/liziyumao2/liziyumao2_012
+  rotate: false
+  xy: 683, 795
+  size: 182, 227
+  orig: 240, 240
+  offset: 22, 2
+  index: -1
+Effects/Aoyi/liziyumao2/liziyumao2_016
+  rotate: false
+  xy: 679, 562
+  size: 167, 218
+  orig: 240, 240
+  offset: 30, 9
+  index: -1
+Effects/Aoyi/smoke/Smoke_008
+  rotate: true
+  xy: 867, 794
+  size: 228, 129
+  orig: 240, 136
+  offset: 9, 2
+  index: -1
+Effects/guangxian_000
+  rotate: true
+  xy: 206, 96
+  size: 230, 119
+  orig: 240, 120
+  offset: 6, 1
+  index: -1
+Effects/tongyong/dabaoshan/dabaoshan_000
+  rotate: false
+  xy: 2, 792
+  size: 230, 230
+  orig: 280, 280
+  offset: 25, 25
+  index: -1
+Effects/tongyong/shanxian/shanxian_000
+  rotate: false
+  xy: 2, 560
+  size: 230, 230
+  orig: 240, 240
+  offset: 5, 5
+  index: -1
+Effects/tongyong/shanxian/shanxian_001
+  rotate: false
+  xy: 234, 792
+  size: 230, 230
+  orig: 240, 240
+  offset: 5, 5
+  index: -1
+Effects/tongyong/shanxian/shanxian_002
+  rotate: false
+  xy: 2, 328
+  size: 230, 230
+  orig: 240, 240
+  offset: 5, 5
+  index: -1
+Effects/tongyong/shanxian/shanxian_003
+  rotate: false
+  xy: 234, 560
+  size: 230, 230
+  orig: 240, 240
+  offset: 5, 5
+  index: -1
+
+effects_10102_AOYI6.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Effects/Aoyi/dadaoguang/dadaoguang_012
+  rotate: false
+  xy: 2, 732
+  size: 349, 84
+  orig: 448, 160
+  offset: 50, 36
+  index: -1
+Effects/Aoyi/dadaoguang/dadaoguang_014
+  rotate: false
+  xy: 2, 646
+  size: 349, 84
+  orig: 448, 160
+  offset: 50, 36
+  index: -1
+Effects/Aoyi/dadaoguang/dadaoguang_016
+  rotate: false
+  xy: 353, 732
+  size: 349, 84
+  orig: 448, 160
+  offset: 50, 36
+  index: -1
+Effects/Aoyi/dadaoguang/dadaoguang_018
+  rotate: false
+  xy: 2, 560
+  size: 349, 84
+  orig: 448, 160
+  offset: 50, 36
+  index: -1
+Effects/Aoyi/liziyumao/liziyumao_014
+  rotate: true
+  xy: 353, 561
+  size: 169, 188
+  orig: 240, 240
+  offset: 38, 35
+  index: -1
+Effects/Aoyi/liziyumao2/liziyumao2_018
+  rotate: false
+  xy: 2, 2
+  size: 180, 179
+  orig: 240, 240
+  offset: 30, 40
+  index: -1
+Effects/Aoyi/nengliangju/nengliangju_011
+  rotate: false
+  xy: 2, 183
+  size: 186, 180
+  orig: 400, 280
+  offset: 154, 86
+  index: -1
+Effects/tongyong/dabaoshan/dabaoshan_008
+  rotate: false
+  xy: 2, 365
+  size: 204, 193
+  orig: 280, 280
+  offset: 42, 44
+  index: -1

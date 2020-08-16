@@ -1,0 +1,41 @@
+
+effect_ui18.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bian_00000
+  rotate: false
+  xy: 2, 279
+  size: 257, 223
+  orig: 260, 250
+  offset: 1, 13
+  index: -1
+hua_00000
+  rotate: false
+  xy: 2, 62
+  size: 215, 215
+  orig: 300, 300
+  offset: 44, 50
+  index: -1
+lizi1_00016
+  rotate: false
+  xy: 2, 2
+  size: 68, 58
+  orig: 100, 100
+  offset: 16, 21
+  index: -1
+lizi_00000
+  rotate: false
+  xy: 261, 272
+  size: 92, 78
+  orig: 100, 100
+  offset: 4, 11
+  index: -1
+shiti_00000
+  rotate: false
+  xy: 261, 352
+  size: 175, 150
+  orig: 175, 150
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,550 @@
+
+effects_30701_born.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/eff/born/add/lizi_00035
+  rotate: true
+  xy: 559, 7
+  size: 121, 166
+  orig: 158, 168
+  offset: 1, 2
+  index: -1
+images/eff/born/add/lizi_00039
+  rotate: true
+  xy: 727, 22
+  size: 82, 167
+  orig: 158, 168
+  offset: 41, 1
+  index: -1
+images/eff/born/add/shuijing_00009
+  rotate: false
+  xy: 806, 780
+  size: 214, 242
+  orig: 214, 248
+  offset: 0, 0
+  index: -1
+images/eff/born/add/shuijing_00011
+  rotate: false
+  xy: 806, 530
+  size: 214, 248
+  orig: 214, 248
+  offset: 0, 0
+  index: -1
+images/eff/born/add/shuijing_00013
+  rotate: true
+  xy: 274, 356
+  size: 211, 248
+  orig: 214, 248
+  offset: 3, 0
+  index: -1
+images/eff/born/add/shuijing_00015
+  rotate: true
+  xy: 524, 342
+  size: 210, 248
+  orig: 214, 248
+  offset: 4, 0
+  index: -1
+images/eff/born/add/shuijing_00017
+  rotate: true
+  xy: 774, 318
+  size: 210, 248
+  orig: 214, 248
+  offset: 4, 0
+  index: -1
+images/eff/born/add/shuijing_00019
+  rotate: true
+  xy: 266, 144
+  size: 210, 248
+  orig: 214, 248
+  offset: 4, 0
+  index: -1
+images/eff/born/add/shuijing_00021
+  rotate: true
+  xy: 516, 130
+  size: 210, 248
+  orig: 214, 248
+  offset: 4, 0
+  index: -1
+images/eff/born/add/shuijing_00023
+  rotate: true
+  xy: 766, 106
+  size: 210, 248
+  orig: 214, 248
+  offset: 4, 0
+  index: -1
+images/eff/born/nor/lizi_00023
+  rotate: false
+  xy: 896, 2
+  size: 70, 102
+  orig: 133, 130
+  offset: 28, 23
+  index: -1
+images/eff/skillD/nor/ju_00043
+  rotate: true
+  xy: 441, 2
+  size: 126, 116
+  orig: 175, 173
+  offset: 26, 25
+  index: -1
+images/eff/skillD/nor/shifang_00052
+  rotate: false
+  xy: 260, 4
+  size: 179, 138
+  orig: 275, 265
+  offset: 37, 52
+  index: -1
+images/eff/skillD/nor/shifang_00054
+  rotate: false
+  xy: 277, 569
+  size: 275, 199
+  orig: 275, 265
+  offset: 0, 25
+  index: -1
+images/eff/skillD/nor/shifang_00056
+  rotate: false
+  xy: 554, 554
+  size: 250, 226
+  orig: 275, 265
+  offset: 1, 7
+  index: -1
+images/eff/skillD/nor/shifang_00058
+  rotate: false
+  xy: 2, 10
+  size: 256, 237
+  orig: 275, 265
+  offset: 0, 0
+  index: -1
+images/eff/skillD/nor/shifang_00060
+  rotate: false
+  xy: 546, 782
+  size: 258, 240
+  orig: 275, 265
+  offset: 0, 0
+  index: -1
+images/eff/skillD/nor/shifang_00062
+  rotate: false
+  xy: 2, 249
+  size: 262, 245
+  orig: 275, 265
+  offset: 0, 0
+  index: -1
+images/eff/skillD/nor/shifang_00064
+  rotate: false
+  xy: 277, 770
+  size: 267, 252
+  orig: 275, 265
+  offset: 0, 0
+  index: -1
+images/eff/skillD/nor/shifang_00066
+  rotate: false
+  xy: 2, 496
+  size: 270, 259
+  orig: 275, 265
+  offset: 0, 0
+  index: -1
+images/eff/skillD/nor/shifang_00068
+  rotate: false
+  xy: 2, 757
+  size: 273, 265
+  orig: 275, 265
+  offset: 1, 0
+  index: -1
+
+effects_30701_born2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/eff/EskillC/add/ju_00026
+  rotate: true
+  xy: 334, 589
+  size: 190, 187
+  orig: 190, 187
+  offset: 0, 0
+  index: -1
+images/eff/EskillC/add/ju_00028
+  rotate: true
+  xy: 334, 397
+  size: 190, 186
+  orig: 190, 187
+  offset: 0, 0
+  index: -1
+images/eff/EskillC/add/ju_00030
+  rotate: true
+  xy: 509, 207
+  size: 188, 182
+  orig: 190, 187
+  offset: 0, 0
+  index: -1
+images/eff/EskillC/add/ju_00032
+  rotate: true
+  xy: 522, 21
+  size: 184, 178
+  orig: 190, 187
+  offset: 0, 0
+  index: -1
+images/eff/EskillC/add/ju_00034
+  rotate: true
+  xy: 364, 840
+  size: 182, 175
+  orig: 190, 187
+  offset: 0, 0
+  index: -1
+images/eff/EskillC/add/ju_00036
+  rotate: true
+  xy: 523, 660
+  size: 178, 171
+  orig: 190, 187
+  offset: 0, 0
+  index: -1
+images/eff/EskillC/add/ju_00038
+  rotate: false
+  xy: 834, 854
+  size: 175, 168
+  orig: 190, 187
+  offset: 0, 1
+  index: -1
+images/eff/EskillC/add/ju_00040
+  rotate: false
+  xy: 834, 691
+  size: 175, 161
+  orig: 190, 187
+  offset: 0, 5
+  index: -1
+images/eff/EskillC/add/ju_00042
+  rotate: true
+  xy: 363, 4
+  size: 172, 157
+  orig: 190, 187
+  offset: 0, 8
+  index: -1
+images/eff/EskillC/add/ju_00044
+  rotate: false
+  xy: 834, 312
+  size: 169, 157
+  orig: 190, 187
+  offset: 0, 13
+  index: -1
+images/eff/EskillC/add/ju_00046
+  rotate: true
+  xy: 522, 399
+  size: 188, 150
+  orig: 190, 187
+  offset: 0, 17
+  index: -1
+images/eff/born/add/guang_00026
+  rotate: false
+  xy: 523, 597
+  size: 61, 61
+  orig: 75, 76
+  offset: 6, 7
+  index: -1
+images/eff/born/add/lizi_00025
+  rotate: true
+  xy: 696, 680
+  size: 125, 134
+  orig: 158, 168
+  offset: 22, 25
+  index: -1
+images/eff/born/add/lizi_00027
+  rotate: false
+  xy: 693, 270
+  size: 139, 149
+  orig: 158, 168
+  offset: 15, 17
+  index: -1
+images/eff/born/add/lizi_00041
+  rotate: true
+  xy: 198, 781
+  size: 37, 162
+  orig: 158, 168
+  offset: 82, 6
+  index: -1
+images/eff/born/add/quan2_00028
+  rotate: false
+  xy: 333, 178
+  size: 174, 193
+  orig: 174, 193
+  offset: 0, 0
+  index: -1
+images/eff/born/add/quan_00025
+  rotate: false
+  xy: 541, 846
+  size: 167, 176
+  orig: 167, 176
+  offset: 0, 0
+  index: -1
+images/eff/born/add/shuijing_00003
+  rotate: true
+  xy: 586, 599
+  size: 59, 92
+  orig: 214, 248
+  offset: 102, 35
+  index: -1
+images/eff/born/add/shuijing_00007
+  rotate: false
+  xy: 2, 781
+  size: 194, 241
+  orig: 214, 248
+  offset: 3, 0
+  index: -1
+images/eff/born/nor/lizi_00005
+  rotate: false
+  xy: 710, 927
+  size: 122, 95
+  orig: 133, 130
+  offset: 7, 28
+  index: -1
+images/eff/born/nor/lizi_00007
+  rotate: false
+  xy: 696, 599
+  size: 106, 79
+  orig: 133, 130
+  offset: 14, 35
+  index: -1
+images/eff/born/nor/lizi_00009
+  rotate: true
+  xy: 702, 35
+  size: 115, 125
+  orig: 133, 130
+  offset: 4, 2
+  index: -1
+images/eff/born/nor/lizi_00011
+  rotate: true
+  xy: 702, 152
+  size: 116, 130
+  orig: 133, 130
+  offset: 5, 0
+  index: -1
+images/eff/born/nor/lizi_00013
+  rotate: false
+  xy: 710, 807
+  size: 118, 118
+  orig: 133, 130
+  offset: 15, 5
+  index: -1
+images/eff/born/nor/lizi_00015
+  rotate: true
+  xy: 834, 471
+  size: 130, 104
+  orig: 133, 130
+  offset: 1, 12
+  index: -1
+images/eff/born/nor/lizi_00021
+  rotate: true
+  xy: 832, 603
+  size: 86, 107
+  orig: 133, 130
+  offset: 22, 14
+  index: -1
+images/eff/born/nor/shuijing_00005
+  rotate: true
+  xy: 941, 575
+  size: 114, 81
+  orig: 189, 227
+  offset: 23, 50
+  index: -1
+images/eff/born/nor/shuijing_00007
+  rotate: false
+  xy: 674, 421
+  size: 158, 176
+  orig: 189, 227
+  offset: 12, 12
+  index: -1
+images/eff/born/nor/shuijing_00009
+  rotate: false
+  xy: 168, 169
+  size: 163, 202
+  orig: 189, 227
+  offset: 11, 12
+  index: -1
+images/eff/born/nor/shuijing_00011
+  rotate: false
+  xy: 2, 577
+  size: 164, 202
+  orig: 189, 227
+  offset: 11, 12
+  index: -1
+images/eff/born/nor/shuijing_00013
+  rotate: false
+  xy: 2, 373
+  size: 164, 202
+  orig: 189, 227
+  offset: 11, 12
+  index: -1
+images/eff/born/nor/shuijing_00015
+  rotate: false
+  xy: 2, 169
+  size: 164, 202
+  orig: 189, 227
+  offset: 11, 12
+  index: -1
+images/eff/born/nor/shuijing_00017
+  rotate: true
+  xy: 2, 3
+  size: 164, 202
+  orig: 189, 227
+  offset: 11, 12
+  index: -1
+images/eff/born/nor/shuijing_00019
+  rotate: false
+  xy: 168, 577
+  size: 164, 202
+  orig: 189, 227
+  offset: 11, 12
+  index: -1
+images/eff/born/nor/shuijing_00021
+  rotate: false
+  xy: 198, 820
+  size: 164, 202
+  orig: 189, 227
+  offset: 11, 12
+  index: -1
+images/eff/born/nor/shuijing_00023
+  rotate: false
+  xy: 168, 373
+  size: 164, 202
+  orig: 189, 227
+  offset: 11, 12
+  index: -1
+images/eff/skillD/nor/ju_00033
+  rotate: false
+  xy: 206, 3
+  size: 155, 164
+  orig: 175, 173
+  offset: 11, 2
+  index: -1
+images/eff/skillD/nor/ju_00035
+  rotate: true
+  xy: 834, 153
+  size: 157, 168
+  orig: 175, 173
+  offset: 6, 3
+  index: -1
+images/eff/skillD/nor/ju_00041
+  rotate: true
+  xy: 834, 2
+  size: 149, 142
+  orig: 175, 173
+  offset: 18, 14
+  index: -1
+
+effects_30701_born3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/eff/EskillC/add/ju_00048
+  rotate: true
+  xy: 158, 478
+  size: 160, 125
+  orig: 190, 187
+  offset: 0, 25
+  index: -1
+images/eff/born/add/lizi_00029
+  rotate: true
+  xy: 650, 818
+  size: 145, 156
+  orig: 158, 168
+  offset: 11, 12
+  index: -1
+images/eff/born/add/lizi_00031
+  rotate: false
+  xy: 2, 318
+  size: 150, 158
+  orig: 158, 168
+  offset: 8, 10
+  index: -1
+images/eff/born/add/lizi_00033
+  rotate: true
+  xy: 167, 649
+  size: 150, 161
+  orig: 158, 168
+  offset: 4, 7
+  index: -1
+images/eff/born/add/lizi_00037
+  rotate: false
+  xy: 154, 308
+  size: 116, 168
+  orig: 158, 168
+  offset: 7, 0
+  index: -1
+images/eff/born/add/shuijing_00005
+  rotate: false
+  xy: 490, 813
+  size: 158, 150
+  orig: 214, 248
+  offset: 20, 24
+  index: -1
+images/eff/born/nor/lizi_00017
+  rotate: false
+  xy: 154, 196
+  size: 114, 110
+  orig: 133, 130
+  offset: 10, 0
+  index: -1
+images/eff/born/nor/lizi_00019
+  rotate: false
+  xy: 154, 99
+  size: 100, 95
+  orig: 133, 130
+  offset: 17, 7
+  index: -1
+images/eff/skillD/nor/ju_00021
+  rotate: true
+  xy: 808, 819
+  size: 144, 153
+  orig: 175, 173
+  offset: 19, 4
+  index: -1
+images/eff/skillD/nor/ju_00023
+  rotate: false
+  xy: 2, 2
+  size: 147, 154
+  orig: 175, 173
+  offset: 16, 2
+  index: -1
+images/eff/skillD/nor/ju_00025
+  rotate: false
+  xy: 331, 811
+  size: 157, 152
+  orig: 175, 173
+  offset: 5, 3
+  index: -1
+images/eff/skillD/nor/ju_00027
+  rotate: true
+  xy: 2, 158
+  size: 158, 150
+  orig: 175, 173
+  offset: 8, 4
+  index: -1
+images/eff/skillD/nor/ju_00029
+  rotate: false
+  xy: 2, 478
+  size: 154, 160
+  orig: 175, 173
+  offset: 10, 6
+  index: -1
+images/eff/skillD/nor/ju_00031
+  rotate: false
+  xy: 170, 801
+  size: 159, 162
+  orig: 175, 173
+  offset: 9, 7
+  index: -1
+images/eff/skillD/nor/ju_00037
+  rotate: false
+  xy: 2, 801
+  size: 166, 162
+  orig: 175, 173
+  offset: 9, 4
+  index: -1
+images/eff/skillD/nor/ju_00039
+  rotate: false
+  xy: 2, 640
+  size: 163, 159
+  orig: 175, 173
+  offset: 10, 6
+  index: -1

@@ -1,0 +1,431 @@
+
+effects_11303_2_skillA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skillA/shifa/shifa_023
+  rotate: false
+  xy: 244, 136
+  size: 221, 244
+  orig: 244, 244
+  offset: 13, 0
+  index: -1
+skillA/shifa/shifa_025
+  rotate: false
+  xy: 587, 352
+  size: 230, 244
+  orig: 244, 244
+  offset: 13, 0
+  index: -1
+skillA/shifa/shifa_027
+  rotate: false
+  xy: 2, 136
+  size: 240, 244
+  orig: 244, 244
+  offset: 4, 0
+  index: -1
+skillA/shifa/shifa_031
+  rotate: false
+  xy: 587, 132
+  size: 226, 218
+  orig: 244, 244
+  offset: 18, 0
+  index: -1
+skillA/shifa/shifa_035
+  rotate: false
+  xy: 819, 381
+  size: 203, 215
+  orig: 244, 244
+  offset: 28, 1
+  index: -1
+skillA/xiantiao1/1/x1_008
+  rotate: false
+  xy: 258, 12
+  size: 183, 122
+  orig: 183, 122
+  offset: 0, 0
+  index: -1
+skillA/xiantiao1/2/x2_023
+  rotate: false
+  xy: 849, 34
+  size: 161, 145
+  orig: 182, 145
+  offset: 21, 0
+  index: -1
+skillA/xiantiao1/2/x2_029
+  rotate: false
+  xy: 443, 2
+  size: 148, 123
+  orig: 182, 145
+  offset: 22, 0
+  index: -1
+skillA/xiantiao1/2/x2_033
+  rotate: false
+  xy: 857, 810
+  size: 146, 61
+  orig: 182, 145
+  offset: 24, 61
+  index: -1
+skillA/xiantiao1/3/x3_052
+  rotate: true
+  xy: 832, 598
+  size: 210, 181
+  orig: 210, 181
+  offset: 0, 0
+  index: -1
+skillA/xiantiao1/3/x3_056
+  rotate: true
+  xy: 849, 181
+  size: 198, 173
+  orig: 210, 181
+  offset: 12, 3
+  index: -1
+skillA/xiantiao1/3/x3_058
+  rotate: true
+  xy: 857, 873
+  size: 149, 165
+  orig: 210, 181
+  offset: 56, 6
+  index: -1
+skillA/zidan/zidan_009
+  rotate: false
+  xy: 2, 16
+  size: 254, 118
+  orig: 254, 118
+  offset: 0, 0
+  index: -1
+skillA/zidan/zidan_010
+  rotate: true
+  xy: 467, 127
+  size: 254, 118
+  orig: 254, 118
+  offset: 0, 0
+  index: -1
+skillA/zidan/zidan_011
+  rotate: false
+  xy: 593, 12
+  size: 254, 118
+  orig: 254, 118
+  offset: 0, 0
+  index: -1
+skillB/xunhuan2/xunhuan2_000
+  rotate: false
+  xy: 296, 810
+  size: 287, 212
+  orig: 292, 218
+  offset: 5, 0
+  index: -1
+skillB/xunhuan2/xunhuan2_001
+  rotate: false
+  xy: 2, 810
+  size: 292, 212
+  orig: 292, 218
+  offset: 0, 0
+  index: -1
+skillB/xunhuan2/xunhuan2_002
+  rotate: false
+  xy: 2, 596
+  size: 292, 212
+  orig: 292, 218
+  offset: 0, 0
+  index: -1
+skillB/xunhuan2/xunhuan2_003
+  rotate: false
+  xy: 2, 382
+  size: 285, 212
+  orig: 292, 218
+  offset: 7, 0
+  index: -1
+skillB/xunhuan2/xunhuan2_004
+  rotate: false
+  xy: 296, 596
+  size: 278, 212
+  orig: 292, 218
+  offset: 14, 0
+  index: -1
+skillB/xunhuan2/xunhuan2_005
+  rotate: false
+  xy: 585, 810
+  size: 270, 212
+  orig: 292, 218
+  offset: 22, 0
+  index: -1
+skillB/xunhuan2/xunhuan2_006
+  rotate: false
+  xy: 289, 383
+  size: 266, 211
+  orig: 292, 218
+  offset: 26, 1
+  index: -1
+skillB/xunhuan2/xunhuan2_007
+  rotate: false
+  xy: 576, 598
+  size: 254, 210
+  orig: 292, 218
+  offset: 38, 1
+  index: -1
+
+effects_11303_2_skillA2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skillA/glow_001
+  rotate: false
+  xy: 257, 15
+  size: 178, 177
+  orig: 180, 177
+  offset: 1, 0
+  index: -1
+skillA/hit/hit_022
+  rotate: false
+  xy: 234, 828
+  size: 214, 194
+  orig: 214, 194
+  offset: 0, 0
+  index: -1
+skillA/hit/hit_024
+  rotate: false
+  xy: 434, 317
+  size: 202, 193
+  orig: 214, 194
+  offset: 0, 0
+  index: -1
+skillA/hit/hit_026
+  rotate: false
+  xy: 443, 512
+  size: 213, 194
+  orig: 214, 194
+  offset: 0, 0
+  index: -1
+skillA/hit/hit_028
+  rotate: false
+  xy: 2, 365
+  size: 214, 194
+  orig: 214, 194
+  offset: 0, 0
+  index: -1
+skillA/hit/hit_030
+  rotate: false
+  xy: 450, 828
+  size: 214, 194
+  orig: 214, 194
+  offset: 0, 0
+  index: -1
+skillA/hit/hit_032
+  rotate: false
+  xy: 2, 169
+  size: 214, 194
+  orig: 214, 194
+  offset: 0, 0
+  index: -1
+skillA/hit/hit_034
+  rotate: false
+  xy: 666, 828
+  size: 214, 194
+  orig: 214, 194
+  offset: 0, 0
+  index: -1
+skillA/hit/hit_036
+  rotate: false
+  xy: 227, 512
+  size: 214, 194
+  orig: 214, 194
+  offset: 0, 0
+  index: -1
+skillA/hit/hit_038
+  rotate: false
+  xy: 218, 318
+  size: 214, 192
+  orig: 214, 194
+  offset: 0, 0
+  index: -1
+skillA/shifa/shifa_029
+  rotate: false
+  xy: 2, 778
+  size: 230, 244
+  orig: 244, 244
+  offset: 14, 0
+  index: -1
+skillA/shifa/shifa_033
+  rotate: false
+  xy: 2, 561
+  size: 223, 215
+  orig: 244, 244
+  offset: 21, 0
+  index: -1
+skillA/xiantiao1/1/x1_010
+  rotate: false
+  xy: 218, 194
+  size: 179, 122
+  orig: 183, 122
+  offset: 4, 0
+  index: -1
+skillA/xiantiao1/1/x1_012
+  rotate: true
+  xy: 870, 470
+  size: 174, 122
+  orig: 183, 122
+  offset: 9, 0
+  index: -1
+skillA/xiantiao1/2/x2_021
+  rotate: false
+  xy: 615, 2
+  size: 171, 99
+  orig: 182, 145
+  offset: 0, 46
+  index: -1
+skillA/xiantiao1/2/x2_025
+  rotate: true
+  xy: 872, 216
+  size: 161, 138
+  orig: 182, 145
+  offset: 21, 0
+  index: -1
+skillA/xiantiao1/2/x2_027
+  rotate: true
+  xy: 863, 54
+  size: 160, 130
+  orig: 182, 145
+  offset: 22, 0
+  index: -1
+skillA/xiantiao1/3/x3_046
+  rotate: false
+  xy: 788, 18
+  size: 65, 83
+  orig: 210, 181
+  offset: 72, 10
+  index: -1
+skillA/xiantiao1/3/x3_048
+  rotate: false
+  xy: 437, 20
+  size: 176, 175
+  orig: 210, 181
+  offset: 0, 0
+  index: -1
+skillA/xiantiao1/3/x3_050
+  rotate: true
+  xy: 710, 646
+  size: 180, 167
+  orig: 210, 181
+  offset: 0, 0
+  index: -1
+skillA/xiantiao1/3/x3_054
+  rotate: false
+  xy: 658, 463
+  size: 210, 181
+  orig: 210, 181
+  offset: 0, 0
+  index: -1
+skillA/xiantiao1/3/x3_060
+  rotate: false
+  xy: 879, 651
+  size: 143, 139
+  orig: 210, 181
+  offset: 58, 17
+  index: -1
+skillA/xiantiao1/3/x3_062
+  rotate: false
+  xy: 870, 379
+  size: 127, 89
+  orig: 210, 181
+  offset: 67, 18
+  index: -1
+skillA/zidan/zidan_012
+  rotate: false
+  xy: 2, 49
+  size: 253, 118
+  orig: 254, 118
+  offset: 1, 0
+  index: -1
+skillA/zidan/zidan_013
+  rotate: true
+  xy: 882, 792
+  size: 230, 118
+  orig: 254, 118
+  offset: 24, 0
+  index: -1
+skillA/zidan/zidan_014
+  rotate: false
+  xy: 633, 103
+  size: 228, 118
+  orig: 254, 118
+  offset: 26, 0
+  index: -1
+skillA/zidan/zidan_015
+  rotate: false
+  xy: 638, 343
+  size: 230, 118
+  orig: 254, 118
+  offset: 24, 0
+  index: -1
+skillA/zidan/zidan_016
+  rotate: false
+  xy: 399, 197
+  size: 232, 118
+  orig: 254, 118
+  offset: 22, 0
+  index: -1
+skillA/zidan/zidan_017
+  rotate: false
+  xy: 638, 223
+  size: 232, 118
+  orig: 254, 118
+  offset: 22, 0
+  index: -1
+skillA/zidan/zidan_018
+  rotate: false
+  xy: 473, 708
+  size: 235, 118
+  orig: 254, 118
+  offset: 19, 0
+  index: -1
+skillA/zidan/zidan_019
+  rotate: false
+  xy: 234, 708
+  size: 237, 118
+  orig: 254, 118
+  offset: 17, 0
+  index: -1
+
+effects_11303_2_skillA3.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skillA/xiantiao1/1/x1_006
+  rotate: false
+  xy: 2, 2
+  size: 89, 114
+  orig: 183, 122
+  offset: 0, 8
+  index: -1
+skillA/xiantiao1/1/x1_014
+  rotate: false
+  xy: 2, 269
+  size: 160, 101
+  orig: 183, 122
+  offset: 10, 19
+  index: -1
+skillA/xiantiao1/1/x1_016
+  rotate: false
+  xy: 2, 183
+  size: 149, 84
+  orig: 183, 122
+  offset: 10, 29
+  index: -1
+skillA/xiantiao1/1/x1_018
+  rotate: false
+  xy: 164, 303
+  size: 148, 67
+  orig: 183, 122
+  offset: 11, 30
+  index: -1
+skillA/xiantiao1/2/x2_031
+  rotate: false
+  xy: 2, 118
+  size: 147, 63
+  orig: 182, 145
+  offset: 23, 60
+  index: -1

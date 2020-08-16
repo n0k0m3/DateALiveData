@@ -1,0 +1,104 @@
+
+effect_LLJH_baodian.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+texiao/bian_00099
+  rotate: true
+  xy: 216, 495
+  size: 217, 202
+  orig: 217, 219
+  offset: 0, 8
+  index: -1
+texiao/glow_00099
+  rotate: false
+  xy: 2, 714
+  size: 232, 211
+  orig: 232, 225
+  offset: 0, 0
+  index: -1
+texiao/lizi/lizi_00099
+  rotate: true
+  xy: 616, 524
+  size: 197, 176
+  orig: 217, 243
+  offset: 20, 30
+  index: -1
+texiao/lizi/lizi_00101
+  rotate: true
+  xy: 416, 268
+  size: 217, 198
+  orig: 217, 243
+  offset: 0, 28
+  index: -1
+texiao/lizi/lizi_00103
+  rotate: false
+  xy: 2, 488
+  size: 212, 224
+  orig: 217, 243
+  offset: 3, 0
+  index: -1
+texiao/lizi/lizi_00105
+  rotate: false
+  xy: 2, 37
+  size: 206, 224
+  orig: 217, 243
+  offset: 7, 0
+  index: -1
+texiao/lizi/lizi_00107
+  rotate: true
+  xy: 694, 726
+  size: 199, 226
+  orig: 217, 243
+  offset: 12, 0
+  index: -1
+texiao/lizi/lizi_00109
+  rotate: false
+  xy: 420, 487
+  size: 194, 228
+  orig: 217, 243
+  offset: 15, 0
+  index: -1
+texiao/lizi/lizi_00111
+  rotate: false
+  xy: 217, 265
+  size: 197, 228
+  orig: 217, 243
+  offset: 11, 2
+  index: -1
+texiao/lizi/lizi_00113
+  rotate: true
+  xy: 464, 723
+  size: 202, 228
+  orig: 217, 243
+  offset: 8, 5
+  index: -1
+texiao/lizi/lizi_00115
+  rotate: true
+  xy: 236, 717
+  size: 208, 226
+  orig: 217, 243
+  offset: 4, 8
+  index: -1
+texiao/lizi/lizi_00117
+  rotate: false
+  xy: 2, 263
+  size: 213, 223
+  orig: 217, 243
+  offset: 1, 12
+  index: -1
+texiao/lizi/lizi_00119
+  rotate: false
+  xy: 616, 334
+  size: 186, 188
+  orig: 217, 243
+  offset: 30, 15
+  index: -1
+texiao/tiao_00000
+  rotate: false
+  xy: 2, 2
+  size: 188, 33
+  orig: 192, 41
+  offset: 1, 3
+  index: -1

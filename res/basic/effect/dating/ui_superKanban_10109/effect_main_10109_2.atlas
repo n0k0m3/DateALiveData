@@ -1,0 +1,27 @@
+
+effect_main_10109_2.png
+size: 64,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+huaban1
+  rotate: false
+  xy: 2, 34
+  size: 30, 28
+  orig: 30, 28
+  offset: 0, 0
+  index: -1
+huaban2
+  rotate: false
+  xy: 2, 6
+  size: 32, 26
+  orig: 32, 26
+  offset: 0, 0
+  index: -1
+huaban8
+  rotate: false
+  xy: 34, 34
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: -1

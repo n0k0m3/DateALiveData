@@ -1,0 +1,55 @@
+
+map_zhishideng_02.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/zhishideng/an/an1_00000
+  rotate: false
+  xy: 124, 59
+  size: 62, 50
+  orig: 62, 50
+  offset: 0, 0
+  index: -1
+images/zhishideng/an/an2_00000
+  rotate: false
+  xy: 2, 2
+  size: 58, 39
+  orig: 58, 39
+  offset: 0, 0
+  index: -1
+images/zhishideng/liang/liang2_00018
+  rotate: false
+  xy: 2, 179
+  size: 120, 66
+  orig: 120, 66
+  offset: 0, 0
+  index: -1
+images/zhishideng/liang/liang3_00028
+  rotate: false
+  xy: 2, 111
+  size: 120, 66
+  orig: 120, 66
+  offset: 0, 0
+  index: -1
+images/zhishideng/liang/liang4_00033
+  rotate: false
+  xy: 124, 179
+  size: 120, 66
+  orig: 120, 66
+  offset: 0, 0
+  index: -1
+images/zhishideng/liang/liang5_00047
+  rotate: false
+  xy: 2, 43
+  size: 120, 66
+  orig: 120, 66
+  offset: 0, 0
+  index: -1
+images/zhishideng/liang/liang9_00081
+  rotate: false
+  xy: 124, 111
+  size: 114, 66
+  orig: 114, 66
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,13 @@
+
+effect_DEM_beijing.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/yun
+  rotate: false
+  xy: 2, 1100
+  size: 1386, 288
+  orig: 1386, 288
+  offset: 0, 0
+  index: -1

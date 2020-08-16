@@ -1,0 +1,111 @@
+
+effects_24401_dilei.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+adilei
+  rotate: true
+  xy: 171, 196
+  size: 36, 22
+  orig: 36, 22
+  offset: 0, 0
+  index: -1
+adipan1
+  rotate: false
+  xy: 66, 105
+  size: 45, 22
+  orig: 45, 22
+  offset: 0, 0
+  index: -1
+adipan2
+  rotate: false
+  xy: 451, 477
+  size: 50, 24
+  orig: 50, 24
+  offset: 0, 0
+  index: -1
+aguanban1
+  rotate: false
+  xy: 2, 102
+  size: 62, 25
+  orig: 62, 25
+  offset: 0, 0
+  index: -1
+aguanban2
+  rotate: true
+  xy: 171, 234
+  size: 62, 25
+  orig: 62, 25
+  offset: 0, 0
+  index: -1
+aguanban3
+  rotate: false
+  xy: 2, 68
+  size: 41, 32
+  orig: 41, 32
+  offset: 0, 0
+  index: -1
+aguangquan
+  rotate: false
+  xy: 207, 298
+  size: 43, 21
+  orig: 43, 21
+  offset: 0, 0
+  index: -1
+ajiao1
+  rotate: false
+  xy: 2, 56
+  size: 14, 10
+  orig: 14, 10
+  offset: 0, 0
+  index: -1
+ajiao2
+  rotate: false
+  xy: 198, 284
+  size: 16, 12
+  orig: 16, 12
+  offset: 0, 0
+  index: -1
+ajiao3
+  rotate: false
+  xy: 451, 463
+  size: 15, 12
+  orig: 15, 12
+  offset: 0, 0
+  index: -1
+ajiao4
+  rotate: false
+  xy: 45, 90
+  size: 14, 10
+  orig: 14, 10
+  offset: 0, 0
+  index: -1
+effect/skillC/dilei_000
+  rotate: false
+  xy: 207, 321
+  size: 120, 180
+  orig: 120, 180
+  offset: 0, 0
+  index: -1
+effect/skillC/dilei_001
+  rotate: false
+  xy: 329, 321
+  size: 120, 180
+  orig: 120, 180
+  offset: 0, 0
+  index: -1
+guang002
+  rotate: false
+  xy: 2, 129
+  size: 167, 167
+  orig: 167, 167
+  offset: 0, 0
+  index: -1
+ring
+  rotate: false
+  xy: 2, 298
+  size: 203, 203
+  orig: 203, 203
+  offset: 0, 0
+  index: -1

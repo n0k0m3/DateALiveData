@@ -1,0 +1,103 @@
+
+effects_extra_0058.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/glow_00069
+  rotate: true
+  xy: 847, 15
+  size: 101, 100
+  orig: 120, 120
+  offset: 5, 10
+  index: -1
+image/shandian/shandian_00000
+  rotate: false
+  xy: 296, 21
+  size: 70, 48
+  orig: 400, 512
+  offset: 177, 464
+  index: -1
+image/shandian/shandian_00001
+  rotate: false
+  xy: 728, 9
+  size: 117, 107
+  orig: 400, 512
+  offset: 159, 405
+  index: -1
+image/shandian/shandian_00002
+  rotate: false
+  xy: 365, 92
+  size: 361, 462
+  orig: 400, 512
+  offset: 26, 50
+  index: -1
+image/shandian/shandian_00003
+  rotate: false
+  xy: 2, 71
+  size: 361, 469
+  orig: 400, 512
+  offset: 26, 43
+  index: -1
+image/shandian/shandian_00005
+  rotate: false
+  xy: 338, 556
+  size: 361, 466
+  orig: 400, 512
+  offset: 26, 46
+  index: -1
+image/shandian/shandian_00006
+  rotate: false
+  xy: 2, 542
+  size: 334, 480
+  orig: 400, 512
+  offset: 53, 32
+  index: -1
+image/shandian/shandian_00007
+  rotate: false
+  xy: 701, 557
+  size: 321, 465
+  orig: 400, 512
+  offset: 53, 47
+  index: -1
+image/shandian/shandian_00008
+  rotate: false
+  xy: 728, 118
+  size: 294, 437
+  orig: 400, 512
+  offset: 53, 50
+  index: -1
+image/shandian/shandian_00011
+  rotate: false
+  xy: 2, 8
+  size: 292, 61
+  orig: 400, 512
+  offset: 54, 63
+  index: -1
+
+effects_extra_00582.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/shandian/shandian_00004
+  rotate: false
+  xy: 2, 407
+  size: 361, 462
+  orig: 400, 512
+  offset: 26, 50
+  index: -1
+image/shandian/shandian_00009
+  rotate: false
+  xy: 2, 2
+  size: 294, 403
+  orig: 400, 512
+  offset: 53, 63
+  index: -1
+image/shandian/shandian_00010
+  rotate: false
+  xy: 365, 489
+  size: 294, 380
+  orig: 400, 512
+  offset: 53, 63
+  index: -1

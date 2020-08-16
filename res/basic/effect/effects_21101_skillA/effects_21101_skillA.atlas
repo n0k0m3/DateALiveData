@@ -1,0 +1,41 @@
+
+effects_21101_skillA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+texiao/skillA/1_00000
+  rotate: false
+  xy: 634, 829
+  size: 113, 142
+  orig: 419, 487
+  offset: 42, 194
+  index: -1
+texiao/skillA/1_00001
+  rotate: false
+  xy: 329, 614
+  size: 303, 357
+  orig: 419, 487
+  offset: 42, 62
+  index: -1
+texiao/skillA/1_00003
+  rotate: false
+  xy: 2, 130
+  size: 324, 388
+  orig: 419, 487
+  offset: 42, 52
+  index: -1
+texiao/skillA/1_00005
+  rotate: false
+  xy: 2, 520
+  size: 325, 451
+  orig: 419, 487
+  offset: 42, 7
+  index: -1
+texiao/skillA/1_00007
+  rotate: true
+  xy: 2, 2
+  size: 126, 188
+  orig: 419, 487
+  offset: 62, 166
+  index: -1

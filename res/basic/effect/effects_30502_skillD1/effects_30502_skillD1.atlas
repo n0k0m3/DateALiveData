@@ -1,0 +1,82 @@
+
+effects_30502_skillD1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skill3/dicengyan_00054
+  rotate: false
+  xy: 2, 336
+  size: 577, 662
+  orig: 1529, 864
+  offset: 490, 87
+  index: -1
+effect/skill3/jixiehha_00055
+  rotate: false
+  xy: 2, 14
+  size: 241, 131
+  orig: 1529, 864
+  offset: 676, 405
+  index: -1
+effect/skill3/jixiehha_00057
+  rotate: false
+  xy: 531, 66
+  size: 327, 182
+  orig: 1529, 864
+  offset: 631, 379
+  index: -1
+effect/skill3/jixiehha_00058
+  rotate: false
+  xy: 581, 250
+  size: 334, 183
+  orig: 1529, 864
+  offset: 629, 379
+  index: -1
+effect/skill3/jixiehha_00059
+  rotate: false
+  xy: 581, 435
+  size: 335, 186
+  orig: 1529, 864
+  offset: 629, 378
+  index: -1
+effect/skill3/jixiehha_00060
+  rotate: false
+  xy: 581, 811
+  size: 339, 187
+  orig: 1529, 864
+  offset: 627, 377
+  index: -1
+effect/skill3/jixiehha_00061
+  rotate: true
+  xy: 346, 2
+  size: 332, 183
+  orig: 1529, 864
+  offset: 631, 379
+  index: -1
+effect/skill3/jixiehha_00063
+  rotate: false
+  xy: 581, 623
+  size: 338, 186
+  orig: 1529, 864
+  offset: 629, 377
+  index: -1
+effect/skill3/jixiehha_00065
+  rotate: false
+  xy: 2, 147
+  size: 342, 187
+  orig: 1529, 864
+  offset: 627, 377
+  index: -1
+
+effects_30502_skillD12.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skill3/jixiehha_00056
+  rotate: false
+  xy: 2, 147
+  size: 322, 177
+  orig: 1529, 864
+  offset: 634, 382
+  index: -1

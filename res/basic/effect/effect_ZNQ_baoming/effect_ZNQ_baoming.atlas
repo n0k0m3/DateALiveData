@@ -1,0 +1,118 @@
+
+effect_ZNQ_baoming.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/bian_00000
+  rotate: false
+  xy: 2, 389
+  size: 130, 121
+  orig: 135, 135
+  offset: 2, 3
+  index: -1
+images/lizi_00000
+  rotate: false
+  xy: 106, 189
+  size: 97, 92
+  orig: 129, 145
+  offset: 19, 13
+  index: -1
+images/lizi_00002
+  rotate: true
+  xy: 205, 189
+  size: 95, 94
+  orig: 129, 145
+  offset: 19, 14
+  index: -1
+images/lizi_00004
+  rotate: false
+  xy: 395, 205
+  size: 93, 96
+  orig: 129, 145
+  offset: 20, 14
+  index: -1
+images/lizi_00006
+  rotate: false
+  xy: 301, 199
+  size: 92, 99
+  orig: 129, 145
+  offset: 20, 14
+  index: -1
+images/lizi_00008
+  rotate: false
+  xy: 2, 44
+  size: 91, 102
+  orig: 129, 145
+  offset: 19, 14
+  index: -1
+images/lizi_00010
+  rotate: false
+  xy: 328, 407
+  size: 90, 103
+  orig: 129, 145
+  offset: 19, 15
+  index: -1
+images/lizi_00012
+  rotate: false
+  xy: 237, 405
+  size: 89, 105
+  orig: 129, 145
+  offset: 19, 16
+  index: -1
+images/lizi_00014
+  rotate: false
+  xy: 106, 283
+  size: 89, 104
+  orig: 129, 145
+  offset: 18, 19
+  index: -1
+images/lizi_00016
+  rotate: false
+  xy: 197, 286
+  size: 88, 104
+  orig: 129, 145
+  offset: 18, 22
+  index: -1
+images/lizi_00018
+  rotate: false
+  xy: 2, 148
+  size: 96, 116
+  orig: 129, 145
+  offset: 18, 13
+  index: -1
+images/lizi_00020
+  rotate: false
+  xy: 134, 392
+  size: 101, 118
+  orig: 129, 145
+  offset: 17, 13
+  index: -1
+images/lizi_00022
+  rotate: false
+  xy: 2, 266
+  size: 102, 121
+  orig: 129, 145
+  offset: 17, 13
+  index: -1
+images/lizi_00024
+  rotate: true
+  xy: 287, 300
+  size: 103, 89
+  orig: 129, 145
+  offset: 17, 13
+  index: -1
+images/lizi_00026
+  rotate: true
+  xy: 378, 303
+  size: 102, 91
+  orig: 129, 145
+  offset: 17, 13
+  index: -1
+images/lizi_00028
+  rotate: true
+  xy: 420, 410
+  size: 100, 90
+  orig: 129, 145
+  offset: 17, 13
+  index: -1

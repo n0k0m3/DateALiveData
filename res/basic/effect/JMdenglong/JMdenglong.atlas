@@ -1,0 +1,83 @@
+
+JMdenglong.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+denglong
+  rotate: true
+  xy: 2, 10
+  size: 177, 199
+  orig: 177, 199
+  offset: 0, 0
+  index: -1
+denglongqian
+  rotate: false
+  xy: 306, 337
+  size: 135, 173
+  orig: 135, 173
+  offset: 0, 0
+  index: -1
+guang
+  rotate: false
+  xy: 2, 189
+  size: 302, 321
+  orig: 302, 321
+  offset: 0, 0
+  index: -1
+huo/huo_00000
+  rotate: false
+  xy: 203, 154
+  size: 42, 33
+  orig: 51, 45
+  offset: 5, 3
+  index: -1
+huo/huo_00001
+  rotate: false
+  xy: 443, 478
+  size: 39, 32
+  orig: 51, 45
+  offset: 6, 3
+  index: -1
+huo/huo_00002
+  rotate: false
+  xy: 443, 444
+  size: 39, 32
+  orig: 51, 45
+  offset: 6, 3
+  index: -1
+huo/huo_00003
+  rotate: false
+  xy: 203, 121
+  size: 39, 31
+  orig: 51, 45
+  offset: 5, 3
+  index: -1
+huo/huo_00004
+  rotate: false
+  xy: 247, 154
+  size: 37, 33
+  orig: 51, 45
+  offset: 7, 3
+  index: -1
+huo/huo_00005
+  rotate: false
+  xy: 306, 270
+  size: 37, 33
+  orig: 51, 45
+  offset: 6, 3
+  index: -1
+huo/huo_00006
+  rotate: true
+  xy: 484, 473
+  size: 37, 26
+  orig: 51, 45
+  offset: 6, 3
+  index: -1
+huo/huo_00007
+  rotate: false
+  xy: 306, 305
+  size: 44, 30
+  orig: 51, 45
+  offset: 3, 3
+  index: -1

@@ -1,0 +1,27 @@
+
+14huaban.png
+size: 32,32
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sy1
+  rotate: false
+  xy: 2, 11
+  size: 6, 8
+  orig: 6, 8
+  offset: 0, 0
+  index: -1
+sy2
+  rotate: false
+  xy: 2, 2
+  size: 5, 7
+  orig: 5, 7
+  offset: 0, 0
+  index: -1
+sy3
+  rotate: false
+  xy: 2, 21
+  size: 6, 9
+  orig: 6, 9
+  offset: 0, 0
+  index: -1

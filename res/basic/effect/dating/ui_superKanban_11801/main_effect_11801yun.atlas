@@ -1,0 +1,41 @@
+
+main_effect_11801yun.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+yun/yun2
+  rotate: false
+  xy: 2, 826
+  size: 774, 158
+  orig: 774, 158
+  offset: 0, 0
+  index: -1
+yun/yun4
+  rotate: false
+  xy: 2, 459
+  size: 411, 159
+  orig: 411, 159
+  offset: 0, 0
+  index: -1
+yun/yun6
+  rotate: false
+  xy: 2, 620
+  size: 585, 204
+  orig: 585, 204
+  offset: 0, 0
+  index: -1
+yun/yun7
+  rotate: false
+  xy: 111, 339
+  size: 261, 118
+  orig: 261, 118
+  offset: 0, 0
+  index: -1
+yun/yun8
+  rotate: true
+  xy: 2, 2
+  size: 455, 107
+  orig: 455, 107
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,306 @@
+
+effects_10109_PskillA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects_L/pskillA/bao_down/down_009
+  rotate: true
+  xy: 926, 275
+  size: 277, 95
+  orig: 277, 102
+  offset: 0, 0
+  index: -1
+effects_L/pskillA/bao_down/down_012
+  rotate: false
+  xy: 656, 237
+  size: 268, 86
+  orig: 277, 102
+  offset: 9, 6
+  index: -1
+effects_L/pskillA/bao_up/bao_up_010
+  rotate: true
+  xy: 859, 5
+  size: 230, 154
+  orig: 248, 170
+  offset: 8, 5
+  index: -1
+effects_L/pskillA/bao_up/bao_up_016
+  rotate: false
+  xy: 804, 806
+  size: 206, 107
+  orig: 248, 170
+  offset: 21, 4
+  index: -1
+effects_L/pskillA/bao_up/bao_up_018
+  rotate: false
+  xy: 804, 915
+  size: 218, 107
+  orig: 248, 170
+  offset: 19, 3
+  index: -1
+effects_L/pskillA/daoguang2/daoguang2_007
+  rotate: false
+  xy: 2, 9
+  size: 298, 209
+  orig: 311, 226
+  offset: 8, 15
+  index: -1
+effects_L/pskillA/daoguang2/daoguang2_008
+  rotate: false
+  xy: 2, 518
+  size: 295, 225
+  orig: 311, 226
+  offset: 10, 0
+  index: -1
+effects_L/pskillA/daoguang2/daoguang2_010
+  rotate: true
+  xy: 2, 220
+  size: 296, 224
+  orig: 311, 226
+  offset: 10, 1
+  index: -1
+effects_L/pskillA/daoguang2/daoguang2_012
+  rotate: true
+  xy: 228, 229
+  size: 287, 223
+  orig: 311, 226
+  offset: 13, 3
+  index: -1
+effects_L/pskillA/daoguang2/daoguang2_014
+  rotate: false
+  xy: 302, 6
+  size: 285, 221
+  orig: 311, 226
+  offset: 16, 5
+  index: -1
+effects_L/pskillA/daoguang2/daoguang2_016
+  rotate: true
+  xy: 453, 286
+  size: 272, 201
+  orig: 311, 226
+  offset: 29, 21
+  index: -1
+effects_L/pskillA/daoguang3/daoguang3_063
+  rotate: true
+  xy: 754, 554
+  size: 227, 268
+  orig: 227, 270
+  offset: 0, 2
+  index: -1
+effects_L/pskillA/daoguang3/daoguang3_064
+  rotate: true
+  xy: 656, 325
+  size: 227, 268
+  orig: 227, 270
+  offset: 0, 2
+  index: -1
+effects_L/pskillA/daoguang3/daoguang3_065
+  rotate: true
+  xy: 589, 8
+  size: 227, 268
+  orig: 227, 270
+  offset: 0, 2
+  index: -1
+effects_L/pskillA/guangxian
+  rotate: false
+  xy: 299, 519
+  size: 142, 39
+  orig: 144, 40
+  offset: 1, 1
+  index: -1
+effects_L/pskillA/hit/hit_008
+  rotate: false
+  xy: 299, 560
+  size: 339, 108
+  orig: 399, 156
+  offset: 32, 23
+  index: -1
+effects_L/pskillA/hit/hit_009
+  rotate: false
+  xy: 397, 670
+  size: 355, 111
+  orig: 399, 156
+  offset: 24, 22
+  index: -1
+effects_L/pskillA/hit/hit_011
+  rotate: false
+  xy: 403, 783
+  size: 377, 125
+  orig: 399, 156
+  offset: 13, 11
+  index: -1
+effects_L/pskillA/hit/hit_013
+  rotate: false
+  xy: 2, 745
+  size: 393, 135
+  orig: 399, 156
+  offset: 5, 5
+  index: -1
+effects_L/pskillA/hit/hit_015
+  rotate: false
+  xy: 2, 882
+  size: 399, 140
+  orig: 399, 156
+  offset: 0, 5
+  index: -1
+effects_L/pskillA/hit/hit_017
+  rotate: false
+  xy: 403, 910
+  size: 399, 112
+  orig: 399, 156
+  offset: 0, 22
+  index: -1
+effects_L/pskillA/hit/hit_019
+  rotate: true
+  xy: 640, 561
+  size: 107, 109
+  orig: 399, 156
+  offset: 146, 23
+  index: -1
+
+effects_10109_PskillA2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects_L/pskillA/bao_down/down_007
+  rotate: false
+  xy: 460, 745
+  size: 271, 89
+  orig: 277, 102
+  offset: 0, 3
+  index: -1
+effects_L/pskillA/bao_down/down_008
+  rotate: true
+  xy: 144, 205
+  size: 277, 93
+  orig: 277, 102
+  offset: 0, 1
+  index: -1
+effects_L/pskillA/bao_down/down_010
+  rotate: true
+  xy: 239, 237
+  size: 277, 95
+  orig: 277, 102
+  offset: 0, 0
+  index: -1
+effects_L/pskillA/bao_down/down_011
+  rotate: true
+  xy: 336, 237
+  size: 277, 94
+  orig: 277, 102
+  offset: 0, 0
+  index: -1
+effects_L/pskillA/bao_up/bao_up_007
+  rotate: true
+  xy: 714, 539
+  size: 179, 92
+  orig: 248, 170
+  offset: 15, 1
+  index: -1
+effects_L/pskillA/bao_up/bao_up_008
+  rotate: true
+  xy: 432, 322
+  size: 242, 106
+  orig: 248, 170
+  offset: 0, 0
+  index: -1
+effects_L/pskillA/bao_up/bao_up_012
+  rotate: true
+  xy: 231, 516
+  size: 236, 168
+  orig: 248, 170
+  offset: 6, 2
+  index: -1
+effects_L/pskillA/bao_up/bao_up_014
+  rotate: true
+  xy: 896, 821
+  size: 201, 112
+  orig: 248, 170
+  offset: 23, 0
+  index: -1
+effects_L/pskillA/bao_up/bao_up_020
+  rotate: true
+  xy: 540, 302
+  size: 232, 108
+  orig: 248, 170
+  offset: 13, 1
+  index: -1
+effects_L/pskillA/daoguang3/daoguang3_066
+  rotate: false
+  xy: 2, 754
+  size: 227, 268
+  orig: 227, 270
+  offset: 0, 2
+  index: -1
+effects_L/pskillA/daoguang3/daoguang3_067
+  rotate: false
+  xy: 2, 484
+  size: 227, 268
+  orig: 227, 270
+  offset: 0, 2
+  index: -1
+effects_L/pskillA/daoguang3/daoguang3_068
+  rotate: false
+  xy: 231, 754
+  size: 227, 268
+  orig: 227, 270
+  offset: 0, 2
+  index: -1
+effects_L/pskillA/glow_001
+  rotate: false
+  xy: 401, 566
+  size: 178, 177
+  orig: 180, 177
+  offset: 1, 0
+  index: -1
+effects_L/pskillA/hit/hit_007
+  rotate: true
+  xy: 2, 178
+  size: 304, 140
+  orig: 399, 156
+  offset: 49, 7
+  index: -1
+effects_L/pskillA/kuo/kuo_009
+  rotate: false
+  xy: 460, 836
+  size: 217, 186
+  orig: 222, 189
+  offset: 2, 1
+  index: -1
+effects_L/pskillA/kuo/kuo_011
+  rotate: false
+  xy: 679, 856
+  size: 215, 166
+  orig: 222, 189
+  offset: 3, 1
+  index: -1
+effects_L/pskillA/kuo/kuo_013
+  rotate: true
+  xy: 581, 536
+  size: 207, 131
+  orig: 222, 189
+  offset: 6, 2
+  index: -1
+effects_L/pskillA/kuo/kuo_015
+  rotate: true
+  xy: 650, 348
+  size: 186, 108
+  orig: 222, 189
+  offset: 19, 2
+  index: -1
+effects_L/pskillA/kuo/kuo_016
+  rotate: true
+  xy: 2, 2
+  size: 174, 102
+  orig: 222, 189
+  offset: 30, 2
+  index: -1
+effects_L/pskillA/quan_000
+  rotate: true
+  xy: 733, 720
+  size: 134, 143
+  orig: 145, 143
+  offset: 2, 0
+  index: -1

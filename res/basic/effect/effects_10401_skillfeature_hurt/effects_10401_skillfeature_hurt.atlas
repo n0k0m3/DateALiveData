@@ -1,0 +1,263 @@
+
+effects_10401_skillfeature_hurt.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skilld_2/bolisuixie_00199
+  rotate: false
+  xy: 2, 32
+  size: 240, 133
+  orig: 240, 133
+  offset: 0, 0
+  index: -1
+skilld_2/dankong/dankong_00158
+  rotate: true
+  xy: 2, 450
+  size: 281, 248
+  orig: 281, 248
+  offset: 0, 0
+  index: -1
+skilld_2/dankong/dankong_00159
+  rotate: true
+  xy: 2, 167
+  size: 281, 248
+  orig: 281, 248
+  offset: 0, 0
+  index: -1
+skilld_2/dankong/dankong_00160
+  rotate: true
+  xy: 252, 450
+  size: 281, 248
+  orig: 281, 248
+  offset: 0, 0
+  index: -1
+skilld_2/dankong/dankong_00161
+  rotate: false
+  xy: 279, 760
+  size: 281, 248
+  orig: 281, 248
+  offset: 0, 0
+  index: -1
+skilld_2/dankong/dankong_00163
+  rotate: true
+  xy: 252, 167
+  size: 281, 248
+  orig: 281, 248
+  offset: 0, 0
+  index: -1
+skilld_2/dankong/dankong_00165
+  rotate: false
+  xy: 502, 510
+  size: 281, 248
+  orig: 281, 248
+  offset: 0, 0
+  index: -1
+skilld_2/dankong/dankong_00167
+  rotate: false
+  xy: 562, 760
+  size: 281, 248
+  orig: 281, 248
+  offset: 0, 0
+  index: -1
+skilld_2/dankong/dankong_00169
+  rotate: true
+  xy: 502, 227
+  size: 281, 248
+  orig: 281, 248
+  offset: 0, 0
+  index: -1
+skilld_2/dankong/dankong_00171
+  rotate: true
+  xy: 752, 227
+  size: 281, 248
+  orig: 281, 248
+  offset: 0, 0
+  index: -1
+skilld_2/dankong2/dankong2_00158
+  rotate: false
+  xy: 2, 733
+  size: 275, 275
+  orig: 275, 275
+  offset: 0, 0
+  index: -1
+skilld_2/dankong2/dankong2_00161
+  rotate: false
+  xy: 785, 536
+  size: 223, 222
+  orig: 275, 275
+  offset: 22, 27
+  index: -1
+skilld_2/dankongyanwu/dankongyanwu_00164
+  rotate: false
+  xy: 444, 4
+  size: 193, 161
+  orig: 226, 216
+  offset: 22, 25
+  index: -1
+skilld_2/dankongyanwu/dankongyanwu_00166
+  rotate: true
+  xy: 845, 814
+  size: 194, 159
+  orig: 226, 216
+  offset: 21, 25
+  index: -1
+skilld_2/dankongyanwu/dankongyanwu_00168
+  rotate: false
+  xy: 244, 5
+  size: 198, 160
+  orig: 226, 216
+  offset: 18, 23
+  index: -1
+skilld_2/suiboli/suiboli_00199
+  rotate: false
+  xy: 639, 35
+  size: 339, 190
+  orig: 339, 190
+  offset: 0, 0
+  index: -1
+
+effects_10401_skillfeature_hurt2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skilld_2/dankong/dankong_00173
+  rotate: false
+  xy: 2, 774
+  size: 281, 248
+  orig: 281, 248
+  offset: 0, 0
+  index: -1
+skilld_2/dankong2/dankong2_00159
+  rotate: false
+  xy: 386, 185
+  size: 264, 261
+  orig: 275, 275
+  offset: 1, 6
+  index: -1
+skilld_2/dankong2/dankong2_00160
+  rotate: true
+  xy: 652, 202
+  size: 244, 242
+  orig: 275, 275
+  offset: 11, 16
+  index: -1
+skilld_2/dankong2/dankong2_00164
+  rotate: false
+  xy: 573, 23
+  size: 161, 160
+  orig: 275, 275
+  offset: 53, 58
+  index: -1
+skilld_2/dankongyanwu/dankongyanwu_00159
+  rotate: false
+  xy: 893, 70
+  size: 129, 130
+  orig: 226, 216
+  offset: 50, 41
+  index: -1
+skilld_2/dankongyanwu/dankongyanwu_00160
+  rotate: false
+  xy: 736, 70
+  size: 155, 130
+  orig: 226, 216
+  offset: 39, 43
+  index: -1
+skilld_2/dankongyanwu/dankongyanwu_00162
+  rotate: false
+  xy: 386, 28
+  size: 185, 155
+  orig: 226, 216
+  offset: 26, 28
+  index: -1
+skilld_2/glow5_00158
+  rotate: false
+  xy: 2, 21
+  size: 230, 69
+  orig: 265, 72
+  offset: 18, 0
+  index: -1
+skilld_2/suiboli/suiboli_00200
+  rotate: true
+  xy: 2, 433
+  size: 339, 190
+  orig: 339, 190
+  offset: 0, 0
+  index: -1
+skilld_2/suiboli/suiboli_00201
+  rotate: false
+  xy: 285, 832
+  size: 339, 190
+  orig: 339, 190
+  offset: 0, 0
+  index: -1
+skilld_2/suiboli/suiboli_00202
+  rotate: true
+  xy: 2, 92
+  size: 339, 190
+  orig: 339, 190
+  offset: 0, 0
+  index: -1
+skilld_2/suiboli/suiboli_00204
+  rotate: false
+  xy: 626, 832
+  size: 339, 190
+  orig: 339, 190
+  offset: 0, 0
+  index: -1
+skilld_2/suiboli/suiboli_00206
+  rotate: true
+  xy: 194, 433
+  size: 339, 190
+  orig: 339, 190
+  offset: 0, 0
+  index: -1
+skilld_2/suiboli/suiboli_00208
+  rotate: true
+  xy: 194, 92
+  size: 339, 190
+  orig: 339, 190
+  offset: 0, 0
+  index: -1
+skilld_2/suiboli/suiboli_00210
+  rotate: false
+  xy: 386, 640
+  size: 339, 190
+  orig: 339, 190
+  offset: 0, 0
+  index: -1
+skilld_2/suiboli/suiboli_00212
+  rotate: false
+  xy: 386, 448
+  size: 339, 190
+  orig: 339, 190
+  offset: 0, 0
+  index: -1
+skilld_2/suiboli/suiboli_00214
+  rotate: true
+  xy: 727, 491
+  size: 339, 190
+  orig: 339, 190
+  offset: 0, 0
+  index: -1
+
+effects_10401_skillfeature_hurt3.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skilld_2/dankong2/dankong2_00162
+  rotate: false
+  xy: 2, 2
+  size: 203, 201
+  orig: 275, 275
+  offset: 32, 38
+  index: -1
+skilld_2/dankongyanwu/dankongyanwu_00158
+  rotate: false
+  xy: 2, 205
+  size: 226, 216
+  orig: 226, 216
+  offset: 0, 0
+  index: -1

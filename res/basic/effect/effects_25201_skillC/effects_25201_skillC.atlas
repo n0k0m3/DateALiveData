@@ -1,0 +1,284 @@
+
+effects_25201_skillC.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/skillc/back1/back_00001
+  rotate: false
+  xy: 812, 390
+  size: 209, 77
+  orig: 252, 107
+  offset: 23, 10
+  index: -1
+images/effect/skillc/back1/back_00002
+  rotate: false
+  xy: 812, 311
+  size: 207, 77
+  orig: 252, 107
+  offset: 25, 10
+  index: -1
+images/effect/skillc/back1/back_00003
+  rotate: true
+  xy: 852, 102
+  size: 207, 77
+  orig: 252, 107
+  offset: 25, 10
+  index: -1
+images/effect/skillc/back1/back_00004
+  rotate: true
+  xy: 931, 102
+  size: 207, 77
+  orig: 252, 107
+  offset: 25, 10
+  index: -1
+images/effect/skillc/back1/back_00005
+  rotate: false
+  xy: 262, 33
+  size: 207, 77
+  orig: 252, 107
+  offset: 25, 10
+  index: -1
+images/effect/skillc/baodian1/baodian1_00000
+  rotate: false
+  xy: 547, 24
+  size: 303, 253
+  orig: 438, 336
+  offset: 63, 22
+  index: -1
+images/effect/skillc/baodian2/baodian2_00006
+  rotate: true
+  xy: 799, 702
+  size: 320, 209
+  orig: 350, 252
+  offset: 5, 20
+  index: -1
+images/effect/skillc/danzhang/quan_00000
+  rotate: true
+  xy: 436, 114
+  size: 427, 109
+  orig: 466, 139
+  offset: 16, 14
+  index: -1
+images/effect/skillc/danzhang/xue_00000
+  rotate: false
+  xy: 2, 31
+  size: 258, 79
+  orig: 280, 95
+  offset: 15, 3
+  index: -1
+images/effect/skillc/danzhang/xueqiu_00000
+  rotate: true
+  xy: 852, 2
+  size: 98, 87
+  orig: 116, 100
+  offset: 11, 7
+  index: -1
+images/effect/skillc/tuowei/tuowei_00000
+  rotate: true
+  xy: 547, 279
+  size: 360, 263
+  orig: 406, 336
+  offset: 0, 70
+  index: -1
+images/effect/skillc/xuli/xuli_00000
+  rotate: false
+  xy: 2, 112
+  size: 432, 429
+  orig: 700, 700
+  offset: 110, 171
+  index: -1
+images/effect/skillc/xuli/xuli_00001
+  rotate: false
+  xy: 2, 543
+  size: 454, 479
+  orig: 700, 700
+  offset: 106, 125
+  index: -1
+images/effect/skillc/xuli/xuli_00002
+  rotate: false
+  xy: 458, 641
+  size: 339, 381
+  orig: 700, 700
+  offset: 213, 198
+  index: -1
+images/effect/skillc/xuli/xuli_00003
+  rotate: false
+  xy: 812, 469
+  size: 203, 231
+  orig: 700, 700
+  offset: 247, 260
+  index: -1
+images/effect/skillc/xuli/xuli_00004
+  rotate: false
+  xy: 458, 597
+  size: 47, 42
+  orig: 700, 700
+  offset: 321, 328
+  index: -1
+
+effects_25201_skillC2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/skillc/back1/back_00000
+  rotate: true
+  xy: 302, 565
+  size: 167, 40
+  orig: 252, 107
+  offset: 43, 30
+  index: -1
+images/effect/skillc/back1/back_00006
+  rotate: false
+  xy: 344, 567
+  size: 207, 77
+  orig: 252, 107
+  offset: 25, 10
+  index: -1
+images/effect/skillc/baodian1/baodian1_00001
+  rotate: true
+  xy: 2, 72
+  size: 324, 294
+  orig: 438, 336
+  offset: 62, 0
+  index: -1
+images/effect/skillc/baodian1/baodian1_00002
+  rotate: true
+  xy: 2, 398
+  size: 334, 298
+  orig: 438, 336
+  offset: 52, 0
+  index: -1
+images/effect/skillc/baodian1/baodian1_00003
+  rotate: true
+  xy: 364, 646
+  size: 351, 300
+  orig: 438, 336
+  offset: 39, 0
+  index: -1
+images/effect/skillc/baodian1/baodian1_00004
+  rotate: true
+  xy: 664, 320
+  size: 324, 294
+  orig: 438, 336
+  offset: 69, 1
+  index: -1
+images/effect/skillc/baodian1/baodian1_00005
+  rotate: false
+  xy: 666, 705
+  size: 328, 292
+  orig: 438, 336
+  offset: 65, 3
+  index: -1
+images/effect/skillc/baodian1/baodian1_00006
+  rotate: false
+  xy: 664, 25
+  size: 333, 293
+  orig: 438, 336
+  offset: 56, 2
+  index: -1
+images/effect/skillc/tuowei/tuowei_00001
+  rotate: false
+  xy: 2, 734
+  size: 360, 263
+  orig: 406, 336
+  offset: 0, 70
+  index: -1
+images/effect/skillc/tuowei/tuowei_00002
+  rotate: false
+  xy: 302, 300
+  size: 360, 263
+  orig: 406, 336
+  offset: 0, 70
+  index: -1
+images/effect/skillc/tuowei/tuowei_00003
+  rotate: false
+  xy: 298, 35
+  size: 360, 263
+  orig: 406, 336
+  offset: 0, 70
+  index: -1
+
+effects_25201_skillC3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/skillc/baodian1/baodian1_00007
+  rotate: false
+  xy: 2, 395
+  size: 315, 289
+  orig: 438, 336
+  offset: 73, 3
+  index: -1
+images/effect/skillc/baodian1/baodian1_00008
+  rotate: false
+  xy: 364, 660
+  size: 289, 289
+  orig: 438, 336
+  offset: 99, 3
+  index: -1
+images/effect/skillc/baodian1/baodian1_00009
+  rotate: false
+  xy: 655, 661
+  size: 289, 288
+  orig: 438, 336
+  offset: 99, 4
+  index: -1
+images/effect/skillc/baodian1/baodian1_00011
+  rotate: false
+  xy: 2, 102
+  size: 292, 291
+  orig: 438, 336
+  offset: 98, 4
+  index: -1
+images/effect/skillc/baodian2/baodian2_00000
+  rotate: true
+  xy: 570, 2
+  size: 222, 172
+  orig: 350, 252
+  offset: 57, 26
+  index: -1
+images/effect/skillc/baodian2/baodian2_00001
+  rotate: false
+  xy: 633, 269
+  size: 234, 177
+  orig: 350, 252
+  offset: 47, 21
+  index: -1
+images/effect/skillc/baodian2/baodian2_00002
+  rotate: false
+  xy: 655, 448
+  size: 253, 211
+  orig: 350, 252
+  offset: 43, 17
+  index: -1
+images/effect/skillc/baodian2/baodian2_00003
+  rotate: false
+  xy: 296, 5
+  size: 272, 219
+  orig: 350, 252
+  offset: 24, 14
+  index: -1
+images/effect/skillc/baodian2/baodian2_00004
+  rotate: false
+  xy: 319, 226
+  size: 296, 217
+  orig: 350, 252
+  offset: 22, 15
+  index: -1
+images/effect/skillc/baodian2/baodian2_00005
+  rotate: false
+  xy: 319, 445
+  size: 312, 213
+  orig: 350, 252
+  offset: 14, 19
+  index: -1
+images/effect/skillc/tuowei/tuowei_00004
+  rotate: false
+  xy: 2, 686
+  size: 360, 263
+  orig: 406, 336
+  offset: 0, 70
+  index: -1

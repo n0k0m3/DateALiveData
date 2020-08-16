@@ -1,0 +1,27 @@
+
+effect_denglvlb.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+A_4_5
+  rotate: false
+  xy: 2, 27
+  size: 129, 180
+  orig: 129, 180
+  offset: 0, 0
+  index: -1
+kuang1_00000
+  rotate: false
+  xy: 133, 94
+  size: 120, 113
+  orig: 154, 149
+  offset: 17, 16
+  index: -1
+lizi_00033
+  rotate: false
+  xy: 2, 2
+  size: 24, 23
+  orig: 40, 35
+  offset: 7, 6
+  index: -1

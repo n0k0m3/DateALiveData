@@ -1,0 +1,153 @@
+
+effects_11303_2_skillG.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow1_029
+  rotate: true
+  xy: 325, 453
+  size: 101, 48
+  orig: 106, 48
+  offset: 1, 0
+  index: -1
+skillA/glow_001
+  rotate: false
+  xy: 610, 103
+  size: 178, 177
+  orig: 180, 177
+  offset: 1, 0
+  index: -1
+skillB/bao_down/down_056
+  rotate: true
+  xy: 226, 151
+  size: 249, 100
+  orig: 280, 123
+  offset: 18, 10
+  index: -1
+skillB/bao_down/down_060
+  rotate: false
+  xy: 394, 449
+  size: 280, 123
+  orig: 280, 123
+  offset: 0, 0
+  index: -1
+skillB/bao_down/down_064
+  rotate: false
+  xy: 328, 152
+  size: 280, 121
+  orig: 280, 123
+  offset: 0, 2
+  index: -1
+skillB/bao_down/down_066
+  rotate: false
+  xy: 328, 52
+  size: 266, 98
+  orig: 280, 123
+  offset: 12, 18
+  index: -1
+skillB/bao_down/down_070
+  rotate: false
+  xy: 596, 27
+  size: 216, 74
+  orig: 280, 123
+  offset: 54, 22
+  index: -1
+skillB/bao_up/up_056
+  rotate: false
+  xy: 696, 624
+  size: 86, 86
+  orig: 274, 219
+  offset: 105, 48
+  index: -1
+skillB/bao_up/up_058
+  rotate: true
+  xy: 2, 2
+  size: 185, 192
+  orig: 274, 219
+  offset: 53, 25
+  index: -1
+skillB/bao_up/up_060
+  rotate: true
+  xy: 822, 809
+  size: 213, 200
+  orig: 274, 219
+  offset: 35, 7
+  index: -1
+skillB/bao_up/up_062
+  rotate: false
+  xy: 2, 189
+  size: 222, 211
+  orig: 274, 219
+  offset: 30, 6
+  index: -1
+skillB/bao_up/up_064
+  rotate: false
+  xy: 791, 631
+  size: 229, 176
+  orig: 274, 219
+  offset: 26, 9
+  index: -1
+skillB/bao_up/up_066
+  rotate: false
+  xy: 328, 275
+  size: 239, 172
+  orig: 274, 219
+  offset: 19, 12
+  index: -1
+skillB/bao_up/up_070
+  rotate: true
+  xy: 569, 282
+  size: 165, 162
+  orig: 274, 219
+  offset: 56, 25
+  index: -1
+skillB/xunhuan/xunhuan_027
+  rotate: false
+  xy: 2, 712
+  size: 397, 154
+  orig: 420, 154
+  offset: 23, 0
+  index: -1
+skillB/xunhuan/xunhuan_029
+  rotate: false
+  xy: 2, 868
+  size: 420, 154
+  orig: 420, 154
+  offset: 0, 0
+  index: -1
+skillB/xunhuan/xunhuan_031
+  rotate: false
+  xy: 424, 868
+  size: 396, 154
+  orig: 420, 154
+  offset: 24, 0
+  index: -1
+skillB/xunhuan/xunhuan_035
+  rotate: false
+  xy: 2, 556
+  size: 390, 154
+  orig: 420, 154
+  offset: 30, 0
+  index: -1
+skillB/xunhuan/xunhuan_039
+  rotate: false
+  xy: 401, 712
+  size: 388, 154
+  orig: 420, 154
+  offset: 32, 0
+  index: -1
+skillB/xunhuan/xunhuan_043
+  rotate: false
+  xy: 2, 402
+  size: 321, 152
+  orig: 420, 154
+  offset: 84, 2
+  index: -1
+skillB/xunhuan/xunhuan_047
+  rotate: false
+  xy: 394, 574
+  size: 300, 136
+  orig: 420, 154
+  offset: 92, 4
+  index: -1

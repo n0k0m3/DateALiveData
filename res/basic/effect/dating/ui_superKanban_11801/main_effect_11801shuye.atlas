@@ -1,0 +1,132 @@
+
+main_effect_11801shuye.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/neiguang
+  rotate: false
+  xy: 2, 717
+  size: 608, 305
+  orig: 608, 305
+  offset: 0, 0
+  index: -1
+images/shuye/shuye1
+  rotate: false
+  xy: 861, 974
+  size: 111, 48
+  orig: 111, 48
+  offset: 0, 0
+  index: -1
+images/shuye/shuye10
+  rotate: true
+  xy: 754, 945
+  size: 77, 105
+  orig: 77, 105
+  offset: 0, 0
+  index: -1
+images/shuye/shuye11
+  rotate: false
+  xy: 2, 268
+  size: 62, 62
+  orig: 62, 62
+  offset: 0, 0
+  index: -1
+images/shuye/shuye12
+  rotate: false
+  xy: 2, 521
+  size: 106, 67
+  orig: 106, 67
+  offset: 0, 0
+  index: -1
+images/shuye/shuye13
+  rotate: false
+  xy: 2, 389
+  size: 90, 49
+  orig: 90, 49
+  offset: 0, 0
+  index: -1
+images/shuye/shuye14
+  rotate: false
+  xy: 120, 614
+  size: 78, 55
+  orig: 78, 55
+  offset: 0, 0
+  index: -1
+images/shuye/shuye15
+  rotate: true
+  xy: 974, 932
+  size: 90, 48
+  orig: 90, 48
+  offset: 0, 0
+  index: -1
+images/shuye/shuye16
+  rotate: false
+  xy: 612, 861
+  size: 125, 64
+  orig: 125, 64
+  offset: 0, 0
+  index: -1
+images/shuye/shuye17
+  rotate: false
+  xy: 2, 332
+  size: 70, 55
+  orig: 70, 55
+  offset: 0, 0
+  index: -1
+images/shuye/shuye2
+  rotate: false
+  xy: 207, 690
+  size: 79, 25
+  orig: 79, 25
+  offset: 0, 0
+  index: -1
+images/shuye/shuye3
+  rotate: false
+  xy: 612, 927
+  size: 140, 95
+  orig: 140, 95
+  offset: 0, 0
+  index: -1
+images/shuye/shuye4
+  rotate: false
+  xy: 2, 440
+  size: 91, 79
+  orig: 91, 79
+  offset: 0, 0
+  index: -1
+images/shuye/shuye5
+  rotate: false
+  xy: 2, 590
+  size: 116, 79
+  orig: 116, 79
+  offset: 0, 0
+  index: -1
+images/shuye/shuye6
+  rotate: true
+  xy: 2, 200
+  size: 66, 55
+  orig: 66, 55
+  offset: 0, 0
+  index: -1
+images/shuye/shuye7
+  rotate: false
+  xy: 612, 768
+  size: 80, 91
+  orig: 80, 91
+  offset: 0, 0
+  index: -1
+images/shuye/shuye8
+  rotate: true
+  xy: 612, 724
+  size: 42, 50
+  orig: 42, 50
+  offset: 0, 0
+  index: -1
+images/shuye/shuye9
+  rotate: false
+  xy: 2, 671
+  size: 203, 44
+  orig: 203, 44
+  offset: 0, 0
+  index: -1

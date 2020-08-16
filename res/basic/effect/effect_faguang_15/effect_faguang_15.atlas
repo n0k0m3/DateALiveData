@@ -1,0 +1,13 @@
+
+effect_faguang_15.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/guangban
+  rotate: false
+  xy: 2, 459
+  size: 566, 109
+  orig: 566, 109
+  offset: 0, 0
+  index: -1

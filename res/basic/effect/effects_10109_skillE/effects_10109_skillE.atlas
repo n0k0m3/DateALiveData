@@ -1,0 +1,230 @@
+
+effects_10109_skillE.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bai_000
+  rotate: false
+  xy: 800, 843
+  size: 69, 32
+  orig: 69, 32
+  offset: 0, 0
+  index: -1
+change/bao/bao_001
+  rotate: false
+  xy: 2, 802
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+change/bao/bao_003
+  rotate: false
+  xy: 2, 600
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+change/bao/bao_005
+  rotate: false
+  xy: 204, 802
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+change/bao/bao_007
+  rotate: false
+  xy: 2, 398
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+change/bao/bao_009
+  rotate: false
+  xy: 204, 600
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+change/bao/bao_011
+  rotate: false
+  xy: 406, 802
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+change/bao/bao_013
+  rotate: false
+  xy: 2, 196
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+change/tenmandown/tenmandown_001
+  rotate: false
+  xy: 204, 473
+  size: 150, 125
+  orig: 150, 125
+  offset: 0, 0
+  index: -1
+change/tenmandown/tenmandown_003
+  rotate: false
+  xy: 406, 675
+  size: 150, 125
+  orig: 150, 125
+  offset: 0, 0
+  index: -1
+change/tenmandown/tenmandown_005
+  rotate: false
+  xy: 608, 877
+  size: 150, 125
+  orig: 150, 125
+  offset: 0, 0
+  index: -1
+change/tenmandown/tenmandown_007
+  rotate: false
+  xy: 2, 69
+  size: 150, 125
+  orig: 150, 125
+  offset: 0, 0
+  index: -1
+change/tenmandown/tenmandown_009
+  rotate: false
+  xy: 204, 346
+  size: 150, 125
+  orig: 150, 125
+  offset: 0, 0
+  index: -1
+change/tenmanup/tenmanup_001
+  rotate: false
+  xy: 760, 877
+  size: 150, 125
+  orig: 150, 125
+  offset: 0, 0
+  index: -1
+change/tenmanup/tenmanup_003
+  rotate: false
+  xy: 204, 219
+  size: 150, 125
+  orig: 150, 125
+  offset: 0, 0
+  index: -1
+change/tenmanup/tenmanup_005
+  rotate: false
+  xy: 423, 481
+  size: 150, 125
+  orig: 150, 125
+  offset: 0, 0
+  index: -1
+change/tenmanup/tenmanup_007
+  rotate: false
+  xy: 423, 354
+  size: 150, 125
+  orig: 150, 125
+  offset: 0, 0
+  index: -1
+change/tenmanup/tenmanup_009
+  rotate: false
+  xy: 423, 227
+  size: 150, 125
+  orig: 150, 125
+  offset: 0, 0
+  index: -1
+change/zaoze/zaoze_007
+  rotate: false
+  xy: 608, 810
+  size: 190, 65
+  orig: 190, 65
+  offset: 0, 0
+  index: -1
+change/zaoze/zaoze_009
+  rotate: true
+  xy: 356, 408
+  size: 190, 65
+  orig: 190, 65
+  offset: 0, 0
+  index: -1
+change/zaoze/zaoze_012
+  rotate: true
+  xy: 356, 216
+  size: 190, 65
+  orig: 190, 65
+  offset: 0, 0
+  index: -1
+change/zaoze/zaoze_015
+  rotate: false
+  xy: 2, 2
+  size: 190, 65
+  orig: 190, 65
+  offset: 0, 0
+  index: -1
+change/zaoze/zaoze_018
+  rotate: false
+  xy: 406, 608
+  size: 190, 65
+  orig: 190, 65
+  offset: 0, 0
+  index: -1
+change/zaoze/zaoze_021
+  rotate: true
+  xy: 575, 416
+  size: 190, 65
+  orig: 190, 65
+  offset: 0, 0
+  index: -1
+change/zaoze/zaoze_024
+  rotate: true
+  xy: 575, 224
+  size: 190, 65
+  orig: 190, 65
+  offset: 0, 0
+  index: -1
+change/zaoze/zaoze_027
+  rotate: false
+  xy: 608, 743
+  size: 190, 65
+  orig: 190, 65
+  offset: 0, 0
+  index: -1
+change/zaoze/zaoze_030
+  rotate: false
+  xy: 558, 676
+  size: 190, 65
+  orig: 190, 65
+  offset: 0, 0
+  index: -1
+change/zaoze/zaoze_033
+  rotate: false
+  xy: 598, 609
+  size: 190, 65
+  orig: 190, 65
+  offset: 0, 0
+  index: -1
+change/zaoze/zaoze_036
+  rotate: true
+  xy: 642, 417
+  size: 190, 65
+  orig: 190, 65
+  offset: 0, 0
+  index: -1
+change/zaoze/zaoze_038
+  rotate: true
+  xy: 642, 225
+  size: 190, 65
+  orig: 190, 65
+  offset: 0, 0
+  index: -1
+glow_000
+  rotate: false
+  xy: 709, 557
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+kuohuan_000
+  rotate: false
+  xy: 912, 938
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1

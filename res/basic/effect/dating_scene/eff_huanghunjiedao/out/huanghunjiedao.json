@@ -1,0 +1,115 @@
+{
+"skeleton": { "hash": "e9RcyjWcf9NjeJCjaCyGcI94yO4", "spine": "2.1.27", "width": 973.65, "height": 842.59, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "effect", "parent": "root", "scaleX": 1.2, "scaleY": 1.2 },
+	{ "name": "glow", "parent": "effect", "rotation": 4.75 },
+	{ "name": "yangguang", "parent": "effect", "x": 740.85, "y": 430.17 }
+],
+"slots": [
+	{ "name": "glow_00060", "bone": "glow", "attachment": "glow_00060" },
+	{ "name": "yangguang_00000", "bone": "yangguang", "color": "ffe6b5ab", "attachment": "yangguang_00000", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"glow_00060": {
+			"glow_00060": { "x": 112.45, "y": -90.79, "width": 300, "height": 300 }
+		},
+		"yangguang_00000": {
+			"yangguang_00000": { "x": -121.8, "y": -121.08, "width": 300, "height": 300 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"glow_00060": {
+				"attachment": [
+					{ "time": 0, "name": "glow_00060" },
+					{ "time": 5.3333, "name": "glow_00060" }
+				],
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffffb5",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.6666,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 5.3333, "color": "ffffffb5" }
+				]
+			},
+			"yangguang_00000": {
+				"attachment": [
+					{ "time": 0, "name": "yangguang_00000" }
+				],
+				"color": [
+					{
+						"time": 0,
+						"color": "ffe6b52d",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.6666,
+						"color": "ffe6b562",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 5.3333, "color": "ffe6b52d" }
+				]
+			}
+		},
+		"bones": {
+			"glow": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 2.94,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.6666,
+						"angle": 6,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 5.3333, "angle": 2.94 }
+				],
+				"translate": [
+					{ "time": 0, "x": 714.15, "y": 455.24 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 6.683,
+						"y": 6.683,
+						"curve": [ 0.262, 0, 0.617, 0.43 ]
+					},
+					{
+						"time": 2.6666,
+						"x": 7.085,
+						"y": 7.085,
+						"curve": [ 0.354, 0.41, 0.756, 1 ]
+					},
+					{ "time": 5.3333, "x": 6.683, "y": 6.683 }
+				]
+			},
+			"yangguang": {
+				"rotate": [
+					{ "time": 0, "angle": -29.08 }
+				],
+				"translate": [
+					{ "time": 0, "x": 362.8, "y": -136.69 }
+				],
+				"scale": [
+					{ "time": 0, "x": 6.842, "y": 7.307 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	}
+}
+}

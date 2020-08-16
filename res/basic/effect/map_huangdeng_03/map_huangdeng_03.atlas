@@ -1,0 +1,13 @@
+
+map_huangdeng_03.png
+size: 64,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sucai/dengguang/huangdeng
+  rotate: false
+  xy: 2, 6
+  size: 31, 27
+  orig: 31, 27
+  offset: 0, 0
+  index: -1

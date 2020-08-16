@@ -1,0 +1,13 @@
+
+effect_main_10219.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow
+  rotate: false
+  xy: 2, 282
+  size: 475, 195
+  orig: 475, 195
+  offset: 0, 0
+  index: -1

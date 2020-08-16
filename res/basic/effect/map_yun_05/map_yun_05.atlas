@@ -1,0 +1,13 @@
+
+map_yun_05.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sucai/yun1
+  rotate: false
+  xy: 2, 82
+  size: 238, 158
+  orig: 238, 158
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,96 @@
+
+effect_WK_zhuanchang.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/BG
+  rotate: false
+  xy: 2, 170
+  size: 694, 320
+  orig: 694, 320
+  offset: 0, 0
+  index: -1
+images/guang
+  rotate: false
+  xy: 2, 8
+  size: 347, 160
+  orig: 347, 160
+  offset: 0, 0
+  index: -1
+images/sanjiao3
+  rotate: false
+  xy: 2, 492
+  size: 800, 512
+  orig: 800, 512
+  offset: 0, 0
+  index: -1
+images/sanjiao34
+  rotate: false
+  xy: 698, 199
+  size: 251, 291
+  orig: 251, 291
+  offset: 0, 0
+  index: -1
+images/xian1
+  rotate: true
+  xy: 804, 632
+  size: 372, 200
+  orig: 372, 200
+  offset: 0, 0
+  index: -1
+images/xiao
+  rotate: false
+  xy: 474, 115
+  size: 78, 53
+  orig: 78, 53
+  offset: 0, 0
+  index: -1
+images/xiao1
+  rotate: false
+  xy: 351, 29
+  size: 121, 139
+  orig: 121, 139
+  offset: 0, 0
+  index: -1
+images/xiao2
+  rotate: true
+  xy: 804, 548
+  size: 82, 165
+  orig: 82, 165
+  offset: 0, 0
+  index: -1
+
+effect_WK_zhuanchang2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/sanjiao
+  rotate: false
+  xy: 2, 409
+  size: 567, 559
+  orig: 567, 559
+  offset: 0, 0
+  index: -1
+images/sanjiao1
+  rotate: true
+  xy: 571, 351
+  size: 617, 304
+  orig: 617, 304
+  offset: 0, 0
+  index: -1
+images/sanjiao2
+  rotate: true
+  xy: 2, 18
+  size: 389, 548
+  orig: 389, 548
+  offset: 0, 0
+  index: -1
+images/xian
+  rotate: false
+  xy: 552, 2
+  size: 353, 347
+  orig: 353, 347
+  offset: 0, 0
+  index: -1

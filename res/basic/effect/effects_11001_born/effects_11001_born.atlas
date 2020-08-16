@@ -1,0 +1,257 @@
+
+effects_11001_born.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/born/caise_00000
+  rotate: false
+  xy: 343, 425
+  size: 114, 93
+  orig: 128, 128
+  offset: 7, 18
+  index: -1
+effects/born/dengguang1
+  rotate: false
+  xy: 2, 724
+  size: 162, 297
+  orig: 200, 320
+  offset: 19, 19
+  index: -1
+effects/born/dengguang2
+  rotate: false
+  xy: 2, 425
+  size: 162, 297
+  orig: 200, 320
+  offset: 19, 19
+  index: -1
+effects/born/dimian/dimian_00007
+  rotate: false
+  xy: 406, 184
+  size: 237, 239
+  orig: 320, 320
+  offset: 43, 38
+  index: -1
+effects/born/dimian/dimian_00009
+  rotate: false
+  xy: 561, 540
+  size: 237, 239
+  orig: 320, 320
+  offset: 43, 38
+  index: -1
+effects/born/dimian/dimian_00011
+  rotate: false
+  xy: 672, 782
+  size: 237, 239
+  orig: 320, 320
+  offset: 43, 38
+  index: -1
+effects/born/dimian/dimian_00013
+  rotate: false
+  xy: 433, 781
+  size: 237, 240
+  orig: 320, 320
+  offset: 43, 38
+  index: -1
+effects/born/dimian/dimian_00015
+  rotate: true
+  xy: 778, 225
+  size: 237, 239
+  orig: 320, 320
+  offset: 43, 38
+  index: -1
+effects/born/wava/wava_00030
+  rotate: false
+  xy: 166, 425
+  size: 175, 91
+  orig: 265, 140
+  offset: 47, 25
+  index: -1
+effects/born/wava/wava_00032
+  rotate: false
+  xy: 800, 668
+  size: 212, 112
+  orig: 265, 140
+  offset: 28, 15
+  index: -1
+effects/born/wava/wava_00034
+  rotate: true
+  xy: 432, 533
+  size: 241, 127
+  orig: 265, 140
+  offset: 14, 8
+  index: -1
+effects/born/wava/wava_00036
+  rotate: true
+  xy: 275, 180
+  size: 243, 129
+  orig: 265, 140
+  offset: 13, 7
+  index: -1
+effects/born/wava/wava_00038
+  rotate: true
+  xy: 300, 776
+  size: 245, 131
+  orig: 265, 140
+  offset: 11, 6
+  index: -1
+effects/born/wava/wava_00040
+  rotate: true
+  xy: 298, 520
+  size: 248, 132
+  orig: 265, 140
+  offset: 10, 6
+  index: -1
+effects/born/wava/wava_00042
+  rotate: true
+  xy: 166, 770
+  size: 251, 132
+  orig: 265, 140
+  offset: 9, 6
+  index: -1
+effects/born/wava/wava_00044
+  rotate: true
+  xy: 140, 168
+  size: 255, 133
+  orig: 265, 140
+  offset: 8, 6
+  index: -1
+effects/born/wava/wava_00046
+  rotate: true
+  xy: 2, 166
+  size: 257, 136
+  orig: 265, 140
+  offset: 8, 4
+  index: -1
+effects/born/wava/wava_00048
+  rotate: true
+  xy: 166, 518
+  size: 250, 130
+  orig: 265, 140
+  offset: 11, 7
+  index: -1
+effects/extra_skillB/yuefu1_00096
+  rotate: true
+  xy: 648, 417
+  size: 121, 128
+  orig: 121, 128
+  offset: 0, 0
+  index: -1
+effects/extra_skillB/yuefu2_00096
+  rotate: false
+  xy: 911, 891
+  size: 110, 130
+  orig: 110, 130
+  offset: 0, 0
+  index: -1
+effects/extra_skillB/yuefu3_00096
+  rotate: true
+  xy: 645, 178
+  size: 113, 122
+  orig: 113, 122
+  offset: 0, 0
+  index: -1
+effects/extra_skillB/yuefu4_00096
+  rotate: true
+  xy: 645, 293
+  size: 122, 126
+  orig: 122, 126
+  offset: 0, 0
+  index: -1
+effects/skillb/glow2
+  rotate: false
+  xy: 800, 464
+  size: 207, 202
+  orig: 207, 202
+  offset: 0, 0
+  index: -1
+effects/win/dimian/dimian_00015
+  rotate: false
+  xy: 552, 106
+  size: 189, 70
+  orig: 197, 78
+  offset: 4, 4
+  index: -1
+effects/win/dimian/dimian_00017
+  rotate: false
+  xy: 459, 456
+  size: 187, 75
+  orig: 197, 78
+  offset: 10, 3
+  index: -1
+effects/win/dimian/dimian_00019
+  rotate: false
+  xy: 552, 30
+  size: 186, 74
+  orig: 197, 78
+  offset: 8, 0
+  index: -1
+effects/win/dimian/dimian_00021
+  rotate: true
+  xy: 845, 38
+  size: 185, 73
+  orig: 197, 78
+  offset: 5, 0
+  index: -1
+effects/win/dimian/dimian_00023
+  rotate: true
+  xy: 769, 32
+  size: 191, 74
+  orig: 197, 78
+  offset: 1, 0
+  index: -1
+effects/win/glow/glow_00015
+  rotate: true
+  xy: 2, 3
+  size: 161, 108
+  orig: 161, 108
+  offset: 0, 0
+  index: -1
+effects/win/glow/glow_00017
+  rotate: true
+  xy: 112, 3
+  size: 161, 108
+  orig: 161, 108
+  offset: 0, 0
+  index: -1
+effects/win/glow/glow_00019
+  rotate: true
+  xy: 222, 5
+  size: 161, 108
+  orig: 161, 108
+  offset: 0, 0
+  index: -1
+effects/win/glow/glow_00021
+  rotate: true
+  xy: 332, 17
+  size: 161, 108
+  orig: 161, 108
+  offset: 0, 0
+  index: -1
+effects/win/glow/glow_00023
+  rotate: true
+  xy: 442, 21
+  size: 161, 108
+  orig: 161, 108
+  offset: 0, 0
+  index: -1
+
+effects_11001_born2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/born/dimian/dimian_00017
+  rotate: false
+  xy: 2, 240
+  size: 237, 238
+  orig: 320, 320
+  offset: 43, 39
+  index: -1
+effects/born/dimian/dimian_00019
+  rotate: false
+  xy: 2, 2
+  size: 235, 236
+  orig: 320, 320
+  offset: 44, 40
+  index: -1

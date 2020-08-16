@@ -1,0 +1,118 @@
+
+map_jdpt_hj_04.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+g
+  rotate: false
+  xy: 2, 219
+  size: 409, 287
+  orig: 409, 287
+  offset: 0, 0
+  index: -1
+g2
+  rotate: false
+  xy: 61, 86
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+gy1
+  rotate: false
+  xy: 2, 172
+  size: 119, 45
+  orig: 119, 45
+  offset: 0, 0
+  index: -1
+gy13
+  rotate: false
+  xy: 86, 114
+  size: 31, 56
+  orig: 31, 56
+  offset: 0, 0
+  index: -1
+gy14
+  rotate: false
+  xy: 413, 326
+  size: 35, 40
+  orig: 35, 40
+  offset: 0, 0
+  index: -1
+gy15
+  rotate: false
+  xy: 413, 368
+  size: 35, 75
+  orig: 35, 75
+  offset: 0, 0
+  index: -1
+gy16
+  rotate: true
+  xy: 123, 179
+  size: 38, 76
+  orig: 38, 76
+  offset: 0, 0
+  index: -1
+gy2
+  rotate: false
+  xy: 413, 445
+  size: 93, 61
+  orig: 93, 61
+  offset: 0, 0
+  index: -1
+gy3
+  rotate: false
+  xy: 201, 200
+  size: 64, 17
+  orig: 64, 17
+  offset: 0, 0
+  index: -1
+gy4
+  rotate: false
+  xy: 2, 58
+  size: 57, 43
+  orig: 57, 43
+  offset: 0, 0
+  index: -1
+gy5
+  rotate: false
+  xy: 2, 103
+  size: 82, 67
+  orig: 82, 67
+  offset: 0, 0
+  index: -1
+ld1
+  rotate: false
+  xy: 450, 423
+  size: 13, 20
+  orig: 13, 20
+  offset: 0, 0
+  index: -1
+ld2
+  rotate: false
+  xy: 2, 38
+  size: 14, 18
+  orig: 14, 18
+  offset: 0, 0
+  index: -1
+sy1
+  rotate: true
+  xy: 123, 173
+  size: 4, 6
+  orig: 4, 6
+  offset: 0, 0
+  index: -1
+sy2
+  rotate: false
+  xy: 201, 193
+  size: 3, 5
+  orig: 3, 5
+  offset: 0, 0
+  index: -1
+sy3
+  rotate: false
+  xy: 86, 106
+  size: 4, 6
+  orig: 4, 6
+  offset: 0, 0
+  index: -1

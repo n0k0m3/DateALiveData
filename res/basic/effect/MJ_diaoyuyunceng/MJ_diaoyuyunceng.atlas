@@ -1,0 +1,55 @@
+
+MJ_diaoyuyunceng.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tiankong
+  rotate: true
+  xy: 140, 42
+  size: 347, 60
+  orig: 347, 60
+  offset: 0, 0
+  index: -1
+yun/yun2
+  rotate: false
+  xy: 2, 391
+  size: 382, 172
+  orig: 382, 172
+  offset: 0, 0
+  index: -1
+yun/yun5
+  rotate: false
+  xy: 2, 773
+  size: 768, 191
+  orig: 768, 191
+  offset: 0, 0
+  index: -1
+yun/yun6
+  rotate: true
+  xy: 2, 2
+  size: 387, 136
+  orig: 387, 136
+  offset: 0, 0
+  index: -1
+yun/yun7
+  rotate: false
+  xy: 389, 627
+  size: 331, 144
+  orig: 331, 144
+  offset: 0, 0
+  index: -1
+yun/yun8
+  rotate: false
+  xy: 772, 925
+  size: 148, 39
+  orig: 148, 39
+  offset: 0, 0
+  index: -1
+yun/yun9
+  rotate: false
+  xy: 2, 565
+  size: 385, 206
+  orig: 385, 206
+  offset: 0, 0
+  index: -1

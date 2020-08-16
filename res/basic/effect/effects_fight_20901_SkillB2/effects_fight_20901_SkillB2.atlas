@@ -1,0 +1,97 @@
+
+effects_fight_20901_SkillB2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skillC/kuosan/kuosan_00000
+  rotate: true
+  xy: 105, 93
+  size: 238, 118
+  orig: 350, 175
+  offset: 52, 23
+  index: -1
+effect/skillC/kuosan/kuosan_00002
+  rotate: false
+  xy: 311, 668
+  size: 228, 116
+  orig: 350, 175
+  offset: 49, 23
+  index: -1
+effect/skillC/kuosan/kuosan_00004
+  rotate: false
+  xy: 690, 777
+  size: 236, 110
+  orig: 350, 175
+  offset: 48, 25
+  index: -1
+effect/skillC/kuosan/kuosan_00005
+  rotate: true
+  xy: 225, 90
+  size: 241, 113
+  orig: 350, 175
+  offset: 46, 26
+  index: -1
+effect/skillC/kuosan/kuosan_00007
+  rotate: false
+  xy: 2, 333
+  size: 249, 117
+  orig: 350, 175
+  offset: 41, 26
+  index: -1
+effect/skillC/kuosan/kuosan_00009
+  rotate: false
+  xy: 2, 452
+  size: 265, 121
+  orig: 350, 175
+  offset: 36, 24
+  index: -1
+effect/skillC/kuosan/kuosan_00011
+  rotate: false
+  xy: 2, 575
+  size: 276, 122
+  orig: 350, 175
+  offset: 31, 22
+  index: -1
+effect/skillC/kuosan/kuosan_00013
+  rotate: true
+  xy: 2, 67
+  size: 264, 101
+  orig: 350, 175
+  offset: 38, 29
+  index: -1
+effect/skillC/kuosan/kuosan_00015
+  rotate: false
+  xy: 389, 786
+  size: 275, 88
+  orig: 350, 175
+  offset: 35, 44
+  index: -1
+effect/skillC/kuosan/kuosan_00017
+  rotate: false
+  xy: 690, 889
+  size: 291, 92
+  orig: 350, 175
+  offset: 26, 41
+  index: -1
+effect/skillC/kuosan/kuosan_00019
+  rotate: false
+  xy: 389, 876
+  size: 299, 105
+  orig: 350, 175
+  offset: 20, 34
+  index: -1
+effect/skillC/kuosan/kuosan_00021
+  rotate: false
+  xy: 2, 699
+  size: 307, 111
+  orig: 350, 175
+  offset: 17, 28
+  index: -1
+effect/skillC/yuanquan_00000
+  rotate: false
+  xy: 2, 812
+  size: 385, 169
+  orig: 385, 210
+  offset: 0, 10
+  index: -1

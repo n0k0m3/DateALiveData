@@ -1,0 +1,139 @@
+
+effects_pick.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+languan
+  rotate: false
+  xy: 871, 759
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+lizi0001
+  rotate: true
+  xy: 677, 423
+  size: 142, 184
+  orig: 482, 481
+  offset: 144, 108
+  index: -1
+lizi0002
+  rotate: true
+  xy: 273, 290
+  size: 155, 189
+  orig: 482, 481
+  offset: 142, 113
+  index: -1
+lizi0003
+  rotate: false
+  xy: 429, 103
+  size: 164, 185
+  orig: 482, 481
+  offset: 141, 120
+  index: -1
+lizi0004
+  rotate: false
+  xy: 595, 239
+  size: 168, 182
+  orig: 482, 481
+  offset: 146, 123
+  index: -1
+lizi0005
+  rotate: false
+  xy: 677, 567
+  size: 174, 178
+  orig: 482, 481
+  offset: 150, 127
+  index: -1
+lizi0006
+  rotate: false
+  xy: 871, 825
+  size: 151, 170
+  orig: 482, 481
+  offset: 163, 124
+  index: -1
+lizi0007
+  rotate: false
+  xy: 239, 109
+  size: 188, 179
+  orig: 482, 481
+  offset: 148, 138
+  index: -1
+lizi0008
+  rotate: true
+  xy: 416, 7
+  size: 94, 162
+  orig: 482, 481
+  offset: 212, 145
+  index: -1
+lizi0009
+  rotate: true
+  xy: 239, 2
+  size: 105, 175
+  orig: 482, 481
+  offset: 216, 152
+  index: -1
+lizi0010
+  rotate: true
+  xy: 853, 646
+  size: 99, 169
+  orig: 482, 481
+  offset: 223, 150
+  index: -1
+powerup
+  rotate: false
+  xy: 280, 649
+  size: 350, 91
+  orig: 364, 104
+  offset: 5, 8
+  index: -1
+shexian0001
+  rotate: false
+  xy: 273, 447
+  size: 213, 200
+  orig: 379, 398
+  offset: 64, 101
+  index: -1
+shexian0002
+  rotate: false
+  xy: 625, 747
+  size: 244, 248
+  orig: 379, 398
+  offset: 55, 76
+  index: -1
+shexian0003
+  rotate: false
+  xy: 2, 15
+  size: 235, 297
+  orig: 379, 398
+  offset: 84, 50
+  index: -1
+shexian0004
+  rotate: true
+  xy: 280, 742
+  size: 253, 343
+  orig: 379, 398
+  offset: 87, 27
+  index: -1
+shexian0005
+  rotate: false
+  xy: 2, 314
+  size: 269, 342
+  orig: 379, 398
+  offset: 92, 26
+  index: -1
+shexian0006
+  rotate: false
+  xy: 2, 658
+  size: 276, 337
+  orig: 379, 398
+  offset: 91, 26
+  index: -1
+xuanguan
+  rotate: false
+  xy: 488, 454
+  size: 187, 193
+  orig: 204, 205
+  offset: 11, 7
+  index: -1

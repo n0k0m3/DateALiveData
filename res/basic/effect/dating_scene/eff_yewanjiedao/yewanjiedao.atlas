@@ -1,0 +1,27 @@
+
+yewanjiedao.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dengguang_00030
+  rotate: false
+  xy: 2, 193
+  size: 161, 210
+  orig: 210, 210
+  offset: 19, 0
+  index: -1
+glow_00000
+  rotate: false
+  xy: 165, 318
+  size: 85, 85
+  orig: 210, 210
+  offset: 64, 69
+  index: -1
+yangguang_00000
+  rotate: false
+  xy: 2, 2
+  size: 156, 189
+  orig: 210, 210
+  offset: 31, 17
+  index: -1

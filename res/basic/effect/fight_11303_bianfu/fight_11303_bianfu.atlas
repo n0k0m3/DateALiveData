@@ -1,0 +1,187 @@
+
+fight_11303_bianfu.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_gai1
+  rotate: false
+  xy: 2, 688
+  size: 477, 330
+  orig: 484, 330
+  offset: 7, 0
+  index: -1
+1_gai2
+  rotate: false
+  xy: 463, 477
+  size: 230, 187
+  orig: 230, 187
+  offset: 0, 0
+  index: -1
+1_he1
+  rotate: true
+  xy: 2, 66
+  size: 409, 312
+  orig: 409, 315
+  offset: 0, 3
+  index: -1
+1_he2
+  rotate: true
+  xy: 316, 86
+  size: 389, 220
+  orig: 389, 220
+  offset: 0, 0
+  index: -1
+1_jie
+  rotate: false
+  xy: 2, 477
+  size: 418, 209
+  orig: 418, 209
+  offset: 0, 0
+  index: -1
+1_lchibang
+  rotate: true
+  xy: 686, 10
+  size: 295, 279
+  orig: 295, 279
+  offset: 0, 0
+  index: -1
+1_lian
+  rotate: true
+  xy: 538, 41
+  size: 214, 145
+  orig: 214, 145
+  offset: 0, 0
+  index: -1
+1_ling1
+  rotate: false
+  xy: 914, 666
+  size: 94, 111
+  orig: 95, 111
+  offset: 1, 0
+  index: -1
+1_wei1
+  rotate: false
+  xy: 914, 779
+  size: 101, 134
+  orig: 101, 134
+  offset: 0, 0
+  index: -1
+1_wei2
+  rotate: true
+  xy: 538, 257
+  size: 218, 146
+  orig: 218, 146
+  offset: 0, 0
+  index: -1
+1_wei3
+  rotate: false
+  xy: 914, 915
+  size: 103, 103
+  orig: 103, 103
+  offset: 0, 0
+  index: -1
+1_yun
+  rotate: true
+  xy: 695, 307
+  size: 357, 323
+  orig: 357, 323
+  offset: 0, 0
+  index: -1
+2_mao
+  rotate: false
+  xy: 481, 666
+  size: 431, 352
+  orig: 431, 352
+  offset: 0, 0
+  index: -1
+2_xing1
+  rotate: true
+  xy: 2, 4
+  size: 60, 58
+  orig: 60, 58
+  offset: 0, 0
+  index: -1
+2_xing2
+  rotate: false
+  xy: 422, 649
+  size: 39, 37
+  orig: 39, 38
+  offset: 0, 1
+  index: -1
+
+fight_11303_bianfu2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_ling2
+  rotate: false
+  xy: 923, 923
+  size: 92, 92
+  orig: 92, 92
+  offset: 0, 0
+  index: -1
+1_rchibang
+  rotate: false
+  xy: 2, 737
+  size: 386, 278
+  orig: 386, 278
+  offset: 0, 0
+  index: -1
+1_ye1
+  rotate: false
+  xy: 390, 694
+  size: 226, 138
+  orig: 226, 139
+  offset: 0, 1
+  index: -1
+1_ye2
+  rotate: false
+  xy: 2, 39
+  size: 122, 112
+  orig: 122, 112
+  offset: 0, 0
+  index: -1
+2_he
+  rotate: false
+  xy: 2, 442
+  size: 358, 293
+  orig: 358, 295
+  offset: 0, 2
+  index: -1
+2_jie1
+  rotate: true
+  xy: 134, 200
+  size: 240, 137
+  orig: 240, 137
+  offset: 0, 0
+  index: -1
+2_lchibang
+  rotate: false
+  xy: 2, 153
+  size: 130, 287
+  orig: 130, 288
+  offset: 0, 0
+  index: -1
+2_lian
+  rotate: false
+  xy: 362, 556
+  size: 191, 136
+  orig: 191, 136
+  offset: 0, 0
+  index: -1
+2_rchibang
+  rotate: true
+  xy: 390, 834
+  size: 181, 295
+  orig: 181, 296
+  offset: 0, 0
+  index: -1
+2_wei
+  rotate: false
+  xy: 687, 842
+  size: 234, 173
+  orig: 234, 173
+  offset: 0, 0
+  index: -1

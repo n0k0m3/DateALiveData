@@ -1,0 +1,349 @@
+
+effect_emojianglin.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/bian1_00025
+  rotate: false
+  xy: 2, 847
+  size: 156, 175
+  orig: 159, 176
+  offset: 2, 1
+  index: -1
+images/lizi/lizi_00000
+  rotate: false
+  xy: 109, 355
+  size: 88, 92
+  orig: 159, 184
+  offset: 47, 25
+  index: -1
+images/lizi/lizi_00001
+  rotate: false
+  xy: 483, 784
+  size: 106, 110
+  orig: 159, 184
+  offset: 28, 24
+  index: -1
+images/lizi/lizi_00002
+  rotate: true
+  xy: 705, 809
+  size: 106, 111
+  orig: 159, 184
+  offset: 28, 22
+  index: -1
+images/lizi/lizi_00003
+  rotate: false
+  xy: 111, 733
+  size: 107, 112
+  orig: 159, 184
+  offset: 27, 20
+  index: -1
+images/lizi/lizi_00004
+  rotate: true
+  xy: 591, 808
+  size: 107, 112
+  orig: 159, 184
+  offset: 27, 19
+  index: -1
+images/lizi/lizi_00005
+  rotate: true
+  xy: 848, 916
+  size: 106, 113
+  orig: 159, 184
+  offset: 27, 17
+  index: -1
+images/lizi/lizi_00006
+  rotate: false
+  xy: 2, 715
+  size: 107, 130
+  orig: 159, 184
+  offset: 27, 16
+  index: -1
+images/lizi/lizi_00007
+  rotate: false
+  xy: 160, 891
+  size: 106, 131
+  orig: 159, 184
+  offset: 28, 14
+  index: -1
+images/lizi/lizi_00008
+  rotate: false
+  xy: 2, 583
+  size: 106, 130
+  orig: 159, 184
+  offset: 28, 13
+  index: -1
+images/lizi/lizi_00009
+  rotate: false
+  xy: 268, 892
+  size: 106, 130
+  orig: 159, 184
+  offset: 28, 12
+  index: -1
+images/lizi/lizi_00010
+  rotate: false
+  xy: 483, 896
+  size: 106, 126
+  orig: 159, 184
+  offset: 29, 15
+  index: -1
+images/lizi/lizi_00011
+  rotate: true
+  xy: 720, 917
+  size: 105, 126
+  orig: 159, 184
+  offset: 29, 14
+  index: -1
+images/lizi/lizi_00012
+  rotate: false
+  xy: 2, 193
+  size: 104, 128
+  orig: 159, 184
+  offset: 29, 12
+  index: -1
+images/lizi/lizi_00013
+  rotate: false
+  xy: 2, 64
+  size: 104, 127
+  orig: 159, 184
+  offset: 30, 11
+  index: -1
+images/lizi/lizi_00014
+  rotate: false
+  xy: 376, 894
+  size: 105, 128
+  orig: 159, 184
+  offset: 30, 9
+  index: -1
+images/lizi/lizi_00015
+  rotate: false
+  xy: 2, 453
+  size: 106, 128
+  orig: 159, 184
+  offset: 30, 7
+  index: -1
+images/lizi/lizi_00016
+  rotate: false
+  xy: 2, 323
+  size: 105, 128
+  orig: 159, 184
+  offset: 31, 6
+  index: -1
+images/lizi/lizi_00017
+  rotate: true
+  xy: 591, 917
+  size: 105, 127
+  orig: 159, 184
+  offset: 31, 5
+  index: -1
+images/lizi/lizi_00018
+  rotate: false
+  xy: 818, 820
+  size: 104, 94
+  orig: 159, 184
+  offset: 32, 36
+  index: -1
+images/lizi/lizi_00019
+  rotate: true
+  xy: 924, 811
+  size: 103, 94
+  orig: 159, 184
+  offset: 32, 34
+  index: -1
+images/lizi/lizi_00020
+  rotate: false
+  xy: 591, 713
+  size: 103, 93
+  orig: 159, 184
+  offset: 32, 33
+  index: -1
+images/lizi/lizi_00021
+  rotate: false
+  xy: 111, 638
+  size: 102, 93
+  orig: 159, 184
+  offset: 33, 31
+  index: -1
+images/lizi/lizi_00022
+  rotate: false
+  xy: 110, 544
+  size: 102, 92
+  orig: 159, 184
+  offset: 33, 30
+  index: -1
+images/lizi/lizi_00023
+  rotate: false
+  xy: 110, 449
+  size: 101, 93
+  orig: 159, 184
+  offset: 34, 28
+  index: -1
+images/saoguang1/saoguang_00001
+  rotate: false
+  xy: 1005, 924
+  size: 17, 28
+  orig: 138, 108
+  offset: 22, 26
+  index: -1
+images/saoguang1/saoguang_00003
+  rotate: false
+  xy: 897, 787
+  size: 24, 31
+  orig: 138, 108
+  offset: 22, 26
+  index: -1
+images/saoguang1/saoguang_00005
+  rotate: false
+  xy: 865, 784
+  size: 30, 34
+  orig: 138, 108
+  offset: 22, 26
+  index: -1
+images/saoguang1/saoguang_00007
+  rotate: true
+  xy: 963, 916
+  size: 36, 40
+  orig: 138, 108
+  offset: 22, 26
+  index: -1
+images/saoguang1/saoguang_00009
+  rotate: true
+  xy: 160, 848
+  size: 41, 43
+  orig: 138, 108
+  offset: 22, 26
+  index: -1
+images/saoguang1/saoguang_00011
+  rotate: true
+  xy: 199, 400
+  size: 47, 46
+  orig: 138, 108
+  offset: 22, 26
+  index: -1
+images/saoguang1/saoguang_00013
+  rotate: true
+  xy: 220, 737
+  size: 51, 47
+  orig: 138, 108
+  offset: 22, 26
+  index: -1
+images/saoguang1/saoguang_00015
+  rotate: true
+  xy: 73, 4
+  size: 58, 47
+  orig: 138, 108
+  offset: 22, 26
+  index: -1
+images/saoguang1/saoguang_00017
+  rotate: true
+  xy: 122, 16
+  size: 62, 50
+  orig: 138, 108
+  offset: 22, 26
+  index: -1
+images/saoguang1/saoguang_00019
+  rotate: false
+  xy: 109, 300
+  size: 68, 53
+  orig: 138, 108
+  offset: 22, 27
+  index: -1
+images/saoguang1/saoguang_00021
+  rotate: true
+  xy: 963, 954
+  size: 68, 55
+  orig: 138, 108
+  offset: 25, 28
+  index: -1
+images/saoguang1/saoguang_00023
+  rotate: false
+  xy: 2, 7
+  size: 69, 55
+  orig: 138, 108
+  offset: 30, 29
+  index: -1
+images/saoguang1/saoguang_00025
+  rotate: false
+  xy: 108, 243
+  size: 68, 55
+  orig: 138, 108
+  offset: 36, 30
+  index: -1
+images/saoguang1/saoguang_00027
+  rotate: false
+  xy: 108, 188
+  size: 68, 53
+  orig: 138, 108
+  offset: 41, 32
+  index: -1
+images/saoguang1/saoguang_00029
+  rotate: false
+  xy: 108, 133
+  size: 67, 53
+  orig: 138, 108
+  offset: 46, 35
+  index: -1
+images/saoguang1/saoguang_00031
+  rotate: false
+  xy: 108, 80
+  size: 65, 51
+  orig: 138, 108
+  offset: 49, 37
+  index: -1
+images/saoguang1/saoguang_00033
+  rotate: true
+  xy: 220, 790
+  size: 57, 50
+  orig: 138, 108
+  offset: 57, 39
+  index: -1
+images/saoguang1/saoguang_00035
+  rotate: false
+  xy: 179, 304
+  size: 48, 49
+  orig: 138, 108
+  offset: 66, 40
+  index: -1
+images/saoguang1/saoguang_00037
+  rotate: false
+  xy: 818, 774
+  size: 45, 44
+  orig: 138, 108
+  offset: 69, 45
+  index: -1
+images/saoguang1/saoguang_00039
+  rotate: false
+  xy: 205, 849
+  size: 41, 40
+  orig: 138, 108
+  offset: 73, 49
+  index: -1
+images/saoguang1/saoguang_00041
+  rotate: false
+  xy: 199, 361
+  size: 36, 37
+  orig: 138, 108
+  offset: 78, 52
+  index: -1
+images/saoguang1/saoguang_00043
+  rotate: true
+  xy: 923, 778
+  size: 31, 32
+  orig: 138, 108
+  offset: 83, 57
+  index: -1
+images/saoguang1/saoguang_00045
+  rotate: false
+  xy: 957, 781
+  size: 23, 28
+  orig: 138, 108
+  offset: 91, 61
+  index: -1
+images/saoguang1/saoguang_00047
+  rotate: false
+  xy: 248, 864
+  size: 17, 25
+  orig: 138, 108
+  offset: 97, 64
+  index: -1

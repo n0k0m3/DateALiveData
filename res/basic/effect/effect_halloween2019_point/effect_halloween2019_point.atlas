@@ -1,0 +1,13 @@
+
+effect_halloween2019_point.png
+size: 32,32
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lizi
+  rotate: false
+  xy: 2, 2
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1

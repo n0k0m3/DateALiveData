@@ -1,0 +1,356 @@
+
+effect_shixiangkanban.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/cao
+  rotate: false
+  xy: 113, 8
+  size: 105, 92
+  orig: 105, 92
+  offset: 0, 0
+  index: -1
+images/cao1
+  rotate: false
+  xy: 220, 10
+  size: 102, 90
+  orig: 102, 90
+  offset: 0, 0
+  index: -1
+images/cao2
+  rotate: true
+  xy: 324, 17
+  size: 110, 100
+  orig: 110, 101
+  offset: 0, 1
+  index: -1
+images/cao3
+  rotate: false
+  xy: 2, 2
+  size: 109, 104
+  orig: 109, 106
+  offset: 0, 2
+  index: -1
+images/hua
+  rotate: false
+  xy: 754, 515
+  size: 200, 99
+  orig: 200, 99
+  offset: 0, 0
+  index: -1
+images/huaban
+  rotate: true
+  xy: 324, 2
+  size: 13, 11
+  orig: 13, 11
+  offset: 0, 0
+  index: -1
+images/huaban1
+  rotate: false
+  xy: 298, 106
+  size: 14, 8
+  orig: 14, 8
+  offset: 0, 0
+  index: -1
+images/huaban2
+  rotate: true
+  xy: 431, 256
+  size: 14, 8
+  orig: 14, 8
+  offset: 0, 0
+  index: -1
+images/huaban3
+  rotate: false
+  xy: 405, 129
+  size: 14, 9
+  orig: 14, 9
+  offset: 0, 0
+  index: -1
+images/huaban4
+  rotate: false
+  xy: 298, 116
+  size: 14, 11
+  orig: 14, 11
+  offset: 0, 0
+  index: -1
+images/lingdang
+  rotate: false
+  xy: 150, 102
+  size: 146, 152
+  orig: 146, 152
+  offset: 0, 0
+  index: -1
+images/saoguang/saoguang_00000
+  rotate: true
+  xy: 298, 102
+  size: 2, 4
+  orig: 34, 76
+  offset: 13, 6
+  index: -1
+images/saoguang/saoguang_00001
+  rotate: false
+  xy: 1016, 1008
+  size: 6, 14
+  orig: 34, 76
+  offset: 11, 6
+  index: -1
+images/saoguang/saoguang_00002
+  rotate: true
+  xy: 1000, 856
+  size: 8, 22
+  orig: 34, 76
+  offset: 10, 6
+  index: -1
+images/saoguang/saoguang_00003
+  rotate: false
+  xy: 956, 583
+  size: 16, 31
+  orig: 34, 76
+  offset: 9, 6
+  index: -1
+images/saoguang/saoguang_00004
+  rotate: false
+  xy: 522, 332
+  size: 20, 36
+  orig: 34, 76
+  offset: 8, 6
+  index: -1
+images/saoguang/saoguang_00005
+  rotate: false
+  xy: 1000, 911
+  size: 22, 47
+  orig: 34, 76
+  offset: 7, 6
+  index: -1
+images/saoguang/saoguang_00006
+  rotate: false
+  xy: 974, 645
+  size: 23, 54
+  orig: 34, 76
+  offset: 6, 6
+  index: -1
+images/saoguang/saoguang_00007
+  rotate: false
+  xy: 548, 435
+  size: 24, 58
+  orig: 34, 76
+  offset: 5, 6
+  index: -1
+images/saoguang/saoguang_00008
+  rotate: false
+  xy: 974, 701
+  size: 24, 61
+  orig: 34, 76
+  offset: 5, 6
+  index: -1
+images/saoguang/saoguang_00009
+  rotate: false
+  xy: 974, 764
+  size: 24, 62
+  orig: 34, 76
+  offset: 5, 6
+  index: -1
+images/saoguang/saoguang_00010
+  rotate: false
+  xy: 470, 299
+  size: 24, 62
+  orig: 34, 76
+  offset: 5, 6
+  index: -1
+images/saoguang/saoguang_00011
+  rotate: false
+  xy: 444, 429
+  size: 24, 64
+  orig: 34, 76
+  offset: 5, 6
+  index: -1
+images/saoguang/saoguang_00012
+  rotate: false
+  xy: 405, 206
+  size: 24, 64
+  orig: 34, 76
+  offset: 5, 6
+  index: -1
+images/saoguang/saoguang_00013
+  rotate: false
+  xy: 974, 894
+  size: 24, 64
+  orig: 34, 76
+  offset: 5, 6
+  index: -1
+images/saoguang/saoguang_00014
+  rotate: false
+  xy: 444, 363
+  size: 24, 64
+  orig: 34, 76
+  offset: 5, 6
+  index: -1
+images/saoguang/saoguang_00015
+  rotate: false
+  xy: 470, 429
+  size: 24, 64
+  orig: 34, 76
+  offset: 5, 6
+  index: -1
+images/saoguang/saoguang_00016
+  rotate: false
+  xy: 405, 140
+  size: 24, 64
+  orig: 34, 76
+  offset: 5, 6
+  index: -1
+images/saoguang/saoguang_00017
+  rotate: false
+  xy: 974, 828
+  size: 24, 64
+  orig: 34, 76
+  offset: 5, 6
+  index: -1
+images/saoguang/saoguang_00018
+  rotate: false
+  xy: 444, 297
+  size: 24, 64
+  orig: 34, 76
+  offset: 5, 6
+  index: -1
+images/saoguang/saoguang_00019
+  rotate: false
+  xy: 470, 363
+  size: 24, 64
+  orig: 34, 76
+  offset: 5, 6
+  index: -1
+images/saoguang/saoguang_00020
+  rotate: false
+  xy: 496, 430
+  size: 24, 63
+  orig: 34, 76
+  offset: 5, 7
+  index: -1
+images/saoguang/saoguang_00021
+  rotate: false
+  xy: 496, 366
+  size: 24, 62
+  orig: 34, 76
+  offset: 5, 8
+  index: -1
+images/saoguang/saoguang_00022
+  rotate: false
+  xy: 522, 431
+  size: 24, 62
+  orig: 34, 76
+  offset: 5, 8
+  index: -1
+images/saoguang/saoguang_00023
+  rotate: false
+  xy: 496, 303
+  size: 24, 61
+  orig: 34, 76
+  offset: 5, 9
+  index: -1
+images/saoguang/saoguang_00024
+  rotate: false
+  xy: 522, 370
+  size: 24, 59
+  orig: 34, 76
+  offset: 5, 11
+  index: -1
+images/saoguang/saoguang_00025
+  rotate: false
+  xy: 420, 441
+  size: 22, 52
+  orig: 34, 76
+  offset: 6, 18
+  index: -1
+images/saoguang/saoguang_00026
+  rotate: false
+  xy: 1000, 866
+  size: 21, 43
+  orig: 34, 76
+  offset: 6, 27
+  index: -1
+images/saoguang/saoguang_00027
+  rotate: true
+  xy: 754, 495
+  size: 18, 34
+  orig: 34, 76
+  offset: 8, 36
+  index: -1
+images/saoguang/saoguang_00028
+  rotate: false
+  xy: 548, 406
+  size: 15, 27
+  orig: 34, 76
+  offset: 10, 43
+  index: -1
+images/saoguang/saoguang_00029
+  rotate: false
+  xy: 314, 110
+  size: 8, 17
+  orig: 34, 76
+  offset: 16, 53
+  index: -1
+images/saoguang/saoguang_00030
+  rotate: false
+  xy: 1016, 1000
+  size: 6, 6
+  orig: 34, 76
+  offset: 17, 63
+  index: -1
+images/shu
+  rotate: false
+  xy: 298, 129
+  size: 105, 141
+  orig: 105, 141
+  offset: 0, 0
+  index: -1
+images/shuying
+  rotate: true
+  xy: 974, 960
+  size: 62, 40
+  orig: 62, 40
+  offset: 0, 0
+  index: -1
+images/sijinxiao
+  rotate: true
+  xy: 293, 272
+  size: 167, 149
+  orig: 167, 149
+  offset: 0, 0
+  index: -1
+images/xiaomen
+  rotate: false
+  xy: 150, 256
+  size: 141, 183
+  orig: 141, 183
+  offset: 0, 0
+  index: -1
+images/yangguang_00000
+  rotate: false
+  xy: 2, 441
+  size: 416, 173
+  orig: 502, 195
+  offset: 10, 7
+  index: -1
+images/yousijin
+  rotate: false
+  xy: 2, 108
+  size: 146, 331
+  orig: 146, 331
+  offset: 0, 0
+  index: -1
+images/zhongjing
+  rotate: false
+  xy: 2, 616
+  size: 970, 406
+  orig: 970, 448
+  offset: 0, 0
+  index: -1
+images/zuosijin
+  rotate: true
+  xy: 420, 495
+  size: 119, 332
+  orig: 119, 332
+  offset: 0, 0
+  index: -1

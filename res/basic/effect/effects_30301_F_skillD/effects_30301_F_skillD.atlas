@@ -1,0 +1,216 @@
+
+effects_30301_F_skillD.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/F_skillD/guangxian/guangxian_00023
+  rotate: false
+  xy: 209, 790
+  size: 205, 232
+  orig: 205, 242
+  offset: 0, 8
+  index: -1
+effect/F_skillD/guangxian/guangxian_00024
+  rotate: false
+  xy: 209, 557
+  size: 205, 231
+  orig: 205, 242
+  offset: 0, 8
+  index: -1
+effect/F_skillD/guangxian/guangxian_00025
+  rotate: false
+  xy: 2, 788
+  size: 205, 234
+  orig: 205, 242
+  offset: 0, 8
+  index: -1
+effect/F_skillD/guangxian/guangxian_00026
+  rotate: false
+  xy: 2, 316
+  size: 203, 234
+  orig: 205, 242
+  offset: 0, 8
+  index: -1
+effect/F_skillD/guangxian/guangxian_00027
+  rotate: false
+  xy: 2, 552
+  size: 205, 234
+  orig: 205, 242
+  offset: 0, 8
+  index: -1
+effect/F_skillD/guangxian/guangxian_00028
+  rotate: false
+  xy: 416, 794
+  size: 204, 228
+  orig: 205, 242
+  offset: 0, 9
+  index: -1
+effect/F_skillD/guangxian/guangxian_00029
+  rotate: false
+  xy: 2, 114
+  size: 203, 200
+  orig: 205, 242
+  offset: 0, 10
+  index: -1
+effect/F_skillD/renwuguanga_00023
+  rotate: true
+  xy: 416, 585
+  size: 207, 192
+  orig: 209, 192
+  offset: 2, 0
+  index: -1
+effect/born/yanchen/yanchen_00034
+  rotate: true
+  xy: 347, 171
+  size: 177, 79
+  orig: 271, 140
+  offset: 91, 13
+  index: -1
+effect/born/yanchen/yanchen_00035
+  rotate: true
+  xy: 326, 350
+  size: 205, 68
+  orig: 271, 140
+  offset: 66, 13
+  index: -1
+effect/born/yanchen/yanchen_00036
+  rotate: false
+  xy: 2, 25
+  size: 223, 87
+  orig: 271, 140
+  offset: 48, 9
+  index: -1
+effect/born/yanchen/yanchen_00037
+  rotate: false
+  xy: 622, 903
+  size: 243, 119
+  orig: 271, 140
+  offset: 24, 6
+  index: -1
+effect/born/yanchen/yanchen_00038
+  rotate: false
+  xy: 622, 783
+  size: 233, 118
+  orig: 271, 140
+  offset: 18, 5
+  index: -1
+effect/born/yanchen/yanchen_00039
+  rotate: false
+  xy: 610, 656
+  size: 220, 125
+  orig: 271, 140
+  offset: 17, 7
+  index: -1
+effect/born/yanchen/yanchen_00040
+  rotate: false
+  xy: 610, 532
+  size: 221, 122
+  orig: 271, 140
+  offset: 17, 10
+  index: -1
+effect/born/yanchen/yanchen_00041
+  rotate: true
+  xy: 207, 334
+  size: 216, 117
+  orig: 271, 140
+  offset: 17, 10
+  index: -1
+effect/born/yanchen/yanchen_00042
+  rotate: false
+  xy: 396, 351
+  size: 143, 94
+  orig: 271, 140
+  offset: 20, 14
+  index: -1
+effect/born/zhakailizi/zhakailizi_00034
+  rotate: true
+  xy: 227, 4
+  size: 152, 119
+  orig: 180, 146
+  offset: 12, 27
+  index: -1
+effect/born/zhakailizi/zhakailizi_00035
+  rotate: false
+  xy: 591, 398
+  size: 171, 132
+  orig: 180, 146
+  offset: 9, 12
+  index: -1
+effect/born/zhakailizi/zhakailizi_00036
+  rotate: false
+  xy: 416, 447
+  size: 173, 136
+  orig: 180, 146
+  offset: 7, 8
+  index: -1
+effect/born/zhakailizi/zhakailizi_00037
+  rotate: true
+  xy: 207, 158
+  size: 174, 138
+  orig: 180, 146
+  offset: 6, 6
+  index: -1
+effect/born/zhakailizi/zhakailizi_00038
+  rotate: true
+  xy: 428, 178
+  size: 171, 140
+  orig: 180, 146
+  offset: 5, 4
+  index: -1
+effect/born/zhakailizi/zhakailizi_00039
+  rotate: true
+  xy: 476, 6
+  size: 170, 140
+  orig: 180, 146
+  offset: 4, 3
+  index: -1
+effect/born/zhakailizi/zhakailizi_00040
+  rotate: false
+  xy: 570, 257
+  size: 168, 139
+  orig: 180, 146
+  offset: 4, 2
+  index: -1
+effect/born/zhakailizi/zhakailizi_00041
+  rotate: true
+  xy: 618, 86
+  size: 169, 135
+  orig: 180, 146
+  offset: 4, 1
+  index: -1
+effect/born/zhakailizi/zhakailizi_00042
+  rotate: false
+  xy: 764, 397
+  size: 169, 133
+  orig: 180, 146
+  offset: 5, 0
+  index: -1
+effect/born/zhakailizi/zhakailizi_00043
+  rotate: false
+  xy: 740, 265
+  size: 168, 130
+  orig: 180, 146
+  offset: 6, 1
+  index: -1
+effect/born/zhakailizi/zhakailizi_00044
+  rotate: true
+  xy: 348, 3
+  size: 166, 126
+  orig: 180, 146
+  offset: 8, 2
+  index: -1
+effect/born/zhakailizi/zhakailizi_00045
+  rotate: true
+  xy: 755, 101
+  size: 162, 116
+  orig: 180, 146
+  offset: 10, 3
+  index: -1
+effect/born/zhakailizi/zhakailizi_00046
+  rotate: false
+  xy: 867, 917
+  size: 155, 105
+  orig: 180, 146
+  offset: 14, 6
+  index: -1

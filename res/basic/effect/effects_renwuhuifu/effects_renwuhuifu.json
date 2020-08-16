@@ -1,0 +1,126 @@
+{
+"skeleton": {
+	"hash": "AOAajxEtkbYTSXqeGLSDyEy+T6s",
+	"spine": "2.1.27",
+	"width": 163,
+	"height": 285,
+	"images": "C:/Users/Administrator/Desktop/尺寸需要修改的特效/新建文件夹/effects_renwuhuifu"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "effects", "parent": "root" },
+	{ "name": "glow", "parent": "effects" },
+	{ "name": "glow2", "parent": "effects" },
+	{ "name": "shenshangguangxiao", "parent": "effects" }
+],
+"slots": [
+	{ "name": "glow_00002", "bone": "glow", "blend": "additive" },
+	{ "name": "glow_2", "bone": "glow2", "blend": "additive" },
+	{
+		"name": "shenshangguangxiao/shenshangguangxiao_00001",
+		"bone": "shenshangguangxiao",
+		"attachment": "shenshangguangxiao/shenshangguangxiao_00001",
+		"blend": "additive"
+	}
+],
+"skins": {
+	"default": {
+		"glow_00002": {
+			"glow_00002": { "width": 257, "height": 59 }
+		},
+		"glow_2": {
+			"glow_00002": { "width": 257, "height": 59 }
+		},
+		"shenshangguangxiao/shenshangguangxiao_00001": {
+			"shenshangguangxiao/shenshangguangxiao_00001": { "width": 163, "height": 285 },
+			"shenshangguangxiao/shenshangguangxiao_00002": { "width": 163, "height": 285 },
+			"shenshangguangxiao/shenshangguangxiao_00003": { "width": 163, "height": 285 },
+			"shenshangguangxiao/shenshangguangxiao_00004": { "width": 163, "height": 285 },
+			"shenshangguangxiao/shenshangguangxiao_00005": { "width": 163, "height": 285 },
+			"shenshangguangxiao/shenshangguangxiao_00006": { "width": 163, "height": 285 },
+			"shenshangguangxiao/shenshangguangxiao_00007": { "width": 163, "height": 285 },
+			"shenshangguangxiao/shenshangguangxiao_00008": { "width": 163, "height": 285 },
+			"shenshangguangxiao/shenshangguangxiao_00009": { "width": 163, "height": 285 },
+			"shenshangguangxiao/shenshangguangxiao_00011": { "width": 163, "height": 285 },
+			"shenshangguangxiao/shenshangguangxiao_00013": { "width": 163, "height": 285 },
+			"shenshangguangxiao/shenshangguangxiao_00015": { "width": 163, "height": 285 },
+			"shenshangguangxiao/shenshangguangxiao_00017": { "width": 163, "height": 285 }
+		}
+	}
+},
+"animations": {
+	"effects_renwuhuifu_down": {
+		"slots": {
+			"glow_00002": {
+				"attachment": [
+					{ "time": 0.0333, "name": "glow_00002" },
+					{ "time": 0.8333, "name": null }
+				],
+				"color": [
+					{ "time": 0.0333, "color": "ff4800ff" },
+					{ "time": 0.8333, "color": "ff550000" }
+				]
+			},
+			"glow_2": {
+				"attachment": [
+					{ "time": 0.0333, "name": "glow_00002" },
+					{ "time": 0.4666, "name": null }
+				],
+				"color": [
+					{ "time": 0.0333, "color": "ffffffff" },
+					{ "time": 0.4666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"glow": {
+				"scale": [
+					{ "time": 0.0333, "x": 1.504, "y": 1.504 }
+				]
+			},
+			"glow2": {
+				"scale": [
+					{ "time": 0.0333, "x": 1.065, "y": 0.701 }
+				]
+			},
+			"root": {
+				"scale": [
+					{ "time": 0, "x": 1.504, "y": 1.504 }
+				]
+			}
+		}
+	},
+	"effects_renwuhuifu_up": {
+		"slots": {
+			"shenshangguangxiao/shenshangguangxiao_00001": {
+				"attachment": [
+					{ "time": 0, "name": "shenshangguangxiao/shenshangguangxiao_00001" },
+					{ "time": 0.0333, "name": "shenshangguangxiao/shenshangguangxiao_00002" },
+					{ "time": 0.0666, "name": "shenshangguangxiao/shenshangguangxiao_00003" },
+					{ "time": 0.1, "name": "shenshangguangxiao/shenshangguangxiao_00004" },
+					{ "time": 0.1666, "name": "shenshangguangxiao/shenshangguangxiao_00005" },
+					{ "time": 0.2333, "name": "shenshangguangxiao/shenshangguangxiao_00006" },
+					{ "time": 0.3, "name": "shenshangguangxiao/shenshangguangxiao_00007" },
+					{ "time": 0.3666, "name": "shenshangguangxiao/shenshangguangxiao_00008" },
+					{ "time": 0.4333, "name": "shenshangguangxiao/shenshangguangxiao_00009" },
+					{ "time": 0.5, "name": "shenshangguangxiao/shenshangguangxiao_00011" },
+					{ "time": 0.6, "name": "shenshangguangxiao/shenshangguangxiao_00013" },
+					{ "time": 0.7333, "name": "shenshangguangxiao/shenshangguangxiao_00015" },
+					{ "time": 0.8666, "name": "shenshangguangxiao/shenshangguangxiao_00017" },
+					{ "time": 1, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"shenshangguangxiao": {
+				"translate": [
+					{ "time": 0, "x": -6.87, "y": 218.18 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2.182, "y": 2.182 }
+				]
+			}
+		}
+	}
+}
+}

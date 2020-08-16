@@ -1,0 +1,27 @@
+
+effect_ui8.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1.1
+  rotate: false
+  xy: 2, 56
+  size: 537, 370
+  orig: 626, 426
+  offset: 18, 20
+  index: -1
+2.2
+  rotate: false
+  xy: 2, 428
+  size: 606, 407
+  orig: 731, 482
+  offset: 39, 61
+  index: -1
+glow_00000_00000
+  rotate: false
+  xy: 610, 684
+  size: 225, 151
+  orig: 225, 225
+  offset: 0, 37
+  index: -1

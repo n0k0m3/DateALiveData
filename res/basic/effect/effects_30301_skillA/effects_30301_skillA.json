@@ -1,0 +1,555 @@
+{
+"skeleton": { "hash": "G5+cQBguZ0n/u9B+3tTcwDfuxDo", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bdbox_eff", "parent": "root" },
+	{ "name": "effect", "parent": "root" },
+	{ "name": "baodian", "parent": "effect" },
+	{ "name": "baodian2", "parent": "effect" },
+	{ "name": "baodian3", "parent": "effect" },
+	{ "name": "baodian4", "parent": "effect" },
+	{ "name": "qiangkouhuo", "parent": "effect" },
+	{ "name": "qiangkouhuo2", "parent": "effect" },
+	{ "name": "qiangkouhuo3", "parent": "effect" },
+	{ "name": "qiangkouhuo4", "parent": "effect" },
+	{ "name": "zitan", "parent": "effect" }
+],
+"slots": [
+	{ "name": "zidan", "bone": "zitan" },
+	{ "name": "qiangkouhuo", "bone": "qiangkouhuo", "blend": "additive" },
+	{ "name": "qiangkouhuo2", "bone": "qiangkouhuo2", "blend": "additive" },
+	{ "name": "qiangkouhuo3", "bone": "qiangkouhuo3", "blend": "additive" },
+	{ "name": "qiangkouhuo4", "bone": "qiangkouhuo4", "blend": "additive" },
+	{ "name": "baodian", "bone": "baodian" },
+	{ "name": "baodian2", "bone": "baodian2" },
+	{ "name": "baodian3", "bone": "baodian3" },
+	{ "name": "baodian4", "bone": "baodian4" },
+	{ "name": "bdbox_eff", "bone": "bdbox_eff", "attachment": "bdbox_eff" }
+],
+"skins": {
+	"default": {
+		"baodian": {
+			"effect/F_skillB/nor/baodian__00037": { "width": 308, "height": 168 },
+			"effect/F_skillB/nor/baodian__00038": { "width": 308, "height": 168 },
+			"effect/F_skillB/nor/baodian__00039": { "width": 308, "height": 168 },
+			"effect/F_skillB/nor/baodian__00040": { "width": 308, "height": 168 },
+			"effect/F_skillB/nor/baodian__00041": { "width": 308, "height": 168 },
+			"effect/F_skillB/nor/baodian__00042": { "width": 308, "height": 168 },
+			"effect/F_skillB/nor/baodian__00043": { "width": 308, "height": 168 },
+			"effect/F_skillB/nor/baodian__00044": { "width": 308, "height": 168 },
+			"effect/F_skillB/nor/baodian__00045": { "width": 308, "height": 168 },
+			"effect/F_skillB/nor/baodian__00046": { "width": 308, "height": 168 },
+			"effect/F_skillB/nor/baodian__00047": { "width": 308, "height": 168 }
+		},
+		"baodian2": {
+			"effect/F_skillB/nor/baodian__00037": { "width": 308, "height": 168 },
+			"effect/F_skillB/nor/baodian__00038": { "width": 308, "height": 168 },
+			"effect/F_skillB/nor/baodian__00039": { "width": 308, "height": 168 },
+			"effect/F_skillB/nor/baodian__00040": { "width": 308, "height": 168 },
+			"effect/F_skillB/nor/baodian__00041": { "width": 308, "height": 168 },
+			"effect/F_skillB/nor/baodian__00042": { "width": 308, "height": 168 },
+			"effect/F_skillB/nor/baodian__00043": { "width": 308, "height": 168 },
+			"effect/F_skillB/nor/baodian__00044": { "width": 308, "height": 168 },
+			"effect/F_skillB/nor/baodian__00045": { "width": 308, "height": 168 },
+			"effect/F_skillB/nor/baodian__00046": { "width": 308, "height": 168 },
+			"effect/F_skillB/nor/baodian__00047": { "width": 308, "height": 168 }
+		},
+		"baodian3": {
+			"effect/F_skillB/nor/baodian__00037": { "width": 308, "height": 168 },
+			"effect/F_skillB/nor/baodian__00038": { "width": 308, "height": 168 },
+			"effect/F_skillB/nor/baodian__00039": { "width": 308, "height": 168 },
+			"effect/F_skillB/nor/baodian__00040": { "width": 308, "height": 168 },
+			"effect/F_skillB/nor/baodian__00041": { "width": 308, "height": 168 },
+			"effect/F_skillB/nor/baodian__00042": { "width": 308, "height": 168 },
+			"effect/F_skillB/nor/baodian__00043": { "width": 308, "height": 168 },
+			"effect/F_skillB/nor/baodian__00044": { "width": 308, "height": 168 },
+			"effect/F_skillB/nor/baodian__00045": { "width": 308, "height": 168 },
+			"effect/F_skillB/nor/baodian__00046": { "width": 308, "height": 168 },
+			"effect/F_skillB/nor/baodian__00047": { "width": 308, "height": 168 }
+		},
+		"baodian4": {
+			"effect/F_skillB/nor/baodian__00037": { "width": 308, "height": 168 },
+			"effect/F_skillB/nor/baodian__00038": { "width": 308, "height": 168 },
+			"effect/F_skillB/nor/baodian__00039": { "width": 308, "height": 168 },
+			"effect/F_skillB/nor/baodian__00040": { "width": 308, "height": 168 },
+			"effect/F_skillB/nor/baodian__00041": { "width": 308, "height": 168 },
+			"effect/F_skillB/nor/baodian__00042": { "width": 308, "height": 168 },
+			"effect/F_skillB/nor/baodian__00043": { "width": 308, "height": 168 },
+			"effect/F_skillB/nor/baodian__00044": { "width": 308, "height": 168 },
+			"effect/F_skillB/nor/baodian__00045": { "width": 308, "height": 168 },
+			"effect/F_skillB/nor/baodian__00046": { "width": 308, "height": 168 },
+			"effect/F_skillB/nor/baodian__00047": { "width": 308, "height": 168 }
+		},
+		"bdbox_eff": {
+			"bdbox_eff": {
+				"type": "boundingbox",
+				"vertices": [ -191.96884, 223.96281, -192.01006, -160.09167, 191.9188, -159.97066, 191.9589, 223.91711 ]
+			}
+		},
+		"qiangkouhuo": {
+			"effect/F_skillB/add/kaihuo__00035": { "width": 219, "height": 205 },
+			"effect/F_skillB/add/kaihuo__00036": { "width": 219, "height": 205 },
+			"effect/F_skillB/add/kaihuo__00037": { "width": 219, "height": 205 },
+			"effect/F_skillB/add/kaihuo__00038": { "width": 219, "height": 205 },
+			"effect/F_skillB/add/kaihuo__00039": { "width": 219, "height": 205 },
+			"effect/F_skillB/add/kaihuo__00040": { "width": 219, "height": 205 }
+		},
+		"qiangkouhuo2": {
+			"effect/F_skillB/add/kaihuo__00035": { "width": 219, "height": 205 },
+			"effect/F_skillB/add/kaihuo__00036": { "width": 219, "height": 205 },
+			"effect/F_skillB/add/kaihuo__00037": { "width": 219, "height": 205 },
+			"effect/F_skillB/add/kaihuo__00038": { "width": 219, "height": 205 },
+			"effect/F_skillB/add/kaihuo__00039": { "width": 219, "height": 205 },
+			"effect/F_skillB/add/kaihuo__00040": { "width": 219, "height": 205 }
+		},
+		"qiangkouhuo3": {
+			"effect/F_skillB/add/kaihuo__00035": { "width": 219, "height": 205 },
+			"effect/F_skillB/add/kaihuo__00036": { "width": 219, "height": 205 },
+			"effect/F_skillB/add/kaihuo__00037": { "width": 219, "height": 205 },
+			"effect/F_skillB/add/kaihuo__00038": { "width": 219, "height": 205 },
+			"effect/F_skillB/add/kaihuo__00039": { "width": 219, "height": 205 },
+			"effect/F_skillB/add/kaihuo__00040": { "width": 219, "height": 205 }
+		},
+		"qiangkouhuo4": {
+			"effect/F_skillB/add/kaihuo__00035": { "width": 219, "height": 205 },
+			"effect/F_skillB/add/kaihuo__00036": { "width": 219, "height": 205 },
+			"effect/F_skillB/add/kaihuo__00037": { "width": 219, "height": 205 },
+			"effect/F_skillB/add/kaihuo__00038": { "width": 219, "height": 205 },
+			"effect/F_skillB/add/kaihuo__00039": { "width": 219, "height": 205 },
+			"effect/F_skillB/add/kaihuo__00040": { "width": 219, "height": 205 }
+		},
+		"zidan": {
+			"effect/F_skillB/nor/zidan__00035": { "width": 78, "height": 181 }
+		}
+	}
+},
+"events": {
+	"hurt": {}
+},
+"animations": {
+	"skillA": {
+		"slots": {
+			"baodian": {
+				"attachment": [
+					{ "time": 0.6666, "name": "effect/F_skillB/nor/baodian__00037" },
+					{ "time": 0.7, "name": "effect/F_skillB/nor/baodian__00038" },
+					{ "time": 0.7333, "name": "effect/F_skillB/nor/baodian__00039" },
+					{ "time": 0.7666, "name": "effect/F_skillB/nor/baodian__00040" },
+					{ "time": 0.8, "name": "effect/F_skillB/nor/baodian__00041" },
+					{ "time": 0.8333, "name": "effect/F_skillB/nor/baodian__00042" },
+					{ "time": 0.8666, "name": "effect/F_skillB/nor/baodian__00043" },
+					{ "time": 0.9, "name": "effect/F_skillB/nor/baodian__00044" },
+					{ "time": 0.9333, "name": "effect/F_skillB/nor/baodian__00045" },
+					{ "time": 0.9666, "name": "effect/F_skillB/nor/baodian__00046" },
+					{ "time": 1, "name": "effect/F_skillB/nor/baodian__00047" },
+					{ "time": 1.0333, "name": null },
+					{ "time": 1.2666, "name": "effect/F_skillB/nor/baodian__00037" },
+					{ "time": 1.3, "name": "effect/F_skillB/nor/baodian__00038" },
+					{ "time": 1.3333, "name": "effect/F_skillB/nor/baodian__00039" },
+					{ "time": 1.3666, "name": "effect/F_skillB/nor/baodian__00040" },
+					{ "time": 1.4, "name": "effect/F_skillB/nor/baodian__00041" },
+					{ "time": 1.4333, "name": "effect/F_skillB/nor/baodian__00042" },
+					{ "time": 1.4666, "name": "effect/F_skillB/nor/baodian__00043" },
+					{ "time": 1.5, "name": "effect/F_skillB/nor/baodian__00044" },
+					{ "time": 1.5333, "name": "effect/F_skillB/nor/baodian__00045" },
+					{ "time": 1.5666, "name": "effect/F_skillB/nor/baodian__00046" },
+					{ "time": 1.6, "name": "effect/F_skillB/nor/baodian__00047" },
+					{ "time": 1.6333, "name": null }
+				]
+			},
+			"baodian2": {
+				"attachment": [
+					{ "time": 0.8666, "name": "effect/F_skillB/nor/baodian__00037" },
+					{ "time": 0.9, "name": "effect/F_skillB/nor/baodian__00038" },
+					{ "time": 0.9333, "name": "effect/F_skillB/nor/baodian__00039" },
+					{ "time": 0.9666, "name": "effect/F_skillB/nor/baodian__00040" },
+					{ "time": 1, "name": "effect/F_skillB/nor/baodian__00041" },
+					{ "time": 1.0333, "name": "effect/F_skillB/nor/baodian__00042" },
+					{ "time": 1.0666, "name": "effect/F_skillB/nor/baodian__00043" },
+					{ "time": 1.1, "name": "effect/F_skillB/nor/baodian__00044" },
+					{ "time": 1.1333, "name": "effect/F_skillB/nor/baodian__00045" },
+					{ "time": 1.1666, "name": "effect/F_skillB/nor/baodian__00046" },
+					{ "time": 1.2, "name": "effect/F_skillB/nor/baodian__00047" },
+					{ "time": 1.2333, "name": null },
+					{ "time": 1.4666, "name": "effect/F_skillB/nor/baodian__00037" },
+					{ "time": 1.5, "name": "effect/F_skillB/nor/baodian__00038" },
+					{ "time": 1.5333, "name": "effect/F_skillB/nor/baodian__00039" },
+					{ "time": 1.5666, "name": "effect/F_skillB/nor/baodian__00040" },
+					{ "time": 1.6, "name": "effect/F_skillB/nor/baodian__00041" },
+					{ "time": 1.6333, "name": "effect/F_skillB/nor/baodian__00042" },
+					{ "time": 1.6666, "name": "effect/F_skillB/nor/baodian__00043" },
+					{ "time": 1.7, "name": "effect/F_skillB/nor/baodian__00044" },
+					{ "time": 1.7333, "name": "effect/F_skillB/nor/baodian__00045" },
+					{ "time": 1.7666, "name": "effect/F_skillB/nor/baodian__00046" },
+					{ "time": 1.8, "name": "effect/F_skillB/nor/baodian__00047" },
+					{ "time": 1.8333, "name": null }
+				]
+			},
+			"baodian3": {
+				"attachment": [
+					{ "time": 1.0666, "name": "effect/F_skillB/nor/baodian__00037" },
+					{ "time": 1.1, "name": "effect/F_skillB/nor/baodian__00038" },
+					{ "time": 1.1333, "name": "effect/F_skillB/nor/baodian__00039" },
+					{ "time": 1.1666, "name": "effect/F_skillB/nor/baodian__00040" },
+					{ "time": 1.2, "name": "effect/F_skillB/nor/baodian__00041" },
+					{ "time": 1.2333, "name": "effect/F_skillB/nor/baodian__00042" },
+					{ "time": 1.2666, "name": "effect/F_skillB/nor/baodian__00043" },
+					{ "time": 1.3, "name": "effect/F_skillB/nor/baodian__00044" },
+					{ "time": 1.3333, "name": "effect/F_skillB/nor/baodian__00045" },
+					{ "time": 1.3666, "name": "effect/F_skillB/nor/baodian__00046" },
+					{ "time": 1.4, "name": "effect/F_skillB/nor/baodian__00047" },
+					{ "time": 1.4333, "name": null },
+					{ "time": 1.6666, "name": "effect/F_skillB/nor/baodian__00037" },
+					{ "time": 1.7, "name": "effect/F_skillB/nor/baodian__00038" },
+					{ "time": 1.7333, "name": "effect/F_skillB/nor/baodian__00039" },
+					{ "time": 1.7666, "name": "effect/F_skillB/nor/baodian__00040" },
+					{ "time": 1.8, "name": "effect/F_skillB/nor/baodian__00041" },
+					{ "time": 1.8333, "name": "effect/F_skillB/nor/baodian__00042" },
+					{ "time": 1.8666, "name": "effect/F_skillB/nor/baodian__00043" },
+					{ "time": 1.9, "name": "effect/F_skillB/nor/baodian__00044" },
+					{ "time": 1.9333, "name": "effect/F_skillB/nor/baodian__00045" },
+					{ "time": 1.9666, "name": "effect/F_skillB/nor/baodian__00046" },
+					{ "time": 2, "name": "effect/F_skillB/nor/baodian__00047" },
+					{ "time": 2.0333, "name": null }
+				]
+			},
+			"qiangkouhuo": {
+				"attachment": [
+					{ "time": 0.5333, "name": "effect/F_skillB/add/kaihuo__00035" },
+					{ "time": 0.5666, "name": "effect/F_skillB/add/kaihuo__00036" },
+					{ "time": 0.6, "name": "effect/F_skillB/add/kaihuo__00037" },
+					{ "time": 0.6333, "name": "effect/F_skillB/add/kaihuo__00038" },
+					{ "time": 0.6666, "name": "effect/F_skillB/add/kaihuo__00039" },
+					{ "time": 0.7, "name": "effect/F_skillB/add/kaihuo__00040" },
+					{ "time": 0.7333, "name": null },
+					{ "time": 0.7666, "name": "effect/F_skillB/add/kaihuo__00035" },
+					{ "time": 0.8, "name": "effect/F_skillB/add/kaihuo__00036" },
+					{ "time": 0.8333, "name": "effect/F_skillB/add/kaihuo__00037" },
+					{ "time": 0.8666, "name": "effect/F_skillB/add/kaihuo__00038" },
+					{ "time": 0.9, "name": "effect/F_skillB/add/kaihuo__00039" },
+					{ "time": 0.9333, "name": "effect/F_skillB/add/kaihuo__00040" },
+					{ "time": 0.9666, "name": null },
+					{ "time": 1, "name": "effect/F_skillB/add/kaihuo__00035" },
+					{ "time": 1.0333, "name": "effect/F_skillB/add/kaihuo__00036" },
+					{ "time": 1.0666, "name": "effect/F_skillB/add/kaihuo__00037" },
+					{ "time": 1.1, "name": "effect/F_skillB/add/kaihuo__00038" },
+					{ "time": 1.1333, "name": "effect/F_skillB/add/kaihuo__00039" },
+					{ "time": 1.1666, "name": "effect/F_skillB/add/kaihuo__00040" },
+					{ "time": 1.2, "name": null },
+					{ "time": 1.2333, "name": "effect/F_skillB/add/kaihuo__00035" },
+					{ "time": 1.2666, "name": "effect/F_skillB/add/kaihuo__00036" },
+					{ "time": 1.3, "name": "effect/F_skillB/add/kaihuo__00037" },
+					{ "time": 1.3333, "name": "effect/F_skillB/add/kaihuo__00038" },
+					{ "time": 1.3666, "name": "effect/F_skillB/add/kaihuo__00039" },
+					{ "time": 1.4, "name": "effect/F_skillB/add/kaihuo__00040" },
+					{ "time": 1.4333, "name": null },
+					{ "time": 1.4666, "name": "effect/F_skillB/add/kaihuo__00035" },
+					{ "time": 1.5, "name": "effect/F_skillB/add/kaihuo__00036" },
+					{ "time": 1.5333, "name": "effect/F_skillB/add/kaihuo__00037" },
+					{ "time": 1.5666, "name": "effect/F_skillB/add/kaihuo__00038" },
+					{ "time": 1.6, "name": "effect/F_skillB/add/kaihuo__00039" },
+					{ "time": 1.6333, "name": "effect/F_skillB/add/kaihuo__00040" },
+					{ "time": 1.6666, "name": null }
+				]
+			},
+			"qiangkouhuo2": {
+				"attachment": [
+					{ "time": 0.6333, "name": "effect/F_skillB/add/kaihuo__00035" },
+					{ "time": 0.6666, "name": "effect/F_skillB/add/kaihuo__00036" },
+					{ "time": 0.7, "name": "effect/F_skillB/add/kaihuo__00037" },
+					{ "time": 0.7333, "name": "effect/F_skillB/add/kaihuo__00038" },
+					{ "time": 0.7666, "name": "effect/F_skillB/add/kaihuo__00039" },
+					{ "time": 0.8, "name": "effect/F_skillB/add/kaihuo__00040" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 0.8666, "name": "effect/F_skillB/add/kaihuo__00035" },
+					{ "time": 0.9, "name": "effect/F_skillB/add/kaihuo__00036" },
+					{ "time": 0.9333, "name": "effect/F_skillB/add/kaihuo__00037" },
+					{ "time": 0.9666, "name": "effect/F_skillB/add/kaihuo__00038" },
+					{ "time": 1, "name": "effect/F_skillB/add/kaihuo__00039" },
+					{ "time": 1.0333, "name": "effect/F_skillB/add/kaihuo__00040" },
+					{ "time": 1.0666, "name": null },
+					{ "time": 1.1, "name": "effect/F_skillB/add/kaihuo__00035" },
+					{ "time": 1.1333, "name": "effect/F_skillB/add/kaihuo__00036" },
+					{ "time": 1.1666, "name": "effect/F_skillB/add/kaihuo__00037" },
+					{ "time": 1.2, "name": "effect/F_skillB/add/kaihuo__00038" },
+					{ "time": 1.2333, "name": "effect/F_skillB/add/kaihuo__00039" },
+					{ "time": 1.2666, "name": "effect/F_skillB/add/kaihuo__00040" },
+					{ "time": 1.3, "name": null },
+					{ "time": 1.3333, "name": "effect/F_skillB/add/kaihuo__00035" },
+					{ "time": 1.3666, "name": "effect/F_skillB/add/kaihuo__00036" },
+					{ "time": 1.4, "name": "effect/F_skillB/add/kaihuo__00037" },
+					{ "time": 1.4333, "name": "effect/F_skillB/add/kaihuo__00038" },
+					{ "time": 1.4666, "name": "effect/F_skillB/add/kaihuo__00039" },
+					{ "time": 1.5, "name": "effect/F_skillB/add/kaihuo__00040" },
+					{ "time": 1.5333, "name": null },
+					{ "time": 1.5666, "name": "effect/F_skillB/add/kaihuo__00035" },
+					{ "time": 1.6, "name": "effect/F_skillB/add/kaihuo__00036" },
+					{ "time": 1.6333, "name": "effect/F_skillB/add/kaihuo__00037" },
+					{ "time": 1.6666, "name": "effect/F_skillB/add/kaihuo__00038" },
+					{ "time": 1.7, "name": "effect/F_skillB/add/kaihuo__00039" },
+					{ "time": 1.7333, "name": "effect/F_skillB/add/kaihuo__00040" },
+					{ "time": 1.7666, "name": null }
+				]
+			},
+			"qiangkouhuo3": {
+				"attachment": [
+					{ "time": 0.6333, "name": "effect/F_skillB/add/kaihuo__00038" },
+					{ "time": 0.6666, "name": "effect/F_skillB/add/kaihuo__00039" },
+					{ "time": 0.7, "name": "effect/F_skillB/add/kaihuo__00040" },
+					{ "time": 0.7333, "name": null },
+					{ "time": 0.7666, "name": "effect/F_skillB/add/kaihuo__00035" },
+					{ "time": 0.8, "name": "effect/F_skillB/add/kaihuo__00036" },
+					{ "time": 0.8333, "name": "effect/F_skillB/add/kaihuo__00037" },
+					{ "time": 0.8666, "name": "effect/F_skillB/add/kaihuo__00038" },
+					{ "time": 0.9, "name": "effect/F_skillB/add/kaihuo__00039" },
+					{ "time": 0.9333, "name": "effect/F_skillB/add/kaihuo__00040" },
+					{ "time": 0.9666, "name": null },
+					{ "time": 1, "name": "effect/F_skillB/add/kaihuo__00035" },
+					{ "time": 1.0333, "name": "effect/F_skillB/add/kaihuo__00036" },
+					{ "time": 1.0666, "name": "effect/F_skillB/add/kaihuo__00037" },
+					{ "time": 1.1, "name": "effect/F_skillB/add/kaihuo__00038" },
+					{ "time": 1.1333, "name": "effect/F_skillB/add/kaihuo__00039" },
+					{ "time": 1.1666, "name": "effect/F_skillB/add/kaihuo__00040" },
+					{ "time": 1.2, "name": null },
+					{ "time": 1.2333, "name": "effect/F_skillB/add/kaihuo__00035" },
+					{ "time": 1.2666, "name": "effect/F_skillB/add/kaihuo__00036" },
+					{ "time": 1.3, "name": "effect/F_skillB/add/kaihuo__00037" },
+					{ "time": 1.3333, "name": "effect/F_skillB/add/kaihuo__00038" },
+					{ "time": 1.3666, "name": "effect/F_skillB/add/kaihuo__00039" },
+					{ "time": 1.4, "name": "effect/F_skillB/add/kaihuo__00040" },
+					{ "time": 1.4333, "name": null },
+					{ "time": 1.4666, "name": "effect/F_skillB/add/kaihuo__00035" },
+					{ "time": 1.5, "name": "effect/F_skillB/add/kaihuo__00036" },
+					{ "time": 1.5333, "name": "effect/F_skillB/add/kaihuo__00037" },
+					{ "time": 1.5666, "name": "effect/F_skillB/add/kaihuo__00038" },
+					{ "time": 1.6, "name": "effect/F_skillB/add/kaihuo__00039" },
+					{ "time": 1.6333, "name": "effect/F_skillB/add/kaihuo__00040" },
+					{ "time": 1.6666, "name": null }
+				]
+			},
+			"qiangkouhuo4": {
+				"attachment": [
+					{ "time": 0.7333, "name": "effect/F_skillB/add/kaihuo__00038" },
+					{ "time": 0.7666, "name": "effect/F_skillB/add/kaihuo__00039" },
+					{ "time": 0.8, "name": "effect/F_skillB/add/kaihuo__00040" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 0.8666, "name": "effect/F_skillB/add/kaihuo__00035" },
+					{ "time": 0.9, "name": "effect/F_skillB/add/kaihuo__00036" },
+					{ "time": 0.9333, "name": "effect/F_skillB/add/kaihuo__00037" },
+					{ "time": 0.9666, "name": "effect/F_skillB/add/kaihuo__00038" },
+					{ "time": 1, "name": "effect/F_skillB/add/kaihuo__00039" },
+					{ "time": 1.0333, "name": "effect/F_skillB/add/kaihuo__00040" },
+					{ "time": 1.0666, "name": null },
+					{ "time": 1.1, "name": "effect/F_skillB/add/kaihuo__00035" },
+					{ "time": 1.1333, "name": "effect/F_skillB/add/kaihuo__00036" },
+					{ "time": 1.1666, "name": "effect/F_skillB/add/kaihuo__00037" },
+					{ "time": 1.2, "name": "effect/F_skillB/add/kaihuo__00038" },
+					{ "time": 1.2333, "name": "effect/F_skillB/add/kaihuo__00039" },
+					{ "time": 1.2666, "name": "effect/F_skillB/add/kaihuo__00040" },
+					{ "time": 1.3, "name": null },
+					{ "time": 1.3333, "name": "effect/F_skillB/add/kaihuo__00035" },
+					{ "time": 1.3666, "name": "effect/F_skillB/add/kaihuo__00036" },
+					{ "time": 1.4, "name": "effect/F_skillB/add/kaihuo__00037" },
+					{ "time": 1.4333, "name": "effect/F_skillB/add/kaihuo__00038" },
+					{ "time": 1.4666, "name": "effect/F_skillB/add/kaihuo__00039" },
+					{ "time": 1.5, "name": "effect/F_skillB/add/kaihuo__00040" },
+					{ "time": 1.5333, "name": null },
+					{ "time": 1.5666, "name": "effect/F_skillB/add/kaihuo__00035" },
+					{ "time": 1.6, "name": "effect/F_skillB/add/kaihuo__00036" },
+					{ "time": 1.6333, "name": "effect/F_skillB/add/kaihuo__00037" },
+					{ "time": 1.6666, "name": "effect/F_skillB/add/kaihuo__00038" },
+					{ "time": 1.7, "name": "effect/F_skillB/add/kaihuo__00039" },
+					{ "time": 1.7333, "name": "effect/F_skillB/add/kaihuo__00040" },
+					{ "time": 1.7666, "name": null }
+				]
+			},
+			"zidan": {
+				"attachment": [
+					{ "time": 0.6, "name": "effect/F_skillB/nor/zidan__00035" },
+					{ "time": 0.7, "name": null },
+					{ "time": 0.8, "name": "effect/F_skillB/nor/zidan__00035" },
+					{ "time": 0.9, "name": null },
+					{ "time": 1, "name": "effect/F_skillB/nor/zidan__00035" },
+					{ "time": 1.1, "name": null },
+					{ "time": 1.2, "name": "effect/F_skillB/nor/zidan__00035" },
+					{ "time": 1.3, "name": null },
+					{ "time": 1.4, "name": "effect/F_skillB/nor/zidan__00035" },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.6, "name": "effect/F_skillB/nor/zidan__00035" },
+					{ "time": 1.7, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"qiangkouhuo": {
+				"rotate": [
+					{ "time": 0.5333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.7333, "angle": 0 },
+					{ "time": 0.7666, "angle": -87.33, "curve": "stepped" },
+					{ "time": 0.9666, "angle": -87.33 },
+					{ "time": 1, "angle": 4.61, "curve": "stepped" },
+					{ "time": 1.2, "angle": 4.61 },
+					{ "time": 1.2333, "angle": 88.17, "curve": "stepped" },
+					{ "time": 1.4333, "angle": 88.17 },
+					{ "time": 1.4666, "angle": -117.02 }
+				],
+				"translate": [
+					{ "time": 0.5333, "x": 28.39, "y": 232.83, "curve": "stepped" },
+					{ "time": 1.6333, "x": 28.39, "y": 232.83 },
+					{ "time": 1.7333, "x": 56.78, "y": 141.97 }
+				],
+				"scale": [
+					{ "time": 0.5333, "x": 2, "y": 2 }
+				]
+			},
+			"qiangkouhuo2": {
+				"rotate": [
+					{ "time": 0.6333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0 },
+					{ "time": 0.8666, "angle": 169.55, "curve": "stepped" },
+					{ "time": 1.0666, "angle": 169.55 },
+					{ "time": 1.1, "angle": 86.61, "curve": "stepped" },
+					{ "time": 1.3, "angle": 86.61 },
+					{ "time": 1.3333, "angle": 92.69, "curve": "stepped" },
+					{ "time": 1.5333, "angle": 92.69 },
+					{ "time": 1.5666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.6333, "x": 32.18, "y": 234.73, "curve": "stepped" },
+					{ "time": 1.6333, "x": 32.18, "y": 234.73 },
+					{ "time": 1.7333, "x": 43.53, "y": 113.58 }
+				],
+				"scale": [
+					{ "time": 0.6333, "x": 2, "y": 2 }
+				]
+			},
+			"qiangkouhuo3": {
+				"rotate": [
+					{ "time": 0.5333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.7333, "angle": 0 },
+					{ "time": 0.7666, "angle": -87.33, "curve": "stepped" },
+					{ "time": 0.9666, "angle": -87.33 },
+					{ "time": 1, "angle": 4.61, "curve": "stepped" },
+					{ "time": 1.2, "angle": 4.61 },
+					{ "time": 1.2333, "angle": 88.17, "curve": "stepped" },
+					{ "time": 1.4333, "angle": 88.17 },
+					{ "time": 1.4666, "angle": -117.02 }
+				],
+				"translate": [
+					{ "time": 0.5333, "x": 312.34, "y": 244.19, "curve": "stepped" },
+					{ "time": 1.6333, "x": 312.34, "y": 244.19 },
+					{ "time": 1.7333, "x": 302.88, "y": 138.18 }
+				],
+				"scale": [
+					{ "time": 0.5333, "x": 2, "y": 2 }
+				]
+			},
+			"qiangkouhuo4": {
+				"rotate": [
+					{ "time": 0.6333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0 },
+					{ "time": 0.8666, "angle": 169.55, "curve": "stepped" },
+					{ "time": 1.0666, "angle": 169.55 },
+					{ "time": 1.1, "angle": 86.61, "curve": "stepped" },
+					{ "time": 1.3, "angle": 86.61 },
+					{ "time": 1.3333, "angle": 92.69, "curve": "stepped" },
+					{ "time": 1.5333, "angle": 92.69 },
+					{ "time": 1.5666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.6333, "x": 308.55, "y": 230.94, "curve": "stepped" },
+					{ "time": 1.6333, "x": 308.55, "y": 230.94 },
+					{ "time": 1.7333, "x": 265.02, "y": 172.26 }
+				],
+				"scale": [
+					{ "time": 0.6333, "x": 2, "y": 2 }
+				]
+			},
+			"zitan": {
+				"rotate": [
+					{ "time": 0.6, "angle": -112.61 },
+					{ "time": 1, "angle": -108.45 },
+					{ "time": 1.2, "angle": -106.07 },
+					{ "time": 1.4, "angle": -102.83 },
+					{ "time": 1.6666, "angle": -101.54 }
+				],
+				"translate": [
+					{ "time": 0.6, "x": 15.82, "y": 237.36 },
+					{ "time": 0.6666, "x": 530.1, "y": 59.34 },
+					{ "time": 0.8, "x": 284.83, "y": 243.29 },
+					{ "time": 0.8666, "x": 674.49, "y": 53.4 },
+					{ "time": 1, "x": 1.97, "y": 237.36 },
+					{ "time": 1.0666, "x": 860.42, "y": 45.49 },
+					{ "time": 1.2, "x": 272.96, "y": 253.18 },
+					{ "time": 1.2666, "x": 1058.22, "y": 45.49 },
+					{ "time": 1.4, "x": -15.82, "y": 247.25 },
+					{ "time": 1.4666, "x": 1210.53, "y": 45.49 },
+					{ "time": 1.6, "x": 332.3, "y": 231.42 },
+					{ "time": 1.6666, "x": 1410.31, "y": 33.62 }
+				],
+				"scale": [
+					{ "time": 0.6, "x": 2, "y": 2 }
+				]
+			},
+			"baodian": {
+				"translate": [
+					{ "time": 0.6666, "x": 629, "y": 106.81, "curve": "stepped" },
+					{ "time": 1.2333, "x": 629, "y": 106.81 },
+					{ "time": 1.2666, "x": 1186.79, "y": 104.83 }
+				],
+				"scale": [
+					{ "time": 0.6666, "x": 2, "y": 2 }
+				]
+			},
+			"baodian2": {
+				"translate": [
+					{ "time": 0.8666, "x": 809, "y": 102.85, "curve": "stepped" },
+					{ "time": 1.4333, "x": 809, "y": 102.85 },
+					{ "time": 1.4666, "x": 1358.88, "y": 104.83 }
+				],
+				"scale": [
+					{ "time": 0.8666, "x": 2, "y": 2 }
+				]
+			},
+			"baodian3": {
+				"translate": [
+					{ "time": 1.0666, "x": 945.48, "y": 106.81, "curve": "stepped" },
+					{ "time": 1.6333, "x": 945.48, "y": 106.81 },
+					{ "time": 1.6666, "x": 1536.9, "y": 104.83 }
+				],
+				"scale": [
+					{ "time": 1.0666, "x": 2, "y": 2 }
+				]
+			},
+			"bdbox_eff": {
+				"translate": [
+					{ "time": 0.6666, "x": 376.29, "y": 105.92 },
+					{ "time": 1.7, "x": 852.26, "y": 88.94 }
+				],
+				"scale": [
+					{ "time": 0.6666, "x": 2.363, "y": 1 },
+					{ "time": 1.7, "x": 4.811, "y": 1.113 }
+				]
+			},
+			"baodian4": {
+				"translate": [
+					{ "time": 0.7, "x": 613.97, "y": 77.62 },
+					{ "time": 0.9333, "x": 804.52, "y": 77.62 },
+					{ "time": 1.1, "x": 942.13, "y": 77.62 },
+					{ "time": 1.3, "x": 1171.49, "y": 77.62 },
+					{ "time": 1.5, "x": 1362.03, "y": 77.62 },
+					{ "time": 1.7, "x": 1559.64, "y": 77.62 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.6666, "name": "hurt" },
+			{ "time": 0.9333, "name": "hurt" },
+			{ "time": 1.1, "name": "hurt" },
+			{ "time": 1.3, "name": "hurt" },
+			{ "time": 1.5, "name": "hurt" },
+			{ "time": 1.7, "name": "hurt" }
+		]
+	}
+}
+}

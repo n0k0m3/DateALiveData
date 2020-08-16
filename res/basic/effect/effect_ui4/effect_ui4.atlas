@@ -1,0 +1,83 @@
+
+effect_ui4.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+duobianxing1_00000
+  rotate: false
+  xy: 2, 150
+  size: 100, 104
+  orig: 225, 225
+  offset: 63, 61
+  index: -1
+duobianxing_00000
+  rotate: false
+  xy: 180, 194
+  size: 69, 60
+  orig: 225, 225
+  offset: 78, 84
+  index: -1
+heng_00000
+  rotate: false
+  xy: 242, 174
+  size: 12, 18
+  orig: 225, 225
+  offset: 59, 105
+  index: -1
+hengxian_00000
+  rotate: true
+  xy: 251, 222
+  size: 32, 3
+  orig: 225, 225
+  offset: 97, 120
+  index: -1
+liubianxing1_00000
+  rotate: false
+  xy: 2, 74
+  size: 84, 74
+  orig: 225, 225
+  offset: 71, 76
+  index: -1
+liubianxing2_00000
+  rotate: false
+  xy: 104, 170
+  size: 74, 84
+  orig: 225, 225
+  offset: 76, 72
+  index: -1
+liubianxing_00000
+  rotate: true
+  xy: 180, 141
+  size: 51, 60
+  orig: 225, 225
+  offset: 87, 83
+  index: -1
+sanjiao_00000
+  rotate: false
+  xy: 104, 112
+  size: 57, 56
+  orig: 225, 225
+  offset: 84, 89
+  index: -1
+sanjiaoxing1_00000
+  rotate: false
+  xy: 2, 2
+  size: 72, 70
+  orig: 225, 225
+  offset: 77, 83
+  index: -1
+sanjiaoxing_00000
+  rotate: false
+  xy: 88, 81
+  size: 32, 29
+  orig: 225, 225
+  offset: 97, 94
+  index: -1
+yuan_00000
+  rotate: false
+  xy: 122, 86
+  size: 24, 24
+  orig: 225, 225
+  offset: 86, 109
+  index: -1

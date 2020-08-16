@@ -1,0 +1,26 @@
+
+map_lizi_05.png
+size: 64,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sucai/lizi/lizi_00135_3_00000
+  rotate: false
+  xy: 2, 2
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+
+map_lizi_052.png
+size: 64,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sucai/lizi/lizi_001352_00000
+  rotate: false
+  xy: 2, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1

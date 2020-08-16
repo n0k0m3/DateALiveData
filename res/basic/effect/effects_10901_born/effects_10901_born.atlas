@@ -1,0 +1,62 @@
+
+effects_10901_born.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/baibao_00027
+  rotate: false
+  xy: 237, 334
+  size: 54, 54
+  orig: 64, 64
+  offset: 5, 5
+  index: -1
+effect/born/duandao_00037
+  rotate: false
+  xy: 153, 105
+  size: 34, 18
+  orig: 35, 18
+  offset: 1, 0
+  index: -1
+effect/born/guangmu_00005
+  rotate: false
+  xy: 153, 263
+  size: 82, 125
+  orig: 82, 125
+  offset: 0, 0
+  index: -1
+effect/born/kejiquana_00006
+  rotate: false
+  xy: 2, 18
+  size: 142, 48
+  orig: 142, 55
+  offset: 0, 4
+  index: -1
+effect/born/kejiquann_00006
+  rotate: true
+  xy: 153, 125
+  size: 136, 46
+  orig: 142, 55
+  offset: 5, 4
+  index: -1
+effect/born/shangshengyuansua/shangshengyuansua_00027
+  rotate: false
+  xy: 407, 272
+  size: 103, 238
+  orig: 126, 238
+  offset: 13, 0
+  index: -1
+effect/born/shangshengyuansun/shangshengyuansun_00027
+  rotate: false
+  xy: 2, 68
+  size: 149, 442
+  orig: 251, 475
+  offset: 53, 23
+  index: -1
+effect/skillD/guangtiao_00002
+  rotate: false
+  xy: 153, 390
+  size: 252, 120
+  orig: 262, 135
+  offset: 4, 6
+  index: -1

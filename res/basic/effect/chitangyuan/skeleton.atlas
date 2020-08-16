@@ -1,0 +1,118 @@
+
+skeleton.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/kuang3_000
+  rotate: true
+  xy: 577, 761
+  size: 124, 202
+  orig: 124, 204
+  offset: 0, 1
+  index: -1
+effect/lizi2/lizi2_000
+  rotate: false
+  xy: 2, 819
+  size: 140, 203
+  orig: 147, 211
+  offset: 0, 8
+  index: -1
+effect/lizi2/lizi2_002
+  rotate: false
+  xy: 144, 820
+  size: 139, 202
+  orig: 147, 211
+  offset: 0, 8
+  index: -1
+effect/lizi2/lizi2_004
+  rotate: false
+  xy: 2, 2
+  size: 136, 200
+  orig: 147, 211
+  offset: 0, 11
+  index: -1
+effect/lizi2/lizi2_006
+  rotate: false
+  xy: 140, 411
+  size: 134, 201
+  orig: 147, 211
+  offset: 0, 10
+  index: -1
+effect/lizi2/lizi2_008
+  rotate: false
+  xy: 2, 614
+  size: 139, 203
+  orig: 147, 211
+  offset: 0, 8
+  index: -1
+effect/lizi2/lizi2_010
+  rotate: false
+  xy: 285, 825
+  size: 143, 197
+  orig: 147, 211
+  offset: 0, 14
+  index: -1
+effect/lizi2/lizi2_012
+  rotate: false
+  xy: 430, 827
+  size: 145, 195
+  orig: 147, 211
+  offset: 1, 16
+  index: -1
+effect/lizi2/lizi2_014
+  rotate: true
+  xy: 782, 743
+  size: 144, 193
+  orig: 147, 211
+  offset: 3, 18
+  index: -1
+effect/lizi2/lizi2_016
+  rotate: false
+  xy: 139, 216
+  size: 141, 191
+  orig: 147, 211
+  offset: 5, 20
+  index: -1
+effect/lizi2/lizi2_018
+  rotate: false
+  xy: 140, 25
+  size: 136, 189
+  orig: 147, 211
+  offset: 9, 22
+  index: -1
+effect/lizi2/lizi2_020
+  rotate: false
+  xy: 278, 29
+  size: 134, 185
+  orig: 147, 211
+  offset: 9, 25
+  index: -1
+effect/lizi2/lizi2_022
+  rotate: true
+  xy: 577, 887
+  size: 135, 203
+  orig: 147, 211
+  offset: 7, 8
+  index: -1
+effect/lizi2/lizi2_024
+  rotate: true
+  xy: 782, 889
+  size: 133, 203
+  orig: 147, 211
+  offset: 7, 8
+  index: -1
+effect/lizi2/lizi2_026
+  rotate: false
+  xy: 2, 409
+  size: 136, 203
+  orig: 147, 211
+  offset: 7, 8
+  index: -1
+effect/lizi2/lizi2_028
+  rotate: false
+  xy: 2, 204
+  size: 135, 203
+  orig: 147, 211
+  offset: 3, 8
+  index: -1

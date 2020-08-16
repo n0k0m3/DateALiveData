@@ -1,0 +1,146 @@
+
+effects_30901_EskillE.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/Effect/EskillE/shangceng/00020
+  rotate: false
+  xy: 2, 835
+  size: 151, 187
+  orig: 204, 211
+  offset: 26, 15
+  index: -1
+images/Effect/EskillE/shangceng/00022
+  rotate: false
+  xy: 2, 656
+  size: 149, 177
+  orig: 204, 211
+  offset: 26, 13
+  index: -1
+images/Effect/EskillE/shangceng/00024
+  rotate: false
+  xy: 155, 851
+  size: 144, 171
+  orig: 204, 211
+  offset: 27, 13
+  index: -1
+images/Effect/EskillE/shangceng/00026
+  rotate: false
+  xy: 2, 493
+  size: 138, 161
+  orig: 204, 211
+  offset: 28, 13
+  index: -1
+images/Effect/EskillE/shangceng/00028
+  rotate: false
+  xy: 301, 891
+  size: 121, 131
+  orig: 204, 211
+  offset: 31, 38
+  index: -1
+images/Effect/EskillE/shangceng/00030
+  rotate: false
+  xy: 2, 361
+  size: 115, 130
+  orig: 204, 211
+  offset: 37, 40
+  index: -1
+images/Effect/EskillE/shangceng/00032
+  rotate: false
+  xy: 424, 894
+  size: 111, 128
+  orig: 204, 211
+  offset: 41, 42
+  index: -1
+images/Effect/EskillE/shangceng/00034
+  rotate: false
+  xy: 2, 114
+  size: 96, 126
+  orig: 204, 211
+  offset: 55, 44
+  index: -1
+images/Effect/EskillE/shangceng/00036
+  rotate: true
+  xy: 874, 926
+  size: 96, 123
+  orig: 204, 211
+  offset: 55, 46
+  index: -1
+images/Effect/EskillE/shangceng/00038
+  rotate: true
+  xy: 301, 793
+  size: 96, 122
+  orig: 204, 211
+  offset: 55, 48
+  index: -1
+images/Effect/EskillE/shangceng/00040
+  rotate: true
+  xy: 537, 819
+  size: 89, 120
+  orig: 204, 211
+  offset: 61, 51
+  index: -1
+images/Effect/EskillE/shangceng/00042
+  rotate: true
+  xy: 659, 819
+  size: 89, 120
+  orig: 204, 211
+  offset: 61, 53
+  index: -1
+images/Effect/EskillE/shangceng/00044
+  rotate: true
+  xy: 537, 783
+  size: 34, 118
+  orig: 204, 211
+  offset: 61, 55
+  index: -1
+images/Effect/EskillE/xiaceng/00020
+  rotate: false
+  xy: 763, 911
+  size: 109, 111
+  orig: 970, 448
+  offset: 432, 157
+  index: -1
+images/Effect/EskillE/xiaceng/00022
+  rotate: false
+  xy: 2, 2
+  size: 109, 110
+  orig: 970, 448
+  offset: 432, 157
+  index: -1
+images/Effect/EskillE/xiaceng/00024
+  rotate: false
+  xy: 2, 242
+  size: 109, 117
+  orig: 970, 448
+  offset: 432, 157
+  index: -1
+images/Effect/EskillE/xiaceng/00026
+  rotate: false
+  xy: 537, 910
+  size: 113, 112
+  orig: 970, 448
+  offset: 428, 158
+  index: -1
+images/Effect/EskillE/xiaceng/00028
+  rotate: false
+  xy: 652, 910
+  size: 109, 112
+  orig: 970, 448
+  offset: 432, 160
+  index: -1
+images/Effect/EskillE/xiaceng/00030
+  rotate: true
+  xy: 425, 790
+  size: 102, 110
+  orig: 970, 448
+  offset: 434, 163
+  index: -1
+images/Effect/EskillE/xiaceng/00032
+  rotate: false
+  xy: 781, 806
+  size: 97, 103
+  orig: 970, 448
+  offset: 437, 167
+  index: -1

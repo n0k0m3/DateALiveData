@@ -1,0 +1,13 @@
+
+effects_st4_xiangzi.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/ironbox_mid
+  rotate: false
+  xy: 2, 20
+  size: 159, 141
+  orig: 159, 141
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,297 @@
+{
+"skeleton": { "hash": "vt7pyAafPh9nmuF3gmh2xaacNhw", "spine": "2.1.27", "width": 0, "height": 0, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "effect", "parent": "root" },
+	{ "name": "bian", "parent": "effect" },
+	{ "name": "dihua", "parent": "effect" },
+	{ "name": "lizi", "parent": "effect" },
+	{ "name": "shui", "parent": "effect" },
+	{ "name": "xian", "parent": "effect" },
+	{ "name": "xuying", "parent": "effect" },
+	{ "name": "1", "parent": "shui" }
+],
+"slots": [
+	{ "name": "images/effect/born/bian/bian_00000", "bone": "bian", "blend": "additive" },
+	{ "name": "images/effect/born/lizi/lizi_00004", "bone": "lizi" },
+	{ "name": "images/effect/born/xian/xian_00000", "bone": "xian", "blend": "additive" },
+	{ "name": "images/effect/born/xuying/xuying_00002", "bone": "xuying", "blend": "additive" },
+	{ "name": "images/effect/born/shui/shui_00024", "bone": "1" },
+	{ "name": "images/effect/dimian_00000", "bone": "dihua" }
+],
+"skins": {
+	"default": {
+		"images/effect/born/bian/bian_00000": {
+			"images/effect/born/bian/bian_00007": { "width": 277, "height": 198 },
+			"images/effect/born/bian/bian_00009": { "width": 277, "height": 198 },
+			"images/effect/born/bian/bian_00011": { "width": 277, "height": 198 },
+			"images/effect/born/bian/bian_00013": { "width": 277, "height": 198 },
+			"images/effect/born/bian/bian_00015": { "width": 277, "height": 198 },
+			"images/effect/born/bian/bian_00017": { "width": 277, "height": 198 },
+			"images/effect/born/bian/bian_00019": { "width": 277, "height": 198 },
+			"images/effect/born/bian/bian_00021": { "width": 277, "height": 198 },
+			"images/effect/born/bian/bian_00023": { "width": 277, "height": 198 },
+			"images/effect/born/bian/bian_00025": { "width": 277, "height": 198 },
+			"images/effect/born/bian/bian_00027": { "width": 277, "height": 198 },
+			"images/effect/born/bian/bian_00029": { "width": 277, "height": 198 }
+		},
+		"images/effect/born/lizi/lizi_00004": {
+			"images/effect/born/lizi/lizi_00008": { "width": 238, "height": 157 },
+			"images/effect/born/lizi/lizi_00012": { "width": 238, "height": 157 },
+			"images/effect/born/lizi/lizi_00016": { "width": 238, "height": 157 },
+			"images/effect/born/lizi/lizi_00020": { "width": 238, "height": 157 },
+			"images/effect/born/lizi/lizi_00024": { "width": 238, "height": 157 },
+			"images/effect/born/lizi/lizi_00028": { "width": 238, "height": 157 },
+			"images/effect/born/lizi/lizi_00032": { "width": 238, "height": 157 },
+			"images/effect/born/lizi/lizi_00036": { "width": 238, "height": 157 },
+			"images/effect/born/lizi/lizi_00040": { "width": 238, "height": 157 },
+			"images/effect/born/lizi/lizi_00044": { "width": 238, "height": 157 }
+		},
+		"images/effect/born/shui/shui_00024": {
+			"images/effect/born/shui/shui_00025": { "width": 400, "height": 200 },
+			"images/effect/born/shui/shui_00027": { "width": 400, "height": 200 },
+			"images/effect/born/shui/shui_00029": { "width": 400, "height": 200 },
+			"images/effect/born/shui/shui_00031": { "width": 400, "height": 200 },
+			"images/effect/born/shui/shui_00033": { "width": 400, "height": 200 },
+			"images/effect/born/shui/shui_00035": { "width": 400, "height": 200 },
+			"images/effect/born/shui/shui_00039": { "width": 400, "height": 200 },
+			"images/effect/born/shui/shui_00043": { "width": 400, "height": 200 }
+		},
+		"images/effect/born/xian/xian_00000": {
+			"images/effect/born/xian/xian_00027": { "width": 362, "height": 223 }
+		},
+		"images/effect/born/xuying/xuying_00002": {
+			"images/effect/born/xuying/xuying_00002": { "width": 277, "height": 198 },
+			"images/effect/born/xuying/xuying_00006": { "width": 277, "height": 198 },
+			"images/effect/born/xuying/xuying_00010": { "width": 277, "height": 198 },
+			"images/effect/born/xuying/xuying_00014": { "width": 277, "height": 198 },
+			"images/effect/born/xuying/xuying_00018": { "width": 277, "height": 198 },
+			"images/effect/born/xuying/xuying_00022": { "width": 277, "height": 198 },
+			"images/effect/born/xuying/xuying_00026": { "width": 277, "height": 198 }
+		},
+		"images/effect/dimian_00000": {
+			"images/effect/dimian_00000": { "width": 500, "height": 200 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"images/effect/born/bian/bian_00000": {
+				"attachment": [
+					{ "time": 0.2333, "name": "images/effect/born/bian/bian_00007" },
+					{ "time": 0.3, "name": "images/effect/born/bian/bian_00009" },
+					{ "time": 0.3666, "name": "images/effect/born/bian/bian_00011" },
+					{ "time": 0.4333, "name": "images/effect/born/bian/bian_00013" },
+					{ "time": 0.5, "name": "images/effect/born/bian/bian_00015" },
+					{ "time": 0.5666, "name": "images/effect/born/bian/bian_00017" },
+					{ "time": 0.6333, "name": "images/effect/born/bian/bian_00019" },
+					{ "time": 0.7, "name": "images/effect/born/bian/bian_00021" },
+					{ "time": 0.7666, "name": "images/effect/born/bian/bian_00023" },
+					{ "time": 0.8333, "name": "images/effect/born/bian/bian_00025" },
+					{ "time": 0.9, "name": "images/effect/born/bian/bian_00027" },
+					{ "time": 0.9666, "name": "images/effect/born/bian/bian_00029" },
+					{ "time": 1.0333, "name": null },
+					{ "time": 1.4333, "name": null }
+				],
+				"color": [
+					{ "time": 0.8333, "color": "ffffffff" },
+					{ "time": 1.0333, "color": "ffffff00" }
+				]
+			},
+			"images/effect/born/lizi/lizi_00004": {
+				"attachment": [
+					{ "time": 0.2333, "name": "images/effect/born/lizi/lizi_00008" },
+					{ "time": 0.3333, "name": "images/effect/born/lizi/lizi_00012" },
+					{ "time": 0.4333, "name": "images/effect/born/lizi/lizi_00016" },
+					{ "time": 0.5333, "name": "images/effect/born/lizi/lizi_00020" },
+					{ "time": 0.6333, "name": "images/effect/born/lizi/lizi_00024" },
+					{ "time": 0.7333, "name": "images/effect/born/lizi/lizi_00028" },
+					{ "time": 0.8333, "name": "images/effect/born/lizi/lizi_00032" },
+					{ "time": 0.9333, "name": "images/effect/born/lizi/lizi_00036" },
+					{ "time": 1.0333, "name": "images/effect/born/lizi/lizi_00040" },
+					{ "time": 1.1333, "name": "images/effect/born/lizi/lizi_00044" },
+					{ "time": 1.2666, "name": null }
+				],
+				"color": [
+					{ "time": 1.1333, "color": "ffffffff" },
+					{ "time": 1.2666, "color": "ffffff00" }
+				]
+			},
+			"images/effect/born/shui/shui_00024": {
+				"attachment": [
+					{ "time": 0.0333, "name": "images/effect/born/shui/shui_00025" },
+					{ "time": 0.0666, "name": "images/effect/born/shui/shui_00027" },
+					{ "time": 0.1, "name": "images/effect/born/shui/shui_00029" },
+					{ "time": 0.1333, "name": "images/effect/born/shui/shui_00031" },
+					{ "time": 0.2, "name": "images/effect/born/shui/shui_00033" },
+					{ "time": 0.2666, "name": "images/effect/born/shui/shui_00035" },
+					{ "time": 0.3333, "name": "images/effect/born/shui/shui_00039" },
+					{ "time": 0.4, "name": "images/effect/born/shui/shui_00043" },
+					{ "time": 0.4666, "name": null },
+					{ "time": 0.6666, "name": "images/effect/born/shui/shui_00025" },
+					{ "time": 0.7, "name": "images/effect/born/shui/shui_00027" },
+					{ "time": 0.7333, "name": "images/effect/born/shui/shui_00029" },
+					{ "time": 0.7666, "name": "images/effect/born/shui/shui_00031" },
+					{ "time": 0.8333, "name": "images/effect/born/shui/shui_00033" },
+					{ "time": 0.9, "name": "images/effect/born/shui/shui_00035" },
+					{ "time": 0.9666, "name": "images/effect/born/shui/shui_00039" },
+					{ "time": 1.0333, "name": "images/effect/born/shui/shui_00043" },
+					{ "time": 1.1, "name": null },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.2, "name": "images/effect/born/shui/shui_00027" },
+					{ "time": 1.2333, "name": "images/effect/born/shui/shui_00029" },
+					{ "time": 1.2666, "name": "images/effect/born/shui/shui_00031" },
+					{ "time": 1.3, "name": "images/effect/born/shui/shui_00033" },
+					{ "time": 1.3333, "name": "images/effect/born/shui/shui_00035" },
+					{ "time": 1.4, "name": "images/effect/born/shui/shui_00043" },
+					{ "time": 1.4666, "name": null }
+				]
+			},
+			"images/effect/born/xian/xian_00000": {
+				"attachment": [
+					{ "time": 0.1666, "name": "images/effect/born/xian/xian_00027" },
+					{ "time": 1.3333, "name": null }
+				],
+				"color": [
+					{ "time": 0.1666, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			},
+			"images/effect/born/xuying/xuying_00002": {
+				"attachment": [
+					{ "time": 0.0666, "name": "images/effect/born/xuying/xuying_00002" },
+					{ "time": 0.2, "name": "images/effect/born/xuying/xuying_00006" },
+					{ "time": 0.3333, "name": "images/effect/born/xuying/xuying_00010" },
+					{ "time": 0.4666, "name": "images/effect/born/xuying/xuying_00014" },
+					{ "time": 0.6, "name": "images/effect/born/xuying/xuying_00018" },
+					{ "time": 0.7333, "name": "images/effect/born/xuying/xuying_00022" },
+					{ "time": 0.8666, "name": "images/effect/born/xuying/xuying_00026" },
+					{ "time": 1.0333, "name": null }
+				],
+				"color": [
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 1.0333, "color": "ffffff00" }
+				]
+			},
+			"images/effect/dimian_00000": {
+				"attachment": [
+					{ "time": 0.0333, "name": "images/effect/dimian_00000" },
+					{ "time": 0.6666, "name": "images/effect/dimian_00000" },
+					{ "time": 1.2, "name": "images/effect/dimian_00000" }
+				],
+				"color": [
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.6666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.9666, "color": "ffffffff" },
+					{ "time": 1.1333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.4, "color": "ffffffff" },
+					{ "time": 1.5, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"xian": {
+				"translate": [
+					{ "time": 0, "x": -342.36, "y": 128.06 },
+					{ "time": 0.1666, "x": -414.48, "y": 128.06 },
+					{ "time": 1.3333, "x": -242.62, "y": 128.06 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2.533, "curve": "stepped" },
+					{ "time": 0.1666, "x": 2, "y": 2.533 },
+					{ "time": 1.3333, "x": 2.707, "y": 2.672 }
+				]
+			},
+			"bian": {
+				"translate": [
+					{ "time": 0, "x": -167.57, "y": 131.98 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			},
+			"lizi": {
+				"translate": [
+					{ "time": 0.2333, "x": -295.06, "y": 127.97 }
+				],
+				"scale": [
+					{ "time": 0.2333, "x": 3.134, "y": 3.134 }
+				]
+			},
+			"shui": {
+				"translate": [
+					{ "time": 0.0333, "x": -239.03, "y": 15.93, "curve": "stepped" },
+					{ "time": 0.6666, "x": -102.25, "y": 10.62, "curve": "stepped" },
+					{ "time": 1.2, "x": 23.9, "y": 10.62 }
+				],
+				"scale": [
+					{ "time": 0.0333, "x": 0.7, "y": 0.7 }
+				]
+			},
+			"dihua": {
+				"translate": [
+					{ "time": 0.0333, "x": -253.59, "y": -11.93, "curve": "stepped" },
+					{ "time": 0.6666, "x": -122.32, "y": -11.93, "curve": "stepped" },
+					{ "time": 1.2, "x": 15.91, "y": -11.93 }
+				],
+				"scale": [
+					{
+						"time": 0.0333,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0, 0.92, 0.75, 1 ]
+					},
+					{ "time": 0.5, "x": 0.6, "y": 0.6, "curve": "stepped" },
+					{
+						"time": 0.6666,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0, 0.92, 0.75, 1 ]
+					},
+					{ "time": 1.1333, "x": 0.6, "y": 0.6, "curve": "stepped" },
+					{
+						"time": 1.2,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0, 0.92, 0.75, 1 ]
+					},
+					{ "time": 1.5, "x": 0.6, "y": 0.6 }
+				]
+			},
+			"xuying": {
+				"translate": [
+					{ "time": 0.0666, "x": -161.72, "y": 133.27 }
+				],
+				"scale": [
+					{ "time": 0.0666, "x": 2, "y": 2 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0.0333,
+				"offsets": [
+					{ "slot": "images/effect/dimian_00000", "offset": -5 }
+				]
+			},
+			{
+				"time": 0.7333,
+				"offsets": [
+					{ "slot": "images/effect/dimian_00000", "offset": -5 }
+				]
+			},
+			{
+				"time": 1.2666,
+				"offsets": [
+					{ "slot": "images/effect/dimian_00000", "offset": -5 }
+				]
+			}
+		]
+	}
+}
+}

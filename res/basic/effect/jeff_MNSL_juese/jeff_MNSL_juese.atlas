@@ -1,0 +1,20 @@
+
+jeff_MNSL_juese.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+juese/lizi
+  rotate: false
+  xy: 77, 83
+  size: 27, 26
+  orig: 27, 26
+  offset: 0, 0
+  index: -1
+juese/yumao
+  rotate: false
+  xy: 2, 2
+  size: 73, 107
+  orig: 73, 107
+  offset: 0, 0
+  index: -1

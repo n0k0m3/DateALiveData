@@ -1,0 +1,62 @@
+
+effects_extra_twelve.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/xiaochu/add/add_00016
+  rotate: false
+  xy: 2, 260
+  size: 79, 187
+  orig: 79, 187
+  offset: 0, 0
+  index: -1
+images/xiaochu/add/add_00018
+  rotate: false
+  xy: 2, 78
+  size: 79, 180
+  orig: 79, 187
+  offset: 0, 0
+  index: -1
+images/xiaochu/add/add_00020
+  rotate: false
+  xy: 83, 269
+  size: 75, 178
+  orig: 79, 187
+  offset: 4, 0
+  index: -1
+images/xiaochu/add/add_00022
+  rotate: false
+  xy: 160, 269
+  size: 74, 178
+  orig: 79, 187
+  offset: 5, 0
+  index: -1
+images/xiaochu/add/add_00024
+  rotate: false
+  xy: 156, 97
+  size: 73, 170
+  orig: 79, 187
+  offset: 4, 0
+  index: -1
+images/xiaochu/add/add_00026
+  rotate: false
+  xy: 236, 287
+  size: 74, 160
+  orig: 79, 187
+  offset: 5, 8
+  index: -1
+images/xiaochu/add/add_00028
+  rotate: false
+  xy: 2, 2
+  size: 47, 74
+  orig: 79, 187
+  offset: 21, 14
+  index: -1
+images/xiaochu/glow/glow_00016
+  rotate: true
+  xy: 83, 85
+  size: 182, 71
+  orig: 182, 76
+  offset: 0, 0
+  index: -1

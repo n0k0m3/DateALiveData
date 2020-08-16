@@ -1,0 +1,189 @@
+{
+"skeleton": { "hash": "/HU5Ssc2EQ+XNFnQ7a5WcC6AYtE", "spine": "2.1.27", "width": 1770, "height": 1050, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone2", "parent": "root", "y": 15.59, "scaleX": 6, "scaleY": 6 },
+	{ "name": "bone5", "parent": "root" },
+	{ "name": "bone10", "parent": "bone5" },
+	{ "name": "bone11", "parent": "bone5" },
+	{ "name": "bone3", "parent": "bone5" },
+	{ "name": "bone4", "parent": "bone5" },
+	{ "name": "bone6", "parent": "bone5" },
+	{ "name": "bone7", "parent": "bone5" },
+	{ "name": "bone8", "parent": "bone5" },
+	{ "name": "bone9", "parent": "bone5" }
+],
+"slots": [
+	{ "name": "beijing_00000", "bone": "bone2", "attachment": "beijing_00000" },
+	{ "name": "yun1", "bone": "bone3", "attachment": "yun1" },
+	{ "name": "yun7", "bone": "bone11", "attachment": "yun1" },
+	{ "name": "yun2", "bone": "bone4", "attachment": "yun2" },
+	{ "name": "yun3", "bone": "bone6", "attachment": "yun3" },
+	{ "name": "yun8", "bone": "bone10", "attachment": "yun3" },
+	{ "name": "yun4", "bone": "bone7", "attachment": "yun4" },
+	{ "name": "yun5", "bone": "bone8", "attachment": "yun5" },
+	{ "name": "yun6", "bone": "bone9", "attachment": "yun6" }
+],
+"skins": {
+	"default": {
+		"beijing_00000": {
+			"beijing_00000": { "width": 295, "height": 175 }
+		},
+		"yun1": {
+			"yun1": { "width": 202, "height": 86 }
+		},
+		"yun2": {
+			"yun2": { "width": 184, "height": 74 }
+		},
+		"yun3": {
+			"yun3": { "width": 103, "height": 57 }
+		},
+		"yun4": {
+			"yun4": { "width": 161, "height": 67 }
+		},
+		"yun5": {
+			"yun5": { "width": 159, "height": 58 }
+		},
+		"yun6": {
+			"yun6": { "width": 188, "height": 29 }
+		},
+		"yun7": {
+			"yun1": { "width": 202, "height": 86 }
+		},
+		"yun8": {
+			"yun3": { "width": 103, "height": 57 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"beijing_00000": {
+				"attachment": [
+					{ "time": 0, "name": "beijing_00000" }
+				]
+			},
+			"yun1": {
+				"attachment": [
+					{ "time": 0, "name": "yun1" }
+				]
+			},
+			"yun2": {
+				"attachment": [
+					{ "time": 0, "name": "yun2" }
+				]
+			},
+			"yun3": {
+				"attachment": [
+					{ "time": 0, "name": "yun3" }
+				]
+			},
+			"yun4": {
+				"attachment": [
+					{ "time": 0, "name": "yun4" }
+				]
+			},
+			"yun5": {
+				"attachment": [
+					{ "time": 0, "name": "yun5" }
+				]
+			},
+			"yun6": {
+				"attachment": [
+					{ "time": 0, "name": "yun6" }
+				]
+			},
+			"yun7": {
+				"attachment": [
+					{ "time": 0, "name": "yun1" }
+				]
+			},
+			"yun8": {
+				"attachment": [
+					{ "time": 0, "name": "yun3" }
+				]
+			}
+		},
+		"bones": {
+			"bone3": {
+				"translate": [
+					{ "time": 0, "x": -948.98, "y": 417 }
+				],
+				"scale": [
+					{ "time": 0, "x": 3, "y": 3 }
+				]
+			},
+			"bone4": {
+				"translate": [
+					{ "time": 0, "x": -731.78, "y": 131 },
+					{ "time": 33.3333, "x": 55.61, "y": 131 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2.5, "y": 2.5 }
+				]
+			},
+			"bone6": {
+				"translate": [
+					{ "time": 0, "x": -1346.08, "y": 292.9 },
+					{ "time": 33.3333, "x": -718.83, "y": 292.9 }
+				],
+				"scale": [
+					{ "time": 0, "x": 3, "y": 3 }
+				]
+			},
+			"bone7": {
+				"translate": [
+					{ "time": 0, "x": -1411.28, "y": 156.8 },
+					{ "time": 33.3333, "x": -679.5, "y": 156.8 }
+				],
+				"scale": [
+					{ "time": 0, "x": 3, "y": 3 }
+				]
+			},
+			"bone8": {
+				"translate": [
+					{ "time": 0, "x": -1360.45, "y": 154.05 },
+					{ "time": 33.3333, "x": -759.28, "y": 154.05 }
+				],
+				"scale": [
+					{ "time": 0, "x": 3, "y": 3 }
+				]
+			},
+			"bone9": {
+				"translate": [
+					{ "time": 0, "x": -1375.51, "y": 104.53 },
+					{ "time": 33.3333, "x": 107.29, "y": 104.53 }
+				],
+				"scale": [
+					{ "time": 0, "x": 3, "y": 3 }
+				]
+			},
+			"bone11": {
+				"translate": [
+					{ "time": 0, "x": -206.32, "y": 420.9 }
+				],
+				"scale": [
+					{ "time": 0, "x": 3, "y": 3 }
+				]
+			},
+			"bone10": {
+				"translate": [
+					{ "time": 0, "x": -719.04, "y": 268.2 },
+					{ "time": 33.3333, "x": 16.79, "y": 268.2 }
+				],
+				"scale": [
+					{ "time": 0, "x": 3, "y": 3 }
+				]
+			},
+			"bone5": {
+				"translate": [
+					{ "time": 0, "x": 658.38, "y": 0 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	}
+}
+}

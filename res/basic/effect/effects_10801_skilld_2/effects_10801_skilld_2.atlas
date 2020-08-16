@@ -1,0 +1,549 @@
+
+effects_10801_skilld_2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skilld/BAOJI/chongji/chongji_016
+  rotate: false
+  xy: 720, 3
+  size: 149, 110
+  orig: 480, 200
+  offset: 109, 43
+  index: -1
+effect/skilld/BAOJI/chongji/chongji_031
+  rotate: false
+  xy: 2, 580
+  size: 457, 185
+  orig: 480, 200
+  offset: 12, 3
+  index: -1
+effect/skilld/BAOJI/chongji/chongji_032
+  rotate: false
+  xy: 478, 781
+  size: 463, 118
+  orig: 480, 200
+  offset: 11, 41
+  index: -1
+effect/skilld/BAOJI/chongji/chongji_034
+  rotate: false
+  xy: 478, 901
+  size: 473, 121
+  orig: 480, 200
+  offset: 0, 41
+  index: -1
+effect/skilld/BAOJI/chongji/chongji_035
+  rotate: false
+  xy: 2, 897
+  size: 474, 125
+  orig: 480, 200
+  offset: 0, 41
+  index: -1
+effect/skilld/BAOJI/chongji/chongji_036
+  rotate: false
+  xy: 2, 767
+  size: 462, 128
+  orig: 480, 200
+  offset: 12, 41
+  index: -1
+effect/skilld/BAOJI/chongji/chongji_038
+  rotate: false
+  xy: 466, 644
+  size: 460, 135
+  orig: 480, 200
+  offset: 14, 41
+  index: -1
+effect/skilld/BAOJI/chongji/chongji_048
+  rotate: false
+  xy: 2, 285
+  size: 446, 141
+  orig: 480, 200
+  offset: 27, 40
+  index: -1
+effect/skilld/BAOJI/chongji/chongji_054
+  rotate: false
+  xy: 450, 342
+  size: 446, 147
+  orig: 480, 200
+  offset: 27, 39
+  index: -1
+effect/skilld/BAOJI/chongji/chongji_056
+  rotate: false
+  xy: 2, 428
+  size: 446, 150
+  orig: 480, 200
+  offset: 27, 37
+  index: -1
+effect/skilld/BAOJI/chongji/chongji_058
+  rotate: false
+  xy: 461, 491
+  size: 446, 151
+  orig: 480, 200
+  offset: 27, 39
+  index: -1
+effect/skilld/CG/zuiqianguan2
+  rotate: false
+  xy: 871, 28
+  size: 150, 85
+  orig: 150, 85
+  offset: 0, 0
+  index: -1
+effect/skilld/julizi/julizi_001
+  rotate: true
+  xy: 720, 115
+  size: 225, 176
+  orig: 240, 240
+  offset: 14, 33
+  index: -1
+effect/skilld/julizi/julizi_002
+  rotate: false
+  xy: 495, 2
+  size: 223, 173
+  orig: 240, 240
+  offset: 14, 35
+  index: -1
+effect/skilld/sanqi/sanqi_000
+  rotate: true
+  xy: 102, 2
+  size: 281, 97
+  orig: 300, 120
+  offset: 6, 6
+  index: -1
+effect/skilld/sanqi/sanqi_001
+  rotate: true
+  xy: 2, 2
+  size: 281, 98
+  orig: 300, 120
+  offset: 6, 5
+  index: -1
+effect/skilld/sanqi/sanqi_002
+  rotate: true
+  xy: 928, 498
+  size: 281, 92
+  orig: 300, 120
+  offset: 6, 5
+  index: -1
+effect/skilld/sanqi/sanqi_004
+  rotate: true
+  xy: 201, 2
+  size: 281, 96
+  orig: 300, 120
+  offset: 6, 5
+  index: -1
+effect/skilld/sanqi/sanqi_006
+  rotate: true
+  xy: 299, 2
+  size: 281, 96
+  orig: 300, 120
+  offset: 6, 7
+  index: -1
+effect/skilld/sanqi/sanqi_007
+  rotate: true
+  xy: 397, 2
+  size: 281, 96
+  orig: 300, 120
+  offset: 6, 7
+  index: -1
+effect/skilld/shandianxin/xinshandian3
+  rotate: false
+  xy: 495, 213
+  size: 220, 127
+  orig: 228, 208
+  offset: 8, 53
+  index: -1
+effect/skilld/shandianxin/xinshandian4
+  rotate: true
+  xy: 898, 177
+  size: 165, 123
+  orig: 228, 208
+  offset: 22, 39
+  index: -1
+effect/skilld/shandianxin/xinshandian7
+  rotate: true
+  xy: 909, 344
+  size: 152, 112
+  orig: 228, 208
+  offset: 37, 71
+  index: -1
+
+effects_10801_skilld_22.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skilld/BAOJI/chongji/chongji_003
+  rotate: false
+  xy: 827, 582
+  size: 195, 164
+  orig: 480, 200
+  offset: 76, 11
+  index: -1
+effect/skilld/BAOJI/chongji/chongji_008
+  rotate: false
+  xy: 827, 389
+  size: 194, 191
+  orig: 480, 200
+  offset: 83, 0
+  index: -1
+effect/skilld/BAOJI/chongji/chongji_029
+  rotate: false
+  xy: 2, 18
+  size: 327, 134
+  orig: 480, 200
+  offset: 27, 26
+  index: -1
+effect/skilld/BAOJI/chongji/chongji_030
+  rotate: false
+  xy: 450, 561
+  size: 375, 185
+  orig: 480, 200
+  offset: 27, 3
+  index: -1
+effect/skilld/BAOJI/chongji/chongji_040
+  rotate: false
+  xy: 450, 748
+  size: 446, 132
+  orig: 480, 200
+  offset: 27, 45
+  index: -1
+effect/skilld/BAOJI/chongji/chongji_042
+  rotate: false
+  xy: 2, 604
+  size: 446, 133
+  orig: 480, 200
+  offset: 27, 45
+  index: -1
+effect/skilld/BAOJI/chongji/chongji_044
+  rotate: false
+  xy: 2, 470
+  size: 446, 132
+  orig: 480, 200
+  offset: 27, 47
+  index: -1
+effect/skilld/BAOJI/chongji/chongji_046
+  rotate: false
+  xy: 2, 739
+  size: 446, 140
+  orig: 480, 200
+  offset: 27, 40
+  index: -1
+effect/skilld/BAOJI/chongji/chongji_050
+  rotate: false
+  xy: 450, 882
+  size: 446, 140
+  orig: 480, 200
+  offset: 27, 42
+  index: -1
+effect/skilld/BAOJI/chongji/chongji_052
+  rotate: false
+  xy: 2, 881
+  size: 446, 141
+  orig: 480, 200
+  offset: 27, 41
+  index: -1
+effect/skilld/BAOJI/chongji/chongji_060
+  rotate: false
+  xy: 2, 312
+  size: 368, 156
+  orig: 480, 200
+  offset: 27, 38
+  index: -1
+effect/skilld/BAOJI/chongji/chongji_062
+  rotate: false
+  xy: 372, 243
+  size: 314, 157
+  orig: 480, 200
+  offset: 85, 39
+  index: -1
+effect/skilld/BAOJI/chongji/chongji_063
+  rotate: false
+  xy: 450, 402
+  size: 315, 157
+  orig: 480, 200
+  offset: 85, 39
+  index: -1
+effect/skilld/BAOJI/chongji/chongji_064
+  rotate: false
+  xy: 2, 154
+  size: 317, 156
+  orig: 480, 200
+  offset: 84, 38
+  index: -1
+effect/skilld/BAOJI/dajuqi/dajuqi_000
+  rotate: false
+  xy: 573, 11
+  size: 231, 230
+  orig: 240, 240
+  offset: 1, 7
+  index: -1
+effect/skilld/BAOJI/dajuqi/dajuqi_002
+  rotate: false
+  xy: 331, 13
+  size: 240, 228
+  orig: 240, 240
+  offset: 0, 5
+  index: -1
+effect/skilld/julizi/julizi_003
+  rotate: true
+  xy: 806, 7
+  size: 234, 186
+  orig: 240, 240
+  offset: 4, 25
+  index: -1
+effect/skilld/shandianxin/xinshandian1
+  rotate: false
+  xy: 809, 243
+  size: 167, 144
+  orig: 228, 208
+  offset: 8, 13
+  index: -1
+effect/skilld/shandianxin/xinshandian2
+  rotate: true
+  xy: 898, 794
+  size: 228, 121
+  orig: 228, 208
+  offset: 0, 32
+  index: -1
+effect/skilld/shandianxin/xinshandian6
+  rotate: true
+  xy: 688, 243
+  size: 157, 119
+  orig: 228, 208
+  offset: 30, 69
+  index: -1
+
+effects_10801_skilld_23.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skilld/BAOJI/chongji/chongji_000
+  rotate: false
+  xy: 623, 850
+  size: 180, 172
+  orig: 480, 200
+  offset: 95, 6
+  index: -1
+effect/skilld/BAOJI/chongji/chongji_001
+  rotate: false
+  xy: 802, 107
+  size: 178, 170
+  orig: 480, 200
+  offset: 95, 7
+  index: -1
+effect/skilld/BAOJI/chongji/chongji_002
+  rotate: false
+  xy: 806, 459
+  size: 196, 167
+  orig: 480, 200
+  offset: 76, 9
+  index: -1
+effect/skilld/BAOJI/chongji/chongji_004
+  rotate: false
+  xy: 806, 628
+  size: 197, 170
+  orig: 480, 200
+  offset: 73, 9
+  index: -1
+effect/skilld/BAOJI/chongji/chongji_006
+  rotate: false
+  xy: 806, 279
+  size: 189, 178
+  orig: 480, 200
+  offset: 80, 5
+  index: -1
+effect/skilld/BAOJI/chongji/chongji_010
+  rotate: true
+  xy: 611, 597
+  size: 200, 193
+  orig: 480, 200
+  offset: 80, 0
+  index: -1
+effect/skilld/BAOJI/chongji/chongji_012
+  rotate: false
+  xy: 618, 409
+  size: 186, 186
+  orig: 480, 200
+  offset: 87, 1
+  index: -1
+effect/skilld/BAOJI/chongji/chongji_018
+  rotate: false
+  xy: 514, 245
+  size: 169, 107
+  orig: 480, 200
+  offset: 109, 41
+  index: -1
+effect/skilld/BAOJI/chongji/chongji_022
+  rotate: true
+  xy: 685, 237
+  size: 170, 115
+  orig: 480, 200
+  offset: 102, 46
+  index: -1
+effect/skilld/BAOJI/chongji/chongji_024
+  rotate: false
+  xy: 805, 800
+  size: 170, 99
+  orig: 480, 200
+  offset: 102, 45
+  index: -1
+effect/skilld/BAOJI/chongji/chongji_026
+  rotate: false
+  xy: 341, 2
+  size: 170, 96
+  orig: 480, 200
+  offset: 102, 47
+  index: -1
+effect/skilld/BAOJI/chongji/chongji_027
+  rotate: false
+  xy: 513, 3
+  size: 170, 95
+  orig: 480, 200
+  offset: 102, 48
+  index: -1
+effect/skilld/BAOJI/chongji/chongji_028
+  rotate: true
+  xy: 688, 65
+  size: 170, 106
+  orig: 480, 200
+  offset: 102, 41
+  index: -1
+effect/skilld/BAOJI/dajuqi/dajuqi_004
+  rotate: true
+  xy: 395, 566
+  size: 225, 214
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+effect/skilld/BAOJI/dajuqi/dajuqi_006
+  rotate: false
+  xy: 178, 56
+  size: 161, 240
+  orig: 240, 240
+  offset: 20, 0
+  index: -1
+effect/skilld/BAOJI/dajuqi/dajuqi_008
+  rotate: false
+  xy: 181, 298
+  size: 127, 240
+  orig: 240, 240
+  offset: 21, 0
+  index: -1
+effect/skilld/BAOJI/dajuqi/dajuqi_010
+  rotate: false
+  xy: 418, 799
+  size: 203, 223
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+effect/skilld/BAOJI/dajuqi/dajuqi_012
+  rotate: false
+  xy: 2, 540
+  size: 219, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+effect/skilld/BAOJI/dajuqi/dajuqi_014
+  rotate: false
+  xy: 2, 782
+  size: 232, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+effect/skilld/BAOJI/dajuqi/dajuqi_016
+  rotate: true
+  xy: 310, 313
+  size: 227, 188
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+effect/skilld/BAOJI/dajuqi/dajuqi_018
+  rotate: false
+  xy: 514, 100
+  size: 172, 135
+  orig: 240, 240
+  offset: 22, 3
+  index: -1
+effect/skilld/julizi/julizi_000
+  rotate: true
+  xy: 341, 100
+  size: 211, 171
+  orig: 240, 240
+  offset: 13, 31
+  index: -1
+effect/skilld/julizi/julizi_004
+  rotate: true
+  xy: 236, 793
+  size: 229, 180
+  orig: 240, 240
+  offset: 7, 27
+  index: -1
+effect/skilld/julizi/julizi_005
+  rotate: true
+  xy: 2, 298
+  size: 240, 177
+  orig: 240, 240
+  offset: 0, 28
+  index: -1
+effect/skilld/julizi/julizi_006
+  rotate: true
+  xy: 2, 56
+  size: 240, 174
+  orig: 240, 240
+  offset: 0, 29
+  index: -1
+effect/skilld/julizi/julizi_007
+  rotate: true
+  xy: 223, 542
+  size: 238, 170
+  orig: 240, 240
+  offset: 1, 30
+  index: -1
+effect/skilld/shandianxin/xinshandian8
+  rotate: true
+  xy: 500, 354
+  size: 210, 116
+  orig: 228, 208
+  offset: 18, 41
+  index: -1
+effect/skilld/shandianxin/xinshandian9
+  rotate: false
+  xy: 806, 901
+  size: 198, 121
+  orig: 228, 208
+  offset: 4, 53
+  index: -1
+
+effects_10801_skilld_24.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skilld/BAOJI/chongji/chongji_014
+  rotate: false
+  xy: 2, 2
+  size: 151, 129
+  orig: 480, 200
+  offset: 108, 29
+  index: -1
+effect/skilld/BAOJI/chongji/chongji_020
+  rotate: false
+  xy: 168, 279
+  size: 146, 135
+  orig: 480, 200
+  offset: 111, 45
+  index: -1
+effect/skilld/CG/zuiqianguan1
+  rotate: false
+  xy: 2, 265
+  size: 164, 149
+  orig: 164, 149
+  offset: 0, 0
+  index: -1
+effect/skilld/shandianxin/xinshandian5
+  rotate: false
+  xy: 2, 133
+  size: 164, 130
+  orig: 228, 208
+  offset: 39, 51
+  index: -1

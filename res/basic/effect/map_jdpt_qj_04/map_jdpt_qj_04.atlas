@@ -1,0 +1,41 @@
+
+map_jdpt_qj_04.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ld1
+  rotate: false
+  xy: 2, 41
+  size: 13, 20
+  orig: 13, 20
+  offset: 0, 0
+  index: -1
+ld2
+  rotate: false
+  xy: 169, 211
+  size: 14, 18
+  orig: 14, 18
+  offset: 0, 0
+  index: -1
+q3
+  rotate: false
+  xy: 2, 63
+  size: 165, 367
+  orig: 165, 367
+  offset: 0, 0
+  index: -1
+q5
+  rotate: false
+  xy: 169, 313
+  size: 260, 117
+  orig: 260, 117
+  offset: 0, 0
+  index: -1
+q7
+  rotate: false
+  xy: 169, 231
+  size: 261, 80
+  orig: 261, 80
+  offset: 0, 0
+  index: -1

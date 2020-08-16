@@ -1,0 +1,228 @@
+
+battle_end_win.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baodian/baodian_00004
+  rotate: false
+  xy: 427, 24
+  size: 481, 380
+  orig: 500, 500
+  offset: 17, 45
+  index: -1
+chen
+  rotate: false
+  xy: 910, 791
+  size: 110, 110
+  orig: 110, 110
+  offset: 0, 0
+  index: -1
+fense
+  rotate: true
+  xy: 983, 975
+  size: 13, 19
+  orig: 16, 21
+  offset: 3, 2
+  index: -1
+final_00047_00000
+  rotate: false
+  xy: 2, 406
+  size: 664, 500
+  orig: 664, 500
+  offset: 0, 0
+  index: -1
+gong
+  rotate: false
+  xy: 910, 679
+  size: 110, 110
+  orig: 110, 110
+  offset: 0, 0
+  index: -1
+heidi001
+  rotate: false
+  xy: 668, 428
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+huangse
+  rotate: false
+  xy: 983, 990
+  size: 39, 32
+  orig: 42, 33
+  offset: 3, 1
+  index: -1
+shenglidi
+  rotate: false
+  xy: 2, 908
+  size: 800, 114
+  orig: 800, 150
+  offset: 0, 24
+  index: -1
+xiaoshi
+  rotate: true
+  xy: 2, 4
+  size: 400, 85
+  orig: 400, 100
+  offset: 0, 6
+  index: -1
+yingwen
+  rotate: true
+  xy: 910, 321
+  size: 356, 100
+  orig: 360, 100
+  offset: 2, 0
+  index: -1
+zhan01
+  rotate: false
+  xy: 910, 219
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+zuo01
+  rotate: false
+  xy: 910, 117
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+zuozhanchenggongshangceng/zuozhanchenggongshangceng
+  rotate: true
+  xy: 89, 11
+  size: 393, 173
+  orig: 393, 173
+  offset: 0, 0
+  index: -1
+zuozhanchenggongshangceng/zuozhanchenggongshangceng_00004
+  rotate: false
+  xy: 910, 26
+  size: 92, 89
+  orig: 550, 250
+  offset: 117, 76
+  index: -1
+zuozhanchenggongshangceng/zuozhanchenggongshangceng_00005
+  rotate: false
+  xy: 804, 903
+  size: 177, 119
+  orig: 550, 250
+  offset: 88, 61
+  index: -1
+zuozhanchenggongshangceng/zuozhanchenggongshangceng_00008
+  rotate: true
+  xy: 264, 13
+  size: 391, 161
+  orig: 550, 250
+  offset: 59, 37
+  index: -1
+zuozhanchenggongshangceng/zuozhanchenggongshangceng_00009
+  rotate: true
+  xy: 668, 480
+  size: 421, 163
+  orig: 550, 250
+  offset: 59, 37
+  index: -1
+
+battle_end_win2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baodian/baodian_00002
+  rotate: false
+  xy: 2, 141
+  size: 471, 435
+  orig: 500, 500
+  offset: 24, 46
+  index: -1
+baodian/baodian_00003
+  rotate: false
+  xy: 2, 578
+  size: 481, 434
+  orig: 500, 500
+  offset: 17, 45
+  index: -1
+baodian/baodian_00005
+  rotate: false
+  xy: 485, 349
+  size: 478, 373
+  orig: 500, 500
+  offset: 19, 47
+  index: -1
+baodian/baodian_00006
+  rotate: false
+  xy: 485, 724
+  size: 479, 288
+  orig: 500, 500
+  offset: 18, 133
+  index: -1
+tiao1_00000
+  rotate: false
+  xy: 475, 30
+  size: 450, 317
+  orig: 450, 320
+  offset: 0, 3
+  index: -1
+xiaoshi2
+  rotate: false
+  xy: 2, 2
+  size: 365, 137
+  orig: 365, 137
+  offset: 0, 0
+  index: -1
+
+battle_end_win3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Glow_Flare_009
+  rotate: false
+  xy: 462, 764
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+baodian/baodian_00000
+  rotate: false
+  xy: 2, 597
+  size: 458, 423
+  orig: 500, 500
+  offset: 32, 58
+  index: -1
+baodian/baodian_00001
+  rotate: false
+  xy: 2, 597
+  size: 458, 423
+  orig: 500, 500
+  offset: 32, 58
+  index: -1
+mask_18-2
+  rotate: false
+  xy: 2, 183
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+tiao2_00000
+  rotate: false
+  xy: 720, 870
+  size: 300, 150
+  orig: 300, 150
+  offset: 0, 0
+  index: -1
+zuozhanchenggongshangceng/zuozhanchenggongshangceng_00006
+  rotate: false
+  xy: 462, 614
+  size: 275, 148
+  orig: 550, 250
+  offset: 59, 46
+  index: -1
+zuozhanchenggongshangceng/zuozhanchenggongshangceng_00007
+  rotate: false
+  xy: 2, 441
+  size: 360, 154
+  orig: 550, 250
+  offset: 59, 43
+  index: -1

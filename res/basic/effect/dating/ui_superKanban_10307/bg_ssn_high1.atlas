@@ -1,0 +1,76 @@
+
+bg_ssn_high1.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+beijing
+  rotate: false
+  xy: 2, 1370
+  size: 1386, 640
+  orig: 1386, 640
+  offset: 0, 0
+  index: -1
+deng2_00000
+  rotate: false
+  xy: 1915, 1915
+  size: 95, 95
+  orig: 100, 100
+  offset: 2, 4
+  index: -1
+deng_00000
+  rotate: false
+  xy: 2, 484
+  size: 389, 242
+  orig: 500, 250
+  offset: 40, 0
+  index: -1
+denglong
+  rotate: false
+  xy: 1390, 1604
+  size: 523, 406
+  orig: 523, 406
+  offset: 0, 0
+  index: -1
+denglong1
+  rotate: false
+  xy: 2, 387
+  size: 85, 95
+  orig: 85, 95
+  offset: 0, 0
+  index: -1
+denglong2
+  rotate: false
+  xy: 393, 647
+  size: 71, 79
+  orig: 71, 79
+  offset: 0, 0
+  index: -1
+denglong3
+  rotate: false
+  xy: 1390, 1453
+  size: 45, 49
+  orig: 45, 49
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 1390, 1504
+  size: 98, 98
+  orig: 100, 100
+  offset: 1, 2
+  index: -1
+guang
+  rotate: false
+  xy: 2, 728
+  size: 1386, 640
+  orig: 1386, 640
+  offset: 0, 0
+  index: -1
+huangse
+  rotate: false
+  xy: 1490, 1571
+  size: 40, 31
+  orig: 42, 33
+  offset: 1, 1
+  index: -1

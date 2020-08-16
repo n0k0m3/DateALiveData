@@ -1,0 +1,55 @@
+
+effects_20301_skillA2.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/baodian/baodian_00019
+  rotate: false
+  xy: 2, 143
+  size: 119, 109
+  orig: 123, 110
+  offset: 0, 1
+  index: -1
+images/effects/baodian/baodian_00020
+  rotate: false
+  xy: 123, 175
+  size: 115, 77
+  orig: 123, 110
+  offset: 5, 19
+  index: -1
+images/effects/baodian/baodian_00021
+  rotate: false
+  xy: 2, 60
+  size: 117, 81
+  orig: 123, 110
+  offset: 3, 17
+  index: -1
+images/effects/baodian/baodian_00022
+  rotate: false
+  xy: 123, 108
+  size: 116, 65
+  orig: 123, 110
+  offset: 5, 23
+  index: -1
+images/effects/baodian/baodian_00023
+  rotate: false
+  xy: 121, 39
+  size: 99, 67
+  orig: 123, 110
+  offset: 20, 22
+  index: -1
+images/effects/baodian/baodian_00024
+  rotate: false
+  xy: 2, 2
+  size: 51, 56
+  orig: 123, 110
+  offset: 34, 27
+  index: -1
+images/effects/baodian/baodian_00025
+  rotate: false
+  xy: 55, 10
+  size: 23, 48
+  orig: 123, 110
+  offset: 43, 27
+  index: -1

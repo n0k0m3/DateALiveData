@@ -1,0 +1,34 @@
+
+17youleyuan.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fanguang1_00059
+  rotate: false
+  xy: 423, 397
+  size: 87, 113
+  orig: 300, 300
+  offset: 105, 94
+  index: -1
+fanguang_00072
+  rotate: false
+  xy: 296, 369
+  size: 125, 141
+  orig: 300, 300
+  offset: 82, 82
+  index: -1
+glow_00060
+  rotate: false
+  xy: 2, 163
+  size: 227, 180
+  orig: 300, 300
+  offset: 3, 60
+  index: -1
+yangguang_00000
+  rotate: false
+  xy: 2, 345
+  size: 292, 165
+  orig: 300, 300
+  offset: 0, 46
+  index: -1

@@ -1,0 +1,83 @@
+
+effects_24101_skillA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/skillA/heidi/heidi_00002
+  rotate: false
+  xy: 2, 422
+  size: 194, 137
+  orig: 270, 200
+  offset: 47, 39
+  index: -1
+images/effect/skillA/heidi/heidi_00004
+  rotate: false
+  xy: 2, 282
+  size: 155, 138
+  orig: 270, 200
+  offset: 105, 51
+  index: -1
+images/effect/skillA/heidi/heidi_00005
+  rotate: true
+  xy: 606, 775
+  size: 106, 136
+  orig: 270, 200
+  offset: 157, 56
+  index: -1
+images/effect/skillA/heidi/heidi_00006
+  rotate: false
+  xy: 908, 899
+  size: 102, 111
+  orig: 270, 200
+  offset: 167, 81
+  index: -1
+images/effect/skillA/zhuti/zhuti_00000
+  rotate: false
+  xy: 2, 694
+  size: 300, 155
+  orig: 300, 200
+  offset: 0, 13
+  index: -1
+images/effect/skillA/zhuti/zhuti_00001
+  rotate: false
+  xy: 2, 851
+  size: 300, 159
+  orig: 300, 200
+  offset: 0, 13
+  index: -1
+images/effect/skillA/zhuti/zhuti_00003
+  rotate: false
+  xy: 606, 883
+  size: 300, 127
+  orig: 300, 200
+  offset: 0, 50
+  index: -1
+images/effect/skillA/zhuti/zhuti_00004
+  rotate: false
+  xy: 304, 748
+  size: 300, 128
+  orig: 300, 200
+  offset: 0, 51
+  index: -1
+images/effect/skillA/zhuti/zhuti_00005
+  rotate: false
+  xy: 2, 561
+  size: 300, 131
+  orig: 300, 200
+  offset: 0, 51
+  index: -1
+images/effect/skillA/zhuti/zhuti_00006
+  rotate: false
+  xy: 304, 878
+  size: 300, 132
+  orig: 300, 200
+  offset: 0, 51
+  index: -1
+images/effect/skillB/guangxian_00000
+  rotate: false
+  xy: 304, 646
+  size: 198, 100
+  orig: 300, 150
+  offset: 51, 25
+  index: -1

@@ -1,0 +1,265 @@
+
+skeleton.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/glow3_000
+  rotate: false
+  xy: 2, 641
+  size: 247, 193
+  orig: 250, 193
+  offset: 3, 0
+  index: -1
+effect/glow4_000
+  rotate: false
+  xy: 2, 2
+  size: 196, 76
+  orig: 216, 80
+  offset: 13, 0
+  index: -1
+effect/liuguang1/liuguang1_001
+  rotate: false
+  xy: 342, 842
+  size: 34, 36
+  orig: 149, 183
+  offset: 18, 137
+  index: -1
+effect/liuguang1/liuguang1_003
+  rotate: true
+  xy: 923, 701
+  size: 61, 69
+  orig: 149, 183
+  offset: 5, 114
+  index: -1
+effect/liuguang1/liuguang1_005
+  rotate: false
+  xy: 814, 361
+  size: 70, 89
+  orig: 149, 183
+  offset: 1, 94
+  index: -1
+effect/liuguang1/liuguang1_007
+  rotate: false
+  xy: 603, 330
+  size: 73, 110
+  orig: 149, 183
+  offset: 0, 73
+  index: -1
+effect/liuguang1/liuguang1_009
+  rotate: true
+  xy: 677, 442
+  size: 76, 130
+  orig: 149, 183
+  offset: 0, 53
+  index: -1
+effect/liuguang1/liuguang1_011
+  rotate: true
+  xy: 452, 331
+  size: 109, 149
+  orig: 149, 183
+  offset: 0, 34
+  index: -1
+effect/liuguang1/liuguang1_013
+  rotate: true
+  xy: 276, 310
+  size: 140, 174
+  orig: 149, 183
+  offset: 0, 9
+  index: -1
+effect/liuguang1/liuguang1_015
+  rotate: true
+  xy: 625, 694
+  size: 148, 182
+  orig: 149, 183
+  offset: 0, 1
+  index: -1
+effect/liuguang1/liuguang1_017
+  rotate: false
+  xy: 641, 520
+  size: 149, 172
+  orig: 149, 183
+  offset: 0, 0
+  index: -1
+effect/liuguang1/liuguang1_019
+  rotate: true
+  xy: 273, 160
+  size: 148, 151
+  orig: 149, 183
+  offset: 1, 0
+  index: -1
+effect/liuguang1/liuguang1_021
+  rotate: false
+  xy: 876, 876
+  size: 143, 130
+  orig: 149, 183
+  offset: 6, 0
+  index: -1
+effect/liuguang1/liuguang1_023
+  rotate: false
+  xy: 678, 332
+  size: 134, 108
+  orig: 149, 183
+  offset: 15, 0
+  index: -1
+effect/liuguang1/liuguang1_025
+  rotate: true
+  xy: 923, 764
+  size: 110, 89
+  orig: 149, 183
+  offset: 39, 0
+  index: -1
+effect/liuguang1/liuguang1_027
+  rotate: true
+  xy: 200, 18
+  size: 69, 64
+  orig: 149, 183
+  offset: 77, 3
+  index: -1
+effect/lizi3/lizi3_000
+  rotate: false
+  xy: 2, 454
+  size: 192, 185
+  orig: 192, 185
+  offset: 0, 0
+  index: -1
+effect/lizi3/lizi3_001
+  rotate: false
+  xy: 2, 267
+  size: 192, 185
+  orig: 192, 185
+  offset: 0, 0
+  index: -1
+effect/lizi3/lizi3_002
+  rotate: false
+  xy: 2, 80
+  size: 192, 185
+  orig: 192, 185
+  offset: 0, 0
+  index: -1
+effect/lizi3/lizi3_003
+  rotate: true
+  xy: 251, 642
+  size: 192, 185
+  orig: 192, 185
+  offset: 0, 0
+  index: -1
+effect/lizi3/lizi3_005
+  rotate: true
+  xy: 438, 686
+  size: 192, 185
+  orig: 192, 185
+  offset: 0, 0
+  index: -1
+effect/lizi3/lizi3_007
+  rotate: true
+  xy: 276, 452
+  size: 188, 185
+  orig: 192, 185
+  offset: 4, 0
+  index: -1
+effect/lizi3/lizi3_009
+  rotate: false
+  xy: 463, 508
+  size: 176, 176
+  orig: 192, 185
+  offset: 12, 3
+  index: -1
+effect/lizi3/lizi3_011
+  rotate: false
+  xy: 809, 728
+  size: 112, 114
+  orig: 192, 185
+  offset: 47, 37
+  index: -1
+effect/lizi3/lizi3_013
+  rotate: true
+  xy: 268, 45
+  size: 113, 115
+  orig: 192, 185
+  offset: 47, 36
+  index: -1
+effect/lizi3/lizi3_015
+  rotate: false
+  xy: 385, 45
+  size: 112, 113
+  orig: 192, 185
+  offset: 47, 37
+  index: -1
+effect/lizi3/lizi3_017
+  rotate: false
+  xy: 809, 620
+  size: 109, 106
+  orig: 192, 185
+  offset: 48, 43
+  index: -1
+effect/lizi3/lizi3_019
+  rotate: false
+  xy: 792, 535
+  size: 107, 83
+  orig: 192, 185
+  offset: 48, 47
+  index: -1
+effect/lizi3/lizi3_021
+  rotate: false
+  xy: 809, 452
+  size: 105, 81
+  orig: 192, 185
+  offset: 49, 48
+  index: -1
+effect/lizi3/lizi3_023
+  rotate: true
+  xy: 196, 89
+  size: 93, 70
+  orig: 192, 185
+  offset: 57, 52
+  index: -1
+effect/ziti/ziti_005
+  rotate: false
+  xy: 2, 836
+  size: 338, 170
+  orig: 338, 170
+  offset: 0, 0
+  index: -1
+effect/ziti/ziti_006
+  rotate: false
+  xy: 342, 880
+  size: 286, 126
+  orig: 338, 170
+  offset: 33, 3
+  index: -1
+effect/ziti/ziti_007
+  rotate: false
+  xy: 630, 916
+  size: 244, 90
+  orig: 338, 170
+  offset: 54, 18
+  index: -1
+effect/ziti/ziti_008
+  rotate: true
+  xy: 196, 411
+  size: 228, 78
+  orig: 338, 170
+  offset: 62, 23
+  index: -1
+effect/ziti/ziti_009
+  rotate: true
+  xy: 196, 184
+  size: 225, 75
+  orig: 338, 170
+  offset: 63, 25
+  index: -1
+effect/ziti/ziti_010
+  rotate: false
+  xy: 630, 844
+  size: 218, 70
+  orig: 338, 170
+  offset: 67, 27
+  index: -1
+effect/ziti/ziti_011
+  rotate: false
+  xy: 463, 442
+  size: 212, 64
+  orig: 338, 170
+  offset: 70, 30
+  index: -1

@@ -1,0 +1,27 @@
+
+bg_keting.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dengguang_00000
+  rotate: true
+  xy: 2, 2
+  size: 113, 263
+  orig: 300, 300
+  offset: 94, 0
+  index: -1
+glow_00060
+  rotate: false
+  xy: 2, 117
+  size: 212, 180
+  orig: 300, 300
+  offset: 18, 60
+  index: -1
+yangguang_00000
+  rotate: false
+  xy: 2, 299
+  size: 278, 150
+  orig: 278, 150
+  offset: 0, 0
+  index: -1

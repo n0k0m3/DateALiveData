@@ -1,0 +1,13 @@
+
+MJ_diaoyuqianguang.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+qianguang
+  rotate: false
+  xy: 2, 213
+  size: 347, 136
+  orig: 347, 136
+  offset: 0, 0
+  index: -1

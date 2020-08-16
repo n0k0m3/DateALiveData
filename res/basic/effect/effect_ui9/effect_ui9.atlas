@@ -1,0 +1,13 @@
+
+effect_ui9.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/kuan
+  rotate: false
+  xy: 2, 2
+  size: 62, 71
+  orig: 120, 119
+  offset: 28, 25
+  index: -1

@@ -1,0 +1,153 @@
+
+tuilamen.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+beijin1
+  rotate: false
+  xy: 2, 51
+  size: 364, 353
+  orig: 364, 353
+  offset: 0, 0
+  index: -1
+beijing
+  rotate: false
+  xy: 368, 59
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+men_L1
+  rotate: true
+  xy: 368, 246
+  size: 158, 390
+  orig: 158, 390
+  offset: 0, 0
+  index: -1
+men_l
+  rotate: true
+  xy: 368, 86
+  size: 158, 390
+  orig: 158, 390
+  offset: 0, 0
+  index: -1
+men_r
+  rotate: false
+  xy: 765, 599
+  size: 159, 390
+  orig: 159, 390
+  offset: 0, 0
+  index: -1
+men_r1
+  rotate: false
+  xy: 765, 207
+  size: 157, 390
+  orig: 157, 390
+  offset: 0, 0
+  index: -1
+menlan
+  rotate: false
+  xy: 2, 406
+  size: 761, 583
+  orig: 761, 583
+  offset: 0, 0
+  index: -1
+shuangmen/smoke3_002
+  rotate: false
+  xy: 2, 9
+  size: 63, 40
+  orig: 63, 40
+  offset: 0, 0
+  index: -1
+shuangmen/smoke3_004
+  rotate: false
+  xy: 926, 949
+  size: 63, 40
+  orig: 63, 40
+  offset: 0, 0
+  index: -1
+shuangmen/smoke3_006
+  rotate: false
+  xy: 67, 9
+  size: 63, 40
+  orig: 63, 40
+  offset: 0, 0
+  index: -1
+shuangmen/smoke3_008
+  rotate: false
+  xy: 926, 907
+  size: 63, 40
+  orig: 63, 40
+  offset: 0, 0
+  index: -1
+shuangmen/smoke3_010
+  rotate: false
+  xy: 132, 9
+  size: 63, 40
+  orig: 63, 40
+  offset: 0, 0
+  index: -1
+shuangmen/smoke3_012
+  rotate: false
+  xy: 926, 865
+  size: 63, 40
+  orig: 63, 40
+  offset: 0, 0
+  index: -1
+shuangmen/smoke3_014
+  rotate: false
+  xy: 197, 9
+  size: 63, 40
+  orig: 63, 40
+  offset: 0, 0
+  index: -1
+shuangmen/smoke3_016
+  rotate: false
+  xy: 926, 823
+  size: 63, 40
+  orig: 63, 40
+  offset: 0, 0
+  index: -1
+shuangmen/smoke3_018
+  rotate: false
+  xy: 262, 9
+  size: 63, 40
+  orig: 63, 40
+  offset: 0, 0
+  index: -1
+shuangmen/smoke3_020
+  rotate: false
+  xy: 926, 781
+  size: 63, 40
+  orig: 63, 40
+  offset: 0, 0
+  index: -1
+shuangmen/smoke3_022
+  rotate: false
+  xy: 926, 739
+  size: 63, 40
+  orig: 63, 40
+  offset: 0, 0
+  index: -1
+shuangmen/smoke3_024
+  rotate: false
+  xy: 926, 697
+  size: 63, 40
+  orig: 63, 40
+  offset: 0, 0
+  index: -1
+shuangmen/smoke3_026
+  rotate: false
+  xy: 926, 655
+  size: 63, 40
+  orig: 63, 40
+  offset: 0, 0
+  index: -1
+shuangmen/smoke3_028
+  rotate: false
+  xy: 926, 613
+  size: 63, 40
+  orig: 63, 40
+  offset: 0, 0
+  index: -1

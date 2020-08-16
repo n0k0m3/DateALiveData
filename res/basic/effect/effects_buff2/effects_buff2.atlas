@@ -1,0 +1,223 @@
+
+effects_buff2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gongji/gongji_00000_1
+  rotate: false
+  xy: 230, 353
+  size: 45, 48
+  orig: 45, 48
+  offset: 0, 0
+  index: -1
+gongji/gongji_00001_1
+  rotate: true
+  xy: 57, 160
+  size: 44, 66
+  orig: 44, 66
+  offset: 0, 0
+  index: -1
+gongji/gongji_00003_1
+  rotate: true
+  xy: 62, 462
+  size: 48, 110
+  orig: 48, 110
+  offset: 0, 0
+  index: -1
+gongji/gongji_00004_1
+  rotate: false
+  xy: 2, 184
+  size: 53, 104
+  orig: 53, 104
+  offset: 0, 0
+  index: -1
+gongji/gongji_00006_1
+  rotate: true
+  xy: 269, 456
+  size: 54, 91
+  orig: 54, 91
+  offset: 0, 0
+  index: -1
+gongji/gongji_00007_1
+  rotate: true
+  xy: 362, 456
+  size: 54, 85
+  orig: 54, 85
+  offset: 0, 0
+  index: -1
+gongji/gongji_00009_1
+  rotate: true
+  xy: 164, 403
+  size: 53, 73
+  orig: 53, 73
+  offset: 0, 0
+  index: -1
+gongji/gongji_00010_1
+  rotate: false
+  xy: 2, 85
+  size: 52, 97
+  orig: 52, 97
+  offset: 0, 0
+  index: -1
+gongji/gongji_00012_1
+  rotate: false
+  xy: 118, 312
+  size: 50, 88
+  orig: 50, 88
+  offset: 0, 0
+  index: -1
+gongji/gongji_00013_1
+  rotate: false
+  xy: 118, 227
+  size: 50, 83
+  orig: 50, 83
+  offset: 0, 0
+  index: -1
+gongji/gongji_00015_1
+  rotate: true
+  xy: 317, 408
+  size: 46, 74
+  orig: 46, 74
+  offset: 0, 0
+  index: -1
+gongji/gongji_00016_1
+  rotate: false
+  xy: 56, 89
+  size: 46, 69
+  orig: 46, 69
+  offset: 0, 0
+  index: -1
+gongji/gongji_00017_1
+  rotate: false
+  xy: 62, 22
+  size: 46, 65
+  orig: 46, 65
+  offset: 0, 0
+  index: -1
+gongji/gongji_00019_1
+  rotate: false
+  xy: 176, 191
+  size: 53, 57
+  orig: 53, 57
+  offset: 0, 0
+  index: -1
+gongji/gongji_00020_1
+  rotate: false
+  xy: 393, 401
+  size: 54, 53
+  orig: 54, 53
+  offset: 0, 0
+  index: -1
+gongji/gongji_00022_1
+  rotate: true
+  xy: 110, 45
+  size: 53, 50
+  orig: 53, 50
+  offset: 0, 0
+  index: -1
+gongji/gongji_00023_1
+  rotate: false
+  xy: 176, 140
+  size: 52, 49
+  orig: 52, 49
+  offset: 0, 0
+  index: -1
+gongji/gongji_00025_1
+  rotate: false
+  xy: 2, 290
+  size: 53, 110
+  orig: 53, 110
+  offset: 0, 0
+  index: -1
+gongji/gongji_00026_1
+  rotate: false
+  xy: 2, 402
+  size: 58, 108
+  orig: 58, 108
+  offset: 0, 0
+  index: -1
+gongji/gongji_00028_1
+  rotate: false
+  xy: 57, 302
+  size: 59, 98
+  orig: 59, 98
+  offset: 0, 0
+  index: -1
+gongji/gongji_00029_1
+  rotate: false
+  xy: 57, 206
+  size: 59, 94
+  orig: 59, 94
+  offset: 0, 0
+  index: -1
+gongji/gongji_00031_1
+  rotate: false
+  xy: 2, 2
+  size: 58, 81
+  orig: 58, 81
+  offset: 0, 0
+  index: -1
+gongji/gongji_00032_1
+  rotate: false
+  xy: 170, 250
+  size: 58, 74
+  orig: 58, 74
+  offset: 0, 0
+  index: -1
+gongji/gongji_00033_1
+  rotate: false
+  xy: 170, 326
+  size: 58, 75
+  orig: 58, 75
+  offset: 0, 0
+  index: -1
+gongji/gongji_00035_1
+  rotate: false
+  xy: 449, 394
+  size: 59, 58
+  orig: 59, 58
+  offset: 0, 0
+  index: -1
+gongji/gongji_00036_1
+  rotate: false
+  xy: 449, 454
+  size: 60, 56
+  orig: 60, 56
+  offset: 0, 0
+  index: -1
+gongji/gongji_00038_1
+  rotate: true
+  xy: 125, 166
+  size: 59, 49
+  orig: 59, 49
+  offset: 0, 0
+  index: -1
+gongji/gongji_00039_1
+  rotate: true
+  xy: 104, 100
+  size: 58, 46
+  orig: 58, 46
+  offset: 0, 0
+  index: -1
+gongji/gongji_00041_1
+  rotate: true
+  xy: 62, 402
+  size: 58, 100
+  orig: 58, 100
+  offset: 0, 0
+  index: -1
+gongji/gongji_00042_1
+  rotate: true
+  xy: 174, 458
+  size: 52, 93
+  orig: 52, 93
+  offset: 0, 0
+  index: -1
+gongji/gongji_00044_1
+  rotate: true
+  xy: 239, 408
+  size: 46, 76
+  orig: 46, 76
+  offset: 0, 0
+  index: -1

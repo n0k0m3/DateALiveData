@@ -1,0 +1,13 @@
+
+effect_huoche_13.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/huoche
+  rotate: false
+  xy: 2, 580
+  size: 692, 114
+  orig: 692, 114
+  offset: 0, 0
+  index: -1

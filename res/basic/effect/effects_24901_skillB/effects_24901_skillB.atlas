@@ -1,0 +1,104 @@
+
+effects_24901_skillB.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillB/add/glow_1
+  rotate: false
+  xy: 2, 355
+  size: 156, 156
+  orig: 160, 160
+  offset: 2, 2
+  index: -1
+images/effects/skillB/add/lizi/lizi_0000
+  rotate: true
+  xy: 2, 186
+  size: 167, 94
+  orig: 205, 205
+  offset: 21, 25
+  index: -1
+images/effects/skillB/add/lizi/lizi_0001
+  rotate: false
+  xy: 416, 872
+  size: 198, 113
+  orig: 205, 205
+  offset: 7, 22
+  index: -1
+images/effects/skillB/add/lizi/lizi_0003
+  rotate: false
+  xy: 209, 835
+  size: 205, 150
+  orig: 205, 205
+  offset: 0, 24
+  index: -1
+images/effects/skillB/add/lizi/lizi_0005
+  rotate: false
+  xy: 2, 673
+  size: 205, 154
+  orig: 205, 205
+  offset: 0, 25
+  index: -1
+images/effects/skillB/add/lizi/lizi_0007
+  rotate: false
+  xy: 2, 829
+  size: 205, 156
+  orig: 205, 205
+  offset: 0, 25
+  index: -1
+images/effects/skillB/add/lizi/lizi_0009
+  rotate: false
+  xy: 2, 513
+  size: 195, 158
+  orig: 205, 205
+  offset: 5, 25
+  index: -1
+images/effects/skillB/add/lizi/lizi_0011
+  rotate: false
+  xy: 209, 693
+  size: 197, 140
+  orig: 205, 205
+  offset: 4, 23
+  index: -1
+images/effects/skillB/nor/di/di_0001
+  rotate: true
+  xy: 98, 236
+  size: 117, 59
+  orig: 205, 205
+  offset: 46, 42
+  index: -1
+images/effects/skillB/nor/di/di_0002
+  rotate: false
+  xy: 744, 923
+  size: 123, 62
+  orig: 205, 205
+  offset: 45, 43
+  index: -1
+images/effects/skillB/nor/di/di_0003
+  rotate: true
+  xy: 2, 60
+  size: 124, 63
+  orig: 205, 205
+  offset: 46, 44
+  index: -1
+images/effects/skillB/nor/di/di_0005
+  rotate: false
+  xy: 616, 922
+  size: 126, 63
+  orig: 205, 205
+  offset: 46, 45
+  index: -1
+images/effects/skillB/nor/di/di_0007
+  rotate: false
+  xy: 869, 946
+  size: 116, 39
+  orig: 205, 205
+  offset: 49, 58
+  index: -1
+images/effects/skillB/nor/heidi1
+  rotate: false
+  xy: 616, 879
+  size: 116, 41
+  orig: 120, 120
+  offset: 0, 34
+  index: -1

@@ -1,0 +1,278 @@
+
+effects_31103_skillA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects1/chang/shandian/shandian_015
+  rotate: true
+  xy: 861, 5
+  size: 123, 116
+  orig: 144, 144
+  offset: 10, 14
+  index: -1
+effects1/guangxian_000
+  rotate: false
+  xy: 861, 130
+  size: 157, 58
+  orig: 160, 64
+  offset: 0, 3
+  index: -1
+effects1/skilla/dianliu/dianliu_000
+  rotate: true
+  xy: 510, 238
+  size: 88, 114
+  orig: 200, 200
+  offset: 49, 37
+  index: -1
+effects1/skilla/dianliu/dianliu_003
+  rotate: true
+  xy: 819, 190
+  size: 150, 172
+  orig: 200, 200
+  offset: 19, 16
+  index: -1
+effects1/skilla/dianliu/dianliu_007
+  rotate: false
+  xy: 655, 189
+  size: 162, 176
+  orig: 200, 200
+  offset: 15, 14
+  index: -1
+effects1/skilla/dianqiu/dianqiu_000
+  rotate: true
+  xy: 501, 22
+  size: 210, 152
+  orig: 240, 160
+  offset: 12, 5
+  index: -1
+effects1/skilla/dianqiu/dianqiu_001
+  rotate: true
+  xy: 510, 328
+  size: 200, 143
+  orig: 240, 160
+  offset: 17, 9
+  index: -1
+effects1/skilla/dianqiu/dianqiu_002
+  rotate: false
+  xy: 823, 342
+  size: 199, 144
+  orig: 240, 160
+  offset: 20, 8
+  index: -1
+effects1/skilla/dianqiu/dianqiu_004
+  rotate: false
+  xy: 825, 488
+  size: 197, 149
+  orig: 240, 160
+  offset: 18, 8
+  index: -1
+effects1/skilla/dianqiu/dianqiu_005
+  rotate: true
+  xy: 256, 550
+  size: 205, 149
+  orig: 240, 160
+  offset: 14, 3
+  index: -1
+effects1/skilla/dianqiu/dianqiu_006
+  rotate: true
+  xy: 407, 557
+  size: 198, 153
+  orig: 240, 160
+  offset: 18, 2
+  index: -1
+effects1/skilla/dianqiu/dianqiu_007
+  rotate: true
+  xy: 182, 19
+  size: 213, 154
+  orig: 240, 160
+  offset: 10, 2
+  index: -1
+effects1/skilla/hit/hit_000
+  rotate: false
+  xy: 2, 234
+  size: 252, 252
+  orig: 280, 280
+  offset: 14, 14
+  index: -1
+effects1/skilla/hit/hit_001
+  rotate: false
+  xy: 2, 503
+  size: 252, 252
+  orig: 280, 280
+  offset: 14, 14
+  index: -1
+effects1/skilla/hit/hit_002
+  rotate: false
+  xy: 256, 234
+  size: 252, 252
+  orig: 280, 280
+  offset: 14, 14
+  index: -1
+effects1/skilla/hit/hit_004
+  rotate: false
+  xy: 565, 767
+  size: 262, 255
+  orig: 280, 280
+  offset: 10, 7
+  index: -1
+effects1/skilla/hit/hit_006
+  rotate: false
+  xy: 284, 757
+  size: 279, 265
+  orig: 280, 280
+  offset: 0, 0
+  index: -1
+effects1/skilla/hit/hit_008
+  rotate: false
+  xy: 2, 757
+  size: 280, 265
+  orig: 280, 280
+  offset: 0, 0
+  index: -1
+effects1/skilla/hit/hit_010
+  rotate: false
+  xy: 565, 530
+  size: 258, 235
+  orig: 280, 280
+  offset: 16, 14
+  index: -1
+effects1/skilla/hit/hit_012
+  rotate: false
+  xy: 829, 861
+  size: 193, 161
+  orig: 280, 280
+  offset: 55, 58
+  index: -1
+effects1/skilla/tuji/tuji_000
+  rotate: false
+  xy: 655, 367
+  size: 166, 161
+  orig: 240, 240
+  offset: 4, 34
+  index: -1
+effects1/skilla/tuji/tuji_002
+  rotate: true
+  xy: 338, 21
+  size: 211, 161
+  orig: 240, 240
+  offset: 3, 34
+  index: -1
+effects1/skilla/tuji/tuji_004
+  rotate: true
+  xy: 2, 14
+  size: 218, 178
+  orig: 240, 240
+  offset: 0, 28
+  index: -1
+effects1/skilla/tuji/tuji_006
+  rotate: true
+  xy: 829, 639
+  size: 220, 192
+  orig: 240, 240
+  offset: 0, 12
+  index: -1
+effects1/skilla/tuji/tuji_008
+  rotate: false
+  xy: 655, 4
+  size: 204, 183
+  orig: 240, 240
+  offset: 13, 22
+  index: -1
+
+effects_31103_skillA2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects1/chang/shandian/shandian_000
+  rotate: true
+  xy: 131, 4
+  size: 119, 118
+  orig: 144, 144
+  offset: 13, 12
+  index: -1
+effects1/chang/shandian/shandian_002
+  rotate: false
+  xy: 395, 276
+  size: 112, 118
+  orig: 144, 144
+  offset: 17, 12
+  index: -1
+effects1/chang/shandian/shandian_004
+  rotate: true
+  xy: 363, 15
+  size: 108, 105
+  orig: 144, 144
+  offset: 20, 14
+  index: -1
+effects1/chang/shandian/shandian_006
+  rotate: true
+  xy: 2, 234
+  size: 104, 108
+  orig: 144, 144
+  offset: 23, 15
+  index: -1
+effects1/chang/shandian/shandian_008
+  rotate: true
+  xy: 251, 80
+  size: 109, 110
+  orig: 144, 144
+  offset: 17, 17
+  index: -1
+effects1/chang/shandian/shandian_010
+  rotate: true
+  xy: 395, 396
+  size: 114, 115
+  orig: 144, 144
+  offset: 13, 18
+  index: -1
+effects1/chang/shandian/shandian_013
+  rotate: false
+  xy: 2, 4
+  size: 127, 119
+  orig: 144, 144
+  offset: 9, 14
+  index: -1
+effects1/glow
+  rotate: false
+  xy: 112, 258
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+effects1/guangci_000
+  rotate: false
+  xy: 2, 136
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+effects1/skilla/dianliu/dianliu_001
+  rotate: false
+  xy: 373, 125
+  size: 130, 149
+  orig: 200, 200
+  offset: 28, 21
+  index: -1
+effects1/skilla/dianliu/dianliu_005
+  rotate: true
+  xy: 199, 191
+  size: 169, 172
+  orig: 200, 200
+  offset: 13, 14
+  index: -1
+effects1/skilla/dianqiu/dianqiu_003
+  rotate: false
+  xy: 199, 362
+  size: 194, 148
+  orig: 240, 160
+  offset: 20, 9
+  index: -1
+effects1/skilla/tuji/tuji_010
+  rotate: false
+  xy: 2, 340
+  size: 195, 170
+  orig: 240, 240
+  offset: 22, 25
+  index: -1

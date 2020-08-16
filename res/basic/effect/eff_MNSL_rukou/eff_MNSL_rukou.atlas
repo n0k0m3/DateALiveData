@@ -1,0 +1,20 @@
+
+eff_MNSL_rukou.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+rukou/lizi
+  rotate: false
+  xy: 2, 2
+  size: 41, 41
+  orig: 41, 41
+  offset: 0, 0
+  index: -1
+rukou/yumao
+  rotate: false
+  xy: 2, 45
+  size: 142, 118
+  orig: 142, 118
+  offset: 0, 0
+  index: -1

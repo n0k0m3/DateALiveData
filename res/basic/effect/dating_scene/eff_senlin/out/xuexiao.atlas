@@ -1,0 +1,40 @@
+
+xuexiao.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow_00000
+  rotate: true
+  xy: 2, 64
+  size: 53, 139
+  orig: 53, 139
+  offset: 0, 0
+  index: -1
+lizi
+  rotate: false
+  xy: 2, 47
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+yangguang_00119
+  rotate: false
+  xy: 2, 119
+  size: 250, 133
+  orig: 250, 133
+  offset: 0, 0
+  index: -1
+
+xuexiao2.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow_00060
+  rotate: false
+  xy: 2, 5
+  size: 123, 120
+  orig: 123, 120
+  offset: 0, 0
+  index: -1

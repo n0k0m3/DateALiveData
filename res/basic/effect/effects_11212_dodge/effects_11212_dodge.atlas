@@ -1,0 +1,306 @@
+
+effects_11212_dodge.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_H/dodge/baodian/baodian_020
+  rotate: false
+  xy: 833, 382
+  size: 184, 136
+  orig: 300, 250
+  offset: 52, 66
+  index: -1
+images/effects_H/dodge/baodian/baodian_022
+  rotate: true
+  xy: 833, 64
+  size: 258, 183
+  orig: 300, 250
+  offset: 18, 44
+  index: -1
+images/effects_H/dodge/baodian/baodian_024
+  rotate: false
+  xy: 532, 29
+  size: 279, 189
+  orig: 300, 250
+  offset: 8, 37
+  index: -1
+images/effects_H/dodge/baodian/baodian_026
+  rotate: false
+  xy: 2, 13
+  size: 286, 205
+  orig: 300, 250
+  offset: 3, 31
+  index: -1
+images/effects_H/dodge/dimian/dimian_003
+  rotate: false
+  xy: 833, 324
+  size: 184, 56
+  orig: 250, 150
+  offset: 35, 40
+  index: -1
+images/effects_H/dodge/dimian/dimian_011
+  rotate: false
+  xy: 813, 13
+  size: 180, 49
+  orig: 250, 150
+  offset: 35, 43
+  index: -1
+images/effects_H/dodge/dimian/dimian_013
+  rotate: false
+  xy: 833, 911
+  size: 188, 52
+  orig: 250, 150
+  offset: 31, 41
+  index: -1
+images/effects_H/dodge/dimian/dimian_021
+  rotate: false
+  xy: 833, 572
+  size: 186, 51
+  orig: 250, 150
+  offset: 32, 41
+  index: -1
+images/effects_H/dodge/dimian/dimian_023
+  rotate: false
+  xy: 833, 520
+  size: 186, 50
+  orig: 250, 150
+  offset: 32, 42
+  index: -1
+images/effects_H/dodge/luolei/luolei_000
+  rotate: true
+  xy: 290, 26
+  size: 192, 240
+  orig: 200, 400
+  offset: 8, 160
+  index: -1
+images/effects_H/dodge/luolei/luolei_001
+  rotate: false
+  xy: 426, 220
+  size: 137, 400
+  orig: 200, 400
+  offset: 42, 0
+  index: -1
+images/effects_H/dodge/luolei/luolei_002
+  rotate: false
+  xy: 2, 220
+  size: 140, 400
+  orig: 200, 400
+  offset: 39, 0
+  index: -1
+images/effects_H/dodge/luolei/luolei_003
+  rotate: false
+  xy: 428, 622
+  size: 137, 400
+  orig: 200, 400
+  offset: 42, 0
+  index: -1
+images/effects_H/dodge/luolei/luolei_005
+  rotate: false
+  xy: 2, 622
+  size: 142, 400
+  orig: 200, 400
+  offset: 37, 0
+  index: -1
+images/effects_H/dodge/luolei/luolei_007
+  rotate: false
+  xy: 565, 220
+  size: 137, 400
+  orig: 200, 400
+  offset: 42, 0
+  index: -1
+images/effects_H/dodge/luolei/luolei_009
+  rotate: false
+  xy: 286, 220
+  size: 138, 400
+  orig: 200, 400
+  offset: 41, 0
+  index: -1
+images/effects_H/dodge/luolei/luolei_011
+  rotate: false
+  xy: 144, 220
+  size: 140, 400
+  orig: 200, 400
+  offset: 39, 0
+  index: -1
+images/effects_H/dodge/luolei/luolei_013
+  rotate: false
+  xy: 567, 622
+  size: 137, 400
+  orig: 200, 400
+  offset: 42, 0
+  index: -1
+images/effects_H/dodge/luolei/luolei_015
+  rotate: false
+  xy: 288, 622
+  size: 138, 400
+  orig: 200, 400
+  offset: 41, 0
+  index: -1
+images/effects_H/dodge/luolei/luolei_017
+  rotate: false
+  xy: 146, 622
+  size: 140, 400
+  orig: 200, 400
+  offset: 37, 0
+  index: -1
+images/effects_H/dodge/luolei/luolei_019
+  rotate: false
+  xy: 704, 220
+  size: 127, 400
+  orig: 200, 400
+  offset: 47, 0
+  index: -1
+images/effects_H/glow1_034
+  rotate: false
+  xy: 833, 965
+  size: 189, 57
+  orig: 250, 200
+  offset: 29, 73
+  index: -1
+images/effects_H/glow_000
+  rotate: false
+  xy: 706, 926
+  size: 96, 96
+  orig: 100, 100
+  offset: 2, 2
+  index: -1
+images/effects_H/win/yuan1_000
+  rotate: false
+  xy: 706, 625
+  size: 283, 284
+  orig: 300, 300
+  offset: 8, 7
+  index: -1
+
+effects_11212_dodge2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_H/dodge/baodian/baodian_021
+  rotate: true
+  xy: 94, 212
+  size: 238, 160
+  orig: 300, 250
+  offset: 28, 51
+  index: -1
+images/effects_H/dodge/baodian/baodian_028
+  rotate: false
+  xy: 94, 91
+  size: 139, 119
+  orig: 300, 250
+  offset: 75, 74
+  index: -1
+images/effects_H/dodge/baodian/baodian_030
+  rotate: false
+  xy: 448, 778
+  size: 137, 109
+  orig: 300, 250
+  offset: 77, 74
+  index: -1
+images/effects_H/dodge/baodian/hei_020
+  rotate: false
+  xy: 295, 739
+  size: 151, 148
+  orig: 300, 250
+  offset: 64, 59
+  index: -1
+images/effects_H/dodge/dimian/dimian_005
+  rotate: true
+  xy: 326, 583
+  size: 154, 47
+  orig: 250, 150
+  offset: 50, 46
+  index: -1
+images/effects_H/dodge/dimian/dimian_007
+  rotate: false
+  xy: 448, 732
+  size: 146, 44
+  orig: 250, 150
+  offset: 54, 48
+  index: -1
+images/effects_H/dodge/dimian/dimian_009
+  rotate: true
+  xy: 278, 564
+  size: 164, 46
+  orig: 250, 150
+  offset: 43, 45
+  index: -1
+images/effects_H/dodge/dimian/dimian_015
+  rotate: false
+  xy: 420, 550
+  size: 145, 42
+  orig: 250, 150
+  offset: 53, 49
+  index: -1
+images/effects_H/dodge/dimian/dimian_017
+  rotate: true
+  xy: 375, 586
+  size: 151, 43
+  orig: 250, 150
+  offset: 50, 48
+  index: -1
+images/effects_H/dodge/dimian/dimian_019
+  rotate: true
+  xy: 256, 274
+  size: 176, 49
+  orig: 250, 150
+  offset: 37, 43
+  index: -1
+images/effects_H/dodge/dimian/dimian_025
+  rotate: false
+  xy: 420, 640
+  size: 147, 44
+  orig: 250, 150
+  offset: 50, 48
+  index: -1
+images/effects_H/dodge/dimian/dimian_027
+  rotate: false
+  xy: 420, 686
+  size: 148, 44
+  orig: 250, 150
+  offset: 50, 48
+  index: -1
+images/effects_H/dodge/dimian/dimian_029
+  rotate: false
+  xy: 420, 594
+  size: 147, 44
+  orig: 250, 150
+  offset: 51, 48
+  index: -1
+images/effects_H/dodge/luolei/luolei_021
+  rotate: true
+  xy: 295, 889
+  size: 133, 368
+  orig: 200, 400
+  offset: 42, 32
+  index: -1
+images/effects_H/dodge/luolei/luolei_023
+  rotate: true
+  xy: 665, 893
+  size: 129, 357
+  orig: 200, 400
+  offset: 37, 43
+  index: -1
+images/effects_H/dodge/luolei/luolei_025
+  rotate: false
+  xy: 2, 81
+  size: 90, 369
+  orig: 200, 400
+  offset: 59, 31
+  index: -1
+images/effects_H/win/yuan2_000
+  rotate: false
+  xy: 2, 730
+  size: 291, 292
+  orig: 300, 300
+  offset: 5, 4
+  index: -1
+images/effects_H/win/yuan_000
+  rotate: false
+  xy: 2, 452
+  size: 274, 276
+  orig: 300, 300
+  offset: 9, 13
+  index: -1

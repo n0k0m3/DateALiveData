@@ -1,0 +1,120 @@
+{
+"skeleton": { "hash": "dXK7mO86FVkTNx9Jc8Z2VTjW+Xg", "spine": "2.1.27", "width": 0, "height": 0, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "huohua1", "parent": "bone" }
+],
+"slots": [
+	{ "name": "huohua", "bone": "bone", "blend": "additive" },
+	{ "name": "sucai/huohua/普通街道-破坏20180503_00001", "bone": "huohua1", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"huohua": {
+			"sucai/huohua/20180503_00001": { "width": 91, "height": 76 },
+			"sucai/huohua/20180503_00002": { "width": 110, "height": 103 },
+			"sucai/huohua/20180503_00003": { "width": 120, "height": 121 },
+			"sucai/huohua/20180503_00004": { "width": 111, "height": 131 }
+		},
+		"sucai/huohua/普通街道-破坏20180503_00001": {
+			"sucai/huohua/20180503_00001": { "width": 91, "height": 76 },
+			"sucai/huohua/20180503_00002": { "width": 110, "height": 103 },
+			"sucai/huohua/20180503_00003": { "width": 120, "height": 121 },
+			"sucai/huohua/20180503_00004": { "width": 111, "height": 131 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"huohua": {
+				"attachment": [
+					{ "time": 0, "name": "sucai/huohua/20180503_00001" },
+					{ "time": 0.1666, "name": "sucai/huohua/20180503_00002" },
+					{ "time": 0.3333, "name": "sucai/huohua/20180503_00003" },
+					{ "time": 0.3666, "name": null },
+					{ "time": 0.8333, "name": "sucai/huohua/20180503_00001" },
+					{ "time": 0.9333, "name": "sucai/huohua/20180503_00002" },
+					{ "time": 1.0333, "name": "sucai/huohua/20180503_00003" },
+					{ "time": 1.1, "name": "sucai/huohua/20180503_00004" },
+					{ "time": 1.1333, "name": null },
+					{ "time": 1.3333, "name": "sucai/huohua/20180503_00001" },
+					{ "time": 1.4, "name": "sucai/huohua/20180503_00002" },
+					{ "time": 1.4666, "name": "sucai/huohua/20180503_00003" },
+					{ "time": 1.5333, "name": "sucai/huohua/20180503_00004" },
+					{ "time": 1.5666, "name": null },
+					{ "time": 3.3333, "name": "sucai/huohua/20180503_00001" },
+					{ "time": 3.5, "name": "sucai/huohua/20180503_00002" },
+					{ "time": 3.6666, "name": "sucai/huohua/20180503_00003" },
+					{ "time": 3.7, "name": null },
+					{ "time": 4.1666, "name": "sucai/huohua/20180503_00001" },
+					{ "time": 4.2666, "name": "sucai/huohua/20180503_00002" },
+					{ "time": 4.3666, "name": "sucai/huohua/20180503_00003" },
+					{ "time": 4.4333, "name": "sucai/huohua/20180503_00004" },
+					{ "time": 4.4666, "name": null },
+					{ "time": 4.6666, "name": "sucai/huohua/20180503_00001" },
+					{ "time": 4.7333, "name": "sucai/huohua/20180503_00002" },
+					{ "time": 4.8, "name": "sucai/huohua/20180503_00003" },
+					{ "time": 4.8666, "name": "sucai/huohua/20180503_00004" },
+					{ "time": 4.9, "name": null },
+					{ "time": 6.6666, "name": "sucai/huohua/20180503_00001" },
+					{ "time": 6.8333, "name": "sucai/huohua/20180503_00002" },
+					{ "time": 7, "name": "sucai/huohua/20180503_00003" },
+					{ "time": 7.0333, "name": null },
+					{ "time": 7.5, "name": "sucai/huohua/20180503_00001" },
+					{ "time": 7.6, "name": "sucai/huohua/20180503_00002" },
+					{ "time": 7.7, "name": "sucai/huohua/20180503_00003" },
+					{ "time": 7.7666, "name": "sucai/huohua/20180503_00004" },
+					{ "time": 7.8, "name": null },
+					{ "time": 8, "name": "sucai/huohua/20180503_00001" },
+					{ "time": 8.0666, "name": "sucai/huohua/20180503_00002" },
+					{ "time": 8.1333, "name": "sucai/huohua/20180503_00003" },
+					{ "time": 8.2, "name": "sucai/huohua/20180503_00004" },
+					{ "time": 8.2333, "name": null }
+				]
+			},
+			"sucai/huohua/普通街道-破坏20180503_00001": {
+				"attachment": [
+					{ "time": 0.2666, "name": "sucai/huohua/20180503_00001" },
+					{ "time": 0.3333, "name": "sucai/huohua/20180503_00002" },
+					{ "time": 0.4, "name": "sucai/huohua/20180503_00003" },
+					{ "time": 0.4666, "name": "sucai/huohua/20180503_00004" },
+					{ "time": 0.5333, "name": null },
+					{ "time": 2.6666, "name": "sucai/huohua/20180503_00001" },
+					{ "time": 2.7333, "name": "sucai/huohua/20180503_00002" },
+					{ "time": 2.8, "name": "sucai/huohua/20180503_00003" },
+					{ "time": 2.8666, "name": "sucai/huohua/20180503_00004" },
+					{ "time": 2.9, "name": null },
+					{ "time": 5.3333, "name": "sucai/huohua/20180503_00001" },
+					{ "time": 5.4, "name": "sucai/huohua/20180503_00002" },
+					{ "time": 5.4666, "name": "sucai/huohua/20180503_00003" },
+					{ "time": 5.5333, "name": "sucai/huohua/20180503_00004" },
+					{ "time": 7.9666, "name": "sucai/huohua/20180503_00001" },
+					{ "time": 8.0333, "name": "sucai/huohua/20180503_00002" },
+					{ "time": 8.1, "name": "sucai/huohua/20180503_00003" },
+					{ "time": 8.1666, "name": "sucai/huohua/20180503_00004" },
+					{ "time": 8.2, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"translate": [
+					{ "time": 0, "x": -1076.43, "y": 263.16, "curve": "stepped" },
+					{ "time": 3.3333, "x": -1076.43, "y": 263.16, "curve": "stepped" },
+					{ "time": 6.6666, "x": -1076.43, "y": 263.16 }
+				]
+			},
+			"huohua1": {
+				"rotate": [
+					{ "time": 0.2666, "angle": 33.14 }
+				],
+				"translate": [
+					{ "time": 0.2666, "x": 1425.41, "y": -94.95 }
+				]
+			}
+		}
+	}
+}
+}

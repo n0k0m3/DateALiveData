@@ -1,0 +1,41 @@
+
+effects_30102_skillB.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+qiuzi
+  rotate: false
+  xy: 2, 76
+  size: 154, 148
+  orig: 158, 151
+  offset: 0, 3
+  index: -1
+zidan0001
+  rotate: false
+  xy: 2, 39
+  size: 142, 35
+  orig: 149, 46
+  offset: 1, 7
+  index: -1
+zidan0002
+  rotate: true
+  xy: 158, 82
+  size: 142, 35
+  orig: 149, 46
+  offset: 1, 7
+  index: -1
+zidan0003
+  rotate: false
+  xy: 2, 2
+  size: 142, 35
+  orig: 149, 46
+  offset: 1, 7
+  index: -1
+zidan0004
+  rotate: true
+  xy: 195, 82
+  size: 142, 35
+  orig: 149, 46
+  offset: 1, 7
+  index: -1

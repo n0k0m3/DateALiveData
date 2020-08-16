@@ -1,0 +1,355 @@
+
+effects_10111_skillC.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillC/daoguang/daoguang_00000
+  rotate: false
+  xy: 257, 770
+  size: 245, 252
+  orig: 255, 255
+  offset: 10, 3
+  index: -1
+images/effects/skillC/daoguang/daoguang_00001
+  rotate: true
+  xy: 2, 509
+  size: 254, 246
+  orig: 255, 255
+  offset: 1, 3
+  index: -1
+images/effects/skillC/daoguang/daoguang_00002
+  rotate: true
+  xy: 2, 252
+  size: 255, 232
+  orig: 255, 255
+  offset: 0, 3
+  index: -1
+images/effects/skillC/daoguang/daoguang_00003
+  rotate: false
+  xy: 742, 802
+  size: 253, 220
+  orig: 255, 255
+  offset: 2, 4
+  index: -1
+images/effects/skillC/daoguang/daoguang_00004
+  rotate: true
+  xy: 2, 2
+  size: 248, 203
+  orig: 255, 255
+  offset: 1, 9
+  index: -1
+images/effects/skillC/guiji/guiji_00002
+  rotate: true
+  xy: 741, 144
+  size: 207, 231
+  orig: 255, 255
+  offset: 44, 7
+  index: -1
+images/effects/skillC/guiji/guiji_00004
+  rotate: true
+  xy: 504, 344
+  size: 210, 235
+  orig: 255, 255
+  offset: 45, 4
+  index: -1
+images/effects/skillC/zuihou/daoguangnor_00000
+  rotate: false
+  xy: 742, 581
+  size: 245, 219
+  orig: 255, 255
+  offset: 6, 19
+  index: -1
+images/effects/skillC/zuihou/daoguangnor_00001
+  rotate: false
+  xy: 496, 126
+  size: 240, 216
+  orig: 255, 255
+  offset: 9, 20
+  index: -1
+images/effects/skillC/zuihou/daoguangnor_00002
+  rotate: false
+  xy: 250, 318
+  size: 244, 222
+  orig: 255, 255
+  offset: 8, 17
+  index: -1
+images/effects/skillC/zuihou/daoguangnor_00003
+  rotate: true
+  xy: 207, 4
+  size: 246, 224
+  orig: 255, 255
+  offset: 8, 16
+  index: -1
+images/effects/skillC/zuihou/daoguangnor_00004
+  rotate: false
+  xy: 257, 542
+  size: 245, 226
+  orig: 255, 255
+  offset: 10, 15
+  index: -1
+images/effects/skillC/zuihou/daoguangnor_00005
+  rotate: false
+  xy: 742, 353
+  size: 243, 226
+  orig: 255, 255
+  offset: 12, 15
+  index: -1
+images/effects/skillC/zuihou/daoguangnor_00006
+  rotate: false
+  xy: 504, 556
+  size: 236, 225
+  orig: 255, 255
+  offset: 19, 15
+  index: -1
+images/effects/skillC/zuihou/lizi_00003
+  rotate: true
+  xy: 738, 2
+  size: 140, 120
+  orig: 255, 255
+  offset: 46, 72
+  index: -1
+images/effects/skillC/zuihou/lizi_00005
+  rotate: false
+  xy: 860, 5
+  size: 155, 137
+  orig: 255, 255
+  offset: 46, 56
+  index: -1
+images/effects/skillC/zuihou/lizi_00013
+  rotate: true
+  xy: 433, 10
+  size: 114, 135
+  orig: 255, 255
+  offset: 123, 26
+  index: -1
+images/effects/skillC/zuihou/lizi_00017
+  rotate: true
+  xy: 236, 273
+  size: 43, 92
+  orig: 255, 255
+  offset: 183, 30
+  index: -1
+images/effects/skillC/zuihou/yanwunor_00003
+  rotate: false
+  xy: 570, 9
+  size: 126, 115
+  orig: 255, 255
+  offset: 79, 67
+  index: -1
+images/effects/skillC/zuihou/zuihouadd_00001
+  rotate: false
+  xy: 2, 765
+  size: 253, 257
+  orig: 281, 281
+  offset: 15, 20
+  index: -1
+images/effects/skillC/zuihou/zuihouadd_00003
+  rotate: false
+  xy: 504, 783
+  size: 236, 239
+  orig: 281, 281
+  offset: 22, 28
+  index: -1
+
+effects_10111_skillC2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillC/daoguang/daoguang_00005
+  rotate: false
+  xy: 197, 842
+  size: 226, 180
+  orig: 255, 255
+  offset: 15, 17
+  index: -1
+images/effects/skillC/daoguang/daoguang_00006
+  rotate: false
+  xy: 425, 851
+  size: 223, 171
+  orig: 255, 255
+  offset: 16, 27
+  index: -1
+images/effects/skillC/daoguang2/daoguang2_00000
+  rotate: true
+  xy: 701, 651
+  size: 70, 129
+  orig: 204, 204
+  offset: 130, 31
+  index: -1
+images/effects/skillC/daoguang2/daoguang2_00001
+  rotate: true
+  xy: 844, 834
+  size: 188, 167
+  orig: 204, 204
+  offset: 8, 29
+  index: -1
+images/effects/skillC/daoguang2/daoguang2_00003
+  rotate: false
+  xy: 197, 656
+  size: 187, 184
+  orig: 204, 204
+  offset: 5, 9
+  index: -1
+images/effects/skillC/daoguang2/daoguang2_00005
+  rotate: true
+  xy: 194, 490
+  size: 164, 185
+  orig: 204, 204
+  offset: 14, 4
+  index: -1
+images/effects/skillC/daoguang2/daoguang2_00007
+  rotate: false
+  xy: 189, 172
+  size: 161, 169
+  orig: 204, 204
+  offset: 16, 8
+  index: -1
+images/effects/skillC/guiji/guiji_00000
+  rotate: false
+  xy: 2, 573
+  size: 190, 219
+  orig: 255, 255
+  offset: 54, 15
+  index: -1
+images/effects/skillC/guiji/guiji_00006
+  rotate: false
+  xy: 2, 794
+  size: 193, 228
+  orig: 255, 255
+  offset: 58, 7
+  index: -1
+images/effects/skillC/guiji/guiji_00008
+  rotate: true
+  xy: 2, 162
+  size: 196, 185
+  orig: 255, 255
+  offset: 58, 34
+  index: -1
+images/effects/skillC/xu/xu_00000
+  rotate: false
+  xy: 386, 678
+  size: 162, 162
+  orig: 179, 179
+  offset: 8, 11
+  index: -1
+images/effects/skillC/xu/xu_00002
+  rotate: false
+  xy: 833, 680
+  size: 152, 152
+  orig: 179, 179
+  offset: 13, 16
+  index: -1
+images/effects/skillC/xu/xu_00004
+  rotate: false
+  xy: 701, 723
+  size: 130, 127
+  orig: 179, 179
+  offset: 33, 21
+  index: -1
+images/effects/skillC/xu/xu_00006
+  rotate: false
+  xy: 832, 557
+  size: 124, 121
+  orig: 179, 179
+  offset: 37, 23
+  index: -1
+images/effects/skillC/xu/xu_00008
+  rotate: false
+  xy: 506, 564
+  size: 91, 112
+  orig: 179, 179
+  offset: 64, 25
+  index: -1
+images/effects/skillC/xu/xu_00009
+  rotate: false
+  xy: 599, 581
+  size: 85, 112
+  orig: 179, 179
+  offset: 66, 26
+  index: -1
+images/effects/skillC/zuihou/lizi_00001
+  rotate: true
+  xy: 381, 447
+  size: 113, 117
+  orig: 255, 255
+  offset: 47, 74
+  index: -1
+images/effects/skillC/zuihou/lizi_00007
+  rotate: false
+  xy: 2, 2
+  size: 164, 158
+  orig: 255, 255
+  offset: 55, 28
+  index: -1
+images/effects/skillC/zuihou/lizi_00009
+  rotate: false
+  xy: 550, 695
+  size: 149, 154
+  orig: 255, 255
+  offset: 87, 26
+  index: -1
+images/effects/skillC/zuihou/lizi_00011
+  rotate: true
+  xy: 352, 195
+  size: 146, 144
+  orig: 255, 255
+  offset: 93, 26
+  index: -1
+images/effects/skillC/zuihou/lizi_00015
+  rotate: false
+  xy: 686, 548
+  size: 101, 101
+  orig: 255, 255
+  offset: 132, 27
+  index: -1
+images/effects/skillC/zuihou/yanwunor_00005
+  rotate: false
+  xy: 352, 79
+  size: 121, 114
+  orig: 255, 255
+  offset: 85, 73
+  index: -1
+images/effects/skillC/zuihou/yanwunor_00007
+  rotate: true
+  xy: 386, 562
+  size: 114, 118
+  orig: 255, 255
+  offset: 86, 66
+  index: -1
+images/effects/skillC/zuihou/yanwunor_00009
+  rotate: false
+  xy: 380, 343
+  size: 110, 102
+  orig: 255, 255
+  offset: 90, 66
+  index: -1
+images/effects/skillC/zuihou/yanwunor_00010
+  rotate: false
+  xy: 475, 103
+  size: 71, 90
+  orig: 255, 255
+  offset: 106, 78
+  index: -1
+images/effects/skillC/zuihou/zuihouadd_00005
+  rotate: false
+  xy: 2, 360
+  size: 189, 211
+  orig: 281, 281
+  offset: 60, 42
+  index: -1
+images/effects/skillC/zuihou/zuihouadd_00007
+  rotate: true
+  xy: 650, 852
+  size: 170, 192
+  orig: 281, 281
+  offset: 75, 52
+  index: -1
+images/effects/skillC/zuihou/zuihouadd_00009
+  rotate: true
+  xy: 193, 343
+  size: 145, 185
+  orig: 281, 281
+  offset: 88, 56
+  index: -1

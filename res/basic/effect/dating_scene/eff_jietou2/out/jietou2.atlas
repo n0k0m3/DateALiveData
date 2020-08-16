@@ -1,0 +1,34 @@
+
+jietou2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow_00055
+  rotate: false
+  xy: 2, 229
+  size: 230, 279
+  orig: 279, 279
+  offset: 19, 0
+  index: -1
+glow_00056
+  rotate: false
+  xy: 234, 229
+  size: 230, 279
+  orig: 279, 279
+  offset: 19, 0
+  index: -1
+glow_00060
+  rotate: true
+  xy: 277, 16
+  size: 211, 169
+  orig: 279, 279
+  offset: 3, 55
+  index: -1
+yangguang_00000
+  rotate: false
+  xy: 2, 2
+  size: 273, 225
+  orig: 279, 279
+  offset: 2, 26
+  index: -1

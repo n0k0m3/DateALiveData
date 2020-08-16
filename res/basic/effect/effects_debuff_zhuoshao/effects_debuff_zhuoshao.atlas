@@ -1,0 +1,377 @@
+
+effects_debuff_zhuoshao.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+huoyan/huoyan_00000
+  rotate: false
+  xy: 69, 431
+  size: 58, 79
+  orig: 58, 79
+  offset: 0, 0
+  index: -1
+huoyan/huoyan_00001
+  rotate: false
+  xy: 2, 254
+  size: 58, 79
+  orig: 58, 79
+  offset: 0, 0
+  index: -1
+huoyan/huoyan_00002
+  rotate: false
+  xy: 122, 210
+  size: 58, 78
+  orig: 58, 79
+  offset: 0, 0
+  index: -1
+huoyan/huoyan_00003
+  rotate: false
+  xy: 69, 350
+  size: 58, 79
+  orig: 58, 79
+  offset: 0, 0
+  index: -1
+huoyan/huoyan_00004
+  rotate: false
+  xy: 62, 48
+  size: 58, 78
+  orig: 58, 79
+  offset: 0, 0
+  index: -1
+huoyan/huoyan_00005
+  rotate: false
+  xy: 122, 130
+  size: 58, 78
+  orig: 58, 79
+  offset: 0, 0
+  index: -1
+huoyan/huoyan_00006
+  rotate: false
+  xy: 182, 132
+  size: 58, 76
+  orig: 58, 79
+  offset: 0, 0
+  index: -1
+huoyan/huoyan_00007
+  rotate: false
+  xy: 129, 431
+  size: 58, 79
+  orig: 58, 79
+  offset: 0, 0
+  index: -1
+huoyan/huoyan_00008
+  rotate: false
+  xy: 2, 173
+  size: 58, 79
+  orig: 58, 79
+  offset: 0, 0
+  index: -1
+huoyan/huoyan_00009
+  rotate: false
+  xy: 129, 350
+  size: 58, 79
+  orig: 58, 79
+  offset: 0, 0
+  index: -1
+huoyan/huoyan_00010
+  rotate: false
+  xy: 189, 431
+  size: 58, 79
+  orig: 58, 79
+  offset: 0, 0
+  index: -1
+huoyan/huoyan_00011
+  rotate: false
+  xy: 2, 92
+  size: 58, 79
+  orig: 58, 79
+  offset: 0, 0
+  index: -1
+huoyan/huoyan_00012
+  rotate: false
+  xy: 189, 350
+  size: 58, 79
+  orig: 58, 79
+  offset: 0, 0
+  index: -1
+huoyan/huoyan_00013
+  rotate: false
+  xy: 249, 431
+  size: 58, 79
+  orig: 58, 79
+  offset: 0, 0
+  index: -1
+huoyan/huoyan_00014
+  rotate: false
+  xy: 2, 11
+  size: 58, 79
+  orig: 58, 79
+  offset: 0, 0
+  index: -1
+huoyan/huoyan_00015
+  rotate: false
+  xy: 249, 350
+  size: 58, 79
+  orig: 58, 79
+  offset: 0, 0
+  index: -1
+huoyan/huoyan_00016
+  rotate: false
+  xy: 309, 431
+  size: 58, 79
+  orig: 58, 79
+  offset: 0, 0
+  index: -1
+huoyan/huoyan_00017
+  rotate: false
+  xy: 309, 350
+  size: 58, 79
+  orig: 58, 79
+  offset: 0, 0
+  index: -1
+huoyan/huoyan_00018
+  rotate: false
+  xy: 182, 210
+  size: 58, 78
+  orig: 58, 79
+  offset: 0, 0
+  index: -1
+huoyan/huoyan_00019
+  rotate: false
+  xy: 369, 431
+  size: 58, 79
+  orig: 58, 79
+  offset: 0, 0
+  index: -1
+huoyan/huoyan_00020
+  rotate: false
+  xy: 369, 350
+  size: 58, 79
+  orig: 58, 79
+  offset: 0, 0
+  index: -1
+huoyan/huoyan_00021
+  rotate: false
+  xy: 429, 431
+  size: 58, 79
+  orig: 58, 79
+  offset: 0, 0
+  index: -1
+huoyan/huoyan_00022
+  rotate: false
+  xy: 429, 350
+  size: 58, 79
+  orig: 58, 79
+  offset: 0, 0
+  index: -1
+huoyan/huoyan_00023
+  rotate: true
+  xy: 69, 290
+  size: 58, 79
+  orig: 58, 79
+  offset: 0, 0
+  index: -1
+huoyan/huoyan_00024
+  rotate: true
+  xy: 150, 290
+  size: 58, 79
+  orig: 58, 79
+  offset: 0, 0
+  index: -1
+huoyan/huoyan_00025
+  rotate: true
+  xy: 231, 290
+  size: 58, 79
+  orig: 58, 79
+  offset: 0, 0
+  index: -1
+huoyan/huoyan_00026
+  rotate: true
+  xy: 312, 290
+  size: 58, 79
+  orig: 58, 79
+  offset: 0, 0
+  index: -1
+huoyan/huoyan_00027
+  rotate: true
+  xy: 393, 290
+  size: 58, 79
+  orig: 58, 79
+  offset: 0, 0
+  index: -1
+huoyan/huoyan_00028
+  rotate: false
+  xy: 122, 50
+  size: 58, 78
+  orig: 58, 79
+  offset: 0, 0
+  index: -1
+huoyan/huoyan_00029
+  rotate: false
+  xy: 62, 209
+  size: 58, 79
+  orig: 58, 79
+  offset: 0, 0
+  index: -1
+huoyan/huoyan_00030
+  rotate: false
+  xy: 62, 128
+  size: 58, 79
+  orig: 58, 79
+  offset: 0, 0
+  index: -1
+huoyan2/huoyan2_00002
+  rotate: false
+  xy: 446, 258
+  size: 30, 30
+  orig: 70, 94
+  offset: 8, 54
+  index: -1
+huoyan2/huoyan2_00003
+  rotate: false
+  xy: 62, 12
+  size: 32, 34
+  orig: 70, 94
+  offset: 8, 54
+  index: -1
+huoyan2/huoyan2_00004
+  rotate: false
+  xy: 474, 306
+  size: 36, 42
+  orig: 70, 94
+  offset: 8, 46
+  index: -1
+huoyan2/huoyan2_00005
+  rotate: false
+  xy: 304, 2
+  size: 38, 40
+  orig: 70, 94
+  offset: 8, 49
+  index: -1
+huoyan2/huoyan2_00006
+  rotate: false
+  xy: 305, 99
+  size: 56, 58
+  orig: 70, 94
+  offset: 6, 32
+  index: -1
+huoyan2/huoyan2_00007
+  rotate: false
+  xy: 244, 99
+  size: 59, 58
+  orig: 70, 94
+  offset: 6, 32
+  index: -1
+huoyan2/huoyan2_00008
+  rotate: true
+  xy: 312, 159
+  size: 63, 65
+  orig: 70, 94
+  offset: 5, 26
+  index: -1
+huoyan2/huoyan2_00009
+  rotate: false
+  xy: 379, 226
+  size: 65, 62
+  orig: 70, 94
+  offset: 5, 29
+  index: -1
+huoyan2/huoyan2_00010
+  rotate: false
+  xy: 379, 164
+  size: 66, 60
+  orig: 70, 94
+  offset: 4, 31
+  index: -1
+huoyan2/huoyan2_00011
+  rotate: true
+  xy: 182, 64
+  size: 66, 60
+  orig: 70, 94
+  offset: 4, 31
+  index: -1
+huoyan2/huoyan2_00012
+  rotate: false
+  xy: 2, 335
+  size: 65, 86
+  orig: 70, 94
+  offset: 5, 3
+  index: -1
+huoyan2/huoyan2_00013
+  rotate: false
+  xy: 2, 423
+  size: 65, 87
+  orig: 70, 94
+  offset: 5, 2
+  index: -1
+huoyan2/huoyan2_00014
+  rotate: false
+  xy: 312, 224
+  size: 65, 64
+  orig: 70, 94
+  offset: 5, 0
+  index: -1
+huoyan2/huoyan2_00015
+  rotate: false
+  xy: 242, 224
+  size: 68, 64
+  orig: 70, 94
+  offset: 2, 0
+  index: -1
+huoyan2/huoyan2_00016
+  rotate: false
+  xy: 242, 159
+  size: 68, 63
+  orig: 70, 94
+  offset: 1, 0
+  index: -1
+huoyan2/huoyan2_00017
+  rotate: false
+  xy: 242, 159
+  size: 68, 63
+  orig: 70, 94
+  offset: 1, 0
+  index: -1
+huoyan2/huoyan2_00018
+  rotate: false
+  xy: 244, 41
+  size: 58, 56
+  orig: 70, 94
+  offset: 0, 0
+  index: -1
+huoyan2/huoyan2_00019
+  rotate: false
+  xy: 244, 41
+  size: 58, 56
+  orig: 70, 94
+  offset: 0, 0
+  index: -1
+huoyan2/huoyan2_00020
+  rotate: false
+  xy: 304, 44
+  size: 57, 53
+  orig: 70, 94
+  offset: 0, 1
+  index: -1
+huoyan2/huoyan2_00021
+  rotate: false
+  xy: 304, 44
+  size: 57, 53
+  orig: 70, 94
+  offset: 0, 1
+  index: -1
+huoyan2/huoyan2_00022
+  rotate: false
+  xy: 122, 2
+  size: 53, 46
+  orig: 70, 94
+  offset: 3, 8
+  index: -1
+huoyan2/huoyan2_00023
+  rotate: false
+  xy: 122, 2
+  size: 53, 46
+  orig: 70, 94
+  offset: 3, 8
+  index: -1

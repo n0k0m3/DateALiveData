@@ -1,0 +1,41 @@
+
+18shuishangleyuan_guang.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+deng_00051
+  rotate: false
+  xy: 252, 306
+  size: 24, 26
+  orig: 80, 80
+  offset: 25, 27
+  index: -1
+glow_00060
+  rotate: false
+  xy: 252, 334
+  size: 182, 144
+  orig: 240, 240
+  offset: 2, 48
+  index: -1
+shuimian1_00068
+  rotate: false
+  xy: 2, 2
+  size: 240, 53
+  orig: 240, 240
+  offset: 0, 80
+  index: -1
+shuimian_00000
+  rotate: false
+  xy: 2, 245
+  size: 248, 233
+  orig: 248, 240
+  offset: 0, 0
+  index: -1
+yangguang_00119
+  rotate: false
+  xy: 2, 57
+  size: 225, 186
+  orig: 240, 240
+  offset: 2, 14
+  index: -1

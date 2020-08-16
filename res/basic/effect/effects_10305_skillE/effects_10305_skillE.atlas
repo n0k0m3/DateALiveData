@@ -1,0 +1,223 @@
+
+effects_10305_skillE.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/extra_skillB_new/xuyanwu_00004
+  rotate: false
+  xy: 2, 317
+  size: 166, 184
+  orig: 200, 200
+  offset: 11, 10
+  index: -1
+images/effects/lz/wang/wang_00000
+  rotate: false
+  xy: 460, 343
+  size: 127, 53
+  orig: 200, 100
+  offset: 22, 0
+  index: -1
+images/effects/lz/wang/wang_00001
+  rotate: true
+  xy: 656, 607
+  size: 187, 86
+  orig: 200, 100
+  offset: 3, 0
+  index: -1
+images/effects/lz/wang/wang_00002
+  rotate: true
+  xy: 744, 617
+  size: 197, 96
+  orig: 200, 100
+  offset: 3, 0
+  index: -1
+images/effects/lz/wang/wang_00003
+  rotate: true
+  xy: 104, 111
+  size: 200, 97
+  orig: 200, 100
+  offset: 0, 0
+  index: -1
+images/effects/lz/wang/wang_00004
+  rotate: true
+  xy: 203, 111
+  size: 200, 97
+  orig: 200, 100
+  offset: 0, 0
+  index: -1
+images/effects/lz/wang/wang_00013
+  rotate: true
+  xy: 842, 627
+  size: 187, 93
+  orig: 200, 100
+  offset: 6, 0
+  index: -1
+images/effects/lz/wang/wang_00014
+  rotate: true
+  xy: 272, 318
+  size: 183, 93
+  orig: 200, 100
+  offset: 8, 0
+  index: -1
+images/effects/lz/wang/wang_00015
+  rotate: true
+  xy: 302, 137
+  size: 179, 92
+  orig: 200, 100
+  offset: 10, 0
+  index: -1
+images/effects/lz/wang/wang_00016
+  rotate: true
+  xy: 367, 335
+  size: 176, 91
+  orig: 200, 100
+  offset: 11, 0
+  index: -1
+images/effects/lz/wang/wang_00017
+  rotate: true
+  xy: 396, 160
+  size: 173, 90
+  orig: 200, 100
+  offset: 11, 0
+  index: -1
+images/effects/lz/wang/wang_00018
+  rotate: false
+  xy: 454, 563
+  size: 168, 90
+  orig: 200, 100
+  offset: 12, 0
+  index: -1
+images/effects/lz/wang/wang_00019
+  rotate: true
+  xy: 460, 398
+  size: 163, 89
+  orig: 200, 100
+  offset: 12, 0
+  index: -1
+images/effects/lz/wang/wang_00020
+  rotate: true
+  xy: 935, 860
+  size: 162, 87
+  orig: 200, 100
+  offset: 13, 0
+  index: -1
+images/effects/lz/wang/wang_00021
+  rotate: true
+  xy: 937, 701
+  size: 157, 85
+  orig: 200, 100
+  offset: 14, 0
+  index: -1
+images/effects/lz/wang/wang_00022
+  rotate: true
+  xy: 396, 2
+  size: 156, 79
+  orig: 200, 100
+  offset: 15, 3
+  index: -1
+images/effects/lz/wang/wang_00023
+  rotate: true
+  xy: 551, 423
+  size: 138, 73
+  orig: 200, 100
+  offset: 27, 6
+  index: -1
+images/effects/lz/wang/wang_00024
+  rotate: true
+  xy: 488, 209
+  size: 132, 66
+  orig: 200, 100
+  offset: 27, 9
+  index: -1
+images/effects/skillB_new/1nangua_00000
+  rotate: false
+  xy: 304, 513
+  size: 119, 129
+  orig: 150, 150
+  offset: 18, 10
+  index: -1
+images/effects/skillB_new/2cao_00006
+  rotate: true
+  xy: 170, 313
+  size: 188, 100
+  orig: 200, 100
+  offset: 0, 0
+  index: -1
+images/effects/skillB_new/2nangua_00000
+  rotate: false
+  xy: 744, 816
+  size: 189, 206
+  orig: 250, 250
+  offset: 29, 25
+  index: -1
+images/effects/skillB_new/3cao_00006
+  rotate: false
+  xy: 2, 644
+  size: 450, 126
+  orig: 450, 150
+  offset: 0, 24
+  index: -1
+images/effects/skillB_new/3nangua_00000
+  rotate: false
+  xy: 454, 796
+  size: 288, 226
+  orig: 300, 300
+  offset: 7, 28
+  index: -1
+images/effects/skillB_new/4cao_00006
+  rotate: true
+  xy: 2, 115
+  size: 200, 100
+  orig: 200, 100
+  offset: 0, 0
+  index: -1
+images/effects/skillB_new/bianfu/bianfu_00000
+  rotate: false
+  xy: 2, 59
+  size: 57, 54
+  orig: 100, 100
+  offset: 26, 14
+  index: -1
+images/effects/skillB_new/bianfu/bianfu_00002
+  rotate: false
+  xy: 937, 660
+  size: 57, 39
+  orig: 100, 100
+  offset: 20, 31
+  index: -1
+images/effects/skillB_new/bianfu/bianfu_00004
+  rotate: true
+  xy: 61, 67
+  size: 46, 41
+  orig: 100, 100
+  offset: 17, 35
+  index: -1
+images/effects/skillB_new/bianfu/bianfu_00006
+  rotate: true
+  xy: 488, 162
+  size: 45, 50
+  orig: 100, 100
+  offset: 18, 37
+  index: -1
+images/effects/skillB_new/di_00000
+  rotate: false
+  xy: 2, 772
+  size: 450, 250
+  orig: 450, 250
+  offset: 0, 0
+  index: -1
+images/effects/skillB_new/dilie1_00000
+  rotate: false
+  xy: 454, 655
+  size: 200, 139
+  orig: 200, 150
+  offset: 0, 1
+  index: -1
+images/effects/skillB_new/dilie2_00000
+  rotate: false
+  xy: 2, 503
+  size: 300, 139
+  orig: 300, 150
+  offset: 0, 0
+  index: -1

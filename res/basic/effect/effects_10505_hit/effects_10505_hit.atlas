@@ -1,0 +1,236 @@
+
+effects_10505_hit.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/hit/hit1_00014
+  rotate: true
+  xy: 268, 515
+  size: 242, 244
+  orig: 270, 244
+  offset: 27, 0
+  index: -1
+images/effect/hit/hit1_00015
+  rotate: false
+  xy: 2, 778
+  size: 270, 244
+  orig: 270, 244
+  offset: 0, 0
+  index: -1
+images/effect/hit/hit1_00016
+  rotate: false
+  xy: 2, 532
+  size: 264, 244
+  orig: 270, 244
+  offset: 6, 0
+  index: -1
+images/effect/hit/hit1_00017
+  rotate: false
+  xy: 2, 298
+  size: 243, 232
+  orig: 270, 244
+  offset: 17, 4
+  index: -1
+images/effect/hit/hit1_00018
+  rotate: true
+  xy: 798, 583
+  size: 231, 220
+  orig: 270, 244
+  offset: 30, 16
+  index: -1
+images/effect/hit/hit1_00019
+  rotate: false
+  xy: 791, 362
+  size: 225, 219
+  orig: 270, 244
+  offset: 36, 17
+  index: -1
+images/effect/hit/hit1_00025
+  rotate: false
+  xy: 620, 2
+  size: 130, 147
+  orig: 270, 244
+  offset: 96, 31
+  index: -1
+images/effect/hit/hit2_00026
+  rotate: false
+  xy: 798, 816
+  size: 224, 206
+  orig: 224, 206
+  offset: 0, 0
+  index: -1
+images/effect/hit/hit2_00028
+  rotate: false
+  xy: 247, 307
+  size: 220, 206
+  orig: 224, 206
+  offset: 3, 0
+  index: -1
+images/effect/hit/hit2_00036
+  rotate: true
+  xy: 464, 2
+  size: 147, 154
+  orig: 224, 206
+  offset: 34, 22
+  index: -1
+images/effect/hit/hit2_00038
+  rotate: true
+  xy: 464, 171
+  size: 130, 155
+  orig: 224, 206
+  offset: 35, 22
+  index: -1
+images/effect/hit/hit2_00040
+  rotate: false
+  xy: 2, 7
+  size: 130, 86
+  orig: 224, 206
+  offset: 34, 75
+  index: -1
+images/effect/hit/hit3_00026
+  rotate: false
+  xy: 514, 303
+  size: 238, 212
+  orig: 830, 448
+  offset: 295, 121
+  index: -1
+images/effect/hit/hit3_00027
+  rotate: false
+  xy: 2, 96
+  size: 196, 200
+  orig: 830, 448
+  offset: 325, 127
+  index: -1
+images/effect/hit/hit3_00028
+  rotate: false
+  xy: 541, 767
+  size: 255, 255
+  orig: 830, 448
+  offset: 291, 95
+  index: -1
+images/effect/hit/hit3_00029
+  rotate: false
+  xy: 274, 759
+  size: 265, 263
+  orig: 830, 448
+  offset: 286, 91
+  index: -1
+images/effect/hit/hit3_00030
+  rotate: false
+  xy: 541, 517
+  size: 248, 248
+  orig: 830, 448
+  offset: 295, 98
+  index: -1
+images/effect/hit/hit3_00031
+  rotate: true
+  xy: 754, 151
+  size: 209, 215
+  orig: 830, 448
+  offset: 311, 115
+  index: -1
+images/effect/hit/hit3_00032
+  rotate: true
+  xy: 247, 95
+  size: 210, 215
+  orig: 830, 448
+  offset: 311, 115
+  index: -1
+images/effect/hit/hit3_00039
+  rotate: false
+  xy: 752, 10
+  size: 130, 139
+  orig: 830, 448
+  offset: 342, 145
+  index: -1
+images/effect/hit/hit3_00041
+  rotate: true
+  xy: 134, 12
+  size: 81, 56
+  orig: 830, 448
+  offset: 340, 199
+  index: -1
+
+effects_10505_hit2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/hit/hit1_00021
+  rotate: false
+  xy: 2, 188
+  size: 191, 184
+  orig: 270, 244
+  offset: 42, 28
+  index: -1
+images/effect/hit/hit1_00023
+  rotate: false
+  xy: 800, 807
+  size: 177, 179
+  orig: 270, 244
+  offset: 54, 30
+  index: -1
+images/effect/hit/hit2_00027
+  rotate: false
+  xy: 212, 787
+  size: 196, 199
+  orig: 224, 206
+  offset: 18, 4
+  index: -1
+images/effect/hit/hit2_00029
+  rotate: false
+  xy: 2, 567
+  size: 203, 206
+  orig: 224, 206
+  offset: 13, 0
+  index: -1
+images/effect/hit/hit2_00030
+  rotate: false
+  xy: 2, 374
+  size: 194, 191
+  orig: 224, 206
+  offset: 15, 2
+  index: -1
+images/effect/hit/hit2_00031
+  rotate: false
+  xy: 410, 802
+  size: 195, 184
+  orig: 224, 206
+  offset: 14, 2
+  index: -1
+images/effect/hit/hit2_00032
+  rotate: false
+  xy: 607, 804
+  size: 191, 182
+  orig: 224, 206
+  offset: 13, 4
+  index: -1
+images/effect/hit/hit2_00034
+  rotate: false
+  xy: 410, 623
+  size: 177, 177
+  orig: 224, 206
+  offset: 29, 11
+  index: -1
+images/effect/hit/hit3_00033
+  rotate: false
+  xy: 2, 775
+  size: 208, 211
+  orig: 830, 448
+  offset: 314, 118
+  index: -1
+images/effect/hit/hit3_00035
+  rotate: false
+  xy: 2, 2
+  size: 177, 184
+  orig: 830, 448
+  offset: 330, 132
+  index: -1
+images/effect/hit/hit3_00037
+  rotate: false
+  xy: 589, 646
+  size: 129, 154
+  orig: 830, 448
+  offset: 342, 146
+  index: -1

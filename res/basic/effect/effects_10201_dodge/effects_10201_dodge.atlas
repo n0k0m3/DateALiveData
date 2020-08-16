@@ -1,0 +1,202 @@
+
+effects_10201_dodge.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/shanbi/canying_000
+  rotate: false
+  xy: 754, 762
+  size: 144, 107
+  orig: 160, 141
+  offset: 8, 18
+  index: -1
+images/effect/shanbi/daoguang/daoguang0_007
+  rotate: false
+  xy: 393, 848
+  size: 290, 27
+  orig: 400, 160
+  offset: 13, 24
+  index: -1
+images/effect/shanbi/daoguang/daoguang0_008
+  rotate: false
+  xy: 2, 585
+  size: 347, 119
+  orig: 400, 160
+  offset: 37, 23
+  index: -1
+images/effect/shanbi/daoguang/daoguang0_009
+  rotate: false
+  xy: 2, 464
+  size: 346, 119
+  orig: 400, 160
+  offset: 38, 23
+  index: -1
+images/effect/shanbi/daoguang/daoguang0_010
+  rotate: false
+  xy: 350, 449
+  size: 214, 95
+  orig: 400, 160
+  offset: 168, 47
+  index: -1
+images/effect/shanbi/daoguang/daoguang0_011
+  rotate: true
+  xy: 900, 768
+  size: 101, 32
+  orig: 400, 160
+  offset: 172, 104
+  index: -1
+images/effect/shanbi/daoguang/daoguang_006
+  rotate: false
+  xy: 2, 227
+  size: 304, 106
+  orig: 400, 192
+  offset: 8, 21
+  index: -1
+images/effect/shanbi/daoguang/daoguang_007
+  rotate: false
+  xy: 2, 864
+  size: 389, 156
+  orig: 400, 192
+  offset: 9, 20
+  index: -1
+images/effect/shanbi/daoguang/daoguang_008
+  rotate: false
+  xy: 2, 706
+  size: 384, 156
+  orig: 400, 192
+  offset: 14, 20
+  index: -1
+images/effect/shanbi/daoguang/daoguang_009
+  rotate: false
+  xy: 393, 877
+  size: 379, 143
+  orig: 400, 192
+  offset: 11, 32
+  index: -1
+images/effect/shanbi/daoguang/daoguang_010
+  rotate: false
+  xy: 2, 335
+  size: 306, 127
+  orig: 400, 192
+  offset: 9, 33
+  index: -1
+images/effect/shanbi/daoguang/daoguang_011
+  rotate: false
+  xy: 2, 139
+  size: 298, 86
+  orig: 400, 192
+  offset: 11, 34
+  index: -1
+images/effect/shanbi/daoguang/daoguang_012
+  rotate: false
+  xy: 2, 54
+  size: 260, 83
+  orig: 400, 192
+  offset: 25, 35
+  index: -1
+images/effect/shanbi/daoguang/daoguang_013
+  rotate: false
+  xy: 310, 388
+  size: 225, 59
+  orig: 400, 192
+  offset: 26, 53
+  index: -1
+images/effect/shanbi/glowx_000
+  rotate: false
+  xy: 2, 2
+  size: 233, 50
+  orig: 240, 80
+  offset: 3, 16
+  index: -1
+images/effect/shanbi/guangshen/guangsheng_002
+  rotate: true
+  xy: 310, 192
+  size: 150, 153
+  orig: 248, 176
+  offset: 7, 9
+  index: -1
+images/effect/shanbi/guangshen/guangsheng_003
+  rotate: true
+  xy: 465, 191
+  size: 151, 148
+  orig: 248, 176
+  offset: 3, 27
+  index: -1
+images/effect/shanbi/guangshen/guangsheng_004
+  rotate: true
+  xy: 457, 44
+  size: 145, 149
+  orig: 248, 176
+  offset: 5, 26
+  index: -1
+images/effect/shanbi/guangshen/guangsheng_005
+  rotate: false
+  xy: 608, 40
+  size: 144, 149
+  orig: 248, 176
+  offset: 3, 26
+  index: -1
+images/effect/shanbi/guangshen/guangsheng_006
+  rotate: false
+  xy: 302, 76
+  size: 153, 114
+  orig: 248, 176
+  offset: 25, 27
+  index: -1
+images/effect/shanbi/guangshen/guangsheng_007
+  rotate: false
+  xy: 774, 871
+  size: 177, 149
+  orig: 248, 176
+  offset: 67, 20
+  index: -1
+images/effect/shanbi/tuowei/tuowei_000
+  rotate: true
+  xy: 953, 836
+  size: 184, 44
+  orig: 280, 72
+  offset: 96, 18
+  index: -1
+images/effect/shanbi/tuowei/tuowei_001
+  rotate: false
+  xy: 351, 546
+  size: 239, 58
+  orig: 280, 72
+  offset: 41, 7
+  index: -1
+images/effect/shanbi/tuowei/tuowei_002
+  rotate: false
+  xy: 388, 721
+  size: 254, 60
+  orig: 280, 72
+  offset: 26, 5
+  index: -1
+images/effect/shanbi/tuowei/tuowei_003
+  rotate: false
+  xy: 388, 783
+  size: 276, 63
+  orig: 280, 72
+  offset: 0, 3
+  index: -1
+images/effect/shanbi/tuowei/tuowei_004
+  rotate: false
+  xy: 388, 662
+  size: 249, 57
+  orig: 280, 72
+  offset: 1, 5
+  index: -1
+images/effect/shanbi/tuowei/tuowei_005
+  rotate: false
+  xy: 351, 606
+  size: 246, 54
+  orig: 280, 72
+  offset: 0, 8
+  index: -1
+images/effect/shanbi/tuowei/tuowei_006
+  rotate: false
+  xy: 310, 344
+  size: 235, 42
+  orig: 280, 72
+  offset: 0, 21
+  index: -1

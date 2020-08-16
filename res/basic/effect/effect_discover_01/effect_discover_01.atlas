@@ -1,0 +1,249 @@
+
+effect_discover_01.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+100
+  rotate: true
+  xy: 668, 12
+  size: 282, 100
+  orig: 282, 100
+  offset: 0, 0
+  index: -1
+fense
+  rotate: true
+  xy: 979, 974
+  size: 13, 19
+  orig: 16, 21
+  offset: 3, 2
+  index: -1
+final_00047_00000
+  rotate: false
+  xy: 2, 252
+  size: 664, 500
+  orig: 664, 500
+  offset: 0, 0
+  index: -1
+heidi001
+  rotate: false
+  xy: 922, 41
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+huangse
+  rotate: false
+  xy: 979, 989
+  size: 39, 32
+  orig: 42, 33
+  offset: 3, 1
+  index: -1
+shenglidi
+  rotate: false
+  xy: 2, 907
+  size: 800, 114
+  orig: 800, 150
+  offset: 0, 24
+  index: -1
+suo
+  rotate: false
+  xy: 922, 93
+  size: 97, 101
+  orig: 97, 101
+  offset: 0, 0
+  index: -1
+tiao1_00000
+  rotate: true
+  xy: 668, 296
+  size: 450, 317
+  orig: 450, 320
+  offset: 0, 3
+  index: -1
+xiaoshi
+  rotate: false
+  xy: 96, 12
+  size: 400, 85
+  orig: 400, 100
+  offset: 0, 6
+  index: -1
+xulie/tansuowancheng_00004
+  rotate: false
+  xy: 2, 5
+  size: 92, 92
+  orig: 700, 250
+  offset: 76, 90
+  index: -1
+xulie/tansuowancheng_00005
+  rotate: false
+  xy: 804, 900
+  size: 173, 121
+  orig: 700, 250
+  offset: 46, 74
+  index: -1
+xulie/tansuowancheng_00006
+  rotate: true
+  xy: 770, 30
+  size: 264, 150
+  orig: 700, 250
+  offset: 16, 58
+  index: -1
+xulie/tansuowancheng_00007
+  rotate: false
+  xy: 670, 748
+  size: 339, 150
+  orig: 700, 250
+  offset: 16, 58
+  index: -1
+xulie/tansuowancheng_00009
+  rotate: false
+  xy: 2, 99
+  size: 613, 151
+  orig: 700, 250
+  offset: 16, 58
+  index: -1
+xulie/tansuowancheng_00010
+  rotate: false
+  xy: 2, 754
+  size: 666, 151
+  orig: 700, 250
+  offset: 16, 58
+  index: -1
+yan
+  rotate: true
+  xy: 922, 196
+  size: 98, 99
+  orig: 98, 99
+  offset: 0, 0
+  index: -1
+
+effect_discover_012.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: false
+  xy: 2, 662
+  size: 538, 100
+  orig: 584, 100
+  offset: 11, 0
+  index: -1
+01_000
+  rotate: false
+  xy: 2, 764
+  size: 541, 100
+  orig: 584, 100
+  offset: 14, 0
+  index: -1
+02
+  rotate: false
+  xy: 565, 814
+  size: 447, 100
+  orig: 584, 100
+  offset: 88, 0
+  index: -1
+02_000
+  rotate: false
+  xy: 565, 916
+  size: 449, 100
+  orig: 584, 100
+  offset: 84, 0
+  index: -1
+Glow_Flare_009
+  rotate: false
+  xy: 2, 404
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+baodian/baodian_00002
+  rotate: false
+  xy: 545, 377
+  size: 471, 435
+  orig: 500, 500
+  offset: 24, 46
+  index: -1
+baodian/baodian_00005
+  rotate: false
+  xy: 2, 2
+  size: 478, 373
+  orig: 500, 500
+  offset: 19, 47
+  index: -1
+baodian/baodian_00006
+  rotate: false
+  xy: 482, 87
+  size: 479, 288
+  orig: 500, 500
+  offset: 18, 133
+  index: -1
+mask_18-2
+  rotate: false
+  xy: 260, 404
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+xulie/tansuowancheng_00008
+  rotate: false
+  xy: 2, 866
+  size: 561, 150
+  orig: 700, 250
+  offset: 16, 58
+  index: -1
+
+effect_discover_013.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baodian/baodian_00000
+  rotate: false
+  xy: 2, 154
+  size: 458, 423
+  orig: 500, 500
+  offset: 32, 58
+  index: -1
+baodian/baodian_00001
+  rotate: false
+  xy: 2, 154
+  size: 458, 423
+  orig: 500, 500
+  offset: 32, 58
+  index: -1
+baodian/baodian_00003
+  rotate: false
+  xy: 2, 579
+  size: 481, 434
+  orig: 500, 500
+  offset: 17, 45
+  index: -1
+baodian/baodian_00004
+  rotate: false
+  xy: 485, 633
+  size: 481, 380
+  orig: 500, 500
+  offset: 17, 45
+  index: -1
+cheng
+  rotate: false
+  xy: 304, 49
+  size: 109, 103
+  orig: 109, 103
+  offset: 0, 0
+  index: -1
+tan
+  rotate: false
+  xy: 485, 528
+  size: 106, 103
+  orig: 106, 103
+  offset: 0, 0
+  index: -1
+tiao2_00000
+  rotate: false
+  xy: 2, 2
+  size: 300, 150
+  orig: 300, 150
+  offset: 0, 0
+  index: -1

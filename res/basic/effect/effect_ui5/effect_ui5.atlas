@@ -1,0 +1,146 @@
+
+effect_ui5.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+kuang_00000
+  rotate: false
+  xy: 2, 92
+  size: 80, 70
+  orig: 225, 225
+  offset: 72, 79
+  index: -1
+paobian/paobian_00001
+  rotate: false
+  xy: 48, 2
+  size: 30, 30
+  orig: 225, 225
+  offset: 77, 73
+  index: -1
+paobian/paobian_00002
+  rotate: false
+  xy: 412, 466
+  size: 47, 44
+  orig: 225, 225
+  offset: 69, 73
+  index: -1
+paobian/paobian_00003
+  rotate: false
+  xy: 351, 452
+  size: 59, 58
+  orig: 225, 225
+  offset: 66, 73
+  index: -1
+paobian/paobian_00004
+  rotate: false
+  xy: 86, 177
+  size: 66, 72
+  orig: 225, 225
+  offset: 66, 73
+  index: -1
+paobian/paobian_00005
+  rotate: false
+  xy: 184, 338
+  size: 74, 85
+  orig: 225, 225
+  offset: 66, 73
+  index: -1
+paobian/paobian_00006
+  rotate: false
+  xy: 93, 251
+  size: 77, 85
+  orig: 225, 225
+  offset: 66, 73
+  index: -1
+paobian/paobian_00007
+  rotate: false
+  xy: 2, 164
+  size: 82, 85
+  orig: 225, 225
+  offset: 66, 73
+  index: -1
+paobian/paobian_00008
+  rotate: false
+  xy: 96, 338
+  size: 86, 85
+  orig: 225, 225
+  offset: 66, 73
+  index: -1
+paobian/paobian_00009
+  rotate: false
+  xy: 2, 251
+  size: 89, 85
+  orig: 225, 225
+  offset: 66, 73
+  index: -1
+paobian/paobian_00010
+  rotate: false
+  xy: 2, 425
+  size: 92, 85
+  orig: 225, 225
+  offset: 66, 73
+  index: -1
+paobian/paobian_00011
+  rotate: false
+  xy: 2, 338
+  size: 92, 85
+  orig: 225, 225
+  offset: 66, 73
+  index: -1
+paobian/paobian_00012
+  rotate: false
+  xy: 96, 425
+  size: 91, 85
+  orig: 225, 225
+  offset: 67, 73
+  index: -1
+paobian/paobian_00013
+  rotate: false
+  xy: 189, 425
+  size: 83, 85
+  orig: 225, 225
+  offset: 75, 73
+  index: -1
+paobian/paobian_00014
+  rotate: false
+  xy: 274, 426
+  size: 75, 84
+  orig: 225, 225
+  offset: 83, 74
+  index: -1
+paobian/paobian_00015
+  rotate: false
+  xy: 172, 258
+  size: 60, 78
+  orig: 225, 225
+  offset: 98, 80
+  index: -1
+paobian/paobian_00016
+  rotate: false
+  xy: 2, 20
+  size: 44, 70
+  orig: 225, 225
+  offset: 114, 88
+  index: -1
+paobian/paobian_00017
+  rotate: false
+  xy: 48, 34
+  size: 31, 56
+  orig: 225, 225
+  offset: 127, 94
+  index: -1
+paobian/paobian_00018
+  rotate: false
+  xy: 234, 301
+  size: 23, 35
+  orig: 225, 225
+  offset: 135, 101
+  index: -1
+tubiao_00000
+  rotate: false
+  xy: 351, 427
+  size: 23, 23
+  orig: 225, 225
+  offset: 101, 100
+  index: -1

@@ -1,0 +1,13 @@
+
+map_shanguang_02.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/shanguang
+  rotate: false
+  xy: 2, 2
+  size: 341, 289
+  orig: 375, 375
+  offset: 34, 51
+  index: -1

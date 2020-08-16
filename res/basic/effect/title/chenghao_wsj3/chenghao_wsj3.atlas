@@ -1,0 +1,48 @@
+
+chenghao_wsj.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_1
+  rotate: false
+  xy: 155, 224
+  size: 97, 30
+  orig: 97, 30
+  offset: 0, 0
+  index: -1
+1_1_2
+  rotate: true
+  xy: 29, 13
+  size: 97, 30
+  orig: 97, 30
+  offset: 0, 0
+  index: -1
+1_2
+  rotate: false
+  xy: 2, 204
+  size: 151, 50
+  orig: 151, 50
+  offset: 0, 0
+  index: -1
+1_2_2
+  rotate: false
+  xy: 2, 147
+  size: 133, 55
+  orig: 133, 55
+  offset: 0, 0
+  index: -1
+yingwen
+  rotate: true
+  xy: 2, 2
+  size: 108, 25
+  orig: 136, 36
+  offset: 14, 5
+  index: -1
+yingwen2
+  rotate: false
+  xy: 2, 112
+  size: 120, 33
+  orig: 120, 33
+  offset: 0, 0
+  index: -1

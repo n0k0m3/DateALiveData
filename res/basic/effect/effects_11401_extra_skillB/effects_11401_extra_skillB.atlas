@@ -1,0 +1,271 @@
+
+effects_11401_extra_skillB.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/extra_skillB/baise_049
+  rotate: false
+  xy: 245, 210
+  size: 18, 17
+  orig: 18, 17
+  offset: 0, 0
+  index: -1
+effect/extra_skillB/baozha/baozha_064
+  rotate: false
+  xy: 191, 9
+  size: 176, 176
+  orig: 326, 196
+  offset: 69, 5
+  index: -1
+effect/extra_skillB/baozha/baozha_065
+  rotate: false
+  xy: 369, 39
+  size: 176, 176
+  orig: 326, 196
+  offset: 69, 5
+  index: -1
+effect/extra_skillB/baozha/baozha_067
+  rotate: false
+  xy: 330, 633
+  size: 326, 191
+  orig: 326, 196
+  offset: 0, 5
+  index: -1
+effect/extra_skillB/baozha/baozha_069
+  rotate: false
+  xy: 2, 826
+  size: 326, 196
+  orig: 326, 196
+  offset: 0, 0
+  index: -1
+effect/extra_skillB/baozha/baozha_071
+  rotate: false
+  xy: 2, 628
+  size: 326, 196
+  orig: 326, 196
+  offset: 0, 0
+  index: -1
+effect/extra_skillB/baozha/baozha_073
+  rotate: false
+  xy: 330, 826
+  size: 326, 196
+  orig: 326, 196
+  offset: 0, 0
+  index: -1
+effect/extra_skillB/baozha/baozha_075
+  rotate: false
+  xy: 819, 126
+  size: 203, 135
+  orig: 326, 196
+  offset: 63, 29
+  index: -1
+effect/extra_skillB/baozha_up/baozha_up_050
+  rotate: true
+  xy: 931, 819
+  size: 203, 85
+  orig: 239, 153
+  offset: 15, 10
+  index: -1
+effect/extra_skillB/baozha_up/baozha_up_051
+  rotate: true
+  xy: 563, 404
+  size: 227, 133
+  orig: 239, 153
+  offset: 3, 7
+  index: -1
+effect/extra_skillB/baozha_up/baozha_up_053
+  rotate: false
+  xy: 558, 260
+  size: 239, 142
+  orig: 239, 153
+  offset: 0, 2
+  index: -1
+effect/extra_skillB/baozha_up/baozha_up_055
+  rotate: false
+  xy: 799, 263
+  size: 185, 139
+  orig: 239, 153
+  offset: 37, 10
+  index: -1
+effect/extra_skillB/baozha_up/baozha_up_057
+  rotate: true
+  xy: 897, 408
+  size: 190, 125
+  orig: 239, 153
+  offset: 40, 10
+  index: -1
+effect/extra_skillB/baozha_up/baozha_up_061
+  rotate: false
+  xy: 547, 76
+  size: 202, 130
+  orig: 239, 153
+  offset: 36, 8
+  index: -1
+effect/extra_skillB/daoguang/daoguang1_017
+  rotate: false
+  xy: 558, 208
+  size: 259, 50
+  orig: 260, 59
+  offset: 0, 3
+  index: -1
+effect/extra_skillB/daoguang/daoguang1_019
+  rotate: false
+  xy: 547, 24
+  size: 247, 50
+  orig: 260, 59
+  offset: 11, 4
+  index: -1
+effect/extra_skillB/daoguang/daoguang1_023
+  rotate: false
+  xy: 751, 78
+  size: 235, 46
+  orig: 260, 59
+  offset: 25, 5
+  index: -1
+effect/extra_skillB/dilie_058
+  rotate: false
+  xy: 796, 9
+  size: 215, 23
+  orig: 215, 28
+  offset: 0, 2
+  index: -1
+effect/extra_skillB/jianhen/jianhen_016
+  rotate: true
+  xy: 2, 185
+  size: 441, 80
+  orig: 441, 80
+  offset: 0, 0
+  index: -1
+effect/extra_skillB/jianhen/jianhen_017
+  rotate: true
+  xy: 84, 188
+  size: 438, 80
+  orig: 441, 80
+  offset: 3, 0
+  index: -1
+effect/extra_skillB/jianhen/jianhen_019
+  rotate: true
+  xy: 166, 187
+  size: 439, 77
+  orig: 441, 80
+  offset: 2, 3
+  index: -1
+effect/extra_skillB/jianhen/jianhen_021
+  rotate: true
+  xy: 245, 229
+  size: 397, 59
+  orig: 441, 80
+  offset: 22, 10
+  index: -1
+effect/extra_skillB/jianhen/jianhen_023
+  rotate: true
+  xy: 658, 640
+  size: 382, 56
+  orig: 441, 80
+  offset: 32, 12
+  index: -1
+effect/extra_skillB/jianhen/jianhen_025
+  rotate: true
+  xy: 306, 256
+  size: 370, 48
+  orig: 441, 80
+  offset: 40, 18
+  index: -1
+effect/extra_skillB/kuosan_065
+  rotate: true
+  xy: 698, 404
+  size: 194, 197
+  orig: 207, 199
+  offset: 8, 0
+  index: -1
+effect/extra_skillB/yanwu/yanwu_017
+  rotate: false
+  xy: 796, 34
+  size: 184, 42
+  orig: 268, 62
+  offset: 51, 0
+  index: -1
+effect/skillA/daoguang/daoguang_071
+  rotate: false
+  xy: 716, 804
+  size: 213, 218
+  orig: 214, 221
+  offset: 1, 0
+  index: -1
+effect/skillA/daoguang/daoguang_073
+  rotate: false
+  xy: 356, 417
+  size: 205, 214
+  orig: 214, 221
+  offset: 3, 3
+  index: -1
+effect/skillA/daoguang/daoguang_075
+  rotate: true
+  xy: 716, 600
+  size: 202, 211
+  orig: 214, 221
+  offset: 4, 4
+  index: -1
+effect/skillA/daoguang/daoguang_077
+  rotate: true
+  xy: 356, 217
+  size: 198, 200
+  orig: 214, 221
+  offset: 6, 7
+  index: -1
+effect/skillA/daoguang/daoguang_079
+  rotate: false
+  xy: 2, 5
+  size: 187, 178
+  orig: 214, 221
+  offset: 14, 5
+  index: -1
+effect/skillA/golw
+  rotate: false
+  xy: 931, 727
+  size: 89, 90
+  orig: 90, 90
+  offset: 1, 0
+  index: -1
+
+effects_11401_extra_skillB2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/extra_skillB/baozha_up/baozha_up_059
+  rotate: false
+  xy: 2, 250
+  size: 200, 128
+  orig: 239, 153
+  offset: 38, 11
+  index: -1
+effect/extra_skillB/daoguang/daoguang1_021
+  rotate: true
+  xy: 124, 15
+  size: 233, 51
+  orig: 260, 59
+  offset: 27, 3
+  index: -1
+effect/extra_skillB/daohen_022
+  rotate: false
+  xy: 2, 380
+  size: 320, 60
+  orig: 330, 62
+  offset: 4, 0
+  index: -1
+effect/extra_skillB/yanwu/yanwu_019
+  rotate: true
+  xy: 66, 4
+  size: 244, 56
+  orig: 268, 62
+  offset: 8, 0
+  index: -1
+effect/extra_skillB/yanwu/yanwu_021
+  rotate: true
+  xy: 2, 2
+  size: 246, 62
+  orig: 268, 62
+  offset: 20, 0
+  index: -1

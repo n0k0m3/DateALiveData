@@ -1,0 +1,13 @@
+
+effect_shu1_12.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+z1
+  rotate: false
+  xy: 2, 152
+  size: 400, 250
+  orig: 400, 250
+  offset: 0, 0
+  index: -1

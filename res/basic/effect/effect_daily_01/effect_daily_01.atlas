@@ -1,0 +1,146 @@
+
+effect_daily_01.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xingxing/xingxing_00025
+  rotate: false
+  xy: 332, 227
+  size: 50, 50
+  orig: 126, 119
+  offset: 41, 34
+  index: -1
+xingxing/xingxing_00026
+  rotate: false
+  xy: 2, 2
+  size: 56, 57
+  orig: 126, 119
+  offset: 38, 31
+  index: -1
+xingxing/xingxing_00027
+  rotate: false
+  xy: 332, 279
+  size: 61, 64
+  orig: 126, 119
+  offset: 36, 28
+  index: -1
+xingxing/xingxing_00028
+  rotate: true
+  xy: 83, 6
+  size: 65, 68
+  orig: 126, 119
+  offset: 34, 26
+  index: -1
+xingxing/xingxing_00029
+  rotate: false
+  xy: 83, 73
+  size: 69, 73
+  orig: 126, 119
+  offset: 32, 24
+  index: -1
+xingxing/xingxing_00030
+  rotate: true
+  xy: 254, 271
+  size: 72, 76
+  orig: 126, 119
+  offset: 30, 22
+  index: -1
+xingxing/xingxing_00031
+  rotate: true
+  xy: 255, 345
+  size: 75, 79
+  orig: 126, 119
+  offset: 28, 21
+  index: -1
+xingxing/xingxing_00032
+  rotate: false
+  xy: 418, 426
+  size: 77, 81
+  orig: 126, 119
+  offset: 27, 20
+  index: -1
+xingxing/xingxing_00033
+  rotate: false
+  xy: 338, 423
+  size: 78, 84
+  orig: 126, 119
+  offset: 27, 18
+  index: -1
+xingxing/xingxing_00034
+  rotate: false
+  xy: 2, 61
+  size: 79, 85
+  orig: 126, 119
+  offset: 26, 18
+  index: -1
+xingxing/xingxing_00035
+  rotate: false
+  xy: 171, 331
+  size: 81, 86
+  orig: 126, 119
+  offset: 25, 17
+  index: -1
+xingxing/xingxing_00036
+  rotate: false
+  xy: 172, 419
+  size: 81, 88
+  orig: 126, 119
+  offset: 25, 16
+  index: -1
+xingxing/xingxing_00037
+  rotate: false
+  xy: 87, 329
+  size: 82, 88
+  orig: 126, 119
+  offset: 24, 16
+  index: -1
+xingxing/xingxing_00038
+  rotate: false
+  xy: 2, 328
+  size: 83, 88
+  orig: 126, 119
+  offset: 24, 16
+  index: -1
+xingxing/xingxing_00039
+  rotate: false
+  xy: 87, 419
+  size: 83, 88
+  orig: 126, 119
+  offset: 24, 16
+  index: -1
+xingxing/xingxing_00040
+  rotate: false
+  xy: 2, 418
+  size: 83, 89
+  orig: 126, 119
+  offset: 24, 15
+  index: -1
+xingxing/xingxing_00041
+  rotate: false
+  xy: 2, 237
+  size: 82, 89
+  orig: 126, 119
+  offset: 24, 15
+  index: -1
+xingxing/xingxing_00042
+  rotate: false
+  xy: 2, 148
+  size: 82, 87
+  orig: 126, 119
+  offset: 24, 16
+  index: -1
+xingxing/xingxing_00043
+  rotate: false
+  xy: 255, 422
+  size: 81, 85
+  orig: 126, 119
+  offset: 25, 16
+  index: -1
+xingxing1_00025
+  rotate: true
+  xy: 384, 234
+  size: 43, 41
+  orig: 126, 119
+  offset: 42, 39
+  index: -1

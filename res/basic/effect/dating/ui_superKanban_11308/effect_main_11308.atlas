@@ -1,0 +1,166 @@
+
+effect_main_11308.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/deng1_00000
+  rotate: false
+  xy: 2, 482
+  size: 464, 226
+  orig: 464, 251
+  offset: 0, 0
+  index: -1
+images/deng2_00000
+  rotate: true
+  xy: 2, 19
+  size: 461, 273
+  orig: 461, 273
+  offset: 0, 0
+  index: -1
+images/deng_00000
+  rotate: false
+  xy: 277, 8
+  size: 259, 144
+  orig: 259, 148
+  offset: 0, 0
+  index: -1
+images/glow1_00000
+  rotate: true
+  xy: 983, 904
+  size: 118, 38
+  orig: 127, 47
+  offset: 1, 3
+  index: -1
+images/glow2_00000
+  rotate: true
+  xy: 832, 185
+  size: 181, 190
+  orig: 185, 206
+  offset: 0, 0
+  index: -1
+images/glow3_00000
+  rotate: false
+  xy: 2, 710
+  size: 640, 312
+  orig: 687, 312
+  offset: 0, 0
+  index: -1
+images/glow_00000
+  rotate: false
+  xy: 538, 18
+  size: 134, 134
+  orig: 169, 191
+  offset: 14, 29
+  index: -1
+images/texiao/bao_00069
+  rotate: false
+  xy: 674, 89
+  size: 117, 69
+  orig: 326, 337
+  offset: 180, 7
+  index: -1
+images/texiao/bao_00071
+  rotate: false
+  xy: 468, 515
+  size: 169, 193
+  orig: 326, 337
+  offset: 157, 16
+  index: -1
+images/texiao/bao_00073
+  rotate: true
+  xy: 644, 696
+  size: 326, 337
+  orig: 326, 337
+  offset: 0, 0
+  index: -1
+images/texiao/bao_00075
+  rotate: true
+  xy: 639, 368
+  size: 326, 337
+  orig: 326, 337
+  offset: 0, 0
+  index: -1
+images/texiao/bao_00077
+  rotate: true
+  xy: 277, 154
+  size: 326, 337
+  orig: 326, 337
+  offset: 0, 0
+  index: -1
+images/texiao/bao_00092
+  rotate: false
+  xy: 616, 160
+  size: 214, 206
+  orig: 326, 337
+  offset: 8, 109
+  index: -1
+images/texiao/bao_00093
+  rotate: false
+  xy: 832, 3
+  size: 180, 180
+  orig: 326, 337
+  offset: 23, 122
+  index: -1
+
+effect_main_113082.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/texiao/bao_00079
+  rotate: false
+  xy: 2, 670
+  size: 326, 337
+  orig: 326, 337
+  offset: 0, 0
+  index: -1
+images/texiao/bao_00080
+  rotate: false
+  xy: 2, 331
+  size: 326, 337
+  orig: 326, 337
+  offset: 0, 0
+  index: -1
+images/texiao/bao_00082
+  rotate: false
+  xy: 246, 2
+  size: 235, 231
+  orig: 326, 337
+  offset: 3, 97
+  index: -1
+images/texiao/bao_00084
+  rotate: false
+  xy: 330, 473
+  size: 241, 248
+  orig: 326, 337
+  offset: 0, 88
+  index: -1
+images/texiao/bao_00086
+  rotate: false
+  xy: 2, 79
+  size: 242, 250
+  orig: 326, 337
+  offset: 0, 87
+  index: -1
+images/texiao/bao_00088
+  rotate: false
+  xy: 618, 759
+  size: 241, 248
+  orig: 326, 337
+  offset: 0, 88
+  index: -1
+images/texiao/bao_00090
+  rotate: true
+  xy: 330, 235
+  size: 236, 240
+  orig: 326, 337
+  offset: 0, 92
+  index: -1
+images/texiao/hei_00081
+  rotate: false
+  xy: 330, 723
+  size: 286, 284
+  orig: 342, 316
+  offset: 37, 12
+  index: -1

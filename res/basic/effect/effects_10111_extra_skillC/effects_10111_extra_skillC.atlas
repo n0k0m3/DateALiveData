@@ -1,0 +1,159 @@
+
+effects_10111_extra_skillC.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/exskillC/cailun/cailun_00002
+  rotate: true
+  xy: 730, 200
+  size: 266, 267
+  orig: 298, 298
+  offset: 16, 16
+  index: -1
+images/effects/exskillC/cailun/cailun_00004
+  rotate: false
+  xy: 2, 286
+  size: 288, 269
+  orig: 298, 298
+  offset: 5, 18
+  index: -1
+images/effects/exskillC/daoguang/daoguang_00000
+  rotate: true
+  xy: 299, 477
+  size: 266, 293
+  orig: 298, 298
+  offset: 28, 5
+  index: -1
+images/effects/exskillC/daoguang/daoguang_00003
+  rotate: false
+  xy: 2, 557
+  size: 295, 293
+  orig: 298, 298
+  offset: 3, 5
+  index: -1
+images/effects/exskillC/daoguang/daoguang_00005
+  rotate: false
+  xy: 661, 740
+  size: 294, 282
+  orig: 298, 298
+  offset: 0, 5
+  index: -1
+images/effects/exskillC/daoguang/daoguang_00007
+  rotate: false
+  xy: 361, 745
+  size: 298, 277
+  orig: 298, 298
+  offset: 0, 5
+  index: -1
+images/effects/exskillC/daoguang/daoguang_00009
+  rotate: false
+  xy: 730, 468
+  size: 273, 270
+  orig: 298, 298
+  offset: 11, 9
+  index: -1
+images/effects/exskillC/glow_000
+  rotate: false
+  xy: 594, 448
+  size: 71, 71
+  orig: 71, 71
+  offset: 0, 0
+  index: -1
+images/effects/exskillC/guangtiao_00004
+  rotate: false
+  xy: 2, 852
+  size: 357, 170
+  orig: 364, 182
+  offset: 5, 3
+  index: -1
+images/effects/exskillC/lizi/lizi_00000
+  rotate: true
+  xy: 487, 20
+  size: 277, 241
+  orig: 284, 284
+  offset: 0, 0
+  index: -1
+images/effects/exskillC/lizi/lizi_00002
+  rotate: true
+  xy: 2, 2
+  size: 282, 238
+  orig: 284, 284
+  offset: 0, 0
+  index: -1
+images/effects/exskillC/lizi/lizi_00004
+  rotate: true
+  xy: 242, 3
+  size: 281, 243
+  orig: 284, 284
+  offset: 2, 0
+  index: -1
+images/effects/exskillC/lizi/lizi_00010
+  rotate: true
+  xy: 292, 299
+  size: 176, 233
+  orig: 284, 284
+  offset: 104, 24
+  index: -1
+images/effects/exskillC/lizi/lizi_00012
+  rotate: false
+  xy: 594, 521
+  size: 130, 217
+  orig: 284, 284
+  offset: 141, 32
+  index: -1
+images/effects/exskillC/lizi/lizi_00014
+  rotate: false
+  xy: 299, 769
+  size: 44, 81
+  orig: 284, 284
+  offset: 209, 154
+  index: -1
+
+effects_10111_extra_skillC2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/exskillC/cailun/cailun_00000
+  rotate: false
+  xy: 2, 252
+  size: 246, 254
+  orig: 298, 298
+  offset: 22, 25
+  index: -1
+images/effects/exskillC/cailun/cailun_00006
+  rotate: false
+  xy: 2, 508
+  size: 244, 261
+  orig: 298, 298
+  offset: 0, 29
+  index: -1
+images/effects/exskillC/daoguang/daoguang_00001
+  rotate: true
+  xy: 269, 777
+  size: 244, 257
+  orig: 298, 298
+  offset: 29, 21
+  index: -1
+images/effects/exskillC/daoguang/daoguang_00011
+  rotate: false
+  xy: 528, 793
+  size: 254, 228
+  orig: 298, 298
+  offset: 22, 17
+  index: -1
+images/effects/exskillC/lizi/lizi_00006
+  rotate: false
+  xy: 2, 771
+  size: 265, 250
+  orig: 284, 284
+  offset: 15, 0
+  index: -1
+images/effects/exskillC/lizi/lizi_00008
+  rotate: false
+  xy: 2, 2
+  size: 246, 248
+  orig: 284, 284
+  offset: 35, 6
+  index: -1

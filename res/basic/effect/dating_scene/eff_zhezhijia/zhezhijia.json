@@ -1,0 +1,46 @@
+{
+"skeleton": { "hash": "HJFJvo9R46S1RvaktlHOUu0XYMo", "spine": "2.1.27", "width": 225, "height": 225, "images": "../../eff_zhezhijia/out/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "effect", "parent": "root" },
+	{ "name": "dengguang", "parent": "effect" }
+],
+"slots": [
+	{ "name": "dengguang_00000", "bone": "dengguang", "attachment": "dengguang_00000", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"dengguang_00000": {
+			"dengguang_00000": { "width": 225, "height": 225 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"dengguang_00000": {
+				"attachment": [
+					{ "time": 0, "name": "dengguang_00000" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff80" },
+					{ "time": 1.6666, "color": "ffffff13" },
+					{ "time": 3.3333, "color": "ffffff80" },
+					{ "time": 5, "color": "ffffff13" },
+					{ "time": 6.6666, "color": "ffffff80" }
+				]
+			}
+		},
+		"bones": {
+			"dengguang": {
+				"translate": [
+					{ "time": 0, "x": 159.63, "y": 293.57 }
+				],
+				"scale": [
+					{ "time": 0, "x": 10.811, "y": 2.454 }
+				]
+			}
+		}
+	}
+}
+}

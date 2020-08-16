@@ -1,0 +1,384 @@
+
+evt_effect_chDatingD.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/bian/bian_00001
+  rotate: true
+  xy: 387, 543
+  size: 81, 130
+  orig: 116, 145
+  offset: 32, 10
+  index: -1
+images/bian/bian_00002
+  rotate: true
+  xy: 235, 327
+  size: 83, 130
+  orig: 116, 145
+  offset: 30, 10
+  index: -1
+images/bian/bian_00003
+  rotate: false
+  xy: 499, 757
+  size: 85, 130
+  orig: 116, 145
+  offset: 28, 10
+  index: -1
+images/bian/bian_00004
+  rotate: false
+  xy: 586, 761
+  size: 87, 130
+  orig: 116, 145
+  offset: 26, 10
+  index: -1
+images/bian/bian_00005
+  rotate: false
+  xy: 601, 629
+  size: 89, 130
+  orig: 116, 145
+  offset: 24, 10
+  index: -1
+images/bian/bian_00006
+  rotate: false
+  xy: 692, 650
+  size: 91, 130
+  orig: 116, 145
+  offset: 22, 10
+  index: -1
+images/bian/bian_00007
+  rotate: false
+  xy: 600, 497
+  size: 93, 130
+  orig: 116, 145
+  offset: 20, 10
+  index: -1
+images/bian/bian_00008
+  rotate: false
+  xy: 785, 652
+  size: 95, 130
+  orig: 116, 145
+  offset: 18, 10
+  index: -1
+images/bian/bian_00009
+  rotate: false
+  xy: 882, 664
+  size: 97, 130
+  orig: 116, 145
+  offset: 16, 10
+  index: -1
+images/bian/bian_00010
+  rotate: true
+  xy: 881, 796
+  size: 98, 130
+  orig: 116, 145
+  offset: 15, 10
+  index: -1
+images/bian/bian_00011
+  rotate: false
+  xy: 779, 784
+  size: 100, 130
+  orig: 116, 145
+  offset: 13, 10
+  index: -1
+images/bian/bian_00012
+  rotate: false
+  xy: 675, 782
+  size: 102, 130
+  orig: 116, 145
+  offset: 11, 10
+  index: -1
+images/bian/bian_00013
+  rotate: true
+  xy: 349, 437
+  size: 104, 131
+  orig: 116, 145
+  offset: 9, 9
+  index: -1
+images/bian/bian_00014
+  rotate: true
+  xy: 778, 916
+  size: 106, 130
+  orig: 116, 145
+  offset: 7, 9
+  index: -1
+images/bian/bian_00015
+  rotate: true
+  xy: 646, 914
+  size: 108, 130
+  orig: 116, 145
+  offset: 5, 9
+  index: -1
+images/bian/bian_00016
+  rotate: false
+  xy: 116, 209
+  size: 109, 130
+  orig: 116, 145
+  offset: 3, 9
+  index: -1
+images/bian/bian_00017
+  rotate: false
+  xy: 387, 757
+  size: 110, 130
+  orig: 116, 145
+  offset: 2, 9
+  index: -1
+images/bian/bian_00018
+  rotate: false
+  xy: 2, 209
+  size: 112, 130
+  orig: 116, 145
+  offset: 0, 9
+  index: -1
+images/bian/bian_00019
+  rotate: false
+  xy: 235, 412
+  size: 112, 129
+  orig: 116, 145
+  offset: 0, 9
+  index: -1
+images/bian/bian_00020
+  rotate: false
+  xy: 533, 893
+  size: 111, 129
+  orig: 116, 145
+  offset: 0, 9
+  index: -1
+images/bian/bian_00021
+  rotate: false
+  xy: 2, 78
+  size: 111, 129
+  orig: 116, 145
+  offset: 0, 9
+  index: -1
+images/bian/bian_00022
+  rotate: false
+  xy: 387, 626
+  size: 110, 129
+  orig: 116, 145
+  offset: 0, 9
+  index: -1
+images/bian/bian_00023
+  rotate: false
+  xy: 115, 79
+  size: 109, 128
+  orig: 116, 145
+  offset: 0, 9
+  index: -1
+images/bian/bian_00024
+  rotate: true
+  xy: 227, 218
+  size: 107, 126
+  orig: 116, 145
+  offset: 0, 9
+  index: -1
+images/bian/bian_00025
+  rotate: true
+  xy: 367, 331
+  size: 104, 125
+  orig: 116, 145
+  offset: 0, 9
+  index: -1
+images/bian/bian_00026
+  rotate: false
+  xy: 499, 634
+  size: 100, 121
+  orig: 116, 145
+  offset: 0, 9
+  index: -1
+images/bian/bian_00027
+  rotate: false
+  xy: 695, 531
+  size: 96, 117
+  orig: 116, 145
+  offset: 0, 10
+  index: -1
+images/bian/bian_00028
+  rotate: false
+  xy: 793, 536
+  size: 92, 114
+  orig: 116, 145
+  offset: 0, 10
+  index: -1
+images/bian/bian_00029
+  rotate: false
+  xy: 887, 551
+  size: 88, 111
+  orig: 116, 145
+  offset: 0, 10
+  index: -1
+images/bian/bian_00030
+  rotate: true
+  xy: 482, 442
+  size: 84, 107
+  orig: 116, 145
+  offset: 0, 10
+  index: -1
+images/bian/bian_00031
+  rotate: false
+  xy: 519, 528
+  size: 79, 104
+  orig: 116, 145
+  offset: 1, 10
+  index: -1
+images/bian/bian_00032
+  rotate: true
+  xy: 2, 2
+  size: 74, 100
+  orig: 116, 145
+  offset: 1, 10
+  index: -1
+images/bian/bian_00033
+  rotate: false
+  xy: 494, 343
+  size: 70, 97
+  orig: 116, 145
+  offset: 1, 10
+  index: -1
+images/bian/bian_00034
+  rotate: true
+  xy: 591, 429
+  size: 66, 94
+  orig: 116, 145
+  offset: 1, 10
+  index: -1
+images/bian/bian_00035
+  rotate: true
+  xy: 566, 365
+  size: 62, 90
+  orig: 116, 145
+  offset: 1, 10
+  index: -1
+images/bian/bian_00036
+  rotate: true
+  xy: 695, 472
+  size: 57, 87
+  orig: 116, 145
+  offset: 1, 11
+  index: -1
+images/bian/bian_00037
+  rotate: true
+  xy: 687, 417
+  size: 53, 83
+  orig: 116, 145
+  offset: 1, 11
+  index: -1
+images/bian/bian_00038
+  rotate: true
+  xy: 566, 315
+  size: 48, 79
+  orig: 116, 145
+  offset: 1, 12
+  index: -1
+images/bian/bian_00039
+  rotate: false
+  xy: 977, 589
+  size: 43, 73
+  orig: 116, 145
+  offset: 2, 14
+  index: -1
+images/bian/bian_00040
+  rotate: false
+  xy: 981, 726
+  size: 38, 68
+  orig: 116, 145
+  offset: 3, 16
+  index: -1
+images/bian/bian_00041
+  rotate: false
+  xy: 981, 664
+  size: 36, 60
+  orig: 116, 145
+  offset: 3, 20
+  index: -1
+images/bian/bian_00042
+  rotate: false
+  xy: 977, 534
+  size: 32, 53
+  orig: 116, 145
+  offset: 5, 24
+  index: -1
+images/bian/bian_00043
+  rotate: true
+  xy: 683, 387
+  size: 28, 46
+  orig: 116, 145
+  offset: 7, 28
+  index: -1
+images/bian/bian_00044
+  rotate: false
+  xy: 658, 389
+  size: 23, 38
+  orig: 116, 145
+  offset: 9, 32
+  index: -1
+images/bian/bian_00045
+  rotate: true
+  xy: 731, 396
+  size: 19, 32
+  orig: 116, 145
+  offset: 11, 36
+  index: -1
+images/bian/bian_00046
+  rotate: true
+  xy: 646, 897
+  size: 15, 25
+  orig: 116, 145
+  offset: 13, 39
+  index: -1
+images/bian/bian_00047
+  rotate: true
+  xy: 566, 429
+  size: 11, 18
+  orig: 116, 145
+  offset: 15, 43
+  index: -1
+images/bian/bian_00048
+  rotate: false
+  xy: 1013, 884
+  size: 9, 10
+  orig: 116, 145
+  offset: 15, 47
+  index: -1
+images/bian/bian_00049
+  rotate: false
+  xy: 1013, 873
+  size: 9, 9
+  orig: 116, 145
+  offset: 15, 48
+  index: -1
+images/daliubian_00050
+  rotate: false
+  xy: 2, 341
+  size: 231, 200
+  orig: 251, 259
+  offset: 8, 23
+  index: -1
+images/daliubianguang_00000
+  rotate: false
+  xy: 387, 889
+  size: 144, 133
+  orig: 150, 141
+  offset: 2, 4
+  index: -1
+images/huiliubian_00000
+  rotate: true
+  xy: 910, 896
+  size: 126, 110
+  orig: 140, 142
+  offset: 7, 15
+  index: -1
+images/kuang_00000
+  rotate: false
+  xy: 2, 543
+  size: 383, 479
+  orig: 383, 479
+  offset: 0, 0
+  index: -1
+images/yumao_00000
+  rotate: false
+  xy: 1011, 573
+  size: 11, 14
+  orig: 50, 50
+  offset: 18, 16
+  index: -1

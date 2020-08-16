@@ -1,0 +1,20 @@
+
+effect_LED_09.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/liang2_00179
+  rotate: false
+  xy: 2, 114
+  size: 200, 110
+  orig: 200, 110
+  offset: 0, 0
+  index: -1
+images/liang3_00028
+  rotate: false
+  xy: 2, 2
+  size: 200, 110
+  orig: 200, 110
+  offset: 0, 0
+  index: -1

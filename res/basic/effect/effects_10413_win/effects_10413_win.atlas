@@ -1,0 +1,286 @@
+
+effects_10413_win.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/win/biao/biao_00024
+  rotate: true
+  xy: 812, 165
+  size: 86, 88
+  orig: 180, 174
+  offset: 46, 47
+  index: -1
+images/effects/win/biao/biao_00028
+  rotate: false
+  xy: 861, 864
+  size: 161, 158
+  orig: 180, 174
+  offset: 8, 13
+  index: -1
+images/effects/win/biao/biao_00034
+  rotate: true
+  xy: 2, 4
+  size: 143, 151
+  orig: 180, 174
+  offset: 17, 11
+  index: -1
+images/effects/win/biao/biao_00036
+  rotate: false
+  xy: 203, 253
+  size: 143, 152
+  orig: 180, 174
+  offset: 16, 9
+  index: -1
+images/effects/win/biao/biao_00038
+  rotate: false
+  xy: 203, 407
+  size: 143, 155
+  orig: 180, 174
+  offset: 16, 5
+  index: -1
+images/effects/win/biao/biao_00040
+  rotate: true
+  xy: 155, 8
+  size: 139, 157
+  orig: 180, 174
+  offset: 19, 3
+  index: -1
+images/effects/win/biao/biao_00042
+  rotate: true
+  xy: 314, 10
+  size: 139, 157
+  orig: 180, 174
+  offset: 19, 3
+  index: -1
+images/effects/win/dimian/dimian_00007
+  rotate: false
+  xy: 357, 944
+  size: 250, 78
+  orig: 266, 92
+  offset: 10, 5
+  index: -1
+images/effects/win/dimian/dimian_00015
+  rotate: false
+  xy: 609, 944
+  size: 250, 78
+  orig: 266, 92
+  offset: 10, 5
+  index: -1
+images/effects/win/dimian/dimian_00023
+  rotate: false
+  xy: 357, 865
+  size: 250, 77
+  orig: 266, 92
+  offset: 10, 6
+  index: -1
+images/effects/win/dimian/dimian_00031
+  rotate: false
+  xy: 609, 865
+  size: 250, 77
+  orig: 266, 92
+  offset: 10, 6
+  index: -1
+images/effects/win/dimian/dimian_00033
+  rotate: false
+  xy: 357, 799
+  size: 226, 64
+  orig: 266, 92
+  offset: 24, 12
+  index: -1
+images/effects/win/dimian/dimian_00035
+  rotate: false
+  xy: 2, 782
+  size: 219, 58
+  orig: 266, 92
+  offset: 27, 15
+  index: -1
+images/effects/win/glow_000
+  rotate: false
+  xy: 902, 183
+  size: 68, 68
+  orig: 70, 70
+  offset: 1, 1
+  index: -1
+images/effects/win/guang/guang_00005
+  rotate: true
+  xy: 812, 422
+  size: 59, 180
+  orig: 234, 201
+  offset: 89, 8
+  index: -1
+images/effects/win/guang/guang_00007
+  rotate: false
+  xy: 723, 2
+  size: 87, 186
+  orig: 234, 201
+  offset: 68, 7
+  index: -1
+images/effects/win/guang/guang_00009
+  rotate: true
+  xy: 2, 149
+  size: 112, 189
+  orig: 234, 201
+  offset: 67, 6
+  index: -1
+images/effects/win/guang/guang_00011
+  rotate: true
+  xy: 2, 263
+  size: 127, 191
+  orig: 234, 201
+  offset: 54, 5
+  index: -1
+images/effects/win/guang/guang_00013
+  rotate: true
+  xy: 348, 275
+  size: 140, 193
+  orig: 234, 201
+  offset: 43, 4
+  index: -1
+images/effects/win/guang/guang_00015
+  rotate: true
+  xy: 553, 317
+  size: 165, 194
+  orig: 234, 201
+  offset: 23, 3
+  index: -1
+images/effects/win/guang/guang_00019
+  rotate: false
+  xy: 585, 667
+  size: 223, 196
+  orig: 234, 201
+  offset: 2, 1
+  index: -1
+images/effects/win/guang1_00027
+  rotate: false
+  xy: 2, 842
+  size: 353, 180
+  orig: 353, 183
+  offset: 0, 0
+  index: -1
+images/effects/win/juqi/juqi_00004
+  rotate: true
+  xy: 760, 553
+  size: 112, 29
+  orig: 201, 204
+  offset: 43, 0
+  index: -1
+images/effects/win/juqi/juqi_00006
+  rotate: false
+  xy: 193, 151
+  size: 160, 100
+  orig: 201, 204
+  offset: 19, 3
+  index: -1
+images/effects/win/juqi/juqi_00008
+  rotate: false
+  xy: 827, 253
+  size: 173, 167
+  orig: 201, 204
+  offset: 15, 4
+  index: -1
+images/effects/win/juqi/juqi_00012
+  rotate: false
+  xy: 561, 484
+  size: 197, 181
+  orig: 201, 204
+  offset: 4, 0
+  index: -1
+images/effects/win/juqi/juqi_00014
+  rotate: true
+  xy: 810, 665
+  size: 197, 203
+  orig: 201, 204
+  offset: 4, 0
+  index: -1
+images/effects/win/juqi/juqi_00016
+  rotate: true
+  xy: 2, 583
+  size: 197, 203
+  orig: 201, 204
+  offset: 4, 0
+  index: -1
+images/effects/win/juqi/juqi_00018
+  rotate: true
+  xy: 356, 604
+  size: 193, 203
+  orig: 201, 204
+  offset: 8, 0
+  index: -1
+images/effects/win/juqi/juqi_00020
+  rotate: true
+  xy: 2, 392
+  size: 189, 199
+  orig: 201, 204
+  offset: 10, 3
+  index: -1
+images/effects/win/juqi/juqi_00022
+  rotate: true
+  xy: 791, 483
+  size: 180, 196
+  orig: 201, 204
+  offset: 18, 5
+  index: -1
+images/effects/win/juqi/juqi_00024
+  rotate: true
+  xy: 355, 417
+  size: 185, 196
+  orig: 201, 204
+  offset: 8, 7
+  index: -1
+images/effects/win/liang_00027
+  rotate: true
+  xy: 543, 153
+  size: 162, 159
+  orig: 163, 160
+  offset: 0, 0
+  index: -1
+images/effects/win/lizi/lizi_00028
+  rotate: true
+  xy: 749, 320
+  size: 100, 76
+  orig: 158, 143
+  offset: 29, 43
+  index: -1
+images/effects/win/lizi/lizi_00030
+  rotate: true
+  xy: 704, 190
+  size: 125, 105
+  orig: 158, 143
+  offset: 15, 22
+  index: -1
+images/effects/win/lizi/lizi_00032
+  rotate: true
+  xy: 473, 13
+  size: 138, 118
+  orig: 158, 143
+  offset: 8, 12
+  index: -1
+images/effects/win/lizi/lizi_00034
+  rotate: false
+  xy: 207, 564
+  size: 146, 126
+  orig: 158, 143
+  offset: 4, 6
+  index: -1
+images/effects/win/lizi/lizi_00036
+  rotate: true
+  xy: 223, 692
+  size: 148, 131
+  orig: 158, 143
+  offset: 2, 2
+  index: -1
+images/effects/win/lizi/lizi_00038
+  rotate: false
+  xy: 593, 16
+  size: 128, 135
+  orig: 158, 143
+  offset: 1, 0
+  index: -1
+images/effects/win/lizi/lizi_00040
+  rotate: true
+  xy: 355, 153
+  size: 120, 133
+  orig: 158, 143
+  offset: 1, 0
+  index: -1

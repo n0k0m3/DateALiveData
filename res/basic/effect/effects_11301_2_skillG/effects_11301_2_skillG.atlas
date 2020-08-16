@@ -1,0 +1,299 @@
+
+effects_11301_2_skillG.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/2skillB/diaoluoxingxing/baodiandi/baodiandiadd_00000
+  rotate: false
+  xy: 858, 6
+  size: 81, 80
+  orig: 180, 180
+  offset: 47, 44
+  index: -1
+effects/2skillB/diaoluoxingxing/baodiandi/baodiandiadd_00001
+  rotate: true
+  xy: 676, 261
+  size: 180, 176
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+effects/2skillB/diaoluoxingxing/baodiandi/baodiandiadd_00002
+  rotate: false
+  xy: 195, 2
+  size: 180, 179
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+effects/2skillB/diaoluoxingxing/baodiandi/baodiandiadd_00004
+  rotate: false
+  xy: 676, 79
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+effects/2skillB/diaoluoxingxing/baodiandi/baodiandiadd_00005
+  rotate: false
+  xy: 801, 452
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+effects/2skillB/diaoluoxingxing/baodiandi/baodiandiadd_00007
+  rotate: false
+  xy: 377, 32
+  size: 141, 138
+  orig: 180, 180
+  offset: 10, 40
+  index: -1
+effects/2skillB/diaoluoxingxing/baodiandi/baodiandiadd_00008
+  rotate: true
+  xy: 520, 42
+  size: 128, 125
+  orig: 180, 180
+  offset: 19, 44
+  index: -1
+effects/2skillB/diaoluoxingxing/baodiandi/baodiandiadd_00011
+  rotate: false
+  xy: 850, 634
+  size: 132, 117
+  orig: 180, 180
+  offset: 16, 59
+  index: -1
+effects/2skillB/diaoluoxingxing/baodiandi/baodiandiadd_00012
+  rotate: false
+  xy: 863, 753
+  size: 140, 111
+  orig: 180, 180
+  offset: 13, 61
+  index: -1
+effects/2skillB/diaoluoxingxing/baodiandi/baodiandiadd_00017
+  rotate: false
+  xy: 954, 203
+  size: 36, 41
+  orig: 180, 180
+  offset: 50, 99
+  index: -1
+effects/2skillB/diaoluoxingxing/baodiandi/baodiandinor_00005
+  rotate: true
+  xy: 858, 88
+  size: 180, 94
+  orig: 180, 180
+  offset: 0, 22
+  index: -1
+effects/2skillB/diaoluoxingxing/baodiandi/baodiandinor_00007
+  rotate: true
+  xy: 854, 270
+  size: 180, 95
+  orig: 180, 180
+  offset: 0, 20
+  index: -1
+effects/2skillB/diaoluoxingxing/baodiandi/baodiandinor_00015
+  rotate: false
+  xy: 954, 246
+  size: 46, 42
+  orig: 180, 180
+  offset: 54, 53
+  index: -1
+effects/2skillB/diaoluoxingxing/diaoluoguiji/diaoluoguijiadd_00000
+  rotate: false
+  xy: 951, 290
+  size: 54, 77
+  orig: 180, 300
+  offset: 70, 221
+  index: -1
+effects/2skillB/diaoluoxingxing/diaoluoguiji/diaoluoguijiadd_00002
+  rotate: false
+  xy: 560, 187
+  size: 114, 248
+  orig: 180, 300
+  offset: 37, 52
+  index: -1
+effects/2skillB/diaoluoxingxing/diaoluoguiji/diaoluoguijiadd_00003
+  rotate: false
+  xy: 156, 462
+  size: 145, 271
+  orig: 180, 300
+  offset: 17, 29
+  index: -1
+effects/2skillB/diaoluoxingxing/diaoluoguiji/diaoluoguijiadd_00005
+  rotate: false
+  xy: 2, 163
+  size: 140, 285
+  orig: 180, 300
+  offset: 16, 8
+  index: -1
+effects/2skillB/diaoluoxingxing/diaoluoguiji/diaoluoguijiadd_00007
+  rotate: false
+  xy: 2, 450
+  size: 152, 283
+  orig: 180, 300
+  offset: 5, 2
+  index: -1
+effects/2skillB/diaoluoxingxing/diaoluoguiji/diaoluoguijiadd_00009
+  rotate: true
+  xy: 617, 872
+  size: 150, 274
+  orig: 180, 300
+  offset: 10, 6
+  index: -1
+effects/2skillB/diaoluoxingxing/diaoluoguiji/diaoluoguijiadd_00011
+  rotate: true
+  xy: 336, 728
+  size: 139, 273
+  orig: 180, 300
+  offset: 16, 0
+  index: -1
+effects/2skillB/diaoluoxingxing/diaoluoguiji/diaoluoguijiadd_00015
+  rotate: false
+  xy: 144, 183
+  size: 133, 265
+  orig: 180, 300
+  offset: 30, 1
+  index: -1
+effects/2skillB/diaoluoxingxing/diaoluoguiji/diaoluoguijiadd_00017
+  rotate: false
+  xy: 436, 172
+  size: 122, 263
+  orig: 180, 300
+  offset: 36, 3
+  index: -1
+effects/2skillB/diaoluoxingxing/diaoluoguiji/diaoluoguijiadd_00021
+  rotate: true
+  xy: 617, 767
+  size: 103, 244
+  orig: 180, 300
+  offset: 46, 13
+  index: -1
+effects/2skillB/diaoluoxingxing/diaoluoguiji/diaoluoguijiadd_00023
+  rotate: true
+  xy: 572, 443
+  size: 93, 211
+  orig: 180, 300
+  offset: 50, 17
+  index: -1
+effects/2skillB/diaoluoxingxing/diaoluoguiji/diaoluoguijinor_00000
+  rotate: false
+  xy: 951, 369
+  size: 62, 81
+  orig: 180, 300
+  offset: 65, 215
+  index: -1
+effects/2skillB/diaoluoxingxing/diaoluoguiji/diaoluoguijinor_00002
+  rotate: false
+  xy: 893, 866
+  size: 129, 156
+  orig: 180, 300
+  offset: 29, 144
+  index: -1
+effects/2skillB/diaoluoxingxing/diaoluoguiji/diaoluoguijinor_00003
+  rotate: true
+  xy: 2, 3
+  size: 158, 191
+  orig: 180, 300
+  offset: 10, 109
+  index: -1
+effects/2skillB/diaoluoxingxing/diaoluoguiji/diaoluoguijinor_00005
+  rotate: false
+  xy: 279, 189
+  size: 155, 246
+  orig: 180, 300
+  offset: 9, 54
+  index: -1
+effects/2skillB/diaoluoxingxing/diaoluoguiji/diaoluoguijinor_00007
+  rotate: false
+  xy: 170, 754
+  size: 164, 268
+  orig: 180, 300
+  offset: 0, 27
+  index: -1
+effects/2skillB/diaoluoxingxing/diaoluoguiji/diaoluoguijinor_00009
+  rotate: false
+  xy: 2, 735
+  size: 166, 287
+  orig: 180, 300
+  offset: 3, 0
+  index: -1
+effects/2skillB/diaoluoxingxing/diaoluoguiji/diaoluoguijinor_00011
+  rotate: true
+  xy: 336, 869
+  size: 153, 279
+  orig: 180, 300
+  offset: 9, 0
+  index: -1
+effects/2skillB/diaoluoxingxing/diaoluoguiji/diaoluoguijinor_00015
+  rotate: true
+  xy: 303, 577
+  size: 149, 271
+  orig: 180, 300
+  offset: 22, 0
+  index: -1
+effects/2skillB/diaoluoxingxing/diaoluoguiji/diaoluoguijinor_00017
+  rotate: true
+  xy: 303, 437
+  size: 138, 267
+  orig: 180, 300
+  offset: 28, 0
+  index: -1
+effects/2skillB/diaoluoxingxing/diaoluoguiji/diaoluoguijinor_00021
+  rotate: true
+  xy: 611, 647
+  size: 118, 237
+  orig: 180, 300
+  offset: 38, 5
+  index: -1
+effects/2skillB/diaoluoxingxing/diaoluoguiji/diaoluoguijinor_00023
+  rotate: true
+  xy: 576, 538
+  size: 107, 223
+  orig: 180, 300
+  offset: 43, 11
+  index: -1
+
+effects_11301_2_skillG2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/2skillB/diaoluoxingxing/baodiandi/baodiandiadd_00014
+  rotate: false
+  xy: 2, 2
+  size: 97, 107
+  orig: 180, 180
+  offset: 44, 71
+  index: -1
+effects/2skillB/diaoluoxingxing/baodiandi/baodiandinor_00001
+  rotate: false
+  xy: 184, 209
+  size: 177, 84
+  orig: 180, 180
+  offset: 2, 30
+  index: -1
+effects/2skillB/diaoluoxingxing/baodiandi/baodiandinor_00003
+  rotate: false
+  xy: 2, 197
+  size: 180, 90
+  orig: 180, 180
+  offset: 0, 25
+  index: -1
+effects/2skillB/diaoluoxingxing/baodiandi/baodiandinor_00009
+  rotate: false
+  xy: 2, 289
+  size: 180, 95
+  orig: 180, 180
+  offset: 0, 19
+  index: -1
+effects/2skillB/diaoluoxingxing/baodiandi/baodiandinor_00011
+  rotate: false
+  xy: 184, 295
+  size: 180, 89
+  orig: 180, 180
+  offset: 0, 23
+  index: -1
+effects/2skillB/diaoluoxingxing/baodiandi/baodiandinor_00013
+  rotate: false
+  xy: 2, 111
+  size: 180, 84
+  orig: 180, 180
+  offset: 0, 22
+  index: -1

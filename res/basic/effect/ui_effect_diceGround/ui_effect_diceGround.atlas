@@ -1,0 +1,118 @@
+
+ui_effect_diceGround.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/shuibowen_00000
+  rotate: false
+  xy: 2, 2
+  size: 138, 45
+  orig: 186, 95
+  offset: 25, 24
+  index: -1
+images/shuibowen_00001
+  rotate: false
+  xy: 2, 2
+  size: 138, 45
+  orig: 186, 95
+  offset: 25, 24
+  index: -1
+images/shuibowen_00002
+  rotate: false
+  xy: 153, 445
+  size: 147, 46
+  orig: 186, 95
+  offset: 17, 24
+  index: -1
+images/shuibowen_00003
+  rotate: false
+  xy: 2, 198
+  size: 143, 46
+  orig: 186, 95
+  offset: 22, 24
+  index: -1
+images/shuibowen_00004
+  rotate: false
+  xy: 2, 342
+  size: 145, 47
+  orig: 186, 95
+  offset: 21, 24
+  index: -1
+images/shuibowen_00005
+  rotate: false
+  xy: 2, 391
+  size: 146, 48
+  orig: 186, 95
+  offset: 21, 24
+  index: -1
+images/shuibowen_00006
+  rotate: false
+  xy: 2, 49
+  size: 135, 49
+  orig: 186, 95
+  offset: 32, 23
+  index: -1
+images/shuibowen_00007
+  rotate: false
+  xy: 2, 100
+  size: 138, 49
+  orig: 186, 95
+  offset: 30, 23
+  index: -1
+images/shuibowen_00008
+  rotate: false
+  xy: 2, 441
+  size: 149, 50
+  orig: 186, 95
+  offset: 20, 23
+  index: -1
+images/shuibowen_00009
+  rotate: false
+  xy: 2, 151
+  size: 143, 45
+  orig: 186, 95
+  offset: 27, 27
+  index: -1
+images/shuibowen_00010
+  rotate: false
+  xy: 302, 447
+  size: 147, 44
+  orig: 186, 95
+  offset: 25, 27
+  index: -1
+images/shuibowen_00011
+  rotate: false
+  xy: 149, 304
+  size: 135, 45
+  orig: 186, 95
+  offset: 22, 26
+  index: -1
+images/shuibowen_00012
+  rotate: false
+  xy: 150, 351
+  size: 137, 45
+  orig: 186, 95
+  offset: 20, 26
+  index: -1
+images/shuibowen_00013
+  rotate: false
+  xy: 153, 398
+  size: 141, 45
+  orig: 186, 95
+  offset: 17, 25
+  index: -1
+images/shuibowen_00014
+  rotate: false
+  xy: 2, 246
+  size: 144, 46
+  orig: 186, 95
+  offset: 16, 25
+  index: -1
+images/shuibowen_00015
+  rotate: false
+  xy: 2, 294
+  size: 145, 46
+  orig: 186, 95
+  offset: 16, 25
+  index: -1

@@ -1,0 +1,48 @@
+
+20yuchang.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fanguang_00000
+  rotate: true
+  xy: 115, 64
+  size: 143, 44
+  orig: 210, 70
+  offset: 39, 13
+  index: -1
+glow_00055
+  rotate: false
+  xy: 2, 209
+  size: 173, 210
+  orig: 210, 210
+  offset: 14, 0
+  index: -1
+shitou_00000
+  rotate: true
+  xy: 2, 3
+  size: 204, 111
+  orig: 210, 210
+  offset: 3, 56
+  index: -1
+wenli_00000
+  rotate: false
+  xy: 249, 335
+  size: 170, 84
+  orig: 210, 210
+  offset: 20, 62
+  index: -1
+yangguang_00055
+  rotate: false
+  xy: 249, 254
+  size: 165, 79
+  orig: 210, 210
+  offset: 0, 58
+  index: -1
+yyyyy
+  rotate: false
+  xy: 177, 226
+  size: 70, 193
+  orig: 70, 193
+  offset: 0, 0
+  index: -1

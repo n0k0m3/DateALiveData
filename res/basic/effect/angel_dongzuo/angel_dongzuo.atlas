@@ -1,0 +1,307 @@
+
+angel_dongzuo.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1cihilun
+  rotate: false
+  xy: 588, 202
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: -1
+1cihilun_fx1
+  rotate: false
+  xy: 184, 43
+  size: 134, 133
+  orig: 194, 173
+  offset: 30, 20
+  index: -1
+1cihilun_fx2
+  rotate: false
+  xy: 449, 65
+  size: 127, 127
+  orig: 169, 169
+  offset: 21, 21
+  index: -1
+2cihilun
+  rotate: false
+  xy: 578, 63
+  size: 63, 63
+  orig: 63, 63
+  offset: 0, 0
+  index: -1
+2cihilun_fx1
+  rotate: false
+  xy: 902, 951
+  size: 70, 71
+  orig: 84, 95
+  offset: 7, 12
+  index: -1
+2cihilun_fx2
+  rotate: false
+  xy: 902, 741
+  size: 64, 63
+  orig: 84, 95
+  offset: 10, 16
+  index: -1
+3cihilun
+  rotate: false
+  xy: 644, 74
+  size: 62, 62
+  orig: 62, 62
+  offset: 0, 0
+  index: -1
+3cihilun_fx1
+  rotate: false
+  xy: 902, 806
+  size: 69, 70
+  orig: 92, 98
+  offset: 11, 14
+  index: -1
+3cihilun_fx2
+  rotate: false
+  xy: 644, 138
+  size: 63, 62
+  orig: 92, 98
+  offset: 14, 18
+  index: -1
+di
+  rotate: false
+  xy: 671, 793
+  size: 229, 229
+  orig: 229, 229
+  offset: 0, 0
+  index: -1
+di_fx1
+  rotate: false
+  xy: 433, 786
+  size: 236, 236
+  orig: 310, 310
+  offset: 37, 37
+  index: -1
+di_fx2
+  rotate: false
+  xy: 639, 349
+  size: 67, 66
+  orig: 93, 93
+  offset: 13, 13
+  index: -1
+lun1
+  rotate: false
+  xy: 103, 4
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+lun1_fx1
+  rotate: false
+  xy: 974, 932
+  size: 36, 36
+  orig: 64, 65
+  offset: 14, 15
+  index: -1
+lun1_fx2
+  rotate: true
+  xy: 515, 2
+  size: 28, 29
+  orig: 64, 65
+  offset: 18, 18
+  index: -1
+lun2
+  rotate: true
+  xy: 72, 5
+  size: 27, 29
+  orig: 27, 29
+  offset: 0, 0
+  index: -1
+lun2_fx1
+  rotate: false
+  xy: 974, 893
+  size: 34, 37
+  orig: 46, 57
+  offset: 6, 10
+  index: -1
+lun2_fx2
+  rotate: true
+  xy: 546, 2
+  size: 28, 29
+  orig: 46, 57
+  offset: 9, 14
+  index: -1
+lun3di
+  rotate: false
+  xy: 576, 36
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+lun3di_fx2
+  rotate: false
+  xy: 603, 36
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+lun3you
+  rotate: false
+  xy: 184, 15
+  size: 19, 26
+  orig: 19, 26
+  offset: 0, 0
+  index: -1
+lun3you_fx1
+  rotate: true
+  xy: 2, 5
+  size: 27, 33
+  orig: 29, 33
+  offset: 1, 0
+  index: -1
+lun3you_fx2
+  rotate: false
+  xy: 553, 36
+  size: 21, 27
+  orig: 29, 33
+  offset: 4, 3
+  index: -1
+lun3zuo
+  rotate: false
+  xy: 205, 16
+  size: 19, 25
+  orig: 19, 25
+  offset: 0, 0
+  index: -1
+lun3zuo_fx1
+  rotate: true
+  xy: 37, 5
+  size: 27, 33
+  orig: 29, 41
+  offset: 1, 4
+  index: -1
+lun3zuo_fx2
+  rotate: false
+  xy: 161, 5
+  size: 21, 27
+  orig: 29, 41
+  offset: 4, 7
+  index: -1
+shizhong_pan
+  rotate: false
+  xy: 2, 178
+  size: 412, 412
+  orig: 543, 552
+  offset: 76, 72
+  index: -1
+shizhong_pan_fx1
+  rotate: false
+  xy: 2, 592
+  size: 429, 430
+  orig: 543, 552
+  offset: 68, 63
+  index: -1
+shizhong_pan_fx2
+  rotate: true
+  xy: 320, 48
+  size: 128, 127
+  orig: 163, 166
+  offset: 21, 20
+  index: -1
+tiao1
+  rotate: false
+  xy: 449, 11
+  size: 64, 52
+  orig: 64, 52
+  offset: 0, 0
+  index: -1
+tiao1_fx1
+  rotate: true
+  xy: 639, 488
+  size: 73, 60
+  orig: 119, 90
+  offset: 23, 15
+  index: -1
+tiao1_fx2
+  rotate: false
+  xy: 515, 32
+  size: 36, 31
+  orig: 60, 45
+  offset: 12, 7
+  index: -1
+tiao2
+  rotate: false
+  xy: 639, 329
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+tiao2_fx1
+  rotate: false
+  xy: 133, 6
+  size: 26, 26
+  orig: 28, 28
+  offset: 1, 1
+  index: -1
+tiao2_fx2
+  rotate: false
+  xy: 226, 21
+  size: 20, 20
+  orig: 28, 28
+  offset: 4, 4
+  index: -1
+zhongjian
+  rotate: true
+  xy: 433, 563
+  size: 221, 232
+  orig: 221, 232
+  offset: 0, 0
+  index: -1
+zhongjian_fx1
+  rotate: false
+  xy: 416, 329
+  size: 221, 232
+  orig: 221, 232
+  offset: 0, 0
+  index: -1
+zhongjian_fx2
+  rotate: false
+  xy: 639, 417
+  size: 67, 69
+  orig: 67, 69
+  offset: 0, 0
+  index: -1
+zidanlun
+  rotate: false
+  xy: 578, 128
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+zidanlun_fx1
+  rotate: false
+  xy: 902, 878
+  size: 70, 71
+  orig: 106, 121
+  offset: 18, 25
+  index: -1
+zuolun
+  rotate: true
+  xy: 2, 34
+  size: 142, 180
+  orig: 148, 185
+  offset: 2, 4
+  index: -1
+zuolun_fx1
+  rotate: true
+  xy: 416, 194
+  size: 133, 170
+  orig: 148, 185
+  offset: 6, 9
+  index: -1
+zuolun_fx2
+  rotate: false
+  xy: 974, 970
+  size: 41, 52
+  orig: 44, 55
+  offset: 1, 2
+  index: -1

@@ -1,0 +1,355 @@
+
+effects_30601_die.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/die/bd/bd_00069
+  rotate: true
+  xy: 724, 166
+  size: 123, 108
+  orig: 192, 159
+  offset: 35, 20
+  index: -1
+images/effects/die/bd/bd_00070
+  rotate: false
+  xy: 678, 34
+  size: 149, 130
+  orig: 192, 159
+  offset: 27, 14
+  index: -1
+images/effects/die/bd/bd_00071
+  rotate: false
+  xy: 854, 453
+  size: 168, 144
+  orig: 192, 159
+  offset: 13, 8
+  index: -1
+images/effects/die/bd2/bd2_00070
+  rotate: false
+  xy: 854, 599
+  size: 168, 164
+  orig: 232, 209
+  offset: 35, 16
+  index: -1
+images/effects/die/bd2/bd2_00071
+  rotate: true
+  xy: 844, 270
+  size: 181, 178
+  orig: 232, 209
+  offset: 29, 10
+  index: -1
+images/effects/die/bd2/bd2_00074
+  rotate: false
+  xy: 271, 24
+  size: 198, 199
+  orig: 232, 209
+  offset: 21, 0
+  index: -1
+images/effects/die/bd_add/bd_add_00070
+  rotate: true
+  xy: 930, 28
+  size: 125, 92
+  orig: 218, 158
+  offset: 47, 29
+  index: -1
+images/effects/die/bd_add/bd_add_00071
+  rotate: true
+  xy: 829, 2
+  size: 151, 99
+  orig: 218, 158
+  offset: 33, 29
+  index: -1
+images/effects/die/bd_add/bd_add_00073
+  rotate: false
+  xy: 834, 155
+  size: 181, 113
+  orig: 218, 158
+  offset: 17, 21
+  index: -1
+images/effects/die/bd_add/bd_add_00077
+  rotate: false
+  xy: 471, 29
+  size: 205, 138
+  orig: 218, 158
+  offset: 5, 0
+  index: -1
+images/effects/die/bd_nor/bd_nor_00069
+  rotate: false
+  xy: 2, 484
+  size: 273, 235
+  orig: 310, 268
+  offset: 22, 23
+  index: -1
+images/effects/die/bd_nor/bd_nor_00070
+  rotate: false
+  xy: 307, 792
+  size: 275, 230
+  orig: 310, 268
+  offset: 21, 18
+  index: -1
+images/effects/die/bd_nor/bd_nor_00071
+  rotate: true
+  xy: 2, 208
+  size: 274, 221
+  orig: 310, 268
+  offset: 21, 17
+  index: -1
+images/effects/die/bd_nor/bd_nor_00072
+  rotate: false
+  xy: 584, 804
+  size: 274, 218
+  orig: 310, 268
+  offset: 21, 13
+  index: -1
+images/effects/die/bd_nor/bd_nor_00073
+  rotate: false
+  xy: 307, 574
+  size: 275, 216
+  orig: 310, 268
+  offset: 20, 14
+  index: -1
+images/effects/die/bd_nor/bd_nor_00074
+  rotate: false
+  xy: 584, 589
+  size: 268, 213
+  orig: 310, 268
+  offset: 27, 18
+  index: -1
+images/effects/die/bd_nor/bd_nor_00076
+  rotate: false
+  xy: 277, 365
+  size: 268, 207
+  orig: 310, 268
+  offset: 26, 23
+  index: -1
+images/effects/die/bd_nor/bd_nor_00078
+  rotate: false
+  xy: 2, 5
+  size: 267, 201
+  orig: 310, 268
+  offset: 19, 23
+  index: -1
+images/effects/die/bd_nor/bd_nor_00080
+  rotate: false
+  xy: 584, 431
+  size: 258, 156
+  orig: 310, 268
+  offset: 15, 64
+  index: -1
+images/effects/die/bd_nor/bd_nor_00081
+  rotate: false
+  xy: 225, 225
+  size: 262, 138
+  orig: 310, 268
+  offset: 13, 83
+  index: -1
+images/effects/die/bd_nor/bd_nor_00083
+  rotate: false
+  xy: 547, 291
+  size: 254, 138
+  orig: 310, 268
+  offset: 12, 83
+  index: -1
+images/effects/die/bd_nor/bd_nor_00085
+  rotate: false
+  xy: 803, 378
+  size: 36, 51
+  orig: 310, 268
+  offset: 15, 148
+  index: -1
+images/effects/die/glow1_00059
+  rotate: false
+  xy: 489, 169
+  size: 233, 120
+  orig: 263, 139
+  offset: 15, 9
+  index: -1
+images/effects/die/glow3_00066
+  rotate: false
+  xy: 2, 721
+  size: 303, 301
+  orig: 315, 312
+  offset: 9, 6
+  index: -1
+images/effects/die/glow4_00053
+  rotate: false
+  xy: 860, 765
+  size: 158, 257
+  orig: 172, 262
+  offset: 11, 5
+  index: -1
+images/effects/die/shandian/shandian_00051
+  rotate: false
+  xy: 225, 210
+  size: 17, 13
+  orig: 76, 103
+  offset: 18, 81
+  index: -1
+images/effects/die/shandian/shandian_00054
+  rotate: false
+  xy: 489, 323
+  size: 56, 40
+  orig: 76, 103
+  offset: 10, 30
+  index: -1
+images/effects/die/shandian/shandian_00056
+  rotate: false
+  xy: 277, 696
+  size: 26, 23
+  orig: 76, 103
+  offset: 42, 9
+  index: -1
+images/effects/die/shandian/shandian_00059
+  rotate: true
+  xy: 489, 291
+  size: 30, 33
+  orig: 76, 103
+  offset: 39, 57
+  index: -1
+images/effects/die/shandian/shandian_00060
+  rotate: false
+  xy: 225, 416
+  size: 43, 66
+  orig: 76, 103
+  offset: 12, 18
+  index: -1
+
+effects_30601_die2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/die/bd/bd_00068
+  rotate: false
+  xy: 123, 229
+  size: 78, 78
+  orig: 192, 159
+  offset: 57, 37
+  index: -1
+images/effects/die/bd/bd_00072
+  rotate: false
+  xy: 396, 870
+  size: 176, 146
+  orig: 192, 159
+  offset: 8, 7
+  index: -1
+images/effects/die/bd2/bd2_00069
+  rotate: false
+  xy: 133, 375
+  size: 120, 119
+  orig: 232, 209
+  offset: 59, 40
+  index: -1
+images/effects/die/bd2/bd2_00072
+  rotate: false
+  xy: 202, 825
+  size: 192, 191
+  orig: 232, 209
+  offset: 22, 3
+  index: -1
+images/effects/die/bd2/bd2_00073
+  rotate: false
+  xy: 2, 819
+  size: 198, 197
+  orig: 232, 209
+  offset: 20, 0
+  index: -1
+images/effects/die/bd2/bd2_00075
+  rotate: false
+  xy: 2, 619
+  size: 196, 198
+  orig: 232, 209
+  offset: 22, 0
+  index: -1
+images/effects/die/bd_add/bd_add_00069
+  rotate: false
+  xy: 123, 309
+  size: 103, 64
+  orig: 218, 158
+  offset: 51, 41
+  index: -1
+images/effects/die/bd_add/bd_add_00072
+  rotate: false
+  xy: 753, 912
+  size: 169, 104
+  orig: 218, 158
+  offset: 24, 28
+  index: -1
+images/effects/die/bd_add/bd_add_00074
+  rotate: true
+  xy: 2, 228
+  size: 190, 119
+  orig: 218, 158
+  offset: 13, 14
+  index: -1
+images/effects/die/bd_add/bd_add_00075
+  rotate: true
+  xy: 2, 420
+  size: 197, 129
+  orig: 218, 158
+  offset: 9, 7
+  index: -1
+images/effects/die/bd_add/bd_add_00079
+  rotate: false
+  xy: 574, 876
+  size: 177, 140
+  orig: 218, 158
+  offset: 14, 0
+  index: -1
+images/effects/die/bd_add/bd_add_00081
+  rotate: true
+  xy: 2, 46
+  size: 180, 82
+  orig: 218, 158
+  offset: 13, 60
+  index: -1
+images/effects/die/bd_add/bd_add_00083
+  rotate: false
+  xy: 396, 827
+  size: 134, 41
+  orig: 218, 158
+  offset: 58, 88
+  index: -1
+images/effects/die/glow5_00069
+  rotate: false
+  xy: 133, 496
+  size: 121, 121
+  orig: 136, 135
+  offset: 6, 8
+  index: -1
+images/effects/die/glow6_00070
+  rotate: false
+  xy: 924, 924
+  size: 91, 92
+  orig: 92, 92
+  offset: 0, 0
+  index: -1
+images/effects/die/shandian/shandian_00048
+  rotate: false
+  xy: 86, 49
+  size: 59, 86
+  orig: 76, 103
+  offset: 14, 5
+  index: -1
+images/effects/die/shandian/shandian_00050
+  rotate: false
+  xy: 86, 137
+  size: 59, 89
+  orig: 76, 103
+  offset: 5, 7
+  index: -1
+images/effects/die/shandian/shandian_00052
+  rotate: true
+  xy: 147, 165
+  size: 62, 57
+  orig: 76, 103
+  offset: 2, 11
+  index: -1
+images/effects/die/shandian/shandian_00058
+  rotate: false
+  xy: 2, 2
+  size: 52, 42
+  orig: 76, 103
+  offset: 11, 12
+  index: -1

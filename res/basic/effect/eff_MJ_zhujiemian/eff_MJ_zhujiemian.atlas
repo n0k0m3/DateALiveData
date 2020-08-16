@@ -1,0 +1,76 @@
+
+eff_MJ_zhujiemian.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dengjizi
+  rotate: false
+  xy: 2, 2
+  size: 184, 41
+  orig: 184, 41
+  offset: 0, 0
+  index: -1
+guang
+  rotate: false
+  xy: 914, 918
+  size: 57, 65
+  orig: 57, 65
+  offset: 0, 0
+  index: -1
+shandianH_01
+  rotate: false
+  xy: 240, 589
+  size: 192, 192
+  orig: 256, 256
+  offset: 32, 36
+  index: -1
+shandianH_02
+  rotate: false
+  xy: 478, 779
+  size: 220, 204
+  orig: 256, 256
+  offset: 16, 24
+  index: -1
+shandianH_03
+  rotate: true
+  xy: 2, 275
+  size: 228, 200
+  orig: 256, 256
+  offset: 16, 20
+  index: -1
+shandianH_04
+  rotate: true
+  xy: 2, 505
+  size: 244, 216
+  orig: 256, 256
+  offset: 12, 16
+  index: -1
+shandianQ_01
+  rotate: false
+  xy: 240, 783
+  size: 236, 200
+  orig: 256, 256
+  offset: 20, 32
+  index: -1
+shandianQ_02
+  rotate: true
+  xy: 2, 45
+  size: 228, 192
+  orig: 256, 256
+  offset: 28, 36
+  index: -1
+shandianQ_03
+  rotate: false
+  xy: 2, 751
+  size: 236, 232
+  orig: 256, 256
+  offset: 16, 0
+  index: -1
+shandianQ_04
+  rotate: false
+  xy: 700, 795
+  size: 212, 188
+  orig: 256, 256
+  offset: 32, 36
+  index: -1

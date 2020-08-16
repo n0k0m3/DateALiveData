@@ -1,0 +1,13 @@
+
+map_suipian_02.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/suipian_00000
+  rotate: false
+  xy: 2, 2
+  size: 95, 108
+  orig: 225, 150
+  offset: 66, 20
+  index: -1

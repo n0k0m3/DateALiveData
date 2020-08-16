@@ -1,0 +1,356 @@
+
+effects_30202_skillE.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skillB/nor/yan_00007
+  rotate: false
+  xy: 384, 313
+  size: 120, 43
+  orig: 124, 46
+  offset: 2, 1
+  index: -1
+effects/skillB/nor/yan_00008
+  rotate: false
+  xy: 597, 605
+  size: 122, 45
+  orig: 124, 46
+  offset: 0, 1
+  index: -1
+effects/skillB/nor/yan_00009
+  rotate: true
+  xy: 162, 26
+  size: 124, 45
+  orig: 124, 46
+  offset: 0, 1
+  index: -1
+effects/skillB/nor/yan_00010
+  rotate: true
+  xy: 593, 377
+  size: 122, 43
+  orig: 124, 46
+  offset: 2, 1
+  index: -1
+effects/skillB/nor/yan_00011
+  rotate: false
+  xy: 359, 273
+  size: 119, 38
+  orig: 124, 46
+  offset: 5, 2
+  index: -1
+effects/skillC/nor/yanwu_00065
+  rotate: true
+  xy: 366, 208
+  size: 63, 89
+  orig: 179, 187
+  offset: 115, 5
+  index: -1
+effects/skillC/nor/yanwu_00066
+  rotate: false
+  xy: 378, 474
+  size: 124, 134
+  orig: 179, 187
+  offset: 47, 4
+  index: -1
+effects/skillC/nor/yanwu_00067
+  rotate: false
+  xy: 597, 652
+  size: 152, 162
+  orig: 179, 187
+  offset: 18, 5
+  index: -1
+effects/skillC/nor/yanwu_00069
+  rotate: false
+  xy: 739, 860
+  size: 154, 162
+  orig: 179, 187
+  offset: 13, 21
+  index: -1
+effects/skillC/nor/yanwu_00071
+  rotate: false
+  xy: 2, 10
+  size: 158, 140
+  orig: 179, 187
+  offset: 4, 41
+  index: -1
+effects/skillC/nor/yanwu_00073
+  rotate: true
+  xy: 751, 715
+  size: 143, 140
+  orig: 179, 187
+  offset: 7, 43
+  index: -1
+effects/skillE/add/bao_00004
+  rotate: true
+  xy: 261, 196
+  size: 60, 103
+  orig: 110, 210
+  offset: 1, 78
+  index: -1
+effects/skillE/add/bao_00005
+  rotate: true
+  xy: 506, 306
+  size: 59, 77
+  orig: 110, 210
+  offset: 2, 78
+  index: -1
+effects/skillE/add/bao_00006
+  rotate: false
+  xy: 576, 501
+  size: 70, 102
+  orig: 110, 210
+  offset: 2, 68
+  index: -1
+effects/skillE/add/bao_00007
+  rotate: true
+  xy: 751, 641
+  size: 72, 140
+  orig: 110, 210
+  offset: 14, 47
+  index: -1
+effects/skillE/add/bao_00008
+  rotate: true
+  xy: 385, 610
+  size: 79, 166
+  orig: 110, 210
+  offset: 16, 31
+  index: -1
+effects/skillE/add/bao_00009
+  rotate: false
+  xy: 196, 446
+  size: 85, 186
+  orig: 110, 210
+  offset: 16, 17
+  index: -1
+effects/skillE/add/bao_00010
+  rotate: true
+  xy: 393, 691
+  size: 90, 202
+  orig: 110, 210
+  offset: 15, 4
+  index: -1
+effects/skillE/add/bao_00011
+  rotate: false
+  xy: 283, 463
+  size: 93, 169
+  orig: 110, 210
+  offset: 14, 38
+  index: -1
+effects/skillE/add/bao_00012
+  rotate: true
+  xy: 206, 634
+  size: 96, 177
+  orig: 110, 210
+  offset: 12, 29
+  index: -1
+effects/skillE/add/bao_00013
+  rotate: false
+  xy: 504, 472
+  size: 70, 136
+  orig: 110, 210
+  offset: 10, 21
+  index: -1
+effects/skillE/add/bao_00014
+  rotate: false
+  xy: 187, 205
+  size: 72, 139
+  orig: 110, 210
+  offset: 7, 13
+  index: -1
+effects/skillE/add/bao_00015
+  rotate: false
+  xy: 162, 2
+  size: 21, 22
+  orig: 110, 210
+  offset: 5, 125
+  index: -1
+effects/skillE/add/bao_00016
+  rotate: false
+  xy: 721, 629
+  size: 21, 21
+  orig: 110, 210
+  offset: 2, 120
+  index: -1
+effects/skillE/add/dian2_00008
+  rotate: true
+  xy: 187, 152
+  size: 51, 50
+  orig: 163, 117
+  offset: 54, 0
+  index: -1
+effects/skillE/add/dian2_00009
+  rotate: false
+  xy: 261, 258
+  size: 96, 80
+  orig: 163, 117
+  offset: 56, 1
+  index: -1
+effects/skillE/add/dian2_00010
+  rotate: true
+  xy: 196, 346
+  size: 98, 85
+  orig: 163, 117
+  offset: 59, 2
+  index: -1
+effects/skillE/add/dian2_00011
+  rotate: true
+  xy: 209, 83
+  size: 67, 50
+  orig: 163, 117
+  offset: 38, 19
+  index: -1
+effects/skillE/add/dian2_00012
+  rotate: true
+  xy: 283, 340
+  size: 121, 99
+  orig: 163, 117
+  offset: 41, 0
+  index: -1
+effects/skillE/add/dian2_00013
+  rotate: false
+  xy: 504, 367
+  size: 87, 103
+  orig: 163, 117
+  offset: 6, 0
+  index: -1
+effects/skillE/add/dian2_00014
+  rotate: true
+  xy: 895, 861
+  size: 161, 108
+  orig: 163, 117
+  offset: 2, 3
+  index: -1
+effects/skillE/add/dian2_00017
+  rotate: false
+  xy: 648, 509
+  size: 63, 94
+  orig: 163, 117
+  offset: 0, 22
+  index: -1
+effects/skillE/add/dian2_00019
+  rotate: true
+  xy: 209, 27
+  size: 54, 53
+  orig: 163, 117
+  offset: 0, 64
+  index: -1
+effects/skillE/add/dian_00002
+  rotate: false
+  xy: 2, 152
+  size: 183, 203
+  orig: 202, 370
+  offset: 0, 0
+  index: -1
+effects/skillE/add/dian_00004
+  rotate: false
+  xy: 206, 732
+  size: 185, 290
+  orig: 202, 370
+  offset: 0, 0
+  index: -1
+effects/skillE/add/dian_00005
+  rotate: false
+  xy: 2, 357
+  size: 192, 318
+  orig: 202, 370
+  offset: 6, 6
+  index: -1
+effects/skillE/add/dian_00006
+  rotate: false
+  xy: 2, 677
+  size: 202, 345
+  orig: 202, 370
+  offset: 0, 25
+  index: -1
+effects/skillE/add/dian_00007
+  rotate: false
+  xy: 393, 783
+  size: 202, 239
+  orig: 202, 370
+  offset: 0, 131
+  index: -1
+effects/skillE/add/dian_00008
+  rotate: false
+  xy: 597, 816
+  size: 140, 206
+  orig: 202, 370
+  offset: 62, 164
+  index: -1
+effects/skillE/add/shan_00002
+  rotate: false
+  xy: 384, 358
+  size: 118, 114
+  orig: 131, 114
+  offset: 6, 0
+  index: -1
+effects/skillE/nor/yanwu_00005
+  rotate: true
+  xy: 305, 164
+  size: 30, 52
+  orig: 46, 78
+  offset: 16, 4
+  index: -1
+effects/skillE/nor/yanwu_00006
+  rotate: false
+  xy: 457, 206
+  size: 34, 65
+  orig: 46, 78
+  offset: 12, 8
+  index: -1
+effects/skillE/nor/yanwu_00007
+  rotate: true
+  xy: 239, 155
+  size: 39, 64
+  orig: 46, 78
+  offset: 7, 10
+  index: -1
+effects/skillE/nor/yanwu_00008
+  rotate: false
+  xy: 553, 626
+  size: 42, 63
+  orig: 46, 78
+  offset: 4, 11
+  index: -1
+effects/skillE/nor/yanwu_00009
+  rotate: false
+  xy: 261, 90
+  size: 43, 63
+  orig: 46, 78
+  offset: 3, 12
+  index: -1
+effects/skillE/nor/yanwu_00010
+  rotate: false
+  xy: 264, 32
+  size: 43, 56
+  orig: 46, 78
+  offset: 3, 19
+  index: -1
+effects/skillE/nor/yanwu_00011
+  rotate: false
+  xy: 306, 106
+  size: 43, 56
+  orig: 46, 78
+  offset: 3, 19
+  index: -1
+effects/skillE/nor/yanwu_00012
+  rotate: false
+  xy: 309, 49
+  size: 43, 55
+  orig: 46, 78
+  offset: 3, 19
+  index: -1
+effects/skillE/nor/yanwu_00013
+  rotate: true
+  xy: 366, 163
+  size: 43, 54
+  orig: 46, 78
+  offset: 3, 20
+  index: -1
+effects/skillE/nor/yanwu_00014
+  rotate: false
+  xy: 351, 126
+  size: 42, 35
+  orig: 46, 78
+  offset: 3, 39
+  index: -1

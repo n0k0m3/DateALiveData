@@ -1,0 +1,20 @@
+
+effects_10406_yujing.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/shi
+  rotate: false
+  xy: 2, 77
+  size: 195, 62
+  orig: 196, 104
+  offset: 1, 19
+  index: -1
+effect/xu
+  rotate: false
+  xy: 2, 141
+  size: 205, 66
+  orig: 220, 92
+  offset: 8, 13
+  index: -1

@@ -1,0 +1,453 @@
+
+effects_30901_Eborn.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/Effect/Eborn/baodian/00017
+  rotate: true
+  xy: 214, 785
+  size: 237, 160
+  orig: 260, 236
+  offset: 15, 33
+  index: -1
+images/Effect/Eborn/baofa/00016
+  rotate: false
+  xy: 819, 360
+  size: 83, 135
+  orig: 195, 193
+  offset: 57, 49
+  index: -1
+images/Effect/Eborn/baofa/00018
+  rotate: false
+  xy: 515, 383
+  size: 174, 175
+  orig: 195, 193
+  offset: 11, 13
+  index: -1
+images/Effect/Eborn/baofa/00020
+  rotate: false
+  xy: 529, 627
+  size: 158, 173
+  orig: 195, 193
+  offset: 20, 13
+  index: -1
+images/Effect/Eborn/baofa/00022
+  rotate: true
+  xy: 533, 867
+  size: 155, 151
+  orig: 195, 193
+  offset: 21, 15
+  index: -1
+images/Effect/Eborn/baofa/00024
+  rotate: true
+  xy: 916, 671
+  size: 77, 106
+  orig: 195, 193
+  offset: 60, 54
+  index: -1
+images/Effect/Eborn/chongjibo/00020
+  rotate: true
+  xy: 2, 251
+  size: 251, 85
+  orig: 253, 138
+  offset: 0, 19
+  index: -1
+images/Effect/Eborn/chongjibo/00021
+  rotate: true
+  xy: 224, 2
+  size: 249, 91
+  orig: 253, 138
+  offset: 0, 16
+  index: -1
+images/Effect/Eborn/chongjibo/00022
+  rotate: true
+  xy: 307, 549
+  size: 234, 90
+  orig: 253, 138
+  offset: 9, 17
+  index: -1
+images/Effect/Eborn/chongjibo/00023
+  rotate: true
+  xy: 317, 6
+  size: 245, 88
+  orig: 253, 138
+  offset: 4, 18
+  index: -1
+images/Effect/Eborn/chongjibo/00024
+  rotate: true
+  xy: 2, 504
+  size: 253, 88
+  orig: 253, 138
+  offset: 0, 18
+  index: -1
+images/Effect/Eborn/chongjibo/00025
+  rotate: true
+  xy: 455, 802
+  size: 220, 76
+  orig: 253, 138
+  offset: 17, 27
+  index: -1
+images/Effect/Eborn/chongjibo/00026
+  rotate: true
+  xy: 321, 319
+  size: 228, 79
+  orig: 253, 138
+  offset: 13, 25
+  index: -1
+images/Effect/Eborn/chongjibo/00027
+  rotate: true
+  xy: 376, 789
+  size: 233, 77
+  orig: 253, 138
+  offset: 11, 25
+  index: -1
+images/Effect/Eborn/juesebianyuan/00018
+  rotate: true
+  xy: 896, 41
+  size: 118, 125
+  orig: 209, 181
+  offset: 51, 27
+  index: -1
+images/Effect/Eborn/juesebianyuan/00020
+  rotate: false
+  xy: 908, 427
+  size: 112, 127
+  orig: 209, 181
+  offset: 55, 27
+  index: -1
+images/Effect/Eborn/juesebianyuan/00022
+  rotate: true
+  xy: 689, 560
+  size: 114, 128
+  orig: 209, 181
+  offset: 57, 27
+  index: -1
+images/Effect/Eborn/juesebianyuan/00025
+  rotate: false
+  xy: 902, 161
+  size: 120, 130
+  orig: 209, 181
+  offset: 56, 27
+  index: -1
+images/Effect/Eborn/juesebianyuan/00027
+  rotate: false
+  xy: 691, 294
+  size: 126, 130
+  orig: 209, 181
+  offset: 54, 27
+  index: -1
+images/Effect/Eborn/juesebianyuan/00028
+  rotate: true
+  xy: 685, 165
+  size: 127, 131
+  orig: 209, 181
+  offset: 52, 27
+  index: -1
+images/Effect/Eborn/juesebianyuan/00029
+  rotate: false
+  xy: 691, 426
+  size: 126, 132
+  orig: 209, 181
+  offset: 51, 27
+  index: -1
+images/Effect/Eborn/juesebianyuan/00030
+  rotate: false
+  xy: 769, 26
+  size: 125, 133
+  orig: 209, 181
+  offset: 50, 27
+  index: -1
+images/Effect/Eborn/juesebianyuan/00031
+  rotate: false
+  xy: 642, 25
+  size: 125, 134
+  orig: 209, 181
+  offset: 48, 27
+  index: -1
+images/Effect/Eborn/juesebianyuan/00032
+  rotate: true
+  xy: 779, 676
+  size: 123, 135
+  orig: 209, 181
+  offset: 48, 27
+  index: -1
+images/Effect/Eborn/juesebianyuan/00033
+  rotate: false
+  xy: 518, 24
+  size: 122, 135
+  orig: 209, 181
+  offset: 47, 27
+  index: -1
+images/Effect/Eborn/juesebianyuan/00034
+  rotate: true
+  xy: 779, 901
+  size: 121, 136
+  orig: 209, 181
+  offset: 47, 27
+  index: -1
+images/Effect/Eborn/juesebianyuan/00035
+  rotate: false
+  xy: 904, 293
+  size: 118, 132
+  orig: 209, 181
+  offset: 46, 27
+  index: -1
+images/Effect/Eborn/juesebianyuan/00039
+  rotate: true
+  xy: 917, 887
+  size: 135, 102
+  orig: 209, 181
+  offset: 39, 25
+  index: -1
+images/Effect/Eborn/juesebianyuan/00040
+  rotate: false
+  xy: 779, 801
+  size: 136, 98
+  orig: 209, 181
+  offset: 39, 26
+  index: -1
+images/Effect/Eborn/kuosan/00019
+  rotate: false
+  xy: 321, 258
+  size: 181, 59
+  orig: 237, 126
+  offset: 29, 28
+  index: -1
+images/Effect/Eborn/shandian/00019
+  rotate: false
+  xy: 819, 578
+  size: 95, 96
+  orig: 188, 151
+  offset: 29, 7
+  index: -1
+images/Effect/Eborn/shandian/00021
+  rotate: true
+  xy: 585, 226
+  size: 77, 98
+  orig: 188, 151
+  offset: 43, 5
+  index: -1
+images/Effect/Eborn/shandian/00022
+  rotate: false
+  xy: 819, 260
+  size: 81, 98
+  orig: 188, 151
+  offset: 18, 20
+  index: -1
+images/Effect/Eborn/shandian/00023
+  rotate: false
+  xy: 504, 258
+  size: 79, 86
+  orig: 188, 151
+  offset: 54, 10
+  index: -1
+images/Effect/Eborn/shandian/00025
+  rotate: true
+  xy: 689, 785
+  size: 81, 88
+  orig: 188, 151
+  offset: 35, 23
+  index: -1
+images/Effect/Eborn/shandian/00026
+  rotate: true
+  xy: 585, 305
+  size: 76, 99
+  orig: 188, 151
+  offset: 70, 32
+  index: -1
+images/Effect/Eborn/shandian/00027
+  rotate: false
+  xy: 818, 161
+  size: 81, 97
+  orig: 188, 151
+  offset: 90, 48
+  index: -1
+images/Effect/Eborn/shandian/00028
+  rotate: true
+  xy: 819, 497
+  size: 79, 87
+  orig: 188, 151
+  offset: 57, 37
+  index: -1
+images/Effect/Eborn/shandian/00029
+  rotate: true
+  xy: 407, 15
+  size: 54, 79
+  orig: 188, 151
+  offset: 94, 48
+  index: -1
+images/Effect/Eborn/shandian/00030
+  rotate: true
+  xy: 689, 702
+  size: 81, 87
+  orig: 188, 151
+  offset: 73, 51
+  index: -1
+images/Effect/Eborn/xuli01/00008
+  rotate: true
+  xy: 916, 556
+  size: 113, 99
+  orig: 342, 280
+  offset: 120, 50
+  index: -1
+images/Effect/Eborn/xuli01/00010
+  rotate: true
+  xy: 399, 560
+  size: 227, 128
+  orig: 342, 280
+  offset: 73, 17
+  index: -1
+images/Effect/Eborn/xuli01/00012
+  rotate: true
+  xy: 402, 346
+  size: 212, 111
+  orig: 342, 280
+  offset: 73, 34
+  index: -1
+images/Effect/Eborn/xuli01/00014
+  rotate: true
+  xy: 407, 71
+  size: 185, 109
+  orig: 342, 280
+  offset: 102, 36
+  index: -1
+images/Effect/Eborn/xuli01/00016
+  rotate: true
+  xy: 686, 868
+  size: 154, 91
+  orig: 342, 280
+  offset: 101, 64
+  index: -1
+images/Effect/Eborn/xuli01/00018
+  rotate: false
+  xy: 2, 759
+  size: 210, 263
+  orig: 342, 280
+  offset: 69, 13
+  index: -1
+images/Effect/Eborn/xuli01/00020
+  rotate: false
+  xy: 89, 253
+  size: 230, 249
+  orig: 342, 280
+  offset: 62, 27
+  index: -1
+images/Effect/Eborn/xuli01/00022
+  rotate: true
+  xy: 92, 515
+  size: 242, 213
+  orig: 342, 280
+  offset: 56, 47
+  index: -1
+images/Effect/Eborn/xuli01/00024
+  rotate: true
+  xy: 2, 3
+  size: 246, 220
+  orig: 342, 280
+  offset: 57, 43
+  index: -1
+images/Effect/Eborn/xuli01/00026
+  rotate: false
+  xy: 917, 750
+  size: 99, 135
+  orig: 342, 280
+  offset: 186, 55
+  index: -1
+
+effects_30901_Eborn2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/Effect/Eborn/baofa/00026
+  rotate: false
+  xy: 256, 19
+  size: 76, 115
+  orig: 195, 193
+  offset: 61, 49
+  index: -1
+images/Effect/Eborn/juesebianyuan/00015
+  rotate: true
+  xy: 235, 258
+  size: 122, 109
+  orig: 209, 181
+  offset: 54, 27
+  index: -1
+images/Effect/Eborn/juesebianyuan/00016
+  rotate: true
+  xy: 119, 123
+  size: 123, 117
+  orig: 209, 181
+  offset: 51, 27
+  index: -1
+images/Effect/Eborn/juesebianyuan/00017
+  rotate: false
+  xy: 246, 388
+  size: 121, 122
+  orig: 209, 181
+  offset: 50, 27
+  index: -1
+images/Effect/Eborn/juesebianyuan/00019
+  rotate: false
+  xy: 2, 120
+  size: 115, 127
+  orig: 209, 181
+  offset: 53, 27
+  index: -1
+images/Effect/Eborn/juesebianyuan/00021
+  rotate: true
+  xy: 2, 6
+  size: 112, 127
+  orig: 209, 181
+  offset: 56, 27
+  index: -1
+images/Effect/Eborn/juesebianyuan/00023
+  rotate: false
+  xy: 128, 382
+  size: 116, 128
+  orig: 209, 181
+  offset: 56, 27
+  index: -1
+images/Effect/Eborn/juesebianyuan/00024
+  rotate: false
+  xy: 2, 249
+  size: 118, 129
+  orig: 209, 181
+  offset: 56, 27
+  index: -1
+images/Effect/Eborn/juesebianyuan/00026
+  rotate: false
+  xy: 2, 380
+  size: 124, 130
+  orig: 209, 181
+  offset: 55, 27
+  index: -1
+images/Effect/Eborn/juesebianyuan/00036
+  rotate: true
+  xy: 369, 395
+  size: 115, 127
+  orig: 209, 181
+  offset: 46, 26
+  index: -1
+images/Effect/Eborn/juesebianyuan/00037
+  rotate: false
+  xy: 131, 2
+  size: 123, 119
+  orig: 209, 181
+  offset: 43, 26
+  index: -1
+images/Effect/Eborn/juesebianyuan/00038
+  rotate: true
+  xy: 122, 248
+  size: 130, 111
+  orig: 209, 181
+  offset: 41, 25
+  index: -1
+images/Effect/Eborn/shandian/00024
+  rotate: true
+  xy: 238, 136
+  size: 120, 109
+  orig: 188, 151
+  offset: 41, 21
+  index: -1

@@ -1,0 +1,13 @@
+
+eff_zhuanpan_mf_xuanhzuan.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xuanzhong
+  rotate: false
+  xy: 2, 2
+  size: 159, 159
+  orig: 159, 159
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,940 @@
+
+effects_26201.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/2/q/quan_00049
+  rotate: false
+  xy: 966, 455
+  size: 42, 75
+  orig: 68, 111
+  offset: 12, 15
+  index: -1
+images/effects/2/q/quan_00050
+  rotate: false
+  xy: 983, 279
+  size: 39, 75
+  orig: 68, 111
+  offset: 13, 15
+  index: -1
+images/effects/2/zd/zidan_00000
+  rotate: true
+  xy: 956, 795
+  size: 98, 31
+  orig: 170, 65
+  offset: 36, 15
+  index: -1
+images/effects/2/zd/zidan_00001
+  rotate: true
+  xy: 941, 128
+  size: 98, 31
+  orig: 170, 65
+  offset: 36, 15
+  index: -1
+images/effects/2/zd/zidan_00002
+  rotate: true
+  xy: 939, 28
+  size: 98, 31
+  orig: 170, 65
+  offset: 36, 15
+  index: -1
+images/effects/2/zd/zidan_00003
+  rotate: true
+  xy: 989, 795
+  size: 98, 31
+  orig: 170, 65
+  offset: 36, 15
+  index: -1
+images/effects/2/zd/zidan_00004
+  rotate: true
+  xy: 966, 532
+  size: 98, 31
+  orig: 170, 65
+  offset: 36, 15
+  index: -1
+images/effects/3/buff/lizi/1_00022
+  rotate: true
+  xy: 563, 2
+  size: 136, 187
+  orig: 211, 283
+  offset: 48, 35
+  index: -1
+images/effects/3/buff/yanwu_00002
+  rotate: true
+  xy: 941, 356
+  size: 80, 81
+  orig: 94, 97
+  offset: 8, 8
+  index: -1
+images/effects/3/buff2/huo/1_00004
+  rotate: false
+  xy: 974, 96
+  size: 48, 58
+  orig: 74, 113
+  offset: 18, 24
+  index: -1
+images/effects/3/buff2/huo/1_00006
+  rotate: false
+  xy: 974, 156
+  size: 48, 70
+  orig: 74, 113
+  offset: 19, 17
+  index: -1
+images/effects/3/buff2/huo/1_00008
+  rotate: true
+  xy: 966, 680
+  size: 47, 56
+  orig: 74, 113
+  offset: 18, 22
+  index: -1
+images/effects/3/buff2/huo/1_00010
+  rotate: false
+  xy: 956, 729
+  size: 47, 64
+  orig: 74, 113
+  offset: 18, 22
+  index: -1
+images/effects/3/buff2/huo/1_00012
+  rotate: true
+  xy: 966, 632
+  size: 46, 56
+  orig: 74, 113
+  offset: 18, 28
+  index: -1
+images/effects/3/buff2/huo/1_00014
+  rotate: false
+  xy: 972, 25
+  size: 49, 69
+  orig: 74, 113
+  offset: 19, 17
+  index: -1
+images/effects/3/buff3/lizi/1_00015
+  rotate: true
+  xy: 752, 2
+  size: 136, 185
+  orig: 171, 233
+  offset: 17, 15
+  index: -1
+images/effects/3/buff3/xue_00012
+  rotate: false
+  xy: 275, 64
+  size: 35, 35
+  orig: 41, 44
+  offset: 4, 4
+  index: -1
+images/effects/3/glow/1_00069
+  rotate: false
+  xy: 2, 101
+  size: 310, 306
+  orig: 358, 314
+  offset: 5, 8
+  index: -1
+images/effects/3/glow/1_00071
+  rotate: false
+  xy: 2, 409
+  size: 314, 306
+  orig: 358, 314
+  offset: 5, 8
+  index: -1
+images/effects/3/glow/1_00073
+  rotate: false
+  xy: 2, 717
+  size: 319, 305
+  orig: 358, 314
+  offset: 2, 9
+  index: -1
+images/effects/3/glow/1_00075
+  rotate: false
+  xy: 323, 441
+  size: 320, 283
+  orig: 358, 314
+  offset: 5, 8
+  index: -1
+images/effects/3/glow/1_00077
+  rotate: false
+  xy: 645, 438
+  size: 319, 280
+  orig: 358, 314
+  offset: 7, 9
+  index: -1
+images/effects/3/glow/1_00079
+  rotate: false
+  xy: 318, 162
+  size: 321, 277
+  orig: 358, 314
+  offset: 3, 13
+  index: -1
+images/effects/3/glow/1_00081
+  rotate: false
+  xy: 323, 726
+  size: 320, 296
+  orig: 358, 314
+  offset: 3, 12
+  index: -1
+images/effects/3/glow/1_00083
+  rotate: false
+  xy: 645, 720
+  size: 309, 302
+  orig: 358, 314
+  offset: 16, 12
+  index: -1
+images/effects/3/glow/1_00085
+  rotate: true
+  xy: 641, 140
+  size: 296, 298
+  orig: 358, 314
+  offset: 31, 16
+  index: -1
+images/effects/3/glow2_00033
+  rotate: false
+  xy: 275, 2
+  size: 103, 43
+  orig: 121, 50
+  offset: 11, 4
+  index: -1
+images/effects/3/glow3_00070
+  rotate: false
+  xy: 2, 5
+  size: 271, 94
+  orig: 419, 191
+  offset: 74, 47
+  index: -1
+images/effects/3/xiantiao/1_00010
+  rotate: true
+  xy: 314, 47
+  size: 113, 247
+  orig: 173, 270
+  offset: 48, 23
+  index: -1
+images/effects/3/zidan/1/1_00074
+  rotate: true
+  xy: 956, 895
+  size: 127, 40
+  orig: 158, 59
+  offset: 24, 9
+  index: -1
+images/effects/3/zidan/1/2_00099
+  rotate: false
+  xy: 380, 4
+  size: 126, 41
+  orig: 158, 59
+  offset: 16, 9
+  index: -1
+images/effects/3/zidan/1/3_00123
+  rotate: true
+  xy: 941, 228
+  size: 126, 40
+  orig: 158, 59
+  offset: 25, 9
+  index: -1
+
+effects_262012.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/1/2_00014
+  rotate: true
+  xy: 889, 670
+  size: 352, 122
+  orig: 532, 206
+  offset: 84, 32
+  index: -1
+images/effects/1/glow/1_00014
+  rotate: false
+  xy: 568, 222
+  size: 288, 260
+  orig: 349, 341
+  offset: 31, 55
+  index: -1
+images/effects/1/glow/1_00016
+  rotate: false
+  xy: 296, 484
+  size: 292, 267
+  orig: 349, 341
+  offset: 31, 46
+  index: -1
+images/effects/1/glow/1_00018
+  rotate: false
+  xy: 2, 748
+  size: 292, 274
+  orig: 349, 341
+  offset: 31, 37
+  index: -1
+images/effects/1/glow/1_00022
+  rotate: true
+  xy: 292, 206
+  size: 276, 274
+  orig: 349, 341
+  offset: 38, 23
+  index: -1
+images/effects/1/glow/1_00030
+  rotate: true
+  xy: 296, 753
+  size: 269, 297
+  orig: 349, 341
+  offset: 45, 1
+  index: -1
+images/effects/1/glow/1_00032
+  rotate: true
+  xy: 595, 753
+  size: 269, 292
+  orig: 349, 341
+  offset: 47, 0
+  index: -1
+images/effects/1/glow/1_00034
+  rotate: true
+  xy: 2, 478
+  size: 268, 288
+  orig: 349, 341
+  offset: 49, 0
+  index: -1
+images/effects/1/glow/1_00036
+  rotate: true
+  xy: 590, 484
+  size: 267, 285
+  orig: 349, 341
+  offset: 50, 0
+  index: -1
+images/effects/1/glow/1_00038
+  rotate: true
+  xy: 2, 209
+  size: 267, 282
+  orig: 349, 341
+  offset: 51, 0
+  index: -1
+images/effects/2/hit/1_00053
+  rotate: false
+  xy: 568, 8
+  size: 207, 212
+  orig: 266, 253
+  offset: 29, 15
+  index: -1
+images/effects/2/hit/1_00054
+  rotate: false
+  xy: 2, 2
+  size: 200, 205
+  orig: 266, 253
+  offset: 32, 19
+  index: -1
+images/effects/2/hit/1_00055
+  rotate: false
+  xy: 292, 17
+  size: 184, 187
+  orig: 266, 253
+  offset: 40, 28
+  index: -1
+images/effects/2/q/quan_00051
+  rotate: true
+  xy: 204, 6
+  size: 34, 74
+  orig: 68, 111
+  offset: 17, 16
+  index: -1
+images/effects/3/buff/lizi/1_00002
+  rotate: false
+  xy: 877, 423
+  size: 130, 245
+  orig: 211, 283
+  offset: 56, 27
+  index: -1
+images/effects/3/buff/lizi/1_00014
+  rotate: true
+  xy: 777, 30
+  size: 152, 222
+  orig: 211, 283
+  offset: 36, 21
+  index: -1
+images/effects/3/buff/lizi/1_00016
+  rotate: false
+  xy: 858, 184
+  size: 152, 237
+  orig: 211, 283
+  offset: 39, 24
+  index: -1
+images/effects/3/buff2/lizi/1_00004
+  rotate: false
+  xy: 478, 36
+  size: 87, 168
+  orig: 190, 240
+  offset: 65, 24
+  index: -1
+images/effects/3/buff3/lizi/1_00003
+  rotate: false
+  xy: 204, 42
+  size: 86, 165
+  orig: 171, 233
+  offset: 59, 6
+  index: -1
+
+effects_262013.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/1/glow/1_00006
+  rotate: false
+  xy: 284, 521
+  size: 269, 233
+  orig: 349, 341
+  offset: 41, 86
+  index: -1
+images/effects/1/glow/1_00008
+  rotate: true
+  xy: 2, 242
+  size: 277, 240
+  orig: 349, 341
+  offset: 37, 80
+  index: -1
+images/effects/1/glow/1_00010
+  rotate: false
+  xy: 2, 521
+  size: 280, 246
+  orig: 349, 341
+  offset: 37, 72
+  index: -1
+images/effects/1/glow/1_00012
+  rotate: false
+  xy: 2, 769
+  size: 281, 253
+  orig: 349, 341
+  offset: 37, 64
+  index: -1
+images/effects/1/glow/1_00020
+  rotate: true
+  xy: 244, 246
+  size: 273, 268
+  orig: 349, 341
+  offset: 41, 33
+  index: -1
+images/effects/1/glow/1_00026
+  rotate: false
+  xy: 768, 2
+  size: 239, 243
+  orig: 349, 341
+  offset: 58, 24
+  index: -1
+images/effects/1/glow/1_00028
+  rotate: false
+  xy: 766, 420
+  size: 256, 263
+  orig: 349, 341
+  offset: 52, 31
+  index: -1
+images/effects/1/glow/1_00040
+  rotate: true
+  xy: 285, 756
+  size: 266, 280
+  orig: 349, 341
+  offset: 52, 0
+  index: -1
+images/effects/1/glow/1_00042
+  rotate: true
+  xy: 567, 756
+  size: 266, 279
+  orig: 349, 341
+  offset: 53, 0
+  index: -1
+images/effects/1/glow/1_00044
+  rotate: false
+  xy: 514, 248
+  size: 250, 271
+  orig: 349, 341
+  offset: 61, 0
+  index: -1
+images/effects/1/glow/1_00050
+  rotate: true
+  xy: 502, 4
+  size: 240, 264
+  orig: 349, 341
+  offset: 62, 0
+  index: -1
+images/effects/1/glow/1_00052
+  rotate: true
+  xy: 2, 2
+  size: 238, 264
+  orig: 349, 341
+  offset: 62, 0
+  index: -1
+images/effects/3/buff/lizi/1_00020
+  rotate: true
+  xy: 848, 875
+  size: 147, 173
+  orig: 211, 283
+  offset: 46, 41
+  index: -1
+images/effects/3/buff2/glow_00009
+  rotate: true
+  xy: 766, 247
+  size: 171, 187
+  orig: 190, 216
+  offset: 11, 8
+  index: -1
+images/effects/3/buff2/huo/1_00016
+  rotate: true
+  xy: 955, 281
+  size: 47, 61
+  orig: 74, 113
+  offset: 20, 20
+  index: -1
+images/effects/3/buff2/huo/1_00018
+  rotate: true
+  xy: 955, 374
+  size: 44, 67
+  orig: 74, 113
+  offset: 19, 19
+  index: -1
+images/effects/3/buff2/huo/1_00022
+  rotate: false
+  xy: 765, 693
+  size: 42, 61
+  orig: 74, 113
+  offset: 19, 19
+  index: -1
+images/effects/3/buff2/huo/1_00024
+  rotate: true
+  xy: 955, 330
+  size: 42, 63
+  orig: 74, 113
+  offset: 20, 23
+  index: -1
+images/effects/3/buff3/1_00012
+  rotate: false
+  xy: 848, 685
+  size: 171, 188
+  orig: 185, 209
+  offset: 8, 8
+  index: -1
+images/effects/3/xiantiao/1_00006
+  rotate: true
+  xy: 555, 651
+  size: 103, 208
+  orig: 173, 270
+  offset: 48, 23
+  index: -1
+images/effects/3/xiantiao/1_00016
+  rotate: true
+  xy: 555, 550
+  size: 99, 208
+  orig: 173, 270
+  offset: 46, 27
+  index: -1
+images/effects/3/xiantiao/1_00022
+  rotate: false
+  xy: 386, 2
+  size: 114, 242
+  orig: 173, 270
+  offset: 45, 28
+  index: -1
+images/effects/3/xiantiao/1_00024
+  rotate: false
+  xy: 268, 2
+  size: 116, 242
+  orig: 173, 270
+  offset: 45, 28
+  index: -1
+
+effects_262014.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/1/glow/1_00024
+  rotate: false
+  xy: 2, 479
+  size: 266, 270
+  orig: 349, 341
+  offset: 44, 17
+  index: -1
+images/effects/1/glow/1_00046
+  rotate: false
+  xy: 2, 751
+  size: 250, 271
+  orig: 349, 341
+  offset: 59, 0
+  index: -1
+images/effects/1/glow/1_00048
+  rotate: false
+  xy: 254, 752
+  size: 249, 270
+  orig: 349, 341
+  offset: 59, 0
+  index: -1
+images/effects/1/glow/1_00054
+  rotate: false
+  xy: 2, 230
+  size: 221, 247
+  orig: 349, 341
+  offset: 70, 8
+  index: -1
+images/effects/1/gunag2_00000
+  rotate: true
+  xy: 2, 2
+  size: 226, 227
+  orig: 227, 227
+  offset: 0, 0
+  index: -1
+images/effects/2/hit/1_00052
+  rotate: false
+  xy: 270, 523
+  size: 221, 227
+  orig: 266, 253
+  offset: 22, 7
+  index: -1
+images/effects/3/buff/glow1_00004
+  rotate: true
+  xy: 697, 81
+  size: 170, 186
+  orig: 184, 219
+  offset: 7, 8
+  index: -1
+images/effects/3/buff/lizi/1_00000
+  rotate: false
+  xy: 225, 242
+  size: 134, 235
+  orig: 211, 283
+  offset: 52, 20
+  index: -1
+images/effects/3/buff/lizi/1_00004
+  rotate: true
+  xy: 697, 540
+  size: 126, 202
+  orig: 211, 283
+  offset: 52, 32
+  index: -1
+images/effects/3/buff/lizi/1_00006
+  rotate: false
+  xy: 885, 104
+  size: 137, 143
+  orig: 211, 283
+  offset: 42, 33
+  index: -1
+images/effects/3/buff/lizi/1_00012
+  rotate: true
+  xy: 697, 387
+  size: 151, 200
+  orig: 211, 283
+  offset: 34, 27
+  index: -1
+images/effects/3/buff/xuehua_00000
+  rotate: false
+  xy: 505, 761
+  size: 48, 48
+  orig: 55, 49
+  offset: 4, 0
+  index: -1
+images/effects/3/buff2/huo/1_00000
+  rotate: true
+  xy: 537, 253
+  size: 44, 49
+  orig: 74, 113
+  offset: 20, 17
+  index: -1
+images/effects/3/buff2/huo/1_00002
+  rotate: true
+  xy: 480, 251
+  size: 46, 55
+  orig: 74, 113
+  offset: 19, 19
+  index: -1
+images/effects/3/buff2/huo/1_00020
+  rotate: true
+  xy: 270, 479
+  size: 42, 60
+  orig: 74, 113
+  offset: 19, 18
+  index: -1
+images/effects/3/buff2/huo/1_00026
+  rotate: true
+  xy: 332, 480
+  size: 41, 57
+  orig: 74, 113
+  offset: 21, 22
+  index: -1
+images/effects/3/buff2/lizi/1_00000
+  rotate: false
+  xy: 899, 249
+  size: 118, 168
+  orig: 190, 240
+  offset: 29, 2
+  index: -1
+images/effects/3/buff2/lizi/1_00006
+  rotate: false
+  xy: 594, 602
+  size: 91, 207
+  orig: 190, 240
+  offset: 65, 15
+  index: -1
+images/effects/3/buff2/lizi/1_00012
+  rotate: false
+  xy: 480, 299
+  size: 138, 222
+  orig: 190, 240
+  offset: 36, 13
+  index: -1
+images/effects/3/buff2/lizi/1_00020
+  rotate: false
+  xy: 903, 587
+  size: 119, 103
+  orig: 190, 240
+  offset: 32, 32
+  index: -1
+images/effects/3/buff2/lizi/1_00026
+  rotate: true
+  xy: 620, 253
+  size: 132, 195
+  orig: 190, 240
+  offset: 25, 15
+  index: -1
+images/effects/3/buff2/lizi/1_00028
+  rotate: false
+  xy: 361, 251
+  size: 117, 227
+  orig: 190, 240
+  offset: 28, 13
+  index: -1
+images/effects/3/buff3/lizi/1_00007
+  rotate: false
+  xy: 611, 815
+  size: 90, 207
+  orig: 171, 233
+  offset: 59, 22
+  index: -1
+images/effects/3/buff3/lizi/1_00013
+  rotate: false
+  xy: 901, 419
+  size: 121, 166
+  orig: 171, 233
+  offset: 26, 5
+  index: -1
+images/effects/3/buff3/lizi/1_00021
+  rotate: true
+  xy: 911, 692
+  size: 123, 110
+  orig: 171, 233
+  offset: 22, 26
+  index: -1
+images/effects/3/buff3/lizi/1_00027
+  rotate: true
+  xy: 697, 668
+  size: 133, 204
+  orig: 171, 233
+  offset: 17, 8
+  index: -1
+images/effects/3/xiantiao/1_00002
+  rotate: false
+  xy: 572, 38
+  size: 123, 213
+  orig: 173, 270
+  offset: 44, 25
+  index: -1
+images/effects/3/xiantiao/1_00004
+  rotate: false
+  xy: 505, 811
+  size: 104, 211
+  orig: 173, 270
+  offset: 47, 24
+  index: -1
+images/effects/3/xiantiao/1_00008
+  rotate: false
+  xy: 231, 10
+  size: 114, 230
+  orig: 173, 270
+  offset: 48, 25
+  index: -1
+images/effects/3/xiantiao/1_00012
+  rotate: false
+  xy: 347, 12
+  size: 109, 228
+  orig: 173, 270
+  offset: 45, 33
+  index: -1
+images/effects/3/xiantiao/1_00014
+  rotate: true
+  xy: 703, 803
+  size: 100, 206
+  orig: 173, 270
+  offset: 45, 29
+  index: -1
+images/effects/3/xiantiao/1_00018
+  rotate: false
+  xy: 493, 535
+  size: 99, 215
+  orig: 173, 270
+  offset: 46, 23
+  index: -1
+images/effects/3/xiantiao/1_00020
+  rotate: false
+  xy: 458, 25
+  size: 112, 224
+  orig: 173, 270
+  offset: 45, 29
+  index: -1
+images/effects/3/xiantiao/1_00026
+  rotate: true
+  xy: 703, 905
+  size: 117, 206
+  orig: 173, 270
+  offset: 44, 25
+  index: -1
+images/effects/3/xiantiao/1_00028
+  rotate: false
+  xy: 911, 817
+  size: 111, 205
+  orig: 173, 270
+  offset: 45, 26
+  index: -1
+
+effects_262015.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/2/hit/1_00056
+  rotate: false
+  xy: 2, 845
+  size: 168, 171
+  orig: 266, 253
+  offset: 49, 38
+  index: -1
+images/effects/3/buff/lizi/1_00008
+  rotate: false
+  xy: 236, 514
+  size: 145, 155
+  orig: 211, 283
+  offset: 38, 37
+  index: -1
+images/effects/3/buff/lizi/1_00010
+  rotate: false
+  xy: 2, 662
+  size: 149, 181
+  orig: 211, 283
+  offset: 35, 30
+  index: -1
+images/effects/3/buff/lizi/1_00018
+  rotate: false
+  xy: 2, 128
+  size: 148, 166
+  orig: 211, 283
+  offset: 45, 32
+  index: -1
+images/effects/3/buff2/lizi/1_00002
+  rotate: true
+  xy: 153, 672
+  size: 100, 178
+  orig: 190, 240
+  offset: 48, 6
+  index: -1
+images/effects/3/buff2/lizi/1_00008
+  rotate: true
+  xy: 172, 774
+  size: 93, 185
+  orig: 190, 240
+  offset: 65, 23
+  index: -1
+images/effects/3/buff2/lizi/1_00010
+  rotate: true
+  xy: 712, 901
+  size: 115, 185
+  orig: 190, 240
+  offset: 54, 18
+  index: -1
+images/effects/3/buff2/lizi/1_00014
+  rotate: true
+  xy: 172, 869
+  size: 147, 181
+  orig: 190, 240
+  offset: 27, 18
+  index: -1
+images/effects/3/buff2/lizi/1_00016
+  rotate: false
+  xy: 2, 474
+  size: 138, 186
+  orig: 190, 240
+  offset: 25, 39
+  index: -1
+images/effects/3/buff2/lizi/1_00018
+  rotate: false
+  xy: 540, 776
+  size: 117, 103
+  orig: 190, 240
+  offset: 27, 37
+  index: -1
+images/effects/3/buff2/lizi/1_00022
+  rotate: true
+  xy: 236, 380
+  size: 132, 143
+  orig: 190, 240
+  offset: 23, 21
+  index: -1
+images/effects/3/buff2/lizi/1_00024
+  rotate: true
+  xy: 540, 881
+  size: 135, 170
+  orig: 190, 240
+  offset: 21, 21
+  index: -1
+images/effects/3/buff3/lizi/1_00001
+  rotate: true
+  xy: 359, 762
+  size: 114, 177
+  orig: 171, 233
+  offset: 24, 0
+  index: -1
+images/effects/3/buff3/lizi/1_00005
+  rotate: true
+  xy: 333, 671
+  size: 89, 181
+  orig: 171, 233
+  offset: 59, 20
+  index: -1
+images/effects/3/buff3/lizi/1_00009
+  rotate: false
+  xy: 142, 503
+  size: 92, 157
+  orig: 171, 233
+  offset: 54, 14
+  index: -1
+images/effects/3/buff3/lizi/1_00011
+  rotate: true
+  xy: 712, 809
+  size: 90, 161
+  orig: 171, 233
+  offset: 49, 12
+  index: -1
+images/effects/3/buff3/lizi/1_00017
+  rotate: true
+  xy: 355, 878
+  size: 138, 183
+  orig: 171, 233
+  offset: 18, 33
+  index: -1
+images/effects/3/buff3/lizi/1_00019
+  rotate: false
+  xy: 899, 903
+  size: 117, 113
+  orig: 171, 233
+  offset: 21, 28
+  index: -1
+images/effects/3/buff3/lizi/1_00023
+  rotate: false
+  xy: 383, 515
+  size: 132, 154
+  orig: 171, 233
+  offset: 16, 11
+  index: -1
+images/effects/3/buff3/lizi/1_00025
+  rotate: false
+  xy: 2, 296
+  size: 136, 176
+  orig: 171, 233
+  offset: 14, 17
+  index: -1
+images/effects/3/buff3/lizi/1_00029
+  rotate: true
+  xy: 2, 8
+  size: 118, 157
+  orig: 171, 233
+  offset: 22, 0
+  index: -1

@@ -1,0 +1,355 @@
+
+effects_30502_die.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect2/die/bai_000
+  rotate: true
+  xy: 949, 44
+  size: 140, 70
+  orig: 140, 70
+  offset: 0, 0
+  index: -1
+effect2/die/boom/boom_000
+  rotate: false
+  xy: 752, 328
+  size: 245, 245
+  orig: 280, 280
+  offset: 18, 15
+  index: -1
+effect2/die/boom/boom_003
+  rotate: false
+  xy: 468, 585
+  size: 224, 204
+  orig: 280, 280
+  offset: 25, 44
+  index: -1
+effect2/die/boom/boom_008
+  rotate: false
+  xy: 752, 2
+  size: 195, 182
+  orig: 280, 280
+  offset: 36, 55
+  index: -1
+effect2/die/dian/dian_000
+  rotate: false
+  xy: 440, 180
+  size: 229, 278
+  orig: 231, 315
+  offset: 0, 0
+  index: -1
+effect2/die/dian/dian_002
+  rotate: true
+  xy: 706, 791
+  size: 231, 315
+  orig: 231, 315
+  offset: 0, 0
+  index: -1
+effect2/die/dian1/dian1_001
+  rotate: false
+  xy: 433, 4
+  size: 175, 133
+  orig: 175, 140
+  offset: 0, 0
+  index: -1
+effect2/die/dian1/dian1_002
+  rotate: false
+  xy: 256, 2
+  size: 175, 135
+  orig: 175, 140
+  offset: 0, 0
+  index: -1
+effect2/die/dian1/dian1_004
+  rotate: true
+  xy: 610, 3
+  size: 175, 140
+  orig: 175, 140
+  offset: 0, 0
+  index: -1
+effect2/die/dian1/dian1_013
+  rotate: false
+  xy: 468, 460
+  size: 130, 113
+  orig: 175, 140
+  offset: 45, 0
+  index: -1
+effect2/die/dian1/dian1_014
+  rotate: true
+  xy: 144, 11
+  size: 97, 110
+  orig: 175, 140
+  offset: 78, 0
+  index: -1
+effect2/die/dian2/dian2_000
+  rotate: true
+  xy: 671, 186
+  size: 140, 117
+  orig: 140, 140
+  offset: 0, 0
+  index: -1
+effect2/die/dian2/dian2_005
+  rotate: true
+  xy: 790, 186
+  size: 140, 116
+  orig: 140, 140
+  offset: 0, 24
+  index: -1
+effect2/die/dian2/dian2_007
+  rotate: true
+  xy: 908, 186
+  size: 140, 107
+  orig: 140, 140
+  offset: 0, 33
+  index: -1
+effect2/die/dian2/dian2_008
+  rotate: false
+  xy: 2, 6
+  size: 140, 102
+  orig: 140, 140
+  offset: 0, 38
+  index: -1
+effect2/die/dian3/dian3_000
+  rotate: false
+  xy: 2, 791
+  size: 350, 231
+  orig: 350, 231
+  offset: 0, 0
+  index: -1
+effect2/die/dian3/dian3_002
+  rotate: false
+  xy: 354, 791
+  size: 350, 231
+  orig: 350, 231
+  offset: 0, 0
+  index: -1
+effect2/die/dian3/dian3_004
+  rotate: true
+  xy: 2, 110
+  size: 335, 231
+  orig: 350, 231
+  offset: 15, 0
+  index: -1
+effect2/die/dian3/dian3_006
+  rotate: true
+  xy: 2, 447
+  size: 342, 231
+  orig: 350, 231
+  offset: 8, 0
+  index: -1
+effect2/die/dian3/dian3_008
+  rotate: true
+  xy: 235, 460
+  size: 329, 231
+  orig: 350, 231
+  offset: 21, 0
+  index: -1
+effect2/die/dian3/dian3_010
+  rotate: false
+  xy: 752, 575
+  size: 260, 214
+  orig: 350, 231
+  offset: 55, 0
+  index: -1
+effect2/die/dian3/dian3_012
+  rotate: true
+  xy: 235, 139
+  size: 319, 203
+  orig: 350, 231
+  offset: 31, 0
+  index: -1
+effect2/die/spark/sparks_000
+  rotate: true
+  xy: 440, 140
+  size: 38, 73
+  orig: 126, 210
+  offset: 40, 4
+  index: -1
+effect2/die/spark/sparks_001
+  rotate: false
+  xy: 671, 355
+  size: 69, 108
+  orig: 126, 210
+  offset: 22, 15
+  index: -1
+effect2/die/spark/sparks_004
+  rotate: false
+  xy: 600, 465
+  size: 123, 108
+  orig: 126, 210
+  offset: 3, 85
+  index: -1
+
+effects_30502_die2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect2/die/boom/boom_001
+  rotate: false
+  xy: 2, 788
+  size: 234, 234
+  orig: 280, 280
+  offset: 24, 21
+  index: -1
+effect2/die/boom/boom_002
+  rotate: false
+  xy: 2, 566
+  size: 220, 220
+  orig: 280, 280
+  offset: 31, 28
+  index: -1
+effect2/die/boom/boom_004
+  rotate: false
+  xy: 470, 830
+  size: 226, 192
+  orig: 280, 280
+  offset: 24, 43
+  index: -1
+effect2/die/boom/boom_005
+  rotate: true
+  xy: 2, 330
+  size: 234, 190
+  orig: 280, 280
+  offset: 17, 42
+  index: -1
+effect2/die/boom/boom_006
+  rotate: false
+  xy: 698, 678
+  size: 189, 180
+  orig: 280, 280
+  offset: 40, 55
+  index: -1
+effect2/die/boom/boom_007
+  rotate: false
+  xy: 224, 450
+  size: 193, 183
+  orig: 280, 280
+  offset: 37, 54
+  index: -1
+effect2/die/boom/boom_009
+  rotate: false
+  xy: 178, 89
+  size: 190, 177
+  orig: 280, 280
+  offset: 40, 59
+  index: -1
+effect2/die/dian/dian_004
+  rotate: false
+  xy: 238, 820
+  size: 230, 202
+  orig: 231, 315
+  offset: 1, 48
+  index: -1
+effect2/die/dian/dian_006
+  rotate: false
+  xy: 238, 635
+  size: 201, 183
+  orig: 231, 315
+  offset: 30, 92
+  index: -1
+effect2/die/dian/dian_008
+  rotate: false
+  xy: 194, 268
+  size: 193, 180
+  orig: 231, 315
+  offset: 38, 130
+  index: -1
+effect2/die/dian/dian_010
+  rotate: true
+  xy: 2, 107
+  size: 221, 174
+  orig: 231, 315
+  offset: 10, 141
+  index: -1
+effect2/die/dian/dian_012
+  rotate: false
+  xy: 698, 860
+  size: 227, 162
+  orig: 231, 315
+  offset: 4, 153
+  index: -1
+effect2/die/dian1/dian1_000
+  rotate: true
+  xy: 389, 273
+  size: 175, 129
+  orig: 175, 140
+  offset: 0, 0
+  index: -1
+effect2/die/dian1/dian1_005
+  rotate: true
+  xy: 441, 643
+  size: 175, 139
+  orig: 175, 140
+  offset: 0, 1
+  index: -1
+effect2/die/dian1/dian1_007
+  rotate: true
+  xy: 419, 458
+  size: 175, 137
+  orig: 175, 140
+  offset: 0, 0
+  index: -1
+effect2/die/dian1/dian1_008
+  rotate: true
+  xy: 889, 683
+  size: 175, 133
+  orig: 175, 140
+  offset: 0, 0
+  index: -1
+effect2/die/dian1/dian1_009
+  rotate: true
+  xy: 889, 506
+  size: 175, 133
+  orig: 175, 140
+  offset: 0, 0
+  index: -1
+effect2/die/dian1/dian1_011
+  rotate: true
+  xy: 370, 103
+  size: 163, 137
+  orig: 175, 140
+  offset: 12, 0
+  index: -1
+effect2/die/dian1/dian1_012
+  rotate: true
+  xy: 698, 409
+  size: 133, 136
+  orig: 175, 140
+  offset: 42, 0
+  index: -1
+effect2/die/dian2/dian2_001
+  rotate: true
+  xy: 558, 502
+  size: 139, 138
+  orig: 140, 140
+  offset: 0, 0
+  index: -1
+effect2/die/dian2/dian2_003
+  rotate: false
+  xy: 698, 544
+  size: 139, 132
+  orig: 140, 140
+  offset: 0, 8
+  index: -1
+effect2/die/dian2/dian2_009
+  rotate: false
+  xy: 2, 23
+  size: 124, 82
+  orig: 140, 140
+  offset: 16, 58
+  index: -1
+effect2/die/spark/sparks_002
+  rotate: false
+  xy: 582, 667
+  size: 114, 161
+  orig: 126, 210
+  offset: 4, 25
+  index: -1
+effect2/die/spark/sparks_003
+  rotate: false
+  xy: 520, 292
+  size: 123, 164
+  orig: 126, 210
+  offset: 3, 27
+  index: -1

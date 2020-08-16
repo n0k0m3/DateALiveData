@@ -1,0 +1,13 @@
+
+map_yanwu_01.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sucai/yanhuo2_00018_00049
+  rotate: false
+  xy: 2, 2
+  size: 27, 113
+  orig: 27, 113
+  offset: 0, 0
+  index: -1

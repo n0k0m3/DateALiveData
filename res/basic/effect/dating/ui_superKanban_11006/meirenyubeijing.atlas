@@ -1,0 +1,200 @@
+
+meirenyubeijing.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 459
+  size: 1000, 556
+  orig: 1000, 556
+  offset: 0, 0
+  index: -1
+cutstone1
+  rotate: true
+  xy: 646, 15
+  size: 442, 293
+  orig: 442, 293
+  offset: 0, 0
+  index: -1
+guang2_00009
+  rotate: true
+  xy: 941, 318
+  size: 139, 64
+  orig: 139, 64
+  offset: 0, 0
+  index: -1
+guang3_00056
+  rotate: true
+  xy: 941, 177
+  size: 139, 64
+  orig: 139, 64
+  offset: 0, 0
+  index: -1
+guang4_00108
+  rotate: true
+  xy: 941, 36
+  size: 139, 64
+  orig: 139, 64
+  offset: 0, 0
+  index: -1
+watershadow3
+  rotate: true
+  xy: 2, 2
+  size: 455, 642
+  orig: 455, 642
+  offset: 0, 0
+  index: -1
+
+meirenyubeijing2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+coral1_2
+  rotate: false
+  xy: 440, 53
+  size: 368, 252
+  orig: 368, 252
+  offset: 0, 0
+  index: -1
+coral5_1
+  rotate: false
+  xy: 2, 77
+  size: 436, 228
+  orig: 436, 228
+  offset: 0, 0
+  index: -1
+cutstone3
+  rotate: false
+  xy: 2, 621
+  size: 1000, 401
+  orig: 1000, 401
+  offset: 0, 0
+  index: -1
+guang5_00165
+  rotate: false
+  xy: 2, 11
+  size: 139, 64
+  orig: 139, 64
+  offset: 0, 0
+  index: -1
+guang_00000
+  rotate: false
+  xy: 143, 11
+  size: 139, 64
+  orig: 139, 64
+  offset: 0, 0
+  index: -1
+watershadow1
+  rotate: false
+  xy: 2, 307
+  size: 829, 312
+  orig: 829, 312
+  offset: 0, 0
+  index: -1
+watershadow5
+  rotate: false
+  xy: 810, 19
+  size: 212, 272
+  orig: 212, 272
+  offset: 0, 0
+  index: -1
+waterweed3
+  rotate: false
+  xy: 833, 293
+  size: 177, 326
+  orig: 177, 326
+  offset: 0, 0
+  index: -1
+
+meirenyubeijing3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+coral1_1
+  rotate: false
+  xy: 219, 262
+  size: 317, 104
+  orig: 317, 104
+  offset: 0, 0
+  index: -1
+coral3_1
+  rotate: false
+  xy: 761, 773
+  size: 167, 239
+  orig: 167, 239
+  offset: 0, 0
+  index: -1
+coral3_2
+  rotate: false
+  xy: 2, 291
+  size: 215, 361
+  orig: 215, 361
+  offset: 0, 0
+  index: -1
+fish
+  rotate: false
+  xy: 219, 512
+  size: 330, 140
+  orig: 330, 140
+  offset: 0, 0
+  index: -1
+jellyfish1_1
+  rotate: true
+  xy: 368, 74
+  size: 186, 161
+  orig: 186, 161
+  offset: 0, 0
+  index: -1
+jellyfish1_2
+  rotate: false
+  xy: 551, 440
+  size: 180, 147
+  orig: 180, 147
+  offset: 0, 0
+  index: -1
+jellyfish1_3
+  rotate: false
+  xy: 182, 87
+  size: 184, 173
+  orig: 184, 173
+  offset: 0, 0
+  index: -1
+jellyfish1_4
+  rotate: true
+  xy: 555, 589
+  size: 154, 198
+  orig: 154, 198
+  offset: 0, 0
+  index: -1
+watershadow4
+  rotate: false
+  xy: 2, 654
+  size: 551, 358
+  orig: 551, 358
+  offset: 0, 0
+  index: -1
+watershadow6
+  rotate: true
+  xy: 2, 2
+  size: 287, 178
+  orig: 287, 178
+  offset: 0, 0
+  index: -1
+waterweed1
+  rotate: true
+  xy: 219, 368
+  size: 142, 301
+  orig: 142, 301
+  offset: 0, 0
+  index: -1
+waterweed2
+  rotate: false
+  xy: 555, 745
+  size: 204, 267
+  orig: 204, 267
+  offset: 0, 0
+  index: -1

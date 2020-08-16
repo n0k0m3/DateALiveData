@@ -1,0 +1,237 @@
+
+effects_20101_skillB.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skill02/dian/dianb_00008
+  rotate: true
+  xy: 805, 731
+  size: 45, 73
+  orig: 54, 107
+  offset: 5, 3
+  index: -1
+effect/skill02/dian/dianb_00010
+  rotate: false
+  xy: 257, 248
+  size: 46, 88
+  orig: 54, 107
+  offset: 4, 4
+  index: -1
+effect/skill02/dian/dianb_00012
+  rotate: true
+  xy: 705, 726
+  size: 50, 98
+  orig: 54, 107
+  offset: 2, 3
+  index: -1
+effect/skill02/dian/dianb_00013
+  rotate: true
+  xy: 600, 726
+  size: 50, 103
+  orig: 54, 107
+  offset: 1, 3
+  index: -1
+effect/skill02/dian/dianb_00015
+  rotate: true
+  xy: 716, 679
+  size: 45, 102
+  orig: 54, 107
+  offset: 4, 3
+  index: -1
+effect/skill02/dian/dianb_00017
+  rotate: false
+  xy: 256, 100
+  size: 29, 82
+  orig: 54, 107
+  offset: 12, 18
+  index: -1
+effect/skill02/dimian/skill02_00026
+  rotate: false
+  xy: 471, 924
+  size: 236, 40
+  orig: 245, 51
+  offset: 1, 4
+  index: -1
+effect/skill02/dimian/skill02_00027
+  rotate: false
+  xy: 709, 924
+  size: 235, 40
+  orig: 245, 51
+  offset: 2, 4
+  index: -1
+effect/skill02/dimian/skill02_00028
+  rotate: false
+  xy: 471, 966
+  size: 245, 51
+  orig: 245, 51
+  offset: 0, 0
+  index: -1
+effect/skill02/dimian/skill02_00029
+  rotate: false
+  xy: 718, 966
+  size: 245, 51
+  orig: 245, 51
+  offset: 0, 0
+  index: -1
+effect/skill02/skill02/skill02_00026
+  rotate: false
+  xy: 2, 735
+  size: 235, 189
+  orig: 235, 193
+  offset: 0, 4
+  index: -1
+effect/skill02/skill02/skill02_00027
+  rotate: false
+  xy: 2, 548
+  size: 234, 185
+  orig: 235, 193
+  offset: 0, 8
+  index: -1
+effect/skill02/skill02/skill02_00028
+  rotate: false
+  xy: 239, 738
+  size: 224, 186
+  orig: 235, 193
+  offset: 0, 2
+  index: -1
+effect/skill02/skill02/skill02_00029
+  rotate: false
+  xy: 2, 373
+  size: 185, 173
+  orig: 235, 193
+  offset: 0, 1
+  index: -1
+effect/skill02/skill02/skill02_00030
+  rotate: false
+  xy: 2, 2
+  size: 161, 163
+  orig: 235, 193
+  offset: 24, 0
+  index: -1
+effect/skill02/skill02/skill02_00031
+  rotate: false
+  xy: 465, 793
+  size: 162, 129
+  orig: 235, 193
+  offset: 24, 0
+  index: -1
+effect/skill02/skill02/skill02_00032
+  rotate: false
+  xy: 629, 802
+  size: 160, 120
+  orig: 235, 193
+  offset: 26, 2
+  index: -1
+effect/skill02/skill02/skill02_00033
+  rotate: false
+  xy: 629, 778
+  size: 115, 22
+  orig: 235, 193
+  offset: 51, 27
+  index: -1
+effect/skill02/skill02/skill02_00034
+  rotate: false
+  xy: 465, 701
+  size: 133, 90
+  orig: 235, 193
+  offset: 33, 27
+  index: -1
+effect/skill02/skill02/skill02_00035
+  rotate: false
+  xy: 746, 778
+  size: 115, 22
+  orig: 235, 193
+  offset: 51, 27
+  index: -1
+effect/skill02/skill02/skill02_00037
+  rotate: false
+  xy: 600, 702
+  size: 114, 22
+  orig: 235, 193
+  offset: 52, 27
+  index: -1
+effect/skill02/weapon_2_02
+  rotate: true
+  xy: 2, 167
+  size: 204, 153
+  orig: 204, 162
+  offset: 0, 0
+  index: -1
+effect/skill02/xuli/xuli_00009
+  rotate: false
+  xy: 820, 667
+  size: 62, 62
+  orig: 133, 134
+  offset: 36, 38
+  index: -1
+effect/skill02/xuli/xuli_00010
+  rotate: false
+  xy: 189, 338
+  size: 90, 90
+  orig: 133, 134
+  offset: 22, 24
+  index: -1
+effect/skill02/xuli/xuli_00011
+  rotate: false
+  xy: 157, 239
+  size: 98, 97
+  orig: 133, 134
+  offset: 18, 20
+  index: -1
+effect/skill02/xuli/xuli_00012
+  rotate: false
+  xy: 791, 802
+  size: 120, 120
+  orig: 133, 134
+  offset: 7, 8
+  index: -1
+effect/skill02/yanwu/yanwu_00026
+  rotate: false
+  xy: 165, 10
+  size: 80, 86
+  orig: 157, 98
+  offset: 76, 0
+  index: -1
+effect/skill02/yanwu/yanwu_00027
+  rotate: false
+  xy: 165, 98
+  size: 89, 84
+  orig: 157, 98
+  offset: 58, 3
+  index: -1
+effect/skill02/yanwu/yanwu_00028
+  rotate: true
+  xy: 913, 809
+  size: 113, 87
+  orig: 157, 98
+  offset: 23, 4
+  index: -1
+effect/skill02/yanwu/yanwu_00029
+  rotate: true
+  xy: 189, 430
+  size: 116, 87
+  orig: 157, 98
+  offset: 14, 4
+  index: -1
+effect/skill02/yanwu/yanwu_00030
+  rotate: false
+  xy: 157, 184
+  size: 106, 53
+  orig: 157, 98
+  offset: 1, 6
+  index: -1
+effect/skill02/yanwu/yanwu_00031
+  rotate: true
+  xy: 247, 30
+  size: 66, 17
+  orig: 157, 98
+  offset: 29, 8
+  index: -1
+effect/skillb_00019
+  rotate: false
+  xy: 2, 926
+  size: 467, 91
+  orig: 496, 112
+  offset: 16, 7
+  index: -1

@@ -1,0 +1,125 @@
+
+effects_31101_hit.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/EskillA/baodian/baodian_024
+  rotate: false
+  xy: 261, 295
+  size: 201, 201
+  orig: 257, 246
+  offset: 30, 23
+  index: -1
+effects/EskillA/baodian/baodian_025
+  rotate: false
+  xy: 2, 746
+  size: 257, 246
+  orig: 257, 246
+  offset: 0, 0
+  index: -1
+effects/EskillA/baodian/baodian_026
+  rotate: false
+  xy: 2, 498
+  size: 257, 246
+  orig: 257, 246
+  offset: 0, 0
+  index: -1
+effects/EskillA/baodian/baodian_028
+  rotate: false
+  xy: 261, 746
+  size: 257, 246
+  orig: 257, 246
+  offset: 0, 0
+  index: -1
+effects/EskillA/baodian/baodian_030
+  rotate: false
+  xy: 2, 250
+  size: 257, 246
+  orig: 257, 246
+  offset: 0, 0
+  index: -1
+effects/EskillA/baodian/baodian_032
+  rotate: false
+  xy: 261, 498
+  size: 257, 246
+  orig: 257, 246
+  offset: 0, 0
+  index: -1
+effects/EskillA/baodian/baodian_034
+  rotate: false
+  xy: 520, 746
+  size: 257, 246
+  orig: 257, 246
+  offset: 0, 0
+  index: -1
+effects/EskillA/baodian/baodian_036
+  rotate: false
+  xy: 2, 2
+  size: 257, 246
+  orig: 257, 246
+  offset: 0, 0
+  index: -1
+effects/EskillA/glow1_016
+  rotate: false
+  xy: 568, 118
+  size: 139, 139
+  orig: 157, 151
+  offset: 9, 6
+  index: -1
+effects/skillA/bd/bd_053
+  rotate: false
+  xy: 779, 810
+  size: 182, 182
+  orig: 196, 197
+  offset: 5, 8
+  index: -1
+effects/skillA/bd/bd_054
+  rotate: false
+  xy: 464, 259
+  size: 150, 150
+  orig: 196, 197
+  offset: 21, 22
+  index: -1
+effects/skillA/bd/bd_055
+  rotate: false
+  xy: 419, 107
+  size: 147, 150
+  orig: 196, 197
+  offset: 23, 23
+  index: -1
+effects/skillA/bd/bd_057
+  rotate: false
+  xy: 261, 104
+  size: 156, 189
+  orig: 196, 197
+  offset: 24, 3
+  index: -1
+effects/skillA/bd/bd_059
+  rotate: false
+  xy: 714, 572
+  size: 169, 172
+  orig: 196, 197
+  offset: 17, 15
+  index: -1
+effects/skillA/bd/bd_061
+  rotate: false
+  xy: 520, 555
+  size: 192, 189
+  orig: 196, 197
+  offset: 4, 8
+  index: -1
+effects/skillA/bd/bd_063
+  rotate: false
+  xy: 520, 411
+  size: 153, 142
+  orig: 196, 197
+  offset: 21, 33
+  index: -1
+effects/skillA/bd/bd_065
+  rotate: false
+  xy: 616, 263
+  size: 144, 146
+  orig: 196, 197
+  offset: 20, 31
+  index: -1

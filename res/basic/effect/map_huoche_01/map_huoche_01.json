@@ -1,0 +1,56 @@
+{
+"skeleton": {
+	"hash": "gUNgUaBjP66Gfxq1+6lqaDVM/Eg",
+	"spine": "2.1.27",
+	"width": 369,
+	"height": 116,
+	"images": "C:/Users/Administrator/Desktop/尺寸需要修改的特效/map_huoche_01"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone5", "parent": "root" }
+],
+"slots": [
+	{ "name": "sucai/huoche1", "bone": "bone5", "attachment": "sucai/huoche1" }
+],
+"skins": {
+	"default": {
+		"sucai/huoche1": {
+			"sucai/huoche1": { "width": 369, "height": 116 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"sucai/huoche1": {
+				"attachment": [
+					{ "time": 0, "name": "sucai/huoche1" },
+					{ "time": 9.3333, "name": "sucai/huoche1" }
+				]
+			}
+		},
+		"bones": {
+			"bone5": {
+				"translate": [
+					{ "time": 0, "x": -1854.35, "y": 0 },
+					{ "time": 2.3333, "x": 1852.29, "y": 0, "curve": "stepped" },
+					{ "time": 4.6666, "x": -1851.69, "y": 0 },
+					{ "time": 7, "x": 1844.59, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2.87, "y": 1 }
+				]
+			},
+			"root": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,356 @@
+
+effects_21301_skillAB.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/baodian_add/baodian_add_00001
+  rotate: false
+  xy: 2, 708
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+images/effects/baodian_add/baodian_add_00002
+  rotate: false
+  xy: 119, 132
+  size: 150, 111
+  orig: 150, 111
+  offset: 0, 0
+  index: -1
+images/effects/baodian_add/baodian_add_00004
+  rotate: true
+  xy: 339, 742
+  size: 196, 80
+  orig: 196, 80
+  offset: 0, 0
+  index: -1
+images/effects/baodian_add/baodian_add_00006
+  rotate: true
+  xy: 233, 482
+  size: 224, 94
+  orig: 224, 94
+  offset: 0, 0
+  index: -1
+images/effects/baodian_add/baodian_add_00008
+  rotate: true
+  xy: 119, 245
+  size: 230, 101
+  orig: 230, 101
+  offset: 0, 0
+  index: -1
+images/effects/baodian_add/baodian_add_00010
+  rotate: true
+  xy: 234, 708
+  size: 230, 103
+  orig: 230, 103
+  offset: 0, 0
+  index: -1
+images/effects/chongji/chongji_00030
+  rotate: true
+  xy: 762, 778
+  size: 114, 56
+  orig: 114, 56
+  offset: 0, 0
+  index: -1
+images/effects/chongji/chongji_00031
+  rotate: false
+  xy: 443, 520
+  size: 129, 63
+  orig: 129, 65
+  offset: 0, 0
+  index: -1
+images/effects/chongji/chongji_00032
+  rotate: true
+  xy: 296, 319
+  size: 161, 82
+  orig: 161, 82
+  offset: 0, 0
+  index: -1
+images/effects/chongji/chongji_00033
+  rotate: false
+  xy: 666, 938
+  size: 205, 84
+  orig: 205, 84
+  offset: 0, 0
+  index: -1
+images/effects/chongji/chongji_00034
+  rotate: false
+  xy: 424, 938
+  size: 240, 84
+  orig: 240, 84
+  offset: 0, 0
+  index: -1
+images/effects/chongji/chongji_00035
+  rotate: false
+  xy: 582, 810
+  size: 178, 82
+  orig: 178, 82
+  offset: 0, 0
+  index: -1
+images/effects/chongji/chongji_00036
+  rotate: false
+  xy: 574, 728
+  size: 178, 80
+  orig: 178, 80
+  offset: 0, 0
+  index: -1
+images/effects/chongji/chongji_00037
+  rotate: false
+  xy: 574, 647
+  size: 170, 79
+  orig: 170, 79
+  offset: 0, 0
+  index: -1
+images/effects/chongji/chongji_00038
+  rotate: true
+  xy: 222, 306
+  size: 169, 72
+  orig: 169, 72
+  offset: 0, 0
+  index: -1
+images/effects/guangquan_00022
+  rotate: false
+  xy: 582, 894
+  size: 230, 42
+  orig: 230, 42
+  offset: 0, 0
+  index: -1
+images/effects/hit_add/hit2_00001
+  rotate: false
+  xy: 951, 833
+  size: 68, 67
+  orig: 68, 67
+  offset: 0, 0
+  index: -1
+images/effects/hit_add/hit2_00002
+  rotate: false
+  xy: 899, 674
+  size: 99, 102
+  orig: 99, 102
+  offset: 0, 0
+  index: -1
+images/effects/hit_add/hit2_00003
+  rotate: true
+  xy: 574, 545
+  size: 100, 146
+  orig: 100, 146
+  offset: 0, 0
+  index: -1
+images/effects/hit_add/hit2_00004
+  rotate: true
+  xy: 574, 434
+  size: 109, 144
+  orig: 109, 145
+  offset: 0, 1
+  index: -1
+images/effects/hit_add/hit2_00005
+  rotate: false
+  xy: 886, 568
+  size: 114, 104
+  orig: 114, 104
+  offset: 0, 0
+  index: -1
+images/effects/hit_add/hit2_00006
+  rotate: false
+  xy: 756, 268
+  size: 122, 82
+  orig: 122, 82
+  offset: 0, 0
+  index: -1
+images/effects/hit_add/hit2_00008
+  rotate: true
+  xy: 668, 301
+  size: 131, 86
+  orig: 131, 86
+  offset: 0, 0
+  index: -1
+images/effects/hit_add/hit2_00010
+  rotate: true
+  xy: 756, 352
+  size: 122, 84
+  orig: 122, 84
+  offset: 0, 0
+  index: -1
+images/effects/hit_add/hit2_00012
+  rotate: false
+  xy: 880, 264
+  size: 104, 86
+  orig: 104, 86
+  offset: 0, 0
+  index: -1
+images/effects/hit_normal/hit1_00002
+  rotate: false
+  xy: 271, 133
+  size: 79, 76
+  orig: 79, 76
+  offset: 0, 0
+  index: -1
+images/effects/hit_normal/hit1_00003
+  rotate: false
+  xy: 271, 211
+  size: 110, 93
+  orig: 110, 93
+  offset: 0, 0
+  index: -1
+images/effects/hit_normal/hit1_00004
+  rotate: false
+  xy: 858, 469
+  size: 124, 97
+  orig: 124, 97
+  offset: 0, 0
+  index: -1
+images/effects/hit_normal/hit1_00005
+  rotate: false
+  xy: 722, 476
+  size: 134, 106
+  orig: 134, 106
+  offset: 0, 0
+  index: -1
+images/effects/hit_normal/hit1_00006
+  rotate: false
+  xy: 754, 674
+  size: 143, 102
+  orig: 143, 102
+  offset: 0, 0
+  index: -1
+images/effects/hit_normal/hit1_00007
+  rotate: false
+  xy: 421, 710
+  size: 151, 105
+  orig: 151, 105
+  offset: 0, 0
+  index: -1
+images/effects/hit_normal/hit1_00008
+  rotate: true
+  xy: 2, 7
+  size: 155, 113
+  orig: 155, 113
+  offset: 0, 0
+  index: -1
+images/effects/hit_normal/hit1_00009
+  rotate: false
+  xy: 421, 817
+  size: 159, 119
+  orig: 159, 119
+  offset: 0, 0
+  index: -1
+images/effects/hit_normal/hit1_00010
+  rotate: false
+  xy: 380, 395
+  size: 144, 123
+  orig: 144, 123
+  offset: 0, 0
+  index: -1
+images/effects/hit_normal/hit1_00011
+  rotate: false
+  xy: 117, 8
+  size: 146, 122
+  orig: 146, 122
+  offset: 0, 0
+  index: -1
+images/effects/hit_normal/hit1_00012
+  rotate: false
+  xy: 873, 902
+  size: 149, 120
+  orig: 149, 120
+  offset: 0, 0
+  index: -1
+images/effects/hit_normal/hit1_00013
+  rotate: true
+  xy: 329, 559
+  size: 147, 112
+  orig: 147, 112
+  offset: 0, 0
+  index: -1
+images/effects/hit_normal/hit1_00014
+  rotate: false
+  xy: 380, 306
+  size: 144, 87
+  orig: 144, 87
+  offset: 0, 0
+  index: -1
+images/effects/hit_normal/hit1_00015
+  rotate: false
+  xy: 746, 584
+  size: 138, 88
+  orig: 138, 88
+  offset: 0, 0
+  index: -1
+images/effects/ring
+  rotate: false
+  xy: 2, 477
+  size: 229, 229
+  orig: 229, 229
+  offset: 0, 0
+  index: -1
+images/effects/skillb_00019
+  rotate: false
+  xy: 2, 940
+  size: 420, 82
+  orig: 420, 82
+  offset: 0, 0
+  index: -1
+images/effects/suduxian_00030
+  rotate: true
+  xy: 2, 164
+  size: 311, 115
+  orig: 311, 115
+  offset: 0, 0
+  index: -1
+images/effects/xuli/xuli_00012
+  rotate: false
+  xy: 820, 778
+  size: 129, 122
+  orig: 129, 122
+  offset: 0, 0
+  index: -1
+images/effects/xuli/xuli_00014
+  rotate: false
+  xy: 265, 11
+  size: 116, 119
+  orig: 116, 119
+  offset: 0, 0
+  index: -1
+images/effects/xuli/xuli_00016
+  rotate: false
+  xy: 443, 585
+  size: 129, 123
+  orig: 129, 123
+  offset: 0, 0
+  index: -1
+images/effects/xuli/xuli_00018
+  rotate: true
+  xy: 383, 187
+  size: 117, 119
+  orig: 117, 119
+  offset: 0, 0
+  index: -1
+images/effects/xuli/xuli_00020
+  rotate: false
+  xy: 383, 81
+  size: 104, 104
+  orig: 104, 104
+  offset: 0, 0
+  index: -1
+images/effects/xuli/xuli_00022
+  rotate: true
+  xy: 842, 352
+  size: 115, 120
+  orig: 115, 120
+  offset: 0, 0
+  index: -1
+images/effects/xuli/xuli_00024
+  rotate: false
+  xy: 526, 305
+  size: 140, 127
+  orig: 140, 127
+  offset: 0, 0
+  index: -1
+images/effects/xuli/xuli_00026
+  rotate: false
+  xy: 504, 198
+  size: 105, 105
+  orig: 105, 105
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,27 @@
+
+15yinpindian_texiao.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dengguang_00000
+  rotate: false
+  xy: 141, 2
+  size: 68, 158
+  orig: 68, 158
+  offset: 0, 0
+  index: -1
+glow_00060
+  rotate: false
+  xy: 2, 52
+  size: 137, 108
+  orig: 137, 108
+  offset: 0, 0
+  index: -1
+yangguang_00000
+  rotate: false
+  xy: 2, 162
+  size: 180, 79
+  orig: 180, 79
+  offset: 0, 0
+  index: -1

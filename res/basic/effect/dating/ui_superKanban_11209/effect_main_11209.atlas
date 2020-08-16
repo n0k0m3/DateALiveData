@@ -1,0 +1,69 @@
+
+effect_main_11209.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ailouhengdeng
+  rotate: true
+  xy: 436, 415
+  size: 91, 38
+  orig: 91, 38
+  offset: 0, 0
+  index: -1
+ailoushudeng
+  rotate: true
+  xy: 397, 292
+  size: 37, 90
+  orig: 37, 90
+  offset: 0, 0
+  index: -1
+changdeng
+  rotate: false
+  xy: 297, 300
+  size: 98, 32
+  orig: 98, 32
+  offset: 0, 0
+  index: -1
+guanggao1
+  rotate: true
+  xy: 476, 426
+  size: 80, 30
+  orig: 80, 30
+  offset: 0, 0
+  index: -1
+guanggao2
+  rotate: true
+  xy: 436, 331
+  size: 82, 41
+  orig: 82, 41
+  offset: 0, 0
+  index: -1
+loudeng
+  rotate: false
+  xy: 297, 334
+  size: 137, 172
+  orig: 137, 172
+  offset: 0, 0
+  index: -1
+zhuguang1
+  rotate: false
+  xy: 236, 8
+  size: 230, 259
+  orig: 230, 259
+  offset: 0, 0
+  index: -1
+zhuguang2
+  rotate: false
+  xy: 2, 4
+  size: 232, 263
+  orig: 232, 263
+  offset: 0, 0
+  index: -1
+zhuguang3
+  rotate: false
+  xy: 2, 269
+  size: 293, 237
+  orig: 293, 237
+  offset: 0, 0
+  index: -1

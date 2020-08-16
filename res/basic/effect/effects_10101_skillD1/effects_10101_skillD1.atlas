@@ -1,0 +1,76 @@
+
+effects_10101_skillD1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skilld/beijing_00092
+  rotate: false
+  xy: 2, 616
+  size: 668, 400
+  orig: 668, 400
+  offset: 0, 0
+  index: -1
+effects/skilld/dilie/dilie/dilie_00049
+  rotate: false
+  xy: 471, 593
+  size: 146, 21
+  orig: 148, 23
+  offset: 1, 1
+  index: -1
+effects/skilld/dilie/dilie/dilie_00050
+  rotate: false
+  xy: 672, 884
+  size: 306, 42
+  orig: 308, 44
+  offset: 1, 1
+  index: -1
+effects/skilld/dilie/dilie/dilie_00052
+  rotate: false
+  xy: 2, 254
+  size: 361, 59
+  orig: 363, 61
+  offset: 1, 1
+  index: -1
+effects/skilld/dilie/dilie/dilie_00053
+  rotate: false
+  xy: 2, 315
+  size: 369, 59
+  orig: 371, 61
+  offset: 1, 1
+  index: -1
+effects/skilld/dilie/dilie/dilie_00057
+  rotate: false
+  xy: 2, 466
+  size: 459, 59
+  orig: 461, 61
+  offset: 1, 1
+  index: -1
+effects/skilld/dilie/dilieguang/dilieguang_00051
+  rotate: false
+  xy: 2, 166
+  size: 202, 86
+  orig: 204, 88
+  offset: 1, 1
+  index: -1
+effects/skilld/dilie/dilieguang/dilieguang_00053
+  rotate: false
+  xy: 672, 928
+  size: 344, 88
+  orig: 346, 90
+  offset: 1, 1
+  index: -1
+effects/skilld/dilie/dilieguang/dilieguang_00054
+  rotate: false
+  xy: 2, 376
+  size: 424, 88
+  orig: 426, 90
+  offset: 1, 1
+  index: -1
+effects/skilld/dilie/dilieguang/dilieguang_00058
+  rotate: false
+  xy: 2, 527
+  size: 467, 87
+  orig: 469, 89
+  offset: 1, 1
+  index: -1

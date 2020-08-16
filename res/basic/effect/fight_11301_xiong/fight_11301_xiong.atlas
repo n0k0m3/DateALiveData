@@ -1,0 +1,181 @@
+
+fight_11301_xiong.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xiong_0
+  rotate: true
+  xy: 152, 291
+  size: 32, 27
+  orig: 32, 27
+  offset: 0, 0
+  index: -1
+xiong_1
+  rotate: true
+  xy: 152, 325
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+xiong_10
+  rotate: true
+  xy: 469, 486
+  size: 24, 39
+  orig: 24, 39
+  offset: 0, 0
+  index: -1
+xiong_11
+  rotate: false
+  xy: 60, 129
+  size: 8, 9
+  orig: 8, 9
+  offset: 0, 0
+  index: -1
+xiong_12
+  rotate: false
+  xy: 2, 140
+  size: 71, 65
+  orig: 71, 65
+  offset: 0, 0
+  index: -1
+xiong_13
+  rotate: false
+  xy: 75, 142
+  size: 8, 6
+  orig: 8, 6
+  offset: 0, 0
+  index: -1
+xiong_14
+  rotate: false
+  xy: 275, 456
+  size: 68, 54
+  orig: 68, 54
+  offset: 0, 0
+  index: -1
+xiong_15
+  rotate: true
+  xy: 145, 198
+  size: 7, 5
+  orig: 7, 5
+  offset: 0, 0
+  index: -1
+xiong_16
+  rotate: false
+  xy: 2, 367
+  size: 176, 143
+  orig: 176, 143
+  offset: 0, 0
+  index: -1
+xiong_17
+  rotate: false
+  xy: 433, 473
+  size: 34, 37
+  orig: 34, 37
+  offset: 0, 0
+  index: -1
+xiong_18
+  rotate: false
+  xy: 221, 371
+  size: 35, 32
+  orig: 35, 32
+  offset: 0, 0
+  index: -1
+xiong_19
+  rotate: false
+  xy: 180, 405
+  size: 76, 55
+  orig: 76, 55
+  offset: 0, 0
+  index: -1
+xiong_2
+  rotate: false
+  xy: 2, 18
+  size: 56, 47
+  orig: 56, 47
+  offset: 0, 0
+  index: -1
+xiong_20
+  rotate: true
+  xy: 75, 150
+  size: 55, 68
+  orig: 55, 68
+  offset: 0, 0
+  index: -1
+xiong_21
+  rotate: false
+  xy: 2, 207
+  size: 148, 158
+  orig: 148, 158
+  offset: 0, 0
+  index: -1
+xiong_22
+  rotate: false
+  xy: 180, 462
+  size: 93, 48
+  orig: 93, 48
+  offset: 0, 0
+  index: -1
+xiong_23
+  rotate: false
+  xy: 345, 465
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+xiong_24
+  rotate: false
+  xy: 2, 67
+  size: 56, 71
+  orig: 56, 71
+  offset: 0, 0
+  index: -1
+xiong_3
+  rotate: false
+  xy: 180, 338
+  size: 35, 29
+  orig: 35, 29
+  offset: 0, 0
+  index: -1
+xiong_4
+  rotate: false
+  xy: 392, 471
+  size: 39, 39
+  orig: 39, 39
+  offset: 0, 0
+  index: -1
+xiong_5
+  rotate: false
+  xy: 152, 241
+  size: 19, 21
+  orig: 19, 21
+  offset: 0, 0
+  index: -1
+xiong_6
+  rotate: true
+  xy: 180, 369
+  size: 34, 39
+  orig: 34, 39
+  offset: 0, 0
+  index: -1
+xiong_7
+  rotate: false
+  xy: 258, 456
+  size: 5, 4
+  orig: 5, 4
+  offset: 0, 0
+  index: -1
+xiong_8
+  rotate: false
+  xy: 2, 2
+  size: 10, 14
+  orig: 10, 14
+  offset: 0, 0
+  index: -1
+xiong_9
+  rotate: false
+  xy: 152, 264
+  size: 26, 25
+  orig: 26, 25
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,264 @@
+
+dating.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guang1_00000
+  rotate: false
+  xy: 216, 28
+  size: 174, 46
+  orig: 200, 100
+  offset: 17, 20
+  index: -1
+guang2_00000
+  rotate: false
+  xy: 2, 28
+  size: 212, 46
+  orig: 250, 100
+  offset: 21, 26
+  index: -1
+guang3_00000
+  rotate: false
+  xy: 575, 58
+  size: 21, 16
+  orig: 50, 50
+  offset: 14, 18
+  index: -1
+liuguang/liuguang_00001
+  rotate: true
+  xy: 910, 38
+  size: 49, 46
+  orig: 450, 200
+  offset: 7, 29
+  index: -1
+liuguang/liuguang_00002
+  rotate: false
+  xy: 948, 271
+  size: 71, 67
+  orig: 450, 200
+  offset: 8, 29
+  index: -1
+liuguang/liuguang_00003
+  rotate: false
+  xy: 878, 354
+  size: 80, 71
+  orig: 450, 200
+  offset: 23, 44
+  index: -1
+liuguang/liuguang_00004
+  rotate: true
+  xy: 878, 270
+  size: 82, 68
+  orig: 450, 200
+  offset: 47, 64
+  index: -1
+liuguang/liuguang_00005
+  rotate: true
+  xy: 960, 340
+  size: 85, 62
+  orig: 450, 200
+  offset: 72, 84
+  index: -1
+liuguang/liuguang_00006
+  rotate: true
+  xy: 878, 181
+  size: 87, 53
+  orig: 450, 200
+  offset: 99, 102
+  index: -1
+liuguang/liuguang_00007
+  rotate: false
+  xy: 392, 28
+  size: 90, 46
+  orig: 450, 200
+  offset: 127, 117
+  index: -1
+liuguang/liuguang_00008
+  rotate: true
+  xy: 878, 90
+  size: 89, 41
+  orig: 450, 200
+  offset: 158, 128
+  index: -1
+liuguang/liuguang_00009
+  rotate: false
+  xy: 484, 37
+  size: 89, 37
+  orig: 450, 200
+  offset: 189, 136
+  index: -1
+liuguang/liuguang_00010
+  rotate: true
+  xy: 933, 179
+  size: 89, 34
+  orig: 450, 200
+  offset: 220, 142
+  index: -1
+liuguang/liuguang_00011
+  rotate: true
+  xy: 969, 181
+  size: 88, 32
+  orig: 450, 200
+  offset: 252, 146
+  index: -1
+liuguang/liuguang_00012
+  rotate: true
+  xy: 921, 89
+  size: 88, 30
+  orig: 450, 200
+  offset: 283, 149
+  index: -1
+liuguang/liuguang_00013
+  rotate: true
+  xy: 878, 4
+  size: 84, 30
+  orig: 450, 200
+  offset: 316, 151
+  index: -1
+liuguang/liuguang_00014
+  rotate: false
+  xy: 910, 7
+  size: 52, 29
+  orig: 450, 200
+  offset: 348, 152
+  index: -1
+liuguang/liuguang_00015
+  rotate: true
+  xy: 2, 6
+  size: 20, 28
+  orig: 450, 200
+  offset: 380, 152
+  index: -1
+liuguang1/liuguang_00000
+  rotate: true
+  xy: 602, 16
+  size: 474, 137
+  orig: 700, 200
+  offset: 61, 32
+  index: -1
+liuguang1/liuguang_00015
+  rotate: true
+  xy: 602, 16
+  size: 474, 137
+  orig: 700, 200
+  offset: 61, 32
+  index: -1
+liuguang1/liuguang_00001
+  rotate: true
+  xy: 741, 6
+  size: 484, 135
+  orig: 700, 200
+  offset: 77, 32
+  index: -1
+liuguang1/liuguang_00009
+  rotate: true
+  xy: 890, 427
+  size: 595, 130
+  orig: 700, 200
+  offset: 55, 40
+  index: -1
+liuguang1/liuguang_00011
+  rotate: false
+  xy: 2, 76
+  size: 598, 135
+  orig: 700, 200
+  offset: 53, 35
+  index: -1
+liuguang1/liuguang_00012
+  rotate: false
+  xy: 2, 213
+  size: 597, 137
+  orig: 700, 200
+  offset: 53, 33
+  index: -1
+wangge_00015
+  rotate: false
+  xy: 2, 352
+  size: 598, 138
+  orig: 650, 200
+  offset: 18, 31
+  index: -1
+zhujianzhu
+  rotate: false
+  xy: 2, 492
+  size: 886, 530
+  orig: 886, 530
+  offset: 0, 0
+  index: -1
+
+dating2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+liuguang1/liuguang_00002
+  rotate: true
+  xy: 652, 437
+  size: 491, 135
+  orig: 700, 200
+  offset: 87, 32
+  index: -1
+liuguang1/liuguang_00003
+  rotate: true
+  xy: 516, 21
+  size: 497, 134
+  orig: 700, 200
+  offset: 95, 33
+  index: -1
+liuguang1/liuguang_00004
+  rotate: true
+  xy: 132, 10
+  size: 508, 135
+  orig: 700, 200
+  offset: 102, 34
+  index: -1
+liuguang1/liuguang_00005
+  rotate: false
+  xy: 2, 520
+  size: 514, 133
+  orig: 700, 200
+  offset: 109, 37
+  index: -1
+liuguang1/liuguang_00006
+  rotate: true
+  xy: 2, 2
+  size: 516, 128
+  orig: 700, 200
+  offset: 117, 42
+  index: -1
+liuguang1/liuguang_00007
+  rotate: true
+  xy: 269, 6
+  size: 512, 124
+  orig: 700, 200
+  offset: 130, 46
+  index: -1
+liuguang1/liuguang_00008
+  rotate: true
+  xy: 395, 15
+  size: 503, 119
+  orig: 700, 200
+  offset: 144, 51
+  index: -1
+liuguang1/liuguang_00010
+  rotate: false
+  xy: 2, 794
+  size: 597, 134
+  orig: 700, 200
+  offset: 54, 36
+  index: -1
+liuguang1/liuguang_00013
+  rotate: false
+  xy: 2, 655
+  size: 594, 137
+  orig: 700, 200
+  offset: 54, 33
+  index: -1
+liuguang1/liuguang_00014
+  rotate: true
+  xy: 789, 461
+  size: 467, 137
+  orig: 700, 200
+  offset: 55, 32
+  index: -1

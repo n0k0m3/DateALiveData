@@ -1,0 +1,97 @@
+
+effects_21401_skillB.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+te_xiao/SB/dunA/dunA_00005
+  rotate: false
+  xy: 633, 2
+  size: 162, 285
+  orig: 188, 334
+  offset: 13, 12
+  index: -1
+te_xiao/SB/dunA/dunA_00006
+  rotate: false
+  xy: 698, 654
+  size: 188, 334
+  orig: 188, 334
+  offset: 0, 0
+  index: -1
+te_xiao/SB/dunB
+  rotate: false
+  xy: 286, 562
+  size: 225, 426
+  orig: 225, 426
+  offset: 0, 0
+  index: -1
+te_xiao/SB/dunC
+  rotate: false
+  xy: 513, 604
+  size: 183, 384
+  orig: 183, 384
+  offset: 0, 0
+  index: -1
+te_xiao/SB/dunX/dunX_00001
+  rotate: true
+  xy: 2, 66
+  size: 168, 314
+  orig: 169, 315
+  offset: 1, 1
+  index: -1
+te_xiao/SB/dunX/dunX_00003
+  rotate: true
+  xy: 318, 76
+  size: 168, 313
+  orig: 169, 315
+  offset: 1, 1
+  index: -1
+te_xiao/SB/dunX/dunX_00005
+  rotate: false
+  xy: 457, 246
+  size: 168, 314
+  orig: 169, 315
+  offset: 1, 0
+  index: -1
+te_xiao/SB/dunX/dunX_00007
+  rotate: false
+  xy: 627, 289
+  size: 168, 313
+  orig: 169, 315
+  offset: 1, 1
+  index: -1
+te_xiao/SB/dunX/dunX_00009
+  rotate: false
+  xy: 797, 341
+  size: 167, 311
+  orig: 169, 315
+  offset: 2, 1
+  index: -1
+te_xiao/SB/dunX/dunX_00011
+  rotate: false
+  xy: 286, 246
+  size: 169, 314
+  orig: 169, 315
+  offset: 0, 0
+  index: -1
+te_xiao/SB/zhao/zhao_00002
+  rotate: false
+  xy: 2, 608
+  size: 282, 380
+  orig: 311, 405
+  offset: 21, 9
+  index: -1
+te_xiao/SB/zhao/zhao_00003
+  rotate: false
+  xy: 2, 236
+  size: 282, 370
+  orig: 311, 405
+  offset: 21, 21
+  index: -1
+te_xiao/yanjing_00014
+  rotate: false
+  xy: 513, 572
+  size: 23, 30
+  orig: 23, 30
+  offset: 0, 0
+  index: -1

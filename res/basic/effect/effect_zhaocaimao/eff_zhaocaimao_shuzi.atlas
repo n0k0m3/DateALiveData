@@ -1,0 +1,118 @@
+
+eff_zhaocaimao_shuzi.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chuxian/chuxian_00000
+  rotate: false
+  xy: 139, 619
+  size: 61, 91
+  orig: 1386, 640
+  offset: 664, 278
+  index: -1
+chuxian/chuxian_00001
+  rotate: false
+  xy: 76, 517
+  size: 61, 93
+  orig: 1386, 640
+  offset: 664, 276
+  index: -1
+chuxian/chuxian_00002
+  rotate: false
+  xy: 2, 202
+  size: 61, 98
+  orig: 1386, 640
+  offset: 664, 271
+  index: -1
+chuxian/chuxian_00003
+  rotate: false
+  xy: 76, 912
+  size: 61, 98
+  orig: 1386, 640
+  offset: 664, 271
+  index: -1
+chuxian/chuxian_00004
+  rotate: false
+  xy: 2, 102
+  size: 61, 98
+  orig: 1386, 640
+  offset: 664, 271
+  index: -1
+chuxian/chuxian_00005
+  rotate: false
+  xy: 76, 812
+  size: 61, 98
+  orig: 1386, 640
+  offset: 664, 271
+  index: -1
+chuxian/chuxian_00006
+  rotate: false
+  xy: 139, 912
+  size: 61, 98
+  orig: 1386, 640
+  offset: 664, 271
+  index: -1
+chuxian/chuxian_00007
+  rotate: false
+  xy: 265, 912
+  size: 60, 98
+  orig: 1386, 640
+  offset: 665, 271
+  index: -1
+chuxian/chuxian_00008
+  rotate: false
+  xy: 2, 2
+  size: 61, 98
+  orig: 1386, 640
+  offset: 664, 271
+  index: -1
+chuxian/chuxian_00009
+  rotate: false
+  xy: 76, 712
+  size: 61, 98
+  orig: 1386, 640
+  offset: 664, 271
+  index: -1
+shuzitiao
+  rotate: false
+  xy: 2, 302
+  size: 72, 708
+  orig: 72, 708
+  offset: 0, 0
+  index: -1
+xunhuan/xunhuan_00000
+  rotate: false
+  xy: 139, 812
+  size: 61, 98
+  orig: 1386, 640
+  offset: 664, 271
+  index: -1
+xunhuan/xunhuan_00001
+  rotate: false
+  xy: 202, 912
+  size: 61, 98
+  orig: 1386, 640
+  offset: 664, 271
+  index: -1
+xunhuan/xunhuan_00002
+  rotate: false
+  xy: 76, 612
+  size: 61, 98
+  orig: 1386, 640
+  offset: 664, 271
+  index: -1
+xunhuan/xunhuan_00003
+  rotate: false
+  xy: 139, 712
+  size: 61, 98
+  orig: 1386, 640
+  offset: 664, 271
+  index: -1
+xunhuan/xunhuan_00004
+  rotate: false
+  xy: 202, 812
+  size: 61, 98
+  orig: 1386, 640
+  offset: 664, 271
+  index: -1

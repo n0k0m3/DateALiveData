@@ -1,0 +1,13 @@
+
+effects_30502_skillD5.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect2/yujingxian
+  rotate: false
+  xy: 2, 86
+  size: 245, 161
+  orig: 354, 215
+  offset: 51, 19
+  index: -1

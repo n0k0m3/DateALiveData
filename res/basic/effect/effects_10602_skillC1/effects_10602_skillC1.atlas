@@ -1,0 +1,321 @@
+
+effects_10602_skillC1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillb2/chuansuo/1dianadd_
+  rotate: false
+  xy: 244, 445
+  size: 36, 35
+  orig: 40, 40
+  offset: 2, 2
+  index: -1
+images/effects/skillb2/chuansuo/2baodianadd/baodian_0001
+  rotate: false
+  xy: 122, 475
+  size: 101, 78
+  orig: 200, 168
+  offset: 46, 47
+  index: -1
+images/effects/skillb2/chuansuo/2baodianadd/baodian_0002
+  rotate: false
+  xy: 201, 629
+  size: 110, 85
+  orig: 200, 168
+  offset: 42, 41
+  index: -1
+images/effects/skillb2/chuansuo/2baodianadd/baodian_0003
+  rotate: false
+  xy: 190, 716
+  size: 146, 87
+  orig: 200, 168
+  offset: 26, 40
+  index: -1
+images/effects/skillb2/chuansuo/2baodianadd/baodian_0004
+  rotate: false
+  xy: 190, 805
+  size: 165, 94
+  orig: 200, 168
+  offset: 16, 36
+  index: -1
+images/effects/skillb2/chuansuo/2baodianadd/baodian_0005
+  rotate: true
+  xy: 122, 555
+  size: 143, 77
+  orig: 200, 168
+  offset: 29, 47
+  index: -1
+images/effects/skillb2/chuansuo/3huohuaadd/huohua_0001
+  rotate: false
+  xy: 116, 307
+  size: 72, 77
+  orig: 140, 135
+  offset: 43, 27
+  index: -1
+images/effects/skillb2/chuansuo/3huohuaadd/huohua_0002
+  rotate: true
+  xy: 225, 482
+  size: 75, 84
+  orig: 140, 135
+  offset: 29, 33
+  index: -1
+images/effects/skillb2/chuansuo/3huohuaadd/huohua_0003
+  rotate: false
+  xy: 116, 386
+  size: 79, 87
+  orig: 140, 135
+  offset: 20, 37
+  index: -1
+images/effects/skillb2/chuansuo/3huohuaadd/huohua_0004
+  rotate: true
+  xy: 747, 901
+  size: 69, 71
+  orig: 140, 135
+  offset: 28, 39
+  index: -1
+images/effects/skillb2/chuansuo/3huohuaadd/huohua_0005
+  rotate: false
+  xy: 820, 908
+  size: 71, 71
+  orig: 140, 135
+  offset: 25, 39
+  index: -1
+images/effects/skillb2/chuansuo/3huohuaadd/huohua_0006
+  rotate: false
+  xy: 893, 909
+  size: 59, 70
+  orig: 140, 135
+  offset: 36, 40
+  index: -1
+images/effects/skillb2/chuansuo/3huohuaadd/huohua_0007
+  rotate: false
+  xy: 954, 909
+  size: 58, 70
+  orig: 140, 135
+  offset: 37, 40
+  index: -1
+images/effects/skillb2/chuansuo/4/lizi_0001
+  rotate: true
+  xy: 727, 894
+  size: 42, 18
+  orig: 60, 32
+  offset: 15, 7
+  index: -1
+images/effects/skillb2/chuansuo/4/lizi_0002
+  rotate: true
+  xy: 244, 400
+  size: 43, 22
+  orig: 60, 32
+  offset: 12, 5
+  index: -1
+images/effects/skillb2/chuansuo/4/lizi_0003
+  rotate: false
+  xy: 449, 902
+  size: 43, 22
+  orig: 60, 32
+  offset: 10, 5
+  index: -1
+images/effects/skillb2/chuansuo/4/lizi_0005
+  rotate: true
+  xy: 378, 902
+  size: 45, 23
+  orig: 60, 32
+  offset: 7, 5
+  index: -1
+images/effects/skillb2/chuansuo/4/lizi_0007
+  rotate: true
+  xy: 313, 669
+  size: 45, 23
+  orig: 60, 32
+  offset: 5, 5
+  index: -1
+images/effects/skillb2/chuansuo/4/lizi_0009
+  rotate: false
+  xy: 403, 902
+  size: 44, 22
+  orig: 60, 32
+  offset: 4, 6
+  index: -1
+images/effects/skillb2/chuansuo/4/lizi_0011
+  rotate: false
+  xy: 494, 904
+  size: 44, 20
+  orig: 60, 32
+  offset: 3, 7
+  index: -1
+images/effects/skillb2/chuansuo/4/lizi_0013
+  rotate: true
+  xy: 357, 858
+  size: 41, 19
+  orig: 60, 32
+  offset: 3, 7
+  index: -1
+images/effects/skillb2/chuansuo/4/lizi_0015
+  rotate: false
+  xy: 378, 882
+  size: 39, 18
+  orig: 60, 32
+  offset: 4, 8
+  index: -1
+images/effects/skillb2/chuansuo/4/lizi_0017
+  rotate: true
+  xy: 338, 768
+  size: 35, 15
+  orig: 60, 32
+  offset: 5, 10
+  index: -1
+images/effects/skillb2/chuansuo/5yingziadd
+  rotate: false
+  xy: 2, 910
+  size: 192, 109
+  orig: 200, 116
+  offset: 4, 1
+  index: -1
+images/effects/skillb2/chuansuo/6add
+  rotate: false
+  xy: 586, 938
+  size: 159, 32
+  orig: 160, 32
+  offset: 0, 0
+  index: -1
+images/effects/skillb2/chuansuo/7
+  rotate: false
+  xy: 586, 904
+  size: 139, 32
+  orig: 140, 40
+  offset: 0, 8
+  index: -1
+images/effects/skillb2/houcanying1_00000
+  rotate: false
+  xy: 201, 559
+  size: 107, 68
+  orig: 120, 80
+  offset: 13, 6
+  index: -1
+images/effects/skillb2/youshandian/youshandianadd_00061
+  rotate: true
+  xy: 2, 2
+  size: 87, 52
+  orig: 240, 100
+  offset: 95, 6
+  index: -1
+images/effects/skillb2/youshandian/youshandianadd_00062
+  rotate: false
+  xy: 196, 949
+  size: 207, 70
+  orig: 240, 100
+  offset: 12, 0
+  index: -1
+images/effects/skillb2/youshandian/youshandianadd_00063
+  rotate: false
+  xy: 140, 700
+  size: 3, 3
+  orig: 240, 100
+  offset: 19, 25
+  index: -1
+images/effects/skillb2/youshandian/youshandianadd_00064
+  rotate: true
+  xy: 2, 700
+  size: 208, 82
+  orig: 240, 100
+  offset: 15, 9
+  index: -1
+images/effects/skillb2/youshandian/youshandianadd_00065
+  rotate: true
+  xy: 2, 495
+  size: 203, 68
+  orig: 240, 100
+  offset: 16, 17
+  index: -1
+images/effects/skillb2/youshandian/youshandiannor_00062
+  rotate: true
+  xy: 197, 400
+  size: 73, 45
+  orig: 240, 100
+  offset: 106, 40
+  index: -1
+images/effects/skillb2/youshandian/youshandiannor_00063
+  rotate: true
+  xy: 54, 306
+  size: 187, 60
+  orig: 240, 100
+  offset: 34, 16
+  index: -1
+images/effects/skillb2/youshandian/youshandiannor_00064
+  rotate: false
+  xy: 201, 555
+  size: 3, 2
+  orig: 240, 100
+  offset: 38, 24
+  index: -1
+images/effects/skillb2/youshandian/youshandiannor_00065
+  rotate: true
+  xy: 2, 91
+  size: 196, 43
+  orig: 240, 100
+  offset: 36, 19
+  index: -1
+images/effects/skillb2/youshandian/youshandiannor_00066
+  rotate: false
+  xy: 819, 981
+  size: 191, 38
+  orig: 240, 100
+  offset: 36, 21
+  index: -1
+images/effects/skillb2/zuoshandian/zuoshandianadd_00070
+  rotate: true
+  xy: 86, 700
+  size: 208, 52
+  orig: 240, 60
+  offset: 19, 4
+  index: -1
+images/effects/skillb2/zuoshandian/zuoshandianadd_00071
+  rotate: true
+  xy: 72, 495
+  size: 203, 48
+  orig: 240, 60
+  offset: 21, 11
+  index: -1
+images/effects/skillb2/zuoshandian/zuoshandianadd_00072
+  rotate: true
+  xy: 140, 705
+  size: 203, 48
+  orig: 240, 60
+  offset: 20, 11
+  index: -1
+images/effects/skillb2/zuoshandian/zuoshandianadd_00073
+  rotate: false
+  xy: 196, 901
+  size: 180, 46
+  orig: 240, 60
+  offset: 21, 12
+  index: -1
+images/effects/skillb2/zuoshandian/zuoshandiannor_00071
+  rotate: false
+  xy: 405, 972
+  size: 208, 47
+  orig: 240, 60
+  offset: 20, 6
+  index: -1
+images/effects/skillb2/zuoshandian/zuoshandiannor_00072
+  rotate: true
+  xy: 2, 289
+  size: 204, 50
+  orig: 240, 60
+  offset: 20, 3
+  index: -1
+images/effects/skillb2/zuoshandian/zuoshandiannor_00073
+  rotate: false
+  xy: 615, 972
+  size: 202, 47
+  orig: 240, 60
+  offset: 20, 5
+  index: -1
+images/effects/skillb2/zuoshandian/zuoshandiannor_00074
+  rotate: false
+  xy: 405, 926
+  size: 179, 44
+  orig: 240, 60
+  offset: 21, 8
+  index: -1

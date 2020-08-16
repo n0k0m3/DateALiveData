@@ -1,0 +1,48 @@
+
+effect_cao_14.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/cao1
+  rotate: false
+  xy: 2, 1381
+  size: 937, 81
+  orig: 937, 81
+  offset: 0, 0
+  index: -1
+images/cao2
+  rotate: false
+  xy: 2, 1464
+  size: 1111, 146
+  orig: 1111, 146
+  offset: 0, 0
+  index: -1
+images/cao3
+  rotate: false
+  xy: 1115, 1469
+  size: 495, 141
+  orig: 495, 141
+  offset: 0, 0
+  index: -1
+images/langan
+  rotate: false
+  xy: 2, 1249
+  size: 425, 130
+  orig: 425, 130
+  offset: 0, 0
+  index: -1
+images/shu1
+  rotate: false
+  xy: 2, 833
+  size: 237, 206
+  orig: 237, 206
+  offset: 0, 0
+  index: -1
+images/shu2
+  rotate: false
+  xy: 2, 1041
+  size: 318, 206
+  orig: 318, 206
+  offset: 0, 0
+  index: -1

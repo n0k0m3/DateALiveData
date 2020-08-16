@@ -1,0 +1,34 @@
+
+effect_guide_01.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/dian_00000
+  rotate: false
+  xy: 154, 250
+  size: 72, 73
+  orig: 75, 75
+  offset: 2, 1
+  index: -1
+images/glow_00000
+  rotate: false
+  xy: 2, 22
+  size: 150, 149
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+images/quan_00000
+  rotate: false
+  xy: 2, 173
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+images/xian_00000
+  rotate: false
+  xy: 2, 325
+  size: 495, 172
+  orig: 525, 188
+  offset: 15, 8
+  index: -1

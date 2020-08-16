@@ -1,0 +1,13 @@
+
+effect_jindutiao_10.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/jindutiao_00000
+  rotate: false
+  xy: 2, 83
+  size: 91, 10
+  orig: 200, 200
+  offset: 52, 101
+  index: -1

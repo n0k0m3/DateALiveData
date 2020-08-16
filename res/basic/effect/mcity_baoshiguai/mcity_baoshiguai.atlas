@@ -1,0 +1,160 @@
+
+mcity_baoshiguai.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+c-Case cover
+  rotate: false
+  xy: 2, 152
+  size: 83, 84
+  orig: 83, 84
+  offset: 0, 0
+  index: -1
+c-Open treasure chest
+  rotate: false
+  xy: 2, 341
+  size: 127, 169
+  orig: 127, 169
+  offset: 0, 0
+  index: -1
+c-Treasure chest
+  rotate: false
+  xy: 131, 450
+  size: 115, 60
+  orig: 115, 60
+  offset: 0, 0
+  index: -1
+c_head
+  rotate: false
+  xy: 2, 238
+  size: 114, 101
+  orig: 114, 101
+  offset: 0, 0
+  index: -1
+c_l_calf
+  rotate: false
+  xy: 87, 191
+  size: 29, 45
+  orig: 29, 45
+  offset: 0, 0
+  index: -1
+c_l_foot
+  rotate: true
+  xy: 43, 107
+  size: 43, 24
+  orig: 43, 24
+  offset: 0, 0
+  index: -1
+c_l_thigh
+  rotate: true
+  xy: 87, 154
+  size: 35, 29
+  orig: 35, 29
+  offset: 0, 0
+  index: -1
+c_l_uparm
+  rotate: true
+  xy: 427, 488
+  size: 22, 31
+  orig: 22, 31
+  offset: 0, 0
+  index: -1
+c_r_calf
+  rotate: true
+  xy: 131, 348
+  size: 38, 56
+  orig: 38, 56
+  offset: 0, 0
+  index: -1
+c_r_foot
+  rotate: true
+  xy: 205, 398
+  size: 50, 33
+  orig: 50, 33
+  offset: 0, 0
+  index: -1
+c_r_thigh
+  rotate: false
+  xy: 371, 470
+  size: 25, 40
+  orig: 25, 40
+  offset: 0, 0
+  index: -1
+c_r_uparm
+  rotate: false
+  xy: 398, 480
+  size: 27, 30
+  orig: 27, 30
+  offset: 0, 0
+  index: -1
+c_r_uparm1
+  rotate: false
+  xy: 2, 37
+  size: 37, 36
+  orig: 37, 36
+  offset: 0, 0
+  index: -1
+guang_1
+  rotate: false
+  xy: 43, 79
+  size: 26, 26
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+shenti_1
+  rotate: true
+  xy: 2, 2
+  size: 33, 28
+  orig: 33, 28
+  offset: 0, 0
+  index: -1
+shenti_2
+  rotate: false
+  xy: 131, 388
+  size: 72, 60
+  orig: 72, 60
+  offset: 0, 0
+  index: -1
+shenti_3
+  rotate: false
+  xy: 248, 456
+  size: 65, 54
+  orig: 65, 54
+  offset: 0, 0
+  index: -1
+shou_1
+  rotate: false
+  xy: 118, 313
+  size: 10, 26
+  orig: 10, 26
+  offset: 0, 0
+  index: -1
+shou_2
+  rotate: false
+  xy: 189, 367
+  size: 11, 19
+  orig: 11, 19
+  offset: 0, 0
+  index: -1
+shou_3
+  rotate: false
+  xy: 2, 75
+  size: 39, 75
+  orig: 39, 75
+  offset: 0, 0
+  index: -1
+zshou_2
+  rotate: false
+  xy: 371, 458
+  size: 16, 10
+  orig: 16, 10
+  offset: 0, 0
+  index: -1
+zshou_3
+  rotate: false
+  xy: 315, 458
+  size: 54, 52
+  orig: 54, 52
+  offset: 0, 0
+  index: -1

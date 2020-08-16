@@ -1,0 +1,48 @@
+
+main_effect_11009bianshen.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bianshenguang/bianshenguang1
+  rotate: true
+  xy: 2, 120
+  size: 237, 105
+  orig: 237, 105
+  offset: 0, 0
+  index: -1
+bianshenguang/bianshenguang2
+  rotate: false
+  xy: 2, 359
+  size: 205, 138
+  orig: 205, 138
+  offset: 0, 0
+  index: -1
+bianshenguang/bianshenguang3
+  rotate: false
+  xy: 329, 412
+  size: 89, 85
+  orig: 89, 85
+  offset: 0, 0
+  index: -1
+yinfu/yinfu1
+  rotate: false
+  xy: 209, 383
+  size: 118, 114
+  orig: 118, 114
+  offset: 0, 0
+  index: -1
+yinfu/yinfu2
+  rotate: false
+  xy: 2, 2
+  size: 98, 116
+  orig: 98, 116
+  offset: 0, 0
+  index: -1
+yinfu/yinfu3
+  rotate: false
+  xy: 109, 232
+  size: 81, 125
+  orig: 81, 125
+  offset: 0, 0
+  index: -1

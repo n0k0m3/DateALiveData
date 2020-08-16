@@ -1,0 +1,48 @@
+
+effects_10101_skillB2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects_2/fenzhi/fenzhi_00041
+  rotate: false
+  xy: 2, 2
+  size: 114, 130
+  orig: 187, 176
+  offset: 54, 32
+  index: -1
+effects_2/fenzhi/fenzhi_00042
+  rotate: false
+  xy: 2, 306
+  size: 179, 176
+  orig: 187, 176
+  offset: 4, 0
+  index: -1
+effects_2/fenzhi/fenzhi_00043
+  rotate: false
+  xy: 183, 313
+  size: 168, 169
+  orig: 187, 176
+  offset: 13, 0
+  index: -1
+effects_2/fenzhi/fenzhi_00044
+  rotate: false
+  xy: 2, 134
+  size: 169, 170
+  orig: 187, 176
+  offset: 4, 2
+  index: -1
+effects_2/fenzhi/fenzhi_00045
+  rotate: false
+  xy: 353, 300
+  size: 81, 78
+  orig: 187, 176
+  offset: 13, 87
+  index: -1
+effects_2/glow2_00041
+  rotate: false
+  xy: 353, 380
+  size: 101, 102
+  orig: 101, 102
+  offset: 0, 0
+  index: -1

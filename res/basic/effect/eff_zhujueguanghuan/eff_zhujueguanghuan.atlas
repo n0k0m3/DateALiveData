@@ -1,0 +1,48 @@
+
+eff_zhujueguanghuan.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+liang/liangwenli
+  rotate: false
+  xy: 2, 780
+  size: 683, 487
+  orig: 683, 487
+  offset: 0, 0
+  index: -1
+liang/liumangxingF
+  rotate: false
+  xy: 2, 2
+  size: 205, 227
+  orig: 205, 227
+  offset: 0, 0
+  index: -1
+zc/duobianxing
+  rotate: false
+  xy: 687, 998
+  size: 268, 269
+  orig: 268, 269
+  offset: 0, 0
+  index: -1
+zc/neifazhen
+  rotate: false
+  xy: 687, 803
+  size: 193, 193
+  orig: 193, 193
+  offset: 0, 0
+  index: -1
+zc/waiquan
+  rotate: false
+  xy: 2, 231
+  size: 558, 547
+  orig: 558, 547
+  offset: 0, 0
+  index: -1
+zc/zhongxin
+  rotate: false
+  xy: 562, 674
+  size: 104, 104
+  orig: 104, 104
+  offset: 0, 0
+  index: -1

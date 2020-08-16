@@ -1,0 +1,76 @@
+
+effect_shu_20.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shu
+  rotate: false
+  xy: 333, 103
+  size: 128, 308
+  orig: 128, 308
+  offset: 0, 0
+  index: -1
+shu1
+  rotate: true
+  xy: 177, 413
+  size: 185, 295
+  orig: 185, 295
+  offset: 0, 0
+  index: -1
+shu10
+  rotate: true
+  xy: 189, 754
+  size: 172, 309
+  orig: 172, 309
+  offset: 0, 0
+  index: -1
+shu3
+  rotate: false
+  xy: 178, 110
+  size: 153, 301
+  orig: 153, 301
+  offset: 0, 0
+  index: -1
+shu4
+  rotate: false
+  xy: 2, 2
+  size: 174, 306
+  orig: 174, 306
+  offset: 0, 0
+  index: -1
+shu5
+  rotate: true
+  xy: 500, 772
+  size: 154, 322
+  orig: 154, 322
+  offset: 0, 0
+  index: -1
+shu6
+  rotate: false
+  xy: 2, 310
+  size: 173, 309
+  orig: 173, 309
+  offset: 0, 0
+  index: -1
+shu7
+  rotate: true
+  xy: 189, 600
+  size: 152, 309
+  orig: 152, 309
+  offset: 0, 0
+  index: -1
+shu8
+  rotate: false
+  xy: 2, 621
+  size: 185, 305
+  orig: 185, 305
+  offset: 0, 0
+  index: -1
+shu9
+  rotate: true
+  xy: 500, 616
+  size: 154, 309
+  orig: 154, 309
+  offset: 0, 0
+  index: -1

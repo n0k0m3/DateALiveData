@@ -1,0 +1,34 @@
+
+effect_zhaodaonianshou.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow1_00000
+  rotate: false
+  xy: 2, 244
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+glow_00000
+  rotate: false
+  xy: 2, 2
+  size: 244, 240
+  orig: 300, 300
+  offset: 26, 34
+  index: -1
+hongse_00000
+  rotate: false
+  xy: 260, 469
+  size: 40, 31
+  orig: 42, 33
+  offset: 1, 1
+  index: -1
+huangse
+  rotate: false
+  xy: 260, 436
+  size: 40, 31
+  orig: 42, 33
+  offset: 1, 1
+  index: -1

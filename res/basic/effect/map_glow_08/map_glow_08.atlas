@@ -1,0 +1,48 @@
+
+map_glow_08.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sucai/A
+  rotate: false
+  xy: 90, 161
+  size: 53, 65
+  orig: 53, 65
+  offset: 0, 0
+  index: -1
+sucai/fanguang
+  rotate: false
+  xy: 2, 124
+  size: 86, 202
+  orig: 86, 202
+  offset: 0, 0
+  index: -1
+sucai/guangmen/guangmen1
+  rotate: false
+  xy: 2, 328
+  size: 333, 161
+  orig: 333, 161
+  offset: 0, 0
+  index: -1
+sucai/k
+  rotate: false
+  xy: 2, 39
+  size: 69, 83
+  orig: 69, 83
+  offset: 0, 0
+  index: -1
+sucai/ludeng
+  rotate: false
+  xy: 90, 228
+  size: 102, 98
+  orig: 102, 98
+  offset: 0, 0
+  index: -1
+sucai/xiongzuideng
+  rotate: false
+  xy: 337, 378
+  size: 152, 111
+  orig: 152, 111
+  offset: 0, 0
+  index: -1

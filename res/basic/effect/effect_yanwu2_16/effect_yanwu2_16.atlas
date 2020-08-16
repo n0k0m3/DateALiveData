@@ -1,0 +1,34 @@
+
+effect_yanwu2_16.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/yun1
+  rotate: false
+  xy: 1216, 1740
+  size: 693, 169
+  orig: 693, 169
+  offset: 0, 0
+  index: -1
+images/yun2
+  rotate: false
+  xy: 87, 1577
+  size: 957, 154
+  orig: 957, 154
+  offset: 0, 0
+  index: -1
+images/yun3
+  rotate: true
+  xy: 2, 433
+  size: 1298, 83
+  orig: 1298, 83
+  offset: 0, 0
+  index: -1
+images/yun4
+  rotate: false
+  xy: 2, 1733
+  size: 1212, 176
+  orig: 1212, 176
+  offset: 0, 0
+  index: -1

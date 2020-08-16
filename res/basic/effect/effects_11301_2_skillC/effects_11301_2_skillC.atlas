@@ -1,0 +1,355 @@
+
+effects_11301_2_skillC.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/2skillC/batboom/batboom_005
+  rotate: false
+  xy: 671, 443
+  size: 120, 118
+  orig: 180, 180
+  offset: 30, 30
+  index: -1
+effects/2skillC/batboom/batboom_007
+  rotate: false
+  xy: 671, 325
+  size: 120, 116
+  orig: 180, 180
+  offset: 30, 30
+  index: -1
+effects/2skillC/batboom/batboom_009
+  rotate: true
+  xy: 464, 18
+  size: 111, 109
+  orig: 180, 180
+  offset: 32, 33
+  index: -1
+effects/2skillC/boom/boom_000
+  rotate: false
+  xy: 646, 794
+  size: 80, 80
+  orig: 240, 240
+  offset: 82, 87
+  index: -1
+effects/2skillC/boom/boom_004
+  rotate: false
+  xy: 464, 131
+  size: 204, 193
+  orig: 240, 240
+  offset: 20, 28
+  index: -1
+effects/2skillC/boom/boom_006
+  rotate: false
+  xy: 801, 813
+  size: 218, 208
+  orig: 240, 240
+  offset: 13, 22
+  index: -1
+effects/2skillC/boom/boom_008
+  rotate: true
+  xy: 801, 472
+  size: 213, 214
+  orig: 240, 240
+  offset: 18, 22
+  index: -1
+effects/2skillC/boom/boom_010
+  rotate: true
+  xy: 839, 35
+  size: 207, 182
+  orig: 240, 240
+  offset: 19, 50
+  index: -1
+effects/2skillC/boom/boom_012
+  rotate: false
+  xy: 575, 24
+  size: 89, 105
+  orig: 240, 240
+  offset: 76, 68
+  index: -1
+effects/2skillC/glow
+  rotate: false
+  xy: 2, 8
+  size: 58, 59
+  orig: 60, 60
+  offset: 1, 1
+  index: -1
+effects/2skillC/guangxian
+  rotate: false
+  xy: 62, 20
+  size: 116, 47
+  orig: 120, 48
+  offset: 3, 1
+  index: -1
+effects/2skillC/hit/hit_000
+  rotate: true
+  xy: 208, 788
+  size: 233, 232
+  orig: 240, 240
+  offset: 4, 1
+  index: -1
+effects/2skillC/hit/hit_001
+  rotate: true
+  xy: 2, 69
+  size: 233, 232
+  orig: 240, 240
+  offset: 4, 1
+  index: -1
+effects/2skillC/hit/hit_002
+  rotate: true
+  xy: 209, 310
+  size: 233, 232
+  orig: 240, 240
+  offset: 4, 1
+  index: -1
+effects/2skillC/hit/hit_010
+  rotate: true
+  xy: 670, 3
+  size: 176, 167
+  orig: 240, 240
+  offset: 38, 38
+  index: -1
+effects/2skillC/hit/hit_015
+  rotate: false
+  xy: 646, 876
+  size: 150, 145
+  orig: 240, 240
+  offset: 49, 46
+  index: -1
+effects/2skillC/juqi/juqi_000
+  rotate: true
+  xy: 801, 687
+  size: 124, 217
+  orig: 240, 240
+  offset: 62, 1
+  index: -1
+effects/2skillC/juqi/juqi_001
+  rotate: false
+  xy: 414, 554
+  size: 157, 232
+  orig: 240, 240
+  offset: 32, 1
+  index: -1
+effects/2skillC/juqi/juqi_002
+  rotate: false
+  xy: 442, 791
+  size: 202, 230
+  orig: 240, 240
+  offset: 17, 1
+  index: -1
+effects/2skillC/juqi/juqi_003
+  rotate: false
+  xy: 2, 543
+  size: 203, 238
+  orig: 240, 240
+  offset: 16, 1
+  index: -1
+effects/2skillC/juqi/juqi_005
+  rotate: false
+  xy: 2, 783
+  size: 204, 238
+  orig: 240, 240
+  offset: 16, 1
+  index: -1
+effects/2skillC/juqi/juqi_007
+  rotate: false
+  xy: 207, 545
+  size: 205, 236
+  orig: 240, 240
+  offset: 16, 1
+  index: -1
+effects/2skillC/juqi/juqi_009
+  rotate: false
+  xy: 2, 304
+  size: 205, 237
+  orig: 240, 240
+  offset: 16, 1
+  index: -1
+effects/2skillC/juqi/juqi_016
+  rotate: false
+  xy: 670, 181
+  size: 113, 142
+  orig: 240, 240
+  offset: 52, 66
+  index: -1
+effects/2skillC/loopbo/loopbo_000
+  rotate: false
+  xy: 236, 82
+  size: 226, 226
+  orig: 240, 240
+  offset: 7, 7
+  index: -1
+effects/2skillC/loopbo/loopbo_002
+  rotate: false
+  xy: 443, 326
+  size: 226, 226
+  orig: 240, 240
+  offset: 7, 7
+  index: -1
+effects/2skillC/loopbo/loopbo_004
+  rotate: false
+  xy: 573, 563
+  size: 226, 226
+  orig: 240, 240
+  offset: 7, 7
+  index: -1
+effects/2skillC/loopbo/loopbo_006
+  rotate: false
+  xy: 793, 244
+  size: 226, 226
+  orig: 240, 240
+  offset: 7, 7
+  index: -1
+
+effects_11301_2_skillC2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/2skillC/batboom/batboom_000
+  rotate: false
+  xy: 875, 875
+  size: 138, 138
+  orig: 180, 180
+  offset: 21, 21
+  index: -1
+effects/2skillC/batboom/batboom_001
+  rotate: false
+  xy: 771, 283
+  size: 138, 138
+  orig: 180, 180
+  offset: 21, 21
+  index: -1
+effects/2skillC/batboom/batboom_003
+  rotate: false
+  xy: 771, 143
+  size: 138, 138
+  orig: 180, 180
+  offset: 21, 21
+  index: -1
+effects/2skillC/batboom/batboom_010
+  rotate: false
+  xy: 2, 15
+  size: 96, 99
+  orig: 180, 180
+  offset: 43, 36
+  index: -1
+effects/2skillC/boom/boom_002
+  rotate: true
+  xy: 768, 423
+  size: 173, 169
+  orig: 240, 240
+  offset: 37, 40
+  index: -1
+effects/2skillC/boom/boom_014
+  rotate: false
+  xy: 100, 27
+  size: 88, 87
+  orig: 240, 240
+  offset: 79, 88
+  index: -1
+effects/2skillC/hit/hit_004
+  rotate: false
+  xy: 2, 116
+  size: 214, 213
+  orig: 240, 240
+  offset: 13, 11
+  index: -1
+effects/2skillC/hit/hit_006
+  rotate: true
+  xy: 654, 598
+  size: 187, 161
+  orig: 240, 240
+  offset: 23, 40
+  index: -1
+effects/2skillC/hit/hit_008
+  rotate: true
+  xy: 433, 375
+  size: 182, 164
+  orig: 240, 240
+  offset: 30, 39
+  index: -1
+effects/2skillC/hit/hit_011
+  rotate: true
+  xy: 599, 406
+  size: 174, 167
+  orig: 240, 240
+  offset: 40, 38
+  index: -1
+effects/2skillC/hit/hit_013
+  rotate: false
+  xy: 599, 237
+  size: 170, 167
+  orig: 240, 240
+  offset: 42, 38
+  index: -1
+effects/2skillC/juqi/juqi_011
+  rotate: false
+  xy: 230, 344
+  size: 201, 213
+  orig: 240, 240
+  offset: 17, 1
+  index: -1
+effects/2skillC/juqi/juqi_013
+  rotate: false
+  xy: 458, 582
+  size: 194, 203
+  orig: 240, 240
+  offset: 24, 10
+  index: -1
+effects/2skillC/juqi/juqi_014
+  rotate: false
+  xy: 686, 814
+  size: 187, 199
+  orig: 240, 240
+  offset: 31, 13
+  index: -1
+effects/2skillC/juqi/juqi_015
+  rotate: false
+  xy: 817, 625
+  size: 164, 187
+  orig: 240, 240
+  offset: 46, 24
+  index: -1
+effects/2skillC/loopbo/loopbo_008
+  rotate: false
+  xy: 2, 787
+  size: 226, 226
+  orig: 240, 240
+  offset: 7, 7
+  index: -1
+effects/2skillC/loopbo/loopbo_010
+  rotate: false
+  xy: 2, 559
+  size: 226, 226
+  orig: 240, 240
+  offset: 7, 7
+  index: -1
+effects/2skillC/loopbo/loopbo_012
+  rotate: false
+  xy: 230, 787
+  size: 226, 226
+  orig: 240, 240
+  offset: 7, 7
+  index: -1
+effects/2skillC/loopbo/loopbo_014
+  rotate: false
+  xy: 2, 331
+  size: 226, 226
+  orig: 240, 240
+  offset: 7, 7
+  index: -1
+effects/2skillC/loopbo/loopbo_016
+  rotate: false
+  xy: 230, 559
+  size: 226, 226
+  orig: 240, 240
+  offset: 7, 7
+  index: -1
+effects/2skillC/loopbo/loopbo_018
+  rotate: false
+  xy: 458, 787
+  size: 226, 226
+  orig: 240, 240
+  offset: 7, 7
+  index: -1

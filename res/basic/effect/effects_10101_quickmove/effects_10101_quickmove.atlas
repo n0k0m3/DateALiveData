@@ -1,0 +1,83 @@
+
+effects_10101_quickmove.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skilla/daoguang_add/daoguang1_00022
+  rotate: false
+  xy: 2, 96
+  size: 111, 87
+  orig: 118, 118
+  offset: 6, 22
+  index: -1
+effects/skilla/daoguang_add/daoguang1_00023
+  rotate: true
+  xy: 285, 263
+  size: 96, 98
+  orig: 118, 118
+  offset: 21, 8
+  index: -1
+effects/skilla/daoguang_add/daoguang1_00024
+  rotate: true
+  xy: 2, 5
+  size: 89, 99
+  orig: 118, 118
+  offset: 28, 7
+  index: -1
+effects/skilla/daoguang_add/daoguang1_00025
+  rotate: true
+  xy: 385, 276
+  size: 83, 98
+  orig: 118, 118
+  offset: 30, 7
+  index: -1
+effects/skilla/daoguang_normal/daoguang2_00022
+  rotate: false
+  xy: 176, 194
+  size: 107, 75
+  orig: 118, 118
+  offset: 6, 30
+  index: -1
+effects/skilla/daoguang_normal/daoguang2_00023
+  rotate: false
+  xy: 176, 271
+  size: 107, 88
+  orig: 118, 118
+  offset: 6, 18
+  index: -1
+effects/skilla/daoguang_normal/daoguang2_00024
+  rotate: false
+  xy: 115, 97
+  size: 32, 86
+  orig: 118, 118
+  offset: 81, 10
+  index: -1
+effects/skilla/daoguang_normal/daoguang2_00025
+  rotate: false
+  xy: 485, 456
+  size: 23, 52
+  orig: 118, 118
+  offset: 89, 5
+  index: -1
+effects/skilla/daoguang_normal/daoguang2_00026
+  rotate: false
+  xy: 285, 229
+  size: 21, 32
+  orig: 118, 118
+  offset: 89, 5
+  index: -1
+effects_2/suduxian_00003
+  rotate: false
+  xy: 2, 361
+  size: 481, 147
+  orig: 505, 179
+  offset: 0, 17
+  index: -1
+effects_2/yingzi_00003
+  rotate: false
+  xy: 2, 185
+  size: 172, 174
+  orig: 180, 174
+  offset: 7, 0
+  index: -1

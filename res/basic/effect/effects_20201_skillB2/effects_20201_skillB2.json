@@ -1,0 +1,608 @@
+{
+"skeleton": { "hash": "/6YMjSGQz5NtEiD2QBq3YnHNbos", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "root", "scaleX": 0.5, "scaleY": 0.5 },
+	{ "name": "bdbox_eff", "parent": "root" },
+	{ "name": "effect", "parent": "root" },
+	{ "name": "hit2", "parent": "effect" },
+	{ "name": "baozha", "parent": "hit2" },
+	{ "name": "baozha2", "parent": "hit2" },
+	{ "name": "baozha3", "parent": "hit2" },
+	{ "name": "baozha4", "parent": "hit2" },
+	{ "name": "baozha_add", "parent": "baozha" },
+	{ "name": "baozha_add2", "parent": "baozha2" },
+	{ "name": "baozha_add3", "parent": "baozha3" },
+	{ "name": "baozha_add4", "parent": "baozha4" },
+	{ "name": "baozha_normal", "parent": "baozha" },
+	{ "name": "baozha_normal2", "parent": "baozha2" },
+	{ "name": "baozha_normal3", "parent": "baozha3" },
+	{ "name": "baozha_normal4", "parent": "baozha4" }
+],
+"slots": [
+	{ "name": "effect/skill02/hit_normal/hit1_00001", "bone": "baozha_normal" },
+	{ "name": "effect/skill02/hit_normal/hit1_1", "bone": "baozha_normal2" },
+	{ "name": "effect/skill02/hit_normal/hit1_2", "bone": "baozha_normal3" },
+	{ "name": "effect/skill02/hit_normal/hit1_3", "bone": "baozha_normal4" },
+	{ "name": "effect/skill02/hit_add/hit2_00001", "bone": "baozha_add", "blend": "additive" },
+	{ "name": "effect/skill02/hit_add/hit2_1", "bone": "baozha_add2", "blend": "additive" },
+	{ "name": "effect/skill02/hit_add/hit2_2", "bone": "baozha_add3", "blend": "additive" },
+	{ "name": "effect/skill02/hit_add/hit2_3", "bone": "baozha_add4", "blend": "additive" },
+	{ "name": "bdbox_eff", "bone": "bdbox_eff", "attachment": "bdbox_eff" }
+],
+"skins": {
+	"default": {
+		"bdbox_eff": {
+			"bdbox_eff": {
+				"type": "boundingbox",
+				"vertices": [ -191.99513, -130.42918, 125.5248, -124.75917, 127.41475, 122.83076, -191.99513, 124.72078 ]
+			}
+		},
+		"effect/skill02/hit_add/hit2_00001": {
+			"effect/skill02/hit_add/hit2_00001": { "width": 153, "height": 166 },
+			"effect/skill02/hit_add/hit2_00002": { "width": 153, "height": 166 },
+			"effect/skill02/hit_add/hit2_00003": { "width": 153, "height": 166 },
+			"effect/skill02/hit_add/hit2_00004": { "width": 153, "height": 166 },
+			"effect/skill02/hit_add/hit2_00005": { "width": 153, "height": 166 },
+			"effect/skill02/hit_add/hit2_00006": { "width": 153, "height": 166 },
+			"effect/skill02/hit_add/hit2_00008": { "width": 153, "height": 166 },
+			"effect/skill02/hit_add/hit2_00010": { "width": 153, "height": 166 },
+			"effect/skill02/hit_add/hit2_00012": { "width": 153, "height": 166 },
+			"effect/skill02/hit_add/hit2_00014": { "width": 153, "height": 166 },
+			"effect/skill02/hit_add/hit2_00016": { "width": 153, "height": 166 }
+		},
+		"effect/skill02/hit_add/hit2_1": {
+			"effect/skill02/hit_add/hit2_00001": { "width": 153, "height": 166 },
+			"effect/skill02/hit_add/hit2_00002": { "width": 153, "height": 166 },
+			"effect/skill02/hit_add/hit2_00003": { "width": 153, "height": 166 },
+			"effect/skill02/hit_add/hit2_00004": { "width": 153, "height": 166 },
+			"effect/skill02/hit_add/hit2_00005": { "width": 153, "height": 166 },
+			"effect/skill02/hit_add/hit2_00006": { "width": 153, "height": 166 },
+			"effect/skill02/hit_add/hit2_00008": { "width": 153, "height": 166 },
+			"effect/skill02/hit_add/hit2_00010": { "width": 153, "height": 166 },
+			"effect/skill02/hit_add/hit2_00012": { "width": 153, "height": 166 },
+			"effect/skill02/hit_add/hit2_00014": { "width": 153, "height": 166 },
+			"effect/skill02/hit_add/hit2_00016": { "width": 153, "height": 166 }
+		},
+		"effect/skill02/hit_add/hit2_2": {
+			"effect/skill02/hit_add/hit2_00001": { "width": 153, "height": 166 },
+			"effect/skill02/hit_add/hit2_00002": { "width": 153, "height": 166 },
+			"effect/skill02/hit_add/hit2_00003": { "width": 153, "height": 166 },
+			"effect/skill02/hit_add/hit2_00004": { "width": 153, "height": 166 },
+			"effect/skill02/hit_add/hit2_00005": { "width": 153, "height": 166 },
+			"effect/skill02/hit_add/hit2_00006": { "width": 153, "height": 166 },
+			"effect/skill02/hit_add/hit2_00008": { "width": 153, "height": 166 },
+			"effect/skill02/hit_add/hit2_00010": { "width": 153, "height": 166 },
+			"effect/skill02/hit_add/hit2_00012": { "width": 153, "height": 166 },
+			"effect/skill02/hit_add/hit2_00014": { "width": 153, "height": 166 },
+			"effect/skill02/hit_add/hit2_00016": { "width": 153, "height": 166 }
+		},
+		"effect/skill02/hit_add/hit2_3": {
+			"effect/skill02/hit_add/hit2_00001": { "width": 153, "height": 166 },
+			"effect/skill02/hit_add/hit2_00002": { "width": 153, "height": 166 },
+			"effect/skill02/hit_add/hit2_00003": { "width": 153, "height": 166 },
+			"effect/skill02/hit_add/hit2_00004": { "width": 153, "height": 166 },
+			"effect/skill02/hit_add/hit2_00005": { "width": 153, "height": 166 },
+			"effect/skill02/hit_add/hit2_00006": { "width": 153, "height": 166 },
+			"effect/skill02/hit_add/hit2_00008": { "width": 153, "height": 166 },
+			"effect/skill02/hit_add/hit2_00010": { "width": 153, "height": 166 },
+			"effect/skill02/hit_add/hit2_00012": { "width": 153, "height": 166 },
+			"effect/skill02/hit_add/hit2_00014": { "width": 153, "height": 166 },
+			"effect/skill02/hit_add/hit2_00016": { "width": 153, "height": 166 }
+		},
+		"effect/skill02/hit_normal/hit1_00001": {
+			"effect/skill02/hit_normal/hit1_00001": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00002": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00003": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00004": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00005": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00006": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00007": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00008": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00009": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00010": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00011": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00012": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00013": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00014": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00015": { "width": 212, "height": 170 }
+		},
+		"effect/skill02/hit_normal/hit1_1": {
+			"effect/skill02/hit_normal/hit1_00001": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00002": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00003": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00004": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00005": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00006": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00007": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00008": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00009": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00010": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00011": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00012": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00013": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00014": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00015": { "width": 212, "height": 170 }
+		},
+		"effect/skill02/hit_normal/hit1_2": {
+			"effect/skill02/hit_normal/hit1_00001": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00002": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00003": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00004": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00005": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00006": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00007": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00008": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00009": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00010": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00011": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00012": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00013": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00014": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00015": { "width": 212, "height": 170 }
+		},
+		"effect/skill02/hit_normal/hit1_3": {
+			"effect/skill02/hit_normal/hit1_00001": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00002": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00003": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00004": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00005": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00006": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00007": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00008": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00009": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00010": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00011": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00012": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00013": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00014": { "width": 212, "height": 170 },
+			"effect/skill02/hit_normal/hit1_00015": { "width": 212, "height": 170 }
+		}
+	}
+},
+"events": {
+	"hurt": {},
+	"music": {}
+},
+"animations": {
+	"effects_skillB2": {
+		"slots": {
+			"effect/skill02/hit_add/hit2_00001": {
+				"attachment": [
+					{ "time": 0, "name": "effect/skill02/hit_add/hit2_00001" },
+					{ "time": 0.0333, "name": "effect/skill02/hit_add/hit2_00002" },
+					{ "time": 0.0666, "name": "effect/skill02/hit_add/hit2_00003" },
+					{ "time": 0.1, "name": "effect/skill02/hit_add/hit2_00004" },
+					{ "time": 0.1333, "name": "effect/skill02/hit_add/hit2_00005" },
+					{ "time": 0.1666, "name": "effect/skill02/hit_add/hit2_00006" },
+					{ "time": 0.2333, "name": "effect/skill02/hit_add/hit2_00008" },
+					{ "time": 0.3, "name": "effect/skill02/hit_add/hit2_00010" },
+					{ "time": 0.3666, "name": "effect/skill02/hit_add/hit2_00012" },
+					{ "time": 0.4333, "name": "effect/skill02/hit_add/hit2_00014" },
+					{ "time": 0.5, "name": "effect/skill02/hit_add/hit2_00016" }
+				]
+			},
+			"effect/skill02/hit_add/hit2_1": {
+				"attachment": [
+					{ "time": 0.0666, "name": "effect/skill02/hit_add/hit2_00001" },
+					{ "time": 0.1, "name": "effect/skill02/hit_add/hit2_00002" },
+					{ "time": 0.1333, "name": "effect/skill02/hit_add/hit2_00003" },
+					{ "time": 0.1666, "name": "effect/skill02/hit_add/hit2_00004" },
+					{ "time": 0.2, "name": "effect/skill02/hit_add/hit2_00005" },
+					{ "time": 0.2333, "name": "effect/skill02/hit_add/hit2_00006" },
+					{ "time": 0.2666, "name": "effect/skill02/hit_add/hit2_00006" },
+					{ "time": 0.3, "name": "effect/skill02/hit_add/hit2_00008" },
+					{ "time": 0.3666, "name": "effect/skill02/hit_add/hit2_00010" },
+					{ "time": 0.4, "name": "effect/skill02/hit_add/hit2_00010" },
+					{ "time": 0.4333, "name": "effect/skill02/hit_add/hit2_00012" },
+					{ "time": 0.5, "name": "effect/skill02/hit_add/hit2_00014" },
+					{ "time": 0.5666, "name": "effect/skill02/hit_add/hit2_00016" }
+				]
+			},
+			"effect/skill02/hit_add/hit2_2": {
+				"attachment": [
+					{ "time": 0.0666, "name": "effect/skill02/hit_add/hit2_00001" },
+					{ "time": 0.1, "name": "effect/skill02/hit_add/hit2_00002" },
+					{ "time": 0.1333, "name": "effect/skill02/hit_add/hit2_00003" },
+					{ "time": 0.1666, "name": "effect/skill02/hit_add/hit2_00004" },
+					{ "time": 0.2, "name": "effect/skill02/hit_add/hit2_00005" },
+					{ "time": 0.2333, "name": "effect/skill02/hit_add/hit2_00006" },
+					{ "time": 0.2666, "name": "effect/skill02/hit_add/hit2_00006" },
+					{ "time": 0.3, "name": "effect/skill02/hit_add/hit2_00008" },
+					{ "time": 0.3666, "name": "effect/skill02/hit_add/hit2_00010" },
+					{ "time": 0.4, "name": "effect/skill02/hit_add/hit2_00010" },
+					{ "time": 0.4333, "name": "effect/skill02/hit_add/hit2_00012" },
+					{ "time": 0.5, "name": "effect/skill02/hit_add/hit2_00014" },
+					{ "time": 0.5666, "name": "effect/skill02/hit_add/hit2_00016" }
+				]
+			},
+			"effect/skill02/hit_add/hit2_3": {
+				"attachment": [
+					{ "time": 0.1333, "name": "effect/skill02/hit_add/hit2_00001" },
+					{ "time": 0.1666, "name": "effect/skill02/hit_add/hit2_00002" },
+					{ "time": 0.2, "name": "effect/skill02/hit_add/hit2_00003" },
+					{ "time": 0.2333, "name": "effect/skill02/hit_add/hit2_00004" },
+					{ "time": 0.2666, "name": "effect/skill02/hit_add/hit2_00005" },
+					{ "time": 0.3, "name": "effect/skill02/hit_add/hit2_00006" },
+					{ "time": 0.3333, "name": "effect/skill02/hit_add/hit2_00006" },
+					{ "time": 0.3666, "name": "effect/skill02/hit_add/hit2_00008" },
+					{ "time": 0.4, "name": "effect/skill02/hit_add/hit2_00008" },
+					{ "time": 0.4333, "name": "effect/skill02/hit_add/hit2_00010" },
+					{ "time": 0.5, "name": "effect/skill02/hit_add/hit2_00012" },
+					{ "time": 0.5666, "name": "effect/skill02/hit_add/hit2_00014" },
+					{ "time": 0.6333, "name": "effect/skill02/hit_add/hit2_00016" }
+				]
+			},
+			"effect/skill02/hit_normal/hit1_00001": {
+				"attachment": [
+					{ "time": 0, "name": "effect/skill02/hit_normal/hit1_00001" },
+					{ "time": 0.0333, "name": "effect/skill02/hit_normal/hit1_00002" },
+					{ "time": 0.0666, "name": "effect/skill02/hit_normal/hit1_00003" },
+					{ "time": 0.1, "name": "effect/skill02/hit_normal/hit1_00004" },
+					{ "time": 0.1333, "name": "effect/skill02/hit_normal/hit1_00005" },
+					{ "time": 0.1666, "name": "effect/skill02/hit_normal/hit1_00006" },
+					{ "time": 0.2, "name": "effect/skill02/hit_normal/hit1_00007" },
+					{ "time": 0.2333, "name": "effect/skill02/hit_normal/hit1_00008" },
+					{ "time": 0.2666, "name": "effect/skill02/hit_normal/hit1_00009" },
+					{ "time": 0.3, "name": "effect/skill02/hit_normal/hit1_00010" },
+					{ "time": 0.3333, "name": "effect/skill02/hit_normal/hit1_00011" },
+					{ "time": 0.3666, "name": "effect/skill02/hit_normal/hit1_00012" },
+					{ "time": 0.4, "name": "effect/skill02/hit_normal/hit1_00013" },
+					{ "time": 0.4333, "name": "effect/skill02/hit_normal/hit1_00014" },
+					{ "time": 0.4666, "name": "effect/skill02/hit_normal/hit1_00015" },
+					{ "time": 0.5, "name": null }
+				]
+			},
+			"effect/skill02/hit_normal/hit1_1": {
+				"attachment": [
+					{ "time": 0.0666, "name": "effect/skill02/hit_normal/hit1_00001" },
+					{ "time": 0.1, "name": "effect/skill02/hit_normal/hit1_00002" },
+					{ "time": 0.1333, "name": "effect/skill02/hit_normal/hit1_00003" },
+					{ "time": 0.1666, "name": "effect/skill02/hit_normal/hit1_00004" },
+					{ "time": 0.2, "name": "effect/skill02/hit_normal/hit1_00005" },
+					{ "time": 0.2333, "name": "effect/skill02/hit_normal/hit1_00006" },
+					{ "time": 0.2666, "name": "effect/skill02/hit_normal/hit1_00007" },
+					{ "time": 0.3, "name": "effect/skill02/hit_normal/hit1_00008" },
+					{ "time": 0.3333, "name": "effect/skill02/hit_normal/hit1_00009" },
+					{ "time": 0.3666, "name": "effect/skill02/hit_normal/hit1_00010" },
+					{ "time": 0.4, "name": "effect/skill02/hit_normal/hit1_00011" },
+					{ "time": 0.4333, "name": "effect/skill02/hit_normal/hit1_00012" },
+					{ "time": 0.4666, "name": "effect/skill02/hit_normal/hit1_00013" },
+					{ "time": 0.5, "name": "effect/skill02/hit_normal/hit1_00014" },
+					{ "time": 0.5333, "name": "effect/skill02/hit_normal/hit1_00015" },
+					{ "time": 0.5666, "name": null }
+				]
+			},
+			"effect/skill02/hit_normal/hit1_2": {
+				"attachment": [
+					{ "time": 0.0666, "name": "effect/skill02/hit_normal/hit1_00001" },
+					{ "time": 0.1, "name": "effect/skill02/hit_normal/hit1_00002" },
+					{ "time": 0.1333, "name": "effect/skill02/hit_normal/hit1_00003" },
+					{ "time": 0.1666, "name": "effect/skill02/hit_normal/hit1_00004" },
+					{ "time": 0.2, "name": "effect/skill02/hit_normal/hit1_00005" },
+					{ "time": 0.2333, "name": "effect/skill02/hit_normal/hit1_00006" },
+					{ "time": 0.2666, "name": "effect/skill02/hit_normal/hit1_00007" },
+					{ "time": 0.3, "name": "effect/skill02/hit_normal/hit1_00008" },
+					{ "time": 0.3333, "name": "effect/skill02/hit_normal/hit1_00009" },
+					{ "time": 0.3666, "name": "effect/skill02/hit_normal/hit1_00010" },
+					{ "time": 0.4, "name": "effect/skill02/hit_normal/hit1_00011" },
+					{ "time": 0.4333, "name": "effect/skill02/hit_normal/hit1_00012" },
+					{ "time": 0.4666, "name": "effect/skill02/hit_normal/hit1_00013" },
+					{ "time": 0.5, "name": "effect/skill02/hit_normal/hit1_00014" },
+					{ "time": 0.5333, "name": "effect/skill02/hit_normal/hit1_00015" },
+					{ "time": 0.5666, "name": null }
+				]
+			},
+			"effect/skill02/hit_normal/hit1_3": {
+				"attachment": [
+					{ "time": 0.1333, "name": "effect/skill02/hit_normal/hit1_00001" },
+					{ "time": 0.1666, "name": "effect/skill02/hit_normal/hit1_00002" },
+					{ "time": 0.2, "name": "effect/skill02/hit_normal/hit1_00003" },
+					{ "time": 0.2333, "name": "effect/skill02/hit_normal/hit1_00004" },
+					{ "time": 0.2666, "name": "effect/skill02/hit_normal/hit1_00005" },
+					{ "time": 0.3, "name": "effect/skill02/hit_normal/hit1_00006" },
+					{ "time": 0.3333, "name": "effect/skill02/hit_normal/hit1_00007" },
+					{ "time": 0.3666, "name": "effect/skill02/hit_normal/hit1_00008" },
+					{ "time": 0.4, "name": "effect/skill02/hit_normal/hit1_00009" },
+					{ "time": 0.4333, "name": "effect/skill02/hit_normal/hit1_00010" },
+					{ "time": 0.4666, "name": "effect/skill02/hit_normal/hit1_00011" },
+					{ "time": 0.5, "name": "effect/skill02/hit_normal/hit1_00012" },
+					{ "time": 0.5333, "name": "effect/skill02/hit_normal/hit1_00013" },
+					{ "time": 0.5666, "name": "effect/skill02/hit_normal/hit1_00014" },
+					{ "time": 0.6, "name": "effect/skill02/hit_normal/hit1_00015" },
+					{ "time": 0.6333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5666, "x": 1, "y": 1 }
+				]
+			},
+			"baozha": {
+				"translate": [
+					{ "time": 0, "x": -128.21, "y": 450.82 }
+				],
+				"scale": [
+					{ "time": 0, "x": 3.137, "y": 3.137 }
+				]
+			},
+			"baozha2": {
+				"translate": [
+					{ "time": 0.0666, "x": -96.11, "y": 211.77 }
+				],
+				"scale": [
+					{ "time": 0.0666, "x": 1.732, "y": 1.732 }
+				]
+			},
+			"baozha3": {
+				"translate": [
+					{ "time": 0.0666, "x": 63.93, "y": 145.08 }
+				],
+				"scale": [
+					{ "time": 0.0666, "x": 2.216, "y": 2.216 }
+				]
+			},
+			"baozha4": {
+				"translate": [
+					{ "time": 0.1333, "x": 34.42, "y": 363.93 }
+				],
+				"scale": [
+					{ "time": 0.1333, "x": 4.556, "y": 4.556 }
+				]
+			},
+			"hit2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": -439.75 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"bdbox_eff": {
+				"translate": [
+					{ "time": 0, "x": 34.78, "y": -20.46 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.1, "name": "hurt" },
+			{ "time": 0.1, "name": "music" }
+		]
+	},
+	"effects_skillB3": {
+		"slots": {
+			"effect/skill02/hit_add/hit2_00001": {
+				"attachment": [
+					{ "time": 0, "name": "effect/skill02/hit_add/hit2_00001" },
+					{ "time": 0.0333, "name": "effect/skill02/hit_add/hit2_00002" },
+					{ "time": 0.0666, "name": "effect/skill02/hit_add/hit2_00003" },
+					{ "time": 0.1, "name": "effect/skill02/hit_add/hit2_00004" },
+					{ "time": 0.1333, "name": "effect/skill02/hit_add/hit2_00005" },
+					{ "time": 0.1666, "name": "effect/skill02/hit_add/hit2_00006" },
+					{ "time": 0.2333, "name": "effect/skill02/hit_add/hit2_00008" },
+					{ "time": 0.3, "name": "effect/skill02/hit_add/hit2_00010" },
+					{ "time": 0.3666, "name": "effect/skill02/hit_add/hit2_00012" },
+					{ "time": 0.4333, "name": "effect/skill02/hit_add/hit2_00014" },
+					{ "time": 0.5, "name": "effect/skill02/hit_add/hit2_00016" }
+				]
+			},
+			"effect/skill02/hit_add/hit2_1": {
+				"attachment": [
+					{ "time": 0.0666, "name": "effect/skill02/hit_add/hit2_00001" },
+					{ "time": 0.1, "name": "effect/skill02/hit_add/hit2_00002" },
+					{ "time": 0.1333, "name": "effect/skill02/hit_add/hit2_00003" },
+					{ "time": 0.1666, "name": "effect/skill02/hit_add/hit2_00004" },
+					{ "time": 0.2, "name": "effect/skill02/hit_add/hit2_00005" },
+					{ "time": 0.2333, "name": "effect/skill02/hit_add/hit2_00006" },
+					{ "time": 0.2666, "name": "effect/skill02/hit_add/hit2_00006" },
+					{ "time": 0.3, "name": "effect/skill02/hit_add/hit2_00008" },
+					{ "time": 0.3666, "name": "effect/skill02/hit_add/hit2_00010" },
+					{ "time": 0.4, "name": "effect/skill02/hit_add/hit2_00010" },
+					{ "time": 0.4333, "name": "effect/skill02/hit_add/hit2_00012" },
+					{ "time": 0.5, "name": "effect/skill02/hit_add/hit2_00014" },
+					{ "time": 0.5666, "name": "effect/skill02/hit_add/hit2_00016" }
+				]
+			},
+			"effect/skill02/hit_add/hit2_2": {
+				"attachment": [
+					{ "time": 0.0666, "name": "effect/skill02/hit_add/hit2_00001" },
+					{ "time": 0.1, "name": "effect/skill02/hit_add/hit2_00002" },
+					{ "time": 0.1333, "name": "effect/skill02/hit_add/hit2_00003" },
+					{ "time": 0.1666, "name": "effect/skill02/hit_add/hit2_00004" },
+					{ "time": 0.2, "name": "effect/skill02/hit_add/hit2_00005" },
+					{ "time": 0.2333, "name": "effect/skill02/hit_add/hit2_00006" },
+					{ "time": 0.2666, "name": "effect/skill02/hit_add/hit2_00006" },
+					{ "time": 0.3, "name": "effect/skill02/hit_add/hit2_00008" },
+					{ "time": 0.3666, "name": "effect/skill02/hit_add/hit2_00010" },
+					{ "time": 0.4, "name": "effect/skill02/hit_add/hit2_00010" },
+					{ "time": 0.4333, "name": "effect/skill02/hit_add/hit2_00012" },
+					{ "time": 0.5, "name": "effect/skill02/hit_add/hit2_00014" },
+					{ "time": 0.5666, "name": "effect/skill02/hit_add/hit2_00016" }
+				]
+			},
+			"effect/skill02/hit_add/hit2_3": {
+				"attachment": [
+					{ "time": 0.1333, "name": "effect/skill02/hit_add/hit2_00001" },
+					{ "time": 0.1666, "name": "effect/skill02/hit_add/hit2_00002" },
+					{ "time": 0.2, "name": "effect/skill02/hit_add/hit2_00003" },
+					{ "time": 0.2333, "name": "effect/skill02/hit_add/hit2_00004" },
+					{ "time": 0.2666, "name": "effect/skill02/hit_add/hit2_00005" },
+					{ "time": 0.3, "name": "effect/skill02/hit_add/hit2_00006" },
+					{ "time": 0.3333, "name": "effect/skill02/hit_add/hit2_00006" },
+					{ "time": 0.3666, "name": "effect/skill02/hit_add/hit2_00008" },
+					{ "time": 0.4, "name": "effect/skill02/hit_add/hit2_00008" },
+					{ "time": 0.4333, "name": "effect/skill02/hit_add/hit2_00010" },
+					{ "time": 0.5, "name": "effect/skill02/hit_add/hit2_00012" },
+					{ "time": 0.5666, "name": "effect/skill02/hit_add/hit2_00014" },
+					{ "time": 0.6333, "name": "effect/skill02/hit_add/hit2_00016" }
+				]
+			},
+			"effect/skill02/hit_normal/hit1_00001": {
+				"attachment": [
+					{ "time": 0, "name": "effect/skill02/hit_normal/hit1_00001" },
+					{ "time": 0.0333, "name": "effect/skill02/hit_normal/hit1_00002" },
+					{ "time": 0.0666, "name": "effect/skill02/hit_normal/hit1_00003" },
+					{ "time": 0.1, "name": "effect/skill02/hit_normal/hit1_00004" },
+					{ "time": 0.1333, "name": "effect/skill02/hit_normal/hit1_00005" },
+					{ "time": 0.1666, "name": "effect/skill02/hit_normal/hit1_00006" },
+					{ "time": 0.2, "name": "effect/skill02/hit_normal/hit1_00007" },
+					{ "time": 0.2333, "name": "effect/skill02/hit_normal/hit1_00008" },
+					{ "time": 0.2666, "name": "effect/skill02/hit_normal/hit1_00009" },
+					{ "time": 0.3, "name": "effect/skill02/hit_normal/hit1_00010" },
+					{ "time": 0.3333, "name": "effect/skill02/hit_normal/hit1_00011" },
+					{ "time": 0.3666, "name": "effect/skill02/hit_normal/hit1_00012" },
+					{ "time": 0.4, "name": "effect/skill02/hit_normal/hit1_00013" },
+					{ "time": 0.4333, "name": "effect/skill02/hit_normal/hit1_00014" },
+					{ "time": 0.4666, "name": "effect/skill02/hit_normal/hit1_00015" },
+					{ "time": 0.5, "name": null }
+				]
+			},
+			"effect/skill02/hit_normal/hit1_1": {
+				"attachment": [
+					{ "time": 0.0666, "name": "effect/skill02/hit_normal/hit1_00001" },
+					{ "time": 0.1, "name": "effect/skill02/hit_normal/hit1_00002" },
+					{ "time": 0.1333, "name": "effect/skill02/hit_normal/hit1_00003" },
+					{ "time": 0.1666, "name": "effect/skill02/hit_normal/hit1_00004" },
+					{ "time": 0.2, "name": "effect/skill02/hit_normal/hit1_00005" },
+					{ "time": 0.2333, "name": "effect/skill02/hit_normal/hit1_00006" },
+					{ "time": 0.2666, "name": "effect/skill02/hit_normal/hit1_00007" },
+					{ "time": 0.3, "name": "effect/skill02/hit_normal/hit1_00008" },
+					{ "time": 0.3333, "name": "effect/skill02/hit_normal/hit1_00009" },
+					{ "time": 0.3666, "name": "effect/skill02/hit_normal/hit1_00010" },
+					{ "time": 0.4, "name": "effect/skill02/hit_normal/hit1_00011" },
+					{ "time": 0.4333, "name": "effect/skill02/hit_normal/hit1_00012" },
+					{ "time": 0.4666, "name": "effect/skill02/hit_normal/hit1_00013" },
+					{ "time": 0.5, "name": "effect/skill02/hit_normal/hit1_00014" },
+					{ "time": 0.5333, "name": "effect/skill02/hit_normal/hit1_00015" },
+					{ "time": 0.5666, "name": null }
+				]
+			},
+			"effect/skill02/hit_normal/hit1_2": {
+				"attachment": [
+					{ "time": 0.0666, "name": "effect/skill02/hit_normal/hit1_00001" },
+					{ "time": 0.1, "name": "effect/skill02/hit_normal/hit1_00002" },
+					{ "time": 0.1333, "name": "effect/skill02/hit_normal/hit1_00003" },
+					{ "time": 0.1666, "name": "effect/skill02/hit_normal/hit1_00004" },
+					{ "time": 0.2, "name": "effect/skill02/hit_normal/hit1_00005" },
+					{ "time": 0.2333, "name": "effect/skill02/hit_normal/hit1_00006" },
+					{ "time": 0.2666, "name": "effect/skill02/hit_normal/hit1_00007" },
+					{ "time": 0.3, "name": "effect/skill02/hit_normal/hit1_00008" },
+					{ "time": 0.3333, "name": "effect/skill02/hit_normal/hit1_00009" },
+					{ "time": 0.3666, "name": "effect/skill02/hit_normal/hit1_00010" },
+					{ "time": 0.4, "name": "effect/skill02/hit_normal/hit1_00011" },
+					{ "time": 0.4333, "name": "effect/skill02/hit_normal/hit1_00012" },
+					{ "time": 0.4666, "name": "effect/skill02/hit_normal/hit1_00013" },
+					{ "time": 0.5, "name": "effect/skill02/hit_normal/hit1_00014" },
+					{ "time": 0.5333, "name": "effect/skill02/hit_normal/hit1_00015" },
+					{ "time": 0.5666, "name": null }
+				]
+			},
+			"effect/skill02/hit_normal/hit1_3": {
+				"attachment": [
+					{ "time": 0.1333, "name": "effect/skill02/hit_normal/hit1_00001" },
+					{ "time": 0.1666, "name": "effect/skill02/hit_normal/hit1_00002" },
+					{ "time": 0.2, "name": "effect/skill02/hit_normal/hit1_00003" },
+					{ "time": 0.2333, "name": "effect/skill02/hit_normal/hit1_00004" },
+					{ "time": 0.2666, "name": "effect/skill02/hit_normal/hit1_00005" },
+					{ "time": 0.3, "name": "effect/skill02/hit_normal/hit1_00006" },
+					{ "time": 0.3333, "name": "effect/skill02/hit_normal/hit1_00007" },
+					{ "time": 0.3666, "name": "effect/skill02/hit_normal/hit1_00008" },
+					{ "time": 0.4, "name": "effect/skill02/hit_normal/hit1_00009" },
+					{ "time": 0.4333, "name": "effect/skill02/hit_normal/hit1_00010" },
+					{ "time": 0.4666, "name": "effect/skill02/hit_normal/hit1_00011" },
+					{ "time": 0.5, "name": "effect/skill02/hit_normal/hit1_00012" },
+					{ "time": 0.5333, "name": "effect/skill02/hit_normal/hit1_00013" },
+					{ "time": 0.5666, "name": "effect/skill02/hit_normal/hit1_00014" },
+					{ "time": 0.6, "name": "effect/skill02/hit_normal/hit1_00015" },
+					{ "time": 0.6333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 183.75 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.4, "y": 1.4 }
+				]
+			},
+			"baozha": {
+				"translate": [
+					{ "time": 0, "x": -128.21, "y": 450.82 }
+				],
+				"scale": [
+					{ "time": 0, "x": 3.137, "y": 3.137 }
+				]
+			},
+			"baozha2": {
+				"translate": [
+					{ "time": 0.0666, "x": -96.11, "y": 211.77 }
+				],
+				"scale": [
+					{ "time": 0.0666, "x": 1.732, "y": 1.732 }
+				]
+			},
+			"baozha3": {
+				"translate": [
+					{ "time": 0.0666, "x": 63.93, "y": 145.08 }
+				],
+				"scale": [
+					{ "time": 0.0666, "x": 2.216, "y": 2.216 }
+				]
+			},
+			"baozha4": {
+				"translate": [
+					{ "time": 0.1333, "x": 34.42, "y": 363.93 }
+				],
+				"scale": [
+					{ "time": 0.1333, "x": 4.556, "y": 4.556 }
+				]
+			},
+			"hit2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": -439.75 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"bdbox_eff": {
+				"translate": [
+					{ "time": 0, "x": 34.78, "y": -20.46 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.1, "name": "hurt" },
+			{ "time": 0.1, "name": "music" }
+		]
+	}
+}
+}

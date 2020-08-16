@@ -1,0 +1,62 @@
+
+effects_10101_skillB1.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skillb/guangdan/guangdan_00002
+  rotate: false
+  xy: 156, 112
+  size: 78, 64
+  orig: 78, 83
+  offset: 0, 13
+  index: -1
+effects/skillb/guangdan/guangdan_00004
+  rotate: false
+  xy: 2, 168
+  size: 78, 80
+  orig: 78, 83
+  offset: 0, 0
+  index: -1
+effects/skillb/guangdan/guangdan_00006
+  rotate: false
+  xy: 76, 92
+  size: 73, 74
+  orig: 78, 83
+  offset: 5, 6
+  index: -1
+effects/skillb/guangdan/guangdan_00008
+  rotate: false
+  xy: 82, 169
+  size: 72, 79
+  orig: 78, 83
+  offset: 6, 0
+  index: -1
+effects/skillb/guangdan/guangdan_00010
+  rotate: false
+  xy: 2, 83
+  size: 72, 83
+  orig: 78, 83
+  offset: 6, 0
+  index: -1
+effects/skillb/guangdan/guangdan_00012
+  rotate: false
+  xy: 2, 2
+  size: 69, 79
+  orig: 78, 83
+  offset: 9, 0
+  index: -1
+effects/skillb/guangdan/guangdan_00014
+  rotate: false
+  xy: 151, 47
+  size: 73, 63
+  orig: 78, 83
+  offset: 5, 13
+  index: -1
+effects/skillb/guangdan/guangdan_00016
+  rotate: false
+  xy: 156, 178
+  size: 78, 70
+  orig: 78, 83
+  offset: 0, 13
+  index: -1

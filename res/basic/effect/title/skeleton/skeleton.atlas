@@ -1,0 +1,167 @@
+
+skeleton.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 2, 431
+  size: 133, 50
+  orig: 133, 50
+  offset: 0, 0
+  index: -1
+2
+  rotate: true
+  xy: 2, 107
+  size: 124, 38
+  orig: 124, 38
+  offset: 0, 0
+  index: -1
+guangxian
+  rotate: false
+  xy: 2, 483
+  size: 181, 26
+  orig: 181, 26
+  offset: 0, 0
+  index: -1
+lizi/lizi_00000
+  rotate: false
+  xy: 420, 482
+  size: 89, 27
+  orig: 112, 50
+  offset: 21, 13
+  index: -1
+lizi/lizi_00002
+  rotate: true
+  xy: 80, 153
+  size: 99, 34
+  orig: 112, 50
+  offset: 9, 7
+  index: -1
+lizi/lizi_00004
+  rotate: false
+  xy: 116, 207
+  size: 93, 36
+  orig: 112, 50
+  offset: 8, 7
+  index: -1
+lizi/lizi_00006
+  rotate: false
+  xy: 139, 352
+  size: 100, 44
+  orig: 112, 50
+  offset: 0, 1
+  index: -1
+lizi/lizi_00008
+  rotate: false
+  xy: 139, 307
+  size: 101, 43
+  orig: 112, 50
+  offset: 0, 3
+  index: -1
+lizi/lizi_00010
+  rotate: true
+  xy: 2, 3
+  size: 102, 44
+  orig: 112, 50
+  offset: 0, 4
+  index: -1
+lizi/lizi_00012
+  rotate: false
+  xy: 137, 433
+  size: 109, 45
+  orig: 112, 50
+  offset: 0, 4
+  index: -1
+lizi/lizi_00014
+  rotate: true
+  xy: 94, 257
+  size: 111, 43
+  orig: 112, 50
+  offset: 0, 3
+  index: -1
+lizi/lizi_00016
+  rotate: false
+  xy: 308, 466
+  size: 110, 43
+  orig: 112, 50
+  offset: 0, 4
+  index: -1
+lizi/lizi_00018
+  rotate: true
+  xy: 42, 121
+  size: 110, 36
+  orig: 112, 50
+  offset: 0, 5
+  index: -1
+lizi/lizi_00020
+  rotate: true
+  xy: 48, 9
+  size: 110, 35
+  orig: 112, 50
+  offset: 0, 7
+  index: -1
+lizi/lizi_00022
+  rotate: false
+  xy: 137, 398
+  size: 110, 33
+  orig: 112, 50
+  offset: 0, 9
+  index: -1
+lizi/lizi_00024
+  rotate: false
+  xy: 139, 272
+  size: 102, 33
+  orig: 112, 50
+  offset: 8, 10
+  index: -1
+lizi/lizi_00026
+  rotate: false
+  xy: 139, 245
+  size: 101, 25
+  orig: 112, 50
+  offset: 9, 12
+  index: -1
+lizi/lizi_00028
+  rotate: false
+  xy: 420, 455
+  size: 89, 25
+  orig: 112, 50
+  offset: 21, 13
+  index: -1
+saoguang
+  rotate: false
+  xy: 248, 442
+  size: 28, 36
+  orig: 28, 36
+  offset: 0, 0
+  index: -1
+wenzi
+  rotate: true
+  xy: 43, 254
+  size: 114, 49
+  orig: 114, 49
+  offset: 0, 0
+  index: -1
+wenziguang_00000
+  rotate: false
+  xy: 2, 370
+  size: 121, 59
+  orig: 200, 100
+  offset: 40, 21
+  index: -1
+yingwen
+  rotate: false
+  xy: 185, 480
+  size: 121, 29
+  orig: 121, 29
+  offset: 0, 0
+  index: -1
+yingwen2
+  rotate: true
+  xy: 2, 233
+  size: 135, 39
+  orig: 135, 39
+  offset: 0, 0
+  index: -1

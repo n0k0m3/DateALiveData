@@ -1,0 +1,77 @@
+{
+"skeleton": {
+	"hash": "vFid8JKkDJf+nbjSlNO9mldQeYo",
+	"spine": "2.1.27",
+	"width": 0,
+	"height": 0,
+	"images": "C:/Users/Administrator/Desktop/尺寸需要修改的特效/map_huohua_08"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "bone2", "parent": "bone" },
+	{ "name": "bone3", "parent": "bone" }
+],
+"slots": [
+	{ "name": "sucai/huohua/huohua", "bone": "bone2" },
+	{ "name": "sucai/huohua/huohua2", "bone": "bone3" }
+],
+"skins": {
+	"default": {
+		"sucai/huohua/huohua": {
+			"sucai/huohua/huohua1": { "width": 91, "height": 76 },
+			"sucai/huohua/huohua2": { "width": 110, "height": 103 },
+			"sucai/huohua/huohua3": { "width": 120, "height": 121 },
+			"sucai/huohua/huohua4": { "width": 111, "height": 131 }
+		},
+		"sucai/huohua/huohua2": {
+			"sucai/huohua/huohua1": { "width": 91, "height": 76 },
+			"sucai/huohua/huohua2": { "width": 110, "height": 103 },
+			"sucai/huohua/huohua3": { "width": 120, "height": 121 },
+			"sucai/huohua/huohua4": { "width": 111, "height": 131 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"sucai/huohua/huohua": {
+				"attachment": [
+					{ "time": 1.5666, "name": "sucai/huohua/huohua1" },
+					{ "time": 1.6666, "name": "sucai/huohua/huohua2" },
+					{ "time": 1.7666, "name": "sucai/huohua/huohua3" },
+					{ "time": 1.8666, "name": "sucai/huohua/huohua4" },
+					{ "time": 1.9666, "name": null }
+				]
+			},
+			"sucai/huohua/huohua2": {
+				"attachment": [
+					{ "time": 0, "name": "sucai/huohua/huohua1" },
+					{ "time": 0.1666, "name": "sucai/huohua/huohua2" },
+					{ "time": 0.3333, "name": "sucai/huohua/huohua3" },
+					{ "time": 0.5, "name": "sucai/huohua/huohua4" },
+					{ "time": 0.6666, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"bone2": {
+				"translate": [
+					{ "time": 1.5666, "x": 162.38, "y": 106.41 }
+				],
+				"scale": [
+					{ "time": 1.5666, "x": 0.657, "y": 0.657 }
+				]
+			},
+			"bone3": {
+				"translate": [
+					{ "time": 0, "x": 1222.75, "y": 42.18 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.837, "y": 0.837 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,145 @@
+
+effects_24401_skillA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/skillA/glow_00015
+  rotate: false
+  xy: 2, 13
+  size: 308, 74
+  orig: 320, 80
+  offset: 4, 6
+  index: -1
+images/effect/skillA/jineng/jineng_00015
+  rotate: false
+  xy: 2, 725
+  size: 540, 296
+  orig: 560, 320
+  offset: 8, 1
+  index: -1
+images/effect/skillA/jineng/jineng_00016
+  rotate: false
+  xy: 2, 441
+  size: 485, 282
+  orig: 560, 320
+  offset: 36, 1
+  index: -1
+images/effect/skillA/jineng/jineng_00017
+  rotate: false
+  xy: 544, 591
+  size: 453, 215
+  orig: 560, 320
+  offset: 74, 54
+  index: -1
+images/effect/skillA/jineng/jineng_00018
+  rotate: false
+  xy: 544, 808
+  size: 477, 213
+  orig: 560, 320
+  offset: 71, 45
+  index: -1
+images/effect/skillA/jineng/jineng_00019
+  rotate: true
+  xy: 216, 95
+  size: 344, 186
+  orig: 560, 320
+  offset: 68, 48
+  index: -1
+images/effect/skillA/jineng/jineng_00020
+  rotate: true
+  xy: 2, 89
+  size: 350, 212
+  orig: 560, 320
+  offset: 68, 46
+  index: -1
+images/effect/skillA/jineng/jineng_00021
+  rotate: true
+  xy: 404, 98
+  size: 341, 201
+  orig: 560, 320
+  offset: 72, 69
+  index: -1
+images/effect/skillA/liangbian/liangbian_00011
+  rotate: true
+  xy: 489, 448
+  size: 141, 161
+  orig: 240, 240
+  offset: 4, 49
+  index: -1
+images/effect/skillA/liangbian/liangbian_00013
+  rotate: true
+  xy: 852, 440
+  size: 149, 169
+  orig: 240, 240
+  offset: 17, 57
+  index: -1
+images/effect/skillA/liangbian/liangbian_00014
+  rotate: true
+  xy: 851, 275
+  size: 163, 165
+  orig: 240, 240
+  offset: 22, 62
+  index: -1
+images/effect/skillA/liangbian/liangbian_00015
+  rotate: false
+  xy: 607, 62
+  size: 197, 129
+  orig: 240, 240
+  offset: 31, 49
+  index: -1
+images/effect/skillA/liangbian/liangbian_00016
+  rotate: false
+  xy: 652, 461
+  size: 198, 128
+  orig: 240, 240
+  offset: 30, 45
+  index: -1
+images/effect/skillA/liangbian/liangbian_00017
+  rotate: false
+  xy: 607, 193
+  size: 197, 130
+  orig: 240, 240
+  offset: 31, 48
+  index: -1
+images/effect/skillA/liangbian/liangbian_00018
+  rotate: false
+  xy: 806, 6
+  size: 193, 135
+  orig: 240, 240
+  offset: 35, 45
+  index: -1
+images/effect/skillA/liangbian/liangbian_00019
+  rotate: false
+  xy: 652, 325
+  size: 197, 134
+  orig: 240, 240
+  offset: 31, 46
+  index: -1
+images/effect/skillA/liangbian/liangbian_00020
+  rotate: false
+  xy: 806, 143
+  size: 197, 130
+  orig: 240, 240
+  offset: 31, 47
+  index: -1
+
+effects_24401_skillA2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/skillA/liangbian/liangbian_00010
+  rotate: false
+  xy: 153, 150
+  size: 150, 153
+  orig: 240, 240
+  offset: 4, 49
+  index: -1
+images/effect/skillA/liangbian/liangbian_00012
+  rotate: false
+  xy: 2, 140
+  size: 149, 163
+  orig: 240, 240
+  offset: 4, 50
+  index: -1

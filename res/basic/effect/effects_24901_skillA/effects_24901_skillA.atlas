@@ -1,0 +1,383 @@
+
+effects_24901_skillA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skillA/dilie
+  rotate: false
+  xy: 2, 663
+  size: 300, 156
+  orig: 300, 200
+  offset: 0, 12
+  index: -1
+skillA/glow7
+  rotate: false
+  xy: 820, 208
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+skillA/glow8
+  rotate: false
+  xy: 810, 6
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+skillA/glow_4
+  rotate: false
+  xy: 2, 821
+  size: 300, 200
+  orig: 300, 200
+  offset: 0, 0
+  index: -1
+skillA/qiu/qiu_0000
+  rotate: false
+  xy: 212, 5
+  size: 242, 242
+  orig: 256, 256
+  offset: 8, 6
+  index: -1
+skillA/qiu/qiu_0001
+  rotate: false
+  xy: 566, 5
+  size: 242, 242
+  orig: 256, 256
+  offset: 8, 6
+  index: -1
+skillA/qiuxiaoshi/qiuxiaoshi_0003
+  rotate: true
+  xy: 2, 2
+  size: 245, 208
+  orig: 256, 256
+  offset: 6, 27
+  index: -1
+skillA/qiuxiaoshi/qiuxiaoshi_0007
+  rotate: false
+  xy: 566, 249
+  size: 252, 234
+  orig: 256, 256
+  offset: 2, 20
+  index: -1
+skillA/qiuxiaoshi/qiuxiaoshi_0010
+  rotate: true
+  xy: 908, 772
+  size: 117, 112
+  orig: 256, 256
+  offset: 75, 90
+  index: -1
+skillA/shandian/shandian_0005
+  rotate: true
+  xy: 603, 485
+  size: 177, 269
+  orig: 192, 300
+  offset: 0, 31
+  index: -1
+skillA/shandian/shandian_0007
+  rotate: true
+  xy: 2, 321
+  size: 161, 268
+  orig: 192, 300
+  offset: 2, 22
+  index: -1
+skillA/shandian/shandian_0009
+  rotate: true
+  xy: 2, 484
+  size: 177, 291
+  orig: 192, 300
+  offset: 0, 9
+  index: -1
+skillA/shandian/shandian_0010
+  rotate: true
+  xy: 304, 490
+  size: 175, 297
+  orig: 192, 300
+  offset: 7, 3
+  index: -1
+skillA/shandian/shandian_0012
+  rotate: true
+  xy: 606, 843
+  size: 178, 300
+  orig: 192, 300
+  offset: 0, 0
+  index: -1
+skillA/shandian/shandian_0013
+  rotate: true
+  xy: 304, 841
+  size: 180, 300
+  orig: 192, 300
+  offset: 0, 0
+  index: -1
+skillA/shandian/shandian_0014
+  rotate: true
+  xy: 606, 664
+  size: 177, 300
+  orig: 192, 300
+  offset: 0, 0
+  index: -1
+skillA/shandian/shandian_0015
+  rotate: true
+  xy: 304, 667
+  size: 172, 300
+  orig: 192, 300
+  offset: 1, 0
+  index: -1
+skillA/shandian/shandian_0017
+  rotate: true
+  xy: 295, 326
+  size: 162, 269
+  orig: 192, 300
+  offset: 6, 0
+  index: -1
+skillA/shandian_heidi/sdheidi_0002
+  rotate: false
+  xy: 504, 127
+  size: 60, 197
+  orig: 192, 300
+  offset: 75, 88
+  index: -1
+skillA/shandian_heidi/sdheidi_0005
+  rotate: true
+  xy: 2, 252
+  size: 67, 213
+  orig: 192, 300
+  offset: 73, 71
+  index: -1
+skillA/shandian_heidi/sdheidi_0009
+  rotate: true
+  xy: 272, 253
+  size: 71, 230
+  orig: 192, 300
+  offset: 70, 48
+  index: -1
+skillA/shoujishandian/sjsd_0000
+  rotate: true
+  xy: 908, 891
+  size: 130, 113
+  orig: 200, 200
+  offset: 33, 27
+  index: -1
+skillA/shoujishandian/sjsd_0001
+  rotate: true
+  xy: 874, 410
+  size: 175, 143
+  orig: 200, 200
+  offset: 10, 16
+  index: -1
+skillA/yan/yan_0002
+  rotate: false
+  xy: 456, 43
+  size: 96, 82
+  orig: 100, 100
+  offset: 0, 8
+  index: -1
+skillA/yan/yan_0004
+  rotate: false
+  xy: 908, 679
+  size: 96, 91
+  orig: 100, 100
+  offset: 0, 2
+  index: -1
+skillA/yan/yan_0006
+  rotate: false
+  xy: 908, 587
+  size: 96, 90
+  orig: 100, 100
+  offset: 0, 3
+  index: -1
+
+effects_24901_skillA2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skillA/glow_1
+  rotate: false
+  xy: 732, 826
+  size: 196, 196
+  orig: 200, 200
+  offset: 2, 2
+  index: -1
+skillA/glow_2
+  rotate: false
+  xy: 646, 371
+  size: 136, 139
+  orig: 200, 200
+  offset: 55, 52
+  index: -1
+skillA/heihuan
+  rotate: false
+  xy: 489, 550
+  size: 180, 180
+  orig: 200, 200
+  offset: 10, 10
+  index: -1
+skillA/qiu/qiu_0002
+  rotate: false
+  xy: 2, 780
+  size: 242, 242
+  orig: 256, 256
+  offset: 8, 6
+  index: -1
+skillA/qiu/qiu_0003
+  rotate: false
+  xy: 2, 536
+  size: 242, 242
+  orig: 256, 256
+  offset: 8, 6
+  index: -1
+skillA/qiu/qiu_0004
+  rotate: false
+  xy: 246, 780
+  size: 242, 242
+  orig: 256, 256
+  offset: 8, 6
+  index: -1
+skillA/qiu/qiu_0005
+  rotate: false
+  xy: 2, 292
+  size: 242, 242
+  orig: 256, 256
+  offset: 8, 6
+  index: -1
+skillA/qiuxiaoshi/qiuxiaoshi_0000
+  rotate: false
+  xy: 246, 538
+  size: 241, 240
+  orig: 256, 256
+  offset: 9, 8
+  index: -1
+skillA/qiuxiaoshi/qiuxiaoshi_0001
+  rotate: false
+  xy: 490, 800
+  size: 240, 222
+  orig: 256, 256
+  offset: 0, 23
+  index: -1
+skillA/qiuxiaoshi/qiuxiaoshi_0005
+  rotate: false
+  xy: 2, 71
+  size: 234, 219
+  orig: 256, 256
+  offset: 11, 26
+  index: -1
+skillA/shandian/shandian_0002
+  rotate: false
+  xy: 246, 295
+  size: 177, 241
+  orig: 192, 300
+  offset: 1, 59
+  index: -1
+skillA/shandian_2/shandian2_0004
+  rotate: true
+  xy: 872, 492
+  size: 179, 95
+  orig: 200, 120
+  offset: 21, 11
+  index: -1
+skillA/shandian_2/shandian2_0006
+  rotate: true
+  xy: 930, 859
+  size: 163, 92
+  orig: 200, 120
+  offset: 22, 12
+  index: -1
+skillA/shandian_2/shandian2_0011
+  rotate: true
+  xy: 930, 701
+  size: 156, 92
+  orig: 200, 120
+  offset: 17, 9
+  index: -1
+skillA/shandian_2/shandian2_0013
+  rotate: true
+  xy: 548, 180
+  size: 162, 94
+  orig: 200, 120
+  offset: 4, 12
+  index: -1
+skillA/shandian_heidi/sdheidi_0000
+  rotate: false
+  xy: 850, 305
+  size: 58, 185
+  orig: 192, 300
+  offset: 74, 99
+  index: -1
+skillA/shandian_heidi/sdheidi_0003
+  rotate: true
+  xy: 490, 732
+  size: 66, 200
+  orig: 192, 300
+  offset: 74, 83
+  index: -1
+skillA/shandian_heidi/sdheidi_0006
+  rotate: true
+  xy: 2, 12
+  size: 57, 219
+  orig: 192, 300
+  offset: 72, 67
+  index: -1
+skillA/shandian_heidi/sdheidi_0011
+  rotate: false
+  xy: 425, 294
+  size: 61, 242
+  orig: 192, 300
+  offset: 66, 36
+  index: -1
+skillA/shandian_heidi/sdheidi_0012
+  rotate: false
+  xy: 784, 322
+  size: 64, 188
+  orig: 192, 300
+  offset: 66, 31
+  index: -1
+skillA/shoujishandian/sjsd_0002
+  rotate: true
+  xy: 488, 344
+  size: 192, 156
+  orig: 200, 200
+  offset: 0, 15
+  index: -1
+skillA/shoujishandian/sjsd_0003
+  rotate: false
+  xy: 671, 512
+  size: 199, 159
+  orig: 200, 200
+  offset: 1, 15
+  index: -1
+skillA/shoujishandian/sjsd_0004
+  rotate: true
+  xy: 394, 99
+  size: 193, 152
+  orig: 200, 200
+  offset: 7, 18
+  index: -1
+skillA/shoujishandian/sjsd_0005
+  rotate: false
+  xy: 732, 673
+  size: 195, 151
+  orig: 200, 200
+  offset: 5, 23
+  index: -1
+skillA/shoujishandian/sjsd_0006
+  rotate: true
+  xy: 238, 95
+  size: 195, 154
+  orig: 200, 200
+  offset: 5, 23
+  index: -1
+skillA/yan/yan_0000
+  rotate: true
+  xy: 910, 404
+  size: 86, 81
+  orig: 100, 100
+  offset: 9, 7
+  index: -1
+skillA/yan/yan_0008
+  rotate: false
+  xy: 548, 89
+  size: 90, 89
+  orig: 100, 100
+  offset: 7, 5
+  index: -1

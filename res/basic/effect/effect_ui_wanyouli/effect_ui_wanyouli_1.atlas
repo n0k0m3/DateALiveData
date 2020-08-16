@@ -1,0 +1,104 @@
+
+effect_ui_wanyouli_1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: false
+  xy: 962, 987
+  size: 33, 35
+  orig: 38, 38
+  offset: 2, 2
+  index: -1
+02
+  rotate: true
+  xy: 893, 962
+  size: 20, 33
+  orig: 38, 38
+  offset: 9, 3
+  index: -1
+03
+  rotate: false
+  xy: 248, 434
+  size: 27, 28
+  orig: 38, 38
+  offset: 6, 5
+  index: -1
+04
+  rotate: false
+  xy: 997, 994
+  size: 25, 28
+  orig: 38, 38
+  offset: 6, 5
+  index: -1
+dikuang
+  rotate: false
+  xy: 2, 406
+  size: 244, 56
+  orig: 244, 56
+  offset: 0, 0
+  index: -1
+final_00047_00000
+  rotate: false
+  xy: 2, 522
+  size: 656, 500
+  orig: 664, 500
+  offset: 8, 0
+  index: -1
+gong_00000
+  rotate: false
+  xy: 2, 349
+  size: 28, 26
+  orig: 28, 26
+  offset: 0, 0
+  index: -1
+huangse
+  rotate: true
+  xy: 626, 480
+  size: 40, 31
+  orig: 42, 33
+  offset: 1, 1
+  index: -1
+kai_00000
+  rotate: false
+  xy: 33, 378
+  size: 27, 26
+  orig: 27, 26
+  offset: 0, 0
+  index: -1
+kuang
+  rotate: false
+  xy: 660, 961
+  size: 231, 21
+  orig: 231, 21
+  offset: 0, 0
+  index: -1
+neng_00000
+  rotate: false
+  xy: 660, 932
+  size: 28, 27
+  orig: 28, 27
+  offset: 0, 0
+  index: -1
+shenglidi
+  rotate: false
+  xy: 2, 464
+  size: 622, 56
+  orig: 622, 56
+  offset: 0, 0
+  index: -1
+tiao_00000
+  rotate: false
+  xy: 660, 984
+  size: 300, 38
+  orig: 300, 100
+  offset: 0, 31
+  index: -1
+xin_00000
+  rotate: false
+  xy: 2, 377
+  size: 29, 27
+  orig: 29, 27
+  offset: 0, 0
+  index: -1

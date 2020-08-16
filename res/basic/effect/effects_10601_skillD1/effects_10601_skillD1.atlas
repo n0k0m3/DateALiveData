@@ -1,0 +1,83 @@
+
+effects_10601_skillD1.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skild/bg_0001
+  rotate: false
+  xy: 2, 359
+  size: 248, 132
+  orig: 248, 132
+  offset: 0, 0
+  index: -1
+effects/skild/kejibiankuang/kejibiankuang_00041
+  rotate: true
+  xy: 2, 46
+  size: 311, 42
+  orig: 311, 59
+  offset: 0, 15
+  index: -1
+effects/skild/kejibiankuang/kejibiankuang_00043
+  rotate: true
+  xy: 46, 46
+  size: 311, 42
+  orig: 311, 59
+  offset: 0, 15
+  index: -1
+effects/skild/kejibiankuang/kejibiankuang_00045
+  rotate: true
+  xy: 90, 46
+  size: 311, 42
+  orig: 311, 59
+  offset: 0, 15
+  index: -1
+effects/skild/kejibiankuang/kejibiankuang_00047
+  rotate: true
+  xy: 134, 46
+  size: 311, 42
+  orig: 311, 59
+  offset: 0, 15
+  index: -1
+effects/skild/kejibiankuang/kejibiankuang_00049
+  rotate: true
+  xy: 178, 46
+  size: 311, 42
+  orig: 311, 59
+  offset: 0, 15
+  index: -1
+effects/skild/kejibiankuang/kejibiankuang_00051
+  rotate: true
+  xy: 222, 46
+  size: 311, 42
+  orig: 311, 59
+  offset: 0, 15
+  index: -1
+effects/skild/kejibiankuang/kejibiankuang_00053
+  rotate: false
+  xy: 2, 2
+  size: 311, 42
+  orig: 311, 59
+  offset: 0, 15
+  index: -1
+effects/skild/kejibiankuang/kejibiankuang_00055
+  rotate: true
+  xy: 266, 180
+  size: 311, 42
+  orig: 311, 59
+  offset: 0, 15
+  index: -1
+effects/skild/kejibiankuang/kejibiankuang_00057
+  rotate: true
+  xy: 310, 180
+  size: 311, 42
+  orig: 311, 59
+  offset: 0, 15
+  index: -1
+effects/skild/kejibiankuang/kejibiankuang_00059
+  rotate: true
+  xy: 354, 180
+  size: 311, 42
+  orig: 311, 59
+  offset: 0, 15
+  index: -1

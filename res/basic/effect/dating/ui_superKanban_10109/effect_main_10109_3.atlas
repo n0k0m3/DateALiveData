@@ -1,0 +1,97 @@
+
+effect_main_10109_3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dadenglong3
+  rotate: true
+  xy: 623, 114
+  size: 225, 289
+  orig: 225, 289
+  offset: 0, 0
+  index: -1
+denglong1
+  rotate: false
+  xy: 818, 784
+  size: 180, 227
+  orig: 180, 227
+  offset: 0, 0
+  index: -1
+guang
+  rotate: true
+  xy: 623, 341
+  size: 323, 256
+  orig: 323, 256
+  offset: 0, 0
+  index: -1
+guangdian2
+  rotate: false
+  xy: 575, 633
+  size: 30, 31
+  orig: 30, 31
+  offset: 0, 0
+  index: -1
+huaban11
+  rotate: false
+  xy: 417, 87
+  size: 34, 23
+  orig: 34, 23
+  offset: 0, 0
+  index: -1
+huaban2
+  rotate: false
+  xy: 818, 755
+  size: 32, 27
+  orig: 32, 27
+  offset: 0, 0
+  index: -1
+huaban4
+  rotate: false
+  xy: 2, 2
+  size: 42, 24
+  orig: 42, 24
+  offset: 0, 0
+  index: -1
+huaban7
+  rotate: false
+  xy: 818, 725
+  size: 26, 28
+  orig: 26, 28
+  offset: 0, 0
+  index: -1
+shu1
+  rotate: false
+  xy: 575, 666
+  size: 241, 345
+  orig: 241, 347
+  offset: 0, 2
+  index: -1
+shu3_1
+  rotate: true
+  xy: 346, 112
+  size: 503, 275
+  orig: 503, 275
+  offset: 0, 0
+  index: -1
+shu3_2
+  rotate: true
+  xy: 2, 28
+  size: 587, 342
+  orig: 587, 342
+  offset: 0, 0
+  index: -1
+shu3_3
+  rotate: false
+  xy: 2, 617
+  size: 571, 394
+  orig: 571, 394
+  offset: 0, 0
+  index: -1
+yue
+  rotate: false
+  xy: 346, 41
+  size: 69, 69
+  orig: 69, 69
+  offset: 0, 0
+  index: -1

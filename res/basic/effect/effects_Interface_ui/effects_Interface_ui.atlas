@@ -1,0 +1,118 @@
+
+effects_Interface_ui.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+beijing_00000
+  rotate: true
+  xy: 608, 414
+  size: 298, 183
+  orig: 300, 200
+  offset: 1, 13
+  index: -1
+dipan1_00000
+  rotate: true
+  xy: 608, 162
+  size: 250, 161
+  orig: 250, 175
+  offset: 0, 10
+  index: -1
+gezi1_00000
+  rotate: false
+  xy: 431, 714
+  size: 450, 307
+  orig: 470, 340
+  offset: 20, 33
+  index: -1
+gezi2_00000
+  rotate: true
+  xy: 2, 173
+  size: 453, 313
+  orig: 470, 340
+  offset: 1, 11
+  index: -1
+gezi_00000
+  rotate: true
+  xy: 317, 173
+  size: 453, 289
+  orig: 470, 340
+  offset: 8, 51
+  index: -1
+kuang_00000
+  rotate: false
+  xy: 2, 628
+  size: 427, 393
+  orig: 427, 393
+  offset: 0, 0
+  index: -1
+liumangxing
+  rotate: true
+  xy: 405, 7
+  size: 164, 178
+  orig: 164, 178
+  offset: 0, 0
+  index: -1
+liumangxingbian
+  rotate: true
+  xy: 585, 2
+  size: 158, 178
+  orig: 164, 178
+  offset: 3, 0
+  index: -1
+shandian_00000
+  rotate: true
+  xy: 883, 822
+  size: 199, 90
+  orig: 200, 100
+  offset: 0, 8
+  index: -1
+shutiao1_00000
+  rotate: false
+  xy: 2, 9
+  size: 25, 13
+  orig: 50, 50
+  offset: 14, 20
+  index: -1
+shutiao_00000
+  rotate: false
+  xy: 431, 692
+  size: 80, 20
+  orig: 100, 50
+  offset: 10, 15
+  index: -1
+waikuo_00000
+  rotate: true
+  xy: 793, 554
+  size: 158, 117
+  orig: 158, 135
+  offset: 0, 9
+  index: -1
+yuan_00000
+  rotate: false
+  xy: 2, 24
+  size: 401, 147
+  orig: 401, 147
+  offset: 0, 0
+  index: -1
+yuanquan2
+  rotate: false
+  xy: 975, 995
+  size: 26, 26
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+yuanquan_00000
+  rotate: false
+  xy: 793, 530
+  size: 23, 22
+  orig: 50, 50
+  offset: 14, 14
+  index: -1
+ziti
+  rotate: true
+  xy: 771, 346
+  size: 66, 12
+  orig: 66, 12
+  offset: 0, 0
+  index: -1

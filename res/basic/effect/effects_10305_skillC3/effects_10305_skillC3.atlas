@@ -1,0 +1,76 @@
+
+effects_10305_skillC3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillc_new/pinmu/zhizhuwangadd_00001
+  rotate: false
+  xy: 2, 778
+  size: 416, 192
+  orig: 416, 192
+  offset: 0, 0
+  index: -1
+images/effects/skillc_new/pinmu/zhizhuwangadd_00002
+  rotate: false
+  xy: 2, 584
+  size: 416, 192
+  orig: 416, 192
+  offset: 0, 0
+  index: -1
+images/effects/skillc_new/pinmu/zhizhuwangadd_00003
+  rotate: false
+  xy: 420, 778
+  size: 416, 192
+  orig: 416, 192
+  offset: 0, 0
+  index: -1
+images/effects/skillc_new/pinmu/zhizhuwangadd_00004
+  rotate: false
+  xy: 2, 390
+  size: 416, 192
+  orig: 416, 192
+  offset: 0, 0
+  index: -1
+images/effects/skillc_new/pinmu/zhizhuwangadd_00005
+  rotate: false
+  xy: 420, 584
+  size: 416, 192
+  orig: 416, 192
+  offset: 0, 0
+  index: -1
+images/effects/skillc_new/pinmu/zhuzhuwangnor_00001
+  rotate: false
+  xy: 2, 196
+  size: 416, 192
+  orig: 416, 192
+  offset: 0, 0
+  index: -1
+images/effects/skillc_new/pinmu/zhuzhuwangnor_00002
+  rotate: false
+  xy: 420, 390
+  size: 416, 192
+  orig: 416, 192
+  offset: 0, 0
+  index: -1
+images/effects/skillc_new/pinmu/zhuzhuwangnor_00003
+  rotate: false
+  xy: 2, 2
+  size: 416, 192
+  orig: 416, 192
+  offset: 0, 0
+  index: -1
+images/effects/skillc_new/pinmu/zhuzhuwangnor_00004
+  rotate: false
+  xy: 420, 196
+  size: 416, 192
+  orig: 416, 192
+  offset: 0, 0
+  index: -1
+images/effects/skillc_new/pinmu/zhuzhuwangnor_00005
+  rotate: false
+  xy: 420, 2
+  size: 416, 192
+  orig: 416, 192
+  offset: 0, 0
+  index: -1

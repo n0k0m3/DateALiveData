@@ -1,0 +1,619 @@
+
+effects_10101_skillA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects3/PG_1/PG_1_1_02
+  rotate: true
+  xy: 842, 115
+  size: 209, 180
+  orig: 310, 235
+  offset: 57, 30
+  index: -1
+effects3/PG_1/PG_1_2_07
+  rotate: true
+  xy: 879, 763
+  size: 90, 135
+  orig: 310, 235
+  offset: 70, 46
+  index: -1
+effects3/PG_1/PG_1_3_01
+  rotate: false
+  xy: 879, 855
+  size: 143, 167
+  orig: 253, 256
+  offset: 61, 49
+  index: -1
+effects3/PG_1/PG_1_3_03
+  rotate: true
+  xy: 842, 2
+  size: 111, 161
+  orig: 253, 256
+  offset: 92, 67
+  index: -1
+effects3/PG_1/PG_1_5_08
+  rotate: true
+  xy: 503, 9
+  size: 158, 68
+  orig: 258, 251
+  offset: 29, 42
+  index: -1
+effects3/PG_2/PG_2_1_01
+  rotate: true
+  xy: 836, 326
+  size: 281, 185
+  orig: 325, 242
+  offset: 21, 31
+  index: -1
+effects3/PG_2/PG_2_1_02
+  rotate: false
+  xy: 2, 4
+  size: 240, 185
+  orig: 325, 242
+  offset: 33, 29
+  index: -1
+effects3/PG_2/PG_2_2_05
+  rotate: false
+  xy: 340, 577
+  size: 219, 164
+  orig: 305, 251
+  offset: 29, 37
+  index: -1
+effects3/PG_2/PG_2_5_04
+  rotate: false
+  xy: 561, 578
+  size: 230, 163
+  orig: 296, 250
+  offset: 28, 39
+  index: -1
+effects3/PG_2/PG_2_5_08
+  rotate: true
+  xy: 267, 577
+  size: 182, 71
+  orig: 296, 250
+  offset: 35, 47
+  index: -1
+effects3/PG_2/PG_2_5_09
+  rotate: true
+  xy: 503, 169
+  size: 175, 68
+  orig: 296, 250
+  offset: 31, 47
+  index: -1
+effects3/PG_3/PG_3_1_01
+  rotate: false
+  xy: 2, 761
+  size: 337, 261
+  orig: 422, 319
+  offset: 33, 36
+  index: -1
+effects3/PG_3/PG_3_1_03
+  rotate: true
+  xy: 2, 191
+  size: 299, 262
+  orig: 422, 319
+  offset: 65, 35
+  index: -1
+effects3/PG_3/PG_3_1_04
+  rotate: true
+  xy: 2, 492
+  size: 267, 263
+  orig: 422, 319
+  offset: 97, 34
+  index: -1
+effects3/PG_3/PG_3_1_05
+  rotate: false
+  xy: 610, 761
+  size: 267, 261
+  orig: 422, 319
+  offset: 97, 36
+  index: -1
+effects3/PG_3/PG_3_1_06
+  rotate: false
+  xy: 573, 36
+  size: 267, 260
+  orig: 422, 319
+  offset: 97, 37
+  index: -1
+effects3/PG_3/PG_3_4_01
+  rotate: true
+  xy: 793, 609
+  size: 150, 229
+  orig: 403, 323
+  offset: 37, 67
+  index: -1
+effects3/PG_3/PG_3_4_04
+  rotate: true
+  xy: 341, 743
+  size: 279, 267
+  orig: 403, 323
+  offset: 54, 43
+  index: -1
+effects3/PG_3/PG_3_4_05
+  rotate: true
+  xy: 574, 298
+  size: 278, 260
+  orig: 403, 323
+  offset: 58, 46
+  index: -1
+effects3/PG_3/PG_3_5_11
+  rotate: true
+  xy: 266, 42
+  size: 302, 235
+  orig: 392, 334
+  offset: 36, 38
+  index: -1
+effects3/PG_3/PG_3_5_12
+  rotate: false
+  xy: 267, 346
+  size: 305, 229
+  orig: 392, 334
+  offset: 37, 43
+  index: -1
+
+effects_10101_skillA2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects3/PG_2/PG_2_1_05
+  rotate: false
+  xy: 882, 384
+  size: 140, 151
+  orig: 325, 242
+  offset: 147, 25
+  index: -1
+effects3/PG_2/PG_2_1_06
+  rotate: true
+  xy: 287, 520
+  size: 80, 93
+  orig: 325, 242
+  offset: 201, 26
+  index: -1
+effects3/PG_2/PG_2_2_06
+  rotate: true
+  xy: 874, 813
+  size: 209, 148
+  orig: 305, 251
+  offset: 26, 55
+  index: -1
+effects3/PG_2/PG_2_3_01
+  rotate: true
+  xy: 290, 6
+  size: 214, 196
+  orig: 286, 241
+  offset: 47, 23
+  index: -1
+effects3/PG_2/PG_2_3_06
+  rotate: false
+  xy: 887, 13
+  size: 106, 132
+  orig: 286, 241
+  offset: 127, 101
+  index: -1
+effects3/PG_2/PG_2_5_05
+  rotate: true
+  xy: 887, 147
+  size: 235, 124
+  orig: 296, 250
+  offset: 16, 47
+  index: -1
+effects3/PG_3/PG_3_2_01
+  rotate: true
+  xy: 433, 317
+  size: 283, 189
+  orig: 401, 308
+  offset: 79, 23
+  index: -1
+effects3/PG_3/PG_3_2_03
+  rotate: false
+  xy: 2, 6
+  size: 286, 214
+  orig: 401, 308
+  offset: 52, 34
+  index: -1
+effects3/PG_3/PG_3_2_04
+  rotate: true
+  xy: 2, 222
+  size: 287, 228
+  orig: 401, 308
+  offset: 49, 31
+  index: -1
+effects3/PG_3/PG_3_2_05
+  rotate: true
+  xy: 232, 222
+  size: 287, 199
+  orig: 401, 308
+  offset: 49, 47
+  index: -1
+effects3/PG_3/PG_3_2_06
+  rotate: false
+  xy: 288, 602
+  size: 287, 190
+  orig: 401, 308
+  offset: 49, 56
+  index: -1
+effects3/PG_3/PG_3_2_07
+  rotate: true
+  xy: 488, 2
+  size: 270, 193
+  orig: 401, 308
+  offset: 65, 56
+  index: -1
+effects3/PG_3/PG_3_3_02
+  rotate: false
+  xy: 2, 764
+  size: 284, 258
+  orig: 410, 327
+  offset: 80, 38
+  index: -1
+effects3/PG_3/PG_3_3_04
+  rotate: true
+  xy: 624, 526
+  size: 267, 248
+  orig: 410, 327
+  offset: 88, 48
+  index: -1
+effects3/PG_3/PG_3_3_05
+  rotate: false
+  xy: 624, 274
+  size: 256, 250
+  orig: 410, 327
+  offset: 88, 48
+  index: -1
+effects3/PG_3/PG_3_4_02
+  rotate: false
+  xy: 2, 511
+  size: 283, 251
+  orig: 403, 323
+  offset: 46, 60
+  index: -1
+effects3/PG_3/PG_3_5_05
+  rotate: true
+  xy: 874, 537
+  size: 274, 136
+  orig: 392, 334
+  offset: 53, 78
+  index: -1
+effects3/PG_3/PG_3_5_09
+  rotate: true
+  xy: 683, 7
+  size: 265, 202
+  orig: 392, 334
+  offset: 35, 72
+  index: -1
+effects3/PG_3/PG_3_5_13
+  rotate: false
+  xy: 288, 794
+  size: 301, 228
+  orig: 392, 334
+  offset: 37, 44
+  index: -1
+effects3/PG_3/PG_3_5_14
+  rotate: false
+  xy: 591, 795
+  size: 281, 227
+  orig: 392, 334
+  offset: 42, 44
+  index: -1
+
+effects_10101_skillA3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects3/PG_1/PG_1_1_01
+  rotate: true
+  xy: 366, 557
+  size: 228, 182
+  orig: 310, 235
+  offset: 38, 32
+  index: -1
+effects3/PG_1/PG_1_2_02
+  rotate: false
+  xy: 395, 196
+  size: 164, 134
+  orig: 310, 235
+  offset: 84, 19
+  index: -1
+effects3/PG_1/PG_1_2_04
+  rotate: true
+  xy: 561, 198
+  size: 158, 168
+  orig: 310, 235
+  offset: 71, 18
+  index: -1
+effects3/PG_1/PG_1_2_05
+  rotate: true
+  xy: 731, 211
+  size: 129, 159
+  orig: 310, 235
+  offset: 71, 23
+  index: -1
+effects3/PG_1/PG_1_3_02
+  rotate: false
+  xy: 892, 212
+  size: 122, 170
+  orig: 253, 256
+  offset: 82, 50
+  index: -1
+effects3/PG_1/PG_1_5_01
+  rotate: true
+  xy: 592, 11
+  size: 185, 144
+  orig: 258, 251
+  offset: 38, 42
+  index: -1
+effects3/PG_1/PG_1_5_02
+  rotate: true
+  xy: 855, 8
+  size: 201, 145
+  orig: 258, 251
+  offset: 30, 41
+  index: -1
+effects3/PG_1/PG_1_5_03
+  rotate: true
+  xy: 738, 2
+  size: 207, 115
+  orig: 258, 251
+  offset: 27, 34
+  index: -1
+effects3/PG_2/PG_2_1_03
+  rotate: true
+  xy: 2, 20
+  size: 230, 192
+  orig: 325, 242
+  offset: 47, 24
+  index: -1
+effects3/PG_2/PG_2_2_03
+  rotate: true
+  xy: 560, 358
+  size: 212, 178
+  orig: 305, 251
+  offset: 36, 27
+  index: -1
+effects3/PG_2/PG_2_2_04
+  rotate: true
+  xy: 196, 20
+  size: 219, 191
+  orig: 305, 251
+  offset: 28, 24
+  index: -1
+effects3/PG_2/PG_2_3_02
+  rotate: false
+  xy: 822, 614
+  size: 189, 203
+  orig: 286, 241
+  offset: 62, 18
+  index: -1
+effects3/PG_2/PG_2_3_03
+  rotate: true
+  xy: 389, 23
+  size: 171, 201
+  orig: 286, 241
+  offset: 83, 31
+  index: -1
+effects3/PG_2/PG_2_5_01
+  rotate: true
+  xy: 550, 572
+  size: 222, 173
+  orig: 296, 250
+  offset: 41, 34
+  index: -1
+effects3/PG_2/PG_2_5_02
+  rotate: true
+  xy: 395, 332
+  size: 223, 163
+  orig: 296, 250
+  offset: 32, 45
+  index: -1
+effects3/PG_2/PG_2_5_06
+  rotate: true
+  xy: 725, 572
+  size: 222, 95
+  orig: 296, 250
+  offset: 25, 41
+  index: -1
+effects3/PG_3/PG_3_3_06
+  rotate: false
+  xy: 492, 796
+  size: 249, 226
+  orig: 410, 327
+  offset: 92, 70
+  index: -1
+effects3/PG_3/PG_3_3_07
+  rotate: true
+  xy: 2, 252
+  size: 249, 222
+  orig: 410, 327
+  offset: 92, 74
+  index: -1
+effects3/PG_3/PG_3_4_06
+  rotate: false
+  xy: 2, 782
+  size: 245, 240
+  orig: 403, 323
+  offset: 84, 50
+  index: -1
+effects3/PG_3/PG_3_4_07
+  rotate: false
+  xy: 249, 787
+  size: 241, 235
+  orig: 403, 323
+  offset: 85, 50
+  index: -1
+effects3/PG_3/PG_3_4_08
+  rotate: false
+  xy: 740, 342
+  size: 141, 228
+  orig: 403, 323
+  offset: 185, 57
+  index: -1
+effects3/PG_3/PG_3_4_09
+  rotate: false
+  xy: 883, 384
+  size: 116, 228
+  orig: 403, 323
+  offset: 209, 57
+  index: -1
+effects3/PG_3/PG_3_5_07
+  rotate: false
+  xy: 743, 819
+  size: 272, 203
+  orig: 392, 334
+  offset: 35, 69
+  index: -1
+effects3/PG_3/PG_3_5_10
+  rotate: true
+  xy: 2, 503
+  size: 277, 202
+  orig: 392, 334
+  offset: 36, 71
+  index: -1
+effects3/PG_3/PG_3_5_16
+  rotate: true
+  xy: 226, 241
+  size: 280, 167
+  orig: 392, 334
+  offset: 43, 46
+  index: -1
+effects3/PG_3/PG_3_5_17
+  rotate: true
+  xy: 206, 523
+  size: 257, 158
+  orig: 392, 334
+  offset: 61, 47
+  index: -1
+
+effects_10101_skillA4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects3/PG_1/PG_1_1_03
+  rotate: false
+  xy: 2, 281
+  size: 123, 149
+  orig: 310, 235
+  offset: 141, 26
+  index: -1
+effects3/PG_1/PG_1_1_05
+  rotate: false
+  xy: 159, 654
+  size: 83, 88
+  orig: 310, 235
+  offset: 180, 27
+  index: -1
+effects3/PG_1/PG_1_1_06
+  rotate: false
+  xy: 244, 692
+  size: 72, 67
+  orig: 310, 235
+  offset: 191, 28
+  index: -1
+effects3/PG_1/PG_1_2_01
+  rotate: true
+  xy: 2, 432
+  size: 162, 127
+  orig: 310, 235
+  offset: 86, 22
+  index: -1
+effects3/PG_1/PG_1_2_06
+  rotate: false
+  xy: 2, 128
+  size: 110, 151
+  orig: 310, 235
+  offset: 70, 33
+  index: -1
+effects3/PG_1/PG_1_3_05
+  rotate: false
+  xy: 2, 13
+  size: 108, 113
+  orig: 253, 256
+  offset: 96, 117
+  index: -1
+effects3/PG_1/PG_1_3_06
+  rotate: false
+  xy: 922, 924
+  size: 95, 93
+  orig: 253, 256
+  offset: 107, 137
+  index: -1
+effects3/PG_1/PG_1_5_05
+  rotate: false
+  xy: 542, 950
+  size: 199, 67
+  orig: 258, 251
+  offset: 24, 41
+  index: -1
+effects3/PG_1/PG_1_5_06
+  rotate: false
+  xy: 743, 954
+  size: 177, 63
+  orig: 258, 251
+  offset: 28, 41
+  index: -1
+effects3/PG_1/PG_1_5_07
+  rotate: false
+  xy: 374, 790
+  size: 164, 65
+  orig: 258, 251
+  offset: 33, 41
+  index: -1
+effects3/PG_2/PG_2_2_01
+  rotate: false
+  xy: 2, 860
+  size: 201, 157
+  orig: 305, 251
+  offset: 51, 18
+  index: -1
+effects3/PG_2/PG_2_2_07
+  rotate: false
+  xy: 2, 596
+  size: 155, 146
+  orig: 305, 251
+  offset: 27, 59
+  index: -1
+effects3/PG_2/PG_2_3_05
+  rotate: false
+  xy: 205, 833
+  size: 122, 184
+  orig: 286, 241
+  offset: 116, 49
+  index: -1
+effects3/PG_2/PG_2_5_07
+  rotate: false
+  xy: 329, 857
+  size: 199, 77
+  orig: 296, 250
+  offset: 30, 42
+  index: -1
+effects3/PG_3/PG_3_3_01
+  rotate: false
+  xy: 159, 586
+  size: 88, 66
+  orig: 410, 327
+  offset: 93, 103
+  index: -1
+effects3/PG_3/PG_3_5_01
+  rotate: false
+  xy: 205, 761
+  size: 167, 70
+  orig: 392, 334
+  offset: 133, 131
+  index: -1
+effects3/PG_3/PG_3_5_03
+  rotate: false
+  xy: 2, 744
+  size: 201, 114
+  orig: 392, 334
+  offset: 133, 87
+  index: -1
+effects3/PG_3/PG_3_5_18
+  rotate: false
+  xy: 329, 936
+  size: 211, 81
+  orig: 392, 334
+  offset: 56, 56
+  index: -1

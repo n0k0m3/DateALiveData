@@ -1,0 +1,467 @@
+
+effects_2020_tiangongcity.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/1
+  rotate: true
+  xy: 965, 548
+  size: 198, 76
+  orig: 198, 76
+  offset: 0, 0
+  index: -1
+images/2
+  rotate: true
+  xy: 1932, 1806
+  size: 236, 84
+  orig: 236, 84
+  offset: 0, 0
+  index: -1
+images/chuanhen
+  rotate: true
+  xy: 1788, 602
+  size: 121, 55
+  orig: 121, 55
+  offset: 0, 0
+  index: -1
+images/fengchedi
+  rotate: false
+  xy: 965, 240
+  size: 93, 146
+  orig: 93, 146
+  offset: 0, 0
+  index: -1
+images/gaotie
+  rotate: true
+  xy: 1932, 1593
+  size: 211, 40
+  orig: 211, 40
+  offset: 0, 0
+  index: -1
+images/hailang
+  rotate: true
+  xy: 1882, 208
+  size: 515, 142
+  orig: 515, 142
+  offset: 0, 0
+  index: -1
+images/hailang1
+  rotate: false
+  xy: 1475, 162
+  size: 405, 429
+  orig: 405, 429
+  offset: 0, 0
+  index: -1
+images/hailang2
+  rotate: false
+  xy: 2, 748
+  size: 1064, 756
+  orig: 1064, 756
+  offset: 0, 0
+  index: -1
+images/hailang3
+  rotate: false
+  xy: 2, 224
+  size: 961, 522
+  orig: 961, 522
+  offset: 0, 0
+  index: -1
+images/qiqiu1
+  rotate: false
+  xy: 1403, 1568
+  size: 527, 474
+  orig: 527, 474
+  offset: 0, 0
+  index: -1
+images/shuibo1/shuibo1_000
+  rotate: false
+  xy: 964, 46
+  size: 433, 171
+  orig: 433, 171
+  offset: 0, 0
+  index: -1
+images/shuibowen/01
+  rotate: true
+  xy: 1974, 1660
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+images/yanwu1/10000
+  rotate: true
+  xy: 1399, 2
+  size: 158, 200
+  orig: 158, 200
+  offset: 0, 0
+  index: -1
+images/yanwu1/10001
+  rotate: true
+  xy: 1601, 2
+  size: 158, 200
+  orig: 158, 200
+  offset: 0, 0
+  index: -1
+images/yanwu1/10002
+  rotate: true
+  xy: 1803, 2
+  size: 158, 200
+  orig: 158, 200
+  offset: 0, 0
+  index: -1
+images/yun1
+  rotate: false
+  xy: 2, 4
+  size: 510, 218
+  orig: 510, 218
+  offset: 0, 0
+  index: -1
+images/yun2
+  rotate: true
+  xy: 1475, 593
+  size: 973, 311
+  orig: 973, 311
+  offset: 0, 0
+  index: -1
+images/yun3
+  rotate: true
+  xy: 1788, 725
+  size: 841, 243
+  orig: 841, 243
+  offset: 0, 0
+  index: -1
+images/yun4
+  rotate: false
+  xy: 514, 7
+  size: 448, 215
+  orig: 448, 215
+  offset: 0, 0
+  index: -1
+images/yun5
+  rotate: true
+  xy: 965, 388
+  size: 158, 79
+  orig: 158, 79
+  offset: 0, 0
+  index: -1
+images/yun6
+  rotate: true
+  xy: 1068, 219
+  size: 1285, 405
+  orig: 1285, 405
+  offset: 0, 0
+  index: -1
+images/zhedang1
+  rotate: false
+  xy: 2, 1506
+  size: 1399, 536
+  orig: 1399, 536
+  offset: 0, 0
+  index: -1
+
+effects_2020_tiangongcity2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/chuan
+  rotate: false
+  xy: 2, 2
+  size: 112, 51
+  orig: 112, 51
+  offset: 0, 0
+  index: -1
+images/fengche
+  rotate: false
+  xy: 348, 1223
+  size: 181, 181
+  orig: 181, 181
+  offset: 0, 0
+  index: -1
+images/qiqiu
+  rotate: false
+  xy: 2, 1428
+  size: 404, 363
+  orig: 404, 363
+  offset: 0, 0
+  index: -1
+images/shuibo1/shuibo1_001
+  rotate: false
+  xy: 802, 1875
+  size: 433, 171
+  orig: 433, 171
+  offset: 0, 0
+  index: -1
+images/shuibo1/shuibo1_002
+  rotate: true
+  xy: 2, 993
+  size: 433, 171
+  orig: 433, 171
+  offset: 0, 0
+  index: -1
+images/shuibo1/shuibo1_003
+  rotate: false
+  xy: 1237, 1875
+  size: 433, 171
+  orig: 433, 171
+  offset: 0, 0
+  index: -1
+images/shuibo1/shuibo1_004
+  rotate: true
+  xy: 2, 558
+  size: 433, 171
+  orig: 433, 171
+  offset: 0, 0
+  index: -1
+images/shuibo1/shuibo1_005
+  rotate: true
+  xy: 175, 993
+  size: 433, 171
+  orig: 433, 171
+  offset: 0, 0
+  index: -1
+images/shuibo1/shuibo1_006
+  rotate: true
+  xy: 2, 123
+  size: 433, 171
+  orig: 433, 171
+  offset: 0, 0
+  index: -1
+images/shuibo1/shuibo1_007
+  rotate: true
+  xy: 175, 558
+  size: 433, 171
+  orig: 433, 171
+  offset: 0, 0
+  index: -1
+images/shuibo1/shuibo1_008
+  rotate: true
+  xy: 175, 123
+  size: 433, 171
+  orig: 433, 171
+  offset: 0, 0
+  index: -1
+images/shuibo1/shuibo1_009
+  rotate: false
+  xy: 408, 1620
+  size: 433, 171
+  orig: 433, 171
+  offset: 0, 0
+  index: -1
+images/shuibowen/02
+  rotate: false
+  xy: 2, 55
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+images/shuibowen/03
+  rotate: false
+  xy: 802, 1807
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+images/shuibowen/04
+  rotate: false
+  xy: 348, 145
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+images/shuibowen/05
+  rotate: false
+  xy: 508, 732
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+images/shuibowen/06
+  rotate: false
+  xy: 148, 55
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+images/shuibowen/07
+  rotate: false
+  xy: 948, 1807
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+images/shuibowen/08
+  rotate: false
+  xy: 508, 664
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+images/shuibowen/09
+  rotate: false
+  xy: 1094, 1807
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+images/shuibowen/10
+  rotate: false
+  xy: 508, 596
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+images/shuibowen/11
+  rotate: false
+  xy: 1240, 1807
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+images/shuibowen/12
+  rotate: false
+  xy: 508, 528
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+images/shuibowen/13
+  rotate: false
+  xy: 1386, 1807
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+images/shuibowen/14
+  rotate: false
+  xy: 508, 460
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+images/shuibowen/15
+  rotate: false
+  xy: 508, 392
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+images/shuibowen/16
+  rotate: false
+  xy: 508, 324
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+images/shuibowen/17
+  rotate: false
+  xy: 508, 256
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+images/shuibowen/18
+  rotate: false
+  xy: 1532, 1807
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+images/yanwu1/10003
+  rotate: true
+  xy: 1672, 1888
+  size: 158, 200
+  orig: 158, 200
+  offset: 0, 0
+  index: -1
+images/yanwu1/10004
+  rotate: false
+  xy: 683, 1418
+  size: 158, 200
+  orig: 158, 200
+  offset: 0, 0
+  index: -1
+images/yanwu1/10005
+  rotate: false
+  xy: 1874, 1846
+  size: 158, 200
+  orig: 158, 200
+  offset: 0, 0
+  index: -1
+images/yanwu1/10006
+  rotate: false
+  xy: 348, 1021
+  size: 158, 200
+  orig: 158, 200
+  offset: 0, 0
+  index: -1
+images/yanwu1/10007
+  rotate: false
+  xy: 348, 819
+  size: 158, 200
+  orig: 158, 200
+  offset: 0, 0
+  index: -1
+images/yanwu1/10008
+  rotate: false
+  xy: 348, 617
+  size: 158, 200
+  orig: 158, 200
+  offset: 0, 0
+  index: -1
+images/yanwu1/10009
+  rotate: false
+  xy: 348, 415
+  size: 158, 200
+  orig: 158, 200
+  offset: 0, 0
+  index: -1
+images/yanwu1/10010
+  rotate: false
+  xy: 348, 213
+  size: 158, 200
+  orig: 158, 200
+  offset: 0, 0
+  index: -1
+images/yanwu1/10011
+  rotate: false
+  xy: 531, 1204
+  size: 158, 200
+  orig: 158, 200
+  offset: 0, 0
+  index: -1
+images/yanwu1/10012
+  rotate: false
+  xy: 691, 1216
+  size: 158, 200
+  orig: 158, 200
+  offset: 0, 0
+  index: -1
+images/yanwu1/10013
+  rotate: false
+  xy: 508, 1002
+  size: 158, 200
+  orig: 158, 200
+  offset: 0, 0
+  index: -1
+images/yanwu1/10014
+  rotate: false
+  xy: 508, 800
+  size: 158, 200
+  orig: 158, 200
+  offset: 0, 0
+  index: -1
+images/yun
+  rotate: false
+  xy: 2, 1793
+  size: 798, 253
+  orig: 798, 253
+  offset: 0, 0
+  index: -1
+images/zhezhao
+  rotate: false
+  xy: 408, 1406
+  size: 273, 212
+  orig: 273, 212
+  offset: 0, 0
+  index: -1

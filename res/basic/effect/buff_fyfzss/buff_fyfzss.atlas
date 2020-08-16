@@ -1,0 +1,111 @@
+
+buff_fyfzss.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/buff_9/buff_9_0001
+  rotate: false
+  xy: 387, 399
+  size: 92, 92
+  orig: 256, 256
+  offset: 82, 82
+  index: -1
+effects/buff_9/buff_9_0002
+  rotate: false
+  xy: 104, 284
+  size: 92, 92
+  orig: 256, 256
+  offset: 82, 82
+  index: -1
+effects/buff_9/buff_9_0003
+  rotate: false
+  xy: 198, 383
+  size: 93, 108
+  orig: 256, 256
+  offset: 82, 66
+  index: -1
+effects/buff_9/buff_9_0004
+  rotate: false
+  xy: 198, 289
+  size: 92, 92
+  orig: 256, 256
+  offset: 82, 82
+  index: -1
+effects/buff_9/buff_9_0005
+  rotate: false
+  xy: 2, 242
+  size: 92, 119
+  orig: 256, 256
+  offset: 82, 55
+  index: -1
+effects/buff_9/buff_9_0006
+  rotate: false
+  xy: 96, 190
+  size: 92, 92
+  orig: 256, 256
+  offset: 82, 82
+  index: -1
+effects/buff_9/buff_9_0007
+  rotate: false
+  xy: 104, 378
+  size: 92, 113
+  orig: 256, 256
+  offset: 82, 61
+  index: -1
+effects/buff_9/buff_9_0008
+  rotate: false
+  xy: 2, 29
+  size: 92, 97
+  orig: 256, 256
+  offset: 82, 77
+  index: -1
+effects/buff_9/buff_9_0009
+  rotate: false
+  xy: 2, 363
+  size: 100, 128
+  orig: 256, 256
+  offset: 76, 46
+  index: -1
+effects/buff_9/buff_9_0010
+  rotate: false
+  xy: 2, 128
+  size: 92, 112
+  orig: 256, 256
+  offset: 82, 62
+  index: -1
+effects/buff_9/buff_9_0011
+  rotate: false
+  xy: 293, 397
+  size: 92, 94
+  orig: 256, 256
+  offset: 82, 80
+  index: -1
+effects/buff_9/buff_9_0012
+  rotate: false
+  xy: 96, 96
+  size: 92, 92
+  orig: 256, 256
+  offset: 82, 82
+  index: -1
+effects/buff_9/buff_9_0013
+  rotate: false
+  xy: 96, 2
+  size: 92, 92
+  orig: 256, 256
+  offset: 82, 82
+  index: -1
+effects/buff_9/buff_9_0014
+  rotate: false
+  xy: 293, 303
+  size: 92, 92
+  orig: 256, 256
+  offset: 82, 82
+  index: -1
+effects/buff_9/buff_9_0015
+  rotate: false
+  xy: 387, 305
+  size: 92, 92
+  orig: 256, 256
+  offset: 82, 82
+  index: -1

@@ -1,0 +1,58 @@
+{
+"skeleton": {
+	"hash": "nr/ZgOPcLsceAs4qFpyrKjwjQII",
+	"spine": "2.1.27",
+	"width": 0,
+	"height": 0,
+	"images": "C:/Users/Administrator/Desktop/尺寸需要修改的特效/map_yun_05"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "yun1", "parent": "bone" }
+],
+"slots": [
+	{ "name": "yun", "bone": "bone" },
+	{ "name": "sucai/yun/普通街道-破坏20180503_00000", "bone": "yun1" }
+],
+"skins": {
+	"default": {
+		"sucai/yun/普通街道-破坏20180503_00000": {
+			"sucai/yun1": { "width": 366, "height": 243 }
+		},
+		"yun": {
+			"sucai/yun1": { "width": 366, "height": 243 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"sucai/yun/普通街道-破坏20180503_00000": {
+				"attachment": [
+					{ "time": 0, "name": "sucai/yun1" },
+					{ "time": 2.6333, "name": "sucai/yun1" }
+				]
+			},
+			"yun": {
+				"attachment": [
+					{ "time": 0, "name": "sucai/yun1" }
+				]
+			}
+		},
+		"bones": {
+			"yun1": {
+				"translate": [
+					{ "time": 0, "x": -427.02, "y": 0 }
+				]
+			},
+			"bone": {
+				"translate": [
+					{ "time": 0, "x": 489.6, "y": 332.43 },
+					{ "time": 10.6666, "x": 916.93, "y": 332.43 }
+				]
+			}
+		}
+	}
+}
+}

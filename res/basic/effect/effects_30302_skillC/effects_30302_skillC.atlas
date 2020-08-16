@@ -1,0 +1,432 @@
+
+effects_30302_skillC.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillC/jiguang/jiguang_00022
+  rotate: true
+  xy: 951, 489
+  size: 264, 71
+  orig: 275, 100
+  offset: 3, 20
+  index: -1
+images/effects/skillC/jiguang/jiguang_00031
+  rotate: false
+  xy: 2, 6
+  size: 260, 49
+  orig: 275, 100
+  offset: 0, 25
+  index: -1
+images/effects/skillC/jiguang/jiguang_00032
+  rotate: true
+  xy: 951, 755
+  size: 267, 71
+  orig: 275, 100
+  offset: 0, 20
+  index: -1
+images/effects/skillC/jiguang/jiguang_00038
+  rotate: false
+  xy: 657, 4
+  size: 260, 3
+  orig: 275, 100
+  offset: 0, 45
+  index: -1
+images/effects/skillC/lizi/lizi_00065
+  rotate: false
+  xy: 740, 519
+  size: 191, 175
+  orig: 225, 225
+  offset: 10, 27
+  index: -1
+images/effects/skillC/lizi/lizi_00067
+  rotate: false
+  xy: 704, 147
+  size: 183, 182
+  orig: 225, 225
+  offset: 15, 25
+  index: -1
+images/effects/skillC/lizi/lizi_00069
+  rotate: false
+  xy: 711, 331
+  size: 190, 186
+  orig: 225, 225
+  offset: 11, 24
+  index: -1
+images/effects/skillC/lizixuli/lizixuli_00008
+  rotate: true
+  xy: 657, 9
+  size: 136, 173
+  orig: 200, 200
+  offset: 19, 23
+  index: -1
+images/effects/skillC/lizixuli/lizixuli_00014
+  rotate: false
+  xy: 889, 100
+  size: 128, 145
+  orig: 200, 200
+  offset: 24, 26
+  index: -1
+images/effects/skillC/qiu/qiu_00022
+  rotate: false
+  xy: 2, 57
+  size: 276, 75
+  orig: 375, 275
+  offset: 56, 97
+  index: -1
+images/effects/skillC/qiu/qiu_00024
+  rotate: false
+  xy: 379, 193
+  size: 323, 180
+  orig: 375, 275
+  offset: 32, 32
+  index: -1
+images/effects/skillC/qiu/qiu_00026
+  rotate: false
+  xy: 379, 571
+  size: 359, 218
+  orig: 375, 275
+  offset: 16, 17
+  index: -1
+images/effects/skillC/qiu/qiu_00028
+  rotate: false
+  xy: 379, 375
+  size: 330, 194
+  orig: 375, 275
+  offset: 28, 29
+  index: -1
+images/effects/skillC/qiu/qiu_00030
+  rotate: false
+  xy: 2, 134
+  size: 330, 195
+  orig: 375, 275
+  offset: 28, 27
+  index: -1
+images/effects/skillC/qiu/qiu_00032
+  rotate: true
+  xy: 756, 696
+  size: 326, 193
+  orig: 375, 275
+  offset: 30, 28
+  index: -1
+images/effects/skillC/qiu/qiu_00034
+  rotate: false
+  xy: 334, 6
+  size: 321, 185
+  orig: 375, 275
+  offset: 33, 32
+  index: -1
+images/effects/skillC/qiu/qiu_00054
+  rotate: false
+  xy: 903, 368
+  size: 119, 119
+  orig: 375, 275
+  offset: 135, 77
+  index: -1
+images/effects/skillC/qiu/qiu_00056
+  rotate: false
+  xy: 903, 247
+  size: 119, 119
+  orig: 375, 275
+  offset: 135, 77
+  index: -1
+images/effects/skillC/qiu/qiu_00058
+  rotate: false
+  xy: 2, 778
+  size: 375, 244
+  orig: 375, 275
+  offset: 0, 23
+  index: -1
+images/effects/skillC/qiu/qiu_00060
+  rotate: false
+  xy: 2, 536
+  size: 375, 240
+  orig: 375, 275
+  offset: 0, 25
+  index: -1
+images/effects/skillC/qiu/qiu_00062
+  rotate: false
+  xy: 379, 791
+  size: 375, 231
+  orig: 375, 275
+  offset: 0, 30
+  index: -1
+images/effects/skillC/qiu/qiu_00064
+  rotate: false
+  xy: 2, 331
+  size: 375, 203
+  orig: 375, 275
+  offset: 0, 41
+  index: -1
+images/effects/skillC/yuan1_00022
+  rotate: false
+  xy: 832, 28
+  size: 153, 70
+  orig: 175, 100
+  offset: 11, 16
+  index: -1
+
+effects_30302_skillC2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillC/glow1_00017
+  rotate: false
+  xy: 481, 292
+  size: 110, 110
+  orig: 150, 150
+  offset: 17, 21
+  index: -1
+images/effects/skillC/jiguang/jiguang_00017
+  rotate: false
+  xy: 342, 790
+  size: 223, 85
+  orig: 275, 100
+  offset: 0, 5
+  index: -1
+images/effects/skillC/jiguang/jiguang_00018
+  rotate: true
+  xy: 132, 46
+  size: 263, 63
+  orig: 275, 100
+  offset: 5, 21
+  index: -1
+images/effects/skillC/jiguang/jiguang_00019
+  rotate: false
+  xy: 342, 739
+  size: 256, 49
+  orig: 275, 100
+  offset: 4, 24
+  index: -1
+images/effects/skillC/jiguang/jiguang_00020
+  rotate: false
+  xy: 593, 946
+  size: 264, 64
+  orig: 275, 100
+  offset: 4, 22
+  index: -1
+images/effects/skillC/jiguang/jiguang_00021
+  rotate: false
+  xy: 330, 447
+  size: 256, 44
+  orig: 275, 100
+  offset: 4, 27
+  index: -1
+images/effects/skillC/jiguang/jiguang_00023
+  rotate: false
+  xy: 339, 541
+  size: 257, 47
+  orig: 275, 100
+  offset: 3, 24
+  index: -1
+images/effects/skillC/jiguang/jiguang_00024
+  rotate: true
+  xy: 68, 43
+  size: 266, 62
+  orig: 275, 100
+  offset: 2, 22
+  index: -1
+images/effects/skillC/jiguang/jiguang_00025
+  rotate: false
+  xy: 339, 493
+  size: 258, 46
+  orig: 275, 100
+  offset: 2, 26
+  index: -1
+images/effects/skillC/jiguang/jiguang_00026
+  rotate: true
+  xy: 263, 84
+  size: 259, 64
+  orig: 275, 100
+  offset: 1, 22
+  index: -1
+images/effects/skillC/jiguang/jiguang_00027
+  rotate: false
+  xy: 342, 640
+  size: 259, 47
+  orig: 275, 100
+  offset: 1, 25
+  index: -1
+images/effects/skillC/jiguang/jiguang_00028
+  rotate: false
+  xy: 323, 877
+  size: 267, 63
+  orig: 275, 100
+  offset: 1, 21
+  index: -1
+images/effects/skillC/jiguang/jiguang_00029
+  rotate: false
+  xy: 342, 689
+  size: 259, 48
+  orig: 275, 100
+  offset: 1, 26
+  index: -1
+images/effects/skillC/jiguang/jiguang_00030
+  rotate: true
+  xy: 2, 42
+  size: 267, 64
+  orig: 275, 100
+  offset: 1, 22
+  index: -1
+images/effects/skillC/jiguang/jiguang_00033
+  rotate: false
+  xy: 339, 590
+  size: 260, 48
+  orig: 275, 100
+  offset: 0, 26
+  index: -1
+images/effects/skillC/jiguang/jiguang_00034
+  rotate: false
+  xy: 323, 942
+  size: 268, 68
+  orig: 275, 100
+  offset: 0, 16
+  index: -1
+images/effects/skillC/jiguang/jiguang_00035
+  rotate: false
+  xy: 330, 412
+  size: 260, 33
+  orig: 275, 100
+  offset: 0, 29
+  index: -1
+images/effects/skillC/jiguang/jiguang_00036
+  rotate: true
+  xy: 197, 83
+  size: 260, 64
+  orig: 275, 100
+  offset: 0, 22
+  index: -1
+images/effects/skillC/jiguang/jiguang_00037
+  rotate: false
+  xy: 330, 404
+  size: 260, 6
+  orig: 275, 100
+  offset: 0, 43
+  index: -1
+images/effects/skillC/lizi/lizi_00059
+  rotate: false
+  xy: 329, 202
+  size: 134, 140
+  orig: 225, 225
+  offset: 44, 41
+  index: -1
+images/effects/skillC/lizi/lizi_00061
+  rotate: false
+  xy: 173, 509
+  size: 164, 161
+  orig: 225, 225
+  offset: 26, 32
+  index: -1
+images/effects/skillC/lizi/lizi_00063
+  rotate: false
+  xy: 2, 674
+  size: 182, 169
+  orig: 225, 225
+  offset: 16, 26
+  index: -1
+images/effects/skillC/lizixuli/lizixuli_00004
+  rotate: true
+  xy: 2, 311
+  size: 177, 170
+  orig: 200, 200
+  offset: 0, 10
+  index: -1
+images/effects/skillC/lizixuli/lizixuli_00006
+  rotate: false
+  xy: 2, 490
+  size: 169, 182
+  orig: 200, 200
+  offset: 0, 15
+  index: -1
+images/effects/skillC/lizixuli/lizixuli_00010
+  rotate: false
+  xy: 186, 672
+  size: 154, 171
+  orig: 200, 200
+  offset: 10, 21
+  index: -1
+images/effects/skillC/lizixuli/lizixuli_00012
+  rotate: false
+  xy: 174, 345
+  size: 154, 162
+  orig: 200, 200
+  offset: 6, 23
+  index: -1
+images/effects/skillC/lizixuli/lizixuli_00016
+  rotate: true
+  xy: 859, 860
+  size: 150, 151
+  orig: 200, 200
+  offset: 14, 24
+  index: -1
+images/effects/skillC/qiu/qiu_00036
+  rotate: false
+  xy: 2, 845
+  size: 319, 165
+  orig: 375, 275
+  offset: 34, 43
+  index: -1
+images/effects/skillC/qiu/qiu_00038
+  rotate: true
+  xy: 687, 57
+  size: 115, 114
+  orig: 375, 275
+  offset: 137, 79
+  index: -1
+images/effects/skillC/qiu/qiu_00040
+  rotate: false
+  xy: 593, 829
+  size: 115, 115
+  orig: 375, 275
+  offset: 137, 79
+  index: -1
+images/effects/skillC/qiu/qiu_00042
+  rotate: false
+  xy: 710, 829
+  size: 115, 115
+  orig: 375, 275
+  offset: 137, 79
+  index: -1
+images/effects/skillC/qiu/qiu_00044
+  rotate: false
+  xy: 584, 174
+  size: 116, 116
+  orig: 375, 275
+  offset: 136, 78
+  index: -1
+images/effects/skillC/qiu/qiu_00046
+  rotate: false
+  xy: 465, 173
+  size: 117, 117
+  orig: 375, 275
+  offset: 136, 78
+  index: -1
+images/effects/skillC/qiu/qiu_00048
+  rotate: false
+  xy: 449, 54
+  size: 117, 117
+  orig: 375, 275
+  offset: 136, 78
+  index: -1
+images/effects/skillC/qiu/qiu_00050
+  rotate: false
+  xy: 568, 54
+  size: 117, 117
+  orig: 375, 275
+  offset: 136, 78
+  index: -1
+images/effects/skillC/qiu/qiu_00052
+  rotate: false
+  xy: 329, 82
+  size: 118, 118
+  orig: 375, 275
+  offset: 135, 77
+  index: -1
+images/effects/skillC/yuan_00010
+  rotate: false
+  xy: 330, 344
+  size: 149, 58
+  orig: 150, 100
+  offset: 1, 24
+  index: -1

@@ -1,0 +1,199 @@
+
+effects_30502_skillD3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skill3/cujiguang1
+  rotate: false
+  xy: 775, 848
+  size: 218, 169
+  orig: 233, 169
+  offset: 15, 0
+  index: -1
+effect/skill3/cujiguang2
+  rotate: false
+  xy: 414, 114
+  size: 88, 130
+  orig: 223, 130
+  offset: 65, 0
+  index: -1
+effect/skill3/cujiguang3
+  rotate: false
+  xy: 775, 765
+  size: 58, 81
+  orig: 175, 81
+  offset: 57, 0
+  index: -1
+effect/skill3/cujiguang4
+  rotate: false
+  xy: 414, 36
+  size: 33, 76
+  orig: 104, 76
+  offset: 40, 0
+  index: -1
+effect/skill3/cujiguang5
+  rotate: false
+  xy: 504, 196
+  size: 61, 48
+  orig: 104, 48
+  offset: 22, 0
+  index: -1
+effect/skill3/cujiguang6
+  rotate: true
+  xy: 2, 2
+  size: 11, 62
+  orig: 80, 84
+  offset: 36, 13
+  index: -1
+effect/skill3/jizhong_00056
+  rotate: true
+  xy: 2, 15
+  size: 229, 410
+  orig: 1529, 864
+  offset: 687, 245
+  index: -1
+effect/skill3/juhuangqiu_00055
+  rotate: false
+  xy: 2, 246
+  size: 771, 771
+  orig: 1529, 864
+  offset: 414, 20
+  index: -1
+effect/skill3/shanbai
+  rotate: false
+  xy: 995, 1016
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+
+effects_30502_skillD32.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skill3/baiqiu_00056
+  rotate: false
+  xy: 337, 32
+  size: 286, 290
+  orig: 1529, 864
+  offset: 611, 280
+  index: -1
+effect/skill3/jizhong_00054
+  rotate: true
+  xy: 663, 593
+  size: 417, 347
+  orig: 1529, 864
+  offset: 574, 232
+  index: -1
+effect/skill3/jizhong_00066
+  rotate: true
+  xy: 337, 324
+  size: 349, 317
+  orig: 1529, 864
+  offset: 657, 233
+  index: -1
+effect/skill3/jizhong_00070
+  rotate: true
+  xy: 656, 228
+  size: 363, 343
+  orig: 1529, 864
+  offset: 618, 249
+  index: -1
+effect/skill3/jizhong_00076
+  rotate: false
+  xy: 2, 675
+  size: 659, 335
+  orig: 1529, 864
+  offset: 414, 211
+  index: -1
+effect/skill3/jizhong_00078
+  rotate: true
+  xy: 2, 45
+  size: 628, 333
+  orig: 1529, 864
+  offset: 525, 224
+  index: -1
+
+effects_30502_skillD33.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skill3/jizhong_00058
+  rotate: false
+  xy: 2, 11
+  size: 307, 483
+  orig: 1529, 864
+  offset: 629, 230
+  index: -1
+effect/skill3/jizhong_00060
+  rotate: false
+  xy: 311, 2
+  size: 365, 303
+  orig: 1529, 864
+  offset: 549, 245
+  index: -1
+effect/skill3/jizhong_00074
+  rotate: false
+  xy: 542, 724
+  size: 463, 297
+  orig: 1529, 864
+  offset: 516, 246
+  index: -1
+effect/skill3/jizhong_00082
+  rotate: true
+  xy: 542, 307
+  size: 415, 457
+  orig: 1529, 864
+  offset: 620, 281
+  index: -1
+effect/skill3/jizhong_00084
+  rotate: false
+  xy: 2, 496
+  size: 538, 525
+  orig: 1529, 864
+  offset: 544, 272
+  index: -1
+
+effects_30502_skillD34.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skill3/jizhong_00062
+  rotate: false
+  xy: 2, 677
+  size: 438, 341
+  orig: 1529, 864
+  offset: 460, 211
+  index: -1
+effect/skill3/jizhong_00064
+  rotate: false
+  xy: 442, 713
+  size: 370, 305
+  orig: 1529, 864
+  offset: 572, 224
+  index: -1
+effect/skill3/jizhong_00068
+  rotate: true
+  xy: 2, 2
+  size: 253, 346
+  orig: 1529, 864
+  offset: 669, 237
+  index: -1
+effect/skill3/jizhong_00072
+  rotate: false
+  xy: 340, 298
+  size: 267, 377
+  orig: 1529, 864
+  offset: 613, 231
+  index: -1
+effect/skill3/jizhong_00080
+  rotate: false
+  xy: 2, 257
+  size: 336, 418
+  orig: 1529, 864
+  offset: 659, 235
+  index: -1

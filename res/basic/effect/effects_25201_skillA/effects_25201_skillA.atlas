@@ -1,0 +1,160 @@
+
+effects_25201_skillA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/skilla/guang_0000
+  rotate: false
+  xy: 932, 781
+  size: 22, 235
+  orig: 35, 280
+  offset: 7, 20
+  index: -1
+images/effect/skilla/lizi_0000
+  rotate: true
+  xy: 2, 176
+  size: 45, 280
+  orig: 280, 280
+  offset: 122, 0
+  index: -1
+images/effect/skilla/ska_shouji/shoujia_0018
+  rotate: false
+  xy: 588, 218
+  size: 138, 84
+  orig: 280, 280
+  offset: 107, 101
+  index: -1
+images/effect/skilla/ska_shouji/shoujia_0019
+  rotate: false
+  xy: 437, 264
+  size: 149, 113
+  orig: 280, 280
+  offset: 102, 99
+  index: -1
+images/effect/skilla/ska_shouji/shoujia_0020
+  rotate: false
+  xy: 2, 61
+  size: 153, 113
+  orig: 280, 280
+  offset: 101, 97
+  index: -1
+images/effect/skilla/ska_shouji/shoujia_0021
+  rotate: false
+  xy: 596, 377
+  size: 152, 109
+  orig: 280, 280
+  offset: 97, 97
+  index: -1
+images/effect/skilla/ska_shouji/shoujia_0022
+  rotate: false
+  xy: 437, 379
+  size: 157, 107
+  orig: 280, 280
+  offset: 97, 97
+  index: -1
+images/effect/skilla/ska_shouji/shoujia_0023
+  rotate: true
+  xy: 750, 393
+  size: 114, 110
+  orig: 280, 280
+  offset: 146, 96
+  index: -1
+images/effect/skilla/ska_shouji/shoujia_0024
+  rotate: false
+  xy: 157, 65
+  size: 117, 109
+  orig: 280, 280
+  offset: 148, 97
+  index: -1
+images/effect/skilla/xuehua_0000
+  rotate: false
+  xy: 726, 739
+  size: 136, 277
+  orig: 280, 280
+  offset: 66, 1
+  index: -1
+images/effect/skilla/yan/yan_0017
+  rotate: true
+  xy: 588, 304
+  size: 71, 169
+  orig: 105, 280
+  offset: 22, 95
+  index: -1
+images/effect/skilla/yan/yan_0019
+  rotate: false
+  xy: 864, 798
+  size: 66, 218
+  orig: 105, 280
+  offset: 23, 48
+  index: -1
+images/effect/skilla/yan/yan_0021
+  rotate: false
+  xy: 364, 245
+  size: 71, 241
+  orig: 105, 280
+  offset: 17, 23
+  index: -1
+images/effect/skilla/yan/yan_0023
+  rotate: false
+  xy: 726, 509
+  size: 68, 228
+  orig: 105, 280
+  offset: 20, 25
+  index: -1
+images/effect/skilla/yan/yan_0025
+  rotate: false
+  xy: 796, 550
+  size: 64, 187
+  orig: 105, 280
+  offset: 23, 27
+  index: -1
+images/effect/skilla/yan/yan_0027
+  rotate: false
+  xy: 956, 860
+  size: 60, 156
+  orig: 105, 280
+  offset: 26, 30
+  index: -1
+images/effect/skilla/yan/yan_0029
+  rotate: true
+  xy: 2, 3
+  size: 56, 139
+  orig: 105, 280
+  offset: 29, 31
+  index: -1
+images/effect/skillc/tuowei/tuowei_00000
+  rotate: false
+  xy: 2, 753
+  size: 360, 263
+  orig: 406, 336
+  offset: 0, 70
+  index: -1
+images/effect/skillc/tuowei/tuowei_00001
+  rotate: false
+  xy: 2, 488
+  size: 360, 263
+  orig: 406, 336
+  offset: 0, 70
+  index: -1
+images/effect/skillc/tuowei/tuowei_00002
+  rotate: false
+  xy: 364, 753
+  size: 360, 263
+  orig: 406, 336
+  offset: 0, 70
+  index: -1
+images/effect/skillc/tuowei/tuowei_00003
+  rotate: false
+  xy: 2, 223
+  size: 360, 263
+  orig: 406, 336
+  offset: 0, 70
+  index: -1
+images/effect/skillc/tuowei/tuowei_00004
+  rotate: false
+  xy: 364, 488
+  size: 360, 263
+  orig: 406, 336
+  offset: 0, 70
+  index: -1

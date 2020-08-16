@@ -1,0 +1,83 @@
+
+effect_task_01.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: false
+  xy: 745, 841
+  size: 166, 70
+  orig: 252, 70
+  offset: 47, 0
+  index: -1
+02
+  rotate: true
+  xy: 454, 157
+  size: 252, 70
+  orig: 252, 70
+  offset: 0, 0
+  index: -1
+final_00047_00000
+  rotate: false
+  xy: 2, 411
+  size: 656, 500
+  orig: 664, 500
+  offset: 8, 0
+  index: -1
+huangse
+  rotate: false
+  xy: 304, 68
+  size: 40, 31
+  orig: 42, 33
+  offset: 1, 1
+  index: -1
+jue_00000
+  rotate: false
+  xy: 454, 104
+  size: 52, 51
+  orig: 52, 51
+  offset: 0, 0
+  index: -1
+shenglidi
+  rotate: true
+  xy: 660, 419
+  size: 492, 83
+  orig: 494, 85
+  offset: 1, 1
+  index: -1
+shi_00000
+  rotate: false
+  xy: 2, 7
+  size: 53, 52
+  orig: 53, 52
+  offset: 0, 0
+  index: -1
+tian_00000
+  rotate: false
+  xy: 526, 358
+  size: 52, 51
+  orig: 52, 51
+  offset: 0, 0
+  index: -1
+tiao1_00000
+  rotate: false
+  xy: 2, 101
+  size: 450, 308
+  orig: 450, 320
+  offset: 0, 12
+  index: -1
+tiao_00000
+  rotate: false
+  xy: 2, 61
+  size: 300, 38
+  orig: 300, 100
+  offset: 0, 31
+  index: -1
+xing_00000
+  rotate: false
+  xy: 745, 788
+  size: 52, 51
+  orig: 52, 51
+  offset: 0, 0
+  index: -1

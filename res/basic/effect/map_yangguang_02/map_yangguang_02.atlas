@@ -1,0 +1,13 @@
+
+map_yangguang_02.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/yangguang_00082
+  rotate: false
+  xy: 2, 2
+  size: 209, 184
+  orig: 225, 225
+  offset: 6, 4
+  index: -1

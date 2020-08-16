@@ -1,0 +1,27 @@
+
+effect_main_10509.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/guangsu
+  rotate: false
+  xy: 2, 2
+  size: 482, 322
+  orig: 482, 322
+  offset: 0, 0
+  index: -1
+images/guangsu_00000
+  rotate: false
+  xy: 2, 326
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+images/shuyezi
+  rotate: false
+  xy: 504, 497
+  size: 281, 329
+  orig: 281, 329
+  offset: 0, 0
+  index: -1

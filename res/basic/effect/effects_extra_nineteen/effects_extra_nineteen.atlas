@@ -1,0 +1,111 @@
+
+effects_extra_nineteen.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/jili/glow_00016
+  rotate: false
+  xy: 2, 349
+  size: 130, 156
+  orig: 130, 185
+  offset: 0, 9
+  index: -1
+images/jili/lizi/lizi_00016
+  rotate: false
+  xy: 134, 352
+  size: 57, 59
+  orig: 67, 103
+  offset: 5, 0
+  index: -1
+images/jili/lizi/lizi_00017
+  rotate: false
+  xy: 2, 87
+  size: 58, 76
+  orig: 67, 103
+  offset: 4, 0
+  index: -1
+images/jili/lizi/lizi_00018
+  rotate: false
+  xy: 2, 165
+  size: 58, 87
+  orig: 67, 103
+  offset: 4, 0
+  index: -1
+images/jili/lizi/lizi_00019
+  rotate: false
+  xy: 134, 413
+  size: 58, 92
+  orig: 67, 103
+  offset: 4, 1
+  index: -1
+images/jili/lizi/lizi_00020
+  rotate: false
+  xy: 2, 254
+  size: 58, 93
+  orig: 67, 103
+  offset: 4, 4
+  index: -1
+images/jili/lizi/lizi_00021
+  rotate: false
+  xy: 62, 263
+  size: 57, 84
+  orig: 67, 103
+  offset: 4, 1
+  index: -1
+images/jili/lizi/lizi_00022
+  rotate: false
+  xy: 194, 421
+  size: 55, 84
+  orig: 67, 103
+  offset: 4, 1
+  index: -1
+images/jili/lizi/lizi_00023
+  rotate: false
+  xy: 62, 179
+  size: 51, 82
+  orig: 67, 103
+  offset: 4, 1
+  index: -1
+images/jili/lizi/lizi_00024
+  rotate: false
+  xy: 2, 2
+  size: 49, 83
+  orig: 67, 103
+  offset: 4, 1
+  index: -1
+images/jili/lizi/lizi_00025
+  rotate: false
+  xy: 62, 93
+  size: 48, 84
+  orig: 67, 103
+  offset: 4, 1
+  index: -1
+images/jili/lizi/lizi_00026
+  rotate: true
+  xy: 251, 457
+  size: 48, 85
+  orig: 67, 103
+  offset: 5, 1
+  index: -1
+images/jili/lizi/lizi_00027
+  rotate: true
+  xy: 251, 412
+  size: 43, 79
+  orig: 67, 103
+  offset: 7, 5
+  index: -1
+images/jili/lizi/lizi_00028
+  rotate: true
+  xy: 422, 463
+  size: 42, 83
+  orig: 67, 103
+  offset: 8, 3
+  index: -1
+images/jili/lizi/lizi_00029
+  rotate: true
+  xy: 338, 456
+  size: 49, 82
+  orig: 67, 103
+  offset: 4, 2
+  index: -1

@@ -1,0 +1,132 @@
+
+effects_10302_tuzi.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bizi_1
+  rotate: true
+  xy: 1013, 1005
+  size: 17, 9
+  orig: 17, 9
+  offset: 0, 0
+  index: -1
+dun_1
+  rotate: false
+  xy: 304, 557
+  size: 220, 220
+  orig: 220, 220
+  offset: 0, 0
+  index: -1
+jian_1
+  rotate: false
+  xy: 2, 469
+  size: 300, 273
+  orig: 300, 273
+  offset: 0, 0
+  index: -1
+jian_2
+  rotate: false
+  xy: 304, 779
+  size: 300, 243
+  orig: 300, 243
+  offset: 0, 0
+  index: -1
+kuijiaqianceng_1
+  rotate: false
+  xy: 353, 362
+  size: 164, 193
+  orig: 164, 193
+  offset: 0, 0
+  index: -1
+shenti_1
+  rotate: false
+  xy: 353, 216
+  size: 150, 144
+  orig: 150, 144
+  offset: 0, 0
+  index: -1
+tou_1
+  rotate: true
+  xy: 231, 41
+  size: 150, 140
+  orig: 150, 140
+  offset: 0, 0
+  index: -1
+toukui_1
+  rotate: true
+  xy: 373, 64
+  size: 150, 101
+  orig: 150, 101
+  offset: 0, 0
+  index: -1
+weibo_1
+  rotate: false
+  xy: 865, 718
+  size: 150, 75
+  orig: 150, 75
+  offset: 0, 0
+  index: -1
+youer_1
+  rotate: false
+  xy: 225, 193
+  size: 126, 274
+  orig: 126, 274
+  offset: 0, 0
+  index: -1
+youyan_1
+  rotate: true
+  xy: 304, 532
+  size: 23, 47
+  orig: 23, 47
+  offset: 0, 0
+  index: -1
+youzhua_1
+  rotate: false
+  xy: 606, 850
+  size: 257, 172
+  orig: 257, 172
+  offset: 0, 0
+  index: -1
+youzhua_2
+  rotate: false
+  xy: 606, 714
+  size: 257, 134
+  orig: 257, 172
+  offset: 0, 38
+  index: -1
+zuiba_1
+  rotate: false
+  xy: 526, 616
+  size: 224, 96
+  orig: 226, 96
+  offset: 0, 0
+  index: -1
+zuoer_1
+  rotate: false
+  xy: 2, 177
+  size: 221, 290
+  orig: 221, 290
+  offset: 0, 0
+  index: -1
+zuoyan_1
+  rotate: false
+  xy: 2, 744
+  size: 300, 278
+  orig: 300, 278
+  offset: 0, 0
+  index: -1
+zuozhua_1
+  rotate: true
+  xy: 2, 29
+  size: 146, 227
+  orig: 146, 227
+  offset: 0, 0
+  index: -1
+zuozhua_2
+  rotate: false
+  xy: 865, 795
+  size: 146, 227
+  orig: 146, 227
+  offset: 0, 0
+  index: -1

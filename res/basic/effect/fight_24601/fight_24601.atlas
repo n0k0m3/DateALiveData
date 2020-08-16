@@ -1,0 +1,110 @@
+
+fight_24601.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dipa1
+  rotate: false
+  xy: 2, 156
+  size: 228, 95
+  orig: 228, 95
+  offset: 0, 0
+  index: -1
+dipan2
+  rotate: false
+  xy: 261, 342
+  size: 196, 118
+  orig: 196, 118
+  offset: 0, 0
+  index: -1
+fa1
+  rotate: false
+  xy: 608, 648
+  size: 97, 186
+  orig: 97, 186
+  offset: 0, 0
+  index: -1
+fa2
+  rotate: true
+  xy: 800, 942
+  size: 73, 215
+  orig: 73, 215
+  offset: 0, 0
+  index: -1
+fa3
+  rotate: true
+  xy: 2, 64
+  size: 90, 184
+  orig: 90, 184
+  offset: 0, 0
+  index: -1
+fa4
+  rotate: true
+  xy: 261, 282
+  size: 58, 152
+  orig: 58, 152
+  offset: 0, 0
+  index: -1
+zhoulun
+  rotate: true
+  xy: 459, 342
+  size: 118, 80
+  orig: 118, 80
+  offset: 0, 0
+  index: -1
+zhuanpan
+  rotate: false
+  xy: 2, 462
+  size: 553, 553
+  orig: 553, 553
+  offset: 0, 0
+  index: -1
+zhuanpan01
+  rotate: false
+  xy: 557, 836
+  size: 241, 179
+  orig: 241, 179
+  offset: 0, 0
+  index: -1
+zhuanpan02
+  rotate: false
+  xy: 2, 253
+  size: 257, 207
+  orig: 257, 207
+  offset: 0, 0
+  index: -1
+zhuanpan03
+  rotate: true
+  xy: 557, 536
+  size: 298, 49
+  orig: 298, 49
+  offset: 0, 0
+  index: -1
+zui
+  rotate: false
+  xy: 608, 605
+  size: 74, 41
+  orig: 74, 41
+  offset: 0, 0
+  index: -1
+zuidi
+  rotate: false
+  xy: 800, 879
+  size: 142, 61
+  orig: 142, 61
+  offset: 0, 0
+  index: -1
+
+fight_246012.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+zhuanpanhou
+  rotate: false
+  xy: 2, 2
+  size: 553, 553
+  orig: 553, 553
+  offset: 0, 0
+  index: -1

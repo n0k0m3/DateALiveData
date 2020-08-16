@@ -1,0 +1,41 @@
+
+effects_Interface_ui.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+di
+  rotate: false
+  xy: 2, 545
+  size: 550, 321
+  orig: 550, 321
+  offset: 0, 0
+  index: -1
+liumangxingbian
+  rotate: false
+  xy: 2, 83
+  size: 158, 178
+  orig: 164, 178
+  offset: 3, 0
+  index: -1
+lizi_00000
+  rotate: false
+  xy: 284, 510
+  size: 29, 33
+  orig: 29, 33
+  offset: 0, 0
+  index: -1
+yuanquan
+  rotate: false
+  xy: 554, 632
+  size: 312, 234
+  orig: 312, 234
+  offset: 0, 0
+  index: -1
+yuanquan1
+  rotate: false
+  xy: 2, 263
+  size: 280, 280
+  orig: 280, 280
+  offset: 0, 0
+  index: -1

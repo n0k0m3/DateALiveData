@@ -1,0 +1,41 @@
+
+dianhua2.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dianhua
+  rotate: false
+  xy: 196, 162
+  size: 50, 92
+  orig: 50, 92
+  offset: 0, 0
+  index: -1
+juxing1
+  rotate: false
+  xy: 144, 20
+  size: 42, 40
+  orig: 42, 40
+  offset: 0, 0
+  index: -1
+juxing2
+  rotate: true
+  xy: 144, 62
+  size: 58, 48
+  orig: 58, 48
+  offset: 0, 0
+  index: -1
+juxing3
+  rotate: false
+  xy: 2, 122
+  size: 192, 132
+  orig: 192, 132
+  offset: 0, 0
+  index: -1
+touxiang
+  rotate: false
+  xy: 2, 2
+  size: 140, 118
+  orig: 140, 118
+  offset: 0, 0
+  index: -1

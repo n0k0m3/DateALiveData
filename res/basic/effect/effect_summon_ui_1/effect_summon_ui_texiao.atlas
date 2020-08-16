@@ -1,0 +1,48 @@
+
+effect_summon_ui_texiao.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+di_00032
+  rotate: false
+  xy: 2, 70
+  size: 379, 51
+  orig: 450, 113
+  offset: 35, 32
+  index: -1
+glow_00000
+  rotate: false
+  xy: 2, 123
+  size: 492, 375
+  orig: 498, 375
+  offset: 6, 0
+  index: -1
+huangse
+  rotate: false
+  xy: 383, 96
+  size: 31, 25
+  orig: 32, 25
+  offset: 0, 0
+  index: -1
+yanseziti_00032
+  rotate: false
+  xy: 2, 21
+  size: 195, 47
+  orig: 450, 113
+  offset: 126, 28
+  index: -1
+ziti_00018
+  rotate: false
+  xy: 2, 2
+  size: 176, 17
+  orig: 188, 38
+  offset: 6, 11
+  index: -1
+zitimohu_00006
+  rotate: false
+  xy: 199, 31
+  size: 203, 37
+  orig: 225, 38
+  offset: 15, 0
+  index: -1

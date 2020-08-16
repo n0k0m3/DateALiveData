@@ -1,0 +1,20 @@
+
+ui_compose_complete.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/yuan1_00011
+  rotate: false
+  xy: 2, 2
+  size: 151, 151
+  orig: 328, 288
+  offset: 92, 64
+  index: -1
+images/yuanbian_00011
+  rotate: false
+  xy: 2, 155
+  size: 191, 191
+  orig: 328, 288
+  offset: 72, 45
+  index: -1

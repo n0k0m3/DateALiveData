@@ -1,0 +1,97 @@
+
+effects_22501_skillD.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skilla/yujing2_000
+  rotate: false
+  xy: 552, 1001
+  size: 350, 21
+  orig: 350, 35
+  offset: 0, 6
+  index: -1
+effect/skilla/yujing_000
+  rotate: true
+  xy: 2, 276
+  size: 350, 48
+  orig: 350, 70
+  offset: 0, 11
+  index: -1
+images/texiao/dian/1_00000
+  rotate: false
+  xy: 430, 797
+  size: 110, 70
+  orig: 174, 153
+  offset: 41, 73
+  index: -1
+images/texiao/dian/1_00004
+  rotate: true
+  xy: 767, 850
+  size: 149, 129
+  orig: 174, 153
+  offset: 20, 11
+  index: -1
+images/texiao/dian/1_00006
+  rotate: false
+  xy: 274, 763
+  size: 154, 104
+  orig: 174, 153
+  offset: 6, 8
+  index: -1
+images/texiao/skillD/baodian_0001
+  rotate: false
+  xy: 904, 903
+  size: 118, 119
+  orig: 280, 287
+  offset: 76, 56
+  index: -1
+images/texiao/skillD/baodian_0003
+  rotate: false
+  xy: 552, 847
+  size: 213, 152
+  orig: 280, 287
+  offset: 31, 41
+  index: -1
+images/texiao/skillD/baodian_0004
+  rotate: false
+  xy: 2, 628
+  size: 244, 186
+  orig: 280, 287
+  offset: 20, 27
+  index: -1
+images/texiao/skillD/baodian_0005
+  rotate: false
+  xy: 2, 816
+  size: 270, 206
+  orig: 280, 287
+  offset: 3, 13
+  index: -1
+images/texiao/skillD/baodian_0006
+  rotate: false
+  xy: 274, 869
+  size: 276, 153
+  orig: 280, 287
+  offset: 4, 41
+  index: -1
+images/texiao/skillD/chilun_00000
+  rotate: false
+  xy: 52, 238
+  size: 179, 191
+  orig: 212, 237
+  offset: 4, 43
+  index: -1
+images/texiao/skillD/chilun_00002
+  rotate: false
+  xy: 2, 46
+  size: 180, 190
+  orig: 212, 237
+  offset: 3, 45
+  index: -1
+images/texiao/skillD/chilun_00004
+  rotate: false
+  xy: 52, 431
+  size: 179, 195
+  orig: 212, 237
+  offset: 4, 41
+  index: -1

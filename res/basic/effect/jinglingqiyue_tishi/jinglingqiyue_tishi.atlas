@@ -1,0 +1,223 @@
+
+jinglingqiyue_tishi.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow_00000
+  rotate: false
+  xy: 2, 822
+  size: 133, 200
+  orig: 150, 200
+  offset: 9, 0
+  index: -1
+lizi/lizi_00000
+  rotate: false
+  xy: 126, 102
+  size: 115, 170
+  orig: 150, 200
+  offset: 21, 9
+  index: -1
+lizi/lizi_00001
+  rotate: false
+  xy: 243, 130
+  size: 117, 170
+  orig: 150, 200
+  offset: 21, 8
+  index: -1
+lizi/lizi_00002
+  rotate: true
+  xy: 367, 365
+  size: 119, 173
+  orig: 150, 200
+  offset: 20, 7
+  index: -1
+lizi/lizi_00003
+  rotate: false
+  xy: 244, 302
+  size: 121, 173
+  orig: 150, 200
+  offset: 19, 8
+  index: -1
+lizi/lizi_00004
+  rotate: true
+  xy: 367, 240
+  size: 123, 172
+  orig: 150, 200
+  offset: 18, 9
+  index: -1
+lizi/lizi_00005
+  rotate: true
+  xy: 659, 895
+  size: 127, 174
+  orig: 150, 200
+  offset: 16, 8
+  index: -1
+lizi/lizi_00006
+  rotate: true
+  xy: 659, 772
+  size: 121, 176
+  orig: 150, 200
+  offset: 23, 7
+  index: -1
+lizi/lizi_00007
+  rotate: true
+  xy: 367, 486
+  size: 123, 174
+  orig: 150, 200
+  offset: 22, 9
+  index: -1
+lizi/lizi_00008
+  rotate: true
+  xy: 659, 647
+  size: 123, 176
+  orig: 150, 200
+  offset: 22, 8
+  index: -1
+lizi/lizi_00009
+  rotate: false
+  xy: 394, 845
+  size: 125, 177
+  orig: 150, 200
+  offset: 21, 7
+  index: -1
+lizi/lizi_00010
+  rotate: true
+  xy: 837, 451
+  size: 119, 179
+  orig: 150, 200
+  offset: 26, 6
+  index: -1
+lizi/lizi_00011
+  rotate: true
+  xy: 477, 725
+  size: 118, 180
+  orig: 150, 200
+  offset: 26, 5
+  index: -1
+lizi/lizi_00012
+  rotate: true
+  xy: 835, 902
+  size: 120, 181
+  orig: 150, 200
+  offset: 25, 4
+  index: -1
+lizi/lizi_00013
+  rotate: false
+  xy: 2, 92
+  size: 122, 180
+  orig: 150, 200
+  offset: 25, 4
+  index: -1
+lizi/lizi_00014
+  rotate: false
+  xy: 269, 842
+  size: 123, 180
+  orig: 150, 200
+  offset: 25, 3
+  index: -1
+lizi/lizi_00015
+  rotate: false
+  xy: 137, 657
+  size: 123, 181
+  orig: 150, 200
+  offset: 27, 2
+  index: -1
+lizi/lizi_00016
+  rotate: false
+  xy: 262, 656
+  size: 103, 182
+  orig: 150, 200
+  offset: 26, 1
+  index: -1
+lizi/lizi_00017
+  rotate: true
+  xy: 837, 689
+  size: 104, 184
+  orig: 150, 200
+  offset: 25, 0
+  index: -1
+lizi/lizi_00018
+  rotate: true
+  xy: 837, 795
+  size: 105, 185
+  orig: 150, 200
+  offset: 24, 0
+  index: -1
+lizi/lizi_00019
+  rotate: false
+  xy: 367, 654
+  size: 108, 186
+  orig: 150, 200
+  offset: 23, 0
+  index: -1
+lizi/lizi_00020
+  rotate: false
+  xy: 132, 456
+  size: 110, 178
+  orig: 150, 200
+  offset: 22, 8
+  index: -1
+lizi/lizi_00021
+  rotate: true
+  xy: 477, 611
+  size: 112, 180
+  orig: 150, 200
+  offset: 21, 7
+  index: -1
+lizi/lizi_00022
+  rotate: true
+  xy: 837, 572
+  size: 115, 181
+  orig: 150, 200
+  offset: 20, 7
+  index: -1
+lizi/lizi_00023
+  rotate: true
+  xy: 659, 527
+  size: 118, 176
+  orig: 150, 200
+  offset: 19, 13
+  index: -1
+lizi/lizi_00024
+  rotate: false
+  xy: 244, 477
+  size: 121, 177
+  orig: 150, 200
+  offset: 18, 13
+  index: -1
+lizi/lizi_00025
+  rotate: false
+  xy: 2, 274
+  size: 125, 178
+  orig: 150, 200
+  offset: 16, 12
+  index: -1
+lizi/lizi_00026
+  rotate: false
+  xy: 2, 454
+  size: 128, 180
+  orig: 150, 200
+  offset: 15, 11
+  index: -1
+lizi/lizi_00027
+  rotate: false
+  xy: 137, 840
+  size: 130, 182
+  orig: 150, 200
+  offset: 14, 10
+  index: -1
+lizi/lizi_00028
+  rotate: false
+  xy: 2, 636
+  size: 133, 184
+  orig: 150, 200
+  offset: 13, 9
+  index: -1
+lizi/lizi_00029
+  rotate: false
+  xy: 521, 856
+  size: 136, 166
+  orig: 150, 200
+  offset: 12, 12
+  index: -1

@@ -1,0 +1,107 @@
+{
+"skeleton": { "hash": "WbGP7pQWYBvY5LRBvdhq3uN1CKk", "spine": "2.1.27", "width": 0, "height": 0, "images": "../effects_HitLine/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "effects", "parent": "root" },
+	{ "name": "suduxian1", "parent": "effects", "scaleX": 3.351, "scaleY": 3.351 },
+	{ "name": "suduxian2", "parent": "effects", "scaleX": 3.35, "scaleY": 3.35 },
+	{ "name": "suduxian3", "parent": "effects", "scaleX": 3.35, "scaleY": 3.35 },
+	{ "name": "suduxian4", "parent": "effects", "scaleX": 3.35, "scaleY": 3.35 }
+],
+"slots": [
+	{ "name": "suduxian_00009", "bone": "suduxian1" },
+	{ "name": "suduxian_00019", "bone": "suduxian2" },
+	{ "name": "suduxian_19", "bone": "suduxian3" },
+	{ "name": "suduxian_20", "bone": "suduxian4" }
+],
+"skins": {
+	"default": {
+		"suduxian_00009": {
+			"skilla_00019": { "scaleX": 0.4, "scaleY": 0.4, "width": 852, "height": 480 }
+		},
+		"suduxian_00019": {
+			"skilla_00042": { "scaleX": 0.4, "scaleY": 0.4, "width": 852, "height": 480 }
+		},
+		"suduxian_19": {
+			"skilla_00000": { "scaleX": 0.4, "scaleY": 0.4, "width": 852, "height": 480 }
+		},
+		"suduxian_20": {
+			"skilla_00031": { "scaleX": 0.4, "scaleY": 0.4, "width": 852, "height": 480 }
+		}
+	}
+},
+"animations": {
+	"effects_HitLine1": {
+		"slots": {
+			"suduxian_00009": {
+				"attachment": [
+					{ "time": 0, "name": "skilla_00019" },
+					{ "time": 0.1, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"suduxian1": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1, "x": 2.09, "y": 2.09 }
+				]
+			}
+		}
+	},
+	"effects_HitLine2": {
+		"slots": {
+			"suduxian_00019": {
+				"attachment": [
+					{ "time": 0, "name": "skilla_00042" },
+					{ "time": 0.1, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"suduxian2": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1, "x": 2.09, "y": 2.09 }
+				]
+			}
+		}
+	},
+	"effects_HitLine3": {
+		"slots": {
+			"suduxian_19": {
+				"attachment": [
+					{ "time": 0, "name": "skilla_00000" },
+					{ "time": 0.1, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"suduxian3": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1, "x": 2.09, "y": 2.09 }
+				]
+			}
+		}
+	},
+	"effects_HitLine4": {
+		"slots": {
+			"suduxian_20": {
+				"attachment": [
+					{ "time": 0, "name": "skilla_00031" },
+					{ "time": 0.1, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"suduxian4": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1, "x": 2.092, "y": 2.09 }
+				]
+			}
+		}
+	}
+}
+}

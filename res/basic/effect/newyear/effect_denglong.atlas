@@ -1,0 +1,20 @@
+
+effect_denglong.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+denglong
+  rotate: false
+  xy: 140, 22
+  size: 75, 224
+  orig: 77, 224
+  offset: 0, 0
+  index: -1
+faguangquhei_00000
+  rotate: false
+  xy: 2, 2
+  size: 136, 244
+  orig: 146, 254
+  offset: 5, 5
+  index: -1

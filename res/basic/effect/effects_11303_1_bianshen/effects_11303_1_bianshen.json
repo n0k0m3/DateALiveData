@@ -1,0 +1,120 @@
+{
+"skeleton": { "hash": "tnCOuWVa6Os3rQu0QpPUQH9vgDU", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bdbox_eff", "parent": "root" },
+	{ "name": "effect", "parent": "root" },
+	{ "name": "bianren", "parent": "effect" },
+	{ "name": "boom", "parent": "effect", "scaleX": 2, "scaleY": 2 },
+	{ "name": "glow", "parent": "effect" }
+],
+"slots": [
+	{ "name": "bdbox_eff", "bone": "bdbox_eff", "attachment": "bdbox_eff" },
+	{ "name": "effects/skillC/bianren/bianren_00000", "bone": "bianren" },
+	{ "name": "effects/skillC/BOOM_00001", "bone": "boom" },
+	{ "name": "effects/skillA/glow_000", "bone": "glow", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"bdbox_eff": {
+			"bdbox_eff": {
+				"type": "boundingbox",
+				"vertices": [ -64.65234, -64.56676, 63.15362, -64.56676, 63.15362, 63.23916, -64.65234, 63.23916 ]
+			}
+		},
+		"effects/skillA/glow_000": {
+			"effects/skillA/glow_000": { "width": 100, "height": 100 }
+		},
+		"effects/skillC/BOOM_00001": {
+			"effects/skillC/BOOM_00001": { "width": 250, "height": 250 }
+		},
+		"effects/skillC/bianren/bianren_00000": {
+			"effects/skillC/bianren/bianren_00000": { "width": 344, "height": 317 },
+			"effects/skillC/bianren/bianren_00002": { "width": 344, "height": 317 },
+			"effects/skillC/bianren/bianren_00004": { "width": 344, "height": 317 },
+			"effects/skillC/bianren/bianren_00006": { "width": 344, "height": 317 },
+			"effects/skillC/bianren/bianren_00008": { "width": 344, "height": 317 },
+			"effects/skillC/bianren/bianren_00010": { "width": 344, "height": 317 }
+		}
+	}
+},
+"events": {
+	"hurt": {},
+	"music": {}
+},
+"animations": {
+	"bianren": {
+		"slots": {
+			"effects/skillA/glow_000": {
+				"attachment": [
+					{ "time": 0, "name": "effects/skillA/glow_000" }
+				],
+				"color": [
+					{ "time": 0, "color": "ecfdffff" },
+					{ "time": 0.0333, "color": "0ec9ffff" },
+					{ "time": 0.0666, "color": "c1a2ffff" },
+					{ "time": 0.1333, "color": "97009d00" }
+				]
+			},
+			"effects/skillC/BOOM_00001": {
+				"attachment": [
+					{ "time": 0, "name": "effects/skillC/BOOM_00001" }
+				],
+				"color": [
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff00" }
+				]
+			},
+			"effects/skillC/bianren/bianren_00000": {
+				"attachment": [
+					{ "time": 0, "name": "effects/skillC/bianren/bianren_00000" },
+					{ "time": 0.0666, "name": "effects/skillC/bianren/bianren_00002" },
+					{ "time": 0.1333, "name": "effects/skillC/bianren/bianren_00004" },
+					{ "time": 0.2, "name": "effects/skillC/bianren/bianren_00006" },
+					{ "time": 0.2666, "name": "effects/skillC/bianren/bianren_00008" },
+					{ "time": 0.3333, "name": "effects/skillC/bianren/bianren_00010" },
+					{ "time": 0.4333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"boom": {
+				"translate": [
+					{ "time": 0, "x": 2.97, "y": -9.9 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 0.3,
+						"y": 0.3,
+						"curve": [ 0, 0.9, 0.75, 1 ]
+					},
+					{
+						"time": 0.1333,
+						"x": 0.486,
+						"y": 0.486,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.3333, "x": 0.4, "y": 0.4 }
+				]
+			},
+			"glow": {
+				"translate": [
+					{ "time": 0, "x": -5.94, "y": -7.92 }
+				],
+				"scale": [
+					{ "time": 0, "x": 4.027, "y": 4.027 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "effects/skillC/BOOM_00001", "offset": 1 }
+				]
+			}
+		]
+	}
+}
+}

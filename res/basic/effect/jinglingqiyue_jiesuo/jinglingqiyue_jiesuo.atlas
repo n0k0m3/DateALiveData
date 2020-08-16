@@ -1,0 +1,111 @@
+
+jinglingqiyue_jiesuo.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: false
+  xy: 2, 77
+  size: 104, 35
+  orig: 232, 56
+  offset: 66, 7
+  index: -1
+02
+  rotate: false
+  xy: 745, 928
+  size: 219, 36
+  orig: 232, 56
+  offset: 6, 7
+  index: -1
+03
+  rotate: true
+  xy: 454, 237
+  size: 225, 39
+  orig: 232, 56
+  offset: 3, 7
+  index: -1
+fang_00000
+  rotate: false
+  xy: 799, 879
+  size: 50, 47
+  orig: 50, 47
+  offset: 0, 0
+  index: -1
+final_00047_00000
+  rotate: false
+  xy: 2, 464
+  size: 656, 500
+  orig: 664, 500
+  offset: 8, 0
+  index: -1
+gong_00000
+  rotate: false
+  xy: 2, 24
+  size: 52, 51
+  orig: 52, 51
+  offset: 0, 0
+  index: -1
+huangse
+  rotate: false
+  xy: 304, 121
+  size: 40, 31
+  orig: 42, 33
+  offset: 1, 1
+  index: -1
+jie
+  rotate: false
+  xy: 495, 411
+  size: 54, 51
+  orig: 54, 51
+  offset: 0, 0
+  index: -1
+kai_00000
+  rotate: false
+  xy: 495, 358
+  size: 52, 51
+  orig: 52, 51
+  offset: 0, 0
+  index: -1
+neng_00000
+  rotate: false
+  xy: 551, 411
+  size: 52, 51
+  orig: 52, 51
+  offset: 0, 0
+  index: -1
+shenglidi
+  rotate: true
+  xy: 660, 472
+  size: 492, 83
+  orig: 494, 85
+  offset: 1, 1
+  index: -1
+suo
+  rotate: false
+  xy: 745, 821
+  size: 52, 51
+  orig: 52, 51
+  offset: 0, 0
+  index: -1
+tiao1_00000
+  rotate: false
+  xy: 2, 154
+  size: 450, 308
+  orig: 450, 320
+  offset: 0, 12
+  index: -1
+tiao_00000
+  rotate: false
+  xy: 2, 114
+  size: 300, 38
+  orig: 300, 100
+  offset: 0, 31
+  index: -1
+xin_00000
+  rotate: false
+  xy: 745, 874
+  size: 52, 52
+  orig: 52, 52
+  offset: 0, 0
+  index: -1

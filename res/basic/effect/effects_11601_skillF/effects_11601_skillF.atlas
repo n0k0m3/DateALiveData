@@ -1,0 +1,411 @@
+
+effects_11601_skillF.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_H/skillF/baozha/baozha_003
+  rotate: true
+  xy: 2, 4
+  size: 216, 176
+  orig: 372, 223
+  offset: 82, 0
+  index: -1
+images/effects_H/skillF/baozha/baozha_004
+  rotate: false
+  xy: 770, 785
+  size: 231, 181
+  orig: 372, 223
+  offset: 50, 0
+  index: -1
+images/effects_H/skillF/baozha/baozha_006
+  rotate: false
+  xy: 407, 357
+  size: 291, 210
+  orig: 372, 223
+  offset: 46, 0
+  index: -1
+images/effects_H/skillF/baozha/baozha_008
+  rotate: true
+  xy: 736, 293
+  size: 320, 223
+  orig: 372, 223
+  offset: 21, 0
+  index: -1
+images/effects_H/skillF/baozha/baozha_010
+  rotate: false
+  xy: 2, 430
+  size: 324, 219
+  orig: 372, 223
+  offset: 32, 0
+  index: -1
+images/effects_H/skillF/baozha/baozha_012
+  rotate: false
+  xy: 407, 819
+  size: 361, 203
+  orig: 372, 223
+  offset: 2, 0
+  index: -1
+images/effects_H/skillF/baozha/baozha_014
+  rotate: false
+  xy: 407, 569
+  size: 327, 149
+  orig: 372, 223
+  offset: 21, 8
+  index: -1
+images/effects_H/skillF/cuan/cuan_000
+  rotate: false
+  xy: 2, 337
+  size: 290, 91
+  orig: 358, 97
+  offset: 8, 0
+  index: -1
+images/effects_H/skillF/cuan/cuan_001
+  rotate: false
+  xy: 2, 749
+  size: 358, 97
+  orig: 358, 97
+  offset: 0, 0
+  index: -1
+images/effects_H/skillF/cuan/cuan_002
+  rotate: false
+  xy: 2, 651
+  size: 351, 96
+  orig: 358, 97
+  offset: 7, 1
+  index: -1
+images/effects_H/skillF/cuan/cuan_004
+  rotate: false
+  xy: 407, 720
+  size: 339, 97
+  orig: 358, 97
+  offset: 18, 0
+  index: -1
+images/effects_H/skillF/cuan/cuan_006
+  rotate: false
+  xy: 736, 615
+  size: 285, 93
+  orig: 358, 97
+  offset: 73, 4
+  index: -1
+images/effects_H/skillF/cuan/cuan_008
+  rotate: false
+  xy: 748, 710
+  size: 264, 73
+  orig: 358, 97
+  offset: 73, 2
+  index: -1
+images/effects_H/skillF/dilie_003
+  rotate: false
+  xy: 770, 968
+  size: 238, 54
+  orig: 252, 77
+  offset: 7, 7
+  index: -1
+images/effects_H/skillF/glow1_000
+  rotate: false
+  xy: 2, 848
+  size: 403, 174
+  orig: 442, 174
+  offset: 25, 0
+  index: -1
+images/effects_H/skillF/kuodian/kuodian_005
+  rotate: false
+  xy: 528, 265
+  size: 206, 90
+  orig: 232, 114
+  offset: 9, 10
+  index: -1
+images/effects_H/skillF/kuodian/kuodian_007
+  rotate: false
+  xy: 736, 210
+  size: 206, 81
+  orig: 232, 114
+  offset: 9, 9
+  index: -1
+images/effects_H/skillF/kuodian/kuodian_009
+  rotate: true
+  xy: 569, 15
+  size: 206, 87
+  orig: 232, 114
+  offset: 9, 12
+  index: -1
+images/effects_H/skillF/kuodian/kuodian_010
+  rotate: true
+  xy: 569, 15
+  size: 206, 87
+  orig: 232, 114
+  offset: 9, 12
+  index: -1
+images/effects_H/skillF/ren_001
+  rotate: false
+  xy: 362, 702
+  size: 43, 144
+  orig: 102, 166
+  offset: 28, 10
+  index: -1
+images/effects_H/skillF/renbian_001
+  rotate: true
+  xy: 658, 136
+  size: 72, 166
+  orig: 102, 166
+  offset: 14, 0
+  index: -1
+images/effects_H/skillF/shandian/shandian_001
+  rotate: true
+  xy: 658, 2
+  size: 127, 131
+  orig: 218, 158
+  offset: 0, 0
+  index: -1
+images/effects_H/skillF/shandian/shandian_002
+  rotate: true
+  xy: 430, 10
+  size: 210, 137
+  orig: 218, 158
+  offset: 8, 0
+  index: -1
+images/effects_H/skillF/shandian/shandian_005
+  rotate: false
+  xy: 791, 4
+  size: 96, 130
+  orig: 218, 158
+  offset: 54, 17
+  index: -1
+images/effects_H/skillF/shandian/shandian_006
+  rotate: true
+  xy: 180, 154
+  size: 181, 112
+  orig: 218, 158
+  offset: 0, 18
+  index: -1
+images/effects_H/skillF/shandian/shandian_007
+  rotate: true
+  xy: 294, 222
+  size: 194, 110
+  orig: 218, 158
+  offset: 9, 21
+  index: -1
+images/effects_H/skillF/shandian/shandian_008
+  rotate: true
+  xy: 528, 223
+  size: 40, 96
+  orig: 218, 158
+  offset: 129, 39
+  index: -1
+images/effects_H/skillF/shandian/shandian_009
+  rotate: true
+  xy: 406, 222
+  size: 69, 120
+  orig: 218, 158
+  offset: 113, 28
+  index: -1
+images/effects_H/skillF/shandian/shandian_010
+  rotate: false
+  xy: 333, 5
+  size: 86, 151
+  orig: 218, 158
+  offset: 45, 0
+  index: -1
+images/effects_H/skillF/shandian/shandian_011
+  rotate: false
+  xy: 961, 271
+  size: 54, 111
+  orig: 218, 158
+  offset: 60, 18
+  index: -1
+images/effects_H/skillF/shandian/shandian_012
+  rotate: false
+  xy: 180, 2
+  size: 83, 150
+  orig: 218, 158
+  offset: 44, 1
+  index: -1
+images/effects_H/skillF/suishandian/suishandian_000
+  rotate: true
+  xy: 328, 457
+  size: 62, 75
+  orig: 120, 120
+  offset: 16, 39
+  index: -1
+images/effects_H/skillF/suishandian/suishandian_001
+  rotate: true
+  xy: 961, 384
+  size: 54, 55
+  orig: 120, 120
+  offset: 16, 54
+  index: -1
+images/effects_H/skillF/suishandian/suishandian_002
+  rotate: true
+  xy: 406, 305
+  size: 50, 47
+  orig: 120, 120
+  offset: 20, 62
+  index: -1
+images/effects_H/skillF/suishandian/suishandian_003
+  rotate: true
+  xy: 889, 23
+  size: 106, 101
+  orig: 120, 120
+  offset: 11, 10
+  index: -1
+images/effects_H/skillF/suishandian/suishandian_004
+  rotate: true
+  xy: 2, 226
+  size: 109, 89
+  orig: 120, 120
+  offset: 8, 9
+  index: -1
+images/effects_H/skillF/suishandian/suishandian_005
+  rotate: true
+  xy: 355, 608
+  size: 92, 50
+  orig: 120, 120
+  offset: 11, 16
+  index: -1
+images/effects_H/skillF/suishandian/suishandian_006
+  rotate: false
+  xy: 455, 309
+  size: 69, 46
+  orig: 120, 120
+  offset: 15, 20
+  index: -1
+images/effects_H/skillF/suishandian/suishandian_008
+  rotate: false
+  xy: 328, 521
+  size: 77, 85
+  orig: 120, 120
+  offset: 13, 5
+  index: -1
+images/effects_H/skillF/suishandian/suishandian_009
+  rotate: false
+  xy: 961, 440
+  size: 59, 81
+  orig: 120, 120
+  offset: 14, 5
+  index: -1
+images/effects_H/skillF/suishandian/suishandian_011
+  rotate: true
+  xy: 93, 244
+  size: 91, 83
+  orig: 120, 120
+  offset: 27, 18
+  index: -1
+images/effects_H/skillF/suishandian/suishandian_012
+  rotate: true
+  xy: 328, 418
+  size: 37, 74
+  orig: 120, 120
+  offset: 78, 23
+  index: -1
+images/effects_H/skillF/zishen/zishen_012
+  rotate: false
+  xy: 961, 523
+  size: 59, 90
+  orig: 102, 166
+  offset: 23, 33
+  index: -1
+images/effects_H/skillF/zishen/zishen_016
+  rotate: true
+  xy: 294, 158
+  size: 62, 134
+  orig: 102, 166
+  offset: 18, 16
+  index: -1
+images/effects_H/skillF/zishen/zishen_020
+  rotate: false
+  xy: 944, 131
+  size: 78, 138
+  orig: 102, 166
+  offset: 6, 0
+  index: -1
+images/effects_H/skillF/zishen/zishen_022
+  rotate: false
+  xy: 265, 9
+  size: 66, 143
+  orig: 102, 166
+  offset: 16, 0
+  index: -1
+images/effects_H/skillF/zishen/zishen_024
+  rotate: false
+  xy: 658, 215
+  size: 44, 48
+  orig: 102, 166
+  offset: 19, 29
+  index: -1
+
+effects_11601_skillF2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_H/skillF/bai_000
+  rotate: false
+  xy: 426, 425
+  size: 80, 81
+  orig: 94, 106
+  offset: 7, 12
+  index: -1
+images/effects_H/skillF/glow_000
+  rotate: false
+  xy: 91, 132
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+images/effects_H/skillF/hei_000
+  rotate: false
+  xy: 83, 49
+  size: 80, 81
+  orig: 94, 106
+  offset: 7, 12
+  index: -1
+images/effects_H/skillF/kuodian/kuodian_003
+  rotate: true
+  xy: 2, 155
+  size: 194, 87
+  orig: 232, 114
+  offset: 18, 13
+  index: -1
+images/effects_H/skillF/shandian/shandian_000
+  rotate: false
+  xy: 2, 16
+  size: 79, 137
+  orig: 218, 158
+  offset: 57, 0
+  index: -1
+images/effects_H/skillF/shandian/shandian_003
+  rotate: false
+  xy: 178, 372
+  size: 140, 134
+  orig: 218, 158
+  offset: 64, 2
+  index: -1
+images/effects_H/skillF/shandian/shandian_004
+  rotate: false
+  xy: 2, 351
+  size: 174, 155
+  orig: 218, 158
+  offset: 8, 3
+  index: -1
+images/effects_H/skillF/suishandian/suishandian_007
+  rotate: false
+  xy: 320, 312
+  size: 101, 97
+  orig: 120, 120
+  offset: 11, 6
+  index: -1
+images/effects_H/skillF/suishandian/suishandian_010
+  rotate: false
+  xy: 320, 411
+  size: 104, 95
+  orig: 120, 120
+  offset: 14, 7
+  index: -1
+images/effects_H/skillF/zishen/zishen_018
+  rotate: false
+  xy: 91, 214
+  size: 72, 135
+  orig: 102, 166
+  offset: 4, 0
+  index: -1

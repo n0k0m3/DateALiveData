@@ -1,0 +1,63 @@
+{
+"skeleton": {
+	"hash": "VUZCuzpSoA/JZKf1v6k3FEemKmc",
+	"spine": "2.1.27",
+	"width": 0,
+	"height": 0,
+	"images": "C:/Users/Administrator/Desktop/尺寸需要修改的特效/map_shandian_02"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" }
+],
+"slots": [
+	{ "name": "images/shandian/shandian_00056", "bone": "bone", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"images/shandian/shandian_00056": {
+			"images/shandian/shandian_00056": { "width": 307, "height": 180 },
+			"images/shandian/shandian_00057": { "width": 265, "height": 180 },
+			"images/shandian/shandian_00058": { "width": 265, "height": 177 },
+			"images/shandian/shandian_00059": { "width": 330, "height": 177 },
+			"images/shandian/shandian_00060": { "width": 290, "height": 181 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"images/shandian/shandian_00056": {
+				"attachment": [
+					{ "time": 0, "name": "images/shandian/shandian_00056" },
+					{ "time": 0.0666, "name": "images/shandian/shandian_00057" },
+					{ "time": 0.1333, "name": "images/shandian/shandian_00058" },
+					{ "time": 0.2, "name": null },
+					{ "time": 1.2666, "name": "images/shandian/shandian_00058" },
+					{ "time": 1.3333, "name": "images/shandian/shandian_00059" },
+					{ "time": 1.4, "name": null },
+					{ "time": 2.5666, "name": "images/shandian/shandian_00057" },
+					{ "time": 2.6333, "name": "images/shandian/shandian_00059" },
+					{ "time": 2.7, "name": "images/shandian/shandian_00057" },
+					{ "time": 2.7666, "name": "images/shandian/shandian_00060" },
+					{ "time": 2.8333, "name": "images/shandian/shandian_00056" },
+					{ "time": 2.9, "name": null },
+					{ "time": 4.1333, "name": "images/shandian/shandian_00057" },
+					{ "time": 4.2, "name": "images/shandian/shandian_00056" },
+					{ "time": 4.2666, "name": "images/shandian/shandian_00058" },
+					{ "time": 4.3333, "name": "images/shandian/shandian_00057" },
+					{ "time": 4.4, "name": "images/shandian/shandian_00060" },
+					{ "time": 4.4666, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"translate": [
+					{ "time": 0, "x": 7.14, "y": -99.04 }
+				]
+			}
+		}
+	}
+}
+}

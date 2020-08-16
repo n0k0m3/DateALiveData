@@ -1,0 +1,20 @@
+
+dailingqu_ui.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guang
+  rotate: false
+  xy: 2, 101
+  size: 152, 284
+  orig: 152, 284
+  offset: 0, 0
+  index: -1
+liangtiao
+  rotate: false
+  xy: 156, 362
+  size: 229, 23
+  orig: 229, 23
+  offset: 0, 0
+  index: -1

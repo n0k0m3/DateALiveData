@@ -1,0 +1,208 @@
+
+effects_25101_skillC.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/skillC/bing1/bing1_00001
+  rotate: false
+  xy: 690, 36
+  size: 161, 131
+  orig: 240, 240
+  offset: 22, 23
+  index: -1
+images/effect/skillC/bing1/bing1_00003
+  rotate: true
+  xy: 538, 30
+  size: 192, 150
+  orig: 240, 240
+  offset: 11, 27
+  index: -1
+images/effect/skillC/bing1/bing1_00005
+  rotate: false
+  xy: 335, 44
+  size: 201, 193
+  orig: 240, 240
+  offset: 4, 18
+  index: -1
+images/effect/skillC/bing1/bing1_00007
+  rotate: false
+  xy: 349, 239
+  size: 213, 188
+  orig: 240, 240
+  offset: 0, 18
+  index: -1
+images/effect/skillC/bing1/bing1_00009
+  rotate: false
+  xy: 701, 420
+  size: 222, 189
+  orig: 240, 240
+  offset: 0, 18
+  index: -1
+images/effect/skillC/bing2/bing2_00002
+  rotate: false
+  xy: 357, 605
+  size: 254, 179
+  orig: 320, 320
+  offset: 29, 58
+  index: -1
+images/effect/skillC/bing2/bing2_00004
+  rotate: false
+  xy: 708, 788
+  size: 275, 226
+  orig: 320, 320
+  offset: 19, 52
+  index: -1
+images/effect/skillC/bing2/bing2_00013
+  rotate: false
+  xy: 174, 357
+  size: 173, 219
+  orig: 320, 320
+  offset: 78, 53
+  index: -1
+images/effect/skillC/bing3/bing3_00000
+  rotate: true
+  xy: 583, 396
+  size: 159, 110
+  orig: 240, 240
+  offset: 29, 36
+  index: -1
+images/effect/skillC/bing3/bing3_00002
+  rotate: true
+  xy: 224, 578
+  size: 191, 123
+  orig: 240, 240
+  offset: 17, 26
+  index: -1
+images/effect/skillC/bing3/bing3_00004
+  rotate: true
+  xy: 174, 159
+  size: 196, 159
+  orig: 240, 240
+  offset: 10, 18
+  index: -1
+images/effect/skillC/bing3/bing3_00006
+  rotate: true
+  xy: 859, 148
+  size: 213, 155
+  orig: 240, 240
+  offset: 2, 19
+  index: -1
+images/effect/skillC/bingbao/bingbao_00000
+  rotate: false
+  xy: 708, 611
+  size: 266, 175
+  orig: 400, 320
+  offset: 67, 66
+  index: -1
+images/effect/skillC/bingbao/bingbao_00002
+  rotate: false
+  xy: 357, 786
+  size: 349, 228
+  orig: 400, 320
+  offset: 26, 66
+  index: -1
+images/effect/skillC/bingbao/bingbao_00004
+  rotate: false
+  xy: 2, 771
+  size: 353, 243
+  orig: 400, 320
+  offset: 22, 68
+  index: -1
+images/effect/skillC/bingbao/bingbao_00008
+  rotate: false
+  xy: 2, 580
+  size: 220, 189
+  orig: 400, 320
+  offset: 91, 70
+  index: -1
+images/effect/skillC/bingbao/bingbao_00010
+  rotate: false
+  xy: 349, 429
+  size: 232, 174
+  orig: 400, 320
+  offset: 85, 81
+  index: -1
+images/effect/skillC/bingbao/bingbao_00012
+  rotate: true
+  xy: 2, 336
+  size: 242, 170
+  orig: 400, 320
+  offset: 80, 82
+  index: -1
+images/effect/skillC/bingbao/bingbao_00014
+  rotate: true
+  xy: 695, 169
+  size: 249, 162
+  orig: 400, 320
+  offset: 76, 88
+  index: -1
+images/effect/skillC/di_00040
+  rotate: true
+  xy: 613, 557
+  size: 227, 86
+  orig: 280, 120
+  offset: 18, 19
+  index: -1
+images/effect/skillC/mian_00047
+  rotate: true
+  xy: 925, 363
+  size: 246, 54
+  orig: 320, 80
+  offset: 39, 14
+  index: -1
+images/effect/skillC/skllC/baodian_00045
+  rotate: false
+  xy: 136, 40
+  size: 115, 117
+  orig: 240, 240
+  offset: 65, 61
+  index: -1
+images/effect/skillC/skllC/baodian_00047
+  rotate: false
+  xy: 2, 166
+  size: 170, 168
+  orig: 240, 240
+  offset: 39, 33
+  index: -1
+images/effect/skillC/skllC/baodian_00049
+  rotate: false
+  xy: 564, 224
+  size: 129, 170
+  orig: 240, 240
+  offset: 53, 29
+  index: -1
+images/effect/skillC/skllC/baodian_00051
+  rotate: true
+  xy: 853, 17
+  size: 129, 157
+  orig: 240, 240
+  offset: 53, 36
+  index: -1
+images/effect/skillC/skllC/baodian_00053
+  rotate: false
+  xy: 2, 39
+  size: 132, 125
+  orig: 240, 240
+  offset: 52, 60
+  index: -1
+
+effects_25101_skillC2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/skillC/bing2/bing2_00000
+  rotate: true
+  xy: 2, 2
+  size: 213, 176
+  orig: 320, 320
+  offset: 45, 39
+  index: -1
+images/effect/skillC/bingbao/bingbao_00006
+  rotate: false
+  xy: 2, 217
+  size: 203, 188
+  orig: 400, 320
+  offset: 100, 69
+  index: -1

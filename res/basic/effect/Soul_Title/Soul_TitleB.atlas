@@ -1,0 +1,41 @@
+
+Soul_TitleB.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+453
+  rotate: true
+  xy: 31, 31
+  size: 130, 36
+  orig: 170, 82
+  offset: 16, 22
+  index: -1
+baidi
+  rotate: true
+  xy: 2, 2
+  size: 213, 27
+  orig: 213, 27
+  offset: 0, 0
+  index: -1
+baige
+  rotate: false
+  xy: 31, 163
+  size: 124, 52
+  orig: 124, 52
+  offset: 0, 0
+  index: -1
+baiglow
+  rotate: false
+  xy: 2, 217
+  size: 205, 37
+  orig: 205, 37
+  offset: 0, 0
+  index: -1
+bailizi
+  rotate: false
+  xy: 209, 229
+  size: 29, 25
+  orig: 29, 25
+  offset: 0, 0
+  index: -1

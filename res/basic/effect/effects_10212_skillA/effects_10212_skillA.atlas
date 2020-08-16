@@ -1,0 +1,397 @@
+
+effects_10212_skillA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/glow
+  rotate: false
+  xy: 911, 209
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+images/effect/skilla/chuanci/chuanci_000
+  rotate: false
+  xy: 285, 76
+  size: 120, 15
+  orig: 280, 48
+  offset: 13, 17
+  index: -1
+images/effect/skilla/chuanci/chuanci_002
+  rotate: true
+  xy: 215, 36
+  size: 265, 42
+  orig: 280, 48
+  offset: 0, 4
+  index: -1
+images/effect/skilla/chuanci/chuanci_004
+  rotate: true
+  xy: 259, 34
+  size: 270, 24
+  orig: 280, 48
+  offset: 0, 13
+  index: -1
+images/effect/skilla/chuanci/chuanci_006
+  rotate: false
+  xy: 195, 11
+  size: 190, 21
+  orig: 280, 48
+  offset: 43, 14
+  index: -1
+images/effect/skilla/dazidan/dazidan_000
+  rotate: false
+  xy: 482, 832
+  size: 277, 72
+  orig: 288, 72
+  offset: 9, 0
+  index: -1
+images/effect/skilla/dazidan/dazidan_004
+  rotate: false
+  xy: 459, 544
+  size: 277, 72
+  orig: 288, 72
+  offset: 9, 0
+  index: -1
+images/effect/skilla/dazidan/dazidan_008
+  rotate: true
+  xy: 847, 335
+  size: 277, 72
+  orig: 288, 72
+  offset: 9, 0
+  index: -1
+images/effect/skilla/hit/hit_000
+  rotate: false
+  xy: 459, 618
+  size: 211, 212
+  orig: 240, 240
+  offset: 14, 15
+  index: -1
+images/effect/skilla/hit/hit_001
+  rotate: false
+  xy: 672, 618
+  size: 211, 212
+  orig: 240, 240
+  offset: 14, 15
+  index: -1
+images/effect/skilla/hit/hit_002
+  rotate: false
+  xy: 424, 330
+  size: 211, 212
+  orig: 240, 240
+  offset: 14, 15
+  index: -1
+images/effect/skilla/jiguang/jiguang_000
+  rotate: true
+  xy: 238, 306
+  size: 230, 33
+  orig: 480, 64
+  offset: 0, 17
+  index: -1
+images/effect/skilla/jiguang/jiguang_001
+  rotate: false
+  xy: 2, 897
+  size: 478, 60
+  orig: 480, 64
+  offset: 0, 4
+  index: -1
+images/effect/skilla/jiguang/jiguang_003
+  rotate: false
+  xy: 2, 959
+  size: 480, 63
+  orig: 480, 64
+  offset: 0, 1
+  index: -1
+images/effect/skilla/jiguang/jiguang_005
+  rotate: false
+  xy: 484, 962
+  size: 438, 60
+  orig: 480, 64
+  offset: 20, 3
+  index: -1
+images/effect/skilla/jiguang/jiguang_007
+  rotate: false
+  xy: 2, 833
+  size: 431, 62
+  orig: 480, 64
+  offset: 34, 2
+  index: -1
+images/effect/skilla/jiguang/jiguang_009
+  rotate: false
+  xy: 2, 771
+  size: 424, 60
+  orig: 480, 64
+  offset: 34, 4
+  index: -1
+images/effect/skilla/jiguang/jiguang_011
+  rotate: false
+  xy: 484, 931
+  size: 423, 29
+  orig: 480, 64
+  offset: 34, 18
+  index: -1
+images/effect/skilla/jiguang/jiguang_013
+  rotate: false
+  xy: 482, 906
+  size: 306, 23
+  orig: 480, 64
+  offset: 60, 21
+  index: -1
+images/effect/skilla/juqi/juqi_000
+  rotate: true
+  xy: 2, 61
+  size: 240, 211
+  orig: 240, 240
+  offset: 0, 27
+  index: -1
+images/effect/skilla/juqi/juqi_001
+  rotate: false
+  xy: 2, 538
+  size: 239, 231
+  orig: 240, 240
+  offset: 1, 6
+  index: -1
+images/effect/skilla/juqi/juqi_003
+  rotate: true
+  xy: 243, 552
+  size: 217, 214
+  orig: 240, 240
+  offset: 11, 11
+  index: -1
+images/effect/skilla/juqi/juqi_007
+  rotate: false
+  xy: 2, 303
+  size: 234, 233
+  orig: 240, 240
+  offset: 2, 2
+  index: -1
+images/effect/skilla/juqi/juqi_011
+  rotate: true
+  xy: 637, 329
+  size: 213, 208
+  orig: 240, 240
+  offset: 16, 12
+  index: -1
+images/effect/skilla/lujin1/lujin1_000
+  rotate: true
+  xy: 921, 291
+  size: 138, 99
+  orig: 200, 114
+  offset: 6, 9
+  index: -1
+images/effect/skilla/lujin1/lujin1_002
+  rotate: true
+  xy: 924, 840
+  size: 182, 98
+  orig: 200, 114
+  offset: 9, 2
+  index: -1
+images/effect/skilla/lujin1/lujin1_004
+  rotate: true
+  xy: 921, 431
+  size: 181, 101
+  orig: 200, 114
+  offset: 10, 0
+  index: -1
+images/effect/skilla/lujin1/lujin1_006
+  rotate: true
+  xy: 809, 148
+  size: 179, 100
+  orig: 200, 114
+  offset: 12, 2
+  index: -1
+images/effect/skilla/lujin1/lujin1_010
+  rotate: false
+  xy: 435, 833
+  size: 39, 62
+  orig: 200, 114
+  offset: 143, 25
+  index: -1
+images/effect/skilla/lujin1/lujin1_012
+  rotate: true
+  xy: 935, 2
+  size: 12, 30
+  orig: 200, 114
+  offset: 166, 48
+  index: -1
+images/effect/skilla/lujin2/lujin2_000
+  rotate: false
+  xy: 621, 2
+  size: 149, 147
+  orig: 248, 200
+  offset: 96, 44
+  index: -1
+images/effect/skilla/lujin2/lujin2_002
+  rotate: true
+  xy: 273, 324
+  size: 226, 149
+  orig: 248, 200
+  offset: 22, 18
+  index: -1
+images/effect/skilla/lujin2/lujin2_004
+  rotate: true
+  xy: 285, 93
+  size: 229, 141
+  orig: 248, 200
+  offset: 18, 18
+  index: -1
+images/effect/skilla/lujin2/lujin2_006
+  rotate: true
+  xy: 885, 614
+  size: 224, 132
+  orig: 248, 200
+  offset: 18, 21
+  index: -1
+images/effect/skilla/shifa/shifa_000
+  rotate: true
+  xy: 772, 4
+  size: 142, 161
+  orig: 240, 176
+  offset: 30, 9
+  index: -1
+images/effect/skilla/shifa/shifa_003
+  rotate: false
+  xy: 622, 151
+  size: 185, 176
+  orig: 240, 176
+  offset: 4, 0
+  index: -1
+images/effect/skilla/shifa/shifa_005
+  rotate: false
+  xy: 428, 152
+  size: 192, 176
+  orig: 240, 176
+  offset: 5, 0
+  index: -1
+images/effect/skilla/zidan/zidan_000
+  rotate: true
+  xy: 980, 16
+  size: 191, 41
+  orig: 192, 51
+  offset: 0, 6
+  index: -1
+images/effect/skilla/zidan/zidan_004
+  rotate: false
+  xy: 2, 15
+  size: 191, 44
+  orig: 192, 51
+  offset: 0, 4
+  index: -1
+images/effect/skilla/zidan/zidan_008
+  rotate: true
+  xy: 935, 16
+  size: 191, 43
+  orig: 192, 51
+  offset: 0, 4
+  index: -1
+images/effect/tongyong/qixuan/qixuan_006
+  rotate: true
+  xy: 428, 23
+  size: 127, 191
+  orig: 176, 211
+  offset: 16, 8
+  index: -1
+
+effects_10212_skillA2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/skilla/chuanci/chuanci_008
+  rotate: true
+  xy: 149, 455
+  size: 187, 20
+  orig: 280, 48
+  offset: 44, 14
+  index: -1
+images/effect/skilla/hit/hit_004
+  rotate: false
+  xy: 563, 835
+  size: 169, 160
+  orig: 240, 240
+  offset: 38, 40
+  index: -1
+images/effect/skilla/hit/hit_006
+  rotate: false
+  xy: 169, 831
+  size: 172, 164
+  orig: 240, 240
+  offset: 35, 39
+  index: -1
+images/effect/skilla/hit/hit_008
+  rotate: true
+  xy: 734, 833
+  size: 162, 165
+  orig: 240, 240
+  offset: 37, 41
+  index: -1
+images/effect/skilla/hit/hit_010
+  rotate: true
+  xy: 343, 726
+  size: 154, 163
+  orig: 240, 240
+  offset: 40, 42
+  index: -1
+images/effect/skilla/lujin1/lujin1_008
+  rotate: true
+  xy: 901, 842
+  size: 153, 94
+  orig: 200, 114
+  offset: 38, 9
+  index: -1
+images/effect/skilla/lujin2/lujin2_008
+  rotate: false
+  xy: 343, 882
+  size: 218, 113
+  orig: 248, 200
+  offset: 18, 23
+  index: -1
+images/effect/skilla/shifa/shifa_001
+  rotate: false
+  xy: 2, 819
+  size: 165, 176
+  orig: 240, 176
+  offset: 13, 0
+  index: -1
+images/effect/skilla/shifa/shifa_007
+  rotate: false
+  xy: 2, 644
+  size: 164, 173
+  orig: 240, 176
+  offset: 38, 3
+  index: -1
+images/effect/skilla/shifa/shifa_009
+  rotate: true
+  xy: 671, 695
+  size: 136, 142
+  orig: 240, 176
+  offset: 50, 22
+  index: -1
+images/effect/tongyong/qixuan/qixuan_000
+  rotate: true
+  xy: 508, 693
+  size: 140, 161
+  orig: 176, 211
+  offset: 28, 24
+  index: -1
+images/effect/tongyong/qixuan/qixuan_002
+  rotate: false
+  xy: 2, 454
+  size: 145, 188
+  orig: 176, 211
+  offset: 14, 8
+  index: -1
+images/effect/tongyong/qixuan/qixuan_004
+  rotate: false
+  xy: 2, 255
+  size: 131, 197
+  orig: 176, 211
+  offset: 22, 6
+  index: -1
+images/effect/tongyong/qixuan/qixuan_008
+  rotate: false
+  xy: 2, 67
+  size: 116, 186
+  orig: 176, 211
+  offset: 14, 16
+  index: -1

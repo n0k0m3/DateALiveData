@@ -1,0 +1,104 @@
+
+effect_ZHzhuye.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/A_4_5
+  rotate: false
+  xy: 664, 800
+  size: 129, 180
+  orig: 129, 180
+  offset: 0, 0
+  index: -1
+images/dian
+  rotate: false
+  xy: 2, 2
+  size: 12, 4
+  orig: 55, 22
+  offset: 22, 10
+  index: -1
+images/glow
+  rotate: false
+  xy: 448, 742
+  size: 214, 238
+  orig: 214, 238
+  offset: 0, 0
+  index: -1
+images/guang
+  rotate: false
+  xy: 2, 357
+  size: 372, 320
+  orig: 372, 320
+  offset: 0, 0
+  index: -1
+images/guangtiao
+  rotate: false
+  xy: 2, 679
+  size: 444, 301
+  orig: 444, 301
+  offset: 0, 0
+  index: -1
+images/liubianxing
+  rotate: false
+  xy: 2, 166
+  size: 160, 189
+  orig: 214, 238
+  offset: 26, 22
+  index: -1
+images/lizidan_00002
+  rotate: false
+  xy: 408, 666
+  size: 11, 11
+  orig: 32, 28
+  offset: 10, 8
+  index: -1
+images/tiao
+  rotate: true
+  xy: 448, 719
+  size: 21, 147
+  orig: 21, 147
+  offset: 0, 0
+  index: -1
+images/wang
+  rotate: false
+  xy: 164, 265
+  size: 80, 90
+  orig: 80, 90
+  offset: 0, 0
+  index: -1
+images/xian
+  rotate: true
+  xy: 664, 760
+  size: 38, 58
+  orig: 38, 58
+  offset: 0, 0
+  index: -1
+images/xiaoliu
+  rotate: false
+  xy: 376, 415
+  size: 12, 14
+  orig: 12, 14
+  offset: 0, 0
+  index: -1
+images/yuan
+  rotate: false
+  xy: 795, 958
+  size: 55, 22
+  orig: 55, 22
+  offset: 0, 0
+  index: -1
+images/zi1
+  rotate: false
+  xy: 2, 8
+  size: 68, 156
+  orig: 68, 156
+  offset: 0, 0
+  index: -1
+images/zi2
+  rotate: false
+  xy: 376, 431
+  size: 30, 246
+  orig: 30, 246
+  offset: 0, 0
+  index: -1

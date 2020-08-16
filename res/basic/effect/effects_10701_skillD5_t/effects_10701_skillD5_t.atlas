@@ -1,0 +1,340 @@
+
+effects_10701_skillD5_t.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillb_l3/p3_f/ceng_d_0001
+  rotate: false
+  xy: 2, 10
+  size: 276, 116
+  orig: 280, 120
+  offset: 4, 0
+  index: -1
+images/effects/skillb_l3/p3_f/ceng_d_0004
+  rotate: false
+  xy: 280, 10
+  size: 276, 116
+  orig: 280, 120
+  offset: 4, 0
+  index: -1
+images/effects/skilld/p5_f/p5_f_0001
+  rotate: true
+  xy: 687, 367
+  size: 655, 335
+  orig: 700, 340
+  offset: 17, 0
+  index: -1
+images/effects/skilld/p5_f/p5_f_0006
+  rotate: false
+  xy: 2, 128
+  size: 680, 291
+  orig: 700, 340
+  offset: 5, 5
+  index: -1
+images/effects/skilld/p5_f/p5_f_0007
+  rotate: false
+  xy: 2, 721
+  size: 683, 301
+  orig: 700, 340
+  offset: 4, 0
+  index: -1
+images/effects/skilld/p5_f/p5_f_0008
+  rotate: false
+  xy: 2, 421
+  size: 682, 298
+  orig: 700, 340
+  offset: 4, 6
+  index: -1
+images/effects/skilld/p5_g/p5_g_0001
+  rotate: true
+  xy: 810, 13
+  size: 114, 105
+  orig: 300, 170
+  offset: 72, 2
+  index: -1
+images/effects/skilld/p5_g/p5_g_0003
+  rotate: true
+  xy: 684, 129
+  size: 236, 148
+  orig: 300, 170
+  offset: 8, 2
+  index: -1
+images/effects/skilld/p5_g/p5_g_0014
+  rotate: false
+  xy: 558, 11
+  size: 250, 115
+  orig: 300, 170
+  offset: 35, 2
+  index: -1
+images/effects/skilld/p5_g/p5_g_0015
+  rotate: true
+  xy: 917, 119
+  size: 246, 104
+  orig: 300, 170
+  offset: 36, 3
+  index: -1
+
+effects_10701_skillD5_t2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillb_l3/p1_c/wing_a_0001
+  rotate: true
+  xy: 875, 205
+  size: 270, 142
+  orig: 300, 160
+  offset: 26, 3
+  index: -1
+images/effects/skillb_l3/p1_c/wing_a_0003
+  rotate: false
+  xy: 683, 887
+  size: 279, 135
+  orig: 300, 160
+  offset: 17, 11
+  index: -1
+images/effects/skilld/p5_f/p5_f_0002
+  rotate: true
+  xy: 584, 77
+  size: 655, 289
+  orig: 700, 340
+  offset: 17, 6
+  index: -1
+images/effects/skilld/p5_f/p5_f_0003
+  rotate: true
+  xy: 287, 78
+  size: 654, 295
+  orig: 700, 340
+  offset: 18, 0
+  index: -1
+images/effects/skilld/p5_f/p5_f_0005
+  rotate: true
+  xy: 2, 52
+  size: 680, 283
+  orig: 700, 340
+  offset: 5, 0
+  index: -1
+images/effects/skilld/p5_f/p5_f_0009
+  rotate: false
+  xy: 2, 734
+  size: 679, 288
+  orig: 700, 340
+  offset: 6, 12
+  index: -1
+images/effects/skilld/p5_g/p5_g_0002
+  rotate: true
+  xy: 875, 6
+  size: 197, 140
+  orig: 300, 170
+  offset: 33, 2
+  index: -1
+images/effects/skilld/p5_g/p5_g_0009
+  rotate: false
+  xy: 683, 734
+  size: 254, 151
+  orig: 300, 170
+  offset: 26, 2
+  index: -1
+images/effects/skilld/p5_g/p5_g_0010
+  rotate: false
+  xy: 683, 734
+  size: 254, 151
+  orig: 300, 170
+  offset: 26, 2
+  index: -1
+images/effects/skilld/p5_g/p5_g_0011
+  rotate: true
+  xy: 875, 477
+  size: 255, 147
+  orig: 300, 170
+  offset: 28, 2
+  index: -1
+images/effects/skilld/p5_h/p5_h_0003
+  rotate: false
+  xy: 288, 2
+  size: 289, 73
+  orig: 304, 88
+  offset: 7, 5
+  index: -1
+images/effects/skilld/p5_h/p5_h_0004
+  rotate: false
+  xy: 579, 2
+  size: 281, 73
+  orig: 304, 88
+  offset: 8, 7
+  index: -1
+images/effects/skilld/p5_h/p5_h_0011
+  rotate: false
+  xy: 2, 18
+  size: 284, 32
+  orig: 304, 88
+  offset: 10, 47
+  index: -1
+
+effects_10701_skillD5_t3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillb_l3/p1_c/wing_a_0002
+  rotate: true
+  xy: 464, 465
+  size: 268, 141
+  orig: 300, 160
+  offset: 28, 4
+  index: -1
+images/effects/skillb_l3/p1_c/wing_a_0004
+  rotate: false
+  xy: 2, 190
+  size: 272, 133
+  orig: 300, 160
+  offset: 24, 11
+  index: -1
+images/effects/skillb_l3/p1_c/wing_a_0005
+  rotate: false
+  xy: 2, 325
+  size: 275, 137
+  orig: 300, 160
+  offset: 21, 11
+  index: -1
+images/effects/skillb_l3/p3_f/ceng_d_0002
+  rotate: false
+  xy: 668, 453
+  size: 272, 107
+  orig: 280, 120
+  offset: 4, 0
+  index: -1
+images/effects/skillb_l3/p3_f/ceng_d_0003
+  rotate: false
+  xy: 279, 219
+  size: 271, 110
+  orig: 280, 120
+  offset: 4, 0
+  index: -1
+images/effects/skilld/p1_a_00009
+  rotate: false
+  xy: 552, 249
+  size: 233, 129
+  orig: 233, 129
+  offset: 0, 0
+  index: -1
+images/effects/skilld/p5_f/p5_f_0004
+  rotate: false
+  xy: 2, 735
+  size: 664, 284
+  orig: 700, 340
+  offset: 13, 0
+  index: -1
+images/effects/skilld/p5_f/p5_f_0010
+  rotate: false
+  xy: 2, 464
+  size: 460, 269
+  orig: 700, 340
+  offset: 136, 12
+  index: -1
+images/effects/skilld/p5_g/p5_g_0004
+  rotate: false
+  xy: 668, 562
+  size: 250, 152
+  orig: 300, 170
+  offset: 5, 2
+  index: -1
+images/effects/skilld/p5_g/p5_g_0005
+  rotate: false
+  xy: 2, 35
+  size: 252, 153
+  orig: 300, 170
+  offset: 6, 2
+  index: -1
+images/effects/skilld/p5_g/p5_g_0006
+  rotate: false
+  xy: 668, 867
+  size: 261, 152
+  orig: 300, 170
+  offset: 7, 2
+  index: -1
+images/effects/skilld/p5_g/p5_g_0007
+  rotate: false
+  xy: 668, 867
+  size: 261, 152
+  orig: 300, 170
+  offset: 7, 2
+  index: -1
+images/effects/skilld/p5_g/p5_g_0008
+  rotate: false
+  xy: 668, 716
+  size: 256, 149
+  orig: 300, 170
+  offset: 22, 2
+  index: -1
+images/effects/skilld/p5_g/p5_g_0012
+  rotate: false
+  xy: 279, 331
+  size: 253, 131
+  orig: 300, 170
+  offset: 32, 2
+  index: -1
+images/effects/skilld/p5_g/p5_g_0013
+  rotate: false
+  xy: 279, 331
+  size: 253, 131
+  orig: 300, 170
+  offset: 32, 2
+  index: -1
+images/effects/skilld/p5_h/p5_h_0001
+  rotate: true
+  xy: 607, 463
+  size: 270, 59
+  orig: 304, 88
+  offset: 13, 7
+  index: -1
+images/effects/skilld/p5_h/p5_h_0002
+  rotate: true
+  xy: 931, 758
+  size: 261, 73
+  orig: 304, 88
+  offset: 15, 1
+  index: -1
+images/effects/skilld/p5_h/p5_h_0005
+  rotate: false
+  xy: 276, 148
+  size: 276, 69
+  orig: 304, 88
+  offset: 8, 13
+  index: -1
+images/effects/skilld/p5_h/p5_h_0006
+  rotate: false
+  xy: 256, 67
+  size: 286, 79
+  orig: 304, 88
+  offset: 9, 4
+  index: -1
+images/effects/skilld/p5_h/p5_h_0007
+  rotate: false
+  xy: 534, 380
+  size: 286, 71
+  orig: 304, 88
+  offset: 9, 10
+  index: -1
+images/effects/skilld/p5_h/p5_h_0008
+  rotate: false
+  xy: 554, 178
+  size: 287, 69
+  orig: 304, 88
+  offset: 9, 9
+  index: -1
+images/effects/skilld/p5_h/p5_h_0009
+  rotate: false
+  xy: 554, 108
+  size: 277, 68
+  orig: 304, 88
+  offset: 19, 14
+  index: -1
+images/effects/skilld/p5_h/p5_h_0010
+  rotate: false
+  xy: 256, 2
+  size: 281, 63
+  orig: 304, 88
+  offset: 14, 18
+  index: -1

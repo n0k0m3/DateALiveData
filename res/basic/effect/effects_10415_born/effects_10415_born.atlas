@@ -1,0 +1,139 @@
+
+effects_10415_born.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_H/born/baodian/baodian_026
+  rotate: false
+  xy: 831, 848
+  size: 190, 173
+  orig: 210, 224
+  offset: 0, 0
+  index: -1
+images/effects_H/born/baodian/baodian_028
+  rotate: false
+  xy: 2, 205
+  size: 193, 190
+  orig: 210, 224
+  offset: 0, 7
+  index: -1
+images/effects_H/born/baodian/baodian_030
+  rotate: false
+  xy: 2, 397
+  size: 209, 199
+  orig: 210, 224
+  offset: 0, 1
+  index: -1
+images/effects_H/born/baodian/baodian_032
+  rotate: false
+  xy: 2, 598
+  size: 210, 210
+  orig: 210, 224
+  offset: 0, 0
+  index: -1
+images/effects_H/born/baodian/baodian_034
+  rotate: false
+  xy: 2, 810
+  size: 210, 211
+  orig: 210, 224
+  offset: 0, 1
+  index: -1
+images/effects_H/born/baodian/baodian_036
+  rotate: false
+  xy: 214, 812
+  size: 210, 209
+  orig: 210, 224
+  offset: 0, 4
+  index: -1
+images/effects_H/born/baodian/baodian_038
+  rotate: false
+  xy: 214, 613
+  size: 209, 197
+  orig: 210, 224
+  offset: 1, 17
+  index: -1
+images/effects_H/born/baodian/baodian_040
+  rotate: false
+  xy: 426, 840
+  size: 208, 181
+  orig: 210, 224
+  offset: 2, 36
+  index: -1
+images/effects_H/born/baodian/baodian_042
+  rotate: true
+  xy: 2, 5
+  size: 198, 182
+  orig: 210, 224
+  offset: 5, 36
+  index: -1
+images/effects_H/born/baodian/baodian_044
+  rotate: false
+  xy: 636, 838
+  size: 193, 183
+  orig: 210, 224
+  offset: 7, 36
+  index: -1
+images/effects_H/born/baodian/baodian_046
+  rotate: false
+  xy: 426, 686
+  size: 186, 152
+  orig: 210, 224
+  offset: 13, 67
+  index: -1
+images/effects_H/born/baodian/baodian_048
+  rotate: false
+  xy: 614, 689
+  size: 186, 147
+  orig: 210, 224
+  offset: 10, 66
+  index: -1
+images/effects_H/born/baodian/baodian_050
+  rotate: false
+  xy: 425, 538
+  size: 167, 146
+  orig: 210, 224
+  offset: 27, 68
+  index: -1
+images/effects_H/born/baodian/baodian_052
+  rotate: true
+  xy: 197, 233
+  size: 162, 126
+  orig: 210, 224
+  offset: 26, 69
+  index: -1
+images/effects_H/born/dimianyanwu/yanwu_054
+  rotate: false
+  xy: 197, 186
+  size: 99, 45
+  orig: 105, 70
+  offset: 3, 13
+  index: -1
+images/effects_H/born/dimianyanwu/yanwu_056
+  rotate: false
+  xy: 845, 751
+  size: 103, 46
+  orig: 105, 70
+  offset: 1, 13
+  index: -1
+images/effects_H/born/dimianyanwu/yanwu_058
+  rotate: false
+  xy: 845, 799
+  size: 103, 47
+  orig: 105, 70
+  offset: 1, 12
+  index: -1
+images/effects_H/born/dimianyanwu/yanwu_060
+  rotate: true
+  xy: 950, 742
+  size: 104, 46
+  orig: 105, 70
+  offset: 1, 11
+  index: -1
+images/effects_H/born/dimianyanwu/yanwu_062
+  rotate: true
+  xy: 802, 731
+  size: 105, 41
+  orig: 105, 70
+  offset: 0, 12
+  index: -1

@@ -1,0 +1,55 @@
+
+effects_11501_hit.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skillB/hit/hit_134
+  rotate: false
+  xy: 2, 191
+  size: 216, 199
+  orig: 298, 199
+  offset: 41, 0
+  index: -1
+effects/skillB/hit/hit_135
+  rotate: false
+  xy: 2, 592
+  size: 297, 198
+  orig: 298, 199
+  offset: 0, 0
+  index: -1
+effects/skillB/hit/hit_137
+  rotate: false
+  xy: 2, 392
+  size: 297, 198
+  orig: 298, 199
+  offset: 0, 0
+  index: -1
+effects/skillB/hit/hit_139
+  rotate: false
+  xy: 301, 597
+  size: 280, 193
+  orig: 298, 199
+  offset: 11, 0
+  index: -1
+effects/skillB/hit/hit_141
+  rotate: false
+  xy: 301, 402
+  size: 200, 193
+  orig: 298, 199
+  offset: 48, 0
+  index: -1
+effects/skillB/hit/hit_143
+  rotate: false
+  xy: 583, 602
+  size: 190, 188
+  orig: 298, 199
+  offset: 53, 0
+  index: -1
+effects/skillB/hit/hit_145
+  rotate: false
+  xy: 2, 2
+  size: 162, 187
+  orig: 298, 199
+  offset: 75, 0
+  index: -1

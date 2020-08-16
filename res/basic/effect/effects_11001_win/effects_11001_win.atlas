@@ -1,0 +1,320 @@
+
+effects_11001_win.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/extra_skillB/yinlang_loop/yinlang_loop_00018
+  rotate: false
+  xy: 2, 862
+  size: 359, 160
+  orig: 359, 162
+  offset: 0, 2
+  index: -1
+images/effects/extra_skillB/yinlang_loop/yinlang_loop_00022
+  rotate: false
+  xy: 2, 700
+  size: 359, 160
+  orig: 359, 162
+  offset: 0, 2
+  index: -1
+images/effects/extra_skillB/yinlang_loop/yinlang_loop_00026
+  rotate: false
+  xy: 363, 862
+  size: 359, 160
+  orig: 359, 162
+  offset: 0, 2
+  index: -1
+images/effects/extra_skillB/yinlang_loop/yinlang_loop_00030
+  rotate: false
+  xy: 2, 538
+  size: 359, 160
+  orig: 359, 162
+  offset: 0, 2
+  index: -1
+images/effects/extra_skillB/yinlang_loop/yinlang_loop_00034
+  rotate: false
+  xy: 363, 700
+  size: 359, 160
+  orig: 359, 162
+  offset: 0, 2
+  index: -1
+images/effects/extra_skillB/yinlang_loop/yinlang_loop_00038
+  rotate: false
+  xy: 2, 376
+  size: 359, 160
+  orig: 359, 162
+  offset: 0, 2
+  index: -1
+images/effects/extra_skillB/yinlang_loop/yinlang_loop_00042
+  rotate: false
+  xy: 363, 538
+  size: 359, 160
+  orig: 359, 162
+  offset: 0, 2
+  index: -1
+images/effects/extra_skillB/yinlang_loop/yinlang_loop_00046
+  rotate: true
+  xy: 724, 663
+  size: 359, 160
+  orig: 359, 162
+  offset: 0, 2
+  index: -1
+images/effects/extra_skillB/yinlang_loop/yinlang_loop_00050
+  rotate: false
+  xy: 2, 214
+  size: 359, 160
+  orig: 359, 162
+  offset: 0, 2
+  index: -1
+images/effects/extra_skillB/yinlang_loop/yinlang_loop_00054
+  rotate: false
+  xy: 363, 376
+  size: 359, 160
+  orig: 359, 162
+  offset: 0, 2
+  index: -1
+images/effects/extra_skillB/yinlang_loop/yinlang_loop_00058
+  rotate: false
+  xy: 2, 52
+  size: 359, 160
+  orig: 359, 162
+  offset: 0, 2
+  index: -1
+images/effects/extra_skillB/yinlang_loop/yinlang_loop_00062
+  rotate: false
+  xy: 363, 214
+  size: 359, 160
+  orig: 359, 162
+  offset: 0, 2
+  index: -1
+images/effects/win/dimian/dimian_00015
+  rotate: false
+  xy: 829, 30
+  size: 171, 63
+  orig: 177, 70
+  offset: 3, 3
+  index: -1
+images/effects/win/dimian/dimian_00019
+  rotate: false
+  xy: 363, 2
+  size: 168, 66
+  orig: 177, 70
+  offset: 7, 0
+  index: -1
+images/effects/win/dimian/dimian_00021
+  rotate: false
+  xy: 533, 2
+  size: 167, 66
+  orig: 177, 70
+  offset: 4, 0
+  index: -1
+images/effects/win/glow/glow_00015
+  rotate: true
+  xy: 864, 341
+  size: 145, 97
+  orig: 145, 97
+  offset: 0, 0
+  index: -1
+images/effects/win/glow/glow_00017
+  rotate: true
+  xy: 730, 86
+  size: 145, 97
+  orig: 145, 97
+  offset: 0, 0
+  index: -1
+images/effects/win/glow/glow_00019
+  rotate: true
+  xy: 864, 194
+  size: 145, 97
+  orig: 145, 97
+  offset: 0, 0
+  index: -1
+images/effects/win/glow/glow_00021
+  rotate: false
+  xy: 829, 95
+  size: 145, 97
+  orig: 145, 97
+  offset: 0, 0
+  index: -1
+images/effects/win/liziguangxiao/liziguangxiao_00023
+  rotate: false
+  xy: 724, 518
+  size: 138, 143
+  orig: 138, 143
+  offset: 0, 0
+  index: -1
+images/effects/win/liziguangxiao/liziguangxiao_00024
+  rotate: false
+  xy: 363, 70
+  size: 138, 142
+  orig: 138, 143
+  offset: 0, 1
+  index: -1
+images/effects/win/liziguangxiao/liziguangxiao_00025
+  rotate: false
+  xy: 503, 70
+  size: 138, 142
+  orig: 138, 143
+  offset: 0, 1
+  index: -1
+images/effects/win/liziguangxiao/liziguangxiao_00026
+  rotate: false
+  xy: 724, 375
+  size: 138, 141
+  orig: 138, 143
+  offset: 0, 2
+  index: -1
+images/effects/win/liziguangxiao/liziguangxiao_00028
+  rotate: false
+  xy: 724, 233
+  size: 138, 140
+  orig: 138, 143
+  offset: 0, 3
+  index: -1
+images/effects/win/liziguangxiao/liziguangxiao_00030
+  rotate: false
+  xy: 886, 886
+  size: 136, 136
+  orig: 138, 143
+  offset: 0, 4
+  index: -1
+images/effects/win/liziguangxiao/liziguangxiao_00032
+  rotate: false
+  xy: 886, 750
+  size: 133, 134
+  orig: 138, 143
+  offset: 2, 5
+  index: -1
+images/effects/win/liziguangxiao/liziguangxiao_00034
+  rotate: true
+  xy: 886, 616
+  size: 132, 133
+  orig: 138, 143
+  offset: 2, 6
+  index: -1
+images/effects/win/liziguangxiao/liziguangxiao_00036
+  rotate: false
+  xy: 864, 488
+  size: 126, 126
+  orig: 138, 143
+  offset: 5, 10
+  index: -1
+images/effects/win/liziguangxiao/liziguangxiao_00043
+  rotate: true
+  xy: 963, 407
+  size: 79, 21
+  orig: 138, 143
+  offset: 40, 27
+  index: -1
+images/effects/win/xin/xin_00023
+  rotate: true
+  xy: 963, 351
+  size: 54, 50
+  orig: 180, 99
+  offset: 13, 12
+  index: -1
+images/effects/win/xin/xin_00027
+  rotate: false
+  xy: 730, 13
+  size: 97, 71
+  orig: 180, 99
+  offset: 14, 0
+  index: -1
+images/effects/win/xin/xin_00035
+  rotate: true
+  xy: 643, 79
+  size: 133, 85
+  orig: 180, 99
+  offset: 38, 4
+  index: -1
+images/effects/win/xin/xin_00041
+  rotate: true
+  xy: 2, 3
+  size: 47, 56
+  orig: 180, 99
+  offset: 84, 28
+  index: -1
+
+effects_11001_win2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/win/dimian/dimian_00017
+  rotate: true
+  xy: 2, 115
+  size: 168, 67
+  orig: 177, 70
+  offset: 9, 3
+  index: -1
+images/effects/win/dimian/dimian_00023
+  rotate: false
+  xy: 149, 437
+  size: 172, 67
+  orig: 177, 70
+  offset: 1, 0
+  index: -1
+images/effects/win/glow/glow_00023
+  rotate: false
+  xy: 2, 407
+  size: 145, 97
+  orig: 145, 97
+  offset: 0, 0
+  index: -1
+images/effects/win/liziguangxiao/liziguangxiao_00038
+  rotate: false
+  xy: 2, 285
+  size: 121, 120
+  orig: 138, 143
+  offset: 7, 13
+  index: -1
+images/effects/win/liziguangxiao/liziguangxiao_00040
+  rotate: false
+  xy: 125, 285
+  size: 108, 120
+  orig: 138, 143
+  offset: 13, 6
+  index: -1
+images/effects/win/xin/xin_00025
+  rotate: false
+  xy: 307, 353
+  size: 82, 68
+  orig: 180, 99
+  offset: 5, 0
+  index: -1
+images/effects/win/xin/xin_00029
+  rotate: true
+  xy: 2, 2
+  size: 111, 76
+  orig: 180, 99
+  offset: 20, 0
+  index: -1
+images/effects/win/xin/xin_00031
+  rotate: true
+  xy: 71, 161
+  size: 122, 78
+  orig: 180, 99
+  offset: 25, 1
+  index: -1
+images/effects/win/xin/xin_00033
+  rotate: false
+  xy: 323, 423
+  size: 130, 81
+  orig: 180, 99
+  offset: 30, 3
+  index: -1
+images/effects/win/xin/xin_00037
+  rotate: true
+  xy: 151, 164
+  size: 119, 81
+  orig: 180, 99
+  offset: 57, 11
+  index: -1
+images/effects/win/xin/xin_00039
+  rotate: true
+  xy: 235, 317
+  size: 118, 70
+  orig: 180, 99
+  offset: 60, 22
+  index: -1

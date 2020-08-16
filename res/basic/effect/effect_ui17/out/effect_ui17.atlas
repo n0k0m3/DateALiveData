@@ -1,0 +1,27 @@
+
+effect_ui17.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hua
+  rotate: false
+  xy: 312, 312
+  size: 129, 129
+  orig: 129, 129
+  offset: 0, 0
+  index: -1
+hua1
+  rotate: false
+  xy: 2, 48
+  size: 164, 159
+  orig: 164, 171
+  offset: 0, 0
+  index: -1
+hua2
+  rotate: false
+  xy: 2, 209
+  size: 308, 232
+  orig: 308, 265
+  offset: 0, 33
+  index: -1

@@ -1,0 +1,265 @@
+
+effects_11501_born.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skilld/bingdi_000
+  rotate: false
+  xy: 249, 4
+  size: 210, 50
+  orig: 210, 70
+  offset: 0, 11
+  index: -1
+images/effects/skillf/boomx/boomx_003
+  rotate: false
+  xy: 2, 14
+  size: 245, 73
+  orig: 245, 98
+  offset: 0, 10
+  index: -1
+images/effects/skillf/boomx/boomx_005
+  rotate: false
+  xy: 283, 445
+  size: 245, 87
+  orig: 245, 98
+  offset: 0, 9
+  index: -1
+images/effects/skillf/boomx/boomx_007
+  rotate: false
+  xy: 773, 727
+  size: 245, 89
+  orig: 245, 98
+  offset: 0, 7
+  index: -1
+images/effects/skillf/boomx/boomx_009
+  rotate: false
+  xy: 277, 150
+  size: 245, 92
+  orig: 245, 98
+  offset: 0, 4
+  index: -1
+images/effects/skillf/boomx/boomx_011
+  rotate: false
+  xy: 2, 89
+  size: 245, 93
+  orig: 245, 98
+  offset: 0, 3
+  index: -1
+images/effects/skillf/boomx/boomx_013
+  rotate: false
+  xy: 249, 56
+  size: 240, 92
+  orig: 245, 98
+  offset: 3, 3
+  index: -1
+images/effects/skillf/boomx/boomx_015
+  rotate: false
+  xy: 564, 745
+  size: 207, 74
+  orig: 245, 98
+  offset: 24, 15
+  index: -1
+images/effetcs/born/1yanwu/1yanwu_00001
+  rotate: true
+  xy: 461, 11
+  size: 43, 26
+  orig: 70, 70
+  offset: 4, 14
+  index: -1
+images/effetcs/born/1yanwu/1yanwu_00003
+  rotate: false
+  xy: 919, 192
+  size: 50, 31
+  orig: 70, 70
+  offset: 6, 14
+  index: -1
+images/effetcs/born/1yanwu/1yanwu_00005
+  rotate: false
+  xy: 829, 149
+  size: 50, 34
+  orig: 70, 70
+  offset: 9, 14
+  index: -1
+images/effetcs/born/1yanwu/1yanwu_00007
+  rotate: false
+  xy: 881, 148
+  size: 42, 35
+  orig: 70, 70
+  offset: 18, 14
+  index: -1
+images/effetcs/born/1yanwu/1yanwu_00009
+  rotate: false
+  xy: 925, 155
+  size: 40, 35
+  orig: 70, 70
+  offset: 21, 14
+  index: -1
+images/effetcs/born/baofa/baofa_00000
+  rotate: false
+  xy: 2, 742
+  size: 280, 280
+  orig: 280, 280
+  offset: 0, 0
+  index: -1
+images/effetcs/born/baofa/baofa_00001
+  rotate: false
+  xy: 2, 460
+  size: 279, 280
+  orig: 280, 280
+  offset: 0, 0
+  index: -1
+images/effetcs/born/baofa/baofa_00002
+  rotate: false
+  xy: 284, 742
+  size: 278, 280
+  orig: 280, 280
+  offset: 0, 0
+  index: -1
+images/effetcs/born/baofa/baofa_00004
+  rotate: false
+  xy: 2, 184
+  size: 273, 274
+  orig: 280, 280
+  offset: 0, 5
+  index: -1
+images/effetcs/born/baofa/baofa_00006
+  rotate: false
+  xy: 564, 821
+  size: 227, 201
+  orig: 280, 280
+  offset: 26, 45
+  index: -1
+images/effetcs/born/baofa/baofa_00008
+  rotate: false
+  xy: 283, 534
+  size: 225, 206
+  orig: 280, 280
+  offset: 27, 43
+  index: -1
+images/effetcs/born/baofa/baofa_00010
+  rotate: false
+  xy: 793, 818
+  size: 222, 204
+  orig: 280, 280
+  offset: 27, 43
+  index: -1
+images/effetcs/born/baofa/baofa_00012
+  rotate: false
+  xy: 277, 244
+  size: 211, 199
+  orig: 280, 280
+  offset: 29, 47
+  index: -1
+images/effetcs/born/baofa/baofa_00014
+  rotate: true
+  xy: 510, 536
+  size: 204, 183
+  orig: 280, 280
+  offset: 36, 56
+  index: -1
+images/effetcs/born/baofa/baofa_00016
+  rotate: false
+  xy: 695, 541
+  size: 202, 184
+  orig: 280, 280
+  offset: 37, 55
+  index: -1
+images/effetcs/born/baofa/baofa_00018
+  rotate: false
+  xy: 530, 347
+  size: 198, 187
+  orig: 280, 280
+  offset: 39, 54
+  index: -1
+images/effetcs/born/chuxian_down/chuxian_down_00030
+  rotate: true
+  xy: 686, 303
+  size: 42, 19
+  orig: 210, 84
+  offset: 82, 36
+  index: -1
+images/effetcs/born/chuxian_down/chuxian_down_00032
+  rotate: true
+  xy: 659, 276
+  size: 69, 25
+  orig: 210, 84
+  offset: 72, 33
+  index: -1
+images/effetcs/born/chuxian_down/chuxian_down_00034
+  rotate: true
+  xy: 490, 348
+  size: 95, 34
+  orig: 210, 84
+  offset: 56, 28
+  index: -1
+images/effetcs/born/chuxian_up/chuxian_up_00034
+  rotate: false
+  xy: 829, 185
+  size: 88, 125
+  orig: 140, 210
+  offset: 27, 14
+  index: -1
+images/effetcs/born/chuxian_up/chuxian_up_00038
+  rotate: true
+  xy: 849, 312
+  size: 106, 164
+  orig: 140, 210
+  offset: 17, 0
+  index: -1
+images/effetcs/born/chuxian_up/chuxian_up_00040
+  rotate: true
+  xy: 490, 244
+  size: 101, 167
+  orig: 140, 210
+  offset: 17, 7
+  index: -1
+images/effetcs/born/chuxian_up/chuxian_up_00042
+  rotate: true
+  xy: 849, 420
+  size: 102, 173
+  orig: 140, 210
+  offset: 16, 13
+  index: -1
+images/effetcs/born/chuxian_up/chuxian_up_00044
+  rotate: true
+  xy: 524, 126
+  size: 116, 184
+  orig: 140, 210
+  offset: 10, 13
+  index: -1
+images/effetcs/born/chuxian_up/chuxian_up_00046
+  rotate: true
+  xy: 491, 8
+  size: 116, 204
+  orig: 140, 210
+  offset: 10, 6
+  index: -1
+images/effetcs/born/chuxian_up/chuxian_up_00048
+  rotate: false
+  xy: 730, 335
+  size: 117, 204
+  orig: 140, 210
+  offset: 10, 6
+  index: -1
+images/effetcs/born/chuxian_up/chuxian_up_00050
+  rotate: false
+  xy: 710, 130
+  size: 117, 203
+  orig: 140, 210
+  offset: 10, 7
+  index: -1
+images/effetcs/born/chuxian_up/chuxian_up_00052
+  rotate: false
+  xy: 899, 524
+  size: 118, 201
+  orig: 140, 210
+  offset: 10, 9
+  index: -1
+images/effetcs/born/ci
+  rotate: false
+  xy: 919, 225
+  size: 84, 85
+  orig: 105, 105
+  offset: 14, 4
+  index: -1

@@ -1,0 +1,139 @@
+
+effects_10309_skillA.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/extra_skillB/huadi__00012
+  rotate: false
+  xy: 323, 219
+  size: 175, 84
+  orig: 175, 84
+  offset: 0, 0
+  index: -1
+images/effects/extra_skillB/quandi_00033
+  rotate: false
+  xy: 2, 427
+  size: 300, 83
+  orig: 308, 91
+  offset: 0, 3
+  index: -1
+images/effects/glow_000
+  rotate: false
+  xy: 431, 35
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+images/effects/lenqi/lenqi_001
+  rotate: true
+  xy: 231, 2
+  size: 107, 39
+  orig: 175, 41
+  offset: 26, 1
+  index: -1
+images/effects/lenqi/lenqi_003
+  rotate: false
+  xy: 272, 28
+  size: 134, 40
+  orig: 175, 41
+  offset: 12, 1
+  index: -1
+images/effects/lenqi/lenqi_005
+  rotate: true
+  xy: 166, 112
+  size: 158, 39
+  orig: 175, 41
+  offset: 6, 1
+  index: -1
+images/effects/lenqi/lenqi_007
+  rotate: false
+  xy: 323, 107
+  size: 163, 38
+  orig: 175, 41
+  offset: 1, 1
+  index: -1
+images/effects/lenqi/lenqi_009
+  rotate: false
+  xy: 272, 70
+  size: 157, 35
+  orig: 175, 41
+  offset: 6, 1
+  index: -1
+images/effects/lenqi/lenqi_011
+  rotate: true
+  xy: 286, 110
+  size: 163, 35
+  orig: 175, 41
+  offset: 2, 1
+  index: -1
+images/effects/lenqi/lenqi_013
+  rotate: true
+  xy: 474, 358
+  size: 152, 36
+  orig: 175, 41
+  offset: 10, 1
+  index: -1
+images/effects/skilla/qi/qi_000
+  rotate: true
+  xy: 162, 2
+  size: 106, 67
+  orig: 175, 105
+  offset: 68, 14
+  index: -1
+images/effects/skilla/qi/qi_002
+  rotate: false
+  xy: 304, 434
+  size: 168, 76
+  orig: 175, 105
+  offset: 4, 8
+  index: -1
+images/effects/skilla/qi/qi_004
+  rotate: true
+  xy: 207, 111
+  size: 162, 77
+  orig: 175, 105
+  offset: 6, 6
+  index: -1
+images/effects/skilla/qi/qi_006
+  rotate: false
+  xy: 323, 147
+  size: 151, 70
+  orig: 175, 105
+  offset: 6, 13
+  index: -1
+images/effects/skilla/shifa/shifa_000
+  rotate: false
+  xy: 323, 305
+  size: 141, 127
+  orig: 210, 182
+  offset: 29, 28
+  index: -1
+images/effects/skilla/shifa/shifa_001
+  rotate: false
+  xy: 2, 272
+  size: 171, 153
+  orig: 210, 182
+  offset: 17, 15
+  index: -1
+images/effects/skilla/shifa/shifa_003
+  rotate: true
+  xy: 175, 275
+  size: 150, 146
+  orig: 210, 182
+  offset: 42, 9
+  index: -1
+images/effects/skilla/shifa/shifa_005
+  rotate: false
+  xy: 2, 120
+  size: 162, 150
+  orig: 210, 182
+  offset: 40, 7
+  index: -1
+images/effects/skilla/shifa/shifa_007
+  rotate: false
+  xy: 2, 23
+  size: 158, 95
+  orig: 210, 182
+  offset: 40, 41
+  index: -1

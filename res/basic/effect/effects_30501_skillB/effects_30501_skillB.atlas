@@ -1,0 +1,488 @@
+
+effects_30501_skillB.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/guangxian2_000
+  rotate: false
+  xy: 461, 620
+  size: 248, 79
+  orig: 284, 85
+  offset: 18, 3
+  index: -1
+effect/skillb/at/at_000
+  rotate: false
+  xy: 638, 463
+  size: 154, 155
+  orig: 170, 170
+  offset: 8, 7
+  index: -1
+effect/skillb/baofang/baofang_003
+  rotate: false
+  xy: 620, 298
+  size: 171, 163
+  orig: 178, 178
+  offset: 6, 9
+  index: -1
+effect/skillb/baofang/baofang_004
+  rotate: true
+  xy: 638, 701
+  size: 174, 166
+  orig: 178, 178
+  offset: 4, 8
+  index: -1
+effect/skillb/baofang/baofang_005
+  rotate: true
+  xy: 300, 117
+  size: 175, 167
+  orig: 178, 178
+  offset: 3, 8
+  index: -1
+effect/skillb/baofang/baofang_006
+  rotate: false
+  xy: 806, 563
+  size: 177, 167
+  orig: 178, 178
+  offset: 1, 8
+  index: -1
+effect/skillb/baofang/baofang_007
+  rotate: true
+  xy: 469, 117
+  size: 177, 165
+  orig: 178, 178
+  offset: 1, 9
+  index: -1
+effect/skillb/baofang/baofang_008
+  rotate: false
+  xy: 793, 290
+  size: 177, 163
+  orig: 178, 178
+  offset: 1, 9
+  index: -1
+effect/skillb/baofang/baofang_009
+  rotate: false
+  xy: 790, 127
+  size: 176, 161
+  orig: 178, 178
+  offset: 2, 11
+  index: -1
+effect/skillb/baofang/baofang_011
+  rotate: true
+  xy: 636, 133
+  size: 163, 152
+  orig: 178, 178
+  offset: 6, 16
+  index: -1
+effect/skillb/didian/didian_000
+  rotate: false
+  xy: 802, 909
+  size: 199, 106
+  orig: 213, 107
+  offset: 12, 1
+  index: -1
+effect/skillb/didian/didian_001
+  rotate: false
+  xy: 437, 512
+  size: 199, 106
+  orig: 213, 107
+  offset: 12, 1
+  index: -1
+effect/skillb/didian/didian_002
+  rotate: false
+  xy: 415, 404
+  size: 199, 106
+  orig: 213, 107
+  offset: 12, 1
+  index: -1
+effect/skillb/didian/didian_003
+  rotate: false
+  xy: 419, 296
+  size: 199, 106
+  orig: 213, 107
+  offset: 12, 1
+  index: -1
+effect/skillb/didian/didian_004
+  rotate: false
+  xy: 794, 455
+  size: 199, 106
+  orig: 213, 107
+  offset: 12, 1
+  index: -1
+effect/skillb/didian/didian_005
+  rotate: false
+  xy: 767, 19
+  size: 199, 106
+  orig: 213, 107
+  offset: 12, 1
+  index: -1
+effect/skillb/guangci2_000
+  rotate: false
+  xy: 528, 8
+  size: 107, 107
+  orig: 107, 107
+  offset: 0, 0
+  index: -1
+effect/skillb/guangshu/guangshu_001
+  rotate: true
+  xy: 358, 6
+  size: 109, 168
+  orig: 128, 341
+  offset: 9, 173
+  index: -1
+effect/skillb/guangshu/guangshu_002
+  rotate: true
+  xy: 124, 2
+  size: 113, 232
+  orig: 128, 341
+  offset: 9, 109
+  index: -1
+effect/skillb/guangshu/guangshu_003
+  rotate: true
+  xy: 126, 431
+  size: 116, 281
+  orig: 128, 341
+  offset: 7, 60
+  index: -1
+effect/skillb/guangshu/guangshu_004
+  rotate: false
+  xy: 2, 682
+  size: 127, 333
+  orig: 128, 341
+  offset: 1, 8
+  index: -1
+effect/skillb/guangshu/guangshu_005
+  rotate: true
+  xy: 131, 898
+  size: 117, 335
+  orig: 128, 341
+  offset: 6, 6
+  index: -1
+effect/skillb/guangshu/guangshu_006
+  rotate: false
+  xy: 2, 14
+  size: 120, 331
+  orig: 128, 341
+  offset: 4, 10
+  index: -1
+effect/skillb/guangshu/guangshu_007
+  rotate: true
+  xy: 131, 772
+  size: 124, 328
+  orig: 128, 341
+  offset: 0, 13
+  index: -1
+effect/skillb/guangshu/guangshu_008
+  rotate: true
+  xy: 131, 654
+  size: 116, 328
+  orig: 128, 341
+  offset: 7, 13
+  index: -1
+effect/skillb/guangshu/guangshu_009
+  rotate: false
+  xy: 2, 347
+  size: 122, 333
+  orig: 128, 341
+  offset: 4, 8
+  index: -1
+effect/skillb/guangshu/guangshu_010
+  rotate: true
+  xy: 468, 899
+  size: 116, 332
+  orig: 128, 341
+  offset: 7, 9
+  index: -1
+effect/skillb/guangshu/guangshu_011
+  rotate: true
+  xy: 126, 549
+  size: 103, 309
+  orig: 128, 341
+  offset: 13, 13
+  index: -1
+effect/skillb/guangshu/guangshu_012
+  rotate: true
+  xy: 126, 294
+  size: 65, 291
+  orig: 128, 341
+  offset: 39, 29
+  index: -1
+effect/skillb/guangshu/guangshu_013
+  rotate: true
+  xy: 126, 361
+  size: 68, 287
+  orig: 128, 341
+  offset: 37, 30
+  index: -1
+effect/skillb/guangshu/guangshu_014
+  rotate: true
+  xy: 711, 624
+  size: 75, 89
+  orig: 128, 341
+  offset: 37, 29
+  index: -1
+effect/skillb/guangxian1_000
+  rotate: false
+  xy: 637, 42
+  size: 128, 89
+  orig: 142, 89
+  offset: 7, 0
+  index: -1
+effect/skillb/heneng/heneng_003
+  rotate: false
+  xy: 124, 117
+  size: 174, 175
+  orig: 213, 213
+  offset: 20, 19
+  index: -1
+effect/skillb/heneng/heneng_010
+  rotate: false
+  xy: 806, 732
+  size: 173, 175
+  orig: 213, 213
+  offset: 19, 19
+  index: -1
+effect/skillb/heneng/heneng_011
+  rotate: false
+  xy: 461, 701
+  size: 175, 174
+  orig: 213, 213
+  offset: 19, 19
+  index: -1
+effect/skillb/yujingjiguang_000
+  rotate: false
+  xy: 468, 877
+  size: 297, 20
+  orig: 320, 28
+  offset: 14, 4
+  index: -1
+
+effects_30501_skillB2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/glow_000
+  rotate: false
+  xy: 881, 864
+  size: 71, 71
+  orig: 71, 71
+  offset: 0, 0
+  index: -1
+effect/shanping
+  rotate: false
+  xy: 498, 292
+  size: 71, 71
+  orig: 71, 71
+  offset: 0, 0
+  index: -1
+effect/skillb/at/at_001
+  rotate: false
+  xy: 336, 337
+  size: 160, 160
+  orig: 170, 170
+  offset: 5, 5
+  index: -1
+effect/skillb/at/at_002
+  rotate: false
+  xy: 336, 175
+  size: 160, 160
+  orig: 170, 170
+  offset: 5, 5
+  index: -1
+effect/skillb/at/at_003
+  rotate: false
+  xy: 173, 5
+  size: 160, 160
+  orig: 170, 170
+  offset: 5, 5
+  index: -1
+effect/skillb/at/at_004
+  rotate: false
+  xy: 336, 13
+  size: 160, 160
+  orig: 170, 170
+  offset: 5, 5
+  index: -1
+effect/skillb/at/at_005
+  rotate: false
+  xy: 346, 512
+  size: 160, 160
+  orig: 170, 170
+  offset: 5, 5
+  index: -1
+effect/skillb/at/at_006
+  rotate: false
+  xy: 530, 689
+  size: 160, 160
+  orig: 170, 170
+  offset: 5, 5
+  index: -1
+effect/skillb/at/at_007
+  rotate: false
+  xy: 692, 689
+  size: 160, 160
+  orig: 170, 170
+  offset: 5, 5
+  index: -1
+effect/skillb/at/at_008
+  rotate: false
+  xy: 508, 527
+  size: 160, 160
+  orig: 170, 170
+  offset: 5, 5
+  index: -1
+effect/skillb/at/at_009
+  rotate: false
+  xy: 670, 527
+  size: 160, 160
+  orig: 170, 170
+  offset: 5, 5
+  index: -1
+effect/skillb/at/at_010
+  rotate: false
+  xy: 854, 689
+  size: 160, 160
+  orig: 170, 170
+  offset: 5, 5
+  index: -1
+effect/skillb/at/at_011
+  rotate: false
+  xy: 832, 527
+  size: 160, 160
+  orig: 170, 170
+  offset: 5, 5
+  index: -1
+effect/skillb/at/at_012
+  rotate: false
+  xy: 508, 365
+  size: 160, 160
+  orig: 170, 170
+  offset: 5, 5
+  index: -1
+effect/skillb/at/at_013
+  rotate: true
+  xy: 175, 167
+  size: 158, 159
+  orig: 170, 170
+  offset: 6, 5
+  index: -1
+effect/skillb/baofang/baofang_001
+  rotate: false
+  xy: 832, 379
+  size: 143, 146
+  orig: 178, 178
+  offset: 18, 15
+  index: -1
+effect/skillb/baofang/baofang_002
+  rotate: false
+  xy: 670, 369
+  size: 160, 156
+  orig: 178, 178
+  offset: 12, 11
+  index: -1
+effect/skillb/baofang/baofang_010
+  rotate: true
+  xy: 175, 327
+  size: 170, 159
+  orig: 178, 178
+  offset: 4, 12
+  index: -1
+effect/skillb/baofang/baofang_012
+  rotate: false
+  xy: 2, 2
+  size: 153, 142
+  orig: 178, 178
+  offset: 10, 22
+  index: -1
+effect/skillb/guangquan1_000
+  rotate: false
+  xy: 498, 219
+  size: 71, 71
+  orig: 71, 71
+  offset: 0, 0
+  index: -1
+effect/skillb/guangshu/guangshu_000
+  rotate: false
+  xy: 881, 937
+  size: 94, 83
+  orig: 128, 341
+  offset: 17, 258
+  index: -1
+effect/skillb/heneng/heneng_000
+  rotate: false
+  xy: 2, 848
+  size: 174, 172
+  orig: 213, 213
+  offset: 20, 20
+  index: -1
+effect/skillb/heneng/heneng_001
+  rotate: false
+  xy: 2, 674
+  size: 174, 172
+  orig: 213, 213
+  offset: 20, 20
+  index: -1
+effect/skillb/heneng/heneng_002
+  rotate: false
+  xy: 178, 847
+  size: 173, 173
+  orig: 213, 213
+  offset: 21, 19
+  index: -1
+effect/skillb/heneng/heneng_004
+  rotate: false
+  xy: 2, 321
+  size: 171, 174
+  orig: 213, 213
+  offset: 23, 19
+  index: -1
+effect/skillb/heneng/heneng_005
+  rotate: false
+  xy: 175, 499
+  size: 169, 173
+  orig: 213, 213
+  offset: 23, 19
+  index: -1
+effect/skillb/heneng/heneng_006
+  rotate: true
+  xy: 530, 851
+  size: 169, 174
+  orig: 213, 213
+  offset: 23, 19
+  index: -1
+effect/skillb/heneng/heneng_007
+  rotate: false
+  xy: 2, 146
+  size: 169, 173
+  orig: 213, 213
+  offset: 23, 19
+  index: -1
+effect/skillb/heneng/heneng_008
+  rotate: true
+  xy: 706, 851
+  size: 169, 173
+  orig: 213, 213
+  offset: 23, 19
+  index: -1
+effect/skillb/heneng/heneng_009
+  rotate: true
+  xy: 178, 674
+  size: 171, 172
+  orig: 213, 213
+  offset: 21, 19
+  index: -1
+effect/skillb/heneng/heneng_012
+  rotate: true
+  xy: 2, 497
+  size: 175, 171
+  orig: 213, 213
+  offset: 19, 19
+  index: -1
+effect/skillb/heneng/heneng_013
+  rotate: false
+  xy: 353, 849
+  size: 175, 171
+  orig: 213, 213
+  offset: 19, 21
+  index: -1

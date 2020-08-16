@@ -1,0 +1,146 @@
+
+effects_10305_skillB.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skilla_b/fenzhibaoguang/fenzhibaoguang_00033
+  rotate: false
+  xy: 224, 416
+  size: 73, 94
+  orig: 111, 108
+  offset: 20, 5
+  index: -1
+images/effects/skilla_b/fenzhibaoguang/fenzhibaoguang_00034
+  rotate: false
+  xy: 2, 209
+  size: 86, 83
+  orig: 111, 108
+  offset: 17, 12
+  index: -1
+images/effects/skilla_b/fenzhibaoguang/fenzhibaoguang_00035
+  rotate: true
+  xy: 457, 435
+  size: 75, 51
+  orig: 111, 108
+  offset: 31, 24
+  index: -1
+images/effects/skilla_b/fenzhibaoguang/fenzhibaoguang_00036
+  rotate: false
+  xy: 2, 123
+  size: 76, 84
+  orig: 111, 108
+  offset: 28, 16
+  index: -1
+images/effects/skilla_b/fenzhibaoguang/fenzhibaoguang_00037
+  rotate: false
+  xy: 2, 402
+  size: 111, 108
+  orig: 111, 108
+  offset: 0, 0
+  index: -1
+images/effects/skilla_b/fenzhibaoguang/fenzhibaoguang_00038
+  rotate: false
+  xy: 115, 407
+  size: 107, 103
+  orig: 111, 108
+  offset: 4, 0
+  index: -1
+images/effects/skilla_b/fenzhibaoguang/fenzhibaoguang_00039
+  rotate: false
+  xy: 2, 294
+  size: 106, 106
+  orig: 111, 108
+  offset: 0, 0
+  index: -1
+images/effects/skilla_b/fenzhibaoguang/fenzhibaoguang_00040
+  rotate: false
+  xy: 455, 381
+  size: 54, 52
+  orig: 111, 108
+  offset: 5, 48
+  index: -1
+images/effects/skilla_new/shoushangxingxing/shoushangxingxing_00001
+  rotate: true
+  xy: 151, 231
+  size: 61, 54
+  orig: 80, 75
+  offset: 9, 9
+  index: -1
+images/effects/skilla_new/shoushangxingxing/shoushangxingxing_00002
+  rotate: false
+  xy: 2, 2
+  size: 65, 56
+  orig: 80, 75
+  offset: 7, 8
+  index: -1
+images/effects/skilla_new/shoushangxingxing/shoushangxingxing_00003
+  rotate: false
+  xy: 110, 294
+  size: 68, 58
+  orig: 80, 75
+  offset: 6, 7
+  index: -1
+images/effects/skilla_new/shoushangxingxing/shoushangxingxing_00004
+  rotate: true
+  xy: 90, 222
+  size: 70, 59
+  orig: 80, 75
+  offset: 6, 7
+  index: -1
+images/effects/skilla_new/shoushangxingxing/shoushangxingxing_00005
+  rotate: false
+  xy: 224, 354
+  size: 73, 60
+  orig: 80, 75
+  offset: 4, 7
+  index: -1
+images/effects/skilla_new/shoushangxingxing/shoushangxingxing_00006
+  rotate: false
+  xy: 378, 388
+  size: 75, 60
+  orig: 80, 75
+  offset: 3, 7
+  index: -1
+images/effects/skilla_new/shoushangxingxing/shoushangxingxing_00007
+  rotate: false
+  xy: 2, 60
+  size: 76, 61
+  orig: 80, 75
+  offset: 2, 6
+  index: -1
+images/effects/skilla_new/shoushangxingxing/shoushangxingxing_00008
+  rotate: false
+  xy: 299, 449
+  size: 77, 61
+  orig: 80, 75
+  offset: 2, 6
+  index: -1
+images/effects/skilla_new/shoushangxingxing/shoushangxingxing_00009
+  rotate: false
+  xy: 378, 450
+  size: 77, 60
+  orig: 80, 75
+  offset: 2, 7
+  index: -1
+images/effects/skilla_new/shoushangxingxing/shoushangxingxing_00010
+  rotate: false
+  xy: 299, 387
+  size: 77, 60
+  orig: 80, 75
+  offset: 2, 7
+  index: -1
+images/effects/skilla_new/shoushangxingxing/shoushangxingxing_00011
+  rotate: false
+  xy: 299, 326
+  size: 76, 59
+  orig: 80, 75
+  offset: 3, 8
+  index: -1
+images/effects/skilla_new/shoushangxingxing/shoushangxingxing_00012
+  rotate: true
+  xy: 180, 294
+  size: 58, 57
+  orig: 80, 75
+  offset: 20, 9
+  index: -1

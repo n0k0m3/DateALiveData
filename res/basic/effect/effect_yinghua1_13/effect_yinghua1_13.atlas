@@ -1,0 +1,13 @@
+
+effect_yinghua1_13.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/youeryinghua
+  rotate: false
+  xy: 2, 105
+  size: 585, 482
+  orig: 585, 482
+  offset: 0, 0
+  index: -1

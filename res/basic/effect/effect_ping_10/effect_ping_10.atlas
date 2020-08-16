@@ -1,0 +1,48 @@
+
+effect_ping_10.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/jiao
+  rotate: false
+  xy: 289, 272
+  size: 32, 16
+  orig: 32, 16
+  offset: 0, 0
+  index: -1
+images/left_down
+  rotate: false
+  xy: 289, 290
+  size: 34, 33
+  orig: 34, 33
+  offset: 0, 0
+  index: -1
+images/ping_00000
+  rotate: false
+  xy: 2, 123
+  size: 285, 200
+  orig: 300, 200
+  offset: 8, 0
+  index: -1
+images/right_down
+  rotate: false
+  xy: 34, 95
+  size: 32, 26
+  orig: 32, 26
+  offset: 0, 0
+  index: -1
+images/youbian
+  rotate: false
+  xy: 2, 40
+  size: 27, 38
+  orig: 27, 38
+  offset: 0, 0
+  index: -1
+images/zuobian
+  rotate: false
+  xy: 2, 80
+  size: 30, 41
+  orig: 30, 41
+  offset: 0, 0
+  index: -1

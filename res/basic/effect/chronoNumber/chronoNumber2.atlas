@@ -1,0 +1,20 @@
+
+chronoNumber2.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/kuang2_2_00000
+  rotate: false
+  xy: 2, 37
+  size: 160, 145
+  orig: 180, 164
+  offset: 10, 6
+  index: -1
+images/liubianxing1_00000
+  rotate: false
+  xy: 2, 2
+  size: 39, 33
+  orig: 52, 51
+  offset: 7, 9
+  index: -1

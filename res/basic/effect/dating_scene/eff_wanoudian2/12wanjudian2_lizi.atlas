@@ -1,0 +1,40 @@
+
+12wanjudian2_lizi.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+huangse
+  rotate: false
+  xy: 2, 2
+  size: 24, 23
+  orig: 29, 23
+  offset: 1, 0
+  index: -1
+xingxing_00000
+  rotate: false
+  xy: 2, 27
+  size: 210, 210
+  orig: 210, 210
+  offset: 0, 0
+  index: -1
+
+12wanjudian2_lizi2.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dengguang_00000
+  rotate: false
+  xy: 2, 33
+  size: 106, 210
+  orig: 210, 210
+  offset: 52, 0
+  index: -1
+xingxing1_00000
+  rotate: false
+  xy: 110, 111
+  size: 133, 132
+  orig: 210, 210
+  offset: 39, 39
+  index: -1

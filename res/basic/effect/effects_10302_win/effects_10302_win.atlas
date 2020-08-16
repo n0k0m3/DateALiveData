@@ -1,0 +1,97 @@
+
+effects_10302_win.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/shengli/shengli_00000
+  rotate: false
+  xy: 183, 175
+  size: 60, 56
+  orig: 175, 100
+  offset: 38, 30
+  index: -1
+images/effects/shengli/shengli_00002
+  rotate: true
+  xy: 83, 118
+  size: 121, 98
+  orig: 175, 100
+  offset: 19, 2
+  index: -1
+images/effects/shengli/shengli_00004
+  rotate: false
+  xy: 162, 414
+  size: 164, 82
+  orig: 175, 100
+  offset: 4, 0
+  index: -1
+images/effects/shengli/shengli_00006
+  rotate: true
+  xy: 2, 241
+  size: 160, 90
+  orig: 175, 100
+  offset: 13, 0
+  index: -1
+images/effects/shengli/shengli_00008
+  rotate: false
+  xy: 2, 403
+  size: 158, 93
+  orig: 175, 100
+  offset: 4, 0
+  index: -1
+images/effects/shengli/shengli_00010
+  rotate: true
+  xy: 2, 75
+  size: 164, 79
+  orig: 175, 100
+  offset: 4, 14
+  index: -1
+images/effects/shengli/shengli_00012
+  rotate: false
+  xy: 328, 412
+  size: 159, 84
+  orig: 175, 100
+  offset: 10, 10
+  index: -1
+images/effects/shengli/shengli_00014
+  rotate: true
+  xy: 94, 250
+  size: 151, 90
+  orig: 175, 100
+  offset: 17, 3
+  index: -1
+images/effects/shengli/shengli_00016
+  rotate: false
+  xy: 186, 313
+  size: 135, 99
+  orig: 175, 100
+  offset: 24, 0
+  index: -1
+images/effects/shengli/shengli_00018
+  rotate: false
+  xy: 323, 311
+  size: 132, 99
+  orig: 175, 100
+  offset: 25, 0
+  index: -1
+images/effects/shengli/shengli_00020
+  rotate: false
+  xy: 186, 233
+  size: 133, 78
+  orig: 175, 100
+  offset: 27, 0
+  index: -1
+images/effects/shengli/shengli_00022
+  rotate: false
+  xy: 321, 233
+  size: 133, 76
+  orig: 175, 100
+  offset: 28, 1
+  index: -1
+images/effects/shengli/shengli_00024
+  rotate: false
+  xy: 2, 2
+  size: 131, 71
+  orig: 175, 100
+  offset: 30, 4
+  index: -1

@@ -1,0 +1,125 @@
+
+fight_21301.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+duzi
+  rotate: true
+  xy: 224, 457
+  size: 53, 169
+  orig: 55, 171
+  offset: 1, 1
+  index: -1
+effects/chibangL/chibangL_00073
+  rotate: false
+  xy: 2, 164
+  size: 111, 121
+  orig: 122, 127
+  offset: 11, 3
+  index: -1
+effects/chibangL/chibangL_00074
+  rotate: false
+  xy: 2, 287
+  size: 114, 121
+  orig: 122, 127
+  offset: 5, 3
+  index: -1
+effects/chibangR/chibangR_00073
+  rotate: false
+  xy: 118, 288
+  size: 93, 120
+  orig: 108, 127
+  offset: 3, 0
+  index: -1
+effects/chibangR/chibangR_00074
+  rotate: true
+  xy: 224, 362
+  size: 93, 118
+  orig: 108, 127
+  offset: 11, 7
+  index: -1
+effects/red_00071
+  rotate: true
+  xy: 2, 21
+  size: 141, 79
+  orig: 153, 95
+  offset: 8, 11
+  index: -1
+floorhong
+  rotate: false
+  xy: 2, 410
+  size: 220, 100
+  orig: 223, 133
+  offset: 1, 16
+  index: -1
+shenti
+  rotate: false
+  xy: 213, 291
+  size: 69, 69
+  orig: 71, 71
+  offset: 1, 1
+  index: -1
+shentibipan
+  rotate: false
+  xy: 344, 432
+  size: 10, 23
+  orig: 12, 25
+  offset: 1, 1
+  index: -1
+youchibang
+  rotate: true
+  xy: 284, 294
+  size: 66, 62
+  orig: 68, 64
+  offset: 1, 1
+  index: -1
+youjiao1
+  rotate: false
+  xy: 18, 4
+  size: 15, 15
+  orig: 17, 17
+  offset: 1, 1
+  index: -1
+youjiao2
+  rotate: false
+  xy: 83, 134
+  size: 10, 28
+  orig: 12, 30
+  offset: 1, 1
+  index: -1
+youjiao3
+  rotate: false
+  xy: 213, 388
+  size: 9, 20
+  orig: 11, 22
+  offset: 1, 1
+  index: -1
+zuochibang
+  rotate: true
+  xy: 395, 445
+  size: 65, 66
+  orig: 67, 68
+  offset: 1, 1
+  index: -1
+zuojiao
+  rotate: false
+  xy: 213, 367
+  size: 9, 19
+  orig: 11, 21
+  offset: 1, 1
+  index: -1
+zuojiao2
+  rotate: true
+  xy: 2, 2
+  size: 17, 14
+  orig: 19, 16
+  offset: 1, 1
+  index: -1
+zuojiao3
+  rotate: false
+  xy: 463, 488
+  size: 15, 22
+  orig: 17, 24
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,55 @@
+
+effect_yun_11.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+u1
+  rotate: false
+  xy: 2, 519
+  size: 355, 206
+  orig: 355, 206
+  offset: 0, 0
+  index: -1
+u2
+  rotate: false
+  xy: 359, 638
+  size: 179, 87
+  orig: 179, 87
+  offset: 0, 0
+  index: -1
+u3
+  rotate: false
+  xy: 573, 835
+  size: 306, 66
+  orig: 306, 66
+  offset: 0, 0
+  index: -1
+u4
+  rotate: false
+  xy: 2, 376
+  size: 181, 56
+  orig: 181, 56
+  offset: 0, 0
+  index: -1
+u5
+  rotate: false
+  xy: 2, 434
+  size: 295, 83
+  orig: 295, 83
+  offset: 0, 0
+  index: -1
+u6
+  rotate: false
+  xy: 573, 903
+  size: 395, 65
+  orig: 395, 65
+  offset: 0, 0
+  index: -1
+u7
+  rotate: false
+  xy: 2, 727
+  size: 569, 241
+  orig: 569, 241
+  offset: 0, 0
+  index: -1

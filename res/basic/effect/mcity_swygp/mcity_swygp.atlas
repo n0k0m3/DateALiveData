@@ -1,0 +1,181 @@
+
+mcity_swygp.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+face
+  rotate: true
+  xy: 765, 880
+  size: 76, 50
+  orig: 76, 50
+  offset: 0, 0
+  index: -1
+hair1
+  rotate: true
+  xy: 817, 938
+  size: 32, 92
+  orig: 32, 92
+  offset: 0, 0
+  index: -1
+hair2
+  rotate: false
+  xy: 97, 471
+  size: 18, 80
+  orig: 18, 80
+  offset: 0, 0
+  index: -1
+hair3
+  rotate: false
+  xy: 354, 829
+  size: 165, 192
+  orig: 165, 192
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 118, 492
+  size: 82, 125
+  orig: 82, 125
+  offset: 0, 0
+  index: -1
+jacket1
+  rotate: false
+  xy: 118, 764
+  size: 234, 257
+  orig: 234, 257
+  offset: 0, 0
+  index: -1
+jacket2
+  rotate: true
+  xy: 118, 576
+  size: 186, 222
+  orig: 186, 222
+  offset: 0, 0
+  index: -1
+l_calf
+  rotate: false
+  xy: 521, 841
+  size: 85, 180
+  orig: 85, 180
+  offset: 0, 0
+  index: -1
+l_forearm
+  rotate: true
+  xy: 65, 76
+  size: 97, 34
+  orig: 97, 34
+  offset: 0, 0
+  index: -1
+l_hair
+  rotate: true
+  xy: 804, 972
+  size: 49, 173
+  orig: 49, 173
+  offset: 0, 0
+  index: -1
+l_hand
+  rotate: false
+  xy: 245, 492
+  size: 27, 16
+  orig: 27, 16
+  offset: 0, 0
+  index: -1
+l_sleeve
+  rotate: false
+  xy: 2, 376
+  size: 93, 175
+  orig: 93, 175
+  offset: 0, 0
+  index: -1
+l_thigh
+  rotate: true
+  xy: 354, 772
+  size: 55, 154
+  orig: 55, 154
+  offset: 0, 0
+  index: -1
+l_uparm
+  rotate: false
+  xy: 79, 175
+  size: 38, 95
+  orig: 38, 95
+  offset: 0, 0
+  index: -1
+neck
+  rotate: false
+  xy: 979, 990
+  size: 26, 31
+  orig: 26, 31
+  offset: 0, 0
+  index: -1
+necktie
+  rotate: true
+  xy: 608, 842
+  size: 38, 144
+  orig: 38, 144
+  offset: 0, 0
+  index: -1
+r_calf
+  rotate: true
+  xy: 608, 958
+  size: 63, 194
+  orig: 63, 194
+  offset: 0, 0
+  index: -1
+r_forearm
+  rotate: false
+  xy: 817, 905
+  size: 91, 31
+  orig: 91, 31
+  offset: 0, 0
+  index: -1
+r_hair
+  rotate: false
+  xy: 2, 2
+  size: 61, 180
+  orig: 61, 180
+  offset: 0, 0
+  index: -1
+r_hand
+  rotate: false
+  xy: 65, 24
+  size: 46, 50
+  orig: 46, 50
+  offset: 0, 0
+  index: -1
+r_sleeve
+  rotate: false
+  xy: 2, 184
+  size: 75, 190
+  orig: 75, 190
+  offset: 0, 0
+  index: -1
+r_thigh
+  rotate: true
+  xy: 608, 882
+  size: 74, 155
+  orig: 74, 155
+  offset: 0, 0
+  index: -1
+r_uparm
+  rotate: false
+  xy: 79, 272
+  size: 36, 102
+  orig: 36, 102
+  offset: 0, 0
+  index: -1
+spline1
+  rotate: false
+  xy: 245, 510
+  size: 101, 64
+  orig: 101, 64
+  offset: 0, 0
+  index: -1
+spline2
+  rotate: false
+  xy: 2, 553
+  size: 114, 468
+  orig: 114, 468
+  offset: 0, 0
+  index: -1

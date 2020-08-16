@@ -1,0 +1,139 @@
+
+skeleton.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/fankai/fankai_027
+  rotate: false
+  xy: 2, 83
+  size: 104, 78
+  orig: 105, 80
+  offset: 1, 0
+  index: -1
+effect/fankai/fankai_028
+  rotate: false
+  xy: 108, 164
+  size: 104, 78
+  orig: 105, 80
+  offset: 1, 0
+  index: -1
+effect/fankai/fankai_029
+  rotate: false
+  xy: 2, 163
+  size: 104, 79
+  orig: 105, 80
+  offset: 1, 0
+  index: -1
+effect/fankai/fankai_030
+  rotate: false
+  xy: 2, 2
+  size: 102, 79
+  orig: 105, 80
+  offset: 3, 0
+  index: -1
+effect/fankai/fankai_031
+  rotate: false
+  xy: 108, 83
+  size: 101, 79
+  orig: 105, 80
+  offset: 4, 0
+  index: -1
+effect/fankai/fankai_032
+  rotate: false
+  xy: 106, 2
+  size: 101, 79
+  orig: 105, 80
+  offset: 4, 0
+  index: -1
+effect/fankai/fankai_033
+  rotate: false
+  xy: 214, 163
+  size: 101, 79
+  orig: 105, 80
+  offset: 4, 0
+  index: -1
+effect/fankai/fankai_034
+  rotate: false
+  xy: 317, 163
+  size: 101, 79
+  orig: 105, 80
+  offset: 4, 0
+  index: -1
+effect/fankai/fankai_035
+  rotate: false
+  xy: 420, 163
+  size: 100, 79
+  orig: 105, 80
+  offset: 5, 0
+  index: -1
+effect/fankai/fankai_036
+  rotate: false
+  xy: 522, 163
+  size: 92, 79
+  orig: 105, 80
+  offset: 13, 0
+  index: -1
+effect/fankai/fankai_037
+  rotate: false
+  xy: 616, 163
+  size: 79, 79
+  orig: 105, 80
+  offset: 26, 0
+  index: -1
+effect/fankai/fankai_038
+  rotate: false
+  xy: 697, 164
+  size: 72, 78
+  orig: 105, 80
+  offset: 33, 1
+  index: -1
+effect/fankai/fankai_039
+  rotate: false
+  xy: 771, 164
+  size: 71, 78
+  orig: 105, 80
+  offset: 34, 1
+  index: -1
+effect/fankai/fankai_040
+  rotate: false
+  xy: 844, 164
+  size: 69, 78
+  orig: 105, 80
+  offset: 36, 2
+  index: -1
+effect/fankai/fankai_041
+  rotate: false
+  xy: 915, 164
+  size: 66, 78
+  orig: 105, 80
+  offset: 39, 2
+  index: -1
+effect/fankai/fankai_042
+  rotate: false
+  xy: 211, 84
+  size: 63, 77
+  orig: 105, 80
+  offset: 42, 3
+  index: -1
+effect/fankai/fankai_043
+  rotate: false
+  xy: 276, 86
+  size: 60, 75
+  orig: 105, 80
+  offset: 45, 5
+  index: -1
+effect/glow1_016
+  rotate: false
+  xy: 408, 116
+  size: 46, 45
+  orig: 46, 48
+  offset: 0, 2
+  index: -1
+effect/quan_019
+  rotate: false
+  xy: 338, 94
+  size: 68, 67
+  orig: 72, 72
+  offset: 2, 3
+  index: -1

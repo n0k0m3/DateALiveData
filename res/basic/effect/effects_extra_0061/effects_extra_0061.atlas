@@ -1,0 +1,432 @@
+
+effects_extra_0061.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/bai_00026
+  rotate: false
+  xy: 696, 41
+  size: 139, 117
+  orig: 175, 175
+  offset: 11, 30
+  index: -1
+images/dimian/dimian_00002
+  rotate: true
+  xy: 1012, 995
+  size: 27, 10
+  orig: 210, 70
+  offset: 95, 30
+  index: -1
+images/dimian/dimian_00003
+  rotate: true
+  xy: 975, 107
+  size: 102, 34
+  orig: 210, 70
+  offset: 58, 20
+  index: -1
+images/dimian/dimian_00004
+  rotate: false
+  xy: 837, 26
+  size: 142, 46
+  orig: 210, 70
+  offset: 37, 13
+  index: -1
+images/dimian/dimian_00005
+  rotate: false
+  xy: 607, 160
+  size: 177, 57
+  orig: 210, 70
+  offset: 18, 6
+  index: -1
+images/dimian/dimian_00006
+  rotate: false
+  xy: 207, 357
+  size: 193, 59
+  orig: 210, 70
+  offset: 10, 5
+  index: -1
+images/dimian/dimian_00007
+  rotate: true
+  xy: 546, 160
+  size: 193, 59
+  orig: 210, 70
+  offset: 10, 5
+  index: -1
+images/shitou/shitou_00001
+  rotate: false
+  xy: 975, 83
+  size: 23, 22
+  orig: 175, 175
+  offset: 52, 41
+  index: -1
+images/shitou/shitou_00002
+  rotate: false
+  xy: 441, 6
+  size: 50, 50
+  orig: 175, 175
+  offset: 32, 37
+  index: -1
+images/shitou/shitou_00004
+  rotate: true
+  xy: 785, 222
+  size: 111, 76
+  orig: 175, 175
+  offset: 15, 31
+  index: -1
+images/xiaoshitou/xiaoshitou_00009
+  rotate: false
+  xy: 532, 47
+  size: 162, 111
+  orig: 245, 140
+  offset: 39, 15
+  index: -1
+images/xiaoshitou/xiaoshitou_00011
+  rotate: false
+  xy: 607, 219
+  size: 176, 114
+  orig: 245, 140
+  offset: 38, 15
+  index: -1
+images/xiaoshitou/xiaoshitou_00013
+  rotate: false
+  xy: 651, 512
+  size: 188, 112
+  orig: 245, 140
+  offset: 38, 16
+  index: -1
+images/xiaoshitou/xiaoshitou_00015
+  rotate: false
+  xy: 619, 727
+  size: 209, 108
+  orig: 245, 140
+  offset: 27, 16
+  index: -1
+images/xiaoshitou/xiaoshitou_00017
+  rotate: false
+  xy: 613, 626
+  size: 224, 99
+  orig: 245, 140
+  offset: 14, 16
+  index: -1
+images/xiaoshitou/xiaoshitou_00019
+  rotate: false
+  xy: 412, 534
+  size: 237, 90
+  orig: 245, 140
+  offset: 2, 14
+  index: -1
+images/xiaoshitou/xiaoshitou_00021
+  rotate: false
+  xy: 409, 458
+  size: 232, 74
+  orig: 245, 140
+  offset: 9, 15
+  index: -1
+images/xiaoshitou/xiaoshitou_00023
+  rotate: false
+  xy: 409, 396
+  size: 234, 60
+  orig: 245, 140
+  offset: 7, 12
+  index: -1
+images/xiaoshitou/xiaoshitou_00025
+  rotate: false
+  xy: 402, 355
+  size: 234, 39
+  orig: 245, 140
+  offset: 7, 12
+  index: -1
+images/xiaoshitou/xiaoshitou_00027
+  rotate: false
+  xy: 205, 16
+  size: 234, 19
+  orig: 245, 140
+  offset: 7, 11
+  index: -1
+images/xiaoshitou1/shitou_00037
+  rotate: false
+  xy: 837, 74
+  size: 136, 135
+  orig: 210, 210
+  offset: 43, 45
+  index: -1
+images/xiaoshitou1/shitou_00039
+  rotate: false
+  xy: 383, 197
+  size: 161, 156
+  orig: 210, 210
+  offset: 31, 31
+  index: -1
+images/xiaoshitou1/shitou_00041
+  rotate: false
+  xy: 841, 507
+  size: 175, 162
+  orig: 210, 210
+  offset: 24, 28
+  index: -1
+images/xiaoshitou1/shitou_00043
+  rotate: false
+  xy: 833, 345
+  size: 173, 160
+  orig: 210, 210
+  offset: 14, 19
+  index: -1
+images/yan/yan_00010
+  rotate: false
+  xy: 205, 37
+  size: 163, 159
+  orig: 210, 210
+  offset: 22, 23
+  index: -1
+images/yan/yan_00012
+  rotate: false
+  xy: 839, 671
+  size: 183, 176
+  orig: 210, 210
+  offset: 15, 14
+  index: -1
+images/yan/yan_00014
+  rotate: false
+  xy: 412, 626
+  size: 199, 191
+  orig: 210, 210
+  offset: 9, 6
+  index: -1
+images/yan/yan_00016
+  rotate: true
+  xy: 209, 612
+  size: 205, 201
+  orig: 210, 210
+  offset: 5, 1
+  index: -1
+images/yan/yan_00018
+  rotate: false
+  xy: 2, 818
+  size: 205, 204
+  orig: 210, 210
+  offset: 5, 0
+  index: -1
+images/yan/yan_00020
+  rotate: false
+  xy: 2, 612
+  size: 205, 204
+  orig: 210, 210
+  offset: 5, 0
+  index: -1
+images/yan/yan_00022
+  rotate: false
+  xy: 209, 819
+  size: 204, 203
+  orig: 210, 210
+  offset: 6, 1
+  index: -1
+images/yan1/yan_00026
+  rotate: false
+  xy: 863, 211
+  size: 142, 132
+  orig: 210, 210
+  offset: 25, 25
+  index: -1
+images/yan1/yan_00028
+  rotate: false
+  xy: 370, 58
+  size: 160, 137
+  orig: 210, 210
+  offset: 20, 31
+  index: -1
+images/yan1/yan_00030
+  rotate: false
+  xy: 206, 198
+  size: 175, 157
+  orig: 210, 210
+  offset: 16, 21
+  index: -1
+images/yan1/yan_00032
+  rotate: false
+  xy: 820, 849
+  size: 190, 173
+  orig: 210, 210
+  offset: 13, 13
+  index: -1
+images/yan1/yan_00034
+  rotate: false
+  xy: 619, 837
+  size: 199, 185
+  orig: 210, 210
+  offset: 11, 8
+  index: -1
+images/yan1/yan_00036
+  rotate: false
+  xy: 207, 418
+  size: 200, 192
+  orig: 210, 210
+  offset: 10, 4
+  index: -1
+images/yan1/yan_00038
+  rotate: false
+  xy: 2, 2
+  size: 201, 198
+  orig: 210, 210
+  offset: 9, 2
+  index: -1
+images/yan1/yan_00040
+  rotate: false
+  xy: 2, 202
+  size: 202, 202
+  orig: 210, 210
+  offset: 8, 0
+  index: -1
+images/yan1/yan_00042
+  rotate: false
+  xy: 415, 819
+  size: 202, 203
+  orig: 210, 210
+  offset: 8, 0
+  index: -1
+images/yan1/yan_00044
+  rotate: false
+  xy: 2, 406
+  size: 203, 204
+  orig: 210, 210
+  offset: 7, 0
+  index: -1
+images/yan1/yan_00046
+  rotate: false
+  xy: 645, 335
+  size: 186, 175
+  orig: 210, 210
+  offset: 24, 22
+  index: -1
+
+effects_extra_00612.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/dimian/dimian_00008
+  rotate: true
+  xy: 2, 407
+  size: 193, 59
+  orig: 210, 70
+  offset: 10, 5
+  index: -1
+images/dimian/dimian_00009
+  rotate: false
+  xy: 422, 958
+  size: 193, 59
+  orig: 210, 70
+  offset: 10, 5
+  index: -1
+images/shitou/shitou_00003
+  rotate: false
+  xy: 522, 889
+  size: 86, 67
+  orig: 175, 175
+  offset: 21, 32
+  index: -1
+images/shitou/shitou_00005
+  rotate: false
+  xy: 749, 918
+  size: 126, 99
+  orig: 175, 175
+  offset: 12, 30
+  index: -1
+images/shitou/shitou_00006
+  rotate: true
+  xy: 2, 123
+  size: 134, 110
+  orig: 175, 175
+  offset: 11, 30
+  index: -1
+images/shitou/shitou_00007
+  rotate: false
+  xy: 283, 901
+  size: 137, 116
+  orig: 175, 175
+  offset: 11, 30
+  index: -1
+images/shitou/shitou_00008
+  rotate: true
+  xy: 2, 743
+  size: 139, 117
+  orig: 175, 175
+  offset: 11, 30
+  index: -1
+images/shitou/shitou_00009
+  rotate: false
+  xy: 142, 900
+  size: 139, 117
+  orig: 175, 175
+  offset: 11, 30
+  index: -1
+images/shitou/shitou_00010
+  rotate: true
+  xy: 2, 602
+  size: 139, 117
+  orig: 175, 175
+  offset: 11, 30
+  index: -1
+images/xiaoshitou/xiaoshitou_00003
+  rotate: false
+  xy: 63, 420
+  size: 89, 75
+  orig: 245, 140
+  offset: 73, 17
+  index: -1
+images/xiaoshitou/xiaoshitou_00005
+  rotate: true
+  xy: 2, 2
+  size: 119, 92
+  orig: 245, 140
+  offset: 56, 16
+  index: -1
+images/xiaoshitou/xiaoshitou_00007
+  rotate: true
+  xy: 2, 259
+  size: 146, 104
+  orig: 245, 140
+  offset: 42, 15
+  index: -1
+images/xiaoshitou1/shitou_00033
+  rotate: false
+  xy: 63, 497
+  size: 101, 103
+  orig: 210, 210
+  offset: 65, 62
+  index: -1
+images/xiaoshitou1/shitou_00035
+  rotate: false
+  xy: 617, 891
+  size: 130, 126
+  orig: 210, 210
+  offset: 50, 49
+  index: -1
+images/yan/yan_00004
+  rotate: true
+  xy: 108, 341
+  size: 77, 60
+  orig: 210, 210
+  offset: 55, 71
+  index: -1
+images/yan/yan_00006
+  rotate: false
+  xy: 877, 917
+  size: 109, 100
+  orig: 210, 210
+  offset: 41, 51
+  index: -1
+images/yan/yan_00008
+  rotate: false
+  xy: 2, 884
+  size: 138, 133
+  orig: 210, 210
+  offset: 29, 36
+  index: -1
+images/yan1/yan_00048
+  rotate: false
+  xy: 422, 859
+  size: 98, 97
+  orig: 210, 210
+  offset: 112, 97
+  index: -1

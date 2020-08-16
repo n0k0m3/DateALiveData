@@ -1,0 +1,130 @@
+
+effects_10701_skillD2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skilld/p1_b/p1_b_0003
+  rotate: false
+  xy: 2, 790
+  size: 765, 213
+  orig: 765, 216
+  offset: 0, 0
+  index: -1
+images/effects/skilld/p1_b/p1_b_0004
+  rotate: true
+  xy: 2, 23
+  size: 765, 207
+  orig: 765, 216
+  offset: 0, 6
+  index: -1
+images/effects/skilld/p1_b/p1_b_0005
+  rotate: true
+  xy: 211, 23
+  size: 765, 205
+  orig: 765, 216
+  offset: 0, 9
+  index: -1
+images/effects/skilld/p1_b/p1_b_0006
+  rotate: true
+  xy: 418, 23
+  size: 765, 204
+  orig: 765, 216
+  offset: 0, 6
+  index: -1
+images/effects/skilld/p1_b/p1_b_0007
+  rotate: true
+  xy: 624, 23
+  size: 765, 193
+  orig: 765, 216
+  offset: 0, 9
+  index: -1
+images/effects/skilld/p1_b/p1_b_0009
+  rotate: true
+  xy: 819, 238
+  size: 765, 184
+  orig: 765, 216
+  offset: 0, 18
+  index: -1
+
+effects_10701_skillD22.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skilld/p1_b/p1_b_0001
+  rotate: false
+  xy: 2, 523
+  size: 765, 141
+  orig: 765, 216
+  offset: 0, 25
+  index: -1
+images/effects/skilld/p1_b/p1_b_0002
+  rotate: false
+  xy: 2, 380
+  size: 765, 141
+  orig: 765, 216
+  offset: 0, 25
+  index: -1
+images/effects/skilld/p1_b/p1_b_0008
+  rotate: false
+  xy: 2, 828
+  size: 765, 170
+  orig: 765, 216
+  offset: 0, 12
+  index: -1
+images/effects/skilld/p1_b/p1_b_0010
+  rotate: false
+  xy: 2, 666
+  size: 765, 160
+  orig: 765, 216
+  offset: 0, 24
+  index: -1
+images/effects/skilld/p1_b/p1_b_0011
+  rotate: false
+  xy: 2, 237
+  size: 765, 141
+  orig: 765, 216
+  offset: 0, 37
+  index: -1
+images/effects/skilld/p1_b/p1_b_0012
+  rotate: false
+  xy: 2, 116
+  size: 765, 119
+  orig: 765, 216
+  offset: 0, 39
+  index: -1
+images/effects/skilld/p1_b/p1_b_0013
+  rotate: true
+  xy: 769, 233
+  size: 765, 116
+  orig: 765, 216
+  offset: 0, 40
+  index: -1
+images/effects/skilld/p1_b/p1_b_0014
+  rotate: false
+  xy: 2, 2
+  size: 765, 112
+  orig: 765, 216
+  offset: 0, 41
+  index: -1
+images/effects/skilld/p1_b/p1_b_0015
+  rotate: true
+  xy: 887, 233
+  size: 765, 110
+  orig: 765, 216
+  offset: 0, 42
+  index: -1
+
+effects_10701_skillD23.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skilld/p1_b/p1_b_0016
+  rotate: false
+  xy: 2, 591
+  size: 694, 105
+  orig: 765, 216
+  offset: 0, 45
+  index: -1

@@ -1,0 +1,90 @@
+
+eff_zhuanpan_mf_tingzhi.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+zhongjiang/zhongjiang_00002
+  rotate: false
+  xy: 449, 71
+  size: 180, 179
+  orig: 1386, 640
+  offset: 603, 231
+  index: -1
+zhongjiang/zhongjiang_00003
+  rotate: true
+  xy: 449, 252
+  size: 202, 201
+  orig: 1386, 640
+  offset: 592, 220
+  index: -1
+zhongjiang/zhongjiang_00004
+  rotate: false
+  xy: 229, 28
+  size: 210, 209
+  orig: 1386, 640
+  offset: 588, 216
+  index: -1
+zhongjiang/zhongjiang_00005
+  rotate: false
+  xy: 684, 689
+  size: 218, 217
+  orig: 1386, 640
+  offset: 584, 212
+  index: -1
+zhongjiang/zhongjiang_00006
+  rotate: false
+  xy: 460, 685
+  size: 222, 221
+  orig: 1386, 640
+  offset: 582, 210
+  index: -1
+zhongjiang/zhongjiang_00007
+  rotate: false
+  xy: 2, 224
+  size: 225, 224
+  orig: 1386, 640
+  offset: 581, 208
+  index: -1
+zhongjiang/zhongjiang_00008
+  rotate: false
+  xy: 2, 679
+  size: 228, 227
+  orig: 1386, 640
+  offset: 579, 207
+  index: -1
+zhongjiang/zhongjiang_00009
+  rotate: false
+  xy: 2, 450
+  size: 228, 227
+  orig: 1386, 640
+  offset: 579, 207
+  index: -1
+zhongjiang/zhongjiang_00010
+  rotate: false
+  xy: 232, 681
+  size: 226, 225
+  orig: 1386, 640
+  offset: 580, 208
+  index: -1
+zhongjiang/zhongjiang_00011
+  rotate: false
+  xy: 232, 456
+  size: 224, 223
+  orig: 1386, 640
+  offset: 581, 209
+  index: -1
+zhongjiang/zhongjiang_00012
+  rotate: false
+  xy: 2, 2
+  size: 222, 220
+  orig: 1386, 640
+  offset: 581, 210
+  index: -1
+zhongjiang/zhongjiang_00013
+  rotate: false
+  xy: 232, 239
+  size: 215, 215
+  orig: 1386, 640
+  offset: 585, 213
+  index: -1

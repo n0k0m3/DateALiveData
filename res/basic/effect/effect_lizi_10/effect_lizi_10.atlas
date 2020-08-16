@@ -1,0 +1,13 @@
+
+effect_lizi_10.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/suipian_00000
+  rotate: false
+  xy: 2, 2
+  size: 126, 143
+  orig: 300, 200
+  offset: 88, 27
+  index: -1

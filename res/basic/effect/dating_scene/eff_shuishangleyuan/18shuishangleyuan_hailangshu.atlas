@@ -1,0 +1,215 @@
+
+18shuishangleyuan_hailangshu.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+02
+  rotate: true
+  xy: 476, 39
+  size: 87, 28
+  orig: 101, 46
+  offset: 4, 17
+  index: -1
+03
+  rotate: false
+  xy: 267, 3
+  size: 87, 29
+  orig: 101, 46
+  offset: 4, 16
+  index: -1
+04
+  rotate: false
+  xy: 356, 3
+  size: 87, 29
+  orig: 101, 46
+  offset: 4, 15
+  index: -1
+05
+  rotate: false
+  xy: 171, 2
+  size: 94, 30
+  orig: 101, 46
+  offset: 4, 13
+  index: -1
+06
+  rotate: true
+  xy: 476, 416
+  size: 94, 33
+  orig: 101, 46
+  offset: 4, 10
+  index: -1
+07
+  rotate: true
+  xy: 114, 47
+  size: 94, 32
+  orig: 101, 46
+  offset: 4, 10
+  index: -1
+08
+  rotate: true
+  xy: 476, 320
+  size: 94, 33
+  orig: 101, 46
+  offset: 4, 9
+  index: -1
+09
+  rotate: true
+  xy: 2, 47
+  size: 94, 35
+  orig: 101, 46
+  offset: 4, 6
+  index: -1
+10
+  rotate: true
+  xy: 476, 224
+  size: 94, 33
+  orig: 101, 46
+  offset: 4, 7
+  index: -1
+11
+  rotate: true
+  xy: 476, 128
+  size: 94, 33
+  orig: 101, 46
+  offset: 4, 6
+  index: -1
+12
+  rotate: true
+  xy: 148, 47
+  size: 94, 24
+  orig: 101, 46
+  offset: 4, 5
+  index: -1
+13
+  rotate: true
+  xy: 174, 47
+  size: 94, 24
+  orig: 101, 46
+  offset: 4, 5
+  index: -1
+14
+  rotate: true
+  xy: 209, 46
+  size: 95, 25
+  orig: 101, 46
+  offset: 4, 4
+  index: -1
+15
+  rotate: true
+  xy: 39, 47
+  size: 94, 24
+  orig: 101, 46
+  offset: 5, 4
+  index: -1
+17
+  rotate: true
+  xy: 65, 47
+  size: 94, 22
+  orig: 101, 46
+  offset: 6, 4
+  index: -1
+18
+  rotate: false
+  xy: 445, 11
+  size: 60, 21
+  orig: 101, 46
+  offset: 40, 4
+  index: -1
+l11
+  rotate: false
+  xy: 2, 5
+  size: 167, 27
+  orig: 167, 27
+  offset: 0, 0
+  index: -1
+l4
+  rotate: false
+  xy: 209, 36
+  size: 43, 8
+  orig: 43, 8
+  offset: 0, 0
+  index: -1
+l7
+  rotate: false
+  xy: 2, 35
+  size: 110, 10
+  orig: 110, 10
+  offset: 0, 0
+  index: -1
+l8
+  rotate: true
+  xy: 254, 35
+  size: 106, 13
+  orig: 106, 13
+  offset: 0, 0
+  index: -1
+l9
+  rotate: false
+  xy: 114, 35
+  size: 93, 10
+  orig: 93, 10
+  offset: 0, 0
+  index: -1
+shu1_00000
+  rotate: false
+  xy: 2, 143
+  size: 267, 367
+  orig: 272, 371
+  offset: 4, 0
+  index: -1
+shu_00000
+  rotate: false
+  xy: 271, 34
+  size: 203, 476
+  orig: 210, 480
+  offset: 2, 2
+  index: -1
+
+18shuishangleyuan_hailangshu2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: false
+  xy: 2, 312
+  size: 78, 25
+  orig: 101, 46
+  offset: 6, 19
+  index: -1
+16
+  rotate: false
+  xy: 350, 406
+  size: 95, 23
+  orig: 101, 46
+  offset: 5, 4
+  index: -1
+l
+  rotate: false
+  xy: 2, 364
+  size: 346, 88
+  orig: 346, 88
+  offset: 0, 0
+  index: -1
+l10
+  rotate: false
+  xy: 2, 339
+  size: 113, 7
+  orig: 113, 7
+  offset: 0, 0
+  index: -1
+l5
+  rotate: false
+  xy: 350, 431
+  size: 102, 21
+  orig: 102, 21
+  offset: 0, 0
+  index: -1
+l6
+  rotate: false
+  xy: 2, 348
+  size: 147, 14
+  orig: 147, 14
+  offset: 0, 0
+  index: -1

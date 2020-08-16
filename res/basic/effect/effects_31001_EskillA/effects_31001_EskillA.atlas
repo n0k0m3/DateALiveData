@@ -1,0 +1,215 @@
+
+effects_31001_EskillA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/EskillA/ci/ci_054
+  rotate: false
+  xy: 2, 884
+  size: 459, 138
+  orig: 459, 138
+  offset: 0, 0
+  index: -1
+effects/EskillA/ci/ci_055
+  rotate: false
+  xy: 2, 744
+  size: 457, 138
+  orig: 459, 138
+  offset: 0, 0
+  index: -1
+effects/EskillA/ci/ci_056
+  rotate: false
+  xy: 2, 604
+  size: 450, 138
+  orig: 459, 138
+  offset: 0, 0
+  index: -1
+effects/EskillA/ci/ci_058
+  rotate: false
+  xy: 463, 885
+  size: 452, 137
+  orig: 459, 138
+  offset: 0, 0
+  index: -1
+effects/EskillA/ci/ci_060
+  rotate: false
+  xy: 2, 464
+  size: 449, 138
+  orig: 459, 138
+  offset: 4, 0
+  index: -1
+effects/EskillA/ci/ci_062
+  rotate: true
+  xy: 2, 12
+  size: 450, 137
+  orig: 459, 138
+  offset: 2, 1
+  index: -1
+effects/EskillA/ci/ci_064
+  rotate: true
+  xy: 141, 61
+  size: 401, 125
+  orig: 459, 138
+  offset: 3, 13
+  index: -1
+effects/EskillA/ci/ci_066
+  rotate: true
+  xy: 268, 76
+  size: 386, 108
+  orig: 459, 138
+  offset: 6, 18
+  index: -1
+effects/EskillA/dg1/dg1_017
+  rotate: true
+  xy: 800, 118
+  size: 214, 142
+  orig: 314, 198
+  offset: 9, 47
+  index: -1
+effects/EskillA/dg1/dg1_018
+  rotate: false
+  xy: 504, 124
+  size: 294, 198
+  orig: 314, 198
+  offset: 0, 0
+  index: -1
+effects/EskillA/dg1/dg1_019
+  rotate: true
+  xy: 504, 324
+  size: 306, 196
+  orig: 314, 198
+  offset: 4, 0
+  index: -1
+effects/EskillA/dg1/dg1_025
+  rotate: true
+  xy: 702, 334
+  size: 296, 181
+  orig: 314, 198
+  offset: 18, 8
+  index: -1
+effects/EskillA/dg2/dg2_029
+  rotate: false
+  xy: 463, 754
+  size: 325, 129
+  orig: 336, 138
+  offset: 11, 3
+  index: -1
+effects/EskillA/dg2/dg2_031
+  rotate: true
+  xy: 378, 134
+  size: 328, 124
+  orig: 336, 138
+  offset: 0, 3
+  index: -1
+effects/EskillA/dg2/dg2_035
+  rotate: false
+  xy: 461, 632
+  size: 315, 120
+  orig: 336, 138
+  offset: 12, 2
+  index: -1
+effects/EskillA/dg2/dg2_037
+  rotate: false
+  xy: 378, 5
+  size: 315, 117
+  orig: 336, 138
+  offset: 10, 6
+  index: -1
+effects/EskillA/dg2/dg2_039
+  rotate: true
+  xy: 885, 380
+  size: 315, 86
+  orig: 336, 138
+  offset: 10, 11
+  index: -1
+effects/EskillA/glow1_018
+  rotate: true
+  xy: 944, 116
+  size: 262, 59
+  orig: 264, 59
+  offset: 2, 0
+  index: -1
+effects/EskillA/glow2_018
+  rotate: true
+  xy: 695, 2
+  size: 112, 115
+  orig: 112, 115
+  offset: 0, 0
+  index: -1
+effects/born/shandian/shandian_018
+  rotate: false
+  xy: 917, 840
+  size: 105, 182
+  orig: 121, 204
+  offset: 13, 13
+  index: -1
+effects/born/shandian/shandian_021
+  rotate: false
+  xy: 790, 697
+  size: 103, 186
+  orig: 121, 204
+  offset: 9, 15
+  index: -1
+effects/born/shandian/shandian_024
+  rotate: true
+  xy: 812, 27
+  size: 87, 181
+  orig: 121, 204
+  offset: 10, 17
+  index: -1
+effects/born/shandian/shandian_025
+  rotate: true
+  xy: 812, 27
+  size: 87, 181
+  orig: 121, 204
+  offset: 10, 17
+  index: -1
+
+effects_31001_EskillA2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/EskillA/dg1/dg1_021
+  rotate: false
+  xy: 2, 663
+  size: 308, 192
+  orig: 314, 198
+  offset: 6, 0
+  index: -1
+effects/EskillA/dg1/dg1_023
+  rotate: false
+  xy: 2, 470
+  size: 308, 191
+  orig: 314, 198
+  offset: 6, 1
+  index: -1
+effects/EskillA/dg1/dg1_027
+  rotate: false
+  xy: 312, 682
+  size: 266, 173
+  orig: 314, 198
+  offset: 21, 15
+  index: -1
+effects/EskillA/dg2/dg2_028
+  rotate: false
+  xy: 580, 774
+  size: 275, 81
+  orig: 336, 138
+  offset: 54, 46
+  index: -1
+effects/EskillA/dg2/dg2_033
+  rotate: false
+  xy: 2, 346
+  size: 296, 122
+  orig: 336, 138
+  offset: 33, 2
+  index: -1
+effects/EskillA/dimian_020
+  rotate: false
+  xy: 312, 622
+  size: 242, 58
+  orig: 252, 65
+  offset: 6, 0
+  index: -1

@@ -1,0 +1,13 @@
+
+xiariji_shui.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shui_1_00000
+  rotate: false
+  xy: 2, 1232
+  size: 1381, 151
+  orig: 1401, 174
+  offset: 0, 0
+  index: -1

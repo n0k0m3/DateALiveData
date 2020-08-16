@@ -1,0 +1,13 @@
+
+effect_ui16.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/sanjiao_00000
+  rotate: false
+  xy: 2, 22
+  size: 66, 46
+  orig: 100, 100
+  offset: 17, 23
+  index: -1

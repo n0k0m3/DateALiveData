@@ -1,0 +1,160 @@
+
+effect_monster_die.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fangshe_000
+  rotate: false
+  xy: 888, 357
+  size: 119, 119
+  orig: 119, 119
+  offset: 0, 0
+  index: -1
+glow_000
+  rotate: false
+  xy: 887, 154
+  size: 89, 89
+  orig: 93, 93
+  offset: 2, 2
+  index: -1
+glowci_000
+  rotate: false
+  xy: 888, 245
+  size: 110, 110
+  orig: 112, 112
+  offset: 1, 1
+  index: -1
+guangquan2_000
+  rotate: false
+  xy: 679, 49
+  size: 89, 89
+  orig: 93, 93
+  offset: 2, 2
+  index: -1
+guangxian_000
+  rotate: true
+  xy: 256, 481
+  size: 267, 138
+  orig: 279, 140
+  offset: 6, 2
+  index: -1
+lizi/lizi_000
+  rotate: false
+  xy: 254, 81
+  size: 175, 163
+  orig: 279, 279
+  offset: 54, 61
+  index: -1
+lizi/lizi_002
+  rotate: false
+  xy: 472, 100
+  size: 205, 198
+  orig: 279, 279
+  offset: 39, 39
+  index: -1
+lizi/lizi_004
+  rotate: true
+  xy: 625, 543
+  size: 228, 225
+  orig: 279, 279
+  offset: 29, 23
+  index: -1
+lizi/lizi_006
+  rotate: false
+  xy: 518, 773
+  size: 246, 243
+  orig: 279, 279
+  offset: 22, 13
+  index: -1
+lizi/lizi_008
+  rotate: false
+  xy: 266, 759
+  size: 250, 257
+  orig: 279, 279
+  offset: 18, 4
+  index: -1
+lizi/lizi_010
+  rotate: false
+  xy: 2, 485
+  size: 252, 263
+  orig: 279, 279
+  offset: 14, 0
+  index: -1
+lizi/lizi_012
+  rotate: false
+  xy: 2, 750
+  size: 262, 266
+  orig: 279, 279
+  offset: 14, 0
+  index: -1
+lizi/lizi_014
+  rotate: false
+  xy: 2, 238
+  size: 250, 245
+  orig: 279, 279
+  offset: 10, 12
+  index: -1
+lizi/lizi_016
+  rotate: false
+  xy: 2, 15
+  size: 246, 221
+  orig: 279, 279
+  offset: 14, 21
+  index: -1
+lizi2/lizi2_000
+  rotate: false
+  xy: 888, 478
+  size: 128, 120
+  orig: 233, 233
+  offset: 56, 63
+  index: -1
+lizi2/lizi2_002
+  rotate: true
+  xy: 852, 600
+  size: 186, 164
+  orig: 233, 233
+  offset: 26, 40
+  index: -1
+lizi2/lizi2_004
+  rotate: true
+  xy: 692, 323
+  size: 218, 194
+  orig: 233, 233
+  offset: 10, 21
+  index: -1
+lizi2/lizi2_006
+  rotate: true
+  xy: 254, 246
+  size: 233, 216
+  orig: 233, 233
+  offset: 0, 8
+  index: -1
+lizi2/lizi2_008
+  rotate: true
+  xy: 396, 524
+  size: 233, 227
+  orig: 233, 233
+  offset: 0, 1
+  index: -1
+lizi2/lizi2_010
+  rotate: false
+  xy: 766, 788
+  size: 233, 228
+  orig: 233, 233
+  offset: 0, 0
+  index: -1
+lizi2/lizi2_012
+  rotate: false
+  xy: 472, 300
+  size: 218, 222
+  orig: 233, 233
+  offset: 0, 0
+  index: -1
+lizi2/lizi2_014
+  rotate: false
+  xy: 692, 140
+  size: 193, 181
+  orig: 233, 233
+  offset: 19, 16
+  index: -1

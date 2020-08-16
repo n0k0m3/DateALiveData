@@ -1,0 +1,68 @@
+
+map_yanwu_08.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sucai/yan/10004
+  rotate: false
+  xy: 170, 56
+  size: 76, 95
+  orig: 76, 95
+  offset: 0, 0
+  index: -1
+sucai/yan/10006
+  rotate: false
+  xy: 170, 153
+  size: 78, 95
+  orig: 78, 95
+  offset: 0, 0
+  index: -1
+sucai/yan/10008
+  rotate: false
+  xy: 87, 153
+  size: 81, 95
+  orig: 81, 95
+  offset: 0, 0
+  index: -1
+sucai/yan/10010
+  rotate: false
+  xy: 2, 153
+  size: 83, 95
+  orig: 83, 95
+  offset: 0, 0
+  index: -1
+sucai/yan/10012
+  rotate: false
+  xy: 2, 56
+  size: 83, 95
+  orig: 83, 95
+  offset: 0, 0
+  index: -1
+sucai/yan/10014
+  rotate: false
+  xy: 87, 56
+  size: 81, 95
+  orig: 81, 95
+  offset: 0, 0
+  index: -1
+
+map_yanwu_082.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sucai/yan/10000
+  rotate: false
+  xy: 2, 2
+  size: 72, 94
+  orig: 72, 94
+  offset: 0, 0
+  index: -1
+sucai/yan/10002
+  rotate: false
+  xy: 2, 98
+  size: 74, 95
+  orig: 74, 95
+  offset: 0, 0
+  index: -1

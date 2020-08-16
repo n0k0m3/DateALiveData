@@ -1,0 +1,111 @@
+
+evt_effect_chDatingR.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/bian1_00000
+  rotate: true
+  xy: 902, 837
+  size: 177, 69
+  orig: 181, 93
+  offset: 3, 12
+  index: -1
+images/bian2_00000
+  rotate: true
+  xy: 2, 83
+  size: 45, 147
+  orig: 68, 160
+  offset: 11, 4
+  index: -1
+images/glow_00000
+  rotate: false
+  xy: 2, 2
+  size: 79, 79
+  orig: 98, 109
+  offset: 9, 16
+  index: -1
+images/lanlizi_00000
+  rotate: true
+  xy: 315, 703
+  size: 149, 135
+  orig: 183, 166
+  offset: 17, 14
+  index: -1
+images/liulizi/lizi_00000
+  rotate: true
+  xy: 166, 681
+  size: 168, 147
+  orig: 230, 190
+  offset: 30, 24
+  index: -1
+images/liulizi/lizi_00002
+  rotate: true
+  xy: 2, 130
+  size: 171, 149
+  orig: 230, 190
+  offset: 30, 23
+  index: -1
+images/liulizi/lizi_00004
+  rotate: false
+  xy: 727, 862
+  size: 173, 152
+  orig: 230, 190
+  offset: 30, 21
+  index: -1
+images/liulizi/lizi_00006
+  rotate: false
+  xy: 549, 859
+  size: 176, 155
+  orig: 230, 190
+  offset: 29, 20
+  index: -1
+images/liulizi/lizi_00008
+  rotate: true
+  xy: 2, 489
+  size: 177, 157
+  orig: 230, 190
+  offset: 30, 19
+  index: -1
+images/liulizi/lizi_00010
+  rotate: false
+  xy: 184, 854
+  size: 178, 160
+  orig: 230, 190
+  offset: 31, 17
+  index: -1
+images/liulizi/lizi_00012
+  rotate: false
+  xy: 2, 851
+  size: 180, 163
+  orig: 230, 190
+  offset: 32, 16
+  index: -1
+images/liulizi/lizi_00014
+  rotate: true
+  xy: 2, 668
+  size: 181, 162
+  orig: 230, 190
+  offset: 32, 15
+  index: -1
+images/liulizi/lizi_00016
+  rotate: false
+  xy: 364, 863
+  size: 183, 151
+  orig: 230, 190
+  offset: 31, 27
+  index: -1
+images/liulizi/lizi_00018
+  rotate: true
+  xy: 2, 303
+  size: 184, 150
+  orig: 230, 190
+  offset: 31, 26
+  index: -1
+images/lvliubiankuang_00000
+  rotate: false
+  xy: 452, 722
+  size: 149, 135
+  orig: 164, 152
+  offset: 8, 8
+  index: -1

@@ -1,0 +1,615 @@
+
+effects_30301_skillD.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skillC/tuowei/tuowei_00036
+  rotate: false
+  xy: 832, 640
+  size: 185, 22
+  orig: 362, 36
+  offset: 103, 1
+  index: -1
+effect/skillC/tuowei/tuowei_00037
+  rotate: true
+  xy: 322, 53
+  size: 221, 33
+  orig: 362, 36
+  offset: 68, 2
+  index: -1
+effect/skillD/boli/boli_00160
+  rotate: false
+  xy: 766, 368
+  size: 254, 263
+  orig: 354, 263
+  offset: 69, 0
+  index: -1
+effect/skillD/boli/boli_00166
+  rotate: false
+  xy: 460, 368
+  size: 304, 263
+  orig: 354, 263
+  offset: 41, 0
+  index: -1
+effect/skillD/cjbn/cjbn_00156
+  rotate: false
+  xy: 2, 666
+  size: 465, 355
+  orig: 465, 390
+  offset: 0, 16
+  index: -1
+effect/skillD/cjbn/cjbn_00158
+  rotate: false
+  xy: 365, 11
+  size: 465, 355
+  orig: 465, 390
+  offset: 0, 16
+  index: -1
+effect/skillD/huohuayana/huohuayana_00164
+  rotate: true
+  xy: 832, 9
+  size: 357, 188
+  orig: 395, 247
+  offset: 28, 27
+  index: -1
+effect/skillD/huohuayana/huohuayana_00174
+  rotate: true
+  xy: 832, 664
+  size: 357, 188
+  orig: 395, 247
+  offset: 28, 27
+  index: -1
+effect/skillD/luoxuanxulia/luoxuanxulia_00022
+  rotate: true
+  xy: 469, 633
+  size: 388, 361
+  orig: 388, 361
+  offset: 0, 0
+  index: -1
+effect/skillD/luoxuanxulia/luoxuanxulia_00028
+  rotate: true
+  xy: 2, 276
+  size: 388, 361
+  orig: 388, 361
+  offset: 0, 0
+  index: -1
+effect/skillD/luoxuanxulin/luoxuanxulin_00020
+  rotate: false
+  xy: 2, 2
+  size: 318, 272
+  orig: 388, 361
+  offset: 38, 54
+  index: -1
+effect/skillD/qilangquan_00028
+  rotate: true
+  xy: 365, 368
+  size: 296, 93
+  orig: 313, 106
+  offset: 8, 7
+  index: -1
+
+effects_30301_skillD2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skillC/tuowei/tuowei_00035
+  rotate: true
+  xy: 936, 329
+  size: 95, 9
+  orig: 362, 36
+  offset: 118, 9
+  index: -1
+effect/skillC/tuowei/tuowei_00038
+  rotate: true
+  xy: 936, 725
+  size: 294, 32
+  orig: 362, 36
+  offset: 0, 3
+  index: -1
+effect/skillC/tuowei/tuowei_00039
+  rotate: true
+  xy: 936, 426
+  size: 297, 21
+  orig: 362, 36
+  offset: 0, 9
+  index: -1
+effect/skillC/tuowei/tuowei_00040
+  rotate: true
+  xy: 970, 850
+  size: 169, 19
+  orig: 362, 36
+  offset: 0, 12
+  index: -1
+effect/skillC/tuowei/tuowei_00041
+  rotate: true
+  xy: 991, 857
+  size: 162, 13
+  orig: 362, 36
+  offset: 0, 17
+  index: -1
+effect/skillC/tuowei/tuowei_00042
+  rotate: true
+  xy: 991, 857
+  size: 162, 13
+  orig: 362, 36
+  offset: 0, 17
+  index: -1
+effect/skillD/cjbn/cjbn_00160
+  rotate: false
+  xy: 2, 664
+  size: 465, 355
+  orig: 465, 390
+  offset: 0, 16
+  index: -1
+effect/skillD/cjbn/cjbn_00162
+  rotate: false
+  xy: 2, 307
+  size: 465, 355
+  orig: 465, 390
+  offset: 0, 16
+  index: -1
+effect/skillD/cjbn/cjbn_00164
+  rotate: false
+  xy: 469, 664
+  size: 465, 355
+  orig: 465, 390
+  offset: 0, 16
+  index: -1
+effect/skillD/cjbn/cjbn_00166
+  rotate: false
+  xy: 469, 307
+  size: 465, 355
+  orig: 465, 390
+  offset: 0, 16
+  index: -1
+effect/skillD/luoxuanxulin/luoxuanxulin_00022
+  rotate: true
+  xy: 2, 2
+  size: 303, 334
+  orig: 388, 361
+  offset: 28, 15
+  index: -1
+effect/skillD/luoxuanxulin/luoxuanxulin_00026
+  rotate: true
+  xy: 338, 2
+  size: 303, 322
+  orig: 388, 361
+  offset: 50, 30
+  index: -1
+effect/skillD/luoxuanxulin/luoxuanxulin_00034
+  rotate: true
+  xy: 662, 3
+  size: 302, 299
+  orig: 388, 361
+  offset: 37, 44
+  index: -1
+
+effects_30301_skillD3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skillD/boli/boli_00168
+  rotate: false
+  xy: 716, 205
+  size: 302, 254
+  orig: 354, 263
+  offset: 47, 0
+  index: -1
+effect/skillD/boli/boli_00176
+  rotate: false
+  xy: 301, 22
+  size: 249, 176
+  orig: 354, 263
+  offset: 103, 41
+  index: -1
+effect/skillD/cjbn/cjbn_00168
+  rotate: false
+  xy: 2, 667
+  size: 465, 355
+  orig: 465, 390
+  offset: 0, 16
+  index: -1
+effect/skillD/cjbn/cjbn_00170
+  rotate: false
+  xy: 469, 667
+  size: 465, 355
+  orig: 465, 390
+  offset: 0, 16
+  index: -1
+effect/skillD/cjbn/cjbn_00172
+  rotate: true
+  xy: 2, 200
+  size: 465, 355
+  orig: 465, 390
+  offset: 0, 16
+  index: -1
+effect/skillD/cjbn/cjbn_00174
+  rotate: true
+  xy: 359, 200
+  size: 465, 355
+  orig: 465, 390
+  offset: 0, 16
+  index: -1
+effect/skillD/hudun3_00055
+  rotate: true
+  xy: 716, 2
+  size: 201, 203
+  orig: 256, 256
+  offset: 29, 27
+  index: -1
+effect/skillD/luoxuanxulia/luoxuanxulia_00018
+  rotate: false
+  xy: 2, 19
+  size: 297, 179
+  orig: 388, 361
+  offset: 39, 132
+  index: -1
+effect/skillD/luoxuanxulin/luoxuanxulin_00018
+  rotate: false
+  xy: 716, 461
+  size: 305, 204
+  orig: 388, 361
+  offset: 54, 67
+  index: -1
+
+effects_30301_skillD4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skillD/boli/boli_00156
+  rotate: false
+  xy: 819, 104
+  size: 203, 263
+  orig: 354, 263
+  offset: 69, 0
+  index: -1
+effect/skillD/cjbyanwun/cjbyanwun_00162
+  rotate: true
+  xy: 683, 2
+  size: 325, 134
+  orig: 364, 184
+  offset: 28, 19
+  index: -1
+effect/skillD/huohuayana/huohuayana_00162
+  rotate: true
+  xy: 825, 647
+  size: 375, 197
+  orig: 395, 247
+  offset: 19, 32
+  index: -1
+effect/skillD/liziluoxuanxulia/liziluoxuanxulia_00044
+  rotate: false
+  xy: 2, 675
+  size: 410, 347
+  orig: 410, 352
+  offset: 0, 5
+  index: -1
+effect/skillD/liziluoxuanxulia/liziluoxuanxulia_00046
+  rotate: false
+  xy: 2, 330
+  size: 410, 343
+  orig: 410, 352
+  offset: 0, 9
+  index: -1
+effect/skillD/liziluoxuanxulia/liziluoxuanxulia_00054
+  rotate: false
+  xy: 414, 681
+  size: 409, 341
+  orig: 410, 352
+  offset: 0, 11
+  index: -1
+effect/skillD/luoxuanxulia/luoxuanxulia_00020
+  rotate: false
+  xy: 414, 329
+  size: 388, 350
+  orig: 388, 361
+  offset: 0, 11
+  index: -1
+effect/skillD/luoxuanxulia/luoxuanxulia_00034
+  rotate: false
+  xy: 2, 13
+  size: 361, 315
+  orig: 388, 361
+  offset: 0, 46
+  index: -1
+effect/skillD/luoxuanxulin/luoxuanxulin_00024
+  rotate: true
+  xy: 365, 20
+  size: 307, 316
+  orig: 388, 361
+  offset: 44, 19
+  index: -1
+effect/skillD/luoxuanxulin/luoxuanxulin_00036
+  rotate: true
+  xy: 804, 369
+  size: 276, 218
+  orig: 388, 361
+  offset: 62, 79
+  index: -1
+
+effects_30301_skillD5.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skillD/boli/boli_00172
+  rotate: false
+  xy: 2, 45
+  size: 320, 247
+  orig: 354, 263
+  offset: 34, 0
+  index: -1
+effect/skillD/hudun1_00055
+  rotate: false
+  xy: 794, 41
+  size: 222, 243
+  orig: 256, 256
+  offset: 32, 10
+  index: -1
+effect/skillD/huohuayana/huohuayana_00160
+  rotate: true
+  xy: 804, 286
+  size: 353, 208
+  orig: 395, 247
+  offset: 32, 25
+  index: -1
+effect/skillD/huohuayana/huohuayana_00172
+  rotate: true
+  xy: 804, 641
+  size: 375, 197
+  orig: 395, 247
+  offset: 19, 32
+  index: -1
+effect/skillD/liziluoxuanxulia/liziluoxuanxulia_00040
+  rotate: false
+  xy: 392, 344
+  size: 410, 333
+  orig: 410, 352
+  offset: 0, 2
+  index: -1
+effect/skillD/liziluoxuanxulia/liziluoxuanxulia_00048
+  rotate: false
+  xy: 392, 679
+  size: 410, 337
+  orig: 410, 352
+  offset: 0, 15
+  index: -1
+effect/skillD/liziluoxuanxulia/liziluoxuanxulia_00050
+  rotate: false
+  xy: 382, 10
+  size: 410, 332
+  orig: 410, 352
+  offset: 0, 20
+  index: -1
+effect/skillD/luoxuanxulia/luoxuanxulia_00024
+  rotate: false
+  xy: 2, 657
+  size: 388, 359
+  orig: 388, 361
+  offset: 0, 2
+  index: -1
+effect/skillD/luoxuanxulia/luoxuanxulia_00030
+  rotate: false
+  xy: 2, 294
+  size: 378, 361
+  orig: 388, 361
+  offset: 10, 0
+  index: -1
+
+effects_30301_skillD6.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skillD/boli/boli_00170
+  rotate: true
+  xy: 766, 342
+  size: 317, 247
+  orig: 354, 263
+  offset: 35, 0
+  index: -1
+effect/skillD/cjbyanwun/cjbyanwun_00156
+  rotate: false
+  xy: 2, 192
+  size: 331, 134
+  orig: 364, 184
+  offset: 31, 14
+  index: -1
+effect/skillD/cjbyanwun/cjbyanwun_00157
+  rotate: true
+  xy: 717, 6
+  size: 323, 124
+  orig: 364, 184
+  offset: 28, 18
+  index: -1
+effect/skillD/cjbyanwun/cjbyanwun_00160
+  rotate: true
+  xy: 717, 6
+  size: 323, 124
+  orig: 364, 184
+  offset: 28, 18
+  index: -1
+effect/skillD/cjbyanwun/cjbyanwun_00158
+  rotate: false
+  xy: 2, 63
+  size: 317, 127
+  orig: 364, 184
+  offset: 26, 20
+  index: -1
+effect/skillD/cjbyanwun/cjbyanwun_00161
+  rotate: false
+  xy: 2, 63
+  size: 317, 127
+  orig: 364, 184
+  offset: 26, 20
+  index: -1
+effect/skillD/cjbyanwun/cjbyanwun_00159
+  rotate: true
+  xy: 843, 9
+  size: 331, 136
+  orig: 364, 184
+  offset: 29, 16
+  index: -1
+effect/skillD/huohuayana/huohuayana_00170
+  rotate: true
+  xy: 775, 669
+  size: 353, 208
+  orig: 395, 247
+  offset: 32, 25
+  index: -1
+effect/skillD/liziluoxuanxulia/liziluoxuanxulia_00042
+  rotate: false
+  xy: 354, 331
+  size: 410, 328
+  orig: 410, 352
+  offset: 0, 4
+  index: -1
+effect/skillD/liziluoxuanxulia/liziluoxuanxulia_00052
+  rotate: false
+  xy: 2, 692
+  size: 410, 330
+  orig: 410, 352
+  offset: 0, 22
+  index: -1
+effect/skillD/luoxuanxulia/luoxuanxulia_00026
+  rotate: false
+  xy: 414, 661
+  size: 359, 361
+  orig: 388, 361
+  offset: 29, 0
+  index: -1
+effect/skillD/luoxuanxulin/luoxuanxulin_00028
+  rotate: true
+  xy: 354, 2
+  size: 327, 361
+  orig: 388, 361
+  offset: 26, 0
+  index: -1
+effect/skillD/luoxuanxulin/luoxuanxulin_00032
+  rotate: true
+  xy: 2, 328
+  size: 362, 350
+  orig: 388, 361
+  offset: 15, 11
+  index: -1
+
+effects_30301_skillD7.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skillD/boli/boli_00162
+  rotate: false
+  xy: 2, 17
+  size: 282, 263
+  orig: 354, 263
+  offset: 53, 0
+  index: -1
+effect/skillD/boli/boli_00164
+  rotate: true
+  xy: 336, 29
+  size: 298, 263
+  orig: 354, 263
+  offset: 44, 0
+  index: -1
+effect/skillD/huohuayana/huohuayana_00156
+  rotate: true
+  xy: 697, 241
+  size: 387, 232
+  orig: 395, 247
+  offset: 8, 15
+  index: -1
+effect/skillD/huohuayana/huohuayana_00158
+  rotate: true
+  xy: 793, 630
+  size: 391, 228
+  orig: 395, 247
+  offset: 2, 19
+  index: -1
+effect/skillD/huohuayana/huohuayana_00166
+  rotate: false
+  xy: 601, 7
+  size: 387, 232
+  orig: 395, 247
+  offset: 8, 15
+  index: -1
+effect/skillD/liziluoxuanxulia/liziluoxuanxulia_00038
+  rotate: false
+  xy: 2, 686
+  size: 399, 335
+  orig: 410, 352
+  offset: 0, 6
+  index: -1
+effect/skillD/liziluoxuanxulia/liziluoxuanxulia_00056
+  rotate: true
+  xy: 2, 282
+  size: 402, 332
+  orig: 410, 352
+  offset: 0, 17
+  index: -1
+effect/skillD/luoxuanxulia/luoxuanxulia_00032
+  rotate: false
+  xy: 403, 677
+  size: 388, 344
+  orig: 388, 361
+  offset: 0, 17
+  index: -1
+effect/skillD/luoxuanxulin/luoxuanxulin_00030
+  rotate: false
+  xy: 336, 329
+  size: 359, 346
+  orig: 388, 361
+  offset: 27, 8
+  index: -1
+
+effects_30301_skillD8.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skillD/boli/boli_00158
+  rotate: true
+  xy: 708, 750
+  size: 229, 263
+  orig: 354, 263
+  offset: 77, 0
+  index: -1
+effect/skillD/boli/boli_00174
+  rotate: false
+  xy: 395, 765
+  size: 311, 214
+  orig: 354, 263
+  offset: 42, 22
+  index: -1
+effect/skillD/cjb2a_00156
+  rotate: true
+  xy: 2, 208
+  size: 302, 229
+  orig: 314, 245
+  offset: 12, 5
+  index: -1
+effect/skillD/hudun2_00055
+  rotate: false
+  xy: 2, 2
+  size: 197, 204
+  orig: 256, 256
+  offset: 34, 26
+  index: -1
+effect/skillD/huohuayana/huohuayana_00168
+  rotate: false
+  xy: 2, 751
+  size: 391, 228
+  orig: 395, 247
+  offset: 2, 19
+  index: -1
+effect/skillD/luoxuanxulia/luoxuanxulia_00036
+  rotate: false
+  xy: 2, 512
+  size: 300, 237
+  orig: 388, 361
+  offset: 47, 96
+  index: -1

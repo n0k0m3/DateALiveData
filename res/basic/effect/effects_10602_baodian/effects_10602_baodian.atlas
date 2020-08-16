@@ -1,0 +1,55 @@
+
+effects_10602_baodian.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillA/baodian/baodian_00000
+  rotate: false
+  xy: 283, 333
+  size: 115, 153
+  orig: 140, 160
+  offset: 17, 0
+  index: -1
+images/effects/skillA/baodian/baodian_00001
+  rotate: false
+  xy: 142, 165
+  size: 136, 159
+  orig: 140, 160
+  offset: 4, 0
+  index: -1
+images/effects/skillA/baodian/baodian_00002
+  rotate: false
+  xy: 2, 326
+  size: 140, 160
+  orig: 140, 160
+  offset: 0, 0
+  index: -1
+images/effects/skillA/baodian/baodian_00003
+  rotate: false
+  xy: 144, 326
+  size: 137, 160
+  orig: 140, 160
+  offset: 3, 0
+  index: -1
+images/effects/skillA/baodian/baodian_00004
+  rotate: false
+  xy: 2, 164
+  size: 138, 160
+  orig: 140, 160
+  offset: 2, 0
+  index: -1
+images/effects/skillA/baodian/baodian_00005
+  rotate: false
+  xy: 2, 2
+  size: 137, 160
+  orig: 140, 160
+  offset: 2, 0
+  index: -1
+images/effects/skillA/baodian/baodian_00006
+  rotate: true
+  xy: 280, 186
+  size: 138, 120
+  orig: 140, 160
+  offset: 2, 40
+  index: -1

@@ -1,0 +1,125 @@
+
+effects_10501_PskillC_down.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/PskillC/dimian/dilie_00039
+  rotate: false
+  xy: 369, 509
+  size: 365, 109
+  orig: 365, 127
+  offset: 0, 3
+  index: -1
+effect/PskillC/dimian/dilie_00042
+  rotate: false
+  xy: 369, 177
+  size: 365, 108
+  orig: 365, 127
+  offset: 0, 3
+  index: -1
+effect/PskillC/dimian/dilie_00045
+  rotate: false
+  xy: 369, 732
+  size: 365, 110
+  orig: 365, 127
+  offset: 0, 3
+  index: -1
+effect/PskillC/dimian/dilie_00048
+  rotate: false
+  xy: 2, 503
+  size: 365, 110
+  orig: 365, 127
+  offset: 0, 3
+  index: -1
+effect/PskillC/dimian/dilie_00051
+  rotate: false
+  xy: 2, 729
+  size: 365, 112
+  orig: 365, 127
+  offset: 0, 2
+  index: -1
+effect/PskillC/dimian/dilie_00054
+  rotate: true
+  xy: 736, 591
+  size: 365, 109
+  orig: 365, 127
+  offset: 0, 2
+  index: -1
+effect/PskillC/dimian/dilie_00057
+  rotate: false
+  xy: 2, 280
+  size: 365, 109
+  orig: 365, 127
+  offset: 0, 2
+  index: -1
+effect/PskillC/dimian/dilie_00060
+  rotate: false
+  xy: 369, 398
+  size: 365, 109
+  orig: 365, 127
+  offset: 0, 2
+  index: -1
+effect/PskillC/dimian/dilie_00063
+  rotate: true
+  xy: 847, 591
+  size: 365, 109
+  orig: 365, 127
+  offset: 0, 2
+  index: -1
+effect/PskillC/dimian/dilie_00066
+  rotate: false
+  xy: 2, 169
+  size: 365, 109
+  orig: 365, 127
+  offset: 0, 2
+  index: -1
+effect/PskillC/dimian/dilie_00069
+  rotate: false
+  xy: 369, 287
+  size: 365, 109
+  orig: 365, 127
+  offset: 0, 2
+  index: -1
+effect/PskillC/dimian/dilie_00072
+  rotate: false
+  xy: 369, 620
+  size: 365, 110
+  orig: 365, 127
+  offset: 0, 2
+  index: -1
+effect/PskillC/dimian/dilie_00075
+  rotate: false
+  xy: 2, 58
+  size: 365, 109
+  orig: 365, 127
+  offset: 0, 2
+  index: -1
+effect/PskillC/dimian/dilie_00078
+  rotate: false
+  xy: 2, 391
+  size: 365, 110
+  orig: 365, 127
+  offset: 0, 3
+  index: -1
+effect/PskillC/dimian/dilie_00081
+  rotate: false
+  xy: 369, 844
+  size: 365, 112
+  orig: 365, 127
+  offset: 0, 3
+  index: -1
+effect/PskillC/dimian/dilie_00084
+  rotate: false
+  xy: 2, 843
+  size: 365, 113
+  orig: 365, 127
+  offset: 0, 3
+  index: -1
+effect/PskillC/dimian/dilie_00087
+  rotate: false
+  xy: 2, 615
+  size: 365, 112
+  orig: 365, 127
+  offset: 0, 3
+  index: -1

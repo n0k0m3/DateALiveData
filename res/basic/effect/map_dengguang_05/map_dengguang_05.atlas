@@ -1,0 +1,13 @@
+
+map_dengguang_05.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sucai/dengguang/20180503_00000
+  rotate: false
+  xy: 2, 2
+  size: 105, 110
+  orig: 150, 150
+  offset: 25, 28
+  index: -1

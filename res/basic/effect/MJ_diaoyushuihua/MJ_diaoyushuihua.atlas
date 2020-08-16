@@ -1,0 +1,111 @@
+
+MJ_diaoyushuihua.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shueihua_00000
+  rotate: false
+  xy: 246, 240
+  size: 8, 14
+  orig: 78, 49
+  offset: 31, 16
+  index: -1
+shueihua_00001
+  rotate: true
+  xy: 75, 175
+  size: 23, 25
+  orig: 78, 49
+  offset: 26, 16
+  index: -1
+shueihua_00002
+  rotate: true
+  xy: 215, 204
+  size: 50, 29
+  orig: 78, 49
+  offset: 13, 15
+  index: -1
+shueihua_00003
+  rotate: true
+  xy: 37, 20
+  size: 56, 31
+  orig: 78, 49
+  offset: 10, 14
+  index: -1
+shueihua_00004
+  rotate: true
+  xy: 2, 6
+  size: 61, 33
+  orig: 78, 49
+  offset: 6, 12
+  index: -1
+shueihua_00005
+  rotate: true
+  xy: 32, 78
+  size: 62, 34
+  orig: 78, 49
+  offset: 6, 11
+  index: -1
+shueihua_00006
+  rotate: false
+  xy: 147, 219
+  size: 66, 35
+  orig: 78, 49
+  offset: 4, 10
+  index: -1
+shueihua_00007
+  rotate: false
+  xy: 2, 142
+  size: 67, 35
+  orig: 78, 49
+  offset: 4, 9
+  index: -1
+shueihua_00008
+  rotate: false
+  xy: 76, 219
+  size: 69, 35
+  orig: 78, 49
+  offset: 4, 7
+  index: -1
+shueihua_00009
+  rotate: false
+  xy: 2, 217
+  size: 72, 37
+  orig: 78, 49
+  offset: 3, 5
+  index: -1
+shueihua_00010
+  rotate: false
+  xy: 2, 179
+  size: 71, 36
+  orig: 78, 49
+  offset: 4, 4
+  index: -1
+shueihua_00011
+  rotate: true
+  xy: 2, 69
+  size: 71, 28
+  orig: 78, 49
+  offset: 4, 11
+  index: -1
+shueihua_00012
+  rotate: false
+  xy: 76, 200
+  size: 49, 17
+  orig: 78, 49
+  offset: 20, 18
+  index: -1
+shueihua_00013
+  rotate: false
+  xy: 37, 2
+  size: 50, 16
+  orig: 78, 49
+  offset: 20, 16
+  index: -1
+shueihua_00014
+  rotate: true
+  xy: 68, 89
+  size: 51, 12
+  orig: 78, 49
+  offset: 20, 16
+  index: -1

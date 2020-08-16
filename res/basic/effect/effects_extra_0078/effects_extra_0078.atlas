@@ -1,0 +1,132 @@
+
+effects_extra_0078.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/glow_00000
+  rotate: false
+  xy: 2, 339
+  size: 175, 140
+  orig: 185, 151
+  offset: 2, 4
+  index: -1
+images/kulou_00000
+  rotate: false
+  xy: 2, 98
+  size: 76, 71
+  orig: 86, 92
+  offset: 6, 8
+  index: -1
+images/texiao/huoyan_00000
+  rotate: false
+  xy: 179, 372
+  size: 95, 53
+  orig: 113, 75
+  offset: 9, 9
+  index: -1
+images/texiao/huoyan_00001
+  rotate: false
+  xy: 179, 323
+  size: 96, 47
+  orig: 113, 75
+  offset: 8, 9
+  index: -1
+images/texiao/huoyan_00002
+  rotate: true
+  xy: 57, 2
+  size: 94, 48
+  orig: 113, 75
+  offset: 9, 9
+  index: -1
+images/texiao/huoyan_00003
+  rotate: false
+  xy: 160, 219
+  size: 91, 47
+  orig: 113, 75
+  offset: 11, 9
+  index: -1
+images/texiao/huoyan_00004
+  rotate: true
+  xy: 253, 227
+  size: 94, 48
+  orig: 113, 75
+  offset: 9, 9
+  index: -1
+images/texiao/huoyan_00005
+  rotate: false
+  xy: 379, 430
+  size: 96, 49
+  orig: 113, 75
+  offset: 8, 9
+  index: -1
+images/texiao/huoyan_00006
+  rotate: false
+  xy: 279, 429
+  size: 98, 50
+  orig: 113, 75
+  offset: 7, 9
+  index: -1
+images/texiao/huoyan_00007
+  rotate: false
+  xy: 2, 286
+  size: 100, 51
+  orig: 113, 75
+  offset: 6, 9
+  index: -1
+images/texiao/huoyan_00008
+  rotate: false
+  xy: 179, 427
+  size: 98, 52
+  orig: 113, 75
+  offset: 7, 9
+  index: -1
+images/texiao/huoyan_00009
+  rotate: true
+  xy: 303, 286
+  size: 87, 53
+  orig: 113, 75
+  offset: 13, 9
+  index: -1
+images/texiao/huoyan_00010
+  rotate: true
+  xy: 104, 248
+  size: 89, 54
+  orig: 113, 75
+  offset: 12, 9
+  index: -1
+images/texiao/huoyan_00011
+  rotate: false
+  xy: 2, 171
+  size: 93, 55
+  orig: 113, 75
+  offset: 10, 9
+  index: -1
+images/texiao/huoyan_00012
+  rotate: false
+  xy: 2, 228
+  size: 94, 56
+  orig: 113, 75
+  offset: 10, 9
+  index: -1
+images/texiao/huoyan_00013
+  rotate: false
+  xy: 160, 268
+  size: 91, 53
+  orig: 113, 75
+  offset: 11, 9
+  index: -1
+images/texiao/huoyan_00014
+  rotate: true
+  xy: 2, 3
+  size: 93, 53
+  orig: 113, 75
+  offset: 10, 9
+  index: -1
+images/texiao/huoyan_00015
+  rotate: false
+  xy: 279, 375
+  size: 91, 52
+  orig: 113, 75
+  offset: 11, 9
+  index: -1

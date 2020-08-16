@@ -1,0 +1,362 @@
+
+effects_10102_skillBBB.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Effects/BBB/feijian2/feijian2_000
+  rotate: false
+  xy: 304, 861
+  size: 295, 161
+  orig: 300, 180
+  offset: 4, 15
+  index: -1
+Effects/BBB/feijian2/feijian2_001
+  rotate: false
+  xy: 2, 867
+  size: 300, 155
+  orig: 300, 180
+  offset: 0, 17
+  index: -1
+Effects/BBB/feijian2/feijian2_002
+  rotate: false
+  xy: 295, 534
+  size: 287, 161
+  orig: 300, 180
+  offset: 13, 16
+  index: -1
+Effects/BBB/feijian2/feijian2_003
+  rotate: false
+  xy: 299, 697
+  size: 293, 162
+  orig: 300, 180
+  offset: 7, 14
+  index: -1
+Effects/BBB/feijian2/feijian2_004
+  rotate: true
+  xy: 861, 240
+  size: 275, 137
+  orig: 300, 180
+  offset: 2, 21
+  index: -1
+Effects/BBB/feijian2/feijian2_005
+  rotate: false
+  xy: 2, 378
+  size: 287, 156
+  orig: 300, 180
+  offset: 6, 11
+  index: -1
+Effects/BBB/feijian2/feijian2_006
+  rotate: false
+  xy: 594, 684
+  size: 290, 166
+  orig: 300, 180
+  offset: 8, 11
+  index: -1
+Effects/BBB/feijian2/feijian2_007
+  rotate: false
+  xy: 291, 360
+  size: 281, 172
+  orig: 300, 180
+  offset: 9, 8
+  index: -1
+Effects/BBB/feijian2/feijian2_008
+  rotate: false
+  xy: 601, 852
+  size: 293, 170
+  orig: 300, 180
+  offset: 3, 7
+  index: -1
+Effects/BBB/feijian2/feijian2_009
+  rotate: false
+  xy: 2, 707
+  size: 295, 158
+  orig: 300, 180
+  offset: 0, 6
+  index: -1
+Effects/BBB/feijian2/feijian2_011
+  rotate: false
+  xy: 584, 528
+  size: 286, 154
+  orig: 300, 180
+  offset: 7, 10
+  index: -1
+Effects/BBB/feijian2/feijian2_012
+  rotate: false
+  xy: 587, 223
+  size: 272, 138
+  orig: 300, 180
+  offset: 5, 22
+  index: -1
+Effects/BBB/feijian2/feijian2_014
+  rotate: false
+  xy: 2, 207
+  size: 281, 169
+  orig: 300, 180
+  offset: 19, 2
+  index: -1
+Effects/BBB/feijian2/feijian2_015
+  rotate: false
+  xy: 2, 536
+  size: 291, 169
+  orig: 300, 180
+  offset: 9, 1
+  index: -1
+Effects/BBB/penjian/penjian_000
+  rotate: false
+  xy: 285, 214
+  size: 196, 144
+  orig: 240, 187
+  offset: 29, 16
+  index: -1
+Effects/BBB/penjian/penjian_002
+  rotate: true
+  xy: 521, 3
+  size: 214, 167
+  orig: 240, 187
+  offset: 16, 7
+  index: -1
+Effects/BBB/penjian/penjian_003
+  rotate: true
+  xy: 855, 4
+  size: 217, 167
+  orig: 240, 187
+  offset: 13, 7
+  index: -1
+Effects/BBB/penjian/penjian_004
+  rotate: false
+  xy: 574, 363
+  size: 218, 163
+  orig: 240, 187
+  offset: 12, 10
+  index: -1
+Effects/BBB/penjian/penjian_005
+  rotate: true
+  xy: 690, 3
+  size: 218, 163
+  orig: 240, 187
+  offset: 10, 10
+  index: -1
+Effects/BBB/penjian/penjian_006
+  rotate: true
+  xy: 2, 2
+  size: 203, 146
+  orig: 240, 187
+  offset: 9, 19
+  index: -1
+Effects/BBB/penjian/penjian_007
+  rotate: true
+  xy: 150, 4
+  size: 201, 139
+  orig: 240, 187
+  offset: 9, 23
+  index: -1
+Effects/BBB/penjian/penjian_008
+  rotate: false
+  xy: 896, 905
+  size: 125, 117
+  orig: 240, 187
+  offset: 76, 36
+  index: -1
+Effects/BBB/penyan/penyan_002
+  rotate: false
+  xy: 886, 699
+  size: 128, 99
+  orig: 150, 116
+  offset: 21, 8
+  index: -1
+Effects/BBB/penyan/penyan_003
+  rotate: true
+  xy: 483, 219
+  size: 139, 102
+  orig: 150, 116
+  offset: 10, 9
+  index: -1
+Effects/BBB/penyan/penyan_004
+  rotate: false
+  xy: 896, 800
+  size: 117, 103
+  orig: 150, 116
+  offset: 3, 8
+  index: -1
+Effects/BBB/penyan/penyan_007
+  rotate: true
+  xy: 794, 400
+  size: 66, 54
+  orig: 150, 116
+  offset: 21, 9
+  index: -1
+Effects/BBB/qiquan/qiquan_000
+  rotate: false
+  xy: 886, 517
+  size: 113, 180
+  orig: 113, 180
+  offset: 0, 0
+  index: -1
+Effects/BBB/qiquan/qiquan_001
+  rotate: false
+  xy: 291, 32
+  size: 113, 180
+  orig: 113, 180
+  offset: 0, 0
+  index: -1
+Effects/BBB/qiquan/qiquan_002
+  rotate: false
+  xy: 406, 32
+  size: 113, 180
+  orig: 113, 180
+  offset: 0, 0
+  index: -1
+Effects/glow_000
+  rotate: false
+  xy: 794, 468
+  size: 58, 58
+  orig: 60, 60
+  offset: 1, 1
+  index: -1
+
+effects_10102_skillBBB2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Effects/BBB/feijian/feijian_000
+  rotate: false
+  xy: 280, 950
+  size: 235, 72
+  orig: 240, 90
+  offset: 0, 6
+  index: -1
+Effects/BBB/feijian/feijian_001
+  rotate: true
+  xy: 2, 288
+  size: 235, 71
+  orig: 240, 90
+  offset: 0, 6
+  index: -1
+Effects/BBB/feijian/feijian_002
+  rotate: false
+  xy: 517, 957
+  size: 236, 65
+  orig: 240, 90
+  offset: 0, 9
+  index: -1
+Effects/BBB/feijian/feijian_003
+  rotate: true
+  xy: 75, 288
+  size: 235, 62
+  orig: 240, 90
+  offset: 0, 11
+  index: -1
+Effects/BBB/feijian/feijian_004
+  rotate: false
+  xy: 517, 892
+  size: 236, 63
+  orig: 240, 90
+  offset: 0, 11
+  index: -1
+Effects/BBB/feijian/feijian_005
+  rotate: false
+  xy: 280, 880
+  size: 235, 68
+  orig: 240, 90
+  offset: 0, 8
+  index: -1
+Effects/BBB/feijian/feijian_006
+  rotate: true
+  xy: 2, 50
+  size: 236, 64
+  orig: 240, 90
+  offset: 0, 10
+  index: -1
+Effects/BBB/feijian/feijian_007
+  rotate: false
+  xy: 755, 961
+  size: 235, 61
+  orig: 240, 90
+  offset: 0, 12
+  index: -1
+Effects/BBB/feijian2/feijian2_010
+  rotate: false
+  xy: 2, 696
+  size: 273, 162
+  orig: 300, 180
+  offset: 18, 3
+  index: -1
+Effects/BBB/feijian2/feijian2_013
+  rotate: false
+  xy: 2, 860
+  size: 276, 162
+  orig: 300, 180
+  offset: 10, 10
+  index: -1
+Effects/BBB/penjian/penjian_001
+  rotate: false
+  xy: 2, 525
+  size: 212, 169
+  orig: 240, 187
+  offset: 17, 7
+  index: -1
+Effects/BBB/penyan/penyan_000
+  rotate: false
+  xy: 68, 2
+  size: 111, 102
+  orig: 150, 116
+  offset: 26, 2
+  index: -1
+Effects/BBB/penyan/penyan_001
+  rotate: false
+  xy: 277, 714
+  size: 108, 101
+  orig: 150, 116
+  offset: 28, 4
+  index: -1
+Effects/BBB/penyan/penyan_005
+  rotate: false
+  xy: 387, 711
+  size: 102, 104
+  orig: 150, 116
+  offset: 6, 8
+  index: -1
+Effects/BBB/penyan/penyan_006
+  rotate: false
+  xy: 216, 594
+  size: 66, 100
+  orig: 150, 116
+  offset: 21, 9
+  index: -1
+Effects/BBB/qiquan/qiquan_003
+  rotate: false
+  xy: 139, 343
+  size: 113, 180
+  orig: 113, 180
+  offset: 0, 0
+  index: -1
+Effects/BBB/qiquan/qiquan_004
+  rotate: false
+  xy: 68, 106
+  size: 105, 180
+  orig: 113, 180
+  offset: 0, 0
+  index: -1
+Effects/BBB/qiquan/qiquan_005
+  rotate: true
+  xy: 755, 868
+  size: 91, 180
+  orig: 113, 180
+  offset: 0, 0
+  index: -1
+Effects/BBB/qiquan/qiquan_006
+  rotate: false
+  xy: 175, 162
+  size: 76, 179
+  orig: 113, 180
+  offset: 0, 1
+  index: -1
+Effects/BBB/qiquan/qiquan_007
+  rotate: true
+  xy: 280, 817
+  size: 61, 172
+  orig: 113, 180
+  offset: 0, 5
+  index: -1

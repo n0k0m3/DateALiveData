@@ -1,0 +1,591 @@
+
+effects_11201_skillD_effect1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/baidi
+  rotate: false
+  xy: 985, 377
+  size: 30, 17
+  orig: 30, 17
+  offset: 0, 0
+  index: -1
+images/effect/bao_star_b_00000
+  rotate: false
+  xy: 374, 17
+  size: 307, 154
+  orig: 307, 154
+  offset: 0, 0
+  index: -1
+images/effect/lg_00089
+  rotate: false
+  xy: 985, 434
+  size: 35, 67
+  orig: 35, 67
+  offset: 0, 0
+  index: -1
+images/effect/light_bb/Pre-comp 17_00026
+  rotate: false
+  xy: 2, 173
+  size: 630, 271
+  orig: 660, 372
+  offset: 0, 0
+  index: -1
+images/effect/light_bb/Pre-comp 17_00030
+  rotate: false
+  xy: 2, 446
+  size: 634, 281
+  orig: 660, 372
+  offset: 0, 0
+  index: -1
+images/effect/light_bb/Pre-comp 17_00033
+  rotate: false
+  xy: 2, 729
+  size: 660, 293
+  orig: 660, 372
+  offset: 0, 0
+  index: -1
+images/effect/light_ee/light_ee_00010
+  rotate: false
+  xy: 948, 2
+  size: 73, 76
+  orig: 77, 77
+  offset: 4, 1
+  index: -1
+images/effect/light_ee/light_ee_00015
+  rotate: false
+  xy: 985, 503
+  size: 37, 36
+  orig: 77, 77
+  offset: 1, 2
+  index: -1
+images/effect/lightc_00023
+  rotate: true
+  xy: 638, 225
+  size: 482, 283
+  orig: 482, 283
+  offset: 0, 0
+  index: -1
+images/effect/lightg_00049
+  rotate: false
+  xy: 664, 709
+  size: 356, 313
+  orig: 356, 313
+  offset: 0, 0
+  index: -1
+images/effect/lightk_00047
+  rotate: false
+  xy: 683, 13
+  size: 263, 210
+  orig: 263, 210
+  offset: 0, 0
+  index: -1
+images/effect/lightn_00072
+  rotate: false
+  xy: 2, 10
+  size: 370, 161
+  orig: 370, 161
+  offset: 0, 0
+  index: -1
+images/effect/lizi_b/lizi_b_0007
+  rotate: true
+  xy: 923, 246
+  size: 127, 58
+  orig: 150, 60
+  offset: 1, 2
+  index: -1
+images/effect/quana_00000
+  rotate: false
+  xy: 988, 570
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+images/effect/shitou/shitou00
+  rotate: false
+  xy: 988, 670
+  size: 34, 37
+  orig: 38, 38
+  offset: 2, 0
+  index: -1
+images/effect/shitou/shitou01
+  rotate: false
+  xy: 634, 185
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+images/effect/shitou/shitou02
+  rotate: true
+  xy: 988, 644
+  size: 24, 34
+  orig: 38, 38
+  offset: 7, 2
+  index: -1
+images/effect/shitou/shitou03
+  rotate: false
+  xy: 983, 337
+  size: 16, 36
+  orig: 38, 38
+  offset: 12, 1
+  index: -1
+images/effect/shitou/shitou04
+  rotate: false
+  xy: 988, 604
+  size: 29, 38
+  orig: 38, 38
+  offset: 4, 0
+  index: -1
+images/effect/yumao/lizi_c_0001
+  rotate: false
+  xy: 985, 396
+  size: 30, 36
+  orig: 180, 75
+  offset: 32, 30
+  index: -1
+images/effect/yumao/lizi_c_0004
+  rotate: true
+  xy: 948, 80
+  size: 164, 57
+  orig: 180, 75
+  offset: 0, 14
+  index: -1
+images/effect/yumao/lizi_c_0005
+  rotate: true
+  xy: 923, 541
+  size: 166, 63
+  orig: 180, 75
+  offset: 4, 12
+  index: -1
+images/effect/yumao/lizi_c_0006
+  rotate: true
+  xy: 923, 375
+  size: 164, 60
+  orig: 180, 75
+  offset: 8, 11
+  index: -1
+
+effects_11201_skillD_effect12.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/bomb/baozha07
+  rotate: false
+  xy: 927, 10
+  size: 95, 72
+  orig: 102, 102
+  offset: 0, 28
+  index: -1
+images/effect/glowd_00029
+  rotate: false
+  xy: 910, 84
+  size: 103, 103
+  orig: 103, 103
+  offset: 0, 0
+  index: -1
+images/effect/glowe_00012
+  rotate: true
+  xy: 728, 611
+  size: 52, 71
+  orig: 52, 71
+  offset: 0, 0
+  index: -1
+images/effect/light_bb/Pre-comp 17_00031
+  rotate: false
+  xy: 2, 750
+  size: 622, 272
+  orig: 660, 372
+  offset: 0, 0
+  index: -1
+images/effect/light_bb/Pre-comp 17_00036
+  rotate: false
+  xy: 220, 4
+  size: 559, 216
+  orig: 660, 372
+  offset: 101, 84
+  index: -1
+images/effect/light_ee/light_ee_00000
+  rotate: true
+  xy: 958, 616
+  size: 47, 59
+  orig: 77, 77
+  offset: 0, 18
+  index: -1
+images/effect/light_ee/light_ee_00011
+  rotate: true
+  xy: 837, 97
+  size: 75, 67
+  orig: 77, 77
+  offset: 0, 10
+  index: -1
+images/effect/lightl_00031
+  rotate: false
+  xy: 2, 3
+  size: 216, 217
+  orig: 216, 217
+  offset: 0, 0
+  index: -1
+images/effect/skylg_00049
+  rotate: false
+  xy: 578, 222
+  size: 332, 141
+  orig: 336, 141
+  offset: 2, 0
+  index: -1
+images/effect/tiao/tiao0000
+  rotate: false
+  xy: 578, 365
+  size: 433, 243
+  orig: 620, 287
+  offset: 176, 0
+  index: -1
+images/effect/tiao/tiao0002
+  rotate: false
+  xy: 2, 481
+  size: 574, 267
+  orig: 620, 287
+  offset: 19, 13
+  index: -1
+images/effect/tiao/tiao0003
+  rotate: false
+  xy: 2, 222
+  size: 574, 257
+  orig: 620, 287
+  offset: 11, 19
+  index: -1
+images/effect/tiao/tiao0006
+  rotate: false
+  xy: 626, 807
+  size: 396, 215
+  orig: 620, 287
+  offset: 9, 59
+  index: -1
+images/effect/yan/yan01
+  rotate: true
+  xy: 837, 4
+  size: 78, 88
+  orig: 92, 107
+  offset: 13, 0
+  index: -1
+images/effect/yan/yan02
+  rotate: true
+  xy: 626, 610
+  size: 83, 100
+  orig: 92, 107
+  offset: 7, 0
+  index: -1
+images/effect/yan/yan04
+  rotate: true
+  xy: 912, 189
+  size: 84, 105
+  orig: 92, 107
+  offset: 4, 1
+  index: -1
+images/effect/yan/yan06
+  rotate: true
+  xy: 912, 275
+  size: 88, 106
+  orig: 92, 107
+  offset: 1, 1
+  index: -1
+images/effect/yumao/lizi_c_0003
+  rotate: false
+  xy: 781, 174
+  size: 127, 46
+  orig: 180, 75
+  offset: 2, 17
+  index: -1
+images/effect/yumao/lizi_c_0007
+  rotate: true
+  xy: 781, 10
+  size: 162, 54
+  orig: 180, 75
+  offset: 11, 13
+  index: -1
+images/effect/yumao/lizi_c_0008
+  rotate: false
+  xy: 801, 612
+  size: 155, 51
+  orig: 180, 75
+  offset: 16, 20
+  index: -1
+images/effect/yumao/lizi_c_0009
+  rotate: true
+  xy: 978, 665
+  size: 140, 44
+  orig: 180, 75
+  offset: 20, 20
+  index: -1
+images/effect/yumao/lizi_c_0011
+  rotate: true
+  xy: 578, 610
+  size: 138, 46
+  orig: 180, 75
+  offset: 23, 22
+  index: -1
+images/effect/zhuizi_00012
+  rotate: false
+  xy: 626, 695
+  size: 350, 110
+  orig: 350, 110
+  offset: 0, 0
+  index: -1
+
+effects_11201_skillD_effect13.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/light_bb/Pre-comp 17_00024
+  rotate: true
+  xy: 765, 88
+  size: 460, 247
+  orig: 660, 372
+  offset: 0, 9
+  index: -1
+images/effect/light_bb/Pre-comp 17_00028
+  rotate: false
+  xy: 2, 744
+  size: 572, 274
+  orig: 660, 372
+  offset: 0, 0
+  index: -1
+images/effect/light_bb/Pre-comp 17_00034
+  rotate: false
+  xy: 2, 228
+  size: 568, 246
+  orig: 660, 372
+  offset: 92, 43
+  index: -1
+images/effect/light_bb/Pre-comp 17_00038
+  rotate: true
+  xy: 574, 10
+  size: 538, 189
+  orig: 660, 372
+  offset: 122, 107
+  index: -1
+images/effect/light_ee/light_ee_00003
+  rotate: false
+  xy: 844, 9
+  size: 75, 77
+  orig: 77, 77
+  offset: 2, 0
+  index: -1
+images/effect/light_ee/light_ee_00004
+  rotate: true
+  xy: 921, 9
+  size: 77, 75
+  orig: 77, 77
+  offset: 0, 2
+  index: -1
+images/effect/light_ee/light_ee_00013
+  rotate: false
+  xy: 765, 9
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+images/effect/lighta_00038
+  rotate: true
+  xy: 2, 4
+  size: 222, 212
+  orig: 222, 212
+  offset: 0, 0
+  index: -1
+images/effect/lightd_00042
+  rotate: false
+  xy: 576, 550
+  size: 286, 251
+  orig: 286, 251
+  offset: 0, 0
+  index: -1
+images/effect/lighte_00000
+  rotate: true
+  xy: 864, 729
+  size: 72, 154
+  orig: 72, 154
+  offset: 0, 0
+  index: -1
+images/effect/lightm_00047
+  rotate: false
+  xy: 864, 584
+  size: 151, 143
+  orig: 151, 143
+  offset: 0, 0
+  index: -1
+images/effect/quanb_00010
+  rotate: false
+  xy: 335, 18
+  size: 208, 208
+  orig: 208, 208
+  offset: 0, 0
+  index: -1
+images/effect/tiao/tiao0001
+  rotate: false
+  xy: 2, 476
+  size: 570, 266
+  orig: 620, 287
+  offset: 31, 7
+  index: -1
+images/effect/tiao/tiao0005
+  rotate: false
+  xy: 576, 803
+  size: 425, 215
+  orig: 620, 287
+  offset: 7, 60
+  index: -1
+images/effect/wing/winga_00029
+  rotate: true
+  xy: 216, 15
+  size: 211, 117
+  orig: 229, 148
+  offset: 8, 19
+  index: -1
+
+effects_11201_skillD_effect14.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/bao_star_a_00000
+  rotate: false
+  xy: 2, 885
+  size: 279, 135
+  orig: 307, 154
+  offset: 12, 6
+  index: -1
+images/effect/bomb/baozha00
+  rotate: false
+  xy: 2, 70
+  size: 102, 100
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+images/effect/bomb/baozha01
+  rotate: false
+  xy: 2, 380
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+images/effect/bomb/baozha02
+  rotate: false
+  xy: 693, 918
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+images/effect/bomb/baozha03
+  rotate: false
+  xy: 2, 276
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+images/effect/bomb/baozha04
+  rotate: false
+  xy: 797, 918
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+images/effect/bomb/baozha05
+  rotate: false
+  xy: 2, 172
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+images/effect/bomb/baozha06
+  rotate: false
+  xy: 901, 919
+  size: 102, 101
+  orig: 102, 102
+  offset: 0, 1
+  index: -1
+images/effect/diana_00089
+  rotate: true
+  xy: 248, 733
+  size: 72, 75
+  orig: 77, 77
+  offset: 0, 1
+  index: -1
+images/effect/glowb_00094
+  rotate: false
+  xy: 121, 500
+  size: 89, 89
+  orig: 89, 89
+  offset: 0, 0
+  index: -1
+images/effect/light_ee/light_ee_00007
+  rotate: false
+  xy: 248, 807
+  size: 75, 76
+  orig: 77, 77
+  offset: 2, 1
+  index: -1
+images/effect/light_ee/light_ee_00008
+  rotate: true
+  xy: 2, 2
+  size: 66, 76
+  orig: 77, 77
+  offset: 1, 1
+  index: -1
+images/effect/quan_fg_0016
+  rotate: false
+  xy: 2, 687
+  size: 195, 196
+  orig: 195, 196
+  offset: 0, 0
+  index: -1
+images/effect/wing/winga_00028
+  rotate: false
+  xy: 283, 903
+  size: 207, 117
+  orig: 229, 148
+  offset: 9, 18
+  index: -1
+images/effect/wing/winga_00030
+  rotate: false
+  xy: 492, 908
+  size: 199, 112
+  orig: 229, 148
+  offset: 8, 18
+  index: -1
+images/effect/wing/winga_00031
+  rotate: true
+  xy: 2, 484
+  size: 201, 117
+  orig: 229, 148
+  offset: 8, 18
+  index: -1
+images/effect/yan/yan00
+  rotate: false
+  xy: 325, 846
+  size: 63, 55
+  orig: 92, 107
+  offset: 29, 0
+  index: -1
+images/effect/yan/yan08
+  rotate: false
+  xy: 121, 591
+  size: 91, 94
+  orig: 92, 107
+  offset: 0, 13
+  index: -1
+images/effect/yumao/lizi_c_0002
+  rotate: true
+  xy: 199, 691
+  size: 54, 42
+  orig: 180, 75
+  offset: 34, 23
+  index: -1
+images/effect/yumao/lizi_c_0010
+  rotate: true
+  xy: 199, 747
+  size: 136, 47
+  orig: 180, 75
+  offset: 24, 20
+  index: -1

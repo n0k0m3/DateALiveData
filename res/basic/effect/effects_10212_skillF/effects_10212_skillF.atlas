@@ -1,0 +1,271 @@
+
+effects_10212_skillF.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skillB/qixuan/qixuan_034
+  rotate: false
+  xy: 493, 13
+  size: 119, 140
+  orig: 141, 166
+  offset: 22, 12
+  index: -1
+effect/skillB/qixuan/qixuan_036
+  rotate: true
+  xy: 715, 26
+  size: 128, 162
+  orig: 141, 166
+  offset: 9, 0
+  index: -1
+effect/skillF/bao/bao_046
+  rotate: false
+  xy: 724, 156
+  size: 262, 187
+  orig: 270, 201
+  offset: 7, 0
+  index: -1
+effect/skillF/bao/bao_048
+  rotate: false
+  xy: 724, 345
+  size: 270, 187
+  orig: 270, 201
+  offset: 0, 0
+  index: -1
+effect/skillF/bao/bao_050
+  rotate: true
+  xy: 444, 519
+  size: 262, 197
+  orig: 270, 201
+  offset: 1, 0
+  index: -1
+effect/skillF/bao_1/bao1_020
+  rotate: false
+  xy: 690, 780
+  size: 316, 242
+  orig: 344, 264
+  offset: 17, 15
+  index: -1
+effect/skillF/bao_1/bao1_022
+  rotate: true
+  xy: 2, 97
+  size: 328, 246
+  orig: 344, 264
+  offset: 6, 15
+  index: -1
+effect/skillF/bao_1/bao1_024
+  rotate: false
+  xy: 2, 773
+  size: 340, 249
+  orig: 344, 264
+  offset: 4, 15
+  index: -1
+effect/skillF/bao_1/bao1_026
+  rotate: false
+  xy: 344, 783
+  size: 344, 239
+  orig: 344, 264
+  offset: 0, 15
+  index: -1
+effect/skillF/bao_1/bao1_028
+  rotate: true
+  xy: 2, 427
+  size: 344, 243
+  orig: 344, 264
+  offset: 0, 15
+  index: -1
+effect/skillF/bao_1/bao1_030
+  rotate: true
+  xy: 247, 454
+  size: 317, 195
+  orig: 344, 264
+  offset: 12, 51
+  index: -1
+effect/skillF/dilie_023
+  rotate: false
+  xy: 2, 2
+  size: 320, 82
+  orig: 326, 88
+  offset: 3, 2
+  index: -1
+effect/skillF/heijing/heijing_004
+  rotate: true
+  xy: 324, 2
+  size: 82, 126
+  orig: 116, 138
+  offset: 17, 4
+  index: -1
+effect/skillF/heijing/heijing_008
+  rotate: false
+  xy: 614, 25
+  size: 99, 130
+  orig: 116, 138
+  offset: 7, 2
+  index: -1
+effect/skillF/heijing/heijing_010
+  rotate: false
+  xy: 879, 23
+  size: 110, 131
+  orig: 116, 138
+  offset: 2, 1
+  index: -1
+effect/skillF/xiantiao/xiantiao_020
+  rotate: true
+  xy: 373, 88
+  size: 364, 118
+  orig: 383, 121
+  offset: 5, 3
+  index: -1
+effect/skillF/xiantiao/xiantiao_022
+  rotate: true
+  xy: 250, 86
+  size: 366, 121
+  orig: 383, 121
+  offset: 5, 0
+  index: -1
+effect/skillF/xiantiao/xiantiao_024
+  rotate: false
+  xy: 643, 657
+  size: 365, 121
+  orig: 383, 121
+  offset: 6, 0
+  index: -1
+effect/skillF/xiantiao/xiantiao_026
+  rotate: false
+  xy: 643, 534
+  size: 363, 121
+  orig: 383, 121
+  offset: 8, 0
+  index: -1
+effect/skillF/xiantiao/xiantiao_028
+  rotate: true
+  xy: 493, 155
+  size: 362, 119
+  orig: 383, 121
+  offset: 9, 2
+  index: -1
+effect/skillF/xiantiao/xiantiao_030
+  rotate: true
+  xy: 614, 157
+  size: 360, 108
+  orig: 383, 121
+  offset: 11, 5
+  index: -1
+
+effects_10212_skillF2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skillB/glow
+  rotate: false
+  xy: 2, 2
+  size: 52, 54
+  orig: 64, 64
+  offset: 6, 4
+  index: -1
+effect/skillB/qixuan/qixuan_038
+  rotate: false
+  xy: 2, 58
+  size: 114, 166
+  orig: 141, 166
+  offset: 17, 0
+  index: -1
+effect/skillB/qixuan/qixuan_040
+  rotate: true
+  xy: 815, 885
+  size: 112, 165
+  orig: 141, 166
+  offset: 11, 0
+  index: -1
+effect/skillB/qixuan/qixuan_041
+  rotate: false
+  xy: 118, 63
+  size: 113, 161
+  orig: 141, 166
+  offset: 10, 4
+  index: -1
+effect/skillF/bao/bao_044
+  rotate: false
+  xy: 2, 432
+  size: 190, 187
+  orig: 270, 201
+  offset: 46, 0
+  index: -1
+effect/skillF/bao/bao_052
+  rotate: false
+  xy: 2, 621
+  size: 209, 186
+  orig: 270, 201
+  offset: 26, 0
+  index: -1
+effect/skillF/bao/bao_054
+  rotate: false
+  xy: 2, 809
+  size: 213, 188
+  orig: 270, 201
+  offset: 22, 0
+  index: -1
+effect/skillF/heijing/heijing_000
+  rotate: true
+  xy: 471, 749
+  size: 81, 108
+  orig: 116, 138
+  offset: 18, 13
+  index: -1
+effect/skillF/heijing/heijing_002
+  rotate: true
+  xy: 347, 748
+  size: 82, 122
+  orig: 116, 138
+  offset: 17, 6
+  index: -1
+effect/skillF/heijing/heijing_006
+  rotate: true
+  xy: 217, 745
+  size: 85, 128
+  orig: 116, 138
+  offset: 15, 3
+  index: -1
+effect/skillF/heijing/heijing_012
+  rotate: false
+  xy: 166, 295
+  size: 114, 135
+  orig: 116, 138
+  offset: 1, 1
+  index: -1
+effect/skillc/faqi/faqi_000
+  rotate: false
+  xy: 815, 793
+  size: 139, 90
+  orig: 264, 192
+  offset: 17, 41
+  index: -1
+effect/skillc/faqi/faqi_002
+  rotate: false
+  xy: 217, 832
+  size: 216, 165
+  orig: 264, 192
+  offset: 14, 9
+  index: -1
+effect/skillc/faqi/faqi_004
+  rotate: false
+  xy: 435, 832
+  size: 212, 165
+  orig: 264, 192
+  offset: 18, 13
+  index: -1
+effect/skillc/faqi/faqi_006
+  rotate: true
+  xy: 2, 226
+  size: 204, 162
+  orig: 264, 192
+  offset: 26, 16
+  index: -1
+effect/skillc/faqi/faqi_008
+  rotate: false
+  xy: 649, 844
+  size: 164, 153
+  orig: 264, 192
+  offset: 66, 25
+  index: -1

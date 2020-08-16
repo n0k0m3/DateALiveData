@@ -1,0 +1,174 @@
+
+effect_herotest_word.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: true
+  xy: 745, 691
+  size: 331, 77
+  orig: 460, 90
+  offset: 59, 0
+  index: -1
+02
+  rotate: false
+  xy: 2, 120
+  size: 425, 90
+  orig: 460, 90
+  offset: 12, 0
+  index: -1
+03
+  rotate: false
+  xy: 2, 42
+  size: 317, 76
+  orig: 460, 90
+  offset: 66, 14
+  index: -1
+04
+  rotate: true
+  xy: 824, 794
+  size: 228, 72
+  orig: 460, 90
+  offset: 111, 9
+  index: -1
+05
+  rotate: true
+  xy: 454, 215
+  size: 305, 82
+  orig: 460, 90
+  offset: 76, 0
+  index: -1
+final_00047_00000
+  rotate: false
+  xy: 2, 522
+  size: 656, 500
+  orig: 664, 500
+  offset: 8, 0
+  index: -1
+huangse
+  rotate: true
+  xy: 394, 78
+  size: 40, 31
+  orig: 42, 33
+  offset: 1, 1
+  index: -1
+images/baoshi/bao
+  rotate: false
+  xy: 898, 962
+  size: 70, 60
+  orig: 70, 60
+  offset: 0, 0
+  index: -1
+images/baoshi/shi
+  rotate: false
+  xy: 538, 336
+  size: 68, 59
+  orig: 68, 59
+  offset: 0, 0
+  index: -1
+images/nengli/li
+  rotate: false
+  xy: 898, 839
+  size: 67, 60
+  orig: 67, 60
+  offset: 0, 0
+  index: -1
+images/nengli/neng
+  rotate: false
+  xy: 745, 566
+  size: 70, 60
+  orig: 70, 60
+  offset: 0, 0
+  index: -1
+images/xinwu/huo
+  rotate: false
+  xy: 538, 459
+  size: 70, 61
+  orig: 70, 61
+  offset: 0, 0
+  index: -1
+images/xinwu/qu
+  rotate: false
+  xy: 538, 397
+  size: 70, 60
+  orig: 70, 60
+  offset: 0, 0
+  index: -1
+images/xinwu/wu
+  rotate: false
+  xy: 321, 57
+  size: 71, 61
+  orig: 71, 61
+  offset: 0, 0
+  index: -1
+images/xinwu/xin
+  rotate: false
+  xy: 538, 211
+  size: 66, 60
+  orig: 66, 60
+  offset: 0, 0
+  index: -1
+images/zhidian/dian
+  rotate: false
+  xy: 824, 731
+  size: 70, 61
+  orig: 70, 61
+  offset: 0, 0
+  index: -1
+images/zhidian/zhi
+  rotate: false
+  xy: 898, 901
+  size: 70, 59
+  orig: 70, 59
+  offset: 0, 0
+  index: -1
+jue_00000
+  rotate: false
+  xy: 745, 628
+  size: 72, 61
+  orig: 72, 61
+  offset: 0, 0
+  index: -1
+shenglidi
+  rotate: true
+  xy: 660, 530
+  size: 492, 83
+  orig: 494, 85
+  offset: 1, 1
+  index: -1
+shi_00000
+  rotate: false
+  xy: 538, 273
+  size: 66, 61
+  orig: 66, 61
+  offset: 0, 0
+  index: -1
+tian_00000
+  rotate: true
+  xy: 610, 452
+  size: 68, 59
+  orig: 68, 59
+  offset: 0, 0
+  index: -1
+tiao1_00000
+  rotate: false
+  xy: 2, 212
+  size: 450, 308
+  orig: 450, 320
+  offset: 0, 12
+  index: -1
+tiao_00000
+  rotate: false
+  xy: 2, 2
+  size: 300, 38
+  orig: 300, 100
+  offset: 0, 31
+  index: -1
+xing_00000
+  rotate: false
+  xy: 671, 468
+  size: 63, 60
+  orig: 63, 60
+  offset: 0, 0
+  index: -1

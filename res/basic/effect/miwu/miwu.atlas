@@ -1,0 +1,195 @@
+
+miwu.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+beijing
+  rotate: false
+  xy: 461, 310
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+shuangmen/smoke3_002
+  rotate: false
+  xy: 2, 2
+  size: 192, 46
+  orig: 250, 160
+  offset: 28, 8
+  index: -1
+shuangmen/smoke3_004
+  rotate: false
+  xy: 227, 11
+  size: 200, 59
+  orig: 250, 160
+  offset: 24, 8
+  index: -1
+shuangmen/smoke3_006
+  rotate: false
+  xy: 748, 837
+  size: 209, 63
+  orig: 250, 160
+  offset: 20, 8
+  index: -1
+shuangmen/smoke3_008
+  rotate: false
+  xy: 499, 601
+  size: 220, 85
+  orig: 250, 160
+  offset: 17, 8
+  index: -1
+shuangmen/smoke3_010
+  rotate: false
+  xy: 229, 235
+  size: 225, 102
+  orig: 250, 160
+  offset: 12, 8
+  index: -1
+shuangmen/smoke3_012
+  rotate: false
+  xy: 480, 485
+  size: 228, 114
+  orig: 250, 160
+  offset: 10, 8
+  index: -1
+shuangmen/smoke3_014
+  rotate: false
+  xy: 229, 339
+  size: 230, 130
+  orig: 250, 160
+  offset: 9, 8
+  index: -1
+shuangmen/smoke3_016
+  rotate: false
+  xy: 2, 613
+  size: 228, 139
+  orig: 250, 160
+  offset: 9, 8
+  index: -1
+shuangmen/smoke3_018
+  rotate: false
+  xy: 2, 472
+  size: 226, 139
+  orig: 250, 160
+  offset: 11, 8
+  index: -1
+shuangmen/smoke3_020
+  rotate: false
+  xy: 2, 190
+  size: 222, 139
+  orig: 250, 160
+  offset: 13, 8
+  index: -1
+shuangmen/smoke3_022
+  rotate: false
+  xy: 2, 331
+  size: 225, 139
+  orig: 250, 160
+  offset: 12, 8
+  index: -1
+shuangmen/smoke3_024
+  rotate: false
+  xy: 2, 50
+  size: 223, 138
+  orig: 250, 160
+  offset: 14, 8
+  index: -1
+shuangmen/smoke3_026
+  rotate: false
+  xy: 499, 688
+  size: 218, 127
+  orig: 250, 160
+  offset: 14, 8
+  index: -1
+smoke2/smoke2_002
+  rotate: false
+  xy: 472, 412
+  size: 177, 71
+  orig: 260, 150
+  offset: 2, 9
+  index: -1
+smoke2/smoke2_004
+  rotate: false
+  xy: 227, 72
+  size: 198, 80
+  orig: 260, 150
+  offset: 0, 9
+  index: -1
+smoke2/smoke2_006
+  rotate: false
+  xy: 227, 154
+  size: 216, 79
+  orig: 260, 150
+  offset: 0, 9
+  index: -1
+smoke2/smoke2_008
+  rotate: false
+  xy: 500, 817
+  size: 232, 77
+  orig: 260, 150
+  offset: 0, 9
+  index: -1
+smoke2/smoke2_010
+  rotate: false
+  xy: 230, 471
+  size: 240, 85
+  orig: 260, 150
+  offset: 0, 9
+  index: -1
+smoke2/smoke2_012
+  rotate: false
+  xy: 251, 667
+  size: 246, 97
+  orig: 260, 150
+  offset: 0, 9
+  index: -1
+smoke2/smoke2_014
+  rotate: false
+  xy: 232, 558
+  size: 246, 107
+  orig: 260, 150
+  offset: 2, 9
+  index: -1
+smoke2/smoke2_016
+  rotate: false
+  xy: 748, 902
+  size: 245, 112
+  orig: 260, 150
+  offset: 2, 9
+  index: -1
+smoke2/smoke2_018
+  rotate: false
+  xy: 500, 896
+  size: 246, 118
+  orig: 260, 150
+  offset: 1, 9
+  index: -1
+smoke2/smoke2_020
+  rotate: false
+  xy: 251, 766
+  size: 246, 121
+  orig: 260, 150
+  offset: 0, 9
+  index: -1
+smoke2/smoke2_022
+  rotate: false
+  xy: 251, 889
+  size: 247, 125
+  orig: 260, 150
+  offset: 0, 9
+  index: -1
+smoke2/smoke2_024
+  rotate: false
+  xy: 2, 754
+  size: 247, 128
+  orig: 260, 150
+  offset: 0, 9
+  index: -1
+smoke2/smoke2_026
+  rotate: false
+  xy: 2, 884
+  size: 247, 130
+  orig: 260, 150
+  offset: 0, 9
+  index: -1

@@ -1,0 +1,159 @@
+{
+"skeleton": { "hash": "0MLj5G+zRoR8vqBUFvlOwaNgoWg", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "effect", "parent": "root" },
+	{ "name": "lizia", "parent": "effect" },
+	{ "name": "renwuzuobiao", "parent": "effect" },
+	{ "name": "yanchen", "parent": "effect" },
+	{ "name": "yanchen2", "parent": "effect" },
+	{ "name": "renwuguanga", "parent": "renwuzuobiao", "y": 63.33 }
+],
+"slots": [
+	{ "name": "renwuguanga", "bone": "renwuguanga", "blend": "additive" },
+	{ "name": "lizia", "bone": "lizia", "blend": "additive" },
+	{ "name": "yanchen", "bone": "yanchen" },
+	{ "name": "yanchen2", "bone": "yanchen2" }
+],
+"skins": {
+	"default": {
+		"lizia": {
+			"effect/born/zhakailizi/zhakailizi_00034": { "width": 180, "height": 146 },
+			"effect/born/zhakailizi/zhakailizi_00035": { "width": 180, "height": 146 },
+			"effect/born/zhakailizi/zhakailizi_00036": { "width": 180, "height": 146 },
+			"effect/born/zhakailizi/zhakailizi_00037": { "width": 180, "height": 146 },
+			"effect/born/zhakailizi/zhakailizi_00038": { "width": 180, "height": 146 },
+			"effect/born/zhakailizi/zhakailizi_00039": { "width": 180, "height": 146 },
+			"effect/born/zhakailizi/zhakailizi_00040": { "width": 180, "height": 146 },
+			"effect/born/zhakailizi/zhakailizi_00041": { "width": 180, "height": 146 },
+			"effect/born/zhakailizi/zhakailizi_00042": { "width": 180, "height": 146 },
+			"effect/born/zhakailizi/zhakailizi_00043": { "width": 180, "height": 146 },
+			"effect/born/zhakailizi/zhakailizi_00044": { "width": 180, "height": 146 },
+			"effect/born/zhakailizi/zhakailizi_00045": { "width": 180, "height": 146 },
+			"effect/born/zhakailizi/zhakailizi_00046": { "width": 180, "height": 146 }
+		},
+		"renwuguanga": {
+			"effect/born/shentiguang_00034": { "y": 71.5, "width": 385, "height": 397 }
+		},
+		"yanchen": {
+			"effect/born/yanchen/yanchen_00034": { "width": 271, "height": 140 },
+			"effect/born/yanchen/yanchen_00035": { "width": 271, "height": 140 },
+			"effect/born/yanchen/yanchen_00036": { "width": 271, "height": 140 },
+			"effect/born/yanchen/yanchen_00037": { "width": 271, "height": 140 },
+			"effect/born/yanchen/yanchen_00038": { "width": 271, "height": 140 },
+			"effect/born/yanchen/yanchen_00039": { "width": 271, "height": 140 },
+			"effect/born/yanchen/yanchen_00040": { "width": 271, "height": 140 },
+			"effect/born/yanchen/yanchen_00041": { "width": 271, "height": 140 },
+			"effect/born/yanchen/yanchen_00042": { "width": 271, "height": 140 }
+		},
+		"yanchen2": {
+			"effect/born/yanchen/yanchen_00034": { "width": 271, "height": 140 },
+			"effect/born/yanchen/yanchen_00035": { "width": 271, "height": 140 },
+			"effect/born/yanchen/yanchen_00036": { "width": 271, "height": 140 },
+			"effect/born/yanchen/yanchen_00037": { "width": 271, "height": 140 },
+			"effect/born/yanchen/yanchen_00038": { "width": 271, "height": 140 },
+			"effect/born/yanchen/yanchen_00039": { "width": 271, "height": 140 },
+			"effect/born/yanchen/yanchen_00040": { "width": 271, "height": 140 },
+			"effect/born/yanchen/yanchen_00041": { "width": 271, "height": 140 },
+			"effect/born/yanchen/yanchen_00042": { "width": 271, "height": 140 }
+		}
+	}
+},
+"animations": {
+	"born": {
+		"slots": {
+			"lizia": {
+				"attachment": [
+					{ "time": 1.1333, "name": "effect/born/zhakailizi/zhakailizi_00034" },
+					{ "time": 1.1666, "name": "effect/born/zhakailizi/zhakailizi_00035" },
+					{ "time": 1.2, "name": "effect/born/zhakailizi/zhakailizi_00036" },
+					{ "time": 1.2333, "name": "effect/born/zhakailizi/zhakailizi_00037" },
+					{ "time": 1.2666, "name": "effect/born/zhakailizi/zhakailizi_00038" },
+					{ "time": 1.3, "name": "effect/born/zhakailizi/zhakailizi_00039" },
+					{ "time": 1.3333, "name": "effect/born/zhakailizi/zhakailizi_00040" },
+					{ "time": 1.3666, "name": "effect/born/zhakailizi/zhakailizi_00041" },
+					{ "time": 1.4, "name": "effect/born/zhakailizi/zhakailizi_00042" },
+					{ "time": 1.4333, "name": "effect/born/zhakailizi/zhakailizi_00043" },
+					{ "time": 1.4666, "name": "effect/born/zhakailizi/zhakailizi_00044" },
+					{ "time": 1.5, "name": "effect/born/zhakailizi/zhakailizi_00045" },
+					{ "time": 1.5333, "name": "effect/born/zhakailizi/zhakailizi_00046" },
+					{ "time": 1.5666, "name": null }
+				]
+			},
+			"renwuguanga": {
+				"attachment": [
+					{ "time": 1.1333, "name": "effect/born/shentiguang_00034" }
+				],
+				"color": [
+					{ "time": 1.2, "color": "ffffffff" },
+					{ "time": 1.3666, "color": "ffffff00" }
+				]
+			},
+			"yanchen": {
+				"attachment": [
+					{ "time": 1.1333, "name": "effect/born/yanchen/yanchen_00034" },
+					{ "time": 1.1666, "name": "effect/born/yanchen/yanchen_00035" },
+					{ "time": 1.2, "name": "effect/born/yanchen/yanchen_00036" },
+					{ "time": 1.2333, "name": "effect/born/yanchen/yanchen_00037" },
+					{ "time": 1.2666, "name": "effect/born/yanchen/yanchen_00038" },
+					{ "time": 1.3, "name": "effect/born/yanchen/yanchen_00039" },
+					{ "time": 1.3333, "name": "effect/born/yanchen/yanchen_00040" },
+					{ "time": 1.3666, "name": "effect/born/yanchen/yanchen_00041" },
+					{ "time": 1.4, "name": "effect/born/yanchen/yanchen_00042" },
+					{ "time": 1.4333, "name": null }
+				]
+			},
+			"yanchen2": {
+				"attachment": [
+					{ "time": 1.1333, "name": "effect/born/yanchen/yanchen_00034" },
+					{ "time": 1.1666, "name": "effect/born/yanchen/yanchen_00035" },
+					{ "time": 1.2, "name": "effect/born/yanchen/yanchen_00036" },
+					{ "time": 1.2333, "name": "effect/born/yanchen/yanchen_00037" },
+					{ "time": 1.2666, "name": "effect/born/yanchen/yanchen_00038" },
+					{ "time": 1.3, "name": "effect/born/yanchen/yanchen_00039" },
+					{ "time": 1.3333, "name": "effect/born/yanchen/yanchen_00040" },
+					{ "time": 1.3666, "name": "effect/born/yanchen/yanchen_00041" },
+					{ "time": 1.4, "name": "effect/born/yanchen/yanchen_00042" },
+					{ "time": 1.4333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"renwuzuobiao": {
+				"translate": [
+					{ "time": 1.1333, "x": 18.38, "y": 16.34 }
+				],
+				"scale": [
+					{ "time": 1.1333, "x": 2, "y": 2 },
+					{ "time": 1.2, "x": 2.17, "y": 2.17 },
+					{ "time": 1.3666, "x": 2.22, "y": 2.22 }
+				]
+			},
+			"lizia": {
+				"translate": [
+					{ "time": 1.1333, "x": 0, "y": 222.68 }
+				],
+				"scale": [
+					{ "time": 1.1333, "x": 4, "y": 4 }
+				]
+			},
+			"yanchen": {
+				"translate": [
+					{ "time": 1.1333, "x": -435.15, "y": 120.53 }
+				],
+				"scale": [
+					{ "time": 1.1333, "x": 4, "y": 4 }
+				]
+			},
+			"yanchen2": {
+				"translate": [
+					{ "time": 1.1333, "x": 443.33, "y": 116.45 }
+				],
+				"scale": [
+					{ "time": 1.1333, "x": -4, "y": 4 }
+				]
+			}
+		}
+	}
+}
+}

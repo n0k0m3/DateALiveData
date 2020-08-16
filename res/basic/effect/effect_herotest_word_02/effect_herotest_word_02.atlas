@@ -1,0 +1,139 @@
+
+effect_herotest_word_02.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+final_00047_00000
+  rotate: false
+  xy: 2, 260
+  size: 450, 265
+  orig: 450, 265
+  offset: 0, 0
+  index: -1
+huangse
+  rotate: false
+  xy: 528, 492
+  size: 32, 33
+  orig: 32, 33
+  offset: 0, 0
+  index: -1
+images/baoshi/bao
+  rotate: false
+  xy: 454, 402
+  size: 70, 60
+  orig: 70, 60
+  offset: 0, 0
+  index: -1
+images/baoshi/shi
+  rotate: false
+  xy: 74, 128
+  size: 68, 59
+  orig: 68, 59
+  offset: 0, 0
+  index: -1
+images/nengli/li
+  rotate: false
+  xy: 374, 198
+  size: 67, 60
+  orig: 67, 60
+  offset: 0, 0
+  index: -1
+images/nengli/neng
+  rotate: false
+  xy: 729, 899
+  size: 70, 60
+  orig: 70, 60
+  offset: 0, 0
+  index: -1
+images/xinwu/huo
+  rotate: false
+  xy: 2, 126
+  size: 70, 61
+  orig: 70, 61
+  offset: 0, 0
+  index: -1
+images/xinwu/qu
+  rotate: false
+  xy: 802, 962
+  size: 70, 60
+  orig: 70, 60
+  offset: 0, 0
+  index: -1
+images/xinwu/wu
+  rotate: false
+  xy: 729, 961
+  size: 71, 61
+  orig: 71, 61
+  offset: 0, 0
+  index: -1
+images/xinwu/xin
+  rotate: false
+  xy: 729, 837
+  size: 66, 60
+  orig: 66, 60
+  offset: 0, 0
+  index: -1
+images/zhidian/dian
+  rotate: false
+  xy: 302, 197
+  size: 70, 61
+  orig: 70, 61
+  offset: 0, 0
+  index: -1
+images/zhidian/zhi
+  rotate: false
+  xy: 2, 65
+  size: 70, 59
+  orig: 70, 59
+  offset: 0, 0
+  index: -1
+jue_00000
+  rotate: false
+  xy: 454, 464
+  size: 72, 61
+  orig: 72, 61
+  offset: 0, 0
+  index: -1
+shenglidi
+  rotate: true
+  xy: 579, 530
+  size: 492, 148
+  orig: 492, 148
+  offset: 0, 0
+  index: -1
+shi_00000
+  rotate: false
+  xy: 2, 2
+  size: 66, 61
+  orig: 66, 61
+  offset: 0, 0
+  index: -1
+tian_00000
+  rotate: false
+  xy: 454, 341
+  size: 68, 59
+  orig: 68, 59
+  offset: 0, 0
+  index: -1
+tiao1_00000
+  rotate: false
+  xy: 2, 527
+  size: 575, 495
+  orig: 575, 495
+  offset: 0, 0
+  index: -1
+tiao_00000
+  rotate: false
+  xy: 2, 189
+  size: 298, 69
+  orig: 298, 69
+  offset: 0, 0
+  index: -1
+xing_00000
+  rotate: false
+  xy: 874, 962
+  size: 63, 60
+  orig: 63, 60
+  offset: 0, 0
+  index: -1

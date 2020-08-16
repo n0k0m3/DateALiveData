@@ -1,0 +1,543 @@
+
+effects_10102_skillBBBA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Effects/AAB/xuandaoguang/xuandaoguang_000
+  rotate: true
+  xy: 686, 9
+  size: 192, 144
+  orig: 300, 210
+  offset: 52, 32
+  index: -1
+Effects/AAB/xuandaoguang/xuandaoguang_001
+  rotate: false
+  xy: 606, 636
+  size: 275, 176
+  orig: 300, 210
+  offset: 14, 19
+  index: -1
+Effects/AAB/xuandaoguang/xuandaoguang_002
+  rotate: false
+  xy: 2, 814
+  size: 300, 208
+  orig: 300, 210
+  offset: 0, 2
+  index: -1
+Effects/AAB/xuandaoguang/xuandaoguang_003
+  rotate: false
+  xy: 2, 604
+  size: 300, 208
+  orig: 300, 210
+  offset: 0, 2
+  index: -1
+Effects/AAB/xuandaoguang/xuandaoguang_004
+  rotate: false
+  xy: 304, 814
+  size: 300, 208
+  orig: 300, 210
+  offset: 0, 2
+  index: -1
+Effects/AAB/xuandaoguang/xuandaoguang_005
+  rotate: false
+  xy: 2, 394
+  size: 300, 208
+  orig: 300, 210
+  offset: 0, 2
+  index: -1
+Effects/AAB/xuandaoguang/xuandaoguang_006
+  rotate: false
+  xy: 304, 604
+  size: 300, 208
+  orig: 300, 210
+  offset: 0, 2
+  index: -1
+Effects/AAB/xuandaoguang/xuandaoguang_007
+  rotate: false
+  xy: 606, 814
+  size: 300, 208
+  orig: 300, 210
+  offset: 0, 2
+  index: -1
+Effects/AAB/xuandaoguang/xuandaoguang_008
+  rotate: false
+  xy: 2, 187
+  size: 300, 205
+  orig: 300, 210
+  offset: 0, 5
+  index: -1
+Effects/AAB/xuandaoguang/xuandaoguang_009
+  rotate: false
+  xy: 304, 407
+  size: 292, 195
+  orig: 300, 210
+  offset: 6, 10
+  index: -1
+Effects/AAB/xuandaoguang/xuandaoguang_010
+  rotate: true
+  xy: 908, 830
+  size: 192, 106
+  orig: 300, 210
+  offset: 60, 54
+  index: -1
+Effects/BBB/penjian/penjian_000
+  rotate: true
+  xy: 832, 11
+  size: 196, 144
+  orig: 240, 187
+  offset: 29, 16
+  index: -1
+Effects/BBB/penjian/penjian_001
+  rotate: true
+  xy: 508, 193
+  size: 212, 169
+  orig: 240, 187
+  offset: 17, 7
+  index: -1
+Effects/BBB/penjian/penjian_002
+  rotate: false
+  xy: 598, 408
+  size: 214, 167
+  orig: 240, 187
+  offset: 16, 7
+  index: -1
+Effects/BBB/penjian/penjian_003
+  rotate: false
+  xy: 2, 18
+  size: 217, 167
+  orig: 240, 187
+  offset: 13, 7
+  index: -1
+Effects/BBB/penjian/penjian_006
+  rotate: true
+  xy: 679, 203
+  size: 203, 146
+  orig: 240, 187
+  offset: 9, 19
+  index: -1
+Effects/BBB/penjian/penjian_007
+  rotate: true
+  xy: 883, 611
+  size: 201, 139
+  orig: 240, 187
+  offset: 9, 23
+  index: -1
+Effects/BBB/qiquan/qiquan_007
+  rotate: false
+  xy: 961, 437
+  size: 61, 172
+  orig: 113, 180
+  offset: 0, 5
+  index: -1
+Effects/BBBA/chuanjian/chuanjian_010
+  rotate: true
+  xy: 606, 577
+  size: 57, 257
+  orig: 120, 320
+  offset: 28, 24
+  index: -1
+Effects/BBBA/chuanjian/chuanjian_014
+  rotate: false
+  xy: 978, 113
+  size: 24, 102
+  orig: 120, 320
+  offset: 49, 22
+  index: -1
+Effects/BBBA/xuanjian2/xuanjian2_000
+  rotate: true
+  xy: 827, 209
+  size: 210, 120
+  orig: 210, 120
+  offset: 0, 0
+  index: -1
+Effects/bai_000
+  rotate: true
+  xy: 949, 289
+  size: 130, 60
+  orig: 130, 60
+  offset: 0, 0
+  index: -1
+Effects/tongyong/dabaoshan/dabaoshan_004
+  rotate: false
+  xy: 304, 203
+  size: 202, 202
+  orig: 210, 210
+  offset: 4, 4
+  index: -1
+Effects/tongyong/dabaoshan/dabaoshan_006
+  rotate: true
+  xy: 304, 2
+  size: 199, 200
+  orig: 210, 210
+  offset: 6, 5
+  index: -1
+Effects/tongyong/dabaoshan/dabaoshan_008
+  rotate: true
+  xy: 814, 421
+  size: 154, 145
+  orig: 210, 210
+  offset: 31, 33
+  index: -1
+Effects/tongyong/hudaoguang/hudaoguang_000
+  rotate: false
+  xy: 221, 47
+  size: 81, 138
+  orig: 154, 154
+  offset: 0, 6
+  index: -1
+Effects/tongyong/huhuoguang/huhuoguang_000
+  rotate: false
+  xy: 221, 27
+  size: 51, 18
+  orig: 108, 81
+  offset: 33, 8
+  index: -1
+Effects/tongyong/huhuoguang/huhuoguang_010
+  rotate: true
+  xy: 949, 217
+  size: 70, 52
+  orig: 108, 81
+  offset: 21, 16
+  index: -1
+Effects/tongyong/shanxian/shanxian_005
+  rotate: false
+  xy: 506, 12
+  size: 178, 179
+  orig: 180, 180
+  offset: 1, 1
+  index: -1
+
+effects_10102_skillBBBA2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Effects/BBB/penjian/penjian_004
+  rotate: false
+  xy: 70, 336
+  size: 218, 163
+  orig: 240, 187
+  offset: 12, 10
+  index: -1
+Effects/BBB/penjian/penjian_005
+  rotate: false
+  xy: 60, 171
+  size: 218, 163
+  orig: 240, 187
+  offset: 10, 10
+  index: -1
+Effects/BBB/qiquan/qiquan_000
+  rotate: false
+  xy: 265, 514
+  size: 113, 180
+  orig: 113, 180
+  offset: 0, 0
+  index: -1
+Effects/BBB/qiquan/qiquan_001
+  rotate: false
+  xy: 290, 332
+  size: 113, 180
+  orig: 113, 180
+  offset: 0, 0
+  index: -1
+Effects/BBB/qiquan/qiquan_002
+  rotate: true
+  xy: 272, 43
+  size: 113, 180
+  orig: 113, 180
+  offset: 0, 0
+  index: -1
+Effects/BBB/qiquan/qiquan_003
+  rotate: false
+  xy: 875, 346
+  size: 113, 180
+  orig: 113, 180
+  offset: 0, 0
+  index: -1
+Effects/BBB/qiquan/qiquan_004
+  rotate: false
+  xy: 912, 840
+  size: 105, 180
+  orig: 113, 180
+  offset: 0, 0
+  index: -1
+Effects/BBB/qiquan/qiquan_005
+  rotate: false
+  xy: 757, 172
+  size: 91, 180
+  orig: 113, 180
+  offset: 0, 0
+  index: -1
+Effects/BBB/qiquan/qiquan_006
+  rotate: true
+  xy: 834, 56
+  size: 76, 179
+  orig: 113, 180
+  offset: 0, 1
+  index: -1
+Effects/BBBA/chuanjian/chuanjian_000
+  rotate: true
+  xy: 106, 696
+  size: 120, 253
+  orig: 120, 320
+  offset: 0, 58
+  index: -1
+Effects/BBBA/chuanjian/chuanjian_002
+  rotate: false
+  xy: 2, 704
+  size: 102, 316
+  orig: 120, 320
+  offset: 9, 0
+  index: -1
+Effects/BBBA/chuanjian/chuanjian_004
+  rotate: false
+  xy: 2, 396
+  size: 66, 306
+  orig: 120, 320
+  offset: 27, 0
+  index: -1
+Effects/BBBA/chuanjian/chuanjian_006
+  rotate: false
+  xy: 2, 87
+  size: 56, 307
+  orig: 120, 320
+  offset: 29, 0
+  index: -1
+Effects/BBBA/chuanjian/chuanjian_008
+  rotate: false
+  xy: 698, 42
+  size: 57, 277
+  orig: 120, 320
+  offset: 28, 17
+  index: -1
+Effects/BBBA/chuanjian/chuanjian_012
+  rotate: true
+  xy: 2, 2
+  size: 45, 226
+  orig: 120, 320
+  offset: 30, 24
+  index: -1
+Effects/BBBA/xuanjian2/xuanjian2_002
+  rotate: false
+  xy: 60, 49
+  size: 210, 120
+  orig: 210, 120
+  offset: 0, 0
+  index: -1
+Effects/BBBA/xuanjian2/xuanjian2_004
+  rotate: false
+  xy: 361, 696
+  size: 210, 120
+  orig: 210, 120
+  offset: 0, 0
+  index: -1
+Effects/BBBA/xuanjian2/xuanjian2_006
+  rotate: false
+  xy: 710, 528
+  size: 210, 120
+  orig: 210, 120
+  offset: 0, 0
+  index: -1
+Effects/BBBA/xuanjian2/xuanjian2_008
+  rotate: true
+  xy: 579, 321
+  size: 210, 120
+  orig: 210, 120
+  offset: 0, 0
+  index: -1
+Effects/BBBA/xuanjian2/xuanjian2_010
+  rotate: true
+  xy: 454, 136
+  size: 210, 120
+  orig: 210, 120
+  offset: 0, 0
+  index: -1
+Effects/BBBA/xuanjian2/xuanjian2_012
+  rotate: true
+  xy: 576, 109
+  size: 210, 120
+  orig: 210, 120
+  offset: 0, 0
+  index: -1
+Effects/BBBA/xuanjian2/xuanjian2_014
+  rotate: true
+  xy: 850, 134
+  size: 210, 120
+  orig: 210, 120
+  offset: 0, 0
+  index: -1
+Effects/glow_000
+  rotate: false
+  xy: 922, 528
+  size: 58, 58
+  orig: 60, 60
+  offset: 1, 1
+  index: -1
+Effects/tongyong/dabaoshan/dabaoshan_000
+  rotate: false
+  xy: 380, 522
+  size: 172, 172
+  orig: 210, 210
+  offset: 19, 19
+  index: -1
+Effects/tongyong/dabaoshan/dabaoshan_001
+  rotate: false
+  xy: 70, 501
+  size: 193, 193
+  orig: 210, 210
+  offset: 9, 8
+  index: -1
+Effects/tongyong/dabaoshan/dabaoshan_002
+  rotate: false
+  xy: 512, 820
+  size: 200, 200
+  orig: 210, 210
+  offset: 6, 5
+  index: -1
+Effects/tongyong/dabaoshan/dabaoshan_003
+  rotate: false
+  xy: 106, 818
+  size: 201, 202
+  orig: 210, 210
+  offset: 5, 4
+  index: -1
+Effects/tongyong/dabaoshan/dabaoshan_005
+  rotate: false
+  xy: 309, 818
+  size: 201, 202
+  orig: 210, 210
+  offset: 5, 4
+  index: -1
+Effects/tongyong/dabaoshan/dabaoshan_007
+  rotate: false
+  xy: 714, 824
+  size: 196, 196
+  orig: 210, 210
+  offset: 7, 7
+  index: -1
+Effects/tongyong/hudaoguang/hudaoguang_001
+  rotate: false
+  xy: 573, 675
+  size: 152, 143
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+Effects/tongyong/hudaoguang/hudaoguang_004
+  rotate: false
+  xy: 554, 533
+  size: 154, 140
+  orig: 154, 154
+  offset: 0, 1
+  index: -1
+Effects/tongyong/huhuoguang/huhuoguang_002
+  rotate: false
+  xy: 575, 28
+  size: 100, 79
+  orig: 108, 81
+  offset: 0, 2
+  index: -1
+Effects/tongyong/huhuoguang/huhuoguang_004
+  rotate: true
+  xy: 757, 62
+  size: 108, 75
+  orig: 108, 81
+  offset: 0, 6
+  index: -1
+Effects/tongyong/huhuoguang/huhuoguang_006
+  rotate: true
+  xy: 922, 588
+  size: 104, 71
+  orig: 108, 81
+  offset: 4, 10
+  index: -1
+Effects/tongyong/shanxian/shanxian_000
+  rotate: false
+  xy: 727, 650
+  size: 172, 172
+  orig: 180, 180
+  offset: 4, 4
+  index: -1
+Effects/tongyong/shanxian/shanxian_001
+  rotate: false
+  xy: 405, 348
+  size: 172, 172
+  orig: 180, 180
+  offset: 4, 4
+  index: -1
+Effects/tongyong/shanxian/shanxian_002
+  rotate: false
+  xy: 701, 354
+  size: 172, 172
+  orig: 180, 180
+  offset: 4, 4
+  index: -1
+Effects/tongyong/shanxian/shanxian_003
+  rotate: false
+  xy: 280, 158
+  size: 172, 172
+  orig: 180, 180
+  offset: 4, 4
+  index: -1
+Effects/tongyong/shanxian/shanxian_007
+  rotate: true
+  xy: 454, 8
+  size: 126, 119
+  orig: 180, 180
+  offset: 28, 26
+  index: -1
+Effects/tongyong/shanxian/shanxian_009
+  rotate: true
+  xy: 901, 694
+  size: 128, 102
+  orig: 180, 180
+  offset: 26, 39
+  index: -1
+
+effects_10102_skillBBBA3.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Effects/tongyong/hudaoguang/hudaoguang_002
+  rotate: true
+  xy: 2, 2
+  size: 154, 135
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+Effects/tongyong/hudaoguang/hudaoguang_003
+  rotate: true
+  xy: 2, 158
+  size: 154, 137
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+Effects/tongyong/hudaoguang/hudaoguang_005
+  rotate: false
+  xy: 2, 314
+  size: 153, 140
+  orig: 154, 154
+  offset: 1, 4
+  index: -1
+Effects/tongyong/hudaoguang/hudaoguang_007
+  rotate: false
+  xy: 157, 316
+  size: 152, 138
+  orig: 154, 154
+  offset: 2, 8
+  index: -1
+Effects/tongyong/huhuoguang/huhuoguang_001
+  rotate: false
+  xy: 311, 317
+  size: 81, 64
+  orig: 108, 81
+  offset: 3, 3
+  index: -1
+Effects/tongyong/huhuoguang/huhuoguang_008
+  rotate: false
+  xy: 311, 383
+  size: 97, 71
+  orig: 108, 81
+  offset: 10, 10
+  index: -1

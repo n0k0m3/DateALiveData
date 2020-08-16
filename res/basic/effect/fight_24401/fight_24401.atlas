@@ -1,0 +1,146 @@
+
+fight_24401.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+JGerL01
+  rotate: false
+  xy: 2, 139
+  size: 74, 150
+  orig: 74, 150
+  offset: 0, 0
+  index: -1
+JGerR01
+  rotate: true
+  xy: 85, 300
+  size: 92, 137
+  orig: 92, 137
+  offset: 0, 0
+  index: -1
+JGhoujiaoR01
+  rotate: true
+  xy: 261, 769
+  size: 41, 110
+  orig: 41, 110
+  offset: 0, 0
+  index: -1
+JGjinjia01
+  rotate: true
+  xy: 602, 840
+  size: 110, 60
+  orig: 110, 60
+  offset: 0, 0
+  index: -1
+JGjinjia02
+  rotate: true
+  xy: 664, 873
+  size: 77, 38
+  orig: 77, 38
+  offset: 0, 0
+  index: -1
+JGjinjia03
+  rotate: false
+  xy: 261, 812
+  size: 211, 206
+  orig: 211, 206
+  offset: 0, 0
+  index: -1
+JGjinjia04
+  rotate: false
+  xy: 373, 771
+  size: 88, 39
+  orig: 88, 39
+  offset: 0, 0
+  index: -1
+JGqiantuiR01
+  rotate: false
+  xy: 704, 892
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+JGshen
+  rotate: false
+  xy: 2, 517
+  size: 243, 242
+  orig: 243, 242
+  offset: 0, 0
+  index: -1
+JGshenzs01
+  rotate: false
+  xy: 85, 394
+  size: 127, 121
+  orig: 127, 121
+  offset: 0, 0
+  index: -1
+JGshenzs02
+  rotate: false
+  xy: 936, 940
+  size: 82, 78
+  orig: 82, 78
+  offset: 0, 0
+  index: -1
+JGshenzs03
+  rotate: false
+  xy: 474, 841
+  size: 126, 109
+  orig: 126, 109
+  offset: 0, 0
+  index: -1
+JGshenzs04
+  rotate: false
+  xy: 214, 431
+  size: 22, 84
+  orig: 22, 84
+  offset: 0, 0
+  index: -1
+JGyan01
+  rotate: false
+  xy: 770, 907
+  size: 46, 58
+  orig: 46, 58
+  offset: 0, 0
+  index: -1
+JGyan02
+  rotate: true
+  xy: 850, 943
+  size: 75, 84
+  orig: 75, 84
+  offset: 0, 0
+  index: -1
+JGzhua01
+  rotate: true
+  xy: 474, 952
+  size: 66, 225
+  orig: 66, 225
+  offset: 0, 0
+  index: -1
+JGzhua02
+  rotate: false
+  xy: 2, 3
+  size: 53, 134
+  orig: 53, 134
+  offset: 0, 0
+  index: -1
+JGzhua03
+  rotate: false
+  xy: 2, 291
+  size: 81, 224
+  orig: 81, 224
+  offset: 0, 0
+  index: -1
+JGzhua04
+  rotate: true
+  xy: 701, 967
+  size: 51, 147
+  orig: 51, 147
+  offset: 0, 0
+  index: -1
+qiu
+  rotate: false
+  xy: 2, 761
+  size: 257, 257
+  orig: 257, 257
+  offset: 0, 0
+  index: -1

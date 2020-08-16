@@ -1,0 +1,480 @@
+
+effects_31001_EskillB.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/Eskillb/dao1/dao1_005
+  rotate: false
+  xy: 566, 5
+  size: 317, 184
+  orig: 320, 200
+  offset: 0, 3
+  index: -1
+effects/Eskillb/dao2/dao2_000
+  rotate: true
+  xy: 823, 799
+  size: 223, 118
+  orig: 248, 248
+  offset: 7, 9
+  index: -1
+effects/Eskillb/dao2/dao2_001
+  rotate: true
+  xy: 567, 402
+  size: 245, 225
+  orig: 248, 248
+  offset: 2, 2
+  index: -1
+effects/Eskillb/dao2/dao2_002
+  rotate: true
+  xy: 332, 777
+  size: 245, 244
+  orig: 248, 248
+  offset: 1, 2
+  index: -1
+effects/Eskillb/dao2/dao2_004
+  rotate: true
+  xy: 2, 557
+  size: 244, 241
+  orig: 248, 248
+  offset: 1, 5
+  index: -1
+effects/Eskillb/dao2/dao2_006
+  rotate: true
+  xy: 2, 308
+  size: 247, 233
+  orig: 248, 248
+  offset: 1, 5
+  index: -1
+effects/Eskillb/dao2/dao2_008
+  rotate: false
+  xy: 578, 795
+  size: 243, 227
+  orig: 248, 248
+  offset: 5, 9
+  index: -1
+effects/Eskillb/dao3/dao3_000
+  rotate: false
+  xy: 486, 649
+  size: 217, 126
+  orig: 328, 224
+  offset: 7, 74
+  index: -1
+effects/Eskillb/dao3/dao3_001
+  rotate: true
+  xy: 2, 3
+  size: 303, 216
+  orig: 328, 224
+  offset: 0, 6
+  index: -1
+effects/Eskillb/dao3/dao3_003
+  rotate: false
+  xy: 567, 191
+  size: 325, 209
+  orig: 328, 224
+  offset: 2, 4
+  index: -1
+effects/Eskillb/dao3/dao3_004
+  rotate: false
+  xy: 2, 803
+  size: 328, 219
+  orig: 328, 224
+  offset: 0, 4
+  index: -1
+effects/Eskillb/dao3/dao3_006
+  rotate: true
+  xy: 237, 92
+  size: 326, 218
+  orig: 328, 224
+  offset: 2, 4
+  index: -1
+effects/Eskillb/dao3/dao3_008
+  rotate: false
+  xy: 245, 420
+  size: 320, 220
+  orig: 328, 224
+  offset: 8, 4
+  index: -1
+effects/Eskillb/dilie_000
+  rotate: true
+  xy: 941, 259
+  size: 272, 80
+  orig: 272, 80
+  offset: 0, 0
+  index: -1
+effects/Eskillb/hit/hit_008
+  rotate: true
+  xy: 869, 533
+  size: 264, 150
+  orig: 280, 160
+  offset: 8, 4
+  index: -1
+effects/Eskillb/qi/qi_008
+  rotate: true
+  xy: 245, 642
+  size: 159, 81
+  orig: 200, 96
+  offset: 14, 3
+  index: -1
+effects/guangxian_000
+  rotate: false
+  xy: 220, 34
+  size: 235, 56
+  orig: 240, 56
+  offset: 0, 0
+  index: -1
+effects/skillb/julizi/julizi_006
+  rotate: false
+  xy: 705, 649
+  size: 162, 144
+  orig: 200, 200
+  offset: 27, 31
+  index: -1
+effects/skillb/julizi/julizi_008
+  rotate: false
+  xy: 328, 642
+  size: 156, 133
+  orig: 200, 200
+  offset: 28, 35
+  index: -1
+effects/skillb/julizi/julizi_012
+  rotate: true
+  xy: 943, 928
+  size: 94, 79
+  orig: 200, 200
+  offset: 47, 58
+  index: -1
+effects/skilld/baolizi/baolizi_001
+  rotate: true
+  xy: 457, 180
+  size: 120, 107
+  orig: 160, 160
+  offset: 20, 32
+  index: -1
+effects/skilld/baolizi/baolizi_005
+  rotate: false
+  xy: 794, 405
+  size: 145, 126
+  orig: 160, 160
+  offset: 9, 16
+  index: -1
+effects/skilld/baolizi/baolizi_009
+  rotate: true
+  xy: 885, 44
+  size: 145, 136
+  orig: 160, 160
+  offset: 7, 11
+  index: -1
+effects/skilld/dian1/dian1_001
+  rotate: true
+  xy: 943, 807
+  size: 119, 76
+  orig: 120, 80
+  offset: 0, 4
+  index: -1
+effects/skilld/dian1/dian1_003
+  rotate: true
+  xy: 794, 557
+  size: 90, 70
+  orig: 120, 80
+  offset: 30, 0
+  index: -1
+effects/skilld/dian2/dian2_002
+  rotate: true
+  xy: 457, 62
+  size: 116, 107
+  orig: 120, 120
+  offset: 0, 5
+  index: -1
+effects/skilld/dian2/dian2_004
+  rotate: true
+  xy: 457, 302
+  size: 116, 108
+  orig: 120, 120
+  offset: 4, 6
+  index: -1
+
+effects_31001_EskillB2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/Eskillb/dao1/dao1_000
+  rotate: true
+  xy: 487, 62
+  size: 234, 91
+  orig: 320, 200
+  offset: 53, 99
+  index: -1
+effects/Eskillb/dao1/dao1_001
+  rotate: false
+  xy: 634, 436
+  size: 277, 194
+  orig: 320, 200
+  offset: 43, 0
+  index: -1
+effects/Eskillb/dao1/dao1_002
+  rotate: false
+  xy: 304, 415
+  size: 277, 194
+  orig: 320, 200
+  offset: 43, 0
+  index: -1
+effects/Eskillb/dao1/dao1_003
+  rotate: false
+  xy: 323, 833
+  size: 319, 189
+  orig: 320, 200
+  offset: 1, 0
+  index: -1
+effects/Eskillb/dao1/dao1_006
+  rotate: false
+  xy: 2, 633
+  size: 305, 173
+  orig: 320, 200
+  offset: 0, 14
+  index: -1
+effects/Eskillb/dao1/dao1_008
+  rotate: false
+  xy: 634, 632
+  size: 278, 168
+  orig: 320, 200
+  offset: 25, 16
+  index: -1
+effects/Eskillb/dao1/dao1_010
+  rotate: true
+  xy: 853, 81
+  size: 266, 167
+  orig: 320, 200
+  offset: 27, 18
+  index: -1
+effects/Eskillb/dao3/dao3_002
+  rotate: false
+  xy: 2, 808
+  size: 319, 214
+  orig: 328, 224
+  offset: 2, 4
+  index: -1
+effects/Eskillb/dao3/dao3_010
+  rotate: false
+  xy: 644, 802
+  size: 312, 220
+  orig: 328, 224
+  offset: 16, 4
+  index: -1
+effects/Eskillb/dao3/dao3_012
+  rotate: false
+  xy: 323, 611
+  size: 309, 220
+  orig: 328, 224
+  offset: 19, 4
+  index: -1
+effects/Eskillb/dao3/dao3_014
+  rotate: false
+  xy: 2, 413
+  size: 300, 218
+  orig: 328, 224
+  offset: 28, 4
+  index: -1
+effects/Eskillb/hit/hit_001
+  rotate: true
+  xy: 580, 5
+  size: 267, 160
+  orig: 280, 160
+  offset: 7, 0
+  index: -1
+effects/Eskillb/hit/hit_003
+  rotate: false
+  xy: 583, 274
+  size: 268, 160
+  orig: 280, 160
+  offset: 6, 0
+  index: -1
+effects/Eskillb/hit/hit_004
+  rotate: true
+  xy: 2, 4
+  size: 268, 160
+  orig: 280, 160
+  offset: 6, 0
+  index: -1
+effects/Eskillb/hit/hit_005
+  rotate: true
+  xy: 164, 4
+  size: 268, 160
+  orig: 280, 160
+  offset: 6, 0
+  index: -1
+effects/Eskillb/hit/hit_006
+  rotate: true
+  xy: 326, 4
+  size: 268, 159
+  orig: 280, 160
+  offset: 6, 1
+  index: -1
+effects/Eskillb/hit/hit_009
+  rotate: true
+  xy: 452, 298
+  size: 115, 127
+  orig: 280, 160
+  offset: 84, 6
+  index: -1
+effects/Eskillb/qi/qi_001
+  rotate: false
+  xy: 862, 7
+  size: 158, 72
+  orig: 200, 96
+  offset: 33, 6
+  index: -1
+effects/glow
+  rotate: false
+  xy: 742, 110
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+effects/guangxian2_000
+  rotate: false
+  xy: 914, 585
+  size: 104, 103
+  orig: 104, 104
+  offset: 0, 1
+  index: -1
+effects/skillb/julizi/julizi_004
+  rotate: true
+  xy: 304, 274
+  size: 139, 146
+  orig: 200, 200
+  offset: 52, 37
+  index: -1
+effects/skillb/julizi/julizi_010
+  rotate: true
+  xy: 913, 449
+  size: 134, 109
+  orig: 200, 200
+  offset: 34, 45
+  index: -1
+effects/skilld/baolizi/baolizi_003
+  rotate: true
+  xy: 153, 281
+  size: 130, 113
+  orig: 160, 160
+  offset: 18, 23
+  index: -1
+effects/skilld/baolizi/baolizi_007
+  rotate: false
+  xy: 2, 277
+  size: 149, 134
+  orig: 160, 160
+  offset: 6, 12
+  index: -1
+effects/skilld/dian1/dian1_000
+  rotate: false
+  xy: 742, 5
+  size: 118, 74
+  orig: 120, 80
+  offset: 0, 6
+  index: -1
+effects/skilld/dian1/dian1_002
+  rotate: false
+  xy: 742, 192
+  size: 100, 80
+  orig: 120, 80
+  offset: 20, 0
+  index: -1
+effects/skilld/dian2/dian2_000
+  rotate: true
+  xy: 913, 349
+  size: 98, 100
+  orig: 120, 120
+  offset: 9, 14
+  index: -1
+effects/skilld/dian2/dian2_001
+  rotate: true
+  xy: 914, 690
+  size: 110, 105
+  orig: 120, 120
+  offset: 2, 7
+  index: -1
+
+effects_31001_EskillB3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/Eskillb/dao2/dao2_010
+  rotate: false
+  xy: 2, 794
+  size: 232, 223
+  orig: 248, 248
+  offset: 7, 10
+  index: -1
+effects/Eskillb/hit/hit_000
+  rotate: true
+  xy: 2, 269
+  size: 254, 155
+  orig: 280, 160
+  offset: 14, 3
+  index: -1
+effects/Eskillb/hit/hit_002
+  rotate: true
+  xy: 2, 525
+  size: 267, 160
+  orig: 280, 160
+  offset: 7, 0
+  index: -1
+effects/Eskillb/hit/hit_007
+  rotate: false
+  xy: 236, 860
+  size: 267, 157
+  orig: 280, 160
+  offset: 7, 2
+  index: -1
+effects/Eskillb/qi/qi_002
+  rotate: false
+  xy: 843, 931
+  size: 174, 86
+  orig: 200, 96
+  offset: 24, 4
+  index: -1
+effects/Eskillb/qi/qi_004
+  rotate: true
+  xy: 2, 86
+  size: 181, 95
+  orig: 200, 96
+  offset: 10, 1
+  index: -1
+effects/Eskillb/qi/qi_006
+  rotate: false
+  xy: 667, 922
+  size: 174, 95
+  orig: 200, 96
+  offset: 2, 1
+  index: -1
+effects/guanghuan_000
+  rotate: false
+  xy: 164, 529
+  size: 112, 120
+  orig: 120, 120
+  offset: 2, 0
+  index: -1
+effects/jumian_000
+  rotate: true
+  xy: 505, 861
+  size: 156, 160
+  orig: 160, 160
+  offset: 1, 0
+  index: -1
+effects/skillb/julizi/julizi_002
+  rotate: false
+  xy: 164, 651
+  size: 117, 141
+  orig: 200, 200
+  offset: 48, 35
+  index: -1
+effects/skilld/dian2/dian2_003
+  rotate: false
+  xy: 667, 808
+  size: 120, 112
+  orig: 120, 120
+  offset: 0, 4
+  index: -1

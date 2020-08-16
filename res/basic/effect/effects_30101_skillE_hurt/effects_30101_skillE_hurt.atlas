@@ -1,0 +1,159 @@
+
+effects_30101_skillE_hurt.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/fire/fire_0001
+  rotate: true
+  xy: 198, 41
+  size: 42, 134
+  orig: 336, 336
+  offset: 153, 195
+  index: -1
+effects/fire/fire_0002
+  rotate: true
+  xy: 2, 29
+  size: 54, 194
+  orig: 336, 336
+  offset: 151, 135
+  index: -1
+effects/fire/fire_0005
+  rotate: true
+  xy: 535, 809
+  size: 213, 308
+  orig: 336, 336
+  offset: 70, 25
+  index: -1
+effects/fire/fire_0006
+  rotate: false
+  xy: 2, 694
+  size: 263, 328
+  orig: 336, 336
+  offset: 41, 5
+  index: -1
+effects/fire/fire_0007
+  rotate: false
+  xy: 269, 85
+  size: 264, 302
+  orig: 336, 336
+  offset: 47, 31
+  index: -1
+effects/fire/fire_0009
+  rotate: false
+  xy: 2, 389
+  size: 266, 303
+  orig: 336, 336
+  offset: 46, 30
+  index: -1
+effects/fire/fire_0011
+  rotate: false
+  xy: 267, 719
+  size: 266, 303
+  orig: 336, 336
+  offset: 46, 30
+  index: -1
+effects/fire/fire_0013
+  rotate: false
+  xy: 2, 85
+  size: 265, 302
+  orig: 336, 336
+  offset: 47, 31
+  index: -1
+effects/fire/fire_0015
+  rotate: false
+  xy: 270, 415
+  size: 264, 302
+  orig: 336, 336
+  offset: 47, 31
+  index: -1
+effects/fire/fire_0017
+  rotate: false
+  xy: 535, 112
+  size: 199, 301
+  orig: 336, 336
+  offset: 81, 32
+  index: -1
+effects/fire/fire_0019
+  rotate: false
+  xy: 536, 506
+  size: 199, 301
+  orig: 336, 336
+  offset: 81, 32
+  index: -1
+effects/fire/fire_0021
+  rotate: false
+  xy: 736, 203
+  size: 199, 301
+  orig: 336, 336
+  offset: 81, 32
+  index: -1
+effects/fire/fire_0023
+  rotate: false
+  xy: 737, 506
+  size: 199, 301
+  orig: 336, 336
+  offset: 81, 32
+  index: -1
+effects/fire/fire_0025
+  rotate: true
+  xy: 736, 2
+  size: 199, 214
+  orig: 336, 336
+  offset: 81, 32
+  index: -1
+effects/fire/fire_0027
+  rotate: true
+  xy: 845, 823
+  size: 199, 173
+  orig: 336, 336
+  offset: 81, 32
+  index: -1
+effects/fire/fire_0035
+  rotate: true
+  xy: 334, 34
+  size: 49, 98
+  orig: 336, 336
+  offset: 158, 108
+  index: -1
+
+effects_30101_skillE_hurt2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/fire/fire_0003
+  rotate: true
+  xy: 2, 150
+  size: 199, 300
+  orig: 336, 336
+  offset: 81, 32
+  index: -1
+effects/fire/fire_0004
+  rotate: false
+  xy: 304, 5
+  size: 199, 300
+  orig: 336, 336
+  offset: 81, 32
+  index: -1
+effects/fire/fire_0029
+  rotate: true
+  xy: 322, 307
+  size: 196, 172
+  orig: 336, 336
+  offset: 82, 33
+  index: -1
+effects/fire/fire_0031
+  rotate: false
+  xy: 2, 352
+  size: 158, 151
+  orig: 336, 336
+  offset: 85, 54
+  index: -1
+effects/fire/fire_0033
+  rotate: false
+  xy: 162, 351
+  size: 158, 152
+  orig: 336, 336
+  offset: 83, 53
+  index: -1

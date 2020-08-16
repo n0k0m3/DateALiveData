@@ -1,0 +1,139 @@
+
+effects_10111_skillF.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cm
+  rotate: false
+  xy: 442, 487
+  size: 26, 21
+  orig: 26, 21
+  offset: 0, 0
+  index: -1
+cm2
+  rotate: false
+  xy: 368, 458
+  size: 72, 50
+  orig: 72, 50
+  offset: 0, 0
+  index: -1
+dg
+  rotate: false
+  xy: 2, 134
+  size: 163, 131
+  orig: 163, 131
+  offset: 0, 0
+  index: -1
+hdj1
+  rotate: false
+  xy: 286, 389
+  size: 80, 119
+  orig: 80, 119
+  offset: 0, 0
+  index: -1
+hdj2
+  rotate: true
+  xy: 167, 136
+  size: 28, 82
+  orig: 28, 82
+  offset: 0, 0
+  index: -1
+n1
+  rotate: false
+  xy: 368, 390
+  size: 18, 11
+  orig: 18, 11
+  offset: 0, 0
+  index: -1
+n2
+  rotate: true
+  xy: 423, 435
+  size: 21, 13
+  orig: 21, 13
+  offset: 0, 0
+  index: -1
+n3
+  rotate: false
+  xy: 167, 120
+  size: 29, 14
+  orig: 29, 14
+  offset: 0, 0
+  index: -1
+nyh1
+  rotate: false
+  xy: 286, 282
+  size: 40, 35
+  orig: 40, 35
+  offset: 0, 0
+  index: -1
+nyh2
+  rotate: false
+  xy: 368, 403
+  size: 53, 53
+  orig: 53, 53
+  offset: 0, 0
+  index: -1
+qkl
+  rotate: false
+  xy: 120, 79
+  size: 45, 53
+  orig: 45, 53
+  offset: 0, 0
+  index: -1
+qkl2
+  rotate: false
+  xy: 286, 319
+  size: 75, 68
+  orig: 75, 68
+  offset: 0, 0
+  index: -1
+qkl3
+  rotate: false
+  xy: 2, 2
+  size: 67, 53
+  orig: 67, 53
+  offset: 0, 0
+  index: -1
+r_weapon_1
+  rotate: false
+  xy: 2, 267
+  size: 282, 241
+  orig: 307, 249
+  offset: 3, 8
+  index: -1
+t1
+  rotate: false
+  xy: 71, 37
+  size: 26, 18
+  orig: 26, 18
+  offset: 0, 0
+  index: -1
+t2
+  rotate: true
+  xy: 256, 236
+  size: 29, 23
+  orig: 29, 23
+  offset: 0, 0
+  index: -1
+tq
+  rotate: false
+  xy: 120, 59
+  size: 22, 18
+  orig: 22, 18
+  offset: 0, 0
+  index: -1
+xin
+  rotate: false
+  xy: 167, 166
+  size: 87, 99
+  orig: 87, 99
+  offset: 0, 0
+  index: -1
+xin2
+  rotate: false
+  xy: 2, 57
+  size: 116, 75
+  orig: 116, 75
+  offset: 0, 0
+  index: -1

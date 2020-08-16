@@ -1,0 +1,185 @@
+{
+"skeleton": { "hash": "g41cVeXv2pl/gQ/H1W264KsiKSQ", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bdbox_eff", "parent": "root" },
+	{ "name": "effect", "parent": "root" },
+	{ "name": "dilie", "parent": "effect" },
+	{ "name": "qilangquan", "parent": "effect" },
+	{ "name": "shitou", "parent": "effect" },
+	{ "name": "yanchen", "parent": "effect" },
+	{ "name": "yanchen2", "parent": "effect" }
+],
+"slots": [
+	{ "name": "dilie", "bone": "dilie" },
+	{ "name": "qilangquan", "bone": "qilangquan", "blend": "additive" },
+	{ "name": "shitou", "bone": "shitou" },
+	{ "name": "yanchen", "bone": "yanchen" },
+	{ "name": "yanchen2", "bone": "yanchen2" },
+	{ "name": "bdbox_eff", "bone": "bdbox_eff", "attachment": "bdbox_eff" }
+],
+"skins": {
+	"default": {
+		"bdbox_eff": {
+			"bdbox_eff": {
+				"type": "boundingbox",
+				"vertices": [ -319.9484, 223.9678, -319.98743, -128.02428, 255.9661, -128.02203, 256.04706, 224.02422 ]
+			}
+		},
+		"dilie": {
+			"effect/skillF/dilie_00041": { "width": 237, "height": 83 }
+		},
+		"qilangquan": {
+			"effect/skillD/qilangquan_00028": { "width": 313, "height": 106 }
+		},
+		"shitou": {
+			"effect/skillF/shitoun/shitoun_00037": { "width": 281, "height": 179 },
+			"effect/skillF/shitoun/shitoun_00039": { "width": 281, "height": 179 },
+			"effect/skillF/shitoun/shitoun_00041": { "width": 281, "height": 179 },
+			"effect/skillF/shitoun/shitoun_00043": { "width": 281, "height": 179 },
+			"effect/skillF/shitoun/shitoun_00045": { "width": 281, "height": 179 },
+			"effect/skillF/shitoun/shitoun_00047": { "width": 281, "height": 179 }
+		},
+		"yanchen": {
+			"effect/born/yanchen/yanchen_00034": { "width": 271, "height": 140 },
+			"effect/born/yanchen/yanchen_00035": { "width": 271, "height": 140 },
+			"effect/born/yanchen/yanchen_00036": { "width": 271, "height": 140 },
+			"effect/born/yanchen/yanchen_00037": { "width": 271, "height": 140 },
+			"effect/born/yanchen/yanchen_00038": { "width": 271, "height": 140 },
+			"effect/born/yanchen/yanchen_00039": { "width": 271, "height": 140 },
+			"effect/born/yanchen/yanchen_00040": { "width": 271, "height": 140 },
+			"effect/born/yanchen/yanchen_00041": { "width": 271, "height": 140 },
+			"effect/born/yanchen/yanchen_00042": { "width": 271, "height": 140 }
+		},
+		"yanchen2": {
+			"effect/born/yanchen/yanchen_00034": { "width": 271, "height": 140 },
+			"effect/born/yanchen/yanchen_00035": { "width": 271, "height": 140 },
+			"effect/born/yanchen/yanchen_00036": { "width": 271, "height": 140 },
+			"effect/born/yanchen/yanchen_00037": { "width": 271, "height": 140 },
+			"effect/born/yanchen/yanchen_00038": { "width": 271, "height": 140 },
+			"effect/born/yanchen/yanchen_00039": { "width": 271, "height": 140 },
+			"effect/born/yanchen/yanchen_00040": { "width": 271, "height": 140 },
+			"effect/born/yanchen/yanchen_00041": { "width": 271, "height": 140 },
+			"effect/born/yanchen/yanchen_00042": { "width": 271, "height": 140 }
+		}
+	}
+},
+"events": {
+	"hurt": {}
+},
+"animations": {
+	"skillF_down": {
+		"slots": {
+			"shitou": {
+				"attachment": [
+					{ "time": 1.2333, "name": "effect/skillF/shitoun/shitoun_00037" },
+					{ "time": 1.3, "name": "effect/skillF/shitoun/shitoun_00039" },
+					{ "time": 1.3666, "name": "effect/skillF/shitoun/shitoun_00041" },
+					{ "time": 1.4333, "name": "effect/skillF/shitoun/shitoun_00043" },
+					{ "time": 1.5, "name": "effect/skillF/shitoun/shitoun_00045" },
+					{ "time": 1.5666, "name": "effect/skillF/shitoun/shitoun_00047" },
+					{ "time": 1.6333, "name": null }
+				]
+			},
+			"yanchen": {
+				"attachment": [
+					{ "time": 1.2333, "name": "effect/born/yanchen/yanchen_00034" },
+					{ "time": 1.2666, "name": "effect/born/yanchen/yanchen_00035" },
+					{ "time": 1.3, "name": "effect/born/yanchen/yanchen_00036" },
+					{ "time": 1.3333, "name": "effect/born/yanchen/yanchen_00037" },
+					{ "time": 1.3666, "name": "effect/born/yanchen/yanchen_00038" },
+					{ "time": 1.4, "name": "effect/born/yanchen/yanchen_00039" },
+					{ "time": 1.4333, "name": "effect/born/yanchen/yanchen_00040" },
+					{ "time": 1.4666, "name": "effect/born/yanchen/yanchen_00041" },
+					{ "time": 1.5, "name": "effect/born/yanchen/yanchen_00042" },
+					{ "time": 1.5333, "name": null }
+				]
+			},
+			"yanchen2": {
+				"attachment": [
+					{ "time": 1.2333, "name": "effect/born/yanchen/yanchen_00034" },
+					{ "time": 1.2666, "name": "effect/born/yanchen/yanchen_00035" },
+					{ "time": 1.3, "name": "effect/born/yanchen/yanchen_00036" },
+					{ "time": 1.3333, "name": "effect/born/yanchen/yanchen_00037" },
+					{ "time": 1.3666, "name": "effect/born/yanchen/yanchen_00038" },
+					{ "time": 1.4, "name": "effect/born/yanchen/yanchen_00039" },
+					{ "time": 1.4333, "name": "effect/born/yanchen/yanchen_00040" },
+					{ "time": 1.4666, "name": "effect/born/yanchen/yanchen_00041" },
+					{ "time": 1.5, "name": "effect/born/yanchen/yanchen_00042" },
+					{ "time": 1.5333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"shitou": {
+				"translate": [
+					{ "time": 1.2333, "x": 65.42, "y": 268.98 }
+				],
+				"scale": [
+					{ "time": 1.2333, "x": 4, "y": 4 }
+				]
+			},
+			"yanchen": {
+				"translate": [
+					{ "time": 1.2333, "x": -443.46, "y": 149.76 }
+				],
+				"scale": [
+					{ "time": 1.2333, "x": 4, "y": 5 }
+				]
+			},
+			"yanchen2": {
+				"translate": [
+					{ "time": 1.2333, "x": 463.82, "y": 143.94 }
+				],
+				"scale": [
+					{ "time": 1.2333, "x": -4, "y": 5 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 1.2333, "name": "hurt" }
+		]
+	},
+	"skillF_up": {
+		"slots": {
+			"bdbox_eff": {
+				"attachment": [
+					{ "time": 0, "name": "bdbox_eff" }
+				]
+			},
+			"dilie": {
+				"attachment": [
+					{ "time": 1.2333, "name": "effect/skillF/dilie_00041" }
+				],
+				"color": [
+					{ "time": 1.6, "color": "ffffffff" },
+					{ "time": 1.9, "color": "ffffff00" }
+				]
+			},
+			"qilangquan": {
+				"attachment": [
+					{ "time": 1.2333, "name": "effect/skillD/qilangquan_00028" }
+				],
+				"color": [
+					{ "time": 1.2666, "color": "ffffffff" },
+					{ "time": 1.5666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"dilie": {
+				"scale": [
+					{ "time": 1.2333, "x": 4, "y": 4 }
+				]
+			},
+			"qilangquan": {
+				"scale": [
+					{ "time": 1.2333, "x": 3.744, "y": 3.744 },
+					{ "time": 1.2666, "x": 5.814, "y": 5.814 },
+					{ "time": 1.5666, "x": 6.747, "y": 6.747 }
+				]
+			}
+		}
+	}
+}
+}

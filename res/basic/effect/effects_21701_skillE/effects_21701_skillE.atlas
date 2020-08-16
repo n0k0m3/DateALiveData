@@ -1,0 +1,230 @@
+
+effects_21701_skillE.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillE/baozha/baozha_00000
+  rotate: false
+  xy: 2, 742
+  size: 280, 280
+  orig: 280, 280
+  offset: 0, 0
+  index: -1
+images/effects/skillE/baozha/baozha_00001
+  rotate: false
+  xy: 2, 460
+  size: 280, 280
+  orig: 280, 280
+  offset: 0, 0
+  index: -1
+images/effects/skillE/baozha/baozha_00002
+  rotate: false
+  xy: 284, 742
+  size: 280, 280
+  orig: 280, 280
+  offset: 0, 0
+  index: -1
+images/effects/skillE/baozha/baozha_00004
+  rotate: false
+  xy: 566, 784
+  size: 259, 238
+  orig: 280, 280
+  offset: 0, 4
+  index: -1
+images/effects/skillE/baozha/baozha_00006
+  rotate: false
+  xy: 284, 502
+  size: 263, 238
+  orig: 280, 280
+  offset: 0, 0
+  index: -1
+images/effects/skillE/baozha/baozha_00008
+  rotate: false
+  xy: 2, 205
+  size: 277, 253
+  orig: 280, 280
+  offset: 3, 3
+  index: -1
+images/effects/skillE/baozha/baozha_00010
+  rotate: false
+  xy: 281, 57
+  size: 237, 226
+  orig: 280, 280
+  offset: 43, 18
+  index: -1
+images/effects/skillE/baozha/baozha_00012
+  rotate: false
+  xy: 284, 285
+  size: 239, 215
+  orig: 280, 280
+  offset: 38, 13
+  index: -1
+images/effects/skillE/baozha/baozha_00014
+  rotate: false
+  xy: 2, 11
+  size: 202, 192
+  orig: 280, 280
+  offset: 35, 18
+  index: -1
+images/effects/skillE/baozha/baozha_00015
+  rotate: true
+  xy: 206, 125
+  size: 78, 69
+  orig: 280, 280
+  offset: 70, 60
+  index: -1
+images/effects/skillE/chuxian/chuxian_00001
+  rotate: false
+  xy: 827, 862
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+images/effects/skillE/chuxian/chuxian_00002
+  rotate: false
+  xy: 827, 716
+  size: 144, 144
+  orig: 160, 160
+  offset: 8, 5
+  index: -1
+images/effects/skillE/chuxian/chuxian_00004
+  rotate: false
+  xy: 872, 209
+  size: 93, 100
+  orig: 160, 160
+  offset: 33, 27
+  index: -1
+images/effects/skillE/chuxian/chuxian_00006
+  rotate: true
+  xy: 520, 10
+  size: 94, 104
+  orig: 160, 160
+  offset: 32, 22
+  index: -1
+images/effects/skillE/chuxian/chuxian_00008
+  rotate: false
+  xy: 636, 102
+  size: 92, 101
+  orig: 160, 160
+  offset: 32, 26
+  index: -1
+images/effects/skillE/chuxian/chuxian_00010
+  rotate: false
+  xy: 937, 512
+  size: 83, 100
+  orig: 160, 160
+  offset: 33, 27
+  index: -1
+images/effects/skillE/chuxian/chuxian_00012
+  rotate: true
+  xy: 626, 11
+  size: 89, 104
+  orig: 160, 160
+  offset: 32, 22
+  index: -1
+images/effects/skillE/chuxian/chuxian_00014
+  rotate: true
+  xy: 732, 10
+  size: 95, 99
+  orig: 160, 160
+  offset: 31, 26
+  index: -1
+images/effects/skillE/chuxian/chuxian_00016
+  rotate: true
+  xy: 730, 107
+  size: 101, 100
+  orig: 160, 160
+  offset: 28, 27
+  index: -1
+images/effects/skillE/chuxian/chuxian_00018
+  rotate: false
+  xy: 653, 210
+  size: 106, 104
+  orig: 160, 160
+  offset: 26, 22
+  index: -1
+images/effects/skillE/chuxian/chuxian_00020
+  rotate: false
+  xy: 761, 211
+  size: 109, 98
+  orig: 160, 160
+  offset: 24, 27
+  index: -1
+images/effects/skillE/chuxian/chuxian_00022
+  rotate: false
+  xy: 912, 614
+  size: 110, 100
+  orig: 160, 160
+  offset: 24, 28
+  index: -1
+images/effects/skillE/chuxian/chuxian_00024
+  rotate: false
+  xy: 520, 106
+  size: 114, 97
+  orig: 160, 160
+  offset: 20, 28
+  index: -1
+images/effects/skillE/glow_00000
+  rotate: false
+  xy: 566, 577
+  size: 205, 205
+  orig: 205, 205
+  offset: 0, 0
+  index: -1
+images/effects/skillE/xunhuan/xunhuan_00000
+  rotate: true
+  xy: 693, 443
+  size: 132, 116
+  orig: 160, 160
+  offset: 16, 24
+  index: -1
+images/effects/skillE/xunhuan/xunhuan_00002
+  rotate: false
+  xy: 549, 454
+  size: 142, 121
+  orig: 160, 160
+  offset: 14, 18
+  index: -1
+images/effects/skillE/xunhuan/xunhuan_00004
+  rotate: true
+  xy: 811, 441
+  size: 140, 124
+  orig: 160, 160
+  offset: 14, 14
+  index: -1
+images/effects/skillE/xunhuan/xunhuan_00006
+  rotate: false
+  xy: 525, 325
+  size: 139, 127
+  orig: 160, 160
+  offset: 12, 11
+  index: -1
+images/effects/skillE/xunhuan/xunhuan_00008
+  rotate: false
+  xy: 773, 583
+  size: 137, 131
+  orig: 160, 160
+  offset: 11, 10
+  index: -1
+images/effects/skillE/xunhuan/xunhuan_00010
+  rotate: true
+  xy: 801, 311
+  size: 128, 132
+  orig: 160, 160
+  offset: 12, 15
+  index: -1
+images/effects/skillE/xunhuan/xunhuan_00012
+  rotate: true
+  xy: 525, 205
+  size: 118, 126
+  orig: 160, 160
+  offset: 14, 19
+  index: -1
+images/effects/skillE/xunhuan/xunhuan_00014
+  rotate: false
+  xy: 666, 316
+  size: 133, 125
+  orig: 160, 160
+  offset: 16, 18
+  index: -1

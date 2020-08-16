@@ -1,0 +1,62 @@
+
+effects_10101_skillC1.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_2/C2daoguang2/C2daoguang2_00002
+  rotate: false
+  xy: 2, 285
+  size: 148, 198
+  orig: 161, 198
+  offset: 7, 0
+  index: -1
+images/effects_2/C2daoguang2/C2daoguang2_00003
+  rotate: false
+  xy: 2, 85
+  size: 148, 198
+  orig: 161, 198
+  offset: 7, 0
+  index: -1
+images/effects_2/C2daoguang2/C2daoguang2_00004
+  rotate: false
+  xy: 152, 285
+  size: 148, 198
+  orig: 161, 198
+  offset: 7, 0
+  index: -1
+images/effects_2/feidaoguang/feidaoguang_00066
+  rotate: true
+  xy: 152, 102
+  size: 181, 116
+  orig: 189, 116
+  offset: 8, 0
+  index: -1
+images/effects_2/feidaoguang/feidaoguang_00068
+  rotate: false
+  xy: 302, 367
+  size: 181, 116
+  orig: 189, 116
+  offset: 8, 0
+  index: -1
+images/effects_2/feidaoguang/feidaoguang_00070
+  rotate: false
+  xy: 302, 249
+  size: 181, 116
+  orig: 189, 116
+  offset: 8, 0
+  index: -1
+images/effects_2/feidaoguang/feidaoguang_00072
+  rotate: false
+  xy: 270, 131
+  size: 181, 116
+  orig: 189, 116
+  offset: 8, 0
+  index: -1
+images/effects_2/feidaoguang/feidaoguang_00074
+  rotate: false
+  xy: 270, 13
+  size: 181, 116
+  orig: 189, 116
+  offset: 8, 0
+  index: -1

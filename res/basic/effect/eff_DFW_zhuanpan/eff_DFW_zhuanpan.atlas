@@ -1,0 +1,235 @@
+
+eff_DFW_zhuanpan.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guang
+  rotate: false
+  xy: 2, 237
+  size: 254, 268
+  orig: 254, 268
+  offset: 0, 0
+  index: -1
+liuguang/liuguang_00003
+  rotate: false
+  xy: 258, 242
+  size: 53, 95
+  orig: 201, 185
+  offset: 38, 26
+  index: -1
+liuguang/liuguang_00004
+  rotate: true
+  xy: 419, 363
+  size: 63, 86
+  orig: 201, 185
+  offset: 38, 25
+  index: -1
+liuguang/liuguang_00005
+  rotate: false
+  xy: 419, 428
+  size: 73, 77
+  orig: 201, 185
+  offset: 38, 24
+  index: -1
+liuguang/liuguang_00006
+  rotate: false
+  xy: 2, 6
+  size: 83, 67
+  orig: 201, 185
+  offset: 38, 24
+  index: -1
+liuguang/liuguang_00007
+  rotate: false
+  xy: 87, 16
+  size: 93, 57
+  orig: 201, 185
+  offset: 38, 24
+  index: -1
+liuguang/liuguang_00008
+  rotate: false
+  xy: 182, 26
+  size: 101, 47
+  orig: 201, 185
+  offset: 40, 24
+  index: -1
+lizi/lizi_00000
+  rotate: true
+  xy: 2, 75
+  size: 160, 167
+  orig: 179, 189
+  offset: 13, 14
+  index: -1
+lizi/lizi_00001
+  rotate: true
+  xy: 171, 75
+  size: 160, 167
+  orig: 179, 189
+  offset: 13, 15
+  index: -1
+lizi/lizi_00002
+  rotate: false
+  xy: 340, 7
+  size: 145, 165
+  orig: 179, 189
+  offset: 12, 16
+  index: -1
+lizi/lizi_00018
+  rotate: false
+  xy: 340, 174
+  size: 157, 163
+  orig: 179, 189
+  offset: 14, 13
+  index: -1
+lizi/lizi_00019
+  rotate: false
+  xy: 258, 339
+  size: 159, 166
+  orig: 179, 189
+  offset: 13, 13
+  index: -1
+
+eff_DFW_zhuanpan2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+liuguang/liuguang_00000
+  rotate: true
+  xy: 378, 2
+  size: 42, 104
+  orig: 201, 185
+  offset: 38, 48
+  index: -1
+liuguang/liuguang_00001
+  rotate: true
+  xy: 271, 2
+  size: 42, 105
+  orig: 201, 185
+  offset: 38, 37
+  index: -1
+liuguang/liuguang_00009
+  rotate: false
+  xy: 161, 3
+  size: 108, 43
+  orig: 201, 185
+  offset: 44, 24
+  index: -1
+lizi/lizi_00003
+  rotate: true
+  xy: 166, 202
+  size: 142, 163
+  orig: 179, 189
+  offset: 12, 17
+  index: -1
+lizi/lizi_00004
+  rotate: true
+  xy: 331, 196
+  size: 148, 163
+  orig: 179, 189
+  offset: 11, 17
+  index: -1
+lizi/lizi_00005
+  rotate: true
+  xy: 327, 46
+  size: 148, 159
+  orig: 179, 189
+  offset: 11, 20
+  index: -1
+lizi/lizi_00012
+  rotate: false
+  xy: 327, 346
+  size: 157, 155
+  orig: 179, 189
+  offset: 9, 18
+  index: -1
+lizi/lizi_00013
+  rotate: false
+  xy: 166, 346
+  size: 159, 155
+  orig: 179, 189
+  offset: 8, 18
+  index: -1
+lizi/lizi_00014
+  rotate: false
+  xy: 165, 48
+  size: 160, 152
+  orig: 179, 189
+  offset: 8, 18
+  index: -1
+lizi/lizi_00015
+  rotate: false
+  xy: 2, 189
+  size: 161, 154
+  orig: 179, 189
+  offset: 8, 15
+  index: -1
+lizi/lizi_00016
+  rotate: false
+  xy: 2, 345
+  size: 162, 156
+  orig: 179, 189
+  offset: 8, 14
+  index: -1
+lizi/lizi_00017
+  rotate: false
+  xy: 2, 29
+  size: 157, 158
+  orig: 179, 189
+  offset: 14, 14
+  index: -1
+
+eff_DFW_zhuanpan3.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+liuguang/liuguang_00002
+  rotate: false
+  xy: 157, 52
+  size: 42, 103
+  orig: 201, 185
+  offset: 38, 29
+  index: -1
+lizi/lizi_00006
+  rotate: true
+  xy: 314, 322
+  size: 149, 157
+  orig: 179, 189
+  offset: 11, 21
+  index: -1
+lizi/lizi_00007
+  rotate: false
+  xy: 159, 157
+  size: 149, 156
+  orig: 179, 189
+  offset: 10, 22
+  index: -1
+lizi/lizi_00008
+  rotate: false
+  xy: 160, 315
+  size: 152, 156
+  orig: 179, 189
+  offset: 10, 21
+  index: -1
+lizi/lizi_00009
+  rotate: false
+  xy: 2, 2
+  size: 153, 154
+  orig: 179, 189
+  offset: 10, 20
+  index: -1
+lizi/lizi_00010
+  rotate: false
+  xy: 2, 158
+  size: 155, 155
+  orig: 179, 189
+  offset: 9, 19
+  index: -1
+lizi/lizi_00011
+  rotate: false
+  xy: 2, 315
+  size: 156, 156
+  orig: 179, 189
+  offset: 9, 18
+  index: -1

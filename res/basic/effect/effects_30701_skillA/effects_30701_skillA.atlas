@@ -1,0 +1,251 @@
+
+effects_30701_skillA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/eff/skillA/add/bao_00000
+  rotate: false
+  xy: 142, 376
+  size: 109, 149
+  orig: 182, 187
+  offset: 13, 38
+  index: -1
+images/eff/skillA/add/bao_00001
+  rotate: false
+  xy: 699, 843
+  size: 171, 160
+  orig: 182, 187
+  offset: 5, 11
+  index: -1
+images/eff/skillA/add/bao_00002
+  rotate: false
+  xy: 2, 142
+  size: 138, 164
+  orig: 182, 187
+  offset: 44, 9
+  index: -1
+images/eff/skillA/add/bao_00003
+  rotate: false
+  xy: 2, 5
+  size: 136, 135
+  orig: 182, 187
+  offset: 26, 20
+  index: -1
+images/eff/skillA/add/bao_00004
+  rotate: false
+  xy: 142, 255
+  size: 108, 119
+  orig: 182, 187
+  offset: 38, 27
+  index: -1
+images/eff/skillA/add/bao_00005
+  rotate: false
+  xy: 142, 137
+  size: 92, 116
+  orig: 182, 187
+  offset: 44, 28
+  index: -1
+images/eff/skillA/add/bao_00006
+  rotate: false
+  xy: 172, 636
+  size: 85, 102
+  orig: 182, 187
+  offset: 50, 41
+  index: -1
+images/eff/skillA/add/bao_00007
+  rotate: false
+  xy: 253, 345
+  size: 73, 73
+  orig: 182, 187
+  offset: 52, 57
+  index: -1
+images/eff/skillA/add/shan_00011
+  rotate: false
+  xy: 524, 707
+  size: 112, 59
+  orig: 123, 72
+  offset: 4, 7
+  index: -1
+images/eff/skillA/add/shou_00011
+  rotate: false
+  xy: 252, 296
+  size: 65, 47
+  orig: 120, 95
+  offset: 15, 23
+  index: -1
+images/eff/skillA/add/shou_00012
+  rotate: true
+  xy: 255, 522
+  size: 94, 65
+  orig: 120, 95
+  offset: 12, 14
+  index: -1
+images/eff/skillA/add/shou_00013
+  rotate: true
+  xy: 253, 420
+  size: 100, 73
+  orig: 120, 95
+  offset: 11, 9
+  index: -1
+images/eff/skillA/add/shou_00014
+  rotate: false
+  xy: 301, 648
+  size: 95, 80
+  orig: 120, 95
+  offset: 16, 6
+  index: -1
+images/eff/skillA/add/shou_00015
+  rotate: true
+  xy: 322, 551
+  size: 95, 76
+  orig: 120, 95
+  offset: 14, 11
+  index: -1
+images/eff/skillA/add/shou_00016
+  rotate: false
+  xy: 398, 655
+  size: 36, 73
+  orig: 120, 95
+  offset: 30, 15
+  index: -1
+images/eff/skillA/nor/bao_00000
+  rotate: false
+  xy: 140, 17
+  size: 79, 118
+  orig: 238, 279
+  offset: 81, 77
+  index: -1
+images/eff/skillA/nor/bao_00001
+  rotate: false
+  xy: 2, 308
+  size: 138, 217
+  orig: 238, 279
+  offset: 58, 29
+  index: -1
+images/eff/skillA/nor/bao_00002
+  rotate: false
+  xy: 2, 756
+  size: 171, 247
+  orig: 238, 279
+  offset: 40, 12
+  index: -1
+images/eff/skillA/nor/bao_00003
+  rotate: false
+  xy: 175, 777
+  size: 183, 226
+  orig: 238, 279
+  offset: 24, 23
+  index: -1
+images/eff/skillA/nor/bao_00004
+  rotate: false
+  xy: 360, 777
+  size: 164, 226
+  orig: 238, 279
+  offset: 34, 28
+  index: -1
+images/eff/skillA/nor/bao_00005
+  rotate: false
+  xy: 2, 527
+  size: 168, 227
+  orig: 238, 279
+  offset: 29, 28
+  index: -1
+images/eff/skillA/nor/bao_00006
+  rotate: false
+  xy: 526, 804
+  size: 171, 199
+  orig: 238, 279
+  offset: 28, 56
+  index: -1
+images/eff/skillA/nor/bao_00007
+  rotate: true
+  xy: 872, 834
+  size: 169, 131
+  orig: 238, 279
+  offset: 28, 96
+  index: -1
+images/eff/skillA/nor/bao_00008
+  rotate: true
+  xy: 172, 529
+  size: 105, 81
+  orig: 238, 279
+  offset: 30, 102
+  index: -1
+images/eff/skillA/nor/bao_00009
+  rotate: false
+  xy: 437, 704
+  size: 85, 71
+  orig: 238, 279
+  offset: 51, 104
+  index: -1
+images/eff/skillA/nor/wuqi_00028
+  rotate: false
+  xy: 310, 730
+  size: 125, 45
+  orig: 141, 59
+  offset: 8, 5
+  index: -1
+images/eff/skillA/nor/yanwu_00041
+  rotate: true
+  xy: 236, 138
+  size: 115, 35
+  orig: 175, 48
+  offset: 28, 6
+  index: -1
+images/eff/skillA/nor/yanwu_00042
+  rotate: true
+  xy: 221, 17
+  size: 118, 38
+  orig: 175, 48
+  offset: 26, 5
+  index: -1
+images/eff/skillA/nor/yanwu_00043
+  rotate: true
+  xy: 259, 618
+  size: 120, 40
+  orig: 175, 48
+  offset: 26, 4
+  index: -1
+images/eff/skillA/nor/yanwu_00044
+  rotate: false
+  xy: 858, 794
+  size: 120, 38
+  orig: 175, 48
+  offset: 27, 4
+  index: -1
+images/eff/skillA/nor/yanwu_00045
+  rotate: false
+  xy: 175, 740
+  size: 133, 35
+  orig: 175, 48
+  offset: 21, 4
+  index: -1
+images/eff/skillA/nor/yanwu_00046
+  rotate: false
+  xy: 526, 768
+  size: 144, 34
+  orig: 175, 48
+  offset: 13, 5
+  index: -1
+images/eff/skillA/nor/yanwu_00047
+  rotate: false
+  xy: 699, 809
+  size: 157, 32
+  orig: 175, 48
+  offset: 9, 6
+  index: -1
+images/eff/skillA/nor/yanwu_00048
+  rotate: false
+  xy: 436, 676
+  size: 80, 26
+  orig: 175, 48
+  offset: 91, 6
+  index: -1
+images/eff/skillA/nor/yanwu_00049
+  rotate: false
+  xy: 322, 528
+  size: 78, 21
+  orig: 175, 48
+  offset: 96, 8
+  index: -1

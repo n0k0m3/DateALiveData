@@ -1,0 +1,349 @@
+
+effects_12201_skillG.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effetc/skillG/15golw
+  rotate: false
+  xy: 200, 637
+  size: 175, 187
+  orig: 224, 224
+  offset: 24, 20
+  index: -1
+images/effetc/skillG/2glow_00000
+  rotate: false
+  xy: 492, 411
+  size: 95, 100
+  orig: 126, 126
+  offset: 16, 15
+  index: -1
+images/effetc/skillG/3xian_00000
+  rotate: true
+  xy: 154, 234
+  size: 197, 78
+  orig: 210, 105
+  offset: 6, 13
+  index: -1
+images/effetc/skillG/4nor_00001
+  rotate: true
+  xy: 729, 472
+  size: 74, 73
+  orig: 84, 84
+  offset: 5, 7
+  index: -1
+images/effetc/skillG/baodian/baodian_add100000
+  rotate: false
+  xy: 552, 15
+  size: 54, 54
+  orig: 196, 196
+  offset: 74, 78
+  index: -1
+images/effetc/skillG/baodian/baodian_add100001
+  rotate: false
+  xy: 234, 181
+  size: 140, 140
+  orig: 196, 196
+  offset: 31, 34
+  index: -1
+images/effetc/skillG/baodian/baodian_add100002
+  rotate: false
+  xy: 398, 856
+  size: 170, 166
+  orig: 196, 196
+  offset: 12, 20
+  index: -1
+images/effetc/skillG/baodian/baodian_add100004
+  rotate: false
+  xy: 2, 826
+  size: 196, 196
+  orig: 196, 196
+  offset: 0, 0
+  index: -1
+images/effetc/skillG/baodian/baodian_add100006
+  rotate: false
+  xy: 2, 628
+  size: 196, 196
+  orig: 196, 196
+  offset: 0, 0
+  index: -1
+images/effetc/skillG/baodian/baodian_add100008
+  rotate: false
+  xy: 200, 826
+  size: 196, 196
+  orig: 196, 196
+  offset: 0, 0
+  index: -1
+images/effetc/skillG/baodian/baodian_add100010
+  rotate: false
+  xy: 2, 433
+  size: 196, 193
+  orig: 196, 196
+  offset: 0, 3
+  index: -1
+images/effetc/skillG/baodian/baodian_add100012
+  rotate: false
+  xy: 233, 71
+  size: 142, 108
+  orig: 196, 196
+  offset: 38, 44
+  index: -1
+images/effetc/skillG/baodian/baodian_add100014
+  rotate: true
+  xy: 147, 93
+  size: 139, 84
+  orig: 196, 196
+  offset: 40, 56
+  index: -1
+images/effetc/skillG/baodian/baodian_add_200001
+  rotate: true
+  xy: 2, 6
+  size: 101, 127
+  orig: 196, 196
+  offset: 45, 33
+  index: -1
+images/effetc/skillG/baodian/baodian_add_200003
+  rotate: false
+  xy: 524, 580
+  size: 117, 141
+  orig: 196, 196
+  offset: 37, 26
+  index: -1
+images/effetc/skillG/baodian/baodian_add_200005
+  rotate: false
+  xy: 713, 869
+  size: 134, 153
+  orig: 196, 196
+  offset: 30, 21
+  index: -1
+images/effetc/skillG/baodian/baodian_add_200007
+  rotate: false
+  xy: 849, 869
+  size: 134, 153
+  orig: 196, 196
+  offset: 30, 21
+  index: -1
+images/effetc/skillG/baodian/baodian_add_200008
+  rotate: false
+  xy: 570, 863
+  size: 141, 159
+  orig: 196, 196
+  offset: 23, 15
+  index: -1
+images/effetc/skillG/baodian/baodian_nor_00001
+  rotate: true
+  xy: 377, 61
+  size: 130, 138
+  orig: 196, 196
+  offset: 35, 23
+  index: -1
+images/effetc/skillG/baodian/baodian_nor_00003
+  rotate: false
+  xy: 376, 193
+  size: 133, 144
+  orig: 196, 196
+  offset: 32, 23
+  index: -1
+images/effetc/skillG/baodian/baodian_nor_00005
+  rotate: false
+  xy: 2, 109
+  size: 143, 157
+  orig: 196, 196
+  offset: 27, 17
+  index: -1
+images/effetc/skillG/baodian/baodian_nor_00007
+  rotate: false
+  xy: 200, 472
+  size: 149, 163
+  orig: 196, 196
+  offset: 24, 11
+  index: -1
+images/effetc/skillG/baodian/baodian_nor_00008
+  rotate: false
+  xy: 2, 268
+  size: 150, 163
+  orig: 196, 196
+  offset: 23, 11
+  index: -1
+images/effetc/skillG/buff/buff_00000
+  rotate: true
+  xy: 131, 37
+  size: 54, 100
+  orig: 70, 105
+  offset: 6, 0
+  index: -1
+images/effetc/skillG/buff/buff_00002
+  rotate: true
+  xy: 233, 13
+  size: 56, 105
+  orig: 70, 105
+  offset: 4, 0
+  index: -1
+images/effetc/skillG/buff/buff_00004
+  rotate: true
+  xy: 643, 548
+  size: 56, 105
+  orig: 70, 105
+  offset: 4, 0
+  index: -1
+images/effetc/skillG/buff/buff_00006
+  rotate: false
+  xy: 517, 128
+  size: 56, 102
+  orig: 70, 105
+  offset: 4, 0
+  index: -1
+images/effetc/skillG/buff/buff_00008
+  rotate: true
+  xy: 646, 416
+  size: 50, 96
+  orig: 70, 105
+  offset: 10, 4
+  index: -1
+images/effetc/skillG/buff/buff_00010
+  rotate: true
+  xy: 340, 2
+  size: 57, 104
+  orig: 70, 105
+  offset: 4, 0
+  index: -1
+images/effetc/skillG/buff/buff_00012
+  rotate: true
+  xy: 446, 2
+  size: 57, 104
+  orig: 70, 105
+  offset: 4, 0
+  index: -1
+images/effetc/skillG/buff/buff_00014
+  rotate: true
+  xy: 517, 71
+  size: 55, 94
+  orig: 70, 105
+  offset: 4, 5
+  index: -1
+images/effetc/skillG/buff/buff_00016
+  rotate: false
+  xy: 589, 418
+  size: 55, 102
+  orig: 70, 105
+  offset: 4, 3
+  index: -1
+images/effetc/skillG/buff/buff_00018
+  rotate: false
+  xy: 511, 232
+  size: 56, 105
+  orig: 70, 105
+  offset: 4, 0
+  index: -1
+images/effetc/skillG/buff/buff_an_00000
+  rotate: true
+  xy: 477, 513
+  size: 65, 102
+  orig: 70, 105
+  offset: 3, 3
+  index: -1
+images/effetc/skillG/daoguang/daoguang_00000
+  rotate: false
+  xy: 646, 468
+  size: 81, 78
+  orig: 147, 147
+  offset: 27, 38
+  index: -1
+images/effetc/skillG/daoguang/daoguang_00001
+  rotate: false
+  xy: 377, 586
+  size: 145, 135
+  orig: 147, 147
+  offset: 1, 1
+  index: -1
+images/effetc/skillG/daoguang/daoguang_00002
+  rotate: true
+  xy: 234, 323
+  size: 147, 132
+  orig: 147, 147
+  offset: 0, 0
+  index: -1
+images/effetc/skillG/daoguang/daoguang_00003
+  rotate: false
+  xy: 398, 723
+  size: 147, 131
+  orig: 147, 147
+  offset: 0, 0
+  index: -1
+images/effetc/skillG/daoguang/daoguang_00004
+  rotate: true
+  xy: 368, 339
+  size: 145, 122
+  orig: 147, 147
+  offset: 2, 0
+  index: -1
+images/effetc/skillG/daoguang/daoguang_00005
+  rotate: false
+  xy: 570, 742
+  size: 139, 119
+  orig: 147, 147
+  offset: 8, 0
+  index: -1
+images/effetc/skillG/daoguang/daoguang_00006
+  rotate: true
+  xy: 643, 606
+  size: 134, 117
+  orig: 147, 147
+  offset: 13, 0
+  index: -1
+images/effetc/skillG/daoguang/daoguang_00007
+  rotate: false
+  xy: 351, 486
+  size: 124, 98
+  orig: 147, 147
+  offset: 20, 0
+  index: -1
+images/effetc/skillG/shou/shou_00000
+  rotate: false
+  xy: 581, 522
+  size: 55, 56
+  orig: 70, 70
+  offset: 9, 9
+  index: -1
+images/effetc/skillG/shou/shou_00001
+  rotate: false
+  xy: 744, 401
+  size: 69, 69
+  orig: 70, 70
+  offset: 1, 1
+  index: -1
+images/effetc/skillG/shou/shou_00003
+  rotate: false
+  xy: 492, 339
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+images/effetc/skillG/shou/shou_00005
+  rotate: true
+  xy: 569, 267
+  size: 45, 40
+  orig: 70, 70
+  offset: 14, 18
+  index: -1
+images/effetc/skillG/shou/shou_00007
+  rotate: true
+  xy: 564, 362
+  size: 47, 42
+  orig: 70, 70
+  offset: 13, 17
+  index: -1
+images/effetc/skillG/shou/shou_00009
+  rotate: true
+  xy: 569, 314
+  size: 46, 39
+  orig: 70, 70
+  offset: 14, 20
+  index: -1
+images/effetc/skillG/shou/shou_00011
+  rotate: false
+  xy: 131, 2
+  size: 46, 33
+  orig: 70, 70
+  offset: 14, 24
+  index: -1

@@ -1,0 +1,244 @@
+
+effects_10401_skillC_1.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillc_1/fenshen/fenshendiguan
+  rotate: true
+  xy: 28, 97
+  size: 30, 9
+  orig: 30, 9
+  offset: 0, 0
+  index: -1
+images/effects/skillc_1/fenshen/fenshenhouyan0001
+  rotate: false
+  xy: 173, 232
+  size: 25, 22
+  orig: 30, 25
+  offset: 2, 1
+  index: -1
+images/effects/skillc_1/fenshen/fenshenhouyan0002
+  rotate: true
+  xy: 66, 165
+  size: 25, 19
+  orig: 30, 25
+  offset: 2, 2
+  index: -1
+images/effects/skillc_1/fenshen/fenshenhouyan0003
+  rotate: false
+  xy: 145, 232
+  size: 26, 22
+  orig: 30, 25
+  offset: 2, 1
+  index: -1
+images/effects/skillc_1/fenshen/fenshenhouyan0004
+  rotate: false
+  xy: 39, 88
+  size: 24, 20
+  orig: 30, 25
+  offset: 3, 2
+  index: -1
+images/effects/skillc_1/fenshen/fenshenhouyan0005
+  rotate: true
+  xy: 2, 19
+  size: 25, 21
+  orig: 30, 25
+  offset: 2, 1
+  index: -1
+images/effects/skillc_1/fenshen/fenshenhouyan0006
+  rotate: true
+  xy: 2, 46
+  size: 27, 21
+  orig: 30, 25
+  offset: 1, 1
+  index: -1
+images/effects/skillc_1/fenshen/fenshenhouyan0007
+  rotate: true
+  xy: 87, 172
+  size: 25, 21
+  orig: 30, 25
+  offset: 2, 2
+  index: -1
+images/effects/skillc_1/fenshen/fenshenhouyan0008
+  rotate: false
+  xy: 127, 208
+  size: 24, 22
+  orig: 30, 25
+  offset: 3, 1
+  index: -1
+images/effects/skillc_1/fenshen/fenshenhouyan0009
+  rotate: false
+  xy: 77, 199
+  size: 26, 23
+  orig: 30, 25
+  offset: 2, 0
+  index: -1
+images/effects/skillc_1/fenshen/fenshenhouyan0010
+  rotate: false
+  xy: 116, 232
+  size: 27, 22
+  orig: 30, 25
+  offset: 2, 1
+  index: -1
+images/effects/skillc_1/fenshen/fenshenhouyan0011
+  rotate: false
+  xy: 200, 232
+  size: 25, 22
+  orig: 30, 25
+  offset: 2, 1
+  index: -1
+images/effects/skillc_1/fenshen/fenshenlizi0001
+  rotate: true
+  xy: 133, 182
+  size: 24, 19
+  orig: 30, 30
+  offset: 2, 4
+  index: -1
+images/effects/skillc_1/fenshen/fenshenlizi0002
+  rotate: false
+  xy: 153, 209
+  size: 24, 21
+  orig: 30, 30
+  offset: 2, 2
+  index: -1
+images/effects/skillc_1/fenshen/fenshenlizi0003
+  rotate: false
+  xy: 227, 232
+  size: 25, 22
+  orig: 30, 30
+  offset: 2, 1
+  index: -1
+images/effects/skillc_1/fenshen/fenshenlizi0004
+  rotate: true
+  xy: 105, 199
+  size: 23, 20
+  orig: 30, 30
+  offset: 3, 4
+  index: -1
+images/effects/skillc_1/fenshen/fenshenlizi0005
+  rotate: false
+  xy: 231, 209
+  size: 23, 21
+  orig: 30, 30
+  offset: 3, 4
+  index: -1
+images/effects/skillc_1/fenshen/fenshenlizi0006
+  rotate: false
+  xy: 2, 102
+  size: 24, 25
+  orig: 30, 30
+  offset: 3, 1
+  index: -1
+images/effects/skillc_1/fenshen/fenshenlizi0007
+  rotate: false
+  xy: 39, 164
+  size: 25, 26
+  orig: 30, 30
+  offset: 2, 1
+  index: -1
+images/effects/skillc_1/fenshen/fenshenlizi0008
+  rotate: false
+  xy: 39, 137
+  size: 24, 25
+  orig: 30, 30
+  offset: 3, 2
+  index: -1
+images/effects/skillc_1/fenshen/fenshenlizi0009
+  rotate: false
+  xy: 2, 75
+  size: 24, 25
+  orig: 30, 30
+  offset: 3, 2
+  index: -1
+images/effects/skillc_1/fenshen/fenshenlizi0010
+  rotate: false
+  xy: 179, 209
+  size: 24, 21
+  orig: 30, 30
+  offset: 3, 3
+  index: -1
+images/effects/skillc_1/fenshen/fenshenlizi0011
+  rotate: false
+  xy: 205, 209
+  size: 24, 21
+  orig: 30, 30
+  offset: 3, 2
+  index: -1
+images/effects/skillc_1/fenshen/fenshenlizi0012
+  rotate: false
+  xy: 177, 188
+  size: 21, 19
+  orig: 30, 30
+  offset: 6, 4
+  index: -1
+images/effects/skillc_1/fenshen/fenshenlizi0013
+  rotate: false
+  xy: 154, 184
+  size: 21, 23
+  orig: 30, 30
+  offset: 6, 0
+  index: -1
+images/effects/skillc_1/fenshen/fenshenlizi0014
+  rotate: true
+  xy: 39, 110
+  size: 25, 22
+  orig: 30, 30
+  offset: 2, 1
+  index: -1
+images/effects/skillc_1/fenshen/fenshenlizi0015
+  rotate: true
+  xy: 110, 172
+  size: 25, 21
+  orig: 30, 30
+  offset: 2, 1
+  index: -1
+images/effects/skillc_1/fenshen/fenshenqianguan0001
+  rotate: false
+  xy: 2, 160
+  size: 35, 30
+  orig: 40, 30
+  offset: 4, 0
+  index: -1
+images/effects/skillc_1/fenshen/fenshenqianguan0002
+  rotate: false
+  xy: 40, 192
+  size: 35, 30
+  orig: 40, 30
+  offset: 4, 0
+  index: -1
+images/effects/skillc_1/fenshen/fenshenqianguan0003
+  rotate: false
+  xy: 2, 192
+  size: 36, 30
+  orig: 40, 30
+  offset: 3, 0
+  index: -1
+images/effects/skillc_1/fenshen/fenshenqianguan0004
+  rotate: false
+  xy: 2, 224
+  size: 37, 30
+  orig: 40, 30
+  offset: 2, 0
+  index: -1
+images/effects/skillc_1/fenshen/fenshenqianguan0005
+  rotate: false
+  xy: 79, 224
+  size: 35, 30
+  orig: 40, 30
+  offset: 2, 0
+  index: -1
+images/effects/skillc_1/fenshen/fenshenqianguan0006
+  rotate: false
+  xy: 2, 129
+  size: 35, 29
+  orig: 40, 30
+  offset: 3, 0
+  index: -1
+images/effects/skillc_1/fenshen/fenshenqianguan0007
+  rotate: false
+  xy: 41, 224
+  size: 36, 30
+  orig: 40, 30
+  offset: 3, 0
+  index: -1

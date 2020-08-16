@@ -1,0 +1,27 @@
+
+effects_ui3.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: false
+  xy: 2, 20
+  size: 106, 26
+  orig: 109, 32
+  offset: 1, 4
+  index: -1
+bian_00000
+  rotate: false
+  xy: 2, 78
+  size: 156, 80
+  orig: 200, 100
+  offset: 21, 11
+  index: -1
+qianghua_00000
+  rotate: false
+  xy: 2, 48
+  size: 108, 28
+  orig: 150, 50
+  offset: 21, 10
+  index: -1

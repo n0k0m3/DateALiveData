@@ -1,0 +1,40 @@
+
+map_huohua_07.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sucai/huohua/huohua_00010
+  rotate: false
+  xy: 2, 62
+  size: 99, 60
+  orig: 99, 60
+  offset: 0, 0
+  index: -1
+sucai/huohua/huohua_00011
+  rotate: false
+  xy: 2, 10
+  size: 75, 50
+  orig: 75, 50
+  offset: 0, 0
+  index: -1
+sucai/lvliang_00000
+  rotate: false
+  xy: 79, 15
+  size: 43, 45
+  orig: 43, 45
+  offset: 0, 0
+  index: -1
+
+map_huohua_072.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sucai/huohua/huohua_00009
+  rotate: false
+  xy: 2, 22
+  size: 66, 46
+  orig: 66, 46
+  offset: 0, 0
+  index: -1

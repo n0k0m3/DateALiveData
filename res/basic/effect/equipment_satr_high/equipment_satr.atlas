@@ -1,0 +1,160 @@
+
+equipment_satr.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/1xing
+  rotate: false
+  xy: 2, 81
+  size: 48, 43
+  orig: 48, 43
+  offset: 0, 0
+  index: -1
+images/6xing
+  rotate: false
+  xy: 711, 925
+  size: 79, 74
+  orig: 79, 74
+  offset: 0, 0
+  index: -1
+images/daxingxing
+  rotate: false
+  xy: 2, 365
+  size: 707, 634
+  orig: 707, 635
+  offset: 0, 1
+  index: -1
+images/glow
+  rotate: false
+  xy: 2, 126
+  size: 239, 237
+  orig: 256, 256
+  offset: 9, 4
+  index: -1
+images/lizi/1
+  rotate: false
+  xy: 324, 340
+  size: 24, 23
+  orig: 24, 23
+  offset: 0, 0
+  index: -1
+images/lizi/10
+  rotate: false
+  xy: 2, 45
+  size: 43, 34
+  orig: 43, 34
+  offset: 0, 0
+  index: -1
+images/lizi/11
+  rotate: false
+  xy: 52, 87
+  size: 38, 37
+  orig: 38, 37
+  offset: 0, 0
+  index: -1
+images/lizi/12
+  rotate: false
+  xy: 92, 101
+  size: 26, 23
+  orig: 26, 23
+  offset: 0, 0
+  index: -1
+images/lizi/13
+  rotate: false
+  xy: 243, 264
+  size: 27, 22
+  orig: 27, 22
+  offset: 0, 0
+  index: -1
+images/lizi/15
+  rotate: false
+  xy: 755, 894
+  size: 26, 29
+  orig: 26, 29
+  offset: 0, 0
+  index: -1
+images/lizi/16
+  rotate: false
+  xy: 2, 2
+  size: 20, 18
+  orig: 20, 18
+  offset: 0, 0
+  index: -1
+images/lizi/17
+  rotate: false
+  xy: 243, 321
+  size: 44, 42
+  orig: 44, 42
+  offset: 0, 0
+  index: -1
+images/lizi/18
+  rotate: false
+  xy: 711, 881
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+images/lizi/19
+  rotate: false
+  xy: 792, 957
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+images/lizi/2
+  rotate: false
+  xy: 862, 982
+  size: 22, 17
+  orig: 22, 17
+  offset: 0, 0
+  index: -1
+images/lizi/3
+  rotate: false
+  xy: 2, 22
+  size: 28, 21
+  orig: 28, 21
+  offset: 0, 0
+  index: -1
+images/lizi/4
+  rotate: false
+  xy: 792, 936
+  size: 33, 19
+  orig: 33, 19
+  offset: 0, 0
+  index: -1
+images/lizi/5
+  rotate: false
+  xy: 711, 827
+  size: 23, 22
+  orig: 23, 22
+  offset: 0, 0
+  index: -1
+images/lizi/6
+  rotate: false
+  xy: 836, 972
+  size: 24, 27
+  orig: 24, 27
+  offset: 0, 0
+  index: -1
+images/lizi/7
+  rotate: false
+  xy: 289, 333
+  size: 33, 30
+  orig: 33, 30
+  offset: 0, 0
+  index: -1
+images/lizi/8
+  rotate: false
+  xy: 711, 851
+  size: 29, 28
+  orig: 29, 28
+  offset: 0, 0
+  index: -1
+images/lizi/9
+  rotate: false
+  xy: 243, 288
+  size: 34, 31
+  orig: 34, 31
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,26 @@
+
+6gongyuan.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+yuangguang_00000
+  rotate: false
+  xy: 2, 102
+  size: 240, 140
+  orig: 240, 140
+  offset: 0, 0
+  index: -1
+
+6gongyuan2.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow_00050
+  rotate: false
+  xy: 2, 59
+  size: 186, 129
+  orig: 186, 129
+  offset: 0, 0
+  index: -1

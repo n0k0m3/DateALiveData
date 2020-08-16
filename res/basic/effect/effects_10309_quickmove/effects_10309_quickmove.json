@@ -1,0 +1,214 @@
+{
+"skeleton": { "hash": "awTsv5vsnTS182jMtuj42hUt4ms", "spine": "2.1.27", "width": 0, "height": 0, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "effect", "parent": "root" },
+	{ "name": "bone", "parent": "effect" },
+	{ "name": "bone3", "parent": "effect" },
+	{ "name": "renwu", "parent": "effect" },
+	{ "name": "renwu2", "parent": "effect" },
+	{ "name": "renwu3", "parent": "effect" },
+	{ "name": "bone2", "parent": "renwu" },
+	{ "name": "bone4", "parent": "renwu" },
+	{ "name": "bone5", "parent": "renwu2" },
+	{ "name": "bone6", "parent": "renwu2" },
+	{ "name": "bone7", "parent": "renwu3" },
+	{ "name": "bone8", "parent": "renwu3" }
+],
+"slots": [
+	{ "name": "images/effect/dodge/shan/shan_00003", "bone": "bone", "blend": "additive" },
+	{ "name": "images/effect/dodge/bian_00000", "bone": "bone2", "blend": "additive" },
+	{ "name": "images/effect/dodge/bian_0", "bone": "bone5" },
+	{ "name": "images/effect/dodge/bian_1", "bone": "bone7", "blend": "additive" },
+	{ "name": "images/effect/dodge/bian_01_00003", "bone": "bone3", "blend": "additive" },
+	{ "name": "images/effect/dodge/ren_00000", "bone": "bone4", "blend": "additive" },
+	{ "name": "images/effect/dodge/ren_0", "bone": "bone6" },
+	{ "name": "images/effect/dodge/ren_1", "bone": "bone8" }
+],
+"skins": {
+	"default": {
+		"images/effect/dodge/bian_0": {
+			"images/effect/dodge/bian_00000": { "width": 232, "height": 248 }
+		},
+		"images/effect/dodge/bian_00000": {
+			"images/effect/dodge/bian_00000": { "width": 232, "height": 248 }
+		},
+		"images/effect/dodge/bian_01_00003": {
+			"images/effect/dodge/bian_01_00003": { "width": 213, "height": 206 }
+		},
+		"images/effect/dodge/bian_1": {
+			"images/effect/dodge/bian_00000": { "width": 232, "height": 248 }
+		},
+		"images/effect/dodge/ren_0": {
+			"images/effect/dodge/ren_00000": { "width": 232, "height": 248 }
+		},
+		"images/effect/dodge/ren_00000": {
+			"images/effect/dodge/ren_00000": { "width": 232, "height": 248 }
+		},
+		"images/effect/dodge/ren_1": {
+			"images/effect/dodge/ren_00000": { "width": 232, "height": 248 }
+		},
+		"images/effect/dodge/shan/shan_00003": {
+			"images/effect/dodge/shan/shan_00003": { "width": 381, "height": 131 },
+			"images/effect/dodge/shan/shan_00005": { "width": 381, "height": 131 },
+			"images/effect/dodge/shan/shan_00007": { "width": 381, "height": 131 },
+			"images/effect/dodge/shan/shan_00009": { "width": 381, "height": 131 },
+			"images/effect/dodge/shan/shan_00011": { "width": 381, "height": 131 },
+			"images/effect/dodge/shan/shan_00013": { "width": 381, "height": 131 },
+			"images/effect/dodge/shan/shan_00015": { "width": 381, "height": 131 }
+		}
+	}
+},
+"animations": {
+	"quickmove": {
+		"slots": {
+			"images/effect/dodge/bian_00000": {
+				"attachment": [
+					{ "time": 0, "name": "images/effect/dodge/bian_00000" }
+				],
+				"color": [
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.3, "color": "ffffff00" }
+				]
+			},
+			"images/effect/dodge/bian_0": {
+				"attachment": [
+					{ "time": 0, "name": "images/effect/dodge/bian_00000" }
+				],
+				"color": [
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.2666, "color": "ffffff00" }
+				]
+			},
+			"images/effect/dodge/bian_1": {
+				"attachment": [
+					{ "time": 0, "name": "images/effect/dodge/bian_00000" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.1666, "color": "ffffff00" }
+				]
+			},
+			"images/effect/dodge/bian_01_00003": {
+				"attachment": [
+					{ "time": 0, "name": "images/effect/dodge/bian_01_00003" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.1666, "color": "ffffff00" }
+				]
+			},
+			"images/effect/dodge/ren_00000": {
+				"attachment": [
+					{ "time": 0, "name": "images/effect/dodge/ren_00000" }
+				],
+				"color": [
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.3, "color": "ffffff00" }
+				]
+			},
+			"images/effect/dodge/ren_0": {
+				"attachment": [
+					{ "time": 0, "name": "images/effect/dodge/ren_00000" }
+				],
+				"color": [
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.2666, "color": "ffffff00" }
+				]
+			},
+			"images/effect/dodge/ren_1": {
+				"attachment": [
+					{ "time": 0, "name": "images/effect/dodge/ren_00000" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.1666, "color": "ffffff00" }
+				]
+			},
+			"images/effect/dodge/shan/shan_00003": {
+				"attachment": [
+					{ "time": 0, "name": "images/effect/dodge/shan/shan_00003" },
+					{ "time": 0.0333, "name": "images/effect/dodge/shan/shan_00005" },
+					{ "time": 0.0666, "name": "images/effect/dodge/shan/shan_00007" },
+					{ "time": 0.1, "name": "images/effect/dodge/shan/shan_00009" },
+					{ "time": 0.1666, "name": "images/effect/dodge/shan/shan_00011" },
+					{ "time": 0.2333, "name": "images/effect/dodge/shan/shan_00013" },
+					{ "time": 0.3, "name": "images/effect/dodge/shan/shan_00015" },
+					{ "time": 0.4, "name": null }
+				],
+				"color": [
+					{ "time": 0.2333, "color": "ffffffff" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"translate": [
+					{ "time": 0, "x": -378.71, "y": 186.72 }
+				],
+				"scale": [
+					{ "time": 0, "x": 3.136, "y": 3.933 }
+				]
+			},
+			"bone3": {
+				"translate": [
+					{ "time": 0, "x": -11.12, "y": 173.47 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.7, "y": 1.7 }
+				]
+			},
+			"renwu": {
+				"translate": [
+					{ "time": 0, "x": -108.97, "y": 170.13 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.7, "y": 1.7 }
+				]
+			},
+			"bone5": {
+				"scale": [
+					{ "time": 0, "x": 1.7, "y": 1.7 }
+				]
+			},
+			"bone6": {
+				"scale": [
+					{ "time": 0, "x": 1.7, "y": 1.7 }
+				]
+			},
+			"renwu2": {
+				"translate": [
+					{ "time": 0, "x": -310.24, "y": 169.02 }
+				]
+			},
+			"bone7": {
+				"scale": [
+					{ "time": 0, "x": 1.7, "y": 1.7 }
+				]
+			},
+			"bone8": {
+				"scale": [
+					{ "time": 0, "x": 1.7, "y": 1.7 }
+				]
+			},
+			"renwu3": {
+				"translate": [
+					{ "time": 0, "x": -544.87, "y": 167.91 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "images/effect/dodge/shan/shan_00003", "offset": 7 },
+					{ "slot": "images/effect/dodge/bian_00000", "offset": 5 },
+					{ "slot": "images/effect/dodge/bian_0", "offset": 2 },
+					{ "slot": "images/effect/dodge/bian_1", "offset": 2 }
+				]
+			}
+		]
+	}
+}
+}

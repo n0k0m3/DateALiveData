@@ -1,0 +1,250 @@
+
+effects_10101_skillC.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects3/DZ/DG_2
+  rotate: true
+  xy: 415, 49
+  size: 362, 150
+  orig: 409, 194
+  offset: 24, 21
+  index: -1
+effects3/DZ/LG_1
+  rotate: false
+  xy: 783, 300
+  size: 236, 67
+  orig: 258, 83
+  offset: 11, 8
+  index: -1
+effects3/DZ/LG_2
+  rotate: true
+  xy: 476, 772
+  size: 143, 87
+  orig: 179, 141
+  offset: 19, 22
+  index: -1
+effects3/DZ/LG_3
+  rotate: false
+  xy: 783, 134
+  size: 208, 164
+  orig: 369, 259
+  offset: 66, 49
+  index: -1
+effects3/DZ/YC_1/YC_1_01
+  rotate: true
+  xy: 863, 445
+  size: 105, 79
+  orig: 485, 289
+  offset: 241, 50
+  index: -1
+effects3/DZ/YC_1/YC_1_03
+  rotate: false
+  xy: 669, 660
+  size: 341, 151
+  orig: 485, 289
+  offset: 74, 30
+  index: -1
+effects3/DZ/YC_1/YC_1_05
+  rotate: true
+  xy: 216, 13
+  size: 375, 197
+  orig: 485, 289
+  offset: 44, 27
+  index: -1
+effects3/DZ/YC_1/YC_1_07
+  rotate: true
+  xy: 2, 11
+  size: 376, 212
+  orig: 485, 289
+  offset: 49, 27
+  index: -1
+effects3/DZ/YC_1/YC_1_09
+  rotate: true
+  xy: 476, 425
+  size: 345, 156
+  orig: 485, 289
+  offset: 86, 50
+  index: -1
+effects3/DZ/YC_1/YC_1_11
+  rotate: true
+  xy: 669, 9
+  size: 358, 112
+  orig: 485, 289
+  offset: 78, 51
+  index: -1
+effects3/DZ/YC_1/YC_1_13
+  rotate: false
+  xy: 669, 369
+  size: 341, 65
+  orig: 485, 289
+  offset: 78, 51
+  index: -1
+effects3/DZ/dilie_1/dilie_1_01
+  rotate: true
+  xy: 634, 436
+  size: 222, 96
+  orig: 660, 206
+  offset: 69, 47
+  index: -1
+effects3/DZ/dilie_1/dilie_1_05
+  rotate: true
+  xy: 567, 4
+  size: 419, 100
+  orig: 660, 206
+  offset: 69, 44
+  index: -1
+effects3/DZ/dilie_1/dilie_1_07
+  rotate: false
+  xy: 567, 813
+  size: 419, 102
+  orig: 660, 206
+  offset: 69, 43
+  index: -1
+effects3/DZ/dilie_1/dilie_1_10
+  rotate: false
+  xy: 530, 917
+  size: 466, 102
+  orig: 660, 206
+  offset: 69, 43
+  index: -1
+effects3/DZ/dilie_1/dilie_1_12
+  rotate: false
+  xy: 2, 917
+  size: 526, 102
+  orig: 660, 206
+  offset: 69, 43
+  index: -1
+effects3/DZ/dilie_1/dilie_1_15
+  rotate: true
+  xy: 2, 389
+  size: 526, 102
+  orig: 660, 206
+  offset: 69, 43
+  index: -1
+effects3/DZ/dilie_1/dilie_1_18
+  rotate: true
+  xy: 106, 390
+  size: 525, 102
+  orig: 660, 206
+  offset: 70, 43
+  index: -1
+effects3/DZ/dilie_1/dilie_1_21
+  rotate: true
+  xy: 210, 390
+  size: 525, 100
+  orig: 660, 206
+  offset: 70, 44
+  index: -1
+effects3/DZ/dilie_1/dilie_1_26
+  rotate: true
+  xy: 312, 394
+  size: 521, 96
+  orig: 660, 206
+  offset: 73, 46
+  index: -1
+effects3/DZ/dilie_1/dilie_1_29
+  rotate: true
+  xy: 410, 413
+  size: 502, 64
+  orig: 660, 206
+  offset: 92, 56
+  index: -1
+effects3/DZ/flash1/flash1_01
+  rotate: true
+  xy: 863, 552
+  size: 106, 155
+  orig: 320, 249
+  offset: 155, 37
+  index: -1
+effects3/DZ/lizi/lizi_02
+  rotate: false
+  xy: 783, 2
+  size: 119, 130
+  orig: 375, 262
+  offset: 85, 72
+  index: -1
+effects3/DZ/lizi/lizi_05
+  rotate: true
+  xy: 732, 444
+  size: 214, 129
+  orig: 375, 262
+  offset: 98, 64
+  index: -1
+
+effects_10101_skillC2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects3/DZ/DG_1
+  rotate: false
+  xy: 274, 742
+  size: 197, 196
+  orig: 224, 234
+  offset: 13, 19
+  index: -1
+effects3/DZ/DG_3
+  rotate: false
+  xy: 2, 697
+  size: 270, 241
+  orig: 339, 279
+  offset: 38, 29
+  index: -1
+effects3/DZ/dilie_1/dilie_1_04
+  rotate: true
+  xy: 2, 337
+  size: 358, 96
+  orig: 660, 206
+  offset: 69, 47
+  index: -1
+effects3/DZ/flash1/flash1_03
+  rotate: true
+  xy: 100, 518
+  size: 177, 154
+  orig: 320, 249
+  offset: 80, 38
+  index: -1
+effects3/DZ/flash1/flash1_05
+  rotate: true
+  xy: 100, 354
+  size: 162, 146
+  orig: 320, 249
+  offset: 65, 42
+  index: -1
+effects3/DZ/glow_1/glow_1_01
+  rotate: false
+  xy: 473, 785
+  size: 165, 153
+  orig: 286, 287
+  offset: 63, 63
+  index: -1
+effects3/DZ/glow_1/glow_1_04
+  rotate: false
+  xy: 640, 799
+  size: 140, 139
+  orig: 286, 287
+  offset: 73, 74
+  index: -1
+effects3/DZ/lizi/lizi_01
+  rotate: true
+  xy: 2, 2
+  size: 125, 121
+  orig: 375, 262
+  offset: 84, 81
+  index: -1
+effects3/DZ/lizi/lizi_03
+  rotate: false
+  xy: 782, 815
+  size: 126, 123
+  orig: 375, 262
+  offset: 92, 70
+  index: -1
+effects3/DZ/lizi/lizi_04
+  rotate: true
+  xy: 2, 129
+  size: 206, 94
+  orig: 375, 262
+  offset: 95, 69
+  index: -1

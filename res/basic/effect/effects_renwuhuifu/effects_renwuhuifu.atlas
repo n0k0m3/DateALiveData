@@ -1,0 +1,104 @@
+
+effects_renwuhuifu.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow_00002
+  rotate: true
+  xy: 333, 322
+  size: 180, 32
+  orig: 180, 41
+  offset: 0, 4
+  index: -1
+shenshangguangxiao/shenshangguangxiao_00001
+  rotate: false
+  xy: 2, 36
+  size: 90, 63
+  orig: 114, 200
+  offset: 15, 2
+  index: -1
+shenshangguangxiao/shenshangguangxiao_00002
+  rotate: false
+  xy: 2, 302
+  size: 114, 200
+  orig: 114, 200
+  offset: 0, 0
+  index: -1
+shenshangguangxiao/shenshangguangxiao_00003
+  rotate: false
+  xy: 2, 101
+  size: 114, 199
+  orig: 114, 200
+  offset: 0, 1
+  index: -1
+shenshangguangxiao/shenshangguangxiao_00004
+  rotate: false
+  xy: 118, 304
+  size: 113, 198
+  orig: 114, 200
+  offset: 0, 2
+  index: -1
+shenshangguangxiao/shenshangguangxiao_00005
+  rotate: false
+  xy: 118, 108
+  size: 106, 194
+  orig: 114, 200
+  offset: 0, 6
+  index: -1
+shenshangguangxiao/shenshangguangxiao_00006
+  rotate: false
+  xy: 233, 309
+  size: 98, 193
+  orig: 114, 200
+  offset: 6, 7
+  index: -1
+shenshangguangxiao/shenshangguangxiao_00007
+  rotate: false
+  xy: 367, 399
+  size: 48, 103
+  orig: 114, 200
+  offset: 36, 41
+  index: -1
+shenshangguangxiao/shenshangguangxiao_00008
+  rotate: false
+  xy: 417, 413
+  size: 48, 89
+  orig: 114, 200
+  offset: 36, 42
+  index: -1
+shenshangguangxiao/shenshangguangxiao_00009
+  rotate: false
+  xy: 367, 310
+  size: 47, 87
+  orig: 114, 200
+  offset: 36, 44
+  index: -1
+shenshangguangxiao/shenshangguangxiao_00011
+  rotate: false
+  xy: 94, 25
+  size: 46, 74
+  orig: 114, 200
+  offset: 37, 47
+  index: -1
+shenshangguangxiao/shenshangguangxiao_00013
+  rotate: true
+  xy: 2, 2
+  size: 32, 56
+  orig: 114, 200
+  offset: 50, 65
+  index: -1
+shenshangguangxiao/shenshangguangxiao_00015
+  rotate: false
+  xy: 467, 448
+  size: 31, 54
+  orig: 114, 200
+  offset: 50, 66
+  index: -1
+shenshangguangxiao/shenshangguangxiao_00017
+  rotate: false
+  xy: 417, 399
+  size: 7, 12
+  orig: 114, 200
+  offset: 51, 68
+  index: -1

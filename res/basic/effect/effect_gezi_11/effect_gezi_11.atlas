@@ -1,0 +1,13 @@
+
+effect_gezi_11.png
+size: 64,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+feiniao
+  rotate: false
+  xy: 2, 22
+  size: 50, 30
+  orig: 50, 30
+  offset: 0, 0
+  index: -1

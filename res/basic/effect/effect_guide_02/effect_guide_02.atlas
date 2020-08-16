@@ -1,0 +1,69 @@
+
+effect_guide_02.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/diADD_00000
+  rotate: true
+  xy: 347, 145
+  size: 190, 145
+  orig: 190, 152
+  offset: 0, 0
+  index: -1
+images/dian
+  rotate: false
+  xy: 347, 350
+  size: 15, 17
+  orig: 17, 19
+  offset: 1, 1
+  index: -1
+images/dinor_00000
+  rotate: false
+  xy: 2, 369
+  size: 380, 141
+  orig: 380, 152
+  offset: 0, 11
+  index: -1
+images/xian
+  rotate: true
+  xy: 207, 123
+  size: 32, 116
+  orig: 33, 118
+  offset: 1, 1
+  index: -1
+images/zhong/zhong_00019
+  rotate: false
+  xy: 207, 157
+  size: 138, 210
+  orig: 152, 213
+  offset: 8, 3
+  index: -1
+images/zhong/zhong_00028
+  rotate: true
+  xy: 2, 2
+  size: 135, 197
+  orig: 152, 213
+  offset: 11, 3
+  index: -1
+images/zhongjian1_00000
+  rotate: false
+  xy: 2, 139
+  size: 203, 228
+  orig: 228, 228
+  offset: 14, 0
+  index: -1
+images/zhongjian2_00000
+  rotate: false
+  xy: 201, 34
+  size: 228, 87
+  orig: 228, 228
+  offset: 0, 0
+  index: -1
+images/zhongliuti/zhongliuti_00014
+  rotate: true
+  xy: 384, 337
+  size: 173, 114
+  orig: 190, 114
+  offset: 17, 0
+  index: -1

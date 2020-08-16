@@ -1,0 +1,27 @@
+
+effects_10301_skillD1.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skilld/bingmian1_00072
+  rotate: false
+  xy: 2, 62
+  size: 323, 77
+  orig: 323, 78
+  offset: 0, 0
+  index: -1
+effects/skilld/juexing_00184
+  rotate: false
+  xy: 2, 141
+  size: 403, 269
+  orig: 403, 269
+  offset: 0, 0
+  index: -1
+effects/skilld/liangguang_00184
+  rotate: false
+  xy: 2, 2
+  size: 323, 58
+  orig: 323, 62
+  offset: 0, 0
+  index: -1

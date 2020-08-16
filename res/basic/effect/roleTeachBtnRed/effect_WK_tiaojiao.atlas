@@ -1,0 +1,118 @@
+
+effect_WK_tiaojiao.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/bian_00000
+  rotate: false
+  xy: 2, 254
+  size: 133, 122
+  orig: 133, 132
+  offset: 0, 5
+  index: -1
+images/kuang
+  rotate: false
+  xy: 2, 378
+  size: 133, 132
+  orig: 133, 132
+  offset: 0, 0
+  index: -1
+images/saoguang/saoguang_00003
+  rotate: false
+  xy: 137, 264
+  size: 8, 8
+  orig: 133, 132
+  offset: 41, 20
+  index: -1
+images/saoguang/saoguang_00005
+  rotate: false
+  xy: 85, 209
+  size: 43, 43
+  orig: 133, 132
+  offset: 21, 20
+  index: -1
+images/saoguang/saoguang_00007
+  rotate: false
+  xy: 302, 456
+  size: 60, 54
+  orig: 133, 132
+  offset: 19, 20
+  index: -1
+images/saoguang/saoguang_00009
+  rotate: false
+  xy: 137, 274
+  size: 75, 63
+  orig: 133, 132
+  offset: 19, 20
+  index: -1
+images/saoguang/saoguang_00011
+  rotate: false
+  xy: 220, 438
+  size: 80, 72
+  orig: 133, 132
+  offset: 21, 20
+  index: -1
+images/saoguang/saoguang_00013
+  rotate: false
+  xy: 2, 170
+  size: 81, 82
+  orig: 133, 132
+  offset: 26, 20
+  index: -1
+images/saoguang/saoguang_00015
+  rotate: false
+  xy: 137, 421
+  size: 81, 89
+  orig: 133, 132
+  offset: 31, 20
+  index: -1
+images/saoguang/saoguang_00017
+  rotate: false
+  xy: 137, 339
+  size: 81, 80
+  orig: 133, 132
+  offset: 37, 29
+  index: -1
+images/saoguang/saoguang_00019
+  rotate: false
+  xy: 2, 97
+  size: 81, 71
+  orig: 133, 132
+  offset: 42, 38
+  index: -1
+images/saoguang/saoguang_00021
+  rotate: false
+  xy: 220, 375
+  size: 71, 61
+  orig: 133, 132
+  offset: 52, 48
+  index: -1
+images/saoguang/saoguang_00023
+  rotate: false
+  xy: 2, 43
+  size: 56, 52
+  orig: 133, 132
+  offset: 67, 57
+  index: -1
+images/saoguang/saoguang_00025
+  rotate: false
+  xy: 364, 475
+  size: 35, 35
+  orig: 133, 132
+  offset: 82, 74
+  index: -1
+images/xin
+  rotate: false
+  xy: 220, 353
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+images/xin2
+  rotate: false
+  xy: 2, 2
+  size: 48, 39
+  orig: 50, 41
+  offset: 2, 0
+  index: -1

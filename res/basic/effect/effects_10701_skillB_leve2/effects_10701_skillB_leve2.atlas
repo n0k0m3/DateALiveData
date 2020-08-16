@@ -1,0 +1,845 @@
+
+effects_10701_skillB_leve2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillb_l3/flare_a
+  rotate: false
+  xy: 435, 320
+  size: 461, 230
+  orig: 461, 230
+  offset: 0, 0
+  index: -1
+images/effects/skillb_l3/light_d_00013
+  rotate: false
+  xy: 936, 230
+  size: 86, 88
+  orig: 86, 88
+  offset: 0, 0
+  index: -1
+images/effects/skillb_l3/p3_c/ring_a_0009
+  rotate: true
+  xy: 735, 56
+  size: 15, 61
+  orig: 63, 144
+  offset: 45, 60
+  index: -1
+images/effects/skillb_l3/p3_d/wing_3d_0005
+  rotate: true
+  xy: 945, 410
+  size: 144, 77
+  orig: 198, 108
+  offset: 31, 3
+  index: -1
+images/effects/skillb_l3/p3_e/bao_3a_00015
+  rotate: false
+  xy: 2, 208
+  size: 431, 342
+  orig: 431, 342
+  offset: 0, 0
+  index: -1
+images/effects/skillb_l3/p3_f/ceng_d_0001
+  rotate: false
+  xy: 435, 214
+  size: 249, 104
+  orig: 252, 108
+  offset: 3, 0
+  index: -1
+images/effects/skillb_l3/p3_f/ceng_d_0004
+  rotate: false
+  xy: 686, 214
+  size: 248, 104
+  orig: 252, 108
+  offset: 4, 0
+  index: -1
+images/effects/skillb_l3/p3_g/wing_3g_0016
+  rotate: false
+  xy: 945, 342
+  size: 63, 31
+  orig: 162, 62
+  offset: 95, 20
+  index: -1
+images/effects/skillb_l3/p3_h/wing_3h_0001
+  rotate: false
+  xy: 185, 16
+  size: 234, 126
+  orig: 234, 126
+  offset: 0, 0
+  index: -1
+images/effects/skillb_l3/p3_h/wing_3h_0002
+  rotate: true
+  xy: 814, 788
+  size: 234, 125
+  orig: 234, 126
+  offset: 0, 1
+  index: -1
+images/effects/skillb_l3/p3_h/wing_3h_0003
+  rotate: true
+  xy: 806, 552
+  size: 234, 125
+  orig: 234, 126
+  offset: 0, 1
+  index: -1
+images/effects/skillb_l3/p3_i/pen_3i_0001
+  rotate: false
+  xy: 2, 864
+  size: 810, 158
+  orig: 810, 162
+  offset: 0, 4
+  index: -1
+images/effects/skillb_l3/p3_i/pen_3i_0002
+  rotate: false
+  xy: 2, 653
+  size: 801, 101
+  orig: 810, 162
+  offset: 9, 30
+  index: -1
+images/effects/skillb_l3/p3_i/pen_3i_0003
+  rotate: false
+  xy: 2, 552
+  size: 802, 99
+  orig: 810, 162
+  offset: 8, 31
+  index: -1
+images/effects/skillb_l3/p3_i/pen_3i_0004
+  rotate: false
+  xy: 2, 756
+  size: 802, 106
+  orig: 810, 162
+  offset: 8, 24
+  index: -1
+images/effects/skillb_l3/p3_i/pen_3i_0009
+  rotate: false
+  xy: 2, 144
+  size: 425, 62
+  orig: 810, 162
+  offset: 10, 41
+  index: -1
+images/effects/skillb_l3/p3_j/light_3j_0002
+  rotate: false
+  xy: 749, 150
+  size: 273, 62
+  orig: 288, 108
+  offset: 8, 24
+  index: -1
+images/effects/skillb_l3/p3_j/light_3j_0007
+  rotate: false
+  xy: 185, 6
+  size: 52, 8
+  orig: 288, 108
+  offset: 50, 50
+  index: -1
+images/effects/skillb_l3/p3_k/pen_3k_0002
+  rotate: false
+  xy: 435, 173
+  size: 312, 39
+  orig: 315, 54
+  offset: 0, 9
+  index: -1
+images/effects/skillb_l3/p3_k/pen_3k_0003
+  rotate: false
+  xy: 429, 130
+  size: 312, 41
+  orig: 315, 54
+  offset: 0, 10
+  index: -1
+images/effects/skillb_l3/p3_k/pen_3k_0004
+  rotate: false
+  xy: 421, 88
+  size: 312, 40
+  orig: 315, 54
+  offset: 0, 11
+  index: -1
+images/effects/skillb_l3/p3_k/pen_3k_0005
+  rotate: false
+  xy: 735, 73
+  size: 257, 38
+  orig: 315, 54
+  offset: 3, 13
+  index: -1
+images/effects/skillb_l3/p3_k/pen_3k_0009
+  rotate: false
+  xy: 743, 113
+  size: 265, 35
+  orig: 315, 54
+  offset: 0, 13
+  index: -1
+images/effects/skillb_l3/p3_k/pen_3k_0011
+  rotate: false
+  xy: 421, 48
+  size: 312, 38
+  orig: 315, 54
+  offset: 0, 11
+  index: -1
+images/effects/skillb_l3/p3_k/pen_3k_0013
+  rotate: true
+  xy: 991, 774
+  size: 248, 31
+  orig: 315, 54
+  offset: 32, 13
+  index: -1
+images/effects/skillb_l3/p3_l/lizi_3l_0002
+  rotate: false
+  xy: 627, 2
+  size: 201, 44
+  orig: 252, 54
+  offset: 0, 10
+  index: -1
+images/effects/skillb_l3/p3_l/lizi_3l_0003
+  rotate: false
+  xy: 421, 2
+  size: 204, 44
+  orig: 252, 54
+  offset: 5, 10
+  index: -1
+images/effects/skillb_l3/p3_l/lizi_3l_0007
+  rotate: true
+  xy: 933, 561
+  size: 225, 48
+  orig: 252, 54
+  offset: 0, 6
+  index: -1
+images/effects/skillb_l3/p3_l/lizi_3l_0008
+  rotate: true
+  xy: 941, 794
+  size: 228, 48
+  orig: 252, 54
+  offset: 0, 5
+  index: -1
+images/effects/skillb_l3/p3_l/lizi_3l_0013
+  rotate: true
+  xy: 898, 320
+  size: 230, 45
+  orig: 252, 54
+  offset: 1, 2
+  index: -1
+images/effects/skillb_l3/p3_l/lizi_3l_0014
+  rotate: true
+  xy: 983, 556
+  size: 216, 39
+  orig: 252, 54
+  offset: 20, 2
+  index: -1
+images/effects/skillb_l3/p3_m/ceng_2m_0003
+  rotate: false
+  xy: 830, 6
+  size: 173, 65
+  orig: 225, 72
+  offset: 10, 2
+  index: -1
+images/effects/skillb_l3/qt_00023
+  rotate: false
+  xy: 945, 375
+  size: 77, 33
+  orig: 77, 33
+  offset: 0, 0
+  index: -1
+images/effects/skillb_l3/wing_3a_00025
+  rotate: false
+  xy: 2, 2
+  size: 181, 140
+  orig: 181, 140
+  offset: 0, 0
+  index: -1
+
+effects_10701_skillB_leve22.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillb_l3/light_b_00038
+  rotate: false
+  xy: 439, 276
+  size: 106, 108
+  orig: 106, 108
+  offset: 0, 0
+  index: -1
+images/effects/skillb_l3/light_c_00013
+  rotate: true
+  xy: 893, 598
+  size: 106, 110
+  orig: 106, 110
+  offset: 0, 0
+  index: -1
+images/effects/skillb_l3/light_e_00028
+  rotate: false
+  xy: 795, 52
+  size: 137, 43
+  orig: 137, 43
+  offset: 0, 0
+  index: -1
+images/effects/skillb_l3/light_f_00028
+  rotate: true
+  xy: 362, 85
+  size: 161, 43
+  orig: 161, 43
+  offset: 0, 0
+  index: -1
+images/effects/skillb_l3/p1_a/ceng_a_0001
+  rotate: true
+  xy: 333, 5
+  size: 92, 25
+  orig: 207, 88
+  offset: 80, 9
+  index: -1
+images/effects/skillb_l3/p1_a/ceng_a_0002
+  rotate: true
+  xy: 407, 83
+  size: 163, 43
+  orig: 207, 88
+  offset: 44, 9
+  index: -1
+images/effects/skillb_l3/p1_a/ceng_a_0003
+  rotate: true
+  xy: 181, 57
+  size: 187, 45
+  orig: 207, 88
+  offset: 4, 9
+  index: -1
+images/effects/skillb_l3/p1_a/ceng_a_0004
+  rotate: true
+  xy: 846, 624
+  size: 139, 45
+  orig: 207, 88
+  offset: 0, 8
+  index: -1
+images/effects/skillb_l3/p1_a/ceng_a_0005
+  rotate: false
+  xy: 895, 3
+  size: 127, 47
+  orig: 207, 88
+  offset: 0, 8
+  index: -1
+images/effects/skillb_l3/p1_a/ceng_a_0006
+  rotate: true
+  xy: 281, 2
+  size: 95, 50
+  orig: 207, 88
+  offset: 0, 8
+  index: -1
+images/effects/skillb_l3/p3_c/ring_a_0001
+  rotate: true
+  xy: 823, 330
+  size: 42, 98
+  orig: 63, 144
+  offset: 13, 24
+  index: -1
+images/effects/skillb_l3/p3_c/ring_a_0002
+  rotate: true
+  xy: 782, 2
+  size: 48, 111
+  orig: 63, 144
+  offset: 10, 19
+  index: -1
+images/effects/skillb_l3/p3_c/ring_a_0003
+  rotate: true
+  xy: 360, 25
+  size: 56, 126
+  orig: 63, 144
+  offset: 4, 10
+  index: -1
+images/effects/skillb_l3/p3_c/ring_a_0004
+  rotate: true
+  xy: 676, 527
+  size: 58, 131
+  orig: 63, 144
+  offset: 3, 9
+  index: -1
+images/effects/skillb_l3/p3_c/ring_a_0005
+  rotate: true
+  xy: 687, 313
+  size: 59, 134
+  orig: 63, 144
+  offset: 2, 8
+  index: -1
+images/effects/skillb_l3/p3_c/ring_a_0006
+  rotate: false
+  xy: 377, 248
+  size: 60, 136
+  orig: 63, 144
+  offset: 1, 6
+  index: -1
+images/effects/skillb_l3/p3_c/ring_a_0007
+  rotate: true
+  xy: 721, 97
+  size: 59, 137
+  orig: 63, 144
+  offset: 2, 6
+  index: -1
+images/effects/skillb_l3/p3_c/ring_a_0008
+  rotate: true
+  xy: 893, 706
+  size: 60, 129
+  orig: 63, 144
+  offset: 1, 11
+  index: -1
+images/effects/skillb_l3/p3_d/wing_3d_0001
+  rotate: false
+  xy: 477, 686
+  size: 169, 105
+  orig: 198, 108
+  offset: 7, 3
+  index: -1
+images/effects/skillb_l3/p3_d/wing_3d_0002
+  rotate: false
+  xy: 477, 583
+  size: 163, 101
+  orig: 198, 108
+  offset: 13, 3
+  index: -1
+images/effects/skillb_l3/p3_d/wing_3d_0003
+  rotate: false
+  xy: 222, 304
+  size: 151, 80
+  orig: 198, 108
+  offset: 25, 3
+  index: -1
+images/effects/skillb_l3/p3_d/wing_3d_0004
+  rotate: true
+  xy: 281, 99
+  size: 147, 79
+  orig: 198, 108
+  offset: 29, 3
+  index: -1
+images/effects/skillb_l3/p3_d/wing_3d_0006
+  rotate: false
+  xy: 547, 296
+  size: 138, 76
+  orig: 198, 108
+  offset: 31, 3
+  index: -1
+images/effects/skillb_l3/p3_e/bao_3a_00013
+  rotate: false
+  xy: 84, 387
+  size: 151, 131
+  orig: 151, 131
+  offset: 0, 0
+  index: -1
+images/effects/skillb_l3/p3_f/ceng_d_0002
+  rotate: true
+  xy: 339, 523
+  size: 245, 96
+  orig: 252, 108
+  offset: 3, 0
+  index: -1
+images/effects/skillb_l3/p3_f/ceng_d_0003
+  rotate: true
+  xy: 238, 523
+  size: 245, 99
+  orig: 252, 108
+  offset: 3, 0
+  index: -1
+images/effects/skillb_l3/p3_g/wing_3g_0001
+  rotate: true
+  xy: 671, 141
+  size: 153, 46
+  orig: 162, 62
+  offset: 7, 1
+  index: -1
+images/effects/skillb_l3/p3_g/wing_3g_0002
+  rotate: false
+  xy: 222, 248
+  size: 153, 54
+  orig: 162, 62
+  offset: 7, 0
+  index: -1
+images/effects/skillb_l3/p3_g/wing_3g_0003
+  rotate: true
+  xy: 557, 141
+  size: 153, 57
+  orig: 162, 62
+  offset: 7, 0
+  index: -1
+images/effects/skillb_l3/p3_g/wing_3g_0004
+  rotate: true
+  xy: 616, 141
+  size: 153, 53
+  orig: 162, 62
+  offset: 7, 0
+  index: -1
+images/effects/skillb_l3/p3_g/wing_3g_0005
+  rotate: true
+  xy: 719, 158
+  size: 153, 51
+  orig: 162, 62
+  offset: 7, 0
+  index: -1
+images/effects/skillb_l3/p3_g/wing_3g_0006
+  rotate: true
+  xy: 821, 158
+  size: 153, 46
+  orig: 162, 62
+  offset: 7, 5
+  index: -1
+images/effects/skillb_l3/p3_g/wing_3g_0007
+  rotate: false
+  xy: 428, 386
+  size: 153, 42
+  orig: 162, 62
+  offset: 7, 9
+  index: -1
+images/effects/skillb_l3/p3_g/wing_3g_0008
+  rotate: true
+  xy: 834, 400
+  size: 153, 43
+  orig: 162, 62
+  offset: 7, 11
+  index: -1
+images/effects/skillb_l3/p3_g/wing_3g_0009
+  rotate: true
+  xy: 772, 158
+  size: 153, 47
+  orig: 162, 62
+  offset: 7, 10
+  index: -1
+images/effects/skillb_l3/p3_g/wing_3g_0010
+  rotate: true
+  xy: 879, 401
+  size: 152, 44
+  orig: 162, 62
+  offset: 8, 11
+  index: -1
+images/effects/skillb_l3/p3_g/wing_3g_0011
+  rotate: true
+  xy: 794, 374
+  size: 151, 38
+  orig: 162, 62
+  offset: 9, 15
+  index: -1
+images/effects/skillb_l3/p3_g/wing_3g_0012
+  rotate: true
+  xy: 967, 401
+  size: 152, 38
+  orig: 162, 62
+  offset: 8, 15
+  index: -1
+images/effects/skillb_l3/p3_g/wing_3g_0013
+  rotate: false
+  xy: 488, 59
+  size: 152, 38
+  orig: 162, 62
+  offset: 8, 15
+  index: -1
+images/effects/skillb_l3/p3_g/wing_3g_0014
+  rotate: false
+  xy: 488, 20
+  size: 151, 37
+  orig: 162, 62
+  offset: 8, 16
+  index: -1
+images/effects/skillb_l3/p3_g/wing_3g_0015
+  rotate: false
+  xy: 642, 61
+  size: 151, 34
+  orig: 162, 62
+  offset: 8, 19
+  index: -1
+images/effects/skillb_l3/p3_h/wing_3h_0004
+  rotate: false
+  xy: 2, 897
+  size: 234, 125
+  orig: 234, 126
+  offset: 0, 1
+  index: -1
+images/effects/skillb_l3/p3_h/wing_3h_0005
+  rotate: false
+  xy: 2, 770
+  size: 234, 125
+  orig: 234, 126
+  offset: 0, 1
+  index: -1
+images/effects/skillb_l3/p3_h/wing_3h_0006
+  rotate: false
+  xy: 238, 897
+  size: 234, 125
+  orig: 234, 126
+  offset: 0, 1
+  index: -1
+images/effects/skillb_l3/p3_h/wing_3h_0007
+  rotate: false
+  xy: 2, 643
+  size: 234, 125
+  orig: 234, 126
+  offset: 0, 1
+  index: -1
+images/effects/skillb_l3/p3_h/wing_3h_0008
+  rotate: false
+  xy: 238, 770
+  size: 234, 125
+  orig: 234, 126
+  offset: 0, 1
+  index: -1
+images/effects/skillb_l3/p3_h/wing_3h_0009
+  rotate: false
+  xy: 474, 897
+  size: 234, 125
+  orig: 234, 126
+  offset: 0, 1
+  index: -1
+images/effects/skillb_l3/p3_h/wing_3h_0010
+  rotate: false
+  xy: 2, 520
+  size: 234, 121
+  orig: 234, 126
+  offset: 0, 5
+  index: -1
+images/effects/skillb_l3/p3_j/light_3j_0001
+  rotate: true
+  xy: 228, 67
+  size: 179, 51
+  orig: 288, 108
+  offset: 14, 32
+  index: -1
+images/effects/skillb_l3/p3_j/light_3j_0003
+  rotate: false
+  xy: 648, 676
+  size: 195, 38
+  orig: 288, 108
+  offset: 8, 39
+  index: -1
+images/effects/skillb_l3/p3_j/light_3j_0004
+  rotate: false
+  xy: 648, 716
+  size: 196, 47
+  orig: 288, 108
+  offset: 9, 29
+  index: -1
+images/effects/skillb_l3/p3_j/light_3j_0005
+  rotate: true
+  xy: 45, 25
+  size: 199, 37
+  orig: 288, 108
+  offset: 7, 40
+  index: -1
+images/effects/skillb_l3/p3_j/light_3j_0006
+  rotate: true
+  xy: 1005, 585
+  size: 119, 16
+  orig: 288, 108
+  offset: 21, 48
+  index: -1
+images/effects/skillb_l3/p3_k/pen_3k_0001
+  rotate: false
+  xy: 710, 916
+  size: 290, 35
+  orig: 315, 54
+  offset: 0, 9
+  index: -1
+images/effects/skillb_l3/p3_k/pen_3k_0006
+  rotate: true
+  xy: 2, 216
+  size: 302, 40
+  orig: 315, 54
+  offset: 5, 11
+  index: -1
+images/effects/skillb_l3/p3_k/pen_3k_0007
+  rotate: false
+  xy: 710, 984
+  size: 310, 38
+  orig: 315, 54
+  offset: 1, 11
+  index: -1
+images/effects/skillb_l3/p3_k/pen_3k_0008
+  rotate: true
+  xy: 437, 528
+  size: 240, 38
+  orig: 315, 54
+  offset: 0, 12
+  index: -1
+images/effects/skillb_l3/p3_k/pen_3k_0010
+  rotate: true
+  xy: 44, 226
+  size: 292, 38
+  orig: 315, 54
+  offset: 0, 11
+  index: -1
+images/effects/skillb_l3/p3_k/pen_3k_0012
+  rotate: false
+  xy: 710, 953
+  size: 310, 29
+  orig: 315, 54
+  offset: 1, 13
+  index: -1
+images/effects/skillb_l3/p3_k/pen_3k_0014
+  rotate: false
+  xy: 710, 885
+  size: 246, 29
+  orig: 315, 54
+  offset: 61, 16
+  index: -1
+images/effects/skillb_l3/p3_l/lizi_3l_0001
+  rotate: false
+  xy: 237, 386
+  size: 189, 40
+  orig: 252, 54
+  offset: 3, 14
+  index: -1
+images/effects/skillb_l3/p3_l/lizi_3l_0004
+  rotate: false
+  xy: 238, 479
+  size: 194, 42
+  orig: 252, 54
+  offset: 22, 12
+  index: -1
+images/effects/skillb_l3/p3_l/lizi_3l_0005
+  rotate: false
+  xy: 237, 428
+  size: 188, 49
+  orig: 252, 54
+  offset: 32, 5
+  index: -1
+images/effects/skillb_l3/p3_l/lizi_3l_0006
+  rotate: false
+  xy: 474, 793
+  size: 217, 49
+  orig: 252, 54
+  offset: 4, 5
+  index: -1
+images/effects/skillb_l3/p3_l/lizi_3l_0009
+  rotate: false
+  xy: 84, 2
+  size: 175, 53
+  orig: 252, 54
+  offset: 19, 1
+  index: -1
+images/effects/skillb_l3/p3_l/lizi_3l_0010
+  rotate: false
+  xy: 700, 829
+  size: 205, 54
+  orig: 252, 54
+  offset: 0, 0
+  index: -1
+images/effects/skillb_l3/p3_l/lizi_3l_0011
+  rotate: false
+  xy: 477, 527
+  size: 197, 54
+  orig: 252, 54
+  offset: 18, 0
+  index: -1
+images/effects/skillb_l3/p3_l/lizi_3l_0012
+  rotate: false
+  xy: 474, 844
+  size: 224, 51
+  orig: 252, 54
+  offset: 0, 0
+  index: -1
+images/effects/skillb_l3/p3_l/lizi_3l_0015
+  rotate: true
+  xy: 2, 8
+  size: 206, 41
+  orig: 252, 54
+  offset: 33, 0
+  index: -1
+images/effects/skillb_l3/p3_l/lizi_3l_0016
+  rotate: false
+  xy: 427, 430
+  size: 162, 41
+  orig: 252, 54
+  offset: 79, 0
+  index: -1
+images/effects/skillb_l3/p3_l/lizi_3l_0017
+  rotate: false
+  xy: 809, 555
+  size: 157, 41
+  orig: 252, 54
+  offset: 85, 0
+  index: -1
+images/effects/skillb_l3/p3_l/lizi_3l_0018
+  rotate: true
+  xy: 925, 398
+  size: 155, 40
+  orig: 252, 54
+  offset: 89, 0
+  index: -1
+images/effects/skillb_l3/p3_m/ceng_2m_0001
+  rotate: false
+  xy: 452, 473
+  size: 170, 52
+  orig: 225, 72
+  offset: 52, 6
+  index: -1
+images/effects/skillb_l3/p3_m/ceng_2m_0002
+  rotate: false
+  xy: 693, 765
+  size: 198, 62
+  orig: 225, 72
+  offset: 27, 2
+  index: -1
+images/effects/skillb_l3/p3_m/ceng_2m_0004
+  rotate: false
+  xy: 642, 18
+  size: 138, 41
+  orig: 225, 72
+  offset: 16, 2
+  index: -1
+images/effects/skillb_l3/p3_n/ceng_3n_0001
+  rotate: false
+  xy: 557, 99
+  size: 162, 40
+  orig: 180, 63
+  offset: 9, 23
+  index: -1
+images/effects/skillb_l3/p3_n/ceng_3n_0002
+  rotate: false
+  xy: 583, 374
+  size: 166, 50
+  orig: 180, 63
+  offset: 9, 10
+  index: -1
+images/effects/skillb_l3/p3_n/ceng_3n_0003
+  rotate: false
+  xy: 624, 474
+  size: 168, 51
+  orig: 180, 63
+  offset: 9, 6
+  index: -1
+images/effects/skillb_l3/p3_n/ceng_3n_0004
+  rotate: true
+  xy: 452, 106
+  size: 168, 51
+  orig: 180, 63
+  offset: 9, 5
+  index: -1
+images/effects/skillb_l3/p3_n/ceng_3n_0005
+  rotate: true
+  xy: 505, 105
+  size: 169, 50
+  orig: 180, 63
+  offset: 9, 4
+  index: -1
+images/effects/skillb_l3/p3_n/ceng_3n_0006
+  rotate: false
+  xy: 624, 426
+  size: 168, 46
+  orig: 180, 63
+  offset: 10, 3
+  index: -1
+images/effects/skillb_l3/quan_a_00015
+  rotate: false
+  xy: 84, 246
+  size: 136, 139
+  orig: 136, 139
+  offset: 0, 0
+  index: -1
+images/effects/skillb_l3/ry_00016
+  rotate: false
+  xy: 642, 587
+  size: 161, 87
+  orig: 161, 87
+  offset: 0, 0
+  index: -1
+images/effects/skillb_l3/w_c_00017
+  rotate: false
+  xy: 907, 768
+  size: 115, 115
+  orig: 115, 115
+  offset: 0, 0
+  index: -1
+images/effects/skillb_l3/wing_3b_00034
+  rotate: true
+  xy: 84, 65
+  size: 179, 95
+  orig: 179, 95
+  offset: 0, 0
+  index: -1

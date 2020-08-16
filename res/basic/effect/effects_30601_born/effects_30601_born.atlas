@@ -1,0 +1,363 @@
+
+effects_30601_born.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/born/dilieguanga_00018
+  rotate: false
+  xy: 499, 869
+  size: 234, 153
+  orig: 234, 158
+  offset: 0, 0
+  index: -1
+images/effects/born/glow
+  rotate: false
+  xy: 799, 830
+  size: 44, 48
+  orig: 56, 56
+  offset: 6, 3
+  index: -1
+images/effects/born/kuosanbo_00018
+  rotate: false
+  xy: 499, 812
+  size: 174, 55
+  orig: 174, 55
+  offset: 0, 0
+  index: -1
+images/effects/born/lizia/lizia_00018
+  rotate: false
+  xy: 648, 421
+  size: 91, 86
+  orig: 95, 105
+  offset: 0, 3
+  index: -1
+images/effects/born/lizia/lizia_00020
+  rotate: false
+  xy: 487, 131
+  size: 91, 88
+  orig: 95, 105
+  offset: 1, 5
+  index: -1
+images/effects/born/lizia/lizia_00022
+  rotate: true
+  xy: 510, 299
+  size: 93, 97
+  orig: 95, 105
+  offset: 1, 0
+  index: -1
+images/effects/born/lizia/lizia_00024
+  rotate: false
+  xy: 635, 606
+  size: 90, 96
+  orig: 95, 105
+  offset: 4, 3
+  index: -1
+images/effects/born/lizia/lizia_00026
+  rotate: false
+  xy: 648, 509
+  size: 89, 95
+  orig: 95, 105
+  offset: 4, 6
+  index: -1
+images/effects/born/lizia/lizia_00028
+  rotate: true
+  xy: 463, 43
+  size: 86, 93
+  orig: 95, 105
+  offset: 6, 9
+  index: -1
+images/effects/born/lizia/lizia_00030
+  rotate: false
+  xy: 580, 132
+  size: 81, 89
+  orig: 95, 105
+  offset: 9, 13
+  index: -1
+images/effects/born/lizia/lizia_00032
+  rotate: true
+  xy: 479, 221
+  size: 74, 80
+  orig: 95, 105
+  offset: 13, 19
+  index: -1
+images/effects/born/shitoun/shitoun_00020
+  rotate: true
+  xy: 617, 425
+  size: 32, 29
+  orig: 88, 74
+  offset: 26, 4
+  index: -1
+images/effects/born/shitoun/shitoun_00022
+  rotate: false
+  xy: 845, 835
+  size: 43, 43
+  orig: 88, 74
+  offset: 21, 7
+  index: -1
+images/effects/born/shitoun/shitoun_00024
+  rotate: false
+  xy: 675, 814
+  size: 50, 53
+  orig: 88, 74
+  offset: 17, 9
+  index: -1
+images/effects/born/shitoun/shitoun_00026
+  rotate: true
+  xy: 735, 819
+  size: 59, 62
+  orig: 88, 74
+  offset: 13, 7
+  index: -1
+images/effects/born/shitoun/shitoun_00028
+  rotate: true
+  xy: 345, 2
+  size: 66, 72
+  orig: 88, 74
+  offset: 10, 2
+  index: -1
+images/effects/born/shitoun/shitoun_00030
+  rotate: false
+  xy: 561, 223
+  size: 73, 74
+  orig: 88, 74
+  offset: 6, 0
+  index: -1
+images/effects/born/shitoun/shitoun_00032
+  rotate: true
+  xy: 701, 733
+  size: 79, 62
+  orig: 88, 74
+  offset: 3, 10
+  index: -1
+images/effects/born/shitoun/shitoun_00034
+  rotate: true
+  xy: 616, 46
+  size: 84, 59
+  orig: 88, 74
+  offset: 0, 7
+  index: -1
+images/effects/born/zadiyann/zadiyann_00060
+  rotate: true
+  xy: 558, 41
+  size: 88, 56
+  orig: 145, 102
+  offset: 28, 13
+  index: -1
+images/effects/born/zadiyann/zadiyann_00062
+  rotate: true
+  xy: 433, 564
+  size: 130, 96
+  orig: 145, 102
+  offset: 8, 3
+  index: -1
+images/effects/born/zadiyann/zadiyann_00064
+  rotate: true
+  xy: 2, 8
+  size: 145, 102
+  orig: 145, 102
+  offset: 0, 0
+  index: -1
+images/effects/born/zadiyann/zadiyann_00066
+  rotate: true
+  xy: 917, 877
+  size: 145, 102
+  orig: 145, 102
+  offset: 0, 0
+  index: -1
+images/effects/born/zadiyann/zadiyann_00068
+  rotate: false
+  xy: 496, 708
+  size: 145, 102
+  orig: 145, 102
+  offset: 0, 0
+  index: -1
+images/effects/born/zadiyann/zadiyann_00070
+  rotate: true
+  xy: 531, 561
+  size: 145, 102
+  orig: 145, 102
+  offset: 0, 0
+  index: -1
+images/effects/born/zadiyann/zadiyann_00072
+  rotate: false
+  xy: 190, 208
+  size: 145, 98
+  orig: 145, 102
+  offset: 0, 0
+  index: -1
+images/effects/born/zadiyann/zadiyann_00074
+  rotate: false
+  xy: 366, 297
+  size: 142, 86
+  orig: 145, 102
+  offset: 3, 0
+  index: -1
+images/effects/born/zadiyann/zadiyann_00076
+  rotate: false
+  xy: 358, 385
+  size: 141, 81
+  orig: 145, 102
+  offset: 4, 0
+  index: -1
+images/effects/born/zadiyann/zadiyann_00078
+  rotate: false
+  xy: 337, 221
+  size: 140, 74
+  orig: 145, 102
+  offset: 5, 6
+  index: -1
+images/effects/skillb/chongji/chongji_00097
+  rotate: false
+  xy: 253, 566
+  size: 178, 128
+  orig: 278, 186
+  offset: 89, 26
+  index: -1
+images/effects/skillb/chongji/chongji_00098
+  rotate: false
+  xy: 2, 359
+  size: 199, 142
+  orig: 278, 186
+  offset: 66, 17
+  index: -1
+images/effects/skillb/chongji/chongji_00099
+  rotate: false
+  xy: 253, 696
+  size: 241, 152
+  orig: 278, 186
+  offset: 29, 12
+  index: -1
+images/effects/skillb/chongji/chongji_00100
+  rotate: false
+  xy: 2, 674
+  size: 249, 170
+  orig: 278, 186
+  offset: 18, 8
+  index: -1
+images/effects/skillb/chongji/chongji_00101
+  rotate: false
+  xy: 2, 503
+  size: 235, 169
+  orig: 278, 186
+  offset: 32, 9
+  index: -1
+images/effects/skillb/chongji/chongji_00102
+  rotate: false
+  xy: 2, 846
+  size: 249, 176
+  orig: 278, 186
+  offset: 19, 4
+  index: -1
+images/effects/skillb/chongji/chongji_00103
+  rotate: false
+  xy: 253, 850
+  size: 244, 172
+  orig: 278, 186
+  offset: 19, 5
+  index: -1
+images/effects/skillb/chongji/chongji_00104
+  rotate: false
+  xy: 735, 880
+  size: 180, 142
+  orig: 278, 186
+  offset: 57, 35
+  index: -1
+images/effects/skillb/line_00023
+  rotate: true
+  xy: 2, 155
+  size: 202, 112
+  orig: 214, 126
+  offset: 0, 4
+  index: -1
+images/effects/skillb/shandian_black/shandian_black_00064
+  rotate: true
+  xy: 106, 6
+  size: 120, 90
+  orig: 157, 214
+  offset: 29, 17
+  index: -1
+images/effects/skillb/shandian_black/shandian_black_00065
+  rotate: false
+  xy: 527, 459
+  size: 119, 100
+  orig: 157, 214
+  offset: 25, 24
+  index: -1
+images/effects/skillb/shandian_black/shandian_black_00066
+  rotate: true
+  xy: 203, 383
+  size: 100, 153
+  orig: 157, 214
+  offset: 36, 25
+  index: -1
+images/effects/skillb/shandian_black/shandian_black_00068
+  rotate: true
+  xy: 239, 485
+  size: 79, 174
+  orig: 157, 214
+  offset: 39, 23
+  index: -1
+images/effects/skillb/shandian_black/shandian_black_00070
+  rotate: true
+  xy: 190, 129
+  size: 77, 152
+  orig: 157, 214
+  offset: 41, 26
+  index: -1
+images/effects/skillb/shandian_black/shandian_black_00072
+  rotate: true
+  xy: 501, 394
+  size: 63, 114
+  orig: 157, 214
+  offset: 44, 41
+  index: -1
+images/effects/skillb/shandian_white/shandian_white_00070
+  rotate: false
+  xy: 345, 70
+  size: 116, 80
+  orig: 157, 214
+  offset: 19, 107
+  index: -1
+images/effects/skillb/shandian_white/shandian_white_00071
+  rotate: false
+  xy: 415, 468
+  size: 110, 94
+  orig: 157, 214
+  offset: 26, 86
+  index: -1
+images/effects/skillb/shandian_white/shandian_white_00072
+  rotate: true
+  xy: 198, 42
+  size: 85, 145
+  orig: 157, 214
+  offset: 37, 32
+  index: -1
+images/effects/skillb/shandian_white/shandian_white_00074
+  rotate: true
+  xy: 203, 308
+  size: 73, 161
+  orig: 157, 214
+  offset: 43, 17
+  index: -1
+images/effects/skillb/shandian_white/shandian_white_00076
+  rotate: true
+  xy: 344, 152
+  size: 67, 141
+  orig: 157, 214
+  offset: 47, 34
+  index: -1
+images/effects/skillb/shandian_white/shandian_white_00078
+  rotate: false
+  xy: 643, 704
+  size: 56, 106
+  orig: 157, 214
+  offset: 54, 54
+  index: -1
+images/effects/skille/dilie_00072
+  rotate: true
+  xy: 116, 128
+  size: 229, 72
+  orig: 272, 94
+  offset: 20, 9
+  index: -1

@@ -1,0 +1,48 @@
+
+effects_extra_fourteen.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bowenadd__00
+  rotate: false
+  xy: 609, 393
+  size: 218, 221
+  orig: 265, 259
+  offset: 22, 14
+  index: -1
+diadd__00
+  rotate: false
+  xy: 829, 549
+  size: 65, 65
+  orig: 84, 82
+  offset: 10, 8
+  index: -1
+guangbiadd__16
+  rotate: false
+  xy: 2, 101
+  size: 587, 270
+  orig: 658, 320
+  offset: 35, 23
+  index: -1
+guangyunadd__16
+  rotate: false
+  xy: 2, 52
+  size: 162, 47
+  orig: 165, 54
+  offset: 3, 3
+  index: -1
+huanadd__00
+  rotate: false
+  xy: 609, 616
+  size: 376, 369
+  orig: 376, 369
+  offset: 0, 0
+  index: -1
+huannor__00
+  rotate: false
+  xy: 2, 373
+  size: 605, 612
+  orig: 668, 656
+  offset: 39, 19
+  index: -1

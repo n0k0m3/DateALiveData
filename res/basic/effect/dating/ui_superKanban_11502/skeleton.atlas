@@ -1,0 +1,487 @@
+
+skeleton.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/2_000
+  rotate: true
+  xy: 909, 225
+  size: 93, 44
+  orig: 96, 53
+  offset: 0, 6
+  index: -1
+effects/caihong_000
+  rotate: false
+  xy: 624, 869
+  size: 393, 153
+  orig: 397, 159
+  offset: 2, 2
+  index: -1
+effects/feiniao
+  rotate: false
+  xy: 693, 3
+  size: 50, 30
+  orig: 50, 30
+  offset: 0, 0
+  index: -1
+effects/glow2_000
+  rotate: true
+  xy: 437, 33
+  size: 265, 254
+  orig: 270, 255
+  offset: 5, 0
+  index: -1
+effects/glow_000_000
+  rotate: false
+  xy: 2, 373
+  size: 498, 359
+  orig: 498, 370
+  offset: 0, 11
+  index: -1
+effects/hailang1/hailang1_000
+  rotate: false
+  xy: 674, 320
+  size: 279, 112
+  orig: 279, 112
+  offset: 0, 0
+  index: -1
+effects/niao/niao_001
+  rotate: true
+  xy: 624, 747
+  size: 120, 46
+  orig: 214, 78
+  offset: 60, 24
+  index: -1
+effects/niao/niao_017
+  rotate: true
+  xy: 955, 221
+  size: 211, 67
+  orig: 214, 78
+  offset: 0, 3
+  index: -1
+effects/niao/niao_018
+  rotate: false
+  xy: 693, 35
+  size: 213, 68
+  orig: 214, 78
+  offset: 0, 2
+  index: -1
+effects/qiu1_000
+  rotate: false
+  xy: 909, 109
+  size: 109, 110
+  orig: 111, 110
+  offset: 1, 0
+  index: -1
+effects/qiu2_000
+  rotate: false
+  xy: 437, 320
+  size: 55, 51
+  orig: 55, 51
+  offset: 0, 0
+  index: -1
+effects/qiu3_000_000
+  rotate: false
+  xy: 693, 105
+  size: 214, 213
+  orig: 214, 214
+  offset: 0, 0
+  index: -1
+effects/shu2_000
+  rotate: true
+  xy: 909, 28
+  size: 79, 109
+  orig: 80, 115
+  offset: 0, 2
+  index: -1
+effects/shuibo1/shuibo1_000
+  rotate: false
+  xy: 2, 28
+  size: 433, 170
+  orig: 433, 171
+  offset: 0, 0
+  index: -1
+effects/shuibo1/shuibo1_001
+  rotate: true
+  xy: 502, 300
+  size: 432, 170
+  orig: 433, 171
+  offset: 0, 0
+  index: -1
+effects/shuibo1/shuibo1_004
+  rotate: true
+  xy: 674, 434
+  size: 433, 170
+  orig: 433, 171
+  offset: 0, 1
+  index: -1
+effects/shuibo1/shuibo1_005
+  rotate: true
+  xy: 846, 434
+  size: 433, 170
+  orig: 433, 171
+  offset: 0, 1
+  index: -1
+effects/shuibo1/shuibo1_009
+  rotate: false
+  xy: 2, 200
+  size: 433, 171
+  orig: 433, 171
+  offset: 0, 0
+  index: -1
+effects/shuiwen_000
+  rotate: false
+  xy: 2, 734
+  size: 620, 288
+  orig: 636, 288
+  offset: 9, 0
+  index: -1
+
+skeleton2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/1_000
+  rotate: false
+  xy: 819, 20
+  size: 121, 66
+  orig: 127, 67
+  offset: 4, 1
+  index: -1
+effects/hailang/hailang_001
+  rotate: true
+  xy: 564, 11
+  size: 182, 69
+  orig: 184, 73
+  offset: 0, 0
+  index: -1
+effects/hailang/hailang_003
+  rotate: false
+  xy: 635, 17
+  size: 182, 69
+  orig: 184, 73
+  offset: 0, 0
+  index: -1
+effects/hailang/hailang_005
+  rotate: false
+  xy: 2, 2
+  size: 180, 70
+  orig: 184, 73
+  offset: 2, 0
+  index: -1
+effects/hailang/hailang_007
+  rotate: false
+  xy: 184, 2
+  size: 180, 70
+  orig: 184, 73
+  offset: 2, 0
+  index: -1
+effects/hailang/hailang_012
+  rotate: true
+  xy: 957, 570
+  size: 176, 65
+  orig: 184, 73
+  offset: 6, 5
+  index: -1
+effects/hailang1/hailang1_001
+  rotate: false
+  xy: 435, 423
+  size: 279, 112
+  orig: 279, 112
+  offset: 0, 0
+  index: -1
+effects/hailang1/hailang1_002
+  rotate: true
+  xy: 281, 226
+  size: 279, 112
+  orig: 279, 112
+  offset: 0, 0
+  index: -1
+effects/hailang1/hailang1_003
+  rotate: false
+  xy: 395, 309
+  size: 279, 112
+  orig: 279, 112
+  offset: 0, 0
+  index: -1
+effects/hailang1/hailang1_004
+  rotate: false
+  xy: 395, 195
+  size: 279, 112
+  orig: 279, 112
+  offset: 0, 0
+  index: -1
+effects/hailang1/hailang1_005
+  rotate: false
+  xy: 676, 202
+  size: 279, 112
+  orig: 279, 112
+  offset: 0, 0
+  index: -1
+effects/hailang1/hailang1_006
+  rotate: false
+  xy: 676, 88
+  size: 279, 112
+  orig: 279, 112
+  offset: 0, 0
+  index: -1
+effects/hailang1/hailang1_007
+  rotate: false
+  xy: 273, 81
+  size: 279, 112
+  orig: 279, 112
+  offset: 0, 0
+  index: -1
+effects/niao/niao_005
+  rotate: true
+  xy: 957, 168
+  size: 192, 59
+  orig: 214, 78
+  offset: 4, 4
+  index: -1
+effects/niao/niao_011
+  rotate: true
+  xy: 957, 2
+  size: 164, 53
+  orig: 214, 78
+  offset: 37, 9
+  index: -1
+effects/niao/niao_014
+  rotate: true
+  xy: 944, 362
+  size: 206, 54
+  orig: 214, 78
+  offset: 0, 9
+  index: -1
+effects/niao/niao_015
+  rotate: true
+  xy: 880, 332
+  size: 208, 62
+  orig: 214, 78
+  offset: 0, 6
+  index: -1
+effects/niao/niao_016
+  rotate: true
+  xy: 874, 542
+  size: 204, 66
+  orig: 214, 78
+  offset: 4, 4
+  index: -1
+effects/niao/niao_019
+  rotate: false
+  xy: 366, 10
+  size: 196, 69
+  orig: 214, 78
+  offset: 4, 1
+  index: -1
+effects/shanguang/shanguang_000
+  rotate: false
+  xy: 2, 74
+  size: 269, 142
+  orig: 287, 143
+  offset: 7, 1
+  index: -1
+effects/shanguang/shanguang_001
+  rotate: false
+  xy: 2, 218
+  size: 270, 143
+  orig: 287, 143
+  offset: 7, 0
+  index: -1
+effects/shanguang/shanguang_002
+  rotate: true
+  xy: 872, 748
+  size: 274, 138
+  orig: 287, 143
+  offset: 6, 1
+  index: -1
+effects/shanguang/shanguang_003
+  rotate: false
+  xy: 2, 363
+  size: 277, 142
+  orig: 287, 143
+  offset: 4, 1
+  index: -1
+effects/shanguang/shanguang_004
+  rotate: false
+  xy: 435, 537
+  size: 275, 141
+  orig: 287, 143
+  offset: 5, 2
+  index: -1
+effects/shu1_000
+  rotate: false
+  xy: 716, 316
+  size: 162, 221
+  orig: 167, 226
+  offset: 4, 4
+  index: -1
+effects/shuibo1/shuibo1_002
+  rotate: false
+  xy: 437, 680
+  size: 431, 170
+  orig: 433, 171
+  offset: 0, 0
+  index: -1
+effects/shuibo1/shuibo1_003
+  rotate: false
+  xy: 2, 507
+  size: 431, 171
+  orig: 433, 171
+  offset: 0, 0
+  index: -1
+effects/shuibo1/shuibo1_006
+  rotate: false
+  xy: 2, 852
+  size: 433, 170
+  orig: 433, 171
+  offset: 0, 1
+  index: -1
+effects/shuibo1/shuibo1_007
+  rotate: false
+  xy: 2, 680
+  size: 433, 170
+  orig: 433, 171
+  offset: 0, 0
+  index: -1
+effects/shuibo1/shuibo1_008
+  rotate: false
+  xy: 437, 852
+  size: 433, 170
+  orig: 433, 171
+  offset: 0, 0
+  index: -1
+effects/yazi_000
+  rotate: false
+  xy: 712, 539
+  size: 160, 139
+  orig: 162, 142
+  offset: 1, 1
+  index: -1
+
+skeleton3.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/3_000
+  rotate: true
+  xy: 181, 125
+  size: 145, 60
+  orig: 156, 65
+  offset: 11, 2
+  index: -1
+effects/hailang/hailang_009
+  rotate: false
+  xy: 2, 204
+  size: 177, 66
+  orig: 184, 73
+  offset: 5, 4
+  index: -1
+effects/hailang/hailang_010
+  rotate: false
+  xy: 2, 136
+  size: 177, 66
+  orig: 184, 73
+  offset: 5, 4
+  index: -1
+effects/hailang/hailang_011
+  rotate: false
+  xy: 2, 68
+  size: 176, 66
+  orig: 184, 73
+  offset: 6, 4
+  index: -1
+effects/hailang/hailang_013
+  rotate: false
+  xy: 2, 2
+  size: 176, 64
+  orig: 184, 73
+  offset: 6, 6
+  index: -1
+effects/hailang1/hailang1_008
+  rotate: false
+  xy: 2, 395
+  size: 279, 112
+  orig: 279, 112
+  offset: 0, 0
+  index: -1
+effects/niao/niao_000
+  rotate: true
+  xy: 243, 101
+  size: 169, 61
+  orig: 214, 78
+  offset: 9, 9
+  index: -1
+effects/niao/niao_002
+  rotate: false
+  xy: 194, 327
+  size: 172, 63
+  orig: 214, 78
+  offset: 12, 7
+  index: -1
+effects/niao/niao_003
+  rotate: true
+  xy: 306, 101
+  size: 169, 57
+  orig: 214, 78
+  offset: 17, 5
+  index: -1
+effects/niao/niao_004
+  rotate: false
+  xy: 180, 39
+  size: 170, 60
+  orig: 214, 78
+  offset: 21, 3
+  index: -1
+effects/niao/niao_006
+  rotate: false
+  xy: 2, 332
+  size: 190, 61
+  orig: 214, 78
+  offset: 10, 5
+  index: -1
+effects/niao/niao_007
+  rotate: false
+  xy: 283, 447
+  size: 189, 60
+  orig: 214, 78
+  offset: 16, 6
+  index: -1
+effects/niao/niao_008
+  rotate: false
+  xy: 2, 272
+  size: 189, 58
+  orig: 214, 78
+  offset: 22, 8
+  index: -1
+effects/niao/niao_009
+  rotate: false
+  xy: 283, 392
+  size: 186, 53
+  orig: 214, 78
+  offset: 28, 9
+  index: -1
+effects/niao/niao_010
+  rotate: false
+  xy: 193, 272
+  size: 166, 53
+  orig: 214, 78
+  offset: 32, 9
+  index: -1
+effects/niao/niao_012
+  rotate: true
+  xy: 368, 227
+  size: 163, 49
+  orig: 214, 78
+  offset: 41, 10
+  index: -1
+effects/niao/niao_013
+  rotate: true
+  xy: 419, 231
+  size: 159, 47
+  orig: 214, 78
+  offset: 45, 11
+  index: -1

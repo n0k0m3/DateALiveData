@@ -1,0 +1,34 @@
+
+summon_1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shang_00000
+  rotate: false
+  xy: 2, 116
+  size: 485, 224
+  orig: 485, 224
+  offset: 0, 0
+  index: -1
+texiao/lizi11_00006
+  rotate: false
+  xy: 2, 54
+  size: 61, 60
+  orig: 70, 70
+  offset: 8, 8
+  index: -1
+texiao/zcdadad_00002
+  rotate: false
+  xy: 2, 342
+  size: 816, 632
+  orig: 816, 632
+  offset: 0, 0
+  index: -1
+zhong_00000
+  rotate: false
+  xy: 489, 116
+  size: 485, 224
+  orig: 485, 224
+  offset: 0, 0
+  index: -1

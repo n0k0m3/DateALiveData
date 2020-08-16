@@ -1,0 +1,62 @@
+
+effects_10305_skillA1.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skilla_new/dandao/dandao_00000
+  rotate: false
+  xy: 2, 410
+  size: 242, 91
+  orig: 250, 100
+  offset: 1, 4
+  index: -1
+effects/skilla_new/dandao/dandao_00001
+  rotate: false
+  xy: 2, 318
+  size: 242, 90
+  orig: 250, 100
+  offset: 0, 5
+  index: -1
+effects/skilla_new/dandao/dandao_00002
+  rotate: false
+  xy: 246, 417
+  size: 242, 84
+  orig: 250, 100
+  offset: 0, 10
+  index: -1
+effects/skilla_new/dandao/dandao_00003
+  rotate: false
+  xy: 2, 232
+  size: 231, 84
+  orig: 250, 100
+  offset: 11, 10
+  index: -1
+effects/skilla_new/dandao/dandao_00004
+  rotate: false
+  xy: 2, 151
+  size: 221, 79
+  orig: 250, 100
+  offset: 21, 10
+  index: -1
+effects/skilla_new/dandao/dandao_00005
+  rotate: false
+  xy: 2, 2
+  size: 209, 70
+  orig: 250, 100
+  offset: 33, 10
+  index: -1
+effects/skilla_new/dandao/dandao_00006
+  rotate: false
+  xy: 2, 74
+  size: 215, 75
+  orig: 250, 100
+  offset: 27, 9
+  index: -1
+effects/skilla_new/dandao/dandao_00007
+  rotate: false
+  xy: 246, 342
+  size: 232, 73
+  orig: 250, 100
+  offset: 11, 8
+  index: -1

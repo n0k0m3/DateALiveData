@@ -1,0 +1,264 @@
+
+buff_wd.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/buff_20_a/wudi_a_0001
+  rotate: false
+  xy: 803, 38
+  size: 133, 145
+  orig: 280, 280
+  offset: 76, 57
+  index: -1
+effects/buff_20_a/wudi_a_0003
+  rotate: true
+  xy: 394, 503
+  size: 169, 164
+  orig: 280, 280
+  offset: 63, 49
+  index: -1
+effects/buff_20_a/wudi_a_0004
+  rotate: false
+  xy: 2, 2
+  size: 171, 169
+  orig: 280, 280
+  offset: 63, 46
+  index: -1
+effects/buff_20_a/wudi_a_0005
+  rotate: false
+  xy: 188, 173
+  size: 170, 167
+  orig: 280, 280
+  offset: 63, 46
+  index: -1
+effects/buff_20_a/wudi_a_0006
+  rotate: true
+  xy: 560, 503
+  size: 169, 161
+  orig: 280, 280
+  offset: 63, 48
+  index: -1
+effects/buff_20_a/wudi_a_0007
+  rotate: false
+  xy: 356, 349
+  size: 165, 152
+  orig: 280, 280
+  offset: 63, 52
+  index: -1
+effects/buff_20_a/wudi_a_0008
+  rotate: false
+  xy: 811, 357
+  size: 158, 147
+  orig: 280, 280
+  offset: 63, 58
+  index: -1
+effects/buff_20_a/wudi_a_0009
+  rotate: true
+  xy: 855, 197
+  size: 158, 141
+  orig: 280, 280
+  offset: 63, 65
+  index: -1
+effects/buff_20_a/wudi_a_0010
+  rotate: true
+  xy: 512, 15
+  size: 158, 141
+  orig: 280, 280
+  offset: 63, 65
+  index: -1
+effects/buff_20_a/wudi_a_0011
+  rotate: false
+  xy: 629, 674
+  size: 168, 167
+  orig: 280, 280
+  offset: 63, 46
+  index: -1
+effects/buff_20_a/wudi_a_0012
+  rotate: true
+  xy: 175, 2
+  size: 169, 168
+  orig: 280, 280
+  offset: 63, 48
+  index: -1
+effects/buff_20_a/wudi_a_0013
+  rotate: false
+  xy: 284, 674
+  size: 172, 165
+  orig: 280, 280
+  offset: 63, 52
+  index: -1
+effects/buff_20_a/wudi_a_0014
+  rotate: false
+  xy: 220, 506
+  size: 172, 166
+  orig: 280, 280
+  offset: 63, 52
+  index: -1
+effects/buff_20_a/wudi_a_0015
+  rotate: true
+  xy: 360, 175
+  size: 172, 166
+  orig: 280, 280
+  offset: 63, 52
+  index: -1
+effects/buff_20_a/wudi_a_0016
+  rotate: true
+  xy: 345, 2
+  size: 169, 165
+  orig: 280, 280
+  offset: 63, 52
+  index: -1
+effects/buff_20_a/wudi_a_0017
+  rotate: false
+  xy: 458, 674
+  size: 169, 165
+  orig: 280, 280
+  offset: 63, 52
+  index: -1
+effects/buff_20_a/wudi_a_0018
+  rotate: true
+  xy: 528, 178
+  size: 169, 163
+  orig: 280, 280
+  offset: 63, 53
+  index: -1
+effects/buff_20_a/wudi_a_0019
+  rotate: false
+  xy: 799, 685
+  size: 166, 163
+  orig: 280, 280
+  offset: 64, 53
+  index: -1
+effects/buff_20_a/wudi_a_0020
+  rotate: true
+  xy: 693, 185
+  size: 164, 160
+  orig: 280, 280
+  offset: 64, 52
+  index: -1
+effects/buff_20_a/wudi_a_0021
+  rotate: false
+  xy: 655, 19
+  size: 146, 157
+  orig: 280, 280
+  offset: 77, 52
+  index: -1
+effects/buff_20_a/wudi_a_0022
+  rotate: false
+  xy: 888, 532
+  size: 132, 151
+  orig: 280, 280
+  offset: 77, 55
+  index: -1
+effects/buff_20_a/wudi_a_0023
+  rotate: false
+  xy: 676, 351
+  size: 133, 150
+  orig: 280, 280
+  offset: 76, 56
+  index: -1
+effects/buff_20_begin/wudi_b_0001
+  rotate: false
+  xy: 835, 850
+  size: 172, 172
+  orig: 280, 280
+  offset: 54, 54
+  index: -1
+effects/buff_20_begin/wudi_b_0002
+  rotate: true
+  xy: 723, 506
+  size: 166, 163
+  orig: 280, 280
+  offset: 58, 61
+  index: -1
+effects/buff_20_begin/wudi_b_0003
+  rotate: true
+  xy: 523, 349
+  size: 152, 151
+  orig: 280, 280
+  offset: 63, 66
+  index: -1
+effects/buff_20_begin/wudi_b_0005
+  rotate: false
+  xy: 2, 742
+  size: 280, 280
+  orig: 280, 280
+  offset: 0, 0
+  index: -1
+effects/buff_20_begin/wudi_b_0007
+  rotate: false
+  xy: 2, 173
+  size: 184, 167
+  orig: 280, 280
+  offset: 48, 49
+  index: -1
+effects/buff_20_begin/wudi_b_0008
+  rotate: false
+  xy: 2, 523
+  size: 216, 217
+  orig: 280, 280
+  offset: 31, 34
+  index: -1
+effects/buff_20_begin/wudi_b_0009
+  rotate: false
+  xy: 2, 342
+  size: 185, 179
+  orig: 280, 280
+  offset: 48, 49
+  index: -1
+effects/buff_20_begin/wudi_b_0010
+  rotate: false
+  xy: 284, 841
+  size: 185, 181
+  orig: 280, 280
+  offset: 48, 50
+  index: -1
+effects/buff_20_begin/wudi_b_0011
+  rotate: false
+  xy: 471, 843
+  size: 183, 179
+  orig: 280, 280
+  offset: 49, 51
+  index: -1
+effects/buff_20_begin/wudi_b_0012
+  rotate: false
+  xy: 656, 850
+  size: 177, 172
+  orig: 280, 280
+  offset: 52, 53
+  index: -1
+effects/buff_20_begin/wudi_b_0013
+  rotate: false
+  xy: 189, 342
+  size: 165, 162
+  orig: 280, 280
+  offset: 57, 63
+  index: -1
+
+buff_wd2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/buff_20_a/wudi_a_0002
+  rotate: false
+  xy: 2, 2
+  size: 130, 141
+  orig: 280, 280
+  offset: 80, 60
+  index: -1
+effects/buff_20_begin/wudi_b_0004
+  rotate: false
+  xy: 136, 156
+  size: 131, 130
+  orig: 280, 280
+  offset: 75, 75
+  index: -1
+effects/buff_20_begin/wudi_b_0006
+  rotate: false
+  xy: 2, 145
+  size: 132, 141
+  orig: 280, 280
+  offset: 89, 51
+  index: -1

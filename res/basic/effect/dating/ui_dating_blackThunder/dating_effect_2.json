@@ -1,0 +1,348 @@
+{
+"skeleton": { "hash": "IKNzPPoZTESiCW3gX8PsgBLIOJE", "spine": "2.1.27", "width": 0, "height": 0, "images": "./effect/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "BG", "parent": "root", "scaleX": 10, "scaleY": 10 },
+	{ "name": "bone2", "parent": "root", "x": -451.5, "y": -204.29, "scaleX": 2, "scaleY": 2, "rotation": 340 },
+	{ "name": "bone3", "parent": "root", "x": -408.6, "y": 220.64, "scaleX": -2, "scaleY": 2, "rotation": 20 },
+	{ "name": "bone4", "parent": "root", "x": 441.28, "y": 220.64, "scaleX": -2, "scaleY": 2, "rotation": 340 },
+	{ "name": "bone5", "parent": "root", "x": 398.38, "y": -198.17, "scaleX": 2, "scaleY": 2, "rotation": 20 }
+],
+"slots": [
+	{ "name": "zidian/BG_000", "bone": "BG" },
+	{ "name": "zidian/zidian2_000", "bone": "bone2" },
+	{ "name": "zidian/zidian2_0", "bone": "bone3" },
+	{ "name": "zidian/zidian2_2", "bone": "bone5" },
+	{ "name": "zidian/zidian2_1", "bone": "bone4" },
+	{ "name": "zidian/zidian1_000", "bone": "bone2", "blend": "additive" },
+	{ "name": "zidian/zidian1_0", "bone": "bone3", "blend": "additive" },
+	{ "name": "zidian/zidian1_2", "bone": "bone5", "blend": "additive" },
+	{ "name": "zidian/zidian1_1", "bone": "bone4", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"zidian/BG_000": {
+			"zidian/BG_000": { "width": 139, "height": 64 }
+		},
+		"zidian/zidian1_0": {
+			"zidian/zidian1_001": { "width": 400, "height": 160 },
+			"zidian/zidian1_004": { "width": 400, "height": 160 },
+			"zidian/zidian1_006": { "width": 400, "height": 160 },
+			"zidian/zidian1_008": { "width": 400, "height": 160 },
+			"zidian/zidian1_010": { "width": 400, "height": 160 },
+			"zidian/zidian1_012": { "width": 400, "height": 160 },
+			"zidian/zidian1_014": { "width": 400, "height": 160 },
+			"zidian/zidian1_015": { "width": 400, "height": 160 },
+			"zidian/zidian1_016": { "width": 400, "height": 160 },
+			"zidian/zidian1_018": { "width": 400, "height": 160 }
+		},
+		"zidian/zidian1_000": {
+			"zidian/zidian1_001": { "width": 400, "height": 160 },
+			"zidian/zidian1_004": { "width": 400, "height": 160 },
+			"zidian/zidian1_006": { "width": 400, "height": 160 },
+			"zidian/zidian1_008": { "width": 400, "height": 160 },
+			"zidian/zidian1_010": { "width": 400, "height": 160 },
+			"zidian/zidian1_012": { "width": 400, "height": 160 },
+			"zidian/zidian1_014": { "width": 400, "height": 160 },
+			"zidian/zidian1_015": { "width": 400, "height": 160 },
+			"zidian/zidian1_016": { "width": 400, "height": 160 },
+			"zidian/zidian1_018": { "width": 400, "height": 160 }
+		},
+		"zidian/zidian1_1": {
+			"zidian/zidian1_001": { "width": 400, "height": 160 },
+			"zidian/zidian1_004": { "width": 400, "height": 160 },
+			"zidian/zidian1_006": { "width": 400, "height": 160 },
+			"zidian/zidian1_008": { "width": 400, "height": 160 },
+			"zidian/zidian1_010": { "width": 400, "height": 160 },
+			"zidian/zidian1_012": { "width": 400, "height": 160 },
+			"zidian/zidian1_014": { "width": 400, "height": 160 },
+			"zidian/zidian1_015": { "width": 400, "height": 160 },
+			"zidian/zidian1_016": { "width": 400, "height": 160 },
+			"zidian/zidian1_018": { "width": 400, "height": 160 }
+		},
+		"zidian/zidian1_2": {
+			"zidian/zidian1_001": { "width": 400, "height": 160 },
+			"zidian/zidian1_004": { "width": 400, "height": 160 },
+			"zidian/zidian1_006": { "width": 400, "height": 160 },
+			"zidian/zidian1_008": { "width": 400, "height": 160 },
+			"zidian/zidian1_010": { "width": 400, "height": 160 },
+			"zidian/zidian1_012": { "width": 400, "height": 160 },
+			"zidian/zidian1_014": { "width": 400, "height": 160 },
+			"zidian/zidian1_015": { "width": 400, "height": 160 },
+			"zidian/zidian1_016": { "width": 400, "height": 160 },
+			"zidian/zidian1_018": { "width": 400, "height": 160 }
+		},
+		"zidian/zidian2_0": {
+			"zidian/zidian2_000": { "width": 400, "height": 160 },
+			"zidian/zidian2_001": { "width": 400, "height": 160 },
+			"zidian/zidian2_003": { "width": 400, "height": 160 },
+			"zidian/zidian2_005": { "width": 400, "height": 160 },
+			"zidian/zidian2_007": { "width": 400, "height": 160 },
+			"zidian/zidian2_009": { "width": 400, "height": 160 },
+			"zidian/zidian2_011": { "width": 400, "height": 160 },
+			"zidian/zidian2_013": { "width": 400, "height": 160 },
+			"zidian/zidian2_015": { "width": 400, "height": 160 }
+		},
+		"zidian/zidian2_000": {
+			"zidian/zidian2_000": { "width": 400, "height": 160 },
+			"zidian/zidian2_001": { "width": 400, "height": 160 },
+			"zidian/zidian2_003": { "width": 400, "height": 160 },
+			"zidian/zidian2_005": { "width": 400, "height": 160 },
+			"zidian/zidian2_007": { "width": 400, "height": 160 },
+			"zidian/zidian2_009": { "width": 400, "height": 160 },
+			"zidian/zidian2_011": { "width": 400, "height": 160 },
+			"zidian/zidian2_013": { "width": 400, "height": 160 },
+			"zidian/zidian2_015": { "width": 400, "height": 160 }
+		},
+		"zidian/zidian2_1": {
+			"zidian/zidian2_000": { "width": 400, "height": 160 },
+			"zidian/zidian2_001": { "width": 400, "height": 160 },
+			"zidian/zidian2_003": { "width": 400, "height": 160 },
+			"zidian/zidian2_005": { "width": 400, "height": 160 },
+			"zidian/zidian2_007": { "width": 400, "height": 160 },
+			"zidian/zidian2_009": { "width": 400, "height": 160 },
+			"zidian/zidian2_011": { "width": 400, "height": 160 },
+			"zidian/zidian2_013": { "width": 400, "height": 160 },
+			"zidian/zidian2_015": { "width": 400, "height": 160 }
+		},
+		"zidian/zidian2_2": {
+			"zidian/zidian2_000": { "width": 400, "height": 160 },
+			"zidian/zidian2_001": { "width": 400, "height": 160 },
+			"zidian/zidian2_003": { "width": 400, "height": 160 },
+			"zidian/zidian2_005": { "width": 400, "height": 160 },
+			"zidian/zidian2_007": { "width": 400, "height": 160 },
+			"zidian/zidian2_009": { "width": 400, "height": 160 },
+			"zidian/zidian2_011": { "width": 400, "height": 160 },
+			"zidian/zidian2_013": { "width": 400, "height": 160 },
+			"zidian/zidian2_015": { "width": 400, "height": 160 }
+		}
+	}
+},
+"animations": {
+	"dating_effect_2": {
+		"slots": {
+			"zidian/BG_000": {
+				"attachment": [
+					{ "time": 0, "name": "zidian/BG_000" }
+				]
+			},
+			"zidian/zidian1_000": {
+				"attachment": [
+					{ "time": 0, "name": "zidian/zidian1_012" },
+					{ "time": 0.0666, "name": "zidian/zidian1_014" },
+					{ "time": 0.1333, "name": "zidian/zidian1_015" },
+					{ "time": 0.2, "name": "zidian/zidian1_016" },
+					{ "time": 0.2666, "name": "zidian/zidian1_018" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 1, "name": "zidian/zidian1_001" },
+					{ "time": 1.0666, "name": "zidian/zidian1_004" },
+					{ "time": 1.1333, "name": "zidian/zidian1_006" },
+					{ "time": 1.2, "name": "zidian/zidian1_008" },
+					{ "time": 1.2666, "name": "zidian/zidian1_010" }
+				]
+			},
+			"zidian/zidian1_0": {
+				"attachment": [
+					{ "time": 0, "name": "zidian/zidian1_001" },
+					{ "time": 0.0666, "name": "zidian/zidian1_004" },
+					{ "time": 0.1333, "name": "zidian/zidian1_006" },
+					{ "time": 0.2, "name": "zidian/zidian1_008" },
+					{ "time": 0.2666, "name": "zidian/zidian1_010" },
+					{ "time": 0.3333, "name": "zidian/zidian1_012" },
+					{ "time": 0.4, "name": "zidian/zidian1_014" },
+					{ "time": 0.4666, "name": "zidian/zidian1_015" },
+					{ "time": 0.5333, "name": "zidian/zidian1_016" },
+					{ "time": 0.6, "name": "zidian/zidian1_018" },
+					{ "time": 0.6666, "name": null }
+				]
+			},
+			"zidian/zidian1_1": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.3333, "name": "zidian/zidian1_001" },
+					{ "time": 0.4, "name": "zidian/zidian1_004" },
+					{ "time": 0.4666, "name": "zidian/zidian1_006" },
+					{ "time": 0.5333, "name": "zidian/zidian1_008" },
+					{ "time": 0.6, "name": "zidian/zidian1_010" },
+					{ "time": 0.6666, "name": "zidian/zidian1_012" },
+					{ "time": 0.7333, "name": "zidian/zidian1_014" },
+					{ "time": 0.8, "name": "zidian/zidian1_015" },
+					{ "time": 0.8666, "name": "zidian/zidian1_016" },
+					{ "time": 0.9333, "name": "zidian/zidian1_018" },
+					{ "time": 1, "name": null }
+				]
+			},
+			"zidian/zidian1_2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.6666, "name": "zidian/zidian1_001" },
+					{ "time": 0.7333, "name": "zidian/zidian1_004" },
+					{ "time": 0.8, "name": "zidian/zidian1_006" },
+					{ "time": 0.8666, "name": "zidian/zidian1_008" },
+					{ "time": 0.9333, "name": "zidian/zidian1_010" },
+					{ "time": 1, "name": "zidian/zidian1_012" },
+					{ "time": 1.0666, "name": "zidian/zidian1_014" },
+					{ "time": 1.1333, "name": "zidian/zidian1_015" },
+					{ "time": 1.2, "name": "zidian/zidian1_016" },
+					{ "time": 1.2666, "name": "zidian/zidian1_018" },
+					{ "time": 1.3333, "name": null }
+				]
+			},
+			"zidian/zidian2_000": {
+				"attachment": [
+					{ "time": 0, "name": "zidian/zidian2_007" },
+					{ "time": 0.0333, "name": null },
+					{ "time": 0.0666, "name": "zidian/zidian2_009" },
+					{ "time": 0.1, "name": null },
+					{ "time": 0.1333, "name": "zidian/zidian2_011" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.2, "name": "zidian/zidian2_013" },
+					{ "time": 0.2333, "name": null },
+					{ "time": 0.2666, "name": "zidian/zidian2_015" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 1, "name": null },
+					{ "time": 1.0666, "name": "zidian/zidian2_000" },
+					{ "time": 1.1, "name": null },
+					{ "time": 1.1333, "name": "zidian/zidian2_001" },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.2, "name": "zidian/zidian2_003" },
+					{ "time": 1.2333, "name": null },
+					{ "time": 1.2666, "name": "zidian/zidian2_005" },
+					{ "time": 1.3, "name": null }
+				]
+			},
+			"zidian/zidian2_0": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0666, "name": "zidian/zidian2_000" },
+					{ "time": 0.1, "name": null },
+					{ "time": 0.1333, "name": "zidian/zidian2_001" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.2, "name": "zidian/zidian2_003" },
+					{ "time": 0.2333, "name": null },
+					{ "time": 0.2666, "name": "zidian/zidian2_005" },
+					{ "time": 0.3, "name": null },
+					{ "time": 0.3333, "name": "zidian/zidian2_007" },
+					{ "time": 0.3666, "name": null },
+					{ "time": 0.4, "name": "zidian/zidian2_009" },
+					{ "time": 0.4333, "name": null },
+					{ "time": 0.4666, "name": "zidian/zidian2_011" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.5333, "name": "zidian/zidian2_013" },
+					{ "time": 0.5666, "name": null },
+					{ "time": 0.6, "name": "zidian/zidian2_015" },
+					{ "time": 0.6666, "name": null }
+				]
+			},
+			"zidian/zidian2_1": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.4, "name": "zidian/zidian2_000" },
+					{ "time": 0.4333, "name": null },
+					{ "time": 0.4666, "name": "zidian/zidian2_001" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.5333, "name": "zidian/zidian2_003" },
+					{ "time": 0.5666, "name": null },
+					{ "time": 0.6, "name": "zidian/zidian2_005" },
+					{ "time": 0.6333, "name": null },
+					{ "time": 0.6666, "name": "zidian/zidian2_007" },
+					{ "time": 0.7, "name": null },
+					{ "time": 0.7333, "name": "zidian/zidian2_009" },
+					{ "time": 0.7666, "name": null },
+					{ "time": 0.8, "name": "zidian/zidian2_011" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 0.8666, "name": "zidian/zidian2_013" },
+					{ "time": 0.9, "name": null },
+					{ "time": 0.9333, "name": "zidian/zidian2_015" },
+					{ "time": 1, "name": null }
+				]
+			},
+			"zidian/zidian2_2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.7333, "name": "zidian/zidian2_000" },
+					{ "time": 0.7666, "name": null },
+					{ "time": 0.8, "name": "zidian/zidian2_001" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 0.8666, "name": "zidian/zidian2_003" },
+					{ "time": 0.9, "name": null },
+					{ "time": 0.9333, "name": "zidian/zidian2_005" },
+					{ "time": 0.9666, "name": null },
+					{ "time": 1, "name": "zidian/zidian2_007" },
+					{ "time": 1.0333, "name": null },
+					{ "time": 1.0666, "name": "zidian/zidian2_009" },
+					{ "time": 1.1, "name": null },
+					{ "time": 1.1333, "name": "zidian/zidian2_011" },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.2, "name": "zidian/zidian2_013" },
+					{ "time": 1.2333, "name": null },
+					{ "time": 1.2666, "name": "zidian/zidian2_015" },
+					{ "time": 1.3333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"BG": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"bone2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"bone3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"bone4": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -12.54, "y": -16.72 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"bone5": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -18.81, "y": -14.63 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	}
+}
+}

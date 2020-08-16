@@ -1,0 +1,107 @@
+{
+"skeleton": {
+	"hash": "dPWHQyZ498WiL/0U9iyFQ92qQr8",
+	"spine": "2.1.27",
+	"width": 293,
+	"height": 248,
+	"images": "F:/路淇文特效工作/UI特效/内存优化尺寸需要修改的特效/shixiangzidan/images"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "zong", "parent": "root" },
+	{ "name": "daoguanzidan", "parent": "zong" },
+	{ "name": "daoguanzidanliang", "parent": "zong" }
+],
+"slots": [
+	{ "name": "daoguanzidan0001", "bone": "daoguanzidan", "attachment": "daoguanzidan0001" },
+	{ "name": "bdbox", "bone": "zong", "attachment": "bdbox" },
+	{ "name": "daoguanzidanliang", "bone": "daoguanzidanliang", "attachment": "daoguanzidanliang" }
+],
+"skins": {
+	"default": {
+		"bdbox": {
+			"bdbox": {
+				"type": "boundingbox",
+				"vertices": [ -90.24451, 105.6525, -90.2446, -109.13245, 140.77026, -109.13242, 140.77031, 105.65244 ]
+			}
+		},
+		"daoguanzidan0001": {
+			"daoguanzidan0001": { "width": 293, "height": 248 }
+		},
+		"daoguanzidanliang": {
+			"daoguanzidanliang": { "width": 293, "height": 248 }
+		}
+	}
+},
+"animations": {
+	"shixiangzidan": {
+		"slots": {
+			"daoguanzidan0001": {
+				"attachment": [
+					{ "time": 0, "name": "daoguanzidan0001" },
+					{ "time": 0.1666, "name": "daoguanzidan0001" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1666, "color": "ffffffff" }
+				]
+			},
+			"daoguanzidanliang": {
+				"attachment": [
+					{ "time": 0, "name": "daoguanzidanliang" },
+					{ "time": 0.1666, "name": "daoguanzidanliang" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.1, "color": "ffffff47" },
+					{ "time": 0.1666, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"daoguanzidan": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1666, "x": 1, "y": 1 }
+				]
+			},
+			"daoguanzidanliang": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1666, "x": 1, "y": 1 }
+				]
+			},
+			"zong": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1666, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

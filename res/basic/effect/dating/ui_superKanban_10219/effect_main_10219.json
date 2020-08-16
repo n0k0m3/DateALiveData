@@ -1,0 +1,92 @@
+{
+"skeleton": { "hash": "xMVYSS6YUOA9zUTRsu9kDuXPeCE", "spine": "2.1.27", "width": 0, "height": 0, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "0000", "parent": "root" },
+	{ "name": "guangzong", "parent": "0000" },
+	{ "name": "daguang", "parent": "guangzong", "x": -182.32, "y": 134.56 }
+],
+"slots": [
+	{ "name": "glow", "bone": "daguang" },
+	{ "name": "glow2", "bone": "daguang", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"glow": {
+			"glow": { "x": 182.32, "y": -134.56, "width": 594, "height": 244 }
+		},
+		"glow2": {
+			"glow": { "x": 182.32, "y": -134.56, "width": 594, "height": 244 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"glow": {
+				"attachment": [
+					{ "time": 6.6666, "name": "glow" },
+					{ "time": 30, "name": null }
+				],
+				"color": [
+					{
+						"time": 6.6666,
+						"color": "ffffff00",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 10.8333,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 15, "color": "ffffff00" }
+				]
+			},
+			"glow2": {
+				"attachment": [
+					{ "time": 6.6666, "name": "glow" }
+				],
+				"color": [
+					{
+						"time": 6.6666,
+						"color": "ffffff00",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 10.8333,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 15, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"daguang": {
+				"rotate": [
+					{
+						"time": 6.6666,
+						"angle": 2.62,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 15, "angle": 320.62 }
+				],
+				"translate": [
+					{ "time": 0, "x": -186.43, "y": 227.91, "curve": "stepped" },
+					{ "time": 6.6666, "x": -186.43, "y": 227.91 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2.8, "y": 2.8, "curve": "stepped" },
+					{
+						"time": 6.6666,
+						"x": 2.8,
+						"y": 2.8,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 15, "x": 2.3, "y": 2.3 }
+				]
+			}
+		}
+	}
+}
+}

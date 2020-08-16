@@ -1,0 +1,83 @@
+
+effects_20701_skillA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tx/sx/sx0001
+  rotate: false
+  xy: 657, 322
+  size: 70, 142
+  orig: 112, 196
+  offset: 0, 12
+  index: -1
+tx/sx/sx0003
+  rotate: true
+  xy: 2, 5
+  size: 97, 180
+  orig: 112, 196
+  offset: 2, 14
+  index: -1
+tx/sx/sx0005
+  rotate: false
+  xy: 918, 845
+  size: 103, 176
+  orig: 112, 196
+  offset: 7, 16
+  index: -1
+tx/sx/sx0007
+  rotate: true
+  xy: 184, 31
+  size: 71, 179
+  orig: 112, 196
+  offset: 35, 8
+  index: -1
+tx/sx/sx0009
+  rotate: false
+  xy: 918, 744
+  size: 64, 99
+  orig: 112, 196
+  offset: 26, 10
+  index: -1
+tx/zhuanzi2/zzia0001
+  rotate: false
+  xy: 463, 299
+  size: 192, 165
+  orig: 476, 366
+  offset: 227, 201
+  index: -1
+tx/zhuanzi2/zzia0003
+  rotate: false
+  xy: 2, 697
+  size: 463, 324
+  orig: 476, 366
+  offset: 13, 9
+  index: -1
+tx/zhuanzi2/zzia0004
+  rotate: false
+  xy: 2, 375
+  size: 459, 320
+  orig: 476, 366
+  offset: 4, 12
+  index: -1
+tx/zhuanzi2/zzia0006
+  rotate: false
+  xy: 467, 738
+  size: 449, 283
+  orig: 476, 366
+  offset: 4, 14
+  index: -1
+tx/zhuanzi2/zzia0008
+  rotate: false
+  xy: 2, 104
+  size: 449, 269
+  orig: 476, 366
+  offset: 4, 27
+  index: -1
+tx/zhuanzi2/zzia0009
+  rotate: false
+  xy: 467, 466
+  size: 385, 270
+  orig: 476, 366
+  offset: 64, 27
+  index: -1

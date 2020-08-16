@@ -1,0 +1,544 @@
+
+effects_10901_skillH.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/baibao_00027
+  rotate: false
+  xy: 276, 383
+  size: 42, 42
+  orig: 48, 48
+  offset: 3, 3
+  index: -1
+effect/born/shangshengyuansun/shangshengyuansun_00027
+  rotate: true
+  xy: 375, 846
+  size: 113, 332
+  orig: 188, 356
+  offset: 39, 17
+  index: -1
+effect/skillA/daoguang1/dao1a/dao1a_00008
+  rotate: true
+  xy: 375, 642
+  size: 202, 324
+  orig: 297, 324
+  offset: 94, 0
+  index: -1
+effect/skillA/daoguang1/dao1a/dao1a_00009
+  rotate: true
+  xy: 2, 536
+  size: 295, 324
+  orig: 297, 324
+  offset: 1, 0
+  index: -1
+effect/skillA/daoguang1/dao1a/dao1a_00010
+  rotate: true
+  xy: 375, 349
+  size: 291, 315
+  orig: 297, 324
+  offset: 4, 0
+  index: -1
+effect/skillA/daoguang1/dao1a/dao1a_00011
+  rotate: true
+  xy: 375, 60
+  size: 287, 311
+  orig: 297, 324
+  offset: 5, 0
+  index: -1
+effect/skillA/daoguang1/dao1n/dao1n_00009
+  rotate: true
+  xy: 2, 370
+  size: 164, 272
+  orig: 297, 324
+  offset: 105, 27
+  index: -1
+effect/skillA/daoguang1/dao1n/dao1n_00010
+  rotate: true
+  xy: 747, 720
+  size: 252, 273
+  orig: 297, 324
+  offset: 17, 27
+  index: -1
+effect/skillA/daoguang1/dao1n/dao1n_00011
+  rotate: false
+  xy: 2, 3
+  size: 251, 270
+  orig: 297, 324
+  offset: 17, 27
+  index: -1
+effect/skillA/daoguang1/dao1n/dao1n_00012
+  rotate: true
+  xy: 747, 470
+  size: 248, 273
+  orig: 297, 324
+  offset: 17, 26
+  index: -1
+effect/skillA/daoguang1/dao1n/dao1n_00013
+  rotate: true
+  xy: 746, 244
+  size: 224, 273
+  orig: 297, 324
+  offset: 39, 26
+  index: -1
+effect/skillC/huana_00010
+  rotate: true
+  xy: 820, 100
+  size: 89, 201
+  orig: 89, 201
+  offset: 0, 0
+  index: -1
+effect/skillC/huanm_00010
+  rotate: false
+  xy: 752, 8
+  size: 66, 181
+  orig: 89, 201
+  offset: 15, 10
+  index: -1
+effect/skillC/jiantou/jiantouma_00015
+  rotate: true
+  xy: 332, 813
+  size: 99, 41
+  orig: 140, 74
+  offset: 0, 11
+  index: -1
+effect/skillC/jiantou/jiantoun_00012
+  rotate: true
+  xy: 276, 427
+  size: 107, 50
+  orig: 140, 74
+  offset: 25, 4
+  index: -1
+effect/skillC/jiantou/jiantoun_00016
+  rotate: false
+  xy: 528, 2
+  size: 89, 25
+  orig: 140, 74
+  offset: 4, 19
+  index: -1
+effect/skillC/wenlia/wenlia_00045
+  rotate: true
+  xy: 255, 3
+  size: 298, 62
+  orig: 299, 62
+  offset: 0, 0
+  index: -1
+effect/skillC/wenlim/wenlim_00039
+  rotate: false
+  xy: 919, 59
+  size: 102, 39
+  orig: 299, 62
+  offset: 12, 14
+  index: -1
+effect/skillC/wenlim/wenlim_00041
+  rotate: true
+  xy: 701, 520
+  size: 178, 44
+  orig: 299, 62
+  offset: 5, 10
+  index: -1
+effect/skillC/wenlim/wenlim_00043
+  rotate: true
+  xy: 328, 545
+  size: 266, 45
+  orig: 299, 62
+  offset: 7, 9
+  index: -1
+effect/skillC/wenlim/wenlim_00047
+  rotate: false
+  xy: 747, 974
+  size: 274, 48
+  orig: 299, 62
+  offset: 15, 7
+  index: -1
+effect/skillC/wenlim/wenlim_00049
+  rotate: false
+  xy: 746, 191
+  size: 273, 51
+  orig: 299, 62
+  offset: 17, 6
+  index: -1
+effect/skillC/wenlim/wenlim_00051
+  rotate: true
+  xy: 692, 275
+  size: 243, 52
+  orig: 299, 62
+  offset: 30, 4
+  index: -1
+effect/skillC/wenlim/wenlim_00053
+  rotate: false
+  xy: 319, 7
+  size: 207, 51
+  orig: 299, 62
+  offset: 62, 4
+  index: -1
+effect/skillC/wenlim/wenlim_00055
+  rotate: true
+  xy: 319, 87
+  size: 157, 52
+  orig: 299, 62
+  offset: 105, 3
+  index: -1
+effect/skillC/wenlim/wenlim_00057
+  rotate: false
+  xy: 528, 29
+  size: 154, 29
+  orig: 299, 62
+  offset: 111, 7
+  index: -1
+effect/skillD/chongci/shandian1_00012
+  rotate: false
+  xy: 2, 914
+  size: 371, 108
+  orig: 372, 109
+  offset: 1, 0
+  index: -1
+effect/skillD/chongci/shandian2_00014
+  rotate: false
+  xy: 2, 833
+  size: 328, 79
+  orig: 337, 82
+  offset: 6, 3
+  index: -1
+effect/skillD/guangtiao_00002
+  rotate: false
+  xy: 2, 275
+  size: 189, 91
+  orig: 197, 101
+  offset: 3, 4
+  index: -1
+effect/skillG/daohen_00046
+  rotate: true
+  xy: 720, 700
+  size: 280, 25
+  orig: 370, 44
+  offset: 45, 9
+  index: -1
+effect/skillG/daohen_00047
+  rotate: false
+  xy: 375, 961
+  size: 343, 19
+  orig: 370, 44
+  offset: 14, 12
+  index: -1
+effect/skillG/daohen_00048
+  rotate: false
+  xy: 375, 982
+  size: 370, 40
+  orig: 370, 44
+  offset: 0, 2
+  index: -1
+effect/skillG/shandian/shandian_00124
+  rotate: false
+  xy: 688, 192
+  size: 56, 81
+  orig: 110, 133
+  offset: 1, 16
+  index: -1
+effect/skillG/shandian/shandian_00126
+  rotate: true
+  xy: 319, 246
+  size: 55, 54
+  orig: 110, 133
+  offset: 9, 38
+  index: -1
+effect/skillG/shandian/shandian_00132
+  rotate: true
+  xy: 820, 3
+  size: 95, 97
+  orig: 110, 133
+  offset: 0, 17
+  index: -1
+effect/skillG/yishanlizi/yishanlizi_00056
+  rotate: true
+  xy: 688, 6
+  size: 183, 62
+  orig: 278, 76
+  offset: 23, 2
+  index: -1
+effect/skillG/yishanlizi/yishanlizi_00058
+  rotate: false
+  xy: 193, 303
+  size: 180, 63
+  orig: 278, 76
+  offset: 20, 2
+  index: -1
+effect/skillG/yishanlizi/yishanlizi_00062
+  rotate: true
+  xy: 328, 368
+  size: 175, 44
+  orig: 278, 76
+  offset: 16, 3
+  index: -1
+
+effects_10901_skillH2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/born/guangmu_00005
+  rotate: true
+  xy: 730, 784
+  size: 62, 94
+  orig: 62, 94
+  offset: 0, 0
+  index: -1
+effect/born/shangshengyuansua/shangshengyuansua_00027
+  rotate: true
+  xy: 843, 881
+  size: 77, 179
+  orig: 95, 179
+  offset: 10, 0
+  index: -1
+effect/hit/baodian_00009
+  rotate: false
+  xy: 246, 319
+  size: 190, 158
+  orig: 192, 191
+  offset: 2, 25
+  index: -1
+effect/hit/baodian_00010
+  rotate: false
+  xy: 239, 546
+  size: 192, 158
+  orig: 192, 191
+  offset: 0, 24
+  index: -1
+effect/hit/baodian_00011
+  rotate: false
+  xy: 246, 177
+  size: 171, 140
+  orig: 192, 191
+  offset: 13, 32
+  index: -1
+effect/hit/daohena_00008
+  rotate: true
+  xy: 419, 185
+  size: 28, 161
+  orig: 28, 161
+  offset: 0, 0
+  index: -1
+effect/hit/daohenm_00008
+  rotate: true
+  xy: 246, 157
+  size: 18, 206
+  orig: 28, 207
+  offset: 5, 1
+  index: -1
+effect/skillA/daoguang1/dao1a/dao1a_00012
+  rotate: false
+  xy: 2, 711
+  size: 261, 311
+  orig: 297, 324
+  offset: 29, 0
+  index: -1
+effect/skillA/daoguang1/dao1a/dao1a_00013
+  rotate: false
+  xy: 2, 415
+  size: 235, 294
+  orig: 297, 324
+  offset: 54, 0
+  index: -1
+effect/skillA/daoguang1/dao1a/dao1a_00014
+  rotate: false
+  xy: 2, 126
+  size: 90, 287
+  orig: 297, 324
+  offset: 155, 7
+  index: -1
+effect/skillA/daoguang1/dao1n/dao1n_00014
+  rotate: false
+  xy: 265, 706
+  size: 198, 157
+  orig: 297, 324
+  offset: 65, 26
+  index: -1
+effect/skillC/jiantou/jiantou_00010
+  rotate: false
+  xy: 265, 865
+  size: 282, 157
+  orig: 288, 157
+  offset: 6, 0
+  index: -1
+effect/skillC/jiantou/jiantouma_00011
+  rotate: false
+  xy: 700, 640
+  size: 116, 59
+  orig: 140, 74
+  offset: 22, 0
+  index: -1
+effect/skillC/jiantou/jiantouma_00013
+  rotate: false
+  xy: 810, 710
+  size: 140, 57
+  orig: 140, 74
+  offset: 0, 17
+  index: -1
+effect/skillC/jiantou/jiantoun_00014
+  rotate: false
+  xy: 454, 143
+  size: 131, 40
+  orig: 140, 74
+  offset: 4, 26
+  index: -1
+effect/skillC/wenlia/wenlia_00039
+  rotate: false
+  xy: 818, 650
+  size: 121, 58
+  orig: 299, 62
+  offset: 2, 4
+  index: -1
+effect/skillC/wenlia/wenlia_00041
+  rotate: false
+  xy: 830, 817
+  size: 192, 62
+  orig: 299, 62
+  offset: 0, 0
+  index: -1
+effect/skillC/wenlia/wenlia_00043
+  rotate: true
+  xy: 94, 132
+  size: 281, 62
+  orig: 299, 62
+  offset: 0, 0
+  index: -1
+effect/skillC/wenlia/wenlia_00047
+  rotate: false
+  xy: 549, 960
+  size: 294, 62
+  orig: 299, 62
+  offset: 5, 0
+  index: -1
+effect/skillC/wenlia/wenlia_00049
+  rotate: false
+  xy: 549, 896
+  size: 292, 62
+  orig: 299, 62
+  offset: 7, 0
+  index: -1
+effect/skillC/wenlia/wenlia_00051
+  rotate: false
+  xy: 465, 784
+  size: 263, 62
+  orig: 299, 62
+  offset: 20, 0
+  index: -1
+effect/skillC/wenlia/wenlia_00053
+  rotate: false
+  xy: 433, 589
+  size: 227, 62
+  orig: 299, 62
+  offset: 52, 0
+  index: -1
+effect/skillC/wenlia/wenlia_00055
+  rotate: false
+  xy: 438, 394
+  size: 178, 62
+  orig: 299, 62
+  offset: 94, 0
+  index: -1
+effect/skillC/wenlia/wenlia_00057
+  rotate: false
+  xy: 826, 769
+  size: 174, 46
+  orig: 299, 62
+  offset: 101, 0
+  index: -1
+effect/skillC/wenlim/wenlim_00045
+  rotate: false
+  xy: 549, 848
+  size: 279, 46
+  orig: 299, 62
+  offset: 9, 8
+  index: -1
+effect/skillD/canyingan_00009
+  rotate: true
+  xy: 618, 369
+  size: 87, 57
+  orig: 131, 89
+  offset: 14, 15
+  index: -1
+effect/skillD/canyinggoubian_00009
+  rotate: false
+  xy: 419, 215
+  size: 130, 89
+  orig: 131, 89
+  offset: 0, 0
+  index: -1
+effect/skillD/chongci/shandian3_00016
+  rotate: true
+  xy: 158, 166
+  size: 247, 86
+  orig: 251, 89
+  offset: 1, 0
+  index: -1
+effect/skillD/chongci/shandian4_00018
+  rotate: false
+  xy: 438, 306
+  size: 153, 86
+  orig: 155, 88
+  offset: 2, 0
+  index: -1
+effect/skillG/shandian/shandian_00125
+  rotate: true
+  xy: 714, 701
+  size: 81, 94
+  orig: 110, 133
+  offset: 27, 1
+  index: -1
+effect/skillG/shandian/shandian_00129
+  rotate: false
+  xy: 2, 5
+  size: 72, 119
+  orig: 110, 133
+  offset: 16, 12
+  index: -1
+effect/skillG/shandian/shandian_00134
+  rotate: true
+  xy: 551, 216
+  size: 88, 72
+  orig: 110, 133
+  offset: 8, 46
+  index: -1
+effect/skillG/yishanlizi/yishanlizi_00046
+  rotate: false
+  xy: 465, 718
+  size: 247, 64
+  orig: 278, 76
+  offset: 27, 6
+  index: -1
+effect/skillG/yishanlizi/yishanlizi_00048
+  rotate: false
+  xy: 465, 653
+  size: 233, 63
+  orig: 278, 76
+  offset: 19, 6
+  index: -1
+effect/skillG/yishanlizi/yishanlizi_00050
+  rotate: false
+  xy: 456, 458
+  size: 223, 62
+  orig: 278, 76
+  offset: 13, 5
+  index: -1
+effect/skillG/yishanlizi/yishanlizi_00052
+  rotate: false
+  xy: 239, 479
+  size: 215, 65
+  orig: 278, 76
+  offset: 9, 2
+  index: -1
+effect/skillG/yishanlizi/yishanlizi_00054
+  rotate: false
+  xy: 456, 522
+  size: 207, 65
+  orig: 278, 76
+  offset: 7, 1
+  index: -1
+effect/skillG/yishanlizi/yishanlizi_00060
+  rotate: false
+  xy: 845, 960
+  size: 177, 62
+  orig: 278, 76
+  offset: 18, 1
+  index: -1

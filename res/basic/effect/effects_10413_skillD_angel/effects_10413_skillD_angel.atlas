@@ -1,0 +1,355 @@
+
+effects_10413_skillD_angel.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1cihilun
+  rotate: false
+  xy: 725, 8
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 890, 136
+  size: 126, 127
+  orig: 150, 150
+  offset: 10, 10
+  index: -1
+2cihilun
+  rotate: false
+  xy: 415, 25
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+3cihilun
+  rotate: false
+  xy: 462, 26
+  size: 44, 44
+  orig: 44, 44
+  offset: 0, 0
+  index: -1
+4cihilun
+  rotate: false
+  xy: 589, 32
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+baiquan
+  rotate: false
+  xy: 924, 925
+  size: 97, 97
+  orig: 124, 125
+  offset: 13, 14
+  index: -1
+di
+  rotate: false
+  xy: 725, 265
+  size: 164, 164
+  orig: 164, 164
+  offset: 0, 0
+  index: -1
+fx_qiang2
+  rotate: false
+  xy: 2, 88
+  size: 336, 934
+  orig: 337, 942
+  offset: 1, 7
+  index: -1
+guang
+  rotate: false
+  xy: 340, 395
+  size: 13, 14
+  orig: 100, 100
+  offset: 61, 43
+  index: -1
+heibian
+  rotate: false
+  xy: 725, 100
+  size: 163, 163
+  orig: 163, 163
+  offset: 0, 0
+  index: -1
+hongdi
+  rotate: false
+  xy: 84, 10
+  size: 76, 76
+  orig: 96, 89
+  offset: 10, 7
+  index: -1
+hongxianbian
+  rotate: false
+  xy: 2, 7
+  size: 80, 79
+  orig: 100, 100
+  offset: 10, 10
+  index: -1
+kdhua1
+  rotate: false
+  xy: 629, 9
+  size: 36, 26
+  orig: 36, 26
+  offset: 0, 0
+  index: -1
+kdhua10
+  rotate: true
+  xy: 260, 26
+  size: 60, 83
+  orig: 60, 83
+  offset: 0, 0
+  index: -1
+kdhua11
+  rotate: true
+  xy: 924, 896
+  size: 27, 26
+  orig: 27, 26
+  offset: 0, 0
+  index: -1
+kdhua12
+  rotate: true
+  xy: 629, 37
+  size: 33, 36
+  orig: 33, 36
+  offset: 0, 0
+  index: -1
+kdhua13
+  rotate: false
+  xy: 508, 27
+  size: 79, 43
+  orig: 79, 43
+  offset: 0, 0
+  index: -1
+kdhua14
+  rotate: true
+  xy: 363, 25
+  size: 45, 50
+  orig: 45, 50
+  offset: 0, 0
+  index: -1
+kdhua15
+  rotate: false
+  xy: 260, 3
+  size: 80, 21
+  orig: 80, 21
+  offset: 0, 0
+  index: -1
+kdhua2
+  rotate: false
+  xy: 891, 266
+  size: 45, 33
+  orig: 45, 33
+  offset: 0, 0
+  index: -1
+kdhua3
+  rotate: false
+  xy: 817, 41
+  size: 56, 57
+  orig: 56, 57
+  offset: 0, 0
+  index: -1
+kdhua4
+  rotate: false
+  xy: 162, 24
+  size: 96, 62
+  orig: 96, 62
+  offset: 0, 0
+  index: -1
+kdhua5
+  rotate: false
+  xy: 667, 38
+  size: 31, 32
+  orig: 31, 32
+  offset: 0, 0
+  index: -1
+kdhua6
+  rotate: true
+  xy: 938, 266
+  size: 33, 44
+  orig: 33, 44
+  offset: 0, 0
+  index: -1
+kdhua7
+  rotate: false
+  xy: 667, 8
+  size: 34, 28
+  orig: 34, 28
+  offset: 0, 0
+  index: -1
+kdhua8
+  rotate: true
+  xy: 984, 273
+  size: 26, 38
+  orig: 26, 38
+  offset: 0, 0
+  index: -1
+kdhua9
+  rotate: true
+  xy: 924, 865
+  size: 29, 24
+  orig: 29, 24
+  offset: 0, 0
+  index: -1
+kdzhi1
+  rotate: false
+  xy: 890, 25
+  size: 132, 109
+  orig: 132, 109
+  offset: 0, 0
+  index: -1
+kdzhi2
+  rotate: true
+  xy: 340, 431
+  size: 591, 582
+  orig: 591, 582
+  offset: 0, 0
+  index: -1
+kdzhi3
+  rotate: true
+  xy: 184, 3
+  size: 19, 26
+  orig: 19, 26
+  offset: 0, 0
+  index: -1
+kdzhiying
+  rotate: false
+  xy: 363, 72
+  size: 360, 357
+  orig: 360, 357
+  offset: 0, 0
+  index: -1
+lizi
+  rotate: false
+  xy: 589, 3
+  size: 27, 27
+  orig: 29, 29
+  offset: 0, 2
+  index: -1
+lun1
+  rotate: false
+  xy: 162, 2
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+lun2
+  rotate: true
+  xy: 212, 3
+  size: 19, 21
+  orig: 19, 21
+  offset: 0, 0
+  index: -1
+lun3di
+  rotate: false
+  xy: 235, 4
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+lun3you
+  rotate: true
+  xy: 342, 10
+  size: 14, 19
+  orig: 14, 19
+  offset: 0, 0
+  index: -1
+lun3zuo
+  rotate: false
+  xy: 340, 411
+  size: 14, 18
+  orig: 14, 18
+  offset: 0, 0
+  index: -1
+tiao1
+  rotate: false
+  xy: 817, 2
+  size: 46, 37
+  orig: 46, 37
+  offset: 0, 0
+  index: -1
+tiao2
+  rotate: false
+  xy: 340, 380
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+xian
+  rotate: true
+  xy: 340, 348
+  size: 30, 9
+  orig: 106, 106
+  offset: 38, 70
+  index: -1
+zuolun
+  rotate: false
+  xy: 891, 301
+  size: 107, 128
+  orig: 109, 132
+  offset: 2, 3
+  index: -1
+
+effects_10413_skillD_angel2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+4
+  rotate: false
+  xy: 2, 2
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 162, 173
+  size: 147, 147
+  orig: 242, 242
+  offset: 48, 46
+  index: -1
+6
+  rotate: false
+  xy: 520, 714
+  size: 146, 147
+  orig: 242, 242
+  offset: 48, 46
+  index: -1
+dian
+  rotate: false
+  xy: 520, 863
+  size: 151, 150
+  orig: 195, 197
+  offset: 22, 24
+  index: -1
+fx_qiang1
+  rotate: true
+  xy: 2, 322
+  size: 184, 582
+  orig: 187, 586
+  offset: 2, 1
+  index: -1
+hongquan
+  rotate: false
+  xy: 673, 913
+  size: 100, 100
+  orig: 104, 105
+  offset: 2, 3
+  index: -1
+kdhuaquan1
+  rotate: false
+  xy: 2, 508
+  size: 516, 505
+  orig: 516, 505
+  offset: 0, 0
+  index: -1
+zhongjian
+  rotate: false
+  xy: 2, 154
+  size: 158, 166
+  orig: 158, 166
+  offset: 0, 0
+  index: -1

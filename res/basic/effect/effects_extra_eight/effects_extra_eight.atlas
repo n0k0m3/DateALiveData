@@ -1,0 +1,132 @@
+
+effects_extra_eight.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+zhuqiang/x/x_00036
+  rotate: false
+  xy: 2, 570
+  size: 175, 174
+  orig: 189, 174
+  offset: 14, 0
+  index: -1
+zhuqiang/x/x_00038
+  rotate: false
+  xy: 180, 746
+  size: 175, 174
+  orig: 189, 174
+  offset: 14, 0
+  index: -1
+zhuqiang/x/x_00040
+  rotate: false
+  xy: 2, 746
+  size: 176, 174
+  orig: 189, 174
+  offset: 13, 0
+  index: -1
+zhuqiang/x/x_00042
+  rotate: false
+  xy: 2, 394
+  size: 175, 174
+  orig: 189, 174
+  offset: 14, 0
+  index: -1
+zhuqiang/x/x_00044
+  rotate: false
+  xy: 179, 570
+  size: 175, 174
+  orig: 189, 174
+  offset: 14, 0
+  index: -1
+zhuqiang/x/x_00046
+  rotate: false
+  xy: 357, 746
+  size: 175, 174
+  orig: 189, 174
+  offset: 14, 0
+  index: -1
+zhuqiang/x/x_00048
+  rotate: false
+  xy: 2, 218
+  size: 175, 174
+  orig: 189, 174
+  offset: 14, 0
+  index: -1
+zhuqiang/x/x_00050
+  rotate: false
+  xy: 179, 394
+  size: 175, 174
+  orig: 189, 174
+  offset: 14, 0
+  index: -1
+zhuqiang/x/x_00052
+  rotate: false
+  xy: 356, 570
+  size: 175, 174
+  orig: 189, 174
+  offset: 14, 0
+  index: -1
+zhuqiang/y/y_00036
+  rotate: true
+  xy: 534, 790
+  size: 63, 192
+  orig: 71, 192
+  offset: 7, 0
+  index: -1
+zhuqiang/y/y_00038
+  rotate: true
+  xy: 728, 857
+  size: 63, 192
+  orig: 71, 192
+  offset: 7, 0
+  index: -1
+zhuqiang/y/y_00040
+  rotate: true
+  xy: 534, 855
+  size: 65, 192
+  orig: 71, 192
+  offset: 6, 0
+  index: -1
+zhuqiang/y/y_00042
+  rotate: false
+  xy: 68, 24
+  size: 63, 192
+  orig: 71, 192
+  offset: 7, 0
+  index: -1
+zhuqiang/y/y_00044
+  rotate: true
+  xy: 728, 792
+  size: 63, 192
+  orig: 71, 192
+  offset: 7, 0
+  index: -1
+zhuqiang/y/y_00046
+  rotate: true
+  xy: 179, 329
+  size: 63, 192
+  orig: 71, 192
+  offset: 7, 0
+  index: -1
+zhuqiang/y/y_00048
+  rotate: false
+  xy: 2, 24
+  size: 64, 192
+  orig: 71, 192
+  offset: 6, 0
+  index: -1
+zhuqiang/y/y_00050
+  rotate: true
+  xy: 179, 264
+  size: 63, 192
+  orig: 71, 192
+  offset: 7, 0
+  index: -1
+zhuqiang/y/y_00052
+  rotate: true
+  xy: 356, 505
+  size: 63, 192
+  orig: 71, 192
+  offset: 7, 0
+  index: -1

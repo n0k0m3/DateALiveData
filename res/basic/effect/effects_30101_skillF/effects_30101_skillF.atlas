@@ -1,0 +1,495 @@
+
+effects_30101_skillF.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/skillF/1111
+  rotate: true
+  xy: 2, 3
+  size: 77, 152
+  orig: 94, 167
+  offset: 7, 9
+  index: -1
+images/skillF/3333
+  rotate: true
+  xy: 863, 30
+  size: 99, 157
+  orig: 114, 172
+  offset: 6, 9
+  index: -1
+images/skillF/Lightning1
+  rotate: false
+  xy: 512, 2
+  size: 100, 107
+  orig: 120, 200
+  offset: 2, 7
+  index: -1
+images/skillF/luodian11
+  rotate: false
+  xy: 284, 340
+  size: 263, 340
+  orig: 280, 340
+  offset: 0, 0
+  index: -1
+images/skillF/luodian12
+  rotate: false
+  xy: 284, 682
+  size: 275, 340
+  orig: 280, 340
+  offset: 0, 0
+  index: -1
+images/skillF/luodian13
+  rotate: true
+  xy: 344, 111
+  size: 227, 340
+  orig: 280, 340
+  offset: 44, 0
+  index: -1
+images/skillF/luodian14
+  rotate: false
+  xy: 809, 682
+  size: 207, 340
+  orig: 280, 340
+  offset: 50, 0
+  index: -1
+images/skillF/luodian15
+  rotate: true
+  xy: 686, 131
+  size: 207, 334
+  orig: 280, 340
+  offset: 33, 0
+  index: -1
+images/skillF/luodian3
+  rotate: false
+  xy: 794, 340
+  size: 214, 340
+  orig: 280, 340
+  offset: 26, 0
+  index: -1
+images/skillF/luodian4
+  rotate: false
+  xy: 2, 682
+  size: 280, 340
+  orig: 280, 340
+  offset: 0, 0
+  index: -1
+images/skillF/luodian5
+  rotate: false
+  xy: 2, 340
+  size: 280, 340
+  orig: 280, 340
+  offset: 0, 0
+  index: -1
+images/skillF/luodian6
+  rotate: false
+  xy: 549, 340
+  size: 243, 340
+  orig: 280, 340
+  offset: 11, 0
+  index: -1
+images/skillF/luodian8
+  rotate: false
+  xy: 561, 682
+  size: 246, 340
+  orig: 280, 340
+  offset: 0, 0
+  index: -1
+images/skillF/luodian9
+  rotate: true
+  xy: 2, 82
+  size: 256, 340
+  orig: 280, 340
+  offset: 20, 0
+  index: -1
+images/skillF/sanquan0005
+  rotate: false
+  xy: 156, 12
+  size: 159, 68
+  orig: 167, 74
+  offset: 3, 4
+  index: -1
+images/skillF/zishandian0001
+  rotate: true
+  xy: 614, 7
+  size: 102, 69
+  orig: 198, 134
+  offset: 55, 29
+  index: -1
+images/skillF/zishandian0008
+  rotate: false
+  xy: 344, 2
+  size: 166, 107
+  orig: 198, 134
+  offset: 17, 13
+  index: -1
+images/skillF/zishandian0009
+  rotate: false
+  xy: 686, 17
+  size: 175, 112
+  orig: 198, 134
+  offset: 12, 11
+  index: -1
+
+effects_30101_skillF2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/skillF/2222
+  rotate: false
+  xy: 300, 45
+  size: 97, 155
+  orig: 112, 170
+  offset: 6, 9
+  index: -1
+images/skillF/4444
+  rotate: false
+  xy: 194, 48
+  size: 104, 152
+  orig: 118, 167
+  offset: 6, 9
+  index: -1
+images/skillF/5555
+  rotate: false
+  xy: 453, 483
+  size: 100, 155
+  orig: 115, 170
+  offset: 6, 9
+  index: -1
+images/skillF/Lightning0
+  rotate: false
+  xy: 555, 479
+  size: 89, 100
+  orig: 120, 200
+  offset: 19, 0
+  index: -1
+images/skillF/Lightning10
+  rotate: true
+  xy: 939, 668
+  size: 101, 83
+  orig: 120, 200
+  offset: 0, 107
+  index: -1
+images/skillF/Lightning11
+  rotate: false
+  xy: 644, 300
+  size: 95, 81
+  orig: 120, 200
+  offset: 0, 116
+  index: -1
+images/skillF/Lightning12
+  rotate: true
+  xy: 771, 579
+  size: 115, 93
+  orig: 120, 200
+  offset: 0, 107
+  index: -1
+images/skillF/Lightning13
+  rotate: true
+  xy: 555, 363
+  size: 114, 82
+  orig: 120, 200
+  offset: 0, 118
+  index: -1
+images/skillF/Lightning14
+  rotate: true
+  xy: 939, 771
+  size: 114, 83
+  orig: 120, 200
+  offset: 0, 117
+  index: -1
+images/skillF/Lightning15
+  rotate: true
+  xy: 866, 608
+  size: 108, 71
+  orig: 120, 200
+  offset: 7, 129
+  index: -1
+images/skillF/Lightning2
+  rotate: false
+  xy: 779, 472
+  size: 118, 105
+  orig: 120, 200
+  offset: 2, 16
+  index: -1
+images/skillF/Lightning3
+  rotate: true
+  xy: 647, 579
+  size: 115, 122
+  orig: 120, 200
+  offset: 2, 14
+  index: -1
+images/skillF/Lightning4
+  rotate: true
+  xy: 446, 95
+  size: 120, 116
+  orig: 120, 200
+  offset: 0, 27
+  index: -1
+images/skillF/Lightning5
+  rotate: true
+  xy: 899, 447
+  size: 120, 122
+  orig: 120, 200
+  offset: 0, 26
+  index: -1
+images/skillF/Lightning6
+  rotate: true
+  xy: 555, 581
+  size: 119, 90
+  orig: 120, 200
+  offset: 1, 63
+  index: -1
+images/skillF/Lightning7
+  rotate: true
+  xy: 453, 361
+  size: 120, 100
+  orig: 120, 200
+  offset: 0, 66
+  index: -1
+images/skillF/Lightning8
+  rotate: false
+  xy: 639, 383
+  size: 105, 92
+  orig: 120, 200
+  offset: 0, 80
+  index: -1
+images/skillF/Lightning9
+  rotate: true
+  xy: 939, 569
+  size: 97, 83
+  orig: 120, 200
+  offset: 0, 98
+  index: -1
+images/skillF/diguan
+  rotate: true
+  xy: 399, 61
+  size: 149, 45
+  orig: 153, 48
+  offset: 2, 2
+  index: -1
+images/skillF/diquan
+  rotate: true
+  xy: 2, 6
+  size: 192, 190
+  orig: 194, 191
+  offset: 1, 1
+  index: -1
+images/skillF/lanshan
+  rotate: false
+  xy: 564, 205
+  size: 57, 54
+  orig: 80, 74
+  offset: 11, 10
+  index: -1
+images/skillF/luodian1
+  rotate: false
+  xy: 215, 640
+  size: 193, 150
+  orig: 280, 340
+  offset: 33, 190
+  index: -1
+images/skillF/luodian2
+  rotate: false
+  xy: 215, 640
+  size: 193, 150
+  orig: 280, 340
+  offset: 33, 190
+  index: -1
+images/skillF/luodian10
+  rotate: true
+  xy: 2, 424
+  size: 278, 194
+  orig: 280, 340
+  offset: 0, 0
+  index: -1
+images/skillF/luodian16
+  rotate: false
+  xy: 2, 704
+  size: 211, 318
+  orig: 280, 340
+  offset: 33, 0
+  index: -1
+images/skillF/luodian17
+  rotate: false
+  xy: 215, 792
+  size: 239, 230
+  orig: 280, 340
+  offset: 39, 0
+  index: -1
+images/skillF/luodian18
+  rotate: false
+  xy: 456, 702
+  size: 198, 177
+  orig: 280, 340
+  offset: 82, 0
+  index: -1
+images/skillF/luodian19
+  rotate: false
+  xy: 198, 461
+  size: 186, 177
+  orig: 280, 340
+  offset: 94, 0
+  index: -1
+images/skillF/luodian20
+  rotate: true
+  xy: 656, 696
+  size: 183, 175
+  orig: 280, 340
+  offset: 97, 0
+  index: -1
+images/skillF/luodian7
+  rotate: true
+  xy: 2, 200
+  size: 222, 186
+  orig: 280, 340
+  offset: 8, 0
+  index: -1
+images/skillF/luoshanqiu
+  rotate: false
+  xy: 190, 202
+  size: 141, 145
+  orig: 198, 197
+  offset: 27, 26
+  index: -1
+images/skillF/sanquan0001
+  rotate: true
+  xy: 848, 365
+  size: 105, 46
+  orig: 167, 74
+  offset: 30, 22
+  index: -1
+images/skillF/sanquan0002
+  rotate: true
+  xy: 438, 217
+  size: 130, 54
+  orig: 167, 74
+  offset: 18, 14
+  index: -1
+images/skillF/sanquan0003
+  rotate: false
+  xy: 410, 640
+  size: 141, 60
+  orig: 167, 74
+  offset: 13, 9
+  index: -1
+images/skillF/sanquan0004
+  rotate: true
+  xy: 386, 482
+  size: 156, 65
+  orig: 167, 74
+  offset: 6, 5
+  index: -1
+images/skillF/shizian
+  rotate: false
+  xy: 456, 881
+  size: 243, 141
+  orig: 246, 144
+  offset: 0, 3
+  index: -1
+images/skillF/shizishan
+  rotate: false
+  xy: 701, 887
+  size: 240, 135
+  orig: 240, 135
+  offset: 0, 0
+  index: -1
+images/skillF/zishandian0002
+  rotate: true
+  xy: 545, 12
+  size: 81, 61
+  orig: 198, 134
+  offset: 76, 36
+  index: -1
+images/skillF/zishandian0003
+  rotate: true
+  xy: 943, 900
+  size: 122, 70
+  orig: 198, 134
+  offset: 37, 24
+  index: -1
+images/skillF/zishandian0004
+  rotate: true
+  xy: 333, 212
+  size: 135, 103
+  orig: 198, 134
+  offset: 33, 11
+  index: -1
+images/skillF/zishandian0005
+  rotate: true
+  xy: 333, 212
+  size: 135, 103
+  orig: 198, 134
+  offset: 33, 11
+  index: -1
+images/skillF/zishandian0006
+  rotate: false
+  xy: 646, 477
+  size: 131, 100
+  orig: 198, 134
+  offset: 45, 18
+  index: -1
+images/skillF/zishandian0007
+  rotate: false
+  xy: 198, 349
+  size: 161, 110
+  orig: 198, 134
+  offset: 22, 8
+  index: -1
+images/skillF/zishandian0010
+  rotate: true
+  xy: 833, 718
+  size: 167, 104
+  orig: 198, 134
+  offset: 14, 19
+  index: -1
+images/skillF/zoudian1
+  rotate: true
+  xy: 494, 259
+  size: 100, 65
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+images/skillF/zoudian2
+  rotate: true
+  xy: 361, 349
+  size: 96, 80
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+images/skillF/zoudian3
+  rotate: false
+  xy: 446, 2
+  size: 97, 91
+  orig: 100, 100
+  offset: 0, 2
+  index: -1
+images/skillF/zoudian4
+  rotate: false
+  xy: 746, 384
+  size: 100, 86
+  orig: 100, 100
+  offset: 0, 12
+  index: -1
+images/skillF/zoudian5
+  rotate: true
+  xy: 561, 261
+  size: 100, 81
+  orig: 100, 100
+  offset: 0, 19
+  index: -1
+images/skillF/zoudian6
+  rotate: false
+  xy: 896, 369
+  size: 100, 76
+  orig: 100, 100
+  offset: 0, 24
+  index: -1
+images/skillF/zoudian7
+  rotate: false
+  xy: 644, 240
+  size: 85, 58
+  orig: 100, 100
+  offset: 15, 40
+  index: -1

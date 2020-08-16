@@ -1,0 +1,20 @@
+
+2sisinai.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lan_00000
+  rotate: false
+  xy: 2, 490
+  size: 549, 61
+  orig: 600, 200
+  offset: 25, 72
+  index: -1
+lizi
+  rotate: false
+  xy: 2, 457
+  size: 35, 31
+  orig: 42, 33
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,110 @@
+
+effectS_10208_skillD_show.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skillD/show/showlizi/showlizi_000
+  rotate: true
+  xy: 816, 528
+  size: 222, 159
+  orig: 270, 180
+  offset: 31, 14
+  index: -1
+effects/skillD/show/showlizi/showlizi_002
+  rotate: true
+  xy: 816, 752
+  size: 267, 166
+  orig: 270, 180
+  offset: 0, 10
+  index: -1
+effects/skillD/show/showlizi/showlizi_004
+  rotate: true
+  xy: 815, 2
+  size: 252, 144
+  orig: 270, 180
+  offset: 18, 22
+  index: -1
+effects/skillD/show/showlizi/showlizi_008
+  rotate: true
+  xy: 815, 256
+  size: 266, 141
+  orig: 270, 180
+  offset: 0, 24
+  index: -1
+effects/skillD/show/showlun/showlun_000
+  rotate: false
+  xy: 409, 27
+  size: 404, 495
+  orig: 405, 495
+  offset: 1, 0
+  index: -1
+effects/skillD/show/showlun/showlun_004
+  rotate: false
+  xy: 2, 524
+  size: 405, 495
+  orig: 405, 495
+  offset: 0, 0
+  index: -1
+effects/skillD/show/showlun/showlun_006
+  rotate: false
+  xy: 2, 27
+  size: 405, 495
+  orig: 405, 495
+  offset: 0, 0
+  index: -1
+effects/skillD/show/showlun/showlun_008
+  rotate: false
+  xy: 409, 524
+  size: 405, 495
+  orig: 405, 495
+  offset: 0, 0
+  index: -1
+
+effectS_10208_skillD_show2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/guangxian2_000
+  rotate: false
+  xy: 408, 705
+  size: 223, 90
+  orig: 230, 90
+  offset: 0, 0
+  index: -1
+effects/skillD/bai_000
+  rotate: false
+  xy: 860, 932
+  size: 162, 90
+  orig: 162, 90
+  offset: 0, 0
+  index: -1
+effects/skillD/show/bg
+  rotate: true
+  xy: 2, 75
+  size: 450, 225
+  orig: 450, 225
+  offset: 0, 0
+  index: -1
+effects/skillD/show/bgsj
+  rotate: false
+  xy: 408, 797
+  size: 450, 225
+  orig: 450, 225
+  offset: 0, 0
+  index: -1
+effects/skillD/show/showlizi/showlizi_006
+  rotate: true
+  xy: 229, 294
+  size: 231, 136
+  orig: 270, 180
+  offset: 33, 28
+  index: -1
+effects/skillD/show/showlun/showlun_002
+  rotate: false
+  xy: 2, 527
+  size: 404, 495
+  orig: 405, 495
+  offset: 1, 0
+  index: -1

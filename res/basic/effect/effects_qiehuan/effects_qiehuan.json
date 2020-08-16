@@ -1,0 +1,72 @@
+{
+"skeleton": {
+	"hash": "C/9bdLVOpAxeZwprVDPZUp1pJMg",
+	"spine": "2.1.27",
+	"width": 215,
+	"height": 277,
+	"images": "C:/Users/Administrator/Desktop/尺寸需要修改的特效/新建文件夹/effects_qiehuan"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "effects", "parent": "root" },
+	{ "name": "qiehuan", "parent": "effects" }
+],
+"slots": [
+	{ "name": "qiehuan_00001_1", "bone": "qiehuan", "attachment": "qiehuan_00001_1", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"qiehuan_00001_1": {
+			"qiehuan_00001_1": { "width": 215, "height": 277 },
+			"qiehuan_00002_1": { "width": 215, "height": 277 },
+			"qiehuan_00003_1": { "width": 215, "height": 277 },
+			"qiehuan_00004_1": { "width": 215, "height": 277 },
+			"qiehuan_00005_1": { "width": 215, "height": 277 },
+			"qiehuan_00006_1": { "width": 215, "height": 277 },
+			"qiehuan_00007_1": { "width": 215, "height": 277 },
+			"qiehuan_00008_1": { "width": 215, "height": 277 },
+			"qiehuan_00010_1": { "width": 215, "height": 277 },
+			"qiehuan_00012_1": { "width": 215, "height": 277 },
+			"qiehuan_00014_1": { "width": 215, "height": 277 },
+			"qiehuan_00016_1": { "width": 215, "height": 277 },
+			"qiehuan_00018_1": { "width": 215, "height": 277 },
+			"qiehuan_00020_1": { "width": 215, "height": 277 }
+		}
+	}
+},
+"animations": {
+	"effects_qiehuan": {
+		"slots": {
+			"qiehuan_00001_1": {
+				"attachment": [
+					{ "time": 0, "name": "qiehuan_00001_1" },
+					{ "time": 0.0333, "name": "qiehuan_00002_1" },
+					{ "time": 0.0666, "name": "qiehuan_00003_1" },
+					{ "time": 0.1, "name": "qiehuan_00004_1" },
+					{ "time": 0.1333, "name": "qiehuan_00005_1" },
+					{ "time": 0.1666, "name": "qiehuan_00006_1" },
+					{ "time": 0.2, "name": "qiehuan_00007_1" },
+					{ "time": 0.2333, "name": "qiehuan_00008_1" },
+					{ "time": 0.3, "name": "qiehuan_00010_1" },
+					{ "time": 0.3666, "name": "qiehuan_00012_1" },
+					{ "time": 0.4333, "name": "qiehuan_00014_1" },
+					{ "time": 0.5, "name": "qiehuan_00016_1" },
+					{ "time": 0.5666, "name": "qiehuan_00018_1" },
+					{ "time": 0.6333, "name": "qiehuan_00020_1" },
+					{ "time": 0.7, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"qiehuan": {
+				"translate": [
+					{ "time": 0, "x": -24.76, "y": 308.6 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2.904, "y": 2.904 }
+				]
+			}
+		}
+	}
+}
+}

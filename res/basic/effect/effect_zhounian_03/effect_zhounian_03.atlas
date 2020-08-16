@@ -1,0 +1,83 @@
+
+effect_zhounian_03.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: false
+  xy: 454, 383
+  size: 137, 59
+  orig: 148, 64
+  offset: 5, 4
+  index: -1
+02
+  rotate: false
+  xy: 714, 884
+  size: 178, 60
+  orig: 178, 60
+  offset: 0, 0
+  index: -1
+final_00047_00000
+  rotate: false
+  xy: 2, 444
+  size: 656, 500
+  orig: 664, 500
+  offset: 8, 0
+  index: -1
+gong_00000
+  rotate: false
+  xy: 714, 793
+  size: 93, 89
+  orig: 94, 89
+  offset: 0, 0
+  index: -1
+huangse
+  rotate: false
+  xy: 304, 101
+  size: 40, 31
+  orig: 42, 33
+  offset: 1, 1
+  index: -1
+kai_00000
+  rotate: false
+  xy: 454, 291
+  size: 87, 90
+  orig: 87, 90
+  offset: 0, 0
+  index: -1
+neng_00000
+  rotate: false
+  xy: 100, 3
+  size: 78, 89
+  orig: 78, 89
+  offset: 0, 0
+  index: -1
+shenglidi
+  rotate: true
+  xy: 660, 314
+  size: 630, 52
+  orig: 630, 52
+  offset: 0, 0
+  index: -1
+tiao1_00000
+  rotate: false
+  xy: 2, 134
+  size: 450, 308
+  orig: 450, 320
+  offset: 0, 12
+  index: -1
+tiao_00000
+  rotate: false
+  xy: 2, 94
+  size: 300, 38
+  orig: 300, 100
+  offset: 0, 31
+  index: -1
+xin_00000
+  rotate: false
+  xy: 2, 2
+  size: 96, 90
+  orig: 96, 90
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,27 @@
+
+effect_summon_ui_di.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+kuangsan/16lianxu
+  rotate: false
+  xy: 2, 3
+  size: 146, 146
+  orig: 146, 146
+  offset: 0, 0
+  index: -1
+kuangsan/17disuoxiao
+  rotate: false
+  xy: 228, 284
+  size: 104, 48
+  orig: 104, 48
+  offset: 0, 0
+  index: -1
+kuangsan/9dianadd_00000
+  rotate: false
+  xy: 2, 151
+  size: 224, 181
+  orig: 225, 225
+  offset: 1, 25
+  index: -1

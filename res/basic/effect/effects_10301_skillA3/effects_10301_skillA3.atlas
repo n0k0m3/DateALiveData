@@ -1,0 +1,139 @@
+
+effects_10301_skillA3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skilla/fazhen_00053
+  rotate: false
+  xy: 2, 805
+  size: 217, 214
+  orig: 217, 214
+  offset: 0, 0
+  index: -1
+effects/skilla_b/baoxuehua/baoxuehua_00077
+  rotate: false
+  xy: 701, 789
+  size: 104, 139
+  orig: 110, 218
+  offset: 0, 45
+  index: -1
+effects/skilla_b/baoxuehua/baoxuehua_00079
+  rotate: true
+  xy: 528, 822
+  size: 106, 171
+  orig: 110, 218
+  offset: 0, 30
+  index: -1
+effects/skilla_b/baoxuehua/baoxuehua_00081
+  rotate: true
+  xy: 814, 915
+  size: 104, 205
+  orig: 110, 218
+  offset: 0, 5
+  index: -1
+effects/skilla_b/baoxuehua/baoxuehua_00083
+  rotate: true
+  xy: 203, 570
+  size: 101, 211
+  orig: 110, 218
+  offset: 0, 6
+  index: -1
+effects/skilla_b/baoxuehua/baoxuehua_00085
+  rotate: false
+  xy: 86, 301
+  size: 93, 202
+  orig: 110, 218
+  offset: 0, 7
+  index: -1
+effects/skilla_b/baoxuehua/baoxuehua_00087
+  rotate: true
+  xy: 203, 475
+  size: 93, 209
+  orig: 110, 218
+  offset: 0, 5
+  index: -1
+effects/skilla_b/baoxuehua/baoxuehua_00089
+  rotate: true
+  xy: 181, 379
+  size: 94, 197
+  orig: 110, 218
+  offset: 0, 7
+  index: -1
+effects/skilla_b/baoxuehua/baoxuehua_00090
+  rotate: false
+  xy: 2, 2
+  size: 94, 191
+  orig: 110, 218
+  offset: 0, 14
+  index: -1
+effects/skilla_b/baoxuehua/baoxuehua_00092
+  rotate: true
+  xy: 181, 285
+  size: 92, 175
+  orig: 110, 218
+  offset: 1, 23
+  index: -1
+effects/skilla_b/baoxuehua/baoxuehua_00094
+  rotate: true
+  xy: 506, 736
+  size: 84, 171
+  orig: 110, 218
+  offset: 5, 25
+  index: -1
+effects/skilla_b/luoxuanfeng/luoxuanfeng_00044
+  rotate: true
+  xy: 2, 505
+  size: 298, 102
+  orig: 373, 120
+  offset: 0, 5
+  index: -1
+effects/skilla_b/luoxuanfeng/luoxuanfeng_00045
+  rotate: false
+  xy: 221, 927
+  size: 305, 92
+  orig: 373, 120
+  offset: 10, 11
+  index: -1
+effects/skilla_b/luoxuanfeng/luoxuanfeng_00046
+  rotate: false
+  xy: 528, 930
+  size: 284, 89
+  orig: 373, 120
+  offset: 48, 13
+  index: -1
+effects/skilla_b/luoxuanfeng/luoxuanfeng_00047
+  rotate: true
+  xy: 106, 515
+  size: 288, 95
+  orig: 373, 120
+  offset: 60, 15
+  index: -1
+effects/skilla_b/luoxuanfeng/luoxuanfeng_00048
+  rotate: false
+  xy: 221, 840
+  size: 295, 85
+  orig: 373, 120
+  offset: 70, 12
+  index: -1
+effects/skilla_b/luoxuanfeng/luoxuanfeng_00049
+  rotate: true
+  xy: 2, 195
+  size: 308, 82
+  orig: 373, 120
+  offset: 65, 16
+  index: -1
+effects/skilla_b/luoxuanfeng/luoxuanfeng_00050
+  rotate: false
+  xy: 221, 753
+  size: 283, 85
+  orig: 373, 120
+  offset: 90, 16
+  index: -1
+effects/skilla_b/luoxuanfeng/luoxuanfeng_00051
+  rotate: false
+  xy: 203, 673
+  size: 250, 78
+  orig: 373, 120
+  offset: 123, 16
+  index: -1

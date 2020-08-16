@@ -1,0 +1,20 @@
+
+jiudianfangjian.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dengguang_00000
+  rotate: false
+  xy: 2, 86
+  size: 190, 164
+  orig: 203, 203
+  offset: 0, 14
+  index: -1
+glow_00000
+  rotate: false
+  xy: 2, 2
+  size: 82, 82
+  orig: 203, 203
+  offset: 62, 67
+  index: -1

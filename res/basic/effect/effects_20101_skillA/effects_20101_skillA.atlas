@@ -1,0 +1,62 @@
+
+effects_20101_skillA.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skill01/daoguanga/daoguanga_00014
+  rotate: false
+  xy: 168, 370
+  size: 159, 114
+  orig: 159, 118
+  offset: 0, 4
+  index: -1
+effect/skill01/daoguanga/daoguanga_00015
+  rotate: false
+  xy: 2, 101
+  size: 148, 117
+  orig: 159, 118
+  offset: 0, 0
+  index: -1
+effect/skill01/daoguanga/daoguanga_00016
+  rotate: false
+  xy: 168, 260
+  size: 118, 108
+  orig: 159, 118
+  offset: 0, 0
+  index: -1
+effect/skill01/daoguanga/daoguanga_00017
+  rotate: false
+  xy: 288, 266
+  size: 80, 92
+  orig: 159, 118
+  offset: 5, 0
+  index: -1
+effect/skill01/daoguangb/daoguangb_00026
+  rotate: false
+  xy: 2, 353
+  size: 164, 131
+  orig: 164, 131
+  offset: 0, 0
+  index: -1
+effect/skill01/daoguangb/daoguangb_00027
+  rotate: false
+  xy: 2, 220
+  size: 152, 131
+  orig: 164, 131
+  offset: 0, 0
+  index: -1
+effect/skill01/daoguangb/daoguangb_00028
+  rotate: true
+  xy: 329, 360
+  size: 124, 131
+  orig: 164, 131
+  offset: 1, 0
+  index: -1
+effect/skill01/daoguangb/daoguangb_00029
+  rotate: true
+  xy: 2, 2
+  size: 97, 130
+  orig: 164, 131
+  offset: 4, 1
+  index: -1

@@ -1,0 +1,187 @@
+
+effects_endless_text.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/bian2
+  rotate: false
+  xy: 2, 466
+  size: 257, 44
+  orig: 257, 44
+  offset: 0, 0
+  index: -1
+image/bian_00000
+  rotate: false
+  xy: 2, 387
+  size: 202, 77
+  orig: 250, 150
+  offset: 33, 38
+  index: -1
+image/glow/glow_00002
+  rotate: false
+  xy: 446, 473
+  size: 32, 37
+  orig: 250, 150
+  offset: 32, 37
+  index: -1
+image/glow/glow_00003
+  rotate: false
+  xy: 390, 386
+  size: 112, 78
+  orig: 250, 150
+  offset: 32, 37
+  index: -1
+image/glow/glow_00004
+  rotate: true
+  xy: 172, 102
+  size: 164, 78
+  orig: 250, 150
+  offset: 64, 37
+  index: -1
+image/glow/glow_00005
+  rotate: true
+  xy: 186, 13
+  size: 87, 78
+  orig: 250, 150
+  offset: 150, 37
+  index: -1
+image/glow2/glow2_00000
+  rotate: true
+  xy: 462, 139
+  size: 52, 41
+  orig: 447, 174
+  offset: 77, 52
+  index: -1
+image/glow2/glow2_00001
+  rotate: true
+  xy: 345, 109
+  size: 157, 41
+  orig: 447, 174
+  offset: 77, 52
+  index: -1
+image/glow2/glow2_00002
+  rotate: false
+  xy: 261, 466
+  size: 183, 44
+  orig: 447, 174
+  offset: 146, 52
+  index: -1
+image/glow2/glow2_00003
+  rotate: true
+  xy: 462, 193
+  size: 93, 44
+  orig: 447, 174
+  offset: 241, 52
+  index: -1
+image/lizi/lizi_00003
+  rotate: false
+  xy: 186, 268
+  size: 175, 42
+  orig: 250, 150
+  offset: 50, 63
+  index: -1
+image/lizi/lizi_00005
+  rotate: false
+  xy: 365, 288
+  size: 145, 94
+  orig: 250, 150
+  offset: 49, 25
+  index: -1
+image/lizi/lizi_00006
+  rotate: false
+  xy: 266, 12
+  size: 144, 95
+  orig: 250, 150
+  offset: 54, 29
+  index: -1
+image/lizi/lizi_00007
+  rotate: true
+  xy: 252, 115
+  size: 151, 91
+  orig: 250, 150
+  offset: 51, 36
+  index: -1
+image/lizi/lizi_00008
+  rotate: false
+  xy: 206, 384
+  size: 182, 80
+  orig: 250, 150
+  offset: 16, 44
+  index: -1
+image/lizi/lizi_00009
+  rotate: false
+  xy: 2, 290
+  size: 182, 95
+  orig: 250, 150
+  offset: 21, 33
+  index: -1
+image/lizi/lizi_00010
+  rotate: true
+  xy: 89, 102
+  size: 186, 81
+  orig: 250, 150
+  offset: 19, 38
+  index: -1
+image/lizi/lizi_00011
+  rotate: true
+  xy: 2, 102
+  size: 186, 85
+  orig: 250, 150
+  offset: 24, 40
+  index: -1
+image/lizi/lizi_00012
+  rotate: false
+  xy: 2, 15
+  size: 182, 85
+  orig: 250, 150
+  offset: 31, 46
+  index: -1
+image/lizi/lizi_00013
+  rotate: false
+  xy: 186, 312
+  size: 177, 70
+  orig: 250, 150
+  offset: 39, 53
+  index: -1
+image/lizi/lizi_00014
+  rotate: true
+  xy: 388, 117
+  size: 169, 72
+  orig: 250, 150
+  offset: 50, 59
+  index: -1
+
+effects_endless_text2.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/lizi/lizi_00000
+  rotate: false
+  xy: 2, 112
+  size: 166, 73
+  orig: 250, 150
+  offset: 56, 66
+  index: -1
+image/lizi/lizi_00001
+  rotate: false
+  xy: 2, 2
+  size: 155, 52
+  orig: 250, 150
+  offset: 63, 74
+  index: -1
+image/lizi/lizi_00002
+  rotate: false
+  xy: 2, 187
+  size: 174, 66
+  orig: 250, 150
+  offset: 47, 65
+  index: -1
+image/lizi/lizi_00004
+  rotate: false
+  xy: 2, 56
+  size: 165, 54
+  orig: 250, 150
+  offset: 44, 61
+  index: -1

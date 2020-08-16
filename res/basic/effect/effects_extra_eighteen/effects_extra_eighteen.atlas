@@ -1,0 +1,76 @@
+
+effects_extra_eighteen.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/baonu/baonu_00000
+  rotate: false
+  xy: 338, 386
+  size: 110, 114
+  orig: 110, 123
+  offset: 0, 6
+  index: -1
+images/baonu/baonu_00002
+  rotate: false
+  xy: 2, 377
+  size: 110, 123
+  orig: 110, 123
+  offset: 0, 0
+  index: -1
+images/baonu/baonu_00004
+  rotate: false
+  xy: 2, 252
+  size: 110, 123
+  orig: 110, 123
+  offset: 0, 0
+  index: -1
+images/baonu/baonu_00006
+  rotate: false
+  xy: 114, 377
+  size: 110, 123
+  orig: 110, 123
+  offset: 0, 0
+  index: -1
+images/baonu/baonu_00008
+  rotate: false
+  xy: 2, 127
+  size: 110, 123
+  orig: 110, 123
+  offset: 0, 0
+  index: -1
+images/baonu/baonu_00010
+  rotate: false
+  xy: 114, 252
+  size: 110, 123
+  orig: 110, 123
+  offset: 0, 0
+  index: -1
+images/baonu/baonu_00012
+  rotate: false
+  xy: 226, 377
+  size: 110, 123
+  orig: 110, 123
+  offset: 0, 0
+  index: -1
+images/baonu/baonu_00014
+  rotate: false
+  xy: 2, 2
+  size: 110, 123
+  orig: 110, 123
+  offset: 0, 0
+  index: -1
+images/baonu/baonu_00016
+  rotate: false
+  xy: 114, 127
+  size: 110, 123
+  orig: 110, 123
+  offset: 0, 0
+  index: -1
+images/baonu/baonu_00018
+  rotate: false
+  xy: 226, 257
+  size: 110, 118
+  orig: 110, 123
+  offset: 0, 4
+  index: -1

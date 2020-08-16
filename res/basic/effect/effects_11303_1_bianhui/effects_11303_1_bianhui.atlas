@@ -1,0 +1,90 @@
+
+effects_11303_1_bianhui.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skillA/glow_000
+  rotate: false
+  xy: 580, 795
+  size: 76, 76
+  orig: 80, 80
+  offset: 2, 2
+  index: -1
+effects/skillC/efc_a_halo0001
+  rotate: false
+  xy: 2, 766
+  size: 205, 205
+  orig: 205, 205
+  offset: 0, 0
+  index: -1
+effects/skillC/yanchen/yanchen_00024
+  rotate: false
+  xy: 209, 774
+  size: 155, 59
+  orig: 222, 92
+  offset: 33, 3
+  index: -1
+effects/skillC/yanchen/yanchen_00026
+  rotate: false
+  xy: 776, 896
+  size: 195, 75
+  orig: 222, 92
+  offset: 12, 0
+  index: -1
+effects/skillC/yanchen/yanchen_00028
+  rotate: true
+  xy: 2, 25
+  size: 198, 76
+  orig: 222, 92
+  offset: 10, 3
+  index: -1
+effects/skillC/yanchen/yanchen_00030
+  rotate: true
+  xy: 129, 428
+  size: 190, 67
+  orig: 222, 92
+  offset: 14, 12
+  index: -1
+effects/skillC/yanchenlizi/yanchenlizi_00026
+  rotate: false
+  xy: 397, 837
+  size: 181, 134
+  orig: 222, 219
+  offset: 16, 34
+  index: -1
+effects/skillC/yanchenlizi/yanchenlizi_00028
+  rotate: false
+  xy: 209, 835
+  size: 186, 136
+  orig: 222, 219
+  offset: 19, 53
+  index: -1
+effects/skillC/yanchenlizi/yanchenlizi_00030
+  rotate: false
+  xy: 2, 620
+  size: 195, 144
+  orig: 222, 219
+  offset: 15, 58
+  index: -1
+effects/skillC/yanchenlizi/yanchenlizi_00032
+  rotate: true
+  xy: 2, 422
+  size: 196, 125
+  orig: 222, 219
+  offset: 14, 85
+  index: -1
+effects/skillC/yanchenlizi/yanchenlizi_00034
+  rotate: true
+  xy: 2, 225
+  size: 195, 102
+  orig: 222, 219
+  offset: 14, 115
+  index: -1
+effects/skillC/yanchenlizi/yanchenlizi_00036
+  rotate: false
+  xy: 580, 873
+  size: 194, 98
+  orig: 222, 219
+  offset: 15, 120
+  index: -1

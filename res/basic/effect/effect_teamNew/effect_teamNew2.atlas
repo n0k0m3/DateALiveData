@@ -1,0 +1,13 @@
+
+effect_teamNew2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/wenli
+  rotate: false
+  xy: 2, 2
+  size: 656, 900
+  orig: 656, 900
+  offset: 0, 0
+  index: -1

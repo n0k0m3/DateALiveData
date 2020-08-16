@@ -1,0 +1,153 @@
+
+MJ_diaoyuzhedang.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guang/guang_00000
+  rotate: true
+  xy: 477, 552
+  size: 232, 90
+  orig: 254, 132
+  offset: 11, 21
+  index: -1
+guang/guang_00001
+  rotate: true
+  xy: 664, 556
+  size: 232, 89
+  orig: 254, 132
+  offset: 12, 23
+  index: -1
+guang/guang_00002
+  rotate: true
+  xy: 194, 547
+  size: 234, 92
+  orig: 254, 132
+  offset: 14, 21
+  index: -1
+guang/guang_00003
+  rotate: true
+  xy: 288, 550
+  size: 234, 92
+  orig: 254, 132
+  offset: 16, 21
+  index: -1
+guang/guang_00004
+  rotate: true
+  xy: 2, 68
+  size: 235, 92
+  orig: 254, 132
+  offset: 17, 22
+  index: -1
+guang/guang_00005
+  rotate: false
+  xy: 717, 885
+  size: 234, 94
+  orig: 254, 132
+  offset: 18, 20
+  index: -1
+guang/guang_00006
+  rotate: false
+  xy: 481, 884
+  size: 234, 95
+  orig: 254, 132
+  offset: 17, 19
+  index: -1
+guang/guang_00007
+  rotate: false
+  xy: 2, 882
+  size: 238, 97
+  orig: 254, 132
+  offset: 14, 17
+  index: -1
+guang/guang_00008
+  rotate: false
+  xy: 2, 783
+  size: 237, 97
+  orig: 254, 132
+  offset: 14, 16
+  index: -1
+guang/guang_00009
+  rotate: false
+  xy: 242, 882
+  size: 237, 97
+  orig: 254, 132
+  offset: 12, 16
+  index: -1
+guang/guang_00010
+  rotate: true
+  xy: 2, 543
+  size: 238, 95
+  orig: 254, 132
+  offset: 12, 17
+  index: -1
+guang/guang_00011
+  rotate: false
+  xy: 241, 786
+  size: 236, 94
+  orig: 254, 132
+  offset: 13, 18
+  index: -1
+guang/guang_00012
+  rotate: true
+  xy: 569, 557
+  size: 231, 93
+  orig: 254, 132
+  offset: 15, 19
+  index: -1
+guang/guang_00013
+  rotate: false
+  xy: 717, 790
+  size: 228, 93
+  orig: 254, 132
+  offset: 17, 19
+  index: -1
+guang/guang_00014
+  rotate: true
+  xy: 755, 560
+  size: 228, 92
+  orig: 254, 132
+  offset: 17, 20
+  index: -1
+guang/guang_00015
+  rotate: false
+  xy: 481, 790
+  size: 233, 92
+  orig: 254, 132
+  offset: 14, 20
+  index: -1
+guang/guang_00016
+  rotate: true
+  xy: 2, 305
+  size: 236, 93
+  orig: 254, 132
+  offset: 13, 19
+  index: -1
+guang/guang_00017
+  rotate: true
+  xy: 99, 545
+  size: 236, 93
+  orig: 254, 132
+  offset: 13, 19
+  index: -1
+guang/guang_00018
+  rotate: true
+  xy: 382, 551
+  size: 233, 93
+  orig: 254, 132
+  offset: 14, 19
+  index: -1
+guang/guang_00019
+  rotate: true
+  xy: 97, 308
+  size: 233, 91
+  orig: 254, 132
+  offset: 12, 20
+  index: -1
+qipao
+  rotate: false
+  xy: 953, 952
+  size: 26, 27
+  orig: 26, 27
+  offset: 0, 0
+  index: -1

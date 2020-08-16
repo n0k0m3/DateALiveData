@@ -1,0 +1,123 @@
+
+fight_baozha.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/baozha/baozha_00000
+  rotate: true
+  xy: 2, 711
+  size: 285, 350
+  orig: 375, 375
+  offset: 0, 25
+  index: -1
+images/baozha/baozha_00001
+  rotate: true
+  xy: 379, 354
+  size: 332, 375
+  orig: 375, 375
+  offset: 0, 0
+  index: -1
+images/baozha/baozha_00010
+  rotate: true
+  xy: 379, 2
+  size: 350, 375
+  orig: 375, 375
+  offset: 0, 0
+  index: -1
+images/baozha/baozha_00011
+  rotate: true
+  xy: 2, 18
+  size: 344, 375
+  orig: 375, 375
+  offset: 0, 0
+  index: -1
+images/baozha/baozha_00012
+  rotate: true
+  xy: 2, 364
+  size: 324, 375
+  orig: 375, 375
+  offset: 0, 0
+  index: -1
+images/baozha/baozha_00013
+  rotate: true
+  xy: 354, 690
+  size: 306, 314
+  orig: 375, 375
+  offset: 0, 61
+  index: -1
+images/baozha/baozha_00014
+  rotate: true
+  xy: 670, 688
+  size: 308, 315
+  orig: 375, 375
+  offset: 0, 60
+  index: -1
+
+fight_baozha2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/baozha/baozha_00002
+  rotate: false
+  xy: 2, 379
+  size: 375, 375
+  orig: 375, 375
+  offset: 0, 0
+  index: -1
+images/baozha/baozha_00003
+  rotate: false
+  xy: 2, 2
+  size: 375, 375
+  orig: 375, 375
+  offset: 0, 0
+  index: -1
+images/baozha/baozha_00004
+  rotate: false
+  xy: 379, 379
+  size: 366, 375
+  orig: 375, 375
+  offset: 0, 0
+  index: -1
+images/baozha/baozha_00005
+  rotate: false
+  xy: 379, 2
+  size: 366, 375
+  orig: 375, 375
+  offset: 0, 0
+  index: -1
+
+fight_baozha3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/baozha/baozha_00006
+  rotate: false
+  xy: 2, 379
+  size: 366, 375
+  orig: 375, 375
+  offset: 0, 0
+  index: -1
+images/baozha/baozha_00007
+  rotate: false
+  xy: 2, 2
+  size: 366, 375
+  orig: 375, 375
+  offset: 0, 0
+  index: -1
+images/baozha/baozha_00008
+  rotate: false
+  xy: 370, 379
+  size: 366, 375
+  orig: 375, 375
+  offset: 0, 0
+  index: -1
+images/baozha/baozha_00009
+  rotate: false
+  xy: 370, 2
+  size: 357, 375
+  orig: 375, 375
+  offset: 0, 0
+  index: -1

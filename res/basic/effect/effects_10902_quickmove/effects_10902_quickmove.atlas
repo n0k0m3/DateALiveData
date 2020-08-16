@@ -1,0 +1,118 @@
+
+effects_10902_quickmove.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/quickmove/liudonga/liudonga_00000
+  rotate: false
+  xy: 270, 918
+  size: 266, 100
+  orig: 266, 119
+  offset: 0, 7
+  index: -1
+effect/quickmove/liudonga/liudonga_00001
+  rotate: false
+  xy: 2, 904
+  size: 266, 114
+  orig: 266, 119
+  offset: 0, 1
+  index: -1
+effect/quickmove/liudonga/liudonga_00002
+  rotate: false
+  xy: 538, 905
+  size: 234, 113
+  orig: 266, 119
+  offset: 30, 0
+  index: -1
+effect/quickmove/liudonga/liudonga_00003
+  rotate: false
+  xy: 2, 792
+  size: 263, 110
+  orig: 266, 119
+  offset: 0, 0
+  index: -1
+effect/quickmove/liudonga/liudonga_00004
+  rotate: true
+  xy: 112, 218
+  size: 220, 108
+  orig: 266, 119
+  offset: 41, 0
+  index: -1
+effect/quickmove/liudonga/liudonga_00005
+  rotate: true
+  xy: 2, 178
+  size: 243, 108
+  orig: 266, 119
+  offset: 14, 0
+  index: -1
+effect/quickmove/liudonga/liudonga_00006
+  rotate: false
+  xy: 2, 682
+  size: 254, 108
+  orig: 266, 119
+  offset: 0, 0
+  index: -1
+effect/quickmove/liudonga/liudonga_00007
+  rotate: true
+  xy: 107, 440
+  size: 240, 113
+  orig: 266, 119
+  offset: 0, 1
+  index: -1
+effect/quickmove/liudonga/liudonga_00008
+  rotate: true
+  xy: 2, 423
+  size: 257, 103
+  orig: 266, 119
+  offset: 9, 6
+  index: -1
+effect/quickmove/liudonga/liudonga_00009
+  rotate: false
+  xy: 774, 921
+  size: 237, 97
+  orig: 266, 119
+  offset: 19, 9
+  index: -1
+effect/quickmove/liudonga/liudonga_00010
+  rotate: true
+  xy: 222, 471
+  size: 209, 84
+  orig: 266, 119
+  offset: 46, 18
+  index: -1
+effect/quickmove/liudonga/liudonga_00011
+  rotate: true
+  xy: 2, 2
+  size: 174, 92
+  orig: 266, 119
+  offset: 77, 7
+  index: -1
+effect/quickmove/liudonga/liudonga_00012
+  rotate: true
+  xy: 1013, 954
+  size: 64, 5
+  orig: 266, 119
+  offset: 68, 73
+  index: -1
+effect/quickmove/liudonga/liudonga_00013
+  rotate: false
+  xy: 112, 211
+  size: 59, 5
+  orig: 266, 119
+  offset: 59, 73
+  index: -1
+effect/quickmove/renyinga_00006
+  rotate: false
+  xy: 774, 784
+  size: 196, 135
+  orig: 218, 156
+  offset: 18, 7
+  index: -1
+effect/quickmove/renyingm_00006
+  rotate: true
+  xy: 222, 265
+  size: 204, 143
+  orig: 218, 156
+  offset: 0, 2
+  index: -1

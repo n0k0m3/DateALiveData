@@ -1,0 +1,438 @@
+
+effects_10212_skillC.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/bai
+  rotate: false
+  xy: 168, 369
+  size: 55, 26
+  orig: 55, 26
+  offset: 0, 0
+  index: -1
+images/effect/extra_skillB/fire/fire_005
+  rotate: false
+  xy: 717, 29
+  size: 103, 92
+  orig: 199, 178
+  offset: 69, 19
+  index: -1
+images/effect/extra_skillB/fire/fire_013
+  rotate: true
+  xy: 822, 5
+  size: 181, 178
+  orig: 199, 178
+  offset: 0, 0
+  index: -1
+images/effect/extra_skillB/fire/fire_017
+  rotate: false
+  xy: 823, 844
+  size: 199, 178
+  orig: 199, 178
+  offset: 0, 0
+  index: -1
+images/effect/extra_skillB/fire/fire_019
+  rotate: false
+  xy: 823, 664
+  size: 197, 178
+  orig: 199, 178
+  offset: 2, 0
+  index: -1
+images/effect/extra_skillB/fire/fire_023
+  rotate: false
+  xy: 822, 188
+  size: 194, 155
+  orig: 199, 178
+  offset: 2, 6
+  index: -1
+images/effect/glow
+  rotate: false
+  xy: 168, 397
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+images/effect/guangci
+  rotate: false
+  xy: 717, 123
+  size: 103, 104
+  orig: 120, 120
+  offset: 9, 8
+  index: -1
+images/effect/skillc/boom/boom_002
+  rotate: true
+  xy: 2, 15
+  size: 328, 246
+  orig: 344, 264
+  offset: 6, 15
+  index: -1
+images/effect/skillc/boom/boom_006
+  rotate: false
+  xy: 477, 538
+  size: 344, 239
+  orig: 344, 264
+  offset: 0, 15
+  index: -1
+images/effect/skillc/boom/boom_008
+  rotate: false
+  xy: 477, 779
+  size: 344, 243
+  orig: 344, 264
+  offset: 0, 15
+  index: -1
+images/effect/skillc/boom/boom_010
+  rotate: true
+  xy: 823, 345
+  size: 317, 195
+  orig: 344, 264
+  offset: 12, 51
+  index: -1
+images/effect/skillc/boom/boom_014
+  rotate: true
+  xy: 361, 5
+  size: 303, 178
+  orig: 344, 264
+  offset: 12, 52
+  index: -1
+images/effect/skillc/chuansuo2/chuansuo2_000
+  rotate: true
+  xy: 642, 5
+  size: 228, 73
+  orig: 336, 96
+  offset: 10, 11
+  index: -1
+images/effect/skillc/chuansuo2/chuansuo2_008
+  rotate: false
+  xy: 2, 479
+  size: 246, 73
+  orig: 336, 96
+  offset: 42, 15
+  index: -1
+images/effect/skillc/down_066
+  rotate: true
+  xy: 250, 2
+  size: 306, 109
+  orig: 310, 110
+  offset: 2, 1
+  index: -1
+images/effect/skillc/juqi/juqi_000
+  rotate: false
+  xy: 642, 235
+  size: 77, 75
+  orig: 320, 320
+  offset: 137, 50
+  index: -1
+images/effect/skillc/juqi/juqi_012
+  rotate: false
+  xy: 2, 357
+  size: 164, 120
+  orig: 320, 320
+  offset: 130, 110
+  index: -1
+images/effect/skillc/juqi2/juqi2_010
+  rotate: true
+  xy: 250, 310
+  size: 242, 225
+  orig: 320, 320
+  offset: 61, 87
+  index: -1
+images/effect/skillc/pao1/pao1_004
+  rotate: false
+  xy: 599, 312
+  size: 120, 224
+  orig: 120, 240
+  offset: 0, 14
+  index: -1
+images/effect/skillc/pao1/pao1_006
+  rotate: false
+  xy: 477, 311
+  size: 120, 225
+  orig: 120, 240
+  offset: 0, 12
+  index: -1
+images/effect/skillc/up/up_048
+  rotate: true
+  xy: 541, 2
+  size: 307, 99
+  orig: 311, 99
+  offset: 1, 0
+  index: -1
+images/effect/skillc/up/up_050
+  rotate: true
+  xy: 721, 229
+  size: 307, 99
+  orig: 311, 99
+  offset: 1, 0
+  index: -1
+images/effect/zhuwang
+  rotate: false
+  xy: 2, 554
+  size: 473, 468
+  orig: 480, 480
+  offset: 1, 2
+  index: -1
+
+effects_10212_skillC2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/extra_skillB/fire/fire_021
+  rotate: false
+  xy: 2, 299
+  size: 193, 166
+  orig: 199, 178
+  offset: 3, 3
+  index: -1
+images/effect/skillc/boom/boom_000
+  rotate: false
+  xy: 647, 780
+  size: 316, 242
+  orig: 344, 264
+  offset: 17, 15
+  index: -1
+images/effect/skillc/boom/boom_001
+  rotate: false
+  xy: 322, 686
+  size: 316, 242
+  orig: 344, 264
+  offset: 17, 15
+  index: -1
+images/effect/skillc/boom/boom_012
+  rotate: false
+  xy: 2, 751
+  size: 318, 180
+  orig: 344, 264
+  offset: 10, 50
+  index: -1
+images/effect/skillc/chuansuo1/chuansuo1_000
+  rotate: true
+  xy: 791, 8
+  size: 288, 93
+  orig: 288, 120
+  offset: 0, 5
+  index: -1
+images/effect/skillc/chuansuo1/chuansuo1_002
+  rotate: true
+  xy: 886, 13
+  size: 283, 104
+  orig: 288, 120
+  offset: 0, 5
+  index: -1
+images/effect/skillc/chuansuo1/chuansuo1_008
+  rotate: true
+  xy: 581, 298
+  size: 278, 106
+  orig: 288, 120
+  offset: 0, 12
+  index: -1
+images/effect/skillc/chuansuo2/chuansuo2_001
+  rotate: false
+  xy: 2, 933
+  size: 322, 89
+  orig: 336, 96
+  offset: 8, 6
+  index: -1
+images/effect/skillc/chuansuo2/chuansuo2_002
+  rotate: false
+  xy: 326, 930
+  size: 319, 92
+  orig: 336, 96
+  offset: 10, 4
+  index: -1
+images/effect/skillc/chuansuo2/chuansuo2_004
+  rotate: true
+  xy: 2, 2
+  size: 294, 90
+  orig: 336, 96
+  offset: 20, 6
+  index: -1
+images/effect/skillc/chuansuo2/chuansuo2_006
+  rotate: true
+  xy: 934, 298
+  size: 293, 81
+  orig: 336, 96
+  offset: 16, 10
+  index: -1
+images/effect/skillc/chuansuo2/chuansuo2_010
+  rotate: true
+  xy: 965, 810
+  size: 212, 50
+  orig: 336, 96
+  offset: 74, 24
+  index: -1
+images/effect/skillc/faqi/faqi_000
+  rotate: false
+  xy: 791, 486
+  size: 139, 90
+  orig: 264, 192
+  offset: 17, 41
+  index: -1
+images/effect/skillc/juqi/juqi_004
+  rotate: false
+  xy: 342, 2
+  size: 234, 295
+  orig: 320, 320
+  offset: 0, 23
+  index: -1
+images/effect/skillc/juqi/juqi_006
+  rotate: false
+  xy: 2, 467
+  size: 312, 282
+  orig: 320, 320
+  offset: 6, 28
+  index: -1
+images/effect/skillc/juqi/juqi_008
+  rotate: true
+  xy: 94, 2
+  size: 295, 246
+  orig: 320, 320
+  offset: 20, 34
+  index: -1
+images/effect/skillc/juqi2/juqi2_000
+  rotate: false
+  xy: 197, 364
+  size: 111, 101
+  orig: 320, 320
+  offset: 104, 10
+  index: -1
+images/effect/skillc/juqi2/juqi2_004
+  rotate: false
+  xy: 578, 5
+  size: 211, 291
+  orig: 320, 320
+  offset: 26, 7
+  index: -1
+images/effect/skillc/juqi2/juqi2_008
+  rotate: true
+  xy: 316, 299
+  size: 284, 263
+  orig: 320, 320
+  offset: 25, 54
+  index: -1
+images/effect/skillc/pao1/pao1_000
+  rotate: false
+  xy: 949, 593
+  size: 69, 185
+  orig: 120, 240
+  offset: 22, 29
+  index: -1
+images/effect/skillc/pao1/pao1_002
+  rotate: false
+  xy: 689, 368
+  size: 99, 208
+  orig: 120, 240
+  offset: 8, 22
+  index: -1
+images/effect/skillc/up/up_052
+  rotate: false
+  xy: 640, 679
+  size: 307, 99
+  orig: 311, 99
+  offset: 1, 0
+  index: -1
+images/effect/skillc/up/up_054
+  rotate: false
+  xy: 316, 585
+  size: 307, 99
+  orig: 311, 99
+  offset: 1, 0
+  index: -1
+images/effect/skillc/up/up_056
+  rotate: false
+  xy: 625, 578
+  size: 307, 99
+  orig: 311, 99
+  offset: 1, 0
+  index: -1
+
+effects_10212_skillC3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/dilie_000
+  rotate: true
+  xy: 112, 177
+  size: 262, 60
+  orig: 280, 96
+  offset: 11, 13
+  index: -1
+images/effect/extra_skillB/fire/fire_009
+  rotate: false
+  xy: 258, 398
+  size: 180, 176
+  orig: 199, 178
+  offset: 0, 2
+  index: -1
+images/effect/skillc/chuansuo1/chuansuo1_004
+  rotate: true
+  xy: 2, 157
+  size: 282, 108
+  orig: 288, 120
+  offset: 0, 5
+  index: -1
+images/effect/skillc/chuansuo1/chuansuo1_006
+  rotate: true
+  xy: 149, 456
+  size: 282, 107
+  orig: 288, 120
+  offset: 0, 10
+  index: -1
+images/effect/skillc/faqi/faqi_002
+  rotate: false
+  xy: 684, 850
+  size: 216, 165
+  orig: 264, 192
+  offset: 14, 9
+  index: -1
+images/effect/skillc/faqi/faqi_004
+  rotate: false
+  xy: 464, 656
+  size: 212, 165
+  orig: 264, 192
+  offset: 18, 13
+  index: -1
+images/effect/skillc/faqi/faqi_006
+  rotate: false
+  xy: 258, 576
+  size: 204, 162
+  orig: 264, 192
+  offset: 26, 16
+  index: -1
+images/effect/skillc/faqi/faqi_008
+  rotate: false
+  xy: 2, 2
+  size: 164, 153
+  orig: 264, 192
+  offset: 66, 25
+  index: -1
+images/effect/skillc/juqi/juqi_002
+  rotate: false
+  xy: 292, 744
+  size: 170, 271
+  orig: 320, 320
+  offset: 50, 49
+  index: -1
+images/effect/skillc/juqi/juqi_010
+  rotate: false
+  xy: 464, 823
+  size: 218, 192
+  orig: 320, 320
+  offset: 91, 44
+  index: -1
+images/effect/skillc/juqi2/juqi2_002
+  rotate: false
+  xy: 2, 441
+  size: 145, 297
+  orig: 320, 320
+  offset: 93, 0
+  index: -1
+images/effect/skillc/juqi2/juqi2_006
+  rotate: false
+  xy: 2, 740
+  size: 288, 275
+  orig: 320, 320
+  offset: 22, 43
+  index: -1

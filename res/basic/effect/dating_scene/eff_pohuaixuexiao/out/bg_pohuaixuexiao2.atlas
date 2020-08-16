@@ -1,0 +1,26 @@
+
+bg_pohuaixuexiao2.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+yangguang_00000
+  rotate: false
+  xy: 2, 78
+  size: 252, 176
+  orig: 294, 294
+  offset: 34, 50
+  index: -1
+
+bg_pohuaixuexiao22.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow_00060
+  rotate: false
+  xy: 2, 47
+  size: 223, 178
+  orig: 294, 294
+  offset: 3, 58
+  index: -1

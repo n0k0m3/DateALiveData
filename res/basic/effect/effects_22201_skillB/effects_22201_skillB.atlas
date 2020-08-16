@@ -1,0 +1,104 @@
+
+effects_22201_skillB.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guangbiadd__16
+  rotate: false
+  xy: 2, 310
+  size: 411, 189
+  orig: 461, 224
+  offset: 25, 16
+  index: -1
+guangyunadd__16
+  rotate: false
+  xy: 241, 274
+  size: 114, 34
+  orig: 116, 38
+  offset: 2, 2
+  index: -1
+huanadd__00
+  rotate: false
+  xy: 428, 672
+  size: 263, 258
+  orig: 263, 258
+  offset: 0, 0
+  index: -1
+huannor__00
+  rotate: false
+  xy: 2, 501
+  size: 424, 429
+  orig: 468, 459
+  offset: 27, 13
+  index: -1
+up/dibo_00000
+  rotate: false
+  xy: 428, 517
+  size: 237, 49
+  orig: 237, 61
+  offset: 0, 8
+  index: -1
+up/dibo_00001
+  rotate: false
+  xy: 2, 258
+  size: 237, 50
+  orig: 237, 61
+  offset: 0, 7
+  index: -1
+up/dibo_00002
+  rotate: false
+  xy: 693, 777
+  size: 237, 49
+  orig: 237, 61
+  offset: 0, 7
+  index: -1
+up/dibo_00003
+  rotate: false
+  xy: 428, 620
+  size: 237, 50
+  orig: 237, 61
+  offset: 0, 7
+  index: -1
+up/dibo_00004
+  rotate: false
+  xy: 693, 880
+  size: 237, 50
+  orig: 237, 61
+  offset: 0, 7
+  index: -1
+up/dibo_00005
+  rotate: false
+  xy: 2, 206
+  size: 237, 50
+  orig: 237, 61
+  offset: 0, 7
+  index: -1
+up/dibo_00006
+  rotate: false
+  xy: 428, 568
+  size: 237, 50
+  orig: 237, 61
+  offset: 0, 7
+  index: -1
+up/dibo_00007
+  rotate: false
+  xy: 693, 828
+  size: 237, 50
+  orig: 237, 61
+  offset: 0, 7
+  index: -1
+up/dibo_00008
+  rotate: false
+  xy: 2, 154
+  size: 237, 50
+  orig: 237, 61
+  offset: 0, 7
+  index: -1
+up/dibo_00009
+  rotate: false
+  xy: 2, 103
+  size: 237, 49
+  orig: 237, 61
+  offset: 0, 8
+  index: -1

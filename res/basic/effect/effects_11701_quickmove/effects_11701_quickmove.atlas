@@ -1,0 +1,188 @@
+
+effects_11701_quickmove.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/quickmove/add/add_00002
+  rotate: false
+  xy: 260, 546
+  size: 190, 48
+  orig: 240, 80
+  offset: 30, 18
+  index: -1
+images/effects/quickmove/add/add_00003
+  rotate: false
+  xy: 260, 662
+  size: 219, 60
+  orig: 240, 80
+  offset: 21, 14
+  index: -1
+images/effects/quickmove/add/add_00004
+  rotate: false
+  xy: 260, 724
+  size: 226, 62
+  orig: 240, 80
+  offset: 14, 12
+  index: -1
+images/effects/quickmove/add/add_00005
+  rotate: false
+  xy: 800, 942
+  size: 217, 75
+  orig: 240, 80
+  offset: 23, 3
+  index: -1
+images/effects/quickmove/add/add_00006
+  rotate: true
+  xy: 117, 554
+  size: 234, 73
+  orig: 240, 80
+  offset: 6, 5
+  index: -1
+images/effects/quickmove/add/add_00007
+  rotate: false
+  xy: 558, 945
+  size: 240, 72
+  orig: 240, 80
+  offset: 0, 6
+  index: -1
+images/effects/quickmove/add/add_00008
+  rotate: true
+  xy: 47, 548
+  size: 240, 68
+  orig: 240, 80
+  offset: 0, 9
+  index: -1
+images/effects/quickmove/add/add_00009
+  rotate: true
+  xy: 192, 548
+  size: 240, 66
+  orig: 240, 80
+  offset: 0, 7
+  index: -1
+images/effects/quickmove/add/add_00010
+  rotate: false
+  xy: 268, 830
+  size: 235, 62
+  orig: 240, 80
+  offset: 0, 7
+  index: -1
+images/effects/quickmove/add/add_00011
+  rotate: false
+  xy: 244, 483
+  size: 175, 61
+  orig: 240, 80
+  offset: 22, 7
+  index: -1
+images/effects/quickmove/canyingadd__00000
+  rotate: false
+  xy: 115, 414
+  size: 127, 132
+  orig: 160, 160
+  offset: 18, 14
+  index: -1
+images/effects/quickmove/canyingnor___00000
+  rotate: false
+  xy: 384, 241
+  size: 105, 111
+  orig: 160, 160
+  offset: 29, 24
+  index: -1
+images/effects/quickmove/guangan01_00001
+  rotate: true
+  xy: 2, 31
+  size: 238, 55
+  orig: 240, 80
+  offset: 1, 11
+  index: -1
+images/effects/quickmove/guanggan_00002
+  rotate: false
+  xy: 2, 790
+  size: 264, 113
+  orig: 400, 160
+  offset: 64, 26
+  index: -1
+images/effects/quickmove/nor_shang/nor_shang_00002
+  rotate: false
+  xy: 115, 348
+  size: 145, 64
+  orig: 200, 64
+  offset: 55, 0
+  index: -1
+images/effects/quickmove/nor_shang/nor_shang_00004
+  rotate: false
+  xy: 260, 596
+  size: 198, 64
+  orig: 200, 64
+  offset: 0, 0
+  index: -1
+images/effects/quickmove/nor_shang/nor_shang_00006
+  rotate: true
+  xy: 49, 360
+  size: 186, 64
+  orig: 200, 64
+  offset: 0, 0
+  index: -1
+images/effects/quickmove/nor_shang/nor_shang_00008
+  rotate: false
+  xy: 244, 417
+  size: 172, 64
+  orig: 200, 64
+  offset: 0, 0
+  index: -1
+images/effects/quickmove/nor_shang/nor_shang_00010
+  rotate: false
+  xy: 262, 354
+  size: 139, 61
+  orig: 200, 64
+  offset: 0, 0
+  index: -1
+images/effects/quickmove/nor_xia/nor_xia_00001
+  rotate: false
+  xy: 2, 905
+  size: 276, 112
+  orig: 280, 112
+  offset: 4, 0
+  index: -1
+images/effects/quickmove/nor_xia/nor_xia_00003
+  rotate: false
+  xy: 280, 941
+  size: 276, 76
+  orig: 280, 112
+  offset: 4, 16
+  index: -1
+images/effects/quickmove/nor_xia/nor_xia_00005
+  rotate: true
+  xy: 2, 512
+  size: 276, 43
+  orig: 280, 112
+  offset: 4, 31
+  index: -1
+images/effects/quickmove/nor_xia/nor_xia_00007
+  rotate: true
+  xy: 2, 271
+  size: 239, 45
+  orig: 280, 112
+  offset: 27, 29
+  index: -1
+images/effects/quickmove/nor_xia/nor_xia_00009
+  rotate: false
+  xy: 280, 894
+  size: 237, 45
+  orig: 280, 112
+  offset: 28, 29
+  index: -1
+images/effects/quickmove/nor_xia/nor_xia_00011
+  rotate: false
+  xy: 268, 788
+  size: 236, 40
+  orig: 280, 112
+  offset: 28, 31
+  index: -1
+images/effects/quickmove/renwuadd_00002
+  rotate: true
+  xy: 262, 236
+  size: 116, 120
+  orig: 120, 120
+  offset: 1, 0
+  index: -1

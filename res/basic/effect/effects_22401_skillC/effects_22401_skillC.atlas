@@ -1,0 +1,236 @@
+
+effects_22401_skillC.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/die/fight_22401-die1shangsheng/fight_22401-die1_shangsheng_00074
+  rotate: true
+  xy: 677, 843
+  size: 178, 344
+  orig: 195, 350
+  offset: 0, 1
+  index: -1
+effect/die/fight_22401-die1shangsheng/fight_22401-die1_shangsheng_00076
+  rotate: true
+  xy: 677, 676
+  size: 165, 338
+  orig: 195, 350
+  offset: 10, 11
+  index: -1
+effect/die/fight_22401-die1shangsheng/fight_22401-die1_zhaozi_00067
+  rotate: true
+  xy: 301, 93
+  size: 224, 174
+  orig: 280, 280
+  offset: 32, 73
+  index: -1
+effect/die/fight_22401-die1shangsheng/xiaotu/fight_22401-die1_shangsheng_00066
+  rotate: false
+  xy: 872, 328
+  size: 149, 89
+  orig: 195, 89
+  offset: 22, 0
+  index: -1
+effect/die/fight_22401-die1shangsheng/xiaotu/fight_22401-die1_shangsheng_00068
+  rotate: true
+  xy: 865, 163
+  size: 163, 149
+  orig: 195, 149
+  offset: 15, 0
+  index: -1
+effect/die/fight_22401-die1shangsheng/xiaotu/fight_22401-die1_shangsheng_00072
+  rotate: false
+  xy: 682, 104
+  size: 181, 223
+  orig: 194, 237
+  offset: 0, 0
+  index: -1
+effect/die/fight_22401-diebaodian/fight_22401-die1_baodian00064
+  rotate: false
+  xy: 2, 19
+  size: 297, 298
+  orig: 354, 350
+  offset: 30, 25
+  index: -1
+effect/die/fight_22401-diebaodian/fight_22401-die1_baodian00065
+  rotate: false
+  xy: 358, 450
+  size: 287, 268
+  orig: 354, 350
+  offset: 27, 31
+  index: -1
+effect/die/fight_22401-diebaodian/fight_22401-die1_baodian00067
+  rotate: false
+  xy: 358, 720
+  size: 317, 301
+  orig: 354, 350
+  offset: 10, 25
+  index: -1
+effect/die/fight_22401-diebaodian/fight_22401-die1_baodian00068
+  rotate: false
+  xy: 2, 671
+  size: 354, 350
+  orig: 354, 350
+  offset: 0, 0
+  index: -1
+effect/die/fight_22401-diebaodian/fight_22401-die1_baodian00070
+  rotate: false
+  xy: 2, 319
+  size: 354, 350
+  orig: 354, 350
+  offset: 0, 0
+  index: -1
+effect/die/fight_22401-diebaodian/fight_22401-die1_baodian00071
+  rotate: true
+  xy: 647, 433
+  size: 241, 250
+  orig: 354, 350
+  offset: 87, 29
+  index: -1
+effect/die/fight_22401-diedibiao/fight_22401-die1_dibiao_00069
+  rotate: false
+  xy: 672, 49
+  size: 176, 53
+  orig: 271, 113
+  offset: 41, 17
+  index: -1
+effect/die/fight_22401-diedibiao2/fight_22401-die1_dibiao_00066
+  rotate: false
+  xy: 301, 28
+  size: 181, 63
+  orig: 207, 134
+  offset: 12, 28
+  index: -1
+effect/die/fight_22401-diedibiao2/fight_22401-die1_dibiao_00067
+  rotate: false
+  xy: 484, 44
+  size: 186, 61
+  orig: 207, 134
+  offset: 8, 29
+  index: -1
+effect/die/fight_22401-diegezi/fight_22401-die1_gezi_00080
+  rotate: true
+  xy: 358, 329
+  size: 119, 255
+  orig: 119, 280
+  offset: 0, 7
+  index: -1
+effect/die/fight_22401-diegezi/fight_22401-die1_gezi_00088
+  rotate: true
+  xy: 615, 329
+  size: 102, 255
+  orig: 119, 280
+  offset: 11, 7
+  index: -1
+effect/die/fight_22401-diegezi/fight_22401-die1_gezi_00096
+  rotate: false
+  xy: 899, 419
+  size: 119, 255
+  orig: 119, 280
+  offset: 0, 7
+  index: -1
+effect/die/fight_22401-dielizi/fight_22401-die1_lizi_00083
+  rotate: false
+  xy: 477, 107
+  size: 203, 220
+  orig: 354, 350
+  offset: 71, 67
+  index: -1
+effect/die/fight_22401-dieshandian1/fight_22401-die1_shandian00024
+  rotate: true
+  xy: 850, 4
+  size: 80, 86
+  orig: 140, 140
+  offset: 31, 24
+  index: -1
+effect/die/fight_22401-dieshandian2/fight_22401-die1_shandian2_00047
+  rotate: false
+  xy: 865, 86
+  size: 112, 75
+  orig: 175, 175
+  offset: 41, 42
+  index: -1
+effect/die/fight_22401-dieshandian2/fight_22401-die1_shandian2_00051
+  rotate: true
+  xy: 938, 13
+  size: 71, 58
+  orig: 175, 175
+  offset: 68, 63
+  index: -1
+effect/glow/shanguang1
+  rotate: false
+  xy: 484, 15
+  size: 134, 27
+  orig: 148, 27
+  offset: 7, 0
+  index: -1
+
+effects_22401_skillC2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/die/fight_22401-die1shangsheng/xiaotu/fight_22401-die1_shangsheng_00070
+  rotate: true
+  xy: 213, 674
+  size: 189, 204
+  orig: 195, 204
+  offset: 0, 0
+  index: -1
+effect/die/fight_22401-diebaodian/fight_22401-die1_baodian00063
+  rotate: false
+  xy: 419, 677
+  size: 161, 186
+  orig: 354, 350
+  offset: 88, 80
+  index: -1
+effect/die/fight_22401-diebaodian/fight_22401-die1_baodian00072
+  rotate: false
+  xy: 2, 667
+  size: 209, 196
+  orig: 354, 350
+  offset: 121, 29
+  index: -1
+effect/die/fight_22401-dielizi/fight_22401-die1_lizi_00077
+  rotate: false
+  xy: 2, 91
+  size: 162, 171
+  orig: 354, 350
+  offset: 95, 88
+  index: -1
+effect/die/fight_22401-dielizi/fight_22401-die1_lizi_00081
+  rotate: false
+  xy: 2, 461
+  size: 199, 204
+  orig: 354, 350
+  offset: 78, 74
+  index: -1
+effect/die/fight_22401-dieshandian2/fight_22401-die1_shandian2_00043
+  rotate: false
+  xy: 582, 705
+  size: 53, 62
+  orig: 175, 175
+  offset: 49, 45
+  index: -1
+effect/die/fight_22401-dieshandian2/fight_22401-die1_shandian2_00045
+  rotate: false
+  xy: 2, 2
+  size: 105, 87
+  orig: 175, 175
+  offset: 39, 40
+  index: -1
+effect/die/fight_22401-dieshandian2/fight_22401-die1_shandian2_00049
+  rotate: false
+  xy: 582, 769
+  size: 99, 94
+  orig: 175, 175
+  offset: 32, 36
+  index: -1
+effect/die/fight_22401-dieshanguang/fight_22401-die1_shanguang_00071
+  rotate: false
+  xy: 2, 264
+  size: 195, 195
+  orig: 210, 210
+  offset: 0, 15
+  index: -1

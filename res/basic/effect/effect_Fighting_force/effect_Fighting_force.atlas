@@ -1,0 +1,76 @@
+
+effect_Fighting_force.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fang_00000
+  rotate: false
+  xy: 454, 351
+  size: 52, 52
+  orig: 52, 52
+  offset: 0, 0
+  index: -1
+final_00047_00000
+  rotate: false
+  xy: 2, 405
+  size: 656, 500
+  orig: 664, 500
+  offset: 8, 0
+  index: -1
+gong_00000
+  rotate: false
+  xy: 454, 298
+  size: 51, 51
+  orig: 52, 52
+  offset: 1, 0
+  index: -1
+huangse
+  rotate: false
+  xy: 304, 62
+  size: 40, 31
+  orig: 42, 33
+  offset: 1, 1
+  index: -1
+kai_00000
+  rotate: false
+  xy: 745, 854
+  size: 52, 51
+  orig: 52, 52
+  offset: 0, 0
+  index: -1
+neng_00000
+  rotate: false
+  xy: 508, 351
+  size: 48, 52
+  orig: 52, 52
+  offset: 1, 0
+  index: -1
+shenglidi
+  rotate: true
+  xy: 660, 413
+  size: 492, 83
+  orig: 494, 85
+  offset: 1, 1
+  index: -1
+tiao1_00000
+  rotate: false
+  xy: 2, 95
+  size: 450, 308
+  orig: 450, 320
+  offset: 0, 12
+  index: -1
+tiao_00000
+  rotate: false
+  xy: 2, 55
+  size: 300, 38
+  orig: 300, 100
+  offset: 0, 31
+  index: -1
+xin_00000
+  rotate: false
+  xy: 2, 2
+  size: 52, 51
+  orig: 52, 52
+  offset: 0, 1
+  index: -1

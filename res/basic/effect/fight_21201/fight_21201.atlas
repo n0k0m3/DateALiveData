@@ -1,0 +1,272 @@
+
+fight_21201.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bandage
+  rotate: false
+  xy: 137, 42
+  size: 32, 11
+  orig: 32, 11
+  offset: 0, 0
+  index: -1
+effect/skillB/shoulei/shoulei0001
+  rotate: false
+  xy: 2, 310
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+eye
+  rotate: true
+  xy: 190, 67
+  size: 36, 21
+  orig: 36, 21
+  offset: 0, 0
+  index: -1
+grenades1
+  rotate: false
+  xy: 429, 370
+  size: 7, 7
+  orig: 7, 7
+  offset: 0, 0
+  index: -1
+grenades2
+  rotate: false
+  xy: 498, 416
+  size: 11, 25
+  orig: 11, 25
+  offset: 0, 0
+  index: -1
+grenades3
+  rotate: false
+  xy: 472, 450
+  size: 6, 7
+  orig: 6, 7
+  offset: 0, 0
+  index: -1
+grenades4
+  rotate: true
+  xy: 398, 333
+  size: 10, 25
+  orig: 10, 25
+  offset: 0, 0
+  index: -1
+hair_1
+  rotate: false
+  xy: 355, 330
+  size: 41, 45
+  orig: 41, 45
+  offset: 0, 0
+  index: -1
+hair_2
+  rotate: false
+  xy: 480, 443
+  size: 30, 67
+  orig: 30, 67
+  offset: 0, 0
+  index: -1
+hair_3
+  rotate: false
+  xy: 285, 379
+  size: 71, 82
+  orig: 71, 82
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 141, 105
+  size: 58, 53
+  orig: 58, 53
+  offset: 0, 0
+  index: -1
+head_1
+  rotate: false
+  xy: 398, 345
+  size: 29, 32
+  orig: 29, 32
+  offset: 0, 0
+  index: -1
+head_2
+  rotate: true
+  xy: 190, 56
+  size: 9, 15
+  orig: 9, 15
+  offset: 0, 0
+  index: -1
+jiaodi
+  rotate: true
+  xy: 438, 387
+  size: 70, 32
+  orig: 70, 32
+  offset: 0, 0
+  index: -1
+l_calf_1
+  rotate: true
+  xy: 141, 160
+  size: 69, 63
+  orig: 69, 63
+  offset: 0, 0
+  index: -1
+l_calf_2
+  rotate: false
+  xy: 337, 292
+  size: 22, 31
+  orig: 22, 31
+  offset: 0, 0
+  index: -1
+l_foot
+  rotate: true
+  xy: 282, 294
+  size: 29, 53
+  orig: 29, 53
+  offset: 0, 0
+  index: -1
+l_forearm
+  rotate: true
+  xy: 257, 239
+  size: 41, 20
+  orig: 41, 20
+  offset: 0, 0
+  index: -1
+l_hand
+  rotate: true
+  xy: 149, 18
+  size: 22, 16
+  orig: 22, 16
+  offset: 0, 0
+  index: -1
+l_thigh _1
+  rotate: true
+  xy: 2, 2
+  size: 35, 78
+  orig: 35, 78
+  offset: 0, 0
+  index: -1
+l_uparm
+  rotate: true
+  xy: 209, 235
+  size: 27, 46
+  orig: 27, 46
+  offset: 0, 0
+  index: -1
+r_calf _1
+  rotate: false
+  xy: 394, 379
+  size: 42, 78
+  orig: 42, 78
+  offset: 0, 0
+  index: -1
+r_calf _2
+  rotate: true
+  xy: 279, 246
+  size: 24, 34
+  orig: 24, 34
+  offset: 0, 0
+  index: -1
+r_foot
+  rotate: false
+  xy: 257, 282
+  size: 23, 55
+  orig: 23, 55
+  offset: 0, 0
+  index: -1
+r_forearm
+  rotate: false
+  xy: 282, 272
+  size: 41, 20
+  orig: 41, 20
+  offset: 0, 0
+  index: -1
+r_hand
+  rotate: false
+  xy: 361, 312
+  size: 21, 16
+  orig: 21, 16
+  offset: 0, 0
+  index: -1
+r_thigh
+  rotate: false
+  xy: 358, 377
+  size: 34, 84
+  orig: 34, 84
+  offset: 0, 0
+  index: -1
+r_uparm
+  rotate: false
+  xy: 472, 387
+  size: 24, 54
+  orig: 24, 54
+  offset: 0, 0
+  index: -1
+spine_1
+  rotate: false
+  xy: 137, 55
+  size: 51, 48
+  orig: 51, 48
+  offset: 0, 0
+  index: -1
+spine_2
+  rotate: true
+  xy: 285, 325
+  size: 52, 68
+  orig: 52, 68
+  offset: 0, 0
+  index: -1
+weapon-1
+  rotate: false
+  xy: 209, 264
+  size: 46, 73
+  orig: 46, 73
+  offset: 0, 0
+  index: -1
+weapon-2
+  rotate: true
+  xy: 2, 39
+  size: 91, 133
+  orig: 91, 133
+  offset: 0, 0
+  index: -1
+weapon-3
+  rotate: false
+  xy: 141, 231
+  size: 66, 77
+  orig: 66, 77
+  offset: 0, 0
+  index: -1
+weapon-4
+  rotate: true
+  xy: 400, 459
+  size: 51, 78
+  orig: 51, 78
+  offset: 0, 0
+  index: -1
+weapon-5
+  rotate: false
+  xy: 2, 132
+  size: 137, 176
+  orig: 137, 176
+  offset: 0, 0
+  index: -1
+weapon-6
+  rotate: false
+  xy: 204, 339
+  size: 79, 122
+  orig: 79, 122
+  offset: 0, 0
+  index: -1
+weapon-7
+  rotate: true
+  xy: 82, 2
+  size: 35, 65
+  orig: 35, 65
+  offset: 0, 0
+  index: -1
+weapon-8
+  rotate: false
+  xy: 204, 463
+  size: 194, 47
+  orig: 194, 47
+  offset: 0, 0
+  index: -1

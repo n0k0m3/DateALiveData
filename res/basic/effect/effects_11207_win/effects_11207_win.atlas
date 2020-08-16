@@ -1,0 +1,251 @@
+
+effects_11207_win.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/win/dimian/00003
+  rotate: false
+  xy: 2, 12
+  size: 111, 69
+  orig: 201, 114
+  offset: 44, 14
+  index: -1
+images/effects/win/dimian/00005
+  rotate: false
+  xy: 654, 836
+  size: 135, 83
+  orig: 201, 114
+  offset: 35, 9
+  index: -1
+images/effects/win/dimian/00007
+  rotate: true
+  xy: 139, 626
+  size: 172, 89
+  orig: 201, 114
+  offset: 12, 6
+  index: -1
+images/effects/win/dimian/00009
+  rotate: true
+  xy: 138, 435
+  size: 189, 93
+  orig: 201, 114
+  offset: 4, 5
+  index: -1
+images/effects/win/dimian/00011
+  rotate: true
+  xy: 203, 90
+  size: 182, 97
+  orig: 201, 114
+  offset: 14, 1
+  index: -1
+images/effects/win/dimian/00013
+  rotate: true
+  xy: 104, 86
+  size: 186, 97
+  orig: 201, 114
+  offset: 13, 0
+  index: -1
+images/effects/win/dimian/00015
+  rotate: true
+  xy: 2, 83
+  size: 189, 100
+  orig: 201, 114
+  offset: 12, 0
+  index: -1
+images/effects/win/dimian/00017
+  rotate: false
+  xy: 799, 921
+  size: 188, 101
+  orig: 201, 114
+  offset: 13, 0
+  index: -1
+images/effects/win/dimian/00019
+  rotate: false
+  xy: 608, 921
+  size: 189, 101
+  orig: 201, 114
+  offset: 12, 0
+  index: -1
+images/effects/win/dimian/00021
+  rotate: false
+  xy: 203, 809
+  size: 197, 101
+  orig: 201, 114
+  offset: 4, 0
+  index: -1
+images/effects/win/dimian/00023
+  rotate: false
+  xy: 405, 921
+  size: 201, 101
+  orig: 201, 114
+  offset: 0, 0
+  index: -1
+images/effects/win/dimian/00025
+  rotate: false
+  xy: 2, 912
+  size: 200, 110
+  orig: 201, 114
+  offset: 1, 0
+  index: -1
+images/effects/win/dimian/00027
+  rotate: false
+  xy: 2, 800
+  size: 199, 110
+  orig: 201, 114
+  offset: 2, 0
+  index: -1
+images/effects/win/dimian/00029
+  rotate: false
+  xy: 204, 912
+  size: 199, 110
+  orig: 201, 114
+  offset: 1, 0
+  index: -1
+images/effects/win/dimian/00031
+  rotate: true
+  xy: 2, 274
+  size: 185, 109
+  orig: 201, 114
+  offset: 7, 1
+  index: -1
+images/effects/win/dimian/00033
+  rotate: false
+  xy: 233, 386
+  size: 157, 105
+  orig: 201, 114
+  offset: 24, 3
+  index: -1
+images/effects/win/lizi/00006
+  rotate: false
+  xy: 203, 2
+  size: 118, 86
+  orig: 155, 187
+  offset: 21, 27
+  index: -1
+images/effects/win/lizi/00008
+  rotate: false
+  xy: 402, 809
+  size: 129, 101
+  orig: 155, 187
+  offset: 16, 28
+  index: -1
+images/effects/win/lizi/00010
+  rotate: false
+  xy: 231, 275
+  size: 137, 109
+  orig: 155, 187
+  offset: 13, 28
+  index: -1
+images/effects/win/lizi/00012
+  rotate: true
+  xy: 444, 134
+  size: 139, 122
+  orig: 155, 187
+  offset: 11, 28
+  index: -1
+images/effects/win/lizi/00014
+  rotate: true
+  xy: 371, 668
+  size: 139, 136
+  orig: 155, 187
+  offset: 11, 28
+  index: -1
+images/effects/win/lizi/00016
+  rotate: false
+  xy: 302, 128
+  size: 140, 145
+  orig: 155, 187
+  offset: 11, 29
+  index: -1
+images/effects/win/lizi/00018
+  rotate: false
+  xy: 230, 651
+  size: 139, 156
+  orig: 155, 187
+  offset: 9, 20
+  index: -1
+images/effects/win/lizi/00020
+  rotate: false
+  xy: 233, 493
+  size: 138, 156
+  orig: 155, 187
+  offset: 10, 21
+  index: -1
+images/effects/win/lizi/00022
+  rotate: false
+  xy: 2, 461
+  size: 134, 167
+  orig: 155, 187
+  offset: 13, 10
+  index: -1
+images/effects/win/lizi/00024
+  rotate: false
+  xy: 2, 630
+  size: 135, 168
+  orig: 155, 187
+  offset: 12, 8
+  index: -1
+images/effects/win/lizi/00026
+  rotate: false
+  xy: 113, 274
+  size: 116, 159
+  orig: 155, 187
+  offset: 29, 10
+  index: -1
+images/effects/win/lizi/00028
+  rotate: false
+  xy: 323, 2
+  size: 107, 124
+  orig: 155, 187
+  offset: 29, 13
+  index: -1
+images/effects/win/lizi/00030
+  rotate: false
+  xy: 373, 543
+  size: 111, 123
+  orig: 155, 187
+  offset: 22, 15
+  index: -1
+images/effects/win/lizi/00032
+  rotate: true
+  xy: 370, 275
+  size: 109, 123
+  orig: 155, 187
+  offset: 16, 17
+  index: -1
+images/effects/win/lizi/00034
+  rotate: true
+  xy: 533, 814
+  size: 105, 119
+  orig: 155, 187
+  offset: 19, 21
+  index: -1
+images/effects/win/lizi/00036
+  rotate: true
+  xy: 791, 827
+  size: 92, 117
+  orig: 155, 187
+  offset: 29, 24
+  index: -1
+images/effects/win/lizi/00038
+  rotate: true
+  xy: 115, 15
+  size: 69, 86
+  orig: 155, 187
+  offset: 36, 55
+  index: -1
+images/effects/win/lizi/00040
+  rotate: false
+  xy: 910, 836
+  size: 67, 83
+  orig: 155, 187
+  offset: 36, 58
+  index: -1
+images/effects/win/lizi/00042
+  rotate: true
+  xy: 509, 750
+  size: 57, 50
+  orig: 155, 187
+  offset: 37, 73
+  index: -1

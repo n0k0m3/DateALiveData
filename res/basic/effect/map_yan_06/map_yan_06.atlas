@@ -1,0 +1,13 @@
+
+map_yan_06.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sucai/yyyyy
+  rotate: false
+  xy: 2, 2
+  size: 60, 165
+  orig: 60, 165
+  offset: 0, 0
+  index: -1

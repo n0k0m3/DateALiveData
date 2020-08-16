@@ -1,0 +1,97 @@
+
+effects_10801_win.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/win/lizi/lizi_00024
+  rotate: true
+  xy: 163, 42
+  size: 194, 120
+  orig: 288, 198
+  offset: 31, 9
+  index: -1
+images/effects/win/lizi/lizi_00026
+  rotate: false
+  xy: 525, 595
+  size: 208, 130
+  orig: 288, 198
+  offset: 29, 18
+  index: -1
+images/effects/win/lizi/lizi_00028
+  rotate: false
+  xy: 800, 854
+  size: 212, 161
+  orig: 288, 198
+  offset: 37, 6
+  index: -1
+images/effects/win/lizi/lizi_00030
+  rotate: true
+  xy: 2, 2
+  size: 234, 159
+  orig: 288, 198
+  offset: 26, 26
+  index: -1
+images/effects/win/lizi/lizi_00032
+  rotate: false
+  xy: 2, 500
+  size: 251, 177
+  orig: 288, 198
+  offset: 22, 21
+  index: -1
+images/effects/win/lizi/lizi_00034
+  rotate: false
+  xy: 525, 727
+  size: 229, 119
+  orig: 288, 198
+  offset: 19, 18
+  index: -1
+images/effects/win/xuanfeng/xuanfeng_00024
+  rotate: false
+  xy: 2, 679
+  size: 267, 166
+  orig: 288, 190
+  offset: 4, 6
+  index: -1
+images/effects/win/xuanfeng/xuanfeng_00025
+  rotate: true
+  xy: 2, 238
+  size: 260, 168
+  orig: 288, 190
+  offset: 15, 6
+  index: -1
+images/effects/win/xuanfeng/xuanfeng_00026
+  rotate: false
+  xy: 543, 848
+  size: 255, 167
+  orig: 288, 190
+  offset: 20, 5
+  index: -1
+images/effects/win/xuanfeng/xuanfeng_00027
+  rotate: false
+  xy: 274, 680
+  size: 249, 167
+  orig: 288, 190
+  offset: 20, 5
+  index: -1
+images/effects/win/xuanfeng/xuanfeng_00028
+  rotate: true
+  xy: 172, 240
+  size: 258, 162
+  orig: 288, 190
+  offset: 12, 5
+  index: -1
+images/effects/win/xuanfeng/xuanfeng_00029
+  rotate: false
+  xy: 2, 847
+  size: 270, 168
+  orig: 288, 190
+  offset: 3, 5
+  index: -1
+images/effects/win/xuanfeng/xuanfeng_00030
+  rotate: false
+  xy: 274, 849
+  size: 267, 166
+  orig: 288, 190
+  offset: 4, 6
+  index: -1

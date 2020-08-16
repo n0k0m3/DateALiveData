@@ -1,0 +1,174 @@
+
+effects_22501_skillC.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skillC/laser/laser_0000
+  rotate: false
+  xy: 2, 471
+  size: 298, 30
+  orig: 300, 30
+  offset: 1, 0
+  index: -1
+effects/skillC/laser/laser_0001
+  rotate: false
+  xy: 2, 439
+  size: 298, 30
+  orig: 300, 30
+  offset: 1, 0
+  index: -1
+effects/skillC/laser/laser_0002
+  rotate: false
+  xy: 2, 407
+  size: 298, 30
+  orig: 300, 30
+  offset: 1, 0
+  index: -1
+effects/skillC/laser/laser_0003
+  rotate: false
+  xy: 2, 375
+  size: 298, 30
+  orig: 300, 30
+  offset: 1, 0
+  index: -1
+effects/skillC/laser/laser_0004
+  rotate: false
+  xy: 2, 343
+  size: 298, 30
+  orig: 300, 30
+  offset: 1, 0
+  index: -1
+effects/skillC/laser/laser_0005
+  rotate: false
+  xy: 2, 311
+  size: 298, 30
+  orig: 300, 30
+  offset: 1, 0
+  index: -1
+effects/skillC/laser_b/laser_b_0000
+  rotate: false
+  xy: 86, 88
+  size: 120, 20
+  orig: 120, 30
+  offset: 0, 5
+  index: -1
+effects/skillC/laser_b/laser_b_0001
+  rotate: true
+  xy: 355, 286
+  size: 120, 19
+  orig: 120, 30
+  offset: 0, 5
+  index: -1
+effects/skillC/laser_b/laser_b_0002
+  rotate: true
+  xy: 376, 293
+  size: 113, 16
+  orig: 120, 30
+  offset: 5, 7
+  index: -1
+effects/skillC/laser_c_0054
+  rotate: true
+  xy: 2, 16
+  size: 73, 14
+  orig: 73, 14
+  offset: 0, 0
+  index: -1
+effects/skillC/light_e_0045
+  rotate: false
+  xy: 2, 223
+  size: 86, 86
+  orig: 86, 86
+  offset: 0, 0
+  index: -1
+effects/skillC/lizi_b/lizi_b_0001
+  rotate: true
+  xy: 46, 90
+  size: 131, 38
+  orig: 150, 69
+  offset: 6, 15
+  index: -1
+effects/skillC/lizi_b/lizi_b_0002
+  rotate: true
+  xy: 2, 91
+  size: 130, 42
+  orig: 150, 69
+  offset: 6, 14
+  index: -1
+effects/skillC/lizi_b/lizi_b_0003
+  rotate: false
+  xy: 90, 264
+  size: 127, 45
+  orig: 150, 69
+  offset: 8, 12
+  index: -1
+effects/skillC/lizi_b/lizi_b_0004
+  rotate: false
+  xy: 90, 215
+  size: 124, 47
+  orig: 150, 69
+  offset: 10, 10
+  index: -1
+effects/skillC/lizi_b/lizi_b_0005
+  rotate: false
+  xy: 86, 163
+  size: 121, 50
+  orig: 150, 69
+  offset: 12, 9
+  index: -1
+effects/skillC/lizi_b/lizi_b_0006
+  rotate: false
+  xy: 86, 110
+  size: 120, 51
+  orig: 150, 69
+  offset: 13, 8
+  index: -1
+effects/skillC/lizi_b/lizi_b_0007
+  rotate: false
+  xy: 395, 449
+  size: 106, 52
+  orig: 150, 69
+  offset: 17, 7
+  index: -1
+effects/skillC/lizi_b/lizi_b_0008
+  rotate: true
+  xy: 302, 306
+  size: 100, 51
+  orig: 150, 69
+  offset: 19, 7
+  index: -1
+effects/skillC/lizi_b/lizi_b_0009
+  rotate: false
+  xy: 395, 398
+  size: 88, 49
+  orig: 150, 69
+  offset: 39, 6
+  index: -1
+effects/skillC/lizi_b/lizi_b_0010
+  rotate: false
+  xy: 219, 261
+  size: 75, 48
+  orig: 150, 69
+  offset: 41, 8
+  index: -1
+effects/skillC/lizi_b/lizi_b_0011
+  rotate: false
+  xy: 394, 353
+  size: 74, 43
+  orig: 150, 69
+  offset: 42, 10
+  index: -1
+effects/skillC/lizi_b/lizi_b_0012
+  rotate: false
+  xy: 394, 308
+  size: 53, 43
+  orig: 150, 69
+  offset: 42, 11
+  index: -1
+effects/skillGH/point_a_0027
+  rotate: false
+  xy: 302, 408
+  size: 91, 93
+  orig: 91, 93
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,293 @@
+
+effect_highteam_04.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/016
+  rotate: true
+  xy: 593, 865
+  size: 45, 57
+  orig: 84, 84
+  offset: 19, 14
+  index: -1
+images/017
+  rotate: false
+  xy: 224, 56
+  size: 49, 51
+  orig: 84, 84
+  offset: 17, 17
+  index: -1
+images/018
+  rotate: false
+  xy: 275, 54
+  size: 40, 53
+  orig: 84, 84
+  offset: 22, 16
+  index: -1
+images/019
+  rotate: false
+  xy: 948, 538
+  size: 41, 49
+  orig: 84, 84
+  offset: 21, 18
+  index: -1
+images/020
+  rotate: false
+  xy: 895, 486
+  size: 48, 48
+  orig: 84, 84
+  offset: 18, 18
+  index: -1
+images/021
+  rotate: false
+  xy: 895, 536
+  size: 51, 51
+  orig: 84, 84
+  offset: 16, 17
+  index: -1
+images/022
+  rotate: true
+  xy: 60, 4
+  size: 42, 54
+  orig: 84, 84
+  offset: 21, 15
+  index: -1
+images/023
+  rotate: true
+  xy: 2, 4
+  size: 42, 56
+  orig: 84, 84
+  offset: 21, 14
+  index: -1
+images/024
+  rotate: true
+  xy: 168, 2
+  size: 50, 51
+  orig: 84, 84
+  offset: 17, 17
+  index: -1
+images/025
+  rotate: false
+  xy: 168, 54
+  size: 54, 53
+  orig: 84, 84
+  offset: 15, 16
+  index: -1
+images/baoxiangbaodian/baoxiang_00010
+  rotate: false
+  xy: 2, 564
+  size: 250, 200
+  orig: 250, 200
+  offset: 0, 0
+  index: -1
+images/baoxiangbaodian/baoxiang_00011
+  rotate: false
+  xy: 764, 470
+  size: 129, 117
+  orig: 250, 200
+  offset: 58, 41
+  index: -1
+images/baoxiangbaodian/baoxiang_00012
+  rotate: false
+  xy: 630, 464
+  size: 132, 127
+  orig: 250, 200
+  offset: 56, 35
+  index: -1
+images/baoxiangbaodian/baoxiang_00013
+  rotate: false
+  xy: 859, 723
+  size: 140, 137
+  orig: 250, 200
+  offset: 52, 29
+  index: -1
+images/baoxiangbaodian/baoxiang_00014
+  rotate: false
+  xy: 168, 109
+  size: 147, 145
+  orig: 250, 200
+  offset: 49, 24
+  index: -1
+images/baoxiangbaodian/baoxiang_00015
+  rotate: false
+  xy: 476, 430
+  size: 152, 152
+  orig: 250, 200
+  offset: 47, 20
+  index: -1
+images/baoxiangbaodian/baoxiang_00016
+  rotate: true
+  xy: 318, 420
+  size: 158, 156
+  orig: 250, 200
+  offset: 45, 18
+  index: -1
+images/baoxiangbaodian/baoxiang_00017
+  rotate: false
+  xy: 430, 748
+  size: 161, 162
+  orig: 250, 200
+  offset: 43, 14
+  index: -1
+images/baoxiangbaodian/baoxiang_00018
+  rotate: false
+  xy: 254, 580
+  size: 161, 166
+  orig: 250, 200
+  offset: 42, 12
+  index: -1
+images/baoxiangbaodian/baoxiang_00019
+  rotate: true
+  xy: 260, 748
+  size: 162, 168
+  orig: 250, 200
+  offset: 41, 11
+  index: -1
+images/baoxiangbaodian/baoxiang_00020
+  rotate: false
+  xy: 2, 219
+  size: 163, 170
+  orig: 250, 200
+  offset: 39, 9
+  index: -1
+images/baoxiangbaodian/baoxiang_00021
+  rotate: false
+  xy: 2, 48
+  size: 164, 169
+  orig: 250, 200
+  offset: 39, 10
+  index: -1
+images/baoxiangbaodian/baoxiang_00022
+  rotate: false
+  xy: 2, 391
+  size: 169, 171
+  orig: 250, 200
+  offset: 39, 9
+  index: -1
+images/baoxiangbaodian/baoxiang_00023
+  rotate: false
+  xy: 417, 584
+  size: 160, 162
+  orig: 250, 200
+  offset: 39, 14
+  index: -1
+images/baoxiangbaodian/baoxiang_00024
+  rotate: false
+  xy: 696, 864
+  size: 161, 158
+  orig: 250, 200
+  offset: 37, 17
+  index: -1
+images/baoxiangbaodian/baoxiang_00025
+  rotate: true
+  xy: 859, 862
+  size: 160, 161
+  orig: 250, 200
+  offset: 42, 9
+  index: -1
+images/baoxiangbaodian/baoxiang_00026
+  rotate: true
+  xy: 173, 403
+  size: 159, 143
+  orig: 250, 200
+  offset: 39, 22
+  index: -1
+images/baoxiangbaodian/baoxiang_00027
+  rotate: false
+  xy: 318, 151
+  size: 147, 141
+  orig: 250, 200
+  offset: 52, 24
+  index: -1
+images/baoxiangbaodian/baoxiang_00028
+  rotate: true
+  xy: 318, 294
+  size: 124, 148
+  orig: 250, 200
+  offset: 55, 24
+  index: -1
+images/baoxiangbaodian/baoxiang_00029
+  rotate: true
+  xy: 173, 256
+  size: 145, 143
+  orig: 250, 200
+  offset: 55, 23
+  index: -1
+images/baoyuan/baoyuan_00010
+  rotate: false
+  xy: 2, 766
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+images/baoyuan/baoyuan_00011
+  rotate: false
+  xy: 765, 348
+  size: 122, 120
+  orig: 256, 256
+  offset: 69, 66
+  index: -1
+images/baoyuan/baoyuan_00012
+  rotate: true
+  xy: 726, 730
+  size: 132, 131
+  orig: 256, 256
+  offset: 65, 60
+  index: -1
+images/baoyuan/baoyuan_00013
+  rotate: true
+  xy: 717, 593
+  size: 135, 139
+  orig: 256, 256
+  offset: 62, 55
+  index: -1
+images/baoyuan/baoyuan_00014
+  rotate: false
+  xy: 579, 605
+  size: 136, 141
+  orig: 256, 256
+  offset: 60, 53
+  index: -1
+images/baoyuan/baoyuan_00015
+  rotate: true
+  xy: 317, 8
+  size: 141, 143
+  orig: 256, 256
+  offset: 60, 53
+  index: -1
+images/baoyuan/baoyuan_00016
+  rotate: false
+  xy: 858, 589
+  size: 135, 132
+  orig: 256, 256
+  offset: 58, 59
+  index: -1
+images/baoyuan/baoyuan_00017
+  rotate: false
+  xy: 630, 343
+  size: 133, 119
+  orig: 256, 256
+  offset: 60, 64
+  index: -1
+images/baoyuan/baoyuan_00018
+  rotate: true
+  xy: 570, 912
+  size: 110, 124
+  orig: 256, 256
+  offset: 73, 65
+  index: -1
+images/glow3_00010
+  rotate: false
+  xy: 593, 748
+  size: 131, 114
+  orig: 150, 150
+  offset: 9, 20
+  index: -1
+images/xiantiao_00010
+  rotate: false
+  xy: 260, 912
+  size: 308, 110
+  orig: 400, 200
+  offset: 42, 45
+  index: -1

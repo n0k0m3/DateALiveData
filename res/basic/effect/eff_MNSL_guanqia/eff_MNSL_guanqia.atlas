@@ -1,0 +1,13 @@
+
+eff_MNSL_guanqia.png
+size: 32,32
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guanqia/lizi
+  rotate: false
+  xy: 2, 2
+  size: 18, 19
+  orig: 18, 19
+  offset: 0, 0
+  index: -1

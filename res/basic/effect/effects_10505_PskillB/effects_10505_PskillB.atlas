@@ -1,0 +1,1032 @@
+
+effects_10505_PskillB.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/pskillB/jiguang/jiguang_00063
+  rotate: true
+  xy: 99, 3
+  size: 330, 69
+  orig: 365, 140
+  offset: 19, 31
+  index: -1
+images/effect/pskillB/jiguang/jiguang_00064
+  rotate: true
+  xy: 170, 2
+  size: 325, 64
+  orig: 365, 140
+  offset: 24, 34
+  index: -1
+images/effect/pskillB/lizi/lizi_00033
+  rotate: false
+  xy: 404, 797
+  size: 399, 98
+  orig: 484, 130
+  offset: 18, 8
+  index: -1
+images/effect/pskillB/lizi/lizi_00035
+  rotate: false
+  xy: 399, 715
+  size: 391, 80
+  orig: 484, 130
+  offset: 25, 30
+  index: -1
+images/effect/pskillB/lizi/lizi_00037
+  rotate: false
+  xy: 2, 682
+  size: 390, 86
+  orig: 484, 130
+  offset: 34, 28
+  index: -1
+images/effect/pskillB/lizi/lizi_00039
+  rotate: false
+  xy: 394, 625
+  size: 383, 88
+  orig: 484, 130
+  offset: 41, 26
+  index: -1
+images/effect/pskillB/lizi/lizi_00041
+  rotate: false
+  xy: 379, 539
+  size: 374, 84
+  orig: 484, 130
+  offset: 50, 24
+  index: -1
+images/effect/pskillB/lizi/lizi_00043
+  rotate: false
+  xy: 660, 239
+  size: 362, 88
+  orig: 484, 130
+  offset: 58, 22
+  index: -1
+images/effect/pskillB/lizi/lizi_00049
+  rotate: true
+  xy: 2, 2
+  size: 331, 95
+  orig: 484, 130
+  offset: 79, 18
+  index: -1
+images/effect/pskillB/lizi/lizi_00067
+  rotate: false
+  xy: 805, 756
+  size: 214, 83
+  orig: 484, 130
+  offset: 144, 20
+  index: -1
+images/effect/pskillB/penshe/penshe_00034
+  rotate: false
+  xy: 792, 582
+  size: 228, 172
+  orig: 249, 172
+  offset: 16, 0
+  index: -1
+images/effect/pskillB/quan2/quan2_00037
+  rotate: true
+  xy: 740, 333
+  size: 53, 153
+  orig: 99, 185
+  offset: 24, 18
+  index: -1
+images/effect/pskillB/quan2/quan2_00043
+  rotate: true
+  xy: 816, 8
+  size: 53, 152
+  orig: 99, 185
+  offset: 24, 15
+  index: -1
+images/effect/pskillB/shandian/shandian_00037
+  rotate: false
+  xy: 404, 897
+  size: 400, 125
+  orig: 406, 130
+  offset: 0, 3
+  index: -1
+images/effect/pskillB/shandian/shandian_00038
+  rotate: false
+  xy: 2, 770
+  size: 395, 123
+  orig: 406, 130
+  offset: 5, 0
+  index: -1
+images/effect/pskillB/shandian/shandian_00039
+  rotate: false
+  xy: 2, 895
+  size: 400, 127
+  orig: 406, 130
+  offset: 0, 0
+  index: -1
+images/effect/pskillB/shandian/shandian_00040
+  rotate: false
+  xy: 2, 440
+  size: 372, 122
+  orig: 406, 130
+  offset: 12, 8
+  index: -1
+images/effect/pskillB/shandian/shandian_00041
+  rotate: false
+  xy: 2, 564
+  size: 375, 116
+  orig: 406, 130
+  offset: 6, 8
+  index: -1
+images/effect/pskillB/shandian1/shandian1_00021
+  rotate: true
+  xy: 577, 213
+  size: 114, 80
+  orig: 208, 185
+  offset: 11, 70
+  index: -1
+images/effect/pskillB/shandian1/shandian1_00022
+  rotate: false
+  xy: 659, 170
+  size: 116, 67
+  orig: 208, 185
+  offset: 8, 74
+  index: -1
+images/effect/pskillB/shanguang/shanguang_00044
+  rotate: false
+  xy: 369, 168
+  size: 108, 159
+  orig: 174, 201
+  offset: 31, 15
+  index: -1
+images/effect/pskillB/shanguang/shanguang_00045
+  rotate: false
+  xy: 351, 2
+  size: 109, 163
+  orig: 174, 201
+  offset: 31, 15
+  index: -1
+images/effect/pskillB/shanguang/shanguang_00048
+  rotate: false
+  xy: 479, 168
+  size: 96, 159
+  orig: 174, 201
+  offset: 31, 16
+  index: -1
+images/effect/pskillB/shanguang/shanguang_00049
+  rotate: false
+  xy: 236, 2
+  size: 113, 163
+  orig: 174, 201
+  offset: 31, 12
+  index: -1
+images/effect/pskillB/xiantiao/xiantiao_00029
+  rotate: false
+  xy: 745, 388
+  size: 276, 88
+  orig: 400, 122
+  offset: 88, 9
+  index: -1
+images/effect/pskillB/xiantiao/xiantiao_00031
+  rotate: false
+  xy: 376, 434
+  size: 367, 103
+  orig: 400, 122
+  offset: 15, 4
+  index: -1
+images/effect/pskillB/xiantiao/xiantiao_00032
+  rotate: false
+  xy: 2, 335
+  size: 367, 103
+  orig: 400, 122
+  offset: 15, 3
+  index: -1
+images/effect/pskillB/xiantiao/xiantiao_00033
+  rotate: false
+  xy: 371, 329
+  size: 367, 103
+  orig: 400, 122
+  offset: 15, 2
+  index: -1
+images/effect/pskillB/xiantiao/xiantiao_00037
+  rotate: false
+  xy: 755, 478
+  size: 243, 102
+  orig: 400, 122
+  offset: 139, 1
+  index: -1
+images/effect/pskillB/xuli/add_00015
+  rotate: true
+  xy: 806, 841
+  size: 181, 215
+  orig: 307, 253
+  offset: 75, 20
+  index: -1
+images/effect/pskillB/xuli/add_00016
+  rotate: true
+  xy: 816, 63
+  size: 174, 206
+  orig: 307, 253
+  offset: 77, 25
+  index: -1
+images/effect/pskillB/xuli/add_00017
+  rotate: true
+  xy: 462, 2
+  size: 164, 196
+  orig: 307, 253
+  offset: 81, 29
+  index: -1
+images/effect/pskillB/xuli/add_00020
+  rotate: false
+  xy: 660, 3
+  size: 154, 165
+  orig: 307, 253
+  offset: 73, 44
+  index: -1
+images/effect/pskillB/xuli/nor_00016
+  rotate: true
+  xy: 236, 167
+  size: 166, 131
+  orig: 307, 253
+  offset: 78, 11
+  index: -1
+
+effects_10505_PskillB2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/pskillB/jiguang/jiguang_00029
+  rotate: false
+  xy: 2, 841
+  size: 349, 88
+  orig: 365, 140
+  offset: 0, 20
+  index: -1
+images/effect/pskillB/jiguang/jiguang_00031
+  rotate: false
+  xy: 349, 711
+  size: 341, 102
+  orig: 365, 140
+  offset: 8, 14
+  index: -1
+images/effect/pskillB/jiguang/jiguang_00033
+  rotate: false
+  xy: 2, 633
+  size: 339, 102
+  orig: 365, 140
+  offset: 10, 14
+  index: -1
+images/effect/pskillB/jiguang/jiguang_00035
+  rotate: false
+  xy: 353, 815
+  size: 346, 102
+  orig: 365, 140
+  offset: 3, 14
+  index: -1
+images/effect/pskillB/jiguang/jiguang_00037
+  rotate: false
+  xy: 2, 737
+  size: 345, 102
+  orig: 365, 140
+  offset: 4, 14
+  index: -1
+images/effect/pskillB/jiguang/jiguang_00062
+  rotate: false
+  xy: 343, 635
+  size: 332, 74
+  orig: 365, 140
+  offset: 17, 28
+  index: -1
+images/effect/pskillB/jiguang/jiguang_00065
+  rotate: false
+  xy: 2, 574
+  size: 316, 57
+  orig: 365, 140
+  offset: 33, 37
+  index: -1
+images/effect/pskillB/jiguang/jiguang_00066
+  rotate: false
+  xy: 692, 662
+  size: 318, 54
+  orig: 365, 140
+  offset: 31, 38
+  index: -1
+images/effect/pskillB/jiguang/jiguang_00067
+  rotate: false
+  xy: 677, 606
+  size: 317, 54
+  orig: 365, 140
+  offset: 32, 38
+  index: -1
+images/effect/pskillB/jiguang/jiguang_00068
+  rotate: false
+  xy: 319, 485
+  size: 313, 53
+  orig: 365, 140
+  offset: 36, 39
+  index: -1
+images/effect/pskillB/lizi/lizi_00045
+  rotate: false
+  xy: 318, 289
+  size: 304, 91
+  orig: 484, 130
+  offset: 66, 21
+  index: -1
+images/effect/pskillB/lizi/lizi_00047
+  rotate: false
+  xy: 343, 540
+  size: 316, 93
+  orig: 484, 130
+  offset: 74, 19
+  index: -1
+images/effect/pskillB/lizi/lizi_00051
+  rotate: false
+  xy: 632, 286
+  size: 309, 100
+  orig: 484, 130
+  offset: 92, 15
+  index: -1
+images/effect/pskillB/lizi/lizi_00052
+  rotate: false
+  xy: 319, 382
+  size: 311, 101
+  orig: 484, 130
+  offset: 96, 14
+  index: -1
+images/effect/pskillB/lizi/lizi_00053
+  rotate: false
+  xy: 634, 388
+  size: 312, 106
+  orig: 484, 130
+  offset: 101, 12
+  index: -1
+images/effect/pskillB/lizi/lizi_00054
+  rotate: false
+  xy: 661, 496
+  size: 314, 108
+  orig: 484, 130
+  offset: 105, 10
+  index: -1
+images/effect/pskillB/lizi/lizi_00055
+  rotate: false
+  xy: 2, 460
+  size: 315, 112
+  orig: 484, 130
+  offset: 109, 7
+  index: -1
+images/effect/pskillB/lizi/lizi_00056
+  rotate: false
+  xy: 731, 824
+  size: 289, 117
+  orig: 484, 130
+  offset: 114, 4
+  index: -1
+images/effect/pskillB/lizi/lizi_00058
+  rotate: true
+  xy: 943, 51
+  size: 289, 77
+  orig: 484, 130
+  offset: 123, 24
+  index: -1
+images/effect/pskillB/lizi/lizi_00059
+  rotate: false
+  xy: 731, 943
+  size: 290, 79
+  orig: 484, 130
+  offset: 127, 23
+  index: -1
+images/effect/pskillB/lizi/lizi_00065
+  rotate: true
+  xy: 210, 2
+  size: 285, 86
+  orig: 484, 130
+  offset: 139, 20
+  index: -1
+images/effect/pskillB/quan1/quan1_00041
+  rotate: false
+  xy: 948, 342
+  size: 74, 152
+  orig: 81, 158
+  offset: 4, 3
+  index: -1
+images/effect/pskillB/shandian/shandian_00034
+  rotate: true
+  xy: 2, 5
+  size: 279, 113
+  orig: 406, 130
+  offset: 0, 0
+  index: -1
+images/effect/pskillB/shandian/shandian_00035
+  rotate: false
+  xy: 670, 17
+  size: 268, 118
+  orig: 406, 130
+  offset: 0, 0
+  index: -1
+images/effect/pskillB/shandian1/shandian1_00013
+  rotate: true
+  xy: 117, 2
+  size: 87, 85
+  orig: 208, 185
+  offset: 86, 33
+  index: -1
+images/effect/pskillB/shandian1/shandian1_00018
+  rotate: false
+  xy: 808, 138
+  size: 112, 146
+  orig: 208, 185
+  offset: 76, 27
+  index: -1
+images/effect/pskillB/xiantiao/xiantiao_00030
+  rotate: false
+  xy: 2, 931
+  size: 367, 91
+  orig: 400, 122
+  offset: 15, 10
+  index: -1
+images/effect/pskillB/xiantiao/xiantiao_00034
+  rotate: false
+  xy: 371, 919
+  size: 358, 103
+  orig: 400, 122
+  offset: 24, 1
+  index: -1
+images/effect/pskillB/xiantiao/xiantiao_00035
+  rotate: false
+  xy: 701, 718
+  size: 319, 104
+  orig: 400, 122
+  offset: 63, 1
+  index: -1
+images/effect/pskillB/xiantiao/xiantiao_00036
+  rotate: true
+  xy: 298, 4
+  size: 283, 104
+  orig: 400, 122
+  offset: 99, 0
+  index: -1
+images/effect/pskillB/xiantiao/xiantiao_00041
+  rotate: false
+  xy: 210, 374
+  size: 106, 84
+  orig: 400, 122
+  offset: 276, 4
+  index: -1
+images/effect/pskillB/xuli/add_00019
+  rotate: true
+  xy: 631, 137
+  size: 147, 175
+  orig: 307, 253
+  offset: 87, 39
+  index: -1
+images/effect/pskillB/xuli/add_00022
+  rotate: true
+  xy: 404, 4
+  size: 131, 143
+  orig: 307, 253
+  offset: 82, 55
+  index: -1
+images/effect/pskillB/xuli/add_00023
+  rotate: false
+  xy: 549, 5
+  size: 119, 130
+  orig: 307, 253
+  offset: 87, 62
+  index: -1
+images/effect/pskillB/xuli/add_00026
+  rotate: true
+  xy: 117, 91
+  size: 88, 91
+  orig: 307, 253
+  offset: 105, 82
+  index: -1
+images/effect/pskillB/xuli/add_00027
+  rotate: true
+  xy: 210, 295
+  size: 77, 76
+  orig: 307, 253
+  offset: 112, 89
+  index: -1
+images/effect/pskillB/xuli/nor_00021
+  rotate: true
+  xy: 2, 286
+  size: 172, 206
+  orig: 307, 253
+  offset: 61, 28
+  index: -1
+images/effect/pskillB/xuli/nor_00025
+  rotate: false
+  xy: 404, 137
+  size: 225, 150
+  orig: 307, 253
+  offset: 32, 48
+  index: -1
+images/effect/pskillB/xuli/nor_00029
+  rotate: false
+  xy: 117, 181
+  size: 91, 103
+  orig: 307, 253
+  offset: 119, 60
+  index: -1
+
+effects_10505_PskillB3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/pskillB/bai_00033
+  rotate: true
+  xy: 561, 224
+  size: 169, 92
+  orig: 178, 95
+  offset: 5, 1
+  index: -1
+images/effect/pskillB/glow1_00024
+  rotate: false
+  xy: 852, 311
+  size: 155, 169
+  orig: 181, 175
+  offset: 15, 2
+  index: -1
+images/effect/pskillB/jiguang/jiguang_00069
+  rotate: true
+  xy: 155, 104
+  size: 295, 52
+  orig: 365, 140
+  offset: 53, 40
+  index: -1
+images/effect/pskillB/lizi/lizi_00057
+  rotate: false
+  xy: 464, 925
+  size: 289, 97
+  orig: 484, 130
+  offset: 118, 24
+  index: -1
+images/effect/pskillB/lizi/lizi_00060
+  rotate: false
+  xy: 464, 842
+  size: 293, 81
+  orig: 484, 130
+  offset: 129, 22
+  index: -1
+images/effect/pskillB/lizi/lizi_00061
+  rotate: true
+  xy: 178, 557
+  size: 293, 81
+  orig: 484, 130
+  offset: 131, 22
+  index: -1
+images/effect/pskillB/lizi/lizi_00062
+  rotate: false
+  xy: 448, 646
+  size: 283, 84
+  orig: 484, 130
+  offset: 133, 21
+  index: -1
+images/effect/pskillB/lizi/lizi_00063
+  rotate: false
+  xy: 733, 658
+  size: 287, 84
+  orig: 484, 130
+  offset: 134, 21
+  index: -1
+images/effect/pskillB/lizi/lizi_00064
+  rotate: false
+  xy: 724, 744
+  size: 287, 86
+  orig: 484, 130
+  offset: 137, 20
+  index: -1
+images/effect/pskillB/lizi/lizi_00066
+  rotate: false
+  xy: 229, 414
+  size: 212, 82
+  orig: 484, 130
+  offset: 141, 21
+  index: -1
+images/effect/pskillB/lizi/lizi_00068
+  rotate: false
+  xy: 443, 395
+  size: 218, 85
+  orig: 484, 130
+  offset: 145, 19
+  index: -1
+images/effect/pskillB/lizi/lizi_00069
+  rotate: false
+  xy: 755, 935
+  size: 220, 87
+  orig: 484, 130
+  offset: 148, 18
+  index: -1
+images/effect/pskillB/penshe/penshe_00032
+  rotate: false
+  xy: 235, 861
+  size: 227, 161
+  orig: 249, 172
+  offset: 10, 5
+  index: -1
+images/effect/pskillB/penshe/penshe_00033
+  rotate: false
+  xy: 2, 852
+  size: 231, 170
+  orig: 249, 172
+  offset: 8, 0
+  index: -1
+images/effect/pskillB/penshe/penshe_00035
+  rotate: true
+  xy: 2, 401
+  size: 224, 171
+  orig: 249, 172
+  offset: 19, 0
+  index: -1
+images/effect/pskillB/quan1/quan1_00035
+  rotate: true
+  xy: 382, 14
+  size: 73, 152
+  orig: 81, 158
+  offset: 5, 3
+  index: -1
+images/effect/pskillB/quan2/quan2_00033
+  rotate: false
+  xy: 967, 66
+  size: 52, 152
+  orig: 99, 185
+  offset: 23, 18
+  index: -1
+images/effect/pskillB/quan2/quan2_00039
+  rotate: false
+  xy: 175, 401
+  size: 52, 154
+  orig: 99, 185
+  offset: 25, 16
+  index: -1
+images/effect/pskillB/quan2/quan2_00041
+  rotate: true
+  xy: 811, 21
+  size: 52, 154
+  orig: 99, 185
+  offset: 25, 15
+  index: -1
+images/effect/pskillB/quan3/quan3_00034
+  rotate: true
+  xy: 651, 5
+  size: 66, 150
+  orig: 73, 173
+  offset: 7, 12
+  index: -1
+images/effect/pskillB/quan3/quan3_00041
+  rotate: false
+  xy: 958, 507
+  size: 63, 149
+  orig: 73, 173
+  offset: 7, 13
+  index: -1
+images/effect/pskillB/shandian/shandian_00036
+  rotate: false
+  xy: 448, 732
+  size: 274, 108
+  orig: 406, 130
+  offset: 0, 0
+  index: -1
+images/effect/pskillB/shandian1/shandian1_00012
+  rotate: false
+  xy: 288, 15
+  size: 92, 88
+  orig: 208, 185
+  offset: 84, 24
+  index: -1
+images/effect/pskillB/shandian1/shandian1_00016
+  rotate: false
+  xy: 661, 482
+  size: 100, 162
+  orig: 208, 185
+  offset: 74, 15
+  index: -1
+images/effect/pskillB/shandian1/shandian1_00019
+  rotate: false
+  xy: 209, 105
+  size: 175, 110
+  orig: 208, 185
+  offset: 6, 64
+  index: -1
+images/effect/pskillB/shandian1/shandian1_00020
+  rotate: true
+  xy: 2, 2
+  size: 158, 104
+  orig: 208, 185
+  offset: 14, 70
+  index: -1
+images/effect/pskillB/shandian1/shandian1_00024
+  rotate: false
+  xy: 536, 9
+  size: 113, 73
+  orig: 208, 185
+  offset: 11, 72
+  index: -1
+images/effect/pskillB/shanguang/shanguang_00042
+  rotate: true
+  xy: 837, 220
+  size: 89, 174
+  orig: 174, 201
+  offset: 31, 0
+  index: -1
+images/effect/pskillB/xiantiao/xiantiao_00038
+  rotate: false
+  xy: 759, 832
+  size: 213, 101
+  orig: 400, 122
+  offset: 169, 1
+  index: -1
+images/effect/pskillB/xiantiao/xiantiao_00039
+  rotate: false
+  xy: 108, 2
+  size: 178, 100
+  orig: 400, 122
+  offset: 204, 2
+  index: -1
+images/effect/pskillB/xiantiao/xiantiao_00040
+  rotate: true
+  xy: 555, 84
+  size: 138, 97
+  orig: 400, 122
+  offset: 244, 3
+  index: -1
+images/effect/pskillB/xuli/add_00013
+  rotate: true
+  xy: 663, 334
+  size: 146, 187
+  orig: 307, 253
+  offset: 85, 53
+  index: -1
+images/effect/pskillB/xuli/add_00014
+  rotate: false
+  xy: 2, 627
+  size: 174, 223
+  orig: 307, 253
+  offset: 87, 17
+  index: -1
+images/effect/pskillB/xuli/add_00018
+  rotate: true
+  xy: 261, 498
+  size: 156, 185
+  orig: 307, 253
+  offset: 84, 34
+  index: -1
+images/effect/pskillB/xuli/add_00021
+  rotate: true
+  xy: 811, 75
+  size: 143, 154
+  orig: 307, 253
+  offset: 77, 49
+  index: -1
+images/effect/pskillB/xuli/nor_00017
+  rotate: false
+  xy: 655, 222
+  size: 180, 110
+  orig: 307, 253
+  offset: 49, 31
+  index: -1
+images/effect/pskillB/xuli/nor_00018
+  rotate: false
+  xy: 448, 482
+  size: 211, 162
+  orig: 307, 253
+  offset: 60, 47
+  index: -1
+images/effect/pskillB/xuli/nor_00019
+  rotate: false
+  xy: 763, 482
+  size: 193, 174
+  orig: 307, 253
+  offset: 71, 26
+  index: -1
+images/effect/pskillB/xuli/nor_00020
+  rotate: false
+  xy: 386, 89
+  size: 167, 146
+  orig: 307, 253
+  offset: 79, 45
+  index: -1
+images/effect/pskillB/xuli/nor_00022
+  rotate: false
+  xy: 2, 162
+  size: 151, 237
+  orig: 307, 253
+  offset: 80, 15
+  index: -1
+images/effect/pskillB/xuli/nor_00023
+  rotate: false
+  xy: 261, 656
+  size: 185, 203
+  orig: 307, 253
+  offset: 38, 27
+  index: -1
+images/effect/pskillB/xuli/nor_00024
+  rotate: true
+  xy: 209, 217
+  size: 182, 174
+  orig: 307, 253
+  offset: 34, 39
+  index: -1
+images/effect/pskillB/xuli/nor_00026
+  rotate: false
+  xy: 385, 237
+  size: 174, 156
+  orig: 307, 253
+  offset: 67, 64
+  index: -1
+images/effect/skillD/glow1_00115
+  rotate: true
+  xy: 654, 73
+  size: 147, 155
+  orig: 171, 160
+  offset: 13, 1
+  index: -1
+
+effects_10505_PskillB4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/pskillB/quan1/quan1_00033
+  rotate: false
+  xy: 2, 175
+  size: 73, 151
+  orig: 81, 158
+  offset: 5, 3
+  index: -1
+images/effect/pskillB/quan1/quan1_00037
+  rotate: true
+  xy: 694, 927
+  size: 73, 152
+  orig: 81, 158
+  offset: 5, 3
+  index: -1
+images/effect/pskillB/quan1/quan1_00039
+  rotate: true
+  xy: 848, 930
+  size: 70, 152
+  orig: 81, 158
+  offset: 5, 3
+  index: -1
+images/effect/pskillB/quan1/quan1_00043
+  rotate: false
+  xy: 2, 328
+  size: 74, 152
+  orig: 81, 158
+  offset: 4, 3
+  index: -1
+images/effect/pskillB/quan2/quan2_00035
+  rotate: true
+  xy: 373, 841
+  size: 52, 151
+  orig: 99, 185
+  offset: 24, 19
+  index: -1
+images/effect/pskillB/quan3/quan3_00033
+  rotate: true
+  xy: 371, 773
+  size: 66, 149
+  orig: 73, 173
+  offset: 7, 12
+  index: -1
+images/effect/pskillB/quan3/quan3_00035
+  rotate: true
+  xy: 221, 845
+  size: 65, 150
+  orig: 73, 173
+  offset: 8, 12
+  index: -1
+images/effect/pskillB/quan3/quan3_00036
+  rotate: false
+  xy: 160, 487
+  size: 65, 149
+  orig: 73, 173
+  offset: 7, 13
+  index: -1
+images/effect/pskillB/quan3/quan3_00037
+  rotate: false
+  xy: 2, 23
+  size: 66, 150
+  orig: 73, 173
+  offset: 7, 12
+  index: -1
+images/effect/pskillB/quan3/quan3_00038
+  rotate: true
+  xy: 219, 709
+  size: 66, 149
+  orig: 73, 173
+  offset: 7, 12
+  index: -1
+images/effect/pskillB/quan3/quan3_00039
+  rotate: true
+  xy: 694, 859
+  size: 66, 150
+  orig: 73, 173
+  offset: 7, 12
+  index: -1
+images/effect/pskillB/quan3/quan3_00040
+  rotate: false
+  xy: 78, 330
+  size: 65, 150
+  orig: 73, 173
+  offset: 8, 12
+  index: -1
+images/effect/pskillB/quan3/quan3_00042
+  rotate: false
+  xy: 92, 486
+  size: 66, 150
+  orig: 73, 173
+  offset: 7, 12
+  index: -1
+images/effect/pskillB/quan3/quan3_00043
+  rotate: true
+  xy: 219, 777
+  size: 66, 150
+  orig: 73, 173
+  offset: 7, 12
+  index: -1
+images/effect/pskillB/shandian1/shandian1_00014
+  rotate: true
+  xy: 397, 895
+  size: 105, 148
+  orig: 208, 185
+  offset: 75, 26
+  index: -1
+images/effect/pskillB/shandian1/shandian1_00015
+  rotate: true
+  xy: 547, 910
+  size: 90, 145
+  orig: 208, 185
+  offset: 88, 27
+  index: -1
+images/effect/pskillB/shandian1/shandian1_00017
+  rotate: false
+  xy: 2, 482
+  size: 88, 157
+  orig: 208, 185
+  offset: 87, 20
+  index: -1
+images/effect/pskillB/shandian1/shandian1_00023
+  rotate: false
+  xy: 370, 699
+  size: 111, 72
+  orig: 208, 185
+  offset: 13, 72
+  index: -1
+images/effect/pskillB/shandian1/shandian1_00025
+  rotate: true
+  xy: 227, 492
+  size: 109, 75
+  orig: 208, 185
+  offset: 11, 71
+  index: -1
+images/effect/pskillB/shanguang/shanguang_00043
+  rotate: false
+  xy: 2, 641
+  size: 89, 176
+  orig: 174, 201
+  offset: 31, 15
+  index: -1
+images/effect/pskillB/shanguang/shanguang_00046
+  rotate: true
+  xy: 221, 912
+  size: 88, 174
+  orig: 174, 201
+  offset: 31, 0
+  index: -1
+images/effect/pskillB/shanguang/shanguang_00047
+  rotate: false
+  xy: 2, 819
+  size: 92, 181
+  orig: 174, 201
+  offset: 31, 16
+  index: -1
+images/effect/pskillB/xuli/add_00024
+  rotate: true
+  xy: 93, 638
+  size: 109, 118
+  orig: 307, 253
+  offset: 92, 68
+  index: -1
+images/effect/pskillB/xuli/add_00025
+  rotate: false
+  xy: 227, 603
+  size: 98, 104
+  orig: 307, 253
+  offset: 99, 75
+  index: -1
+images/effect/pskillB/xuli/nor_00027
+  rotate: false
+  xy: 96, 856
+  size: 123, 144
+  orig: 307, 253
+  offset: 92, 53
+  index: -1
+images/effect/pskillB/xuli/nor_00028
+  rotate: false
+  xy: 96, 749
+  size: 121, 105
+  orig: 307, 253
+  offset: 110, 76
+  index: -1
+images/effect/pskillB/xuli/nor_00030
+  rotate: false
+  xy: 483, 700
+  size: 71, 71
+  orig: 307, 253
+  offset: 126, 83
+  index: -1

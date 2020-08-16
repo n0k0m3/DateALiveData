@@ -1,0 +1,62 @@
+
+effects_11001_quickmove.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/quickmove/renying/renying_00012
+  rotate: false
+  xy: 2, 2
+  size: 145, 108
+  orig: 163, 131
+  offset: 9, 8
+  index: -1
+images/effects/quickmove/tuowei/tuowei_00007
+  rotate: false
+  xy: 2, 367
+  size: 205, 83
+  orig: 205, 83
+  offset: 0, 0
+  index: -1
+images/effects/quickmove/tuowei/tuowei_00008
+  rotate: false
+  xy: 2, 282
+  size: 205, 83
+  orig: 205, 83
+  offset: 0, 0
+  index: -1
+images/effects/quickmove/tuowei/tuowei_00009
+  rotate: false
+  xy: 209, 367
+  size: 205, 83
+  orig: 205, 83
+  offset: 0, 0
+  index: -1
+images/effects/quickmove/tuowei/tuowei_00010
+  rotate: false
+  xy: 2, 197
+  size: 205, 83
+  orig: 205, 83
+  offset: 0, 0
+  index: -1
+images/effects/quickmove/tuowei/tuowei_00011
+  rotate: false
+  xy: 209, 282
+  size: 205, 83
+  orig: 205, 83
+  offset: 0, 0
+  index: -1
+images/effects/quickmove/tuowei/tuowei_00012
+  rotate: false
+  xy: 2, 112
+  size: 205, 83
+  orig: 205, 83
+  offset: 0, 0
+  index: -1
+images/effects/quickmove/tuowei/tuowei_00013
+  rotate: false
+  xy: 209, 197
+  size: 205, 83
+  orig: 205, 83
+  offset: 0, 0
+  index: -1

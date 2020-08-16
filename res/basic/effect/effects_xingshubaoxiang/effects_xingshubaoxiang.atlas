@@ -1,0 +1,27 @@
+
+effects_xingshubaoxiang.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/glow
+  rotate: false
+  xy: 2, 62
+  size: 112, 101
+  orig: 112, 101
+  offset: 0, 0
+  index: -1
+images/guangmu
+  rotate: false
+  xy: 2, 2
+  size: 50, 58
+  orig: 50, 58
+  offset: 0, 0
+  index: -1
+images/lizi
+  rotate: false
+  xy: 116, 157
+  size: 4, 6
+  orig: 4, 6
+  offset: 0, 0
+  index: -1

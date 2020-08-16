@@ -1,0 +1,104 @@
+
+effects_23201_skillB.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skillB/bian/bian1_00026
+  rotate: false
+  xy: 298, 665
+  size: 243, 206
+  orig: 284, 213
+  offset: 17, 7
+  index: -1
+skillB/bian/bian2_00027
+  rotate: true
+  xy: 817, 767
+  size: 254, 204
+  orig: 284, 213
+  offset: 21, 0
+  index: -1
+skillB/bian/bian3_00028
+  rotate: false
+  xy: 543, 820
+  size: 272, 201
+  orig: 284, 213
+  offset: 12, 6
+  index: -1
+skillB/bian/bian4_00029
+  rotate: false
+  xy: 2, 447
+  size: 284, 210
+  orig: 284, 213
+  offset: 0, 0
+  index: -1
+skillB/bian/bian5_00030
+  rotate: false
+  xy: 2, 243
+  size: 280, 202
+  orig: 284, 213
+  offset: 0, 2
+  index: -1
+skillB/bian/bian6_00031
+  rotate: false
+  xy: 2, 34
+  size: 267, 207
+  orig: 284, 213
+  offset: 2, 0
+  index: -1
+skillB/bian/bian7_00032
+  rotate: false
+  xy: 543, 612
+  size: 259, 206
+  orig: 284, 213
+  offset: 8, 0
+  index: -1
+skillB/bian/bian8_00033
+  rotate: true
+  xy: 804, 520
+  size: 245, 200
+  orig: 284, 213
+  offset: 12, 0
+  index: -1
+skillB/bian/bian9_00034
+  rotate: false
+  xy: 298, 470
+  size: 230, 193
+  orig: 284, 213
+  offset: 21, 4
+  index: -1
+skillB/lizi_00034
+  rotate: false
+  xy: 2, 873
+  size: 515, 148
+  orig: 568, 213
+  offset: 26, 30
+  index: -1
+skillB/shanxian_00028
+  rotate: true
+  xy: 271, 41
+  size: 200, 172
+  orig: 213, 213
+  offset: 7, 17
+  index: -1
+skillB/yingziliang_00029
+  rotate: false
+  xy: 2, 659
+  size: 294, 212
+  orig: 320, 213
+  offset: 0, 0
+  index: -1
+skillB/yingziqing/yingzi1_00028
+  rotate: false
+  xy: 776, 339
+  size: 225, 179
+  orig: 227, 213
+  offset: 1, 13
+  index: -1
+skillB/yingzizhong/yingzizhong1_00029
+  rotate: false
+  xy: 530, 440
+  size: 244, 170
+  orig: 249, 178
+  offset: 1, 2
+  index: -1

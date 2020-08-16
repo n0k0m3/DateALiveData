@@ -1,0 +1,76 @@
+
+battle_end_defeated.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bai
+  rotate: false
+  xy: 666, 761
+  size: 94, 85
+  orig: 100, 100
+  offset: 5, 5
+  index: -1
+di_00000
+  rotate: false
+  xy: 2, 230
+  size: 800, 114
+  orig: 800, 150
+  offset: 0, 22
+  index: -1
+dou
+  rotate: false
+  xy: 762, 762
+  size: 84, 84
+  orig: 100, 100
+  offset: 2, 6
+  index: -1
+fense
+  rotate: false
+  xy: 98, 156
+  size: 7, 7
+  orig: 11, 11
+  offset: 2, 2
+  index: -1
+final_00047_00000
+  rotate: false
+  xy: 2, 346
+  size: 662, 500
+  orig: 664, 500
+  offset: 2, 0
+  index: -1
+heidi001
+  rotate: false
+  xy: 252, 178
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+huangse
+  rotate: false
+  xy: 2, 69
+  size: 8, 8
+  orig: 12, 12
+  offset: 2, 2
+  index: -1
+shi
+  rotate: false
+  xy: 666, 675
+  size: 89, 84
+  orig: 100, 100
+  offset: 4, 6
+  index: -1
+ying
+  rotate: false
+  xy: 2, 165
+  size: 248, 63
+  orig: 360, 100
+  offset: 58, 23
+  index: -1
+zhan
+  rotate: false
+  xy: 2, 79
+  size: 94, 84
+  orig: 100, 100
+  offset: 1, 6
+  index: -1

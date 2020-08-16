@@ -1,0 +1,62 @@
+
+effects_11201_skillCbuff.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillC/glow_a_00050
+  rotate: false
+  xy: 285, 403
+  size: 162, 44
+  orig: 260, 440
+  offset: 48, 48
+  index: -1
+images/effects/skillC/glow_fe_00000
+  rotate: false
+  xy: 57, 58
+  size: 106, 106
+  orig: 240, 240
+  offset: 67, 67
+  index: -1
+images/effects/skillC/glowb_00094
+  rotate: false
+  xy: 2, 328
+  size: 119, 119
+  orig: 520, 293
+  offset: 191, 67
+  index: -1
+images/effects/skillC/guang_buff/guanghuan_000
+  rotate: false
+  xy: 123, 341
+  size: 157, 51
+  orig: 160, 80
+  offset: 1, 13
+  index: -1
+images/effects/skillC/guang_buff/guanghuan_002
+  rotate: false
+  xy: 123, 394
+  size: 160, 53
+  orig: 160, 80
+  offset: 0, 12
+  index: -1
+images/effects/skillC/guang_buff/guanghuan_004
+  rotate: true
+  xy: 2, 166
+  size: 160, 54
+  orig: 160, 80
+  offset: 0, 11
+  index: -1
+images/effects/skillC/guang_buff/guanghuan_006
+  rotate: true
+  xy: 2, 4
+  size: 160, 53
+  orig: 160, 80
+  offset: 0, 12
+  index: -1
+images/effects/skillC/guang_buff/guanghuan_008
+  rotate: true
+  xy: 58, 166
+  size: 160, 53
+  orig: 160, 80
+  offset: 0, 12
+  index: -1

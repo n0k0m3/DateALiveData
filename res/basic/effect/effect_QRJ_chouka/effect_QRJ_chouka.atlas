@@ -1,0 +1,20 @@
+
+effect_QRJ_chouka.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/cao1
+  rotate: false
+  xy: 2, 193
+  size: 282, 265
+  orig: 282, 265
+  offset: 0, 0
+  index: -1
+images/cao2
+  rotate: true
+  xy: 2, 2
+  size: 189, 345
+  orig: 189, 345
+  offset: 0, 0
+  index: -1

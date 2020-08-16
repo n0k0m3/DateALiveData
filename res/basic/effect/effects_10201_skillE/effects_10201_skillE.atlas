@@ -1,0 +1,83 @@
+
+effects_10201_skillE.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/suiyilingyu/Add/zhaozi_0001
+  rotate: false
+  xy: 2, 778
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+effect/suiyilingyu/Add/zhaozi_0007
+  rotate: false
+  xy: 2, 584
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+effect/suiyilingyu/Add/zhaozi_0013
+  rotate: false
+  xy: 196, 778
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+effect/suiyilingyu/Add/zhaozi_0019
+  rotate: false
+  xy: 2, 390
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+effect/suiyilingyu/Add/zhaozi_0025
+  rotate: false
+  xy: 196, 584
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+effect/suiyilingyu/Add/zhaozi_0031
+  rotate: false
+  xy: 390, 778
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+effect/suiyilingyu/Add/zhaozi_0037
+  rotate: false
+  xy: 2, 196
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+effect/suiyilingyu/Add/zhaozi_0043
+  rotate: false
+  xy: 196, 390
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+effect/suiyilingyu/Add/zhaozi_0049
+  rotate: false
+  xy: 390, 584
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+effect/suiyilingyu/Add/zhaozi_0055
+  rotate: false
+  xy: 584, 778
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+effect/suiyilingyu/Multiply/zhaozi2_0001
+  rotate: false
+  xy: 2, 2
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1

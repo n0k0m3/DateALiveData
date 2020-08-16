@@ -1,0 +1,48 @@
+
+effects_10101_skillE2.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skille/hit/hit_00008
+  rotate: false
+  xy: 167, 169
+  size: 24, 74
+  orig: 46, 133
+  offset: 12, 34
+  index: -1
+effects/skille/hit/hit_00009
+  rotate: false
+  xy: 2, 2
+  size: 33, 106
+  orig: 46, 133
+  offset: 7, 16
+  index: -1
+effects/skille/hit/hit_00010
+  rotate: false
+  xy: 86, 115
+  size: 40, 128
+  orig: 46, 133
+  offset: 2, 5
+  index: -1
+effects/skille/hit/hit_00011
+  rotate: false
+  xy: 44, 114
+  size: 40, 129
+  orig: 46, 133
+  offset: 3, 3
+  index: -1
+effects/skille/hit/hit_00013
+  rotate: false
+  xy: 2, 110
+  size: 40, 133
+  orig: 46, 133
+  offset: 3, 0
+  index: -1
+effects/skille/hit/hit_00015
+  rotate: false
+  xy: 128, 113
+  size: 37, 130
+  orig: 46, 133
+  offset: 5, 0
+  index: -1

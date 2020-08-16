@@ -1,0 +1,752 @@
+
+effects_10505_PskillD.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/pskillD/baofaadd/add_00029
+  rotate: false
+  xy: 791, 158
+  size: 231, 185
+  orig: 359, 235
+  offset: 68, 4
+  index: -1
+images/effect/pskillD/baofaadd/add_00030
+  rotate: false
+  xy: 791, 578
+  size: 231, 221
+  orig: 359, 235
+  offset: 68, 4
+  index: -1
+images/effect/pskillD/baofaadd/add_00031
+  rotate: true
+  xy: 798, 345
+  size: 231, 221
+  orig: 359, 235
+  offset: 68, 4
+  index: -1
+images/effect/pskillD/baofaadd/add_00032
+  rotate: false
+  xy: 299, 578
+  size: 248, 221
+  orig: 359, 235
+  offset: 55, 4
+  index: -1
+images/effect/pskillD/baofaadd/add_00033
+  rotate: false
+  xy: 2, 578
+  size: 295, 221
+  orig: 359, 235
+  offset: 32, 4
+  index: -1
+images/effect/pskillD/baofaadd/add_00034
+  rotate: false
+  xy: 2, 801
+  size: 342, 221
+  orig: 359, 235
+  offset: 8, 4
+  index: -1
+images/effect/pskillD/baofaadd/add_00038
+  rotate: false
+  xy: 549, 578
+  size: 240, 221
+  orig: 359, 235
+  offset: 58, 4
+  index: -1
+images/effect/pskillD/baofaadd/add_00039
+  rotate: false
+  xy: 628, 801
+  size: 248, 221
+  orig: 359, 235
+  offset: 54, 4
+  index: -1
+images/effect/pskillD/baofaadd/add_00040
+  rotate: false
+  xy: 2, 356
+  size: 256, 220
+  orig: 359, 235
+  offset: 50, 4
+  index: -1
+images/effect/pskillD/baofaadd/add_00041
+  rotate: false
+  xy: 260, 382
+  size: 266, 194
+  orig: 359, 235
+  offset: 45, 10
+  index: -1
+images/effect/pskillD/baofaadd/add_00042
+  rotate: true
+  xy: 2, 80
+  size: 274, 194
+  orig: 359, 235
+  offset: 41, 9
+  index: -1
+images/effect/pskillD/baofaadd/add_00043
+  rotate: false
+  xy: 346, 801
+  size: 280, 221
+  orig: 359, 235
+  offset: 38, 4
+  index: -1
+images/effect/pskillD/baofaadd/add_00063
+  rotate: false
+  xy: 878, 879
+  size: 121, 143
+  orig: 359, 235
+  offset: 134, 30
+  index: -1
+images/effect/pskillD/baofanor/nor_00030
+  rotate: true
+  xy: 363, 16
+  size: 89, 153
+  orig: 359, 235
+  offset: 142, 32
+  index: -1
+images/effect/pskillD/baofanor/nor_00031
+  rotate: true
+  xy: 518, 2
+  size: 89, 153
+  orig: 359, 235
+  offset: 142, 32
+  index: -1
+images/effect/pskillD/baofanor/nor_00047
+  rotate: false
+  xy: 2, 19
+  size: 246, 59
+  orig: 359, 235
+  offset: 55, 12
+  index: -1
+images/effect/pskillD/baofanor/nor_00050
+  rotate: false
+  xy: 673, 4
+  size: 246, 53
+  orig: 359, 235
+  offset: 55, 12
+  index: -1
+images/effect/pskillD/baofanor/nor_00066
+  rotate: false
+  xy: 790, 107
+  size: 227, 49
+  orig: 359, 235
+  offset: 64, 13
+  index: -1
+images/effect/pskillD/baofanor/nor_00067
+  rotate: false
+  xy: 790, 59
+  size: 216, 46
+  orig: 359, 235
+  offset: 69, 15
+  index: -1
+images/effect/pskillD/xuli/00011
+  rotate: false
+  xy: 198, 81
+  size: 163, 273
+  orig: 200, 308
+  offset: 22, 20
+  index: -1
+images/effect/pskillD/xuli/00012
+  rotate: false
+  xy: 363, 107
+  size: 162, 273
+  orig: 200, 308
+  offset: 20, 17
+  index: -1
+images/effect/pskillD/xuli/00013
+  rotate: true
+  xy: 528, 407
+  size: 169, 268
+  orig: 200, 308
+  offset: 20, 13
+  index: -1
+images/effect/pskillD/xuli/00014
+  rotate: true
+  xy: 528, 246
+  size: 159, 261
+  orig: 200, 308
+  offset: 25, 13
+  index: -1
+images/effect/pskillD/xuli/00015
+  rotate: true
+  xy: 527, 93
+  size: 151, 261
+  orig: 200, 308
+  offset: 34, 13
+  index: -1
+
+effects_10505_PskillD2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/pskillD/baofaadd/add_00037
+  rotate: true
+  xy: 132, 8
+  size: 235, 221
+  orig: 359, 235
+  offset: 63, 4
+  index: -1
+images/effect/pskillD/baofanor/nor_00034
+  rotate: false
+  xy: 761, 674
+  size: 246, 172
+  orig: 359, 235
+  offset: 55, 13
+  index: -1
+images/effect/pskillD/baofanor/nor_00035
+  rotate: false
+  xy: 759, 500
+  size: 246, 172
+  orig: 359, 235
+  offset: 55, 13
+  index: -1
+images/effect/pskillD/baofanor/nor_00036
+  rotate: false
+  xy: 751, 326
+  size: 246, 172
+  orig: 359, 235
+  offset: 55, 13
+  index: -1
+images/effect/pskillD/baofanor/nor_00037
+  rotate: false
+  xy: 751, 152
+  size: 246, 172
+  orig: 359, 235
+  offset: 55, 13
+  index: -1
+images/effect/pskillD/baofanor/nor_00038
+  rotate: true
+  xy: 355, 2
+  size: 246, 173
+  orig: 359, 235
+  offset: 55, 12
+  index: -1
+images/effect/pskillD/baofanor/nor_00039
+  rotate: true
+  xy: 401, 269
+  size: 246, 173
+  orig: 359, 235
+  offset: 55, 12
+  index: -1
+images/effect/pskillD/baofanor/nor_00040
+  rotate: true
+  xy: 409, 523
+  size: 246, 173
+  orig: 359, 235
+  offset: 55, 12
+  index: -1
+images/effect/pskillD/baofanor/nor_00041
+  rotate: true
+  xy: 411, 775
+  size: 246, 173
+  orig: 359, 235
+  offset: 55, 12
+  index: -1
+images/effect/pskillD/baofanor/nor_00042
+  rotate: true
+  xy: 530, 21
+  size: 246, 173
+  orig: 359, 235
+  offset: 55, 12
+  index: -1
+images/effect/pskillD/baofanor/nor_00043
+  rotate: true
+  xy: 576, 275
+  size: 246, 173
+  orig: 359, 235
+  offset: 55, 12
+  index: -1
+images/effect/pskillD/baofanor/nor_00044
+  rotate: true
+  xy: 584, 527
+  size: 246, 173
+  orig: 359, 235
+  offset: 55, 12
+  index: -1
+images/effect/pskillD/baofanor/nor_00045
+  rotate: true
+  xy: 586, 775
+  size: 246, 173
+  orig: 359, 235
+  offset: 55, 12
+  index: -1
+images/effect/pskillD/baofanor/nor_00046
+  rotate: false
+  xy: 761, 848
+  size: 246, 173
+  orig: 359, 235
+  offset: 55, 12
+  index: -1
+images/effect/pskillD/guangci/guangci_00031
+  rotate: false
+  xy: 705, 3
+  size: 205, 147
+  orig: 260, 173
+  offset: 35, 4
+  index: -1
+images/effect/pskillD/xuli/00016
+  rotate: false
+  xy: 2, 762
+  size: 137, 259
+  orig: 200, 308
+  offset: 43, 13
+  index: -1
+images/effect/pskillD/xuli/00017
+  rotate: false
+  xy: 2, 245
+  size: 131, 256
+  orig: 200, 308
+  offset: 48, 13
+  index: -1
+images/effect/pskillD/xuli/00018
+  rotate: false
+  xy: 138, 506
+  size: 134, 254
+  orig: 200, 308
+  offset: 46, 11
+  index: -1
+images/effect/pskillD/xuli/00019
+  rotate: false
+  xy: 2, 503
+  size: 134, 257
+  orig: 200, 308
+  offset: 46, 11
+  index: -1
+images/effect/pskillD/xuli/00020
+  rotate: false
+  xy: 135, 246
+  size: 133, 255
+  orig: 200, 308
+  offset: 46, 15
+  index: -1
+images/effect/pskillD/xuli/00021
+  rotate: false
+  xy: 141, 770
+  size: 133, 251
+  orig: 200, 308
+  offset: 46, 20
+  index: -1
+images/effect/pskillD/xuli/00022
+  rotate: false
+  xy: 274, 517
+  size: 133, 251
+  orig: 200, 308
+  offset: 46, 20
+  index: -1
+images/effect/pskillD/xuli/00023
+  rotate: false
+  xy: 276, 771
+  size: 133, 250
+  orig: 200, 308
+  offset: 46, 20
+  index: -1
+images/effect/pskillD/xuli/00027
+  rotate: false
+  xy: 2, 4
+  size: 128, 239
+  orig: 200, 308
+  offset: 45, 26
+  index: -1
+images/effect/pskillD/xuli/00028
+  rotate: false
+  xy: 270, 250
+  size: 129, 254
+  orig: 200, 308
+  offset: 46, 11
+  index: -1
+
+effects_10505_PskillD3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/pskillD/baofaadd/add_00035
+  rotate: false
+  xy: 2, 578
+  size: 230, 221
+  orig: 359, 235
+  offset: 69, 4
+  index: -1
+images/effect/pskillD/baofaadd/add_00036
+  rotate: false
+  xy: 2, 801
+  size: 232, 221
+  orig: 359, 235
+  offset: 67, 4
+  index: -1
+images/effect/pskillD/baofaadd/add_00044
+  rotate: false
+  xy: 2, 355
+  size: 201, 221
+  orig: 359, 235
+  offset: 89, 4
+  index: -1
+images/effect/pskillD/baofaadd/add_00045
+  rotate: false
+  xy: 234, 578
+  size: 200, 221
+  orig: 359, 235
+  offset: 90, 4
+  index: -1
+images/effect/pskillD/baofaadd/add_00046
+  rotate: false
+  xy: 441, 801
+  size: 200, 221
+  orig: 359, 235
+  offset: 91, 4
+  index: -1
+images/effect/pskillD/baofaadd/add_00047
+  rotate: false
+  xy: 2, 132
+  size: 193, 221
+  orig: 359, 235
+  offset: 97, 4
+  index: -1
+images/effect/pskillD/baofaadd/add_00048
+  rotate: false
+  xy: 197, 132
+  size: 180, 221
+  orig: 359, 235
+  offset: 110, 4
+  index: -1
+images/effect/pskillD/baofaadd/add_00049
+  rotate: false
+  xy: 606, 152
+  size: 193, 221
+  orig: 359, 235
+  offset: 96, 4
+  index: -1
+images/effect/pskillD/baofaadd/add_00050
+  rotate: false
+  xy: 236, 801
+  size: 203, 221
+  orig: 359, 235
+  offset: 86, 4
+  index: -1
+images/effect/pskillD/baofaadd/add_00051
+  rotate: true
+  xy: 645, 601
+  size: 209, 207
+  orig: 359, 235
+  offset: 81, 4
+  index: -1
+images/effect/pskillD/baofaadd/add_00052
+  rotate: false
+  xy: 205, 367
+  size: 209, 209
+  orig: 359, 235
+  offset: 81, 4
+  index: -1
+images/effect/pskillD/baofaadd/add_00053
+  rotate: false
+  xy: 643, 812
+  size: 208, 210
+  orig: 359, 235
+  offset: 81, 4
+  index: -1
+images/effect/pskillD/baofaadd/add_00054
+  rotate: false
+  xy: 436, 588
+  size: 207, 211
+  orig: 359, 235
+  offset: 81, 4
+  index: -1
+images/effect/pskillD/baofaadd/add_00055
+  rotate: false
+  xy: 605, 375
+  size: 204, 211
+  orig: 359, 235
+  offset: 83, 4
+  index: -1
+images/effect/pskillD/baofaadd/add_00056
+  rotate: true
+  xy: 811, 395
+  size: 203, 211
+  orig: 359, 235
+  offset: 83, 4
+  index: -1
+images/effect/pskillD/baofaadd/add_00057
+  rotate: true
+  xy: 811, 195
+  size: 198, 211
+  orig: 359, 235
+  offset: 84, 4
+  index: -1
+images/effect/pskillD/baofaadd/add_00059
+  rotate: false
+  xy: 416, 370
+  size: 187, 206
+  orig: 359, 235
+  offset: 86, 4
+  index: -1
+images/effect/pskillD/baofaadd/add_00064
+  rotate: true
+  xy: 248, 2
+  size: 115, 140
+  orig: 359, 235
+  offset: 140, 34
+  index: -1
+images/effect/pskillD/baofaadd/add_00065
+  rotate: false
+  xy: 688, 11
+  size: 111, 139
+  orig: 359, 235
+  offset: 144, 37
+  index: -1
+images/effect/pskillD/baofanor/nor_00048
+  rotate: true
+  xy: 379, 119
+  size: 246, 59
+  orig: 359, 235
+  offset: 55, 12
+  index: -1
+images/effect/pskillD/baofanor/nor_00049
+  rotate: false
+  xy: 440, 73
+  size: 246, 59
+  orig: 359, 235
+  offset: 55, 12
+  index: -1
+images/effect/pskillD/baofanor/nor_00051
+  rotate: false
+  xy: 390, 18
+  size: 246, 53
+  orig: 359, 235
+  offset: 55, 12
+  index: -1
+images/effect/pskillD/guangci/guangci_00032
+  rotate: false
+  xy: 801, 32
+  size: 221, 161
+  orig: 260, 173
+  offset: 19, 4
+  index: -1
+images/effect/pskillD/guangci/guangci_00034
+  rotate: true
+  xy: 854, 600
+  size: 230, 164
+  orig: 260, 173
+  offset: 16, 7
+  index: -1
+images/effect/pskillD/guangci/guangci_00035
+  rotate: true
+  xy: 440, 134
+  size: 234, 164
+  orig: 260, 173
+  offset: 16, 7
+  index: -1
+images/effect/pskillD/xuli/00010
+  rotate: false
+  xy: 853, 832
+  size: 168, 190
+  orig: 200, 308
+  offset: 24, 104
+  index: -1
+images/effect/pskillD/xuli/00025
+  rotate: true
+  xy: 2, 3
+  size: 127, 244
+  orig: 200, 308
+  offset: 46, 21
+  index: -1
+
+effects_10505_PskillD4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/pskillD/baofaadd/add_00058
+  rotate: false
+  xy: 2, 810
+  size: 193, 210
+  orig: 359, 235
+  offset: 85, 4
+  index: -1
+images/effect/pskillD/baofaadd/add_00060
+  rotate: false
+  xy: 220, 719
+  size: 166, 166
+  orig: 359, 235
+  offset: 87, 4
+  index: -1
+images/effect/pskillD/baofaadd/add_00061
+  rotate: false
+  xy: 2, 167
+  size: 166, 167
+  orig: 359, 235
+  offset: 90, 4
+  index: -1
+images/effect/pskillD/baofaadd/add_00062
+  rotate: false
+  xy: 2, 2
+  size: 166, 163
+  orig: 359, 235
+  offset: 95, 9
+  index: -1
+images/effect/pskillD/baofaadd/add_00066
+  rotate: false
+  xy: 220, 579
+  size: 112, 138
+  orig: 359, 235
+  offset: 142, 39
+  index: -1
+images/effect/pskillD/baofaadd/add_00067
+  rotate: false
+  xy: 220, 439
+  size: 112, 138
+  orig: 359, 235
+  offset: 141, 40
+  index: -1
+images/effect/pskillD/baofanor/nor_00032
+  rotate: true
+  xy: 388, 452
+  size: 89, 153
+  orig: 359, 235
+  offset: 142, 32
+  index: -1
+images/effect/pskillD/baofanor/nor_00033
+  rotate: true
+  xy: 543, 452
+  size: 89, 153
+  orig: 359, 235
+  offset: 142, 32
+  index: -1
+images/effect/pskillD/baofanor/nor_00052
+  rotate: true
+  xy: 165, 562
+  size: 246, 53
+  orig: 359, 235
+  offset: 55, 12
+  index: -1
+images/effect/pskillD/baofanor/nor_00053
+  rotate: true
+  xy: 388, 639
+  size: 246, 53
+  orig: 359, 235
+  offset: 55, 12
+  index: -1
+images/effect/pskillD/baofanor/nor_00054
+  rotate: true
+  xy: 443, 597
+  size: 246, 53
+  orig: 359, 235
+  offset: 55, 12
+  index: -1
+images/effect/pskillD/baofanor/nor_00055
+  rotate: true
+  xy: 498, 597
+  size: 246, 53
+  orig: 359, 235
+  offset: 55, 12
+  index: -1
+images/effect/pskillD/baofanor/nor_00056
+  rotate: true
+  xy: 553, 597
+  size: 246, 53
+  orig: 359, 235
+  offset: 55, 12
+  index: -1
+images/effect/pskillD/baofanor/nor_00057
+  rotate: true
+  xy: 608, 597
+  size: 246, 53
+  orig: 359, 235
+  offset: 55, 12
+  index: -1
+images/effect/pskillD/baofanor/nor_00058
+  rotate: true
+  xy: 663, 598
+  size: 246, 53
+  orig: 359, 235
+  offset: 55, 12
+  index: -1
+images/effect/pskillD/baofanor/nor_00059
+  rotate: true
+  xy: 718, 598
+  size: 246, 53
+  orig: 359, 235
+  offset: 55, 12
+  index: -1
+images/effect/pskillD/baofanor/nor_00060
+  rotate: true
+  xy: 773, 599
+  size: 245, 52
+  orig: 359, 235
+  offset: 55, 13
+  index: -1
+images/effect/pskillD/baofanor/nor_00061
+  rotate: true
+  xy: 334, 472
+  size: 245, 52
+  orig: 359, 235
+  offset: 55, 13
+  index: -1
+images/effect/pskillD/baofanor/nor_00062
+  rotate: true
+  xy: 827, 599
+  size: 245, 52
+  orig: 359, 235
+  offset: 55, 13
+  index: -1
+images/effect/pskillD/baofanor/nor_00063
+  rotate: true
+  xy: 881, 603
+  size: 245, 52
+  orig: 359, 235
+  offset: 55, 13
+  index: -1
+images/effect/pskillD/baofanor/nor_00064
+  rotate: true
+  xy: 935, 603
+  size: 245, 52
+  orig: 359, 235
+  offset: 55, 13
+  index: -1
+images/effect/pskillD/baofanor/nor_00065
+  rotate: false
+  xy: 388, 543
+  size: 245, 52
+  orig: 359, 235
+  offset: 55, 13
+  index: -1
+images/effect/pskillD/guangci/guangci_00033
+  rotate: true
+  xy: 2, 581
+  size: 227, 161
+  orig: 260, 173
+  offset: 19, 4
+  index: -1
+images/effect/pskillD/xuli/00007
+  rotate: true
+  xy: 828, 850
+  size: 170, 187
+  orig: 200, 308
+  offset: 21, 104
+  index: -1
+images/effect/pskillD/xuli/00008
+  rotate: true
+  xy: 636, 846
+  size: 174, 190
+  orig: 200, 308
+  offset: 20, 104
+  index: -1
+images/effect/pskillD/xuli/00009
+  rotate: true
+  xy: 443, 845
+  size: 175, 191
+  orig: 200, 308
+  offset: 20, 104
+  index: -1
+images/effect/pskillD/xuli/00024
+  rotate: true
+  xy: 197, 887
+  size: 133, 244
+  orig: 200, 308
+  offset: 46, 19
+  index: -1
+images/effect/pskillD/xuli/00026
+  rotate: false
+  xy: 2, 336
+  size: 133, 243
+  orig: 200, 308
+  offset: 46, 22
+  index: -1

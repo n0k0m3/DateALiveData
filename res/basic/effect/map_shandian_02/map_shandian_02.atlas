@@ -1,0 +1,41 @@
+
+map_shandian_02.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/shandian/shandian_00056
+  rotate: false
+  xy: 2, 192
+  size: 246, 144
+  orig: 246, 144
+  offset: 0, 0
+  index: -1
+images/shandian/shandian_00057
+  rotate: false
+  xy: 268, 336
+  size: 212, 144
+  orig: 212, 144
+  offset: 0, 0
+  index: -1
+images/shandian/shandian_00058
+  rotate: false
+  xy: 250, 192
+  size: 212, 142
+  orig: 212, 142
+  offset: 0, 0
+  index: -1
+images/shandian/shandian_00059
+  rotate: false
+  xy: 2, 338
+  size: 264, 142
+  orig: 264, 142
+  offset: 0, 0
+  index: -1
+images/shandian/shandian_00060
+  rotate: false
+  xy: 2, 45
+  size: 232, 145
+  orig: 232, 145
+  offset: 0, 0
+  index: -1

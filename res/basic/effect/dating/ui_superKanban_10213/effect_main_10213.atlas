@@ -1,0 +1,355 @@
+
+effect_main_10213.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/guang/guang_00004
+  rotate: false
+  xy: 278, 437
+  size: 274, 174
+  orig: 318, 212
+  offset: 18, 15
+  index: -1
+images/guang/guang_00005
+  rotate: false
+  xy: 554, 434
+  size: 274, 174
+  orig: 318, 212
+  offset: 18, 15
+  index: -1
+images/guang/guang_00006
+  rotate: false
+  xy: 2, 265
+  size: 274, 174
+  orig: 318, 212
+  offset: 18, 15
+  index: -1
+images/guang/guang_00007
+  rotate: false
+  xy: 562, 785
+  size: 274, 173
+  orig: 318, 212
+  offset: 18, 16
+  index: -1
+images/guang/guang_00008
+  rotate: false
+  xy: 2, 616
+  size: 274, 173
+  orig: 318, 212
+  offset: 18, 16
+  index: -1
+images/guang/guang_00009
+  rotate: false
+  xy: 278, 260
+  size: 274, 175
+  orig: 318, 212
+  offset: 18, 14
+  index: -1
+images/guang/guang_00010
+  rotate: false
+  xy: 2, 88
+  size: 273, 175
+  orig: 318, 212
+  offset: 18, 14
+  index: -1
+images/guang/guang_00011
+  rotate: false
+  xy: 277, 83
+  size: 272, 175
+  orig: 318, 212
+  offset: 18, 14
+  index: -1
+images/guang/guang_00013
+  rotate: true
+  xy: 833, 156
+  size: 267, 177
+  orig: 318, 212
+  offset: 18, 12
+  index: -1
+images/guang/guang_00014
+  rotate: true
+  xy: 838, 693
+  size: 265, 178
+  orig: 318, 212
+  offset: 18, 11
+  index: -1
+images/guang/guang_00015
+  rotate: true
+  xy: 837, 425
+  size: 266, 178
+  orig: 318, 212
+  offset: 18, 11
+  index: -1
+images/guang/guang_00019
+  rotate: false
+  xy: 554, 258
+  size: 277, 174
+  orig: 318, 212
+  offset: 18, 15
+  index: -1
+images/guang/guang_00020
+  rotate: false
+  xy: 282, 788
+  size: 278, 172
+  orig: 318, 212
+  offset: 18, 17
+  index: -1
+images/guang/guang_00021
+  rotate: false
+  xy: 2, 791
+  size: 278, 171
+  orig: 318, 212
+  offset: 18, 18
+  index: -1
+images/guang/guang_00022
+  rotate: false
+  xy: 278, 613
+  size: 278, 173
+  orig: 318, 212
+  offset: 18, 16
+  index: -1
+images/guang/guang_00023
+  rotate: false
+  xy: 551, 82
+  size: 278, 174
+  orig: 318, 212
+  offset: 18, 15
+  index: -1
+images/guang/guang_00024
+  rotate: false
+  xy: 558, 610
+  size: 277, 173
+  orig: 318, 212
+  offset: 18, 16
+  index: -1
+images/guang/guang_00025
+  rotate: false
+  xy: 2, 441
+  size: 274, 173
+  orig: 318, 212
+  offset: 18, 16
+  index: -1
+images/lizi/huaban_00000
+  rotate: false
+  xy: 270, 964
+  size: 54, 52
+  orig: 80, 80
+  offset: 10, 14
+  index: -1
+images/lizi/huaban_00001
+  rotate: false
+  xy: 326, 964
+  size: 55, 52
+  orig: 80, 80
+  offset: 10, 14
+  index: -1
+images/lizi/huaban_00002
+  rotate: false
+  xy: 496, 962
+  size: 56, 54
+  orig: 80, 80
+  offset: 10, 13
+  index: -1
+images/lizi/huaban_00003
+  rotate: true
+  xy: 784, 960
+  size: 56, 57
+  orig: 80, 80
+  offset: 10, 11
+  index: -1
+images/lizi/huaban_00004
+  rotate: false
+  xy: 727, 961
+  size: 55, 55
+  orig: 80, 80
+  offset: 11, 12
+  index: -1
+images/lizi/huaban_00005
+  rotate: false
+  xy: 107, 967
+  size: 52, 49
+  orig: 80, 80
+  offset: 14, 15
+  index: -1
+images/lizi/huaban_00006
+  rotate: false
+  xy: 55, 968
+  size: 50, 48
+  orig: 80, 80
+  offset: 12, 17
+  index: -1
+images/lizi/huaban_00007
+  rotate: false
+  xy: 554, 962
+  size: 56, 54
+  orig: 80, 80
+  offset: 10, 14
+  index: -1
+images/lizi/huaban_00008
+  rotate: false
+  xy: 843, 960
+  size: 56, 56
+  orig: 80, 80
+  offset: 10, 13
+  index: -1
+images/lizi/huaban_00009
+  rotate: false
+  xy: 383, 963
+  size: 55, 53
+  orig: 80, 80
+  offset: 11, 14
+  index: -1
+images/lizi/huaban_00010
+  rotate: false
+  xy: 2, 969
+  size: 51, 47
+  orig: 80, 80
+  offset: 14, 17
+  index: -1
+images/lizi/huaban_00011
+  rotate: false
+  xy: 161, 966
+  size: 51, 50
+  orig: 80, 80
+  offset: 14, 15
+  index: -1
+images/lizi/huaban_00012
+  rotate: false
+  xy: 440, 963
+  size: 54, 53
+  orig: 80, 80
+  offset: 12, 13
+  index: -1
+images/lizi/huaban_00013
+  rotate: true
+  xy: 612, 962
+  size: 54, 56
+  orig: 80, 80
+  offset: 12, 11
+  index: -1
+images/lizi/huaban_00014
+  rotate: false
+  xy: 670, 962
+  size: 55, 54
+  orig: 80, 80
+  offset: 11, 12
+  index: -1
+images/lizi/huaban_00015
+  rotate: false
+  xy: 214, 965
+  size: 54, 51
+  orig: 80, 80
+  offset: 12, 14
+  index: -1
+
+effect_main_102132.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/guang/guang_00000
+  rotate: false
+  xy: 182, 275
+  size: 272, 177
+  orig: 318, 212
+  offset: 18, 12
+  index: -1
+images/guang/guang_00001
+  rotate: true
+  xy: 466, 535
+  size: 273, 176
+  orig: 318, 212
+  offset: 18, 13
+  index: -1
+images/guang/guang_00002
+  rotate: false
+  xy: 190, 632
+  size: 274, 176
+  orig: 318, 212
+  offset: 18, 13
+  index: -1
+images/guang/guang_00003
+  rotate: false
+  xy: 190, 454
+  size: 274, 176
+  orig: 318, 212
+  offset: 18, 13
+  index: -1
+images/guang/guang_00012
+  rotate: true
+  xy: 787, 747
+  size: 269, 177
+  orig: 318, 212
+  offset: 18, 12
+  index: -1
+images/guang/guang_00016
+  rotate: true
+  xy: 259, 3
+  size: 270, 178
+  orig: 318, 212
+  offset: 18, 11
+  index: -1
+images/guang/guang_00017
+  rotate: true
+  xy: 2, 239
+  size: 274, 178
+  orig: 318, 212
+  offset: 18, 11
+  index: -1
+images/guang/guang_00018
+  rotate: false
+  xy: 509, 839
+  size: 276, 177
+  orig: 318, 212
+  offset: 18, 12
+  index: -1
+images/guang/guang_00026
+  rotate: false
+  xy: 644, 569
+  size: 273, 176
+  orig: 318, 212
+  offset: 18, 13
+  index: -1
+images/guang/guang_00027
+  rotate: false
+  xy: 644, 390
+  size: 271, 177
+  orig: 318, 212
+  offset: 18, 12
+  index: -1
+images/guang/guang_00028
+  rotate: true
+  xy: 439, 2
+  size: 271, 177
+  orig: 318, 212
+  offset: 18, 12
+  index: -1
+images/guang/guang_00029
+  rotate: false
+  xy: 618, 211
+  size: 271, 177
+  orig: 318, 212
+  offset: 18, 12
+  index: -1
+images/youxia
+  rotate: false
+  xy: 2, 515
+  size: 186, 293
+  orig: 186, 293
+  offset: 0, 0
+  index: -1
+images/zuoshang
+  rotate: false
+  xy: 2, 810
+  size: 505, 206
+  orig: 505, 206
+  offset: 0, 0
+  index: -1
+images/zuoxia
+  rotate: false
+  xy: 2, 47
+  size: 255, 190
+  orig: 255, 190
+  offset: 0, 0
+  index: -1

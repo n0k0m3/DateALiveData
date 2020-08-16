@@ -1,0 +1,20 @@
+
+tiantai.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow_00060
+  rotate: false
+  xy: 2, 2
+  size: 159, 126
+  orig: 210, 210
+  offset: 2, 42
+  index: -1
+yangguang_00000
+  rotate: false
+  xy: 2, 130
+  size: 206, 170
+  orig: 210, 210
+  offset: 1, 19
+  index: -1

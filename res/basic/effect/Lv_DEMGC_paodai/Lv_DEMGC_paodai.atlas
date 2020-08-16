@@ -1,0 +1,13 @@
+
+Lv_DEMGC_paodai.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xian
+  rotate: false
+  xy: 2, 80
+  size: 329, 251
+  orig: 329, 251
+  offset: 0, 0
+  index: -1

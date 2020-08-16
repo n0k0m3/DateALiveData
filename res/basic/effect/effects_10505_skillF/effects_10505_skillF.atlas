@@ -1,0 +1,257 @@
+
+effects_10505_skillF.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/skillF/add/add_00037
+  rotate: false
+  xy: 2, 545
+  size: 269, 192
+  orig: 282, 211
+  offset: 13, 13
+  index: -1
+images/effect/skillF/add/add_00038
+  rotate: false
+  xy: 576, 817
+  size: 268, 205
+  orig: 282, 211
+  offset: 14, 0
+  index: -1
+images/effect/skillF/add/add_00039
+  rotate: false
+  xy: 305, 584
+  size: 260, 204
+  orig: 282, 211
+  offset: 15, 0
+  index: -1
+images/effect/skillF/add/add_00040
+  rotate: true
+  xy: 567, 324
+  size: 259, 203
+  orig: 282, 211
+  offset: 16, 0
+  index: -1
+images/effect/skillF/add/add_00041
+  rotate: false
+  xy: 273, 383
+  size: 247, 199
+  orig: 282, 211
+  offset: 18, 0
+  index: -1
+images/effect/skillF/add/add_00042
+  rotate: false
+  xy: 2, 348
+  size: 245, 195
+  orig: 282, 211
+  offset: 20, 0
+  index: -1
+images/effect/skillF/add/add_00043
+  rotate: true
+  xy: 846, 781
+  size: 241, 176
+  orig: 282, 211
+  offset: 24, 19
+  index: -1
+images/effect/skillF/add/add_00044
+  rotate: false
+  xy: 2, 180
+  size: 237, 166
+  orig: 282, 211
+  offset: 27, 21
+  index: -1
+images/effect/skillF/add/add_00045
+  rotate: false
+  xy: 487, 162
+  size: 228, 160
+  orig: 282, 211
+  offset: 34, 23
+  index: -1
+images/effect/skillF/add/add_00046
+  rotate: false
+  xy: 446, 8
+  size: 199, 152
+  orig: 282, 211
+  offset: 62, 24
+  index: -1
+images/effect/skillF/nor/nor_00037
+  rotate: false
+  xy: 2, 739
+  size: 301, 283
+  orig: 303, 285
+  offset: 2, 2
+  index: -1
+images/effect/skillF/nor/nor_00038
+  rotate: false
+  xy: 305, 790
+  size: 269, 232
+  orig: 303, 285
+  offset: 34, 53
+  index: -1
+images/effect/skillF/nor/nor_00039
+  rotate: true
+  xy: 576, 585
+  size: 230, 237
+  orig: 303, 285
+  offset: 73, 43
+  index: -1
+images/effect/skillF/nor/nor_00040
+  rotate: false
+  xy: 772, 251
+  size: 230, 227
+  orig: 303, 285
+  offset: 73, 43
+  index: -1
+images/effect/skillF/nor/nor_00041
+  rotate: false
+  xy: 241, 22
+  size: 203, 177
+  orig: 303, 285
+  offset: 72, 74
+  index: -1
+images/effect/skillF/nor/nor_00042
+  rotate: false
+  xy: 2, 4
+  size: 201, 174
+  orig: 303, 285
+  offset: 73, 76
+  index: -1
+images/effect/skillF/nor/nor_00043
+  rotate: true
+  xy: 717, 48
+  size: 201, 174
+  orig: 303, 285
+  offset: 73, 76
+  index: -1
+images/effect/skillF/shanguang/shanguang_00001
+  rotate: true
+  xy: 249, 201
+  size: 180, 236
+  orig: 188, 320
+  offset: 7, 55
+  index: -1
+images/effect/skillF/shanguang/shanguang_00002
+  rotate: false
+  xy: 815, 480
+  size: 180, 299
+  orig: 188, 320
+  offset: 7, 21
+  index: -1
+images/effect/skillF/shanguang/shanguang_00007
+  rotate: false
+  xy: 893, 24
+  size: 93, 225
+  orig: 188, 320
+  offset: 46, 55
+  index: -1
+
+effects_10505_skillF2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/skillF/add/add_00047
+  rotate: false
+  xy: 2, 681
+  size: 191, 150
+  orig: 282, 211
+  offset: 67, 27
+  index: -1
+images/effect/skillF/nor/nor_00044
+  rotate: false
+  xy: 2, 833
+  size: 201, 173
+  orig: 303, 285
+  offset: 73, 76
+  index: -1
+images/effect/skillF/shanguang/shanguang_00009
+  rotate: true
+  xy: 205, 913
+  size: 93, 225
+  orig: 188, 320
+  offset: 46, 55
+  index: -1
+images/effect/skillF/shanguang/shanguang_00011
+  rotate: false
+  xy: 2, 471
+  size: 91, 208
+  orig: 188, 320
+  offset: 46, 55
+  index: -1
+images/effect/skillF/shanguang/shanguang_00013
+  rotate: true
+  xy: 432, 915
+  size: 91, 207
+  orig: 188, 320
+  offset: 46, 56
+  index: -1
+images/effect/skillF/shanguang/shanguang_00015
+  rotate: false
+  xy: 2, 278
+  size: 91, 191
+  orig: 188, 320
+  offset: 46, 62
+  index: -1
+images/effect/skillF/shanguang/shanguang_00017
+  rotate: false
+  xy: 95, 491
+  size: 91, 188
+  orig: 188, 320
+  offset: 46, 62
+  index: -1
+images/effect/skillF/shanguang/shanguang_00019
+  rotate: true
+  xy: 641, 921
+  size: 85, 172
+  orig: 188, 320
+  offset: 46, 75
+  index: -1
+images/effect/skillF/shanguang/shanguang_00021
+  rotate: false
+  xy: 2, 105
+  size: 85, 171
+  orig: 188, 320
+  offset: 46, 73
+  index: -1
+images/effect/skillF/shanguang/shanguang_00023
+  rotate: false
+  xy: 95, 331
+  size: 85, 158
+  orig: 188, 320
+  offset: 46, 71
+  index: -1
+images/effect/skillF/shanguang/shanguang_00025
+  rotate: true
+  xy: 815, 921
+  size: 85, 158
+  orig: 188, 320
+  offset: 46, 69
+  index: -1
+images/effect/skillF/shanguang/shanguang_00027
+  rotate: true
+  xy: 205, 827
+  size: 84, 157
+  orig: 188, 320
+  offset: 47, 67
+  index: -1
+images/effect/skillF/shanguang/shanguang_00029
+  rotate: true
+  xy: 195, 742
+  size: 83, 152
+  orig: 188, 320
+  offset: 48, 71
+  index: -1
+images/effect/skillF/shanguang/shanguang_00031
+  rotate: false
+  xy: 2, 2
+  size: 83, 101
+  orig: 188, 320
+  offset: 48, 70
+  index: -1
+images/effect/skillF/shanguang/shanguang_00033
+  rotate: true
+  xy: 195, 657
+  size: 83, 100
+  orig: 188, 320
+  offset: 48, 69
+  index: -1

@@ -1,0 +1,187 @@
+{
+"skeleton": { "hash": "UhxdRPxiOvetCFE9qiUU43gsxBU", "spine": "2.1.27", "width": 0, "height": 0, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "0000", "parent": "root" },
+	{ "name": "yueliang", "parent": "0000", "x": -203.48, "y": 263.46 },
+	{ "name": "yunzong", "parent": "0000" },
+	{ "name": "yun1", "parent": "yunzong", "x": -1139.54, "y": 263.46 },
+	{ "name": "yun2", "parent": "yunzong", "x": -304.16, "y": 237.76 },
+	{ "name": "yun3", "parent": "yunzong", "x": 1205.94, "y": 261.32 },
+	{ "name": "yun4", "parent": "yunzong", "y": 254.89 },
+	{ "name": "yun5", "parent": "yunzong", "x": -1139.54, "y": 263.46 },
+	{ "name": "yun6", "parent": "yunzong", "x": -304.16, "y": 237.76 },
+	{ "name": "yun7", "parent": "yunzong", "x": 1205.94, "y": 261.32 },
+	{ "name": "yun8", "parent": "yunzong", "y": 254.89 }
+],
+"slots": [
+	{ "name": "images/yun/yun1", "bone": "yun1" },
+	{ "name": "images/yun/yun5", "bone": "yun5" },
+	{ "name": "images/yun/yun2", "bone": "yun2" },
+	{ "name": "images/yun/yun6", "bone": "yun6" },
+	{ "name": "images/yun/yun3", "bone": "yun3" },
+	{ "name": "images/yun/yun7", "bone": "yun7" },
+	{ "name": "images/yun/yun4", "bone": "yun4" },
+	{ "name": "images/yun/yun8", "bone": "yun8" },
+	{ "name": "images/yueliang", "bone": "yueliang" }
+],
+"skins": {
+	"default": {
+		"images/yueliang": {
+			"images/yueliang": { "width": 79, "height": 80 }
+		},
+		"images/yun/yun1": {
+			"images/yun/yun1": { "width": 407, "height": 69 }
+		},
+		"images/yun/yun2": {
+			"images/yun/yun2": { "width": 436, "height": 64 }
+		},
+		"images/yun/yun3": {
+			"images/yun/yun3": { "width": 225, "height": 61 }
+		},
+		"images/yun/yun4": {
+			"images/yun/yun4": { "width": 155, "height": 36 }
+		},
+		"images/yun/yun5": {
+			"images/yun/yun1": { "width": 407, "height": 69 }
+		},
+		"images/yun/yun6": {
+			"images/yun/yun2": { "width": 436, "height": 64 }
+		},
+		"images/yun/yun7": {
+			"images/yun/yun3": { "width": 225, "height": 61 }
+		},
+		"images/yun/yun8": {
+			"images/yun/yun4": { "width": 155, "height": 36 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"images/yueliang": {
+				"attachment": [
+					{ "time": 0, "name": "images/yueliang" }
+				]
+			},
+			"images/yun/yun1": {
+				"attachment": [
+					{ "time": 0, "name": "images/yun/yun1" }
+				]
+			},
+			"images/yun/yun2": {
+				"attachment": [
+					{ "time": 0, "name": "images/yun/yun2" }
+				]
+			},
+			"images/yun/yun3": {
+				"attachment": [
+					{ "time": 0, "name": "images/yun/yun3" }
+				]
+			},
+			"images/yun/yun4": {
+				"attachment": [
+					{ "time": 0, "name": "images/yun/yun4" }
+				]
+			},
+			"images/yun/yun5": {
+				"attachment": [
+					{ "time": 0, "name": "images/yun/yun1" }
+				]
+			},
+			"images/yun/yun6": {
+				"attachment": [
+					{ "time": 0, "name": "images/yun/yun2" }
+				]
+			},
+			"images/yun/yun7": {
+				"attachment": [
+					{ "time": 18.5, "name": "images/yun/yun3" }
+				]
+			},
+			"images/yun/yun8": {
+				"attachment": [
+					{ "time": 0, "name": "images/yun/yun4" }
+				]
+			}
+		},
+		"bones": {
+			"yueliang": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -30.96 },
+					{ "time": 26.6666, "x": 0, "y": 14.16 },
+					{ "time": 53.3333, "x": 0, "y": -16.14 }
+				]
+			},
+			"yun1": {
+				"translate": [
+					{ "time": 0, "x": 157.47, "y": 0 },
+					{ "time": 42.7, "x": 2740.97, "y": 0, "curve": "stepped" },
+					{ "time": 43.2333, "x": -456.1, "y": 0 },
+					{ "time": 53.3333, "x": 157.47, "y": 0 }
+				]
+			},
+			"yun2": {
+				"translate": [
+					{ "time": 0, "x": -1313.37, "y": 0 },
+					{ "time": 53.3333, "x": 1925.44, "y": 0 }
+				]
+			},
+			"yun3": {
+				"translate": [
+					{ "time": 0, "x": -1028.22, "y": 23.15 },
+					{ "time": 18.3333, "x": 251.71, "y": 23.15, "curve": "stepped" },
+					{ "time": 29.2333, "x": -2710, "y": 23.15 },
+					{ "time": 53.3333, "x": -1028.22, "y": 23.15 }
+				]
+			},
+			"yun4": {
+				"translate": [
+					{ "time": 0, "x": -1422.49, "y": 0 },
+					{ "time": 30.7, "x": 1475.06, "y": 0, "curve": "stepped" },
+					{ "time": 53.3333, "x": 1475.06, "y": 0 }
+				]
+			},
+			"yun5": {
+				"translate": [
+					{ "time": 0, "x": 720.66, "y": 12.45 },
+					{ "time": 25.5, "x": 2738.48, "y": 12.45, "curve": "stepped" },
+					{ "time": 38.6666, "x": -440.2, "y": 12.45 },
+					{ "time": 53.3333, "x": 720.66, "y": 12.45 }
+				],
+				"scale": [
+					{ "time": 0, "x": -0.802, "y": 1 }
+				]
+			},
+			"yun6": {
+				"translate": [
+					{ "time": 0, "x": 1274.75, "y": 33.25 },
+					{ "time": 8.9666, "x": 1909.25, "y": 33.25, "curve": "stepped" },
+					{ "time": 16.9666, "x": -1301.02, "y": 33.25 },
+					{ "time": 53.3333, "x": 1274.75, "y": 33.25 }
+				],
+				"scale": [
+					{ "time": 0, "x": -0.665, "y": 1 }
+				]
+			},
+			"yun7": {
+				"translate": [
+					{ "time": 18.5, "x": -2726, "y": -33.41 },
+					{ "time": 47.7666, "x": 237.23, "y": -33.41 }
+				]
+			},
+			"yun8": {
+				"translate": [
+					{ "time": 0, "x": -743.76, "y": 35.96 },
+					{ "time": 38.5, "x": 1442.84, "y": 35.96, "curve": "stepped" },
+					{ "time": 41.1666, "x": -1434.27, "y": 35.96 },
+					{ "time": 53.3333, "x": -743.76, "y": 35.96 }
+				],
+				"scale": [
+					{ "time": 0, "x": -1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

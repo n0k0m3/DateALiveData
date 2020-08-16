@@ -1,0 +1,292 @@
+
+effects_fight_20801_skillC.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillA/baodian/baodian0030
+  rotate: false
+  xy: 700, 2
+  size: 97, 70
+  orig: 350, 245
+  offset: 122, 101
+  index: -1
+images/effects/skillA/baodian/baodian0031
+  rotate: true
+  xy: 246, 516
+  size: 228, 186
+  orig: 350, 245
+  offset: 52, 37
+  index: -1
+images/effects/skillA/baodian/baodian0033
+  rotate: false
+  xy: 772, 594
+  size: 239, 194
+  orig: 350, 245
+  offset: 45, 28
+  index: -1
+images/effects/skillA/baodian/baodian0035
+  rotate: false
+  xy: 2, 12
+  size: 245, 199
+  orig: 350, 245
+  offset: 42, 26
+  index: -1
+images/effects/skillA/baodian/baodian0037
+  rotate: false
+  xy: 749, 393
+  size: 231, 199
+  orig: 350, 245
+  offset: 50, 27
+  index: -1
+images/effects/skillB/PNGZONG/lizi/lizi_00029_00014
+  rotate: true
+  xy: 2, 213
+  size: 254, 251
+  orig: 315, 315
+  offset: 28, 28
+  index: -1
+images/effects/skillB/PNGZONG/lizi/lizi_00029_00016
+  rotate: false
+  xy: 515, 766
+  size: 255, 256
+  orig: 315, 315
+  offset: 28, 26
+  index: -1
+images/effects/skillB/PNGZONG/lizi/lizi_00029_00018
+  rotate: false
+  xy: 258, 753
+  size: 255, 269
+  orig: 315, 315
+  offset: 28, 27
+  index: -1
+images/effects/skillB/PNGZONG/lizi/lizi_00029_00020
+  rotate: false
+  xy: 2, 746
+  size: 254, 276
+  orig: 315, 315
+  offset: 28, 25
+  index: -1
+images/effects/skillB/PNGZONG/lizi/lizi_00029_00022
+  rotate: false
+  xy: 2, 469
+  size: 242, 275
+  orig: 315, 315
+  offset: 33, 25
+  index: -1
+images/effects/skillB/PNGZONG/lizi/lizi_00029_00024
+  rotate: true
+  xy: 772, 790
+  size: 232, 250
+  orig: 315, 315
+  offset: 34, 35
+  index: -1
+images/effects/skillB/PNGZONG/lizi/lizi_00029_00026
+  rotate: true
+  xy: 515, 550
+  size: 214, 232
+  orig: 315, 315
+  offset: 45, 44
+  index: -1
+images/effects/skillB/PNGZONG/lizi/lizi_00029_00028
+  rotate: false
+  xy: 700, 74
+  size: 150, 157
+  orig: 315, 315
+  offset: 71, 78
+  index: -1
+images/effects/skillB/PNGZONG/lizi/lizi_00029_00029
+  rotate: false
+  xy: 906, 291
+  size: 99, 100
+  orig: 315, 315
+  offset: 87, 98
+  index: -1
+images/effects/skillB/PNGZONG/qiangkou/qiangkou_00032
+  rotate: true
+  xy: 255, 177
+  size: 127, 179
+  orig: 210, 280
+  offset: 34, 61
+  index: -1
+images/effects/skillB/PNGZONG/qiangkou/qiangkou_00033
+  rotate: false
+  xy: 454, 16
+  size: 138, 170
+  orig: 210, 280
+  offset: 28, 73
+  index: -1
+images/effects/skillB/PNGZONG/qiangkou/qiangkou_00034
+  rotate: true
+  xy: 249, 25
+  size: 150, 203
+  orig: 210, 280
+  offset: 32, 60
+  index: -1
+images/effects/skillB/PNGZONG/qiangkou/qiangkou_00035
+  rotate: false
+  xy: 553, 192
+  size: 142, 142
+  orig: 210, 280
+  offset: 31, 82
+  index: -1
+images/effects/skillB/PNGZONG/qiangkou/qiangkou_00036
+  rotate: false
+  xy: 255, 306
+  size: 158, 208
+  orig: 210, 280
+  offset: 40, 28
+  index: -1
+images/effects/skillB/PNGZONG/qiangkou/qiangkou_00037
+  rotate: false
+  xy: 415, 306
+  size: 131, 208
+  orig: 210, 280
+  offset: 44, 13
+  index: -1
+images/effects/skillB/PNGZONG/qiangkou/qiangkou_00038
+  rotate: false
+  xy: 548, 336
+  size: 114, 212
+  orig: 210, 280
+  offset: 66, 3
+  index: -1
+images/effects/skillB/PNGZONG/qiangtou_00028
+  rotate: false
+  xy: 664, 357
+  size: 47, 28
+  orig: 140, 140
+  offset: 47, 58
+  index: -1
+images/effects/skillB/PNGZONG/yanwu/yanwu_00030
+  rotate: false
+  xy: 982, 397
+  size: 28, 83
+  orig: 140, 140
+  offset: 64, 35
+  index: -1
+images/effects/skillB/PNGZONG/yanwu/yanwu_00031
+  rotate: false
+  xy: 957, 180
+  size: 44, 109
+  orig: 140, 140
+  offset: 48, 21
+  index: -1
+images/effects/skillB/PNGZONG/yanwu/yanwu_00032
+  rotate: false
+  xy: 982, 482
+  size: 37, 110
+  orig: 140, 140
+  offset: 48, 20
+  index: -1
+images/effects/skillB/PNGZONG/yanwu/yanwu_00033
+  rotate: false
+  xy: 749, 655
+  size: 13, 109
+  orig: 140, 140
+  offset: 62, 22
+  index: -1
+images/effects/skillB/PNGZONG/yuan/yuan_00044
+  rotate: false
+  xy: 936, 2
+  size: 82, 81
+  orig: 140, 140
+  offset: 31, 33
+  index: -1
+images/effects/skillB/PNGZONG/yuan/yuan_00046
+  rotate: false
+  xy: 436, 188
+  size: 115, 116
+  orig: 140, 140
+  offset: 11, 19
+  index: -1
+images/effects/skillB/PNGZONG/yuan/yuan_00048
+  rotate: false
+  xy: 852, 85
+  size: 99, 99
+  orig: 140, 140
+  offset: 19, 28
+  index: -1
+images/effects/skillB/PNGZONG/yuan/yuan_00050
+  rotate: false
+  xy: 852, 186
+  size: 103, 103
+  orig: 140, 140
+  offset: 17, 26
+  index: -1
+images/effects/skillB/PNGZONG/zidan/zidanbaodian_00029
+  rotate: true
+  xy: 434, 524
+  size: 80, 78
+  orig: 210, 210
+  offset: 22, 61
+  index: -1
+images/effects/skillB/PNGZONG/zidan/zidanbaodian_00030
+  rotate: true
+  xy: 594, 8
+  size: 182, 104
+  orig: 210, 210
+  offset: 8, 49
+  index: -1
+images/effects/skillB/PNGZONG/zidan/zidanbaodian_00031
+  rotate: false
+  xy: 741, 301
+  size: 163, 90
+  orig: 210, 210
+  offset: 16, 55
+  index: -1
+images/effects/skillB/PNGZONG/zidan/zidanbaodian_00032
+  rotate: true
+  xy: 664, 387
+  size: 161, 75
+  orig: 210, 210
+  offset: 24, 62
+  index: -1
+images/effects/skillB/PNGZONG/zidan/zidanbaodian_00033
+  rotate: true
+  xy: 434, 606
+  size: 145, 68
+  orig: 210, 210
+  offset: 32, 69
+  index: -1
+images/effects/skillB/PNGZONG/zidan/zidanbaodian_00034
+  rotate: false
+  xy: 697, 233
+  size: 143, 66
+  orig: 210, 210
+  offset: 41, 74
+  index: -1
+images/effects/skillB/PNGZONG/zidan/zidanbaodian_00035
+  rotate: false
+  xy: 799, 4
+  size: 135, 68
+  orig: 210, 210
+  offset: 49, 73
+  index: -1
+images/effects/skillB/PNGZONG/zidan/zidanbaodian_00036
+  rotate: true
+  xy: 953, 103
+  size: 75, 58
+  orig: 210, 210
+  offset: 56, 72
+  index: -1
+
+effects_fight_20801_skillC2.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillA/zidan/zidan0015
+  rotate: true
+  xy: 96, 44
+  size: 80, 28
+  orig: 105, 105
+  offset: 8, 34
+  index: -1
+images/effects/skillB/PNGZONG/qiangkou/qiangkou_00031
+  rotate: false
+  xy: 2, 23
+  size: 92, 101
+  orig: 210, 280
+  offset: 41, 89
+  index: -1

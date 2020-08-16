@@ -1,0 +1,69 @@
+
+effects_10602_born.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chuchang/canying/canying_00010
+  rotate: false
+  xy: 2, 117
+  size: 43, 43
+  orig: 53, 44
+  offset: 8, 1
+  index: -1
+chuchang/yanwu/yanwu_00022
+  rotate: true
+  xy: 2, 2
+  size: 48, 10
+  orig: 88, 37
+  offset: 21, 12
+  index: -1
+chuchang/yanwu/yanwu_00024
+  rotate: true
+  xy: 2, 52
+  size: 63, 16
+  orig: 88, 37
+  offset: 13, 9
+  index: -1
+chuchang/yanwu/yanwu_00026
+  rotate: false
+  xy: 89, 198
+  size: 81, 27
+  orig: 88, 37
+  offset: 3, 5
+  index: -1
+chuchang/yanwu/yanwu_00028
+  rotate: false
+  xy: 2, 222
+  size: 85, 32
+  orig: 88, 37
+  offset: 2, 2
+  index: -1
+chuchang/yanwu/yanwu_00030
+  rotate: false
+  xy: 2, 189
+  size: 85, 31
+  orig: 88, 37
+  offset: 2, 3
+  index: -1
+chuchang/yanwu/yanwu_00032
+  rotate: false
+  xy: 89, 227
+  size: 84, 27
+  orig: 88, 37
+  offset: 3, 8
+  index: -1
+chuchang/yanwu/yanwu_00034
+  rotate: false
+  xy: 2, 162
+  size: 84, 25
+  orig: 88, 37
+  offset: 3, 10
+  index: -1
+chuchang/yanwu/yanwu_00036
+  rotate: false
+  xy: 175, 228
+  size: 73, 26
+  orig: 88, 37
+  offset: 7, 9
+  index: -1

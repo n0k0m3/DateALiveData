@@ -1,0 +1,20 @@
+
+effects_20201_skillB1.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skill02/daodan/daodan_00017
+  rotate: false
+  xy: 52, 15
+  size: 46, 83
+  orig: 51, 102
+  offset: 5, 4
+  index: -1
+effect/skill02/daodan/daodan_00026
+  rotate: false
+  xy: 2, 11
+  size: 48, 87
+  orig: 51, 102
+  offset: 3, 0
+  index: -1

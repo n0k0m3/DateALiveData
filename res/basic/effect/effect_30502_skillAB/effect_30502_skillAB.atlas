@@ -1,0 +1,188 @@
+
+effect_30502_skillAB.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+aa3_23
+  rotate: false
+  xy: 2, 596
+  size: 338, 398
+  orig: 338, 398
+  offset: 0, 0
+  index: -1
+e132
+  rotate: true
+  xy: 213, 436
+  size: 158, 109
+  orig: 160, 111
+  offset: 1, 1
+  index: -1
+e133
+  rotate: false
+  xy: 342, 751
+  size: 191, 243
+  orig: 195, 250
+  offset: 0, 7
+  index: -1
+e134
+  rotate: true
+  xy: 770, 931
+  size: 63, 114
+  orig: 64, 115
+  offset: 0, 0
+  index: -1
+e138
+  rotate: false
+  xy: 535, 728
+  size: 99, 76
+  orig: 99, 76
+  offset: 0, 0
+  index: -1
+e139
+  rotate: false
+  xy: 661, 916
+  size: 107, 78
+  orig: 107, 79
+  offset: 0, 0
+  index: -1
+e161
+  rotate: false
+  xy: 324, 487
+  size: 93, 77
+  orig: 93, 77
+  offset: 0, 0
+  index: -1
+e162
+  rotate: false
+  xy: 319, 343
+  size: 85, 74
+  orig: 85, 74
+  offset: 0, 0
+  index: -1
+e167
+  rotate: false
+  xy: 342, 650
+  size: 137, 99
+  orig: 137, 99
+  offset: 0, 0
+  index: -1
+eq120
+  rotate: false
+  xy: 342, 566
+  size: 96, 82
+  orig: 96, 82
+  offset: 0, 0
+  index: -1
+eq123
+  rotate: false
+  xy: 2, 103
+  size: 105, 93
+  orig: 106, 94
+  offset: 0, 0
+  index: -1
+eq127
+  rotate: true
+  xy: 311, 281
+  size: 60, 89
+  orig: 61, 90
+  offset: 0, 1
+  index: -1
+eq146
+  rotate: true
+  xy: 532, 663
+  size: 63, 76
+  orig: 63, 76
+  offset: 0, 0
+  index: -1
+eq148
+  rotate: true
+  xy: 213, 221
+  size: 37, 57
+  orig: 38, 57
+  offset: 1, 0
+  index: -1
+ew121
+  rotate: false
+  xy: 535, 806
+  size: 117, 75
+  orig: 118, 76
+  offset: 1, 1
+  index: -1
+ew122
+  rotate: false
+  xy: 213, 260
+  size: 96, 84
+  orig: 97, 84
+  offset: 1, 0
+  index: -1
+ew144
+  rotate: true
+  xy: 109, 127
+  size: 69, 55
+  orig: 69, 56
+  offset: 0, 0
+  index: -1
+ew24
+  rotate: false
+  xy: 2, 3
+  size: 85, 98
+  orig: 86, 99
+  offset: 1, 1
+  index: -1
+ew35
+  rotate: true
+  xy: 886, 938
+  size: 56, 108
+  orig: 57, 109
+  offset: 0, 1
+  index: -1
+ew40
+  rotate: true
+  xy: 481, 673
+  size: 76, 49
+  orig: 77, 50
+  offset: 1, 1
+  index: -1
+ewq126
+  rotate: false
+  xy: 151, 221
+  size: 60, 109
+  orig: 61, 110
+  offset: 0, 1
+  index: -1
+ewq147
+  rotate: false
+  xy: 2, 332
+  size: 209, 262
+  orig: 209, 262
+  offset: 0, 0
+  index: -1
+ewq154
+  rotate: false
+  xy: 535, 883
+  size: 124, 111
+  orig: 124, 111
+  offset: 0, 0
+  index: -1
+ewq156
+  rotate: false
+  xy: 213, 346
+  size: 104, 88
+  orig: 104, 88
+  offset: 0, 0
+  index: -1
+ewq25
+  rotate: false
+  xy: 324, 419
+  size: 91, 66
+  orig: 92, 69
+  offset: 0, 2
+  index: -1
+ewqr41
+  rotate: false
+  xy: 2, 198
+  size: 147, 132
+  orig: 148, 132
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,69 @@
+
+eff_MJ_damaoxian_fazhen.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fengchegan
+  rotate: false
+  xy: 498, 638
+  size: 8, 69
+  orig: 8, 69
+  offset: 0, 0
+  index: -1
+fengchezhongxin
+  rotate: false
+  xy: 89, 82
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+shanye1
+  rotate: false
+  xy: 354, 532
+  size: 56, 31
+  orig: 56, 31
+  offset: 0, 0
+  index: -1
+shanye2
+  rotate: false
+  xy: 249, 308
+  size: 48, 47
+  orig: 48, 47
+  offset: 0, 0
+  index: -1
+shanye3
+  rotate: false
+  xy: 2, 2
+  size: 16, 52
+  orig: 16, 52
+  offset: 0, 0
+  index: -1
+wenzi
+  rotate: false
+  xy: 2, 56
+  size: 85, 44
+  orig: 90, 45
+  offset: 2, 1
+  index: -1
+wenzihuan
+  rotate: false
+  xy: 2, 357
+  size: 350, 350
+  orig: 350, 350
+  offset: 0, 0
+  index: -1
+xingxing
+  rotate: false
+  xy: 2, 102
+  size: 245, 253
+  orig: 245, 253
+  offset: 0, 0
+  index: -1
+zhongxinfazhen
+  rotate: false
+  xy: 354, 565
+  size: 142, 142
+  orig: 142, 142
+  offset: 0, 0
+  index: -1

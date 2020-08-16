@@ -1,0 +1,1543 @@
+
+effects_26301.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/EFFECT/born_png/born_glow/born_glow_00001
+  rotate: false
+  xy: 584, 245
+  size: 40, 40
+  orig: 320, 462
+  offset: 137, 328
+  index: -1
+images/EFFECT/born_png/born_glow/born_glow_00006
+  rotate: false
+  xy: 704, 674
+  size: 232, 348
+  orig: 320, 462
+  offset: 50, 82
+  index: -1
+images/EFFECT/born_png/born_glow/born_glow_00008
+  rotate: false
+  xy: 223, 676
+  size: 239, 346
+  orig: 320, 462
+  offset: 43, 82
+  index: -1
+images/EFFECT/born_png/born_glow/born_glow_00010
+  rotate: false
+  xy: 464, 676
+  size: 238, 346
+  orig: 320, 462
+  offset: 44, 82
+  index: -1
+images/EFFECT/born_png/born_glow/born_glow_00012
+  rotate: true
+  xy: 2, 6
+  size: 232, 301
+  orig: 320, 462
+  offset: 50, 82
+  index: -1
+images/EFFECT/born_png/bornlizi/bornlizi_00051
+  rotate: false
+  xy: 646, 261
+  size: 257, 155
+  orig: 326, 273
+  offset: 22, 48
+  index: -1
+images/EFFECT/born_png/dimianyanwu/dimianyanwu_00014
+  rotate: false
+  xy: 576, 2
+  size: 158, 56
+  orig: 320, 155
+  offset: 81, 39
+  index: -1
+images/EFFECT/born_png/glow/glow_00033
+  rotate: true
+  xy: 305, 60
+  size: 183, 370
+  orig: 326, 416
+  offset: 78, 5
+  index: -1
+images/EFFECT/born_png/glow/glow_00040
+  rotate: false
+  xy: 2, 627
+  size: 219, 395
+  orig: 326, 416
+  offset: 64, 7
+  index: -1
+images/EFFECT/born_png/lizi/lizi_00017
+  rotate: true
+  xy: 305, 2
+  size: 56, 269
+  orig: 320, 462
+  offset: 141, 85
+  index: -1
+images/EFFECT/born_png/lizi/lizi_00021
+  rotate: false
+  xy: 584, 287
+  size: 60, 269
+  orig: 320, 462
+  offset: 138, 62
+  index: -1
+images/EFFECT/skillA_png/hongbi/hb_00001
+  rotate: true
+  xy: 610, 580
+  size: 94, 24
+  orig: 161, 98
+  offset: 38, 33
+  index: -1
+images/EFFECT/skillA_png/xiaobaodian_fashe/xiaobaodian_fashe_00019
+  rotate: true
+  xy: 972, 2
+  size: 44, 45
+  orig: 144, 143
+  offset: 49, 50
+  index: -1
+images/EFFECT/skillA_png/xiaobaodian_fashe/xiaobaodian_fashe_00027
+  rotate: false
+  xy: 792, 2
+  size: 53, 56
+  orig: 144, 143
+  offset: 47, 42
+  index: -1
+images/EFFECT/skillA_png/xiaobaodian_fashe/xiaobaodian_fashe_00028
+  rotate: false
+  xy: 736, 2
+  size: 54, 56
+  orig: 144, 143
+  offset: 47, 42
+  index: -1
+images/EFFECT/skillA_png/xiaobaodian_fashe/xiaobaodian_fashe_00037
+  rotate: false
+  xy: 1006, 653
+  size: 14, 14
+  orig: 144, 143
+  offset: 52, 64
+  index: -1
+images/EFFECT/skillA_png/xiaobaodian_fashe/xiaobaodian_fashe_00038
+  rotate: true
+  xy: 636, 600
+  size: 7, 8
+  orig: 144, 143
+  offset: 56, 67
+  index: -1
+images/EFFECT/skillb_png/an_glow_h_00016
+  rotate: true
+  xy: 902, 461
+  size: 206, 102
+  orig: 254, 132
+  offset: 20, 7
+  index: -1
+images/EFFECT/skillb_png/an_glow_z_00016
+  rotate: true
+  xy: 905, 254
+  size: 205, 102
+  orig: 278, 132
+  offset: 40, 7
+  index: -1
+images/EFFECT/skillb_png/baodian/baodian_00022
+  rotate: false
+  xy: 646, 418
+  size: 254, 254
+  orig: 328, 302
+  offset: 35, 24
+  index: -1
+images/EFFECT/skillb_png/baodian/baodian_00030
+  rotate: false
+  xy: 677, 60
+  size: 197, 199
+  orig: 328, 302
+  offset: 63, 51
+  index: -1
+images/EFFECT/skillb_png/baodian/baodian_00038
+  rotate: true
+  xy: 847, 9
+  size: 37, 123
+  orig: 328, 302
+  offset: 175, 68
+  index: -1
+images/EFFECT/skillb_png/buff_lizi/buff_lizi_00003
+  rotate: true
+  xy: 2, 240
+  size: 385, 193
+  orig: 445, 221
+  offset: 18, 21
+  index: -1
+images/EFFECT/skillb_png/buff_lizi/buff_lizi_00005
+  rotate: false
+  xy: 223, 558
+  size: 385, 116
+  orig: 445, 221
+  offset: 18, 58
+  index: -1
+images/EFFECT/skillb_png/buff_lizi/buff_lizi_00021
+  rotate: false
+  xy: 876, 151
+  size: 146, 101
+  orig: 445, 221
+  offset: 139, 67
+  index: -1
+images/EFFECT/skillb_png/buff_lizi/buff_lizi_00023
+  rotate: false
+  xy: 876, 48
+  size: 146, 101
+  orig: 445, 221
+  offset: 139, 67
+  index: -1
+images/EFFECT/skillb_png/buff_lizi/buff_lizi_00033
+  rotate: true
+  xy: 938, 669
+  size: 132, 84
+  orig: 445, 221
+  offset: 146, 76
+  index: -1
+images/EFFECT/skillb_png/buff_lizi/buff_lizi_00035
+  rotate: true
+  xy: 636, 609
+  size: 65, 8
+  orig: 445, 221
+  offset: 193, 120
+  index: -1
+images/EFFECT/skillb_png/debuff_lizi/debuff_lizi_00003
+  rotate: false
+  xy: 197, 363
+  size: 385, 193
+  orig: 445, 221
+  offset: 21, 21
+  index: -1
+images/EFFECT/skillb_png/debuff_lizi/debuff_lizi_00005
+  rotate: false
+  xy: 197, 245
+  size: 385, 116
+  orig: 445, 221
+  offset: 21, 56
+  index: -1
+images/EFFECT/skillb_png/glow_H_00016
+  rotate: false
+  xy: 938, 803
+  size: 84, 219
+  orig: 254, 416
+  offset: 81, 41
+  index: -1
+images/EFFECT/skillb_png/shangshenglizi/shangshenglizi_00010
+  rotate: false
+  xy: 197, 603
+  size: 21, 22
+  orig: 342, 289
+  offset: 126, 69
+  index: -1
+
+effects_263012.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/EFFECT/born_png/born_glow/born_glow_00004
+  rotate: false
+  xy: 874, 835
+  size: 148, 187
+  orig: 320, 462
+  offset: 83, 239
+  index: -1
+images/EFFECT/born_png/bornlizi/bornlizi_00039
+  rotate: true
+  xy: 407, 184
+  size: 216, 154
+  orig: 326, 273
+  offset: 52, 32
+  index: -1
+images/EFFECT/born_png/bornlizi/bornlizi_00041
+  rotate: true
+  xy: 189, 136
+  size: 233, 166
+  orig: 326, 273
+  offset: 42, 28
+  index: -1
+images/EFFECT/born_png/bornlizi/bornlizi_00043
+  rotate: false
+  xy: 625, 847
+  size: 247, 175
+  orig: 326, 273
+  offset: 35, 24
+  index: -1
+images/EFFECT/born_png/bornlizi/bornlizi_00045
+  rotate: true
+  xy: 2, 94
+  size: 260, 185
+  orig: 326, 273
+  offset: 29, 17
+  index: -1
+images/EFFECT/born_png/bornlizi/bornlizi_00047
+  rotate: false
+  xy: 2, 624
+  size: 265, 187
+  orig: 326, 273
+  offset: 23, 18
+  index: -1
+images/EFFECT/born_png/bornlizi/bornlizi_00049
+  rotate: true
+  xy: 2, 356
+  size: 266, 183
+  orig: 326, 273
+  offset: 20, 21
+  index: -1
+images/EFFECT/born_png/bornlizi/bornlizi_00053
+  rotate: true
+  xy: 187, 371
+  size: 251, 152
+  orig: 326, 273
+  offset: 31, 43
+  index: -1
+images/EFFECT/born_png/bornlizi/bornlizi_00055
+  rotate: true
+  xy: 482, 418
+  size: 211, 147
+  orig: 326, 273
+  offset: 72, 37
+  index: -1
+images/EFFECT/born_png/bornlizi/bornlizi_00057
+  rotate: true
+  xy: 872, 620
+  size: 213, 150
+  orig: 326, 273
+  offset: 70, 31
+  index: -1
+images/EFFECT/born_png/bornlizi/bornlizi_00059
+  rotate: true
+  xy: 631, 443
+  size: 210, 145
+  orig: 326, 273
+  offset: 71, 31
+  index: -1
+images/EFFECT/born_png/dimianyanwu/dimianyanwu_00018
+  rotate: true
+  xy: 812, 303
+  size: 200, 68
+  orig: 320, 155
+  offset: 64, 33
+  index: -1
+images/EFFECT/born_png/dimianyanwu/dimianyanwu_00020
+  rotate: true
+  xy: 694, 229
+  size: 212, 68
+  orig: 320, 155
+  offset: 59, 35
+  index: -1
+images/EFFECT/born_png/dimianyanwu/dimianyanwu_00022
+  rotate: true
+  xy: 563, 201
+  size: 215, 64
+  orig: 320, 155
+  offset: 57, 36
+  index: -1
+images/EFFECT/born_png/dimianyanwu/dimianyanwu_00024
+  rotate: true
+  xy: 629, 201
+  size: 215, 63
+  orig: 320, 155
+  offset: 57, 36
+  index: -1
+images/EFFECT/born_png/glow/glow_00031
+  rotate: false
+  xy: 396, 631
+  size: 160, 230
+  orig: 326, 416
+  offset: 98, 5
+  index: -1
+images/EFFECT/born_png/lizi/lizi_00013
+  rotate: false
+  xy: 341, 397
+  size: 52, 225
+  orig: 320, 462
+  offset: 144, 115
+  index: -1
+images/EFFECT/born_png/lizi/lizi_00025
+  rotate: false
+  xy: 764, 181
+  size: 46, 260
+  orig: 320, 462
+  offset: 135, 90
+  index: -1
+images/EFFECT/born_png/lizi/lizi_00029
+  rotate: false
+  xy: 357, 173
+  size: 48, 222
+  orig: 320, 462
+  offset: 133, 117
+  index: -1
+images/EFFECT/skillA_png/daoguang/daoguang_00018
+  rotate: false
+  xy: 371, 863
+  size: 252, 159
+  orig: 317, 271
+  offset: 28, 54
+  index: -1
+images/EFFECT/skillA_png/daoguang/daoguang_00020
+  rotate: true
+  xy: 870, 132
+  size: 169, 152
+  orig: 317, 271
+  offset: 114, 61
+  index: -1
+images/EFFECT/skillA_png/hongbi/hb_00003
+  rotate: false
+  xy: 870, 12
+  size: 94, 24
+  orig: 161, 98
+  offset: 38, 33
+  index: -1
+images/EFFECT/skillA_png/huangbi/huangb_00001
+  rotate: false
+  xy: 882, 306
+  size: 93, 18
+  orig: 131, 72
+  offset: 23, 24
+  index: -1
+images/EFFECT/skillA_png/huangbi/huangb_00005
+  rotate: false
+  xy: 2, 5
+  size: 93, 19
+  orig: 131, 72
+  offset: 23, 23
+  index: -1
+images/EFFECT/skillA_png/shu/shu_00006
+  rotate: true
+  xy: 269, 624
+  size: 187, 125
+  orig: 301, 204
+  offset: 66, 37
+  index: -1
+images/EFFECT/skillA_png/shu/shu_00010
+  rotate: true
+  xy: 748, 659
+  size: 186, 122
+  orig: 301, 204
+  offset: 67, 38
+  index: -1
+images/EFFECT/skillA_png/xiaobaodian/xiaobaodian_00023
+  rotate: true
+  xy: 694, 184
+  size: 43, 47
+  orig: 152, 109
+  offset: 53, 32
+  index: -1
+images/EFFECT/skillA_png/xiaobaodian/xiaobaodian_00031
+  rotate: true
+  xy: 812, 198
+  size: 50, 56
+  orig: 152, 109
+  offset: 51, 26
+  index: -1
+images/EFFECT/skillA_png/xiaobaodian/xiaobaodian_00032
+  rotate: true
+  xy: 812, 250
+  size: 51, 56
+  orig: 152, 109
+  offset: 51, 26
+  index: -1
+images/EFFECT/skillA_png/xiaobaodian/xiaobaodian_00040
+  rotate: false
+  xy: 966, 6
+  size: 44, 30
+  orig: 152, 109
+  offset: 57, 52
+  index: -1
+images/EFFECT/skillA_png/xiaobaodian_fashe/xiaobaodian_fashe_00035
+  rotate: false
+  xy: 357, 136
+  size: 45, 35
+  orig: 144, 143
+  offset: 50, 62
+  index: -1
+images/EFFECT/skillb_png/baodian/baodian_00026
+  rotate: false
+  xy: 518, 2
+  size: 179, 180
+  orig: 328, 302
+  offset: 72, 61
+  index: -1
+images/EFFECT/skillb_png/baodian/baodian_00028
+  rotate: false
+  xy: 558, 655
+  size: 188, 190
+  orig: 328, 302
+  offset: 68, 56
+  index: -1
+images/EFFECT/skillb_png/buff_lizi/buff_lizi_00007
+  rotate: false
+  xy: 2, 919
+  size: 367, 103
+  orig: 445, 221
+  offset: 36, 66
+  index: -1
+images/EFFECT/skillb_png/buff_lizi/buff_lizi_00019
+  rotate: false
+  xy: 872, 515
+  size: 150, 103
+  orig: 445, 221
+  offset: 137, 66
+  index: -1
+images/EFFECT/skillb_png/buff_lizi/buff_lizi_00031
+  rotate: false
+  xy: 882, 326
+  size: 140, 92
+  orig: 445, 221
+  offset: 142, 72
+  index: -1
+images/EFFECT/skillb_png/canraofeng/canraofeng_00021
+  rotate: false
+  xy: 778, 454
+  size: 30, 49
+  orig: 203, 192
+  offset: 38, 98
+  index: -1
+images/EFFECT/skillb_png/debuff_lizi/debuff_lizi_00007
+  rotate: false
+  xy: 2, 813
+  size: 366, 104
+  orig: 445, 221
+  offset: 39, 64
+  index: -1
+images/EFFECT/skillb_png/debuff_lizi/debuff_lizi_00031
+  rotate: false
+  xy: 882, 420
+  size: 140, 93
+  orig: 445, 221
+  offset: 144, 70
+  index: -1
+images/EFFECT/skillb_png/dimian_z_00010
+  rotate: false
+  xy: 2, 26
+  size: 185, 66
+  orig: 202, 134
+  offset: 9, 21
+  index: -1
+images/EFFECT/skillb_png/glow_Z_00016
+  rotate: false
+  xy: 395, 402
+  size: 85, 220
+  orig: 221, 416
+  offset: 64, 42
+  index: -1
+images/EFFECT/skillb_png/jiangongjili/jiansu_00006
+  rotate: true
+  xy: 778, 505
+  size: 152, 92
+  orig: 445, 221
+  offset: 141, 65
+  index: -1
+images/EFFECT/skillb_png/jiasu/js_00002
+  rotate: false
+  xy: 407, 136
+  size: 92, 46
+  orig: 445, 221
+  offset: 182, 87
+  index: -1
+images/EFFECT/skillb_png/jiasu/js_00003
+  rotate: false
+  xy: 870, 38
+  size: 152, 92
+  orig: 445, 221
+  offset: 146, 64
+  index: -1
+images/EFFECT/skillb_png/shangshenglizi/shangshenglizi_00028
+  rotate: false
+  xy: 699, 2
+  size: 169, 177
+  orig: 342, 289
+  offset: 86, 32
+  index: -1
+images/EFFECT/skillb_png/shu_glow/shu_glow_00047
+  rotate: true
+  xy: 354, 2
+  size: 132, 162
+  orig: 274, 192
+  offset: 45, 13
+  index: -1
+images/EFFECT/skillb_png/shu_glow/shu_glow_00049
+  rotate: true
+  xy: 189, 2
+  size: 132, 163
+  orig: 274, 192
+  offset: 45, 12
+  index: -1
+
+effects_263013.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/EFFECT/born_png/bornlizi/bornlizi_00031
+  rotate: false
+  xy: 802, 2
+  size: 84, 70
+  orig: 326, 273
+  offset: 128, 43
+  index: -1
+images/EFFECT/born_png/bornlizi/bornlizi_00035
+  rotate: false
+  xy: 698, 749
+  size: 169, 124
+  orig: 326, 273
+  offset: 79, 37
+  index: -1
+images/EFFECT/born_png/bornlizi/bornlizi_00037
+  rotate: true
+  xy: 2, 470
+  size: 195, 141
+  orig: 326, 273
+  offset: 64, 35
+  index: -1
+images/EFFECT/born_png/bornlizi/bornlizi_00061
+  rotate: true
+  xy: 2, 80
+  size: 196, 110
+  orig: 326, 273
+  offset: 74, 34
+  index: -1
+images/EFFECT/born_png/dimianyanwu/dimianyanwu_00016
+  rotate: false
+  xy: 186, 783
+  size: 182, 67
+  orig: 320, 155
+  offset: 72, 36
+  index: -1
+images/EFFECT/born_png/glow/glow_00029
+  rotate: false
+  xy: 183, 506
+  size: 155, 160
+  orig: 326, 416
+  offset: 100, 5
+  index: -1
+images/EFFECT/born_png/lizi/lizi_00009
+  rotate: false
+  xy: 145, 464
+  size: 36, 201
+  orig: 320, 462
+  offset: 156, 156
+  index: -1
+images/EFFECT/born_png/lizi/lizi_00033
+  rotate: true
+  xy: 464, 160
+  size: 47, 151
+  orig: 320, 462
+  offset: 134, 132
+  index: -1
+images/EFFECT/skillA_png/hongbi/hb_00005
+  rotate: true
+  xy: 504, 545
+  size: 94, 24
+  orig: 161, 98
+  offset: 38, 33
+  index: -1
+images/EFFECT/skillA_png/hongbi/hb_00007
+  rotate: true
+  xy: 992, 242
+  size: 94, 24
+  orig: 161, 98
+  offset: 38, 33
+  index: -1
+images/EFFECT/skillA_png/huangbi/huangb_00003
+  rotate: true
+  xy: 644, 244
+  size: 93, 18
+  orig: 131, 72
+  offset: 23, 24
+  index: -1
+images/EFFECT/skillA_png/huangbi/huangb_00007
+  rotate: false
+  xy: 464, 140
+  size: 93, 18
+  orig: 131, 72
+  offset: 23, 24
+  index: -1
+images/EFFECT/skillA_png/shu/shu_00000
+  rotate: true
+  xy: 250, 322
+  size: 182, 109
+  orig: 301, 204
+  offset: 71, 46
+  index: -1
+images/EFFECT/skillA_png/shu/shu_00002
+  rotate: true
+  xy: 2, 278
+  size: 190, 126
+  orig: 301, 204
+  offset: 63, 39
+  index: -1
+images/EFFECT/skillA_png/shu/shu_00004
+  rotate: true
+  xy: 250, 138
+  size: 182, 108
+  orig: 301, 204
+  offset: 71, 44
+  index: -1
+images/EFFECT/skillA_png/shu/shu_00008
+  rotate: false
+  xy: 370, 752
+  size: 180, 109
+  orig: 301, 204
+  offset: 73, 44
+  index: -1
+images/EFFECT/skillA_png/shu/shu_00012
+  rotate: false
+  xy: 178, 668
+  size: 181, 113
+  orig: 301, 204
+  offset: 72, 44
+  index: -1
+images/EFFECT/skillA_png/shu/shu_00014
+  rotate: true
+  xy: 130, 278
+  size: 184, 118
+  orig: 301, 204
+  offset: 69, 42
+  index: -1
+images/EFFECT/skillA_png/xiaobaodian/xiaobaodian_00039
+  rotate: false
+  xy: 183, 474
+  size: 43, 30
+  orig: 152, 109
+  offset: 56, 52
+  index: -1
+images/EFFECT/skillA_png/xiaobaodian_fashe/xiaobaodian_fashe_00029
+  rotate: false
+  xy: 968, 15
+  size: 54, 57
+  orig: 144, 143
+  offset: 47, 41
+  index: -1
+images/EFFECT/skillA_png/xiaobaodian_fashe/xiaobaodian_fashe_00036
+  rotate: false
+  xy: 644, 209
+  size: 41, 33
+  orig: 144, 143
+  offset: 52, 63
+  index: -1
+images/EFFECT/skillb_png/baodian/baodian_00020
+  rotate: false
+  xy: 2, 840
+  size: 182, 182
+  orig: 328, 302
+  offset: 71, 60
+  index: -1
+images/EFFECT/skillb_png/baodian/baodian_00024
+  rotate: false
+  xy: 186, 852
+  size: 169, 170
+  orig: 328, 302
+  offset: 77, 66
+  index: -1
+images/EFFECT/skillb_png/baodian/baodian_00032
+  rotate: false
+  xy: 869, 865
+  size: 153, 157
+  orig: 328, 302
+  offset: 86, 69
+  index: -1
+images/EFFECT/skillb_png/baodian/baodian_00034
+  rotate: false
+  xy: 864, 475
+  size: 155, 155
+  orig: 328, 302
+  offset: 86, 69
+  index: -1
+images/EFFECT/skillb_png/buff_lizi/buff_lizi_00009
+  rotate: false
+  xy: 864, 632
+  size: 156, 103
+  orig: 445, 221
+  offset: 137, 66
+  index: -1
+images/EFFECT/skillb_png/buff_lizi/buff_lizi_00011
+  rotate: true
+  xy: 602, 2
+  size: 156, 103
+  orig: 445, 221
+  offset: 137, 66
+  index: -1
+images/EFFECT/skillb_png/buff_lizi/buff_lizi_00025
+  rotate: false
+  xy: 552, 769
+  size: 144, 99
+  orig: 445, 221
+  offset: 140, 68
+  index: -1
+images/EFFECT/skillb_png/buff_lizi/buff_lizi_00027
+  rotate: false
+  xy: 552, 668
+  size: 144, 99
+  orig: 445, 221
+  offset: 140, 68
+  index: -1
+images/EFFECT/skillb_png/canraofeng/canraofeng_00025
+  rotate: false
+  xy: 361, 250
+  size: 117, 87
+  orig: 203, 192
+  offset: 35, 57
+  index: -1
+images/EFFECT/skillb_png/canraofeng/canraofeng_00027
+  rotate: false
+  xy: 360, 138
+  size: 102, 110
+  orig: 203, 192
+  offset: 51, 34
+  index: -1
+images/EFFECT/skillb_png/canraofeng/canraofeng_00031
+  rotate: true
+  xy: 707, 89
+  size: 159, 113
+  orig: 203, 192
+  offset: 26, 42
+  index: -1
+images/EFFECT/skillb_png/canraofeng/canraofeng_00035
+  rotate: false
+  xy: 869, 737
+  size: 153, 126
+  orig: 203, 192
+  offset: 26, 29
+  index: -1
+images/EFFECT/skillb_png/canraofeng/canraofeng_00041
+  rotate: true
+  xy: 165, 2
+  size: 105, 108
+  orig: 203, 192
+  offset: 36, 51
+  index: -1
+images/EFFECT/skillb_png/canraofeng/canraofeng_00045
+  rotate: false
+  xy: 707, 2
+  size: 93, 85
+  orig: 203, 192
+  offset: 47, 82
+  index: -1
+images/EFFECT/skillb_png/dimian_h_00010
+  rotate: false
+  xy: 504, 463
+  size: 187, 66
+  orig: 202, 134
+  offset: 8, 21
+  index: -1
+images/EFFECT/skillb_png/jiansu/jiansu_00002
+  rotate: false
+  xy: 617, 160
+  size: 85, 47
+  orig: 445, 221
+  offset: 178, 85
+  index: -1
+images/EFFECT/skillb_png/shangshenglizi/shangshenglizi_00012
+  rotate: true
+  xy: 984, 129
+  size: 79, 38
+  orig: 342, 289
+  offset: 127, 69
+  index: -1
+images/EFFECT/skillb_png/shangshenglizi/shangshenglizi_00016
+  rotate: false
+  xy: 698, 656
+  size: 164, 91
+  orig: 342, 289
+  offset: 91, 55
+  index: -1
+images/EFFECT/skillb_png/shangshenglizi/shangshenglizi_00018
+  rotate: false
+  xy: 361, 641
+  size: 172, 109
+  orig: 342, 289
+  offset: 91, 40
+  index: -1
+images/EFFECT/skillb_png/shangshenglizi/shangshenglizi_00020
+  rotate: true
+  xy: 114, 109
+  size: 167, 134
+  orig: 342, 289
+  offset: 96, 28
+  index: -1
+images/EFFECT/skillb_png/shangshenglizi/shangshenglizi_00022
+  rotate: false
+  xy: 698, 875
+  size: 169, 147
+  orig: 342, 289
+  offset: 92, 27
+  index: -1
+images/EFFECT/skillb_png/shangshenglizi/shangshenglizi_00024
+  rotate: false
+  xy: 357, 863
+  size: 169, 159
+  orig: 342, 289
+  offset: 92, 27
+  index: -1
+images/EFFECT/skillb_png/shangshenglizi/shangshenglizi_00026
+  rotate: false
+  xy: 2, 667
+  size: 174, 171
+  orig: 342, 289
+  offset: 85, 27
+  index: -1
+images/EFFECT/skillb_png/shangshenglizi/shangshenglizi_00030
+  rotate: false
+  xy: 528, 870
+  size: 168, 152
+  orig: 342, 289
+  offset: 86, 36
+  index: -1
+images/EFFECT/skillb_png/shangshenglizi/shangshenglizi_00032
+  rotate: true
+  xy: 361, 339
+  size: 165, 136
+  orig: 342, 289
+  offset: 87, 39
+  index: -1
+images/EFFECT/skillb_png/shangshenglizi/shangshenglizi_00034
+  rotate: false
+  xy: 698, 524
+  size: 164, 130
+  orig: 342, 289
+  offset: 84, 52
+  index: -1
+images/EFFECT/skillb_png/shangshenglizi/shangshenglizi_00048
+  rotate: false
+  xy: 888, 2
+  size: 78, 70
+  orig: 342, 289
+  offset: 145, 113
+  index: -1
+images/EFFECT/skillb_png/shu_glow/shu_glow_00021
+  rotate: true
+  xy: 2, 2
+  size: 76, 161
+  orig: 274, 192
+  offset: 101, 4
+  index: -1
+images/EFFECT/skillb_png/shu_glow/shu_glow_00023
+  rotate: true
+  xy: 499, 339
+  size: 122, 163
+  orig: 274, 192
+  offset: 44, 17
+  index: -1
+images/EFFECT/skillb_png/shu_glow/shu_glow_00025
+  rotate: true
+  xy: 275, 2
+  size: 134, 163
+  orig: 274, 192
+  offset: 43, 16
+  index: -1
+images/EFFECT/skillb_png/shu_glow/shu_glow_00027
+  rotate: true
+  xy: 693, 387
+  size: 135, 163
+  orig: 274, 192
+  offset: 42, 15
+  index: -1
+images/EFFECT/skillb_png/shu_glow/shu_glow_00029
+  rotate: true
+  xy: 858, 338
+  size: 135, 162
+  orig: 274, 192
+  offset: 42, 14
+  index: -1
+images/EFFECT/skillb_png/shu_glow/shu_glow_00031
+  rotate: true
+  xy: 664, 250
+  size: 135, 162
+  orig: 274, 192
+  offset: 42, 13
+  index: -1
+images/EFFECT/skillb_png/shu_glow/shu_glow_00033
+  rotate: true
+  xy: 535, 531
+  size: 135, 161
+  orig: 274, 192
+  offset: 42, 13
+  index: -1
+images/EFFECT/skillb_png/shu_glow/shu_glow_00035
+  rotate: true
+  xy: 440, 2
+  size: 134, 160
+  orig: 274, 192
+  offset: 43, 14
+  index: -1
+images/EFFECT/skillb_png/shu_glow/shu_glow_00037
+  rotate: true
+  xy: 822, 74
+  size: 134, 160
+  orig: 274, 192
+  offset: 43, 14
+  index: -1
+images/EFFECT/skillb_png/shu_glow/shu_glow_00041
+  rotate: true
+  xy: 828, 210
+  size: 126, 162
+  orig: 274, 192
+  offset: 44, 13
+  index: -1
+images/EFFECT/skillb_png/shu_glow/shu_glow_00043
+  rotate: true
+  xy: 480, 209
+  size: 128, 162
+  orig: 274, 192
+  offset: 44, 13
+  index: -1
+images/EFFECT/skillb_png/shu_glow/shu_glow_00045
+  rotate: true
+  xy: 340, 506
+  size: 133, 162
+  orig: 274, 192
+  offset: 44, 13
+  index: -1
+
+effects_263014.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/EFFECT/born_png/born_glow/born_glow_00002
+  rotate: false
+  xy: 604, 354
+  size: 76, 76
+  orig: 320, 462
+  offset: 119, 309
+  index: -1
+images/EFFECT/born_png/bornlizi/bornlizi_00033
+  rotate: false
+  xy: 288, 785
+  size: 133, 103
+  orig: 326, 273
+  offset: 101, 38
+  index: -1
+images/EFFECT/born_png/dimianyanwu/dimianyanwu_00012
+  rotate: false
+  xy: 400, 141
+  size: 103, 42
+  orig: 320, 155
+  offset: 108, 45
+  index: -1
+images/EFFECT/skillA_png/daoguang/daoguang_00022
+  rotate: true
+  xy: 2, 2
+  size: 89, 126
+  orig: 317, 271
+  offset: 195, 85
+  index: -1
+images/EFFECT/skillA_png/daoguang/daoguang_00024
+  rotate: false
+  xy: 505, 92
+  size: 80, 91
+  orig: 317, 271
+  offset: 197, 120
+  index: -1
+images/EFFECT/skillA_png/hongbi/hb_00009
+  rotate: false
+  xy: 589, 519
+  size: 94, 24
+  orig: 161, 98
+  offset: 38, 33
+  index: -1
+images/EFFECT/skillA_png/huangbi/huangb_00009
+  rotate: true
+  xy: 695, 624
+  size: 93, 18
+  orig: 131, 72
+  offset: 23, 24
+  index: -1
+images/EFFECT/skillA_png/xiaobaodian/xiaobaodian_00024
+  rotate: false
+  xy: 502, 496
+  size: 85, 89
+  orig: 152, 109
+  offset: 33, 13
+  index: -1
+images/EFFECT/skillA_png/xiaobaodian/xiaobaodian_00025
+  rotate: true
+  xy: 493, 185
+  size: 88, 90
+  orig: 152, 109
+  offset: 33, 13
+  index: -1
+images/EFFECT/skillA_png/xiaobaodian/xiaobaodian_00026
+  rotate: false
+  xy: 130, 2
+  size: 88, 89
+  orig: 152, 109
+  offset: 33, 12
+  index: -1
+images/EFFECT/skillA_png/xiaobaodian/xiaobaodian_00027
+  rotate: false
+  xy: 500, 2
+  size: 89, 88
+  orig: 152, 109
+  offset: 33, 12
+  index: -1
+images/EFFECT/skillA_png/xiaobaodian/xiaobaodian_00028
+  rotate: false
+  xy: 775, 602
+  size: 57, 57
+  orig: 152, 109
+  offset: 45, 23
+  index: -1
+images/EFFECT/skillA_png/xiaobaodian/xiaobaodian_00029
+  rotate: false
+  xy: 685, 492
+  size: 49, 51
+  orig: 152, 109
+  offset: 51, 29
+  index: -1
+images/EFFECT/skillA_png/xiaobaodian/xiaobaodian_00030
+  rotate: false
+  xy: 682, 317
+  size: 50, 54
+  orig: 152, 109
+  offset: 51, 27
+  index: -1
+images/EFFECT/skillA_png/xiaobaodian/xiaobaodian_00033
+  rotate: true
+  xy: 715, 606
+  size: 51, 58
+  orig: 152, 109
+  offset: 52, 25
+  index: -1
+images/EFFECT/skillA_png/xiaobaodian/xiaobaodian_00034
+  rotate: false
+  xy: 680, 545
+  size: 51, 59
+  orig: 152, 109
+  offset: 52, 24
+  index: -1
+images/EFFECT/skillA_png/xiaobaodian/xiaobaodian_00035
+  rotate: true
+  xy: 889, 666
+  size: 50, 59
+  orig: 152, 109
+  offset: 53, 24
+  index: -1
+images/EFFECT/skillA_png/xiaobaodian/xiaobaodian_00036
+  rotate: false
+  xy: 682, 432
+  size: 48, 58
+  orig: 152, 109
+  offset: 55, 25
+  index: -1
+images/EFFECT/skillA_png/xiaobaodian/xiaobaodian_00037
+  rotate: false
+  xy: 682, 373
+  size: 48, 57
+  orig: 152, 109
+  offset: 55, 26
+  index: -1
+images/EFFECT/skillA_png/xiaobaodian/xiaobaodian_00038
+  rotate: true
+  xy: 677, 267
+  size: 48, 56
+  orig: 152, 109
+  offset: 55, 26
+  index: -1
+images/EFFECT/skillA_png/xiaobaodian_fashe/xiaobaodian_fashe_00020
+  rotate: false
+  xy: 516, 317
+  size: 86, 86
+  orig: 144, 143
+  offset: 28, 30
+  index: -1
+images/EFFECT/skillA_png/xiaobaodian_fashe/xiaobaodian_fashe_00021
+  rotate: true
+  xy: 512, 405
+  size: 89, 88
+  orig: 144, 143
+  offset: 26, 30
+  index: -1
+images/EFFECT/skillA_png/xiaobaodian_fashe/xiaobaodian_fashe_00022
+  rotate: false
+  xy: 589, 545
+  size: 89, 86
+  orig: 144, 143
+  offset: 26, 31
+  index: -1
+images/EFFECT/skillA_png/xiaobaodian_fashe/xiaobaodian_fashe_00023
+  rotate: false
+  xy: 400, 185
+  size: 91, 88
+  orig: 144, 143
+  offset: 25, 30
+  index: -1
+images/EFFECT/skillA_png/xiaobaodian_fashe/xiaobaodian_fashe_00024
+  rotate: false
+  xy: 715, 659
+  size: 58, 63
+  orig: 144, 143
+  offset: 42, 41
+  index: -1
+images/EFFECT/skillA_png/xiaobaodian_fashe/xiaobaodian_fashe_00025
+  rotate: false
+  xy: 775, 661
+  size: 57, 61
+  orig: 144, 143
+  offset: 43, 43
+  index: -1
+images/EFFECT/skillA_png/xiaobaodian_fashe/xiaobaodian_fashe_00026
+  rotate: false
+  xy: 834, 603
+  size: 53, 54
+  orig: 144, 143
+  offset: 46, 43
+  index: -1
+images/EFFECT/skillA_png/xiaobaodian_fashe/xiaobaodian_fashe_00030
+  rotate: false
+  xy: 834, 659
+  size: 53, 57
+  orig: 144, 143
+  offset: 48, 41
+  index: -1
+images/EFFECT/skillA_png/xiaobaodian_fashe/xiaobaodian_fashe_00031
+  rotate: false
+  xy: 889, 607
+  size: 52, 57
+  orig: 144, 143
+  offset: 49, 41
+  index: -1
+images/EFFECT/skillA_png/xiaobaodian_fashe/xiaobaodian_fashe_00032
+  rotate: true
+  xy: 950, 664
+  size: 52, 57
+  orig: 144, 143
+  offset: 49, 41
+  index: -1
+images/EFFECT/skillA_png/xiaobaodian_fashe/xiaobaodian_fashe_00033
+  rotate: true
+  xy: 943, 611
+  size: 51, 57
+  orig: 144, 143
+  offset: 49, 41
+  index: -1
+images/EFFECT/skillA_png/xiaobaodian_fashe/xiaobaodian_fashe_00034
+  rotate: true
+  xy: 497, 587
+  size: 45, 56
+  orig: 144, 143
+  offset: 50, 42
+  index: -1
+images/EFFECT/skillb_png/baodian/baodian_00018
+  rotate: true
+  xy: 497, 634
+  size: 64, 63
+  orig: 328, 302
+  offset: 129, 119
+  index: -1
+images/EFFECT/skillb_png/baodian/baodian_00036
+  rotate: false
+  xy: 2, 705
+  size: 126, 155
+  orig: 328, 302
+  offset: 87, 68
+  index: -1
+images/EFFECT/skillb_png/bianda/BD_00007
+  rotate: false
+  xy: 425, 826
+  size: 153, 91
+  orig: 445, 221
+  offset: 137, 57
+  index: -1
+images/EFFECT/skillb_png/bianxiao/BX_00009
+  rotate: false
+  xy: 285, 692
+  size: 152, 91
+  orig: 445, 221
+  offset: 147, 64
+  index: -1
+images/EFFECT/skillb_png/buff_lizi/buff_lizi_00001
+  rotate: false
+  xy: 399, 6
+  size: 72, 51
+  orig: 445, 221
+  offset: 178, 87
+  index: -1
+images/EFFECT/skillb_png/buff_lizi/buff_lizi_00013
+  rotate: true
+  xy: 2, 399
+  size: 155, 103
+  orig: 445, 221
+  offset: 137, 66
+  index: -1
+images/EFFECT/skillb_png/buff_lizi/buff_lizi_00015
+  rotate: false
+  xy: 425, 919
+  size: 153, 103
+  orig: 445, 221
+  offset: 137, 66
+  index: -1
+images/EFFECT/skillb_png/buff_lizi/buff_lizi_00017
+  rotate: true
+  xy: 2, 244
+  size: 153, 103
+  orig: 445, 221
+  offset: 137, 66
+  index: -1
+images/EFFECT/skillb_png/buff_lizi/buff_lizi_00029
+  rotate: true
+  xy: 303, 294
+  size: 142, 96
+  orig: 445, 221
+  offset: 141, 70
+  index: -1
+images/EFFECT/skillb_png/canraofeng/canraofeng_00023
+  rotate: true
+  xy: 409, 586
+  size: 104, 86
+  orig: 203, 192
+  offset: 34, 59
+  index: -1
+images/EFFECT/skillb_png/canraofeng/canraofeng_00029
+  rotate: false
+  xy: 401, 356
+  size: 109, 110
+  orig: 203, 192
+  offset: 44, 45
+  index: -1
+images/EFFECT/skillb_png/canraofeng/canraofeng_00033
+  rotate: false
+  xy: 882, 909
+  size: 134, 113
+  orig: 203, 192
+  offset: 26, 42
+  index: -1
+images/EFFECT/skillb_png/canraofeng/canraofeng_00037
+  rotate: true
+  xy: 2, 556
+  size: 147, 123
+  orig: 203, 192
+  offset: 26, 29
+  index: -1
+images/EFFECT/skillb_png/canraofeng/canraofeng_00039
+  rotate: false
+  xy: 439, 700
+  size: 121, 124
+  orig: 203, 192
+  offset: 26, 30
+  index: -1
+images/EFFECT/skillb_png/canraofeng/canraofeng_00043
+  rotate: false
+  xy: 399, 59
+  size: 99, 80
+  orig: 203, 192
+  offset: 41, 82
+  index: -1
+images/EFFECT/skillb_png/canraofeng/canraofeng_00047
+  rotate: false
+  xy: 602, 432
+  size: 78, 85
+  orig: 203, 192
+  offset: 67, 82
+  index: -1
+images/EFFECT/skillb_png/debuff_lizi/debuff_lizi_00001
+  rotate: false
+  xy: 604, 302
+  size: 71, 50
+  orig: 445, 221
+  offset: 181, 86
+  index: -1
+images/EFFECT/skillb_png/debuff_lizi/debuff_lizi_00009
+  rotate: false
+  xy: 580, 918
+  size: 149, 104
+  orig: 445, 221
+  offset: 140, 64
+  index: -1
+images/EFFECT/skillb_png/debuff_lizi/debuff_lizi_00011
+  rotate: false
+  xy: 731, 918
+  size: 149, 104
+  orig: 445, 221
+  offset: 140, 64
+  index: -1
+images/EFFECT/skillb_png/debuff_lizi/debuff_lizi_00013
+  rotate: true
+  xy: 2, 93
+  size: 149, 104
+  orig: 445, 221
+  offset: 140, 64
+  index: -1
+images/EFFECT/skillb_png/debuff_lizi/debuff_lizi_00015
+  rotate: false
+  xy: 137, 787
+  size: 149, 104
+  orig: 445, 221
+  offset: 140, 64
+  index: -1
+images/EFFECT/skillb_png/debuff_lizi/debuff_lizi_00017
+  rotate: false
+  xy: 258, 586
+  size: 149, 104
+  orig: 445, 221
+  offset: 140, 64
+  index: -1
+images/EFFECT/skillb_png/debuff_lizi/debuff_lizi_00019
+  rotate: false
+  xy: 562, 719
+  size: 149, 104
+  orig: 445, 221
+  offset: 140, 64
+  index: -1
+images/EFFECT/skillb_png/debuff_lizi/debuff_lizi_00021
+  rotate: true
+  xy: 294, 438
+  size: 146, 100
+  orig: 445, 221
+  offset: 141, 66
+  index: -1
+images/EFFECT/skillb_png/debuff_lizi/debuff_lizi_00023
+  rotate: true
+  xy: 201, 264
+  size: 146, 100
+  orig: 445, 221
+  offset: 141, 66
+  index: -1
+images/EFFECT/skillb_png/debuff_lizi/debuff_lizi_00025
+  rotate: false
+  xy: 735, 817
+  size: 145, 99
+  orig: 445, 221
+  offset: 142, 67
+  index: -1
+images/EFFECT/skillb_png/debuff_lizi/debuff_lizi_00027
+  rotate: true
+  xy: 202, 117
+  size: 145, 99
+  orig: 445, 221
+  offset: 142, 67
+  index: -1
+images/EFFECT/skillb_png/debuff_lizi/debuff_lizi_00029
+  rotate: true
+  xy: 303, 150
+  size: 142, 95
+  orig: 445, 221
+  offset: 143, 69
+  index: -1
+images/EFFECT/skillb_png/debuff_lizi/debuff_lizi_00033
+  rotate: false
+  xy: 562, 633
+  size: 131, 84
+  orig: 445, 221
+  offset: 149, 74
+  index: -1
+images/EFFECT/skillb_png/jiagongji/JGJL_00006
+  rotate: false
+  xy: 868, 718
+  size: 152, 91
+  orig: 445, 221
+  offset: 139, 67
+  index: -1
+images/EFFECT/skillb_png/jiansu/jiansu_00003
+  rotate: false
+  xy: 580, 825
+  size: 153, 91
+  orig: 445, 221
+  offset: 140, 63
+  index: -1
+images/EFFECT/skillb_png/jiansu/jiansu_00004
+  rotate: false
+  xy: 130, 694
+  size: 153, 91
+  orig: 445, 221
+  offset: 140, 63
+  index: -1
+images/EFFECT/skillb_png/jiansu/jiansu_00005
+  rotate: false
+  xy: 713, 724
+  size: 153, 91
+  orig: 445, 221
+  offset: 140, 63
+  index: -1
+images/EFFECT/skillb_png/jiansu/jiansu_00006
+  rotate: true
+  xy: 107, 401
+  size: 153, 91
+  orig: 445, 221
+  offset: 140, 63
+  index: -1
+images/EFFECT/skillb_png/jiasu/js_00004
+  rotate: true
+  xy: 107, 247
+  size: 152, 92
+  orig: 445, 221
+  offset: 146, 64
+  index: -1
+images/EFFECT/skillb_png/jiasu/js_00005
+  rotate: true
+  xy: 108, 93
+  size: 152, 92
+  orig: 445, 221
+  offset: 146, 64
+  index: -1
+images/EFFECT/skillb_png/jiasu/js_00006
+  rotate: true
+  xy: 200, 412
+  size: 152, 92
+  orig: 445, 221
+  offset: 146, 64
+  index: -1
+images/EFFECT/skillb_png/shangshenglizi/shangshenglizi_00014
+  rotate: false
+  xy: 882, 811
+  size: 134, 96
+  orig: 342, 289
+  offset: 91, 47
+  index: -1
+images/EFFECT/skillb_png/shangshenglizi/shangshenglizi_00036
+  rotate: false
+  xy: 137, 893
+  size: 151, 129
+  orig: 342, 289
+  offset: 88, 59
+  index: -1
+images/EFFECT/skillb_png/shangshenglizi/shangshenglizi_00038
+  rotate: false
+  xy: 290, 890
+  size: 133, 132
+  orig: 342, 289
+  offset: 91, 65
+  index: -1
+images/EFFECT/skillb_png/shangshenglizi/shangshenglizi_00040
+  rotate: false
+  xy: 127, 566
+  size: 129, 126
+  orig: 342, 289
+  offset: 94, 74
+  index: -1
+images/EFFECT/skillb_png/shangshenglizi/shangshenglizi_00042
+  rotate: false
+  xy: 220, 2
+  size: 100, 113
+  orig: 342, 289
+  offset: 121, 78
+  index: -1
+images/EFFECT/skillb_png/shangshenglizi/shangshenglizi_00044
+  rotate: false
+  xy: 396, 468
+  size: 104, 116
+  orig: 342, 289
+  offset: 118, 87
+  index: -1
+images/EFFECT/skillb_png/shangshenglizi/shangshenglizi_00046
+  rotate: true
+  xy: 401, 275
+  size: 79, 113
+  orig: 342, 289
+  offset: 144, 100
+  index: -1
+images/EFFECT/skillb_png/shu_glow/shu_glow_00039
+  rotate: false
+  xy: 2, 862
+  size: 133, 160
+  orig: 274, 192
+  offset: 44, 14
+  index: -1
+images/EFFECT/skillb_png/shu_glow/shu_glow_00051
+  rotate: false
+  xy: 322, 5
+  size: 75, 143
+  orig: 274, 192
+  offset: 102, 20
+  index: -1

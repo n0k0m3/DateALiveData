@@ -1,0 +1,360 @@
+
+effect_DEM_zhanjian_down.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/dayanwu/dayanwu_00006
+  rotate: false
+  xy: 2, 853
+  size: 560, 169
+  orig: 565, 195
+  offset: 0, 19
+  index: -1
+images/dayanwu/dayanwu_00008
+  rotate: false
+  xy: 2, 171
+  size: 558, 169
+  orig: 565, 195
+  offset: 2, 19
+  index: -1
+images/dayanwu/dayanwu_00010
+  rotate: false
+  xy: 2, 682
+  size: 560, 169
+  orig: 565, 195
+  offset: 0, 19
+  index: -1
+images/dayanwu/dayanwu_00012
+  rotate: false
+  xy: 2, 512
+  size: 560, 168
+  orig: 565, 195
+  offset: 0, 20
+  index: -1
+images/dayanwu/dayanwu_00016
+  rotate: false
+  xy: 2, 342
+  size: 560, 168
+  orig: 565, 195
+  offset: 0, 20
+  index: -1
+images/dayanwu/dayanwu_00018
+  rotate: false
+  xy: 2, 2
+  size: 560, 167
+  orig: 565, 195
+  offset: 0, 21
+  index: -1
+images/dayanwu/dayanwu_00020
+  rotate: true
+  xy: 564, 462
+  size: 560, 168
+  orig: 565, 195
+  offset: 0, 20
+  index: -1
+images/dayanwu/dayanwu_00026
+  rotate: true
+  xy: 734, 462
+  size: 560, 167
+  orig: 565, 195
+  offset: 0, 21
+  index: -1
+images/weiyan
+  rotate: true
+  xy: 564, 7
+  size: 453, 254
+  orig: 453, 254
+  offset: 0, 0
+  index: -1
+images/xiaoyanwu/xiaoyanwu_00010
+  rotate: true
+  xy: 820, 257
+  size: 203, 202
+  orig: 250, 241
+  offset: 33, 24
+  index: -1
+images/xiaoyanwu/xiaoyanwu_00020
+  rotate: false
+  xy: 820, 58
+  size: 202, 197
+  orig: 250, 241
+  offset: 35, 29
+  index: -1
+
+effect_DEM_zhanjian_down2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/dayanwu/dayanwu_00000
+  rotate: true
+  xy: 173, 3
+  size: 518, 164
+  orig: 565, 195
+  offset: 42, 24
+  index: -1
+images/dayanwu/dayanwu_00004
+  rotate: true
+  xy: 2, 2
+  size: 519, 169
+  orig: 565, 195
+  offset: 41, 19
+  index: -1
+images/dayanwu/dayanwu_00014
+  rotate: true
+  xy: 834, 466
+  size: 556, 169
+  orig: 565, 195
+  offset: 4, 19
+  index: -1
+images/dayanwu/dayanwu_00022
+  rotate: false
+  xy: 2, 857
+  size: 560, 165
+  orig: 565, 195
+  offset: 0, 23
+  index: -1
+images/dayanwu/dayanwu_00024
+  rotate: false
+  xy: 2, 523
+  size: 555, 166
+  orig: 565, 195
+  offset: 5, 22
+  index: -1
+images/dayanwu/dayanwu_00032
+  rotate: false
+  xy: 2, 691
+  size: 560, 164
+  orig: 565, 195
+  offset: 0, 24
+  index: -1
+images/dayanwu/dayanwu_00040
+  rotate: false
+  xy: 507, 299
+  size: 515, 165
+  orig: 565, 195
+  offset: 45, 23
+  index: -1
+images/dayanwu/dayanwu_00042
+  rotate: false
+  xy: 507, 131
+  size: 512, 166
+  orig: 565, 195
+  offset: 48, 22
+  index: -1
+images/dayanwu/dayanwu_00044
+  rotate: true
+  xy: 339, 4
+  size: 517, 166
+  orig: 565, 195
+  offset: 43, 22
+  index: -1
+images/weiyan1
+  rotate: false
+  xy: 564, 873
+  size: 268, 149
+  orig: 295, 159
+  offset: 2, 10
+  index: -1
+images/xiaoyanwu/xiaoyanwu_00014
+  rotate: true
+  xy: 559, 471
+  size: 205, 199
+  orig: 250, 241
+  offset: 32, 26
+  index: -1
+images/xiaoyanwu/xiaoyanwu_00036
+  rotate: false
+  xy: 564, 678
+  size: 206, 193
+  orig: 250, 241
+  offset: 30, 26
+  index: -1
+
+effect_DEM_zhanjian_down3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/dayanwu/dayanwu_00002
+  rotate: false
+  xy: 2, 2
+  size: 516, 164
+  orig: 565, 195
+  offset: 44, 24
+  index: -1
+images/dayanwu/dayanwu_00028
+  rotate: false
+  xy: 2, 839
+  size: 552, 164
+  orig: 565, 195
+  offset: 8, 24
+  index: -1
+images/dayanwu/dayanwu_00030
+  rotate: false
+  xy: 2, 669
+  size: 544, 168
+  orig: 565, 195
+  offset: 16, 20
+  index: -1
+images/dayanwu/dayanwu_00034
+  rotate: false
+  xy: 2, 502
+  size: 529, 165
+  orig: 565, 195
+  offset: 31, 23
+  index: -1
+images/dayanwu/dayanwu_00036
+  rotate: false
+  xy: 2, 336
+  size: 526, 164
+  orig: 565, 195
+  offset: 34, 24
+  index: -1
+images/dayanwu/dayanwu_00038
+  rotate: false
+  xy: 2, 168
+  size: 521, 166
+  orig: 565, 195
+  offset: 39, 22
+  index: -1
+images/xiaoyanwu/xiaoyanwu_00012
+  rotate: false
+  xy: 763, 802
+  size: 203, 201
+  orig: 250, 241
+  offset: 34, 25
+  index: -1
+images/xiaoyanwu/xiaoyanwu_00016
+  rotate: false
+  xy: 556, 805
+  size: 205, 198
+  orig: 250, 241
+  offset: 32, 28
+  index: -1
+images/xiaoyanwu/xiaoyanwu_00018
+  rotate: false
+  xy: 739, 403
+  size: 203, 198
+  orig: 250, 241
+  offset: 34, 29
+  index: -1
+images/xiaoyanwu/xiaoyanwu_00022
+  rotate: false
+  xy: 548, 607
+  size: 204, 196
+  orig: 250, 241
+  offset: 33, 29
+  index: -1
+images/xiaoyanwu/xiaoyanwu_00024
+  rotate: false
+  xy: 530, 215
+  size: 203, 195
+  orig: 250, 241
+  offset: 34, 28
+  index: -1
+images/xiaoyanwu/xiaoyanwu_00026
+  rotate: false
+  xy: 735, 208
+  size: 202, 193
+  orig: 250, 241
+  offset: 35, 27
+  index: -1
+images/xiaoyanwu/xiaoyanwu_00028
+  rotate: false
+  xy: 729, 12
+  size: 198, 194
+  orig: 250, 241
+  offset: 38, 26
+  index: -1
+images/xiaoyanwu/xiaoyanwu_00032
+  rotate: false
+  xy: 754, 603
+  size: 204, 197
+  orig: 250, 241
+  offset: 31, 27
+  index: -1
+images/xiaoyanwu/xiaoyanwu_00038
+  rotate: false
+  xy: 533, 412
+  size: 204, 193
+  orig: 250, 241
+  offset: 33, 25
+  index: -1
+images/xiaoyanwu/xiaoyanwu_00040
+  rotate: true
+  xy: 525, 23
+  size: 190, 202
+  orig: 250, 241
+  offset: 34, 25
+  index: -1
+
+effect_DEM_zhanjian_down4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/xiaoyanwu/xiaoyanwu_00000
+  rotate: false
+  xy: 2, 397
+  size: 192, 197
+  orig: 250, 241
+  offset: 30, 24
+  index: -1
+images/xiaoyanwu/xiaoyanwu_00002
+  rotate: true
+  xy: 2, 201
+  size: 194, 190
+  orig: 250, 241
+  offset: 30, 31
+  index: -1
+images/xiaoyanwu/xiaoyanwu_00004
+  rotate: false
+  xy: 2, 596
+  size: 195, 196
+  orig: 250, 241
+  offset: 31, 25
+  index: -1
+images/xiaoyanwu/xiaoyanwu_00006
+  rotate: false
+  xy: 402, 795
+  size: 195, 194
+  orig: 250, 241
+  offset: 33, 26
+  index: -1
+images/xiaoyanwu/xiaoyanwu_00008
+  rotate: false
+  xy: 599, 796
+  size: 195, 193
+  orig: 250, 241
+  offset: 35, 28
+  index: -1
+images/xiaoyanwu/xiaoyanwu_00030
+  rotate: false
+  xy: 796, 796
+  size: 193, 193
+  orig: 250, 241
+  offset: 34, 28
+  index: -1
+images/xiaoyanwu/xiaoyanwu_00034
+  rotate: false
+  xy: 2, 794
+  size: 198, 195
+  orig: 250, 241
+  offset: 30, 26
+  index: -1
+images/xiaoyanwu/xiaoyanwu_00042
+  rotate: true
+  xy: 2, 4
+  size: 195, 189
+  orig: 250, 241
+  offset: 31, 36
+  index: -1
+images/xiaoyanwu/xiaoyanwu_00044
+  rotate: true
+  xy: 202, 797
+  size: 192, 198
+  orig: 250, 241
+  offset: 30, 24
+  index: -1

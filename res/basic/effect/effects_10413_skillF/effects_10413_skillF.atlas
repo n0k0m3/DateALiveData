@@ -1,0 +1,488 @@
+
+effects_10413_skillF.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/exskillB/zhaoze/zhaoze2_001
+  rotate: false
+  xy: 625, 200
+  size: 266, 93
+  orig: 266, 98
+  offset: 0, 2
+  index: -1
+effects/exskillB/zhaoze/zhaoze_000
+  rotate: false
+  xy: 2, 2
+  size: 266, 94
+  orig: 266, 98
+  offset: 0, 0
+  index: -1
+effects/exskillB/zhaoze/zhaoze_008
+  rotate: false
+  xy: 538, 12
+  size: 266, 95
+  orig: 266, 98
+  offset: 0, 0
+  index: -1
+effects/exskillB/zhaoze/zhaoze_010
+  rotate: false
+  xy: 270, 2
+  size: 266, 94
+  orig: 266, 98
+  offset: 0, 0
+  index: -1
+effects/guangxian_000
+  rotate: false
+  xy: 806, 18
+  size: 208, 48
+  orig: 210, 53
+  offset: 1, 3
+  index: -1
+effects/skillF/boom/boom_002
+  rotate: false
+  xy: 625, 295
+  size: 217, 161
+  orig: 280, 210
+  offset: 30, 29
+  index: -1
+effects/skillF/boom/boom_004
+  rotate: false
+  xy: 165, 666
+  size: 249, 179
+  orig: 280, 210
+  offset: 19, 18
+  index: -1
+effects/skillF/boom/boom_006
+  rotate: false
+  xy: 436, 840
+  size: 261, 182
+  orig: 280, 210
+  offset: 12, 11
+  index: -1
+effects/skillF/boom/boom_008
+  rotate: false
+  xy: 699, 839
+  size: 253, 183
+  orig: 280, 210
+  offset: 12, 11
+  index: -1
+effects/skillF/boom/boom_010
+  rotate: false
+  xy: 165, 847
+  size: 269, 175
+  orig: 280, 210
+  offset: 0, 22
+  index: -1
+effects/skillF/canying/canying_000
+  rotate: false
+  xy: 844, 312
+  size: 178, 144
+  orig: 196, 196
+  offset: 1, 29
+  index: -1
+effects/skillF/canying/canying_006
+  rotate: true
+  xy: 863, 477
+  size: 175, 159
+  orig: 196, 196
+  offset: 6, 37
+  index: -1
+effects/skillF/chongji/chongji_002
+  rotate: false
+  xy: 893, 68
+  size: 124, 242
+  orig: 175, 315
+  offset: 25, 10
+  index: -1
+effects/skillF/chongji/chongji_003
+  rotate: true
+  xy: 416, 696
+  size: 142, 275
+  orig: 175, 315
+  offset: 19, 10
+  index: -1
+effects/skillF/chongji/chongji_004
+  rotate: false
+  xy: 145, 376
+  size: 145, 288
+  orig: 175, 315
+  offset: 17, 10
+  index: -1
+effects/skillF/chongji/chongji_005
+  rotate: false
+  xy: 292, 376
+  size: 139, 288
+  orig: 175, 315
+  offset: 17, 10
+  index: -1
+effects/skillF/chongji/chongji_006
+  rotate: true
+  xy: 145, 98
+  size: 135, 287
+  orig: 175, 315
+  offset: 20, 10
+  index: -1
+effects/skillF/chongji/chongji_007
+  rotate: false
+  xy: 2, 422
+  size: 141, 293
+  orig: 175, 315
+  offset: 17, 10
+  index: -1
+effects/skillF/chongji/chongji_008
+  rotate: true
+  xy: 145, 235
+  size: 139, 287
+  orig: 175, 315
+  offset: 17, 10
+  index: -1
+effects/skillF/chongji/chongji_009
+  rotate: false
+  xy: 2, 127
+  size: 141, 293
+  orig: 175, 315
+  offset: 17, 10
+  index: -1
+effects/skillF/chongji/chongji_023
+  rotate: false
+  xy: 2, 717
+  size: 161, 305
+  orig: 175, 315
+  offset: 6, 10
+  index: -1
+effects/skillF/chongji/chongji_025
+  rotate: true
+  xy: 527, 109
+  size: 89, 305
+  orig: 175, 315
+  offset: 42, 10
+  index: -1
+effects/skillF/chongjiang/chongjiang_000
+  rotate: true
+  xy: 925, 657
+  size: 110, 81
+  orig: 210, 126
+  offset: 50, 35
+  index: -1
+effects/skillF/jutiao/jutiao_001
+  rotate: true
+  xy: 834, 86
+  size: 112, 46
+  orig: 280, 70
+  offset: 13, 11
+  index: -1
+effects/skillF/jutiao/jutiao_006
+  rotate: true
+  xy: 954, 769
+  size: 253, 62
+  orig: 280, 70
+  offset: 16, 2
+  index: -1
+effects/skillF/jutiao2/jutiao2_002
+  rotate: true
+  xy: 693, 654
+  size: 183, 230
+  orig: 231, 231
+  offset: 42, 0
+  index: -1
+effects/skillF/jutiao2/jutiao2_003
+  rotate: true
+  xy: 632, 458
+  size: 194, 229
+  orig: 231, 231
+  offset: 29, 0
+  index: -1
+effects/skillF/jutiao2/jutiao2_004
+  rotate: false
+  xy: 433, 467
+  size: 197, 227
+  orig: 231, 231
+  offset: 27, 1
+  index: -1
+effects/skillF/jutiao2/jutiao2_006
+  rotate: false
+  xy: 434, 237
+  size: 189, 228
+  orig: 231, 231
+  offset: 29, 2
+  index: -1
+effects/skillF/jutiao2/jutiao2_010
+  rotate: true
+  xy: 434, 98
+  size: 137, 91
+  orig: 231, 231
+  offset: 32, 131
+  index: -1
+
+effects_10413_skillF2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/exskillB/zhaoze/zhaoze2_002
+  rotate: false
+  xy: 681, 837
+  size: 266, 91
+  orig: 266, 98
+  offset: 0, 2
+  index: -1
+effects/exskillB/zhaoze/zhaoze2_003
+  rotate: true
+  xy: 191, 187
+  size: 260, 88
+  orig: 266, 98
+  offset: 0, 3
+  index: -1
+effects/exskillB/zhaoze/zhaoze2_004
+  rotate: true
+  xy: 281, 190
+  size: 257, 86
+  orig: 266, 98
+  offset: 0, 3
+  index: -1
+effects/exskillB/zhaoze/zhaoze2_005
+  rotate: true
+  xy: 475, 268
+  size: 239, 79
+  orig: 266, 98
+  offset: 5, 6
+  index: -1
+effects/exskillB/zhaoze/zhaoze2_006
+  rotate: true
+  xy: 949, 793
+  size: 229, 72
+  orig: 266, 98
+  offset: 9, 13
+  index: -1
+effects/exskillB/zhaoze/zhaoze_002
+  rotate: false
+  xy: 681, 930
+  size: 266, 92
+  orig: 266, 98
+  offset: 0, 0
+  index: -1
+effects/exskillB/zhaoze/zhaoze_004
+  rotate: true
+  xy: 97, 181
+  size: 266, 92
+  orig: 266, 98
+  offset: 0, 0
+  index: -1
+effects/exskillB/zhaoze/zhaoze_006
+  rotate: true
+  xy: 2, 181
+  size: 266, 93
+  orig: 266, 98
+  offset: 0, 0
+  index: -1
+effects/exskillB/zhaoze/zhaoze_012
+  rotate: true
+  xy: 2, 449
+  size: 266, 95
+  orig: 266, 98
+  offset: 0, 0
+  index: -1
+effects/glow
+  rotate: false
+  xy: 322, 10
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+effects/skillF/boom/boom_000
+  rotate: false
+  xy: 298, 671
+  size: 173, 174
+  orig: 280, 210
+  offset: 54, 23
+  index: -1
+effects/skillF/boom/boom_001
+  rotate: false
+  xy: 112, 667
+  size: 184, 167
+  orig: 280, 210
+  offset: 39, 26
+  index: -1
+effects/skillF/boom/boom_012
+  rotate: false
+  xy: 112, 836
+  size: 180, 186
+  orig: 280, 210
+  offset: 53, 13
+  index: -1
+effects/skillF/boom/boom_016
+  rotate: true
+  xy: 294, 847
+  size: 175, 191
+  orig: 280, 210
+  offset: 46, 7
+  index: -1
+effects/skillF/canying/canying_002
+  rotate: false
+  xy: 696, 521
+  size: 170, 149
+  orig: 196, 196
+  offset: 7, 32
+  index: -1
+effects/skillF/canying/canying_004
+  rotate: true
+  xy: 111, 4
+  size: 175, 155
+  orig: 196, 196
+  offset: 6, 35
+  index: -1
+effects/skillF/canying/canying_008
+  rotate: false
+  xy: 99, 507
+  size: 175, 158
+  orig: 196, 196
+  offset: 6, 38
+  index: -1
+effects/skillF/canying/canying_010
+  rotate: true
+  xy: 473, 671
+  size: 174, 156
+  orig: 196, 196
+  offset: 6, 40
+  index: -1
+effects/skillF/canying/canying_012
+  rotate: false
+  xy: 631, 680
+  size: 171, 155
+  orig: 196, 196
+  offset: 7, 41
+  index: -1
+effects/skillF/canying/canying_014
+  rotate: false
+  xy: 432, 509
+  size: 169, 160
+  orig: 196, 196
+  offset: 7, 34
+  index: -1
+effects/skillF/canying/canying_016
+  rotate: false
+  xy: 276, 507
+  size: 154, 158
+  orig: 196, 196
+  offset: 20, 21
+  index: -1
+effects/skillF/chongji/chongji_000
+  rotate: true
+  xy: 394, 15
+  size: 65, 71
+  orig: 175, 315
+  offset: 55, 10
+  index: -1
+effects/skillF/chongji/chongji_001
+  rotate: false
+  xy: 2, 2
+  size: 107, 177
+  orig: 175, 315
+  offset: 35, 10
+  index: -1
+effects/skillF/chongji/chongji_024
+  rotate: false
+  xy: 2, 717
+  size: 108, 305
+  orig: 175, 315
+  offset: 34, 10
+  index: -1
+effects/skillF/chongji/chongji_026
+  rotate: false
+  xy: 369, 205
+  size: 43, 300
+  orig: 175, 315
+  offset: 64, 10
+  index: -1
+effects/skillF/chongjiang/chongjiang_001
+  rotate: true
+  xy: 603, 515
+  size: 154, 91
+  orig: 210, 126
+  offset: 27, 25
+  index: -1
+effects/skillF/chongjiang/chongjiang_003
+  rotate: false
+  xy: 322, 82
+  size: 203, 106
+  orig: 210, 126
+  offset: 3, 10
+  index: -1
+effects/skillF/chongjiang/chongjiang_005
+  rotate: true
+  xy: 710, 309
+  size: 210, 108
+  orig: 210, 126
+  offset: 0, 5
+  index: -1
+effects/skillF/chongjiang/chongjiang_007
+  rotate: true
+  xy: 820, 310
+  size: 209, 107
+  orig: 210, 126
+  offset: 0, 7
+  index: -1
+effects/skillF/chongjiang/chongjiang_009
+  rotate: true
+  xy: 868, 533
+  size: 137, 62
+  orig: 210, 126
+  offset: 39, 35
+  index: -1
+effects/skillF/jutiao/jutiao_002
+  rotate: true
+  xy: 929, 343
+  size: 188, 54
+  orig: 280, 70
+  offset: 14, 6
+  index: -1
+effects/skillF/jutiao/jutiao_003
+  rotate: true
+  xy: 556, 254
+  size: 253, 60
+  orig: 280, 70
+  offset: 14, 7
+  index: -1
+effects/skillF/jutiao/jutiao_004
+  rotate: true
+  xy: 414, 251
+  size: 254, 59
+  orig: 280, 70
+  offset: 15, 5
+  index: -1
+effects/skillF/jutiao/jutiao_008
+  rotate: false
+  xy: 99, 449
+  size: 231, 56
+  orig: 280, 70
+  offset: 39, 6
+  index: -1
+effects/skillF/jutiao/jutiao_010
+  rotate: true
+  xy: 268, 12
+  size: 173, 52
+  orig: 280, 70
+  offset: 96, 6
+  index: -1
+effects/skillF/jutiao2/jutiao2_001
+  rotate: false
+  xy: 618, 296
+  size: 90, 217
+  orig: 231, 231
+  offset: 133, 0
+  index: -1
+effects/skillF/jutiao2/jutiao2_008
+  rotate: false
+  xy: 487, 853
+  size: 192, 169
+  orig: 231, 231
+  offset: 28, 54
+  index: -1
+effects/skillF/jutiao2/jutiao2_009
+  rotate: true
+  xy: 804, 672
+  size: 163, 112
+  orig: 231, 231
+  offset: 31, 111
+  index: -1

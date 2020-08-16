@@ -1,0 +1,181 @@
+
+fight_25201.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xueguai_0
+  rotate: false
+  xy: 918, 753
+  size: 80, 30
+  orig: 80, 30
+  offset: 0, 0
+  index: -1
+xueguai_1
+  rotate: false
+  xy: 544, 611
+  size: 90, 57
+  orig: 90, 57
+  offset: 0, 0
+  index: -1
+xueguai_10
+  rotate: false
+  xy: 2, 607
+  size: 342, 413
+  orig: 342, 413
+  offset: 0, 0
+  index: -1
+xueguai_11
+  rotate: false
+  xy: 541, 524
+  size: 82, 85
+  orig: 82, 85
+  offset: 0, 0
+  index: -1
+xueguai_12
+  rotate: false
+  xy: 635, 691
+  size: 77, 95
+  orig: 77, 95
+  offset: 0, 0
+  index: -1
+xueguai_13
+  rotate: true
+  xy: 544, 670
+  size: 100, 89
+  orig: 100, 89
+  offset: 0, 0
+  index: -1
+xueguai_14
+  rotate: true
+  xy: 714, 713
+  size: 73, 97
+  orig: 73, 97
+  offset: 0, 0
+  index: -1
+xueguai_14a
+  rotate: true
+  xy: 541, 454
+  size: 68, 87
+  orig: 68, 87
+  offset: 0, 0
+  index: -1
+xueguai_14b
+  rotate: true
+  xy: 714, 670
+  size: 41, 82
+  orig: 41, 82
+  offset: 0, 0
+  index: -1
+xueguai_14c
+  rotate: false
+  xy: 130, 34
+  size: 31, 42
+  orig: 31, 42
+  offset: 0, 0
+  index: -1
+xueguai_15a
+  rotate: false
+  xy: 591, 788
+  size: 232, 232
+  orig: 232, 232
+  offset: 0, 0
+  index: -1
+xueguai_16
+  rotate: false
+  xy: 377, 441
+  size: 162, 172
+  orig: 162, 172
+  offset: 0, 0
+  index: -1
+xueguai_17
+  rotate: false
+  xy: 2, 78
+  size: 195, 193
+  orig: 195, 193
+  offset: 0, 0
+  index: -1
+xueguai_17b
+  rotate: false
+  xy: 825, 827
+  size: 195, 193
+  orig: 195, 193
+  offset: 0, 0
+  index: -1
+xueguai_2
+  rotate: false
+  xy: 199, 135
+  size: 158, 133
+  orig: 158, 133
+  offset: 0, 0
+  index: -1
+xueguai_3
+  rotate: false
+  xy: 346, 615
+  size: 196, 155
+  orig: 196, 155
+  offset: 0, 0
+  index: -1
+xueguai_4
+  rotate: false
+  xy: 346, 772
+  size: 243, 248
+  orig: 243, 248
+  offset: 0, 0
+  index: -1
+xueguai_6
+  rotate: false
+  xy: 199, 21
+  size: 162, 112
+  orig: 162, 112
+  offset: 0, 0
+  index: -1
+xueguai_7
+  rotate: true
+  xy: 227, 428
+  size: 177, 148
+  orig: 177, 148
+  offset: 0, 0
+  index: -1
+xueguai_8
+  rotate: true
+  xy: 2, 15
+  size: 61, 126
+  orig: 61, 126
+  offset: 0, 0
+  index: -1
+xueguai_8a
+  rotate: true
+  xy: 825, 770
+  size: 55, 91
+  orig: 55, 91
+  offset: 0, 0
+  index: -1
+xueguai_8b
+  rotate: true
+  xy: 918, 785
+  size: 40, 91
+  orig: 40, 91
+  offset: 0, 0
+  index: -1
+xueguai_8c
+  rotate: true
+  xy: 813, 728
+  size: 40, 91
+  orig: 40, 91
+  offset: 0, 0
+  index: -1
+xueguai_9a
+  rotate: false
+  xy: 2, 273
+  size: 223, 332
+  orig: 223, 332
+  offset: 0, 0
+  index: -1
+xueguai_nn
+  rotate: true
+  xy: 227, 270
+  size: 156, 141
+  orig: 156, 141
+  offset: 0, 0
+  index: -1

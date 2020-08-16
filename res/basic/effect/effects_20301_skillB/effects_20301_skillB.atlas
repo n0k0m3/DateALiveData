@@ -1,0 +1,195 @@
+
+effects_20301_skillB.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/waifaguang2/skillb_00013
+  rotate: true
+  xy: 405, 701
+  size: 39, 47
+  orig: 300, 300
+  offset: 131, 122
+  index: -1
+images/effects/waifaguang2/skillb_00014
+  rotate: true
+  xy: 2, 2
+  size: 52, 61
+  orig: 300, 300
+  offset: 126, 118
+  index: -1
+images/effects/waifaguang2/skillb_00015
+  rotate: true
+  xy: 103, 49
+  size: 74, 80
+  orig: 300, 300
+  offset: 113, 108
+  index: -1
+images/effects/waifaguang2/skillb_00016
+  rotate: false
+  xy: 103, 125
+  size: 97, 98
+  orig: 300, 300
+  offset: 102, 95
+  index: -1
+images/effects/waifaguang2/skillb_00017
+  rotate: true
+  xy: 105, 225
+  size: 105, 108
+  orig: 300, 300
+  offset: 98, 91
+  index: -1
+images/effects/waifaguang2/skillb_00018
+  rotate: true
+  xy: 106, 332
+  size: 112, 117
+  orig: 300, 300
+  offset: 94, 88
+  index: -1
+images/effects/waifaguang2/skillb_00019
+  rotate: false
+  xy: 106, 446
+  size: 120, 125
+  orig: 300, 300
+  offset: 90, 84
+  index: -1
+images/effects/waifaguang2/skillb_00020
+  rotate: true
+  xy: 405, 742
+  size: 126, 125
+  orig: 300, 300
+  offset: 87, 82
+  index: -1
+images/effects/waifaguang2/skillb_00021
+  rotate: false
+  xy: 151, 724
+  size: 133, 137
+  orig: 300, 300
+  offset: 84, 78
+  index: -1
+images/effects/waifaguang2/skillb_00022
+  rotate: false
+  xy: 2, 573
+  size: 140, 144
+  orig: 300, 300
+  offset: 80, 74
+  index: -1
+images/effects/waifaguang2/skillb_00023
+  rotate: false
+  xy: 2, 719
+  size: 147, 149
+  orig: 300, 300
+  offset: 77, 71
+  index: -1
+images/effects/waifaguang2/skillb_00024
+  rotate: false
+  xy: 2, 870
+  size: 147, 151
+  orig: 300, 300
+  offset: 77, 70
+  index: -1
+images/effects/waifaguang2/skillb_00025
+  rotate: false
+  xy: 405, 870
+  size: 120, 151
+  orig: 300, 300
+  offset: 97, 72
+  index: -1
+images/effects/waifaguang2/skillb_00026
+  rotate: false
+  xy: 281, 869
+  size: 122, 152
+  orig: 300, 300
+  offset: 96, 70
+  index: -1
+images/effects/waifaguang2/skillb_00027
+  rotate: true
+  xy: 871, 919
+  size: 102, 135
+  orig: 300, 300
+  offset: 102, 76
+  index: -1
+images/effects/waifaguang2/skillb_00028
+  rotate: false
+  xy: 286, 725
+  size: 117, 142
+  orig: 300, 300
+  offset: 95, 69
+  index: -1
+images/effects/waifaguang2/skillb_00029
+  rotate: false
+  xy: 151, 863
+  size: 128, 158
+  orig: 300, 300
+  offset: 93, 67
+  index: -1
+images/effects/waifaguang3/skillbhecheng_00011
+  rotate: false
+  xy: 2, 229
+  size: 101, 170
+  orig: 300, 300
+  offset: 107, 59
+  index: -1
+images/effects/waifaguang3/skillbhecheng_00012
+  rotate: false
+  xy: 2, 401
+  size: 102, 170
+  orig: 300, 300
+  offset: 105, 59
+  index: -1
+images/effects/waifaguang3/skillbhecheng_00013
+  rotate: true
+  xy: 527, 920
+  size: 101, 170
+  orig: 300, 300
+  offset: 104, 59
+  index: -1
+images/effects/waifaguang3/skillbhecheng_00014
+  rotate: false
+  xy: 2, 56
+  size: 99, 171
+  orig: 300, 300
+  offset: 103, 59
+  index: -1
+images/effects/waifaguang3/skillbhecheng_00015
+  rotate: false
+  xy: 633, 748
+  size: 98, 170
+  orig: 300, 300
+  offset: 104, 59
+  index: -1
+images/effects/waifaguang3/skillbhecheng_00016
+  rotate: false
+  xy: 532, 748
+  size: 99, 170
+  orig: 300, 300
+  offset: 104, 59
+  index: -1
+images/effects/waifaguang3/skillbhecheng_00017
+  rotate: true
+  xy: 834, 718
+  size: 98, 170
+  orig: 300, 300
+  offset: 105, 59
+  index: -1
+images/effects/waifaguang3/skillbhecheng_00018
+  rotate: false
+  xy: 733, 749
+  size: 99, 170
+  orig: 300, 300
+  offset: 105, 59
+  index: -1
+images/effects/waifaguang3/skillbhecheng_00019
+  rotate: true
+  xy: 834, 818
+  size: 99, 170
+  orig: 300, 300
+  offset: 105, 59
+  index: -1
+images/effects/waifaguang3/skillbhecheng_00020
+  rotate: true
+  xy: 699, 921
+  size: 100, 170
+  orig: 300, 300
+  offset: 104, 59
+  index: -1

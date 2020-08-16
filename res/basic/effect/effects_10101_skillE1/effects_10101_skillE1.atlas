@@ -1,0 +1,258 @@
+
+effects_10101_skillE1.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skille/E1/E1_0001
+  rotate: false
+  xy: 2, 419
+  size: 94, 73
+  orig: 107, 87
+  offset: 8, 8
+  index: -1
+effects/skille/E1/E1_0003
+  rotate: false
+  xy: 2, 344
+  size: 94, 73
+  orig: 107, 87
+  offset: 8, 8
+  index: -1
+effects/skille/E1/E1_0005
+  rotate: false
+  xy: 98, 419
+  size: 94, 73
+  orig: 107, 87
+  offset: 8, 8
+  index: -1
+effects/skille/E1/E1_0007
+  rotate: false
+  xy: 2, 269
+  size: 94, 73
+  orig: 107, 87
+  offset: 8, 8
+  index: -1
+effects/skille/E1/E1_0009
+  rotate: false
+  xy: 98, 344
+  size: 94, 73
+  orig: 107, 87
+  offset: 8, 8
+  index: -1
+effects/skille/E1/E1_0011
+  rotate: false
+  xy: 194, 419
+  size: 94, 73
+  orig: 107, 87
+  offset: 8, 8
+  index: -1
+effects/skille/E1/E1_0013
+  rotate: false
+  xy: 2, 194
+  size: 94, 73
+  orig: 107, 87
+  offset: 8, 8
+  index: -1
+effects/skille/E1/E1_0015
+  rotate: false
+  xy: 98, 269
+  size: 94, 73
+  orig: 107, 87
+  offset: 8, 8
+  index: -1
+effects/skille/E1/E1_0017
+  rotate: false
+  xy: 194, 344
+  size: 94, 73
+  orig: 107, 87
+  offset: 8, 8
+  index: -1
+effects/skille/E1/E1_0019
+  rotate: false
+  xy: 290, 419
+  size: 94, 73
+  orig: 107, 87
+  offset: 8, 8
+  index: -1
+effects/skille/E1/E1_0021
+  rotate: false
+  xy: 2, 119
+  size: 94, 73
+  orig: 107, 87
+  offset: 8, 8
+  index: -1
+effects/skille/E1/E1_0023
+  rotate: false
+  xy: 98, 194
+  size: 94, 73
+  orig: 107, 87
+  offset: 8, 8
+  index: -1
+effects/skille/E1/E1_0025
+  rotate: false
+  xy: 194, 269
+  size: 94, 73
+  orig: 107, 87
+  offset: 8, 8
+  index: -1
+effects/skille/E1/E1_0027
+  rotate: false
+  xy: 290, 344
+  size: 94, 73
+  orig: 107, 87
+  offset: 8, 8
+  index: -1
+effects/skille/E1/E1_0029
+  rotate: false
+  xy: 386, 419
+  size: 94, 73
+  orig: 107, 87
+  offset: 8, 8
+  index: -1
+effects/skille/E2/E2_0001
+  rotate: false
+  xy: 2, 44
+  size: 94, 73
+  orig: 107, 87
+  offset: 8, 8
+  index: -1
+effects/skille/E2/E2_0003
+  rotate: false
+  xy: 98, 119
+  size: 94, 73
+  orig: 107, 87
+  offset: 8, 8
+  index: -1
+effects/skille/E2/E2_0005
+  rotate: false
+  xy: 194, 194
+  size: 94, 73
+  orig: 107, 87
+  offset: 8, 8
+  index: -1
+effects/skille/E2/E2_0007
+  rotate: false
+  xy: 290, 269
+  size: 94, 73
+  orig: 107, 87
+  offset: 8, 8
+  index: -1
+effects/skille/E2/E2_0009
+  rotate: false
+  xy: 386, 344
+  size: 94, 73
+  orig: 107, 87
+  offset: 8, 8
+  index: -1
+effects/skille/E2/E2_0011
+  rotate: false
+  xy: 98, 44
+  size: 94, 73
+  orig: 107, 87
+  offset: 8, 8
+  index: -1
+effects/skille/E2/E2_0013
+  rotate: false
+  xy: 194, 119
+  size: 94, 73
+  orig: 107, 87
+  offset: 8, 8
+  index: -1
+effects/skille/E2/E2_0015
+  rotate: false
+  xy: 290, 194
+  size: 94, 73
+  orig: 107, 87
+  offset: 8, 8
+  index: -1
+effects/skille/E2/E2_0017
+  rotate: false
+  xy: 386, 269
+  size: 94, 73
+  orig: 107, 87
+  offset: 8, 8
+  index: -1
+effects/skille/E2/E2_0019
+  rotate: false
+  xy: 194, 44
+  size: 94, 73
+  orig: 107, 87
+  offset: 8, 8
+  index: -1
+effects/skille/E2/E2_0021
+  rotate: false
+  xy: 290, 119
+  size: 94, 73
+  orig: 107, 87
+  offset: 8, 8
+  index: -1
+effects/skille/E2/E2_0023
+  rotate: false
+  xy: 386, 194
+  size: 94, 73
+  orig: 107, 87
+  offset: 8, 8
+  index: -1
+effects/skille/E2/E2_0025
+  rotate: false
+  xy: 290, 44
+  size: 94, 73
+  orig: 107, 87
+  offset: 8, 8
+  index: -1
+effects/skille/E2/E2_0027
+  rotate: false
+  xy: 386, 119
+  size: 94, 73
+  orig: 107, 87
+  offset: 8, 8
+  index: -1
+effects/skille/E2/E2_0029
+  rotate: false
+  xy: 386, 44
+  size: 94, 73
+  orig: 107, 87
+  offset: 8, 8
+  index: -1
+effects/skille/dimian/dimian_00001
+  rotate: true
+  xy: 482, 418
+  size: 74, 19
+  orig: 79, 22
+  offset: 3, 1
+  index: -1
+effects/skille/dimian/dimian_00005
+  rotate: false
+  xy: 2, 23
+  size: 74, 19
+  orig: 79, 22
+  offset: 3, 1
+  index: -1
+effects/skille/dimian/dimian_00009
+  rotate: true
+  xy: 482, 342
+  size: 74, 19
+  orig: 79, 22
+  offset: 3, 1
+  index: -1
+effects/skille/dimian/dimian_00013
+  rotate: false
+  xy: 2, 2
+  size: 74, 19
+  orig: 79, 22
+  offset: 3, 1
+  index: -1
+effects/skille/dimian/dimian_00017
+  rotate: false
+  xy: 78, 23
+  size: 74, 19
+  orig: 79, 22
+  offset: 3, 1
+  index: -1
+effects/skille/dimian/dimian_00021
+  rotate: true
+  xy: 482, 266
+  size: 74, 19
+  orig: 79, 22
+  offset: 3, 1
+  index: -1

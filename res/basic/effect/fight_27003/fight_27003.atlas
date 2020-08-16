@@ -1,0 +1,279 @@
+
+fight_27003.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Fx_dian1
+  rotate: false
+  xy: 458, 613
+  size: 41, 41
+  orig: 41, 41
+  offset: 0, 0
+  index: -1
+GC01
+  rotate: true
+  xy: 28, 58
+  size: 34, 32
+  orig: 34, 32
+  offset: 0, 0
+  index: -1
+box1
+  rotate: false
+  xy: 306, 382
+  size: 33, 24
+  orig: 33, 24
+  offset: 0, 0
+  index: -1
+box2_1
+  rotate: true
+  xy: 154, 236
+  size: 86, 30
+  orig: 86, 30
+  offset: 0, 0
+  index: -1
+box2_2
+  rotate: false
+  xy: 621, 798
+  size: 88, 37
+  orig: 88, 37
+  offset: 0, 0
+  index: -1
+box3
+  rotate: false
+  xy: 306, 478
+  size: 83, 53
+  orig: 83, 53
+  offset: 0, 0
+  index: -1
+box4
+  rotate: false
+  xy: 154, 324
+  size: 83, 55
+  orig: 83, 55
+  offset: 0, 0
+  index: -1
+effects/glow2_000
+  rotate: false
+  xy: 239, 329
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+effects/glow_000
+  rotate: false
+  xy: 391, 481
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+effects/lizi/lizi_002
+  rotate: false
+  xy: 2, 685
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+effects/lizi/lizi_004
+  rotate: false
+  xy: 2, 533
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+effects/lizi/lizi_006
+  rotate: false
+  xy: 154, 685
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+effects/lizi/lizi_008
+  rotate: false
+  xy: 2, 381
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+effects/lizi/lizi_010
+  rotate: false
+  xy: 154, 533
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+effects/lizi/lizi_012
+  rotate: false
+  xy: 306, 685
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+effects/lizi/lizi_014
+  rotate: false
+  xy: 2, 229
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+effects/lizi/lizi_016
+  rotate: false
+  xy: 154, 381
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+effects/lizi/lizi_018
+  rotate: false
+  xy: 306, 533
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+fx_box1_1
+  rotate: false
+  xy: 154, 213
+  size: 24, 21
+  orig: 24, 21
+  offset: 0, 0
+  index: -1
+fx_box1_2
+  rotate: true
+  xy: 133, 197
+  size: 30, 19
+  orig: 30, 19
+  offset: 0, 0
+  index: -1
+fx_box1_3
+  rotate: true
+  xy: 354, 412
+  size: 64, 20
+  orig: 64, 20
+  offset: 0, 0
+  index: -1
+fx_box1_4
+  rotate: false
+  xy: 765, 813
+  size: 50, 22
+  orig: 50, 22
+  offset: 0, 0
+  index: -1
+fx_box1_5
+  rotate: true
+  xy: 2, 2
+  size: 34, 21
+  orig: 34, 21
+  offset: 0, 0
+  index: -1
+fx_box1_6
+  rotate: false
+  xy: 621, 763
+  size: 72, 33
+  orig: 72, 33
+  offset: 0, 0
+  index: -1
+fx_box2_1
+  rotate: false
+  xy: 458, 564
+  size: 23, 47
+  orig: 23, 47
+  offset: 0, 0
+  index: -1
+fx_box2_10
+  rotate: false
+  xy: 306, 408
+  size: 46, 68
+  orig: 46, 68
+  offset: 0, 0
+  index: -1
+fx_box2_2
+  rotate: false
+  xy: 186, 278
+  size: 49, 44
+  orig: 49, 44
+  offset: 0, 0
+  index: -1
+fx_box2_3
+  rotate: false
+  xy: 186, 238
+  size: 34, 38
+  orig: 34, 38
+  offset: 0, 0
+  index: -1
+fx_box2_4
+  rotate: true
+  xy: 711, 802
+  size: 33, 52
+  orig: 33, 52
+  offset: 0, 0
+  index: -1
+fx_box2_5
+  rotate: false
+  xy: 2, 38
+  size: 24, 54
+  orig: 24, 54
+  offset: 0, 0
+  index: -1
+fx_box2_6
+  rotate: false
+  xy: 2, 94
+  size: 58, 40
+  orig: 58, 40
+  offset: 0, 0
+  index: -1
+fx_box2_7
+  rotate: false
+  xy: 516, 657
+  size: 27, 55
+  orig: 27, 55
+  offset: 0, 0
+  index: -1
+fx_box2_8
+  rotate: false
+  xy: 551, 715
+  size: 61, 36
+  orig: 61, 36
+  offset: 0, 0
+  index: -1
+fx_box2_9
+  rotate: false
+  xy: 84, 140
+  size: 47, 34
+  orig: 47, 34
+  offset: 0, 0
+  index: -1
+ggg2
+  rotate: false
+  xy: 458, 656
+  size: 56, 56
+  orig: 56, 56
+  offset: 0, 0
+  index: -1
+gold1
+  rotate: false
+  xy: 2, 136
+  size: 80, 38
+  orig: 80, 38
+  offset: 0, 0
+  index: -1
+gold2
+  rotate: false
+  xy: 2, 176
+  size: 129, 51
+  orig: 129, 51
+  offset: 0, 0
+  index: -1
+gold3
+  rotate: false
+  xy: 458, 714
+  size: 91, 37
+  orig: 91, 37
+  offset: 0, 0
+  index: -1
+gold4
+  rotate: false
+  xy: 458, 753
+  size: 161, 82
+  orig: 161, 82
+  offset: 0, 0
+  index: -1

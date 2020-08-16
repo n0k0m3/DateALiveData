@@ -1,0 +1,237 @@
+
+effects_10101_dodge.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects3/CFZ/DG/DG_01
+  rotate: false
+  xy: 2, 894
+  size: 345, 128
+  orig: 421, 256
+  offset: 44, 59
+  index: -1
+effects3/CFZ/DG/DG_03
+  rotate: false
+  xy: 292, 776
+  size: 318, 116
+  orig: 421, 256
+  offset: 48, 66
+  index: -1
+effects3/CFZ/DG/DG_04
+  rotate: false
+  xy: 659, 933
+  size: 294, 89
+  orig: 421, 256
+  offset: 62, 77
+  index: -1
+effects3/CFZ/DG/DG_05
+  rotate: true
+  xy: 472, 150
+  size: 118, 62
+  orig: 421, 256
+  offset: 84, 101
+  index: -1
+effects3/CFZ/DG/DG_06
+  rotate: true
+  xy: 612, 790
+  size: 102, 32
+  orig: 421, 256
+  offset: 92, 130
+  index: -1
+effects3/CFZ/YC_1/YC_1_01
+  rotate: false
+  xy: 337, 457
+  size: 219, 128
+  orig: 505, 287
+  offset: 138, 42
+  index: -1
+effects3/CFZ/YC_1/YC_1_02
+  rotate: false
+  xy: 349, 894
+  size: 308, 128
+  orig: 505, 287
+  offset: 104, 42
+  index: -1
+effects3/CFZ/YC_1/YC_1_03
+  rotate: true
+  xy: 2, 126
+  size: 289, 171
+  orig: 505, 287
+  offset: 118, 43
+  index: -1
+effects3/CFZ/YC_1/YC_1_04
+  rotate: false
+  xy: 2, 712
+  size: 288, 180
+  orig: 505, 287
+  offset: 111, 43
+  index: -1
+effects3/CFZ/YC_1/YC_1_05
+  rotate: true
+  xy: 2, 417
+  size: 293, 173
+  orig: 505, 287
+  offset: 101, 47
+  index: -1
+effects3/CFZ/YC_1/YC_1_06
+  rotate: true
+  xy: 177, 464
+  size: 246, 158
+  orig: 505, 287
+  offset: 125, 47
+  index: -1
+effects3/CFZ/YC_1/YC_1_07
+  rotate: false
+  xy: 558, 444
+  size: 208, 141
+  orig: 505, 287
+  offset: 131, 49
+  index: -1
+effects3/CFZ/YC_1/YC_1_08
+  rotate: true
+  xy: 768, 379
+  size: 208, 131
+  orig: 505, 287
+  offset: 131, 49
+  index: -1
+effects3/CFZ/YC_1/YC_1_10
+  rotate: true
+  xy: 175, 138
+  size: 165, 133
+  orig: 505, 287
+  offset: 122, 50
+  index: -1
+effects3/CFZ/YC_1/YC_1_12
+  rotate: true
+  xy: 117, 42
+  size: 82, 48
+  orig: 505, 287
+  offset: 124, 139
+  index: -1
+effects3/CFZ/YC_2/YC_2_01
+  rotate: false
+  xy: 871, 818
+  size: 80, 113
+  orig: 180, 186
+  offset: 46, 33
+  index: -1
+effects3/CFZ/YC_2/YC_2_02
+  rotate: true
+  xy: 901, 384
+  size: 81, 111
+  orig: 180, 186
+  offset: 45, 35
+  index: -1
+effects3/CFZ/YC_2/YC_2_03
+  rotate: false
+  xy: 536, 168
+  size: 78, 110
+  orig: 180, 186
+  offset: 45, 36
+  index: -1
+effects3/CFZ/YC_2/YC_2_04
+  rotate: false
+  xy: 720, 344
+  size: 35, 98
+  orig: 180, 186
+  offset: 46, 48
+  index: -1
+effects3/CFZ/glow_1
+  rotate: false
+  xy: 177, 305
+  size: 157, 157
+  orig: 273, 270
+  offset: 62, 55
+  index: -1
+effects3/CFZ/lizi/lizi_01
+  rotate: true
+  xy: 2, 2
+  size: 122, 113
+  orig: 270, 241
+  offset: 107, 59
+  index: -1
+effects3/CFZ/lizi/lizi_04
+  rotate: false
+  xy: 175, 2
+  size: 150, 134
+  orig: 270, 241
+  offset: 70, 54
+  index: -1
+effects3/CFZ/lizi/lizi_06
+  rotate: true
+  xy: 766, 589
+  size: 153, 130
+  orig: 270, 241
+  offset: 59, 61
+  index: -1
+effects3/CFZ/lizi/lizi_08
+  rotate: true
+  xy: 901, 628
+  size: 156, 121
+  orig: 270, 241
+  offset: 52, 71
+  index: -1
+effects3/CFZ/lizi/lizi_10
+  rotate: true
+  xy: 901, 467
+  size: 159, 117
+  orig: 270, 241
+  offset: 47, 73
+  index: -1
+effects3/CFZ/lizi/lizi_12
+  rotate: false
+  xy: 310, 161
+  size: 160, 107
+  orig: 270, 241
+  offset: 45, 74
+  index: -1
+effects3/CFZ/lizi/lizi_14
+  rotate: true
+  xy: 327, 13
+  size: 146, 107
+  orig: 270, 241
+  offset: 57, 75
+  index: -1
+effects3/CFZ/ren_2
+  rotate: false
+  xy: 337, 587
+  size: 222, 187
+  orig: 354, 291
+  offset: 86, 49
+  index: -1
+effects3/CFZ/ren_3
+  rotate: true
+  xy: 561, 587
+  size: 155, 203
+  orig: 279, 300
+  offset: 62, 52
+  index: -1
+effects3/CFZ/ren_4
+  rotate: true
+  xy: 533, 280
+  size: 162, 185
+  orig: 283, 314
+  offset: 62, 70
+  index: -1
+effects3/CFZ/ren_5
+  rotate: true
+  xy: 659, 744
+  size: 187, 210
+  orig: 355, 306
+  offset: 76, 50
+  index: -1
+effects3/CFZ/ren_6
+  rotate: false
+  xy: 336, 270
+  size: 195, 185
+  orig: 355, 306
+  offset: 60, 57
+  index: -1
+effects3/DZ/LG_1
+  rotate: true
+  xy: 955, 786
+  size: 236, 67
+  orig: 258, 83
+  offset: 11, 8
+  index: -1

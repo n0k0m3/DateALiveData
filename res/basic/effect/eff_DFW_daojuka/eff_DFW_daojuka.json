@@ -1,0 +1,70 @@
+{
+"skeleton": { "hash": "3mlVMUsCppm/wnbvLmWkndWuyfM", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "0000", "parent": "root" },
+	{ "name": "saoguang", "parent": "0000" }
+],
+"slots": [
+	{ "name": "saoguang/saoguang_00001", "bone": "saoguang", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"saoguang/saoguang_00001": {
+			"saoguang/saoguang_00001": { "width": 63, "height": 83 },
+			"saoguang/saoguang_00003": { "width": 63, "height": 83 },
+			"saoguang/saoguang_00005": { "width": 63, "height": 83 },
+			"saoguang/saoguang_00007": { "width": 63, "height": 83 },
+			"saoguang/saoguang_00008": { "width": 63, "height": 83 },
+			"saoguang/saoguang_00010": { "width": 63, "height": 83 },
+			"saoguang/saoguang_00012": { "width": 63, "height": 83 },
+			"saoguang/saoguang_00014": { "width": 63, "height": 83 },
+			"saoguang/saoguang_00016": { "width": 63, "height": 83 },
+			"saoguang/saoguang_00018": { "width": 63, "height": 83 },
+			"saoguang/saoguang_00020": { "width": 63, "height": 83 },
+			"saoguang/saoguang_00022": { "width": 63, "height": 83 },
+			"saoguang/saoguang_00024": { "width": 63, "height": 83 },
+			"saoguang/saoguang_00026": { "width": 63, "height": 83 },
+			"saoguang/saoguang_00028": { "width": 63, "height": 83 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"saoguang/saoguang_00001": {
+				"attachment": [
+					{ "time": 0, "name": "saoguang/saoguang_00001" },
+					{ "time": 0.0666, "name": "saoguang/saoguang_00003" },
+					{ "time": 0.1333, "name": "saoguang/saoguang_00005" },
+					{ "time": 0.2, "name": "saoguang/saoguang_00007" },
+					{ "time": 0.2666, "name": "saoguang/saoguang_00008" },
+					{ "time": 0.3333, "name": "saoguang/saoguang_00010" },
+					{ "time": 0.4, "name": "saoguang/saoguang_00012" },
+					{ "time": 0.4666, "name": "saoguang/saoguang_00014" },
+					{ "time": 0.5333, "name": "saoguang/saoguang_00016" },
+					{ "time": 0.6, "name": "saoguang/saoguang_00018" },
+					{ "time": 0.6666, "name": "saoguang/saoguang_00020" },
+					{ "time": 0.7333, "name": "saoguang/saoguang_00022" },
+					{ "time": 0.8, "name": "saoguang/saoguang_00024" },
+					{ "time": 0.8666, "name": "saoguang/saoguang_00026" },
+					{ "time": 0.9333, "name": "saoguang/saoguang_00028" },
+					{ "time": 1, "name": "saoguang/saoguang_00001" },
+					{ "time": 1.0666, "name": null },
+					{ "time": 1.6666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff14" }
+				]
+			}
+		},
+		"bones": {
+			"saoguang": {
+				"scale": [
+					{ "time": 0, "x": 4, "y": 4 }
+				]
+			}
+		}
+	}
+}
+}

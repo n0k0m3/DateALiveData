@@ -1,0 +1,208 @@
+
+effects_25201_skillB.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/skillb/pen/pen_0016
+  rotate: true
+  xy: 877, 195
+  size: 262, 145
+  orig: 350, 350
+  offset: 61, 98
+  index: -1
+images/effect/skillb/shouji/shouji_0000
+  rotate: true
+  xy: 621, 2
+  size: 269, 254
+  orig: 358, 358
+  offset: 45, 55
+  index: -1
+images/effect/skillb/shouji/shouji_0001
+  rotate: false
+  xy: 319, 270
+  size: 192, 187
+  orig: 358, 358
+  offset: 81, 85
+  index: -1
+images/effect/skillb/shouji/shouji_0004
+  rotate: false
+  xy: 698, 277
+  size: 172, 180
+  orig: 358, 358
+  offset: 85, 89
+  index: -1
+images/effect/skillb/shouji/shouji_0008
+  rotate: false
+  xy: 513, 273
+  size: 183, 184
+  orig: 358, 358
+  offset: 76, 88
+  index: -1
+images/effect/skillb/xuli/xuli_0000
+  rotate: false
+  xy: 2, 270
+  size: 315, 267
+  orig: 350, 350
+  offset: 19, 47
+  index: -1
+images/effect/skillb/xuli/xuli_0002
+  rotate: false
+  xy: 330, 483
+  size: 318, 266
+  orig: 350, 350
+  offset: 19, 49
+  index: -1
+images/effect/skillb/xuli/xuli_0004
+  rotate: false
+  xy: 2, 539
+  size: 326, 266
+  orig: 350, 350
+  offset: 16, 50
+  index: -1
+images/effect/skillb/xuli/xuli_0006
+  rotate: false
+  xy: 660, 757
+  size: 325, 265
+  orig: 350, 350
+  offset: 18, 51
+  index: -1
+images/effect/skillb/xuli/xuli_0008
+  rotate: false
+  xy: 332, 751
+  size: 326, 271
+  orig: 350, 350
+  offset: 17, 48
+  index: -1
+images/effect/skillb/xuli/xuli_0012
+  rotate: false
+  xy: 312, 4
+  size: 307, 264
+  orig: 350, 350
+  offset: 27, 50
+  index: -1
+images/effect/skillb/xuli/xuli_0014
+  rotate: false
+  xy: 2, 4
+  size: 308, 264
+  orig: 350, 350
+  offset: 25, 48
+  index: -1
+images/effect/skillb/xuli_xue0000
+  rotate: false
+  xy: 2, 807
+  size: 328, 215
+  orig: 350, 350
+  offset: 22, 73
+  index: -1
+images/effect/skillb/xuli_yan0000
+  rotate: true
+  xy: 660, 459
+  size: 296, 322
+  orig: 350, 350
+  offset: 0, 1
+  index: -1
+
+effects_25201_skillB2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/skillb/pen/pen_0000
+  rotate: false
+  xy: 583, 848
+  size: 260, 136
+  orig: 350, 350
+  offset: 63, 102
+  index: -1
+images/effect/skillb/pen/pen_0004
+  rotate: false
+  xy: 2, 576
+  size: 271, 139
+  orig: 350, 350
+  offset: 57, 105
+  index: -1
+images/effect/skillb/pen/pen_0008
+  rotate: false
+  xy: 314, 843
+  size: 267, 141
+  orig: 350, 350
+  offset: 56, 104
+  index: -1
+images/effect/skillb/pen/pen_0012
+  rotate: false
+  xy: 2, 432
+  size: 262, 142
+  orig: 350, 350
+  offset: 66, 104
+  index: -1
+images/effect/skillb/pen/pen_0020
+  rotate: false
+  xy: 314, 717
+  size: 262, 124
+  orig: 350, 350
+  offset: 66, 110
+  index: -1
+images/effect/skillb/pen_xiaoshi/pen_xiaoshi0000
+  rotate: false
+  xy: 2, 278
+  size: 247, 152
+  orig: 350, 350
+  offset: 58, 94
+  index: -1
+images/effect/skillb/pen_xiaoshi/pen_xiaoshi0001
+  rotate: true
+  xy: 2, 22
+  size: 254, 141
+  orig: 350, 350
+  offset: 67, 101
+  index: -1
+images/effect/skillb/pen_xiaoshi/pen_xiaoshi0002
+  rotate: false
+  xy: 275, 572
+  size: 247, 143
+  orig: 350, 350
+  offset: 69, 100
+  index: -1
+images/effect/skillb/pen_xiaoshi/pen_xiaoshi0003
+  rotate: false
+  xy: 266, 432
+  size: 214, 138
+  orig: 350, 350
+  offset: 76, 104
+  index: -1
+images/effect/skillb/pen_xiaoshi/pen_xiaoshi0004
+  rotate: true
+  xy: 327, 35
+  size: 199, 135
+  orig: 350, 350
+  offset: 92, 110
+  index: -1
+images/effect/skillb/pen_xiaoshi/pen_xiaoshi0005
+  rotate: true
+  xy: 845, 784
+  size: 200, 139
+  orig: 350, 350
+  offset: 73, 105
+  index: -1
+images/effect/skillb/shouji/shouji_0002
+  rotate: true
+  xy: 251, 236
+  size: 194, 197
+  orig: 358, 358
+  offset: 80, 80
+  index: -1
+images/effect/skillb/shouji/shouji_0006
+  rotate: false
+  xy: 145, 51
+  size: 180, 183
+  orig: 358, 358
+  offset: 80, 85
+  index: -1
+images/effect/skillb/xuli/xuli_0010
+  rotate: false
+  xy: 2, 717
+  size: 310, 267
+  orig: 350, 350
+  offset: 25, 49
+  index: -1

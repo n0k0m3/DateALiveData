@@ -1,0 +1,33 @@
+
+19chaoshi_texiao.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+youguang_00000
+  rotate: true
+  xy: 2, 2
+  size: 116, 163
+  orig: 116, 163
+  offset: 0, 0
+  index: -1
+zhongzuoguang_00000
+  rotate: false
+  xy: 2, 120
+  size: 177, 134
+  orig: 177, 134
+  offset: 0, 0
+  index: -1
+
+19chaoshi_texiao2.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shangguang_00000
+  rotate: false
+  xy: 2, 79
+  size: 180, 103
+  orig: 180, 103
+  offset: 0, 0
+  index: -1

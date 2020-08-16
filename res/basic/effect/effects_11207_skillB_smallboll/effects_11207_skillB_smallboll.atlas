@@ -1,0 +1,76 @@
+
+effects_11207_skillB_smallboll.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillB/xiaoqiu/00080
+  rotate: false
+  xy: 2, 285
+  size: 118, 99
+  orig: 159, 156
+  offset: 20, 26
+  index: -1
+images/effects/skillB/xiaoqiu/00081
+  rotate: false
+  xy: 122, 286
+  size: 115, 98
+  orig: 159, 156
+  offset: 22, 27
+  index: -1
+images/effects/skillB/xiaoqiu/00082
+  rotate: true
+  xy: 2, 41
+  size: 120, 92
+  orig: 159, 156
+  offset: 19, 25
+  index: -1
+images/effects/skillB/xiaoqiu/00083
+  rotate: false
+  xy: 366, 391
+  size: 118, 93
+  orig: 159, 156
+  offset: 20, 26
+  index: -1
+images/effects/skillB/xiaoqiu/00084
+  rotate: false
+  xy: 2, 386
+  size: 120, 98
+  orig: 159, 156
+  offset: 19, 25
+  index: -1
+images/effects/skillB/xiaoqiu/00085
+  rotate: true
+  xy: 98, 165
+  size: 118, 93
+  orig: 159, 156
+  offset: 20, 26
+  index: -1
+images/effects/skillB/xiaoqiu/00086
+  rotate: true
+  xy: 193, 169
+  size: 115, 89
+  orig: 159, 156
+  offset: 22, 27
+  index: -1
+images/effects/skillB/xiaoqiu/00087
+  rotate: false
+  xy: 244, 391
+  size: 120, 93
+  orig: 159, 156
+  offset: 19, 25
+  index: -1
+images/effects/skillB/xiaoqiu/00088
+  rotate: false
+  xy: 124, 386
+  size: 118, 98
+  orig: 159, 156
+  offset: 20, 26
+  index: -1
+images/effects/skillB/xiaoqiu/00089
+  rotate: true
+  xy: 2, 163
+  size: 120, 94
+  orig: 159, 156
+  offset: 19, 25
+  index: -1

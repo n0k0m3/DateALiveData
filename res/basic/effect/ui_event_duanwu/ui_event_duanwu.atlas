@@ -1,0 +1,90 @@
+
+ui_event_duanwu.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+imange/bo1_00000
+  rotate: false
+  xy: 2, 914
+  size: 692, 15
+  orig: 692, 37
+  offset: 0, 0
+  index: -1
+imange/bo2_00000
+  rotate: false
+  xy: 2, 931
+  size: 692, 28
+  orig: 692, 37
+  offset: 0, 0
+  index: -1
+imange/bo3_00000
+  rotate: false
+  xy: 2, 961
+  size: 692, 37
+  orig: 692, 37
+  offset: 0, 0
+  index: -1
+imange/bw0
+  rotate: false
+  xy: 2, 905
+  size: 692, 7
+  orig: 692, 37
+  offset: 0, 0
+  index: -1
+imange/chuan
+  rotate: false
+  xy: 696, 920
+  size: 246, 78
+  orig: 246, 78
+  offset: 0, 0
+  index: -1
+imange/glow_00000
+  rotate: false
+  xy: 2, 436
+  size: 107, 230
+  orig: 107, 230
+  offset: 0, 0
+  index: -1
+imange/glowdi_00000
+  rotate: false
+  xy: 2, 668
+  size: 114, 235
+  orig: 114, 235
+  offset: 0, 0
+  index: -1
+imange/lizi
+  rotate: false
+  xy: 118, 820
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+imange/lizi1
+  rotate: false
+  xy: 193, 889
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+imange/ren
+  rotate: false
+  xy: 944, 932
+  size: 54, 66
+  orig: 54, 66
+  offset: 0, 0
+  index: -1
+imange/ren1
+  rotate: false
+  xy: 118, 836
+  size: 73, 67
+  orig: 73, 67
+  offset: 0, 0
+  index: -1
+imange/ren2
+  rotate: false
+  xy: 2, 366
+  size: 60, 68
+  orig: 60, 68
+  offset: 0, 0
+  index: -1

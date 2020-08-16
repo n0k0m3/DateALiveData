@@ -1,0 +1,69 @@
+
+chenghao_ZSDH1.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/1di
+  rotate: false
+  xy: 2, 214
+  size: 128, 35
+  orig: 128, 35
+  offset: 0, 0
+  index: -1
+images/1xing
+  rotate: true
+  xy: 97, 104
+  size: 20, 22
+  orig: 20, 22
+  offset: 0, 0
+  index: -1
+images/1xing_1
+  rotate: false
+  xy: 132, 228
+  size: 117, 21
+  orig: 117, 21
+  offset: 0, 0
+  index: -1
+images/1zi
+  rotate: true
+  xy: 97, 126
+  size: 86, 28
+  orig: 86, 28
+  offset: 0, 0
+  index: -1
+images/xingguang_00015
+  rotate: false
+  xy: 2, 51
+  size: 30, 30
+  orig: 61, 45
+  offset: 13, 9
+  index: -1
+images/yingwen
+  rotate: true
+  xy: 37, 104
+  size: 108, 28
+  orig: 136, 36
+  offset: 14, 4
+  index: -1
+images/yingwen2
+  rotate: true
+  xy: 67, 104
+  size: 108, 28
+  orig: 136, 36
+  offset: 14, 4
+  index: -1
+images/ziguang_00000
+  rotate: false
+  xy: 132, 198
+  size: 85, 28
+  orig: 111, 39
+  offset: 11, 6
+  index: -1
+images/zuanguang_00015
+  rotate: true
+  xy: 2, 83
+  size: 129, 33
+  orig: 154, 49
+  offset: 12, 9
+  index: -1

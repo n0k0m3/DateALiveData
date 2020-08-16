@@ -1,0 +1,227 @@
+{
+"skeleton": {
+	"hash": "r5Teq9YWCcbl/OCu8U+MVtLcuG8",
+	"spine": "2.1.27",
+	"width": 108,
+	"height": 144,
+	"images": "C:/Users/Administrator/Desktop/尺寸需要修改的特效/新建文件夹/effects_debuff_zhuoshao"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "effects", "parent": "root" },
+	{ "name": "hy1", "parent": "effects" },
+	{ "name": "hy2", "parent": "effects" },
+	{ "name": "hy3", "parent": "effects" }
+],
+"slots": [
+	{ "name": "huoyan/huoyan_00000", "bone": "hy1", "attachment": "huoyan/huoyan_00000", "blend": "additive" },
+	{ "name": "huoyan2/huoyan2_2", "bone": "hy3", "color": "ffffff28", "attachment": "huoyan2/huoyan2_00002" },
+	{ "name": "huoyan2/huoyan2_00002", "bone": "hy2", "color": "ffffffa4", "attachment": "huoyan2/huoyan2_00002", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"huoyan/huoyan_00000": {
+			"huoyan/huoyan_00000": { "width": 89, "height": 121 },
+			"huoyan/huoyan_00001": { "width": 89, "height": 121 },
+			"huoyan/huoyan_00002": { "width": 89, "height": 121 },
+			"huoyan/huoyan_00003": { "width": 89, "height": 121 },
+			"huoyan/huoyan_00004": { "width": 89, "height": 121 },
+			"huoyan/huoyan_00005": { "width": 89, "height": 121 },
+			"huoyan/huoyan_00006": { "width": 89, "height": 121 },
+			"huoyan/huoyan_00007": { "width": 89, "height": 121 },
+			"huoyan/huoyan_00008": { "width": 89, "height": 121 },
+			"huoyan/huoyan_00009": { "width": 89, "height": 121 },
+			"huoyan/huoyan_00010": { "width": 89, "height": 121 },
+			"huoyan/huoyan_00011": { "width": 89, "height": 121 },
+			"huoyan/huoyan_00012": { "width": 89, "height": 121 },
+			"huoyan/huoyan_00013": { "width": 89, "height": 121 },
+			"huoyan/huoyan_00014": { "width": 89, "height": 121 },
+			"huoyan/huoyan_00015": { "width": 89, "height": 121 },
+			"huoyan/huoyan_00016": { "width": 89, "height": 121 },
+			"huoyan/huoyan_00017": { "width": 89, "height": 121 },
+			"huoyan/huoyan_00018": { "width": 89, "height": 121 },
+			"huoyan/huoyan_00019": { "width": 89, "height": 121 },
+			"huoyan/huoyan_00020": { "width": 89, "height": 121 },
+			"huoyan/huoyan_00021": { "width": 89, "height": 121 },
+			"huoyan/huoyan_00022": { "width": 89, "height": 121 },
+			"huoyan/huoyan_00023": { "width": 89, "height": 121 },
+			"huoyan/huoyan_00024": { "width": 89, "height": 121 },
+			"huoyan/huoyan_00025": { "width": 89, "height": 121 },
+			"huoyan/huoyan_00026": { "width": 89, "height": 121 },
+			"huoyan/huoyan_00027": { "width": 89, "height": 121 },
+			"huoyan/huoyan_00028": { "width": 89, "height": 121 },
+			"huoyan/huoyan_00029": { "width": 89, "height": 121 },
+			"huoyan/huoyan_00030": { "width": 89, "height": 121 }
+		},
+		"huoyan2/huoyan2_00002": {
+			"huoyan2/huoyan2_00002": { "width": 108, "height": 144 },
+			"huoyan2/huoyan2_00003": { "width": 108, "height": 144 },
+			"huoyan2/huoyan2_00004": { "width": 108, "height": 144 },
+			"huoyan2/huoyan2_00005": { "width": 108, "height": 144 },
+			"huoyan2/huoyan2_00006": { "width": 108, "height": 144 },
+			"huoyan2/huoyan2_00007": { "width": 108, "height": 144 },
+			"huoyan2/huoyan2_00008": { "width": 108, "height": 144 },
+			"huoyan2/huoyan2_00009": { "width": 108, "height": 144 },
+			"huoyan2/huoyan2_00010": { "width": 108, "height": 144 },
+			"huoyan2/huoyan2_00011": { "width": 108, "height": 144 },
+			"huoyan2/huoyan2_00012": { "width": 108, "height": 144 },
+			"huoyan2/huoyan2_00013": { "width": 108, "height": 144 },
+			"huoyan2/huoyan2_00014": { "width": 108, "height": 144 },
+			"huoyan2/huoyan2_00015": { "width": 108, "height": 144 },
+			"huoyan2/huoyan2_00016": { "width": 108, "height": 144 },
+			"huoyan2/huoyan2_00017": { "width": 108, "height": 144 },
+			"huoyan2/huoyan2_00018": { "width": 108, "height": 144 },
+			"huoyan2/huoyan2_00019": { "width": 108, "height": 144 },
+			"huoyan2/huoyan2_00020": { "width": 108, "height": 144 },
+			"huoyan2/huoyan2_00021": { "width": 108, "height": 144 },
+			"huoyan2/huoyan2_00022": { "width": 108, "height": 144 },
+			"huoyan2/huoyan2_00023": { "width": 108, "height": 144 }
+		},
+		"huoyan2/huoyan2_2": {
+			"huoyan2/huoyan2_00002": { "width": 108, "height": 144 },
+			"huoyan2/huoyan2_00003": { "width": 108, "height": 144 },
+			"huoyan2/huoyan2_00004": { "width": 108, "height": 144 },
+			"huoyan2/huoyan2_00005": { "width": 108, "height": 144 },
+			"huoyan2/huoyan2_00006": { "width": 108, "height": 144 },
+			"huoyan2/huoyan2_00007": { "width": 108, "height": 144 },
+			"huoyan2/huoyan2_00008": { "width": 108, "height": 144 },
+			"huoyan2/huoyan2_00009": { "width": 108, "height": 144 },
+			"huoyan2/huoyan2_00010": { "width": 108, "height": 144 },
+			"huoyan2/huoyan2_00011": { "width": 108, "height": 144 },
+			"huoyan2/huoyan2_00012": { "width": 108, "height": 144 },
+			"huoyan2/huoyan2_00013": { "width": 108, "height": 144 },
+			"huoyan2/huoyan2_00014": { "width": 108, "height": 144 },
+			"huoyan2/huoyan2_00015": { "width": 108, "height": 144 },
+			"huoyan2/huoyan2_00016": { "width": 108, "height": 144 },
+			"huoyan2/huoyan2_00017": { "width": 108, "height": 144 },
+			"huoyan2/huoyan2_00018": { "width": 108, "height": 144 },
+			"huoyan2/huoyan2_00019": { "width": 108, "height": 144 },
+			"huoyan2/huoyan2_00020": { "width": 108, "height": 144 },
+			"huoyan2/huoyan2_00021": { "width": 108, "height": 144 },
+			"huoyan2/huoyan2_00022": { "width": 108, "height": 144 },
+			"huoyan2/huoyan2_00023": { "width": 108, "height": 144 }
+		}
+	}
+},
+"animations": {
+	"zhuoshao": {
+		"slots": {
+			"huoyan/huoyan_00000": {
+				"attachment": [
+					{ "time": 0, "name": "huoyan/huoyan_00000" },
+					{ "time": 0.0333, "name": "huoyan/huoyan_00001" },
+					{ "time": 0.0666, "name": "huoyan/huoyan_00002" },
+					{ "time": 0.1, "name": "huoyan/huoyan_00003" },
+					{ "time": 0.1333, "name": "huoyan/huoyan_00004" },
+					{ "time": 0.1666, "name": "huoyan/huoyan_00005" },
+					{ "time": 0.2, "name": "huoyan/huoyan_00006" },
+					{ "time": 0.2333, "name": "huoyan/huoyan_00007" },
+					{ "time": 0.2666, "name": "huoyan/huoyan_00008" },
+					{ "time": 0.3, "name": "huoyan/huoyan_00009" },
+					{ "time": 0.3333, "name": "huoyan/huoyan_00010" },
+					{ "time": 0.3666, "name": "huoyan/huoyan_00011" },
+					{ "time": 0.4, "name": "huoyan/huoyan_00012" },
+					{ "time": 0.4333, "name": "huoyan/huoyan_00013" },
+					{ "time": 0.4666, "name": "huoyan/huoyan_00014" },
+					{ "time": 0.5, "name": "huoyan/huoyan_00015" },
+					{ "time": 0.5333, "name": "huoyan/huoyan_00016" },
+					{ "time": 0.5666, "name": "huoyan/huoyan_00017" },
+					{ "time": 0.6, "name": "huoyan/huoyan_00018" },
+					{ "time": 0.6333, "name": "huoyan/huoyan_00019" },
+					{ "time": 0.6666, "name": "huoyan/huoyan_00020" },
+					{ "time": 0.7, "name": "huoyan/huoyan_00021" },
+					{ "time": 0.7333, "name": "huoyan/huoyan_00022" },
+					{ "time": 0.7666, "name": "huoyan/huoyan_00023" },
+					{ "time": 0.8, "name": "huoyan/huoyan_00024" },
+					{ "time": 0.8333, "name": "huoyan/huoyan_00025" },
+					{ "time": 0.8666, "name": "huoyan/huoyan_00026" },
+					{ "time": 0.9, "name": "huoyan/huoyan_00027" },
+					{ "time": 0.9333, "name": "huoyan/huoyan_00028" },
+					{ "time": 0.9666, "name": "huoyan/huoyan_00029" },
+					{ "time": 1, "name": "huoyan/huoyan_00030" }
+				]
+			},
+			"huoyan2/huoyan2_00002": {
+				"attachment": [
+					{ "time": 0, "name": "huoyan2/huoyan2_00002" },
+					{ "time": 0.0333, "name": "huoyan2/huoyan2_00003" },
+					{ "time": 0.0666, "name": "huoyan2/huoyan2_00004" },
+					{ "time": 0.1, "name": "huoyan2/huoyan2_00005" },
+					{ "time": 0.1333, "name": "huoyan2/huoyan2_00006" },
+					{ "time": 0.1666, "name": "huoyan2/huoyan2_00007" },
+					{ "time": 0.2, "name": "huoyan2/huoyan2_00008" },
+					{ "time": 0.2333, "name": "huoyan2/huoyan2_00009" },
+					{ "time": 0.2666, "name": "huoyan2/huoyan2_00010" },
+					{ "time": 0.3, "name": "huoyan2/huoyan2_00011" },
+					{ "time": 0.3333, "name": "huoyan2/huoyan2_00012" },
+					{ "time": 0.3666, "name": "huoyan2/huoyan2_00013" },
+					{ "time": 0.4, "name": "huoyan2/huoyan2_00014" },
+					{ "time": 0.4333, "name": "huoyan2/huoyan2_00015" },
+					{ "time": 0.4666, "name": "huoyan2/huoyan2_00016" },
+					{ "time": 0.5, "name": "huoyan2/huoyan2_00017" },
+					{ "time": 0.5333, "name": "huoyan2/huoyan2_00018" },
+					{ "time": 0.5666, "name": "huoyan2/huoyan2_00019" },
+					{ "time": 0.6, "name": "huoyan2/huoyan2_00020" },
+					{ "time": 0.6333, "name": "huoyan2/huoyan2_00021" },
+					{ "time": 0.6666, "name": "huoyan2/huoyan2_00022" },
+					{ "time": 0.7, "name": "huoyan2/huoyan2_00023" },
+					{ "time": 0.7333, "name": null }
+				]
+			},
+			"huoyan2/huoyan2_2": {
+				"attachment": [
+					{ "time": 0, "name": "huoyan2/huoyan2_00002" },
+					{ "time": 0.0333, "name": "huoyan2/huoyan2_00003" },
+					{ "time": 0.0666, "name": "huoyan2/huoyan2_00004" },
+					{ "time": 0.1, "name": "huoyan2/huoyan2_00005" },
+					{ "time": 0.1333, "name": "huoyan2/huoyan2_00006" },
+					{ "time": 0.1666, "name": "huoyan2/huoyan2_00007" },
+					{ "time": 0.2, "name": "huoyan2/huoyan2_00008" },
+					{ "time": 0.2333, "name": "huoyan2/huoyan2_00009" },
+					{ "time": 0.2666, "name": "huoyan2/huoyan2_00010" },
+					{ "time": 0.3, "name": "huoyan2/huoyan2_00011" },
+					{ "time": 0.3333, "name": "huoyan2/huoyan2_00012" },
+					{ "time": 0.3666, "name": "huoyan2/huoyan2_00013" },
+					{ "time": 0.4, "name": "huoyan2/huoyan2_00014" },
+					{ "time": 0.4333, "name": "huoyan2/huoyan2_00015" },
+					{ "time": 0.4666, "name": "huoyan2/huoyan2_00016" },
+					{ "time": 0.5, "name": "huoyan2/huoyan2_00017" },
+					{ "time": 0.5333, "name": "huoyan2/huoyan2_00018" },
+					{ "time": 0.5666, "name": "huoyan2/huoyan2_00019" },
+					{ "time": 0.6, "name": "huoyan2/huoyan2_00020" },
+					{ "time": 0.6333, "name": "huoyan2/huoyan2_00021" },
+					{ "time": 0.6666, "name": "huoyan2/huoyan2_00022" },
+					{ "time": 0.7, "name": "huoyan2/huoyan2_00023" },
+					{ "time": 0.7333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"hy1": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 173.16 }
+				],
+				"scale": [
+					{ "time": 0, "x": 3.329, "y": 3.329 }
+				]
+			},
+			"hy2": {
+				"translate": [
+					{ "time": 0, "x": -1.84, "y": 153.1 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2.1, "y": 2.1 }
+				]
+			},
+			"hy3": {
+				"translate": [
+					{ "time": 0, "x": -1.84, "y": 153.1 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2.1, "y": 2.1 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,82 @@
+
+effect_ZNQ_xinfeng.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/1
+  rotate: false
+  xy: 570, 552
+  size: 401, 465
+  orig: 401, 465
+  offset: 0, 0
+  index: -1
+images/13
+  rotate: false
+  xy: 2, 357
+  size: 564, 328
+  orig: 564, 328
+  offset: 0, 0
+  index: -1
+images/2
+  rotate: true
+  xy: 568, 2
+  size: 548, 186
+  orig: 548, 186
+  offset: 0, 0
+  index: -1
+images/3
+  rotate: false
+  xy: 2, 27
+  size: 547, 136
+  orig: 547, 136
+  offset: 0, 0
+  index: -1
+images/4
+  rotate: false
+  xy: 2, 687
+  size: 566, 330
+  orig: 566, 330
+  offset: 0, 0
+  index: -1
+images/5
+  rotate: false
+  xy: 2, 165
+  size: 549, 190
+  orig: 549, 190
+  offset: 0, 0
+  index: -1
+images/6
+  rotate: true
+  xy: 756, 3
+  size: 547, 186
+  orig: 547, 186
+  offset: 0, 0
+  index: -1
+
+effect_ZNQ_xinfeng2.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/10_000
+  rotate: false
+  xy: 133, 133
+  size: 84, 84
+  orig: 84, 84
+  offset: 0, 0
+  index: -1
+images/7
+  rotate: false
+  xy: 2, 2
+  size: 84, 84
+  orig: 84, 84
+  offset: 0, 0
+  index: -1
+images/8
+  rotate: false
+  xy: 2, 88
+  size: 129, 129
+  orig: 129, 129
+  offset: 0, 0
+  index: -1

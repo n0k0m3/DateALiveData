@@ -1,0 +1,657 @@
+{
+"skeleton": { "hash": "8Fk2H7DMMBKHsAcfYkVkO7+iC7U", "spine": "2.1.27", "width": 0, "height": 0, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bdbox", "parent": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": 2, "scaleY": 2, "rotation": 90 },
+	{ "name": "bone2", "parent": "root", "scaleX": 2, "scaleY": -2, "rotation": 90 },
+	{ "name": "glow", "parent": "root", "y": 135.76, "scaleX": 6, "scaleY": 6 },
+	{ "name": "lenqi", "parent": "root", "scaleX": 3, "scaleY": 3 },
+	{ "name": "qi", "parent": "root" },
+	{ "name": "qi2", "parent": "root" },
+	{ "name": "qi3", "parent": "root" },
+	{ "name": "shifa", "parent": "root", "scaleX": 3, "scaleY": 3 }
+],
+"slots": [
+	{ "name": "bdbox_eff", "bone": "bdbox", "attachment": "bdbox_eff" },
+	{ "name": "images/effects/extra_skillB/huadi__00012", "bone": "bone" },
+	{ "name": "images/effects/extra_skillB/quandi_00033", "bone": "bone2", "blend": "additive" },
+	{ "name": "images/effects/skilla/qi/qi_000", "bone": "qi" },
+	{ "name": "images/effects/skilla/qi/qi_0", "bone": "qi2" },
+	{ "name": "images/effects/skilla/qi/qi_1", "bone": "qi3" },
+	{ "name": "images/effects/lenqi/lenqi_000", "bone": "lenqi" },
+	{ "name": "images/effects/skilla/shifa/shifa_000", "bone": "shifa" },
+	{ "name": "images/effects/glow_000", "bone": "glow", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"bdbox_eff": {
+			"bdbox_eff": {
+				"type": "boundingbox",
+				"vertices": [ 62.71896, -64.58366, 61.42599, 62.13029, -61.40902, 63.42332, -61.40902, -67.16966 ]
+			}
+		},
+		"images/effects/extra_skillB/huadi__00012": {
+			"images/effects/extra_skillB/huadi__00012": { "width": 250, "height": 120 }
+		},
+		"images/effects/extra_skillB/quandi_00033": {
+			"images/effects/extra_skillB/quandi_00033": { "width": 440, "height": 130 }
+		},
+		"images/effects/glow_000": {
+			"images/effects/glow_000": { "width": 100, "height": 100 }
+		},
+		"images/effects/lenqi/lenqi_000": {
+			"images/effects/lenqi/lenqi_001": { "width": 250, "height": 58 },
+			"images/effects/lenqi/lenqi_003": { "width": 250, "height": 58 },
+			"images/effects/lenqi/lenqi_005": { "width": 250, "height": 58 },
+			"images/effects/lenqi/lenqi_007": { "width": 250, "height": 58 },
+			"images/effects/lenqi/lenqi_009": { "width": 250, "height": 58 },
+			"images/effects/lenqi/lenqi_011": { "width": 250, "height": 58 },
+			"images/effects/lenqi/lenqi_013": { "width": 250, "height": 58 }
+		},
+		"images/effects/skilla/qi/qi_0": {
+			"images/effects/skilla/qi/qi_000": { "width": 250, "height": 150 },
+			"images/effects/skilla/qi/qi_002": { "width": 250, "height": 150 },
+			"images/effects/skilla/qi/qi_004": { "width": 250, "height": 150 },
+			"images/effects/skilla/qi/qi_006": { "width": 250, "height": 150 }
+		},
+		"images/effects/skilla/qi/qi_000": {
+			"images/effects/skilla/qi/qi_000": { "width": 250, "height": 150 },
+			"images/effects/skilla/qi/qi_002": { "width": 250, "height": 150 },
+			"images/effects/skilla/qi/qi_004": { "width": 250, "height": 150 },
+			"images/effects/skilla/qi/qi_006": { "width": 250, "height": 150 }
+		},
+		"images/effects/skilla/qi/qi_1": {
+			"images/effects/skilla/qi/qi_000": { "width": 250, "height": 150 },
+			"images/effects/skilla/qi/qi_002": { "width": 250, "height": 150 },
+			"images/effects/skilla/qi/qi_004": { "width": 250, "height": 150 },
+			"images/effects/skilla/qi/qi_006": { "width": 250, "height": 150 }
+		},
+		"images/effects/skilla/shifa/shifa_000": {
+			"images/effects/skilla/shifa/shifa_000": { "width": 300, "height": 260 },
+			"images/effects/skilla/shifa/shifa_001": { "width": 300, "height": 260 },
+			"images/effects/skilla/shifa/shifa_003": { "width": 300, "height": 260 },
+			"images/effects/skilla/shifa/shifa_005": { "width": 300, "height": 260 },
+			"images/effects/skilla/shifa/shifa_007": { "width": 300, "height": 260 }
+		}
+	}
+},
+"events": {
+	"effect": {},
+	"music": {}
+},
+"animations": {
+	"skillA1": {
+		"slots": {
+			"images/effects/skilla/qi/qi_000": {
+				"attachment": [
+					{ "time": 0.1666, "name": "images/effects/skilla/qi/qi_000" },
+					{ "time": 0.2, "name": "images/effects/skilla/qi/qi_002" },
+					{ "time": 0.2666, "name": "images/effects/skilla/qi/qi_004" },
+					{ "time": 0.3333, "name": "images/effects/skilla/qi/qi_006" },
+					{ "time": 0.4, "name": null }
+				]
+			},
+			"images/effects/skilla/shifa/shifa_000": {
+				"attachment": [
+					{ "time": 0.2, "name": "images/effects/skilla/shifa/shifa_000" },
+					{ "time": 0.2666, "name": "images/effects/skilla/shifa/shifa_001" },
+					{ "time": 0.3333, "name": "images/effects/skilla/shifa/shifa_003" },
+					{ "time": 0.4, "name": "images/effects/skilla/shifa/shifa_005" },
+					{ "time": 0.4666, "name": "images/effects/skilla/shifa/shifa_007" },
+					{ "time": 0.5666, "name": null }
+				],
+				"color": [
+					{ "time": 0.4666, "color": "ffffffff" },
+					{ "time": 0.5666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"bdbox": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shifa": {
+				"translate": [
+					{ "time": 0.2, "x": 277.99, "y": 135.76 }
+				],
+				"scale": [
+					{ "time": 0.2, "x": 0.666, "y": 0.666 }
+				]
+			},
+			"qi": {
+				"rotate": [
+					{ "time": 0.1666, "angle": 146 }
+				],
+				"translate": [
+					{ "time": 0.1666, "x": 80.16, "y": 215.93 }
+				],
+				"scale": [
+					{ "time": 0.1666, "x": 2.2, "y": 2.2 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		],
+		"events": [
+			{ "time": 0.3333, "name": "effect" }
+		]
+	},
+	"skillA2": {
+		"slots": {
+			"images/effects/skilla/qi/qi_000": {
+				"attachment": [
+					{ "time": 0.1666, "name": "images/effects/skilla/qi/qi_000" },
+					{ "time": 0.2, "name": "images/effects/skilla/qi/qi_002" },
+					{ "time": 0.2666, "name": "images/effects/skilla/qi/qi_004" },
+					{ "time": 0.3333, "name": "images/effects/skilla/qi/qi_006" },
+					{ "time": 0.4, "name": null }
+				]
+			},
+			"images/effects/skilla/shifa/shifa_000": {
+				"attachment": [
+					{ "time": 0.2, "name": "images/effects/skilla/shifa/shifa_000" },
+					{ "time": 0.2666, "name": "images/effects/skilla/shifa/shifa_001" },
+					{ "time": 0.3333, "name": "images/effects/skilla/shifa/shifa_003" },
+					{ "time": 0.4, "name": "images/effects/skilla/shifa/shifa_005" },
+					{ "time": 0.4666, "name": "images/effects/skilla/shifa/shifa_007" },
+					{ "time": 0.5666, "name": null }
+				],
+				"color": [
+					{ "time": 0.4666, "color": "ffffffff" },
+					{ "time": 0.5666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"bdbox": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shifa": {
+				"translate": [
+					{ "time": 0.2, "x": 226.27, "y": 196.53 }
+				],
+				"scale": [
+					{ "time": 0.2, "x": 0.666, "y": 0.666 }
+				]
+			},
+			"qi": {
+				"rotate": [
+					{ "time": 0.1666, "angle": 135.45 }
+				],
+				"translate": [
+					{ "time": 0.1666, "x": 37.49, "y": 248.25 }
+				],
+				"scale": [
+					{ "time": 0.1666, "x": -2, "y": 2 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		],
+		"events": [
+			{ "time": 0.3, "name": "effect" },
+			{ "time": 0.3666, "name": "effect" }
+		]
+	},
+	"skillA3": {
+		"slots": {
+			"images/effects/skilla/qi/qi_000": {
+				"attachment": [
+					{ "time": 0.1666, "name": "images/effects/skilla/qi/qi_000" },
+					{ "time": 0.2, "name": "images/effects/skilla/qi/qi_002" },
+					{ "time": 0.2666, "name": "images/effects/skilla/qi/qi_004" },
+					{ "time": 0.3333, "name": "images/effects/skilla/qi/qi_006" },
+					{ "time": 0.4, "name": null }
+				]
+			},
+			"images/effects/skilla/qi/qi_0": {
+				"attachment": [
+					{ "time": 0.2, "name": "images/effects/skilla/qi/qi_000" },
+					{ "time": 0.2333, "name": "images/effects/skilla/qi/qi_002" },
+					{ "time": 0.3, "name": "images/effects/skilla/qi/qi_004" },
+					{ "time": 0.3666, "name": "images/effects/skilla/qi/qi_006" },
+					{ "time": 0.4333, "name": null }
+				]
+			},
+			"images/effects/skilla/shifa/shifa_000": {
+				"attachment": [
+					{ "time": 0.2333, "name": "images/effects/skilla/shifa/shifa_000" },
+					{ "time": 0.3, "name": "images/effects/skilla/shifa/shifa_001" },
+					{ "time": 0.3666, "name": "images/effects/skilla/shifa/shifa_003" },
+					{ "time": 0.4333, "name": "images/effects/skilla/shifa/shifa_005" },
+					{ "time": 0.5, "name": "images/effects/skilla/shifa/shifa_007" },
+					{ "time": 0.6, "name": null }
+				],
+				"color": [
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 0.6, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"bdbox": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shifa": {
+				"translate": [
+					{ "time": 0.2333, "x": 276.7, "y": 139.64 }
+				],
+				"scale": [
+					{ "time": 0.2333, "x": 0.666, "y": 0.666 }
+				]
+			},
+			"qi": {
+				"rotate": [
+					{ "time": 0.1666, "angle": 90 }
+				],
+				"translate": [
+					{ "time": 0.1666, "x": 177.14, "y": 121.54 }
+				],
+				"scale": [
+					{ "time": 0.1666, "x": 1.25, "y": -2 }
+				]
+			},
+			"qi2": {
+				"rotate": [
+					{ "time": 0.2, "angle": 90 }
+				],
+				"translate": [
+					{ "time": 0.2, "x": 224.98, "y": 128 }
+				],
+				"scale": [
+					{ "time": 0.2, "x": -1.456, "y": 2 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		],
+		"events": [
+			{ "time": 0.3333, "name": "effect" },
+			{ "time": 0.4, "name": "effect" }
+		]
+	},
+	"skillA4": {
+		"slots": {
+			"images/effects/skilla/qi/qi_000": {
+				"attachment": [
+					{ "time": 0.1666, "name": "images/effects/skilla/qi/qi_000" },
+					{ "time": 0.2, "name": "images/effects/skilla/qi/qi_002" },
+					{ "time": 0.2666, "name": "images/effects/skilla/qi/qi_004" },
+					{ "time": 0.3333, "name": "images/effects/skilla/qi/qi_006" },
+					{ "time": 0.4, "name": null }
+				]
+			},
+			"images/effects/skilla/qi/qi_0": {
+				"attachment": [
+					{ "time": 0.1666, "name": "images/effects/skilla/qi/qi_000" },
+					{ "time": 0.2, "name": "images/effects/skilla/qi/qi_002" },
+					{ "time": 0.2666, "name": "images/effects/skilla/qi/qi_004" },
+					{ "time": 0.3333, "name": "images/effects/skilla/qi/qi_006" },
+					{ "time": 0.4, "name": null }
+				]
+			},
+			"images/effects/skilla/shifa/shifa_000": {
+				"attachment": [
+					{ "time": 0.2333, "name": "images/effects/skilla/shifa/shifa_000" },
+					{ "time": 0.3, "name": "images/effects/skilla/shifa/shifa_001" },
+					{ "time": 0.3666, "name": "images/effects/skilla/shifa/shifa_003" },
+					{ "time": 0.4333, "name": "images/effects/skilla/shifa/shifa_005" },
+					{ "time": 0.5, "name": "images/effects/skilla/shifa/shifa_007" },
+					{ "time": 0.6, "name": null }
+				],
+				"color": [
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 0.6, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"bdbox": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shifa": {
+				"translate": [
+					{ "time": 0.2333, "x": 177.14, "y": 253.42 }
+				],
+				"scale": [
+					{ "time": 0.2333, "x": 0.733, "y": 0.733 }
+				]
+			},
+			"qi": {
+				"rotate": [
+					{ "time": 0.1666, "angle": 44.67 }
+				],
+				"translate": [
+					{ "time": 0.1666, "x": -7.75, "y": 218.51 }
+				],
+				"scale": [
+					{ "time": 0.1666, "x": 1.699, "y": 2.234 }
+				]
+			},
+			"qi2": {
+				"rotate": [
+					{ "time": 0.1666, "angle": 135.07 }
+				],
+				"translate": [
+					{ "time": 0.1666, "x": 14.22, "y": 230.15 }
+				],
+				"scale": [
+					{ "time": 0.1666, "x": 1.839, "y": 2.238 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		],
+		"events": [
+			{ "time": 0.3, "name": "effect" },
+			{ "time": 0.3666, "name": "effect" },
+			{ "time": 0.5666, "name": "effect" }
+		]
+	},
+	"skillA5": {
+		"slots": {
+			"images/effects/glow_000": {
+				"attachment": [
+					{ "time": 0.6333, "name": "images/effects/glow_000" }
+				],
+				"color": [
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.6666, "color": "008bffaa" },
+					{ "time": 0.7333, "color": "1000ff00" }
+				]
+			},
+			"images/effects/lenqi/lenqi_000": {
+				"attachment": [
+					{ "time": 0.3333, "name": "images/effects/lenqi/lenqi_001" },
+					{ "time": 0.4, "name": "images/effects/lenqi/lenqi_003" },
+					{ "time": 0.4666, "name": "images/effects/lenqi/lenqi_005" },
+					{ "time": 0.5333, "name": "images/effects/lenqi/lenqi_007" },
+					{ "time": 0.6, "name": "images/effects/lenqi/lenqi_009" },
+					{ "time": 0.6666, "name": "images/effects/lenqi/lenqi_011" },
+					{ "time": 0.7333, "name": "images/effects/lenqi/lenqi_013" },
+					{ "time": 0.8333, "name": null }
+				],
+				"color": [
+					{ "time": 0.6666, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				]
+			},
+			"images/effects/skilla/qi/qi_000": {
+				"attachment": [
+					{ "time": 0.1666, "name": "images/effects/skilla/qi/qi_000" },
+					{ "time": 0.2, "name": "images/effects/skilla/qi/qi_002" },
+					{ "time": 0.2666, "name": "images/effects/skilla/qi/qi_004" },
+					{ "time": 0.3333, "name": "images/effects/skilla/qi/qi_006" },
+					{ "time": 0.4, "name": null }
+				]
+			},
+			"images/effects/skilla/qi/qi_0": {
+				"attachment": [
+					{ "time": 0.2, "name": "images/effects/skilla/qi/qi_000" },
+					{ "time": 0.2333, "name": "images/effects/skilla/qi/qi_002" },
+					{ "time": 0.3, "name": "images/effects/skilla/qi/qi_004" },
+					{ "time": 0.3666, "name": "images/effects/skilla/qi/qi_006" },
+					{ "time": 0.4333, "name": null }
+				]
+			},
+			"images/effects/skilla/qi/qi_1": {
+				"attachment": [
+					{ "time": 0.2333, "name": "images/effects/skilla/qi/qi_000" },
+					{ "time": 0.2666, "name": "images/effects/skilla/qi/qi_002" },
+					{ "time": 0.3333, "name": "images/effects/skilla/qi/qi_004" },
+					{ "time": 0.4, "name": "images/effects/skilla/qi/qi_006" },
+					{ "time": 0.4666, "name": null }
+				]
+			},
+			"images/effects/skilla/shifa/shifa_000": {
+				"attachment": [
+					{ "time": 0.6333, "name": "images/effects/skilla/shifa/shifa_000" },
+					{ "time": 0.7, "name": "images/effects/skilla/shifa/shifa_001" },
+					{ "time": 0.7666, "name": "images/effects/skilla/shifa/shifa_003" },
+					{ "time": 0.8333, "name": "images/effects/skilla/shifa/shifa_005" },
+					{ "time": 0.9, "name": "images/effects/skilla/shifa/shifa_007" },
+					{ "time": 1, "name": null }
+				],
+				"color": [
+					{ "time": 0.9, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"bdbox": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shifa": {
+				"translate": [
+					{ "time": 0.6333, "x": 266.35, "y": 217.22 }
+				],
+				"scale": [
+					{ "time": 0.6333, "x": 0.733, "y": 0.733 }
+				]
+			},
+			"qi": {
+				"rotate": [
+					{ "time": 0.1666, "angle": 17.68 }
+				],
+				"translate": [
+					{ "time": 0.1666, "x": -7.75, "y": 268.94 }
+				],
+				"scale": [
+					{ "time": 0.1666, "x": 1.521, "y": 1.361 }
+				]
+			},
+			"qi2": {
+				"rotate": [
+					{ "time": 0.2, "angle": 21.68 }
+				],
+				"translate": [
+					{ "time": 0.2, "x": -3.87, "y": 146.1 }
+				],
+				"scale": [
+					{ "time": 0.2, "x": 1.407, "y": 1.66 }
+				]
+			},
+			"qi3": {
+				"rotate": [
+					{ "time": 0.2333, "angle": 7.2 }
+				],
+				"translate": [
+					{ "time": 0.2333, "x": 0, "y": 33.61 }
+				],
+				"scale": [
+					{ "time": 0.2333, "x": 1.542, "y": 1.542 }
+				]
+			},
+			"glow": {
+				"translate": [
+					{ "time": 0.6333, "x": 222.39, "y": 80.16 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"skillA6": {
+		"slots": {
+			"images/effects/extra_skillB/huadi__00012": {
+				"attachment": [
+					{ "time": 0, "name": "images/effects/extra_skillB/huadi__00012" }
+				],
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffff85",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.5,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1, "color": "ffffff85" }
+				]
+			},
+			"images/effects/extra_skillB/quandi_00033": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.4, "name": "images/effects/extra_skillB/quandi_00033" }
+				],
+				"color": [
+					{ "time": 0.4, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"images/effects/glow_000": {
+				"attachment": [
+					{ "time": 0.4, "name": "images/effects/glow_000" }
+				],
+				"color": [
+					{ "time": 0.4, "color": "ffffffff" },
+					{ "time": 0.4333, "color": "008bffaa" },
+					{ "time": 0.5, "color": "1000ff00" }
+				]
+			},
+			"images/effects/skilla/shifa/shifa_000": {
+				"attachment": [
+					{ "time": 0.4, "name": "images/effects/skilla/shifa/shifa_000" },
+					{ "time": 0.4666, "name": "images/effects/skilla/shifa/shifa_001" },
+					{ "time": 0.5333, "name": "images/effects/skilla/shifa/shifa_003" },
+					{ "time": 0.6, "name": "images/effects/skilla/shifa/shifa_005" },
+					{ "time": 0.6666, "name": "images/effects/skilla/shifa/shifa_007" },
+					{ "time": 0.7666, "name": null }
+				],
+				"color": [
+					{ "time": 0.6666, "color": "ffffffff" },
+					{ "time": 0.7666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"bdbox": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shifa": {
+				"translate": [
+					{ "time": 0.4, "x": 144.47, "y": 217.22 }
+				],
+				"scale": [
+					{ "time": 0.4, "x": 0.733, "y": 0.733 }
+				]
+			},
+			"qi": {
+				"rotate": [
+					{ "time": 0.1666, "angle": 17.68 }
+				],
+				"translate": [
+					{ "time": 0.1666, "x": -7.75, "y": 268.94 }
+				]
+			},
+			"glow": {
+				"translate": [
+					{ "time": 0.4, "x": 71.45, "y": 80.16 }
+				]
+			},
+			"bone": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 213.69 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 0.95,
+						"y": -0.95,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.5,
+						"x": 1,
+						"y": -1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1, "x": 0.95, "y": -0.95 }
+				]
+			},
+			"bone2": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 211.99, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 211.99 }
+				],
+				"scale": [
+					{
+						"time": 0.4,
+						"x": 0.5,
+						"y": 0.5,
+						"curve": [ 0, 0.76, 0.75, 1 ]
+					},
+					{ "time": 1, "x": 0.75, "y": 0.75 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		],
+		"events": [
+			{ "time": 0.5333, "name": "effect" },
+			{ "time": 0.5333, "name": "music" }
+		]
+	}
+}
+}

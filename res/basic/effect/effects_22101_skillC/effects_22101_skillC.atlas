@@ -1,0 +1,146 @@
+
+effects_22101_skillC.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/skillC/baodian/baodian_00001
+  rotate: false
+  xy: 2, 783
+  size: 301, 239
+  orig: 330, 240
+  offset: 1, 1
+  index: -1
+images/effect/skillC/baodian/baodian_00002
+  rotate: false
+  xy: 697, 840
+  size: 210, 182
+  orig: 330, 240
+  offset: 52, 22
+  index: -1
+images/effect/skillC/baodian/baodian_00004
+  rotate: true
+  xy: 740, 653
+  size: 185, 146
+  orig: 330, 240
+  offset: 64, 38
+  index: -1
+images/effect/skillC/baodian/baodian_00006
+  rotate: true
+  xy: 888, 561
+  size: 135, 129
+  orig: 330, 240
+  offset: 83, 45
+  index: -1
+images/effect/skillC/baodian/baodian_00008
+  rotate: true
+  xy: 888, 698
+  size: 140, 134
+  orig: 330, 240
+  offset: 80, 44
+  index: -1
+images/effect/skillC/baodian/baodian_00010
+  rotate: false
+  xy: 740, 376
+  size: 141, 133
+  orig: 330, 240
+  offset: 82, 49
+  index: -1
+images/effect/skillC/baodian/baodian_00012
+  rotate: false
+  xy: 740, 511
+  size: 141, 140
+  orig: 330, 240
+  offset: 83, 46
+  index: -1
+images/effect/skillC/baodian/baodian_00014
+  rotate: true
+  xy: 909, 905
+  size: 117, 102
+  orig: 330, 240
+  offset: 111, 50
+  index: -1
+images/effect/skillC/dimian/dimian_00003
+  rotate: true
+  xy: 2, 8
+  size: 381, 113
+  orig: 390, 120
+  offset: 9, 5
+  index: -1
+images/effect/skillC/dimian/dimian_00005
+  rotate: true
+  xy: 639, 463
+  size: 335, 99
+  orig: 390, 120
+  offset: 32, 14
+  index: -1
+images/effect/skillC/dimian/dimian_00007
+  rotate: true
+  xy: 220, 38
+  size: 351, 96
+  orig: 390, 120
+  offset: 25, 13
+  index: -1
+images/effect/skillC/dimian/dimian_00009
+  rotate: true
+  xy: 117, 23
+  size: 366, 101
+  orig: 390, 120
+  offset: 17, 10
+  index: -1
+images/effect/skillC/shandian/shandian_00003
+  rotate: true
+  xy: 230, 391
+  size: 390, 98
+  orig: 390, 120
+  offset: 0, 5
+  index: -1
+images/effect/skillC/shandian/shandian_00004
+  rotate: true
+  xy: 330, 408
+  size: 390, 105
+  orig: 390, 120
+  offset: 0, 13
+  index: -1
+images/effect/skillC/shandian/shandian_00005
+  rotate: true
+  xy: 437, 408
+  size: 390, 100
+  orig: 390, 120
+  offset: 0, 4
+  index: -1
+images/effect/skillC/shandian/shandian_00006
+  rotate: true
+  xy: 2, 391
+  size: 390, 113
+  orig: 390, 120
+  offset: 0, 7
+  index: -1
+images/effect/skillC/shandian/shandian_00007
+  rotate: false
+  xy: 305, 909
+  size: 390, 113
+  orig: 390, 120
+  offset: 0, 7
+  index: -1
+images/effect/skillC/shandian/shandian_00008
+  rotate: false
+  xy: 305, 800
+  size: 390, 107
+  orig: 390, 120
+  offset: 0, 13
+  index: -1
+images/effect/skillC/shandian/shandian_00009
+  rotate: true
+  xy: 539, 408
+  size: 390, 98
+  orig: 390, 120
+  offset: 0, 6
+  index: -1
+images/effect/skillC/shandian/shandian_00010
+  rotate: true
+  xy: 117, 391
+  size: 390, 111
+  orig: 390, 120
+  offset: 0, 9
+  index: -1

@@ -1,0 +1,138 @@
+
+effects_extra_0056.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chuchangtexiao/jiguang_add_00080
+  rotate: false
+  xy: 191, 609
+  size: 226, 409
+  orig: 307, 410
+  offset: 40, 1
+  index: -1
+chuchangtexiao/jiguang_add_00081
+  rotate: false
+  xy: 204, 198
+  size: 226, 409
+  orig: 307, 410
+  offset: 40, 1
+  index: -1
+chuchangtexiao/jiguang_add_00082
+  rotate: false
+  xy: 419, 609
+  size: 226, 409
+  orig: 307, 410
+  offset: 40, 1
+  index: -1
+chuchangtexiao/jiguang_add_00084
+  rotate: false
+  xy: 432, 198
+  size: 226, 409
+  orig: 307, 410
+  offset: 40, 1
+  index: -1
+chuchangtexiao/jiguang_add_00086
+  rotate: false
+  xy: 647, 609
+  size: 226, 409
+  orig: 307, 410
+  offset: 40, 1
+  index: -1
+glow_00055
+  rotate: true
+  xy: 708, 10
+  size: 197, 240
+  orig: 240, 240
+  offset: 17, 0
+  index: -1
+shangsheng/shangsheng_00001
+  rotate: false
+  xy: 660, 209
+  size: 200, 398
+  orig: 200, 512
+  offset: 0, 6
+  index: -1
+shangsheng/shangsheng_00003
+  rotate: false
+  xy: 2, 49
+  size: 200, 462
+  orig: 200, 512
+  offset: 0, 8
+  index: -1
+shangsheng/shangsheng_00005
+  rotate: false
+  xy: 2, 513
+  size: 187, 505
+  orig: 200, 512
+  offset: 7, 7
+  index: -1
+shangsheng/shangsheng_00007
+  rotate: true
+  xy: 204, 33
+  size: 163, 502
+  orig: 200, 512
+  offset: 19, 10
+  index: -1
+shangsheng/shangsheng_00009
+  rotate: false
+  xy: 875, 520
+  size: 143, 498
+  orig: 200, 512
+  offset: 26, 14
+  index: -1
+
+effects_extra_00562.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chuchangtexiao/jiguang_add_00088
+  rotate: false
+  xy: 577, 622
+  size: 226, 342
+  orig: 307, 410
+  offset: 40, 1
+  index: -1
+chuchangtexiao/jiguang_add_00090
+  rotate: false
+  xy: 121, 621
+  size: 226, 343
+  orig: 307, 410
+  offset: 40, 1
+  index: -1
+chuchangtexiao/jiguang_add_00092
+  rotate: false
+  xy: 349, 621
+  size: 226, 343
+  orig: 307, 410
+  offset: 40, 1
+  index: -1
+chuchangtexiao/jiguang_add_00094
+  rotate: true
+  xy: 121, 289
+  size: 226, 340
+  orig: 307, 410
+  offset: 40, 1
+  index: -1
+shangsheng/shangsheng_00011
+  rotate: false
+  xy: 2, 481
+  size: 117, 483
+  orig: 200, 512
+  offset: 41, 29
+  index: -1
+shangsheng/shangsheng_00013
+  rotate: false
+  xy: 2, 2
+  size: 106, 477
+  orig: 200, 512
+  offset: 48, 35
+  index: -1
+shangsheng/shangsheng_00015
+  rotate: true
+  xy: 121, 517
+  size: 102, 463
+  orig: 200, 512
+  offset: 46, 49
+  index: -1

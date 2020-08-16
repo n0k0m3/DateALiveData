@@ -1,0 +1,320 @@
+
+effects_10302_skillG.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillg/bao/bao_000
+  rotate: true
+  xy: 514, 8
+  size: 236, 224
+  orig: 288, 224
+  offset: 45, 0
+  index: -1
+images/effects/skillg/bao/bao_002
+  rotate: false
+  xy: 740, 258
+  size: 281, 224
+  orig: 288, 224
+  offset: 0, 0
+  index: -1
+images/effects/skillg/bao/bao_008
+  rotate: false
+  xy: 740, 32
+  size: 280, 224
+  orig: 288, 224
+  offset: 0, 0
+  index: -1
+images/effects/skillg/bao/bao_010
+  rotate: false
+  xy: 2, 246
+  size: 284, 209
+  orig: 288, 224
+  offset: 0, 6
+  index: -1
+images/effects/skillg/jiaqiangdandao/00000
+  rotate: false
+  xy: 351, 916
+  size: 347, 105
+  orig: 389, 155
+  offset: 42, 18
+  index: -1
+images/effects/skillg/jiaqiangdandao/00002
+  rotate: false
+  xy: 2, 915
+  size: 347, 106
+  orig: 389, 155
+  offset: 42, 19
+  index: -1
+images/effects/skillg/jiaqiangdandao/00004
+  rotate: false
+  xy: 2, 712
+  size: 347, 99
+  orig: 389, 155
+  offset: 42, 25
+  index: -1
+images/effects/skillg/jiaqiangdandao/00006
+  rotate: false
+  xy: 2, 813
+  size: 347, 100
+  orig: 389, 155
+  offset: 42, 23
+  index: -1
+images/effects/skillg/jiaqiangdandao/00008
+  rotate: false
+  xy: 351, 811
+  size: 347, 103
+  orig: 389, 155
+  offset: 42, 20
+  index: -1
+images/effects/skillg/shouji/shouji_002
+  rotate: false
+  xy: 275, 5
+  size: 237, 239
+  orig: 320, 320
+  offset: 39, 44
+  index: -1
+images/effects/skillg/shouji/shouji_006
+  rotate: false
+  xy: 324, 246
+  size: 308, 275
+  orig: 320, 320
+  offset: 6, 17
+  index: -1
+images/effects/skillg/shouji/shouji_008
+  rotate: false
+  xy: 351, 523
+  size: 320, 286
+  orig: 320, 320
+  offset: 0, 10
+  index: -1
+images/effects/skillg/shouji/shouji_010
+  rotate: false
+  xy: 700, 731
+  size: 320, 290
+  orig: 320, 320
+  offset: 0, 8
+  index: -1
+images/effects/skillg/shouji/shouji_012
+  rotate: false
+  xy: 2, 457
+  size: 320, 253
+  orig: 320, 320
+  offset: 0, 35
+  index: -1
+images/effects/skillg/shouji/shouji_014
+  rotate: false
+  xy: 673, 484
+  size: 313, 245
+  orig: 320, 320
+  offset: 2, 39
+  index: -1
+images/effects/skillg/shouji/shouji_018
+  rotate: false
+  xy: 2, 3
+  size: 271, 241
+  orig: 320, 320
+  offset: 19, 42
+  index: -1
+images/effects/skillg/zidan/zidan_008
+  rotate: true
+  xy: 634, 246
+  size: 236, 100
+  orig: 240, 103
+  offset: 2, 2
+  index: -1
+
+effects_10302_skillG2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillg/bao/bao_001
+  rotate: false
+  xy: 582, 798
+  size: 272, 224
+  orig: 288, 224
+  offset: 9, 0
+  index: -1
+images/effects/skillg/bao/bao_004
+  rotate: false
+  xy: 297, 798
+  size: 283, 224
+  orig: 288, 224
+  offset: 0, 0
+  index: -1
+images/effects/skillg/bao/bao_006
+  rotate: false
+  xy: 2, 299
+  size: 274, 224
+  orig: 288, 224
+  offset: 0, 0
+  index: -1
+images/effects/skillg/bao/bao_012
+  rotate: true
+  xy: 2, 14
+  size: 283, 201
+  orig: 288, 224
+  offset: 0, 9
+  index: -1
+images/effects/skillg/bao/bao_014
+  rotate: true
+  xy: 278, 330
+  size: 142, 198
+  orig: 288, 224
+  offset: 102, 10
+  index: -1
+images/effects/skillg/bao/bao_016
+  rotate: false
+  xy: 511, 2
+  size: 116, 140
+  orig: 288, 224
+  offset: 108, 37
+  index: -1
+images/effects/skillg/qiquan/qiquan_000
+  rotate: true
+  xy: 860, 471
+  size: 72, 97
+  orig: 120, 240
+  offset: 17, 73
+  index: -1
+images/effects/skillg/qiquan/qiquan_001
+  rotate: false
+  xy: 886, 635
+  size: 108, 162
+  orig: 120, 240
+  offset: 0, 41
+  index: -1
+images/effects/skillg/qiquan/qiquan_002
+  rotate: false
+  xy: 511, 144
+  size: 119, 186
+  orig: 120, 240
+  offset: 1, 30
+  index: -1
+images/effects/skillg/qiquan/qiquan_003
+  rotate: true
+  xy: 501, 554
+  size: 120, 206
+  orig: 120, 240
+  offset: 0, 18
+  index: -1
+images/effects/skillg/qiquan/qiquan_004
+  rotate: true
+  xy: 297, 676
+  size: 120, 219
+  orig: 120, 240
+  offset: 0, 11
+  index: -1
+images/effects/skillg/qiquan/qiquan_005
+  rotate: false
+  xy: 856, 799
+  size: 120, 223
+  orig: 120, 240
+  offset: 0, 11
+  index: -1
+images/effects/skillg/qiquan/qiquan_006
+  rotate: true
+  xy: 518, 676
+  size: 120, 210
+  orig: 120, 240
+  offset: 0, 24
+  index: -1
+images/effects/skillg/qiquan/qiquan_007
+  rotate: true
+  xy: 478, 332
+  size: 118, 194
+  orig: 120, 240
+  offset: 0, 24
+  index: -1
+images/effects/skillg/qiquan/qiquan_008
+  rotate: true
+  xy: 730, 681
+  size: 115, 154
+  orig: 120, 240
+  offset: 0, 27
+  index: -1
+images/effects/skillg/shifa/shifa_000
+  rotate: true
+  xy: 883, 545
+  size: 88, 100
+  orig: 200, 128
+  offset: 0, 22
+  index: -1
+images/effects/skillg/shifa/shifa_002
+  rotate: false
+  xy: 730, 571
+  size: 151, 108
+  orig: 200, 128
+  offset: 8, 2
+  index: -1
+images/effects/skillg/shifa/shifa_004
+  rotate: true
+  xy: 632, 163
+  size: 167, 112
+  orig: 200, 128
+  offset: 18, 2
+  index: -1
+images/effects/skillg/shifa/shifa_006
+  rotate: false
+  xy: 307, 2
+  size: 157, 113
+  orig: 200, 128
+  offset: 28, 4
+  index: -1
+images/effects/skillg/shifa/shifa_008
+  rotate: false
+  xy: 710, 463
+  size: 148, 106
+  orig: 200, 128
+  offset: 32, 19
+  index: -1
+images/effects/skillg/shouji/shouji_000
+  rotate: true
+  xy: 282, 474
+  size: 200, 217
+  orig: 320, 320
+  offset: 59, 55
+  index: -1
+images/effects/skillg/shouji/shouji_004
+  rotate: false
+  xy: 2, 525
+  size: 278, 250
+  orig: 320, 320
+  offset: 22, 33
+  index: -1
+images/effects/skillg/shouji/shouji_016
+  rotate: false
+  xy: 2, 777
+  size: 293, 245
+  orig: 320, 320
+  offset: 10, 38
+  index: -1
+images/effects/skillg/zidan/zidan_000
+  rotate: false
+  xy: 501, 452
+  size: 207, 100
+  orig: 240, 103
+  offset: 31, 2
+  index: -1
+images/effects/skillg/zidan/zidan_004
+  rotate: true
+  xy: 205, 73
+  size: 224, 100
+  orig: 240, 103
+  offset: 14, 2
+  index: -1
+images/effects/skillg/zidan/zidan_012
+  rotate: true
+  xy: 409, 129
+  size: 199, 100
+  orig: 240, 103
+  offset: 39, 2
+  index: -1
+images/effects/skillg/zidan/zidan_016
+  rotate: true
+  xy: 307, 117
+  size: 211, 100
+  orig: 240, 103
+  offset: 27, 2
+  index: -1

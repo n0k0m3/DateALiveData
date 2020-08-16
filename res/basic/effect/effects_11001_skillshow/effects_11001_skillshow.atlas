@@ -1,0 +1,367 @@
+
+effects_11001_skillshow.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skilld/glow/glow_00016
+  rotate: false
+  xy: 450, 17
+  size: 338, 180
+  orig: 338, 180
+  offset: 0, 0
+  index: -1
+images/effects/skilld/guanggan_00028
+  rotate: false
+  xy: 482, 568
+  size: 407, 78
+  orig: 407, 78
+  offset: 0, 0
+  index: -1
+images/effects/skilld/white_00078
+  rotate: false
+  xy: 1002, 624
+  size: 20, 21
+  orig: 20, 21
+  offset: 0, 0
+  index: -1
+images/effects/skilld/yanjing/yanjing_00016
+  rotate: true
+  xy: 482, 201
+  size: 365, 275
+  orig: 365, 275
+  offset: 0, 0
+  index: -1
+images/effects/skilld/yanjing/yanjing_00030
+  rotate: true
+  xy: 759, 201
+  size: 365, 241
+  orig: 365, 275
+  offset: 0, 0
+  index: -1
+images/effects/skilld/yanwu/yanwu_00078
+  rotate: false
+  xy: 457, 648
+  size: 200, 134
+  orig: 253, 156
+  offset: 35, 0
+  index: -1
+images/effects/skilld/yanwu/yanwu_00082
+  rotate: false
+  xy: 240, 647
+  size: 215, 135
+  orig: 253, 156
+  offset: 33, 6
+  index: -1
+images/effects/skilld/yanwu/yanwu_00086
+  rotate: false
+  xy: 790, 57
+  size: 224, 142
+  orig: 253, 156
+  offset: 17, 7
+  index: -1
+images/effects/skilld/yanwu/yanwu_00088
+  rotate: false
+  xy: 790, 57
+  size: 224, 142
+  orig: 253, 156
+  offset: 17, 7
+  index: -1
+images/effects/skilld/zuihoubaodian_add/zuihoubaodian_add_00078
+  rotate: false
+  xy: 2, 784
+  size: 446, 238
+  orig: 446, 238
+  offset: 0, 0
+  index: -1
+images/effects/skilld/zuihoubaodian_add/zuihoubaodian_add_00079
+  rotate: false
+  xy: 450, 784
+  size: 446, 238
+  orig: 446, 238
+  offset: 0, 0
+  index: -1
+images/effects/skilld/zuihoubaodian_add/zuihoubaodian_add_00080
+  rotate: true
+  xy: 2, 199
+  size: 446, 238
+  orig: 446, 238
+  offset: 0, 0
+  index: -1
+images/effects/skilld/zuihoubaodian_add/zuihoubaodian_add_00081
+  rotate: true
+  xy: 242, 199
+  size: 446, 238
+  orig: 446, 238
+  offset: 0, 0
+  index: -1
+images/effects/skilld/zuihoubaodian_normal/zuihoubaodian_normal_00082
+  rotate: false
+  xy: 891, 596
+  size: 109, 49
+  orig: 446, 238
+  offset: 140, 104
+  index: -1
+images/effects/skilld/zuihoubaodian_normal/zuihoubaodian_normal_00083
+  rotate: false
+  xy: 659, 713
+  size: 176, 69
+  orig: 446, 238
+  offset: 110, 102
+  index: -1
+images/effects/skilld/zuihoubaodian_normal/zuihoubaodian_normal_00085
+  rotate: false
+  xy: 2, 647
+  size: 236, 135
+  orig: 446, 238
+  offset: 89, 59
+  index: -1
+images/effects/skilld/zuihoubaodian_normal/zuihoubaodian_normal_00088
+  rotate: true
+  xy: 898, 647
+  size: 375, 116
+  orig: 446, 238
+  offset: 7, 50
+  index: -1
+images/effects/skilld/zuihoubaodian_normal/zuihoubaodian_normal_00089
+  rotate: false
+  xy: 2, 10
+  size: 446, 187
+  orig: 446, 238
+  offset: 0, 0
+  index: -1
+
+effects_11001_skillshow2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skilld/glow1_00028
+  rotate: true
+  xy: 212, 20
+  size: 295, 249
+  orig: 302, 249
+  offset: 7, 0
+  index: -1
+images/effects/skilld/glow2_00043
+  rotate: true
+  xy: 2, 2
+  size: 313, 208
+  orig: 362, 230
+  offset: 23, 0
+  index: -1
+images/effects/skilld/yanjing/yanjing_00028
+  rotate: false
+  xy: 463, 40
+  size: 365, 275
+  orig: 365, 275
+  offset: 0, 0
+  index: -1
+images/effects/skilld/yanwu/yanwu_00084
+  rotate: true
+  xy: 830, 93
+  size: 222, 142
+  orig: 253, 156
+  offset: 21, 5
+  index: -1
+images/effects/skilld/zuihoubaodian_add/zuihoubaodian_add_00082
+  rotate: false
+  xy: 2, 765
+  size: 446, 238
+  orig: 446, 238
+  offset: 0, 0
+  index: -1
+images/effects/skilld/zuihoubaodian_add/zuihoubaodian_add_00083
+  rotate: false
+  xy: 450, 765
+  size: 446, 238
+  orig: 446, 238
+  offset: 0, 0
+  index: -1
+images/effects/skilld/zuihoubaodian_add/zuihoubaodian_add_00084
+  rotate: true
+  xy: 2, 317
+  size: 446, 238
+  orig: 446, 238
+  offset: 0, 0
+  index: -1
+images/effects/skilld/zuihoubaodian_add/zuihoubaodian_add_00086
+  rotate: true
+  xy: 242, 317
+  size: 446, 238
+  orig: 446, 238
+  offset: 0, 0
+  index: -1
+images/effects/skilld/zuihoubaodian_add/zuihoubaodian_add_00088
+  rotate: true
+  xy: 482, 317
+  size: 446, 238
+  orig: 446, 238
+  offset: 0, 0
+  index: -1
+images/effects/skilld/zuihoubaodian_add/zuihoubaodian_add_00090
+  rotate: true
+  xy: 722, 317
+  size: 446, 238
+  orig: 446, 238
+  offset: 0, 0
+  index: -1
+
+effects_11001_skillshow3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skilld/glow3_00042
+  rotate: false
+  xy: 350, 60
+  size: 206, 356
+  orig: 288, 461
+  offset: 36, 91
+  index: -1
+images/effects/skilld/yanjing/yanjing_00018
+  rotate: true
+  xy: 450, 658
+  size: 362, 275
+  orig: 365, 275
+  offset: 3, 0
+  index: -1
+images/effects/skilld/yanjing/yanjing_00020
+  rotate: true
+  xy: 2, 418
+  size: 362, 275
+  orig: 365, 275
+  offset: 3, 0
+  index: -1
+images/effects/skilld/yanjing/yanjing_00022
+  rotate: true
+  xy: 727, 664
+  size: 356, 275
+  orig: 365, 275
+  offset: 9, 0
+  index: -1
+images/effects/skilld/yanjing/yanjing_00024
+  rotate: true
+  xy: 727, 307
+  size: 355, 275
+  orig: 365, 275
+  offset: 10, 0
+  index: -1
+images/effects/skilld/yanjing/yanjing_00026
+  rotate: false
+  xy: 2, 141
+  size: 346, 275
+  orig: 365, 275
+  offset: 19, 0
+  index: -1
+images/effects/skilld/yanwu/yanwu_00080
+  rotate: false
+  xy: 2, 2
+  size: 202, 137
+  orig: 253, 156
+  offset: 51, 3
+  index: -1
+images/effects/skilld/zuihoubaodian_add/zuihoubaodian_add_00092
+  rotate: false
+  xy: 2, 782
+  size: 446, 238
+  orig: 446, 238
+  offset: 0, 0
+  index: -1
+images/effects/skilld/zuihoubaodian_add/zuihoubaodian_add_00094
+  rotate: false
+  xy: 279, 418
+  size: 446, 238
+  orig: 446, 238
+  offset: 0, 0
+  index: -1
+images/effects/skilld/zuihoubaodian_add/zuihoubaodian_add_00095
+  rotate: false
+  xy: 558, 67
+  size: 446, 238
+  orig: 446, 238
+  offset: 0, 0
+  index: -1
+
+effects_11001_skillshow4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skilld/glow/glow_00017
+  rotate: false
+  xy: 2, 119
+  size: 338, 180
+  orig: 338, 180
+  offset: 0, 0
+  index: -1
+images/effects/skilld/glow/glow_00018
+  rotate: false
+  xy: 450, 363
+  size: 338, 180
+  orig: 338, 180
+  offset: 0, 0
+  index: -1
+images/effects/skilld/glow/glow_00019
+  rotate: false
+  xy: 450, 181
+  size: 338, 180
+  orig: 338, 180
+  offset: 0, 0
+  index: -1
+images/effects/skilld/glow/glow_00020
+  rotate: true
+  xy: 790, 205
+  size: 338, 180
+  orig: 338, 180
+  offset: 0, 0
+  index: -1
+images/effects/skilld/yanwu/yanwu_00090
+  rotate: false
+  xy: 790, 61
+  size: 220, 142
+  orig: 253, 156
+  offset: 5, 7
+  index: -1
+images/effects/skilld/yanwu/yanwu_00094
+  rotate: false
+  xy: 342, 37
+  size: 211, 142
+  orig: 253, 156
+  offset: 1, 9
+  index: -1
+images/effects/skilld/zuihoubaodian_add/zuihoubaodian_add_00096
+  rotate: false
+  xy: 2, 772
+  size: 446, 238
+  orig: 446, 238
+  offset: 0, 0
+  index: -1
+images/effects/skilld/zuihoubaodian_normal/zuihoubaodian_normal_00087
+  rotate: false
+  xy: 2, 532
+  size: 446, 238
+  orig: 446, 238
+  offset: 0, 0
+  index: -1
+images/effects/skilld/zuihoubaodian_normal/zuihoubaodian_normal_00092
+  rotate: false
+  xy: 450, 545
+  size: 446, 225
+  orig: 446, 238
+  offset: 0, 13
+  index: -1
+images/effects/skilld/zuihoubaodian_normal/zuihoubaodian_normal_00095
+  rotate: false
+  xy: 2, 301
+  size: 446, 229
+  orig: 446, 238
+  offset: 0, 0
+  index: -1
+images/effects/skilld/zuihoubaodian_normal/zuihoubaodian_normal_00096
+  rotate: false
+  xy: 450, 772
+  size: 446, 238
+  orig: 446, 238
+  offset: 0, 0
+  index: -1

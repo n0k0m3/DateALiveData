@@ -1,0 +1,62 @@
+
+effects_10209_hit.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/hit/hit_00052
+  rotate: false
+  xy: 2, 137
+  size: 168, 170
+  orig: 233, 200
+  offset: 33, 14
+  index: -1
+effect/hit/hit_00053
+  rotate: false
+  xy: 174, 310
+  size: 168, 170
+  orig: 233, 200
+  offset: 33, 14
+  index: -1
+effect/hit/hit_00054
+  rotate: false
+  xy: 2, 309
+  size: 170, 171
+  orig: 233, 200
+  offset: 37, 12
+  index: -1
+effect/hit/hit_00055
+  rotate: false
+  xy: 2, 10
+  size: 179, 125
+  orig: 233, 200
+  offset: 35, 38
+  index: -1
+effect/hit/hit_00056
+  rotate: true
+  xy: 344, 300
+  size: 180, 136
+  orig: 233, 200
+  offset: 43, 27
+  index: -1
+effect/hit/hit_00057
+  rotate: false
+  xy: 308, 162
+  size: 149, 136
+  orig: 233, 200
+  offset: 43, 27
+  index: -1
+effect/hit/hit_00058
+  rotate: true
+  xy: 172, 150
+  size: 157, 134
+  orig: 233, 200
+  offset: 38, 28
+  index: -1
+effect/hit/hit_00059
+  rotate: false
+  xy: 183, 45
+  size: 112, 103
+  orig: 233, 200
+  offset: 65, 52
+  index: -1

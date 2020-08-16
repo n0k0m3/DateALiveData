@@ -1,0 +1,76 @@
+
+effects_10305_skillC.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skillc_new/dibo/dibo_00000
+  rotate: true
+  xy: 2, 175
+  size: 164, 60
+  orig: 164, 60
+  offset: 0, 0
+  index: -1
+effects/skillc_new/dibo/dibo_00001
+  rotate: true
+  xy: 2, 41
+  size: 132, 59
+  orig: 164, 60
+  offset: 19, 1
+  index: -1
+effects/skillc_new/dibo/dibo_00002
+  rotate: false
+  xy: 151, 424
+  size: 142, 60
+  orig: 164, 60
+  offset: 11, 0
+  index: -1
+effects/skillc_new/dibo/dibo_00003
+  rotate: true
+  xy: 64, 208
+  size: 131, 60
+  orig: 164, 60
+  offset: 17, 0
+  index: -1
+effects/skillc_new/fazhen_00000
+  rotate: false
+  xy: 2, 341
+  size: 147, 143
+  orig: 150, 150
+  offset: 1, 0
+  index: -1
+effects/skillc_new/yingzi/yingzi_00011
+  rotate: false
+  xy: 199, 259
+  size: 68, 90
+  orig: 75, 100
+  offset: 3, 5
+  index: -1
+effects/skillc_new/yingzi/yingzi_00012
+  rotate: true
+  xy: 151, 351
+  size: 71, 92
+  orig: 75, 100
+  offset: 2, 5
+  index: -1
+effects/skillc_new/yingzi/yingzi_00013
+  rotate: false
+  xy: 126, 247
+  size: 71, 92
+  orig: 75, 100
+  offset: 3, 5
+  index: -1
+effects/skillc_new/yingzi/yingzi_00014
+  rotate: true
+  xy: 391, 416
+  size: 68, 93
+  orig: 75, 100
+  offset: 5, 5
+  index: -1
+effects/skillc_new/yingzi/yingzi_00015
+  rotate: true
+  xy: 295, 418
+  size: 66, 94
+  orig: 75, 100
+  offset: 4, 5
+  index: -1

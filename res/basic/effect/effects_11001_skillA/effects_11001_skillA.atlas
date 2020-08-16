@@ -1,0 +1,486 @@
+
+effects_11001_skillA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/extra_skillB/yuefu1_00096
+  rotate: false
+  xy: 907, 792
+  size: 109, 115
+  orig: 109, 115
+  offset: 0, 0
+  index: -1
+images/effects/extra_skillB/yuefu2_00096
+  rotate: false
+  xy: 907, 561
+  size: 99, 117
+  orig: 99, 117
+  offset: 0, 0
+  index: -1
+images/effects/extra_skillB/yuefu3_00096
+  rotate: false
+  xy: 907, 680
+  size: 102, 110
+  orig: 102, 110
+  offset: 0, 0
+  index: -1
+images/effects/extra_skillB/yuefu4_00096
+  rotate: false
+  xy: 907, 909
+  size: 110, 113
+  orig: 110, 113
+  offset: 0, 0
+  index: -1
+images/effects/skilla/baodian_add/baodian_add_00023
+  rotate: false
+  xy: 1008, 627
+  size: 10, 51
+  orig: 131, 127
+  offset: 83, 27
+  index: -1
+images/effects/skilla/baodian_normal/baodian_normal_00012
+  rotate: true
+  xy: 880, 15
+  size: 95, 97
+  orig: 131, 127
+  offset: 18, 12
+  index: -1
+images/effects/skilla/boyin3/yinbo_00003
+  rotate: true
+  xy: 223, 3
+  size: 122, 219
+  orig: 126, 219
+  offset: 0, 0
+  index: -1
+images/effects/skilla/boyin3/yinbo_00004
+  rotate: true
+  xy: 2, 2
+  size: 123, 219
+  orig: 126, 219
+  offset: 0, 0
+  index: -1
+images/effects/skilla/yinbo1/yinbo1_00018
+  rotate: false
+  xy: 886, 112
+  size: 134, 223
+  orig: 147, 237
+  offset: 0, 9
+  index: -1
+images/effects/skilla/yinbo2/yinbo2_00009
+  rotate: false
+  xy: 886, 337
+  size: 136, 222
+  orig: 138, 230
+  offset: 0, 6
+  index: -1
+images/effects/skilla/yinbo2/yinbo2_00019
+  rotate: true
+  xy: 450, 2
+  size: 126, 223
+  orig: 138, 230
+  offset: 0, 5
+  index: -1
+images/effects/skilla/yinbo2/yinbo2_00025
+  rotate: true
+  xy: 675, 2
+  size: 126, 203
+  orig: 138, 230
+  offset: 0, 14
+  index: -1
+images/effects/skilla/yinbohuan/yinbohuan_00031
+  rotate: false
+  xy: 2, 571
+  size: 452, 451
+  orig: 452, 451
+  offset: 0, 0
+  index: -1
+images/effects/skilla/yinbohuan/yinbohuan_00036
+  rotate: false
+  xy: 450, 130
+  size: 434, 439
+  orig: 452, 451
+  offset: 11, 12
+  index: -1
+images/effects/skilla/yinbohuan/yinbohuan_00037
+  rotate: true
+  xy: 2, 127
+  size: 442, 446
+  orig: 452, 451
+  offset: 7, 5
+  index: -1
+images/effects/skilla/yinbohuan/yinbohuan_00039
+  rotate: false
+  xy: 456, 571
+  size: 449, 451
+  orig: 452, 451
+  offset: 3, 0
+  index: -1
+
+effects_11001_skillA2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skilla/glow/glow_00007
+  rotate: true
+  xy: 837, 754
+  size: 264, 173
+  orig: 288, 173
+  offset: 14, 0
+  index: -1
+images/effects/skilla/glow/glow_00008
+  rotate: false
+  xy: 837, 596
+  size: 156, 156
+  orig: 288, 173
+  offset: 67, 8
+  index: -1
+images/effects/skilla/yinbo1/yinbo1_00020
+  rotate: false
+  xy: 648, 5
+  size: 142, 221
+  orig: 147, 237
+  offset: 0, 11
+  index: -1
+images/effects/skilla/yinbo1/yinbo1_00022
+  rotate: true
+  xy: 2, 2
+  size: 147, 219
+  orig: 147, 237
+  offset: 0, 13
+  index: -1
+images/effects/skilla/yinbo1/yinbo1_00024
+  rotate: true
+  xy: 223, 5
+  size: 144, 217
+  orig: 147, 237
+  offset: 3, 15
+  index: -1
+images/effects/skilla/yinbo1/yinbo1_00025
+  rotate: false
+  xy: 816, 153
+  size: 139, 215
+  orig: 147, 237
+  offset: 8, 17
+  index: -1
+images/effects/skilla/yinbo2/yinbo2_00005
+  rotate: true
+  xy: 792, 18
+  size: 133, 223
+  orig: 138, 230
+  offset: 0, 5
+  index: -1
+images/effects/skilla/yinbo2/yinbo2_00007
+  rotate: false
+  xy: 816, 370
+  size: 138, 224
+  orig: 138, 230
+  offset: 0, 6
+  index: -1
+images/effects/skilla/yinbohuan/yinbohuan_00029
+  rotate: false
+  xy: 442, 24
+  size: 204, 202
+  orig: 452, 451
+  offset: 124, 130
+  index: -1
+images/effects/skilla/yinbohuan/yinbohuan_00033
+  rotate: true
+  xy: 430, 228
+  size: 382, 384
+  orig: 452, 451
+  offset: 34, 41
+  index: -1
+images/effects/skilla/yinbohuan/yinbohuan_00034
+  rotate: false
+  xy: 430, 612
+  size: 405, 406
+  orig: 452, 451
+  offset: 23, 29
+  index: -1
+images/effects/skilla/yinbohuan/yinbohuan_00035
+  rotate: false
+  xy: 2, 151
+  size: 422, 424
+  orig: 452, 451
+  offset: 16, 20
+  index: -1
+images/effects/skilla/yinbohuan/yinbohuan_00041
+  rotate: false
+  xy: 2, 577
+  size: 426, 441
+  orig: 452, 451
+  offset: 14, 4
+  index: -1
+
+effects_11001_skillA3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skilla/baodian_add/baodian_add_00010
+  rotate: false
+  xy: 355, 342
+  size: 131, 127
+  orig: 131, 127
+  offset: 0, 0
+  index: -1
+images/effects/skilla/baodian_add/baodian_add_00011
+  rotate: false
+  xy: 846, 233
+  size: 131, 127
+  orig: 131, 127
+  offset: 0, 0
+  index: -1
+images/effects/skilla/baodian_add/baodian_add_00018
+  rotate: false
+  xy: 936, 418
+  size: 84, 83
+  orig: 131, 127
+  offset: 25, 20
+  index: -1
+images/effects/skilla/baodian_normal/baodian_normal_00016
+  rotate: false
+  xy: 936, 503
+  size: 84, 87
+  orig: 131, 127
+  offset: 26, 17
+  index: -1
+images/effects/skilla/boyin3/yinbo_00000
+  rotate: false
+  xy: 838, 11
+  size: 126, 219
+  orig: 126, 219
+  offset: 0, 0
+  index: -1
+images/effects/skilla/boyinhuan_00029
+  rotate: true
+  xy: 2, 307
+  size: 355, 351
+  orig: 432, 432
+  offset: 38, 36
+  index: -1
+images/effects/skilla/yinbo1/yinbo1_00008
+  rotate: false
+  xy: 357, 471
+  size: 132, 214
+  orig: 147, 237
+  offset: 0, 14
+  index: -1
+images/effects/skilla/yinbo1/yinbo1_00010
+  rotate: true
+  xy: 491, 64
+  size: 131, 214
+  orig: 147, 237
+  offset: 0, 13
+  index: -1
+images/effects/skilla/yinbo1/yinbo1_00012
+  rotate: true
+  xy: 491, 421
+  size: 130, 216
+  orig: 147, 237
+  offset: 0, 12
+  index: -1
+images/effects/skilla/yinbo1/yinbo1_00014
+  rotate: true
+  xy: 491, 553
+  size: 132, 218
+  orig: 147, 237
+  offset: 0, 11
+  index: -1
+images/effects/skilla/yinbo1/yinbo1_00016
+  rotate: true
+  xy: 709, 362
+  size: 131, 222
+  orig: 147, 237
+  offset: 0, 10
+  index: -1
+images/effects/skilla/yinbo2/yinbo2_00011
+  rotate: true
+  xy: 711, 622
+  size: 133, 223
+  orig: 138, 230
+  offset: 0, 6
+  index: -1
+images/effects/skilla/yinbo2/yinbo2_00013
+  rotate: false
+  xy: 491, 197
+  size: 129, 222
+  orig: 138, 230
+  offset: 0, 6
+  index: -1
+images/effects/skilla/yinbo2/yinbo2_00015
+  rotate: true
+  xy: 622, 232
+  size: 128, 222
+  orig: 138, 230
+  offset: 0, 6
+  index: -1
+images/effects/skilla/yinbo2/yinbo2_00017
+  rotate: true
+  xy: 711, 495
+  size: 125, 223
+  orig: 138, 230
+  offset: 0, 5
+  index: -1
+images/effects/skilla/yinbo2/yinbo2_00023
+  rotate: false
+  xy: 707, 16
+  size: 129, 214
+  orig: 138, 230
+  offset: 0, 11
+  index: -1
+images/effects/skilla/yinboD_00029
+  rotate: true
+  xy: 253, 66
+  size: 239, 236
+  orig: 288, 288
+  offset: 24, 23
+  index: -1
+images/effects/skilla/yinbo_00000
+  rotate: false
+  xy: 936, 592
+  size: 75, 163
+  orig: 84, 173
+  offset: 0, 4
+  index: -1
+images/effects/skilla/yinbohuan/yinbohuan_00030
+  rotate: false
+  xy: 357, 687
+  size: 352, 333
+  orig: 452, 451
+  offset: 45, 63
+  index: -1
+images/effects/skilla/yinbohuan/yinbohuan_00032
+  rotate: false
+  xy: 2, 664
+  size: 353, 356
+  orig: 452, 451
+  offset: 48, 56
+  index: -1
+images/effects/skilla/yinbohuan/yinbohuan_00043
+  rotate: false
+  xy: 2, 20
+  size: 249, 285
+  orig: 452, 451
+  offset: 98, 91
+  index: -1
+images/effects/skilla/yinbohuan/yinbohuan_00045
+  rotate: false
+  xy: 711, 757
+  size: 244, 263
+  orig: 452, 451
+  offset: 103, 96
+  index: -1
+
+effects_11001_skillA4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skilla/baodian_add/baodian_add_00012
+  rotate: false
+  xy: 384, 850
+  size: 131, 127
+  orig: 131, 127
+  offset: 0, 0
+  index: -1
+images/effects/skilla/baodian_add/baodian_add_00013
+  rotate: false
+  xy: 517, 850
+  size: 131, 127
+  orig: 131, 127
+  offset: 0, 0
+  index: -1
+images/effects/skilla/baodian_add/baodian_add_00015
+  rotate: false
+  xy: 650, 850
+  size: 131, 127
+  orig: 131, 127
+  offset: 0, 0
+  index: -1
+images/effects/skilla/baodian_add/baodian_add_00020
+  rotate: false
+  xy: 384, 764
+  size: 83, 84
+  orig: 131, 127
+  offset: 26, 18
+  index: -1
+images/effects/skilla/baodian_normal/baodian_normal_00010
+  rotate: false
+  xy: 867, 898
+  size: 79, 79
+  orig: 131, 127
+  offset: 27, 21
+  index: -1
+images/effects/skilla/baodian_normal/baodian_normal_00011
+  rotate: false
+  xy: 2, 2
+  size: 88, 88
+  orig: 131, 127
+  offset: 22, 17
+  index: -1
+images/effects/skilla/baodian_normal/baodian_normal_00013
+  rotate: false
+  xy: 551, 773
+  size: 75, 75
+  orig: 131, 127
+  offset: 31, 23
+  index: -1
+images/effects/skilla/baodian_normal/baodian_normal_00014
+  rotate: false
+  xy: 469, 767
+  size: 80, 81
+  orig: 131, 127
+  offset: 28, 20
+  index: -1
+images/effects/skilla/baodian_normal/baodian_normal_00015
+  rotate: false
+  xy: 783, 893
+  size: 82, 84
+  orig: 131, 127
+  offset: 27, 19
+  index: -1
+images/effects/skilla/boyin3/yinbo_00001
+  rotate: false
+  xy: 131, 758
+  size: 125, 219
+  orig: 126, 219
+  offset: 0, 0
+  index: -1
+images/effects/skilla/boyin3/yinbo_00002
+  rotate: false
+  xy: 2, 313
+  size: 124, 219
+  orig: 126, 219
+  offset: 0, 0
+  index: -1
+images/effects/skilla/boyin3/yinbo_00005
+  rotate: false
+  xy: 258, 758
+  size: 124, 219
+  orig: 126, 219
+  offset: 0, 0
+  index: -1
+images/effects/skilla/boyin3/yinbo_00006
+  rotate: false
+  xy: 2, 92
+  size: 124, 219
+  orig: 126, 219
+  offset: 0, 0
+  index: -1
+images/effects/skilla/yinbo2/yinbo2_00003
+  rotate: false
+  xy: 2, 755
+  size: 127, 222
+  orig: 138, 230
+  offset: 0, 6
+  index: -1
+images/effects/skilla/yinbo2/yinbo2_00021
+  rotate: false
+  xy: 2, 534
+  size: 126, 219
+  orig: 138, 230
+  offset: 0, 7
+  index: -1

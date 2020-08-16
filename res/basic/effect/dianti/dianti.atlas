@@ -1,0 +1,55 @@
+
+dianti.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dengliang
+  rotate: false
+  xy: 573, 671
+  size: 52, 76
+  orig: 54, 78
+  offset: 1, 1
+  index: -1
+dianti
+  rotate: false
+  xy: 2, 348
+  size: 569, 573
+  orig: 571, 575
+  offset: 1, 1
+  index: -1
+dongtaiguang
+  rotate: false
+  xy: 211, 252
+  size: 52, 94
+  orig: 54, 96
+  offset: 1, 1
+  index: -1
+mennei
+  rotate: false
+  xy: 2, 114
+  size: 207, 232
+  orig: 209, 234
+  offset: 1, 1
+  index: -1
+menshang
+  rotate: false
+  xy: 573, 749
+  size: 200, 172
+  orig: 202, 174
+  offset: 1, 1
+  index: -1
+menxia
+  rotate: false
+  xy: 2, 2
+  size: 200, 110
+  orig: 202, 112
+  offset: 1, 1
+  index: -1
+zhishideng
+  rotate: false
+  xy: 775, 881
+  size: 14, 40
+  orig: 16, 42
+  offset: 1, 1
+  index: -1

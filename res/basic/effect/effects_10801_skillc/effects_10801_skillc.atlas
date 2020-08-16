@@ -1,0 +1,215 @@
+
+effects_10801_skillc.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillc/daoguang/daoguang_00015
+  rotate: true
+  xy: 767, 5
+  size: 751, 194
+  orig: 763, 199
+  offset: 12, 0
+  index: -1
+images/effects/skillc/daoguang/daoguang_00016
+  rotate: false
+  xy: 2, 832
+  size: 763, 190
+  orig: 763, 199
+  offset: 0, 0
+  index: -1
+images/effects/skillc/daoguang/daoguang_00019
+  rotate: false
+  xy: 2, 338
+  size: 751, 164
+  orig: 763, 199
+  offset: 12, 0
+  index: -1
+images/effects/skillc/daoguang/daoguang_00020
+  rotate: false
+  xy: 2, 665
+  size: 763, 165
+  orig: 763, 199
+  offset: 0, 0
+  index: -1
+images/effects/skillc/daoguang/daoguang_00023
+  rotate: false
+  xy: 2, 177
+  size: 751, 159
+  orig: 763, 199
+  offset: 12, 0
+  index: -1
+images/effects/skillc/daoguang/daoguang_00024
+  rotate: false
+  xy: 2, 504
+  size: 763, 159
+  orig: 763, 199
+  offset: 0, 0
+  index: -1
+images/effects/skillc/daoguang/daoguang_00025
+  rotate: false
+  xy: 2, 2
+  size: 718, 173
+  orig: 763, 199
+  offset: 39, 1
+  index: -1
+images/effects/skillc/longjuanfeng_nor/longjuanfeng_nor_00012
+  rotate: false
+  xy: 767, 887
+  size: 252, 135
+  orig: 253, 211
+  offset: 0, 29
+  index: -1
+images/effects/skillc/longjuanfeng_nor/longjuanfeng_nor_00016
+  rotate: false
+  xy: 767, 758
+  size: 252, 127
+  orig: 253, 211
+  offset: 0, 29
+  index: -1
+
+effects_10801_skillc2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillc/canying/canying_00015
+  rotate: true
+  xy: 731, 753
+  size: 108, 135
+  orig: 110, 137
+  offset: 2, 2
+  index: -1
+images/effects/skillc/canying/canying_00016
+  rotate: false
+  xy: 868, 727
+  size: 84, 134
+  orig: 110, 137
+  offset: 22, 2
+  index: -1
+images/effects/skillc/canying/canying_00017
+  rotate: true
+  xy: 731, 412
+  size: 87, 132
+  orig: 110, 137
+  offset: 19, 1
+  index: -1
+images/effects/skillc/canying/canying_00018
+  rotate: true
+  xy: 845, 628
+  size: 97, 131
+  orig: 110, 137
+  offset: 0, 2
+  index: -1
+images/effects/skillc/canying/canying_00019
+  rotate: true
+  xy: 865, 413
+  size: 93, 124
+  orig: 110, 137
+  offset: 0, 2
+  index: -1
+images/effects/skillc/canying/canying_00020
+  rotate: false
+  xy: 832, 284
+  size: 86, 126
+  orig: 110, 137
+  offset: 2, 4
+  index: -1
+images/effects/skillc/daoguang/daoguang_00017
+  rotate: false
+  xy: 2, 617
+  size: 721, 187
+  orig: 763, 199
+  offset: 38, 1
+  index: -1
+images/effects/skillc/daoguang/daoguang_00018
+  rotate: false
+  xy: 2, 806
+  size: 727, 183
+  orig: 763, 199
+  offset: 27, 2
+  index: -1
+images/effects/skillc/daoguang/daoguang_00021
+  rotate: false
+  xy: 2, 272
+  size: 710, 173
+  orig: 763, 199
+  offset: 38, 1
+  index: -1
+images/effects/skillc/daoguang/daoguang_00022
+  rotate: false
+  xy: 2, 447
+  size: 727, 168
+  orig: 763, 199
+  offset: 27, 2
+  index: -1
+images/effects/skillc/longjuanfeng_add/longjuanfeng_add_00006
+  rotate: true
+  xy: 430, 148
+  size: 122, 129
+  orig: 253, 211
+  offset: 66, 38
+  index: -1
+images/effects/skillc/longjuanfeng_add/longjuanfeng_add_00008
+  rotate: false
+  xy: 847, 508
+  size: 121, 118
+  orig: 253, 211
+  offset: 66, 39
+  index: -1
+images/effects/skillc/longjuanfeng_add/longjuanfeng_add_00010
+  rotate: false
+  xy: 731, 501
+  size: 114, 124
+  orig: 253, 211
+  offset: 67, 40
+  index: -1
+images/effects/skillc/longjuanfeng_add/longjuanfeng_add_00012
+  rotate: true
+  xy: 561, 148
+  size: 122, 129
+  orig: 253, 211
+  offset: 66, 38
+  index: -1
+images/effects/skillc/longjuanfeng_add/longjuanfeng_add_00014
+  rotate: false
+  xy: 714, 292
+  size: 116, 118
+  orig: 253, 211
+  offset: 71, 39
+  index: -1
+images/effects/skillc/longjuanfeng_add/longjuanfeng_add_00016
+  rotate: false
+  xy: 725, 627
+  size: 118, 124
+  orig: 253, 211
+  offset: 67, 40
+  index: -1
+images/effects/skillc/longjuanfeng_nor/longjuanfeng_nor_00006
+  rotate: false
+  xy: 2, 9
+  size: 202, 134
+  orig: 253, 211
+  offset: 29, 30
+  index: -1
+images/effects/skillc/longjuanfeng_nor/longjuanfeng_nor_00008
+  rotate: false
+  xy: 2, 145
+  size: 212, 125
+  orig: 253, 211
+  offset: 24, 29
+  index: -1
+images/effects/skillc/longjuanfeng_nor/longjuanfeng_nor_00010
+  rotate: false
+  xy: 731, 863
+  size: 212, 126
+  orig: 253, 211
+  offset: 19, 30
+  index: -1
+images/effects/skillc/longjuanfeng_nor/longjuanfeng_nor_00014
+  rotate: false
+  xy: 216, 146
+  size: 212, 124
+  orig: 253, 211
+  offset: 19, 30
+  index: -1

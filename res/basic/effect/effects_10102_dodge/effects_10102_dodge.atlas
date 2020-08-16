@@ -1,0 +1,97 @@
+
+effects_10102_dodge.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Effects/glow_000
+  rotate: false
+  xy: 405, 296
+  size: 58, 58
+  orig: 60, 60
+  offset: 1, 1
+  index: -1
+Effects/shanbi/canying_000
+  rotate: false
+  xy: 256, 215
+  size: 147, 139
+  orig: 180, 180
+  offset: 16, 22
+  index: -1
+Effects/shanbi/chuansuo/chuansuo_000
+  rotate: false
+  xy: 366, 33
+  size: 123, 128
+  orig: 252, 132
+  offset: 1, 2
+  index: -1
+Effects/shanbi/chuansuo/chuansuo_001
+  rotate: false
+  xy: 2, 397
+  size: 252, 111
+  orig: 252, 132
+  offset: 0, 10
+  index: -1
+Effects/shanbi/chuansuo/chuansuo_002
+  rotate: false
+  xy: 2, 291
+  size: 252, 104
+  orig: 252, 132
+  offset: 0, 15
+  index: -1
+Effects/shanbi/chuansuo/chuansuo_003
+  rotate: false
+  xy: 256, 428
+  size: 252, 80
+  orig: 252, 132
+  offset: 0, 26
+  index: -1
+Effects/shanbi/chuansuo/chuansuo_004
+  rotate: false
+  xy: 2, 215
+  size: 252, 74
+  orig: 252, 132
+  offset: 0, 28
+  index: -1
+Effects/shanbi/chuansuo/chuansuo_005
+  rotate: false
+  xy: 256, 356
+  size: 240, 70
+  orig: 252, 132
+  offset: 3, 30
+  index: -1
+Effects/shanbi/chuansuo/chuansuo_006
+  rotate: false
+  xy: 2, 138
+  size: 219, 75
+  orig: 252, 132
+  offset: 11, 29
+  index: -1
+Effects/shanbi/chuansuo/chuansuo_007
+  rotate: false
+  xy: 2, 74
+  size: 218, 62
+  orig: 252, 132
+  offset: 11, 30
+  index: -1
+Effects/shanbi/chuansuo/chuansuo_008
+  rotate: false
+  xy: 2, 14
+  size: 198, 58
+  orig: 252, 132
+  offset: 29, 31
+  index: -1
+Effects/shanbi/chuansuo/chuansuo_009
+  rotate: false
+  xy: 223, 163
+  size: 186, 50
+  orig: 252, 132
+  offset: 39, 34
+  index: -1
+Effects/shanbi/chuansuo/chuansuo_010
+  rotate: false
+  xy: 223, 112
+  size: 141, 49
+  orig: 252, 132
+  offset: 38, 36
+  index: -1

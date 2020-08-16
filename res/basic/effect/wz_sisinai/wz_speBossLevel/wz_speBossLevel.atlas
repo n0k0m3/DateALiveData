@@ -1,0 +1,111 @@
+
+wz_speBossLevel.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/lizi/lizi_00001
+  rotate: false
+  xy: 2, 42
+  size: 150, 208
+  orig: 294, 294
+  offset: 70, 40
+  index: -1
+images/lizi/lizi_00003
+  rotate: false
+  xy: 2, 252
+  size: 152, 217
+  orig: 294, 294
+  offset: 72, 38
+  index: -1
+images/lizi/lizi_00005
+  rotate: false
+  xy: 2, 471
+  size: 162, 224
+  orig: 294, 294
+  offset: 65, 37
+  index: -1
+images/lizi/lizi_00007
+  rotate: false
+  xy: 2, 697
+  size: 169, 228
+  orig: 294, 294
+  offset: 60, 37
+  index: -1
+images/lizi/lizi_00009
+  rotate: true
+  xy: 730, 767
+  size: 158, 195
+  orig: 294, 294
+  offset: 56, 73
+  index: -1
+images/lizi/lizi_00011
+  rotate: true
+  xy: 532, 764
+  size: 161, 196
+  orig: 294, 294
+  offset: 53, 73
+  index: -1
+images/lizi/lizi_00013
+  rotate: true
+  xy: 532, 596
+  size: 166, 189
+  orig: 294, 294
+  offset: 51, 81
+  index: -1
+images/lizi/lizi_00015
+  rotate: false
+  xy: 166, 381
+  size: 173, 172
+  orig: 294, 294
+  offset: 51, 98
+  index: -1
+images/lizi/lizi_00017
+  rotate: false
+  xy: 154, 58
+  size: 168, 156
+  orig: 294, 294
+  offset: 60, 91
+  index: -1
+images/lizi/lizi_00019
+  rotate: false
+  xy: 156, 216
+  size: 173, 163
+  orig: 294, 294
+  offset: 58, 86
+  index: -1
+images/lizi/lizi_00021
+  rotate: true
+  xy: 353, 562
+  size: 170, 177
+  orig: 294, 294
+  offset: 57, 74
+  index: -1
+images/lizi/lizi_00023
+  rotate: false
+  xy: 173, 555
+  size: 174, 170
+  orig: 294, 294
+  offset: 57, 64
+  index: -1
+images/lizi/lizi_00025
+  rotate: true
+  xy: 532, 419
+  size: 175, 182
+  orig: 294, 294
+  offset: 58, 56
+  index: -1
+images/lizi/lizi_00027
+  rotate: false
+  xy: 353, 734
+  size: 177, 191
+  orig: 294, 294
+  offset: 57, 50
+  index: -1
+images/lizi/lizi_00029
+  rotate: false
+  xy: 173, 727
+  size: 178, 198
+  orig: 294, 294
+  offset: 57, 44
+  index: -1

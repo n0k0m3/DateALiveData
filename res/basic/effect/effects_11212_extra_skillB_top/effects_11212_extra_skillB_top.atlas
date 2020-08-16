@@ -1,0 +1,689 @@
+
+effects_11212_extra_skillB_top.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_L/exskillb/chibang/chibang_084
+  rotate: true
+  xy: 890, 777
+  size: 245, 129
+  orig: 313, 173
+  offset: 34, 24
+  index: -1
+images/effects_L/exskillb/chibang/chibang_102
+  rotate: true
+  xy: 231, 2
+  size: 180, 112
+  orig: 313, 173
+  offset: 60, 25
+  index: -1
+images/effects_L/exskillb/fazhen/fazhen_050
+  rotate: true
+  xy: 600, 194
+  size: 293, 129
+  orig: 295, 140
+  offset: 1, 6
+  index: -1
+images/effects_L/exskillb/guangzhu/guangzhu_104
+  rotate: false
+  xy: 731, 216
+  size: 256, 269
+  orig: 267, 288
+  offset: 3, 16
+  index: -1
+images/effects_L/exskillb/kuo/kuo_049
+  rotate: false
+  xy: 731, 2
+  size: 260, 212
+  orig: 268, 234
+  offset: 8, 12
+  index: -1
+images/effects_L/exskillb/shifa/shifa_004
+  rotate: true
+  xy: 2, 479
+  size: 301, 231
+  orig: 309, 278
+  offset: 2, 12
+  index: -1
+images/effects_L/exskillb/shifa/shifa_006
+  rotate: true
+  xy: 390, 489
+  size: 300, 209
+  orig: 309, 278
+  offset: 3, 14
+  index: -1
+images/effects_L/exskillb/shifa/shifa_008
+  rotate: false
+  xy: 2, 782
+  size: 293, 240
+  orig: 309, 278
+  offset: 9, 17
+  index: -1
+images/effects_L/exskillb/shifa/shifa_010
+  rotate: false
+  xy: 297, 791
+  size: 298, 231
+  orig: 309, 278
+  offset: 11, 21
+  index: -1
+images/effects_L/exskillb/shifa/shifa_012
+  rotate: true
+  xy: 206, 184
+  size: 293, 200
+  orig: 309, 278
+  offset: 16, 47
+  index: -1
+images/effects_L/exskillb/shifa/shifa_014
+  rotate: true
+  xy: 843, 487
+  size: 288, 175
+  orig: 309, 278
+  offset: 21, 64
+  index: -1
+images/effects_L/exskillb/xiantiao/xiantiao_056
+  rotate: true
+  xy: 597, 792
+  size: 230, 291
+  orig: 259, 298
+  offset: 5, 0
+  index: -1
+images/effects_L/exskillb/xiantiao/xiantiao_060
+  rotate: false
+  xy: 601, 501
+  size: 240, 289
+  orig: 259, 298
+  offset: 17, 0
+  index: -1
+images/effects_L/exskillb/xiantiao/xiantiao_074
+  rotate: true
+  xy: 2, 19
+  size: 130, 227
+  orig: 259, 298
+  offset: 75, 48
+  index: -1
+images/effects_L/exskillb/xuanzhuan1/xuanzhuan1_015
+  rotate: true
+  xy: 571, 19
+  size: 173, 149
+  orig: 346, 245
+  offset: 157, 0
+  index: -1
+images/effects_L/exskillb/xuanzhuan1/xuanzhuan1_023
+  rotate: true
+  xy: 2, 151
+  size: 326, 202
+  orig: 346, 245
+  offset: 6, 0
+  index: -1
+images/effects_L/exskillb/xuanzhuan1/xuanzhuan1_053
+  rotate: true
+  xy: 408, 195
+  size: 292, 190
+  orig: 346, 245
+  offset: 24, 8
+  index: -1
+images/effects_L/exskillb/xuanzhuan2/xuanzhuan2_092
+  rotate: true
+  xy: 235, 479
+  size: 301, 153
+  orig: 316, 186
+  offset: 7, 17
+  index: -1
+images/effects_L/exskillb/xunhuan/xunhuan_052
+  rotate: true
+  xy: 989, 287
+  size: 96, 33
+  orig: 152, 69
+  offset: 30, 16
+  index: -1
+images/effects_L/exskillb/xunhuan/xunhuan_061
+  rotate: true
+  xy: 989, 385
+  size: 100, 33
+  orig: 152, 69
+  offset: 28, 16
+  index: -1
+images/effects_L/skillA/xuli/xuli_076
+  rotate: true
+  xy: 345, 4
+  size: 178, 224
+  orig: 224, 280
+  offset: 16, 27
+  index: -1
+
+effects_11212_extra_skillB_top2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_L/exskillb/fazhen/fazhen_054
+  rotate: true
+  xy: 673, 260
+  size: 293, 129
+  orig: 295, 140
+  offset: 1, 6
+  index: -1
+images/effects_L/exskillb/guangzhu/guangzhu_084
+  rotate: true
+  xy: 532, 555
+  size: 222, 270
+  orig: 267, 288
+  offset: 27, 15
+  index: -1
+images/effects_L/exskillb/guangzhu/guangzhu_108
+  rotate: true
+  xy: 532, 779
+  size: 243, 270
+  orig: 267, 288
+  offset: 7, 15
+  index: -1
+images/effects_L/exskillb/guangzhu/guangzhu_110
+  rotate: true
+  xy: 260, 776
+  size: 246, 270
+  orig: 267, 288
+  offset: 0, 15
+  index: -1
+images/effects_L/exskillb/guangzhu/guangzhu_112
+  rotate: false
+  xy: 425, 287
+  size: 246, 266
+  orig: 267, 288
+  offset: 0, 19
+  index: -1
+images/effects_L/exskillb/guangzhu/guangzhu_128
+  rotate: false
+  xy: 2, 753
+  size: 256, 269
+  orig: 267, 288
+  offset: 3, 16
+  index: -1
+images/effects_L/exskillb/guangzhu/guangzhu_130
+  rotate: false
+  xy: 2, 482
+  size: 255, 269
+  orig: 267, 288
+  offset: 4, 16
+  index: -1
+images/effects_L/exskillb/guangzhu/guangzhu_132
+  rotate: false
+  xy: 425, 17
+  size: 244, 268
+  orig: 267, 288
+  offset: 6, 17
+  index: -1
+images/effects_L/exskillb/guangzhu/guangzhu_136
+  rotate: false
+  xy: 804, 755
+  size: 213, 267
+  orig: 267, 288
+  offset: 22, 18
+  index: -1
+images/effects_L/exskillb/kuo/kuo_043
+  rotate: true
+  xy: 804, 499
+  size: 254, 213
+  orig: 268, 234
+  offset: 12, 14
+  index: -1
+images/effects_L/exskillb/kuo/kuo_051
+  rotate: true
+  xy: 804, 238
+  size: 259, 213
+  orig: 268, 234
+  offset: 7, 12
+  index: -1
+images/effects_L/exskillb/shifa/shifa_016
+  rotate: false
+  xy: 671, 13
+  size: 284, 223
+  orig: 309, 278
+  offset: 24, 30
+  index: -1
+images/effects_L/exskillb/xiantiao/xiantiao_052
+  rotate: false
+  xy: 259, 492
+  size: 133, 120
+  orig: 259, 298
+  offset: 48, 103
+  index: -1
+images/effects_L/exskillb/xiantiao/xiantiao_062
+  rotate: false
+  xy: 2, 191
+  size: 226, 289
+  orig: 259, 298
+  offset: 26, 0
+  index: -1
+images/effects_L/exskillb/xiantiao/xiantiao_070
+  rotate: true
+  xy: 260, 614
+  size: 160, 266
+  orig: 259, 298
+  offset: 70, 14
+  index: -1
+images/effects_L/exskillb/xiantiao/xiantiao_076
+  rotate: false
+  xy: 284, 2
+  size: 91, 189
+  orig: 259, 298
+  offset: 82, 80
+  index: -1
+images/effects_L/exskillb/xuanzhuan1/xuanzhuan1_051
+  rotate: true
+  xy: 230, 193
+  size: 287, 193
+  orig: 346, 245
+  offset: 26, 4
+  index: -1
+images/effects_L/exskillb/xuanzhuan1/xuanzhuan1_057
+  rotate: false
+  xy: 2, 6
+  size: 280, 183
+  orig: 346, 245
+  offset: 37, 6
+  index: -1
+images/effects_L/exskillb/xunhuan/xunhuan_053
+  rotate: true
+  xy: 957, 84
+  size: 152, 55
+  orig: 152, 69
+  offset: 0, 5
+  index: -1
+images/effects_L/exskillb/xunhuan/xunhuan_056
+  rotate: true
+  xy: 377, 60
+  size: 131, 43
+  orig: 152, 69
+  offset: 12, 11
+  index: -1
+images/effects_L/exskillb/xunhuan/xunhuan_057
+  rotate: false
+  xy: 394, 571
+  size: 124, 41
+  orig: 152, 69
+  offset: 16, 12
+  index: -1
+
+effects_11212_extra_skillB_top3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_L/exskillb/chibang/chibang_082
+  rotate: false
+  xy: 207, 645
+  size: 282, 152
+  orig: 313, 173
+  offset: 14, 21
+  index: -1
+images/effects_L/exskillb/kuo/kuo_039
+  rotate: false
+  xy: 491, 606
+  size: 230, 205
+  orig: 268, 234
+  offset: 21, 14
+  index: -1
+images/effects_L/exskillb/kuo/kuo_047
+  rotate: false
+  xy: 465, 813
+  size: 259, 209
+  orig: 268, 234
+  offset: 9, 14
+  index: -1
+images/effects_L/exskillb/kuo/kuo_053
+  rotate: false
+  xy: 726, 811
+  size: 257, 211
+  orig: 268, 234
+  offset: 8, 14
+  index: -1
+images/effects_L/exskillb/kuo/kuo_055
+  rotate: false
+  xy: 459, 392
+  size: 255, 212
+  orig: 268, 234
+  offset: 10, 13
+  index: -1
+images/effects_L/exskillb/kuo/kuo_057
+  rotate: false
+  xy: 206, 243
+  size: 251, 205
+  orig: 268, 234
+  offset: 14, 20
+  index: -1
+images/effects_L/exskillb/shifa/shifa_018
+  rotate: false
+  xy: 207, 799
+  size: 256, 223
+  orig: 309, 278
+  offset: 47, 30
+  index: -1
+images/effects_L/exskillb/shifa/shifa_020
+  rotate: false
+  xy: 206, 20
+  size: 217, 221
+  orig: 309, 278
+  offset: 62, 31
+  index: -1
+images/effects_L/exskillb/shifa/shifa_022
+  rotate: true
+  xy: 425, 18
+  size: 209, 213
+  orig: 309, 278
+  offset: 65, 35
+  index: -1
+images/effects_L/exskillb/xiantiao/xiantiao_054
+  rotate: true
+  xy: 197, 450
+  size: 193, 260
+  orig: 259, 298
+  offset: 0, 0
+  index: -1
+images/effects_L/exskillb/xiantiao/xiantiao_066
+  rotate: false
+  xy: 2, 738
+  size: 203, 284
+  orig: 259, 298
+  offset: 39, 2
+  index: -1
+images/effects_L/exskillb/xuanzhuan1/xuanzhuan1_049
+  rotate: true
+  xy: 2, 446
+  size: 290, 193
+  orig: 346, 245
+  offset: 34, 5
+  index: -1
+images/effects_L/exskillb/xuanzhuan1/xuanzhuan1_055
+  rotate: true
+  xy: 2, 164
+  size: 280, 188
+  orig: 346, 245
+  offset: 35, 7
+  index: -1
+images/effects_L/exskillb/xuanzhuan2/xuanzhuan2_100
+  rotate: false
+  xy: 716, 337
+  size: 302, 156
+  orig: 316, 186
+  offset: 7, 13
+  index: -1
+images/effects_L/exskillb/xuanzhuan2/xuanzhuan2_104
+  rotate: false
+  xy: 723, 652
+  size: 299, 157
+  orig: 316, 186
+  offset: 7, 13
+  index: -1
+images/effects_L/exskillb/xuanzhuan2/xuanzhuan2_108
+  rotate: false
+  xy: 701, 179
+  size: 302, 156
+  orig: 316, 186
+  offset: 7, 14
+  index: -1
+images/effects_L/exskillb/xuanzhuan2/xuanzhuan2_116
+  rotate: false
+  xy: 640, 22
+  size: 301, 155
+  orig: 316, 186
+  offset: 8, 14
+  index: -1
+images/effects_L/exskillb/xuanzhuan2/xuanzhuan2_124
+  rotate: false
+  xy: 723, 495
+  size: 299, 155
+  orig: 316, 186
+  offset: 7, 14
+  index: -1
+images/effects_L/exskillb/xunhuan/xunhuan_054
+  rotate: true
+  xy: 943, 26
+  size: 151, 50
+  orig: 152, 69
+  offset: 1, 8
+  index: -1
+images/effects_L/exskillb/xunhuan/xunhuan_059
+  rotate: true
+  xy: 985, 912
+  size: 110, 37
+  orig: 152, 69
+  offset: 23, 14
+  index: -1
+images/effects_L/skillA/xuli/xuli_072
+  rotate: true
+  xy: 459, 229
+  size: 161, 240
+  orig: 224, 280
+  offset: 33, 4
+  index: -1
+images/effects_L/skillA/xuli/xuli_074
+  rotate: true
+  xy: 2, 3
+  size: 159, 202
+  orig: 224, 280
+  offset: 35, 20
+  index: -1
+
+effects_11212_extra_skillB_top4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_L/exskillb/chibang/chibang_086
+  rotate: true
+  xy: 264, 658
+  size: 209, 100
+  orig: 313, 173
+  offset: 54, 24
+  index: -1
+images/effects_L/exskillb/chibang/chibang_088
+  rotate: false
+  xy: 553, 563
+  size: 203, 99
+  orig: 313, 173
+  offset: 56, 23
+  index: -1
+images/effects_L/exskillb/chibang/chibang_090
+  rotate: false
+  xy: 758, 560
+  size: 200, 102
+  orig: 313, 173
+  offset: 56, 21
+  index: -1
+images/effects_L/exskillb/chibang/chibang_092
+  rotate: true
+  xy: 248, 372
+  size: 200, 103
+  orig: 313, 173
+  offset: 57, 21
+  index: -1
+images/effects_L/exskillb/chibang/chibang_094
+  rotate: false
+  xy: 537, 294
+  size: 199, 109
+  orig: 313, 173
+  offset: 58, 19
+  index: -1
+images/effects_L/exskillb/chibang/chibang_096
+  rotate: false
+  xy: 366, 583
+  size: 185, 113
+  orig: 313, 173
+  offset: 59, 18
+  index: -1
+images/effects_L/exskillb/chibang/chibang_098
+  rotate: false
+  xy: 353, 305
+  size: 182, 116
+  orig: 313, 173
+  offset: 60, 17
+  index: -1
+images/effects_L/exskillb/chibang/chibang_100
+  rotate: false
+  xy: 738, 284
+  size: 182, 108
+  orig: 313, 173
+  offset: 58, 27
+  index: -1
+images/effects_L/exskillb/fazhen/fazhen_058
+  rotate: true
+  xy: 2, 574
+  size: 293, 129
+  orig: 295, 140
+  offset: 1, 6
+  index: -1
+images/effects_L/exskillb/fazhen/fazhen_062
+  rotate: false
+  xy: 291, 893
+  size: 293, 129
+  orig: 295, 140
+  offset: 1, 6
+  index: -1
+images/effects_L/exskillb/fazhen/fazhen_066
+  rotate: true
+  xy: 2, 279
+  size: 293, 129
+  orig: 295, 140
+  offset: 1, 6
+  index: -1
+images/effects_L/exskillb/fazhen/fazhen_070
+  rotate: true
+  xy: 133, 574
+  size: 293, 129
+  orig: 295, 140
+  offset: 1, 6
+  index: -1
+images/effects_L/exskillb/guangzhu/guangzhu_140
+  rotate: true
+  xy: 586, 921
+  size: 101, 240
+  orig: 267, 288
+  offset: 84, 45
+  index: -1
+images/effects_L/exskillb/guangzhu/guangzhu_142
+  rotate: true
+  xy: 586, 823
+  size: 96, 219
+  orig: 267, 288
+  offset: 89, 47
+  index: -1
+images/effects_L/exskillb/kuo/kuo_035
+  rotate: true
+  xy: 2, 82
+  size: 195, 174
+  orig: 268, 234
+  offset: 35, 26
+  index: -1
+images/effects_L/exskillb/kuo1/kuo1_039
+  rotate: false
+  xy: 344, 161
+  size: 143, 142
+  orig: 153, 152
+  offset: 5, 5
+  index: -1
+images/effects_L/exskillb/kuo_036
+  rotate: true
+  xy: 133, 363
+  size: 209, 113
+  orig: 214, 128
+  offset: 2, 6
+  index: -1
+images/effects_L/exskillb/shifa/shifa_024
+  rotate: false
+  xy: 749, 664
+  size: 192, 157
+  orig: 309, 278
+  offset: 82, 57
+  index: -1
+images/effects_L/exskillb/shifa/shifa_026
+  rotate: false
+  xy: 828, 864
+  size: 193, 158
+  orig: 309, 278
+  offset: 82, 58
+  index: -1
+images/effects_L/exskillb/shifa/shifa_028
+  rotate: false
+  xy: 554, 664
+  size: 193, 157
+  orig: 309, 278
+  offset: 82, 59
+  index: -1
+images/effects_L/exskillb/shifa/shifa_030
+  rotate: false
+  xy: 353, 423
+  size: 192, 158
+  orig: 309, 278
+  offset: 83, 58
+  index: -1
+images/effects_L/exskillb/xuanzhuan2/xuanzhuan2_120
+  rotate: false
+  xy: 2, 869
+  size: 287, 153
+  orig: 316, 186
+  offset: 7, 17
+  index: -1
+images/effects_L/exskillb/xunhuan/xunhuan_055
+  rotate: false
+  xy: 2, 33
+  size: 142, 47
+  orig: 152, 69
+  offset: 7, 9
+  index: -1
+images/effects_L/exskillb/xunhuan/xunhuan_058
+  rotate: false
+  xy: 807, 823
+  size: 116, 39
+  orig: 152, 69
+  offset: 20, 13
+  index: -1
+images/effects_L/exskillb/xunhuan/xunhuan_060
+  rotate: false
+  xy: 133, 326
+  size: 104, 35
+  orig: 152, 69
+  offset: 26, 15
+  index: -1
+images/effects_L/skillA/glow_000
+  rotate: false
+  xy: 264, 589
+  size: 67, 67
+  orig: 91, 93
+  offset: 12, 13
+  index: -1
+images/effects_L/skillA/xuli/xuli_070
+  rotate: false
+  xy: 928, 409
+  size: 94, 149
+  orig: 224, 280
+  offset: 111, 102
+  index: -1
+images/effects_L/skillA/xuli/xuli_078
+  rotate: true
+  xy: 547, 405
+  size: 156, 193
+  orig: 224, 280
+  offset: 38, 53
+  index: -1
+images/effects_L/skillA/xuli/xuli_080
+  rotate: false
+  xy: 366, 698
+  size: 186, 193
+  orig: 224, 280
+  offset: 38, 53
+  index: -1
+images/effects_L/skillA/xuli/xuli_084
+  rotate: false
+  xy: 742, 394
+  size: 184, 164
+  orig: 224, 280
+  offset: 38, 53
+  index: -1
+images/effects_L/skillA/xuli/xuli_086
+  rotate: true
+  xy: 178, 117
+  size: 165, 164
+  orig: 224, 280
+  offset: 38, 53
+  index: -1

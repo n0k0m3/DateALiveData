@@ -1,0 +1,188 @@
+
+effects_10209_born.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/born/add/add_00003
+  rotate: false
+  xy: 211, 790
+  size: 203, 231
+  orig: 233, 276
+  offset: 25, 40
+  index: -1
+effect/born/add/add_00005
+  rotate: false
+  xy: 2, 790
+  size: 207, 231
+  orig: 233, 276
+  offset: 23, 40
+  index: -1
+effect/born/add/add_00007
+  rotate: false
+  xy: 2, 557
+  size: 206, 231
+  orig: 233, 276
+  offset: 20, 40
+  index: -1
+effect/born/add/add_00009
+  rotate: false
+  xy: 2, 324
+  size: 202, 231
+  orig: 233, 276
+  offset: 22, 40
+  index: -1
+effect/born/add/add_00011
+  rotate: false
+  xy: 210, 557
+  size: 202, 231
+  orig: 233, 276
+  offset: 22, 40
+  index: -1
+effect/born/add/add_00013
+  rotate: false
+  xy: 416, 790
+  size: 193, 231
+  orig: 233, 276
+  offset: 26, 40
+  index: -1
+effect/born/add/add_00015
+  rotate: false
+  xy: 2, 91
+  size: 184, 231
+  orig: 233, 276
+  offset: 34, 40
+  index: -1
+effect/born/add/add_00017
+  rotate: false
+  xy: 206, 324
+  size: 170, 231
+  orig: 233, 276
+  offset: 50, 40
+  index: -1
+effect/born/add/add_00019
+  rotate: false
+  xy: 188, 102
+  size: 173, 220
+  orig: 233, 276
+  offset: 49, 51
+  index: -1
+effect/born/add/add_00021
+  rotate: true
+  xy: 851, 848
+  size: 173, 167
+  orig: 233, 276
+  offset: 49, 104
+  index: -1
+effect/born/add/add_00023
+  rotate: false
+  xy: 851, 701
+  size: 170, 145
+  orig: 233, 276
+  offset: 49, 106
+  index: -1
+effect/born/add/add_00025
+  rotate: false
+  xy: 871, 282
+  size: 128, 129
+  orig: 233, 276
+  offset: 50, 119
+  index: -1
+effect/born/add/add_00027
+  rotate: true
+  xy: 2, 6
+  size: 83, 110
+  orig: 233, 276
+  offset: 61, 134
+  index: -1
+effect/born/add1/add2_00018
+  rotate: false
+  xy: 714, 198
+  size: 144, 144
+  orig: 299, 193
+  offset: 80, 24
+  index: -1
+effect/born/add1/add2_00020
+  rotate: true
+  xy: 871, 413
+  size: 141, 107
+  orig: 299, 193
+  offset: 82, 47
+  index: -1
+effect/born/add1/add2_00022
+  rotate: false
+  xy: 540, 231
+  size: 172, 129
+  orig: 299, 193
+  offset: 64, 30
+  index: -1
+effect/born/add1/add2_00024
+  rotate: true
+  xy: 719, 344
+  size: 196, 150
+  orig: 299, 193
+  offset: 52, 19
+  index: -1
+effect/born/add1/add2_00026
+  rotate: true
+  xy: 378, 340
+  size: 215, 160
+  orig: 299, 193
+  offset: 43, 14
+  index: -1
+effect/born/add1/add2_00028
+  rotate: true
+  xy: 414, 560
+  size: 228, 168
+  orig: 299, 193
+  offset: 36, 11
+  index: -1
+effect/born/add1/add2_00030
+  rotate: false
+  xy: 611, 858
+  size: 238, 163
+  orig: 299, 193
+  offset: 31, 13
+  index: -1
+effect/born/add1/add2_00032
+  rotate: false
+  xy: 584, 542
+  size: 244, 156
+  orig: 299, 193
+  offset: 28, 17
+  index: -1
+effect/born/add1/add2_00034
+  rotate: false
+  xy: 611, 700
+  size: 238, 156
+  orig: 299, 193
+  offset: 34, 17
+  index: -1
+effect/born/add1/add2_00036
+  rotate: false
+  xy: 830, 556
+  size: 134, 142
+  orig: 299, 193
+  offset: 91, 25
+  index: -1
+effect/born/add1/add2_00038
+  rotate: true
+  xy: 860, 150
+  size: 130, 134
+  orig: 299, 193
+  offset: 92, 31
+  index: -1
+effect/born/add1/add2_00040
+  rotate: true
+  xy: 378, 225
+  size: 113, 126
+  orig: 299, 193
+  offset: 93, 36
+  index: -1
+effect/skillB/2_00110
+  rotate: false
+  xy: 540, 362
+  size: 177, 178
+  orig: 213, 193
+  offset: 18, 5
+  index: -1

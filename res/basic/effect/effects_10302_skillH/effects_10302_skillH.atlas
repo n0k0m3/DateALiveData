@@ -1,0 +1,188 @@
+
+effects_10302_skillH.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/glow2_000
+  rotate: false
+  xy: 80, 12
+  size: 74, 74
+  orig: 80, 80
+  offset: 3, 3
+  index: -1
+images/effects/glow_000
+  rotate: false
+  xy: 2, 10
+  size: 76, 76
+  orig: 80, 80
+  offset: 2, 2
+  index: -1
+images/effects/skillh/bingqiu/bingqiu_000
+  rotate: false
+  xy: 303, 15
+  size: 160, 124
+  orig: 160, 128
+  offset: 0, 4
+  index: -1
+images/effects/skillh/bingqiu/bingqiu_004
+  rotate: false
+  xy: 863, 894
+  size: 159, 128
+  orig: 160, 128
+  offset: 0, 0
+  index: -1
+images/effects/skillh/bingqiu/bingqiu_008
+  rotate: false
+  xy: 465, 12
+  size: 156, 128
+  orig: 160, 128
+  offset: 0, 0
+  index: -1
+images/effects/skillh/bingqiu/bingqiu_012
+  rotate: true
+  xy: 623, 11
+  size: 160, 128
+  orig: 160, 128
+  offset: 0, 0
+  index: -1
+images/effects/skillh/bingqiu/bingqiu_016
+  rotate: true
+  xy: 815, 417
+  size: 150, 128
+  orig: 160, 128
+  offset: 10, 0
+  index: -1
+images/effects/skillh/liuqiu/liuqiu_000
+  rotate: true
+  xy: 303, 141
+  size: 274, 148
+  orig: 288, 173
+  offset: 6, 10
+  index: -1
+images/effects/skillh/liuqiu/liuqiu_002
+  rotate: false
+  xy: 292, 717
+  size: 276, 149
+  orig: 288, 173
+  offset: 4, 10
+  index: -1
+images/effects/skillh/liuqiu/liuqiu_004
+  rotate: false
+  xy: 290, 568
+  size: 276, 147
+  orig: 288, 173
+  offset: 4, 10
+  index: -1
+images/effects/skillh/liuqiu/liuqiu_006
+  rotate: true
+  xy: 153, 90
+  size: 279, 148
+  orig: 288, 173
+  offset: 7, 6
+  index: -1
+images/effects/skillh/liuqiu/liuqiu_008
+  rotate: false
+  xy: 2, 528
+  size: 281, 155
+  orig: 288, 173
+  offset: 7, 3
+  index: -1
+images/effects/skillh/liuqiu/liuqiu_010
+  rotate: false
+  xy: 580, 871
+  size: 281, 151
+  orig: 288, 173
+  offset: 7, 8
+  index: -1
+images/effects/skillh/liuqiu/liuqiu_012
+  rotate: true
+  xy: 2, 88
+  size: 281, 149
+  orig: 288, 173
+  offset: 7, 10
+  index: -1
+images/effects/skillh/liuqiu/liuqiu_014
+  rotate: false
+  xy: 285, 417
+  size: 276, 149
+  orig: 288, 173
+  offset: 7, 10
+  index: -1
+images/effects/skillh/liuqiu/liuqiu_016
+  rotate: true
+  xy: 453, 142
+  size: 273, 149
+  orig: 288, 173
+  offset: 7, 10
+  index: -1
+images/effects/skillh/liuqiu/liuqiu_018
+  rotate: false
+  xy: 580, 721
+  size: 273, 148
+  orig: 288, 173
+  offset: 7, 10
+  index: -1
+images/effects/skillh/liuqiux/liuqiux_000
+  rotate: true
+  xy: 904, 180
+  size: 235, 116
+  orig: 288, 176
+  offset: 22, 40
+  index: -1
+images/effects/skillh/liuqiux/liuqiux_002
+  rotate: false
+  xy: 2, 371
+  size: 277, 155
+  orig: 288, 176
+  offset: 5, 12
+  index: -1
+images/effects/skillh/liuqiux/liuqiux_004
+  rotate: false
+  xy: 2, 685
+  size: 286, 167
+  orig: 288, 176
+  offset: 2, 4
+  index: -1
+images/effects/skillh/liuqiux/liuqiux_006
+  rotate: false
+  xy: 2, 854
+  size: 288, 168
+  orig: 288, 176
+  offset: 0, 3
+  index: -1
+images/effects/skillh/liuqiux/liuqiux_008
+  rotate: false
+  xy: 292, 868
+  size: 286, 154
+  orig: 288, 176
+  offset: 2, 22
+  index: -1
+images/effects/skillh/liuqiux/liuqiux_010
+  rotate: true
+  xy: 756, 174
+  size: 241, 146
+  orig: 288, 176
+  offset: 26, 30
+  index: -1
+images/effects/skillh/liuqiux/liuqiux_012
+  rotate: false
+  xy: 604, 569
+  size: 245, 150
+  orig: 288, 176
+  offset: 24, 26
+  index: -1
+images/effects/skillh/liuqiux/liuqiux_013
+  rotate: true
+  xy: 604, 173
+  size: 242, 150
+  orig: 288, 176
+  offset: 26, 26
+  index: -1
+images/effects/skillh/liuqiux/liuqiux_014
+  rotate: false
+  xy: 568, 417
+  size: 245, 150
+  orig: 288, 176
+  offset: 24, 26
+  index: -1

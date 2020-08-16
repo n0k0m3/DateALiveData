@@ -1,0 +1,118 @@
+
+effects_Fbullets_9.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/glow_00000
+  rotate: false
+  xy: 2, 788
+  size: 217, 217
+  orig: 250, 250
+  offset: 13, 20
+  index: -1
+images/xuli/xuli_00000
+  rotate: false
+  xy: 520, 621
+  size: 46, 83
+  orig: 250, 250
+  offset: 99, 98
+  index: -1
+images/xuli/xuli_00002
+  rotate: false
+  xy: 2, 227
+  size: 181, 180
+  orig: 250, 250
+  offset: 38, 27
+  index: -1
+images/xuli/xuli_00004
+  rotate: false
+  xy: 2, 409
+  size: 188, 183
+  orig: 250, 250
+  offset: 32, 26
+  index: -1
+images/xuli/xuli_00006
+  rotate: false
+  xy: 2, 594
+  size: 189, 192
+  orig: 250, 250
+  offset: 31, 27
+  index: -1
+images/xuli/xuli_00008
+  rotate: false
+  xy: 221, 809
+  size: 181, 196
+  orig: 250, 250
+  offset: 38, 26
+  index: -1
+images/xuli/xuli_00010
+  rotate: false
+  xy: 404, 809
+  size: 173, 196
+  orig: 250, 250
+  offset: 41, 26
+  index: -1
+images/xuli/xuli_00012
+  rotate: false
+  xy: 579, 827
+  size: 168, 178
+  orig: 250, 250
+  offset: 40, 33
+  index: -1
+images/xuli/xuli_00014
+  rotate: false
+  xy: 749, 839
+  size: 152, 166
+  orig: 250, 250
+  offset: 50, 39
+  index: -1
+images/xuli/xuli_00016
+  rotate: true
+  xy: 405, 596
+  size: 108, 113
+  orig: 250, 250
+  offset: 68, 63
+  index: -1
+images/zidan/zidan_00000
+  rotate: false
+  xy: 434, 706
+  size: 209, 101
+  orig: 300, 200
+  offset: 43, 47
+  index: -1
+images/zidan/zidan_00002
+  rotate: true
+  xy: 107, 10
+  size: 215, 102
+  orig: 300, 200
+  offset: 37, 47
+  index: -1
+images/zidan/zidan_00004
+  rotate: true
+  xy: 903, 790
+  size: 215, 102
+  orig: 300, 200
+  offset: 37, 48
+  index: -1
+images/zidan/zidan_00006
+  rotate: false
+  xy: 193, 602
+  size: 210, 102
+  orig: 300, 200
+  offset: 43, 48
+  index: -1
+images/zidan/zidan_00008
+  rotate: true
+  xy: 2, 9
+  size: 216, 103
+  orig: 300, 200
+  offset: 38, 48
+  index: -1
+images/zidan/zidan_00010
+  rotate: false
+  xy: 221, 706
+  size: 211, 101
+  orig: 300, 200
+  offset: 41, 47
+  index: -1

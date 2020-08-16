@@ -1,0 +1,236 @@
+
+effects_30201_skillC.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/guangquan_00022
+  rotate: true
+  xy: 471, 200
+  size: 184, 34
+  orig: 198, 47
+  offset: 7, 6
+  index: -1
+effects/ring
+  rotate: false
+  xy: 2, 327
+  size: 183, 183
+  orig: 183, 183
+  offset: 0, 0
+  index: -1
+effects/skillC/baozha1/baozha1_00035
+  rotate: false
+  xy: 227, 2
+  size: 132, 84
+  orig: 148, 94
+  offset: 10, 0
+  index: -1
+effects/skillC/baozha1/baozha1_00039
+  rotate: false
+  xy: 80, 78
+  size: 133, 83
+  orig: 148, 94
+  offset: 5, 0
+  index: -1
+effects/skillC/baozha1/baozha1_00041
+  rotate: true
+  xy: 379, 80
+  size: 141, 76
+  orig: 148, 94
+  offset: 3, 2
+  index: -1
+effects/skillC/baozha1/baozha1_00043
+  rotate: false
+  xy: 361, 2
+  size: 143, 76
+  orig: 148, 94
+  offset: 2, 4
+  index: -1
+effects/skillC/baozha1/baozha1_00049
+  rotate: true
+  xy: 495, 86
+  size: 112, 15
+  orig: 148, 94
+  offset: 16, 11
+  index: -1
+effects/skillC/daodan/daodan_0001
+  rotate: false
+  xy: 457, 104
+  size: 36, 94
+  orig: 92, 184
+  offset: 31, 52
+  index: -1
+effects/skillC/daodan/daodan_0003
+  rotate: false
+  xy: 457, 104
+  size: 36, 94
+  orig: 92, 184
+  offset: 31, 52
+  index: -1
+effects/skillC/lzi/lizi_00007
+  rotate: false
+  xy: 351, 386
+  size: 153, 124
+  orig: 162, 142
+  offset: 5, 7
+  index: -1
+effects/skillC/lzi/lizi_00009
+  rotate: true
+  xy: 209, 214
+  size: 161, 130
+  orig: 162, 142
+  offset: 1, 6
+  index: -1
+effects/skillC/lzi/lizi_00011
+  rotate: false
+  xy: 187, 377
+  size: 162, 133
+  orig: 162, 142
+  offset: 0, 5
+  index: -1
+effects/skillC/lzi/lizi_00013
+  rotate: true
+  xy: 80, 163
+  size: 162, 127
+  orig: 162, 142
+  offset: 0, 11
+  index: -1
+effects/skillC/lzi/lizi_00015
+  rotate: false
+  xy: 215, 88
+  size: 162, 124
+  orig: 162, 142
+  offset: 0, 11
+  index: -1
+effects/skillC/lzi/lizi_00017
+  rotate: true
+  xy: 341, 223
+  size: 152, 106
+  orig: 162, 142
+  offset: 6, 22
+  index: -1
+effects/skillC/smoker2/smoker2_00024
+  rotate: false
+  xy: 187, 327
+  size: 17, 48
+  orig: 31, 69
+  offset: 12, 11
+  index: -1
+effects/skillC/smoker2/smoker2_00027
+  rotate: true
+  xy: 351, 377
+  size: 7, 62
+  orig: 31, 69
+  offset: 12, 4
+  index: -1
+effects/skillC/yanwu2/yanwu2_00033
+  rotate: true
+  xy: 449, 260
+  size: 124, 20
+  orig: 250, 77
+  offset: 25, 36
+  index: -1
+effects/skillC/yanwu2/yanwu2_00035
+  rotate: true
+  xy: 2, 78
+  size: 247, 76
+  orig: 250, 77
+  offset: 3, 1
+  index: -1
+effects/skillC/yanwu2/yanwu2_00037
+  rotate: false
+  xy: 2, 2
+  size: 223, 74
+  orig: 250, 77
+  offset: 27, 3
+  index: -1
+
+effects_30201_skillC2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skillC/baozha1/baozha1_00037
+  rotate: false
+  xy: 145, 430
+  size: 128, 80
+  orig: 148, 94
+  offset: 10, 1
+  index: -1
+effects/skillC/baozha1/baozha1_00045
+  rotate: true
+  xy: 2, 163
+  size: 124, 70
+  orig: 148, 94
+  offset: 10, 10
+  index: -1
+effects/skillC/baozha1/baozha1_00047
+  rotate: false
+  xy: 275, 445
+  size: 117, 65
+  orig: 148, 94
+  offset: 15, 11
+  index: -1
+effects/skillC/daodan/daodan_0002
+  rotate: false
+  xy: 74, 193
+  size: 36, 94
+  orig: 92, 184
+  offset: 30, 52
+  index: -1
+effects/skillC/daodan/daodan_0004
+  rotate: false
+  xy: 74, 193
+  size: 36, 94
+  orig: 92, 184
+  offset: 30, 52
+  index: -1
+effects/skillC/lzi/lizi_00001
+  rotate: true
+  xy: 2, 67
+  size: 94, 79
+  orig: 162, 142
+  offset: 26, 10
+  index: -1
+effects/skillC/lzi/lizi_00003
+  rotate: false
+  xy: 2, 289
+  size: 121, 105
+  orig: 162, 142
+  offset: 18, 5
+  index: -1
+effects/skillC/lzi/lizi_00005
+  rotate: false
+  xy: 2, 396
+  size: 141, 114
+  orig: 162, 142
+  offset: 10, 10
+  index: -1
+effects/skillC/smoker2/smoker2_00025
+  rotate: false
+  xy: 2, 2
+  size: 25, 63
+  orig: 31, 69
+  offset: 4, 3
+  index: -1
+effects/skillC/smoker2/smoker2_00026
+  rotate: false
+  xy: 29, 2
+  size: 21, 63
+  orig: 31, 69
+  offset: 4, 3
+  index: -1
+effects/skillC/tx_halo_5005
+  rotate: false
+  xy: 394, 418
+  size: 92, 92
+  orig: 92, 92
+  offset: 0, 0
+  index: -1
+effects/skillC/yanwu2/yanwu2_00031
+  rotate: false
+  xy: 145, 409
+  size: 61, 19
+  orig: 250, 77
+  offset: 9, 34
+  index: -1

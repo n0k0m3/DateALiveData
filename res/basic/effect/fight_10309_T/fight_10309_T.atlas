@@ -1,0 +1,97 @@
+
+fight_10309_T.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+x_doll_zm0001
+  rotate: false
+  xy: 2, 91
+  size: 36, 33
+  orig: 36, 33
+  offset: 0, 0
+  index: -1
+x_doll_zm0002
+  rotate: false
+  xy: 2, 56
+  size: 36, 33
+  orig: 36, 33
+  offset: 0, 0
+  index: -1
+x_doll_zm0003
+  rotate: false
+  xy: 40, 91
+  size: 36, 33
+  orig: 36, 33
+  offset: 0, 0
+  index: -1
+x_doll_zm0004
+  rotate: false
+  xy: 2, 21
+  size: 36, 33
+  orig: 36, 33
+  offset: 0, 0
+  index: -1
+x_doll_zm0005
+  rotate: false
+  xy: 40, 56
+  size: 36, 33
+  orig: 36, 33
+  offset: 0, 0
+  index: -1
+x_doll_zm0006
+  rotate: false
+  xy: 78, 91
+  size: 36, 33
+  orig: 36, 33
+  offset: 0, 0
+  index: -1
+x_doll_zm0007
+  rotate: false
+  xy: 40, 21
+  size: 36, 33
+  orig: 36, 33
+  offset: 0, 0
+  index: -1
+x_doll_zm0008
+  rotate: false
+  xy: 78, 6
+  size: 24, 23
+  orig: 24, 23
+  offset: 0, 0
+  index: -1
+x_doll_zm0009
+  rotate: true
+  xy: 116, 103
+  size: 21, 8
+  orig: 21, 8
+  offset: 0, 0
+  index: -1
+x_doll_zm0010
+  rotate: false
+  xy: 78, 31
+  size: 24, 27
+  orig: 24, 27
+  offset: 0, 0
+  index: -1
+x_doll_zm0011
+  rotate: false
+  xy: 37, 8
+  size: 27, 11
+  orig: 27, 11
+  offset: 0, 0
+  index: -1
+x_doll_zm0012
+  rotate: false
+  xy: 78, 60
+  size: 26, 29
+  orig: 26, 29
+  offset: 0, 0
+  index: -1
+x_doll_zm0013
+  rotate: true
+  xy: 2, 4
+  size: 15, 33
+  orig: 15, 33
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,649 @@
+
+effects_30202_stage.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/stage/add/boom3__00005
+  rotate: false
+  xy: 2, 793
+  size: 250, 229
+  orig: 250, 229
+  offset: 0, 0
+  index: -1
+effects/stage/add/boom3__00007
+  rotate: false
+  xy: 2, 562
+  size: 250, 229
+  orig: 250, 229
+  offset: 0, 0
+  index: -1
+effects/stage/add/boom3__00009
+  rotate: false
+  xy: 254, 793
+  size: 250, 229
+  orig: 250, 229
+  offset: 0, 0
+  index: -1
+effects/stage/add/boom3__00011
+  rotate: false
+  xy: 2, 339
+  size: 250, 221
+  orig: 250, 229
+  offset: 0, 0
+  index: -1
+effects/stage/add/boom3__00013
+  rotate: false
+  xy: 254, 616
+  size: 236, 175
+  orig: 250, 229
+  offset: 14, 18
+  index: -1
+effects/stage/add/boom3__00015
+  rotate: false
+  xy: 2, 171
+  size: 193, 166
+  orig: 250, 229
+  offset: 30, 25
+  index: -1
+effects/stage/add/boom__00003
+  rotate: true
+  xy: 254, 317
+  size: 117, 180
+  orig: 140, 205
+  offset: 13, 6
+  index: -1
+effects/stage/add/boom__00004
+  rotate: true
+  xy: 197, 183
+  size: 132, 203
+  orig: 140, 205
+  offset: 2, 2
+  index: -1
+effects/stage/add/boom__00005
+  rotate: false
+  xy: 110, 3
+  size: 137, 166
+  orig: 140, 205
+  offset: 1, 30
+  index: -1
+effects/stage/add/boom__00006
+  rotate: true
+  xy: 436, 296
+  size: 139, 160
+  orig: 140, 205
+  offset: 0, 31
+  index: -1
+effects/stage/add/boom__00007
+  rotate: true
+  xy: 868, 641
+  size: 106, 153
+  orig: 140, 205
+  offset: 0, 33
+  index: -1
+effects/stage/add/qiu__00057
+  rotate: false
+  xy: 254, 436
+  size: 178, 178
+  orig: 182, 181
+  offset: 2, 1
+  index: -1
+effects/stage/add/shan__00034
+  rotate: true
+  xy: 492, 616
+  size: 57, 116
+  orig: 90, 149
+  offset: 2, 33
+  index: -1
+effects/stage/add/yanwu__00036
+  rotate: false
+  xy: 598, 295
+  size: 147, 151
+  orig: 148, 213
+  offset: 0, 31
+  index: -1
+effects/stage/add/yanwu__00038
+  rotate: true
+  xy: 864, 493
+  size: 146, 155
+  orig: 148, 213
+  offset: 2, 42
+  index: -1
+effects/stage/nor/beiyan__00000
+  rotate: true
+  xy: 506, 675
+  size: 164, 185
+  orig: 210, 214
+  offset: 18, 13
+  index: -1
+effects/stage/nor/beiyan__00002
+  rotate: false
+  xy: 583, 4
+  size: 162, 185
+  orig: 210, 214
+  offset: 14, 13
+  index: -1
+effects/stage/nor/beiyan__00004
+  rotate: true
+  xy: 826, 326
+  size: 165, 185
+  orig: 210, 214
+  offset: 13, 13
+  index: -1
+effects/stage/nor/beiyan__00006
+  rotate: true
+  xy: 409, 6
+  size: 180, 172
+  orig: 210, 214
+  offset: 6, 13
+  index: -1
+effects/stage/nor/beiyan__00008
+  rotate: false
+  xy: 249, 6
+  size: 158, 175
+  orig: 210, 214
+  offset: 37, 13
+  index: -1
+effects/stage/nor/beiyan__00010
+  rotate: false
+  xy: 506, 841
+  size: 179, 181
+  orig: 210, 214
+  offset: 19, 13
+  index: -1
+effects/stage/nor/beiyan__00012
+  rotate: false
+  xy: 687, 843
+  size: 177, 179
+  orig: 210, 214
+  offset: 18, 13
+  index: -1
+effects/stage/nor/beiyan__00014
+  rotate: true
+  xy: 826, 161
+  size: 163, 185
+  orig: 210, 214
+  offset: 25, 13
+  index: -1
+effects/stage/nor/boom2_00006
+  rotate: true
+  xy: 578, 448
+  size: 166, 141
+  orig: 166, 150
+  offset: 0, 4
+  index: -1
+effects/stage/nor/boom2_00008
+  rotate: false
+  xy: 747, 9
+  size: 166, 150
+  orig: 166, 150
+  offset: 0, 0
+  index: -1
+effects/stage/nor/boom2_00014
+  rotate: true
+  xy: 721, 507
+  size: 151, 141
+  orig: 166, 150
+  offset: 15, 9
+  index: -1
+effects/stage/nor/dian__00039
+  rotate: false
+  xy: 747, 317
+  size: 77, 188
+  orig: 77, 197
+  offset: 0, 4
+  index: -1
+effects/stage/nor/yan2__00047
+  rotate: false
+  xy: 687, 625
+  size: 25, 33
+  orig: 87, 112
+  offset: 24, 10
+  index: -1
+effects/stage/nor/yan2__00059
+  rotate: true
+  xy: 739, 235
+  size: 58, 85
+  orig: 87, 112
+  offset: 22, 10
+  index: -1
+effects/stage/nor/yan2__00061
+  rotate: true
+  xy: 739, 201
+  size: 32, 60
+  orig: 87, 112
+  offset: 27, 10
+  index: -1
+effects/stage/nor/yan3__00009
+  rotate: true
+  xy: 747, 170
+  size: 29, 60
+  orig: 124, 178
+  offset: 46, 45
+  index: -1
+effects/stage/nor/yan3__00015
+  rotate: true
+  xy: 868, 749
+  size: 100, 154
+  orig: 124, 178
+  offset: 12, 18
+  index: -1
+effects/stage/nor/yan3__00017
+  rotate: true
+  xy: 572, 191
+  size: 102, 165
+  orig: 124, 178
+  offset: 13, 10
+  index: -1
+effects/stage/nor/yan3__00019
+  rotate: false
+  xy: 2, 2
+  size: 106, 167
+  orig: 124, 178
+  offset: 10, 7
+  index: -1
+effects/stage/nor/yan3__00021
+  rotate: true
+  xy: 402, 188
+  size: 106, 168
+  orig: 124, 178
+  offset: 10, 6
+  index: -1
+effects/stage/nor/yan__00047
+  rotate: true
+  xy: 915, 27
+  size: 132, 107
+  orig: 238, 202
+  offset: 19, 12
+  index: -1
+effects/stage/nor/yan__00049
+  rotate: false
+  xy: 866, 851
+  size: 155, 171
+  orig: 238, 202
+  offset: 9, 12
+  index: -1
+effects/stage/nor/yan__00051
+  rotate: false
+  xy: 693, 660
+  size: 173, 181
+  orig: 238, 202
+  offset: 10, 12
+  index: -1
+effects/stage/nor/yan__00053
+  rotate: false
+  xy: 434, 437
+  size: 142, 177
+  orig: 238, 202
+  offset: 53, 12
+  index: -1
+effects/stage/nor/yan__00061
+  rotate: true
+  xy: 610, 620
+  size: 53, 75
+  orig: 238, 202
+  offset: 171, 30
+  index: -1
+
+effects_30202_stage2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/stage/add/boom3__00017
+  rotate: true
+  xy: 228, 277
+  size: 148, 74
+  orig: 250, 229
+  offset: 41, 62
+  index: -1
+effects/stage/add/boom3__00019
+  rotate: true
+  xy: 411, 583
+  size: 91, 63
+  orig: 250, 229
+  offset: 96, 72
+  index: -1
+effects/stage/add/boom__00002
+  rotate: false
+  xy: 221, 12
+  size: 76, 117
+  orig: 140, 205
+  offset: 38, 14
+  index: -1
+effects/stage/add/boom__00008
+  rotate: false
+  xy: 129, 270
+  size: 97, 119
+  orig: 140, 205
+  offset: 8, 62
+  index: -1
+effects/stage/add/lizi__00007
+  rotate: false
+  xy: 537, 697
+  size: 73, 78
+  orig: 120, 138
+  offset: 6, 6
+  index: -1
+effects/stage/add/lizi__00008
+  rotate: false
+  xy: 445, 747
+  size: 84, 90
+  orig: 120, 138
+  offset: 4, 11
+  index: -1
+effects/stage/add/lizi__00009
+  rotate: false
+  xy: 927, 842
+  size: 95, 102
+  orig: 120, 138
+  offset: 3, 18
+  index: -1
+effects/stage/add/lizi__00010
+  rotate: false
+  xy: 807, 789
+  size: 95, 82
+  orig: 120, 138
+  offset: 3, 27
+  index: -1
+effects/stage/add/lizi__00011
+  rotate: true
+  xy: 506, 479
+  size: 104, 88
+  orig: 120, 138
+  offset: 4, 37
+  index: -1
+effects/stage/add/lizi__00012
+  rotate: true
+  xy: 299, 12
+  size: 114, 90
+  orig: 120, 138
+  offset: 5, 48
+  index: -1
+effects/stage/add/qiu2__00058
+  rotate: false
+  xy: 155, 579
+  size: 140, 139
+  orig: 158, 156
+  offset: 8, 7
+  index: -1
+effects/stage/add/shan__00028
+  rotate: true
+  xy: 476, 585
+  size: 90, 96
+  orig: 90, 149
+  offset: 0, 0
+  index: -1
+effects/stage/add/shan__00029
+  rotate: true
+  xy: 297, 584
+  size: 90, 112
+  orig: 90, 149
+  offset: 0, 0
+  index: -1
+effects/stage/add/shan__00030
+  rotate: true
+  xy: 314, 747
+  size: 90, 129
+  orig: 90, 149
+  offset: 0, 0
+  index: -1
+effects/stage/add/shan__00031
+  rotate: false
+  xy: 531, 777
+  size: 87, 104
+  orig: 90, 149
+  offset: 2, 10
+  index: -1
+effects/stage/add/shan__00032
+  rotate: false
+  xy: 620, 782
+  size: 89, 104
+  orig: 90, 149
+  offset: 1, 25
+  index: -1
+effects/stage/add/shan__00033
+  rotate: false
+  xy: 318, 468
+  size: 88, 114
+  orig: 90, 149
+  offset: 2, 29
+  index: -1
+effects/stage/add/yanwu__00030
+  rotate: false
+  xy: 2, 2
+  size: 125, 126
+  orig: 148, 213
+  offset: 15, 9
+  index: -1
+effects/stage/add/yanwu__00032
+  rotate: false
+  xy: 604, 888
+  size: 134, 134
+  orig: 148, 213
+  offset: 8, 17
+  index: -1
+effects/stage/add/yanwu__00034
+  rotate: false
+  xy: 320, 880
+  size: 142, 142
+  orig: 148, 213
+  offset: 2, 24
+  index: -1
+effects/stage/add/yanwu__00040
+  rotate: false
+  xy: 170, 862
+  size: 148, 160
+  orig: 148, 213
+  offset: 0, 53
+  index: -1
+effects/stage/nor/boom2_00002
+  rotate: false
+  xy: 904, 769
+  size: 99, 71
+  orig: 166, 150
+  offset: 19, 37
+  index: -1
+effects/stage/nor/boom2_00004
+  rotate: true
+  xy: 2, 130
+  size: 145, 120
+  orig: 166, 150
+  offset: 0, 7
+  index: -1
+effects/stage/nor/boom2_00010
+  rotate: false
+  xy: 2, 872
+  size: 166, 150
+  orig: 166, 150
+  offset: 0, 0
+  index: -1
+effects/stage/nor/boom2_00012
+  rotate: false
+  xy: 2, 720
+  size: 166, 150
+  orig: 166, 150
+  offset: 0, 0
+  index: -1
+effects/stage/nor/boom2_00016
+  rotate: false
+  xy: 2, 578
+  size: 151, 140
+  orig: 166, 150
+  offset: 15, 10
+  index: -1
+effects/stage/nor/boom2_00018
+  rotate: false
+  xy: 170, 720
+  size: 142, 140
+  orig: 166, 150
+  offset: 16, 10
+  index: -1
+effects/stage/nor/boom2_00020
+  rotate: true
+  xy: 408, 471
+  size: 110, 96
+  orig: 166, 150
+  offset: 27, 33
+  index: -1
+effects/stage/nor/dian__00036
+  rotate: true
+  xy: 740, 873
+  size: 71, 185
+  orig: 77, 197
+  offset: 0, 9
+  index: -1
+effects/stage/nor/dian__00037
+  rotate: true
+  xy: 740, 946
+  size: 76, 188
+  orig: 77, 197
+  offset: 0, 5
+  index: -1
+effects/stage/nor/dian__00040
+  rotate: false
+  xy: 137, 391
+  size: 69, 185
+  orig: 77, 197
+  offset: 8, 2
+  index: -1
+effects/stage/nor/dian__00041
+  rotate: true
+  xy: 314, 676
+  size: 69, 133
+  orig: 77, 197
+  offset: 7, 54
+  index: -1
+effects/stage/nor/huo__00052
+  rotate: false
+  xy: 711, 782
+  size: 94, 89
+  orig: 160, 172
+  offset: 11, 0
+  index: -1
+effects/stage/nor/huo__00054
+  rotate: false
+  xy: 2, 277
+  size: 125, 146
+  orig: 160, 172
+  offset: 10, 1
+  index: -1
+effects/stage/nor/huo__00056
+  rotate: false
+  xy: 2, 425
+  size: 133, 151
+  orig: 160, 172
+  offset: 15, 5
+  index: -1
+effects/stage/nor/huo__00058
+  rotate: false
+  xy: 464, 883
+  size: 138, 139
+  orig: 160, 172
+  offset: 12, 24
+  index: -1
+effects/stage/nor/huo__00060
+  rotate: false
+  xy: 124, 136
+  size: 131, 132
+  orig: 160, 172
+  offset: 14, 33
+  index: -1
+effects/stage/nor/huo__00062
+  rotate: false
+  xy: 596, 446
+  size: 63, 67
+  orig: 160, 172
+  offset: 19, 99
+  index: -1
+effects/stage/nor/yan2__00049
+  rotate: true
+  xy: 591, 393
+  size: 51, 76
+  orig: 87, 112
+  offset: 13, 9
+  index: -1
+effects/stage/nor/yan2__00051
+  rotate: true
+  xy: 506, 419
+  size: 58, 83
+  orig: 87, 112
+  offset: 13, 9
+  index: -1
+effects/stage/nor/yan2__00053
+  rotate: true
+  xy: 930, 959
+  size: 63, 92
+  orig: 87, 112
+  offset: 14, 9
+  index: -1
+effects/stage/nor/yan2__00055
+  rotate: false
+  xy: 574, 605
+  size: 61, 90
+  orig: 87, 112
+  offset: 18, 9
+  index: -1
+effects/stage/nor/yan2__00057
+  rotate: false
+  xy: 596, 515
+  size: 60, 88
+  orig: 87, 112
+  offset: 20, 10
+  index: -1
+effects/stage/nor/yan3__00010
+  rotate: true
+  xy: 320, 839
+  size: 39, 138
+  orig: 124, 178
+  offset: 42, 40
+  index: -1
+effects/stage/nor/yan3__00011
+  rotate: false
+  xy: 257, 131
+  size: 50, 144
+  orig: 124, 178
+  offset: 32, 34
+  index: -1
+effects/stage/nor/yan3__00012
+  rotate: false
+  xy: 309, 128
+  size: 62, 147
+  orig: 124, 178
+  offset: 24, 29
+  index: -1
+effects/stage/nor/yan3__00013
+  rotate: false
+  xy: 304, 277
+  size: 72, 148
+  orig: 124, 178
+  offset: 17, 26
+  index: -1
+effects/stage/nor/yan__00046
+  rotate: true
+  xy: 612, 716
+  size: 59, 53
+  orig: 238, 202
+  offset: 66, 12
+  index: -1
+effects/stage/nor/yan__00055
+  rotate: false
+  xy: 208, 427
+  size: 108, 150
+  orig: 238, 202
+  offset: 96, 14
+  index: -1
+effects/stage/nor/yan__00057
+  rotate: false
+  xy: 129, 2
+  size: 90, 132
+  orig: 238, 202
+  offset: 129, 14
+  index: -1
+effects/stage/nor/yan__00059
+  rotate: true
+  xy: 449, 677
+  size: 68, 86
+  orig: 238, 202
+  offset: 158, 18
+  index: -1

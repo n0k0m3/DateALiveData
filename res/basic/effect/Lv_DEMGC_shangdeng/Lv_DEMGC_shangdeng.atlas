@@ -1,0 +1,20 @@
+
+Lv_DEMGC_shangdeng.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/texiao/deng_00000
+  rotate: false
+  xy: 2, 44
+  size: 79, 37
+  orig: 84, 84
+  offset: 2, 24
+  index: -1
+images/texiao/xiaodeng_00000
+  rotate: false
+  xy: 2, 32
+  size: 15, 10
+  orig: 35, 35
+  offset: 10, 13
+  index: -1

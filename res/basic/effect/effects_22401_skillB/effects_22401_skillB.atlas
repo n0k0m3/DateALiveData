@@ -1,0 +1,160 @@
+
+effects_22401_skillB.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow/shanguang1
+  rotate: false
+  xy: 341, 368
+  size: 134, 27
+  orig: 148, 27
+  offset: 7, 0
+  index: -1
+skillb/guangzhu/fight_22401-skillB_guangzhu_00010
+  rotate: false
+  xy: 2, 162
+  size: 130, 448
+  orig: 130, 448
+  offset: 0, 0
+  index: -1
+skillb/jingbao/skillB_suoxiaoquan
+  rotate: false
+  xy: 134, 206
+  size: 114, 37
+  orig: 115, 62
+  offset: 1, 11
+  index: -1
+skillb/jingbao/skillB_suoxiaoquan1
+  rotate: true
+  xy: 926, 735
+  size: 114, 37
+  orig: 115, 62
+  offset: 1, 11
+  index: -1
+skillb/shandianliziqiu/fight_22401-skillB shandian,lizi,qiu00001
+  rotate: false
+  xy: 531, 410
+  size: 161, 175
+  orig: 161, 175
+  offset: 0, 0
+  index: -1
+skillb/shandianliziqiu/fight_22401-skillB shandian,lizi,qiu00002
+  rotate: true
+  xy: 751, 854
+  size: 161, 173
+  orig: 161, 175
+  offset: 0, 0
+  index: -1
+skillb/shandianliziqiu/fight_22401-skillB shandian,lizi,qiu00004
+  rotate: false
+  xy: 2, 2
+  size: 154, 158
+  orig: 161, 175
+  offset: 3, 2
+  index: -1
+skillb/shandianliziqiu/fight_22401-skillB shandian,lizi,qiu00005
+  rotate: true
+  xy: 716, 707
+  size: 145, 146
+  orig: 161, 175
+  offset: 8, 7
+  index: -1
+skillb/shandianliziqiu/fight_22401-skillB shandian,lizi,qiu00009
+  rotate: false
+  xy: 709, 572
+  size: 134, 133
+  orig: 161, 175
+  offset: 6, 16
+  index: -1
+skillb/shandianluoxia/xiugai/fight_22401-skillB_shandianluoxiaxiugai00014
+  rotate: true
+  xy: 134, 166
+  size: 38, 78
+  orig: 67, 78
+  offset: 15, 0
+  index: -1
+skillb/shandianluoxia/xiugai/fight_22401-skillB_shandianluoxiaxiugai00015
+  rotate: false
+  xy: 864, 709
+  size: 60, 143
+  orig: 101, 149
+  offset: 25, 0
+  index: -1
+skillb/shandianluoxia/xiugai/fight_22401-skillB_shandianluoxiaxiugai00016
+  rotate: true
+  xy: 378, 888
+  size: 127, 371
+  orig: 141, 379
+  offset: 7, 4
+  index: -1
+skillb/shandianluoxia/xiugai/fight_22401-skillB_shandianluoxiaxiugai00017
+  rotate: false
+  xy: 134, 245
+  size: 128, 365
+  orig: 128, 367
+  offset: 0, 0
+  index: -1
+skillb/shandianluoxia/xiugai/fight_22401-skillB_shandianluoxiaxiugai00019
+  rotate: true
+  xy: 378, 728
+  size: 158, 336
+  orig: 169, 338
+  offset: 11, 2
+  index: -1
+skillb/shandianluoxia/xiugai/fight_22401-skillB_shandianluoxiaxiugai00021
+  rotate: false
+  xy: 2, 612
+  size: 182, 403
+  orig: 185, 403
+  offset: 3, 0
+  index: -1
+skillb/shandianluoxia/xiugai/fight_22401-skillB_shandianluoxiaxiugai00022
+  rotate: false
+  xy: 186, 654
+  size: 190, 361
+  orig: 210, 386
+  offset: 20, 25
+  index: -1
+skillb/shandianluoxia/xiugai/fight_22401-skillB_shandianluoxiaxiugai00025
+  rotate: false
+  xy: 341, 397
+  size: 188, 188
+  orig: 210, 246
+  offset: 22, 25
+  index: -1
+skillb/shandianluoxia/xiugai/fight_22401-skillB_shandianluoxiaxiugai00027
+  rotate: true
+  xy: 378, 587
+  size: 139, 329
+  orig: 181, 333
+  offset: 23, 4
+  index: -1
+skillb/shandianluoxia/xiugai/fight_22401-skillB_shandianluoxiaxiugai00029
+  rotate: false
+  xy: 264, 353
+  size: 75, 299
+  orig: 83, 314
+  offset: 4, 8
+  index: -1
+skillb/xiantiao/fight_22401-skillB xiantiao_00013
+  rotate: false
+  xy: 264, 245
+  size: 46, 106
+  orig: 56, 154
+  offset: 4, 0
+  index: -1
+skillb/yuan/yuan
+  rotate: false
+  xy: 186, 644
+  size: 14, 8
+  orig: 70, 70
+  offset: 28, 23
+  index: -1
+skillb/yuanquan/fight_22401-skillB_yuanquan00021
+  rotate: true
+  xy: 926, 851
+  size: 164, 70
+  orig: 280, 140
+  offset: 58, 12
+  index: -1

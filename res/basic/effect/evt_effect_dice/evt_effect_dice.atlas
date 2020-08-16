@@ -1,0 +1,425 @@
+
+evt_effect_dice.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/dingdian/h1_00000
+  rotate: false
+  xy: 684, 417
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+images/dingdian/h2_00000
+  rotate: false
+  xy: 648, 253
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+images/glow_00002
+  rotate: false
+  xy: 2, 766
+  size: 255, 256
+  orig: 256, 256
+  offset: 1, 0
+  index: -1
+images/hongtouzi/hongtouzi_00005
+  rotate: true
+  xy: 319, 279
+  size: 149, 128
+  orig: 200, 220
+  offset: 29, 83
+  index: -1
+images/hongtouzi/hongtouzi_00006
+  rotate: true
+  xy: 2, 49
+  size: 154, 145
+  orig: 200, 220
+  offset: 27, 75
+  index: -1
+images/hongtouzi/hongtouzi_00007
+  rotate: false
+  xy: 2, 205
+  size: 148, 155
+  orig: 200, 220
+  offset: 33, 50
+  index: -1
+images/hongtouzi/hongtouzi_00008
+  rotate: false
+  xy: 149, 52
+  size: 145, 151
+  orig: 200, 220
+  offset: 32, 16
+  index: -1
+images/hongtouzi/hongtouzi_00009
+  rotate: true
+  xy: 648, 136
+  size: 115, 118
+  orig: 200, 220
+  offset: 47, 16
+  index: -1
+images/hongtouzi/hongtouzi_00010
+  rotate: false
+  xy: 877, 916
+  size: 113, 106
+  orig: 200, 220
+  offset: 48, 20
+  index: -1
+images/hongtouzi/hongtouzi_00011
+  rotate: true
+  xy: 678, 666
+  size: 136, 118
+  orig: 200, 220
+  offset: 38, 15
+  index: -1
+images/hongtouzi/hongtouzi_00012
+  rotate: true
+  xy: 555, 650
+  size: 146, 121
+  orig: 200, 220
+  offset: 31, 12
+  index: -1
+images/hongtouzi/hongtouzi_00013
+  rotate: true
+  xy: 798, 677
+  size: 130, 113
+  orig: 200, 220
+  offset: 37, 14
+  index: -1
+images/hongtouzi/hongtouzi_00014
+  rotate: true
+  xy: 449, 318
+  size: 162, 115
+  orig: 200, 220
+  offset: 17, 12
+  index: -1
+images/hongtouzi/hongtouzi_00015
+  rotate: false
+  xy: 323, 482
+  size: 171, 111
+  orig: 200, 220
+  offset: 10, 12
+  index: -1
+images/hongtouzi/hongtouzi_00016
+  rotate: true
+  xy: 566, 375
+  size: 151, 116
+  orig: 200, 220
+  offset: 19, 8
+  index: -1
+images/hongtouzi/hongtouzi_00017
+  rotate: false
+  xy: 152, 237
+  size: 165, 123
+  orig: 200, 220
+  offset: 14, 6
+  index: -1
+images/hongtouzi/hongtouzi_00018
+  rotate: true
+  xy: 204, 595
+  size: 169, 118
+  orig: 200, 220
+  offset: 18, 11
+  index: -1
+images/hongtouzi/hongtouzi_00019
+  rotate: true
+  xy: 259, 866
+  size: 156, 119
+  orig: 200, 220
+  offset: 31, 13
+  index: -1
+images/hongtouzi/hongtouzi_00020
+  rotate: true
+  xy: 532, 153
+  size: 163, 114
+  orig: 200, 220
+  offset: 29, 17
+  index: -1
+images/hongtouzi/hongtouzi_00021
+  rotate: true
+  xy: 418, 109
+  size: 168, 112
+  orig: 200, 220
+  offset: 25, 17
+  index: -1
+images/hongtouzi/hongtouzi_00022
+  rotate: false
+  xy: 545, 913
+  size: 163, 109
+  orig: 200, 220
+  offset: 23, 16
+  index: -1
+images/hongtouzi/hongtouzi_00023
+  rotate: true
+  xy: 439, 640
+  size: 156, 114
+  orig: 200, 220
+  offset: 20, 11
+  index: -1
+images/hongtouzi/hongtouzi_00024
+  rotate: false
+  xy: 586, 804
+  size: 165, 107
+  orig: 200, 220
+  offset: 12, 14
+  index: -1
+images/hongtouzi/hongtouzi_00025
+  rotate: true
+  xy: 204, 430
+  size: 163, 117
+  orig: 200, 220
+  offset: 14, 9
+  index: -1
+images/hongtouzi/hongtouzi_00026
+  rotate: true
+  xy: 296, 67
+  size: 168, 120
+  orig: 200, 220
+  offset: 12, 8
+  index: -1
+images/hongtouzi/hongtouzi_00027
+  rotate: false
+  xy: 659, 539
+  size: 158, 109
+  orig: 200, 220
+  offset: 19, 15
+  index: -1
+images/hongtouzi/hongtouzi_00028
+  rotate: true
+  xy: 324, 604
+  size: 161, 113
+  orig: 200, 220
+  offset: 21, 15
+  index: -1
+images/hongtouzi/hongtouzi_00029
+  rotate: false
+  xy: 380, 910
+  size: 163, 112
+  orig: 200, 220
+  offset: 23, 18
+  index: -1
+images/hongtouzi/hongtouzi_00030
+  rotate: false
+  xy: 496, 528
+  size: 161, 110
+  orig: 200, 220
+  offset: 29, 21
+  index: -1
+images/hongtouzi/hongtouzi_00031
+  rotate: false
+  xy: 710, 915
+  size: 165, 107
+  orig: 200, 220
+  offset: 30, 25
+  index: -1
+images/hongtouzi/hongtouzi_00032
+  rotate: false
+  xy: 517, 5
+  size: 165, 102
+  orig: 200, 220
+  offset: 29, 27
+  index: -1
+images/hongtouzi/hongtouzi_00033
+  rotate: false
+  xy: 259, 767
+  size: 158, 97
+  orig: 200, 220
+  offset: 27, 26
+  index: -1
+images/hongtouzi/hongtouzi_00034
+  rotate: true
+  xy: 913, 664
+  size: 146, 95
+  orig: 200, 220
+  offset: 30, 24
+  index: -1
+images/hongtouzi/hongtouzi_00035
+  rotate: false
+  xy: 753, 809
+  size: 153, 104
+  orig: 200, 220
+  offset: 28, 17
+  index: -1
+images/hongtouzi/hongtouzi_00036
+  rotate: false
+  xy: 419, 798
+  size: 165, 110
+  orig: 200, 220
+  offset: 22, 11
+  index: -1
+images/touzi/hong1_00036
+  rotate: false
+  xy: 2, 564
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+images/touzi/hong2_00036
+  rotate: false
+  xy: 2, 362
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+images/touzi_00000
+  rotate: false
+  xy: 819, 467
+  size: 90, 97
+  orig: 150, 150
+  offset: 29, 26
+  index: -1
+images/touzibai/touzibai_00035
+  rotate: false
+  xy: 908, 812
+  size: 114, 102
+  orig: 150, 150
+  offset: 19, 25
+  index: -1
+images/touzibai/touzibai_00036
+  rotate: true
+  xy: 819, 566
+  size: 109, 92
+  orig: 150, 150
+  offset: 23, 27
+  index: -1
+images/xingxing/xingxing_00001
+  rotate: true
+  xy: 2, 6
+  size: 41, 39
+  orig: 200, 200
+  offset: 77, 75
+  index: -1
+images/xingxing/xingxing_00002
+  rotate: false
+  xy: 204, 369
+  size: 59, 59
+  orig: 200, 200
+  offset: 72, 65
+  index: -1
+images/xingxing/xingxing_00003
+  rotate: false
+  xy: 684, 60
+  size: 74, 74
+  orig: 200, 200
+  offset: 67, 58
+  index: -1
+images/xingxing/xingxing_00006
+  rotate: true
+  xy: 806, 360
+  size: 105, 101
+  orig: 200, 200
+  offset: 53, 44
+  index: -1
+images/xingxing/xingxing_00009
+  rotate: false
+  xy: 887, 81
+  size: 113, 112
+  orig: 200, 200
+  offset: 47, 38
+  index: -1
+images/xingxing/xingxing_00010
+  rotate: false
+  xy: 909, 312
+  size: 112, 114
+  orig: 200, 200
+  offset: 47, 37
+  index: -1
+images/xingxing/xingxing_00011
+  rotate: false
+  xy: 768, 125
+  size: 117, 115
+  orig: 200, 200
+  offset: 47, 36
+  index: -1
+images/xingxing/xingxing_00012
+  rotate: false
+  xy: 911, 428
+  size: 111, 113
+  orig: 200, 200
+  offset: 47, 37
+  index: -1
+images/xingxing/xingxing_00013
+  rotate: false
+  xy: 760, 10
+  size: 111, 113
+  orig: 200, 200
+  offset: 48, 36
+  index: -1
+images/xingxing/xingxing_00014
+  rotate: false
+  xy: 913, 543
+  size: 108, 119
+  orig: 200, 200
+  offset: 44, 34
+  index: -1
+images/xingxing/xingxing_00015
+  rotate: false
+  xy: 896, 195
+  size: 118, 115
+  orig: 200, 200
+  offset: 50, 38
+  index: -1
+images/xingxing/xingxing_00016
+  rotate: false
+  xy: 770, 242
+  size: 124, 116
+  orig: 200, 200
+  offset: 45, 38
+  index: -1
+images/xingxing/xingxing_00017
+  rotate: true
+  xy: 408, 11
+  size: 54, 107
+  orig: 200, 200
+  offset: 53, 38
+  index: -1
+images/xingxing/xingxing_00018
+  rotate: true
+  xy: 296, 8
+  size: 57, 110
+  orig: 200, 200
+  offset: 53, 35
+  index: -1
+
+evt_effect_dice2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/glow_000
+  rotate: false
+  xy: 116, 219
+  size: 96, 96
+  orig: 100, 100
+  offset: 2, 2
+  index: -1
+images/xingxing/xingxing_00004
+  rotate: false
+  xy: 214, 229
+  size: 85, 86
+  orig: 200, 200
+  offset: 63, 52
+  index: -1
+images/xingxing/xingxing_00005
+  rotate: false
+  xy: 2, 2
+  size: 97, 94
+  orig: 200, 200
+  offset: 57, 48
+  index: -1
+images/xingxing/xingxing_00007
+  rotate: false
+  xy: 2, 98
+  size: 110, 106
+  orig: 200, 200
+  offset: 50, 41
+  index: -1
+images/xingxing/xingxing_00008
+  rotate: false
+  xy: 2, 206
+  size: 112, 109
+  orig: 200, 200
+  offset: 48, 40
+  index: -1

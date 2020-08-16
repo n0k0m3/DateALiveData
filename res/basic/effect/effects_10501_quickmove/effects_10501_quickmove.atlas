@@ -1,0 +1,69 @@
+
+effects_10501_quickmove.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/canying_00000
+  rotate: false
+  xy: 2, 94
+  size: 47, 32
+  orig: 49, 32
+  offset: 0, 0
+  index: -1
+images/effects/skillb/huoqiu/huoqiu_00003
+  rotate: true
+  xy: 17, 2
+  size: 42, 14
+  orig: 50, 14
+  offset: 6, 0
+  index: -1
+images/effects/skillb/huoqiu/huoqiu_00004
+  rotate: true
+  xy: 33, 54
+  size: 38, 14
+  orig: 50, 14
+  offset: 11, 0
+  index: -1
+images/effects/skillb/huoqiu/huoqiu_00005
+  rotate: false
+  xy: 51, 97
+  size: 41, 14
+  orig: 50, 14
+  offset: 7, 0
+  index: -1
+images/effects/skillb/huoqiu/huoqiu_00006
+  rotate: true
+  xy: 17, 46
+  size: 46, 14
+  orig: 50, 14
+  offset: 3, 0
+  index: -1
+images/effects/skillb/huoqiu/huoqiu_00007
+  rotate: true
+  xy: 2, 43
+  size: 49, 13
+  orig: 50, 14
+  offset: 1, 1
+  index: -1
+images/effects/skillb/huoqiu/huoqiu_00008
+  rotate: false
+  xy: 51, 113
+  size: 48, 13
+  orig: 50, 14
+  offset: 0, 0
+  index: -1
+images/effects/skillb/huoqiu/huoqiu_00009
+  rotate: true
+  xy: 33, 17
+  size: 35, 13
+  orig: 50, 14
+  offset: 11, 0
+  index: -1
+images/effects/skillb/huoqiu/huoqiu_00010
+  rotate: true
+  xy: 2, 2
+  size: 39, 13
+  orig: 50, 14
+  offset: 8, 0
+  index: -1

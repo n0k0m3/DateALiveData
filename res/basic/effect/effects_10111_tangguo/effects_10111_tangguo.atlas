@@ -1,0 +1,62 @@
+
+effects_10111_tangguo.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/tangguo/5add_00000
+  rotate: true
+  xy: 2, 185
+  size: 205, 208
+  orig: 213, 213
+  offset: 8, 0
+  index: -1
+images/tangguo/5nor_00000
+  rotate: true
+  xy: 214, 9
+  size: 128, 127
+  orig: 213, 213
+  offset: 50, 39
+  index: -1
+images/tangguo/6add_00000
+  rotate: false
+  xy: 236, 349
+  size: 213, 155
+  orig: 213, 178
+  offset: 0, 8
+  index: -1
+images/tangguo/6nor_00000
+  rotate: true
+  xy: 111, 16
+  size: 167, 101
+  orig: 213, 178
+  offset: 26, 35
+  index: -1
+images/tangguo/7add_00000
+  rotate: false
+  xy: 2, 392
+  size: 232, 112
+  orig: 249, 142
+  offset: 9, 23
+  index: -1
+images/tangguo/7nor_00000
+  rotate: true
+  xy: 417, 139
+  size: 208, 87
+  orig: 249, 142
+  offset: 21, 35
+  index: -1
+images/tangguo/8add_00000
+  rotate: false
+  xy: 212, 213
+  size: 203, 134
+  orig: 249, 178
+  offset: 29, 21
+  index: -1
+images/tangguo/8nor_00000
+  rotate: true
+  xy: 2, 8
+  size: 175, 107
+  orig: 249, 178
+  offset: 42, 34
+  index: -1

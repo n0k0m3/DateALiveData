@@ -1,0 +1,27 @@
+
+effects_11201_skillD_effect2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/baidi
+  rotate: false
+  xy: 336, 349
+  size: 30, 17
+  orig: 30, 17
+  offset: 0, 0
+  index: -1
+images/effect/lightq_00000
+  rotate: false
+  xy: 2, 133
+  size: 34, 90
+  orig: 34, 90
+  offset: 0, 0
+  index: -1
+images/effect/skylg_00049
+  rotate: false
+  xy: 2, 225
+  size: 332, 141
+  orig: 336, 141
+  offset: 2, 0
+  index: -1

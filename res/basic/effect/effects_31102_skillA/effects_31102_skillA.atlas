@@ -1,0 +1,125 @@
+
+effects_31102_skillA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects2/glow
+  rotate: false
+  xy: 708, 362
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+effects2/skilla/zhua1/zhua1_000
+  rotate: false
+  xy: 510, 249
+  size: 175, 83
+  orig: 288, 240
+  offset: 15, 118
+  index: -1
+effects2/skilla/zhua1/zhua1_001
+  rotate: true
+  xy: 2, 264
+  size: 280, 215
+  orig: 288, 240
+  offset: 8, 5
+  index: -1
+effects2/skilla/zhua1/zhua1_002
+  rotate: false
+  xy: 2, 781
+  size: 280, 234
+  orig: 288, 240
+  offset: 8, 6
+  index: -1
+effects2/skilla/zhua1/zhua1_004
+  rotate: false
+  xy: 2, 546
+  size: 277, 233
+  orig: 288, 240
+  offset: 10, 7
+  index: -1
+effects2/skilla/zhua1/zhua1_006
+  rotate: false
+  xy: 182, 18
+  size: 272, 204
+  orig: 288, 240
+  offset: 13, 10
+  index: -1
+effects2/skilla/zhua1/zhua1_008
+  rotate: false
+  xy: 284, 788
+  size: 269, 227
+  orig: 288, 240
+  offset: 17, 0
+  index: -1
+effects2/skilla/zhua1/zhua1_010
+  rotate: true
+  xy: 2, 18
+  size: 244, 178
+  orig: 288, 240
+  offset: 22, 19
+  index: -1
+effects2/skilla/zhua1/zhua1_012
+  rotate: false
+  xy: 281, 546
+  size: 229, 170
+  orig: 288, 240
+  offset: 24, 36
+  index: -1
+effects2/skilla/zhua2/zhua2_000
+  rotate: false
+  xy: 510, 334
+  size: 196, 108
+  orig: 320, 160
+  offset: 4, 28
+  index: -1
+effects2/skilla/zhua2/zhua2_001
+  rotate: false
+  xy: 555, 855
+  size: 320, 160
+  orig: 320, 160
+  offset: 0, 0
+  index: -1
+effects2/skilla/zhua2/zhua2_002
+  rotate: false
+  xy: 555, 718
+  size: 320, 135
+  orig: 320, 160
+  offset: 0, 16
+  index: -1
+effects2/skilla/zhua2/zhua2_003
+  rotate: true
+  xy: 219, 224
+  size: 320, 150
+  orig: 320, 160
+  offset: 0, 2
+  index: -1
+effects2/skilla/zhua2/zhua2_004
+  rotate: true
+  xy: 877, 695
+  size: 320, 138
+  orig: 320, 160
+  offset: 0, 14
+  index: -1
+effects2/skilla/zhua2/zhua2_006
+  rotate: true
+  xy: 371, 224
+  size: 320, 137
+  orig: 320, 160
+  offset: 0, 17
+  index: -1
+effects2/skilla/zhua2/zhua2_008
+  rotate: false
+  xy: 512, 580
+  size: 310, 136
+  orig: 320, 160
+  offset: 5, 18
+  index: -1
+effects2/skilla/zhua2/zhua2_010
+  rotate: false
+  xy: 512, 444
+  size: 297, 134
+  orig: 320, 160
+  offset: 8, 18
+  index: -1

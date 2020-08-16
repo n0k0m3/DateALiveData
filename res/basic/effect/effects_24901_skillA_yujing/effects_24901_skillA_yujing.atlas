@@ -1,0 +1,13 @@
+
+effects_24901_skillA_yujing.png
+size: 64,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillA/yujing
+  rotate: false
+  xy: 2, 2
+  size: 16, 49
+  orig: 16, 51
+  offset: 0, 1
+  index: -1

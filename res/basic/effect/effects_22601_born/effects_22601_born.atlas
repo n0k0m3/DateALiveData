@@ -1,0 +1,174 @@
+
+effects_22601_born.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/born/glow_00033
+  rotate: false
+  xy: 280, 441
+  size: 66, 66
+  orig: 93, 90
+  offset: 13, 12
+  index: -1
+images/effects/born/huohua/huohua_00033
+  rotate: false
+  xy: 374, 386
+  size: 69, 60
+  orig: 81, 74
+  offset: 5, 8
+  index: -1
+images/effects/born/huohua/huohua_00034
+  rotate: false
+  xy: 206, 441
+  size: 72, 66
+  orig: 81, 74
+  offset: 4, 3
+  index: -1
+images/effects/born/huohua/huohua_00035
+  rotate: false
+  xy: 132, 440
+  size: 72, 67
+  orig: 81, 74
+  offset: 4, 3
+  index: -1
+images/effects/born/line2_00012
+  rotate: false
+  xy: 2, 196
+  size: 47, 157
+  orig: 73, 164
+  offset: 11, 4
+  index: -1
+images/effects/born/line_00012
+  rotate: false
+  xy: 2, 355
+  size: 54, 152
+  orig: 73, 164
+  offset: 8, 6
+  index: -1
+images/effects/born/smoker/smoker_00033
+  rotate: true
+  xy: 51, 283
+  size: 70, 47
+  orig: 93, 83
+  offset: 11, 12
+  index: -1
+images/effects/born/smoker/smoker_00034
+  rotate: true
+  xy: 445, 376
+  size: 70, 51
+  orig: 93, 83
+  offset: 11, 10
+  index: -1
+images/effects/born/smoker/smoker_00035
+  rotate: false
+  xy: 445, 317
+  size: 62, 57
+  orig: 93, 83
+  offset: 19, 10
+  index: -1
+images/effects/born/smoker/smoker_00036
+  rotate: false
+  xy: 62, 148
+  size: 61, 62
+  orig: 93, 83
+  offset: 18, 10
+  index: -1
+images/effects/born/smoker/smoker_00037
+  rotate: true
+  xy: 2, 7
+  size: 38, 63
+  orig: 93, 83
+  offset: 25, 11
+  index: -1
+images/effects/born/smoker/smoker_00038
+  rotate: false
+  xy: 62, 92
+  size: 41, 54
+  orig: 93, 83
+  offset: 21, 23
+  index: -1
+images/effects/born/waifaguang/waifaguang_00012
+  rotate: false
+  xy: 314, 368
+  size: 58, 71
+  orig: 69, 87
+  offset: 5, 2
+  index: -1
+images/effects/born/waifaguang/waifaguang_00013
+  rotate: false
+  xy: 2, 47
+  size: 58, 72
+  orig: 69, 87
+  offset: 5, 1
+  index: -1
+images/effects/born/waifaguang/waifaguang_00014
+  rotate: false
+  xy: 193, 366
+  size: 58, 72
+  orig: 69, 87
+  offset: 5, 2
+  index: -1
+images/effects/born/waifaguang/waifaguang_00015
+  rotate: true
+  xy: 58, 360
+  size: 59, 72
+  orig: 69, 87
+  offset: 5, 5
+  index: -1
+images/effects/born/waifaguang/waifaguang_00016
+  rotate: false
+  xy: 132, 366
+  size: 59, 72
+  orig: 69, 87
+  offset: 5, 8
+  index: -1
+images/effects/born/waifaguang/waifaguang_00017
+  rotate: true
+  xy: 423, 448
+  size: 59, 72
+  orig: 69, 87
+  offset: 5, 10
+  index: -1
+images/effects/born/waifaguang/waifaguang_00018
+  rotate: true
+  xy: 348, 448
+  size: 59, 73
+  orig: 69, 87
+  offset: 5, 12
+  index: -1
+images/effects/born/waifaguang/waifaguang_00019
+  rotate: false
+  xy: 253, 368
+  size: 59, 71
+  orig: 69, 87
+  offset: 5, 14
+  index: -1
+images/effects/born/waifaguang/waifaguang_00020
+  rotate: false
+  xy: 2, 121
+  size: 58, 73
+  orig: 69, 87
+  offset: 5, 14
+  index: -1
+images/effects/born/waifaguang/waifaguang_00021
+  rotate: true
+  xy: 374, 326
+  size: 58, 69
+  orig: 69, 87
+  offset: 5, 17
+  index: -1
+images/effects/born/waifaguang/waifaguang_00022
+  rotate: false
+  xy: 51, 212
+  size: 57, 69
+  orig: 69, 87
+  offset: 6, 16
+  index: -1
+images/effects/born/waifaguang_00011
+  rotate: false
+  xy: 58, 421
+  size: 72, 86
+  orig: 80, 89
+  offset: 2, 2
+  index: -1

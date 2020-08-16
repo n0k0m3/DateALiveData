@@ -1,0 +1,118 @@
+
+effect_DEM2_texiao.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/deng1_00001
+  rotate: false
+  xy: 2, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+images/deng2_00002
+  rotate: false
+  xy: 832, 663
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+images/deng3_00002
+  rotate: false
+  xy: 104, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+images/glow_000
+  rotate: false
+  xy: 832, 561
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+images/jindutiao_00000
+  rotate: false
+  xy: 2, 745
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+images/shine/shanguang_00000
+  rotate: false
+  xy: 204, 765
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+images/shine/shanguang_00001
+  rotate: false
+  xy: 386, 765
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+images/shine/shanguang_00002
+  rotate: false
+  xy: 568, 765
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+images/shine/shanguang_00003
+  rotate: false
+  xy: 750, 765
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+images/shine/shanguang_00004
+  rotate: false
+  xy: 2, 286
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+images/shine/shanguang_00005
+  rotate: false
+  xy: 2, 104
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+images/shine/shanguang_00006
+  rotate: false
+  xy: 104, 563
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+images/shine/shanguang_00007
+  rotate: false
+  xy: 286, 583
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+images/shine/shanguang_00008
+  rotate: false
+  xy: 468, 583
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+images/shine/shanguang_00009
+  rotate: false
+  xy: 650, 583
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+images/yyyyy
+  rotate: false
+  xy: 2, 468
+  size: 100, 275
+  orig: 100, 275
+  offset: 0, 0
+  index: -1

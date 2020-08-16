@@ -1,0 +1,507 @@
+
+effects_11212_skillG.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_H/glow1_034
+  rotate: true
+  xy: 411, 95
+  size: 189, 57
+  orig: 250, 200
+  offset: 29, 73
+  index: -1
+images/effects_H/glow_000
+  rotate: false
+  xy: 2, 447
+  size: 96, 96
+  orig: 100, 100
+  offset: 2, 2
+  index: -1
+images/effects_H/skillG/guangdan_000
+  rotate: false
+  xy: 805, 284
+  size: 212, 210
+  orig: 300, 300
+  offset: 44, 45
+  index: -1
+images/effects_H/skillG/hit/hit_001
+  rotate: true
+  xy: 806, 496
+  size: 234, 215
+  orig: 300, 250
+  offset: 33, 12
+  index: -1
+images/effects_H/skillG/hit/hit_005
+  rotate: true
+  xy: 2, 2
+  size: 280, 211
+  orig: 300, 250
+  offset: 10, 3
+  index: -1
+images/effects_H/skillG/hit1/hit1_001
+  rotate: true
+  xy: 179, 286
+  size: 234, 200
+  orig: 300, 200
+  offset: 33, 0
+  index: -1
+images/effects_H/skillG/hit1/hit1_005
+  rotate: true
+  xy: 215, 2
+  size: 280, 194
+  orig: 300, 200
+  offset: 10, 0
+  index: -1
+images/effects_H/skillG/shifa/shifa_026
+  rotate: true
+  xy: 805, 214
+  size: 68, 116
+  orig: 300, 300
+  offset: 112, 77
+  index: -1
+images/effects_H/skillG/xuli/xuli_000
+  rotate: true
+  xy: 806, 732
+  size: 290, 215
+  orig: 400, 400
+  offset: 58, 50
+  index: -1
+images/effects_H/skillG/xuli/xuli_002
+  rotate: false
+  xy: 404, 447
+  size: 399, 259
+  orig: 400, 400
+  offset: 0, 45
+  index: -1
+images/effects_H/skillG/xuli/xuli_004
+  rotate: false
+  xy: 2, 706
+  size: 400, 316
+  orig: 400, 400
+  offset: 0, 45
+  index: -1
+images/effects_H/skillG/xuli/xuli_006
+  rotate: false
+  xy: 404, 708
+  size: 400, 314
+  orig: 400, 400
+  offset: 0, 47
+  index: -1
+images/effects_H/skillG/xuli/xuli_016
+  rotate: false
+  xy: 472, 190
+  size: 331, 255
+  orig: 400, 400
+  offset: 28, 86
+  index: -1
+images/effects_H/skillG/xunhuan/xunhuan_001
+  rotate: true
+  xy: 2, 545
+  size: 159, 87
+  orig: 210, 138
+  offset: 34, 25
+  index: -1
+images/effects_H/skillG/xunhuan/xunhuan_003
+  rotate: true
+  xy: 936, 123
+  size: 159, 86
+  orig: 210, 138
+  offset: 34, 26
+  index: -1
+images/effects_H/skillG/xunhuan/xunhuan_005
+  rotate: false
+  xy: 776, 99
+  size: 158, 89
+  orig: 210, 138
+  offset: 35, 24
+  index: -1
+images/effects_H/skillG/xunhuan/xunhuan_007
+  rotate: true
+  xy: 91, 285
+  size: 160, 86
+  orig: 210, 138
+  offset: 33, 26
+  index: -1
+images/effects_H/skillG/xunhuan/xunhuan_012
+  rotate: true
+  xy: 2, 285
+  size: 160, 87
+  orig: 210, 138
+  offset: 33, 26
+  index: -1
+images/effects_H/skillG/xunhuan/xunhuan_013
+  rotate: true
+  xy: 381, 286
+  size: 159, 89
+  orig: 210, 138
+  offset: 34, 25
+  index: -1
+images/effects_H/skillG/zidan/zidan_-01
+  rotate: false
+  xy: 100, 522
+  size: 301, 90
+  orig: 350, 100
+  offset: 23, 10
+  index: -1
+images/effects_H/skillG/zidan/zidan_-02
+  rotate: false
+  xy: 720, 6
+  size: 298, 90
+  orig: 350, 100
+  offset: 26, 10
+  index: -1
+images/effects_H/skillG/zidan/zidan_000
+  rotate: false
+  xy: 470, 98
+  size: 304, 90
+  orig: 350, 100
+  offset: 20, 10
+  index: -1
+images/effects_H/skillG/zidan/zidan_001
+  rotate: false
+  xy: 411, 3
+  size: 307, 90
+  orig: 350, 100
+  offset: 17, 10
+  index: -1
+images/effects_H/skillG/zidan/zidan_002
+  rotate: false
+  xy: 91, 614
+  size: 310, 90
+  orig: 350, 100
+  offset: 14, 10
+  index: -1
+
+effects_11212_skillG2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_H/skillG/hit/hit_000
+  rotate: false
+  xy: 589, 2
+  size: 173, 116
+  orig: 300, 250
+  offset: 63, 63
+  index: -1
+images/effects_H/skillG/hit/hit_003
+  rotate: true
+  xy: 700, 462
+  size: 266, 207
+  orig: 300, 250
+  offset: 17, 4
+  index: -1
+images/effects_H/skillG/hit/hit_007
+  rotate: true
+  xy: 794, 738
+  size: 284, 210
+  orig: 300, 250
+  offset: 7, 5
+  index: -1
+images/effects_H/skillG/hit/hit_009
+  rotate: true
+  xy: 842, 89
+  size: 181, 169
+  orig: 300, 250
+  offset: 47, 12
+  index: -1
+images/effects_H/skillG/hit1/hit1_003
+  rotate: true
+  xy: 649, 120
+  size: 266, 191
+  orig: 300, 200
+  offset: 17, 0
+  index: -1
+images/effects_H/skillG/shifa/shifa_018
+  rotate: false
+  xy: 399, 480
+  size: 299, 248
+  orig: 300, 300
+  offset: 0, 34
+  index: -1
+images/effects_H/skillG/shifa/shifa_020
+  rotate: false
+  xy: 378, 126
+  size: 269, 260
+  orig: 300, 300
+  offset: 31, 29
+  index: -1
+images/effects_H/skillG/xuli/xuli_008
+  rotate: false
+  xy: 2, 710
+  size: 395, 312
+  orig: 400, 400
+  offset: 0, 48
+  index: -1
+images/effects_H/skillG/xuli/xuli_010
+  rotate: false
+  xy: 2, 405
+  size: 394, 303
+  orig: 400, 400
+  offset: 0, 57
+  index: -1
+images/effects_H/skillG/xuli/xuli_012
+  rotate: false
+  xy: 399, 730
+  size: 393, 292
+  orig: 400, 400
+  offset: 0, 67
+  index: -1
+images/effects_H/skillG/xuli/xuli_014
+  rotate: false
+  xy: 2, 126
+  size: 374, 277
+  orig: 400, 400
+  offset: 16, 74
+  index: -1
+images/effects_H/skillG/xunhuan/xunhuan_010
+  rotate: false
+  xy: 764, 2
+  size: 159, 85
+  orig: 210, 138
+  offset: 34, 27
+  index: -1
+images/effects_H/skillG/yuan_000
+  rotate: false
+  xy: 842, 272
+  size: 180, 180
+  orig: 300, 300
+  offset: 60, 60
+  index: -1
+images/effects_H/skillG/zidan/zidan_-03
+  rotate: false
+  xy: 2, 34
+  size: 295, 90
+  orig: 350, 100
+  offset: 29, 10
+  index: -1
+images/effects_H/skillG/zidan/zidan_-04
+  rotate: false
+  xy: 398, 388
+  size: 292, 90
+  orig: 350, 100
+  offset: 32, 10
+  index: -1
+images/effects_H/skillG/zidan/zidan_-05
+  rotate: false
+  xy: 299, 34
+  size: 288, 90
+  orig: 350, 100
+  offset: 36, 10
+  index: -1
+images/effects_H/skillG/zidan/zidan_-06
+  rotate: true
+  xy: 909, 454
+  size: 282, 90
+  orig: 350, 100
+  offset: 42, 10
+  index: -1
+
+effects_11212_skillG3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_H/dodge/baodian/hei_020
+  rotate: true
+  xy: 554, 51
+  size: 151, 148
+  orig: 300, 250
+  offset: 64, 59
+  index: -1
+images/effects_H/skillF/yuan_000
+  rotate: true
+  xy: 877, 93
+  size: 138, 139
+  orig: 150, 150
+  offset: 4, 6
+  index: -1
+images/effects_H/skillG/hit1/hit1_007
+  rotate: false
+  xy: 268, 5
+  size: 284, 195
+  orig: 300, 200
+  offset: 7, 0
+  index: -1
+images/effects_H/skillG/hit1/hit1_009
+  rotate: true
+  xy: 704, 322
+  size: 181, 166
+  orig: 300, 200
+  offset: 47, 0
+  index: -1
+images/effects_H/skillG/lizi/lizi_001
+  rotate: false
+  xy: 499, 296
+  size: 203, 207
+  orig: 300, 300
+  offset: 53, 50
+  index: -1
+images/effects_H/skillG/lizi/lizi_003
+  rotate: false
+  xy: 490, 505
+  size: 232, 254
+  orig: 300, 300
+  offset: 29, 22
+  index: -1
+images/effects_H/skillG/lizi/lizi_005
+  rotate: false
+  xy: 246, 471
+  size: 242, 273
+  orig: 300, 300
+  offset: 25, 9
+  index: -1
+images/effects_H/skillG/lizi/lizi_007
+  rotate: false
+  xy: 2, 467
+  size: 242, 277
+  orig: 300, 300
+  offset: 27, 7
+  index: -1
+images/effects_H/skillG/lizi/lizi_009
+  rotate: false
+  xy: 251, 202
+  size: 246, 267
+  orig: 300, 300
+  offset: 31, 16
+  index: -1
+images/effects_H/skillG/lizi/lizi_011
+  rotate: false
+  xy: 488, 761
+  size: 242, 261
+  orig: 300, 300
+  offset: 38, 16
+  index: -1
+images/effects_H/skillG/shifa/shifa_017
+  rotate: true
+  xy: 255, 747
+  size: 275, 231
+  orig: 300, 300
+  offset: 0, 42
+  index: -1
+images/effects_H/skillG/shifa/shifa_022
+  rotate: false
+  xy: 2, 746
+  size: 251, 276
+  orig: 300, 300
+  offset: 49, 21
+  index: -1
+images/effects_H/skillG/shifa/shifa_024
+  rotate: false
+  xy: 2, 196
+  size: 247, 269
+  orig: 300, 300
+  offset: 53, 24
+  index: -1
+images/effects_H/skillG/wenli/wenli_000
+  rotate: false
+  xy: 724, 612
+  size: 146, 147
+  orig: 300, 300
+  offset: 78, 78
+  index: -1
+images/effects_H/skillG/wenli/wenli_002
+  rotate: true
+  xy: 872, 376
+  size: 146, 147
+  orig: 300, 300
+  offset: 78, 78
+  index: -1
+images/effects_H/skillG/wenli/wenli_004
+  rotate: true
+  xy: 872, 876
+  size: 146, 147
+  orig: 300, 300
+  offset: 78, 78
+  index: -1
+images/effects_H/skillG/wenli/wenli_014
+  rotate: true
+  xy: 872, 728
+  size: 146, 147
+  orig: 300, 300
+  offset: 78, 78
+  index: -1
+images/effects_H/skillG/xuli/xuli_018
+  rotate: false
+  xy: 2, 2
+  size: 264, 192
+  orig: 400, 400
+  offset: 39, 122
+  index: -1
+images/effects_H/skillG/xunhuan/xunhuan_009
+  rotate: true
+  xy: 732, 864
+  size: 158, 86
+  orig: 210, 138
+  offset: 35, 26
+  index: -1
+images/effects_H/skillG/xunhuan/xunhuan_011
+  rotate: false
+  xy: 724, 524
+  size: 159, 86
+  orig: 210, 138
+  offset: 34, 26
+  index: -1
+images/effects_H/skillG/xunhuan/xunhuan_014
+  rotate: true
+  xy: 885, 567
+  size: 159, 86
+  orig: 210, 138
+  offset: 34, 26
+  index: -1
+images/effects_H/skillG/yu_000
+  rotate: false
+  xy: 877, 233
+  size: 142, 141
+  orig: 300, 300
+  offset: 72, 78
+  index: -1
+images/effects_H/skillG/zidan/zidan_-07
+  rotate: false
+  xy: 499, 204
+  size: 284, 90
+  orig: 350, 100
+  offset: 40, 10
+  index: -1
+images/effects_H/skillG/zidan/zidan_-08
+  rotate: true
+  xy: 785, 38
+  size: 282, 90
+  orig: 350, 100
+  offset: 42, 10
+  index: -1
+
+effects_11212_skillG4.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_H/skillG/wenli/wenli_006
+  rotate: false
+  xy: 2, 298
+  size: 146, 146
+  orig: 300, 300
+  offset: 78, 78
+  index: -1
+images/effects_H/skillG/wenli/wenli_008
+  rotate: false
+  xy: 2, 150
+  size: 146, 146
+  orig: 300, 300
+  offset: 78, 78
+  index: -1
+images/effects_H/skillG/wenli/wenli_010
+  rotate: false
+  xy: 150, 298
+  size: 146, 146
+  orig: 300, 300
+  offset: 78, 78
+  index: -1
+images/effects_H/skillG/wenli/wenli_012
+  rotate: false
+  xy: 2, 2
+  size: 146, 146
+  orig: 300, 300
+  offset: 78, 78
+  index: -1

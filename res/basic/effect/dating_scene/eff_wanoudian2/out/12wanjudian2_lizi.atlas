@@ -1,0 +1,34 @@
+
+12wanjudian2_lizi.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dengguang_00000
+  rotate: false
+  xy: 2, 339
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+huangse
+  rotate: false
+  xy: 2, 2
+  size: 42, 33
+  orig: 42, 33
+  offset: 0, 0
+  index: -1
+xingxing1_00000
+  rotate: false
+  xy: 2, 37
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+xingxing_00000
+  rotate: false
+  xy: 304, 339
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1

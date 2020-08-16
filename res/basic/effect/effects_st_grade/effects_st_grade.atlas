@@ -1,0 +1,524 @@
+
+effects_st_grade.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/A
+  rotate: false
+  xy: 493, 13
+  size: 68, 68
+  orig: 68, 68
+  offset: 0, 0
+  index: -1
+images/Atexiao/texiao_00000
+  rotate: true
+  xy: 676, 653
+  size: 101, 100
+  orig: 125, 125
+  offset: 12, 15
+  index: -1
+images/Atexiao/texiao_00010
+  rotate: true
+  xy: 676, 653
+  size: 101, 100
+  orig: 125, 125
+  offset: 12, 15
+  index: -1
+images/Atexiao/texiao_00020
+  rotate: true
+  xy: 676, 653
+  size: 101, 100
+  orig: 125, 125
+  offset: 12, 15
+  index: -1
+images/Atexiao/texiao_00002
+  rotate: true
+  xy: 312, 234
+  size: 99, 94
+  orig: 125, 125
+  offset: 14, 21
+  index: -1
+images/Atexiao/texiao_00012
+  rotate: true
+  xy: 312, 234
+  size: 99, 94
+  orig: 125, 125
+  offset: 14, 21
+  index: -1
+images/Atexiao/texiao_00004
+  rotate: true
+  xy: 729, 238
+  size: 96, 99
+  orig: 125, 125
+  offset: 17, 16
+  index: -1
+images/Atexiao/texiao_00014
+  rotate: true
+  xy: 729, 238
+  size: 96, 99
+  orig: 125, 125
+  offset: 17, 16
+  index: -1
+images/Atexiao/texiao_00006
+  rotate: false
+  xy: 312, 137
+  size: 94, 95
+  orig: 125, 125
+  offset: 19, 20
+  index: -1
+images/Atexiao/texiao_00016
+  rotate: false
+  xy: 312, 137
+  size: 94, 95
+  orig: 125, 125
+  offset: 19, 20
+  index: -1
+images/Atexiao/texiao_00008
+  rotate: false
+  xy: 322, 36
+  size: 97, 99
+  orig: 125, 125
+  offset: 17, 18
+  index: -1
+images/Atexiao/texiao_00018
+  rotate: false
+  xy: 322, 36
+  size: 97, 99
+  orig: 125, 125
+  offset: 17, 18
+  index: -1
+images/B
+  rotate: true
+  xy: 421, 71
+  size: 71, 68
+  orig: 71, 68
+  offset: 0, 0
+  index: -1
+images/Bbian_00001
+  rotate: true
+  xy: 778, 661
+  size: 95, 92
+  orig: 100, 100
+  offset: 1, 4
+  index: -1
+images/Bsaoguang/saoguang_00001
+  rotate: false
+  xy: 872, 686
+  size: 13, 17
+  orig: 100, 100
+  offset: 13, 16
+  index: -1
+images/Bsaoguang/saoguang_00002
+  rotate: true
+  xy: 543, 571
+  size: 29, 38
+  orig: 100, 100
+  offset: 13, 16
+  index: -1
+images/Bsaoguang/saoguang_00003
+  rotate: true
+  xy: 790, 926
+  size: 44, 60
+  orig: 100, 100
+  offset: 14, 16
+  index: -1
+images/Bsaoguang/saoguang_00004
+  rotate: true
+  xy: 347, 335
+  size: 52, 68
+  orig: 100, 100
+  offset: 18, 16
+  index: -1
+images/Bsaoguang/saoguang_00005
+  rotate: false
+  xy: 605, 532
+  size: 55, 68
+  orig: 100, 100
+  offset: 21, 16
+  index: -1
+images/Bsaoguang/saoguang_00006
+  rotate: false
+  xy: 690, 368
+  size: 53, 66
+  orig: 100, 100
+  offset: 27, 18
+  index: -1
+images/Bsaoguang/saoguang_00007
+  rotate: true
+  xy: 491, 83
+  size: 42, 55
+  orig: 100, 100
+  offset: 42, 29
+  index: -1
+images/Bsaoguang/saoguang_00008
+  rotate: true
+  xy: 652, 368
+  size: 26, 34
+  orig: 100, 100
+  offset: 58, 50
+  index: -1
+images/Bsaoguang/saoguang_00009
+  rotate: true
+  xy: 872, 674
+  size: 10, 13
+  orig: 100, 100
+  offset: 74, 71
+  index: -1
+images/C
+  rotate: true
+  xy: 491, 127
+  size: 69, 68
+  orig: 69, 68
+  offset: 0, 0
+  index: -1
+images/Cbian_00000
+  rotate: false
+  xy: 408, 198
+  size: 95, 96
+  orig: 100, 100
+  offset: 1, 3
+  index: -1
+images/D
+  rotate: false
+  xy: 421, 2
+  size: 70, 67
+  orig: 70, 67
+  offset: 0, 0
+  index: -1
+images/S
+  rotate: false
+  xy: 652, 298
+  size: 75, 68
+  orig: 75, 68
+  offset: 0, 0
+  index: -1
+images/Stexiao/texiao_00000
+  rotate: false
+  xy: 381, 571
+  size: 106, 123
+  orig: 125, 125
+  offset: 5, 2
+  index: -1
+images/Stexiao/texiao_00020
+  rotate: false
+  xy: 381, 571
+  size: 106, 123
+  orig: 125, 125
+  offset: 5, 2
+  index: -1
+images/Stexiao/texiao_00001
+  rotate: false
+  xy: 779, 547
+  size: 106, 112
+  orig: 125, 125
+  offset: 5, 2
+  index: -1
+images/Stexiao/texiao_00002
+  rotate: false
+  xy: 887, 484
+  size: 104, 99
+  orig: 125, 125
+  offset: 5, 10
+  index: -1
+images/Stexiao/texiao_00003
+  rotate: false
+  xy: 103, 102
+  size: 103, 111
+  orig: 125, 125
+  offset: 6, 1
+  index: -1
+images/Stexiao/texiao_00004
+  rotate: false
+  xy: 103, 2
+  size: 103, 98
+  orig: 125, 125
+  offset: 7, 16
+  index: -1
+images/Stexiao/texiao_00005
+  rotate: false
+  xy: 103, 215
+  size: 103, 112
+  orig: 125, 125
+  offset: 7, 5
+  index: -1
+images/Stexiao/texiao_00006
+  rotate: true
+  xy: 662, 548
+  size: 103, 115
+  orig: 125, 125
+  offset: 7, 5
+  index: -1
+images/Stexiao/texiao_00007
+  rotate: true
+  xy: 745, 336
+  size: 102, 114
+  orig: 125, 125
+  offset: 8, 9
+  index: -1
+images/Stexiao/texiao_00008
+  rotate: false
+  xy: 483, 396
+  size: 102, 118
+  orig: 125, 125
+  offset: 8, 6
+  index: -1
+images/Stexiao/texiao_00009
+  rotate: true
+  xy: 862, 380
+  size: 102, 115
+  orig: 125, 125
+  offset: 8, 10
+  index: -1
+images/Stexiao/texiao_00010
+  rotate: false
+  xy: 587, 396
+  size: 101, 118
+  orig: 125, 125
+  offset: 9, 7
+  index: -1
+images/Stexiao/texiao_00011
+  rotate: true
+  xy: 556, 653
+  size: 101, 118
+  orig: 125, 125
+  offset: 9, 7
+  index: -1
+images/Stexiao/texiao_00012
+  rotate: false
+  xy: 208, 109
+  size: 101, 111
+  orig: 125, 125
+  offset: 9, 14
+  index: -1
+images/Stexiao/texiao_00013
+  rotate: true
+  xy: 861, 276
+  size: 102, 113
+  orig: 125, 125
+  offset: 9, 12
+  index: -1
+images/Stexiao/texiao_00014
+  rotate: false
+  xy: 208, 222
+  size: 102, 111
+  orig: 125, 125
+  offset: 9, 14
+  index: -1
+images/Stexiao/texiao_00015
+  rotate: true
+  xy: 208, 7
+  size: 100, 112
+  orig: 125, 125
+  offset: 11, 13
+  index: -1
+images/Stexiao/texiao_00016
+  rotate: true
+  xy: 483, 296
+  size: 98, 113
+  orig: 125, 125
+  offset: 13, 12
+  index: -1
+images/Stexiao/texiao_00017
+  rotate: false
+  xy: 887, 585
+  size: 103, 118
+  orig: 125, 125
+  offset: 8, 7
+  index: -1
+images/Stexiao/texiao_00018
+  rotate: true
+  xy: 745, 440
+  size: 105, 115
+  orig: 125, 125
+  offset: 6, 10
+  index: -1
+images/Stexiao/texiao_00019
+  rotate: false
+  xy: 375, 395
+  size: 106, 119
+  orig: 125, 125
+  offset: 5, 6
+  index: -1
+images/baodian/baodian_00030
+  rotate: false
+  xy: 204, 922
+  size: 295, 100
+  orig: 300, 100
+  offset: 0, 0
+  index: -1
+images/baodian/baodian_00032
+  rotate: true
+  xy: 2, 329
+  size: 289, 100
+  orig: 300, 100
+  offset: 3, 0
+  index: -1
+images/baodian/baodian_00034
+  rotate: false
+  xy: 501, 923
+  size: 287, 99
+  orig: 300, 100
+  offset: 4, 0
+  index: -1
+images/baodian/baodian_00036
+  rotate: true
+  xy: 2, 41
+  size: 286, 99
+  orig: 300, 100
+  offset: 4, 0
+  index: -1
+images/baodian/baodian_00038
+  rotate: true
+  xy: 104, 337
+  size: 281, 95
+  orig: 300, 100
+  offset: 7, 1
+  index: -1
+images/baodian/baodian_00040
+  rotate: false
+  xy: 790, 972
+  size: 214, 50
+  orig: 300, 100
+  offset: 37, 25
+  index: -1
+images/baodian1/baodian_00000
+  rotate: false
+  xy: 556, 756
+  size: 165, 165
+  orig: 200, 200
+  offset: 14, 16
+  index: -1
+images/baodian1/baodian_00001
+  rotate: false
+  xy: 204, 725
+  size: 194, 195
+  orig: 200, 200
+  offset: 0, 1
+  index: -1
+images/baodian1/baodian_00002
+  rotate: false
+  xy: 2, 822
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+images/baodian1/baodian_00003
+  rotate: false
+  xy: 2, 620
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+images/baodian1/baodian_00004
+  rotate: true
+  xy: 723, 758
+  size: 163, 147
+  orig: 200, 200
+  offset: 8, 26
+  index: -1
+images/baodian1/baodian_00005
+  rotate: true
+  xy: 400, 747
+  size: 173, 154
+  orig: 200, 200
+  offset: 0, 22
+  index: -1
+images/baodian1/baodian_00006
+  rotate: false
+  xy: 201, 389
+  size: 172, 162
+  orig: 200, 200
+  offset: 6, 18
+  index: -1
+images/baodian1/baodian_00007
+  rotate: false
+  xy: 204, 553
+  size: 175, 170
+  orig: 200, 200
+  offset: 6, 14
+  index: -1
+images/baodian1/baodian_00008
+  rotate: true
+  xy: 872, 813
+  size: 157, 134
+  orig: 200, 200
+  offset: 5, 33
+  index: -1
+images/baodian1/baodian_00009
+  rotate: false
+  xy: 872, 705
+  size: 143, 106
+  orig: 200, 200
+  offset: 7, 46
+  index: -1
+images/lizitou/lizitou_00000
+  rotate: false
+  xy: 408, 144
+  size: 81, 52
+  orig: 150, 100
+  offset: 68, 29
+  index: -1
+images/lizitou/lizitou_00001
+  rotate: false
+  xy: 514, 516
+  size: 89, 53
+  orig: 150, 100
+  offset: 61, 27
+  index: -1
+images/lizitou/lizitou_00002
+  rotate: true
+  xy: 505, 198
+  size: 96, 49
+  orig: 150, 100
+  offset: 54, 30
+  index: -1
+images/lizitou/lizitou_00003
+  rotate: true
+  xy: 598, 292
+  size: 102, 52
+  orig: 150, 100
+  offset: 47, 29
+  index: -1
+images/lizitou/lizitou_00004
+  rotate: true
+  xy: 690, 436
+  size: 110, 53
+  orig: 150, 100
+  offset: 40, 27
+  index: -1
+images/lizitou/lizitou_00005
+  rotate: false
+  xy: 543, 602
+  size: 117, 49
+  orig: 150, 100
+  offset: 33, 30
+  index: -1
+images/lizitou/lizitou_00006
+  rotate: true
+  xy: 489, 571
+  size: 123, 52
+  orig: 150, 100
+  offset: 26, 29
+  index: -1
+images/lizitou/lizitou_00007
+  rotate: false
+  xy: 381, 516
+  size: 131, 53
+  orig: 150, 100
+  offset: 19, 27
+  index: -1
+images/lizitou/lizitou_00008
+  rotate: false
+  xy: 400, 696
+  size: 138, 49
+  orig: 150, 100
+  offset: 12, 30
+  index: -1
+images/lizitou/lizitou_00009
+  rotate: false
+  xy: 201, 335
+  size: 144, 52
+  orig: 150, 100
+  offset: 5, 29
+  index: -1

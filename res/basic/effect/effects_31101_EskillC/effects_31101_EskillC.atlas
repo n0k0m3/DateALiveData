@@ -1,0 +1,285 @@
+
+effects_31101_EskillC.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/EskillA/glow_016
+  rotate: true
+  xy: 474, 15
+  size: 196, 71
+  orig: 205, 77
+  offset: 3, 2
+  index: -1
+effects/EskillA/shifa/shifa_017
+  rotate: false
+  xy: 2, 416
+  size: 277, 199
+  orig: 302, 199
+  offset: 0, 0
+  index: -1
+effects/EskillA/shifa/shifa_019
+  rotate: false
+  xy: 2, 818
+  size: 302, 199
+  orig: 302, 199
+  offset: 0, 0
+  index: -1
+effects/EskillA/shifa/shifa_021
+  rotate: false
+  xy: 2, 617
+  size: 299, 199
+  orig: 302, 199
+  offset: 3, 0
+  index: -1
+effects/EskillA/shifa/shifa_023
+  rotate: false
+  xy: 306, 818
+  size: 297, 199
+  orig: 302, 199
+  offset: 5, 0
+  index: -1
+effects/EskillA/shifa/shifa_025
+  rotate: false
+  xy: 605, 828
+  size: 270, 189
+  orig: 302, 199
+  offset: 6, 7
+  index: -1
+effects/EskillA/shifa/shifa_027
+  rotate: false
+  xy: 269, 213
+  size: 241, 166
+  orig: 302, 199
+  offset: 14, 26
+  index: -1
+effects/EskillB/xuli1/xuli1_009
+  rotate: false
+  xy: 819, 496
+  size: 169, 167
+  orig: 300, 198
+  offset: 0, 22
+  index: -1
+effects/EskillB/xuli1/xuli1_011
+  rotate: false
+  xy: 303, 627
+  size: 280, 189
+  orig: 300, 198
+  offset: 0, 0
+  index: -1
+effects/EskillB/xuli1/xuli1_013
+  rotate: false
+  xy: 2, 226
+  size: 265, 188
+  orig: 300, 198
+  offset: 18, 0
+  index: -1
+effects/EskillB/xuli1/xuli1_015
+  rotate: false
+  xy: 2, 33
+  size: 244, 191
+  orig: 300, 198
+  offset: 56, 0
+  index: -1
+effects/EskillB/xuli1/xuli1_017
+  rotate: false
+  xy: 303, 455
+  size: 260, 170
+  orig: 300, 198
+  offset: 40, 17
+  index: -1
+effects/EskillB/xuli1/xuli1_019
+  rotate: false
+  xy: 547, 248
+  size: 229, 146
+  orig: 300, 198
+  offset: 44, 37
+  index: -1
+effects/EskillB/xuli1/xuli1_021
+  rotate: false
+  xy: 799, 366
+  size: 218, 128
+  orig: 300, 198
+  offset: 46, 49
+  index: -1
+effects/EskillB/xuli1/xuli1_025
+  rotate: false
+  xy: 547, 13
+  size: 101, 67
+  orig: 300, 198
+  offset: 77, 73
+  index: -1
+effects/EskillC/bao/bao_104
+  rotate: false
+  xy: 778, 205
+  size: 221, 159
+  orig: 232, 164
+  offset: 11, 0
+  index: -1
+effects/EskillC/bao/bao_106
+  rotate: false
+  xy: 547, 82
+  size: 228, 164
+  orig: 232, 164
+  offset: 0, 0
+  index: -1
+effects/EskillC/bao/bao_108
+  rotate: false
+  xy: 605, 668
+  size: 232, 158
+  orig: 232, 164
+  offset: 0, 6
+  index: -1
+effects/EskillC/bao/bao_110
+  rotate: false
+  xy: 585, 517
+  size: 232, 149
+  orig: 232, 164
+  offset: 0, 13
+  index: -1
+effects/EskillC/bao/bao_112
+  rotate: false
+  xy: 565, 396
+  size: 232, 119
+  orig: 232, 164
+  offset: 0, 35
+  index: -1
+effects/EskillC/bao/bao_114
+  rotate: false
+  xy: 755, 12
+  size: 79, 68
+  orig: 232, 164
+  offset: 72, 51
+  index: -1
+effects/EskillC/bao/bao_115
+  rotate: false
+  xy: 836, 13
+  size: 75, 68
+  orig: 232, 164
+  offset: 76, 51
+  index: -1
+effects/EskillC/dimian_103
+  rotate: false
+  xy: 281, 381
+  size: 244, 72
+  orig: 267, 99
+  offset: 10, 11
+  index: -1
+effects/EskillC/j_098
+  rotate: true
+  xy: 248, 29
+  size: 182, 224
+  orig: 182, 240
+  offset: 0, 8
+  index: -1
+effects/EskillC/xuli_002
+  rotate: true
+  xy: 913, 25
+  size: 56, 70
+  orig: 230, 169
+  offset: 172, 91
+  index: -1
+effects/EskillC/xuli_006
+  rotate: false
+  xy: 777, 83
+  size: 218, 120
+  orig: 230, 169
+  offset: 10, 39
+  index: -1
+effects/EskillC/xuli_008
+  rotate: true
+  xy: 877, 803
+  size: 214, 136
+  orig: 230, 169
+  offset: 10, 6
+  index: -1
+effects/EskillC/xuli_010
+  rotate: false
+  xy: 839, 665
+  size: 175, 136
+  orig: 230, 169
+  offset: 21, 6
+  index: -1
+effects/EskillC/xuli_014
+  rotate: true
+  xy: 650, 20
+  size: 60, 103
+  orig: 230, 169
+  offset: 103, 8
+  index: -1
+
+effects_31101_EskillC2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/EskillA/glow1_016
+  rotate: false
+  xy: 215, 371
+  size: 139, 139
+  orig: 157, 151
+  offset: 9, 6
+  index: -1
+effects/EskillB/xuli1/xuli1_005
+  rotate: true
+  xy: 339, 207
+  size: 100, 113
+  orig: 300, 198
+  offset: 53, 26
+  index: -1
+effects/EskillB/xuli1/xuli1_007
+  rotate: true
+  xy: 356, 399
+  size: 111, 154
+  orig: 300, 198
+  offset: 40, 29
+  index: -1
+effects/EskillB/xuli1/xuli1_023
+  rotate: true
+  xy: 123, 208
+  size: 151, 93
+  orig: 300, 198
+  offset: 69, 63
+  index: -1
+effects/EskillC/bao/bao_099
+  rotate: false
+  xy: 356, 309
+  size: 134, 88
+  orig: 232, 164
+  offset: 55, 29
+  index: -1
+effects/EskillC/bao/bao_100
+  rotate: true
+  xy: 218, 222
+  size: 147, 119
+  orig: 232, 164
+  offset: 55, 13
+  index: -1
+effects/EskillC/bao/bao_102
+  rotate: false
+  xy: 2, 361
+  size: 211, 149
+  orig: 232, 164
+  offset: 21, 0
+  index: -1
+effects/EskillC/xuli_004
+  rotate: true
+  xy: 2, 141
+  size: 218, 119
+  orig: 230, 169
+  offset: 10, 42
+  index: -1
+effects/EskillC/xuli_012
+  rotate: false
+  xy: 2, 7
+  size: 96, 132
+  orig: 230, 169
+  offset: 69, 6
+  index: -1
+effects/EskillC/xuli_016
+  rotate: true
+  xy: 123, 153
+  size: 53, 71
+  orig: 230, 169
+  offset: 109, 18
+  index: -1

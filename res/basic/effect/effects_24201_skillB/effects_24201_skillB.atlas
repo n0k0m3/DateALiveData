@@ -1,0 +1,146 @@
+
+effects_24201_skillB.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dj_skillB/dh_00000
+  rotate: false
+  xy: 366, 894
+  size: 264, 50
+  orig: 270, 60
+  offset: 0, 6
+  index: -1
+dj_skillB/lge-yyy_00000
+  rotate: false
+  xy: 2, 54
+  size: 145, 143
+  orig: 160, 160
+  offset: 10, 5
+  index: -1
+dj_skillB/lv-yyy_00000
+  rotate: false
+  xy: 366, 469
+  size: 140, 140
+  orig: 160, 160
+  offset: 10, 10
+  index: -1
+dj_skillB/lv_00022
+  rotate: false
+  xy: 2, 2
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+dj_skillB/lx_00022
+  rotate: true
+  xy: 651, 628
+  size: 174, 38
+  orig: 200, 50
+  offset: 13, 6
+  index: -1
+dj_skillB/rrr_00022
+  rotate: false
+  xy: 366, 753
+  size: 142, 139
+  orig: 150, 150
+  offset: 4, 6
+  index: -1
+dj_skillB/rrr_00026
+  rotate: false
+  xy: 366, 611
+  size: 141, 140
+  orig: 150, 150
+  offset: 5, 6
+  index: -1
+dj_skillB/rrr_00030
+  rotate: false
+  xy: 510, 751
+  size: 139, 141
+  orig: 150, 150
+  offset: 7, 5
+  index: -1
+dj_skillB/rrr_00034
+  rotate: true
+  xy: 184, 165
+  size: 137, 141
+  orig: 150, 150
+  offset: 7, 5
+  index: -1
+dj_skillB/rrr_00038
+  rotate: false
+  xy: 651, 804
+  size: 136, 140
+  orig: 150, 150
+  offset: 7, 5
+  index: -1
+dj_skillB/rrr_00042
+  rotate: false
+  xy: 789, 805
+  size: 137, 139
+  orig: 150, 150
+  offset: 5, 5
+  index: -1
+dj_skillB/rrr_00046
+  rotate: false
+  xy: 509, 610
+  size: 140, 139
+  orig: 150, 150
+  offset: 5, 5
+  index: -1
+dj_skillB/rrr_00050
+  rotate: false
+  xy: 508, 468
+  size: 140, 140
+  orig: 150, 150
+  offset: 6, 5
+  index: -1
+dj_skillB/rrr_00054
+  rotate: false
+  xy: 184, 304
+  size: 142, 142
+  orig: 150, 150
+  offset: 5, 4
+  index: -1
+dj_skillB/vvv_00000
+  rotate: false
+  xy: 2, 697
+  size: 180, 247
+  orig: 200, 250
+  offset: 11, 0
+  index: -1
+dj_skillB/vvv_00010
+  rotate: false
+  xy: 2, 697
+  size: 180, 247
+  orig: 200, 250
+  offset: 11, 0
+  index: -1
+dj_skillB/vvv_00002
+  rotate: false
+  xy: 2, 448
+  size: 180, 247
+  orig: 200, 250
+  offset: 11, 0
+  index: -1
+dj_skillB/vvv_00004
+  rotate: false
+  xy: 184, 697
+  size: 180, 247
+  orig: 200, 250
+  offset: 11, 0
+  index: -1
+dj_skillB/vvv_00006
+  rotate: false
+  xy: 2, 199
+  size: 180, 247
+  orig: 200, 250
+  offset: 11, 0
+  index: -1
+dj_skillB/vvv_00008
+  rotate: false
+  xy: 184, 448
+  size: 180, 247
+  orig: 200, 250
+  offset: 11, 0
+  index: -1

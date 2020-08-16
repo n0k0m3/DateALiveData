@@ -1,0 +1,390 @@
+
+effect_ui20.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/chuxianlizi/chuxianlizi_00005
+  rotate: false
+  xy: 763, 589
+  size: 255, 87
+  orig: 300, 150
+  offset: 18, 31
+  index: -1
+image/chuxianlizi/chuxianlizi_00006
+  rotate: true
+  xy: 661, 760
+  size: 262, 95
+  orig: 300, 150
+  offset: 19, 28
+  index: -1
+image/chuxianlizi/chuxianlizi_00007
+  rotate: false
+  xy: 250, 8
+  size: 258, 100
+  orig: 300, 150
+  offset: 17, 26
+  index: -1
+image/chuxianlizi/chuxianlizi_00010
+  rotate: false
+  xy: 510, 2
+  size: 251, 107
+  orig: 300, 150
+  offset: 20, 24
+  index: -1
+image/chuxianlizi/chuxianlizi_00011
+  rotate: false
+  xy: 2, 7
+  size: 246, 101
+  orig: 300, 150
+  offset: 16, 24
+  index: -1
+image/kuang_00005
+  rotate: false
+  xy: 633, 116
+  size: 320, 450
+  orig: 320, 450
+  offset: 0, 0
+  index: -1
+image/liuguang/liuguang_00014
+  rotate: false
+  xy: 763, 61
+  size: 190, 53
+  orig: 236, 54
+  offset: 0, 1
+  index: -1
+image/liuguang/liuguang_00015
+  rotate: true
+  xy: 955, 3
+  size: 157, 41
+  orig: 236, 54
+  offset: 20, 2
+  index: -1
+image/liuguang/liuguang_00017
+  rotate: false
+  xy: 850, 16
+  size: 72, 43
+  orig: 236, 54
+  offset: 14, 3
+  index: -1
+image/liuguang/liuguang_00018
+  rotate: true
+  xy: 763, 3
+  size: 56, 43
+  orig: 236, 54
+  offset: 11, 4
+  index: -1
+image/liuguang/liuguang_00019
+  rotate: true
+  xy: 808, 5
+  size: 54, 40
+  orig: 236, 54
+  offset: 8, 9
+  index: -1
+image/saoguang/saoguang_00002
+  rotate: true
+  xy: 763, 678
+  size: 344, 258
+  orig: 350, 500
+  offset: 2, 45
+  index: -1
+image/saoguang/saoguang_00004
+  rotate: false
+  xy: 2, 567
+  size: 345, 455
+  orig: 350, 500
+  offset: 1, 45
+  index: -1
+image/saoguang/saoguang_00005
+  rotate: false
+  xy: 2, 110
+  size: 314, 455
+  orig: 350, 500
+  offset: 34, 45
+  index: -1
+image/saoguang/saoguang_00006
+  rotate: false
+  xy: 318, 111
+  size: 313, 454
+  orig: 350, 500
+  offset: 34, 46
+  index: -1
+image/saoguang/saoguang_00007
+  rotate: false
+  xy: 349, 568
+  size: 310, 454
+  orig: 350, 500
+  offset: 34, 46
+  index: -1
+image/shutiao
+  rotate: true
+  xy: 2, 2
+  size: 3, 424
+  orig: 3, 424
+  offset: 0, 0
+  index: -1
+image/xunhuanlizi/xunhuanlizi_00018
+  rotate: true
+  xy: 661, 577
+  size: 181, 49
+  orig: 250, 150
+  offset: 36, 37
+  index: -1
+image/xunhuanlizi/xunhuanlizi_00019
+  rotate: true
+  xy: 712, 580
+  size: 178, 45
+  orig: 250, 150
+  offset: 47, 49
+  index: -1
+image/xunhuanlizi/xunhuanlizi_00022
+  rotate: true
+  xy: 955, 367
+  size: 220, 67
+  orig: 250, 150
+  offset: 12, 36
+  index: -1
+image/xunhuanlizi/xunhuanlizi_00023
+  rotate: true
+  xy: 955, 162
+  size: 203, 67
+  orig: 250, 150
+  offset: 22, 27
+  index: -1
+
+effect_ui202.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+huangse
+  rotate: false
+  xy: 284, 395
+  size: 40, 31
+  orig: 42, 33
+  offset: 1, 1
+  index: -1
+image/MVP
+  rotate: true
+  xy: 284, 428
+  size: 236, 54
+  orig: 236, 54
+  offset: 0, 0
+  index: -1
+image/MVPbian_00004
+  rotate: true
+  xy: 964, 780
+  size: 242, 58
+  orig: 250, 100
+  offset: 4, 22
+  index: -1
+image/chuxianlizi/chuxianlizi_00008
+  rotate: true
+  xy: 628, 488
+  size: 252, 110
+  orig: 300, 150
+  offset: 20, 22
+  index: -1
+image/chuxianlizi/chuxianlizi_00009
+  rotate: false
+  xy: 340, 439
+  size: 242, 109
+  orig: 300, 150
+  offset: 26, 22
+  index: -1
+image/chuxianlizi/chuxianlizi_00012
+  rotate: false
+  xy: 740, 513
+  size: 208, 107
+  orig: 300, 150
+  offset: 58, 20
+  index: -1
+image/glow_00004
+  rotate: true
+  xy: 762, 622
+  size: 400, 200
+  orig: 400, 200
+  offset: 0, 0
+  index: -1
+image/guang
+  rotate: false
+  xy: 348, 550
+  size: 278, 190
+  orig: 278, 190
+  offset: 0, 0
+  index: -1
+image/liuguang/liuguang_00009
+  rotate: false
+  xy: 284, 303
+  size: 236, 54
+  orig: 236, 54
+  offset: 0, 0
+  index: -1
+image/liuguang/liuguang_00010
+  rotate: true
+  xy: 349, 65
+  size: 236, 54
+  orig: 236, 54
+  offset: 0, 0
+  index: -1
+image/liuguang/liuguang_00011
+  rotate: true
+  xy: 405, 65
+  size: 236, 54
+  orig: 236, 54
+  offset: 0, 0
+  index: -1
+image/liuguang/liuguang_00012
+  rotate: true
+  xy: 683, 186
+  size: 217, 54
+  orig: 236, 54
+  offset: 0, 0
+  index: -1
+image/liuguang/liuguang_00013
+  rotate: false
+  xy: 640, 70
+  size: 199, 54
+  orig: 236, 54
+  offset: 0, 0
+  index: -1
+image/liuguang/liuguang_00016
+  rotate: true
+  xy: 584, 474
+  size: 74, 41
+  orig: 236, 54
+  offset: 17, 3
+  index: -1
+image/liuguang/liuguang_00020
+  rotate: true
+  xy: 629, 173
+  size: 230, 52
+  orig: 236, 54
+  offset: 6, 1
+  index: -1
+image/liuguang/liuguang_00021
+  rotate: true
+  xy: 573, 125
+  size: 232, 54
+  orig: 236, 54
+  offset: 4, 0
+  index: -1
+image/liuguang/liuguang_00022
+  rotate: true
+  xy: 517, 67
+  size: 234, 54
+  orig: 236, 54
+  offset: 2, 0
+  index: -1
+image/liuguang/liuguang_00023
+  rotate: true
+  xy: 461, 66
+  size: 235, 54
+  orig: 236, 54
+  offset: 1, 0
+  index: -1
+image/saoguang/saoguang_00000
+  rotate: false
+  xy: 739, 243
+  size: 143, 116
+  orig: 350, 500
+  offset: 2, 0
+  index: -1
+image/saoguang/saoguang_00001
+  rotate: false
+  xy: 2, 40
+  size: 345, 209
+  orig: 350, 500
+  offset: 2, 0
+  index: -1
+image/saoguang/saoguang_00003
+  rotate: false
+  xy: 2, 666
+  size: 344, 356
+  orig: 350, 500
+  offset: 2, 45
+  index: -1
+image/saoguang/saoguang_00008
+  rotate: false
+  xy: 2, 251
+  size: 280, 413
+  orig: 350, 500
+  offset: 34, 46
+  index: -1
+image/saoguang/saoguang_00009
+  rotate: true
+  xy: 348, 742
+  size: 280, 412
+  orig: 350, 500
+  offset: 34, 47
+  index: -1
+image/xunhuanlizi/xunhuanlizi_00011
+  rotate: false
+  xy: 740, 442
+  size: 202, 69
+  orig: 250, 150
+  offset: 13, 31
+  index: -1
+image/xunhuanlizi/xunhuanlizi_00012
+  rotate: true
+  xy: 964, 582
+  size: 196, 58
+  orig: 250, 150
+  offset: 23, 38
+  index: -1
+image/xunhuanlizi/xunhuanlizi_00013
+  rotate: false
+  xy: 739, 181
+  size: 171, 60
+  orig: 250, 150
+  offset: 40, 45
+  index: -1
+image/xunhuanlizi/xunhuanlizi_00014
+  rotate: false
+  xy: 739, 361
+  size: 199, 79
+  orig: 250, 150
+  offset: 5, 33
+  index: -1
+image/xunhuanlizi/xunhuanlizi_00015
+  rotate: true
+  xy: 950, 405
+  size: 175, 72
+  orig: 250, 150
+  offset: 11, 33
+  index: -1
+image/xunhuanlizi/xunhuanlizi_00016
+  rotate: false
+  xy: 640, 23
+  size: 139, 45
+  orig: 250, 150
+  offset: 29, 45
+  index: -1
+image/xunhuanlizi/xunhuanlizi_00017
+  rotate: false
+  xy: 2, 5
+  size: 137, 33
+  orig: 250, 150
+  offset: 30, 56
+  index: -1
+image/xunhuanlizi/xunhuanlizi_00020
+  rotate: false
+  xy: 683, 126
+  size: 213, 53
+  orig: 250, 150
+  offset: 22, 43
+  index: -1
+image/xunhuanlizi/xunhuanlizi_00021
+  rotate: false
+  xy: 340, 359
+  size: 244, 78
+  orig: 250, 150
+  offset: 2, 34
+  index: -1
+image/xunhuanlizi/xunhuanlizi_00024
+  rotate: false
+  xy: 517, 2
+  size: 121, 63
+  orig: 250, 150
+  offset: 39, 35
+  index: -1

@@ -1,0 +1,160 @@
+
+effects_11301_1_bianhui.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/1skillC/luoxia/efc_a_halo0001
+  rotate: false
+  xy: 2, 356
+  size: 154, 154
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+effects/1skillC/luoxia/glow_00000
+  rotate: false
+  xy: 254, 357
+  size: 59, 58
+  orig: 90, 90
+  offset: 16, 16
+  index: -1
+effects/1skillC/luoxia/lizi/lizi_00001_00000
+  rotate: false
+  xy: 2, 13
+  size: 89, 67
+  orig: 120, 108
+  offset: 10, 0
+  index: -1
+effects/1skillC/luoxia/lizi/lizi_00001_00002
+  rotate: false
+  xy: 158, 431
+  size: 96, 79
+  orig: 120, 108
+  offset: 5, 3
+  index: -1
+effects/1skillC/luoxia/lizi/lizi_00001_00004
+  rotate: false
+  xy: 2, 263
+  size: 91, 91
+  orig: 120, 108
+  offset: 10, 0
+  index: -1
+effects/1skillC/luoxia/lizi/lizi_00001_00006
+  rotate: false
+  xy: 2, 173
+  size: 84, 88
+  orig: 120, 108
+  offset: 14, 8
+  index: -1
+effects/1skillC/luoxia/lizi/lizi_00001_00008
+  rotate: false
+  xy: 2, 82
+  size: 82, 89
+  orig: 120, 108
+  offset: 16, 11
+  index: -1
+effects/1skillC/luoxia/lizi/lizi_00001_00010
+  rotate: true
+  xy: 158, 357
+  size: 72, 94
+  orig: 120, 108
+  offset: 26, 14
+  index: -1
+effects/1skillC/luoxia/lizi/lizi_00001_00012
+  rotate: false
+  xy: 95, 260
+  size: 68, 94
+  orig: 120, 108
+  offset: 29, 14
+  index: -1
+effects/1skillC/luoxia/lizi/lizi_00001_00014
+  rotate: true
+  xy: 86, 93
+  size: 69, 61
+  orig: 120, 108
+  offset: 29, 40
+  index: -1
+effects/1skillC/luoxia/lizi/lizi_00001_00016
+  rotate: true
+  xy: 93, 25
+  size: 66, 56
+  orig: 120, 108
+  offset: 28, 44
+  index: -1
+effects/1skillC/luoxia/lizi/lizi_00001_00018
+  rotate: true
+  xy: 197, 199
+  size: 60, 59
+  orig: 120, 108
+  offset: 32, 45
+  index: -1
+effects/1skillC/luoxia/lizi/lizi_00001_00020
+  rotate: true
+  xy: 275, 301
+  size: 54, 50
+  orig: 120, 108
+  offset: 40, 46
+  index: -1
+effects/1skillC/luoxia/lizi/lizi_00001_00022
+  rotate: true
+  xy: 275, 253
+  size: 46, 48
+  orig: 120, 108
+  offset: 36, 52
+  index: -1
+effects/1skillC/luoxia/yanchen/yanchen_00000
+  rotate: true
+  xy: 235, 263
+  size: 92, 38
+  orig: 120, 108
+  offset: 15, 7
+  index: -1
+effects/1skillC/luoxia/yanchen/yanchen_00001
+  rotate: true
+  xy: 455, 417
+  size: 93, 53
+  orig: 120, 108
+  offset: 15, 6
+  index: -1
+effects/1skillC/luoxia/yanchen/yanchen_00003
+  rotate: false
+  xy: 256, 439
+  size: 98, 71
+  orig: 120, 108
+  offset: 12, 5
+  index: -1
+effects/1skillC/luoxia/yanchen/yanchen_00005
+  rotate: false
+  xy: 356, 440
+  size: 97, 70
+  orig: 120, 108
+  offset: 13, 9
+  index: -1
+effects/1skillC/luoxia/yanchen/yanchen_00007
+  rotate: true
+  xy: 165, 261
+  size: 94, 68
+  orig: 120, 108
+  offset: 15, 12
+  index: -1
+effects/1skillC/luoxia/yanchen/yanchen_00009
+  rotate: true
+  xy: 88, 164
+  size: 94, 62
+  orig: 120, 108
+  offset: 15, 16
+  index: -1
+effects/1skillC/luoxia/yanchen/yanchen_00011
+  rotate: true
+  xy: 152, 189
+  size: 69, 43
+  orig: 120, 108
+  offset: 34, 34
+  index: -1
+effects/1skillC/luoxia/yanchen/yanchen_00013
+  rotate: true
+  xy: 2, 2
+  size: 9, 25
+  orig: 120, 108
+  offset: 36, 50
+  index: -1

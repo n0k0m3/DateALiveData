@@ -1,0 +1,20 @@
+
+txjz_stbx.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guangxian/guangxian_00038
+  rotate: false
+  xy: 2, 145
+  size: 239, 96
+  orig: 300, 150
+  offset: 27, 28
+  index: -1
+guangxian/xiangzi
+  rotate: false
+  xy: 2, 83
+  size: 57, 60
+  orig: 59, 62
+  offset: 1, 1
+  index: -1

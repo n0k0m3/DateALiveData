@@ -1,0 +1,83 @@
+
+evt_choronDatingBG.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/suipian/1
+  rotate: false
+  xy: 2, 647
+  size: 306, 213
+  orig: 306, 213
+  offset: 0, 0
+  index: -1
+images/suipian/10
+  rotate: true
+  xy: 310, 654
+  size: 206, 222
+  orig: 206, 222
+  offset: 0, 0
+  index: -1
+images/suipian/11
+  rotate: false
+  xy: 534, 672
+  size: 64, 42
+  orig: 64, 42
+  offset: 0, 0
+  index: -1
+images/suipian/2
+  rotate: false
+  xy: 534, 716
+  size: 173, 144
+  orig: 173, 144
+  offset: 0, 0
+  index: -1
+images/suipian/3
+  rotate: false
+  xy: 2, 173
+  size: 120, 259
+  orig: 120, 259
+  offset: 0, 0
+  index: -1
+images/suipian/4
+  rotate: false
+  xy: 2, 434
+  size: 230, 211
+  orig: 230, 211
+  offset: 0, 0
+  index: -1
+images/suipian/5
+  rotate: false
+  xy: 709, 762
+  size: 80, 98
+  orig: 80, 98
+  offset: 0, 0
+  index: -1
+images/suipian/6
+  rotate: false
+  xy: 2, 33
+  size: 103, 138
+  orig: 103, 138
+  offset: 0, 0
+  index: -1
+images/suipian/7
+  rotate: true
+  xy: 124, 321
+  size: 111, 85
+  orig: 111, 85
+  offset: 0, 0
+  index: -1
+images/suipian/8
+  rotate: false
+  xy: 2, 2
+  size: 25, 29
+  orig: 25, 29
+  offset: 0, 0
+  index: -1
+images/suipian/9
+  rotate: true
+  xy: 234, 539
+  size: 106, 73
+  orig: 106, 73
+  offset: 0, 0
+  index: -1

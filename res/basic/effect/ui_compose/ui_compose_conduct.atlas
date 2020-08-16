@@ -1,0 +1,222 @@
+
+ui_compose_conduct.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/yuanquan/zhuanquan_00004
+  rotate: true
+  xy: 644, 246
+  size: 214, 206
+  orig: 328, 288
+  offset: 60, 37
+  index: -1
+images/yuanquan/zhuanquan_00006
+  rotate: true
+  xy: 422, 12
+  size: 214, 210
+  orig: 328, 288
+  offset: 60, 35
+  index: -1
+images/yuanquan/zhuanquan_00008
+  rotate: true
+  xy: 432, 242
+  size: 214, 210
+  orig: 328, 288
+  offset: 60, 35
+  index: -1
+images/yuanquan/zhuanquan_00010
+  rotate: true
+  xy: 418, 458
+  size: 214, 212
+  orig: 328, 288
+  offset: 60, 34
+  index: -1
+images/yuanquan/zhuanquan_00034
+  rotate: true
+  xy: 634, 688
+  size: 212, 210
+  orig: 328, 288
+  offset: 61, 35
+  index: -1
+images/yuanquan/zhuanquan_00036
+  rotate: false
+  xy: 420, 686
+  size: 212, 214
+  orig: 328, 288
+  offset: 61, 33
+  index: -1
+images/yuanquan/zhuanquan_00038
+  rotate: false
+  xy: 218, 228
+  size: 212, 216
+  orig: 328, 288
+  offset: 61, 32
+  index: -1
+images/yuanquan/zhuanquan_00040
+  rotate: false
+  xy: 2, 224
+  size: 214, 218
+  orig: 328, 288
+  offset: 60, 31
+  index: -1
+images/yuanquan/zhuanquan_00042
+  rotate: false
+  xy: 2, 4
+  size: 214, 218
+  orig: 328, 288
+  offset: 60, 31
+  index: -1
+images/yuanquan/zhuanquan_00044
+  rotate: false
+  xy: 632, 462
+  size: 202, 222
+  orig: 328, 288
+  offset: 66, 29
+  index: -1
+images/yuanquan/zhuanquan_00046
+  rotate: false
+  xy: 218, 2
+  size: 202, 224
+  orig: 328, 288
+  offset: 66, 28
+  index: -1
+images/yuanquan/zhuanquan_00048
+  rotate: false
+  xy: 212, 446
+  size: 204, 226
+  orig: 328, 288
+  offset: 65, 27
+  index: -1
+images/yuanquan/zhuanquan_00050
+  rotate: false
+  xy: 212, 674
+  size: 206, 226
+  orig: 328, 288
+  offset: 64, 27
+  index: -1
+images/yuanquan/zhuanquan_00052
+  rotate: false
+  xy: 2, 672
+  size: 208, 228
+  orig: 328, 288
+  offset: 63, 26
+  index: -1
+images/yuanquan/zhuanquan_00054
+  rotate: false
+  xy: 2, 444
+  size: 208, 226
+  orig: 328, 288
+  offset: 63, 27
+  index: -1
+images/yuanquan/zhuanquan_00056
+  rotate: false
+  xy: 634, 30
+  size: 210, 210
+  orig: 328, 288
+  offset: 62, 35
+  index: -1
+
+ui_compose_conduct2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/yuanquan/zhuanquan_00000
+  rotate: true
+  xy: 206, 218
+  size: 212, 200
+  orig: 328, 288
+  offset: 61, 40
+  index: -1
+images/yuanquan/zhuanquan_00002
+  rotate: false
+  xy: 412, 660
+  size: 214, 204
+  orig: 328, 288
+  offset: 60, 38
+  index: -1
+images/yuanquan/zhuanquan_00012
+  rotate: false
+  xy: 206, 432
+  size: 202, 214
+  orig: 328, 288
+  offset: 66, 33
+  index: -1
+images/yuanquan/zhuanquan_00014
+  rotate: false
+  xy: 2, 428
+  size: 202, 216
+  orig: 328, 288
+  offset: 66, 32
+  index: -1
+images/yuanquan/zhuanquan_00016
+  rotate: false
+  xy: 2, 646
+  size: 202, 218
+  orig: 328, 288
+  offset: 66, 31
+  index: -1
+images/yuanquan/zhuanquan_00018
+  rotate: false
+  xy: 206, 648
+  size: 204, 216
+  orig: 328, 288
+  offset: 65, 32
+  index: -1
+images/yuanquan/zhuanquan_00020
+  rotate: true
+  xy: 628, 658
+  size: 206, 210
+  orig: 328, 288
+  offset: 64, 35
+  index: -1
+images/yuanquan/zhuanquan_00022
+  rotate: false
+  xy: 412, 454
+  size: 206, 204
+  orig: 328, 288
+  offset: 64, 38
+  index: -1
+images/yuanquan/zhuanquan_00024
+  rotate: false
+  xy: 620, 452
+  size: 206, 204
+  orig: 328, 288
+  offset: 64, 38
+  index: -1
+images/yuanquan/zhuanquan_00026
+  rotate: false
+  xy: 410, 248
+  size: 206, 204
+  orig: 328, 288
+  offset: 64, 38
+  index: -1
+images/yuanquan/zhuanquan_00028
+  rotate: false
+  xy: 618, 248
+  size: 206, 202
+  orig: 328, 288
+  offset: 64, 39
+  index: -1
+images/yuanquan/zhuanquan_00030
+  rotate: true
+  xy: 208, 8
+  size: 208, 200
+  orig: 328, 288
+  offset: 63, 40
+  index: -1
+images/yuanquan/zhuanquan_00032
+  rotate: true
+  xy: 2, 2
+  size: 210, 204
+  orig: 328, 288
+  offset: 62, 38
+  index: -1
+images/yuanquan/zhuanquan_00058
+  rotate: true
+  xy: 2, 214
+  size: 212, 202
+  orig: 328, 288
+  offset: 61, 39
+  index: -1

@@ -1,0 +1,550 @@
+
+effects_11401_skillB.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillb/2jian/2jian_00004
+  rotate: false
+  xy: 675, 788
+  size: 178, 21
+  orig: 210, 70
+  offset: 19, 24
+  index: -1
+images/effects/skillb/2xishoulizi/2xishoulizi_00012
+  rotate: false
+  xy: 346, 6
+  size: 350, 222
+  orig: 350, 280
+  offset: 0, 36
+  index: -1
+images/effects/skillb/2xishoulizi/2xishoulizi_00014
+  rotate: false
+  xy: 636, 261
+  size: 331, 197
+  orig: 350, 280
+  offset: 9, 38
+  index: -1
+images/effects/skillb/2xishoulizi/2xishoulizi_00016
+  rotate: false
+  xy: 284, 230
+  size: 350, 184
+  orig: 350, 280
+  offset: 0, 36
+  index: -1
+images/effects/skillb/dao/dao_00000
+  rotate: false
+  xy: 969, 363
+  size: 51, 95
+  orig: 84, 245
+  offset: 22, 0
+  index: -1
+images/effects/skillb/dao/dao_00024
+  rotate: false
+  xy: 953, 14
+  size: 69, 245
+  orig: 84, 245
+  offset: 15, 0
+  index: -1
+images/effects/skillb/dao/dao_00036
+  rotate: false
+  xy: 954, 564
+  size: 62, 245
+  orig: 84, 245
+  offset: 17, 0
+  index: -1
+images/effects/skillb/dixiabaodian/dixiabaodian_00004
+  rotate: false
+  xy: 636, 546
+  size: 316, 232
+  orig: 350, 245
+  offset: 19, 0
+  index: -1
+images/effects/skillb/dixiabaodian/dixiabaodian_00006
+  rotate: false
+  xy: 345, 780
+  size: 328, 242
+  orig: 350, 245
+  offset: 11, 0
+  index: -1
+images/effects/skillb/dixiabaodian/dixiabaodian_00008
+  rotate: false
+  xy: 2, 787
+  size: 341, 235
+  orig: 350, 245
+  offset: 9, 0
+  index: -1
+images/effects/skillb/dixiabaodian/dixiabaodian_00010
+  rotate: false
+  xy: 2, 5
+  size: 342, 216
+  orig: 350, 245
+  offset: 8, 19
+  index: -1
+images/effects/skillb/dixiabaodian/dixiabaodian_00012
+  rotate: false
+  xy: 675, 811
+  size: 341, 211
+  orig: 350, 245
+  offset: 6, 28
+  index: -1
+images/effects/skillb/xialuo/xialuo_00011
+  rotate: true
+  xy: 284, 416
+  size: 369, 57
+  orig: 420, 84
+  offset: 9, 9
+  index: -1
+images/effects/skillb/xuanzhuanquan/xuanzhuanquan_00011
+  rotate: false
+  xy: 343, 420
+  size: 237, 90
+  orig: 245, 140
+  offset: 8, 23
+  index: -1
+images/effects/skillb/zidan/zidan_00038
+  rotate: false
+  xy: 612, 460
+  size: 406, 84
+  orig: 420, 84
+  offset: 8, 0
+  index: -1
+images/effects/skillb/zuihoubaodian/zuihoubaodian_00001
+  rotate: false
+  xy: 2, 505
+  size: 280, 280
+  orig: 280, 280
+  offset: 0, 0
+  index: -1
+images/effects/skillb/zuihoubaodian/zuihoubaodian_00003
+  rotate: false
+  xy: 2, 223
+  size: 280, 280
+  orig: 280, 280
+  offset: 0, 0
+  index: -1
+images/effects/skillb/zuihoubaodian/zuihoubaodian_00005
+  rotate: true
+  xy: 698, 4
+  size: 255, 253
+  orig: 280, 280
+  offset: 19, 6
+  index: -1
+images/effects/skillb/zuihoubaodian/zuihoubaodian_00009
+  rotate: true
+  xy: 343, 512
+  size: 266, 267
+  orig: 280, 280
+  offset: 11, 1
+  index: -1
+
+effects_11401_skillB2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillb/2jian/2jian_00017
+  rotate: true
+  xy: 858, 554
+  size: 210, 68
+  orig: 210, 70
+  offset: 0, 0
+  index: -1
+images/effects/skillb/2jian/2jian_00019
+  rotate: false
+  xy: 313, 40
+  size: 210, 66
+  orig: 210, 70
+  offset: 0, 1
+  index: -1
+images/effects/skillb/2xishoulizi/2xishoulizi_00018
+  rotate: true
+  xy: 2, 74
+  size: 331, 147
+  orig: 350, 280
+  offset: 6, 62
+  index: -1
+images/effects/skillb/2xishoulizi/2xishoulizi_00020
+  rotate: false
+  xy: 598, 377
+  size: 294, 171
+  orig: 350, 280
+  offset: 17, 29
+  index: -1
+images/effects/skillb/2xishoulizi/2xishoulizi_00022
+  rotate: true
+  xy: 761, 126
+  size: 249, 161
+  orig: 350, 280
+  offset: 42, 34
+  index: -1
+images/effects/skillb/dao/dao_00016
+  rotate: true
+  xy: 2, 2
+  size: 70, 187
+  orig: 84, 245
+  offset: 14, 0
+  index: -1
+images/effects/skillb/dao/dao_00020
+  rotate: true
+  xy: 525, 71
+  size: 68, 222
+  orig: 84, 245
+  offset: 16, 0
+  index: -1
+images/effects/skillb/dao/dao_00040
+  rotate: true
+  xy: 525, 7
+  size: 62, 245
+  orig: 84, 245
+  offset: 17, 0
+  index: -1
+images/effects/skillb/dilie_00003
+  rotate: true
+  xy: 430, 416
+  size: 344, 88
+  orig: 350, 140
+  offset: 4, 16
+  index: -1
+images/effects/skillb/dixiabaodian/dixiabaodian_00000
+  rotate: true
+  xy: 313, 108
+  size: 257, 210
+  orig: 350, 245
+  offset: 48, 1
+  index: -1
+images/effects/skillb/dixiabaodian/dixiabaodian_00002
+  rotate: false
+  xy: 598, 550
+  size: 258, 214
+  orig: 350, 245
+  offset: 52, 0
+  index: -1
+images/effects/skillb/glow_00009
+  rotate: false
+  xy: 894, 425
+  size: 126, 124
+  orig: 140, 140
+  offset: 8, 4
+  index: -1
+images/effects/skillb/glow_00011
+  rotate: false
+  xy: 772, 19
+  size: 203, 105
+  orig: 210, 105
+  offset: 4, 0
+  index: -1
+images/effects/skillb/guang_00000
+  rotate: true
+  xy: 2, 407
+  size: 352, 168
+  orig: 358, 179
+  offset: 4, 1
+  index: -1
+images/effects/skillb/shifa/shifa_00004
+  rotate: true
+  xy: 151, 88
+  size: 276, 160
+  orig: 280, 210
+  offset: 0, 29
+  index: -1
+images/effects/skillb/xialuo/xialuo_00000
+  rotate: true
+  xy: 520, 424
+  size: 336, 76
+  orig: 420, 84
+  offset: 84, 0
+  index: -1
+images/effects/skillb/xialuo/xialuo_00001
+  rotate: false
+  xy: 525, 938
+  size: 420, 84
+  orig: 420, 84
+  offset: 0, 0
+  index: -1
+images/effects/skillb/xialuo/xialuo_00002
+  rotate: false
+  xy: 525, 852
+  size: 415, 84
+  orig: 420, 84
+  offset: 0, 0
+  index: -1
+images/effects/skillb/xialuo/xialuo_00003
+  rotate: false
+  xy: 525, 766
+  size: 415, 84
+  orig: 420, 84
+  offset: 0, 0
+  index: -1
+images/effects/skillb/xialuo/xialuo_00007
+  rotate: true
+  xy: 942, 551
+  size: 385, 80
+  orig: 420, 84
+  offset: 2, 0
+  index: -1
+images/effects/skillb/xuanzhuanquan/xuanzhuanquan_00009
+  rotate: true
+  xy: 924, 186
+  size: 237, 89
+  orig: 245, 140
+  offset: 4, 21
+  index: -1
+images/effects/skillb/zidan/zidan_00036
+  rotate: true
+  xy: 172, 366
+  size: 393, 84
+  orig: 420, 84
+  offset: 21, 0
+  index: -1
+images/effects/skillb/zidan/zidan_00040
+  rotate: true
+  xy: 344, 369
+  size: 391, 84
+  orig: 420, 84
+  offset: 23, 0
+  index: -1
+images/effects/skillb/zidan/zidan_00042
+  rotate: true
+  xy: 258, 367
+  size: 392, 84
+  orig: 420, 84
+  offset: 22, 0
+  index: -1
+images/effects/skillb/zuihoubaodian/zuihoubaodian_00000
+  rotate: false
+  xy: 525, 141
+  size: 234, 234
+  orig: 280, 280
+  offset: 22, 13
+  index: -1
+images/effects/skillb/zuihoubaodian/zuihoubaodian_00007
+  rotate: false
+  xy: 2, 761
+  size: 260, 261
+  orig: 280, 280
+  offset: 14, 6
+  index: -1
+images/effects/skillb/zuihoubaodian/zuihoubaodian_00011
+  rotate: false
+  xy: 264, 762
+  size: 259, 260
+  orig: 280, 280
+  offset: 19, 7
+  index: -1
+
+effects_11401_skillB3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillb/2jian/2jian_00005
+  rotate: true
+  xy: 656, 636
+  size: 198, 59
+  orig: 210, 70
+  offset: 11, 3
+  index: -1
+images/effects/skillb/2jian/2jian_00007
+  rotate: false
+  xy: 214, 156
+  size: 209, 64
+  orig: 210, 70
+  offset: 1, 1
+  index: -1
+images/effects/skillb/2jian/2jian_00011
+  rotate: false
+  xy: 717, 621
+  size: 209, 64
+  orig: 210, 70
+  offset: 1, 1
+  index: -1
+images/effects/skillb/2jian/2jian_00015
+  rotate: true
+  xy: 464, 456
+  size: 209, 65
+  orig: 210, 70
+  offset: 1, 1
+  index: -1
+images/effects/skillb/2xishoulizi/2xishoulizi_00024
+  rotate: true
+  xy: 888, 812
+  size: 210, 125
+  orig: 350, 280
+  offset: 59, 69
+  index: -1
+images/effects/skillb/dao/dao_00004
+  rotate: false
+  xy: 375, 14
+  size: 61, 140
+  orig: 84, 245
+  offset: 16, 0
+  index: -1
+images/effects/skillb/dao/dao_00008
+  rotate: false
+  xy: 463, 300
+  size: 70, 154
+  orig: 84, 245
+  offset: 12, 0
+  index: -1
+images/effects/skillb/dao/dao_00012
+  rotate: true
+  xy: 535, 257
+  size: 75, 168
+  orig: 84, 245
+  offset: 9, 0
+  index: -1
+images/effects/skillb/dao/dao_00028
+  rotate: false
+  xy: 214, 589
+  size: 69, 245
+  orig: 84, 245
+  offset: 15, 0
+  index: -1
+images/effects/skillb/dao/dao_00032
+  rotate: false
+  xy: 214, 342
+  size: 69, 245
+  orig: 84, 245
+  offset: 15, 0
+  index: -1
+images/effects/skillb/di_ci_00000
+  rotate: false
+  xy: 535, 334
+  size: 170, 172
+  orig: 175, 175
+  offset: 1, 0
+  index: -1
+images/effects/skillb/di_quan_00000_00000
+  rotate: false
+  xy: 873, 308
+  size: 149, 143
+  orig: 179, 179
+  offset: 16, 15
+  index: -1
+images/effects/skillb/shifa/shifa_00000
+  rotate: false
+  xy: 487, 836
+  size: 206, 186
+  orig: 280, 210
+  offset: 29, 12
+  index: -1
+images/effects/skillb/shifa/shifa_00002
+  rotate: false
+  xy: 2, 836
+  size: 255, 186
+  orig: 280, 210
+  offset: 0, 12
+  index: -1
+images/effects/skillb/shifa/shifa_00006
+  rotate: false
+  xy: 259, 849
+  size: 226, 173
+  orig: 280, 210
+  offset: 50, 20
+  index: -1
+images/effects/skillb/shifa/shifa_00008
+  rotate: false
+  xy: 211, 23
+  size: 162, 131
+  orig: 280, 210
+  offset: 111, 51
+  index: -1
+images/effects/skillb/shoubao/shoubaoadd_00000
+  rotate: false
+  xy: 2, 624
+  size: 210, 210
+  orig: 210, 210
+  offset: 0, 0
+  index: -1
+images/effects/skillb/shoubao/shoubaoadd_00002
+  rotate: false
+  xy: 2, 412
+  size: 210, 210
+  orig: 210, 210
+  offset: 0, 0
+  index: -1
+images/effects/skillb/shoubao/shoubaoadd_00004
+  rotate: false
+  xy: 2, 200
+  size: 210, 210
+  orig: 210, 210
+  offset: 0, 0
+  index: -1
+images/effects/skillb/shoubao/shoubaoadd_00006
+  rotate: false
+  xy: 470, 672
+  size: 184, 162
+  orig: 210, 210
+  offset: 1, 20
+  index: -1
+images/effects/skillb/shoubao/shoubaonor_00001
+  rotate: false
+  xy: 707, 453
+  size: 168, 166
+  orig: 210, 210
+  offset: 20, 16
+  index: -1
+images/effects/skillb/shoubao/shoubaonor_00002
+  rotate: false
+  xy: 707, 289
+  size: 164, 162
+  orig: 210, 210
+  offset: 22, 18
+  index: -1
+images/effects/skillb/xuanzhuanqian/xuanzhuanqian_00000
+  rotate: false
+  xy: 531, 508
+  size: 87, 162
+  orig: 210, 210
+  offset: 13, 28
+  index: -1
+images/effects/skillb/xuanzhuanqian/xuanzhuanqian_00001
+  rotate: false
+  xy: 2, 10
+  size: 207, 188
+  orig: 210, 210
+  offset: 0, 0
+  index: -1
+images/effects/skillb/xuanzhuanqian/xuanzhuanqian_00002
+  rotate: false
+  xy: 695, 844
+  size: 191, 178
+  orig: 210, 210
+  offset: 9, 8
+  index: -1
+images/effects/skillb/xuanzhuanqian/xuanzhuanqian_00004
+  rotate: false
+  xy: 285, 667
+  size: 183, 180
+  orig: 210, 210
+  offset: 13, 9
+  index: -1
+images/effects/skillb/xuanzhuanqian/xuanzhuanqian_00006
+  rotate: false
+  xy: 285, 491
+  size: 177, 174
+  orig: 210, 210
+  offset: 14, 16
+  index: -1
+images/effects/skillb/xuanzhuanqian/xuanzhuanqian_00008
+  rotate: false
+  xy: 285, 316
+  size: 176, 173
+  orig: 210, 210
+  offset: 14, 16
+  index: -1
+images/effects/skillb/xuanzhuanqian/xuanzhuanqian_00010
+  rotate: false
+  xy: 717, 687
+  size: 169, 155
+  orig: 210, 210
+  offset: 16, 23
+  index: -1
+images/effects/skillb/xuanzhuanquan/xuanzhuanquan_00005
+  rotate: false
+  xy: 214, 222
+  size: 218, 92
+  orig: 245, 140
+  offset: 13, 21
+  index: -1

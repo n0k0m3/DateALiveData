@@ -1,0 +1,97 @@
+
+effects_10210_hit.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skillB/hit/hit_010
+  rotate: false
+  xy: 2, 192
+  size: 303, 162
+  orig: 401, 178
+  offset: 52, 3
+  index: -1
+effect/skillB/hit/hit_011
+  rotate: false
+  xy: 2, 356
+  size: 348, 162
+  orig: 401, 178
+  offset: 30, 3
+  index: -1
+effect/skillB/hit/hit_012
+  rotate: false
+  xy: 2, 520
+  size: 358, 161
+  orig: 401, 178
+  offset: 25, 3
+  index: -1
+effect/skillB/hit/hit_014
+  rotate: false
+  xy: 2, 683
+  size: 380, 165
+  orig: 401, 178
+  offset: 14, 1
+  index: -1
+effect/skillB/hit/hit_016
+  rotate: false
+  xy: 2, 850
+  size: 396, 167
+  orig: 401, 178
+  offset: 5, 0
+  index: -1
+effect/skillB/hit/hit_018
+  rotate: false
+  xy: 400, 889
+  size: 398, 128
+  orig: 401, 178
+  offset: 3, 16
+  index: -1
+effect/skillB/hit/hit_019
+  rotate: true
+  xy: 307, 247
+  size: 107, 99
+  orig: 401, 178
+  offset: 150, 37
+  index: -1
+effect/skillB/hit1/hit1_032
+  rotate: false
+  xy: 188, 6
+  size: 182, 184
+  orig: 194, 205
+  offset: 6, 11
+  index: -1
+effect/skillB/hit1/hit1_033
+  rotate: true
+  xy: 400, 705
+  size: 182, 184
+  orig: 194, 205
+  offset: 6, 11
+  index: -1
+effect/skillB/hit1/hit1_035
+  rotate: false
+  xy: 2, 2
+  size: 184, 188
+  orig: 194, 205
+  offset: 3, 7
+  index: -1
+effect/skillB/hit1/hit1_037
+  rotate: true
+  xy: 800, 823
+  size: 194, 205
+  orig: 194, 205
+  offset: 0, 0
+  index: -1
+effect/skillB/hit1/hit1_039
+  rotate: false
+  xy: 586, 731
+  size: 172, 156
+  orig: 194, 205
+  offset: 10, 21
+  index: -1
+effect/skillB/hit1/hit1_041
+  rotate: false
+  xy: 760, 676
+  size: 170, 145
+  orig: 194, 205
+  offset: 15, 24
+  index: -1

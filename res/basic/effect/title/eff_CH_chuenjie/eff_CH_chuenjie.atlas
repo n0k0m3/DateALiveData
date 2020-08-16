@@ -1,0 +1,160 @@
+
+eff_CH_chuenjie.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+di
+  rotate: false
+  xy: 287, 383
+  size: 134, 29
+  orig: 134, 29
+  offset: 0, 0
+  index: -1
+diguang
+  rotate: false
+  xy: 287, 414
+  size: 133, 31
+  orig: 133, 31
+  offset: 0, 0
+  index: -1
+diguang/diguang_00000
+  rotate: false
+  xy: 210, 249
+  size: 54, 42
+  orig: 180, 68
+  offset: 65, 11
+  index: -1
+diguang/diguang_00002
+  rotate: false
+  xy: 444, 461
+  size: 55, 42
+  orig: 180, 68
+  offset: 65, 11
+  index: -1
+diguang/diguang_00004
+  rotate: true
+  xy: 122, 139
+  size: 68, 42
+  orig: 180, 68
+  offset: 58, 13
+  index: -1
+diguang/diguang_00006
+  rotate: false
+  xy: 96, 209
+  size: 79, 44
+  orig: 180, 68
+  offset: 52, 13
+  index: -1
+diguang/diguang_00008
+  rotate: false
+  xy: 164, 293
+  size: 88, 47
+  orig: 180, 68
+  offset: 47, 12
+  index: -1
+diguang/diguang_00010
+  rotate: false
+  xy: 164, 342
+  size: 97, 49
+  orig: 180, 68
+  offset: 43, 12
+  index: -1
+diguang/diguang_00012
+  rotate: true
+  xy: 2, 2
+  size: 108, 49
+  orig: 180, 68
+  offset: 38, 13
+  index: -1
+diguang/diguang_00014
+  rotate: false
+  xy: 164, 393
+  size: 121, 52
+  orig: 180, 68
+  offset: 31, 11
+  index: -1
+diguang/diguang_00016
+  rotate: true
+  xy: 107, 293
+  size: 133, 55
+  orig: 180, 68
+  offset: 25, 10
+  index: -1
+diguang/diguang_00018
+  rotate: false
+  xy: 299, 447
+  size: 143, 56
+  orig: 180, 68
+  offset: 19, 9
+  index: -1
+diguang/diguang_00020
+  rotate: false
+  xy: 146, 447
+  size: 151, 56
+  orig: 180, 68
+  offset: 15, 9
+  index: -1
+diguang/diguang_00022
+  rotate: true
+  xy: 2, 270
+  size: 156, 55
+  orig: 180, 68
+  offset: 12, 10
+  index: -1
+diguang/diguang_00024
+  rotate: true
+  xy: 2, 112
+  size: 156, 49
+  orig: 180, 68
+  offset: 12, 11
+  index: -1
+diguang/diguang_00026
+  rotate: true
+  xy: 59, 270
+  size: 156, 46
+  orig: 180, 68
+  offset: 12, 14
+  index: -1
+diguang/diguang_00028
+  rotate: true
+  xy: 53, 112
+  size: 156, 41
+  orig: 180, 68
+  offset: 12, 18
+  index: -1
+xingxing
+  rotate: false
+  xy: 177, 226
+  size: 27, 27
+  orig: 27, 27
+  offset: 0, 0
+  index: -1
+zi
+  rotate: false
+  xy: 107, 255
+  size: 101, 36
+  orig: 101, 36
+  offset: 0, 0
+  index: -1
+zi2
+  rotate: true
+  xy: 96, 117
+  size: 90, 24
+  orig: 178, 93
+  offset: 45, 36
+  index: -1
+ziguang
+  rotate: false
+  xy: 2, 428
+  size: 142, 75
+  orig: 142, 75
+  offset: 0, 0
+  index: -1
+ziguang2
+  rotate: true
+  xy: 53, 9
+  size: 101, 38
+  orig: 101, 38
+  offset: 0, 0
+  index: -1

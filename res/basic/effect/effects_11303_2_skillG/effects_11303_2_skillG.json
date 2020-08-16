@@ -1,0 +1,197 @@
+{
+"skeleton": { "hash": "qheA8IwfJNlGZ1yj2FgVR0sLxRE", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/effects_L/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bdbox_eff", "parent": "root" },
+	{ "name": "diaoluo_down", "parent": "root" },
+	{ "name": "diaoluo_up", "parent": "root" },
+	{ "name": "effects", "parent": "root" },
+	{ "name": "glow1", "parent": "root" },
+	{ "name": "xialuo", "parent": "root" },
+	{ "name": "glow", "parent": "effects" }
+],
+"slots": [
+	{ "name": "bdbox_eff", "bone": "bdbox_eff", "attachment": "bdbox_eff" },
+	{ "name": "skillB/bao_down/down_056", "bone": "diaoluo_down", "blend": "additive" },
+	{ "name": "skillB/bao_up/up_056", "bone": "diaoluo_up" },
+	{ "name": "skillB/xunhuan/xunhuan_027", "bone": "xialuo" },
+	{ "name": "glow1_029", "bone": "glow1", "blend": "additive" },
+	{ "name": "skillA/glow_001", "bone": "glow", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"bdbox_eff": {
+			"bdbox_eff": {
+				"type": "boundingbox",
+				"vertices": [ -64.64355, -66.09193, 63.49832, -65.52493, 64.63234, 62.61694, -64.64355, 63.18394 ]
+			}
+		},
+		"glow1_029": {
+			"glow1_029": { "width": 132, "height": 60 }
+		},
+		"skillA/glow_001": {
+			"skillA/glow_001": { "width": 225, "height": 221 }
+		},
+		"skillB/bao_down/down_056": {
+			"skillB/bao_down/down_056": { "width": 350, "height": 154 },
+			"skillB/bao_down/down_060": { "width": 350, "height": 154 },
+			"skillB/bao_down/down_064": { "width": 350, "height": 154 },
+			"skillB/bao_down/down_066": { "width": 350, "height": 154 },
+			"skillB/bao_down/down_070": { "width": 350, "height": 154 }
+		},
+		"skillB/bao_up/up_056": {
+			"skillB/bao_up/up_056": { "width": 342, "height": 274 },
+			"skillB/bao_up/up_058": { "width": 342, "height": 274 },
+			"skillB/bao_up/up_060": { "width": 342, "height": 274 },
+			"skillB/bao_up/up_062": { "width": 342, "height": 274 },
+			"skillB/bao_up/up_064": { "width": 342, "height": 274 },
+			"skillB/bao_up/up_066": { "width": 342, "height": 274 },
+			"skillB/bao_up/up_070": { "width": 342, "height": 274 }
+		},
+		"skillB/xunhuan/xunhuan_027": {
+			"skillB/xunhuan/xunhuan_027": { "width": 525, "height": 192 },
+			"skillB/xunhuan/xunhuan_029": { "width": 525, "height": 192 },
+			"skillB/xunhuan/xunhuan_031": { "width": 525, "height": 192 },
+			"skillB/xunhuan/xunhuan_035": { "width": 525, "height": 192 },
+			"skillB/xunhuan/xunhuan_039": { "width": 525, "height": 192 },
+			"skillB/xunhuan/xunhuan_043": { "width": 525, "height": 192 },
+			"skillB/xunhuan/xunhuan_047": { "width": 525, "height": 192 }
+		}
+	}
+},
+"events": {
+	"effect": {},
+	"hurt": {},
+	"music": {}
+},
+"animations": {
+	"diaoluo": {
+		"slots": {
+			"glow1_029": {
+				"attachment": [
+					{ "time": 0.1, "name": "glow1_029" },
+					{ "time": 0.3, "name": null }
+				]
+			},
+			"skillA/glow_001": {
+				"attachment": [
+					{ "time": 0.1333, "name": "skillA/glow_001" }
+				],
+				"color": [
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.2333, "color": "53a8ffff" },
+					{ "time": 0.4, "color": "0007ff00" }
+				]
+			},
+			"skillB/bao_down/down_056": {
+				"attachment": [
+					{ "time": 0.2, "name": "skillB/bao_down/down_056" },
+					{ "time": 0.2666, "name": "skillB/bao_down/down_060" },
+					{ "time": 0.3333, "name": "skillB/bao_down/down_064" },
+					{ "time": 0.4, "name": "skillB/bao_down/down_066" },
+					{ "time": 0.4666, "name": "skillB/bao_down/down_070" },
+					{ "time": 0.5666, "name": null }
+				],
+				"color": [
+					{ "time": 0.4333, "color": "ffffffff" },
+					{ "time": 0.5666, "color": "ffffff00" }
+				]
+			},
+			"skillB/bao_up/up_056": {
+				"attachment": [
+					{ "time": 0.1, "name": "skillB/bao_up/up_056" },
+					{ "time": 0.1333, "name": "skillB/bao_up/up_058" },
+					{ "time": 0.1666, "name": "skillB/bao_up/up_060" },
+					{ "time": 0.2333, "name": "skillB/bao_up/up_062" },
+					{ "time": 0.2666, "name": "skillB/bao_up/up_064" },
+					{ "time": 0.3333, "name": "skillB/bao_up/up_066" },
+					{ "time": 0.4, "name": "skillB/bao_up/up_070" },
+					{ "time": 0.5333, "name": null }
+				],
+				"color": [
+					{ "time": 0.4, "color": "ffffffff" },
+					{ "time": 0.5333, "color": "ffffff00" }
+				]
+			},
+			"skillB/xunhuan/xunhuan_027": {
+				"attachment": [
+					{ "time": 0, "name": "skillB/xunhuan/xunhuan_027" },
+					{ "time": 0.0333, "name": "skillB/xunhuan/xunhuan_029" },
+					{ "time": 0.0666, "name": "skillB/xunhuan/xunhuan_031" },
+					{ "time": 0.1333, "name": "skillB/xunhuan/xunhuan_035" },
+					{ "time": 0.2, "name": "skillB/xunhuan/xunhuan_039" },
+					{ "time": 0.2666, "name": "skillB/xunhuan/xunhuan_043" },
+					{ "time": 0.3333, "name": "skillB/xunhuan/xunhuan_047" },
+					{ "time": 0.4, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"bdbox_eff": {
+				"translate": [
+					{ "time": 0, "x": -16.38, "y": 103.73 }
+				],
+				"scale": [
+					{ "time": 0, "x": 4.112, "y": 2.401 }
+				]
+			},
+			"diaoluo_up": {
+				"translate": [
+					{ "time": 0.1, "x": -39.61, "y": 128.23 }
+				],
+				"scale": [
+					{ "time": 0.1, "x": 2.325, "y": 2.325 }
+				]
+			},
+			"diaoluo_down": {
+				"translate": [
+					{ "time": 0.2, "x": -13.16, "y": 50.25 }
+				],
+				"scale": [
+					{ "time": 0.2, "x": 2.654, "y": 2.654 }
+				]
+			},
+			"xialuo": {
+				"rotate": [
+					{ "time": 0, "angle": -90 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 974.92 },
+					{ "time": 0.1, "x": 0, "y": 666.68 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.116, "y": 1.116 },
+					{ "time": 0.1, "x": 2.816, "y": 2.816 }
+				]
+			},
+			"glow": {
+				"translate": [
+					{ "time": 0.1333, "x": 0, "y": 134.09 }
+				],
+				"scale": [
+					{ "time": 0.1333, "x": 5, "y": 5 }
+				]
+			},
+			"glow1": {
+				"rotate": [
+					{ "time": 0.1, "angle": 90 }
+				],
+				"translate": [
+					{ "time": 0.1, "x": -22.14, "y": 491.73 },
+					{ "time": 0.1666, "x": -22.14, "y": 791.19 },
+					{ "time": 0.2666, "x": -22.14, "y": 299.02 }
+				],
+				"scale": [
+					{ "time": 0.1, "x": 26.046, "y": 26.046 },
+					{ "time": 0.2, "x": 26.046, "y": 4.7 },
+					{ "time": 0.2666, "x": 4.123, "y": 0.744 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.3, "name": "hurt" },
+			{ "time": 0.3, "name": "music" }
+		]
+	}
+}
+}

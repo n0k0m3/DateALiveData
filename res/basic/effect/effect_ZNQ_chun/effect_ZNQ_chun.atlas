@@ -1,0 +1,90 @@
+
+effect_ZNQ_chun.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/chun
+  rotate: false
+  xy: 2, 1178
+  size: 1386, 640
+  orig: 1386, 640
+  offset: 0, 0
+  index: -1
+images/hua
+  rotate: false
+  xy: 1390, 1666
+  size: 403, 152
+  orig: 403, 152
+  offset: 0, 0
+  index: -1
+images/hua1
+  rotate: false
+  xy: 2, 951
+  size: 547, 225
+  orig: 547, 225
+  offset: 0, 0
+  index: -1
+images/huaxiao
+  rotate: false
+  xy: 2, 843
+  size: 97, 106
+  orig: 97, 106
+  offset: 0, 0
+  index: -1
+images/huaxiao1
+  rotate: false
+  xy: 551, 1093
+  size: 88, 83
+  orig: 88, 83
+  offset: 0, 0
+  index: -1
+images/huaxiao2
+  rotate: false
+  xy: 2, 817
+  size: 27, 24
+  orig: 27, 24
+  offset: 0, 0
+  index: -1
+images/huaxiao3
+  rotate: false
+  xy: 101, 925
+  size: 27, 24
+  orig: 27, 24
+  offset: 0, 0
+  index: -1
+images/huaxiao4
+  rotate: false
+  xy: 1390, 1633
+  size: 46, 31
+  orig: 46, 31
+  offset: 0, 0
+  index: -1
+images/huaxiao5
+  rotate: false
+  xy: 551, 1071
+  size: 21, 20
+  orig: 21, 20
+  offset: 0, 0
+  index: -1
+images/huaxiao6
+  rotate: false
+  xy: 1795, 1781
+  size: 23, 37
+  orig: 23, 37
+  offset: 0, 0
+  index: -1
+images/huaxiao7
+  rotate: false
+  xy: 1390, 1621
+  size: 15, 10
+  orig: 15, 10
+  offset: 0, 0
+  index: -1
+images/huaxiao8
+  rotate: false
+  xy: 641, 1164
+  size: 16, 12
+  orig: 16, 12
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,188 @@
+
+hanfushixiangjangkanban.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+anguang
+  rotate: true
+  xy: 1183, 1056
+  size: 347, 145
+  orig: 347, 145
+  offset: 0, 0
+  index: -1
+dashengdanshu
+  rotate: false
+  xy: 2, 553
+  size: 347, 454
+  orig: 347, 454
+  offset: 0, 0
+  index: -1
+guang1_1
+  rotate: false
+  xy: 638, 615
+  size: 202, 189
+  orig: 202, 189
+  offset: 0, 0
+  index: -1
+guang1_2
+  rotate: false
+  xy: 189, 29
+  size: 149, 201
+  orig: 149, 201
+  offset: 0, 0
+  index: -1
+guang2_1
+  rotate: false
+  xy: 351, 537
+  size: 285, 267
+  orig: 285, 267
+  offset: 0, 0
+  index: -1
+guang2_2
+  rotate: false
+  xy: 2, 232
+  size: 310, 319
+  orig: 310, 319
+  offset: 0, 0
+  index: -1
+jianzhu
+  rotate: false
+  xy: 2, 1405
+  size: 1386, 640
+  orig: 1386, 640
+  offset: 0, 0
+  index: -1
+liwu
+  rotate: false
+  xy: 1772, 1586
+  size: 254, 101
+  orig: 254, 101
+  offset: 0, 0
+  index: -1
+nihogdeng1
+  rotate: false
+  xy: 1390, 1608
+  size: 380, 437
+  orig: 380, 437
+  offset: 0, 0
+  index: -1
+nihogdeng2
+  rotate: false
+  xy: 1183, 1031
+  size: 61, 23
+  orig: 61, 23
+  offset: 0, 0
+  index: -1
+nihogdeng3
+  rotate: false
+  xy: 1390, 1377
+  size: 127, 81
+  orig: 127, 81
+  offset: 0, 0
+  index: -1
+nihogdeng4
+  rotate: true
+  xy: 1330, 1249
+  size: 154, 48
+  orig: 154, 48
+  offset: 0, 0
+  index: -1
+nihogdeng5
+  rotate: false
+  xy: 1708, 1577
+  size: 53, 29
+  orig: 53, 29
+  offset: 0, 0
+  index: -1
+nihogdeng6
+  rotate: false
+  xy: 314, 309
+  size: 203, 118
+  orig: 203, 118
+  offset: 0, 0
+  index: -1
+nihogdeng7
+  rotate: false
+  xy: 1390, 1460
+  size: 316, 146
+  orig: 316, 146
+  offset: 0, 0
+  index: -1
+nihogdeng8
+  rotate: false
+  xy: 638, 511
+  size: 212, 102
+  orig: 212, 102
+  offset: 0, 0
+  index: -1
+nihogdeng9
+  rotate: true
+  xy: 842, 656
+  size: 148, 83
+  orig: 148, 83
+  offset: 0, 0
+  index: -1
+shu1
+  rotate: true
+  xy: 926, 807
+  size: 200, 246
+  orig: 200, 246
+  offset: 0, 0
+  index: -1
+shu2
+  rotate: false
+  xy: 1041, 691
+  size: 105, 114
+  orig: 105, 114
+  offset: 0, 0
+  index: -1
+shuguang
+  rotate: false
+  xy: 2, 2
+  size: 185, 228
+  orig: 185, 228
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 189, 6
+  size: 21, 21
+  orig: 21, 21
+  offset: 0, 0
+  index: -1
+tiankong
+  rotate: false
+  xy: 2, 1009
+  size: 1179, 394
+  orig: 1179, 394
+  offset: 0, 0
+  index: -1
+xingxing
+  rotate: false
+  xy: 351, 806
+  size: 573, 201
+  orig: 573, 201
+  offset: 0, 0
+  index: -1
+xuehua1
+  rotate: false
+  xy: 314, 429
+  size: 246, 106
+  orig: 246, 109
+  offset: 0, 0
+  index: -1
+xueren
+  rotate: false
+  xy: 927, 657
+  size: 112, 148
+  orig: 112, 148
+  offset: 0, 0
+  index: -1
+zhongjianguang
+  rotate: true
+  xy: 1772, 1689
+  size: 356, 244
+  orig: 357, 244
+  offset: 1, 0
+  index: -1

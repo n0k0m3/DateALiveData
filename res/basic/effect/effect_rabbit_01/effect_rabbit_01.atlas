@@ -1,0 +1,139 @@
+
+effect_rabbit_01.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/jineng/touying_00000
+  rotate: false
+  xy: 296, 370
+  size: 161, 26
+  orig: 225, 225
+  offset: 33, 95
+  index: -1
+images/jineng/yanwu1/yanwu1_00000
+  rotate: true
+  xy: 112, 2
+  size: 144, 66
+  orig: 225, 225
+  offset: 76, 49
+  index: -1
+images/jineng/yanwu1/yanwu1_00001
+  rotate: false
+  xy: 296, 398
+  size: 154, 87
+  orig: 225, 225
+  offset: 53, 54
+  index: -1
+images/jineng/yanwu1/yanwu1_00002
+  rotate: true
+  xy: 145, 232
+  size: 145, 87
+  orig: 225, 225
+  offset: 36, 57
+  index: -1
+images/jineng/yanwu1/yanwu1_00003
+  rotate: false
+  xy: 154, 380
+  size: 140, 105
+  orig: 225, 225
+  offset: 20, 52
+  index: -1
+images/jineng/yanwu1/yanwu1_00004
+  rotate: false
+  xy: 2, 379
+  size: 150, 106
+  orig: 225, 225
+  offset: 18, 52
+  index: -1
+images/jineng/yanwu1/yanwu1_00005
+  rotate: true
+  xy: 2, 2
+  size: 144, 108
+  orig: 225, 225
+  offset: 12, 54
+  index: -1
+images/jineng/yanwu1/yanwu1_00006
+  rotate: false
+  xy: 2, 263
+  size: 141, 114
+  orig: 225, 225
+  offset: 13, 52
+  index: -1
+images/jineng/yanwu1/yanwu1_00007
+  rotate: false
+  xy: 2, 263
+  size: 141, 114
+  orig: 225, 225
+  offset: 13, 52
+  index: -1
+images/jineng/yanwu1/yanwu1_00008
+  rotate: false
+  xy: 2, 148
+  size: 141, 113
+  orig: 225, 225
+  offset: 9, 52
+  index: -1
+images/jineng/yanwu1/yanwu1_00009
+  rotate: false
+  xy: 2, 148
+  size: 141, 113
+  orig: 225, 225
+  offset: 9, 52
+  index: -1
+images/jineng/yanwu1/yanwu1_00010
+  rotate: false
+  xy: 234, 256
+  size: 122, 112
+  orig: 225, 225
+  offset: 7, 53
+  index: -1
+images/jineng/yanwu1/yanwu1_00011
+  rotate: false
+  xy: 234, 256
+  size: 122, 112
+  orig: 225, 225
+  offset: 7, 53
+  index: -1
+images/jineng/yanwu1/yanwu1_00012
+  rotate: true
+  xy: 358, 250
+  size: 118, 110
+  orig: 225, 225
+  offset: 2, 56
+  index: -1
+images/jineng/yanwu1/yanwu1_00013
+  rotate: true
+  xy: 358, 250
+  size: 118, 110
+  orig: 225, 225
+  offset: 2, 56
+  index: -1
+images/jineng/yanwu1/yanwu1_00014
+  rotate: false
+  xy: 234, 149
+  size: 107, 105
+  orig: 225, 225
+  offset: 4, 60
+  index: -1
+images/jineng/yanwu1/yanwu1_00015
+  rotate: false
+  xy: 234, 149
+  size: 107, 105
+  orig: 225, 225
+  offset: 4, 60
+  index: -1
+images/jineng/yanwu1/yanwu1_00016
+  rotate: true
+  xy: 452, 423
+  size: 62, 27
+  orig: 225, 225
+  offset: 15, 99
+  index: -1
+images/jineng/yanwu1/yanwu1_00017
+  rotate: true
+  xy: 452, 423
+  size: 62, 27
+  orig: 225, 225
+  offset: 15, 99
+  index: -1

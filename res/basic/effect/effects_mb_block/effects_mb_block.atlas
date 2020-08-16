@@ -1,0 +1,13 @@
+
+effects_mb_block.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+block_light
+  rotate: false
+  xy: 2, 72
+  size: 326, 256
+  orig: 326, 256
+  offset: 0, 0
+  index: -1

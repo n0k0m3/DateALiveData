@@ -1,0 +1,111 @@
+
+effects_10501_dodge.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/dodge/canying1_00000
+  rotate: false
+  xy: 623, 728
+  size: 135, 101
+  orig: 135, 101
+  offset: 0, 0
+  index: -1
+effect/dodge/canying2_00000
+  rotate: false
+  xy: 830, 864
+  size: 135, 101
+  orig: 135, 101
+  offset: 0, 0
+  index: -1
+effect/dodge/tuowei/tuowei_00000
+  rotate: false
+  xy: 2, 831
+  size: 205, 134
+  orig: 205, 134
+  offset: 0, 0
+  index: -1
+effect/dodge/tuowei/tuowei_00002
+  rotate: false
+  xy: 2, 695
+  size: 205, 134
+  orig: 205, 134
+  offset: 0, 0
+  index: -1
+effect/dodge/tuowei/tuowei_00004
+  rotate: false
+  xy: 209, 831
+  size: 205, 134
+  orig: 205, 134
+  offset: 0, 0
+  index: -1
+effect/dodge/tuowei/tuowei_00006
+  rotate: false
+  xy: 2, 559
+  size: 205, 134
+  orig: 205, 134
+  offset: 0, 0
+  index: -1
+effect/dodge/tuowei/tuowei_00008
+  rotate: false
+  xy: 209, 695
+  size: 205, 134
+  orig: 205, 134
+  offset: 0, 0
+  index: -1
+effect/dodge/tuowei/tuowei_00010
+  rotate: false
+  xy: 416, 831
+  size: 205, 134
+  orig: 205, 134
+  offset: 0, 0
+  index: -1
+effect/dodge/tuowei/tuowei_00012
+  rotate: false
+  xy: 2, 423
+  size: 205, 134
+  orig: 205, 134
+  offset: 0, 0
+  index: -1
+effect/dodge/tuowei/tuowei_00014
+  rotate: false
+  xy: 209, 559
+  size: 205, 134
+  orig: 205, 134
+  offset: 0, 0
+  index: -1
+effect/dodge/tuowei/tuowei_00016
+  rotate: false
+  xy: 416, 695
+  size: 205, 134
+  orig: 205, 134
+  offset: 0, 0
+  index: -1
+effect/dodge/tuowei/tuowei_00018
+  rotate: false
+  xy: 623, 831
+  size: 205, 134
+  orig: 205, 134
+  offset: 0, 0
+  index: -1
+effect/dodge/tuowei/tuowei_00020
+  rotate: false
+  xy: 2, 287
+  size: 205, 134
+  orig: 205, 134
+  offset: 0, 0
+  index: -1
+effect/dodge/tuowei/tuowei_00022
+  rotate: false
+  xy: 209, 423
+  size: 205, 134
+  orig: 205, 134
+  offset: 0, 0
+  index: -1
+effect/dodge/tuowei/tuowei_00024
+  rotate: false
+  xy: 416, 559
+  size: 205, 134
+  orig: 205, 134
+  offset: 0, 0
+  index: -1

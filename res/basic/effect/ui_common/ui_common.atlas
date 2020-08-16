@@ -1,0 +1,90 @@
+
+ui_common.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+UI/001
+  rotate: true
+  xy: 198, 7
+  size: 53, 47
+  orig: 54, 47
+  offset: 0, 0
+  index: -1
+UI/002
+  rotate: false
+  xy: 2, 7
+  size: 17, 30
+  orig: 17, 30
+  offset: 0, 0
+  index: -1
+sanjiao/sanjiao_00000
+  rotate: true
+  xy: 144, 2
+  size: 58, 52
+  orig: 81, 73
+  offset: 12, 10
+  index: -1
+sanjiao/sanjiao_00002
+  rotate: true
+  xy: 83, 119
+  size: 62, 55
+  orig: 81, 73
+  offset: 10, 9
+  index: -1
+sanjiao/sanjiao_00004
+  rotate: false
+  xy: 144, 62
+  size: 66, 58
+  orig: 81, 73
+  offset: 8, 8
+  index: -1
+sanjiao/sanjiao_00006
+  rotate: true
+  xy: 80, 39
+  size: 69, 62
+  orig: 81, 73
+  offset: 6, 6
+  index: -1
+sanjiao/sanjiao_00008
+  rotate: false
+  xy: 164, 122
+  size: 72, 64
+  orig: 81, 73
+  offset: 5, 5
+  index: -1
+sanjiao/sanjiao_00010
+  rotate: false
+  xy: 164, 188
+  size: 73, 66
+  orig: 81, 73
+  offset: 4, 4
+  index: -1
+sanjiao/sanjiao_00012
+  rotate: false
+  xy: 2, 39
+  size: 76, 69
+  orig: 81, 73
+  offset: 3, 3
+  index: -1
+sanjiao/sanjiao_00014
+  rotate: false
+  xy: 2, 110
+  size: 79, 71
+  orig: 81, 73
+  offset: 1, 2
+  index: -1
+sanjiao/sanjiao_00016
+  rotate: false
+  xy: 2, 183
+  size: 81, 71
+  orig: 81, 73
+  offset: 0, 2
+  index: -1
+sanjiao/sanjiao_00018
+  rotate: false
+  xy: 85, 184
+  size: 77, 70
+  orig: 81, 73
+  offset: 1, 3
+  index: -1

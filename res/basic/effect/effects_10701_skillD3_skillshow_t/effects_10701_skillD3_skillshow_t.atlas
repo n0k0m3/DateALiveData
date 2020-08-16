@@ -1,0 +1,236 @@
+
+effects_10701_skillD3_skillshow_t.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillb_l3/p1_c/wing_a_0001
+  rotate: false
+  xy: 819, 333
+  size: 202, 107
+  orig: 225, 120
+  offset: 20, 2
+  index: -1
+images/effects/skillb_l3/p1_c/wing_a_0003
+  rotate: true
+  xy: 864, 122
+  size: 209, 102
+  orig: 225, 120
+  offset: 13, 8
+  index: -1
+images/effects/skilld/1
+  rotate: true
+  xy: 723, 291
+  size: 225, 50
+  orig: 225, 50
+  offset: 0, 0
+  index: -1
+images/effects/skilld/2
+  rotate: false
+  xy: 524, 518
+  size: 244, 51
+  orig: 244, 51
+  offset: 0, 0
+  index: -1
+images/effects/skilld/3
+  rotate: true
+  xy: 775, 306
+  size: 134, 42
+  orig: 134, 42
+  offset: 0, 0
+  index: -1
+images/effects/skilld/4
+  rotate: false
+  xy: 856, 48
+  size: 161, 50
+  orig: 161, 50
+  offset: 0, 0
+  index: -1
+images/effects/skilld/p2_b/p2_b_00011
+  rotate: false
+  xy: 2, 782
+  size: 520, 240
+  orig: 520, 240
+  offset: 0, 0
+  index: -1
+images/effects/skilld/p2_b/p2_b_00012
+  rotate: false
+  xy: 2, 540
+  size: 520, 240
+  orig: 520, 240
+  offset: 0, 0
+  index: -1
+images/effects/skilld/p2_b/p2_b_00013
+  rotate: true
+  xy: 2, 18
+  size: 520, 240
+  orig: 520, 240
+  offset: 0, 0
+  index: -1
+images/effects/skilld/p2_b/p2_b_00014
+  rotate: true
+  xy: 244, 18
+  size: 520, 240
+  orig: 520, 240
+  offset: 0, 0
+  index: -1
+images/effects/skilld/p2_d/p2_d_0002
+  rotate: false
+  xy: 524, 571
+  size: 268, 224
+  orig: 315, 225
+  offset: 4, 0
+  index: -1
+images/effects/skilld/p2_d/p2_d_0003
+  rotate: false
+  xy: 524, 797
+  size: 315, 225
+  orig: 315, 225
+  offset: 0, 0
+  index: -1
+images/effects/skilld/p2_d/p2_d_0004
+  rotate: true
+  xy: 794, 442
+  size: 266, 225
+  orig: 315, 225
+  offset: 32, 0
+  index: -1
+images/effects/skilld/p2_d/p2_d_0005
+  rotate: false
+  xy: 486, 301
+  size: 235, 215
+  orig: 315, 225
+  offset: 67, 0
+  index: -1
+images/effects/skilld/p2_d/p2_d_0006
+  rotate: true
+  xy: 486, 97
+  size: 202, 211
+  orig: 315, 225
+  offset: 76, 0
+  index: -1
+images/effects/skilld/p2_d/p2_d_0007
+  rotate: true
+  xy: 841, 710
+  size: 224, 168
+  orig: 315, 225
+  offset: 76, 0
+  index: -1
+images/effects/skilld/p2_d/p2_d_0008
+  rotate: true
+  xy: 699, 100
+  size: 189, 163
+  orig: 315, 225
+  offset: 53, 0
+  index: -1
+images/effects/skilld/p2_d/p2_d_0009
+  rotate: false
+  xy: 841, 936
+  size: 181, 86
+  orig: 315, 225
+  offset: 61, 0
+  index: -1
+images/effects/skilld/p2_fd
+  rotate: true
+  xy: 783, 23
+  size: 75, 71
+  orig: 78, 71
+  offset: 3, 0
+  index: -1
+images/effects/skilld/p2_ff
+  rotate: true
+  xy: 560, 6
+  size: 89, 71
+  orig: 89, 71
+  offset: 0, 0
+  index: -1
+images/effects/skilld/p2_fg
+  rotate: false
+  xy: 633, 11
+  size: 73, 84
+  orig: 73, 84
+  offset: 0, 0
+  index: -1
+images/effects/skilld/p2_fj
+  rotate: false
+  xy: 708, 15
+  size: 73, 83
+  orig: 73, 83
+  offset: 0, 0
+  index: -1
+images/effects/skilld/p2_fj2
+  rotate: true
+  xy: 486, 2
+  size: 93, 72
+  orig: 93, 72
+  offset: 0, 0
+  index: -1
+images/effects/skilld/whitepaper
+  rotate: false
+  xy: 770, 554
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+
+effects_10701_skillD3_skillshow_t2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillb_l3/p1_c/wing_a_0002
+  rotate: false
+  xy: 192, 404
+  size: 201, 106
+  orig: 225, 120
+  offset: 21, 3
+  index: -1
+images/effects/skillb_l3/p1_c/wing_a_0004
+  rotate: true
+  xy: 107, 95
+  size: 204, 100
+  orig: 225, 120
+  offset: 18, 8
+  index: -1
+images/effects/skillb_l3/p1_c/wing_a_0005
+  rotate: true
+  xy: 2, 92
+  size: 207, 103
+  orig: 225, 120
+  offset: 15, 8
+  index: -1
+images/effects/skilld/p2_d/p2_d_0001
+  rotate: false
+  xy: 2, 301
+  size: 188, 209
+  orig: 315, 225
+  offset: 56, 0
+  index: -1
+images/effects/skilld/p2_e_h
+  rotate: false
+  xy: 395, 402
+  size: 115, 108
+  orig: 115, 108
+  offset: 0, 0
+  index: -1
+images/effects/skilld/p2_e_m
+  rotate: false
+  xy: 209, 277
+  size: 132, 125
+  orig: 132, 125
+  offset: 0, 0
+  index: -1
+images/effects/skilld/p2_e_q
+  rotate: false
+  xy: 209, 153
+  size: 112, 122
+  orig: 112, 122
+  offset: 0, 0
+  index: -1
+images/effects/skilld/p2_e_q2
+  rotate: false
+  xy: 343, 290
+  size: 120, 110
+  orig: 120, 110
+  offset: 0, 0
+  index: -1

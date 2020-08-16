@@ -1,0 +1,20 @@
+
+Lv_DEMGC_xiadeng.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/texiao/waideng1_00000
+  rotate: false
+  xy: 2, 22
+  size: 66, 26
+  orig: 70, 70
+  offset: 2, 23
+  index: -1
+images/texiao/waideng2_00000
+  rotate: false
+  xy: 2, 50
+  size: 88, 40
+  orig: 140, 140
+  offset: 31, 45
+  index: -1

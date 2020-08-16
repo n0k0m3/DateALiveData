@@ -1,0 +1,230 @@
+
+effects_10103_born.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bai_000
+  rotate: false
+  xy: 2, 13
+  size: 69, 32
+  orig: 69, 32
+  offset: 0, 0
+  index: -1
+born/juqi/juqi_000
+  rotate: false
+  xy: 634, 76
+  size: 126, 141
+  orig: 200, 150
+  offset: 15, 4
+  index: -1
+born/juqi/juqi_002
+  rotate: true
+  xy: 328, 102
+  size: 164, 144
+  orig: 200, 150
+  offset: 12, 3
+  index: -1
+born/juqi/juqi_004
+  rotate: false
+  xy: 450, 519
+  size: 167, 147
+  orig: 200, 150
+  offset: 10, 0
+  index: -1
+born/juqi/juqi_006
+  rotate: true
+  xy: 322, 345
+  size: 169, 142
+  orig: 200, 150
+  offset: 10, 2
+  index: -1
+born/juqi/juqi_008
+  rotate: true
+  xy: 466, 351
+  size: 166, 147
+  orig: 200, 150
+  offset: 12, 3
+  index: -1
+born/juqi/juqi_010
+  rotate: true
+  xy: 474, 186
+  size: 163, 145
+  orig: 200, 150
+  offset: 14, 5
+  index: -1
+born/juqi/juqi_012
+  rotate: false
+  xy: 474, 60
+  size: 158, 124
+  orig: 200, 150
+  offset: 18, 8
+  index: -1
+born/juqi/juqi_014
+  rotate: true
+  xy: 906, 870
+  size: 143, 107
+  orig: 200, 150
+  offset: 29, 18
+  index: -1
+born/juqi/juqi_016
+  rotate: false
+  xy: 328, 7
+  size: 118, 93
+  orig: 200, 150
+  offset: 44, 22
+  index: -1
+born/kuohei/kuohei_003
+  rotate: false
+  xy: 619, 516
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+glow_000
+  rotate: false
+  xy: 821, 102
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+guangxian_000
+  rotate: false
+  xy: 322, 268
+  size: 143, 75
+  orig: 150, 75
+  offset: 1, 0
+  index: -1
+kuohuan_000
+  rotate: false
+  xy: 762, 95
+  size: 57, 57
+  orig: 64, 64
+  offset: 4, 3
+  index: -1
+skillF/kongjianzhen/kongjianzhen_001
+  rotate: false
+  xy: 2, 838
+  size: 225, 175
+  orig: 225, 175
+  offset: 0, 0
+  index: -1
+skillF/kongjianzhen/kongjianzhen_003
+  rotate: false
+  xy: 229, 671
+  size: 225, 168
+  orig: 225, 175
+  offset: 0, 6
+  index: -1
+skillF/kongjianzhen/kongjianzhen_005
+  rotate: false
+  xy: 456, 668
+  size: 212, 175
+  orig: 225, 175
+  offset: 13, 0
+  index: -1
+skillF/kongjianzhen/kongjianzhen_007
+  rotate: true
+  xy: 2, 258
+  size: 225, 166
+  orig: 225, 175
+  offset: 0, 9
+  index: -1
+skillF/kongjianzhen/kongjianzhen_009
+  rotate: false
+  xy: 2, 662
+  size: 225, 174
+  orig: 225, 175
+  offset: 0, 0
+  index: -1
+skillF/kongjianzhen/kongjianzhen_011
+  rotate: true
+  xy: 2, 47
+  size: 209, 173
+  orig: 225, 175
+  offset: 16, 0
+  index: -1
+skillF/kongjianzhen/kongjianzhen_013
+  rotate: false
+  xy: 229, 841
+  size: 225, 172
+  orig: 225, 175
+  offset: 0, 1
+  index: -1
+skillF/kongjianzhen/kongjianzhen_015
+  rotate: false
+  xy: 2, 485
+  size: 220, 175
+  orig: 225, 175
+  offset: 5, 0
+  index: -1
+skillF/kongjianzhen/kongjianzhen_017
+  rotate: false
+  xy: 456, 845
+  size: 225, 168
+  orig: 225, 175
+  offset: 0, 0
+  index: -1
+skillF/kongjianzhen/kongjianzhen_019
+  rotate: false
+  xy: 683, 851
+  size: 221, 162
+  orig: 225, 175
+  offset: 0, 0
+  index: -1
+skillF/kongjianzhen/kongjianzhen_021
+  rotate: true
+  xy: 177, 36
+  size: 221, 149
+  orig: 225, 175
+  offset: 4, 10
+  index: -1
+skillF/kongjianzhen/kongjianzhen_023
+  rotate: false
+  xy: 229, 516
+  size: 219, 153
+  orig: 225, 175
+  offset: 0, 0
+  index: -1
+skillF/kongjianzhen/kongjianzhen_025
+  rotate: true
+  xy: 170, 259
+  size: 224, 150
+  orig: 225, 175
+  offset: 1, 0
+  index: -1
+tongyong/julizi/julizi_003
+  rotate: false
+  xy: 762, 154
+  size: 108, 111
+  orig: 150, 150
+  offset: 12, 0
+  index: -1
+tongyong/julizi/julizi_005
+  rotate: false
+  xy: 755, 267
+  size: 119, 118
+  orig: 150, 150
+  offset: 10, 0
+  index: -1
+tongyong/julizi/julizi_007
+  rotate: false
+  xy: 621, 219
+  size: 127, 148
+  orig: 150, 150
+  offset: 12, 2
+  index: -1
+tongyong/julizi/julizi_009
+  rotate: false
+  xy: 615, 369
+  size: 138, 145
+  orig: 150, 150
+  offset: 0, 5
+  index: -1
+tongyong/julizi/julizi_011
+  rotate: false
+  xy: 755, 387
+  size: 119, 127
+  orig: 150, 150
+  offset: 0, 4
+  index: -1

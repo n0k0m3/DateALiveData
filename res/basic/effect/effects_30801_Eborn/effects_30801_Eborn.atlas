@@ -1,0 +1,160 @@
+
+effects_30801_Eborn.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/Eborn/canyinga_00012
+  rotate: false
+  xy: 2, 519
+  size: 191, 106
+  orig: 193, 110
+  offset: 1, 3
+  index: -1
+images/effects/Eborn/renwuguangyinga/renwuguangyinga_00012
+  rotate: false
+  xy: 2, 627
+  size: 201, 121
+  orig: 211, 134
+  offset: 0, 13
+  index: -1
+images/effects/Eborn/renwuguangyinga/renwuguangyinga_00014
+  rotate: false
+  xy: 214, 763
+  size: 201, 121
+  orig: 211, 134
+  offset: 0, 13
+  index: -1
+images/effects/Eborn/renwuguangyinga/renwuguangyinga_00016
+  rotate: false
+  xy: 215, 886
+  size: 204, 134
+  orig: 211, 134
+  offset: 0, 0
+  index: -1
+images/effects/Eborn/renwuguangyinga/renwuguangyinga_00018
+  rotate: false
+  xy: 2, 750
+  size: 210, 134
+  orig: 211, 134
+  offset: 1, 0
+  index: -1
+images/effects/Eborn/renwuguangyinga/renwuguangyinga_00020
+  rotate: false
+  xy: 2, 886
+  size: 211, 134
+  orig: 211, 134
+  offset: 0, 0
+  index: -1
+images/effects/Eborn/renwuguangyinga/renwuguangyinga_00022
+  rotate: false
+  xy: 421, 886
+  size: 179, 134
+  orig: 211, 134
+  offset: 10, 0
+  index: -1
+images/effects/Eborn/renwuguangyinga/renwuguangyinga_00024
+  rotate: false
+  xy: 602, 892
+  size: 158, 128
+  orig: 211, 134
+  offset: 25, 6
+  index: -1
+images/effects/Eborn/renwuguangyinga/renwuguangyinga_00026
+  rotate: false
+  xy: 417, 780
+  size: 153, 104
+  orig: 211, 134
+  offset: 29, 13
+  index: -1
+images/effects/Eborn/renwuguangyinga/renwuguangyinga_00028
+  rotate: false
+  xy: 2, 414
+  size: 150, 103
+  orig: 211, 134
+  offset: 29, 13
+  index: -1
+images/effects/EskillA/zadiyann/zadiyann_00060
+  rotate: false
+  xy: 906, 832
+  size: 88, 56
+  orig: 145, 102
+  offset: 28, 13
+  index: -1
+images/effects/EskillA/zadiyann/zadiyann_00062
+  rotate: true
+  xy: 909, 890
+  size: 130, 96
+  orig: 145, 102
+  offset: 8, 3
+  index: -1
+images/effects/EskillA/zadiyann/zadiyann_00064
+  rotate: false
+  xy: 762, 918
+  size: 145, 102
+  orig: 145, 102
+  offset: 0, 0
+  index: -1
+images/effects/EskillA/zadiyann/zadiyann_00066
+  rotate: false
+  xy: 2, 310
+  size: 145, 102
+  orig: 145, 102
+  offset: 0, 0
+  index: -1
+images/effects/EskillA/zadiyann/zadiyann_00068
+  rotate: false
+  xy: 2, 206
+  size: 145, 102
+  orig: 145, 102
+  offset: 0, 0
+  index: -1
+images/effects/EskillA/zadiyann/zadiyann_00070
+  rotate: false
+  xy: 2, 102
+  size: 145, 102
+  orig: 145, 102
+  offset: 0, 0
+  index: -1
+images/effects/EskillA/zadiyann/zadiyann_00072
+  rotate: false
+  xy: 2, 2
+  size: 145, 98
+  orig: 145, 102
+  offset: 0, 0
+  index: -1
+images/effects/EskillA/zadiyann/zadiyann_00074
+  rotate: false
+  xy: 762, 830
+  size: 142, 86
+  orig: 145, 102
+  offset: 3, 0
+  index: -1
+images/effects/EskillA/zadiyann/zadiyann_00076
+  rotate: false
+  xy: 417, 697
+  size: 141, 81
+  orig: 145, 102
+  offset: 4, 0
+  index: -1
+images/effects/EskillA/zadiyann/zadiyann_00078
+  rotate: false
+  xy: 214, 687
+  size: 140, 74
+  orig: 145, 102
+  offset: 5, 6
+  index: -1
+images/effects/EskillC/guangtiaoa_00001
+  rotate: false
+  xy: 205, 618
+  size: 71, 67
+  orig: 73, 74
+  offset: 1, 3
+  index: -1
+images/effects/glow
+  rotate: false
+  xy: 356, 713
+  size: 44, 48
+  orig: 56, 56
+  offset: 6, 3
+  index: -1

@@ -1,0 +1,132 @@
+
+effect_hwx_enter.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 471, 657
+  size: 107, 108
+  orig: 109, 110
+  offset: 1, 1
+  index: -1
+2
+  rotate: false
+  xy: 231, 641
+  size: 102, 105
+  orig: 104, 107
+  offset: 1, 1
+  index: -1
+3
+  rotate: false
+  xy: 876, 723
+  size: 128, 128
+  orig: 130, 130
+  offset: 1, 1
+  index: -1
+glow
+  rotate: false
+  xy: 581, 664
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+kaiguan
+  rotate: false
+  xy: 845, 594
+  size: 148, 127
+  orig: 150, 129
+  offset: 1, 1
+  index: -1
+saoguang/saoguang_00002
+  rotate: true
+  xy: 235, 2
+  size: 65, 86
+  orig: 300, 300
+  offset: 36, 173
+  index: -1
+saoguang/saoguang_00004
+  rotate: false
+  xy: 876, 853
+  size: 127, 165
+  orig: 300, 300
+  offset: 27, 113
+  index: -1
+saoguang/saoguang_00006
+  rotate: false
+  xy: 217, 273
+  size: 163, 205
+  orig: 300, 300
+  offset: 27, 74
+  index: -1
+saoguang/saoguang_00008
+  rotate: false
+  xy: 683, 785
+  size: 191, 233
+  orig: 300, 300
+  offset: 27, 46
+  index: -1
+saoguang/saoguang_00010
+  rotate: false
+  xy: 2, 226
+  size: 213, 252
+  orig: 300, 300
+  offset: 27, 27
+  index: -1
+saoguang/saoguang_00012
+  rotate: false
+  xy: 240, 755
+  size: 229, 263
+  orig: 300, 300
+  offset: 27, 16
+  index: -1
+saoguang/saoguang_00014
+  rotate: false
+  xy: 2, 748
+  size: 236, 270
+  orig: 300, 300
+  offset: 29, 9
+  index: -1
+saoguang/saoguang_00016
+  rotate: false
+  xy: 2, 480
+  size: 227, 266
+  orig: 300, 300
+  offset: 39, 9
+  index: -1
+saoguang/saoguang_00018
+  rotate: false
+  xy: 471, 766
+  size: 210, 252
+  orig: 300, 300
+  offset: 56, 9
+  index: -1
+saoguang/saoguang_00020
+  rotate: true
+  xy: 2, 36
+  size: 188, 231
+  orig: 300, 300
+  offset: 78, 9
+  index: -1
+saoguang/saoguang_00022
+  rotate: false
+  xy: 235, 69
+  size: 159, 202
+  orig: 300, 300
+  offset: 107, 9
+  index: -1
+saoguang/saoguang_00024
+  rotate: true
+  xy: 683, 661
+  size: 122, 160
+  orig: 300, 300
+  offset: 144, 11
+  index: -1
+saoguang/saoguang_00026
+  rotate: true
+  xy: 396, 698
+  size: 55, 73
+  orig: 300, 300
+  offset: 200, 35
+  index: -1

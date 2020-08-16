@@ -1,0 +1,20 @@
+
+effect_shengmingshu_guang.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/guang_00000
+  rotate: false
+  xy: 2, 227
+  size: 300, 75
+  orig: 300, 75
+  offset: 0, 0
+  index: -1
+images/yuan_00000
+  rotate: false
+  xy: 2, 150
+  size: 300, 75
+  orig: 300, 75
+  offset: 0, 0
+  index: -1

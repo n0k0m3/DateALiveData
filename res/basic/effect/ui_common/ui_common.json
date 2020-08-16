@@ -1,0 +1,66 @@
+{
+"skeleton": { "hash": "r6TPtcCsiaX4z3lKPeI0jnu6/PM", "spine": "2.1.27", "width": 90, "height": 81, "images": "./../ui_common/images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "effects", "parent": "root" },
+	{ "name": "gantan", "parent": "effects" },
+	{ "name": "sanjiao", "parent": "effects", "x": 1.41, "y": 3.71 },
+	{ "name": "sanjiaotexiao", "parent": "effects" }
+],
+"slots": [
+	{ "name": "UI/001", "bone": "sanjiao", "attachment": "UI/001" },
+	{ "name": "UI/002", "bone": "gantan", "attachment": "UI/002" },
+	{ "name": "sanjiao/sanjiao_00000", "bone": "sanjiaotexiao", "attachment": "sanjiao/sanjiao_00004", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"UI/001": {
+			"UI/001": { "width": 60, "height": 52 }
+		},
+		"UI/002": {
+			"UI/002": { "width": 19, "height": 33 }
+		},
+		"sanjiao/sanjiao_00000": {
+			"sanjiao/sanjiao_00000": { "width": 90, "height": 81 },
+			"sanjiao/sanjiao_00002": { "width": 90, "height": 81 },
+			"sanjiao/sanjiao_00004": { "width": 90, "height": 81 },
+			"sanjiao/sanjiao_00006": { "width": 90, "height": 81 },
+			"sanjiao/sanjiao_00008": { "width": 90, "height": 81 },
+			"sanjiao/sanjiao_00010": { "width": 90, "height": 81 },
+			"sanjiao/sanjiao_00012": { "width": 90, "height": 81 },
+			"sanjiao/sanjiao_00014": { "width": 90, "height": 81 },
+			"sanjiao/sanjiao_00016": { "width": 90, "height": 81 },
+			"sanjiao/sanjiao_00018": { "width": 90, "height": 81 }
+		}
+	}
+},
+"animations": {
+	"ui_common_remind": {
+		"slots": {
+			"sanjiao/sanjiao_00000": {
+				"attachment": [
+					{ "time": 0, "name": "sanjiao/sanjiao_00000" },
+					{ "time": 0.0666, "name": "sanjiao/sanjiao_00002" },
+					{ "time": 0.1333, "name": "sanjiao/sanjiao_00004" },
+					{ "time": 0.2, "name": "sanjiao/sanjiao_00006" },
+					{ "time": 0.2666, "name": "sanjiao/sanjiao_00008" },
+					{ "time": 0.3333, "name": "sanjiao/sanjiao_00010" },
+					{ "time": 0.4, "name": "sanjiao/sanjiao_00012" },
+					{ "time": 0.4666, "name": "sanjiao/sanjiao_00014" },
+					{ "time": 0.5333, "name": "sanjiao/sanjiao_00016" },
+					{ "time": 0.6, "name": "sanjiao/sanjiao_00018" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 1.3333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"sanjiaotexiao": {
+				"translate": [
+					{ "time": 0, "x": 0.58, "y": 4.78 }
+				]
+			}
+		}
+	}
+}
+}

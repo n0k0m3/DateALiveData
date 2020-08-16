@@ -1,0 +1,292 @@
+
+effects_11201_skillClei.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillC/guangzhu/guangzhu_00050
+  rotate: false
+  xy: 2, 695
+  size: 390, 327
+  orig: 390, 660
+  offset: 0, 3
+  index: -1
+images/effects/skillC/guangzhu/guangzhu_00052
+  rotate: true
+  xy: 2, 448
+  size: 245, 327
+  orig: 390, 660
+  offset: 74, 3
+  index: -1
+images/effects/skillC/guangzhu/guangzhu_00054
+  rotate: true
+  xy: 331, 331
+  size: 242, 327
+  orig: 390, 660
+  offset: 73, 3
+  index: -1
+images/effects/skillC/guangzhu/guangzhu_00056
+  rotate: true
+  xy: 2, 212
+  size: 234, 327
+  orig: 390, 660
+  offset: 80, 3
+  index: -1
+images/effects/skillC/guangzhu/guangzhu_00058
+  rotate: false
+  xy: 725, 695
+  size: 293, 327
+  orig: 390, 660
+  offset: 78, 3
+  index: -1
+images/effects/skillC/guangzhu/guangzhu_00060
+  rotate: true
+  xy: 394, 762
+  size: 260, 329
+  orig: 390, 660
+  offset: 86, 1
+  index: -1
+images/effects/skillC/guangzhu/guangzhu_00062
+  rotate: true
+  xy: 394, 575
+  size: 185, 328
+  orig: 390, 660
+  offset: 94, 2
+  index: -1
+images/effects/skillC/guangzhu/guangzhu_00064
+  rotate: false
+  xy: 680, 10
+  size: 152, 327
+  orig: 390, 660
+  offset: 119, 3
+  index: -1
+images/effects/skillC/guangzhu/guangzhu_00066
+  rotate: false
+  xy: 331, 2
+  size: 188, 327
+  orig: 390, 660
+  offset: 92, 3
+  index: -1
+images/effects/skillC/guangzhu/guangzhu_00068
+  rotate: true
+  xy: 2, 27
+  size: 183, 327
+  orig: 390, 660
+  offset: 103, 3
+  index: -1
+images/effects/skillC/guangzhu/guangzhu_00070
+  rotate: false
+  xy: 521, 2
+  size: 157, 327
+  orig: 390, 660
+  offset: 127, 3
+  index: -1
+images/effects/skillC/guangzhu/guangzhu_00076
+  rotate: true
+  xy: 660, 339
+  size: 159, 258
+  orig: 390, 660
+  offset: 104, 7
+  index: -1
+images/effects/skillC/guangzhu/guangzhu_00078
+  rotate: true
+  xy: 724, 542
+  size: 151, 259
+  orig: 390, 660
+  offset: 109, 6
+  index: -1
+images/effects/skillC/guangzhu2/light_fg_00048
+  rotate: true
+  xy: 660, 500
+  size: 73, 62
+  orig: 225, 225
+  offset: 72, 41
+  index: -1
+images/effects/skillC/guangzhu2/light_fg_00050
+  rotate: true
+  xy: 834, 112
+  size: 225, 187
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+images/effects/skillC/guangzhu2/light_fg_00075
+  rotate: false
+  xy: 834, 24
+  size: 150, 86
+  orig: 225, 225
+  offset: 37, 48
+  index: -1
+images/effects/skillC/guangzhu2/light_fg_00077
+  rotate: false
+  xy: 920, 468
+  size: 99, 72
+  orig: 225, 225
+  offset: 62, 54
+  index: -1
+images/effects/skillC/guangzhu2/light_fg_00081
+  rotate: false
+  xy: 1005, 595
+  size: 17, 67
+  orig: 225, 225
+  offset: 106, 64
+  index: -1
+images/effects/skillC/guangzhu2/light_fg_00083
+  rotate: false
+  xy: 985, 552
+  size: 17, 59
+  orig: 225, 225
+  offset: 106, 72
+  index: -1
+images/effects/skillC/guangzhu2/light_fg_00085
+  rotate: false
+  xy: 985, 613
+  size: 18, 49
+  orig: 225, 225
+  offset: 106, 80
+  index: -1
+images/effects/skillC/guangzhu2/light_fg_00087
+  rotate: true
+  xy: 985, 676
+  size: 17, 37
+  orig: 225, 225
+  offset: 107, 87
+  index: -1
+images/effects/skillC/guangzhu2/light_fg_00090
+  rotate: true
+  xy: 985, 664
+  size: 10, 19
+  orig: 225, 225
+  offset: 113, 93
+  index: -1
+
+effects_11201_skillClei2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillC/guangzhu/guangzhu_00048
+  rotate: false
+  xy: 367, 443
+  size: 199, 183
+  orig: 390, 660
+  offset: 95, 147
+  index: -1
+images/effects/skillC/guangzhu/guangzhu_00072
+  rotate: false
+  xy: 2, 366
+  size: 125, 327
+  orig: 390, 660
+  offset: 138, 3
+  index: -1
+images/effects/skillC/guangzhu/guangzhu_00074
+  rotate: false
+  xy: 2, 695
+  size: 136, 327
+  orig: 390, 660
+  offset: 127, 3
+  index: -1
+images/effects/skillC/guangzhu/guangzhu_00080
+  rotate: false
+  xy: 2, 110
+  size: 120, 254
+  orig: 390, 660
+  offset: 127, 11
+  index: -1
+images/effects/skillC/guangzhu2/light_fg_00049
+  rotate: false
+  xy: 129, 449
+  size: 216, 175
+  orig: 225, 225
+  offset: 4, 0
+  index: -1
+images/effects/skillC/guangzhu2/light_fg_00051
+  rotate: false
+  xy: 140, 626
+  size: 225, 195
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+images/effects/skillC/guangzhu2/light_fg_00052
+  rotate: false
+  xy: 594, 826
+  size: 225, 196
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+images/effects/skillC/guangzhu2/light_fg_00053
+  rotate: false
+  xy: 367, 628
+  size: 225, 195
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+images/effects/skillC/guangzhu2/light_fg_00055
+  rotate: false
+  xy: 367, 825
+  size: 225, 197
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+images/effects/skillC/guangzhu2/light_fg_00057
+  rotate: false
+  xy: 129, 289
+  size: 208, 158
+  orig: 225, 225
+  offset: 8, 0
+  index: -1
+images/effects/skillC/guangzhu2/light_fg_00059
+  rotate: false
+  xy: 124, 118
+  size: 208, 169
+  orig: 225, 225
+  offset: 8, 0
+  index: -1
+images/effects/skillC/guangzhu2/light_fg_00061
+  rotate: false
+  xy: 594, 485
+  size: 204, 154
+  orig: 225, 225
+  offset: 10, 0
+  index: -1
+images/effects/skillC/guangzhu2/light_fg_00063
+  rotate: false
+  xy: 818, 491
+  size: 204, 158
+  orig: 225, 225
+  offset: 10, 0
+  index: -1
+images/effects/skillC/guangzhu2/light_fg_00065
+  rotate: false
+  xy: 594, 641
+  size: 222, 183
+  orig: 225, 225
+  offset: 1, 0
+  index: -1
+images/effects/skillC/guangzhu2/light_fg_00067
+  rotate: false
+  xy: 821, 874
+  size: 201, 148
+  orig: 225, 225
+  offset: 11, 0
+  index: -1
+images/effects/skillC/guangzhu2/light_fg_00069
+  rotate: false
+  xy: 140, 823
+  size: 225, 199
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+images/effects/skillC/guangzhu2/light_fg_00071
+  rotate: false
+  xy: 124, 2
+  size: 189, 114
+  orig: 225, 225
+  offset: 17, 28
+  index: -1
+images/effects/skillC/guangzhu2/light_fg_00073
+  rotate: false
+  xy: 818, 651
+  size: 204, 173
+  orig: 225, 225
+  offset: 10, 0
+  index: -1

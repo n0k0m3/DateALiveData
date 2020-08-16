@@ -1,0 +1,167 @@
+
+chenghao_wsj.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+2_1
+  rotate: true
+  xy: 97, 154
+  size: 84, 31
+  orig: 84, 31
+  offset: 0, 0
+  index: -1
+2_1_2
+  rotate: true
+  xy: 130, 165
+  size: 73, 20
+  orig: 73, 20
+  offset: 0, 0
+  index: -1
+2_2
+  rotate: true
+  xy: 454, 473
+  size: 33, 50
+  orig: 33, 50
+  offset: 0, 0
+  index: -1
+2_3
+  rotate: false
+  xy: 244, 469
+  size: 102, 10
+  orig: 102, 10
+  offset: 0, 0
+  index: -1
+2_4
+  rotate: false
+  xy: 2, 428
+  size: 118, 37
+  orig: 118, 37
+  offset: 0, 0
+  index: -1
+2_4_2
+  rotate: false
+  xy: 2, 467
+  size: 119, 39
+  orig: 119, 39
+  offset: 0, 0
+  index: -1
+2lizi_00000
+  rotate: false
+  xy: 2, 2
+  size: 55, 25
+  orig: 128, 57
+  offset: 44, 14
+  index: -1
+2lizi_00001
+  rotate: true
+  xy: 322, 404
+  size: 63, 36
+  orig: 128, 57
+  offset: 45, 6
+  index: -1
+2lizi_00002
+  rotate: false
+  xy: 122, 402
+  size: 97, 36
+  orig: 128, 57
+  offset: 12, 8
+  index: -1
+2lizi_00003
+  rotate: false
+  xy: 354, 470
+  size: 98, 36
+  orig: 128, 57
+  offset: 11, 10
+  index: -1
+2lizi_00004
+  rotate: true
+  xy: 2, 228
+  size: 99, 46
+  orig: 128, 57
+  offset: 11, 3
+  index: -1
+2lizi_00005
+  rotate: false
+  xy: 2, 379
+  size: 99, 47
+  orig: 128, 57
+  offset: 10, 4
+  index: -1
+2lizi_00006
+  rotate: false
+  xy: 2, 329
+  size: 98, 48
+  orig: 128, 57
+  offset: 11, 6
+  index: -1
+2lizi_00007
+  rotate: true
+  xy: 2, 128
+  size: 98, 46
+  orig: 128, 57
+  offset: 11, 8
+  index: -1
+2lizi_00008
+  rotate: true
+  xy: 50, 229
+  size: 98, 45
+  orig: 128, 57
+  offset: 11, 11
+  index: -1
+2lizi_00009
+  rotate: false
+  xy: 123, 440
+  size: 98, 31
+  orig: 128, 57
+  offset: 11, 14
+  index: -1
+2lizi_00010
+  rotate: false
+  xy: 223, 426
+  size: 97, 41
+  orig: 128, 57
+  offset: 11, 6
+  index: -1
+2lizi_00011
+  rotate: true
+  xy: 2, 29
+  size: 97, 45
+  orig: 128, 57
+  offset: 11, 5
+  index: -1
+2lizi_00012
+  rotate: true
+  xy: 50, 131
+  size: 96, 45
+  orig: 128, 57
+  offset: 12, 7
+  index: -1
+2lizi_00013
+  rotate: false
+  xy: 221, 378
+  size: 96, 46
+  orig: 128, 57
+  offset: 12, 9
+  index: -1
+2lizi_00014
+  rotate: true
+  xy: 97, 240
+  size: 87, 46
+  orig: 128, 57
+  offset: 12, 11
+  index: -1
+yingwen
+  rotate: false
+  xy: 244, 481
+  size: 108, 25
+  orig: 136, 36
+  offset: 14, 5
+  index: -1
+yingwen2
+  rotate: false
+  xy: 123, 473
+  size: 119, 33
+  orig: 119, 33
+  offset: 0, 0
+  index: -1

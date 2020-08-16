@@ -1,0 +1,13 @@
+
+map_liandian2_03.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sucai/00040_00000
+  rotate: false
+  xy: 2, 2
+  size: 76, 84
+  orig: 150, 150
+  offset: 44, 35
+  index: -1

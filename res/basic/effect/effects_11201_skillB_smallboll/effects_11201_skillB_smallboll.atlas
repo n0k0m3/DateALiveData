@@ -1,0 +1,69 @@
+
+effects_11201_skillB_smallboll.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/extra_skillB/small boll/small boll_00000
+  rotate: false
+  xy: 2, 623
+  size: 205, 205
+  orig: 205, 205
+  offset: 0, 0
+  index: -1
+effects/extra_skillB/small boll/small boll_00001
+  rotate: false
+  xy: 2, 416
+  size: 205, 205
+  orig: 205, 205
+  offset: 0, 0
+  index: -1
+effects/extra_skillB/small boll/small boll_00002
+  rotate: false
+  xy: 209, 623
+  size: 205, 205
+  orig: 205, 205
+  offset: 0, 0
+  index: -1
+effects/extra_skillB/small boll/small boll_00003
+  rotate: false
+  xy: 2, 209
+  size: 205, 205
+  orig: 205, 205
+  offset: 0, 0
+  index: -1
+effects/extra_skillB/small boll/small boll_00004
+  rotate: false
+  xy: 209, 416
+  size: 205, 205
+  orig: 205, 205
+  offset: 0, 0
+  index: -1
+effects/extra_skillB/small boll/small boll_00005
+  rotate: false
+  xy: 416, 623
+  size: 205, 205
+  orig: 205, 205
+  offset: 0, 0
+  index: -1
+effects/extra_skillB/small boll/small boll_00006
+  rotate: false
+  xy: 2, 2
+  size: 205, 205
+  orig: 205, 205
+  offset: 0, 0
+  index: -1
+effects/extra_skillB/small boll/small boll_00007
+  rotate: false
+  xy: 209, 209
+  size: 205, 205
+  orig: 205, 205
+  offset: 0, 0
+  index: -1
+effects/extra_skillB/small boll/small boll_00008
+  rotate: false
+  xy: 416, 416
+  size: 205, 205
+  orig: 205, 205
+  offset: 0, 0
+  index: -1

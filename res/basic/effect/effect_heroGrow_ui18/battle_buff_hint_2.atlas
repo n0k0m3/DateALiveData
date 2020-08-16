@@ -1,0 +1,20 @@
+
+battle_buff_hint_2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow_00000
+  rotate: false
+  xy: 2, 119
+  size: 492, 375
+  orig: 498, 375
+  offset: 6, 0
+  index: -1
+huangse
+  rotate: false
+  xy: 2, 92
+  size: 31, 25
+  orig: 32, 27
+  offset: 0, 1
+  index: -1

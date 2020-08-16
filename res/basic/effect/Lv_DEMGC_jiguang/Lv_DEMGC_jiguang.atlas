@@ -1,0 +1,251 @@
+
+Lv_DEMGC_jiguang.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jiguang
+  rotate: false
+  xy: 2, 2
+  size: 97, 82
+  orig: 97, 82
+  offset: 0, 0
+  index: -1
+jiguang/jiguang_00000
+  rotate: false
+  xy: 228, 832
+  size: 224, 184
+  orig: 224, 224
+  offset: 0, 13
+  index: -1
+jiguang/jiguang_00001
+  rotate: false
+  xy: 2, 458
+  size: 224, 184
+  orig: 224, 224
+  offset: 0, 13
+  index: -1
+jiguang/jiguang_00002
+  rotate: false
+  xy: 2, 831
+  size: 224, 185
+  orig: 224, 224
+  offset: 0, 13
+  index: -1
+jiguang/jiguang_00003
+  rotate: false
+  xy: 228, 646
+  size: 224, 184
+  orig: 224, 224
+  offset: 0, 13
+  index: -1
+jiguang/jiguang_00004
+  rotate: false
+  xy: 2, 644
+  size: 224, 185
+  orig: 224, 224
+  offset: 0, 13
+  index: -1
+jiguang/jiguang_00005
+  rotate: false
+  xy: 454, 832
+  size: 224, 184
+  orig: 224, 224
+  offset: 0, 13
+  index: -1
+jiguang/jiguang_00006
+  rotate: false
+  xy: 2, 272
+  size: 224, 184
+  orig: 224, 224
+  offset: 0, 13
+  index: -1
+jiguang/jiguang_00007
+  rotate: false
+  xy: 228, 460
+  size: 224, 184
+  orig: 224, 224
+  offset: 0, 13
+  index: -1
+jiguang/jiguang_00008
+  rotate: false
+  xy: 454, 646
+  size: 224, 184
+  orig: 224, 224
+  offset: 0, 13
+  index: -1
+jiguang/jiguang_00009
+  rotate: false
+  xy: 680, 832
+  size: 224, 184
+  orig: 224, 224
+  offset: 0, 13
+  index: -1
+jiguang/jiguang_00010
+  rotate: false
+  xy: 2, 86
+  size: 224, 184
+  orig: 224, 224
+  offset: 0, 13
+  index: -1
+jiguang/jiguang_00011
+  rotate: false
+  xy: 228, 274
+  size: 224, 184
+  orig: 224, 224
+  offset: 0, 13
+  index: -1
+jiguang/jiguang_00012
+  rotate: false
+  xy: 454, 460
+  size: 224, 184
+  orig: 224, 224
+  offset: 0, 13
+  index: -1
+jiguang/jiguang_00013
+  rotate: false
+  xy: 680, 646
+  size: 224, 184
+  orig: 224, 224
+  offset: 0, 13
+  index: -1
+lizi/lizi_00000
+  rotate: true
+  xy: 557, 367
+  size: 91, 100
+  orig: 140, 140
+  offset: 20, 20
+  index: -1
+lizi/lizi_00002
+  rotate: true
+  xy: 330, 179
+  size: 93, 100
+  orig: 140, 140
+  offset: 20, 20
+  index: -1
+lizi/lizi_00004
+  rotate: true
+  xy: 785, 552
+  size: 92, 98
+  orig: 140, 140
+  offset: 21, 21
+  index: -1
+lizi/lizi_00006
+  rotate: false
+  xy: 454, 361
+  size: 101, 97
+  orig: 140, 140
+  offset: 15, 21
+  index: -1
+lizi/lizi_00008
+  rotate: false
+  xy: 906, 921
+  size: 105, 95
+  orig: 140, 140
+  offset: 16, 22
+  index: -1
+lizi/lizi_00010
+  rotate: false
+  xy: 680, 550
+  size: 103, 94
+  orig: 140, 140
+  offset: 18, 21
+  index: -1
+lizi/lizi_00012
+  rotate: false
+  xy: 228, 173
+  size: 100, 99
+  orig: 140, 140
+  offset: 19, 21
+  index: -1
+lizi/lizi_00014
+  rotate: false
+  xy: 906, 820
+  size: 96, 99
+  orig: 140, 140
+  offset: 20, 22
+  index: -1
+lizi/lizi_00016
+  rotate: false
+  xy: 906, 721
+  size: 92, 97
+  orig: 140, 140
+  offset: 22, 23
+  index: -1
+lizi/lizi_00018
+  rotate: false
+  xy: 454, 278
+  size: 76, 81
+  orig: 140, 140
+  offset: 35, 32
+  index: -1
+lizi/lizi_00020
+  rotate: false
+  xy: 737, 389
+  size: 65, 67
+  orig: 140, 140
+  offset: 39, 38
+  index: -1
+lizi/lizi_00022
+  rotate: false
+  xy: 592, 307
+  size: 52, 58
+  orig: 140, 140
+  offset: 43, 39
+  index: -1
+lizi/lizi_00024
+  rotate: true
+  xy: 205, 55
+  size: 29, 28
+  orig: 140, 140
+  offset: 54, 57
+  index: -1
+qiangkou/qiangkou_00003
+  rotate: true
+  xy: 532, 297
+  size: 62, 58
+  orig: 140, 140
+  offset: 36, 44
+  index: -1
+qiangkou/qiangkou_00005
+  rotate: false
+  xy: 906, 646
+  size: 81, 73
+  orig: 140, 140
+  offset: 28, 34
+  index: -1
+qiangkou/qiangkou_00007
+  rotate: false
+  xy: 228, 94
+  size: 90, 77
+  orig: 140, 140
+  offset: 23, 29
+  index: -1
+qiangkou/qiangkou_00009
+  rotate: false
+  xy: 885, 572
+  size: 82, 72
+  orig: 140, 140
+  offset: 27, 34
+  index: -1
+qiangkou/qiangkou_00011
+  rotate: false
+  xy: 659, 384
+  size: 76, 72
+  orig: 140, 140
+  offset: 27, 34
+  index: -1
+texiao/glow1_00000
+  rotate: false
+  xy: 680, 458
+  size: 90, 90
+  orig: 140, 140
+  offset: 23, 26
+  index: -1
+texiao/shangdeng_00000
+  rotate: false
+  xy: 101, 13
+  size: 102, 71
+  orig: 140, 140
+  offset: 21, 34
+  index: -1

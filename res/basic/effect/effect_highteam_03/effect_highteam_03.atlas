@@ -1,0 +1,48 @@
+
+effect_highteam_03.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+imanges/di
+  rotate: false
+  xy: 2, 162
+  size: 444, 386
+  orig: 444, 386
+  offset: 0, 0
+  index: -1
+imanges/glow
+  rotate: false
+  xy: 448, 2
+  size: 319, 307
+  orig: 324, 309
+  offset: 3, 0
+  index: -1
+imanges/guding
+  rotate: false
+  xy: 475, 642
+  size: 433, 376
+  orig: 433, 376
+  offset: 0, 0
+  index: -1
+imanges/wujiaoxing
+  rotate: false
+  xy: 769, 72
+  size: 206, 237
+  orig: 206, 237
+  offset: 0, 0
+  index: -1
+imanges/wujiaoxing1
+  rotate: true
+  xy: 475, 311
+  size: 329, 376
+  orig: 329, 376
+  offset: 0, 0
+  index: -1
+imanges/yuan
+  rotate: false
+  xy: 2, 550
+  size: 471, 468
+  orig: 471, 468
+  offset: 0, 0
+  index: -1

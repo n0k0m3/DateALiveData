@@ -1,0 +1,97 @@
+
+effects_30901_skillA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/Effect/EskillA/daoguang/00014
+  rotate: false
+  xy: 285, 647
+  size: 113, 114
+  orig: 284, 242
+  offset: 161, 113
+  index: -1
+images/Effect/EskillA/daoguang/00015
+  rotate: false
+  xy: 276, 763
+  size: 261, 196
+  orig: 284, 242
+  offset: 10, 7
+  index: -1
+images/Effect/EskillA/daoguang/00016
+  rotate: true
+  xy: 2, 461
+  size: 273, 193
+  orig: 284, 242
+  offset: 1, 7
+  index: -1
+images/Effect/EskillA/daoguang/00017
+  rotate: true
+  xy: 2, 198
+  size: 261, 172
+  orig: 284, 242
+  offset: 0, 8
+  index: -1
+images/Effect/EskillA/daoguang/00018
+  rotate: false
+  xy: 539, 827
+  size: 256, 132
+  orig: 284, 242
+  offset: 0, 10
+  index: -1
+images/Effect/EskillA/daoguang/00019
+  rotate: true
+  xy: 197, 504
+  size: 230, 86
+  orig: 284, 242
+  offset: 0, 13
+  index: -1
+images/Effect/EskillA/daoguang/00020
+  rotate: false
+  xy: 539, 789
+  size: 166, 36
+  orig: 284, 242
+  offset: 13, 39
+  index: -1
+images/Effect/EskillA/shanguang/00016
+  rotate: false
+  xy: 2, 736
+  size: 272, 223
+  orig: 308, 263
+  offset: 14, 24
+  index: -1
+images/Effect/EskillA/shouji/00016
+  rotate: false
+  xy: 797, 826
+  size: 148, 133
+  orig: 233, 179
+  offset: 52, 26
+  index: -1
+images/Effect/EskillA/shouji/00017
+  rotate: true
+  xy: 2, 2
+  size: 194, 145
+  orig: 233, 179
+  offset: 20, 18
+  index: -1
+images/Effect/EskillA/shouji/00019
+  rotate: false
+  xy: 400, 678
+  size: 94, 83
+  orig: 233, 179
+  offset: 73, 53
+  index: -1
+images/Effect/EskillA/shouji/00021
+  rotate: false
+  xy: 285, 560
+  size: 93, 85
+  orig: 233, 179
+  offset: 72, 52
+  index: -1
+images/Effect/EskillA/shouji/00023
+  rotate: false
+  xy: 285, 474
+  size: 88, 84
+  orig: 233, 179
+  offset: 72, 53
+  index: -1

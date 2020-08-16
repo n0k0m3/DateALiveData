@@ -1,0 +1,271 @@
+
+effects_ZNQ_fanka.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/cheng_00018
+  rotate: false
+  xy: 2, 692
+  size: 236, 329
+  orig: 254, 354
+  offset: 10, 13
+  index: -1
+images/chengbai_00020
+  rotate: true
+  xy: 2, 24
+  size: 335, 224
+  orig: 335, 234
+  offset: 0, 3
+  index: -1
+images/chenglizi/chenglizi_00000
+  rotate: true
+  xy: 475, 31
+  size: 150, 199
+  orig: 207, 257
+  offset: 27, 30
+  index: -1
+images/chenglizi/chenglizi_00002
+  rotate: false
+  xy: 700, 593
+  size: 154, 202
+  orig: 207, 257
+  offset: 26, 28
+  index: -1
+images/chenglizi/chenglizi_00004
+  rotate: false
+  xy: 676, 2
+  size: 157, 205
+  orig: 207, 257
+  offset: 25, 26
+  index: -1
+images/chenglizi/chenglizi_00006
+  rotate: false
+  xy: 856, 591
+  size: 160, 208
+  orig: 207, 257
+  offset: 24, 24
+  index: -1
+images/chenglizi/chenglizi_00008
+  rotate: false
+  xy: 854, 379
+  size: 163, 210
+  orig: 207, 257
+  offset: 24, 22
+  index: -1
+images/chenglizi/chenglizi_00014
+  rotate: true
+  xy: 639, 428
+  size: 163, 213
+  orig: 207, 257
+  offset: 30, 16
+  index: -1
+images/chenglizi/chenglizi_00016
+  rotate: false
+  xy: 475, 183
+  size: 167, 217
+  orig: 207, 257
+  offset: 28, 14
+  index: -1
+images/chenglizi/chenglizi_00018
+  rotate: false
+  xy: 815, 801
+  size: 171, 220
+  orig: 207, 257
+  offset: 27, 12
+  index: -1
+images/glow1_00018
+  rotate: false
+  xy: 228, 53
+  size: 245, 300
+  orig: 262, 306
+  offset: 1, 4
+  index: -1
+images/lan_00018
+  rotate: false
+  xy: 2, 361
+  size: 236, 329
+  orig: 254, 354
+  offset: 10, 13
+  index: -1
+images/lanbai_00020
+  rotate: false
+  xy: 478, 797
+  size: 335, 224
+  orig: 335, 234
+  offset: 0, 3
+  index: -1
+images/lanlizi/lanlizi_00006
+  rotate: true
+  xy: 813, 217
+  size: 160, 208
+  orig: 206, 259
+  offset: 23, 26
+  index: -1
+images/lanlizi/lanlizi_00014
+  rotate: false
+  xy: 835, 2
+  size: 163, 213
+  orig: 206, 259
+  offset: 29, 18
+  index: -1
+images/lanlizi/lanlizi_00016
+  rotate: false
+  xy: 644, 209
+  size: 167, 217
+  orig: 206, 259
+  offset: 27, 16
+  index: -1
+images/lanlizi/lanlizi_00018
+  rotate: true
+  xy: 478, 624
+  size: 171, 220
+  orig: 206, 259
+  offset: 26, 14
+  index: -1
+images/zi_00018
+  rotate: false
+  xy: 240, 692
+  size: 236, 329
+  orig: 254, 354
+  offset: 10, 13
+  index: -1
+images/zibai_00020
+  rotate: true
+  xy: 240, 355
+  size: 335, 224
+  orig: 335, 234
+  offset: 0, 3
+  index: -1
+images/zilizi/zilizi_00018
+  rotate: false
+  xy: 466, 402
+  size: 171, 220
+  orig: 206, 259
+  offset: 26, 14
+  index: -1
+
+effects_ZNQ_fanka2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/chenglizi/chenglizi_00010
+  rotate: false
+  xy: 171, 811
+  size: 163, 211
+  orig: 207, 257
+  offset: 26, 20
+  index: -1
+images/chenglizi/chenglizi_00012
+  rotate: true
+  xy: 2, 2
+  size: 161, 210
+  orig: 207, 257
+  offset: 30, 18
+  index: -1
+images/lanlizi/lanlizi_00000
+  rotate: false
+  xy: 381, 610
+  size: 150, 199
+  orig: 206, 259
+  offset: 26, 32
+  index: -1
+images/lanlizi/lanlizi_00002
+  rotate: true
+  xy: 533, 656
+  size: 154, 202
+  orig: 206, 259
+  offset: 25, 30
+  index: -1
+images/lanlizi/lanlizi_00004
+  rotate: false
+  xy: 167, 442
+  size: 157, 205
+  orig: 206, 259
+  offset: 24, 28
+  index: -1
+images/lanlizi/lanlizi_00008
+  rotate: false
+  xy: 2, 165
+  size: 163, 210
+  orig: 206, 259
+  offset: 23, 24
+  index: -1
+images/lanlizi/lanlizi_00010
+  rotate: false
+  xy: 2, 377
+  size: 163, 211
+  orig: 206, 259
+  offset: 25, 22
+  index: -1
+images/lanlizi/lanlizi_00012
+  rotate: false
+  xy: 666, 812
+  size: 161, 210
+  orig: 206, 259
+  offset: 29, 20
+  index: -1
+images/zilizi/zilizi_00000
+  rotate: false
+  xy: 326, 409
+  size: 150, 199
+  orig: 206, 259
+  offset: 26, 32
+  index: -1
+images/zilizi/zilizi_00002
+  rotate: true
+  xy: 737, 656
+  size: 154, 202
+  orig: 206, 259
+  offset: 25, 30
+  index: -1
+images/zilizi/zilizi_00004
+  rotate: false
+  xy: 167, 235
+  size: 157, 205
+  orig: 206, 259
+  offset: 24, 28
+  index: -1
+images/zilizi/zilizi_00006
+  rotate: true
+  xy: 171, 649
+  size: 160, 208
+  orig: 206, 259
+  offset: 23, 26
+  index: -1
+images/zilizi/zilizi_00008
+  rotate: false
+  xy: 501, 812
+  size: 163, 210
+  orig: 206, 259
+  offset: 23, 24
+  index: -1
+images/zilizi/zilizi_00010
+  rotate: false
+  xy: 336, 811
+  size: 163, 211
+  orig: 206, 259
+  offset: 25, 22
+  index: -1
+images/zilizi/zilizi_00012
+  rotate: false
+  xy: 829, 812
+  size: 161, 210
+  orig: 206, 259
+  offset: 29, 20
+  index: -1
+images/zilizi/zilizi_00014
+  rotate: false
+  xy: 2, 590
+  size: 163, 213
+  orig: 206, 259
+  offset: 29, 18
+  index: -1
+images/zilizi/zilizi_00016
+  rotate: false
+  xy: 2, 805
+  size: 167, 217
+  orig: 206, 259
+  offset: 27, 16
+  index: -1

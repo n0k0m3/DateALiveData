@@ -1,0 +1,20 @@
+
+effect_rankmatch_bleed.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/100_00000
+  rotate: false
+  xy: 2, 23
+  size: 43, 48
+  orig: 43, 48
+  offset: 0, 0
+  index: -1
+images/lizi_00051
+  rotate: false
+  xy: 2, 2
+  size: 21, 19
+  orig: 50, 50
+  offset: 14, 18
+  index: -1

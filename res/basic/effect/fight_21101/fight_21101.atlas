@@ -1,0 +1,160 @@
+
+fight_21101.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+beibu104
+  rotate: false
+  xy: 2, 247
+  size: 84, 180
+  orig: 84, 180
+  offset: 0, 0
+  index: -1
+hair
+  rotate: true
+  xy: 607, 874
+  size: 81, 108
+  orig: 81, 108
+  offset: 0, 0
+  index: -1
+l_calf
+  rotate: false
+  xy: 127, 671
+  size: 46, 66
+  orig: 46, 66
+  offset: 0, 0
+  index: -1
+l_foot
+  rotate: false
+  xy: 127, 612
+  size: 53, 57
+  orig: 53, 57
+  offset: 0, 0
+  index: -1
+l_forearm
+  rotate: true
+  xy: 970, 940
+  size: 82, 52
+  orig: 82, 52
+  offset: 0, 0
+  index: -1
+l_hand
+  rotate: true
+  xy: 88, 375
+  size: 52, 23
+  orig: 52, 23
+  offset: 0, 0
+  index: -1
+l_hand 2
+  rotate: false
+  xy: 127, 513
+  size: 44, 45
+  orig: 44, 45
+  offset: 0, 0
+  index: -1
+l_thigh
+  rotate: true
+  xy: 761, 955
+  size: 67, 100
+  orig: 67, 100
+  offset: 0, 0
+  index: -1
+l_uparm-1
+  rotate: false
+  xy: 2, 99
+  size: 54, 146
+  orig: 54, 146
+  offset: 0, 0
+  index: -1
+r_calf _1
+  rotate: false
+  xy: 2, 25
+  size: 51, 72
+  orig: 51, 72
+  offset: 0, 0
+  index: -1
+r_foot
+  rotate: true
+  xy: 490, 833
+  size: 45, 77
+  orig: 45, 77
+  offset: 0, 0
+  index: -1
+r_forearm
+  rotate: false
+  xy: 607, 957
+  size: 152, 65
+  orig: 152, 65
+  offset: 0, 0
+  index: -1
+r_thigh
+  rotate: true
+  xy: 863, 970
+  size: 52, 105
+  orig: 52, 105
+  offset: 0, 0
+  index: -1
+r_uparm-1
+  rotate: true
+  xy: 171, 774
+  size: 92, 151
+  orig: 92, 151
+  offset: 0, 0
+  index: -1
+spine-1
+  rotate: true
+  xy: 401, 880
+  size: 142, 204
+  orig: 142, 204
+  offset: 0, 0
+  index: -1
+spine-2
+  rotate: true
+  xy: 324, 785
+  size: 81, 77
+  orig: 81, 77
+  offset: 0, 0
+  index: -1
+spine-3
+  rotate: false
+  xy: 403, 811
+  size: 85, 67
+  orig: 85, 67
+  offset: 0, 0
+  index: -1
+weapon_1
+  rotate: true
+  xy: 2, 429
+  size: 308, 123
+  orig: 308, 123
+  offset: 0, 0
+  index: -1
+weapon_2
+  rotate: false
+  xy: 171, 868
+  size: 228, 154
+  orig: 228, 154
+  offset: 0, 0
+  index: -1
+weapon_3
+  rotate: true
+  xy: 717, 903
+  size: 52, 40
+  orig: 52, 40
+  offset: 0, 0
+  index: -1
+weapon_4
+  rotate: false
+  xy: 2, 739
+  size: 167, 283
+  orig: 167, 283
+  offset: 0, 0
+  index: -1
+weapon_5
+  rotate: false
+  xy: 127, 560
+  size: 51, 50
+  orig: 51, 50
+  offset: 0, 0
+  index: -1

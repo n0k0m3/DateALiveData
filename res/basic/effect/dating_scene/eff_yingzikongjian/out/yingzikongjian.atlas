@@ -1,0 +1,20 @@
+
+yingzikongjian.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG_00000
+  rotate: false
+  xy: 2, 9
+  size: 693, 693
+  orig: 693, 693
+  offset: 0, 0
+  index: -1
+di_00000
+  rotate: false
+  xy: 2, 2
+  size: 5, 5
+  orig: 5, 5
+  offset: 0, 0
+  index: -1

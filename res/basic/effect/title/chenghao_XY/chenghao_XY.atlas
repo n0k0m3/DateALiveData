@@ -1,0 +1,62 @@
+
+chenghao_XY.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/di
+  rotate: true
+  xy: 2, 48
+  size: 129, 31
+  orig: 129, 39
+  offset: 0, 1
+  index: -1
+images/qipao
+  rotate: true
+  xy: 76, 82
+  size: 95, 28
+  orig: 129, 39
+  offset: 19, 4
+  index: -1
+images/yu
+  rotate: true
+  xy: 35, 87
+  size: 90, 39
+  orig: 129, 39
+  offset: 18, 0
+  index: -1
+images/yuguang_00000
+  rotate: false
+  xy: 124, 205
+  size: 91, 40
+  orig: 157, 66
+  offset: 31, 14
+  index: -1
+images/zi
+  rotate: true
+  xy: 2, 2
+  size: 44, 28
+  orig: 129, 39
+  offset: 44, 5
+  index: -1
+images/zi2
+  rotate: false
+  xy: 124, 176
+  size: 80, 27
+  orig: 136, 36
+  offset: 29, 5
+  index: -1
+images/ziguang_00000
+  rotate: false
+  xy: 2, 179
+  size: 120, 66
+  orig: 157, 66
+  offset: 20, 0
+  index: -1
+images/ziguang_2
+  rotate: false
+  xy: 106, 149
+  size: 78, 25
+  orig: 78, 25
+  offset: 0, 0
+  index: -1

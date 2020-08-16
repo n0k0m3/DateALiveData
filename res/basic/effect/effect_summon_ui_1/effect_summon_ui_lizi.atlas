@@ -1,0 +1,20 @@
+
+effect_summon_ui_lizi.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+kuangsan/2lizi_da
+  rotate: false
+  xy: 2, 28
+  size: 101, 80
+  orig: 101, 80
+  offset: 0, 0
+  index: -1
+kuangsan/2lizi_xiao
+  rotate: false
+  xy: 2, 2
+  size: 27, 24
+  orig: 32, 33
+  offset: 4, 6
+  index: -1

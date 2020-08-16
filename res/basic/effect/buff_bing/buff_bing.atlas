@@ -1,0 +1,90 @@
+
+buff_bing.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/buff_23/buff_19_0001
+  rotate: true
+  xy: 232, 101
+  size: 81, 22
+  orig: 144, 32
+  offset: 32, 4
+  index: -1
+effects/buff_23/buff_19_0002
+  rotate: false
+  xy: 135, 157
+  size: 95, 25
+  orig: 144, 32
+  offset: 25, 3
+  index: -1
+effects/buff_23/buff_19_0003
+  rotate: false
+  xy: 135, 184
+  size: 98, 25
+  orig: 144, 32
+  offset: 24, 3
+  index: -1
+effects/buff_23/buff_19_0004
+  rotate: true
+  xy: 107, 86
+  size: 102, 26
+  orig: 144, 32
+  offset: 22, 2
+  index: -1
+effects/buff_23/buff_19_0005
+  rotate: true
+  xy: 79, 83
+  size: 105, 26
+  orig: 144, 32
+  offset: 20, 2
+  index: -1
+effects/buff_23/buff_19_0006
+  rotate: true
+  xy: 51, 79
+  size: 109, 26
+  orig: 144, 32
+  offset: 18, 2
+  index: -1
+effects/buff_23/buff_19_0007
+  rotate: true
+  xy: 21, 75
+  size: 113, 28
+  orig: 144, 32
+  offset: 16, 1
+  index: -1
+effects/buff_23/buff_19_0008
+  rotate: false
+  xy: 126, 224
+  size: 116, 30
+  orig: 144, 32
+  offset: 15, 0
+  index: -1
+effects/buff_23/buff_19_0009
+  rotate: false
+  xy: 2, 190
+  size: 119, 31
+  orig: 144, 32
+  offset: 13, 0
+  index: -1
+effects/buff_23/buff_19_0010
+  rotate: false
+  xy: 2, 223
+  size: 122, 31
+  orig: 144, 32
+  offset: 12, 0
+  index: -1
+effects/buff_23/buff_19_0011
+  rotate: true
+  xy: 2, 62
+  size: 126, 17
+  orig: 144, 32
+  offset: 10, 1
+  index: -1
+effects/buff_3_b_0019_1
+  rotate: true
+  xy: 126, 211
+  size: 11, 126
+  orig: 11, 126
+  offset: 0, 0
+  index: -1

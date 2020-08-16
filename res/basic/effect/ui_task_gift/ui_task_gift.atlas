@@ -1,0 +1,20 @@
+
+ui_task_gift.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow
+  rotate: false
+  xy: 2, 10
+  size: 149, 149
+  orig: 149, 149
+  offset: 0, 0
+  index: -1
+lizi
+  rotate: false
+  xy: 2, 2
+  size: 8, 6
+  orig: 8, 6
+  offset: 0, 0
+  index: -1

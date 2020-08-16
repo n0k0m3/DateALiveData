@@ -1,0 +1,118 @@
+
+effects_10309_quickmove3.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/glow_000
+  rotate: false
+  xy: 356, 60
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+images/effects/lenqi/lenqi_001
+  rotate: false
+  xy: 401, 326
+  size: 107, 39
+  orig: 175, 41
+  offset: 26, 1
+  index: -1
+images/effects/lenqi/lenqi_003
+  rotate: true
+  xy: 458, 190
+  size: 134, 40
+  orig: 175, 41
+  offset: 12, 1
+  index: -1
+images/effects/lenqi/lenqi_005
+  rotate: true
+  xy: 343, 137
+  size: 158, 39
+  orig: 175, 41
+  offset: 6, 1
+  index: -1
+images/effects/lenqi/lenqi_007
+  rotate: false
+  xy: 162, 40
+  size: 163, 38
+  orig: 175, 41
+  offset: 1, 1
+  index: -1
+images/effects/lenqi/lenqi_009
+  rotate: true
+  xy: 421, 167
+  size: 157, 35
+  orig: 175, 41
+  offset: 6, 1
+  index: -1
+images/effects/lenqi/lenqi_011
+  rotate: true
+  xy: 384, 132
+  size: 163, 35
+  orig: 175, 41
+  offset: 2, 1
+  index: -1
+images/effects/lenqi/lenqi_013
+  rotate: false
+  xy: 162, 2
+  size: 152, 36
+  orig: 175, 41
+  offset: 10, 1
+  index: -1
+images/effects/skillb/boom2/boom2_000
+  rotate: false
+  xy: 179, 134
+  size: 162, 161
+  orig: 210, 210
+  offset: 24, 25
+  index: -1
+images/effects/skillb/boom2/boom2_002
+  rotate: false
+  xy: 183, 358
+  size: 172, 152
+  orig: 210, 210
+  offset: 23, 27
+  index: -1
+images/effects/skillb/boom2/boom2_004
+  rotate: false
+  xy: 2, 155
+  size: 175, 173
+  orig: 210, 210
+  offset: 20, 18
+  index: -1
+images/effects/skillb/boom2/boom2_006
+  rotate: false
+  xy: 2, 330
+  size: 179, 180
+  orig: 210, 210
+  offset: 16, 15
+  index: -1
+images/effects/skillb/boom2/boom2_008
+  rotate: false
+  xy: 2, 10
+  size: 158, 143
+  orig: 210, 210
+  offset: 26, 38
+  index: -1
+images/effects/skillb/boom2/boom2_012
+  rotate: false
+  xy: 357, 367
+  size: 146, 143
+  orig: 210, 210
+  offset: 23, 36
+  index: -1
+images/effects/skillb/dilie_000
+  rotate: false
+  xy: 183, 297
+  size: 216, 59
+  orig: 252, 70
+  offset: 19, 3
+  index: -1
+images/effects/skillb/kuoqi_000
+  rotate: false
+  xy: 162, 80
+  size: 192, 52
+  orig: 210, 70
+  offset: 8, 6
+  index: -1

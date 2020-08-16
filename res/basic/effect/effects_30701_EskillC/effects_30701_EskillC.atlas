@@ -1,0 +1,1151 @@
+
+effects_30701_EskillC.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/eff/EskillE/baozha/baodian/baodian_00008
+  rotate: true
+  xy: 995, 977
+  size: 45, 25
+  orig: 127, 135
+  offset: 76, 53
+  index: -1
+images/eff/EskillE/baozha/dilie/dilie_00006
+  rotate: false
+  xy: 575, 716
+  size: 283, 90
+  orig: 286, 90
+  offset: 3, 0
+  index: -1
+images/eff/EskillE/baozha/fengdai/fengdai_00000
+  rotate: true
+  xy: 293, 11
+  size: 48, 11
+  orig: 176, 81
+  offset: 58, 44
+  index: -1
+images/eff/EskillE/baozha/fengdai/fengdai_00002
+  rotate: false
+  xy: 499, 4
+  size: 94, 33
+  orig: 176, 81
+  offset: 56, 21
+  index: -1
+images/eff/EskillE/baozha/fengdai/fengdai_00012
+  rotate: false
+  xy: 875, 10
+  size: 147, 68
+  orig: 176, 81
+  offset: 2, 8
+  index: -1
+images/eff/EskillE/baozha/glow/shan_00000
+  rotate: false
+  xy: 2, 725
+  size: 316, 297
+  orig: 493, 529
+  offset: 91, 138
+  index: -1
+images/eff/EskillE/baozha/kuosan/yan_00003
+  rotate: true
+  xy: 535, 39
+  size: 234, 81
+  orig: 259, 81
+  offset: 6, 0
+  index: -1
+images/eff/EskillE/baozha/kuosan/yan_00007
+  rotate: false
+  xy: 320, 725
+  size: 253, 81
+  orig: 259, 81
+  offset: 0, 0
+  index: -1
+images/eff/EskillE/baozha/kuosan/yan_00009
+  rotate: false
+  xy: 618, 2
+  size: 255, 73
+  orig: 259, 81
+  offset: 3, 0
+  index: -1
+images/eff/EskillE/baozha/lizi/lizi_00004
+  rotate: false
+  xy: 860, 611
+  size: 162, 195
+  orig: 218, 250
+  offset: 22, 13
+  index: -1
+images/eff/EskillE/baozha/lizi/lizi_00005
+  rotate: false
+  xy: 618, 77
+  size: 171, 207
+  orig: 218, 250
+  offset: 18, 13
+  index: -1
+images/eff/EskillE/baozha/lizi/lizi_00008
+  rotate: true
+  xy: 796, 208
+  size: 185, 221
+  orig: 218, 250
+  offset: 14, 14
+  index: -1
+images/eff/EskillE/baozha/qilang/qilang_00004
+  rotate: true
+  xy: 2, 8
+  size: 268, 87
+  orig: 280, 105
+  offset: 6, 17
+  index: -1
+images/eff/EskillE/baozha/shitou/shitou_00009
+  rotate: false
+  xy: 791, 80
+  size: 191, 126
+  orig: 279, 202
+  offset: 50, 72
+  index: -1
+images/eff/EskillE/jingti/baodian_ADD/baodian_00003_00000
+  rotate: false
+  xy: 311, 7
+  size: 186, 56
+  orig: 226, 102
+  offset: 30, 23
+  index: -1
+images/eff/EskillE/jingti/baodian_ADD/baodian_00003_00001
+  rotate: false
+  xy: 91, 2
+  size: 200, 57
+  orig: 226, 102
+  offset: 24, 26
+  index: -1
+images/eff/EskillE/xuliadd/xuli_00007
+  rotate: false
+  xy: 320, 808
+  size: 223, 214
+  orig: 223, 214
+  offset: 0, 0
+  index: -1
+images/eff/EskillE/xuliadd/xuli_00009
+  rotate: false
+  xy: 545, 808
+  size: 223, 214
+  orig: 223, 214
+  offset: 0, 0
+  index: -1
+images/eff/EskillE/xuliadd/xuli_00013
+  rotate: false
+  xy: 770, 808
+  size: 223, 214
+  orig: 223, 214
+  offset: 0, 0
+  index: -1
+images/eff/EskillE/xuliadd/xuli_00015
+  rotate: true
+  xy: 145, 500
+  size: 223, 212
+  orig: 223, 214
+  offset: 0, 0
+  index: -1
+images/eff/EskillE/xuliadd/xuli_00017
+  rotate: true
+  xy: 145, 275
+  size: 223, 212
+  orig: 223, 214
+  offset: 0, 0
+  index: -1
+images/eff/EskillE/xuliadd/xuli_00019
+  rotate: true
+  xy: 359, 500
+  size: 223, 212
+  orig: 223, 214
+  offset: 0, 0
+  index: -1
+images/eff/EskillE/xuliadd/xuli_00021
+  rotate: false
+  xy: 91, 61
+  size: 218, 212
+  orig: 223, 214
+  offset: 4, 0
+  index: -1
+images/eff/EskillE/xuliadd/xuli_00023
+  rotate: false
+  xy: 573, 286
+  size: 221, 212
+  orig: 223, 214
+  offset: 2, 0
+  index: -1
+images/eff/EskillE/xuliadd/xuli_00025
+  rotate: true
+  xy: 359, 275
+  size: 223, 212
+  orig: 223, 214
+  offset: 0, 0
+  index: -1
+images/eff/EskillE/xuliadd/xuli_00027
+  rotate: false
+  xy: 573, 500
+  size: 221, 214
+  orig: 223, 214
+  offset: 2, 0
+  index: -1
+images/eff/EskillE/xuliadd/xuli_00031
+  rotate: false
+  xy: 796, 395
+  size: 219, 214
+  orig: 223, 214
+  offset: 0, 0
+  index: -1
+images/eff/EskillE/xuliadd/xuli_00033
+  rotate: false
+  xy: 311, 65
+  size: 222, 208
+  orig: 223, 214
+  offset: 1, 0
+  index: -1
+images/eff/EskillE/xulidilie/dilie_00005
+  rotate: true
+  xy: 2, 278
+  size: 445, 141
+  orig: 455, 151
+  offset: 3, 3
+  index: -1
+images/eff/EskillE/xulilizi/xuli_lizi_00004
+  rotate: false
+  xy: 984, 86
+  size: 37, 120
+  orig: 153, 165
+  offset: 29, 11
+  index: -1
+images/eff/EskillE/xulilizi/xuli_lizi_00028
+  rotate: true
+  xy: 796, 613
+  size: 101, 60
+  orig: 153, 165
+  offset: 8, 71
+  index: -1
+
+effects_30701_EskillC2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/eff/EskillC/add/ju_00026
+  rotate: false
+  xy: 675, 656
+  size: 190, 187
+  orig: 190, 187
+  offset: 0, 0
+  index: -1
+images/eff/EskillC/add/ju_00028
+  rotate: false
+  xy: 640, 383
+  size: 190, 186
+  orig: 190, 187
+  offset: 0, 0
+  index: -1
+images/eff/EskillC/add/ju_00030
+  rotate: false
+  xy: 832, 282
+  size: 188, 182
+  orig: 190, 187
+  offset: 0, 0
+  index: -1
+images/eff/EskillC/add/ju_00034
+  rotate: false
+  xy: 261, 163
+  size: 182, 175
+  orig: 190, 187
+  offset: 0, 0
+  index: -1
+images/eff/EskillC/add/ju_00042
+  rotate: false
+  xy: 192, 3
+  size: 172, 157
+  orig: 190, 187
+  offset: 0, 8
+  index: -1
+images/eff/EskillC/add/ju_00046
+  rotate: false
+  xy: 2, 5
+  size: 188, 150
+  orig: 190, 187
+  offset: 0, 17
+  index: -1
+images/eff/EskillC/add/ju_00048
+  rotate: false
+  xy: 478, 300
+  size: 160, 125
+  orig: 190, 187
+  offset: 0, 25
+  index: -1
+images/eff/EskillE/baozha/baodian1/baodian1_00000
+  rotate: false
+  xy: 908, 568
+  size: 114, 89
+  orig: 148, 107
+  offset: 14, 2
+  index: -1
+images/eff/EskillE/baozha/baodian1/baodian1_00003
+  rotate: false
+  xy: 366, 2
+  size: 145, 107
+  orig: 148, 107
+  offset: 1, 0
+  index: -1
+images/eff/EskillE/baozha/baodian2/baodian_2_00002
+  rotate: true
+  xy: 890, 2
+  size: 112, 95
+  orig: 161, 139
+  offset: 4, 10
+  index: -1
+images/eff/EskillE/baozha/kuosan/yan_00001
+  rotate: false
+  xy: 280, 340
+  size: 196, 68
+  orig: 259, 81
+  offset: 26, 5
+  index: -1
+images/eff/EskillE/baozha/kuosan/yan_00005
+  rotate: false
+  xy: 429, 752
+  size: 244, 81
+  orig: 259, 81
+  offset: 2, 0
+  index: -1
+images/eff/EskillE/baozha/lizi/lizi_00003
+  rotate: false
+  xy: 867, 659
+  size: 145, 180
+  orig: 218, 250
+  offset: 31, 13
+  index: -1
+images/eff/EskillE/baozha/lizi/lizi_00006
+  rotate: true
+  xy: 653, 845
+  size: 177, 214
+  orig: 218, 250
+  offset: 17, 14
+  index: -1
+images/eff/EskillE/baozha/lizi/lizi_00007
+  rotate: false
+  xy: 2, 157
+  size: 182, 218
+  orig: 218, 250
+  offset: 15, 14
+  index: -1
+images/eff/EskillE/baozha/lizi/lizi_00009
+  rotate: true
+  xy: 429, 835
+  size: 187, 222
+  orig: 218, 250
+  offset: 13, 15
+  index: -1
+images/eff/EskillE/baozha/qilang/qilang_00002
+  rotate: true
+  xy: 210, 378
+  size: 212, 68
+  orig: 280, 105
+  offset: 13, 12
+  index: -1
+images/eff/EskillE/baozha/qilang/qilang_00003
+  rotate: false
+  xy: 642, 571
+  size: 264, 83
+  orig: 280, 105
+  offset: 3, 13
+  index: -1
+images/eff/EskillE/baozha/shitou/shitou_00011
+  rotate: false
+  xy: 423, 607
+  size: 217, 143
+  orig: 279, 202
+  offset: 36, 53
+  index: -1
+images/eff/EskillE/baozha/yan/yan_00003
+  rotate: false
+  xy: 645, 2
+  size: 138, 112
+  orig: 178, 136
+  offset: 18, 13
+  index: -1
+images/eff/EskillE/baozha/yantuan add/yantuan_Add_00006
+  rotate: true
+  xy: 785, 2
+  size: 112, 103
+  orig: 179, 179
+  offset: 28, 31
+  index: -1
+images/eff/EskillE/baozha/yantuan add/yantuan_Add_00012
+  rotate: false
+  xy: 513, 2
+  size: 130, 107
+  orig: 179, 179
+  offset: 26, 30
+  index: -1
+images/eff/EskillE/baozha/yantuan/yantuan_00004
+  rotate: true
+  xy: 832, 116
+  size: 164, 163
+  orig: 179, 179
+  offset: 0, 7
+  index: -1
+images/eff/EskillE/baozha/yantuan/yantuan_00008
+  rotate: true
+  xy: 475, 427
+  size: 178, 163
+  orig: 179, 179
+  offset: 1, 2
+  index: -1
+images/eff/EskillE/baozha/zhongxin add/baodian_add_00002
+  rotate: true
+  xy: 645, 245
+  size: 136, 185
+  orig: 146, 193
+  offset: 6, 0
+  index: -1
+images/eff/EskillE/baozha/zhongxin add/baodian_add_00003
+  rotate: false
+  xy: 869, 841
+  size: 146, 181
+  orig: 146, 193
+  offset: 0, 5
+  index: -1
+images/eff/EskillE/baozha/zhongxin/baodian_00000
+  rotate: true
+  xy: 366, 116
+  size: 45, 56
+  orig: 146, 193
+  offset: 50, 16
+  index: -1
+images/eff/EskillE/baozha/zhongxin/baodian_00002
+  rotate: true
+  xy: 634, 116
+  size: 127, 178
+  orig: 146, 193
+  offset: 10, 4
+  index: -1
+images/eff/EskillE/jingti/baodian_ADD/baodian_00003_00002
+  rotate: true
+  xy: 186, 162
+  size: 213, 73
+  orig: 226, 102
+  offset: 10, 14
+  index: -1
+images/eff/EskillE/jingti/yanchen/yanchen_00054
+  rotate: false
+  xy: 832, 466
+  size: 190, 100
+  orig: 306, 201
+  offset: 60, 23
+  index: -1
+images/eff/EskillE/xuliadd/xuli_00001
+  rotate: false
+  xy: 216, 605
+  size: 205, 201
+  orig: 223, 214
+  offset: 18, 0
+  index: -1
+images/eff/EskillE/xuliadd/xuli_00003
+  rotate: true
+  xy: 2, 377
+  size: 213, 206
+  orig: 223, 214
+  offset: 10, 0
+  index: -1
+images/eff/EskillE/xuliadd/xuli_00005
+  rotate: false
+  xy: 219, 808
+  size: 208, 214
+  orig: 223, 214
+  offset: 15, 0
+  index: -1
+images/eff/EskillE/xuliadd/xuli_00011
+  rotate: false
+  xy: 2, 808
+  size: 215, 214
+  orig: 223, 214
+  offset: 0, 0
+  index: -1
+images/eff/EskillE/xuliadd/xuli_00029
+  rotate: false
+  xy: 2, 592
+  size: 212, 214
+  orig: 223, 214
+  offset: 11, 0
+  index: -1
+images/eff/EskillE/xuliadd/xuli_00035
+  rotate: false
+  xy: 280, 410
+  size: 193, 193
+  orig: 223, 214
+  offset: 21, 0
+  index: -1
+images/eff/EskillE/xuliadd/xuli_00037
+  rotate: false
+  xy: 445, 111
+  size: 187, 187
+  orig: 223, 214
+  offset: 20, 2
+  index: -1
+
+effects_30701_EskillC3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/eff/EskillC/add/ju_00032
+  rotate: false
+  xy: 2, 844
+  size: 184, 178
+  orig: 190, 187
+  offset: 0, 0
+  index: -1
+images/eff/EskillC/add/ju_00036
+  rotate: false
+  xy: 2, 671
+  size: 178, 171
+  orig: 190, 187
+  offset: 0, 0
+  index: -1
+images/eff/EskillC/add/ju_00038
+  rotate: false
+  xy: 2, 501
+  size: 175, 168
+  orig: 190, 187
+  offset: 0, 1
+  index: -1
+images/eff/EskillC/add/ju_00040
+  rotate: true
+  xy: 2, 149
+  size: 175, 161
+  orig: 190, 187
+  offset: 0, 5
+  index: -1
+images/eff/EskillC/add/ju_00044
+  rotate: false
+  xy: 725, 703
+  size: 169, 157
+  orig: 190, 187
+  offset: 0, 13
+  index: -1
+images/eff/EskillE/baozha/baodian/baodian_00000
+  rotate: false
+  xy: 492, 25
+  size: 54, 59
+  orig: 127, 135
+  offset: 4, 2
+  index: -1
+images/eff/EskillE/baozha/baodian/baodian_00002
+  rotate: false
+  xy: 890, 3
+  size: 93, 91
+  orig: 127, 135
+  offset: 8, 16
+  index: -1
+images/eff/EskillE/baozha/baodian1/baodian1_00002
+  rotate: false
+  xy: 817, 150
+  size: 140, 103
+  orig: 148, 107
+  offset: 3, 1
+  index: -1
+images/eff/EskillE/baozha/baodian2/baodian_2_00000
+  rotate: true
+  xy: 896, 527
+  size: 150, 126
+  orig: 161, 139
+  offset: 5, 5
+  index: -1
+images/eff/EskillE/baozha/baodian2/baodian_2_00001
+  rotate: true
+  xy: 717, 117
+  size: 157, 98
+  orig: 161, 139
+  offset: 1, 8
+  index: -1
+images/eff/EskillE/baozha/baodian3/baodian_00000
+  rotate: false
+  xy: 563, 427
+  size: 144, 141
+  orig: 172, 195
+  offset: 13, 6
+  index: -1
+images/eff/EskillE/baozha/baodian3/baodian_00001
+  rotate: true
+  xy: 2, 3
+  size: 144, 162
+  orig: 172, 195
+  offset: 12, 8
+  index: -1
+images/eff/EskillE/baozha/baodian3/baodian_00002
+  rotate: false
+  xy: 874, 374
+  size: 148, 151
+  orig: 172, 195
+  offset: 10, 30
+  index: -1
+images/eff/EskillE/baozha/baodian3/baodian_00003
+  rotate: false
+  xy: 563, 130
+  size: 152, 144
+  orig: 172, 195
+  offset: 9, 42
+  index: -1
+images/eff/EskillE/baozha/fengdai/fengdai_00004
+  rotate: false
+  xy: 770, 375
+  size: 102, 50
+  orig: 176, 81
+  offset: 57, 20
+  index: -1
+images/eff/EskillE/baozha/fengdai/fengdai_00006
+  rotate: false
+  xy: 817, 96
+  size: 157, 52
+  orig: 176, 81
+  offset: 8, 19
+  index: -1
+images/eff/EskillE/baozha/fengdai/fengdai_00008
+  rotate: false
+  xy: 709, 427
+  size: 161, 59
+  orig: 176, 81
+  offset: 4, 15
+  index: -1
+images/eff/EskillE/baozha/glow/dile_shine_00000
+  rotate: false
+  xy: 173, 319
+  size: 164, 109
+  orig: 174, 113
+  offset: 0, 0
+  index: -1
+images/eff/EskillE/baozha/lizi/lizi_00002
+  rotate: false
+  xy: 896, 679
+  size: 126, 168
+  orig: 218, 250
+  offset: 41, 12
+  index: -1
+images/eff/EskillE/baozha/qilang/qilang_00001
+  rotate: false
+  xy: 364, 807
+  size: 184, 47
+  orig: 280, 105
+  offset: 12, 14
+  index: -1
+images/eff/EskillE/baozha/shitou/shitou_00007
+  rotate: false
+  xy: 709, 488
+  size: 163, 109
+  orig: 279, 202
+  offset: 64, 83
+  index: -1
+images/eff/EskillE/baozha/shitou/shitou_00013
+  rotate: false
+  xy: 165, 157
+  size: 161, 160
+  orig: 279, 202
+  offset: 22, 24
+  index: -1
+images/eff/EskillE/baozha/yan/yan_00004
+  rotate: false
+  xy: 862, 255
+  size: 148, 117
+  orig: 178, 136
+  offset: 12, 8
+  index: -1
+images/eff/EskillE/baozha/yan/yan_00005
+  rotate: false
+  xy: 802, 2
+  size: 86, 92
+  orig: 178, 136
+  offset: 10, 6
+  index: -1
+images/eff/EskillE/baozha/yantuan/yantuan_00000
+  rotate: false
+  xy: 2, 326
+  size: 169, 173
+  orig: 179, 179
+  offset: 0, 6
+  index: -1
+images/eff/EskillE/baozha/yantuan/yantuan_00002
+  rotate: false
+  xy: 188, 847
+  size: 174, 175
+  orig: 179, 179
+  offset: 0, 4
+  index: -1
+images/eff/EskillE/baozha/yantuan/yantuan_00006
+  rotate: false
+  xy: 723, 862
+  size: 172, 160
+  orig: 179, 179
+  offset: 3, 3
+  index: -1
+images/eff/EskillE/baozha/yantuan/yantuan_00010
+  rotate: false
+  xy: 543, 861
+  size: 178, 161
+  orig: 179, 179
+  offset: 1, 3
+  index: -1
+images/eff/EskillE/baozha/yantuan/yantuan_00012
+  rotate: false
+  xy: 550, 711
+  size: 173, 148
+  orig: 179, 179
+  offset: 6, 10
+  index: -1
+images/eff/EskillE/baozha/zhongxin add/baodian_add_00000
+  rotate: true
+  xy: 959, 201
+  size: 52, 63
+  orig: 146, 193
+  offset: 48, 11
+  index: -1
+images/eff/EskillE/baozha/zhongxin add/baodian_add_00001
+  rotate: true
+  xy: 188, 718
+  size: 127, 174
+  orig: 146, 193
+  offset: 10, 5
+  index: -1
+images/eff/EskillE/baozha/zhongxin add/baodian_add_00004
+  rotate: true
+  xy: 182, 570
+  size: 146, 175
+  orig: 146, 193
+  offset: 0, 5
+  index: -1
+images/eff/EskillE/baozha/zhongxin add/baodian_add_00005
+  rotate: true
+  xy: 353, 419
+  size: 146, 162
+  orig: 146, 193
+  offset: 0, 5
+  index: -1
+images/eff/EskillE/baozha/zhongxin/baodian_00001
+  rotate: false
+  xy: 897, 849
+  size: 121, 173
+  orig: 146, 193
+  offset: 11, 9
+  index: -1
+images/eff/EskillE/baozha/zhongxin/baodian_00003
+  rotate: true
+  xy: 179, 430
+  size: 138, 172
+  orig: 146, 193
+  offset: 4, 10
+  index: -1
+images/eff/EskillE/baozha/zhongxin/baodian_00004
+  rotate: true
+  xy: 534, 570
+  size: 139, 173
+  orig: 146, 193
+  offset: 4, 10
+  index: -1
+images/eff/EskillE/baozha/zhongxin/baodian_00005
+  rotate: true
+  xy: 359, 567
+  size: 144, 173
+  orig: 146, 193
+  offset: 2, 11
+  index: -1
+images/eff/EskillE/jingti/baodian_ADD/baodian_00003_00003
+  rotate: false
+  xy: 339, 244
+  size: 203, 84
+  orig: 226, 102
+  offset: 22, 9
+  index: -1
+images/eff/EskillE/jingti/jingtibenti/jingti_00057
+  rotate: false
+  xy: 328, 165
+  size: 233, 77
+  orig: 285, 132
+  offset: 27, 24
+  index: -1
+images/eff/EskillE/jingti/jingtibenti/jingti_00058
+  rotate: false
+  xy: 328, 86
+  size: 233, 77
+  orig: 285, 132
+  offset: 27, 24
+  index: -1
+images/eff/EskillE/jingti/jingtibenti/jingti_00059
+  rotate: false
+  xy: 535, 351
+  size: 233, 74
+  orig: 285, 132
+  offset: 27, 24
+  index: -1
+images/eff/EskillE/jingti/jingtibenti/jingti_00060
+  rotate: false
+  xy: 544, 276
+  size: 233, 73
+  orig: 285, 132
+  offset: 27, 25
+  index: -1
+images/eff/EskillE/jingti/shitou/ci_00042
+  rotate: false
+  xy: 691, 2
+  size: 109, 113
+  orig: 149, 123
+  offset: 22, 2
+  index: -1
+images/eff/EskillE/jingti/yanchen/yanchen_00050
+  rotate: true
+  xy: 976, 121
+  size: 78, 46
+  orig: 306, 201
+  offset: 158, 21
+  index: -1
+images/eff/EskillE/jingti/yanchen/yanchen_00052
+  rotate: false
+  xy: 325, 2
+  size: 165, 82
+  orig: 306, 201
+  offset: 104, 23
+  index: -1
+images/eff/EskillE/jingti/yanchen/yanchen_00053
+  rotate: false
+  xy: 364, 713
+  size: 180, 92
+  orig: 306, 201
+  offset: 84, 23
+  index: -1
+images/eff/EskillE/jingti/yanchen/yanchen_00055
+  rotate: false
+  xy: 709, 599
+  size: 185, 102
+  orig: 306, 201
+  offset: 42, 24
+  index: -1
+images/eff/EskillE/jingti/yanchen/yanchen_00056
+  rotate: false
+  xy: 339, 330
+  size: 194, 87
+  orig: 306, 201
+  offset: 25, 25
+  index: -1
+images/eff/EskillE/xuliadd/xuli_00039
+  rotate: true
+  xy: 364, 856
+  size: 166, 177
+  orig: 223, 214
+  offset: 31, 8
+  index: -1
+images/eff/EskillE/xuliadd/xuli_00041
+  rotate: true
+  xy: 166, 3
+  size: 152, 157
+  orig: 223, 214
+  offset: 40, 20
+  index: -1
+images/eff/EskillE/xulilizi/xuli_lizi_00002
+  rotate: false
+  xy: 517, 440
+  size: 41, 125
+  orig: 153, 165
+  offset: 24, 9
+  index: -1
+images/eff/EskillE/xulilizi/xuli_lizi_00008
+  rotate: false
+  xy: 779, 276
+  size: 81, 97
+  orig: 153, 165
+  offset: 41, 22
+  index: -1
+images/eff/EskillE/xulilizi/xuli_lizi_00042
+  rotate: false
+  xy: 563, 2
+  size: 126, 126
+  orig: 153, 165
+  offset: 18, 4
+  index: -1
+
+effects_30701_EskillC4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/eff/EskillE/baozha/baodian/baodian_00001
+  rotate: false
+  xy: 94, 387
+  size: 86, 85
+  orig: 127, 135
+  offset: 6, 10
+  index: -1
+images/eff/EskillE/baozha/baodian/baodian_00004
+  rotate: false
+  xy: 746, 924
+  size: 104, 98
+  orig: 127, 135
+  offset: 11, 25
+  index: -1
+images/eff/EskillE/baozha/baodian/baodian_00006
+  rotate: false
+  xy: 143, 605
+  size: 72, 84
+  orig: 127, 135
+  offset: 45, 43
+  index: -1
+images/eff/EskillE/baozha/baodian1/baodian1_00001
+  rotate: true
+  xy: 2, 677
+  size: 131, 100
+  orig: 148, 107
+  offset: 7, 1
+  index: -1
+images/eff/EskillE/baozha/fengdai/fengdai_00010
+  rotate: false
+  xy: 238, 958
+  size: 144, 64
+  orig: 176, 81
+  offset: 3, 11
+  index: -1
+images/eff/EskillE/baozha/glow/guang_00000
+  rotate: false
+  xy: 217, 621
+  size: 71, 71
+  orig: 74, 75
+  offset: 2, 2
+  index: -1
+images/eff/EskillE/baozha/lizi/lizi_00000
+  rotate: true
+  xy: 384, 862
+  size: 88, 101
+  orig: 218, 250
+  offset: 54, 10
+  index: -1
+images/eff/EskillE/baozha/lizi/lizi_00001
+  rotate: false
+  xy: 2, 810
+  size: 105, 137
+  orig: 218, 250
+  offset: 54, 12
+  index: -1
+images/eff/EskillE/baozha/qilang/qilang_00000
+  rotate: false
+  xy: 107, 145
+  size: 83, 60
+  orig: 280, 105
+  offset: 15, 5
+  index: -1
+images/eff/EskillE/baozha/qilang/qilang_00005
+  rotate: true
+  xy: 2, 269
+  size: 134, 81
+  orig: 280, 105
+  offset: 140, 21
+  index: -1
+images/eff/EskillE/baozha/qilang/qilang_00006
+  rotate: false
+  xy: 597, 868
+  size: 108, 66
+  orig: 280, 105
+  offset: 167, 34
+  index: -1
+images/eff/EskillE/baozha/shitou/shitou_00001
+  rotate: false
+  xy: 147, 479
+  size: 55, 45
+  orig: 279, 202
+  offset: 115, 75
+  index: -1
+images/eff/EskillE/baozha/shitou/shitou_00003
+  rotate: false
+  xy: 394, 790
+  size: 97, 70
+  orig: 279, 202
+  offset: 97, 83
+  index: -1
+images/eff/EskillE/baozha/shitou/shitou_00005
+  rotate: true
+  xy: 2, 405
+  size: 131, 90
+  orig: 279, 202
+  offset: 80, 87
+  index: -1
+images/eff/EskillE/baozha/yan/yan_00000
+  rotate: true
+  xy: 111, 2
+  size: 53, 44
+  orig: 178, 136
+  offset: 54, 55
+  index: -1
+images/eff/EskillE/baozha/yan/yan_00001
+  rotate: false
+  xy: 487, 867
+  size: 108, 78
+  orig: 178, 136
+  offset: 31, 33
+  index: -1
+images/eff/EskillE/baozha/yan/yan_00002
+  rotate: true
+  xy: 2, 143
+  size: 124, 103
+  orig: 178, 136
+  offset: 25, 18
+  index: -1
+images/eff/EskillE/baozha/yantuan add/yantuan_Add_00000
+  rotate: false
+  xy: 147, 526
+  size: 76, 77
+  orig: 179, 179
+  offset: 38, 53
+  index: -1
+images/eff/EskillE/baozha/yantuan add/yantuan_Add_00002
+  rotate: false
+  xy: 85, 296
+  size: 89, 89
+  orig: 179, 179
+  offset: 32, 46
+  index: -1
+images/eff/EskillE/baozha/yantuan add/yantuan_Add_00004
+  rotate: false
+  xy: 852, 924
+  size: 99, 98
+  orig: 179, 179
+  offset: 29, 37
+  index: -1
+images/eff/EskillE/baozha/yantuan add/yantuan_Add_00008
+  rotate: true
+  xy: 2, 24
+  size: 117, 107
+  orig: 179, 179
+  offset: 28, 28
+  index: -1
+images/eff/EskillE/baozha/yantuan add/yantuan_Add_00010
+  rotate: true
+  xy: 109, 817
+  size: 130, 111
+  orig: 179, 179
+  offset: 26, 28
+  index: -1
+images/eff/EskillE/jingti/jingtibenti/jingti_00061
+  rotate: false
+  xy: 2, 949
+  size: 234, 73
+  orig: 285, 132
+  offset: 26, 24
+  index: -1
+images/eff/EskillE/jingti/yanchen/yanchen_00051
+  rotate: false
+  xy: 384, 952
+  size: 129, 70
+  orig: 306, 201
+  offset: 126, 22
+  index: -1
+images/eff/EskillE/xulilizi/xuli_lizi_00006
+  rotate: true
+  xy: 633, 936
+  size: 86, 111
+  orig: 153, 165
+  offset: 37, 15
+  index: -1
+images/eff/EskillE/xulilizi/xuli_lizi_00010
+  rotate: false
+  xy: 515, 947
+  size: 116, 75
+  orig: 153, 165
+  offset: 4, 30
+  index: -1
+images/eff/EskillE/xulilizi/xuli_lizi_00012
+  rotate: true
+  xy: 222, 835
+  size: 112, 60
+  orig: 153, 165
+  offset: 5, 37
+  index: -1
+images/eff/EskillE/xulilizi/xuli_lizi_00014
+  rotate: false
+  xy: 284, 808
+  size: 108, 49
+  orig: 153, 165
+  offset: 7, 48
+  index: -1
+images/eff/EskillE/xulilizi/xuli_lizi_00016
+  rotate: true
+  xy: 94, 571
+  size: 104, 47
+  orig: 153, 165
+  offset: 10, 50
+  index: -1
+images/eff/EskillE/xulilizi/xuli_lizi_00018
+  rotate: false
+  xy: 109, 772
+  size: 96, 43
+  orig: 153, 165
+  offset: 16, 52
+  index: -1
+images/eff/EskillE/xulilizi/xuli_lizi_00020
+  rotate: false
+  xy: 111, 57
+  size: 84, 86
+  orig: 153, 165
+  offset: 25, 56
+  index: -1
+images/eff/EskillE/xulilizi/xuli_lizi_00022
+  rotate: false
+  xy: 104, 691
+  size: 79, 79
+  orig: 153, 165
+  offset: 33, 63
+  index: -1
+images/eff/EskillE/xulilizi/xuli_lizi_00024
+  rotate: true
+  xy: 185, 694
+  size: 76, 75
+  orig: 153, 165
+  offset: 36, 65
+  index: -1
+images/eff/EskillE/xulilizi/xuli_lizi_00026
+  rotate: true
+  xy: 953, 917
+  size: 105, 68
+  orig: 153, 165
+  offset: 7, 69
+  index: -1
+images/eff/EskillE/xulilizi/xuli_lizi_00030
+  rotate: true
+  xy: 94, 474
+  size: 95, 51
+  orig: 153, 165
+  offset: 11, 73
+  index: -1
+images/eff/EskillE/xulilizi/xuli_lizi_00032
+  rotate: false
+  xy: 599, 793
+  size: 93, 73
+  orig: 153, 165
+  offset: 15, 80
+  index: -1
+images/eff/EskillE/xulilizi/xuli_lizi_00034
+  rotate: true
+  xy: 107, 207
+  size: 87, 73
+  orig: 153, 165
+  offset: 22, 81
+  index: -1
+images/eff/EskillE/xulilizi/xuli_lizi_00036
+  rotate: true
+  xy: 493, 790
+  size: 75, 104
+  orig: 153, 165
+  offset: 33, 47
+  index: -1
+images/eff/EskillE/xulilizi/xuli_lizi_00038
+  rotate: true
+  xy: 284, 859
+  size: 97, 98
+  orig: 153, 165
+  offset: 52, 48
+  index: -1
+images/eff/EskillE/xulilizi/xuli_lizi_00040
+  rotate: false
+  xy: 2, 538
+  size: 90, 137
+  orig: 153, 165
+  offset: 58, 3
+  index: -1

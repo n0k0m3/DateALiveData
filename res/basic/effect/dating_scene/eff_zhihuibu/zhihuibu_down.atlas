@@ -1,0 +1,20 @@
+
+zhihuibu_down.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/di
+  rotate: false
+  xy: 2, 197
+  size: 355, 205
+  orig: 355, 205
+  offset: 0, 0
+  index: -1
+images/yun
+  rotate: false
+  xy: 2, 2
+  size: 355, 193
+  orig: 355, 193
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,132 @@
+
+MJtaluopai.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fazhen
+  rotate: false
+  xy: 2, 1555
+  size: 485, 480
+  orig: 485, 480
+  offset: 0, 0
+  index: -1
+guang
+  rotate: false
+  xy: 489, 1561
+  size: 154, 197
+  orig: 154, 197
+  offset: 0, 0
+  index: -1
+lizi/lizi_00001
+  rotate: false
+  xy: 427, 1361
+  size: 141, 192
+  orig: 224, 284
+  offset: 43, 45
+  index: -1
+lizi/lizi_00002
+  rotate: false
+  xy: 2, 2
+  size: 159, 214
+  orig: 224, 284
+  offset: 33, 35
+  index: -1
+lizi/lizi_00003
+  rotate: true
+  xy: 1778, 1862
+  size: 173, 232
+  orig: 224, 284
+  offset: 26, 26
+  index: -1
+lizi/lizi_00004
+  rotate: false
+  xy: 2, 218
+  size: 186, 245
+  orig: 224, 284
+  offset: 20, 19
+  index: -1
+lizi/lizi_00005
+  rotate: false
+  xy: 2, 465
+  size: 193, 256
+  orig: 224, 284
+  offset: 17, 14
+  index: -1
+lizi/lizi_00006
+  rotate: false
+  xy: 1115, 1771
+  size: 202, 264
+  orig: 224, 284
+  offset: 13, 9
+  index: -1
+lizi/lizi_00007
+  rotate: false
+  xy: 704, 1765
+  size: 206, 270
+  orig: 224, 284
+  offset: 11, 6
+  index: -1
+lizi/lizi_00008
+  rotate: false
+  xy: 2, 999
+  size: 207, 274
+  orig: 224, 284
+  offset: 11, 4
+  index: -1
+lizi/lizi_00009
+  rotate: false
+  xy: 2, 1275
+  size: 210, 278
+  orig: 224, 284
+  offset: 10, 2
+  index: -1
+lizi/lizi_00010
+  rotate: false
+  xy: 489, 1760
+  size: 213, 275
+  orig: 224, 284
+  offset: 9, 5
+  index: -1
+lizi/lizi_00011
+  rotate: false
+  xy: 214, 1276
+  size: 211, 277
+  orig: 224, 284
+  offset: 12, 2
+  index: -1
+lizi/lizi_00012
+  rotate: false
+  xy: 2, 723
+  size: 200, 274
+  orig: 224, 284
+  offset: 15, 3
+  index: -1
+lizi/lizi_00013
+  rotate: false
+  xy: 912, 1767
+  size: 201, 268
+  orig: 224, 284
+  offset: 13, 10
+  index: -1
+lizi/lizi_00014
+  rotate: false
+  xy: 1319, 1793
+  size: 210, 242
+  orig: 224, 284
+  offset: 12, 10
+  index: -1
+lizi/lizi_00015
+  rotate: true
+  xy: 1531, 1836
+  size: 199, 245
+  orig: 224, 284
+  offset: 15, 8
+  index: -1
+lizi/lizi_00016
+  rotate: false
+  xy: 570, 1403
+  size: 71, 156
+  orig: 224, 284
+  offset: 152, 96
+  index: -1

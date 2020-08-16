@@ -1,0 +1,188 @@
+
+effects_23301_born.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg13
+  rotate: true
+  xy: 721, 559
+  size: 116, 74
+  orig: 116, 74
+  offset: 0, 0
+  index: -1
+bg19
+  rotate: true
+  xy: 586, 259
+  size: 158, 41
+  orig: 158, 41
+  offset: 0, 0
+  index: -1
+bg4
+  rotate: true
+  xy: 375, 243
+  size: 148, 132
+  orig: 148, 132
+  offset: 0, 0
+  index: -1
+bg5
+  rotate: false
+  xy: 375, 115
+  size: 118, 126
+  orig: 118, 126
+  offset: 0, 0
+  index: -1
+bg6
+  rotate: false
+  xy: 693, 440
+  size: 84, 102
+  orig: 85, 102
+  offset: 0, 0
+  index: -1
+bg7
+  rotate: true
+  xy: 666, 332
+  size: 85, 79
+  orig: 102, 89
+  offset: 0, 10
+  index: -1
+effect/born/smoke1/smoke1_000
+  rotate: false
+  xy: 509, 245
+  size: 75, 172
+  orig: 284, 284
+  offset: 100, 23
+  index: -1
+effect/born/smoke1/smoke1_001
+  rotate: true
+  xy: 2, 5
+  size: 98, 190
+  orig: 284, 284
+  offset: 94, 23
+  index: -1
+effect/born/smoke1/smoke1_002
+  rotate: true
+  xy: 490, 419
+  size: 123, 201
+  orig: 284, 284
+  offset: 83, 24
+  index: -1
+effect/born/smoke1/smoke1_003
+  rotate: true
+  xy: 280, 393
+  size: 155, 208
+  orig: 284, 284
+  offset: 66, 24
+  index: -1
+effect/born/smoke1/smoke1_004
+  rotate: true
+  xy: 280, 550
+  size: 161, 213
+  orig: 284, 284
+  offset: 64, 24
+  index: -1
+effect/born/smoke1/smoke1_006
+  rotate: false
+  xy: 818, 780
+  size: 198, 236
+  orig: 284, 284
+  offset: 47, 28
+  index: -1
+effect/born/smoke1/smoke1_007
+  rotate: false
+  xy: 2, 105
+  size: 205, 245
+  orig: 284, 284
+  offset: 43, 29
+  index: -1
+effect/born/smoke1/smoke1_008
+  rotate: true
+  xy: 568, 808
+  size: 208, 248
+  orig: 284, 284
+  offset: 42, 30
+  index: -1
+effect/born/smoke1/smoke1_010
+  rotate: true
+  xy: 830, 569
+  size: 209, 184
+  orig: 284, 284
+  offset: 41, 95
+  index: -1
+effect/born/smoke2/smoke2_000
+  rotate: false
+  xy: 495, 544
+  size: 224, 131
+  orig: 320, 284
+  offset: 48, 39
+  index: -1
+effect/born/smoke2/smoke2_002
+  rotate: false
+  xy: 2, 352
+  size: 270, 193
+  orig: 320, 284
+  offset: 24, 42
+  index: -1
+effect/born/smoke2/smoke2_004
+  rotate: false
+  xy: 292, 788
+  size: 274, 228
+  orig: 320, 284
+  offset: 15, 32
+  index: -1
+effect/born/smoke2/smoke2_006
+  rotate: false
+  xy: 2, 778
+  size: 288, 238
+  orig: 320, 284
+  offset: 7, 31
+  index: -1
+effect/born/smoke2/smoke2_008
+  rotate: false
+  xy: 2, 547
+  size: 276, 229
+  orig: 320, 284
+  offset: 16, 44
+  index: -1
+effect/born/smoke2/smoke2_010
+  rotate: true
+  xy: 209, 93
+  size: 257, 164
+  orig: 320, 284
+  offset: 22, 59
+  index: -1
+effect/born/somke3/Smoke3_000
+  rotate: true
+  xy: 629, 258
+  size: 159, 35
+  orig: 284, 92
+  offset: 63, 12
+  index: -1
+effect/born/somke3/Smoke3_002
+  rotate: false
+  xy: 568, 746
+  size: 245, 60
+  orig: 284, 92
+  offset: 19, 9
+  index: -1
+effect/born/somke3/Smoke3_004
+  rotate: false
+  xy: 567, 677
+  size: 261, 67
+  orig: 284, 92
+  offset: 9, 9
+  index: -1
+effect/born/somke3/Smoke3_006
+  rotate: false
+  xy: 194, 20
+  size: 268, 71
+  orig: 284, 92
+  offset: 7, 7
+  index: -1
+effect/born/somke3/Smoke3_008
+  rotate: false
+  xy: 292, 713
+  size: 273, 73
+  orig: 284, 92
+  offset: 4, 7
+  index: -1

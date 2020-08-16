@@ -1,0 +1,251 @@
+
+skeleton.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/11_039
+  rotate: false
+  xy: 653, 916
+  size: 266, 106
+  orig: 285, 112
+  offset: 7, 6
+  index: -1
+effect/boom/boom_056
+  rotate: false
+  xy: 2, 817
+  size: 217, 205
+  orig: 238, 207
+  offset: 9, 0
+  index: -1
+effect/boom/boom_057
+  rotate: false
+  xy: 2, 610
+  size: 217, 205
+  orig: 238, 207
+  offset: 9, 0
+  index: -1
+effect/boom/boom_058
+  rotate: false
+  xy: 221, 817
+  size: 217, 205
+  orig: 238, 207
+  offset: 9, 0
+  index: -1
+effect/boom/boom_059
+  rotate: false
+  xy: 2, 403
+  size: 217, 205
+  orig: 238, 207
+  offset: 9, 0
+  index: -1
+effect/boom/boom_060
+  rotate: false
+  xy: 221, 615
+  size: 211, 200
+  orig: 238, 207
+  offset: 13, 1
+  index: -1
+effect/boom/boom_061
+  rotate: false
+  xy: 440, 822
+  size: 211, 200
+  orig: 238, 207
+  offset: 13, 1
+  index: -1
+effect/boom/boom_062
+  rotate: false
+  xy: 2, 208
+  size: 207, 193
+  orig: 238, 207
+  offset: 14, 3
+  index: -1
+effect/boom/boom_063
+  rotate: false
+  xy: 2, 55
+  size: 143, 151
+  orig: 238, 207
+  offset: 50, 19
+  index: -1
+effect/boom/boom_064
+  rotate: false
+  xy: 221, 458
+  size: 147, 155
+  orig: 238, 207
+  offset: 48, 17
+  index: -1
+effect/boom/boom_065
+  rotate: true
+  xy: 653, 780
+  size: 134, 151
+  orig: 238, 207
+  offset: 52, 17
+  index: -1
+effect/boom/boom_066
+  rotate: false
+  xy: 806, 764
+  size: 125, 150
+  orig: 238, 207
+  offset: 54, 18
+  index: -1
+effect/boom/boom_067
+  rotate: false
+  xy: 370, 465
+  size: 110, 148
+  orig: 238, 207
+  offset: 58, 20
+  index: -1
+effect/boom/boom_068
+  rotate: false
+  xy: 147, 68
+  size: 90, 138
+  orig: 238, 207
+  offset: 63, 29
+  index: -1
+effect/boom/boom_069
+  rotate: false
+  xy: 933, 823
+  size: 80, 96
+  orig: 238, 207
+  offset: 70, 69
+  index: -1
+effect/boom/boom_070
+  rotate: true
+  xy: 933, 763
+  size: 58, 84
+  orig: 238, 207
+  offset: 80, 75
+  index: -1
+effect/glow1_016
+  rotate: false
+  xy: 2, 8
+  size: 46, 45
+  orig: 46, 48
+  offset: 0, 2
+  index: -1
+effect/tang/tang_012
+  rotate: false
+  xy: 211, 230
+  size: 12, 16
+  orig: 114, 113
+  offset: 57, 63
+  index: -1
+effect/tang/tang_014
+  rotate: false
+  xy: 50, 21
+  size: 40, 32
+  orig: 114, 113
+  offset: 32, 59
+  index: -1
+effect/tang/tang_016
+  rotate: true
+  xy: 147, 2
+  size: 64, 66
+  orig: 114, 113
+  offset: 30, 26
+  index: -1
+effect/tang/tang_018
+  rotate: true
+  xy: 520, 46
+  size: 70, 68
+  orig: 114, 113
+  offset: 26, 24
+  index: -1
+effect/tang/tang_020
+  rotate: false
+  xy: 445, 45
+  size: 73, 71
+  orig: 114, 113
+  offset: 23, 22
+  index: -1
+effect/tang/tang_022
+  rotate: false
+  xy: 451, 118
+  size: 78, 74
+  orig: 114, 113
+  offset: 19, 19
+  index: -1
+effect/tang/tang_024
+  rotate: false
+  xy: 451, 194
+  size: 79, 85
+  orig: 114, 113
+  offset: 18, 15
+  index: -1
+effect/tang/tang_026
+  rotate: false
+  xy: 431, 281
+  size: 88, 87
+  orig: 114, 113
+  offset: 17, 14
+  index: -1
+effect/tang/tang_028
+  rotate: true
+  xy: 431, 370
+  size: 93, 91
+  orig: 114, 113
+  offset: 13, 11
+  index: -1
+effect/tang/tang_030
+  rotate: false
+  xy: 345, 44
+  size: 98, 97
+  orig: 114, 113
+  offset: 9, 6
+  index: -1
+effect/tang/tang_032
+  rotate: false
+  xy: 921, 921
+  size: 101, 101
+  orig: 114, 113
+  offset: 7, 4
+  index: -1
+effect/tang/tang_034
+  rotate: true
+  xy: 327, 353
+  size: 103, 102
+  orig: 114, 113
+  offset: 6, 3
+  index: -1
+effect/tang/tang_036
+  rotate: false
+  xy: 221, 353
+  size: 104, 103
+  orig: 114, 113
+  offset: 5, 3
+  index: -1
+effect/tang/tang_038
+  rotate: false
+  xy: 211, 248
+  size: 104, 103
+  orig: 114, 113
+  offset: 5, 3
+  index: -1
+effect/tang/tang_040
+  rotate: false
+  xy: 317, 248
+  size: 104, 103
+  orig: 114, 113
+  offset: 5, 3
+  index: -1
+effect/tang/tang_042
+  rotate: false
+  xy: 239, 143
+  size: 104, 103
+  orig: 114, 113
+  offset: 5, 3
+  index: -1
+effect/tang/tang_044
+  rotate: false
+  xy: 345, 143
+  size: 104, 103
+  orig: 114, 113
+  offset: 5, 3
+  index: -1
+effect/tang/tang_046
+  rotate: false
+  xy: 239, 38
+  size: 104, 103
+  orig: 114, 113
+  offset: 5, 3
+  index: -1

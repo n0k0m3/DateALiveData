@@ -1,0 +1,41 @@
+
+eff_MJ_juese.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fense
+  rotate: false
+  xy: 2, 121
+  size: 76, 132
+  orig: 76, 132
+  offset: 0, 0
+  index: -1
+lanse
+  rotate: false
+  xy: 80, 122
+  size: 75, 131
+  orig: 75, 131
+  offset: 0, 0
+  index: -1
+lvse
+  rotate: false
+  xy: 2, 5
+  size: 67, 114
+  orig: 67, 114
+  offset: 0, 0
+  index: -1
+qingse
+  rotate: true
+  xy: 157, 114
+  size: 34, 81
+  orig: 34, 81
+  offset: 0, 0
+  index: -1
+watai
+  rotate: true
+  xy: 157, 150
+  size: 103, 96
+  orig: 103, 96
+  offset: 0, 0
+  index: -1

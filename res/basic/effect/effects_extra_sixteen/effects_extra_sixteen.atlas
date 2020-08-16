@@ -1,0 +1,83 @@
+
+effects_extra_sixteen.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/rongyandi_00000
+  rotate: false
+  xy: 2, 337
+  size: 171, 65
+  orig: 180, 80
+  offset: 4, 7
+  index: -1
+images/rongyanwenli/rongyanwenli_00000
+  rotate: false
+  xy: 466, 669
+  size: 230, 128
+  orig: 230, 130
+  offset: 0, 2
+  index: -1
+images/rongyanwenli/rongyanwenli_00002
+  rotate: false
+  xy: 234, 799
+  size: 230, 129
+  orig: 230, 130
+  offset: 0, 1
+  index: -1
+images/rongyanwenli/rongyanwenli_00004
+  rotate: false
+  xy: 2, 798
+  size: 230, 130
+  orig: 230, 130
+  offset: 0, 0
+  index: -1
+images/rongyanwenli/rongyanwenli_00006
+  rotate: false
+  xy: 2, 535
+  size: 230, 129
+  orig: 230, 130
+  offset: 0, 1
+  index: -1
+images/rongyanwenli/rongyanwenli_00008
+  rotate: false
+  xy: 234, 668
+  size: 230, 129
+  orig: 230, 130
+  offset: 0, 1
+  index: -1
+images/rongyanwenli/rongyanwenli_00010
+  rotate: false
+  xy: 2, 666
+  size: 230, 130
+  orig: 230, 130
+  offset: 0, 0
+  index: -1
+images/rongyanwenli/rongyanwenli_00012
+  rotate: false
+  xy: 466, 799
+  size: 230, 129
+  orig: 230, 130
+  offset: 0, 1
+  index: -1
+images/rongyanwenli/rongyanwenli_00014
+  rotate: false
+  xy: 2, 404
+  size: 230, 129
+  orig: 230, 130
+  offset: 0, 1
+  index: -1
+images/rongyanwenli/rongyanwenli_00016
+  rotate: false
+  xy: 234, 537
+  size: 230, 129
+  orig: 230, 130
+  offset: 0, 1
+  index: -1
+images/rongyanwenli/rongyanwenli_00018
+  rotate: false
+  xy: 698, 800
+  size: 230, 128
+  orig: 230, 130
+  offset: 0, 2
+  index: -1

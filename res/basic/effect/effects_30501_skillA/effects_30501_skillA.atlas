@@ -1,0 +1,174 @@
+
+effects_30501_skillA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/glow_000
+  rotate: false
+  xy: 459, 397
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+effect/guangxian2_000
+  rotate: false
+  xy: 2, 3
+  size: 174, 56
+  orig: 200, 60
+  offset: 13, 2
+  index: -1
+effect/skilla/hit/hit_001
+  rotate: true
+  xy: 467, 555
+  size: 148, 105
+  orig: 185, 185
+  offset: 15, 38
+  index: -1
+effect/skilla/hit/hit_003
+  rotate: false
+  xy: 285, 160
+  size: 160, 100
+  orig: 185, 185
+  offset: 9, 40
+  index: -1
+effect/skilla/hit/hit_004
+  rotate: false
+  xy: 285, 262
+  size: 169, 104
+  orig: 185, 185
+  offset: 8, 39
+  index: -1
+effect/skilla/hit/hit_006
+  rotate: false
+  xy: 286, 368
+  size: 171, 113
+  orig: 185, 185
+  offset: 12, 34
+  index: -1
+effect/skilla/hit/hit_008
+  rotate: false
+  xy: 2, 61
+  size: 177, 108
+  orig: 185, 185
+  offset: 6, 36
+  index: -1
+effect/skilla/hit/hit_009
+  rotate: false
+  xy: 291, 594
+  size: 174, 109
+  orig: 185, 185
+  offset: 9, 36
+  index: -1
+effect/skilla/hit/hit_010
+  rotate: false
+  xy: 290, 483
+  size: 174, 109
+  orig: 185, 185
+  offset: 9, 36
+  index: -1
+effect/skilla/hit/hit_012
+  rotate: true
+  xy: 880, 837
+  size: 149, 106
+  orig: 185, 185
+  offset: 34, 36
+  index: -1
+effect/skilla/hit/hit_013
+  rotate: false
+  xy: 466, 449
+  size: 104, 104
+  orig: 185, 185
+  offset: 34, 36
+  index: -1
+effect/skilla/hit/hit_015
+  rotate: false
+  xy: 181, 88
+  size: 82, 81
+  orig: 185, 185
+  offset: 50, 47
+  index: -1
+effect/skilla/qibo/qibo_000
+  rotate: false
+  xy: 303, 758
+  size: 288, 111
+  orig: 300, 125
+  offset: 12, 6
+  index: -1
+effect/skilla/qibo/qibo_001
+  rotate: false
+  xy: 2, 757
+  size: 299, 112
+  orig: 300, 125
+  offset: 1, 5
+  index: -1
+effect/skilla/qibo/qibo_002
+  rotate: false
+  xy: 2, 871
+  size: 300, 115
+  orig: 300, 125
+  offset: 0, 4
+  index: -1
+effect/skilla/qibo/qibo_003
+  rotate: false
+  xy: 2, 519
+  size: 286, 116
+  orig: 300, 125
+  offset: 14, 4
+  index: -1
+effect/skilla/qibo/qibo_004
+  rotate: false
+  xy: 594, 872
+  size: 284, 114
+  orig: 300, 125
+  offset: 16, 6
+  index: -1
+effect/skilla/qibo/qibo_005
+  rotate: false
+  xy: 2, 171
+  size: 281, 113
+  orig: 300, 125
+  offset: 19, 7
+  index: -1
+effect/skilla/qibo/qibo_006
+  rotate: false
+  xy: 304, 871
+  size: 288, 115
+  orig: 300, 125
+  offset: 12, 5
+  index: -1
+effect/skilla/qibo/qibo_007
+  rotate: false
+  xy: 2, 402
+  size: 282, 115
+  orig: 300, 125
+  offset: 18, 5
+  index: -1
+effect/skilla/qibo/qibo_008
+  rotate: false
+  xy: 2, 637
+  size: 287, 118
+  orig: 300, 125
+  offset: 13, 3
+  index: -1
+effect/skilla/qibo/qibo_009
+  rotate: false
+  xy: 2, 286
+  size: 281, 114
+  orig: 300, 125
+  offset: 19, 6
+  index: -1
+effect/skilla/yujing2_000
+  rotate: false
+  xy: 303, 741
+  size: 250, 15
+  orig: 250, 25
+  offset: 0, 4
+  index: -1
+effect/skilla/yujing_000
+  rotate: false
+  xy: 291, 705
+  size: 250, 34
+  orig: 250, 50
+  offset: 0, 8
+  index: -1

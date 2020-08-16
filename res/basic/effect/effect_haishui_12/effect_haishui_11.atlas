@@ -1,0 +1,209 @@
+
+effect_haishui_11.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: true
+  xy: 202, 316
+  size: 108, 50
+  orig: 108, 50
+  offset: 0, 0
+  index: -1
+02
+  rotate: true
+  xy: 432, 508
+  size: 108, 50
+  orig: 108, 50
+  offset: 0, 0
+  index: -1
+03
+  rotate: true
+  xy: 543, 794
+  size: 108, 50
+  orig: 108, 50
+  offset: 0, 0
+  index: -1
+04
+  rotate: true
+  xy: 254, 316
+  size: 108, 50
+  orig: 108, 50
+  offset: 0, 0
+  index: -1
+05
+  rotate: true
+  xy: 543, 684
+  size: 108, 50
+  orig: 108, 50
+  offset: 0, 0
+  index: -1
+06
+  rotate: true
+  xy: 2, 133
+  size: 108, 50
+  orig: 108, 50
+  offset: 0, 0
+  index: -1
+07
+  rotate: true
+  xy: 2, 23
+  size: 108, 50
+  orig: 108, 50
+  offset: 0, 0
+  index: -1
+08
+  rotate: true
+  xy: 971, 913
+  size: 108, 50
+  orig: 108, 50
+  offset: 0, 0
+  index: -1
+09
+  rotate: true
+  xy: 306, 305
+  size: 108, 50
+  orig: 108, 50
+  offset: 0, 0
+  index: -1
+10
+  rotate: true
+  xy: 358, 305
+  size: 108, 50
+  orig: 108, 50
+  offset: 0, 0
+  index: -1
+11
+  rotate: true
+  xy: 54, 152
+  size: 108, 50
+  orig: 108, 50
+  offset: 0, 0
+  index: -1
+12
+  rotate: true
+  xy: 54, 42
+  size: 108, 50
+  orig: 108, 50
+  offset: 0, 0
+  index: -1
+13
+  rotate: true
+  xy: 106, 175
+  size: 108, 50
+  orig: 108, 50
+  offset: 0, 0
+  index: -1
+14
+  rotate: true
+  xy: 106, 65
+  size: 108, 50
+  orig: 108, 50
+  offset: 0, 0
+  index: -1
+15
+  rotate: false
+  xy: 598, 875
+  size: 108, 50
+  orig: 108, 50
+  offset: 0, 0
+  index: -1
+16
+  rotate: false
+  xy: 708, 875
+  size: 108, 50
+  orig: 108, 50
+  offset: 0, 0
+  index: -1
+17
+  rotate: false
+  xy: 818, 875
+  size: 108, 50
+  orig: 108, 50
+  offset: 0, 0
+  index: -1
+18
+  rotate: false
+  xy: 595, 823
+  size: 108, 50
+  orig: 108, 50
+  offset: 0, 0
+  index: -1
+hai2
+  rotate: true
+  xy: 432, 618
+  size: 284, 65
+  orig: 284, 65
+  offset: 0, 0
+  index: -1
+l
+  rotate: false
+  xy: 598, 927
+  size: 371, 94
+  orig: 371, 94
+  offset: 0, 0
+  index: -1
+l10
+  rotate: true
+  xy: 100, 285
+  size: 617, 73
+  orig: 617, 73
+  offset: 0, 0
+  index: -1
+l11
+  rotate: true
+  xy: 310, 415
+  size: 487, 80
+  orig: 487, 80
+  offset: 0, 0
+  index: -1
+l4
+  rotate: true
+  xy: 2, 243
+  size: 659, 38
+  orig: 659, 38
+  offset: 0, 0
+  index: -1
+l5
+  rotate: true
+  xy: 175, 310
+  size: 592, 25
+  orig: 592, 25
+  offset: 0, 0
+  index: -1
+l6
+  rotate: true
+  xy: 499, 649
+  size: 253, 42
+  orig: 253, 42
+  offset: 0, 0
+  index: -1
+l7
+  rotate: false
+  xy: 2, 904
+  size: 594, 117
+  orig: 594, 117
+  offset: 0, 0
+  index: -1
+l8
+  rotate: true
+  xy: 392, 477
+  size: 425, 38
+  orig: 425, 38
+  offset: 0, 0
+  index: -1
+l9
+  rotate: true
+  xy: 42, 262
+  size: 640, 56
+  orig: 640, 56
+  offset: 0, 0
+  index: -1
+s
+  rotate: true
+  xy: 202, 426
+  size: 476, 106
+  orig: 476, 106
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,167 @@
+
+effects_23101_skillB.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/images/skillA/baoci/baoci_00028
+  rotate: false
+  xy: 621, 524
+  size: 111, 97
+  orig: 213, 213
+  offset: 37, 35
+  index: -1
+images/images/skillA/baoci/baoci_00030
+  rotate: false
+  xy: 152, 615
+  size: 171, 181
+  orig: 213, 213
+  offset: 21, 22
+  index: -1
+images/images/skillA/baoci/baoci_00032
+  rotate: false
+  xy: 2, 818
+  size: 183, 199
+  orig: 213, 213
+  offset: 16, 9
+  index: -1
+images/images/skillA/baoci/baoci_00034
+  rotate: false
+  xy: 452, 716
+  size: 155, 151
+  orig: 213, 213
+  offset: 22, 1
+  index: -1
+images/images/skillA/baoci/baoci_00036
+  rotate: false
+  xy: 2, 2
+  size: 161, 125
+  orig: 213, 213
+  offset: 21, 34
+  index: -1
+images/images/skillA/baoci/baoci_00038
+  rotate: false
+  xy: 452, 582
+  size: 167, 132
+  orig: 213, 213
+  offset: 20, 32
+  index: -1
+images/images/skillA/baoci/baoci_00040
+  rotate: false
+  xy: 621, 623
+  size: 111, 133
+  orig: 213, 213
+  offset: 47, 26
+  index: -1
+images/images/skillA/baoci/baoci_00042
+  rotate: false
+  xy: 734, 620
+  size: 96, 136
+  orig: 213, 213
+  offset: 50, 24
+  index: -1
+images/images/skillA/baoci/baoci_00044
+  rotate: false
+  xy: 734, 524
+  size: 62, 94
+  orig: 213, 213
+  offset: 60, 66
+  index: -1
+images/images/skillA/dimianguang_00022
+  rotate: true
+  xy: 152, 563
+  size: 50, 122
+  orig: 107, 142
+  offset: 26, 17
+  index: -1
+images/images/skillA/xingxing_00003
+  rotate: false
+  xy: 150, 511
+  size: 50, 50
+  orig: 71, 71
+  offset: 9, 16
+  index: -1
+images/images/skillA/yanwu/yanwu_00033
+  rotate: true
+  xy: 325, 592
+  size: 204, 125
+  orig: 249, 213
+  offset: 0, 45
+  index: -1
+images/images/skillA/yanwu/yanwu_00035
+  rotate: true
+  xy: 876, 799
+  size: 218, 141
+  orig: 249, 213
+  offset: 14, 46
+  index: -1
+images/images/skillA/yanwu/yanwu_00037
+  rotate: true
+  xy: 2, 129
+  size: 224, 142
+  orig: 249, 213
+  offset: 11, 49
+  index: -1
+images/images/skillA/yanwu/yanwu_00039
+  rotate: false
+  xy: 417, 869
+  size: 226, 148
+  orig: 249, 213
+  offset: 11, 49
+  index: -1
+images/images/skillA/yanwu/yanwu_00041
+  rotate: false
+  xy: 187, 868
+  size: 228, 149
+  orig: 249, 213
+  offset: 10, 48
+  index: -1
+images/images/skillA/yanwu/yanwu_00043
+  rotate: true
+  xy: 2, 586
+  size: 230, 148
+  orig: 249, 213
+  offset: 9, 48
+  index: -1
+images/images/skillA/yanwu/yanwu_00045
+  rotate: true
+  xy: 2, 355
+  size: 229, 146
+  orig: 249, 213
+  offset: 9, 48
+  index: -1
+images/images/skillA/yanwu/yanwu_00047
+  rotate: false
+  xy: 645, 882
+  size: 229, 135
+  orig: 249, 213
+  offset: 9, 50
+  index: -1
+images/images/skillA/yanwu/yanwu_00049
+  rotate: false
+  xy: 187, 798
+  size: 220, 68
+  orig: 249, 213
+  offset: 12, 53
+  index: -1
+images/images/skillA/yanwu/yanwu_00051
+  rotate: false
+  xy: 609, 758
+  size: 214, 60
+  orig: 249, 213
+  offset: 17, 53
+  index: -1
+images/images/skillA/yanwu/yanwu_00053
+  rotate: false
+  xy: 645, 820
+  size: 215, 60
+  orig: 249, 213
+  offset: 17, 52
+  index: -1
+images/images/skillA/yanwu/yanwu_00055
+  rotate: true
+  xy: 146, 146
+  size: 207, 42
+  orig: 249, 213
+  offset: 25, 52
+  index: -1

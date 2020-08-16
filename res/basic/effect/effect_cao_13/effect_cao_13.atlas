@@ -1,0 +1,20 @@
+
+effect_cao_13.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/youcao
+  rotate: false
+  xy: 2, 354
+  size: 596, 244
+  orig: 596, 244
+  offset: 0, 0
+  index: -1
+images/zuocao
+  rotate: false
+  xy: 2, 108
+  size: 289, 244
+  orig: 289, 244
+  offset: 0, 0
+  index: -1

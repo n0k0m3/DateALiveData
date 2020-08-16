@@ -1,0 +1,194 @@
+
+chun_nianshou.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+532
+  rotate: false
+  xy: 2, 625
+  size: 431, 394
+  orig: 431, 394
+  offset: 0, 0
+  index: -1
+biaoqing_0003
+  rotate: false
+  xy: 677, 553
+  size: 96, 70
+  orig: 96, 70
+  offset: 0, 0
+  index: -1
+biaoqing_0006
+  rotate: true
+  xy: 299, 532
+  size: 91, 120
+  orig: 91, 120
+  offset: 0, 0
+  index: -1
+biaoqing_0007
+  rotate: false
+  xy: 421, 560
+  size: 126, 63
+  orig: 126, 63
+  offset: 0, 0
+  index: -1
+biaoqing_0008
+  rotate: true
+  xy: 723, 164
+  size: 360, 296
+  orig: 360, 296
+  offset: 0, 0
+  index: -1
+biaoqing_0009
+  rotate: true
+  xy: 868, 526
+  size: 176, 102
+  orig: 176, 102
+  offset: 0, 0
+  index: -1
+biaoqing_0010
+  rotate: true
+  xy: 660, 18
+  size: 144, 117
+  orig: 144, 117
+  offset: 0, 0
+  index: -1
+biaoqing_0011
+  rotate: true
+  xy: 884, 16
+  size: 146, 105
+  orig: 146, 105
+  offset: 0, 0
+  index: -1
+biaoqing_0012
+  rotate: true
+  xy: 779, 6
+  size: 156, 103
+  orig: 156, 103
+  offset: 0, 0
+  index: -1
+biaoqing_0014
+  rotate: false
+  xy: 2, 60
+  size: 356, 464
+  orig: 356, 464
+  offset: 0, 0
+  index: -1
+biaoqing_0015
+  rotate: true
+  xy: 360, 37
+  size: 195, 298
+  orig: 195, 298
+  offset: 0, 0
+  index: -1
+biaoqing_0016
+  rotate: true
+  xy: 2, 548
+  size: 75, 173
+  orig: 75, 173
+  offset: 0, 0
+  index: -1
+biaoqing_0018
+  rotate: false
+  xy: 435, 625
+  size: 431, 394
+  orig: 431, 394
+  offset: 0, 0
+  index: -1
+erduo_0001
+  rotate: false
+  xy: 76, 2
+  size: 61, 56
+  orig: 61, 56
+  offset: 0, 0
+  index: -1
+erduo_0002
+  rotate: true
+  xy: 775, 561
+  size: 62, 75
+  orig: 62, 75
+  offset: 0, 0
+  index: -1
+erduo_0003
+  rotate: false
+  xy: 2, 2
+  size: 72, 56
+  orig: 72, 56
+  offset: 0, 0
+  index: -1
+h_kaixin
+  rotate: false
+  xy: 868, 704
+  size: 149, 128
+  orig: 149, 128
+  offset: 0, 0
+  index: -1
+h_ku
+  rotate: true
+  xy: 868, 834
+  size: 185, 116
+  orig: 185, 116
+  offset: 0, 0
+  index: -1
+h_toutao01
+  rotate: false
+  xy: 360, 234
+  size: 361, 296
+  orig: 361, 296
+  offset: 0, 0
+  index: -1
+h_zhuzi01
+  rotate: true
+  xy: 177, 531
+  size: 92, 120
+  orig: 92, 120
+  offset: 0, 0
+  index: -1
+h_zhuzi02
+  rotate: false
+  xy: 549, 560
+  size: 126, 63
+  orig: 126, 63
+  offset: 0, 0
+  index: -1
+
+chun_nianshou2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+533
+  rotate: false
+  xy: 149, 204
+  size: 102, 105
+  orig: 102, 105
+  offset: 0, 0
+  index: -1
+biaoqing_0001
+  rotate: false
+  xy: 2, 2
+  size: 63, 66
+  orig: 63, 66
+  offset: 0, 0
+  index: -1
+biaoqing_0013
+  rotate: false
+  xy: 2, 70
+  size: 98, 132
+  orig: 98, 132
+  offset: 0, 0
+  index: -1
+biaoqing_0017
+  rotate: false
+  xy: 102, 97
+  size: 101, 105
+  orig: 101, 105
+  offset: 0, 0
+  index: -1
+h_meng
+  rotate: false
+  xy: 2, 204
+  size: 145, 105
+  orig: 145, 105
+  offset: 0, 0
+  index: -1

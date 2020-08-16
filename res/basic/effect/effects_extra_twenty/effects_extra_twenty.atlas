@@ -1,0 +1,174 @@
+
+effects_extra_twenty.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/fanji/add/add_00013
+  rotate: true
+  xy: 2, 197
+  size: 286, 152
+  orig: 353, 174
+  offset: 32, 10
+  index: -1
+images/fanji/add/add_00014
+  rotate: false
+  xy: 2, 847
+  size: 353, 174
+  orig: 353, 174
+  offset: 0, 0
+  index: -1
+images/fanji/add/add_00015
+  rotate: false
+  xy: 357, 914
+  size: 353, 107
+  orig: 353, 174
+  offset: 0, 40
+  index: -1
+images/fanji/add/add_00016
+  rotate: false
+  xy: 156, 108
+  size: 153, 52
+  orig: 353, 174
+  offset: 112, 63
+  index: -1
+images/fanji/add/add_00017
+  rotate: false
+  xy: 156, 162
+  size: 160, 53
+  orig: 353, 174
+  offset: 109, 63
+  index: -1
+images/fanji/add/add_00018
+  rotate: true
+  xy: 101, 31
+  size: 164, 53
+  orig: 353, 174
+  offset: 84, 68
+  index: -1
+images/fanji/add/add_00019
+  rotate: true
+  xy: 2, 4
+  size: 191, 62
+  orig: 353, 174
+  offset: 80, 67
+  index: -1
+images/fanji/add/add_00020
+  rotate: false
+  xy: 323, 226
+  size: 199, 33
+  orig: 353, 174
+  offset: 77, 99
+  index: -1
+images/fanji/add/add_00021
+  rotate: false
+  xy: 323, 261
+  size: 209, 33
+  orig: 353, 174
+  offset: 73, 100
+  index: -1
+images/fanji/add/add_00022
+  rotate: true
+  xy: 66, 8
+  size: 187, 33
+  orig: 353, 174
+  offset: 100, 103
+  index: -1
+images/fanji/add/add_00023
+  rotate: false
+  xy: 156, 73
+  size: 168, 33
+  orig: 353, 174
+  offset: 98, 104
+  index: -1
+images/fanji/add/add_00024
+  rotate: true
+  xy: 547, 310
+  size: 86, 6
+  orig: 353, 174
+  offset: 183, 134
+  index: -1
+images/fanji/normal/normal_00013
+  rotate: false
+  xy: 323, 296
+  size: 222, 100
+  orig: 323, 189
+  offset: 48, 20
+  index: -1
+images/fanji/normal/normal_00014
+  rotate: false
+  xy: 323, 398
+  size: 238, 143
+  orig: 323, 189
+  offset: 40, 15
+  index: -1
+images/fanji/normal/normal_00015
+  rotate: true
+  xy: 156, 217
+  size: 266, 165
+  orig: 323, 189
+  offset: 27, 12
+  index: -1
+images/fanji/normal/normal_00016
+  rotate: false
+  xy: 2, 485
+  size: 270, 178
+  orig: 323, 189
+  offset: 25, 10
+  index: -1
+images/fanji/normal/normal_00017
+  rotate: false
+  xy: 2, 665
+  size: 289, 180
+  orig: 323, 189
+  offset: 19, 9
+  index: -1
+images/fanji/normal/normal_00018
+  rotate: false
+  xy: 274, 543
+  size: 293, 69
+  orig: 323, 189
+  offset: 17, 18
+  index: -1
+images/fanji/normal/normal_00019
+  rotate: false
+  xy: 293, 614
+  size: 304, 70
+  orig: 323, 189
+  offset: 11, 17
+  index: -1
+images/fanji/normal/normal_00020
+  rotate: false
+  xy: 293, 686
+  size: 306, 72
+  orig: 323, 189
+  offset: 10, 16
+  index: -1
+images/fanji/normal/normal_00021
+  rotate: false
+  xy: 712, 871
+  size: 308, 74
+  orig: 323, 189
+  offset: 9, 15
+  index: -1
+images/fanji/normal/normal_00022
+  rotate: false
+  xy: 712, 947
+  size: 309, 74
+  orig: 323, 189
+  offset: 8, 15
+  index: -1
+images/fanji/normal/normal_00023
+  rotate: false
+  xy: 357, 837
+  size: 314, 75
+  orig: 323, 189
+  offset: 7, 15
+  index: -1
+images/fanji/normal/normal_00024
+  rotate: false
+  xy: 293, 760
+  size: 314, 75
+  orig: 323, 189
+  offset: 7, 15
+  index: -1

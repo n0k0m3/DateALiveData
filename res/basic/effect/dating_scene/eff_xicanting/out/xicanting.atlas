@@ -1,0 +1,41 @@
+
+xicanting.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dengguan_00000
+  rotate: false
+  xy: 2, 104
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+glow_00060
+  rotate: false
+  xy: 304, 606
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+lazhu_00000
+  rotate: false
+  xy: 2, 406
+  size: 300, 500
+  orig: 300, 500
+  offset: 0, 0
+  index: -1
+lazhuguang_00119
+  rotate: false
+  xy: 304, 304
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+yangguang_00119
+  rotate: false
+  xy: 606, 606
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1

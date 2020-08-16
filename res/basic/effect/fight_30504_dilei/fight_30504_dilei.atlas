@@ -1,0 +1,20 @@
+
+fight_30504_dilei.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dilei/images/adilei
+  rotate: false
+  xy: 2, 2
+  size: 43, 26
+  orig: 45, 28
+  offset: 1, 1
+  index: -1
+guang002
+  rotate: false
+  xy: 2, 30
+  size: 209, 208
+  orig: 209, 209
+  offset: 0, 0
+  index: -1

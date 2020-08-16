@@ -1,0 +1,181 @@
+
+effects_10801_skilld_1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skilld/CG/zuiqianguan1
+  rotate: false
+  xy: 2, 195
+  size: 219, 199
+  orig: 219, 199
+  offset: 0, 0
+  index: -1
+effect/skilld/CG/zuiqianguan2
+  rotate: true
+  xy: 732, 295
+  size: 200, 114
+  orig: 200, 114
+  offset: 0, 0
+  index: -1
+effect/skilld/heidi/heidi_001
+  rotate: true
+  xy: 223, 313
+  size: 81, 18
+  orig: 320, 200
+  offset: 74, 73
+  index: -1
+effect/skilld/heidi/heidi_002
+  rotate: false
+  xy: 227, 21
+  size: 177, 42
+  orig: 320, 200
+  offset: 31, 58
+  index: -1
+effect/skilld/heidi/heidi_003
+  rotate: false
+  xy: 630, 785
+  size: 265, 77
+  orig: 320, 200
+  offset: 0, 34
+  index: -1
+effect/skilld/heidi/heidi_005
+  rotate: false
+  xy: 2, 558
+  size: 320, 142
+  orig: 320, 200
+  offset: 0, 0
+  index: -1
+effect/skilld/heidi/heidi_006
+  rotate: false
+  xy: 2, 702
+  size: 320, 149
+  orig: 320, 200
+  offset: 0, 0
+  index: -1
+effect/skilld/heidi/heidi_007
+  rotate: false
+  xy: 2, 853
+  size: 320, 166
+  orig: 320, 200
+  offset: 0, 0
+  index: -1
+effect/skilld/shandianxin/xinshandian1
+  rotate: false
+  xy: 2, 2
+  size: 223, 191
+  orig: 304, 277
+  offset: 10, 18
+  index: -1
+effect/skilld/shandianxin/xinshandian2
+  rotate: false
+  xy: 324, 857
+  size: 304, 162
+  orig: 304, 277
+  offset: 0, 42
+  index: -1
+effect/skilld/shandianxin/xinshandian3
+  rotate: false
+  xy: 324, 686
+  size: 293, 169
+  orig: 304, 277
+  offset: 11, 70
+  index: -1
+effect/skilld/shandianxin/xinshandian4
+  rotate: false
+  xy: 510, 332
+  size: 220, 163
+  orig: 304, 277
+  offset: 29, 52
+  index: -1
+effect/skilld/shandianxin/xinshandian5
+  rotate: false
+  xy: 268, 226
+  size: 219, 173
+  orig: 304, 277
+  offset: 52, 68
+  index: -1
+effect/skilld/shandianxin/xinshandian6
+  rotate: false
+  xy: 227, 65
+  size: 208, 159
+  orig: 304, 277
+  offset: 41, 92
+  index: -1
+effect/skilld/shandianxin/xinshandian7
+  rotate: false
+  xy: 437, 51
+  size: 203, 149
+  orig: 304, 277
+  offset: 49, 94
+  index: -1
+effect/skilld/shandianxin/xinshandian8
+  rotate: false
+  xy: 630, 864
+  size: 280, 155
+  orig: 304, 277
+  offset: 24, 54
+  index: -1
+effect/skilld/shandianxin/xinshandian9
+  rotate: false
+  xy: 2, 396
+  size: 264, 160
+  orig: 304, 277
+  offset: 5, 71
+  index: -1
+effect/skilld/xiaofeng/xiaofeng_000
+  rotate: true
+  xy: 796, 549
+  size: 77, 60
+  orig: 280, 216
+  offset: 101, 68
+  index: -1
+effect/skilld/xiaofeng/xiaofeng_001
+  rotate: true
+  xy: 912, 870
+  size: 149, 101
+  orig: 280, 216
+  offset: 57, 52
+  index: -1
+effect/skilld/xiaofeng/xiaofeng_002
+  rotate: false
+  xy: 695, 200
+  size: 145, 93
+  orig: 280, 216
+  offset: 66, 55
+  index: -1
+effect/skilld/xiaofeng/xiaofeng_004
+  rotate: false
+  xy: 489, 202
+  size: 204, 128
+  orig: 280, 216
+  offset: 46, 46
+  index: -1
+effect/skilld/xiaofeng/xiaofeng_006
+  rotate: false
+  xy: 619, 628
+  size: 230, 155
+  orig: 280, 216
+  offset: 24, 31
+  index: -1
+effect/skilld/xiaofeng/xiaofeng_007
+  rotate: false
+  xy: 268, 401
+  size: 240, 141
+  orig: 280, 216
+  offset: 14, 32
+  index: -1
+effect/skilld/xiaofeng/xiaofeng_008
+  rotate: false
+  xy: 324, 544
+  size: 242, 140
+  orig: 280, 216
+  offset: 24, 32
+  index: -1
+effect/skilld/xiaofeng/xiaofeng_009
+  rotate: false
+  xy: 568, 497
+  size: 226, 129
+  orig: 280, 216
+  offset: 33, 55
+  index: -1

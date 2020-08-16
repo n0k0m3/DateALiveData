@@ -1,0 +1,418 @@
+
+effects_10309_extra_skillB.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/extra_skillB/12baodian/12baodian_add_00000
+  rotate: true
+  xy: 768, 616
+  size: 175, 126
+  orig: 175, 126
+  offset: 0, 0
+  index: -1
+effects/extra_skillB/12baodian/12baodian_add_00001
+  rotate: true
+  xy: 896, 663
+  size: 175, 126
+  orig: 175, 126
+  offset: 0, 0
+  index: -1
+effects/extra_skillB/12baodian/12baodian_add_00003
+  rotate: false
+  xy: 751, 379
+  size: 175, 114
+  orig: 175, 126
+  offset: 0, 12
+  index: -1
+effects/extra_skillB/12baodian/12baodian_add_00005
+  rotate: false
+  xy: 477, 53
+  size: 131, 109
+  orig: 175, 126
+  offset: 26, 9
+  index: -1
+effects/extra_skillB/12baodian/12baodian_add_00007
+  rotate: false
+  xy: 905, 155
+  size: 117, 110
+  orig: 175, 126
+  offset: 28, 6
+  index: -1
+effects/extra_skillB/12baodian/12baodian_add_00009
+  rotate: false
+  xy: 305, 2
+  size: 98, 105
+  orig: 175, 126
+  offset: 30, 5
+  index: -1
+effects/extra_skillB/12baodian/12baodian_nor_00001
+  rotate: false
+  xy: 610, 2
+  size: 140, 93
+  orig: 175, 126
+  offset: 22, 16
+  index: -1
+effects/extra_skillB/12baodian/12baodian_nor_00003
+  rotate: true
+  xy: 897, 505
+  size: 156, 100
+  orig: 175, 126
+  offset: 19, 17
+  index: -1
+effects/extra_skillB/12baodian/12baodian_nor_00005
+  rotate: false
+  xy: 745, 100
+  size: 144, 88
+  orig: 175, 126
+  offset: 8, 18
+  index: -1
+effects/extra_skillB/12baodian/12baodian_nor_00007
+  rotate: false
+  xy: 483, 164
+  size: 150, 89
+  orig: 175, 126
+  offset: 1, 19
+  index: -1
+effects/extra_skillB/12baodian/12baodian_nor_00009
+  rotate: false
+  xy: 752, 10
+  size: 133, 88
+  orig: 175, 126
+  offset: 17, 23
+  index: -1
+effects/extra_skillB/12baodian/12baodian_nor_00011
+  rotate: false
+  xy: 891, 67
+  size: 127, 86
+  orig: 175, 126
+  offset: 18, 24
+  index: -1
+effects/extra_skillB/1bingzhui_00000_00000
+  rotate: false
+  xy: 443, 408
+  size: 115, 52
+  orig: 140, 70
+  offset: 14, 8
+  index: -1
+effects/extra_skillB/2bingzhui_00000
+  rotate: false
+  xy: 560, 399
+  size: 189, 89
+  orig: 245, 140
+  offset: 52, 31
+  index: -1
+effects/extra_skillB/add/xuanwo__57
+  rotate: false
+  xy: 477, 12
+  size: 105, 39
+  orig: 106, 41
+  offset: 1, 1
+  index: -1
+effects/extra_skillB/add/xuanwo__59
+  rotate: true
+  xy: 812, 798
+  size: 106, 39
+  orig: 106, 41
+  offset: 0, 1
+  index: -1
+effects/extra_skillB/add/xuanwo__61
+  rotate: false
+  xy: 887, 26
+  size: 105, 39
+  orig: 106, 41
+  offset: 1, 1
+  index: -1
+effects/extra_skillB/add/xuehua2__46
+  rotate: true
+  xy: 920, 273
+  size: 104, 102
+  orig: 104, 102
+  offset: 0, 0
+  index: -1
+effects/extra_skillB/baibaodian
+  rotate: false
+  xy: 928, 415
+  size: 83, 88
+  orig: 105, 105
+  offset: 11, 9
+  index: -1
+effects/extra_skillB/baodian/baodian_add_00000
+  rotate: false
+  xy: 199, 842
+  size: 202, 180
+  orig: 210, 210
+  offset: 8, 0
+  index: -1
+effects/extra_skillB/baodian/baodian_add_00001
+  rotate: true
+  xy: 203, 640
+  size: 200, 172
+  orig: 210, 210
+  offset: 9, 8
+  index: -1
+effects/extra_skillB/baodian/baodian_add_00003
+  rotate: false
+  xy: 2, 834
+  size: 195, 188
+  orig: 210, 210
+  offset: 15, 7
+  index: -1
+effects/extra_skillB/baodian/baodian_add_00005
+  rotate: false
+  xy: 377, 654
+  size: 187, 184
+  orig: 210, 210
+  offset: 23, 10
+  index: -1
+effects/extra_skillB/baodian/baodian_add_00007
+  rotate: true
+  xy: 382, 462
+  size: 190, 176
+  orig: 210, 210
+  offset: 20, 13
+  index: -1
+effects/extra_skillB/baodian/baodian_add_00009
+  rotate: true
+  xy: 864, 840
+  size: 182, 155
+  orig: 210, 210
+  offset: 28, 10
+  index: -1
+effects/extra_skillB/baodian/baodian_add_00011
+  rotate: false
+  xy: 300, 243
+  size: 181, 136
+  orig: 210, 210
+  offset: 29, 8
+  index: -1
+effects/extra_skillB/baodian/baodian_add_00013
+  rotate: true
+  xy: 133, 106
+  size: 178, 141
+  orig: 210, 210
+  offset: 32, 7
+  index: -1
+effects/extra_skillB/baodian/baodian_add_00015
+  rotate: false
+  xy: 483, 255
+  size: 165, 142
+  orig: 210, 210
+  offset: 39, 13
+  index: -1
+effects/extra_skillB/baodian/baodian_nor_00001
+  rotate: false
+  xy: 566, 628
+  size: 200, 163
+  orig: 210, 210
+  offset: 10, 34
+  index: -1
+effects/extra_skillB/baodian/baodian_nor_00003
+  rotate: false
+  xy: 403, 840
+  size: 200, 182
+  orig: 210, 210
+  offset: 10, 18
+  index: -1
+effects/extra_skillB/baodian/baodian_nor_00005
+  rotate: true
+  xy: 2, 77
+  size: 207, 129
+  orig: 210, 210
+  offset: 2, 50
+  index: -1
+effects/extra_skillB/baodian/baodian_nor_00007
+  rotate: true
+  xy: 123, 372
+  size: 201, 124
+  orig: 210, 210
+  offset: 0, 52
+  index: -1
+effects/extra_skillB/baodian/baodian_nor_00009
+  rotate: true
+  xy: 650, 216
+  size: 181, 98
+  orig: 210, 210
+  offset: 16, 70
+  index: -1
+effects/extra_skillB/baodian/baodian_nor_00011
+  rotate: false
+  xy: 133, 2
+  size: 170, 102
+  orig: 210, 210
+  offset: 15, 68
+  index: -1
+effects/extra_skillB/baodian/baodian_nor_00013
+  rotate: false
+  xy: 750, 267
+  size: 168, 110
+  orig: 210, 210
+  offset: 12, 55
+  index: -1
+effects/extra_skillB/baodian_dilie_00000
+  rotate: false
+  xy: 249, 381
+  size: 192, 64
+  orig: 210, 140
+  offset: 10, 30
+  index: -1
+effects/extra_skillB/bingkuai_00003
+  rotate: true
+  xy: 2, 8
+  size: 67, 129
+  orig: 84, 140
+  offset: 8, 5
+  index: -1
+effects/extra_skillB/dandao/dandao_add_00000
+  rotate: true
+  xy: 560, 490
+  size: 136, 186
+  orig: 140, 280
+  offset: 1, 19
+  index: -1
+effects/extra_skillB/dandao/dandao_add_00002
+  rotate: true
+  xy: 276, 109
+  size: 132, 182
+  orig: 140, 280
+  offset: 3, 20
+  index: -1
+effects/extra_skillB/dandao/dandao_add_00004
+  rotate: false
+  xy: 249, 447
+  size: 131, 191
+  orig: 140, 280
+  offset: 0, 17
+  index: -1
+effects/extra_skillB/dandao/dandao_add_00006
+  rotate: true
+  xy: 748, 495
+  size: 119, 147
+  orig: 140, 280
+  offset: 8, 18
+  index: -1
+effects/extra_skillB/dandao/dandao_nor_00000
+  rotate: false
+  xy: 2, 286
+  size: 119, 244
+  orig: 140, 280
+  offset: 16, 17
+  index: -1
+effects/extra_skillB/dandao/dandao_nor_00002
+  rotate: true
+  xy: 605, 906
+  size: 116, 257
+  orig: 140, 280
+  offset: 18, 17
+  index: -1
+effects/extra_skillB/dandao/dandao_nor_00004
+  rotate: false
+  xy: 87, 575
+  size: 114, 257
+  orig: 140, 280
+  offset: 15, 17
+  index: -1
+effects/extra_skillB/dandao/dandao_nor_00006
+  rotate: true
+  xy: 605, 793
+  size: 111, 205
+  orig: 140, 280
+  offset: 19, 17
+  index: -1
+effects/extra_skillB/dandao/dandao_nor_00008
+  rotate: false
+  xy: 635, 97
+  size: 108, 117
+  orig: 140, 280
+  offset: 18, 63
+  index: -1
+effects/extra_skillB/hehua_00003
+  rotate: true
+  xy: 750, 190
+  size: 75, 153
+  orig: 105, 175
+  offset: 17, 10
+  index: -1
+effects/extra_skillB/huadi__00012
+  rotate: false
+  xy: 123, 286
+  size: 175, 84
+  orig: 175, 84
+  offset: 0, 0
+  index: -1
+effects/extra_skillB/quandi_00033
+  rotate: true
+  xy: 2, 532
+  size: 300, 83
+  orig: 308, 91
+  offset: 0, 3
+  index: -1
+effects/extra_skillB/scr/wu__58
+  rotate: true
+  xy: 405, 2
+  size: 105, 70
+  orig: 105, 70
+  offset: 0, 0
+  index: -1
+
+effects_10309_extra_skillB2.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/extra_skillB/add/wu2__45
+  rotate: false
+  xy: 2, 148
+  size: 100, 100
+  orig: 118, 114
+  offset: 7, 8
+  index: -1
+effects/extra_skillB/add/xuanwo__53
+  rotate: false
+  xy: 104, 168
+  size: 102, 39
+  orig: 106, 41
+  offset: 2, 1
+  index: -1
+effects/extra_skillB/add/xuanwo__55
+  rotate: false
+  xy: 104, 209
+  size: 104, 39
+  orig: 106, 41
+  offset: 2, 1
+  index: -1
+effects/extra_skillB/add/xuanwo__63
+  rotate: true
+  xy: 43, 41
+  size: 105, 37
+  orig: 106, 41
+  offset: 0, 2
+  index: -1
+effects/extra_skillB/add/xuanwo__65
+  rotate: true
+  xy: 2, 41
+  size: 105, 39
+  orig: 106, 41
+  offset: 0, 0
+  index: -1
+effects/extra_skillB/add/xuanwo__67
+  rotate: true
+  xy: 82, 41
+  size: 105, 37
+  orig: 106, 41
+  offset: 0, 1
+  index: -1
+effects/extra_skillB/add/xuanwo__69
+  rotate: false
+  xy: 2, 2
+  size: 105, 37
+  orig: 106, 41
+  offset: 0, 1
+  index: -1
+effects/extra_skillB/add/xuanwo__71
+  rotate: true
+  xy: 121, 63
+  size: 103, 38
+  orig: 106, 41
+  offset: 1, 0
+  index: -1

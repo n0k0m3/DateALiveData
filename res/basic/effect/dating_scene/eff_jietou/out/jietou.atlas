@@ -1,0 +1,90 @@
+
+jietou.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow_00060
+  rotate: false
+  xy: 2, 87
+  size: 227, 180
+  orig: 300, 300
+  offset: 3, 60
+  index: -1
+huohua_00009
+  rotate: true
+  xy: 231, 180
+  size: 87, 61
+  orig: 150, 100
+  offset: 27, 28
+  index: -1
+huohua_00010
+  rotate: false
+  xy: 297, 431
+  size: 131, 79
+  orig: 150, 100
+  offset: 10, 10
+  index: -1
+huohua_00011
+  rotate: false
+  xy: 294, 181
+  size: 98, 66
+  orig: 150, 100
+  offset: 18, 11
+  index: -1
+xiaoshandian_033
+  rotate: false
+  xy: 404, 265
+  size: 106, 78
+  orig: 120, 120
+  offset: 4, 0
+  index: -1
+xiaoshandian_034
+  rotate: false
+  xy: 297, 249
+  size: 105, 87
+  orig: 120, 120
+  offset: 0, 6
+  index: -1
+xiaoshandian_036
+  rotate: false
+  xy: 297, 338
+  size: 105, 91
+  orig: 120, 120
+  offset: 0, 15
+  index: -1
+xiaoshandian_038
+  rotate: false
+  xy: 404, 345
+  size: 106, 84
+  orig: 120, 120
+  offset: 5, 26
+  index: -1
+xiaoshandian_040
+  rotate: false
+  xy: 2, 3
+  size: 117, 82
+  orig: 120, 120
+  offset: 1, 33
+  index: -1
+xiaoshandian_041
+  rotate: false
+  xy: 121, 7
+  size: 115, 78
+  orig: 120, 120
+  offset: 1, 37
+  index: -1
+xiaoshandian_042
+  rotate: true
+  xy: 231, 90
+  size: 88, 59
+  orig: 120, 120
+  offset: 25, 53
+  index: -1
+yangguang_00000
+  rotate: false
+  xy: 2, 269
+  size: 293, 241
+  orig: 300, 300
+  offset: 2, 28
+  index: -1

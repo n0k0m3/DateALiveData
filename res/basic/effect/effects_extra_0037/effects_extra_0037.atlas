@@ -1,0 +1,181 @@
+
+effects_extra_0037.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+imange/lan_00000
+  rotate: false
+  xy: 2, 944
+  size: 242, 68
+  orig: 280, 105
+  offset: 21, 21
+  index: -1
+imange/lanbowen/bowen_00001
+  rotate: false
+  xy: 2, 696
+  size: 223, 60
+  orig: 280, 105
+  offset: 31, 27
+  index: -1
+imange/lanbowen/bowen_00003
+  rotate: false
+  xy: 474, 952
+  size: 225, 60
+  orig: 280, 105
+  offset: 29, 27
+  index: -1
+imange/lanbowen/bowen_00005
+  rotate: false
+  xy: 2, 882
+  size: 226, 60
+  orig: 280, 105
+  offset: 29, 27
+  index: -1
+imange/lanbowen/bowen_00007
+  rotate: false
+  xy: 246, 952
+  size: 226, 60
+  orig: 280, 105
+  offset: 29, 27
+  index: -1
+imange/lanbowen/bowen_00009
+  rotate: false
+  xy: 2, 820
+  size: 226, 60
+  orig: 280, 105
+  offset: 29, 27
+  index: -1
+imange/lanbowen/bowen_00011
+  rotate: false
+  xy: 2, 758
+  size: 225, 60
+  orig: 280, 105
+  offset: 30, 27
+  index: -1
+imange/lanbowen/bowen_00013
+  rotate: false
+  xy: 2, 634
+  size: 223, 60
+  orig: 280, 105
+  offset: 30, 27
+  index: -1
+imange/lanbowen/bowen_00015
+  rotate: true
+  xy: 63, 410
+  size: 222, 59
+  orig: 280, 105
+  offset: 30, 27
+  index: -1
+imange/lanbowen/bowen_00017
+  rotate: true
+  xy: 63, 186
+  size: 222, 59
+  orig: 280, 105
+  offset: 30, 27
+  index: -1
+imange/lanbowen/bowen_00019
+  rotate: true
+  xy: 2, 408
+  size: 224, 59
+  orig: 280, 105
+  offset: 29, 27
+  index: -1
+imange/lanbowen/bowen_00021
+  rotate: true
+  xy: 2, 182
+  size: 224, 59
+  orig: 280, 105
+  offset: 30, 27
+  index: -1
+imange/lanbowen/bowen_00023
+  rotate: false
+  xy: 701, 952
+  size: 225, 60
+  orig: 280, 105
+  offset: 30, 27
+  index: -1
+imange/waikuo/waikuo_00000
+  rotate: false
+  xy: 229, 732
+  size: 141, 46
+  orig: 280, 105
+  offset: 67, 36
+  index: -1
+imange/waikuo/waikuo_00002
+  rotate: false
+  xy: 230, 780
+  size: 151, 49
+  orig: 280, 105
+  offset: 62, 34
+  index: -1
+imange/waikuo/waikuo_00004
+  rotate: false
+  xy: 230, 831
+  size: 166, 54
+  orig: 280, 105
+  offset: 55, 31
+  index: -1
+imange/waikuo/waikuo_00006
+  rotate: true
+  xy: 2, 2
+  size: 178, 55
+  orig: 280, 105
+  offset: 52, 30
+  index: -1
+imange/waikuo/waikuo_00008
+  rotate: false
+  xy: 657, 889
+  size: 196, 61
+  orig: 280, 105
+  offset: 41, 27
+  index: -1
+imange/waikuo/waikuo_00010
+  rotate: false
+  xy: 453, 885
+  size: 202, 65
+  orig: 280, 105
+  offset: 36, 25
+  index: -1
+imange/waikuo/waikuo_00012
+  rotate: true
+  xy: 195, 210
+  size: 209, 68
+  orig: 280, 105
+  offset: 34, 23
+  index: -1
+imange/waikuo/waikuo_00014
+  rotate: true
+  xy: 124, 207
+  size: 211, 69
+  orig: 280, 105
+  offset: 33, 22
+  index: -1
+imange/waikuo/waikuo_00016
+  rotate: true
+  xy: 124, 420
+  size: 212, 69
+  orig: 280, 105
+  offset: 32, 22
+  index: -1
+imange/waikuo/waikuo_00018
+  rotate: true
+  xy: 195, 421
+  size: 211, 69
+  orig: 280, 105
+  offset: 33, 22
+  index: -1
+imange/waikuo/waikuo_00020
+  rotate: false
+  xy: 246, 887
+  size: 205, 63
+  orig: 280, 105
+  offset: 35, 25
+  index: -1
+imange/waikuo/waikuo_00022
+  rotate: false
+  xy: 227, 679
+  size: 132, 51
+  orig: 280, 105
+  offset: 72, 31
+  index: -1

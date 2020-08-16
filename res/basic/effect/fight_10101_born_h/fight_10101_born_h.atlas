@@ -1,0 +1,258 @@
+
+fight_10101_born_h.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/born/chuchangheidong/chuchangheidong_00014
+  rotate: false
+  xy: 191, 329
+  size: 37, 36
+  orig: 52, 52
+  offset: 7, 8
+  index: -1
+effects/born/dishang/dishang_00010
+  rotate: false
+  xy: 446, 488
+  size: 61, 19
+  orig: 61, 19
+  offset: 0, 0
+  index: -1
+effects/born/dishang/dishang_00014
+  rotate: false
+  xy: 446, 467
+  size: 61, 19
+  orig: 61, 19
+  offset: 0, 0
+  index: -1
+effects/born/dishang/dishang_00018
+  rotate: false
+  xy: 54, 119
+  size: 61, 19
+  orig: 61, 19
+  offset: 0, 0
+  index: -1
+effects/born/dishang/dishang_00022
+  rotate: false
+  xy: 48, 98
+  size: 61, 19
+  orig: 61, 19
+  offset: 0, 0
+  index: -1
+effects/born/dishang/dishang_00026
+  rotate: false
+  xy: 48, 77
+  size: 61, 19
+  orig: 61, 19
+  offset: 0, 0
+  index: -1
+effects/born/renwulizi/renwulizi_00010
+  rotate: false
+  xy: 364, 458
+  size: 38, 49
+  orig: 46, 51
+  offset: 7, 0
+  index: -1
+effects/born/renwulizi/renwulizi_00014
+  rotate: false
+  xy: 118, 191
+  size: 40, 49
+  orig: 46, 51
+  offset: 5, 0
+  index: -1
+effects/born/renwulizi/renwulizi_00018
+  rotate: false
+  xy: 101, 140
+  size: 40, 49
+  orig: 46, 51
+  offset: 4, 0
+  index: -1
+effects/born/renwulizi/renwulizi_00022
+  rotate: false
+  xy: 54, 140
+  size: 45, 49
+  orig: 46, 51
+  offset: 1, 0
+  index: -1
+effects/born/renwulizi/renwulizi_00026
+  rotate: false
+  xy: 404, 463
+  size: 40, 44
+  orig: 46, 51
+  offset: 6, 1
+  index: -1
+effects/born/wangzuolizi/wangzuolizi_00010
+  rotate: false
+  xy: 232, 441
+  size: 48, 66
+  orig: 51, 75
+  offset: 1, 4
+  index: -1
+effects/born/wangzuolizi/wangzuolizi_00014
+  rotate: false
+  xy: 118, 295
+  size: 50, 66
+  orig: 51, 75
+  offset: 1, 4
+  index: -1
+effects/born/wangzuolizi/wangzuolizi_00018
+  rotate: false
+  xy: 181, 437
+  size: 49, 70
+  orig: 51, 75
+  offset: 1, 4
+  index: -1
+effects/born/wangzuolizi/wangzuolizi_00022
+  rotate: false
+  xy: 2, 121
+  size: 50, 68
+  orig: 51, 75
+  offset: 1, 4
+  index: -1
+effects/born/wangzuolizi/wangzuolizi_00026
+  rotate: false
+  xy: 181, 367
+  size: 48, 68
+  orig: 51, 75
+  offset: 1, 4
+  index: -1
+effects/born/wangzuolizi2/wangzuolizi_00010
+  rotate: false
+  xy: 282, 456
+  size: 39, 51
+  orig: 45, 54
+  offset: 3, 0
+  index: -1
+effects/born/wangzuolizi2/wangzuolizi_00014
+  rotate: false
+  xy: 323, 457
+  size: 39, 50
+  orig: 45, 54
+  offset: 3, 0
+  index: -1
+effects/born/wangzuolizi2/wangzuolizi_00018
+  rotate: false
+  xy: 2, 16
+  size: 40, 50
+  orig: 45, 54
+  offset: 3, 0
+  index: -1
+effects/born/wangzuolizi2/wangzuolizi_00022
+  rotate: false
+  xy: 118, 242
+  size: 42, 51
+  orig: 45, 54
+  offset: 2, 0
+  index: -1
+effects/born/wangzuolizi2/wangzuolizi_00026
+  rotate: false
+  xy: 2, 68
+  size: 44, 51
+  orig: 45, 54
+  offset: 0, 0
+  index: -1
+effects/skilld_fazhenzhuang/skilld_fazhenzhuang_00001
+  rotate: false
+  xy: 2, 4
+  size: 29, 10
+  orig: 57, 22
+  offset: 14, 6
+  index: -1
+effects/skilld_fazhenzhuang/skilld_fazhenzhuang_00003
+  rotate: true
+  xy: 170, 304
+  size: 57, 19
+  orig: 57, 22
+  offset: 0, 1
+  index: -1
+effects/skilld_fazhenzhuang/skilld_fazhenzhuang_00005
+  rotate: true
+  xy: 143, 136
+  size: 53, 18
+  orig: 57, 22
+  offset: 2, 2
+  index: -1
+effects/skilld_fazhenzhuang/skilld_fazhenzhuang_00007
+  rotate: false
+  xy: 48, 57
+  size: 53, 18
+  orig: 57, 22
+  offset: 2, 2
+  index: -1
+effects/skilld_fazhenzhuang/skilld_fazhenzhuang_00009
+  rotate: false
+  xy: 44, 37
+  size: 53, 18
+  orig: 57, 22
+  offset: 2, 2
+  index: -1
+effects/skilld_fazhenzhuang/skilld_fazhenzhuang_00011
+  rotate: false
+  xy: 44, 17
+  size: 53, 18
+  orig: 57, 22
+  offset: 2, 2
+  index: -1
+effects/skilld_fazhenzhuang/skilld_fazhenzhuang_00013
+  rotate: true
+  xy: 162, 240
+  size: 53, 18
+  orig: 57, 22
+  offset: 2, 2
+  index: -1
+effects/skilld_fazhenzhuang/skilld_fazhenzhuang_00015
+  rotate: false
+  xy: 446, 447
+  size: 53, 18
+  orig: 57, 22
+  offset: 2, 2
+  index: -1
+effects/skilld_fazhenzhuang/skilld_fazhenzhuang_00017
+  rotate: false
+  xy: 191, 309
+  size: 53, 18
+  orig: 57, 22
+  offset: 2, 2
+  index: -1
+effects/skilld_fazhenzhuang/skilld_fazhenzhuang_00019
+  rotate: false
+  xy: 191, 289
+  size: 53, 18
+  orig: 57, 22
+  offset: 2, 2
+  index: -1
+effects/skilld_fazhenzhuang/skilld_fazhenzhuang_00021
+  rotate: false
+  xy: 182, 269
+  size: 53, 18
+  orig: 57, 22
+  offset: 2, 2
+  index: -1
+effects/skilld_fazhenzhuang/skilld_fazhenzhuang_00023
+  rotate: false
+  xy: 182, 249
+  size: 53, 18
+  orig: 57, 22
+  offset: 2, 2
+  index: -1
+effects/skilld_fazhenzhuang/skilld_fazhenzhuang_00025
+  rotate: false
+  xy: 182, 229
+  size: 53, 18
+  orig: 57, 22
+  offset: 2, 2
+  index: -1
+r_weapon_1
+  rotate: false
+  xy: 2, 363
+  size: 177, 144
+  orig: 177, 144
+  offset: 0, 0
+  index: -1
+wangzuo02
+  rotate: false
+  xy: 2, 191
+  size: 114, 170
+  orig: 116, 174
+  offset: 1, 2
+  index: -1

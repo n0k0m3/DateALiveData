@@ -1,0 +1,97 @@
+
+Lv_DEMGC_huo.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/huo1/huo_00000
+  rotate: false
+  xy: 2, 604
+  size: 162, 177
+  orig: 210, 196
+  offset: 12, 6
+  index: -1
+images/huo1/huo_00004
+  rotate: false
+  xy: 661, 817
+  size: 164, 176
+  orig: 210, 196
+  offset: 10, 6
+  index: -1
+images/huo1/huo_00008
+  rotate: false
+  xy: 2, 426
+  size: 163, 176
+  orig: 210, 196
+  offset: 11, 6
+  index: -1
+images/huo1/huo_00012
+  rotate: false
+  xy: 2, 251
+  size: 162, 173
+  orig: 210, 196
+  offset: 11, 7
+  index: -1
+images/huo1/huo_00016
+  rotate: false
+  xy: 492, 643
+  size: 161, 172
+  orig: 210, 196
+  offset: 12, 7
+  index: -1
+images/huo1/huo_00020
+  rotate: false
+  xy: 2, 77
+  size: 166, 172
+  orig: 210, 196
+  offset: 13, 7
+  index: -1
+images/huo1/huo_00024
+  rotate: false
+  xy: 159, 816
+  size: 166, 177
+  orig: 210, 196
+  offset: 13, 6
+  index: -1
+images/huo1/huo_00028
+  rotate: false
+  xy: 327, 817
+  size: 165, 176
+  orig: 210, 196
+  offset: 13, 6
+  index: -1
+images/huo1/huo_00032
+  rotate: false
+  xy: 494, 817
+  size: 165, 176
+  orig: 210, 196
+  offset: 13, 6
+  index: -1
+images/huo1/huo_00036
+  rotate: false
+  xy: 827, 819
+  size: 166, 174
+  orig: 210, 196
+  offset: 13, 6
+  index: -1
+images/huo1/huo_00040
+  rotate: false
+  xy: 166, 641
+  size: 161, 173
+  orig: 210, 196
+  offset: 13, 6
+  index: -1
+images/huo1/huo_00044
+  rotate: false
+  xy: 329, 642
+  size: 161, 173
+  orig: 210, 196
+  offset: 13, 6
+  index: -1
+images/texiao/glow_00000
+  rotate: false
+  xy: 2, 783
+  size: 155, 210
+  orig: 210, 210
+  offset: 36, 0
+  index: -1

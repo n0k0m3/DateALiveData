@@ -1,0 +1,69 @@
+
+effect_teamNew.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/01
+  rotate: false
+  xy: 2, 287
+  size: 130, 84
+  orig: 130, 84
+  offset: 0, 0
+  index: -1
+images/02
+  rotate: false
+  xy: 2, 126
+  size: 130, 73
+  orig: 130, 73
+  offset: 0, 0
+  index: -1
+images/03
+  rotate: false
+  xy: 134, 290
+  size: 130, 81
+  orig: 130, 81
+  offset: 0, 0
+  index: -1
+images/04
+  rotate: false
+  xy: 2, 201
+  size: 130, 84
+  orig: 130, 84
+  offset: 0, 0
+  index: -1
+images/chong
+  rotate: false
+  xy: 2, 62
+  size: 91, 62
+  orig: 91, 62
+  offset: 0, 0
+  index: -1
+images/dazhaohu
+  rotate: false
+  xy: 134, 141
+  size: 78, 66
+  orig: 78, 66
+  offset: 0, 0
+  index: -1
+images/fuhuo
+  rotate: false
+  xy: 266, 320
+  size: 104, 51
+  orig: 104, 51
+  offset: 0, 0
+  index: -1
+images/geili
+  rotate: false
+  xy: 2, 2
+  size: 82, 58
+  orig: 82, 58
+  offset: 0, 0
+  index: -1
+images/liaotiankuang
+  rotate: false
+  xy: 134, 209
+  size: 116, 79
+  orig: 116, 79
+  offset: 0, 0
+  index: -1

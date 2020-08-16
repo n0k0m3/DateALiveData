@@ -1,0 +1,167 @@
+
+effects_30301_born.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/born/shentiguang_00034
+  rotate: false
+  xy: 2, 624
+  size: 383, 397
+  orig: 385, 397
+  offset: 2, 0
+  index: -1
+effect/born/yanchen/yanchen_00034
+  rotate: false
+  xy: 161, 12
+  size: 177, 79
+  orig: 271, 140
+  offset: 91, 13
+  index: -1
+effect/born/yanchen/yanchen_00035
+  rotate: true
+  xy: 91, 29
+  size: 205, 68
+  orig: 271, 140
+  offset: 66, 13
+  index: -1
+effect/born/yanchen/yanchen_00036
+  rotate: true
+  xy: 2, 11
+  size: 223, 87
+  orig: 271, 140
+  offset: 48, 9
+  index: -1
+effect/born/yanchen/yanchen_00037
+  rotate: false
+  xy: 2, 503
+  size: 243, 119
+  orig: 271, 140
+  offset: 24, 6
+  index: -1
+effect/born/yanchen/yanchen_00038
+  rotate: false
+  xy: 387, 903
+  size: 233, 118
+  orig: 271, 140
+  offset: 18, 5
+  index: -1
+effect/born/yanchen/yanchen_00039
+  rotate: false
+  xy: 2, 376
+  size: 220, 125
+  orig: 271, 140
+  offset: 17, 7
+  index: -1
+effect/born/yanchen/yanchen_00040
+  rotate: false
+  xy: 387, 779
+  size: 221, 122
+  orig: 271, 140
+  offset: 17, 10
+  index: -1
+effect/born/yanchen/yanchen_00041
+  rotate: false
+  xy: 622, 904
+  size: 216, 117
+  orig: 271, 140
+  offset: 17, 10
+  index: -1
+effect/born/yanchen/yanchen_00042
+  rotate: false
+  xy: 340, 2
+  size: 143, 94
+  orig: 271, 140
+  offset: 20, 14
+  index: -1
+effect/born/zhakailizi/zhakailizi_00034
+  rotate: false
+  xy: 247, 503
+  size: 152, 119
+  orig: 180, 146
+  offset: 12, 27
+  index: -1
+effect/born/zhakailizi/zhakailizi_00035
+  rotate: false
+  xy: 224, 369
+  size: 171, 132
+  orig: 180, 146
+  offset: 9, 12
+  index: -1
+effect/born/zhakailizi/zhakailizi_00036
+  rotate: false
+  xy: 840, 885
+  size: 173, 136
+  orig: 180, 146
+  offset: 7, 8
+  index: -1
+effect/born/zhakailizi/zhakailizi_00037
+  rotate: false
+  xy: 2, 236
+  size: 174, 138
+  orig: 180, 146
+  offset: 6, 6
+  index: -1
+effect/born/zhakailizi/zhakailizi_00038
+  rotate: false
+  xy: 387, 637
+  size: 171, 140
+  orig: 180, 146
+  offset: 5, 4
+  index: -1
+effect/born/zhakailizi/zhakailizi_00039
+  rotate: false
+  xy: 401, 495
+  size: 170, 140
+  orig: 180, 146
+  offset: 4, 3
+  index: -1
+effect/born/zhakailizi/zhakailizi_00040
+  rotate: false
+  xy: 161, 93
+  size: 168, 139
+  orig: 180, 146
+  offset: 4, 2
+  index: -1
+effect/born/zhakailizi/zhakailizi_00041
+  rotate: false
+  xy: 397, 358
+  size: 169, 135
+  orig: 180, 146
+  offset: 4, 1
+  index: -1
+effect/born/zhakailizi/zhakailizi_00042
+  rotate: false
+  xy: 178, 234
+  size: 169, 133
+  orig: 180, 146
+  offset: 5, 0
+  index: -1
+effect/born/zhakailizi/zhakailizi_00043
+  rotate: false
+  xy: 349, 226
+  size: 168, 130
+  orig: 180, 146
+  offset: 6, 1
+  index: -1
+effect/born/zhakailizi/zhakailizi_00044
+  rotate: false
+  xy: 331, 98
+  size: 166, 126
+  orig: 180, 146
+  offset: 8, 2
+  index: -1
+effect/born/zhakailizi/zhakailizi_00045
+  rotate: true
+  xy: 519, 194
+  size: 162, 116
+  orig: 180, 146
+  offset: 10, 3
+  index: -1
+effect/born/zhakailizi/zhakailizi_00046
+  rotate: false
+  xy: 499, 87
+  size: 155, 105
+  orig: 180, 146
+  offset: 14, 6
+  index: -1

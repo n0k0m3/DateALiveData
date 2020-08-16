@@ -1,0 +1,90 @@
+
+kongtou.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+feij1
+  rotate: false
+  xy: 436, 440
+  size: 63, 59
+  orig: 63, 59
+  offset: 0, 0
+  index: -1
+feiji
+  rotate: false
+  xy: 2, 369
+  size: 338, 130
+  orig: 338, 130
+  offset: 0, 0
+  index: -1
+weibu1/weibu1_00020
+  rotate: false
+  xy: 182, 151
+  size: 78, 95
+  orig: 150, 150
+  offset: 36, 34
+  index: -1
+weibu1/weibu1_00021
+  rotate: false
+  xy: 96, 130
+  size: 84, 116
+  orig: 150, 150
+  offset: 33, 15
+  index: -1
+weibu1/weibu1_00022
+  rotate: false
+  xy: 2, 244
+  size: 92, 123
+  orig: 150, 150
+  offset: 29, 9
+  index: -1
+weibu1/weibu1_00023
+  rotate: false
+  xy: 342, 378
+  size: 92, 121
+  orig: 150, 150
+  offset: 29, 11
+  index: -1
+weibu1/weibu1_00024
+  rotate: false
+  xy: 191, 255
+  size: 85, 112
+  orig: 150, 150
+  offset: 32, 19
+  index: -1
+weibu1/weibu1_00025
+  rotate: false
+  xy: 365, 277
+  size: 78, 99
+  orig: 150, 150
+  offset: 36, 30
+  index: -1
+weibu1/weibu1_00026
+  rotate: false
+  xy: 278, 264
+  size: 85, 103
+  orig: 150, 150
+  offset: 32, 28
+  index: -1
+weibu1/weibu1_00027
+  rotate: false
+  xy: 96, 248
+  size: 93, 119
+  orig: 150, 150
+  offset: 28, 13
+  index: -1
+weibu1/weibu1_00028
+  rotate: false
+  xy: 2, 125
+  size: 92, 117
+  orig: 150, 150
+  offset: 29, 15
+  index: -1
+weibu1/weibu1_00029
+  rotate: false
+  xy: 2, 12
+  size: 85, 111
+  orig: 150, 150
+  offset: 32, 20
+  index: -1

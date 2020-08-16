@@ -1,0 +1,48 @@
+
+effects_21101_skillCyanwu.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/texiao/skillC/yanwu/yanwu_00064
+  rotate: false
+  xy: 76, 104
+  size: 40, 12
+  orig: 98, 30
+  offset: 41, 7
+  index: -1
+images/texiao/skillC/yanwu/yanwu_00066
+  rotate: true
+  xy: 2, 23
+  size: 73, 16
+  orig: 98, 30
+  offset: 8, 8
+  index: -1
+images/texiao/skillC/yanwu/yanwu_00068
+  rotate: false
+  xy: 2, 98
+  size: 72, 18
+  orig: 98, 30
+  offset: 7, 7
+  index: -1
+images/texiao/skillC/yanwu/yanwu_00070
+  rotate: true
+  xy: 20, 30
+  size: 66, 18
+  orig: 98, 30
+  offset: 10, 8
+  index: -1
+images/texiao/skillC/yanwu/yanwu_00072
+  rotate: true
+  xy: 40, 34
+  size: 62, 14
+  orig: 98, 30
+  offset: 6, 9
+  index: -1
+images/texiao/skillC/yanwu/yanwu_00073
+  rotate: true
+  xy: 56, 41
+  size: 55, 12
+  orig: 98, 30
+  offset: 6, 9
+  index: -1

@@ -1,0 +1,83 @@
+
+effects_10301_skillA2.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skilla/bd/bd_00014
+  rotate: false
+  xy: 2, 162
+  size: 91, 91
+  orig: 99, 93
+  offset: 3, 0
+  index: -1
+effects/skilla/bd/bd_00015
+  rotate: false
+  xy: 113, 118
+  size: 61, 61
+  orig: 99, 93
+  offset: 18, 15
+  index: -1
+effects/skilla/bd/bd_00017
+  rotate: false
+  xy: 176, 143
+  size: 58, 54
+  orig: 99, 93
+  offset: 20, 20
+  index: -1
+effects/skilla/bd/bd_00019
+  rotate: true
+  xy: 72, 20
+  size: 65, 61
+  orig: 99, 93
+  offset: 17, 17
+  index: -1
+effects/skilla/bd/bd_00021
+  rotate: false
+  xy: 2, 16
+  size: 68, 69
+  orig: 99, 93
+  offset: 15, 13
+  index: -1
+effects/skilla/bd/bd_00023
+  rotate: false
+  xy: 95, 181
+  size: 68, 72
+  orig: 99, 93
+  offset: 15, 11
+  index: -1
+effects/skilla/bd/bd_00025
+  rotate: false
+  xy: 2, 87
+  size: 68, 73
+  orig: 99, 93
+  offset: 15, 10
+  index: -1
+effects/skilla/bd/bd_00027
+  rotate: true
+  xy: 165, 199
+  size: 54, 74
+  orig: 99, 93
+  offset: 20, 9
+  index: -1
+effects/skilla/bd/bd_00029
+  rotate: false
+  xy: 72, 87
+  size: 39, 73
+  orig: 99, 93
+  offset: 34, 10
+  index: -1
+effects/skilla/bd/bd_00031
+  rotate: true
+  xy: 176, 108
+  size: 33, 41
+  orig: 99, 93
+  offset: 38, 41
+  index: -1
+effects/skilla/bd/bd_00033
+  rotate: false
+  xy: 2, 2
+  size: 11, 12
+  orig: 99, 93
+  offset: 39, 69
+  index: -1

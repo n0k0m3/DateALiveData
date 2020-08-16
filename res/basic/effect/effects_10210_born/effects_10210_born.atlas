@@ -1,0 +1,160 @@
+
+effects_10210_born.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/born/bao/bao_020
+  rotate: true
+  xy: 260, 143
+  size: 256, 255
+  orig: 275, 257
+  offset: 17, 2
+  index: -1
+effect/born/bao/bao_022
+  rotate: false
+  xy: 164, 401
+  size: 259, 257
+  orig: 275, 257
+  offset: 14, 0
+  index: -1
+effect/born/bao/bao_024
+  rotate: false
+  xy: 164, 660
+  size: 274, 257
+  orig: 275, 257
+  offset: 1, 0
+  index: -1
+effect/born/bao/bao_026
+  rotate: false
+  xy: 530, 808
+  size: 242, 208
+  orig: 275, 257
+  offset: 23, 15
+  index: -1
+effect/born/bao/bao_028
+  rotate: false
+  xy: 440, 605
+  size: 227, 201
+  orig: 275, 257
+  offset: 38, 18
+  index: -1
+effect/born/bao/bao_030
+  rotate: false
+  xy: 774, 812
+  size: 239, 204
+  orig: 275, 257
+  offset: 30, 20
+  index: -1
+effect/born/ci_1/ci_003
+  rotate: false
+  xy: 425, 411
+  size: 241, 32
+  orig: 546, 97
+  offset: 42, 32
+  index: -1
+effect/born/ci_1/ci_005
+  rotate: false
+  xy: 2, 919
+  size: 526, 97
+  orig: 546, 97
+  offset: 15, 0
+  index: -1
+effect/born/ci_1/ci_007
+  rotate: true
+  xy: 2, 386
+  size: 531, 77
+  orig: 546, 97
+  offset: 15, 10
+  index: -1
+effect/born/ci_1/ci_009
+  rotate: true
+  xy: 81, 386
+  size: 531, 48
+  orig: 546, 97
+  offset: 15, 24
+  index: -1
+effect/born/ci_1/ci_011
+  rotate: true
+  xy: 131, 395
+  size: 522, 31
+  orig: 546, 97
+  offset: 24, 31
+  index: -1
+effect/born/guangxian/guangxian_003
+  rotate: false
+  xy: 517, 200
+  size: 128, 51
+  orig: 134, 52
+  offset: 2, 0
+  index: -1
+effect/born/guangxian/guangxian_007
+  rotate: false
+  xy: 517, 148
+  size: 128, 50
+  orig: 134, 52
+  offset: 2, 0
+  index: -1
+effect/born/guangxian/guangxian_011
+  rotate: true
+  xy: 638, 281
+  size: 128, 49
+  orig: 134, 52
+  offset: 2, 0
+  index: -1
+effect/born/lizi/lizi_003
+  rotate: false
+  xy: 163, 31
+  size: 66, 92
+  orig: 132, 179
+  offset: 22, 81
+  index: -1
+effect/born/lizi/lizi_007
+  rotate: false
+  xy: 669, 689
+  size: 68, 117
+  orig: 132, 179
+  offset: 21, 56
+  index: -1
+effect/born/lizi/lizi_011
+  rotate: false
+  xy: 548, 445
+  size: 118, 158
+  orig: 132, 179
+  offset: 6, 13
+  index: -1
+effect/born/lizi/lizi_015
+  rotate: true
+  xy: 2, 2
+  size: 121, 159
+  orig: 132, 179
+  offset: 4, 12
+  index: -1
+effect/born/lizi/lizi_019
+  rotate: false
+  xy: 425, 445
+  size: 121, 158
+  orig: 132, 179
+  offset: 4, 12
+  index: -1
+effect/born/lizi/lizi_023
+  rotate: false
+  xy: 517, 253
+  size: 119, 156
+  orig: 132, 179
+  offset: 5, 13
+  index: -1
+effect/extra_skillB/quan2_101
+  rotate: true
+  xy: 2, 125
+  size: 259, 256
+  orig: 275, 257
+  offset: 11, 1
+  index: -1
+effect/glow
+  rotate: false
+  xy: 440, 837
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,237 @@
+
+effects_11401_skillG.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/born/boom/boom_00002
+  rotate: false
+  xy: 920, 924
+  size: 89, 98
+  orig: 252, 182
+  offset: 88, 7
+  index: -1
+effects/born/boom/boom_00005
+  rotate: false
+  xy: 856, 539
+  size: 113, 125
+  orig: 252, 182
+  offset: 68, 20
+  index: -1
+effects/born/boom/boom_00007
+  rotate: true
+  xy: 2, 4
+  size: 138, 148
+  orig: 252, 182
+  offset: 44, 10
+  index: -1
+effects/born/boom/boom_00009
+  rotate: true
+  xy: 2, 144
+  size: 200, 159
+  orig: 252, 182
+  offset: 23, 3
+  index: -1
+effects/born/boom/boom_00011
+  rotate: false
+  xy: 498, 850
+  size: 225, 172
+  orig: 252, 182
+  offset: 10, 1
+  index: -1
+effects/born/boom/boom_00013
+  rotate: false
+  xy: 2, 847
+  size: 242, 175
+  orig: 252, 182
+  offset: 1, 0
+  index: -1
+effects/born/boom/boom_00015
+  rotate: true
+  xy: 2, 598
+  size: 247, 167
+  orig: 252, 182
+  offset: 1, 7
+  index: -1
+effects/born/boom/boom_00017
+  rotate: false
+  xy: 246, 858
+  size: 250, 164
+  orig: 252, 182
+  offset: 0, 0
+  index: -1
+effects/born/boom/boom_00019
+  rotate: true
+  xy: 2, 346
+  size: 250, 160
+  orig: 252, 182
+  offset: 0, 3
+  index: -1
+effects/born/boom/boom_00021
+  rotate: false
+  xy: 163, 165
+  size: 204, 155
+  orig: 252, 182
+  offset: 29, 4
+  index: -1
+effects/born/guangci_00000
+  rotate: false
+  xy: 578, 13
+  size: 116, 112
+  orig: 140, 140
+  offset: 15, 13
+  index: -1
+effects/glow_000
+  rotate: false
+  xy: 920, 852
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+effects/skillG/baoqi/baoqi_00000
+  rotate: true
+  xy: 164, 359
+  size: 237, 108
+  orig: 245, 126
+  offset: 6, 8
+  index: -1
+effects/skillG/baoqi/baoqi_00002
+  rotate: true
+  xy: 171, 603
+  size: 242, 111
+  orig: 245, 126
+  offset: 3, 9
+  index: -1
+effects/skillG/baoqi/baoqi_00004
+  rotate: false
+  xy: 369, 196
+  size: 233, 111
+  orig: 245, 126
+  offset: 7, 8
+  index: -1
+effects/skillG/baoqi/baoqi_00006
+  rotate: false
+  xy: 369, 127
+  size: 235, 67
+  orig: 245, 126
+  offset: 7, 17
+  index: -1
+effects/skillG/baoqi/baoqi_00007
+  rotate: false
+  xy: 341, 62
+  size: 235, 63
+  orig: 245, 126
+  offset: 7, 20
+  index: -1
+effects/skillG/buff/buff_00000
+  rotate: false
+  xy: 651, 311
+  size: 185, 175
+  orig: 210, 210
+  offset: 14, 8
+  index: -1
+effects/skillG/buff/buff_00002
+  rotate: false
+  xy: 463, 309
+  size: 186, 179
+  orig: 210, 210
+  offset: 13, 6
+  index: -1
+effects/skillG/buff/buff_00004
+  rotate: false
+  xy: 667, 488
+  size: 187, 176
+  orig: 210, 210
+  offset: 14, 8
+  index: -1
+effects/skillG/buff/buff_00006
+  rotate: false
+  xy: 274, 322
+  size: 187, 171
+  orig: 210, 210
+  offset: 14, 8
+  index: -1
+effects/skillG/buff/buff_00008
+  rotate: false
+  xy: 477, 672
+  size: 192, 176
+  orig: 210, 210
+  offset: 9, 3
+  index: -1
+effects/skillG/buff/buff_00010
+  rotate: false
+  xy: 725, 847
+  size: 193, 175
+  orig: 210, 210
+  offset: 8, 4
+  index: -1
+effects/skillG/buff/buff_00012
+  rotate: false
+  xy: 671, 666
+  size: 191, 179
+  orig: 210, 210
+  offset: 11, 6
+  index: -1
+effects/skillG/buff/buff_00014
+  rotate: false
+  xy: 284, 676
+  size: 191, 180
+  orig: 210, 210
+  offset: 12, 4
+  index: -1
+effects/skillG/buff/buff_00016
+  rotate: false
+  xy: 284, 495
+  size: 190, 179
+  orig: 210, 210
+  offset: 12, 4
+  index: -1
+effects/skillG/buff/buff_00018
+  rotate: false
+  xy: 476, 490
+  size: 189, 180
+  orig: 210, 210
+  offset: 12, 4
+  index: -1
+effects/skillG/buff/buff_00020
+  rotate: true
+  xy: 838, 305
+  size: 181, 174
+  orig: 210, 210
+  offset: 17, 9
+  index: -1
+effects/skillG/buff/buff_00022
+  rotate: false
+  xy: 651, 134
+  size: 181, 175
+  orig: 210, 210
+  offset: 17, 9
+  index: -1
+effects/skillG/buff/buff_00024
+  rotate: false
+  xy: 163, 2
+  size: 176, 161
+  orig: 210, 210
+  offset: 21, 13
+  index: -1
+effects/skillG/buff/buff_00026
+  rotate: true
+  xy: 864, 673
+  size: 172, 155
+  orig: 210, 210
+  offset: 24, 22
+  index: -1
+effects/skillG/buff/buff_00028
+  rotate: false
+  xy: 834, 154
+  size: 163, 149
+  orig: 210, 210
+  offset: 26, 28
+  index: -1
+effects/skillG/buff/buff_00030
+  rotate: false
+  xy: 834, 17
+  size: 147, 135
+  orig: 210, 210
+  offset: 32, 37
+  index: -1

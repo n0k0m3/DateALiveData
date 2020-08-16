@@ -1,0 +1,132 @@
+
+effects_12301_skillG.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_L/skillG/boom/boom_007
+  rotate: false
+  xy: 529, 259
+  size: 242, 248
+  orig: 277, 263
+  offset: 15, 8
+  index: -1
+images/effects_L/skillG/boom/boom_009
+  rotate: true
+  xy: 554, 509
+  size: 245, 249
+  orig: 277, 263
+  offset: 15, 8
+  index: -1
+images/effects_L/skillG/boom/boom_011
+  rotate: true
+  xy: 271, 225
+  size: 260, 256
+  orig: 277, 263
+  offset: 9, 7
+  index: -1
+images/effects_L/skillG/boom/boom_013
+  rotate: false
+  xy: 2, 226
+  size: 267, 259
+  orig: 277, 263
+  offset: 5, 4
+  index: -1
+images/effects_L/skillG/boom/boom_015
+  rotate: false
+  xy: 2, 487
+  size: 273, 262
+  orig: 277, 263
+  offset: 1, 1
+  index: -1
+images/effects_L/skillG/boom/boom_017
+  rotate: false
+  xy: 2, 751
+  size: 275, 262
+  orig: 277, 263
+  offset: 1, 1
+  index: -1
+images/effects_L/skillG/boom/boom_019
+  rotate: false
+  xy: 279, 752
+  size: 273, 261
+  orig: 277, 263
+  offset: 3, 2
+  index: -1
+images/effects_L/skillG/boom/boom_021
+  rotate: false
+  xy: 554, 756
+  size: 268, 257
+  orig: 277, 263
+  offset: 5, 6
+  index: -1
+images/effects_L/skillG/boom/boom_023
+  rotate: false
+  xy: 533, 19
+  size: 247, 238
+  orig: 277, 263
+  offset: 18, 19
+  index: -1
+images/effects_L/skillG/boom/boom_025
+  rotate: false
+  xy: 824, 726
+  size: 189, 129
+  orig: 277, 263
+  offset: 30, 72
+  index: -1
+images/effects_L/skillG/xunhuan/xunhuan_007
+  rotate: false
+  xy: 805, 433
+  size: 185, 135
+  orig: 208, 187
+  offset: 11, 11
+  index: -1
+images/effects_L/skillG/xunhuan/xunhuan_011
+  rotate: true
+  xy: 380, 41
+  size: 182, 151
+  orig: 208, 187
+  offset: 12, 13
+  index: -1
+images/effects_L/skillG/xunhuan/xunhuan_015
+  rotate: false
+  xy: 805, 570
+  size: 183, 154
+  orig: 208, 187
+  offset: 12, 12
+  index: -1
+images/effects_L/skillG/xunhuan/xunhuan_019
+  rotate: false
+  xy: 2, 65
+  size: 186, 159
+  orig: 208, 187
+  offset: 12, 11
+  index: -1
+images/effects_L/skillG/xunhuan/xunhuan_023
+  rotate: false
+  xy: 824, 857
+  size: 188, 156
+  orig: 208, 187
+  offset: 11, 12
+  index: -1
+images/effects_L/skillG/xunhuan/xunhuan_027
+  rotate: false
+  xy: 190, 69
+  size: 188, 154
+  orig: 208, 187
+  offset: 11, 11
+  index: -1
+images/effects_L/skillG/xunhuan/xunhuan_031
+  rotate: false
+  xy: 773, 290
+  size: 188, 141
+  orig: 208, 187
+  offset: 11, 10
+  index: -1
+images/effects_L/skillG/xunhuan/xunhuan_035
+  rotate: true
+  xy: 782, 100
+  size: 188, 135
+  orig: 208, 187
+  offset: 11, 11
+  index: -1

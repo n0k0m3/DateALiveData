@@ -1,0 +1,446 @@
+
+effects_10102_DC.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Effects/chuchang/baoyumao/baoyumao_000
+  rotate: false
+  xy: 483, 172
+  size: 164, 164
+  orig: 180, 180
+  offset: 8, 8
+  index: -1
+Effects/chuchang/baoyumao/baoyumao_010
+  rotate: true
+  xy: 491, 503
+  size: 180, 167
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+Effects/chuchang/baoyumao/baoyumao_012
+  rotate: true
+  xy: 664, 52
+  size: 180, 157
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+Effects/chuchang/baoyumao/baoyumao_014
+  rotate: false
+  xy: 467, 338
+  size: 180, 163
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+Effects/chuchang/baoyumao/baoyumao_016
+  rotate: false
+  xy: 823, 154
+  size: 175, 165
+  orig: 180, 180
+  offset: 5, 0
+  index: -1
+Effects/chuchang/baoyumao/baoyumao_018
+  rotate: true
+  xy: 497, 3
+  size: 167, 165
+  orig: 180, 180
+  offset: 5, 4
+  index: -1
+Effects/chuchang/baoyumao/baoyumao_020
+  rotate: true
+  xy: 867, 499
+  size: 158, 155
+  orig: 180, 180
+  offset: 0, 11
+  index: -1
+Effects/chuchang/caihuan/caihuan_000
+  rotate: false
+  xy: 2, 341
+  size: 301, 167
+  orig: 360, 180
+  offset: 31, 2
+  index: -1
+Effects/chuchang/caihuan/caihuan_002
+  rotate: false
+  xy: 306, 854
+  size: 301, 168
+  orig: 360, 180
+  offset: 32, 2
+  index: -1
+Effects/chuchang/caihuan/caihuan_004
+  rotate: false
+  xy: 2, 172
+  size: 301, 167
+  orig: 360, 180
+  offset: 31, 2
+  index: -1
+Effects/chuchang/caihuan/caihuan_006
+  rotate: false
+  xy: 2, 510
+  size: 301, 168
+  orig: 360, 180
+  offset: 31, 2
+  index: -1
+Effects/chuchang/caihuan/caihuan_008
+  rotate: false
+  xy: 2, 852
+  size: 302, 170
+  orig: 360, 180
+  offset: 30, 0
+  index: -1
+Effects/chuchang/caihuan/caihuan_010
+  rotate: false
+  xy: 609, 855
+  size: 302, 167
+  orig: 360, 180
+  offset: 30, 2
+  index: -1
+Effects/chuchang/caihuan/caihuan_012
+  rotate: false
+  xy: 306, 685
+  size: 301, 167
+  orig: 360, 180
+  offset: 31, 2
+  index: -1
+Effects/chuchang/caihuan/caihuan_014
+  rotate: false
+  xy: 609, 686
+  size: 300, 167
+  orig: 360, 180
+  offset: 31, 2
+  index: -1
+Effects/chuchang/caihuan/caihuan_016
+  rotate: false
+  xy: 2, 2
+  size: 300, 168
+  orig: 360, 180
+  offset: 31, 2
+  index: -1
+Effects/chuchang/caihuan/caihuan_018
+  rotate: false
+  xy: 2, 680
+  size: 301, 170
+  orig: 360, 180
+  offset: 31, 0
+  index: -1
+Effects/chuchang/dibo/dibo_000
+  rotate: false
+  xy: 664, 13
+  size: 105, 37
+  orig: 210, 90
+  offset: 52, 32
+  index: -1
+Effects/chuchang/dibo/dibo_010
+  rotate: true
+  xy: 911, 659
+  size: 188, 68
+  orig: 210, 90
+  offset: 11, 10
+  index: -1
+Effects/chuchang/luoguang/luoguang_003
+  rotate: false
+  xy: 867, 321
+  size: 131, 176
+  orig: 240, 180
+  offset: 44, 2
+  index: -1
+Effects/chuchang/luoguang/luoguang_005
+  rotate: true
+  xy: 305, 175
+  size: 136, 176
+  orig: 240, 180
+  offset: 43, 2
+  index: -1
+Effects/chuchang/luoguang/luoguang_009
+  rotate: false
+  xy: 649, 234
+  size: 170, 173
+  orig: 240, 180
+  offset: 23, 2
+  index: -1
+Effects/chuchang/luoguang/luoguang_011
+  rotate: false
+  xy: 305, 511
+  size: 184, 172
+  orig: 240, 180
+  offset: 19, 2
+  index: -1
+Effects/chuchang/luoguang/luoguang_013
+  rotate: false
+  xy: 304, 2
+  size: 191, 168
+  orig: 240, 180
+  offset: 19, 2
+  index: -1
+Effects/chuchang/luoguang/luoguang_015
+  rotate: true
+  xy: 305, 313
+  size: 196, 160
+  orig: 240, 180
+  offset: 14, 2
+  index: -1
+Effects/chuchang/luoguang/luoguang_017
+  rotate: false
+  xy: 660, 538
+  size: 200, 146
+  orig: 240, 180
+  offset: 10, 2
+  index: -1
+Effects/chuchang/luoguang/luoguang_019
+  rotate: false
+  xy: 660, 409
+  size: 205, 127
+  orig: 240, 180
+  offset: 4, 10
+  index: -1
+Effects/chuchang/luoguang/luoguang_021
+  rotate: false
+  xy: 823, 33
+  size: 182, 119
+  orig: 240, 180
+  offset: 23, 5
+  index: -1
+Effects/guangxian_000
+  rotate: true
+  xy: 913, 849
+  size: 173, 89
+  orig: 180, 90
+  offset: 4, 1
+  index: -1
+
+effects_10102_DC2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Effects/bai_000
+  rotate: false
+  xy: 163, 791
+  size: 130, 60
+  orig: 130, 60
+  offset: 0, 0
+  index: -1
+Effects/chuchang/baoyumao/baoyumao_002
+  rotate: false
+  xy: 334, 853
+  size: 164, 164
+  orig: 180, 180
+  offset: 8, 8
+  index: -1
+Effects/chuchang/baoyumao/baoyumao_004
+  rotate: false
+  xy: 2, 670
+  size: 158, 169
+  orig: 180, 180
+  offset: 11, 0
+  index: -1
+Effects/chuchang/baoyumao/baoyumao_006
+  rotate: false
+  xy: 500, 860
+  size: 165, 157
+  orig: 180, 180
+  offset: 5, 0
+  index: -1
+Effects/chuchang/baoyumao/baoyumao_008
+  rotate: false
+  xy: 163, 853
+  size: 169, 164
+  orig: 180, 180
+  offset: 8, 0
+  index: -1
+Effects/chuchang/dibo/dibo_002
+  rotate: false
+  xy: 855, 960
+  size: 162, 57
+  orig: 210, 90
+  offset: 25, 18
+  index: -1
+Effects/chuchang/dibo/dibo_004
+  rotate: false
+  xy: 667, 818
+  size: 171, 61
+  orig: 210, 90
+  offset: 19, 15
+  index: -1
+Effects/chuchang/dibo/dibo_006
+  rotate: true
+  xy: 2, 115
+  size: 177, 64
+  orig: 210, 90
+  offset: 17, 13
+  index: -1
+Effects/chuchang/dibo/dibo_008
+  rotate: true
+  xy: 2, 294
+  size: 186, 66
+  orig: 210, 90
+  offset: 12, 11
+  index: -1
+Effects/chuchang/dibo/dibo_012
+  rotate: true
+  xy: 140, 492
+  size: 176, 62
+  orig: 210, 90
+  offset: 18, 14
+  index: -1
+Effects/chuchang/dibo/dibo_014
+  rotate: false
+  xy: 667, 881
+  size: 181, 66
+  orig: 210, 90
+  offset: 15, 11
+  index: -1
+Effects/chuchang/dibo/dibo_016
+  rotate: true
+  xy: 72, 484
+  size: 184, 66
+  orig: 210, 90
+  offset: 13, 11
+  index: -1
+Effects/chuchang/dibo/dibo_018
+  rotate: true
+  xy: 2, 482
+  size: 186, 68
+  orig: 210, 90
+  offset: 12, 10
+  index: -1
+Effects/chuchang/dibo/dibo_020
+  rotate: false
+  xy: 667, 949
+  size: 186, 68
+  orig: 210, 90
+  offset: 12, 10
+  index: -1
+Effects/chuchang/huan1/huan1_001
+  rotate: false
+  xy: 424, 635
+  size: 106, 106
+  orig: 120, 120
+  offset: 7, 7
+  index: -1
+Effects/chuchang/huan1/huan1_003
+  rotate: false
+  xy: 424, 527
+  size: 106, 106
+  orig: 120, 120
+  offset: 7, 7
+  index: -1
+Effects/chuchang/huan1/huan1_005
+  rotate: false
+  xy: 532, 642
+  size: 106, 106
+  orig: 120, 120
+  offset: 7, 7
+  index: -1
+Effects/chuchang/huan1/huan1_007
+  rotate: false
+  xy: 532, 534
+  size: 106, 106
+  orig: 120, 120
+  offset: 7, 7
+  index: -1
+Effects/chuchang/huan2/huan2_001
+  rotate: false
+  xy: 748, 712
+  size: 104, 104
+  orig: 120, 120
+  offset: 8, 8
+  index: -1
+Effects/chuchang/huan2/huan2_003
+  rotate: false
+  xy: 314, 415
+  size: 106, 106
+  orig: 120, 120
+  offset: 7, 7
+  index: -1
+Effects/chuchang/huan2/huan2_005
+  rotate: false
+  xy: 640, 710
+  size: 106, 106
+  orig: 120, 120
+  offset: 7, 7
+  index: -1
+Effects/chuchang/huan2/huan2_007
+  rotate: false
+  xy: 640, 602
+  size: 106, 106
+  orig: 120, 120
+  offset: 7, 7
+  index: -1
+Effects/chuchang/huan3/huan3_001
+  rotate: false
+  xy: 2, 5
+  size: 108, 108
+  orig: 120, 120
+  offset: 6, 6
+  index: -1
+Effects/chuchang/huan3/huan3_003
+  rotate: false
+  xy: 204, 577
+  size: 108, 108
+  orig: 120, 120
+  offset: 6, 6
+  index: -1
+Effects/chuchang/huan3/huan3_005
+  rotate: false
+  xy: 204, 467
+  size: 108, 108
+  orig: 120, 120
+  offset: 6, 6
+  index: -1
+Effects/chuchang/huan3/huan3_007
+  rotate: false
+  xy: 295, 743
+  size: 108, 108
+  orig: 120, 120
+  offset: 6, 6
+  index: -1
+Effects/chuchang/huan4/huan4_001
+  rotate: false
+  xy: 405, 743
+  size: 108, 108
+  orig: 120, 120
+  offset: 6, 6
+  index: -1
+Effects/chuchang/huan4/huan4_003
+  rotate: false
+  xy: 515, 750
+  size: 108, 108
+  orig: 120, 120
+  offset: 6, 6
+  index: -1
+Effects/chuchang/huan4/huan4_005
+  rotate: false
+  xy: 314, 633
+  size: 108, 108
+  orig: 120, 120
+  offset: 6, 6
+  index: -1
+Effects/chuchang/huan4/huan4_007
+  rotate: false
+  xy: 314, 523
+  size: 108, 108
+  orig: 120, 120
+  offset: 6, 6
+  index: -1
+Effects/chuchang/luoguang/luoguang_001
+  rotate: true
+  xy: 162, 687
+  size: 102, 122
+  orig: 240, 180
+  offset: 70, 56
+  index: -1
+Effects/chuchang/luoguang/luoguang_007
+  rotate: false
+  xy: 2, 841
+  size: 159, 176
+  orig: 240, 180
+  offset: 32, 2
+  index: -1
+Effects/glow_000
+  rotate: false
+  xy: 640, 542
+  size: 58, 58
+  orig: 60, 60
+  offset: 1, 1
+  index: -1

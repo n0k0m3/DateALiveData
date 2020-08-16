@@ -1,0 +1,201 @@
+
+ciyuan.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fenglow
+  rotate: true
+  xy: 982, 827
+  size: 49, 34
+  orig: 50, 34
+  offset: 0, 0
+  index: -1
+qiu
+  rotate: false
+  xy: 2, 778
+  size: 416, 244
+  orig: 416, 244
+  offset: 0, 0
+  index: -1
+shandian/shandian_00000
+  rotate: true
+  xy: 309, 7
+  size: 316, 351
+  orig: 500, 500
+  offset: 66, 90
+  index: -1
+shandian/shandian_00003
+  rotate: true
+  xy: 816, 764
+  size: 112, 164
+  orig: 500, 500
+  offset: 128, 145
+  index: -1
+shandian/shandian_00006
+  rotate: true
+  xy: 816, 666
+  size: 96, 137
+  orig: 500, 500
+  offset: 123, 153
+  index: -1
+shandian/shandian_00008
+  rotate: false
+  xy: 420, 704
+  size: 394, 318
+  orig: 500, 500
+  offset: 36, 101
+  index: -1
+shandian/shandian_00010
+  rotate: true
+  xy: 955, 701
+  size: 61, 65
+  orig: 500, 500
+  offset: 124, 189
+  index: -1
+shandian/shandian_00012
+  rotate: false
+  xy: 2, 474
+  size: 394, 302
+  orig: 500, 500
+  offset: 38, 105
+  index: -1
+shandian/shandian_00014
+  rotate: true
+  xy: 662, 12
+  size: 373, 287
+  orig: 500, 500
+  offset: 58, 109
+  index: -1
+shandian/shandian_00016
+  rotate: true
+  xy: 781, 437
+  size: 227, 232
+  orig: 500, 500
+  offset: 121, 121
+  index: -1
+shandian/shandian_00018
+  rotate: true
+  xy: 2, 4
+  size: 381, 305
+  orig: 500, 500
+  offset: 58, 123
+  index: -1
+shandian/shandian_00022
+  rotate: true
+  xy: 816, 878
+  size: 144, 189
+  orig: 500, 500
+  offset: 163, 159
+  index: -1
+shandian/shandian_00024
+  rotate: false
+  xy: 398, 387
+  size: 381, 315
+  orig: 500, 500
+  offset: 44, 107
+  index: -1
+weibu/weibu_00020
+  rotate: false
+  xy: 951, 83
+  size: 69, 86
+  orig: 100, 100
+  offset: 15, 9
+  index: -1
+weibu/weibu_00021
+  rotate: false
+  xy: 951, 171
+  size: 70, 86
+  orig: 100, 100
+  offset: 15, 9
+  index: -1
+weibu/weibu_00022
+  rotate: false
+  xy: 951, 347
+  size: 71, 88
+  orig: 100, 100
+  offset: 14, 7
+  index: -1
+weibu/weibu_00024
+  rotate: false
+  xy: 951, 259
+  size: 71, 86
+  orig: 100, 100
+  offset: 13, 9
+  index: -1
+weibu/weibu_00025
+  rotate: false
+  xy: 76, 390
+  size: 71, 82
+  orig: 100, 100
+  offset: 13, 13
+  index: -1
+weibu/weibu_00026
+  rotate: true
+  xy: 309, 325
+  size: 72, 87
+  orig: 100, 100
+  offset: 13, 8
+  index: -1
+weibu/weibu_00027
+  rotate: false
+  xy: 2, 387
+  size: 72, 85
+  orig: 100, 100
+  offset: 13, 10
+  index: -1
+weibu/weibu_00028
+  rotate: true
+  xy: 309, 399
+  size: 73, 87
+  orig: 100, 100
+  offset: 13, 8
+  index: -1
+weibu/weibu_00029
+  rotate: false
+  xy: 149, 390
+  size: 71, 82
+  orig: 100, 100
+  offset: 13, 13
+  index: -1
+
+ciyuan2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shandian/shandian_00004
+  rotate: false
+  xy: 2, 590
+  size: 326, 340
+  orig: 500, 500
+  offset: 45, 88
+  index: -1
+shandian/shandian_00020
+  rotate: false
+  xy: 2, 2
+  size: 258, 243
+  orig: 500, 500
+  offset: 107, 125
+  index: -1
+shandian/shandian_00026
+  rotate: true
+  xy: 2, 247
+  size: 341, 314
+  orig: 500, 500
+  offset: 56, 105
+  index: -1
+shandian/shandian_00028
+  rotate: false
+  xy: 330, 683
+  size: 262, 247
+  orig: 500, 500
+  offset: 103, 122
+  index: -1
+weibu/weibu_00023
+  rotate: false
+  xy: 330, 595
+  size: 72, 86
+  orig: 100, 100
+  offset: 13, 9
+  index: -1

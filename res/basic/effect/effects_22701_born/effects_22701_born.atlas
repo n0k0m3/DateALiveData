@@ -1,0 +1,376 @@
+
+effects_22701_born.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eff/born/add/bao_00000
+  rotate: false
+  xy: 779, 639
+  size: 234, 184
+  orig: 262, 199
+  offset: 18, 7
+  index: -1
+eff/born/add/bao_00001
+  rotate: true
+  xy: 510, 227
+  size: 242, 187
+  orig: 262, 199
+  offset: 13, 5
+  index: -1
+eff/born/add/bao_00002
+  rotate: false
+  xy: 480, 471
+  size: 254, 193
+  orig: 262, 199
+  offset: 5, 2
+  index: -1
+eff/born/add/bao_00003
+  rotate: false
+  xy: 719, 825
+  size: 253, 197
+  orig: 262, 199
+  offset: 6, 0
+  index: -1
+eff/born/add/bao_00004
+  rotate: false
+  xy: 736, 459
+  size: 244, 178
+  orig: 262, 199
+  offset: 6, 19
+  index: -1
+eff/born/add/dian2_00017
+  rotate: true
+  xy: 707, 116
+  size: 132, 192
+  orig: 150, 192
+  offset: 2, 0
+  index: -1
+eff/born/add/dian2_00031
+  rotate: false
+  xy: 387, 4
+  size: 86, 93
+  orig: 150, 192
+  offset: 16, 99
+  index: -1
+eff/born/add/dian_00000
+  rotate: false
+  xy: 2, 678
+  size: 158, 344
+  orig: 158, 346
+  offset: 0, 2
+  index: -1
+eff/born/add/dian_00001
+  rotate: true
+  xy: 162, 235
+  size: 141, 346
+  orig: 158, 346
+  offset: 11, 0
+  index: -1
+eff/born/add/dian_00002
+  rotate: false
+  xy: 2, 332
+  size: 158, 344
+  orig: 158, 346
+  offset: 0, 0
+  index: -1
+eff/born/add/dian_00003
+  rotate: true
+  xy: 155, 99
+  size: 134, 342
+  orig: 158, 346
+  offset: 14, 3
+  index: -1
+eff/born/add/dian_00004
+  rotate: true
+  xy: 442, 666
+  size: 141, 335
+  orig: 158, 346
+  offset: 0, 1
+  index: -1
+eff/born/add/dian_00006
+  rotate: false
+  xy: 2, 55
+  size: 151, 275
+  orig: 158, 346
+  offset: 0, 0
+  index: -1
+eff/born/add/dian_00008
+  rotate: true
+  xy: 499, 81
+  size: 144, 206
+  orig: 158, 346
+  offset: 4, 0
+  index: -1
+eff/born/nor/bao_00002
+  rotate: false
+  xy: 699, 250
+  size: 207, 207
+  orig: 278, 232
+  offset: 55, 11
+  index: -1
+eff/born/nor/bao_00003
+  rotate: false
+  xy: 162, 378
+  size: 256, 205
+  orig: 278, 232
+  offset: 21, 15
+  index: -1
+eff/born/nor/bao_00004
+  rotate: false
+  xy: 442, 809
+  size: 275, 213
+  orig: 278, 232
+  offset: 3, 12
+  index: -1
+eff/born/nor/bao_00005
+  rotate: false
+  xy: 162, 585
+  size: 276, 217
+  orig: 278, 232
+  offset: 2, 9
+  index: -1
+eff/born/nor/bao_00006
+  rotate: false
+  xy: 162, 804
+  size: 278, 218
+  orig: 278, 232
+  offset: 0, 9
+  index: -1
+eff/born/nor/dian_00001
+  rotate: false
+  xy: 908, 155
+  size: 98, 302
+  orig: 141, 318
+  offset: 31, 12
+  index: -1
+eff/born/nor/dian_00002
+  rotate: true
+  xy: 707, 15
+  size: 99, 299
+  orig: 141, 318
+  offset: 23, 10
+  index: -1
+eff/born/nor/dian_00004
+  rotate: true
+  xy: 155, 2
+  size: 95, 230
+  orig: 141, 318
+  offset: 20, 16
+  index: -1
+eff/born/nor/dian_00008
+  rotate: true
+  xy: 974, 930
+  size: 92, 38
+  orig: 141, 318
+  offset: 29, 11
+  index: -1
+eff/born/nor/dian_00010
+  rotate: false
+  xy: 2, 17
+  size: 98, 36
+  orig: 141, 318
+  offset: 23, 12
+  index: -1
+eff/born/nor/yan_00007
+  rotate: false
+  xy: 475, 6
+  size: 209, 73
+  orig: 226, 87
+  offset: 8, 5
+  index: -1
+eff/born/nor/yan_00011
+  rotate: true
+  xy: 420, 378
+  size: 205, 58
+  orig: 226, 87
+  offset: 6, 4
+  index: -1
+eff/skillB/nor/dian_00006
+  rotate: true
+  xy: 974, 863
+  size: 65, 34
+  orig: 142, 109
+  offset: 40, 10
+  index: -1
+eff/skillB/nor/dian_00008
+  rotate: false
+  xy: 901, 116
+  size: 37, 37
+  orig: 142, 109
+  offset: 45, 16
+  index: -1
+
+effects_22701_born2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eff/born/add/dian2_00012
+  rotate: false
+  xy: 264, 761
+  size: 86, 119
+  orig: 150, 192
+  offset: 0, 31
+  index: -1
+eff/born/add/dian2_00013
+  rotate: true
+  xy: 123, 717
+  size: 117, 139
+  orig: 150, 192
+  offset: 33, 10
+  index: -1
+eff/born/add/dian2_00014
+  rotate: false
+  xy: 427, 806
+  size: 85, 86
+  orig: 150, 192
+  offset: 10, 60
+  index: -1
+eff/born/add/dian2_00015
+  rotate: false
+  xy: 123, 836
+  size: 134, 186
+  orig: 150, 192
+  offset: 16, 0
+  index: -1
+eff/born/add/dian2_00019
+  rotate: false
+  xy: 259, 882
+  size: 138, 140
+  orig: 150, 192
+  offset: 0, 2
+  index: -1
+eff/born/add/dian2_00021
+  rotate: false
+  xy: 761, 915
+  size: 128, 107
+  orig: 150, 192
+  offset: 12, 40
+  index: -1
+eff/born/add/dian2_00023
+  rotate: false
+  xy: 75, 307
+  size: 81, 78
+  orig: 150, 192
+  offset: 63, 0
+  index: -1
+eff/born/add/dian2_00025
+  rotate: true
+  xy: 2, 2
+  size: 123, 116
+  orig: 150, 192
+  offset: 11, 3
+  index: -1
+eff/born/add/dian2_00027
+  rotate: true
+  xy: 610, 914
+  size: 108, 149
+  orig: 150, 192
+  offset: 14, 21
+  index: -1
+eff/born/add/dian2_00029
+  rotate: true
+  xy: 891, 915
+  size: 107, 110
+  orig: 150, 192
+  offset: 15, 82
+  index: -1
+eff/born/add/dian_00010
+  rotate: true
+  xy: 75, 387
+  size: 146, 83
+  orig: 158, 346
+  offset: 0, 0
+  index: -1
+eff/born/add/dian_00012
+  rotate: true
+  xy: 160, 411
+  size: 135, 74
+  orig: 158, 346
+  offset: 5, 4
+  index: -1
+eff/born/add/guangzhu_00017
+  rotate: false
+  xy: 2, 535
+  size: 113, 184
+  orig: 124, 218
+  offset: 7, 4
+  index: -1
+eff/born/nor/dian_00000
+  rotate: false
+  xy: 2, 721
+  size: 119, 301
+  orig: 141, 318
+  offset: 17, 14
+  index: -1
+eff/born/nor/dian_00006
+  rotate: false
+  xy: 117, 548
+  size: 103, 167
+  orig: 141, 318
+  offset: 21, 10
+  index: -1
+eff/born/nor/yan_00001
+  rotate: false
+  xy: 399, 894
+  size: 171, 61
+  orig: 226, 87
+  offset: 28, 10
+  index: -1
+eff/born/nor/yan_00003
+  rotate: true
+  xy: 2, 127
+  size: 200, 70
+  orig: 226, 87
+  offset: 15, 7
+  index: -1
+eff/born/nor/yan_00005
+  rotate: true
+  xy: 2, 329
+  size: 204, 71
+  orig: 226, 87
+  offset: 12, 6
+  index: -1
+eff/born/nor/yan_00009
+  rotate: false
+  xy: 399, 957
+  size: 209, 65
+  orig: 226, 87
+  offset: 6, 5
+  index: -1
+eff/skillB/nor/dian_00007
+  rotate: false
+  xy: 74, 163
+  size: 77, 63
+  orig: 142, 109
+  offset: 42, 34
+  index: -1
+eff/skillB/nor/dian_00009
+  rotate: true
+  xy: 352, 756
+  size: 124, 73
+  orig: 142, 109
+  offset: 10, 24
+  index: -1
+eff/skillB/nor/dian_00011
+  rotate: true
+  xy: 222, 587
+  size: 128, 74
+  orig: 142, 109
+  offset: 4, 11
+  index: -1
+eff/skillB/nor/dian_00013
+  rotate: false
+  xy: 74, 228
+  size: 79, 77
+  orig: 142, 109
+  offset: 47, 8
+  index: -1
+eff/skillB/nor/dian_00015
+  rotate: false
+  xy: 514, 823
+  size: 54, 69
+  orig: 142, 109
+  offset: 43, 18
+  index: -1

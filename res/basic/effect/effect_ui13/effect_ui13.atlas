@@ -1,0 +1,125 @@
+
+effect_ui13.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dian
+  rotate: true
+  xy: 427, 582
+  size: 70, 71
+  orig: 100, 100
+  offset: 13, 22
+  index: -1
+glow/bian_00000
+  rotate: false
+  xy: 233, 768
+  size: 169, 98
+  orig: 200, 200
+  offset: 31, 50
+  index: -1
+glow/bian_00002
+  rotate: false
+  xy: 744, 908
+  size: 171, 112
+  orig: 200, 200
+  offset: 29, 50
+  index: -1
+glow/bian_00004
+  rotate: false
+  xy: 400, 888
+  size: 177, 132
+  orig: 200, 200
+  offset: 23, 42
+  index: -1
+glow/bian_00006
+  rotate: false
+  xy: 2, 643
+  size: 173, 146
+  orig: 200, 200
+  offset: 19, 33
+  index: -1
+glow/bian_00008
+  rotate: false
+  xy: 233, 868
+  size: 165, 152
+  orig: 200, 200
+  offset: 17, 30
+  index: -1
+glow/bian_00010
+  rotate: false
+  xy: 2, 172
+  size: 159, 153
+  orig: 200, 200
+  offset: 14, 29
+  index: -1
+glow/bian_00012
+  rotate: false
+  xy: 2, 327
+  size: 159, 154
+  orig: 200, 200
+  offset: 10, 27
+  index: -1
+glow/bian_00014
+  rotate: false
+  xy: 2, 483
+  size: 159, 158
+  orig: 200, 200
+  offset: 7, 23
+  index: -1
+glow/bian_00016
+  rotate: false
+  xy: 2, 5
+  size: 144, 165
+  orig: 200, 200
+  offset: 14, 17
+  index: -1
+glow/bian_00018
+  rotate: true
+  xy: 579, 895
+  size: 125, 163
+  orig: 200, 200
+  offset: 28, 16
+  index: -1
+glow/bian_00020
+  rotate: true
+  xy: 404, 780
+  size: 106, 160
+  orig: 200, 200
+  offset: 43, 15
+  index: -1
+glow/bian_00022
+  rotate: false
+  xy: 917, 869
+  size: 103, 151
+  orig: 200, 200
+  offset: 42, 24
+  index: -1
+glow/bian_00024
+  rotate: false
+  xy: 327, 627
+  size: 98, 139
+  orig: 200, 200
+  offset: 42, 36
+  index: -1
+glow/bian_00026
+  rotate: false
+  xy: 427, 654
+  size: 120, 124
+  orig: 200, 200
+  offset: 39, 45
+  index: -1
+glow/bian_00028
+  rotate: false
+  xy: 177, 660
+  size: 148, 106
+  orig: 200, 200
+  offset: 35, 50
+  index: -1
+glow_00000
+  rotate: false
+  xy: 2, 791
+  size: 229, 229
+  orig: 300, 300
+  offset: 31, 38
+  index: -1

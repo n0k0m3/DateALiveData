@@ -1,0 +1,61 @@
+
+4gouwuzhongxin_down.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+beijing_00000
+  rotate: false
+  xy: 2, 108
+  size: 236, 140
+  orig: 236, 140
+  offset: 0, 0
+  index: -1
+yun1
+  rotate: false
+  xy: 2, 37
+  size: 162, 69
+  orig: 162, 69
+  offset: 0, 0
+  index: -1
+yun3
+  rotate: false
+  xy: 166, 60
+  size: 82, 46
+  orig: 82, 46
+  offset: 0, 0
+  index: -1
+yun6
+  rotate: false
+  xy: 2, 12
+  size: 150, 23
+  orig: 150, 23
+  offset: 0, 0
+  index: -1
+
+4gouwuzhongxin_down2.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+yun2
+  rotate: false
+  xy: 2, 106
+  size: 147, 59
+  orig: 147, 59
+  offset: 0, 0
+  index: -1
+yun4
+  rotate: false
+  xy: 2, 50
+  size: 129, 54
+  orig: 129, 54
+  offset: 0, 0
+  index: -1
+yun5
+  rotate: false
+  xy: 2, 2
+  size: 127, 46
+  orig: 127, 46
+  offset: 0, 0
+  index: -1

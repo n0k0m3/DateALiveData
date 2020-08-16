@@ -1,0 +1,251 @@
+
+ui_dating_promote.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+269
+  rotate: false
+  xy: 2, 705
+  size: 250, 115
+  orig: 250, 115
+  offset: 0, 0
+  index: -1
+270
+  rotate: false
+  xy: 921, 568
+  size: 90, 109
+  orig: 90, 109
+  offset: 0, 0
+  index: -1
+271
+  rotate: false
+  xy: 2, 844
+  size: 250, 115
+  orig: 250, 115
+  offset: 0, 0
+  index: -1
+UI/019
+  rotate: false
+  xy: 890, 453
+  size: 113, 113
+  orig: 113, 113
+  offset: 0, 0
+  index: -1
+UI/230
+  rotate: true
+  xy: 496, 33
+  size: 62, 54
+  orig: 63, 54
+  offset: 0, 0
+  index: -1
+UI/274
+  rotate: true
+  xy: 680, 875
+  size: 84, 27
+  orig: 84, 27
+  offset: 0, 0
+  index: -1
+UI/275
+  rotate: false
+  xy: 2, 681
+  size: 13, 22
+  orig: 13, 22
+  offset: 0, 0
+  index: -1
+UI/276
+  rotate: true
+  xy: 680, 789
+  size: 84, 27
+  orig: 84, 27
+  offset: 0, 0
+  index: -1
+UI/278
+  rotate: true
+  xy: 944, 679
+  size: 343, 69
+  orig: 343, 69
+  offset: 0, 0
+  index: -1
+UI/279
+  rotate: false
+  xy: 2, 961
+  size: 727, 61
+  orig: 728, 61
+  offset: 0, 0
+  index: -1
+UI/haogandutisheng/0012
+  rotate: false
+  xy: 204, 3
+  size: 52, 53
+  orig: 58, 54
+  offset: 4, 1
+  index: -1
+UI/haogandutisheng/012
+  rotate: false
+  xy: 310, 2
+  size: 50, 54
+  orig: 58, 54
+  offset: 5, 0
+  index: -1
+UI/haogandutisheng/03213
+  rotate: true
+  xy: 552, 43
+  size: 52, 54
+  orig: 58, 54
+  offset: 4, 0
+  index: -1
+UI/haogandutisheng/111
+  rotate: false
+  xy: 561, 97
+  size: 52, 54
+  orig: 58, 54
+  offset: 4, 0
+  index: -1
+UI/haogandutisheng/2
+  rotate: false
+  xy: 258, 2
+  size: 50, 54
+  orig: 58, 54
+  offset: 5, 0
+  index: -1
+aixin_mohu_00035
+  rotate: false
+  xy: 496, 97
+  size: 63, 54
+  orig: 65, 56
+  offset: 1, 0
+  index: -1
+glow3
+  rotate: false
+  xy: 840, 189
+  size: 167, 165
+  orig: 176, 166
+  offset: 4, 0
+  index: -1
+glow5_00026
+  rotate: false
+  xy: 890, 356
+  size: 95, 95
+  orig: 102, 102
+  offset: 3, 3
+  index: -1
+glow7_00002
+  rotate: true
+  xy: 615, 7
+  size: 207, 184
+  orig: 209, 209
+  offset: 1, 13
+  index: -1
+kuosanguang/kuosanguang_00027
+  rotate: false
+  xy: 731, 822
+  size: 211, 200
+  orig: 211, 200
+  offset: 0, 0
+  index: -1
+kuosanguang/kuosanguang_00028
+  rotate: true
+  xy: 2, 466
+  size: 211, 200
+  orig: 211, 200
+  offset: 0, 0
+  index: -1
+kuosanguang/kuosanguang_00029
+  rotate: false
+  xy: 254, 759
+  size: 211, 200
+  orig: 211, 200
+  offset: 0, 0
+  index: -1
+kuosanguang/kuosanguang_00030
+  rotate: false
+  xy: 467, 759
+  size: 211, 200
+  orig: 211, 200
+  offset: 0, 0
+  index: -1
+kuosanguang/kuosanguang_00031
+  rotate: false
+  xy: 709, 620
+  size: 210, 200
+  orig: 211, 200
+  offset: 0, 0
+  index: -1
+kuosanguang/kuosanguang_00032
+  rotate: false
+  xy: 254, 557
+  size: 210, 200
+  orig: 211, 200
+  offset: 0, 0
+  index: -1
+kuosanguang/kuosanguang_00033
+  rotate: false
+  xy: 466, 557
+  size: 210, 200
+  orig: 211, 200
+  offset: 0, 0
+  index: -1
+kuosanguang/kuosanguang_00034
+  rotate: false
+  xy: 678, 418
+  size: 210, 200
+  orig: 211, 200
+  offset: 0, 0
+  index: -1
+kuosanguang/kuosanguang_00035
+  rotate: false
+  xy: 204, 355
+  size: 210, 200
+  orig: 211, 200
+  offset: 0, 0
+  index: -1
+kuosanguang/kuosanguang_00036
+  rotate: true
+  xy: 2, 254
+  size: 210, 200
+  orig: 211, 200
+  offset: 0, 0
+  index: -1
+kuosanguang/kuosanguang_00037
+  rotate: false
+  xy: 416, 355
+  size: 210, 200
+  orig: 211, 200
+  offset: 0, 0
+  index: -1
+kuosanguang/kuosanguang_00038
+  rotate: false
+  xy: 628, 216
+  size: 210, 200
+  orig: 211, 200
+  offset: 0, 0
+  index: -1
+kuosanguang/kuosanguang_00039
+  rotate: true
+  xy: 204, 145
+  size: 208, 200
+  orig: 211, 200
+  offset: 0, 0
+  index: -1
+kuosanguang/kuosanguang_00040
+  rotate: true
+  xy: 2, 44
+  size: 208, 200
+  orig: 211, 200
+  offset: 0, 0
+  index: -1
+kuosanguang/kuosanguang_00041
+  rotate: false
+  xy: 406, 153
+  size: 207, 200
+  orig: 211, 200
+  offset: 0, 0
+  index: -1
+mohuqipao_00035_00000
+  rotate: true
+  xy: 406, 58
+  size: 93, 88
+  orig: 94, 89
+  offset: 1, 1
+  index: -1

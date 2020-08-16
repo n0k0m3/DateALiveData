@@ -1,0 +1,76 @@
+
+effects_extra_eleven.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/yinli/yinli_00020
+  rotate: false
+  xy: 2, 886
+  size: 384, 109
+  orig: 388, 125
+  offset: 4, 7
+  index: -1
+images/yinli/yinli_00022
+  rotate: true
+  xy: 112, 5
+  size: 383, 108
+  orig: 388, 125
+  offset: 5, 8
+  index: -1
+images/yinli/yinli_00024
+  rotate: false
+  xy: 2, 775
+  size: 384, 109
+  orig: 388, 125
+  offset: 4, 8
+  index: -1
+images/yinli/yinli_00026
+  rotate: true
+  xy: 222, 4
+  size: 384, 107
+  orig: 388, 125
+  offset: 4, 10
+  index: -1
+images/yinli/yinli_00028
+  rotate: true
+  xy: 112, 390
+  size: 383, 109
+  orig: 388, 125
+  offset: 5, 8
+  index: -1
+images/yinli/yinli_00030
+  rotate: true
+  xy: 223, 390
+  size: 383, 108
+  orig: 388, 125
+  offset: 5, 8
+  index: -1
+images/yinli/yinli_00032
+  rotate: false
+  xy: 388, 887
+  size: 385, 108
+  orig: 388, 125
+  offset: 3, 8
+  index: -1
+images/yinli/yinli_00034
+  rotate: true
+  xy: 2, 388
+  size: 385, 108
+  orig: 388, 125
+  offset: 3, 8
+  index: -1
+images/yinli/yinli_00036
+  rotate: true
+  xy: 2, 2
+  size: 384, 108
+  orig: 388, 125
+  offset: 4, 8
+  index: -1
+images/yinli/yinli_00038
+  rotate: false
+  xy: 388, 776
+  size: 384, 109
+  orig: 388, 125
+  offset: 4, 7
+  index: -1

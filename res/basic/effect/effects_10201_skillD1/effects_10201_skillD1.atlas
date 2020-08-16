@@ -1,0 +1,13 @@
+
+effects_10201_skillD1.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skilld/beijingG
+  rotate: false
+  xy: 2, 176
+  size: 468, 294
+  orig: 468, 294
+  offset: 0, 0
+  index: -1

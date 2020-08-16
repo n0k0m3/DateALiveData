@@ -1,0 +1,13 @@
+
+huaping.png
+size: 64,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+huapengzhong_00000
+  rotate: false
+  xy: 2, 2
+  size: 40, 60
+  orig: 100, 100
+  offset: 27, 18
+  index: -1

@@ -1,0 +1,565 @@
+
+effect_gate_02.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/0700012_00000
+  rotate: true
+  xy: 824, 597
+  size: 241, 15
+  orig: 264, 29
+  offset: 6, 6
+  index: -1
+images/effect/chuansongmen/you
+  rotate: false
+  xy: 418, 411
+  size: 88, 252
+  orig: 88, 253
+  offset: 0, 1
+  index: -1
+images/effect/chuansongmen/zong
+  rotate: false
+  xy: 2, 782
+  size: 318, 240
+  orig: 318, 240
+  offset: 0, 0
+  index: -1
+images/effect/chuansongmen/zong1
+  rotate: true
+  xy: 322, 843
+  size: 179, 318
+  orig: 179, 318
+  offset: 0, 0
+  index: -1
+images/effect/chuansongmen/zuo
+  rotate: false
+  xy: 418, 174
+  size: 66, 235
+  orig: 66, 235
+  offset: 0, 0
+  index: -1
+images/effect/dimianguang_00000
+  rotate: true
+  xy: 306, 26
+  size: 167, 82
+  orig: 175, 100
+  offset: 0, 5
+  index: -1
+images/effect/glow
+  rotate: true
+  xy: 841, 603
+  size: 27, 163
+  orig: 49, 177
+  offset: 11, 7
+  index: -1
+images/effect/glow1_00000
+  rotate: false
+  xy: 236, 110
+  size: 68, 200
+  orig: 100, 200
+  offset: 15, 0
+  index: -1
+images/effect/glow_00000
+  rotate: true
+  xy: 2, 312
+  size: 112, 127
+  orig: 150, 150
+  offset: 18, 8
+  index: -1
+images/effect/heidi1_00000
+  rotate: false
+  xy: 769, 365
+  size: 42, 117
+  orig: 75, 125
+  offset: 13, 2
+  index: -1
+images/effect/heidi_00000
+  rotate: true
+  xy: 618, 354
+  size: 128, 149
+  orig: 150, 150
+  offset: 10, 0
+  index: -1
+images/effect/kaimen/kaimen_00000
+  rotate: true
+  xy: 844, 828
+  size: 194, 176
+  orig: 194, 188
+  offset: 0, 0
+  index: -1
+images/effect/kaimen/kaimen_00001
+  rotate: false
+  xy: 322, 665
+  size: 194, 176
+  orig: 194, 188
+  offset: 0, 0
+  index: -1
+images/effect/kaimen/kaimen_00002
+  rotate: false
+  xy: 628, 662
+  size: 194, 176
+  orig: 194, 188
+  offset: 0, 0
+  index: -1
+images/effect/kaimen/kaimen_00003
+  rotate: false
+  xy: 628, 484
+  size: 194, 176
+  orig: 194, 188
+  offset: 0, 0
+  index: -1
+images/effect/kaimen/kaimen_00004
+  rotate: false
+  xy: 824, 419
+  size: 194, 176
+  orig: 194, 188
+  offset: 0, 0
+  index: -1
+images/effect/kaimen/kaimen_00005
+  rotate: true
+  xy: 841, 632
+  size: 194, 176
+  orig: 194, 188
+  offset: 0, 0
+  index: -1
+images/effect/kaimen/kaimen_00006
+  rotate: false
+  xy: 2, 604
+  size: 194, 176
+  orig: 194, 188
+  offset: 0, 0
+  index: -1
+images/effect/kaimen/kaimen_00007
+  rotate: false
+  xy: 2, 426
+  size: 194, 176
+  orig: 194, 188
+  offset: 0, 0
+  index: -1
+images/effect/kaimen1/kaimenxian_00004
+  rotate: true
+  xy: 236, 82
+  size: 26, 54
+  orig: 56, 133
+  offset: 15, 73
+  index: -1
+images/effect/kaimen2/kaimen_00000
+  rotate: false
+  xy: 518, 608
+  size: 108, 233
+  orig: 125, 250
+  offset: 1, 0
+  index: -1
+images/effect/kaimen2/kaimen_00001
+  rotate: false
+  xy: 198, 547
+  size: 108, 233
+  orig: 125, 250
+  offset: 1, 0
+  index: -1
+images/effect/kaimen2/kaimen_00002
+  rotate: false
+  xy: 308, 430
+  size: 108, 233
+  orig: 125, 250
+  offset: 1, 0
+  index: -1
+images/effect/kaimen2/kaimen_00003
+  rotate: false
+  xy: 198, 312
+  size: 108, 233
+  orig: 125, 250
+  offset: 1, 0
+  index: -1
+images/effect/kaimen2/kaimen_00004
+  rotate: false
+  xy: 308, 195
+  size: 108, 233
+  orig: 125, 250
+  offset: 1, 0
+  index: -1
+images/effect/kaimen2/kaimen_00005
+  rotate: true
+  xy: 2, 85
+  size: 108, 232
+  orig: 125, 250
+  offset: 1, 0
+  index: -1
+images/effect/kaimen2/kaimen_00006
+  rotate: true
+  xy: 2, 202
+  size: 108, 211
+  orig: 125, 250
+  offset: 1, 0
+  index: -1
+images/effect/keji1_00000
+  rotate: false
+  xy: 508, 373
+  size: 108, 233
+  orig: 125, 250
+  offset: 1, 0
+  index: -1
+images/effect/kejige_00000
+  rotate: false
+  xy: 642, 840
+  size: 200, 182
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+images/effect/tishi_00000
+  rotate: true
+  xy: 390, 109
+  size: 84, 21
+  orig: 100, 50
+  offset: 7, 14
+  index: -1
+images/effect/wenli/weili_00000
+  rotate: true
+  xy: 508, 16
+  size: 99, 115
+  orig: 125, 125
+  offset: 13, 4
+  index: -1
+images/effect/wenli/weili_00002
+  rotate: false
+  xy: 625, 4
+  size: 98, 112
+  orig: 125, 125
+  offset: 14, 5
+  index: -1
+images/effect/wenli/weili_00004
+  rotate: false
+  xy: 820, 250
+  size: 98, 110
+  orig: 125, 125
+  offset: 14, 5
+  index: -1
+images/effect/wenli/weili_00012
+  rotate: false
+  xy: 920, 250
+  size: 98, 110
+  orig: 125, 125
+  offset: 14, 5
+  index: -1
+images/effect/wenli/weili_00014
+  rotate: false
+  xy: 825, 12
+  size: 98, 111
+  orig: 125, 125
+  offset: 14, 4
+  index: -1
+images/effect/wenli/weili_00016
+  rotate: false
+  xy: 725, 4
+  size: 98, 112
+  orig: 125, 125
+  offset: 14, 4
+  index: -1
+images/effect/wenli/weili_00018
+  rotate: false
+  xy: 925, 23
+  size: 97, 111
+  orig: 125, 125
+  offset: 14, 5
+  index: -1
+images/effect/wenli/weili_00020
+  rotate: false
+  xy: 721, 239
+  size: 97, 113
+  orig: 125, 125
+  offset: 14, 5
+  index: -1
+images/effect/wenli/weili_00022
+  rotate: true
+  xy: 604, 175
+  size: 97, 115
+  orig: 125, 125
+  offset: 14, 5
+  index: -1
+images/effect/wenli/weili_00024
+  rotate: true
+  xy: 486, 175
+  size: 97, 116
+  orig: 125, 125
+  offset: 14, 5
+  index: -1
+images/effect/wenli/weili_00026
+  rotate: true
+  xy: 486, 274
+  size: 97, 117
+  orig: 125, 125
+  offset: 14, 4
+  index: -1
+images/effect/wenli/weili_00028
+  rotate: true
+  xy: 390, 8
+  size: 99, 116
+  orig: 125, 125
+  offset: 13, 4
+  index: -1
+images/effect/wenli1/wenli_00000
+  rotate: true
+  xy: 413, 117
+  size: 55, 114
+  orig: 75, 125
+  offset: 7, 1
+  index: -1
+images/effect/wenli1/wenli_00002
+  rotate: true
+  xy: 529, 118
+  size: 55, 114
+  orig: 75, 125
+  offset: 7, 1
+  index: -1
+images/effect/wenli1/wenli_00004
+  rotate: false
+  xy: 131, 312
+  size: 55, 112
+  orig: 75, 125
+  offset: 7, 1
+  index: -1
+images/effect/wenli1/wenli_00006
+  rotate: true
+  xy: 760, 125
+  size: 55, 110
+  orig: 75, 125
+  offset: 7, 2
+  index: -1
+images/effect/wenli1/wenli_00012
+  rotate: true
+  xy: 834, 193
+  size: 55, 110
+  orig: 75, 125
+  offset: 7, 2
+  index: -1
+images/effect/wenli1/wenli_00014
+  rotate: true
+  xy: 872, 136
+  size: 55, 110
+  orig: 75, 125
+  offset: 7, 2
+  index: -1
+images/effect/wenli1/wenli_00018
+  rotate: true
+  xy: 721, 182
+  size: 55, 111
+  orig: 75, 125
+  offset: 7, 2
+  index: -1
+images/effect/wenli1/wenli_00020
+  rotate: true
+  xy: 813, 362
+  size: 55, 112
+  orig: 75, 125
+  offset: 7, 2
+  index: -1
+images/effect/wenli1/wenli_00022
+  rotate: true
+  xy: 645, 118
+  size: 55, 113
+  orig: 75, 125
+  offset: 7, 2
+  index: -1
+images/effect/wenli1/wenli_00024
+  rotate: true
+  xy: 605, 297
+  size: 55, 114
+  orig: 75, 125
+  offset: 7, 1
+  index: -1
+images/effect/wenli1/wenli_00026
+  rotate: true
+  xy: 2, 28
+  size: 55, 115
+  orig: 75, 125
+  offset: 7, 1
+  index: -1
+images/effect/wenli1/wenli_00028
+  rotate: true
+  xy: 119, 28
+  size: 55, 115
+  orig: 75, 125
+  offset: 7, 1
+  index: -1
+
+effect_gate_022.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/kaimen1/kaimenxian_00000
+  rotate: false
+  xy: 986, 894
+  size: 36, 128
+  orig: 56, 133
+  offset: 10, 5
+  index: -1
+images/effect/kaimen1/kaimenxian_00001
+  rotate: false
+  xy: 59, 133
+  size: 35, 128
+  orig: 56, 133
+  offset: 11, 5
+  index: -1
+images/effect/kaimen1/kaimenxian_00002
+  rotate: false
+  xy: 96, 133
+  size: 35, 128
+  orig: 56, 133
+  offset: 11, 5
+  index: -1
+images/effect/kaimen1/kaimenxian_00003
+  rotate: true
+  xy: 300, 879
+  size: 34, 128
+  orig: 56, 133
+  offset: 11, 5
+  index: -1
+images/effect/lizi/lizi_00000
+  rotate: false
+  xy: 2, 473
+  size: 93, 108
+  orig: 150, 150
+  offset: 29, 33
+  index: -1
+images/effect/lizi/lizi_00002
+  rotate: false
+  xy: 2, 583
+  size: 95, 108
+  orig: 150, 150
+  offset: 27, 33
+  index: -1
+images/effect/lizi/lizi_00004
+  rotate: false
+  xy: 692, 917
+  size: 96, 105
+  orig: 150, 150
+  offset: 26, 35
+  index: -1
+images/effect/lizi/lizi_00006
+  rotate: false
+  xy: 2, 368
+  size: 96, 103
+  orig: 150, 150
+  offset: 26, 37
+  index: -1
+images/effect/lizi/lizi_00008
+  rotate: false
+  xy: 2, 693
+  size: 96, 108
+  orig: 150, 150
+  offset: 26, 33
+  index: -1
+images/effect/lizi/lizi_00010
+  rotate: false
+  xy: 200, 805
+  size: 96, 107
+  orig: 150, 150
+  offset: 26, 33
+  index: -1
+images/effect/lizi/lizi_00012
+  rotate: false
+  xy: 594, 916
+  size: 96, 106
+  orig: 150, 150
+  offset: 26, 33
+  index: -1
+images/effect/lizi/lizi_00014
+  rotate: false
+  xy: 2, 263
+  size: 96, 103
+  orig: 150, 150
+  offset: 26, 36
+  index: -1
+images/effect/lizi/lizi_00016
+  rotate: false
+  xy: 790, 917
+  size: 96, 105
+  orig: 150, 150
+  offset: 26, 33
+  index: -1
+images/effect/lizi/lizi_00018
+  rotate: false
+  xy: 888, 917
+  size: 96, 105
+  orig: 150, 150
+  offset: 26, 33
+  index: -1
+images/effect/lizi/lizi_00020
+  rotate: false
+  xy: 300, 915
+  size: 96, 107
+  orig: 150, 150
+  offset: 26, 33
+  index: -1
+images/effect/lizi/lizi_00022
+  rotate: false
+  xy: 398, 915
+  size: 96, 107
+  orig: 150, 150
+  offset: 26, 33
+  index: -1
+images/effect/lizi/lizi_00024
+  rotate: false
+  xy: 496, 915
+  size: 96, 107
+  orig: 150, 150
+  offset: 26, 33
+  index: -1
+images/effect/lizi/lizi_00026
+  rotate: false
+  xy: 102, 804
+  size: 96, 108
+  orig: 150, 150
+  offset: 26, 33
+  index: -1
+images/effect/lizi/lizi_00028
+  rotate: false
+  xy: 202, 914
+  size: 96, 108
+  orig: 150, 150
+  offset: 26, 33
+  index: -1
+images/effect/wenli/weili_00006
+  rotate: false
+  xy: 2, 803
+  size: 98, 108
+  orig: 125, 125
+  offset: 14, 5
+  index: -1
+images/effect/wenli/weili_00008
+  rotate: false
+  xy: 102, 914
+  size: 98, 108
+  orig: 125, 125
+  offset: 14, 5
+  index: -1
+images/effect/wenli/weili_00010
+  rotate: false
+  xy: 2, 913
+  size: 98, 109
+  orig: 125, 125
+  offset: 14, 5
+  index: -1
+images/effect/wenli1/wenli_00008
+  rotate: false
+  xy: 2, 40
+  size: 55, 109
+  orig: 75, 125
+  offset: 7, 2
+  index: -1
+images/effect/wenli1/wenli_00010
+  rotate: false
+  xy: 59, 22
+  size: 55, 109
+  orig: 75, 125
+  offset: 7, 2
+  index: -1
+images/effect/wenli1/wenli_00016
+  rotate: false
+  xy: 2, 151
+  size: 55, 110
+  orig: 75, 125
+  offset: 7, 2
+  index: -1

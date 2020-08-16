@@ -1,0 +1,69 @@
+
+battle_enemy.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/biankuang_00000
+  rotate: false
+  xy: 2, 754
+  size: 500, 233
+  orig: 514, 240
+  offset: 8, 4
+  index: -1
+image/bianseziti2
+  rotate: false
+  xy: 504, 832
+  size: 483, 155
+  orig: 483, 155
+  offset: 0, 0
+  index: -1
+image/bianseziti_00000
+  rotate: true
+  xy: 111, 352
+  size: 400, 200
+  orig: 400, 200
+  offset: 0, 0
+  index: -1
+image/fensedi
+  rotate: true
+  xy: 30, 185
+  size: 567, 79
+  orig: 569, 81
+  offset: 1, 1
+  index: -1
+image/heidi
+  rotate: false
+  xy: 111, 193
+  size: 56, 157
+  orig: 58, 159
+  offset: 1, 1
+  index: -1
+image/heidi001
+  rotate: false
+  xy: 30, 133
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+image/qiangdilaixi
+  rotate: true
+  xy: 313, 428
+  size: 324, 64
+  orig: 326, 66
+  offset: 1, 1
+  index: -1
+image/qiangdilaixi2
+  rotate: false
+  xy: 504, 758
+  size: 399, 72
+  orig: 399, 72
+  offset: 0, 0
+  index: -1
+image/tiaoxia
+  rotate: true
+  xy: 2, 52
+  size: 700, 26
+  orig: 702, 28
+  offset: 1, 1
+  index: -1

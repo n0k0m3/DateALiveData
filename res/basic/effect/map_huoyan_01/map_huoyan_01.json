@@ -1,0 +1,178 @@
+{
+"skeleton": {
+	"hash": "DaRfbFSc1zz2mdaRu72I/Ka+ir4",
+	"spine": "2.1.27",
+	"width": 0,
+	"height": 0,
+	"images": "C:/Users/Administrator/Desktop/尺寸需要修改的特效/map_huoyan_01"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "bone2", "parent": "root" }
+],
+"slots": [
+	{ "name": "sucai/huo3/huo3_00000", "bone": "bone" },
+	{ "name": "sucai/huo2/huo2_00000", "bone": "bone2" }
+],
+"skins": {
+	"default": {
+		"sucai/huo2/huo2_00000": {
+			"sucai/huo2/huo2_00000": { "width": 68, "height": 108 },
+			"sucai/huo2/huo2_00001": { "width": 70, "height": 114 },
+			"sucai/huo2/huo2_00002": { "width": 74, "height": 129 },
+			"sucai/huo2/huo2_00003": { "width": 75, "height": 143 },
+			"sucai/huo2/huo2_00004": { "width": 75, "height": 149 },
+			"sucai/huo2/huo2_00005": { "width": 75, "height": 149 },
+			"sucai/huo2/huo2_00006": { "width": 66, "height": 143 },
+			"sucai/huo2/huo2_00007": { "width": 62, "height": 158 },
+			"sucai/huo2/huo2_00008": { "width": 56, "height": 164 },
+			"sucai/huo2/huo2_00009": { "width": 54, "height": 164 },
+			"sucai/huo2/huo2_00010": { "width": 51, "height": 161 },
+			"sucai/huo2/huo2_00011": { "width": 53, "height": 184 },
+			"sucai/huo2/huo2_00012": { "width": 52, "height": 184 },
+			"sucai/huo2/huo2_00013": { "width": 45, "height": 184 },
+			"sucai/huo2/huo2_00014": { "width": 54, "height": 184 }
+		},
+		"sucai/huo3/huo3_00000": {
+			"sucai/huo3/huo3_00000": { "width": 53, "height": 46 },
+			"sucai/huo3/huo3_00001": { "width": 57, "height": 47 },
+			"sucai/huo3/huo3_00002": { "width": 57, "height": 53 },
+			"sucai/huo3/huo3_00003": { "width": 63, "height": 59 },
+			"sucai/huo3/huo3_00004": { "width": 64, "height": 62 },
+			"sucai/huo3/huo3_00005": { "width": 61, "height": 62 },
+			"sucai/huo3/huo3_00006": { "width": 55, "height": 59 },
+			"sucai/huo3/huo3_00007": { "width": 68, "height": 65 },
+			"sucai/huo3/huo3_00008": { "width": 64, "height": 68 },
+			"sucai/huo3/huo3_00009": { "width": 61, "height": 68 },
+			"sucai/huo3/huo3_00010": { "width": 58, "height": 67 },
+			"sucai/huo3/huo3_00011": { "width": 53, "height": 75 },
+			"sucai/huo3/huo3_00012": { "width": 53, "height": 75 },
+			"sucai/huo3/huo3_00013": { "width": 52, "height": 75 },
+			"sucai/huo3/huo3_00014": { "width": 39, "height": 75 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"sucai/huo2/huo2_00000": {
+				"attachment": [
+					{ "time": 0, "name": "sucai/huo2/huo2_00000" },
+					{ "time": 0.1666, "name": "sucai/huo2/huo2_00001" },
+					{ "time": 0.3333, "name": "sucai/huo2/huo2_00002" },
+					{ "time": 0.5, "name": "sucai/huo2/huo2_00003" },
+					{ "time": 0.6666, "name": "sucai/huo2/huo2_00004" },
+					{ "time": 0.8333, "name": "sucai/huo2/huo2_00005" },
+					{ "time": 1, "name": "sucai/huo2/huo2_00006" },
+					{ "time": 1.1666, "name": "sucai/huo2/huo2_00007" },
+					{ "time": 1.3333, "name": "sucai/huo2/huo2_00008" },
+					{ "time": 1.5, "name": "sucai/huo2/huo2_00009" },
+					{ "time": 1.6666, "name": "sucai/huo2/huo2_00010" },
+					{ "time": 1.8333, "name": "sucai/huo2/huo2_00011" },
+					{ "time": 2, "name": "sucai/huo2/huo2_00012" },
+					{ "time": 2.1666, "name": "sucai/huo2/huo2_00013" },
+					{ "time": 2.3333, "name": "sucai/huo2/huo2_00014" },
+					{ "time": 2.5, "name": "sucai/huo2/huo2_00000" },
+					{ "time": 2.6666, "name": "sucai/huo2/huo2_00001" },
+					{ "time": 2.8333, "name": "sucai/huo2/huo2_00002" },
+					{ "time": 3, "name": "sucai/huo2/huo2_00003" },
+					{ "time": 3.1666, "name": "sucai/huo2/huo2_00004" },
+					{ "time": 3.3333, "name": "sucai/huo2/huo2_00005" },
+					{ "time": 3.5, "name": "sucai/huo2/huo2_00006" },
+					{ "time": 3.6666, "name": "sucai/huo2/huo2_00007" },
+					{ "time": 3.8333, "name": "sucai/huo2/huo2_00008" },
+					{ "time": 4, "name": "sucai/huo2/huo2_00009" },
+					{ "time": 4.1666, "name": "sucai/huo2/huo2_00010" },
+					{ "time": 4.3333, "name": "sucai/huo2/huo2_00011" },
+					{ "time": 4.5, "name": "sucai/huo2/huo2_00012" },
+					{ "time": 4.6666, "name": "sucai/huo2/huo2_00013" },
+					{ "time": 4.8333, "name": "sucai/huo2/huo2_00014" },
+					{ "time": 5, "name": "sucai/huo2/huo2_00000" },
+					{ "time": 5.1666, "name": "sucai/huo2/huo2_00002" },
+					{ "time": 5.3333, "name": "sucai/huo2/huo2_00004" },
+					{ "time": 5.5, "name": "sucai/huo2/huo2_00007" },
+					{ "time": 5.6666, "name": "sucai/huo2/huo2_00008" },
+					{ "time": 5.8333, "name": "sucai/huo2/huo2_00009" },
+					{ "time": 6, "name": "sucai/huo2/huo2_00010" },
+					{ "time": 6.1666, "name": "sucai/huo2/huo2_00011" },
+					{ "time": 6.3333, "name": "sucai/huo2/huo2_00012" },
+					{ "time": 6.5, "name": "sucai/huo2/huo2_00013" },
+					{ "time": 6.6666, "name": "sucai/huo2/huo2_00014" }
+				]
+			},
+			"sucai/huo3/huo3_00000": {
+				"attachment": [
+					{ "time": 0, "name": "sucai/huo3/huo3_00000" },
+					{ "time": 0.1666, "name": "sucai/huo3/huo3_00001" },
+					{ "time": 0.3333, "name": "sucai/huo3/huo3_00002" },
+					{ "time": 0.5, "name": "sucai/huo3/huo3_00003" },
+					{ "time": 0.6666, "name": "sucai/huo3/huo3_00004" },
+					{ "time": 0.8333, "name": "sucai/huo3/huo3_00005" },
+					{ "time": 1, "name": "sucai/huo3/huo3_00006" },
+					{ "time": 1.1666, "name": "sucai/huo3/huo3_00007" },
+					{ "time": 1.3333, "name": "sucai/huo3/huo3_00008" },
+					{ "time": 1.5, "name": "sucai/huo3/huo3_00009" },
+					{ "time": 1.6666, "name": "sucai/huo3/huo3_00010" },
+					{ "time": 1.8333, "name": "sucai/huo3/huo3_00011" },
+					{ "time": 2, "name": "sucai/huo3/huo3_00012" },
+					{ "time": 2.1666, "name": "sucai/huo3/huo3_00013" },
+					{ "time": 2.3333, "name": "sucai/huo3/huo3_00014" },
+					{ "time": 2.5, "name": "sucai/huo3/huo3_00000" },
+					{ "time": 2.6666, "name": "sucai/huo3/huo3_00001" },
+					{ "time": 2.8333, "name": "sucai/huo3/huo3_00002" },
+					{ "time": 3, "name": "sucai/huo3/huo3_00003" },
+					{ "time": 3.1666, "name": "sucai/huo3/huo3_00004" },
+					{ "time": 3.3333, "name": "sucai/huo3/huo3_00005" },
+					{ "time": 3.5, "name": "sucai/huo3/huo3_00006" },
+					{ "time": 3.6666, "name": "sucai/huo3/huo3_00007" },
+					{ "time": 3.8333, "name": "sucai/huo3/huo3_00008" },
+					{ "time": 4, "name": "sucai/huo3/huo3_00009" },
+					{ "time": 4.1666, "name": "sucai/huo3/huo3_00010" },
+					{ "time": 4.3333, "name": "sucai/huo3/huo3_00011" },
+					{ "time": 4.5, "name": "sucai/huo3/huo3_00012" },
+					{ "time": 4.6666, "name": "sucai/huo3/huo3_00013" },
+					{ "time": 4.8333, "name": "sucai/huo3/huo3_00014" },
+					{ "time": 5, "name": "sucai/huo3/huo3_00000" },
+					{ "time": 5.1666, "name": "sucai/huo3/huo3_00001" },
+					{ "time": 5.3333, "name": "sucai/huo3/huo3_00002" },
+					{ "time": 5.5, "name": "sucai/huo3/huo3_00003" },
+					{ "time": 5.6666, "name": "sucai/huo3/huo3_00004" },
+					{ "time": 5.8333, "name": "sucai/huo3/huo3_00005" },
+					{ "time": 6, "name": "sucai/huo3/huo3_00006" },
+					{ "time": 6.1666, "name": "sucai/huo3/huo3_00007" },
+					{ "time": 6.3333, "name": "sucai/huo3/huo3_00008" },
+					{ "time": 6.5, "name": "sucai/huo3/huo3_00009" },
+					{ "time": 6.6666, "name": "sucai/huo3/huo3_00010" }
+				]
+			}
+		},
+		"bones": {
+			"bone2": {
+				"translate": [
+					{ "time": 0, "x": -761.09, "y": -78.12 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 0.354 }
+				]
+			},
+			"bone": {
+				"translate": [
+					{ "time": 0, "x": 10.82, "y": -72.25 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.432, "y": 0.91 }
+				]
+			},
+			"root": {
+				"translate": [
+					{ "time": 0, "x": 207.38, "y": -195.45 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.432, "y": 2.387 }
+				]
+			}
+		}
+	}
+}
+}

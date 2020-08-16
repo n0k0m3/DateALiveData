@@ -1,0 +1,61 @@
+{
+"skeleton": { "hash": "LwXA8BJOvVBOaD8ATh7oBsyATa8", "spine": "2.1.27", "width": 246, "height": 198, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "bone2", "parent": "bone" },
+	{ "name": "bone3", "parent": "bone" }
+],
+"slots": [
+	{ "name": "dengguang_00000", "bone": "bone2", "attachment": "dengguang_00000", "blend": "additive" },
+	{ "name": "guang_00000", "bone": "bone3", "attachment": "guang_00000", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"dengguang_00000": {
+			"dengguang_00000": { "width": 237, "height": 198 }
+		},
+		"guang_00000": {
+			"guang_00000": { "width": 246, "height": 169 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"dengguang_00000": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff66" },
+					{ "time": 2.6666, "color": "ffffffff" }
+				]
+			},
+			"guang_00000": {
+				"attachment": [
+					{ "time": 0, "name": "guang_00000" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff00" },
+					{ "time": 2.6666, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"bone2": {
+				"translate": [
+					{ "time": 0, "x": -559.61, "y": 146.85 }
+				]
+			},
+			"bone3": {
+				"translate": [
+					{ "time": 0, "x": -1.38, "y": 253.19 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2.309, "y": 2.309 }
+				]
+			}
+		}
+	}
+}
+}

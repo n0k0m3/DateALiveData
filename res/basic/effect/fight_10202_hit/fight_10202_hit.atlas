@@ -1,0 +1,97 @@
+
+fight_10202_hit.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_01/baibao_00027
+  rotate: false
+  xy: 936, 936
+  size: 54, 54
+  orig: 64, 64
+  offset: 5, 5
+  index: -1
+effect_01/extra_skillB/hit/baodiana/baodiana_00013
+  rotate: true
+  xy: 467, 817
+  size: 173, 255
+  orig: 238, 276
+  offset: 36, 11
+  index: -1
+effect_01/extra_skillB/hit/baodiana/baodiana_00014
+  rotate: true
+  xy: 724, 796
+  size: 194, 210
+  orig: 238, 276
+  offset: 14, 31
+  index: -1
+effect_01/extra_skillB/hit/baodiana/baodiana_00015
+  rotate: false
+  xy: 2, 235
+  size: 226, 240
+  orig: 238, 276
+  offset: 0, 21
+  index: -1
+effect_01/extra_skillB/hit/baodiana/baodiana_00016
+  rotate: false
+  xy: 2, 728
+  size: 238, 262
+  orig: 238, 276
+  offset: 0, 1
+  index: -1
+effect_01/extra_skillB/hit/baodiana/baodiana_00017
+  rotate: false
+  xy: 2, 477
+  size: 230, 249
+  orig: 238, 276
+  offset: 8, 0
+  index: -1
+effect_01/extra_skillB/hit/baodiana/baodiana_00018
+  rotate: true
+  xy: 467, 669
+  size: 146, 215
+  orig: 238, 276
+  offset: 36, 0
+  index: -1
+effect_01/extra_skillB/hit/baodianm/baodianm_00013
+  rotate: false
+  xy: 684, 641
+  size: 210, 153
+  orig: 238, 276
+  offset: 28, 73
+  index: -1
+effect_01/extra_skillB/hit/baodianm/baodianm_00014
+  rotate: false
+  xy: 242, 737
+  size: 223, 253
+  orig: 238, 276
+  offset: 15, 7
+  index: -1
+effect_01/extra_skillB/hit/baodianm/baodianm_00015
+  rotate: false
+  xy: 2, 25
+  size: 208, 208
+  orig: 238, 276
+  offset: 21, 43
+  index: -1
+effect_01/extra_skillB/hit/baodianm/baodianm_00016
+  rotate: false
+  xy: 212, 25
+  size: 208, 208
+  orig: 238, 276
+  offset: 21, 43
+  index: -1
+effect_01/extra_skillB/hit/baodianm/baodianm_00017
+  rotate: false
+  xy: 242, 527
+  size: 208, 208
+  orig: 238, 276
+  offset: 21, 43
+  index: -1
+effect_01/extra_skillB/hit/baodianm/baodianm_00018
+  rotate: true
+  xy: 452, 527
+  size: 140, 142
+  orig: 238, 276
+  offset: 68, 68
+  index: -1

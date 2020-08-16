@@ -1,0 +1,27 @@
+
+effects_fight_20201F_skillA1.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lvguang222
+  rotate: false
+  xy: 2, 72
+  size: 98, 51
+  orig: 98, 51
+  offset: 0, 0
+  index: -1
+lvzidan
+  rotate: false
+  xy: 2, 37
+  size: 74, 33
+  orig: 74, 33
+  offset: 0, 0
+  index: -1
+lvzidanliang
+  rotate: false
+  xy: 2, 2
+  size: 74, 33
+  orig: 74, 33
+  offset: 0, 0
+  index: -1

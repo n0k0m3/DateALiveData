@@ -1,0 +1,258 @@
+
+effect_point_01.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/10
+  rotate: false
+  xy: 559, 270
+  size: 65, 30
+  orig: 65, 30
+  offset: 0, 0
+  index: -1
+images/10xu_00007
+  rotate: true
+  xy: 772, 489
+  size: 73, 39
+  orig: 100, 100
+  offset: 10, 34
+  index: -1
+images/3
+  rotate: true
+  xy: 965, 664
+  size: 52, 33
+  orig: 52, 33
+  offset: 0, 0
+  index: -1
+images/3xu_00007
+  rotate: true
+  xy: 204, 118
+  size: 61, 41
+  orig: 100, 100
+  offset: 16, 33
+  index: -1
+images/5
+  rotate: false
+  xy: 947, 629
+  size: 51, 33
+  orig: 51, 33
+  offset: 0, 0
+  index: -1
+images/5xu_00007
+  rotate: true
+  xy: 216, 57
+  size: 59, 41
+  orig: 100, 100
+  offset: 17, 33
+  index: -1
+images/baolizi/lizi_00006
+  rotate: true
+  xy: 259, 76
+  size: 153, 124
+  orig: 200, 200
+  offset: 29, 35
+  index: -1
+images/baolizi/lizi_00008
+  rotate: false
+  xy: 823, 718
+  size: 183, 124
+  orig: 200, 200
+  offset: 9, 34
+  index: -1
+images/baolizi/lizi_00010
+  rotate: true
+  xy: 254, 405
+  size: 197, 140
+  orig: 200, 200
+  offset: 1, 26
+  index: -1
+images/baolizi/lizi_00012
+  rotate: false
+  xy: 806, 844
+  size: 190, 162
+  orig: 200, 200
+  offset: 10, 18
+  index: -1
+images/baolizi/lizi_00014
+  rotate: false
+  xy: 396, 455
+  size: 185, 140
+  orig: 200, 200
+  offset: 12, 32
+  index: -1
+images/baolizi1/lizi_00006
+  rotate: false
+  xy: 818, 581
+  size: 127, 81
+  orig: 200, 200
+  offset: 45, 50
+  index: -1
+images/baolizi1/lizi_00008
+  rotate: true
+  xy: 259, 231
+  size: 172, 124
+  orig: 200, 200
+  offset: 18, 36
+  index: -1
+images/baolizi1/lizi_00010
+  rotate: false
+  xy: 629, 564
+  size: 187, 110
+  orig: 200, 200
+  offset: 13, 33
+  index: -1
+images/baolizi1/lizi_00012
+  rotate: false
+  xy: 2, 221
+  size: 200, 135
+  orig: 200, 200
+  offset: 0, 24
+  index: -1
+images/baolizi1/lizi_00014
+  rotate: false
+  xy: 656, 676
+  size: 165, 128
+  orig: 200, 200
+  offset: 0, 44
+  index: -1
+images/baolizi2/lizi_00006
+  rotate: false
+  xy: 571, 369
+  size: 127, 81
+  orig: 200, 200
+  offset: 45, 50
+  index: -1
+images/baolizi2/lizi_00008
+  rotate: false
+  xy: 385, 276
+  size: 172, 124
+  orig: 200, 200
+  offset: 18, 36
+  index: -1
+images/baolizi2/lizi_00010
+  rotate: false
+  xy: 583, 452
+  size: 187, 110
+  orig: 200, 200
+  offset: 13, 33
+  index: -1
+images/baolizi2/lizi_00012
+  rotate: false
+  xy: 2, 84
+  size: 200, 135
+  orig: 200, 200
+  offset: 0, 24
+  index: -1
+images/baolizi2/lizi_00014
+  rotate: false
+  xy: 385, 146
+  size: 165, 128
+  orig: 200, 200
+  offset: 0, 44
+  index: -1
+images/beijing
+  rotate: false
+  xy: 700, 385
+  size: 66, 65
+  orig: 66, 65
+  offset: 0, 0
+  index: -1
+images/guangxian_000
+  rotate: false
+  xy: 2, 806
+  size: 400, 200
+  orig: 400, 200
+  offset: 0, 0
+  index: -1
+images/guangxianlv_00007
+  rotate: false
+  xy: 2, 604
+  size: 400, 200
+  orig: 400, 200
+  offset: 0, 0
+  index: -1
+images/guangxianzi_00007
+  rotate: false
+  xy: 404, 806
+  size: 400, 200
+  orig: 400, 200
+  offset: 0, 0
+  index: -1
+images/kuang/kuang_00028
+  rotate: false
+  xy: 2, 470
+  size: 250, 132
+  orig: 250, 150
+  offset: 0, 5
+  index: -1
+images/kuang/kuang_00030
+  rotate: false
+  xy: 404, 679
+  size: 250, 125
+  orig: 250, 150
+  offset: 0, 9
+  index: -1
+images/kuang/kuang_00032
+  rotate: false
+  xy: 2, 358
+  size: 250, 110
+  orig: 250, 150
+  offset: 0, 17
+  index: -1
+images/kuang/kuang_00034
+  rotate: false
+  xy: 404, 597
+  size: 223, 80
+  orig: 250, 150
+  offset: 6, 30
+  index: -1
+images/kuang/kuang_00036
+  rotate: false
+  xy: 2, 11
+  size: 212, 71
+  orig: 250, 150
+  offset: 11, 35
+  index: -1
+images/kuang/kuang_00038
+  rotate: true
+  xy: 204, 181
+  size: 175, 53
+  orig: 250, 150
+  offset: 28, 44
+  index: -1
+images/kuang/kuang_00040
+  rotate: false
+  xy: 396, 402
+  size: 173, 51
+  orig: 250, 150
+  offset: 28, 44
+  index: -1
+images/kuang/kuang_00042
+  rotate: false
+  xy: 385, 93
+  size: 165, 51
+  orig: 250, 150
+  offset: 28, 44
+  index: -1
+images/kuang/kuang_00044
+  rotate: false
+  xy: 823, 664
+  size: 140, 52
+  orig: 250, 150
+  offset: 28, 44
+  index: -1
+images/lvbeijing
+  rotate: false
+  xy: 559, 302
+  size: 66, 65
+  orig: 66, 65
+  offset: 0, 0
+  index: -1
+images/zibeijing
+  rotate: false
+  xy: 627, 303
+  size: 67, 64
+  orig: 67, 64
+  offset: 0, 0
+  index: -1

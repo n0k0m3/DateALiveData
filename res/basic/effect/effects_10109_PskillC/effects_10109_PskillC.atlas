@@ -1,0 +1,704 @@
+
+effects_10109_PskillC.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+PskillC/canying3/canying3_000
+  rotate: false
+  xy: 958, 882
+  size: 60, 140
+  orig: 60, 140
+  offset: 0, 0
+  index: -1
+PskillC/canying3/canying3_001
+  rotate: false
+  xy: 962, 72
+  size: 60, 140
+  orig: 60, 140
+  offset: 0, 0
+  index: -1
+PskillC/chongji/chongji_000
+  rotate: true
+  xy: 220, 310
+  size: 300, 100
+  orig: 300, 100
+  offset: 0, 0
+  index: -1
+PskillC/chongji/chongji_002
+  rotate: false
+  xy: 656, 922
+  size: 300, 100
+  orig: 300, 100
+  offset: 0, 0
+  index: -1
+PskillC/chongji/chongji_004
+  rotate: true
+  xy: 322, 310
+  size: 300, 100
+  orig: 300, 100
+  offset: 0, 0
+  index: -1
+PskillC/chongji/chongji_006
+  rotate: false
+  xy: 656, 820
+  size: 300, 100
+  orig: 300, 100
+  offset: 0, 0
+  index: -1
+PskillC/chongji/chongji_008
+  rotate: true
+  xy: 424, 310
+  size: 300, 100
+  orig: 300, 100
+  offset: 0, 0
+  index: -1
+PskillC/chongji/chongji_010
+  rotate: false
+  xy: 220, 208
+  size: 300, 100
+  orig: 300, 100
+  offset: 0, 0
+  index: -1
+PskillC/chongji/chongji_014
+  rotate: false
+  xy: 220, 208
+  size: 300, 100
+  orig: 300, 100
+  offset: 0, 0
+  index: -1
+PskillC/chongji/chongji_012
+  rotate: true
+  xy: 526, 314
+  size: 300, 100
+  orig: 300, 100
+  offset: 0, 0
+  index: -1
+PskillC/daoguang1/daoguang1_000
+  rotate: false
+  xy: 522, 85
+  size: 260, 125
+  orig: 260, 125
+  offset: 0, 0
+  index: -1
+PskillC/daoguang2/daoguang2_000
+  rotate: false
+  xy: 506, 8
+  size: 150, 75
+  orig: 150, 75
+  offset: 0, 0
+  index: -1
+PskillC/daoguang2/daoguang2_001
+  rotate: false
+  xy: 658, 8
+  size: 150, 75
+  orig: 150, 75
+  offset: 0, 0
+  index: -1
+PskillC/daoguang2/daoguang2_002
+  rotate: false
+  xy: 810, 8
+  size: 150, 75
+  orig: 150, 75
+  offset: 0, 0
+  index: -1
+PskillC/demo/demo_000
+  rotate: true
+  xy: 2, 8
+  size: 190, 200
+  orig: 190, 200
+  offset: 0, 0
+  index: -1
+PskillC/demo/demo_002
+  rotate: false
+  xy: 640, 616
+  size: 190, 200
+  orig: 190, 200
+  offset: 0, 0
+  index: -1
+PskillC/demo/demo_004
+  rotate: false
+  xy: 832, 618
+  size: 190, 200
+  orig: 190, 200
+  offset: 0, 0
+  index: -1
+PskillC/demo/demo_006
+  rotate: false
+  xy: 832, 416
+  size: 190, 200
+  orig: 190, 200
+  offset: 0, 0
+  index: -1
+PskillC/demo/demo_008
+  rotate: false
+  xy: 832, 214
+  size: 190, 200
+  orig: 190, 200
+  offset: 0, 0
+  index: -1
+PskillC/dihuo/dihuo_016
+  rotate: false
+  xy: 784, 85
+  size: 165, 125
+  orig: 165, 125
+  offset: 0, 0
+  index: -1
+PskillC/huoxing/huoxing_128
+  rotate: false
+  xy: 2, 818
+  size: 216, 204
+  orig: 216, 204
+  offset: 0, 0
+  index: -1
+PskillC/huoxing/huoxing_130
+  rotate: false
+  xy: 2, 612
+  size: 216, 204
+  orig: 216, 204
+  offset: 0, 0
+  index: -1
+PskillC/huoxing/huoxing_132
+  rotate: false
+  xy: 220, 818
+  size: 216, 204
+  orig: 216, 204
+  offset: 0, 0
+  index: -1
+PskillC/huoxing/huoxing_134
+  rotate: false
+  xy: 2, 406
+  size: 216, 204
+  orig: 216, 204
+  offset: 0, 0
+  index: -1
+PskillC/huoxing/huoxing_136
+  rotate: false
+  xy: 220, 612
+  size: 216, 204
+  orig: 216, 204
+  offset: 0, 0
+  index: -1
+PskillC/huoxing/huoxing_138
+  rotate: false
+  xy: 438, 818
+  size: 216, 204
+  orig: 216, 204
+  offset: 0, 0
+  index: -1
+PskillC/huoxing/huoxing_140
+  rotate: false
+  xy: 2, 200
+  size: 216, 204
+  orig: 216, 204
+  offset: 0, 0
+  index: -1
+PskillC/xialuo/xialuo_001
+  rotate: false
+  xy: 628, 314
+  size: 100, 300
+  orig: 100, 300
+  offset: 0, 0
+  index: -1
+PskillC/xialuo/xialuo_003
+  rotate: true
+  xy: 220, 106
+  size: 100, 300
+  orig: 100, 300
+  offset: 0, 0
+  index: -1
+PskillC/xialuo/xialuo_005
+  rotate: true
+  xy: 204, 4
+  size: 100, 300
+  orig: 100, 300
+  offset: 0, 0
+  index: -1
+PskillC/xialuo/xialuo_007
+  rotate: false
+  xy: 730, 314
+  size: 100, 300
+  orig: 100, 300
+  offset: 0, 0
+  index: -1
+PskillC/xialuo/xialuo_009
+  rotate: true
+  xy: 526, 212
+  size: 100, 300
+  orig: 100, 300
+  offset: 0, 0
+  index: -1
+tongyong/baidaoguang/baidaoguang_001
+  rotate: false
+  xy: 438, 616
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+
+effects_10109_PskillC2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+PskillC/canying/canying_000
+  rotate: true
+  xy: 780, 626
+  size: 134, 150
+  orig: 134, 150
+  offset: 0, 0
+  index: -1
+PskillC/canying2/canying2_001
+  rotate: false
+  xy: 895, 154
+  size: 100, 75
+  orig: 100, 75
+  offset: 0, 0
+  index: -1
+PskillC/canying3/canying3_002
+  rotate: true
+  xy: 194, 2
+  size: 60, 140
+  orig: 60, 140
+  offset: 0, 0
+  index: -1
+PskillC/canying3/canying3_003
+  rotate: true
+  xy: 840, 373
+  size: 60, 140
+  orig: 60, 140
+  offset: 0, 0
+  index: -1
+PskillC/canying3/canying3_004
+  rotate: false
+  xy: 942, 231
+  size: 60, 140
+  orig: 60, 140
+  offset: 0, 0
+  index: -1
+PskillC/daoguang1/daoguang1_001
+  rotate: true
+  xy: 790, 762
+  size: 260, 125
+  orig: 260, 125
+  offset: 0, 0
+  index: -1
+PskillC/daoguang1/daoguang1_003
+  rotate: true
+  xy: 386, 156
+  size: 260, 125
+  orig: 260, 125
+  offset: 0, 0
+  index: -1
+PskillC/daoguang1/daoguang1_005
+  rotate: false
+  xy: 578, 493
+  size: 260, 125
+  orig: 260, 125
+  offset: 0, 0
+  index: -1
+PskillC/daoguang1/daoguang1_007
+  rotate: false
+  xy: 578, 366
+  size: 260, 125
+  orig: 260, 125
+  offset: 0, 0
+  index: -1
+PskillC/daoguang1/daoguang1_009
+  rotate: false
+  xy: 513, 239
+  size: 260, 125
+  orig: 260, 125
+  offset: 0, 0
+  index: -1
+PskillC/daoguangyuan/daoguangyuan_000
+  rotate: false
+  xy: 194, 64
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+PskillC/daoguangyuan/daoguangyuan_002
+  rotate: false
+  xy: 346, 2
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+PskillC/daoguangyuan/daoguangyuan_004
+  rotate: false
+  xy: 498, 2
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+PskillC/daoguangyuan/daoguangyuan_006
+  rotate: false
+  xy: 650, 2
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+PskillC/daoguangyuan/daoguangyuan_008
+  rotate: false
+  xy: 802, 2
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+PskillC/demo/demo_022
+  rotate: false
+  xy: 2, 418
+  size: 190, 200
+  orig: 190, 200
+  offset: 0, 0
+  index: -1
+PskillC/demo/demo_024
+  rotate: false
+  xy: 204, 620
+  size: 190, 200
+  orig: 190, 200
+  offset: 0, 0
+  index: -1
+PskillC/demo/demo_026
+  rotate: false
+  xy: 406, 822
+  size: 190, 200
+  orig: 190, 200
+  offset: 0, 0
+  index: -1
+PskillC/demo/demo_028
+  rotate: false
+  xy: 2, 216
+  size: 190, 200
+  orig: 190, 200
+  offset: 0, 0
+  index: -1
+PskillC/demo/demo_030
+  rotate: false
+  xy: 194, 418
+  size: 190, 200
+  orig: 190, 200
+  offset: 0, 0
+  index: -1
+PskillC/demo/demo_032
+  rotate: false
+  xy: 396, 620
+  size: 190, 200
+  orig: 190, 200
+  offset: 0, 0
+  index: -1
+PskillC/demo/demo_034
+  rotate: false
+  xy: 598, 822
+  size: 190, 200
+  orig: 190, 200
+  offset: 0, 0
+  index: -1
+PskillC/demo/demo_036
+  rotate: false
+  xy: 2, 14
+  size: 190, 200
+  orig: 190, 200
+  offset: 0, 0
+  index: -1
+PskillC/demo/demo_038
+  rotate: false
+  xy: 194, 216
+  size: 190, 200
+  orig: 190, 200
+  offset: 0, 0
+  index: -1
+PskillC/demo/demo_040
+  rotate: false
+  xy: 386, 418
+  size: 190, 200
+  orig: 190, 200
+  offset: 0, 0
+  index: -1
+PskillC/demo/demo_042
+  rotate: false
+  xy: 588, 620
+  size: 190, 200
+  orig: 190, 200
+  offset: 0, 0
+  index: -1
+PskillC/di/di_006
+  rotate: true
+  xy: 917, 833
+  size: 189, 83
+  orig: 189, 83
+  offset: 0, 0
+  index: -1
+PskillC/di/di_009
+  rotate: false
+  xy: 513, 154
+  size: 189, 83
+  orig: 189, 83
+  offset: 0, 0
+  index: -1
+PskillC/di/di_012
+  rotate: true
+  xy: 840, 435
+  size: 189, 83
+  orig: 189, 83
+  offset: 0, 0
+  index: -1
+PskillC/di/di_015
+  rotate: false
+  xy: 704, 154
+  size: 189, 83
+  orig: 189, 83
+  offset: 0, 0
+  index: -1
+PskillC/di/di_018
+  rotate: true
+  xy: 925, 435
+  size: 189, 83
+  orig: 189, 83
+  offset: 0, 0
+  index: -1
+PskillC/di/di_022
+  rotate: true
+  xy: 932, 642
+  size: 189, 83
+  orig: 189, 83
+  offset: 0, 0
+  index: -1
+PskillC/dihuo/dihuo_020
+  rotate: false
+  xy: 775, 239
+  size: 165, 125
+  orig: 165, 125
+  offset: 0, 0
+  index: -1
+bai_000
+  rotate: true
+  xy: 954, 83
+  size: 69, 32
+  orig: 69, 32
+  offset: 0, 0
+  index: -1
+guangxian_000
+  rotate: true
+  xy: 997, 139
+  size: 90, 25
+  orig: 90, 25
+  offset: 0, 0
+  index: -1
+tongyong/baidaoguang/baidaoguang_003
+  rotate: false
+  xy: 2, 822
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+tongyong/baidaoguang/baidaoguang_005
+  rotate: false
+  xy: 2, 620
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+tongyong/baidaoguang/baidaoguang_007
+  rotate: false
+  xy: 204, 822
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+
+effects_10109_PskillC3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+PskillC/canying/canying_002
+  rotate: false
+  xy: 154, 505
+  size: 134, 150
+  orig: 134, 150
+  offset: 0, 0
+  index: -1
+PskillC/canying/canying_004
+  rotate: false
+  xy: 129, 353
+  size: 134, 150
+  orig: 134, 150
+  offset: 0, 0
+  index: -1
+PskillC/canying/canying_006
+  rotate: false
+  xy: 129, 201
+  size: 134, 150
+  orig: 134, 150
+  offset: 0, 0
+  index: -1
+PskillC/canying/canying_008
+  rotate: false
+  xy: 129, 49
+  size: 134, 150
+  orig: 134, 150
+  offset: 0, 0
+  index: -1
+PskillC/canying/canying_010
+  rotate: true
+  xy: 688, 713
+  size: 134, 150
+  orig: 134, 150
+  offset: 0, 0
+  index: -1
+PskillC/canying/canying_012
+  rotate: false
+  xy: 840, 697
+  size: 134, 150
+  orig: 134, 150
+  offset: 0, 0
+  index: -1
+PskillC/canying/canying_014
+  rotate: false
+  xy: 290, 535
+  size: 134, 150
+  orig: 134, 150
+  offset: 0, 0
+  index: -1
+PskillC/canying/canying_016
+  rotate: true
+  xy: 433, 628
+  size: 134, 150
+  orig: 134, 150
+  offset: 0, 0
+  index: -1
+PskillC/canying2/canying2_003
+  rotate: false
+  xy: 585, 687
+  size: 100, 75
+  orig: 100, 75
+  offset: 0, 0
+  index: -1
+PskillC/canying2/canying2_004
+  rotate: false
+  xy: 585, 610
+  size: 100, 75
+  orig: 100, 75
+  offset: 0, 0
+  index: -1
+PskillC/canying2/canying2_005
+  rotate: false
+  xy: 687, 636
+  size: 100, 75
+  orig: 100, 75
+  offset: 0, 0
+  index: -1
+PskillC/daoguang2/daoguang2_003
+  rotate: false
+  xy: 281, 687
+  size: 150, 75
+  orig: 150, 75
+  offset: 0, 0
+  index: -1
+PskillC/daoguang2/daoguang2_005
+  rotate: false
+  xy: 426, 551
+  size: 150, 75
+  orig: 150, 75
+  offset: 0, 0
+  index: -1
+PskillC/daoguangyuan/daoguangyuan_010
+  rotate: false
+  xy: 2, 824
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+PskillC/daoguangyuan/daoguangyuan_012
+  rotate: false
+  xy: 2, 672
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+PskillC/daoguangyuan/daoguangyuan_014
+  rotate: false
+  xy: 154, 824
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+PskillC/daoguangyuan/daoguangyuan_016
+  rotate: false
+  xy: 2, 520
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+PskillC/di/di_024
+  rotate: false
+  xy: 306, 764
+  size: 189, 83
+  orig: 189, 83
+  offset: 0, 0
+  index: -1
+PskillC/di/di_026
+  rotate: false
+  xy: 497, 764
+  size: 189, 83
+  orig: 189, 83
+  offset: 0, 0
+  index: -1
+PskillC/dihuo/dihuo_024
+  rotate: true
+  xy: 154, 657
+  size: 165, 125
+  orig: 165, 125
+  offset: 0, 0
+  index: -1
+PskillC/dihuo/dihuo_028
+  rotate: false
+  xy: 306, 849
+  size: 165, 125
+  orig: 165, 125
+  offset: 0, 0
+  index: -1
+PskillC/dihuo/dihuo_032
+  rotate: true
+  xy: 2, 353
+  size: 165, 125
+  orig: 165, 125
+  offset: 0, 0
+  index: -1
+PskillC/dihuo/dihuo_034
+  rotate: false
+  xy: 473, 849
+  size: 165, 125
+  orig: 165, 125
+  offset: 0, 0
+  index: -1
+PskillC/dihuo/dihuo_036
+  rotate: true
+  xy: 2, 186
+  size: 165, 125
+  orig: 165, 125
+  offset: 0, 0
+  index: -1
+PskillC/dihuo/dihuo_038
+  rotate: false
+  xy: 640, 849
+  size: 165, 125
+  orig: 165, 125
+  offset: 0, 0
+  index: -1
+PskillC/dihuo/dihuo_040
+  rotate: true
+  xy: 2, 19
+  size: 165, 125
+  orig: 165, 125
+  offset: 0, 0
+  index: -1
+PskillC/dihuo/dihuo_042
+  rotate: false
+  xy: 807, 849
+  size: 165, 125
+  orig: 165, 125
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,125 @@
+
+effects_Fbullets_10.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/xuli/xuli_00000
+  rotate: false
+  xy: 2, 759
+  size: 264, 263
+  orig: 300, 300
+  offset: 6, 3
+  index: -1
+images/xuli/xuli_00001
+  rotate: false
+  xy: 2, 523
+  size: 233, 234
+  orig: 300, 300
+  offset: 27, 20
+  index: -1
+images/xuli/xuli_00002
+  rotate: false
+  xy: 268, 819
+  size: 203, 203
+  orig: 300, 300
+  offset: 48, 38
+  index: -1
+images/xuli/xuli_00003
+  rotate: false
+  xy: 2, 348
+  size: 173, 173
+  orig: 300, 300
+  offset: 68, 56
+  index: -1
+images/xuli/xuli_00004
+  rotate: false
+  xy: 473, 879
+  size: 155, 143
+  orig: 300, 300
+  offset: 75, 75
+  index: -1
+images/xuli/xuli_00005
+  rotate: false
+  xy: 2, 208
+  size: 128, 138
+  orig: 300, 300
+  offset: 85, 82
+  index: -1
+images/zidan/zidan_00000
+  rotate: true
+  xy: 268, 717
+  size: 100, 108
+  orig: 150, 150
+  offset: 20, 19
+  index: -1
+images/zidan/zidan_00002
+  rotate: false
+  xy: 378, 713
+  size: 96, 104
+  orig: 150, 150
+  offset: 22, 21
+  index: -1
+images/zidan/zidan_00004
+  rotate: false
+  xy: 733, 914
+  size: 101, 108
+  orig: 150, 150
+  offset: 19, 19
+  index: -1
+images/zidan/zidan_00006
+  rotate: true
+  xy: 2, 2
+  size: 92, 100
+  orig: 150, 150
+  offset: 24, 23
+  index: -1
+images/zidan/zidan_00008
+  rotate: false
+  xy: 836, 914
+  size: 101, 108
+  orig: 150, 150
+  offset: 19, 19
+  index: -1
+images/zidan/zidan_00010
+  rotate: false
+  xy: 343, 513
+  size: 90, 96
+  orig: 150, 150
+  offset: 25, 25
+  index: -1
+images/zidan/zidan_00012
+  rotate: true
+  xy: 237, 510
+  size: 97, 104
+  orig: 150, 150
+  offset: 21, 21
+  index: -1
+images/zidan/zidan_00014
+  rotate: false
+  xy: 237, 609
+  size: 98, 106
+  orig: 150, 150
+  offset: 21, 20
+  index: -1
+images/zidan/zidan_00016
+  rotate: false
+  xy: 337, 611
+  size: 93, 100
+  orig: 150, 150
+  offset: 23, 23
+  index: -1
+images/zidan/zidan_00018
+  rotate: false
+  xy: 630, 912
+  size: 101, 110
+  orig: 150, 150
+  offset: 19, 18
+  index: -1
+images/zidan/zidan_00020
+  rotate: false
+  xy: 2, 96
+  size: 101, 110
+  orig: 150, 150
+  offset: 19, 18
+  index: -1

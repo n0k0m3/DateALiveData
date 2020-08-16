@@ -1,0 +1,711 @@
+
+effects_12301_skillD.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skillD/boom/boom_004
+  rotate: false
+  xy: 354, 3
+  size: 205, 197
+  orig: 210, 210
+  offset: 2, 0
+  index: -1
+effects/skillD/boom/boom_006
+  rotate: true
+  xy: 827, 17
+  size: 204, 194
+  orig: 210, 210
+  offset: 3, 1
+  index: -1
+effects/skillD/feng/feng_015
+  rotate: true
+  xy: 782, 766
+  size: 256, 221
+  orig: 280, 280
+  offset: 11, 26
+  index: -1
+effects/skillD/feng/feng_019
+  rotate: true
+  xy: 783, 490
+  size: 274, 226
+  orig: 280, 280
+  offset: 4, 17
+  index: -1
+effects/skillD/feng/feng_021
+  rotate: true
+  xy: 558, 214
+  size: 272, 237
+  orig: 280, 280
+  offset: 6, 12
+  index: -1
+effects/skillD/feng/feng_023
+  rotate: true
+  xy: 535, 488
+  size: 268, 246
+  orig: 280, 280
+  offset: 7, 3
+  index: -1
+effects/skillD/guangzhu/guangzhu_001
+  rotate: false
+  xy: 797, 223
+  size: 225, 265
+  orig: 280, 280
+  offset: 31, 2
+  index: -1
+effects/skillD/guangzhu/guangzhu_002
+  rotate: true
+  xy: 561, 2
+  size: 210, 264
+  orig: 280, 280
+  offset: 34, 3
+  index: -1
+effects/skillD/guangzhu/guangzhu_003
+  rotate: false
+  xy: 276, 202
+  size: 280, 264
+  orig: 280, 280
+  offset: 0, 3
+  index: -1
+effects/skillD/guangzhu/guangzhu_004
+  rotate: false
+  xy: 530, 758
+  size: 250, 264
+  orig: 280, 280
+  offset: 15, 3
+  index: -1
+effects/skillD/guangzhu/guangzhu_005
+  rotate: false
+  xy: 278, 746
+  size: 250, 276
+  orig: 280, 280
+  offset: 17, 3
+  index: -1
+effects/skillD/guangzhu/guangzhu_007
+  rotate: false
+  xy: 277, 468
+  size: 256, 276
+  orig: 280, 280
+  offset: 11, 3
+  index: -1
+effects/skillD/guangzhu/guangzhu_009
+  rotate: false
+  xy: 2, 468
+  size: 273, 276
+  orig: 280, 280
+  offset: 4, 3
+  index: -1
+effects/skillD/guangzhu/guangzhu_011
+  rotate: false
+  xy: 2, 746
+  size: 274, 276
+  orig: 280, 280
+  offset: 4, 3
+  index: -1
+effects/skillD/guangzhu/guangzhu_013
+  rotate: false
+  xy: 2, 190
+  size: 272, 276
+  orig: 280, 280
+  offset: 6, 3
+  index: -1
+effects/skillD/show/BG_000
+  rotate: false
+  xy: 2, 13
+  size: 350, 175
+  orig: 350, 175
+  offset: 0, 0
+  index: -1
+
+effects_12301_skillD2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skillD/boom/boom_000
+  rotate: false
+  xy: 822, 8
+  size: 138, 117
+  orig: 210, 210
+  offset: 38, 43
+  index: -1
+effects/skillD/boom/boom_002
+  rotate: true
+  xy: 304, 9
+  size: 195, 191
+  orig: 210, 210
+  offset: 8, 3
+  index: -1
+effects/skillD/boom/boom_008
+  rotate: true
+  xy: 804, 636
+  size: 196, 160
+  orig: 210, 210
+  offset: 7, 28
+  index: -1
+effects/skillD/boom/boom_010
+  rotate: true
+  xy: 803, 127
+  size: 171, 159
+  orig: 210, 210
+  offset: 20, 28
+  index: -1
+effects/skillD/chuanci/chuanci_000
+  rotate: false
+  xy: 245, 206
+  size: 251, 72
+  orig: 350, 84
+  offset: 4, 6
+  index: -1
+effects/skillD/chuanci/chuanci_001
+  rotate: true
+  xy: 2, 461
+  size: 333, 84
+  orig: 350, 84
+  offset: 1, 0
+  index: -1
+effects/skillD/chuanci/chuanci_002
+  rotate: false
+  xy: 277, 947
+  size: 339, 75
+  orig: 350, 84
+  offset: 3, 3
+  index: -1
+effects/skillD/chuanci/chuanci_003
+  rotate: true
+  xy: 2, 123
+  size: 336, 77
+  orig: 350, 84
+  offset: 6, 4
+  index: -1
+effects/skillD/chuanci/chuanci_005
+  rotate: false
+  xy: 277, 873
+  size: 334, 72
+  orig: 350, 84
+  offset: 12, 6
+  index: -1
+effects/skillD/chuanci/chuanci_007
+  rotate: false
+  xy: 613, 874
+  size: 319, 63
+  orig: 350, 84
+  offset: 24, 11
+  index: -1
+effects/skillD/chuanci/chuanci_009
+  rotate: false
+  xy: 613, 834
+  size: 294, 38
+  orig: 350, 84
+  offset: 49, 22
+  index: -1
+effects/skillD/daoju/daoju_005
+  rotate: false
+  xy: 133, 2
+  size: 169, 152
+  orig: 189, 189
+  offset: 8, 4
+  index: -1
+effects/skillD/daoju/daoju_007
+  rotate: false
+  xy: 783, 300
+  size: 170, 175
+  orig: 189, 189
+  offset: 11, 3
+  index: -1
+effects/skillD/daoju/daoju_009
+  rotate: true
+  xy: 776, 477
+  size: 157, 177
+  orig: 189, 189
+  offset: 24, 8
+  index: -1
+effects/skillD/fazhen/xunhuan/xunhuan_000
+  rotate: true
+  xy: 81, 156
+  size: 303, 80
+  orig: 315, 105
+  offset: 6, 8
+  index: -1
+effects/skillD/fazhen/xunhuan/xunhuan_002
+  rotate: false
+  xy: 258, 534
+  size: 309, 82
+  orig: 315, 105
+  offset: 3, 7
+  index: -1
+effects/skillD/fazhen/xunhuan/xunhuan_004
+  rotate: false
+  xy: 258, 703
+  size: 311, 83
+  orig: 315, 105
+  offset: 2, 6
+  index: -1
+effects/skillD/fazhen/xunhuan/xunhuan_006
+  rotate: true
+  xy: 88, 479
+  size: 315, 83
+  orig: 315, 105
+  offset: 0, 6
+  index: -1
+effects/skillD/fazhen/xunhuan/xunhuan_008
+  rotate: true
+  xy: 173, 479
+  size: 315, 83
+  orig: 315, 105
+  offset: 0, 6
+  index: -1
+effects/skillD/fazhen/xunhuan/xunhuan_010
+  rotate: true
+  xy: 163, 174
+  size: 303, 80
+  orig: 315, 105
+  offset: 6, 8
+  index: -1
+effects/skillD/fazhen/xunhuan/xunhuan_012
+  rotate: false
+  xy: 258, 450
+  size: 309, 82
+  orig: 315, 105
+  offset: 3, 7
+  index: -1
+effects/skillD/fazhen/xunhuan/xunhuan_014
+  rotate: false
+  xy: 258, 618
+  size: 311, 83
+  orig: 315, 105
+  offset: 2, 6
+  index: -1
+effects/skillD/fazhen/xunhuan/xunhuan_016
+  rotate: false
+  xy: 618, 939
+  size: 315, 83
+  orig: 315, 105
+  offset: 0, 6
+  index: -1
+effects/skillD/fazhen/xunhuan/xunhuan_018
+  rotate: false
+  xy: 277, 788
+  size: 315, 83
+  orig: 315, 105
+  offset: 0, 6
+  index: -1
+effects/skillD/feng/feng_017
+  rotate: false
+  xy: 2, 796
+  size: 273, 226
+  orig: 280, 280
+  offset: 4, 19
+  index: -1
+effects/skillD/geziqiu/geziqiu_003
+  rotate: false
+  xy: 472, 280
+  size: 133, 168
+  orig: 154, 245
+  offset: 9, 43
+  index: -1
+effects/skillD/guangxian_000
+  rotate: true
+  xy: 964, 168
+  size: 136, 45
+  orig: 140, 49
+  offset: 2, 3
+  index: -1
+effects/skillD/guangzhu/guangzhu_000
+  rotate: false
+  xy: 245, 280
+  size: 225, 168
+  orig: 280, 280
+  offset: 31, 2
+  index: -1
+effects/skillD/lizi/lizi_008
+  rotate: false
+  xy: 2, 2
+  size: 129, 119
+  orig: 140, 140
+  offset: 6, 15
+  index: -1
+effects/skillD/quange/quange_001
+  rotate: true
+  xy: 966, 883
+  size: 139, 56
+  orig: 175, 70
+  offset: 18, 7
+  index: -1
+effects/skillD/quange/quange_005
+  rotate: true
+  xy: 739, 110
+  size: 168, 62
+  orig: 175, 70
+  offset: 4, 3
+  index: -1
+effects/skillD/show/dianlu/dianlu_000
+  rotate: true
+  xy: 966, 803
+  size: 78, 56
+  orig: 210, 70
+  offset: 129, 6
+  index: -1
+effects/skillD/show/dianlu/dianlu_002
+  rotate: true
+  xy: 497, 2
+  size: 202, 65
+  orig: 210, 70
+  offset: 0, 3
+  index: -1
+effects/skillD/show/dianlu/dianlu_004
+  rotate: true
+  xy: 955, 452
+  size: 182, 66
+  orig: 210, 70
+  offset: 0, 3
+  index: -1
+effects/skillD/show/dianlu/dianlu_006
+  rotate: true
+  xy: 955, 306
+  size: 144, 62
+  orig: 210, 70
+  offset: 0, 6
+  index: -1
+effects/skillD/show/dianlu/dianlu_008
+  rotate: true
+  xy: 761, 2
+  size: 106, 59
+  orig: 210, 70
+  offset: 0, 8
+  index: -1
+effects/skillD/show/juqi/juqi_001
+  rotate: true
+  xy: 966, 706
+  size: 95, 52
+  orig: 210, 210
+  offset: 109, 87
+  index: -1
+effects/skillD/show/juqi/juqi_003
+  rotate: false
+  xy: 564, 11
+  size: 195, 97
+  orig: 210, 210
+  offset: 6, 47
+  index: -1
+effects/skillD/show/juqi/juqi_007
+  rotate: false
+  xy: 564, 110
+  size: 173, 168
+  orig: 210, 210
+  offset: 16, 0
+  index: -1
+effects/skillD/show/juqi/juqi_009
+  rotate: true
+  xy: 594, 654
+  size: 178, 208
+  orig: 210, 210
+  offset: 22, 2
+  index: -1
+effects/skillD/show/juqi/juqi_011
+  rotate: true
+  xy: 571, 474
+  size: 178, 203
+  orig: 210, 210
+  offset: 17, 6
+  index: -1
+effects/skillD/show/juqi/juqi_013
+  rotate: false
+  xy: 607, 280
+  size: 174, 192
+  orig: 210, 210
+  offset: 18, 15
+  index: -1
+
+effects_12301_skillD3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skillD/bai_000
+  rotate: false
+  xy: 134, 23
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+effects/skillD/dalizi/dalizi_001
+  rotate: false
+  xy: 291, 530
+  size: 140, 154
+  orig: 210, 175
+  offset: 35, 4
+  index: -1
+effects/skillD/dalizi/dalizi_003
+  rotate: false
+  xy: 845, 869
+  size: 156, 153
+  orig: 210, 175
+  offset: 32, 10
+  index: -1
+effects/skillD/dalizi/dalizi_005
+  rotate: false
+  xy: 136, 528
+  size: 153, 156
+  orig: 210, 175
+  offset: 28, 14
+  index: -1
+effects/skillD/dalizi/dalizi_007
+  rotate: true
+  xy: 2, 175
+  size: 161, 135
+  orig: 210, 175
+  offset: 24, 16
+  index: -1
+effects/skillD/daoju/daoju_001
+  rotate: false
+  xy: 944, 609
+  size: 76, 115
+  orig: 189, 189
+  offset: 98, 19
+  index: -1
+effects/skillD/daoju/daoju_002
+  rotate: false
+  xy: 526, 881
+  size: 158, 141
+  orig: 189, 189
+  offset: 11, 17
+  index: -1
+effects/skillD/daoju/daoju_003
+  rotate: false
+  xy: 433, 586
+  size: 153, 153
+  orig: 189, 189
+  offset: 7, 5
+  index: -1
+effects/skillD/daoju/daoju_011
+  rotate: true
+  xy: 352, 882
+  size: 140, 172
+  orig: 189, 189
+  offset: 40, 13
+  index: -1
+effects/skillD/daoju/daoju_013
+  rotate: true
+  xy: 167, 686
+  size: 130, 158
+  orig: 189, 189
+  offset: 37, 22
+  index: -1
+effects/skillD/geziqiu/geziqiu_000
+  rotate: true
+  xy: 433, 460
+  size: 124, 144
+  orig: 154, 245
+  offset: 16, 12
+  index: -1
+effects/skillD/geziqiu/geziqiu_001
+  rotate: false
+  xy: 2, 338
+  size: 129, 166
+  orig: 154, 245
+  offset: 9, 21
+  index: -1
+effects/skillD/geziqiu/geziqiu_002
+  rotate: false
+  xy: 2, 506
+  size: 132, 181
+  orig: 154, 245
+  offset: 9, 28
+  index: -1
+effects/skillD/glow
+  rotate: false
+  xy: 426, 747
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+effects/skillD/guangci2_000
+  rotate: false
+  xy: 139, 95
+  size: 103, 99
+  orig: 105, 105
+  offset: 1, 4
+  index: -1
+effects/skillD/guangci_000
+  rotate: false
+  xy: 802, 584
+  size: 140, 140
+  orig: 140, 140
+  offset: 0, 0
+  index: -1
+effects/skillD/keji2_000
+  rotate: false
+  xy: 579, 444
+  size: 140, 140
+  orig: 140, 140
+  offset: 0, 0
+  index: -1
+effects/skillD/keji_000
+  rotate: false
+  xy: 139, 298
+  size: 113, 112
+  orig: 126, 126
+  offset: 7, 8
+  index: -1
+effects/skillD/liubian/liubian_001
+  rotate: false
+  xy: 327, 715
+  size: 97, 101
+  orig: 140, 140
+  offset: 21, 19
+  index: -1
+effects/skillD/liubian/liubian_003
+  rotate: false
+  xy: 721, 456
+  size: 122, 126
+  orig: 140, 140
+  offset: 8, 7
+  index: -1
+effects/skillD/liubian/liubian_005
+  rotate: true
+  xy: 291, 392
+  size: 136, 140
+  orig: 140, 140
+  offset: 1, 0
+  index: -1
+effects/skillD/liubian/liubian_007
+  rotate: false
+  xy: 433, 318
+  size: 140, 140
+  orig: 140, 140
+  offset: 0, 0
+  index: -1
+effects/skillD/liubian/liubian_009
+  rotate: true
+  xy: 575, 305
+  size: 137, 140
+  orig: 140, 140
+  offset: 1, 0
+  index: -1
+effects/skillD/lizi/lizi_000
+  rotate: true
+  xy: 206, 22
+  size: 71, 68
+  orig: 140, 140
+  offset: 35, 37
+  index: -1
+effects/skillD/lizi/lizi_002
+  rotate: false
+  xy: 139, 196
+  size: 104, 100
+  orig: 140, 140
+  offset: 17, 23
+  index: -1
+effects/skillD/lizi/lizi_004
+  rotate: false
+  xy: 136, 412
+  size: 120, 114
+  orig: 140, 140
+  offset: 10, 17
+  index: -1
+effects/skillD/lizi/lizi_006
+  rotate: true
+  xy: 845, 454
+  size: 128, 119
+  orig: 140, 140
+  offset: 6, 15
+  index: -1
+effects/skillD/luoxian/luoxian_003
+  rotate: true
+  xy: 724, 592
+  size: 142, 76
+  orig: 147, 126
+  offset: 5, 37
+  index: -1
+effects/skillD/quange/quange_003
+  rotate: false
+  xy: 342, 819
+  size: 159, 61
+  orig: 175, 70
+  offset: 8, 4
+  index: -1
+effects/skillD/quange/quange_007
+  rotate: true
+  xy: 2, 2
+  size: 171, 63
+  orig: 175, 70
+  offset: 2, 3
+  index: -1
+effects/skillD/quange/quange_009
+  rotate: false
+  xy: 168, 818
+  size: 172, 63
+  orig: 175, 70
+  offset: 1, 3
+  index: -1
+effects/skillD/show/dao/dao_000
+  rotate: true
+  xy: 254, 311
+  size: 79, 118
+  orig: 175, 175
+  offset: 86, 42
+  index: -1
+effects/skillD/show/dao/dao_002
+  rotate: false
+  xy: 686, 877
+  size: 157, 145
+  orig: 175, 175
+  offset: 10, 9
+  index: -1
+effects/skillD/show/dao/dao_004
+  rotate: false
+  xy: 503, 741
+  size: 156, 138
+  orig: 175, 175
+  offset: 10, 8
+  index: -1
+effects/skillD/show/dao/dao_006
+  rotate: false
+  xy: 661, 736
+  size: 156, 139
+  orig: 175, 175
+  offset: 9, 8
+  index: -1
+effects/skillD/show/dao/dao_008
+  rotate: false
+  xy: 819, 726
+  size: 155, 141
+  orig: 175, 175
+  offset: 9, 8
+  index: -1
+effects/skillD/show/dianlu/dianlu_001
+  rotate: true
+  xy: 67, 6
+  size: 167, 65
+  orig: 210, 70
+  offset: 39, 2
+  index: -1
+effects/skillD/show/julizi/julizi_008
+  rotate: false
+  xy: 2, 852
+  size: 164, 170
+  orig: 210, 210
+  offset: 25, 26
+  index: -1
+effects/skillD/show/julizi/julizi_014
+  rotate: false
+  xy: 588, 586
+  size: 134, 148
+  orig: 210, 210
+  offset: 45, 30
+  index: -1
+effects/skillD/show/juqi/juqi_005
+  rotate: false
+  xy: 168, 883
+  size: 182, 139
+  orig: 210, 210
+  offset: 14, 7
+  index: -1
+effects/skillD/show/juqi/juqi_015
+  rotate: false
+  xy: 2, 689
+  size: 163, 161
+  orig: 210, 210
+  offset: 21, 43
+  index: -1

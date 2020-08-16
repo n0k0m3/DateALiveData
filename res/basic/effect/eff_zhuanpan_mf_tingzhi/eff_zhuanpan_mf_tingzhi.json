@@ -1,0 +1,52 @@
+{
+"skeleton": { "hash": "veUfMkzN+OVxwadP7uaZzrwPR/M", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "0000", "parent": "root" },
+	{ "name": "zhongjiang", "parent": "0000" }
+],
+"slots": [
+	{ "name": "zhongjiang/zhongjiang_00002", "bone": "zhongjiang", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"zhongjiang/zhongjiang_00002": {
+			"zhongjiang/zhongjiang_00002": { "x": -140.15, "y": 139.75, "width": 1386, "height": 640 },
+			"zhongjiang/zhongjiang_00003": { "x": -140.15, "y": 139.75, "width": 1386, "height": 640 },
+			"zhongjiang/zhongjiang_00004": { "x": -140.15, "y": 139.75, "width": 1386, "height": 640 },
+			"zhongjiang/zhongjiang_00005": { "x": -140.15, "y": 139.75, "width": 1386, "height": 640 },
+			"zhongjiang/zhongjiang_00006": { "x": -140.15, "y": 139.75, "width": 1386, "height": 640 },
+			"zhongjiang/zhongjiang_00007": { "x": -140.15, "y": 139.75, "width": 1386, "height": 640 },
+			"zhongjiang/zhongjiang_00008": { "x": -140.15, "y": 139.75, "width": 1386, "height": 640 },
+			"zhongjiang/zhongjiang_00009": { "x": -140.15, "y": 139.75, "width": 1386, "height": 640 },
+			"zhongjiang/zhongjiang_00010": { "x": -140.15, "y": 139.75, "width": 1386, "height": 640 },
+			"zhongjiang/zhongjiang_00011": { "x": -140.15, "y": 139.75, "width": 1386, "height": 640 },
+			"zhongjiang/zhongjiang_00012": { "x": -140.15, "y": 139.75, "width": 1386, "height": 640 },
+			"zhongjiang/zhongjiang_00013": { "x": -140.15, "y": 139.75, "width": 1386, "height": 640 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"zhongjiang/zhongjiang_00002": {
+				"attachment": [
+					{ "time": 0, "name": "zhongjiang/zhongjiang_00002" },
+					{ "time": 0.0333, "name": "zhongjiang/zhongjiang_00003" },
+					{ "time": 0.0666, "name": "zhongjiang/zhongjiang_00004" },
+					{ "time": 0.1, "name": "zhongjiang/zhongjiang_00005" },
+					{ "time": 0.1333, "name": "zhongjiang/zhongjiang_00006" },
+					{ "time": 0.1666, "name": "zhongjiang/zhongjiang_00007" },
+					{ "time": 0.2, "name": "zhongjiang/zhongjiang_00008" },
+					{ "time": 0.2333, "name": "zhongjiang/zhongjiang_00009" },
+					{ "time": 0.2666, "name": "zhongjiang/zhongjiang_00010" },
+					{ "time": 0.3, "name": "zhongjiang/zhongjiang_00011" },
+					{ "time": 0.3333, "name": "zhongjiang/zhongjiang_00012" },
+					{ "time": 0.3666, "name": "zhongjiang/zhongjiang_00013" },
+					{ "time": 0.4, "name": "zhongjiang/zhongjiang_00002" }
+				]
+			}
+		}
+	}
+}
+}

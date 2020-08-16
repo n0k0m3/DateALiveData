@@ -1,0 +1,13 @@
+
+effect_chunriji_touzi.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/touzidi
+  rotate: false
+  xy: 2, 2
+  size: 124, 128
+  orig: 150, 150
+  offset: 15, 10
+  index: -1

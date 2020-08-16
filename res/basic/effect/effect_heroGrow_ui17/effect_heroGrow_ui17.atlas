@@ -1,0 +1,34 @@
+
+effect_heroGrow_ui17.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+di_00000
+  rotate: false
+  xy: 2, 74
+  size: 77, 52
+  orig: 114, 75
+  offset: 18, 10
+  index: -1
+mian_00000
+  rotate: false
+  xy: 2, 39
+  size: 53, 33
+  orig: 75, 38
+  offset: 11, 5
+  index: -1
+zimu_00000
+  rotate: false
+  xy: 81, 115
+  size: 45, 11
+  orig: 75, 38
+  offset: 15, 13
+  index: -1
+zuibian_00000
+  rotate: false
+  xy: 2, 9
+  size: 19, 28
+  orig: 38, 38
+  offset: 10, 6
+  index: -1

@@ -1,0 +1,88 @@
+
+eff_DFW_changjing.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hua2
+  rotate: true
+  xy: 313, 76
+  size: 130, 179
+  orig: 130, 179
+  offset: 0, 0
+  index: -1
+shanzi2
+  rotate: false
+  xy: 313, 208
+  size: 189, 151
+  orig: 189, 151
+  offset: 0, 0
+  index: -1
+shenghzi
+  rotate: false
+  xy: 2, 58
+  size: 36, 444
+  orig: 36, 444
+  offset: 0, 0
+  index: -1
+shuzi1
+  rotate: false
+  xy: 40, 361
+  size: 425, 141
+  orig: 425, 141
+  offset: 0, 0
+  index: -1
+shuzi3
+  rotate: true
+  xy: 40, 25
+  size: 334, 271
+  orig: 334, 271
+  offset: 0, 0
+  index: -1
+
+eff_DFW_changjing2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shuzi2
+  rotate: false
+  xy: 2, 2
+  size: 417, 218
+  orig: 417, 218
+  offset: 0, 0
+  index: -1
+shuzi4
+  rotate: false
+  xy: 2, 222
+  size: 385, 286
+  orig: 385, 286
+  offset: 0, 0
+  index: -1
+
+eff_DFW_changjing3.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hua1
+  rotate: true
+  xy: 318, 352
+  size: 132, 166
+  orig: 132, 166
+  offset: 0, 0
+  index: -1
+shanzi1
+  rotate: false
+  xy: 2, 339
+  size: 314, 145
+  orig: 314, 145
+  offset: 0, 0
+  index: -1
+shanzi3
+  rotate: false
+  xy: 2, 133
+  size: 241, 204
+  orig: 241, 204
+  offset: 0, 0
+  index: -1

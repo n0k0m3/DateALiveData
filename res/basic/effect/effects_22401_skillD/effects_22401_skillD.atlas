@@ -1,0 +1,48 @@
+
+effects_22401_skillD.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/skillD/shanxian/shanxian_00004
+  rotate: false
+  xy: 2, 689
+  size: 387, 330
+  orig: 400, 400
+  offset: 5, 40
+  index: -1
+images/effect/skillD/shanxian/shanxian_00005
+  rotate: false
+  xy: 2, 365
+  size: 316, 322
+  orig: 400, 400
+  offset: 46, 48
+  index: -1
+images/effect/skillD/shanxian/shanxian_00007
+  rotate: false
+  xy: 391, 697
+  size: 316, 322
+  orig: 400, 400
+  offset: 46, 48
+  index: -1
+images/effect/skillD/shanxian/shanxian_00009
+  rotate: false
+  xy: 2, 41
+  size: 316, 322
+  orig: 400, 400
+  offset: 46, 48
+  index: -1
+images/effect/skillD/shanxian/shanxian_00011
+  rotate: false
+  xy: 709, 703
+  size: 310, 316
+  orig: 400, 400
+  offset: 49, 48
+  index: -1
+images/effect/skillD/shanxian/shanxian_00013
+  rotate: false
+  xy: 320, 371
+  size: 310, 316
+  orig: 400, 400
+  offset: 49, 48
+  index: -1

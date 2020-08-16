@@ -1,0 +1,181 @@
+
+16yutianshenshe_texiao.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shuidi/shuidi_00001
+  rotate: false
+  xy: 797, 713
+  size: 45, 14
+  orig: 45, 14
+  offset: 0, 0
+  index: -1
+shuidi/shuidi_00003
+  rotate: false
+  xy: 947, 978
+  size: 45, 14
+  orig: 45, 14
+  offset: 0, 0
+  index: -1
+shuidi/shuidi_00005
+  rotate: false
+  xy: 532, 528
+  size: 45, 14
+  orig: 45, 14
+  offset: 0, 0
+  index: -1
+shuidi/shuidi_00009
+  rotate: false
+  xy: 2, 78
+  size: 45, 14
+  orig: 45, 14
+  offset: 0, 0
+  index: -1
+shuidi/shuidi_00011
+  rotate: false
+  xy: 267, 228
+  size: 45, 14
+  orig: 45, 14
+  offset: 0, 0
+  index: -1
+shuidi/shuidi_00015
+  rotate: false
+  xy: 797, 697
+  size: 45, 14
+  orig: 45, 14
+  offset: 0, 0
+  index: -1
+shuidi/shuidi_00019
+  rotate: false
+  xy: 844, 713
+  size: 45, 14
+  orig: 45, 14
+  offset: 0, 0
+  index: -1
+shuidi/shuidi_00023
+  rotate: false
+  xy: 947, 962
+  size: 45, 14
+  orig: 45, 14
+  offset: 0, 0
+  index: -1
+shuidi/shuidi_00025
+  rotate: false
+  xy: 532, 512
+  size: 45, 14
+  orig: 45, 14
+  offset: 0, 0
+  index: -1
+shuidi/shuidi_00027
+  rotate: false
+  xy: 579, 528
+  size: 45, 14
+  orig: 45, 14
+  offset: 0, 0
+  index: -1
+xiayu/xiayu_00000
+  rotate: false
+  xy: 2, 844
+  size: 263, 148
+  orig: 263, 148
+  offset: 0, 0
+  index: -1
+xiayu/xiayu_00004
+  rotate: false
+  xy: 2, 694
+  size: 263, 148
+  orig: 263, 148
+  offset: 0, 0
+  index: -1
+xiayu/xiayu_00008
+  rotate: false
+  xy: 267, 844
+  size: 263, 148
+  orig: 263, 148
+  offset: 0, 0
+  index: -1
+xiayu/xiayu_00012
+  rotate: false
+  xy: 2, 544
+  size: 263, 148
+  orig: 263, 148
+  offset: 0, 0
+  index: -1
+xiayu/xiayu_00016
+  rotate: false
+  xy: 267, 694
+  size: 263, 148
+  orig: 263, 148
+  offset: 0, 0
+  index: -1
+xiayu/xiayu_00020
+  rotate: false
+  xy: 532, 844
+  size: 263, 148
+  orig: 263, 148
+  offset: 0, 0
+  index: -1
+xiayu/xiayu_00024
+  rotate: false
+  xy: 2, 394
+  size: 263, 148
+  orig: 263, 148
+  offset: 0, 0
+  index: -1
+xiayu/xiayu_00028
+  rotate: false
+  xy: 267, 544
+  size: 263, 148
+  orig: 263, 148
+  offset: 0, 0
+  index: -1
+xiayu/xiayu_00032
+  rotate: false
+  xy: 532, 694
+  size: 263, 148
+  orig: 263, 148
+  offset: 0, 0
+  index: -1
+xiayu/xiayu_00036
+  rotate: true
+  xy: 797, 729
+  size: 263, 148
+  orig: 263, 148
+  offset: 0, 0
+  index: -1
+xiayu/xiayu_00040
+  rotate: false
+  xy: 2, 244
+  size: 263, 148
+  orig: 263, 148
+  offset: 0, 0
+  index: -1
+xiayu/xiayu_00044
+  rotate: false
+  xy: 267, 394
+  size: 263, 148
+  orig: 263, 148
+  offset: 0, 0
+  index: -1
+xiayu/xiayu_00048
+  rotate: false
+  xy: 532, 544
+  size: 263, 148
+  orig: 263, 148
+  offset: 0, 0
+  index: -1
+xiayu/xiayu_00052
+  rotate: false
+  xy: 2, 94
+  size: 263, 148
+  orig: 263, 148
+  offset: 0, 0
+  index: -1
+xiayu/xiayu_00056
+  rotate: false
+  xy: 267, 244
+  size: 263, 148
+  orig: 263, 148
+  offset: 0, 0
+  index: -1

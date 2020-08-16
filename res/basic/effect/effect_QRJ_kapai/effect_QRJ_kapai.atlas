@@ -1,0 +1,76 @@
+
+effect_QRJ_kapai.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/1
+  rotate: false
+  xy: 61, 61
+  size: 34, 35
+  orig: 34, 35
+  offset: 0, 0
+  index: -1
+images/2
+  rotate: false
+  xy: 2, 2
+  size: 39, 35
+  orig: 39, 35
+  offset: 0, 0
+  index: -1
+images/3
+  rotate: false
+  xy: 308, 769
+  size: 20, 18
+  orig: 20, 18
+  offset: 0, 0
+  index: -1
+images/4
+  rotate: false
+  xy: 285, 479
+  size: 21, 24
+  orig: 21, 24
+  offset: 0, 0
+  index: -1
+images/5
+  rotate: false
+  xy: 368, 856
+  size: 52, 51
+  orig: 52, 51
+  offset: 0, 0
+  index: -1
+images/6
+  rotate: false
+  xy: 2, 39
+  size: 57, 57
+  orig: 57, 57
+  offset: 0, 0
+  index: -1
+images/7
+  rotate: false
+  xy: 308, 789
+  size: 56, 58
+  orig: 56, 58
+  offset: 0, 0
+  index: -1
+images/8
+  rotate: false
+  xy: 308, 849
+  size: 58, 58
+  orig: 58, 58
+  offset: 0, 0
+  index: -1
+images/bian_00000
+  rotate: false
+  xy: 2, 98
+  size: 281, 405
+  orig: 294, 420
+  offset: 8, 6
+  index: -1
+images/di
+  rotate: false
+  xy: 2, 505
+  size: 304, 402
+  orig: 304, 402
+  offset: 0, 0
+  index: -1

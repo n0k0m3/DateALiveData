@@ -1,0 +1,13 @@
+
+map_landeng_03.png
+size: 64,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sucai/dengguang/landeng
+  rotate: false
+  xy: 2, 2
+  size: 44, 38
+  orig: 49, 45
+  offset: 4, 5
+  index: -1

@@ -1,0 +1,33 @@
+
+4gouwuzhongxin_up.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+yangguang_00000_00000
+  rotate: false
+  xy: 2, 72
+  size: 233, 163
+  orig: 233, 163
+  offset: 0, 0
+  index: -1
+
+4gouwuzhongxin_up2.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pingmu1_00000
+  rotate: false
+  xy: 2, 103
+  size: 157, 120
+  orig: 157, 120
+  offset: 0, 0
+  index: -1
+pingmu_00000
+  rotate: false
+  xy: 2, 2
+  size: 139, 99
+  orig: 139, 99
+  offset: 0, 0
+  index: -1

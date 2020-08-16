@@ -1,0 +1,278 @@
+
+effects_23101_skillC.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/images/skillC/baodian/baodian_00060
+  rotate: false
+  xy: 2, 15
+  size: 335, 333
+  orig: 355, 355
+  offset: 6, 9
+  index: -1
+images/images/skillC/baodian/baodian_00062
+  rotate: false
+  xy: 345, 359
+  size: 329, 328
+  orig: 355, 355
+  offset: 13, 6
+  index: -1
+images/images/skillC/baodian/baodian_00064
+  rotate: false
+  xy: 345, 689
+  size: 341, 333
+  orig: 355, 355
+  offset: 1, 4
+  index: -1
+images/images/skillC/baodian/baodian_00066
+  rotate: false
+  xy: 2, 687
+  size: 341, 335
+  orig: 355, 355
+  offset: 1, 4
+  index: -1
+images/images/skillC/baodian/baodian_00068
+  rotate: false
+  xy: 2, 350
+  size: 341, 335
+  orig: 355, 355
+  offset: 1, 4
+  index: -1
+images/images/skillC/baodian/baodian_00070
+  rotate: false
+  xy: 688, 718
+  size: 315, 304
+  orig: 355, 355
+  offset: 13, 16
+  index: -1
+images/images/skillC/baodian/baodian_00072
+  rotate: false
+  xy: 676, 350
+  size: 296, 281
+  orig: 355, 355
+  offset: 20, 33
+  index: -1
+images/images/skillC/baodian/baodian_00074
+  rotate: false
+  xy: 625, 71
+  size: 281, 277
+  orig: 355, 355
+  offset: 22, 37
+  index: -1
+images/images/skillC/huoyan/huoyan_00023
+  rotate: false
+  xy: 1004, 250
+  size: 18, 39
+  orig: 71, 71
+  offset: 26, 8
+  index: -1
+images/images/skillC/huoyan/huoyan_00025
+  rotate: false
+  xy: 1004, 209
+  size: 18, 39
+  orig: 71, 71
+  offset: 26, 8
+  index: -1
+images/images/skillC/huoyan/huoyan_00027
+  rotate: false
+  xy: 1004, 417
+  size: 18, 40
+  orig: 71, 71
+  offset: 26, 8
+  index: -1
+images/images/skillC/huoyan/huoyan_00029
+  rotate: false
+  xy: 1004, 375
+  size: 18, 40
+  orig: 71, 71
+  offset: 26, 8
+  index: -1
+images/images/skillC/huoyan/huoyan_00031
+  rotate: false
+  xy: 1004, 459
+  size: 18, 41
+  orig: 71, 71
+  offset: 26, 8
+  index: -1
+images/images/skillC/huoyan/huoyan_00033
+  rotate: false
+  xy: 974, 498
+  size: 19, 42
+  orig: 71, 71
+  offset: 25, 8
+  index: -1
+images/images/skillC/huoyan/huoyan_00035
+  rotate: false
+  xy: 974, 542
+  size: 19, 43
+  orig: 71, 71
+  offset: 25, 8
+  index: -1
+images/images/skillC/huoyan/huoyan_00037
+  rotate: false
+  xy: 974, 587
+  size: 19, 44
+  orig: 71, 71
+  offset: 25, 8
+  index: -1
+images/images/skillC/huoyan/huoyan_00039
+  rotate: false
+  xy: 848, 25
+  size: 19, 44
+  orig: 71, 71
+  offset: 25, 8
+  index: -1
+images/images/skillC/huoyan/huoyan_00041
+  rotate: false
+  xy: 974, 453
+  size: 18, 43
+  orig: 71, 71
+  offset: 25, 8
+  index: -1
+images/images/skillC/huoyan/huoyan_00043
+  rotate: false
+  xy: 974, 409
+  size: 19, 42
+  orig: 71, 71
+  offset: 24, 8
+  index: -1
+images/images/skillC/huoyan/huoyan_00045
+  rotate: false
+  xy: 974, 365
+  size: 19, 42
+  orig: 71, 71
+  offset: 24, 8
+  index: -1
+images/images/skillC/huoyan/huoyan_00047
+  rotate: false
+  xy: 995, 502
+  size: 20, 41
+  orig: 71, 71
+  offset: 24, 8
+  index: -1
+images/images/skillC/huoyan/huoyan_00049
+  rotate: false
+  xy: 995, 589
+  size: 19, 42
+  orig: 71, 71
+  offset: 25, 8
+  index: -1
+images/images/skillC/huoyan/huoyan_00051
+  rotate: false
+  xy: 869, 27
+  size: 20, 42
+  orig: 71, 71
+  offset: 25, 8
+  index: -1
+images/images/skillC/huoyan/huoyan_00053
+  rotate: false
+  xy: 995, 545
+  size: 20, 42
+  orig: 71, 71
+  offset: 25, 8
+  index: -1
+images/images/skillC/huoyan/huoyan_00055
+  rotate: true
+  xy: 848, 3
+  size: 20, 41
+  orig: 71, 71
+  offset: 25, 8
+  index: -1
+images/images/skillC/huoyan/huoyan_00057
+  rotate: false
+  xy: 1004, 333
+  size: 18, 40
+  orig: 71, 71
+  offset: 26, 8
+  index: -1
+images/images/skillC/huoyan/huoyan_00061
+  rotate: false
+  xy: 1004, 291
+  size: 18, 40
+  orig: 71, 71
+  offset: 26, 8
+  index: -1
+images/images/skillC/nengliangquan/nengliangquan_00066
+  rotate: false
+  xy: 625, 9
+  size: 221, 60
+  orig: 391, 142
+  offset: 89, 43
+  index: -1
+images/images/skillC/nengliangquan/nengliangquan_00068
+  rotate: true
+  xy: 339, 12
+  size: 336, 92
+  orig: 391, 142
+  offset: 31, 19
+  index: -1
+images/images/skillC/nengliangquan/nengliangquan_00070
+  rotate: true
+  xy: 908, 4
+  size: 344, 94
+  orig: 391, 142
+  offset: 28, 18
+  index: -1
+images/images/skillC/nengliangquan/nengliangquan_00072
+  rotate: true
+  xy: 433, 9
+  size: 348, 95
+  orig: 391, 142
+  offset: 27, 17
+  index: -1
+images/images/skillC/nengliangquan/nengliangquan_00074
+  rotate: true
+  xy: 530, 6
+  size: 351, 93
+  orig: 391, 142
+  offset: 26, 19
+  index: -1
+images/images/skillC/nengliangquan/nengliangquan_00076
+  rotate: false
+  xy: 688, 633
+  size: 322, 83
+  orig: 391, 142
+  offset: 40, 28
+  index: -1
+
+effects_23101_skillC2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/images/skillC/baodian/baodian_00076
+  rotate: false
+  xy: 2, 224
+  size: 244, 266
+  orig: 355, 355
+  offset: 48, 41
+  index: -1
+images/images/skillC/baodian/baodian_00078
+  rotate: false
+  xy: 2, 23
+  size: 202, 199
+  orig: 355, 355
+  offset: 71, 72
+  index: -1
+images/images/skillC/baodian/baodian_00080
+  rotate: false
+  xy: 248, 260
+  size: 139, 130
+  orig: 355, 355
+  offset: 102, 124
+  index: -1
+images/images/skillC/glow_00035
+  rotate: false
+  xy: 248, 392
+  size: 199, 98
+  orig: 213, 213
+  offset: 11, 48
+  index: -1
+images/images/skillC/huoyan/huoyan_00059
+  rotate: true
+  xy: 2, 2
+  size: 19, 40
+  orig: 71, 71
+  offset: 26, 8
+  index: -1

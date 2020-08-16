@@ -1,0 +1,69 @@
+
+effect_ui14.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/glow_00008
+  rotate: false
+  xy: 2, 777
+  size: 554, 89
+  orig: 600, 100
+  offset: 20, 4
+  index: -1
+images/lizi/lizi_00010
+  rotate: false
+  xy: 2, 610
+  size: 180, 91
+  orig: 300, 200
+  offset: 66, 57
+  index: -1
+images/lizi/lizi_00012
+  rotate: false
+  xy: 2, 517
+  size: 177, 91
+  orig: 300, 200
+  offset: 69, 57
+  index: -1
+images/lizi/lizi_00014
+  rotate: false
+  xy: 184, 611
+  size: 170, 90
+  orig: 300, 200
+  offset: 75, 57
+  index: -1
+images/lizi/lizi_00016
+  rotate: false
+  xy: 558, 781
+  size: 166, 85
+  orig: 300, 200
+  offset: 79, 59
+  index: -1
+images/lizi/lizi_00018
+  rotate: false
+  xy: 2, 433
+  size: 155, 82
+  orig: 300, 200
+  offset: 89, 62
+  index: -1
+images/lizi/lizi_00020
+  rotate: false
+  xy: 356, 621
+  size: 148, 80
+  orig: 300, 200
+  offset: 90, 62
+  index: -1
+images/lizi/lizi_00022
+  rotate: false
+  xy: 726, 793
+  size: 140, 73
+  orig: 300, 200
+  offset: 92, 64
+  index: -1
+images/mianxian_00007
+  rotate: false
+  xy: 2, 703
+  size: 542, 72
+  orig: 600, 100
+  offset: 24, 15
+  index: -1

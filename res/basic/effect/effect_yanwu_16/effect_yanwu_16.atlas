@@ -1,0 +1,20 @@
+
+effect_yanwu_16.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/shuibowen
+  rotate: false
+  xy: 2, 537
+  size: 885, 135
+  orig: 885, 135
+  offset: 0, 0
+  index: -1
+images/yanwu
+  rotate: false
+  xy: 2, 674
+  size: 930, 258
+  orig: 930, 258
+  offset: 0, 0
+  index: -1

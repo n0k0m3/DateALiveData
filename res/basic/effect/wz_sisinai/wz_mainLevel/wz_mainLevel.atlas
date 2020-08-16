@@ -1,0 +1,111 @@
+
+wz_mainLevel.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+6bianxing/6bianxing_00000
+  rotate: true
+  xy: 2, 11
+  size: 70, 54
+  orig: 160, 70
+  offset: 3, 5
+  index: -1
+6bianxing/6bianxing_00002
+  rotate: false
+  xy: 2, 216
+  size: 91, 35
+  orig: 160, 70
+  offset: 5, 5
+  index: -1
+6bianxing/6bianxing_00004
+  rotate: false
+  xy: 95, 205
+  size: 103, 15
+  orig: 160, 70
+  offset: 16, 5
+  index: -1
+6bianxing/6bianxing_00006
+  rotate: true
+  xy: 188, 99
+  size: 104, 13
+  orig: 160, 70
+  offset: 37, 5
+  index: -1
+6bianxing/6bianxing_00008
+  rotate: false
+  xy: 95, 222
+  size: 95, 29
+  orig: 160, 70
+  offset: 59, 5
+  index: -1
+6bianxing/6bianxing_00010
+  rotate: false
+  xy: 2, 165
+  size: 77, 49
+  orig: 160, 70
+  offset: 81, 5
+  index: -1
+6bianxing/6bianxing_00012
+  rotate: false
+  xy: 115, 102
+  size: 55, 60
+  orig: 160, 70
+  offset: 103, 5
+  index: -1
+6bianxing/6bianxing_00014
+  rotate: false
+  xy: 107, 41
+  size: 59, 59
+  orig: 160, 70
+  offset: 99, 6
+  index: -1
+6bianxing/6bianxing_00016
+  rotate: true
+  xy: 2, 83
+  size: 80, 45
+  orig: 160, 70
+  offset: 77, 20
+  index: -1
+6bianxing/6bianxing_00018
+  rotate: true
+  xy: 58, 6
+  size: 96, 25
+  orig: 160, 70
+  offset: 55, 40
+  index: -1
+6bianxing/6bianxing_00020
+  rotate: true
+  xy: 172, 99
+  size: 104, 14
+  orig: 160, 70
+  offset: 32, 51
+  index: -1
+6bianxing/6bianxing_00022
+  rotate: true
+  xy: 85, 2
+  size: 100, 20
+  orig: 160, 70
+  offset: 13, 45
+  index: -1
+6bianxing/6bianxing_00024
+  rotate: false
+  xy: 81, 164
+  size: 86, 39
+  orig: 160, 70
+  offset: 4, 26
+  index: -1
+6bianxing/6bianxing_00026
+  rotate: false
+  xy: 49, 104
+  size: 64, 58
+  orig: 160, 70
+  offset: 3, 7
+  index: -1
+6bianxing/6bianxing_00028
+  rotate: false
+  xy: 168, 37
+  size: 47, 60
+  orig: 160, 70
+  offset: 3, 5
+  index: -1

@@ -1,0 +1,27 @@
+
+effects_yindaoquan.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/yuan1
+  rotate: false
+  xy: 194, 214
+  size: 150, 150
+  orig: 190, 190
+  offset: 20, 19
+  index: -1
+images/yuan2
+  rotate: false
+  xy: 2, 2
+  size: 165, 170
+  orig: 174, 174
+  offset: 2, 2
+  index: -1
+images/yuan3
+  rotate: false
+  xy: 2, 174
+  size: 190, 190
+  orig: 190, 190
+  offset: 0, 0
+  index: -1

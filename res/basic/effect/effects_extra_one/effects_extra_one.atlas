@@ -1,0 +1,152 @@
+
+effects_extra_one.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/jiansulichang/down/down_00018
+  rotate: false
+  xy: 2, 380
+  size: 509, 126
+  orig: 509, 133
+  offset: 0, 2
+  index: -1
+images/jiansulichang/down/down_00020
+  rotate: false
+  xy: 2, 895
+  size: 509, 127
+  orig: 509, 133
+  offset: 0, 1
+  index: -1
+images/jiansulichang/down/down_00022
+  rotate: false
+  xy: 513, 895
+  size: 509, 127
+  orig: 509, 133
+  offset: 0, 1
+  index: -1
+images/jiansulichang/down/down_00024
+  rotate: false
+  xy: 2, 766
+  size: 509, 127
+  orig: 509, 133
+  offset: 0, 1
+  index: -1
+images/jiansulichang/down/down_00026
+  rotate: false
+  xy: 513, 766
+  size: 509, 127
+  orig: 509, 133
+  offset: 0, 1
+  index: -1
+images/jiansulichang/down/down_00028
+  rotate: false
+  xy: 2, 637
+  size: 509, 127
+  orig: 509, 133
+  offset: 0, 1
+  index: -1
+images/jiansulichang/down/down_00030
+  rotate: false
+  xy: 513, 637
+  size: 509, 127
+  orig: 509, 133
+  offset: 0, 1
+  index: -1
+images/jiansulichang/down/down_00032
+  rotate: false
+  xy: 2, 508
+  size: 509, 127
+  orig: 509, 133
+  offset: 0, 1
+  index: -1
+images/jiansulichang/down/down_00034
+  rotate: false
+  xy: 513, 508
+  size: 509, 127
+  orig: 509, 133
+  offset: 0, 1
+  index: -1
+images/jiansulichang/down/down_00036
+  rotate: false
+  xy: 513, 380
+  size: 509, 126
+  orig: 509, 133
+  offset: 0, 2
+  index: -1
+images/jiansulichang/up/up_00018
+  rotate: false
+  xy: 513, 153
+  size: 509, 111
+  orig: 509, 133
+  offset: 0, 11
+  index: -1
+images/jiansulichang/up/up_00020
+  rotate: false
+  xy: 513, 40
+  size: 509, 111
+  orig: 509, 133
+  offset: 0, 11
+  index: -1
+images/jiansulichang/up/up_00022
+  rotate: false
+  xy: 2, 266
+  size: 509, 112
+  orig: 509, 133
+  offset: 0, 10
+  index: -1
+images/jiansulichang/up/up_00024
+  rotate: false
+  xy: 513, 266
+  size: 509, 112
+  orig: 509, 133
+  offset: 0, 10
+  index: -1
+images/jiansulichang/up/up_00026
+  rotate: false
+  xy: 2, 152
+  size: 509, 112
+  orig: 509, 133
+  offset: 0, 10
+  index: -1
+images/jiansulichang/up/up_00028
+  rotate: false
+  xy: 2, 39
+  size: 509, 111
+  orig: 509, 133
+  offset: 0, 11
+  index: -1
+
+effects_extra_one2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/jiansulichang/up/up_00030
+  rotate: false
+  xy: 2, 911
+  size: 509, 111
+  orig: 509, 133
+  offset: 0, 11
+  index: -1
+images/jiansulichang/up/up_00032
+  rotate: false
+  xy: 513, 911
+  size: 509, 111
+  orig: 509, 133
+  offset: 0, 11
+  index: -1
+images/jiansulichang/up/up_00034
+  rotate: false
+  xy: 2, 798
+  size: 509, 111
+  orig: 509, 133
+  offset: 0, 11
+  index: -1
+images/jiansulichang/up/up_00036
+  rotate: false
+  xy: 513, 798
+  size: 509, 111
+  orig: 509, 133
+  offset: 0, 11
+  index: -1

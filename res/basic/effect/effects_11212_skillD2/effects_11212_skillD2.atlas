@@ -1,0 +1,111 @@
+
+effects_11212_skillD2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skillD/baiping
+  rotate: true
+  xy: 1002, 995
+  size: 26, 19
+  orig: 26, 19
+  offset: 0, 0
+  index: -1
+effects/skillD/tiankong/(1)
+  rotate: false
+  xy: 599, 359
+  size: 300, 149
+  orig: 300, 149
+  offset: 0, 0
+  index: -1
+effects/skillD/wuqi_00058
+  rotate: false
+  xy: 901, 324
+  size: 99, 77
+  orig: 113, 91
+  offset: 5, 8
+  index: -1
+effects/skillD/yuncai_0001
+  rotate: false
+  xy: 367, 324
+  size: 230, 60
+  orig: 259, 80
+  offset: 16, 13
+  index: -1
+effects/skillD/yuncai_0002
+  rotate: false
+  xy: 2, 6
+  size: 145, 22
+  orig: 145, 32
+  offset: 0, 5
+  index: -1
+effects/skillD/yuncai_0003
+  rotate: false
+  xy: 367, 287
+  size: 187, 35
+  orig: 188, 71
+  offset: 1, 21
+  index: -1
+effects/skillD/yuncai_0004
+  rotate: false
+  xy: 149, 3
+  size: 107, 25
+  orig: 107, 38
+  offset: 0, 7
+  index: -1
+tianshi10
+  rotate: false
+  xy: 580, 510
+  size: 215, 234
+  orig: 215, 234
+  offset: 0, 0
+  index: -1
+tianshi11
+  rotate: false
+  xy: 2, 30
+  size: 477, 235
+  orig: 477, 235
+  offset: 0, 0
+  index: -1
+tianshi12
+  rotate: false
+  xy: 901, 403
+  size: 79, 158
+  orig: 80, 158
+  offset: 1, 0
+  index: -1
+tianshi13
+  rotate: false
+  xy: 797, 563
+  size: 206, 181
+  orig: 206, 181
+  offset: 0, 0
+  index: -1
+tianshi14
+  rotate: false
+  xy: 556, 51
+  size: 196, 271
+  orig: 196, 271
+  offset: 0, 0
+  index: -1
+tianshi15
+  rotate: false
+  xy: 367, 386
+  size: 211, 358
+  orig: 211, 358
+  offset: 0, 0
+  index: -1
+tianshi8
+  rotate: true
+  xy: 2, 267
+  size: 477, 363
+  orig: 477, 363
+  offset: 0, 0
+  index: -1
+tianshi9
+  rotate: false
+  xy: 2, 746
+  size: 998, 275
+  orig: 998, 275
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,27 @@
+
+xiaodaohaibian.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bw
+  rotate: true
+  xy: 208, 58
+  size: 188, 31
+  orig: 188, 31
+  offset: 0, 0
+  index: -1
+glow_00060
+  rotate: false
+  xy: 2, 2
+  size: 159, 126
+  orig: 210, 210
+  offset: 2, 42
+  index: -1
+yangguang_00000
+  rotate: false
+  xy: 2, 130
+  size: 204, 116
+  orig: 210, 210
+  offset: 0, 32
+  index: -1

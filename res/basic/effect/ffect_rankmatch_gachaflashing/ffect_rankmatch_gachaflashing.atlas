@@ -1,0 +1,111 @@
+
+ffect_rankmatch_gachaflashing.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lizi/lizi_00026
+  rotate: true
+  xy: 2, 47
+  size: 163, 230
+  orig: 300, 300
+  offset: 61, 23
+  index: -1
+lizi/lizi_00027
+  rotate: false
+  xy: 645, 520
+  size: 158, 237
+  orig: 300, 300
+  offset: 64, 24
+  index: -1
+lizi/lizi_00028
+  rotate: false
+  xy: 805, 523
+  size: 154, 236
+  orig: 300, 300
+  offset: 66, 23
+  index: -1
+lizi/lizi_00029
+  rotate: false
+  xy: 491, 516
+  size: 152, 238
+  orig: 300, 300
+  offset: 69, 23
+  index: -1
+lizi/lizi_00030
+  rotate: false
+  xy: 338, 507
+  size: 151, 240
+  orig: 300, 300
+  offset: 71, 23
+  index: -1
+lizi/lizi_00031
+  rotate: false
+  xy: 185, 499
+  size: 151, 243
+  orig: 300, 300
+  offset: 73, 23
+  index: -1
+lizi/lizi_00032
+  rotate: false
+  xy: 176, 228
+  size: 149, 245
+  orig: 300, 300
+  offset: 76, 23
+  index: -1
+lizi/lizi_00033
+  rotate: false
+  xy: 861, 764
+  size: 152, 249
+  orig: 300, 300
+  offset: 76, 22
+  index: -1
+lizi/lizi_00034
+  rotate: false
+  xy: 703, 761
+  size: 156, 252
+  orig: 300, 300
+  offset: 75, 22
+  index: -1
+lizi/lizi_00035
+  rotate: false
+  xy: 539, 759
+  size: 162, 254
+  orig: 300, 300
+  offset: 73, 22
+  index: -1
+lizi/lizi_00036
+  rotate: false
+  xy: 369, 756
+  size: 168, 257
+  orig: 300, 300
+  offset: 71, 22
+  index: -1
+lizi/lizi_00037
+  rotate: false
+  xy: 2, 212
+  size: 172, 261
+  orig: 300, 300
+  offset: 70, 21
+  index: -1
+lizi/lizi_00038
+  rotate: false
+  xy: 190, 749
+  size: 177, 264
+  orig: 300, 300
+  offset: 69, 21
+  index: -1
+lizi/lizi_00039
+  rotate: false
+  xy: 2, 475
+  size: 181, 267
+  orig: 300, 300
+  offset: 68, 21
+  index: -1
+lizi/lizi_00040
+  rotate: false
+  xy: 2, 744
+  size: 186, 269
+  orig: 300, 300
+  offset: 66, 21
+  index: -1

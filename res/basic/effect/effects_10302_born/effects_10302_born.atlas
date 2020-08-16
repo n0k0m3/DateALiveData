@@ -1,0 +1,174 @@
+
+effects_10302_born.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/glow_000
+  rotate: false
+  xy: 955, 955
+  size: 48, 48
+  orig: 50, 50
+  offset: 1, 1
+  index: -1
+effect/kuoqi_000
+  rotate: true
+  xy: 753, 539
+  size: 132, 131
+  orig: 150, 150
+  offset: 9, 11
+  index: -1
+effect/skilld/juqi2/juqi2_002
+  rotate: false
+  xy: 204, 601
+  size: 199, 200
+  orig: 200, 200
+  offset: 1, 0
+  index: -1
+effect/skilld/juqi2/juqi2_004
+  rotate: false
+  xy: 2, 803
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+effect/skilld/juqi2/juqi2_006
+  rotate: false
+  xy: 2, 601
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+effect/skilld/juqi2/juqi2_008
+  rotate: false
+  xy: 204, 803
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+effect/skilld/juqi2/juqi2_010
+  rotate: false
+  xy: 2, 399
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+effect/skilld/juqi2/juqi2_012
+  rotate: false
+  xy: 406, 803
+  size: 196, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+effect/skilld/juqi2/juqi2_014
+  rotate: false
+  xy: 2, 198
+  size: 197, 199
+  orig: 200, 200
+  offset: 2, 0
+  index: -1
+effect/skilld/juqi2/juqi2_016
+  rotate: false
+  xy: 405, 619
+  size: 182, 182
+  orig: 200, 200
+  offset: 7, 8
+  index: -1
+effect/skilld/juqi2/juqi2_018
+  rotate: true
+  xy: 169, 24
+  size: 172, 152
+  orig: 200, 200
+  offset: 15, 23
+  index: -1
+effect/skilld/juqi2/juqi2_020
+  rotate: true
+  xy: 484, 125
+  size: 138, 131
+  orig: 200, 200
+  offset: 32, 31
+  index: -1
+effect/skillf/baobing_000
+  rotate: false
+  xy: 204, 424
+  size: 192, 175
+  orig: 200, 200
+  offset: 3, 7
+  index: -1
+effect/skillf/bingbao/bingbao_005
+  rotate: false
+  xy: 604, 828
+  size: 175, 175
+  orig: 175, 175
+  offset: 0, 0
+  index: -1
+effect/skillf/bingbao/bingbao_007
+  rotate: false
+  xy: 781, 841
+  size: 172, 162
+  orig: 175, 175
+  offset: 0, 12
+  index: -1
+effect/skillf/bingbao/bingbao_009
+  rotate: false
+  xy: 604, 673
+  size: 172, 153
+  orig: 175, 175
+  offset: 1, 9
+  index: -1
+effect/skillf/bingbao/bingbao_011
+  rotate: false
+  xy: 204, 266
+  size: 161, 156
+  orig: 175, 175
+  offset: 10, 6
+  index: -1
+effect/skillf/bingbao/bingbao_013
+  rotate: false
+  xy: 367, 265
+  size: 161, 157
+  orig: 175, 175
+  offset: 10, 5
+  index: -1
+effect/skillf/bingbao/bingbao_015
+  rotate: false
+  xy: 323, 106
+  size: 159, 157
+  orig: 175, 175
+  offset: 12, 4
+  index: -1
+effect/skillf/bingbao/bingbao_017
+  rotate: false
+  xy: 589, 517
+  size: 162, 154
+  orig: 175, 175
+  offset: 13, 6
+  index: -1
+effect/skillf/dabingkuai_000
+  rotate: false
+  xy: 2, 16
+  size: 165, 180
+  orig: 165, 180
+  offset: 0, 0
+  index: -1
+effect/skillf/lieheng/lieheng_000
+  rotate: false
+  xy: 955, 909
+  size: 41, 44
+  orig: 125, 125
+  offset: 47, 40
+  index: -1
+effect/skillf/lieheng/lieheng_004
+  rotate: false
+  xy: 435, 21
+  size: 79, 83
+  orig: 125, 125
+  offset: 25, 20
+  index: -1
+effect/skillf/lieheng/lieheng_008
+  rotate: true
+  xy: 323, 7
+  size: 97, 110
+  orig: 125, 125
+  offset: 14, 5
+  index: -1

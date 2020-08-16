@@ -1,0 +1,236 @@
+
+effects_23301_skillA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skilla/boom/boom_004
+  rotate: false
+  xy: 2, 3
+  size: 175, 172
+  orig: 185, 185
+  offset: 5, 7
+  index: -1
+effect/skilla/boom/boom_008
+  rotate: true
+  xy: 179, 17
+  size: 158, 146
+  orig: 185, 185
+  offset: 16, 18
+  index: -1
+effect/skilla/boom/boom_010
+  rotate: true
+  xy: 878, 109
+  size: 151, 143
+  orig: 185, 185
+  offset: 21, 19
+  index: -1
+effect/skilla/hit/hit_000
+  rotate: true
+  xy: 570, 509
+  size: 255, 259
+  orig: 284, 284
+  offset: 16, 11
+  index: -1
+effect/skilla/hit/hit_002
+  rotate: false
+  xy: 2, 177
+  size: 281, 276
+  orig: 284, 284
+  offset: 2, 1
+  index: -1
+effect/skilla/hit/hit_004
+  rotate: false
+  xy: 2, 739
+  size: 282, 282
+  orig: 284, 284
+  offset: 1, 1
+  index: -1
+effect/skilla/hit/hit_006
+  rotate: false
+  xy: 2, 455
+  size: 282, 282
+  orig: 284, 284
+  offset: 1, 1
+  index: -1
+effect/skilla/hit/hit_008
+  rotate: false
+  xy: 286, 739
+  size: 282, 282
+  orig: 284, 284
+  offset: 1, 1
+  index: -1
+effect/skilla/hit/hit_010
+  rotate: false
+  xy: 286, 468
+  size: 277, 269
+  orig: 284, 284
+  offset: 2, 1
+  index: -1
+effect/skilla/hit/hit_012
+  rotate: false
+  xy: 570, 766
+  size: 260, 255
+  orig: 284, 284
+  offset: 8, 12
+  index: -1
+effect/skilla/hit/hit_014
+  rotate: false
+  xy: 565, 261
+  size: 251, 246
+  orig: 284, 284
+  offset: 10, 20
+  index: -1
+effect/skilla/hit/hit_016
+  rotate: true
+  xy: 286, 236
+  size: 230, 234
+  orig: 284, 284
+  offset: 26, 24
+  index: -1
+effect/skilla/hit/hit_018
+  rotate: true
+  xy: 694, 73
+  size: 186, 182
+  orig: 284, 284
+  offset: 48, 48
+  index: -1
+effect/skilla/huoqiu/huoqiu_000
+  rotate: true
+  xy: 832, 640
+  size: 186, 188
+  orig: 213, 213
+  offset: 12, 6
+  index: -1
+effect/skilla/huoqiu/huoqiu_002
+  rotate: true
+  xy: 511, 41
+  size: 193, 181
+  orig: 213, 213
+  offset: 10, 15
+  index: -1
+effect/skilla/huoqiu/huoqiu_004
+  rotate: false
+  xy: 832, 828
+  size: 189, 193
+  orig: 213, 213
+  offset: 7, 1
+  index: -1
+effect/skilla/huoqiu/huoqiu_006
+  rotate: false
+  xy: 327, 40
+  size: 182, 194
+  orig: 213, 213
+  offset: 10, 0
+  index: -1
+effect/skilla/huoqiu/huoqiu_008
+  rotate: false
+  xy: 818, 262
+  size: 186, 194
+  orig: 213, 213
+  offset: 6, 0
+  index: -1
+effect/skilla/huoqiu/huoqiu_010
+  rotate: true
+  xy: 831, 458
+  size: 180, 188
+  orig: 213, 213
+  offset: 12, 6
+  index: -1
+effect/skilla/sparks/Sparks_000
+  rotate: false
+  xy: 522, 449
+  size: 20, 17
+  orig: 142, 142
+  offset: 106, 62
+  index: -1
+effect/skilla/sparks/Sparks_010
+  rotate: true
+  xy: 878, 9
+  size: 98, 129
+  orig: 142, 142
+  offset: 20, 11
+  index: -1
+effect/skilla/sparks/Sparks_016
+  rotate: false
+  xy: 694, 10
+  size: 68, 61
+  orig: 142, 142
+  offset: 37, 53
+  index: -1
+effect/skilla/sparks/Sparks_018
+  rotate: false
+  xy: 764, 26
+  size: 47, 45
+  orig: 142, 142
+  offset: 48, 62
+  index: -1
+
+effects_23301_skillA2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skilla/boom/boom_000
+  rotate: false
+  xy: 2, 145
+  size: 151, 157
+  orig: 185, 185
+  offset: 17, 14
+  index: -1
+effect/skilla/boom/boom_002
+  rotate: false
+  xy: 186, 333
+  size: 152, 149
+  orig: 185, 185
+  offset: 16, 18
+  index: -1
+effect/skilla/boom/boom_006
+  rotate: false
+  xy: 2, 304
+  size: 182, 178
+  orig: 185, 185
+  offset: 1, 4
+  index: -1
+effect/skilla/sparks/Sparks_002
+  rotate: true
+  xy: 355, 240
+  size: 104, 99
+  orig: 142, 142
+  offset: 26, 28
+  index: -1
+effect/skilla/sparks/Sparks_004
+  rotate: false
+  xy: 155, 170
+  size: 108, 132
+  orig: 142, 142
+  offset: 24, 4
+  index: -1
+effect/skilla/sparks/Sparks_006
+  rotate: false
+  xy: 2, 2
+  size: 121, 141
+  orig: 142, 142
+  offset: 5, 1
+  index: -1
+effect/skilla/sparks/Sparks_008
+  rotate: false
+  xy: 340, 346
+  size: 107, 136
+  orig: 142, 142
+  offset: 15, 6
+  index: -1
+effect/skilla/sparks/Sparks_012
+  rotate: false
+  xy: 265, 216
+  size: 88, 115
+  orig: 142, 142
+  offset: 26, 21
+  index: -1
+effect/skilla/sparks/Sparks_014
+  rotate: true
+  xy: 265, 134
+  size: 80, 88
+  orig: 142, 142
+  offset: 31, 38
+  index: -1

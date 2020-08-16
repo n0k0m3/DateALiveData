@@ -1,0 +1,41 @@
+
+ui_compose_bg.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/lizi
+  rotate: true
+  xy: 55, 246
+  size: 4, 195
+  orig: 4, 195
+  offset: 0, 0
+  index: -1
+images/lizi1
+  rotate: true
+  xy: 55, 240
+  size: 4, 195
+  orig: 4, 195
+  offset: 0, 0
+  index: -1
+images/lizi2
+  rotate: true
+  xy: 55, 234
+  size: 4, 175
+  orig: 4, 175
+  offset: 0, 0
+  index: -1
+images/lizi3
+  rotate: true
+  xy: 55, 206
+  size: 26, 137
+  orig: 26, 137
+  offset: 0, 0
+  index: -1
+images/mian
+  rotate: false
+  xy: 2, 101
+  size: 51, 149
+  orig: 51, 149
+  offset: 0, 0
+  index: -1

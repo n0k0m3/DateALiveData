@@ -1,0 +1,144 @@
+
+guaiwusiwang.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baoza0001
+  rotate: false
+  xy: 878, 490
+  size: 90, 90
+  orig: 641, 638
+  offset: 275, 274
+  index: -1
+baoza0002
+  rotate: true
+  xy: 344, 2
+  size: 378, 281
+  orig: 641, 638
+  offset: 140, 176
+  index: -1
+baoza0003
+  rotate: true
+  xy: 2, 2
+  size: 378, 340
+  orig: 641, 638
+  offset: 140, 149
+  index: -1
+baoza0008
+  rotate: false
+  xy: 2, 382
+  size: 636, 638
+  orig: 641, 638
+  offset: 0, 0
+  index: -1
+baoza0011
+  rotate: false
+  xy: 627, 77
+  size: 393, 303
+  orig: 641, 638
+  offset: 102, 193
+  index: -1
+baoza0012
+  rotate: true
+  xy: 640, 388
+  size: 388, 236
+  orig: 641, 638
+  offset: 104, 261
+  index: -1
+baoza0013
+  rotate: false
+  xy: 640, 778
+  size: 369, 242
+  orig: 641, 638
+  offset: 104, 256
+  index: -1
+zasui1
+  rotate: false
+  xy: 992, 619
+  size: 26, 157
+  orig: 28, 161
+  offset: 2, 3
+  index: -1
+zasui2
+  rotate: false
+  xy: 734, 34
+  size: 37, 41
+  orig: 39, 43
+  offset: 1, 1
+  index: -1
+zasui3
+  rotate: true
+  xy: 878, 582
+  size: 194, 112
+  orig: 200, 114
+  offset: 1, 1
+  index: -1
+zasui4
+  rotate: true
+  xy: 627, 13
+  size: 62, 105
+  orig: 64, 107
+  offset: 1, 1
+  index: -1
+
+guaiwusiwang2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baoza0004
+  rotate: true
+  xy: 585, 422
+  size: 493, 400
+  orig: 641, 638
+  offset: 84, 119
+  index: -1
+baoza0007
+  rotate: false
+  xy: 2, 337
+  size: 581, 578
+  orig: 641, 638
+  offset: 29, 30
+  index: -1
+baoza0010
+  rotate: false
+  xy: 2, 2
+  size: 581, 333
+  orig: 641, 638
+  offset: 29, 158
+  index: -1
+ziyun
+  rotate: false
+  xy: 585, 208
+  size: 212, 212
+  orig: 217, 215
+  offset: 0, 3
+  index: -1
+
+guaiwusiwang3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baoza0005
+  rotate: false
+  xy: 2, 2
+  size: 493, 459
+  orig: 641, 638
+  offset: 84, 89
+  index: -1
+baoza0006
+  rotate: false
+  xy: 2, 463
+  size: 564, 518
+  orig: 641, 638
+  offset: 45, 60
+  index: -1
+baoza0009
+  rotate: true
+  xy: 568, 400
+  size: 581, 326
+  orig: 641, 638
+  offset: 29, 157
+  index: -1

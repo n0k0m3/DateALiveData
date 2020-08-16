@@ -1,0 +1,172 @@
+
+effects_10415_skillF.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_L/skillF/boom/boom_058
+  rotate: false
+  xy: 463, 619
+  size: 427, 396
+  orig: 459, 396
+  offset: 20, 0
+  index: -1
+images/effects_L/skillF/boom/boom_060
+  rotate: false
+  xy: 463, 239
+  size: 436, 378
+  orig: 459, 396
+  offset: 13, 18
+  index: -1
+images/effects_L/skillF/boom/boom_064
+  rotate: false
+  xy: 2, 274
+  size: 459, 367
+  orig: 459, 396
+  offset: 0, 19
+  index: -1
+images/effects_L/skillF/boom/boom_066
+  rotate: false
+  xy: 2, 643
+  size: 459, 372
+  orig: 459, 396
+  offset: 0, 18
+  index: -1
+images/effects_L/skillF/glow
+  rotate: false
+  xy: 892, 751
+  size: 98, 98
+  orig: 100, 100
+  offset: 1, 2
+  index: -1
+images/effects_L/skillF/xuanzhuan/xuanzhuan_006
+  rotate: true
+  xy: 252, 2
+  size: 270, 180
+  orig: 291, 304
+  offset: 19, 0
+  index: -1
+images/effects_L/skillF/xuanzhuan/xuanzhuan_012
+  rotate: false
+  xy: 434, 3
+  size: 274, 234
+  orig: 291, 304
+  offset: 17, 3
+  index: -1
+images/effects_L/skillF/xuanzhuan/xuanzhuan_020
+  rotate: true
+  xy: 2, 3
+  size: 269, 248
+  orig: 291, 304
+  offset: 17, 2
+  index: -1
+images/effects_L/skillF/xuanzhuan/xuanzhuan_036
+  rotate: false
+  xy: 710, 7
+  size: 252, 230
+  orig: 291, 304
+  offset: 28, 7
+  index: -1
+images/effects_L/skillF/xuanzhuan/xuanzhuan_040
+  rotate: true
+  xy: 892, 851
+  size: 164, 118
+  orig: 291, 304
+  offset: 62, 93
+  index: -1
+
+effects_10415_skillF2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_L/skillF/boom/boom_056
+  rotate: false
+  xy: 2, 7
+  size: 333, 312
+  orig: 459, 396
+  offset: 70, 40
+  index: -1
+images/effects_L/skillF/boom/boom_062
+  rotate: false
+  xy: 2, 661
+  size: 459, 359
+  orig: 459, 396
+  offset: 0, 18
+  index: -1
+images/effects_L/skillF/boom/boom_068
+  rotate: true
+  xy: 463, 657
+  size: 363, 372
+  orig: 459, 396
+  offset: 47, 20
+  index: -1
+images/effects_L/skillF/boom/boom_070
+  rotate: false
+  xy: 2, 321
+  size: 353, 338
+  orig: 459, 396
+  offset: 48, 23
+  index: -1
+images/effects_L/skillF/xuanzhuan/xuanzhuan_002
+  rotate: true
+  xy: 834, 282
+  size: 261, 143
+  orig: 291, 304
+  offset: 28, 13
+  index: -1
+images/effects_L/skillF/xuanzhuan/xuanzhuan_004
+  rotate: true
+  xy: 837, 545
+  size: 269, 149
+  orig: 291, 304
+  offset: 17, 2
+  index: -1
+images/effects_L/skillF/xuanzhuan/xuanzhuan_008
+  rotate: true
+  xy: 357, 409
+  size: 246, 194
+  orig: 291, 304
+  offset: 33, 13
+  index: -1
+images/effects_L/skillF/xuanzhuan/xuanzhuan_014
+  rotate: true
+  xy: 337, 58
+  size: 261, 245
+  orig: 291, 304
+  offset: 27, 0
+  index: -1
+images/effects_L/skillF/xuanzhuan/xuanzhuan_016
+  rotate: true
+  xy: 584, 401
+  size: 254, 248
+  orig: 291, 304
+  offset: 34, 1
+  index: -1
+images/effects_L/skillF/xuanzhuan/xuanzhuan_018
+  rotate: true
+  xy: 584, 138
+  size: 261, 244
+  orig: 291, 304
+  offset: 28, 7
+  index: -1
+images/effects_L/skillF/xuanzhuan/xuanzhuan_038
+  rotate: true
+  xy: 837, 816
+  size: 204, 183
+  orig: 291, 304
+  offset: 56, 41
+  index: -1
+
+effects_10415_skillF3.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_L/skillF/boom/boom_054
+  rotate: false
+  xy: 2, 2
+  size: 236, 238
+  orig: 459, 396
+  offset: 125, 83
+  index: -1

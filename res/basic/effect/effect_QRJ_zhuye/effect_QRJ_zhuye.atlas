@@ -1,0 +1,159 @@
+
+effect_QRJ_zhuye.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/huangse
+  rotate: false
+  xy: 126, 215
+  size: 42, 33
+  orig: 42, 33
+  offset: 0, 0
+  index: -1
+images/youcao/1
+  rotate: true
+  xy: 178, 416
+  size: 306, 283
+  orig: 306, 283
+  offset: 0, 0
+  index: -1
+images/youcao/2
+  rotate: false
+  xy: 178, 175
+  size: 292, 239
+  orig: 292, 239
+  offset: 0, 0
+  index: -1
+images/youcao/3
+  rotate: true
+  xy: 831, 759
+  size: 255, 183
+  orig: 255, 183
+  offset: 0, 0
+  index: -1
+images/youcao/4
+  rotate: false
+  xy: 487, 22
+  size: 230, 175
+  orig: 230, 175
+  offset: 0, 0
+  index: -1
+images/youshu/1.5
+  rotate: false
+  xy: 719, 14
+  size: 237, 90
+  orig: 237, 90
+  offset: 0, 0
+  index: -1
+images/youshu/2
+  rotate: true
+  xy: 799, 490
+  size: 267, 207
+  orig: 267, 207
+  offset: 0, 0
+  index: -1
+images/youshu/2.5
+  rotate: false
+  xy: 719, 106
+  size: 196, 175
+  orig: 196, 175
+  offset: 0, 0
+  index: -1
+images/youshu/3
+  rotate: true
+  xy: 2, 250
+  size: 472, 174
+  orig: 472, 174
+  offset: 0, 0
+  index: -1
+images/zuocao/1
+  rotate: false
+  xy: 472, 761
+  size: 357, 253
+  orig: 357, 253
+  offset: 0, 0
+  index: -1
+images/zuocao/2
+  rotate: false
+  xy: 472, 199
+  size: 202, 303
+  orig: 202, 303
+  offset: 0, 0
+  index: -1
+images/zuocao/3
+  rotate: false
+  xy: 472, 504
+  size: 325, 255
+  orig: 325, 255
+  offset: 0, 0
+  index: -1
+images/zuocao/4
+  rotate: true
+  xy: 2, 7
+  size: 241, 122
+  orig: 241, 122
+  offset: 0, 0
+  index: -1
+images/zuocao/5
+  rotate: false
+  xy: 917, 174
+  size: 63, 107
+  orig: 63, 107
+  offset: 0, 0
+  index: -1
+images/zuoshu/1
+  rotate: false
+  xy: 676, 283
+  size: 293, 205
+  orig: 293, 205
+  offset: 0, 0
+  index: -1
+images/zuoshu/2
+  rotate: false
+  xy: 126, 15
+  size: 359, 158
+  orig: 359, 158
+  offset: 0, 0
+  index: -1
+images/zuoshu/3
+  rotate: false
+  xy: 2, 724
+  size: 468, 290
+  orig: 468, 290
+  offset: 0, 0
+  index: -1
+
+effect_QRJ_zhuye2.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/guang
+  rotate: false
+  xy: 75, 176
+  size: 176, 77
+  orig: 176, 77
+  offset: 0, 0
+  index: -1
+images/xiaoguang
+  rotate: true
+  xy: 2, 2
+  size: 65, 106
+  orig: 65, 106
+  offset: 0, 0
+  index: -1
+images/youshu/1
+  rotate: true
+  xy: 110, 13
+  size: 161, 111
+  orig: 161, 111
+  offset: 0, 0
+  index: -1
+images/zuocao/3.5
+  rotate: false
+  xy: 2, 69
+  size: 71, 184
+  orig: 71, 184
+  offset: 0, 0
+  index: -1

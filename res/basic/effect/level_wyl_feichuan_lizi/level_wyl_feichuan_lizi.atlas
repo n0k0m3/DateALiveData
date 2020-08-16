@@ -1,0 +1,13 @@
+
+level_wyl_feichuan_lizi.png
+size: 64,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dian
+  rotate: false
+  xy: 2, 2
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1

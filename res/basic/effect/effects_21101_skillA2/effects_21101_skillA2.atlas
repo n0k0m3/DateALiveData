@@ -1,0 +1,104 @@
+
+effects_21101_skillA2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+texiao/shouji/1_00000
+  rotate: false
+  xy: 2, 683
+  size: 324, 339
+  orig: 427, 386
+  offset: 40, 16
+  index: -1
+texiao/shouji/1_00001
+  rotate: false
+  xy: 2, 422
+  size: 247, 259
+  orig: 427, 386
+  offset: 77, 57
+  index: -1
+texiao/shouji/1_00002
+  rotate: true
+  xy: 2, 2
+  size: 224, 194
+  orig: 427, 386
+  offset: 108, 101
+  index: -1
+texiao/shouji/1_00004
+  rotate: false
+  xy: 582, 830
+  size: 241, 192
+  orig: 427, 386
+  offset: 107, 104
+  index: -1
+texiao/shouji/1_00005
+  rotate: false
+  xy: 2, 228
+  size: 246, 192
+  orig: 427, 386
+  offset: 107, 104
+  index: -1
+texiao/shouji/1_00006
+  rotate: false
+  xy: 328, 832
+  size: 252, 190
+  orig: 427, 386
+  offset: 106, 105
+  index: -1
+texiao/shouji/1_00007
+  rotate: true
+  xy: 825, 796
+  size: 226, 189
+  orig: 427, 386
+  offset: 106, 105
+  index: -1
+texiao/shouji/1_00008
+  rotate: false
+  xy: 251, 468
+  size: 222, 185
+  orig: 427, 386
+  offset: 118, 109
+  index: -1
+texiao/shouji/1_00009
+  rotate: false
+  xy: 578, 643
+  size: 233, 185
+  orig: 427, 386
+  offset: 116, 109
+  index: -1
+texiao/shouji/1_00011
+  rotate: false
+  xy: 328, 655
+  size: 248, 175
+  orig: 427, 386
+  offset: 113, 119
+  index: -1
+texiao/shouji/1_00012
+  rotate: true
+  xy: 813, 580
+  size: 214, 177
+  orig: 427, 386
+  offset: 113, 117
+  index: -1
+texiao/shouji/1_00013
+  rotate: false
+  xy: 475, 464
+  size: 222, 177
+  orig: 427, 386
+  offset: 112, 117
+  index: -1
+texiao/shouji/1_00014
+  rotate: false
+  xy: 198, 47
+  size: 132, 179
+  orig: 427, 386
+  offset: 112, 115
+  index: -1
+texiao/shouji/1_00015
+  rotate: true
+  xy: 251, 341
+  size: 125, 178
+  orig: 427, 386
+  offset: 110, 116
+  index: -1

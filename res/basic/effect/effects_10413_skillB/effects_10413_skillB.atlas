@@ -1,0 +1,767 @@
+
+effects_10413_skillB.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillA/qingkou/qiangjkou_00145
+  rotate: false
+  xy: 593, 344
+  size: 230, 215
+  orig: 236, 215
+  offset: 2, 0
+  index: -1
+images/effects/skillA/qingkou/qiangjkou_00147
+  rotate: true
+  xy: 825, 323
+  size: 236, 81
+  orig: 236, 215
+  offset: 0, 63
+  index: -1
+images/effects/skillA/qingkou/qiangjkou_00149
+  rotate: true
+  xy: 929, 704
+  size: 145, 93
+  orig: 236, 215
+  offset: 46, 56
+  index: -1
+images/effects/skillA/qingkou/qiangjkou_00157
+  rotate: true
+  xy: 957, 22
+  size: 129, 61
+  orig: 236, 215
+  offset: 67, 71
+  index: -1
+images/effects/skillB/canying/5_00041
+  rotate: false
+  xy: 606, 660
+  size: 321, 160
+  orig: 321, 161
+  offset: 0, 1
+  index: -1
+images/effects/skillB/canying/6_1_00042
+  rotate: true
+  xy: 908, 325
+  size: 115, 100
+  orig: 115, 106
+  offset: 0, 0
+  index: -1
+images/effects/skillB/canying/6_2_00042
+  rotate: true
+  xy: 411, 173
+  size: 165, 183
+  orig: 165, 183
+  offset: 0, 0
+  index: -1
+images/effects/skillB/canying/canying/1/1_00071
+  rotate: true
+  xy: 322, 158
+  size: 69, 77
+  orig: 92, 77
+  offset: 1, 0
+  index: -1
+images/effects/skillB/canying/canying/2/2_00073
+  rotate: true
+  xy: 267, 2
+  size: 147, 134
+  orig: 150, 134
+  offset: 3, 0
+  index: -1
+images/effects/skillB/canying/canying/4/4_00076
+  rotate: false
+  xy: 790, 142
+  size: 164, 179
+  orig: 164, 179
+  offset: 0, 0
+  index: -1
+images/effects/skillB/canying/canying/5/5_00082
+  rotate: false
+  xy: 929, 584
+  size: 93, 118
+  orig: 94, 118
+  offset: 1, 0
+  index: -1
+images/effects/skillB/canying/canying/6/6_00079
+  rotate: false
+  xy: 861, 584
+  size: 60, 74
+  orig: 60, 74
+  offset: 0, 0
+  index: -1
+images/effects/skillB/canying/canying/8/8_00088
+  rotate: true
+  xy: 591, 15
+  size: 134, 181
+  orig: 134, 181
+  offset: 0, 0
+  index: -1
+images/effects/skillB/canying/canying/8/8_00089
+  rotate: true
+  xy: 774, 6
+  size: 134, 181
+  orig: 134, 181
+  offset: 0, 0
+  index: -1
+images/effects/skillB/canying/canying/8/8_00091
+  rotate: false
+  xy: 908, 851
+  size: 114, 171
+  orig: 134, 181
+  offset: 0, 0
+  index: -1
+images/effects/skillB/canying/canying/meigui_00080
+  rotate: false
+  xy: 908, 442
+  size: 114, 140
+  orig: 146, 146
+  offset: 9, 4
+  index: -1
+images/effects/skillB/cuan/cuan_00094
+  rotate: true
+  xy: 322, 229
+  size: 381, 87
+  orig: 461, 87
+  offset: 68, 0
+  index: -1
+images/effects/skillB/cuan/cuan_00096
+  rotate: true
+  xy: 76, 182
+  size: 413, 85
+  orig: 461, 87
+  offset: 34, 0
+  index: -1
+images/effects/skillB/cuan/cuan_00098
+  rotate: true
+  xy: 2, 167
+  size: 428, 72
+  orig: 461, 87
+  offset: 0, 6
+  index: -1
+images/effects/skillB/cuan/cuan_00100
+  rotate: true
+  xy: 163, 167
+  size: 428, 58
+  orig: 461, 87
+  offset: 0, 13
+  index: -1
+images/effects/skillB/cuan/cuan_00102
+  rotate: true
+  xy: 223, 167
+  size: 428, 46
+  orig: 461, 87
+  offset: 0, 19
+  index: -1
+images/effects/skillB/cuan/cuan_00104
+  rotate: true
+  xy: 271, 174
+  size: 421, 49
+  orig: 461, 87
+  offset: 7, 16
+  index: -1
+images/effects/skillB/dibao/dibao_00096
+  rotate: false
+  xy: 411, 340
+  size: 180, 270
+  orig: 300, 277
+  offset: 55, 5
+  index: -1
+images/effects/skillB/dibao/dibao_00098
+  rotate: false
+  xy: 304, 612
+  size: 300, 200
+  orig: 300, 277
+  offset: 0, 0
+  index: -1
+images/effects/skillB/dibao/dibao_00100
+  rotate: false
+  xy: 606, 822
+  size: 300, 200
+  orig: 300, 277
+  offset: 0, 0
+  index: -1
+images/effects/skillB/dibao/dibao_00102
+  rotate: false
+  xy: 2, 808
+  size: 300, 214
+  orig: 300, 277
+  offset: 0, 0
+  index: -1
+images/effects/skillB/dibao/dibao_00104
+  rotate: false
+  xy: 2, 597
+  size: 300, 209
+  orig: 300, 277
+  offset: 0, 0
+  index: -1
+images/effects/skillB/dibao/dibao_00106
+  rotate: false
+  xy: 304, 814
+  size: 300, 208
+  orig: 300, 277
+  offset: 0, 0
+  index: -1
+images/effects/skillB/dibao/dibao_00108
+  rotate: false
+  xy: 2, 12
+  size: 263, 153
+  orig: 300, 277
+  offset: 37, 15
+  index: -1
+images/effects/skillB/dibao/dibao_00110
+  rotate: false
+  xy: 606, 561
+  size: 253, 97
+  orig: 300, 277
+  offset: 47, 15
+  index: -1
+images/effects/skillB/shanbao/shanbao_00006
+  rotate: true
+  xy: 596, 151
+  size: 191, 192
+  orig: 200, 197
+  offset: 6, 1
+  index: -1
+images/effects/skillB/shanbao/shanbao_00010
+  rotate: false
+  xy: 403, 3
+  size: 186, 168
+  orig: 200, 197
+  offset: 4, 13
+  index: -1
+images/effects/skillB/yanwu/yanwu_00029
+  rotate: true
+  xy: 956, 153
+  size: 170, 47
+  orig: 174, 52
+  offset: 0, 0
+  index: -1
+
+effects_10413_skillB2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillA/qingkou/qiangjkou_00151
+  rotate: false
+  xy: 2, 3
+  size: 152, 103
+  orig: 236, 215
+  offset: 46, 51
+  index: -1
+images/effects/skillA/qingkou/qiangjkou_00153
+  rotate: true
+  xy: 819, 640
+  size: 153, 105
+  orig: 236, 215
+  offset: 46, 50
+  index: -1
+images/effects/skillA/qingkou/qiangjkou_00155
+  rotate: true
+  xy: 300, 398
+  size: 147, 76
+  orig: 236, 215
+  offset: 50, 64
+  index: -1
+images/effects/skillB/canying/1_00003
+  rotate: true
+  xy: 290, 117
+  size: 136, 128
+  orig: 137, 132
+  offset: 0, 2
+  index: -1
+images/effects/skillB/canying/2_00004
+  rotate: false
+  xy: 543, 146
+  size: 120, 130
+  orig: 123, 131
+  offset: 0, 0
+  index: -1
+images/effects/skillB/canying/6_3_00042
+  rotate: false
+  xy: 665, 293
+  size: 132, 119
+  orig: 132, 120
+  offset: 0, 0
+  index: -1
+images/effects/skillB/canying/canying/2/2_00071
+  rotate: false
+  xy: 515, 668
+  size: 150, 134
+  orig: 150, 134
+  offset: 0, 0
+  index: -1
+images/effects/skillB/canying/canying/2/2_00072
+  rotate: false
+  xy: 667, 659
+  size: 150, 134
+  orig: 150, 134
+  offset: 0, 0
+  index: -1
+images/effects/skillB/canying/canying/2/2_00074
+  rotate: false
+  xy: 471, 413
+  size: 128, 131
+  orig: 150, 134
+  offset: 22, 0
+  index: -1
+images/effects/skillB/canying/canying/2/2_00075
+  rotate: true
+  xy: 896, 799
+  size: 77, 110
+  orig: 150, 134
+  offset: 26, 3
+  index: -1
+images/effects/skillB/canying/canying/2/bai_00065
+  rotate: false
+  xy: 314, 555
+  size: 148, 134
+  orig: 148, 134
+  offset: 0, 0
+  index: -1
+images/effects/skillB/canying/canying/3/3_00073
+  rotate: false
+  xy: 168, 110
+  size: 120, 144
+  orig: 120, 144
+  offset: 0, 0
+  index: -1
+images/effects/skillB/canying/canying/3/3_00074
+  rotate: true
+  xy: 464, 546
+  size: 120, 144
+  orig: 120, 144
+  offset: 0, 0
+  index: -1
+images/effects/skillB/canying/canying/3/3_00075
+  rotate: true
+  xy: 610, 537
+  size: 120, 144
+  orig: 120, 144
+  offset: 0, 0
+  index: -1
+images/effects/skillB/canying/canying/3/3_00076
+  rotate: true
+  xy: 756, 523
+  size: 115, 144
+  orig: 120, 144
+  offset: 1, 0
+  index: -1
+images/effects/skillB/canying/canying/3/3_00077
+  rotate: false
+  xy: 911, 878
+  size: 110, 144
+  orig: 120, 144
+  offset: 6, 0
+  index: -1
+images/effects/skillB/canying/canying/3/bai_00067
+  rotate: false
+  xy: 902, 494
+  size: 120, 144
+  orig: 120, 144
+  offset: 0, 0
+  index: -1
+images/effects/skillB/canying/canying/4/4_00077
+  rotate: false
+  xy: 2, 462
+  size: 164, 179
+  orig: 164, 179
+  offset: 0, 0
+  index: -1
+images/effects/skillB/canying/canying/4/4_00078
+  rotate: false
+  xy: 2, 284
+  size: 164, 176
+  orig: 164, 179
+  offset: 0, 0
+  index: -1
+images/effects/skillB/canying/canying/4/4_00079
+  rotate: false
+  xy: 2, 108
+  size: 164, 174
+  orig: 164, 179
+  offset: 0, 0
+  index: -1
+images/effects/skillB/canying/canying/4/4_00080
+  rotate: false
+  xy: 314, 691
+  size: 149, 150
+  orig: 164, 179
+  offset: 15, 0
+  index: -1
+images/effects/skillB/canying/canying/4/bai_00070
+  rotate: false
+  xy: 372, 843
+  size: 164, 179
+  orig: 164, 179
+  offset: 0, 0
+  index: -1
+images/effects/skillB/canying/canying/5/5_00079
+  rotate: false
+  xy: 546, 26
+  size: 94, 118
+  orig: 94, 118
+  offset: 0, 0
+  index: -1
+images/effects/skillB/canying/canying/5/5_00080
+  rotate: false
+  xy: 642, 26
+  size: 94, 118
+  orig: 94, 118
+  offset: 0, 0
+  index: -1
+images/effects/skillB/canying/canying/5/5_00081
+  rotate: false
+  xy: 879, 54
+  size: 94, 118
+  orig: 94, 118
+  offset: 0, 0
+  index: -1
+images/effects/skillB/canying/canying/6/bai_00076
+  rotate: true
+  xy: 335, 55
+  size: 60, 74
+  orig: 60, 74
+  offset: 0, 0
+  index: -1
+images/effects/skillB/canying/canying/7/7_00084
+  rotate: false
+  xy: 601, 414
+  size: 133, 121
+  orig: 133, 121
+  offset: 0, 0
+  index: -1
+images/effects/skillB/canying/canying/7/7_00085
+  rotate: true
+  xy: 419, 263
+  size: 133, 121
+  orig: 133, 121
+  offset: 0, 0
+  index: -1
+images/effects/skillB/canying/canying/7/7_00086
+  rotate: true
+  xy: 420, 128
+  size: 133, 121
+  orig: 133, 121
+  offset: 0, 0
+  index: -1
+images/effects/skillB/canying/canying/7/7_00087
+  rotate: false
+  xy: 874, 371
+  size: 133, 121
+  orig: 133, 121
+  offset: 0, 0
+  index: -1
+images/effects/skillB/canying/canying/7/7_00088
+  rotate: false
+  xy: 849, 266
+  size: 131, 103
+  orig: 133, 121
+  offset: 0, 0
+  index: -1
+images/effects/skillB/canying/canying/7/bai_00079
+  rotate: true
+  xy: 542, 278
+  size: 133, 121
+  orig: 133, 121
+  offset: 0, 0
+  index: -1
+images/effects/skillB/canying/canying/8/8_00090
+  rotate: true
+  xy: 728, 888
+  size: 134, 181
+  orig: 134, 181
+  offset: 0, 0
+  index: -1
+images/effects/skillB/canying/canying/8/bai_00082
+  rotate: false
+  xy: 178, 651
+  size: 134, 181
+  orig: 134, 181
+  offset: 0, 0
+  index: -1
+images/effects/skillB/canying/canying/meigui_00072
+  rotate: false
+  xy: 294, 255
+  size: 123, 141
+  orig: 146, 146
+  offset: 0, 0
+  index: -1
+images/effects/skillB/canying/canying/meigui_00074
+  rotate: false
+  xy: 665, 161
+  size: 107, 130
+  orig: 146, 146
+  offset: 16, 12
+  index: -1
+images/effects/skillB/canying/canying/meigui_00076
+  rotate: true
+  xy: 178, 547
+  size: 102, 134
+  orig: 146, 146
+  offset: 21, 9
+  index: -1
+images/effects/skillB/canying/canying/meigui_00078
+  rotate: true
+  xy: 736, 414
+  size: 107, 136
+  orig: 146, 146
+  offset: 14, 7
+  index: -1
+images/effects/skillB/canying/canying/meigui_00084
+  rotate: false
+  xy: 168, 256
+  size: 124, 143
+  orig: 146, 146
+  offset: 3, 2
+  index: -1
+images/effects/skillB/canying/canying/meigui_00088
+  rotate: false
+  xy: 168, 401
+  size: 130, 144
+  orig: 146, 146
+  offset: 0, 1
+  index: -1
+images/effects/skillB/dimian_00096
+  rotate: false
+  xy: 538, 804
+  size: 190, 64
+  orig: 198, 78
+  offset: 4, 4
+  index: -1
+images/effects/skillB/guangxian
+  rotate: true
+  xy: 510, 2
+  size: 124, 34
+  orig: 126, 35
+  offset: 1, 1
+  index: -1
+images/effects/skillB/shanbao/shanbao_00008
+  rotate: false
+  xy: 2, 834
+  size: 187, 188
+  orig: 200, 197
+  offset: 5, 0
+  index: -1
+images/effects/skillB/shanbao/shanbao_00012
+  rotate: true
+  xy: 2, 643
+  size: 189, 174
+  orig: 200, 197
+  offset: 3, 19
+  index: -1
+images/effects/skillB/shanbao/shanbao_00014
+  rotate: false
+  xy: 538, 870
+  size: 188, 152
+  orig: 200, 197
+  offset: 4, 37
+  index: -1
+images/effects/skillB/xuqi/xuqi_00008
+  rotate: true
+  xy: 926, 642
+  size: 155, 88
+  orig: 174, 91
+  offset: 7, 0
+  index: -1
+images/effects/skillB/xuqi/xuqi_00010
+  rotate: false
+  xy: 730, 795
+  size: 164, 91
+  orig: 174, 91
+  offset: 4, 0
+  index: -1
+images/effects/skillB/xuqi/xuqi_00012
+  rotate: true
+  xy: 378, 398
+  size: 146, 91
+  orig: 174, 91
+  offset: 11, 0
+  index: -1
+images/effects/skillB/xuqi/xuqi_00014
+  rotate: false
+  xy: 849, 174
+  size: 128, 90
+  orig: 174, 91
+  offset: 19, 0
+  index: -1
+images/effects/skillB/xuqi/xuqi_00018
+  rotate: false
+  xy: 420, 44
+  size: 88, 82
+  orig: 174, 91
+  offset: 31, 0
+  index: -1
+images/effects/skillB/yanwu/yanwu_00024
+  rotate: false
+  xy: 324, 2
+  size: 150, 40
+  orig: 174, 52
+  offset: 9, 0
+  index: -1
+images/effects/skillB/yanwu/yanwu_00025
+  rotate: true
+  xy: 738, 5
+  size: 154, 42
+  orig: 174, 52
+  offset: 7, 0
+  index: -1
+images/effects/skillB/yanwu/yanwu_00026
+  rotate: true
+  xy: 979, 44
+  size: 156, 43
+  orig: 174, 52
+  offset: 6, 0
+  index: -1
+images/effects/skillB/yanwu/yanwu_00027
+  rotate: false
+  xy: 168, 63
+  size: 165, 45
+  orig: 174, 52
+  offset: 1, 0
+  index: -1
+images/effects/skillB/yanwu/yanwu_00028
+  rotate: true
+  xy: 782, 2
+  size: 170, 46
+  orig: 174, 52
+  offset: 0, 0
+  index: -1
+images/effects/skillB/yanwu/yanwu_00030
+  rotate: true
+  xy: 465, 672
+  size: 169, 48
+  orig: 174, 52
+  offset: 1, 0
+  index: -1
+images/effects/skillB/yanwu/yanwu_00031
+  rotate: true
+  xy: 799, 243
+  size: 169, 48
+  orig: 174, 52
+  offset: 1, 0
+  index: -1
+images/effects/skillB/yanwu/yanwu_00032
+  rotate: true
+  xy: 830, 4
+  size: 168, 47
+  orig: 174, 52
+  offset: 2, 1
+  index: -1
+images/effects/skillB/yanwu/yanwu_00033
+  rotate: true
+  xy: 982, 202
+  size: 167, 40
+  orig: 174, 52
+  offset: 3, 2
+  index: -1
+images/effects/skillB/yanwu/yanwu_00034
+  rotate: false
+  xy: 156, 2
+  size: 166, 40
+  orig: 174, 52
+  offset: 4, 2
+  index: -1
+images/effects/skillB/yuan_00018
+  rotate: false
+  xy: 191, 843
+  size: 179, 179
+  orig: 203, 206
+  offset: 12, 11
+  index: -1
+
+effects_10413_skillB3.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillA/qingkou/qiangjkou_00159
+  rotate: false
+  xy: 2, 2
+  size: 99, 60
+  orig: 236, 215
+  offset: 88, 72
+  index: -1
+images/effects/skillB/canying/canying/1/1_00068
+  rotate: false
+  xy: 98, 350
+  size: 92, 77
+  orig: 92, 77
+  offset: 0, 0
+  index: -1
+images/effects/skillB/canying/canying/1/1_00069
+  rotate: false
+  xy: 97, 271
+  size: 92, 77
+  orig: 92, 77
+  offset: 0, 0
+  index: -1
+images/effects/skillB/canying/canying/1/1_00070
+  rotate: false
+  xy: 192, 350
+  size: 92, 77
+  orig: 92, 77
+  offset: 0, 0
+  index: -1
+images/effects/skillB/canying/canying/1/bai_00061
+  rotate: false
+  xy: 191, 271
+  size: 92, 77
+  orig: 92, 77
+  offset: 0, 0
+  index: -1
+images/effects/skillB/canying/canying/5/5_00083
+  rotate: false
+  xy: 2, 265
+  size: 93, 118
+  orig: 94, 118
+  offset: 1, 0
+  index: -1
+images/effects/skillB/canying/canying/5/bai_00073
+  rotate: false
+  xy: 2, 385
+  size: 94, 118
+  orig: 94, 118
+  offset: 0, 0
+  index: -1
+images/effects/skillB/glow
+  rotate: false
+  xy: 263, 433
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+images/effects/skillB/glow_00085
+  rotate: false
+  xy: 335, 421
+  size: 82, 82
+  orig: 95, 90
+  offset: 5, 3
+  index: -1
+images/effects/skillB/shizi_00018
+  rotate: true
+  xy: 2, 64
+  size: 94, 83
+  orig: 116, 118
+  offset: 11, 15
+  index: -1
+images/effects/skillB/xuqi/xuqi_00016
+  rotate: true
+  xy: 2, 160
+  size: 103, 88
+  orig: 174, 91
+  offset: 29, 0
+  index: -1
+images/effects/skillB/yanwu/yanwu_00035
+  rotate: false
+  xy: 98, 464
+  size: 163, 39
+  orig: 174, 52
+  offset: 6, 2
+  index: -1
+images/effects/skillB/yanwu/yanwu_00036
+  rotate: false
+  xy: 98, 429
+  size: 156, 33
+  orig: 174, 52
+  offset: 10, 7
+  index: -1

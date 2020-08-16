@@ -1,0 +1,83 @@
+
+effect_heroGrow_ui3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: false
+  xy: 454, 386
+  size: 187, 54
+  orig: 196, 56
+  offset: 4, 0
+  index: -1
+02
+  rotate: false
+  xy: 745, 889
+  size: 134, 53
+  orig: 144, 56
+  offset: 7, 0
+  index: -1
+cheng1
+  rotate: true
+  xy: 881, 892
+  size: 50, 61
+  orig: 52, 63
+  offset: 1, 1
+  index: -1
+final_00047_00000
+  rotate: false
+  xy: 2, 442
+  size: 656, 500
+  orig: 664, 500
+  offset: 8, 0
+  index: -1
+gong
+  rotate: false
+  xy: 454, 324
+  size: 56, 60
+  orig: 58, 62
+  offset: 1, 1
+  index: -1
+huangse
+  rotate: false
+  xy: 304, 99
+  size: 40, 31
+  orig: 42, 33
+  offset: 1, 1
+  index: -1
+po
+  rotate: false
+  xy: 745, 825
+  size: 50, 62
+  orig: 52, 64
+  offset: 1, 1
+  index: -1
+shenglidi
+  rotate: true
+  xy: 660, 450
+  size: 492, 83
+  orig: 494, 85
+  offset: 1, 1
+  index: -1
+tiao1_00000
+  rotate: false
+  xy: 2, 132
+  size: 450, 308
+  orig: 450, 320
+  offset: 0, 12
+  index: -1
+tiao_00000
+  rotate: false
+  xy: 2, 92
+  size: 300, 38
+  orig: 300, 100
+  offset: 0, 31
+  index: -1
+tu
+  rotate: false
+  xy: 2, 28
+  size: 55, 62
+  orig: 57, 64
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,249 @@
+{
+"skeleton": { "hash": "hjxMb/E53V/QeKw//6E0O/nK2CY", "spine": "2.1.27", "width": 0, "height": 0, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bdbox", "parent": "root" },
+	{ "name": "boom2", "parent": "root", "scaleX": 2.5, "scaleY": 2.5 },
+	{ "name": "dilie", "parent": "root" },
+	{ "name": "glow", "parent": "root", "y": 135.76, "scaleX": 6, "scaleY": 6 },
+	{ "name": "kuoqi", "parent": "root", "scaleX": 2, "scaleY": 2 },
+	{ "name": "lenqi", "parent": "root", "scaleX": 3, "scaleY": 3 }
+],
+"slots": [
+	{ "name": "bdbox_eff", "bone": "bdbox", "attachment": "bdbox_eff" },
+	{ "name": "images/effects/skillb/boom2/boom2_000", "bone": "boom2" },
+	{ "name": "images/effects/skillb/dilie_000", "bone": "dilie" },
+	{ "name": "images/effects/skillb/kuoqi_000", "bone": "kuoqi", "blend": "additive" },
+	{ "name": "images/effects/lenqi/lenqi_000", "bone": "lenqi" },
+	{ "name": "images/effects/glow_000", "bone": "glow", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"bdbox_eff": {
+			"bdbox_eff": {
+				"type": "boundingbox",
+				"vertices": [ 62.71896, -64.58366, 61.42599, 62.13029, -61.40902, 63.42332, -61.40902, -67.16966 ]
+			}
+		},
+		"images/effects/glow_000": {
+			"images/effects/glow_000": { "width": 100, "height": 100 }
+		},
+		"images/effects/lenqi/lenqi_000": {
+			"images/effects/lenqi/lenqi_001": { "width": 250, "height": 58 },
+			"images/effects/lenqi/lenqi_003": { "width": 250, "height": 58 },
+			"images/effects/lenqi/lenqi_005": { "width": 250, "height": 58 },
+			"images/effects/lenqi/lenqi_007": { "width": 250, "height": 58 },
+			"images/effects/lenqi/lenqi_009": { "width": 250, "height": 58 },
+			"images/effects/lenqi/lenqi_011": { "width": 250, "height": 58 },
+			"images/effects/lenqi/lenqi_013": { "width": 250, "height": 58 }
+		},
+		"images/effects/skillb/boom2/boom2_000": {
+			"images/effects/skillb/boom2/boom2_000": { "width": 300, "height": 300 },
+			"images/effects/skillb/boom2/boom2_002": { "width": 300, "height": 300 },
+			"images/effects/skillb/boom2/boom2_004": { "width": 300, "height": 300 },
+			"images/effects/skillb/boom2/boom2_006": { "width": 300, "height": 300 },
+			"images/effects/skillb/boom2/boom2_008": { "width": 300, "height": 300 },
+			"images/effects/skillb/boom2/boom2_012": { "width": 300, "height": 300 }
+		},
+		"images/effects/skillb/dilie_000": {
+			"images/effects/skillb/dilie_000": { "width": 360, "height": 100 }
+		},
+		"images/effects/skillb/kuoqi_000": {
+			"images/effects/skillb/kuoqi_000": { "width": 300, "height": 100 }
+		}
+	}
+},
+"animations": {
+	"quickmove_1": {
+		"slots": {
+			"images/effects/glow_000": {
+				"attachment": [
+					{ "time": 0, "name": "images/effects/glow_000" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.0333, "color": "0066ffff" },
+					{ "time": 0.1666, "color": "3800ff00" }
+				]
+			},
+			"images/effects/lenqi/lenqi_000": {
+				"attachment": [
+					{ "time": 0, "name": "images/effects/lenqi/lenqi_001" },
+					{ "time": 0.0333, "name": "images/effects/lenqi/lenqi_003" },
+					{ "time": 0.1, "name": "images/effects/lenqi/lenqi_005" },
+					{ "time": 0.1666, "name": "images/effects/lenqi/lenqi_007" },
+					{ "time": 0.2333, "name": "images/effects/lenqi/lenqi_009" },
+					{ "time": 0.3, "name": "images/effects/lenqi/lenqi_011" },
+					{ "time": 0.3666, "name": "images/effects/lenqi/lenqi_013" },
+					{ "time": 0.4666, "name": null }
+				],
+				"color": [
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.4666, "color": "ffffff00" }
+				]
+			},
+			"images/effects/skillb/dilie_000": {
+				"attachment": [
+					{ "time": 0, "name": "images/effects/skillb/dilie_000" }
+				],
+				"color": [
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.6333, "color": "ffffff00" }
+				]
+			},
+			"images/effects/skillb/kuoqi_000": {
+				"attachment": [
+					{ "time": 0, "name": "images/effects/skillb/kuoqi_000" }
+				],
+				"color": [
+					{ "time": 0.1666, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"bdbox": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"lenqi": {
+				"scale": [
+					{ "time": 0, "x": 1.333, "y": 1.333 }
+				]
+			},
+			"glow": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -136.28 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.546, "y": 0.711 }
+				]
+			},
+			"kuoqi": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0, 0.63, 0.75, 1 ]
+					},
+					{ "time": 0.5, "x": 2, "y": 2 }
+				]
+			},
+			"dilie": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 2.2,
+						"y": 2.2,
+						"curve": [ 0, 0.45, 0.75, 1 ]
+					},
+					{ "time": 0.6333, "x": 2.5, "y": 2.5 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"quickmove_2": {
+		"slots": {
+			"images/effects/glow_000": {
+				"attachment": [
+					{ "time": 0, "name": "images/effects/glow_000" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.0333, "color": "0066ffff" },
+					{ "time": 0.1666, "color": "3800ff00" }
+				]
+			},
+			"images/effects/skillb/boom2/boom2_000": {
+				"attachment": [
+					{ "time": 0, "name": "images/effects/skillb/boom2/boom2_000" },
+					{ "time": 0.0666, "name": "images/effects/skillb/boom2/boom2_002" },
+					{ "time": 0.1333, "name": "images/effects/skillb/boom2/boom2_004" },
+					{ "time": 0.2, "name": "images/effects/skillb/boom2/boom2_006" },
+					{ "time": 0.2666, "name": "images/effects/skillb/boom2/boom2_008" },
+					{ "time": 0.3666, "name": "images/effects/skillb/boom2/boom2_012" },
+					{ "time": 0.5, "name": null }
+				],
+				"color": [
+					{ "time": 0.2666, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff00" }
+				]
+			},
+			"images/effects/skillb/dilie_000": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"images/effects/skillb/kuoqi_000": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0.1666, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"bdbox": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"glow": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 85.31 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.166, "y": 1.166 }
+				]
+			},
+			"kuoqi": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0, 0.63, 0.75, 1 ]
+					},
+					{ "time": 0.5, "x": 2, "y": 2 }
+				]
+			},
+			"dilie": {
+				"scale": [
+					{ "time": 0, "x": 2.2, "y": 2.2 }
+				]
+			},
+			"boom2": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 222.7 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.8, "y": 0.8 },
+					{ "time": 0.0666, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	}
+}
+}

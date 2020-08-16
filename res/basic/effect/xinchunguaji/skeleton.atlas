@@ -1,0 +1,146 @@
+
+skeleton.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/lizi/lizi_000
+  rotate: false
+  xy: 809, 274
+  size: 123, 114
+  orig: 135, 132
+  offset: 12, 12
+  index: -1
+effect/lizi/lizi_001
+  rotate: false
+  xy: 794, 156
+  size: 122, 116
+  orig: 135, 132
+  offset: 13, 11
+  index: -1
+effect/lizi/lizi_002
+  rotate: false
+  xy: 270, 119
+  size: 122, 122
+  orig: 135, 132
+  offset: 13, 7
+  index: -1
+effect/lizi/lizi_003
+  rotate: true
+  xy: 543, 271
+  size: 116, 124
+  orig: 135, 132
+  offset: 17, 6
+  index: -1
+effect/lizi/lizi_004
+  rotate: true
+  xy: 809, 390
+  size: 119, 127
+  orig: 135, 132
+  offset: 16, 5
+  index: -1
+effect/lizi/lizi_005
+  rotate: true
+  xy: 543, 389
+  size: 120, 132
+  orig: 135, 132
+  offset: 13, 0
+  index: -1
+effect/lizi/lizi_006
+  rotate: true
+  xy: 409, 271
+  size: 113, 132
+  orig: 135, 132
+  offset: 18, 0
+  index: -1
+effect/lizi/lizi_007
+  rotate: true
+  xy: 409, 386
+  size: 123, 132
+  orig: 135, 132
+  offset: 11, 0
+  index: -1
+effect/lizi/lizi_008
+  rotate: false
+  xy: 139, 243
+  size: 130, 132
+  orig: 135, 132
+  offset: 5, 0
+  index: -1
+effect/lizi/lizi_009
+  rotate: false
+  xy: 2, 109
+  size: 133, 132
+  orig: 135, 132
+  offset: 2, 0
+  index: -1
+effect/lizi/lizi_010
+  rotate: false
+  xy: 2, 377
+  size: 135, 132
+  orig: 135, 132
+  offset: 0, 0
+  index: -1
+effect/lizi/lizi_011
+  rotate: false
+  xy: 2, 243
+  size: 135, 132
+  orig: 135, 132
+  offset: 0, 0
+  index: -1
+effect/lizi/lizi_012
+  rotate: false
+  xy: 139, 377
+  size: 134, 132
+  orig: 135, 132
+  offset: 1, 0
+  index: -1
+effect/lizi/lizi_013
+  rotate: false
+  xy: 275, 379
+  size: 132, 130
+  orig: 135, 132
+  offset: 3, 2
+  index: -1
+effect/lizi/lizi_014
+  rotate: false
+  xy: 137, 113
+  size: 131, 128
+  orig: 135, 132
+  offset: 4, 4
+  index: -1
+effect/lizi/lizi_015
+  rotate: false
+  xy: 677, 387
+  size: 130, 122
+  orig: 135, 132
+  offset: 5, 8
+  index: -1
+effect/lizi/lizi_016
+  rotate: false
+  xy: 669, 274
+  size: 128, 111
+  orig: 135, 132
+  offset: 7, 10
+  index: -1
+effect/lizi/lizi_017
+  rotate: false
+  xy: 137, 2
+  size: 125, 109
+  orig: 135, 132
+  offset: 10, 11
+  index: -1
+effect/lizi/lizi_018
+  rotate: false
+  xy: 669, 159
+  size: 123, 113
+  orig: 135, 132
+  offset: 12, 9
+  index: -1
+effect/lizi/lizi_019
+  rotate: true
+  xy: 271, 250
+  size: 125, 112
+  orig: 135, 132
+  offset: 10, 11
+  index: -1

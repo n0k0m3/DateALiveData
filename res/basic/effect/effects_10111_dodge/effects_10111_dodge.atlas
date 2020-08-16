@@ -1,0 +1,223 @@
+
+effects_10111_dodge.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/dodge/canying111_00003
+  rotate: true
+  xy: 752, 56
+  size: 96, 91
+  orig: 142, 142
+  offset: 24, 24
+  index: -1
+images/effects/dodge/canying1_00001
+  rotate: false
+  xy: 657, 49
+  size: 93, 103
+  orig: 114, 114
+  offset: 12, 6
+  index: -1
+images/effects/dodge/canying2_00003
+  rotate: true
+  xy: 899, 556
+  size: 135, 119
+  orig: 142, 142
+  offset: 6, 7
+  index: -1
+images/effects/dodge/canying3_00004
+  rotate: false
+  xy: 889, 221
+  size: 92, 117
+  orig: 142, 142
+  offset: 21, 12
+  index: -1
+images/effects/dodge/canying4_00005
+  rotate: false
+  xy: 914, 694
+  size: 106, 134
+  orig: 142, 142
+  offset: 16, 4
+  index: -1
+images/effects/dodge/daoguang/daoguangadd_00000
+  rotate: false
+  xy: 2, 396
+  size: 288, 210
+  orig: 320, 213
+  offset: 32, 0
+  index: -1
+images/effects/dodge/daoguang/daoguangadd_00002
+  rotate: false
+  xy: 2, 812
+  size: 320, 208
+  orig: 320, 213
+  offset: 0, 0
+  index: -1
+images/effects/dodge/daoguang/daoguangadd_00004
+  rotate: false
+  xy: 2, 608
+  size: 320, 202
+  orig: 320, 213
+  offset: 0, 0
+  index: -1
+images/effects/dodge/daoguang/daoguangadd_00006
+  rotate: false
+  xy: 324, 825
+  size: 320, 195
+  orig: 320, 213
+  offset: 0, 0
+  index: -1
+images/effects/dodge/daoguang/daoguangadd_00008
+  rotate: true
+  xy: 2, 88
+  size: 306, 184
+  orig: 320, 213
+  offset: 0, 0
+  index: -1
+images/effects/dodge/daoguang/daoguangadd_00010
+  rotate: true
+  xy: 540, 177
+  size: 276, 117
+  orig: 320, 213
+  offset: 0, 6
+  index: -1
+images/effects/dodge/daoguang/daoguangadd_00012
+  rotate: false
+  xy: 632, 460
+  size: 244, 98
+  orig: 320, 213
+  offset: 0, 18
+  index: -1
+images/effects/dodge/daoguang/daoguangnor_00000
+  rotate: false
+  xy: 324, 631
+  size: 302, 192
+  orig: 320, 213
+  offset: 11, 8
+  index: -1
+images/effects/dodge/daoguang/daoguangnor_00002
+  rotate: false
+  xy: 646, 830
+  size: 302, 190
+  orig: 320, 213
+  offset: 7, 8
+  index: -1
+images/effects/dodge/daoguang/daoguangnor_00004
+  rotate: true
+  xy: 188, 88
+  size: 306, 178
+  orig: 320, 213
+  offset: 2, 10
+  index: -1
+images/effects/dodge/daoguang/daoguangnor_00006
+  rotate: false
+  xy: 324, 455
+  size: 306, 174
+  orig: 320, 213
+  offset: 6, 10
+  index: -1
+images/effects/dodge/daoguang/daoguangnor_00008
+  rotate: true
+  xy: 368, 152
+  size: 301, 170
+  orig: 320, 213
+  offset: 5, 11
+  index: -1
+images/effects/dodge/daoguang/daoguangnor_00010
+  rotate: false
+  xy: 646, 693
+  size: 266, 135
+  orig: 320, 213
+  offset: 23, 23
+  index: -1
+images/effects/dodge/daoguang/daoguangnor_00011
+  rotate: false
+  xy: 632, 560
+  size: 265, 131
+  orig: 320, 213
+  offset: 23, 24
+  index: -1
+images/effects/dodge/glow_000
+  rotate: false
+  xy: 878, 148
+  size: 71, 71
+  orig: 71, 71
+  offset: 0, 0
+  index: -1
+images/effects/dodge/tuowei/tuowei_00000
+  rotate: true
+  xy: 795, 161
+  size: 68, 81
+  orig: 284, 142
+  offset: 33, 26
+  index: -1
+images/effects/dodge/tuowei/tuowei_00002
+  rotate: false
+  xy: 368, 33
+  size: 190, 117
+  orig: 284, 142
+  offset: 0, 9
+  index: -1
+images/effects/dodge/tuowei/tuowei_00004
+  rotate: true
+  xy: 659, 200
+  size: 258, 113
+  orig: 284, 142
+  offset: 4, 17
+  index: -1
+images/effects/dodge/tuowei/tuowei_00006
+  rotate: true
+  xy: 774, 231
+  size: 227, 113
+  orig: 284, 142
+  offset: 38, 16
+  index: -1
+images/effects/dodge/tuowei/tuowei_00008
+  rotate: true
+  xy: 560, 18
+  size: 157, 95
+  orig: 284, 142
+  offset: 112, 34
+  index: -1
+images/effects/dodge/yanchen/yanchen_00000
+  rotate: false
+  xy: 659, 154
+  size: 134, 44
+  orig: 213, 107
+  offset: 53, 18
+  index: -1
+images/effects/dodge/yanchen/yanchen_00001
+  rotate: true
+  xy: 950, 878
+  size: 142, 49
+  orig: 213, 107
+  offset: 45, 14
+  index: -1
+images/effects/dodge/yanchen/yanchen_00003
+  rotate: false
+  xy: 2, 8
+  size: 155, 78
+  orig: 213, 107
+  offset: 31, 10
+  index: -1
+images/effects/dodge/yanchen/yanchen_00005
+  rotate: false
+  xy: 159, 3
+  size: 146, 83
+  orig: 213, 107
+  offset: 31, 9
+  index: -1
+images/effects/dodge/yanchen/yanchen_00007
+  rotate: false
+  xy: 878, 473
+  size: 134, 81
+  orig: 213, 107
+  offset: 31, 11
+  index: -1
+images/effects/dodge/yanchen/yanchen_00009
+  rotate: true
+  xy: 889, 340
+  size: 131, 83
+  orig: 213, 107
+  offset: 29, 9
+  index: -1

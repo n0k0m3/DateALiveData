@@ -1,0 +1,375 @@
+
+effects_fight_20901_SkillAB.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skillA/qiangkou/she0018
+  rotate: false
+  xy: 685, 34
+  size: 140, 66
+  orig: 280, 105
+  offset: 20, 17
+  index: -1
+effect/skillA/qiangkou/she0021
+  rotate: false
+  xy: 827, 2
+  size: 137, 57
+  orig: 280, 105
+  offset: 20, 23
+  index: -1
+effect/skillA/sj/sj_01
+  rotate: true
+  xy: 2, 25
+  size: 491, 498
+  orig: 504, 504
+  offset: 13, 6
+  index: -1
+effect/skillA/sj/sj_02
+  rotate: false
+  xy: 2, 518
+  size: 480, 504
+  orig: 504, 504
+  offset: 0, 0
+  index: -1
+effect/skillA/sj/sj_03
+  rotate: true
+  xy: 484, 555
+  size: 467, 501
+  orig: 504, 504
+  offset: 0, 3
+  index: -1
+effect/skillA/sj/sj_04
+  rotate: false
+  xy: 502, 102
+  size: 336, 451
+  orig: 504, 504
+  offset: 76, 50
+  index: -1
+effect/skillB/bian/bian_00013
+  rotate: true
+  xy: 502, 6
+  size: 94, 181
+  orig: 242, 245
+  offset: 60, 36
+  index: -1
+effect/skillB/bian/bian_00017
+  rotate: false
+  xy: 840, 308
+  size: 182, 245
+  orig: 242, 245
+  offset: 21, 0
+  index: -1
+effect/skillB/bian/bian_00023
+  rotate: false
+  xy: 840, 61
+  size: 182, 245
+  orig: 242, 245
+  offset: 26, 0
+  index: -1
+
+effects_fight_20901_SkillAB2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skillA/jgd/jgd_00
+  rotate: false
+  xy: 373, 200
+  size: 252, 82
+  orig: 252, 90
+  offset: 0, 3
+  index: -1
+effect/skillA/qiangkou/she0014
+  rotate: false
+  xy: 902, 821
+  size: 80, 78
+  orig: 280, 105
+  offset: 15, 11
+  index: -1
+effect/skillA/qiangkou/she0015
+  rotate: true
+  xy: 839, 593
+  size: 182, 104
+  orig: 280, 105
+  offset: 1, 0
+  index: -1
+effect/skillA/qiangkou/she0017
+  rotate: false
+  xy: 627, 214
+  size: 155, 75
+  orig: 280, 105
+  offset: 17, 13
+  index: -1
+effect/skillA/qiangkou/she0019
+  rotate: true
+  xy: 945, 680
+  size: 139, 62
+  orig: 280, 105
+  offset: 21, 19
+  index: -1
+effect/skillA/qiangkou/she0020
+  rotate: false
+  xy: 659, 7
+  size: 137, 56
+  orig: 280, 105
+  offset: 20, 24
+  index: -1
+effect/skillA/qiangkou/she0022
+  rotate: true
+  xy: 945, 603
+  size: 75, 59
+  orig: 280, 105
+  offset: 19, 22
+  index: -1
+effect/skillA/sj/sj_00
+  rotate: false
+  xy: 2, 463
+  size: 254, 204
+  orig: 504, 504
+  offset: 112, 164
+  index: -1
+effect/skillA/sj/sj_05
+  rotate: false
+  xy: 2, 669
+  size: 341, 353
+  orig: 504, 504
+  offset: 80, 38
+  index: -1
+effect/skillA/sj/sj_06
+  rotate: true
+  xy: 407, 446
+  size: 145, 244
+  orig: 504, 504
+  offset: 202, 115
+  index: -1
+effect/skillB/bian/bian_00014
+  rotate: false
+  xy: 808, 107
+  size: 100, 182
+  orig: 242, 245
+  offset: 60, 36
+  index: -1
+effect/skillB/bian/bian_00015
+  rotate: false
+  xy: 910, 80
+  size: 105, 183
+  orig: 242, 245
+  offset: 58, 37
+  index: -1
+effect/skillB/bian/bian_00016
+  rotate: true
+  xy: 373, 284
+  size: 160, 238
+  orig: 242, 245
+  offset: 31, 7
+  index: -1
+effect/skillB/bian/bian_00018
+  rotate: false
+  xy: 345, 777
+  size: 184, 245
+  orig: 242, 245
+  offset: 21, 0
+  index: -1
+effect/skillB/bian/bian_00019
+  rotate: false
+  xy: 2, 216
+  size: 184, 245
+  orig: 242, 245
+  offset: 22, 0
+  index: -1
+effect/skillB/bian/bian_00020
+  rotate: false
+  xy: 717, 777
+  size: 183, 245
+  orig: 242, 245
+  offset: 23, 0
+  index: -1
+effect/skillB/bian/bian_00021
+  rotate: false
+  xy: 531, 777
+  size: 184, 245
+  orig: 242, 245
+  offset: 24, 0
+  index: -1
+effect/skillB/bian/bian_00022
+  rotate: true
+  xy: 2, 31
+  size: 183, 245
+  orig: 242, 245
+  offset: 25, 0
+  index: -1
+effect/skillB/bian/bian_00024
+  rotate: false
+  xy: 188, 216
+  size: 183, 245
+  orig: 242, 245
+  offset: 26, 0
+  index: -1
+effect/skillB/bian/bian_00025
+  rotate: true
+  xy: 345, 593
+  size: 182, 245
+  orig: 242, 245
+  offset: 27, 0
+  index: -1
+effect/skillB/bian/bian_00026
+  rotate: true
+  xy: 592, 593
+  size: 182, 245
+  orig: 242, 245
+  offset: 27, 0
+  index: -1
+effect/skillB/bian/bian_00027
+  rotate: true
+  xy: 653, 440
+  size: 151, 226
+  orig: 242, 245
+  offset: 43, 7
+  index: -1
+effect/skillB/bian/bian_00028
+  rotate: false
+  xy: 249, 34
+  size: 110, 180
+  orig: 242, 245
+  offset: 67, 32
+  index: -1
+effect/skillB/bian/bian_00029
+  rotate: false
+  xy: 911, 265
+  size: 108, 177
+  orig: 242, 245
+  offset: 69, 34
+  index: -1
+effect/skillB/lvguan_00000
+  rotate: false
+  xy: 258, 598
+  size: 69, 69
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+effect/skillB/shanlizi_00000
+  rotate: true
+  xy: 902, 901
+  size: 121, 120
+  orig: 147, 147
+  offset: 13, 12
+  index: -1
+effect/skillB/shanlizi_00002
+  rotate: false
+  xy: 361, 51
+  size: 147, 147
+  orig: 147, 147
+  offset: 0, 0
+  index: -1
+effect/skillB/shanlizi_00003
+  rotate: false
+  xy: 510, 51
+  size: 147, 147
+  orig: 147, 147
+  offset: 0, 0
+  index: -1
+effect/skillB/shanlizi_00004
+  rotate: false
+  xy: 613, 291
+  size: 147, 147
+  orig: 147, 147
+  offset: 0, 0
+  index: -1
+effect/skillB/shanlizi_00005
+  rotate: false
+  xy: 762, 291
+  size: 147, 147
+  orig: 147, 147
+  offset: 0, 0
+  index: -1
+effect/skillB/shanlizi_00006
+  rotate: false
+  xy: 659, 65
+  size: 147, 147
+  orig: 147, 147
+  offset: 0, 0
+  index: -1
+effect/skillB/shanlizi_00009
+  rotate: true
+  xy: 258, 463
+  size: 128, 147
+  orig: 147, 147
+  offset: 17, 0
+  index: -1
+effect/skillB/shanlizi_00010
+  rotate: false
+  xy: 881, 444
+  size: 138, 147
+  orig: 147, 147
+  offset: 9, 0
+  index: -1
+
+effects_fight_20901_SkillAB3.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skillA/qiangkou/she0016
+  rotate: true
+  xy: 274, 2
+  size: 163, 90
+  orig: 280, 105
+  offset: 9, 5
+  index: -1
+effect/skillB/caihongshan
+  rotate: false
+  xy: 151, 167
+  size: 143, 145
+  orig: 175, 175
+  offset: 16, 14
+  index: -1
+effect/skillB/shanlizi_00001
+  rotate: false
+  xy: 300, 329
+  size: 134, 132
+  orig: 147, 147
+  offset: 7, 8
+  index: -1
+effect/skillB/shanlizi_00007
+  rotate: false
+  xy: 2, 314
+  size: 147, 147
+  orig: 147, 147
+  offset: 0, 0
+  index: -1
+effect/skillB/shanlizi_00008
+  rotate: false
+  xy: 2, 165
+  size: 147, 147
+  orig: 147, 147
+  offset: 0, 0
+  index: -1
+effect/skillB/shanlizi_00011
+  rotate: false
+  xy: 151, 27
+  size: 121, 138
+  orig: 147, 147
+  offset: 18, 3
+  index: -1
+effect/skillB/shanlizi_00012
+  rotate: false
+  xy: 151, 314
+  size: 147, 147
+  orig: 147, 147
+  offset: 0, 0
+  index: -1
+effect/skillB/shanlizi_00013
+  rotate: true
+  xy: 300, 205
+  size: 122, 125
+  orig: 147, 147
+  offset: 16, 6
+  index: -1
+effect/skillB/shanlizi_00014
+  rotate: false
+  xy: 2, 16
+  size: 147, 147
+  orig: 147, 147
+  offset: 0, 0
+  index: -1

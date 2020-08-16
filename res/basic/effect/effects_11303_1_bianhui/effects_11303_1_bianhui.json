@@ -1,0 +1,250 @@
+{
+"skeleton": { "hash": "m2hCH0/DHDdl3tKUk5XuqwUH2+0", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bdbox_eff", "parent": "root" },
+	{ "name": "effect", "parent": "root" },
+	{ "name": "glow", "parent": "effect" },
+	{ "name": "yanchen", "parent": "effect" },
+	{ "name": "yanchenlizi", "parent": "effect" },
+	{ "name": "yuan", "parent": "effect" }
+],
+"slots": [
+	{ "name": "bdbox_eff", "bone": "bdbox_eff", "attachment": "bdbox_eff" },
+	{ "name": "effects/skillA/glow_000", "bone": "glow", "blend": "additive" },
+	{ "name": "effects/skillC/yanchen/yanchen_00024", "bone": "yanchen" },
+	{ "name": "effects/skillC/yanchenlizi/yanchenlizi_00024", "bone": "yanchenlizi", "blend": "additive" },
+	{ "name": "effects/skillC/efc_a_halo0001", "bone": "yuan", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"bdbox_eff": {
+			"bdbox_eff": {
+				"type": "boundingbox",
+				"vertices": [ -64.65234, -64.56676, 63.15362, -64.56676, 63.15362, 63.23916, -64.65234, 63.23916 ]
+			}
+		},
+		"effects/skillA/glow_000": {
+			"effects/skillA/glow_000": { "width": 100, "height": 100 }
+		},
+		"effects/skillC/efc_a_halo0001": {
+			"effects/skillC/efc_a_halo0001": { "width": 256, "height": 256 }
+		},
+		"effects/skillC/yanchen/yanchen_00024": {
+			"effects/skillC/yanchen/yanchen_00024": { "width": 278, "height": 115 },
+			"effects/skillC/yanchen/yanchen_00026": { "width": 278, "height": 115 },
+			"effects/skillC/yanchen/yanchen_00028": { "width": 278, "height": 115 },
+			"effects/skillC/yanchen/yanchen_00030": { "width": 278, "height": 115 }
+		},
+		"effects/skillC/yanchenlizi/yanchenlizi_00024": {
+			"effects/skillC/yanchenlizi/yanchenlizi_00026": { "width": 278, "height": 274 },
+			"effects/skillC/yanchenlizi/yanchenlizi_00028": { "width": 278, "height": 274 },
+			"effects/skillC/yanchenlizi/yanchenlizi_00030": { "width": 278, "height": 274 },
+			"effects/skillC/yanchenlizi/yanchenlizi_00032": { "width": 278, "height": 274 },
+			"effects/skillC/yanchenlizi/yanchenlizi_00034": { "width": 278, "height": 274 },
+			"effects/skillC/yanchenlizi/yanchenlizi_00036": { "width": 278, "height": 274 }
+		}
+	}
+},
+"events": {
+	"hurt": {},
+	"music": {}
+},
+"animations": {
+	"yanchenALL": {
+		"slots": {
+			"effects/skillA/glow_000": {
+				"attachment": [
+					{ "time": 0, "name": "effects/skillA/glow_000" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.0666, "color": "00fff2ff" },
+					{ "time": 0.2333, "color": "0006ff00" }
+				]
+			},
+			"effects/skillC/efc_a_halo0001": {
+				"attachment": [
+					{ "time": 0, "name": "effects/skillC/efc_a_halo0001" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.0333, "color": "ff00e3ff" },
+					{ "time": 0.0666, "color": "00fff2ff" },
+					{ "time": 0.2333, "color": "0006ff00" }
+				]
+			},
+			"effects/skillC/yanchen/yanchen_00024": {
+				"attachment": [
+					{ "time": 0, "name": "effects/skillC/yanchen/yanchen_00024" },
+					{ "time": 0.0666, "name": "effects/skillC/yanchen/yanchen_00026" },
+					{ "time": 0.1333, "name": "effects/skillC/yanchen/yanchen_00028" },
+					{ "time": 0.2, "name": "effects/skillC/yanchen/yanchen_00030" },
+					{ "time": 0.3, "name": null }
+				],
+				"color": [
+					{ "time": 0.2, "color": "ffffffff" },
+					{ "time": 0.3, "color": "ffffff00" }
+				]
+			},
+			"effects/skillC/yanchenlizi/yanchenlizi_00024": {
+				"attachment": [
+					{ "time": 0.0666, "name": "effects/skillC/yanchenlizi/yanchenlizi_00026" },
+					{ "time": 0.1333, "name": "effects/skillC/yanchenlizi/yanchenlizi_00028" },
+					{ "time": 0.2, "name": "effects/skillC/yanchenlizi/yanchenlizi_00030" },
+					{ "time": 0.2666, "name": "effects/skillC/yanchenlizi/yanchenlizi_00032" },
+					{ "time": 0.3666, "name": "effects/skillC/yanchenlizi/yanchenlizi_00034" },
+					{ "time": 0.4666, "name": "effects/skillC/yanchenlizi/yanchenlizi_00036" },
+					{ "time": 0.5666, "name": null }
+				],
+				"color": [
+					{ "time": 0.3666, "color": "ffffffff" },
+					{ "time": 0.5666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"yanchen": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 27.85 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.5, "y": 1.5 }
+				]
+			},
+			"yanchenlizi": {
+				"translate": [
+					{ "time": 0, "x": 8.7, "y": 131.35 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.5, "y": 1.5 }
+				]
+			},
+			"yuan": {
+				"scale": [
+					{ "time": 0, "x": 1.07, "y": 0.3 },
+					{ "time": 0.0666, "x": 2.6, "y": 0.73 },
+					{ "time": 0.2333, "x": 3.36, "y": 0.95 }
+				]
+			},
+			"glow": {
+				"scale": [
+					{ "time": 0, "x": 2.3, "y": 1 },
+					{ "time": 0.0666, "x": 5.06, "y": 2.3 },
+					{ "time": 0.2333, "x": 7.82, "y": 3.55 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "bdbox_eff", "offset": 2 },
+					{ "slot": "effects/skillC/efc_a_halo0001", "offset": -4 }
+				]
+			}
+		]
+	},
+	"yanchen_udown": {
+		"slots": {
+			"effects/skillA/glow_000": {
+				"attachment": [
+					{ "time": 0, "name": "effects/skillA/glow_000" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.0666, "color": "00fff2ff" },
+					{ "time": 0.2333, "color": "0006ff00" }
+				]
+			},
+			"effects/skillC/efc_a_halo0001": {
+				"attachment": [
+					{ "time": 0, "name": "effects/skillC/efc_a_halo0001" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.0333, "color": "ff00e3ff" },
+					{ "time": 0.0666, "color": "00fff2ff" },
+					{ "time": 0.2333, "color": "0006ff00" }
+				]
+			}
+		},
+		"bones": {
+			"yuan": {
+				"scale": [
+					{ "time": 0, "x": 1.07, "y": 0.3 },
+					{ "time": 0.0666, "x": 2.6, "y": 0.73 },
+					{ "time": 0.2333, "x": 3.36, "y": 0.95 }
+				]
+			},
+			"glow": {
+				"scale": [
+					{ "time": 0, "x": 2.3, "y": 1 },
+					{ "time": 0.0666, "x": 5.06, "y": 2.3 },
+					{ "time": 0.2333, "x": 7.82, "y": 3.55 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "bdbox_eff", "offset": 2 },
+					{ "slot": "effects/skillC/efc_a_halo0001", "offset": -4 }
+				]
+			}
+		]
+	},
+	"yanchen_up": {
+		"slots": {
+			"effects/skillC/yanchen/yanchen_00024": {
+				"attachment": [
+					{ "time": 0, "name": "effects/skillC/yanchen/yanchen_00024" },
+					{ "time": 0.0666, "name": "effects/skillC/yanchen/yanchen_00026" },
+					{ "time": 0.1333, "name": "effects/skillC/yanchen/yanchen_00028" },
+					{ "time": 0.2, "name": "effects/skillC/yanchen/yanchen_00030" },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"effects/skillC/yanchenlizi/yanchenlizi_00024": {
+				"attachment": [
+					{ "time": 0.0666, "name": "effects/skillC/yanchenlizi/yanchenlizi_00026" },
+					{ "time": 0.1333, "name": "effects/skillC/yanchenlizi/yanchenlizi_00028" },
+					{ "time": 0.2, "name": "effects/skillC/yanchenlizi/yanchenlizi_00030" },
+					{ "time": 0.2666, "name": "effects/skillC/yanchenlizi/yanchenlizi_00032" },
+					{ "time": 0.3333, "name": "effects/skillC/yanchenlizi/yanchenlizi_00034" },
+					{ "time": 0.4, "name": "effects/skillC/yanchenlizi/yanchenlizi_00036" },
+					{ "time": 0.6666, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"yanchenlizi": {
+				"translate": [
+					{ "time": 0, "x": 8.7, "y": 131.35 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.5, "y": 1.5 }
+				]
+			},
+			"yanchen": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 27.85 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.5, "y": 1.5 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "bdbox_eff", "offset": 2 },
+					{ "slot": "effects/skillC/efc_a_halo0001", "offset": -4 }
+				]
+			}
+		]
+	}
+}
+}

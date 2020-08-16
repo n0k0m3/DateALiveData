@@ -1,0 +1,146 @@
+
+effects_10305_skillA2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skilla_new/baodian/baodian_00000
+  rotate: false
+  xy: 441, 860
+  size: 123, 127
+  orig: 150, 150
+  offset: 15, 15
+  index: -1
+effects/skilla_new/baodian/baodian_00001
+  rotate: false
+  xy: 300, 844
+  size: 139, 143
+  orig: 150, 150
+  offset: 3, 3
+  index: -1
+effects/skilla_new/baodian/baodian_00002
+  rotate: false
+  xy: 2, 536
+  size: 143, 148
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+effects/skilla_new/baodian/baodian_00003
+  rotate: false
+  xy: 152, 838
+  size: 146, 149
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+effects/skilla_new/baodian/baodian_00004
+  rotate: false
+  xy: 2, 837
+  size: 148, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+effects/skilla_new/baodian/baodian_00005
+  rotate: true
+  xy: 2, 686
+  size: 149, 148
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+effects/skilla_new/baodian/baodian_00006
+  rotate: false
+  xy: 152, 693
+  size: 142, 143
+  orig: 150, 150
+  offset: 4, 0
+  index: -1
+effects/skilla_new/baodian/baodian_00007
+  rotate: false
+  xy: 2, 403
+  size: 133, 131
+  orig: 150, 150
+  offset: 11, 2
+  index: -1
+effects/skilla_new/baodian/baodian_00008
+  rotate: false
+  xy: 2, 293
+  size: 116, 108
+  orig: 150, 150
+  offset: 22, 14
+  index: -1
+effects/skilla_new/baodian/baodian_00009
+  rotate: false
+  xy: 566, 894
+  size: 103, 93
+  orig: 150, 150
+  offset: 27, 23
+  index: -1
+effects/skilla_new/baodian/baodian_00010
+  rotate: false
+  xy: 671, 902
+  size: 89, 85
+  orig: 150, 150
+  offset: 26, 28
+  index: -1
+effects/skilla_new/baodian/baodian_00011
+  rotate: false
+  xy: 2, 205
+  size: 89, 86
+  orig: 150, 150
+  offset: 26, 27
+  index: -1
+effects/skilla_new/baodian/baodian_00012
+  rotate: false
+  xy: 2, 118
+  size: 89, 85
+  orig: 150, 150
+  offset: 26, 28
+  index: -1
+effects/skilla_new/baodian/baodian_00013
+  rotate: false
+  xy: 762, 902
+  size: 87, 85
+  orig: 150, 150
+  offset: 26, 28
+  index: -1
+effects/skilla_new/baodian_glow_00000
+  rotate: false
+  xy: 851, 930
+  size: 58, 57
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+effects/skilla_new/baodian_jianci_00000
+  rotate: false
+  xy: 2, 30
+  size: 86, 86
+  orig: 100, 100
+  offset: 5, 5
+  index: -1
+effects/skillddd_new/bianfu/bianfu_00000
+  rotate: false
+  xy: 566, 865
+  size: 29, 27
+  orig: 50, 50
+  offset: 13, 7
+  index: -1
+effects/skillddd_new/bianfu/bianfu_00002
+  rotate: true
+  xy: 93, 262
+  size: 29, 20
+  orig: 50, 50
+  offset: 10, 15
+  index: -1
+effects/skillddd_new/bianfu/bianfu_00004
+  rotate: false
+  xy: 851, 907
+  size: 24, 21
+  orig: 50, 50
+  offset: 8, 17
+  index: -1
+effects/skillddd_new/bianfu/bianfu_00006
+  rotate: false
+  xy: 2, 2
+  size: 23, 26
+  orig: 50, 50
+  offset: 9, 18
+  index: -1

@@ -1,0 +1,83 @@
+
+effectS_10208_skillD_UI.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skillD/UI/lingyu_000
+  rotate: false
+  xy: 2, 871
+  size: 400, 79
+  orig: 400, 80
+  offset: 0, 1
+  index: -1
+effects/skillD/UI/lingyu_001
+  rotate: false
+  xy: 2, 790
+  size: 400, 79
+  orig: 400, 80
+  offset: 0, 1
+  index: -1
+effects/skillD/UI/lingyu_002
+  rotate: false
+  xy: 404, 871
+  size: 400, 79
+  orig: 400, 80
+  offset: 0, 1
+  index: -1
+effects/skillD/UI/lingyu_003
+  rotate: false
+  xy: 2, 709
+  size: 400, 79
+  orig: 400, 80
+  offset: 0, 1
+  index: -1
+effects/skillD/UI/lingyu_004
+  rotate: false
+  xy: 404, 790
+  size: 400, 79
+  orig: 400, 80
+  offset: 0, 1
+  index: -1
+effects/skillD/UI/uilizi/uilizi_000
+  rotate: true
+  xy: 2, 198
+  size: 398, 44
+  orig: 400, 80
+  offset: 0, 18
+  index: -1
+effects/skillD/UI/uilizi/uilizi_002
+  rotate: false
+  xy: 2, 598
+  size: 392, 51
+  orig: 400, 80
+  offset: 0, 14
+  index: -1
+effects/skillD/UI/uilizi/uilizi_004
+  rotate: false
+  xy: 404, 733
+  size: 392, 55
+  orig: 400, 80
+  offset: 0, 11
+  index: -1
+effects/skillD/UI/uilizi/uilizi_006
+  rotate: false
+  xy: 2, 651
+  size: 392, 56
+  orig: 400, 80
+  offset: 0, 9
+  index: -1
+effects/skillD/UI/uilizi/uilizi_008
+  rotate: true
+  xy: 48, 215
+  size: 381, 55
+  orig: 400, 80
+  offset: 2, 10
+  index: -1
+effects/skillD/bai_000
+  rotate: false
+  xy: 806, 870
+  size: 144, 80
+  orig: 144, 80
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,13 @@
+
+map_qianyan_08.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sucai/yyyyy
+  rotate: false
+  xy: 2, 2
+  size: 45, 124
+  orig: 45, 124
+  offset: 0, 0
+  index: -1

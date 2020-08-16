@@ -1,0 +1,20 @@
+
+effect_daily_02.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow1_00025
+  rotate: false
+  xy: 2, 421
+  size: 515, 96
+  orig: 543, 96
+  offset: 24, 0
+  index: -1
+glow_00025
+  rotate: false
+  xy: 2, 363
+  size: 473, 56
+  orig: 543, 96
+  offset: 45, 17
+  index: -1

@@ -1,0 +1,41 @@
+
+effect_herotest2_01.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/di
+  rotate: true
+  xy: 550, 2
+  size: 999, 75
+  orig: 999, 75
+  offset: 0, 0
+  index: -1
+images/glow
+  rotate: false
+  xy: 627, 213
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+images/jiao_00000
+  rotate: true
+  xy: 627, 315
+  size: 686, 301
+  orig: 693, 320
+  offset: 7, 13
+  index: -1
+images/lizi_00011
+  rotate: false
+  xy: 2, 55
+  size: 22, 22
+  orig: 60, 52
+  offset: 18, 12
+  index: -1
+images/renwu_00000
+  rotate: false
+  xy: 2, 79
+  size: 546, 922
+  orig: 600, 950
+  offset: 24, 9
+  index: -1

@@ -1,0 +1,76 @@
+
+qilang.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+banguan
+  rotate: false
+  xy: 98, 37
+  size: 101, 56
+  orig: 101, 56
+  offset: 0, 0
+  index: -1
+dizaqilang0001
+  rotate: false
+  xy: 98, 2
+  size: 73, 33
+  orig: 73, 33
+  offset: 0, 0
+  index: -1
+dizaqilang0002
+  rotate: false
+  xy: 323, 443
+  size: 126, 48
+  orig: 126, 48
+  offset: 0, 0
+  index: -1
+dizaqilang0003
+  rotate: false
+  xy: 2, 95
+  size: 233, 54
+  orig: 233, 54
+  offset: 0, 0
+  index: -1
+dizaqilang0004
+  rotate: false
+  xy: 2, 151
+  size: 254, 59
+  orig: 254, 59
+  offset: 0, 0
+  index: -1
+dizaqilang0005
+  rotate: false
+  xy: 2, 212
+  size: 280, 65
+  orig: 280, 65
+  offset: 0, 0
+  index: -1
+dizaqilang0006
+  rotate: false
+  xy: 2, 279
+  size: 301, 70
+  orig: 301, 70
+  offset: 0, 0
+  index: -1
+dizaqilang0007
+  rotate: false
+  xy: 2, 420
+  size: 319, 71
+  orig: 319, 71
+  offset: 0, 0
+  index: -1
+dizaqilang0008
+  rotate: false
+  xy: 2, 351
+  size: 317, 67
+  orig: 317, 67
+  offset: 0, 0
+  index: -1
+shanguan
+  rotate: false
+  xy: 2, 2
+  size: 94, 91
+  orig: 94, 91
+  offset: 0, 0
+  index: -1

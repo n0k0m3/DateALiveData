@@ -1,0 +1,188 @@
+
+effects_10103_skillE.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bai_000
+  rotate: false
+  xy: 273, 54
+  size: 69, 32
+  orig: 69, 32
+  offset: 0, 0
+  index: -1
+glow_000
+  rotate: false
+  xy: 273, 2
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+kuohuan_000
+  rotate: false
+  xy: 943, 965
+  size: 57, 57
+  orig: 64, 64
+  offset: 4, 3
+  index: -1
+skillE/dixuan/dixuan_000
+  rotate: false
+  xy: 441, 886
+  size: 229, 57
+  orig: 250, 100
+  offset: 9, 25
+  index: -1
+skillE/dixuan/dixuan_002
+  rotate: true
+  xy: 78, 449
+  size: 222, 67
+  orig: 250, 100
+  offset: 17, 17
+  index: -1
+skillE/dixuan/dixuan_004
+  rotate: true
+  xy: 2, 421
+  size: 250, 74
+  orig: 250, 100
+  offset: 0, 11
+  index: -1
+skillE/dixuan/dixuan_006
+  rotate: true
+  xy: 2, 173
+  size: 246, 74
+  orig: 250, 100
+  offset: 4, 12
+  index: -1
+skillE/dixuan/dixuan_008
+  rotate: false
+  xy: 693, 949
+  size: 248, 73
+  orig: 250, 100
+  offset: 0, 11
+  index: -1
+skillE/dixuan/dixuan_010
+  rotate: false
+  xy: 441, 945
+  size: 250, 77
+  orig: 250, 100
+  offset: 0, 8
+  index: -1
+skillE/dixuan/dixuan_012
+  rotate: false
+  xy: 2, 940
+  size: 250, 82
+  orig: 250, 100
+  offset: 0, 6
+  index: -1
+skillE/dixuan/dixuan_014
+  rotate: false
+  xy: 2, 856
+  size: 250, 82
+  orig: 250, 100
+  offset: 0, 6
+  index: -1
+skillE/xuanfeng/xuanfeng_000
+  rotate: false
+  xy: 78, 194
+  size: 156, 81
+  orig: 165, 200
+  offset: 0, 11
+  index: -1
+skillE/xuanfeng/xuanfeng_002
+  rotate: false
+  xy: 291, 719
+  size: 140, 156
+  orig: 165, 200
+  offset: 9, 8
+  index: -1
+skillE/xuanfeng/xuanfeng_004
+  rotate: false
+  xy: 2, 7
+  size: 129, 164
+  orig: 165, 200
+  offset: 20, 15
+  index: -1
+skillE/xuanfeng/xuanfeng_006
+  rotate: false
+  xy: 78, 277
+  size: 122, 170
+  orig: 165, 200
+  offset: 26, 14
+  index: -1
+skillE/xuanfeng/xuanfeng_008
+  rotate: true
+  xy: 254, 877
+  size: 145, 185
+  orig: 165, 200
+  offset: 8, 11
+  index: -1
+skillE/xuanfeng/xuanfeng_010
+  rotate: false
+  xy: 151, 674
+  size: 138, 180
+  orig: 165, 200
+  offset: 17, 11
+  index: -1
+skillE/xuanfeng/xuanfeng_012
+  rotate: false
+  xy: 2, 673
+  size: 147, 181
+  orig: 165, 200
+  offset: 8, 13
+  index: -1
+skillE/xuanfeng/xuanfeng_014
+  rotate: false
+  xy: 133, 37
+  size: 138, 155
+  orig: 165, 200
+  offset: 19, 22
+  index: -1
+skillE/xuanfeng/xuanfeng_016
+  rotate: true
+  xy: 291, 583
+  size: 134, 153
+  orig: 165, 200
+  offset: 24, 23
+  index: -1
+skillE/xuanfeng/xuanfeng_020
+  rotate: true
+  xy: 291, 450
+  size: 131, 149
+  orig: 165, 200
+  offset: 26, 23
+  index: -1
+tongyong/julizi/julizi_003
+  rotate: false
+  xy: 273, 88
+  size: 108, 111
+  orig: 150, 150
+  offset: 12, 0
+  index: -1
+tongyong/julizi/julizi_005
+  rotate: false
+  xy: 331, 201
+  size: 119, 118
+  orig: 150, 150
+  offset: 10, 0
+  index: -1
+tongyong/julizi/julizi_007
+  rotate: false
+  xy: 202, 300
+  size: 127, 148
+  orig: 150, 150
+  offset: 12, 2
+  index: -1
+tongyong/julizi/julizi_009
+  rotate: false
+  xy: 151, 527
+  size: 138, 145
+  orig: 150, 150
+  offset: 0, 5
+  index: -1
+tongyong/julizi/julizi_011
+  rotate: false
+  xy: 331, 321
+  size: 119, 127
+  orig: 150, 150
+  offset: 0, 4
+  index: -1

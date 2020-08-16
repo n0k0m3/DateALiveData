@@ -1,0 +1,40 @@
+
+17youleyuan.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fanguang_00072
+  rotate: false
+  xy: 163, 34
+  size: 88, 99
+  orig: 88, 99
+  offset: 0, 0
+  index: -1
+glow_00060
+  rotate: false
+  xy: 2, 7
+  size: 159, 126
+  orig: 159, 126
+  offset: 0, 0
+  index: -1
+yangguang_00000
+  rotate: false
+  xy: 2, 135
+  size: 204, 116
+  orig: 204, 116
+  offset: 0, 0
+  index: -1
+
+17youleyuan2.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fanguang1_00059
+  rotate: false
+  xy: 2, 2
+  size: 61, 79
+  orig: 61, 79
+  offset: 0, 0
+  index: -1

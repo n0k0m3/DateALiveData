@@ -1,0 +1,160 @@
+
+effects_11301_1_skillE.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/1skillB/glow_e_008
+  rotate: false
+  xy: 440, 372
+  size: 55, 58
+  orig: 55, 58
+  offset: 0, 0
+  index: -1
+effects/1skillB/green_lizi_c_014
+  rotate: true
+  xy: 440, 432
+  size: 72, 64
+  orig: 72, 64
+  offset: 0, 0
+  index: -1
+effects/1skillB/light_cr_013
+  rotate: false
+  xy: 122, 386
+  size: 109, 118
+  orig: 109, 118
+  offset: 0, 0
+  index: -1
+effects/1skillB/shui_b/shui_b_002
+  rotate: false
+  xy: 119, 181
+  size: 95, 93
+  orig: 180, 180
+  offset: 44, 43
+  index: -1
+effects/1skillB/shui_b/shui_b_004
+  rotate: false
+  xy: 339, 406
+  size: 99, 98
+  orig: 180, 180
+  offset: 42, 40
+  index: -1
+effects/1skillB/shui_b/shui_b_006
+  rotate: false
+  xy: 233, 401
+  size: 104, 103
+  orig: 180, 180
+  offset: 40, 38
+  index: -1
+effects/1skillB/shui_b/shui_b_008
+  rotate: false
+  xy: 119, 276
+  size: 109, 108
+  orig: 180, 180
+  offset: 37, 35
+  index: -1
+effects/1skillB/shui_b/shui_b_010
+  rotate: false
+  xy: 2, 156
+  size: 113, 112
+  orig: 180, 180
+  offset: 35, 33
+  index: -1
+effects/1skillB/shui_b/shui_b_012
+  rotate: false
+  xy: 2, 270
+  size: 115, 114
+  orig: 180, 180
+  offset: 36, 30
+  index: -1
+effects/1skillB/shui_b/shui_b_014
+  rotate: false
+  xy: 2, 386
+  size: 118, 118
+  orig: 180, 180
+  offset: 35, 28
+  index: -1
+effects/1skillB/star_f/star_f_006
+  rotate: false
+  xy: 273, 64
+  size: 80, 87
+  orig: 240, 240
+  offset: 80, 77
+  index: -1
+effects/1skillB/star_f/star_f_009
+  rotate: true
+  xy: 216, 154
+  size: 81, 90
+  orig: 240, 240
+  offset: 80, 76
+  index: -1
+effects/1skillB/star_f/star_f_011
+  rotate: false
+  xy: 189, 62
+  size: 82, 90
+  orig: 240, 240
+  offset: 79, 76
+  index: -1
+effects/1skillB/star_f/star_f_013
+  rotate: true
+  xy: 308, 153
+  size: 81, 88
+  orig: 240, 240
+  offset: 80, 77
+  index: -1
+effects/1skillB/star_f/star_f_015
+  rotate: false
+  xy: 398, 148
+  size: 77, 86
+  orig: 240, 240
+  offset: 82, 78
+  index: -1
+effects/1skillB/star_gd_018
+  rotate: false
+  xy: 2, 50
+  size: 96, 104
+  orig: 96, 104
+  offset: 0, 0
+  index: -1
+effects/1skillB/star_lizi_v_018
+  rotate: false
+  xy: 342, 309
+  size: 96, 95
+  orig: 96, 95
+  offset: 0, 0
+  index: -1
+effects/1skillB/wing_a/wing_a_000
+  rotate: true
+  xy: 100, 47
+  size: 107, 87
+  orig: 107, 107
+  offset: 0, 6
+  index: -1
+effects/1skillB/wing_a/wing_a_002
+  rotate: false
+  xy: 233, 317
+  size: 107, 82
+  orig: 107, 107
+  offset: 0, 8
+  index: -1
+effects/1skillB/wing_a/wing_a_004
+  rotate: false
+  xy: 230, 237
+  size: 107, 78
+  orig: 107, 107
+  offset: 0, 10
+  index: -1
+effects/1skillB/wing_a/wing_a_006
+  rotate: false
+  xy: 339, 236
+  size: 105, 71
+  orig: 107, 107
+  offset: 2, 16
+  index: -1
+effects/1skillB/wing_a/wing_a_008
+  rotate: false
+  xy: 2, 6
+  size: 90, 42
+  orig: 107, 107
+  offset: 17, 30
+  index: -1

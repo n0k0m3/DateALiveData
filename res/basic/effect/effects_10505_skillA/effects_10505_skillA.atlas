@@ -1,0 +1,306 @@
+
+effects_10505_skillA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/skillA/bao1_add/bao1_add00089
+  rotate: false
+  xy: 208, 50
+  size: 223, 201
+  orig: 318, 216
+  offset: 49, 15
+  index: -1
+images/effect/skillA/bao1_add/bao1_add00090
+  rotate: false
+  xy: 2, 531
+  size: 266, 206
+  orig: 318, 216
+  offset: 24, 10
+  index: -1
+images/effect/skillA/bao1_nor/bao1_nor00090
+  rotate: false
+  xy: 606, 855
+  size: 273, 167
+  orig: 318, 203
+  offset: 33, 3
+  index: -1
+images/effect/skillA/bao1_nor/bao1_nor00092
+  rotate: false
+  xy: 305, 853
+  size: 299, 169
+  orig: 318, 203
+  offset: 15, 0
+  index: -1
+images/effect/skillA/bao1_nor/bao1_nor00102
+  rotate: false
+  xy: 881, 849
+  size: 130, 173
+  orig: 318, 203
+  offset: 99, 22
+  index: -1
+images/effect/skillA/daoguang1/add/add_00037
+  rotate: false
+  xy: 305, 659
+  size: 269, 192
+  orig: 282, 211
+  offset: 13, 13
+  index: -1
+images/effect/skillA/daoguang1/add/add_00039
+  rotate: true
+  xy: 2, 30
+  size: 260, 204
+  orig: 282, 211
+  offset: 15, 0
+  index: -1
+images/effect/skillA/daoguang1/add/add_00040
+  rotate: false
+  xy: 270, 454
+  size: 259, 203
+  orig: 282, 211
+  offset: 16, 0
+  index: -1
+images/effect/skillA/daoguang1/add/add_00041
+  rotate: false
+  xy: 234, 253
+  size: 247, 199
+  orig: 282, 211
+  offset: 18, 0
+  index: -1
+images/effect/skillA/daoguang1/add/add_00043
+  rotate: true
+  xy: 433, 10
+  size: 241, 176
+  orig: 282, 211
+  offset: 24, 19
+  index: -1
+images/effect/skillA/daoguang1/add/add_00045
+  rotate: true
+  xy: 637, 224
+  size: 228, 160
+  orig: 282, 211
+  offset: 34, 23
+  index: -1
+images/effect/skillA/daoguang1/add/add_00046
+  rotate: true
+  xy: 483, 253
+  size: 199, 152
+  orig: 282, 211
+  offset: 62, 24
+  index: -1
+images/effect/skillA/daoguang1/nor/nor_00037
+  rotate: false
+  xy: 2, 739
+  size: 301, 283
+  orig: 303, 285
+  offset: 2, 2
+  index: -1
+images/effect/skillA/daoguang1/nor/nor_00039
+  rotate: false
+  xy: 2, 292
+  size: 230, 237
+  orig: 303, 285
+  offset: 73, 43
+  index: -1
+images/effect/skillA/daoguang1/nor/nor_00041
+  rotate: true
+  xy: 531, 454
+  size: 203, 177
+  orig: 303, 285
+  offset: 72, 74
+  index: -1
+images/effect/skillA/daoguang1/nor/nor_00043
+  rotate: true
+  xy: 829, 515
+  size: 201, 174
+  orig: 303, 285
+  offset: 73, 76
+  index: -1
+images/effect/skillA/dimian_down/dimian_down00089
+  rotate: true
+  xy: 611, 2
+  size: 220, 113
+  orig: 234, 163
+  offset: 8, 0
+  index: -1
+images/effect/skillA/dimian_down/dimian_down00091
+  rotate: true
+  xy: 907, 310
+  size: 203, 110
+  orig: 234, 163
+  offset: 18, 0
+  index: -1
+images/effect/skillA/dimian_down/dimian_down00093
+  rotate: true
+  xy: 710, 460
+  size: 230, 117
+  orig: 234, 163
+  offset: 3, 3
+  index: -1
+images/effect/skillA/dimian_down/dimian_down00095
+  rotate: true
+  xy: 827, 38
+  size: 205, 126
+  orig: 234, 163
+  offset: 16, 3
+  index: -1
+images/effect/skillA/dimian_down/dimian_down00099
+  rotate: false
+  xy: 827, 718
+  size: 195, 129
+  orig: 234, 163
+  offset: 21, 3
+  index: -1
+images/effect/skillA/dimian_down/dimian_down00101
+  rotate: true
+  xy: 576, 661
+  size: 190, 80
+  orig: 234, 163
+  offset: 24, 5
+  index: -1
+images/effect/skillA/glow1_00051
+  rotate: false
+  xy: 658, 692
+  size: 164, 161
+  orig: 170, 166
+  offset: 4, 1
+  index: -1
+images/effect/skillA/xiantiao/xiantiao_00012
+  rotate: true
+  xy: 726, 9
+  size: 213, 99
+  orig: 310, 156
+  offset: 47, 40
+  index: -1
+images/effect/skillA/xiantiao/xiantiao_00013
+  rotate: true
+  xy: 799, 245
+  size: 213, 106
+  orig: 310, 156
+  offset: 38, 33
+  index: -1
+images/effect/skillA/xiantiao/xiantiao_00016
+  rotate: false
+  xy: 955, 224
+  size: 67, 84
+  orig: 310, 156
+  offset: 41, 29
+  index: -1
+
+effects_10505_skillA2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/skillA/bao1_add/bao1_add00092
+  rotate: false
+  xy: 2, 851
+  size: 196, 161
+  orig: 318, 216
+  offset: 58, 28
+  index: -1
+images/effect/skillA/bao1_add/bao1_add00094
+  rotate: false
+  xy: 2, 57
+  size: 79, 134
+  orig: 318, 216
+  offset: 123, 31
+  index: -1
+images/effect/skillA/bao1_add/bao1_add00096
+  rotate: true
+  xy: 762, 935
+  size: 77, 132
+  orig: 318, 216
+  offset: 124, 33
+  index: -1
+images/effect/skillA/bao1_add/bao1_add00098
+  rotate: false
+  xy: 135, 358
+  size: 77, 129
+  orig: 318, 216
+  offset: 124, 34
+  index: -1
+images/effect/skillA/bao1_add/bao1_add00099
+  rotate: true
+  xy: 896, 935
+  size: 77, 116
+  orig: 318, 216
+  offset: 124, 45
+  index: -1
+images/effect/skillA/bao1_add/bao1_add00100
+  rotate: false
+  xy: 92, 236
+  size: 75, 102
+  orig: 318, 216
+  offset: 125, 46
+  index: -1
+images/effect/skillA/bao1_nor/bao1_nor00094
+  rotate: false
+  xy: 200, 851
+  size: 149, 161
+  orig: 318, 203
+  offset: 93, 17
+  index: -1
+images/effect/skillA/bao1_nor/bao1_nor00096
+  rotate: false
+  xy: 2, 340
+  size: 131, 147
+  orig: 318, 203
+  offset: 90, 18
+  index: -1
+images/effect/skillA/bao1_nor/bao1_nor00098
+  rotate: true
+  xy: 191, 723
+  size: 126, 157
+  orig: 318, 203
+  offset: 98, 19
+  index: -1
+images/effect/skillA/bao1_nor/bao1_nor00100
+  rotate: true
+  xy: 351, 886
+  size: 126, 166
+  orig: 318, 203
+  offset: 102, 20
+  index: -1
+images/effect/skillA/bao1_nor/bao1_nor00104
+  rotate: false
+  xy: 2, 193
+  size: 88, 145
+  orig: 318, 203
+  offset: 97, 57
+  index: -1
+images/effect/skillA/dimian_down/dimian_down00097
+  rotate: false
+  xy: 2, 720
+  size: 187, 129
+  orig: 234, 163
+  offset: 25, 3
+  index: -1
+images/effect/skillA/xiantiao/xiantiao_00010
+  rotate: false
+  xy: 519, 894
+  size: 117, 118
+  orig: 310, 156
+  offset: 161, 6
+  index: -1
+images/effect/skillA/xiantiao/xiantiao_00011
+  rotate: false
+  xy: 2, 600
+  size: 179, 118
+  orig: 310, 156
+  offset: 90, 20
+  index: -1
+images/effect/skillA/xiantiao/xiantiao_00014
+  rotate: false
+  xy: 2, 489
+  size: 174, 109
+  orig: 310, 156
+  offset: 37, 29
+  index: -1
+images/effect/skillA/xiantiao/xiantiao_00015
+  rotate: false
+  xy: 638, 904
+  size: 122, 108
+  orig: 310, 156
+  offset: 37, 22
+  index: -1

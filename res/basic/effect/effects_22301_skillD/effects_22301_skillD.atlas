@@ -1,0 +1,209 @@
+
+effects_22301_skillD.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+texiao/skillD/baodian/baodian_00016
+  rotate: true
+  xy: 566, 342
+  size: 228, 127
+  orig: 315, 210
+  offset: 34, 27
+  index: -1
+texiao/skillD/baodian/baodian_00017
+  rotate: false
+  xy: 695, 700
+  size: 232, 127
+  orig: 315, 210
+  offset: 32, 27
+  index: -1
+texiao/skillD/baodian/baodian_00018
+  rotate: true
+  xy: 177, 303
+  size: 247, 168
+  orig: 315, 210
+  offset: 29, 27
+  index: -1
+texiao/skillD/baodian/baodian_00019
+  rotate: true
+  xy: 2, 244
+  size: 288, 173
+  orig: 315, 210
+  offset: 9, 27
+  index: -1
+texiao/skillD/baodian/baodian_00020
+  rotate: true
+  xy: 2, 534
+  size: 303, 168
+  orig: 315, 210
+  offset: 2, 25
+  index: -1
+texiao/skillD/baodian/baodian_00021
+  rotate: true
+  xy: 172, 552
+  size: 285, 184
+  orig: 315, 210
+  offset: 27, 23
+  index: -1
+texiao/skillD/baodian/baodian_00022
+  rotate: false
+  xy: 2, 839
+  size: 289, 183
+  orig: 315, 210
+  offset: 24, 22
+  index: -1
+texiao/skillD/baodian/baodian_00023
+  rotate: false
+  xy: 358, 572
+  size: 232, 149
+  orig: 315, 210
+  offset: 32, 27
+  index: -1
+texiao/skillD/baodian/baodian_00024
+  rotate: false
+  xy: 358, 723
+  size: 230, 155
+  orig: 315, 210
+  offset: 33, 27
+  index: -1
+texiao/skillD/baodian/baodian_00025
+  rotate: true
+  xy: 2, 20
+  size: 222, 166
+  orig: 315, 210
+  offset: 37, 27
+  index: -1
+texiao/skillD/baodian/baodian_00026
+  rotate: true
+  xy: 412, 348
+  size: 222, 152
+  orig: 315, 210
+  offset: 37, 27
+  index: -1
+texiao/skillD/baodian/baodian_00027
+  rotate: true
+  xy: 170, 18
+  size: 224, 127
+  orig: 315, 210
+  offset: 36, 56
+  index: -1
+texiao/skillD/baodian/baodian_00028
+  rotate: false
+  xy: 654, 213
+  size: 131, 116
+  orig: 315, 210
+  offset: 87, 70
+  index: -1
+texiao/skillD/baodian/baodian_00029
+  rotate: true
+  xy: 502, 100
+  size: 109, 121
+  orig: 315, 210
+  offset: 86, 71
+  index: -1
+texiao/skillD/di_00015
+  rotate: false
+  xy: 293, 950
+  size: 397, 72
+  orig: 455, 105
+  offset: 36, 20
+  index: -1
+texiao/skillD/glow_00016
+  rotate: true
+  xy: 299, 91
+  size: 203, 140
+  orig: 210, 140
+  offset: 1, 0
+  index: -1
+texiao/skillD/kuoquan/kuoquan_00017
+  rotate: true
+  xy: 441, 144
+  size: 202, 59
+  orig: 350, 105
+  offset: 70, 22
+  index: -1
+texiao/skillD/kuoquan/kuoquan_00019
+  rotate: true
+  xy: 347, 296
+  size: 254, 63
+  orig: 350, 105
+  offset: 44, 20
+  index: -1
+texiao/skillD/kuoquan/kuoquan_00021
+  rotate: false
+  xy: 695, 829
+  size: 307, 68
+  orig: 350, 105
+  offset: 17, 16
+  index: -1
+texiao/skillD/kuoquan/kuoquan_00023
+  rotate: false
+  xy: 293, 880
+  size: 315, 68
+  orig: 350, 105
+  offset: 13, 16
+  index: -1
+texiao/skillD/kuoquan/kuoquan_00025
+  rotate: false
+  xy: 692, 956
+  size: 321, 66
+  orig: 350, 105
+  offset: 10, 17
+  index: -1
+texiao/skillD/kuoquan/kuoquan_00027
+  rotate: false
+  xy: 692, 899
+  size: 316, 55
+  orig: 350, 105
+  offset: 13, 22
+  index: -1
+texiao/skillD/lizi/lizi_00004
+  rotate: false
+  xy: 695, 505
+  size: 192, 193
+  orig: 210, 210
+  offset: 9, 4
+  index: -1
+texiao/skillD/lizi/lizi_00006
+  rotate: true
+  xy: 695, 331
+  size: 172, 173
+  orig: 210, 210
+  offset: 18, 13
+  index: -1
+texiao/skillD/lizi/lizi_00008
+  rotate: true
+  xy: 870, 326
+  size: 177, 152
+  orig: 210, 210
+  offset: 8, 22
+  index: -1
+texiao/skillD/lizi/lizi_00010
+  rotate: false
+  xy: 502, 211
+  size: 150, 129
+  orig: 210, 210
+  offset: 20, 33
+  index: -1
+texiao/skillD/lizi/lizi_00012
+  rotate: true
+  xy: 907, 204
+  size: 120, 105
+  orig: 210, 210
+  offset: 34, 44
+  index: -1
+texiao/skillD/lizi/lizi_00014
+  rotate: false
+  xy: 889, 567
+  size: 133, 131
+  orig: 210, 210
+  offset: 30, 22
+  index: -1
+texiao/skillD/lizi/lizi_00016
+  rotate: false
+  xy: 787, 214
+  size: 118, 110
+  orig: 210, 210
+  offset: 47, 39
+  index: -1

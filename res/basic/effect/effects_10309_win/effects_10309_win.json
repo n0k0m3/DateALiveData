@@ -1,0 +1,309 @@
+{
+"skeleton": { "hash": "o79tZrtc7BDrULl3tRFVNREnOfg", "spine": "2.1.27", "width": 0, "height": 0, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "effect", "parent": "root" },
+	{ "name": "baodian", "parent": "effect" },
+	{ "name": "glow", "parent": "effect" },
+	{ "name": "hua", "parent": "effect" },
+	{ "name": "huaan", "parent": "effect" },
+	{ "name": "renbian", "parent": "effect", "y": 2.76 },
+	{ "name": "shanlizi", "parent": "effect" },
+	{ "name": "xiantiao", "parent": "effect" },
+	{ "name": "bone", "parent": "hua" },
+	{ "name": "bone2", "parent": "hua" },
+	{ "name": "bone3", "parent": "hua" },
+	{ "name": "bone4", "parent": "hua" }
+],
+"slots": [
+	{ "name": "images/effect/win/baodian/baodian_00012", "bone": "baodian" },
+	{ "name": "images/effect/win/renbian/renbian_00012", "bone": "renbian", "blend": "additive" },
+	{ "name": "images/effect/win/shanglizi/lizi_00000", "bone": "shanlizi", "blend": "additive" },
+	{ "name": "images/effect/win/xiantiao/xiantiao_00000", "bone": "xiantiao", "blend": "additive" },
+	{ "name": "images/effect/win/glow_000", "bone": "glow", "blend": "additive" },
+	{ "name": "images/effect/win/hua2_00018", "bone": "bone2" },
+	{ "name": "images/effect/win/hua1_00018", "bone": "bone" },
+	{ "name": "images/effect/win/hua3_00018", "bone": "bone3" },
+	{ "name": "images/effect/win/huaan_00013", "bone": "huaan" },
+	{ "name": "images/effect/dimian_00000", "bone": "bone4" }
+],
+"skins": {
+	"default": {
+		"images/effect/dimian_00000": {
+			"images/effect/dimian_00000": { "width": 500, "height": 200 }
+		},
+		"images/effect/win/baodian/baodian_00012": {
+			"images/effect/win/baodian/baodian_00012": { "width": 188, "height": 186 },
+			"images/effect/win/baodian/baodian_00013": { "width": 188, "height": 186 },
+			"images/effect/win/baodian/baodian_00015": { "width": 188, "height": 186 },
+			"images/effect/win/baodian/baodian_00017": { "width": 188, "height": 186 },
+			"images/effect/win/baodian/baodian_00019": { "width": 188, "height": 186 },
+			"images/effect/win/baodian/baodian_00023": { "width": 188, "height": 186 }
+		},
+		"images/effect/win/glow_000": {
+			"images/effect/win/glow_000": { "width": 100, "height": 100 }
+		},
+		"images/effect/win/hua1_00018": {
+			"images/effect/win/hua1_00018": { "width": 188, "height": 186 }
+		},
+		"images/effect/win/hua2_00018": {
+			"images/effect/win/hua2_00018": { "width": 188, "height": 186 }
+		},
+		"images/effect/win/hua3_00018": {
+			"images/effect/win/hua3_00018": { "width": 188, "height": 186 }
+		},
+		"images/effect/win/huaan_00013": {
+			"images/effect/win/huaan_00013": { "width": 174, "height": 179 }
+		},
+		"images/effect/win/renbian/renbian_00012": {
+			"images/effect/win/renbian/renbian_00012": { "y": -2.76, "width": 157, "height": 236 },
+			"images/effect/win/renbian/renbian_00014": { "y": -2.76, "width": 157, "height": 236 },
+			"images/effect/win/renbian/renbian_00016": { "y": -2.76, "width": 157, "height": 236 }
+		},
+		"images/effect/win/shanglizi/lizi_00000": {
+			"images/effect/win/shanglizi/lizi_00000": { "width": 203, "height": 217 },
+			"images/effect/win/shanglizi/lizi_00004": { "width": 203, "height": 217 },
+			"images/effect/win/shanglizi/lizi_00008": { "width": 203, "height": 217 },
+			"images/effect/win/shanglizi/lizi_00012": { "width": 203, "height": 217 },
+			"images/effect/win/shanglizi/lizi_00016": { "width": 203, "height": 217 }
+		},
+		"images/effect/win/xiantiao/xiantiao_00000": {
+			"images/effect/win/xiantiao/xiantiao_00002": { "width": 150, "height": 217 },
+			"images/effect/win/xiantiao/xiantiao_00004": { "width": 150, "height": 217 },
+			"images/effect/win/xiantiao/xiantiao_00006": { "width": 150, "height": 217 },
+			"images/effect/win/xiantiao/xiantiao_00008": { "width": 150, "height": 217 },
+			"images/effect/win/xiantiao/xiantiao_00010": { "width": 150, "height": 217 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"images/effect/dimian_00000": {
+				"attachment": [
+					{ "time": 0, "name": "images/effect/dimian_00000" }
+				],
+				"color": [
+					{ "time": 0.8333, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			},
+			"images/effect/win/baodian/baodian_00012": {
+				"attachment": [
+					{ "time": 0.4, "name": "images/effect/win/baodian/baodian_00012" },
+					{ "time": 0.4333, "name": "images/effect/win/baodian/baodian_00013" },
+					{ "time": 0.5, "name": "images/effect/win/baodian/baodian_00015" },
+					{ "time": 0.5666, "name": "images/effect/win/baodian/baodian_00017" },
+					{ "time": 0.6333, "name": "images/effect/win/baodian/baodian_00019" },
+					{ "time": 0.7333, "name": "images/effect/win/baodian/baodian_00023" },
+					{ "time": 0.8666, "name": null }
+				],
+				"color": [
+					{ "time": 0.7333, "color": "ffffffff" },
+					{ "time": 0.8666, "color": "ffffff00" }
+				]
+			},
+			"images/effect/win/glow_000": {
+				"attachment": [
+					{ "time": 0.4, "name": "images/effect/win/glow_000" }
+				],
+				"color": [
+					{ "time": 0.4, "color": "b9f3ffff" },
+					{ "time": 0.4666, "color": "b6c3ffff" },
+					{ "time": 0.6, "color": "2600ff00" }
+				]
+			},
+			"images/effect/win/hua1_00018": {
+				"attachment": [
+					{ "time": 0, "name": "images/effect/win/hua1_00018" }
+				],
+				"color": [
+					{ "time": 1.1, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			},
+			"images/effect/win/hua2_00018": {
+				"attachment": [
+					{ "time": 0, "name": "images/effect/win/hua2_00018" }
+				],
+				"color": [
+					{ "time": 1.0666, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			},
+			"images/effect/win/hua3_00018": {
+				"attachment": [
+					{ "time": 0, "name": "images/effect/win/hua3_00018" }
+				],
+				"color": [
+					{ "time": 1, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			},
+			"images/effect/win/huaan_00013": {
+				"attachment": [
+					{ "time": 0.4333, "name": "images/effect/win/huaan_00013" },
+					{ "time": 0.4666, "name": null }
+				]
+			},
+			"images/effect/win/renbian/renbian_00012": {
+				"attachment": [
+					{ "time": 0.4, "name": "images/effect/win/renbian/renbian_00012" },
+					{ "time": 0.4666, "name": "images/effect/win/renbian/renbian_00014" },
+					{ "time": 0.5333, "name": "images/effect/win/renbian/renbian_00016" },
+					{ "time": 0.6, "name": null }
+				]
+			},
+			"images/effect/win/shanglizi/lizi_00000": {
+				"attachment": [
+					{ "time": 0.0333, "name": "images/effect/win/shanglizi/lizi_00000" },
+					{ "time": 0.1, "name": "images/effect/win/shanglizi/lizi_00004" },
+					{ "time": 0.1666, "name": "images/effect/win/shanglizi/lizi_00008" },
+					{ "time": 0.2333, "name": "images/effect/win/shanglizi/lizi_00012" },
+					{ "time": 0.3, "name": "images/effect/win/shanglizi/lizi_00016" },
+					{ "time": 0.4333, "name": null }
+				],
+				"color": [
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.4333, "color": "ffffff00" }
+				]
+			},
+			"images/effect/win/xiantiao/xiantiao_00000": {
+				"attachment": [
+					{ "time": 0.0666, "name": "images/effect/win/xiantiao/xiantiao_00002" },
+					{ "time": 0.1333, "name": "images/effect/win/xiantiao/xiantiao_00004" },
+					{ "time": 0.2, "name": "images/effect/win/xiantiao/xiantiao_00006" },
+					{ "time": 0.2666, "name": "images/effect/win/xiantiao/xiantiao_00008" },
+					{ "time": 0.3333, "name": "images/effect/win/xiantiao/xiantiao_00010" },
+					{ "time": 0.5, "name": null }
+				],
+				"color": [
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"xiantiao": {
+				"translate": [
+					{ "time": 0, "x": 12.72, "y": 152.72 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			},
+			"shanlizi": {
+				"translate": [
+					{ "time": 0.0333, "x": 8.09, "y": 156.19 }
+				],
+				"scale": [
+					{ "time": 0.0333, "x": 2, "y": 2 }
+				]
+			},
+			"renbian": {
+				"translate": [
+					{ "time": 0.4, "x": 7.86, "y": 147.46 }
+				],
+				"scale": [
+					{ "time": 0.4, "x": 1.85, "y": 1.85 }
+				]
+			},
+			"baodian": {
+				"translate": [
+					{ "time": 0.4, "x": -18.4, "y": 220.8 }
+				],
+				"scale": [
+					{ "time": 0.4, "x": 2, "y": 2 }
+				]
+			},
+			"glow": {
+				"translate": [
+					{ "time": 0.4, "x": -12.88, "y": 223.56 }
+				],
+				"scale": [
+					{
+						"time": 0.4,
+						"x": 4,
+						"y": 4,
+						"curve": [ 0, 0.72, 0.75, 1 ]
+					},
+					{ "time": 0.6, "x": 4.527, "y": 4.527 }
+				]
+			},
+			"huaan": {
+				"translate": [
+					{ "time": 0.4333, "x": -20.23, "y": 221.72 }
+				]
+			},
+			"bone": {
+				"translate": [
+					{ "time": 0, "x": 42.32, "y": 5.52 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 0.4,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0, 0.85, 0.633, 1 ]
+					},
+					{ "time": 0.6666, "x": 0.703, "y": 0.703 }
+				]
+			},
+			"bone2": {
+				"translate": [
+					{ "time": 0, "x": -11.96, "y": 6.43 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 0.4333,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0, 0.85, 0.633, 1 ]
+					},
+					{ "time": 0.7, "x": 0.703, "y": 0.703 }
+				]
+			},
+			"bone3": {
+				"rotate": [
+					{ "time": 0, "angle": -5.4 }
+				],
+				"translate": [
+					{ "time": 0, "x": -53.35, "y": 9.2 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 0.4666,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0, 0.85, 0.633, 1 ]
+					},
+					{ "time": 0.7333, "x": 0.703, "y": 0.703 }
+				]
+			},
+			"bone4": {
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 0.4,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0, 0.93, 0.75, 1 ]
+					},
+					{ "time": 0.6666, "x": 0.662, "y": 0.662 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "images/effect/dimian_00000", "offset": -9 }
+				]
+			}
+		]
+	}
+}
+}

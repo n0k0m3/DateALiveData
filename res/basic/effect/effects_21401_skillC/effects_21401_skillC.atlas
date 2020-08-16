@@ -1,0 +1,285 @@
+
+effects_21401_skillC.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/te_xiao/skillC/000034
+  rotate: true
+  xy: 819, 262
+  size: 222, 121
+  orig: 249, 129
+  offset: 16, 2
+  index: -1
+images/te_xiao/skillC/00033
+  rotate: false
+  xy: 359, 2
+  size: 169, 141
+  orig: 226, 154
+  offset: 1, 2
+  index: -1
+images/te_xiao/skillC/00036
+  rotate: true
+  xy: 954, 820
+  size: 202, 37
+  orig: 213, 58
+  offset: 1, 7
+  index: -1
+images/te_xiao/skillC/1_00034
+  rotate: false
+  xy: 906, 600
+  size: 97, 189
+  orig: 98, 194
+  offset: 1, 4
+  index: -1
+images/te_xiao/skillC/baodian/00034
+  rotate: true
+  xy: 521, 448
+  size: 232, 98
+  orig: 253, 126
+  offset: 19, 5
+  index: -1
+images/te_xiao/skillC/baodian/00035
+  rotate: true
+  xy: 433, 454
+  size: 219, 86
+  orig: 253, 126
+  offset: 27, 10
+  index: -1
+images/te_xiao/skillC/baodian/00036
+  rotate: true
+  xy: 914, 31
+  size: 229, 96
+  orig: 253, 126
+  offset: 21, 6
+  index: -1
+images/te_xiao/skillC/baodian/00037
+  rotate: true
+  xy: 630, 3
+  size: 232, 97
+  orig: 253, 126
+  offset: 19, 5
+  index: -1
+images/te_xiao/skillC/baodian/00040
+  rotate: true
+  xy: 530, 2
+  size: 233, 98
+  orig: 253, 126
+  offset: 18, 5
+  index: -1
+images/te_xiao/skillC/gezi/00033
+  rotate: false
+  xy: 637, 683
+  size: 267, 106
+  orig: 333, 126
+  offset: 41, 3
+  index: -1
+images/te_xiao/skillC/gezi/00035
+  rotate: false
+  xy: 646, 906
+  size: 306, 116
+  orig: 333, 126
+  offset: 20, 0
+  index: -1
+images/te_xiao/skillC/gezi/00037
+  rotate: false
+  xy: 330, 900
+  size: 314, 122
+  orig: 333, 126
+  offset: 4, 0
+  index: -1
+images/te_xiao/skillC/gezi/00039
+  rotate: false
+  xy: 2, 900
+  size: 326, 122
+  orig: 333, 126
+  offset: 0, 0
+  index: -1
+images/te_xiao/skillC/gezi/00041
+  rotate: true
+  xy: 2, 144
+  size: 303, 121
+  orig: 333, 126
+  offset: 18, 0
+  index: -1
+images/te_xiao/skillC/gezi/00043
+  rotate: true
+  xy: 125, 142
+  size: 305, 117
+  orig: 333, 126
+  offset: 10, 2
+  index: -1
+images/te_xiao/skillC/gezi/00045
+  rotate: true
+  xy: 244, 144
+  size: 306, 113
+  orig: 333, 126
+  offset: 4, 3
+  index: -1
+images/te_xiao/skillC/gezi/00047
+  rotate: true
+  xy: 359, 145
+  size: 305, 105
+  orig: 333, 126
+  offset: 1, 6
+  index: -1
+images/te_xiao/skillC/gezi/00049
+  rotate: false
+  xy: 637, 583
+  size: 265, 98
+  orig: 333, 126
+  offset: 30, 9
+  index: -1
+images/te_xiao/skillC/xiantiao/2200034
+  rotate: false
+  xy: 646, 791
+  size: 273, 113
+  orig: 284, 129
+  offset: 11, 2
+  index: -1
+images/te_xiao/skillC/xiantiao/2200036
+  rotate: false
+  xy: 2, 20
+  size: 264, 120
+  orig: 284, 129
+  offset: 16, 7
+  index: -1
+images/te_xiao/skillC/xiantiao/2200038
+  rotate: false
+  xy: 621, 486
+  size: 254, 95
+  orig: 284, 129
+  offset: 23, 26
+  index: -1
+images/te_xiao/skillC/xiantiao/2200040
+  rotate: true
+  xy: 729, 56
+  size: 235, 81
+  orig: 284, 129
+  offset: 31, 30
+  index: -1
+images/te_xiao/skillC/xiantiao/2200041
+  rotate: true
+  xy: 812, 49
+  size: 211, 100
+  orig: 284, 129
+  offset: 38, 21
+  index: -1
+images/te_xiao/skillC/xuli/00007
+  rotate: true
+  xy: 466, 237
+  size: 209, 172
+  orig: 226, 224
+  offset: 0, 2
+  index: -1
+images/te_xiao/skillC/xuli/00009
+  rotate: false
+  xy: 222, 675
+  size: 212, 223
+  orig: 226, 224
+  offset: 0, 1
+  index: -1
+images/te_xiao/skillC/xuli/00011
+  rotate: false
+  xy: 2, 449
+  size: 213, 224
+  orig: 226, 224
+  offset: 0, 0
+  index: -1
+images/te_xiao/skillC/xuli/00013
+  rotate: false
+  xy: 2, 675
+  size: 218, 223
+  orig: 226, 224
+  offset: 0, 1
+  index: -1
+images/te_xiao/skillC/xuli/00015
+  rotate: false
+  xy: 217, 452
+  size: 214, 221
+  orig: 226, 224
+  offset: 0, 3
+  index: -1
+images/te_xiao/skillC/xuli/00017
+  rotate: false
+  xy: 436, 682
+  size: 199, 216
+  orig: 226, 224
+  offset: 12, 7
+  index: -1
+images/te_xiao/skillC/xuli/00019
+  rotate: false
+  xy: 640, 293
+  size: 177, 191
+  orig: 226, 224
+  offset: 30, 14
+  index: -1
+images/te_xiao/skillC/xuli/00024
+  rotate: false
+  xy: 268, 22
+  size: 77, 120
+  orig: 226, 224
+  offset: 90, 42
+  index: -1
+images/te_xiao/skillC/xuli/00025
+  rotate: true
+  xy: 877, 504
+  size: 77, 120
+  orig: 226, 224
+  offset: 90, 42
+  index: -1
+images/te_xiao/skillC/xuli/00026
+  rotate: false
+  xy: 942, 382
+  size: 77, 120
+  orig: 226, 224
+  offset: 90, 42
+  index: -1
+
+effects_21401_skillC2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/te_xiao/skillC/baodian/00038
+  rotate: false
+  xy: 2, 270
+  size: 219, 86
+  orig: 253, 126
+  offset: 27, 10
+  index: -1
+images/te_xiao/skillC/baodian/00039
+  rotate: false
+  xy: 2, 358
+  size: 229, 96
+  orig: 253, 126
+  offset: 21, 6
+  index: -1
+images/te_xiao/skillC/gezi/00051
+  rotate: false
+  xy: 233, 368
+  size: 192, 86
+  orig: 333, 126
+  offset: 91, 12
+  index: -1
+images/te_xiao/skillC/xuli/00021
+  rotate: false
+  xy: 2, 124
+  size: 151, 144
+  orig: 226, 224
+  offset: 47, 30
+  index: -1
+images/te_xiao/skillC/xuli/00023
+  rotate: false
+  xy: 2, 2
+  size: 110, 120
+  orig: 226, 224
+  offset: 70, 42
+  index: -1
+images/te_xiao/skillC/xuli/00027
+  rotate: false
+  xy: 155, 148
+  size: 77, 120
+  orig: 226, 224
+  offset: 90, 42
+  index: -1

@@ -1,0 +1,201 @@
+
+effects_24401_skillC.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/skillC/baozha/boom_000
+  rotate: false
+  xy: 2, 704
+  size: 318, 318
+  orig: 320, 320
+  offset: 1, 1
+  index: -1
+images/effect/skillC/baozha/boom_002
+  rotate: false
+  xy: 2, 417
+  size: 298, 285
+  orig: 320, 320
+  offset: 10, 16
+  index: -1
+images/effect/skillC/baozha/boom_004
+  rotate: false
+  xy: 322, 746
+  size: 293, 276
+  orig: 320, 320
+  offset: 13, 16
+  index: -1
+images/effect/skillC/baozha/boom_006
+  rotate: false
+  xy: 2, 145
+  size: 288, 270
+  orig: 320, 320
+  offset: 15, 16
+  index: -1
+images/effect/skillC/baozha/boom_008
+  rotate: false
+  xy: 617, 753
+  size: 285, 269
+  orig: 320, 320
+  offset: 17, 18
+  index: -1
+images/effect/skillC/baozha/boom_010
+  rotate: false
+  xy: 322, 480
+  size: 274, 264
+  orig: 320, 320
+  offset: 22, 24
+  index: -1
+images/effect/skillC/qiangkou/qiangkou_00034
+  rotate: true
+  xy: 576, 250
+  size: 227, 239
+  orig: 320, 320
+  offset: 42, 20
+  index: -1
+images/effect/skillC/qiangkou/qiangkou_00035
+  rotate: false
+  xy: 598, 479
+  size: 221, 265
+  orig: 320, 320
+  offset: 45, 22
+  index: -1
+images/effect/skillC/qiangkou/qiangkou_00036
+  rotate: true
+  xy: 302, 313
+  size: 165, 272
+  orig: 320, 320
+  offset: 71, 32
+  index: -1
+images/effect/skillC/qiangkou/qiangkou_00037
+  rotate: true
+  xy: 292, 135
+  size: 176, 268
+  orig: 320, 320
+  offset: 76, 38
+  index: -1
+images/effect/skillC/qiangkou/qiangkou_00040
+  rotate: true
+  xy: 2, 10
+  size: 133, 218
+  orig: 320, 320
+  offset: 86, 56
+  index: -1
+images/effect/skillC/xuli/xuli_00011
+  rotate: true
+  xy: 222, 38
+  size: 105, 49
+  orig: 240, 240
+  offset: 113, 80
+  index: -1
+images/effect/skillC/xuli/xuli_00017
+  rotate: true
+  xy: 562, 30
+  size: 218, 239
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+images/effect/skillC/xuli/xuli_00019
+  rotate: false
+  xy: 817, 247
+  size: 205, 230
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+images/effect/skillC/xuli/xuli_00021
+  rotate: false
+  xy: 803, 19
+  size: 197, 226
+  orig: 240, 240
+  offset: 9, 0
+  index: -1
+images/effect/skillC/xuli/xuli_00025
+  rotate: true
+  xy: 821, 589
+  size: 162, 201
+  orig: 240, 240
+  offset: 29, 10
+  index: -1
+images/effect/skillC/xuli/xuli_00029
+  rotate: true
+  xy: 904, 856
+  size: 166, 118
+  orig: 240, 240
+  offset: 34, 62
+  index: -1
+images/effect/skillC/xuli/xuli_00031
+  rotate: false
+  xy: 821, 493
+  size: 175, 94
+  orig: 240, 240
+  offset: 28, 73
+  index: -1
+
+effects_24401_skillC2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/skillC/baozha/boom_012
+  rotate: false
+  xy: 2, 775
+  size: 238, 238
+  orig: 320, 320
+  offset: 40, 41
+  index: -1
+images/effect/skillC/baozha/boom_014
+  rotate: true
+  xy: 433, 691
+  size: 173, 188
+  orig: 320, 320
+  offset: 78, 62
+  index: -1
+images/effect/skillC/baozha/boom_016
+  rotate: true
+  xy: 658, 851
+  size: 162, 193
+  orig: 320, 320
+  offset: 84, 65
+  index: -1
+images/effect/skillC/glow_00034
+  rotate: false
+  xy: 2, 544
+  size: 232, 229
+  orig: 320, 320
+  offset: 38, 51
+  index: -1
+images/effect/skillC/qiangkou/qiangkou_00038
+  rotate: true
+  xy: 433, 866
+  size: 147, 223
+  orig: 320, 320
+  offset: 80, 46
+  index: -1
+images/effect/skillC/xuli/xuli_00013
+  rotate: true
+  xy: 2, 131
+  size: 188, 174
+  orig: 240, 240
+  offset: 32, 23
+  index: -1
+images/effect/skillC/xuli/xuli_00015
+  rotate: false
+  xy: 242, 795
+  size: 189, 218
+  orig: 240, 240
+  offset: 29, 0
+  index: -1
+images/effect/skillC/xuli/xuli_00023
+  rotate: false
+  xy: 2, 321
+  size: 179, 221
+  orig: 240, 240
+  offset: 19, 0
+  index: -1
+images/effect/skillC/xuli/xuli_00027
+  rotate: false
+  xy: 853, 840
+  size: 160, 173
+  orig: 240, 240
+  offset: 34, 29
+  index: -1

@@ -1,0 +1,354 @@
+
+effect_main_10511.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/bowen_000
+  rotate: true
+  xy: 412, 163
+  size: 517, 154
+  orig: 522, 163
+  offset: 0, 4
+  index: -1
+effect/deng1_000
+  rotate: false
+  xy: 398, 7
+  size: 188, 154
+  orig: 189, 157
+  offset: 0, 3
+  index: -1
+effect/deng2_000
+  rotate: false
+  xy: 588, 10
+  size: 110, 44
+  orig: 111, 44
+  offset: 0, 0
+  index: -1
+effect/deng3_000
+  rotate: false
+  xy: 793, 486
+  size: 110, 117
+  orig: 110, 120
+  offset: 0, 0
+  index: -1
+effect/deng4_000
+  rotate: false
+  xy: 905, 453
+  size: 115, 104
+  orig: 115, 104
+  offset: 0, 0
+  index: -1
+effect/deng5_000
+  rotate: true
+  xy: 568, 452
+  size: 228, 150
+  orig: 236, 178
+  offset: 8, 28
+  index: -1
+effect/deng6_000
+  rotate: true
+  xy: 969, 201
+  size: 63, 46
+  orig: 63, 46
+  offset: 0, 0
+  index: -1
+effect/heiye1_000
+  rotate: false
+  xy: 2, 682
+  size: 808, 338
+  orig: 808, 338
+  offset: 0, 0
+  index: -1
+effect/heiye2_000
+  rotate: false
+  xy: 2, 423
+  size: 408, 257
+  orig: 430, 264
+  offset: 0, 0
+  index: -1
+effect/heiye4_000
+  rotate: true
+  xy: 812, 675
+  size: 345, 197
+  orig: 366, 207
+  offset: 20, 0
+  index: -1
+effect/hua1_000
+  rotate: false
+  xy: 793, 605
+  size: 126, 68
+  orig: 127, 70
+  offset: 1, 0
+  index: -1
+effect/hua2_000
+  rotate: true
+  xy: 720, 499
+  size: 99, 54
+  orig: 99, 54
+  offset: 0, 0
+  index: -1
+effect/hua3_000
+  rotate: true
+  xy: 969, 266
+  size: 91, 49
+  orig: 91, 49
+  offset: 0, 0
+  index: -1
+effect/hua4_000
+  rotate: true
+  xy: 969, 359
+  size: 92, 50
+  orig: 92, 51
+  offset: 0, 0
+  index: -1
+effect/lizi_000
+  rotate: true
+  xy: 720, 600
+  size: 80, 71
+  orig: 80, 71
+  offset: 0, 0
+  index: -1
+effect/water/water_000
+  rotate: true
+  xy: 2, 22
+  size: 399, 130
+  orig: 399, 133
+  offset: 0, 3
+  index: -1
+effect/water/water_001
+  rotate: true
+  xy: 134, 22
+  size: 399, 130
+  orig: 399, 133
+  offset: 0, 3
+  index: -1
+effect/water/water_002
+  rotate: true
+  xy: 266, 22
+  size: 399, 130
+  orig: 399, 133
+  offset: 0, 3
+  index: -1
+effect/water/water_003
+  rotate: false
+  xy: 568, 320
+  size: 399, 130
+  orig: 399, 133
+  offset: 0, 3
+  index: -1
+effect/water/water_004
+  rotate: false
+  xy: 568, 188
+  size: 399, 130
+  orig: 399, 133
+  offset: 0, 3
+  index: -1
+effect/water/water_005
+  rotate: false
+  xy: 588, 56
+  size: 399, 130
+  orig: 399, 133
+  offset: 0, 3
+  index: -1
+effect/xingxing_020
+  rotate: false
+  xy: 921, 559
+  size: 96, 114
+  orig: 107, 119
+  offset: 6, 1
+  index: -1
+
+effect_main_105112.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/glow_000
+  rotate: false
+  xy: 804, 105
+  size: 104, 104
+  orig: 121, 113
+  offset: 8, 2
+  index: -1
+effect/heiye3_000
+  rotate: true
+  xy: 936, 705
+  size: 306, 75
+  orig: 313, 77
+  offset: 5, 0
+  index: -1
+effect/water/water_006
+  rotate: false
+  xy: 2, 881
+  size: 399, 130
+  orig: 399, 133
+  offset: 0, 3
+  index: -1
+effect/water/water_007
+  rotate: false
+  xy: 2, 749
+  size: 399, 130
+  orig: 399, 133
+  offset: 0, 3
+  index: -1
+effect/water/water_008
+  rotate: false
+  xy: 403, 881
+  size: 399, 130
+  orig: 399, 133
+  offset: 0, 3
+  index: -1
+effect/water/water_009
+  rotate: false
+  xy: 2, 617
+  size: 399, 130
+  orig: 399, 133
+  offset: 0, 3
+  index: -1
+effect/water/water_010
+  rotate: false
+  xy: 403, 749
+  size: 399, 130
+  orig: 399, 133
+  offset: 0, 3
+  index: -1
+effect/water/water_011
+  rotate: false
+  xy: 2, 485
+  size: 399, 130
+  orig: 399, 133
+  offset: 0, 3
+  index: -1
+effect/water/water_012
+  rotate: false
+  xy: 403, 617
+  size: 399, 130
+  orig: 399, 133
+  offset: 0, 3
+  index: -1
+effect/water/water_013
+  rotate: false
+  xy: 2, 353
+  size: 399, 130
+  orig: 399, 133
+  offset: 0, 3
+  index: -1
+effect/water/water_014
+  rotate: false
+  xy: 403, 485
+  size: 399, 130
+  orig: 399, 133
+  offset: 0, 3
+  index: -1
+effect/water/water_015
+  rotate: true
+  xy: 804, 612
+  size: 399, 130
+  orig: 399, 133
+  offset: 0, 3
+  index: -1
+effect/water/water_016
+  rotate: false
+  xy: 2, 221
+  size: 399, 130
+  orig: 399, 133
+  offset: 0, 3
+  index: -1
+effect/water/water_017
+  rotate: false
+  xy: 403, 353
+  size: 399, 130
+  orig: 399, 133
+  offset: 0, 3
+  index: -1
+effect/water/water_018
+  rotate: false
+  xy: 2, 89
+  size: 399, 130
+  orig: 399, 133
+  offset: 0, 3
+  index: -1
+effect/water/water_019
+  rotate: false
+  xy: 403, 221
+  size: 399, 130
+  orig: 399, 133
+  offset: 0, 3
+  index: -1
+effect/water/water_020
+  rotate: false
+  xy: 403, 89
+  size: 399, 130
+  orig: 399, 133
+  offset: 0, 3
+  index: -1
+effect/water/water_021
+  rotate: true
+  xy: 804, 211
+  size: 399, 130
+  orig: 399, 133
+  offset: 0, 3
+  index: -1
+
+effect_main_105113.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/water/water_022
+  rotate: false
+  xy: 2, 672
+  size: 399, 130
+  orig: 399, 133
+  offset: 0, 3
+  index: -1
+effect/water/water_023
+  rotate: false
+  xy: 2, 540
+  size: 399, 130
+  orig: 399, 133
+  offset: 0, 3
+  index: -1
+effect/water/water_024
+  rotate: false
+  xy: 403, 672
+  size: 399, 130
+  orig: 399, 133
+  offset: 0, 3
+  index: -1
+effect/water/water_025
+  rotate: false
+  xy: 2, 408
+  size: 399, 130
+  orig: 399, 133
+  offset: 0, 3
+  index: -1
+effect/water/water_026
+  rotate: false
+  xy: 403, 540
+  size: 399, 130
+  orig: 399, 133
+  offset: 0, 3
+  index: -1
+effect/water/water_027
+  rotate: false
+  xy: 2, 276
+  size: 399, 130
+  orig: 399, 133
+  offset: 0, 3
+  index: -1
+effect/water/water_028
+  rotate: false
+  xy: 403, 408
+  size: 399, 130
+  orig: 399, 133
+  offset: 0, 3
+  index: -1
+effect/water/water_029
+  rotate: false
+  xy: 2, 144
+  size: 399, 130
+  orig: 399, 133
+  offset: 0, 3
+  index: -1

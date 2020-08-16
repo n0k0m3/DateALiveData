@@ -1,0 +1,153 @@
+
+effects_10209_quickmove.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/quickmove/quickmove00015
+  rotate: true
+  xy: 780, 516
+  size: 165, 79
+  orig: 475, 225
+  offset: 130, 68
+  index: -1
+effect/quickmove/quickmove00016
+  rotate: false
+  xy: 373, 37
+  size: 333, 169
+  orig: 475, 225
+  offset: 110, 32
+  index: -1
+effect/quickmove/quickmove00017
+  rotate: false
+  xy: 397, 208
+  size: 341, 168
+  orig: 475, 225
+  offset: 99, 33
+  index: -1
+effect/quickmove/quickmove00018
+  rotate: false
+  xy: 2, 810
+  size: 469, 212
+  orig: 475, 225
+  offset: 6, 2
+  index: -1
+effect/quickmove/quickmove00019
+  rotate: false
+  xy: 2, 466
+  size: 408, 169
+  orig: 475, 225
+  offset: 42, 32
+  index: -1
+effect/quickmove/quickmove00020
+  rotate: false
+  xy: 2, 637
+  size: 418, 171
+  orig: 475, 225
+  offset: 35, 29
+  index: -1
+effect/quickmove/quickmove00021
+  rotate: false
+  xy: 2, 288
+  size: 393, 176
+  orig: 475, 225
+  offset: 60, 23
+  index: -1
+effect/quickmove/quickmove00022
+  rotate: false
+  xy: 473, 845
+  size: 401, 177
+  orig: 475, 225
+  offset: 49, 22
+  index: -1
+effect/quickmove/quickmove00023
+  rotate: false
+  xy: 2, 120
+  size: 369, 166
+  orig: 475, 225
+  offset: 76, 33
+  index: -1
+effect/quickmove/quickmove00024
+  rotate: false
+  xy: 473, 683
+  size: 359, 160
+  orig: 475, 225
+  offset: 80, 39
+  index: -1
+effect/quickmove/quickmove00025
+  rotate: false
+  xy: 422, 527
+  size: 356, 154
+  orig: 475, 225
+  offset: 78, 42
+  index: -1
+effect/quickmove/quickmove00026
+  rotate: false
+  xy: 412, 378
+  size: 342, 147
+  orig: 475, 225
+  offset: 75, 47
+  index: -1
+effect/quickmove/quickmove00027
+  rotate: true
+  xy: 876, 703
+  size: 319, 141
+  orig: 475, 225
+  offset: 94, 50
+  index: -1
+effect/quickmove/quickmove00028
+  rotate: false
+  xy: 2, 23
+  size: 250, 95
+  orig: 475, 225
+  offset: 105, 57
+  index: -1
+effect/quickmove/quickmove00029
+  rotate: true
+  xy: 861, 457
+  size: 244, 91
+  orig: 475, 225
+  offset: 103, 59
+  index: -1
+effect/quickmove/quickmove00030
+  rotate: true
+  xy: 756, 284
+  size: 230, 88
+  orig: 475, 225
+  offset: 104, 60
+  index: -1
+effect/quickmove/quickmove00031
+  rotate: true
+  xy: 846, 237
+  size: 218, 83
+  orig: 475, 225
+  offset: 109, 64
+  index: -1
+effect/quickmove/quickmove00032
+  rotate: true
+  xy: 708, 67
+  size: 139, 77
+  orig: 475, 225
+  offset: 181, 68
+  index: -1
+effect/quickmove/quickmove00033
+  rotate: true
+  xy: 931, 323
+  size: 132, 71
+  orig: 475, 225
+  offset: 179, 72
+  index: -1
+effect/quickmove/quickmove00034
+  rotate: true
+  xy: 954, 576
+  size: 125, 68
+  orig: 475, 225
+  offset: 180, 73
+  index: -1
+effect/quickmove/quickmove00035
+  rotate: false
+  xy: 422, 759
+  size: 49, 49
+  orig: 475, 225
+  offset: 188, 75
+  index: -1

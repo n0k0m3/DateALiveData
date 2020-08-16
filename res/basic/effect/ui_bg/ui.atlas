@@ -1,0 +1,40 @@
+
+ui.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+beijing
+  rotate: false
+  xy: 2, 452
+  size: 970, 448
+  orig: 970, 448
+  offset: 0, 0
+  index: -1
+wangge
+  rotate: false
+  xy: 2, 2
+  size: 969, 448
+  orig: 969, 448
+  offset: 0, 0
+  index: -1
+
+ui2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fangkuai4
+  rotate: false
+  xy: 2, 2
+  size: 445, 448
+  orig: 445, 448
+  offset: 0, 0
+  index: -1
+shangce
+  rotate: false
+  xy: 2, 452
+  size: 656, 448
+  orig: 970, 448
+  offset: 0, 0
+  index: -1

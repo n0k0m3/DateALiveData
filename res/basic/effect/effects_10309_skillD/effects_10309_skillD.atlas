@@ -1,0 +1,452 @@
+
+effects_10309_skillD.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skilld/baochong/baochong_000
+  rotate: true
+  xy: 352, 77
+  size: 163, 128
+  orig: 210, 175
+  offset: 13, 17
+  index: -1
+effects/skilld/baochong/baochong_001
+  rotate: false
+  xy: 670, 243
+  size: 176, 140
+  orig: 210, 175
+  offset: 9, 13
+  index: -1
+effects/skilld/baochong/baochong_003
+  rotate: true
+  xy: 2, 242
+  size: 196, 162
+  orig: 210, 175
+  offset: 8, 6
+  index: -1
+effects/skilld/baoji/baoji_010
+  rotate: false
+  xy: 365, 713
+  size: 360, 148
+  orig: 385, 175
+  offset: 3, 10
+  index: -1
+effects/skilld/baoji/baoji_012
+  rotate: false
+  xy: 2, 722
+  size: 361, 153
+  orig: 385, 175
+  offset: 2, 14
+  index: -1
+effects/skilld/baoji/baoji_014
+  rotate: false
+  xy: 2, 571
+  size: 358, 149
+  orig: 385, 175
+  offset: 1, 16
+  index: -1
+effects/skilld/baoji/baoji_016
+  rotate: false
+  xy: 367, 863
+  size: 361, 159
+  orig: 385, 175
+  offset: 3, 6
+  index: -1
+effects/skilld/baoji/baoji_035
+  rotate: false
+  xy: 362, 567
+  size: 355, 144
+  orig: 385, 175
+  offset: 1, 16
+  index: -1
+effects/skilld/baoji/baoji_036
+  rotate: false
+  xy: 2, 877
+  size: 363, 145
+  orig: 385, 175
+  offset: 1, 12
+  index: -1
+effects/skilld/baoji/baoji_038
+  rotate: false
+  xy: 2, 440
+  size: 348, 129
+  orig: 385, 175
+  offset: 5, 18
+  index: -1
+effects/skilld/baoji/baoji_040
+  rotate: false
+  xy: 352, 456
+  size: 334, 109
+  orig: 385, 175
+  offset: 6, 28
+  index: -1
+effects/skilld/baoji/baoji_044
+  rotate: false
+  xy: 730, 905
+  size: 289, 117
+  orig: 385, 175
+  offset: 28, 31
+  index: -1
+effects/skilld/bbg_00000
+  rotate: false
+  xy: 688, 385
+  size: 319, 147
+  orig: 319, 147
+  offset: 0, 0
+  index: -1
+effects/skilld/guangquan2_000
+  rotate: true
+  xy: 723, 122
+  size: 119, 120
+  orig: 140, 140
+  offset: 11, 10
+  index: -1
+effects/skilld/guangxian_000
+  rotate: true
+  xy: 454, 11
+  size: 64, 21
+  orig: 70, 35
+  offset: 3, 8
+  index: -1
+effects/skilld/show/baoqi/baoqi_002
+  rotate: false
+  xy: 727, 534
+  size: 277, 186
+  orig: 350, 280
+  offset: 36, 26
+  index: -1
+effects/skilld/show/baoqi/baoqi_004
+  rotate: false
+  xy: 730, 722
+  size: 280, 181
+  orig: 350, 280
+  offset: 34, 24
+  index: -1
+effects/skilld/show/baoqi/baoqi_008
+  rotate: false
+  xy: 352, 242
+  size: 316, 212
+  orig: 350, 280
+  offset: 13, 37
+  index: -1
+effects/skilld/show/diqi/diqi_004
+  rotate: false
+  xy: 482, 4
+  size: 239, 236
+  orig: 280, 280
+  offset: 17, 23
+  index: -1
+effects/skilld/show/diqi/diqi_008
+  rotate: false
+  xy: 2, 4
+  size: 248, 236
+  orig: 280, 280
+  offset: 17, 23
+  index: -1
+effects/skilld/show/qi/qi_000
+  rotate: true
+  xy: 723, 9
+  size: 111, 88
+  orig: 210, 126
+  offset: 99, 15
+  index: -1
+effects/skilld/show/qi/qi_011
+  rotate: true
+  xy: 252, 76
+  size: 175, 98
+  orig: 210, 126
+  offset: 12, 6
+  index: -1
+effects/skilld/show/xiqi/xiqi_000
+  rotate: true
+  xy: 848, 199
+  size: 184, 172
+  orig: 210, 210
+  offset: 16, 21
+  index: -1
+effects/skilld/show/xiqi/xiqi_004
+  rotate: false
+  xy: 166, 253
+  size: 184, 185
+  orig: 210, 210
+  offset: 15, 8
+  index: -1
+effects/skilld/show/xiqi/xiqi_006
+  rotate: false
+  xy: 845, 6
+  size: 176, 191
+  orig: 210, 210
+  offset: 20, 13
+  index: -1
+effects/skilld/smoke/smoke_004
+  rotate: false
+  xy: 252, 2
+  size: 200, 72
+  orig: 210, 105
+  offset: 4, 17
+  index: -1
+
+effects_10309_skillD2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/glow_000
+  rotate: false
+  xy: 365, 2
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+effects/skilld/bai_000
+  rotate: true
+  xy: 473, 84
+  size: 97, 45
+  orig: 97, 45
+  offset: 0, 0
+  index: -1
+effects/skilld/baochong/baochong_005
+  rotate: false
+  xy: 540, 627
+  size: 204, 170
+  orig: 210, 175
+  offset: 6, 2
+  index: -1
+effects/skilld/baochong/baochong_007
+  rotate: true
+  xy: 746, 599
+  size: 198, 131
+  orig: 210, 175
+  offset: 9, 10
+  index: -1
+effects/skilld/baochong/baochong_008
+  rotate: true
+  xy: 909, 415
+  size: 184, 101
+  orig: 210, 175
+  offset: 23, 40
+  index: -1
+effects/skilld/dilie_000
+  rotate: true
+  xy: 501, 223
+  size: 189, 63
+  orig: 210, 84
+  offset: 8, 4
+  index: -1
+effects/skilld/guangci_000
+  rotate: false
+  xy: 848, 94
+  size: 133, 136
+  orig: 140, 140
+  offset: 2, 2
+  index: -1
+effects/skilld/guangquan_000
+  rotate: false
+  xy: 708, 92
+  size: 138, 138
+  orig: 140, 140
+  offset: 1, 1
+  index: -1
+effects/skilld/kouqi/kouqi_000
+  rotate: false
+  xy: 910, 239
+  size: 85, 92
+  orig: 126, 105
+  offset: 16, 3
+  index: -1
+effects/skilld/kouqi/kouqi_001
+  rotate: true
+  xy: 629, 42
+  size: 87, 62
+  orig: 126, 105
+  offset: 15, 22
+  index: -1
+effects/skilld/kouqi/kouqi_002
+  rotate: true
+  xy: 266, 32
+  size: 125, 97
+  orig: 126, 105
+  offset: 1, 3
+  index: -1
+effects/skilld/kouqi/kouqi_003
+  rotate: false
+  xy: 909, 333
+  size: 110, 80
+  orig: 126, 105
+  offset: 8, 10
+  index: -1
+effects/skilld/shan/shan_000
+  rotate: false
+  xy: 437, 15
+  size: 57, 57
+  orig: 175, 175
+  offset: 59, 58
+  index: -1
+effects/skilld/shan/shan_001
+  rotate: false
+  xy: 365, 74
+  size: 106, 107
+  orig: 175, 175
+  offset: 34, 33
+  index: -1
+effects/skilld/shan/shan_003
+  rotate: true
+  xy: 520, 23
+  size: 106, 107
+  orig: 175, 175
+  offset: 34, 33
+  index: -1
+effects/skilld/shan/shan_005
+  rotate: true
+  xy: 566, 131
+  size: 152, 140
+  orig: 175, 175
+  offset: 13, 23
+  index: -1
+effects/skilld/shan/shan_006
+  rotate: false
+  xy: 746, 436
+  size: 161, 161
+  orig: 175, 175
+  offset: 8, 8
+  index: -1
+effects/skilld/shan/shan_008
+  rotate: false
+  xy: 566, 285
+  size: 151, 154
+  orig: 175, 175
+  offset: 18, 4
+  index: -1
+effects/skilld/show/baoqi/baoqi_000
+  rotate: false
+  xy: 2, 20
+  size: 262, 108
+  orig: 350, 280
+  offset: 43, 26
+  index: -1
+effects/skilld/show/baoqi/baoqi_006
+  rotate: false
+  xy: 2, 598
+  size: 296, 211
+  orig: 350, 280
+  offset: 21, 31
+  index: -1
+effects/skilld/show/baoqi/baoqi_010
+  rotate: false
+  xy: 2, 811
+  size: 312, 211
+  orig: 350, 280
+  offset: 19, 42
+  index: -1
+effects/skilld/show/baoqi/baoqi_012
+  rotate: false
+  xy: 316, 830
+  size: 303, 192
+  orig: 350, 280
+  offset: 23, 52
+  index: -1
+effects/skilld/show/diqi/diqi_000
+  rotate: false
+  xy: 851, 801
+  size: 165, 221
+  orig: 280, 280
+  offset: 46, 23
+  index: -1
+effects/skilld/show/diqi/diqi_002
+  rotate: true
+  xy: 621, 799
+  size: 223, 228
+  orig: 280, 280
+  offset: 17, 24
+  index: -1
+effects/skilld/show/diqi/diqi_006
+  rotate: false
+  xy: 2, 364
+  size: 259, 232
+  orig: 280, 280
+  offset: 10, 24
+  index: -1
+effects/skilld/show/diqi/diqi_010
+  rotate: false
+  xy: 2, 130
+  size: 248, 232
+  orig: 280, 280
+  offset: 11, 24
+  index: -1
+effects/skilld/show/diqi/diqi_012
+  rotate: false
+  xy: 263, 368
+  size: 228, 228
+  orig: 280, 280
+  offset: 24, 27
+  index: -1
+effects/skilld/show/diqi/diqi_014
+  rotate: true
+  xy: 316, 619
+  size: 209, 222
+  orig: 280, 280
+  offset: 34, 30
+  index: -1
+effects/skilld/show/qi/qi_002
+  rotate: false
+  xy: 719, 232
+  size: 189, 94
+  orig: 210, 126
+  offset: 20, 5
+  index: -1
+effects/skilld/show/qi/qi_004
+  rotate: true
+  xy: 879, 601
+  size: 198, 103
+  orig: 210, 126
+  offset: 4, 2
+  index: -1
+effects/skilld/show/qi/qi_008
+  rotate: false
+  xy: 719, 328
+  size: 188, 106
+  orig: 210, 126
+  offset: 5, 3
+  index: -1
+effects/skilld/show/xiqi/xiqi_002
+  rotate: true
+  xy: 566, 441
+  size: 184, 178
+  orig: 210, 210
+  offset: 13, 15
+  index: -1
+effects/skilld/show/xiqi/xiqi_008
+  rotate: false
+  xy: 320, 183
+  size: 179, 183
+  orig: 210, 210
+  offset: 21, 16
+  index: -1
+effects/skilld/smoke/smoke_000
+  rotate: true
+  xy: 493, 414
+  size: 203, 71
+  orig: 210, 105
+  offset: 1, 18
+  index: -1
+effects/skilld/smoke/smoke_002
+  rotate: true
+  xy: 252, 159
+  size: 203, 66
+  orig: 210, 105
+  offset: 1, 20
+  index: -1
+
+effects_10309_skillD3.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skilld/glow2_000
+  rotate: false
+  xy: 2, 2
+  size: 105, 105
+  orig: 105, 105
+  offset: 0, 0
+  index: -1

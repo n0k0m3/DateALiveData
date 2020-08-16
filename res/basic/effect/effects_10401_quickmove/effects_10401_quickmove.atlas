@@ -1,0 +1,118 @@
+
+effects_10401_quickmove.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/shanbiyingzi_00260
+  rotate: false
+  xy: 2, 890
+  size: 196, 132
+  orig: 204, 141
+  offset: 4, 5
+  index: -1
+images/effects/skillb/huoyan/huoyan_00014
+  rotate: false
+  xy: 936, 963
+  size: 75, 59
+  orig: 142, 203
+  offset: 53, 55
+  index: -1
+images/effects/skillb/huoyan/huoyan_00015
+  rotate: true
+  xy: 248, 762
+  size: 124, 118
+  orig: 142, 203
+  offset: 13, 17
+  index: -1
+images/effects/skillb/huoyan/huoyan_00016
+  rotate: true
+  xy: 373, 885
+  size: 137, 167
+  orig: 142, 203
+  offset: 4, 4
+  index: -1
+images/effects/skillb/huoyan/huoyan_00017
+  rotate: false
+  xy: 2, 513
+  size: 136, 187
+  orig: 142, 203
+  offset: 4, 2
+  index: -1
+images/effects/skillb/huoyan/huoyan_00018
+  rotate: false
+  xy: 2, 702
+  size: 138, 186
+  orig: 142, 203
+  offset: 4, 2
+  index: -1
+images/effects/skillb/huoyan/huoyan_00019
+  rotate: false
+  xy: 2, 325
+  size: 137, 186
+  orig: 142, 203
+  offset: 5, 2
+  index: -1
+images/effects/skillb/huoyan/huoyan_00020
+  rotate: false
+  xy: 2, 139
+  size: 136, 184
+  orig: 142, 203
+  offset: 6, 5
+  index: -1
+images/effects/skillb/huoyan/huoyan_00021
+  rotate: true
+  xy: 2, 2
+  size: 135, 184
+  orig: 142, 203
+  offset: 5, 5
+  index: -1
+images/effects/skillb/huoyan/huoyan_00022
+  rotate: true
+  xy: 200, 888
+  size: 134, 171
+  orig: 142, 203
+  offset: 5, 19
+  index: -1
+images/effects/skillb/huoyan/huoyan_00023
+  rotate: true
+  xy: 542, 903
+  size: 119, 170
+  orig: 142, 203
+  offset: 9, 21
+  index: -1
+images/effects/suduxian/suduxian_00013
+  rotate: false
+  xy: 248, 722
+  size: 102, 38
+  orig: 113, 74
+  offset: 11, 22
+  index: -1
+images/effects/suduxian/suduxian_00014
+  rotate: true
+  xy: 188, 689
+  size: 197, 58
+  orig: 239, 74
+  offset: 42, 9
+  index: -1
+images/effects/suduxian/suduxian_00015
+  rotate: false
+  xy: 714, 959
+  size: 220, 63
+  orig: 239, 74
+  offset: 7, 3
+  index: -1
+images/effects/suduxian/suduxian_00016
+  rotate: false
+  xy: 714, 898
+  size: 217, 59
+  orig: 239, 74
+  offset: 8, 4
+  index: -1
+images/effects/suduxian/suduxian_00017
+  rotate: true
+  xy: 142, 696
+  size: 192, 44
+  orig: 239, 74
+  offset: 0, 19
+  index: -1

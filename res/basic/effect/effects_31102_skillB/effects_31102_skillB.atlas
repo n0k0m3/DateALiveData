@@ -1,0 +1,250 @@
+
+effects_31102_skillB.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects2/change/shandian/shandian_001
+  rotate: true
+  xy: 162, 15
+  size: 152, 144
+  orig: 160, 160
+  offset: 6, 1
+  index: -1
+effects2/change/shandian/shandian_002
+  rotate: false
+  xy: 299, 173
+  size: 140, 131
+  orig: 160, 160
+  offset: 14, 3
+  index: -1
+effects2/change/shandian/shandian_003
+  rotate: false
+  xy: 591, 38
+  size: 142, 141
+  orig: 160, 160
+  offset: 12, 3
+  index: -1
+effects2/change/shandian/shandian_004
+  rotate: false
+  xy: 735, 18
+  size: 137, 149
+  orig: 160, 160
+  offset: 13, 1
+  index: -1
+effects2/change/shandian/shandian_006
+  rotate: true
+  xy: 147, 171
+  size: 131, 150
+  orig: 160, 160
+  offset: 18, 0
+  index: -1
+effects2/change/shandian/shandian_007
+  rotate: true
+  xy: 2, 169
+  size: 133, 143
+  orig: 160, 160
+  offset: 22, 7
+  index: -1
+effects2/change/shandian/shandian_008
+  rotate: true
+  xy: 874, 53
+  size: 114, 148
+  orig: 160, 160
+  offset: 36, 2
+  index: -1
+effects2/change/shandian/shandian_009
+  rotate: false
+  xy: 591, 181
+  size: 146, 151
+  orig: 160, 160
+  offset: 10, 5
+  index: -1
+effects2/change/shandian/shandian_010
+  rotate: true
+  xy: 441, 179
+  size: 125, 148
+  orig: 160, 160
+  offset: 25, 5
+  index: -1
+effects2/glow
+  rotate: false
+  xy: 479, 97
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+effects2/guangxian_000
+  rotate: true
+  xy: 976, 252
+  size: 140, 45
+  orig: 160, 56
+  offset: 8, 5
+  index: -1
+effects2/skillb/boom/boom_000
+  rotate: true
+  xy: 812, 824
+  size: 198, 203
+  orig: 240, 240
+  offset: 24, 29
+  index: -1
+effects2/skillb/boom/boom_001
+  rotate: true
+  xy: 2, 411
+  size: 218, 240
+  orig: 240, 240
+  offset: 7, 0
+  index: -1
+effects2/skillb/boom/boom_003
+  rotate: true
+  xy: 261, 402
+  size: 228, 240
+  orig: 240, 240
+  offset: 5, 0
+  index: -1
+effects2/skillb/boom/boom_005
+  rotate: false
+  xy: 809, 591
+  size: 213, 231
+  orig: 240, 240
+  offset: 26, 9
+  index: -1
+effects2/skillb/boom/boom_007
+  rotate: false
+  xy: 740, 169
+  size: 234, 223
+  orig: 240, 240
+  offset: 6, 16
+  index: -1
+effects2/skillb/boom/boom_009
+  rotate: false
+  xy: 308, 2
+  size: 169, 169
+  orig: 240, 240
+  offset: 33, 39
+  index: -1
+effects2/skillb/boom/boom_011
+  rotate: false
+  xy: 2, 9
+  size: 158, 158
+  orig: 240, 240
+  offset: 37, 45
+  index: -1
+effects2/skillb/dun/dun_001
+  rotate: false
+  xy: 519, 438
+  size: 248, 193
+  orig: 304, 224
+  offset: 28, 15
+  index: -1
+effects2/skillb/dun/dun_003
+  rotate: false
+  xy: 2, 828
+  size: 268, 194
+  orig: 304, 224
+  offset: 16, 13
+  index: -1
+effects2/skillb/dun/dun_005
+  rotate: false
+  xy: 769, 394
+  size: 241, 195
+  orig: 304, 224
+  offset: 35, 13
+  index: -1
+effects2/skillb/dun/dun_007
+  rotate: false
+  xy: 261, 632
+  size: 256, 194
+  orig: 304, 224
+  offset: 28, 13
+  index: -1
+effects2/skillb/dun/dun_009
+  rotate: false
+  xy: 2, 631
+  size: 257, 195
+  orig: 304, 224
+  offset: 19, 13
+  index: -1
+effects2/skillb/dun/dun_011
+  rotate: false
+  xy: 272, 828
+  size: 268, 194
+  orig: 304, 224
+  offset: 16, 13
+  index: -1
+effects2/skillb/dun/dun_013
+  rotate: false
+  xy: 542, 829
+  size: 268, 193
+  orig: 304, 224
+  offset: 8, 15
+  index: -1
+effects2/skillb/dun/dun_015
+  rotate: false
+  xy: 542, 633
+  size: 265, 194
+  orig: 304, 224
+  offset: 19, 13
+  index: -1
+effects2/skillb/yanwu/yanwu_000
+  rotate: false
+  xy: 503, 334
+  size: 235, 102
+  orig: 240, 160
+  offset: 5, 14
+  index: -1
+effects2/skillb/yanwu/yanwu_002
+  rotate: false
+  xy: 239, 306
+  size: 235, 94
+  orig: 240, 160
+  offset: 5, 14
+  index: -1
+effects2/skillb/yanwu/yanwu_004
+  rotate: false
+  xy: 2, 304
+  size: 235, 105
+  orig: 240, 160
+  offset: 5, 15
+  index: -1
+
+effects_31102_skillB2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects2/change/shandian/shandian_000
+  rotate: true
+  xy: 2, 2
+  size: 139, 116
+  orig: 160, 160
+  offset: 19, 10
+  index: -1
+effects2/change/shandian/shandian_005
+  rotate: false
+  xy: 116, 236
+  size: 139, 141
+  orig: 160, 160
+  offset: 17, 6
+  index: -1
+effects2/skillb/yanwu/yanwu_006
+  rotate: false
+  xy: 2, 379
+  size: 232, 119
+  orig: 240, 160
+  offset: 8, 15
+  index: -1
+effects2/skillb/yanwu/yanwu_008
+  rotate: true
+  xy: 2, 143
+  size: 234, 112
+  orig: 240, 160
+  offset: 6, 15
+  index: -1
+effects2/skillb/yanwu/yanwu_010
+  rotate: false
+  xy: 236, 392
+  size: 234, 106
+  orig: 240, 160
+  offset: 6, 16
+  index: -1

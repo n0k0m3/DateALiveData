@@ -1,0 +1,13 @@
+
+map_shanguang_05.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sucai/shanguang/20180503_00000_00000_00000
+  rotate: false
+  xy: 2, 2
+  size: 149, 141
+  orig: 150, 150
+  offset: 1, 6
+  index: -1

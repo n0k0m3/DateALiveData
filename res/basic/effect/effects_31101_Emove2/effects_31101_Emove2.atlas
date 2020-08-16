@@ -1,0 +1,69 @@
+
+effects_31101_Emove2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/Emove/boom_001
+  rotate: false
+  xy: 2, 191
+  size: 182, 181
+  orig: 240, 240
+  offset: 29, 35
+  index: -1
+effects/Emove/boom_002
+  rotate: false
+  xy: 2, 560
+  size: 222, 223
+  orig: 240, 240
+  offset: 9, 6
+  index: -1
+effects/Emove/boom_004
+  rotate: false
+  xy: 2, 374
+  size: 199, 184
+  orig: 240, 240
+  offset: 19, 34
+  index: -1
+effects/Emove/boom_006
+  rotate: false
+  xy: 226, 606
+  size: 195, 177
+  orig: 240, 240
+  offset: 22, 40
+  index: -1
+effects/Emove/boom_008
+  rotate: false
+  xy: 423, 628
+  size: 180, 155
+  orig: 240, 240
+  offset: 30, 55
+  index: -1
+effects/Emove/boom_010
+  rotate: false
+  xy: 2, 84
+  size: 102, 105
+  orig: 240, 240
+  offset: 69, 65
+  index: -1
+effects/Emove/boom_012
+  rotate: false
+  xy: 605, 690
+  size: 91, 93
+  orig: 240, 240
+  offset: 69, 68
+  index: -1
+effects/glow
+  rotate: false
+  xy: 2, 2
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+effects/guangxian_000
+  rotate: false
+  xy: 226, 572
+  size: 170, 32
+  orig: 176, 32
+  offset: 1, 0
+  index: -1

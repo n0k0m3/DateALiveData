@@ -1,0 +1,68 @@
+
+effects_zhangaiwu.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baozha/baozha_00002
+  rotate: false
+  xy: 2, 3
+  size: 118, 117
+  orig: 139, 141
+  offset: 13, 11
+  index: -1
+baozha/baozha_00003
+  rotate: false
+  xy: 122, 8
+  size: 117, 114
+  orig: 139, 141
+  offset: 12, 17
+  index: -1
+baozha/baozha_00004
+  rotate: false
+  xy: 122, 124
+  size: 118, 116
+  orig: 139, 141
+  offset: 11, 16
+  index: -1
+baozha/baozha_00005
+  rotate: false
+  xy: 2, 122
+  size: 118, 118
+  orig: 139, 141
+  offset: 10, 14
+  index: -1
+
+effects_zhangaiwu2.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baozha/baozha_00000
+  rotate: false
+  xy: 114, 124
+  size: 103, 103
+  orig: 139, 141
+  offset: 20, 1
+  index: -1
+baozha/baozha_00001
+  rotate: false
+  xy: 2, 118
+  size: 110, 109
+  orig: 139, 141
+  offset: 17, 14
+  index: -1
+baozha/baozha_00006
+  rotate: true
+  xy: 2, 2
+  size: 114, 100
+  orig: 139, 141
+  offset: 11, 12
+  index: -1
+baozha/baozha_00007
+  rotate: true
+  xy: 104, 17
+  size: 99, 98
+  orig: 139, 141
+  offset: 23, 11
+  index: -1

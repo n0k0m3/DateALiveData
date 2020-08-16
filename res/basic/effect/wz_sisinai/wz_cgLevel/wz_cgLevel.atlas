@@ -1,0 +1,111 @@
+
+wz_cgLevel.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+4bianxing/4bianxing_00000
+  rotate: true
+  xy: 2, 99
+  size: 84, 59
+  orig: 167, 78
+  offset: 10, 2
+  index: -1
+4bianxing/4bianxing_00002
+  rotate: false
+  xy: 79, 162
+  size: 96, 40
+  orig: 167, 78
+  offset: 21, 2
+  index: -1
+4bianxing/4bianxing_00004
+  rotate: false
+  xy: 137, 109
+  size: 107, 19
+  orig: 167, 78
+  offset: 32, 2
+  index: -1
+4bianxing/4bianxing_00006
+  rotate: false
+  xy: 137, 130
+  size: 105, 23
+  orig: 167, 78
+  offset: 53, 2
+  index: -1
+4bianxing/4bianxing_00008
+  rotate: false
+  xy: 171, 210
+  size: 83, 44
+  orig: 167, 78
+  offset: 77, 2
+  index: -1
+4bianxing/4bianxing_00010
+  rotate: true
+  xy: 36, 2
+  size: 59, 62
+  orig: 167, 78
+  offset: 101, 2
+  index: -1
+4bianxing/4bianxing_00012
+  rotate: true
+  xy: 100, 8
+  size: 53, 74
+  orig: 167, 78
+  offset: 107, 2
+  index: -1
+4bianxing/4bianxing_00014
+  rotate: false
+  xy: 2, 185
+  size: 75, 69
+  orig: 167, 78
+  offset: 83, 7
+  index: -1
+4bianxing/4bianxing_00016
+  rotate: false
+  xy: 79, 204
+  size: 90, 50
+  orig: 167, 78
+  offset: 61, 26
+  index: -1
+4bianxing/4bianxing_00018
+  rotate: false
+  xy: 36, 63
+  size: 102, 30
+  orig: 167, 78
+  offset: 38, 46
+  index: -1
+4bianxing/4bianxing_00020
+  rotate: false
+  xy: 140, 89
+  size: 110, 18
+  orig: 167, 78
+  offset: 16, 58
+  index: -1
+4bianxing/4bianxing_00022
+  rotate: true
+  xy: 2, 2
+  size: 95, 32
+  orig: 167, 78
+  offset: 8, 43
+  index: -1
+4bianxing/4bianxing_00024
+  rotate: false
+  xy: 177, 155
+  size: 75, 53
+  orig: 167, 78
+  offset: 8, 22
+  index: -1
+4bianxing/4bianxing_00026
+  rotate: false
+  xy: 176, 15
+  size: 48, 72
+  orig: 167, 78
+  offset: 8, 3
+  index: -1
+4bianxing/4bianxing_00028
+  rotate: true
+  xy: 63, 95
+  size: 65, 72
+  orig: 167, 78
+  offset: 8, 2
+  index: -1

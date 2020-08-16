@@ -1,0 +1,732 @@
+
+effects_25301_born.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/born/born_baokai_00001
+  rotate: false
+  xy: 2, 655
+  size: 263, 254
+  orig: 310, 270
+  offset: 47, 0
+  index: -1
+effects/born/born_baokai_00002
+  rotate: false
+  xy: 314, 547
+  size: 263, 252
+  orig: 310, 270
+  offset: 47, 0
+  index: -1
+effects/born/born_baokai_00003
+  rotate: false
+  xy: 2, 273
+  size: 257, 242
+  orig: 310, 270
+  offset: 47, 0
+  index: -1
+effects/born/born_baokai_00013
+  rotate: false
+  xy: 383, 149
+  size: 189, 126
+  orig: 310, 270
+  offset: 82, 58
+  index: -1
+effects/born/born_dishang_00002
+  rotate: false
+  xy: 2, 911
+  size: 310, 111
+  orig: 310, 175
+  offset: 0, 23
+  index: -1
+effects/born/born_dishang_00003
+  rotate: false
+  xy: 314, 931
+  size: 297, 91
+  orig: 310, 175
+  offset: 13, 36
+  index: -1
+effects/born/born_dishang_00004
+  rotate: false
+  xy: 594, 803
+  size: 266, 77
+  orig: 310, 175
+  offset: 44, 32
+  index: -1
+effects/born/born_dishang_00005
+  rotate: false
+  xy: 613, 953
+  size: 293, 69
+  orig: 310, 175
+  offset: 16, 39
+  index: -1
+effects/born/born_dishang_00006
+  rotate: false
+  xy: 613, 882
+  size: 291, 69
+  orig: 310, 175
+  offset: 14, 39
+  index: -1
+effects/born/born_dishang_00009
+  rotate: false
+  xy: 805, 13
+  size: 216, 66
+  orig: 310, 175
+  offset: 61, 42
+  index: -1
+effects/born/born_dishang_00014
+  rotate: true
+  xy: 862, 789
+  size: 91, 32
+  orig: 310, 175
+  offset: 66, 43
+  index: -1
+effects/born/born_dishang_00015
+  rotate: true
+  xy: 265, 545
+  size: 108, 47
+  orig: 310, 175
+  offset: 57, 62
+  index: -1
+effects/born/born_dishang_00016
+  rotate: true
+  xy: 860, 720
+  size: 67, 23
+  orig: 310, 175
+  offset: 66, 43
+  index: -1
+effects/born/born_shoushang_00024
+  rotate: false
+  xy: 568, 81
+  size: 66, 54
+  orig: 106, 111
+  offset: 24, 37
+  index: -1
+effects/born/born_shoushang_00029
+  rotate: true
+  xy: 265, 474
+  size: 69, 46
+  orig: 106, 111
+  offset: 22, 36
+  index: -1
+effects/born/born_shoushang_00030
+  rotate: true
+  xy: 267, 840
+  size: 69, 45
+  orig: 106, 111
+  offset: 22, 36
+  index: -1
+effects/born/born_shoushang_00031
+  rotate: true
+  xy: 267, 770
+  size: 68, 45
+  orig: 106, 111
+  offset: 23, 36
+  index: -1
+effects/born/born_xiantiao_00012
+  rotate: true
+  xy: 908, 944
+  size: 78, 112
+  orig: 304, 282
+  offset: 87, 65
+  index: -1
+effects/born/born_xiantiao_00014
+  rotate: false
+  xy: 432, 283
+  size: 143, 139
+  orig: 304, 282
+  offset: 60, 42
+  index: -1
+effects/born/born_xiantiao_00019
+  rotate: true
+  xy: 860, 460
+  size: 230, 162
+  orig: 304, 282
+  offset: 48, 54
+  index: -1
+effects/born/born_xiantiao_00025
+  rotate: false
+  xy: 577, 137
+  size: 248, 164
+  orig: 304, 282
+  offset: 42, 30
+  index: -1
+effects/born/born_zuoxia_00032
+  rotate: true
+  xy: 906, 692
+  size: 250, 111
+  orig: 377, 210
+  offset: 48, 35
+  index: -1
+effects/born/born_zuoxia_00033
+  rotate: false
+  xy: 314, 424
+  size: 261, 121
+  orig: 377, 210
+  offset: 46, 32
+  index: -1
+effects/born/born_zuoxia_00034
+  rotate: false
+  xy: 314, 801
+  size: 278, 128
+  orig: 377, 210
+  offset: 45, 29
+  index: -1
+effects/born/born_zuoxia_00035
+  rotate: false
+  xy: 594, 668
+  size: 264, 133
+  orig: 377, 210
+  offset: 45, 26
+  index: -1
+effects/born/born_zuoxia_00036
+  rotate: false
+  xy: 579, 532
+  size: 262, 134
+  orig: 377, 210
+  offset: 45, 25
+  index: -1
+effects/born/born_zuoxia_00037
+  rotate: false
+  xy: 2, 517
+  size: 261, 136
+  orig: 377, 210
+  offset: 45, 24
+  index: -1
+effects/born/born_zuoxia_00038
+  rotate: true
+  xy: 2, 15
+  size: 256, 135
+  orig: 377, 210
+  offset: 45, 23
+  index: -1
+effects/born/born_zuoxia_00039
+  rotate: true
+  xy: 139, 15
+  size: 256, 120
+  orig: 377, 210
+  offset: 45, 22
+  index: -1
+effects/born/born_zuoxia_00040
+  rotate: false
+  xy: 577, 410
+  size: 256, 120
+  orig: 377, 210
+  offset: 45, 22
+  index: -1
+effects/born/born_zuoxia_00041
+  rotate: true
+  xy: 261, 21
+  size: 254, 120
+  orig: 377, 210
+  offset: 46, 22
+  index: -1
+effects/born/born_zuoxia_00042
+  rotate: false
+  xy: 577, 303
+  size: 251, 105
+  orig: 377, 210
+  offset: 47, 24
+  index: -1
+effects/born/born_zuoxia_00049
+  rotate: false
+  xy: 568, 4
+  size: 235, 75
+  orig: 377, 210
+  offset: 58, 27
+  index: -1
+effects/born/jianpanlizi_00002
+  rotate: false
+  xy: 835, 277
+  size: 187, 181
+  orig: 400, 400
+  offset: 38, 113
+  index: -1
+effects/born/jianpanlizi_00003
+  rotate: false
+  xy: 827, 81
+  size: 195, 194
+  orig: 400, 400
+  offset: 42, 108
+  index: -1
+effects/born/jianpanlizi_00010
+  rotate: false
+  xy: 261, 277
+  size: 169, 145
+  orig: 400, 400
+  offset: 114, 96
+  index: -1
+effects/born/jianpanlizi_00013
+  rotate: false
+  xy: 383, 2
+  size: 183, 133
+  orig: 400, 400
+  offset: 130, 89
+  index: -1
+
+effects_25301_born2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/born/born_baokai_00004
+  rotate: false
+  xy: 2, 782
+  size: 239, 240
+  orig: 310, 270
+  offset: 54, 0
+  index: -1
+effects/born/born_baokai_00005
+  rotate: false
+  xy: 2, 542
+  size: 186, 238
+  orig: 310, 270
+  offset: 78, 0
+  index: -1
+effects/born/born_baokai_00006
+  rotate: false
+  xy: 364, 553
+  size: 174, 229
+  orig: 310, 270
+  offset: 87, 0
+  index: -1
+effects/born/born_baokai_00007
+  rotate: true
+  xy: 430, 374
+  size: 177, 222
+  orig: 310, 270
+  offset: 87, 4
+  index: -1
+effects/born/born_baokai_00015
+  rotate: false
+  xy: 743, 8
+  size: 187, 125
+  orig: 310, 270
+  offset: 83, 58
+  index: -1
+effects/born/born_dishang_00007
+  rotate: false
+  xy: 2, 15
+  size: 242, 69
+  orig: 310, 175
+  offset: 60, 39
+  index: -1
+effects/born/born_dishang_00008
+  rotate: false
+  xy: 418, 299
+  size: 234, 68
+  orig: 310, 175
+  offset: 61, 40
+  index: -1
+effects/born/born_dishang_00012
+  rotate: false
+  xy: 414, 799
+  size: 246, 64
+  orig: 310, 175
+  offset: 63, 41
+  index: -1
+effects/born/born_dishang_00013
+  rotate: false
+  xy: 662, 800
+  size: 244, 63
+  orig: 310, 175
+  offset: 66, 43
+  index: -1
+effects/born/born_shoushang_00020
+  rotate: true
+  xy: 932, 55
+  size: 85, 89
+  orig: 106, 111
+  offset: 14, 11
+  index: -1
+effects/born/born_xiantiao_00013
+  rotate: false
+  xy: 914, 883
+  size: 106, 139
+  orig: 304, 282
+  offset: 61, 42
+  index: -1
+effects/born/born_xiantiao_00016
+  rotate: true
+  xy: 669, 135
+  size: 212, 173
+  orig: 304, 282
+  offset: 58, 43
+  index: -1
+effects/born/born_xiantiao_00018
+  rotate: true
+  xy: 844, 142
+  size: 226, 160
+  orig: 304, 282
+  offset: 50, 56
+  index: -1
+effects/born/born_xiantiao_00020
+  rotate: true
+  xy: 654, 349
+  size: 234, 164
+  orig: 304, 282
+  offset: 47, 52
+  index: -1
+effects/born/born_xiantiao_00021
+  rotate: true
+  xy: 243, 784
+  size: 238, 169
+  orig: 304, 282
+  offset: 46, 46
+  index: -1
+effects/born/born_xiantiao_00022
+  rotate: false
+  xy: 426, 123
+  size: 241, 174
+  orig: 304, 282
+  offset: 45, 40
+  index: -1
+effects/born/born_xiantiao_00023
+  rotate: true
+  xy: 2, 295
+  size: 245, 177
+  orig: 304, 282
+  offset: 43, 35
+  index: -1
+effects/born/born_xiantiao_00024
+  rotate: false
+  xy: 181, 369
+  size: 247, 171
+  orig: 304, 282
+  offset: 42, 30
+  index: -1
+effects/born/born_xiantiao_00026
+  rotate: false
+  xy: 414, 865
+  size: 248, 157
+  orig: 304, 282
+  offset: 42, 30
+  index: -1
+effects/born/born_xiantiao_00027
+  rotate: false
+  xy: 664, 873
+  size: 248, 149
+  orig: 304, 282
+  offset: 42, 30
+  index: -1
+effects/born/born_zuoxia_00043
+  rotate: false
+  xy: 494, 17
+  size: 247, 104
+  orig: 377, 210
+  offset: 48, 24
+  index: -1
+effects/born/born_zuoxia_00044
+  rotate: true
+  xy: 908, 624
+  size: 247, 100
+  orig: 377, 210
+  offset: 49, 26
+  index: -1
+effects/born/born_zuoxia_00045
+  rotate: false
+  xy: 246, 2
+  size: 246, 95
+  orig: 377, 210
+  offset: 49, 28
+  index: -1
+effects/born/born_zuoxia_00050
+  rotate: false
+  xy: 181, 298
+  size: 235, 69
+  orig: 377, 210
+  offset: 58, 29
+  index: -1
+effects/born/jianpanlizi_00004
+  rotate: true
+  xy: 2, 86
+  size: 207, 206
+  orig: 400, 400
+  offset: 53, 100
+  index: -1
+effects/born/jianpanlizi_00005
+  rotate: true
+  xy: 210, 99
+  size: 197, 214
+  orig: 400, 400
+  offset: 61, 98
+  index: -1
+effects/born/jianpanlizi_00006
+  rotate: false
+  xy: 540, 585
+  size: 183, 212
+  orig: 400, 400
+  offset: 69, 98
+  index: -1
+effects/born/jianpanlizi_00007
+  rotate: false
+  xy: 820, 370
+  size: 169, 215
+  orig: 400, 400
+  offset: 78, 95
+  index: -1
+effects/born/jianpanlizi_00008
+  rotate: false
+  xy: 725, 587
+  size: 178, 211
+  orig: 400, 400
+  offset: 84, 83
+  index: -1
+effects/born/jianpanlizi_00009
+  rotate: false
+  xy: 190, 546
+  size: 172, 234
+  orig: 400, 400
+  offset: 101, 85
+  index: -1
+
+effects_25301_born3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/born/born_baokai_00000
+  rotate: true
+  xy: 914, 859
+  size: 71, 69
+  orig: 310, 270
+  offset: 125, 88
+  index: -1
+effects/born/born_baokai_00008
+  rotate: false
+  xy: 406, 343
+  size: 181, 147
+  orig: 310, 270
+  offset: 85, 61
+  index: -1
+effects/born/born_baokai_00009
+  rotate: false
+  xy: 466, 492
+  size: 185, 152
+  orig: 310, 270
+  offset: 83, 59
+  index: -1
+effects/born/born_baokai_00010
+  rotate: false
+  xy: 500, 646
+  size: 186, 152
+  orig: 310, 270
+  offset: 83, 59
+  index: -1
+effects/born/born_baokai_00011
+  rotate: false
+  xy: 688, 621
+  size: 186, 153
+  orig: 310, 270
+  offset: 83, 59
+  index: -1
+effects/born/born_baokai_00012
+  rotate: false
+  xy: 724, 776
+  size: 188, 154
+  orig: 310, 270
+  offset: 82, 58
+  index: -1
+effects/born/born_baokai_00014
+  rotate: false
+  xy: 215, 414
+  size: 189, 123
+  orig: 310, 270
+  offset: 82, 58
+  index: -1
+effects/born/born_dishang_00010
+  rotate: false
+  xy: 2, 18
+  size: 193, 65
+  orig: 310, 175
+  offset: 61, 42
+  index: -1
+effects/born/born_dishang_00011
+  rotate: false
+  xy: 226, 539
+  size: 222, 65
+  orig: 310, 175
+  offset: 58, 42
+  index: -1
+effects/born/born_shoushang_00017
+  rotate: false
+  xy: 876, 677
+  size: 95, 97
+  orig: 106, 111
+  offset: 11, 10
+  index: -1
+effects/born/born_shoushang_00018
+  rotate: false
+  xy: 876, 579
+  size: 96, 96
+  orig: 106, 111
+  offset: 10, 10
+  index: -1
+effects/born/born_shoushang_00019
+  rotate: false
+  xy: 839, 485
+  size: 97, 92
+  orig: 106, 111
+  offset: 6, 12
+  index: -1
+effects/born/born_shoushang_00021
+  rotate: false
+  xy: 938, 491
+  size: 63, 86
+  orig: 106, 111
+  offset: 24, 12
+  index: -1
+effects/born/born_shoushang_00022
+  rotate: true
+  xy: 941, 958
+  size: 64, 81
+  orig: 106, 111
+  offset: 24, 16
+  index: -1
+effects/born/born_shoushang_00023
+  rotate: true
+  xy: 952, 355
+  size: 65, 55
+  orig: 106, 111
+  offset: 24, 38
+  index: -1
+effects/born/born_shoushang_00025
+  rotate: true
+  xy: 952, 422
+  size: 67, 56
+  orig: 106, 111
+  offset: 23, 36
+  index: -1
+effects/born/born_shoushang_00026
+  rotate: true
+  xy: 894, 415
+  size: 68, 56
+  orig: 106, 111
+  offset: 23, 36
+  index: -1
+effects/born/born_shoushang_00027
+  rotate: true
+  xy: 894, 345
+  size: 68, 56
+  orig: 106, 111
+  offset: 23, 36
+  index: -1
+effects/born/born_shoushang_00028
+  rotate: false
+  xy: 914, 801
+  size: 69, 56
+  orig: 106, 111
+  offset: 22, 36
+  index: -1
+effects/born/born_xiantiao_00015
+  rotate: false
+  xy: 2, 255
+  size: 207, 155
+  orig: 304, 282
+  offset: 58, 42
+  index: -1
+effects/born/born_xiantiao_00017
+  rotate: false
+  xy: 2, 574
+  size: 222, 160
+  orig: 304, 282
+  offset: 52, 56
+  index: -1
+effects/born/born_xiantiao_00028
+  rotate: false
+  xy: 2, 878
+  size: 248, 144
+  orig: 304, 282
+  offset: 42, 29
+  index: -1
+effects/born/born_xiantiao_00029
+  rotate: false
+  xy: 2, 736
+  size: 248, 140
+  orig: 304, 282
+  offset: 42, 29
+  index: -1
+effects/born/born_xiantiao_00030
+  rotate: false
+  xy: 252, 887
+  size: 248, 135
+  orig: 304, 282
+  offset: 42, 30
+  index: -1
+effects/born/born_xiantiao_00031
+  rotate: false
+  xy: 502, 887
+  size: 196, 135
+  orig: 304, 282
+  offset: 42, 30
+  index: -1
+effects/born/born_zuoxia_00030
+  rotate: false
+  xy: 500, 800
+  size: 222, 85
+  orig: 377, 210
+  offset: 49, 38
+  index: -1
+effects/born/born_zuoxia_00031
+  rotate: false
+  xy: 252, 792
+  size: 246, 93
+  orig: 377, 210
+  offset: 49, 37
+  index: -1
+effects/born/born_zuoxia_00046
+  rotate: false
+  xy: 700, 932
+  size: 239, 90
+  orig: 377, 210
+  offset: 56, 27
+  index: -1
+effects/born/born_zuoxia_00047
+  rotate: false
+  xy: 252, 699
+  size: 238, 91
+  orig: 377, 210
+  offset: 56, 27
+  index: -1
+effects/born/born_zuoxia_00048
+  rotate: false
+  xy: 226, 606
+  size: 238, 91
+  orig: 377, 210
+  offset: 55, 27
+  index: -1
+effects/born/jianpanlizi_00001
+  rotate: false
+  xy: 2, 85
+  size: 185, 168
+  orig: 400, 400
+  offset: 27, 118
+  index: -1
+effects/born/jianpanlizi_00011
+  rotate: false
+  xy: 653, 467
+  size: 184, 152
+  orig: 400, 400
+  offset: 124, 98
+  index: -1
+effects/born/jianpanlizi_00012
+  rotate: false
+  xy: 589, 325
+  size: 179, 140
+  orig: 400, 400
+  offset: 126, 90
+  index: -1
+effects/born/jianpanlizi_00014
+  rotate: true
+  xy: 770, 295
+  size: 170, 122
+  orig: 400, 400
+  offset: 140, 83
+  index: -1
+effects/born/jianpanlizi_00015
+  rotate: false
+  xy: 2, 412
+  size: 211, 160
+  orig: 400, 400
+  offset: 146, 78
+  index: -1

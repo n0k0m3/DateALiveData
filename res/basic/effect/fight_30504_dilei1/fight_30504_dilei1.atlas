@@ -1,0 +1,97 @@
+
+fight_30504_dilei1.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dilei/images/adilei
+  rotate: true
+  xy: 213, 147
+  size: 43, 26
+  orig: 45, 28
+  offset: 1, 1
+  index: -1
+dilei/images/adipan1
+  rotate: false
+  xy: 335, 484
+  size: 54, 25
+  orig: 56, 27
+  offset: 1, 1
+  index: -1
+dilei/images/adipan2
+  rotate: true
+  xy: 213, 192
+  size: 61, 28
+  orig: 63, 30
+  offset: 1, 1
+  index: -1
+dilei/images/aguanban1
+  rotate: false
+  xy: 258, 480
+  size: 75, 29
+  orig: 77, 31
+  offset: 1, 1
+  index: -1
+dilei/images/aguanban2
+  rotate: false
+  xy: 2, 14
+  size: 75, 29
+  orig: 77, 31
+  offset: 1, 1
+  index: -1
+dilei/images/aguanban3
+  rotate: false
+  xy: 258, 440
+  size: 49, 38
+  orig: 51, 40
+  offset: 1, 1
+  index: -1
+dilei/images/aguangquan
+  rotate: false
+  xy: 79, 19
+  size: 52, 24
+  orig: 54, 26
+  offset: 1, 1
+  index: -1
+dilei/images/ajiao1
+  rotate: false
+  xy: 2, 2
+  size: 16, 10
+  orig: 18, 12
+  offset: 1, 1
+  index: -1
+dilei/images/ajiao2
+  rotate: true
+  xy: 243, 235
+  size: 18, 13
+  orig: 20, 15
+  offset: 1, 1
+  index: -1
+dilei/images/ajiao3
+  rotate: false
+  xy: 258, 425
+  size: 17, 13
+  orig: 19, 15
+  offset: 1, 1
+  index: -1
+dilei/images/ajiao4
+  rotate: false
+  xy: 309, 468
+  size: 16, 10
+  orig: 18, 12
+  offset: 1, 1
+  index: -1
+dilei/images/ring
+  rotate: false
+  xy: 2, 255
+  size: 254, 254
+  orig: 254, 254
+  offset: 0, 0
+  index: -1
+guang002
+  rotate: false
+  xy: 2, 45
+  size: 209, 208
+  orig: 209, 209
+  offset: 0, 0
+  index: -1

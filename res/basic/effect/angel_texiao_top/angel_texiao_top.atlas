@@ -1,0 +1,958 @@
+
+angel_texiao_top.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+part1/c_light_003
+  rotate: true
+  xy: 770, 374
+  size: 246, 252
+  orig: 256, 256
+  offset: 7, 2
+  index: -1
+part1/glow_a_000
+  rotate: true
+  xy: 230, 2
+  size: 216, 215
+  orig: 256, 256
+  offset: 23, 22
+  index: -1
+part1/glow_b_000
+  rotate: false
+  xy: 873, 56
+  size: 61, 194
+  orig: 64, 256
+  offset: 1, 62
+  index: -1
+part1/light_a_000
+  rotate: true
+  xy: 447, 2
+  size: 216, 215
+  orig: 256, 256
+  offset: 22, 15
+  index: -1
+part1/light_a_002
+  rotate: false
+  xy: 664, 2
+  size: 207, 216
+  orig: 256, 256
+  offset: 26, 14
+  index: -1
+part1/light_a_003
+  rotate: false
+  xy: 936, 7
+  size: 82, 116
+  orig: 256, 256
+  offset: 34, 46
+  index: -1
+part1/light_a_005
+  rotate: true
+  xy: 873, 2
+  size: 52, 56
+  orig: 256, 256
+  offset: 35, 76
+  index: -1
+part1/light_a_014
+  rotate: true
+  xy: 770, 252
+  size: 120, 190
+  orig: 256, 256
+  offset: 59, 17
+  index: -1
+part1/lizi_a_022
+  rotate: true
+  xy: 786, 646
+  size: 376, 231
+  orig: 416, 240
+  offset: 35, 9
+  index: -1
+part1/whitepaper
+  rotate: false
+  xy: 786, 624
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+part1/x_a_000
+  rotate: false
+  xy: 936, 125
+  size: 65, 125
+  orig: 128, 128
+  offset: 63, 1
+  index: -1
+part1/z7
+  rotate: false
+  xy: 962, 280
+  size: 44, 43
+  orig: 44, 43
+  offset: 0, 0
+  index: -1
+part1/z8
+  rotate: false
+  xy: 962, 325
+  size: 46, 47
+  orig: 46, 47
+  offset: 0, 0
+  index: -1
+part1/zcx_022
+  rotate: false
+  xy: 397, 220
+  size: 371, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+part1/zcx_024
+  rotate: false
+  xy: 2, 220
+  size: 393, 400
+  orig: 400, 400
+  offset: 7, 0
+  index: -1
+part1/zcx_026
+  rotate: false
+  xy: 2, 622
+  size: 399, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+part1/zcx_028
+  rotate: false
+  xy: 403, 622
+  size: 381, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+part1/zcx_046
+  rotate: false
+  xy: 2, 2
+  size: 226, 216
+  orig: 400, 400
+  offset: 84, 92
+  index: -1
+
+angel_texiao_top2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+part1/lg_a_007
+  rotate: false
+  xy: 734, 391
+  size: 287, 308
+  orig: 320, 320
+  offset: 0, 1
+  index: -1
+part1/lg_a_009
+  rotate: true
+  xy: 2, 510
+  size: 317, 312
+  orig: 320, 320
+  offset: 2, 0
+  index: -1
+part1/lg_a_013
+  rotate: false
+  xy: 734, 69
+  size: 286, 320
+  orig: 320, 320
+  offset: 0, 0
+  index: -1
+part1/lg_a_019
+  rotate: false
+  xy: 742, 701
+  size: 278, 320
+  orig: 320, 320
+  offset: 0, 0
+  index: -1
+part1/lg_c_000
+  rotate: false
+  xy: 2, 829
+  size: 416, 192
+  orig: 416, 192
+  offset: 0, 0
+  index: -1
+part1/lg_c_002
+  rotate: false
+  xy: 316, 372
+  size: 416, 192
+  orig: 416, 192
+  offset: 0, 0
+  index: -1
+part1/lg_c_004
+  rotate: false
+  xy: 316, 178
+  size: 416, 192
+  orig: 416, 192
+  offset: 0, 0
+  index: -1
+part1/light_b_004
+  rotate: false
+  xy: 316, 5
+  size: 222, 171
+  orig: 256, 256
+  offset: 16, 40
+  index: -1
+part1/lizi_b_002
+  rotate: true
+  xy: 316, 566
+  size: 261, 76
+  orig: 320, 320
+  offset: 53, 0
+  index: -1
+part1/lizi_b_006
+  rotate: true
+  xy: 394, 567
+  size: 132, 275
+  orig: 320, 320
+  offset: 73, 0
+  index: -1
+part1/lizi_b_016
+  rotate: false
+  xy: 420, 701
+  size: 320, 320
+  orig: 320, 320
+  offset: 0, 0
+  index: -1
+part1/lizi_b_024
+  rotate: true
+  xy: 2, 46
+  size: 145, 312
+  orig: 320, 320
+  offset: 102, 1
+  index: -1
+part1/z1
+  rotate: true
+  xy: 896, 30
+  size: 37, 41
+  orig: 37, 41
+  offset: 0, 0
+  index: -1
+part1/z10
+  rotate: true
+  xy: 671, 611
+  size: 43, 40
+  orig: 43, 43
+  offset: 0, 0
+  index: -1
+part1/z11
+  rotate: false
+  xy: 671, 656
+  size: 43, 43
+  orig: 48, 43
+  offset: 5, 0
+  index: -1
+part1/z12
+  rotate: true
+  xy: 806, 30
+  size: 37, 44
+  orig: 37, 44
+  offset: 0, 0
+  index: -1
+part1/z2
+  rotate: false
+  xy: 852, 30
+  size: 42, 37
+  orig: 42, 37
+  offset: 0, 0
+  index: -1
+part1/z3
+  rotate: false
+  xy: 939, 31
+  size: 43, 36
+  orig: 43, 36
+  offset: 0, 0
+  index: -1
+part1/z4
+  rotate: false
+  xy: 720, 29
+  size: 42, 38
+  orig: 42, 38
+  offset: 0, 0
+  index: -1
+part1/z5
+  rotate: true
+  xy: 764, 29
+  size: 38, 40
+  orig: 38, 40
+  offset: 0, 0
+  index: -1
+part1/z6
+  rotate: false
+  xy: 984, 24
+  size: 35, 43
+  orig: 35, 43
+  offset: 0, 0
+  index: -1
+part1/z9
+  rotate: false
+  xy: 671, 570
+  size: 44, 39
+  orig: 44, 39
+  offset: 0, 0
+  index: -1
+part1/zcx_000
+  rotate: false
+  xy: 540, 12
+  size: 178, 164
+  orig: 400, 400
+  offset: 114, 126
+  index: -1
+part1/zcx_b_028
+  rotate: true
+  xy: 2, 193
+  size: 315, 312
+  orig: 320, 320
+  offset: 5, 0
+  index: -1
+
+angel_texiao_top3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+part1/lg_a_021
+  rotate: true
+  xy: 719, 112
+  size: 293, 290
+  orig: 320, 320
+  offset: 0, 4
+  index: -1
+part1/lg_c_006
+  rotate: false
+  xy: 2, 830
+  size: 416, 192
+  orig: 416, 192
+  offset: 0, 0
+  index: -1
+part1/lg_c_008
+  rotate: false
+  xy: 305, 516
+  size: 416, 192
+  orig: 416, 192
+  offset: 0, 0
+  index: -1
+part1/lg_c_010
+  rotate: true
+  xy: 305, 98
+  size: 416, 192
+  orig: 416, 192
+  offset: 0, 0
+  index: -1
+part1/light_a_001
+  rotate: true
+  xy: 713, 15
+  size: 95, 141
+  orig: 256, 256
+  offset: 39, 38
+  index: -1
+part1/light_a_007
+  rotate: false
+  xy: 305, 741
+  size: 77, 87
+  orig: 256, 256
+  offset: 139, 111
+  index: -1
+part1/light_a_009
+  rotate: true
+  xy: 235, 6
+  size: 90, 146
+  orig: 256, 256
+  offset: 119, 70
+  index: -1
+part1/lizi_b_004
+  rotate: false
+  xy: 499, 226
+  size: 218, 288
+  orig: 320, 320
+  offset: 0, 32
+  index: -1
+part1/lizi_b_014
+  rotate: false
+  xy: 2, 508
+  size: 301, 320
+  orig: 320, 320
+  offset: 19, 0
+  index: -1
+part1/lizi_b_020
+  rotate: true
+  xy: 420, 710
+  size: 312, 305
+  orig: 320, 320
+  offset: 0, 0
+  index: -1
+part1/zcx_002
+  rotate: false
+  xy: 2, 201
+  size: 301, 305
+  orig: 400, 400
+  offset: 47, 58
+  index: -1
+part1/zcx_016
+  rotate: false
+  xy: 499, 2
+  size: 212, 222
+  orig: 400, 400
+  offset: 81, 90
+  index: -1
+part1/zcx_031
+  rotate: true
+  xy: 723, 407
+  size: 301, 293
+  orig: 400, 400
+  offset: 51, 47
+  index: -1
+part1/zcx_034
+  rotate: true
+  xy: 727, 725
+  size: 297, 291
+  orig: 400, 400
+  offset: 55, 50
+  index: -1
+part1/zcx_b_008
+  rotate: true
+  xy: 2, 2
+  size: 197, 231
+  orig: 320, 320
+  offset: 74, 46
+  index: -1
+
+angel_texiao_top4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+part1/lg_a_011
+  rotate: false
+  xy: 2, 522
+  size: 289, 306
+  orig: 320, 320
+  offset: 3, 0
+  index: -1
+part1/lg_b_007
+  rotate: true
+  xy: 570, 189
+  size: 317, 278
+  orig: 320, 320
+  offset: 3, 19
+  index: -1
+part1/lg_b_011
+  rotate: true
+  xy: 711, 702
+  size: 320, 277
+  orig: 320, 320
+  offset: 0, 19
+  index: -1
+part1/lg_c_012
+  rotate: false
+  xy: 2, 830
+  size: 416, 192
+  orig: 416, 192
+  offset: 0, 0
+  index: -1
+part1/lg_c_014
+  rotate: false
+  xy: 293, 508
+  size: 416, 192
+  orig: 416, 192
+  offset: 0, 0
+  index: -1
+part1/light_a_012
+  rotate: false
+  xy: 850, 345
+  size: 123, 161
+  orig: 256, 256
+  offset: 68, 50
+  index: -1
+part1/light_a_016
+  rotate: true
+  xy: 850, 228
+  size: 115, 168
+  orig: 256, 256
+  offset: 45, 29
+  index: -1
+part1/light_b_005
+  rotate: false
+  xy: 488, 5
+  size: 226, 182
+  orig: 256, 256
+  offset: 16, 48
+  index: -1
+part1/light_b_008
+  rotate: true
+  xy: 711, 508
+  size: 192, 202
+  orig: 256, 256
+  offset: 21, 22
+  index: -1
+part1/lizi_b_010
+  rotate: false
+  xy: 420, 702
+  size: 289, 320
+  orig: 320, 320
+  offset: 0, 0
+  index: -1
+part1/zcx_037
+  rotate: false
+  xy: 283, 227
+  size: 285, 279
+  orig: 400, 400
+  offset: 60, 58
+  index: -1
+part1/zcx_043
+  rotate: false
+  xy: 2, 2
+  size: 242, 229
+  orig: 400, 400
+  offset: 76, 80
+  index: -1
+part1/zcx_b_000
+  rotate: true
+  xy: 716, 6
+  size: 181, 197
+  orig: 320, 320
+  offset: 76, 57
+  index: -1
+part1/zcx_b_012
+  rotate: true
+  xy: 246, 2
+  size: 223, 240
+  orig: 320, 320
+  offset: 62, 40
+  index: -1
+part1/zcx_b_026
+  rotate: false
+  xy: 2, 233
+  size: 279, 287
+  orig: 320, 320
+  offset: 32, 1
+  index: -1
+
+angel_texiao_top5.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+part1/lg_a_015
+  rotate: true
+  xy: 528, 725
+  size: 296, 272
+  orig: 320, 320
+  offset: 0, 15
+  index: -1
+part1/lg_a_017
+  rotate: false
+  xy: 549, 396
+  size: 262, 320
+  orig: 320, 320
+  offset: 10, 0
+  index: -1
+part1/lg_a_023
+  rotate: false
+  xy: 278, 379
+  size: 269, 320
+  orig: 320, 320
+  offset: 2, 0
+  index: -1
+part1/lg_b_003
+  rotate: true
+  xy: 275, 57
+  size: 320, 270
+  orig: 320, 320
+  offset: 0, 26
+  index: -1
+part1/lg_b_005
+  rotate: true
+  xy: 2, 379
+  size: 320, 274
+  orig: 320, 320
+  offset: 0, 22
+  index: -1
+part1/lg_b_009
+  rotate: true
+  xy: 2, 57
+  size: 320, 271
+  orig: 320, 320
+  offset: 0, 23
+  index: -1
+part1/lg_b_013
+  rotate: true
+  xy: 547, 57
+  size: 320, 265
+  orig: 320, 320
+  offset: 0, 29
+  index: -1
+part1/light_a_011
+  rotate: true
+  xy: 813, 495
+  size: 221, 208
+  orig: 256, 256
+  offset: 20, 21
+  index: -1
+part1/light_b_002
+  rotate: true
+  xy: 814, 258
+  size: 235, 190
+  orig: 256, 256
+  offset: 2, 35
+  index: -1
+part1/lizi_b_012
+  rotate: false
+  xy: 280, 701
+  size: 246, 320
+  orig: 320, 320
+  offset: 0, 0
+  index: -1
+part1/lizi_b_018
+  rotate: false
+  xy: 2, 701
+  size: 276, 320
+  orig: 320, 320
+  offset: 44, 0
+  index: -1
+part1/lizi_b_022
+  rotate: false
+  xy: 814, 718
+  size: 196, 303
+  orig: 320, 320
+  offset: 60, 0
+  index: -1
+part1/zcx_b_006
+  rotate: false
+  xy: 814, 33
+  size: 195, 223
+  orig: 320, 320
+  offset: 68, 50
+  index: -1
+
+angel_texiao_top6.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+part1/c_light_000
+  rotate: false
+  xy: 263, 9
+  size: 251, 248
+  orig: 256, 256
+  offset: 0, 3
+  index: -1
+part1/c_light_001
+  rotate: true
+  xy: 516, 6
+  size: 251, 244
+  orig: 256, 256
+  offset: 0, 5
+  index: -1
+part1/c_light_006
+  rotate: false
+  xy: 533, 262
+  size: 249, 253
+  orig: 256, 256
+  offset: 2, 2
+  index: -1
+part1/c_light_007
+  rotate: false
+  xy: 762, 10
+  size: 249, 250
+  orig: 256, 256
+  offset: 1, 5
+  index: -1
+part1/glow_b_160
+  rotate: false
+  xy: 275, 259
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+part1/lg_b_001
+  rotate: false
+  xy: 2, 777
+  size: 320, 245
+  orig: 320, 320
+  offset: 0, 43
+  index: -1
+part1/lizi_b_008
+  rotate: true
+  xy: 324, 807
+  size: 215, 320
+  orig: 320, 320
+  offset: 61, 0
+  index: -1
+part1/zcx_004
+  rotate: false
+  xy: 2, 493
+  size: 271, 282
+  orig: 400, 400
+  offset: 62, 71
+  index: -1
+part1/zcx_006
+  rotate: false
+  xy: 275, 517
+  size: 248, 258
+  orig: 400, 400
+  offset: 71, 85
+  index: -1
+part1/zcx_040
+  rotate: false
+  xy: 646, 766
+  size: 259, 256
+  orig: 400, 400
+  offset: 68, 72
+  index: -1
+part1/zcx_b_010
+  rotate: true
+  xy: 2, 5
+  size: 212, 237
+  orig: 320, 320
+  offset: 67, 42
+  index: -1
+part1/zcx_b_014
+  rotate: false
+  xy: 784, 279
+  size: 231, 242
+  orig: 320, 320
+  offset: 59, 39
+  index: -1
+part1/zcx_b_016
+  rotate: false
+  xy: 784, 523
+  size: 238, 241
+  orig: 320, 320
+  offset: 56, 38
+  index: -1
+part1/zcx_b_022
+  rotate: true
+  xy: 525, 517
+  size: 247, 257
+  orig: 320, 320
+  offset: 50, 28
+  index: -1
+part1/zcx_b_024
+  rotate: false
+  xy: 2, 219
+  size: 259, 272
+  orig: 320, 320
+  offset: 45, 18
+  index: -1
+
+angel_texiao_top7.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+part1/c_light_002
+  rotate: false
+  xy: 2, 249
+  size: 245, 246
+  orig: 256, 256
+  offset: 6, 4
+  index: -1
+part1/c_light_004
+  rotate: false
+  xy: 2, 748
+  size: 248, 249
+  orig: 256, 256
+  offset: 6, 3
+  index: -1
+part1/c_light_005
+  rotate: false
+  xy: 2, 2
+  size: 245, 245
+  orig: 256, 256
+  offset: 6, 3
+  index: -1
+part1/c_light_008
+  rotate: false
+  xy: 249, 250
+  size: 244, 245
+  orig: 256, 256
+  offset: 3, 7
+  index: -1
+part1/c_light_009
+  rotate: false
+  xy: 494, 752
+  size: 243, 245
+  orig: 256, 256
+  offset: 4, 7
+  index: -1
+part1/c_light_010
+  rotate: true
+  xy: 250, 500
+  size: 246, 243
+  orig: 256, 256
+  offset: 3, 7
+  index: -1
+part1/light_a_013
+  rotate: true
+  xy: 739, 768
+  size: 229, 214
+  orig: 256, 256
+  offset: 15, 17
+  index: -1
+part1/light_a_015
+  rotate: true
+  xy: 710, 308
+  size: 223, 211
+  orig: 256, 256
+  offset: 17, 19
+  index: -1
+part1/zcx_008
+  rotate: false
+  xy: 252, 748
+  size: 240, 249
+  orig: 400, 400
+  offset: 65, 82
+  index: -1
+part1/zcx_010
+  rotate: false
+  xy: 494, 9
+  size: 224, 239
+  orig: 400, 400
+  offset: 74, 83
+  index: -1
+part1/zcx_012
+  rotate: true
+  xy: 720, 533
+  size: 217, 230
+  orig: 400, 400
+  offset: 79, 86
+  index: -1
+part1/zcx_014
+  rotate: false
+  xy: 495, 524
+  size: 213, 226
+  orig: 400, 400
+  offset: 81, 88
+  index: -1
+part1/zcx_018
+  rotate: false
+  xy: 495, 302
+  size: 211, 220
+  orig: 400, 400
+  offset: 81, 91
+  index: -1
+part1/zcx_020
+  rotate: true
+  xy: 720, 96
+  size: 210, 219
+  orig: 400, 400
+  offset: 81, 91
+  index: -1
+part1/zcx_b_018
+  rotate: false
+  xy: 249, 5
+  size: 243, 243
+  orig: 320, 320
+  offset: 54, 37
+  index: -1
+part1/zcx_b_020
+  rotate: false
+  xy: 2, 497
+  size: 246, 249
+  orig: 320, 320
+  offset: 52, 34
+  index: -1
+
+angel_texiao_top8.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+part1/light_a_004
+  rotate: false
+  xy: 386, 452
+  size: 195, 191
+  orig: 256, 256
+  offset: 36, 14
+  index: -1
+part1/light_a_006
+  rotate: true
+  xy: 583, 442
+  size: 187, 196
+  orig: 256, 256
+  offset: 41, 16
+  index: -1
+part1/light_a_008
+  rotate: true
+  xy: 632, 631
+  size: 193, 198
+  orig: 256, 256
+  offset: 33, 18
+  index: -1
+part1/light_a_010
+  rotate: false
+  xy: 184, 392
+  size: 200, 206
+  orig: 256, 256
+  offset: 25, 20
+  index: -1
+part1/light_b_000
+  rotate: false
+  xy: 2, 152
+  size: 188, 209
+  orig: 256, 256
+  offset: 20, 29
+  index: -1
+part1/light_b_001
+  rotate: false
+  xy: 192, 188
+  size: 194, 202
+  orig: 256, 256
+  offset: 8, 28
+  index: -1
+part1/light_b_003
+  rotate: true
+  xy: 2, 363
+  size: 235, 180
+  orig: 256, 256
+  offset: 3, 38
+  index: -1
+part1/light_b_006
+  rotate: false
+  xy: 427, 835
+  size: 227, 187
+  orig: 256, 256
+  offset: 7, 39
+  index: -1
+part1/light_b_007
+  rotate: false
+  xy: 427, 645
+  size: 203, 188
+  orig: 256, 256
+  offset: 14, 37
+  index: -1
+part1/quan_a_000
+  rotate: false
+  xy: 2, 600
+  size: 210, 210
+  orig: 210, 210
+  offset: 0, 0
+  index: -1
+part1/zcx_049
+  rotate: false
+  xy: 2, 812
+  size: 212, 210
+  orig: 400, 400
+  offset: 91, 95
+  index: -1
+part1/zcx_050
+  rotate: false
+  xy: 216, 813
+  size: 209, 209
+  orig: 400, 400
+  offset: 93, 95
+  index: -1
+part1/zcx_b_002
+  rotate: false
+  xy: 832, 627
+  size: 190, 197
+  orig: 320, 320
+  offset: 72, 64
+  index: -1
+part1/zcx_b_004
+  rotate: true
+  xy: 656, 826
+  size: 196, 213
+  orig: 320, 320
+  offset: 70, 56
+  index: -1

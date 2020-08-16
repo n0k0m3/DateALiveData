@@ -1,0 +1,48 @@
+
+xiaochouyu.png
+size: 256,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xiaochouyuqi
+  rotate: false
+  xy: 173, 33
+  size: 28, 16
+  orig: 28, 16
+  offset: 0, 0
+  index: -1
+xiaochouyuqi1
+  rotate: false
+  xy: 117, 26
+  size: 26, 23
+  orig: 26, 23
+  offset: 0, 0
+  index: -1
+xiaochouyuqi2
+  rotate: false
+  xy: 203, 32
+  size: 26, 17
+  orig: 26, 17
+  offset: 0, 0
+  index: -1
+xiaochouyuqi3
+  rotate: false
+  xy: 145, 26
+  size: 26, 23
+  orig: 26, 23
+  offset: 0, 0
+  index: -1
+xiaochouyushen
+  rotate: false
+  xy: 2, 2
+  size: 87, 47
+  orig: 87, 47
+  offset: 0, 0
+  index: -1
+xiaochouyuwei
+  rotate: false
+  xy: 91, 23
+  size: 24, 26
+  orig: 24, 26
+  offset: 0, 0
+  index: -1

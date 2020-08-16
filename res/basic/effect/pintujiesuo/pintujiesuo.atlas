@@ -1,0 +1,76 @@
+
+pintujiesuo.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jiesuo_00000
+  rotate: true
+  xy: 139, 260
+  size: 124, 121
+  orig: 151, 135
+  offset: 9, 8
+  index: -1
+jiesuo_00001
+  rotate: true
+  xy: 2, 122
+  size: 136, 121
+  orig: 151, 135
+  offset: 10, 9
+  index: -1
+jiesuo_00003
+  rotate: true
+  xy: 125, 126
+  size: 132, 113
+  orig: 151, 135
+  offset: 2, 13
+  index: -1
+jiesuo_00004
+  rotate: false
+  xy: 2, 2
+  size: 137, 118
+  orig: 151, 135
+  offset: 1, 10
+  index: -1
+jiesuo_00006
+  rotate: false
+  xy: 2, 260
+  size: 135, 124
+  orig: 151, 135
+  offset: 8, 7
+  index: -1
+jiesuo_00007
+  rotate: false
+  xy: 141, 4
+  size: 131, 120
+  orig: 151, 135
+  offset: 7, 11
+  index: -1
+jiesuo_00009
+  rotate: false
+  xy: 280, 388
+  size: 135, 121
+  orig: 151, 135
+  offset: 5, 10
+  index: -1
+jiesuo_00010
+  rotate: false
+  xy: 2, 386
+  size: 137, 123
+  orig: 151, 135
+  offset: 4, 9
+  index: -1
+jiesuo_00011
+  rotate: false
+  xy: 141, 387
+  size: 137, 122
+  orig: 151, 135
+  offset: 4, 9
+  index: -1
+jiesuo_00012
+  rotate: false
+  xy: 417, 418
+  size: 92, 91
+  orig: 151, 135
+  offset: 25, 23
+  index: -1

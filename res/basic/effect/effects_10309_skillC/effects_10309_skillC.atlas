@@ -1,0 +1,62 @@
+
+effects_10309_skillC.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/extra_skillB/baodian_dilie_00000
+  rotate: true
+  xy: 406, 318
+  size: 192, 64
+  orig: 210, 140
+  offset: 10, 30
+  index: -1
+images/effects/extra_skillB/diliequan_00000
+  rotate: false
+  xy: 2, 412
+  size: 267, 98
+  orig: 280, 112
+  offset: 5, 6
+  index: -1
+images/effects/skillc/xuanqi/xuanqi_000
+  rotate: false
+  xy: 2, 274
+  size: 137, 136
+  orig: 147, 140
+  offset: 5, 0
+  index: -1
+images/effects/skillc/xuanqi/xuanqi_001
+  rotate: false
+  xy: 2, 133
+  size: 134, 139
+  orig: 147, 140
+  offset: 8, 0
+  index: -1
+images/effects/skillc/xuanqi/xuanqi_003
+  rotate: false
+  xy: 141, 273
+  size: 128, 137
+  orig: 147, 140
+  offset: 6, 0
+  index: -1
+images/effects/skillc/xuanqi/xuanqi_005
+  rotate: false
+  xy: 271, 376
+  size: 133, 134
+  orig: 147, 140
+  offset: 3, 0
+  index: -1
+images/effects/skillc/xuanqi/xuanqi_007
+  rotate: true
+  xy: 138, 133
+  size: 138, 126
+  orig: 147, 140
+  offset: 1, 6
+  index: -1
+images/effects/skillc/xuanqi/xuanqi_009
+  rotate: true
+  xy: 2, 2
+  size: 129, 131
+  orig: 147, 140
+  offset: 3, 0
+  index: -1

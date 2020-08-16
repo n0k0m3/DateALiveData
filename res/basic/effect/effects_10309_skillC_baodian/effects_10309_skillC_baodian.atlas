@@ -1,0 +1,62 @@
+
+effects_10309_skillC_baodian.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skilla/hit/hit_000
+  rotate: false
+  xy: 174, 15
+  size: 162, 161
+  orig: 210, 210
+  offset: 24, 25
+  index: -1
+images/effects/skilla/hit/hit_001
+  rotate: false
+  xy: 2, 157
+  size: 170, 171
+  orig: 210, 210
+  offset: 20, 20
+  index: -1
+images/effects/skilla/hit/hit_003
+  rotate: false
+  xy: 182, 178
+  size: 172, 164
+  orig: 210, 210
+  offset: 23, 23
+  index: -1
+images/effects/skilla/hit/hit_005
+  rotate: false
+  xy: 2, 330
+  size: 178, 178
+  orig: 210, 210
+  offset: 17, 16
+  index: -1
+images/effects/skilla/hit/hit_007
+  rotate: false
+  xy: 182, 344
+  size: 177, 164
+  orig: 210, 210
+  offset: 18, 16
+  index: -1
+images/effects/skilla/hit/hit_009
+  rotate: false
+  xy: 2, 9
+  size: 159, 146
+  orig: 210, 210
+  offset: 24, 37
+  index: -1
+images/effects/skilla/hit/hit_011
+  rotate: false
+  xy: 361, 361
+  size: 147, 147
+  orig: 210, 210
+  offset: 23, 36
+  index: -1
+images/effects/skilla/hit/hit_013
+  rotate: true
+  xy: 338, 31
+  size: 145, 140
+  orig: 210, 210
+  offset: 23, 37
+  index: -1

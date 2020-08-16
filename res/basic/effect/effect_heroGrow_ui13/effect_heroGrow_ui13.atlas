@@ -1,0 +1,83 @@
+
+effect_heroGrow_ui13.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow_00063
+  rotate: true
+  xy: 229, 49
+  size: 64, 171
+  orig: 225, 225
+  offset: 74, 22
+  index: -1
+kuang1/kuang_00000
+  rotate: false
+  xy: 229, 530
+  size: 225, 478
+  orig: 225, 480
+  offset: 0, 0
+  index: -1
+kuang1/kuang_00002
+  rotate: false
+  xy: 2, 528
+  size: 225, 480
+  orig: 225, 480
+  offset: 0, 0
+  index: -1
+kuang1/kuang_00004
+  rotate: false
+  xy: 2, 46
+  size: 225, 480
+  orig: 225, 480
+  offset: 0, 0
+  index: -1
+xingxing/xingxing_00001
+  rotate: false
+  xy: 844, 631
+  size: 164, 377
+  orig: 225, 480
+  offset: 29, 51
+  index: -1
+xingxing/xingxing_00003
+  rotate: false
+  xy: 813, 201
+  size: 180, 395
+  orig: 225, 480
+  offset: 21, 44
+  index: -1
+xingxing/xingxing_00005
+  rotate: false
+  xy: 650, 598
+  size: 192, 410
+  orig: 225, 480
+  offset: 15, 41
+  index: -1
+xingxing/xingxing_00007
+  rotate: false
+  xy: 229, 115
+  size: 198, 413
+  orig: 225, 480
+  offset: 12, 39
+  index: -1
+xingxing/xingxing_00009
+  rotate: false
+  xy: 456, 594
+  size: 192, 414
+  orig: 225, 480
+  offset: 15, 37
+  index: -1
+xingxing/xingxing_00011
+  rotate: false
+  xy: 429, 119
+  size: 190, 409
+  orig: 225, 480
+  offset: 16, 38
+  index: -1
+xingxing/xingxing_00013
+  rotate: false
+  xy: 621, 191
+  size: 190, 401
+  orig: 225, 480
+  offset: 16, 45
+  index: -1

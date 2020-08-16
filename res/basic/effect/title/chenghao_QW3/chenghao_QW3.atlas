@@ -1,0 +1,97 @@
+
+chenghao_QW3.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hongguang
+  rotate: false
+  xy: 2, 203
+  size: 168, 47
+  orig: 168, 47
+  offset: 0, 0
+  index: -1
+honghuaban
+  rotate: false
+  xy: 2, 35
+  size: 138, 45
+  orig: 138, 45
+  offset: 0, 0
+  index: -1
+hongzi
+  rotate: false
+  xy: 124, 7
+  size: 113, 26
+  orig: 113, 26
+  offset: 0, 0
+  index: -1
+hongzi2
+  rotate: false
+  xy: 2, 94
+  size: 129, 17
+  orig: 166, 38
+  offset: 19, 9
+  index: -1
+huangguang
+  rotate: true
+  xy: 172, 82
+  size: 168, 47
+  orig: 168, 47
+  offset: 0, 0
+  index: -1
+huanghuaban
+  rotate: false
+  xy: 2, 156
+  size: 138, 45
+  orig: 138, 45
+  offset: 0, 0
+  index: -1
+huangzi
+  rotate: false
+  xy: 2, 2
+  size: 120, 31
+  orig: 120, 31
+  offset: 0, 0
+  index: -1
+huangzi2
+  rotate: true
+  xy: 142, 66
+  size: 135, 26
+  orig: 166, 38
+  offset: 16, 5
+  index: -1
+lizi3
+  rotate: false
+  xy: 142, 52
+  size: 12, 12
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+xingxing1
+  rotate: false
+  xy: 221, 81
+  size: 27, 27
+  orig: 27, 27
+  offset: 0, 0
+  index: -1
+xingxing2
+  rotate: true
+  xy: 170, 61
+  size: 19, 23
+  orig: 19, 23
+  offset: 0, 0
+  index: -1
+ziguang
+  rotate: false
+  xy: 2, 113
+  size: 131, 41
+  orig: 131, 41
+  offset: 0, 0
+  index: -1
+ziguang2
+  rotate: true
+  xy: 221, 110
+  size: 140, 27
+  orig: 166, 38
+  offset: 14, 4
+  index: -1

@@ -1,0 +1,257 @@
+
+effects_extra_0049.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+imange/du/du_00000
+  rotate: false
+  xy: 2, 361
+  size: 440, 105
+  orig: 440, 160
+  offset: 0, 20
+  index: -1
+imange/du/du_00001
+  rotate: false
+  xy: 2, 577
+  size: 440, 108
+  orig: 440, 160
+  offset: 0, 18
+  index: -1
+imange/du/du_00002
+  rotate: false
+  xy: 2, 687
+  size: 440, 109
+  orig: 440, 160
+  offset: 0, 17
+  index: -1
+imange/du/du_00003
+  rotate: false
+  xy: 444, 912
+  size: 440, 110
+  orig: 440, 160
+  offset: 0, 16
+  index: -1
+imange/du/du_00004
+  rotate: false
+  xy: 2, 911
+  size: 440, 111
+  orig: 440, 160
+  offset: 0, 16
+  index: -1
+imange/du/du_00007
+  rotate: false
+  xy: 441, 155
+  size: 438, 104
+  orig: 440, 160
+  offset: 2, 21
+  index: -1
+imange/du/du_00008
+  rotate: false
+  xy: 444, 261
+  size: 436, 104
+  orig: 440, 160
+  offset: 4, 21
+  index: -1
+imange/du/du_00009
+  rotate: false
+  xy: 444, 475
+  size: 437, 106
+  orig: 440, 160
+  offset: 3, 19
+  index: -1
+imange/du/du_00010
+  rotate: false
+  xy: 2, 35
+  size: 436, 106
+  orig: 440, 160
+  offset: 4, 19
+  index: -1
+imange/du/du_00014
+  rotate: false
+  xy: 2, 253
+  size: 437, 106
+  orig: 440, 160
+  offset: 3, 19
+  index: -1
+imange/du/du_00015
+  rotate: false
+  xy: 444, 367
+  size: 437, 106
+  orig: 440, 160
+  offset: 3, 20
+  index: -1
+imange/du/du_00016
+  rotate: true
+  xy: 886, 584
+  size: 438, 107
+  orig: 440, 160
+  offset: 2, 19
+  index: -1
+imange/du/du_00017
+  rotate: false
+  xy: 2, 143
+  size: 435, 108
+  orig: 440, 160
+  offset: 5, 18
+  index: -1
+imange/du/du_00018
+  rotate: false
+  xy: 444, 691
+  size: 440, 108
+  orig: 440, 160
+  offset: 0, 18
+  index: -1
+imange/du/du_00019
+  rotate: false
+  xy: 444, 801
+  size: 440, 109
+  orig: 440, 160
+  offset: 0, 18
+  index: -1
+imange/du/du_00020
+  rotate: false
+  xy: 2, 798
+  size: 440, 111
+  orig: 440, 160
+  offset: 0, 16
+  index: -1
+imange/du/du_00021
+  rotate: false
+  xy: 2, 468
+  size: 440, 107
+  orig: 440, 160
+  offset: 0, 19
+  index: -1
+imange/du/du_00022
+  rotate: false
+  xy: 444, 583
+  size: 440, 106
+  orig: 440, 160
+  offset: 0, 20
+  index: -1
+imange/lizi_00000
+  rotate: false
+  xy: 2, 4
+  size: 29, 29
+  orig: 40, 40
+  offset: 6, 8
+  index: -1
+imange/yanwu/yanwu_00003
+  rotate: true
+  xy: 883, 227
+  size: 354, 139
+  orig: 400, 160
+  offset: 12, 21
+  index: -1
+imange/yanwu/yanwu_00010
+  rotate: false
+  xy: 440, 2
+  size: 346, 151
+  orig: 400, 160
+  offset: 44, 0
+  index: -1
+
+effects_extra_00492.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+imange/du/du_00005
+  rotate: false
+  xy: 2, 913
+  size: 431, 109
+  orig: 440, 160
+  offset: 9, 17
+  index: -1
+imange/du/du_00006
+  rotate: true
+  xy: 2, 476
+  size: 435, 104
+  orig: 440, 160
+  offset: 5, 21
+  index: -1
+imange/du/du_00011
+  rotate: true
+  xy: 2, 44
+  size: 430, 99
+  orig: 440, 160
+  offset: 10, 23
+  index: -1
+imange/du/du_00012
+  rotate: true
+  xy: 108, 484
+  size: 427, 101
+  orig: 440, 160
+  offset: 13, 22
+  index: -1
+imange/du/du_00013
+  rotate: false
+  xy: 435, 918
+  size: 431, 104
+  orig: 440, 160
+  offset: 9, 20
+  index: -1
+imange/yanwu/yanwu_00000
+  rotate: false
+  xy: 524, 461
+  size: 339, 143
+  orig: 400, 160
+  offset: 48, 2
+  index: -1
+imange/yanwu/yanwu_00001
+  rotate: false
+  xy: 103, 2
+  size: 335, 130
+  orig: 400, 160
+  offset: 45, 8
+  index: -1
+imange/yanwu/yanwu_00002
+  rotate: true
+  xy: 103, 134
+  size: 340, 127
+  orig: 400, 160
+  offset: 33, 14
+  index: -1
+imange/yanwu/yanwu_00004
+  rotate: true
+  xy: 868, 669
+  size: 353, 154
+  orig: 400, 160
+  offset: 5, 6
+  index: -1
+imange/yanwu/yanwu_00005
+  rotate: true
+  xy: 211, 564
+  size: 347, 153
+  orig: 400, 160
+  offset: 11, 7
+  index: -1
+imange/yanwu/yanwu_00006
+  rotate: true
+  xy: 366, 569
+  size: 342, 156
+  orig: 400, 160
+  offset: 18, 4
+  index: -1
+imange/yanwu/yanwu_00007
+  rotate: false
+  xy: 524, 606
+  size: 329, 150
+  orig: 400, 160
+  offset: 26, 10
+  index: -1
+imange/yanwu/yanwu_00008
+  rotate: true
+  xy: 232, 245
+  size: 317, 147
+  orig: 400, 160
+  offset: 33, 13
+  index: -1
+imange/yanwu/yanwu_00009
+  rotate: false
+  xy: 524, 758
+  size: 330, 158
+  orig: 400, 160
+  offset: 39, 0
+  index: -1

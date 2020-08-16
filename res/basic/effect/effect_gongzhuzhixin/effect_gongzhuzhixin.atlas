@@ -1,0 +1,13 @@
+
+effect_gongzhuzhixin.png
+size: 32,32
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xingxing
+  rotate: false
+  xy: 2, 2
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1

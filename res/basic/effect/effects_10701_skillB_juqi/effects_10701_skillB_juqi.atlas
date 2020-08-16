@@ -1,0 +1,404 @@
+
+effects_10701_skillB_juqi.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillb/4ji/dianfanse_00000
+  rotate: false
+  xy: 744, 57
+  size: 79, 79
+  orig: 80, 80
+  offset: 1, 0
+  index: -1
+images/effects/skillb/4ji/guangxian_00000
+  rotate: false
+  xy: 824, 991
+  size: 198, 31
+  orig: 240, 40
+  offset: 28, 4
+  index: -1
+images/effects/skillb/4ji/xt7/xt7_00000
+  rotate: true
+  xy: 164, 5
+  size: 21, 38
+  orig: 240, 240
+  offset: 25, 124
+  index: -1
+images/effects/skillb/4ji/xt7/xt7_00001
+  rotate: true
+  xy: 967, 52
+  size: 26, 52
+  orig: 240, 240
+  offset: 20, 134
+  index: -1
+images/effects/skillb/4ji/xt7/xt7_00002
+  rotate: true
+  xy: 962, 80
+  size: 56, 60
+  orig: 240, 240
+  offset: 18, 142
+  index: -1
+images/effects/skillb/4ji/xt7/xt7_00003
+  rotate: true
+  xy: 684, 56
+  size: 80, 58
+  orig: 240, 240
+  offset: 19, 151
+  index: -1
+images/effects/skillb/4ji/xt7/xt7_00004
+  rotate: false
+  xy: 864, 3
+  size: 101, 52
+  orig: 240, 240
+  offset: 22, 161
+  index: -1
+images/effects/skillb/4ji/xt7/xt7_00005
+  rotate: false
+  xy: 587, 4
+  size: 128, 49
+  orig: 240, 240
+  offset: 26, 166
+  index: -1
+images/effects/skillb/4ji/xt7/xt7_00008
+  rotate: true
+  xy: 646, 138
+  size: 108, 152
+  orig: 240, 240
+  offset: 109, 52
+  index: -1
+images/effects/skillb/4ji/xt7/xt7_00010
+  rotate: true
+  xy: 975, 153
+  size: 84, 38
+  orig: 240, 240
+  offset: 118, 48
+  index: -1
+images/effects/skillb/4ji/xt7/xt7_00011
+  rotate: false
+  xy: 802, 743
+  size: 19, 12
+  orig: 240, 240
+  offset: 116, 70
+  index: -1
+images/effects/skillb/4ji/xt8/xt8_00004
+  rotate: false
+  xy: 645, 55
+  size: 37, 81
+  orig: 240, 240
+  offset: 195, 32
+  index: -1
+images/effects/skillb/4ji/xt8/xt8_00005
+  rotate: false
+  xy: 897, 60
+  size: 63, 76
+  orig: 240, 240
+  offset: 171, 29
+  index: -1
+images/effects/skillb/4ji/xt8/xt8_00007
+  rotate: true
+  xy: 416, 170
+  size: 152, 59
+  orig: 240, 240
+  offset: 82, 28
+  index: -1
+images/effects/skillb/4ji/xt8/xt8_00008
+  rotate: true
+  xy: 394, 324
+  size: 184, 81
+  orig: 240, 240
+  offset: 48, 29
+  index: -1
+images/effects/skillb/4ji/xt8/xt8_00009
+  rotate: false
+  xy: 809, 239
+  size: 204, 127
+  orig: 240, 240
+  offset: 25, 31
+  index: -1
+images/effects/skillb/4ji/xt8/xt8_00010
+  rotate: false
+  xy: 809, 368
+  size: 204, 140
+  orig: 240, 240
+  offset: 22, 34
+  index: -1
+images/effects/skillb/4ji/xt8/xt8_00012
+  rotate: false
+  xy: 824, 830
+  size: 196, 159
+  orig: 240, 240
+  offset: 19, 34
+  index: -1
+images/effects/skillb/4ji/xt8/xt8_00014
+  rotate: true
+  xy: 482, 7
+  size: 161, 103
+  orig: 240, 240
+  offset: 18, 106
+  index: -1
+images/effects/skillb/4ji/xt8/xt8_00016
+  rotate: true
+  xy: 825, 57
+  size: 79, 70
+  orig: 240, 240
+  offset: 112, 118
+  index: -1
+images/effects/skillb/4ji/xt8/xt8_00017
+  rotate: true
+  xy: 802, 733
+  size: 8, 19
+  orig: 240, 240
+  offset: 176, 113
+  index: -1
+images/effects/skillb/4ji/xt9/xt9_00000
+  rotate: true
+  xy: 717, 2
+  size: 52, 145
+  orig: 240, 240
+  offset: 25, 28
+  index: -1
+images/effects/skillb/4ji/xt9/xt9_00001
+  rotate: true
+  xy: 477, 170
+  size: 76, 167
+  orig: 240, 240
+  offset: 24, 40
+  index: -1
+images/effects/skillb/4ji/xt9/xt9_00003
+  rotate: false
+  xy: 800, 138
+  size: 173, 99
+  orig: 240, 240
+  offset: 27, 111
+  index: -1
+images/effects/skillb/4ji/xt9/xt9_00007
+  rotate: false
+  xy: 416, 4
+  size: 64, 164
+  orig: 240, 240
+  offset: 157, 36
+  index: -1
+images/effects/skillb/4ji/xt9/xt9_00008
+  rotate: false
+  xy: 587, 55
+  size: 56, 113
+  orig: 240, 240
+  offset: 165, 25
+  index: -1
+images/effects/skillb/4ji/zhutifeng/zhutifeng_00001
+  rotate: true
+  xy: 2, 14
+  size: 301, 160
+  orig: 480, 320
+  offset: 115, 58
+  index: -1
+images/effects/skillb/4ji/zhutifeng/zhutifeng_00002
+  rotate: true
+  xy: 824, 510
+  size: 318, 190
+  orig: 480, 320
+  offset: 108, 52
+  index: -1
+images/effects/skillb/4ji/zhutifeng/zhutifeng_00004
+  rotate: false
+  xy: 2, 572
+  size: 405, 224
+  orig: 480, 320
+  offset: 17, 39
+  index: -1
+images/effects/skillb/4ji/zhutifeng/zhutifeng_00005
+  rotate: false
+  xy: 2, 798
+  size: 410, 224
+  orig: 480, 320
+  offset: 11, 41
+  index: -1
+images/effects/skillb/4ji/zhutifeng/zhutifeng_00007
+  rotate: false
+  xy: 409, 512
+  size: 391, 243
+  orig: 480, 320
+  offset: 25, 28
+  index: -1
+images/effects/skillb/4ji/zhutifeng/zhutifeng_00009
+  rotate: false
+  xy: 2, 317
+  size: 390, 253
+  orig: 480, 320
+  offset: 41, 18
+  index: -1
+images/effects/skillb/4ji/zhutifeng/zhutifeng_00013
+  rotate: false
+  xy: 414, 757
+  size: 408, 265
+  orig: 480, 320
+  offset: 49, 23
+  index: -1
+images/effects/skillb/4ji/zhutifeng/zhutifeng_00014
+  rotate: false
+  xy: 477, 248
+  size: 330, 262
+  orig: 480, 320
+  offset: 138, 29
+  index: -1
+images/effects/skillb/4ji/zhutifeng/zhutifeng_00015
+  rotate: true
+  xy: 164, 28
+  size: 287, 250
+  orig: 480, 320
+  offset: 191, 36
+  index: -1
+
+effects_10701_skillB_juqi2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillb/4ji/dengguangdian_00000
+  rotate: false
+  xy: 558, 277
+  size: 122, 122
+  orig: 160, 160
+  offset: 24, 16
+  index: -1
+images/effects/skillb/4ji/dian2_00000
+  rotate: false
+  xy: 522, 155
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+images/effects/skillb/4ji/xt7/xt7_00006
+  rotate: true
+  xy: 935, 542
+  size: 148, 66
+  orig: 240, 240
+  offset: 30, 149
+  index: -1
+images/effects/skillb/4ji/xt7/xt7_00007
+  rotate: false
+  xy: 382, 295
+  size: 174, 139
+  orig: 240, 240
+  offset: 38, 76
+  index: -1
+images/effects/skillb/4ji/xt7/xt7_00009
+  rotate: false
+  xy: 778, 459
+  size: 90, 85
+  orig: 240, 240
+  offset: 126, 49
+  index: -1
+images/effects/skillb/4ji/xt8/xt8_00006
+  rotate: true
+  xy: 707, 412
+  size: 107, 69
+  orig: 240, 240
+  offset: 127, 28
+  index: -1
+images/effects/skillb/4ji/xt8/xt8_00011
+  rotate: false
+  xy: 774, 692
+  size: 201, 149
+  orig: 240, 240
+  offset: 20, 35
+  index: -1
+images/effects/skillb/4ji/xt8/xt8_00013
+  rotate: true
+  xy: 763, 546
+  size: 144, 170
+  orig: 240, 240
+  offset: 17, 40
+  index: -1
+images/effects/skillb/4ji/xt8/xt8_00015
+  rotate: true
+  xy: 522, 26
+  size: 127, 82
+  orig: 240, 240
+  offset: 59, 124
+  index: -1
+images/effects/skillb/4ji/xt9/xt9_00002
+  rotate: false
+  xy: 383, 146
+  size: 137, 147
+  orig: 240, 240
+  offset: 25, 63
+  index: -1
+images/effects/skillb/4ji/xt9/xt9_00004
+  rotate: false
+  xy: 383, 436
+  size: 177, 83
+  orig: 240, 240
+  offset: 42, 127
+  index: -1
+images/effects/skillb/4ji/xt9/xt9_00005
+  rotate: false
+  xy: 383, 14
+  size: 137, 130
+  orig: 240, 240
+  offset: 85, 80
+  index: -1
+images/effects/skillb/4ji/xt9/xt9_00006
+  rotate: true
+  xy: 562, 401
+  size: 118, 143
+  orig: 240, 240
+  offset: 104, 66
+  index: -1
+images/effects/skillb/4ji/xt9/xt9_00009
+  rotate: false
+  xy: 959, 942
+  size: 58, 75
+  orig: 240, 240
+  offset: 159, 22
+  index: -1
+images/effects/skillb/4ji/zhutifeng/zhutifeng_00003
+  rotate: false
+  xy: 2, 22
+  size: 379, 219
+  orig: 480, 320
+  offset: 56, 41
+  index: -1
+images/effects/skillb/4ji/zhutifeng/zhutifeng_00006
+  rotate: false
+  xy: 383, 521
+  size: 378, 239
+  orig: 480, 320
+  offset: 32, 30
+  index: -1
+images/effects/skillb/4ji/zhutifeng/zhutifeng_00008
+  rotate: false
+  xy: 2, 762
+  size: 386, 255
+  orig: 480, 320
+  offset: 40, 17
+  index: -1
+images/effects/skillb/4ji/zhutifeng/zhutifeng_00010
+  rotate: false
+  xy: 390, 762
+  size: 382, 255
+  orig: 480, 320
+  offset: 56, 21
+  index: -1
+images/effects/skillb/4ji/zhutifeng/zhutifeng_00011
+  rotate: false
+  xy: 2, 243
+  size: 378, 256
+  orig: 480, 320
+  offset: 59, 23
+  index: -1
+images/effects/skillb/4ji/zhutifeng/zhutifeng_00012
+  rotate: false
+  xy: 2, 501
+  size: 379, 259
+  orig: 480, 320
+  offset: 53, 24
+  index: -1
+images/effects/skillb/4ji/zhutifeng/zhutifeng_00016
+  rotate: false
+  xy: 774, 843
+  size: 183, 174
+  orig: 480, 320
+  offset: 236, 51
+  index: -1

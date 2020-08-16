@@ -1,0 +1,1081 @@
+
+fight_10602_skillD_show.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arms
+  rotate: false
+  xy: 2, 620
+  size: 216, 402
+  orig: 218, 404
+  offset: 1, 1
+  index: -1
+effects/skillD/2/111_00000
+  rotate: true
+  xy: 766, 108
+  size: 310, 161
+  orig: 310, 161
+  offset: 0, 0
+  index: -1
+effects/skillD/2/1juqi/1juqi_00005
+  rotate: true
+  xy: 2, 18
+  size: 242, 240
+  orig: 270, 270
+  offset: 11, 14
+  index: -1
+effects/skillD/2/baodian/baodian_00002
+  rotate: false
+  xy: 220, 572
+  size: 284, 172
+  orig: 300, 180
+  offset: 8, 0
+  index: -1
+effects/skillD/2/caihongshan
+  rotate: false
+  xy: 868, 580
+  size: 154, 154
+  orig: 180, 180
+  offset: 12, 12
+  index: -1
+effects/skillD/2/huohua/huohua_00002
+  rotate: true
+  xy: 244, 19
+  size: 248, 155
+  orig: 300, 240
+  offset: 26, 41
+  index: -1
+effects/skillD/2/huohua/huohua_00005
+  rotate: true
+  xy: 868, 736
+  size: 286, 154
+  orig: 300, 240
+  offset: 5, 55
+  index: -1
+effects/skillD/2/pigushan
+  rotate: false
+  xy: 220, 746
+  size: 288, 276
+  orig: 300, 276
+  offset: 8, 0
+  index: -1
+effects/skillD/2/shanping/shanpingadd_00001
+  rotate: true
+  xy: 2, 262
+  size: 356, 201
+  orig: 360, 210
+  offset: 2, 3
+  index: -1
+effects/skillD/2/shanping/shanpingadd_00002
+  rotate: false
+  xy: 510, 821
+  size: 356, 201
+  orig: 360, 210
+  offset: 2, 3
+  index: -1
+effects/skillD/2/shanping/shanpingadd_00003
+  rotate: false
+  xy: 510, 623
+  size: 356, 196
+  orig: 360, 210
+  offset: 2, 3
+  index: -1
+effects/skillD/2/shanping/shanpingadd_00004
+  rotate: true
+  xy: 205, 269
+  size: 301, 201
+  orig: 360, 210
+  offset: 57, 3
+  index: -1
+effects/skillD/2/shanping/shanpingadd_00006
+  rotate: false
+  xy: 506, 420
+  size: 356, 201
+  orig: 360, 210
+  offset: 2, 3
+  index: -1
+effects/skillD/2/shanping/shanpingadd_00007
+  rotate: false
+  xy: 408, 217
+  size: 356, 201
+  orig: 360, 210
+  offset: 2, 3
+  index: -1
+effects/skillD/2/shanping/shanpingadd_00008
+  rotate: false
+  xy: 401, 14
+  size: 356, 201
+  orig: 360, 210
+  offset: 2, 3
+  index: -1
+effects/skillD/2/shanshizi_00000
+  rotate: true
+  xy: 408, 420
+  size: 150, 85
+  orig: 150, 85
+  offset: 0, 0
+  index: -1
+juexing_eyebrow
+  rotate: false
+  xy: 2, 6
+  size: 56, 10
+  orig: 58, 12
+  offset: 1, 1
+  index: -1
+juexing_head
+  rotate: false
+  xy: 898, 2
+  size: 110, 104
+  orig: 112, 106
+  offset: 1, 1
+  index: -1
+juexing_wuqi2
+  rotate: false
+  xy: 929, 269
+  size: 93, 171
+  orig: 95, 173
+  offset: 1, 1
+  index: -1
+juexing_wuqi4_shang
+  rotate: false
+  xy: 759, 2
+  size: 137, 104
+  orig: 139, 106
+  offset: 1, 1
+  index: -1
+l_calf1
+  rotate: false
+  xy: 1010, 62
+  size: 12, 19
+  orig: 14, 21
+  offset: 1, 1
+  index: -1
+l_r_forearm4
+  rotate: false
+  xy: 864, 442
+  size: 158, 136
+  orig: 160, 138
+  offset: 1, 1
+  index: -1
+l_wing3
+  rotate: false
+  xy: 929, 169
+  size: 93, 98
+  orig: 95, 100
+  offset: 1, 1
+  index: -1
+l_wing7
+  rotate: true
+  xy: 929, 108
+  size: 59, 93
+  orig: 61, 95
+  offset: 1, 1
+  index: -1
+mouth_3
+  rotate: true
+  xy: 1010, 49
+  size: 11, 12
+  orig: 13, 14
+  offset: 1, 1
+  index: -1
+r_calf1
+  rotate: false
+  xy: 1010, 83
+  size: 12, 23
+  orig: 14, 25
+  offset: 1, 1
+  index: -1
+
+fight_10602_skillD_show2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 314, 505
+  size: 82, 157
+  orig: 84, 159
+  offset: 1, 1
+  index: -1
+effects/skillD/2/111_00001
+  rotate: true
+  xy: 161, 192
+  size: 310, 155
+  orig: 310, 161
+  offset: 0, 3
+  index: -1
+effects/skillD/2/111_00002
+  rotate: false
+  xy: 2, 667
+  size: 310, 161
+  orig: 310, 161
+  offset: 0, 0
+  index: -1
+effects/skillD/2/111_00003
+  rotate: false
+  xy: 2, 504
+  size: 310, 161
+  orig: 310, 161
+  offset: 0, 0
+  index: -1
+effects/skillD/2/111_00004
+  rotate: true
+  xy: 2, 192
+  size: 310, 157
+  orig: 310, 161
+  offset: 0, 2
+  index: -1
+effects/skillD/2/1juqi/1juqi_00001
+  rotate: true
+  xy: 637, 212
+  size: 113, 80
+  orig: 270, 270
+  offset: 104, 89
+  index: -1
+effects/skillD/2/1juqi/1juqi_00003
+  rotate: true
+  xy: 734, 45
+  size: 168, 138
+  orig: 270, 270
+  offset: 29, 111
+  index: -1
+effects/skillD/2/1juqi/1juqi_00006
+  rotate: true
+  xy: 346, 2
+  size: 199, 204
+  orig: 270, 270
+  offset: 50, 55
+  index: -1
+effects/skillD/2/2gezi_00000
+  rotate: false
+  xy: 2, 830
+  size: 341, 192
+  orig: 341, 192
+  offset: 0, 0
+  index: -1
+effects/skillD/2/baodian/baodian_00001
+  rotate: true
+  xy: 552, 2
+  size: 208, 180
+  orig: 300, 180
+  offset: 44, 0
+  index: -1
+effects/skillD/2/baodian/baodian_00003
+  rotate: true
+  xy: 318, 203
+  size: 300, 152
+  orig: 300, 180
+  offset: 0, 8
+  index: -1
+effects/skillD/2/baodian/baodian_00004
+  rotate: false
+  xy: 734, 372
+  size: 276, 133
+  orig: 300, 180
+  offset: 15, 19
+  index: -1
+effects/skillD/2/fangkuai/fangkuai_00008
+  rotate: true
+  xy: 689, 569
+  size: 93, 42
+  orig: 150, 60
+  offset: 43, 8
+  index: -1
+effects/skillD/2/fangkuai/fangkuai_00009
+  rotate: false
+  xy: 772, 334
+  size: 84, 36
+  orig: 150, 60
+  offset: 50, 10
+  index: -1
+effects/skillD/2/huohua/huohua_00004
+  rotate: false
+  xy: 734, 507
+  size: 282, 155
+  orig: 300, 240
+  offset: 8, 52
+  index: -1
+effects/skillD/2/huohua/huohua_00010
+  rotate: true
+  xy: 544, 506
+  size: 156, 143
+  orig: 300, 240
+  offset: 97, 60
+  index: -1
+effects/skillD/2/huohua/huohua_00011
+  rotate: false
+  xy: 874, 30
+  size: 148, 142
+  orig: 300, 240
+  offset: 95, 60
+  index: -1
+effects/skillD/2/huohua/huohua_00012
+  rotate: true
+  xy: 398, 506
+  size: 156, 144
+  orig: 300, 240
+  offset: 95, 60
+  index: -1
+effects/skillD/2/lizi1/lizi1_00000
+  rotate: false
+  xy: 2, 6
+  size: 194, 184
+  orig: 240, 240
+  offset: 16, 8
+  index: -1
+effects/skillD/2/pingmusuduxian/pingmusuduxian_00003
+  rotate: false
+  xy: 345, 844
+  size: 320, 178
+  orig: 330, 180
+  offset: 6, 1
+  index: -1
+effects/skillD/2/pingmusuduxian/pingmusuduxian_00007
+  rotate: false
+  xy: 667, 844
+  size: 320, 178
+  orig: 330, 180
+  offset: 6, 1
+  index: -1
+effects/skillD/2/pingmusuduxian/pingmusuduxian_00011
+  rotate: false
+  xy: 345, 664
+  size: 320, 178
+  orig: 330, 180
+  offset: 6, 1
+  index: -1
+effects/skillD/2/pingmusuduxian/pingmusuduxian_00015
+  rotate: false
+  xy: 667, 664
+  size: 320, 178
+  orig: 330, 180
+  offset: 6, 1
+  index: -1
+effects/skillD/2/shanping/shanpingadd_00000
+  rotate: true
+  xy: 874, 174
+  size: 196, 148
+  orig: 360, 210
+  offset: 126, 29
+  index: -1
+effects/skillD/2/shanping/shanpingadd_00005
+  rotate: true
+  xy: 472, 212
+  size: 292, 163
+  orig: 360, 210
+  offset: 43, 3
+  index: -1
+juexing_eye
+  rotate: true
+  xy: 989, 835
+  size: 63, 26
+  orig: 65, 28
+  offset: 1, 1
+  index: -1
+juexing_hair_1
+  rotate: false
+  xy: 989, 761
+  size: 22, 72
+  orig: 24, 74
+  offset: 1, 1
+  index: -1
+juexing_wuqi4_zhong
+  rotate: true
+  xy: 637, 404
+  size: 100, 95
+  orig: 102, 97
+  offset: 1, 1
+  index: -1
+l_r_uparm
+  rotate: true
+  xy: 778, 6
+  size: 37, 61
+  orig: 39, 63
+  offset: 1, 1
+  index: -1
+l_shoulder
+  rotate: true
+  xy: 734, 328
+  size: 42, 36
+  orig: 44, 38
+  offset: 1, 1
+  index: -1
+l_wing2
+  rotate: false
+  xy: 989, 984
+  size: 33, 38
+  orig: 35, 40
+  offset: 1, 1
+  index: -1
+r_armor_1
+  rotate: true
+  xy: 989, 900
+  size: 38, 28
+  orig: 40, 30
+  offset: 1, 1
+  index: -1
+r_hand
+  rotate: false
+  xy: 989, 940
+  size: 29, 42
+  orig: 31, 44
+  offset: 1, 1
+  index: -1
+r_uparm
+  rotate: false
+  xy: 689, 507
+  size: 42, 60
+  orig: 44, 62
+  offset: 1, 1
+  index: -1
+r_wing1
+  rotate: true
+  xy: 637, 327
+  size: 75, 95
+  orig: 77, 97
+  offset: 1, 1
+  index: -1
+r_wing10
+  rotate: true
+  xy: 198, 7
+  size: 183, 146
+  orig: 185, 148
+  offset: 1, 1
+  index: -1
+r_wing2
+  rotate: true
+  xy: 734, 2
+  size: 41, 42
+  orig: 43, 44
+  offset: 1, 1
+  index: -1
+r_wing8
+  rotate: false
+  xy: 719, 215
+  size: 153, 110
+  orig: 155, 112
+  offset: 1, 1
+  index: -1
+
+fight_10602_skillD_show3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skillD/2/1juqi/1juqi_00002
+  rotate: false
+  xy: 795, 199
+  size: 166, 143
+  orig: 270, 270
+  offset: 32, 104
+  index: -1
+effects/skillD/2/1juqi/1juqi_00004
+  rotate: true
+  xy: 2, 322
+  size: 232, 195
+  orig: 270, 270
+  offset: 16, 19
+  index: -1
+effects/skillD/2/1juqi/1juqi_00008
+  rotate: false
+  xy: 2, 2
+  size: 128, 89
+  orig: 270, 270
+  offset: 85, 99
+  index: -1
+effects/skillD/2/2beijing_00000
+  rotate: true
+  xy: 966, 429
+  size: 89, 56
+  orig: 89, 56
+  offset: 0, 0
+  index: -1
+effects/skillD/2/baodian/baodian_00000
+  rotate: false
+  xy: 402, 344
+  size: 192, 180
+  orig: 300, 180
+  offset: 49, 0
+  index: -1
+effects/skillD/2/fangkuai/fangkuai_00000
+  rotate: false
+  xy: 372, 2
+  size: 98, 45
+  orig: 150, 60
+  offset: 10, 9
+  index: -1
+effects/skillD/2/fashebiaozhidi0002
+  rotate: true
+  xy: 933, 702
+  size: 85, 89
+  orig: 90, 94
+  offset: 2, 3
+  index: -1
+effects/skillD/2/guangquan_000
+  rotate: false
+  xy: 684, 709
+  size: 78, 78
+  orig: 90, 90
+  offset: 6, 6
+  index: -1
+effects/skillD/2/huohua/huohua_00000
+  rotate: true
+  xy: 625, 508
+  size: 196, 145
+  orig: 300, 240
+  offset: 54, 28
+  index: -1
+effects/skillD/2/huohua/huohua_00001
+  rotate: false
+  xy: 711, 869
+  size: 225, 153
+  orig: 300, 240
+  offset: 40, 34
+  index: -1
+effects/skillD/2/huohua/huohua_00003
+  rotate: false
+  xy: 440, 867
+  size: 269, 155
+  orig: 300, 240
+  offset: 14, 48
+  index: -1
+effects/skillD/2/huohua/huohua_00006
+  rotate: false
+  xy: 593, 196
+  size: 200, 146
+  orig: 300, 240
+  offset: 44, 56
+  index: -1
+effects/skillD/2/huohua/huohua_00007
+  rotate: false
+  xy: 591, 50
+  size: 204, 144
+  orig: 300, 240
+  offset: 43, 59
+  index: -1
+effects/skillD/2/huohua/huohua_00008
+  rotate: false
+  xy: 381, 197
+  size: 210, 145
+  orig: 300, 240
+  offset: 41, 59
+  index: -1
+effects/skillD/2/huohua/huohua_00009
+  rotate: false
+  xy: 381, 49
+  size: 208, 146
+  orig: 300, 240
+  offset: 43, 59
+  index: -1
+effects/skillD/2/lizi1/lizi1_00001
+  rotate: false
+  xy: 199, 352
+  size: 201, 189
+  orig: 240, 240
+  offset: 16, 6
+  index: -1
+effects/skillD/2/lizi1/lizi1_00002
+  rotate: false
+  xy: 2, 791
+  size: 202, 231
+  orig: 240, 240
+  offset: 17, 5
+  index: -1
+effects/skillD/2/lizi1/lizi1_00003
+  rotate: false
+  xy: 2, 556
+  size: 200, 233
+  orig: 240, 240
+  offset: 18, 5
+  index: -1
+effects/skillD/2/lizi1/lizi1_00004
+  rotate: true
+  xy: 206, 824
+  size: 198, 232
+  orig: 240, 240
+  offset: 18, 6
+  index: -1
+effects/skillD/2/lizi1/lizi1_00005
+  rotate: false
+  xy: 2, 93
+  size: 195, 227
+  orig: 240, 240
+  offset: 20, 8
+  index: -1
+effects/skillD/2/lizi1/lizi1_00006
+  rotate: true
+  xy: 204, 543
+  size: 189, 217
+  orig: 240, 240
+  offset: 24, 11
+  index: -1
+effects/skillD/2/lizi1/lizi1_00007
+  rotate: false
+  xy: 199, 145
+  size: 180, 205
+  orig: 240, 240
+  offset: 30, 17
+  index: -1
+effects/skillD/2/lizi1/lizi1_00008
+  rotate: true
+  xy: 596, 344
+  size: 162, 189
+  orig: 240, 240
+  offset: 41, 27
+  index: -1
+effects/weiyan1/weiyan_00002
+  rotate: true
+  xy: 966, 362
+  size: 65, 55
+  orig: 79, 73
+  offset: 8, 10
+  index: -1
+effects/weiyan1/weiyan_00003
+  rotate: true
+  xy: 132, 20
+  size: 71, 65
+  orig: 79, 73
+  offset: 7, 4
+  index: -1
+juexing_hair_2
+  rotate: false
+  xy: 971, 98
+  size: 47, 110
+  orig: 49, 112
+  offset: 1, 1
+  index: -1
+juexing_wuqi1
+  rotate: true
+  xy: 711, 793
+  size: 74, 192
+  orig: 76, 194
+  offset: 1, 1
+  index: -1
+juexing_wuqi4_bu
+  rotate: true
+  xy: 963, 265
+  size: 77, 59
+  orig: 79, 61
+  offset: 1, 1
+  index: -1
+juexing_wuqi5_zhongshang
+  rotate: true
+  xy: 434, 706
+  size: 81, 248
+  orig: 83, 250
+  offset: 1, 1
+  index: -1
+juexing_wuqi5_zhongxia
+  rotate: true
+  xy: 440, 789
+  size: 76, 252
+  orig: 78, 254
+  offset: 1, 1
+  index: -1
+juexing_wuqi6_zhongshang
+  rotate: true
+  xy: 206, 734
+  size: 88, 226
+  orig: 90, 228
+  offset: 1, 1
+  index: -1
+juexing_wuqi6_zhongxia
+  rotate: false
+  xy: 938, 789
+  size: 84, 233
+  orig: 86, 235
+  offset: 1, 1
+  index: -1
+l_wing1
+  rotate: false
+  xy: 966, 520
+  size: 56, 95
+  orig: 58, 97
+  offset: 1, 1
+  index: -1
+l_wing10
+  rotate: false
+  xy: 772, 616
+  size: 159, 175
+  orig: 161, 177
+  offset: 1, 1
+  index: -1
+l_wing6
+  rotate: true
+  xy: 199, 2
+  size: 141, 171
+  orig: 143, 173
+  offset: 1, 1
+  index: -1
+r_shoulder
+  rotate: false
+  xy: 472, 3
+  size: 58, 44
+  orig: 60, 46
+  offset: 1, 1
+  index: -1
+r_wing11
+  rotate: true
+  xy: 933, 617
+  size: 83, 89
+  orig: 85, 91
+  offset: 1, 1
+  index: -1
+r_wing4
+  rotate: false
+  xy: 772, 522
+  size: 153, 92
+  orig: 155, 94
+  offset: 1, 1
+  index: -1
+r_wing5
+  rotate: false
+  xy: 797, 38
+  size: 172, 159
+  orig: 174, 161
+  offset: 1, 1
+  index: -1
+r_wing6
+  rotate: true
+  xy: 787, 344
+  size: 176, 177
+  orig: 178, 179
+  offset: 1, 1
+  index: -1
+r_wing9
+  rotate: false
+  xy: 423, 526
+  size: 200, 178
+  orig: 202, 180
+  offset: 1, 1
+  index: -1
+z_knee
+  rotate: true
+  xy: 971, 210
+  size: 53, 51
+  orig: 55, 53
+  offset: 1, 1
+  index: -1
+
+fight_10602_skillD_show4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+armor
+  rotate: false
+  xy: 88, 182
+  size: 54, 102
+  orig: 56, 104
+  offset: 1, 1
+  index: -1
+b_r_thigh
+  rotate: true
+  xy: 447, 766
+  size: 100, 109
+  orig: 102, 111
+  offset: 1, 1
+  index: -1
+effects/skillD/2/1juqi/1juqi_00000
+  rotate: false
+  xy: 197, 609
+  size: 107, 76
+  orig: 270, 270
+  offset: 108, 89
+  index: -1
+effects/skillD/2/1juqi/1juqi_00007
+  rotate: true
+  xy: 2, 695
+  size: 172, 127
+  orig: 270, 270
+  offset: 82, 95
+  index: -1
+effects/skillD/2/1juqi/1juqi_00009
+  rotate: false
+  xy: 187, 467
+  size: 83, 83
+  orig: 270, 270
+  offset: 88, 102
+  index: -1
+effects/skillD/2/2dian_00000
+  rotate: false
+  xy: 757, 886
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+effects/skillD/2/fangkuai/fangkuai_00001
+  rotate: false
+  xy: 695, 709
+  size: 102, 54
+  orig: 150, 60
+  offset: 15, 4
+  index: -1
+effects/skillD/2/fangkuai/fangkuai_00002
+  rotate: true
+  xy: 272, 449
+  size: 101, 54
+  orig: 150, 60
+  offset: 19, 4
+  index: -1
+effects/skillD/2/fangkuai/fangkuai_00003
+  rotate: false
+  xy: 193, 552
+  size: 106, 55
+  orig: 150, 60
+  offset: 22, 4
+  index: -1
+effects/skillD/2/fangkuai/fangkuai_00004
+  rotate: false
+  xy: 757, 830
+  size: 107, 54
+  orig: 150, 60
+  offset: 26, 4
+  index: -1
+effects/skillD/2/fangkuai/fangkuai_00005
+  rotate: false
+  xy: 866, 831
+  size: 106, 53
+  orig: 150, 60
+  offset: 30, 4
+  index: -1
+effects/skillD/2/fangkuai/fangkuai_00006
+  rotate: true
+  xy: 95, 78
+  size: 102, 50
+  orig: 150, 60
+  offset: 35, 4
+  index: -1
+effects/skillD/2/fangkuai/fangkuai_00007
+  rotate: false
+  xy: 108, 404
+  size: 97, 47
+  orig: 150, 60
+  offset: 40, 6
+  index: -1
+effects/skillD/2/glow_00000
+  rotate: false
+  xy: 879, 886
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+effects/skillD/2/huohua/huohua_00013
+  rotate: false
+  xy: 646, 869
+  size: 109, 137
+  orig: 300, 240
+  offset: 100, 61
+  index: -1
+effects/skillD/2/huohua/huohua_00014
+  rotate: true
+  xy: 197, 687
+  size: 69, 126
+  orig: 300, 240
+  offset: 101, 66
+  index: -1
+effects/skillD/2/huohua/huohua_00015
+  rotate: true
+  xy: 566, 705
+  size: 62, 127
+  orig: 300, 240
+  offset: 100, 62
+  index: -1
+effects/skillD/2/lizi1/lizi1_00009
+  rotate: true
+  xy: 169, 870
+  size: 136, 159
+  orig: 240, 240
+  offset: 56, 45
+  index: -1
+effects/skillD/2/lizi1/lizi1_00010
+  rotate: true
+  xy: 169, 870
+  size: 136, 159
+  orig: 240, 240
+  offset: 56, 45
+  index: -1
+effects/skillD/2/shanping/shanpingadd_00009
+  rotate: false
+  xy: 2, 869
+  size: 165, 137
+  orig: 360, 210
+  offset: 92, 3
+  index: -1
+effects/weiyan1/weiyan_00000
+  rotate: true
+  xy: 95, 2
+  size: 74, 60
+  orig: 79, 73
+  offset: 0, 10
+  index: -1
+effects/weiyan1/weiyan_00001
+  rotate: false
+  xy: 799, 702
+  size: 67, 61
+  orig: 79, 73
+  offset: 11, 4
+  index: -1
+effects/weiyan1/weiyan_00004
+  rotate: true
+  xy: 909, 763
+  size: 66, 59
+  orig: 79, 73
+  offset: 12, 11
+  index: -1
+juexing_hair_5
+  rotate: true
+  xy: 740, 765
+  size: 63, 102
+  orig: 65, 104
+  offset: 1, 1
+  index: -1
+juexing_hair_8
+  rotate: false
+  xy: 2, 555
+  size: 115, 138
+  orig: 117, 140
+  offset: 1, 1
+  index: -1
+juexing_hair_9
+  rotate: false
+  xy: 2, 142
+  size: 84, 142
+  orig: 86, 144
+  offset: 1, 1
+  index: -1
+juexing_wuqi3
+  rotate: false
+  xy: 197, 758
+  size: 126, 110
+  orig: 128, 112
+  offset: 1, 1
+  index: -1
+juexing_wuqi4_xia
+  rotate: true
+  xy: 2, 5
+  size: 135, 91
+  orig: 137, 93
+  offset: 1, 1
+  index: -1
+juexing_wuqi5_zhong
+  rotate: false
+  xy: 844, 765
+  size: 63, 63
+  orig: 65, 65
+  offset: 1, 1
+  index: -1
+juexing_wuqi6_zhong
+  rotate: false
+  xy: 844, 765
+  size: 63, 63
+  orig: 65, 65
+  offset: 1, 1
+  index: -1
+l_armor
+  rotate: false
+  xy: 163, 302
+  size: 49, 100
+  orig: 51, 102
+  offset: 1, 1
+  index: -1
+l_calf2
+  rotate: true
+  xy: 558, 769
+  size: 97, 94
+  orig: 99, 96
+  offset: 1, 1
+  index: -1
+l_feet
+  rotate: false
+  xy: 131, 632
+  size: 64, 102
+  orig: 66, 104
+  offset: 1, 1
+  index: -1
+l_thigh
+  rotate: true
+  xy: 435, 698
+  size: 66, 129
+  orig: 68, 131
+  offset: 1, 1
+  index: -1
+l_wing11
+  rotate: false
+  xy: 119, 552
+  size: 72, 78
+  orig: 74, 80
+  offset: 1, 1
+  index: -1
+l_wing4
+  rotate: false
+  xy: 325, 774
+  size: 120, 92
+  orig: 122, 94
+  offset: 1, 1
+  index: -1
+l_wing5
+  rotate: true
+  xy: 330, 868
+  size: 138, 156
+  orig: 140, 158
+  offset: 1, 1
+  index: -1
+l_wing8
+  rotate: true
+  xy: 2, 420
+  size: 133, 104
+  orig: 135, 106
+  offset: 1, 1
+  index: -1
+l_wing9
+  rotate: true
+  xy: 488, 868
+  size: 138, 156
+  orig: 140, 158
+  offset: 1, 1
+  index: -1
+r_armor
+  rotate: false
+  xy: 131, 736
+  size: 64, 131
+  orig: 66, 133
+  offset: 1, 1
+  index: -1
+r_calf2
+  rotate: true
+  xy: 325, 694
+  size: 78, 108
+  orig: 80, 110
+  offset: 1, 1
+  index: -1
+r_forearm
+  rotate: false
+  xy: 108, 453
+  size: 77, 97
+  orig: 79, 99
+  offset: 1, 1
+  index: -1
+r_wing3
+  rotate: true
+  xy: 2, 286
+  size: 132, 100
+  orig: 134, 102
+  offset: 1, 1
+  index: -1
+r_wing7
+  rotate: false
+  xy: 654, 769
+  size: 84, 98
+  orig: 86, 100
+  offset: 1, 1
+  index: -1
+z_feet
+  rotate: false
+  xy: 104, 303
+  size: 57, 99
+  orig: 59, 101
+  offset: 1, 1
+  index: -1

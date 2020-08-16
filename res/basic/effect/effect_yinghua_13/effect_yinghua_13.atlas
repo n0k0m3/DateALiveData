@@ -1,0 +1,27 @@
+
+effect_yinghua_13.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/zuoeryinghua
+  rotate: false
+  xy: 2, 441
+  size: 759, 465
+  orig: 759, 465
+  offset: 0, 0
+  index: -1
+images/zuoyinghua
+  rotate: false
+  xy: 2, 2
+  size: 306, 437
+  orig: 306, 437
+  offset: 0, 0
+  index: -1
+images/zuoyiyinghua
+  rotate: false
+  xy: 763, 641
+  size: 132, 265
+  orig: 132, 265
+  offset: 0, 0
+  index: -1

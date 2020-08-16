@@ -1,0 +1,76 @@
+
+effects_1060_born2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chuchangtexiao/jiguang_add_00080
+  rotate: false
+  xy: 2, 604
+  size: 226, 409
+  orig: 307, 410
+  offset: 40, 1
+  index: -1
+chuchangtexiao/jiguang_add_00081
+  rotate: false
+  xy: 2, 193
+  size: 226, 409
+  orig: 307, 410
+  offset: 40, 1
+  index: -1
+chuchangtexiao/jiguang_add_00082
+  rotate: false
+  xy: 230, 604
+  size: 226, 409
+  orig: 307, 410
+  offset: 40, 1
+  index: -1
+chuchangtexiao/jiguang_add_00084
+  rotate: false
+  xy: 230, 193
+  size: 226, 409
+  orig: 307, 410
+  offset: 40, 1
+  index: -1
+chuchangtexiao/jiguang_add_00086
+  rotate: false
+  xy: 458, 604
+  size: 226, 409
+  orig: 307, 410
+  offset: 40, 1
+  index: -1
+chuchangtexiao/jiguang_add_00088
+  rotate: false
+  xy: 686, 328
+  size: 226, 341
+  orig: 307, 410
+  offset: 40, 1
+  index: -1
+chuchangtexiao/jiguang_add_00090
+  rotate: false
+  xy: 458, 259
+  size: 226, 343
+  orig: 307, 410
+  offset: 40, 1
+  index: -1
+chuchangtexiao/jiguang_add_00092
+  rotate: false
+  xy: 686, 671
+  size: 226, 342
+  orig: 307, 410
+  offset: 40, 1
+  index: -1
+chuchangtexiao/jiguang_add_00094
+  rotate: true
+  xy: 458, 31
+  size: 226, 340
+  orig: 307, 410
+  offset: 40, 1
+  index: -1
+glow_00055
+  rotate: false
+  xy: 914, 893
+  size: 99, 120
+  orig: 120, 120
+  offset: 8, 0
+  index: -1

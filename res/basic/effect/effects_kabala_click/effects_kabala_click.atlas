@@ -1,0 +1,97 @@
+
+effects_kabala_click.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jiantou_00000
+  rotate: false
+  xy: 2, 653
+  size: 272, 357
+  orig: 300, 400
+  offset: 20, 14
+  index: -1
+kuosanquan/kuosanquan_00000
+  rotate: false
+  xy: 606, 572
+  size: 182, 94
+  orig: 300, 200
+  offset: 64, 45
+  index: -1
+kuosanquan/kuosanquan_00001
+  rotate: true
+  xy: 494, 442
+  size: 212, 110
+  orig: 300, 200
+  offset: 49, 37
+  index: -1
+kuosanquan/kuosanquan_00002
+  rotate: true
+  xy: 880, 760
+  size: 250, 130
+  orig: 300, 200
+  offset: 30, 27
+  index: -1
+kuosanquan/kuosanquan_00003
+  rotate: true
+  xy: 348, 376
+  size: 278, 144
+  orig: 300, 200
+  offset: 16, 20
+  index: -1
+kuosanquan/kuosanquan_00004
+  rotate: true
+  xy: 180, 51
+  size: 298, 158
+  orig: 300, 200
+  offset: 2, 13
+  index: -1
+kuosanquan/kuosanquan_00005
+  rotate: true
+  xy: 184, 351
+  size: 300, 162
+  orig: 300, 200
+  offset: 0, 11
+  index: -1
+kuosanquan/kuosanquan_00006
+  rotate: false
+  xy: 578, 668
+  size: 300, 168
+  orig: 300, 200
+  offset: 0, 8
+  index: -1
+kuosanquan/kuosanquan_00007
+  rotate: false
+  xy: 578, 838
+  size: 300, 172
+  orig: 300, 200
+  offset: 0, 6
+  index: -1
+kuosanquan/kuosanquan_00008
+  rotate: false
+  xy: 276, 656
+  size: 300, 174
+  orig: 300, 200
+  offset: 0, 5
+  index: -1
+kuosanquan/kuosanquan_00009
+  rotate: false
+  xy: 276, 832
+  size: 300, 178
+  orig: 300, 200
+  offset: 0, 3
+  index: -1
+kuosanquan/kuosanquan_00010
+  rotate: true
+  xy: 2, 49
+  size: 300, 176
+  orig: 300, 200
+  offset: 0, 4
+  index: -1
+kuosanquan/kuosanquan_00011
+  rotate: true
+  xy: 2, 351
+  size: 300, 180
+  orig: 300, 200
+  offset: 0, 2
+  index: -1

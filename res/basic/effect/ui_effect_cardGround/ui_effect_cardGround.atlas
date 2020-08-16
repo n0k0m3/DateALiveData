@@ -1,0 +1,132 @@
+
+ui_effect_cardGround.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/bian_00000
+  rotate: true
+  xy: 183, 25
+  size: 156, 216
+  orig: 182, 247
+  offset: 12, 19
+  index: -1
+images/binghua/bing_00000
+  rotate: false
+  xy: 2, 57
+  size: 179, 234
+  orig: 182, 247
+  offset: 0, 7
+  index: -1
+images/binghua/bing_00002
+  rotate: true
+  xy: 220, 823
+  size: 180, 234
+  orig: 182, 247
+  offset: 0, 7
+  index: -1
+images/binghua/bing_00004
+  rotate: true
+  xy: 401, 2
+  size: 182, 223
+  orig: 182, 247
+  offset: 0, 6
+  index: -1
+images/binghua/bing_00006
+  rotate: true
+  xy: 456, 828
+  size: 175, 239
+  orig: 182, 247
+  offset: 7, 5
+  index: -1
+images/binghua/bing_00008
+  rotate: false
+  xy: 2, 530
+  size: 174, 241
+  orig: 182, 247
+  offset: 6, 4
+  index: -1
+images/binghua/bing_00010
+  rotate: false
+  xy: 359, 417
+  size: 176, 230
+  orig: 182, 247
+  offset: 5, 3
+  index: -1
+images/binghua/bing_00012
+  rotate: true
+  xy: 220, 649
+  size: 172, 232
+  orig: 182, 247
+  offset: 5, 2
+  index: -1
+images/binghua/bing_00014
+  rotate: false
+  xy: 2, 293
+  size: 175, 235
+  orig: 182, 247
+  offset: 4, 0
+  index: -1
+images/binghua/bing_00016
+  rotate: true
+  xy: 697, 826
+  size: 177, 236
+  orig: 182, 247
+  offset: 3, 0
+  index: -1
+images/binghua/bing_00018
+  rotate: true
+  xy: 683, 645
+  size: 179, 226
+  orig: 182, 247
+  offset: 2, 11
+  index: -1
+images/binghua/bing_00020
+  rotate: true
+  xy: 683, 464
+  size: 179, 226
+  orig: 182, 247
+  offset: 3, 10
+  index: -1
+images/binghua/bing_00022
+  rotate: true
+  xy: 454, 649
+  size: 172, 227
+  orig: 182, 247
+  offset: 3, 10
+  index: -1
+images/binghua/bing_00024
+  rotate: false
+  xy: 361, 186
+  size: 174, 229
+  orig: 182, 247
+  offset: 2, 9
+  index: -1
+images/binghua/bing_00026
+  rotate: false
+  xy: 183, 183
+  size: 176, 230
+  orig: 182, 247
+  offset: 1, 9
+  index: -1
+images/binghua/bing_00028
+  rotate: false
+  xy: 179, 415
+  size: 178, 232
+  orig: 182, 247
+  offset: 0, 8
+  index: -1
+images/binghua1_00000
+  rotate: false
+  xy: 537, 482
+  size: 144, 165
+  orig: 227, 233
+  offset: 42, 31
+  index: -1
+images/liangbian_00000
+  rotate: false
+  xy: 2, 773
+  size: 216, 230
+  orig: 227, 233
+  offset: 7, 0
+  index: -1

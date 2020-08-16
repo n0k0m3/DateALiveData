@@ -1,0 +1,13 @@
+
+effect_teammap_01.png
+size: 32,32
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fangkuai_00000
+  rotate: false
+  xy: 2, 2
+  size: 21, 21
+  orig: 50, 50
+  offset: 16, 15
+  index: -1

@@ -1,0 +1,202 @@
+
+effects_10413_born.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/born/bao/bao_000
+  rotate: false
+  xy: 769, 384
+  size: 185, 187
+  orig: 245, 245
+  offset: 30, 29
+  index: -1
+effects/born/bao/bao_001
+  rotate: false
+  xy: 769, 195
+  size: 185, 187
+  orig: 245, 245
+  offset: 30, 29
+  index: -1
+effects/born/bao/bao_002
+  rotate: true
+  xy: 832, 828
+  size: 191, 187
+  orig: 245, 245
+  offset: 30, 29
+  index: -1
+effects/born/bao/bao_003
+  rotate: false
+  xy: 197, 95
+  size: 194, 201
+  orig: 245, 245
+  offset: 25, 16
+  index: -1
+effects/born/bao/bao_005
+  rotate: false
+  xy: 627, 819
+  size: 203, 200
+  orig: 245, 245
+  offset: 21, 17
+  index: -1
+effects/born/bao/bao_006
+  rotate: true
+  xy: 195, 298
+  size: 203, 200
+  orig: 245, 245
+  offset: 21, 17
+  index: -1
+effects/born/bao/bao_008
+  rotate: true
+  xy: 397, 332
+  size: 202, 191
+  orig: 245, 245
+  offset: 22, 27
+  index: -1
+effects/born/bao/bao_010
+  rotate: true
+  xy: 2, 90
+  size: 206, 193
+  orig: 245, 245
+  offset: 17, 23
+  index: -1
+effects/born/bao/bao_012
+  rotate: true
+  xy: 397, 160
+  size: 170, 186
+  orig: 245, 245
+  offset: 16, 21
+  index: -1
+effects/born/heidong/heidong_000
+  rotate: false
+  xy: 196, 503
+  size: 128, 245
+  orig: 140, 245
+  offset: 4, 0
+  index: -1
+effects/born/heidong/heidong_002
+  rotate: false
+  xy: 858, 583
+  size: 132, 243
+  orig: 140, 245
+  offset: 1, 2
+  index: -1
+effects/born/heidong/heidong_004
+  rotate: false
+  xy: 453, 548
+  size: 135, 244
+  orig: 140, 245
+  offset: 0, 1
+  index: -1
+effects/born/heidong/heidong_006
+  rotate: false
+  xy: 590, 548
+  size: 133, 244
+  orig: 140, 245
+  offset: 1, 1
+  index: -1
+effects/born/heidong/heidong_008
+  rotate: false
+  xy: 725, 573
+  size: 131, 244
+  orig: 140, 245
+  offset: 3, 1
+  index: -1
+effects/born/kkd_000
+  rotate: false
+  xy: 326, 536
+  size: 125, 252
+  orig: 140, 252
+  offset: 7, 0
+  index: -1
+effects/born/kkdb/kkdb_005
+  rotate: false
+  xy: 431, 794
+  size: 194, 225
+  orig: 245, 245
+  offset: 35, 7
+  index: -1
+effects/born/kkdb/kkdb_007
+  rotate: false
+  xy: 237, 790
+  size: 192, 229
+  orig: 245, 245
+  offset: 29, 3
+  index: -1
+effects/born/kkdb/kkdb_009
+  rotate: false
+  xy: 2, 518
+  size: 192, 230
+  orig: 245, 245
+  offset: 29, 2
+  index: -1
+effects/born/kkdb/kkdb_011
+  rotate: false
+  xy: 2, 298
+  size: 191, 218
+  orig: 245, 245
+  offset: 28, 6
+  index: -1
+effects/born/kkdb/kkdb_013
+  rotate: false
+  xy: 590, 347
+  size: 177, 199
+  orig: 245, 245
+  offset: 25, 22
+  index: -1
+effects/born/kkdb/kkdb_015
+  rotate: false
+  xy: 393, 12
+  size: 152, 146
+  orig: 245, 245
+  offset: 22, 38
+  index: -1
+effects/born/kkdg/kkdg_006
+  rotate: false
+  xy: 2, 750
+  size: 233, 269
+  orig: 280, 280
+  offset: 35, 4
+  index: -1
+effects/born/lizi/lizi_000
+  rotate: false
+  xy: 547, 49
+  size: 91, 109
+  orig: 140, 140
+  offset: 20, 14
+  index: -1
+effects/born/lizi/lizi_004
+  rotate: false
+  xy: 640, 31
+  size: 105, 100
+  orig: 140, 140
+  offset: 15, 18
+  index: -1
+effects/born/lizi/lizi_008
+  rotate: true
+  xy: 640, 133
+  size: 106, 99
+  orig: 140, 140
+  offset: 10, 21
+  index: -1
+effects/born/lizi/lizi_012
+  rotate: false
+  xy: 747, 91
+  size: 104, 102
+  orig: 140, 140
+  offset: 12, 19
+  index: -1
+effects/born/lizi/lizi_016
+  rotate: false
+  xy: 590, 241
+  size: 108, 104
+  orig: 140, 140
+  offset: 6, 16
+  index: -1
+effects/glow
+  rotate: false
+  xy: 2, 18
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1

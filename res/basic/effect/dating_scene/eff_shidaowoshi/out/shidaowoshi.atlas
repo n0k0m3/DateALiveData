@@ -1,0 +1,20 @@
+
+shidaowoshi.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dengguang_00030
+  rotate: false
+  xy: 2, 2
+  size: 173, 225
+  orig: 225, 225
+  offset: 20, 0
+  index: -1
+glow_00000
+  rotate: false
+  xy: 177, 136
+  size: 90, 91
+  orig: 225, 225
+  offset: 69, 74
+  index: -1

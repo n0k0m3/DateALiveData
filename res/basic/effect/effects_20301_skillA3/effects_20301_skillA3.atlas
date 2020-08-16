@@ -1,0 +1,13 @@
+
+effects_20301_skillA3.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/hongxian
+  rotate: false
+  xy: 2, 66
+  size: 100, 36
+  orig: 120, 50
+  offset: 11, 8
+  index: -1

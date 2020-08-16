@@ -1,0 +1,167 @@
+
+effect_ZNQ_qiu.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 355, 1189
+  size: 81, 72
+  orig: 81, 72
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 1948, 1970
+  size: 75, 53
+  orig: 75, 53
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 1616, 1807
+  size: 69, 100
+  orig: 69, 100
+  offset: 0, 0
+  index: -1
+fengye
+  rotate: false
+  xy: 1390, 1909
+  size: 330, 114
+  orig: 330, 114
+  offset: 0, 0
+  index: -1
+fengye1
+  rotate: true
+  xy: 204, 983
+  size: 168, 87
+  orig: 168, 87
+  offset: 0, 0
+  index: -1
+fengye2
+  rotate: false
+  xy: 2, 1153
+  size: 351, 228
+  orig: 351, 228
+  offset: 0, 0
+  index: -1
+fengye3
+  rotate: false
+  xy: 2, 964
+  size: 200, 187
+  orig: 200, 187
+  offset: 0, 0
+  index: -1
+fengyedi
+  rotate: false
+  xy: 62, 912
+  size: 119, 50
+  orig: 119, 50
+  offset: 0, 0
+  index: -1
+fengyedi1
+  rotate: false
+  xy: 1390, 1755
+  size: 68, 32
+  orig: 68, 32
+  offset: 0, 0
+  index: -1
+fengyedi2
+  rotate: false
+  xy: 581, 1278
+  size: 105, 43
+  orig: 105, 43
+  offset: 0, 0
+  index: -1
+fengyedi3
+  rotate: false
+  xy: 293, 1121
+  size: 43, 30
+  orig: 43, 30
+  offset: 0, 0
+  index: -1
+fengyedi4
+  rotate: false
+  xy: 2, 477
+  size: 53, 33
+  orig: 53, 33
+  offset: 0, 0
+  index: -1
+fengyedi5
+  rotate: false
+  xy: 807, 1338
+  size: 81, 43
+  orig: 81, 43
+  offset: 0, 0
+  index: -1
+fengyedi6
+  rotate: false
+  xy: 1722, 1910
+  size: 149, 53
+  orig: 149, 53
+  offset: 0, 0
+  index: -1
+qiu
+  rotate: false
+  xy: 2, 1383
+  size: 1386, 640
+  orig: 1386, 640
+  offset: 0, 0
+  index: -1
+shuibowen_00000
+  rotate: false
+  xy: 355, 1323
+  size: 224, 58
+  orig: 224, 58
+  offset: 0, 0
+  index: -1
+shuibowen_00001
+  rotate: false
+  xy: 1390, 1849
+  size: 224, 58
+  orig: 224, 58
+  offset: 0, 0
+  index: -1
+shuibowen_00002
+  rotate: false
+  xy: 1722, 1965
+  size: 224, 58
+  orig: 224, 58
+  offset: 0, 0
+  index: -1
+shuibowen_00003
+  rotate: true
+  xy: 2, 738
+  size: 224, 58
+  orig: 224, 58
+  offset: 0, 0
+  index: -1
+shuibowen_00004
+  rotate: false
+  xy: 355, 1263
+  size: 224, 58
+  orig: 224, 58
+  offset: 0, 0
+  index: -1
+shuibowen_00005
+  rotate: false
+  xy: 581, 1323
+  size: 224, 58
+  orig: 224, 58
+  offset: 0, 0
+  index: -1
+shuibowen_00006
+  rotate: false
+  xy: 1390, 1789
+  size: 224, 58
+  orig: 224, 58
+  offset: 0, 0
+  index: -1
+shuibowen_00007
+  rotate: true
+  xy: 2, 512
+  size: 224, 58
+  orig: 224, 58
+  offset: 0, 0
+  index: -1

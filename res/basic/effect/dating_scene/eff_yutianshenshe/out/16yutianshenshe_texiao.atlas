@@ -1,0 +1,187 @@
+
+16yutianshenshe_texiao.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shuidi/shuidi_00001
+  rotate: false
+  xy: 884, 999
+  size: 75, 23
+  orig: 75, 38
+  offset: 0, 11
+  index: -1
+shuidi/shuidi_00003
+  rotate: false
+  xy: 156, 3
+  size: 75, 23
+  orig: 75, 38
+  offset: 0, 11
+  index: -1
+shuidi/shuidi_00005
+  rotate: false
+  xy: 884, 974
+  size: 75, 23
+  orig: 75, 38
+  offset: 0, 11
+  index: -1
+shuidi/shuidi_00009
+  rotate: false
+  xy: 2, 2
+  size: 75, 24
+  orig: 75, 38
+  offset: 0, 11
+  index: -1
+shuidi/shuidi_00011
+  rotate: false
+  xy: 233, 3
+  size: 75, 23
+  orig: 75, 38
+  offset: 0, 11
+  index: -1
+shuidi/shuidi_00015
+  rotate: false
+  xy: 884, 949
+  size: 75, 23
+  orig: 75, 38
+  offset: 0, 11
+  index: -1
+shuidi/shuidi_00019
+  rotate: false
+  xy: 79, 2
+  size: 75, 24
+  orig: 75, 38
+  offset: 0, 11
+  index: -1
+shuidi/shuidi_00023
+  rotate: false
+  xy: 310, 3
+  size: 75, 23
+  orig: 75, 38
+  offset: 0, 11
+  index: -1
+shuidi/shuidi_00025
+  rotate: false
+  xy: 884, 924
+  size: 75, 23
+  orig: 75, 38
+  offset: 0, 11
+  index: -1
+shuidi/shuidi_00027
+  rotate: true
+  xy: 961, 947
+  size: 75, 23
+  orig: 75, 38
+  offset: 0, 11
+  index: -1
+xiayu/xiayu_00000
+  rotate: false
+  xy: 2, 775
+  size: 439, 247
+  orig: 439, 247
+  offset: 0, 0
+  index: -1
+xiayu/xiayu_00004
+  rotate: false
+  xy: 2, 526
+  size: 439, 247
+  orig: 439, 247
+  offset: 0, 0
+  index: -1
+xiayu/xiayu_00008
+  rotate: false
+  xy: 443, 775
+  size: 439, 247
+  orig: 439, 247
+  offset: 0, 0
+  index: -1
+xiayu/xiayu_00012
+  rotate: false
+  xy: 2, 277
+  size: 439, 247
+  orig: 439, 247
+  offset: 0, 0
+  index: -1
+xiayu/xiayu_00016
+  rotate: false
+  xy: 443, 526
+  size: 439, 247
+  orig: 439, 247
+  offset: 0, 0
+  index: -1
+xiayu/xiayu_00020
+  rotate: false
+  xy: 2, 28
+  size: 439, 247
+  orig: 439, 247
+  offset: 0, 0
+  index: -1
+xiayu/xiayu_00024
+  rotate: false
+  xy: 443, 277
+  size: 439, 247
+  orig: 439, 247
+  offset: 0, 0
+  index: -1
+xiayu/xiayu_00028
+  rotate: false
+  xy: 443, 28
+  size: 439, 247
+  orig: 439, 247
+  offset: 0, 0
+  index: -1
+
+16yutianshenshe_texiao2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xiayu/xiayu_00032
+  rotate: false
+  xy: 2, 749
+  size: 439, 247
+  orig: 439, 247
+  offset: 0, 0
+  index: -1
+xiayu/xiayu_00036
+  rotate: false
+  xy: 2, 500
+  size: 439, 247
+  orig: 439, 247
+  offset: 0, 0
+  index: -1
+xiayu/xiayu_00040
+  rotate: false
+  xy: 443, 749
+  size: 439, 247
+  orig: 439, 247
+  offset: 0, 0
+  index: -1
+xiayu/xiayu_00044
+  rotate: false
+  xy: 2, 251
+  size: 439, 247
+  orig: 439, 247
+  offset: 0, 0
+  index: -1
+xiayu/xiayu_00048
+  rotate: false
+  xy: 443, 500
+  size: 439, 247
+  orig: 439, 247
+  offset: 0, 0
+  index: -1
+xiayu/xiayu_00052
+  rotate: false
+  xy: 2, 2
+  size: 439, 247
+  orig: 439, 247
+  offset: 0, 0
+  index: -1
+xiayu/xiayu_00056
+  rotate: false
+  xy: 443, 251
+  size: 439, 247
+  orig: 439, 247
+  offset: 0, 0
+  index: -1

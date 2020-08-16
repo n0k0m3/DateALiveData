@@ -1,0 +1,92 @@
+{
+"skeleton": { "hash": "qLZLlkGnuU4IUFk/smwncjwGOqU", "spine": "2.1.27", "width": 302.79, "height": 251.03, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "bone2", "parent": "root" },
+	{ "name": "bone3", "parent": "root" }
+],
+"slots": [
+	{ "name": "yuangguang_00000", "bone": "bone", "attachment": "yuangguang_00000", "blend": "additive" },
+	{ "name": "yuangguang_0", "bone": "bone2", "attachment": "yuangguang_00000", "blend": "additive" },
+	{ "name": "glow_00050", "bone": "bone3", "attachment": "glow_00050", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"glow_00050": {
+			"glow_00050": { "width": 232, "height": 161 }
+		},
+		"yuangguang_0": {
+			"yuangguang_00000": { "x": -36.8, "y": -83.03, "width": 300, "height": 175 }
+		},
+		"yuangguang_00000": {
+			"yuangguang_00000": { "x": -36.8, "y": -83.03, "width": 300, "height": 175 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"glow_00050": {
+				"attachment": [
+					{ "time": 0, "name": "glow_00050" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff9e" },
+					{ "time": 0.8333, "color": "ffffff00" },
+					{ "time": 1.6666, "color": "ffffff9e" }
+				]
+			},
+			"yuangguang_0": {
+				"attachment": [
+					{ "time": 0, "name": "yuangguang_00000" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 1.6666, "color": "ffffffbc" }
+				]
+			},
+			"yuangguang_00000": {
+				"color": [
+					{ "time": 0, "color": "ffffffbc" },
+					{ "time": 1.6666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"bone3": {
+				"translate": [
+					{ "time": 0, "x": 146.19, "y": 140.49 }
+				],
+				"scale": [
+					{ "time": 0, "x": 6.059, "y": 6.059 }
+				]
+			},
+			"bone2": {
+				"rotate": [
+					{ "time": 0, "angle": 355 },
+					{ "time": 1.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 249.08, "y": 508.61 }
+				],
+				"scale": [
+					{ "time": 0, "x": 6.843, "y": 6.843 }
+				]
+			},
+			"bone": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.6666, "angle": 5 }
+				],
+				"translate": [
+					{ "time": 0, "x": 249.08, "y": 508.61 }
+				],
+				"scale": [
+					{ "time": 0, "x": 6.843, "y": 6.843 }
+				]
+			}
+		}
+	}
+}
+}

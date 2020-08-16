@@ -1,0 +1,41 @@
+
+eff_DFW_changjing_houjing.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/yueliang
+  rotate: false
+  xy: 2, 120
+  size: 79, 80
+  orig: 79, 80
+  offset: 0, 0
+  index: -1
+images/yun/yun1
+  rotate: false
+  xy: 2, 303
+  size: 407, 69
+  orig: 407, 69
+  offset: 0, 0
+  index: -1
+images/yun/yun2
+  rotate: false
+  xy: 2, 374
+  size: 436, 64
+  orig: 436, 64
+  offset: 0, 0
+  index: -1
+images/yun/yun3
+  rotate: false
+  xy: 2, 240
+  size: 225, 61
+  orig: 225, 61
+  offset: 0, 0
+  index: -1
+images/yun/yun4
+  rotate: false
+  xy: 2, 202
+  size: 155, 36
+  orig: 155, 36
+  offset: 0, 0
+  index: -1

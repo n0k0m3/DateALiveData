@@ -1,0 +1,445 @@
+
+effects_22601_skillC.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skilla/glow_00010
+  rotate: false
+  xy: 866, 867
+  size: 156, 155
+  orig: 307, 307
+  offset: 77, 70
+  index: -1
+images/effects/skillc/black_00012
+  rotate: false
+  xy: 690, 94
+  size: 174, 175
+  orig: 226, 214
+  offset: 27, 21
+  index: -1
+images/effects/skillc/dimianbaodian/dimianbaodian_00016
+  rotate: false
+  xy: 145, 13
+  size: 296, 88
+  orig: 309, 108
+  offset: 9, 0
+  index: -1
+images/effects/skillc/dimianbaodian/dimianbaodian_00020
+  rotate: false
+  xy: 557, 271
+  size: 296, 87
+  orig: 309, 108
+  offset: 9, 0
+  index: -1
+images/effects/skillc/dishangyanwu/dishangyanwu_00024
+  rotate: true
+  xy: 391, 290
+  size: 44, 73
+  orig: 153, 150
+  offset: 56, 5
+  index: -1
+images/effects/skillc/glow1/glow1_00020
+  rotate: false
+  xy: 479, 965
+  size: 377, 57
+  orig: 486, 122
+  offset: 53, 26
+  index: -1
+images/effects/skillc/glow1/glow1_00021
+  rotate: true
+  xy: 478, 307
+  size: 355, 77
+  orig: 486, 122
+  offset: 64, 21
+  index: -1
+images/effects/skillc/glow1/glow1_00022
+  rotate: false
+  xy: 2, 917
+  size: 475, 105
+  orig: 486, 122
+  offset: 4, 7
+  index: -1
+images/effects/skillc/guangbao/guangbao_00014
+  rotate: true
+  xy: 2, 353
+  size: 305, 188
+  orig: 312, 214
+  offset: 7, 10
+  index: -1
+images/effects/skillc/guangbao/guangbao_00015
+  rotate: false
+  xy: 391, 126
+  size: 297, 143
+  orig: 312, 214
+  offset: 15, 33
+  index: -1
+images/effects/skillc/jiguang/jiguang_00016
+  rotate: true
+  xy: 192, 336
+  size: 322, 141
+  orig: 354, 141
+  offset: 15, 0
+  index: -1
+images/effects/skillc/jiguang/jiguang_00017
+  rotate: false
+  xy: 496, 679
+  size: 327, 141
+  orig: 354, 141
+  offset: 15, 0
+  index: -1
+images/effects/skillc/jiguang/jiguang_00018
+  rotate: true
+  xy: 2, 14
+  size: 337, 141
+  orig: 354, 141
+  offset: 15, 0
+  index: -1
+images/effects/skillc/jiguang/jiguang_00019
+  rotate: true
+  xy: 335, 336
+  size: 326, 141
+  orig: 354, 141
+  offset: 17, 0
+  index: -1
+images/effects/skillc/jiguang/jiguang_00020
+  rotate: true
+  xy: 557, 360
+  size: 317, 141
+  orig: 354, 141
+  offset: 18, 0
+  index: -1
+images/effects/skillc/jiguang/jiguang_00021
+  rotate: false
+  xy: 496, 822
+  size: 335, 141
+  orig: 354, 141
+  offset: 18, 0
+  index: -1
+images/effects/skillc/jiguang/jiguang_00022
+  rotate: true
+  xy: 700, 360
+  size: 317, 134
+  orig: 354, 141
+  offset: 19, 2
+  index: -1
+images/effects/skillc/jiguang1_00015
+  rotate: false
+  xy: 2, 660
+  size: 269, 255
+  orig: 303, 267
+  offset: 1, 6
+  index: -1
+images/effects/skillc/neijulizi/neijulizi_00001
+  rotate: false
+  xy: 836, 650
+  size: 186, 215
+  orig: 308, 283
+  offset: 85, 46
+  index: -1
+images/effects/skillc/neijulizi/neijulizi_00002
+  rotate: false
+  xy: 145, 103
+  size: 244, 231
+  orig: 308, 283
+  offset: 42, 10
+  index: -1
+images/effects/skillc/neijulizi/neijulizi_00008
+  rotate: false
+  xy: 273, 664
+  size: 221, 251
+  orig: 308, 283
+  offset: 66, 26
+  index: -1
+images/effects/skillc/neijulizi/neijulizi_00013
+  rotate: false
+  xy: 836, 405
+  size: 184, 243
+  orig: 308, 283
+  offset: 66, 6
+  index: -1
+images/effects/skillc/shitou/shitou_00016
+  rotate: true
+  xy: 915, 13
+  size: 139, 96
+  orig: 358, 173
+  offset: 104, 44
+  index: -1
+images/effects/skillc/shitou/shitou_00018
+  rotate: true
+  xy: 866, 154
+  size: 249, 131
+  orig: 358, 173
+  offset: 82, 13
+  index: -1
+images/effects/skillc/shitou/shitou_00020
+  rotate: false
+  xy: 443, 2
+  size: 215, 122
+  orig: 358, 173
+  offset: 61, 30
+  index: -1
+images/effects/skillc/shitou/shitou_00022
+  rotate: false
+  xy: 660, 2
+  size: 253, 90
+  orig: 358, 173
+  offset: 39, 22
+  index: -1
+
+effects_22601_skillC2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillc/dilie/dilie_00053
+  rotate: true
+  xy: 915, 239
+  size: 193, 35
+  orig: 329, 49
+  offset: 7, 2
+  index: -1
+images/effects/skillc/dilie/dilie_00055
+  rotate: false
+  xy: 495, 856
+  size: 316, 35
+  orig: 329, 49
+  offset: 7, 2
+  index: -1
+images/effects/skillc/dilie/dilie_00057
+  rotate: false
+  xy: 495, 819
+  size: 316, 35
+  orig: 329, 49
+  offset: 7, 2
+  index: -1
+images/effects/skillc/dilie/dilie_00059
+  rotate: true
+  xy: 389, 35
+  size: 316, 35
+  orig: 329, 49
+  offset: 7, 2
+  index: -1
+images/effects/skillc/dilie/dilie_00061
+  rotate: true
+  xy: 522, 38
+  size: 316, 35
+  orig: 329, 49
+  offset: 7, 2
+  index: -1
+images/effects/skillc/dilie/dilie_00063
+  rotate: true
+  xy: 750, 29
+  size: 316, 35
+  orig: 329, 49
+  offset: 7, 2
+  index: -1
+images/effects/skillc/dilie/dilie_00065
+  rotate: true
+  xy: 988, 492
+  size: 316, 32
+  orig: 329, 49
+  offset: 7, 5
+  index: -1
+images/effects/skillc/dilie/dilie_00067
+  rotate: false
+  xy: 275, 2
+  size: 316, 31
+  orig: 329, 49
+  offset: 7, 6
+  index: -1
+images/effects/skillc/dilie/dilie_00069
+  rotate: true
+  xy: 882, 116
+  size: 316, 31
+  orig: 329, 49
+  offset: 7, 6
+  index: -1
+images/effects/skillc/dimianbaodian/dimianbaodian_00017
+  rotate: true
+  xy: 426, 83
+  size: 271, 94
+  orig: 309, 108
+  offset: 20, 6
+  index: -1
+images/effects/skillc/dimianbaodian/dimianbaodian_00018
+  rotate: true
+  xy: 655, 80
+  size: 265, 93
+  orig: 309, 108
+  offset: 23, 8
+  index: -1
+images/effects/skillc/dimianbaodian/dimianbaodian_00019
+  rotate: true
+  xy: 203, 353
+  size: 242, 93
+  orig: 309, 108
+  offset: 33, 6
+  index: -1
+images/effects/skillc/dimianbaodian/dimianbaodian_00021
+  rotate: true
+  xy: 559, 74
+  size: 271, 94
+  orig: 309, 108
+  offset: 20, 6
+  index: -1
+images/effects/skillc/dimianbaodian/dimianbaodian_00022
+  rotate: true
+  xy: 787, 167
+  size: 265, 93
+  orig: 309, 108
+  offset: 23, 8
+  index: -1
+images/effects/skillc/dimianbaodian/dimianbaodian_00023
+  rotate: true
+  xy: 298, 353
+  size: 242, 93
+  orig: 309, 108
+  offset: 33, 6
+  index: -1
+images/effects/skillc/dishangyanwu/dishangyanwu_00016
+  rotate: false
+  xy: 787, 38
+  size: 89, 127
+  orig: 153, 150
+  offset: 36, 3
+  index: -1
+images/effects/skillc/dishangyanwu/dishangyanwu_00021
+  rotate: false
+  xy: 915, 147
+  size: 90, 90
+  orig: 153, 150
+  offset: 30, 2
+  index: -1
+images/effects/skillc/guangbao/guangbao_00012
+  rotate: false
+  xy: 813, 810
+  size: 208, 212
+  orig: 312, 214
+  offset: 52, 2
+  index: -1
+images/effects/skillc/guangbao/guangbao_00013
+  rotate: true
+  xy: 244, 597
+  size: 225, 213
+  orig: 312, 214
+  offset: 46, 0
+  index: -1
+images/effects/skillc/neijulizi/neijulizi_00003
+  rotate: false
+  xy: 2, 812
+  size: 240, 210
+  orig: 308, 283
+  offset: 42, 11
+  index: -1
+images/effects/skillc/neijulizi/neijulizi_00004
+  rotate: false
+  xy: 244, 824
+  size: 249, 198
+  orig: 308, 283
+  offset: 33, 22
+  index: -1
+images/effects/skillc/neijulizi/neijulizi_00005
+  rotate: true
+  xy: 2, 353
+  size: 242, 199
+  orig: 308, 283
+  offset: 34, 41
+  index: -1
+images/effects/skillc/neijulizi/neijulizi_00006
+  rotate: false
+  xy: 459, 597
+  size: 216, 220
+  orig: 308, 283
+  offset: 46, 20
+  index: -1
+images/effects/skillc/neijulizi/neijulizi_00007
+  rotate: false
+  xy: 2, 597
+  size: 236, 213
+  orig: 308, 283
+  offset: 54, 21
+  index: -1
+images/effects/skillc/neijulizi/neijulizi_00009
+  rotate: false
+  xy: 393, 356
+  size: 192, 239
+  orig: 308, 283
+  offset: 86, 41
+  index: -1
+images/effects/skillc/neijulizi/neijulizi_00010
+  rotate: false
+  xy: 207, 120
+  size: 180, 231
+  orig: 308, 283
+  offset: 88, 50
+  index: -1
+images/effects/skillc/neijulizi/neijulizi_00011
+  rotate: false
+  xy: 587, 347
+  size: 169, 239
+  orig: 308, 283
+  offset: 89, 34
+  index: -1
+images/effects/skillc/neijulizi/neijulizi_00012
+  rotate: false
+  xy: 809, 563
+  size: 177, 245
+  orig: 308, 283
+  offset: 65, 11
+  index: -1
+images/effects/skillc/neijulizi/neijulizi_00014
+  rotate: false
+  xy: 2, 116
+  size: 203, 235
+  orig: 308, 283
+  offset: 72, 10
+  index: -1
+images/effects/skillc/shitou/shitou_00024
+  rotate: false
+  xy: 2, 6
+  size: 271, 108
+  orig: 358, 173
+  offset: 17, 20
+  index: -1
+images/effects/skillc/shitou/shitou_00026
+  rotate: false
+  xy: 495, 893
+  size: 311, 129
+  orig: 358, 173
+  offset: 2, 14
+  index: -1
+images/effects/skillc/shitou/shitou_00028
+  rotate: true
+  xy: 677, 588
+  size: 229, 130
+  orig: 358, 173
+  offset: 111, 20
+  index: -1
+images/effects/skillc/shitou/shitou_00030
+  rotate: false
+  xy: 758, 434
+  size: 218, 127
+  orig: 358, 173
+  offset: 138, 10
+  index: -1
+
+effects_22601_skillC3.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillc/dishangyanwu/dishangyanwu_00017
+  rotate: false
+  xy: 2, 129
+  size: 138, 144
+  orig: 153, 150
+  offset: 13, 2
+  index: -1
+images/effects/skillc/dishangyanwu/dishangyanwu_00019
+  rotate: false
+  xy: 2, 2
+  size: 122, 125
+  orig: 153, 150
+  offset: 20, 2
+  index: -1

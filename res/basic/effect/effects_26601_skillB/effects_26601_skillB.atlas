@@ -1,0 +1,439 @@
+
+effects_26601_skillB.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/glow_00001
+  rotate: false
+  xy: 688, 545
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+images/effect/hit/hit_00001
+  rotate: false
+  xy: 422, 147
+  size: 204, 175
+  orig: 265, 247
+  offset: 38, 32
+  index: -1
+images/effect/hit/hit_00002
+  rotate: false
+  xy: 212, 2
+  size: 184, 167
+  orig: 265, 247
+  offset: 38, 32
+  index: -1
+images/effect/hit/hit_00004
+  rotate: false
+  xy: 628, 134
+  size: 202, 183
+  orig: 265, 247
+  offset: 39, 30
+  index: -1
+images/effect/hit/hit_00005
+  rotate: true
+  xy: 832, 124
+  size: 193, 186
+  orig: 265, 247
+  offset: 48, 28
+  index: -1
+images/effect/hit/hit_00014
+  rotate: false
+  xy: 723, 2
+  size: 176, 120
+  orig: 265, 247
+  offset: 53, 103
+  index: -1
+images/effect/hit/hit_00016
+  rotate: true
+  xy: 599, 2
+  size: 130, 122
+  orig: 265, 247
+  offset: 96, 102
+  index: -1
+images/effect/skillB/glow_00041
+  rotate: false
+  xy: 688, 319
+  size: 234, 224
+  orig: 252, 242
+  offset: 11, 0
+  index: -1
+images/effect/skillB/penhuo/huo_00001
+  rotate: true
+  xy: 884, 807
+  size: 215, 116
+  orig: 308, 245
+  offset: 0, 4
+  index: -1
+images/effect/skillB/penhuo/huo_00002
+  rotate: true
+  xy: 243, 491
+  size: 284, 217
+  orig: 308, 245
+  offset: 0, 0
+  index: -1
+images/effect/skillB/penhuo/huo_00003
+  rotate: false
+  xy: 597, 797
+  size: 285, 225
+  orig: 308, 245
+  offset: 0, 7
+  index: -1
+images/effect/skillB/penhuo/huo_00005
+  rotate: true
+  xy: 2, 171
+  size: 294, 229
+  orig: 308, 245
+  offset: 0, 7
+  index: -1
+images/effect/skillB/penhuo/huo_00007
+  rotate: false
+  xy: 306, 785
+  size: 289, 237
+  orig: 308, 245
+  offset: 0, 7
+  index: -1
+images/effect/skillB/penhuo/huo_00009
+  rotate: false
+  xy: 2, 777
+  size: 302, 245
+  orig: 308, 245
+  offset: 0, 0
+  index: -1
+images/effect/skillB/penhuo/huo_00011
+  rotate: true
+  xy: 2, 467
+  size: 308, 239
+  orig: 308, 245
+  offset: 0, 6
+  index: -1
+images/effect/skillB/penhuo/huo_00013
+  rotate: true
+  xy: 462, 510
+  size: 273, 224
+  orig: 308, 245
+  offset: 16, 21
+  index: -1
+images/effect/skillB/penhuo/huo_00015
+  rotate: true
+  xy: 462, 324
+  size: 184, 216
+  orig: 308, 245
+  offset: 108, 29
+  index: -1
+images/effect/skillB/penhuo/huo_00017
+  rotate: true
+  xy: 2, 2
+  size: 167, 208
+  orig: 308, 245
+  offset: 124, 37
+  index: -1
+images/effect/skillB/penhuo/huo_00019
+  rotate: false
+  xy: 243, 319
+  size: 153, 170
+  orig: 308, 245
+  offset: 125, 44
+  index: -1
+images/effect/skillB/smok/smoke_00002
+  rotate: true
+  xy: 353, 171
+  size: 146, 67
+  orig: 193, 122
+  offset: 14, 33
+  index: -1
+images/effect/skillB/smok/smoke_00005
+  rotate: true
+  xy: 398, 381
+  size: 108, 62
+  orig: 193, 122
+  offset: 0, 36
+  index: -1
+images/effect/skillB/smok/smoke_00006
+  rotate: false
+  xy: 924, 331
+  size: 52, 18
+  orig: 193, 122
+  offset: 11, 67
+  index: -1
+images/effect/skillB/smok2/smoke2_00001
+  rotate: false
+  xy: 901, 54
+  size: 96, 68
+  orig: 226, 138
+  offset: 105, 6
+  index: -1
+images/effect/skillB/smok2/smoke2_00004
+  rotate: true
+  xy: 233, 171
+  size: 146, 118
+  orig: 226, 138
+  offset: 3, 6
+  index: -1
+images/effect/skillB/smok_1_add/smoke1_00003
+  rotate: true
+  xy: 940, 611
+  size: 194, 70
+  orig: 208, 96
+  offset: 9, 10
+  index: -1
+images/effect/skillB/smok_1_add/smoke1_00004
+  rotate: true
+  xy: 924, 351
+  size: 192, 60
+  orig: 208, 96
+  offset: 5, 11
+  index: -1
+images/effect/skillB/smok_1_add/smoke1_00007
+  rotate: true
+  xy: 986, 401
+  size: 154, 35
+  orig: 208, 96
+  offset: 30, 9
+  index: -1
+images/effect/skillB/xuanzhuan _add/xz_00005
+  rotate: false
+  xy: 398, 19
+  size: 199, 126
+  orig: 214, 152
+  offset: 2, 13
+  index: -1
+images/effect/skillB/yanhua/yh_00001
+  rotate: false
+  xy: 398, 341
+  size: 62, 38
+  orig: 312, 155
+  offset: 21, 60
+  index: -1
+images/effect/skillB/yanhua/yh_00002
+  rotate: false
+  xy: 940, 557
+  size: 66, 52
+  orig: 312, 155
+  offset: 59, 74
+  index: -1
+images/effect/skillB/yanhua/yh_00005
+  rotate: false
+  xy: 901, 8
+  size: 86, 44
+  orig: 312, 155
+  offset: 189, 19
+  index: -1
+images/effect/skillB/yanhua/yh_00006
+  rotate: true
+  xy: 1002, 968
+  size: 54, 19
+  orig: 312, 155
+  offset: 24, 34
+  index: -1
+images/effect/skillB/yanhua/yh_00008
+  rotate: true
+  xy: 999, 48
+  size: 74, 22
+  orig: 312, 155
+  offset: 89, 6
+  index: -1
+images/effect/skillB/yanhua/yh_00011
+  rotate: true
+  xy: 599, 134
+  size: 11, 17
+  orig: 312, 155
+  offset: 185, 103
+  index: -1
+
+effects_26601_skillB2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/hit/hit_00003
+  rotate: false
+  xy: 199, 843
+  size: 182, 179
+  orig: 265, 247
+  offset: 46, 34
+  index: -1
+images/effect/hit/hit_00006
+  rotate: true
+  xy: 2, 629
+  size: 197, 187
+  orig: 265, 247
+  offset: 47, 29
+  index: -1
+images/effect/hit/hit_00008
+  rotate: false
+  xy: 2, 828
+  size: 195, 194
+  orig: 265, 247
+  offset: 47, 26
+  index: -1
+images/effect/hit/hit_00010
+  rotate: false
+  xy: 2, 472
+  size: 180, 155
+  orig: 265, 247
+  offset: 49, 66
+  index: -1
+images/effect/hit/hit_00012
+  rotate: true
+  xy: 2, 108
+  size: 175, 118
+  orig: 265, 247
+  offset: 54, 104
+  index: -1
+images/effect/hit/hit_00018
+  rotate: false
+  xy: 241, 571
+  size: 126, 123
+  orig: 265, 247
+  offset: 95, 101
+  index: -1
+images/effect/skillB/smok/smoke_00001
+  rotate: true
+  xy: 435, 580
+  size: 140, 60
+  orig: 193, 122
+  offset: 32, 37
+  index: -1
+images/effect/skillB/smok/smoke_00003
+  rotate: true
+  xy: 369, 582
+  size: 138, 64
+  orig: 193, 122
+  offset: 9, 34
+  index: -1
+images/effect/skillB/smok/smoke_00004
+  rotate: true
+  xy: 499, 705
+  size: 133, 65
+  orig: 193, 122
+  offset: 6, 33
+  index: -1
+images/effect/skillB/smok2/smoke2_00002
+  rotate: false
+  xy: 748, 914
+  size: 181, 108
+  orig: 226, 138
+  offset: 22, 0
+  index: -1
+images/effect/skillB/smok2/smoke2_00003
+  rotate: false
+  xy: 568, 906
+  size: 178, 116
+  orig: 226, 138
+  offset: 3, 2
+  index: -1
+images/effect/skillB/smok2/smoke2_00005
+  rotate: true
+  xy: 241, 696
+  size: 145, 117
+  orig: 226, 138
+  offset: 0, 9
+  index: -1
+images/effect/skillB/smok2/smoke2_00006
+  rotate: false
+  xy: 360, 722
+  size: 137, 116
+  orig: 226, 138
+  offset: 0, 10
+  index: -1
+images/effect/skillB/smok_1_add/smoke1_00001
+  rotate: false
+  xy: 735, 821
+  size: 157, 48
+  orig: 208, 96
+  offset: 19, 14
+  index: -1
+images/effect/skillB/smok_1_add/smoke1_00002
+  rotate: true
+  xy: 130, 283
+  size: 187, 54
+  orig: 208, 96
+  offset: 8, 12
+  index: -1
+images/effect/skillB/smok_1_add/smoke1_00005
+  rotate: false
+  xy: 383, 840
+  size: 191, 48
+  orig: 208, 96
+  offset: 7, 9
+  index: -1
+images/effect/skillB/smok_1_add/smoke1_00006
+  rotate: false
+  xy: 748, 871
+  size: 172, 41
+  orig: 208, 96
+  offset: 20, 9
+  index: -1
+images/effect/skillB/xuanzhuan _add/xz_00001
+  rotate: false
+  xy: 576, 809
+  size: 157, 95
+  orig: 214, 152
+  offset: 29, 11
+  index: -1
+images/effect/skillB/xuanzhuan _add/xz_00002
+  rotate: true
+  xy: 122, 100
+  size: 181, 92
+  orig: 214, 152
+  offset: 10, 11
+  index: -1
+images/effect/skillB/xuanzhuan _add/xz_00003
+  rotate: false
+  xy: 383, 890
+  size: 183, 132
+  orig: 214, 152
+  offset: 10, 12
+  index: -1
+images/effect/skillB/xuanzhuan _add/xz_00004
+  rotate: true
+  xy: 2, 285
+  size: 185, 126
+  orig: 214, 152
+  offset: 6, 15
+  index: -1
+images/effect/skillB/xuanzhuan _add/xz_00006
+  rotate: true
+  xy: 2, 2
+  size: 104, 51
+  orig: 214, 152
+  offset: 52, 88
+  index: -1
+images/effect/skillB/yanhua/yh_00003
+  rotate: false
+  xy: 566, 705
+  size: 141, 102
+  orig: 312, 155
+  offset: 26, 24
+  index: -1
+images/effect/skillB/yanhua/yh_00004
+  rotate: true
+  xy: 191, 636
+  size: 190, 48
+  orig: 312, 155
+  offset: 71, 17
+  index: -1
+images/effect/skillB/yanhua/yh_00007
+  rotate: true
+  xy: 55, 32
+  size: 74, 43
+  orig: 312, 155
+  offset: 41, 9
+  index: -1
+images/effect/skillB/yanhua/yh_00009
+  rotate: false
+  xy: 497, 673
+  size: 144, 30
+  orig: 312, 155
+  offset: 30, 59
+  index: -1
+images/effect/skillB/yanhua/yh_00010
+  rotate: true
+  xy: 931, 928
+  size: 94, 56
+  orig: 312, 155
+  offset: 105, 67
+  index: -1

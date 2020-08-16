@@ -1,0 +1,404 @@
+
+effects_30601_Etransform_down.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillb/xuli/xuli_00055
+  rotate: true
+  xy: 330, 239
+  size: 249, 220
+  orig: 261, 235
+  offset: 10, 1
+  index: -1
+images/effects/skillb/xuli/xuli_00057
+  rotate: true
+  xy: 2, 153
+  size: 247, 222
+  orig: 261, 235
+  offset: 11, 0
+  index: -1
+images/effects/skillb/xuli/xuli_00061
+  rotate: true
+  xy: 330, 15
+  size: 222, 212
+  orig: 261, 235
+  offset: 24, 2
+  index: -1
+images/effects/skillb/xuli/xuli_00063
+  rotate: true
+  xy: 596, 414
+  size: 242, 223
+  orig: 261, 235
+  offset: 8, 0
+  index: -1
+images/effects/skillb/xuli/xuli_00065
+  rotate: false
+  xy: 602, 797
+  size: 258, 225
+  orig: 261, 235
+  offset: 0, 0
+  index: -1
+images/effects/skillb/xuli/xuli_00067
+  rotate: true
+  xy: 2, 663
+  size: 258, 229
+  orig: 261, 235
+  offset: 0, 0
+  index: -1
+images/effects/skillb/xuli/xuli_00069
+  rotate: true
+  xy: 2, 402
+  size: 259, 226
+  orig: 261, 235
+  offset: 1, 0
+  index: -1
+images/effects/skillb/xuli/xuli_00071
+  rotate: true
+  xy: 368, 770
+  size: 252, 232
+  orig: 261, 235
+  offset: 8, 0
+  index: -1
+images/effects/skillc/ring2/ring2_00023
+  rotate: true
+  xy: 928, 799
+  size: 223, 63
+  orig: 238, 84
+  offset: 6, 9
+  index: -1
+images/effects/skillc/ring2/ring2_00029
+  rotate: false
+  xy: 2, 88
+  size: 223, 63
+  orig: 238, 84
+  offset: 6, 9
+  index: -1
+images/effects/skillc/ring2/ring2_00031
+  rotate: true
+  xy: 891, 460
+  size: 223, 63
+  orig: 238, 84
+  offset: 6, 9
+  index: -1
+images/effects/skillc/ring2/ring2_00033
+  rotate: true
+  xy: 956, 460
+  size: 223, 63
+  orig: 238, 84
+  offset: 6, 9
+  index: -1
+images/effects/skillc/ring2/ring2_00041
+  rotate: false
+  xy: 345, 592
+  size: 223, 64
+  orig: 238, 84
+  offset: 6, 8
+  index: -1
+images/effects/skillc/ring2/ring2_00049
+  rotate: true
+  xy: 862, 799
+  size: 223, 64
+  orig: 238, 84
+  offset: 6, 8
+  index: -1
+images/effects/skillc/ring3/ring3_00063
+  rotate: true
+  xy: 230, 124
+  size: 364, 98
+  orig: 364, 122
+  offset: 0, 9
+  index: -1
+images/effects/skillc/ring3/ring3_00065
+  rotate: false
+  xy: 552, 314
+  size: 364, 98
+  orig: 364, 122
+  offset: 0, 9
+  index: -1
+images/effects/skillc/ring3/ring3_00067
+  rotate: false
+  xy: 552, 214
+  size: 364, 98
+  orig: 364, 122
+  offset: 0, 9
+  index: -1
+images/effects/skillc/ring3/ring3_00069
+  rotate: false
+  xy: 544, 114
+  size: 364, 98
+  orig: 364, 122
+  offset: 0, 9
+  index: -1
+images/effects/skillc/ring3/ring3_00073
+  rotate: false
+  xy: 2, 923
+  size: 364, 99
+  orig: 364, 122
+  offset: 0, 8
+  index: -1
+images/effects/skillc/ring3/ring3_00075
+  rotate: false
+  xy: 230, 490
+  size: 364, 99
+  orig: 364, 122
+  offset: 0, 8
+  index: -1
+images/effects/skilld/ring1/ring1_00039
+  rotate: true
+  xy: 233, 591
+  size: 330, 110
+  orig: 330, 112
+  offset: 0, 0
+  index: -1
+images/effects/skilld/ring1/ring1_00041
+  rotate: false
+  xy: 345, 658
+  size: 330, 110
+  orig: 330, 112
+  offset: 0, 0
+  index: -1
+images/effects/skilld/ring1/ring1_00043
+  rotate: false
+  xy: 677, 685
+  size: 330, 110
+  orig: 330, 112
+  offset: 0, 0
+  index: -1
+images/effects/skilld/ring1/ring1_00045
+  rotate: false
+  xy: 544, 2
+  size: 330, 110
+  orig: 330, 112
+  offset: 0, 0
+  index: -1
+images/effects/skilld/ring1/ring1_00051
+  rotate: true
+  xy: 918, 128
+  size: 330, 104
+  orig: 330, 112
+  offset: 0, 0
+  index: -1
+images/effects/skilld/ring2/ring2_00041
+  rotate: true
+  xy: 821, 414
+  size: 269, 68
+  orig: 300, 85
+  offset: 15, 12
+  index: -1
+images/effects/skilld/ring2/ring2_00051
+  rotate: false
+  xy: 2, 9
+  size: 295, 77
+  orig: 300, 85
+  offset: 0, 5
+  index: -1
+
+effects_30601_Etransform_down2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillb/xuli/xuli_00059
+  rotate: false
+  xy: 734, 811
+  size: 244, 211
+  orig: 261, 235
+  offset: 13, 4
+  index: -1
+images/effects/skillc/ring2/ring2_00025
+  rotate: false
+  xy: 700, 616
+  size: 219, 63
+  orig: 238, 84
+  offset: 10, 9
+  index: -1
+images/effects/skillc/ring2/ring2_00027
+  rotate: false
+  xy: 302, 236
+  size: 222, 63
+  orig: 238, 84
+  offset: 7, 9
+  index: -1
+images/effects/skillc/ring2/ring2_00035
+  rotate: false
+  xy: 734, 746
+  size: 223, 63
+  orig: 238, 84
+  offset: 6, 9
+  index: -1
+images/effects/skillc/ring2/ring2_00037
+  rotate: false
+  xy: 300, 170
+  size: 221, 64
+  orig: 238, 84
+  offset: 6, 8
+  index: -1
+images/effects/skillc/ring2/ring2_00039
+  rotate: false
+  xy: 298, 104
+  size: 221, 64
+  orig: 238, 84
+  offset: 6, 8
+  index: -1
+images/effects/skillc/ring2/ring2_00043
+  rotate: false
+  xy: 297, 38
+  size: 221, 64
+  orig: 238, 84
+  offset: 8, 8
+  index: -1
+images/effects/skillc/ring2/ring2_00045
+  rotate: true
+  xy: 959, 586
+  size: 223, 63
+  orig: 238, 84
+  offset: 6, 9
+  index: -1
+images/effects/skillc/ring2/ring2_00047
+  rotate: false
+  xy: 734, 681
+  size: 223, 63
+  orig: 238, 84
+  offset: 6, 9
+  index: -1
+images/effects/skillc/ring3/ring3_00061
+  rotate: false
+  xy: 2, 525
+  size: 364, 97
+  orig: 364, 122
+  offset: 0, 9
+  index: -1
+images/effects/skillc/ring3/ring3_00071
+  rotate: false
+  xy: 2, 924
+  size: 364, 98
+  orig: 364, 122
+  offset: 0, 9
+  index: -1
+images/effects/skillc/ring3/ring3_00077
+  rotate: false
+  xy: 2, 824
+  size: 364, 98
+  orig: 364, 122
+  offset: 0, 9
+  index: -1
+images/effects/skillc/ring3/ring3_00079
+  rotate: false
+  xy: 368, 924
+  size: 364, 98
+  orig: 364, 122
+  offset: 0, 9
+  index: -1
+images/effects/skillc/ring3/ring3_00081
+  rotate: false
+  xy: 2, 724
+  size: 364, 98
+  orig: 364, 122
+  offset: 0, 9
+  index: -1
+images/effects/skillc/ring3/ring3_00083
+  rotate: false
+  xy: 368, 824
+  size: 364, 98
+  orig: 364, 122
+  offset: 0, 9
+  index: -1
+images/effects/skillc/ring3/ring3_00085
+  rotate: false
+  xy: 2, 624
+  size: 364, 98
+  orig: 364, 122
+  offset: 0, 9
+  index: -1
+images/effects/skillc/ring3/ring3_00087
+  rotate: false
+  xy: 368, 724
+  size: 364, 98
+  orig: 364, 122
+  offset: 0, 9
+  index: -1
+images/effects/skilld/ring1/ring1_00047
+  rotate: false
+  xy: 368, 612
+  size: 330, 110
+  orig: 330, 112
+  offset: 0, 0
+  index: -1
+images/effects/skilld/ring1/ring1_00049
+  rotate: false
+  xy: 2, 416
+  size: 330, 107
+  orig: 330, 112
+  offset: 0, 0
+  index: -1
+images/effects/skilld/ring2/ring2_00039
+  rotate: false
+  xy: 700, 562
+  size: 194, 52
+  orig: 300, 85
+  offset: 50, 23
+  index: -1
+images/effects/skilld/ring2/ring2_00043
+  rotate: false
+  xy: 368, 456
+  size: 292, 76
+  orig: 300, 85
+  offset: 0, 6
+  index: -1
+images/effects/skilld/ring2/ring2_00045
+  rotate: false
+  xy: 334, 377
+  size: 292, 77
+  orig: 300, 85
+  offset: 0, 5
+  index: -1
+images/effects/skilld/ring2/ring2_00047
+  rotate: false
+  xy: 2, 26
+  size: 293, 77
+  orig: 300, 85
+  offset: 0, 5
+  index: -1
+images/effects/skilld/ring2/ring2_00049
+  rotate: false
+  xy: 2, 105
+  size: 294, 77
+  orig: 300, 85
+  offset: 0, 5
+  index: -1
+images/effects/skilld/ring2/ring2_00053
+  rotate: false
+  xy: 2, 184
+  size: 296, 76
+  orig: 300, 85
+  offset: 0, 6
+  index: -1
+images/effects/skilld/ring2/ring2_00055
+  rotate: false
+  xy: 368, 534
+  size: 297, 76
+  orig: 300, 85
+  offset: 0, 6
+  index: -1
+images/effects/skilld/ring2/ring2_00057
+  rotate: false
+  xy: 2, 339
+  size: 298, 75
+  orig: 300, 85
+  offset: 0, 7
+  index: -1
+images/effects/skilld/ring2/ring2_00059
+  rotate: false
+  xy: 2, 262
+  size: 298, 75
+  orig: 300, 85
+  offset: 0, 7
+  index: -1
+images/effects/skilld/ring2/ring2_00061
+  rotate: false
+  xy: 302, 301
+  size: 289, 74
+  orig: 300, 85
+  offset: 3, 8
+  index: -1

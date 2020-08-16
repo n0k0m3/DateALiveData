@@ -1,0 +1,752 @@
+
+effects_11207_skillA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/glow
+  rotate: false
+  xy: 942, 942
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+images/effect/skilla/fazhen2_000
+  rotate: false
+  xy: 2, 100
+  size: 234, 235
+  orig: 240, 240
+  offset: 4, 3
+  index: -1
+images/effect/skilla/fazhenzhuan/fazhengzhuan_013
+  rotate: false
+  xy: 2, 10
+  size: 234, 88
+  orig: 240, 94
+  offset: 5, 0
+  index: -1
+images/effect/skilla/hit/hit_000
+  rotate: false
+  xy: 323, 782
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+images/effect/skilla/hit/hit_001
+  rotate: false
+  xy: 2, 579
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+images/effect/skilla/hit2/hit2_000
+  rotate: false
+  xy: 2, 337
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+images/effect/skilla/hit2/hit2_001
+  rotate: false
+  xy: 244, 321
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+images/effect/skilla/juqi/juqi_004
+  rotate: false
+  xy: 458, 22
+  size: 252, 221
+  orig: 280, 240
+  offset: 3, 14
+  index: -1
+images/effect/skilla/juqi/juqi_006
+  rotate: false
+  xy: 549, 569
+  size: 269, 211
+  orig: 280, 240
+  offset: 3, 16
+  index: -1
+images/effect/skilla/juqi/juqi_020
+  rotate: true
+  xy: 820, 580
+  size: 202, 197
+  orig: 280, 240
+  offset: 30, 15
+  index: -1
+images/effect/skilla/shandian/shandian_006
+  rotate: false
+  xy: 942, 852
+  size: 78, 88
+  orig: 208, 160
+  offset: 23, 18
+  index: -1
+images/effect/skilla/shandian/shandian_010
+  rotate: false
+  xy: 947, 46
+  size: 70, 94
+  orig: 208, 160
+  offset: 127, 22
+  index: -1
+images/effect/skilla/shifa/shifa_002
+  rotate: false
+  xy: 688, 373
+  size: 314, 194
+  orig: 320, 240
+  offset: 0, 18
+  index: -1
+images/effect/skilla/shifa/shifa_004
+  rotate: true
+  xy: 238, 3
+  size: 316, 218
+  orig: 320, 240
+  offset: 0, 0
+  index: -1
+images/effect/skilla/shifa/shifa_006
+  rotate: false
+  xy: 2, 821
+  size: 319, 201
+  orig: 320, 240
+  offset: 0, 18
+  index: -1
+images/effect/skilla/shifa/shifa_008
+  rotate: true
+  xy: 486, 245
+  size: 319, 200
+  orig: 320, 240
+  offset: 0, 20
+  index: -1
+images/effect/skilla/suishou1/suishou1_004
+  rotate: false
+  xy: 688, 249
+  size: 271, 122
+  orig: 280, 155
+  offset: 7, 10
+  index: -1
+images/effect/skilla/suishou2/suishou2_010
+  rotate: true
+  xy: 961, 283
+  size: 88, 61
+  orig: 264, 200
+  offset: 32, 84
+  index: -1
+images/effect/skilla/tuowei/tuowei_002
+  rotate: false
+  xy: 712, 142
+  size: 280, 105
+  orig: 288, 120
+  offset: 8, 7
+  index: -1
+images/effect/skilla/zhuanlun/zhuanlun_002
+  rotate: false
+  xy: 793, 784
+  size: 147, 238
+  orig: 160, 240
+  offset: 3, 0
+  index: -1
+images/effect/skilla/zhuanlun/zhuanlun_004
+  rotate: true
+  xy: 712, 2
+  size: 138, 233
+  orig: 160, 240
+  offset: 0, 3
+  index: -1
+images/effect/skilla/zidan/zidan_000
+  rotate: true
+  xy: 244, 563
+  size: 256, 76
+  orig: 264, 88
+  offset: 0, 4
+  index: -1
+images/effect/skilld/keji1_000
+  rotate: false
+  xy: 565, 796
+  size: 226, 226
+  orig: 240, 240
+  offset: 7, 7
+  index: -1
+images/effect/skilld/keji2_000
+  rotate: false
+  xy: 322, 566
+  size: 225, 214
+  orig: 240, 240
+  offset: 7, 13
+  index: -1
+
+effects_11207_skillA2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/skilla/guangxianzi_000
+  rotate: true
+  xy: 954, 86
+  size: 132, 32
+  orig: 144, 32
+  offset: 4, 0
+  index: -1
+images/effect/skilla/hit/hit_004
+  rotate: true
+  xy: 263, 221
+  size: 211, 214
+  orig: 240, 240
+  offset: 20, 12
+  index: -1
+images/effect/skilla/hit/hit_006
+  rotate: false
+  xy: 306, 17
+  size: 221, 202
+  orig: 240, 240
+  offset: 10, 28
+  index: -1
+images/effect/skilla/hit/hit_008
+  rotate: true
+  xy: 529, 13
+  size: 221, 202
+  orig: 240, 240
+  offset: 10, 28
+  index: -1
+images/effect/skilla/hit/hit_010
+  rotate: true
+  xy: 134, 4
+  size: 215, 170
+  orig: 240, 240
+  offset: 10, 32
+  index: -1
+images/effect/skilla/juqi/juqi_002
+  rotate: false
+  xy: 733, 18
+  size: 219, 200
+  orig: 280, 240
+  offset: 26, 26
+  index: -1
+images/effect/skilla/juqi/juqi_008
+  rotate: false
+  xy: 2, 636
+  size: 270, 207
+  orig: 280, 240
+  offset: 3, 14
+  index: -1
+images/effect/skilla/juqi/juqi_010
+  rotate: false
+  xy: 2, 430
+  size: 259, 204
+  orig: 280, 240
+  offset: 0, 18
+  index: -1
+images/effect/skilla/juqi/juqi_012
+  rotate: false
+  xy: 2, 221
+  size: 253, 207
+  orig: 280, 240
+  offset: 3, 18
+  index: -1
+images/effect/skilla/juqi/juqi_014
+  rotate: false
+  xy: 630, 815
+  size: 252, 207
+  orig: 280, 240
+  offset: 3, 18
+  index: -1
+images/effect/skilla/juqi/juqi_016
+  rotate: false
+  xy: 770, 291
+  size: 252, 155
+  orig: 280, 240
+  offset: 3, 55
+  index: -1
+images/effect/skilla/juqi/juqi_018
+  rotate: false
+  xy: 263, 434
+  size: 252, 195
+  orig: 280, 240
+  offset: 3, 16
+  index: -1
+images/effect/skilla/lizisheng/lizisheng_004
+  rotate: false
+  xy: 884, 910
+  size: 138, 112
+  orig: 144, 192
+  offset: 5, 57
+  index: -1
+images/effect/skilla/shandian/shandian_002
+  rotate: false
+  xy: 861, 671
+  size: 161, 142
+  orig: 208, 160
+  offset: 34, 6
+  index: -1
+images/effect/skilla/shifa/shifa_000
+  rotate: false
+  xy: 316, 861
+  size: 312, 161
+  orig: 320, 240
+  offset: 0, 36
+  index: -1
+images/effect/skilla/shifa/shifa_001
+  rotate: false
+  xy: 2, 845
+  size: 312, 177
+  orig: 320, 240
+  offset: 0, 30
+  index: -1
+images/effect/skilla/suishou1/suishou1_006
+  rotate: false
+  xy: 316, 728
+  size: 273, 131
+  orig: 280, 155
+  offset: 7, 6
+  index: -1
+images/effect/skilla/suishou2/suishou2_004
+  rotate: false
+  xy: 517, 442
+  size: 251, 170
+  orig: 264, 200
+  offset: 4, 10
+  index: -1
+images/effect/skilla/suishou2/suishou2_006
+  rotate: false
+  xy: 770, 448
+  size: 252, 164
+  orig: 264, 200
+  offset: 3, 13
+  index: -1
+images/effect/skilla/suishou3/suishou3_000
+  rotate: false
+  xy: 517, 343
+  size: 244, 97
+  orig: 280, 120
+  offset: 0, 5
+  index: -1
+images/effect/skilla/suishou3/suishou3_004
+  rotate: false
+  xy: 591, 717
+  size: 268, 96
+  orig: 280, 120
+  offset: 9, 20
+  index: -1
+images/effect/skilla/suishou3/suishou3_006
+  rotate: false
+  xy: 274, 631
+  size: 271, 95
+  orig: 280, 120
+  offset: 9, 25
+  index: -1
+images/effect/skilla/suishou3/suishou3_010
+  rotate: false
+  xy: 884, 827
+  size: 131, 81
+  orig: 280, 120
+  offset: 138, 30
+  index: -1
+images/effect/skilla/tuowei/tuowei_004
+  rotate: false
+  xy: 479, 236
+  size: 262, 105
+  orig: 288, 120
+  offset: 13, 5
+  index: -1
+images/effect/skilla/tuowei/tuowei_006
+  rotate: false
+  xy: 547, 614
+  size: 264, 101
+  orig: 288, 120
+  offset: 11, 10
+  index: -1
+images/effect/skilla/tuowei/tuowei_008
+  rotate: false
+  xy: 743, 220
+  size: 262, 69
+  orig: 288, 120
+  offset: 15, 24
+  index: -1
+images/effect/skilla/zhuanlun/zhuanlun_006
+  rotate: false
+  xy: 2, 2
+  size: 130, 217
+  orig: 160, 240
+  offset: 1, 10
+  index: -1
+
+effects_11207_skillA3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/guangshe_000
+  rotate: false
+  xy: 197, 453
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+images/effect/skilla/fazhen_000
+  rotate: false
+  xy: 222, 615
+  size: 139, 231
+  orig: 160, 240
+  offset: 12, 5
+  index: -1
+images/effect/skilla/fazhenzhuan/fazhengzhuan_001
+  rotate: false
+  xy: 468, 784
+  size: 235, 88
+  orig: 240, 94
+  offset: 0, 0
+  index: -1
+images/effect/skilla/fazhenzhuan/fazhengzhuan_003
+  rotate: true
+  xy: 363, 612
+  size: 236, 88
+  orig: 240, 94
+  offset: 0, 0
+  index: -1
+images/effect/skilla/fazhenzhuan/fazhengzhuan_005
+  rotate: false
+  xy: 649, 627
+  size: 238, 88
+  orig: 240, 94
+  offset: 0, 0
+  index: -1
+images/effect/skilla/fazhenzhuan/fazhengzhuan_007
+  rotate: true
+  xy: 365, 24
+  size: 236, 88
+  orig: 240, 94
+  offset: 0, 0
+  index: -1
+images/effect/skilla/fazhenzhuan/fazhengzhuan_009
+  rotate: false
+  xy: 359, 503
+  size: 235, 88
+  orig: 240, 94
+  offset: 0, 0
+  index: -1
+images/effect/skilla/fazhenzhuan/fazhengzhuan_011
+  rotate: true
+  xy: 633, 89
+  size: 229, 88
+  orig: 240, 94
+  offset: 7, 0
+  index: -1
+images/effect/skilla/fazhenzhuan/fazhengzhuan_015
+  rotate: false
+  xy: 649, 537
+  size: 238, 88
+  orig: 240, 94
+  offset: 2, 0
+  index: -1
+images/effect/skilla/fazhenzhuan/fazhengzhuan_017
+  rotate: true
+  xy: 544, 80
+  size: 233, 87
+  orig: 240, 94
+  offset: 4, 1
+  index: -1
+images/effect/skilla/fazhenzhuan/fazhengzhuan_019
+  rotate: true
+  xy: 455, 77
+  size: 236, 87
+  orig: 240, 94
+  offset: 1, 1
+  index: -1
+images/effect/skilla/hit/hit_002
+  rotate: true
+  xy: 195, 262
+  size: 189, 178
+  orig: 240, 240
+  offset: 24, 32
+  index: -1
+images/effect/skilla/hit/hit_012
+  rotate: true
+  xy: 881, 128
+  size: 204, 107
+  orig: 240, 240
+  offset: 16, 84
+  index: -1
+images/effect/skilla/hit2/hit2_004
+  rotate: false
+  xy: 375, 315
+  size: 181, 186
+  orig: 240, 240
+  offset: 30, 27
+  index: -1
+images/effect/skilla/hit2/hit2_006
+  rotate: false
+  xy: 2, 455
+  size: 193, 192
+  orig: 240, 240
+  offset: 24, 24
+  index: -1
+images/effect/skilla/hit2/hit2_008
+  rotate: false
+  xy: 2, 261
+  size: 191, 192
+  orig: 240, 240
+  offset: 25, 24
+  index: -1
+images/effect/skilla/juqi/juqi_000
+  rotate: false
+  xy: 2, 649
+  size: 218, 197
+  orig: 280, 240
+  offset: 26, 29
+  index: -1
+images/effect/skilla/lizisheng/lizisheng_000
+  rotate: true
+  xy: 889, 581
+  size: 134, 133
+  orig: 144, 192
+  offset: 4, 49
+  index: -1
+images/effect/skilla/shandian/shandian_000
+  rotate: true
+  xy: 558, 320
+  size: 181, 150
+  orig: 208, 160
+  offset: 22, 2
+  index: -1
+images/effect/skilla/shandian/shandian_016
+  rotate: true
+  xy: 710, 334
+  size: 201, 159
+  orig: 208, 160
+  offset: 5, 1
+  index: -1
+images/effect/skilla/shandian/shandian_018
+  rotate: true
+  xy: 723, 131
+  size: 201, 156
+  orig: 208, 160
+  offset: 7, 4
+  index: -1
+images/effect/skilla/shifa/shifa_010
+  rotate: false
+  xy: 453, 593
+  size: 194, 189
+  orig: 320, 240
+  offset: 62, 25
+  index: -1
+images/effect/skilla/shizi_00106
+  rotate: false
+  xy: 872, 12
+  size: 113, 114
+  orig: 118, 128
+  offset: 3, 8
+  index: -1
+images/effect/skilla/suishou1/suishou1_000
+  rotate: true
+  xy: 86, 21
+  size: 238, 113
+  orig: 280, 155
+  offset: 0, 24
+  index: -1
+images/effect/skilla/suishou1/suishou1_002
+  rotate: false
+  xy: 705, 901
+  size: 261, 121
+  orig: 280, 155
+  offset: 9, 12
+  index: -1
+images/effect/skilla/suishou1/suishou1_010
+  rotate: true
+  xy: 633, 5
+  size: 82, 87
+  orig: 280, 155
+  offset: 176, 43
+  index: -1
+images/effect/skilla/suishou2/suishou2_000
+  rotate: false
+  xy: 247, 850
+  size: 219, 172
+  orig: 264, 200
+  offset: 43, 19
+  index: -1
+images/effect/skilla/suishou2/suishou2_002
+  rotate: false
+  xy: 2, 848
+  size: 243, 174
+  orig: 264, 200
+  offset: 11, 10
+  index: -1
+images/effect/skilla/suishou2/suishou2_008
+  rotate: false
+  xy: 723, 6
+  size: 147, 123
+  orig: 264, 200
+  offset: 6, 19
+  index: -1
+images/effect/skilla/suishou3/suishou3_002
+  rotate: false
+  xy: 705, 797
+  size: 260, 102
+  orig: 280, 120
+  offset: 10, 15
+  index: -1
+images/effect/skilla/zhuanlun/zhuanlun_000
+  rotate: true
+  xy: 468, 874
+  size: 148, 235
+  orig: 160, 240
+  offset: 12, 2
+  index: -1
+images/effect/skilla/zhuanlun/zhuanlun_008
+  rotate: false
+  xy: 871, 334
+  size: 78, 201
+  orig: 160, 240
+  offset: 25, 21
+  index: -1
+images/effect/skilla/zidan/zidan_002
+  rotate: false
+  xy: 705, 717
+  size: 258, 78
+  orig: 264, 88
+  offset: 0, 1
+  index: -1
+images/effect/skilla/zidan/zidan_004
+  rotate: true
+  xy: 2, 2
+  size: 257, 82
+  orig: 264, 88
+  offset: 0, 0
+  index: -1
+images/effect/skilla/zidan/zidan_006
+  rotate: true
+  xy: 201, 2
+  size: 258, 82
+  orig: 264, 88
+  offset: 0, 0
+  index: -1
+images/effect/skilla/zidan/zidan_008
+  rotate: true
+  xy: 285, 4
+  size: 256, 78
+  orig: 264, 88
+  offset: 0, 2
+  index: -1
+
+effects_11207_skillA4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/kuoci_000
+  rotate: false
+  xy: 358, 862
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+images/effect/skilla/hit2/hit2_002
+  rotate: false
+  xy: 183, 849
+  size: 173, 173
+  orig: 240, 240
+  offset: 34, 33
+  index: -1
+images/effect/skilla/hit2/hit2_010
+  rotate: true
+  xy: 2, 481
+  size: 160, 152
+  orig: 240, 240
+  offset: 38, 48
+  index: -1
+images/effect/skilla/juqi/juqi_022
+  rotate: false
+  xy: 2, 843
+  size: 179, 179
+  orig: 280, 240
+  offset: 44, 24
+  index: -1
+images/effect/skilla/lizisheng/lizisheng_002
+  rotate: false
+  xy: 295, 703
+  size: 134, 144
+  orig: 144, 192
+  offset: 5, 35
+  index: -1
+images/effect/skilla/lizisheng/lizisheng_006
+  rotate: true
+  xy: 520, 749
+  size: 137, 162
+  orig: 144, 192
+  offset: 5, 13
+  index: -1
+images/effect/skilla/lizisheng/lizisheng_008
+  rotate: false
+  xy: 2, 305
+  size: 136, 174
+  orig: 144, 192
+  offset: 5, 6
+  index: -1
+images/effect/skilla/lizisheng/lizisheng_010
+  rotate: true
+  xy: 520, 888
+  size: 134, 178
+  orig: 144, 192
+  offset: 6, 5
+  index: -1
+images/effect/skilla/lizisheng/lizisheng_012
+  rotate: true
+  xy: 2, 5
+  size: 130, 163
+  orig: 144, 192
+  offset: 9, 23
+  index: -1
+images/effect/skilla/lizisheng/lizisheng_014
+  rotate: true
+  xy: 684, 697
+  size: 135, 148
+  orig: 144, 192
+  offset: 6, 41
+  index: -1
+images/effect/skilla/lizisheng/lizisheng_016
+  rotate: false
+  xy: 2, 137
+  size: 135, 166
+  orig: 144, 192
+  offset: 5, 25
+  index: -1
+images/effect/skilla/lizisheng/lizisheng_018
+  rotate: false
+  xy: 158, 694
+  size: 135, 147
+  orig: 144, 192
+  offset: 4, 40
+  index: -1
+images/effect/skilla/shandian/shandian_004
+  rotate: true
+  xy: 893, 777
+  size: 82, 129
+  orig: 208, 160
+  offset: 104, 14
+  index: -1
+images/effect/skilla/shandian/shandian_014
+  rotate: true
+  xy: 2, 643
+  size: 198, 154
+  orig: 208, 160
+  offset: 2, 1
+  index: -1
+images/effect/skilla/suishou1/suishou1_008
+  rotate: true
+  xy: 917, 861
+  size: 161, 104
+  orig: 280, 155
+  offset: 116, 27
+  index: -1
+images/effect/skilla/suishou3/suishou3_008
+  rotate: false
+  xy: 700, 834
+  size: 191, 94
+  orig: 280, 120
+  offset: 87, 26
+  index: -1
+images/effect/skilla/tuowei/tuowei_000
+  rotate: false
+  xy: 700, 930
+  size: 215, 92
+  orig: 288, 120
+  offset: 7, 17
+  index: -1

@@ -1,0 +1,20 @@
+
+effect_DEM1_dengguang.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/deng_00020
+  rotate: false
+  xy: 2, 2
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+images/glow_000
+  rotate: false
+  xy: 2, 54
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1

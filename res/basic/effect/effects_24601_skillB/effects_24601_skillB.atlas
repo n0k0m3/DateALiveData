@@ -1,0 +1,202 @@
+
+effects_24601_skillB.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/skillB/bian/bian_00002
+  rotate: false
+  xy: 649, 334
+  size: 190, 138
+  orig: 240, 240
+  offset: 25, 48
+  index: -1
+images/effect/skillB/bian/bian_00004
+  rotate: false
+  xy: 649, 474
+  size: 190, 140
+  orig: 240, 240
+  offset: 24, 55
+  index: -1
+images/effect/skillB/bian/bian_00006
+  rotate: false
+  xy: 360, 269
+  size: 186, 140
+  orig: 240, 240
+  offset: 24, 62
+  index: -1
+images/effect/skillB/bian/bian_00008
+  rotate: true
+  xy: 360, 411
+  size: 192, 143
+  orig: 240, 240
+  offset: 23, 66
+  index: -1
+images/effect/skillB/bian/bian_00010
+  rotate: false
+  xy: 779, 866
+  size: 193, 145
+  orig: 240, 240
+  offset: 23, 67
+  index: -1
+images/effect/skillB/bian/bian_00012
+  rotate: false
+  xy: 695, 616
+  size: 193, 144
+  orig: 240, 240
+  offset: 23, 67
+  index: -1
+images/effect/skillB/bian/bian_00014
+  rotate: false
+  xy: 503, 623
+  size: 190, 150
+  orig: 240, 240
+  offset: 26, 64
+  index: -1
+images/effect/skillB/bian/bian_00016
+  rotate: true
+  xy: 349, 605
+  size: 192, 152
+  orig: 240, 240
+  offset: 24, 56
+  index: -1
+images/effect/skillB/bian/bian_00018
+  rotate: false
+  xy: 337, 129
+  size: 191, 138
+  orig: 240, 240
+  offset: 24, 38
+  index: -1
+images/effect/skillB/bian/bian_00020
+  rotate: true
+  xy: 505, 430
+  size: 191, 142
+  orig: 240, 240
+  offset: 24, 34
+  index: -1
+images/effect/skillB/glow_00017
+  rotate: false
+  xy: 321, 799
+  size: 215, 212
+  orig: 240, 240
+  offset: 11, 15
+  index: -1
+images/effect/skillB/glow_00019
+  rotate: false
+  xy: 2, 787
+  size: 317, 224
+  orig: 400, 400
+  offset: 31, 82
+  index: -1
+images/effect/skillB/lizi/lizi_00020
+  rotate: false
+  xy: 625, 213
+  size: 187, 119
+  orig: 240, 240
+  offset: 38, 59
+  index: -1
+images/effect/skillB/lizi/lizi_00022
+  rotate: true
+  xy: 266, 580
+  size: 205, 81
+  orig: 240, 240
+  offset: 28, 73
+  index: -1
+images/effect/skillB/lizi/lizi_00024
+  rotate: true
+  xy: 548, 243
+  size: 185, 75
+  orig: 240, 240
+  offset: 45, 73
+  index: -1
+images/effect/skillB/lizi/lizi_00026
+  rotate: false
+  xy: 538, 775
+  size: 213, 99
+  orig: 240, 240
+  offset: 17, 66
+  index: -1
+images/effect/skillB/lizi/lizi_00028
+  rotate: true
+  xy: 268, 375
+  size: 203, 90
+  orig: 240, 240
+  offset: 26, 61
+  index: -1
+images/effect/skillB/lizi/lizi_00030
+  rotate: false
+  xy: 753, 762
+  size: 204, 102
+  orig: 240, 240
+  offset: 22, 57
+  index: -1
+images/effect/skillB/shandian/shandian_00018
+  rotate: true
+  xy: 129, 319
+  size: 222, 137
+  orig: 280, 200
+  offset: 10, 27
+  index: -1
+images/effect/skillB/shandian/shandian_00021
+  rotate: false
+  xy: 538, 876
+  size: 239, 135
+  orig: 280, 200
+  offset: 0, 26
+  index: -1
+images/effect/skillB/shandian/shandian_00024
+  rotate: true
+  xy: 2, 261
+  size: 280, 125
+  orig: 280, 200
+  offset: 0, 34
+  index: -1
+images/effect/skillB/shandian/shandian_00028
+  rotate: true
+  xy: 2, 2
+  size: 257, 114
+  orig: 280, 200
+  offset: 23, 40
+  index: -1
+images/effect/skillB/xiaoshandian/xiaoshandian_00018
+  rotate: true
+  xy: 841, 414
+  size: 200, 74
+  orig: 200, 160
+  offset: 0, 41
+  index: -1
+images/effect/skillB/xiaoshandian/xiaoshandian_00024
+  rotate: true
+  xy: 193, 119
+  size: 198, 70
+  orig: 200, 160
+  offset: 2, 39
+  index: -1
+images/effect/skillB/xiaoshandian/xiaoshandian_00026
+  rotate: true
+  xy: 265, 122
+  size: 195, 70
+  orig: 200, 160
+  offset: 5, 39
+  index: -1
+images/effect/skillB/xiaoshandian/xiaoshandian_00028
+  rotate: false
+  xy: 337, 58
+  size: 194, 69
+  orig: 200, 160
+  offset: 6, 40
+  index: -1
+images/effect/skillB/xiaoshandian/xiaoshandian_00032
+  rotate: true
+  xy: 118, 59
+  size: 200, 73
+  orig: 200, 160
+  offset: 0, 41
+  index: -1
+images/effect/skillB/xuanzhuanyuan_00028
+  rotate: false
+  xy: 2, 543
+  size: 262, 242
+  orig: 400, 400
+  offset: 69, 84
+  index: -1

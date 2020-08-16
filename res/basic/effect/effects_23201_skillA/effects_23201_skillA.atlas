@@ -1,0 +1,132 @@
+
+effects_23201_skillA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baodian/baodian_00022
+  rotate: false
+  xy: 578, 715
+  size: 126, 93
+  orig: 284, 284
+  offset: 74, 97
+  index: -1
+baodian/baodian_00023
+  rotate: true
+  xy: 204, 282
+  size: 205, 174
+  orig: 284, 284
+  offset: 39, 60
+  index: -1
+baodian/baodian_00024
+  rotate: true
+  xy: 209, 75
+  size: 205, 174
+  orig: 284, 284
+  offset: 39, 60
+  index: -1
+baodian/baodian_00025
+  rotate: false
+  xy: 2, 834
+  size: 254, 180
+  orig: 284, 284
+  offset: 18, 63
+  index: -1
+baodian/baodian_00026
+  rotate: false
+  xy: 2, 659
+  size: 253, 173
+  orig: 284, 284
+  offset: 21, 64
+  index: -1
+baodian/baodian_00028
+  rotate: false
+  xy: 258, 845
+  size: 249, 169
+  orig: 284, 284
+  offset: 19, 64
+  index: -1
+baodian/baodian_00030
+  rotate: false
+  xy: 2, 489
+  size: 249, 168
+  orig: 284, 284
+  offset: 19, 64
+  index: -1
+baodian/baodian_00032
+  rotate: false
+  xy: 451, 683
+  size: 125, 125
+  orig: 284, 284
+  offset: 58, 83
+  index: -1
+zhuazi1/zhuazi1
+  rotate: false
+  xy: 2, 2
+  size: 128, 60
+  orig: 320, 142
+  offset: 0, 34
+  index: -1
+zhuazi1/zhuazi3
+  rotate: false
+  xy: 509, 911
+  size: 273, 103
+  orig: 320, 142
+  offset: 43, 19
+  index: -1
+zhuazi1/zhuazi5
+  rotate: true
+  xy: 257, 565
+  size: 267, 101
+  orig: 320, 142
+  offset: 47, 24
+  index: -1
+zhuazi1/zhuazi7
+  rotate: false
+  xy: 509, 810
+  size: 276, 99
+  orig: 320, 142
+  offset: 36, 26
+  index: -1
+zhuazi1/zhuazi9
+  rotate: true
+  xy: 360, 572
+  size: 271, 89
+  orig: 320, 142
+  offset: 35, 23
+  index: -1
+zhuazi2/zhuazi2_00000
+  rotate: false
+  xy: 451, 590
+  size: 111, 91
+  orig: 249, 249
+  offset: 60, 147
+  index: -1
+zhuazi2/zhuazi2_00002
+  rotate: false
+  xy: 2, 274
+  size: 200, 213
+  orig: 249, 249
+  offset: 18, 4
+  index: -1
+zhuazi2/zhuazi2_00004
+  rotate: false
+  xy: 2, 64
+  size: 205, 208
+  orig: 249, 249
+  offset: 8, 5
+  index: -1
+zhuazi2/zhuazi2_00006
+  rotate: false
+  xy: 787, 821
+  size: 203, 193
+  orig: 249, 249
+  offset: 9, 7
+  index: -1
+zhuazi2/zhuazi2_00008
+  rotate: true
+  xy: 787, 653
+  size: 166, 187
+  orig: 249, 249
+  offset: 45, 13
+  index: -1

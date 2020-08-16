@@ -1,0 +1,180 @@
+{
+"skeleton": { "hash": "X4XkBAQw3t6/q0JSB/FGYeb/6AA", "spine": "2.1.27", "width": 412.45, "height": 390.79, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "effect", "parent": "root" },
+	{ "name": "guang", "parent": "root" },
+	{ "name": "glow", "parent": "effect" },
+	{ "name": "yangguang", "parent": "guang" },
+	{ "name": "yangguang2", "parent": "guang" }
+],
+"slots": [
+	{ "name": "glow_00060", "bone": "glow", "attachment": "glow_00060" },
+	{ "name": "yangguang_00000", "bone": "yangguang", "attachment": "yangguang_00000" },
+	{ "name": "yangguang_0", "bone": "yangguang2", "attachment": "yangguang_00000" }
+],
+"skins": {
+	"default": {
+		"glow_00060": {
+			"glow_00060": { "x": 112.45, "y": -90.79, "width": 300, "height": 300 }
+		},
+		"yangguang_0": {
+			"yangguang_00000": { "width": 300, "height": 300 }
+		},
+		"yangguang_00000": {
+			"yangguang_00000": { "width": 300, "height": 300 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"glow_00060": {
+				"attachment": [
+					{ "time": 0, "name": "glow_00060" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff91" },
+					{ "time": 2.6666, "color": "ffffffff" },
+					{ "time": 5.3333, "color": "ffffff91" }
+				]
+			},
+			"yangguang_00000": {
+				"attachment": [
+					{ "time": 0, "name": "yangguang_00000" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 5.3333, "color": "ffffff00" }
+				]
+			},
+			"yangguang_0": {
+				"attachment": [
+					{ "time": 0, "name": "yangguang_00000" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 5.3333, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"glow": {
+				"rotate": [
+					{ "time": 0, "angle": 0.88 }
+				],
+				"translate": [
+					{ "time": 0, "x": -689.09, "y": 528.61 }
+				],
+				"scale": [
+					{ "time": 0, "x": 6.028, "y": 6.028 },
+					{ "time": 2.6666, "x": 6.522, "y": 6.522 },
+					{ "time": 5.3333, "x": 6.028, "y": 6.028 }
+				]
+			},
+			"yangguang": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 5.3333, "angle": 9 }
+				],
+				"translate": [
+					{ "time": 0, "x": -272.87, "y": 502.8 }
+				],
+				"scale": [
+					{ "time": 0, "x": 6.104, "y": 6.114 }
+				]
+			},
+			"yangguang2": {
+				"rotate": [
+					{ "time": 0, "angle": -9 },
+					{ "time": 5.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -272.87, "y": 502.8 }
+				],
+				"scale": [
+					{ "time": 0, "x": 6.104, "y": 6.114 }
+				]
+			},
+			"effect": {
+				"rotate": [
+					{ "time": 0, "angle": -2.45 }
+				],
+				"translate": [
+					{ "time": 0, "x": 527.89, "y": 24.13 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.864, "y": 0.864 }
+				]
+			},
+			"guang": {
+				"rotate": [
+					{ "time": 0, "angle": 9.82 }
+				],
+				"translate": [
+					{ "time": 0, "x": 685.94, "y": -546.56 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.938, "y": 1.423 }
+				]
+			}
+		}
+	},
+	"animation2": {
+		"slots": {
+			"yangguang_00000": {
+				"attachment": [
+					{ "time": 0, "name": "yangguang_00000" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 3.5333, "color": "ffffff00" }
+				]
+			},
+			"yangguang_0": {
+				"attachment": [
+					{ "time": 0, "name": "yangguang_00000" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 3.5333, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"yangguang": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 3.5333, "angle": 9 }
+				],
+				"translate": [
+					{ "time": 0, "x": -272.87, "y": 502.8 }
+				],
+				"scale": [
+					{ "time": 0, "x": 6.104, "y": 6.114 }
+				]
+			},
+			"yangguang2": {
+				"rotate": [
+					{ "time": 0, "angle": -9 },
+					{ "time": 3.5333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -272.87, "y": 502.8 }
+				],
+				"scale": [
+					{ "time": 0, "x": 6.104, "y": 6.114 }
+				]
+			},
+			"glow": {
+				"translate": [
+					{ "time": 0, "x": -57.61, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 5.634, "y": 5.634 }
+				]
+			}
+		}
+	}
+}
+}

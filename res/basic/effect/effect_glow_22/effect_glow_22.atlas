@@ -1,0 +1,76 @@
+
+effect_glow_22.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dengbang/dengbang1
+  rotate: false
+  xy: 2, 274
+  size: 234, 84
+  orig: 234, 84
+  offset: 0, 0
+  index: -1
+dengbang/dengbang2
+  rotate: false
+  xy: 431, 602
+  size: 117, 70
+  orig: 117, 70
+  offset: 0, 0
+  index: -1
+dengbang/dengbang3
+  rotate: false
+  xy: 2, 106
+  size: 178, 94
+  orig: 178, 94
+  offset: 0, 0
+  index: -1
+dengbang/dengbang4
+  rotate: false
+  xy: 2, 202
+  size: 227, 70
+  orig: 227, 70
+  offset: 0, 0
+  index: -1
+dengbang/dengbang5
+  rotate: false
+  xy: 2, 360
+  size: 241, 118
+  orig: 241, 118
+  offset: 0, 0
+  index: -1
+dimianguang/dimianguang
+  rotate: false
+  xy: 554, 689
+  size: 189, 54
+  orig: 189, 54
+  offset: 0, 0
+  index: -1
+dimianguang/dimianguang1
+  rotate: false
+  xy: 2, 562
+  size: 427, 110
+  orig: 427, 110
+  offset: 0, 0
+  index: -1
+dimianguang/dimianguang2
+  rotate: false
+  xy: 2, 68
+  size: 141, 36
+  orig: 141, 36
+  offset: 0, 0
+  index: -1
+dimianguang/dimianguang3
+  rotate: false
+  xy: 2, 480
+  size: 311, 80
+  orig: 311, 80
+  offset: 0, 0
+  index: -1
+dimianguang1
+  rotate: false
+  xy: 2, 674
+  size: 550, 69
+  orig: 560, 70
+  offset: 6, 0
+  index: -1

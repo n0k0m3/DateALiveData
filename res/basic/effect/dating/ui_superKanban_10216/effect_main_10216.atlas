@@ -1,0 +1,768 @@
+
+effect_main_10216.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/bian2
+  rotate: false
+  xy: 2, 288
+  size: 591, 118
+  orig: 591, 118
+  offset: 0, 0
+  index: -1
+images/bian3
+  rotate: true
+  xy: 789, 431
+  size: 591, 114
+  orig: 591, 114
+  offset: 0, 0
+  index: -1
+images/bian4
+  rotate: false
+  xy: 2, 114
+  size: 480, 172
+  orig: 480, 172
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00001
+  rotate: false
+  xy: 913, 2
+  size: 14, 7
+  orig: 14, 7
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00002
+  rotate: false
+  xy: 956, 174
+  size: 32, 10
+  orig: 32, 10
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00003
+  rotate: false
+  xy: 906, 171
+  size: 48, 13
+  orig: 48, 13
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00004
+  rotate: false
+  xy: 845, 100
+  size: 61, 16
+  orig: 61, 16
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00005
+  rotate: false
+  xy: 380, 94
+  size: 79, 18
+  orig: 79, 18
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00006
+  rotate: false
+  xy: 789, 408
+  size: 94, 21
+  orig: 94, 21
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00007
+  rotate: false
+  xy: 913, 11
+  size: 106, 24
+  orig: 106, 24
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00020
+  rotate: false
+  xy: 150, 25
+  size: 228, 87
+  orig: 228, 87
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00021
+  rotate: true
+  xy: 905, 805
+  size: 217, 99
+  orig: 217, 99
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00023
+  rotate: true
+  xy: 484, 95
+  size: 191, 109
+  orig: 191, 109
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00025
+  rotate: true
+  xy: 905, 419
+  size: 161, 111
+  orig: 161, 111
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00026
+  rotate: false
+  xy: 2, 2
+  size: 146, 110
+  orig: 146, 110
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00027
+  rotate: true
+  xy: 913, 37
+  size: 132, 109
+  orig: 132, 109
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00032
+  rotate: false
+  xy: 399, 2
+  size: 166, 90
+  orig: 166, 90
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00033
+  rotate: false
+  xy: 731, 7
+  size: 180, 85
+  orig: 180, 85
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00039
+  rotate: true
+  xy: 991, 171
+  size: 246, 25
+  orig: 246, 25
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00042
+  rotate: false
+  xy: 150, 2
+  size: 247, 21
+  orig: 247, 21
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00043
+  rotate: false
+  xy: 595, 94
+  size: 248, 22
+  orig: 248, 22
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00061
+  rotate: true
+  xy: 906, 186
+  size: 231, 83
+  orig: 231, 83
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00062
+  rotate: true
+  xy: 905, 582
+  size: 221, 94
+  orig: 221, 94
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00073
+  rotate: false
+  xy: 567, 2
+  size: 162, 90
+  orig: 162, 90
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00082
+  rotate: true
+  xy: 1006, 773
+  size: 249, 16
+  orig: 249, 16
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00087
+  rotate: true
+  xy: 1001, 588
+  size: 183, 20
+  orig: 183, 20
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00095
+  rotate: true
+  xy: 380, 28
+  size: 64, 14
+  orig: 64, 14
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00098
+  rotate: true
+  xy: 906, 156
+  size: 13, 5
+  orig: 13, 5
+  offset: 0, 0
+  index: -1
+images/shan
+  rotate: false
+  xy: 2, 408
+  size: 785, 614
+  orig: 785, 614
+  offset: 0, 0
+  index: -1
+images/xingxing
+  rotate: false
+  xy: 595, 118
+  size: 309, 288
+  orig: 309, 288
+  offset: 0, 0
+  index: -1
+
+effect_main_102162.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/1973e768-76d3-4663-8206-a0e8acb15428
+  rotate: true
+  xy: 826, 70
+  size: 123, 70
+  orig: 123, 70
+  offset: 0, 0
+  index: -1
+images/bian
+  rotate: false
+  xy: 2, 867
+  size: 455, 155
+  orig: 455, 155
+  offset: 0, 0
+  index: -1
+images/dian_00000
+  rotate: true
+  xy: 660, 99
+  size: 29, 30
+  orig: 29, 30
+  offset: 0, 0
+  index: -1
+images/glow
+  rotate: false
+  xy: 880, 594
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00008
+  rotate: false
+  xy: 208, 692
+  size: 121, 27
+  orig: 121, 27
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00009
+  rotate: true
+  xy: 276, 56
+  size: 138, 30
+  orig: 138, 30
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00010
+  rotate: false
+  xy: 560, 240
+  size: 153, 34
+  orig: 153, 34
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00011
+  rotate: true
+  xy: 216, 20
+  size: 166, 37
+  orig: 166, 37
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00012
+  rotate: true
+  xy: 624, 528
+  size: 180, 42
+  orig: 180, 42
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00013
+  rotate: false
+  xy: 459, 869
+  size: 194, 47
+  orig: 194, 47
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00014
+  rotate: false
+  xy: 705, 815
+  size: 208, 52
+  orig: 208, 52
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00015
+  rotate: false
+  xy: 432, 710
+  size: 222, 57
+  orig: 222, 57
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00016
+  rotate: true
+  xy: 73, 200
+  size: 235, 61
+  orig: 235, 61
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00017
+  rotate: true
+  xy: 76, 437
+  size: 239, 65
+  orig: 239, 65
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00018
+  rotate: true
+  xy: 2, 440
+  size: 236, 72
+  orig: 236, 72
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00019
+  rotate: false
+  xy: 2, 787
+  size: 234, 78
+  orig: 234, 78
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00022
+  rotate: false
+  xy: 2, 678
+  size: 204, 107
+  orig: 204, 107
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00024
+  rotate: true
+  xy: 511, 532
+  size: 176, 111
+  orig: 176, 111
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00028
+  rotate: false
+  xy: 747, 394
+  size: 118, 108
+  orig: 118, 108
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00029
+  rotate: true
+  xy: 328, 75
+  size: 121, 104
+  orig: 121, 104
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00030
+  rotate: false
+  xy: 734, 291
+  size: 135, 101
+  orig: 135, 101
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00031
+  rotate: false
+  xy: 581, 297
+  size: 151, 95
+  orig: 151, 95
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00034
+  rotate: false
+  xy: 711, 735
+  size: 196, 78
+  orig: 196, 78
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00035
+  rotate: false
+  xy: 668, 664
+  size: 210, 69
+  orig: 210, 69
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00036
+  rotate: false
+  xy: 208, 721
+  size: 222, 59
+  orig: 222, 59
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00037
+  rotate: true
+  xy: 466, 455
+  size: 235, 43
+  orig: 235, 43
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00038
+  rotate: false
+  xy: 669, 913
+  size: 244, 33
+  orig: 244, 33
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00040
+  rotate: true
+  xy: 198, 188
+  size: 246, 19
+  orig: 246, 19
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00041
+  rotate: false
+  xy: 461, 790
+  size: 248, 18
+  orig: 248, 18
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00044
+  rotate: true
+  xy: 307, 445
+  size: 245, 25
+  orig: 245, 25
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00045
+  rotate: true
+  xy: 209, 443
+  size: 247, 27
+  orig: 247, 27
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00046
+  rotate: true
+  xy: 238, 444
+  size: 246, 30
+  orig: 246, 30
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00047
+  rotate: true
+  xy: 257, 196
+  size: 246, 32
+  orig: 246, 32
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00048
+  rotate: true
+  xy: 270, 444
+  size: 246, 35
+  orig: 246, 35
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00049
+  rotate: true
+  xy: 219, 194
+  size: 247, 36
+  orig: 247, 36
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00050
+  rotate: true
+  xy: 319, 198
+  size: 245, 39
+  orig: 245, 39
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00051
+  rotate: false
+  xy: 655, 869
+  size: 245, 42
+  orig: 245, 42
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00052
+  rotate: true
+  xy: 334, 445
+  size: 245, 44
+  orig: 245, 44
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00053
+  rotate: true
+  xy: 417, 449
+  size: 241, 47
+  orig: 241, 47
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00054
+  rotate: true
+  xy: 382, 201
+  size: 243, 50
+  orig: 243, 50
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00055
+  rotate: true
+  xy: 434, 206
+  size: 241, 54
+  orig: 241, 54
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00056
+  rotate: false
+  xy: 461, 810
+  size: 242, 57
+  orig: 242, 57
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00057
+  rotate: true
+  xy: 136, 193
+  size: 241, 60
+  orig: 241, 60
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00058
+  rotate: true
+  xy: 143, 436
+  size: 240, 64
+  orig: 240, 64
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00059
+  rotate: true
+  xy: 2, 199
+  size: 239, 69
+  orig: 239, 69
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00060
+  rotate: false
+  xy: 669, 948
+  size: 236, 74
+  orig: 236, 74
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00063
+  rotate: false
+  xy: 459, 918
+  size: 208, 104
+  orig: 208, 104
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00064
+  rotate: true
+  xy: 915, 830
+  size: 192, 107
+  orig: 192, 107
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00065
+  rotate: true
+  xy: 83, 11
+  size: 180, 109
+  orig: 180, 109
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00066
+  rotate: false
+  xy: 581, 394
+  size: 164, 108
+  orig: 164, 108
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00067
+  rotate: false
+  xy: 539, 130
+  size: 151, 108
+  orig: 151, 108
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00068
+  rotate: true
+  xy: 915, 692
+  size: 136, 107
+  orig: 136, 107
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00069
+  rotate: false
+  xy: 538, 22
+  size: 120, 106
+  orig: 120, 106
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00070
+  rotate: true
+  xy: 434, 86
+  size: 118, 102
+  orig: 118, 102
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00071
+  rotate: false
+  xy: 692, 94
+  size: 132, 99
+  orig: 132, 99
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00072
+  rotate: false
+  xy: 718, 195
+  size: 148, 94
+  orig: 148, 94
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00074
+  rotate: false
+  xy: 668, 504
+  size: 178, 85
+  orig: 178, 85
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00075
+  rotate: true
+  xy: 2, 5
+  size: 192, 79
+  orig: 192, 79
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00076
+  rotate: false
+  xy: 668, 591
+  size: 207, 71
+  orig: 207, 71
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00077
+  rotate: false
+  xy: 238, 804
+  size: 221, 61
+  orig: 221, 61
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00078
+  rotate: true
+  xy: 490, 219
+  size: 234, 47
+  orig: 234, 47
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00079
+  rotate: true
+  xy: 380, 446
+  size: 244, 35
+  orig: 244, 35
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00080
+  rotate: true
+  xy: 291, 196
+  size: 246, 26
+  orig: 246, 26
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00081
+  rotate: true
+  xy: 360, 198
+  size: 245, 20
+  orig: 245, 20
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00083
+  rotate: false
+  xy: 466, 769
+  size: 240, 19
+  orig: 240, 19
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00084
+  rotate: true
+  xy: 539, 274
+  size: 228, 19
+  orig: 228, 19
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00085
+  rotate: false
+  xy: 238, 782
+  size: 214, 20
+  orig: 214, 20
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00086
+  rotate: true
+  xy: 560, 302
+  size: 200, 19
+  orig: 200, 19
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00088
+  rotate: true
+  xy: 194, 16
+  size: 170, 20
+  orig: 170, 20
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00089
+  rotate: false
+  xy: 560, 276
+  size: 156, 19
+  orig: 156, 19
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00090
+  rotate: true
+  xy: 255, 52
+  size: 140, 19
+  orig: 140, 19
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00091
+  rotate: true
+  xy: 308, 69
+  size: 125, 18
+  orig: 125, 18
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00092
+  rotate: false
+  xy: 511, 513
+  size: 110, 17
+  orig: 110, 17
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00093
+  rotate: false
+  xy: 216, 2
+  size: 93, 16
+  orig: 93, 16
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00094
+  rotate: false
+  xy: 331, 704
+  size: 77, 15
+  orig: 77, 15
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00096
+  rotate: true
+  xy: 848, 541
+  size: 48, 12
+  orig: 48, 12
+  offset: 0, 0
+  index: -1
+images/paoxian1/paoxian_00097
+  rotate: false
+  xy: 331, 692
+  size: 32, 10
+  orig: 32, 10
+  offset: 0, 0
+  index: -1
+images/xing3_00000
+  rotate: true
+  xy: 656, 735
+  size: 32, 23
+  orig: 32, 23
+  offset: 0, 0
+  index: -1

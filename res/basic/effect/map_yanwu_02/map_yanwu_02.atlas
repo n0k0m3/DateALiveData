@@ -1,0 +1,13 @@
+
+map_yanwu_02.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/yyyyy
+  rotate: false
+  xy: 2, 2
+  size: 38, 103
+  orig: 38, 103
+  offset: 0, 0
+  index: -1

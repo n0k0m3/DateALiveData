@@ -1,0 +1,20 @@
+
+stone_skill.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/glow_00000
+  rotate: false
+  xy: 2, 93
+  size: 132, 147
+  orig: 132, 147
+  offset: 0, 0
+  index: -1
+image/tubiao
+  rotate: false
+  xy: 136, 124
+  size: 104, 116
+  orig: 104, 116
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,285 @@
+
+stone_compose.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/hengxian_00040
+  rotate: false
+  xy: 479, 81
+  size: 193, 41
+  orig: 300, 100
+  offset: 54, 34
+  index: -1
+image/huangbao/huangbao_00116
+  rotate: false
+  xy: 2, 722
+  size: 297, 300
+  orig: 300, 300
+  offset: 3, 0
+  index: -1
+image/lanbao/lanbao_00110
+  rotate: true
+  xy: 880, 879
+  size: 143, 132
+  orig: 300, 300
+  offset: 82, 74
+  index: -1
+image/lanbao/lanbao_00112
+  rotate: false
+  xy: 880, 746
+  size: 141, 131
+  orig: 300, 300
+  offset: 83, 75
+  index: -1
+image/lanbao/lanbao_00114
+  rotate: true
+  xy: 886, 605
+  size: 139, 129
+  orig: 300, 300
+  offset: 85, 78
+  index: -1
+image/lizi/lizi_00098
+  rotate: false
+  xy: 332, 4
+  size: 145, 118
+  orig: 300, 300
+  offset: 85, 9
+  index: -1
+image/lizi/lizi_00102
+  rotate: false
+  xy: 886, 478
+  size: 128, 125
+  orig: 300, 300
+  offset: 79, 7
+  index: -1
+image/lizi/lizi_00104
+  rotate: true
+  xy: 187, 5
+  size: 114, 143
+  orig: 300, 300
+  offset: 92, 7
+  index: -1
+image/lizi/lizi_00106
+  rotate: true
+  xy: 2, 2
+  size: 117, 183
+  orig: 300, 300
+  offset: 93, 6
+  index: -1
+image/lizi/lizi_00108
+  rotate: false
+  xy: 881, 2
+  size: 126, 206
+  orig: 300, 300
+  offset: 89, 9
+  index: -1
+image/lizi/lizi_00110
+  rotate: false
+  xy: 881, 210
+  size: 136, 214
+  orig: 300, 300
+  offset: 84, 22
+  index: -1
+image/xishou/xishou_00069
+  rotate: false
+  xy: 2, 121
+  size: 294, 297
+  orig: 300, 300
+  offset: 6, 3
+  index: -1
+image/xishou/xishou_00071
+  rotate: false
+  xy: 301, 722
+  size: 290, 300
+  orig: 300, 300
+  offset: 8, 0
+  index: -1
+image/xishou/xishou_00073
+  rotate: false
+  xy: 595, 124
+  size: 284, 300
+  orig: 300, 300
+  offset: 5, 0
+  index: -1
+image/xishou/xishou_00077
+  rotate: false
+  xy: 592, 426
+  size: 292, 294
+  orig: 300, 300
+  offset: 7, 3
+  index: -1
+image/xishou/xishou_00079
+  rotate: false
+  xy: 298, 124
+  size: 295, 295
+  orig: 300, 300
+  offset: 5, 5
+  index: -1
+image/xishou/xishou_00081
+  rotate: true
+  xy: 2, 420
+  size: 300, 294
+  orig: 300, 300
+  offset: 0, 3
+  index: -1
+image/xishou/xishou_00083
+  rotate: true
+  xy: 298, 421
+  size: 299, 292
+  orig: 300, 300
+  offset: 1, 8
+  index: -1
+image/xishou/xishou_00085
+  rotate: false
+  xy: 593, 728
+  size: 285, 294
+  orig: 300, 300
+  offset: 15, 3
+  index: -1
+
+stone_compose2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/huangbao/huangbao_00118
+  rotate: true
+  xy: 628, 421
+  size: 169, 165
+  orig: 300, 300
+  offset: 68, 61
+  index: -1
+image/huangbao/huangbao_00120
+  rotate: true
+  xy: 576, 14
+  size: 176, 174
+  orig: 300, 300
+  offset: 66, 56
+  index: -1
+image/huangbao/huangbao_00122
+  rotate: false
+  xy: 434, 388
+  size: 192, 194
+  orig: 300, 300
+  offset: 58, 44
+  index: -1
+image/huangbao/huangbao_00124
+  rotate: true
+  xy: 237, 183
+  size: 194, 200
+  orig: 300, 300
+  offset: 56, 40
+  index: -1
+image/huangbao/huangbao_00126
+  rotate: false
+  xy: 237, 379
+  size: 195, 203
+  orig: 300, 300
+  offset: 54, 38
+  index: -1
+image/huangbao/huangbao_00128
+  rotate: true
+  xy: 290, 584
+  size: 198, 207
+  orig: 300, 300
+  offset: 54, 36
+  index: -1
+image/huangbao/huangbao_00130
+  rotate: true
+  xy: 439, 192
+  size: 194, 190
+  orig: 300, 300
+  offset: 50, 46
+  index: -1
+image/huangbao/huangbao_00132
+  rotate: false
+  xy: 227, 2
+  size: 191, 179
+  orig: 300, 300
+  offset: 54, 53
+  index: -1
+image/huangbao/huangbao_00134
+  rotate: false
+  xy: 420, 2
+  size: 154, 179
+  orig: 300, 300
+  offset: 72, 54
+  index: -1
+image/lanbao/lanbao_00098
+  rotate: false
+  xy: 2, 490
+  size: 233, 232
+  orig: 300, 300
+  offset: 33, 34
+  index: -1
+image/lanbao/lanbao_00100
+  rotate: false
+  xy: 290, 784
+  size: 233, 232
+  orig: 300, 300
+  offset: 33, 34
+  index: -1
+image/lanbao/lanbao_00102
+  rotate: false
+  xy: 2, 256
+  size: 233, 232
+  orig: 300, 300
+  offset: 33, 34
+  index: -1
+image/lanbao/lanbao_00104
+  rotate: false
+  xy: 525, 793
+  size: 223, 223
+  orig: 300, 300
+  offset: 37, 39
+  index: -1
+image/lanbao/lanbao_00106
+  rotate: false
+  xy: 2, 31
+  size: 223, 223
+  orig: 300, 300
+  offset: 37, 39
+  index: -1
+image/lanbao/lanbao_00108
+  rotate: false
+  xy: 750, 803
+  size: 213, 213
+  orig: 300, 300
+  offset: 43, 43
+  index: -1
+image/lizi/lizi_00100
+  rotate: false
+  xy: 631, 297
+  size: 131, 122
+  orig: 300, 300
+  offset: 82, 8
+  index: -1
+image/lizi/lizi_00112
+  rotate: false
+  xy: 838, 615
+  size: 146, 186
+  orig: 300, 300
+  offset: 78, 57
+  index: -1
+image/lizi/lizi_00114
+  rotate: false
+  xy: 499, 592
+  size: 149, 190
+  orig: 300, 300
+  offset: 79, 60
+  index: -1
+image/xishou/xishou_00075
+  rotate: false
+  xy: 2, 724
+  size: 286, 292
+  orig: 300, 300
+  offset: 6, 2
+  index: -1
+image/yuan_00117
+  rotate: false
+  xy: 650, 603
+  size: 186, 188
+  orig: 300, 300
+  offset: 58, 56
+  index: -1

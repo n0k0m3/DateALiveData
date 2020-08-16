@@ -1,0 +1,167 @@
+
+effect_main_12202.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+deng/deng1
+  rotate: false
+  xy: 2, 400
+  size: 97, 146
+  orig: 97, 146
+  offset: 0, 0
+  index: -1
+deng/deng2
+  rotate: false
+  xy: 677, 707
+  size: 62, 94
+  orig: 62, 94
+  offset: 0, 0
+  index: -1
+deng/deng3
+  rotate: false
+  xy: 75, 372
+  size: 12, 26
+  orig: 12, 26
+  offset: 0, 0
+  index: -1
+deng/deng4
+  rotate: false
+  xy: 741, 734
+  size: 18, 5
+  orig: 18, 5
+  offset: 0, 0
+  index: -1
+deng/deng5
+  rotate: false
+  xy: 729, 686
+  size: 10, 19
+  orig: 10, 19
+  offset: 0, 0
+  index: -1
+deng/deng6
+  rotate: false
+  xy: 781, 784
+  size: 45, 17
+  orig: 45, 17
+  offset: 0, 0
+  index: -1
+deng/deng7
+  rotate: false
+  xy: 741, 741
+  size: 38, 60
+  orig: 38, 60
+  offset: 0, 0
+  index: -1
+deng/deng8
+  rotate: false
+  xy: 522, 578
+  size: 13, 9
+  orig: 13, 9
+  offset: 0, 0
+  index: -1
+deng/guangshu
+  rotate: false
+  xy: 2, 548
+  size: 377, 39
+  orig: 381, 39
+  offset: 0, 0
+  index: -1
+lizi
+  rotate: false
+  xy: 101, 495
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+lizi2
+  rotate: false
+  xy: 677, 655
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+qipao
+  rotate: false
+  xy: 677, 803
+  size: 180, 181
+  orig: 180, 181
+  offset: 0, 0
+  index: -1
+saoguang_00000
+  rotate: false
+  xy: 154, 521
+  size: 39, 25
+  orig: 123, 74
+  offset: 14, 11
+  index: -1
+saoguang_00001
+  rotate: false
+  xy: 101, 463
+  size: 50, 30
+  orig: 123, 74
+  offset: 14, 11
+  index: -1
+saoguang_00002
+  rotate: false
+  xy: 859, 909
+  size: 61, 35
+  orig: 123, 74
+  offset: 14, 11
+  index: -1
+saoguang_00003
+  rotate: false
+  xy: 859, 946
+  size: 70, 38
+  orig: 123, 74
+  offset: 16, 13
+  index: -1
+saoguang_00004
+  rotate: false
+  xy: 381, 549
+  size: 72, 38
+  orig: 123, 74
+  offset: 25, 18
+  index: -1
+saoguang_00005
+  rotate: false
+  xy: 2, 361
+  size: 71, 37
+  orig: 123, 74
+  offset: 37, 23
+  index: -1
+saoguang_00006
+  rotate: false
+  xy: 455, 554
+  size: 65, 33
+  orig: 123, 74
+  offset: 49, 29
+  index: -1
+saoguang_00007
+  rotate: false
+  xy: 931, 956
+  size: 53, 28
+  orig: 123, 74
+  offset: 61, 34
+  index: -1
+saoguang_00008
+  rotate: false
+  xy: 677, 630
+  size: 41, 23
+  orig: 123, 74
+  offset: 73, 39
+  index: -1
+xingxing
+  rotate: false
+  xy: 2, 312
+  size: 47, 47
+  orig: 47, 47
+  offset: 0, 0
+  index: -1
+yejing
+  rotate: false
+  xy: 2, 589
+  size: 673, 395
+  orig: 673, 395
+  offset: 0, 0
+  index: -1

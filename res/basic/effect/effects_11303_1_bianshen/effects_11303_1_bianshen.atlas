@@ -1,0 +1,62 @@
+
+effects_11303_1_bianshen.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skillA/glow_000
+  rotate: false
+  xy: 733, 736
+  size: 76, 76
+  orig: 80, 80
+  offset: 2, 2
+  index: -1
+effects/skillC/BOOM_00001
+  rotate: false
+  xy: 733, 814
+  size: 198, 131
+  orig: 200, 200
+  offset: 2, 49
+  index: -1
+effects/skillC/bianren/bianren_00000
+  rotate: false
+  xy: 2, 2
+  size: 230, 206
+  orig: 275, 254
+  offset: 42, 30
+  index: -1
+effects/skillC/bianren/bianren_00002
+  rotate: false
+  xy: 490, 727
+  size: 241, 218
+  orig: 275, 254
+  offset: 30, 14
+  index: -1
+effects/skillC/bianren/bianren_00004
+  rotate: false
+  xy: 2, 210
+  size: 237, 240
+  orig: 275, 254
+  offset: 20, 3
+  index: -1
+effects/skillC/bianren/bianren_00006
+  rotate: false
+  xy: 2, 452
+  size: 243, 245
+  orig: 275, 254
+  offset: 17, 0
+  index: -1
+effects/skillC/bianren/bianren_00008
+  rotate: false
+  xy: 2, 699
+  size: 244, 246
+  orig: 275, 254
+  offset: 16, 0
+  index: -1
+effects/skillC/bianren/bianren_00010
+  rotate: false
+  xy: 248, 704
+  size: 240, 241
+  orig: 275, 254
+  offset: 18, 3
+  index: -1

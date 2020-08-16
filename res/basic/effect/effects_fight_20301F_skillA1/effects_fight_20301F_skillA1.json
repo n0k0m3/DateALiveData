@@ -1,0 +1,127 @@
+{
+"skeleton": {
+	"hash": "seeii45hUJvzMaALb5HNuFeDiE0",
+	"spine": "2.1.27",
+	"width": 99,
+	"height": 39,
+	"images": "C:/Users/Administrator/Desktop/尺寸需要修改的特效/新建文件夹/effects_fight_20301F_skillA1"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bdbox_eff", "parent": "root" },
+	{ "name": "languan2", "parent": "root" },
+	{ "name": "lanzidan", "parent": "root" },
+	{ "name": "lanzidanliang", "parent": "root" }
+],
+"slots": [
+	{ "name": "lanzidan", "bone": "lanzidan", "attachment": "lanzidan" },
+	{ "name": "languan2", "bone": "languan2", "attachment": "languan" },
+	{ "name": "bdbox_eff", "bone": "bdbox_eff", "attachment": "bdbox_eff" },
+	{ "name": "lanzidanliang", "bone": "lanzidanliang", "attachment": "lanzidanliang" }
+],
+"skins": {
+	"default": {
+		"bdbox_eff": {
+			"bdbox_eff": {
+				"type": "boundingbox",
+				"vertices": [ -28.38472, -2.34735, 23.36528, -6.47235, 20.36528, -15.09736, 36.86526, -9.84735, 45.49029, -2.72236, 40.61526, 10.02764, 25.61526, 16.77763, 19.24028, 8.52764, -26.88472, 5.15264 ]
+			}
+		},
+		"languan2": {
+			"languan": { "y": 0.33, "width": 80, "height": 38 }
+		},
+		"lanzidan": {
+			"lanzidan": { "width": 99, "height": 39 }
+		},
+		"lanzidanliang": {
+			"lanzidanliang": { "width": 99, "height": 39 }
+		}
+	}
+},
+"animations": {
+	"effects_fight_20301F_skillA1": {
+		"slots": {
+			"languan2": {
+				"attachment": [
+					{ "time": 0, "name": "languan" },
+					{ "time": 0.0666, "name": "languan" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff53" },
+					{ "time": 0.0666, "color": "ffffffa5" }
+				]
+			},
+			"lanzidan": {
+				"attachment": [
+					{ "time": 0, "name": "lanzidan" },
+					{ "time": 0.0666, "name": "lanzidan" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.0666, "color": "ffffffff" }
+				]
+			},
+			"lanzidanliang": {
+				"attachment": [
+					{ "time": 0, "name": "lanzidanliang" },
+					{ "time": 0.0666, "name": "lanzidanliang" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.0333, "color": "ffffff1c" },
+					{ "time": 0.0666, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"languan2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.0666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -16.29, "y": -6.93, "curve": "stepped" },
+					{ "time": 0.0666, "x": -16.29, "y": -6.93 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.374, "y": 1.558, "curve": "stepped" },
+					{ "time": 0.0666, "x": 1.374, "y": 1.558 }
+				]
+			},
+			"lanzidan": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.0666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -31.85, "y": -2 },
+					{ "time": 0.0666, "x": -33.24, "y": -2 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.0666, "x": 1.008, "y": 1 }
+				]
+			},
+			"lanzidanliang": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.0666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -29.7, "y": -4.34, "curve": "stepped" },
+					{ "time": 0.0666, "x": -29.7, "y": -4.34 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.0666, "x": 1, "y": 1 }
+				]
+			},
+			"bdbox_eff": {
+				"translate": [
+					{ "time": 0, "x": -33.75, "y": -1.87 }
+				]
+			}
+		}
+	}
+}
+}

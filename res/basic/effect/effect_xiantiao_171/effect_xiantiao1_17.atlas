@@ -1,0 +1,48 @@
+
+effect_xiantiao1_17.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/tiaoma3
+  rotate: false
+  xy: 9, 98
+  size: 6, 272
+  orig: 6, 272
+  offset: 0, 0
+  index: -1
+images/tiaoma4
+  rotate: false
+  xy: 2, 2
+  size: 5, 368
+  orig: 5, 368
+  offset: 0, 0
+  index: -1
+images/tiaoma5
+  rotate: false
+  xy: 39, 679
+  size: 20, 303
+  orig: 20, 303
+  offset: 0, 0
+  index: -1
+images/tiaoma6
+  rotate: false
+  xy: 2, 372
+  size: 6, 610
+  orig: 6, 610
+  offset: 0, 0
+  index: -1
+images/tiaoma7
+  rotate: false
+  xy: 10, 372
+  size: 6, 610
+  orig: 6, 610
+  offset: 0, 0
+  index: -1
+images/tiaoma8
+  rotate: false
+  xy: 18, 459
+  size: 19, 523
+  orig: 19, 523
+  offset: 0, 0
+  index: -1

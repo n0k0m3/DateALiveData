@@ -1,0 +1,146 @@
+
+effect_baoshizhuzao.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/baodian/lanbao_00098
+  rotate: false
+  xy: 2, 768
+  size: 233, 232
+  orig: 300, 300
+  offset: 33, 34
+  index: -1
+images/baodian/lanbao_00099
+  rotate: false
+  xy: 2, 768
+  size: 233, 232
+  orig: 300, 300
+  offset: 33, 34
+  index: -1
+images/baodian/lanbao_00100
+  rotate: false
+  xy: 2, 534
+  size: 233, 232
+  orig: 300, 300
+  offset: 33, 34
+  index: -1
+images/baodian/lanbao_00101
+  rotate: false
+  xy: 237, 768
+  size: 233, 232
+  orig: 300, 300
+  offset: 33, 34
+  index: -1
+images/baodian/lanbao_00102
+  rotate: false
+  xy: 237, 768
+  size: 233, 232
+  orig: 300, 300
+  offset: 33, 34
+  index: -1
+images/baodian/lanbao_00103
+  rotate: false
+  xy: 2, 300
+  size: 233, 232
+  orig: 300, 300
+  offset: 33, 34
+  index: -1
+images/baodian/lanbao_00104
+  rotate: false
+  xy: 237, 543
+  size: 223, 223
+  orig: 300, 300
+  offset: 37, 39
+  index: -1
+images/baodian/lanbao_00105
+  rotate: false
+  xy: 237, 543
+  size: 223, 223
+  orig: 300, 300
+  offset: 37, 39
+  index: -1
+images/baodian/lanbao_00106
+  rotate: false
+  xy: 472, 777
+  size: 223, 223
+  orig: 300, 300
+  offset: 37, 39
+  index: -1
+images/baodian/lanbao_00107
+  rotate: false
+  xy: 2, 85
+  size: 213, 213
+  orig: 300, 300
+  offset: 43, 43
+  index: -1
+images/baodian/lanbao_00108
+  rotate: false
+  xy: 2, 85
+  size: 213, 213
+  orig: 300, 300
+  offset: 43, 43
+  index: -1
+images/baodian/lanbao_00109
+  rotate: false
+  xy: 237, 404
+  size: 145, 137
+  orig: 300, 300
+  offset: 81, 73
+  index: -1
+images/baodian/lanbao_00110
+  rotate: false
+  xy: 697, 868
+  size: 143, 132
+  orig: 300, 300
+  offset: 82, 74
+  index: -1
+images/baodian/lanbao_00111
+  rotate: false
+  xy: 697, 868
+  size: 143, 132
+  orig: 300, 300
+  offset: 82, 74
+  index: -1
+images/baodian/lanbao_00112
+  rotate: false
+  xy: 842, 869
+  size: 141, 131
+  orig: 300, 300
+  offset: 83, 75
+  index: -1
+images/baodian/lanbao_00113
+  rotate: false
+  xy: 237, 273
+  size: 139, 129
+  orig: 300, 300
+  offset: 85, 78
+  index: -1
+images/baodian/lanbao_00114
+  rotate: false
+  xy: 237, 273
+  size: 139, 129
+  orig: 300, 300
+  offset: 85, 78
+  index: -1
+images/baodian/lanbao_00115
+  rotate: false
+  xy: 217, 140
+  size: 136, 131
+  orig: 300, 300
+  offset: 85, 75
+  index: -1
+images/baodian/lanbao_00116
+  rotate: false
+  xy: 2, 2
+  size: 133, 81
+  orig: 300, 300
+  offset: 89, 81
+  index: -1
+images/hei_00000
+  rotate: true
+  xy: 697, 751
+  size: 115, 127
+  orig: 203, 198
+  offset: 45, 33
+  index: -1

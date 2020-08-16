@@ -1,0 +1,83 @@
+
+effects_10801_fengbao.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/fengbao/fengbao_000
+  rotate: true
+  xy: 810, 583
+  size: 211, 212
+  orig: 315, 315
+  offset: 55, 45
+  index: -1
+effect/fengbao/fengbao_001
+  rotate: true
+  xy: 792, 370
+  size: 211, 212
+  orig: 315, 315
+  offset: 55, 45
+  index: -1
+effect/fengbao/fengbao_002
+  rotate: false
+  xy: 260, 247
+  size: 211, 212
+  orig: 315, 315
+  offset: 55, 45
+  index: -1
+effect/fengbao/fengbao_004
+  rotate: true
+  xy: 810, 796
+  size: 214, 212
+  orig: 315, 315
+  offset: 52, 45
+  index: -1
+effect/fengbao/fengbao_006
+  rotate: false
+  xy: 556, 524
+  size: 234, 233
+  orig: 315, 315
+  offset: 44, 34
+  index: -1
+effect/fengbao/fengbao_008
+  rotate: false
+  xy: 2, 202
+  size: 256, 257
+  orig: 315, 315
+  offset: 33, 22
+  index: -1
+effect/fengbao/fengbao_010
+  rotate: false
+  xy: 2, 461
+  size: 270, 270
+  orig: 315, 315
+  offset: 26, 16
+  index: -1
+effect/fengbao/fengbao_012
+  rotate: false
+  xy: 2, 733
+  size: 279, 277
+  orig: 315, 315
+  offset: 22, 13
+  index: -1
+effect/fengbao/fengbao_013
+  rotate: false
+  xy: 283, 741
+  size: 271, 269
+  orig: 315, 315
+  offset: 25, 17
+  index: -1
+effect/fengbao/fengbao_014
+  rotate: false
+  xy: 556, 759
+  size: 252, 251
+  orig: 315, 315
+  offset: 35, 26
+  index: -1
+effect/fengbao/fengbao_015
+  rotate: false
+  xy: 2, 2
+  size: 204, 198
+  orig: 315, 315
+  offset: 68, 48
+  index: -1

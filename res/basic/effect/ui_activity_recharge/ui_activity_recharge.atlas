@@ -1,0 +1,216 @@
+
+ui_activity_recharge.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/0
+  rotate: false
+  xy: 642, 381
+  size: 93, 109
+  orig: 93, 109
+  offset: 0, 0
+  index: -1
+images/1
+  rotate: true
+  xy: 2, 2
+  size: 53, 52
+  orig: 53, 52
+  offset: 0, 0
+  index: -1
+images/2
+  rotate: true
+  xy: 687, 540
+  size: 77, 75
+  orig: 77, 75
+  offset: 0, 0
+  index: -1
+images/3
+  rotate: false
+  xy: 414, 399
+  size: 112, 98
+  orig: 112, 98
+  offset: 0, 0
+  index: -1
+images/4
+  rotate: true
+  xy: 906, 899
+  size: 123, 116
+  orig: 123, 116
+  offset: 0, 0
+  index: -1
+images/5
+  rotate: false
+  xy: 421, 626
+  size: 158, 163
+  orig: 158, 163
+  offset: 0, 0
+  index: -1
+images/6
+  rotate: true
+  xy: 633, 746
+  size: 121, 139
+  orig: 121, 139
+  offset: 0, 0
+  index: -1
+images/7
+  rotate: false
+  xy: 528, 381
+  size: 112, 109
+  orig: 112, 109
+  offset: 0, 0
+  index: -1
+images/baoshi/baoshi_00000
+  rotate: true
+  xy: 900, 750
+  size: 140, 122
+  orig: 150, 150
+  offset: 5, 13
+  index: -1
+images/baoshi/baoshi_00030
+  rotate: true
+  xy: 900, 750
+  size: 140, 122
+  orig: 150, 150
+  offset: 5, 13
+  index: -1
+images/baoshi/baoshi_00002
+  rotate: false
+  xy: 581, 619
+  size: 138, 125
+  orig: 150, 150
+  offset: 5, 11
+  index: -1
+images/baoshi/baoshi_00004
+  rotate: false
+  xy: 767, 892
+  size: 137, 130
+  orig: 150, 150
+  offset: 5, 11
+  index: -1
+images/baoshi/baoshi_00006
+  rotate: false
+  xy: 2, 57
+  size: 135, 133
+  orig: 150, 150
+  offset: 6, 10
+  index: -1
+images/baoshi/baoshi_00008
+  rotate: false
+  xy: 204, 194
+  size: 132, 133
+  orig: 150, 150
+  offset: 7, 11
+  index: -1
+images/baoshi/baoshi_00010
+  rotate: false
+  xy: 266, 60
+  size: 125, 132
+  orig: 150, 150
+  offset: 14, 12
+  index: -1
+images/baoshi/baoshi_00012
+  rotate: true
+  xy: 421, 499
+  size: 125, 131
+  orig: 150, 150
+  offset: 14, 13
+  index: -1
+images/baoshi/baoshi_00014
+  rotate: true
+  xy: 554, 492
+  size: 125, 131
+  orig: 150, 150
+  offset: 14, 13
+  index: -1
+images/baoshi/baoshi_00016
+  rotate: true
+  xy: 338, 194
+  size: 133, 129
+  orig: 150, 150
+  offset: 14, 15
+  index: -1
+images/baoshi/baoshi_00018
+  rotate: true
+  xy: 139, 56
+  size: 134, 125
+  orig: 150, 150
+  offset: 14, 18
+  index: -1
+images/baoshi/baoshi_00020
+  rotate: true
+  xy: 774, 613
+  size: 134, 124
+  orig: 150, 150
+  offset: 14, 18
+  index: -1
+images/baoshi/baoshi_00022
+  rotate: true
+  xy: 393, 58
+  size: 134, 122
+  orig: 150, 150
+  offset: 14, 18
+  index: -1
+images/baoshi/baoshi_00024
+  rotate: true
+  xy: 900, 608
+  size: 140, 122
+  orig: 150, 150
+  offset: 8, 18
+  index: -1
+images/baoshi/baoshi_00026
+  rotate: false
+  xy: 262, 329
+  size: 142, 122
+  orig: 150, 150
+  offset: 6, 17
+  index: -1
+images/baoshi/baoshi_00028
+  rotate: true
+  xy: 774, 749
+  size: 141, 124
+  orig: 150, 150
+  offset: 6, 14
+  index: -1
+images/dizuo
+  rotate: false
+  xy: 421, 791
+  size: 210, 231
+  orig: 258, 253
+  offset: 19, 14
+  index: -1
+images/glow
+  rotate: false
+  xy: 2, 350
+  size: 258, 253
+  orig: 258, 253
+  offset: 0, 0
+  index: -1
+images/glow1
+  rotate: false
+  xy: 2, 605
+  size: 417, 417
+  orig: 417, 417
+  offset: 0, 0
+  index: -1
+images/glow2_00000
+  rotate: false
+  xy: 262, 453
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+images/shan
+  rotate: false
+  xy: 2, 192
+  size: 200, 156
+  orig: 200, 156
+  offset: 0, 0
+  index: -1
+images/waikuo
+  rotate: false
+  xy: 633, 869
+  size: 132, 153
+  orig: 258, 253
+  offset: 58, 53
+  index: -1

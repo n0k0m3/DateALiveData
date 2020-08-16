@@ -1,0 +1,55 @@
+
+effects_yindao.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ringquan/801
+  rotate: false
+  xy: 2, 322
+  size: 188, 188
+  orig: 231, 231
+  offset: 21, 21
+  index: -1
+ringquan/802
+  rotate: false
+  xy: 2, 132
+  size: 188, 188
+  orig: 231, 231
+  offset: 21, 21
+  index: -1
+ringquan/803
+  rotate: false
+  xy: 192, 166
+  size: 103, 205
+  orig: 231, 231
+  offset: 114, 13
+  index: -1
+ringquan/804
+  rotate: false
+  xy: 2, 2
+  size: 87, 85
+  orig: 231, 231
+  offset: 111, 33
+  index: -1
+ringquan/805
+  rotate: false
+  xy: 2, 89
+  size: 150, 41
+  orig: 231, 231
+  offset: 40, 180
+  index: -1
+ringquan/806
+  rotate: false
+  xy: 192, 373
+  size: 203, 137
+  orig: 231, 231
+  offset: 14, 80
+  index: -1
+shouzhi/808
+  rotate: false
+  xy: 397, 412
+  size: 90, 98
+  orig: 90, 98
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,20 @@
+
+fubenditu.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guang
+  rotate: false
+  xy: 2, 39
+  size: 96, 101
+  orig: 96, 101
+  offset: 0, 0
+  index: -1
+lizi
+  rotate: false
+  xy: 2, 2
+  size: 37, 35
+  orig: 37, 35
+  offset: 0, 0
+  index: -1

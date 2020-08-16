@@ -1,0 +1,27 @@
+
+effect_yun_12.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+yun1_00000
+  rotate: false
+  xy: 2, 254
+  size: 600, 250
+  orig: 600, 250
+  offset: 0, 0
+  index: -1
+yun2_00000
+  rotate: false
+  xy: 2, 506
+  size: 700, 250
+  orig: 700, 250
+  offset: 0, 0
+  index: -1
+yun3_00000
+  rotate: false
+  xy: 2, 2
+  size: 500, 250
+  orig: 500, 250
+  offset: 0, 0
+  index: -1

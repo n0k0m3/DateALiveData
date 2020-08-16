@@ -1,0 +1,104 @@
+
+battle_fzzz_skill.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/chuxian/chuxian_001
+  rotate: false
+  xy: 2, 356
+  size: 148, 154
+  orig: 158, 154
+  offset: 6, 0
+  index: -1
+effect/chuxian/chuxian_003
+  rotate: false
+  xy: 2, 221
+  size: 134, 133
+  orig: 158, 154
+  offset: 15, 9
+  index: -1
+effect/chuxian/chuxian_005
+  rotate: false
+  xy: 152, 377
+  size: 134, 133
+  orig: 158, 154
+  offset: 15, 9
+  index: -1
+effect/chuxian/chuxian_007
+  rotate: false
+  xy: 2, 86
+  size: 134, 133
+  orig: 158, 154
+  offset: 15, 9
+  index: -1
+effect/chuxian/chuxian_009
+  rotate: false
+  xy: 288, 377
+  size: 134, 133
+  orig: 158, 154
+  offset: 15, 9
+  index: -1
+effect/chuxian/chuxian_011
+  rotate: false
+  xy: 152, 244
+  size: 131, 131
+  orig: 158, 154
+  offset: 17, 10
+  index: -1
+effect/quan_011
+  rotate: false
+  xy: 2, 37
+  size: 48, 47
+  orig: 48, 47
+  offset: 0, 0
+  index: -1
+effect/xunhuan/xunhuan_004
+  rotate: true
+  xy: 424, 402
+  size: 108, 86
+  orig: 110, 96
+  offset: 2, 0
+  index: -1
+effect/xunhuan/xunhuan_006
+  rotate: false
+  xy: 138, 54
+  size: 108, 90
+  orig: 110, 96
+  offset: 2, 0
+  index: -1
+effect/xunhuan/xunhuan_008
+  rotate: true
+  xy: 248, 134
+  size: 108, 95
+  orig: 110, 96
+  offset: 2, 0
+  index: -1
+effect/xunhuan/xunhuan_010
+  rotate: false
+  xy: 285, 279
+  size: 108, 96
+  orig: 110, 96
+  offset: 2, 0
+  index: -1
+effect/xunhuan/xunhuan_012
+  rotate: false
+  xy: 138, 146
+  size: 108, 96
+  orig: 110, 96
+  offset: 2, 0
+  index: -1
+effect/xunhuan/xunhuan_014
+  rotate: false
+  xy: 248, 36
+  size: 108, 96
+  orig: 110, 96
+  offset: 2, 0
+  index: -1
+effect/xunhuan/xunhuan_016
+  rotate: true
+  xy: 395, 267
+  size: 108, 95
+  orig: 110, 96
+  offset: 2, 0
+  index: -1

@@ -1,0 +1,27 @@
+
+10jiaoshi.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dengguang_00000
+  rotate: false
+  xy: 2, 194
+  size: 281, 241
+  orig: 300, 300
+  offset: 0, 21
+  index: -1
+glow_00060
+  rotate: false
+  xy: 2, 12
+  size: 227, 180
+  orig: 300, 300
+  offset: 3, 60
+  index: -1
+yangguang_00000
+  rotate: true
+  xy: 285, 186
+  size: 249, 150
+  orig: 300, 300
+  offset: 1, 72
+  index: -1

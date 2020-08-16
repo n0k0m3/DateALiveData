@@ -1,0 +1,111 @@
+
+effects_10102_jianqibao.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Effects/glow_000
+  rotate: false
+  xy: 567, 577
+  size: 58, 58
+  orig: 60, 60
+  offset: 1, 1
+  index: -1
+Effects/jianqibao/jianqibao_000
+  rotate: true
+  xy: 439, 512
+  size: 123, 126
+  orig: 240, 240
+  offset: 61, 37
+  index: -1
+Effects/jianqibao/jianqibao_001
+  rotate: false
+  xy: 2, 7
+  size: 156, 131
+  orig: 240, 240
+  offset: 42, 33
+  index: -1
+Effects/jianqibao/jianqibao_002
+  rotate: false
+  xy: 847, 839
+  size: 175, 183
+  orig: 240, 240
+  offset: 33, 4
+  index: -1
+Effects/jianqibao/jianqibao_003
+  rotate: false
+  xy: 652, 817
+  size: 193, 205
+  orig: 240, 240
+  offset: 23, 0
+  index: -1
+Effects/jianqibao/jianqibao_004
+  rotate: false
+  xy: 446, 817
+  size: 204, 205
+  orig: 240, 240
+  offset: 16, 0
+  index: -1
+Effects/jianqibao/jianqibao_005
+  rotate: false
+  xy: 2, 352
+  size: 214, 222
+  orig: 240, 240
+  offset: 11, 0
+  index: -1
+Effects/jianqibao/jianqibao_006
+  rotate: false
+  xy: 2, 800
+  size: 222, 222
+  orig: 240, 240
+  offset: 7, 0
+  index: -1
+Effects/jianqibao/jianqibao_007
+  rotate: false
+  xy: 226, 800
+  size: 218, 222
+  orig: 240, 240
+  offset: 9, 0
+  index: -1
+Effects/jianqibao/jianqibao_008
+  rotate: false
+  xy: 2, 576
+  size: 220, 222
+  orig: 240, 240
+  offset: 8, 0
+  index: -1
+Effects/jianqibao/jianqibao_009
+  rotate: false
+  xy: 224, 578
+  size: 213, 220
+  orig: 240, 240
+  offset: 12, 0
+  index: -1
+Effects/jianqibao/jianqibao_010
+  rotate: false
+  xy: 2, 140
+  size: 194, 210
+  orig: 240, 240
+  offset: 24, 0
+  index: -1
+Effects/jianqibao/jianqibao_011
+  rotate: false
+  xy: 198, 142
+  size: 188, 208
+  orig: 240, 240
+  offset: 27, 9
+  index: -1
+Effects/jianqibao/jianqibao_012
+  rotate: true
+  xy: 446, 637
+  size: 178, 208
+  orig: 240, 240
+  offset: 32, 9
+  index: -1
+Effects/jianqibao/jianqibao_013
+  rotate: true
+  xy: 656, 661
+  size: 154, 180
+  orig: 240, 240
+  offset: 41, 21
+  index: -1

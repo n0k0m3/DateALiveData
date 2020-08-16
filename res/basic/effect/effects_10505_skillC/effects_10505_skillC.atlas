@@ -1,0 +1,641 @@
+
+effects_10505_skillC.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/skillA/bao1_add/bao1_add00091
+  rotate: false
+  xy: 346, 269
+  size: 284, 209
+  orig: 318, 216
+  offset: 18, 7
+  index: -1
+images/effect/skillA/bao1_add/bao1_add00093
+  rotate: true
+  xy: 2, 2
+  size: 194, 166
+  orig: 318, 216
+  offset: 56, 28
+  index: -1
+images/effect/skillA/bao1_add/bao1_add00101
+  rotate: false
+  xy: 273, 295
+  size: 65, 93
+  orig: 318, 216
+  offset: 126, 48
+  index: -1
+images/effect/skillA/bao1_nor/bao1_nor00090
+  rotate: true
+  xy: 839, 205
+  size: 273, 167
+  orig: 318, 203
+  offset: 33, 3
+  index: -1
+images/effect/skillA/bao1_nor/bao1_nor00092
+  rotate: true
+  xy: 844, 723
+  size: 299, 169
+  orig: 318, 203
+  offset: 15, 0
+  index: -1
+images/effect/skillA/daoguang1/add/add_00038
+  rotate: true
+  xy: 632, 233
+  size: 268, 205
+  orig: 282, 211
+  offset: 14, 0
+  index: -1
+images/effect/skillA/daoguang1/add/add_00043
+  rotate: true
+  xy: 839, 480
+  size: 241, 176
+  orig: 282, 211
+  offset: 24, 19
+  index: -1
+images/effect/skillA/daoguang1/nor/nor_00037
+  rotate: false
+  xy: 2, 739
+  size: 301, 283
+  orig: 303, 285
+  offset: 2, 2
+  index: -1
+images/effect/skillA/daoguang1/nor/nor_00042
+  rotate: true
+  xy: 826, 2
+  size: 201, 174
+  orig: 303, 285
+  offset: 73, 76
+  index: -1
+images/effect/skillB/dimian_00094
+  rotate: true
+  xy: 273, 390
+  size: 347, 71
+  orig: 357, 96
+  offset: 9, 12
+  index: -1
+images/effect/skillC/bao_add/00090
+  rotate: false
+  xy: 555, 5
+  size: 269, 226
+  orig: 316, 306
+  offset: 18, 19
+  index: -1
+images/effect/skillC/bao_add/00091
+  rotate: false
+  xy: 305, 753
+  size: 269, 269
+  orig: 316, 306
+  offset: 18, 19
+  index: -1
+images/effect/skillC/bao_add/00092
+  rotate: false
+  xy: 2, 466
+  size: 269, 271
+  orig: 316, 306
+  offset: 18, 19
+  index: -1
+images/effect/skillC/bao_add/00093
+  rotate: false
+  xy: 2, 198
+  size: 269, 266
+  orig: 316, 306
+  offset: 18, 19
+  index: -1
+images/effect/skillC/bao_add/00094
+  rotate: false
+  xy: 576, 761
+  size: 266, 261
+  orig: 316, 306
+  offset: 20, 21
+  index: -1
+images/effect/skillC/bao_nor/00092
+  rotate: false
+  xy: 579, 503
+  size: 258, 256
+  orig: 283, 263
+  offset: 15, 7
+  index: -1
+images/effect/skillC/bao_nor/00093
+  rotate: true
+  xy: 346, 480
+  size: 271, 231
+  orig: 283, 263
+  offset: 6, 3
+  index: -1
+images/effect/skillC/bao_nor/00094
+  rotate: false
+  xy: 283, 2
+  size: 270, 229
+  orig: 283, 263
+  offset: 7, 0
+  index: -1
+images/effect/skillC/dimian/00016
+  rotate: true
+  xy: 170, 2
+  size: 194, 111
+  orig: 215, 134
+  offset: 9, 3
+  index: -1
+
+effects_10505_skillC2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/skillA/bao1_add/bao1_add00089
+  rotate: false
+  xy: 234, 225
+  size: 223, 201
+  orig: 318, 216
+  offset: 49, 15
+  index: -1
+images/effect/skillA/bao1_nor/bao1_nor00100
+  rotate: false
+  xy: 707, 3
+  size: 126, 166
+  orig: 318, 203
+  offset: 102, 20
+  index: -1
+images/effect/skillA/bao1_nor/bao1_nor00104
+  rotate: true
+  xy: 635, 171
+  size: 88, 145
+  orig: 318, 203
+  offset: 97, 57
+  index: -1
+images/effect/skillA/daoguang1/add/add_00037
+  rotate: false
+  xy: 273, 830
+  size: 269, 192
+  orig: 282, 211
+  offset: 13, 13
+  index: -1
+images/effect/skillA/daoguang1/add/add_00039
+  rotate: false
+  xy: 544, 818
+  size: 260, 204
+  orig: 282, 211
+  offset: 15, 0
+  index: -1
+images/effect/skillA/daoguang1/add/add_00040
+  rotate: false
+  xy: 273, 625
+  size: 259, 203
+  orig: 282, 211
+  offset: 16, 0
+  index: -1
+images/effect/skillA/daoguang1/add/add_00041
+  rotate: false
+  xy: 534, 617
+  size: 247, 199
+  orig: 282, 211
+  offset: 18, 0
+  index: -1
+images/effect/skillA/daoguang1/add/add_00042
+  rotate: false
+  xy: 252, 428
+  size: 245, 195
+  orig: 282, 211
+  offset: 20, 0
+  index: -1
+images/effect/skillA/daoguang1/add/add_00044
+  rotate: false
+  xy: 2, 454
+  size: 237, 166
+  orig: 282, 211
+  offset: 27, 21
+  index: -1
+images/effect/skillA/daoguang1/add/add_00045
+  rotate: false
+  xy: 783, 225
+  size: 228, 160
+  orig: 282, 211
+  offset: 34, 23
+  index: -1
+images/effect/skillA/daoguang1/nor/nor_00038
+  rotate: false
+  xy: 2, 790
+  size: 269, 232
+  orig: 303, 285
+  offset: 34, 53
+  index: -1
+images/effect/skillA/daoguang1/nor/nor_00039
+  rotate: true
+  xy: 783, 506
+  size: 230, 237
+  orig: 303, 285
+  offset: 73, 43
+  index: -1
+images/effect/skillA/daoguang1/nor/nor_00040
+  rotate: false
+  xy: 2, 225
+  size: 230, 227
+  orig: 303, 285
+  offset: 73, 43
+  index: -1
+images/effect/skillA/daoguang1/nor/nor_00043
+  rotate: true
+  xy: 459, 225
+  size: 201, 174
+  orig: 303, 285
+  offset: 73, 76
+  index: -1
+images/effect/skillA/dimian_down/dimian_down00089
+  rotate: true
+  xy: 2, 3
+  size: 220, 113
+  orig: 234, 163
+  offset: 8, 0
+  index: -1
+images/effect/skillA/dimian_down/dimian_down00093
+  rotate: false
+  xy: 783, 387
+  size: 230, 117
+  orig: 234, 163
+  offset: 3, 3
+  index: -1
+images/effect/skillA/dimian_down/dimian_down00095
+  rotate: true
+  xy: 217, 18
+  size: 205, 126
+  orig: 234, 163
+  offset: 16, 3
+  index: -1
+images/effect/skillA/dimian_down/dimian_down00097
+  rotate: true
+  xy: 499, 428
+  size: 187, 129
+  orig: 234, 163
+  offset: 25, 3
+  index: -1
+images/effect/skillC/bao_add/00095
+  rotate: true
+  xy: 806, 738
+  size: 185, 206
+  orig: 316, 306
+  offset: 64, 73
+  index: -1
+images/effect/skillC/bao_nor/00091
+  rotate: false
+  xy: 2, 622
+  size: 248, 166
+  orig: 283, 263
+  offset: 22, 7
+  index: -1
+images/effect/skillC/bao_nor/00095
+  rotate: false
+  xy: 630, 439
+  size: 151, 176
+  orig: 283, 263
+  offset: 63, 13
+  index: -1
+images/effect/skillC/bao_nor/00096
+  rotate: true
+  xy: 835, 75
+  size: 148, 181
+  orig: 283, 263
+  offset: 67, 13
+  index: -1
+images/effect/skillC/bao_nor/00097
+  rotate: false
+  xy: 635, 261
+  size: 146, 176
+  orig: 283, 263
+  offset: 66, 20
+  index: -1
+images/effect/skillC/bao_nor/00100
+  rotate: false
+  xy: 576, 3
+  size: 129, 166
+  orig: 283, 263
+  offset: 71, 27
+  index: -1
+images/effect/skillC/dimian/00017
+  rotate: true
+  xy: 345, 19
+  size: 204, 116
+  orig: 215, 134
+  offset: 3, 1
+  index: -1
+images/effect/skillC/dimian_down/down_013
+  rotate: false
+  xy: 835, 15
+  size: 90, 58
+  orig: 221, 101
+  offset: 66, 20
+  index: -1
+images/effect/skillC/dimian_down/down_016
+  rotate: false
+  xy: 806, 925
+  size: 210, 97
+  orig: 221, 101
+  offset: 3, 0
+  index: -1
+images/effect/skillC/dimian_down/down_017
+  rotate: true
+  xy: 117, 6
+  size: 217, 98
+  orig: 221, 101
+  offset: 0, 0
+  index: -1
+images/effect/skillC/dimian_up/up_014
+  rotate: true
+  xy: 463, 2
+  size: 167, 111
+  orig: 183, 126
+  offset: 9, 7
+  index: -1
+
+effects_10505_skillC3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/skillA/bao1_add/bao1_add00095
+  rotate: false
+  xy: 525, 301
+  size: 78, 132
+  orig: 318, 216
+  offset: 123, 33
+  index: -1
+images/effect/skillA/bao1_add/bao1_add00097
+  rotate: false
+  xy: 605, 305
+  size: 77, 132
+  orig: 318, 216
+  offset: 124, 33
+  index: -1
+images/effect/skillA/bao1_add/bao1_add00099
+  rotate: false
+  xy: 175, 439
+  size: 77, 116
+  orig: 318, 216
+  offset: 124, 45
+  index: -1
+images/effect/skillA/bao1_nor/bao1_nor00094
+  rotate: false
+  xy: 410, 707
+  size: 149, 161
+  orig: 318, 203
+  offset: 93, 17
+  index: -1
+images/effect/skillA/bao1_nor/bao1_nor00096
+  rotate: false
+  xy: 884, 408
+  size: 131, 147
+  orig: 318, 203
+  offset: 90, 18
+  index: -1
+images/effect/skillA/bao1_nor/bao1_nor00098
+  rotate: false
+  xy: 259, 280
+  size: 126, 157
+  orig: 318, 203
+  offset: 98, 19
+  index: -1
+images/effect/skillA/bao1_nor/bao1_nor00102
+  rotate: false
+  xy: 278, 674
+  size: 130, 173
+  orig: 318, 203
+  offset: 99, 22
+  index: -1
+images/effect/skillA/daoguang1/add/add_00046
+  rotate: false
+  xy: 410, 870
+  size: 199, 152
+  orig: 282, 211
+  offset: 62, 24
+  index: -1
+images/effect/skillA/daoguang1/add/add_00047
+  rotate: true
+  xy: 2, 246
+  size: 191, 150
+  orig: 282, 211
+  offset: 67, 27
+  index: -1
+images/effect/skillA/daoguang1/nor/nor_00041
+  rotate: false
+  xy: 2, 845
+  size: 203, 177
+  orig: 303, 285
+  offset: 72, 74
+  index: -1
+images/effect/skillA/daoguang1/nor/nor_00044
+  rotate: false
+  xy: 207, 849
+  size: 201, 173
+  orig: 303, 285
+  offset: 73, 76
+  index: -1
+images/effect/skillA/dimian_down/dimian_down00091
+  rotate: false
+  xy: 808, 912
+  size: 203, 110
+  orig: 234, 163
+  offset: 18, 0
+  index: -1
+images/effect/skillA/dimian_down/dimian_down00099
+  rotate: false
+  xy: 611, 893
+  size: 195, 129
+  orig: 234, 163
+  offset: 21, 3
+  index: -1
+images/effect/skillA/dimian_down/dimian_down00101
+  rotate: false
+  xy: 611, 811
+  size: 190, 80
+  orig: 234, 163
+  offset: 24, 5
+  index: -1
+images/effect/skillA/glow1_00051
+  rotate: true
+  xy: 2, 80
+  size: 164, 161
+  orig: 170, 166
+  offset: 4, 1
+  index: -1
+images/effect/skillC/bao_add/00096
+  rotate: false
+  xy: 2, 643
+  size: 177, 200
+  orig: 316, 306
+  offset: 67, 72
+  index: -1
+images/effect/skillC/bao_add/00097
+  rotate: false
+  xy: 2, 439
+  size: 171, 202
+  orig: 316, 306
+  offset: 67, 72
+  index: -1
+images/effect/skillC/bao_add/00098
+  rotate: true
+  xy: 410, 565
+  size: 140, 149
+  orig: 316, 306
+  offset: 92, 113
+  index: -1
+images/effect/skillC/bao_add/00099
+  rotate: true
+  xy: 900, 557
+  size: 114, 121
+  orig: 316, 306
+  offset: 103, 137
+  index: -1
+images/effect/skillC/bao_add/00100
+  rotate: false
+  xy: 391, 212
+  size: 105, 113
+  orig: 316, 306
+  offset: 107, 140
+  index: -1
+images/effect/skillC/bao_nor/00098
+  rotate: true
+  xy: 724, 430
+  size: 135, 158
+  orig: 283, 263
+  offset: 65, 26
+  index: -1
+images/effect/skillC/bao_nor/00099
+  rotate: true
+  xy: 561, 439
+  size: 127, 161
+  orig: 283, 263
+  offset: 72, 27
+  index: -1
+images/effect/skillC/bao_nor/00101
+  rotate: true
+  xy: 561, 568
+  size: 132, 169
+  orig: 283, 263
+  offset: 70, 28
+  index: -1
+images/effect/skillC/bao_nor/00102
+  rotate: true
+  xy: 744, 678
+  size: 130, 172
+  orig: 283, 263
+  offset: 70, 29
+  index: -1
+images/effect/skillC/bao_nor/00103
+  rotate: false
+  xy: 278, 544
+  size: 129, 128
+  orig: 283, 263
+  offset: 69, 76
+  index: -1
+images/effect/skillC/bao_nor/00104
+  rotate: false
+  xy: 411, 435
+  size: 131, 128
+  orig: 283, 263
+  offset: 68, 79
+  index: -1
+images/effect/skillC/dimian/00013
+  rotate: false
+  xy: 254, 439
+  size: 155, 103
+  orig: 215, 134
+  offset: 35, 18
+  index: -1
+images/effect/skillC/dimian/00014
+  rotate: false
+  xy: 732, 567
+  size: 166, 109
+  orig: 215, 134
+  offset: 30, 13
+  index: -1
+images/effect/skillC/dimian/00015
+  rotate: false
+  xy: 561, 702
+  size: 181, 107
+  orig: 215, 134
+  offset: 16, 5
+  index: -1
+images/effect/skillC/dimian/00018
+  rotate: true
+  xy: 918, 673
+  size: 135, 104
+  orig: 215, 134
+  offset: 41, 14
+  index: -1
+images/effect/skillC/dimian/00019
+  rotate: false
+  xy: 391, 119
+  size: 110, 91
+  orig: 215, 134
+  offset: 63, 29
+  index: -1
+images/effect/skillC/dimian/00020
+  rotate: false
+  xy: 385, 29
+  size: 109, 88
+  orig: 215, 134
+  offset: 64, 33
+  index: -1
+images/effect/skillC/dimian/00021
+  rotate: false
+  xy: 175, 557
+  size: 97, 84
+  orig: 215, 134
+  offset: 68, 34
+  index: -1
+images/effect/skillC/dimian_down/down_014
+  rotate: false
+  xy: 2, 4
+  size: 143, 74
+  orig: 221, 101
+  offset: 40, 12
+  index: -1
+images/effect/skillC/dimian_down/down_015
+  rotate: true
+  xy: 181, 646
+  size: 197, 95
+  orig: 221, 101
+  offset: 10, 1
+  index: -1
+images/effect/skillC/dimian_up/up_013
+  rotate: true
+  xy: 272, 122
+  size: 156, 117
+  orig: 183, 126
+  offset: 14, 0
+  index: -1
+images/effect/skillC/dimian_up/up_015
+  rotate: false
+  xy: 808, 810
+  size: 173, 100
+  orig: 183, 126
+  offset: 5, 7
+  index: -1
+images/effect/skillC/dimian_up/up_016
+  rotate: true
+  xy: 154, 262
+  size: 175, 103
+  orig: 183, 126
+  offset: 4, 7
+  index: -1
+images/effect/skillC/dimian_up/up_017
+  rotate: true
+  xy: 165, 85
+  size: 175, 105
+  orig: 183, 126
+  offset: 5, 7
+  index: -1
+images/effect/skillC/dimian_up/up_018
+  rotate: false
+  xy: 387, 327
+  size: 136, 106
+  orig: 183, 126
+  offset: 20, 8
+  index: -1
+images/effect/skillC/dimian_up/up_019
+  rotate: false
+  xy: 272, 28
+  size: 111, 92
+  orig: 183, 126
+  offset: 42, 23
+  index: -1

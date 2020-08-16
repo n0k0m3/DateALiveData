@@ -1,0 +1,125 @@
+
+chengyuan.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gonggao
+  rotate: false
+  xy: 2, 292
+  size: 165, 52
+  orig: 165, 52
+  offset: 0, 0
+  index: -1
+gonggao1
+  rotate: false
+  xy: 2, 874
+  size: 256, 142
+  orig: 256, 142
+  offset: 0, 0
+  index: -1
+gonggao2
+  rotate: false
+  xy: 169, 314
+  size: 45, 30
+  orig: 45, 30
+  offset: 0, 0
+  index: -1
+saoguang/saoguang_00001
+  rotate: true
+  xy: 2, 106
+  size: 184, 30
+  orig: 256, 183
+  offset: 41, 41
+  index: -1
+saoguang/saoguang_00002
+  rotate: false
+  xy: 2, 385
+  size: 225, 44
+  orig: 256, 183
+  offset: 17, 41
+  index: -1
+saoguang/saoguang_00003
+  rotate: false
+  xy: 260, 666
+  size: 241, 59
+  orig: 256, 183
+  offset: 9, 41
+  index: -1
+saoguang/saoguang_00004
+  rotate: false
+  xy: 2, 492
+  size: 248, 73
+  orig: 256, 183
+  offset: 5, 41
+  index: -1
+saoguang/saoguang_00005
+  rotate: false
+  xy: 2, 567
+  size: 251, 87
+  orig: 256, 183
+  offset: 3, 41
+  index: -1
+saoguang/saoguang_00006
+  rotate: false
+  xy: 260, 809
+  size: 255, 97
+  orig: 256, 183
+  offset: 0, 45
+  index: -1
+saoguang/saoguang_00007
+  rotate: false
+  xy: 260, 908
+  size: 256, 108
+  orig: 256, 183
+  offset: 0, 48
+  index: -1
+saoguang/saoguang_00008
+  rotate: false
+  xy: 2, 763
+  size: 256, 109
+  orig: 256, 183
+  offset: 0, 56
+  index: -1
+saoguang/saoguang_00009
+  rotate: false
+  xy: 2, 656
+  size: 256, 105
+  orig: 256, 183
+  offset: 0, 67
+  index: -1
+saoguang/saoguang_00010
+  rotate: false
+  xy: 518, 923
+  size: 255, 93
+  orig: 256, 183
+  offset: 0, 82
+  index: -1
+saoguang/saoguang_00011
+  rotate: false
+  xy: 260, 727
+  size: 250, 80
+  orig: 256, 183
+  offset: 2, 96
+  index: -1
+saoguang/saoguang_00012
+  rotate: false
+  xy: 775, 943
+  size: 241, 73
+  orig: 256, 183
+  offset: 7, 110
+  index: -1
+saoguang/saoguang_00013
+  rotate: false
+  xy: 2, 431
+  size: 231, 59
+  orig: 256, 183
+  offset: 11, 124
+  index: -1
+saoguang/saoguang_00014
+  rotate: false
+  xy: 2, 346
+  size: 213, 37
+  orig: 256, 183
+  offset: 19, 139
+  index: -1

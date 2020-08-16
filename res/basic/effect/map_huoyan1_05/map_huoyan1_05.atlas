@@ -1,0 +1,68 @@
+
+map_huoyan1_05.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sucai/huoyan1/10006
+  rotate: false
+  xy: 2, 276
+  size: 272, 223
+  orig: 272, 223
+  offset: 0, 0
+  index: -1
+sucai/huoyan1/10008
+  rotate: true
+  xy: 2, 6
+  size: 268, 223
+  orig: 268, 223
+  offset: 0, 0
+  index: -1
+sucai/huoyan1/10010
+  rotate: false
+  xy: 227, 2
+  size: 259, 223
+  orig: 259, 223
+  offset: 0, 0
+  index: -1
+sucai/huoyan1/10014
+  rotate: true
+  xy: 276, 227
+  size: 272, 223
+  orig: 272, 223
+  offset: 0, 0
+  index: -1
+
+map_huoyan1_052.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sucai/huoyan1/10000
+  rotate: false
+  xy: 248, 54
+  size: 239, 223
+  orig: 239, 223
+  offset: 0, 0
+  index: -1
+sucai/huoyan1/10002
+  rotate: false
+  xy: 2, 54
+  size: 244, 223
+  orig: 244, 223
+  offset: 0, 0
+  index: -1
+sucai/huoyan1/10004
+  rotate: false
+  xy: 262, 279
+  size: 240, 223
+  orig: 240, 223
+  offset: 0, 0
+  index: -1
+sucai/huoyan1/10012
+  rotate: false
+  xy: 2, 279
+  size: 258, 223
+  orig: 258, 223
+  offset: 0, 0
+  index: -1

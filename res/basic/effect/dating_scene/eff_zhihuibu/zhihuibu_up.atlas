@@ -1,0 +1,27 @@
+
+zhihuibu_up.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/deng
+  rotate: false
+  xy: 2, 254
+  size: 315, 180
+  orig: 315, 180
+  offset: 0, 0
+  index: -1
+images/deng2
+  rotate: false
+  xy: 2, 162
+  size: 315, 90
+  orig: 315, 90
+  offset: 0, 0
+  index: -1
+images/mask_06
+  rotate: false
+  xy: 319, 319
+  size: 115, 115
+  orig: 115, 115
+  offset: 0, 0
+  index: -1

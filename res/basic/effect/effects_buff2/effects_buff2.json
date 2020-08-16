@@ -1,0 +1,157 @@
+{
+"skeleton": {
+	"hash": "c2MTKbPYHcwlt13iswwMoUVY2QA",
+	"spine": "2.1.27",
+	"width": 72.79,
+	"height": 78,
+	"images": "C:/Users/Administrator/Desktop/尺寸需要修改的特效/新建文件夹/effects_buff2"
+},
+"bones": [
+	{ "name": "root", "scaleX": 1.3, "scaleY": 1.3 },
+	{ "name": "effects", "parent": "root" },
+	{ "name": "gongji", "parent": "effects" }
+],
+"slots": [
+	{ "name": "gongji/gongji_00000_1", "bone": "gongji", "attachment": "gongji/gongji_00000_1" }
+],
+"skins": {
+	"default": {
+		"gongji/gongji_00000_1": {
+			"gongji/gongji_00000_1": { "width": 56, "height": 60 },
+			"gongji/gongji_00001_1": { "width": 55, "height": 83 },
+			"gongji/gongji_00003_1": { "width": 60, "height": 137 },
+			"gongji/gongji_00004_1": { "width": 66, "height": 130 },
+			"gongji/gongji_00006_1": { "width": 67, "height": 114 },
+			"gongji/gongji_00007_1": { "width": 67, "height": 106 },
+			"gongji/gongji_00009_1": { "width": 66, "height": 91 },
+			"gongji/gongji_00010_1": { "width": 65, "height": 121 },
+			"gongji/gongji_00012_1": { "width": 63, "height": 110 },
+			"gongji/gongji_00013_1": { "width": 62, "height": 104 },
+			"gongji/gongji_00015_1": { "width": 57, "height": 92 },
+			"gongji/gongji_00016_1": { "width": 57, "height": 86 },
+			"gongji/gongji_00017_1": { "width": 57, "height": 81 },
+			"gongji/gongji_00019_1": { "width": 66, "height": 71 },
+			"gongji/gongji_00020_1": { "width": 67, "height": 66 },
+			"gongji/gongji_00022_1": { "width": 66, "height": 63 },
+			"gongji/gongji_00023_1": { "width": 65, "height": 61 },
+			"gongji/gongji_00025_1": { "width": 66, "height": 138 },
+			"gongji/gongji_00026_1": { "width": 72, "height": 135 },
+			"gongji/gongji_00028_1": { "width": 74, "height": 122 },
+			"gongji/gongji_00029_1": { "width": 74, "height": 117 },
+			"gongji/gongji_00031_1": { "width": 72, "height": 101 },
+			"gongji/gongji_00032_1": { "width": 72, "height": 92 },
+			"gongji/gongji_00033_1": { "width": 73, "height": 94 },
+			"gongji/gongji_00035_1": { "width": 74, "height": 73 },
+			"gongji/gongji_00036_1": { "width": 75, "height": 70 },
+			"gongji/gongji_00038_1": { "width": 74, "height": 61 },
+			"gongji/gongji_00039_1": { "width": 72, "height": 58 },
+			"gongji/gongji_00041_1": { "width": 73, "height": 125 },
+			"gongji/gongji_00042_1": { "width": 65, "height": 116 },
+			"gongji/gongji_00044_1": { "width": 57, "height": 95 }
+		}
+	}
+},
+"animations": {
+	"effects_buff2": {
+		"slots": {
+			"gongji/gongji_00000_1": {
+				"attachment": [
+					{ "time": 0, "name": "gongji/gongji_00000_1" },
+					{ "time": 0.0333, "name": "gongji/gongji_00001_1" },
+					{ "time": 0.1, "name": "gongji/gongji_00003_1" },
+					{ "time": 0.1333, "name": "gongji/gongji_00004_1" },
+					{ "time": 0.2, "name": "gongji/gongji_00006_1" },
+					{ "time": 0.2333, "name": "gongji/gongji_00007_1" },
+					{ "time": 0.3, "name": "gongji/gongji_00009_1" },
+					{ "time": 0.3333, "name": "gongji/gongji_00010_1" },
+					{ "time": 0.4, "name": "gongji/gongji_00012_1" },
+					{ "time": 0.4333, "name": "gongji/gongji_00013_1" },
+					{ "time": 0.5, "name": "gongji/gongji_00015_1" },
+					{ "time": 0.5333, "name": "gongji/gongji_00016_1" },
+					{ "time": 0.5666, "name": "gongji/gongji_00017_1" },
+					{ "time": 0.6333, "name": "gongji/gongji_00019_1" },
+					{ "time": 0.6666, "name": "gongji/gongji_00020_1" },
+					{ "time": 0.7333, "name": "gongji/gongji_00022_1" },
+					{ "time": 0.7666, "name": "gongji/gongji_00023_1" },
+					{ "time": 0.8333, "name": "gongji/gongji_00025_1" },
+					{ "time": 0.8666, "name": "gongji/gongji_00026_1" },
+					{ "time": 0.9333, "name": "gongji/gongji_00028_1" },
+					{ "time": 0.9666, "name": "gongji/gongji_00029_1" },
+					{ "time": 1.0333, "name": "gongji/gongji_00031_1" },
+					{ "time": 1.0666, "name": "gongji/gongji_00032_1" },
+					{ "time": 1.1, "name": "gongji/gongji_00033_1" },
+					{ "time": 1.1666, "name": "gongji/gongji_00035_1" },
+					{ "time": 1.2, "name": "gongji/gongji_00036_1" },
+					{ "time": 1.2666, "name": "gongji/gongji_00038_1" },
+					{ "time": 1.3, "name": "gongji/gongji_00039_1" },
+					{ "time": 1.3666, "name": "gongji/gongji_00041_1" },
+					{ "time": 1.4, "name": "gongji/gongji_00042_1" },
+					{ "time": 1.4666, "name": "gongji/gongji_00044_1" }
+				]
+			}
+		},
+		"bones": {
+			"gongji": {
+				"translate": [
+					{ "time": 0, "x": -4.67, "y": -16.71 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2.978, "y": 2.978 }
+				]
+			}
+		}
+	},
+	"effects_buff_hei": {
+		"slots": {
+			"gongji/gongji_00000_1": {
+				"attachment": [
+					{ "time": 0, "name": "gongji/gongji_00000_1" },
+					{ "time": 0.0333, "name": "gongji/gongji_00001_1" },
+					{ "time": 0.1, "name": "gongji/gongji_00003_1" },
+					{ "time": 0.1333, "name": "gongji/gongji_00004_1" },
+					{ "time": 0.2, "name": "gongji/gongji_00006_1" },
+					{ "time": 0.2333, "name": "gongji/gongji_00007_1" },
+					{ "time": 0.3, "name": "gongji/gongji_00009_1" },
+					{ "time": 0.3333, "name": "gongji/gongji_00010_1" },
+					{ "time": 0.4, "name": "gongji/gongji_00012_1" },
+					{ "time": 0.4333, "name": "gongji/gongji_00013_1" },
+					{ "time": 0.5, "name": "gongji/gongji_00015_1" },
+					{ "time": 0.5333, "name": "gongji/gongji_00016_1" },
+					{ "time": 0.5666, "name": "gongji/gongji_00017_1" },
+					{ "time": 0.6333, "name": "gongji/gongji_00019_1" },
+					{ "time": 0.6666, "name": "gongji/gongji_00020_1" },
+					{ "time": 0.7333, "name": "gongji/gongji_00022_1" },
+					{ "time": 0.7666, "name": "gongji/gongji_00023_1" },
+					{ "time": 0.8333, "name": "gongji/gongji_00025_1" },
+					{ "time": 0.8666, "name": "gongji/gongji_00026_1" },
+					{ "time": 0.9333, "name": "gongji/gongji_00028_1" },
+					{ "time": 0.9666, "name": "gongji/gongji_00029_1" },
+					{ "time": 1.0333, "name": "gongji/gongji_00031_1" },
+					{ "time": 1.0666, "name": "gongji/gongji_00032_1" },
+					{ "time": 1.1, "name": "gongji/gongji_00033_1" },
+					{ "time": 1.1666, "name": "gongji/gongji_00035_1" },
+					{ "time": 1.2, "name": "gongji/gongji_00036_1" },
+					{ "time": 1.2666, "name": "gongji/gongji_00038_1" },
+					{ "time": 1.3, "name": "gongji/gongji_00039_1" },
+					{ "time": 1.3666, "name": "gongji/gongji_00041_1" },
+					{ "time": 1.4, "name": "gongji/gongji_00042_1" },
+					{ "time": 1.4666, "name": "gongji/gongji_00044_1" }
+				],
+				"color": [
+					{ "time": 0, "color": "000000ff" }
+				]
+			}
+		},
+		"bones": {
+			"gongji": {
+				"translate": [
+					{ "time": 0, "x": -4.67, "y": -16.71 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2.978, "y": 2.978 }
+				]
+			}
+		}
+	}
+}
+}

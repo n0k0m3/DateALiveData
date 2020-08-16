@@ -1,0 +1,146 @@
+
+effects_30101_skillB_b.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skillA/fk/fk_0040
+  rotate: true
+  xy: 61, 13
+  size: 157, 54
+  orig: 161, 64
+  offset: 4, 5
+  index: -1
+effects/skillA/fk/fk_0041
+  rotate: true
+  xy: 177, 13
+  size: 157, 54
+  orig: 161, 64
+  offset: 4, 5
+  index: -1
+effects/skillA/fk/fk_0042
+  rotate: true
+  xy: 2, 14
+  size: 156, 57
+  orig: 161, 64
+  offset: 5, 4
+  index: -1
+effects/skillA/fk/fk_0043
+  rotate: true
+  xy: 2, 14
+  size: 156, 57
+  orig: 161, 64
+  offset: 5, 4
+  index: -1
+effects/skillA/fk/fk_0044
+  rotate: true
+  xy: 117, 16
+  size: 155, 58
+  orig: 161, 64
+  offset: 4, 3
+  index: -1
+effects/skillA/fk/fk_0045
+  rotate: true
+  xy: 233, 30
+  size: 140, 61
+  orig: 161, 64
+  offset: 3, 2
+  index: -1
+effects/skillA/fk/fk_0046
+  rotate: false
+  xy: 297, 430
+  size: 140, 61
+  orig: 161, 64
+  offset: 3, 2
+  index: -1
+effects/skillA/fk/fk_0047
+  rotate: false
+  xy: 297, 370
+  size: 117, 58
+  orig: 161, 64
+  offset: 4, 3
+  index: -1
+effects/skillA/fk/fk_0048
+  rotate: false
+  xy: 297, 310
+  size: 117, 58
+  orig: 161, 64
+  offset: 4, 3
+  index: -1
+effects/skillA/fk/fk_0049
+  rotate: false
+  xy: 297, 255
+  size: 90, 53
+  orig: 161, 64
+  offset: 4, 5
+  index: -1
+effects/skillA/fk/fk_0050
+  rotate: false
+  xy: 297, 201
+  size: 78, 52
+  orig: 161, 64
+  offset: 4, 6
+  index: -1
+effects/skillA/fk/fk_0051
+  rotate: true
+  xy: 439, 413
+  size: 78, 52
+  orig: 161, 64
+  offset: 4, 6
+  index: -1
+effects/skillA/red_a/red_a_0000
+  rotate: true
+  xy: 2, 172
+  size: 275, 40
+  orig: 280, 43
+  offset: 1, 0
+  index: -1
+effects/skillA/red_a/red_a_0001
+  rotate: true
+  xy: 44, 172
+  size: 275, 40
+  orig: 280, 43
+  offset: 1, 0
+  index: -1
+effects/skillA/red_a/red_a_0002
+  rotate: true
+  xy: 129, 173
+  size: 274, 40
+  orig: 280, 43
+  offset: 1, 0
+  index: -1
+effects/skillA/red_a/red_a_0003
+  rotate: true
+  xy: 171, 173
+  size: 274, 40
+  orig: 280, 43
+  offset: 1, 0
+  index: -1
+effects/skillA/red_a/red_a_0004
+  rotate: true
+  xy: 86, 173
+  size: 274, 41
+  orig: 280, 43
+  offset: 1, 0
+  index: -1
+effects/skillA/red_a/red_a_0005
+  rotate: false
+  xy: 2, 449
+  size: 274, 42
+  orig: 280, 43
+  offset: 1, 0
+  index: -1
+effects/skillA/red_a/red_a_0006
+  rotate: true
+  xy: 213, 172
+  size: 275, 40
+  orig: 280, 43
+  offset: 0, 0
+  index: -1
+effects/skillA/red_a/red_a_0007
+  rotate: true
+  xy: 255, 173
+  size: 274, 40
+  orig: 280, 43
+  offset: 1, 0
+  index: -1

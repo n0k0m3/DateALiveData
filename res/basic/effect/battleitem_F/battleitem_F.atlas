@@ -1,0 +1,334 @@
+
+battleitem_F.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hongsexuan0001
+  rotate: false
+  xy: 709, 834
+  size: 229, 188
+  orig: 260, 227
+  offset: 8, 13
+  index: -1
+hongsexuan0003
+  rotate: false
+  xy: 237, 451
+  size: 186, 189
+  orig: 260, 227
+  offset: 11, 12
+  index: -1
+hongsexuan0005
+  rotate: true
+  xy: 2, 2
+  size: 211, 169
+  orig: 260, 227
+  offset: 12, 13
+  index: -1
+hongsexuan0006
+  rotate: false
+  xy: 705, 157
+  size: 228, 149
+  orig: 260, 227
+  offset: 13, 14
+  index: -1
+hongsexuan0007
+  rotate: false
+  xy: 709, 681
+  size: 233, 151
+  orig: 260, 227
+  offset: 18, 15
+  index: -1
+hongsexuan0008
+  rotate: true
+  xy: 355, 214
+  size: 235, 173
+  orig: 260, 227
+  offset: 19, 15
+  index: -1
+hongsexuan0009
+  rotate: true
+  xy: 2, 215
+  size: 234, 186
+  orig: 260, 227
+  offset: 19, 17
+  index: -1
+hongsexuan0010
+  rotate: false
+  xy: 238, 833
+  size: 233, 189
+  orig: 260, 227
+  offset: 22, 21
+  index: -1
+hongsexuan0012
+  rotate: true
+  xy: 344, 9
+  size: 203, 187
+  orig: 260, 227
+  offset: 50, 23
+  index: -1
+hongsexuan0017
+  rotate: false
+  xy: 697, 17
+  size: 233, 138
+  orig: 260, 227
+  offset: 15, 72
+  index: -1
+hongsexuan0018
+  rotate: true
+  xy: 533, 28
+  size: 233, 162
+  orig: 260, 227
+  offset: 10, 47
+  index: -1
+hongsexuan0019
+  rotate: false
+  xy: 470, 500
+  size: 235, 180
+  orig: 260, 227
+  offset: 9, 28
+  index: -1
+hongsexuan0020
+  rotate: false
+  xy: 2, 833
+  size: 234, 189
+  orig: 260, 227
+  offset: 9, 17
+  index: -1
+lizihong
+  rotate: false
+  xy: 940, 984
+  size: 37, 38
+  orig: 40, 40
+  offset: 1, 1
+  index: -1
+lizizi
+  rotate: false
+  xy: 940, 948
+  size: 34, 34
+  orig: 48, 48
+  offset: 7, 7
+  index: -1
+zisexuan0005
+  rotate: true
+  xy: 190, 215
+  size: 234, 163
+  orig: 261, 228
+  offset: 17, 14
+  index: -1
+zisexuan0006
+  rotate: false
+  xy: 707, 498
+  size: 235, 181
+  orig: 261, 228
+  offset: 17, 15
+  index: -1
+zisexuan0007
+  rotate: false
+  xy: 2, 642
+  size: 234, 189
+  orig: 261, 228
+  offset: 19, 18
+  index: -1
+zisexuan0008
+  rotate: false
+  xy: 238, 643
+  size: 230, 188
+  orig: 261, 228
+  offset: 24, 23
+  index: -1
+zisexuan0012
+  rotate: true
+  xy: 173, 2
+  size: 211, 169
+  orig: 261, 228
+  offset: 39, 42
+  index: -1
+zisexuan0014
+  rotate: false
+  xy: 473, 682
+  size: 234, 151
+  orig: 261, 228
+  offset: 10, 58
+  index: -1
+zisexuan0015
+  rotate: true
+  xy: 530, 263
+  size: 235, 173
+  orig: 261, 228
+  offset: 7, 36
+  index: -1
+zisexuan0016
+  rotate: false
+  xy: 473, 835
+  size: 234, 187
+  orig: 261, 228
+  offset: 8, 21
+  index: -1
+zisexuan0017
+  rotate: false
+  xy: 2, 451
+  size: 233, 189
+  orig: 261, 228
+  offset: 7, 14
+  index: -1
+zisexuan0018
+  rotate: false
+  xy: 705, 308
+  size: 224, 188
+  orig: 261, 228
+  offset: 6, 13
+  index: -1
+
+battleitem_F2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hongdi
+  rotate: false
+  xy: 2, 236
+  size: 196, 196
+  orig: 199, 199
+  offset: 0, 3
+  index: -1
+hongsexuan0002
+  rotate: false
+  xy: 226, 824
+  size: 214, 188
+  orig: 260, 227
+  offset: 9, 13
+  index: -1
+hongsexuan0004
+  rotate: false
+  xy: 389, 258
+  size: 183, 185
+  orig: 260, 227
+  offset: 12, 12
+  index: -1
+hongsexuan0011
+  rotate: false
+  xy: 2, 824
+  size: 222, 188
+  orig: 260, 227
+  offset: 33, 23
+  index: -1
+hongsexuan0013
+  rotate: false
+  xy: 306, 54
+  size: 167, 187
+  orig: 260, 227
+  offset: 84, 25
+  index: -1
+hongsexuan0014
+  rotate: false
+  xy: 306, 54
+  size: 167, 187
+  orig: 260, 227
+  offset: 84, 25
+  index: -1
+hongsexuan0015
+  rotate: false
+  xy: 442, 667
+  size: 198, 180
+  orig: 260, 227
+  offset: 53, 33
+  index: -1
+hongsexuan0016
+  rotate: false
+  xy: 442, 849
+  size: 220, 163
+  orig: 260, 227
+  offset: 30, 47
+  index: -1
+ziA
+  rotate: false
+  xy: 550, 490
+  size: 175, 175
+  orig: 180, 180
+  offset: 1, 4
+  index: -1
+ziP
+  rotate: false
+  xy: 574, 313
+  size: 175, 175
+  orig: 180, 179
+  offset: 1, 3
+  index: -1
+zidi
+  rotate: false
+  xy: 2, 434
+  size: 196, 197
+  orig: 197, 197
+  offset: 0, 0
+  index: -1
+zisexuan0001
+  rotate: false
+  xy: 381, 445
+  size: 167, 187
+  orig: 261, 228
+  offset: 10, 12
+  index: -1
+zisexuan0020
+  rotate: false
+  xy: 381, 445
+  size: 167, 187
+  orig: 261, 228
+  offset: 10, 12
+  index: -1
+zisexuan0002
+  rotate: true
+  xy: 200, 433
+  size: 198, 179
+  orig: 261, 228
+  offset: 10, 12
+  index: -1
+zisexuan0003
+  rotate: true
+  xy: 2, 13
+  size: 221, 162
+  orig: 261, 228
+  offset: 11, 14
+  index: -1
+zisexuan0004
+  rotate: true
+  xy: 166, 2
+  size: 232, 138
+  orig: 261, 228
+  offset: 14, 14
+  index: -1
+zisexuan0009
+  rotate: false
+  xy: 2, 633
+  size: 214, 189
+  orig: 261, 228
+  offset: 39, 22
+  index: -1
+zisexuan0010
+  rotate: false
+  xy: 200, 243
+  size: 187, 188
+  orig: 261, 228
+  offset: 64, 23
+  index: -1
+zisexuan0011
+  rotate: false
+  xy: 475, 72
+  size: 183, 184
+  orig: 261, 228
+  offset: 67, 28
+  index: -1
+zisexuan0013
+  rotate: false
+  xy: 664, 863
+  size: 229, 149
+  orig: 261, 228
+  offset: 19, 61
+  index: -1
+zisexuan0019
+  rotate: false
+  xy: 218, 634
+  size: 203, 188
+  orig: 261, 228
+  offset: 8, 13
+  index: -1

@@ -1,0 +1,209 @@
+
+18shuishangleyuan_hailangshu.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: false
+  xy: 821, 955
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+02
+  rotate: false
+  xy: 2, 226
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+03
+  rotate: false
+  xy: 304, 401
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+04
+  rotate: false
+  xy: 821, 887
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+05
+  rotate: false
+  xy: 2, 158
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+06
+  rotate: false
+  xy: 821, 819
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+07
+  rotate: false
+  xy: 2, 90
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+08
+  rotate: true
+  xy: 148, 148
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+09
+  rotate: false
+  xy: 821, 751
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+10
+  rotate: false
+  xy: 2, 22
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+11
+  rotate: false
+  xy: 821, 683
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+12
+  rotate: false
+  xy: 821, 615
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+13
+  rotate: false
+  xy: 821, 547
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+14
+  rotate: false
+  xy: 304, 333
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+15
+  rotate: true
+  xy: 450, 323
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+16
+  rotate: true
+  xy: 148, 2
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+17
+  rotate: false
+  xy: 518, 423
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+18
+  rotate: false
+  xy: 518, 355
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+l
+  rotate: true
+  xy: 694, 527
+  size: 494, 125
+  orig: 494, 125
+  offset: 0, 0
+  index: -1
+l10
+  rotate: true
+  xy: 967, 712
+  size: 161, 10
+  orig: 161, 10
+  offset: 0, 0
+  index: -1
+l11
+  rotate: false
+  xy: 2, 294
+  size: 238, 39
+  orig: 238, 39
+  offset: 0, 0
+  index: -1
+l4
+  rotate: false
+  xy: 694, 514
+  size: 62, 11
+  orig: 62, 11
+  offset: 0, 0
+  index: -1
+l5
+  rotate: true
+  xy: 967, 875
+  size: 146, 30
+  orig: 146, 30
+  offset: 0, 0
+  index: -1
+l6
+  rotate: false
+  xy: 304, 469
+  size: 210, 20
+  orig: 210, 20
+  offset: 0, 0
+  index: -1
+l7
+  rotate: true
+  xy: 216, 135
+  size: 157, 14
+  orig: 157, 14
+  offset: 0, 0
+  index: -1
+l8
+  rotate: true
+  xy: 979, 722
+  size: 151, 18
+  orig: 151, 18
+  offset: 0, 0
+  index: -1
+l9
+  rotate: false
+  xy: 821, 531
+  size: 133, 14
+  orig: 133, 14
+  offset: 0, 0
+  index: -1
+shu1_00000
+  rotate: false
+  xy: 304, 491
+  size: 388, 530
+  orig: 388, 530
+  offset: 0, 0
+  index: -1
+shu_00000
+  rotate: false
+  xy: 2, 335
+  size: 300, 686
+  orig: 300, 686
+  offset: 0, 0
+  index: -1

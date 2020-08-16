@@ -1,0 +1,216 @@
+
+effect_10305_energy.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xunhuan/xunhuan_00000
+  rotate: false
+  xy: 2, 277
+  size: 217, 85
+  orig: 250, 100
+  offset: 18, 0
+  index: -1
+xunhuan/xunhuan_00001
+  rotate: false
+  xy: 441, 364
+  size: 216, 85
+  orig: 250, 100
+  offset: 18, 0
+  index: -1
+xunhuan/xunhuan_00002
+  rotate: false
+  xy: 221, 190
+  size: 215, 85
+  orig: 250, 100
+  offset: 19, 0
+  index: -1
+xunhuan/xunhuan_00003
+  rotate: false
+  xy: 440, 277
+  size: 215, 85
+  orig: 250, 100
+  offset: 19, 0
+  index: -1
+xunhuan/xunhuan_00004
+  rotate: false
+  xy: 222, 364
+  size: 217, 85
+  orig: 250, 100
+  offset: 17, 0
+  index: -1
+xunhuan/xunhuan_00005
+  rotate: false
+  xy: 661, 451
+  size: 216, 85
+  orig: 250, 100
+  offset: 17, 0
+  index: -1
+xunhuan/xunhuan_00006
+  rotate: false
+  xy: 2, 712
+  size: 219, 85
+  orig: 250, 100
+  offset: 15, 0
+  index: -1
+xunhuan/xunhuan_00007
+  rotate: false
+  xy: 223, 625
+  size: 218, 85
+  orig: 250, 100
+  offset: 15, 0
+  index: -1
+xunhuan/xunhuan_00008
+  rotate: false
+  xy: 442, 451
+  size: 217, 85
+  orig: 250, 100
+  offset: 15, 0
+  index: -1
+xunhuan/xunhuan_00009
+  rotate: false
+  xy: 659, 364
+  size: 215, 85
+  orig: 250, 100
+  offset: 16, 0
+  index: -1
+xunhuan/xunhuan_00010
+  rotate: false
+  xy: 663, 538
+  size: 217, 85
+  orig: 250, 100
+  offset: 16, 0
+  index: -1
+xunhuan/xunhuan_00011
+  rotate: false
+  xy: 444, 712
+  size: 218, 85
+  orig: 250, 100
+  offset: 16, 0
+  index: -1
+xunhuan/xunhuan_00012
+  rotate: false
+  xy: 666, 799
+  size: 218, 85
+  orig: 250, 100
+  offset: 16, 0
+  index: -1
+xunhuan/xunhuan_00013
+  rotate: false
+  xy: 224, 799
+  size: 219, 85
+  orig: 250, 100
+  offset: 16, 0
+  index: -1
+xunhuan/xunhuan_00014
+  rotate: false
+  xy: 2, 625
+  size: 219, 85
+  orig: 250, 100
+  offset: 16, 0
+  index: -1
+xunhuan/xunhuan_00015
+  rotate: false
+  xy: 2, 451
+  size: 218, 85
+  orig: 250, 100
+  offset: 17, 0
+  index: -1
+xunhuan/xunhuan_00016
+  rotate: false
+  xy: 223, 538
+  size: 218, 85
+  orig: 250, 100
+  offset: 17, 0
+  index: -1
+xunhuan/xunhuan_00017
+  rotate: false
+  xy: 443, 625
+  size: 218, 85
+  orig: 250, 100
+  offset: 17, 0
+  index: -1
+xunhuan/xunhuan_00018
+  rotate: false
+  xy: 664, 712
+  size: 218, 85
+  orig: 250, 100
+  offset: 17, 0
+  index: -1
+xunhuan/xunhuan_00019
+  rotate: false
+  xy: 2, 364
+  size: 218, 85
+  orig: 250, 100
+  offset: 16, 0
+  index: -1
+xunhuan/xunhuan_00020
+  rotate: false
+  xy: 223, 712
+  size: 219, 85
+  orig: 250, 100
+  offset: 16, 0
+  index: -1
+xunhuan/xunhuan_00021
+  rotate: false
+  xy: 2, 799
+  size: 220, 85
+  orig: 250, 100
+  offset: 15, 0
+  index: -1
+xunhuan/xunhuan_00022
+  rotate: false
+  xy: 445, 799
+  size: 219, 85
+  orig: 250, 100
+  offset: 17, 0
+  index: -1
+xunhuan/xunhuan_00023
+  rotate: false
+  xy: 222, 451
+  size: 218, 85
+  orig: 250, 100
+  offset: 17, 0
+  index: -1
+xunhuan/xunhuan_00024
+  rotate: false
+  xy: 443, 538
+  size: 218, 85
+  orig: 250, 100
+  offset: 18, 0
+  index: -1
+xunhuan/xunhuan_00025
+  rotate: false
+  xy: 2, 538
+  size: 219, 85
+  orig: 250, 100
+  offset: 17, 0
+  index: -1
+xunhuan/xunhuan_00026
+  rotate: false
+  xy: 663, 625
+  size: 218, 85
+  orig: 250, 100
+  offset: 18, 0
+  index: -1
+xunhuan/xunhuan_00027
+  rotate: false
+  xy: 2, 190
+  size: 217, 85
+  orig: 250, 100
+  offset: 18, 0
+  index: -1
+xunhuan/xunhuan_00028
+  rotate: false
+  xy: 2, 103
+  size: 216, 85
+  orig: 250, 100
+  offset: 19, 0
+  index: -1
+xunhuan/xunhuan_00029
+  rotate: false
+  xy: 221, 277
+  size: 217, 85
+  orig: 250, 100
+  offset: 18, 0
+  index: -1

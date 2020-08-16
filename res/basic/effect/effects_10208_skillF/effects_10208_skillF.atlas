@@ -1,0 +1,439 @@
+
+effects_10208_skillF.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skillF/chongci/chongci_000
+  rotate: false
+  xy: 675, 439
+  size: 83, 178
+  orig: 98, 195
+  offset: 7, 9
+  index: -1
+effects/skillF/chongci/chongci_001
+  rotate: true
+  xy: 737, 118
+  size: 54, 178
+  orig: 98, 195
+  offset: 26, 3
+  index: -1
+effects/skillF/dizhen1/dizhen1_000
+  rotate: true
+  xy: 988, 131
+  size: 118, 30
+  orig: 227, 85
+  offset: 60, 30
+  index: -1
+effects/skillF/dizhen1/dizhen1_006
+  rotate: true
+  xy: 919, 23
+  size: 226, 67
+  orig: 227, 85
+  offset: 1, 8
+  index: -1
+effects/skillF/dizhen1/dizhen1_010
+  rotate: false
+  xy: 520, 619
+  size: 221, 66
+  orig: 227, 85
+  offset: 6, 8
+  index: -1
+effects/skillF/dizhen2/dizhen2_000
+  rotate: true
+  xy: 988, 21
+  size: 108, 29
+  orig: 260, 98
+  offset: 75, 41
+  index: -1
+effects/skillF/dizhen2/dizhen2_002
+  rotate: false
+  xy: 505, 687
+  size: 221, 51
+  orig: 260, 98
+  offset: 19, 26
+  index: -1
+effects/skillF/dizhen2/dizhen2_004
+  rotate: false
+  xy: 264, 619
+  size: 254, 62
+  orig: 260, 98
+  offset: 5, 17
+  index: -1
+effects/skillF/dizhen2/dizhen2_006
+  rotate: false
+  xy: 194, 169
+  size: 260, 69
+  orig: 260, 98
+  offset: 0, 13
+  index: -1
+effects/skillF/dizhen2/dizhen2_008
+  rotate: false
+  xy: 728, 694
+  size: 260, 71
+  orig: 260, 98
+  offset: 0, 12
+  index: -1
+effects/skillF/dizhen2/dizhen2_010
+  rotate: false
+  xy: 743, 621
+  size: 260, 71
+  orig: 260, 98
+  offset: 0, 12
+  index: -1
+effects/skillF/dizhen2/dizhen2_012
+  rotate: false
+  xy: 194, 240
+  size: 260, 72
+  orig: 260, 98
+  offset: 0, 12
+  index: -1
+effects/skillF/lizixia/lizixia_008
+  rotate: false
+  xy: 404, 442
+  size: 129, 175
+  orig: 143, 195
+  offset: 11, 19
+  index: -1
+effects/skillF/lizixia/lizixia_010
+  rotate: false
+  xy: 456, 138
+  size: 139, 176
+  orig: 143, 195
+  offset: 4, 18
+  index: -1
+effects/skillF/lizixia/lizixia_012
+  rotate: false
+  xy: 535, 442
+  size: 138, 175
+  orig: 143, 195
+  offset: 4, 19
+  index: -1
+effects/skillF/lizixia/lizixia_014
+  rotate: false
+  xy: 597, 156
+  size: 138, 181
+  orig: 143, 195
+  offset: 4, 12
+  index: -1
+effects/skillF/nengliangzhao/nengliangzhao_000
+  rotate: true
+  xy: 2, 29
+  size: 205, 157
+  orig: 208, 169
+  offset: 2, 12
+  index: -1
+effects/skillF/nengliangzhao/nengliangzhao_002
+  rotate: false
+  xy: 719, 867
+  size: 202, 154
+  orig: 208, 169
+  offset: 3, 14
+  index: -1
+effects/skillF/nengliangzhao/nengliangzhao_004
+  rotate: false
+  xy: 204, 466
+  size: 198, 151
+  orig: 208, 169
+  offset: 5, 15
+  index: -1
+effects/skillF/nengliangzhao/nengliangzhao_006
+  rotate: false
+  xy: 204, 314
+  size: 198, 150
+  orig: 208, 169
+  offset: 3, 15
+  index: -1
+effects/skillF/nengliangzhao/nengliangzhao_008
+  rotate: false
+  xy: 161, 22
+  size: 197, 145
+  orig: 208, 169
+  offset: 2, 16
+  index: -1
+effects/skillF/nengliangzhao/nengliangzhao_010
+  rotate: true
+  xy: 768, 267
+  size: 180, 136
+  orig: 208, 169
+  offset: 10, 17
+  index: -1
+effects/skillF/nengliangzhao/nengliangzhao_012
+  rotate: false
+  xy: 450, 3
+  size: 177, 133
+  orig: 208, 169
+  offset: 11, 18
+  index: -1
+effects/skillF/nengliangzhao/nengliangzhao_014
+  rotate: false
+  xy: 404, 316
+  size: 175, 124
+  orig: 208, 169
+  offset: 12, 20
+  index: -1
+effects/skillF/qiangwenli/qiangwenli_000
+  rotate: true
+  xy: 629, 12
+  size: 142, 98
+  orig: 195, 98
+  offset: 11, 0
+  index: -1
+effects/skillF/qiangwenli/qiangwenli_002
+  rotate: true
+  xy: 923, 864
+  size: 157, 98
+  orig: 195, 98
+  offset: 6, 0
+  index: -1
+effects/skillF/qiangwenli/qiangwenli_006
+  rotate: false
+  xy: 535, 740
+  size: 182, 98
+  orig: 195, 98
+  offset: 5, 0
+  index: -1
+effects/skillF/qiangwenli/qiangwenli_008
+  rotate: true
+  xy: 916, 437
+  size: 182, 98
+  orig: 195, 98
+  offset: 5, 0
+  index: -1
+effects/skillF/qiangwenli/qiangwenli_010
+  rotate: false
+  xy: 581, 339
+  size: 185, 98
+  orig: 195, 98
+  offset: 5, 0
+  index: -1
+effects/skillF/qiangwenli/qiangwenli_012
+  rotate: true
+  xy: 906, 251
+  size: 184, 98
+  orig: 195, 98
+  offset: 5, 0
+  index: -1
+effects/skillF/qiangwenli/qiangwenli_014
+  rotate: false
+  xy: 719, 767
+  size: 195, 98
+  orig: 195, 98
+  offset: 0, 0
+  index: -1
+effects/skillF/qiangwenli/qiangwenli_016
+  rotate: false
+  xy: 729, 18
+  size: 188, 98
+  orig: 195, 98
+  offset: 4, 0
+  index: -1
+effects/skillF/shandianjuqi/dianjuqi_000
+  rotate: false
+  xy: 264, 683
+  size: 239, 147
+  orig: 260, 210
+  offset: 2, 16
+  index: -1
+effects/skillF/shandianjuqi/dianjuqi_002
+  rotate: false
+  xy: 2, 633
+  size: 260, 191
+  orig: 260, 210
+  offset: 0, 9
+  index: -1
+effects/skillF/shandianjuqi/dianjuqi_004
+  rotate: false
+  xy: 2, 826
+  size: 260, 195
+  orig: 260, 210
+  offset: 0, 10
+  index: -1
+effects/skillF/shandianjuqi/dianjuqi_006
+  rotate: false
+  xy: 264, 832
+  size: 255, 189
+  orig: 260, 210
+  offset: 5, 4
+  index: -1
+effects/skillF/shandianjuqi/dianjuqi_008
+  rotate: false
+  xy: 2, 236
+  size: 190, 192
+  orig: 260, 210
+  offset: 26, 7
+  index: -1
+effects/skillF/shandianjuqi/dianjuqi_010
+  rotate: false
+  xy: 2, 430
+  size: 200, 201
+  orig: 260, 210
+  offset: 31, 8
+  index: -1
+effects/skillF/shandianjuqi/dianjuqi_012
+  rotate: true
+  xy: 521, 840
+  size: 181, 196
+  orig: 260, 210
+  offset: 34, 10
+  index: -1
+effects/skillF/shandianjuqi/dianjuqi_014
+  rotate: false
+  xy: 760, 449
+  size: 154, 170
+  orig: 260, 210
+  offset: 60, 23
+  index: -1
+effects/skillF/shandianjuqi/dianjuqi_018
+  rotate: false
+  xy: 916, 791
+  size: 88, 71
+  orig: 260, 210
+  offset: 84, 59
+  index: -1
+effects/skillF/shenge/shenge_006
+  rotate: true
+  xy: 737, 174
+  size: 91, 167
+  orig: 98, 195
+  offset: 3, 20
+  index: -1
+effects/skillF/shenge/shenge_008
+  rotate: false
+  xy: 360, 3
+  size: 88, 164
+  orig: 98, 195
+  offset: 6, 25
+  index: -1
+
+effects_10208_skillF2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/glow
+  rotate: false
+  xy: 195, 93
+  size: 65, 65
+  orig: 65, 65
+  offset: 0, 0
+  index: -1
+effects/guangxian2_000
+  rotate: true
+  xy: 314, 127
+  size: 160, 65
+  orig: 166, 65
+  offset: 0, 0
+  index: -1
+effects/skillF/canying_000
+  rotate: true
+  xy: 156, 27
+  size: 64, 128
+  orig: 72, 143
+  offset: 3, 10
+  index: -1
+effects/skillF/dizhen1/dizhen1_002
+  rotate: false
+  xy: 286, 10
+  size: 173, 51
+  orig: 227, 85
+  offset: 30, 18
+  index: -1
+effects/skillF/dizhen1/dizhen1_004
+  rotate: false
+  xy: 226, 448
+  size: 215, 62
+  orig: 227, 85
+  offset: 9, 11
+  index: -1
+effects/skillF/dizhen1/dizhen1_008
+  rotate: false
+  xy: 2, 446
+  size: 222, 64
+  orig: 227, 85
+  offset: 5, 10
+  index: -1
+effects/skillF/dizhen1/dizhen1_012
+  rotate: false
+  xy: 2, 380
+  size: 221, 64
+  orig: 227, 85
+  offset: 6, 10
+  index: -1
+effects/skillF/lizixia/lizixia_006
+  rotate: true
+  xy: 418, 392
+  size: 54, 92
+  orig: 143, 195
+  offset: 42, 102
+  index: -1
+effects/skillF/lizixia/lizixia_016
+  rotate: true
+  xy: 226, 378
+  size: 68, 190
+  orig: 143, 195
+  offset: 38, 3
+  index: -1
+effects/skillF/lizixia/lizixia_018
+  rotate: true
+  xy: 286, 63
+  size: 62, 144
+  orig: 143, 195
+  offset: 38, 3
+  index: -1
+effects/skillF/qiangwenli/qiangwenli_004
+  rotate: true
+  xy: 95, 120
+  size: 158, 98
+  orig: 195, 98
+  offset: 5, 0
+  index: -1
+effects/skillF/qiangwenli/qiangwenli_018
+  rotate: false
+  xy: 2, 280
+  size: 187, 98
+  orig: 195, 98
+  offset: 5, 0
+  index: -1
+effects/skillF/shandianjuqi/dianjuqi_016
+  rotate: false
+  xy: 195, 160
+  size: 117, 127
+  orig: 260, 210
+  offset: 68, 34
+  index: -1
+effects/skillF/shenge/shenge_002
+  rotate: true
+  xy: 2, 19
+  size: 87, 152
+  orig: 98, 195
+  offset: 5, 20
+  index: -1
+effects/skillF/shenge/shenge_004
+  rotate: false
+  xy: 2, 108
+  size: 91, 170
+  orig: 98, 195
+  offset: 2, 19
+  index: -1
+effects/skillF/shenge/shenge_010
+  rotate: true
+  xy: 191, 289
+  size: 87, 162
+  orig: 98, 195
+  offset: 7, 25
+  index: -1
+effects/skillF/shenge/shenge_012
+  rotate: false
+  xy: 381, 136
+  size: 86, 157
+  orig: 98, 195
+  offset: 7, 27
+  index: -1
+effects/skillF/shenge/shenge_014
+  rotate: true
+  xy: 355, 295
+  size: 81, 146
+  orig: 98, 195
+  offset: 9, 32
+  index: -1

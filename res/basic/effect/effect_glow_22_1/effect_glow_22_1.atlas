@@ -1,0 +1,118 @@
+
+effect_glow_22_1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+suduxian/suduxian_00000
+  rotate: false
+  xy: 375, 727
+  size: 341, 50
+  orig: 341, 70
+  offset: 0, 0
+  index: -1
+suduxian/suduxian_00002
+  rotate: true
+  xy: 370, 196
+  size: 341, 57
+  orig: 341, 70
+  offset: 0, 0
+  index: -1
+suduxian/suduxian_00004
+  rotate: true
+  xy: 602, 207
+  size: 341, 53
+  orig: 341, 70
+  offset: 0, 0
+  index: -1
+suduxian/suduxian_00006
+  rotate: true
+  xy: 546, 207
+  size: 341, 54
+  orig: 341, 70
+  offset: 0, 0
+  index: -1
+suduxian/suduxian_00008
+  rotate: true
+  xy: 488, 207
+  size: 341, 56
+  orig: 341, 70
+  offset: 0, 0
+  index: -1
+suduxian/suduxian_00010
+  rotate: false
+  xy: 2, 47
+  size: 341, 46
+  orig: 341, 70
+  offset: 0, 0
+  index: -1
+suduxian/suduxian_00012
+  rotate: true
+  xy: 429, 207
+  size: 341, 57
+  orig: 341, 70
+  offset: 0, 0
+  index: -1
+suduxian/suduxian_00014
+  rotate: false
+  xy: 2, 2
+  size: 341, 43
+  orig: 341, 70
+  offset: 0, 0
+  index: -1
+wutaideng/wutaideng
+  rotate: true
+  xy: 310, 142
+  size: 395, 58
+  orig: 395, 58
+  offset: 0, 0
+  index: -1
+wutaideng/wutaideng1
+  rotate: false
+  xy: 2, 95
+  size: 217, 210
+  orig: 218, 210
+  offset: 0, 0
+  index: -1
+wutaideng/wutaideng2
+  rotate: false
+  xy: 375, 779
+  size: 306, 230
+  orig: 306, 230
+  offset: 0, 0
+  index: -1
+wutaideng/wutaideng3
+  rotate: false
+  xy: 683, 798
+  size: 218, 211
+  orig: 218, 211
+  offset: 0, 0
+  index: -1
+wutaideng/wutaideng4
+  rotate: false
+  xy: 2, 307
+  size: 306, 230
+  orig: 306, 230
+  offset: 0, 0
+  index: -1
+wutaideng/wutaideng5
+  rotate: false
+  xy: 2, 775
+  size: 371, 234
+  orig: 373, 234
+  offset: 0, 0
+  index: -1
+wutaideng/wutaideng6
+  rotate: false
+  xy: 2, 539
+  size: 367, 234
+  orig: 372, 234
+  offset: 2, 0
+  index: -1
+wutaideng/wutaidengzhu
+  rotate: true
+  xy: 371, 550
+  size: 175, 234
+  orig: 183, 234
+  offset: 0, 0
+  index: -1

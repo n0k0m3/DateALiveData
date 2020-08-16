@@ -1,0 +1,468 @@
+
+effects_10301_skillE.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/lz/beidong/bingchuxian_00030
+  rotate: false
+  xy: 2, 17
+  size: 88, 32
+  orig: 200, 200
+  offset: 48, 78
+  index: -1
+images/effects/lz/beidong/bingchuxian_00031
+  rotate: false
+  xy: 151, 91
+  size: 129, 59
+  orig: 200, 200
+  offset: 36, 63
+  index: -1
+images/effects/lz/beidong/bingchuxian_00034
+  rotate: true
+  xy: 174, 605
+  size: 147, 72
+  orig: 200, 200
+  offset: 28, 63
+  index: -1
+images/effects/lz/beidong/bingchuxian_00035
+  rotate: false
+  xy: 2, 51
+  size: 147, 72
+  orig: 200, 200
+  offset: 28, 63
+  index: -1
+images/effects/lz/beidong/bingchuxian_00037
+  rotate: true
+  xy: 914, 875
+  size: 147, 72
+  orig: 200, 200
+  offset: 28, 63
+  index: -1
+images/effects/lz/beidong/bingchuxian_00038
+  rotate: false
+  xy: 429, 805
+  size: 147, 72
+  orig: 200, 200
+  offset: 28, 63
+  index: -1
+images/effects/lz/beidong/bingchuxian_00040
+  rotate: false
+  xy: 424, 731
+  size: 147, 72
+  orig: 200, 200
+  offset: 28, 63
+  index: -1
+images/effects/lz/beidong/bingchuxian_00045
+  rotate: true
+  xy: 547, 582
+  size: 147, 72
+  orig: 200, 200
+  offset: 28, 63
+  index: -1
+images/effects/lz/beidong/bingyan_00000
+  rotate: true
+  xy: 220, 372
+  size: 51, 33
+  orig: 335, 160
+  offset: 147, 67
+  index: -1
+images/effects/lz/beidong/bingyan_00002
+  rotate: false
+  xy: 613, 806
+  size: 50, 31
+  orig: 335, 160
+  offset: 147, 68
+  index: -1
+images/effects/lz/beidong/bingyan_00004
+  rotate: true
+  xy: 255, 376
+  size: 51, 32
+  orig: 335, 160
+  offset: 147, 67
+  index: -1
+images/effects/lz/beidong/bingyan_00006
+  rotate: false
+  xy: 712, 811
+  size: 51, 31
+  orig: 335, 160
+  offset: 147, 67
+  index: -1
+images/effects/lz/beidong/bingyan_00008
+  rotate: false
+  xy: 613, 772
+  size: 50, 32
+  orig: 335, 160
+  offset: 148, 66
+  index: -1
+images/effects/lz/beidong/bingyan_00010
+  rotate: false
+  xy: 621, 703
+  size: 50, 32
+  orig: 335, 160
+  offset: 148, 65
+  index: -1
+images/effects/lz/beidong/bingyan_00012
+  rotate: false
+  xy: 621, 669
+  size: 49, 32
+  orig: 335, 160
+  offset: 148, 65
+  index: -1
+images/effects/lz/beidong/bingyan_00014
+  rotate: false
+  xy: 665, 812
+  size: 45, 32
+  orig: 335, 160
+  offset: 148, 65
+  index: -1
+images/effects/lz/beidong/bingyan_00016
+  rotate: false
+  xy: 665, 781
+  size: 45, 29
+  orig: 335, 160
+  offset: 148, 68
+  index: -1
+images/effects/lz/beidong/bingyan_00018
+  rotate: true
+  xy: 92, 2
+  size: 47, 34
+  orig: 335, 160
+  offset: 147, 68
+  index: -1
+images/effects/lz/beidong/bingyan_00020
+  rotate: false
+  xy: 715, 844
+  size: 49, 36
+  orig: 335, 160
+  offset: 146, 67
+  index: -1
+images/effects/lz/beidong/bingyan_00022
+  rotate: true
+  xy: 873, 835
+  size: 50, 35
+  orig: 335, 160
+  offset: 146, 67
+  index: -1
+images/effects/lz/beidong/bingyan_00024
+  rotate: true
+  xy: 578, 772
+  size: 51, 33
+  orig: 335, 160
+  offset: 146, 69
+  index: -1
+images/effects/lz/beidong/bingyan_00026
+  rotate: false
+  xy: 820, 851
+  size: 51, 34
+  orig: 335, 160
+  offset: 146, 68
+  index: -1
+images/effects/lz/beidong/bingyan_00028
+  rotate: false
+  xy: 234, 429
+  size: 52, 35
+  orig: 335, 160
+  offset: 146, 67
+  index: -1
+images/effects/lz/beidong/bingyan_00030
+  rotate: true
+  xy: 988, 963
+  size: 59, 34
+  orig: 335, 160
+  offset: 139, 67
+  index: -1
+images/effects/lz/beidong/bingyan_00032
+  rotate: false
+  xy: 128, 2
+  size: 59, 35
+  orig: 335, 160
+  offset: 139, 66
+  index: -1
+images/effects/lz/beidong/bingyan_00034
+  rotate: false
+  xy: 543, 545
+  size: 59, 35
+  orig: 335, 160
+  offset: 139, 65
+  index: -1
+images/effects/lz/beidong/bingyan_00036
+  rotate: false
+  xy: 235, 500
+  size: 56, 35
+  orig: 335, 160
+  offset: 140, 65
+  index: -1
+images/effects/lz/beidong/bingyan_00038
+  rotate: true
+  xy: 988, 908
+  size: 53, 34
+  orig: 335, 160
+  offset: 140, 65
+  index: -1
+images/effects/lz/beidong/bingyan_00040
+  rotate: false
+  xy: 543, 515
+  size: 54, 28
+  orig: 335, 160
+  offset: 140, 71
+  index: -1
+images/effects/lz/beidong/bingyan_00042
+  rotate: false
+  xy: 235, 466
+  size: 53, 32
+  orig: 335, 160
+  offset: 141, 70
+  index: -1
+images/effects/lz/beidong/bingyan_00044
+  rotate: true
+  xy: 988, 853
+  size: 53, 34
+  orig: 335, 160
+  offset: 142, 69
+  index: -1
+images/effects/lz/beidong/bingyan_00046
+  rotate: true
+  xy: 578, 825
+  size: 52, 33
+  orig: 335, 160
+  offset: 143, 69
+  index: -1
+images/effects/lz/beidong/bingyan_00048
+  rotate: false
+  xy: 661, 846
+  size: 52, 34
+  orig: 335, 160
+  offset: 144, 68
+  index: -1
+images/effects/lz/beidong/bingyan_00050
+  rotate: false
+  xy: 766, 851
+  size: 52, 34
+  orig: 335, 160
+  offset: 145, 68
+  index: -1
+images/effects/lz/beidong/bingyan_00052
+  rotate: false
+  xy: 712, 777
+  size: 51, 32
+  orig: 335, 160
+  offset: 146, 69
+  index: -1
+images/effects/lz/beidong/bingyan_00054
+  rotate: false
+  xy: 910, 840
+  size: 52, 33
+  orig: 335, 160
+  offset: 146, 68
+  index: -1
+images/effects/lz/beidong/bingyan_00056
+  rotate: false
+  xy: 573, 737
+  size: 51, 33
+  orig: 335, 160
+  offset: 147, 68
+  index: -1
+images/effects/lz/beidong/bingyan_00058
+  rotate: false
+  xy: 626, 737
+  size: 51, 33
+  orig: 335, 160
+  offset: 147, 67
+  index: -1
+images/effects/lz/beidong/siwang_00088
+  rotate: false
+  xy: 140, 152
+  size: 124, 132
+  orig: 400, 400
+  offset: 141, 136
+  index: -1
+images/effects/lz/beidong/siwang_00089
+  rotate: false
+  xy: 2, 754
+  size: 268, 268
+  orig: 400, 400
+  offset: 69, 72
+  index: -1
+images/effects/lz/beidong/siwang_00091
+  rotate: false
+  xy: 2, 584
+  size: 170, 168
+  orig: 400, 400
+  offset: 122, 118
+  index: -1
+images/effects/lz/beidong/siwang_00092
+  rotate: false
+  xy: 272, 862
+  size: 155, 160
+  orig: 400, 400
+  offset: 130, 120
+  index: -1
+images/effects/lz/beidong/siwang_00093
+  rotate: false
+  xy: 2, 286
+  size: 152, 151
+  orig: 400, 400
+  offset: 128, 122
+  index: -1
+images/effects/lz/beidong/siwang_00094
+  rotate: false
+  xy: 398, 586
+  size: 147, 143
+  orig: 400, 400
+  offset: 126, 124
+  index: -1
+images/effects/lz/beidong/siwang_00095
+  rotate: false
+  xy: 272, 731
+  size: 150, 129
+  orig: 400, 400
+  offset: 124, 136
+  index: -1
+images/effects/lz/beidong/siwang_00097
+  rotate: false
+  xy: 755, 887
+  size: 157, 135
+  orig: 400, 400
+  offset: 120, 134
+  index: -1
+images/effects/lz/beidong/siwang_00099
+  rotate: false
+  xy: 593, 882
+  size: 160, 140
+  orig: 400, 400
+  offset: 118, 133
+  index: -1
+images/effects/lz/beidong/siwang_00101
+  rotate: false
+  xy: 2, 439
+  size: 162, 143
+  orig: 400, 400
+  offset: 117, 133
+  index: -1
+images/effects/lz/beidong/siwang_00103
+  rotate: false
+  xy: 429, 879
+  size: 162, 143
+  orig: 400, 400
+  offset: 116, 135
+  index: -1
+images/effects/lz/beidong/siwang_00107
+  rotate: true
+  xy: 2, 125
+  size: 159, 136
+  orig: 400, 400
+  offset: 116, 142
+  index: -1
+images/effects/lz/beidong/siwang_00111
+  rotate: false
+  xy: 248, 598
+  size: 148, 131
+  orig: 400, 400
+  offset: 117, 143
+  index: -1
+images/effects/lz/beidong/xingxing_00000
+  rotate: false
+  xy: 621, 640
+  size: 27, 27
+  orig: 50, 50
+  offset: 13, 12
+  index: -1
+images/effects/lz/beidong/xuehuaxia_00003
+  rotate: true
+  xy: 189, 3
+  size: 34, 26
+  orig: 100, 100
+  offset: 37, 35
+  index: -1
+images/effects/lz/beidong/xuehuaxia_00004
+  rotate: true
+  xy: 505, 528
+  size: 56, 36
+  orig: 100, 100
+  offset: 22, 30
+  index: -1
+images/effects/lz/beidong/xuehuaxia_00005
+  rotate: false
+  xy: 387, 539
+  size: 61, 45
+  orig: 100, 100
+  offset: 20, 30
+  index: -1
+images/effects/lz/beidong/xuehuaxia_00006
+  rotate: false
+  xy: 151, 39
+  size: 71, 50
+  orig: 100, 100
+  offset: 18, 29
+  index: -1
+images/effects/lz/beidong/xuehuaxia_00007
+  rotate: false
+  xy: 224, 28
+  size: 71, 61
+  orig: 100, 100
+  offset: 18, 27
+  index: -1
+images/effects/lz/beidong/xuehuaxia_00012
+  rotate: false
+  xy: 174, 543
+  size: 70, 60
+  orig: 100, 100
+  offset: 18, 27
+  index: -1
+images/effects/lz/beidong/xuehuaxia_00014
+  rotate: false
+  xy: 246, 537
+  size: 69, 59
+  orig: 100, 100
+  offset: 18, 27
+  index: -1
+images/effects/lz/beidong/xuehuaxia_00016
+  rotate: false
+  xy: 317, 538
+  size: 68, 58
+  orig: 100, 100
+  offset: 19, 27
+  index: -1
+images/effects/lz/beidong/xuehuaxia_00018
+  rotate: false
+  xy: 166, 484
+  size: 67, 57
+  orig: 100, 100
+  offset: 19, 27
+  index: -1
+images/effects/lz/beidong/xuehuaxia_00020
+  rotate: false
+  xy: 166, 425
+  size: 66, 57
+  orig: 100, 100
+  offset: 20, 27
+  index: -1
+images/effects/lz/beidong/xuehuaxia_00022
+  rotate: false
+  xy: 156, 367
+  size: 62, 56
+  orig: 100, 100
+  offset: 22, 27
+  index: -1
+images/effects/lz/beidong/xuehuaxia_00024
+  rotate: false
+  xy: 156, 310
+  size: 56, 55
+  orig: 100, 100
+  offset: 24, 27
+  index: -1
+images/effects/lz/beidong/xuehuaxia_00026
+  rotate: false
+  xy: 450, 534
+  size: 53, 50
+  orig: 100, 100
+  offset: 25, 31
+  index: -1
+images/effects/lz/beidong/xuehuaxia_00028
+  rotate: false
+  xy: 613, 839
+  size: 46, 41
+  orig: 100, 100
+  offset: 30, 33
+  index: -1

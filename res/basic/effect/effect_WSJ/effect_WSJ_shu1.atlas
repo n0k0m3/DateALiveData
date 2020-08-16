@@ -1,0 +1,27 @@
+
+effect_WSJ_shu1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow_00036
+  rotate: false
+  xy: 417, 910
+  size: 274, 80
+  orig: 274, 80
+  offset: 0, 0
+  index: -1
+renwumubiao
+  rotate: false
+  xy: 2, 497
+  size: 413, 493
+  orig: 413, 493
+  offset: 0, 0
+  index: -1
+shuye
+  rotate: false
+  xy: 2, 2
+  size: 413, 493
+  orig: 413, 493
+  offset: 0, 0
+  index: -1

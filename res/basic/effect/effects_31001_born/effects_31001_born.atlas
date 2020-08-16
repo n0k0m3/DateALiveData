@@ -1,0 +1,243 @@
+
+effects_31001_born.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/EskillA/dg2/dg2_029
+  rotate: false
+  xy: 332, 893
+  size: 325, 129
+  orig: 336, 138
+  offset: 11, 3
+  index: -1
+effects/EskillA/dg2/dg2_031
+  rotate: false
+  xy: 2, 898
+  size: 328, 124
+  orig: 336, 138
+  offset: 0, 3
+  index: -1
+effects/EskillA/dg2/dg2_033
+  rotate: false
+  xy: 619, 442
+  size: 296, 122
+  orig: 336, 138
+  offset: 33, 2
+  index: -1
+effects/EskillA/dg2/dg2_035
+  rotate: false
+  xy: 2, 614
+  size: 315, 120
+  orig: 336, 138
+  offset: 12, 2
+  index: -1
+effects/EskillA/dg2/dg2_037
+  rotate: false
+  xy: 2, 495
+  size: 315, 117
+  orig: 336, 138
+  offset: 10, 6
+  index: -1
+effects/EskillA/glow2_018
+  rotate: false
+  xy: 355, 244
+  size: 112, 115
+  orig: 112, 115
+  offset: 0, 0
+  index: -1
+effects/EskillC/dianlu/dianlu_012
+  rotate: true
+  xy: 2, 736
+  size: 160, 323
+  orig: 169, 323
+  offset: 6, 0
+  index: -1
+effects/EskillC/dianlu/dianlu_016
+  rotate: true
+  xy: 327, 584
+  size: 153, 316
+  orig: 169, 323
+  offset: 9, 5
+  index: -1
+effects/EskillC/dianlu/dianlu_020
+  rotate: true
+  xy: 327, 739
+  size: 152, 319
+  orig: 169, 323
+  offset: 10, 3
+  index: -1
+effects/EskillC/dianlu/dianlu_022
+  rotate: true
+  xy: 659, 870
+  size: 152, 321
+  orig: 169, 323
+  offset: 10, 2
+  index: -1
+effects/EskillC/dianlu/dianlu_024
+  rotate: true
+  xy: 648, 717
+  size: 151, 319
+  orig: 169, 323
+  offset: 11, 2
+  index: -1
+effects/EskillC/dianlu/dianlu_026
+  rotate: true
+  xy: 645, 566
+  size: 149, 313
+  orig: 169, 323
+  offset: 11, 2
+  index: -1
+effects/EskillC/glow1_019
+  rotate: false
+  xy: 939, 208
+  size: 82, 230
+  orig: 98, 230
+  offset: 5, 0
+  index: -1
+effects/born/bao/bao_003
+  rotate: false
+  xy: 690, 24
+  size: 229, 182
+  orig: 262, 219
+  offset: 14, 6
+  index: -1
+effects/born/bao/bao_004
+  rotate: true
+  xy: 475, 7
+  size: 245, 213
+  orig: 262, 219
+  offset: 4, 6
+  index: -1
+effects/born/bao/bao_008
+  rotate: false
+  xy: 2, 178
+  size: 262, 202
+  orig: 262, 219
+  offset: 0, 8
+  index: -1
+effects/born/bao/bao_010
+  rotate: false
+  xy: 2, 7
+  size: 192, 169
+  orig: 262, 219
+  offset: 36, 8
+  index: -1
+effects/born/bao/bao_012
+  rotate: true
+  xy: 960, 572
+  size: 143, 62
+  orig: 262, 219
+  offset: 52, 6
+  index: -1
+effects/born/down/quan_002
+  rotate: true
+  xy: 960, 440
+  size: 130, 61
+  orig: 298, 122
+  offset: 88, 25
+  index: -1
+effects/born/down/quan_004
+  rotate: true
+  xy: 373, 2
+  size: 240, 100
+  orig: 298, 122
+  offset: 33, 7
+  index: -1
+effects/born/down/quan_006
+  rotate: false
+  xy: 301, 361
+  size: 279, 110
+  orig: 298, 122
+  offset: 13, 5
+  index: -1
+effects/born/down/quan_008
+  rotate: false
+  xy: 2, 382
+  size: 297, 111
+  orig: 298, 122
+  offset: 1, 6
+  index: -1
+effects/born/down/quan_010
+  rotate: false
+  xy: 319, 473
+  size: 298, 109
+  orig: 298, 122
+  offset: 0, 7
+  index: -1
+effects/born/down/quan_012
+  rotate: true
+  xy: 841, 208
+  size: 232, 96
+  orig: 298, 122
+  offset: 30, 8
+  index: -1
+effects/born/down/quan_014
+  rotate: false
+  xy: 582, 362
+  size: 234, 78
+  orig: 298, 122
+  offset: 31, 25
+  index: -1
+effects/born/renwu_003
+  rotate: true
+  xy: 196, 15
+  size: 161, 175
+  orig: 161, 175
+  offset: 0, 0
+  index: -1
+effects/born/shandian/shandian_018
+  rotate: true
+  xy: 469, 254
+  size: 105, 182
+  orig: 121, 204
+  offset: 13, 13
+  index: -1
+effects/born/shandian/shandian_021
+  rotate: true
+  xy: 653, 257
+  size: 103, 186
+  orig: 121, 204
+  offset: 9, 15
+  index: -1
+effects/born/shandian/shandian_024
+  rotate: false
+  xy: 266, 178
+  size: 87, 181
+  orig: 121, 204
+  offset: 10, 17
+  index: -1
+effects/born/shandian/shandian_025
+  rotate: false
+  xy: 266, 178
+  size: 87, 181
+  orig: 121, 204
+  offset: 10, 17
+  index: -1
+
+effects_31001_born2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/EskillA/glow1_018
+  rotate: false
+  xy: 2, 2
+  size: 262, 59
+  orig: 264, 59
+  offset: 2, 0
+  index: -1
+effects/born/bao/bao_002
+  rotate: false
+  xy: 2, 63
+  size: 209, 182
+  orig: 262, 219
+  offset: 25, 6
+  index: -1
+effects/born/bao/bao_006
+  rotate: false
+  xy: 2, 247
+  size: 255, 208
+  orig: 262, 219
+  offset: 3, 6
+  index: -1

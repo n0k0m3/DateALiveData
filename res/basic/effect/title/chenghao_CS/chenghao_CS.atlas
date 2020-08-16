@@ -1,0 +1,55 @@
+
+chenghao_CS.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/bianguang_00000
+  rotate: false
+  xy: 2, 149
+  size: 104, 36
+  orig: 157, 57
+  offset: 30, 9
+  index: -1
+images/di
+  rotate: false
+  xy: 2, 187
+  size: 129, 31
+  orig: 129, 34
+  offset: 0, 0
+  index: -1
+images/guozi
+  rotate: false
+  xy: 2, 113
+  size: 102, 34
+  orig: 129, 34
+  offset: 16, 0
+  index: -1
+images/zi
+  rotate: false
+  xy: 2, 7
+  size: 45, 28
+  orig: 129, 34
+  offset: 45, 4
+  index: -1
+images/zi2
+  rotate: false
+  xy: 133, 192
+  size: 85, 26
+  orig: 136, 36
+  offset: 27, 5
+  index: -1
+images/ziguang2
+  rotate: false
+  xy: 2, 75
+  size: 93, 36
+  orig: 136, 36
+  offset: 26, 0
+  index: -1
+images/ziguang_00015
+  rotate: false
+  xy: 2, 37
+  size: 52, 36
+  orig: 157, 57
+  offset: 56, 10
+  index: -1

@@ -1,0 +1,195 @@
+
+effects_11001_extra_skillB2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/extra_skillB/lizi_loop/lizi_loop_00154
+  rotate: true
+  xy: 2, 2
+  size: 133, 84
+  orig: 146, 94
+  offset: 9, 6
+  index: -1
+images/effects/extra_skillB/lizi_loop/lizi_loop_00156
+  rotate: false
+  xy: 686, 547
+  size: 134, 78
+  orig: 146, 94
+  offset: 8, 11
+  index: -1
+images/effects/extra_skillB/lizi_loop/lizi_loop_00158
+  rotate: false
+  xy: 125, 184
+  size: 134, 81
+  orig: 146, 94
+  offset: 8, 5
+  index: -1
+images/effects/extra_skillB/lizi_loop/lizi_loop_00160
+  rotate: false
+  xy: 125, 115
+  size: 133, 67
+  orig: 146, 94
+  offset: 8, 17
+  index: -1
+images/effects/extra_skillB/lizi_loop/lizi_loop_00162
+  rotate: false
+  xy: 822, 546
+  size: 133, 76
+  orig: 146, 94
+  offset: 8, 13
+  index: -1
+images/effects/extra_skillB/lizi_loop/lizi_loop_00164
+  rotate: false
+  xy: 842, 624
+  size: 132, 80
+  orig: 146, 94
+  offset: 9, 8
+  index: -1
+images/effects/extra_skillB/lizi_loop/lizi_loop_00166
+  rotate: false
+  xy: 414, 418
+  size: 130, 85
+  orig: 146, 94
+  offset: 8, 2
+  index: -1
+images/effects/extra_skillB/lizi_loop/lizi_loop_00168
+  rotate: false
+  xy: 88, 37
+  size: 131, 76
+  orig: 146, 94
+  offset: 7, 10
+  index: -1
+images/effects/extra_skillB/lizi_loop/lizi_loop_00170
+  rotate: false
+  xy: 819, 472
+  size: 129, 72
+  orig: 146, 94
+  offset: 8, 13
+  index: -1
+images/effects/extra_skillB/lizi_loop/lizi_loop_00172
+  rotate: false
+  xy: 686, 471
+  size: 131, 74
+  orig: 146, 94
+  offset: 8, 13
+  index: -1
+images/effects/extra_skillB/yuefu1_00096
+  rotate: false
+  xy: 2, 137
+  size: 121, 128
+  orig: 121, 128
+  offset: 0, 0
+  index: -1
+images/effects/extra_skillB/yuefu2_00096
+  rotate: true
+  xy: 282, 393
+  size: 110, 130
+  orig: 110, 130
+  offset: 0, 0
+  index: -1
+images/effects/extra_skillB/yuefu3_00096
+  rotate: true
+  xy: 562, 512
+  size: 113, 122
+  orig: 113, 122
+  offset: 0, 0
+  index: -1
+images/effects/liudongwenli/liudongwenli_00174
+  rotate: false
+  xy: 2, 503
+  size: 278, 118
+  orig: 284, 131
+  offset: 6, 8
+  index: -1
+images/effects/liudongwenli/liudongwenli_00176
+  rotate: false
+  xy: 2, 865
+  size: 278, 119
+  orig: 284, 131
+  offset: 6, 7
+  index: -1
+images/effects/liudongwenli/liudongwenli_00180
+  rotate: false
+  xy: 2, 744
+  size: 278, 119
+  orig: 284, 131
+  offset: 6, 7
+  index: -1
+images/effects/liudongwenli/liudongwenli_00182
+  rotate: false
+  xy: 282, 865
+  size: 278, 119
+  orig: 284, 131
+  offset: 6, 7
+  index: -1
+images/effects/liudongwenli/liudongwenli_00186
+  rotate: true
+  xy: 842, 706
+  size: 278, 115
+  orig: 284, 131
+  offset: 6, 9
+  index: -1
+images/effects/liudongwenli/liudongwenli_00188
+  rotate: false
+  xy: 2, 267
+  size: 277, 115
+  orig: 284, 131
+  offset: 7, 10
+  index: -1
+images/effects/liudongwenli/liudongwenli_00192
+  rotate: false
+  xy: 2, 623
+  size: 278, 119
+  orig: 284, 131
+  offset: 6, 7
+  index: -1
+images/effects/liudongwenli/liudongwenli_00194
+  rotate: false
+  xy: 282, 624
+  size: 278, 118
+  orig: 284, 131
+  offset: 6, 8
+  index: -1
+images/effects/liudongwenli/liudongwenli_00196
+  rotate: false
+  xy: 2, 384
+  size: 278, 117
+  orig: 284, 131
+  offset: 6, 8
+  index: -1
+images/effects/liudongwenli/liudongwenli_00200
+  rotate: false
+  xy: 282, 744
+  size: 278, 119
+  orig: 284, 131
+  offset: 6, 7
+  index: -1
+images/effects/liudongwenli/liudongwenli_00202
+  rotate: false
+  xy: 562, 865
+  size: 278, 119
+  orig: 284, 131
+  offset: 6, 7
+  index: -1
+images/effects/liudongwenli/liudongwenli_00206
+  rotate: false
+  xy: 562, 627
+  size: 278, 116
+  orig: 284, 131
+  offset: 6, 9
+  index: -1
+images/effects/liudongwenli/liudongwenli_00208
+  rotate: false
+  xy: 562, 745
+  size: 278, 118
+  orig: 284, 131
+  offset: 6, 8
+  index: -1
+images/effects/liudongwenli/liudongwenli_00212
+  rotate: false
+  xy: 282, 505
+  size: 278, 117
+  orig: 284, 131
+  offset: 6, 7
+  index: -1

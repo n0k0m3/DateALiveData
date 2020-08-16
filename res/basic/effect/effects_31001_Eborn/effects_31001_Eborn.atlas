@@ -1,0 +1,285 @@
+
+effects_31001_Eborn.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/Eborn/bao/bao_034
+  rotate: true
+  xy: 850, 29
+  size: 199, 169
+  orig: 256, 222
+  offset: 38, 23
+  index: -1
+effects/Eborn/bao/bao_036
+  rotate: false
+  xy: 620, 8
+  size: 228, 200
+  orig: 256, 222
+  offset: 12, 8
+  index: -1
+effects/Eborn/bao/bao_038
+  rotate: false
+  xy: 749, 439
+  size: 241, 208
+  orig: 256, 222
+  offset: 5, 5
+  index: -1
+effects/Eborn/bao/bao_040
+  rotate: false
+  xy: 504, 533
+  size: 243, 216
+  orig: 256, 222
+  offset: 5, 0
+  index: -1
+effects/Eborn/bao/bao_042
+  rotate: false
+  xy: 251, 356
+  size: 242, 216
+  orig: 256, 222
+  offset: 7, 0
+  index: -1
+effects/Eborn/bao/bao_044
+  rotate: false
+  xy: 2, 330
+  size: 242, 216
+  orig: 256, 222
+  offset: 6, 0
+  index: -1
+effects/Eborn/bao/bao_046
+  rotate: false
+  xy: 495, 366
+  size: 240, 165
+  orig: 256, 222
+  offset: 7, 18
+  index: -1
+effects/Eborn/bao/bao_050
+  rotate: false
+  xy: 495, 210
+  size: 234, 154
+  orig: 256, 222
+  offset: 8, 18
+  index: -1
+effects/Eborn/quan/quan1_035
+  rotate: true
+  xy: 2, 6
+  size: 222, 99
+  orig: 306, 146
+  offset: 43, 25
+  index: -1
+effects/Eborn/quan/quan1_039
+  rotate: false
+  xy: 578, 903
+  size: 278, 118
+  orig: 306, 146
+  offset: 15, 11
+  index: -1
+effects/Eborn/quan/quan1_043
+  rotate: false
+  xy: 2, 899
+  size: 286, 122
+  orig: 306, 146
+  offset: 11, 8
+  index: -1
+effects/Eborn/quan/quan1_047
+  rotate: false
+  xy: 290, 912
+  size: 286, 109
+  orig: 306, 146
+  offset: 11, 8
+  index: -1
+effects/Eborn/quan/quan1_051
+  rotate: false
+  xy: 255, 784
+  size: 250, 65
+  orig: 306, 146
+  offset: 20, 10
+  index: -1
+effects/Eborn/xuli/xuli_011
+  rotate: true
+  xy: 481, 6
+  size: 202, 137
+  orig: 262, 214
+  offset: 10, 27
+  index: -1
+effects/Eborn/xuli/xuli_013
+  rotate: false
+  xy: 2, 548
+  size: 247, 152
+  orig: 262, 214
+  offset: 3, 14
+  index: -1
+effects/Eborn/xuli/xuli_015
+  rotate: false
+  xy: 554, 751
+  size: 251, 150
+  orig: 262, 214
+  offset: 5, 14
+  index: -1
+effects/Eborn/xuli/xuli_017
+  rotate: false
+  xy: 2, 702
+  size: 251, 195
+  orig: 262, 214
+  offset: 6, 14
+  index: -1
+effects/Eborn/xuli/xuli_019
+  rotate: false
+  xy: 255, 574
+  size: 247, 208
+  orig: 262, 214
+  offset: 10, 6
+  index: -1
+effects/Eborn/xuli/xuli_021
+  rotate: false
+  xy: 737, 230
+  size: 237, 207
+  orig: 262, 214
+  offset: 22, 4
+  index: -1
+effects/Eborn/xuli/xuli_023
+  rotate: false
+  xy: 250, 6
+  size: 229, 202
+  orig: 262, 214
+  offset: 28, 6
+  index: -1
+effects/Eborn/xuli/xuli_029
+  rotate: true
+  xy: 858, 833
+  size: 188, 160
+  orig: 262, 214
+  offset: 65, 14
+  index: -1
+effects/Eborn/xuli1/xuli1_014
+  rotate: false
+  xy: 325, 221
+  size: 152, 133
+  orig: 225, 188
+  offset: 71, 2
+  index: -1
+effects/Eborn/xuli1/xuli1_018
+  rotate: false
+  xy: 807, 649
+  size: 214, 182
+  orig: 225, 188
+  offset: 9, 6
+  index: -1
+effects/Eborn/xuli1/xuli1_022
+  rotate: true
+  xy: 103, 3
+  size: 205, 145
+  orig: 225, 188
+  offset: 10, 32
+  index: -1
+effects/Eborn/xuli1/xuli1_024
+  rotate: false
+  xy: 103, 210
+  size: 106, 118
+  orig: 225, 188
+  offset: 13, 37
+  index: -1
+effects/EskillA/glow1_018
+  rotate: false
+  xy: 290, 851
+  size: 262, 59
+  orig: 264, 59
+  offset: 2, 0
+  index: -1
+effects/EskillA/glow2_018
+  rotate: false
+  xy: 211, 213
+  size: 112, 115
+  orig: 112, 115
+  offset: 0, 0
+  index: -1
+
+effects_31001_Eborn2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/Eborn/kuo_034
+  rotate: false
+  xy: 2, 267
+  size: 146, 145
+  orig: 148, 145
+  offset: 1, 0
+  index: -1
+effects/Eborn/quan_005
+  rotate: false
+  xy: 2, 414
+  size: 185, 186
+  orig: 188, 187
+  offset: 3, 0
+  index: -1
+effects/Eborn/xuli/xuli_025
+  rotate: false
+  xy: 2, 797
+  size: 195, 200
+  orig: 262, 214
+  offset: 62, 6
+  index: -1
+effects/Eborn/xuli/xuli_027
+  rotate: false
+  xy: 2, 602
+  size: 193, 193
+  orig: 262, 214
+  offset: 63, 10
+  index: -1
+effects/Eborn/xuli/xuli_031
+  rotate: false
+  xy: 413, 841
+  size: 183, 156
+  orig: 262, 214
+  offset: 68, 16
+  index: -1
+effects/Eborn/xuli1/xuli1_010
+  rotate: true
+  xy: 109, 134
+  size: 131, 78
+  orig: 225, 188
+  offset: 71, 58
+  index: -1
+effects/Eborn/xuli1/xuli1_012
+  rotate: false
+  xy: 2, 2
+  size: 127, 79
+  orig: 225, 188
+  offset: 71, 57
+  index: -1
+effects/Eborn/xuli1/xuli1_016
+  rotate: false
+  xy: 598, 761
+  size: 151, 131
+  orig: 225, 188
+  offset: 73, 3
+  index: -1
+effects/Eborn/xuli1/xuli1_020
+  rotate: false
+  xy: 199, 824
+  size: 212, 173
+  orig: 225, 188
+  offset: 10, 11
+  index: -1
+effects/born/shandian/shandian_018
+  rotate: false
+  xy: 2, 83
+  size: 105, 182
+  orig: 121, 204
+  offset: 13, 13
+  index: -1
+effects/born/shandian/shandian_021
+  rotate: true
+  xy: 598, 894
+  size: 103, 186
+  orig: 121, 204
+  offset: 9, 15
+  index: -1
+effects/born/shandian/shandian_024
+  rotate: true
+  xy: 786, 910
+  size: 87, 181
+  orig: 121, 204
+  offset: 10, 17
+  index: -1

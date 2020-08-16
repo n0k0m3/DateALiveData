@@ -1,0 +1,125 @@
+
+main_effect_11801qianjing.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/bingxiang
+  rotate: false
+  xy: 2, 396
+  size: 270, 294
+  orig: 270, 294
+  offset: 0, 0
+  index: -1
+images/dazaobo/dazaobo_00041
+  rotate: false
+  xy: 594, 617
+  size: 89, 73
+  orig: 226, 142
+  offset: 14, 43
+  index: -1
+images/dazaobo/dazaobo_00042
+  rotate: true
+  xy: 766, 716
+  size: 138, 73
+  orig: 226, 142
+  offset: 32, 43
+  index: -1
+images/dazaobo/dazaobo_00043
+  rotate: false
+  xy: 274, 475
+  size: 128, 72
+  orig: 226, 142
+  offset: 33, 43
+  index: -1
+images/dazaobo/dazaobo_00044
+  rotate: false
+  xy: 274, 401
+  size: 118, 72
+  orig: 226, 142
+  offset: 33, 40
+  index: -1
+images/dazaobo/dazaobo_00046
+  rotate: true
+  xy: 109, 72
+  size: 148, 60
+  orig: 226, 142
+  offset: 52, 35
+  index: -1
+images/dazaobo/dazaobo_00047
+  rotate: false
+  xy: 445, 624
+  size: 147, 66
+  orig: 226, 142
+  offset: 51, 38
+  index: -1
+images/dazaobo/dazaobo_00048
+  rotate: false
+  xy: 274, 549
+  size: 149, 70
+  orig: 226, 142
+  offset: 51, 42
+  index: -1
+images/dazaobo/dazaobo_00049
+  rotate: true
+  xy: 175, 251
+  size: 143, 70
+  orig: 226, 142
+  offset: 58, 42
+  index: -1
+images/dazaobo/dazaobo_00050
+  rotate: false
+  xy: 852, 871
+  size: 137, 70
+  orig: 226, 142
+  offset: 61, 42
+  index: -1
+images/dazaobo/dazaobo_00051
+  rotate: true
+  xy: 109, 222
+  size: 172, 64
+  orig: 226, 142
+  offset: 30, 45
+  index: -1
+images/dazaobo/dazaobo_00052
+  rotate: true
+  xy: 697, 693
+  size: 161, 67
+  orig: 226, 142
+  offset: 26, 42
+  index: -1
+images/dazaobo/dazaobo_00053
+  rotate: false
+  xy: 274, 621
+  size: 169, 69
+  orig: 226, 142
+  offset: 33, 36
+  index: -1
+images/dazaobo/dazaobo_00054
+  rotate: false
+  xy: 852, 943
+  size: 156, 69
+  orig: 226, 142
+  offset: 31, 37
+  index: -1
+images/qianguang
+  rotate: false
+  xy: 2, 692
+  size: 693, 320
+  orig: 693, 320
+  offset: 0, 0
+  index: -1
+images/qianjingyou
+  rotate: false
+  xy: 697, 856
+  size: 153, 156
+  orig: 153, 156
+  offset: 0, 0
+  index: -1
+images/qianjingzuo
+  rotate: true
+  xy: 2, 2
+  size: 392, 105
+  orig: 392, 105
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,27 @@
+
+effect_LLJH_beijing.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lizi
+  rotate: false
+  xy: 2, 71
+  size: 76, 86
+  orig: 76, 86
+  offset: 0, 0
+  index: -1
+lizi1
+  rotate: false
+  xy: 2, 8
+  size: 56, 61
+  orig: 56, 61
+  offset: 0, 0
+  index: -1
+lizi2
+  rotate: false
+  xy: 80, 73
+  size: 77, 84
+  orig: 77, 84
+  offset: 0, 0
+  index: -1

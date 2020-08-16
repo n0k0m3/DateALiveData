@@ -1,0 +1,558 @@
+
+effects_10111_born.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/born/baodian/baodianadd_00001
+  rotate: true
+  xy: 892, 389
+  size: 138, 130
+  orig: 230, 230
+  offset: 42, 49
+  index: -1
+images/effects/born/baodian/baodianadd_00003
+  rotate: true
+  xy: 202, 84
+  size: 195, 183
+  orig: 230, 230
+  offset: 14, 16
+  index: -1
+images/effects/born/baodian/baodianadd_00005
+  rotate: true
+  xy: 505, 328
+  size: 198, 195
+  orig: 230, 230
+  offset: 17, 19
+  index: -1
+images/effects/born/baodian/baodianadd_00007
+  rotate: false
+  xy: 505, 131
+  size: 197, 195
+  orig: 230, 230
+  offset: 17, 19
+  index: -1
+images/effects/born/baodian/baodianadd_00009
+  rotate: false
+  xy: 702, 347
+  size: 188, 179
+  orig: 230, 230
+  offset: 26, 27
+  index: -1
+images/effects/born/baodian/baodianadd_00011
+  rotate: false
+  xy: 745, 610
+  size: 179, 178
+  orig: 230, 230
+  offset: 29, 29
+  index: -1
+images/effects/born/baodian/baodiannor_00001
+  rotate: true
+  xy: 873, 192
+  size: 153, 141
+  orig: 230, 230
+  offset: 38, 55
+  index: -1
+images/effects/born/baodian/baodiannor_00003
+  rotate: false
+  xy: 704, 3
+  size: 172, 166
+  orig: 230, 230
+  offset: 31, 40
+  index: -1
+images/effects/born/baodian/baodiannor_00005
+  rotate: false
+  xy: 748, 845
+  size: 181, 177
+  orig: 230, 230
+  offset: 28, 34
+  index: -1
+images/effects/born/baodian/baodiannor_00007
+  rotate: false
+  xy: 2, 2
+  size: 181, 180
+  orig: 230, 230
+  offset: 30, 32
+  index: -1
+images/effects/born/baodian/baodiannor_00009
+  rotate: false
+  xy: 704, 171
+  size: 167, 174
+  orig: 230, 230
+  offset: 41, 35
+  index: -1
+images/effects/born/di/di_00001
+  rotate: false
+  xy: 387, 22
+  size: 116, 63
+  orig: 204, 102
+  offset: 42, 19
+  index: -1
+images/effects/born/di/di_00005
+  rotate: true
+  xy: 926, 667
+  size: 176, 94
+  orig: 204, 102
+  offset: 12, 2
+  index: -1
+images/effects/born/di/di_00007
+  rotate: false
+  xy: 505, 32
+  size: 186, 97
+  orig: 204, 102
+  offset: 7, 1
+  index: -1
+images/effects/born/di/di_00009
+  rotate: true
+  xy: 878, 5
+  size: 185, 91
+  orig: 204, 102
+  offset: 8, 2
+  index: -1
+images/effects/born/di/di_00011
+  rotate: false
+  xy: 745, 529
+  size: 187, 79
+  orig: 204, 102
+  offset: 7, 10
+  index: -1
+images/effects/born/di/di_00013
+  rotate: true
+  xy: 931, 847
+  size: 175, 68
+  orig: 204, 102
+  offset: 9, 12
+  index: -1
+images/effects/born/glow_000
+  rotate: false
+  xy: 821, 792
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+images/effects/born/guangtiao_00004
+  rotate: false
+  xy: 2, 900
+  size: 256, 122
+  orig: 261, 131
+  offset: 4, 2
+  index: -1
+images/effects/born/lizixunhuan/lizi_00014
+  rotate: true
+  xy: 387, 87
+  size: 139, 116
+  orig: 153, 128
+  offset: 14, 7
+  index: -1
+images/effects/born/xunhuan/xunhuan_00000
+  rotate: true
+  xy: 1001, 965
+  size: 57, 21
+  orig: 128, 51
+  offset: 37, 14
+  index: -1
+images/effects/born/xunhuan/xunhuan_00002
+  rotate: false
+  xy: 387, 241
+  size: 68, 25
+  orig: 128, 51
+  offset: 31, 12
+  index: -1
+images/effects/born/xunhuan/xunhuan_00004
+  rotate: false
+  xy: 387, 268
+  size: 80, 29
+  orig: 128, 51
+  offset: 25, 10
+  index: -1
+images/effects/born/xunhuan/xunhuan_00006
+  rotate: false
+  xy: 926, 630
+  size: 95, 35
+  orig: 128, 51
+  offset: 17, 7
+  index: -1
+images/effects/born/xunhuan/xunhuan_00016
+  rotate: false
+  xy: 185, 41
+  size: 116, 41
+  orig: 128, 51
+  offset: 7, 4
+  index: -1
+images/effects/born/xunhuan/xunhuan_00018
+  rotate: true
+  xy: 202, 281
+  size: 119, 41
+  orig: 128, 51
+  offset: 6, 4
+  index: -1
+images/effects/born/xunhuan/xunhuan_00020
+  rotate: false
+  xy: 892, 347
+  size: 121, 40
+  orig: 128, 51
+  offset: 5, 5
+  index: -1
+images/effects/born/xunhuan/xunhuan_00022
+  rotate: true
+  xy: 971, 6
+  size: 122, 39
+  orig: 128, 51
+  offset: 5, 6
+  index: -1
+images/effects/born/xunhuan/xunhuan_00024
+  rotate: false
+  xy: 185, 2
+  size: 116, 37
+  orig: 128, 51
+  offset: 6, 6
+  index: -1
+images/effects/born/xunhuan/xunhuan_00028
+  rotate: true
+  xy: 471, 368
+  size: 73, 32
+  orig: 128, 51
+  offset: 21, 8
+  index: -1
+images/effects/born/yanchen1/yanchen1_00000
+  rotate: false
+  xy: 303, 59
+  size: 61, 23
+  orig: 128, 51
+  offset: 29, 13
+  index: -1
+images/effects/born/yanchen1/yanchen1_00004
+  rotate: true
+  xy: 471, 228
+  size: 91, 31
+  orig: 128, 51
+  offset: 16, 11
+  index: -1
+images/effects/born/yanchen1/yanchen1_00005
+  rotate: true
+  xy: 471, 443
+  size: 92, 32
+  orig: 128, 51
+  offset: 15, 10
+  index: -1
+images/effects/born/yanchen1/yanchen1_00006
+  rotate: true
+  xy: 934, 536
+  size: 92, 28
+  orig: 128, 51
+  offset: 14, 10
+  index: -1
+images/effects/born/yanchen1/yanchen1_00007
+  rotate: false
+  xy: 505, 2
+  size: 90, 28
+  orig: 128, 51
+  offset: 14, 10
+  index: -1
+images/effects/born/yanchen1/yanchen1_00008
+  rotate: false
+  xy: 597, 5
+  size: 90, 25
+  orig: 128, 51
+  offset: 15, 11
+  index: -1
+images/effects/born/yanchen2/yanchen2_00000
+  rotate: true
+  xy: 471, 321
+  size: 45, 32
+  orig: 102, 102
+  offset: 31, 15
+  index: -1
+images/effects/born/yanchen2/yanchen2_00001
+  rotate: true
+  xy: 971, 130
+  size: 60, 43
+  orig: 102, 102
+  offset: 24, 16
+  index: -1
+images/effects/born/yanchen2/yanchen2_00003
+  rotate: false
+  xy: 748, 790
+  size: 71, 53
+  orig: 102, 102
+  offset: 17, 15
+  index: -1
+images/effects/born/yanchen2/yanchen2_00005
+  rotate: true
+  xy: 964, 552
+  size: 76, 56
+  orig: 102, 102
+  offset: 15, 15
+  index: -1
+images/effects/skillA/daoguang1/daoguang1_00000
+  rotate: true
+  xy: 251, 537
+  size: 234, 253
+  orig: 255, 255
+  offset: 16, 0
+  index: -1
+images/effects/skillA/daoguang1/daoguang1_00001
+  rotate: false
+  xy: 2, 402
+  size: 241, 247
+  orig: 255, 255
+  offset: 4, 1
+  index: -1
+images/effects/skillA/daoguang1/daoguang1_00002
+  rotate: false
+  xy: 260, 773
+  size: 248, 249
+  orig: 255, 255
+  offset: 0, 1
+  index: -1
+images/effects/skillA/daoguang1/daoguang1_00003
+  rotate: false
+  xy: 2, 651
+  size: 247, 247
+  orig: 255, 255
+  offset: 0, 0
+  index: -1
+images/effects/skillA/daoguang1/daoguang1_00004
+  rotate: true
+  xy: 506, 528
+  size: 243, 237
+  orig: 255, 255
+  offset: 0, 6
+  index: -1
+images/effects/skillA/daoguang1/daoguang1_00005
+  rotate: false
+  xy: 510, 790
+  size: 236, 232
+  orig: 255, 255
+  offset: 2, 7
+  index: -1
+images/effects/skillA/daoguang1/daoguang1_00006
+  rotate: true
+  xy: 245, 299
+  size: 236, 224
+  orig: 255, 255
+  offset: 1, 8
+  index: -1
+images/effects/skillA/daoguang1/daoguang1_00007
+  rotate: false
+  xy: 2, 184
+  size: 198, 216
+  orig: 255, 255
+  offset: 17, 15
+  index: -1
+
+effects_10111_born2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/born/baodian/baodianadd_00013
+  rotate: false
+  xy: 2, 860
+  size: 159, 160
+  orig: 230, 230
+  offset: 44, 45
+  index: -1
+images/effects/born/baodian/baodianadd_00015
+  rotate: false
+  xy: 2, 308
+  size: 126, 138
+  orig: 230, 230
+  offset: 64, 55
+  index: -1
+images/effects/born/baodian/baodianadd_00017
+  rotate: true
+  xy: 879, 895
+  size: 125, 134
+  orig: 230, 230
+  offset: 64, 54
+  index: -1
+images/effects/born/baodian/baodianadd_00019
+  rotate: true
+  xy: 292, 689
+  size: 118, 126
+  orig: 230, 230
+  offset: 68, 60
+  index: -1
+images/effects/born/baodian/baodiannor_00011
+  rotate: false
+  xy: 2, 700
+  size: 152, 158
+  orig: 230, 230
+  offset: 46, 38
+  index: -1
+images/effects/born/baodian/baodiannor_00013
+  rotate: false
+  xy: 163, 868
+  size: 127, 152
+  orig: 230, 230
+  offset: 66, 41
+  index: -1
+images/effects/born/di/di_00000
+  rotate: false
+  xy: 150, 644
+  size: 86, 38
+  orig: 204, 102
+  offset: 57, 28
+  index: -1
+images/effects/born/di/di_00003
+  rotate: false
+  xy: 292, 809
+  size: 157, 85
+  orig: 204, 102
+  offset: 21, 8
+  index: -1
+images/effects/born/lizixunhuan/lizi_00000
+  rotate: true
+  xy: 2, 158
+  size: 148, 115
+  orig: 153, 128
+  offset: 5, 3
+  index: -1
+images/effects/born/lizixunhuan/lizi_00002
+  rotate: true
+  xy: 2, 9
+  size: 147, 114
+  orig: 153, 128
+  offset: 6, 6
+  index: -1
+images/effects/born/lizixunhuan/lizi_00004
+  rotate: false
+  xy: 438, 903
+  size: 147, 117
+  orig: 153, 128
+  offset: 6, 5
+  index: -1
+images/effects/born/lizixunhuan/lizi_00006
+  rotate: false
+  xy: 2, 574
+  size: 146, 124
+  orig: 153, 128
+  offset: 7, 0
+  index: -1
+images/effects/born/lizixunhuan/lizi_00008
+  rotate: false
+  xy: 292, 896
+  size: 144, 124
+  orig: 153, 128
+  offset: 9, 0
+  index: -1
+images/effects/born/lizixunhuan/lizi_00010
+  rotate: false
+  xy: 2, 448
+  size: 141, 124
+  orig: 153, 128
+  offset: 12, 0
+  index: -1
+images/effects/born/lizixunhuan/lizi_00012
+  rotate: false
+  xy: 737, 899
+  size: 140, 121
+  orig: 153, 128
+  offset: 13, 3
+  index: -1
+images/effects/born/lizixunhuan/lizi_00016
+  rotate: false
+  xy: 451, 791
+  size: 140, 110
+  orig: 153, 128
+  offset: 13, 11
+  index: -1
+images/effects/born/lizixunhuan/lizi_00018
+  rotate: true
+  xy: 156, 717
+  size: 141, 93
+  orig: 153, 128
+  offset: 12, 10
+  index: -1
+images/effects/born/lizixunhuan/lizi_00020
+  rotate: true
+  xy: 119, 160
+  size: 146, 100
+  orig: 153, 128
+  offset: 7, 4
+  index: -1
+images/effects/born/lizixunhuan/lizi_00022
+  rotate: false
+  xy: 875, 788
+  size: 145, 105
+  orig: 153, 128
+  offset: 4, 2
+  index: -1
+images/effects/born/lizixunhuan/lizi_00024
+  rotate: false
+  xy: 737, 787
+  size: 136, 110
+  orig: 153, 128
+  offset: 4, 0
+  index: -1
+images/effects/born/lizixunhuan/lizi_00026
+  rotate: false
+  xy: 593, 790
+  size: 142, 113
+  orig: 153, 128
+  offset: 4, 0
+  index: -1
+images/effects/born/lizixunhuan/lizi_00028
+  rotate: false
+  xy: 587, 905
+  size: 148, 115
+  orig: 153, 128
+  offset: 4, 0
+  index: -1
+images/effects/born/xunhuan/xunhuan_00008
+  rotate: true
+  xy: 130, 341
+  size: 105, 38
+  orig: 128, 51
+  offset: 12, 5
+  index: -1
+images/effects/born/xunhuan/xunhuan_00010
+  rotate: true
+  xy: 251, 759
+  size: 107, 39
+  orig: 128, 51
+  offset: 11, 5
+  index: -1
+images/effects/born/xunhuan/xunhuan_00012
+  rotate: false
+  xy: 451, 705
+  size: 111, 41
+  orig: 128, 51
+  offset: 9, 4
+  index: -1
+images/effects/born/xunhuan/xunhuan_00014
+  rotate: false
+  xy: 451, 748
+  size: 114, 41
+  orig: 128, 51
+  offset: 8, 4
+  index: -1
+images/effects/born/xunhuan/xunhuan_00026
+  rotate: false
+  xy: 567, 752
+  size: 104, 36
+  orig: 128, 51
+  offset: 9, 6
+  index: -1
+images/effects/born/yanchen1/yanchen1_00001
+  rotate: true
+  xy: 420, 721
+  size: 86, 29
+  orig: 128, 51
+  offset: 19, 12
+  index: -1
+images/effects/born/yanchen1/yanchen1_00002
+  rotate: false
+  xy: 156, 684
+  size: 88, 31
+  orig: 128, 51
+  offset: 18, 11
+  index: -1
+images/effects/born/yanchen1/yanchen1_00003
+  rotate: false
+  xy: 130, 308
+  size: 90, 31
+  orig: 128, 51
+  offset: 17, 11
+  index: -1

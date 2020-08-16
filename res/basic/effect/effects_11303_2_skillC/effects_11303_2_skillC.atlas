@@ -1,0 +1,368 @@
+
+effects_11303_2_skillC.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skillC/bao/bao_008
+  rotate: false
+  xy: 814, 817
+  size: 208, 205
+  orig: 228, 233
+  offset: 7, 23
+  index: -1
+skillC/bao1/bao1_111
+  rotate: false
+  xy: 2, 498
+  size: 262, 254
+  orig: 262, 254
+  offset: 0, 0
+  index: -1
+skillC/bao1/bao1_115
+  rotate: true
+  xy: 513, 248
+  size: 262, 252
+  orig: 262, 254
+  offset: 0, 0
+  index: -1
+skillC/bao1/bao1_117
+  rotate: false
+  xy: 286, 768
+  size: 262, 254
+  orig: 262, 254
+  offset: 0, 0
+  index: -1
+skillC/bao1/bao1_119
+  rotate: false
+  xy: 2, 242
+  size: 262, 254
+  orig: 262, 254
+  offset: 0, 0
+  index: -1
+skillC/bao1/bao1_121
+  rotate: false
+  xy: 550, 768
+  size: 262, 254
+  orig: 262, 254
+  offset: 0, 0
+  index: -1
+skillC/bao1/bao1_123
+  rotate: false
+  xy: 500, 512
+  size: 262, 254
+  orig: 262, 254
+  offset: 0, 0
+  index: -1
+skillC/bao1/bao1_125
+  rotate: true
+  xy: 767, 271
+  size: 262, 254
+  orig: 262, 254
+  offset: 0, 0
+  index: -1
+skillC/huahuan_048
+  rotate: false
+  xy: 268, 2
+  size: 242, 242
+  orig: 242, 242
+  offset: 0, 0
+  index: -1
+skillC/kuo/kuo_038
+  rotate: false
+  xy: 513, 2
+  size: 243, 244
+  orig: 246, 250
+  offset: 2, 0
+  index: -1
+skillC/kuo/kuo_040
+  rotate: true
+  xy: 767, 23
+  size: 246, 250
+  orig: 246, 250
+  offset: 0, 0
+  index: -1
+skillC/xuehua1_068
+  rotate: false
+  xy: 2, 754
+  size: 282, 268
+  orig: 282, 268
+  offset: 0, 0
+  index: -1
+skillC/xuli/xuli_017
+  rotate: true
+  xy: 266, 246
+  size: 232, 245
+  orig: 232, 272
+  offset: 0, 0
+  index: -1
+skillC/xuli/xuli_019
+  rotate: true
+  xy: 2, 8
+  size: 232, 264
+  orig: 232, 272
+  offset: 0, 0
+  index: -1
+skillC/xuli/xuli_023
+  rotate: false
+  xy: 266, 480
+  size: 232, 272
+  orig: 232, 272
+  offset: 0, 0
+  index: -1
+skillC/xuli/xuli_033
+  rotate: true
+  xy: 764, 535
+  size: 231, 258
+  orig: 232, 272
+  offset: 1, 14
+  index: -1
+
+effects_11303_2_skillC2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow1_029
+  rotate: true
+  xy: 890, 8
+  size: 101, 48
+  orig: 106, 48
+  offset: 1, 0
+  index: -1
+skillC/bao/bao_002
+  rotate: false
+  xy: 481, 542
+  size: 228, 230
+  orig: 228, 233
+  offset: 0, 3
+  index: -1
+skillC/bao/bao_004
+  rotate: true
+  xy: 250, 29
+  size: 228, 216
+  orig: 228, 233
+  offset: 0, 17
+  index: -1
+skillC/bao1/bao1_127
+  rotate: false
+  xy: 2, 773
+  size: 262, 247
+  orig: 262, 254
+  offset: 0, 0
+  index: -1
+skillC/chuxian/chuxian_082
+  rotate: false
+  xy: 705, 111
+  size: 222, 216
+  orig: 227, 218
+  offset: 5, 2
+  index: -1
+skillC/chuxian/chuxian_084
+  rotate: false
+  xy: 479, 118
+  size: 224, 218
+  orig: 227, 218
+  offset: 3, 0
+  index: -1
+skillC/chuxian/chuxian_086
+  rotate: false
+  xy: 711, 538
+  size: 225, 218
+  orig: 227, 218
+  offset: 2, 0
+  index: -1
+skillC/kuo/kuo_042
+  rotate: false
+  xy: 2, 521
+  size: 246, 250
+  orig: 246, 250
+  offset: 0, 0
+  index: -1
+skillC/kuo/kuo_044
+  rotate: true
+  xy: 266, 774
+  size: 246, 250
+  orig: 246, 250
+  offset: 0, 0
+  index: -1
+skillC/kuo/kuo_046
+  rotate: false
+  xy: 2, 269
+  size: 246, 250
+  orig: 246, 250
+  offset: 0, 0
+  index: -1
+skillC/kuo/kuo_048
+  rotate: true
+  xy: 518, 774
+  size: 246, 250
+  orig: 246, 250
+  offset: 0, 0
+  index: -1
+skillC/kuo/kuo_050
+  rotate: false
+  xy: 2, 18
+  size: 246, 249
+  orig: 246, 250
+  offset: 0, 0
+  index: -1
+skillC/luoxuan/luoxuan_018
+  rotate: false
+  xy: 468, 36
+  size: 209, 80
+  orig: 214, 94
+  offset: 5, 4
+  index: -1
+skillC/luoxuan/luoxuan_020
+  rotate: false
+  xy: 679, 30
+  size: 209, 79
+  orig: 214, 94
+  offset: 5, 5
+  index: -1
+skillC/luoxuan/luoxuan_022
+  rotate: true
+  xy: 938, 542
+  size: 214, 82
+  orig: 214, 94
+  offset: 0, 2
+  index: -1
+skillC/luoxuan/luoxuan_024
+  rotate: true
+  xy: 929, 147
+  size: 180, 68
+  orig: 214, 94
+  offset: 17, 11
+  index: -1
+skillC/luoxuan/luoxuan_026
+  rotate: true
+  xy: 935, 403
+  size: 133, 50
+  orig: 214, 94
+  offset: 44, 21
+  index: -1
+skillC/xuehua2_068
+  rotate: true
+  xy: 481, 338
+  size: 202, 225
+  orig: 202, 225
+  offset: 0, 0
+  index: -1
+skillC/xuli/xuli_015
+  rotate: false
+  xy: 708, 329
+  size: 225, 207
+  orig: 232, 272
+  offset: 7, 0
+  index: -1
+skillC/xuli/xuli_027
+  rotate: false
+  xy: 770, 758
+  size: 232, 262
+  orig: 232, 272
+  offset: 0, 10
+  index: -1
+skillC/xuli/xuli_029
+  rotate: false
+  xy: 250, 509
+  size: 229, 262
+  orig: 232, 272
+  offset: 3, 10
+  index: -1
+skillC/xuli/xuli_037
+  rotate: false
+  xy: 250, 259
+  size: 227, 248
+  orig: 232, 272
+  offset: 3, 24
+  index: -1
+
+effects_11303_2_skillC3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skillA/glow_001
+  rotate: true
+  xy: 845, 844
+  size: 178, 177
+  orig: 180, 177
+  offset: 1, 0
+  index: -1
+skillC/bao/bao_010
+  rotate: false
+  xy: 221, 455
+  size: 190, 186
+  orig: 228, 233
+  offset: 22, 30
+  index: -1
+skillC/bao/bao_012
+  rotate: true
+  xy: 211, 264
+  size: 189, 190
+  orig: 228, 233
+  offset: 22, 26
+  index: -1
+skillC/bao/bao_016
+  rotate: false
+  xy: 2, 7
+  size: 192, 194
+  orig: 228, 233
+  offset: 24, 21
+  index: -1
+skillC/chuxian/chuxian_074
+  rotate: false
+  xy: 2, 602
+  size: 217, 206
+  orig: 227, 218
+  offset: 4, 0
+  index: -1
+skillC/chuxian/chuxian_076
+  rotate: false
+  xy: 438, 826
+  size: 203, 196
+  orig: 227, 218
+  offset: 9, 9
+  index: -1
+skillC/chuxian/chuxian_078
+  rotate: false
+  xy: 222, 818
+  size: 214, 204
+  orig: 227, 218
+  offset: 10, 4
+  index: -1
+skillC/chuxian/chuxian_080
+  rotate: false
+  xy: 2, 810
+  size: 218, 212
+  orig: 227, 218
+  offset: 8, 2
+  index: -1
+skillC/glow_030
+  rotate: false
+  xy: 643, 835
+  size: 200, 187
+  orig: 202, 187
+  offset: 2, 0
+  index: -1
+skillC/kuo/kuo_036
+  rotate: false
+  xy: 2, 398
+  size: 207, 202
+  orig: 246, 250
+  offset: 17, 22
+  index: -1
+skillC/quan_029
+  rotate: false
+  xy: 2, 203
+  size: 195, 193
+  orig: 195, 193
+  offset: 0, 0
+  index: -1
+skillC/xuli/xuli_013
+  rotate: false
+  xy: 222, 643
+  size: 213, 173
+  orig: 232, 272
+  offset: 9, 0
+  index: -1

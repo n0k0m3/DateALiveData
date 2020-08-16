@@ -1,0 +1,96 @@
+
+effect_yuanquan1_17.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/quan2/youshang
+  rotate: false
+  xy: 828, 410
+  size: 194, 204
+  orig: 194, 204
+  offset: 0, 0
+  index: -1
+images/quan2/youxia
+  rotate: false
+  xy: 828, 210
+  size: 192, 198
+  orig: 192, 198
+  offset: 0, 0
+  index: -1
+images/quan2/zuoshang
+  rotate: false
+  xy: 2, 4
+  size: 195, 205
+  orig: 195, 205
+  offset: 0, 0
+  index: -1
+images/quan2/zuoxia
+  rotate: false
+  xy: 199, 10
+  size: 197, 199
+  orig: 197, 199
+  offset: 0, 0
+  index: -1
+images/quan3/youshang
+  rotate: false
+  xy: 420, 210
+  size: 406, 404
+  orig: 406, 404
+  offset: 0, 0
+  index: -1
+images/quan3/youxia
+  rotate: false
+  xy: 422, 616
+  size: 407, 406
+  orig: 407, 406
+  offset: 0, 0
+  index: -1
+images/quan3/zuoshang
+  rotate: false
+  xy: 2, 211
+  size: 416, 404
+  orig: 416, 404
+  offset: 0, 0
+  index: -1
+images/quan3/zuoxia
+  rotate: false
+  xy: 2, 617
+  size: 418, 405
+  orig: 418, 405
+  offset: 0, 0
+  index: -1
+
+effect_yuanquan1_172.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/quan4/youshang
+  rotate: false
+  xy: 376, 26
+  size: 354, 371
+  orig: 354, 371
+  offset: 0, 0
+  index: -1
+images/quan4/youxia
+  rotate: false
+  xy: 399, 399
+  size: 374, 374
+  orig: 374, 374
+  offset: 0, 0
+  index: -1
+images/quan4/zuoshang
+  rotate: false
+  xy: 2, 409
+  size: 395, 364
+  orig: 395, 364
+  offset: 0, 0
+  index: -1
+images/quan4/zuoxia
+  rotate: false
+  xy: 2, 25
+  size: 372, 382
+  orig: 372, 382
+  offset: 0, 0
+  index: -1

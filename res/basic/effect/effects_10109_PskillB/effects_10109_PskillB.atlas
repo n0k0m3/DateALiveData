@@ -1,0 +1,320 @@
+
+effects_10109_PskillB.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pskillA/daoguang2/daoguang2_007
+  rotate: false
+  xy: 506, 638
+  size: 260, 183
+  orig: 272, 197
+  offset: 7, 13
+  index: -1
+pskillA/daoguang2/daoguang2_008
+  rotate: false
+  xy: 263, 823
+  size: 257, 196
+  orig: 272, 197
+  offset: 9, 0
+  index: -1
+pskillA/daoguang2/daoguang2_010
+  rotate: false
+  xy: 2, 824
+  size: 259, 195
+  orig: 272, 197
+  offset: 9, 1
+  index: -1
+pskillA/daoguang2/daoguang2_014
+  rotate: false
+  xy: 255, 629
+  size: 249, 192
+  orig: 272, 197
+  offset: 14, 5
+  index: -1
+pskillA/daoguang2/daoguang2_018
+  rotate: true
+  xy: 160, 27
+  size: 233, 143
+  orig: 272, 197
+  offset: 31, 44
+  index: -1
+pskillA/guangxian
+  rotate: true
+  xy: 980, 895
+  size: 124, 34
+  orig: 126, 35
+  offset: 1, 1
+  index: -1
+pskillA/kuo/kuo_010
+  rotate: true
+  xy: 737, 24
+  size: 189, 155
+  orig: 194, 165
+  offset: 2, 1
+  index: -1
+pskillA/kuo/kuo_012
+  rotate: true
+  xy: 473, 8
+  size: 186, 131
+  orig: 194, 165
+  offset: 3, 2
+  index: -1
+pskillA/kuo/kuo_013
+  rotate: true
+  xy: 894, 33
+  size: 180, 115
+  orig: 194, 165
+  offset: 6, 2
+  index: -1
+pskillB/bao_up/bao_up_048
+  rotate: true
+  xy: 317, 66
+  size: 274, 154
+  orig: 309, 156
+  offset: 6, 0
+  index: -1
+pskillB/bao_up/bao_up_050
+  rotate: true
+  xy: 2, 227
+  size: 284, 156
+  orig: 309, 156
+  offset: 0, 0
+  index: -1
+pskillB/bao_up/bao_up_052
+  rotate: true
+  xy: 2, 513
+  size: 309, 156
+  orig: 309, 156
+  offset: 0, 0
+  index: -1
+pskillB/bao_up/bao_up_056
+  rotate: true
+  xy: 160, 262
+  size: 309, 155
+  orig: 309, 156
+  offset: 0, 0
+  index: -1
+pskillB/bao_up/bao_up_058
+  rotate: true
+  xy: 615, 342
+  size: 294, 145
+  orig: 309, 156
+  offset: 0, 0
+  index: -1
+pskillB/bao_up/bao_up_062
+  rotate: true
+  xy: 473, 196
+  size: 203, 131
+  orig: 309, 156
+  offset: 61, 9
+  index: -1
+pskillB/bao_up/bao_up_064
+  rotate: true
+  xy: 606, 151
+  size: 189, 129
+  orig: 309, 156
+  offset: 70, 9
+  index: -1
+pskillB/dilie_048
+  rotate: false
+  xy: 255, 577
+  size: 358, 50
+  orig: 363, 55
+  offset: 2, 3
+  index: -1
+pskillB/jianqi/jianqi_020
+  rotate: true
+  xy: 522, 828
+  size: 191, 227
+  orig: 191, 227
+  offset: 0, 0
+  index: -1
+pskillB/jianqi/jianqi_022
+  rotate: true
+  xy: 751, 828
+  size: 191, 227
+  orig: 191, 227
+  offset: 0, 0
+  index: -1
+pskillB/jianqi/jianqi_026
+  rotate: false
+  xy: 768, 599
+  size: 191, 227
+  orig: 191, 227
+  offset: 0, 0
+  index: -1
+pskillB/jianqi/jianqi_028
+  rotate: true
+  xy: 762, 406
+  size: 191, 227
+  orig: 191, 227
+  offset: 0, 0
+  index: -1
+pskillB/jianqi/jianqi_030
+  rotate: true
+  xy: 762, 215
+  size: 189, 227
+  orig: 191, 227
+  offset: 0, 0
+  index: -1
+pskillB/jianqi/jianqi_032
+  rotate: false
+  xy: 2, 15
+  size: 150, 210
+  orig: 191, 227
+  offset: 33, 5
+  index: -1
+pskillB/kuo_008
+  rotate: true
+  xy: 317, 401
+  size: 174, 172
+  orig: 175, 172
+  offset: 0, 0
+  index: -1
+pskillB/xuli/xuli_030
+  rotate: true
+  xy: 961, 725
+  size: 80, 53
+  orig: 175, 130
+  offset: 54, 42
+  index: -1
+pskillB/xuli/xuli_036
+  rotate: true
+  xy: 491, 424
+  size: 151, 122
+  orig: 175, 130
+  offset: 12, 0
+  index: -1
+pskillB/xuli/xuli_039
+  rotate: false
+  xy: 606, 28
+  size: 127, 121
+  orig: 175, 130
+  offset: 28, 2
+  index: -1
+pskillB/xuli/xuli_042
+  rotate: true
+  xy: 980, 807
+  size: 86, 39
+  orig: 175, 130
+  offset: 50, 51
+  index: -1
+pskillB/yanwu/yanwu_054
+  rotate: true
+  xy: 160, 573
+  size: 249, 93
+  orig: 291, 109
+  offset: 9, 3
+  index: -1
+
+effects_10109_PskillB2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pskillA/glow_001
+  rotate: false
+  xy: 2, 421
+  size: 157, 155
+  orig: 158, 155
+  offset: 0, 0
+  index: -1
+pskillA/kuo/kuo_014
+  rotate: true
+  xy: 2, 34
+  size: 171, 102
+  orig: 194, 165
+  offset: 9, 2
+  index: -1
+pskillA/kuo/kuo_015
+  rotate: false
+  xy: 482, 861
+  size: 162, 98
+  orig: 194, 165
+  offset: 17, 2
+  index: -1
+pskillA/kuo/kuo_016
+  rotate: true
+  xy: 92, 267
+  size: 152, 89
+  orig: 194, 165
+  offset: 26, 2
+  index: -1
+pskillA/quan_000
+  rotate: false
+  xy: 183, 301
+  size: 118, 125
+  orig: 127, 125
+  offset: 1, 0
+  index: -1
+pskillB/bao_up/bao_up_066
+  rotate: true
+  xy: 161, 428
+  size: 148, 89
+  orig: 309, 156
+  offset: 101, 9
+  index: -1
+pskillB/xuli/xuli_031
+  rotate: false
+  xy: 804, 848
+  size: 155, 111
+  orig: 175, 130
+  offset: 7, 13
+  index: -1
+pskillB/xuli/xuli_034
+  rotate: false
+  xy: 646, 835
+  size: 156, 124
+  orig: 175, 130
+  offset: 7, 0
+  index: -1
+pskillB/xuli/xuli_041
+  rotate: false
+  xy: 183, 197
+  size: 119, 102
+  orig: 175, 130
+  offset: 27, 8
+  index: -1
+pskillB/yanwu/yanwu_048
+  rotate: false
+  xy: 252, 872
+  size: 228, 87
+  orig: 291, 109
+  offset: 59, 3
+  index: -1
+pskillB/yanwu/yanwu_050
+  rotate: false
+  xy: 2, 578
+  size: 220, 96
+  orig: 291, 109
+  offset: 37, 3
+  index: -1
+pskillB/yanwu/yanwu_052
+  rotate: false
+  xy: 2, 676
+  size: 241, 96
+  orig: 291, 109
+  offset: 16, 3
+  index: -1
+pskillB/yanwu/yanwu_056
+  rotate: false
+  xy: 2, 774
+  size: 247, 91
+  orig: 291, 109
+  offset: 10, 4
+  index: -1
+pskillB/yanwu/yanwu_058
+  rotate: false
+  xy: 2, 867
+  size: 248, 92
+  orig: 291, 109
+  offset: 9, 3
+  index: -1
+pskillB/yanwu/yanwu_060
+  rotate: true
+  xy: 2, 207
+  size: 212, 88
+  orig: 291, 109
+  offset: 29, 3
+  index: -1

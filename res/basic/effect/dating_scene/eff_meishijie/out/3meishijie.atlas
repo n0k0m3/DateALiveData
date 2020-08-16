@@ -1,0 +1,33 @@
+
+3meishijie.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+yangguang_00000
+  rotate: false
+  xy: 2, 47
+  size: 252, 207
+  orig: 252, 207
+  offset: 0, 0
+  index: -1
+
+3meishijie2.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow_00000
+  rotate: false
+  xy: 2, 2
+  size: 84, 215
+  orig: 84, 215
+  offset: 0, 0
+  index: -1
+hua_00000
+  rotate: true
+  xy: 88, 11
+  size: 206, 78
+  orig: 206, 78
+  offset: 0, 0
+  index: -1

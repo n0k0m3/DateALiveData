@@ -1,0 +1,230 @@
+
+effects_10501_pdodge.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/dodge/canying3/canying3_00001
+  rotate: false
+  xy: 623, 694
+  size: 137, 179
+  orig: 137, 179
+  offset: 0, 0
+  index: -1
+effect/dodge/canying3/canying3_00002
+  rotate: false
+  xy: 2, 150
+  size: 137, 179
+  orig: 137, 179
+  offset: 0, 0
+  index: -1
+effect/dodge/canying3/canying3_00003
+  rotate: true
+  xy: 830, 872
+  size: 137, 179
+  orig: 137, 179
+  offset: 0, 0
+  index: -1
+effect/dodge/canying3/canying3_00004
+  rotate: true
+  xy: 209, 328
+  size: 137, 179
+  orig: 137, 179
+  offset: 0, 0
+  index: -1
+effect/dodge/canying3/canying3_00005
+  rotate: true
+  xy: 416, 464
+  size: 137, 179
+  orig: 137, 179
+  offset: 0, 0
+  index: -1
+effect/dodge/canying3/canying3_00006
+  rotate: true
+  xy: 390, 325
+  size: 137, 179
+  orig: 137, 179
+  offset: 0, 0
+  index: -1
+effect/dodge/canying3/canying3_00007
+  rotate: true
+  xy: 2, 11
+  size: 137, 179
+  orig: 137, 179
+  offset: 0, 0
+  index: -1
+effect/dodge/canying3/canying3_00008
+  rotate: true
+  xy: 762, 733
+  size: 137, 179
+  orig: 137, 179
+  offset: 0, 0
+  index: -1
+effect/dodge/canying3/canying3_00009
+  rotate: true
+  xy: 141, 189
+  size: 137, 179
+  orig: 137, 179
+  offset: 0, 0
+  index: -1
+effect/dodge/canying3/canying3_00010
+  rotate: false
+  xy: 183, 8
+  size: 137, 179
+  orig: 137, 179
+  offset: 0, 0
+  index: -1
+effect/dodge/canying3/canying3_00011
+  rotate: false
+  xy: 322, 144
+  size: 137, 179
+  orig: 137, 179
+  offset: 0, 0
+  index: -1
+effect/dodge/canying3/canying3_00012
+  rotate: false
+  xy: 461, 144
+  size: 137, 179
+  orig: 137, 179
+  offset: 0, 0
+  index: -1
+effect/dodge/canying3/canying3_00013
+  rotate: true
+  xy: 322, 5
+  size: 137, 179
+  orig: 137, 179
+  offset: 0, 0
+  index: -1
+effect/dodge/canying3/canying3_00014
+  rotate: true
+  xy: 503, 5
+  size: 137, 179
+  orig: 137, 179
+  offset: 0, 0
+  index: -1
+effect/dodge/canying3/canying3_00015
+  rotate: false
+  xy: 623, 513
+  size: 137, 179
+  orig: 137, 179
+  offset: 0, 0
+  index: -1
+effect/dodge/canying3/canying3_00016
+  rotate: false
+  xy: 762, 552
+  size: 137, 179
+  orig: 137, 179
+  offset: 0, 0
+  index: -1
+effect/dodge/canying3/canying3_00017
+  rotate: true
+  xy: 571, 325
+  size: 137, 179
+  orig: 137, 179
+  offset: 0, 0
+  index: -1
+effect/dodge/canying3/canying3_00018
+  rotate: false
+  xy: 600, 144
+  size: 137, 179
+  orig: 137, 179
+  offset: 0, 0
+  index: -1
+effect/dodge/canying3/canying3_00019
+  rotate: true
+  xy: 684, 5
+  size: 137, 179
+  orig: 137, 179
+  offset: 0, 0
+  index: -1
+effect/dodge/tuowei/tuowei_00000
+  rotate: false
+  xy: 2, 875
+  size: 205, 134
+  orig: 205, 134
+  offset: 0, 0
+  index: -1
+effect/dodge/tuowei/tuowei_00002
+  rotate: false
+  xy: 2, 739
+  size: 205, 134
+  orig: 205, 134
+  offset: 0, 0
+  index: -1
+effect/dodge/tuowei/tuowei_00004
+  rotate: false
+  xy: 209, 875
+  size: 205, 134
+  orig: 205, 134
+  offset: 0, 0
+  index: -1
+effect/dodge/tuowei/tuowei_00006
+  rotate: false
+  xy: 2, 603
+  size: 205, 134
+  orig: 205, 134
+  offset: 0, 0
+  index: -1
+effect/dodge/tuowei/tuowei_00008
+  rotate: false
+  xy: 209, 739
+  size: 205, 134
+  orig: 205, 134
+  offset: 0, 0
+  index: -1
+effect/dodge/tuowei/tuowei_00010
+  rotate: false
+  xy: 416, 875
+  size: 205, 134
+  orig: 205, 134
+  offset: 0, 0
+  index: -1
+effect/dodge/tuowei/tuowei_00012
+  rotate: false
+  xy: 2, 467
+  size: 205, 134
+  orig: 205, 134
+  offset: 0, 0
+  index: -1
+effect/dodge/tuowei/tuowei_00014
+  rotate: false
+  xy: 209, 603
+  size: 205, 134
+  orig: 205, 134
+  offset: 0, 0
+  index: -1
+effect/dodge/tuowei/tuowei_00016
+  rotate: false
+  xy: 416, 739
+  size: 205, 134
+  orig: 205, 134
+  offset: 0, 0
+  index: -1
+effect/dodge/tuowei/tuowei_00018
+  rotate: false
+  xy: 623, 875
+  size: 205, 134
+  orig: 205, 134
+  offset: 0, 0
+  index: -1
+effect/dodge/tuowei/tuowei_00020
+  rotate: false
+  xy: 2, 331
+  size: 205, 134
+  orig: 205, 134
+  offset: 0, 0
+  index: -1
+effect/dodge/tuowei/tuowei_00022
+  rotate: false
+  xy: 209, 467
+  size: 205, 134
+  orig: 205, 134
+  offset: 0, 0
+  index: -1
+effect/dodge/tuowei/tuowei_00024
+  rotate: false
+  xy: 416, 603
+  size: 205, 134
+  orig: 205, 134
+  offset: 0, 0
+  index: -1

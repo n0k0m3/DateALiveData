@@ -1,0 +1,90 @@
+
+effects_10701_skillA_buff.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/born/p2_c/p2_c_0001
+  rotate: false
+  xy: 2, 428
+  size: 252, 87
+  orig: 252, 126
+  offset: 0, 17
+  index: -1
+images/effects/born/p2_c/p2_c_0002
+  rotate: false
+  xy: 2, 517
+  size: 252, 115
+  orig: 252, 126
+  offset: 0, 11
+  index: -1
+images/effects/born/p2_c/p2_c_0003
+  rotate: false
+  xy: 510, 900
+  size: 252, 116
+  orig: 252, 126
+  offset: 0, 10
+  index: -1
+images/effects/born/p2_c/p2_c_0004
+  rotate: false
+  xy: 256, 766
+  size: 252, 122
+  orig: 252, 126
+  offset: 0, 4
+  index: -1
+images/effects/born/p2_c/p2_c_0005
+  rotate: false
+  xy: 2, 890
+  size: 252, 126
+  orig: 252, 126
+  offset: 0, 0
+  index: -1
+images/effects/born/p2_c/p2_c_0006
+  rotate: false
+  xy: 2, 762
+  size: 252, 126
+  orig: 252, 126
+  offset: 0, 0
+  index: -1
+images/effects/born/p2_c/p2_c_0007
+  rotate: false
+  xy: 256, 890
+  size: 252, 126
+  orig: 252, 126
+  offset: 0, 0
+  index: -1
+images/effects/born/p2_c/p2_c_0008
+  rotate: false
+  xy: 2, 634
+  size: 252, 126
+  orig: 252, 126
+  offset: 0, 0
+  index: -1
+images/effects/born/p2_c/p2_c_0009
+  rotate: false
+  xy: 256, 649
+  size: 252, 115
+  orig: 252, 126
+  offset: 0, 0
+  index: -1
+images/effects/born/p2_c/p2_c_0010
+  rotate: false
+  xy: 764, 913
+  size: 252, 103
+  orig: 252, 126
+  offset: 0, 2
+  index: -1
+images/effects/born/p2_c/p2_c_0011
+  rotate: false
+  xy: 510, 794
+  size: 252, 104
+  orig: 252, 126
+  offset: 0, 0
+  index: -1
+images/effects/born/p2_c/p2_c_0012
+  rotate: false
+  xy: 256, 594
+  size: 252, 53
+  orig: 252, 126
+  offset: 0, 17
+  index: -1

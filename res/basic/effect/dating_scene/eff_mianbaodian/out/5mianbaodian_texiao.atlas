@@ -1,0 +1,26 @@
+
+5mianbaodian_texiao.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dengguang_00000
+  rotate: false
+  xy: 2, 41
+  size: 237, 198
+  orig: 237, 198
+  offset: 0, 0
+  index: -1
+
+5mianbaodian_texiao2.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guang_00000
+  rotate: false
+  xy: 2, 79
+  size: 246, 169
+  orig: 246, 169
+  offset: 0, 0
+  index: -1

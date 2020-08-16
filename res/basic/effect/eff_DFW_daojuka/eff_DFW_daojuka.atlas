@@ -1,0 +1,111 @@
+
+eff_DFW_daojuka.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+saoguang/saoguang_00001
+  rotate: false
+  xy: 107, 107
+  size: 6, 11
+  orig: 63, 83
+  offset: 4, 68
+  index: -1
+saoguang/saoguang_00003
+  rotate: false
+  xy: 235, 196
+  size: 14, 26
+  orig: 63, 83
+  offset: 4, 54
+  index: -1
+saoguang/saoguang_00005
+  rotate: false
+  xy: 165, 140
+  size: 22, 41
+  orig: 63, 83
+  offset: 4, 39
+  index: -1
+saoguang/saoguang_00007
+  rotate: true
+  xy: 199, 224
+  size: 30, 55
+  orig: 63, 83
+  offset: 4, 25
+  index: -1
+saoguang/saoguang_00008
+  rotate: false
+  xy: 199, 160
+  size: 34, 62
+  orig: 63, 83
+  offset: 4, 18
+  index: -1
+saoguang/saoguang_00010
+  rotate: false
+  xy: 114, 181
+  size: 42, 73
+  orig: 63, 83
+  offset: 4, 7
+  index: -1
+saoguang/saoguang_00012
+  rotate: false
+  xy: 2, 22
+  size: 50, 76
+  orig: 63, 83
+  offset: 4, 4
+  index: -1
+saoguang/saoguang_00014
+  rotate: false
+  xy: 2, 178
+  size: 54, 76
+  orig: 63, 83
+  offset: 4, 4
+  index: -1
+saoguang/saoguang_00016
+  rotate: false
+  xy: 2, 100
+  size: 54, 76
+  orig: 63, 83
+  offset: 4, 4
+  index: -1
+saoguang/saoguang_00018
+  rotate: false
+  xy: 58, 178
+  size: 54, 76
+  orig: 63, 83
+  offset: 4, 4
+  index: -1
+saoguang/saoguang_00020
+  rotate: false
+  xy: 58, 101
+  size: 47, 75
+  orig: 63, 83
+  offset: 11, 4
+  index: -1
+saoguang/saoguang_00022
+  rotate: false
+  xy: 158, 183
+  size: 39, 71
+  orig: 63, 83
+  offset: 19, 4
+  index: -1
+saoguang/saoguang_00024
+  rotate: false
+  xy: 107, 120
+  size: 31, 56
+  orig: 63, 83
+  offset: 27, 4
+  index: -1
+saoguang/saoguang_00026
+  rotate: false
+  xy: 140, 137
+  size: 23, 42
+  orig: 63, 83
+  offset: 35, 4
+  index: -1
+saoguang/saoguang_00028
+  rotate: true
+  xy: 2, 4
+  size: 16, 28
+  orig: 63, 83
+  offset: 42, 4
+  index: -1

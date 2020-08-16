@@ -1,0 +1,20 @@
+
+effect_rankmatch_levelinfor.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/ge
+  rotate: false
+  xy: 6, 156
+  size: 64, 74
+  orig: 64, 74
+  offset: 0, 0
+  index: -1
+images/xiantiao
+  rotate: false
+  xy: 2, 2
+  size: 2, 228
+  orig: 2, 228
+  offset: 0, 0
+  index: -1

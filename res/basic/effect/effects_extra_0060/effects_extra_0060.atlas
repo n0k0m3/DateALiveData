@@ -1,0 +1,188 @@
+
+effects_extra_0060.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/buff_5/buff_5_0001
+  rotate: false
+  xy: 2, 202
+  size: 123, 157
+  orig: 256, 256
+  offset: 76, 46
+  index: -1
+images/buff_5/buff_5_0002
+  rotate: true
+  xy: 754, 898
+  size: 124, 156
+  orig: 256, 256
+  offset: 81, 54
+  index: -1
+images/buff_5/buff_5_0003
+  rotate: false
+  xy: 480, 854
+  size: 124, 168
+  orig: 256, 256
+  offset: 84, 53
+  index: -1
+images/buff_5/buff_5_0004
+  rotate: false
+  xy: 2, 659
+  size: 151, 183
+  orig: 256, 256
+  offset: 60, 43
+  index: -1
+images/buff_5/buff_5_0005
+  rotate: false
+  xy: 2, 844
+  size: 160, 178
+  orig: 256, 256
+  offset: 50, 50
+  index: -1
+images/buff_5/buff_5_0006
+  rotate: false
+  xy: 2, 361
+  size: 149, 140
+  orig: 256, 256
+  offset: 50, 63
+  index: -1
+images/buff_5/buff_5_0007
+  rotate: false
+  xy: 325, 854
+  size: 153, 168
+  orig: 256, 256
+  offset: 52, 46
+  index: -1
+images/buff_5/buff_5_0008
+  rotate: false
+  xy: 164, 851
+  size: 159, 171
+  orig: 256, 256
+  offset: 54, 45
+  index: -1
+images/buff_5/buff_5_0009
+  rotate: true
+  xy: 2, 503
+  size: 154, 150
+  orig: 256, 256
+  offset: 60, 45
+  index: -1
+images/buff_5/buff_5_0010
+  rotate: false
+  xy: 606, 885
+  size: 146, 137
+  orig: 256, 256
+  offset: 65, 57
+  index: -1
+images/buff_5/buff_5_0011
+  rotate: true
+  xy: 155, 700
+  size: 142, 136
+  orig: 256, 256
+  offset: 63, 58
+  index: -1
+images/buff_5/buff_5_0012
+  rotate: false
+  xy: 2, 46
+  size: 123, 154
+  orig: 256, 256
+  offset: 62, 49
+  index: -1
+images/buff_5/buff_5_0013
+  rotate: true
+  xy: 155, 573
+  size: 125, 137
+  orig: 256, 256
+  offset: 62, 49
+  index: -1
+images/yanwu/yamwu_00000
+  rotate: false
+  xy: 415, 735
+  size: 137, 117
+  orig: 160, 160
+  offset: 13, 18
+  index: -1
+images/yanwu/yamwu_00001
+  rotate: false
+  xy: 154, 453
+  size: 141, 118
+  orig: 160, 160
+  offset: 10, 18
+  index: -1
+images/yanwu/yamwu_00002
+  rotate: false
+  xy: 606, 763
+  size: 145, 120
+  orig: 160, 160
+  offset: 9, 18
+  index: -1
+images/yanwu/yamwu_00003
+  rotate: true
+  xy: 127, 214
+  size: 145, 121
+  orig: 160, 160
+  offset: 9, 18
+  index: -1
+images/yanwu/yamwu_00004
+  rotate: true
+  xy: 127, 67
+  size: 145, 121
+  orig: 160, 160
+  offset: 9, 18
+  index: -1
+images/yanwu/yamwu_00005
+  rotate: false
+  xy: 754, 775
+  size: 145, 121
+  orig: 160, 160
+  offset: 9, 18
+  index: -1
+images/yanwu/yamwu_00006
+  rotate: true
+  xy: 901, 751
+  size: 145, 121
+  orig: 160, 160
+  offset: 9, 18
+  index: -1
+images/yanwu/yamwu_00007
+  rotate: false
+  xy: 753, 652
+  size: 145, 121
+  orig: 160, 160
+  offset: 9, 18
+  index: -1
+images/yanwu/yamwu_00008
+  rotate: true
+  xy: 900, 605
+  size: 144, 121
+  orig: 160, 160
+  offset: 9, 18
+  index: -1
+images/yanwu/yamwu_00009
+  rotate: true
+  xy: 293, 708
+  size: 141, 120
+  orig: 160, 160
+  offset: 9, 18
+  index: -1
+images/yanwu/yamwu_00010
+  rotate: true
+  xy: 297, 439
+  size: 132, 116
+  orig: 160, 160
+  offset: 9, 18
+  index: -1
+images/yanwu/yamwu_00011
+  rotate: true
+  xy: 294, 573
+  size: 133, 117
+  orig: 160, 160
+  offset: 9, 18
+  index: -1
+images/yanwu/yamwu_00012
+  rotate: false
+  xy: 415, 616
+  size: 126, 117
+  orig: 160, 160
+  offset: 18, 18
+  index: -1

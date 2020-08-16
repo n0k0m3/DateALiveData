@@ -1,0 +1,685 @@
+
+effects_10406_skillB.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/baibao_00027
+  rotate: false
+  xy: 472, 655
+  size: 43, 43
+  orig: 51, 51
+  offset: 4, 4
+  index: -1
+effect/extra_skillB/shouji1/baodian/baodiana_00001
+  rotate: false
+  xy: 86, 290
+  size: 67, 33
+  orig: 98, 59
+  offset: 3, 12
+  index: -1
+effect/extra_skillB/shouji1/baodian/baodiana_00002
+  rotate: false
+  xy: 389, 169
+  size: 91, 47
+  orig: 98, 59
+  offset: 0, 5
+  index: -1
+effect/extra_skillB/shouji1/baodian/baodiana_00003
+  rotate: true
+  xy: 252, 26
+  size: 69, 54
+  orig: 98, 59
+  offset: 27, 3
+  index: -1
+effect/extra_skillB/shouji1/baodian/baodiana_00004
+  rotate: false
+  xy: 583, 175
+  size: 64, 36
+  orig: 98, 59
+  offset: 33, 21
+  index: -1
+effect/extra_skillB/shouji1/baodian/baodiann_00001
+  rotate: true
+  xy: 615, 579
+  size: 112, 64
+  orig: 144, 80
+  offset: 14, 8
+  index: -1
+effect/extra_skillB/shouji1/baodian/baodiann_00002
+  rotate: true
+  xy: 636, 360
+  size: 118, 71
+  orig: 144, 80
+  offset: 12, 6
+  index: -1
+effect/extra_skillB/shouji1/baodian/baodiann_00003
+  rotate: true
+  xy: 484, 353
+  size: 121, 74
+  orig: 144, 80
+  offset: 10, 4
+  index: -1
+effect/extra_skillB/shouji1/baodian/baodiann_00004
+  rotate: true
+  xy: 560, 353
+  size: 121, 74
+  orig: 144, 80
+  offset: 10, 4
+  index: -1
+effect/extra_skillB/shouji1/baodian/baodiann_00005
+  rotate: true
+  xy: 315, 346
+  size: 125, 79
+  orig: 144, 80
+  offset: 14, 1
+  index: -1
+effect/extra_skillB/shouji1/baodian/baodiann_00006
+  rotate: false
+  xy: 323, 566
+  size: 129, 80
+  orig: 144, 80
+  offset: 15, 0
+  index: -1
+effect/extra_skillB/shouji1/baodian/baodiann_00007
+  rotate: true
+  xy: 472, 700
+  size: 63, 58
+  orig: 144, 80
+  offset: 35, 13
+  index: -1
+effect/extra_skillB/shouji1/baodian/baodiann_00008
+  rotate: true
+  xy: 717, 890
+  size: 56, 58
+  orig: 144, 80
+  offset: 42, 14
+  index: -1
+effect/extra_skillB/shouji1/baodian/baodianzia_00001
+  rotate: false
+  xy: 366, 2
+  size: 66, 33
+  orig: 97, 52
+  offset: 2, 7
+  index: -1
+effect/extra_skillB/shouji1/baodian/baodianzia_00002
+  rotate: true
+  xy: 254, 97
+  size: 91, 47
+  orig: 97, 52
+  offset: 0, 0
+  index: -1
+effect/extra_skillB/shouji1/baodian/baodianzia_00003
+  rotate: true
+  xy: 837, 877
+  size: 69, 37
+  orig: 97, 52
+  offset: 26, 15
+  index: -1
+effect/extra_skillB/shouji1/baodian/baodianzia_00004
+  rotate: true
+  xy: 670, 830
+  size: 63, 36
+  orig: 97, 52
+  offset: 33, 16
+  index: -1
+effect/extra_skillB/shouji1/baodiana/baodiana_00001
+  rotate: false
+  xy: 777, 889
+  size: 58, 57
+  orig: 122, 113
+  offset: 5, 17
+  index: -1
+effect/extra_skillB/shouji1/baodiana/baodiana_00002
+  rotate: true
+  xy: 224, 276
+  size: 71, 89
+  orig: 122, 113
+  offset: 5, 2
+  index: -1
+effect/extra_skillB/shouji1/baodiana/baodiana_00003
+  rotate: true
+  xy: 293, 191
+  size: 74, 94
+  orig: 122, 113
+  offset: 12, 0
+  index: -1
+effect/extra_skillB/shouji1/baodiana/baodiana_00004
+  rotate: true
+  xy: 195, 190
+  size: 84, 96
+  orig: 122, 113
+  offset: 11, 2
+  index: -1
+effect/extra_skillB/shouji1/baodiana/baodiana_00005
+  rotate: false
+  xy: 77, 113
+  size: 90, 101
+  orig: 122, 113
+  offset: 11, 2
+  index: -1
+effect/extra_skillB/shouji1/baodiana/baodiana_00006
+  rotate: false
+  xy: 518, 586
+  size: 95, 105
+  orig: 122, 113
+  offset: 10, 1
+  index: -1
+effect/extra_skillB/shouji1/baodiana/baodiana_00007
+  rotate: false
+  xy: 574, 480
+  size: 97, 97
+  orig: 122, 113
+  offset: 10, 11
+  index: -1
+effect/extra_skillB/shouji1/baodiana/baodiana_00009
+  rotate: false
+  xy: 103, 12
+  size: 82, 99
+  orig: 122, 113
+  offset: 26, 11
+  index: -1
+effect/extra_skillB/shouji1/baodiana/baodiana_00011
+  rotate: true
+  xy: 169, 116
+  size: 72, 83
+  orig: 122, 113
+  offset: 28, 12
+  index: -1
+effect/extra_skillB/shouji1/baodiana/baodianzia_00001
+  rotate: false
+  xy: 173, 834
+  size: 164, 91
+  orig: 200, 120
+  offset: 21, 18
+  index: -1
+effect/extra_skillB/shouji1/baodiana/baodianzia_00002
+  rotate: false
+  xy: 173, 927
+  size: 169, 95
+  orig: 200, 120
+  offset: 19, 16
+  index: -1
+effect/extra_skillB/shouji1/baodiana/baodianzia_00003
+  rotate: false
+  xy: 326, 718
+  size: 143, 90
+  orig: 200, 120
+  offset: 18, 17
+  index: -1
+effect/extra_skillB/shouji1/baodiana/baodianzia_00004
+  rotate: true
+  xy: 105, 513
+  size: 139, 93
+  orig: 200, 120
+  offset: 23, 17
+  index: -1
+effect/extra_skillB/shouji1/baodiana/baodianzia_00005
+  rotate: false
+  xy: 200, 565
+  size: 121, 95
+  orig: 200, 120
+  offset: 25, 15
+  index: -1
+effect/extra_skillB/shouji1/baodiana/baodianzia_00006
+  rotate: true
+  xy: 224, 349
+  size: 122, 89
+  orig: 200, 120
+  offset: 26, 21
+  index: -1
+effect/extra_skillB/shouji1/baodiana/baodianzia_00007
+  rotate: true
+  xy: 396, 349
+  size: 125, 86
+  orig: 200, 120
+  offset: 26, 21
+  index: -1
+effect/extra_skillB/shouji1/baodiana/baodianzia_00008
+  rotate: false
+  xy: 326, 476
+  size: 125, 88
+  orig: 200, 120
+  offset: 27, 20
+  index: -1
+effect/extra_skillB/shouji1/baodiana/baodianzia_00011
+  rotate: false
+  xy: 453, 476
+  size: 119, 88
+  orig: 200, 120
+  offset: 30, 23
+  index: -1
+effect/extra_skillB/shouji1/baodianci/baodiancia_00001
+  rotate: true
+  xy: 593, 278
+  size: 73, 48
+  orig: 166, 67
+  offset: 4, 13
+  index: -1
+effect/extra_skillB/shouji1/baodianci/baodiancia_00002
+  rotate: true
+  xy: 155, 333
+  size: 136, 67
+  orig: 166, 67
+  offset: 4, 0
+  index: -1
+effect/extra_skillB/shouji1/baodianci/baodiancia_00003
+  rotate: true
+  xy: 110, 692
+  size: 144, 61
+  orig: 166, 67
+  offset: 4, 2
+  index: -1
+effect/extra_skillB/shouji1/baodianci/baodiancim_00002
+  rotate: true
+  xy: 719, 770
+  size: 63, 32
+  orig: 150, 54
+  offset: 0, 15
+  index: -1
+effect/extra_skillB/shouji1/baodianci/baodiancim_00003
+  rotate: false
+  xy: 532, 913
+  size: 143, 43
+  orig: 150, 54
+  offset: 1, 5
+  index: -1
+effect/extra_skillB/shouji1/baodianci/baodiancim_00004
+  rotate: true
+  xy: 69, 319
+  size: 146, 15
+  orig: 150, 54
+  offset: 1, 20
+  index: -1
+effect/extra_skillB/shouji1/baodianyann_00002
+  rotate: false
+  xy: 173, 732
+  size: 151, 100
+  orig: 153, 100
+  offset: 2, 0
+  index: -1
+effect/extra_skillB/shouji1/quanm_00004
+  rotate: false
+  xy: 78, 471
+  size: 25, 181
+  orig: 43, 187
+  offset: 11, 4
+  index: -1
+effect/skillB/lizin_00040
+  rotate: false
+  xy: 2, 5
+  size: 99, 106
+  orig: 107, 116
+  offset: 3, 8
+  index: -1
+effect/skillB/tuoweia/tuoweia_00013
+  rotate: true
+  xy: 2, 113
+  size: 164, 73
+  orig: 186, 74
+  offset: 22, 0
+  index: -1
+effect/skillB/tuoweia/tuoweia_00014
+  rotate: true
+  xy: 2, 467
+  size: 185, 74
+  orig: 186, 74
+  offset: 1, 0
+  index: -1
+effect/skillB/tuoweia/tuoweia_00015
+  rotate: false
+  xy: 344, 949
+  size: 186, 73
+  orig: 186, 74
+  offset: 0, 0
+  index: -1
+effect/skillB/tuoweia/tuoweia_00016
+  rotate: false
+  xy: 719, 948
+  size: 164, 74
+  orig: 186, 74
+  offset: 22, 0
+  index: -1
+effect/skillB/tuoweia/tuoweia_00017
+  rotate: false
+  xy: 532, 958
+  size: 185, 64
+  orig: 186, 74
+  offset: 1, 0
+  index: -1
+effect/skillB/tuoweia/tuoweia_00018
+  rotate: true
+  xy: 2, 279
+  size: 186, 65
+  orig: 186, 74
+  offset: 0, 0
+  index: -1
+effect/skillB/tuowein/tuowein_00013
+  rotate: false
+  xy: 344, 879
+  size: 146, 68
+  orig: 152, 68
+  offset: 6, 0
+  index: -1
+effect/skillB/tuowein/tuowein_00014
+  rotate: false
+  xy: 173, 662
+  size: 150, 68
+  orig: 152, 68
+  offset: 0, 0
+  index: -1
+effect/skillB/tuowein/tuowein_00015
+  rotate: false
+  xy: 339, 810
+  size: 145, 67
+  orig: 152, 68
+  offset: 4, 1
+  index: -1
+effect/skillB/tuowein/tuowein_00016
+  rotate: false
+  xy: 325, 648
+  size: 145, 68
+  orig: 152, 68
+  offset: 4, 0
+  index: -1
+effect/skillB/tuowein/tuowein_00017
+  rotate: true
+  xy: 86, 325
+  size: 144, 67
+  orig: 152, 68
+  offset: 4, 1
+  index: -1
+effect/skillB/tuowein/tuowein_00018
+  rotate: false
+  xy: 532, 844
+  size: 136, 67
+  orig: 152, 68
+  offset: 13, 1
+  index: -1
+effect/skillB/tuowein/tuowein_00019
+  rotate: false
+  xy: 532, 774
+  size: 134, 68
+  orig: 152, 68
+  offset: 15, 0
+  index: -1
+effect/skillB/xuliguanga_00039
+  rotate: true
+  xy: 2, 654
+  size: 182, 106
+  orig: 182, 106
+  offset: 0, 0
+  index: -1
+effect/skillB/xulin_00039
+  rotate: false
+  xy: 2, 838
+  size: 169, 184
+  orig: 169, 184
+  offset: 0, 0
+  index: -1
+effect/skillB/yanchenn/yanchenn_00013
+  rotate: true
+  xy: 673, 503
+  size: 74, 29
+  orig: 106, 46
+  offset: 12, 4
+  index: -1
+effect/skillB/yanchenn/yanchenn_00014
+  rotate: true
+  xy: 492, 842
+  size: 105, 38
+  orig: 106, 46
+  offset: 0, 2
+  index: -1
+effect/skillB/yanchenn/yanchenn_00015
+  rotate: false
+  xy: 482, 175
+  size: 99, 39
+  orig: 106, 46
+  offset: 4, 2
+  index: -1
+effect/skillB/yanchenn/yanchenn_00016
+  rotate: false
+  xy: 105, 471
+  size: 98, 40
+  orig: 106, 46
+  offset: 2, 3
+  index: -1
+effect/skillB/yanchenn/yanchenn_00017
+  rotate: false
+  xy: 377, 125
+  size: 91, 42
+  orig: 106, 46
+  offset: 7, 2
+  index: -1
+effect/skillB/yanchenn/yanchenn_00018
+  rotate: false
+  xy: 377, 80
+  size: 84, 43
+  orig: 106, 46
+  offset: 6, 1
+  index: -1
+effect/skillB/zhongxinluoxuann_00040
+  rotate: false
+  xy: 77, 216
+  size: 66, 65
+  orig: 72, 72
+  offset: 5, 4
+  index: -1
+effect/skillB/zhuangneia/zhuangneia_00028
+  rotate: false
+  xy: 757, 861
+  size: 73, 26
+  orig: 74, 26
+  offset: 1, 0
+  index: -1
+effect/skillB/zhuangneia/zhuangneia_00029
+  rotate: false
+  xy: 757, 833
+  size: 73, 26
+  orig: 74, 26
+  offset: 1, 0
+  index: -1
+effect/skillB/zhuangneia/zhuangneia_00030
+  rotate: false
+  xy: 110, 664
+  size: 58, 26
+  orig: 74, 26
+  offset: 7, 0
+  index: -1
+effect/skillB/zhuangneia/zhuangneia_00031
+  rotate: false
+  xy: 753, 805
+  size: 73, 26
+  orig: 74, 26
+  offset: 1, 0
+  index: -1
+effect/skillB/zhuangneia/zhuangneia_00032
+  rotate: false
+  xy: 753, 777
+  size: 73, 26
+  orig: 74, 26
+  offset: 1, 0
+  index: -1
+effect/skillB/zhuangwaia/zhuangwain_00040_00029
+  rotate: true
+  xy: 187, 26
+  size: 88, 63
+  orig: 94, 82
+  offset: 5, 1
+  index: -1
+effect/skillB/zhuangwaia/zhuangwain_00040_00031
+  rotate: false
+  xy: 303, 108
+  size: 72, 81
+  orig: 94, 82
+  offset: 2, 0
+  index: -1
+effect/skillB/zhuangwaia/zhuangwain_00040_00033
+  rotate: false
+  xy: 396, 218
+  size: 85, 75
+  orig: 94, 82
+  offset: 1, 7
+  index: -1
+effect/skillB/zhuangwaia2/zhuangwaia2_00033
+  rotate: false
+  xy: 876, 896
+  size: 57, 49
+  orig: 94, 82
+  offset: 30, 18
+  index: -1
+effect/skillB/zhuangwaia2/zhuangwaia2_00035
+  rotate: true
+  xy: 308, 31
+  size: 75, 56
+  orig: 94, 82
+  offset: 12, 11
+  index: -1
+effect/skillB/zhuangwaia2/zhuangwaia2_00037
+  rotate: true
+  xy: 653, 207
+  size: 79, 45
+  orig: 94, 82
+  offset: 8, 11
+  index: -1
+effect/skillB/zhuangwain/zhuangwain_00031
+  rotate: true
+  xy: 145, 216
+  size: 65, 48
+  orig: 94, 82
+  offset: 28, 3
+  index: -1
+effect/skillB/zhuangwain/zhuangwain_00033
+  rotate: true
+  xy: 454, 566
+  size: 80, 62
+  orig: 94, 82
+  offset: 4, 4
+  index: -1
+effect/skillB/zhuangwain/zhuangwain_00035
+  rotate: true
+  xy: 643, 288
+  size: 70, 61
+  orig: 94, 82
+  offset: 2, 7
+  index: -1
+effect/skillB/zhuangwain/zhuangwain_00037
+  rotate: false
+  xy: 591, 213
+  size: 60, 63
+  orig: 94, 82
+  offset: 1, 9
+  index: -1
+effect/skillB/zhuangwain/zhuangwain_00039
+  rotate: false
+  xy: 708, 835
+  size: 47, 53
+  orig: 94, 82
+  offset: 5, 20
+  index: -1
+effect/skillB/zhuangwain/zhuangwain_00041
+  rotate: false
+  xy: 668, 777
+  size: 49, 51
+  orig: 94, 82
+  offset: 8, 23
+  index: -1
+effect/skillB/zhuangwain/zhuangwain_00043
+  rotate: false
+  xy: 832, 844
+  size: 46, 31
+  orig: 94, 82
+  offset: 16, 43
+  index: -1
+effect/skillB/zhuangwain2/zhuangwain2_00031
+  rotate: false
+  xy: 677, 895
+  size: 38, 61
+  orig: 91, 70
+  offset: 0, 2
+  index: -1
+effect/skillB/zhuangwain2/zhuangwain2_00033
+  rotate: false
+  xy: 396, 295
+  size: 86, 52
+  orig: 91, 70
+  offset: 0, 17
+  index: -1
+effect/skillB/zhuangwain2/zhuangwain2_00035
+  rotate: false
+  xy: 366, 37
+  size: 84, 41
+  orig: 91, 70
+  offset: 6, 28
+  index: -1
+effect/skillB/zhuangwain2/zhuangwain2_00037
+  rotate: true
+  xy: 486, 765
+  size: 75, 44
+  orig: 91, 70
+  offset: 16, 23
+  index: -1
+effect/skillB/zhuangwain2/zhuangwain2_00039
+  rotate: false
+  xy: 155, 283
+  size: 67, 48
+  orig: 91, 70
+  offset: 23, 18
+  index: -1
+effect/skillB/zhuangwain2/zhuangwain2_00041
+  rotate: false
+  xy: 935, 898
+  size: 57, 47
+  orig: 91, 70
+  offset: 33, 12
+  index: -1
+effect/skillB/zhuangwain2/zhuangwain2_00043
+  rotate: true
+  xy: 649, 173
+  size: 32, 48
+  orig: 91, 70
+  offset: 58, 8
+  index: -1
+effect/skillB/zidana/zidana_00033
+  rotate: false
+  xy: 483, 216
+  size: 106, 73
+  orig: 139, 96
+  offset: 17, 17
+  index: -1
+effect/skillB/zidana/zidana_00035
+  rotate: true
+  xy: 315, 267
+  size: 77, 79
+  orig: 139, 96
+  offset: 22, 12
+  index: -1
+effect/skillB/zidana/zidana_00037
+  rotate: false
+  xy: 205, 473
+  size: 119, 90
+  orig: 139, 96
+  offset: 6, 6
+  index: -1
+effect/skillB/zidana/zidana_00039
+  rotate: false
+  xy: 885, 947
+  size: 131, 75
+  orig: 139, 96
+  offset: 8, 9
+  index: -1
+effect/skillB/zidana/zidana_00041
+  rotate: false
+  xy: 532, 693
+  size: 129, 79
+  orig: 139, 96
+  offset: 8, 17
+  index: -1
+effect/skillB/zidana/zidana_00043
+  rotate: false
+  xy: 484, 291
+  size: 107, 60
+  orig: 139, 96
+  offset: 16, 36
+  index: -1

@@ -1,0 +1,27 @@
+
+zhidian_q.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+kuangsan/1dianadd_00000
+  rotate: false
+  xy: 2, 65
+  size: 325, 415
+  orig: 325, 415
+  offset: 0, 0
+  index: -1
+kuangsan/2lizi_da
+  rotate: false
+  xy: 329, 327
+  size: 151, 153
+  orig: 151, 153
+  offset: 0, 0
+  index: -1
+kuangsan/2lizi_xiao
+  rotate: false
+  xy: 329, 215
+  size: 112, 110
+  orig: 112, 110
+  offset: 0, 0
+  index: -1

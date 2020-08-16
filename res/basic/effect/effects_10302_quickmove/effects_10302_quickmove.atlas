@@ -1,0 +1,146 @@
+
+effects_10302_quickmove.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/shanbi/bianyuan/bianyuan_00000
+  rotate: false
+  xy: 372, 292
+  size: 86, 75
+  orig: 100, 75
+  offset: 11, 0
+  index: -1
+images/effects/shanbi/dange_00009
+  rotate: false
+  xy: 232, 244
+  size: 71, 64
+  orig: 80, 75
+  offset: 6, 6
+  index: -1
+images/effects/shanbi/wei/wei_00000
+  rotate: false
+  xy: 137, 446
+  size: 126, 64
+  orig: 126, 64
+  offset: 0, 0
+  index: -1
+images/effects/shanbi/wei/wei_00001
+  rotate: false
+  xy: 265, 446
+  size: 126, 64
+  orig: 126, 64
+  offset: 0, 0
+  index: -1
+images/effects/shanbi/wei/wei_00002
+  rotate: false
+  xy: 137, 380
+  size: 126, 64
+  orig: 126, 64
+  offset: 0, 0
+  index: -1
+images/effects/shanbi/wei/wei_00003
+  rotate: false
+  xy: 265, 380
+  size: 126, 64
+  orig: 126, 64
+  offset: 0, 0
+  index: -1
+images/effects/shanbi/wei/wei_00004
+  rotate: false
+  xy: 134, 314
+  size: 126, 64
+  orig: 126, 64
+  offset: 0, 0
+  index: -1
+images/effects/shanbi/wei/wei_00005
+  rotate: false
+  xy: 393, 446
+  size: 115, 64
+  orig: 126, 64
+  offset: 3, 0
+  index: -1
+images/effects/shanbi/xuehua/xuehua_00002
+  rotate: false
+  xy: 393, 369
+  size: 114, 75
+  orig: 150, 100
+  offset: 26, 15
+  index: -1
+images/effects/shanbi/xuehua/xuehua_00003
+  rotate: false
+  xy: 2, 428
+  size: 133, 82
+  orig: 150, 100
+  offset: 17, 11
+  index: -1
+images/effects/shanbi/xuehua/xuehua_00004
+  rotate: false
+  xy: 2, 341
+  size: 130, 85
+  orig: 150, 100
+  offset: 12, 9
+  index: -1
+images/effects/shanbi/xuehua/xuehua_00005
+  rotate: false
+  xy: 2, 253
+  size: 128, 86
+  orig: 150, 100
+  offset: 8, 8
+  index: -1
+images/effects/shanbi/xuehua/xuehua_00006
+  rotate: false
+  xy: 2, 166
+  size: 125, 85
+  orig: 150, 100
+  offset: 4, 8
+  index: -1
+images/effects/shanbi/xuehua/xuehua_00007
+  rotate: false
+  xy: 2, 81
+  size: 123, 83
+  orig: 150, 100
+  offset: 1, 9
+  index: -1
+images/effects/shanbi/xuehua/xuehua_00008
+  rotate: false
+  xy: 2, 2
+  size: 115, 77
+  orig: 150, 100
+  offset: 4, 11
+  index: -1
+images/effects/shanbi/xuehua/xuehua_00009
+  rotate: false
+  xy: 262, 310
+  size: 108, 68
+  orig: 150, 100
+  offset: 6, 17
+  index: -1
+images/effects/shanbi/xuehua/xuehua_00010
+  rotate: false
+  xy: 132, 264
+  size: 98, 48
+  orig: 150, 100
+  offset: 10, 18
+  index: -1
+images/effects/shanbi/xuehua/xuehua_00011
+  rotate: true
+  xy: 460, 271
+  size: 96, 40
+  orig: 150, 100
+  offset: 10, 25
+  index: -1
+images/effects/shanbi/xuehua/xuehua_00012
+  rotate: false
+  xy: 305, 269
+  size: 39, 39
+  orig: 150, 100
+  offset: 10, 25
+  index: -1
+images/effects/shanbi/xuehua/xuehua_00013
+  rotate: false
+  xy: 346, 295
+  size: 13, 13
+  orig: 150, 100
+  offset: 32, 48
+  index: -1

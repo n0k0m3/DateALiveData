@@ -1,0 +1,55 @@
+
+gc.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+black
+  rotate: false
+  xy: 2, 2
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+bstar
+  rotate: true
+  xy: 2, 24
+  size: 303, 149
+  orig: 303, 149
+  offset: 0, 0
+  index: -1
+bstar_2
+  rotate: false
+  xy: 2, 665
+  size: 189, 334
+  orig: 189, 334
+  offset: 0, 0
+  index: -1
+rstar
+  rotate: true
+  xy: 193, 360
+  size: 303, 149
+  orig: 303, 149
+  offset: 0, 0
+  index: -1
+rstar_2
+  rotate: false
+  xy: 2, 329
+  size: 189, 334
+  orig: 189, 334
+  offset: 0, 0
+  index: -1
+wstar
+  rotate: false
+  xy: 384, 850
+  size: 303, 149
+  orig: 303, 149
+  offset: 0, 0
+  index: -1
+wstar_2
+  rotate: false
+  xy: 193, 665
+  size: 189, 334
+  orig: 189, 334
+  offset: 0, 0
+  index: -1

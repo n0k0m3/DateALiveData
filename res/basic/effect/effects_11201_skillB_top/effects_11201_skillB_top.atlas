@@ -1,0 +1,1495 @@
+
+effects_11201_skillB_top.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/extra_skillB/baoqi_b/baoqi_b_0003
+  rotate: true
+  xy: 852, 2
+  size: 112, 118
+  orig: 125, 125
+  offset: 5, 0
+  index: -1
+effects/extra_skillB/bigboll/bigboll_00001
+  rotate: true
+  xy: 632, 2
+  size: 163, 147
+  orig: 196, 196
+  offset: 22, 20
+  index: -1
+effects/extra_skillB/bigboll/bigboll_00006
+  rotate: true
+  xy: 420, 2
+  size: 160, 141
+  orig: 196, 196
+  offset: 18, 22
+  index: -1
+effects/extra_skillB/bigboll/bigboll_00009
+  rotate: true
+  xy: 256, 627
+  size: 167, 141
+  orig: 196, 196
+  offset: 16, 20
+  index: -1
+effects/extra_skillB/bigboll/bigboll_00010
+  rotate: true
+  xy: 879, 465
+  size: 173, 143
+  orig: 196, 196
+  offset: 12, 22
+  index: -1
+effects/extra_skillB/glowb_00049
+  rotate: false
+  xy: 956, 640
+  size: 46, 46
+  orig: 46, 46
+  offset: 0, 0
+  index: -1
+effects/extra_skillB/light_a_00003
+  rotate: true
+  xy: 121, 396
+  size: 229, 225
+  orig: 229, 225
+  offset: 0, 0
+  index: -1
+effects/extra_skillB/light_i/light_i_0001
+  rotate: true
+  xy: 348, 420
+  size: 205, 87
+  orig: 249, 140
+  offset: 0, 17
+  index: -1
+effects/extra_skillB/light_i/light_i_0003
+  rotate: true
+  xy: 83, 788
+  size: 234, 91
+  orig: 249, 140
+  offset: 11, 6
+  index: -1
+effects/extra_skillB/light_i/light_i_0005
+  rotate: true
+  xy: 367, 806
+  size: 216, 95
+  orig: 249, 140
+  offset: 30, 6
+  index: -1
+effects/extra_skillB/light_i/light_i_0007
+  rotate: true
+  xy: 522, 435
+  size: 191, 97
+  orig: 249, 140
+  offset: 55, 6
+  index: -1
+effects/extra_skillB/light_j/light_j_0003
+  rotate: true
+  xy: 481, 165
+  size: 192, 92
+  orig: 249, 140
+  offset: 30, 15
+  index: -1
+effects/extra_skillB/light_j/light_j_0005
+  rotate: true
+  xy: 437, 431
+  size: 194, 83
+  orig: 249, 140
+  offset: 35, 17
+  index: -1
+effects/extra_skillB/light_j/light_j_0007
+  rotate: true
+  xy: 606, 833
+  size: 189, 76
+  orig: 249, 140
+  offset: 43, 20
+  index: -1
+effects/extra_skillB/light_j/light_j_0009
+  rotate: false
+  xy: 517, 360
+  size: 178, 69
+  orig: 249, 140
+  offset: 54, 26
+  index: -1
+effects/extra_skillB/light_k/light_k_0009
+  rotate: true
+  xy: 939, 753
+  size: 89, 83
+  orig: 126, 112
+  offset: 37, 21
+  index: -1
+effects/extra_skillB/light_l/light_l_0009
+  rotate: true
+  xy: 351, 2
+  size: 148, 67
+  orig: 175, 70
+  offset: 26, 3
+  index: -1
+effects/extra_skillB/light_m/light_m_0001
+  rotate: true
+  xy: 399, 627
+  size: 177, 54
+  orig: 311, 175
+  offset: 81, 64
+  index: -1
+effects/extra_skillB/light_m/light_m_0003
+  rotate: true
+  xy: 2, 357
+  size: 268, 117
+  orig: 311, 175
+  offset: 7, 24
+  index: -1
+effects/extra_skillB/light_m/light_m_0005
+  rotate: true
+  xy: 2, 106
+  size: 249, 123
+  orig: 311, 175
+  offset: 3, 18
+  index: -1
+effects/extra_skillB/light_m/light_m_0007
+  rotate: true
+  xy: 176, 796
+  size: 226, 124
+  orig: 311, 175
+  offset: 4, 16
+  index: -1
+effects/extra_skillB/light_m/light_m_0009
+  rotate: true
+  xy: 127, 149
+  size: 206, 119
+  orig: 311, 175
+  offset: 4, 17
+  index: -1
+effects/extra_skillB/lizi_a/lizi_a_0001
+  rotate: true
+  xy: 781, 64
+  size: 101, 69
+  orig: 140, 140
+  offset: 22, 38
+  index: -1
+effects/extra_skillB/lizi_a/lizi_a_0003
+  rotate: true
+  xy: 764, 746
+  size: 123, 80
+  orig: 140, 140
+  offset: 5, 35
+  index: -1
+effects/extra_skillB/lizi_b/lizi_b_0001
+  rotate: true
+  xy: 127, 137
+  size: 10, 11
+  orig: 175, 70
+  offset: 146, 43
+  index: -1
+effects/extra_skillB/lizi_b/lizi_b_0002
+  rotate: true
+  xy: 842, 640
+  size: 104, 52
+  orig: 175, 70
+  offset: 67, 2
+  index: -1
+effects/extra_skillB/lizi_b/lizi_b_0003
+  rotate: false
+  xy: 896, 688
+  size: 126, 56
+  orig: 175, 70
+  offset: 41, 1
+  index: -1
+effects/extra_skillB/lizi_b/lizi_b_0004
+  rotate: false
+  xy: 359, 359
+  size: 156, 59
+  orig: 175, 70
+  offset: 6, 3
+  index: -1
+effects/extra_skillB/lizi_b/lizi_b_0007
+  rotate: false
+  xy: 728, 291
+  size: 149, 68
+  orig: 175, 70
+  offset: 1, 2
+  index: -1
+effects/extra_skillB/lizi_b/lizi_b_0009
+  rotate: true
+  xy: 563, 2
+  size: 161, 67
+  orig: 175, 70
+  offset: 2, 2
+  index: -1
+effects/extra_skillB/lizi_c/lizi_c_0001
+  rotate: true
+  xy: 155, 358
+  size: 36, 42
+  orig: 210, 88
+  offset: 37, 35
+  index: -1
+effects/extra_skillB/lizi_c/lizi_c_0002
+  rotate: true
+  xy: 972, 50
+  size: 64, 50
+  orig: 210, 88
+  offset: 39, 27
+  index: -1
+effects/extra_skillB/lizi_c/lizi_c_0004
+  rotate: true
+  xy: 537, 831
+  size: 191, 67
+  orig: 210, 88
+  offset: 0, 17
+  index: -1
+effects/extra_skillB/lizi_c/lizi_c_0005
+  rotate: true
+  xy: 405, 164
+  size: 193, 74
+  orig: 210, 88
+  offset: 5, 14
+  index: -1
+effects/extra_skillB/lizi_c/lizi_c_0006
+  rotate: true
+  xy: 464, 831
+  size: 191, 71
+  orig: 210, 88
+  offset: 9, 13
+  index: -1
+effects/extra_skillB/lizi_c/lizi_c_0007
+  rotate: true
+  xy: 684, 833
+  size: 189, 64
+  orig: 210, 88
+  offset: 13, 15
+  index: -1
+effects/extra_skillB/lizi_c/lizi_c_0010
+  rotate: true
+  xy: 83, 627
+  size: 159, 55
+  orig: 210, 88
+  offset: 28, 24
+  index: -1
+effects/extra_skillB/qifen/qifen_0003
+  rotate: true
+  xy: 455, 628
+  size: 176, 137
+  orig: 196, 147
+  offset: 7, 7
+  index: -1
+effects/extra_skillB/qifen/qifen_0004
+  rotate: true
+  xy: 594, 640
+  size: 189, 141
+  orig: 196, 147
+  offset: 6, 3
+  index: -1
+effects/extra_skillB/qifen/qifen_0005
+  rotate: true
+  xy: 621, 454
+  size: 184, 141
+  orig: 196, 147
+  offset: 6, 2
+  index: -1
+effects/extra_skillB/qifen/qifen_0009
+  rotate: true
+  xy: 764, 454
+  size: 184, 113
+  orig: 196, 147
+  offset: 8, 6
+  index: -1
+effects/extra_skillB/quan_a_00035
+  rotate: false
+  xy: 302, 798
+  size: 63, 224
+  orig: 63, 224
+  offset: 0, 0
+  index: -1
+effects/extra_skillB/redl_00004
+  rotate: false
+  xy: 2, 627
+  size: 79, 395
+  orig: 315, 560
+  offset: 113, 15
+  index: -1
+effects/extra_skillB/sb_baozha/sb_baozha_00000
+  rotate: false
+  xy: 750, 871
+  size: 94, 60
+  orig: 179, 179
+  offset: 45, 64
+  index: -1
+effects/extra_skillB/sb_baozha/sb_baozha_00018
+  rotate: false
+  xy: 781, 3
+  size: 51, 59
+  orig: 179, 179
+  offset: 79, 69
+  index: -1
+effects/extra_skillB/sb_zh_a/sb_zh_a_00000
+  rotate: false
+  xy: 750, 933
+  size: 94, 89
+  orig: 210, 210
+  offset: 47, 31
+  index: -1
+effects/extra_skillB/sb_zh_a/sb_zh_a_00002
+  rotate: true
+  xy: 575, 167
+  size: 191, 151
+  orig: 210, 210
+  offset: 10, 28
+  index: -1
+effects/extra_skillB/sb_zh_a/sb_zh_a_00004
+  rotate: false
+  xy: 149, 2
+  size: 200, 145
+  orig: 210, 210
+  offset: 3, 28
+  index: -1
+effects/extra_skillB/sb_zh_a/sb_zh_a_00006
+  rotate: true
+  xy: 248, 152
+  size: 205, 155
+  orig: 210, 210
+  offset: 3, 28
+  index: -1
+effects/extra_skillB/sb_zh_a/sb_zh_a_00008
+  rotate: true
+  xy: 879, 284
+  size: 179, 142
+  orig: 210, 210
+  offset: 9, 28
+  index: -1
+effects/extra_skillB/sb_zh_b/sb_zh_b_00010
+  rotate: true
+  xy: 199, 359
+  size: 35, 158
+  orig: 70, 175
+  offset: 10, 0
+  index: -1
+effects/extra_skillB/small boll/small boll_00000
+  rotate: true
+  xy: 846, 746
+  size: 96, 91
+  orig: 179, 179
+  offset: 43, 43
+  index: -1
+effects/extra_skillB/smoke_dg/smoke_dg_00000
+  rotate: false
+  xy: 697, 361
+  size: 147, 91
+  orig: 176, 138
+  offset: 13, 21
+  index: -1
+effects/extra_skillB/smoke_dg/smoke_dg_00002
+  rotate: true
+  xy: 140, 628
+  size: 158, 114
+  orig: 176, 138
+  offset: 10, 11
+  index: -1
+effects/extra_skillB/smoke_ef/smoke_ef_00002
+  rotate: false
+  xy: 2, 2
+  size: 145, 102
+  orig: 145, 102
+  offset: 0, 0
+  index: -1
+effects/extra_skillB/wargolem_cannon_impact_a_yellow_sheet/wargolem_cannon_impact_a_yellow_sheet_000
+  rotate: true
+  xy: 972, 15
+  size: 33, 50
+  orig: 63, 125
+  offset: 14, 0
+  index: -1
+effects/extra_skillB/wargolem_cannon_impact_a_yellow_sheet/wargolem_cannon_impact_a_yellow_sheet_007
+  rotate: false
+  xy: 896, 640
+  size: 58, 46
+  orig: 63, 125
+  offset: 2, 79
+  index: -1
+effects/extra_skillB/wing_a/wing_a_00010
+  rotate: true
+  xy: 121, 357
+  size: 37, 32
+  orig: 147, 88
+  offset: 22, 23
+  index: -1
+effects/extra_skillB/z_boll/z_boll_00015
+  rotate: false
+  xy: 737, 640
+  size: 103, 104
+  orig: 179, 179
+  offset: 38, 38
+  index: -1
+effects/extra_skillB/z_boll/z_boll_00020
+  rotate: false
+  xy: 728, 167
+  size: 122, 122
+  orig: 179, 179
+  offset: 28, 29
+  index: -1
+effects/extra_skillB/zb_c/zb_c_00009
+  rotate: false
+  xy: 852, 116
+  size: 169, 166
+  orig: 343, 258
+  offset: 102, 55
+  index: -1
+effects/extra_skillB/zb_c/zb_c_00011
+  rotate: false
+  xy: 846, 844
+  size: 175, 178
+  orig: 343, 258
+  offset: 98, 49
+  index: -1
+effects/skillB/cleanse_flash_sheet/cleanse_flash_sheet_000
+  rotate: false
+  xy: 499, 808
+  size: 25, 21
+  orig: 90, 90
+  offset: 33, 34
+  index: -1
+effects/skillB/cleanse_flash_sheet/cleanse_flash_sheet_007
+  rotate: false
+  xy: 464, 806
+  size: 33, 23
+  orig: 90, 90
+  offset: 29, 34
+  index: -1
+
+effects_11201_skillB_top2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/extra_skillB/baoqi_b/baoqi_b_0002
+  rotate: false
+  xy: 664, 250
+  size: 114, 120
+  orig: 125, 125
+  offset: 3, 0
+  index: -1
+effects/extra_skillB/baoqi_b/baoqi_b_0004
+  rotate: false
+  xy: 661, 510
+  size: 109, 111
+  orig: 125, 125
+  offset: 8, 3
+  index: -1
+effects/extra_skillB/bigboll/bigboll_00000
+  rotate: false
+  xy: 2, 152
+  size: 154, 145
+  orig: 196, 196
+  offset: 22, 22
+  index: -1
+effects/extra_skillB/bigboll/bigboll_00002
+  rotate: false
+  xy: 2, 299
+  size: 157, 145
+  orig: 196, 196
+  offset: 33, 22
+  index: -1
+effects/extra_skillB/bigboll/bigboll_00003
+  rotate: false
+  xy: 2, 3
+  size: 151, 147
+  orig: 196, 196
+  offset: 24, 20
+  index: -1
+effects/extra_skillB/bigboll/bigboll_00004
+  rotate: false
+  xy: 2, 446
+  size: 164, 144
+  orig: 196, 196
+  offset: 15, 22
+  index: -1
+effects/extra_skillB/bigboll/bigboll_00005
+  rotate: false
+  xy: 356, 886
+  size: 167, 136
+  orig: 196, 196
+  offset: 7, 26
+  index: -1
+effects/extra_skillB/bigboll/bigboll_00007
+  rotate: false
+  xy: 2, 592
+  size: 164, 145
+  orig: 196, 196
+  offset: 19, 20
+  index: -1
+effects/extra_skillB/bigboll/bigboll_00008
+  rotate: false
+  xy: 2, 739
+  size: 175, 140
+  orig: 196, 196
+  offset: 16, 22
+  index: -1
+effects/extra_skillB/bigboll/bigboll_00011
+  rotate: false
+  xy: 2, 881
+  size: 178, 141
+  orig: 196, 196
+  offset: 7, 26
+  index: -1
+effects/extra_skillB/light_g/light_g_00038
+  rotate: false
+  xy: 772, 800
+  size: 116, 107
+  orig: 196, 111
+  offset: 29, 4
+  index: -1
+effects/extra_skillB/light_g/light_g_00039
+  rotate: false
+  xy: 623, 99
+  size: 113, 110
+  orig: 196, 111
+  offset: 34, 1
+  index: -1
+effects/extra_skillB/light_i/light_i_0009
+  rotate: false
+  xy: 359, 522
+  size: 160, 95
+  orig: 249, 140
+  offset: 84, 9
+  index: -1
+effects/extra_skillB/light_k/light_k_0003
+  rotate: true
+  xy: 780, 247
+  size: 124, 100
+  orig: 126, 112
+  offset: 2, 2
+  index: -1
+effects/extra_skillB/light_k/light_k_0007
+  rotate: false
+  xy: 593, 2
+  size: 103, 95
+  orig: 126, 112
+  offset: 23, 9
+  index: -1
+effects/extra_skillB/light_l/light_l_0003
+  rotate: false
+  xy: 512, 444
+  size: 169, 64
+  orig: 175, 70
+  offset: 0, 0
+  index: -1
+effects/extra_skillB/light_l/light_l_0005
+  rotate: false
+  xy: 525, 774
+  size: 175, 65
+  orig: 175, 70
+  offset: 0, 0
+  index: -1
+effects/extra_skillB/light_l/light_l_0007
+  rotate: false
+  xy: 512, 375
+  size: 169, 67
+  orig: 175, 70
+  offset: 6, 0
+  index: -1
+effects/extra_skillB/lizi_a/lizi_a_0005
+  rotate: true
+  xy: 683, 372
+  size: 136, 90
+  orig: 140, 140
+  offset: 0, 27
+  index: -1
+effects/extra_skillB/lizi_a/lizi_a_0007
+  rotate: false
+  xy: 521, 510
+  size: 138, 108
+  orig: 140, 140
+  offset: 0, 22
+  index: -1
+effects/extra_skillB/lizi_b/lizi_b_0005
+  rotate: false
+  xy: 161, 243
+  size: 156, 66
+  orig: 175, 70
+  offset: 3, 3
+  index: -1
+effects/extra_skillB/lizi_b/lizi_b_0006
+  rotate: false
+  xy: 870, 133
+  size: 145, 66
+  orig: 175, 70
+  offset: 2, 3
+  index: -1
+effects/extra_skillB/lizi_b/lizi_b_0008
+  rotate: false
+  xy: 319, 312
+  size: 166, 68
+  orig: 175, 70
+  offset: 2, 2
+  index: -1
+effects/extra_skillB/lizi_b/lizi_b_0011
+  rotate: false
+  xy: 319, 243
+  size: 165, 67
+  orig: 175, 70
+  offset: 2, 3
+  index: -1
+effects/extra_skillB/lizi_b/lizi_b_0012
+  rotate: false
+  xy: 460, 99
+  size: 158, 54
+  orig: 175, 70
+  offset: 4, 5
+  index: -1
+effects/extra_skillB/lizi_c/lizi_c_0003
+  rotate: true
+  xy: 652, 623
+  size: 149, 54
+  orig: 210, 88
+  offset: 2, 20
+  index: -1
+effects/extra_skillB/lizi_c/lizi_c_0008
+  rotate: false
+  xy: 525, 841
+  size: 181, 61
+  orig: 210, 88
+  offset: 18, 23
+  index: -1
+effects/extra_skillB/lizi_c/lizi_c_0009
+  rotate: false
+  xy: 486, 211
+  size: 162, 52
+  orig: 210, 88
+  offset: 24, 23
+  index: -1
+effects/extra_skillB/lizi_c/lizi_c_0011
+  rotate: false
+  xy: 460, 155
+  size: 161, 54
+  orig: 210, 88
+  offset: 27, 26
+  index: -1
+effects/extra_skillB/qifen/qifen_0001
+  rotate: false
+  xy: 882, 406
+  size: 140, 119
+  orig: 196, 147
+  offset: 27, 23
+  index: -1
+effects/extra_skillB/qifen/qifen_0002
+  rotate: true
+  xy: 890, 855
+  size: 167, 132
+  orig: 196, 147
+  offset: 12, 8
+  index: -1
+effects/extra_skillB/qifen/qifen_0006
+  rotate: true
+  xy: 228, 556
+  size: 169, 129
+  orig: 196, 147
+  offset: 17, 8
+  index: -1
+effects/extra_skillB/qifen/qifen_0007
+  rotate: false
+  xy: 710, 909
+  size: 178, 113
+  orig: 196, 147
+  offset: 17, 11
+  index: -1
+effects/extra_skillB/qifen/qifen_0008
+  rotate: false
+  xy: 525, 904
+  size: 183, 118
+  orig: 196, 147
+  offset: 8, 7
+  index: -1
+effects/extra_skillB/qifen/qifen_0010
+  rotate: false
+  xy: 168, 443
+  size: 166, 111
+  orig: 196, 147
+  offset: 9, 7
+  index: -1
+effects/extra_skillB/qifen/qifen_0011
+  rotate: false
+  xy: 356, 774
+  size: 167, 110
+  orig: 196, 147
+  offset: 9, 6
+  index: -1
+effects/extra_skillB/qifen/qifen_0012
+  rotate: true
+  xy: 350, 4
+  size: 133, 105
+  orig: 196, 147
+  offset: 23, 10
+  index: -1
+effects/extra_skillB/qifen/qifen_0013
+  rotate: true
+  xy: 775, 373
+  size: 136, 105
+  orig: 196, 147
+  offset: 22, 9
+  index: -1
+effects/extra_skillB/sb_zh_a/sb_zh_a_00010
+  rotate: false
+  xy: 182, 882
+  size: 172, 140
+  orig: 210, 210
+  offset: 12, 29
+  index: -1
+effects/extra_skillB/sb_zh_a/sb_zh_a_00012
+  rotate: false
+  xy: 161, 311
+  size: 156, 130
+  orig: 210, 210
+  offset: 18, 29
+  index: -1
+effects/extra_skillB/sb_zh_a/sb_zh_a_00014
+  rotate: true
+  xy: 889, 2
+  size: 129, 118
+  orig: 210, 210
+  offset: 42, 39
+  index: -1
+effects/extra_skillB/sb_zh_a/sb_zh_a_00016
+  rotate: true
+  xy: 773, 2
+  size: 117, 114
+  orig: 210, 210
+  offset: 50, 39
+  index: -1
+effects/extra_skillB/sb_zh_a/sb_zh_a_00018
+  rotate: true
+  xy: 698, 2
+  size: 95, 73
+  orig: 210, 210
+  offset: 55, 38
+  index: -1
+effects/extra_skillB/sb_zh_b/sb_zh_b_00000
+  rotate: true
+  xy: 336, 451
+  size: 69, 174
+  orig: 70, 175
+  offset: 1, 0
+  index: -1
+effects/extra_skillB/sb_zh_b/sb_zh_b_00001
+  rotate: true
+  xy: 336, 382
+  size: 67, 174
+  orig: 70, 175
+  offset: 2, 0
+  index: -1
+effects/extra_skillB/sb_zh_b/sb_zh_b_00002
+  rotate: false
+  xy: 168, 562
+  size: 58, 175
+  orig: 70, 175
+  offset: 6, 0
+  index: -1
+effects/extra_skillB/sb_zh_b/sb_zh_b_00003
+  rotate: true
+  xy: 487, 265
+  size: 52, 175
+  orig: 70, 175
+  offset: 8, 0
+  index: -1
+effects/extra_skillB/sb_zh_b/sb_zh_b_00006
+  rotate: true
+  xy: 487, 319
+  size: 54, 175
+  orig: 70, 175
+  offset: 6, 0
+  index: -1
+effects/extra_skillB/small boll/small boll_00001
+  rotate: false
+  xy: 457, 2
+  size: 134, 95
+  orig: 179, 179
+  offset: 25, 43
+  index: -1
+effects/extra_skillB/small boll/small boll_00007
+  rotate: true
+  xy: 772, 511
+  size: 158, 88
+  orig: 179, 179
+  offset: 13, 43
+  index: -1
+effects/extra_skillB/smoke_dg/smoke_dg_00001
+  rotate: false
+  xy: 158, 136
+  size: 153, 105
+  orig: 176, 138
+  offset: 11, 14
+  index: -1
+effects/extra_skillB/smoke_dg/smoke_dg_00003
+  rotate: false
+  xy: 865, 662
+  size: 154, 125
+  orig: 176, 138
+  offset: 17, 5
+  index: -1
+effects/extra_skillB/smoke_dg/smoke_dg_00004
+  rotate: true
+  xy: 228, 727
+  size: 153, 126
+  orig: 176, 138
+  offset: 16, 5
+  index: -1
+effects/extra_skillB/smoke_dg/smoke_dg_00005
+  rotate: false
+  xy: 708, 671
+  size: 155, 127
+  orig: 176, 138
+  offset: 15, 5
+  index: -1
+effects/extra_skillB/smoke_ef/smoke_ef_00004
+  rotate: false
+  xy: 313, 139
+  size: 145, 102
+  orig: 145, 102
+  offset: 0, 0
+  index: -1
+effects/extra_skillB/smoke_pp/smoke_pp_00004
+  rotate: true
+  xy: 179, 741
+  size: 138, 39
+  orig: 280, 140
+  offset: 77, 45
+  index: -1
+effects/extra_skillB/wargolem_cannon_impact_a_yellow_sheet/wargolem_cannon_impact_a_yellow_sheet_003
+  rotate: false
+  xy: 708, 811
+  size: 62, 91
+  orig: 63, 125
+  offset: 1, 28
+  index: -1
+effects/extra_skillB/wing_a/wing_a_00002
+  rotate: true
+  xy: 286, 2
+  size: 132, 62
+  orig: 147, 88
+  offset: 12, 19
+  index: -1
+effects/extra_skillB/wing_a/wing_a_00003
+  rotate: false
+  xy: 889, 201
+  size: 133, 65
+  orig: 147, 88
+  offset: 8, 17
+  index: -1
+effects/extra_skillB/wing_a/wing_a_00004
+  rotate: false
+  xy: 890, 789
+  size: 132, 64
+  orig: 147, 88
+  offset: 7, 17
+  index: -1
+effects/extra_skillB/wing_b_00067
+  rotate: false
+  xy: 738, 121
+  size: 130, 124
+  orig: 130, 124
+  offset: 0, 0
+  index: -1
+effects/extra_skillB/z_boll/z_boll_00022
+  rotate: false
+  xy: 155, 5
+  size: 129, 129
+  orig: 179, 179
+  offset: 25, 25
+  index: -1
+effects/extra_skillB/z_boll/z_boll_00023
+  rotate: false
+  xy: 862, 527
+  size: 133, 133
+  orig: 179, 179
+  offset: 23, 23
+  index: -1
+effects/extra_skillB/zb_c/zb_c_00003
+  rotate: false
+  xy: 882, 268
+  size: 123, 136
+  orig: 343, 258
+  offset: 113, 70
+  index: -1
+effects/extra_skillB/zb_c/zb_c_00005
+  rotate: false
+  xy: 506, 620
+  size: 144, 152
+  orig: 343, 258
+  offset: 105, 63
+  index: -1
+effects/extra_skillB/zb_c/zb_c_00007
+  rotate: false
+  xy: 359, 619
+  size: 145, 153
+  orig: 343, 258
+  offset: 104, 63
+  index: -1
+effects/skillB/cleanse_flash_sheet/cleanse_flash_sheet_006
+  rotate: false
+  xy: 708, 624
+  size: 58, 45
+  orig: 90, 90
+  offset: 18, 21
+  index: -1
+
+effects_11201_skillB_top3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/extra_skillB/baoqi_b/baoqi_b_0001
+  rotate: false
+  xy: 621, 769
+  size: 90, 90
+  orig: 125, 125
+  offset: 19, 15
+  index: -1
+effects/extra_skillB/baoqi_b/baoqi_b_0005
+  rotate: true
+  xy: 307, 565
+  size: 107, 102
+  orig: 125, 125
+  offset: 10, 9
+  index: -1
+effects/extra_skillB/baoqi_b/baoqi_b_0006
+  rotate: false
+  xy: 72, 137
+  size: 103, 97
+  orig: 125, 125
+  offset: 13, 9
+  index: -1
+effects/extra_skillB/baoqi_b/baoqi_b_0007
+  rotate: false
+  xy: 294, 834
+  size: 101, 86
+  orig: 125, 125
+  offset: 14, 20
+  index: -1
+effects/extra_skillB/baoqiu_a/baoqiu_a_0002
+  rotate: false
+  xy: 411, 506
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+effects/extra_skillB/baoqiu_a/baoqiu_a_0005
+  rotate: false
+  xy: 409, 427
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+effects/extra_skillB/baoqiu_a/baoqiu_a_0006
+  rotate: false
+  xy: 385, 348
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+effects/extra_skillB/baoqiu_a/baoqiu_a_0007
+  rotate: false
+  xy: 385, 269
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+effects/extra_skillB/baoqiu_a/baoqiu_a_0009
+  rotate: false
+  xy: 307, 405
+  size: 75, 68
+  orig: 77, 77
+  offset: 1, 0
+  index: -1
+effects/extra_skillB/baoqiu_a/baoqiu_a_0010
+  rotate: true
+  xy: 453, 761
+  size: 72, 65
+  orig: 77, 77
+  offset: 3, 2
+  index: -1
+effects/extra_skillB/glow_f_00000
+  rotate: true
+  xy: 411, 585
+  size: 87, 85
+  orig: 90, 90
+  offset: 2, 5
+  index: -1
+effects/extra_skillB/light_g/light_g_00040
+  rotate: true
+  xy: 758, 920
+  size: 102, 110
+  orig: 196, 111
+  offset: 44, 1
+  index: -1
+effects/extra_skillB/light_i/light_i_0011
+  rotate: false
+  xy: 534, 680
+  size: 87, 87
+  orig: 249, 140
+  offset: 152, 15
+  index: -1
+effects/extra_skillB/light_j/light_j_0001
+  rotate: false
+  xy: 397, 936
+  size: 127, 86
+  orig: 249, 140
+  offset: 20, 31
+  index: -1
+effects/extra_skillB/light_j/light_j_0011
+  rotate: false
+  xy: 644, 862
+  size: 124, 56
+  orig: 249, 140
+  offset: 103, 34
+  index: -1
+effects/extra_skillB/light_k/light_k_0001
+  rotate: true
+  xy: 234, 541
+  size: 121, 71
+  orig: 126, 112
+  offset: 0, 0
+  index: -1
+effects/extra_skillB/light_k/light_k_0005
+  rotate: true
+  xy: 294, 721
+  size: 111, 99
+  orig: 126, 112
+  offset: 15, 5
+  index: -1
+effects/extra_skillB/light_k/light_k_0011
+  rotate: false
+  xy: 464, 278
+  size: 73, 69
+  orig: 126, 112
+  offset: 52, 34
+  index: -1
+effects/extra_skillB/light_l/light_l_0001
+  rotate: false
+  xy: 861, 701
+  size: 64, 48
+  orig: 175, 70
+  offset: 3, 21
+  index: -1
+effects/extra_skillB/light_l/light_l_0011
+  rotate: true
+  xy: 473, 676
+  size: 83, 59
+  orig: 175, 70
+  offset: 72, 11
+  index: -1
+effects/extra_skillB/light_m/light_m_0011
+  rotate: false
+  xy: 273, 922
+  size: 122, 100
+  orig: 311, 175
+  offset: 9, 23
+  index: -1
+effects/extra_skillB/lizi_a/lizi_a_0009
+  rotate: true
+  xy: 2, 643
+  size: 128, 115
+  orig: 140, 140
+  offset: 11, 20
+  index: -1
+effects/extra_skillB/lizi_a/lizi_a_0011
+  rotate: true
+  xy: 177, 136
+  size: 98, 76
+  orig: 140, 140
+  offset: 31, 29
+  index: -1
+effects/extra_skillB/lizi_b/lizi_b_0010
+  rotate: true
+  xy: 2, 121
+  size: 139, 68
+  orig: 175, 70
+  offset: 1, 2
+  index: -1
+effects/extra_skillB/qifen/qifen_0000
+  rotate: false
+  xy: 644, 920
+  size: 112, 102
+  orig: 196, 147
+  offset: 41, 41
+  index: -1
+effects/extra_skillB/sb_baozha/sb_baozha_00002
+  rotate: false
+  xy: 119, 405
+  size: 101, 106
+  orig: 179, 179
+  offset: 45, 46
+  index: -1
+effects/extra_skillB/sb_baozha/sb_baozha_00003
+  rotate: true
+  xy: 870, 920
+  size: 102, 109
+  orig: 179, 179
+  offset: 45, 45
+  index: -1
+effects/extra_skillB/sb_baozha/sb_baozha_00005
+  rotate: false
+  xy: 2, 773
+  size: 125, 121
+  orig: 179, 179
+  offset: 41, 38
+  index: -1
+effects/extra_skillB/sb_baozha/sb_baozha_00007
+  rotate: false
+  xy: 623, 689
+  size: 77, 78
+  orig: 179, 179
+  offset: 51, 52
+  index: -1
+effects/extra_skillB/sb_baozha/sb_baozha_00009
+  rotate: false
+  xy: 895, 842
+  size: 84, 76
+  orig: 179, 179
+  offset: 52, 53
+  index: -1
+effects/extra_skillB/sb_baozha/sb_baozha_00011
+  rotate: false
+  xy: 631, 608
+  size: 72, 79
+  orig: 179, 179
+  offset: 54, 49
+  index: -1
+effects/extra_skillB/sb_baozha/sb_baozha_00014
+  rotate: false
+  xy: 464, 349
+  size: 73, 76
+  orig: 179, 179
+  offset: 55, 48
+  index: -1
+effects/extra_skillB/sb_baozha/sb_baozha_00016
+  rotate: false
+  xy: 234, 461
+  size: 71, 78
+  orig: 179, 179
+  offset: 58, 49
+  index: -1
+effects/extra_skillB/sb_baozha/sb_baozha_00020
+  rotate: true
+  xy: 222, 405
+  size: 54, 62
+  orig: 179, 179
+  offset: 76, 66
+  index: -1
+effects/extra_skillB/sb_zh_b/sb_zh_b_00009
+  rotate: true
+  xy: 294, 674
+  size: 45, 104
+  orig: 70, 175
+  offset: 13, 0
+  index: -1
+effects/extra_skillB/small boll/small boll_00002
+  rotate: false
+  xy: 307, 475
+  size: 100, 88
+  orig: 179, 179
+  offset: 40, 43
+  index: -1
+effects/extra_skillB/small boll/small boll_00003
+  rotate: false
+  xy: 520, 769
+  size: 99, 90
+  orig: 179, 179
+  offset: 43, 43
+  index: -1
+effects/extra_skillB/small boll/small boll_00004
+  rotate: true
+  xy: 253, 303
+  size: 100, 90
+  orig: 179, 179
+  offset: 40, 43
+  index: -1
+effects/extra_skillB/small boll/small boll_00005
+  rotate: false
+  xy: 129, 920
+  size: 142, 102
+  orig: 179, 179
+  offset: 21, 43
+  index: -1
+effects/extra_skillB/small boll/small boll_00006
+  rotate: false
+  xy: 861, 751
+  size: 89, 89
+  orig: 179, 179
+  offset: 45, 45
+  index: -1
+effects/extra_skillB/small boll/small boll_00008
+  rotate: true
+  xy: 2, 6
+  size: 113, 88
+  orig: 179, 179
+  offset: 36, 43
+  index: -1
+effects/extra_skillB/smoke_ef/smoke_ef_00006
+  rotate: true
+  xy: 129, 773
+  size: 145, 98
+  orig: 145, 102
+  offset: 0, 0
+  index: -1
+effects/extra_skillB/smoke_ef/smoke_ef_00008
+  rotate: true
+  xy: 2, 262
+  size: 141, 81
+  orig: 145, 102
+  offset: 4, 0
+  index: -1
+effects/extra_skillB/smoke_pp/smoke_pp_00000
+  rotate: false
+  xy: 123, 513
+  size: 109, 34
+  orig: 280, 140
+  offset: 89, 51
+  index: -1
+effects/extra_skillB/smoke_pp/smoke_pp_00001
+  rotate: false
+  xy: 397, 835
+  size: 121, 38
+  orig: 280, 140
+  offset: 80, 46
+  index: -1
+effects/extra_skillB/smoke_pp/smoke_pp_00002
+  rotate: true
+  xy: 981, 892
+  size: 130, 41
+  orig: 280, 140
+  offset: 76, 45
+  index: -1
+effects/extra_skillB/smoke_pp/smoke_pp_00003
+  rotate: true
+  xy: 229, 782
+  size: 136, 39
+  orig: 280, 140
+  offset: 72, 45
+  index: -1
+effects/extra_skillB/smoker05/smoker05_00001
+  rotate: true
+  xy: 345, 303
+  size: 100, 38
+  orig: 145, 66
+  offset: 5, 9
+  index: -1
+effects/extra_skillB/smoker05/smoker05_00003
+  rotate: true
+  xy: 981, 768
+  size: 122, 41
+  orig: 145, 66
+  offset: 4, 5
+  index: -1
+effects/extra_skillB/smoker05/smoker05_00005
+  rotate: true
+  xy: 85, 275
+  size: 128, 57
+  orig: 145, 66
+  offset: 14, 2
+  index: -1
+effects/extra_skillB/smoker05/smoker05_00007
+  rotate: false
+  xy: 526, 861
+  size: 116, 62
+  orig: 145, 66
+  offset: 26, 2
+  index: -1
+effects/extra_skillB/smoker05/smoker05_00009
+  rotate: true
+  xy: 705, 637
+  size: 63, 49
+  orig: 145, 66
+  offset: 78, 4
+  index: -1
+effects/extra_skillB/wargolem_cannon_impact_a_yellow_sheet/wargolem_cannon_impact_a_yellow_sheet_001
+  rotate: false
+  xy: 395, 739
+  size: 56, 93
+  orig: 63, 125
+  offset: 2, 1
+  index: -1
+effects/extra_skillB/wargolem_cannon_impact_a_yellow_sheet/wargolem_cannon_impact_a_yellow_sheet_002
+  rotate: false
+  xy: 92, 36
+  size: 61, 99
+  orig: 63, 125
+  offset: 1, 13
+  index: -1
+effects/extra_skillB/wargolem_cannon_impact_a_yellow_sheet/wargolem_cannon_impact_a_yellow_sheet_004
+  rotate: false
+  xy: 498, 591
+  size: 62, 83
+  orig: 63, 125
+  offset: 1, 42
+  index: -1
+effects/extra_skillB/wargolem_cannon_impact_a_yellow_sheet/wargolem_cannon_impact_a_yellow_sheet_005
+  rotate: true
+  xy: 400, 674
+  size: 63, 71
+  orig: 63, 125
+  offset: 0, 54
+  index: -1
+effects/extra_skillB/wargolem_cannon_impact_a_yellow_sheet/wargolem_cannon_impact_a_yellow_sheet_006
+  rotate: false
+  xy: 749, 705
+  size: 63, 56
+  orig: 63, 125
+  offset: 0, 69
+  index: -1
+effects/extra_skillB/wing_a/wing_a_00000
+  rotate: false
+  xy: 858, 659
+  size: 42, 40
+  orig: 147, 88
+  offset: 97, 28
+  index: -1
+effects/extra_skillB/wing_a/wing_a_00001
+  rotate: false
+  xy: 397, 875
+  size: 127, 59
+  orig: 147, 88
+  offset: 17, 21
+  index: -1
+effects/extra_skillB/wing_a/wing_a_00005
+  rotate: false
+  xy: 770, 858
+  size: 123, 60
+  orig: 147, 88
+  offset: 11, 17
+  index: -1
+effects/extra_skillB/wing_a/wing_a_00006
+  rotate: true
+  xy: 232, 664
+  size: 116, 60
+  orig: 147, 88
+  offset: 13, 17
+  index: -1
+effects/extra_skillB/wing_a/wing_a_00007
+  rotate: false
+  xy: 144, 236
+  size: 107, 58
+  orig: 147, 88
+  offset: 13, 17
+  index: -1
+effects/extra_skillB/wing_a/wing_a_00008
+  rotate: false
+  xy: 253, 244
+  size: 98, 57
+  orig: 147, 88
+  offset: 14, 18
+  index: -1
+effects/extra_skillB/wing_a/wing_a_00009
+  rotate: true
+  xy: 713, 774
+  size: 86, 51
+  orig: 147, 88
+  offset: 17, 20
+  index: -1
+effects/extra_skillB/z_boll/z_boll_00010
+  rotate: false
+  xy: 123, 549
+  size: 109, 109
+  orig: 179, 179
+  offset: 35, 35
+  index: -1
+effects/extra_skillB/z_boll/z_boll_00011
+  rotate: false
+  xy: 155, 34
+  size: 99, 100
+  orig: 179, 179
+  offset: 40, 40
+  index: -1
+effects/extra_skillB/z_boll/z_boll_00012
+  rotate: false
+  xy: 766, 763
+  size: 93, 93
+  orig: 179, 179
+  offset: 43, 43
+  index: -1
+effects/extra_skillB/z_boll/z_boll_00013
+  rotate: false
+  xy: 256, 43
+  size: 97, 97
+  orig: 179, 179
+  offset: 41, 41
+  index: -1
+effects/extra_skillB/z_boll/z_boll_00014
+  rotate: false
+  xy: 255, 142
+  size: 99, 100
+  orig: 179, 179
+  offset: 40, 40
+  index: -1
+effects/extra_skillB/z_boll/z_boll_00016
+  rotate: false
+  xy: 144, 296
+  size: 107, 107
+  orig: 179, 179
+  offset: 36, 36
+  index: -1
+effects/extra_skillB/z_boll/z_boll_00017
+  rotate: false
+  xy: 119, 660
+  size: 111, 111
+  orig: 179, 179
+  offset: 34, 34
+  index: -1
+effects/extra_skillB/z_boll/z_boll_00018
+  rotate: false
+  xy: 2, 405
+  size: 115, 115
+  orig: 179, 179
+  offset: 32, 32
+  index: -1
+effects/extra_skillB/z_boll/z_boll_00019
+  rotate: false
+  xy: 2, 522
+  size: 119, 119
+  orig: 179, 179
+  offset: 30, 30
+  index: -1
+effects/extra_skillB/z_boll/z_boll_00021
+  rotate: false
+  xy: 2, 896
+  size: 125, 126
+  orig: 179, 179
+  offset: 27, 27
+  index: -1
+effects/extra_skillB/zb_c/zb_c_00001
+  rotate: false
+  xy: 526, 925
+  size: 116, 97
+  orig: 343, 258
+  offset: 115, 96
+  index: -1
+effects/skillB/cleanse_flash_sheet/cleanse_flash_sheet_001
+  rotate: false
+  xy: 802, 660
+  size: 54, 42
+  orig: 90, 90
+  offset: 17, 24
+  index: -1
+effects/skillB/cleanse_flash_sheet/cleanse_flash_sheet_002
+  rotate: true
+  xy: 814, 704
+  size: 57, 45
+  orig: 90, 90
+  offset: 16, 23
+  index: -1
+effects/skillB/cleanse_flash_sheet/cleanse_flash_sheet_003
+  rotate: true
+  xy: 756, 645
+  size: 58, 44
+  orig: 90, 90
+  offset: 15, 23
+  index: -1
+effects/skillB/cleanse_flash_sheet/cleanse_flash_sheet_004
+  rotate: true
+  xy: 702, 702
+  size: 65, 45
+  orig: 90, 90
+  offset: 12, 23
+  index: -1
+effects/skillB/cleanse_flash_sheet/cleanse_flash_sheet_005
+  rotate: true
+  xy: 562, 598
+  size: 80, 67
+  orig: 90, 90
+  offset: 5, 11
+  index: -1

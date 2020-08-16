@@ -1,0 +1,83 @@
+
+chenghao_QW1.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+beiguang1
+  rotate: false
+  xy: 2, 166
+  size: 141, 31
+  orig: 141, 31
+  offset: 0, 0
+  index: -1
+beiguanggaoguang1
+  rotate: false
+  xy: 2, 71
+  size: 121, 31
+  orig: 121, 31
+  offset: 0, 0
+  index: -1
+jiao1
+  rotate: false
+  xy: 2, 199
+  size: 145, 29
+  orig: 145, 29
+  offset: 0, 0
+  index: -1
+jiaogaoguang1
+  rotate: false
+  xy: 2, 56
+  size: 131, 13
+  orig: 131, 13
+  offset: 0, 0
+  index: -1
+lizi1
+  rotate: false
+  xy: 149, 214
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+qingsezi1
+  rotate: false
+  xy: 2, 11
+  size: 111, 20
+  orig: 111, 20
+  offset: 0, 0
+  index: -1
+qingsezi1_2
+  rotate: false
+  xy: 2, 42
+  size: 126, 12
+  orig: 166, 38
+  offset: 20, 14
+  index: -1
+zigaoguang1
+  rotate: false
+  xy: 2, 2
+  size: 111, 7
+  orig: 111, 7
+  offset: 0, 0
+  index: -1
+zigaoguang1_2
+  rotate: false
+  xy: 2, 33
+  size: 126, 7
+  orig: 166, 38
+  offset: 20, 19
+  index: -1
+zisezi1
+  rotate: false
+  xy: 2, 104
+  size: 122, 31
+  orig: 122, 31
+  offset: 0, 0
+  index: -1
+zisezi1_2
+  rotate: false
+  xy: 2, 137
+  size: 129, 27
+  orig: 166, 38
+  offset: 17, 6
+  index: -1

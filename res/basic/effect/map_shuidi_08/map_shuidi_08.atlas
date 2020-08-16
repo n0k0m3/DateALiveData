@@ -1,0 +1,139 @@
+
+map_shuidi_08.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sucai/shuidi/shuidi_00001
+  rotate: false
+  xy: 64, 236
+  size: 60, 18
+  orig: 60, 18
+  offset: 0, 0
+  index: -1
+sucai/shuidi/shuidi_00003
+  rotate: false
+  xy: 2, 194
+  size: 60, 18
+  orig: 60, 18
+  offset: 0, 0
+  index: -1
+sucai/shuidi/shuidi_00005
+  rotate: false
+  xy: 64, 216
+  size: 60, 18
+  orig: 60, 18
+  offset: 0, 0
+  index: -1
+sucai/shuidi/shuidi_00007
+  rotate: false
+  xy: 126, 236
+  size: 60, 18
+  orig: 60, 18
+  offset: 0, 0
+  index: -1
+sucai/shuidi/shuidi_00009
+  rotate: false
+  xy: 2, 235
+  size: 60, 19
+  orig: 60, 19
+  offset: 0, 0
+  index: -1
+sucai/shuidi/shuidi_00011
+  rotate: false
+  xy: 2, 174
+  size: 60, 18
+  orig: 60, 18
+  offset: 0, 0
+  index: -1
+sucai/shuidi/shuidi_00013
+  rotate: false
+  xy: 64, 196
+  size: 60, 18
+  orig: 60, 18
+  offset: 0, 0
+  index: -1
+sucai/shuidi/shuidi_00015
+  rotate: false
+  xy: 126, 216
+  size: 60, 18
+  orig: 60, 18
+  offset: 0, 0
+  index: -1
+sucai/shuidi/shuidi_00017
+  rotate: false
+  xy: 188, 236
+  size: 60, 18
+  orig: 60, 18
+  offset: 0, 0
+  index: -1
+sucai/shuidi/shuidi_00019
+  rotate: false
+  xy: 2, 214
+  size: 60, 19
+  orig: 60, 19
+  offset: 0, 0
+  index: -1
+sucai/shuidi/shuidi_00021
+  rotate: false
+  xy: 2, 154
+  size: 60, 18
+  orig: 60, 18
+  offset: 0, 0
+  index: -1
+sucai/shuidi/shuidi_00023
+  rotate: false
+  xy: 64, 176
+  size: 60, 18
+  orig: 60, 18
+  offset: 0, 0
+  index: -1
+sucai/shuidi/shuidi_00025
+  rotate: false
+  xy: 126, 196
+  size: 60, 18
+  orig: 60, 18
+  offset: 0, 0
+  index: -1
+sucai/shuidi/shuidi_00027
+  rotate: false
+  xy: 188, 216
+  size: 60, 18
+  orig: 60, 18
+  offset: 0, 0
+  index: -1
+sucai/shuidi/shuidi_00029
+  rotate: false
+  xy: 2, 134
+  size: 60, 18
+  orig: 60, 18
+  offset: 0, 0
+  index: -1
+sucai/yudi/yudi_00002
+  rotate: false
+  xy: 126, 188
+  size: 5, 6
+  orig: 5, 6
+  offset: 0, 0
+  index: -1
+sucai/yudi/yudi_00003
+  rotate: false
+  xy: 250, 228
+  size: 4, 26
+  orig: 4, 26
+  offset: 0, 0
+  index: -1
+sucai/yudi/yudi_00004
+  rotate: false
+  xy: 64, 146
+  size: 3, 28
+  orig: 3, 28
+  offset: 0, 0
+  index: -1
+sucai/yudi/yudi_00005
+  rotate: false
+  xy: 250, 203
+  size: 4, 23
+  orig: 4, 23
+  offset: 0, 0
+  index: -1

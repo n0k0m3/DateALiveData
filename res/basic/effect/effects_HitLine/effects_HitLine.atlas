@@ -1,0 +1,34 @@
+
+effects_HitLine.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skilla_00000
+  rotate: false
+  xy: 2, 678
+  size: 596, 336
+  orig: 596, 336
+  offset: 0, 0
+  index: -1
+skilla_00019
+  rotate: false
+  xy: 2, 340
+  size: 596, 336
+  orig: 596, 336
+  offset: 0, 0
+  index: -1
+skilla_00031
+  rotate: true
+  xy: 600, 418
+  size: 596, 336
+  orig: 596, 336
+  offset: 0, 0
+  index: -1
+skilla_00042
+  rotate: false
+  xy: 2, 2
+  size: 596, 336
+  orig: 596, 336
+  offset: 0, 0
+  index: -1

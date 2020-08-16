@@ -1,0 +1,125 @@
+
+battle_stoic.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bao/bao_000
+  rotate: false
+  xy: 553, 791
+  size: 224, 224
+  orig: 240, 240
+  offset: 8, 8
+  index: -1
+bao/bao_001
+  rotate: false
+  xy: 231, 178
+  size: 192, 192
+  orig: 240, 240
+  offset: 24, 24
+  index: -1
+bao/bao_002
+  rotate: true
+  xy: 454, 596
+  size: 191, 188
+  orig: 240, 240
+  offset: 23, 26
+  index: -1
+bao/bao_003
+  rotate: false
+  xy: 234, 372
+  size: 202, 199
+  orig: 240, 240
+  offset: 13, 18
+  index: -1
+bao/bao_004
+  rotate: false
+  xy: 236, 573
+  size: 216, 214
+  orig: 240, 240
+  offset: 6, 10
+  index: -1
+bao/bao_005
+  rotate: false
+  xy: 2, 162
+  size: 227, 226
+  orig: 240, 240
+  offset: 0, 4
+  index: -1
+bao/bao_006
+  rotate: false
+  xy: 324, 789
+  size: 227, 226
+  orig: 240, 240
+  offset: 0, 3
+  index: -1
+bao/bao_007
+  rotate: false
+  xy: 2, 390
+  size: 230, 230
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+bao/bao_008
+  rotate: false
+  xy: 2, 622
+  size: 232, 231
+  orig: 240, 240
+  offset: 0, 1
+  index: -1
+bao/bao_009
+  rotate: false
+  xy: 779, 798
+  size: 224, 217
+  orig: 240, 240
+  offset: 0, 7
+  index: -1
+bao/bao_010
+  rotate: false
+  xy: 644, 604
+  size: 184, 185
+  orig: 240, 240
+  offset: 29, 27
+  index: -1
+bao/bao_011
+  rotate: false
+  xy: 830, 611
+  size: 185, 185
+  orig: 240, 240
+  offset: 28, 27
+  index: -1
+bao/bao_012
+  rotate: false
+  xy: 454, 410
+  size: 185, 184
+  orig: 240, 240
+  offset: 28, 28
+  index: -1
+bao/bao_013
+  rotate: false
+  xy: 2, 48
+  size: 107, 112
+  orig: 240, 240
+  offset: 63, 61
+  index: -1
+bao/bao_014
+  rotate: true
+  xy: 111, 69
+  size: 91, 115
+  orig: 240, 240
+  offset: 63, 59
+  index: -1
+glow_000
+  rotate: false
+  xy: 438, 332
+  size: 76, 76
+  orig: 80, 80
+  offset: 2, 2
+  index: -1
+guangxian_000
+  rotate: false
+  xy: 2, 855
+  size: 320, 160
+  orig: 320, 160
+  offset: 0, 0
+  index: -1

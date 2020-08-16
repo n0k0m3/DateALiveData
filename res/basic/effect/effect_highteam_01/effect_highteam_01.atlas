@@ -1,0 +1,41 @@
+
+effect_highteam_01.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/A_4_5
+  rotate: false
+  xy: 2, 49
+  size: 129, 180
+  orig: 129, 180
+  offset: 0, 0
+  index: -1
+images/dizuo
+  rotate: false
+  xy: 2, 369
+  size: 308, 116
+  orig: 308, 116
+  offset: 0, 0
+  index: -1
+images/glow12
+  rotate: true
+  xy: 133, 2
+  size: 227, 75
+  orig: 227, 75
+  offset: 0, 0
+  index: -1
+images/guang
+  rotate: false
+  xy: 2, 231
+  size: 207, 136
+  orig: 207, 136
+  offset: 0, 0
+  index: -1
+images/lizi
+  rotate: true
+  xy: 312, 458
+  size: 27, 146
+  orig: 27, 146
+  offset: 0, 0
+  index: -1

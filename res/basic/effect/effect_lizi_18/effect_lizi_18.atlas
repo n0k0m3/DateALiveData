@@ -1,0 +1,40 @@
+
+effect_lizi_18.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guang11
+  rotate: false
+  xy: 822, 826
+  size: 42, 46
+  orig: 42, 46
+  offset: 0, 0
+  index: -1
+guangxian
+  rotate: false
+  xy: 2, 2
+  size: 213, 228
+  orig: 230, 236
+  offset: 8, 4
+  index: -1
+shan
+  rotate: false
+  xy: 2, 232
+  size: 818, 640
+  orig: 818, 640
+  offset: 0, 0
+  index: -1
+
+effect_lizi_182.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dian
+  rotate: false
+  xy: 2, 2
+  size: 483, 483
+  orig: 484, 484
+  offset: 0, 0
+  index: -1

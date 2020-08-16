@@ -1,0 +1,76 @@
+
+effects_10309_quickmove.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/dodge/bian_00000
+  rotate: false
+  xy: 2, 2
+  size: 129, 123
+  orig: 162, 174
+  offset: 15, 22
+  index: -1
+images/effect/dodge/bian_01_00003
+  rotate: false
+  xy: 2, 127
+  size: 135, 130
+  orig: 149, 144
+  offset: 7, 3
+  index: -1
+images/effect/dodge/ren_00000
+  rotate: true
+  xy: 139, 143
+  size: 114, 108
+  orig: 162, 174
+  offset: 22, 29
+  index: -1
+images/effect/dodge/shan/shan_00003
+  rotate: false
+  xy: 2, 418
+  size: 230, 77
+  orig: 267, 92
+  offset: 22, 4
+  index: -1
+images/effect/dodge/shan/shan_00005
+  rotate: false
+  xy: 2, 259
+  size: 216, 80
+  orig: 267, 92
+  offset: 21, 3
+  index: -1
+images/effect/dodge/shan/shan_00007
+  rotate: false
+  xy: 2, 341
+  size: 227, 75
+  orig: 267, 92
+  offset: 7, 6
+  index: -1
+images/effect/dodge/shan/shan_00009
+  rotate: false
+  xy: 234, 429
+  size: 224, 66
+  orig: 267, 92
+  offset: 7, 8
+  index: -1
+images/effect/dodge/shan/shan_00011
+  rotate: false
+  xy: 234, 378
+  size: 161, 49
+  orig: 267, 92
+  offset: 55, 18
+  index: -1
+images/effect/dodge/shan/shan_00013
+  rotate: false
+  xy: 231, 339
+  size: 107, 37
+  orig: 267, 92
+  offset: 75, 24
+  index: -1
+images/effect/dodge/shan/shan_00015
+  rotate: false
+  xy: 220, 300
+  size: 104, 37
+  orig: 267, 92
+  offset: 74, 24
+  index: -1

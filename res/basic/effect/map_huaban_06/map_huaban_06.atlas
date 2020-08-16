@@ -1,0 +1,27 @@
+
+map_huaban_06.png
+size: 64,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sucai/huaban/huaban_00009
+  rotate: false
+  xy: 2, 28
+  size: 32, 34
+  orig: 150, 150
+  offset: 60, 61
+  index: -1
+sucai/huaban/huaban_00013
+  rotate: true
+  xy: 36, 30
+  size: 32, 26
+  orig: 150, 150
+  offset: 58, 60
+  index: -1
+sucai/huaban/huaban_00026
+  rotate: true
+  xy: 2, 2
+  size: 24, 26
+  orig: 150, 150
+  offset: 60, 57
+  index: -1

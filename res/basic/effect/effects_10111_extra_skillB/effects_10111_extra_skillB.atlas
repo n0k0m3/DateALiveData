@@ -1,0 +1,565 @@
+
+effects_10111_extra_skillB.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/sxeffect/exskillb/baolizi/baolizi_000
+  rotate: false
+  xy: 2, 2
+  size: 153, 144
+  orig: 153, 153
+  offset: 0, 1
+  index: -1
+images/sxeffect/exskillb/baolizi/baolizi_004
+  rotate: true
+  xy: 732, 2
+  size: 149, 132
+  orig: 153, 153
+  offset: 0, 3
+  index: -1
+images/sxeffect/exskillb/baolizi/baolizi_008
+  rotate: false
+  xy: 915, 361
+  size: 96, 86
+  orig: 153, 153
+  offset: 32, 27
+  index: -1
+images/sxeffect/exskillb/juqi/juqi_001
+  rotate: false
+  xy: 441, 500
+  size: 164, 167
+  orig: 204, 204
+  offset: 23, 17
+  index: -1
+images/sxeffect/exskillb/juqi/juqi_003
+  rotate: false
+  xy: 233, 840
+  size: 182, 182
+  orig: 204, 204
+  offset: 7, 3
+  index: -1
+images/sxeffect/exskillb/juqi/juqi_005
+  rotate: true
+  xy: 248, 659
+  size: 179, 178
+  orig: 204, 204
+  offset: 13, 7
+  index: -1
+images/sxeffect/exskillb/juqi/juqi_007
+  rotate: false
+  xy: 608, 851
+  size: 188, 171
+  orig: 204, 204
+  offset: 9, 7
+  index: -1
+images/sxeffect/exskillb/juqi/juqi_009
+  rotate: true
+  xy: 428, 669
+  size: 179, 172
+  orig: 204, 204
+  offset: 14, 13
+  index: -1
+images/sxeffect/exskillb/juqi/juqi_011
+  rotate: true
+  xy: 2, 148
+  size: 181, 170
+  orig: 204, 204
+  offset: 15, 19
+  index: -1
+images/sxeffect/exskillb/juqi/juqi_013
+  rotate: false
+  xy: 417, 850
+  size: 189, 172
+  orig: 204, 204
+  offset: 9, 8
+  index: -1
+images/sxeffect/exskillb/juqi/juqi_015
+  rotate: true
+  xy: 798, 846
+  size: 176, 184
+  orig: 204, 204
+  offset: 14, 4
+  index: -1
+images/sxeffect/exskillb/jutang/jutang_002
+  rotate: false
+  xy: 157, 2
+  size: 139, 144
+  orig: 153, 153
+  offset: 14, 4
+  index: -1
+images/sxeffect/exskillb/jutang/jutang_010
+  rotate: true
+  xy: 298, 2
+  size: 144, 125
+  orig: 153, 153
+  offset: 3, 17
+  index: -1
+images/sxeffect/exskillb/juxian/juxian_000
+  rotate: true
+  xy: 428, 153
+  size: 156, 168
+  orig: 179, 179
+  offset: 14, 6
+  index: -1
+images/sxeffect/exskillb/juxian/juxian_002
+  rotate: false
+  xy: 256, 148
+  size: 170, 161
+  orig: 179, 179
+  offset: 5, 4
+  index: -1
+images/sxeffect/exskillb/juxian/juxian_004
+  rotate: false
+  xy: 760, 520
+  size: 152, 161
+  orig: 179, 179
+  offset: 14, 1
+  index: -1
+images/sxeffect/exskillb/juxian/juxian_006
+  rotate: false
+  xy: 607, 513
+  size: 151, 165
+  orig: 179, 179
+  offset: 17, 0
+  index: -1
+images/sxeffect/exskillb/juxian/juxian_008
+  rotate: false
+  xy: 866, 19
+  size: 146, 164
+  orig: 179, 179
+  offset: 21, 3
+  index: -1
+images/sxeffect/exskillb/juxian/juxian_010
+  rotate: false
+  xy: 602, 680
+  size: 155, 168
+  orig: 179, 179
+  offset: 18, 0
+  index: -1
+images/sxeffect/exskillb/juxian/juxian_012
+  rotate: false
+  xy: 205, 388
+  size: 157, 177
+  orig: 179, 179
+  offset: 12, 1
+  index: -1
+images/sxeffect/exskillb/juxian/juxian_014
+  rotate: false
+  xy: 759, 683
+  size: 162, 161
+  orig: 179, 179
+  offset: 11, 10
+  index: -1
+images/sxeffect/exskillb/kuohuan/kuohuan_004
+  rotate: true
+  xy: 428, 2
+  size: 149, 152
+  orig: 153, 153
+  offset: 4, 1
+  index: -1
+images/sxeffect/exskillb/kuohuan/kuohuan_005
+  rotate: false
+  xy: 582, 2
+  size: 148, 149
+  orig: 153, 153
+  offset: 5, 3
+  index: -1
+images/sxeffect/exskillb/kuoqi/kuoqi_000
+  rotate: true
+  xy: 923, 683
+  size: 161, 56
+  orig: 168, 56
+  offset: 4, 0
+  index: -1
+images/sxeffect/exskillb/kuoqi/kuoqi_002
+  rotate: true
+  xy: 720, 153
+  size: 161, 56
+  orig: 168, 56
+  offset: 2, 0
+  index: -1
+images/sxeffect/exskillb/kuoqi/kuoqi_004
+  rotate: true
+  xy: 778, 153
+  size: 161, 56
+  orig: 168, 56
+  offset: 4, 0
+  index: -1
+images/sxeffect/exskillb/kuoqi/kuoqi_006
+  rotate: true
+  xy: 963, 197
+  size: 162, 56
+  orig: 168, 56
+  offset: 3, 0
+  index: -1
+images/sxeffect/exskillb/kuoqi/kuoqi_008
+  rotate: true
+  xy: 364, 401
+  size: 164, 56
+  orig: 168, 56
+  offset: 2, 0
+  index: -1
+images/sxeffect/guangxian_000
+  rotate: false
+  xy: 263, 335
+  size: 128, 51
+  orig: 128, 51
+  offset: 0, 0
+  index: -1
+images/sxeffect/skillb/daofei/d2_000
+  rotate: true
+  xy: 174, 150
+  size: 179, 80
+  orig: 184, 102
+  offset: 3, 11
+  index: -1
+images/sxeffect/skillb/daofei/d3_005
+  rotate: false
+  xy: 2, 819
+  size: 229, 203
+  orig: 255, 204
+  offset: 24, 1
+  index: -1
+images/sxeffect/skillb/tuowei_000
+  rotate: true
+  xy: 2, 531
+  size: 286, 100
+  orig: 306, 102
+  offset: 11, 1
+  index: -1
+images/sxeffect/skilld/dilie_000
+  rotate: true
+  xy: 213, 570
+  size: 247, 33
+  orig: 255, 39
+  offset: 4, 0
+  index: -1
+images/sxeffect/skilld/tanglizi/tanglizi_000
+  rotate: false
+  xy: 614, 411
+  size: 139, 100
+  orig: 306, 128
+  offset: 12, 12
+  index: -1
+images/sxeffect/skilld/tanglizi/tanglizi_002
+  rotate: true
+  xy: 2, 331
+  size: 198, 111
+  orig: 306, 128
+  offset: 17, 4
+  index: -1
+images/sxeffect/skilld/tanglizi/tanglizi_004
+  rotate: true
+  xy: 104, 588
+  size: 229, 107
+  orig: 306, 128
+  offset: 44, 12
+  index: -1
+images/sxeffect/skilld/tanglizi/tanglizi_006
+  rotate: false
+  xy: 248, 567
+  size: 191, 90
+  orig: 306, 128
+  offset: 101, 27
+  index: -1
+images/sxeffect/skilld/tanglizi2/tanglizi2_003
+  rotate: false
+  xy: 914, 570
+  size: 108, 111
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+images/sxeffect/skilld/tanglizi2/tanglizi2_007
+  rotate: false
+  xy: 915, 449
+  size: 106, 119
+  orig: 128, 128
+  offset: 7, 0
+  index: -1
+images/sxeffect/skilld/yan1/yan1_002
+  rotate: true
+  xy: 784, 352
+  size: 166, 129
+  orig: 204, 153
+  offset: 22, 6
+  index: -1
+images/sxeffect/skilld/yan1/yan1_004
+  rotate: true
+  xy: 836, 185
+  size: 165, 125
+  orig: 204, 153
+  offset: 27, 9
+  index: -1
+images/sxeffect/skilld/yan1/yan1_006
+  rotate: true
+  xy: 598, 153
+  size: 156, 120
+  orig: 204, 153
+  offset: 40, 14
+  index: -1
+images/sxeffect/skilld/yan2/yan2_000
+  rotate: false
+  xy: 115, 331
+  size: 146, 49
+  orig: 204, 102
+  offset: 15, 12
+  index: -1
+images/sxeffect/skilld/yan2/yan2_002
+  rotate: true
+  xy: 115, 382
+  size: 204, 88
+  orig: 204, 102
+  offset: 0, 5
+  index: -1
+images/sxeffect/skilld/yan2/yan2_004
+  rotate: false
+  xy: 422, 311
+  size: 196, 92
+  orig: 204, 102
+  offset: 8, 4
+  index: -1
+images/sxeffect/skilld/yan2/yan2_006
+  rotate: false
+  xy: 422, 405
+  size: 190, 93
+  orig: 204, 102
+  offset: 4, 4
+  index: -1
+images/sxeffect/skilld/yan2/yan2_008
+  rotate: false
+  xy: 620, 316
+  size: 162, 93
+  orig: 204, 102
+  offset: 24, 4
+  index: -1
+
+effects_10111_extra_skillB2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/sxeffect/exskillb/baolizi/baolizi_002
+  rotate: false
+  xy: 2, 866
+  size: 153, 151
+  orig: 153, 153
+  offset: 0, 0
+  index: -1
+images/sxeffect/exskillb/baolizi/baolizi_006
+  rotate: false
+  xy: 2, 2
+  size: 133, 126
+  orig: 153, 153
+  offset: 6, 4
+  index: -1
+images/sxeffect/exskillb/juhuan/juhuan_000
+  rotate: false
+  xy: 598, 878
+  size: 139, 139
+  orig: 153, 153
+  offset: 3, 7
+  index: -1
+images/sxeffect/exskillb/juhuan/juhuan_002
+  rotate: false
+  xy: 157, 869
+  size: 153, 148
+  orig: 153, 153
+  offset: 0, 5
+  index: -1
+images/sxeffect/exskillb/juhuan/juhuan_004
+  rotate: false
+  xy: 2, 713
+  size: 153, 151
+  orig: 153, 153
+  offset: 0, 2
+  index: -1
+images/sxeffect/exskillb/juhuan/juhuan_006
+  rotate: false
+  xy: 2, 561
+  size: 150, 150
+  orig: 153, 153
+  offset: 1, 2
+  index: -1
+images/sxeffect/exskillb/juhuan/juhuan_008
+  rotate: false
+  xy: 2, 274
+  size: 138, 141
+  orig: 153, 153
+  offset: 7, 8
+  index: -1
+images/sxeffect/exskillb/juhuan/juhuan_010
+  rotate: false
+  xy: 268, 282
+  size: 123, 123
+  orig: 153, 153
+  offset: 14, 14
+  index: -1
+images/sxeffect/exskillb/juhuan/juhuan_012
+  rotate: false
+  xy: 260, 190
+  size: 89, 90
+  orig: 153, 153
+  offset: 32, 32
+  index: -1
+images/sxeffect/exskillb/jutang/jutang_000
+  rotate: false
+  xy: 312, 869
+  size: 141, 148
+  orig: 153, 153
+  offset: 9, 3
+  index: -1
+images/sxeffect/exskillb/jutang/jutang_004
+  rotate: false
+  xy: 739, 881
+  size: 135, 136
+  orig: 153, 153
+  offset: 18, 7
+  index: -1
+images/sxeffect/exskillb/jutang/jutang_006
+  rotate: true
+  xy: 333, 582
+  size: 138, 122
+  orig: 153, 153
+  offset: 15, 10
+  index: -1
+images/sxeffect/exskillb/jutang/jutang_008
+  rotate: true
+  xy: 147, 411
+  size: 138, 122
+  orig: 153, 153
+  offset: 12, 13
+  index: -1
+images/sxeffect/exskillb/jutang/jutang_012
+  rotate: true
+  xy: 2, 130
+  size: 142, 131
+  orig: 153, 153
+  offset: 2, 21
+  index: -1
+images/sxeffect/exskillb/jutang/jutang_014
+  rotate: false
+  xy: 306, 722
+  size: 139, 145
+  orig: 153, 153
+  offset: 5, 8
+  index: -1
+images/sxeffect/exskillb/kuohuan/kuohuan_000
+  rotate: false
+  xy: 393, 191
+  size: 115, 116
+  orig: 153, 153
+  offset: 22, 22
+  index: -1
+images/sxeffect/exskillb/kuohuan/kuohuan_001
+  rotate: false
+  xy: 142, 286
+  size: 124, 123
+  orig: 153, 153
+  offset: 18, 16
+  index: -1
+images/sxeffect/exskillb/kuohuan/kuohuan_002
+  rotate: false
+  xy: 455, 877
+  size: 141, 140
+  orig: 153, 153
+  offset: 10, 7
+  index: -1
+images/sxeffect/exskillb/kuohuan/kuohuan_003
+  rotate: false
+  xy: 157, 719
+  size: 147, 148
+  orig: 153, 153
+  offset: 6, 3
+  index: -1
+images/sxeffect/exskillb/kuohuan/kuohuan_006
+  rotate: false
+  xy: 2, 417
+  size: 143, 142
+  orig: 153, 153
+  offset: 9, 6
+  index: -1
+images/sxeffect/exskillb/kuohuan/kuohuan_007
+  rotate: false
+  xy: 142, 168
+  size: 116, 116
+  orig: 153, 153
+  offset: 22, 19
+  index: -1
+images/sxeffect/exskillb/kuoqi/kuoqi_010
+  rotate: true
+  xy: 154, 551
+  size: 160, 56
+  orig: 168, 56
+  offset: 4, 0
+  index: -1
+images/sxeffect/exskillb/kuoqi/kuoqi_012
+  rotate: true
+  xy: 271, 407
+  size: 159, 56
+  orig: 168, 56
+  offset: 6, 0
+  index: -1
+images/sxeffect/exskillb/kuoqi/kuoqi_014
+  rotate: true
+  xy: 329, 407
+  size: 159, 56
+  orig: 168, 56
+  offset: 6, 0
+  index: -1
+images/sxeffect/glow
+  rotate: false
+  xy: 262, 137
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+images/sxeffect/skilld/tanglizi/tanglizi_008
+  rotate: false
+  xy: 137, 10
+  size: 87, 68
+  orig: 306, 128
+  offset: 201, 40
+  index: -1
+images/sxeffect/skilld/tanglizi2/tanglizi2_001
+  rotate: true
+  xy: 213, 112
+  size: 54, 47
+  orig: 128, 128
+  offset: 9, 16
+  index: -1
+images/sxeffect/skilld/tanglizi2/tanglizi2_005
+  rotate: false
+  xy: 393, 309
+  size: 115, 126
+  orig: 128, 128
+  offset: 1, 0
+  index: -1
+images/sxeffect/skilld/tanglizi2/tanglizi2_009
+  rotate: false
+  xy: 137, 80
+  size: 74, 86
+  orig: 128, 128
+  offset: 25, 15
+  index: -1
+images/sxeffect/skilld/yan1/yan1_000
+  rotate: false
+  xy: 876, 892
+  size: 136, 125
+  orig: 204, 153
+  offset: 2, 5
+  index: -1
+images/sxeffect/skilld/yan1/yan1_008
+  rotate: true
+  xy: 212, 568
+  size: 149, 119
+  orig: 204, 153
+  offset: 47, 14
+  index: -1
+images/sxeffect/skilld/yan2/yan2_010
+  rotate: true
+  xy: 387, 437
+  size: 143, 77
+  orig: 204, 102
+  offset: 44, 3
+  index: -1

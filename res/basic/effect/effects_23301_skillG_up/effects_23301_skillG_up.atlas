@@ -1,0 +1,20 @@
+
+effects_23301_skillG_up.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skillG_effect/Cloud
+  rotate: false
+  xy: 2, 482
+  size: 584, 104
+  orig: 596, 107
+  offset: 8, 0
+  index: -1
+skillG_effect/bai
+  rotate: false
+  xy: 2, 389
+  size: 196, 91
+  orig: 196, 91
+  offset: 0, 0
+  index: -1

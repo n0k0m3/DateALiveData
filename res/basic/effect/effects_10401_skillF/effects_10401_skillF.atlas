@@ -1,0 +1,314 @@
+
+effects_10401_skillF.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillb/canying/canying_00000
+  rotate: false
+  xy: 743, 490
+  size: 134, 120
+  orig: 136, 122
+  offset: 1, 1
+  index: -1
+images/effects/skillb/canying/canying_00008
+  rotate: true
+  xy: 2, 4
+  size: 77, 108
+  orig: 77, 108
+  offset: 0, 0
+  index: -1
+images/effects/skillb/canying/canying_00016
+  rotate: false
+  xy: 879, 421
+  size: 117, 106
+  orig: 118, 106
+  offset: 0, 0
+  index: -1
+images/effects/skillb/canying/canying_00024
+  rotate: false
+  xy: 658, 87
+  size: 104, 127
+  orig: 104, 128
+  offset: 0, 0
+  index: -1
+images/effects/skillb/canying/canying_00032
+  rotate: true
+  xy: 138, 2
+  size: 83, 119
+  orig: 83, 119
+  offset: 0, 0
+  index: -1
+images/effects/skillb/canying/canying_00040
+  rotate: true
+  xy: 879, 529
+  size: 123, 110
+  orig: 124, 110
+  offset: 0, 0
+  index: -1
+images/effects/skillb/canying/canying_00048
+  rotate: false
+  xy: 764, 120
+  size: 89, 137
+  orig: 89, 138
+  offset: 0, 0
+  index: -1
+images/effects/skillb/canying/canying_00056
+  rotate: false
+  xy: 830, 654
+  size: 122, 113
+  orig: 122, 114
+  offset: 0, 1
+  index: -1
+images/effects/skillb/canying/canying_00064
+  rotate: false
+  xy: 879, 769
+  size: 143, 114
+  orig: 143, 116
+  offset: 0, 1
+  index: -1
+images/effects/skillb/daoguang/daoguang_00048
+  rotate: true
+  xy: 877, 334
+  size: 85, 110
+  orig: 110, 145
+  offset: 19, 32
+  index: -1
+images/effects/skillb/daoguang/daoguang_00049
+  rotate: true
+  xy: 857, 262
+  size: 70, 97
+  orig: 110, 145
+  offset: 20, 36
+  index: -1
+images/effects/skillb/daoguang/daoguang_00050
+  rotate: true
+  xy: 259, 2
+  size: 52, 50
+  orig: 110, 145
+  offset: 30, 68
+  index: -1
+images/effects/skillb/daoguang/daoguang_00057
+  rotate: true
+  xy: 344, 15
+  size: 73, 82
+  orig: 110, 145
+  offset: 6, 26
+  index: -1
+images/effects/skillb/daoguang/daoguang_00058
+  rotate: false
+  xy: 954, 689
+  size: 57, 78
+  orig: 110, 145
+  offset: 5, 15
+  index: -1
+images/effects/skillb/daoguang/daoguang_00059
+  rotate: true
+  xy: 221, 87
+  size: 44, 60
+  orig: 110, 145
+  offset: 5, 7
+  index: -1
+images/effects/skillb/huoyan/huoyan_00014
+  rotate: true
+  xy: 283, 56
+  size: 75, 59
+  orig: 142, 203
+  offset: 53, 55
+  index: -1
+images/effects/skillb/huoyan/huoyan_00015
+  rotate: false
+  xy: 532, 96
+  size: 124, 118
+  orig: 142, 203
+  offset: 13, 17
+  index: -1
+images/effects/skillb/huoyan/huoyan_00016
+  rotate: false
+  xy: 278, 508
+  size: 137, 167
+  orig: 142, 203
+  offset: 4, 4
+  index: -1
+images/effects/skillb/huoyan/huoyan_00017
+  rotate: false
+  xy: 417, 506
+  size: 136, 187
+  orig: 142, 203
+  offset: 4, 2
+  index: -1
+images/effects/skillb/huoyan/huoyan_00018
+  rotate: true
+  xy: 353, 229
+  size: 138, 186
+  orig: 142, 203
+  offset: 4, 2
+  index: -1
+images/effects/skillb/huoyan/huoyan_00019
+  rotate: true
+  xy: 344, 90
+  size: 137, 186
+  orig: 142, 203
+  offset: 5, 2
+  index: -1
+images/effects/skillb/huoyan/huoyan_00020
+  rotate: false
+  xy: 555, 612
+  size: 136, 184
+  orig: 142, 203
+  offset: 6, 5
+  index: -1
+images/effects/skillb/huoyan/huoyan_00021
+  rotate: false
+  xy: 693, 612
+  size: 135, 184
+  orig: 142, 203
+  offset: 5, 5
+  index: -1
+images/effects/skillb/huoyan/huoyan_00022
+  rotate: false
+  xy: 217, 335
+  size: 134, 171
+  orig: 142, 203
+  offset: 5, 19
+  index: -1
+images/effects/skillb/huoyan/huoyan_00023
+  rotate: true
+  xy: 545, 369
+  size: 119, 170
+  orig: 142, 203
+  offset: 9, 21
+  index: -1
+images/effects/skillb/qiangji/qiangji_00016
+  rotate: false
+  xy: 720, 259
+  size: 135, 119
+  orig: 318, 173
+  offset: 181, 31
+  index: -1
+images/effects/skillb/qiangji/qiangji_00017
+  rotate: true
+  xy: 221, 133
+  size: 200, 121
+  orig: 318, 173
+  offset: 82, 27
+  index: -1
+images/effects/skillb/qiangji/qiangji_00018
+  rotate: true
+  xy: 2, 83
+  size: 248, 134
+  orig: 318, 173
+  offset: 46, 20
+  index: -1
+images/effects/skillb/qiangji/qiangji_00019
+  rotate: false
+  xy: 562, 871
+  size: 259, 151
+  orig: 318, 173
+  offset: 46, 10
+  index: -1
+images/effects/skillb/qiangji/qiangji_00020
+  rotate: false
+  xy: 283, 857
+  size: 277, 165
+  orig: 318, 173
+  offset: 25, 3
+  index: -1
+images/effects/skillb/qiangji/qiangji_00021
+  rotate: false
+  xy: 2, 508
+  size: 274, 167
+  orig: 318, 173
+  offset: 25, 2
+  index: -1
+images/effects/skillb/qiangji/qiangji_00022
+  rotate: false
+  xy: 2, 851
+  size: 279, 171
+  orig: 318, 173
+  offset: 11, 0
+  index: -1
+images/effects/skillb/qiangji/qiangji_00023
+  rotate: false
+  xy: 2, 677
+  size: 277, 172
+  orig: 318, 173
+  offset: 11, 0
+  index: -1
+images/effects/skillb/qiangji/qiangji_00024
+  rotate: false
+  xy: 2, 333
+  size: 213, 173
+  orig: 318, 173
+  offset: 66, 0
+  index: -1
+images/effects/skillb/qiangji/qiangji_00025
+  rotate: false
+  xy: 823, 885
+  size: 195, 137
+  orig: 318, 173
+  offset: 62, 13
+  index: -1
+images/effects/skillb/qiangji/qiangji_00026
+  rotate: false
+  xy: 353, 369
+  size: 190, 135
+  orig: 318, 173
+  offset: 60, 12
+  index: -1
+images/effects/skillb/qiangji/qiangji_00027
+  rotate: false
+  xy: 555, 490
+  size: 186, 120
+  orig: 318, 173
+  offset: 64, 21
+  index: -1
+images/effects/skillb/qiangji/qiangji_00028
+  rotate: false
+  xy: 541, 255
+  size: 177, 112
+  orig: 318, 173
+  offset: 74, 29
+  index: -1
+images/effects/skillb/qiangji/qiangji_00029
+  rotate: false
+  xy: 717, 380
+  size: 158, 108
+  orig: 318, 173
+  offset: 92, 34
+  index: -1
+images/effects/skillb/yanwu/yanwu_00015
+  rotate: false
+  xy: 281, 695
+  size: 238, 77
+  orig: 256, 91
+  offset: 11, 3
+  index: -1
+images/effects/skillb/yanwu/yanwu_00017
+  rotate: true
+  xy: 138, 87
+  size: 244, 81
+  orig: 256, 91
+  offset: 5, 0
+  index: -1
+images/effects/skillb/yanwu/yanwu_00019
+  rotate: false
+  xy: 283, 774
+  size: 244, 81
+  orig: 256, 91
+  offset: 5, 0
+  index: -1
+images/effects/skillb/yanwu/yanwu_00021
+  rotate: false
+  xy: 562, 798
+  size: 246, 71
+  orig: 256, 91
+  offset: 4, 11
+  index: -1
+images/effects/skillb/yanwu/yanwu_00023
+  rotate: false
+  xy: 541, 216
+  size: 180, 37
+  orig: 256, 91
+  offset: 26, 43
+  index: -1

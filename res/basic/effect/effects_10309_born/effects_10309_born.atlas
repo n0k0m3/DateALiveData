@@ -1,0 +1,279 @@
+
+effects_10309_born.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/born/bian/bian_00007
+  rotate: false
+  xy: 217, 229
+  size: 75, 118
+  orig: 194, 139
+  offset: 22, 14
+  index: -1
+images/effect/born/bian/bian_00009
+  rotate: false
+  xy: 347, 676
+  size: 78, 120
+  orig: 194, 139
+  offset: 25, 13
+  index: -1
+images/effect/born/bian/bian_00011
+  rotate: false
+  xy: 427, 677
+  size: 79, 119
+  orig: 194, 139
+  offset: 31, 13
+  index: -1
+images/effect/born/bian/bian_00013
+  rotate: false
+  xy: 508, 677
+  size: 78, 118
+  orig: 194, 139
+  offset: 39, 13
+  index: -1
+images/effect/born/bian/bian_00015
+  rotate: true
+  xy: 2, 2
+  size: 77, 118
+  orig: 194, 139
+  offset: 48, 12
+  index: -1
+images/effect/born/bian/bian_00017
+  rotate: false
+  xy: 217, 110
+  size: 78, 117
+  orig: 194, 139
+  offset: 54, 13
+  index: -1
+images/effect/born/bian/bian_00019
+  rotate: true
+  xy: 591, 746
+  size: 78, 117
+  orig: 194, 139
+  offset: 61, 13
+  index: -1
+images/effect/born/bian/bian_00021
+  rotate: false
+  xy: 942, 804
+  size: 80, 119
+  orig: 194, 139
+  offset: 65, 12
+  index: -1
+images/effect/born/bian/bian_00023
+  rotate: true
+  xy: 591, 826
+  size: 83, 119
+  orig: 194, 139
+  offset: 69, 13
+  index: -1
+images/effect/born/bian/bian_00025
+  rotate: false
+  xy: 346, 798
+  size: 86, 120
+  orig: 194, 139
+  offset: 72, 13
+  index: -1
+images/effect/born/bian/bian_00027
+  rotate: false
+  xy: 434, 798
+  size: 85, 120
+  orig: 194, 139
+  offset: 77, 13
+  index: -1
+images/effect/born/bian/bian_00029
+  rotate: true
+  xy: 125, 2
+  size: 82, 119
+  orig: 194, 139
+  offset: 85, 13
+  index: -1
+images/effect/born/lizi/lizi_00008
+  rotate: false
+  xy: 347, 618
+  size: 62, 56
+  orig: 167, 110
+  offset: 36, 32
+  index: -1
+images/effect/born/lizi/lizi_00012
+  rotate: false
+  xy: 938, 734
+  size: 71, 68
+  orig: 167, 110
+  offset: 25, 29
+  index: -1
+images/effect/born/lizi/lizi_00016
+  rotate: true
+  xy: 246, 10
+  size: 98, 63
+  orig: 167, 110
+  offset: 15, 32
+  index: -1
+images/effect/born/lizi/lizi_00020
+  rotate: true
+  xy: 311, 41
+  size: 110, 69
+  orig: 167, 110
+  offset: 11, 28
+  index: -1
+images/effect/born/lizi/lizi_00024
+  rotate: true
+  xy: 521, 797
+  size: 121, 68
+  orig: 167, 110
+  offset: 14, 24
+  index: -1
+images/effect/born/lizi/lizi_00028
+  rotate: false
+  xy: 588, 678
+  size: 114, 66
+  orig: 167, 110
+  offset: 28, 24
+  index: -1
+images/effect/born/lizi/lizi_00032
+  rotate: true
+  xy: 281, 778
+  size: 133, 63
+  orig: 167, 110
+  offset: 23, 27
+  index: -1
+images/effect/born/lizi/lizi_00036
+  rotate: true
+  xy: 281, 649
+  size: 127, 64
+  orig: 167, 110
+  offset: 22, 28
+  index: -1
+images/effect/born/lizi/lizi_00040
+  rotate: true
+  xy: 281, 521
+  size: 126, 63
+  orig: 167, 110
+  offset: 16, 24
+  index: -1
+images/effect/born/lizi/lizi_00044
+  rotate: false
+  xy: 704, 683
+  size: 116, 61
+  orig: 167, 110
+  offset: 17, 22
+  index: -1
+images/effect/born/shui/shui_00025
+  rotate: false
+  xy: 817, 925
+  size: 155, 97
+  orig: 280, 140
+  offset: 56, 0
+  index: -1
+images/effect/born/shui/shui_00027
+  rotate: false
+  xy: 2, 349
+  size: 264, 140
+  orig: 280, 140
+  offset: 3, 0
+  index: -1
+images/effect/born/shui/shui_00029
+  rotate: false
+  xy: 2, 771
+  size: 277, 140
+  orig: 280, 140
+  offset: 3, 0
+  index: -1
+images/effect/born/shui/shui_00031
+  rotate: false
+  xy: 2, 629
+  size: 277, 140
+  orig: 280, 140
+  offset: 3, 0
+  index: -1
+images/effect/born/shui/shui_00033
+  rotate: false
+  xy: 2, 491
+  size: 277, 136
+  orig: 280, 140
+  offset: 3, 0
+  index: -1
+images/effect/born/shui/shui_00035
+  rotate: true
+  xy: 2, 81
+  size: 266, 121
+  orig: 280, 140
+  offset: 3, 0
+  index: -1
+images/effect/born/shui/shui_00039
+  rotate: false
+  xy: 333, 920
+  size: 258, 102
+  orig: 280, 140
+  offset: 5, 2
+  index: -1
+images/effect/born/shui/shui_00043
+  rotate: true
+  xy: 125, 86
+  size: 261, 90
+  orig: 280, 140
+  offset: 3, 9
+  index: -1
+images/effect/born/xian/xian_00027
+  rotate: false
+  xy: 593, 911
+  size: 222, 111
+  orig: 253, 156
+  offset: 0, 23
+  index: -1
+images/effect/born/xuying/xuying_00002
+  rotate: true
+  xy: 827, 751
+  size: 81, 109
+  orig: 194, 139
+  offset: 2, 17
+  index: -1
+images/effect/born/xuying/xuying_00006
+  rotate: true
+  xy: 710, 746
+  size: 78, 112
+  orig: 194, 139
+  offset: 14, 16
+  index: -1
+images/effect/born/xuying/xuying_00010
+  rotate: true
+  xy: 712, 826
+  size: 83, 113
+  orig: 194, 139
+  offset: 20, 17
+  index: -1
+images/effect/born/xuying/xuying_00014
+  rotate: false
+  xy: 268, 378
+  size: 84, 111
+  orig: 194, 139
+  offset: 32, 17
+  index: -1
+images/effect/born/xuying/xuying_00018
+  rotate: false
+  xy: 297, 153
+  size: 82, 110
+  orig: 194, 139
+  offset: 49, 16
+  index: -1
+images/effect/born/xuying/xuying_00022
+  rotate: false
+  xy: 294, 265
+  size: 84, 111
+  orig: 194, 139
+  offset: 60, 16
+  index: -1
+images/effect/born/xuying/xuying_00026
+  rotate: true
+  xy: 827, 834
+  size: 89, 113
+  orig: 194, 139
+  offset: 68, 16
+  index: -1
+images/effect/dimian_00000
+  rotate: false
+  xy: 2, 913
+  size: 329, 109
+  orig: 350, 140
+  offset: 12, 7
+  index: -1

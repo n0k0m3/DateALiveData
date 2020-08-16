@@ -1,0 +1,82 @@
+
+effects_11212_extra_skillB_CB.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects_L/skillA/glow_000
+  rotate: false
+  xy: 938, 614
+  size: 84, 84
+  orig: 114, 116
+  offset: 15, 16
+  index: -1
+effects_L/skillC/fazhen_095
+  rotate: false
+  xy: 668, 700
+  size: 324, 322
+  orig: 339, 331
+  offset: 6, 6
+  index: -1
+tianshi1
+  rotate: false
+  xy: 668, 551
+  size: 268, 147
+  orig: 270, 149
+  offset: 1, 1
+  index: -1
+tianshi2
+  rotate: false
+  xy: 2, 68
+  size: 249, 236
+  orig: 249, 236
+  offset: 0, 0
+  index: -1
+tianshi2_1
+  rotate: false
+  xy: 668, 491
+  size: 105, 58
+  orig: 105, 58
+  offset: 0, 0
+  index: -1
+tianshi2_2
+  rotate: false
+  xy: 938, 570
+  size: 83, 42
+  orig: 83, 42
+  offset: 0, 0
+  index: -1
+tianshi2_3
+  rotate: false
+  xy: 253, 230
+  size: 106, 74
+  orig: 106, 74
+  offset: 0, 0
+  index: -1
+tianshi3
+  rotate: true
+  xy: 2, 28
+  size: 38, 222
+  orig: 40, 224
+  offset: 1, 1
+  index: -1
+tianshi6
+  rotate: false
+  xy: 2, 306
+  size: 664, 716
+  orig: 666, 718
+  offset: 1, 1
+  index: -1
+
+effects_11212_extra_skillB_CB2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tianshi7
+  rotate: false
+  xy: 2, 2
+  size: 664, 716
+  orig: 666, 718
+  offset: 1, 1
+  index: -1

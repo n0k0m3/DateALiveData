@@ -1,0 +1,202 @@
+
+effects_10601_skillE.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/xinzeng/dianbao/add/dianbao1_000
+  rotate: false
+  xy: 239, 572
+  size: 64, 64
+  orig: 200, 150
+  offset: 70, 51
+  index: -1
+images/effects/xinzeng/dianbao/add/dianbao1_001
+  rotate: false
+  xy: 160, 9
+  size: 141, 116
+  orig: 200, 150
+  offset: 28, 13
+  index: -1
+images/effects/xinzeng/dianbao/add/dianbao1_002
+  rotate: false
+  xy: 124, 127
+  size: 141, 121
+  orig: 200, 150
+  offset: 31, 10
+  index: -1
+images/effects/xinzeng/dianbao/add/dianbao1_003
+  rotate: false
+  xy: 870, 896
+  size: 146, 120
+  orig: 200, 150
+  offset: 28, 13
+  index: -1
+images/effects/xinzeng/dianbao/add/dianbao1_004
+  rotate: true
+  xy: 2, 113
+  size: 153, 120
+  orig: 200, 150
+  offset: 24, 15
+  index: -1
+images/effects/xinzeng/dianbao/add/dianbao1_005
+  rotate: false
+  xy: 2, 426
+  size: 153, 125
+  orig: 200, 150
+  offset: 24, 12
+  index: -1
+images/effects/xinzeng/dianbao/add/dianbao1_006
+  rotate: false
+  xy: 2, 553
+  size: 158, 123
+  orig: 200, 150
+  offset: 23, 13
+  index: -1
+images/effects/xinzeng/dianbao/add/dianbao1_007
+  rotate: true
+  xy: 2, 268
+  size: 156, 121
+  orig: 200, 150
+  offset: 24, 15
+  index: -1
+images/effects/xinzeng/dianbao/add/dianbao1_008
+  rotate: false
+  xy: 539, 814
+  size: 146, 96
+  orig: 200, 150
+  offset: 27, 19
+  index: -1
+images/effects/xinzeng/dianbao/add/dianbao1_009
+  rotate: false
+  xy: 190, 818
+  size: 143, 88
+  orig: 200, 150
+  offset: 29, 27
+  index: -1
+images/effects/xinzeng/dianbao/add/dianbao1_010
+  rotate: false
+  xy: 335, 815
+  size: 142, 90
+  orig: 200, 150
+  offset: 31, 25
+  index: -1
+images/effects/xinzeng/dianbao/add/dianbao1_011
+  rotate: false
+  xy: 183, 729
+  size: 139, 87
+  orig: 200, 150
+  offset: 31, 27
+  index: -1
+images/effects/xinzeng/dianbao/add/dianbao1_012
+  rotate: false
+  xy: 324, 724
+  size: 138, 89
+  orig: 200, 150
+  offset: 32, 27
+  index: -1
+images/effects/xinzeng/dianbao/add/dianbao1_014
+  rotate: false
+  xy: 179, 638
+  size: 136, 89
+  orig: 200, 150
+  offset: 32, 27
+  index: -1
+images/effects/xinzeng/dianbao/nor/dianbao2_000
+  rotate: false
+  xy: 317, 646
+  size: 97, 76
+  orig: 200, 150
+  offset: 49, 29
+  index: -1
+images/effects/xinzeng/dianbao/nor/dianbao2_001
+  rotate: false
+  xy: 687, 817
+  size: 145, 88
+  orig: 200, 150
+  offset: 24, 22
+  index: -1
+images/effects/xinzeng/dianbao/nor/dianbao2_002
+  rotate: false
+  xy: 834, 806
+  size: 145, 88
+  orig: 200, 150
+  offset: 29, 21
+  index: -1
+images/effects/xinzeng/dianbao/nor/dianbao2_003
+  rotate: false
+  xy: 539, 912
+  size: 166, 104
+  orig: 200, 150
+  offset: 16, 20
+  index: -1
+images/effects/xinzeng/dianbao/nor/dianbao2_004
+  rotate: false
+  xy: 2, 9
+  size: 156, 102
+  orig: 200, 150
+  offset: 16, 20
+  index: -1
+images/effects/xinzeng/dianbao/nor/dianbao2_005
+  rotate: false
+  xy: 2, 905
+  size: 186, 111
+  orig: 200, 150
+  offset: 8, 19
+  index: -1
+images/effects/xinzeng/dianbao/nor/dianbao2_006
+  rotate: false
+  xy: 707, 907
+  size: 161, 109
+  orig: 200, 150
+  offset: 23, 18
+  index: -1
+images/effects/xinzeng/dianbao/nor/dianbao2_007
+  rotate: false
+  xy: 2, 791
+  size: 179, 112
+  orig: 200, 150
+  offset: 10, 19
+  index: -1
+images/effects/xinzeng/dianbao/nor/dianbao2_008
+  rotate: false
+  xy: 190, 908
+  size: 181, 108
+  orig: 200, 150
+  offset: 6, 21
+  index: -1
+images/effects/xinzeng/dianbao/nor/dianbao2_009
+  rotate: false
+  xy: 2, 678
+  size: 175, 111
+  orig: 200, 150
+  offset: 8, 21
+  index: -1
+images/effects/xinzeng/dianbao/nor/dianbao2_010
+  rotate: false
+  xy: 373, 907
+  size: 164, 109
+  orig: 200, 150
+  offset: 16, 22
+  index: -1
+images/effects/xinzeng/glow_000
+  rotate: false
+  xy: 479, 857
+  size: 48, 48
+  orig: 50, 50
+  offset: 1, 1
+  index: -1
+images/effects/xinzeng/guangci2_000
+  rotate: false
+  xy: 162, 561
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+images/effects/xinzeng/guangxian2_000
+  rotate: true
+  xy: 125, 250
+  size: 174, 56
+  orig: 200, 60
+  offset: 13, 2
+  index: -1

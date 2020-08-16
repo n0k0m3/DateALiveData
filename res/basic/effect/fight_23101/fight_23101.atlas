@@ -1,0 +1,131 @@
+
+fight_23101.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bei1
+  rotate: true
+  xy: 292, 62
+  size: 337, 233
+  orig: 337, 233
+  offset: 0, 0
+  index: -1
+bei2
+  rotate: true
+  xy: 527, 108
+  size: 334, 233
+  orig: 334, 233
+  offset: 0, 0
+  index: -1
+mao
+  rotate: false
+  xy: 2, 708
+  size: 517, 314
+  orig: 517, 314
+  offset: 0, 0
+  index: -1
+mao2
+  rotate: false
+  xy: 2, 401
+  size: 517, 305
+  orig: 517, 305
+  offset: 0, 0
+  index: -1
+mao3
+  rotate: true
+  xy: 762, 144
+  size: 298, 254
+  orig: 298, 254
+  offset: 0, 0
+  index: -1
+shengti1
+  rotate: false
+  xy: 521, 444
+  size: 351, 288
+  orig: 351, 288
+  offset: 0, 0
+  index: -1
+shengti2
+  rotate: true
+  xy: 2, 52
+  size: 347, 288
+  orig: 347, 288
+  offset: 0, 0
+  index: -1
+shengti3
+  rotate: false
+  xy: 521, 734
+  size: 353, 288
+  orig: 353, 288
+  offset: 0, 0
+  index: -1
+xing
+  rotate: true
+  xy: 876, 757
+  size: 101, 103
+  orig: 101, 103
+  offset: 0, 0
+  index: -1
+yan_L1
+  rotate: true
+  xy: 2, 2
+  size: 48, 94
+  orig: 48, 94
+  offset: 0, 0
+  index: -1
+yan_L2
+  rotate: true
+  xy: 874, 611
+  size: 59, 94
+  orig: 59, 94
+  offset: 0, 0
+  index: -1
+yan_L3
+  rotate: true
+  xy: 292, 3
+  size: 57, 53
+  orig: 57, 53
+  offset: 0, 0
+  index: -1
+yan_R1
+  rotate: true
+  xy: 876, 935
+  size: 87, 111
+  orig: 87, 111
+  offset: 0, 0
+  index: -1
+yan_R2
+  rotate: true
+  xy: 876, 860
+  size: 73, 110
+  orig: 73, 110
+  offset: 0, 0
+  index: -1
+yan_R3
+  rotate: false
+  xy: 876, 672
+  size: 100, 83
+  orig: 100, 83
+  offset: 0, 0
+  index: -1
+
+fight_231012.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bei3
+  rotate: false
+  xy: 2, 180
+  size: 332, 233
+  orig: 332, 233
+  offset: 0, 0
+  index: -1
+mao1
+  rotate: false
+  xy: 2, 2
+  size: 254, 176
+  orig: 254, 176
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,89 @@
+
+fight_car_02.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/che2
+  rotate: true
+  xy: 869, 820
+  size: 193, 74
+  orig: 193, 74
+  offset: 0, 0
+  index: -1
+images/jineng/baozha/00000
+  rotate: false
+  xy: 2, 7
+  size: 220, 198
+  orig: 480, 480
+  offset: 136, 73
+  index: -1
+images/jineng/baozha/00003
+  rotate: false
+  xy: 430, 2
+  size: 416, 299
+  orig: 480, 480
+  offset: 36, 34
+  index: -1
+images/jineng/baozha/00004
+  rotate: false
+  xy: 444, 303
+  size: 421, 321
+  orig: 480, 480
+  offset: 36, 27
+  index: -1
+images/jineng/baozha/00007
+  rotate: false
+  xy: 444, 626
+  size: 423, 387
+  orig: 480, 480
+  offset: 34, 5
+  index: -1
+images/jineng/baozha/00009
+  rotate: false
+  xy: 2, 607
+  size: 440, 406
+  orig: 480, 480
+  offset: 25, 0
+  index: -1
+images/jineng/baozha/00011
+  rotate: false
+  xy: 2, 207
+  size: 426, 398
+  orig: 480, 480
+  offset: 32, 0
+  index: -1
+
+fight_car_022.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/jineng/baozha/00002
+  rotate: false
+  xy: 408, 723
+  size: 312, 277
+  orig: 480, 480
+  offset: 92, 41
+  index: -1
+images/jineng/baozha/00006
+  rotate: false
+  xy: 2, 257
+  size: 399, 366
+  orig: 480, 480
+  offset: 46, 12
+  index: -1
+images/jineng/baozha/00012
+  rotate: false
+  xy: 2, 625
+  size: 404, 375
+  orig: 480, 480
+  offset: 43, 10
+  index: -1
+images/jineng/baozha/00013
+  rotate: false
+  xy: 2, 2
+  size: 307, 253
+  orig: 480, 480
+  offset: 93, 95
+  index: -1

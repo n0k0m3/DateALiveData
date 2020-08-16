@@ -1,0 +1,341 @@
+
+effects_22601_skillD.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillc/black_00012
+  rotate: false
+  xy: 2, 6
+  size: 174, 175
+  orig: 226, 214
+  offset: 27, 21
+  index: -1
+images/effects/skillc/guangbao/guangbao_00013
+  rotate: false
+  xy: 500, 251
+  size: 225, 213
+  orig: 312, 214
+  offset: 46, 0
+  index: -1
+images/effects/skillc/guangbao/guangbao_00014
+  rotate: false
+  xy: 477, 834
+  size: 305, 188
+  orig: 312, 214
+  offset: 7, 10
+  index: -1
+images/effects/skillc/guangbao/guangbao_00015
+  rotate: false
+  xy: 477, 689
+  size: 297, 143
+  orig: 312, 214
+  offset: 15, 33
+  index: -1
+images/effects/skillc/neijulizi/neijulizi_00002
+  rotate: true
+  xy: 81, 184
+  size: 244, 231
+  orig: 308, 283
+  offset: 42, 10
+  index: -1
+images/effects/skillc/neijulizi/neijulizi_00003
+  rotate: true
+  xy: 701, 9
+  size: 240, 210
+  orig: 308, 283
+  offset: 42, 11
+  index: -1
+images/effects/skillc/neijulizi/neijulizi_00004
+  rotate: false
+  xy: 730, 430
+  size: 249, 198
+  orig: 308, 283
+  offset: 33, 22
+  index: -1
+images/effects/skillc/neijulizi/neijulizi_00005
+  rotate: true
+  xy: 500, 7
+  size: 242, 199
+  orig: 308, 283
+  offset: 34, 41
+  index: -1
+images/effects/skillc/neijulizi/neijulizi_00007
+  rotate: false
+  xy: 784, 809
+  size: 236, 213
+  orig: 308, 283
+  offset: 54, 21
+  index: -1
+images/effects/skillc/neijulizi/neijulizi_00008
+  rotate: true
+  xy: 477, 466
+  size: 221, 251
+  orig: 308, 283
+  offset: 66, 26
+  index: -1
+images/effects/skillc/neijulizi/neijulizi_00010
+  rotate: true
+  xy: 178, 2
+  size: 180, 231
+  orig: 308, 283
+  offset: 88, 50
+  index: -1
+images/effects/skillc/neijulizi/neijulizi_00012
+  rotate: true
+  xy: 776, 630
+  size: 177, 245
+  orig: 308, 283
+  offset: 65, 11
+  index: -1
+images/effects/skillc/neijulizi/neijulizi_00013
+  rotate: false
+  xy: 314, 185
+  size: 184, 243
+  orig: 308, 283
+  offset: 66, 6
+  index: -1
+images/effects/skilld/dilie_00032
+  rotate: true
+  xy: 2, 183
+  size: 245, 77
+  orig: 288, 106
+  offset: 23, 9
+  index: -1
+images/effects/skilld/fire1/fire1_00032
+  rotate: true
+  xy: 143, 430
+  size: 152, 68
+  orig: 171, 157
+  offset: 11, 3
+  index: -1
+images/effects/skilld/fire1/fire1_00035
+  rotate: true
+  xy: 2, 430
+  size: 152, 139
+  orig: 171, 157
+  offset: 11, 3
+  index: -1
+images/effects/skilld/fire1/fire1_00037
+  rotate: true
+  xy: 213, 434
+  size: 148, 140
+  orig: 171, 157
+  offset: 13, 4
+  index: -1
+images/effects/skilld/fire1/fire1_00042
+  rotate: true
+  xy: 355, 476
+  size: 106, 118
+  orig: 171, 157
+  offset: 21, 13
+  index: -1
+images/effects/skilld/fire1/fire1_00044
+  rotate: true
+  xy: 913, 159
+  size: 98, 104
+  orig: 171, 157
+  offset: 22, 26
+  index: -1
+images/effects/skilld/fire1/fire1_00050
+  rotate: false
+  xy: 411, 81
+  size: 85, 102
+  orig: 171, 157
+  offset: 34, 31
+  index: -1
+images/effects/skilld/fire2/fire2_00036
+  rotate: true
+  xy: 727, 258
+  size: 170, 118
+  orig: 197, 148
+  offset: 14, 4
+  index: -1
+images/effects/skilld/fire2/fire2_00038
+  rotate: true
+  xy: 913, 259
+  size: 169, 108
+  orig: 197, 148
+  offset: 15, 11
+  index: -1
+images/effects/skilld/glow_00032
+  rotate: false
+  xy: 2, 584
+  size: 473, 438
+  orig: 512, 512
+  offset: 13, 22
+  index: -1
+images/effects/skilld/pkou1
+  rotate: true
+  xy: 913, 78
+  size: 79, 103
+  orig: 154, 154
+  offset: 36, 29
+  index: -1
+
+effects_22601_skillD2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillc/guangbao/guangbao_00012
+  rotate: false
+  xy: 425, 807
+  size: 208, 212
+  orig: 312, 214
+  offset: 52, 2
+  index: -1
+images/effects/skillc/neijulizi/neijulizi_00001
+  rotate: true
+  xy: 635, 833
+  size: 186, 215
+  orig: 308, 283
+  offset: 85, 46
+  index: -1
+images/effects/skillc/neijulizi/neijulizi_00006
+  rotate: false
+  xy: 207, 799
+  size: 216, 220
+  orig: 308, 283
+  offset: 46, 20
+  index: -1
+images/effects/skillc/neijulizi/neijulizi_00009
+  rotate: false
+  xy: 2, 543
+  size: 192, 239
+  orig: 308, 283
+  offset: 86, 41
+  index: -1
+images/effects/skillc/neijulizi/neijulizi_00011
+  rotate: false
+  xy: 2, 302
+  size: 169, 239
+  orig: 308, 283
+  offset: 89, 34
+  index: -1
+images/effects/skillc/neijulizi/neijulizi_00014
+  rotate: false
+  xy: 2, 784
+  size: 203, 235
+  orig: 308, 283
+  offset: 72, 10
+  index: -1
+images/effects/skilld/fire1/fire1_00033
+  rotate: false
+  xy: 475, 681
+  size: 102, 124
+  orig: 171, 157
+  offset: 35, 1
+  index: -1
+images/effects/skilld/fire1/fire1_00034
+  rotate: false
+  xy: 852, 886
+  size: 140, 133
+  orig: 171, 157
+  offset: 17, 4
+  index: -1
+images/effects/skilld/fire1/fire1_00036
+  rotate: false
+  xy: 2, 161
+  size: 148, 139
+  orig: 171, 157
+  offset: 13, 4
+  index: -1
+images/effects/skilld/fire1/fire1_00038
+  rotate: false
+  xy: 152, 161
+  size: 126, 139
+  orig: 171, 157
+  offset: 24, 4
+  index: -1
+images/effects/skilld/fire1/fire1_00039
+  rotate: true
+  xy: 207, 668
+  size: 129, 136
+  orig: 171, 157
+  offset: 22, 4
+  index: -1
+images/effects/skilld/fire1/fire1_00040
+  rotate: false
+  xy: 345, 667
+  size: 128, 130
+  orig: 171, 157
+  offset: 21, 5
+  index: -1
+images/effects/skilld/fire1/fire1_00041
+  rotate: false
+  xy: 196, 543
+  size: 123, 123
+  orig: 171, 157
+  offset: 21, 8
+  index: -1
+images/effects/skilld/fire1/fire1_00046
+  rotate: true
+  xy: 173, 309
+  size: 93, 101
+  orig: 171, 157
+  offset: 26, 30
+  index: -1
+images/effects/skilld/fire1/fire1_00048
+  rotate: false
+  xy: 321, 563
+  size: 84, 102
+  orig: 171, 157
+  offset: 34, 32
+  index: -1
+images/effects/skilld/fire1/fire1_00052
+  rotate: false
+  xy: 493, 578
+  size: 82, 101
+  orig: 171, 157
+  offset: 35, 33
+  index: -1
+images/effects/skilld/fire1/fire1_00054
+  rotate: false
+  xy: 407, 563
+  size: 84, 102
+  orig: 171, 157
+  offset: 34, 32
+  index: -1
+images/effects/skilld/fire2/fire2_00032
+  rotate: false
+  xy: 852, 771
+  size: 143, 113
+  orig: 197, 148
+  offset: 28, 6
+  index: -1
+images/effects/skilld/fire2/fire2_00034
+  rotate: true
+  xy: 2, 2
+  size: 157, 112
+  orig: 197, 148
+  offset: 23, 8
+  index: -1
+images/effects/skilld/fire2/fire2_00040
+  rotate: true
+  xy: 116, 2
+  size: 157, 110
+  orig: 197, 148
+  offset: 22, 0
+  index: -1
+images/effects/skilld/fire2/fire2_00042
+  rotate: true
+  xy: 228, 14
+  size: 145, 100
+  orig: 197, 148
+  offset: 25, 0
+  index: -1
+images/effects/skilld/fire2/fire2_00044
+  rotate: false
+  xy: 635, 709
+  size: 139, 122
+  orig: 197, 148
+  offset: 28, 0
+  index: -1
+images/effects/skilld/fire2/fire2_00046
+  rotate: true
+  xy: 173, 404
+  size: 137, 124
+  orig: 197, 148
+  offset: 30, 2
+  index: -1

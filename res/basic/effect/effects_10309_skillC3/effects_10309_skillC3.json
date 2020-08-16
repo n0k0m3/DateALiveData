@@ -1,0 +1,276 @@
+{
+"skeleton": { "hash": "4/x6cNglePb9R6KEHUN9iq5gAlM", "spine": "2.1.27", "width": 0, "height": 0, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bdbox", "parent": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "ui", "parent": "bone", "x": -549.31, "y": 252.64 },
+	{ "name": "ui2", "parent": "bone", "x": 551.23, "y": 252.64, "scaleX": -1 },
+	{ "name": "ui3", "parent": "bone", "x": -549.31, "y": -248.82, "scaleY": -1 },
+	{ "name": "ui4", "parent": "bone", "x": 551.23, "y": -248.82, "scaleX": -1, "scaleY": -1 }
+],
+"slots": [
+	{ "name": "bdbox_eff", "bone": "bdbox", "attachment": "bdbox_eff" },
+	{ "name": "images/effects/skillc/UI_000", "bone": "ui" },
+	{ "name": "images/effects/skillc/UI_0", "bone": "ui2" },
+	{ "name": "images/effects/skillc/UI_1", "bone": "ui3" },
+	{ "name": "images/effects/skillc/UI_2", "bone": "ui4" }
+],
+"skins": {
+	"default": {
+		"bdbox_eff": {
+			"bdbox_eff": {
+				"type": "boundingbox",
+				"vertices": [ 62.71896, -64.58366, 61.42599, 62.13029, -61.40902, 63.42332, -61.40902, -67.16966 ]
+			}
+		},
+		"images/effects/skillc/UI_0": {
+			"images/effects/skillc/UI_000": { "width": 300, "height": 150 }
+		},
+		"images/effects/skillc/UI_000": {
+			"images/effects/skillc/UI_000": { "width": 300, "height": 150 }
+		},
+		"images/effects/skillc/UI_1": {
+			"images/effects/skillc/UI_000": { "width": 300, "height": 150 }
+		},
+		"images/effects/skillc/UI_2": {
+			"images/effects/skillc/UI_000": { "width": 300, "height": 150 }
+		}
+	}
+},
+"events": {
+	"effect": {},
+	"hurt": {}
+},
+"animations": {
+	"hit": {
+		"slots": {
+			"images/effects/skillc/UI_000": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"images/effects/skillc/UI_0": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"images/effects/skillc/UI_1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"images/effects/skillc/UI_2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"bdbox": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 50, "y": 25 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		],
+		"events": [
+			{ "time": 0.0333, "name": "hurt" }
+		]
+	},
+	"skillC3_1": {
+		"slots": {
+			"images/effects/skillc/UI_000": {
+				"attachment": [
+					{ "time": 0, "name": "images/effects/skillc/UI_000" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.1666, "color": "ffffffff" }
+				]
+			},
+			"images/effects/skillc/UI_0": {
+				"attachment": [
+					{ "time": 0, "name": "images/effects/skillc/UI_000" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.1666, "color": "ffffffff" }
+				]
+			},
+			"images/effects/skillc/UI_1": {
+				"attachment": [
+					{ "time": 0, "name": "images/effects/skillc/UI_000" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.1666, "color": "ffffffff" }
+				]
+			},
+			"images/effects/skillc/UI_2": {
+				"attachment": [
+					{ "time": 0, "name": "images/effects/skillc/UI_000" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.1666, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"bdbox": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		],
+		"events": [
+			{ "time": 0.1333, "name": "effect" }
+		]
+	},
+	"skillC3_2": {
+		"slots": {
+			"images/effects/skillc/UI_000": {
+				"attachment": [
+					{ "time": 0, "name": "images/effects/skillc/UI_000" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"images/effects/skillc/UI_0": {
+				"attachment": [
+					{ "time": 0, "name": "images/effects/skillc/UI_000" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"images/effects/skillc/UI_1": {
+				"attachment": [
+					{ "time": 0, "name": "images/effects/skillc/UI_000" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"images/effects/skillc/UI_2": {
+				"attachment": [
+					{ "time": 0, "name": "images/effects/skillc/UI_000" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"bdbox": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"skillC3_3": {
+		"slots": {
+			"images/effects/skillc/UI_000": {
+				"attachment": [
+					{ "time": 0, "name": "images/effects/skillc/UI_000" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.1666, "color": "ffffff00" }
+				]
+			},
+			"images/effects/skillc/UI_0": {
+				"attachment": [
+					{ "time": 0, "name": "images/effects/skillc/UI_000" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.1666, "color": "ffffff00" }
+				]
+			},
+			"images/effects/skillc/UI_1": {
+				"attachment": [
+					{ "time": 0, "name": "images/effects/skillc/UI_000" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.1666, "color": "ffffff00" }
+				]
+			},
+			"images/effects/skillc/UI_2": {
+				"attachment": [
+					{ "time": 0, "name": "images/effects/skillc/UI_000" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.1666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"bdbox": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		],
+		"events": [
+			{ "time": 0.0333, "name": "effect" }
+		]
+	}
+}
+}

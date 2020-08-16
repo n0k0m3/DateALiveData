@@ -1,0 +1,48 @@
+
+Lv_DEMGC_shoubi.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bi1
+  rotate: false
+  xy: 2, 94
+  size: 78, 226
+  orig: 78, 226
+  offset: 0, 0
+  index: -1
+bi2
+  rotate: false
+  xy: 82, 99
+  size: 121, 116
+  orig: 121, 116
+  offset: 0, 0
+  index: -1
+bi3
+  rotate: false
+  xy: 82, 217
+  size: 193, 103
+  orig: 193, 103
+  offset: 0, 0
+  index: -1
+bi5
+  rotate: false
+  xy: 2, 32
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+bi6
+  rotate: false
+  xy: 277, 276
+  size: 43, 44
+  orig: 43, 44
+  offset: 0, 0
+  index: -1
+bi7
+  rotate: false
+  xy: 205, 172
+  size: 43, 43
+  orig: 43, 43
+  offset: 0, 0
+  index: -1

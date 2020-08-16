@@ -1,0 +1,278 @@
+
+fight_28001.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/heise/born/dimian/dimian_006
+  rotate: true
+  xy: 977, 200
+  size: 138, 45
+  orig: 200, 71
+  offset: 32, 15
+  index: -1
+effect/heise/born/dimian/dimian_008
+  rotate: true
+  xy: 405, 26
+  size: 186, 59
+  orig: 200, 71
+  offset: 8, 7
+  index: -1
+effect/heise/born/dimian/dimian_012
+  rotate: false
+  xy: 2, 5
+  size: 196, 61
+  orig: 200, 71
+  offset: 3, 5
+  index: -1
+effect/heise/born/dimian/dimian_016
+  rotate: false
+  xy: 466, 338
+  size: 185, 66
+  orig: 200, 71
+  offset: 15, 0
+  index: -1
+effect/heise/born/dimian/dimian_020
+  rotate: false
+  xy: 679, 352
+  size: 181, 63
+  orig: 200, 71
+  offset: 12, 3
+  index: -1
+effect/heise/born/dimian/dimian_022
+  rotate: false
+  xy: 626, 126
+  size: 183, 63
+  orig: 200, 71
+  offset: 10, 4
+  index: -1
+effect/heise/born/dimian/dimian_024
+  rotate: false
+  xy: 466, 9
+  size: 183, 53
+  orig: 200, 71
+  offset: 9, 11
+  index: -1
+effect/heise/born/glow1_000
+  rotate: true
+  xy: 444, 510
+  size: 285, 42
+  orig: 285, 44
+  offset: 0, 0
+  index: -1
+effect/heise/born/glow_006
+  rotate: false
+  xy: 921, 26
+  size: 70, 70
+  orig: 82, 78
+  offset: 6, 4
+  index: -1
+effect/heise/born/guangxian/guangxian_014
+  rotate: false
+  xy: 2, 68
+  size: 199, 84
+  orig: 218, 98
+  offset: 19, 8
+  index: -1
+effect/heise/born/qiuti/qiuti_003
+  rotate: false
+  xy: 862, 501
+  size: 160, 159
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+effect/heise/born/qiuti/qiuti_005
+  rotate: true
+  xy: 466, 64
+  size: 160, 158
+  orig: 160, 160
+  offset: 0, 1
+  index: -1
+effect/heise/born/qiuti/qiuti_007
+  rotate: false
+  xy: 862, 340
+  size: 160, 159
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+effect/heise/born/qiuti/qiuti_009
+  rotate: false
+  xy: 661, 191
+  size: 160, 159
+  orig: 160, 160
+  offset: 0, 1
+  index: -1
+effect/heise/born/quan1_033
+  rotate: false
+  xy: 823, 186
+  size: 152, 152
+  orig: 161, 160
+  offset: 5, 3
+  index: -1
+effect/heise/born/quan2_033
+  rotate: false
+  xy: 488, 406
+  size: 189, 189
+  orig: 195, 195
+  offset: 3, 3
+  index: -1
+effect/heise/born/xiantiao/xiantiao_010
+  rotate: false
+  xy: 428, 226
+  size: 148, 110
+  orig: 155, 127
+  offset: 3, 0
+  index: -1
+effect/heise/born/xiantiao/xiantiao_012
+  rotate: false
+  xy: 811, 98
+  size: 144, 86
+  orig: 155, 127
+  offset: 3, 0
+  index: -1
+effect/heise/born/xiantiao/xiantiao_014
+  rotate: false
+  xy: 651, 36
+  size: 138, 88
+  orig: 155, 127
+  offset: 3, 0
+  index: -1
+effect/heise/born/xiantiao/xiantiao_016
+  rotate: false
+  xy: 791, 10
+  size: 128, 86
+  orig: 155, 127
+  offset: 3, 1
+  index: -1
+effect/heise/born/xiantiao/xiantiao_018
+  rotate: true
+  xy: 578, 231
+  size: 105, 81
+  orig: 155, 127
+  offset: 3, 3
+  index: -1
+effect/heise/born/xiaoshi/xiaoshi_032
+  rotate: true
+  xy: 214, 32
+  size: 180, 189
+  orig: 200, 218
+  offset: 17, 0
+  index: -1
+effect/heise/born/xiaoshi/xiaoshi_034
+  rotate: false
+  xy: 488, 597
+  size: 176, 214
+  orig: 200, 218
+  offset: 21, 1
+  index: -1
+effect/heise/born/xiaoshi/xiaoshi_036
+  rotate: false
+  xy: 458, 813
+  size: 196, 209
+  orig: 200, 218
+  offset: 1, 8
+  index: -1
+effect/heise/born/xiaoshi/xiaoshi_038
+  rotate: false
+  xy: 656, 820
+  size: 193, 202
+  orig: 200, 218
+  offset: 4, 10
+  index: -1
+effect/heise/born/xiaoshi/xiaoshi_040
+  rotate: false
+  xy: 666, 618
+  size: 187, 200
+  orig: 200, 218
+  offset: 10, 10
+  index: -1
+effect/heise/born/xiaoshi/xiaoshi_042
+  rotate: false
+  xy: 679, 417
+  size: 181, 199
+  orig: 200, 218
+  offset: 12, 11
+  index: -1
+effect/heise/born/xiaoshi/xiaoshi_044
+  rotate: true
+  xy: 851, 843
+  size: 179, 171
+  orig: 200, 218
+  offset: 11, 39
+  index: -1
+effect/heise/born/xiaoshi/xiaoshi_046
+  rotate: true
+  xy: 855, 662
+  size: 179, 153
+  orig: 200, 218
+  offset: 12, 43
+  index: -1
+effect/heise/die1/bao_026
+  rotate: false
+  xy: 2, 344
+  size: 224, 224
+  orig: 226, 225
+  offset: 1, 1
+  index: -1
+effect/heise/die1/bao_028
+  rotate: false
+  xy: 230, 578
+  size: 212, 217
+  orig: 226, 225
+  offset: 6, 3
+  index: -1
+effect/heise/die1/bao_030
+  rotate: false
+  xy: 2, 797
+  size: 226, 225
+  orig: 226, 225
+  offset: 0, 0
+  index: -1
+effect/heise/die1/bao_032
+  rotate: false
+  xy: 2, 570
+  size: 226, 225
+  orig: 226, 225
+  offset: 0, 0
+  index: -1
+effect/heise/die1/bao_034
+  rotate: false
+  xy: 230, 797
+  size: 226, 225
+  orig: 226, 225
+  offset: 0, 0
+  index: -1
+effect/heise/die1/bao_036
+  rotate: false
+  xy: 2, 154
+  size: 210, 188
+  orig: 226, 225
+  offset: 8, 13
+  index: -1
+effect/heise/die1/bao_038
+  rotate: false
+  xy: 230, 393
+  size: 198, 183
+  orig: 226, 225
+  offset: 20, 15
+  index: -1
+effect/heise/die1/bao_040
+  rotate: false
+  xy: 228, 214
+  size: 198, 177
+  orig: 226, 225
+  offset: 20, 15
+  index: -1
+
+fight_280012.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/heise/born/xishou/xishou_036
+  rotate: false
+  xy: 2, 6
+  size: 139, 135
+  orig: 143, 135
+  offset: 4, 0
+  index: -1

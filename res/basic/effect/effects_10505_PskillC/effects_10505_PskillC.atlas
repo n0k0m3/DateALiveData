@@ -1,0 +1,495 @@
+
+effects_10505_PskillC.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/PskillC/bao_add/bao_add00037
+  rotate: false
+  xy: 2, 309
+  size: 179, 152
+  orig: 343, 240
+  offset: 80, 5
+  index: -1
+images/effect/PskillC/bao_add/bao_add00038
+  rotate: false
+  xy: 2, 786
+  size: 340, 236
+  orig: 343, 240
+  offset: 0, 1
+  index: -1
+images/effect/PskillC/bao_add/bao_add00039
+  rotate: false
+  xy: 344, 792
+  size: 335, 230
+  orig: 343, 240
+  offset: 4, 0
+  index: -1
+images/effect/PskillC/bao_add/bao_add00041
+  rotate: false
+  xy: 681, 835
+  size: 296, 187
+  orig: 343, 240
+  offset: 29, 10
+  index: -1
+images/effect/PskillC/bao_add/bao_add00043
+  rotate: true
+  xy: 2, 3
+  size: 249, 180
+  orig: 343, 240
+  offset: 49, 18
+  index: -1
+images/effect/PskillC/bao_add/bao_add00045
+  rotate: true
+  xy: 518, 2
+  size: 256, 183
+  orig: 343, 240
+  offset: 45, 16
+  index: -1
+images/effect/PskillC/bao_add/bao_add00047
+  rotate: true
+  xy: 336, 7
+  size: 245, 180
+  orig: 343, 240
+  offset: 53, 14
+  index: -1
+images/effect/PskillC/bao_down/bao_down00039
+  rotate: false
+  xy: 2, 646
+  size: 274, 138
+  orig: 315, 171
+  offset: 24, 5
+  index: -1
+images/effect/PskillC/bao_down/bao_down00041
+  rotate: false
+  xy: 681, 700
+  size: 289, 133
+  orig: 315, 171
+  offset: 15, 6
+  index: -1
+images/effect/PskillC/bao_down/bao_down00053
+  rotate: false
+  xy: 703, 198
+  size: 138, 119
+  orig: 315, 171
+  offset: 98, 6
+  index: -1
+images/effect/PskillC/bao_down/bao_down00057
+  rotate: false
+  xy: 627, 384
+  size: 72, 103
+  orig: 315, 171
+  offset: 124, 3
+  index: -1
+images/effect/PskillC/bao_nor/bao_nor00038
+  rotate: false
+  xy: 343, 554
+  size: 268, 69
+  orig: 308, 193
+  offset: 23, 3
+  index: -1
+images/effect/PskillC/bao_nor/bao_nor00040
+  rotate: false
+  xy: 2, 463
+  size: 271, 181
+  orig: 308, 193
+  offset: 23, 3
+  index: -1
+images/effect/PskillC/bao_nor/bao_nor00042
+  rotate: false
+  xy: 344, 697
+  size: 289, 93
+  orig: 308, 193
+  offset: 8, 3
+  index: -1
+images/effect/PskillC/bao_nor/bao_nor00044
+  rotate: false
+  xy: 635, 607
+  size: 284, 91
+  orig: 308, 193
+  offset: 15, 3
+  index: -1
+images/effect/PskillC/bao_nor/bao_nor00046
+  rotate: false
+  xy: 613, 536
+  size: 268, 69
+  orig: 308, 193
+  offset: 23, 3
+  index: -1
+images/effect/PskillC/bao_nor/bao_nor00048
+  rotate: false
+  xy: 343, 483
+  size: 268, 69
+  orig: 308, 193
+  offset: 23, 3
+  index: -1
+images/effect/PskillC/bao_nor/bao_nor00054
+  rotate: false
+  xy: 343, 625
+  size: 268, 70
+  orig: 308, 193
+  offset: 23, 3
+  index: -1
+images/effect/PskillC/bao_nor/bao_nor00056
+  rotate: true
+  xy: 278, 516
+  size: 268, 63
+  orig: 308, 193
+  offset: 23, 4
+  index: -1
+images/effect/PskillC/bao_nor/bao_nor00058
+  rotate: true
+  xy: 275, 254
+  size: 260, 63
+  orig: 308, 193
+  offset: 27, 4
+  index: -1
+images/effect/PskillC/dandao/dandao_00049
+  rotate: true
+  xy: 274, 4
+  size: 248, 60
+  orig: 275, 76
+  offset: 17, 4
+  index: -1
+images/effect/PskillC/dandao/dandao_00050
+  rotate: true
+  xy: 519, 262
+  size: 219, 53
+  orig: 275, 76
+  offset: 50, 8
+  index: -1
+images/effect/PskillC/dandao/dandao_00051
+  rotate: true
+  xy: 574, 262
+  size: 219, 51
+  orig: 275, 76
+  offset: 51, 9
+  index: -1
+images/effect/PskillC/dandao/dandao_00052
+  rotate: true
+  xy: 972, 633
+  size: 200, 49
+  orig: 275, 76
+  offset: 65, 10
+  index: -1
+images/effect/PskillC/dimian/00008
+  rotate: false
+  xy: 843, 218
+  size: 174, 169
+  orig: 229, 198
+  offset: 25, 6
+  index: -1
+images/effect/PskillC/dimian/00010
+  rotate: true
+  xy: 340, 260
+  size: 221, 177
+  orig: 229, 198
+  offset: 8, 4
+  index: -1
+images/effect/PskillC/dimian/00014
+  rotate: true
+  xy: 184, 232
+  size: 229, 88
+  orig: 229, 198
+  offset: 0, 6
+  index: -1
+images/effect/PskillC/feng/00019
+  rotate: false
+  xy: 859, 94
+  size: 162, 122
+  orig: 192, 138
+  offset: 30, 15
+  index: -1
+images/effect/PskillC/feng/00023
+  rotate: false
+  xy: 844, 389
+  size: 175, 116
+  orig: 192, 138
+  offset: 4, 18
+  index: -1
+images/effect/PskillC/feng/00027
+  rotate: true
+  xy: 184, 12
+  size: 116, 82
+  orig: 192, 138
+  offset: 42, 15
+  index: -1
+images/effect/PskillC/glow200023
+  rotate: false
+  xy: 613, 489
+  size: 229, 45
+  orig: 272, 83
+  offset: 21, 16
+  index: -1
+images/effect/PskillC/shifa/add/add_00047
+  rotate: false
+  xy: 184, 130
+  size: 87, 100
+  orig: 183, 179
+  offset: 17, 60
+  index: -1
+images/effect/PskillC/shifa/nor/nor_00047
+  rotate: true
+  xy: 859, 2
+  size: 90, 106
+  orig: 183, 179
+  offset: 14, 57
+  index: -1
+images/effect/PskillC/shifa/nor/nor_00049
+  rotate: true
+  xy: 921, 507
+  size: 124, 101
+  orig: 183, 179
+  offset: 6, 56
+  index: -1
+images/effect/PskillC/shifa/nor/nor_00053
+  rotate: false
+  xy: 627, 302
+  size: 61, 80
+  orig: 183, 179
+  offset: 28, 62
+  index: -1
+images/effect/PskillC/xuli/00016
+  rotate: true
+  xy: 703, 2
+  size: 194, 154
+  orig: 225, 210
+  offset: 23, 32
+  index: -1
+images/effect/PskillC/xuli/00022
+  rotate: true
+  xy: 703, 319
+  size: 168, 138
+  orig: 225, 210
+  offset: 2, 27
+  index: -1
+
+effects_10505_PskillC2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/PskillC/bao_add/bao_add00049
+  rotate: false
+  xy: 2, 687
+  size: 203, 160
+  orig: 343, 240
+  offset: 76, 12
+  index: -1
+images/effect/PskillC/bao_add/bao_add00051
+  rotate: false
+  xy: 233, 870
+  size: 204, 151
+  orig: 343, 240
+  offset: 76, 20
+  index: -1
+images/effect/PskillC/bao_add/bao_add00053
+  rotate: false
+  xy: 2, 532
+  size: 202, 153
+  orig: 343, 240
+  offset: 78, 17
+  index: -1
+images/effect/PskillC/bao_add/bao_add00055
+  rotate: true
+  xy: 2, 139
+  size: 199, 148
+  orig: 343, 240
+  offset: 80, 17
+  index: -1
+images/effect/PskillC/bao_add/bao_add00057
+  rotate: false
+  xy: 439, 870
+  size: 197, 151
+  orig: 343, 240
+  offset: 82, 16
+  index: -1
+images/effect/PskillC/bao_add/bao_add00059
+  rotate: true
+  xy: 908, 865
+  size: 156, 108
+  orig: 343, 240
+  offset: 121, 31
+  index: -1
+images/effect/PskillC/bao_down/bao_down00043
+  rotate: false
+  xy: 423, 738
+  size: 187, 130
+  orig: 315, 171
+  offset: 65, 12
+  index: -1
+images/effect/PskillC/bao_down/bao_down00045
+  rotate: false
+  xy: 207, 612
+  size: 187, 134
+  orig: 315, 171
+  offset: 68, 8
+  index: -1
+images/effect/PskillC/bao_down/bao_down00047
+  rotate: false
+  xy: 396, 604
+  size: 185, 132
+  orig: 315, 171
+  offset: 72, 11
+  index: -1
+images/effect/PskillC/bao_down/bao_down00049
+  rotate: true
+  xy: 537, 418
+  size: 184, 134
+  orig: 315, 171
+  offset: 74, 9
+  index: -1
+images/effect/PskillC/bao_down/bao_down00051
+  rotate: false
+  xy: 2, 2
+  size: 182, 135
+  orig: 315, 171
+  offset: 76, 8
+  index: -1
+images/effect/PskillC/bao_down/bao_down00055
+  rotate: false
+  xy: 288, 15
+  size: 130, 125
+  orig: 315, 171
+  offset: 96, 4
+  index: -1
+images/effect/PskillC/bao_nor/bao_nor00050
+  rotate: false
+  xy: 638, 882
+  size: 268, 68
+  orig: 308, 193
+  offset: 23, 3
+  index: -1
+images/effect/PskillC/bao_nor/bao_nor00052
+  rotate: false
+  xy: 638, 952
+  size: 268, 69
+  orig: 308, 193
+  offset: 23, 3
+  index: -1
+images/effect/PskillC/dandao/dandao_00054
+  rotate: true
+  xy: 164, 336
+  size: 194, 45
+  orig: 275, 76
+  offset: 73, 11
+  index: -1
+images/effect/PskillC/dimian/00012
+  rotate: false
+  xy: 2, 849
+  size: 229, 172
+  orig: 229, 198
+  offset: 0, 3
+  index: -1
+images/effect/PskillC/feng/00021
+  rotate: true
+  xy: 152, 142
+  size: 192, 119
+  orig: 192, 138
+  offset: 0, 18
+  index: -1
+images/effect/PskillC/feng/00025
+  rotate: false
+  xy: 908, 759
+  size: 109, 104
+  orig: 192, 138
+  offset: 53, 10
+  index: -1
+images/effect/PskillC/glow1_00051
+  rotate: false
+  xy: 365, 275
+  size: 164, 161
+  orig: 170, 166
+  offset: 4, 1
+  index: -1
+images/effect/PskillC/glow_00019
+  rotate: false
+  xy: 2, 340
+  size: 160, 190
+  orig: 225, 200
+  offset: 30, 4
+  index: -1
+images/effect/PskillC/shifa/add/add_00048
+  rotate: false
+  xy: 806, 755
+  size: 100, 125
+  orig: 183, 179
+  offset: 18, 32
+  index: -1
+images/effect/PskillC/shifa/add/add_00049
+  rotate: false
+  xy: 531, 262
+  size: 158, 154
+  orig: 183, 179
+  offset: 6, 17
+  index: -1
+images/effect/PskillC/shifa/add/add_00051
+  rotate: false
+  xy: 365, 438
+  size: 170, 164
+  orig: 183, 179
+  offset: 5, 7
+  index: -1
+images/effect/PskillC/shifa/add/add_00053
+  rotate: false
+  xy: 673, 609
+  size: 157, 144
+  orig: 183, 179
+  offset: 1, 34
+  index: -1
+images/effect/PskillC/shifa/nor/nor_00048
+  rotate: false
+  xy: 673, 504
+  size: 122, 103
+  orig: 183, 179
+  offset: 0, 57
+  index: -1
+images/effect/PskillC/shifa/nor/nor_00051
+  rotate: true
+  xy: 186, 5
+  size: 135, 100
+  orig: 183, 179
+  offset: 21, 50
+  index: -1
+images/effect/PskillC/xuli/00014
+  rotate: false
+  xy: 233, 748
+  size: 188, 120
+  orig: 225, 210
+  offset: 2, 9
+  index: -1
+images/effect/PskillC/xuli/00018
+  rotate: true
+  xy: 529, 107
+  size: 153, 164
+  orig: 225, 210
+  offset: 40, 7
+  index: -1
+images/effect/PskillC/xuli/00020
+  rotate: true
+  xy: 211, 426
+  size: 184, 152
+  orig: 225, 210
+  offset: 0, 6
+  index: -1
+images/effect/PskillC/xuli/00024
+  rotate: true
+  xy: 273, 142
+  size: 131, 161
+  orig: 225, 210
+  offset: 29, 43
+  index: -1
+images/effect/PskillC/xuli/00026
+  rotate: false
+  xy: 638, 755
+  size: 166, 125
+  orig: 225, 210
+  offset: 49, 56
+  index: -1
+images/effect/PskillC/xuli/00028
+  rotate: true
+  xy: 436, 143
+  size: 130, 91
+  orig: 225, 210
+  offset: 63, 67
+  index: -1

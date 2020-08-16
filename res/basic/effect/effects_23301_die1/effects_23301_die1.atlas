@@ -1,0 +1,69 @@
+
+effects_23301_die1.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow_000
+  rotate: false
+  xy: 343, 101
+  size: 71, 71
+  orig: 71, 71
+  offset: 0, 0
+  index: -1
+skille/boom1/boom1_000
+  rotate: false
+  xy: 2, 30
+  size: 105, 106
+  orig: 199, 199
+  offset: 47, 44
+  index: -1
+skille/boom1/boom1_002
+  rotate: true
+  xy: 181, 166
+  size: 161, 156
+  orig: 199, 199
+  offset: 19, 23
+  index: -1
+skille/boom1/boom1_003
+  rotate: false
+  xy: 191, 337
+  size: 178, 173
+  orig: 199, 199
+  offset: 11, 15
+  index: -1
+skille/boom1/boom1_004
+  rotate: false
+  xy: 2, 329
+  size: 187, 181
+  orig: 199, 199
+  offset: 6, 11
+  index: -1
+skille/boom1/boom1_007
+  rotate: true
+  xy: 2, 138
+  size: 189, 177
+  orig: 199, 199
+  offset: 6, 13
+  index: -1
+skille/boom1/boom1_009
+  rotate: true
+  xy: 339, 174
+  size: 161, 140
+  orig: 199, 199
+  offset: 21, 31
+  index: -1
+skille/boom1/boom1_011
+  rotate: false
+  xy: 181, 26
+  size: 160, 138
+  orig: 199, 199
+  offset: 21, 31
+  index: -1
+skille/boom1/boom1_013
+  rotate: true
+  xy: 371, 366
+  size: 144, 139
+  orig: 199, 199
+  offset: 26, 31
+  index: -1

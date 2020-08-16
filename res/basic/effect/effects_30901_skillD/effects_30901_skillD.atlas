@@ -1,0 +1,488 @@
+
+effects_30901_skillD.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/Effect/EskillD/shangceng/00018
+  rotate: false
+  xy: 311, 908
+  size: 307, 114
+  orig: 320, 128
+  offset: 0, 8
+  index: -1
+images/Effect/EskillD/shangceng/00019
+  rotate: false
+  xy: 2, 792
+  size: 307, 112
+  orig: 320, 128
+  offset: 0, 8
+  index: -1
+images/Effect/EskillD/shangceng/00020
+  rotate: false
+  xy: 311, 685
+  size: 307, 106
+  orig: 320, 128
+  offset: 0, 11
+  index: -1
+images/Effect/EskillD/shangceng/00021
+  rotate: true
+  xy: 2, 170
+  size: 307, 103
+  orig: 320, 128
+  offset: 0, 12
+  index: -1
+images/Effect/EskillD/shangceng/00022
+  rotate: true
+  xy: 107, 170
+  size: 307, 103
+  orig: 320, 128
+  offset: 0, 12
+  index: -1
+images/Effect/EskillD/shangceng/00023
+  rotate: true
+  xy: 212, 170
+  size: 307, 103
+  orig: 320, 128
+  offset: 0, 12
+  index: -1
+images/Effect/EskillD/shangceng/00024
+  rotate: false
+  xy: 2, 685
+  size: 307, 105
+  orig: 320, 128
+  offset: 0, 11
+  index: -1
+images/Effect/EskillD/shangceng/00025
+  rotate: false
+  xy: 620, 683
+  size: 307, 109
+  orig: 320, 128
+  offset: 0, 12
+  index: -1
+images/Effect/EskillD/shangceng/00026
+  rotate: false
+  xy: 311, 793
+  size: 307, 113
+  orig: 320, 128
+  offset: 0, 11
+  index: -1
+images/Effect/EskillD/shangceng/00027
+  rotate: false
+  xy: 2, 906
+  size: 307, 116
+  orig: 320, 128
+  offset: 0, 8
+  index: -1
+images/Effect/EskillD/shangceng/00028
+  rotate: false
+  xy: 620, 908
+  size: 307, 114
+  orig: 320, 128
+  offset: 0, 7
+  index: -1
+images/Effect/EskillD/shangceng/00029
+  rotate: false
+  xy: 620, 794
+  size: 307, 112
+  orig: 320, 128
+  offset: 0, 10
+  index: -1
+images/Effect/EskillD/shanguang/00012
+  rotate: true
+  xy: 86, 485
+  size: 196, 87
+  orig: 261, 156
+  offset: 32, 31
+  index: -1
+images/Effect/EskillD/shanguang/00014
+  rotate: true
+  xy: 2, 480
+  size: 203, 82
+  orig: 261, 156
+  offset: 32, 34
+  index: -1
+images/Effect/EskillD/shanguang/00016
+  rotate: true
+  xy: 868, 520
+  size: 55, 56
+  orig: 261, 156
+  offset: 102, 45
+  index: -1
+images/Effect/EskillD/shanguang/00017
+  rotate: false
+  xy: 881, 615
+  size: 46, 46
+  orig: 261, 156
+  offset: 107, 51
+  index: -1
+images/Effect/EskillD/shanguang/00018
+  rotate: true
+  xy: 881, 577
+  size: 36, 40
+  orig: 261, 156
+  offset: 110, 55
+  index: -1
+images/Effect/EskillD/shifa/00010
+  rotate: true
+  xy: 759, 2
+  size: 168, 92
+  orig: 201, 161
+  offset: 18, 6
+  index: -1
+images/Effect/EskillD/shifa/00011
+  rotate: true
+  xy: 2, 3
+  size: 165, 112
+  orig: 201, 161
+  offset: 21, 6
+  index: -1
+images/Effect/EskillD/shifa/00012
+  rotate: true
+  xy: 175, 514
+  size: 169, 133
+  orig: 201, 161
+  offset: 17, 5
+  index: -1
+images/Effect/EskillD/shifa/00013
+  rotate: false
+  xy: 310, 514
+  size: 169, 149
+  orig: 201, 161
+  offset: 17, 6
+  index: -1
+images/Effect/EskillD/shifa/00014
+  rotate: true
+  xy: 457, 2
+  size: 168, 151
+  orig: 201, 161
+  offset: 18, 7
+  index: -1
+images/Effect/EskillD/shifa/00015
+  rotate: false
+  xy: 116, 14
+  size: 169, 154
+  orig: 201, 161
+  offset: 17, 6
+  index: -1
+images/Effect/EskillD/shifa/00016
+  rotate: true
+  xy: 853, 3
+  size: 167, 154
+  orig: 201, 161
+  offset: 17, 5
+  index: -1
+images/Effect/EskillD/shifa/00017
+  rotate: false
+  xy: 287, 14
+  size: 168, 154
+  orig: 201, 161
+  offset: 18, 5
+  index: -1
+images/Effect/EskillD/shifa/00019
+  rotate: true
+  xy: 610, 2
+  size: 168, 147
+  orig: 201, 161
+  offset: 18, 6
+  index: -1
+images/Effect/EskillD/shifa/00020
+  rotate: false
+  xy: 613, 514
+  size: 169, 147
+  orig: 201, 161
+  offset: 17, 6
+  index: -1
+images/Effect/EskillD/shifa/00021
+  rotate: false
+  xy: 481, 536
+  size: 130, 127
+  orig: 201, 161
+  offset: 43, 14
+  index: -1
+images/Effect/EskillD/shifa1/00010
+  rotate: false
+  xy: 784, 517
+  size: 82, 58
+  orig: 201, 161
+  offset: 65, 15
+  index: -1
+images/Effect/EskillD/shifa1/00020
+  rotate: false
+  xy: 784, 582
+  size: 95, 79
+  orig: 201, 161
+  offset: 53, 19
+  index: -1
+images/Effect/EskillD/xiaceng/00020
+  rotate: true
+  xy: 657, 205
+  size: 272, 91
+  orig: 272, 111
+  offset: 0, 7
+  index: -1
+images/Effect/EskillD/xiaceng/00021
+  rotate: false
+  xy: 396, 387
+  size: 259, 90
+  orig: 272, 111
+  offset: 13, 8
+  index: -1
+images/Effect/EskillD/xiaceng/00022
+  rotate: false
+  xy: 396, 200
+  size: 255, 91
+  orig: 272, 111
+  offset: 17, 8
+  index: -1
+images/Effect/EskillD/xiaceng/00023
+  rotate: false
+  xy: 396, 293
+  size: 257, 92
+  orig: 272, 111
+  offset: 15, 9
+  index: -1
+images/Effect/EskillD/xiaceng/00024
+  rotate: false
+  xy: 759, 201
+  size: 261, 90
+  orig: 272, 111
+  offset: 11, 10
+  index: -1
+images/Effect/EskillD/xiaceng/00026
+  rotate: true
+  xy: 929, 479
+  size: 269, 93
+  orig: 272, 111
+  offset: 3, 10
+  index: -1
+images/Effect/EskillD/xiaceng/00027
+  rotate: false
+  xy: 759, 293
+  size: 262, 93
+  orig: 272, 111
+  offset: 10, 10
+  index: -1
+images/Effect/EskillD/xiaceng/00028
+  rotate: false
+  xy: 759, 388
+  size: 263, 89
+  orig: 272, 111
+  offset: 9, 10
+  index: -1
+images/Effect/EskillD/xiaceng/00029
+  rotate: true
+  xy: 929, 750
+  size: 272, 93
+  orig: 272, 111
+  offset: 0, 7
+  index: -1
+images/Effect/EskillD/yujing/00003
+  rotate: true
+  xy: 349, 188
+  size: 289, 22
+  orig: 309, 60
+  offset: 20, 16
+  index: -1
+images/Effect/EskillD/yujing/00004
+  rotate: true
+  xy: 317, 188
+  size: 289, 30
+  orig: 309, 60
+  offset: 20, 9
+  index: -1
+images/Effect/EskillD/yujing/00006
+  rotate: false
+  xy: 684, 480
+  size: 239, 32
+  orig: 309, 60
+  offset: 20, 9
+  index: -1
+images/Effect/EskillD/yujing/00007
+  rotate: false
+  xy: 434, 479
+  size: 248, 33
+  orig: 309, 60
+  offset: 20, 9
+  index: -1
+images/Effect/EskillD/yujing/00008
+  rotate: false
+  xy: 175, 479
+  size: 257, 33
+  orig: 309, 60
+  offset: 21, 10
+  index: -1
+images/Effect/EskillD/yujing/00010
+  rotate: false
+  xy: 660, 172
+  size: 272, 27
+  orig: 309, 60
+  offset: 22, 17
+  index: -1
+images/Effect/EskillD/yujing/00012
+  rotate: true
+  xy: 373, 192
+  size: 285, 21
+  orig: 309, 60
+  offset: 24, 23
+  index: -1
+images/Effect/EskillD/yujing/00013
+  rotate: false
+  xy: 317, 665
+  size: 299, 18
+  orig: 309, 60
+  offset: 10, 26
+  index: -1
+images/Effect/EskillD/yujing/00014
+  rotate: false
+  xy: 618, 663
+  size: 299, 18
+  orig: 309, 60
+  offset: 10, 26
+  index: -1
+images/Effect/EskillD/yujing/00015
+  rotate: false
+  xy: 373, 172
+  size: 285, 18
+  orig: 309, 60
+  offset: 24, 26
+  index: -1
+
+effects_30901_skillD2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/Effect/EskillD/shanguang/00013
+  rotate: false
+  xy: 2, 140
+  size: 245, 87
+  orig: 261, 156
+  offset: 0, 29
+  index: -1
+images/Effect/EskillD/shanguang/00015
+  rotate: true
+  xy: 255, 230
+  size: 90, 92
+  orig: 261, 156
+  offset: 87, 29
+  index: -1
+images/Effect/EskillD/shifa/00018
+  rotate: false
+  xy: 272, 322
+  size: 167, 154
+  orig: 201, 161
+  offset: 19, 5
+  index: -1
+images/Effect/EskillD/shifa1/00011
+  rotate: true
+  xy: 441, 393
+  size: 83, 68
+  orig: 201, 161
+  offset: 65, 17
+  index: -1
+images/Effect/EskillD/shifa1/00012
+  rotate: false
+  xy: 195, 2
+  size: 85, 78
+  orig: 201, 161
+  offset: 64, 18
+  index: -1
+images/Effect/EskillD/shifa1/00013
+  rotate: true
+  xy: 327, 138
+  size: 90, 80
+  orig: 201, 161
+  offset: 62, 21
+  index: -1
+images/Effect/EskillD/shifa1/00014
+  rotate: false
+  xy: 99, 3
+  size: 94, 77
+  orig: 201, 161
+  offset: 58, 24
+  index: -1
+images/Effect/EskillD/shifa1/00015
+  rotate: true
+  xy: 409, 141
+  size: 95, 76
+  orig: 201, 161
+  offset: 56, 25
+  index: -1
+images/Effect/EskillD/shifa1/00016
+  rotate: true
+  xy: 249, 140
+  size: 87, 76
+  orig: 201, 161
+  offset: 61, 25
+  index: -1
+images/Effect/EskillD/shifa1/00017
+  rotate: false
+  xy: 282, 55
+  size: 89, 81
+  orig: 201, 161
+  offset: 60, 20
+  index: -1
+images/Effect/EskillD/shifa1/00018
+  rotate: true
+  xy: 373, 42
+  size: 94, 75
+  orig: 201, 161
+  offset: 56, 24
+  index: -1
+images/Effect/EskillD/shifa1/00019
+  rotate: false
+  xy: 2, 3
+  size: 95, 77
+  orig: 201, 161
+  offset: 53, 21
+  index: -1
+images/Effect/EskillD/shifa1/00021
+  rotate: false
+  xy: 349, 238
+  size: 92, 82
+  orig: 201, 161
+  offset: 55, 16
+  index: -1
+images/Effect/EskillD/xiaceng/00018
+  rotate: false
+  xy: 2, 229
+  size: 251, 94
+  orig: 272, 111
+  offset: 21, 6
+  index: -1
+images/Effect/EskillD/xiaceng/00019
+  rotate: false
+  xy: 2, 325
+  size: 265, 92
+  orig: 272, 111
+  offset: 7, 6
+  index: -1
+images/Effect/EskillD/xiaceng/00025
+  rotate: false
+  xy: 2, 419
+  size: 268, 90
+  orig: 272, 111
+  offset: 4, 12
+  index: -1
+images/Effect/EskillD/yujing/00005
+  rotate: false
+  xy: 272, 478
+  size: 230, 31
+  orig: 309, 60
+  offset: 20, 9
+  index: -1
+images/Effect/EskillD/yujing/00009
+  rotate: false
+  xy: 2, 108
+  size: 265, 30
+  orig: 309, 60
+  offset: 21, 13
+  index: -1
+images/Effect/EskillD/yujing/00011
+  rotate: false
+  xy: 2, 82
+  size: 278, 24
+  orig: 309, 60
+  offset: 23, 20
+  index: -1

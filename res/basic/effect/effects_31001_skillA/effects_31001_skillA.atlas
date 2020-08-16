@@ -1,0 +1,173 @@
+
+effects_31001_skillA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/EskillA/glow1_018
+  rotate: false
+  xy: 694, 14
+  size: 262, 59
+  orig: 264, 59
+  offset: 2, 0
+  index: -1
+effects/skillA/ci/ci_054
+  rotate: false
+  xy: 2, 894
+  size: 500, 124
+  orig: 500, 124
+  offset: 0, 0
+  index: -1
+effects/skillA/ci/ci_055
+  rotate: false
+  xy: 2, 768
+  size: 500, 124
+  orig: 500, 124
+  offset: 0, 0
+  index: -1
+effects/skillA/ci/ci_057
+  rotate: false
+  xy: 504, 894
+  size: 497, 124
+  orig: 500, 124
+  offset: 0, 0
+  index: -1
+effects/skillA/ci/ci_059
+  rotate: false
+  xy: 2, 644
+  size: 496, 122
+  orig: 500, 124
+  offset: 0, 0
+  index: -1
+effects/skillA/ci/ci_061
+  rotate: false
+  xy: 504, 772
+  size: 497, 120
+  orig: 500, 124
+  offset: 0, 0
+  index: -1
+effects/skillA/ci/ci_063
+  rotate: false
+  xy: 504, 660
+  size: 448, 110
+  orig: 500, 124
+  offset: 21, 4
+  index: -1
+effects/skillA/ci/ci_065
+  rotate: false
+  xy: 500, 556
+  size: 384, 102
+  orig: 500, 124
+  offset: 58, 5
+  index: -1
+effects/skillA/dg1/skillA_017
+  rotate: false
+  xy: 745, 397
+  size: 236, 157
+  orig: 374, 209
+  offset: 6, 48
+  index: -1
+effects/skillA/dg1/skillA_018
+  rotate: false
+  xy: 360, 9
+  size: 332, 203
+  orig: 374, 209
+  offset: 0, 6
+  index: -1
+effects/skillA/dg1/skillA_019
+  rotate: false
+  xy: 365, 214
+  size: 336, 204
+  orig: 374, 209
+  offset: 2, 5
+  index: -1
+effects/skillA/dg1/skillA_021
+  rotate: false
+  xy: 2, 433
+  size: 367, 209
+  orig: 374, 209
+  offset: 6, 0
+  index: -1
+effects/skillA/dg1/skillA_023
+  rotate: false
+  xy: 2, 227
+  size: 361, 204
+  orig: 374, 209
+  offset: 13, 2
+  index: -1
+effects/skillA/dg1/skillA_025
+  rotate: false
+  xy: 2, 28
+  size: 356, 197
+  orig: 374, 209
+  offset: 18, 8
+  index: -1
+effects/skillA/dg1/skillA_027
+  rotate: false
+  xy: 703, 208
+  size: 291, 187
+  orig: 374, 209
+  offset: 23, 17
+  index: -1
+effects/skillA/dg2/dg2_031
+  rotate: false
+  xy: 371, 420
+  size: 372, 134
+  orig: 377, 144
+  offset: 0, 0
+  index: -1
+effects/skillA/dg2/dg2_033
+  rotate: false
+  xy: 694, 75
+  size: 324, 131
+  orig: 377, 144
+  offset: 42, 1
+  index: -1
+
+effects_31001_skillA2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/EskillA/dimian_020
+  rotate: true
+  xy: 326, 109
+  size: 242, 58
+  orig: 252, 65
+  offset: 6, 0
+  index: -1
+effects/EskillA/glow2_018
+  rotate: false
+  xy: 366, 376
+  size: 112, 115
+  orig: 112, 115
+  offset: 0, 0
+  index: -1
+effects/skillA/dg2/dg2_028
+  rotate: false
+  xy: 2, 2
+  size: 302, 95
+  orig: 377, 144
+  offset: 65, 47
+  index: -1
+effects/skillA/dg2/dg2_029
+  rotate: false
+  xy: 2, 353
+  size: 362, 138
+  orig: 377, 144
+  offset: 15, 0
+  index: -1
+effects/skillA/dg2/dg2_035
+  rotate: false
+  xy: 2, 223
+  size: 322, 128
+  orig: 377, 144
+  offset: 40, 2
+  index: -1
+effects/skillA/dg2/dg2_037
+  rotate: false
+  xy: 2, 99
+  size: 322, 122
+  orig: 377, 144
+  offset: 40, 3
+  index: -1

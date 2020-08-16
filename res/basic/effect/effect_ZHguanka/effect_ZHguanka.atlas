@@ -1,0 +1,237 @@
+
+effect_ZHguanka.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/glow_000
+  rotate: false
+  xy: 913, 484
+  size: 96, 96
+  orig: 100, 100
+  offset: 2, 2
+  index: -1
+images/lizi
+  rotate: true
+  xy: 441, 59
+  size: 20, 26
+  orig: 20, 26
+  offset: 0, 0
+  index: -1
+images/lizi1
+  rotate: false
+  xy: 659, 114
+  size: 20, 26
+  orig: 20, 26
+  offset: 0, 0
+  index: -1
+images/lizi2
+  rotate: false
+  xy: 975, 774
+  size: 20, 26
+  orig: 20, 26
+  offset: 0, 0
+  index: -1
+images/lizi3
+  rotate: false
+  xy: 222, 21
+  size: 21, 35
+  orig: 21, 35
+  offset: 0, 0
+  index: -1
+images/lizi4
+  rotate: false
+  xy: 913, 459
+  size: 21, 23
+  orig: 21, 23
+  offset: 0, 0
+  index: -1
+images/wang/wang_00002
+  rotate: true
+  xy: 441, 81
+  size: 59, 216
+  orig: 512, 222
+  offset: 8, 3
+  index: -1
+images/wang/wang_00003
+  rotate: true
+  xy: 222, 58
+  size: 82, 217
+  orig: 512, 222
+  offset: 8, 2
+  index: -1
+images/wang/wang_00004
+  rotate: false
+  xy: 916, 802
+  size: 104, 218
+  orig: 512, 222
+  offset: 8, 2
+  index: -1
+images/wang/wang_00005
+  rotate: false
+  xy: 719, 362
+  size: 126, 218
+  orig: 512, 222
+  offset: 8, 2
+  index: -1
+images/wang/wang_00006
+  rotate: false
+  xy: 543, 142
+  size: 147, 218
+  orig: 512, 222
+  offset: 9, 2
+  index: -1
+images/wang/wang_00007
+  rotate: false
+  xy: 549, 362
+  size: 168, 218
+  orig: 512, 222
+  offset: 11, 2
+  index: -1
+images/wang/wang_00008
+  rotate: false
+  xy: 185, 582
+  size: 180, 218
+  orig: 512, 222
+  offset: 21, 2
+  index: -1
+images/wang/wang_00009
+  rotate: false
+  xy: 2, 582
+  size: 181, 218
+  orig: 512, 222
+  offset: 44, 2
+  index: -1
+images/wang/wang_00010
+  rotate: false
+  xy: 370, 802
+  size: 180, 218
+  orig: 512, 222
+  offset: 66, 2
+  index: -1
+images/wang/wang_00011
+  rotate: false
+  xy: 2, 142
+  size: 180, 218
+  orig: 512, 222
+  offset: 89, 2
+  index: -1
+images/wang/wang_00012
+  rotate: false
+  xy: 185, 362
+  size: 180, 218
+  orig: 512, 222
+  offset: 111, 2
+  index: -1
+images/wang/wang_00013
+  rotate: false
+  xy: 367, 582
+  size: 180, 218
+  orig: 512, 222
+  offset: 134, 2
+  index: -1
+images/wang/wang_00014
+  rotate: false
+  xy: 2, 802
+  size: 183, 218
+  orig: 512, 222
+  offset: 156, 2
+  index: -1
+images/wang/wang_00015
+  rotate: false
+  xy: 552, 802
+  size: 180, 218
+  orig: 512, 222
+  offset: 179, 2
+  index: -1
+images/wang/wang_00016
+  rotate: false
+  xy: 184, 142
+  size: 180, 218
+  orig: 512, 222
+  offset: 201, 2
+  index: -1
+images/wang/wang_00017
+  rotate: false
+  xy: 187, 802
+  size: 181, 218
+  orig: 512, 222
+  offset: 223, 2
+  index: -1
+images/wang/wang_00018
+  rotate: false
+  xy: 367, 362
+  size: 180, 218
+  orig: 512, 222
+  offset: 246, 2
+  index: -1
+images/wang/wang_00019
+  rotate: false
+  xy: 549, 582
+  size: 180, 218
+  orig: 512, 222
+  offset: 269, 2
+  index: -1
+images/wang/wang_00020
+  rotate: false
+  xy: 2, 362
+  size: 181, 218
+  orig: 512, 222
+  offset: 291, 2
+  index: -1
+images/wang/wang_00021
+  rotate: false
+  xy: 734, 802
+  size: 180, 218
+  orig: 512, 222
+  offset: 314, 2
+  index: -1
+images/wang/wang_00022
+  rotate: false
+  xy: 366, 142
+  size: 175, 218
+  orig: 512, 222
+  offset: 336, 2
+  index: -1
+images/wang/wang_00023
+  rotate: false
+  xy: 731, 582
+  size: 154, 218
+  orig: 512, 222
+  offset: 358, 2
+  index: -1
+images/wang/wang_00024
+  rotate: true
+  xy: 2, 9
+  size: 131, 218
+  orig: 512, 222
+  offset: 381, 2
+  index: -1
+images/wang/wang_00025
+  rotate: false
+  xy: 692, 142
+  size: 109, 218
+  orig: 512, 222
+  offset: 403, 2
+  index: -1
+images/wang/wang_00026
+  rotate: false
+  xy: 887, 582
+  size: 86, 218
+  orig: 512, 222
+  offset: 426, 2
+  index: -1
+images/wang/wang_00027
+  rotate: false
+  xy: 847, 364
+  size: 64, 216
+  orig: 512, 222
+  offset: 448, 3
+  index: -1
+images/wang/wang_00028
+  rotate: false
+  xy: 803, 146
+  size: 41, 214
+  orig: 512, 222
+  offset: 471, 4
+  index: -1

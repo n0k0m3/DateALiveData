@@ -1,0 +1,418 @@
+
+effects_10701_skillB_leve0.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillb_l0/p3_h/p3_h_0001
+  rotate: true
+  xy: 898, 322
+  size: 232, 79
+  orig: 234, 90
+  offset: 2, 7
+  index: -1
+images/effects/skillb_l0/p3_h/p3_h_0002
+  rotate: false
+  xy: 686, 138
+  size: 231, 79
+  orig: 234, 90
+  offset: 3, 6
+  index: -1
+images/effects/skillb_l0/p3_h/p3_h_0003
+  rotate: false
+  xy: 660, 57
+  size: 228, 79
+  orig: 234, 90
+  offset: 6, 6
+  index: -1
+images/effects/skillb_l0/p3_h/p3_h_0005
+  rotate: false
+  xy: 806, 740
+  size: 213, 77
+  orig: 234, 90
+  offset: 21, 6
+  index: -1
+images/effects/skillb_l0/p3_h/p3_h_0006
+  rotate: false
+  xy: 814, 941
+  size: 208, 81
+  orig: 234, 90
+  offset: 26, 3
+  index: -1
+images/effects/skillb_l0/p3_h/p3_h_0007
+  rotate: true
+  xy: 499, 2
+  size: 210, 79
+  orig: 234, 90
+  offset: 24, 6
+  index: -1
+images/effects/skillb_l0/p3_h/p3_h_0008
+  rotate: false
+  xy: 814, 860
+  size: 207, 79
+  orig: 234, 90
+  offset: 27, 7
+  index: -1
+images/effects/skillb_l0/p3_h/p3_h_0009
+  rotate: true
+  xy: 580, 10
+  size: 202, 78
+  orig: 234, 90
+  offset: 32, 5
+  index: -1
+images/effects/skillb_l3/flare_a
+  rotate: false
+  xy: 435, 320
+  size: 461, 230
+  orig: 461, 230
+  offset: 0, 0
+  index: -1
+images/effects/skillb_l3/light_e_00028
+  rotate: true
+  xy: 979, 222
+  size: 137, 43
+  orig: 137, 43
+  offset: 0, 0
+  index: -1
+images/effects/skillb_l3/light_f_00028
+  rotate: true
+  xy: 979, 361
+  size: 161, 43
+  orig: 161, 43
+  offset: 0, 0
+  index: -1
+images/effects/skillb_l3/p1_a/ceng_a_0001
+  rotate: false
+  xy: 2, 11
+  size: 92, 25
+  orig: 207, 88
+  offset: 80, 9
+  index: -1
+images/effects/skillb_l3/p1_a/ceng_a_0002
+  rotate: true
+  xy: 979, 524
+  size: 163, 43
+  orig: 207, 88
+  offset: 44, 9
+  index: -1
+images/effects/skillb_l3/p1_a/ceng_a_0006
+  rotate: false
+  xy: 837, 5
+  size: 95, 50
+  orig: 207, 88
+  offset: 0, 8
+  index: -1
+images/effects/skillb_l3/p3_c/ring_a_0001
+  rotate: false
+  xy: 934, 19
+  size: 42, 98
+  orig: 63, 144
+  offset: 13, 24
+  index: -1
+images/effects/skillb_l3/p3_c/ring_a_0009
+  rotate: false
+  xy: 959, 626
+  size: 15, 61
+  orig: 63, 144
+  offset: 45, 60
+  index: -1
+images/effects/skillb_l3/p3_e/bao_3a_00013
+  rotate: false
+  xy: 806, 556
+  size: 151, 131
+  orig: 151, 131
+  offset: 0, 0
+  index: -1
+images/effects/skillb_l3/p3_e/bao_3a_00015
+  rotate: false
+  xy: 2, 208
+  size: 431, 342
+  orig: 431, 342
+  offset: 0, 0
+  index: -1
+images/effects/skillb_l3/p3_f/ceng_d_0001
+  rotate: false
+  xy: 435, 214
+  size: 249, 104
+  orig: 252, 108
+  offset: 3, 0
+  index: -1
+images/effects/skillb_l3/p3_f/ceng_d_0002
+  rotate: false
+  xy: 252, 46
+  size: 245, 96
+  orig: 252, 108
+  offset: 3, 0
+  index: -1
+images/effects/skillb_l3/p3_f/ceng_d_0003
+  rotate: false
+  xy: 686, 219
+  size: 245, 99
+  orig: 252, 108
+  offset: 3, 0
+  index: -1
+images/effects/skillb_l3/p3_f/ceng_d_0004
+  rotate: false
+  xy: 2, 38
+  size: 248, 104
+  orig: 252, 108
+  offset: 4, 0
+  index: -1
+images/effects/skillb_l3/p3_i/pen_3i_0001
+  rotate: false
+  xy: 2, 864
+  size: 810, 158
+  orig: 810, 162
+  offset: 0, 4
+  index: -1
+images/effects/skillb_l3/p3_i/pen_3i_0002
+  rotate: false
+  xy: 2, 653
+  size: 801, 101
+  orig: 810, 162
+  offset: 9, 30
+  index: -1
+images/effects/skillb_l3/p3_i/pen_3i_0003
+  rotate: false
+  xy: 2, 552
+  size: 802, 99
+  orig: 810, 162
+  offset: 8, 31
+  index: -1
+images/effects/skillb_l3/p3_i/pen_3i_0004
+  rotate: false
+  xy: 2, 756
+  size: 802, 106
+  orig: 810, 162
+  offset: 8, 24
+  index: -1
+images/effects/skillb_l3/p3_i/pen_3i_0009
+  rotate: false
+  xy: 2, 144
+  size: 425, 62
+  orig: 810, 162
+  offset: 10, 41
+  index: -1
+images/effects/skillb_l3/p3_l/lizi_3l_0002
+  rotate: true
+  xy: 933, 119
+  size: 201, 44
+  orig: 252, 54
+  offset: 0, 10
+  index: -1
+images/effects/skillb_l3/p3_l/lizi_3l_0004
+  rotate: false
+  xy: 252, 2
+  size: 194, 42
+  orig: 252, 54
+  offset: 22, 12
+  index: -1
+images/effects/skillb_l3/p3_l/lizi_3l_0006
+  rotate: false
+  xy: 805, 689
+  size: 217, 49
+  orig: 252, 54
+  offset: 4, 5
+  index: -1
+images/effects/skillb_l3/p3_l/lizi_3l_0009
+  rotate: false
+  xy: 660, 2
+  size: 175, 53
+  orig: 252, 54
+  offset: 19, 1
+  index: -1
+images/effects/skillb_l3/p3_l/lizi_3l_0014
+  rotate: false
+  xy: 806, 819
+  size: 216, 39
+  orig: 252, 54
+  offset: 20, 2
+  index: -1
+images/effects/skillb_l3/p3_l/lizi_3l_0015
+  rotate: true
+  xy: 979, 14
+  size: 206, 41
+  orig: 252, 54
+  offset: 33, 0
+  index: -1
+images/effects/skillb_l3/qt_00023
+  rotate: true
+  xy: 890, 59
+  size: 77, 33
+  orig: 77, 33
+  offset: 0, 0
+  index: -1
+
+effects_10701_skillB_leve02.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillb_l0/p3_h/p3_h_0004
+  rotate: false
+  xy: 2, 433
+  size: 219, 77
+  orig: 234, 90
+  offset: 15, 7
+  index: -1
+images/effects/skillb_l3/light_b_00038
+  rotate: false
+  xy: 205, 256
+  size: 106, 108
+  orig: 106, 108
+  offset: 0, 0
+  index: -1
+images/effects/skillb_l3/p1_a/ceng_a_0003
+  rotate: false
+  xy: 205, 366
+  size: 187, 45
+  orig: 207, 88
+  offset: 4, 9
+  index: -1
+images/effects/skillb_l3/p1_a/ceng_a_0004
+  rotate: true
+  xy: 375, 225
+  size: 139, 45
+  orig: 207, 88
+  offset: 0, 8
+  index: -1
+images/effects/skillb_l3/p1_a/ceng_a_0005
+  rotate: true
+  xy: 463, 383
+  size: 127, 47
+  orig: 207, 88
+  offset: 0, 8
+  index: -1
+images/effects/skillb_l3/p3_c/ring_a_0002
+  rotate: true
+  xy: 284, 39
+  size: 48, 111
+  orig: 63, 144
+  offset: 10, 19
+  index: -1
+images/effects/skillb_l3/p3_c/ring_a_0003
+  rotate: false
+  xy: 422, 255
+  size: 56, 126
+  orig: 63, 144
+  offset: 4, 10
+  index: -1
+images/effects/skillb_l3/p3_c/ring_a_0004
+  rotate: true
+  xy: 151, 2
+  size: 58, 131
+  orig: 63, 144
+  offset: 3, 9
+  index: -1
+images/effects/skillb_l3/p3_c/ring_a_0005
+  rotate: false
+  xy: 360, 89
+  size: 59, 134
+  orig: 63, 144
+  offset: 2, 8
+  index: -1
+images/effects/skillb_l3/p3_c/ring_a_0006
+  rotate: false
+  xy: 313, 228
+  size: 60, 136
+  orig: 63, 144
+  offset: 1, 6
+  index: -1
+images/effects/skillb_l3/p3_c/ring_a_0007
+  rotate: false
+  xy: 237, 117
+  size: 59, 137
+  orig: 63, 144
+  offset: 2, 6
+  index: -1
+images/effects/skillb_l3/p3_c/ring_a_0008
+  rotate: false
+  xy: 298, 97
+  size: 60, 129
+  orig: 63, 144
+  offset: 1, 11
+  index: -1
+images/effects/skillb_l3/p3_l/lizi_3l_0001
+  rotate: true
+  xy: 58, 15
+  size: 189, 40
+  orig: 252, 54
+  offset: 3, 14
+  index: -1
+images/effects/skillb_l3/p3_l/lizi_3l_0003
+  rotate: false
+  xy: 223, 413
+  size: 204, 44
+  orig: 252, 54
+  offset: 5, 10
+  index: -1
+images/effects/skillb_l3/p3_l/lizi_3l_0005
+  rotate: true
+  xy: 100, 11
+  size: 188, 49
+  orig: 252, 54
+  offset: 32, 5
+  index: -1
+images/effects/skillb_l3/p3_l/lizi_3l_0007
+  rotate: true
+  xy: 52, 206
+  size: 225, 48
+  orig: 252, 54
+  offset: 0, 6
+  index: -1
+images/effects/skillb_l3/p3_l/lizi_3l_0008
+  rotate: true
+  xy: 2, 203
+  size: 228, 48
+  orig: 252, 54
+  offset: 0, 5
+  index: -1
+images/effects/skillb_l3/p3_l/lizi_3l_0010
+  rotate: true
+  xy: 149, 226
+  size: 205, 54
+  orig: 252, 54
+  offset: 0, 0
+  index: -1
+images/effects/skillb_l3/p3_l/lizi_3l_0011
+  rotate: true
+  xy: 2, 2
+  size: 197, 54
+  orig: 252, 54
+  offset: 18, 0
+  index: -1
+images/effects/skillb_l3/p3_l/lizi_3l_0012
+  rotate: false
+  xy: 223, 459
+  size: 224, 51
+  orig: 252, 54
+  offset: 0, 0
+  index: -1
+images/effects/skillb_l3/p3_l/lizi_3l_0013
+  rotate: true
+  xy: 102, 201
+  size: 230, 45
+  orig: 252, 54
+  offset: 1, 2
+  index: -1
+images/effects/skillb_l3/p3_l/lizi_3l_0016
+  rotate: true
+  xy: 151, 62
+  size: 162, 41
+  orig: 252, 54
+  offset: 79, 0
+  index: -1
+images/effects/skillb_l3/p3_l/lizi_3l_0017
+  rotate: true
+  xy: 194, 67
+  size: 157, 41
+  orig: 252, 54
+  offset: 85, 0
+  index: -1
+images/effects/skillb_l3/p3_l/lizi_3l_0018
+  rotate: true
+  xy: 421, 68
+  size: 155, 40
+  orig: 252, 54
+  offset: 89, 0
+  index: -1

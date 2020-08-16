@@ -1,0 +1,13 @@
+
+map_lizi_01.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sucai/Spot-2
+  rotate: false
+  xy: 2, 2
+  size: 177, 178
+  orig: 192, 192
+  offset: 7, 7
+  index: -1

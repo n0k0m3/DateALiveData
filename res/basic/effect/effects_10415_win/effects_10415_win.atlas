@@ -1,0 +1,167 @@
+
+effects_10415_win.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_H/win/dimian/dimian_011
+  rotate: false
+  xy: 2, 74
+  size: 92, 89
+  orig: 126, 126
+  offset: 16, 16
+  index: -1
+images/effects_H/win/dimian/dimian_013
+  rotate: false
+  xy: 2, 258
+  size: 100, 94
+  orig: 126, 126
+  offset: 11, 13
+  index: -1
+images/effects_H/win/dimian/dimian_015
+  rotate: false
+  xy: 890, 917
+  size: 103, 105
+  orig: 126, 126
+  offset: 10, 7
+  index: -1
+images/effects_H/win/dimian/dimian_017
+  rotate: false
+  xy: 2, 354
+  size: 101, 106
+  orig: 126, 126
+  offset: 10, 8
+  index: -1
+images/effects_H/win/dimian/dimian_019
+  rotate: false
+  xy: 2, 462
+  size: 103, 111
+  orig: 126, 126
+  offset: 9, 5
+  index: -1
+images/effects_H/win/glow2
+  rotate: false
+  xy: 95, 2
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+images/effects_H/win/hua/hua_023
+  rotate: true
+  xy: 302, 834
+  size: 64, 45
+  orig: 105, 105
+  offset: 22, 24
+  index: -1
+images/effects_H/win/hua/hua_024
+  rotate: false
+  xy: 2, 2
+  size: 91, 70
+  orig: 105, 105
+  offset: 6, 13
+  index: -1
+images/effects_H/win/hua/hua_025
+  rotate: true
+  xy: 117, 802
+  size: 91, 90
+  orig: 105, 105
+  offset: 6, 15
+  index: -1
+images/effects_H/win/hua/hua_027
+  rotate: false
+  xy: 2, 165
+  size: 98, 91
+  orig: 105, 105
+  offset: 6, 11
+  index: -1
+images/effects_H/win/hua/hua_029
+  rotate: false
+  xy: 209, 808
+  size: 91, 90
+  orig: 105, 105
+  offset: 6, 9
+  index: -1
+images/effects_H/win/hua/hua_031
+  rotate: false
+  xy: 117, 717
+  size: 87, 83
+  orig: 105, 105
+  offset: 10, 11
+  index: -1
+images/effects_H/win/hua/hua_033
+  rotate: false
+  xy: 111, 640
+  size: 83, 75
+  orig: 105, 105
+  offset: 11, 13
+  index: -1
+images/effects_H/win/hua/hua_035
+  rotate: false
+  xy: 111, 585
+  size: 76, 53
+  orig: 105, 105
+  offset: 13, 21
+  index: -1
+images/effects_H/win/hua/hua_037
+  rotate: false
+  xy: 349, 868
+  size: 60, 37
+  orig: 105, 105
+  offset: 21, 34
+  index: -1
+images/effects_H/win/mofa/mofa_000
+  rotate: true
+  xy: 2, 575
+  size: 152, 107
+  orig: 175, 140
+  offset: 10, 10
+  index: -1
+images/effects_H/win/mofa/mofa_002
+  rotate: true
+  xy: 2, 729
+  size: 164, 113
+  orig: 175, 140
+  offset: 1, 10
+  index: -1
+images/effects_H/win/mofa/mofa_004
+  rotate: false
+  xy: 2, 895
+  size: 159, 127
+  orig: 175, 140
+  offset: 4, 0
+  index: -1
+images/effects_H/win/mofa/mofa_006
+  rotate: false
+  xy: 163, 900
+  size: 150, 122
+  orig: 175, 140
+  offset: 11, 7
+  index: -1
+images/effects_H/win/mofa/mofa_008
+  rotate: false
+  xy: 315, 907
+  size: 146, 115
+  orig: 175, 140
+  offset: 12, 11
+  index: -1
+images/effects_H/win/mofa/mofa_010
+  rotate: false
+  xy: 463, 908
+  size: 144, 114
+  orig: 175, 140
+  offset: 14, 12
+  index: -1
+images/effects_H/win/mofa/mofa_012
+  rotate: false
+  xy: 609, 910
+  size: 141, 112
+  orig: 175, 140
+  offset: 16, 13
+  index: -1
+images/effects_H/win/mofa/mofa_014
+  rotate: false
+  xy: 752, 914
+  size: 136, 108
+  orig: 175, 140
+  offset: 20, 14
+  index: -1

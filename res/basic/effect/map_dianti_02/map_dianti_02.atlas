@@ -1,0 +1,159 @@
+
+map_dianti_02.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dengliang
+  rotate: true
+  xy: 447, 37
+  size: 40, 57
+  orig: 40, 57
+  offset: 0, 0
+  index: -1
+dianti
+  rotate: false
+  xy: 2, 79
+  size: 428, 431
+  orig: 428, 431
+  offset: 0, 0
+  index: -1
+dongtaiguang
+  rotate: false
+  xy: 361, 7
+  size: 40, 70
+  orig: 40, 70
+  offset: 0, 0
+  index: -1
+xiantiao/xiaotiao_00063
+  rotate: true
+  xy: 403, 15
+  size: 62, 42
+  orig: 62, 42
+  offset: 0, 0
+  index: -1
+xiantiao/xiaotiao_00064
+  rotate: false
+  xy: 432, 107
+  size: 48, 49
+  orig: 48, 49
+  offset: 0, 0
+  index: -1
+xiantiao/xiaotiao_00065
+  rotate: false
+  xy: 447, 2
+  size: 40, 33
+  orig: 40, 33
+  offset: 0, 0
+  index: -1
+xiantiao/xiaotiao_00066
+  rotate: false
+  xy: 432, 79
+  size: 16, 26
+  orig: 16, 26
+  offset: 0, 0
+  index: -1
+xiantiao2/xiantiao2_00141
+  rotate: true
+  xy: 447, 335
+  size: 175, 58
+  orig: 175, 58
+  offset: 0, 0
+  index: -1
+xiantiao2/xiantiao2_00142
+  rotate: false
+  xy: 2, 17
+  size: 178, 60
+  orig: 178, 60
+  offset: 0, 0
+  index: -1
+xiantiao2/xiantiao2_00143
+  rotate: false
+  xy: 182, 19
+  size: 177, 58
+  orig: 177, 58
+  offset: 0, 0
+  index: -1
+xiantiao2/xiantiao2_00144
+  rotate: true
+  xy: 432, 158
+  size: 175, 58
+  orig: 175, 58
+  offset: 0, 0
+  index: -1
+zhishideng
+  rotate: true
+  xy: 2, 3
+  size: 12, 32
+  orig: 12, 32
+  offset: 0, 0
+  index: -1
+
+map_dianti_022.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guangmen_00000
+  rotate: false
+  xy: 2, 266
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+mennei
+  rotate: false
+  xy: 2, 88
+  size: 157, 176
+  orig: 157, 176
+  offset: 0, 0
+  index: -1
+menshang
+  rotate: false
+  xy: 229, 360
+  size: 152, 131
+  orig: 152, 131
+  offset: 0, 0
+  index: -1
+menxia
+  rotate: false
+  xy: 2, 2
+  size: 152, 84
+  orig: 152, 84
+  offset: 0, 0
+  index: -1
+xiantiao2/xiantiao2_00140
+  rotate: false
+  xy: 229, 302
+  size: 172, 56
+  orig: 172, 56
+  offset: 0, 0
+  index: -1
+xiantiao2/xiantiao2_00145
+  rotate: true
+  xy: 161, 91
+  size: 173, 57
+  orig: 173, 57
+  offset: 0, 0
+  index: -1
+xiantiao2/xiantiao2_00146
+  rotate: false
+  xy: 229, 244
+  size: 172, 56
+  orig: 172, 56
+  offset: 0, 0
+  index: -1
+xiantiao2/xiantiao2_00147
+  rotate: false
+  xy: 220, 189
+  size: 166, 53
+  orig: 166, 53
+  offset: 0, 0
+  index: -1
+xiantiao2/xiantiao2_00148
+  rotate: false
+  xy: 220, 134
+  size: 166, 53
+  orig: 166, 53
+  offset: 0, 0
+  index: -1

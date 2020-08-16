@@ -1,0 +1,117 @@
+{
+"skeleton": {
+	"hash": "fLvV4/8CSUE7oltLJ1EGcIMELLE",
+	"spine": "2.1.27",
+	"width": 0,
+	"height": 0,
+	"images": "C:/Users/Administrator/Desktop/尺寸需要修改的特效/map_huohua_07"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "bone4", "parent": "root" },
+	{ "name": "bone2", "parent": "bone" },
+	{ "name": "bone3", "parent": "bone" },
+	{ "name": "bone5", "parent": "bone4" }
+],
+"slots": [
+	{ "name": "sucai/huohua/huohua_00009", "bone": "bone2" },
+	{ "name": "sucai/huohua/huohua_9", "bone": "bone3" },
+	{ "name": "sucai/lvliang_00000", "bone": "bone5" }
+],
+"skins": {
+	"default": {
+		"sucai/huohua/huohua_00009": {
+			"sucai/huohua/huohua_00009": { "width": 66, "height": 46 },
+			"sucai/huohua/huohua_00010": { "width": 99, "height": 60 },
+			"sucai/huohua/huohua_00011": { "width": 75, "height": 50 }
+		},
+		"sucai/huohua/huohua_9": {
+			"sucai/huohua/huohua_00009": { "width": 66, "height": 46 },
+			"sucai/huohua/huohua_00010": { "width": 99, "height": 60 },
+			"sucai/huohua/huohua_00011": { "width": 75, "height": 50 }
+		},
+		"sucai/lvliang_00000": {
+			"sucai/lvliang_00000": { "width": 43, "height": 45 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"sucai/huohua/huohua_00009": {
+				"attachment": [
+					{ "time": 1.4333, "name": "sucai/huohua/huohua_00009" },
+					{ "time": 1.6, "name": "sucai/huohua/huohua_00010" },
+					{ "time": 1.7666, "name": "sucai/huohua/huohua_00011" },
+					{ "time": 1.9333, "name": null }
+				]
+			},
+			"sucai/huohua/huohua_9": {
+				"attachment": [
+					{ "time": 3.5, "name": "sucai/huohua/huohua_00009" },
+					{ "time": 3.6666, "name": "sucai/huohua/huohua_00010" },
+					{ "time": 3.8333, "name": "sucai/huohua/huohua_00011" },
+					{ "time": 4, "name": null }
+				]
+			},
+			"sucai/lvliang_00000": {
+				"attachment": [
+					{ "time": 0, "name": "sucai/lvliang_00000" }
+				],
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffffff",
+						"curve": [ 0.75, 0.14, 1, 0.72 ]
+					},
+					{
+						"time": 2,
+						"color": "ffffff98",
+						"curve": [ 0.75, 0.14, 1, 0.72 ]
+					},
+					{
+						"time": 2.1,
+						"color": "ffffffff",
+						"curve": [ 0.75, 0.14, 1, 0.72 ]
+					},
+					{
+						"time": 2.1666,
+						"color": "ffffff00",
+						"curve": [ 0.75, 0.14, 1, 0.72 ]
+					},
+					{
+						"time": 2.2333,
+						"color": "ffffffff",
+						"curve": [ 0.75, 0.14, 1, 0.72 ]
+					},
+					{ "time": 2.3, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"bone2": {
+				"translate": [
+					{ "time": 1.4333, "x": 1574.92, "y": -246.94 }
+				],
+				"scale": [
+					{ "time": 1.4333, "x": 2.209, "y": 2.209 }
+				]
+			},
+			"bone3": {
+				"translate": [
+					{ "time": 3.5, "x": -746.07, "y": -6.71 }
+				],
+				"scale": [
+					{ "time": 3.5, "x": 2.091, "y": 2.091 }
+				]
+			},
+			"bone5": {
+				"translate": [
+					{ "time": 0, "x": 970.91, "y": 5.95 }
+				]
+			}
+		}
+	}
+}
+}

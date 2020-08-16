@@ -1,0 +1,146 @@
+
+effects_10209_win.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/glow
+  rotate: false
+  xy: 374, 19
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+images/effect/win/baokai/baokai_00030
+  rotate: true
+  xy: 2, 2
+  size: 206, 211
+  orig: 307, 306
+  offset: 53, 48
+  index: -1
+images/effect/win/baokai/baokai_00032
+  rotate: false
+  xy: 297, 754
+  size: 264, 264
+  orig: 307, 306
+  offset: 23, 19
+  index: -1
+images/effect/win/baokai/baokai_00034
+  rotate: false
+  xy: 2, 438
+  size: 286, 286
+  orig: 307, 306
+  offset: 12, 8
+  index: -1
+images/effect/win/baokai/baokai_00036
+  rotate: false
+  xy: 2, 726
+  size: 293, 292
+  orig: 307, 306
+  offset: 8, 6
+  index: -1
+images/effect/win/baokai/baokai_00038
+  rotate: false
+  xy: 563, 792
+  size: 234, 226
+  orig: 307, 306
+  offset: 47, 46
+  index: -1
+images/effect/win/baokai/baokai_00040
+  rotate: false
+  xy: 2, 210
+  size: 246, 226
+  orig: 307, 306
+  offset: 39, 48
+  index: -1
+images/effect/win/baokai/baokai_00042
+  rotate: true
+  xy: 799, 785
+  size: 233, 214
+  orig: 307, 306
+  offset: 42, 57
+  index: -1
+images/effect/win/daoguang/daoguang_00011
+  rotate: false
+  xy: 215, 23
+  size: 157, 66
+  orig: 286, 183
+  offset: 49, 100
+  index: -1
+images/effect/win/daoguang/daoguang_00013
+  rotate: false
+  xy: 739, 454
+  size: 258, 160
+  orig: 286, 183
+  offset: 13, 1
+  index: -1
+images/effect/win/daoguang/daoguang_00014
+  rotate: true
+  xy: 554, 300
+  size: 233, 158
+  orig: 286, 183
+  offset: 26, 0
+  index: -1
+images/effect/win/daoguang/daoguang_00016
+  rotate: false
+  xy: 297, 585
+  size: 269, 167
+  orig: 286, 183
+  offset: 15, 0
+  index: -1
+images/effect/win/daoguang/daoguang_00017
+  rotate: false
+  xy: 739, 616
+  size: 258, 167
+  orig: 286, 183
+  offset: 15, 0
+  index: -1
+images/effect/win/daoguang/daoguang_00019
+  rotate: false
+  xy: 290, 415
+  size: 262, 168
+  orig: 286, 183
+  offset: 18, 1
+  index: -1
+images/effect/win/daoguang/daoguang_00021
+  rotate: false
+  xy: 250, 244
+  size: 260, 169
+  orig: 286, 183
+  offset: 20, 1
+  index: -1
+images/effect/win/daoguang/daoguang_00023
+  rotate: true
+  xy: 568, 535
+  size: 255, 169
+  orig: 286, 183
+  offset: 21, 2
+  index: -1
+images/effect/win/daoguang/daoguang_00025
+  rotate: false
+  xy: 250, 91
+  size: 249, 151
+  orig: 286, 183
+  offset: 22, 20
+  index: -1
+images/effect/win/daoguang/daoguang_00027
+  rotate: false
+  xy: 714, 312
+  size: 243, 140
+  orig: 286, 183
+  offset: 23, 22
+  index: -1
+images/effect/win/daoguang/daoguang_00029
+  rotate: false
+  xy: 714, 187
+  size: 235, 123
+  orig: 286, 183
+  offset: 29, 24
+  index: -1
+images/effect/win/daoguang/daoguang_00031
+  rotate: true
+  xy: 501, 20
+  size: 222, 110
+  orig: 286, 183
+  offset: 35, 32
+  index: -1

@@ -1,0 +1,146 @@
+
+effect_zhezhi_level01.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/dasuipian/1_00000
+  rotate: false
+  xy: 541, 797
+  size: 416, 221
+  orig: 416, 221
+  offset: 0, 0
+  index: -1
+images/dasuipian/2_00000
+  rotate: false
+  xy: 2, 571
+  size: 537, 447
+  orig: 537, 447
+  offset: 0, 0
+  index: -1
+images/dasuipian/3_00000
+  rotate: false
+  xy: 2, 100
+  size: 292, 469
+  orig: 292, 469
+  offset: 0, 0
+  index: -1
+images/dasuipian/4_00000
+  rotate: true
+  xy: 296, 186
+  size: 383, 222
+  orig: 383, 222
+  offset: 0, 0
+  index: -1
+images/dasuipian/5_00000
+  rotate: true
+  xy: 541, 614
+  size: 181, 414
+  orig: 181, 414
+  offset: 0, 0
+  index: -1
+images/xiaosuipian/1
+  rotate: false
+  xy: 520, 497
+  size: 33, 32
+  orig: 33, 32
+  offset: 0, 0
+  index: -1
+images/xiaosuipian/10
+  rotate: false
+  xy: 296, 138
+  size: 78, 46
+  orig: 78, 46
+  offset: 0, 0
+  index: -1
+images/xiaosuipian/11
+  rotate: false
+  xy: 520, 531
+  size: 60, 38
+  orig: 60, 38
+  offset: 0, 0
+  index: -1
+images/xiaosuipian/12
+  rotate: false
+  xy: 2, 2
+  size: 49, 43
+  orig: 49, 43
+  offset: 0, 0
+  index: -1
+images/xiaosuipian/13
+  rotate: true
+  xy: 959, 932
+  size: 86, 54
+  orig: 86, 54
+  offset: 0, 0
+  index: -1
+images/xiaosuipian/14
+  rotate: false
+  xy: 541, 571
+  size: 65, 41
+  orig: 65, 41
+  offset: 0, 0
+  index: -1
+images/xiaosuipian/15
+  rotate: false
+  xy: 582, 531
+  size: 19, 38
+  orig: 19, 38
+  offset: 0, 0
+  index: -1
+images/xiaosuipian/2
+  rotate: false
+  xy: 959, 893
+  size: 36, 37
+  orig: 36, 37
+  offset: 0, 0
+  index: -1
+images/xiaosuipian/3
+  rotate: false
+  xy: 53, 8
+  size: 27, 37
+  orig: 27, 37
+  offset: 0, 0
+  index: -1
+images/xiaosuipian/4
+  rotate: false
+  xy: 376, 151
+  size: 35, 33
+  orig: 35, 33
+  offset: 0, 0
+  index: -1
+images/xiaosuipian/5
+  rotate: false
+  xy: 98, 60
+  size: 42, 38
+  orig: 42, 38
+  offset: 0, 0
+  index: -1
+images/xiaosuipian/6
+  rotate: false
+  xy: 608, 574
+  size: 29, 38
+  orig: 29, 38
+  offset: 0, 0
+  index: -1
+images/xiaosuipian/7
+  rotate: true
+  xy: 296, 107
+  size: 29, 42
+  orig: 29, 42
+  offset: 0, 0
+  index: -1
+images/xiaosuipian/8
+  rotate: false
+  xy: 2, 47
+  size: 94, 51
+  orig: 94, 51
+  offset: 0, 0
+  index: -1
+images/xiaosuipian/9
+  rotate: false
+  xy: 142, 71
+  size: 32, 27
+  orig: 32, 27
+  offset: 0, 0
+  index: -1

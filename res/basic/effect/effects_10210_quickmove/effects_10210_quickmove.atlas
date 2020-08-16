@@ -1,0 +1,48 @@
+
+effects_10210_quickmove.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/quickmove/chuanci/chuanci_002
+  rotate: false
+  xy: 2, 177
+  size: 395, 166
+  orig: 397, 166
+  offset: 2, 0
+  index: -1
+effect/quickmove/chuanci/chuanci_003
+  rotate: false
+  xy: 2, 345
+  size: 397, 163
+  orig: 397, 166
+  offset: 0, 0
+  index: -1
+effect/quickmove/chuanci/chuanci_005
+  rotate: true
+  xy: 401, 111
+  size: 397, 107
+  orig: 397, 166
+  offset: 0, 38
+  index: -1
+effect/quickmove/chuanci/chuanci_007
+  rotate: false
+  xy: 168, 10
+  size: 289, 83
+  orig: 397, 166
+  offset: 34, 41
+  index: -1
+effect/quickmove/chuanci/chuanci_009
+  rotate: false
+  xy: 168, 95
+  size: 231, 80
+  orig: 397, 166
+  offset: 38, 44
+  index: -1
+effect/quickmove/juese_001
+  rotate: true
+  xy: 2, 43
+  size: 132, 164
+  orig: 135, 164
+  offset: 3, 0
+  index: -1

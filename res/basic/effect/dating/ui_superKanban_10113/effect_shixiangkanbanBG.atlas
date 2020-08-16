@@ -1,0 +1,33 @@
+
+effect_shixiangkanbanBG.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/BG
+  rotate: false
+  xy: 2, 547
+  size: 1012, 467
+  orig: 1012, 467
+  offset: 0, 0
+  index: -1
+images/yun1
+  rotate: false
+  xy: 2, 82
+  size: 1012, 463
+  orig: 1012, 467
+  offset: 0, 1
+  index: -1
+
+effect_shixiangkanbanBG2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/yun
+  rotate: false
+  xy: 2, 746
+  size: 942, 198
+  orig: 942, 198
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,153 @@
+
+effect_zhezhi_box01.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/bian_00000
+  rotate: false
+  xy: 2, 382
+  size: 87, 94
+  orig: 99, 113
+  offset: 6, 8
+  index: -1
+images/lizi/lizi_00000
+  rotate: false
+  xy: 149, 141
+  size: 81, 65
+  orig: 135, 100
+  offset: 24, 14
+  index: -1
+images/lizi/lizi_00001
+  rotate: false
+  xy: 63, 82
+  size: 81, 65
+  orig: 135, 100
+  offset: 24, 14
+  index: -1
+images/lizi/lizi_00002
+  rotate: false
+  xy: 62, 16
+  size: 79, 64
+  orig: 135, 100
+  offset: 25, 15
+  index: -1
+images/lizi/lizi_00003
+  rotate: false
+  xy: 146, 75
+  size: 79, 64
+  orig: 135, 100
+  offset: 25, 15
+  index: -1
+images/lizi/lizi_00004
+  rotate: false
+  xy: 143, 11
+  size: 78, 62
+  orig: 135, 100
+  offset: 25, 16
+  index: -1
+images/lizi/lizi_00005
+  rotate: false
+  xy: 185, 415
+  size: 92, 61
+  orig: 135, 100
+  offset: 25, 17
+  index: -1
+images/lizi/lizi_00006
+  rotate: true
+  xy: 2, 98
+  size: 94, 59
+  orig: 135, 100
+  offset: 25, 19
+  index: -1
+images/lizi/lizi_00007
+  rotate: false
+  xy: 279, 418
+  size: 94, 58
+  orig: 135, 100
+  offset: 25, 19
+  index: -1
+images/lizi/lizi_00008
+  rotate: true
+  xy: 2, 2
+  size: 94, 58
+  orig: 135, 100
+  offset: 25, 19
+  index: -1
+images/lizi/lizi_00009
+  rotate: false
+  xy: 91, 354
+  size: 93, 57
+  orig: 135, 100
+  offset: 25, 19
+  index: -1
+images/lizi/lizi_00010
+  rotate: false
+  xy: 375, 417
+  size: 93, 59
+  orig: 135, 100
+  offset: 25, 15
+  index: -1
+images/lizi/lizi_00011
+  rotate: true
+  xy: 2, 194
+  size: 93, 61
+  orig: 135, 100
+  offset: 24, 14
+  index: -1
+images/lizi/lizi_00012
+  rotate: false
+  xy: 91, 413
+  size: 92, 63
+  orig: 135, 100
+  offset: 24, 13
+  index: -1
+images/lizi/lizi_00013
+  rotate: true
+  xy: 2, 289
+  size: 91, 66
+  orig: 135, 100
+  offset: 24, 12
+  index: -1
+images/lizi/lizi_00014
+  rotate: false
+  xy: 65, 216
+  size: 83, 67
+  orig: 135, 100
+  offset: 24, 12
+  index: -1
+images/lizi/lizi_00015
+  rotate: false
+  xy: 150, 208
+  size: 82, 67
+  orig: 135, 100
+  offset: 24, 12
+  index: -1
+images/lizi/lizi_00016
+  rotate: false
+  xy: 70, 285
+  size: 84, 67
+  orig: 135, 100
+  offset: 22, 13
+  index: -1
+images/lizi/lizi_00017
+  rotate: false
+  xy: 186, 346
+  size: 85, 67
+  orig: 135, 100
+  offset: 21, 13
+  index: -1
+images/lizi/lizi_00018
+  rotate: false
+  xy: 156, 277
+  size: 83, 67
+  orig: 135, 100
+  offset: 22, 13
+  index: -1
+images/lizi/lizi_00019
+  rotate: false
+  xy: 65, 149
+  size: 82, 65
+  orig: 135, 100
+  offset: 23, 14
+  index: -1

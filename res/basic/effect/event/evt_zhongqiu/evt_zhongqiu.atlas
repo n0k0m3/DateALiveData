@@ -1,0 +1,20 @@
+
+evt_zhongqiu.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow_000
+  rotate: false
+  xy: 2, 30
+  size: 59, 96
+  orig: 66, 100
+  offset: 4, 1
+  index: -1
+lizi_000
+  rotate: false
+  xy: 2, 2
+  size: 28, 26
+  orig: 40, 40
+  offset: 6, 7
+  index: -1

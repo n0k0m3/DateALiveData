@@ -1,0 +1,76 @@
+
+effects_22501_skillA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+texiao/dian/1_00000
+  rotate: true
+  xy: 820, 573
+  size: 79, 49
+  orig: 124, 110
+  offset: 29, 53
+  index: -1
+texiao/dian/1_00001
+  rotate: true
+  xy: 820, 654
+  size: 73, 61
+  orig: 124, 110
+  offset: 37, 47
+  index: -1
+texiao/dian/1_00004
+  rotate: false
+  xy: 880, 895
+  size: 107, 92
+  orig: 124, 110
+  offset: 14, 8
+  index: -1
+texiao/dian/1_00006
+  rotate: true
+  xy: 880, 783
+  size: 110, 75
+  orig: 124, 110
+  offset: 4, 6
+  index: -1
+texiao/hit/1_00025
+  rotate: false
+  xy: 2, 648
+  size: 327, 339
+  orig: 361, 364
+  offset: 17, 11
+  index: -1
+texiao/hit/1_00026
+  rotate: false
+  xy: 600, 729
+  size: 278, 258
+  orig: 361, 364
+  offset: 35, 57
+  index: -1
+texiao/hit/1_00028
+  rotate: false
+  xy: 2, 329
+  size: 298, 317
+  orig: 361, 364
+  offset: 37, 30
+  index: -1
+texiao/hit/1_00030
+  rotate: false
+  xy: 331, 673
+  size: 267, 314
+  orig: 361, 364
+  offset: 69, 31
+  index: -1
+texiao/hit/1_00032
+  rotate: false
+  xy: 2, 12
+  size: 262, 315
+  orig: 361, 364
+  offset: 75, 31
+  index: -1
+texiao/hit/1_00034
+  rotate: true
+  xy: 600, 513
+  size: 214, 218
+  orig: 361, 364
+  offset: 101, 46
+  index: -1

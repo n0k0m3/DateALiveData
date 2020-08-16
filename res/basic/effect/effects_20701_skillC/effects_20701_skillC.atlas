@@ -1,0 +1,237 @@
+
+effects_20701_skillC.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/tx/skillC/canying1/canying1_00000
+  rotate: true
+  xy: 763, 850
+  size: 105, 68
+  orig: 160, 80
+  offset: 29, 8
+  index: -1
+images/tx/skillC/canying1/canying1_00001
+  rotate: false
+  xy: 835, 717
+  size: 106, 69
+  orig: 160, 80
+  offset: 29, 7
+  index: -1
+images/tx/skillC/canying1/canying1_00002
+  rotate: false
+  xy: 132, 442
+  size: 107, 69
+  orig: 160, 80
+  offset: 28, 7
+  index: -1
+images/tx/skillC/canying1/canying1_00003
+  rotate: true
+  xy: 121, 136
+  size: 104, 69
+  orig: 160, 80
+  offset: 30, 7
+  index: -1
+images/tx/skillC/canying1/canying1_00004
+  rotate: true
+  xy: 760, 741
+  size: 107, 73
+  orig: 160, 80
+  offset: 29, 4
+  index: -1
+images/tx/skillC/canying1/canying1_00005
+  rotate: true
+  xy: 124, 242
+  size: 107, 73
+  orig: 160, 80
+  offset: 29, 4
+  index: -1
+images/tx/skillC/canying_00000
+  rotate: false
+  xy: 404, 961
+  size: 258, 61
+  orig: 264, 96
+  offset: 0, 18
+  index: -1
+images/tx/skillC/canying_2/canying_2_00000
+  rotate: false
+  xy: 124, 351
+  size: 93, 89
+  orig: 200, 160
+  offset: 56, 17
+  index: -1
+images/tx/skillC/canying_2/canying_2_00001
+  rotate: false
+  xy: 835, 788
+  size: 101, 85
+  orig: 200, 160
+  offset: 57, 20
+  index: -1
+images/tx/skillC/canying_2/canying_2_00002
+  rotate: false
+  xy: 662, 864
+  size: 99, 91
+  orig: 200, 160
+  offset: 59, 17
+  index: -1
+images/tx/skillC/canying_2/canying_2_00004
+  rotate: false
+  xy: 671, 762
+  size: 87, 100
+  orig: 200, 160
+  offset: 70, 35
+  index: -1
+images/tx/skillC/canying_2/canying_2_00005
+  rotate: false
+  xy: 196, 544
+  size: 96, 108
+  orig: 200, 160
+  offset: 80, 40
+  index: -1
+images/tx/skillC/juqi/juqi_00000
+  rotate: true
+  xy: 350, 702
+  size: 69, 40
+  orig: 240, 240
+  offset: 99, 102
+  index: -1
+images/tx/skillC/juqi/juqi_00001
+  rotate: true
+  xy: 392, 698
+  size: 144, 146
+  orig: 240, 240
+  offset: 82, 64
+  index: -1
+images/tx/skillC/juqi/juqi_00003
+  rotate: false
+  xy: 2, 826
+  size: 199, 196
+  orig: 240, 240
+  offset: 28, 17
+  index: -1
+images/tx/skillC/juqi/juqi_00005
+  rotate: true
+  xy: 833, 875
+  size: 147, 152
+  orig: 240, 240
+  offset: 46, 42
+  index: -1
+images/tx/skillC/juqi/juqi_00007
+  rotate: false
+  xy: 2, 647
+  size: 164, 177
+  orig: 240, 240
+  offset: 40, 48
+  index: -1
+images/tx/skillC/juqi/juqi_00009
+  rotate: true
+  xy: 671, 695
+  size: 65, 75
+  orig: 240, 240
+  offset: 46, 146
+  index: -1
+images/tx/skillC/shouzhua/shouzhua_00000
+  rotate: true
+  xy: 199, 254
+  size: 95, 53
+  orig: 200, 240
+  offset: 28, 13
+  index: -1
+images/tx/skillC/shouzhua/shouzhua_00001
+  rotate: true
+  xy: 540, 709
+  size: 133, 129
+  orig: 200, 240
+  offset: 46, 19
+  index: -1
+images/tx/skillC/shouzhua/shouzhua_00002
+  rotate: true
+  xy: 203, 891
+  size: 131, 199
+  orig: 200, 240
+  offset: 52, 29
+  index: -1
+images/tx/skillC/shouzhua/shouzhua_00003
+  rotate: false
+  xy: 2, 449
+  size: 128, 196
+  orig: 200, 240
+  offset: 52, 30
+  index: -1
+images/tx/skillC/shouzhua/shouzhua_00004
+  rotate: false
+  xy: 2, 255
+  size: 120, 192
+  orig: 200, 240
+  offset: 58, 34
+  index: -1
+images/tx/skillC/shouzhua/shouzhua_00005
+  rotate: false
+  xy: 2, 61
+  size: 117, 192
+  orig: 200, 240
+  offset: 58, 33
+  index: -1
+images/tx/skillC/shouzhua/shouzhua_00006
+  rotate: true
+  xy: 404, 844
+  size: 115, 189
+  orig: 200, 240
+  offset: 57, 36
+  index: -1
+images/tx/skillC/shouzhua/shouzhua_00007
+  rotate: true
+  xy: 203, 773
+  size: 116, 187
+  orig: 200, 240
+  offset: 56, 37
+  index: -1
+images/tx/skillC/shouzhua/shouzhua_00008
+  rotate: true
+  xy: 168, 654
+  size: 117, 180
+  orig: 200, 240
+  offset: 55, 36
+  index: -1
+images/tx/yw/yw0001
+  rotate: false
+  xy: 2, 2
+  size: 181, 57
+  orig: 221, 83
+  offset: 35, 9
+  index: -1
+images/tx/yw/yw0002
+  rotate: false
+  xy: 664, 957
+  size: 167, 65
+  orig: 221, 83
+  offset: 14, 7
+  index: -1
+images/tx/yw/yw0003
+  rotate: true
+  xy: 132, 513
+  size: 132, 62
+  orig: 221, 83
+  offset: 12, 10
+  index: -1
+images/tx/yw/yw0004
+  rotate: true
+  xy: 294, 533
+  size: 119, 62
+  orig: 221, 83
+  offset: 8, 9
+  index: -1
+images/tx/yw/yw0005
+  rotate: true
+  xy: 595, 861
+  size: 98, 65
+  orig: 221, 83
+  offset: 10, 11
+  index: -1
+images/tx/yw/yw0006
+  rotate: true
+  xy: 121, 61
+  size: 73, 49
+  orig: 221, 83
+  offset: 12, 15
+  index: -1

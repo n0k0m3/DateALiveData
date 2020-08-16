@@ -1,0 +1,13 @@
+
+zudang1.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+barrier1
+  rotate: false
+  xy: 2, 2
+  size: 120, 122
+  orig: 120, 122
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,33 @@
+
+effects_11301_2_skillDshow.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+da_24
+  rotate: false
+  xy: 2, 41
+  size: 235, 52
+  orig: 235, 52
+  offset: 0, 0
+  index: -1
+z_jingzi
+  rotate: false
+  xy: 2, 95
+  size: 881, 788
+  orig: 883, 790
+  offset: 1, 1
+  index: -1
+
+effects_11301_2_skillDshow2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+z_tideng
+  rotate: false
+  xy: 2, 2
+  size: 332, 676
+  orig: 335, 678
+  offset: 1, 1
+  index: -1

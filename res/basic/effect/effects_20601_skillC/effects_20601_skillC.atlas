@@ -1,0 +1,216 @@
+
+effects_20601_skillC.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/dimianwang/dimianwang_00030
+  rotate: false
+  xy: 262, 20
+  size: 164, 49
+  orig: 210, 210
+  offset: 29, 65
+  index: -1
+images/effects/dimianwang/dimianwang_00032
+  rotate: true
+  xy: 955, 332
+  size: 165, 48
+  orig: 210, 210
+  offset: 29, 66
+  index: -1
+images/effects/dimianwang/dimianwang_00034
+  rotate: true
+  xy: 430, 353
+  size: 155, 47
+  orig: 210, 210
+  offset: 30, 67
+  index: -1
+images/effects/dimianwang/dimianwang_00037
+  rotate: false
+  xy: 436, 120
+  size: 164, 43
+  orig: 210, 210
+  offset: 29, 69
+  index: -1
+images/effects/dimianwang/dimianwang_00039
+  rotate: true
+  xy: 178, 2
+  size: 207, 82
+  orig: 210, 210
+  offset: 0, 36
+  index: -1
+images/effects/dimianwang/dimianwang_00041
+  rotate: false
+  xy: 782, 582
+  size: 207, 81
+  orig: 210, 210
+  offset: 0, 37
+  index: -1
+images/effects/dimianwang/dimianwang_00043
+  rotate: false
+  xy: 782, 499
+  size: 206, 81
+  orig: 210, 210
+  offset: 0, 37
+  index: -1
+images/effects/dimianwang/dimianwang_00045
+  rotate: false
+  xy: 747, 416
+  size: 206, 81
+  orig: 210, 210
+  offset: 0, 37
+  index: -1
+images/effects/dimianwang/dimianwang_00047
+  rotate: false
+  xy: 747, 335
+  size: 206, 79
+  orig: 210, 210
+  offset: 0, 38
+  index: -1
+images/effects/dimianwang/dimianwang_00049
+  rotate: false
+  xy: 479, 325
+  size: 200, 78
+  orig: 210, 210
+  offset: 4, 39
+  index: -1
+images/effects/dimianwang/dimianwang_00051
+  rotate: false
+  xy: 456, 165
+  size: 183, 78
+  orig: 210, 210
+  offset: 11, 39
+  index: -1
+images/effects/dimianwang/dimianwang_00053
+  rotate: false
+  xy: 456, 245
+  size: 185, 78
+  orig: 210, 210
+  offset: 7, 39
+  index: -1
+images/effects/glowyuan_00022_00020
+  rotate: false
+  xy: 681, 346
+  size: 61, 59
+  orig: 140, 140
+  offset: 38, 41
+  index: -1
+images/effects/lizi/lizi_00008
+  rotate: true
+  xy: 2, 211
+  size: 254, 252
+  orig: 350, 350
+  offset: 43, 39
+  index: -1
+images/effects/lizi/lizi_00010
+  rotate: false
+  xy: 516, 762
+  size: 255, 257
+  orig: 350, 350
+  offset: 43, 37
+  index: -1
+images/effects/lizi/lizi_00012
+  rotate: false
+  xy: 258, 750
+  size: 256, 269
+  orig: 350, 350
+  offset: 42, 39
+  index: -1
+images/effects/lizi/lizi_00014
+  rotate: false
+  xy: 2, 744
+  size: 254, 275
+  orig: 350, 350
+  offset: 43, 37
+  index: -1
+images/effects/lizi/lizi_00016
+  rotate: false
+  xy: 2, 467
+  size: 242, 275
+  orig: 350, 350
+  offset: 48, 37
+  index: -1
+images/effects/lizi/lizi_00018
+  rotate: false
+  xy: 773, 769
+  size: 232, 250
+  orig: 350, 350
+  offset: 49, 47
+  index: -1
+images/effects/lizi/lizi_00020
+  rotate: false
+  xy: 246, 510
+  size: 213, 232
+  orig: 350, 350
+  offset: 60, 56
+  index: -1
+images/effects/lizi/lizi_00022
+  rotate: false
+  xy: 630, 513
+  size: 150, 157
+  orig: 350, 350
+  offset: 86, 90
+  index: -1
+images/effects/qiangkou/qiangkou_00023
+  rotate: false
+  xy: 461, 522
+  size: 167, 148
+  orig: 210, 175
+  offset: 4, 13
+  index: -1
+images/effects/qiangkou/qiangkou_00025
+  rotate: false
+  xy: 262, 71
+  size: 172, 151
+  orig: 210, 175
+  offset: 28, 10
+  index: -1
+images/effects/qiangkou/qiangkou_00027
+  rotate: false
+  xy: 256, 352
+  size: 172, 156
+  orig: 210, 175
+  offset: 38, 6
+  index: -1
+images/effects/qiangkou/qiangkou_00029
+  rotate: false
+  xy: 479, 405
+  size: 142, 115
+  orig: 210, 175
+  offset: 68, 29
+  index: -1
+images/effects/wang/wang_00025_00023
+  rotate: false
+  xy: 623, 407
+  size: 122, 104
+  orig: 420, 245
+  offset: 21, 83
+  index: -1
+images/effects/wang/wang_00025_00024
+  rotate: false
+  xy: 782, 665
+  size: 213, 102
+  orig: 420, 245
+  offset: 59, 86
+  index: -1
+images/effects/wang/wang_00025_00025
+  rotate: false
+  xy: 2, 27
+  size: 174, 182
+  orig: 420, 245
+  offset: 114, 37
+  index: -1
+images/effects/wang/wang_00025_00026
+  rotate: true
+  xy: 256, 224
+  size: 126, 198
+  orig: 420, 245
+  offset: 181, 31
+  index: -1
+images/effects/wang/wang_00025_00027
+  rotate: true
+  xy: 516, 672
+  size: 88, 238
+  orig: 420, 245
+  offset: 302, 7
+  index: -1

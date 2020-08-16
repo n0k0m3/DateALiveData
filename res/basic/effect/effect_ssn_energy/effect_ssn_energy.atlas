@@ -1,0 +1,216 @@
+
+effect_ssn_energy.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bingwu/bingwu_00000
+  rotate: false
+  xy: 466, 664
+  size: 220, 88
+  orig: 250, 100
+  offset: 18, 0
+  index: -1
+bingwu/bingwu_00001
+  rotate: false
+  xy: 702, 754
+  size: 220, 88
+  orig: 250, 100
+  offset: 18, 0
+  index: -1
+bingwu/bingwu_00002
+  rotate: false
+  xy: 2, 394
+  size: 220, 88
+  orig: 250, 100
+  offset: 18, 0
+  index: -1
+bingwu/bingwu_00003
+  rotate: false
+  xy: 226, 484
+  size: 220, 88
+  orig: 250, 100
+  offset: 18, 0
+  index: -1
+bingwu/bingwu_00004
+  rotate: false
+  xy: 2, 664
+  size: 232, 88
+  orig: 250, 100
+  offset: 6, 0
+  index: -1
+bingwu/bingwu_00005
+  rotate: false
+  xy: 2, 934
+  size: 234, 88
+  orig: 250, 100
+  offset: 4, 0
+  index: -1
+bingwu/bingwu_00006
+  rotate: false
+  xy: 2, 844
+  size: 234, 88
+  orig: 250, 100
+  offset: 4, 0
+  index: -1
+bingwu/bingwu_00007
+  rotate: false
+  xy: 238, 934
+  size: 234, 88
+  orig: 250, 100
+  offset: 4, 0
+  index: -1
+bingwu/bingwu_00008
+  rotate: false
+  xy: 2, 754
+  size: 234, 88
+  orig: 250, 100
+  offset: 4, 0
+  index: -1
+bingwu/bingwu_00009
+  rotate: false
+  xy: 238, 844
+  size: 234, 88
+  orig: 250, 100
+  offset: 4, 0
+  index: -1
+bingwu/bingwu_00010
+  rotate: false
+  xy: 474, 934
+  size: 234, 88
+  orig: 250, 100
+  offset: 4, 0
+  index: -1
+bingwu/bingwu_00011
+  rotate: false
+  xy: 238, 754
+  size: 232, 88
+  orig: 250, 100
+  offset: 6, 0
+  index: -1
+bingwu/bingwu_00012
+  rotate: false
+  xy: 474, 844
+  size: 231, 88
+  orig: 250, 100
+  offset: 7, 0
+  index: -1
+bingwu/bingwu_00013
+  rotate: false
+  xy: 710, 934
+  size: 231, 88
+  orig: 250, 100
+  offset: 7, 0
+  index: -1
+bingwu/bingwu_00014
+  rotate: false
+  xy: 2, 574
+  size: 229, 88
+  orig: 250, 100
+  offset: 9, 0
+  index: -1
+bingwu/bingwu_00015
+  rotate: false
+  xy: 236, 664
+  size: 228, 88
+  orig: 250, 100
+  offset: 10, 0
+  index: -1
+bingwu/bingwu_00016
+  rotate: false
+  xy: 472, 754
+  size: 228, 88
+  orig: 250, 100
+  offset: 10, 0
+  index: -1
+bingwu/bingwu_00017
+  rotate: false
+  xy: 707, 844
+  size: 225, 88
+  orig: 250, 100
+  offset: 13, 0
+  index: -1
+bingwu/bingwu_00018
+  rotate: false
+  xy: 2, 484
+  size: 222, 88
+  orig: 250, 100
+  offset: 16, 0
+  index: -1
+bingwu/bingwu_00019
+  rotate: false
+  xy: 456, 574
+  size: 220, 88
+  orig: 250, 100
+  offset: 18, 0
+  index: -1
+bingwu/bingwu_00020
+  rotate: false
+  xy: 688, 664
+  size: 220, 88
+  orig: 250, 100
+  offset: 18, 0
+  index: -1
+bingwu/bingwu_00021
+  rotate: false
+  xy: 2, 304
+  size: 220, 88
+  orig: 250, 100
+  offset: 18, 0
+  index: -1
+bingwu/bingwu_00022
+  rotate: false
+  xy: 224, 394
+  size: 220, 88
+  orig: 250, 100
+  offset: 18, 0
+  index: -1
+bingwu/bingwu_00023
+  rotate: false
+  xy: 448, 484
+  size: 220, 88
+  orig: 250, 100
+  offset: 18, 0
+  index: -1
+bingwu/bingwu_00024
+  rotate: false
+  xy: 678, 574
+  size: 220, 88
+  orig: 250, 100
+  offset: 18, 0
+  index: -1
+bingwu/bingwu_00025
+  rotate: false
+  xy: 2, 214
+  size: 220, 88
+  orig: 250, 100
+  offset: 18, 0
+  index: -1
+bingwu/bingwu_00026
+  rotate: false
+  xy: 224, 304
+  size: 220, 88
+  orig: 250, 100
+  offset: 18, 0
+  index: -1
+bingwu/bingwu_00027
+  rotate: false
+  xy: 446, 394
+  size: 220, 88
+  orig: 250, 100
+  offset: 18, 0
+  index: -1
+bingwu/bingwu_00028
+  rotate: false
+  xy: 233, 574
+  size: 221, 88
+  orig: 250, 100
+  offset: 17, 0
+  index: -1
+bingwu/bingwu_00029
+  rotate: true
+  xy: 934, 709
+  size: 223, 88
+  orig: 250, 100
+  offset: 15, 0
+  index: -1

@@ -1,0 +1,76 @@
+
+effect_heroGrow_ui7.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lan/lan_00015
+  rotate: false
+  xy: 2, 346
+  size: 129, 129
+  orig: 225, 225
+  offset: 41, 51
+  index: -1
+lan/lan_00016
+  rotate: false
+  xy: 2, 215
+  size: 129, 129
+  orig: 225, 225
+  offset: 41, 51
+  index: -1
+lan/lan_00017
+  rotate: false
+  xy: 133, 346
+  size: 129, 129
+  orig: 225, 225
+  offset: 41, 51
+  index: -1
+lan/lan_00018
+  rotate: false
+  xy: 2, 84
+  size: 129, 129
+  orig: 225, 225
+  offset: 41, 51
+  index: -1
+lan/lan_00019
+  rotate: false
+  xy: 133, 220
+  size: 124, 124
+  orig: 225, 225
+  offset: 43, 53
+  index: -1
+lan/lan_00020
+  rotate: false
+  xy: 264, 351
+  size: 124, 124
+  orig: 225, 225
+  offset: 43, 53
+  index: -1
+lan/lan_00021
+  rotate: false
+  xy: 133, 99
+  size: 119, 119
+  orig: 225, 225
+  offset: 46, 56
+  index: -1
+lan/lan_00022
+  rotate: false
+  xy: 2, 2
+  size: 77, 80
+  orig: 225, 225
+  offset: 72, 78
+  index: -1
+lan/lan_00023
+  rotate: false
+  xy: 390, 395
+  size: 73, 80
+  orig: 225, 225
+  offset: 75, 78
+  index: -1
+lan/lan_00024
+  rotate: false
+  xy: 81, 4
+  size: 72, 78
+  orig: 225, 225
+  offset: 75, 79
+  index: -1

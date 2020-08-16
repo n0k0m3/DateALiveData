@@ -1,0 +1,188 @@
+
+effects_10901_skillM2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fenshenkanji01
+  rotate: true
+  xy: 107, 445
+  size: 111, 106
+  orig: 212, 219
+  offset: 0, 64
+  index: -1
+fenshenkanji02
+  rotate: false
+  xy: 215, 514
+  size: 129, 127
+  orig: 212, 219
+  offset: 33, 0
+  index: -1
+fenshenkanji03
+  rotate: true
+  xy: 446, 520
+  size: 127, 92
+  orig: 212, 219
+  offset: 32, 33
+  index: -1
+fenshenkanji04
+  rotate: false
+  xy: 215, 418
+  size: 132, 94
+  orig: 212, 219
+  offset: 29, 30
+  index: -1
+fenshenkanji05
+  rotate: true
+  xy: 345, 649
+  size: 126, 100
+  orig: 212, 219
+  offset: 49, 29
+  index: -1
+fenshenkanji06
+  rotate: false
+  xy: 349, 416
+  size: 114, 96
+  orig: 212, 219
+  offset: 50, 14
+  index: -1
+fenshenkanji07
+  rotate: true
+  xy: 854, 871
+  size: 121, 138
+  orig: 212, 219
+  offset: 36, 33
+  index: -1
+fenshenkanji08
+  rotate: false
+  xy: 189, 888
+  size: 179, 104
+  orig: 212, 219
+  offset: 0, 42
+  index: -1
+fenshenkanji09
+  rotate: false
+  xy: 562, 786
+  size: 114, 111
+  orig: 212, 219
+  offset: 2, 53
+  index: -1
+fenshenkanji10
+  rotate: false
+  xy: 446, 779
+  size: 114, 118
+  orig: 212, 219
+  offset: 0, 57
+  index: -1
+fenshenkanji11
+  rotate: false
+  xy: 370, 899
+  size: 174, 93
+  orig: 212, 219
+  offset: 33, 34
+  index: -1
+fenshenkanji12
+  rotate: true
+  xy: 447, 649
+  size: 128, 93
+  orig: 212, 219
+  offset: 30, 34
+  index: -1
+fenshenkanji13
+  rotate: true
+  xy: 465, 403
+  size: 115, 86
+  orig: 212, 219
+  offset: 39, 33
+  index: -1
+fenshenkanji14
+  rotate: true
+  xy: 2, 56
+  size: 145, 124
+  orig: 212, 219
+  offset: 33, 19
+  index: -1
+fenshenkanji15
+  rotate: false
+  xy: 2, 846
+  size: 185, 146
+  orig: 212, 219
+  offset: 13, 28
+  index: -1
+fenshenkanji16
+  rotate: true
+  xy: 2, 203
+  size: 150, 101
+  orig: 212, 219
+  offset: 29, 25
+  index: -1
+fenshenkanji17
+  rotate: false
+  xy: 324, 777
+  size: 120, 109
+  orig: 212, 219
+  offset: 57, 38
+  index: -1
+fenshenkanji18
+  rotate: false
+  xy: 2, 355
+  size: 100, 166
+  orig: 212, 219
+  offset: 37, 53
+  index: -1
+fenshenkanji19
+  rotate: true
+  xy: 189, 776
+  size: 110, 133
+  orig: 212, 219
+  offset: 42, 48
+  index: -1
+fenshenkanji20
+  rotate: true
+  xy: 107, 558
+  size: 138, 106
+  orig: 212, 219
+  offset: 17, 45
+  index: -1
+fenshenkanji21
+  rotate: false
+  xy: 215, 643
+  size: 128, 131
+  orig: 212, 219
+  offset: 25, 43
+  index: -1
+fenshenkanji22
+  rotate: false
+  xy: 2, 698
+  size: 149, 146
+  orig: 212, 219
+  offset: 24, 44
+  index: -1
+fenshenkanji23
+  rotate: false
+  xy: 546, 899
+  size: 164, 93
+  orig: 212, 219
+  offset: 23, 51
+  index: -1
+fenshenkanji24
+  rotate: true
+  xy: 2, 523
+  size: 173, 103
+  orig: 212, 219
+  offset: 0, 41
+  index: -1
+fenshenkanji25
+  rotate: true
+  xy: 346, 514
+  size: 133, 98
+  orig: 212, 219
+  offset: 26, 52
+  index: -1
+fenshenkanji26
+  rotate: false
+  xy: 712, 888
+  size: 140, 104
+  orig: 212, 219
+  offset: 32, 43
+  index: -1

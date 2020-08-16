@@ -1,0 +1,181 @@
+
+effects_extra_seventeen.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/daidian/baodian_Add/baodian_Add_00025
+  rotate: false
+  xy: 2, 800
+  size: 185, 215
+  orig: 185, 217
+  offset: 0, 2
+  index: -1
+images/daidian/baodian_Add/baodian_Add_00026
+  rotate: false
+  xy: 2, 610
+  size: 185, 188
+  orig: 185, 217
+  offset: 0, 9
+  index: -1
+images/daidian/baodian_Add/baodian_Add_00027
+  rotate: false
+  xy: 359, 880
+  size: 185, 135
+  orig: 185, 217
+  offset: 0, 7
+  index: -1
+images/daidian/baodian_Add/baodian_Add_00028
+  rotate: false
+  xy: 2, 452
+  size: 185, 156
+  orig: 185, 217
+  offset: 0, 11
+  index: -1
+images/daidian/baodian_Add/baodian_Add_00029
+  rotate: false
+  xy: 2, 321
+  size: 182, 129
+  orig: 185, 217
+  offset: 1, 11
+  index: -1
+images/daidian/baodian_Add/baodian_Add_00030
+  rotate: true
+  xy: 189, 663
+  size: 170, 156
+  orig: 185, 217
+  offset: 7, 11
+  index: -1
+images/daidian/baodian_Add/baodian_Add_00031
+  rotate: false
+  xy: 2, 182
+  size: 164, 137
+  orig: 185, 217
+  offset: 10, 14
+  index: -1
+images/daidian/baodian_Add/baodian_Add_00032
+  rotate: true
+  xy: 189, 503
+  size: 158, 148
+  orig: 185, 217
+  offset: 13, 14
+  index: -1
+images/daidian/baodian_Add/baodian_Add_00033
+  rotate: false
+  xy: 546, 885
+  size: 150, 130
+  orig: 185, 217
+  offset: 17, 16
+  index: -1
+images/daidian/baodian_Add/baodian_Add_00034
+  rotate: false
+  xy: 2, 52
+  size: 143, 128
+  orig: 185, 217
+  offset: 20, 17
+  index: -1
+images/daidian/baodian_Add/baodian_Add_00035
+  rotate: false
+  xy: 698, 890
+  size: 134, 125
+  orig: 185, 217
+  offset: 25, 18
+  index: -1
+images/daidian/baodian_Add/baodian_Add_00036
+  rotate: false
+  xy: 487, 826
+  size: 74, 52
+  orig: 185, 217
+  offset: 48, 90
+  index: -1
+images/daidian/baodian_Add/baodian_Add_00037
+  rotate: false
+  xy: 339, 531
+  size: 85, 62
+  orig: 185, 217
+  offset: 37, 79
+  index: -1
+images/daidian/baodian_normal_00026
+  rotate: false
+  xy: 189, 835
+  size: 168, 180
+  orig: 309, 361
+  offset: 81, 47
+  index: -1
+images/daidian/feixing/feixing_00009
+  rotate: false
+  xy: 359, 835
+  size: 126, 43
+  orig: 126, 50
+  offset: 0, 3
+  index: -1
+images/daidian/feixing/feixing_00010
+  rotate: false
+  xy: 2, 2
+  size: 125, 48
+  orig: 126, 50
+  offset: 0, 2
+  index: -1
+images/daidian/feixing/feixing_00011
+  rotate: false
+  xy: 347, 783
+  size: 122, 50
+  orig: 126, 50
+  offset: 0, 0
+  index: -1
+images/daidian/feixing/feixing_00012
+  rotate: false
+  xy: 189, 453
+  size: 126, 48
+  orig: 126, 50
+  offset: 0, 2
+  index: -1
+images/daidian/feixing/feixing_00013
+  rotate: false
+  xy: 347, 734
+  size: 122, 47
+  orig: 126, 50
+  offset: 0, 3
+  index: -1
+images/daidian/feixing/feixing_00014
+  rotate: false
+  xy: 834, 968
+  size: 126, 47
+  orig: 126, 50
+  offset: 0, 3
+  index: -1
+images/daidian/feixing/feixing_00015
+  rotate: false
+  xy: 834, 918
+  size: 125, 48
+  orig: 126, 50
+  offset: 0, 2
+  index: -1
+images/daidian/feixing/feixing_00016
+  rotate: false
+  xy: 347, 641
+  size: 122, 43
+  orig: 126, 50
+  offset: 0, 3
+  index: -1
+images/daidian/feixing/feixing_00017
+  rotate: false
+  xy: 347, 686
+  size: 126, 46
+  orig: 126, 50
+  offset: 0, 2
+  index: -1
+images/daidian/feixing/feixing_00018
+  rotate: false
+  xy: 339, 595
+  size: 122, 44
+  orig: 126, 50
+  offset: 0, 3
+  index: -1
+images/daidian/feixing/feixing_00019
+  rotate: false
+  xy: 834, 876
+  size: 126, 40
+  orig: 126, 50
+  offset: 0, 3
+  index: -1

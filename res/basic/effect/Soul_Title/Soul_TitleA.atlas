@@ -1,0 +1,244 @@
+
+Soul_TitleA.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+4552
+  rotate: false
+  xy: 173, 469
+  size: 138, 41
+  orig: 170, 82
+  offset: 16, 22
+  index: -1
+di
+  rotate: false
+  xy: 2, 428
+  size: 169, 29
+  orig: 169, 29
+  offset: 0, 0
+  index: -1
+ge
+  rotate: false
+  xy: 2, 343
+  size: 114, 42
+  orig: 114, 42
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 2, 459
+  size: 169, 51
+  orig: 169, 51
+  offset: 0, 0
+  index: -1
+lizi_00000
+  rotate: false
+  xy: 129, 286
+  size: 26, 18
+  orig: 50, 55
+  offset: 12, 16
+  index: -1
+xulie/xulie_00002
+  rotate: true
+  xy: 129, 266
+  size: 18, 23
+  orig: 170, 82
+  offset: 16, 23
+  index: -1
+xulie/xulie_00003
+  rotate: false
+  xy: 101, 266
+  size: 26, 33
+  orig: 170, 82
+  offset: 16, 23
+  index: -1
+xulie/xulie_00004
+  rotate: false
+  xy: 381, 395
+  size: 30, 34
+  orig: 170, 82
+  offset: 16, 23
+  index: -1
+xulie/xulie_00005
+  rotate: true
+  xy: 290, 428
+  size: 39, 34
+  orig: 170, 82
+  offset: 16, 23
+  index: -1
+xulie/xulie_00006
+  rotate: false
+  xy: 446, 435
+  size: 51, 35
+  orig: 170, 82
+  offset: 16, 23
+  index: -1
+xulie/xulie_00007
+  rotate: true
+  xy: 188, 285
+  size: 59, 37
+  orig: 170, 82
+  offset: 16, 22
+  index: -1
+xulie/xulie_00008
+  rotate: false
+  xy: 234, 388
+  size: 62, 38
+  orig: 170, 82
+  offset: 16, 22
+  index: -1
+xulie/xulie_00009
+  rotate: false
+  xy: 2, 14
+  size: 75, 38
+  orig: 170, 82
+  offset: 16, 22
+  index: -1
+xulie/xulie_00010
+  rotate: false
+  xy: 2, 54
+  size: 83, 39
+  orig: 170, 82
+  offset: 16, 22
+  index: -1
+xulie/xulie_00011
+  rotate: false
+  xy: 2, 136
+  size: 89, 39
+  orig: 170, 82
+  offset: 16, 22
+  index: -1
+xulie/xulie_00012
+  rotate: false
+  xy: 2, 218
+  size: 93, 39
+  orig: 170, 82
+  offset: 16, 22
+  index: -1
+xulie/xulie_00013
+  rotate: false
+  xy: 118, 346
+  size: 106, 39
+  orig: 170, 82
+  offset: 17, 22
+  index: -1
+xulie/xulie_00014
+  rotate: false
+  xy: 313, 471
+  size: 113, 39
+  orig: 170, 82
+  offset: 18, 22
+  index: -1
+xulie/xulie_00015
+  rotate: false
+  xy: 2, 387
+  size: 118, 39
+  orig: 170, 82
+  offset: 20, 22
+  index: -1
+xulie/xulie_00016
+  rotate: false
+  xy: 173, 428
+  size: 115, 39
+  orig: 170, 82
+  offset: 26, 22
+  index: -1
+xulie/xulie_00017
+  rotate: false
+  xy: 122, 387
+  size: 110, 39
+  orig: 170, 82
+  offset: 34, 22
+  index: -1
+xulie/xulie_00018
+  rotate: false
+  xy: 2, 301
+  size: 106, 40
+  orig: 170, 82
+  offset: 42, 22
+  index: -1
+xulie/xulie_00019
+  rotate: false
+  xy: 2, 259
+  size: 97, 40
+  orig: 170, 82
+  offset: 52, 22
+  index: -1
+xulie/xulie_00020
+  rotate: false
+  xy: 2, 177
+  size: 92, 39
+  orig: 170, 82
+  offset: 58, 22
+  index: -1
+xulie/xulie_00021
+  rotate: false
+  xy: 2, 95
+  size: 84, 39
+  orig: 170, 82
+  offset: 67, 22
+  index: -1
+xulie/xulie_00022
+  rotate: false
+  xy: 428, 472
+  size: 76, 38
+  orig: 170, 82
+  offset: 75, 23
+  index: -1
+xulie/xulie_00023
+  rotate: false
+  xy: 118, 306
+  size: 68, 38
+  orig: 170, 82
+  offset: 84, 23
+  index: -1
+xulie/xulie_00024
+  rotate: false
+  xy: 326, 431
+  size: 62, 38
+  orig: 170, 82
+  offset: 90, 23
+  index: -1
+xulie/xulie_00025
+  rotate: false
+  xy: 390, 431
+  size: 54, 38
+  orig: 170, 82
+  offset: 98, 23
+  index: -1
+xulie/xulie_00026
+  rotate: false
+  xy: 298, 388
+  size: 45, 38
+  orig: 170, 82
+  offset: 107, 23
+  index: -1
+xulie/xulie_00027
+  rotate: false
+  xy: 345, 393
+  size: 34, 36
+  orig: 170, 82
+  offset: 117, 24
+  index: -1
+xulie/xulie_00028
+  rotate: false
+  xy: 413, 396
+  size: 28, 33
+  orig: 170, 82
+  offset: 123, 27
+  index: -1
+xulie/xulie_00029
+  rotate: true
+  xy: 157, 285
+  size: 19, 21
+  orig: 170, 82
+  offset: 131, 38
+  index: -1
+xulie/xulie_00030
+  rotate: true
+  xy: 2, 2
+  size: 10, 13
+  orig: 170, 82
+  offset: 139, 44
+  index: -1

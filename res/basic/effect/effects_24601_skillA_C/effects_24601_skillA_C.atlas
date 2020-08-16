@@ -1,0 +1,76 @@
+
+effects_24601_skillA_C.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/skillA/yuanquan/yuanquan_00000
+  rotate: true
+  xy: 119, 23
+  size: 258, 116
+  orig: 360, 160
+  offset: 59, 17
+  index: -1
+images/effect/skillA/yuanquan/yuanquan_00001
+  rotate: true
+  xy: 103, 283
+  size: 284, 118
+  orig: 360, 160
+  offset: 44, 25
+  index: -1
+images/effect/skillA/yuanquan/yuanquan_00002
+  rotate: true
+  xy: 2, 263
+  size: 304, 99
+  orig: 360, 160
+  offset: 33, 32
+  index: -1
+images/effect/skillA/yuanquan/yuanquan_00003
+  rotate: false
+  xy: 2, 799
+  size: 337, 95
+  orig: 360, 160
+  offset: 23, 28
+  index: -1
+images/effect/skillA/yuanquan/yuanquan_00004
+  rotate: false
+  xy: 656, 886
+  size: 290, 104
+  orig: 360, 160
+  offset: 62, 23
+  index: -1
+images/effect/skillA/yuanquan/yuanquan_00005
+  rotate: true
+  xy: 2, 2
+  size: 259, 115
+  orig: 360, 160
+  offset: 57, 18
+  index: -1
+images/effect/skillA/yuanquan/yuanquan_00006
+  rotate: false
+  xy: 2, 569
+  size: 284, 122
+  orig: 360, 160
+  offset: 42, 4
+  index: -1
+images/effect/skillA/yuanquan/yuanquan_00007
+  rotate: false
+  xy: 355, 889
+  size: 299, 101
+  orig: 360, 160
+  offset: 36, 19
+  index: -1
+images/effect/skillA/yuanquan/yuanquan_00008
+  rotate: false
+  xy: 2, 896
+  size: 351, 94
+  orig: 360, 160
+  offset: 0, 30
+  index: -1
+images/effect/skillA/yuanquan/yuanquan_00009
+  rotate: false
+  xy: 2, 693
+  size: 310, 104
+  orig: 360, 160
+  offset: 0, 24
+  index: -1

@@ -1,0 +1,69 @@
+
+effect_haishui_11.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+l
+  rotate: false
+  xy: 231, 1248
+  size: 494, 125
+  orig: 494, 125
+  offset: 0, 0
+  index: -1
+l10
+  rotate: true
+  xy: 132, 551
+  size: 822, 97
+  orig: 822, 97
+  offset: 0, 0
+  index: -1
+l11
+  rotate: false
+  xy: 2, 1636
+  size: 1298, 214
+  orig: 1298, 214
+  offset: 0, 0
+  index: -1
+l4
+  rotate: true
+  xy: 2, 494
+  size: 879, 51
+  orig: 879, 51
+  offset: 0, 0
+  index: -1
+l5
+  rotate: false
+  xy: 2, 1852
+  size: 1577, 66
+  orig: 1577, 66
+  offset: 0, 0
+  index: -1
+l6
+  rotate: false
+  xy: 1581, 1862
+  size: 337, 56
+  orig: 337, 56
+  offset: 0, 0
+  index: -1
+l7
+  rotate: false
+  xy: 2, 1375
+  size: 792, 156
+  orig: 792, 156
+  offset: 0, 0
+  index: -1
+l8
+  rotate: false
+  xy: 2, 1533
+  size: 1146, 101
+  orig: 1146, 101
+  offset: 0, 0
+  index: -1
+l9
+  rotate: true
+  xy: 55, 520
+  size: 853, 75
+  orig: 853, 75
+  offset: 0, 0
+  index: -1

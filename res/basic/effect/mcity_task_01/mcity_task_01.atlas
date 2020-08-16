@@ -1,0 +1,238 @@
+
+mcity_task_01.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+FX1
+  rotate: false
+  xy: 353, 251
+  size: 41, 65
+  orig: 41, 65
+  offset: 0, 0
+  index: -1
+Y1
+  rotate: true
+  xy: 463, 255
+  size: 33, 45
+  orig: 33, 45
+  offset: 0, 0
+  index: -1
+Y10
+  rotate: true
+  xy: 274, 21
+  size: 29, 39
+  orig: 29, 39
+  offset: 0, 0
+  index: -1
+Y2
+  rotate: false
+  xy: 349, 170
+  size: 32, 44
+  orig: 32, 44
+  offset: 0, 0
+  index: -1
+Y3
+  rotate: false
+  xy: 282, 52
+  size: 31, 43
+  orig: 31, 43
+  offset: 0, 0
+  index: -1
+Y4
+  rotate: false
+  xy: 315, 58
+  size: 31, 41
+  orig: 31, 41
+  offset: 0, 0
+  index: -1
+Y5
+  rotate: true
+  xy: 77, 2
+  size: 30, 41
+  orig: 30, 41
+  offset: 0, 0
+  index: -1
+Y6
+  rotate: true
+  xy: 120, 2
+  size: 30, 40
+  orig: 30, 40
+  offset: 0, 0
+  index: -1
+Y7
+  rotate: true
+  xy: 401, 225
+  size: 29, 39
+  orig: 29, 39
+  offset: 0, 0
+  index: -1
+Y8
+  rotate: false
+  xy: 315, 18
+  size: 29, 38
+  orig: 29, 38
+  offset: 0, 0
+  index: -1
+Y9
+  rotate: false
+  xy: 351, 130
+  size: 29, 38
+  orig: 29, 38
+  offset: 0, 0
+  index: -1
+fx11
+  rotate: false
+  xy: 294, 161
+  size: 53, 53
+  orig: 53, 53
+  offset: 0, 0
+  index: -1
+fx13
+  rotate: false
+  xy: 463, 290
+  size: 45, 57
+  orig: 45, 57
+  offset: 0, 0
+  index: -1
+fx14
+  rotate: false
+  xy: 351, 99
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+fx2
+  rotate: true
+  xy: 274, 97
+  size: 61, 38
+  orig: 61, 38
+  offset: 0, 0
+  index: -1
+fx22
+  rotate: false
+  xy: 228, 15
+  size: 44, 37
+  orig: 44, 37
+  offset: 0, 0
+  index: -1
+fx3
+  rotate: false
+  xy: 231, 54
+  size: 49, 41
+  orig: 49, 41
+  offset: 0, 0
+  index: -1
+fx4
+  rotate: true
+  xy: 170, 17
+  size: 35, 56
+  orig: 35, 56
+  offset: 0, 0
+  index: -1
+fx6
+  rotate: true
+  xy: 396, 256
+  size: 40, 65
+  orig: 40, 65
+  offset: 0, 0
+  index: -1
+lian
+  rotate: false
+  xy: 2, 139
+  size: 198, 161
+  orig: 198, 161
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 258, 318
+  size: 137, 192
+  orig: 137, 192
+  offset: 0, 0
+  index: -1
+shou
+  rotate: true
+  xy: 2, 34
+  size: 103, 166
+  orig: 103, 166
+  offset: 0, 0
+  index: -1
+shou1
+  rotate: false
+  xy: 463, 349
+  size: 47, 68
+  orig: 47, 68
+  offset: 0, 0
+  index: -1
+shou2
+  rotate: false
+  xy: 314, 101
+  size: 35, 58
+  orig: 35, 58
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 2, 302
+  size: 254, 208
+  orig: 254, 208
+  offset: 0, 0
+  index: -1
+yanL
+  rotate: false
+  xy: 463, 419
+  size: 47, 91
+  orig: 47, 91
+  offset: 0, 0
+  index: -1
+yanr
+  rotate: false
+  xy: 294, 216
+  size: 57, 100
+  orig: 57, 100
+  offset: 0, 0
+  index: -1
+yins
+  rotate: true
+  xy: 397, 298
+  size: 212, 64
+  orig: 212, 64
+  offset: 0, 0
+  index: -1
+youer
+  rotate: false
+  xy: 170, 54
+  size: 59, 83
+  orig: 59, 83
+  offset: 0, 0
+  index: -1
+zuoer
+  rotate: true
+  xy: 2, 2
+  size: 30, 73
+  orig: 30, 73
+  offset: 0, 0
+  index: -1
+zuohsou2
+  rotate: true
+  xy: 353, 216
+  size: 33, 46
+  orig: 33, 46
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: false
+  xy: 231, 97
+  size: 41, 61
+  orig: 41, 61
+  offset: 0, 0
+  index: -1
+zuoshou1
+  rotate: false
+  xy: 202, 160
+  size: 90, 140
+  orig: 90, 140
+  offset: 0, 0
+  index: -1
+

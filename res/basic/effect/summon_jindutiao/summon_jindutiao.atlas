@@ -1,0 +1,139 @@
+
+summon_jindutiao.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/dian_00000
+  rotate: false
+  xy: 2, 158
+  size: 114, 145
+  orig: 150, 150
+  offset: 13, 0
+  index: -1
+images/ditiao1_00000
+  rotate: false
+  xy: 447, 844
+  size: 463, 43
+  orig: 480, 50
+  offset: 4, 4
+  index: -1
+images/ditiao2_00000
+  rotate: true
+  xy: 120, 302
+  size: 446, 98
+  orig: 450, 100
+  offset: 0, 0
+  index: -1
+images/lizi/lizi_00000
+  rotate: false
+  xy: 2, 882
+  size: 443, 134
+  orig: 500, 150
+  offset: 31, 0
+  index: -1
+images/lizi/lizi_00002
+  rotate: false
+  xy: 2, 750
+  size: 441, 130
+  orig: 500, 150
+  offset: 27, 0
+  index: -1
+images/lizi/lizi_00004
+  rotate: false
+  xy: 447, 889
+  size: 437, 127
+  orig: 500, 150
+  offset: 23, 16
+  index: -1
+images/lizi/lizi_00006
+  rotate: true
+  xy: 2, 305
+  size: 443, 116
+  orig: 500, 150
+  offset: 19, 15
+  index: -1
+images/lizi/lizi_00008
+  rotate: false
+  xy: 436, 220
+  size: 381, 111
+  orig: 500, 150
+  offset: 86, 20
+  index: -1
+images/lizi/lizi_00010
+  rotate: true
+  xy: 856, 455
+  size: 387, 114
+  orig: 500, 150
+  offset: 82, 16
+  index: -1
+images/lizi/lizi_00012
+  rotate: false
+  xy: 436, 587
+  size: 393, 137
+  orig: 500, 150
+  offset: 80, 13
+  index: -1
+images/lizi/lizi_00014
+  rotate: false
+  xy: 2, 41
+  size: 369, 115
+  orig: 500, 150
+  offset: 105, 10
+  index: -1
+images/lizi/lizi_00016
+  rotate: false
+  xy: 436, 333
+  size: 379, 126
+  orig: 500, 150
+  offset: 95, 7
+  index: -1
+images/lizi/lizi_00018
+  rotate: false
+  xy: 373, 2
+  size: 378, 103
+  orig: 500, 150
+  offset: 84, 24
+  index: -1
+images/lizi/lizi_00020
+  rotate: false
+  xy: 436, 461
+  size: 391, 124
+  orig: 500, 150
+  offset: 74, 22
+  index: -1
+images/lizi/lizi_00022
+  rotate: false
+  xy: 373, 107
+  size: 406, 111
+  orig: 500, 150
+  offset: 63, 20
+  index: -1
+images/lizi/lizi_00024
+  rotate: true
+  xy: 334, 321
+  size: 427, 100
+  orig: 500, 150
+  offset: 44, 19
+  index: -1
+images/lizi/lizi_00026
+  rotate: false
+  xy: 445, 726
+  size: 409, 116
+  orig: 500, 150
+  offset: 31, 3
+  index: -1
+images/lizi/lizi_00028
+  rotate: true
+  xy: 220, 324
+  size: 424, 112
+  orig: 500, 150
+  offset: 23, 0
+  index: -1
+images/tiao_00000
+  rotate: false
+  xy: 118, 222
+  size: 313, 78
+  orig: 350, 100
+  offset: 15, 9
+  index: -1

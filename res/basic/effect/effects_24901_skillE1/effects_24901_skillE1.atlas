@@ -1,0 +1,76 @@
+
+effects_24901_skillE1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillE/add/zhuanpan_pb/zhuanpanpb_0000
+  rotate: false
+  xy: 331, 754
+  size: 195, 92
+  orig: 205, 205
+  offset: 4, 57
+  index: -1
+images/effects/skillE/add/zhuanpan_pb/zhuanpanpb_0001
+  rotate: false
+  xy: 331, 848
+  size: 196, 97
+  orig: 205, 205
+  offset: 4, 54
+  index: -1
+images/effects/skillE/add/zhuanpan_pb/zhuanpanpb_0002
+  rotate: true
+  xy: 224, 443
+  size: 195, 99
+  orig: 205, 205
+  offset: 4, 55
+  index: -1
+images/effects/skillE/add/zhuanpan_pb/zhuanpanpb_0003
+  rotate: false
+  xy: 529, 853
+  size: 195, 92
+  orig: 205, 205
+  offset: 4, 54
+  index: -1
+images/effects/skillE/nor/tuowei/tuowei_0000
+  rotate: false
+  xy: 2, 631
+  size: 109, 314
+  orig: 240, 410
+  offset: 70, 60
+  index: -1
+images/effects/skillE/nor/tuowei/tuowei_0001
+  rotate: false
+  xy: 224, 640
+  size: 105, 305
+  orig: 240, 410
+  offset: 71, 60
+  index: -1
+images/effects/skillE/nor/tuowei/tuowei_0002
+  rotate: false
+  xy: 2, 2
+  size: 101, 312
+  orig: 240, 410
+  offset: 72, 59
+  index: -1
+images/effects/skillE/nor/tuowei/tuowei_0003
+  rotate: false
+  xy: 113, 637
+  size: 109, 308
+  orig: 240, 410
+  offset: 68, 60
+  index: -1
+images/effects/skillE/nor/tuowei/tuowei_0004
+  rotate: false
+  xy: 113, 331
+  size: 109, 304
+  orig: 240, 410
+  offset: 69, 60
+  index: -1
+images/effects/skillE/nor/tuowei/tuowei_0005
+  rotate: false
+  xy: 2, 316
+  size: 109, 313
+  orig: 240, 410
+  offset: 68, 59
+  index: -1

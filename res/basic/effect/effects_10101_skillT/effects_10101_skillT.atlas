@@ -1,0 +1,256 @@
+
+effects_10101_skillT.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects3/FZ/DG_1/DG_X_1_01
+  rotate: false
+  xy: 2, 26
+  size: 290, 273
+  orig: 521, 439
+  offset: 93, 85
+  index: -1
+effects3/FZ/DG_6/DG_6_03
+  rotate: false
+  xy: 381, 273
+  size: 435, 324
+  orig: 541, 471
+  offset: 58, 70
+  index: -1
+effects3/FZ/DG_6/DG_6_05
+  rotate: false
+  xy: 2, 683
+  size: 454, 337
+  orig: 541, 471
+  offset: 54, 60
+  index: -1
+effects3/FZ/DG_6/DG_6_09
+  rotate: false
+  xy: 294, 14
+  size: 304, 257
+  orig: 541, 471
+  offset: 67, 111
+  index: -1
+effects3/FZ/DG_shizi/skillc 4_07
+  rotate: true
+  xy: 458, 599
+  size: 421, 380
+  orig: 595, 493
+  offset: 82, 64
+  index: -1
+effects3/FZ/DG_shizi/skillc 4_09
+  rotate: false
+  xy: 2, 301
+  size: 377, 380
+  orig: 595, 493
+  offset: 121, 64
+  index: -1
+effects3/FZ/FZ_lizi/FZ_lizi1_01
+  rotate: true
+  xy: 818, 291
+  size: 306, 202
+  orig: 486, 413
+  offset: 89, 87
+  index: -1
+effects3/FZ/FZ_lizi/FZ_lizi1_10
+  rotate: true
+  xy: 818, 4
+  size: 285, 157
+  orig: 486, 413
+  offset: 86, 123
+  index: -1
+effects3/FZ/SD/SD_1_04
+  rotate: false
+  xy: 840, 631
+  size: 162, 131
+  orig: 484, 439
+  offset: 119, 224
+  index: -1
+effects3/FZ/SD2/SD2_07
+  rotate: true
+  xy: 840, 764
+  size: 256, 180
+  orig: 478, 351
+  offset: 117, 104
+  index: -1
+effects3/FZ/XDG1/XDG1_04
+  rotate: false
+  xy: 600, 43
+  size: 214, 228
+  orig: 444, 393
+  offset: 123, 109
+  index: -1
+
+effects_10101_skillT2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects3/FZ/DG_1/DG_S_1_01
+  rotate: false
+  xy: 661, 9
+  size: 315, 346
+  orig: 521, 439
+  offset: 82, 46
+  index: -1
+effects3/FZ/DG_1/DG_S_1_02
+  rotate: false
+  xy: 2, 2
+  size: 215, 332
+  orig: 521, 439
+  offset: 187, 67
+  index: -1
+effects3/FZ/DG_6/DG_6_01
+  rotate: false
+  xy: 415, 705
+  size: 409, 316
+  orig: 541, 471
+  offset: 66, 81
+  index: -1
+effects3/FZ/DG_6/DG_6_07
+  rotate: false
+  xy: 2, 712
+  size: 411, 309
+  orig: 541, 471
+  offset: 63, 87
+  index: -1
+effects3/FZ/DG_shizi/skillc 4_01
+  rotate: false
+  xy: 661, 357
+  size: 360, 342
+  orig: 595, 493
+  offset: 76, 102
+  index: -1
+effects3/FZ/DG_shizi/skillc 4_05
+  rotate: false
+  xy: 2, 336
+  size: 408, 374
+  orig: 595, 493
+  offset: 75, 70
+  index: -1
+effects3/FZ/FZ_lizi/FZ_lizi1_04
+  rotate: true
+  xy: 404, 15
+  size: 319, 255
+  orig: 486, 413
+  offset: 100, 78
+  index: -1
+effects3/FZ/FZ_lizi/FZ_lizi1_07
+  rotate: true
+  xy: 412, 394
+  size: 309, 245
+  orig: 486, 413
+  offset: 86, 78
+  index: -1
+effects3/FZ/SD2/SD2_05
+  rotate: true
+  xy: 826, 701
+  size: 320, 195
+  orig: 478, 351
+  offset: 80, 85
+  index: -1
+effects3/FZ/xian_2
+  rotate: true
+  xy: 219, 9
+  size: 325, 183
+  orig: 443, 292
+  offset: 62, 38
+  index: -1
+
+effects_10101_skillT3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects3/FZ/DG_1/DG_X_1_02
+  rotate: false
+  xy: 378, 706
+  size: 227, 283
+  orig: 521, 439
+  offset: 181, 81
+  index: -1
+effects3/FZ/DG_1/DG_X_1_03
+  rotate: true
+  xy: 884, 827
+  size: 162, 105
+  orig: 521, 439
+  offset: 200, 260
+  index: -1
+effects3/FZ/DG_shizi/skillc 4_03
+  rotate: false
+  xy: 2, 631
+  size: 374, 358
+  orig: 595, 493
+  offset: 83, 86
+  index: -1
+effects3/FZ/DG_xian1/DG_xian1_01
+  rotate: false
+  xy: 2, 334
+  size: 226, 295
+  orig: 406, 392
+  offset: 90, 42
+  index: -1
+effects3/FZ/DG_xian1/DG_xian1_02
+  rotate: false
+  xy: 230, 356
+  size: 161, 273
+  orig: 406, 392
+  offset: 153, 72
+  index: -1
+effects3/FZ/SD/SD_1_01
+  rotate: false
+  xy: 2, 75
+  size: 211, 257
+  orig: 484, 439
+  offset: 126, 79
+  index: -1
+effects3/FZ/SD/SD_1_02
+  rotate: true
+  xy: 826, 596
+  size: 205, 157
+  orig: 484, 439
+  offset: 122, 229
+  index: -1
+effects3/FZ/SD2/SD2_01
+  rotate: false
+  xy: 607, 803
+  size: 275, 186
+  orig: 478, 351
+  offset: 74, 103
+  index: -1
+effects3/FZ/SD2/SD2_03
+  rotate: false
+  xy: 393, 283
+  size: 267, 177
+  orig: 478, 351
+  offset: 110, 103
+  index: -1
+effects3/FZ/XDG1/XDG1_01
+  rotate: false
+  xy: 393, 462
+  size: 212, 242
+  orig: 444, 393
+  offset: 97, 66
+  index: -1
+effects3/FZ/XDG1/XDG1_02
+  rotate: false
+  xy: 607, 562
+  size: 217, 239
+  orig: 444, 393
+  offset: 103, 81
+  index: -1
+effects3/FZ/XDG1/XDG1_03
+  rotate: false
+  xy: 662, 330
+  size: 211, 230
+  orig: 444, 393
+  offset: 115, 95
+  index: -1
+effects3/FZ/XDG1/XDG1_05
+  rotate: false
+  xy: 662, 109
+  size: 221, 219
+  orig: 444, 393
+  offset: 120, 117
+  index: -1

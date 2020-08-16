@@ -1,0 +1,265 @@
+
+effects_21301_skillC.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillC/baozha/baozha_00000
+  rotate: false
+  xy: 2, 789
+  size: 240, 228
+  orig: 240, 240
+  offset: 0, 12
+  index: -1
+images/effects/skillC/baozha/baozha_00001
+  rotate: false
+  xy: 2, 562
+  size: 234, 225
+  orig: 240, 240
+  offset: 2, 12
+  index: -1
+images/effects/skillC/baozha/baozha_00003
+  rotate: false
+  xy: 608, 861
+  size: 159, 156
+  orig: 240, 240
+  offset: 35, 57
+  index: -1
+images/effects/skillC/baozha/baozha_00005
+  rotate: false
+  xy: 2, 394
+  size: 162, 166
+  orig: 240, 240
+  offset: 37, 53
+  index: -1
+images/effects/skillC/baozha/baozha_00007
+  rotate: false
+  xy: 2, 227
+  size: 157, 165
+  orig: 240, 240
+  offset: 39, 53
+  index: -1
+images/effects/skillC/baozha/baozha_00008
+  rotate: false
+  xy: 2, 73
+  size: 144, 152
+  orig: 240, 240
+  offset: 41, 65
+  index: -1
+images/effects/skillC/baozha/baozha_00010
+  rotate: false
+  xy: 166, 423
+  size: 129, 137
+  orig: 240, 240
+  offset: 52, 55
+  index: -1
+images/effects/skillC/qian/qian_00001
+  rotate: false
+  xy: 244, 822
+  size: 196, 195
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+images/effects/skillC/qian/qian_00002
+  rotate: false
+  xy: 442, 853
+  size: 164, 164
+  orig: 200, 200
+  offset: 15, 14
+  index: -1
+images/effects/skillC/qian/qian_00004
+  rotate: false
+  xy: 769, 890
+  size: 149, 127
+  orig: 200, 200
+  offset: 0, 31
+  index: -1
+images/effects/skillC/qian/qian_00006
+  rotate: true
+  xy: 374, 695
+  size: 125, 108
+  orig: 200, 200
+  offset: 27, 49
+  index: -1
+images/effects/skillC/qian/qian_00008
+  rotate: true
+  xy: 421, 448
+  size: 126, 109
+  orig: 200, 200
+  offset: 26, 49
+  index: -1
+images/effects/skillC/qian/qian_00010
+  rotate: false
+  xy: 420, 342
+  size: 116, 104
+  orig: 200, 200
+  offset: 37, 54
+  index: -1
+images/effects/skillC/qian/qian_00012
+  rotate: false
+  xy: 297, 349
+  size: 121, 105
+  orig: 200, 200
+  offset: 34, 53
+  index: -1
+images/effects/skillC/qian/qian_00014
+  rotate: true
+  xy: 538, 353
+  size: 121, 107
+  orig: 200, 200
+  offset: 34, 50
+  index: -1
+images/effects/skillC/qian/qian_00016
+  rotate: false
+  xy: 388, 10
+  size: 108, 100
+  orig: 200, 200
+  offset: 36, 56
+  index: -1
+images/effects/skillC/qian/qian_00018
+  rotate: true
+  xy: 647, 389
+  size: 114, 87
+  orig: 200, 200
+  offset: 33, 68
+  index: -1
+images/effects/skillC/qian/qian_00020
+  rotate: false
+  xy: 769, 797
+  size: 120, 91
+  orig: 200, 200
+  offset: 30, 65
+  index: -1
+images/effects/skillC/qian/qian_00022
+  rotate: true
+  xy: 532, 476
+  size: 122, 94
+  orig: 200, 200
+  offset: 29, 62
+  index: -1
+images/effects/skillC/qian/qian_00024
+  rotate: true
+  xy: 920, 892
+  size: 125, 97
+  orig: 200, 200
+  offset: 27, 59
+  index: -1
+images/effects/skillC/xunhuan/xunhuan_00000
+  rotate: true
+  xy: 269, 6
+  size: 111, 117
+  orig: 128, 128
+  offset: 6, 2
+  index: -1
+images/effects/skillC/xunhuan/xunhuan_00001
+  rotate: false
+  xy: 608, 742
+  size: 117, 117
+  orig: 128, 128
+  offset: 0, 2
+  index: -1
+images/effects/skillC/xunhuan/xunhuan_00003
+  rotate: false
+  xy: 364, 576
+  size: 118, 117
+  orig: 128, 128
+  offset: 0, 2
+  index: -1
+images/effects/skillC/xunhuan/xunhuan_00005
+  rotate: false
+  xy: 166, 306
+  size: 119, 115
+  orig: 128, 128
+  offset: 0, 4
+  index: -1
+images/effects/skillC/xunhuan/xunhuan_00007
+  rotate: false
+  xy: 161, 188
+  size: 119, 116
+  orig: 128, 128
+  offset: 0, 3
+  index: -1
+images/effects/skillC/xunhuan/xunhuan_00009
+  rotate: false
+  xy: 148, 69
+  size: 119, 117
+  orig: 128, 128
+  offset: 0, 2
+  index: -1
+images/effects/skillC/xunhuan/xunhuan_00011
+  rotate: false
+  xy: 287, 231
+  size: 118, 116
+  orig: 128, 128
+  offset: 0, 2
+  index: -1
+images/effects/skillC/xunhuan/xunhuan_00013
+  rotate: false
+  xy: 604, 624
+  size: 117, 116
+  orig: 128, 128
+  offset: 0, 2
+  index: -1
+images/effects/skillC/xunhuan/xunhuan_00015
+  rotate: false
+  xy: 628, 505
+  size: 116, 117
+  orig: 128, 128
+  offset: 0, 1
+  index: -1
+images/effects/skillC/xunhuan/xunhuan_00017
+  rotate: true
+  xy: 407, 228
+  size: 112, 118
+  orig: 128, 128
+  offset: 4, 0
+  index: -1
+images/effects/skillC/xunhuan/xunhuan_00019
+  rotate: true
+  xy: 282, 119
+  size: 110, 118
+  orig: 128, 128
+  offset: 4, 0
+  index: -1
+images/effects/skillC/xunhuan/xunhuan_00020
+  rotate: false
+  xy: 244, 701
+  size: 128, 119
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+images/effects/skillC/xunhuan/xunhuan_00022
+  rotate: false
+  xy: 238, 580
+  size: 124, 119
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+images/effects/skillC/xunhuan/xunhuan_00024
+  rotate: false
+  xy: 297, 456
+  size: 122, 118
+  orig: 128, 128
+  offset: 0, 1
+  index: -1
+images/effects/skillC/xunhuan/xunhuan_00026
+  rotate: true
+  xy: 402, 112
+  size: 114, 118
+  orig: 128, 128
+  offset: 0, 1
+  index: -1
+images/effects/skillC/xunhuan/xunhuan_00028
+  rotate: true
+  xy: 484, 600
+  size: 124, 118
+  orig: 128, 128
+  offset: 0, 1
+  index: -1
+images/effects/skillC/xunhuan/xunhuan_00030
+  rotate: true
+  xy: 484, 726
+  size: 125, 118
+  orig: 128, 128
+  offset: 1, 2
+  index: -1

@@ -1,0 +1,300 @@
+
+effects_11201_quickmove.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/extra_skillB/lizi_a/lizi_a_0001
+  rotate: true
+  xy: 74, 49
+  size: 57, 39
+  orig: 80, 80
+  offset: 13, 22
+  index: -1
+effects/extra_skillB/lizi_a/lizi_a_0002
+  rotate: true
+  xy: 193, 202
+  size: 64, 50
+  orig: 80, 80
+  offset: 6, 15
+  index: -1
+effects/extra_skillB/lizi_a/lizi_a_0003
+  rotate: true
+  xy: 464, 440
+  size: 70, 46
+  orig: 80, 80
+  offset: 3, 20
+  index: -1
+effects/extra_skillB/lizi_a/lizi_a_0004
+  rotate: false
+  xy: 118, 150
+  size: 75, 49
+  orig: 80, 80
+  offset: 1, 17
+  index: -1
+effects/extra_skillB/lizi_a/lizi_a_0005
+  rotate: false
+  xy: 118, 96
+  size: 78, 52
+  orig: 80, 80
+  offset: 0, 15
+  index: -1
+effects/extra_skillB/lizi_a/lizi_a_0006
+  rotate: false
+  xy: 120, 268
+  size: 78, 58
+  orig: 80, 80
+  offset: 0, 14
+  index: -1
+effects/extra_skillB/lizi_a/lizi_a_0007
+  rotate: false
+  xy: 383, 449
+  size: 79, 61
+  orig: 80, 80
+  offset: 0, 13
+  index: -1
+effects/extra_skillB/lizi_a/lizi_a_0008
+  rotate: false
+  xy: 303, 446
+  size: 78, 64
+  orig: 80, 80
+  offset: 1, 12
+  index: -1
+effects/extra_skillB/lizi_a/lizi_a_0009
+  rotate: false
+  xy: 118, 201
+  size: 73, 65
+  orig: 80, 80
+  offset: 6, 12
+  index: -1
+effects/extra_skillB/lizi_a/lizi_a_0010
+  rotate: true
+  xy: 200, 268
+  size: 61, 54
+  orig: 80, 80
+  offset: 17, 12
+  index: -1
+effects/extra_skillB/lizi_a/lizi_a_0011
+  rotate: true
+  xy: 73, 108
+  size: 56, 43
+  orig: 80, 80
+  offset: 18, 17
+  index: -1
+effects/extra_skillB/lizi_a/lizi_a_0012
+  rotate: false
+  xy: 256, 290
+  size: 39, 32
+  orig: 80, 80
+  offset: 21, 26
+  index: -1
+effects/quickmove/cx/cx_00016
+  rotate: true
+  xy: 2, 33
+  size: 72, 70
+  orig: 72, 72
+  offset: 0, 2
+  index: -1
+effects/quickmove/cx/cx_00017
+  rotate: false
+  xy: 242, 36
+  size: 35, 35
+  orig: 72, 72
+  offset: 17, 14
+  index: -1
+effects/quickmove/cx/cx_00018
+  rotate: false
+  xy: 195, 150
+  size: 48, 50
+  orig: 72, 72
+  offset: 12, 7
+  index: -1
+effects/quickmove/cx/cx_00019
+  rotate: true
+  xy: 198, 99
+  size: 49, 45
+  orig: 72, 72
+  offset: 12, 6
+  index: -1
+effects/quickmove/dimian_1/dimian_1_0001
+  rotate: false
+  xy: 261, 324
+  size: 64, 11
+  orig: 102, 51
+  offset: 18, 20
+  index: -1
+effects/quickmove/dimian_1/dimian_1_0002
+  rotate: true
+  xy: 219, 22
+  size: 75, 21
+  orig: 102, 51
+  offset: 13, 15
+  index: -1
+effects/quickmove/dimian_1/dimian_1_0003
+  rotate: true
+  xy: 245, 73
+  size: 89, 26
+  orig: 102, 51
+  offset: 6, 10
+  index: -1
+effects/quickmove/dimian_1/dimian_1_0004
+  rotate: false
+  xy: 2, 2
+  size: 102, 29
+  orig: 102, 51
+  offset: 0, 9
+  index: -1
+effects/quickmove/dimian_1/dimian_1_0005
+  rotate: true
+  xy: 85, 166
+  size: 102, 31
+  orig: 102, 51
+  offset: 0, 9
+  index: -1
+effects/quickmove/dimian_1/dimian_1_0006
+  rotate: true
+  xy: 474, 347
+  size: 91, 26
+  orig: 102, 51
+  offset: 6, 12
+  index: -1
+effects/quickmove/dimian_1/dimian_1_0007
+  rotate: false
+  xy: 227, 407
+  size: 96, 27
+  orig: 102, 51
+  offset: 0, 12
+  index: -1
+effects/quickmove/dimian_1/dimian_1_0008
+  rotate: true
+  xy: 245, 164
+  size: 102, 31
+  orig: 102, 51
+  offset: 0, 10
+  index: -1
+effects/quickmove/dimian_1/dimian_1_0009
+  rotate: false
+  xy: 115, 34
+  size: 102, 28
+  orig: 102, 51
+  offset: 0, 11
+  index: -1
+effects/quickmove/dimian_1/dimian_1_0010
+  rotate: false
+  xy: 106, 3
+  size: 102, 29
+  orig: 102, 51
+  offset: 0, 10
+  index: -1
+effects/quickmove/dimian_1/dimian_1_0011
+  rotate: true
+  xy: 447, 338
+  size: 100, 25
+  orig: 102, 51
+  offset: 0, 12
+  index: -1
+effects/quickmove/dimian_1/dimian_1_0012
+  rotate: false
+  xy: 115, 64
+  size: 102, 30
+  orig: 102, 51
+  offset: 0, 9
+  index: -1
+effects/quickmove/dimian_1/dimian_1_0013
+  rotate: true
+  xy: 360, 342
+  size: 102, 26
+  orig: 102, 51
+  offset: 0, 12
+  index: -1
+effects/quickmove/dimian_1/dimian_1_0014
+  rotate: true
+  xy: 388, 345
+  size: 102, 28
+  orig: 102, 51
+  offset: 0, 11
+  index: -1
+effects/quickmove/dimian_1/dimian_1_0015
+  rotate: true
+  xy: 329, 342
+  size: 102, 29
+  orig: 102, 51
+  offset: 0, 11
+  index: -1
+effects/quickmove/dimian_1/dimian_1_0016
+  rotate: true
+  xy: 418, 345
+  size: 102, 27
+  orig: 102, 51
+  offset: 0, 12
+  index: -1
+effects/quickmove/dimian_1/dimian_1_0017
+  rotate: true
+  xy: 273, 80
+  size: 82, 21
+  orig: 102, 51
+  offset: 8, 14
+  index: -1
+effects/quickmove/quan_b_00018
+  rotate: false
+  xy: 227, 436
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+effects/quickmove/shan_a/shan_a_00003
+  rotate: false
+  xy: 2, 391
+  size: 116, 119
+  orig: 120, 120
+  offset: 1, 0
+  index: -1
+effects/quickmove/shan_a/shan_a_00004
+  rotate: false
+  xy: 2, 270
+  size: 116, 119
+  orig: 120, 120
+  offset: 1, 0
+  index: -1
+effects/quickmove/shan_a/shan_a_00005
+  rotate: false
+  xy: 120, 407
+  size: 105, 103
+  orig: 120, 120
+  offset: 8, 14
+  index: -1
+effects/quickmove/shan_a/shan_a_00006
+  rotate: true
+  xy: 261, 337
+  size: 68, 66
+  orig: 120, 120
+  offset: 30, 23
+  index: -1
+effects/quickmove/shan_a/shan_a_00007
+  rotate: false
+  xy: 120, 328
+  size: 73, 77
+  orig: 120, 120
+  offset: 27, 23
+  index: -1
+effects/quickmove/shan_a/shan_a_00008
+  rotate: false
+  xy: 2, 107
+  size: 69, 78
+  orig: 120, 120
+  offset: 25, 22
+  index: -1
+effects/quickmove/shan_a/shan_a_00009
+  rotate: false
+  xy: 195, 331
+  size: 64, 74
+  orig: 120, 120
+  offset: 29, 19
+  index: -1
+effects/skillB/quan_a_00051
+  rotate: false
+  xy: 2, 187
+  size: 81, 81
+  orig: 81, 81
+  offset: 0, 0
+  index: -1

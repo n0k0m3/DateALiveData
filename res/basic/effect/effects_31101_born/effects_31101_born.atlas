@@ -1,0 +1,139 @@
+
+effects_31101_born.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/born/bao/bao_001
+  rotate: false
+  xy: 338, 610
+  size: 200, 198
+  orig: 240, 240
+  offset: 18, 26
+  index: -1
+effects/born/bao/bao_002
+  rotate: false
+  xy: 118, 787
+  size: 217, 218
+  orig: 240, 240
+  offset: 9, 7
+  index: -1
+effects/born/bao/bao_004
+  rotate: false
+  xy: 118, 584
+  size: 218, 201
+  orig: 240, 240
+  offset: 8, 25
+  index: -1
+effects/born/bao/bao_006
+  rotate: false
+  xy: 115, 388
+  size: 212, 194
+  orig: 240, 240
+  offset: 11, 31
+  index: -1
+effects/born/bao/bao_008
+  rotate: true
+  xy: 540, 612
+  size: 196, 170
+  orig: 240, 240
+  offset: 19, 48
+  index: -1
+effects/born/bao/bao_010
+  rotate: false
+  xy: 329, 449
+  size: 162, 125
+  orig: 240, 240
+  offset: 40, 58
+  index: -1
+effects/born/bao/bao_012
+  rotate: true
+  xy: 365, 284
+  size: 163, 115
+  orig: 240, 240
+  offset: 39, 62
+  index: -1
+effects/born/bao/bao_013
+  rotate: true
+  xy: 365, 118
+  size: 164, 98
+  orig: 240, 240
+  offset: 38, 67
+  index: -1
+effects/born/shandian/shandian_000
+  rotate: false
+  xy: 284, 138
+  size: 79, 248
+  orig: 120, 360
+  offset: 25, 102
+  index: -1
+effects/born/shandian/shandian_001
+  rotate: false
+  xy: 2, 670
+  size: 114, 335
+  orig: 120, 360
+  offset: 2, 25
+  index: -1
+effects/born/shandian/shandian_002
+  rotate: true
+  xy: 337, 911
+  size: 94, 333
+  orig: 120, 360
+  offset: 1, 25
+  index: -1
+effects/born/shandian/shandian_003
+  rotate: true
+  xy: 337, 810
+  size: 99, 326
+  orig: 120, 360
+  offset: 15, 25
+  index: -1
+effects/born/shandian/shandian_004
+  rotate: false
+  xy: 2, 336
+  size: 111, 332
+  orig: 120, 360
+  offset: 5, 17
+  index: -1
+effects/born/shandian/shandian_005
+  rotate: false
+  xy: 2, 2
+  size: 102, 332
+  orig: 120, 360
+  offset: 8, 14
+  index: -1
+effects/born/shandian/shandian_006
+  rotate: true
+  xy: 672, 915
+  size: 90, 312
+  orig: 120, 360
+  offset: 16, 14
+  index: -1
+effects/born/shandian/shandian_007
+  rotate: false
+  xy: 106, 38
+  size: 88, 296
+  orig: 120, 360
+  offset: 31, 14
+  index: -1
+effects/born/shandian/shandian_008
+  rotate: false
+  xy: 196, 108
+  size: 86, 278
+  orig: 120, 360
+  offset: 32, 18
+  index: -1
+effects/glow
+  rotate: false
+  xy: 196, 26
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+effects/guangxian_000
+  rotate: false
+  xy: 338, 576
+  size: 170, 32
+  orig: 176, 32
+  offset: 1, 0
+  index: -1

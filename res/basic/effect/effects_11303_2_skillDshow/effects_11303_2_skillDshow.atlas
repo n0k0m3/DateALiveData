@@ -1,0 +1,110 @@
+
+effects_11303_2_skillDshow.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+a_saoba2
+  rotate: false
+  xy: 868, 759
+  size: 153, 262
+  orig: 153, 262
+  offset: 0, 0
+  index: -1
+a_saoba3
+  rotate: false
+  xy: 868, 503
+  size: 150, 254
+  orig: 150, 254
+  offset: 0, 0
+  index: -1
+a_saoba4
+  rotate: true
+  xy: 737, 309
+  size: 192, 220
+  orig: 192, 220
+  offset: 0, 0
+  index: -1
+da_24
+  rotate: true
+  xy: 737, 547
+  size: 474, 129
+  orig: 474, 129
+  offset: 0, 0
+  index: -1
+da_40
+  rotate: false
+  xy: 2, 70
+  size: 836, 223
+  orig: 840, 293
+  offset: 4, 21
+  index: -1
+z_jingzi1
+  rotate: false
+  xy: 2, 295
+  size: 733, 726
+  orig: 733, 726
+  offset: 0, 0
+  index: -1
+z_jingzi3
+  rotate: true
+  xy: 840, 7
+  size: 300, 161
+  orig: 301, 161
+  offset: 0, 0
+  index: -1
+
+effects_11303_2_skillDshow2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+a_saoba1
+  rotate: false
+  xy: 167, 644
+  size: 261, 254
+  orig: 261, 254
+  offset: 0, 0
+  index: -1
+a_saoba5
+  rotate: false
+  xy: 739, 767
+  size: 130, 131
+  orig: 130, 131
+  offset: 0, 0
+  index: -1
+a_saoba6
+  rotate: false
+  xy: 430, 699
+  size: 155, 199
+  orig: 155, 199
+  offset: 0, 0
+  index: -1
+saoba2_1
+  rotate: false
+  xy: 2, 2
+  size: 163, 896
+  orig: 174, 1150
+  offset: 7, 20
+  index: -1
+z_jingzi2_1
+  rotate: true
+  xy: 167, 376
+  size: 266, 134
+  orig: 266, 134
+  offset: 0, 0
+  index: -1
+z_jingzi2_2
+  rotate: false
+  xy: 167, 117
+  size: 89, 257
+  orig: 90, 258
+  offset: 1, 1
+  index: -1
+z_jingzi2_3
+  rotate: false
+  xy: 587, 713
+  size: 150, 185
+  orig: 150, 186
+  offset: 0, 1
+  index: -1

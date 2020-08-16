@@ -1,0 +1,69 @@
+
+effect_rabbit_02.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/jineng/baodian/baodian_00015
+  rotate: false
+  xy: 2, 438
+  size: 180, 180
+  orig: 269, 269
+  offset: 46, 38
+  index: -1
+images/jineng/baodian/baodian_00016
+  rotate: false
+  xy: 653, 707
+  size: 122, 121
+  orig: 269, 269
+  offset: 75, 68
+  index: -1
+images/jineng/baodian/baodian_00017
+  rotate: false
+  xy: 212, 678
+  size: 153, 150
+  orig: 269, 269
+  offset: 57, 51
+  index: -1
+images/jineng/baodian/baodian_00019
+  rotate: false
+  xy: 2, 620
+  size: 208, 208
+  orig: 269, 269
+  offset: 34, 27
+  index: -1
+images/jineng/baodian/baodian_00021
+  rotate: false
+  xy: 2, 292
+  size: 145, 144
+  orig: 269, 269
+  offset: 62, 56
+  index: -1
+images/jineng/baodian/baodian_00023
+  rotate: false
+  xy: 2, 2
+  size: 139, 140
+  orig: 269, 269
+  offset: 66, 62
+  index: -1
+images/jineng/baodian/baodian_00025
+  rotate: false
+  xy: 510, 685
+  size: 141, 143
+  orig: 269, 269
+  offset: 64, 60
+  index: -1
+images/jineng/baodian/baodian_00027
+  rotate: false
+  xy: 367, 682
+  size: 141, 146
+  orig: 269, 269
+  offset: 64, 57
+  index: -1
+images/jineng/baodian/baodian_00029
+  rotate: false
+  xy: 2, 144
+  size: 141, 146
+  orig: 269, 269
+  offset: 65, 56
+  index: -1

@@ -1,0 +1,335 @@
+
+effects_24901_die.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/baibao_00027
+  rotate: false
+  xy: 332, 2
+  size: 43, 43
+  orig: 51, 51
+  offset: 4, 4
+  index: -1
+images/effect/born/chibangshandian_m/chibangshandian_m_00091
+  rotate: true
+  xy: 2, 304
+  size: 212, 87
+  orig: 213, 98
+  offset: 0, 1
+  index: -1
+images/effect/born/chibangshandian_m/chibangshandian_m_00093
+  rotate: true
+  xy: 2, 106
+  size: 196, 76
+  orig: 213, 98
+  offset: 17, 22
+  index: -1
+images/effect/born/chibangshandian_m/chibangshandian_m_00095
+  rotate: false
+  xy: 91, 296
+  size: 134, 67
+  orig: 213, 98
+  offset: 79, 6
+  index: -1
+images/effect/born/chibangshandian_m/chibangshandian_m_00097
+  rotate: true
+  xy: 449, 712
+  size: 81, 70
+  orig: 213, 98
+  offset: 132, 6
+  index: -1
+images/effect/born/guanghuang_add_00009
+  rotate: false
+  xy: 929, 654
+  size: 93, 93
+  orig: 94, 95
+  offset: 1, 1
+  index: -1
+images/effect/born/qiudian_a_m/qiudian_a_n_00051
+  rotate: true
+  xy: 521, 794
+  size: 136, 126
+  orig: 178, 159
+  offset: 28, 15
+  index: -1
+images/effect/born/qiudian_a_m/qiudian_a_n_00054
+  rotate: true
+  xy: 91, 365
+  size: 151, 130
+  orig: 178, 159
+  offset: 11, 14
+  index: -1
+images/effect/born/qiudian_a_m/qiudian_a_n_00058
+  rotate: false
+  xy: 367, 795
+  size: 152, 135
+  orig: 178, 159
+  offset: 12, 5
+  index: -1
+images/effect/born/qiudian_a_m/qiudian_a_n_00062
+  rotate: false
+  xy: 780, 886
+  size: 154, 136
+  orig: 178, 159
+  offset: 4, 17
+  index: -1
+images/effect/born/qiudian_a_m/qiudian_a_n_00069
+  rotate: false
+  xy: 80, 154
+  size: 133, 140
+  orig: 178, 159
+  offset: 42, 5
+  index: -1
+images/effect/born/qiudian_a_m/qiudian_a_n_00070
+  rotate: true
+  xy: 780, 749
+  size: 135, 150
+  orig: 178, 159
+  offset: 29, 7
+  index: -1
+images/effect/born/qiudian_a_m/qiudian_a_n_00074
+  rotate: false
+  xy: 215, 182
+  size: 117, 96
+  orig: 178, 159
+  offset: 52, 9
+  index: -1
+images/effect/die/anheilizixunhuang_nor/anheilizixunhuang_nor_00079
+  rotate: false
+  xy: 334, 182
+  size: 115, 96
+  orig: 121, 108
+  offset: 1, 2
+  index: -1
+images/effect/die/anheilizixunhuang_nor/anheilizixunhuang_nor_00082
+  rotate: true
+  xy: 932, 771
+  size: 112, 90
+  orig: 121, 108
+  offset: 2, 12
+  index: -1
+images/effect/die/anheilizixunhuang_nor/anheilizixunhuang_nor_00085
+  rotate: true
+  xy: 263, 687
+  size: 103, 81
+  orig: 121, 108
+  offset: 2, 21
+  index: -1
+images/effect/die/anheilizixunhuang_nor/anheilizixunhuang_nor_00088
+  rotate: false
+  xy: 377, 10
+  size: 78, 40
+  orig: 121, 108
+  offset: 4, 30
+  index: -1
+images/effect/die/anheilizixunhuang_nor/anheilizixunhuang_nor_00091
+  rotate: true
+  xy: 278, 576
+  size: 109, 50
+  orig: 121, 108
+  offset: 10, 25
+  index: -1
+images/effect/die/anheilizixunhuang_nor/anheilizixunhuang_nor_00094
+  rotate: true
+  xy: 185, 685
+  size: 105, 76
+  orig: 121, 108
+  offset: 14, 10
+  index: -1
+images/effect/die/anheilizixunhuang_nor/anheilizixunhuang_nor_00097
+  rotate: false
+  xy: 192, 792
+  size: 115, 71
+  orig: 121, 108
+  offset: 2, 23
+  index: -1
+images/effect/die/qiu_add/qiu_add_00030
+  rotate: false
+  xy: 80, 26
+  size: 137, 126
+  orig: 140, 140
+  offset: 2, 2
+  index: -1
+images/effect/die/qiu_add/qiu_add_00033
+  rotate: false
+  xy: 227, 280
+  size: 132, 128
+  orig: 140, 140
+  offset: 6, 2
+  index: -1
+images/effect/die/qiu_add/qiu_add_00036
+  rotate: false
+  xy: 649, 679
+  size: 129, 129
+  orig: 140, 140
+  offset: 6, 7
+  index: -1
+images/effect/die/qiu_add/qiu_add_00039
+  rotate: false
+  xy: 219, 47
+  size: 133, 133
+  orig: 140, 140
+  offset: 3, 4
+  index: -1
+images/effect/die/qiu_add/qiu_add_00042
+  rotate: true
+  xy: 223, 410
+  size: 135, 130
+  orig: 140, 140
+  offset: 2, 5
+  index: -1
+images/effect/die/qiu_add/qiu_add_00045
+  rotate: true
+  xy: 649, 810
+  size: 131, 129
+  orig: 140, 140
+  offset: 3, 5
+  index: -1
+images/effect/die/qiu_add/qiu_add_00048
+  rotate: true
+  xy: 146, 547
+  size: 136, 130
+  orig: 140, 140
+  offset: 4, 2
+  index: -1
+images/effect/die/shandiangoubian_add/shandiangoubian_add_00089
+  rotate: false
+  xy: 367, 932
+  size: 213, 90
+  orig: 216, 102
+  offset: 0, 1
+  index: -1
+images/effect/die/shandiangoubian_add/shandiangoubian_add_00091
+  rotate: false
+  xy: 582, 943
+  size: 196, 79
+  orig: 216, 102
+  offset: 18, 22
+  index: -1
+images/effect/die/shandiangoubian_add/shandiangoubian_add_00093
+  rotate: true
+  xy: 936, 885
+  size: 137, 69
+  orig: 216, 102
+  offset: 79, 6
+  index: -1
+images/effect/die/shandiangoubian_add/shandiangoubian_add_00095
+  rotate: false
+  xy: 929, 580
+  size: 83, 72
+  orig: 216, 102
+  offset: 132, 6
+  index: -1
+images/effect/die/suiboli_add/suiboli_add_00078
+  rotate: true
+  xy: 309, 792
+  size: 71, 34
+  orig: 88, 54
+  offset: 17, 20
+  index: -1
+images/effect/die/suiboli_add/suiboli_add_00081
+  rotate: false
+  xy: 2, 54
+  size: 76, 50
+  orig: 88, 54
+  offset: 9, 4
+  index: -1
+images/effect/die/suiboli_add/suiboli_add_00084
+  rotate: false
+  xy: 449, 658
+  size: 73, 52
+  orig: 88, 54
+  offset: 10, 2
+  index: -1
+images/effect/die/suiboli_add/suiboli_add_00087
+  rotate: true
+  xy: 330, 614
+  size: 71, 53
+  orig: 88, 54
+  offset: 11, 1
+  index: -1
+images/effect/die/suiboli_add/suiboli_add_00090
+  rotate: true
+  xy: 589, 720
+  size: 72, 53
+  orig: 88, 54
+  offset: 9, 1
+  index: -1
+images/effect/die/suiboli_add/suiboli_add_00093
+  rotate: false
+  xy: 524, 667
+  size: 74, 51
+  orig: 88, 54
+  offset: 7, 2
+  index: -1
+images/effect/die/suiboli_add/suiboli_add_00096
+  rotate: false
+  xy: 2, 7
+  size: 73, 45
+  orig: 88, 54
+  offset: 5, 2
+  index: -1
+images/effect/die/suiboli_nor/suiboli_nor_00078
+  rotate: false
+  xy: 521, 720
+  size: 66, 72
+  orig: 198, 183
+  offset: 65, 69
+  index: -1
+images/effect/die/suiboli_nor/suiboli_nor_00081
+  rotate: false
+  xy: 346, 692
+  size: 101, 101
+  orig: 198, 183
+  offset: 50, 60
+  index: -1
+images/effect/die/suiboli_nor/suiboli_nor_00084
+  rotate: true
+  xy: 354, 52
+  size: 128, 126
+  orig: 198, 183
+  offset: 39, 43
+  index: -1
+images/effect/die/suiboli_nor/suiboli_nor_00087
+  rotate: false
+  xy: 780, 603
+  size: 147, 144
+  orig: 198, 183
+  offset: 27, 28
+  index: -1
+images/effect/die/suiboli_nor/suiboli_nor_00090
+  rotate: false
+  xy: 192, 865
+  size: 173, 157
+  orig: 198, 183
+  offset: 14, 20
+  index: -1
+images/effect/die/suiboli_nor/suiboli_nor_00093
+  rotate: false
+  xy: 2, 685
+  size: 181, 167
+  orig: 198, 183
+  offset: 10, 13
+  index: -1
+images/effect/die/suiboli_nor/suiboli_nor_00096
+  rotate: false
+  xy: 2, 854
+  size: 188, 168
+  orig: 198, 183
+  offset: 8, 5
+  index: -1
+images/effect/die/suiboli_nor/suiboli_nor_00099
+  rotate: false
+  xy: 2, 518
+  size: 142, 165
+  orig: 198, 183
+  offset: 3, 2
+  index: -1
+images/effect/die/suiboli_nor/suiboli_nor_00102
+  rotate: true
+  xy: 219, 8
+  size: 37, 111
+  orig: 198, 183
+  offset: 40, 58
+  index: -1

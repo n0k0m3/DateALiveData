@@ -1,0 +1,13 @@
+
+effect_shanguang_17.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shanguang_002
+  rotate: false
+  xy: 2, 2
+  size: 116, 118
+  orig: 128, 128
+  offset: 0, 0
+  index: -1

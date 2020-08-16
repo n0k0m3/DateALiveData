@@ -1,0 +1,20 @@
+
+effect_heroGrow_ui9.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mian_00000
+  rotate: false
+  xy: 2, 2
+  size: 82, 78
+  orig: 225, 225
+  offset: 67, 79
+  index: -1
+suotou_00000
+  rotate: false
+  xy: 2, 82
+  size: 101, 101
+  orig: 225, 225
+  offset: 63, 61
+  index: -1

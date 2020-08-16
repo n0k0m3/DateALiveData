@@ -1,0 +1,507 @@
+
+effects_11212_skillA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_L/exskillb/fazhen/fazhen_050
+  rotate: false
+  xy: 371, 467
+  size: 367, 162
+  orig: 369, 175
+  offset: 1, 7
+  index: -1
+images/effects_L/exskillb/fazhen/fazhen_052
+  rotate: false
+  xy: 371, 303
+  size: 367, 162
+  orig: 369, 175
+  offset: 1, 7
+  index: -1
+images/effects_L/exskillb/fazhen/fazhen_054
+  rotate: false
+  xy: 2, 272
+  size: 367, 162
+  orig: 369, 175
+  offset: 1, 7
+  index: -1
+images/effects_L/exskillb/fazhen/fazhen_056
+  rotate: false
+  xy: 2, 108
+  size: 367, 162
+  orig: 369, 175
+  offset: 1, 7
+  index: -1
+images/effects_L/exskillb/xuanzhuan2/xuanzhuan2_088
+  rotate: false
+  xy: 2, 436
+  size: 367, 196
+  orig: 395, 233
+  offset: 17, 17
+  index: -1
+images/effects_L/exskillb/xuanzhuan2/xuanzhuan2_092
+  rotate: false
+  xy: 2, 831
+  size: 376, 191
+  orig: 395, 233
+  offset: 9, 22
+  index: -1
+images/effects_L/exskillb/xuanzhuan2/xuanzhuan2_096
+  rotate: false
+  xy: 380, 826
+  size: 374, 196
+  orig: 395, 233
+  offset: 12, 17
+  index: -1
+images/effects_L/exskillb/xuanzhuan2/xuanzhuan2_124
+  rotate: false
+  xy: 2, 634
+  size: 373, 195
+  orig: 395, 233
+  offset: 9, 17
+  index: -1
+images/effects_L/exskillb/xuanzhuan2/xuanzhuan2_131
+  rotate: false
+  xy: 377, 631
+  size: 373, 193
+  orig: 395, 233
+  offset: 11, 18
+  index: -1
+images/effects_L/exskillb/xuanzhuan2/xuanzhuan2_139
+  rotate: false
+  xy: 740, 321
+  size: 245, 54
+  orig: 395, 233
+  offset: 69, 28
+  index: -1
+images/effects_L/skillA/baodian/baodian_040
+  rotate: false
+  xy: 732, 4
+  size: 259, 207
+  orig: 264, 257
+  offset: 3, 26
+  index: -1
+images/effects_L/skillA/qilang/qilang_006
+  rotate: false
+  xy: 756, 848
+  size: 264, 174
+  orig: 277, 174
+  offset: 0, 0
+  index: -1
+images/effects_L/skillA/shifa/shifa_008
+  rotate: false
+  xy: 756, 601
+  size: 261, 245
+  orig: 377, 296
+  offset: 9, 14
+  index: -1
+images/effects_L/skillA/shifa/shifa_014
+  rotate: false
+  xy: 371, 5
+  size: 359, 296
+  orig: 377, 296
+  offset: 18, 0
+  index: -1
+images/effects_L/skillA/xuli/xuli_076
+  rotate: true
+  xy: 740, 377
+  size: 222, 279
+  orig: 280, 350
+  offset: 20, 34
+  index: -1
+images/effects_L/skillA/zidan/zidan_000
+  rotate: false
+  xy: 2, 18
+  size: 307, 88
+  orig: 324, 92
+  offset: 9, 3
+  index: -1
+images/effects_L/skillA/zidan/zidan_06
+  rotate: false
+  xy: 732, 213
+  size: 290, 88
+  orig: 324, 92
+  offset: 26, 3
+  index: -1
+
+effects_11212_skillA2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_L/exskillb/fazhen/fazhen_058
+  rotate: false
+  xy: 2, 860
+  size: 367, 162
+  orig: 369, 175
+  offset: 1, 7
+  index: -1
+images/effects_L/exskillb/fazhen/fazhen_060
+  rotate: false
+  xy: 371, 860
+  size: 367, 162
+  orig: 369, 175
+  offset: 1, 7
+  index: -1
+images/effects_L/exskillb/fazhen/fazhen_062
+  rotate: false
+  xy: 2, 696
+  size: 367, 162
+  orig: 369, 175
+  offset: 1, 7
+  index: -1
+images/effects_L/exskillb/xuanzhuan2/xuanzhuan2_127
+  rotate: false
+  xy: 371, 663
+  size: 366, 195
+  orig: 395, 233
+  offset: 12, 17
+  index: -1
+images/effects_L/exskillb/xuanzhuan2/xuanzhuan2_135
+  rotate: false
+  xy: 2, 502
+  size: 361, 192
+  orig: 395, 233
+  offset: 20, 18
+  index: -1
+images/effects_L/skillA/baodian/baodian_038
+  rotate: true
+  xy: 552, 40
+  size: 165, 166
+  orig: 264, 257
+  offset: 54, 42
+  index: -1
+images/effects_L/skillA/baodian/baodian_050
+  rotate: false
+  xy: 806, 10
+  size: 162, 78
+  orig: 264, 257
+  offset: 34, 77
+  index: -1
+images/effects_L/skillA/baodian1/baodian1_110
+  rotate: true
+  xy: 204, 297
+  size: 203, 158
+  orig: 328, 314
+  offset: 44, 69
+  index: -1
+images/effects_L/skillA/glow_000
+  rotate: false
+  xy: 720, 4
+  size: 84, 84
+  orig: 114, 116
+  offset: 15, 16
+  index: -1
+images/effects_L/skillA/qilang/qilang_008
+  rotate: false
+  xy: 740, 848
+  size: 276, 174
+  orig: 277, 174
+  offset: 0, 0
+  index: -1
+images/effects_L/skillA/quan_048
+  rotate: false
+  xy: 552, 207
+  size: 170, 164
+  orig: 194, 191
+  offset: 9, 14
+  index: -1
+images/effects_L/skillA/shifa/shifa_009
+  rotate: true
+  xy: 726, 180
+  size: 326, 296
+  orig: 377, 296
+  offset: 0, 0
+  index: -1
+images/effects_L/skillA/shifa/shifa_010
+  rotate: true
+  xy: 739, 508
+  size: 338, 271
+  orig: 377, 296
+  offset: 8, 15
+  index: -1
+images/effects_L/skillA/shifa/shifa_012
+  rotate: false
+  xy: 365, 373
+  size: 359, 288
+  orig: 377, 296
+  offset: 14, 5
+  index: -1
+images/effects_L/skillA/shifa/shifa_016
+  rotate: false
+  xy: 204, 2
+  size: 346, 293
+  orig: 377, 296
+  offset: 31, 3
+  index: -1
+images/effects_L/skillA/shifa/shifa_020
+  rotate: true
+  xy: 2, 5
+  size: 173, 200
+  orig: 377, 296
+  offset: 110, 50
+  index: -1
+images/effects_L/skillA/xuli/xuli_074
+  rotate: false
+  xy: 2, 247
+  size: 198, 253
+  orig: 280, 350
+  offset: 44, 25
+  index: -1
+images/effects_L/skillA/zidan/zidan_02
+  rotate: false
+  xy: 720, 90
+  size: 301, 88
+  orig: 324, 92
+  offset: 15, 3
+  index: -1
+
+effects_11212_skillA3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_L/exskillb/xuanzhuan2/xuanzhuan2_084
+  rotate: false
+  xy: 652, 855
+  size: 315, 166
+  orig: 395, 233
+  offset: 44, 17
+  index: -1
+images/effects_L/skillA/baodian1/baodian1_100
+  rotate: false
+  xy: 639, 236
+  size: 308, 307
+  orig: 328, 314
+  offset: 10, 1
+  index: -1
+images/effects_L/skillA/baodian1/baodian1_102
+  rotate: true
+  xy: 652, 545
+  size: 308, 309
+  orig: 328, 314
+  offset: 10, 1
+  index: -1
+images/effects_L/skillA/baodian1/baodian1_104
+  rotate: true
+  xy: 328, 411
+  size: 308, 309
+  orig: 328, 314
+  offset: 10, 1
+  index: -1
+images/effects_L/skillA/baodian1/baodian1_106
+  rotate: true
+  xy: 2, 389
+  size: 308, 309
+  orig: 328, 314
+  offset: 10, 1
+  index: -1
+images/effects_L/skillA/baodian1/baodian1_108
+  rotate: false
+  xy: 328, 721
+  size: 322, 300
+  orig: 328, 314
+  offset: 6, 5
+  index: -1
+images/effects_L/skillA/baodian1/baodian1_112
+  rotate: false
+  xy: 2, 239
+  size: 186, 148
+  orig: 328, 314
+  offset: 59, 79
+  index: -1
+images/effects_L/skillA/baodian1/baodian1_116
+  rotate: true
+  xy: 909, 87
+  size: 147, 112
+  orig: 328, 314
+  offset: 85, 78
+  index: -1
+images/effects_L/skillA/qilang/qilang_010
+  rotate: false
+  xy: 190, 240
+  size: 250, 147
+  orig: 277, 174
+  offset: 5, 0
+  index: -1
+images/effects_L/skillA/shifa/shifa_018
+  rotate: true
+  xy: 638, 5
+  size: 229, 269
+  orig: 377, 296
+  offset: 105, 9
+  index: -1
+images/effects_L/skillA/shifa/shifa_022
+  rotate: false
+  xy: 442, 2
+  size: 156, 164
+  orig: 377, 296
+  offset: 113, 71
+  index: -1
+images/effects_L/skillA/xuli/xuli_078
+  rotate: false
+  xy: 442, 168
+  size: 194, 241
+  orig: 280, 350
+  offset: 48, 66
+  index: -1
+images/effects_L/skillA/xuli/xuli_080
+  rotate: true
+  xy: 2, 2
+  size: 232, 242
+  orig: 280, 350
+  offset: 48, 66
+  index: -1
+images/effects_L/skillA/xuli/xuli_088
+  rotate: false
+  xy: 246, 33
+  size: 194, 205
+  orig: 280, 350
+  offset: 48, 66
+  index: -1
+images/effects_L/skillC/fazhen_095
+  rotate: false
+  xy: 2, 699
+  size: 324, 322
+  orig: 339, 331
+  offset: 6, 6
+  index: -1
+
+effects_11212_skillA4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_L/skillA/baodian/baodian_039
+  rotate: false
+  xy: 802, 820
+  size: 212, 202
+  orig: 264, 257
+  offset: 29, 26
+  index: -1
+images/effects_L/skillA/baodian/baodian_042
+  rotate: false
+  xy: 552, 806
+  size: 248, 216
+  orig: 264, 257
+  offset: 3, 16
+  index: -1
+images/effects_L/skillA/baodian/baodian_044
+  rotate: false
+  xy: 2, 20
+  size: 225, 160
+  orig: 264, 257
+  offset: 14, 37
+  index: -1
+images/effects_L/skillA/baodian/baodian_046
+  rotate: true
+  xy: 821, 605
+  size: 213, 155
+  orig: 264, 257
+  offset: 17, 34
+  index: -1
+images/effects_L/skillA/baodian/baodian_048
+  rotate: false
+  xy: 425, 289
+  size: 187, 120
+  orig: 264, 257
+  offset: 20, 41
+  index: -1
+images/effects_L/skillA/baodian1/baodian1_101
+  rotate: false
+  xy: 2, 715
+  size: 308, 307
+  orig: 328, 314
+  offset: 10, 1
+  index: -1
+images/effects_L/skillA/baodian1/baodian1_114
+  rotate: false
+  xy: 425, 141
+  size: 160, 146
+  orig: 328, 314
+  offset: 83, 79
+  index: -1
+images/effects_L/skillA/qilang/qilang_012
+  rotate: false
+  xy: 385, 411
+  size: 246, 132
+  orig: 277, 174
+  offset: 9, 0
+  index: -1
+images/effects_L/skillA/qilang/qilang_014
+  rotate: true
+  xy: 209, 183
+  size: 224, 124
+  orig: 277, 174
+  offset: 12, 0
+  index: -1
+images/effects_L/skillA/xuli/xuli_070
+  rotate: true
+  xy: 229, 2
+  size: 117, 186
+  orig: 280, 350
+  offset: 139, 127
+  index: -1
+images/effects_L/skillA/xuli/xuli_072
+  rotate: false
+  xy: 2, 413
+  size: 201, 300
+  orig: 280, 350
+  offset: 41, 5
+  index: -1
+images/effects_L/skillA/xuli/xuli_082
+  rotate: false
+  xy: 385, 545
+  size: 227, 228
+  orig: 280, 350
+  offset: 48, 66
+  index: -1
+images/effects_L/skillA/xuli/xuli_084
+  rotate: true
+  xy: 2, 182
+  size: 229, 205
+  orig: 280, 350
+  offset: 48, 66
+  index: -1
+images/effects_L/skillA/xuli/xuli_086
+  rotate: true
+  xy: 614, 598
+  size: 206, 205
+  orig: 280, 350
+  offset: 48, 66
+  index: -1
+images/effects_L/skillA/xuli/xuli_090
+  rotate: false
+  xy: 633, 469
+  size: 121, 127
+  orig: 280, 350
+  offset: 81, 101
+  index: -1
+images/effects_L/skillA/zidan/zidan_01
+  rotate: true
+  xy: 295, 409
+  size: 304, 88
+  orig: 324, 92
+  offset: 12, 3
+  index: -1
+images/effects_L/skillA/zidan/zidan_04
+  rotate: true
+  xy: 205, 419
+  size: 294, 88
+  orig: 324, 92
+  offset: 22, 3
+  index: -1
+images/effects_L/skillA/zidan/zidan_08
+  rotate: true
+  xy: 335, 121
+  size: 286, 88
+  orig: 324, 92
+  offset: 30, 3
+  index: -1
+images/effects_L/skillC/glow1_079
+  rotate: false
+  xy: 312, 775
+  size: 238, 247
+  orig: 248, 247
+  offset: 3, 0
+  index: -1

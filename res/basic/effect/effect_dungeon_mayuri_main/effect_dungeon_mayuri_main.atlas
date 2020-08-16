@@ -1,0 +1,236 @@
+
+effect_dungeon_mayuri_main.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+38
+  rotate: false
+  xy: 1537, 4
+  size: 132, 139
+  orig: 134, 141
+  offset: 1, 1
+  index: -1
+A
+  rotate: true
+  xy: 2032, 2007
+  size: 9, 11
+  orig: 11, 13
+  offset: 1, 1
+  index: -1
+DATE
+  rotate: false
+  xy: 168, 84
+  size: 26, 20
+  orig: 28, 22
+  offset: 1, 1
+  index: -1
+LIVE
+  rotate: true
+  xy: 149, 83
+  size: 21, 17
+  orig: 23, 19
+  offset: 1, 1
+  index: -1
+bolang2
+  rotate: false
+  xy: 149, 106
+  size: 1386, 347
+  orig: 1388, 349
+  offset: 1, 1
+  index: -1
+dian1
+  rotate: false
+  xy: 2032, 1990
+  size: 4, 4
+  orig: 6, 6
+  offset: 1, 1
+  index: -1
+ding
+  rotate: false
+  xy: 2, 1406
+  size: 1386, 640
+  orig: 1388, 642
+  offset: 1, 1
+  index: -1
+fangkuai
+  rotate: false
+  xy: 1994, 88
+  size: 46, 55
+  orig: 48, 57
+  offset: 1, 1
+  index: -1
+jiaodi
+  rotate: false
+  xy: 142, 6
+  size: 557, 75
+  orig: 559, 77
+  offset: 1, 1
+  index: -1
+jiaodidian
+  rotate: false
+  xy: 701, 75
+  size: 332, 29
+  orig: 334, 31
+  offset: 1, 1
+  index: -1
+kerubiel
+  rotate: true
+  xy: 1671, 11
+  size: 132, 153
+  orig: 134, 155
+  offset: 1, 1
+  index: -1
+kuai1
+  rotate: false
+  xy: 1994, 4
+  size: 34, 40
+  orig: 36, 42
+  offset: 1, 1
+  index: -1
+kuai2
+  rotate: false
+  xy: 2, 2
+  size: 68, 79
+  orig: 70, 81
+  offset: 1, 1
+  index: -1
+kuai3
+  rotate: false
+  xy: 72, 2
+  size: 68, 79
+  orig: 70, 81
+  offset: 1, 1
+  index: -1
+wangge
+  rotate: false
+  xy: 2, 928
+  size: 1386, 476
+  orig: 1388, 478
+  offset: 1, 1
+  index: -1
+xia2
+  rotate: false
+  xy: 2, 455
+  size: 1386, 471
+  orig: 1388, 473
+  offset: 1, 1
+  index: -1
+xiantiao
+  rotate: true
+  xy: 2, 83
+  size: 370, 145
+  orig: 372, 147
+  offset: 1, 1
+  index: -1
+xudian1
+  rotate: false
+  xy: 2032, 2033
+  size: 14, 13
+  orig: 16, 15
+  offset: 1, 1
+  index: -1
+youshang
+  rotate: false
+  xy: 1537, 145
+  size: 506, 513
+  orig: 508, 515
+  offset: 1, 1
+  index: -1
+yuan2
+  rotate: false
+  xy: 1994, 46
+  size: 40, 40
+  orig: 42, 42
+  offset: 1, 1
+  index: -1
+yuan3
+  rotate: false
+  xy: 2032, 2018
+  size: 13, 13
+  orig: 15, 15
+  offset: 1, 1
+  index: -1
+yuan4
+  rotate: false
+  xy: 2032, 1996
+  size: 9, 9
+  orig: 11, 11
+  offset: 1, 1
+  index: -1
+yumao_00000
+  rotate: false
+  xy: 1826, 20
+  size: 166, 123
+  orig: 250, 178
+  offset: 39, 21
+  index: -1
+zong
+  rotate: true
+  xy: 1390, 660
+  size: 1386, 640
+  orig: 1388, 642
+  offset: 1, 1
+  index: -1
+
+effect_dungeon_mayuri_main2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bolang1
+  rotate: false
+  xy: 2, 73
+  size: 1386, 193
+  orig: 1388, 195
+  offset: 1, 1
+  index: -1
+dingbu
+  rotate: false
+  xy: 2, 268
+  size: 1386, 219
+  orig: 1388, 221
+  offset: 1, 1
+  index: -1
+xia
+  rotate: false
+  xy: 2, 489
+  size: 1386, 343
+  orig: 1388, 345
+  offset: 1, 1
+  index: -1
+xian
+  rotate: false
+  xy: 2, 834
+  size: 1308, 536
+  orig: 1310, 538
+  offset: 1, 1
+  index: -1
+xian1
+  rotate: true
+  xy: 1960, 626
+  size: 1386, 50
+  orig: 1388, 52
+  offset: 1, 1
+  index: -1
+xian2
+  rotate: false
+  xy: 2, 2
+  size: 1386, 69
+  orig: 1388, 71
+  offset: 1, 1
+  index: -1
+youshang2
+  rotate: false
+  xy: 2, 1372
+  size: 1323, 640
+  orig: 1325, 642
+  offset: 1, 1
+  index: -1
+zuoshang
+  rotate: true
+  xy: 1327, 1188
+  size: 824, 631
+  orig: 826, 633
+  offset: 1, 1
+  index: -1

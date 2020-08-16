@@ -1,0 +1,20 @@
+
+effects_tongyong_yujing.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skillb_00019
+  rotate: false
+  xy: 2, 64
+  size: 496, 112
+  orig: 496, 112
+  offset: 0, 0
+  index: -1
+effect/yujingquan_00016
+  rotate: false
+  xy: 2, 178
+  size: 320, 320
+  orig: 320, 320
+  offset: 0, 0
+  index: -1

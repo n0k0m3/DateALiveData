@@ -1,0 +1,90 @@
+
+effects_hfkuangsankanban.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/denglong
+  rotate: false
+  xy: 697, 697
+  size: 55, 83
+  orig: 55, 83
+  offset: 0, 0
+  index: -1
+images/guang2_00000
+  rotate: false
+  xy: 2, 460
+  size: 693, 320
+  orig: 693, 320
+  offset: 0, 0
+  index: -1
+images/guangyun1
+  rotate: false
+  xy: 2, 316
+  size: 213, 142
+  orig: 259, 160
+  offset: 27, 18
+  index: -1
+images/hua
+  rotate: false
+  xy: 754, 764
+  size: 26, 16
+  orig: 26, 16
+  offset: 0, 0
+  index: -1
+images/hua10
+  rotate: false
+  xy: 2, 273
+  size: 24, 13
+  orig: 24, 13
+  offset: 0, 0
+  index: -1
+images/hua11
+  rotate: false
+  xy: 252, 446
+  size: 21, 12
+  orig: 21, 12
+  offset: 0, 0
+  index: -1
+images/hua2
+  rotate: false
+  xy: 697, 677
+  size: 26, 18
+  orig: 26, 18
+  offset: 0, 0
+  index: -1
+images/hua3
+  rotate: false
+  xy: 217, 435
+  size: 33, 23
+  orig: 33, 23
+  offset: 0, 0
+  index: -1
+images/hua6
+  rotate: false
+  xy: 47, 296
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+images/hua7
+  rotate: false
+  xy: 217, 419
+  size: 21, 14
+  orig: 21, 14
+  offset: 0, 0
+  index: -1
+images/hua8
+  rotate: false
+  xy: 2, 288
+  size: 43, 26
+  orig: 43, 26
+  offset: 0, 0
+  index: -1
+images/hua9
+  rotate: false
+  xy: 697, 657
+  size: 12, 18
+  orig: 12, 18
+  offset: 0, 0
+  index: -1

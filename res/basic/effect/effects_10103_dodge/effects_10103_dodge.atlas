@@ -1,0 +1,97 @@
+
+effects_10103_dodge.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dodge/canying1_000
+  rotate: true
+  xy: 178, 223
+  size: 130, 126
+  orig: 130, 130
+  offset: 0, 0
+  index: -1
+dodge/canying2_000
+  rotate: false
+  xy: 2, 219
+  size: 174, 134
+  orig: 175, 135
+  offset: 1, 1
+  index: -1
+guangxian_000
+  rotate: true
+  xy: 265, 78
+  size: 143, 75
+  orig: 150, 75
+  offset: 1, 0
+  index: -1
+tongyong/chuanci/chuanci_000
+  rotate: false
+  xy: 2, 425
+  size: 250, 71
+  orig: 250, 72
+  offset: 0, 0
+  index: -1
+tongyong/chuanci/chuanci_002
+  rotate: false
+  xy: 2, 355
+  size: 250, 68
+  orig: 250, 72
+  offset: 0, 0
+  index: -1
+tongyong/chuanci/chuanci_004
+  rotate: false
+  xy: 254, 428
+  size: 242, 68
+  orig: 250, 72
+  offset: 0, 1
+  index: -1
+tongyong/chuanci/chuanci_006
+  rotate: false
+  xy: 254, 361
+  size: 235, 65
+  orig: 250, 72
+  offset: 8, 2
+  index: -1
+tongyong/chuanci/chuanci_008
+  rotate: true
+  xy: 2, 9
+  size: 208, 49
+  orig: 250, 72
+  offset: 30, 14
+  index: -1
+tongyong/chuanlizi/chuanlizi_000
+  rotate: false
+  xy: 306, 289
+  size: 164, 70
+  orig: 225, 75
+  offset: 55, 4
+  index: -1
+tongyong/chuanlizi/chuanlizi_002
+  rotate: true
+  xy: 124, 33
+  size: 184, 69
+  orig: 225, 75
+  offset: 35, 4
+  index: -1
+tongyong/chuanlizi/chuanlizi_004
+  rotate: true
+  xy: 53, 29
+  size: 188, 69
+  orig: 225, 75
+  offset: 16, 5
+  index: -1
+tongyong/chuanlizi/chuanlizi_006
+  rotate: true
+  xy: 195, 43
+  size: 178, 68
+  orig: 225, 75
+  offset: 8, 6
+  index: -1
+tongyong/chuanlizi/chuanlizi_008
+  rotate: false
+  xy: 306, 227
+  size: 172, 60
+  orig: 225, 75
+  offset: 5, 12
+  index: -1

@@ -1,0 +1,90 @@
+
+effect_heroGrow_ui27.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: false
+  xy: 2, 22
+  size: 97, 56
+  orig: 224, 56
+  offset: 62, 0
+  index: -1
+02
+  rotate: false
+  xy: 745, 874
+  size: 131, 56
+  orig: 224, 56
+  offset: 48, 0
+  index: -1
+03
+  rotate: true
+  xy: 454, 204
+  size: 224, 56
+  orig: 224, 56
+  offset: 0, 0
+  index: -1
+final_00047_00000
+  rotate: false
+  xy: 2, 430
+  size: 656, 500
+  orig: 664, 500
+  offset: 8, 0
+  index: -1
+huangse
+  rotate: false
+  xy: 304, 87
+  size: 40, 31
+  orig: 42, 33
+  offset: 1, 1
+  index: -1
+jue_00000
+  rotate: false
+  xy: 454, 151
+  size: 52, 51
+  orig: 52, 51
+  offset: 0, 0
+  index: -1
+shenglidi
+  rotate: true
+  xy: 660, 438
+  size: 492, 83
+  orig: 494, 85
+  offset: 1, 1
+  index: -1
+shi_00000
+  rotate: false
+  xy: 512, 377
+  size: 52, 51
+  orig: 52, 51
+  offset: 0, 0
+  index: -1
+tian_00000
+  rotate: false
+  xy: 745, 820
+  size: 51, 52
+  orig: 54, 52
+  offset: 1, 0
+  index: -1
+tiao1_00000
+  rotate: false
+  xy: 2, 120
+  size: 450, 308
+  orig: 450, 320
+  offset: 0, 12
+  index: -1
+tiao_00000
+  rotate: false
+  xy: 2, 80
+  size: 300, 38
+  orig: 300, 100
+  offset: 0, 31
+  index: -1
+xing_00000
+  rotate: false
+  xy: 878, 879
+  size: 52, 51
+  orig: 52, 51
+  offset: 0, 0
+  index: -1

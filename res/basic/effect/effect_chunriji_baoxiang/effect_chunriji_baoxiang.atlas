@@ -1,0 +1,363 @@
+
+effect_chunriji_baoxiang.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/baoxiang
+  rotate: true
+  xy: 127, 345
+  size: 48, 58
+  orig: 50, 60
+  offset: 1, 1
+  index: -1
+images/liuguang/liuguang_00000
+  rotate: false
+  xy: 98, 496
+  size: 101, 14
+  orig: 150, 65
+  offset: 26, 45
+  index: -1
+images/liuguang/liuguang_00050
+  rotate: false
+  xy: 98, 496
+  size: 101, 14
+  orig: 150, 65
+  offset: 26, 45
+  index: -1
+images/liuguang/liuguang_00002
+  rotate: true
+  xy: 2, 281
+  size: 101, 14
+  orig: 150, 65
+  offset: 14, 45
+  index: -1
+images/liuguang/liuguang_00052
+  rotate: true
+  xy: 2, 281
+  size: 101, 14
+  orig: 150, 65
+  offset: 14, 45
+  index: -1
+images/liuguang/liuguang_00004
+  rotate: false
+  xy: 2, 488
+  size: 94, 22
+  orig: 150, 65
+  offset: 9, 37
+  index: -1
+images/liuguang/liuguang_00054
+  rotate: false
+  xy: 2, 488
+  size: 94, 22
+  orig: 150, 65
+  offset: 9, 37
+  index: -1
+images/liuguang/liuguang_00006
+  rotate: true
+  xy: 47, 405
+  size: 81, 34
+  orig: 150, 65
+  offset: 9, 25
+  index: -1
+images/liuguang/liuguang_00056
+  rotate: true
+  xy: 47, 405
+  size: 81, 34
+  orig: 150, 65
+  offset: 9, 25
+  index: -1
+images/liuguang/liuguang_00008
+  rotate: false
+  xy: 127, 448
+  size: 69, 46
+  orig: 150, 65
+  offset: 9, 13
+  index: -1
+images/liuguang/liuguang_00058
+  rotate: false
+  xy: 127, 448
+  size: 69, 46
+  orig: 150, 65
+  offset: 9, 13
+  index: -1
+images/liuguang/liuguang_00010
+  rotate: false
+  xy: 187, 337
+  size: 57, 54
+  orig: 150, 65
+  offset: 9, 4
+  index: -1
+images/liuguang/liuguang_00060
+  rotate: false
+  xy: 187, 337
+  size: 57, 54
+  orig: 150, 65
+  offset: 9, 4
+  index: -1
+images/liuguang/liuguang_00012
+  rotate: false
+  xy: 36, 341
+  size: 45, 54
+  orig: 150, 65
+  offset: 9, 4
+  index: -1
+images/liuguang/liuguang_00062
+  rotate: false
+  xy: 36, 341
+  size: 45, 54
+  orig: 150, 65
+  offset: 9, 4
+  index: -1
+images/liuguang/liuguang_00014
+  rotate: false
+  xy: 83, 358
+  size: 42, 54
+  orig: 150, 65
+  offset: 9, 4
+  index: -1
+images/liuguang/liuguang_00064
+  rotate: false
+  xy: 83, 358
+  size: 42, 54
+  orig: 150, 65
+  offset: 9, 4
+  index: -1
+images/liuguang/liuguang_00016
+  rotate: false
+  xy: 36, 286
+  size: 54, 53
+  orig: 150, 65
+  offset: 9, 4
+  index: -1
+images/liuguang/liuguang_00066
+  rotate: false
+  xy: 36, 286
+  size: 54, 53
+  orig: 150, 65
+  offset: 9, 4
+  index: -1
+images/liuguang/liuguang_00018
+  rotate: false
+  xy: 198, 446
+  size: 67, 48
+  orig: 150, 65
+  offset: 9, 4
+  index: -1
+images/liuguang/liuguang_00068
+  rotate: false
+  xy: 198, 446
+  size: 67, 48
+  orig: 150, 65
+  offset: 9, 4
+  index: -1
+images/liuguang/liuguang_00020
+  rotate: false
+  xy: 303, 473
+  size: 78, 37
+  orig: 150, 65
+  offset: 10, 4
+  index: -1
+images/liuguang/liuguang_00070
+  rotate: false
+  xy: 303, 473
+  size: 78, 37
+  orig: 150, 65
+  offset: 10, 4
+  index: -1
+images/liuguang/liuguang_00022
+  rotate: true
+  xy: 2, 91
+  size: 90, 24
+  orig: 150, 65
+  offset: 10, 4
+  index: -1
+images/liuguang/liuguang_00072
+  rotate: true
+  xy: 2, 91
+  size: 90, 24
+  orig: 150, 65
+  offset: 10, 4
+  index: -1
+images/liuguang/liuguang_00024
+  rotate: false
+  xy: 201, 496
+  size: 100, 14
+  orig: 150, 65
+  offset: 12, 4
+  index: -1
+images/liuguang/liuguang_00074
+  rotate: false
+  xy: 201, 496
+  size: 100, 14
+  orig: 150, 65
+  offset: 12, 4
+  index: -1
+images/liuguang/liuguang_00026
+  rotate: true
+  xy: 2, 384
+  size: 102, 14
+  orig: 150, 65
+  offset: 23, 4
+  index: -1
+images/liuguang/liuguang_00076
+  rotate: true
+  xy: 2, 384
+  size: 102, 14
+  orig: 150, 65
+  offset: 23, 4
+  index: -1
+images/liuguang/liuguang_00028
+  rotate: true
+  xy: 18, 296
+  size: 99, 16
+  orig: 150, 65
+  offset: 36, 4
+  index: -1
+images/liuguang/liuguang_00078
+  rotate: true
+  xy: 18, 296
+  size: 99, 16
+  orig: 150, 65
+  offset: 36, 4
+  index: -1
+images/liuguang/liuguang_00030
+  rotate: true
+  xy: 18, 397
+  size: 89, 27
+  orig: 150, 65
+  offset: 47, 5
+  index: -1
+images/liuguang/liuguang_00080
+  rotate: true
+  xy: 18, 397
+  size: 89, 27
+  orig: 150, 65
+  offset: 47, 5
+  index: -1
+images/liuguang/liuguang_00032
+  rotate: false
+  xy: 383, 471
+  size: 76, 39
+  orig: 150, 65
+  offset: 60, 5
+  index: -1
+images/liuguang/liuguang_00082
+  rotate: false
+  xy: 383, 471
+  size: 76, 39
+  orig: 150, 65
+  offset: 60, 5
+  index: -1
+images/liuguang/liuguang_00034
+  rotate: false
+  xy: 127, 395
+  size: 64, 51
+  orig: 150, 65
+  offset: 72, 5
+  index: -1
+images/liuguang/liuguang_00084
+  rotate: false
+  xy: 127, 395
+  size: 64, 51
+  orig: 150, 65
+  offset: 72, 5
+  index: -1
+images/liuguang/liuguang_00036
+  rotate: false
+  xy: 21, 230
+  size: 52, 54
+  orig: 150, 65
+  offset: 84, 5
+  index: -1
+images/liuguang/liuguang_00086
+  rotate: false
+  xy: 21, 230
+  size: 52, 54
+  orig: 150, 65
+  offset: 84, 5
+  index: -1
+images/liuguang/liuguang_00038
+  rotate: true
+  xy: 21, 189
+  size: 39, 53
+  orig: 150, 65
+  offset: 97, 6
+  index: -1
+images/liuguang/liuguang_00088
+  rotate: true
+  xy: 21, 189
+  size: 39, 53
+  orig: 150, 65
+  offset: 97, 6
+  index: -1
+images/liuguang/liuguang_00040
+  rotate: false
+  xy: 461, 457
+  size: 49, 53
+  orig: 150, 65
+  offset: 87, 6
+  index: -1
+images/liuguang/liuguang_00090
+  rotate: false
+  xy: 461, 457
+  size: 49, 53
+  orig: 150, 65
+  offset: 87, 6
+  index: -1
+images/liuguang/liuguang_00042
+  rotate: false
+  xy: 193, 393
+  size: 61, 51
+  orig: 150, 65
+  offset: 75, 8
+  index: -1
+images/liuguang/liuguang_00092
+  rotate: false
+  xy: 193, 393
+  size: 61, 51
+  orig: 150, 65
+  offset: 75, 8
+  index: -1
+images/liuguang/liuguang_00044
+  rotate: true
+  xy: 83, 414
+  size: 72, 42
+  orig: 150, 65
+  offset: 63, 17
+  index: -1
+images/liuguang/liuguang_00094
+  rotate: true
+  xy: 83, 414
+  size: 72, 42
+  orig: 150, 65
+  offset: 63, 17
+  index: -1
+images/liuguang/liuguang_00046
+  rotate: true
+  xy: 2, 5
+  size: 84, 30
+  orig: 150, 65
+  offset: 51, 29
+  index: -1
+images/liuguang/liuguang_00096
+  rotate: true
+  xy: 2, 5
+  size: 84, 30
+  orig: 150, 65
+  offset: 51, 29
+  index: -1
+images/liuguang/liuguang_00048
+  rotate: true
+  xy: 2, 183
+  size: 96, 17
+  orig: 150, 65
+  offset: 38, 42
+  index: -1
+images/liuguang/liuguang_00098
+  rotate: true
+  xy: 2, 183
+  size: 96, 17
+  orig: 150, 65
+  offset: 38, 42
+  index: -1

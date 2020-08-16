@@ -1,0 +1,152 @@
+
+jinglingqy_lingqutishi.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+huan
+  rotate: true
+  xy: 346, 154
+  size: 114, 122
+  orig: 114, 122
+  offset: 0, 0
+  index: -1
+texiao_00000
+  rotate: false
+  xy: 467, 331
+  size: 39, 53
+  orig: 408, 160
+  offset: 55, 65
+  index: -1
+texiao_00012
+  rotate: false
+  xy: 346, 34
+  size: 112, 118
+  orig: 408, 160
+  offset: 48, 18
+  index: -1
+texiao_00013
+  rotate: false
+  xy: 320, 270
+  size: 145, 114
+  orig: 408, 160
+  offset: 49, 20
+  index: -1
+texiao_00014
+  rotate: false
+  xy: 320, 386
+  size: 184, 120
+  orig: 408, 160
+  offset: 50, 17
+  index: -1
+texiao_00015
+  rotate: true
+  xy: 115, 32
+  size: 228, 122
+  orig: 408, 160
+  offset: 50, 16
+  index: -1
+texiao_00019
+  rotate: false
+  xy: 2, 384
+  size: 316, 122
+  orig: 408, 160
+  offset: 49, 16
+  index: -1
+texiao_00020
+  rotate: false
+  xy: 2, 262
+  size: 315, 120
+  orig: 408, 160
+  offset: 50, 17
+  index: -1
+texiao_00023
+  rotate: true
+  xy: 2, 21
+  size: 239, 111
+  orig: 408, 160
+  offset: 55, 21
+  index: -1
+texiao_00024
+  rotate: true
+  xy: 239, 53
+  size: 207, 105
+  orig: 408, 160
+  offset: 56, 24
+  index: -1
+
+jinglingqy_lingqutishi2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+texiao_00002
+  rotate: false
+  xy: 427, 409
+  size: 77, 95
+  orig: 408, 160
+  offset: 55, 36
+  index: -1
+texiao_00004
+  rotate: true
+  xy: 317, 293
+  size: 95, 102
+  orig: 408, 160
+  offset: 55, 28
+  index: -1
+texiao_00006
+  rotate: false
+  xy: 279, 31
+  size: 96, 105
+  orig: 408, 160
+  offset: 56, 24
+  index: -1
+texiao_00008
+  rotate: false
+  xy: 313, 191
+  size: 96, 100
+  orig: 408, 160
+  offset: 56, 23
+  index: -1
+texiao_00010
+  rotate: false
+  xy: 411, 199
+  size: 80, 92
+  orig: 408, 160
+  offset: 72, 23
+  index: -1
+texiao_00011
+  rotate: false
+  xy: 317, 390
+  size: 108, 114
+  orig: 408, 160
+  offset: 49, 20
+  index: -1
+texiao_00016
+  rotate: false
+  xy: 2, 12
+  size: 275, 124
+  orig: 408, 160
+  offset: 49, 15
+  index: -1
+texiao_00017
+  rotate: false
+  xy: 2, 258
+  size: 308, 122
+  orig: 408, 160
+  offset: 49, 16
+  index: -1
+texiao_00018
+  rotate: false
+  xy: 2, 382
+  size: 313, 122
+  orig: 408, 160
+  offset: 49, 16
+  index: -1
+texiao_00021
+  rotate: false
+  xy: 2, 138
+  size: 309, 118
+  orig: 408, 160
+  offset: 51, 18
+  index: -1

@@ -1,0 +1,125 @@
+
+effects_30301_skillF.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/born/yanchen/yanchen_00034
+  rotate: false
+  xy: 218, 396
+  size: 177, 79
+  orig: 271, 140
+  offset: 91, 13
+  index: -1
+effect/born/yanchen/yanchen_00035
+  rotate: false
+  xy: 218, 477
+  size: 205, 68
+  orig: 271, 140
+  offset: 66, 13
+  index: -1
+effect/born/yanchen/yanchen_00036
+  rotate: true
+  xy: 129, 413
+  size: 223, 87
+  orig: 271, 140
+  offset: 48, 9
+  index: -1
+effect/born/yanchen/yanchen_00037
+  rotate: false
+  xy: 259, 889
+  size: 243, 119
+  orig: 271, 140
+  offset: 24, 6
+  index: -1
+effect/born/yanchen/yanchen_00038
+  rotate: false
+  xy: 504, 890
+  size: 233, 118
+  orig: 271, 140
+  offset: 18, 5
+  index: -1
+effect/born/yanchen/yanchen_00039
+  rotate: true
+  xy: 2, 331
+  size: 220, 125
+  orig: 271, 140
+  offset: 17, 7
+  index: -1
+effect/born/yanchen/yanchen_00040
+  rotate: false
+  xy: 739, 886
+  size: 221, 122
+  orig: 271, 140
+  offset: 17, 10
+  index: -1
+effect/born/yanchen/yanchen_00041
+  rotate: true
+  xy: 2, 113
+  size: 216, 117
+  orig: 271, 140
+  offset: 17, 10
+  index: -1
+effect/born/yanchen/yanchen_00042
+  rotate: true
+  xy: 434, 626
+  size: 143, 94
+  orig: 271, 140
+  offset: 20, 14
+  index: -1
+effect/skillD/qilangquan_00028
+  rotate: true
+  xy: 2, 553
+  size: 296, 93
+  orig: 313, 106
+  offset: 8, 7
+  index: -1
+effect/skillF/dilie_00041
+  rotate: false
+  xy: 218, 547
+  size: 213, 81
+  orig: 237, 83
+  offset: 24, 1
+  index: -1
+effect/skillF/shitoun/shitoun_00037
+  rotate: false
+  xy: 433, 538
+  size: 127, 86
+  orig: 281, 179
+  offset: 72, 19
+  index: -1
+effect/skillF/shitoun/shitoun_00039
+  rotate: false
+  xy: 2, 2
+  size: 136, 109
+  orig: 281, 179
+  offset: 55, 32
+  index: -1
+effect/skillF/shitoun/shitoun_00041
+  rotate: false
+  xy: 261, 630
+  size: 171, 139
+  orig: 281, 179
+  offset: 38, 24
+  index: -1
+effect/skillF/shitoun/shitoun_00043
+  rotate: true
+  xy: 97, 638
+  size: 211, 162
+  orig: 281, 179
+  offset: 24, 3
+  index: -1
+effect/skillF/shitoun/shitoun_00045
+  rotate: false
+  xy: 2, 851
+  size: 255, 157
+  orig: 281, 179
+  offset: 11, 0
+  index: -1
+effect/skillF/shitoun/shitoun_00047
+  rotate: false
+  xy: 261, 771
+  size: 204, 116
+  orig: 281, 179
+  offset: 41, 0
+  index: -1

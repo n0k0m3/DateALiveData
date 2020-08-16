@@ -1,0 +1,104 @@
+
+effect_hefusisinai.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+11greg
+  rotate: false
+  xy: 676, 930
+  size: 142, 142
+  orig: 142, 142
+  offset: 0, 0
+  index: -1
+1fg
+  rotate: false
+  xy: 582, 838
+  size: 84, 81
+  orig: 84, 81
+  offset: 0, 0
+  index: -1
+1greg
+  rotate: false
+  xy: 1390, 1548
+  size: 91, 40
+  orig: 91, 40
+  offset: 0, 0
+  index: -1
+1r
+  rotate: false
+  xy: 1065, 1308
+  size: 101, 86
+  orig: 101, 86
+  offset: 0, 0
+  index: -1
+1rtdr
+  rotate: false
+  xy: 264, 748
+  size: 96, 86
+  orig: 96, 86
+  offset: 0, 0
+  index: -1
+1wfwrg
+  rotate: false
+  xy: 1874, 1895
+  size: 162, 141
+  orig: 162, 141
+  offset: 0, 0
+  index: -1
+BG
+  rotate: false
+  xy: 2, 1396
+  size: 1386, 640
+  orig: 1386, 640
+  offset: 0, 0
+  index: -1
+fengye1
+  rotate: false
+  xy: 2, 12
+  size: 235, 225
+  orig: 235, 225
+  offset: 0, 0
+  index: -1
+fengye2
+  rotate: false
+  xy: 676, 1074
+  size: 387, 320
+  orig: 387, 320
+  offset: 0, 0
+  index: -1
+fengye3
+  rotate: false
+  xy: 1390, 1590
+  size: 194, 122
+  orig: 194, 122
+  offset: 0, 0
+  index: -1
+fengye4
+  rotate: false
+  xy: 264, 836
+  size: 316, 83
+  orig: 316, 83
+  offset: 0, 0
+  index: -1
+glow
+  rotate: true
+  xy: 2, 239
+  size: 680, 260
+  orig: 680, 260
+  offset: 0, 0
+  index: -1
+guangsu
+  rotate: false
+  xy: 1390, 1714
+  size: 482, 322
+  orig: 482, 322
+  offset: 0, 0
+  index: -1
+shu
+  rotate: false
+  xy: 2, 921
+  size: 672, 473
+  orig: 672, 473
+  offset: 0, 0
+  index: -1

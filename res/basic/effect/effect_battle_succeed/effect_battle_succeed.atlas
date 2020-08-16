@@ -1,0 +1,83 @@
+
+effect_battle_succeed.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cheng
+  rotate: false
+  xy: 668, 795
+  size: 81, 78
+  orig: 100, 100
+  offset: 8, 7
+  index: -1
+final_00047_00000
+  rotate: false
+  xy: 2, 498
+  size: 664, 500
+  orig: 664, 500
+  offset: 0, 0
+  index: -1
+gong1
+  rotate: false
+  xy: 535, 418
+  size: 84, 78
+  orig: 100, 100
+  offset: 7, 10
+  index: -1
+huangse
+  rotate: false
+  xy: 970, 972
+  size: 28, 26
+  orig: 30, 28
+  offset: 1, 1
+  index: -1
+shenglidi
+  rotate: false
+  xy: 2, 142
+  size: 282, 44
+  orig: 284, 52
+  offset: 1, 7
+  index: -1
+tiao1_00000
+  rotate: false
+  xy: 2, 188
+  size: 450, 308
+  orig: 450, 320
+  offset: 0, 12
+  index: -1
+tiao_00000
+  rotate: false
+  xy: 668, 961
+  size: 300, 37
+  orig: 300, 100
+  offset: 0, 33
+  index: -1
+yingwen1
+  rotate: false
+  xy: 668, 875
+  size: 163, 84
+  orig: 164, 100
+  offset: 1, 2
+  index: -1
+yingwen2
+  rotate: true
+  xy: 454, 267
+  size: 229, 79
+  orig: 242, 100
+  offset: 0, 5
+  index: -1
+zhan
+  rotate: false
+  xy: 2, 62
+  size: 87, 78
+  orig: 100, 100
+  offset: 5, 7
+  index: -1
+zuo
+  rotate: false
+  xy: 833, 884
+  size: 83, 75
+  orig: 100, 100
+  offset: 11, 6
+  index: -1

@@ -1,0 +1,62 @@
+
+effects_21101_skillB1.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+texiao/guang2/1_00087
+  rotate: false
+  xy: 2, 291
+  size: 459, 47
+  orig: 459, 47
+  offset: 0, 0
+  index: -1
+texiao/guang2/1_00088
+  rotate: false
+  xy: 2, 242
+  size: 467, 47
+  orig: 467, 47
+  offset: 0, 0
+  index: -1
+texiao/guang2/1_00089
+  rotate: false
+  xy: 2, 193
+  size: 487, 47
+  orig: 487, 47
+  offset: 0, 0
+  index: -1
+texiao/guang2/1_00095
+  rotate: false
+  xy: 2, 144
+  size: 455, 47
+  orig: 455, 47
+  offset: 0, 0
+  index: -1
+texiao/guang2/1_00097
+  rotate: false
+  xy: 2, 340
+  size: 425, 41
+  orig: 425, 41
+  offset: 0, 0
+  index: -1
+texiao/guang2/1_00098
+  rotate: false
+  xy: 2, 383
+  size: 406, 37
+  orig: 406, 37
+  offset: 0, 0
+  index: -1
+texiao/guang2/1_00099
+  rotate: false
+  xy: 2, 422
+  size: 380, 34
+  orig: 380, 34
+  offset: 0, 0
+  index: -1
+texiao/guang2/1_00101
+  rotate: false
+  xy: 2, 458
+  size: 355, 31
+  orig: 355, 31
+  offset: 0, 0
+  index: -1

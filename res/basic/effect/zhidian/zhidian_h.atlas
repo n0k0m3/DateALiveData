@@ -1,0 +1,279 @@
+
+zhidian_h.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+kuangsan/13tiao_00000
+  rotate: false
+  xy: 2, 1779
+  size: 1380, 45
+  orig: 1386, 50
+  offset: 6, 2
+  index: -1
+kuangsan/14shuaitiaoadd_00000
+  rotate: false
+  xy: 2, 1826
+  size: 1386, 220
+  orig: 1386, 220
+  offset: 0, 0
+  index: -1
+kuangsan/15dihuang_suoxiao
+  rotate: true
+  xy: 701, 860
+  size: 139, 64
+  orig: 139, 64
+  offset: 0, 0
+  index: -1
+kuangsan/16lianxu
+  rotate: false
+  xy: 806, 1394
+  size: 195, 195
+  orig: 195, 195
+  offset: 0, 0
+  index: -1
+kuangsan/17disuoxiao
+  rotate: false
+  xy: 303, 479
+  size: 139, 64
+  orig: 139, 64
+  offset: 0, 0
+  index: -1
+kuangsan/7_zi_01
+  rotate: false
+  xy: 2, 1761
+  size: 805, 16
+  orig: 805, 16
+  offset: 0, 0
+  index: -1
+kuangsan/7_zi_02
+  rotate: false
+  xy: 809, 1761
+  size: 453, 16
+  orig: 453, 16
+  offset: 0, 0
+  index: -1
+kuangsan/7_zi_03
+  rotate: false
+  xy: 1390, 1842
+  size: 269, 16
+  orig: 269, 16
+  offset: 0, 0
+  index: -1
+kuangsan/7_zi_04
+  rotate: false
+  xy: 1390, 1860
+  size: 296, 16
+  orig: 296, 16
+  offset: 0, 0
+  index: -1
+kuangsan/7_zi_05
+  rotate: false
+  xy: 806, 1743
+  size: 447, 16
+  orig: 447, 16
+  offset: 0, 0
+  index: -1
+kuangsan/7_zi_06
+  rotate: false
+  xy: 1264, 1761
+  size: 86, 16
+  orig: 86, 16
+  offset: 0, 0
+  index: -1
+kuangsan/7_zi_07
+  rotate: false
+  xy: 1255, 1743
+  size: 78, 16
+  orig: 78, 16
+  offset: 0, 0
+  index: -1
+kuangsan/7_zi_08
+  rotate: false
+  xy: 1390, 1878
+  size: 371, 16
+  orig: 371, 16
+  offset: 0, 0
+  index: -1
+kuangsan/9dianadd_00000
+  rotate: false
+  xy: 2, 453
+  size: 299, 242
+  orig: 300, 300
+  offset: 1, 33
+  index: -1
+kuangsan/zitichuxian/zitichuxian_00000
+  rotate: false
+  xy: 570, 553
+  size: 122, 142
+  orig: 400, 150
+  offset: 0, 0
+  index: -1
+kuangsan/zitichuxian/zitichuxian_00001
+  rotate: false
+  xy: 1003, 1441
+  size: 129, 148
+  orig: 400, 150
+  offset: 0, 0
+  index: -1
+kuangsan/zitichuxian/zitichuxian_00002
+  rotate: false
+  xy: 806, 1242
+  size: 134, 150
+  orig: 400, 150
+  offset: 0, 0
+  index: -1
+kuangsan/zitichuxian/zitichuxian_00003
+  rotate: false
+  xy: 2, 149
+  size: 256, 150
+  orig: 400, 150
+  offset: 0, 0
+  index: -1
+kuangsan/zitichuxian/zitichuxian_00004
+  rotate: false
+  xy: 806, 1591
+  size: 262, 150
+  orig: 400, 150
+  offset: 0, 0
+  index: -1
+kuangsan/zitichuxian/zitichuxian_00005
+  rotate: false
+  xy: 303, 545
+  size: 265, 150
+  orig: 400, 150
+  offset: 0, 0
+  index: -1
+kuangsan/zitichuxian/zitichuxian_00006
+  rotate: false
+  xy: 2, 697
+  size: 392, 150
+  orig: 400, 150
+  offset: 0, 0
+  index: -1
+kuangsan/zitichuxian/zitichuxian_00007
+  rotate: false
+  xy: 404, 1001
+  size: 397, 150
+  orig: 400, 150
+  offset: 0, 0
+  index: -1
+kuangsan/zitichuxian/zitichuxian_00008
+  rotate: false
+  xy: 1390, 1896
+  size: 400, 150
+  orig: 400, 150
+  offset: 0, 0
+  index: -1
+kuangsan/zitichuxian/zitichuxian_00009
+  rotate: false
+  xy: 2, 1609
+  size: 400, 150
+  orig: 400, 150
+  offset: 0, 0
+  index: -1
+kuangsan/zitichuxian/zitichuxian_00010
+  rotate: false
+  xy: 2, 1457
+  size: 400, 150
+  orig: 400, 150
+  offset: 0, 0
+  index: -1
+kuangsan/zitichuxian/zitichuxian_00011
+  rotate: false
+  xy: 404, 1609
+  size: 400, 150
+  orig: 400, 150
+  offset: 0, 0
+  index: -1
+kuangsan/zitichuxian/zitichuxian_00012
+  rotate: false
+  xy: 2, 1305
+  size: 400, 150
+  orig: 400, 150
+  offset: 0, 0
+  index: -1
+kuangsan/zitichuxian/zitichuxian_00013
+  rotate: false
+  xy: 404, 1457
+  size: 400, 150
+  orig: 400, 150
+  offset: 0, 0
+  index: -1
+kuangsan/zitichuxian/zitichuxian_00014
+  rotate: false
+  xy: 2, 1153
+  size: 400, 150
+  orig: 400, 150
+  offset: 0, 0
+  index: -1
+kuangsan/zitichuxian/zitichuxian_00015
+  rotate: false
+  xy: 404, 1305
+  size: 400, 150
+  orig: 400, 150
+  offset: 0, 0
+  index: -1
+kuangsan/zitichuxian/zitichuxian_00016
+  rotate: false
+  xy: 2, 1001
+  size: 400, 150
+  orig: 400, 150
+  offset: 0, 0
+  index: -1
+kuangsan/zitichuxian/zitichuxian_00017
+  rotate: false
+  xy: 404, 1153
+  size: 400, 150
+  orig: 400, 150
+  offset: 0, 0
+  index: -1
+kuangsan/zitichuxian/zitichuxian_00018
+  rotate: false
+  xy: 2, 849
+  size: 400, 150
+  orig: 400, 150
+  offset: 0, 0
+  index: -1
+kuangsan/zitichuxian/zitichuxian_00019
+  rotate: false
+  xy: 404, 849
+  size: 295, 150
+  orig: 400, 150
+  offset: 105, 0
+  index: -1
+kuangsan/zitichuxian/zitichuxian_00020
+  rotate: false
+  xy: 396, 697
+  size: 291, 150
+  orig: 400, 150
+  offset: 109, 0
+  index: -1
+kuangsan/zitichuxian/zitichuxian_00021
+  rotate: false
+  xy: 2, 301
+  size: 287, 150
+  orig: 400, 150
+  offset: 113, 0
+  index: -1
+kuangsan/zitichuxian/zitichuxian_00022
+  rotate: false
+  xy: 1792, 1896
+  size: 153, 150
+  orig: 400, 150
+  offset: 247, 0
+  index: -1
+kuangsan/zitichuxian/zitichuxian_00023
+  rotate: false
+  xy: 1070, 1591
+  size: 149, 150
+  orig: 400, 150
+  offset: 251, 0
+  index: -1
+kuangsan/zitichuxian/zitichuxian_00024
+  rotate: true
+  xy: 2, 2
+  size: 145, 150
+  orig: 400, 150
+  offset: 255, 0
+  index: -1

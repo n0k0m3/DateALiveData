@@ -1,0 +1,129 @@
+
+effect_xiayu_13.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/xiayu1/xiayu_00003
+  rotate: false
+  xy: 2, 664
+  size: 583, 329
+  orig: 585, 329
+  offset: 1, 0
+  index: -1
+images/xiayu1/xiayu_00007
+  rotate: false
+  xy: 2, 333
+  size: 583, 329
+  orig: 585, 329
+  offset: 1, 0
+  index: -1
+images/xiayu1/xiayu_00011
+  rotate: true
+  xy: 587, 410
+  size: 583, 329
+  orig: 585, 329
+  offset: 1, 0
+  index: -1
+images/xiayu1/xiayu_00015
+  rotate: false
+  xy: 2, 2
+  size: 583, 329
+  orig: 585, 329
+  offset: 1, 0
+  index: -1
+
+effect_xiayu_132.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/xiayu1/xiayu_00019
+  rotate: false
+  xy: 2, 664
+  size: 583, 329
+  orig: 585, 329
+  offset: 1, 0
+  index: -1
+images/xiayu1/xiayu_00023
+  rotate: false
+  xy: 2, 333
+  size: 583, 329
+  orig: 585, 329
+  offset: 1, 0
+  index: -1
+images/xiayu1/xiayu_00027
+  rotate: true
+  xy: 587, 410
+  size: 583, 329
+  orig: 585, 329
+  offset: 1, 0
+  index: -1
+images/xiayu1/xiayu_00031
+  rotate: false
+  xy: 2, 2
+  size: 583, 329
+  orig: 585, 329
+  offset: 1, 0
+  index: -1
+
+effect_xiayu_133.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/xiayu1/xiayu_00035
+  rotate: false
+  xy: 2, 664
+  size: 583, 329
+  orig: 585, 329
+  offset: 1, 0
+  index: -1
+images/xiayu1/xiayu_00039
+  rotate: false
+  xy: 2, 333
+  size: 583, 329
+  orig: 585, 329
+  offset: 1, 0
+  index: -1
+images/xiayu1/xiayu_00043
+  rotate: true
+  xy: 587, 410
+  size: 583, 329
+  orig: 585, 329
+  offset: 1, 0
+  index: -1
+images/xiayu1/xiayu_00047
+  rotate: false
+  xy: 2, 2
+  size: 583, 329
+  orig: 585, 329
+  offset: 1, 0
+  index: -1
+
+effect_xiayu_134.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/xiayu1/xiayu_00051
+  rotate: false
+  xy: 2, 587
+  size: 583, 329
+  orig: 585, 329
+  offset: 1, 0
+  index: -1
+images/xiayu1/xiayu_00055
+  rotate: false
+  xy: 2, 256
+  size: 583, 329
+  orig: 585, 329
+  offset: 1, 0
+  index: -1
+images/xiayu1/xiayu_00059
+  rotate: true
+  xy: 587, 333
+  size: 583, 329
+  orig: 585, 329
+  offset: 1, 0
+  index: -1

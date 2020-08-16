@@ -1,0 +1,62 @@
+
+effects_20701_skillA2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tx/bd/bd0001
+  rotate: false
+  xy: 500, 451
+  size: 183, 135
+  orig: 379, 285
+  offset: 87, 69
+  index: -1
+tx/bd/bd0002
+  rotate: false
+  xy: 717, 762
+  size: 292, 247
+  orig: 379, 285
+  offset: 39, 18
+  index: -1
+tx/bd/bd0003
+  rotate: true
+  xy: 251, 461
+  size: 292, 247
+  orig: 379, 285
+  offset: 39, 18
+  index: -1
+tx/bd/bd0004
+  rotate: false
+  xy: 2, 755
+  size: 358, 254
+  orig: 379, 285
+  offset: 11, 23
+  index: -1
+tx/bd/bd0006
+  rotate: true
+  xy: 2, 392
+  size: 361, 247
+  orig: 379, 285
+  offset: 12, 23
+  index: -1
+tx/bd/bd0008
+  rotate: false
+  xy: 362, 770
+  size: 353, 239
+  orig: 379, 285
+  offset: 12, 24
+  index: -1
+tx/bd/bd0010
+  rotate: true
+  xy: 2, 38
+  size: 352, 239
+  orig: 379, 285
+  offset: 12, 24
+  index: -1
+tx/bd/bd0014
+  rotate: false
+  xy: 500, 588
+  size: 180, 180
+  orig: 379, 285
+  offset: 64, 50
+  index: -1

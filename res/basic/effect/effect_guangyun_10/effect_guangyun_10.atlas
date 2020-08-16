@@ -1,0 +1,13 @@
+
+effect_guangyun_10.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/guangyun_00000
+  rotate: false
+  xy: 2, 89
+  size: 297, 210
+  orig: 300, 300
+  offset: 0, 50
+  index: -1

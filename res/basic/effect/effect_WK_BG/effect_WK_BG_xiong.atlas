@@ -1,0 +1,27 @@
+
+effect_WK_BG_xiong.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tou
+  rotate: false
+  xy: 2, 5
+  size: 40, 37
+  orig: 40, 37
+  offset: 0, 0
+  index: -1
+tou1
+  rotate: false
+  xy: 84, 87
+  size: 40, 37
+  orig: 40, 37
+  offset: 0, 0
+  index: -1
+zhijia
+  rotate: false
+  xy: 2, 44
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1

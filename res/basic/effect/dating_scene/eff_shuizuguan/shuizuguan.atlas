@@ -1,0 +1,40 @@
+
+shuizuguan.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+111_000
+  rotate: false
+  xy: 2, 2
+  size: 180, 94
+  orig: 180, 94
+  offset: 0, 0
+  index: -1
+yangguang_00000
+  rotate: false
+  xy: 2, 98
+  size: 176, 146
+  orig: 180, 180
+  offset: 1, 16
+  index: -1
+
+shuizuguan2.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+222_000
+  rotate: false
+  xy: 2, 2
+  size: 117, 85
+  orig: 120, 85
+  offset: 0, 0
+  index: -1
+glow_00060
+  rotate: false
+  xy: 2, 89
+  size: 138, 108
+  orig: 180, 180
+  offset: 1, 36
+  index: -1

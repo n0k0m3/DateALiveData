@@ -1,0 +1,76 @@
+
+effects_20201_skillC.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/200000
+  rotate: false
+  xy: 158, 63
+  size: 51, 48
+  orig: 91, 83
+  offset: 24, 15
+  index: -1
+images/effect/baozha1/baozha_00020
+  rotate: false
+  xy: 2, 656
+  size: 406, 365
+  orig: 550, 400
+  offset: 79, 21
+  index: -1
+images/effect/baozha1/baozha_00022
+  rotate: false
+  xy: 2, 338
+  size: 370, 316
+  orig: 550, 400
+  offset: 95, 60
+  index: -1
+images/effect/baozha1/baozha_00024
+  rotate: false
+  xy: 410, 748
+  size: 398, 273
+  orig: 550, 400
+  offset: 85, 66
+  index: -1
+images/effect/baozha1/baozha_00026
+  rotate: false
+  xy: 2, 113
+  size: 395, 223
+  orig: 550, 400
+  offset: 81, 66
+  index: -1
+images/effect/baozha1/baozha_00028
+  rotate: false
+  xy: 410, 530
+  size: 404, 216
+  orig: 550, 400
+  offset: 77, 66
+  index: -1
+images/effect/baozha1/baozha_00030
+  rotate: true
+  xy: 816, 476
+  size: 349, 205
+  orig: 550, 400
+  offset: 96, 83
+  index: -1
+images/effect/baozha1/baozha_00032
+  rotate: false
+  xy: 810, 827
+  size: 172, 194
+  orig: 550, 400
+  offset: 187, 99
+  index: -1
+images/effect/baozha1/baozha_00034
+  rotate: true
+  xy: 2, 32
+  size: 79, 154
+  orig: 550, 400
+  offset: 266, 98
+  index: -1
+images/effect/baozha1/baozha_00036
+  rotate: false
+  xy: 984, 966
+  size: 36, 55
+  orig: 550, 400
+  offset: 311, 98
+  index: -1

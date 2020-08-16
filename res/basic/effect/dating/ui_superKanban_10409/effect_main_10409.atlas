@@ -1,0 +1,27 @@
+
+effect_main_10409.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/glow
+  rotate: false
+  xy: 2, 251
+  size: 505, 208
+  orig: 578, 221
+  offset: 0, 0
+  index: -1
+images/zhong
+  rotate: false
+  xy: 2, 461
+  size: 1004, 545
+  orig: 1005, 546
+  offset: 0, 0
+  index: -1
+images/zhuozi
+  rotate: false
+  xy: 2, 87
+  size: 198, 162
+  orig: 200, 164
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,34 @@
+
+effects_zhuangji_yujing.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gantan_00000
+  rotate: false
+  xy: 2, 184
+  size: 13, 25
+  orig: 13, 25
+  offset: 0, 0
+  index: -1
+heng_00000
+  rotate: false
+  xy: 269, 272
+  size: 34, 31
+  orig: 34, 31
+  offset: 0, 0
+  index: -1
+sanjiao_00000
+  rotate: false
+  xy: 2, 211
+  size: 89, 52
+  orig: 89, 52
+  offset: 0, 0
+  index: -1
+yujing_00000
+  rotate: false
+  xy: 2, 265
+  size: 265, 38
+  orig: 265, 38
+  offset: 0, 0
+  index: -1

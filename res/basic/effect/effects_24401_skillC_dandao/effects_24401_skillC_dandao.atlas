@@ -1,0 +1,440 @@
+
+effects_24401_skillC_dandao.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/skillC/dandao/1/1_00040
+  rotate: true
+  xy: 653, 703
+  size: 40, 87
+  orig: 80, 280
+  offset: 20, 178
+  index: -1
+images/effect/skillC/dandao/1/1_00041
+  rotate: false
+  xy: 161, 3
+  size: 42, 96
+  orig: 80, 280
+  offset: 18, 178
+  index: -1
+images/effect/skillC/dandao/1/1_00042
+  rotate: true
+  xy: 573, 875
+  size: 62, 112
+  orig: 80, 280
+  offset: 1, 163
+  index: -1
+images/effect/skillC/dandao/1/1_00043
+  rotate: false
+  xy: 378, 605
+  size: 63, 125
+  orig: 80, 280
+  offset: 0, 150
+  index: -1
+images/effect/skillC/dandao/1/1_00044
+  rotate: false
+  xy: 2, 573
+  size: 64, 192
+  orig: 80, 280
+  offset: 0, 82
+  index: -1
+images/effect/skillC/dandao/1/1_00045
+  rotate: false
+  xy: 2, 767
+  size: 65, 255
+  orig: 80, 280
+  offset: 0, 19
+  index: -1
+images/effect/skillC/dandao/1/1_00046
+  rotate: true
+  xy: 238, 956
+  size: 66, 250
+  orig: 80, 280
+  offset: 0, 0
+  index: -1
+images/effect/skillC/dandao/1/1_00047
+  rotate: false
+  xy: 181, 101
+  size: 35, 169
+  orig: 80, 280
+  offset: 15, 10
+  index: -1
+images/effect/skillC/dandao/1/1_00048
+  rotate: false
+  xy: 617, 661
+  size: 34, 92
+  orig: 80, 280
+  offset: 16, 11
+  index: -1
+images/effect/skillC/dandao/2/2_00038
+  rotate: true
+  xy: 392, 273
+  size: 60, 103
+  orig: 200, 280
+  offset: 121, 174
+  index: -1
+images/effect/skillC/dandao/2/2_00039
+  rotate: false
+  xy: 373, 504
+  size: 108, 99
+  orig: 200, 280
+  offset: 73, 175
+  index: -1
+images/effect/skillC/dandao/2/2_00040
+  rotate: true
+  xy: 873, 891
+  size: 131, 144
+  orig: 200, 280
+  offset: 42, 130
+  index: -1
+images/effect/skillC/dandao/2/2_00041
+  rotate: true
+  xy: 235, 732
+  size: 120, 192
+  orig: 200, 280
+  offset: 23, 77
+  index: -1
+images/effect/skillC/dandao/2/2_00042
+  rotate: true
+  xy: 238, 854
+  size: 100, 201
+  orig: 200, 280
+  offset: 14, 34
+  index: -1
+images/effect/skillC/dandao/2/2_00043
+  rotate: true
+  xy: 194, 533
+  size: 87, 177
+  orig: 200, 280
+  offset: 12, 26
+  index: -1
+images/effect/skillC/dandao/2/2_00044
+  rotate: false
+  xy: 2, 425
+  size: 64, 146
+  orig: 200, 280
+  offset: 25, 31
+  index: -1
+images/effect/skillC/dandao/2/2_00045
+  rotate: true
+  xy: 353, 445
+  size: 57, 126
+  orig: 200, 280
+  offset: 25, 31
+  index: -1
+images/effect/skillC/dandao/2/2_00046
+  rotate: true
+  xy: 481, 448
+  size: 49, 108
+  orig: 200, 280
+  offset: 26, 32
+  index: -1
+images/effect/skillC/dandao/2/2_00047
+  rotate: true
+  xy: 656, 784
+  size: 43, 95
+  orig: 200, 280
+  offset: 26, 32
+  index: -1
+images/effect/skillC/dandao/3/3_00040
+  rotate: true
+  xy: 483, 499
+  size: 103, 95
+  orig: 240, 240
+  offset: 43, 139
+  index: -1
+images/effect/skillC/dandao/3/3_00041
+  rotate: false
+  xy: 68, 428
+  size: 121, 133
+  orig: 240, 240
+  offset: 50, 101
+  index: -1
+images/effect/skillC/dandao/3/3_00042
+  rotate: true
+  xy: 194, 622
+  size: 108, 182
+  orig: 240, 240
+  offset: 80, 46
+  index: -1
+images/effect/skillC/dandao/3/3_00043
+  rotate: true
+  xy: 490, 939
+  size: 83, 195
+  orig: 240, 240
+  offset: 109, 3
+  index: -1
+images/effect/skillC/dandao/3/3_00044
+  rotate: false
+  xy: 2, 255
+  size: 71, 168
+  orig: 240, 240
+  offset: 122, 0
+  index: -1
+images/effect/skillC/dandao/3/3_00045
+  rotate: true
+  xy: 687, 871
+  size: 46, 143
+  orig: 240, 240
+  offset: 131, 0
+  index: -1
+images/effect/skillC/dandao/3/3_00046
+  rotate: false
+  xy: 288, 2
+  size: 39, 124
+  orig: 240, 240
+  offset: 137, 0
+  index: -1
+images/effect/skillC/dandao/3/3_00047
+  rotate: false
+  xy: 486, 32
+  size: 35, 106
+  orig: 240, 240
+  offset: 141, 0
+  index: -1
+images/effect/skillC/dandao/4/4_00040
+  rotate: false
+  xy: 523, 96
+  size: 50, 77
+  orig: 160, 160
+  offset: 25, 59
+  index: -1
+images/effect/skillC/dandao/4/4_00041
+  rotate: false
+  xy: 494, 352
+  size: 88, 94
+  orig: 160, 160
+  offset: 26, 60
+  index: -1
+images/effect/skillC/dandao/4/4_00042
+  rotate: false
+  xy: 497, 264
+  size: 85, 86
+  orig: 160, 160
+  offset: 33, 68
+  index: -1
+images/effect/skillC/dandao/4/4_00043
+  rotate: true
+  xy: 2, 9
+  size: 77, 119
+  orig: 160, 160
+  offset: 48, 34
+  index: -1
+images/effect/skillC/dandao/4/4_00044
+  rotate: false
+  xy: 519, 604
+  size: 60, 142
+  orig: 160, 160
+  offset: 70, 4
+  index: -1
+images/effect/skillC/dandao/4/4_00045
+  rotate: false
+  xy: 218, 2
+  size: 68, 124
+  orig: 160, 160
+  offset: 68, 0
+  index: -1
+images/effect/skillC/dandao/4/4_00046
+  rotate: false
+  xy: 123, 2
+  size: 36, 106
+  orig: 160, 160
+  offset: 82, 0
+  index: -1
+images/effect/skillC/dandao/4/4_00047
+  rotate: false
+  xy: 581, 653
+  size: 34, 93
+  orig: 160, 160
+  offset: 83, 0
+  index: -1
+images/effect/skillC/dandao/4/4_00048
+  rotate: false
+  xy: 554, 748
+  size: 34, 83
+  orig: 160, 160
+  offset: 83, 0
+  index: -1
+images/effect/skillC/dandao/5/5_00042
+  rotate: false
+  xy: 429, 748
+  size: 123, 102
+  orig: 240, 240
+  offset: 6, 112
+  index: -1
+images/effect/skillC/dandao/5/5_00043
+  rotate: true
+  xy: 2, 88
+  size: 165, 83
+  orig: 240, 240
+  offset: 17, 130
+  index: -1
+images/effect/skillC/dandao/5/5_00044
+  rotate: true
+  xy: 75, 272
+  size: 154, 130
+  orig: 240, 240
+  offset: 51, 82
+  index: -1
+images/effect/skillC/dandao/5/5_00045
+  rotate: true
+  xy: 69, 747
+  size: 123, 164
+  orig: 240, 240
+  offset: 90, 43
+  index: -1
+images/effect/skillC/dandao/5/5_00046
+  rotate: false
+  xy: 207, 274
+  size: 94, 157
+  orig: 240, 240
+  offset: 119, 33
+  index: -1
+images/effect/skillC/dandao/5/5_00047
+  rotate: false
+  xy: 443, 608
+  size: 74, 138
+  orig: 240, 240
+  offset: 139, 33
+  index: -1
+images/effect/skillC/dandao/5/5_00048
+  rotate: false
+  xy: 436, 19
+  size: 48, 119
+  orig: 240, 240
+  offset: 150, 39
+  index: -1
+images/effect/skillC/dandao/5/5_00049
+  rotate: true
+  xy: 573, 833
+  size: 40, 104
+  orig: 240, 240
+  offset: 158, 39
+  index: -1
+images/effect/skillC/dandao/6/6_00041
+  rotate: false
+  xy: 590, 755
+  size: 64, 76
+  orig: 240, 240
+  offset: 165, 121
+  index: -1
+images/effect/skillC/dandao/6/6_00042
+  rotate: true
+  xy: 392, 335
+  size: 108, 100
+  orig: 240, 240
+  offset: 121, 122
+  index: -1
+images/effect/skillC/dandao/6/6_00043
+  rotate: true
+  xy: 87, 110
+  size: 160, 92
+  orig: 240, 240
+  offset: 67, 123
+  index: -1
+images/effect/skillC/dandao/6/6_00044
+  rotate: false
+  xy: 687, 919
+  size: 184, 103
+  orig: 240, 240
+  offset: 23, 111
+  index: -1
+images/effect/skillC/dandao/6/6_00045
+  rotate: false
+  xy: 69, 872
+  size: 167, 150
+  orig: 240, 240
+  offset: 0, 64
+  index: -1
+images/effect/skillC/dandao/6/6_00046
+  rotate: false
+  xy: 68, 563
+  size: 124, 182
+  orig: 240, 240
+  offset: 0, 20
+  index: -1
+images/effect/skillC/dandao/6/6_00047
+  rotate: false
+  xy: 303, 268
+  size: 87, 163
+  orig: 240, 240
+  offset: 0, 14
+  index: -1
+images/effect/skillC/dandao/6/6_00048
+  rotate: false
+  xy: 417, 140
+  size: 54, 131
+  orig: 240, 240
+  offset: 10, 18
+  index: -1
+images/effect/skillC/dandao/6/6_00049
+  rotate: true
+  xy: 656, 745
+  size: 37, 100
+  orig: 240, 240
+  offset: 10, 19
+  index: -1
+images/effect/skillC/dandao/7/7_00042
+  rotate: false
+  xy: 522, 175
+  size: 60, 87
+  orig: 200, 200
+  offset: 118, 75
+  index: -1
+images/effect/skillC/dandao/7/7_00043
+  rotate: false
+  xy: 329, 21
+  size: 105, 114
+  orig: 200, 200
+  offset: 72, 76
+  index: -1
+images/effect/skillC/dandao/7/7_00044
+  rotate: false
+  xy: 441, 852
+  size: 130, 85
+  orig: 200, 200
+  offset: 36, 98
+  index: -1
+images/effect/skillC/dandao/7/7_00045
+  rotate: false
+  xy: 293, 137
+  size: 122, 129
+  orig: 200, 200
+  offset: 21, 53
+  index: -1
+images/effect/skillC/dandao/7/7_00046
+  rotate: true
+  xy: 191, 433
+  size: 98, 160
+  orig: 200, 200
+  offset: 15, 18
+  index: -1
+images/effect/skillC/dandao/7/7_00047
+  rotate: false
+  xy: 218, 128
+  size: 73, 144
+  orig: 200, 200
+  offset: 15, 13
+  index: -1
+images/effect/skillC/dandao/7/7_00048
+  rotate: false
+  xy: 473, 140
+  size: 47, 122
+  orig: 200, 200
+  offset: 29, 16
+  index: -1
+images/effect/skillC/dandao/7/7_00049
+  rotate: true
+  xy: 679, 829
+  size: 40, 104
+  orig: 200, 200
+  offset: 29, 16
+  index: -1
+images/effect/skillC/dandao/7/7_00050
+  rotate: true
+  xy: 653, 668
+  size: 33, 90
+  orig: 200, 200
+  offset: 30, 17
+  index: -1

@@ -1,0 +1,153 @@
+
+effect_main_10414.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 326, 802
+  size: 72, 60
+  orig: 72, 60
+  offset: 0, 0
+  index: -1
+10
+  rotate: false
+  xy: 686, 1036
+  size: 56, 44
+  orig: 56, 44
+  offset: 0, 0
+  index: -1
+11
+  rotate: false
+  xy: 1390, 1670
+  size: 384, 348
+  orig: 384, 348
+  offset: 0, 0
+  index: -1
+12
+  rotate: false
+  xy: 2, 876
+  size: 394, 204
+  orig: 394, 204
+  offset: 0, 0
+  index: -1
+13
+  rotate: false
+  xy: 1776, 1749
+  size: 143, 89
+  orig: 143, 89
+  offset: 0, 0
+  index: -1
+14
+  rotate: false
+  xy: 1390, 1500
+  size: 330, 168
+  orig: 330, 168
+  offset: 0, 0
+  index: -1
+15
+  rotate: false
+  xy: 1162, 1286
+  size: 96, 90
+  orig: 96, 90
+  offset: 0, 0
+  index: -1
+16
+  rotate: false
+  xy: 2, 1082
+  size: 755, 294
+  orig: 755, 294
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 1574, 1444
+  size: 117, 54
+  orig: 117, 54
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 1390, 1425
+  size: 182, 73
+  orig: 182, 73
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 2, 788
+  size: 322, 86
+  orig: 322, 86
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 2, 694
+  size: 123, 92
+  orig: 123, 92
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 1019, 1251
+  size: 141, 125
+  orig: 141, 125
+  offset: 0, 0
+  index: -1
+7
+  rotate: false
+  xy: 1776, 1840
+  size: 242, 178
+  orig: 242, 178
+  offset: 0, 0
+  index: -1
+8
+  rotate: true
+  xy: 1722, 1559
+  size: 109, 43
+  orig: 109, 43
+  offset: 0, 0
+  index: -1
+9
+  rotate: false
+  xy: 398, 902
+  size: 98, 109
+  orig: 98, 109
+  offset: 0, 0
+  index: -1
+beijing1
+  rotate: false
+  xy: 2, 1378
+  size: 1386, 640
+  orig: 1386, 640
+  offset: 0, 0
+  index: -1
+gaoliangdian
+  rotate: false
+  xy: 759, 1123
+  size: 258, 253
+  orig: 258, 253
+  offset: 0, 0
+  index: -1
+guangshu
+  rotate: true
+  xy: 398, 1013
+  size: 67, 286
+  orig: 67, 286
+  offset: 0, 0
+  index: -1
+jingmianguang
+  rotate: true
+  xy: 1019, 1178
+  size: 71, 135
+  orig: 71, 135
+  offset: 0, 0
+  index: -1
+liangtiao
+  rotate: false
+  xy: 759, 1098
+  size: 229, 23
+  orig: 229, 23
+  offset: 0, 0
+  index: -1

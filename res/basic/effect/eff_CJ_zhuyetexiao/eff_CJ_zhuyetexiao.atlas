@@ -1,0 +1,153 @@
+
+eff_CJ_zhuyetexiao.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chaobeiyan/chaobeiyan_00000
+  rotate: true
+  xy: 66, 197
+  size: 28, 62
+  orig: 48, 74
+  offset: 9, 2
+  index: -1
+chaobeiyan/chaobeiyan_00001
+  rotate: false
+  xy: 2, 56
+  size: 28, 64
+  orig: 48, 74
+  offset: 10, 2
+  index: -1
+chaobeiyan/chaobeiyan_00002
+  rotate: true
+  xy: 66, 227
+  size: 27, 65
+  orig: 48, 74
+  offset: 12, 2
+  index: -1
+chaobeiyan/chaobeiyan_00003
+  rotate: false
+  xy: 2, 122
+  size: 29, 65
+  orig: 48, 74
+  offset: 11, 2
+  index: -1
+chaobeiyan/chaobeiyan_00004
+  rotate: false
+  xy: 2, 189
+  size: 30, 65
+  orig: 48, 74
+  offset: 10, 2
+  index: -1
+chaobeiyan/chaobeiyan_00005
+  rotate: false
+  xy: 34, 190
+  size: 30, 64
+  orig: 48, 74
+  offset: 9, 2
+  index: -1
+chaobeiyan/chaobeiyan_00006
+  rotate: true
+  xy: 133, 226
+  size: 28, 56
+  orig: 48, 74
+  offset: 9, 2
+  index: -1
+chaobeiyan/chaobeiyan_00007
+  rotate: true
+  xy: 191, 226
+  size: 28, 56
+  orig: 48, 74
+  offset: 9, 2
+  index: -1
+chaobeiyan/chaobeiyan_00008
+  rotate: true
+  xy: 188, 197
+  size: 27, 55
+  orig: 48, 74
+  offset: 10, 2
+  index: -1
+chaobeiyan/chaobeiyan_00009
+  rotate: true
+  xy: 66, 170
+  size: 25, 53
+  orig: 48, 74
+  offset: 11, 2
+  index: -1
+chaobeiyan/chaobeiyan_00010
+  rotate: false
+  xy: 32, 70
+  size: 23, 50
+  orig: 48, 74
+  offset: 12, 2
+  index: -1
+chaobeiyan/chaobeiyan_00011
+  rotate: true
+  xy: 57, 93
+  size: 24, 48
+  orig: 48, 74
+  offset: 12, 2
+  index: -1
+chaobeiyan/chaobeiyan_00012
+  rotate: true
+  xy: 61, 119
+  size: 23, 49
+  orig: 48, 74
+  offset: 12, 2
+  index: -1
+chaobeiyan/chaobeiyan_00013
+  rotate: true
+  xy: 61, 144
+  size: 24, 49
+  orig: 48, 74
+  offset: 11, 2
+  index: -1
+chaobeiyan/chaobeiyan_00014
+  rotate: true
+  xy: 57, 67
+  size: 24, 48
+  orig: 48, 74
+  offset: 10, 2
+  index: -1
+chaobeiyan/chaobeiyan_00015
+  rotate: false
+  xy: 33, 122
+  size: 26, 45
+  orig: 48, 74
+  offset: 9, 2
+  index: -1
+chaobeiyan/chaobeiyan_00016
+  rotate: false
+  xy: 227, 148
+  size: 27, 47
+  orig: 48, 74
+  offset: 8, 2
+  index: -1
+chaobeiyan/chaobeiyan_00017
+  rotate: true
+  xy: 176, 168
+  size: 27, 49
+  orig: 48, 74
+  offset: 8, 2
+  index: -1
+chaobeiyan/chaobeiyan_00018
+  rotate: false
+  xy: 2, 2
+  size: 27, 52
+  orig: 48, 74
+  offset: 8, 2
+  index: -1
+chaobeiyan/chaobeiyan_00019
+  rotate: true
+  xy: 121, 169
+  size: 26, 53
+  orig: 48, 74
+  offset: 9, 2
+  index: -1
+chaobeiyan/chaobeiyan_00020
+  rotate: true
+  xy: 130, 197
+  size: 27, 56
+  orig: 48, 74
+  offset: 9, 2
+  index: -1

@@ -1,0 +1,516 @@
+
+effects_10109_skillC.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bai_000
+  rotate: false
+  xy: 483, 731
+  size: 69, 32
+  orig: 69, 32
+  offset: 0, 0
+  index: -1
+guangxian_000
+  rotate: true
+  xy: 929, 11
+  size: 150, 75
+  orig: 150, 75
+  offset: 0, 0
+  index: -1
+skillC/andaoguang/andaoguang_000
+  rotate: false
+  xy: 254, 822
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+skillC/andaoguang/andaoguang_001
+  rotate: false
+  xy: 2, 753
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+skillC/andaoguang/andaoguang_003
+  rotate: false
+  xy: 2, 551
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+skillC/andaoguang/andaoguang_005
+  rotate: false
+  xy: 204, 501
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+skillC/baidaoguang/baidaoguang_000
+  rotate: true
+  xy: 575, 5
+  size: 175, 75
+  orig: 175, 75
+  offset: 0, 0
+  index: -1
+skillC/baidaoguang/baidaoguang_001
+  rotate: true
+  xy: 652, 5
+  size: 175, 75
+  orig: 175, 75
+  offset: 0, 0
+  index: -1
+skillC/canying1_000
+  rotate: false
+  xy: 583, 360
+  size: 130, 130
+  orig: 130, 130
+  offset: 0, 0
+  index: -1
+skillC/canying5_000
+  rotate: false
+  xy: 867, 365
+  size: 135, 125
+  orig: 135, 125
+  offset: 0, 0
+  index: -1
+skillC/canying6_000
+  rotate: false
+  xy: 715, 365
+  size: 150, 125
+  orig: 150, 125
+  offset: 0, 0
+  index: -1
+skillC/canyingend1/canyingend1_000
+  rotate: false
+  xy: 2, 374
+  size: 175, 175
+  orig: 175, 175
+  offset: 0, 0
+  index: -1
+skillC/canyingend1/canyingend1_002
+  rotate: false
+  xy: 456, 847
+  size: 175, 175
+  orig: 175, 175
+  offset: 0, 0
+  index: -1
+skillC/canyingend1/canyingend1_004
+  rotate: false
+  xy: 633, 847
+  size: 175, 175
+  orig: 175, 175
+  offset: 0, 0
+  index: -1
+skillC/canyingend1/canyingend1_006
+  rotate: false
+  xy: 406, 536
+  size: 175, 175
+  orig: 175, 175
+  offset: 0, 0
+  index: -1
+skillC/canyingend1/canyingend1_008
+  rotate: false
+  xy: 810, 847
+  size: 175, 175
+  orig: 175, 175
+  offset: 0, 0
+  index: -1
+skillC/canyingend1/canyingend1_010
+  rotate: false
+  xy: 406, 359
+  size: 175, 175
+  orig: 175, 175
+  offset: 0, 0
+  index: -1
+skillC/canyingend1/canyingend1_012
+  rotate: false
+  xy: 2, 197
+  size: 175, 175
+  orig: 175, 175
+  offset: 0, 0
+  index: -1
+skillC/canyingend1/canyingend1_014
+  rotate: false
+  xy: 398, 182
+  size: 175, 175
+  orig: 175, 175
+  offset: 0, 0
+  index: -1
+skillC/canyingend2/canyingend2_000
+  rotate: false
+  xy: 2, 20
+  size: 175, 175
+  orig: 175, 175
+  offset: 0, 0
+  index: -1
+skillC/canyingend2/canyingend2_002
+  rotate: false
+  xy: 2, 20
+  size: 175, 175
+  orig: 175, 175
+  offset: 0, 0
+  index: -1
+skillC/canyingend2/canyingend2_004
+  rotate: false
+  xy: 575, 182
+  size: 175, 175
+  orig: 175, 175
+  offset: 0, 0
+  index: -1
+skillC/canyingend2/canyingend2_006
+  rotate: false
+  xy: 583, 492
+  size: 175, 175
+  orig: 175, 175
+  offset: 0, 0
+  index: -1
+skillC/canyingend2/canyingend2_008
+  rotate: false
+  xy: 760, 492
+  size: 175, 175
+  orig: 175, 175
+  offset: 0, 0
+  index: -1
+skillC/canyingend2/canyingend2_010
+  rotate: false
+  xy: 752, 188
+  size: 175, 175
+  orig: 175, 175
+  offset: 0, 0
+  index: -1
+skillC/canyingend2/canyingend2_012
+  rotate: false
+  xy: 752, 11
+  size: 175, 175
+  orig: 175, 175
+  offset: 0, 0
+  index: -1
+skillC/canyingend2/canyingend2_014
+  rotate: false
+  xy: 398, 5
+  size: 175, 175
+  orig: 175, 175
+  offset: 0, 0
+  index: -1
+skillC/daoguangda/daoguangda_000
+  rotate: true
+  xy: 256, 284
+  size: 215, 140
+  orig: 215, 140
+  offset: 0, 0
+  index: -1
+skillC/daoguangda/daoguangda_001
+  rotate: true
+  xy: 256, 67
+  size: 215, 140
+  orig: 215, 140
+  offset: 0, 0
+  index: -1
+skillC/debuff/anbao/anbao_000
+  rotate: false
+  xy: 231, 740
+  size: 200, 80
+  orig: 200, 80
+  offset: 0, 0
+  index: -1
+skillC/debuff/anbao/anbao_002
+  rotate: false
+  xy: 456, 765
+  size: 200, 80
+  orig: 200, 80
+  offset: 0, 0
+  index: -1
+skillC/debuff/anbao/anbao_004
+  rotate: false
+  xy: 658, 765
+  size: 200, 80
+  orig: 200, 80
+  offset: 0, 0
+  index: -1
+skillC/debuff/anbao/anbao_006
+  rotate: true
+  xy: 929, 163
+  size: 200, 80
+  orig: 200, 80
+  offset: 0, 0
+  index: -1
+skillC/debuff/anhuo/anhuo_000
+  rotate: false
+  xy: 860, 765
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+skillC/debuff/anhuo/anhuo_001
+  rotate: false
+  xy: 942, 765
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+skillC/yanwu1/yanwu1_000
+  rotate: false
+  xy: 835, 683
+  size: 180, 80
+  orig: 180, 80
+  offset: 0, 0
+  index: -1
+skillC/yanwu1/yanwu1_001
+  rotate: true
+  xy: 937, 501
+  size: 180, 80
+  orig: 180, 80
+  offset: 0, 0
+  index: -1
+tongyong/chuanci/chuanci_000
+  rotate: false
+  xy: 2, 955
+  size: 250, 67
+  orig: 250, 67
+  offset: 0, 0
+  index: -1
+tongyong/chuanci/chuanci_002
+  rotate: false
+  xy: 583, 669
+  size: 250, 67
+  orig: 250, 67
+  offset: 0, 0
+  index: -1
+tongyong/chuanlizi/chuanlizi_000
+  rotate: true
+  xy: 179, 274
+  size: 225, 75
+  orig: 225, 75
+  offset: 0, 0
+  index: -1
+tongyong/chuanlizi/chuanlizi_002
+  rotate: true
+  xy: 179, 47
+  size: 225, 75
+  orig: 225, 75
+  offset: 0, 0
+  index: -1
+tongyong/chuanxian/chuanxian_001
+  rotate: true
+  xy: 204, 703
+  size: 250, 25
+  orig: 250, 25
+  offset: 0, 0
+  index: -1
+tongyong/chuanxian/chuanxian_002
+  rotate: false
+  xy: 231, 713
+  size: 250, 25
+  orig: 250, 25
+  offset: 0, 0
+  index: -1
+tongyong/chuanxian/chuanxian_003
+  rotate: false
+  xy: 554, 738
+  size: 250, 25
+  orig: 250, 25
+  offset: 0, 0
+  index: -1
+
+effects_10109_skillC2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skillC/baidaoguang/baidaoguang_003
+  rotate: true
+  xy: 84, 154
+  size: 175, 75
+  orig: 175, 75
+  offset: 0, 0
+  index: -1
+skillC/baidaoguang/baidaoguang_005
+  rotate: true
+  xy: 166, 361
+  size: 175, 75
+  orig: 175, 75
+  offset: 0, 0
+  index: -1
+skillC/canying23_000
+  rotate: false
+  xy: 230, 674
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: -1
+skillC/canying4_000
+  rotate: false
+  xy: 230, 547
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: -1
+skillC/canying7_000
+  rotate: false
+  xy: 243, 420
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: -1
+skillC/daoguangda/daoguangda_002
+  rotate: false
+  xy: 2, 882
+  size: 215, 140
+  orig: 215, 140
+  offset: 0, 0
+  index: -1
+skillC/daoguangda/daoguangda_003
+  rotate: false
+  xy: 2, 740
+  size: 215, 140
+  orig: 215, 140
+  offset: 0, 0
+  index: -1
+skillC/debuff/anbao/anbao_008
+  rotate: true
+  xy: 148, 538
+  size: 200, 80
+  orig: 200, 80
+  offset: 0, 0
+  index: -1
+skillC/debuff/anbao/anbao_010
+  rotate: true
+  xy: 2, 286
+  size: 200, 80
+  orig: 200, 80
+  offset: 0, 0
+  index: -1
+skillC/debuff/anbao/anbao_012
+  rotate: true
+  xy: 2, 84
+  size: 200, 80
+  orig: 200, 80
+  offset: 0, 0
+  index: -1
+skillC/debuff/anbao/anbao_014
+  rotate: false
+  xy: 2, 2
+  size: 200, 80
+  orig: 200, 80
+  offset: 0, 0
+  index: -1
+skillC/debuff/anhuo/anhuo_002
+  rotate: false
+  xy: 357, 719
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+skillC/debuff/anhuo/anhuo_003
+  rotate: false
+  xy: 357, 637
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+skillC/debuff/anhuo/anhuo_004
+  rotate: false
+  xy: 357, 555
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+skillC/debuff/anhuo/anhuo_005
+  rotate: false
+  xy: 653, 915
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+skillC/debuff/anhuo/anhuo_006
+  rotate: false
+  xy: 628, 833
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+skillC/debuff/anhuo/anhuo_007
+  rotate: false
+  xy: 370, 473
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+skillC/debuff/anhuo/anhuo_008
+  rotate: false
+  xy: 243, 338
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+skillC/debuff/anhuo/anhuo_009
+  rotate: false
+  xy: 735, 942
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+skillC/yanwu1/yanwu1_002
+  rotate: false
+  xy: 471, 915
+  size: 180, 80
+  orig: 180, 80
+  offset: 0, 0
+  index: -1
+skillC/yanwu1/yanwu1_004
+  rotate: false
+  xy: 446, 833
+  size: 180, 80
+  orig: 180, 80
+  offset: 0, 0
+  index: -1
+skillC/yanwu1/yanwu1_006
+  rotate: true
+  xy: 84, 331
+  size: 180, 80
+  orig: 180, 80
+  offset: 0, 0
+  index: -1
+tongyong/chuanci/chuanci_004
+  rotate: false
+  xy: 219, 955
+  size: 250, 67
+  orig: 250, 67
+  offset: 0, 0
+  index: -1
+tongyong/chuanci/chuanci_006
+  rotate: true
+  xy: 2, 488
+  size: 250, 67
+  orig: 250, 67
+  offset: 0, 0
+  index: -1
+tongyong/chuanlizi/chuanlizi_004
+  rotate: false
+  xy: 219, 878
+  size: 225, 75
+  orig: 225, 75
+  offset: 0, 0
+  index: -1
+tongyong/chuanlizi/chuanlizi_006
+  rotate: true
+  xy: 71, 513
+  size: 225, 75
+  orig: 225, 75
+  offset: 0, 0
+  index: -1
+tongyong/chuanlizi/chuanlizi_008
+  rotate: false
+  xy: 219, 801
+  size: 225, 75
+  orig: 225, 75
+  offset: 0, 0
+  index: -1
+tongyong/chuanxian/chuanxian_004
+  rotate: false
+  xy: 471, 997
+  size: 250, 25
+  orig: 250, 25
+  offset: 0, 0
+  index: -1

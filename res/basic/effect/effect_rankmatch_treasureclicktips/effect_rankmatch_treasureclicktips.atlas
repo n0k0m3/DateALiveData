@@ -1,0 +1,118 @@
+
+effect_rankmatch_treasureclicktips.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/guangshu_00000
+  rotate: false
+  xy: 798, 555
+  size: 221, 248
+  orig: 225, 270
+  offset: 0, 22
+  index: -1
+images/guangshu_00030
+  rotate: false
+  xy: 798, 555
+  size: 221, 248
+  orig: 225, 270
+  offset: 0, 22
+  index: -1
+images/guangshu_00002
+  rotate: true
+  xy: 546, 586
+  size: 217, 250
+  orig: 225, 270
+  offset: 3, 20
+  index: -1
+images/guangshu_00004
+  rotate: true
+  xy: 2, 371
+  size: 217, 253
+  orig: 225, 270
+  offset: 3, 16
+  index: -1
+images/guangshu_00006
+  rotate: true
+  xy: 257, 369
+  size: 217, 257
+  orig: 225, 270
+  offset: 3, 12
+  index: -1
+images/guangshu_00008
+  rotate: true
+  xy: 2, 145
+  size: 222, 262
+  orig: 225, 270
+  offset: 3, 7
+  index: -1
+images/guangshu_00010
+  rotate: true
+  xy: 266, 139
+  size: 222, 265
+  orig: 225, 270
+  offset: 3, 2
+  index: -1
+images/guangshu_00012
+  rotate: false
+  xy: 533, 93
+  size: 222, 268
+  orig: 225, 270
+  offset: 3, 0
+  index: -1
+images/guangshu_00014
+  rotate: false
+  xy: 757, 22
+  size: 225, 268
+  orig: 225, 270
+  offset: 0, 0
+  index: -1
+images/guangshu_00016
+  rotate: true
+  xy: 516, 363
+  size: 221, 270
+  orig: 225, 270
+  offset: 0, 0
+  index: -1
+images/guangshu_00018
+  rotate: true
+  xy: 2, 590
+  size: 215, 270
+  orig: 225, 270
+  offset: 0, 0
+  index: -1
+images/guangshu_00020
+  rotate: true
+  xy: 274, 805
+  size: 214, 270
+  orig: 225, 270
+  offset: 0, 0
+  index: -1
+images/guangshu_00022
+  rotate: true
+  xy: 546, 805
+  size: 214, 270
+  orig: 225, 270
+  offset: 0, 0
+  index: -1
+images/guangshu_00024
+  rotate: true
+  xy: 2, 807
+  size: 212, 270
+  orig: 225, 270
+  offset: 3, 0
+  index: -1
+images/guangshu_00026
+  rotate: true
+  xy: 274, 588
+  size: 215, 270
+  orig: 225, 270
+  offset: 0, 0
+  index: -1
+images/guangshu_00028
+  rotate: false
+  xy: 788, 292
+  size: 221, 261
+  orig: 225, 270
+  offset: 0, 9
+  index: -1

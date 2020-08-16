@@ -1,0 +1,125 @@
+
+ui_dating_score2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xunhuanyeti/yeti_0002
+  rotate: false
+  xy: 2, 406
+  size: 124, 98
+  orig: 131, 108
+  offset: 3, 6
+  index: -1
+xunhuanyeti/yeti_0004
+  rotate: false
+  xy: 2, 306
+  size: 124, 98
+  orig: 131, 108
+  offset: 3, 6
+  index: -1
+xunhuanyeti/yeti_0006
+  rotate: false
+  xy: 128, 406
+  size: 124, 98
+  orig: 131, 108
+  offset: 3, 6
+  index: -1
+xunhuanyeti/yeti_0008
+  rotate: false
+  xy: 2, 206
+  size: 124, 98
+  orig: 131, 108
+  offset: 3, 6
+  index: -1
+xunhuanyeti/yeti_0010
+  rotate: false
+  xy: 128, 306
+  size: 124, 98
+  orig: 131, 108
+  offset: 3, 6
+  index: -1
+xunhuanyeti/yeti_0012
+  rotate: false
+  xy: 254, 406
+  size: 124, 98
+  orig: 131, 108
+  offset: 3, 6
+  index: -1
+xunhuanyeti/yeti_0014
+  rotate: false
+  xy: 2, 106
+  size: 124, 98
+  orig: 131, 108
+  offset: 3, 6
+  index: -1
+xunhuanyeti/yeti_0016
+  rotate: false
+  xy: 128, 206
+  size: 124, 98
+  orig: 131, 108
+  offset: 3, 6
+  index: -1
+xunhuanyeti/yeti_0018
+  rotate: false
+  xy: 254, 306
+  size: 124, 98
+  orig: 131, 108
+  offset: 3, 6
+  index: -1
+xunhuanyeti/yeti_0020
+  rotate: false
+  xy: 380, 406
+  size: 124, 98
+  orig: 131, 108
+  offset: 3, 6
+  index: -1
+xunhuanyeti/yeti_0022
+  rotate: false
+  xy: 2, 6
+  size: 124, 98
+  orig: 131, 108
+  offset: 3, 6
+  index: -1
+xunhuanyeti/yeti_0024
+  rotate: false
+  xy: 128, 106
+  size: 124, 98
+  orig: 131, 108
+  offset: 3, 6
+  index: -1
+xunhuanyeti/yeti_0026
+  rotate: false
+  xy: 254, 206
+  size: 124, 98
+  orig: 131, 108
+  offset: 3, 6
+  index: -1
+xunhuanyeti/yeti_0028
+  rotate: false
+  xy: 380, 306
+  size: 124, 98
+  orig: 131, 108
+  offset: 3, 6
+  index: -1
+xunhuanyeti/yeti_0030
+  rotate: false
+  xy: 128, 6
+  size: 124, 98
+  orig: 131, 108
+  offset: 3, 6
+  index: -1
+xunhuanyeti/yeti_0032
+  rotate: false
+  xy: 254, 106
+  size: 124, 98
+  orig: 131, 108
+  offset: 3, 6
+  index: -1
+xunhuanyeti/yeti_0034
+  rotate: false
+  xy: 380, 206
+  size: 124, 98
+  orig: 131, 108
+  offset: 3, 6
+  index: -1

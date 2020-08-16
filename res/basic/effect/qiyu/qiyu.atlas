@@ -1,0 +1,48 @@
+
+qiyu.png
+size: 512,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+qiyuqi
+  rotate: false
+  xy: 391, 31
+  size: 36, 22
+  orig: 36, 22
+  offset: 0, 0
+  index: -1
+qiyuqi1
+  rotate: true
+  xy: 429, 27
+  size: 26, 28
+  orig: 26, 28
+  offset: 0, 0
+  index: -1
+qiyuqi2
+  rotate: false
+  xy: 209, 3
+  size: 111, 50
+  orig: 111, 50
+  offset: 0, 0
+  index: -1
+qiyuqi3
+  rotate: false
+  xy: 459, 28
+  size: 28, 25
+  orig: 28, 25
+  offset: 0, 0
+  index: -1
+qiyushen
+  rotate: false
+  xy: 2, 2
+  size: 205, 51
+  orig: 205, 51
+  offset: 0, 0
+  index: -1
+yiyuwei
+  rotate: true
+  xy: 322, 13
+  size: 40, 67
+  orig: 40, 67
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,13 @@
+
+effects_10309_skillC3.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillc/UI_000
+  rotate: false
+  xy: 2, 119
+  size: 210, 93
+  orig: 210, 105
+  offset: 0, 12
+  index: -1

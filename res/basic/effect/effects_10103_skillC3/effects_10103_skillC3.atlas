@@ -1,0 +1,363 @@
+
+effects_10103_skillC3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bai_000
+  rotate: false
+  xy: 622, 328
+  size: 69, 32
+  orig: 69, 32
+  offset: 0, 0
+  index: -1
+dilie_000
+  rotate: false
+  xy: 371, 809
+  size: 225, 50
+  orig: 225, 50
+  offset: 0, 0
+  index: -1
+glow_000
+  rotate: false
+  xy: 622, 276
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+guangquan2_000
+  rotate: false
+  xy: 910, 472
+  size: 48, 48
+  orig: 50, 50
+  offset: 1, 1
+  index: -1
+guangxian_000
+  rotate: true
+  xy: 195, 123
+  size: 143, 75
+  orig: 150, 75
+  offset: 1, 0
+  index: -1
+skillA/yanleici/yanleici_000
+  rotate: false
+  xy: 693, 383
+  size: 142, 78
+  orig: 200, 120
+  offset: 31, 17
+  index: -1
+skillA/yanleici/yanleici_001
+  rotate: false
+  xy: 598, 799
+  size: 148, 71
+  orig: 200, 120
+  offset: 21, 7
+  index: -1
+skillA/yanleici/yanleici_002
+  rotate: true
+  xy: 496, 333
+  size: 165, 109
+  orig: 200, 120
+  offset: 16, 6
+  index: -1
+skillA/yanleici/yanleici_003
+  rotate: true
+  xy: 607, 362
+  size: 170, 84
+  orig: 200, 120
+  offset: 12, 6
+  index: -1
+skillA/yanleici/yanleici_004
+  rotate: true
+  xy: 498, 500
+  size: 182, 105
+  orig: 200, 120
+  offset: 8, 13
+  index: -1
+skillA/yanleici/yanleici_005
+  rotate: true
+  xy: 316, 456
+  size: 191, 55
+  orig: 200, 120
+  offset: 4, 28
+  index: -1
+skillB/xiadaoguang/xiadaoguang_000
+  rotate: false
+  xy: 183, 628
+  size: 111, 196
+  orig: 200, 200
+  offset: 42, 0
+  index: -1
+skillB/xiadaoguang/xiadaoguang_002
+  rotate: false
+  xy: 2, 628
+  size: 179, 196
+  orig: 200, 200
+  offset: 10, 0
+  index: -1
+skillB/xiadaoguang/xiadaoguang_004
+  rotate: false
+  xy: 2, 826
+  size: 180, 196
+  orig: 200, 200
+  offset: 9, 0
+  index: -1
+skillB/xiadaoguang/xiadaoguang_006
+  rotate: false
+  xy: 184, 839
+  size: 185, 183
+  orig: 200, 200
+  offset: 7, 13
+  index: -1
+skillB/xiadaoguang/xiadaoguang_008
+  rotate: true
+  xy: 2, 443
+  size: 183, 176
+  orig: 200, 200
+  offset: 8, 14
+  index: -1
+skillB/xiadaoguang/xiadaoguang_010
+  rotate: false
+  xy: 371, 861
+  size: 192, 161
+  orig: 200, 200
+  offset: 3, 14
+  index: -1
+skillB/xiadaoguang/xiadaoguang_012
+  rotate: true
+  xy: 180, 440
+  size: 186, 134
+  orig: 200, 200
+  offset: 6, 20
+  index: -1
+skillC/6hedao/6daoguang/6daoguang_000
+  rotate: true
+  xy: 605, 534
+  size: 171, 123
+  orig: 175, 125
+  offset: 4, 2
+  index: -1
+skillC/6hedao/6daoguang/6daoguang_001
+  rotate: false
+  xy: 367, 684
+  size: 174, 123
+  orig: 175, 125
+  offset: 0, 2
+  index: -1
+skillC/6hedao/6daoguang/6daoguang_002
+  rotate: true
+  xy: 373, 509
+  size: 173, 123
+  orig: 175, 125
+  offset: 1, 2
+  index: -1
+skillC/6hedao/dilie_000
+  rotate: false
+  xy: 748, 862
+  size: 250, 17
+  orig: 250, 25
+  offset: 0, 5
+  index: -1
+skillC/6hedao/heiyan/heiyan_000
+  rotate: true
+  xy: 867, 465
+  size: 58, 41
+  orig: 150, 50
+  offset: 3, 3
+  index: -1
+skillC/6hedao/heiyan/heiyan_002
+  rotate: true
+  xy: 982, 693
+  size: 97, 40
+  orig: 150, 50
+  offset: 1, 3
+  index: -1
+skillC/6hedao/heiyan/heiyan_004
+  rotate: true
+  xy: 213, 16
+  size: 105, 42
+  orig: 150, 50
+  offset: 12, 3
+  index: -1
+skillC/6hedao/heiyan/heiyan_006
+  rotate: false
+  xy: 693, 335
+  size: 127, 46
+  orig: 150, 50
+  offset: 10, 3
+  index: -1
+skillC/6hedao/heiyan/heiyan_008
+  rotate: true
+  xy: 272, 130
+  size: 136, 45
+  orig: 150, 50
+  offset: 5, 4
+  index: -1
+skillC/6hedao/heiyan/heiyan_010
+  rotate: true
+  xy: 168, 2
+  size: 103, 43
+  orig: 150, 50
+  offset: 34, 4
+  index: -1
+skillC/6hedao/heiyan/heiyan_012
+  rotate: true
+  xy: 920, 595
+  size: 97, 47
+  orig: 150, 50
+  offset: 40, 3
+  index: -1
+skillC/6hedao/heiyan/heiyan_014
+  rotate: true
+  xy: 969, 596
+  size: 95, 47
+  orig: 150, 50
+  offset: 42, 3
+  index: -1
+skillC/6hedao/heiyan/heiyan_016
+  rotate: true
+  xy: 916, 522
+  size: 71, 47
+  orig: 150, 50
+  offset: 68, 3
+  index: -1
+skillC/andaoguang/andaoguang_000
+  rotate: false
+  xy: 170, 268
+  size: 158, 170
+  orig: 200, 200
+  offset: 27, 11
+  index: -1
+skillC/andaoguang/andaoguang_001
+  rotate: false
+  xy: 565, 872
+  size: 181, 150
+  orig: 200, 200
+  offset: 5, 9
+  index: -1
+skillC/andaoguang/andaoguang_003
+  rotate: true
+  xy: 2, 262
+  size: 179, 166
+  orig: 200, 200
+  offset: 8, 11
+  index: -1
+skillC/andaoguang/andaoguang_005
+  rotate: false
+  xy: 2, 84
+  size: 155, 176
+  orig: 200, 200
+  offset: 8, 11
+  index: -1
+skillC/tiaodai/tiaodai_000
+  rotate: true
+  xy: 400, 333
+  size: 174, 94
+  orig: 200, 100
+  offset: 0, 4
+  index: -1
+skillC/tiaodai/tiaodai_002
+  rotate: false
+  xy: 730, 596
+  size: 188, 96
+  orig: 200, 100
+  offset: 0, 3
+  index: -1
+skillC/tiaodai/tiaodai_004
+  rotate: false
+  xy: 543, 707
+  size: 200, 90
+  orig: 200, 100
+  offset: 0, 2
+  index: -1
+tongyong/chuanci/chuanci_000
+  rotate: false
+  xy: 748, 951
+  size: 250, 71
+  orig: 250, 72
+  offset: 0, 0
+  index: -1
+tongyong/chuanci/chuanci_002
+  rotate: false
+  xy: 748, 881
+  size: 250, 68
+  orig: 250, 72
+  offset: 0, 0
+  index: -1
+tongyong/chuanci/chuanci_004
+  rotate: false
+  xy: 748, 792
+  size: 242, 68
+  orig: 250, 72
+  offset: 0, 1
+  index: -1
+tongyong/chuanci/chuanci_006
+  rotate: false
+  xy: 745, 725
+  size: 235, 65
+  orig: 250, 72
+  offset: 8, 2
+  index: -1
+tongyong/chuanlizi/chuanlizi_000
+  rotate: false
+  xy: 2, 12
+  size: 164, 70
+  orig: 225, 75
+  offset: 55, 4
+  index: -1
+tongyong/chuanlizi/chuanlizi_002
+  rotate: false
+  xy: 730, 525
+  size: 184, 69
+  orig: 225, 75
+  offset: 35, 4
+  index: -1
+tongyong/chuanlizi/chuanlizi_004
+  rotate: true
+  xy: 296, 649
+  size: 188, 69
+  orig: 225, 75
+  offset: 16, 5
+  index: -1
+tongyong/chuanlizi/chuanlizi_006
+  rotate: true
+  xy: 330, 276
+  size: 178, 68
+  orig: 225, 75
+  offset: 8, 6
+  index: -1
+tongyong/chuanlizi/chuanlizi_008
+  rotate: false
+  xy: 693, 463
+  size: 172, 60
+  orig: 225, 75
+  offset: 5, 12
+  index: -1
+tongyong/chuanxian/chuanxian_001
+  rotate: true
+  xy: 159, 107
+  size: 153, 34
+  orig: 250, 40
+  offset: 37, 3
+  index: -1
+tongyong/chuanxian/chuanxian_002
+  rotate: false
+  xy: 400, 299
+  size: 220, 32
+  orig: 250, 40
+  offset: 20, 3
+  index: -1
+tongyong/chuanxian/chuanxian_003
+  rotate: false
+  xy: 745, 694
+  size: 221, 29
+  orig: 250, 40
+  offset: 22, 5
+  index: -1
+tongyong/chuanxian/chuanxian_004
+  rotate: false
+  xy: 400, 273
+  size: 220, 24
+  orig: 250, 40
+  offset: 24, 7
+  index: -1

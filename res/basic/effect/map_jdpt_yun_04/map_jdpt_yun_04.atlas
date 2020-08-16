@@ -1,0 +1,13 @@
+
+map_jdpt_yun_04.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+yun
+  rotate: false
+  xy: 2, 298
+  size: 470, 174
+  orig: 470, 174
+  offset: 0, 0
+  index: -1

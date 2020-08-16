@@ -1,0 +1,41 @@
+
+effect_qizi_20.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+qizi
+  rotate: false
+  xy: 2, 59
+  size: 93, 185
+  orig: 93, 185
+  offset: 0, 0
+  index: -1
+qizi2
+  rotate: false
+  xy: 204, 48
+  size: 40, 196
+  orig: 40, 196
+  offset: 0, 0
+  index: -1
+qizi3
+  rotate: true
+  xy: 2, 8
+  size: 40, 196
+  orig: 40, 196
+  offset: 0, 0
+  index: -1
+qizi4
+  rotate: false
+  xy: 97, 50
+  size: 61, 194
+  orig: 61, 194
+  offset: 0, 0
+  index: -1
+qizi5
+  rotate: false
+  xy: 160, 50
+  size: 42, 194
+  orig: 42, 194
+  offset: 0, 0
+  index: -1

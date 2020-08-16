@@ -1,0 +1,40 @@
+
+map_huaban_07.png
+size: 64,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sucai/huaban2/huaban_00009
+  rotate: true
+  xy: 2, 2
+  size: 32, 34
+  orig: 32, 34
+  offset: 0, 0
+  index: -1
+sucai/huaban2/huaban_00013
+  rotate: false
+  xy: 30, 36
+  size: 32, 26
+  orig: 32, 26
+  offset: 0, 0
+  index: -1
+sucai/huaban2/huaban_00026
+  rotate: true
+  xy: 2, 38
+  size: 24, 26
+  orig: 24, 26
+  offset: 0, 0
+  index: -1
+
+map_huaban_072.png
+size: 64,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sucai/huaban2/huaban_00004
+  rotate: false
+  xy: 2, 4
+  size: 40, 38
+  orig: 40, 38
+  offset: 0, 0
+  index: -1

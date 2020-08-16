@@ -1,0 +1,348 @@
+
+effects_10901_skillD_2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/baibao_00027
+  rotate: false
+  xy: 967, 88
+  size: 42, 42
+  orig: 48, 48
+  offset: 3, 3
+  index: -1
+effect/skillD/caiguang_00193
+  rotate: false
+  xy: 678, 27
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+effect/skillD/dimianjiguang/baodian/baodian_00193
+  rotate: false
+  xy: 574, 114
+  size: 105, 134
+  orig: 188, 261
+  offset: 41, 18
+  index: -1
+effect/skillD/dimianjiguang/baodian/baodian_00195
+  rotate: false
+  xy: 658, 512
+  size: 179, 254
+  orig: 188, 261
+  offset: 5, 1
+  index: -1
+effect/skillD/dimianjiguang/baodian/baodian_00197
+  rotate: false
+  xy: 777, 77
+  size: 188, 188
+  orig: 188, 261
+  offset: 0, 51
+  index: -1
+effect/skillD/dimianjiguang/qilangquan_00189
+  rotate: false
+  xy: 318, 74
+  size: 206, 68
+  orig: 206, 68
+  offset: 0, 0
+  index: -1
+effect/skillD/dimianjiguang/shitoubiao/shitoubiao_00187
+  rotate: true
+  xy: 967, 132
+  size: 65, 41
+  orig: 122, 47
+  offset: 18, 3
+  index: -1
+effect/skillD/dimianjiguang/shitoubiao/shitoubiao_00189
+  rotate: true
+  xy: 986, 956
+  size: 66, 36
+  orig: 122, 47
+  offset: 14, 11
+  index: -1
+effect/skillD/dimianjiguang/shitoubiao/shitoubiao_00191
+  rotate: true
+  xy: 978, 462
+  size: 86, 40
+  orig: 122, 47
+  offset: 11, 5
+  index: -1
+effect/skillD/dimianjiguang/shitoubiao/shitoubiao_00193
+  rotate: false
+  xy: 755, 11
+  size: 80, 25
+  orig: 122, 47
+  offset: 31, 7
+  index: -1
+effect/skillD/dimianjiguang/shitoubiao/shitoubiao_00195
+  rotate: true
+  xy: 978, 290
+  size: 81, 32
+  orig: 122, 47
+  offset: 38, 0
+  index: -1
+effect/skillD/dimianjiguang/shitoubiao/shitoubiao_00197
+  rotate: true
+  xy: 986, 793
+  size: 50, 27
+  orig: 122, 47
+  offset: 27, 5
+  index: -1
+effect/skillD/dimianjiguang/shitoubiao/shitoubiao_00199
+  rotate: true
+  xy: 967, 199
+  size: 76, 37
+  orig: 122, 47
+  offset: 15, 1
+  index: -1
+effect/skillD/dimianjiguang/shitoubiao/shitoubiao_00201
+  rotate: false
+  xy: 853, 40
+  size: 96, 35
+  orig: 122, 47
+  offset: 4, 6
+  index: -1
+effect/skillD/dimianjiguang/shitoubiao/shitoubiao_00203
+  rotate: true
+  xy: 978, 373
+  size: 87, 28
+  orig: 122, 47
+  offset: 23, 6
+  index: -1
+effect/skillD/dimianjiguang/shitoubiao/shitoubiao_00205
+  rotate: true
+  xy: 986, 845
+  size: 109, 31
+  orig: 122, 47
+  offset: 9, 4
+  index: -1
+effect/skillD/dimianjiguang/shitoubiao/shitoubiao_00207
+  rotate: false
+  xy: 755, 38
+  size: 96, 37
+  orig: 122, 47
+  offset: 26, 0
+  index: -1
+effect/skillD/jiguang/jiguangadd/jiguangadd_00161
+  rotate: false
+  xy: 2, 763
+  size: 326, 259
+  orig: 326, 259
+  offset: 0, 0
+  index: -1
+effect/skillD/jiguang/jiguangadd/jiguangadd_00162
+  rotate: false
+  xy: 2, 502
+  size: 326, 259
+  orig: 326, 259
+  offset: 0, 0
+  index: -1
+effect/skillD/jiguang/jiguangadd/jiguangadd_00163
+  rotate: false
+  xy: 330, 763
+  size: 326, 259
+  orig: 326, 259
+  offset: 0, 0
+  index: -1
+effect/skillD/jiguang/jiguangadd/jiguangadd_00164
+  rotate: false
+  xy: 658, 768
+  size: 326, 254
+  orig: 326, 259
+  offset: 0, 5
+  index: -1
+effect/skillD/jiguang/jiguangadd/jiguangadd_00165
+  rotate: false
+  xy: 330, 250
+  size: 326, 250
+  orig: 326, 259
+  offset: 0, 9
+  index: -1
+effect/skillD/jiguang/jiguangadd/jiguangadd_00166
+  rotate: false
+  xy: 2, 241
+  size: 326, 259
+  orig: 326, 259
+  offset: 0, 0
+  index: -1
+effect/skillD/jiguang/jiguangadd/jiguangadd_00167
+  rotate: false
+  xy: 2, 13
+  size: 314, 226
+  orig: 326, 259
+  offset: 0, 13
+  index: -1
+effect/skillD/jiguang/jiguangadd/jiguangadd_00168
+  rotate: false
+  xy: 330, 502
+  size: 326, 259
+  orig: 326, 259
+  offset: 0, 0
+  index: -1
+effect/skillD/jiguang/jiguangbianyuan/jiguangbianyuan_00161
+  rotate: true
+  xy: 839, 523
+  size: 243, 105
+  orig: 248, 122
+  offset: 3, 10
+  index: -1
+effect/skillD/jiguang/jiguangbianyuan/jiguangbianyuan_00163
+  rotate: true
+  xy: 803, 267
+  size: 243, 86
+  orig: 248, 122
+  offset: 3, 10
+  index: -1
+effect/skillD/jiguang/jiguangbianyuan/jiguangbianyuan_00165
+  rotate: false
+  xy: 330, 144
+  size: 242, 104
+  orig: 248, 122
+  offset: 3, 10
+  index: -1
+effect/skillD/jiguang/jiguangbianyuan/jiguangbianyuan_00167
+  rotate: true
+  xy: 891, 277
+  size: 244, 85
+  orig: 248, 122
+  offset: 2, 10
+  index: -1
+effect/skillD/jiguang/jiguangmult/jiguangmult_00161
+  rotate: true
+  xy: 658, 275
+  size: 235, 143
+  orig: 250, 160
+  offset: 9, 17
+  index: -1
+effect/skillD/shitoufeichup/shitoufeichup_00211
+  rotate: true
+  xy: 777, 267
+  size: 6, 7
+  orig: 169, 94
+  offset: 46, 12
+  index: -1
+effect/skillD/shitoufeichup/shitoufeichup_00215
+  rotate: false
+  xy: 430, 23
+  size: 90, 49
+  orig: 169, 94
+  offset: 31, 9
+  index: -1
+effect/skillD/shitoufeichup/shitoufeichup_00219
+  rotate: false
+  xy: 318, 6
+  size: 110, 66
+  orig: 169, 94
+  offset: 13, 10
+  index: -1
+effect/skillD/shitoufeichup/shitoufeichup_00229
+  rotate: true
+  xy: 946, 657
+  size: 109, 72
+  orig: 169, 94
+  offset: 14, 9
+  index: -1
+effect/skillD/shitoufeichup/shitoufeichup_00231
+  rotate: true
+  xy: 946, 550
+  size: 105, 72
+  orig: 169, 94
+  offset: 14, 9
+  index: -1
+effect/skillD/shitoufeichup/shitoufeichup_00235
+  rotate: false
+  xy: 526, 35
+  size: 150, 77
+  orig: 169, 94
+  offset: 19, 0
+  index: -1
+effect/skillD/shitoufeichup/shitoufeichup_00239
+  rotate: true
+  xy: 681, 104
+  size: 169, 94
+  orig: 169, 94
+  offset: 0, 0
+  index: -1
+
+effects_10901_skillD_22.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skillD/dimianjiguang/baodian/baodian_00199
+  rotate: false
+  xy: 2, 344
+  size: 132, 142
+  orig: 188, 261
+  offset: 43, 86
+  index: -1
+effect/skillD/dimianjiguang/yanwu1/yanwu1_00187
+  rotate: false
+  xy: 273, 278
+  size: 133, 112
+  orig: 135, 112
+  offset: 2, 0
+  index: -1
+effect/skillD/dimianjiguang/yanwu1/yanwu1_00188
+  rotate: false
+  xy: 136, 278
+  size: 135, 112
+  orig: 135, 112
+  offset: 0, 0
+  index: -1
+effect/skillD/dimianjiguang/yanwu1/yanwu1_00189
+  rotate: false
+  xy: 98, 167
+  size: 135, 109
+  orig: 135, 112
+  offset: 0, 3
+  index: -1
+effect/skillD/dimianjiguang/yanwu1/yanwu1_00190
+  rotate: false
+  xy: 98, 56
+  size: 135, 109
+  orig: 135, 112
+  offset: 0, 3
+  index: -1
+effect/skillD/dimianjiguang/yanwu1/yanwu1_00191
+  rotate: false
+  xy: 235, 168
+  size: 135, 108
+  orig: 135, 112
+  offset: 0, 0
+  index: -1
+effect/skillD/shitoufeichup/shitoufeichup_00233
+  rotate: false
+  xy: 235, 85
+  size: 130, 81
+  orig: 169, 94
+  offset: 29, 0
+  index: -1
+effect/skillD/shitoufeichup/shitoufeichup_00243
+  rotate: false
+  xy: 307, 392
+  size: 168, 94
+  orig: 169, 94
+  offset: 0, 0
+  index: -1
+effect/skillD/shitoufeichup/shitoufeichup_00247
+  rotate: true
+  xy: 2, 173
+  size: 169, 94
+  orig: 169, 94
+  offset: 0, 0
+  index: -1
+effect/skillD/shitoufeichup/shitoufeichup_00249
+  rotate: false
+  xy: 136, 392
+  size: 169, 94
+  orig: 169, 94
+  offset: 0, 0
+  index: -1
+effect/skillD/shitoufeichup/shitoufeichup_00251
+  rotate: true
+  xy: 2, 2
+  size: 169, 94
+  orig: 169, 94
+  offset: 0, 0
+  index: -1

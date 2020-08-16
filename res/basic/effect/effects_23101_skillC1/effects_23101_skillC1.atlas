@@ -1,0 +1,146 @@
+
+effects_23101_skillC1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/images/skillC/xuli/xuli_00022
+  rotate: false
+  xy: 536, 128
+  size: 289, 106
+  orig: 320, 213
+  offset: 14, 55
+  index: -1
+images/images/skillC/xuli/xuli_00024
+  rotate: true
+  xy: 131, 94
+  size: 301, 109
+  orig: 320, 213
+  offset: 8, 52
+  index: -1
+images/images/skillC/xuli/xuli_00026
+  rotate: false
+  xy: 280, 484
+  size: 302, 133
+  orig: 320, 213
+  offset: 17, 28
+  index: -1
+images/images/skillC/xuli/xuli_00028
+  rotate: true
+  xy: 139, 403
+  size: 297, 139
+  orig: 320, 213
+  offset: 18, 28
+  index: -1
+images/images/skillC/xuli/xuli_00030
+  rotate: false
+  xy: 242, 89
+  size: 289, 135
+  orig: 320, 213
+  offset: 20, 32
+  index: -1
+images/images/skillC/xuli/xuli_00032
+  rotate: true
+  xy: 2, 397
+  size: 303, 135
+  orig: 320, 213
+  offset: 17, 28
+  index: -1
+images/images/skillC/xuli/xuli_00034
+  rotate: false
+  xy: 2, 843
+  size: 320, 123
+  orig: 320, 213
+  offset: 0, 38
+  index: -1
+images/images/skillC/xuli/xuli_00036
+  rotate: false
+  xy: 324, 851
+  size: 320, 115
+  orig: 320, 213
+  offset: 0, 46
+  index: -1
+images/images/skillC/xuli/xuli_00038
+  rotate: false
+  xy: 620, 612
+  size: 311, 117
+  orig: 320, 213
+  offset: 9, 47
+  index: -1
+images/images/skillC/xuli/xuli_00040
+  rotate: true
+  xy: 2, 86
+  size: 309, 127
+  orig: 320, 213
+  offset: 11, 36
+  index: -1
+images/images/skillC/xuli/xuli_00042
+  rotate: false
+  xy: 584, 488
+  size: 310, 122
+  orig: 320, 213
+  offset: 10, 39
+  index: -1
+images/images/skillC/xuli/xuli_00044
+  rotate: false
+  xy: 280, 362
+  size: 307, 120
+  orig: 320, 213
+  offset: 13, 41
+  index: -1
+images/images/skillC/xuli/xuli_00046
+  rotate: false
+  xy: 2, 702
+  size: 300, 139
+  orig: 320, 213
+  offset: 20, 28
+  index: -1
+images/images/skillC/xuli/xuli_00048
+  rotate: false
+  xy: 242, 226
+  size: 292, 134
+  orig: 320, 213
+  offset: 28, 32
+  index: -1
+images/images/skillC/xuli/xuli_00050
+  rotate: false
+  xy: 589, 359
+  size: 306, 127
+  orig: 320, 213
+  offset: 14, 36
+  index: -1
+images/images/skillC/xuli/xuli_00052
+  rotate: false
+  xy: 536, 236
+  size: 295, 121
+  orig: 320, 213
+  offset: 25, 40
+  index: -1
+images/images/skillC/xuli/xuli_00054
+  rotate: false
+  xy: 324, 735
+  size: 320, 114
+  orig: 320, 213
+  offset: 0, 47
+  index: -1
+images/images/skillC/xuli/xuli_00056
+  rotate: false
+  xy: 646, 731
+  size: 315, 118
+  orig: 320, 213
+  offset: 0, 49
+  index: -1
+images/images/skillC/xuli/xuli_00058
+  rotate: false
+  xy: 646, 851
+  size: 320, 115
+  orig: 320, 213
+  offset: 0, 50
+  index: -1
+images/images/skillC/xuli/xuli_00060
+  rotate: false
+  xy: 304, 619
+  size: 314, 114
+  orig: 320, 213
+  offset: 5, 48
+  index: -1

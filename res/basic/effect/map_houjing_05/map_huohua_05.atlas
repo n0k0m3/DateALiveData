@@ -1,0 +1,34 @@
+
+map_huohua_05.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sucai/huohua/20180503_00001
+  rotate: false
+  xy: 370, 46
+  size: 91, 76
+  orig: 240, 150
+  offset: 59, 58
+  index: -1
+sucai/huohua/20180503_00002
+  rotate: false
+  xy: 258, 19
+  size: 110, 103
+  orig: 240, 150
+  offset: 53, 34
+  index: -1
+sucai/huohua/20180503_00003
+  rotate: true
+  xy: 135, 2
+  size: 120, 121
+  orig: 240, 150
+  offset: 54, 21
+  index: -1
+sucai/huohua/20180503_00004
+  rotate: true
+  xy: 2, 11
+  size: 111, 131
+  orig: 240, 150
+  offset: 56, 11
+  index: -1

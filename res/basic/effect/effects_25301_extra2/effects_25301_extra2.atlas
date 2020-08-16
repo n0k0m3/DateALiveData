@@ -1,0 +1,222 @@
+
+effects_25301_extra2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+extra1_0
+  rotate: true
+  xy: 936, 141
+  size: 131, 59
+  orig: 382, 180
+  offset: 126, 31
+  index: -1
+extra1_1
+  rotate: true
+  xy: 863, 70
+  size: 202, 71
+  orig: 382, 180
+  offset: 90, 26
+  index: -1
+extra1_10
+  rotate: true
+  xy: 2, 51
+  size: 372, 142
+  orig: 382, 180
+  offset: 0, 4
+  index: -1
+extra1_11
+  rotate: false
+  xy: 376, 575
+  size: 371, 144
+  orig: 382, 180
+  offset: 0, 4
+  index: -1
+extra1_12
+  rotate: false
+  xy: 376, 868
+  size: 371, 146
+  orig: 382, 180
+  offset: 0, 4
+  index: -1
+extra1_13
+  rotate: true
+  xy: 146, 59
+  size: 364, 149
+  orig: 382, 180
+  offset: 0, 4
+  index: -1
+extra1_14
+  rotate: true
+  xy: 725, 62
+  size: 366, 136
+  orig: 382, 180
+  offset: 1, 3
+  index: -1
+extra1_19
+  rotate: true
+  xy: 577, 68
+  size: 360, 146
+  orig: 382, 180
+  offset: 3, 2
+  index: -1
+extra1_2
+  rotate: true
+  xy: 893, 642
+  size: 372, 121
+  orig: 382, 180
+  offset: 0, 5
+  index: -1
+extra1_22
+  rotate: true
+  xy: 863, 274
+  size: 366, 138
+  orig: 382, 180
+  offset: 0, 3
+  index: -1
+extra1_23
+  rotate: true
+  xy: 434, 61
+  size: 367, 141
+  orig: 382, 180
+  offset: 0, 3
+  index: -1
+extra1_24
+  rotate: false
+  xy: 376, 430
+  size: 368, 143
+  orig: 382, 180
+  offset: 0, 3
+  index: -1
+extra1_3
+  rotate: true
+  xy: 297, 51
+  size: 372, 135
+  orig: 382, 180
+  offset: 0, 5
+  index: -1
+extra1_4
+  rotate: true
+  xy: 749, 642
+  size: 372, 142
+  orig: 382, 180
+  offset: 0, 6
+  index: -1
+extra1_5
+  rotate: false
+  xy: 2, 572
+  size: 372, 144
+  orig: 382, 180
+  offset: 0, 6
+  index: -1
+extra1_6
+  rotate: false
+  xy: 376, 721
+  size: 371, 145
+  orig: 382, 180
+  offset: 0, 6
+  index: -1
+extra1_7
+  rotate: false
+  xy: 2, 425
+  size: 371, 145
+  orig: 382, 180
+  offset: 0, 6
+  index: -1
+extra1_8
+  rotate: false
+  xy: 2, 718
+  size: 372, 145
+  orig: 382, 180
+  offset: 0, 4
+  index: -1
+extra1_9
+  rotate: false
+  xy: 2, 865
+  size: 372, 149
+  orig: 382, 180
+  offset: 0, 4
+  index: -1
+
+effects_25301_extra22.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+extra1_15
+  rotate: true
+  xy: 645, 490
+  size: 356, 138
+  orig: 382, 180
+  offset: 13, 3
+  index: -1
+extra1_16
+  rotate: false
+  xy: 2, 2
+  size: 355, 141
+  orig: 382, 180
+  offset: 11, 2
+  index: -1
+extra1_17
+  rotate: true
+  xy: 499, 494
+  size: 352, 144
+  orig: 382, 180
+  offset: 8, 2
+  index: -1
+extra1_18
+  rotate: false
+  xy: 2, 145
+  size: 355, 142
+  orig: 382, 180
+  offset: 6, 2
+  index: -1
+extra1_20
+  rotate: false
+  xy: 2, 568
+  size: 365, 137
+  orig: 382, 180
+  offset: 0, 3
+  index: -1
+extra1_21
+  rotate: false
+  xy: 2, 707
+  size: 365, 138
+  orig: 382, 180
+  offset: 0, 3
+  index: -1
+extra1_25
+  rotate: false
+  xy: 2, 847
+  size: 368, 136
+  orig: 382, 180
+  offset: 0, 3
+  index: -1
+extra1_26
+  rotate: false
+  xy: 372, 848
+  size: 364, 135
+  orig: 382, 180
+  offset: 0, 5
+  index: -1
+extra1_27
+  rotate: false
+  xy: 2, 429
+  size: 365, 137
+  orig: 382, 180
+  offset: 0, 5
+  index: -1
+extra1_28
+  rotate: false
+  xy: 2, 289
+  size: 363, 138
+  orig: 382, 180
+  offset: 0, 6
+  index: -1
+extra1_29
+  rotate: true
+  xy: 369, 485
+  size: 360, 128
+  orig: 382, 180
+  offset: 0, 7
+  index: -1

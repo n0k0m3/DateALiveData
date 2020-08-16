@@ -1,0 +1,285 @@
+
+effects_26701_skillB.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/fire_b_035
+  rotate: false
+  xy: 2, 367
+  size: 375, 205
+  orig: 410, 256
+  offset: 8, 4
+  index: -1
+effects/fire_b_037
+  rotate: false
+  xy: 2, 574
+  size: 376, 212
+  orig: 410, 256
+  offset: 8, 10
+  index: -1
+effects/fire_b_039
+  rotate: false
+  xy: 384, 568
+  size: 376, 225
+  orig: 410, 256
+  offset: 8, 0
+  index: -1
+effects/fire_b_041
+  rotate: false
+  xy: 384, 795
+  size: 376, 227
+  orig: 410, 256
+  offset: 10, 0
+  index: -1
+effects/fire_b_043
+  rotate: false
+  xy: 2, 788
+  size: 380, 234
+  orig: 410, 256
+  offset: 8, 0
+  index: -1
+effects/fire_b_045
+  rotate: false
+  xy: 379, 327
+  size: 364, 239
+  orig: 410, 256
+  offset: 25, 0
+  index: -1
+effects/fire_b_047
+  rotate: true
+  xy: 745, 2
+  size: 337, 237
+  orig: 410, 256
+  offset: 53, 4
+  index: -1
+effects/fire_b_049
+  rotate: true
+  xy: 2, 10
+  size: 315, 225
+  orig: 410, 256
+  offset: 73, 9
+  index: -1
+effects/fire_b_051
+  rotate: false
+  xy: 745, 341
+  size: 277, 223
+  orig: 410, 256
+  offset: 111, 13
+  index: -1
+effects/fire_b_053
+  rotate: false
+  xy: 454, 95
+  size: 285, 230
+  orig: 410, 256
+  offset: 103, 11
+  index: -1
+effects/fire_b_055
+  rotate: false
+  xy: 762, 811
+  size: 250, 211
+  orig: 410, 256
+  offset: 135, 18
+  index: -1
+effects/fire_b_065
+  rotate: true
+  xy: 229, 154
+  size: 211, 135
+  orig: 410, 256
+  offset: 165, 47
+  index: -1
+effects/smoke_f_001
+  rotate: true
+  xy: 366, 157
+  size: 168, 51
+  orig: 205, 102
+  offset: 32, 15
+  index: -1
+effects/smoke_f_003
+  rotate: false
+  xy: 454, 26
+  size: 167, 67
+  orig: 205, 102
+  offset: 27, 15
+  index: -1
+effects/smoke_f_011
+  rotate: false
+  xy: 623, 43
+  size: 116, 50
+  orig: 205, 102
+  offset: 33, 22
+  index: -1
+effects/smoke_f_015
+  rotate: true
+  xy: 984, 305
+  size: 34, 36
+  orig: 205, 102
+  offset: 33, 30
+  index: -1
+effects/smoke_g_036
+  rotate: false
+  xy: 762, 566
+  size: 245, 120
+  orig: 410, 205
+  offset: 120, 30
+  index: -1
+effects/smoke_g_038
+  rotate: false
+  xy: 762, 688
+  size: 246, 121
+  orig: 410, 205
+  offset: 119, 31
+  index: -1
+effects/smoke_g_040
+  rotate: false
+  xy: 229, 23
+  size: 223, 129
+  orig: 410, 205
+  offset: 115, 28
+  index: -1
+
+effects_26701_skillB2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/fire_b_033
+  rotate: true
+  xy: 2, 2
+  size: 213, 112
+  orig: 410, 256
+  offset: 6, 44
+  index: -1
+effects/fire_b_034
+  rotate: false
+  xy: 2, 828
+  size: 297, 194
+  orig: 410, 256
+  offset: 5, 24
+  index: -1
+effects/fire_b_057
+  rotate: false
+  xy: 2, 613
+  size: 238, 213
+  orig: 410, 256
+  offset: 146, 17
+  index: -1
+effects/fire_b_059
+  rotate: false
+  xy: 301, 844
+  size: 233, 178
+  orig: 410, 256
+  offset: 150, 34
+  index: -1
+effects/fire_b_061
+  rotate: false
+  xy: 2, 460
+  size: 223, 151
+  orig: 410, 256
+  offset: 150, 39
+  index: -1
+effects/fire_b_063
+  rotate: false
+  xy: 536, 871
+  size: 213, 151
+  orig: 410, 256
+  offset: 159, 40
+  index: -1
+effects/fire_b_067
+  rotate: true
+  xy: 360, 633
+  size: 209, 126
+  orig: 410, 256
+  offset: 171, 54
+  index: -1
+effects/fire_b_069
+  rotate: true
+  xy: 488, 635
+  size: 207, 121
+  orig: 410, 256
+  offset: 177, 55
+  index: -1
+effects/glow_a_051
+  rotate: false
+  xy: 898, 792
+  size: 105, 105
+  orig: 105, 105
+  offset: 0, 0
+  index: -1
+effects/glow_b_061
+  rotate: true
+  xy: 611, 713
+  size: 156, 155
+  orig: 156, 155
+  offset: 0, 0
+  index: -1
+effects/smoke_f_005
+  rotate: false
+  xy: 611, 644
+  size: 161, 67
+  orig: 205, 102
+  offset: 29, 15
+  index: -1
+effects/smoke_f_007
+  rotate: false
+  xy: 768, 722
+  size: 158, 64
+  orig: 205, 102
+  offset: 32, 15
+  index: -1
+effects/smoke_f_009
+  rotate: false
+  xy: 774, 660
+  size: 158, 60
+  orig: 205, 102
+  offset: 32, 15
+  index: -1
+effects/smoke_f_013
+  rotate: true
+  xy: 974, 968
+  size: 54, 44
+  orig: 205, 102
+  offset: 31, 25
+  index: -1
+effects/smoke_g_030
+  rotate: false
+  xy: 751, 899
+  size: 221, 123
+  orig: 410, 205
+  offset: 151, 31
+  index: -1
+effects/smoke_g_032
+  rotate: true
+  xy: 126, 244
+  size: 214, 116
+  orig: 410, 205
+  offset: 151, 30
+  index: -1
+effects/smoke_g_034
+  rotate: true
+  xy: 2, 217
+  size: 241, 122
+  orig: 410, 205
+  offset: 125, 30
+  index: -1
+effects/smoke_g_042
+  rotate: true
+  xy: 242, 616
+  size: 210, 116
+  orig: 410, 205
+  offset: 117, 43
+  index: -1
+effects/smoke_g_044
+  rotate: false
+  xy: 768, 788
+  size: 128, 109
+  orig: 410, 205
+  offset: 116, 48
+  index: -1
+effects/smoke_g_046
+  rotate: true
+  xy: 126, 139
+  size: 103, 105
+  orig: 410, 205
+  offset: 116, 49
+  index: -1

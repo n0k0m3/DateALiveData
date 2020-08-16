@@ -1,0 +1,27 @@
+
+effect_yangguang_11.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+g
+  rotate: false
+  xy: 2, 2
+  size: 125, 122
+  orig: 125, 122
+  offset: 0, 0
+  index: -1
+yyyyy
+  rotate: false
+  xy: 2, 126
+  size: 147, 144
+  orig: 147, 144
+  offset: 0, 0
+  index: -1
+yyyyy2
+  rotate: false
+  xy: 151, 217
+  size: 53, 53
+  orig: 53, 53
+  offset: 0, 0
+  index: -1

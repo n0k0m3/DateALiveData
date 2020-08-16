@@ -1,0 +1,139 @@
+
+effect_full.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+anniu_00000
+  rotate: false
+  xy: 170, 361
+  size: 105, 106
+  orig: 150, 150
+  offset: 21, 22
+  index: -1
+glow1_00000
+  rotate: false
+  xy: 2, 841
+  size: 167, 168
+  orig: 200, 200
+  offset: 15, 21
+  index: -1
+glow_00000
+  rotate: false
+  xy: 337, 615
+  size: 140, 124
+  orig: 200, 200
+  offset: 27, 48
+  index: -1
+lizi/lizi_00000
+  rotate: false
+  xy: 170, 469
+  size: 164, 134
+  orig: 200, 200
+  offset: 14, 34
+  index: -1
+lizi/lizi_00002
+  rotate: false
+  xy: 2, 705
+  size: 166, 134
+  orig: 200, 200
+  offset: 13, 34
+  index: -1
+lizi/lizi_00004
+  rotate: false
+  xy: 171, 875
+  size: 166, 134
+  orig: 200, 200
+  offset: 13, 34
+  index: -1
+lizi/lizi_00006
+  rotate: false
+  xy: 2, 569
+  size: 166, 134
+  orig: 200, 200
+  offset: 13, 34
+  index: -1
+lizi/lizi_00008
+  rotate: false
+  xy: 339, 875
+  size: 166, 134
+  orig: 200, 200
+  offset: 13, 34
+  index: -1
+lizi/lizi_00010
+  rotate: false
+  xy: 2, 433
+  size: 166, 134
+  orig: 200, 200
+  offset: 13, 34
+  index: -1
+lizi/lizi_00012
+  rotate: false
+  xy: 507, 875
+  size: 166, 134
+  orig: 200, 200
+  offset: 13, 34
+  index: -1
+lizi/lizi_00014
+  rotate: false
+  xy: 2, 297
+  size: 166, 134
+  orig: 200, 200
+  offset: 13, 34
+  index: -1
+lizi/lizi_00016
+  rotate: false
+  xy: 675, 875
+  size: 166, 134
+  orig: 200, 200
+  offset: 13, 34
+  index: -1
+lizi/lizi_00018
+  rotate: false
+  xy: 2, 161
+  size: 166, 134
+  orig: 200, 200
+  offset: 13, 34
+  index: -1
+lizi/lizi_00020
+  rotate: false
+  xy: 843, 876
+  size: 166, 133
+  orig: 200, 200
+  offset: 13, 34
+  index: -1
+lizi/lizi_00022
+  rotate: false
+  xy: 2, 26
+  size: 166, 133
+  orig: 200, 200
+  offset: 13, 34
+  index: -1
+lizi/lizi_00024
+  rotate: false
+  xy: 171, 741
+  size: 166, 132
+  orig: 200, 200
+  offset: 13, 35
+  index: -1
+lizi/lizi_00026
+  rotate: false
+  xy: 339, 741
+  size: 165, 132
+  orig: 200, 200
+  offset: 14, 35
+  index: -1
+lizi/lizi_00028
+  rotate: false
+  xy: 170, 605
+  size: 165, 134
+  orig: 200, 200
+  offset: 14, 34
+  index: -1
+yuan_00000
+  rotate: false
+  xy: 506, 790
+  size: 83, 83
+  orig: 200, 200
+  offset: 60, 61
+  index: -1

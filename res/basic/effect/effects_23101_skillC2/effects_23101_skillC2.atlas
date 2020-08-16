@@ -1,0 +1,27 @@
+
+effects_23101_skillC2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cheng
+  rotate: true
+  xy: 2, 2
+  size: 229, 251
+  orig: 310, 275
+  offset: 35, 10
+  index: -1
+glow_00000
+  rotate: false
+  xy: 315, 334
+  size: 177, 175
+  orig: 213, 213
+  offset: 18, 19
+  index: -1
+hopng
+  rotate: false
+  xy: 2, 233
+  size: 311, 276
+  orig: 355, 305
+  offset: 22, 14
+  index: -1

@@ -1,0 +1,195 @@
+
+zhanjianxin.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/xin/deng10_00031
+  rotate: false
+  xy: 2, 633
+  size: 607, 76
+  orig: 650, 150
+  offset: 23, 41
+  index: -1
+images/effects/xin/deng11_00031
+  rotate: false
+  xy: 2, 711
+  size: 630, 310
+  orig: 650, 400
+  offset: 16, 53
+  index: -1
+images/effects/xin/deng12_00031
+  rotate: false
+  xy: 634, 701
+  size: 62, 77
+  orig: 100, 100
+  offset: 20, 12
+  index: -1
+images/effects/xin/deng13_00031
+  rotate: true
+  xy: 855, 797
+  size: 104, 39
+  orig: 150, 50
+  offset: 23, 5
+  index: -1
+images/effects/xin/deng14_00031
+  rotate: true
+  xy: 611, 649
+  size: 60, 17
+  orig: 100, 100
+  offset: 20, 46
+  index: -1
+images/effects/xin/deng15_00031
+  rotate: false
+  xy: 468, 2
+  size: 89, 43
+  orig: 100, 100
+  offset: 4, 29
+  index: -1
+images/effects/xin/deng16_00031
+  rotate: false
+  xy: 896, 810
+  size: 17, 24
+  orig: 100, 100
+  offset: 41, 39
+  index: -1
+images/effects/xin/deng1_00000
+  rotate: false
+  xy: 634, 780
+  size: 219, 121
+  orig: 300, 150
+  offset: 37, 15
+  index: -1
+images/effects/xin/deng2_00000
+  rotate: false
+  xy: 622, 5
+  size: 54, 40
+  orig: 100, 100
+  offset: 24, 30
+  index: -1
+images/effects/xin/deng3_00000
+  rotate: true
+  xy: 712, 184
+  size: 127, 112
+  orig: 200, 200
+  offset: 38, 50
+  index: -1
+images/effects/xin/deng4_00030
+  rotate: true
+  xy: 936, 894
+  size: 127, 79
+  orig: 150, 150
+  offset: 12, 38
+  index: -1
+images/effects/xin/deng5_00031
+  rotate: false
+  xy: 559, 4
+  size: 61, 41
+  orig: 100, 100
+  offset: 20, 32
+  index: -1
+images/effects/xin/deng6_00031
+  rotate: false
+  xy: 678, 5
+  size: 48, 40
+  orig: 100, 100
+  offset: 28, 29
+  index: -1
+images/effects/xin/deng7_00031
+  rotate: false
+  xy: 777, 9
+  size: 28, 36
+  orig: 50, 50
+  offset: 11, 9
+  index: -1
+images/effects/xin/deng8_00031
+  rotate: true
+  xy: 896, 836
+  size: 65, 17
+  orig: 100, 50
+  offset: 17, 15
+  index: -1
+images/effects/xin/deng9_00031
+  rotate: false
+  xy: 728, 3
+  size: 47, 42
+  orig: 100, 50
+  offset: 27, 2
+  index: -1
+images/effects/yangguang_00000
+  rotate: false
+  xy: 634, 903
+  size: 300, 118
+  orig: 300, 150
+  offset: 0, 32
+  index: -1
+images/effects/yanwu/yanwu_00000
+  rotate: false
+  xy: 469, 47
+  size: 460, 118
+  orig: 480, 150
+  offset: 0, 11
+  index: -1
+images/effects/yanwu/yanwu_00001
+  rotate: true
+  xy: 469, 167
+  size: 464, 121
+  orig: 480, 150
+  offset: 0, 8
+  index: -1
+images/effects/yanwu/yanwu_00002
+  rotate: false
+  xy: 2, 262
+  size: 465, 121
+  orig: 480, 150
+  offset: 0, 8
+  index: -1
+images/effects/yanwu/yanwu_00003
+  rotate: false
+  xy: 2, 509
+  size: 465, 122
+  orig: 480, 150
+  offset: 0, 7
+  index: -1
+images/effects/yanwu/yanwu_00004
+  rotate: false
+  xy: 2, 385
+  size: 465, 122
+  orig: 480, 150
+  offset: 0, 7
+  index: -1
+images/effects/yanwu/yanwu_00005
+  rotate: false
+  xy: 2, 139
+  size: 465, 121
+  orig: 480, 150
+  offset: 0, 8
+  index: -1
+images/effects/yanwu/yanwu_00006
+  rotate: false
+  xy: 2, 16
+  size: 464, 121
+  orig: 480, 150
+  offset: 0, 8
+  index: -1
+images/effects/yanwu/yanwu_00007
+  rotate: true
+  xy: 592, 167
+  size: 464, 118
+  orig: 480, 150
+  offset: 0, 11
+  index: -1
+images/effects/yanwu/yanwu_00008
+  rotate: true
+  xy: 832, 314
+  size: 464, 118
+  orig: 480, 150
+  offset: 0, 11
+  index: -1
+images/effects/yanwu/yanwu_00009
+  rotate: true
+  xy: 712, 313
+  size: 465, 118
+  orig: 480, 150
+  offset: 0, 11
+  index: -1

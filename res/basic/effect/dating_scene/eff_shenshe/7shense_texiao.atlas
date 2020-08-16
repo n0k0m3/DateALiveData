@@ -1,0 +1,20 @@
+
+7shense_texiao.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow_00050
+  rotate: false
+  xy: 2, 2
+  size: 232, 161
+  orig: 232, 161
+  offset: 0, 0
+  index: -1
+yangguang_00000
+  rotate: false
+  xy: 2, 165
+  size: 300, 176
+  orig: 300, 176
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,160 @@
+
+fight_20801.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arms
+  rotate: false
+  xy: 2, 212
+  size: 162, 42
+  orig: 162, 42
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 2, 132
+  size: 81, 78
+  orig: 81, 78
+  offset: 0, 0
+  index: -1
+l_calf
+  rotate: true
+  xy: 161, 76
+  size: 30, 75
+  orig: 30, 75
+  offset: 0, 0
+  index: -1
+l_foot
+  rotate: false
+  xy: 115, 20
+  size: 37, 31
+  orig: 37, 31
+  offset: 0, 0
+  index: -1
+l_forearm
+  rotate: false
+  xy: 203, 2
+  size: 41, 25
+  orig: 41, 25
+  offset: 0, 0
+  index: -1
+l_hand
+  rotate: false
+  xy: 154, 27
+  size: 47, 20
+  orig: 47, 20
+  offset: 0, 0
+  index: -1
+l_hand_2
+  rotate: true
+  xy: 40, 2
+  size: 21, 11
+  orig: 21, 11
+  offset: 0, 0
+  index: -1
+l_thigh
+  rotate: false
+  xy: 58, 53
+  size: 48, 77
+  orig: 48, 77
+  offset: 0, 0
+  index: -1
+l_thigh_2
+  rotate: true
+  xy: 115, 2
+  size: 16, 34
+  orig: 16, 34
+  offset: 0, 0
+  index: -1
+l_uparm
+  rotate: true
+  xy: 108, 53
+  size: 26, 46
+  orig: 26, 46
+  offset: 0, 0
+  index: -1
+r_calf
+  rotate: true
+  xy: 166, 205
+  size: 49, 84
+  orig: 49, 84
+  offset: 0, 0
+  index: -1
+r_foot
+  rotate: false
+  xy: 217, 29
+  size: 37, 45
+  orig: 37, 45
+  offset: 0, 0
+  index: -1
+r_forearm
+  rotate: false
+  xy: 156, 49
+  size: 59, 25
+  orig: 59, 25
+  offset: 0, 0
+  index: -1
+r_hand
+  rotate: false
+  xy: 154, 6
+  size: 28, 19
+  orig: 28, 19
+  offset: 0, 0
+  index: -1
+r_thigh
+  rotate: true
+  xy: 161, 108
+  size: 32, 74
+  orig: 32, 74
+  offset: 0, 0
+  index: -1
+r_thigh_2
+  rotate: true
+  xy: 2, 2
+  size: 21, 36
+  orig: 21, 36
+  offset: 0, 0
+  index: -1
+r_uparm_1
+  rotate: true
+  xy: 58, 19
+  size: 32, 55
+  orig: 32, 55
+  offset: 0, 0
+  index: -1
+r_uparm_2
+  rotate: false
+  xy: 203, 31
+  size: 12, 16
+  orig: 12, 16
+  offset: 0, 0
+  index: -1
+spline
+  rotate: false
+  xy: 2, 25
+  size: 54, 105
+  orig: 54, 105
+  offset: 0, 0
+  index: -1
+wing_1
+  rotate: false
+  xy: 165, 142
+  size: 81, 61
+  orig: 81, 61
+  offset: 0, 0
+  index: -1
+wing_2
+  rotate: false
+  xy: 108, 81
+  size: 51, 60
+  orig: 51, 60
+  offset: 0, 0
+  index: -1
+wing_3
+  rotate: false
+  xy: 85, 143
+  size: 78, 67
+  orig: 78, 67
+  offset: 0, 0
+  index: -1

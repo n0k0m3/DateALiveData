@@ -1,0 +1,76 @@
+
+effects_10301F_shouji.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+languan
+  rotate: false
+  xy: 249, 739
+  size: 107, 106
+  orig: 109, 108
+  offset: 0, 2
+  index: -1
+shouji0001
+  rotate: false
+  xy: 2, 729
+  size: 245, 256
+  orig: 274, 274
+  offset: 29, 14
+  index: -1
+shouji0002
+  rotate: true
+  xy: 2, 2
+  size: 145, 136
+  orig: 274, 274
+  offset: 75, 71
+  index: -1
+shouji0003
+  rotate: false
+  xy: 559, 851
+  size: 140, 134
+  orig: 274, 274
+  offset: 76, 73
+  index: -1
+shouji0004
+  rotate: false
+  xy: 406, 851
+  size: 151, 134
+  orig: 274, 274
+  offset: 70, 79
+  index: -1
+shouji0005
+  rotate: false
+  xy: 249, 847
+  size: 155, 138
+  orig: 274, 274
+  offset: 66, 80
+  index: -1
+shouji0006
+  rotate: false
+  xy: 2, 585
+  size: 154, 142
+  orig: 274, 274
+  offset: 65, 77
+  index: -1
+shouji0007
+  rotate: false
+  xy: 2, 438
+  size: 145, 145
+  orig: 274, 274
+  offset: 66, 71
+  index: -1
+shouji0008
+  rotate: false
+  xy: 2, 293
+  size: 145, 143
+  orig: 274, 274
+  offset: 66, 66
+  index: -1
+shouji0009
+  rotate: false
+  xy: 2, 149
+  size: 142, 142
+  orig: 274, 274
+  offset: 68, 65
+  index: -1

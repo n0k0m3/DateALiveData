@@ -1,0 +1,86 @@
+{
+"skeleton": {
+	"hash": "9hiAntUtwowyL0xQsCtwPtHczRU",
+	"spine": "2.1.27",
+	"width": 0,
+	"height": 0,
+	"images": "C:/Users/Administrator/Desktop/尺寸需要修改的特效/map_yangguang_06"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "bone8", "parent": "bone" },
+	{ "name": "bone9", "parent": "bone" }
+],
+"slots": [
+	{ "name": "sucai/guangyun", "bone": "bone8", "blend": "additive" },
+	{ "name": "sucai/yangguang", "bone": "bone9", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"sucai/guangyun": {
+			"sucai/guangyun": { "width": 75, "height": 39 }
+		},
+		"sucai/yangguang": {
+			"sucai/yangguang1_00008": { "width": 118, "height": 115 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"sucai/guangyun": {
+				"attachment": [
+					{ "time": 0, "name": "sucai/guangyun" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 2.3333, "color": "ffffff00" },
+					{ "time": 5, "color": "ffffffff" }
+				]
+			},
+			"sucai/yangguang": {
+				"attachment": [
+					{ "time": 0, "name": "sucai/yangguang1_00008" },
+					{ "time": 2.5, "name": "sucai/yangguang1_00008" },
+					{ "time": 5, "name": null }
+				],
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffff8f",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.5,
+						"color": "ffffff00",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 5, "color": "ffffff8f" }
+				]
+			}
+		},
+		"bones": {
+			"bone8": {
+				"translate": [
+					{ "time": 0, "x": 1492.08, "y": 278.01 }
+				],
+				"scale": [
+					{ "time": 0, "x": 8.475, "y": 0.391 }
+				]
+			},
+			"bone9": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 1737.04, "y": 99.73 }
+				],
+				"scale": [
+					{ "time": 0, "x": 3.802, "y": 3.802 }
+				]
+			}
+		}
+	}
+}
+}

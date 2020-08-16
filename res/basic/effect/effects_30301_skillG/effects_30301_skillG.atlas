@@ -1,0 +1,104 @@
+
+effects_30301_skillG.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/born/zhakailizi/zhakailizi_00034
+  rotate: true
+  xy: 143, 140
+  size: 152, 119
+  orig: 180, 146
+  offset: 12, 27
+  index: -1
+effect/born/zhakailizi/zhakailizi_00035
+  rotate: false
+  xy: 205, 884
+  size: 171, 132
+  orig: 180, 146
+  offset: 9, 12
+  index: -1
+effect/born/zhakailizi/zhakailizi_00036
+  rotate: true
+  xy: 2, 283
+  size: 173, 136
+  orig: 180, 146
+  offset: 7, 8
+  index: -1
+effect/born/zhakailizi/zhakailizi_00037
+  rotate: false
+  xy: 2, 742
+  size: 174, 138
+  orig: 180, 146
+  offset: 6, 6
+  index: -1
+effect/born/zhakailizi/zhakailizi_00038
+  rotate: false
+  xy: 2, 600
+  size: 171, 140
+  orig: 180, 146
+  offset: 5, 4
+  index: -1
+effect/born/zhakailizi/zhakailizi_00039
+  rotate: false
+  xy: 2, 458
+  size: 170, 140
+  orig: 180, 146
+  offset: 4, 3
+  index: -1
+effect/born/zhakailizi/zhakailizi_00040
+  rotate: true
+  xy: 2, 113
+  size: 168, 139
+  orig: 180, 146
+  offset: 4, 2
+  index: -1
+effect/born/zhakailizi/zhakailizi_00041
+  rotate: false
+  xy: 378, 881
+  size: 169, 135
+  orig: 180, 146
+  offset: 4, 1
+  index: -1
+effect/born/zhakailizi/zhakailizi_00042
+  rotate: false
+  xy: 549, 883
+  size: 169, 133
+  orig: 180, 146
+  offset: 5, 0
+  index: -1
+effect/born/zhakailizi/zhakailizi_00043
+  rotate: false
+  xy: 720, 886
+  size: 168, 130
+  orig: 180, 146
+  offset: 6, 1
+  index: -1
+effect/born/zhakailizi/zhakailizi_00044
+  rotate: true
+  xy: 890, 850
+  size: 166, 126
+  orig: 180, 146
+  offset: 8, 2
+  index: -1
+effect/born/zhakailizi/zhakailizi_00045
+  rotate: true
+  xy: 140, 294
+  size: 162, 116
+  orig: 180, 146
+  offset: 10, 3
+  index: -1
+effect/born/zhakailizi/zhakailizi_00046
+  rotate: false
+  xy: 2, 6
+  size: 155, 105
+  orig: 180, 146
+  offset: 14, 6
+  index: -1
+effect/skillG/shentiguanga_00029
+  rotate: false
+  xy: 2, 882
+  size: 201, 134
+  orig: 206, 134
+  offset: 5, 0
+  index: -1

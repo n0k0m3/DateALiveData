@@ -1,0 +1,55 @@
+
+effects_10301_skillC.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skilla/binglie_00053
+  rotate: false
+  xy: 2, 70
+  size: 185, 32
+  orig: 191, 42
+  offset: 0, 5
+  index: -1
+effects/skilla/fazhen_00053
+  rotate: false
+  xy: 2, 104
+  size: 152, 150
+  orig: 152, 150
+  offset: 0, 0
+  index: -1
+effects/skillc/miaobian/miaobian_00011
+  rotate: false
+  xy: 2, 15
+  size: 48, 53
+  orig: 48, 53
+  offset: 0, 0
+  index: -1
+effects/skillc/miaobian/miaobian_00012
+  rotate: false
+  xy: 156, 201
+  size: 48, 53
+  orig: 48, 53
+  offset: 0, 0
+  index: -1
+effects/skillc/miaobian/miaobian_00013
+  rotate: false
+  xy: 52, 15
+  size: 47, 53
+  orig: 48, 53
+  offset: 1, 0
+  index: -1
+effects/skillc/miaobian/miaobian_00014
+  rotate: false
+  xy: 156, 146
+  size: 47, 53
+  orig: 48, 53
+  offset: 1, 0
+  index: -1
+effects/skillc/miaobian/miaobian_00015
+  rotate: false
+  xy: 206, 201
+  size: 48, 53
+  orig: 48, 53
+  offset: 0, 0
+  index: -1

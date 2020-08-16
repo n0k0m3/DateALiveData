@@ -1,0 +1,662 @@
+
+effects_10301_quickmove.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/lz/dazhao/bai
+  rotate: false
+  xy: 822, 906
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+images/effects/lz/jinchang/binghouceng_00012
+  rotate: false
+  xy: 822, 731
+  size: 198, 169
+  orig: 416, 416
+  offset: 115, 91
+  index: -1
+images/effects/lz/jinchang/binghouceng_00014
+  rotate: true
+  xy: 300, 19
+  size: 299, 283
+  orig: 416, 416
+  offset: 67, 61
+  index: -1
+images/effects/lz/jinchang/bowen11_00016
+  rotate: true
+  xy: 585, 2
+  size: 272, 260
+  orig: 416, 416
+  offset: 81, 97
+  index: -1
+images/effects/lz/jinchang/bowen11_00018
+  rotate: true
+  xy: 808, 500
+  size: 229, 205
+  orig: 416, 416
+  offset: 107, 131
+  index: -1
+images/effects/lz/jinchang/jinchangbaokai_00040
+  rotate: false
+  xy: 2, 320
+  size: 384, 229
+  orig: 487, 416
+  offset: 62, 101
+  index: -1
+images/effects/lz/jinchang/jinchangbaokai_00042
+  rotate: false
+  xy: 2, 551
+  size: 402, 226
+  orig: 487, 416
+  offset: 49, 98
+  index: -1
+images/effects/lz/jinchang/jinchangbaokai_00044
+  rotate: false
+  xy: 406, 502
+  size: 398, 167
+  orig: 487, 416
+  offset: 55, 97
+  index: -1
+images/effects/lz/jinchang/jinchangbaokai_00046
+  rotate: false
+  xy: 415, 772
+  size: 405, 135
+  orig: 487, 416
+  offset: 50, 96
+  index: -1
+images/effects/lz/jinchang/jinchangbaokai_00048
+  rotate: false
+  xy: 2, 892
+  size: 411, 130
+  orig: 487, 416
+  offset: 45, 94
+  index: -1
+images/effects/lz/jinchang/jinchangbaokai_00050
+  rotate: false
+  xy: 415, 909
+  size: 410, 113
+  orig: 487, 416
+  offset: 42, 94
+  index: -1
+images/effects/lz/jinchang/jinchangbaokai_00052
+  rotate: false
+  xy: 2, 779
+  size: 403, 111
+  orig: 487, 416
+  offset: 40, 93
+  index: -1
+images/effects/lz/jinchang/jinchangbaokai_00054
+  rotate: false
+  xy: 406, 671
+  size: 400, 99
+  orig: 487, 416
+  offset: 44, 93
+  index: -1
+images/effects/lz/jinchang/jinchangdilie_00009
+  rotate: false
+  xy: 827, 902
+  size: 193, 120
+  orig: 487, 416
+  offset: 159, 144
+  index: -1
+images/effects/lz/jinchang/jinchangdilie_00011
+  rotate: true
+  xy: 847, 2
+  size: 339, 143
+  orig: 487, 416
+  offset: 82, 133
+  index: -1
+images/effects/lz/jinchang/jinchangshan_00003
+  rotate: false
+  xy: 585, 276
+  size: 221, 224
+  orig: 325, 325
+  offset: 53, 45
+  index: -1
+images/effects/lz/jinchang/suibing_00020
+  rotate: false
+  xy: 992, 269
+  size: 28, 72
+  orig: 98, 163
+  offset: 44, 61
+  index: -1
+images/effects/lz/jinchang/suibing_00021
+  rotate: false
+  xy: 992, 205
+  size: 17, 62
+  orig: 98, 163
+  offset: 47, 68
+  index: -1
+images/effects/lz/jinchang/xunhuanbowen_00012
+  rotate: true
+  xy: 808, 333
+  size: 165, 35
+  orig: 208, 95
+  offset: 20, 25
+  index: -1
+images/effects/lz/shanbi/shanbi_00008
+  rotate: false
+  xy: 2, 8
+  size: 296, 310
+  orig: 333, 333
+  offset: 36, 18
+  index: -1
+images/effects/lz/shanbi/shanbi_00013
+  rotate: true
+  xy: 388, 324
+  size: 176, 161
+  orig: 333, 333
+  offset: 90, 93
+  index: -1
+images/effects/lz/shanbi/shanbi_00019
+  rotate: false
+  xy: 847, 343
+  size: 173, 155
+  orig: 333, 333
+  offset: 81, 107
+  index: -1
+
+effects_10301_quickmove2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/lz/jinchang/bing_00022
+  rotate: false
+  xy: 2, 97
+  size: 324, 235
+  orig: 422, 422
+  offset: 53, 82
+  index: -1
+images/effects/lz/jinchang/binghouceng_00016
+  rotate: false
+  xy: 374, 144
+  size: 293, 281
+  orig: 416, 416
+  offset: 71, 64
+  index: -1
+images/effects/lz/jinchang/bowen11_00006
+  rotate: false
+  xy: 2, 655
+  size: 371, 367
+  orig: 416, 416
+  offset: 37, 34
+  index: -1
+images/effects/lz/jinchang/bowen11_00007
+  rotate: true
+  xy: 375, 727
+  size: 295, 291
+  orig: 416, 416
+  offset: 75, 72
+  index: -1
+images/effects/lz/jinchang/bowen11_00008
+  rotate: true
+  xy: 375, 427
+  size: 298, 290
+  orig: 416, 416
+  offset: 70, 75
+  index: -1
+images/effects/lz/jinchang/bowen11_00010
+  rotate: false
+  xy: 667, 444
+  size: 289, 281
+  orig: 416, 416
+  offset: 76, 84
+  index: -1
+images/effects/lz/jinchang/bowen11_00012
+  rotate: true
+  xy: 669, 155
+  size: 287, 273
+  orig: 416, 416
+  offset: 76, 92
+  index: -1
+images/effects/lz/jinchang/bowen11_00020
+  rotate: false
+  xy: 669, 2
+  size: 225, 151
+  orig: 416, 416
+  offset: 110, 140
+  index: -1
+images/effects/lz/jinchang/houcengzhedang_00025
+  rotate: true
+  xy: 328, 222
+  size: 127, 41
+  orig: 416, 416
+  offset: 193, 158
+  index: -1
+images/effects/lz/jinchang/jinchangbaokai_00038
+  rotate: true
+  xy: 2, 334
+  size: 319, 281
+  orig: 487, 416
+  offset: 103, 64
+  index: -1
+images/effects/lz/jinchang/jinchangdilie_00010
+  rotate: false
+  xy: 365, 5
+  size: 289, 137
+  orig: 487, 416
+  offset: 110, 136
+  index: -1
+images/effects/lz/jinchang/jinchangshan_00001
+  rotate: true
+  xy: 668, 745
+  size: 277, 279
+  orig: 325, 325
+  offset: 31, 23
+  index: -1
+images/effects/lz/jinchang/jinchangyingzi2_00000
+  rotate: false
+  xy: 944, 203
+  size: 74, 88
+  orig: 208, 208
+  offset: 72, 105
+  index: -1
+images/effects/lz/jinchang/jinchangyingzi2_00002
+  rotate: false
+  xy: 949, 790
+  size: 73, 85
+  orig: 208, 208
+  offset: 76, 88
+  index: -1
+images/effects/lz/jinchang/jinchangyingzi_00002
+  rotate: true
+  xy: 285, 351
+  size: 67, 87
+  orig: 208, 208
+  offset: 83, 79
+  index: -1
+images/effects/lz/jinchang/quickmove_fengdai_00001
+  rotate: true
+  xy: 896, 3
+  size: 150, 83
+  orig: 163, 83
+  offset: 10, 0
+  index: -1
+images/effects/lz/jinchang/quickmove_fengdai_00004
+  rotate: true
+  xy: 944, 293
+  size: 149, 78
+  orig: 163, 83
+  offset: 10, 2
+  index: -1
+images/effects/lz/jinchang/quickmove_fengdai_00005
+  rotate: true
+  xy: 949, 877
+  size: 145, 73
+  orig: 163, 83
+  offset: 9, 5
+  index: -1
+images/effects/lz/jinchang/suibing_00013
+  rotate: true
+  xy: 2, 9
+  size: 86, 95
+  orig: 98, 163
+  offset: 10, 37
+  index: -1
+images/effects/lz/jinchang/suibing_00015
+  rotate: false
+  xy: 242, 2
+  size: 72, 93
+  orig: 98, 163
+  offset: 15, 45
+  index: -1
+images/effects/lz/jinchang/suibing_00017
+  rotate: false
+  xy: 958, 701
+  size: 58, 87
+  orig: 98, 163
+  offset: 22, 53
+  index: -1
+images/effects/lz/jinchang/suibing_00018
+  rotate: false
+  xy: 958, 614
+  size: 50, 85
+  orig: 98, 163
+  offset: 28, 55
+  index: -1
+images/effects/lz/jinchang/xunhuanbowen_00010
+  rotate: true
+  xy: 328, 56
+  size: 164, 35
+  orig: 208, 95
+  offset: 21, 25
+  index: -1
+images/effects/lz/jinchang/xunhuanbowen_00014
+  rotate: true
+  xy: 958, 448
+  size: 164, 34
+  orig: 208, 95
+  offset: 20, 26
+  index: -1
+images/effects/lz/jinchang/xunhuanbowen_00034
+  rotate: true
+  xy: 981, 38
+  size: 163, 35
+  orig: 208, 95
+  offset: 21, 25
+  index: -1
+images/effects/lz/jinchang/zhedang_00017
+  rotate: true
+  xy: 285, 420
+  size: 233, 87
+  orig: 422, 422
+  offset: 117, 155
+  index: -1
+images/effects/lz/shanbi/shanbi_00023
+  rotate: true
+  xy: 99, 11
+  size: 84, 141
+  orig: 333, 333
+  offset: 83, 111
+  index: -1
+
+effects_10301_quickmove3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/lz/dazhao/474_00000
+  rotate: true
+  xy: 2, 2
+  size: 124, 128
+  orig: 166, 166
+  offset: 21, 19
+  index: -1
+images/effects/lz/jinchang/bing_00013
+  rotate: true
+  xy: 699, 544
+  size: 248, 144
+  orig: 422, 422
+  offset: 123, 103
+  index: -1
+images/effects/lz/jinchang/bing_00014
+  rotate: true
+  xy: 232, 165
+  size: 287, 183
+  orig: 422, 422
+  offset: 90, 103
+  index: -1
+images/effects/lz/jinchang/bing_00016
+  rotate: true
+  xy: 2, 128
+  size: 295, 228
+  orig: 422, 422
+  offset: 82, 82
+  index: -1
+images/effects/lz/jinchang/bing_00017
+  rotate: false
+  xy: 615, 794
+  size: 295, 228
+  orig: 422, 422
+  offset: 82, 82
+  index: -1
+images/effects/lz/jinchang/bing_00018
+  rotate: true
+  xy: 232, 454
+  size: 295, 228
+  orig: 422, 422
+  offset: 82, 82
+  index: -1
+images/effects/lz/jinchang/bing_00019
+  rotate: true
+  xy: 2, 425
+  size: 324, 228
+  orig: 422, 422
+  offset: 53, 82
+  index: -1
+images/effects/lz/jinchang/bing_00020
+  rotate: false
+  xy: 289, 794
+  size: 324, 228
+  orig: 422, 422
+  offset: 53, 82
+  index: -1
+images/effects/lz/jinchang/bingkuai_00000
+  rotate: false
+  xy: 234, 25
+  size: 96, 101
+  orig: 163, 163
+  offset: 35, 31
+  index: -1
+images/effects/lz/jinchang/bowen11_00014
+  rotate: false
+  xy: 2, 751
+  size: 285, 271
+  orig: 416, 416
+  offset: 76, 92
+  index: -1
+images/effects/lz/jinchang/bowen11_00021
+  rotate: false
+  xy: 462, 406
+  size: 224, 152
+  orig: 416, 416
+  offset: 108, 139
+  index: -1
+images/effects/lz/jinchang/canying_00001
+  rotate: true
+  xy: 850, 245
+  size: 82, 91
+  orig: 100, 112
+  offset: 7, 10
+  index: -1
+images/effects/lz/jinchang/jinchangshan_00002
+  rotate: false
+  xy: 462, 560
+  size: 235, 232
+  orig: 325, 325
+  offset: 51, 40
+  index: -1
+images/effects/lz/jinchang/jinchangyingzi2_00001
+  rotate: false
+  xy: 943, 203
+  size: 74, 85
+  orig: 208, 208
+  offset: 73, 97
+  index: -1
+images/effects/lz/jinchang/jinchangyingzi2_00003
+  rotate: true
+  xy: 912, 794
+  size: 70, 85
+  orig: 208, 208
+  offset: 81, 80
+  index: -1
+images/effects/lz/jinchang/jinchangyingzi2_00004
+  rotate: true
+  xy: 332, 56
+  size: 70, 83
+  orig: 208, 208
+  offset: 83, 73
+  index: -1
+images/effects/lz/jinchang/jinchangyingzi2_00005
+  rotate: true
+  xy: 853, 329
+  size: 70, 83
+  orig: 208, 208
+  offset: 84, 64
+  index: -1
+images/effects/lz/jinchang/jinchangyingzi_00000
+  rotate: true
+  xy: 510, 4
+  size: 66, 88
+  orig: 208, 208
+  offset: 82, 96
+  index: -1
+images/effects/lz/jinchang/jinchangyingzi_00003
+  rotate: false
+  xy: 772, 172
+  size: 67, 87
+  orig: 208, 208
+  offset: 86, 71
+  index: -1
+images/effects/lz/jinchang/jinchangyingzi_00004
+  rotate: false
+  xy: 767, 84
+  size: 66, 86
+  orig: 208, 208
+  offset: 88, 64
+  index: -1
+images/effects/lz/jinchang/jinchangyingzi_00005
+  rotate: true
+  xy: 841, 176
+  size: 67, 85
+  orig: 208, 208
+  offset: 90, 55
+  index: -1
+images/effects/lz/jinchang/quickmove_fengdai_00002
+  rotate: false
+  xy: 686, 298
+  size: 152, 83
+  orig: 163, 83
+  offset: 9, 0
+  index: -1
+images/effects/lz/jinchang/quickmove_fengdai_00003
+  rotate: true
+  xy: 853, 401
+  size: 147, 83
+  orig: 163, 83
+  offset: 11, 0
+  index: -1
+images/effects/lz/jinchang/quickmove_fengdai_00006
+  rotate: true
+  xy: 608, 261
+  size: 143, 76
+  orig: 163, 83
+  offset: 9, 5
+  index: -1
+images/effects/lz/jinchang/quickmove_fengdai_00007
+  rotate: false
+  xy: 845, 550
+  size: 143, 74
+  orig: 163, 83
+  offset: 7, 5
+  index: -1
+images/effects/lz/jinchang/suibing_00014
+  rotate: false
+  xy: 943, 290
+  size: 79, 95
+  orig: 98, 163
+  offset: 12, 41
+  index: -1
+images/effects/lz/jinchang/suibing_00016
+  rotate: true
+  xy: 417, 4
+  size: 66, 91
+  orig: 98, 163
+  offset: 17, 48
+  index: -1
+images/effects/lz/jinchang/suibing_00019
+  rotate: true
+  xy: 332, 7
+  size: 47, 80
+  orig: 98, 163
+  offset: 28, 58
+  index: -1
+images/effects/lz/jinchang/waifaguang_00001
+  rotate: false
+  xy: 132, 14
+  size: 100, 112
+  orig: 100, 112
+  offset: 0, 0
+  index: -1
+images/effects/lz/jinchang/xunhuanbowen_00016
+  rotate: false
+  xy: 289, 758
+  size: 164, 34
+  orig: 208, 95
+  offset: 20, 26
+  index: -1
+images/effects/lz/jinchang/xunhuanbowen_00018
+  rotate: false
+  xy: 608, 225
+  size: 162, 34
+  orig: 208, 95
+  offset: 21, 26
+  index: -1
+images/effects/lz/jinchang/xunhuanbowen_00020
+  rotate: false
+  xy: 604, 189
+  size: 162, 34
+  orig: 208, 95
+  offset: 21, 26
+  index: -1
+images/effects/lz/jinchang/xunhuanbowen_00022
+  rotate: false
+  xy: 604, 153
+  size: 161, 34
+  orig: 208, 95
+  offset: 22, 26
+  index: -1
+images/effects/lz/jinchang/xunhuanbowen_00024
+  rotate: false
+  xy: 604, 117
+  size: 161, 34
+  orig: 208, 95
+  offset: 22, 26
+  index: -1
+images/effects/lz/jinchang/xunhuanbowen_00026
+  rotate: false
+  xy: 604, 81
+  size: 161, 34
+  orig: 208, 95
+  offset: 22, 26
+  index: -1
+images/effects/lz/jinchang/xunhuanbowen_00028
+  rotate: true
+  xy: 938, 387
+  size: 161, 34
+  orig: 208, 95
+  offset: 22, 26
+  index: -1
+images/effects/lz/jinchang/xunhuanbowen_00030
+  rotate: false
+  xy: 232, 128
+  size: 162, 35
+  orig: 208, 95
+  offset: 22, 25
+  index: -1
+images/effects/lz/jinchang/xunhuanbowen_00032
+  rotate: false
+  xy: 686, 261
+  size: 162, 35
+  orig: 208, 95
+  offset: 22, 25
+  index: -1
+images/effects/lz/shanbi/shanbi_00009
+  rotate: false
+  xy: 688, 383
+  size: 163, 159
+  orig: 333, 333
+  offset: 104, 88
+  index: -1
+images/effects/lz/shanbi/shanbi_00011
+  rotate: true
+  xy: 845, 626
+  size: 166, 165
+  orig: 333, 333
+  offset: 99, 87
+  index: -1
+images/effects/lz/shanbi/shanbi_00015
+  rotate: false
+  xy: 417, 72
+  size: 185, 165
+  orig: 333, 333
+  offset: 83, 98
+  index: -1
+images/effects/lz/shanbi/shanbi_00017
+  rotate: false
+  xy: 417, 239
+  size: 189, 165
+  orig: 333, 333
+  offset: 79, 103
+  index: -1
+images/effects/lz/shanbi/shanbi_00021
+  rotate: false
+  xy: 912, 866
+  size: 104, 156
+  orig: 333, 333
+  offset: 80, 108
+  index: -1

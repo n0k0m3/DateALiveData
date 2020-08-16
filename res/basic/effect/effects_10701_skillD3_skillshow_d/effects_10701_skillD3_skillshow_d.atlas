@@ -1,0 +1,34 @@
+
+effects_10701_skillD3_skillshow_d.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skilld/p2_a_00000
+  rotate: false
+  xy: 2, 2
+  size: 14, 288
+  orig: 14, 288
+  offset: 0, 0
+  index: -1
+images/effects/skilld/p2_c/p2_c_00000
+  rotate: false
+  xy: 273, 640
+  size: 255, 346
+  orig: 315, 346
+  offset: 0, 0
+  index: -1
+images/effects/skilld/p2_c/p2_c_00001
+  rotate: false
+  xy: 2, 640
+  size: 269, 346
+  orig: 315, 346
+  offset: 0, 0
+  index: -1
+images/effects/skilld/p2_c/p2_c_00002
+  rotate: false
+  xy: 2, 292
+  size: 265, 346
+  orig: 315, 346
+  offset: 0, 0
+  index: -1

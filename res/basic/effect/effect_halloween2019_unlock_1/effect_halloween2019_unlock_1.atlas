@@ -1,0 +1,167 @@
+
+effect_halloween2019_unlock_1.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lizi_00001
+  rotate: false
+  xy: 50, 64
+  size: 1, 1
+  orig: 54, 56
+  offset: 43, 23
+  index: -1
+lizi_00002
+  rotate: true
+  xy: 71, 14
+  size: 6, 13
+  orig: 54, 56
+  offset: 42, 12
+  index: -1
+lizi_00003
+  rotate: true
+  xy: 47, 6
+  size: 7, 14
+  orig: 54, 56
+  offset: 41, 11
+  index: -1
+lizi_00004
+  rotate: true
+  xy: 222, 208
+  size: 46, 22
+  orig: 54, 56
+  offset: 3, 4
+  index: -1
+lizi_00005
+  rotate: true
+  xy: 47, 15
+  size: 47, 22
+  orig: 54, 56
+  offset: 3, 4
+  index: -1
+lizi_00006
+  rotate: true
+  xy: 2, 15
+  size: 47, 43
+  orig: 54, 56
+  offset: 3, 4
+  index: -1
+lizi_00007
+  rotate: false
+  xy: 2, 161
+  size: 48, 45
+  orig: 54, 56
+  offset: 2, 3
+  index: -1
+lizi_00008
+  rotate: false
+  xy: 2, 208
+  size: 48, 46
+  orig: 54, 56
+  offset: 2, 3
+  index: -1
+lizi_00009
+  rotate: false
+  xy: 52, 209
+  size: 48, 45
+  orig: 54, 56
+  offset: 2, 4
+  index: -1
+lizi_00010
+  rotate: false
+  xy: 52, 161
+  size: 46, 46
+  orig: 54, 56
+  offset: 3, 4
+  index: -1
+lizi_00011
+  rotate: false
+  xy: 2, 64
+  size: 46, 46
+  orig: 54, 56
+  offset: 3, 5
+  index: -1
+lizi_00012
+  rotate: false
+  xy: 2, 112
+  size: 46, 47
+  orig: 54, 56
+  offset: 3, 5
+  index: -1
+lizi_00013
+  rotate: false
+  xy: 50, 113
+  size: 46, 46
+  orig: 54, 56
+  offset: 3, 6
+  index: -1
+lizi_00014
+  rotate: false
+  xy: 102, 209
+  size: 46, 45
+  orig: 54, 56
+  offset: 3, 7
+  index: -1
+lizi_00015
+  rotate: false
+  xy: 100, 162
+  size: 46, 45
+  orig: 54, 56
+  offset: 3, 7
+  index: -1
+lizi_00016
+  rotate: false
+  xy: 50, 67
+  size: 46, 44
+  orig: 54, 56
+  offset: 3, 8
+  index: -1
+lizi_00017
+  rotate: false
+  xy: 150, 210
+  size: 34, 44
+  orig: 54, 56
+  offset: 3, 8
+  index: -1
+lizi_00018
+  rotate: false
+  xy: 186, 211
+  size: 34, 43
+  orig: 54, 56
+  offset: 3, 9
+  index: -1
+lizi_00019
+  rotate: false
+  xy: 71, 22
+  size: 6, 43
+  orig: 54, 56
+  offset: 3, 9
+  index: -1
+lizi_00020
+  rotate: false
+  xy: 79, 22
+  size: 6, 43
+  orig: 54, 56
+  offset: 3, 10
+  index: -1
+lizi_00021
+  rotate: true
+  xy: 2, 6
+  size: 7, 43
+  orig: 54, 56
+  offset: 3, 10
+  index: -1
+lizi_00022
+  rotate: false
+  xy: 246, 212
+  size: 8, 42
+  orig: 54, 56
+  offset: 2, 11
+  index: -1
+lizi_00023
+  rotate: false
+  xy: 87, 24
+  size: 7, 41
+  orig: 54, 56
+  offset: 2, 12
+  index: -1

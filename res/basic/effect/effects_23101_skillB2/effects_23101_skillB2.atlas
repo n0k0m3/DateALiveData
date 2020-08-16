@@ -1,0 +1,97 @@
+
+effects_23101_skillB2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/images/skillA/dimianhuoyan/dimianhuoyan_00029
+  rotate: true
+  xy: 227, 70
+  size: 86, 36
+  orig: 249, 142
+  offset: 84, 52
+  index: -1
+images/images/skillA/dimianhuoyan/dimianhuoyan_00030
+  rotate: false
+  xy: 2, 3
+  size: 214, 73
+  orig: 249, 142
+  offset: 19, 35
+  index: -1
+images/images/skillA/dimianhuoyan/dimianhuoyan_00032
+  rotate: false
+  xy: 2, 78
+  size: 223, 78
+  orig: 249, 142
+  offset: 15, 33
+  index: -1
+images/images/skillA/dimianhuoyan/dimianhuoyan_00034
+  rotate: false
+  xy: 2, 78
+  size: 223, 78
+  orig: 249, 142
+  offset: 15, 33
+  index: -1
+images/images/skillA/dimianhuoyan/dimianhuoyan_00036
+  rotate: false
+  xy: 250, 240
+  size: 231, 81
+  orig: 249, 142
+  offset: 11, 30
+  index: -1
+images/images/skillA/dimianhuoyan/dimianhuoyan_00038
+  rotate: false
+  xy: 251, 323
+  size: 235, 85
+  orig: 249, 142
+  offset: 7, 29
+  index: -1
+images/images/skillA/dimianhuoyan/dimianhuoyan_00040
+  rotate: false
+  xy: 252, 410
+  size: 244, 86
+  orig: 249, 142
+  offset: 2, 29
+  index: -1
+images/images/skillA/dimianhuoyan/dimianhuoyan_00042
+  rotate: false
+  xy: 252, 410
+  size: 244, 86
+  orig: 249, 142
+  offset: 2, 29
+  index: -1
+images/images/skillA/dimianhuoyan/dimianhuoyan_00044
+  rotate: false
+  xy: 2, 410
+  size: 248, 86
+  orig: 249, 142
+  offset: 0, 29
+  index: -1
+images/images/skillA/dimianhuoyan/dimianhuoyan_00046
+  rotate: false
+  xy: 2, 323
+  size: 247, 85
+  orig: 249, 142
+  offset: 2, 29
+  index: -1
+images/images/skillA/dimianhuoyan/dimianhuoyan_00048
+  rotate: false
+  xy: 2, 238
+  size: 246, 83
+  orig: 249, 142
+  offset: 3, 30
+  index: -1
+images/images/skillA/dimianhuoyan/dimianhuoyan_00050
+  rotate: false
+  xy: 2, 238
+  size: 246, 83
+  orig: 249, 142
+  offset: 3, 30
+  index: -1
+images/images/skillA/dimianhuoyan/dimianhuoyan_00052
+  rotate: false
+  xy: 2, 158
+  size: 241, 78
+  orig: 249, 142
+  offset: 6, 31
+  index: -1

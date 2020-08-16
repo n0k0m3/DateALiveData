@@ -1,0 +1,76 @@
+
+effect_fangkuai_17.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/fangkuai1
+  rotate: false
+  xy: 520, 771
+  size: 341, 246
+  orig: 341, 246
+  offset: 0, 0
+  index: -1
+images/fangkuai10
+  rotate: false
+  xy: 418, 467
+  size: 134, 166
+  orig: 134, 166
+  offset: 0, 0
+  index: -1
+images/fangkuai2
+  rotate: false
+  xy: 2, 297
+  size: 414, 336
+  orig: 414, 336
+  offset: 0, 0
+  index: -1
+images/fangkuai3
+  rotate: false
+  xy: 2, 635
+  size: 516, 382
+  orig: 516, 382
+  offset: 0, 0
+  index: -1
+images/fangkuai4
+  rotate: true
+  xy: 863, 768
+  size: 249, 139
+  orig: 249, 139
+  offset: 0, 0
+  index: -1
+images/fangkuai5
+  rotate: false
+  xy: 2, 40
+  size: 255, 85
+  orig: 255, 85
+  offset: 0, 0
+  index: -1
+images/fangkuai6
+  rotate: false
+  xy: 2, 127
+  size: 563, 168
+  orig: 563, 231
+  offset: 0, 7
+  index: -1
+images/fangkuai7
+  rotate: false
+  xy: 520, 656
+  size: 199, 113
+  orig: 231, 141
+  offset: 32, 0
+  index: -1
+images/fangkuai8
+  rotate: true
+  xy: 2, 2
+  size: 36, 108
+  orig: 36, 108
+  offset: 0, 0
+  index: -1
+images/fangkuai9
+  rotate: true
+  xy: 418, 325
+  size: 140, 122
+  orig: 140, 122
+  offset: 0, 0
+  index: -1

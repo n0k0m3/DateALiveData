@@ -1,0 +1,48 @@
+
+fight_10901_hit.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/baibao_00027
+  rotate: false
+  xy: 218, 2
+  size: 54, 54
+  orig: 64, 64
+  offset: 5, 5
+  index: -1
+images/effect/hit/baodian_00009
+  rotate: false
+  xy: 2, 84
+  size: 253, 212
+  orig: 256, 255
+  offset: 3, 33
+  index: -1
+images/effect/hit/baodian_00010
+  rotate: false
+  xy: 2, 298
+  size: 256, 211
+  orig: 256, 255
+  offset: 0, 32
+  index: -1
+images/effect/hit/baodian_00011
+  rotate: false
+  xy: 260, 322
+  size: 230, 187
+  orig: 256, 255
+  offset: 16, 43
+  index: -1
+images/effect/hit/daohena_00008
+  rotate: true
+  xy: 2, 19
+  size: 37, 214
+  orig: 37, 214
+  offset: 0, 0
+  index: -1
+images/effect/hit/daohenm_00008
+  rotate: true
+  xy: 2, 58
+  size: 24, 275
+  orig: 37, 276
+  offset: 6, 1
+  index: -1

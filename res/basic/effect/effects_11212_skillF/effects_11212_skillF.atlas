@@ -1,0 +1,542 @@
+
+effects_11212_skillF.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_H/skillF/lizi/lizi_010
+  rotate: false
+  xy: 404, 12
+  size: 297, 127
+  orig: 300, 150
+  offset: 1, 20
+  index: -1
+images/effects_H/skillF/luolei/luo_001
+  rotate: true
+  xy: 2, 2
+  size: 137, 400
+  orig: 200, 400
+  offset: 42, 0
+  index: -1
+images/effects_H/skillF/luolizi/luolizi_015
+  rotate: false
+  xy: 378, 412
+  size: 353, 301
+  orig: 500, 400
+  offset: 70, 99
+  index: -1
+images/effects_H/skillF/luolizi/luolizi_019
+  rotate: false
+  xy: 378, 715
+  size: 375, 306
+  orig: 500, 400
+  offset: 48, 73
+  index: -1
+images/effects_H/skillF/luolizi/luolizi_023
+  rotate: false
+  xy: 2, 675
+  size: 374, 346
+  orig: 500, 400
+  offset: 49, 27
+  index: -1
+images/effects_H/skillF/xuli/xuli_002
+  rotate: false
+  xy: 2, 405
+  size: 363, 268
+  orig: 400, 300
+  offset: 37, 28
+  index: -1
+images/effects_H/skillF/xuli/xuli_004
+  rotate: true
+  xy: 733, 298
+  size: 363, 271
+  orig: 400, 300
+  offset: 37, 25
+  index: -1
+images/effects_H/skillF/xuli/xuli_006
+  rotate: false
+  xy: 367, 141
+  size: 361, 269
+  orig: 400, 300
+  offset: 39, 27
+  index: -1
+images/effects_H/skillF/xuli/xuli_008
+  rotate: true
+  xy: 755, 663
+  size: 358, 266
+  orig: 400, 300
+  offset: 42, 30
+  index: -1
+images/effects_H/skillF/xuli/xuli_010
+  rotate: false
+  xy: 2, 162
+  size: 358, 241
+  orig: 400, 300
+  offset: 42, 33
+  index: -1
+images/effects_H/skillF/yuan1_000
+  rotate: true
+  xy: 730, 13
+  size: 283, 284
+  orig: 300, 300
+  offset: 8, 7
+  index: -1
+
+effects_11212_skillF2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_H/glow1_034
+  rotate: true
+  xy: 960, 582
+  size: 189, 57
+  orig: 250, 200
+  offset: 29, 73
+  index: -1
+images/effects_H/skillF/ci
+  rotate: false
+  xy: 775, 198
+  size: 217, 214
+  orig: 256, 256
+  offset: 18, 21
+  index: -1
+images/effects_H/skillF/guang_001
+  rotate: false
+  xy: 2, 348
+  size: 220, 372
+  orig: 300, 400
+  offset: 44, 19
+  index: -1
+images/effects_H/skillF/hit/hit_000
+  rotate: false
+  xy: 2, 722
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+images/effects_H/skillF/hit/hit_011
+  rotate: false
+  xy: 582, 150
+  size: 180, 171
+  orig: 300, 300
+  offset: 55, 52
+  index: -1
+images/effects_H/skillF/luolei/luo_000
+  rotate: true
+  xy: 764, 4
+  size: 192, 240
+  orig: 200, 400
+  offset: 8, 160
+  index: -1
+images/effects_H/skillF/luolei/luo_003
+  rotate: true
+  xy: 304, 842
+  size: 180, 400
+  orig: 200, 400
+  offset: 20, 0
+  index: -1
+images/effects_H/skillF/luolei/luo_007
+  rotate: true
+  xy: 304, 694
+  size: 146, 400
+  orig: 200, 400
+  offset: 39, 0
+  index: -1
+images/effects_H/skillF/luolei/luo_011
+  rotate: true
+  xy: 224, 512
+  size: 180, 400
+  orig: 200, 400
+  offset: 20, 0
+  index: -1
+images/effects_H/skillF/luolei/luo_015
+  rotate: true
+  xy: 212, 2
+  size: 145, 400
+  orig: 200, 400
+  offset: 38, 0
+  index: -1
+images/effects_H/skillF/luolei/luo_019
+  rotate: true
+  xy: 224, 334
+  size: 176, 400
+  orig: 200, 400
+  offset: 22, 0
+  index: -1
+images/effects_H/skillF/luolei/luo_021
+  rotate: true
+  xy: 212, 149
+  size: 183, 368
+  orig: 200, 400
+  offset: 17, 32
+  index: -1
+images/effects_H/skillF/luolei/luo_023
+  rotate: false
+  xy: 775, 414
+  size: 183, 357
+  orig: 200, 400
+  offset: 17, 43
+  index: -1
+images/effects_H/skillF/luolei/luo_025
+  rotate: false
+  xy: 626, 323
+  size: 147, 369
+  orig: 200, 400
+  offset: 35, 31
+  index: -1
+images/effects_H/skillF/luolizi/luolizi_011
+  rotate: false
+  xy: 706, 773
+  size: 298, 249
+  orig: 500, 400
+  offset: 118, 151
+  index: -1
+images/effects_H/skillF/xuli/xuli_012
+  rotate: true
+  xy: 2, 8
+  size: 338, 208
+  orig: 400, 300
+  offset: 45, 44
+  index: -1
+images/effects_H/skillF/yuan2_000
+  rotate: false
+  xy: 614, 2
+  size: 146, 146
+  orig: 150, 150
+  offset: 2, 2
+  index: -1
+
+effects_11212_skillF3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_H/skillF/hit/hit_001
+  rotate: true
+  xy: 748, 356
+  size: 220, 251
+  orig: 300, 300
+  offset: 31, 21
+  index: -1
+images/effects_H/skillF/hit/hit_003
+  rotate: true
+  xy: 2, 499
+  size: 265, 241
+  orig: 300, 300
+  offset: 18, 12
+  index: -1
+images/effects_H/skillF/hit/hit_005
+  rotate: true
+  xy: 245, 489
+  size: 275, 220
+  orig: 300, 300
+  offset: 15, 11
+  index: -1
+images/effects_H/skillF/hit/hit_007
+  rotate: false
+  xy: 467, 411
+  size: 279, 216
+  orig: 300, 300
+  offset: 13, 14
+  index: -1
+images/effects_H/skillF/hit/hit_009
+  rotate: false
+  xy: 380, 12
+  size: 275, 206
+  orig: 300, 300
+  offset: 14, 22
+  index: -1
+images/effects_H/skillF/lizi/lizi_006
+  rotate: true
+  xy: 268, 2
+  size: 227, 110
+  orig: 300, 150
+  offset: 35, 27
+  index: -1
+images/effects_H/skillF/lizi/lizi_008
+  rotate: false
+  xy: 708, 214
+  size: 268, 140
+  orig: 300, 150
+  offset: 15, 9
+  index: -1
+images/effects_H/skillF/luolei/luo_028
+  rotate: true
+  xy: 511, 629
+  size: 147, 328
+  orig: 200, 400
+  offset: 35, 52
+  index: -1
+images/effects_H/skillF/renwu/renwu_007
+  rotate: false
+  xy: 770, 778
+  size: 229, 244
+  orig: 300, 300
+  offset: 39, 5
+  index: -1
+images/effects_H/skillF/renwu/renwu_009
+  rotate: false
+  xy: 260, 770
+  size: 249, 252
+  orig: 300, 300
+  offset: 35, 0
+  index: -1
+images/effects_H/skillF/renwu/renwu_011
+  rotate: true
+  xy: 511, 778
+  size: 244, 257
+  orig: 300, 300
+  offset: 41, 0
+  index: -1
+images/effects_H/skillF/renwu/renwu_013
+  rotate: true
+  xy: 2, 5
+  size: 224, 264
+  orig: 300, 300
+  offset: 55, 0
+  index: -1
+images/effects_H/skillF/xuli1/xuli1_005
+  rotate: true
+  xy: 428, 220
+  size: 189, 278
+  orig: 300, 300
+  offset: 53, 0
+  index: -1
+images/effects_H/skillF/xuli1/xuli1_007
+  rotate: false
+  xy: 234, 231
+  size: 192, 256
+  orig: 300, 300
+  offset: 50, 9
+  index: -1
+images/effects_H/skillF/xuli1/xuli1_009
+  rotate: false
+  xy: 2, 231
+  size: 230, 266
+  orig: 300, 300
+  offset: 12, 19
+  index: -1
+images/effects_H/skillF/xuli1/xuli1_011
+  rotate: true
+  xy: 657, 13
+  size: 199, 253
+  orig: 300, 300
+  offset: 43, 33
+  index: -1
+images/effects_H/skillF/yuan3
+  rotate: false
+  xy: 2, 766
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+images/effects_H/skillF/zhi/zhi_004
+  rotate: true
+  xy: 841, 578
+  size: 198, 156
+  orig: 250, 200
+  offset: 25, 15
+  index: -1
+images/effects_H/skillF/zhi/zhi_026
+  rotate: true
+  xy: 912, 29
+  size: 183, 66
+  orig: 250, 200
+  offset: 32, 25
+  index: -1
+
+effects_11212_skillF4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_H/glow_000
+  rotate: false
+  xy: 926, 419
+  size: 96, 96
+  orig: 100, 100
+  offset: 2, 2
+  index: -1
+images/effects_H/skillF/lizi/lizi_002
+  rotate: false
+  xy: 908, 939
+  size: 114, 83
+  orig: 300, 150
+  offset: 96, 19
+  index: -1
+images/effects_H/skillF/lizi/lizi_004
+  rotate: false
+  xy: 218, 353
+  size: 172, 118
+  orig: 300, 150
+  offset: 62, 0
+  index: -1
+images/effects_H/skillF/lizi/lizi_012
+  rotate: false
+  xy: 230, 676
+  size: 213, 132
+  orig: 300, 150
+  offset: 49, 18
+  index: -1
+images/effects_H/skillF/lizi/lizi_014
+  rotate: true
+  xy: 202, 116
+  size: 221, 134
+  orig: 300, 150
+  offset: 45, 16
+  index: -1
+images/effects_H/skillF/lizi/lizi_016
+  rotate: false
+  xy: 680, 717
+  size: 221, 121
+  orig: 300, 150
+  offset: 44, 15
+  index: -1
+images/effects_H/skillF/luolizi/luolizi_007
+  rotate: false
+  xy: 218, 473
+  size: 202, 201
+  orig: 500, 400
+  offset: 194, 199
+  index: -1
+images/effects_H/skillF/renwu/renwu_001
+  rotate: false
+  xy: 2, 116
+  size: 198, 221
+  orig: 300, 300
+  offset: 56, 79
+  index: -1
+images/effects_H/skillF/renwu/renwu_003
+  rotate: false
+  xy: 2, 561
+  size: 212, 231
+  orig: 300, 300
+  offset: 47, 43
+  index: -1
+images/effects_H/skillF/renwu/renwu_005
+  rotate: true
+  xy: 230, 810
+  size: 212, 231
+  orig: 300, 300
+  offset: 48, 21
+  index: -1
+images/effects_H/skillF/xuli/xuli_000
+  rotate: false
+  xy: 2, 21
+  size: 231, 93
+  orig: 400, 300
+  offset: 92, 203
+  index: -1
+images/effects_H/skillF/xuli1/xuli1_003
+  rotate: false
+  xy: 789, 325
+  size: 135, 190
+  orig: 300, 300
+  offset: 116, 96
+  index: -1
+images/effects_H/skillF/xuli1/xuli1_013
+  rotate: true
+  xy: 680, 840
+  size: 182, 226
+  orig: 300, 300
+  offset: 60, 55
+  index: -1
+images/effects_H/skillF/xuli1/xuli1_015
+  rotate: false
+  xy: 2, 794
+  size: 226, 228
+  orig: 300, 300
+  offset: 60, 55
+  index: -1
+images/effects_H/skillF/xuli1/xuli1_017
+  rotate: false
+  xy: 2, 339
+  size: 214, 220
+  orig: 300, 300
+  offset: 60, 55
+  index: -1
+images/effects_H/skillF/xuli1/xuli1_019
+  rotate: false
+  xy: 463, 816
+  size: 215, 206
+  orig: 300, 300
+  offset: 60, 55
+  index: -1
+images/effects_H/skillF/yuan_000
+  rotate: false
+  xy: 789, 184
+  size: 138, 139
+  orig: 150, 150
+  offset: 4, 6
+  index: -1
+images/effects_H/skillF/zhi/zhi_-01
+  rotate: false
+  xy: 338, 7
+  size: 198, 144
+  orig: 250, 200
+  offset: 25, 27
+  index: -1
+images/effects_H/skillF/zhi/zhi_-03
+  rotate: false
+  xy: 422, 353
+  size: 198, 155
+  orig: 250, 200
+  offset: 25, 16
+  index: -1
+images/effects_H/skillF/zhi/zhi_000
+  rotate: true
+  xy: 338, 153
+  size: 198, 143
+  orig: 250, 200
+  offset: 25, 27
+  index: -1
+images/effects_H/skillF/zhi/zhi_002
+  rotate: true
+  xy: 483, 153
+  size: 198, 152
+  orig: 250, 200
+  offset: 25, 19
+  index: -1
+images/effects_H/skillF/zhi/zhi_006
+  rotate: false
+  xy: 422, 510
+  size: 198, 155
+  orig: 250, 200
+  offset: 25, 16
+  index: -1
+images/effects_H/skillF/zhi/zhi_016
+  rotate: true
+  xy: 622, 467
+  size: 198, 152
+  orig: 250, 200
+  offset: 25, 19
+  index: -1
+images/effects_H/skillF/zhi/zhi_018
+  rotate: true
+  xy: 776, 517
+  size: 198, 151
+  orig: 250, 200
+  offset: 25, 19
+  index: -1
+images/effects_H/skillF/zhi/zhi_020
+  rotate: true
+  xy: 637, 269
+  size: 196, 150
+  orig: 250, 200
+  offset: 26, 20
+  index: -1
+images/effects_H/skillF/zhi/zhi_022
+  rotate: false
+  xy: 483, 667
+  size: 195, 147
+  orig: 250, 200
+  offset: 26, 21
+  index: -1
+images/effects_H/skillF/zhi/zhi_024
+  rotate: false
+  xy: 538, 7
+  size: 193, 144
+  orig: 250, 200
+  offset: 27, 23
+  index: -1

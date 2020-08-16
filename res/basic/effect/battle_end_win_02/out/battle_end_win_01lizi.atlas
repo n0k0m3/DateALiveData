@@ -1,0 +1,13 @@
+
+battle_end_win_01lizi.png
+size: 64,32
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+huangse
+  rotate: false
+  xy: 2, 2
+  size: 30, 25
+  orig: 32, 25
+  offset: 2, 0
+  index: -1

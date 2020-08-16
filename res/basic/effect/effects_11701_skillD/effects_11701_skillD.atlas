@@ -1,0 +1,648 @@
+
+effects_11701_skillD.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/born/shunyi/shunyi_000
+  rotate: false
+  xy: 211, 2
+  size: 180, 184
+  orig: 240, 240
+  offset: 30, 28
+  index: -1
+effects/born/shunyi/shunyi_001
+  rotate: false
+  xy: 573, 165
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+effects/born/smoke/smoke_002
+  rotate: false
+  xy: 494, 6
+  size: 96, 38
+  orig: 112, 56
+  offset: 8, 8
+  index: -1
+effects/born/smoke/smoke_003
+  rotate: false
+  xy: 691, 11
+  size: 96, 38
+  orig: 112, 56
+  offset: 8, 8
+  index: -1
+effects/born/smoke/smoke_004
+  rotate: false
+  xy: 592, 11
+  size: 97, 38
+  orig: 112, 56
+  offset: 7, 8
+  index: -1
+effects/born/smoke/smoke_005
+  rotate: false
+  xy: 393, 4
+  size: 99, 40
+  orig: 112, 56
+  offset: 5, 7
+  index: -1
+effects/skillD/hit1/hit1_005
+  rotate: false
+  xy: 815, 30
+  size: 205, 170
+  orig: 240, 180
+  offset: 24, 0
+  index: -1
+effects/skillD/luohui/luohui_004
+  rotate: true
+  xy: 393, 46
+  size: 103, 173
+  orig: 144, 280
+  offset: 27, 85
+  index: -1
+effects/skillD/luohui/luohui_008
+  rotate: true
+  xy: 573, 51
+  size: 112, 240
+  orig: 144, 280
+  offset: 15, 18
+  index: -1
+effects/skillD/luoshi/luoshi_000
+  rotate: false
+  xy: 592, 611
+  size: 302, 202
+  orig: 320, 224
+  offset: 12, 16
+  index: -1
+effects/skillD/luoshi/luoshi_002
+  rotate: false
+  xy: 288, 814
+  size: 302, 208
+  orig: 320, 224
+  offset: 12, 16
+  index: -1
+effects/skillD/luoshi/luoshi_004
+  rotate: false
+  xy: 608, 407
+  size: 290, 202
+  orig: 320, 224
+  offset: 12, 22
+  index: -1
+effects/skillD/luoshi/luoshi_006
+  rotate: true
+  xy: 2, 146
+  size: 302, 207
+  orig: 320, 224
+  offset: 12, 17
+  index: -1
+effects/skillD/luoshi/luoshi_008
+  rotate: false
+  xy: 288, 605
+  size: 302, 207
+  orig: 320, 224
+  offset: 12, 17
+  index: -1
+effects/skillD/luoshi/luoshi_010
+  rotate: false
+  xy: 592, 815
+  size: 302, 207
+  orig: 320, 224
+  offset: 12, 17
+  index: -1
+effects/skillD/shan/shan_004
+  rotate: false
+  xy: 815, 202
+  size: 207, 203
+  orig: 320, 320
+  offset: 56, 58
+  index: -1
+effects/skillD/shan/shan_006
+  rotate: false
+  xy: 2, 737
+  size: 284, 285
+  orig: 320, 320
+  offset: 16, 16
+  index: -1
+effects/skillD/shan/shan_007
+  rotate: true
+  xy: 2, 450
+  size: 285, 284
+  orig: 320, 320
+  offset: 18, 16
+  index: -1
+effects/skillD/shan/shan_009
+  rotate: false
+  xy: 211, 188
+  size: 252, 251
+  orig: 320, 320
+  offset: 35, 34
+  index: -1
+effects/skillD/suduxian/suduxian_000
+  rotate: false
+  xy: 288, 441
+  size: 318, 162
+  orig: 320, 178
+  offset: 1, 8
+  index: -1
+effects/skillD/yan2/yan2_000
+  rotate: true
+  xy: 900, 427
+  size: 276, 104
+  orig: 320, 120
+  offset: 21, 8
+  index: -1
+effects/skillD/yan2/yan2_004
+  rotate: true
+  xy: 896, 705
+  size: 317, 107
+  orig: 320, 120
+  offset: 2, 5
+  index: -1
+effects/skillD/yan2/yan2_010
+  rotate: true
+  xy: 465, 151
+  size: 288, 106
+  orig: 320, 120
+  offset: 20, 6
+  index: -1
+effects/skillD/yan4/yan4_020
+  rotate: false
+  xy: 2, 31
+  size: 206, 113
+  orig: 240, 120
+  offset: 15, 5
+  index: -1
+effects/skillD/zhen_000
+  rotate: true
+  xy: 2, 17
+  size: 12, 126
+  orig: 16, 136
+  offset: 2, 5
+  index: -1
+
+effects_11701_skillD2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG_zhusui1
+  rotate: true
+  xy: 656, 14
+  size: 86, 61
+  orig: 86, 61
+  offset: 0, 0
+  index: -1
+BG_zhusui3
+  rotate: true
+  xy: 388, 13
+  size: 68, 38
+  orig: 68, 38
+  offset: 0, 0
+  index: -1
+effects/born/shunyi/shunyi_002
+  rotate: false
+  xy: 340, 782
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+effects/born/shunyi/shunyi_003
+  rotate: false
+  xy: 2, 695
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+effects/born/shunyi/shunyi_004
+  rotate: false
+  xy: 2, 453
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+effects/born/shunyi/shunyi_005
+  rotate: true
+  xy: 244, 436
+  size: 235, 240
+  orig: 240, 240
+  offset: 3, 0
+  index: -1
+effects/born/shunyi/shunyi_006
+  rotate: false
+  xy: 2, 213
+  size: 230, 238
+  orig: 240, 240
+  offset: 6, 0
+  index: -1
+effects/born/smoke/smoke_000
+  rotate: false
+  xy: 800, 460
+  size: 80, 32
+  orig: 112, 56
+  offset: 16, 10
+  index: -1
+effects/born/smoke/smoke_001
+  rotate: false
+  xy: 705, 455
+  size: 93, 37
+  orig: 112, 56
+  offset: 10, 8
+  index: -1
+effects/exskillB/qiyan/qiyan_17
+  rotate: false
+  xy: 234, 2
+  size: 152, 79
+  orig: 162, 90
+  offset: 6, 4
+  index: -1
+effects/skillD/hit1/hit1_000
+  rotate: false
+  xy: 753, 8
+  size: 182, 162
+  orig: 240, 180
+  offset: 37, 13
+  index: -1
+effects/skillD/hit1/hit1_003
+  rotate: true
+  xy: 815, 796
+  size: 226, 174
+  orig: 240, 180
+  offset: 0, 1
+  index: -1
+effects/skillD/juci_000
+  rotate: false
+  xy: 806, 253
+  size: 205, 205
+  orig: 205, 205
+  offset: 0, 0
+  index: -1
+effects/skillD/juqi/juqi_001
+  rotate: false
+  xy: 2, 9
+  size: 230, 202
+  orig: 280, 280
+  offset: 23, 19
+  index: -1
+effects/skillD/juqi/juqi_005
+  rotate: false
+  xy: 582, 796
+  size: 231, 226
+  orig: 280, 280
+  offset: 26, 23
+  index: -1
+effects/skillD/juqi/juqi_007
+  rotate: true
+  xy: 486, 455
+  size: 218, 217
+  orig: 280, 280
+  offset: 36, 28
+  index: -1
+effects/skillD/luohui/luohui_006
+  rotate: true
+  xy: 234, 83
+  size: 105, 212
+  orig: 144, 280
+  offset: 22, 46
+  index: -1
+effects/skillD/shan/shan_011
+  rotate: false
+  xy: 234, 190
+  size: 215, 244
+  orig: 320, 320
+  offset: 72, 37
+  index: -1
+effects/skillD/shangqi/shangqi_001
+  rotate: true
+  xy: 655, 683
+  size: 111, 217
+  orig: 144, 288
+  offset: 15, 17
+  index: -1
+effects/skillD/shangqi/shangqi_002
+  rotate: false
+  xy: 244, 673
+  size: 94, 262
+  orig: 144, 288
+  offset: 30, 17
+  index: -1
+effects/skillD/sheji/sheji_001
+  rotate: false
+  xy: 2, 937
+  size: 336, 85
+  orig: 336, 101
+  offset: 0, 6
+  index: -1
+effects/skillD/sheji/sheji_002
+  rotate: false
+  xy: 705, 494
+  size: 315, 85
+  orig: 336, 101
+  offset: 15, 10
+  index: -1
+effects/skillD/sheji/sheji_003
+  rotate: false
+  xy: 448, 102
+  size: 303, 81
+  orig: 336, 101
+  offset: 26, 14
+  index: -1
+effects/skillD/suduxian/suduxian_002
+  rotate: false
+  xy: 486, 291
+  size: 318, 162
+  orig: 320, 178
+  offset: 1, 8
+  index: -1
+effects/skillD/xuanqi/xuanqi_004
+  rotate: false
+  xy: 874, 697
+  size: 146, 97
+  orig: 192, 192
+  offset: 28, 41
+  index: -1
+effects/skillD/yan1/yan1_000
+  rotate: true
+  xy: 937, 8
+  size: 162, 74
+  orig: 208, 108
+  offset: 24, 14
+  index: -1
+effects/skillD/yan2/yan2_002
+  rotate: false
+  xy: 340, 675
+  size: 313, 105
+  orig: 320, 120
+  offset: 3, 8
+  index: -1
+effects/skillD/yan2/yan2_006
+  rotate: false
+  xy: 705, 581
+  size: 315, 100
+  orig: 320, 120
+  offset: 3, 8
+  index: -1
+effects/skillD/yan2/yan2_008
+  rotate: false
+  xy: 451, 185
+  size: 311, 104
+  orig: 320, 120
+  offset: 5, 4
+  index: -1
+effects/skillD/yan3/yan3_019
+  rotate: false
+  xy: 764, 172
+  size: 240, 79
+  orig: 240, 96
+  offset: 0, 5
+  index: -1
+effects/skillD/yan4/yan4_019
+  rotate: false
+  xy: 448, 2
+  size: 206, 98
+  orig: 240, 120
+  offset: 15, 6
+  index: -1
+
+effects_11701_skillD3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG_zhusui2
+  rotate: false
+  xy: 247, 141
+  size: 154, 95
+  orig: 154, 95
+  offset: 0, 0
+  index: -1
+effects/b_000
+  rotate: true
+  xy: 967, 814
+  size: 111, 51
+  orig: 111, 51
+  offset: 0, 0
+  index: -1
+effects/exskillB/qiyan/qiyan_21
+  rotate: true
+  xy: 402, 238
+  size: 152, 76
+  orig: 162, 90
+  offset: 6, 4
+  index: -1
+effects/glow_000
+  rotate: false
+  xy: 403, 156
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+effects/skillD/hit1/hit1_001
+  rotate: true
+  xy: 2, 23
+  size: 170, 159
+  orig: 240, 180
+  offset: 39, 15
+  index: -1
+effects/skillD/hit1/hit1_007
+  rotate: true
+  xy: 2, 398
+  size: 209, 158
+  orig: 240, 180
+  offset: 23, 14
+  index: -1
+effects/skillD/juqi/juqi_003
+  rotate: false
+  xy: 2, 816
+  size: 237, 202
+  orig: 280, 280
+  offset: 25, 22
+  index: -1
+effects/skillD/juqi/juqi_009
+  rotate: true
+  xy: 2, 195
+  size: 201, 160
+  orig: 280, 280
+  offset: 42, 43
+  index: -1
+effects/skillD/luohui/luohui_000
+  rotate: true
+  xy: 324, 26
+  size: 113, 99
+  orig: 144, 280
+  offset: 6, 159
+  index: -1
+effects/skillD/luohui/luohui_002
+  rotate: false
+  xy: 425, 20
+  size: 99, 134
+  orig: 144, 280
+  offset: 29, 124
+  index: -1
+effects/skillD/shan/shan_002
+  rotate: false
+  xy: 247, 238
+  size: 153, 152
+  orig: 320, 320
+  offset: 83, 84
+  index: -1
+effects/skillD/shan/shanxian_000
+  rotate: false
+  xy: 2, 609
+  size: 205, 205
+  orig: 240, 240
+  offset: 19, 16
+  index: -1
+effects/skillD/shangqi/shangqi_000
+  rotate: true
+  xy: 809, 823
+  size: 102, 156
+  orig: 144, 288
+  offset: 14, 9
+  index: -1
+effects/skillD/shangqi/shangqi_003
+  rotate: true
+  xy: 241, 857
+  size: 83, 277
+  orig: 144, 288
+  offset: 31, 11
+  index: -1
+effects/skillD/shangqi/shangqi_004
+  rotate: true
+  xy: 241, 786
+  size: 69, 277
+  orig: 144, 288
+  offset: 35, 11
+  index: -1
+effects/skillD/sheji/sheji_000
+  rotate: true
+  xy: 432, 422
+  size: 202, 66
+  orig: 336, 101
+  offset: 8, 14
+  index: -1
+effects/skillD/sheji/sheji_004
+  rotate: false
+  xy: 241, 942
+  size: 292, 76
+  orig: 336, 101
+  offset: 36, 14
+  index: -1
+effects/skillD/sheji/sheji_005
+  rotate: false
+  xy: 535, 944
+  size: 275, 74
+  orig: 336, 101
+  offset: 48, 11
+  index: -1
+effects/skillD/sheji/sheji_006
+  rotate: false
+  xy: 209, 705
+  size: 270, 79
+  orig: 336, 101
+  offset: 54, 10
+  index: -1
+effects/skillD/shizhu_000
+  rotate: false
+  xy: 164, 196
+  size: 81, 203
+  orig: 120, 240
+  offset: 20, 16
+  index: -1
+effects/skillD/xuanqi/xuanqi_001
+  rotate: false
+  xy: 163, 29
+  size: 159, 110
+  orig: 192, 192
+  offset: 12, 37
+  index: -1
+effects/skillD/xuanqi/xuanqi_002
+  rotate: true
+  xy: 673, 518
+  size: 159, 110
+  orig: 192, 192
+  offset: 15, 42
+  index: -1
+effects/skillD/xuanqi/xuanqi_003
+  rotate: false
+  xy: 809, 742
+  size: 142, 79
+  orig: 192, 192
+  offset: 32, 54
+  index: -1
+effects/skillD/yan1/yan1_001
+  rotate: true
+  xy: 587, 491
+  size: 186, 84
+  orig: 208, 108
+  offset: 12, 10
+  index: -1
+effects/skillD/yan1/yan1_002
+  rotate: true
+  xy: 500, 487
+  size: 190, 85
+  orig: 208, 108
+  offset: 10, 10
+  index: -1
+effects/skillD/yan1/yan1_003
+  rotate: false
+  xy: 481, 679
+  size: 193, 86
+  orig: 208, 108
+  offset: 9, 9
+  index: -1
+effects/skillD/yan1/yan1_004
+  rotate: false
+  xy: 520, 767
+  size: 196, 87
+  orig: 208, 108
+  offset: 6, 8
+  index: -1
+effects/skillD/yan1/yan1_005
+  rotate: false
+  xy: 535, 856
+  size: 197, 86
+  orig: 208, 108
+  offset: 5, 8
+  index: -1
+effects/skillD/yan3/yan3_020
+  rotate: false
+  xy: 209, 626
+  size: 240, 77
+  orig: 240, 96
+  offset: 0, 4
+  index: -1
+effects/skillD/yan3/yan3_021
+  rotate: true
+  xy: 354, 392
+  size: 232, 76
+  orig: 240, 96
+  offset: 0, 4
+  index: -1
+effects/skillD/yan4/yan4_021
+  rotate: false
+  xy: 812, 927
+  size: 206, 91
+  orig: 240, 120
+  offset: 15, 27
+  index: -1
+effects/skillD/yan4/yan4_022
+  rotate: true
+  xy: 162, 401
+  size: 206, 84
+  orig: 240, 120
+  offset: 15, 34
+  index: -1
+effects/skillD/yanci_000
+  rotate: true
+  xy: 734, 786
+  size: 156, 73
+  orig: 160, 80
+  offset: 2, 1
+  index: -1
+effects/skillD/yanda_000
+  rotate: true
+  xy: 248, 408
+  size: 216, 104
+  orig: 240, 120
+  offset: 10, 6
+  index: -1

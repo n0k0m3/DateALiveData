@@ -1,0 +1,403 @@
+
+effects_10102_skillAAAB.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Effects/AAAB/canying/canying_068
+  rotate: false
+  xy: 876, 334
+  size: 146, 139
+  orig: 180, 180
+  offset: 20, 30
+  index: -1
+Effects/AAAB/canying/canying_070
+  rotate: false
+  xy: 892, 749
+  size: 125, 154
+  orig: 180, 180
+  offset: 16, 9
+  index: -1
+Effects/AAAB/canying/canying_071
+  rotate: false
+  xy: 891, 596
+  size: 119, 151
+  orig: 180, 180
+  offset: 45, 10
+  index: -1
+Effects/AAAB/daxuanjian/daxuanjian_000
+  rotate: true
+  xy: 595, 749
+  size: 273, 295
+  orig: 300, 300
+  offset: 27, 4
+  index: -1
+Effects/AAAB/daxuanjian/daxuanjian_001
+  rotate: false
+  xy: 595, 475
+  size: 294, 272
+  orig: 300, 300
+  offset: 1, 23
+  index: -1
+Effects/AAAB/daxuanjian/daxuanjian_002
+  rotate: false
+  xy: 2, 732
+  size: 300, 290
+  orig: 300, 300
+  offset: 0, 3
+  index: -1
+Effects/AAAB/daxuanjian/daxuanjian_003
+  rotate: false
+  xy: 2, 443
+  size: 297, 287
+  orig: 300, 300
+  offset: 3, 4
+  index: -1
+Effects/AAAB/daxuanjian/daxuanjian_004
+  rotate: false
+  xy: 304, 736
+  size: 289, 286
+  orig: 300, 300
+  offset: 11, 4
+  index: -1
+Effects/AAAB/daxuanjian/daxuanjian_005
+  rotate: false
+  xy: 2, 158
+  size: 289, 283
+  orig: 300, 300
+  offset: 11, 4
+  index: -1
+Effects/AAAB/daxuanjian/daxuanjian_006
+  rotate: false
+  xy: 304, 466
+  size: 288, 268
+  orig: 300, 300
+  offset: 12, 4
+  index: -1
+Effects/AAAB/daxuanjian/daxuanjian_007
+  rotate: false
+  xy: 301, 207
+  size: 288, 257
+  orig: 300, 300
+  offset: 12, 5
+  index: -1
+Effects/AAAB/daxuanjian/daxuanjian_008
+  rotate: false
+  xy: 594, 219
+  size: 280, 254
+  orig: 300, 300
+  offset: 18, 5
+  index: -1
+Effects/tongyong/dabaoqi/dabaoqi_001
+  rotate: false
+  xy: 430, 2
+  size: 202, 203
+  orig: 240, 240
+  offset: 24, 19
+  index: -1
+Effects/tongyong/dabaoqi/dabaoqi_002
+  rotate: false
+  xy: 634, 2
+  size: 211, 215
+  orig: 240, 240
+  offset: 19, 17
+  index: -1
+Effects/tongyong/dabaoshan/dabaoshan_000
+  rotate: false
+  xy: 847, 6
+  size: 172, 172
+  orig: 210, 210
+  offset: 19, 19
+  index: -1
+Effects/tongyong/dabaoshan/dabaoshan_008
+  rotate: true
+  xy: 2, 2
+  size: 154, 145
+  orig: 210, 210
+  offset: 31, 33
+  index: -1
+Effects/tongyong/hudaoguang/hudaoguang_001
+  rotate: true
+  xy: 876, 180
+  size: 152, 143
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+Effects/tongyong/hudaoguang/hudaoguang_003
+  rotate: true
+  xy: 291, 2
+  size: 154, 137
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+Effects/tongyong/hudaoguang/hudaoguang_004
+  rotate: true
+  xy: 149, 2
+  size: 154, 140
+  orig: 154, 154
+  offset: 0, 1
+  index: -1
+Effects/tongyong/shanxian/shanxian_007
+  rotate: false
+  xy: 891, 475
+  size: 126, 119
+  orig: 180, 180
+  offset: 28, 26
+  index: -1
+Effects/tongyong/shanxian/shanxian_008
+  rotate: false
+  xy: 892, 905
+  size: 130, 117
+  orig: 180, 180
+  offset: 25, 27
+  index: -1
+
+effects_10102_skillAAAB2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Effects/AAAB/canying/canying_067
+  rotate: true
+  xy: 408, 2
+  size: 134, 119
+  orig: 180, 180
+  offset: 23, 39
+  index: -1
+Effects/AAAB/canying/canying_072
+  rotate: true
+  xy: 529, 4
+  size: 132, 116
+  orig: 180, 180
+  offset: 26, 33
+  index: -1
+Effects/AAAB/daxuanjian/daxuanjian_009
+  rotate: false
+  xy: 2, 777
+  size: 231, 245
+  orig: 300, 300
+  offset: 41, 7
+  index: -1
+Effects/AAAB/daxuanjian/daxuanjian_010
+  rotate: false
+  xy: 235, 801
+  size: 211, 221
+  orig: 300, 300
+  offset: 55, 31
+  index: -1
+Effects/bai_000
+  rotate: true
+  xy: 944, 143
+  size: 130, 60
+  orig: 130, 60
+  offset: 0, 0
+  index: -1
+Effects/glow_000
+  rotate: false
+  xy: 964, 589
+  size: 58, 58
+  orig: 60, 60
+  offset: 1, 1
+  index: -1
+Effects/guangxian_000
+  rotate: false
+  xy: 425, 138
+  size: 173, 89
+  orig: 180, 90
+  offset: 4, 1
+  index: -1
+Effects/tongyong/dabaoqi/dabaoqi_000
+  rotate: true
+  xy: 862, 837
+  size: 185, 157
+  orig: 240, 240
+  offset: 27, 32
+  index: -1
+Effects/tongyong/dabaoqi/dabaoqi_003
+  rotate: false
+  xy: 2, 552
+  size: 214, 223
+  orig: 240, 240
+  offset: 17, 15
+  index: -1
+Effects/tongyong/dabaoqi/dabaoqi_004
+  rotate: false
+  xy: 2, 348
+  size: 214, 202
+  orig: 240, 240
+  offset: 14, 17
+  index: -1
+Effects/tongyong/dabaoqi/dabaoqi_006
+  rotate: false
+  xy: 235, 605
+  size: 205, 194
+  orig: 240, 240
+  offset: 18, 23
+  index: -1
+Effects/tongyong/dabaoqi/dabaoqi_008
+  rotate: false
+  xy: 218, 205
+  size: 205, 194
+  orig: 240, 240
+  offset: 19, 22
+  index: -1
+Effects/tongyong/dabaoqi/dabaoqi_010
+  rotate: false
+  xy: 448, 822
+  size: 208, 200
+  orig: 240, 240
+  offset: 20, 20
+  index: -1
+Effects/tongyong/dabaoshan/dabaoshan_001
+  rotate: false
+  xy: 421, 410
+  size: 193, 193
+  orig: 210, 210
+  offset: 9, 8
+  index: -1
+Effects/tongyong/dabaoshan/dabaoshan_002
+  rotate: false
+  xy: 206, 3
+  size: 200, 200
+  orig: 210, 210
+  offset: 6, 5
+  index: -1
+Effects/tongyong/dabaoshan/dabaoshan_003
+  rotate: true
+  xy: 658, 821
+  size: 201, 202
+  orig: 210, 210
+  offset: 5, 4
+  index: -1
+Effects/tongyong/dabaoshan/dabaoshan_004
+  rotate: false
+  xy: 2, 144
+  size: 202, 202
+  orig: 210, 210
+  offset: 4, 4
+  index: -1
+Effects/tongyong/dabaoshan/dabaoshan_005
+  rotate: false
+  xy: 218, 401
+  size: 201, 202
+  orig: 210, 210
+  offset: 5, 4
+  index: -1
+Effects/tongyong/dabaoshan/dabaoshan_006
+  rotate: true
+  xy: 448, 621
+  size: 199, 200
+  orig: 210, 210
+  offset: 6, 5
+  index: -1
+Effects/tongyong/dabaoshan/dabaoshan_007
+  rotate: false
+  xy: 650, 623
+  size: 196, 196
+  orig: 210, 210
+  offset: 7, 7
+  index: -1
+Effects/tongyong/hudaoguang/hudaoguang_000
+  rotate: true
+  xy: 605, 190
+  size: 81, 138
+  orig: 154, 154
+  offset: 0, 6
+  index: -1
+Effects/tongyong/hudaoguang/hudaoguang_002
+  rotate: true
+  xy: 647, 34
+  size: 154, 135
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+Effects/tongyong/hudaoguang/hudaoguang_005
+  rotate: false
+  xy: 2, 2
+  size: 153, 140
+  orig: 154, 154
+  offset: 1, 4
+  index: -1
+Effects/tongyong/hudaoguang/hudaoguang_006
+  rotate: false
+  xy: 790, 132
+  size: 152, 141
+  orig: 154, 154
+  offset: 2, 5
+  index: -1
+Effects/tongyong/shanxian/shanxian_000
+  rotate: false
+  xy: 616, 447
+  size: 172, 172
+  orig: 180, 180
+  offset: 4, 4
+  index: -1
+Effects/tongyong/shanxian/shanxian_001
+  rotate: false
+  xy: 790, 449
+  size: 172, 172
+  orig: 180, 180
+  offset: 4, 4
+  index: -1
+Effects/tongyong/shanxian/shanxian_002
+  rotate: false
+  xy: 616, 273
+  size: 172, 172
+  orig: 180, 180
+  offset: 4, 4
+  index: -1
+Effects/tongyong/shanxian/shanxian_003
+  rotate: false
+  xy: 790, 275
+  size: 172, 172
+  orig: 180, 180
+  offset: 4, 4
+  index: -1
+Effects/tongyong/shanxian/shanxian_004
+  rotate: false
+  xy: 848, 649
+  size: 169, 170
+  orig: 180, 180
+  offset: 5, 6
+  index: -1
+Effects/tongyong/shanxian/shanxian_005
+  rotate: false
+  xy: 425, 229
+  size: 178, 179
+  orig: 180, 180
+  offset: 1, 1
+  index: -1
+Effects/tongyong/shanxian/shanxian_006
+  rotate: false
+  xy: 784, 2
+  size: 127, 128
+  orig: 180, 180
+  offset: 25, 24
+  index: -1
+Effects/tongyong/shanxian/shanxian_009
+  rotate: true
+  xy: 913, 2
+  size: 128, 102
+  orig: 180, 180
+  offset: 26, 39
+  index: -1
+
+effects_10102_skillAAAB3.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Effects/AAAB/canying/canying_069
+  rotate: false
+  xy: 2, 92
+  size: 148, 138
+  orig: 180, 180
+  offset: 14, 27
+  index: -1
+Effects/tongyong/shanxian/shanxian_010
+  rotate: false
+  xy: 2, 2
+  size: 108, 88
+  orig: 180, 180
+  offset: 38, 55
+  index: -1

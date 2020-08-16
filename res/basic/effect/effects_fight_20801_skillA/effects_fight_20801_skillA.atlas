@@ -1,0 +1,118 @@
+
+effects_fight_20801_skillA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skillA/baodian/baodian0030
+  rotate: false
+  xy: 132, 367
+  size: 97, 70
+  orig: 350, 245
+  offset: 122, 101
+  index: -1
+effects/skillA/baodian/baodian0031
+  rotate: false
+  xy: 2, 439
+  size: 228, 186
+  orig: 350, 245
+  offset: 52, 37
+  index: -1
+effects/skillA/baodian/baodian0033
+  rotate: false
+  xy: 2, 627
+  size: 239, 194
+  orig: 350, 245
+  offset: 45, 28
+  index: -1
+effects/skillA/baodian/baodian0035
+  rotate: false
+  xy: 2, 823
+  size: 245, 199
+  orig: 350, 245
+  offset: 42, 26
+  index: -1
+effects/skillA/baodian/baodian0037
+  rotate: false
+  xy: 249, 823
+  size: 231, 199
+  orig: 350, 245
+  offset: 50, 27
+  index: -1
+effects/skillA/baodian/baodian0039
+  rotate: false
+  xy: 2, 171
+  size: 126, 131
+  orig: 350, 245
+  offset: 122, 67
+  index: -1
+effects/skillA/baodian/baodian0040
+  rotate: false
+  xy: 611, 890
+  size: 127, 132
+  orig: 350, 245
+  offset: 122, 66
+  index: -1
+effects/skillA/baodian/baodian0042
+  rotate: false
+  xy: 482, 888
+  size: 127, 134
+  orig: 350, 245
+  offset: 123, 65
+  index: -1
+effects/skillA/baodian/baodian0044
+  rotate: false
+  xy: 2, 304
+  size: 128, 133
+  orig: 350, 245
+  offset: 123, 65
+  index: -1
+effects/skillA/she/she0014
+  rotate: false
+  xy: 905, 944
+  size: 80, 78
+  orig: 280, 105
+  offset: 15, 11
+  index: -1
+effects/skillA/she/she0015
+  rotate: false
+  xy: 243, 717
+  size: 182, 104
+  orig: 280, 105
+  offset: 1, 0
+  index: -1
+effects/skillA/she/she0016
+  rotate: false
+  xy: 740, 932
+  size: 163, 90
+  orig: 280, 105
+  offset: 9, 5
+  index: -1
+effects/skillA/she/she0017
+  rotate: false
+  xy: 243, 640
+  size: 155, 75
+  orig: 280, 105
+  offset: 17, 13
+  index: -1
+effects/skillA/she/she0018
+  rotate: true
+  xy: 2, 29
+  size: 140, 66
+  orig: 280, 105
+  offset: 20, 17
+  index: -1
+effects/skillA/she/she0020
+  rotate: true
+  xy: 70, 32
+  size: 137, 56
+  orig: 280, 105
+  offset: 20, 24
+  index: -1
+effects/skillA/zidan/zidan0015
+  rotate: false
+  xy: 70, 2
+  size: 80, 28
+  orig: 105, 105
+  offset: 8, 34
+  index: -1

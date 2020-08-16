@@ -1,0 +1,230 @@
+
+effects_10501_PskillD.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/PskillD/huoyan_add/huoyan_add_00022
+  rotate: false
+  xy: 676, 597
+  size: 110, 67
+  orig: 193, 232
+  offset: 33, 0
+  index: -1
+effect/PskillD/huoyan_add/huoyan_add_00024
+  rotate: false
+  xy: 385, 559
+  size: 155, 102
+  orig: 193, 232
+  offset: 17, 0
+  index: -1
+effect/PskillD/huoyan_add/huoyan_add_00026
+  rotate: false
+  xy: 788, 587
+  size: 168, 114
+  orig: 193, 232
+  offset: 18, 0
+  index: -1
+effect/PskillD/huoyan_add/huoyan_add_00028
+  rotate: true
+  xy: 555, 847
+  size: 175, 189
+  orig: 193, 232
+  offset: 2, 0
+  index: -1
+effect/PskillD/huoyan_add/huoyan_add_00030
+  rotate: false
+  xy: 197, 645
+  size: 186, 203
+  orig: 193, 232
+  offset: 1, 1
+  index: -1
+effect/PskillD/huoyan_add/huoyan_add_00032
+  rotate: false
+  xy: 2, 436
+  size: 186, 204
+  orig: 193, 232
+  offset: 1, 1
+  index: -1
+effect/PskillD/huoyan_add/huoyan_add_00034
+  rotate: false
+  xy: 2, 642
+  size: 193, 206
+  orig: 193, 232
+  offset: 0, 15
+  index: -1
+effect/PskillD/huoyan_add/huoyan_add_00036
+  rotate: false
+  xy: 2, 231
+  size: 179, 203
+  orig: 193, 232
+  offset: 6, 21
+  index: -1
+effect/PskillD/huoyan_add/huoyan_add_00040
+  rotate: false
+  xy: 2, 32
+  size: 179, 197
+  orig: 193, 232
+  offset: 0, 22
+  index: -1
+effect/PskillD/huoyan_normal/huoyan_normal_00022
+  rotate: true
+  xy: 958, 628
+  size: 76, 54
+  orig: 193, 232
+  offset: 51, 5
+  index: -1
+effect/PskillD/huoyan_normal/huoyan_normal_00024
+  rotate: true
+  xy: 927, 901
+  size: 121, 85
+  orig: 193, 232
+  offset: 38, 2
+  index: -1
+effect/PskillD/huoyan_normal/huoyan_normal_00026
+  rotate: true
+  xy: 676, 467
+  size: 128, 96
+  orig: 193, 232
+  offset: 37, 5
+  index: -1
+effect/PskillD/huoyan_normal/huoyan_normal_00028
+  rotate: false
+  xy: 534, 669
+  size: 145, 176
+  orig: 193, 232
+  offset: 20, 3
+  index: -1
+effect/PskillD/huoyan_normal/huoyan_normal_00030
+  rotate: false
+  xy: 385, 663
+  size: 147, 185
+  orig: 193, 232
+  offset: 19, 16
+  index: -1
+effect/PskillD/huoyan_normal/huoyan_normal_00034
+  rotate: true
+  xy: 746, 863
+  size: 159, 179
+  orig: 193, 232
+  offset: 20, 31
+  index: -1
+effect/PskillD/huoyan_normal/huoyan_normal_00036
+  rotate: false
+  xy: 788, 703
+  size: 157, 158
+  orig: 193, 232
+  offset: 22, 56
+  index: -1
+effect/PskillD/huoyan_normal/huoyan_normal_00040
+  rotate: true
+  xy: 542, 522
+  size: 145, 132
+  orig: 193, 232
+  offset: 23, 76
+  index: -1
+effect/PskillD/ring/ring_00029
+  rotate: false
+  xy: 2, 850
+  size: 443, 89
+  orig: 610, 192
+  offset: 79, 57
+  index: -1
+effect/PskillD/ring/ring_00031
+  rotate: false
+  xy: 2, 941
+  size: 551, 81
+  orig: 610, 192
+  offset: 28, 46
+  index: -1
+effect/PskillD/ring2_00029
+  rotate: true
+  xy: 947, 774
+  size: 125, 75
+  orig: 128, 89
+  offset: 2, 4
+  index: -1
+effect/PskillD/ring3_00028
+  rotate: true
+  xy: 681, 666
+  size: 179, 105
+  orig: 180, 109
+  offset: 0, 0
+  index: -1
+effect/PskillD/wuqi/fua_00028
+  rotate: true
+  xy: 774, 517
+  size: 68, 121
+  orig: 68, 121
+  offset: 0, 0
+  index: -1
+effect/PskillD/wuqi/huoyan_00029
+  rotate: false
+  xy: 183, 94
+  size: 47, 53
+  orig: 96, 95
+  offset: 21, 14
+  index: -1
+effect/PskillD/wuqi/huoyan_00031
+  rotate: false
+  xy: 183, 149
+  size: 74, 79
+  orig: 96, 95
+  offset: 9, 7
+  index: -1
+effect/PskillD/wuqi/huoyan_00033
+  rotate: false
+  xy: 447, 853
+  size: 79, 86
+  orig: 96, 95
+  offset: 10, 5
+  index: -1
+effect/PskillD/wuqi/huoyan_00035
+  rotate: true
+  xy: 183, 230
+  size: 81, 67
+  orig: 96, 95
+  offset: 10, 26
+  index: -1
+effect/PskillD/wuqi/huoyan_00037
+  rotate: false
+  xy: 947, 706
+  size: 64, 66
+  orig: 96, 95
+  offset: 14, 24
+  index: -1
+effect/PskillD/wuqi/huoyan_00039
+  rotate: false
+  xy: 960, 466
+  size: 34, 37
+  orig: 96, 95
+  offset: 40, 25
+  index: -1
+effect/PskillD/wuqi/paoa_00027
+  rotate: true
+  xy: 774, 454
+  size: 61, 121
+  orig: 61, 121
+  offset: 0, 0
+  index: -1
+effect/PskillD/wuqi/paoa_00028
+  rotate: false
+  xy: 897, 464
+  size: 61, 121
+  orig: 61, 121
+  offset: 0, 0
+  index: -1
+effect/PskillD/wuqi/paoa_00029
+  rotate: false
+  xy: 960, 505
+  size: 61, 121
+  orig: 61, 121
+  offset: 0, 0
+  index: -1
+effect/PskillD/wuqi/paoa_00030
+  rotate: false
+  xy: 183, 313
+  size: 61, 121
+  orig: 61, 121
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,34 @@
+
+effects_10301_skillC3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/lz/dazhao/pingmu_00013
+  rotate: false
+  xy: 2, 36
+  size: 378, 229
+  orig: 600, 600
+  offset: 75, 279
+  index: -1
+images/effects/lz/dazhao/pingmu_00014
+  rotate: false
+  xy: 450, 576
+  size: 398, 272
+  orig: 600, 600
+  offset: 75, 236
+  index: -1
+images/effects/lz/dazhao/pingmu_00015
+  rotate: false
+  xy: 2, 267
+  size: 422, 280
+  orig: 600, 600
+  offset: 75, 228
+  index: -1
+images/effects/lz/dazhao/pingmu_00016
+  rotate: false
+  xy: 2, 549
+  size: 446, 299
+  orig: 600, 600
+  offset: 75, 209
+  index: -1

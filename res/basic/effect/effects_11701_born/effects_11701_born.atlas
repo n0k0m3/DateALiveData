@@ -1,0 +1,174 @@
+
+effects_11701_born.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/born/lizi/lizi_000
+  rotate: false
+  xy: 413, 408
+  size: 124, 130
+  orig: 160, 160
+  offset: 15, 9
+  index: -1
+effects/born/lizi/lizi_002
+  rotate: true
+  xy: 282, 33
+  size: 129, 130
+  orig: 160, 160
+  offset: 14, 10
+  index: -1
+effects/born/lizi/lizi_004
+  rotate: false
+  xy: 417, 60
+  size: 129, 124
+  orig: 160, 160
+  offset: 18, 11
+  index: -1
+effects/born/lizi/lizi_006
+  rotate: true
+  xy: 282, 164
+  size: 137, 133
+  orig: 160, 160
+  offset: 14, 11
+  index: -1
+effects/born/lizi/lizi_008
+  rotate: false
+  xy: 880, 906
+  size: 142, 116
+  orig: 160, 160
+  offset: 10, 30
+  index: -1
+effects/born/lizi/lizi_010
+  rotate: false
+  xy: 718, 775
+  size: 144, 125
+  orig: 160, 160
+  offset: 10, 26
+  index: -1
+effects/born/lizi/lizi_012
+  rotate: true
+  xy: 417, 186
+  size: 137, 121
+  orig: 160, 160
+  offset: 11, 24
+  index: -1
+effects/born/lizi/lizi_014
+  rotate: true
+  xy: 548, 72
+  size: 121, 117
+  orig: 160, 160
+  offset: 27, 18
+  index: -1
+effects/born/lizi/lizi_016
+  rotate: false
+  xy: 864, 774
+  size: 117, 126
+  orig: 160, 160
+  offset: 22, 13
+  index: -1
+effects/born/lizi/lizi_018
+  rotate: false
+  xy: 540, 195
+  size: 118, 128
+  orig: 160, 160
+  offset: 20, 10
+  index: -1
+effects/born/shunyi/shunyi_000
+  rotate: false
+  xy: 2, 112
+  size: 180, 184
+  orig: 240, 240
+  offset: 30, 28
+  index: -1
+effects/born/shunyi/shunyi_001
+  rotate: false
+  xy: 2, 782
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+effects/born/shunyi/shunyi_002
+  rotate: false
+  xy: 2, 540
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+effects/born/shunyi/shunyi_003
+  rotate: false
+  xy: 244, 782
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+effects/born/shunyi/shunyi_004
+  rotate: false
+  xy: 2, 298
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+effects/born/shunyi/shunyi_005
+  rotate: false
+  xy: 244, 540
+  size: 235, 240
+  orig: 240, 240
+  offset: 3, 0
+  index: -1
+effects/born/shunyi/shunyi_006
+  rotate: false
+  xy: 486, 784
+  size: 230, 238
+  orig: 240, 240
+  offset: 6, 0
+  index: -1
+effects/born/xuanqi/xuanqi_000
+  rotate: false
+  xy: 411, 325
+  size: 133, 81
+  orig: 200, 144
+  offset: 53, 49
+  index: -1
+effects/born/xuanqi/xuanqi_001
+  rotate: false
+  xy: 244, 417
+  size: 167, 121
+  orig: 200, 144
+  offset: 11, 13
+  index: -1
+effects/born/xuanqi/xuanqi_002
+  rotate: false
+  xy: 718, 902
+  size: 160, 120
+  orig: 200, 144
+  offset: 12, 10
+  index: -1
+effects/born/xuanqi/xuanqi_003
+  rotate: false
+  xy: 244, 303
+  size: 165, 112
+  orig: 200, 144
+  offset: 16, 7
+  index: -1
+effects/born/xuanqi/xuanqi_004
+  rotate: false
+  xy: 2, 6
+  size: 160, 104
+  orig: 200, 144
+  offset: 22, 9
+  index: -1
+effects/born/xuanqi/xuanqi_005
+  rotate: true
+  xy: 184, 135
+  size: 161, 96
+  orig: 200, 144
+  offset: 22, 14
+  index: -1
+effects/glow_000
+  rotate: false
+  xy: 184, 53
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,27 @@
+
+effect_yun_19.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+yun
+  rotate: false
+  xy: 2, 382
+  size: 622, 336
+  orig: 622, 336
+  offset: 0, 0
+  index: -1
+yun1
+  rotate: false
+  xy: 2, 720
+  size: 862, 290
+  orig: 862, 290
+  offset: 0, 0
+  index: -1
+yun2
+  rotate: false
+  xy: 2, 1012
+  size: 1334, 324
+  orig: 1334, 324
+  offset: 0, 0
+  index: -1

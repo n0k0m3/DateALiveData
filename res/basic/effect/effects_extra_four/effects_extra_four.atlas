@@ -1,0 +1,34 @@
+
+effects_extra_four.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/diyuan_00004
+  rotate: true
+  xy: 103, 85
+  size: 259, 94
+  orig: 259, 95
+  offset: 0, 0
+  index: -1
+images/guangmu_00000
+  rotate: false
+  xy: 2, 346
+  size: 264, 122
+  orig: 264, 127
+  offset: 0, 0
+  index: -1
+images/kuosanquan_00004
+  rotate: false
+  xy: 268, 399
+  size: 200, 69
+  orig: 206, 72
+  offset: 4, 1
+  index: -1
+images/xianquan_00004
+  rotate: true
+  xy: 2, 65
+  size: 279, 99
+  orig: 279, 105
+  offset: 0, 2
+  index: -1

@@ -1,0 +1,809 @@
+
+effects_22701_skillB.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eff/born/add/dian2_00013
+  rotate: true
+  xy: 589, 3
+  size: 117, 139
+  orig: 150, 192
+  offset: 33, 10
+  index: -1
+eff/born/add/shan_00004
+  rotate: true
+  xy: 701, 965
+  size: 57, 26
+  orig: 62, 29
+  offset: 2, 1
+  index: -1
+eff/born/nor/bao_00004
+  rotate: false
+  xy: 730, 473
+  size: 275, 213
+  orig: 278, 232
+  offset: 3, 12
+  index: -1
+eff/born/nor/bao_00005
+  rotate: true
+  xy: 461, 434
+  size: 276, 217
+  orig: 278, 232
+  offset: 2, 9
+  index: -1
+eff/born/nor/bao_00006
+  rotate: true
+  xy: 241, 432
+  size: 278, 218
+  orig: 278, 232
+  offset: 0, 9
+  index: -1
+eff/born/nor/yan_00005
+  rotate: true
+  xy: 812, 2
+  size: 204, 71
+  orig: 226, 87
+  offset: 12, 6
+  index: -1
+eff/born/nor/yan_00007
+  rotate: false
+  xy: 812, 208
+  size: 209, 73
+  orig: 226, 87
+  offset: 8, 5
+  index: -1
+eff/skillA/add/dian3_00095
+  rotate: false
+  xy: 730, 304
+  size: 76, 61
+  orig: 196, 119
+  offset: 47, 0
+  index: -1
+eff/skillB/add/bao_00021
+  rotate: true
+  xy: 637, 122
+  size: 175, 173
+  orig: 214, 206
+  offset: 10, 7
+  index: -1
+eff/skillB/add/bao_00027
+  rotate: true
+  xy: 680, 584
+  size: 126, 42
+  orig: 214, 206
+  offset: 34, 116
+  index: -1
+eff/skillB/add/dian2_00010
+  rotate: true
+  xy: 637, 299
+  size: 133, 91
+  orig: 174, 142
+  offset: 38, 3
+  index: -1
+eff/skillB/add/dian4_00022
+  rotate: false
+  xy: 730, 856
+  size: 290, 166
+  orig: 290, 174
+  offset: 0, 0
+  index: -1
+eff/skillB/add/dian4_00024
+  rotate: false
+  xy: 730, 688
+  size: 290, 166
+  orig: 290, 174
+  offset: 0, 8
+  index: -1
+eff/skillB/add/dian_00005
+  rotate: false
+  xy: 387, 2
+  size: 200, 116
+  orig: 205, 124
+  offset: 5, 6
+  index: -1
+eff/skillB/add/dianquan_00000
+  rotate: true
+  xy: 2, 110
+  size: 310, 125
+  orig: 310, 125
+  offset: 0, 0
+  index: -1
+eff/skillB/add/dianquan_00002
+  rotate: true
+  xy: 66, 712
+  size: 310, 125
+  orig: 310, 125
+  offset: 0, 0
+  index: -1
+eff/skillB/add/dianquan_00004
+  rotate: true
+  xy: 193, 712
+  size: 310, 125
+  orig: 310, 125
+  offset: 0, 0
+  index: -1
+eff/skillB/add/dianquan_00006
+  rotate: true
+  xy: 129, 118
+  size: 310, 125
+  orig: 310, 125
+  offset: 0, 0
+  index: -1
+eff/skillB/add/dianquan_00008
+  rotate: true
+  xy: 320, 712
+  size: 310, 125
+  orig: 310, 125
+  offset: 0, 0
+  index: -1
+eff/skillB/add/dianquan_00010
+  rotate: true
+  xy: 447, 712
+  size: 310, 125
+  orig: 310, 125
+  offset: 0, 0
+  index: -1
+eff/skillB/add/dianquan_00012
+  rotate: true
+  xy: 256, 120
+  size: 310, 125
+  orig: 310, 125
+  offset: 0, 0
+  index: -1
+eff/skillB/add/dianquan_00014
+  rotate: true
+  xy: 383, 120
+  size: 310, 125
+  orig: 310, 125
+  offset: 0, 0
+  index: -1
+eff/skillB/add/dianquan_00016
+  rotate: true
+  xy: 574, 712
+  size: 310, 125
+  orig: 310, 125
+  offset: 0, 0
+  index: -1
+eff/skillB/add/dianquan_00018
+  rotate: true
+  xy: 510, 122
+  size: 310, 125
+  orig: 310, 125
+  offset: 0, 0
+  index: -1
+eff/skillB/add/dilie_00019
+  rotate: false
+  xy: 812, 283
+  size: 210, 82
+  orig: 210, 90
+  offset: 0, 4
+  index: -1
+eff/skillB/add/qiang_00018
+  rotate: true
+  xy: 66, 425
+  size: 285, 56
+  orig: 293, 59
+  offset: 2, 1
+  index: -1
+eff/skillB/add/shan_00019
+  rotate: false
+  xy: 943, 79
+  size: 79, 67
+  orig: 93, 74
+  offset: 8, 0
+  index: -1
+eff/skillB/nor/dian2_00022
+  rotate: false
+  xy: 180, 3
+  size: 205, 113
+  orig: 227, 135
+  offset: 12, 15
+  index: -1
+eff/skillB/nor/dian2_00025
+  rotate: true
+  xy: 885, 2
+  size: 144, 56
+  orig: 227, 135
+  offset: 70, 67
+  index: -1
+eff/skillB/nor/dian2_00026
+  rotate: false
+  xy: 885, 148
+  size: 136, 58
+  orig: 227, 135
+  offset: 78, 67
+  index: -1
+eff/skillB/nor/dian3_00027
+  rotate: false
+  xy: 2, 3
+  size: 176, 105
+  orig: 264, 159
+  offset: 68, 21
+  index: -1
+eff/skillB/nor/dian_00006
+  rotate: true
+  xy: 680, 478
+  size: 65, 34
+  orig: 142, 109
+  offset: 40, 10
+  index: -1
+eff/skillB/nor/dian_00007
+  rotate: false
+  xy: 943, 14
+  size: 77, 63
+  orig: 142, 109
+  offset: 42, 34
+  index: -1
+eff/skillB/nor/dian_00008
+  rotate: false
+  xy: 680, 545
+  size: 37, 37
+  orig: 142, 109
+  offset: 45, 16
+  index: -1
+eff/skillB/nor/dian_00013
+  rotate: false
+  xy: 730, 43
+  size: 79, 77
+  orig: 142, 109
+  offset: 47, 8
+  index: -1
+eff/skillB/nor/fengdai_00024
+  rotate: false
+  xy: 730, 367
+  size: 274, 104
+  orig: 286, 125
+  offset: 6, 14
+  index: -1
+eff/skillB/nor/fengdai_00026
+  rotate: true
+  xy: 124, 430
+  size: 280, 115
+  orig: 286, 125
+  offset: 6, 7
+  index: -1
+wuqi_mao1
+  rotate: false
+  xy: 2, 422
+  size: 62, 600
+  orig: 62, 600
+  offset: 0, 0
+  index: -1
+
+effects_22701_skillB2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eff/born/add/bao_00000
+  rotate: true
+  xy: 2, 13
+  size: 234, 184
+  orig: 262, 199
+  offset: 18, 7
+  index: -1
+eff/born/add/bao_00001
+  rotate: true
+  xy: 2, 249
+  size: 242, 187
+  orig: 262, 199
+  offset: 13, 5
+  index: -1
+eff/born/add/bao_00002
+  rotate: false
+  xy: 543, 829
+  size: 254, 193
+  orig: 262, 199
+  offset: 5, 2
+  index: -1
+eff/born/add/bao_00003
+  rotate: false
+  xy: 260, 655
+  size: 253, 197
+  orig: 262, 199
+  offset: 6, 0
+  index: -1
+eff/born/add/bao_00004
+  rotate: false
+  xy: 515, 524
+  size: 244, 178
+  orig: 262, 199
+  offset: 6, 19
+  index: -1
+eff/born/add/dian2_00019
+  rotate: true
+  xy: 619, 384
+  size: 138, 140
+  orig: 150, 192
+  offset: 0, 2
+  index: -1
+eff/born/add/dian2_00023
+  rotate: true
+  xy: 679, 301
+  size: 81, 78
+  orig: 150, 192
+  offset: 63, 0
+  index: -1
+eff/born/nor/bao_00002
+  rotate: false
+  xy: 799, 748
+  size: 207, 207
+  orig: 278, 232
+  offset: 55, 11
+  index: -1
+eff/born/nor/bao_00003
+  rotate: false
+  xy: 2, 655
+  size: 256, 205
+  orig: 278, 232
+  offset: 21, 15
+  index: -1
+eff/born/nor/yan_00001
+  rotate: false
+  xy: 341, 592
+  size: 171, 61
+  orig: 226, 87
+  offset: 28, 10
+  index: -1
+eff/born/nor/yan_00009
+  rotate: false
+  xy: 799, 957
+  size: 209, 65
+  orig: 226, 87
+  offset: 6, 5
+  index: -1
+eff/born/nor/yan_00011
+  rotate: true
+  xy: 362, 42
+  size: 205, 58
+  orig: 226, 87
+  offset: 6, 4
+  index: -1
+eff/skillA/nor/dian_00027
+  rotate: true
+  xy: 965, 316
+  size: 175, 55
+  orig: 290, 123
+  offset: 4, 19
+  index: -1
+eff/skillA/nor/dian_00028
+  rotate: true
+  xy: 188, 13
+  size: 234, 69
+  orig: 290, 123
+  offset: 44, 8
+  index: -1
+eff/skillA/nor/dian_00030
+  rotate: false
+  xy: 734, 184
+  size: 174, 94
+  orig: 290, 123
+  offset: 112, 7
+  index: -1
+eff/skillA/nor/dian_00031
+  rotate: true
+  xy: 921, 16
+  size: 165, 99
+  orig: 290, 123
+  offset: 86, 13
+  index: -1
+eff/skillB/add/bao_00020
+  rotate: false
+  xy: 619, 183
+  size: 113, 95
+  orig: 214, 206
+  offset: 25, 20
+  index: -1
+eff/skillB/add/bao_00022
+  rotate: true
+  xy: 422, 44
+  size: 203, 195
+  orig: 214, 206
+  offset: 4, 2
+  index: -1
+eff/skillB/add/bao_00023
+  rotate: false
+  xy: 145, 497
+  size: 194, 156
+  orig: 214, 206
+  offset: 2, 29
+  index: -1
+eff/skillB/add/dian2_00007
+  rotate: false
+  xy: 619, 286
+  size: 58, 96
+  orig: 174, 142
+  offset: 2, 46
+  index: -1
+eff/skillB/add/dian2_00008
+  rotate: false
+  xy: 341, 448
+  size: 168, 142
+  orig: 174, 142
+  offset: 3, 0
+  index: -1
+eff/skillB/add/dian2_00009
+  rotate: true
+  xy: 484, 280
+  size: 166, 133
+  orig: 174, 142
+  offset: 6, 0
+  index: -1
+eff/skillB/add/dian3_00021
+  rotate: false
+  xy: 191, 362
+  size: 146, 133
+  orig: 150, 206
+  offset: 0, 0
+  index: -1
+eff/skillB/add/dian3_00024
+  rotate: true
+  xy: 761, 280
+  size: 109, 201
+  orig: 150, 206
+  offset: 18, 5
+  index: -1
+eff/skillB/add/dian3_00026
+  rotate: false
+  xy: 619, 3
+  size: 102, 178
+  orig: 150, 206
+  offset: 21, 12
+  index: -1
+eff/skillB/add/dian4_00020
+  rotate: false
+  xy: 273, 854
+  size: 268, 168
+  orig: 290, 174
+  offset: 22, 0
+  index: -1
+eff/skillB/add/dian4_00026
+  rotate: false
+  xy: 2, 862
+  size: 269, 160
+  orig: 290, 174
+  offset: 21, 0
+  index: -1
+eff/skillB/add/dian4_00028
+  rotate: false
+  xy: 761, 493
+  size: 244, 128
+  orig: 290, 174
+  offset: 46, 1
+  index: -1
+eff/skillB/add/dian_00004
+  rotate: false
+  xy: 339, 362
+  size: 72, 84
+  orig: 205, 124
+  offset: 5, 40
+  index: -1
+eff/skillB/add/dian_00008
+  rotate: true
+  xy: 2, 494
+  size: 159, 74
+  orig: 205, 124
+  offset: 46, 8
+  index: -1
+eff/skillB/nor/dian2_00021
+  rotate: false
+  xy: 910, 210
+  size: 52, 68
+  orig: 227, 135
+  offset: 8, 8
+  index: -1
+eff/skillB/nor/dian2_00023
+  rotate: false
+  xy: 191, 249
+  size: 200, 111
+  orig: 227, 135
+  offset: 16, 19
+  index: -1
+eff/skillB/nor/dian2_00024
+  rotate: true
+  xy: 78, 494
+  size: 159, 65
+  orig: 227, 135
+  offset: 58, 63
+  index: -1
+eff/skillB/nor/dian2_00027
+  rotate: true
+  xy: 964, 183
+  size: 131, 58
+  orig: 227, 135
+  offset: 82, 67
+  index: -1
+eff/skillB/nor/dian3_00021
+  rotate: true
+  xy: 723, 3
+  size: 178, 93
+  orig: 264, 159
+  offset: 50, 29
+  index: -1
+eff/skillB/nor/dian3_00023
+  rotate: false
+  xy: 761, 391
+  size: 202, 100
+  orig: 264, 159
+  offset: 28, 21
+  index: -1
+eff/skillB/nor/dian3_00025
+  rotate: true
+  xy: 259, 42
+  size: 205, 101
+  orig: 264, 159
+  offset: 16, 30
+  index: -1
+eff/skillB/nor/dian_00015
+  rotate: false
+  xy: 511, 453
+  size: 54, 69
+  orig: 142, 109
+  offset: 43, 18
+  index: -1
+eff/skillB/nor/dilie_00019
+  rotate: true
+  xy: 413, 249
+  size: 197, 69
+  orig: 202, 75
+  offset: 1, 2
+  index: -1
+eff/skillB/nor/fengdai_00023
+  rotate: true
+  xy: 818, 4
+  size: 177, 101
+  orig: 286, 125
+  offset: 16, 14
+  index: -1
+eff/skillB/nor/fengdai_00027
+  rotate: false
+  xy: 768, 623
+  size: 249, 123
+  orig: 286, 125
+  offset: 37, 0
+  index: -1
+eff/skillB/nor/fengdai_00029
+  rotate: false
+  xy: 515, 704
+  size: 251, 123
+  orig: 286, 125
+  offset: 35, 0
+  index: -1
+
+effects_22701_skillB3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eff/born/add/dian2_00012
+  rotate: false
+  xy: 517, 588
+  size: 86, 119
+  orig: 150, 192
+  offset: 0, 31
+  index: -1
+eff/born/add/dian2_00014
+  rotate: true
+  xy: 605, 556
+  size: 85, 86
+  orig: 150, 192
+  offset: 10, 60
+  index: -1
+eff/born/add/dian2_00015
+  rotate: true
+  xy: 194, 888
+  size: 134, 186
+  orig: 150, 192
+  offset: 16, 0
+  index: -1
+eff/born/add/dian2_00017
+  rotate: false
+  xy: 2, 674
+  size: 132, 192
+  orig: 150, 192
+  offset: 2, 0
+  index: -1
+eff/born/add/dian2_00021
+  rotate: false
+  xy: 202, 583
+  size: 128, 107
+  orig: 150, 192
+  offset: 12, 40
+  index: -1
+eff/born/add/dian2_00025
+  rotate: false
+  xy: 381, 709
+  size: 123, 116
+  orig: 150, 192
+  offset: 11, 3
+  index: -1
+eff/born/add/dian2_00027
+  rotate: false
+  xy: 2, 140
+  size: 108, 149
+  orig: 150, 192
+  offset: 14, 21
+  index: -1
+eff/born/add/dian2_00029
+  rotate: false
+  xy: 408, 597
+  size: 107, 110
+  orig: 150, 192
+  offset: 15, 82
+  index: -1
+eff/born/add/dian2_00031
+  rotate: false
+  xy: 605, 643
+  size: 86, 93
+  orig: 150, 192
+  offset: 16, 99
+  index: -1
+eff/born/nor/yan_00003
+  rotate: false
+  xy: 584, 952
+  size: 200, 70
+  orig: 226, 87
+  offset: 15, 7
+  index: -1
+eff/skillA/add/dian3_00089
+  rotate: false
+  xy: 202, 509
+  size: 128, 72
+  orig: 196, 119
+  offset: 0, 37
+  index: -1
+eff/skillA/add/dian3_00090
+  rotate: false
+  xy: 213, 692
+  size: 166, 85
+  orig: 196, 119
+  offset: 24, 34
+  index: -1
+eff/skillA/add/dian3_00092
+  rotate: true
+  xy: 2, 10
+  size: 128, 109
+  orig: 196, 119
+  offset: 68, 10
+  index: -1
+eff/skillA/add/dian3_00093
+  rotate: false
+  xy: 193, 394
+  size: 121, 113
+  orig: 196, 119
+  offset: 51, 0
+  index: -1
+eff/skillA/nor/dian_00033
+  rotate: false
+  xy: 597, 738
+  size: 88, 50
+  orig: 290, 123
+  offset: 82, 67
+  index: -1
+eff/skillB/add/bao_00024
+  rotate: false
+  xy: 2, 868
+  size: 190, 154
+  orig: 214, 206
+  offset: 1, 38
+  index: -1
+eff/skillB/add/bao_00025
+  rotate: true
+  xy: 2, 291
+  size: 188, 113
+  orig: 214, 206
+  offset: 0, 79
+  index: -1
+eff/skillB/add/bao_00026
+  rotate: false
+  xy: 382, 827
+  size: 152, 85
+  orig: 214, 206
+  offset: 34, 107
+  index: -1
+eff/skillB/add/dian2_00011
+  rotate: true
+  xy: 934, 840
+  size: 121, 88
+  orig: 174, 142
+  offset: 47, 2
+  index: -1
+eff/skillB/add/dian2_00012
+  rotate: true
+  xy: 506, 709
+  size: 116, 89
+  orig: 174, 142
+  offset: 52, 2
+  index: -1
+eff/skillB/add/dian2_00013
+  rotate: false
+  xy: 597, 790
+  size: 111, 85
+  orig: 174, 142
+  offset: 57, 4
+  index: -1
+eff/skillB/add/dian3_00020
+  rotate: false
+  xy: 213, 779
+  size: 150, 107
+  orig: 150, 206
+  offset: 0, 0
+  index: -1
+eff/skillB/add/dian3_00022
+  rotate: false
+  xy: 2, 481
+  size: 124, 191
+  orig: 150, 206
+  offset: 11, 4
+  index: -1
+eff/skillB/add/dian3_00028
+  rotate: true
+  xy: 786, 871
+  size: 90, 146
+  orig: 150, 206
+  offset: 25, 22
+  index: -1
+eff/skillB/add/dian_00006
+  rotate: false
+  xy: 382, 914
+  size: 200, 108
+  orig: 205, 124
+  offset: 5, 5
+  index: -1
+eff/skillB/add/dian_00007
+  rotate: true
+  xy: 136, 698
+  size: 168, 75
+  orig: 205, 124
+  offset: 37, 9
+  index: -1
+eff/skillB/add/dian_00009
+  rotate: true
+  xy: 117, 327
+  size: 152, 74
+  orig: 205, 124
+  offset: 53, 8
+  index: -1
+eff/skillB/add/dian_00010
+  rotate: true
+  xy: 128, 530
+  size: 142, 72
+  orig: 205, 124
+  offset: 63, 10
+  index: -1
+eff/skillB/add/guang_00007
+  rotate: false
+  xy: 332, 498
+  size: 62, 62
+  orig: 80, 79
+  offset: 8, 9
+  index: -1
+eff/skillB/nor/dian_00009
+  rotate: false
+  xy: 193, 319
+  size: 124, 73
+  orig: 142, 109
+  offset: 10, 24
+  index: -1
+eff/skillB/nor/dian_00011
+  rotate: true
+  xy: 332, 562
+  size: 128, 74
+  orig: 142, 109
+  offset: 4, 11
+  index: -1
+eff/skillB/nor/fengdai_00021
+  rotate: false
+  xy: 584, 877
+  size: 168, 73
+  orig: 286, 125
+  offset: 30, 15
+  index: -1
+eff/skillB/nor/qiliu_00019
+  rotate: false
+  xy: 786, 963
+  size: 185, 59
+  orig: 196, 71
+  offset: 5, 6
+  index: -1

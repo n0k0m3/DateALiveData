@@ -1,0 +1,90 @@
+
+effect_anjian.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+kuang_00000
+  rotate: false
+  xy: 180, 446
+  size: 116, 116
+  orig: 200, 200
+  offset: 42, 44
+  index: -1
+xulie/kuang_00000
+  rotate: false
+  xy: 193, 766
+  size: 190, 176
+  orig: 200, 200
+  offset: 6, 13
+  index: -1
+xulie/kuang_00001
+  rotate: true
+  xy: 2, 2
+  size: 177, 156
+  orig: 200, 200
+  offset: 17, 22
+  index: -1
+xulie/kuang_00002
+  rotate: true
+  xy: 160, 16
+  size: 163, 156
+  orig: 200, 200
+  offset: 14, 22
+  index: -1
+xulie/kuang_00003
+  rotate: false
+  xy: 575, 774
+  size: 187, 168
+  orig: 200, 200
+  offset: 6, 17
+  index: -1
+xulie/kuang_00004
+  rotate: false
+  xy: 2, 564
+  size: 188, 188
+  orig: 200, 200
+  offset: 6, 7
+  index: -1
+xulie/kuang_00005
+  rotate: false
+  xy: 2, 372
+  size: 176, 190
+  orig: 200, 200
+  offset: 9, 6
+  index: -1
+xulie/kuang_00006
+  rotate: true
+  xy: 764, 791
+  size: 151, 173
+  orig: 200, 200
+  offset: 25, 15
+  index: -1
+xulie/kuang_00007
+  rotate: true
+  xy: 764, 638
+  size: 151, 166
+  orig: 200, 200
+  offset: 25, 18
+  index: -1
+xulie/kuang_00008
+  rotate: true
+  xy: 385, 766
+  size: 176, 188
+  orig: 200, 200
+  offset: 12, 7
+  index: -1
+xulie/kuang_00009
+  rotate: false
+  xy: 2, 754
+  size: 189, 188
+  orig: 200, 200
+  offset: 6, 7
+  index: -1
+xulie/kuang_00010
+  rotate: true
+  xy: 2, 181
+  size: 189, 172
+  orig: 200, 200
+  offset: 6, 15
+  index: -1

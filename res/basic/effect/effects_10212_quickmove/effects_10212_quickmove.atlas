@@ -1,0 +1,104 @@
+
+effects_10212_quickmove.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/quickmove/chuanci/chuanci_001
+  rotate: false
+  xy: 2, 288
+  size: 282, 64
+  orig: 298, 125
+  offset: 0, 37
+  index: -1
+effect/quickmove/chuanci/chuanci_003
+  rotate: false
+  xy: 2, 222
+  size: 270, 64
+  orig: 298, 125
+  offset: 7, 37
+  index: -1
+effect/quickmove/chuanci/chuanci_007
+  rotate: false
+  xy: 2, 159
+  size: 255, 61
+  orig: 298, 125
+  offset: 15, 38
+  index: -1
+effect/quickmove/chuanci/chuanci_010
+  rotate: false
+  xy: 2, 114
+  size: 260, 43
+  orig: 298, 125
+  offset: 16, 48
+  index: -1
+effect/quickmove/chuanci/chuanci_012
+  rotate: false
+  xy: 2, 75
+  size: 253, 37
+  orig: 298, 125
+  offset: 16, 49
+  index: -1
+effect/quickmove/chuanci/chuanci_014
+  rotate: false
+  xy: 259, 169
+  size: 181, 30
+  orig: 298, 125
+  offset: 28, 56
+  index: -1
+effect/quickmove/chuanci/guang_00001
+  rotate: false
+  xy: 2, 425
+  size: 297, 83
+  orig: 298, 125
+  offset: 1, 26
+  index: -1
+effect/quickmove/chuanci/guang_00003
+  rotate: false
+  xy: 2, 354
+  size: 292, 69
+  orig: 298, 125
+  offset: 6, 30
+  index: -1
+effect/quickmove/chuanci/guang_00005
+  rotate: false
+  xy: 274, 201
+  size: 188, 75
+  orig: 298, 125
+  offset: 36, 29
+  index: -1
+effect/quickmove/chuanci/guang_00007
+  rotate: false
+  xy: 301, 432
+  size: 189, 76
+  orig: 298, 125
+  offset: 34, 29
+  index: -1
+effect/quickmove/chuanci/guang_00009
+  rotate: false
+  xy: 301, 354
+  size: 189, 76
+  orig: 298, 125
+  offset: 32, 30
+  index: -1
+effect/quickmove/chuanci/guang_00011
+  rotate: false
+  xy: 286, 278
+  size: 190, 74
+  orig: 298, 125
+  offset: 30, 31
+  index: -1
+effect/quickmove/chuanci/guang_00013
+  rotate: false
+  xy: 2, 2
+  size: 188, 71
+  orig: 298, 125
+  offset: 30, 34
+  index: -1
+effect/quickmove/juese_001
+  rotate: true
+  xy: 264, 87
+  size: 80, 100
+  orig: 101, 123
+  offset: 13, 7
+  index: -1

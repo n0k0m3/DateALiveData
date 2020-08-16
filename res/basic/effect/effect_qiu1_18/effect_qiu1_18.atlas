@@ -1,0 +1,20 @@
+
+effect_qiu1_18.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shanguang_001
+  rotate: false
+  xy: 2, 212
+  size: 664, 640
+  orig: 664, 640
+  offset: 0, 0
+  index: -1
+xiaoyuan_00000
+  rotate: false
+  xy: 2, 2
+  size: 217, 208
+  orig: 217, 208
+  offset: 0, 0
+  index: -1

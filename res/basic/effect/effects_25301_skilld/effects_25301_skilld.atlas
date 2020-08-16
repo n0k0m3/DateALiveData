@@ -1,0 +1,466 @@
+
+effects_25301_skilld.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skilld_bingzhen10
+  rotate: true
+  xy: 2, 219
+  size: 438, 176
+  orig: 443, 193
+  offset: 2, 0
+  index: -1
+skilld_bingzhen11
+  rotate: false
+  xy: 2, 850
+  size: 443, 172
+  orig: 443, 193
+  offset: 0, 0
+  index: -1
+skilld_bingzhen15
+  rotate: false
+  xy: 371, 299
+  size: 339, 81
+  orig: 443, 193
+  offset: 50, 0
+  index: -1
+skilld_bingzhen6
+  rotate: false
+  xy: 429, 634
+  size: 394, 193
+  orig: 443, 193
+  offset: 24, 0
+  index: -1
+skilld_bingzhen7
+  rotate: false
+  xy: 447, 829
+  size: 406, 193
+  orig: 443, 193
+  offset: 18, 0
+  index: -1
+skilld_bingzhen8
+  rotate: true
+  xy: 180, 240
+  size: 417, 189
+  orig: 443, 193
+  offset: 12, 0
+  index: -1
+skilld_bingzhen9
+  rotate: false
+  xy: 2, 659
+  size: 425, 189
+  orig: 443, 193
+  offset: 9, 0
+  index: -1
+skilld_dangebing4
+  rotate: true
+  xy: 2, 2
+  size: 215, 274
+  orig: 216, 274
+  offset: 1, 0
+  index: -1
+skilld_dangebing5
+  rotate: false
+  xy: 611, 29
+  size: 215, 268
+  orig: 216, 274
+  offset: 1, 0
+  index: -1
+skilld_kuosan
+  rotate: false
+  xy: 371, 241
+  size: 233, 56
+  orig: 234, 56
+  offset: 1, 0
+  index: -1
+xuehuamanyan_00000
+  rotate: false
+  xy: 722, 603
+  size: 99, 29
+  orig: 172, 101
+  offset: 31, 24
+  index: -1
+xuehuamanyan_00001
+  rotate: false
+  xy: 828, 7
+  size: 118, 34
+  orig: 172, 101
+  offset: 33, 22
+  index: -1
+xulishanguang1
+  rotate: true
+  xy: 825, 594
+  size: 159, 197
+  orig: 351, 280
+  offset: 93, 43
+  index: -1
+xulishanguang11
+  rotate: false
+  xy: 278, 2
+  size: 331, 236
+  orig: 351, 280
+  offset: 10, 23
+  index: -1
+xulishanguang14
+  rotate: false
+  xy: 371, 382
+  size: 349, 250
+  orig: 351, 280
+  offset: 2, 16
+  index: -1
+xulishanguang16
+  rotate: true
+  xy: 855, 755
+  size: 267, 166
+  orig: 351, 280
+  offset: 40, 44
+  index: -1
+xulishanguang17
+  rotate: true
+  xy: 828, 43
+  size: 267, 165
+  orig: 351, 280
+  offset: 40, 45
+  index: -1
+xulishanguang8
+  rotate: false
+  xy: 722, 312
+  size: 291, 280
+  orig: 351, 280
+  offset: 39, 0
+  index: -1
+
+effects_25301_skilld2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skilld_bingzhen1
+  rotate: true
+  xy: 343, 8
+  size: 265, 94
+  orig: 443, 193
+  offset: 90, 0
+  index: -1
+skilld_bingzhen12
+  rotate: false
+  xy: 346, 428
+  size: 339, 160
+  orig: 443, 193
+  offset: 50, 0
+  index: -1
+skilld_bingzhen13
+  rotate: false
+  xy: 346, 275
+  size: 339, 151
+  orig: 443, 193
+  offset: 50, 0
+  index: -1
+skilld_bingzhen14
+  rotate: false
+  xy: 2, 278
+  size: 339, 141
+  orig: 443, 193
+  offset: 50, 0
+  index: -1
+skilld_bingzhen16
+  rotate: false
+  xy: 2, 195
+  size: 339, 81
+  orig: 443, 193
+  offset: 50, 0
+  index: -1
+skilld_bingzhen2
+  rotate: false
+  xy: 707, 636
+  size: 315, 142
+  orig: 443, 193
+  offset: 74, 0
+  index: -1
+skilld_bingzhen3
+  rotate: false
+  xy: 2, 664
+  size: 359, 171
+  orig: 443, 193
+  offset: 42, 0
+  index: -1
+skilld_bingzhen4
+  rotate: false
+  xy: 386, 837
+  size: 370, 185
+  orig: 443, 193
+  offset: 36, 0
+  index: -1
+skilld_bingzhen5
+  rotate: false
+  xy: 2, 837
+  size: 382, 185
+  orig: 443, 193
+  offset: 30, 0
+  index: -1
+skilld_dangebing1
+  rotate: false
+  xy: 656, 5
+  size: 215, 156
+  orig: 216, 274
+  offset: 0, 0
+  index: -1
+skilld_dangebing3
+  rotate: false
+  xy: 439, 12
+  size: 215, 261
+  orig: 216, 274
+  offset: 1, 0
+  index: -1
+xuehuamanyan_00015
+  rotate: true
+  xy: 707, 793
+  size: 42, 47
+  orig: 172, 101
+  offset: 79, 41
+  index: -1
+xulishanguang10
+  rotate: false
+  xy: 687, 163
+  size: 320, 231
+  orig: 351, 280
+  offset: 16, 26
+  index: -1
+xulishanguang12
+  rotate: false
+  xy: 2, 421
+  size: 342, 241
+  orig: 351, 280
+  offset: 5, 21
+  index: -1
+xulishanguang13
+  rotate: false
+  xy: 363, 590
+  size: 342, 245
+  orig: 351, 280
+  offset: 5, 19
+  index: -1
+xulishanguang15
+  rotate: false
+  xy: 707, 396
+  size: 265, 238
+  orig: 351, 280
+  offset: 41, 23
+  index: -1
+xulishanguang2
+  rotate: true
+  xy: 2, 6
+  size: 187, 164
+  orig: 351, 280
+  offset: 75, 45
+  index: -1
+xulishanguang3
+  rotate: true
+  xy: 168, 54
+  size: 139, 166
+  orig: 351, 280
+  offset: 111, 68
+  index: -1
+xulishanguang5
+  rotate: false
+  xy: 873, 43
+  size: 127, 118
+  orig: 351, 280
+  offset: 116, 80
+  index: -1
+xulishanguang9
+  rotate: false
+  xy: 758, 780
+  size: 261, 242
+  orig: 351, 280
+  offset: 48, 20
+  index: -1
+
+effects_25301_skilld3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ggg
+  rotate: false
+  xy: 2, 44
+  size: 110, 111
+  orig: 130, 130
+  offset: 9, 10
+  index: -1
+skilld_bingzhen17
+  rotate: false
+  xy: 438, 941
+  size: 339, 81
+  orig: 443, 193
+  offset: 50, 0
+  index: -1
+skilld_bingzhen18
+  rotate: false
+  xy: 438, 858
+  size: 339, 81
+  orig: 443, 193
+  offset: 50, 0
+  index: -1
+skilld_bingzhen19
+  rotate: false
+  xy: 438, 776
+  size: 337, 80
+  orig: 443, 193
+  offset: 51, 1
+  index: -1
+skilld_dangebing2
+  rotate: false
+  xy: 2, 783
+  size: 215, 239
+  orig: 216, 274
+  offset: 1, 0
+  index: -1
+skilld_dangebing6
+  rotate: false
+  xy: 2, 542
+  size: 215, 239
+  orig: 216, 274
+  offset: 1, 0
+  index: -1
+skilld_dangebing7
+  rotate: false
+  xy: 2, 334
+  size: 215, 206
+  orig: 216, 274
+  offset: 1, 0
+  index: -1
+skilld_dangebing8
+  rotate: false
+  xy: 219, 599
+  size: 215, 206
+  orig: 216, 274
+  offset: 1, 0
+  index: -1
+skilld_dangebing9
+  rotate: false
+  xy: 436, 697
+  size: 215, 77
+  orig: 216, 274
+  offset: 1, 0
+  index: -1
+xuehuamanyan_00002
+  rotate: true
+  xy: 375, 476
+  size: 121, 55
+  orig: 172, 101
+  offset: 34, 22
+  index: -1
+xuehuamanyan_00003
+  rotate: false
+  xy: 653, 706
+  size: 116, 68
+  orig: 172, 101
+  offset: 40, 21
+  index: -1
+xuehuamanyan_00004
+  rotate: false
+  xy: 219, 368
+  size: 117, 72
+  orig: 172, 101
+  offset: 40, 21
+  index: -1
+xuehuamanyan_00005
+  rotate: false
+  xy: 436, 623
+  size: 113, 72
+  orig: 172, 101
+  offset: 44, 21
+  index: -1
+xuehuamanyan_00006
+  rotate: true
+  xy: 943, 909
+  size: 113, 73
+  orig: 172, 101
+  offset: 44, 21
+  index: -1
+xuehuamanyan_00007
+  rotate: false
+  xy: 551, 620
+  size: 102, 75
+  orig: 172, 101
+  offset: 56, 19
+  index: -1
+xuehuamanyan_00008
+  rotate: false
+  xy: 655, 630
+  size: 100, 74
+  orig: 172, 101
+  offset: 56, 22
+  index: -1
+xuehuamanyan_00009
+  rotate: true
+  xy: 114, 72
+  size: 83, 76
+  orig: 172, 101
+  offset: 75, 19
+  index: -1
+xuehuamanyan_00010
+  rotate: false
+  xy: 178, 178
+  size: 74, 74
+  orig: 172, 101
+  offset: 86, 23
+  index: -1
+xuehuamanyan_00011
+  rotate: true
+  xy: 178, 254
+  size: 78, 64
+  orig: 172, 101
+  offset: 85, 31
+  index: -1
+xuehuamanyan_00012
+  rotate: false
+  xy: 338, 373
+  size: 59, 67
+  orig: 172, 101
+  offset: 85, 33
+  index: -1
+xuehuamanyan_00013
+  rotate: false
+  xy: 114, 2
+  size: 70, 68
+  orig: 172, 101
+  offset: 87, 32
+  index: -1
+xuehuamanyan_00014
+  rotate: false
+  xy: 192, 104
+  size: 62, 72
+  orig: 172, 101
+  offset: 84, 28
+  index: -1
+xuerenying_00001
+  rotate: false
+  xy: 779, 891
+  size: 162, 131
+  orig: 162, 131
+  offset: 0, 0
+  index: -1
+xulishanguang4
+  rotate: false
+  xy: 219, 442
+  size: 154, 155
+  orig: 351, 280
+  offset: 97, 66
+  index: -1
+xulishanguang6
+  rotate: false
+  xy: 2, 157
+  size: 174, 175
+  orig: 351, 280
+  offset: 89, 56
+  index: -1
+xulishanguang7
+  rotate: false
+  xy: 219, 807
+  size: 217, 215
+  orig: 351, 280
+  offset: 66, 34
+  index: -1

@@ -1,0 +1,46 @@
+
+11wanjudian_texiao.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow_00000
+  rotate: false
+  xy: 170, 170
+  size: 84, 84
+  orig: 84, 84
+  offset: 0, 0
+  index: -1
+yangguang_00000
+  rotate: false
+  xy: 2, 48
+  size: 166, 206
+  orig: 166, 206
+  offset: 0, 0
+  index: -1
+
+11wanjudian_texiao2.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dengguang_00030
+  rotate: false
+  xy: 2, 2
+  size: 161, 210
+  orig: 161, 210
+  offset: 0, 0
+  index: -1
+
+11wanjudian_texiao3.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow_00060
+  rotate: false
+  xy: 2, 35
+  size: 159, 126
+  orig: 159, 126
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,174 @@
+
+effects_11207_dodge.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/dodge/baodian/00024
+  rotate: false
+  xy: 2, 784
+  size: 220, 217
+  orig: 230, 223
+  offset: 5, 2
+  index: -1
+images/effects/dodge/baodian/00025
+  rotate: false
+  xy: 2, 577
+  size: 202, 205
+  orig: 230, 223
+  offset: 16, 2
+  index: -1
+images/effects/dodge/baodian/00026
+  rotate: false
+  xy: 224, 834
+  size: 193, 167
+  orig: 230, 223
+  offset: 21, 25
+  index: -1
+images/effects/dodge/baodian/00027
+  rotate: false
+  xy: 2, 237
+  size: 171, 168
+  orig: 230, 223
+  offset: 19, 26
+  index: -1
+images/effects/dodge/baodian/00028
+  rotate: false
+  xy: 2, 407
+  size: 181, 168
+  orig: 230, 223
+  offset: 17, 26
+  index: -1
+images/effects/dodge/baodian/00029
+  rotate: false
+  xy: 2, 67
+  size: 170, 168
+  orig: 230, 223
+  offset: 22, 26
+  index: -1
+images/effects/dodge/baodian/00030
+  rotate: false
+  xy: 419, 838
+  size: 164, 163
+  orig: 230, 223
+  offset: 26, 31
+  index: -1
+images/effects/dodge/baodian/00031
+  rotate: false
+  xy: 585, 841
+  size: 159, 160
+  orig: 230, 223
+  offset: 31, 34
+  index: -1
+images/effects/dodge/baodian/00032
+  rotate: false
+  xy: 206, 616
+  size: 153, 151
+  orig: 230, 223
+  offset: 36, 40
+  index: -1
+images/effects/dodge/baodian/00033
+  rotate: false
+  xy: 423, 702
+  size: 143, 134
+  orig: 230, 223
+  offset: 46, 48
+  index: -1
+images/effects/dodge/baodian/00034
+  rotate: false
+  xy: 423, 576
+  size: 138, 124
+  orig: 230, 223
+  offset: 49, 54
+  index: -1
+images/effects/dodge/baodian/00035
+  rotate: false
+  xy: 421, 455
+  size: 126, 119
+  orig: 230, 223
+  offset: 60, 54
+  index: -1
+images/effects/dodge/baodian/00036
+  rotate: true
+  xy: 312, 471
+  size: 111, 107
+  orig: 230, 223
+  offset: 71, 63
+  index: -1
+images/effects/dodge/dimian/00026
+  rotate: false
+  xy: 746, 926
+  size: 230, 75
+  orig: 238, 81
+  offset: 2, 3
+  index: -1
+images/effects/dodge/dimian/00027
+  rotate: false
+  xy: 746, 858
+  size: 195, 66
+  orig: 238, 81
+  offset: 20, 8
+  index: -1
+images/effects/dodge/dimian/00028
+  rotate: false
+  xy: 224, 769
+  size: 191, 63
+  orig: 238, 81
+  offset: 21, 10
+  index: -1
+images/effects/dodge/dimian/00029
+  rotate: false
+  xy: 746, 796
+  size: 191, 60
+  orig: 238, 81
+  offset: 21, 12
+  index: -1
+images/effects/dodge/dimian/00030
+  rotate: true
+  xy: 361, 584
+  size: 183, 60
+  orig: 238, 81
+  offset: 25, 10
+  index: -1
+images/effects/dodge/dimian/00031
+  rotate: true
+  xy: 174, 68
+  size: 166, 62
+  orig: 238, 81
+  offset: 33, 9
+  index: -1
+images/effects/dodge/dimian/00032
+  rotate: true
+  xy: 185, 407
+  size: 168, 63
+  orig: 238, 81
+  offset: 31, 8
+  index: -1
+images/effects/dodge/dimian/00033
+  rotate: false
+  xy: 2, 2
+  size: 169, 63
+  orig: 238, 81
+  offset: 30, 8
+  index: -1
+images/effects/dodge/dimian/00034
+  rotate: true
+  xy: 175, 236
+  size: 169, 62
+  orig: 238, 81
+  offset: 30, 9
+  index: -1
+images/effects/dodge/dimian/00035
+  rotate: true
+  xy: 250, 448
+  size: 166, 60
+  orig: 238, 81
+  offset: 30, 10
+  index: -1
+images/effects/dodge/dimian/00036
+  rotate: true
+  xy: 250, 448
+  size: 166, 60
+  orig: 238, 81
+  offset: 30, 10
+  index: -1

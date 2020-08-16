@@ -1,0 +1,13 @@
+
+effects_20301_skillA1.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/feixing_00014
+  rotate: false
+  xy: 2, 121
+  size: 146, 27
+  orig: 155, 42
+  offset: 0, 7
+  index: -1

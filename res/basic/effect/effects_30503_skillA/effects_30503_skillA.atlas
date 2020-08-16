@@ -1,0 +1,390 @@
+
+effects_30503_skillA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skilla/boom/boom_000
+  rotate: false
+  xy: 2, 822
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+effect/skilla/boom/boom_001
+  rotate: false
+  xy: 456, 653
+  size: 192, 192
+  orig: 200, 200
+  offset: 4, 4
+  index: -1
+effect/skilla/boom/boom_002
+  rotate: false
+  xy: 650, 672
+  size: 187, 178
+  orig: 200, 200
+  offset: 6, 10
+  index: -1
+effect/skilla/boom/boom_003
+  rotate: false
+  xy: 650, 497
+  size: 187, 173
+  orig: 200, 200
+  offset: 6, 10
+  index: -1
+effect/skilla/boom/boom_004
+  rotate: false
+  xy: 839, 664
+  size: 183, 173
+  orig: 200, 200
+  offset: 8, 10
+  index: -1
+effect/skilla/boom/boom_005
+  rotate: true
+  xy: 851, 839
+  size: 183, 171
+  orig: 200, 200
+  offset: 8, 10
+  index: -1
+effect/skilla/boom/boom_006
+  rotate: false
+  xy: 839, 493
+  size: 181, 169
+  orig: 200, 200
+  offset: 9, 10
+  index: -1
+effect/skilla/boom/boom_007
+  rotate: true
+  xy: 175, 15
+  size: 181, 169
+  orig: 200, 200
+  offset: 9, 10
+  index: -1
+effect/skilla/boom/boom_008
+  rotate: true
+  xy: 346, 17
+  size: 179, 169
+  orig: 200, 200
+  offset: 10, 11
+  index: -1
+effect/skilla/boom/boom_009
+  rotate: false
+  xy: 827, 324
+  size: 175, 167
+  orig: 200, 200
+  offset: 12, 13
+  index: -1
+effect/skilla/boom/boom_010
+  rotate: false
+  xy: 2, 3
+  size: 171, 165
+  orig: 200, 200
+  offset: 14, 15
+  index: -1
+effect/skilla/boom/boom_013
+  rotate: true
+  xy: 172, 198
+  size: 108, 138
+  orig: 200, 200
+  offset: 49, 38
+  index: -1
+effect/skilla/boom/boom_014
+  rotate: true
+  xy: 312, 198
+  size: 108, 118
+  orig: 200, 200
+  offset: 49, 38
+  index: -1
+effect/skilla/daodan/daodan_003
+  rotate: false
+  xy: 805, 5
+  size: 113, 108
+  orig: 200, 250
+  offset: 75, 121
+  index: -1
+effect/skilla/daodan/daodan_004
+  rotate: false
+  xy: 674, 17
+  size: 129, 115
+  orig: 200, 250
+  offset: 59, 114
+  index: -1
+effect/skilla/daodan/daodan_005
+  rotate: false
+  xy: 432, 199
+  size: 145, 142
+  orig: 200, 250
+  offset: 43, 93
+  index: -1
+effect/skilla/daodan/daodan_007
+  rotate: false
+  xy: 517, 27
+  size: 155, 170
+  orig: 200, 250
+  offset: 35, 67
+  index: -1
+effect/skilla/daodan/daodan_010
+  rotate: false
+  xy: 824, 115
+  size: 155, 207
+  orig: 200, 250
+  offset: 35, 34
+  index: -1
+effect/skilla/daodan/daodan_011
+  rotate: false
+  xy: 2, 170
+  size: 168, 210
+  orig: 200, 250
+  offset: 23, 34
+  index: -1
+effect/skilla/daodan/daodan_012
+  rotate: true
+  xy: 423, 847
+  size: 175, 211
+  orig: 200, 250
+  offset: 15, 33
+  index: -1
+effect/skilla/daodan/daodan_013
+  rotate: true
+  xy: 204, 847
+  size: 175, 217
+  orig: 200, 250
+  offset: 15, 26
+  index: -1
+effect/skilla/daodan/daodan_014
+  rotate: false
+  xy: 2, 597
+  size: 174, 223
+  orig: 200, 250
+  offset: 15, 20
+  index: -1
+effect/skilla/daodan/daodan_015
+  rotate: false
+  xy: 2, 382
+  size: 173, 213
+  orig: 200, 250
+  offset: 16, 30
+  index: -1
+effect/skilla/daodan/daodan_016
+  rotate: true
+  xy: 636, 852
+  size: 170, 213
+  orig: 200, 250
+  offset: 18, 30
+  index: -1
+effect/skilla/daodan/daodan_017
+  rotate: true
+  xy: 399, 343
+  size: 157, 215
+  orig: 200, 250
+  offset: 27, 27
+  index: -1
+effect/skilla/daodan/daodan_018
+  rotate: true
+  xy: 177, 308
+  size: 152, 217
+  orig: 200, 250
+  offset: 31, 24
+  index: -1
+effect/skilla/daodan/daodan_019
+  rotate: true
+  xy: 616, 344
+  size: 151, 209
+  orig: 200, 250
+  offset: 32, 23
+  index: -1
+effect/skilla/daodan/daodan_020
+  rotate: true
+  xy: 430, 502
+  size: 149, 218
+  orig: 200, 250
+  offset: 33, 14
+  index: -1
+effect/skilla/daodan/daodan_021
+  rotate: false
+  xy: 674, 134
+  size: 148, 208
+  orig: 200, 250
+  offset: 33, 20
+  index: -1
+effect/skilla/daodan/daodan_023
+  rotate: true
+  xy: 178, 462
+  size: 147, 219
+  orig: 200, 250
+  offset: 33, 9
+  index: -1
+effect/skilla/qianghuo/qianghuo_003
+  rotate: true
+  xy: 920, 46
+  size: 67, 102
+  orig: 90, 110
+  offset: 15, 7
+  index: -1
+effect/skilla/qianghuo/qianghuo_004
+  rotate: false
+  xy: 616, 257
+  size: 56, 85
+  orig: 90, 110
+  offset: 16, 10
+  index: -1
+effect/skilla/qianghuo/qianghuo_005
+  rotate: true
+  xy: 579, 202
+  size: 53, 84
+  orig: 90, 110
+  offset: 18, 12
+  index: -1
+effect/skilla/shexian_000
+  rotate: false
+  xy: 204, 729
+  size: 250, 116
+  orig: 250, 116
+  offset: 0, 0
+  index: -1
+effect/skilla/shexian_001
+  rotate: false
+  xy: 178, 611
+  size: 250, 116
+  orig: 250, 116
+  offset: 0, 0
+  index: -1
+
+effects_30503_skillA2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/bai
+  rotate: false
+  xy: 2, 2
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+effect/glow_000
+  rotate: false
+  xy: 236, 806
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+effect/skilla/boom/boom_011
+  rotate: false
+  xy: 151, 858
+  size: 164, 162
+  orig: 200, 200
+  offset: 18, 18
+  index: -1
+effect/skilla/boom/boom_012
+  rotate: false
+  xy: 661, 871
+  size: 149, 149
+  orig: 200, 200
+  offset: 25, 25
+  index: -1
+effect/skilla/daodan/daodan_000
+  rotate: true
+  xy: 88, 366
+  size: 82, 65
+  orig: 200, 250
+  offset: 105, 162
+  index: -1
+effect/skilla/daodan/daodan_001
+  rotate: true
+  xy: 2, 54
+  size: 83, 69
+  orig: 200, 250
+  offset: 105, 160
+  index: -1
+effect/skilla/daodan/daodan_002
+  rotate: false
+  xy: 812, 921
+  size: 103, 99
+  orig: 200, 250
+  offset: 85, 130
+  index: -1
+effect/skilla/daodan/daodan_006
+  rotate: true
+  xy: 2, 450
+  size: 149, 144
+  orig: 200, 250
+  offset: 40, 93
+  index: -1
+effect/skilla/daodan/daodan_008
+  rotate: true
+  xy: 317, 865
+  size: 155, 170
+  orig: 200, 250
+  offset: 35, 67
+  index: -1
+effect/skilla/daodan/daodan_009
+  rotate: true
+  xy: 489, 865
+  size: 155, 170
+  orig: 200, 250
+  offset: 35, 67
+  index: -1
+effect/skilla/daodan/daodan_022
+  rotate: false
+  xy: 2, 811
+  size: 147, 209
+  orig: 200, 250
+  offset: 33, 19
+  index: -1
+effect/skilla/daodan/daodan_024
+  rotate: false
+  xy: 2, 601
+  size: 146, 208
+  orig: 200, 250
+  offset: 33, 20
+  index: -1
+effect/skilla/hong_000
+  rotate: true
+  xy: 2, 139
+  size: 100, 60
+  orig: 100, 60
+  offset: 0, 0
+  index: -1
+effect/skilla/qianghuo/qianghuo_000
+  rotate: false
+  xy: 917, 929
+  size: 86, 91
+  orig: 90, 110
+  offset: 2, 1
+  index: -1
+effect/skilla/qianghuo/qianghuo_001
+  rotate: false
+  xy: 2, 347
+  size: 84, 101
+  orig: 90, 110
+  offset: 3, 1
+  index: -1
+effect/skilla/qianghuo/qianghuo_002
+  rotate: false
+  xy: 2, 241
+  size: 63, 104
+  orig: 90, 110
+  offset: 13, 5
+  index: -1
+effect/skilla/qianghuo/qianghuo_006
+  rotate: true
+  xy: 151, 805
+  size: 51, 83
+  orig: 90, 110
+  offset: 18, 14
+  index: -1
+effect/skilla/qianghuo/qianghuo_007
+  rotate: true
+  xy: 812, 868
+  size: 51, 84
+  orig: 90, 110
+  offset: 18, 14
+  index: -1
+effect/skilla/qianghuo/qianghuo_008
+  rotate: false
+  xy: 150, 721
+  size: 50, 82
+  orig: 90, 110
+  offset: 19, 15
+  index: -1

@@ -1,0 +1,731 @@
+
+effects_30601_EskillE.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillc/zadi_up_add/zadi_up_add_00064
+  rotate: false
+  xy: 452, 169
+  size: 268, 186
+  orig: 268, 186
+  offset: 0, 0
+  index: -1
+images/effects/skillc/zadi_up_add/zadi_up_add_00075
+  rotate: true
+  xy: 902, 531
+  size: 243, 118
+  orig: 268, 186
+  offset: 0, 27
+  index: -1
+images/effects/skillc/zadi_up_add/zadi_up_add_00077
+  rotate: true
+  xy: 902, 776
+  size: 246, 120
+  orig: 268, 186
+  offset: 10, 25
+  index: -1
+images/effects/skillc/zadi_up_nor/zadi_up_nor_00062
+  rotate: false
+  xy: 889, 263
+  size: 130, 164
+  orig: 268, 186
+  offset: 55, 5
+  index: -1
+images/effects/skillc/zadi_up_nor/zadi_up_nor_00065
+  rotate: false
+  xy: 470, 2
+  size: 251, 165
+  orig: 268, 186
+  offset: 8, 5
+  index: -1
+images/effects/skillc/zadi_up_nor/zadi_up_nor_00066
+  rotate: false
+  xy: 723, 2
+  size: 222, 165
+  orig: 268, 186
+  offset: 42, 6
+  index: -1
+images/effects/skille/dilie_00072
+  rotate: true
+  xy: 947, 32
+  size: 229, 72
+  orig: 272, 94
+  offset: 20, 9
+  index: -1
+images/effects/skille/flash/flash_00150
+  rotate: false
+  xy: 2, 801
+  size: 448, 221
+  orig: 448, 224
+  offset: 0, 3
+  index: -1
+images/effects/skille/flash/flash_00151
+  rotate: false
+  xy: 2, 578
+  size: 448, 221
+  orig: 448, 224
+  offset: 0, 3
+  index: -1
+images/effects/skille/flash/flash_00152
+  rotate: false
+  xy: 452, 801
+  size: 448, 221
+  orig: 448, 224
+  offset: 0, 3
+  index: -1
+images/effects/skille/flash/flash_00153
+  rotate: false
+  xy: 2, 355
+  size: 448, 221
+  orig: 448, 224
+  offset: 0, 3
+  index: -1
+images/effects/skille/flash/flash_00154
+  rotate: false
+  xy: 2, 355
+  size: 448, 221
+  orig: 448, 224
+  offset: 0, 3
+  index: -1
+images/effects/skille/flash/flash_00155
+  rotate: false
+  xy: 452, 578
+  size: 448, 221
+  orig: 448, 224
+  offset: 0, 3
+  index: -1
+images/effects/skille/flash/flash_00156
+  rotate: false
+  xy: 452, 578
+  size: 448, 221
+  orig: 448, 224
+  offset: 0, 3
+  index: -1
+images/effects/skille/flash/flash_00157
+  rotate: false
+  xy: 2, 132
+  size: 439, 221
+  orig: 448, 224
+  offset: 9, 3
+  index: -1
+images/effects/skille/flash/flash_00158
+  rotate: false
+  xy: 2, 132
+  size: 439, 221
+  orig: 448, 224
+  offset: 9, 3
+  index: -1
+images/effects/skille/flash/flash_00159
+  rotate: false
+  xy: 452, 357
+  size: 435, 219
+  orig: 448, 224
+  offset: 13, 3
+  index: -1
+images/effects/skille/flash/flash_00160
+  rotate: false
+  xy: 452, 357
+  size: 435, 219
+  orig: 448, 224
+  offset: 13, 3
+  index: -1
+images/effects/skille/glow1_00061
+  rotate: true
+  xy: 722, 169
+  size: 186, 148
+  orig: 216, 161
+  offset: 18, 5
+  index: -1
+images/effects/skille/glow3_00061
+  rotate: false
+  xy: 889, 429
+  size: 133, 100
+  orig: 144, 104
+  offset: 7, 0
+  index: -1
+images/effects/skille/nengliangqiu_black/nengliangqiu_black_00036
+  rotate: true
+  xy: 237, 2
+  size: 128, 231
+  orig: 196, 251
+  offset: 32, 13
+  index: -1
+images/effects/skille/nengliangqiu_black/nengliangqiu_black_00044
+  rotate: true
+  xy: 2, 2
+  size: 128, 233
+  orig: 196, 251
+  offset: 32, 11
+  index: -1
+
+effects_30601_EskillE2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillc/zadi_up_add/zadi_up_add_00063
+  rotate: false
+  xy: 421, 6
+  size: 215, 160
+  orig: 268, 186
+  offset: 27, 11
+  index: -1
+images/effects/skillc/zadi_up_add/zadi_up_add_00065
+  rotate: true
+  xy: 854, 333
+  size: 191, 161
+  orig: 268, 186
+  offset: 50, 5
+  index: -1
+images/effects/skillc/zadi_up_nor/zadi_up_nor_00063
+  rotate: false
+  xy: 229, 2
+  size: 190, 164
+  orig: 268, 186
+  offset: 26, 5
+  index: -1
+images/effects/skillc/zadi_up_nor/zadi_up_nor_00064
+  rotate: false
+  xy: 2, 2
+  size: 225, 164
+  orig: 268, 186
+  offset: 12, 6
+  index: -1
+images/effects/skille/black_golw/black_golw_00050
+  rotate: false
+  xy: 641, 169
+  size: 210, 211
+  orig: 224, 224
+  offset: 13, 0
+  index: -1
+images/effects/skille/black_golw/black_golw_00060
+  rotate: false
+  xy: 2, 810
+  size: 211, 212
+  orig: 224, 224
+  offset: 12, 0
+  index: -1
+images/effects/skille/black_golw/black_golw_00062
+  rotate: false
+  xy: 2, 596
+  size: 211, 212
+  orig: 224, 224
+  offset: 12, 0
+  index: -1
+images/effects/skille/black_golw/black_golw_00064
+  rotate: false
+  xy: 215, 810
+  size: 211, 212
+  orig: 224, 224
+  offset: 12, 0
+  index: -1
+images/effects/skille/black_golw/black_golw_00066
+  rotate: false
+  xy: 2, 382
+  size: 211, 212
+  orig: 224, 224
+  offset: 12, 0
+  index: -1
+images/effects/skille/black_golw/black_golw_00068
+  rotate: false
+  xy: 215, 596
+  size: 211, 212
+  orig: 224, 224
+  offset: 12, 0
+  index: -1
+images/effects/skille/black_golw/black_golw_00070
+  rotate: false
+  xy: 428, 810
+  size: 211, 212
+  orig: 224, 224
+  offset: 12, 0
+  index: -1
+images/effects/skille/black_golw/black_golw_00072
+  rotate: false
+  xy: 2, 168
+  size: 211, 212
+  orig: 224, 224
+  offset: 12, 0
+  index: -1
+images/effects/skille/dilie_white_down/dilie_white_down_00102
+  rotate: false
+  xy: 641, 117
+  size: 151, 50
+  orig: 235, 98
+  offset: 37, 8
+  index: -1
+images/effects/skille/dilie_white_up/dilie_white_up_00092
+  rotate: true
+  xy: 853, 114
+  size: 217, 157
+  orig: 237, 157
+  offset: 8, 0
+  index: -1
+images/effects/skille/dilie_white_up/dilie_white_up_00098
+  rotate: false
+  xy: 838, 3
+  size: 162, 109
+  orig: 237, 157
+  offset: 53, 13
+  index: -1
+images/effects/skille/dilie_white_up/dilie_white_up_00100
+  rotate: false
+  xy: 638, 2
+  size: 198, 110
+  orig: 237, 157
+  offset: 19, 13
+  index: -1
+images/effects/skille/glow/glow_00060
+  rotate: false
+  xy: 428, 596
+  size: 211, 212
+  orig: 224, 224
+  offset: 12, 0
+  index: -1
+images/effects/skille/glow/glow_00062
+  rotate: false
+  xy: 641, 810
+  size: 211, 212
+  orig: 224, 224
+  offset: 12, 0
+  index: -1
+images/effects/skille/glow/glow_00064
+  rotate: false
+  xy: 215, 382
+  size: 211, 212
+  orig: 224, 224
+  offset: 12, 0
+  index: -1
+images/effects/skille/glow/glow_00066
+  rotate: false
+  xy: 215, 168
+  size: 211, 212
+  orig: 224, 224
+  offset: 12, 0
+  index: -1
+images/effects/skille/glow/glow_00068
+  rotate: false
+  xy: 641, 596
+  size: 211, 212
+  orig: 224, 224
+  offset: 12, 0
+  index: -1
+images/effects/skille/glow/glow_00070
+  rotate: false
+  xy: 428, 382
+  size: 211, 212
+  orig: 224, 224
+  offset: 12, 0
+  index: -1
+images/effects/skille/glow/glow_00072
+  rotate: false
+  xy: 428, 168
+  size: 211, 212
+  orig: 224, 224
+  offset: 12, 0
+  index: -1
+images/effects/skille/glow/glow_00074
+  rotate: false
+  xy: 641, 382
+  size: 211, 212
+  orig: 224, 224
+  offset: 12, 0
+  index: -1
+images/effects/skille/nengliangqiu_white/nengliangqiu_white_00042
+  rotate: false
+  xy: 854, 775
+  size: 160, 247
+  orig: 196, 251
+  offset: 22, 4
+  index: -1
+images/effects/skille/nengliangqiu_white/nengliangqiu_white_00050
+  rotate: false
+  xy: 854, 526
+  size: 160, 247
+  orig: 196, 251
+  offset: 22, 4
+  index: -1
+
+effects_30601_EskillE3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillc/zadi_up_add/zadi_up_add_00062
+  rotate: true
+  xy: 850, 120
+  size: 143, 146
+  orig: 268, 186
+  offset: 63, 20
+  index: -1
+images/effects/skillc/zadi_up_add/zadi_up_add_00068
+  rotate: false
+  xy: 507, 18
+  size: 251, 140
+  orig: 268, 186
+  offset: 6, 5
+  index: -1
+images/effects/skillc/zadi_up_add/zadi_up_add_00069
+  rotate: false
+  xy: 251, 16
+  size: 254, 142
+  orig: 268, 186
+  offset: 3, 4
+  index: -1
+images/effects/skillc/zadi_up_add/zadi_up_add_00073
+  rotate: false
+  xy: 760, 2
+  size: 241, 116
+  orig: 268, 186
+  offset: 0, 28
+  index: -1
+images/effects/skille/black_golw/black_golw_00052
+  rotate: false
+  xy: 2, 799
+  size: 210, 211
+  orig: 224, 224
+  offset: 13, 0
+  index: -1
+images/effects/skille/black_golw/black_golw_00054
+  rotate: false
+  xy: 2, 586
+  size: 210, 211
+  orig: 224, 224
+  offset: 13, 0
+  index: -1
+images/effects/skille/black_golw/black_golw_00056
+  rotate: false
+  xy: 214, 799
+  size: 210, 211
+  orig: 224, 224
+  offset: 13, 0
+  index: -1
+images/effects/skille/black_golw/black_golw_00058
+  rotate: false
+  xy: 2, 373
+  size: 210, 211
+  orig: 224, 224
+  offset: 13, 0
+  index: -1
+images/effects/skille/black_golw/black_golw_00074
+  rotate: false
+  xy: 214, 586
+  size: 210, 211
+  orig: 224, 224
+  offset: 13, 0
+  index: -1
+images/effects/skille/black_golw/black_golw_00076
+  rotate: false
+  xy: 426, 799
+  size: 210, 211
+  orig: 224, 224
+  offset: 13, 0
+  index: -1
+images/effects/skille/black_golw/black_golw_00078
+  rotate: false
+  xy: 2, 160
+  size: 210, 211
+  orig: 224, 224
+  offset: 13, 0
+  index: -1
+images/effects/skille/black_golw/black_golw_00080
+  rotate: false
+  xy: 214, 373
+  size: 210, 211
+  orig: 224, 224
+  offset: 13, 0
+  index: -1
+images/effects/skille/black_golw/black_golw_00082
+  rotate: false
+  xy: 426, 586
+  size: 210, 211
+  orig: 224, 224
+  offset: 13, 0
+  index: -1
+images/effects/skille/glow/glow_00050
+  rotate: false
+  xy: 638, 799
+  size: 210, 211
+  orig: 224, 224
+  offset: 13, 0
+  index: -1
+images/effects/skille/glow/glow_00052
+  rotate: false
+  xy: 214, 160
+  size: 210, 211
+  orig: 224, 224
+  offset: 13, 0
+  index: -1
+images/effects/skille/glow/glow_00054
+  rotate: false
+  xy: 426, 373
+  size: 210, 211
+  orig: 224, 224
+  offset: 13, 0
+  index: -1
+images/effects/skille/glow/glow_00056
+  rotate: false
+  xy: 638, 586
+  size: 210, 211
+  orig: 224, 224
+  offset: 13, 0
+  index: -1
+images/effects/skille/glow/glow_00058
+  rotate: false
+  xy: 426, 160
+  size: 210, 211
+  orig: 224, 224
+  offset: 13, 0
+  index: -1
+images/effects/skille/glow/glow_00076
+  rotate: false
+  xy: 638, 373
+  size: 210, 211
+  orig: 224, 224
+  offset: 13, 0
+  index: -1
+images/effects/skille/glow/glow_00078
+  rotate: false
+  xy: 638, 160
+  size: 210, 211
+  orig: 224, 224
+  offset: 13, 0
+  index: -1
+images/effects/skille/nengliangqiu_white/nengliangqiu_white_00036
+  rotate: false
+  xy: 850, 514
+  size: 146, 247
+  orig: 196, 251
+  offset: 28, 4
+  index: -1
+images/effects/skille/nengliangqiu_white/nengliangqiu_white_00040
+  rotate: true
+  xy: 2, 6
+  size: 152, 247
+  orig: 196, 251
+  offset: 13, 4
+  index: -1
+images/effects/skille/nengliangqiu_white/nengliangqiu_white_00044
+  rotate: false
+  xy: 850, 265
+  size: 146, 247
+  orig: 196, 251
+  offset: 28, 4
+  index: -1
+images/effects/skille/nengliangqiu_white/nengliangqiu_white_00048
+  rotate: false
+  xy: 850, 763
+  size: 152, 247
+  orig: 196, 251
+  offset: 13, 4
+  index: -1
+
+effects_30601_EskillE4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillc/yujingquan_00016
+  rotate: false
+  xy: 214, 669
+  size: 194, 194
+  orig: 224, 224
+  offset: 15, 15
+  index: -1
+images/effects/skillc/zadi_up_add/zadi_up_add_00061
+  rotate: false
+  xy: 626, 87
+  size: 87, 117
+  orig: 268, 186
+  offset: 90, 29
+  index: -1
+images/effects/skillc/zadi_up_add/zadi_up_add_00066
+  rotate: true
+  xy: 259, 398
+  size: 198, 150
+  orig: 268, 186
+  offset: 49, 5
+  index: -1
+images/effects/skillc/zadi_up_add/zadi_up_add_00067
+  rotate: false
+  xy: 400, 190
+  size: 208, 138
+  orig: 268, 186
+  offset: 46, 5
+  index: -1
+images/effects/skillc/zadi_up_add/zadi_up_add_00071
+  rotate: false
+  xy: 701, 881
+  size: 245, 141
+  orig: 268, 186
+  offset: 0, 5
+  index: -1
+images/effects/skillc/zadi_up_add/zadi_up_add_00079
+  rotate: true
+  xy: 610, 206
+  size: 122, 84
+  orig: 268, 186
+  offset: 119, 55
+  index: -1
+images/effects/skillc/zadi_up_nor/zadi_up_nor_00067
+  rotate: false
+  xy: 400, 99
+  size: 224, 89
+  orig: 268, 186
+  offset: 40, 6
+  index: -1
+images/effects/skillc/zadi_up_nor/zadi_up_nor_00069
+  rotate: false
+  xy: 214, 598
+  size: 203, 69
+  orig: 268, 186
+  offset: 38, 24
+  index: -1
+images/effects/skillc/zadi_up_nor/zadi_up_nor_00071
+  rotate: true
+  xy: 650, 482
+  size: 205, 61
+  orig: 268, 186
+  offset: 41, 24
+  index: -1
+images/effects/skille/dilie_white_down/dilie_white_down_00092
+  rotate: false
+  xy: 713, 475
+  size: 157, 71
+  orig: 235, 98
+  offset: 34, 6
+  index: -1
+images/effects/skille/dilie_white_down/dilie_white_down_00094
+  rotate: false
+  xy: 2, 18
+  size: 214, 94
+  orig: 235, 98
+  offset: 21, 4
+  index: -1
+images/effects/skille/dilie_white_down/dilie_white_down_00096
+  rotate: true
+  xy: 161, 363
+  size: 233, 96
+  orig: 235, 98
+  offset: 2, 2
+  index: -1
+images/effects/skille/dilie_white_down/dilie_white_down_00098
+  rotate: false
+  xy: 419, 590
+  size: 229, 98
+  orig: 235, 98
+  offset: 0, 0
+  index: -1
+images/effects/skille/dilie_white_down/dilie_white_down_00100
+  rotate: false
+  xy: 410, 690
+  size: 233, 66
+  orig: 235, 98
+  offset: 0, 0
+  index: -1
+images/effects/skille/dilie_white_up/dilie_white_up_00094
+  rotate: true
+  xy: 2, 363
+  size: 233, 157
+  orig: 237, 157
+  offset: 0, 0
+  index: -1
+images/effects/skille/dilie_white_up/dilie_white_up_00096
+  rotate: false
+  xy: 214, 865
+  size: 236, 157
+  orig: 237, 157
+  offset: 0, 0
+  index: -1
+images/effects/skille/dilie_white_up/dilie_white_up_00102
+  rotate: false
+  xy: 713, 639
+  size: 192, 111
+  orig: 237, 157
+  offset: 16, 13
+  index: -1
+images/effects/skille/dilie_white_up/dilie_white_up_00104
+  rotate: false
+  xy: 713, 548
+  size: 191, 89
+  orig: 237, 157
+  offset: 14, 33
+  index: -1
+images/effects/skille/dilie_white_up/dilie_white_up_00106
+  rotate: true
+  xy: 930, 689
+  size: 190, 92
+  orig: 237, 157
+  offset: 16, 31
+  index: -1
+images/effects/skille/glow/glow_00080
+  rotate: false
+  xy: 2, 811
+  size: 210, 211
+  orig: 224, 224
+  offset: 13, 0
+  index: -1
+images/effects/skille/glow/glow_00082
+  rotate: false
+  xy: 2, 598
+  size: 210, 211
+  orig: 224, 224
+  offset: 13, 0
+  index: -1
+images/effects/skille/nengliangqiu_black/nengliangqiu_black_00038
+  rotate: true
+  xy: 452, 758
+  size: 121, 237
+  orig: 196, 251
+  offset: 31, 13
+  index: -1
+images/effects/skille/nengliangqiu_black/nengliangqiu_black_00040
+  rotate: false
+  xy: 269, 159
+  size: 129, 237
+  orig: 196, 251
+  offset: 31, 13
+  index: -1
+images/effects/skille/nengliangqiu_black/nengliangqiu_black_00042
+  rotate: true
+  xy: 691, 752
+  size: 127, 237
+  orig: 196, 251
+  offset: 33, 13
+  index: -1
+images/effects/skille/nengliangqiu_black/nengliangqiu_black_00046
+  rotate: false
+  xy: 145, 122
+  size: 122, 239
+  orig: 196, 251
+  offset: 31, 11
+  index: -1
+images/effects/skille/nengliangqiu_black/nengliangqiu_black_00048
+  rotate: true
+  xy: 411, 459
+  size: 129, 237
+  orig: 196, 251
+  offset: 31, 13
+  index: -1
+images/effects/skille/nengliangqiu_black/nengliangqiu_black_00050
+  rotate: true
+  xy: 411, 330
+  size: 127, 237
+  orig: 196, 251
+  offset: 33, 13
+  index: -1
+images/effects/skille/nengliangqiu_white/nengliangqiu_white_00038
+  rotate: true
+  xy: 452, 881
+  size: 141, 247
+  orig: 196, 251
+  offset: 31, 4
+  index: -1
+images/effects/skille/nengliangqiu_white/nengliangqiu_white_00046
+  rotate: false
+  xy: 2, 114
+  size: 141, 247
+  orig: 196, 251
+  offset: 31, 4
+  index: -1

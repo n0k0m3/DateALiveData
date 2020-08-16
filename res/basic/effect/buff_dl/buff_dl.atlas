@@ -1,0 +1,216 @@
+
+buff_dl.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/buff_15/buff_15_0000
+  rotate: true
+  xy: 682, 858
+  size: 148, 160
+  orig: 256, 256
+  offset: 44, 53
+  index: -1
+effects/buff_15/buff_15_0001
+  rotate: false
+  xy: 2, 18
+  size: 148, 160
+  orig: 256, 256
+  offset: 44, 53
+  index: -1
+effects/buff_15/buff_15_0002
+  rotate: false
+  xy: 657, 697
+  size: 105, 150
+  orig: 256, 256
+  offset: 69, 56
+  index: -1
+effects/buff_15/buff_15_0003
+  rotate: false
+  xy: 567, 534
+  size: 151, 157
+  orig: 256, 256
+  offset: 37, 50
+  index: -1
+effects/buff_15/buff_15_0004
+  rotate: false
+  xy: 310, 525
+  size: 118, 159
+  orig: 256, 256
+  offset: 69, 48
+  index: -1
+effects/buff_15/buff_15_0005
+  rotate: false
+  xy: 2, 841
+  size: 173, 165
+  orig: 256, 256
+  offset: 33, 48
+  index: -1
+effects/buff_15/buff_15_0006
+  rotate: false
+  xy: 2, 677
+  size: 173, 162
+  orig: 256, 256
+  offset: 33, 48
+  index: -1
+effects/buff_15/buff_15_0007
+  rotate: false
+  xy: 351, 848
+  size: 167, 158
+  orig: 256, 256
+  offset: 40, 52
+  index: -1
+effects/buff_15/buff_15_0008
+  rotate: true
+  xy: 2, 344
+  size: 173, 150
+  orig: 256, 256
+  offset: 35, 48
+  index: -1
+effects/buff_15/buff_15_0009
+  rotate: true
+  xy: 764, 699
+  size: 157, 149
+  orig: 256, 256
+  offset: 44, 46
+  index: -1
+effects/buff_15/buff_15_0010
+  rotate: false
+  xy: 177, 686
+  size: 167, 160
+  orig: 256, 256
+  offset: 42, 45
+  index: -1
+effects/buff_15/buff_15_0011
+  rotate: false
+  xy: 346, 693
+  size: 165, 153
+  orig: 256, 256
+  offset: 44, 48
+  index: -1
+effects/buff_15/buff_15_0012
+  rotate: true
+  xy: 520, 849
+  size: 157, 160
+  orig: 256, 256
+  offset: 44, 47
+  index: -1
+effects/buff_15/buff_15_0013
+  rotate: false
+  xy: 177, 848
+  size: 172, 158
+  orig: 256, 256
+  offset: 42, 50
+  index: -1
+effects/buff_15/buff_15_0014
+  rotate: true
+  xy: 154, 357
+  size: 160, 138
+  orig: 256, 256
+  offset: 44, 57
+  index: -1
+effects/buff_15/buff_15_0015
+  rotate: true
+  xy: 154, 196
+  size: 159, 144
+  orig: 256, 256
+  offset: 45, 51
+  index: -1
+effects/buff_15/buff_15_0016
+  rotate: true
+  xy: 300, 204
+  size: 155, 139
+  orig: 256, 256
+  offset: 45, 56
+  index: -1
+effects/buff_15/buff_15_0017
+  rotate: false
+  xy: 2, 519
+  size: 172, 156
+  orig: 256, 256
+  offset: 38, 50
+  index: -1
+effects/buff_15/buff_15_0018
+  rotate: true
+  xy: 433, 375
+  size: 155, 142
+  orig: 256, 256
+  offset: 45, 52
+  index: -1
+effects/buff_15/buff_15_0019
+  rotate: false
+  xy: 844, 861
+  size: 162, 145
+  orig: 256, 256
+  offset: 44, 54
+  index: -1
+effects/buff_15/buff_15_0020
+  rotate: true
+  xy: 720, 538
+  size: 157, 135
+  orig: 256, 256
+  offset: 50, 59
+  index: -1
+effects/buff_15/buff_15_0021
+  rotate: true
+  xy: 176, 519
+  size: 156, 132
+  orig: 256, 256
+  offset: 50, 62
+  index: -1
+effects/buff_15/buff_15_0022
+  rotate: true
+  xy: 2, 180
+  size: 162, 150
+  orig: 256, 256
+  offset: 44, 51
+  index: -1
+effects/buff_15/buff_15_0023
+  rotate: true
+  xy: 294, 361
+  size: 156, 137
+  orig: 256, 256
+  offset: 50, 57
+  index: -1
+effects/buff_15/buff_15_0024
+  rotate: true
+  xy: 430, 532
+  size: 159, 135
+  orig: 256, 256
+  offset: 47, 56
+  index: -1
+effects/buff_15/buff_15_0025
+  rotate: true
+  xy: 520, 693
+  size: 154, 135
+  orig: 256, 256
+  offset: 51, 56
+  index: -1
+effects/buff_15/buff_15_0026
+  rotate: true
+  xy: 857, 540
+  size: 157, 135
+  orig: 256, 256
+  offset: 48, 56
+  index: -1
+effects/buff_15/buff_15_0027
+  rotate: true
+  xy: 577, 234
+  size: 141, 134
+  orig: 256, 256
+  offset: 64, 57
+  index: -1
+effects/buff_15/buff_15_0028
+  rotate: true
+  xy: 577, 377
+  size: 155, 134
+  orig: 256, 256
+  offset: 50, 57
+  index: -1
+effects/buff_15/buff_15_0029
+  rotate: true
+  xy: 441, 229
+  size: 144, 134
+  orig: 256, 256
+  offset: 60, 57
+  index: -1

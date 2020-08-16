@@ -1,0 +1,297 @@
+
+effects_30301_F_skillA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/F_skillA/jiguang_add/jiguang_add_00079
+  rotate: true
+  xy: 2, 6
+  size: 218, 277
+  orig: 384, 512
+  offset: 82, 235
+  index: -1
+effect/F_skillA/jiguang_add/jiguang_add_00081
+  rotate: false
+  xy: 2, 511
+  size: 283, 511
+  orig: 384, 512
+  offset: 50, 1
+  index: -1
+effect/F_skillA/jiguang_add/jiguang_add_00083
+  rotate: false
+  xy: 287, 511
+  size: 283, 511
+  orig: 384, 512
+  offset: 50, 1
+  index: -1
+effect/F_skillA/jiguang_add/jiguang_add_00085
+  rotate: true
+  xy: 2, 226
+  size: 283, 511
+  orig: 384, 512
+  offset: 50, 1
+  index: -1
+effect/F_skillA/jiguang_add/jiguang_add_00087
+  rotate: false
+  xy: 572, 511
+  size: 283, 511
+  orig: 384, 512
+  offset: 50, 1
+  index: -1
+effect/F_skillA/jiguang_add/jiguang_add_00089
+  rotate: true
+  xy: 515, 226
+  size: 283, 429
+  orig: 384, 512
+  offset: 50, 1
+  index: -1
+effect/F_skillA/jiguang_nor/jiguang_nor_00079
+  rotate: true
+  xy: 281, 2
+  size: 113, 272
+  orig: 384, 512
+  offset: 136, 240
+  index: -1
+effect/F_skillA/jiguang_nor/jiguang_nor_00080
+  rotate: false
+  xy: 857, 653
+  size: 108, 369
+  orig: 384, 512
+  offset: 139, 42
+  index: -1
+effect/F_skillA/jiguang_nor/jiguang_nor_00081
+  rotate: true
+  xy: 653, 14
+  size: 109, 363
+  orig: 384, 512
+  offset: 145, 42
+  index: -1
+effect/F_skillA/jiguang_nor/jiguang_nor_00082
+  rotate: true
+  xy: 281, 117
+  size: 107, 370
+  orig: 384, 512
+  offset: 147, 42
+  index: -1
+effect/F_skillA/jiguang_nor/jiguang_nor_00084
+  rotate: true
+  xy: 653, 125
+  size: 99, 369
+  orig: 384, 512
+  offset: 142, 42
+  index: -1
+effect/F_skillA/xuli_m/xuli_m_00045
+  rotate: true
+  xy: 857, 525
+  size: 126, 125
+  orig: 295, 269
+  offset: 96, 77
+  index: -1
+effect/baibao_00027
+  rotate: false
+  xy: 555, 61
+  size: 54, 54
+  orig: 64, 64
+  offset: 5, 5
+  index: -1
+
+effects_30301_F_skillA2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/F_skillA/glow/glow_00044
+  rotate: true
+  xy: 810, 761
+  size: 260, 172
+  orig: 260, 172
+  offset: 0, 0
+  index: -1
+effect/F_skillA/jiguang_add/jiguang_add_00091
+  rotate: true
+  xy: 393, 104
+  size: 283, 428
+  orig: 384, 512
+  offset: 50, 1
+  index: -1
+effect/F_skillA/jiguang_add/jiguang_add_00093
+  rotate: true
+  xy: 2, 423
+  size: 283, 428
+  orig: 384, 512
+  offset: 50, 1
+  index: -1
+effect/F_skillA/jiguang_add/jiguang_add_00097
+  rotate: true
+  xy: 915, 477
+  size: 282, 87
+  orig: 384, 512
+  offset: 50, 2
+  index: -1
+effect/F_skillA/jiguang_nor/jiguang_nor_00083
+  rotate: false
+  xy: 810, 389
+  size: 103, 370
+  orig: 384, 512
+  offset: 141, 42
+  index: -1
+effect/F_skillA/xuli/xuli_00030
+  rotate: false
+  xy: 432, 393
+  size: 372, 313
+  orig: 418, 313
+  offset: 30, 0
+  index: -1
+effect/F_skillA/xuli/xuli_00036
+  rotate: false
+  xy: 2, 708
+  size: 402, 313
+  orig: 418, 313
+  offset: 0, 0
+  index: -1
+effect/F_skillA/xuli/xuli_00038
+  rotate: false
+  xy: 406, 708
+  size: 402, 313
+  orig: 418, 313
+  offset: 0, 0
+  index: -1
+effect/F_skillA/xuli/xuli_00040
+  rotate: false
+  xy: 2, 74
+  size: 389, 313
+  orig: 418, 313
+  offset: 13, 0
+  index: -1
+effect/F_skillA/xuli_m/xuli_m_00051
+  rotate: false
+  xy: 823, 196
+  size: 191, 191
+  orig: 295, 269
+  offset: 63, 44
+  index: -1
+effect/F_skillA/xuli_m/xuli_m_00053
+  rotate: false
+  xy: 823, 2
+  size: 189, 192
+  orig: 295, 269
+  offset: 65, 43
+  index: -1
+
+effects_30301_F_skillA3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/F_skillA/jiguang_add/jiguang_add_00095
+  rotate: false
+  xy: 2, 284
+  size: 283, 419
+  orig: 384, 512
+  offset: 50, 1
+  index: -1
+effect/F_skillA/quan_00058
+  rotate: false
+  xy: 818, 4
+  size: 167, 167
+  orig: 172, 171
+  offset: 2, 2
+  index: -1
+effect/F_skillA/xuli/xuli_00026
+  rotate: false
+  xy: 287, 75
+  size: 361, 313
+  orig: 418, 313
+  offset: 35, 0
+  index: -1
+effect/F_skillA/xuli/xuli_00028
+  rotate: false
+  xy: 391, 705
+  size: 383, 313
+  orig: 418, 313
+  offset: 19, 0
+  index: -1
+effect/F_skillA/xuli/xuli_00032
+  rotate: true
+  xy: 661, 173
+  size: 367, 313
+  orig: 418, 313
+  offset: 26, 0
+  index: -1
+effect/F_skillA/xuli/xuli_00034
+  rotate: false
+  xy: 287, 390
+  size: 372, 313
+  orig: 418, 313
+  offset: 22, 0
+  index: -1
+effect/F_skillA/xuli/xuli_00042
+  rotate: false
+  xy: 2, 705
+  size: 387, 313
+  orig: 418, 313
+  offset: 15, 0
+  index: -1
+effect/F_skillA/xuli_add/xuli_add_00046
+  rotate: false
+  xy: 2, 62
+  size: 220, 220
+  orig: 295, 269
+  offset: 49, 30
+  index: -1
+effect/F_skillA/xuli_add/xuli_add_00048
+  rotate: false
+  xy: 776, 780
+  size: 239, 238
+  orig: 295, 269
+  offset: 39, 20
+  index: -1
+effect/F_skillA/xuli_add/xuli_add_00050
+  rotate: true
+  xy: 776, 542
+  size: 236, 239
+  orig: 295, 269
+  offset: 43, 19
+  index: -1
+effect/F_skillA/xuli_m/xuli_m_00047
+  rotate: true
+  xy: 650, 2
+  size: 169, 166
+  orig: 295, 269
+  offset: 74, 56
+  index: -1
+
+effects_30301_F_skillA4.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/F_skillA/xuli_add/xuli_add_00044
+  rotate: false
+  xy: 221, 251
+  size: 191, 183
+  orig: 295, 269
+  offset: 61, 47
+  index: -1
+effect/F_skillA/xuli_add/xuli_add_00052
+  rotate: false
+  xy: 2, 2
+  size: 215, 214
+  orig: 295, 269
+  offset: 49, 28
+  index: -1
+effect/F_skillA/xuli_add/xuli_add_00054
+  rotate: false
+  xy: 2, 218
+  size: 217, 216
+  orig: 295, 269
+  offset: 48, 27
+  index: -1
+effect/F_skillA/xuli_m/xuli_m_00049
+  rotate: false
+  xy: 221, 66
+  size: 184, 183
+  orig: 295, 269
+  offset: 66, 47
+  index: -1

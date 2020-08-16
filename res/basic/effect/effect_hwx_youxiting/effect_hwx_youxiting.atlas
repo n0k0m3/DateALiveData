@@ -1,0 +1,83 @@
+
+effect_hwx_youxiting.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lizi1
+  rotate: false
+  xy: 2, 5
+  size: 12, 15
+  orig: 12, 15
+  offset: 0, 0
+  index: -1
+lizi2
+  rotate: false
+  xy: 232, 231
+  size: 20, 23
+  orig: 20, 23
+  offset: 0, 0
+  index: -1
+lizi3
+  rotate: false
+  xy: 16, 2
+  size: 3, 18
+  orig: 3, 18
+  offset: 0, 0
+  index: -1
+qiu
+  rotate: false
+  xy: 160, 149
+  size: 29, 30
+  orig: 29, 30
+  offset: 0, 0
+  index: -1
+shanshuo/shanshuo_00000
+  rotate: false
+  xy: 160, 213
+  size: 70, 41
+  orig: 285, 295
+  offset: 108, 219
+  index: -1
+shanshuo/shanshuo_00001
+  rotate: false
+  xy: 2, 22
+  size: 70, 40
+  orig: 285, 295
+  offset: 108, 220
+  index: -1
+shanshuo/shanshuo_00002
+  rotate: false
+  xy: 2, 64
+  size: 70, 42
+  orig: 285, 295
+  offset: 108, 219
+  index: -1
+shuzi
+  rotate: false
+  xy: 160, 181
+  size: 64, 30
+  orig: 64, 30
+  offset: 0, 0
+  index: -1
+shuzi2
+  rotate: false
+  xy: 74, 46
+  size: 63, 29
+  orig: 63, 29
+  offset: 0, 0
+  index: -1
+shuzi3
+  rotate: false
+  xy: 74, 77
+  size: 67, 29
+  orig: 67, 29
+  offset: 0, 0
+  index: -1
+tubiao
+  rotate: false
+  xy: 2, 108
+  size: 156, 146
+  orig: 156, 146
+  offset: 0, 0
+  index: -1

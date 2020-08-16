@@ -1,0 +1,578 @@
+
+effects_fight_22002.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skillA/baodian/baodian0013
+  rotate: false
+  xy: 779, 102
+  size: 154, 147
+  orig: 240, 240
+  offset: 19, 39
+  index: -1
+effect/skillA/baodian/baodian0018
+  rotate: true
+  xy: 872, 852
+  size: 170, 150
+  orig: 240, 240
+  offset: 30, 40
+  index: -1
+effect/skillA/guiji/guiji0013
+  rotate: false
+  xy: 340, 467
+  size: 220, 264
+  orig: 282, 300
+  offset: 58, 28
+  index: -1
+effect/skillA/guiji/guiji0014
+  rotate: false
+  xy: 340, 208
+  size: 219, 257
+  orig: 282, 300
+  offset: 58, 30
+  index: -1
+effect/skillA/guiji/guiji0015
+  rotate: false
+  xy: 643, 758
+  size: 227, 264
+  orig: 282, 300
+  offset: 43, 14
+  index: -1
+effect/skillA/guiji/guiji0016
+  rotate: false
+  xy: 561, 187
+  size: 216, 248
+  orig: 282, 300
+  offset: 53, 16
+  index: -1
+effect/skillB/baozha/baozha0024
+  rotate: true
+  xy: 2, 352
+  size: 360, 271
+  orig: 360, 360
+  offset: 0, 0
+  index: -1
+effect/skillB/baozha/baozha0026
+  rotate: false
+  xy: 2, 714
+  size: 327, 308
+  orig: 360, 360
+  offset: 16, 25
+  index: -1
+effect/skillB/baozha/baozha0028
+  rotate: true
+  xy: 331, 733
+  size: 289, 310
+  orig: 360, 360
+  offset: 16, 31
+  index: -1
+effect/skillB/baozha/baozha0030
+  rotate: true
+  xy: 2, 59
+  size: 291, 262
+  orig: 360, 360
+  offset: 13, 25
+  index: -1
+effect/skillB/baozha/baozha0032
+  rotate: true
+  xy: 562, 437
+  size: 294, 184
+  orig: 360, 360
+  offset: 11, 25
+  index: -1
+effect/skillB/quan/dian0001
+  rotate: false
+  xy: 984, 272
+  size: 26, 85
+  orig: 26, 85
+  offset: 0, 0
+  index: -1
+effect/skillB/quan/dian0002
+  rotate: true
+  xy: 513, 10
+  size: 26, 75
+  orig: 26, 75
+  offset: 0, 0
+  index: -1
+effect/skillB/quan/dian0003
+  rotate: true
+  xy: 643, 735
+  size: 21, 88
+  orig: 21, 88
+  offset: 0, 0
+  index: -1
+effect/skillB/quan/jianying02
+  rotate: false
+  xy: 765, 2
+  size: 90, 98
+  orig: 90, 98
+  offset: 0, 0
+  index: -1
+effect/skillB/quan/jibo02
+  rotate: false
+  xy: 857, 23
+  size: 71, 77
+  orig: 71, 77
+  offset: 0, 0
+  index: -1
+effect/skillB/quan/jibo03
+  rotate: true
+  xy: 930, 10
+  size: 82, 92
+  orig: 82, 92
+  offset: 0, 0
+  index: -1
+effect/skillB/yan/yan0022
+  rotate: true
+  xy: 935, 94
+  size: 152, 85
+  orig: 180, 120
+  offset: 21, 9
+  index: -1
+effect/skillB/yan/yan0028
+  rotate: true
+  xy: 266, 284
+  size: 66, 55
+  orig: 180, 120
+  offset: 18, 33
+  index: -1
+effect/skillB/yan/yan0030
+  rotate: false
+  xy: 266, 229
+  size: 48, 53
+  orig: 180, 120
+  offset: 12, 33
+  index: -1
+effect/skillC/baodian/baodian_00017
+  rotate: false
+  xy: 517, 38
+  size: 246, 147
+  orig: 270, 180
+  offset: 7, 25
+  index: -1
+effect/skillC/baodian/baodian_00018
+  rotate: true
+  xy: 748, 497
+  size: 259, 142
+  orig: 270, 180
+  offset: 1, 25
+  index: -1
+effect/skillC/baodian/baodian_00019
+  rotate: true
+  xy: 779, 251
+  size: 244, 154
+  orig: 270, 180
+  offset: 22, 25
+  index: -1
+effect/skillC/baodian/baodian_00020
+  rotate: false
+  xy: 266, 53
+  size: 249, 153
+  orig: 270, 180
+  offset: 20, 24
+  index: -1
+effect/skillC/baodian/baodian_00021
+  rotate: true
+  xy: 892, 521
+  size: 199, 127
+  orig: 270, 180
+  offset: 30, 25
+  index: -1
+effect/skillC/di_00015
+  rotate: true
+  xy: 275, 372
+  size: 340, 63
+  orig: 390, 90
+  offset: 24, 14
+  index: -1
+effect/skillC/kuoquan/kuoquan_00015
+  rotate: true
+  xy: 984, 359
+  size: 160, 37
+  orig: 300, 90
+  offset: 66, 27
+  index: -1
+effect/skillC/kuoquan/kuoquan_00019
+  rotate: false
+  xy: 261, 5
+  size: 250, 46
+  orig: 300, 90
+  offset: 21, 21
+  index: -1
+effect/skillC/kuoquan/kuoquan_00021
+  rotate: false
+  xy: 2, 11
+  size: 257, 46
+  orig: 300, 90
+  offset: 18, 21
+  index: -1
+effect/skillC/kuoquan/kuoquan_00025
+  rotate: true
+  xy: 935, 248
+  size: 271, 47
+  orig: 300, 90
+  offset: 11, 20
+  index: -1
+effect/skillC/lizi/lizi_00002
+  rotate: true
+  xy: 892, 722
+  size: 128, 130
+  orig: 180, 180
+  offset: 31, 28
+  index: -1
+
+effects_fight_220022.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skillA/baodian/baodian0014
+  rotate: false
+  xy: 469, 300
+  size: 159, 151
+  orig: 240, 240
+  offset: 42, 53
+  index: -1
+effect/skillA/baodian/baodian0015
+  rotate: false
+  xy: 225, 616
+  size: 166, 191
+  orig: 240, 240
+  offset: 43, 19
+  index: -1
+effect/skillA/baodian/baodian0016
+  rotate: true
+  xy: 591, 847
+  size: 175, 191
+  orig: 240, 240
+  offset: 34, 19
+  index: -1
+effect/skillA/baodian/baodian0017
+  rotate: false
+  xy: 225, 809
+  size: 175, 213
+  orig: 240, 240
+  offset: 33, 16
+  index: -1
+effect/skillA/baodian/baodian0020
+  rotate: false
+  xy: 2, 2
+  size: 178, 118
+  orig: 240, 240
+  offset: 30, 52
+  index: -1
+effect/skillA/guangyun/guangyun0016
+  rotate: false
+  xy: 402, 833
+  size: 187, 189
+  orig: 240, 240
+  offset: 26, 32
+  index: -1
+effect/skillA/guiji/guiji0017
+  rotate: true
+  xy: 2, 122
+  size: 222, 151
+  orig: 282, 300
+  offset: 31, 14
+  index: -1
+effect/skillA/guiji/guiji0019
+  rotate: true
+  xy: 2, 346
+  size: 213, 165
+  orig: 282, 300
+  offset: 25, 16
+  index: -1
+effect/skillA/guiji/guiji0021
+  rotate: false
+  xy: 784, 635
+  size: 206, 139
+  orig: 282, 300
+  offset: 26, 24
+  index: -1
+effect/skillA/guiji/guiji0023
+  rotate: true
+  xy: 443, 185
+  size: 113, 147
+  orig: 282, 300
+  offset: 106, 34
+  index: -1
+effect/skillB/baozha/baozha0022
+  rotate: false
+  xy: 784, 921
+  size: 238, 101
+  orig: 360, 360
+  offset: 50, 6
+  index: -1
+effect/skillB/baozha/baozha0034
+  rotate: false
+  xy: 225, 452
+  size: 176, 162
+  orig: 360, 360
+  offset: 65, 26
+  index: -1
+effect/skillB/baozha/baozha0036
+  rotate: false
+  xy: 403, 453
+  size: 173, 161
+  orig: 360, 360
+  offset: 67, 27
+  index: -1
+effect/skillB/baozha/baozha0038
+  rotate: false
+  xy: 630, 317
+  size: 166, 159
+  orig: 360, 360
+  offset: 69, 29
+  index: -1
+effect/skillB/ju/ju0012
+  rotate: false
+  xy: 2, 804
+  size: 221, 218
+  orig: 300, 300
+  offset: 75, 26
+  index: -1
+effect/skillB/ju/ju0014
+  rotate: false
+  xy: 155, 167
+  size: 175, 171
+  orig: 300, 300
+  offset: 100, 53
+  index: -1
+effect/skillB/ju/ju0016
+  rotate: true
+  xy: 486, 23
+  size: 160, 139
+  orig: 300, 300
+  offset: 94, 79
+  index: -1
+effect/skillB/ju/ju0018
+  rotate: true
+  xy: 182, 2
+  size: 163, 176
+  orig: 300, 300
+  offset: 72, 64
+  index: -1
+effect/skillB/ju/ju0020
+  rotate: false
+  xy: 808, 203
+  size: 124, 124
+  orig: 300, 300
+  offset: 97, 92
+  index: -1
+effect/skillB/ju/ju0022
+  rotate: false
+  xy: 360, 3
+  size: 124, 162
+  orig: 300, 300
+  offset: 97, 55
+  index: -1
+effect/skillB/ju/ju0024
+  rotate: false
+  xy: 332, 167
+  size: 109, 171
+  orig: 300, 300
+  offset: 98, 57
+  index: -1
+effect/skillB/quan/jianying03
+  rotate: false
+  xy: 849, 98
+  size: 95, 103
+  orig: 95, 104
+  offset: 0, 0
+  index: -1
+effect/skillB/quan/jibo04
+  rotate: false
+  xy: 934, 221
+  size: 82, 104
+  orig: 82, 104
+  offset: 0, 0
+  index: -1
+effect/skillB/quan/jibo05
+  rotate: false
+  xy: 943, 420
+  size: 79, 105
+  orig: 79, 105
+  offset: 0, 0
+  index: -1
+effect/skillB/quan/jibo07
+  rotate: false
+  xy: 946, 114
+  size: 73, 105
+  orig: 73, 105
+  offset: 0, 0
+  index: -1
+effect/skillB/yan/yan0024
+  rotate: false
+  xy: 849, 19
+  size: 108, 77
+  orig: 180, 120
+  offset: 18, 16
+  index: -1
+effect/skillB/yan/yan0032
+  rotate: true
+  xy: 854, 484
+  size: 41, 52
+  orig: 180, 120
+  offset: 10, 33
+  index: -1
+effect/skillC/baodian/baodian_00014
+  rotate: true
+  xy: 2, 561
+  size: 241, 173
+  orig: 270, 180
+  offset: 6, 0
+  index: -1
+effect/skillC/baodian/baodian_00015
+  rotate: false
+  xy: 169, 340
+  size: 199, 110
+  orig: 270, 180
+  offset: 30, 25
+  index: -1
+effect/skillC/baodian/baodian_00016
+  rotate: false
+  xy: 784, 776
+  size: 209, 143
+  orig: 270, 180
+  offset: 25, 25
+  index: -1
+effect/skillC/baodian/baodian_00022
+  rotate: false
+  xy: 578, 527
+  size: 197, 132
+  orig: 270, 180
+  offset: 31, 25
+  index: -1
+effect/skillC/baodian/baodian_00023
+  rotate: false
+  xy: 591, 705
+  size: 191, 140
+  orig: 270, 180
+  offset: 34, 25
+  index: -1
+effect/skillC/baodian/baodian_00024
+  rotate: true
+  xy: 393, 616
+  size: 191, 128
+  orig: 270, 180
+  offset: 34, 26
+  index: -1
+effect/skillC/baodian/baodian_00025
+  rotate: false
+  xy: 777, 527
+  size: 192, 106
+  orig: 270, 180
+  offset: 33, 52
+  index: -1
+effect/skillC/baodian/baodian_00026
+  rotate: true
+  xy: 370, 340
+  size: 110, 97
+  orig: 270, 180
+  offset: 75, 64
+  index: -1
+effect/skillC/kuoquan/kuoquan_00017
+  rotate: false
+  xy: 578, 661
+  size: 204, 42
+  orig: 300, 90
+  offset: 44, 24
+  index: -1
+effect/skillC/kuoquan/kuoquan_00023
+  rotate: true
+  xy: 177, 538
+  size: 264, 46
+  orig: 300, 90
+  offset: 14, 21
+  index: -1
+effect/skillC/kuoquan/kuoquan_00026
+  rotate: false
+  xy: 578, 478
+  size: 274, 47
+  orig: 300, 90
+  offset: 9, 20
+  index: -1
+effect/skillC/lizi/lizi_00000
+  rotate: false
+  xy: 798, 329
+  size: 143, 147
+  orig: 180, 180
+  offset: 25, 20
+  index: -1
+effect/skillC/lizi/lizi_00004
+  rotate: true
+  xy: 691, 181
+  size: 134, 115
+  orig: 180, 180
+  offset: 22, 35
+  index: -1
+effect/skillC/lizi/lizi_00006
+  rotate: true
+  xy: 592, 185
+  size: 113, 97
+  orig: 180, 180
+  offset: 32, 43
+  index: -1
+effect/skillC/lizi/lizi_00008
+  rotate: true
+  xy: 943, 327
+  size: 91, 79
+  orig: 180, 180
+  offset: 42, 52
+  index: -1
+effect/skillC/lizi/lizi_00010
+  rotate: false
+  xy: 627, 55
+  size: 123, 124
+  orig: 180, 180
+  offset: 26, 27
+  index: -1
+effect/skillC/lizi/lizi_00012
+  rotate: true
+  xy: 752, 70
+  size: 109, 95
+  orig: 180, 180
+  offset: 33, 47
+  index: -1
+
+effects_fight_220023.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skillB/quan/jianying04
+  rotate: false
+  xy: 2, 204
+  size: 95, 101
+  orig: 98, 101
+  offset: 3, 0
+  index: -1
+effect/skillB/yan/yan0026
+  rotate: false
+  xy: 193, 227
+  size: 106, 78
+  orig: 180, 120
+  offset: 18, 10
+  index: -1
+effect/skillC/baodian/baodian_00027
+  rotate: false
+  xy: 99, 206
+  size: 92, 99
+  orig: 270, 180
+  offset: 74, 66
+  index: -1
+effect/skillC/lizi/lizi_00014
+  rotate: true
+  xy: 2, 103
+  size: 99, 93
+  orig: 180, 180
+  offset: 41, 46
+  index: -1
+effect/skillC/lizi/lizi_00016
+  rotate: true
+  xy: 2, 2
+  size: 99, 91
+  orig: 180, 180
+  offset: 41, 47
+  index: -1

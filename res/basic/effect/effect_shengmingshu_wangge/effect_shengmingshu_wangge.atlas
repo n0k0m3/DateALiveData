@@ -1,0 +1,90 @@
+
+effect_shengmingshu_wangge.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/fangkuaida
+  rotate: false
+  xy: 2, 14
+  size: 401, 368
+  orig: 401, 368
+  offset: 0, 0
+  index: -1
+images/fangkuaida2
+  rotate: false
+  xy: 2, 384
+  size: 472, 347
+  orig: 472, 347
+  offset: 0, 0
+  index: -1
+images/fangkuaida3
+  rotate: true
+  xy: 634, 745
+  size: 272, 286
+  orig: 272, 286
+  offset: 0, 0
+  index: -1
+images/fangkuaida4
+  rotate: false
+  xy: 405, 114
+  size: 188, 268
+  orig: 188, 268
+  offset: 0, 0
+  index: -1
+images/fangkuaixiao
+  rotate: false
+  xy: 661, 465
+  size: 278, 278
+  orig: 278, 278
+  offset: 0, 0
+  index: -1
+images/fangkuaizhong
+  rotate: true
+  xy: 476, 396
+  size: 335, 183
+  orig: 335, 183
+  offset: 0, 0
+  index: -1
+images/fangkuaizhong2
+  rotate: false
+  xy: 2, 733
+  size: 630, 284
+  orig: 630, 284
+  offset: 0, 0
+  index: -1
+images/fangkuaizhong3
+  rotate: true
+  xy: 661, 341
+  size: 122, 125
+  orig: 122, 125
+  offset: 0, 0
+  index: -1
+images/fangkuaizhong4
+  rotate: true
+  xy: 922, 882
+  size: 135, 95
+  orig: 135, 95
+  offset: 0, 0
+  index: -1
+images/fangkuaizhong5
+  rotate: false
+  xy: 405, 35
+  size: 114, 77
+  orig: 114, 77
+  offset: 0, 0
+  index: -1
+images/fangkuaizhong6
+  rotate: false
+  xy: 922, 794
+  size: 92, 86
+  orig: 92, 86
+  offset: 0, 0
+  index: -1
+images/fangkuaizhong7
+  rotate: false
+  xy: 788, 422
+  size: 46, 41
+  orig: 46, 41
+  offset: 0, 0
+  index: -1

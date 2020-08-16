@@ -1,0 +1,125 @@
+
+effects_22201_skillA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+te_xiao/huan_1
+  rotate: false
+  xy: 425, 249
+  size: 142, 142
+  orig: 142, 142
+  offset: 0, 0
+  index: -1
+te_xiao/skillA/BDA/BDA_00001
+  rotate: false
+  xy: 842, 448
+  size: 129, 167
+  orig: 225, 238
+  offset: 48, 41
+  index: -1
+te_xiao/skillA/BDA/BDA_00002
+  rotate: true
+  xy: 222, 255
+  size: 140, 201
+  orig: 225, 238
+  offset: 39, 25
+  index: -1
+te_xiao/skillA/BDA/BDA_00003
+  rotate: false
+  xy: 465, 549
+  size: 192, 219
+  orig: 225, 238
+  offset: 14, 12
+  index: -1
+te_xiao/skillA/BDA/BDA_00004
+  rotate: true
+  xy: 687, 617
+  size: 189, 234
+  orig: 225, 238
+  offset: 13, 0
+  index: -1
+te_xiao/skillA/BDA/BDA_00005
+  rotate: true
+  xy: 2, 2
+  size: 216, 210
+  orig: 225, 238
+  offset: 0, 21
+  index: -1
+te_xiao/skillA/BDA/BDA_00006
+  rotate: false
+  xy: 240, 543
+  size: 223, 223
+  orig: 225, 238
+  offset: 0, 15
+  index: -1
+te_xiao/skillA/BDA/BDA_00007
+  rotate: false
+  xy: 222, 397
+  size: 208, 144
+  orig: 225, 238
+  offset: 17, 68
+  index: -1
+te_xiao/skillA/BDA/BDA_00008
+  rotate: true
+  xy: 432, 393
+  size: 148, 143
+  orig: 225, 238
+  offset: 23, 68
+  index: -1
+te_xiao/skillA/lizi/genshui_00000
+  rotate: false
+  xy: 2, 476
+  size: 218, 266
+  orig: 357, 287
+  offset: 139, 21
+  index: -1
+te_xiao/skillA/lizi/genshui_00002
+  rotate: false
+  xy: 2, 744
+  size: 236, 278
+  orig: 357, 287
+  offset: 121, 9
+  index: -1
+te_xiao/skillA/lizi/genshui_00004
+  rotate: false
+  xy: 464, 770
+  size: 221, 252
+  orig: 357, 287
+  offset: 133, 20
+  index: -1
+te_xiao/skillA/lizi/genshui_00006
+  rotate: true
+  xy: 687, 808
+  size: 214, 254
+  orig: 357, 287
+  offset: 106, 15
+  index: -1
+te_xiao/skillA/lizi/genshui_00008
+  rotate: false
+  xy: 2, 220
+  size: 218, 254
+  orig: 357, 287
+  offset: 77, 16
+  index: -1
+te_xiao/skillA/lizi/genshui_00010
+  rotate: false
+  xy: 240, 768
+  size: 222, 254
+  orig: 357, 287
+  offset: 42, 11
+  index: -1
+te_xiao/skillA/lizi/genshui_00012
+  rotate: true
+  xy: 659, 470
+  size: 145, 181
+  orig: 357, 287
+  offset: 94, 84
+  index: -1
+te_xiao/skillA/lizi/genshui_00014
+  rotate: true
+  xy: 222, 132
+  size: 121, 170
+  orig: 357, 287
+  offset: 83, 85
+  index: -1

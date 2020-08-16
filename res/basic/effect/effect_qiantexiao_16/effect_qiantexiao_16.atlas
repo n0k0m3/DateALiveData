@@ -1,0 +1,104 @@
+
+effect_qiantexiao_16.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/dengguang_00000
+  rotate: false
+  xy: 2, 708
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+images/diguang_00000
+  rotate: false
+  xy: 2, 406
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+images/yanwu/yanwu_00000
+  rotate: false
+  xy: 304, 808
+  size: 158, 200
+  orig: 158, 200
+  offset: 0, 0
+  index: -1
+images/yanwu/yanwu_00001
+  rotate: false
+  xy: 2, 204
+  size: 158, 200
+  orig: 158, 200
+  offset: 0, 0
+  index: -1
+images/yanwu/yanwu_00002
+  rotate: false
+  xy: 304, 606
+  size: 158, 200
+  orig: 158, 200
+  offset: 0, 0
+  index: -1
+images/yanwu/yanwu_00003
+  rotate: false
+  xy: 464, 808
+  size: 158, 200
+  orig: 158, 200
+  offset: 0, 0
+  index: -1
+images/yanwu/yanwu_00004
+  rotate: false
+  xy: 2, 2
+  size: 158, 200
+  orig: 158, 200
+  offset: 0, 0
+  index: -1
+images/yanwu/yanwu_00005
+  rotate: false
+  xy: 464, 606
+  size: 158, 200
+  orig: 158, 200
+  offset: 0, 0
+  index: -1
+images/yanwu/yanwu_00006
+  rotate: true
+  xy: 304, 446
+  size: 158, 200
+  orig: 158, 200
+  offset: 0, 0
+  index: -1
+images/yanwu/yanwu_00007
+  rotate: false
+  xy: 624, 808
+  size: 158, 200
+  orig: 158, 200
+  offset: 0, 0
+  index: -1
+images/yanwu/yanwu_00008
+  rotate: false
+  xy: 624, 606
+  size: 158, 200
+  orig: 158, 200
+  offset: 0, 0
+  index: -1
+images/yanwu/yanwu_00009
+  rotate: true
+  xy: 506, 446
+  size: 158, 200
+  orig: 158, 200
+  offset: 0, 0
+  index: -1
+images/yanwu/yanwu_00010
+  rotate: false
+  xy: 784, 808
+  size: 158, 200
+  orig: 158, 200
+  offset: 0, 0
+  index: -1
+images/yanwu/yanwu_00011
+  rotate: false
+  xy: 784, 606
+  size: 158, 200
+  orig: 158, 200
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,20 @@
+
+effect_heroGrow_ui10.png
+size: 64,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+kuai_00010
+  rotate: false
+  xy: 2, 15
+  size: 23, 23
+  orig: 75, 75
+  offset: 27, 25
+  index: -1
+xian_00010
+  rotate: false
+  xy: 2, 40
+  size: 59, 21
+  orig: 75, 75
+  offset: 9, 27
+  index: -1

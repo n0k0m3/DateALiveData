@@ -1,0 +1,118 @@
+
+effects_10201_win.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_01/win/quan_00013
+  rotate: false
+  xy: 2, 850
+  size: 248, 96
+  orig: 258, 112
+  offset: 5, 8
+  index: -1
+effect_01/win/zaobo_00014
+  rotate: true
+  xy: 2, 591
+  size: 139, 112
+  orig: 155, 124
+  offset: 8, 5
+  index: -1
+effect_01/win/zaobo_00016
+  rotate: true
+  xy: 2, 174
+  size: 138, 110
+  orig: 155, 124
+  offset: 9, 6
+  index: -1
+effect_01/win/zaobo_00018
+  rotate: false
+  xy: 392, 841
+  size: 137, 105
+  orig: 155, 124
+  offset: 9, 6
+  index: -1
+effect_01/win/zaobo_00020
+  rotate: false
+  xy: 531, 839
+  size: 137, 107
+  orig: 155, 124
+  offset: 9, 6
+  index: -1
+effect_01/win/zaobo_00022
+  rotate: false
+  xy: 670, 838
+  size: 137, 108
+  orig: 155, 124
+  offset: 9, 6
+  index: -1
+effect_01/win/zaobo_00024
+  rotate: false
+  xy: 809, 838
+  size: 137, 108
+  orig: 155, 124
+  offset: 9, 6
+  index: -1
+effect_01/win/zaobo_00026
+  rotate: true
+  xy: 141, 711
+  size: 137, 107
+  orig: 155, 124
+  offset: 9, 6
+  index: -1
+effect_01/win/zaobo_00028
+  rotate: false
+  xy: 389, 737
+  size: 137, 102
+  orig: 155, 124
+  offset: 9, 6
+  index: -1
+effect_01/win/zaobo_00030
+  rotate: false
+  xy: 250, 738
+  size: 137, 103
+  orig: 155, 124
+  offset: 9, 6
+  index: -1
+effect_01/win/zaobo_00032
+  rotate: false
+  xy: 252, 843
+  size: 138, 103
+  orig: 155, 124
+  offset: 9, 6
+  index: -1
+effect_01/win/zaobo_00034
+  rotate: true
+  xy: 2, 34
+  size: 138, 109
+  orig: 155, 124
+  offset: 9, 6
+  index: -1
+effect_01/win/zaobo_00036
+  rotate: true
+  xy: 2, 452
+  size: 137, 113
+  orig: 155, 124
+  offset: 9, 6
+  index: -1
+effect_01/win/zaobo_00038
+  rotate: false
+  xy: 2, 732
+  size: 137, 116
+  orig: 155, 124
+  offset: 9, 6
+  index: -1
+effect_01/win/zaobo_00040
+  rotate: true
+  xy: 2, 314
+  size: 136, 115
+  orig: 155, 124
+  offset: 10, 8
+  index: -1
+effect_01/win/zaobo_00042
+  rotate: false
+  xy: 528, 734
+  size: 126, 103
+  orig: 155, 124
+  offset: 13, 21
+  index: -1

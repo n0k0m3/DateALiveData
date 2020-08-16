@@ -1,0 +1,447 @@
+
+effects_10501_hit.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/hit/add/bao2_00028
+  rotate: true
+  xy: 685, 649
+  size: 59, 58
+  orig: 109, 109
+  offset: 26, 24
+  index: -1
+images/effect/hit/add/bao2_00029
+  rotate: false
+  xy: 175, 275
+  size: 109, 109
+  orig: 109, 109
+  offset: 0, 0
+  index: -1
+images/effect/hit/add/bao2_00030
+  rotate: false
+  xy: 118, 164
+  size: 109, 109
+  orig: 109, 109
+  offset: 0, 0
+  index: -1
+images/effect/hit/add/bao2_00031
+  rotate: false
+  xy: 116, 53
+  size: 109, 109
+  orig: 109, 109
+  offset: 0, 0
+  index: -1
+images/effect/hit/add/bao2_00032
+  rotate: false
+  xy: 831, 726
+  size: 72, 73
+  orig: 109, 109
+  offset: 20, 16
+  index: -1
+images/effect/hit/add/bao2_00033
+  rotate: false
+  xy: 613, 620
+  size: 70, 74
+  orig: 109, 109
+  offset: 21, 14
+  index: -1
+images/effect/hit/add/bao3_00027
+  rotate: false
+  xy: 944, 903
+  size: 78, 119
+  orig: 103, 143
+  offset: 14, 3
+  index: -1
+images/effect/hit/add/bao3_00028
+  rotate: true
+  xy: 287, 623
+  size: 88, 135
+  orig: 103, 143
+  offset: 6, 2
+  index: -1
+images/effect/hit/add/bao3_00029
+  rotate: false
+  xy: 521, 629
+  size: 90, 100
+  orig: 103, 143
+  offset: 6, 28
+  index: -1
+images/effect/hit/add/bao3_00030
+  rotate: false
+  xy: 424, 632
+  size: 95, 97
+  orig: 103, 143
+  offset: 2, 30
+  index: -1
+images/effect/hit/add/bao3_00031
+  rotate: true
+  xy: 736, 728
+  size: 71, 93
+  orig: 103, 143
+  offset: 4, 33
+  index: -1
+images/effect/hit/add/bao3_00032
+  rotate: false
+  xy: 670, 751
+  size: 64, 74
+  orig: 103, 143
+  offset: 10, 53
+  index: -1
+images/effect/hit/add/bao3_00033
+  rotate: false
+  xy: 233, 13
+  size: 55, 38
+  orig: 103, 143
+  offset: 12, 61
+  index: -1
+images/effect/hit/add/bao_00014
+  rotate: true
+  xy: 877, 838
+  size: 126, 64
+  orig: 144, 66
+  offset: 4, 1
+  index: -1
+images/effect/hit/add/bao_00015
+  rotate: false
+  xy: 146, 519
+  size: 134, 64
+  orig: 144, 66
+  offset: 0, 1
+  index: -1
+images/effect/hit/add/bao_00016
+  rotate: false
+  xy: 736, 801
+  size: 138, 64
+  orig: 144, 66
+  offset: 0, 1
+  index: -1
+images/effect/hit/add/bao_00017
+  rotate: false
+  xy: 592, 827
+  size: 142, 62
+  orig: 144, 66
+  offset: 0, 2
+  index: -1
+images/effect/hit/add/bao_00018
+  rotate: true
+  xy: 120, 363
+  size: 144, 53
+  orig: 144, 66
+  offset: 0, 6
+  index: -1
+images/effect/hit/add/bao_00019
+  rotate: false
+  xy: 299, 823
+  size: 144, 53
+  orig: 144, 66
+  offset: 0, 6
+  index: -1
+images/effect/hit/add/bao_00020
+  rotate: false
+  xy: 446, 838
+  size: 144, 51
+  orig: 144, 66
+  offset: 0, 7
+  index: -1
+images/effect/hit/add/bao_00021
+  rotate: false
+  xy: 445, 785
+  size: 120, 51
+  orig: 144, 66
+  offset: 9, 7
+  index: -1
+images/effect/hit/add/bao_00022
+  rotate: false
+  xy: 422, 731
+  size: 120, 52
+  orig: 144, 66
+  offset: 9, 6
+  index: -1
+images/effect/hit/add/guangtiao_00027
+  rotate: true
+  xy: 738, 966
+  size: 56, 204
+  orig: 61, 220
+  offset: 1, 3
+  index: -1
+images/effect/hit/add/quan_00061
+  rotate: false
+  xy: 2, 45
+  size: 112, 134
+  orig: 170, 188
+  offset: 25, 30
+  index: -1
+images/effect/hit/add/quan_00063
+  rotate: true
+  xy: 446, 891
+  size: 131, 145
+  orig: 170, 188
+  offset: 17, 17
+  index: -1
+images/effect/hit/add/quan_00065
+  rotate: false
+  xy: 2, 509
+  size: 142, 163
+  orig: 170, 188
+  offset: 12, 10
+  index: -1
+images/effect/hit/add/quan_00067
+  rotate: false
+  xy: 2, 674
+  size: 148, 172
+  orig: 170, 188
+  offset: 10, 5
+  index: -1
+images/effect/hit/add/quan_00069
+  rotate: false
+  xy: 2, 848
+  size: 148, 174
+  orig: 170, 188
+  offset: 12, 4
+  index: -1
+images/effect/hit/add/quan_00071
+  rotate: false
+  xy: 152, 858
+  size: 145, 164
+  orig: 170, 188
+  offset: 17, 17
+  index: -1
+images/effect/hit/add/quan_00072
+  rotate: false
+  xy: 299, 878
+  size: 145, 144
+  orig: 170, 188
+  offset: 17, 24
+  index: -1
+images/effect/hit/add/shan_00026
+  rotate: false
+  xy: 544, 731
+  size: 28, 28
+  orig: 40, 39
+  offset: 6, 6
+  index: -1
+images/effect/hit/mul/bao_00015
+  rotate: true
+  xy: 665, 710
+  size: 39, 56
+  orig: 101, 131
+  offset: 28, 17
+  index: -1
+images/effect/hit/mul/bao_00016
+  rotate: true
+  xy: 567, 761
+  size: 64, 101
+  orig: 101, 131
+  offset: 18, 11
+  index: -1
+images/effect/hit/mul/bao_00017
+  rotate: true
+  xy: 286, 276
+  size: 75, 119
+  orig: 101, 131
+  offset: 15, 8
+  index: -1
+images/effect/hit/mul/bao_00018
+  rotate: false
+  xy: 943, 813
+  size: 79, 88
+  orig: 101, 131
+  offset: 13, 30
+  index: -1
+images/effect/hit/mul/bao_00019
+  rotate: false
+  xy: 905, 727
+  size: 83, 84
+  orig: 101, 131
+  offset: 11, 30
+  index: -1
+images/effect/hit/mul/bao_00020
+  rotate: false
+  xy: 378, 93
+  size: 59, 83
+  orig: 101, 131
+  offset: 34, 31
+  index: -1
+images/effect/hit/mul/bao_00021
+  rotate: false
+  xy: 613, 696
+  size: 50, 63
+  orig: 101, 131
+  offset: 35, 50
+  index: -1
+images/effect/hit/mul/bao_00022
+  rotate: false
+  xy: 685, 610
+  size: 42, 37
+  orig: 101, 131
+  offset: 42, 54
+  index: -1
+images/effect/hit/nor/bao2_00061
+  rotate: false
+  xy: 292, 178
+  size: 102, 96
+  orig: 168, 151
+  offset: 36, 42
+  index: -1
+images/effect/hit/nor/bao2_00063
+  rotate: false
+  xy: 593, 891
+  size: 143, 131
+  orig: 168, 151
+  offset: 14, 19
+  index: -1
+images/effect/hit/nor/bao2_00065
+  rotate: true
+  xy: 152, 693
+  size: 163, 133
+  orig: 168, 151
+  offset: 4, 12
+  index: -1
+images/effect/hit/nor/bao2_00067
+  rotate: true
+  xy: 2, 342
+  size: 165, 116
+  orig: 168, 151
+  offset: 3, 16
+  index: -1
+images/effect/hit/nor/bao2_00069
+  rotate: true
+  xy: 2, 181
+  size: 159, 114
+  orig: 168, 151
+  offset: 7, 24
+  index: -1
+images/effect/hit/nor/bao2_00071
+  rotate: false
+  xy: 286, 432
+  size: 125, 99
+  orig: 168, 151
+  offset: 36, 25
+  index: -1
+images/effect/hit/nor/bao2_00073
+  rotate: false
+  xy: 2, 14
+  size: 73, 29
+  orig: 168, 151
+  offset: 37, 53
+  index: -1
+images/effect/hit/nor/bao3_00062
+  rotate: true
+  xy: 116, 2
+  size: 49, 115
+  orig: 70, 149
+  offset: 7, 3
+  index: -1
+images/effect/hit/nor/bao3_00063
+  rotate: false
+  xy: 229, 162
+  size: 61, 111
+  orig: 70, 149
+  offset: 5, 36
+  index: -1
+images/effect/hit/nor/bao3_00064
+  rotate: false
+  xy: 227, 53
+  size: 61, 107
+  orig: 70, 149
+  offset: 5, 40
+  index: -1
+images/effect/hit/nor/bao3_00065
+  rotate: false
+  xy: 439, 105
+  size: 58, 83
+  orig: 70, 149
+  offset: 6, 54
+  index: -1
+images/effect/hit/nor/bao_00027
+  rotate: true
+  xy: 407, 276
+  size: 75, 77
+  orig: 82, 84
+  offset: 7, 3
+  index: -1
+images/effect/hit/nor/bao_00028
+  rotate: false
+  xy: 411, 353
+  size: 75, 77
+  orig: 82, 84
+  offset: 7, 3
+  index: -1
+images/effect/hit/nor/bao_00029
+  rotate: true
+  xy: 376, 9
+  size: 82, 80
+  orig: 82, 84
+  offset: 0, 3
+  index: -1
+images/effect/hit/nor/bao_00030
+  rotate: true
+  xy: 292, 94
+  size: 82, 84
+  orig: 82, 84
+  offset: 0, 0
+  index: -1
+images/effect/hit/nor/bao_00031
+  rotate: true
+  xy: 290, 10
+  size: 82, 84
+  orig: 82, 84
+  offset: 0, 0
+  index: -1
+images/effect/hit/nor/bao_00032
+  rotate: false
+  xy: 396, 190
+  size: 82, 84
+  orig: 82, 84
+  offset: 0, 0
+  index: -1
+images/effect/hit/nor/bao_00033
+  rotate: false
+  xy: 458, 26
+  size: 75, 77
+  orig: 82, 84
+  offset: 7, 3
+  index: -1
+images/effect/hit/nor/quan_00064
+  rotate: false
+  xy: 286, 353
+  size: 123, 77
+  orig: 144, 113
+  offset: 9, 16
+  index: -1
+images/effect/hit/nor/quan_00066
+  rotate: false
+  xy: 285, 533
+  size: 130, 88
+  orig: 144, 113
+  offset: 6, 11
+  index: -1
+images/effect/hit/nor/quan_00068
+  rotate: false
+  xy: 738, 867
+  size: 137, 97
+  orig: 144, 113
+  offset: 3, 7
+  index: -1
+images/effect/hit/nor/quan_00070
+  rotate: false
+  xy: 152, 585
+  size: 131, 106
+  orig: 144, 113
+  offset: 13, 3
+  index: -1
+images/effect/hit/nor/quan_00072
+  rotate: false
+  xy: 287, 713
+  size: 133, 108
+  orig: 144, 113
+  offset: 10, 3
+  index: -1
+images/effect/hit/nor/quan_00073
+  rotate: true
+  xy: 175, 386
+  size: 131, 109
+  orig: 144, 113
+  offset: 9, 2
+  index: -1

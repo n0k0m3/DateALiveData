@@ -1,0 +1,384 @@
+
+fight_10305_T.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+4xbm
+  rotate: true
+  xy: 2, 171
+  size: 212, 149
+  orig: 255, 227
+  offset: 9, 14
+  index: -1
+doll_3
+  rotate: false
+  xy: 989, 969
+  size: 29, 53
+  orig: 29, 53
+  offset: 0, 0
+  index: -1
+effects/born/goubianlizi/goubianlizi_00000
+  rotate: false
+  xy: 165, 384
+  size: 42, 51
+  orig: 55, 55
+  offset: 10, 3
+  index: -1
+effects/born/goubianlizi/goubianlizi_00001
+  rotate: false
+  xy: 153, 227
+  size: 40, 51
+  orig: 55, 55
+  offset: 10, 2
+  index: -1
+effects/born/goubianlizi/goubianlizi_00002
+  rotate: false
+  xy: 949, 870
+  size: 40, 53
+  orig: 55, 55
+  offset: 11, 1
+  index: -1
+effects/born/goubianlizi/goubianlizi_00003
+  rotate: false
+  xy: 165, 437
+  size: 43, 52
+  orig: 55, 55
+  offset: 11, 0
+  index: -1
+effects/born/goubianlizi/goubianlizi_00005
+  rotate: false
+  xy: 901, 861
+  size: 46, 54
+  orig: 55, 55
+  offset: 9, 0
+  index: -1
+effects/born/goubianlizi/goubianlizi_00007
+  rotate: false
+  xy: 165, 546
+  size: 48, 53
+  orig: 55, 55
+  offset: 7, 0
+  index: -1
+effects/born/goubianlizi/goubianlizi_00009
+  rotate: false
+  xy: 391, 815
+  size: 30, 43
+  orig: 55, 55
+  offset: 8, 10
+  index: -1
+effects/born/goubianlizi/goubianlizi_00011
+  rotate: false
+  xy: 989, 932
+  size: 29, 35
+  orig: 55, 55
+  offset: 6, 14
+  index: -1
+effects/born/goubianlizi/goubianlizi_00013
+  rotate: true
+  xy: 506, 821
+  size: 32, 35
+  orig: 55, 55
+  offset: 2, 11
+  index: -1
+effects/born/goubianlizi/goubianlizi_00015
+  rotate: false
+  xy: 150, 137
+  size: 26, 28
+  orig: 55, 55
+  offset: 7, 13
+  index: -1
+effects/born/goubianlizi/goubianlizi_00017
+  rotate: true
+  xy: 191, 747
+  size: 20, 14
+  orig: 55, 55
+  offset: 10, 22
+  index: -1
+effects/born/goubianlizi/goubianlizi_00019
+  rotate: false
+  xy: 616, 844
+  size: 8, 9
+  orig: 55, 55
+  offset: 10, 22
+  index: -1
+effects/born/jianshui1/jianshui1_00007
+  rotate: true
+  xy: 880, 814
+  size: 26, 19
+  orig: 40, 21
+  offset: 6, 1
+  index: -1
+effects/born/jianshui1/jianshui1_00008
+  rotate: false
+  xy: 153, 167
+  size: 35, 20
+  orig: 40, 21
+  offset: 1, 1
+  index: -1
+effects/born/jianshui1/jianshui1_00010
+  rotate: false
+  xy: 840, 819
+  size: 38, 21
+  orig: 40, 21
+  offset: 0, 0
+  index: -1
+effects/born/jianshui1/jianshui1_00012
+  rotate: false
+  xy: 901, 841
+  size: 40, 18
+  orig: 40, 21
+  offset: 0, 0
+  index: -1
+effects/born/jianshui1/jianshui1_00014
+  rotate: true
+  xy: 191, 769
+  size: 40, 11
+  orig: 40, 21
+  offset: 0, 0
+  index: -1
+effects/born/jianshui2/jianshui2_00023
+  rotate: false
+  xy: 580, 823
+  size: 34, 30
+  orig: 48, 37
+  offset: 14, 2
+  index: -1
+effects/born/jianshui2/jianshui2_00024
+  rotate: false
+  xy: 153, 189
+  size: 40, 36
+  orig: 48, 37
+  offset: 8, 1
+  index: -1
+effects/born/jianshui2/jianshui2_00026
+  rotate: false
+  xy: 423, 817
+  size: 40, 36
+  orig: 48, 37
+  offset: 6, 0
+  index: -1
+effects/born/jianshui2/jianshui2_00028
+  rotate: false
+  xy: 543, 821
+  size: 35, 32
+  orig: 48, 37
+  offset: 5, 1
+  index: -1
+effects/born/jianshui2/jianshui2_00030
+  rotate: true
+  xy: 991, 875
+  size: 36, 25
+  orig: 48, 37
+  offset: 2, 0
+  index: -1
+effects/born/jianshui2/jianshui2_00032
+  rotate: false
+  xy: 991, 913
+  size: 31, 17
+  orig: 48, 37
+  offset: 0, 1
+  index: -1
+effects/born/jianshui3/jianshui3_00024
+  rotate: false
+  xy: 63, 2
+  size: 44, 33
+  orig: 61, 49
+  offset: 0, 1
+  index: -1
+effects/born/jianshui3/jianshui3_00026
+  rotate: false
+  xy: 153, 334
+  size: 48, 48
+  orig: 61, 49
+  offset: 0, 0
+  index: -1
+effects/born/jianshui3/jianshui3_00028
+  rotate: true
+  xy: 165, 491
+  size: 53, 46
+  orig: 61, 49
+  offset: 5, 1
+  index: -1
+effects/born/jianshui3/jianshui3_00030
+  rotate: true
+  xy: 153, 280
+  size: 52, 42
+  orig: 61, 49
+  offset: 8, 1
+  index: -1
+effects/born/jianshui3/jianshui3_00032
+  rotate: false
+  xy: 465, 823
+  size: 39, 30
+  orig: 61, 49
+  offset: 22, 2
+  index: -1
+effects/born/jianshui3/jianshui3_00034
+  rotate: false
+  xy: 191, 714
+  size: 16, 12
+  orig: 61, 49
+  offset: 43, 10
+  index: -1
+effects/born/shuiwa_00024
+  rotate: false
+  xy: 206, 823
+  size: 116, 35
+  orig: 120, 35
+  offset: 3, 0
+  index: -1
+hat_1
+  rotate: true
+  xy: 791, 820
+  size: 89, 47
+  orig: 89, 47
+  offset: 0, 0
+  index: -1
+l_forearm_2_back
+  rotate: false
+  xy: 923, 822
+  size: 18, 17
+  orig: 18, 17
+  offset: 0, 0
+  index: -1
+l_fotearm_2
+  rotate: true
+  xy: 109, 7
+  size: 28, 26
+  orig: 28, 26
+  offset: 0, 0
+  index: -1
+l_uparm_2
+  rotate: true
+  xy: 131, 124
+  size: 45, 17
+  orig: 46, 17
+  offset: 0, 0
+  index: -1
+maozi_0001
+  rotate: true
+  xy: 937, 925
+  size: 97, 50
+  orig: 97, 50
+  offset: 0, 0
+  index: -1
+maozi_0002
+  rotate: true
+  xy: 131, 84
+  size: 38, 23
+  orig: 38, 23
+  offset: 0, 0
+  index: -1
+maozi_0003
+  rotate: false
+  xy: 840, 842
+  size: 59, 73
+  orig: 59, 73
+  offset: 0, 0
+  index: -1
+s_doll
+  rotate: true
+  xy: 2, 2
+  size: 33, 59
+  orig: 33, 59
+  offset: 0, 0
+  index: -1
+s_tail
+  rotate: false
+  xy: 324, 817
+  size: 65, 41
+  orig: 65, 41
+  offset: 0, 0
+  index: -1
+tuzi_0002
+  rotate: false
+  xy: 2, 811
+  size: 202, 211
+  orig: 214, 218
+  offset: 12, 4
+  index: -1
+tuzi_0003
+  rotate: false
+  xy: 2, 385
+  size: 161, 214
+  orig: 214, 218
+  offset: 28, 3
+  index: -1
+tuzi_0004
+  rotate: true
+  xy: 626, 911
+  size: 111, 205
+  orig: 214, 218
+  offset: 33, 6
+  index: -1
+tuzi_0005
+  rotate: true
+  xy: 423, 855
+  size: 167, 201
+  orig: 214, 218
+  offset: 0, 7
+  index: -1
+tuzi_0006
+  rotate: false
+  xy: 2, 601
+  size: 187, 208
+  orig: 214, 218
+  offset: 6, 0
+  index: -1
+tuzi_0007
+  rotate: true
+  xy: 206, 860
+  size: 162, 215
+  orig: 214, 218
+  offset: 30, 0
+  index: -1
+tuzi_0008
+  rotate: false
+  xy: 833, 917
+  size: 102, 105
+  orig: 102, 105
+  offset: 0, 0
+  index: -1
+tuzi_0009
+  rotate: false
+  xy: 2, 37
+  size: 127, 132
+  orig: 127, 132
+  offset: 0, 0
+  index: -1
+tuzi_0010
+  rotate: false
+  xy: 626, 813
+  size: 109, 96
+  orig: 109, 96
+  offset: 0, 0
+  index: -1
+tuzi_0011
+  rotate: false
+  xy: 737, 822
+  size: 52, 87
+  orig: 52, 87
+  offset: 0, 0
+  index: -1
+x_doll_zm0008
+  rotate: false
+  xy: 901, 819
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+x_dress1
+  rotate: false
+  xy: 131, 47
+  size: 22, 35
+  orig: 22, 35
+  offset: 0, 0
+  index: -1
+x_r_footgs
+  rotate: true
+  xy: 191, 728
+  size: 17, 16
+  orig: 17, 16
+  offset: 0, 0
+  index: -1

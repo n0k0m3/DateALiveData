@@ -1,0 +1,41 @@
+
+effects_20101_skillC.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/skillC/daoguang_00000
+  rotate: false
+  xy: 2, 207
+  size: 421, 215
+  orig: 450, 220
+  offset: 17, 5
+  index: -1
+images/effect/skillC/daoguang_00001
+  rotate: false
+  xy: 2, 641
+  size: 429, 215
+  orig: 450, 220
+  offset: 9, 5
+  index: -1
+images/effect/skillC/daoguang_00002
+  rotate: false
+  xy: 433, 641
+  size: 423, 215
+  orig: 450, 220
+  offset: 15, 5
+  index: -1
+images/effect/skillC/daoguang_00003
+  rotate: false
+  xy: 2, 424
+  size: 425, 215
+  orig: 450, 220
+  offset: 13, 5
+  index: -1
+images/effect/skillC/daoguang_00004
+  rotate: false
+  xy: 429, 424
+  size: 421, 215
+  orig: 450, 220
+  offset: 17, 5
+  index: -1

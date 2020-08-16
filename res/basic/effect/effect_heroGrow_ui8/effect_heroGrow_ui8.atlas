@@ -1,0 +1,76 @@
+
+effect_heroGrow_ui8.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jin/jin_00015
+  rotate: false
+  xy: 2, 381
+  size: 130, 129
+  orig: 225, 225
+  offset: 40, 52
+  index: -1
+jin/jin_00016
+  rotate: false
+  xy: 2, 250
+  size: 130, 129
+  orig: 225, 225
+  offset: 40, 52
+  index: -1
+jin/jin_00017
+  rotate: false
+  xy: 134, 381
+  size: 130, 129
+  orig: 225, 225
+  offset: 40, 52
+  index: -1
+jin/jin_00018
+  rotate: false
+  xy: 2, 119
+  size: 130, 129
+  orig: 225, 225
+  offset: 40, 52
+  index: -1
+jin/jin_00019
+  rotate: false
+  xy: 134, 256
+  size: 124, 123
+  orig: 225, 225
+  offset: 43, 55
+  index: -1
+jin/jin_00020
+  rotate: false
+  xy: 266, 387
+  size: 124, 123
+  orig: 225, 225
+  offset: 43, 55
+  index: -1
+jin/jin_00021
+  rotate: false
+  xy: 392, 391
+  size: 118, 119
+  orig: 225, 225
+  offset: 46, 57
+  index: -1
+jin/jin_00022
+  rotate: false
+  xy: 2, 36
+  size: 77, 81
+  orig: 225, 225
+  offset: 64, 76
+  index: -1
+jin/jin_00023
+  rotate: false
+  xy: 134, 175
+  size: 74, 79
+  orig: 225, 225
+  offset: 66, 77
+  index: -1
+jin/jin_00024
+  rotate: false
+  xy: 81, 38
+  size: 74, 79
+  orig: 225, 225
+  offset: 66, 77
+  index: -1

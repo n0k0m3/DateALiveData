@@ -1,0 +1,137 @@
+{
+"skeleton": { "hash": "yL6+T48ACKdHPwO8tgFa5oNsRXg", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "down", "parent": "root" },
+	{ "name": "bg", "parent": "down" },
+	{ "name": "kejibiankuang", "parent": "down" },
+	{ "name": "kejibiankuang2", "parent": "down" }
+],
+"slots": [
+	{ "name": "effects/skild/bg_0001", "bone": "bg" },
+	{ "name": "effects/skild/kejibiankuang/kejibiankuang_00041", "bone": "kejibiankuang", "blend": "additive" },
+	{ "name": "effects/skild/kejibiankuang/kejibiankuang_41", "bone": "kejibiankuang2", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"effects/skild/bg_0001": {
+			"effects/skild/bg_0001": { "width": 248, "height": 132 }
+		},
+		"effects/skild/kejibiankuang/kejibiankuang_00041": {
+			"effects/skild/kejibiankuang/kejibiankuang_00041": { "width": 311, "height": 59 },
+			"effects/skild/kejibiankuang/kejibiankuang_00043": { "width": 311, "height": 59 },
+			"effects/skild/kejibiankuang/kejibiankuang_00045": { "width": 311, "height": 59 },
+			"effects/skild/kejibiankuang/kejibiankuang_00047": { "width": 311, "height": 59 },
+			"effects/skild/kejibiankuang/kejibiankuang_00049": { "width": 311, "height": 59 },
+			"effects/skild/kejibiankuang/kejibiankuang_00051": { "width": 311, "height": 59 },
+			"effects/skild/kejibiankuang/kejibiankuang_00053": { "width": 311, "height": 59 },
+			"effects/skild/kejibiankuang/kejibiankuang_00055": { "width": 311, "height": 59 },
+			"effects/skild/kejibiankuang/kejibiankuang_00057": { "width": 311, "height": 59 },
+			"effects/skild/kejibiankuang/kejibiankuang_00059": { "width": 311, "height": 59 }
+		},
+		"effects/skild/kejibiankuang/kejibiankuang_41": {
+			"effects/skild/kejibiankuang/kejibiankuang_00041": { "width": 311, "height": 59 },
+			"effects/skild/kejibiankuang/kejibiankuang_00043": { "width": 311, "height": 59 },
+			"effects/skild/kejibiankuang/kejibiankuang_00045": { "width": 311, "height": 59 },
+			"effects/skild/kejibiankuang/kejibiankuang_00047": { "width": 311, "height": 59 },
+			"effects/skild/kejibiankuang/kejibiankuang_00049": { "width": 311, "height": 59 },
+			"effects/skild/kejibiankuang/kejibiankuang_00051": { "width": 311, "height": 59 },
+			"effects/skild/kejibiankuang/kejibiankuang_00053": { "width": 311, "height": 59 },
+			"effects/skild/kejibiankuang/kejibiankuang_00055": { "width": 311, "height": 59 },
+			"effects/skild/kejibiankuang/kejibiankuang_00057": { "width": 311, "height": 59 },
+			"effects/skild/kejibiankuang/kejibiankuang_00059": { "width": 311, "height": 59 }
+		}
+	}
+},
+"animations": {
+	"effects_skillD1": {
+		"slots": {
+			"effects/skild/bg_0001": {
+				"attachment": [
+					{ "time": 0, "name": "effects/skild/bg_0001" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffe8" }
+				]
+			},
+			"effects/skild/kejibiankuang/kejibiankuang_00041": {
+				"attachment": [
+					{ "time": 0, "name": "effects/skild/kejibiankuang/kejibiankuang_00041" },
+					{ "time": 0.0666, "name": "effects/skild/kejibiankuang/kejibiankuang_00043" },
+					{ "time": 0.1333, "name": "effects/skild/kejibiankuang/kejibiankuang_00045" },
+					{ "time": 0.2, "name": "effects/skild/kejibiankuang/kejibiankuang_00047" },
+					{ "time": 0.2666, "name": "effects/skild/kejibiankuang/kejibiankuang_00049" },
+					{ "time": 0.3333, "name": "effects/skild/kejibiankuang/kejibiankuang_00051" },
+					{ "time": 0.4, "name": "effects/skild/kejibiankuang/kejibiankuang_00053" },
+					{ "time": 0.4666, "name": "effects/skild/kejibiankuang/kejibiankuang_00055" },
+					{ "time": 0.5333, "name": "effects/skild/kejibiankuang/kejibiankuang_00057" },
+					{ "time": 0.6, "name": "effects/skild/kejibiankuang/kejibiankuang_00059" },
+					{ "time": 0.6666, "name": "effects/skild/kejibiankuang/kejibiankuang_00041" },
+					{ "time": 0.7333, "name": "effects/skild/kejibiankuang/kejibiankuang_00043" },
+					{ "time": 0.8, "name": "effects/skild/kejibiankuang/kejibiankuang_00045" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"effects/skild/kejibiankuang/kejibiankuang_41": {
+				"attachment": [
+					{ "time": 0, "name": "effects/skild/kejibiankuang/kejibiankuang_00041" },
+					{ "time": 0.0666, "name": "effects/skild/kejibiankuang/kejibiankuang_00043" },
+					{ "time": 0.1333, "name": "effects/skild/kejibiankuang/kejibiankuang_00045" },
+					{ "time": 0.2, "name": "effects/skild/kejibiankuang/kejibiankuang_00047" },
+					{ "time": 0.2666, "name": "effects/skild/kejibiankuang/kejibiankuang_00049" },
+					{ "time": 0.3333, "name": "effects/skild/kejibiankuang/kejibiankuang_00051" },
+					{ "time": 0.4, "name": "effects/skild/kejibiankuang/kejibiankuang_00053" },
+					{ "time": 0.4666, "name": "effects/skild/kejibiankuang/kejibiankuang_00055" },
+					{ "time": 0.5333, "name": "effects/skild/kejibiankuang/kejibiankuang_00057" },
+					{ "time": 0.6, "name": "effects/skild/kejibiankuang/kejibiankuang_00059" },
+					{ "time": 0.6666, "name": "effects/skild/kejibiankuang/kejibiankuang_00041" },
+					{ "time": 0.7333, "name": "effects/skild/kejibiankuang/kejibiankuang_00043" },
+					{ "time": 0.8, "name": "effects/skild/kejibiankuang/kejibiankuang_00045" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"bg": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -6.96 }
+				],
+				"scale": [
+					{ "time": 0, "x": 11.063, "y": 12.025 }
+				]
+			},
+			"kejibiankuang": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 469.89 }
+				],
+				"scale": [
+					{ "time": 0, "x": 8.124, "y": 8.124 }
+				]
+			},
+			"kejibiankuang2": {
+				"rotate": [
+					{ "time": 0, "angle": 180 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": -473.94 }
+				],
+				"scale": [
+					{ "time": 0, "x": 8.124, "y": 8.124 }
+				]
+			},
+			"root": {
+				"scale": [
+					{ "time": 0, "x": 0.5, "y": 0.5 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	}
+}
+}

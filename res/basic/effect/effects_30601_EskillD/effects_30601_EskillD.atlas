@@ -1,0 +1,669 @@
+
+effects_30601_EskillD.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillb/xuli/xuli_00057
+  rotate: true
+  xy: 78, 308
+  size: 247, 222
+  orig: 261, 235
+  offset: 11, 0
+  index: -1
+images/effects/skillb/xuli/xuli_00061
+  rotate: true
+  xy: 414, 2
+  size: 222, 212
+  orig: 261, 235
+  offset: 24, 2
+  index: -1
+images/effects/skillb/xuli/xuli_00067
+  rotate: false
+  xy: 628, 5
+  size: 258, 229
+  orig: 261, 235
+  offset: 0, 0
+  index: -1
+images/effects/skillb/xuli/xuli_00071
+  rotate: false
+  xy: 160, 2
+  size: 252, 232
+  orig: 261, 235
+  offset: 8, 0
+  index: -1
+images/effects/skillc/ring2/ring2_00041
+  rotate: false
+  xy: 629, 241
+  size: 223, 64
+  orig: 238, 84
+  offset: 6, 8
+  index: -1
+images/effects/skillc/shanguang/shanguang_00026
+  rotate: false
+  xy: 2, 895
+  size: 354, 127
+  orig: 354, 152
+  offset: 0, 12
+  index: -1
+images/effects/skilld/glow2_00039
+  rotate: false
+  xy: 301, 568
+  size: 218, 44
+  orig: 285, 79
+  offset: 33, 18
+  index: -1
+images/effects/skilld/glow_00000
+  rotate: false
+  xy: 666, 712
+  size: 302, 86
+  orig: 350, 88
+  offset: 24, 0
+  index: -1
+images/effects/skilld/ring1/ring1_00039
+  rotate: false
+  xy: 358, 912
+  size: 330, 110
+  orig: 330, 112
+  offset: 0, 0
+  index: -1
+images/effects/skilld/ring1/ring1_00041
+  rotate: false
+  xy: 690, 912
+  size: 330, 110
+  orig: 330, 112
+  offset: 0, 0
+  index: -1
+images/effects/skilld/ring1/ring1_00043
+  rotate: false
+  xy: 358, 800
+  size: 330, 110
+  orig: 330, 112
+  offset: 0, 0
+  index: -1
+images/effects/skilld/ring1/ring1_00045
+  rotate: false
+  xy: 690, 800
+  size: 330, 110
+  orig: 330, 112
+  offset: 0, 0
+  index: -1
+images/effects/skilld/ring1/ring1_00047
+  rotate: false
+  xy: 2, 783
+  size: 330, 110
+  orig: 330, 112
+  offset: 0, 0
+  index: -1
+images/effects/skilld/ring1/ring1_00049
+  rotate: false
+  xy: 334, 691
+  size: 330, 107
+  orig: 330, 112
+  offset: 0, 0
+  index: -1
+images/effects/skilld/ring1/ring1_00051
+  rotate: false
+  xy: 2, 677
+  size: 330, 104
+  orig: 330, 112
+  offset: 0, 0
+  index: -1
+images/effects/skilld/ring2/ring2_00039
+  rotate: true
+  xy: 970, 604
+  size: 194, 52
+  orig: 300, 85
+  offset: 50, 23
+  index: -1
+images/effects/skilld/ring2/ring2_00041
+  rotate: false
+  xy: 629, 330
+  size: 269, 68
+  orig: 300, 85
+  offset: 15, 12
+  index: -1
+images/effects/skilld/ring2/ring2_00043
+  rotate: false
+  xy: 629, 400
+  size: 292, 76
+  orig: 300, 85
+  offset: 0, 6
+  index: -1
+images/effects/skilld/ring2/ring2_00045
+  rotate: false
+  xy: 632, 478
+  size: 292, 77
+  orig: 300, 85
+  offset: 0, 5
+  index: -1
+images/effects/skilld/ring2/ring2_00047
+  rotate: true
+  xy: 81, 12
+  size: 293, 77
+  orig: 300, 85
+  offset: 0, 5
+  index: -1
+images/effects/skilld/ring2/ring2_00049
+  rotate: true
+  xy: 2, 11
+  size: 294, 77
+  orig: 300, 85
+  offset: 0, 5
+  index: -1
+images/effects/skilld/ring2/ring2_00051
+  rotate: true
+  xy: 932, 307
+  size: 295, 77
+  orig: 300, 85
+  offset: 0, 5
+  index: -1
+images/effects/skilld/ring2/ring2_00053
+  rotate: false
+  xy: 634, 557
+  size: 296, 76
+  orig: 300, 85
+  offset: 0, 6
+  index: -1
+images/effects/skilld/ring2/ring2_00055
+  rotate: false
+  xy: 2, 599
+  size: 297, 76
+  orig: 300, 85
+  offset: 0, 6
+  index: -1
+images/effects/skilld/ring2/ring2_00057
+  rotate: false
+  xy: 666, 635
+  size: 298, 75
+  orig: 300, 85
+  offset: 0, 7
+  index: -1
+images/effects/skilld/ring2/ring2_00059
+  rotate: false
+  xy: 334, 614
+  size: 298, 75
+  orig: 300, 85
+  offset: 0, 7
+  index: -1
+images/effects/skilld/ring2/ring2_00061
+  rotate: true
+  xy: 2, 308
+  size: 289, 74
+  orig: 300, 85
+  offset: 3, 8
+  index: -1
+images/effects/skilld/ring_00040
+  rotate: false
+  xy: 302, 351
+  size: 215, 215
+  orig: 258, 250
+  offset: 23, 19
+  index: -1
+images/effects/skilld/zifaguang/zifaguang_00059
+  rotate: false
+  xy: 414, 226
+  size: 103, 123
+  orig: 117, 130
+  offset: 7, 4
+  index: -1
+images/effects/skilld/zifaguang/zifaguang_00069
+  rotate: true
+  xy: 888, 90
+  size: 106, 125
+  orig: 117, 130
+  offset: 3, 4
+  index: -1
+images/effects/skilld/zifaguang/zifaguang_00075
+  rotate: false
+  xy: 521, 487
+  size: 109, 125
+  orig: 117, 130
+  offset: 2, 4
+  index: -1
+images/effects/skilld/zifaguang/zifaguang_00077
+  rotate: false
+  xy: 519, 360
+  size: 108, 125
+  orig: 117, 130
+  offset: 3, 4
+  index: -1
+images/effects/skilld/zifaguang/zifaguang_00079
+  rotate: true
+  xy: 888, 198
+  size: 107, 125
+  orig: 117, 130
+  offset: 4, 4
+  index: -1
+images/effects/skilld/zifaguang/zifaguang_00115
+  rotate: false
+  xy: 519, 236
+  size: 108, 122
+  orig: 117, 130
+  offset: 1, 1
+  index: -1
+images/effects/skilld/zifaguang/zifaguang_00121
+  rotate: false
+  xy: 302, 237
+  size: 102, 112
+  orig: 117, 130
+  offset: 0, 0
+  index: -1
+
+effects_30601_EskillD2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillb/xuli/xuli_00055
+  rotate: false
+  xy: 523, 656
+  size: 249, 220
+  orig: 261, 235
+  offset: 10, 1
+  index: -1
+images/effects/skillb/xuli/xuli_00059
+  rotate: false
+  xy: 775, 810
+  size: 244, 211
+  orig: 261, 235
+  offset: 13, 4
+  index: -1
+images/effects/skillb/xuli/xuli_00063
+  rotate: false
+  xy: 774, 585
+  size: 242, 223
+  orig: 261, 235
+  offset: 8, 0
+  index: -1
+images/effects/skillb/xuli/xuli_00065
+  rotate: false
+  xy: 263, 796
+  size: 258, 225
+  orig: 261, 235
+  offset: 0, 0
+  index: -1
+images/effects/skillb/xuli/xuli_00069
+  rotate: false
+  xy: 2, 795
+  size: 259, 226
+  orig: 261, 235
+  offset: 1, 0
+  index: -1
+images/effects/skillc/ring2/ring2_00023
+  rotate: false
+  xy: 2, 730
+  size: 223, 63
+  orig: 238, 84
+  offset: 6, 9
+  index: -1
+images/effects/skillc/ring2/ring2_00025
+  rotate: false
+  xy: 2, 534
+  size: 219, 63
+  orig: 238, 84
+  offset: 10, 9
+  index: -1
+images/effects/skillc/ring2/ring2_00027
+  rotate: false
+  xy: 743, 455
+  size: 222, 63
+  orig: 238, 84
+  offset: 7, 9
+  index: -1
+images/effects/skillc/ring2/ring2_00029
+  rotate: false
+  xy: 2, 665
+  size: 223, 63
+  orig: 238, 84
+  offset: 6, 9
+  index: -1
+images/effects/skillc/ring2/ring2_00031
+  rotate: false
+  xy: 227, 665
+  size: 223, 63
+  orig: 238, 84
+  offset: 6, 9
+  index: -1
+images/effects/skillc/ring2/ring2_00033
+  rotate: false
+  xy: 518, 591
+  size: 223, 63
+  orig: 238, 84
+  offset: 6, 9
+  index: -1
+images/effects/skillc/ring2/ring2_00035
+  rotate: false
+  xy: 518, 526
+  size: 223, 63
+  orig: 238, 84
+  offset: 6, 9
+  index: -1
+images/effects/skillc/ring2/ring2_00037
+  rotate: true
+  xy: 452, 507
+  size: 221, 64
+  orig: 238, 84
+  offset: 6, 8
+  index: -1
+images/effects/skillc/ring2/ring2_00039
+  rotate: false
+  xy: 2, 599
+  size: 221, 64
+  orig: 238, 84
+  offset: 6, 8
+  index: -1
+images/effects/skillc/ring2/ring2_00043
+  rotate: false
+  xy: 225, 599
+  size: 221, 64
+  orig: 238, 84
+  offset: 8, 8
+  index: -1
+images/effects/skillc/ring2/ring2_00045
+  rotate: false
+  xy: 743, 520
+  size: 223, 63
+  orig: 238, 84
+  offset: 6, 9
+  index: -1
+images/effects/skillc/ring2/ring2_00047
+  rotate: false
+  xy: 518, 461
+  size: 223, 63
+  orig: 238, 84
+  offset: 6, 9
+  index: -1
+images/effects/skillc/ring2/ring2_00049
+  rotate: false
+  xy: 263, 730
+  size: 223, 64
+  orig: 238, 84
+  offset: 6, 8
+  index: -1
+images/effects/skillc/shanguang/shanguang_00027
+  rotate: false
+  xy: 523, 878
+  size: 250, 143
+  orig: 354, 152
+  offset: 51, 2
+  index: -1
+images/effects/skillc/shanguang/shanguang_00028
+  rotate: false
+  xy: 223, 456
+  size: 184, 141
+  orig: 354, 152
+  offset: 84, 3
+  index: -1
+images/effects/skilld/zifaguang/zifaguang_00039
+  rotate: true
+  xy: 334, 13
+  size: 103, 120
+  orig: 117, 130
+  offset: 8, 6
+  index: -1
+images/effects/skilld/zifaguang/zifaguang_00041
+  rotate: false
+  xy: 560, 107
+  size: 102, 121
+  orig: 117, 130
+  offset: 9, 6
+  index: -1
+images/effects/skilld/zifaguang/zifaguang_00043
+  rotate: false
+  xy: 629, 231
+  size: 102, 121
+  orig: 117, 130
+  offset: 9, 6
+  index: -1
+images/effects/skilld/zifaguang/zifaguang_00051
+  rotate: false
+  xy: 768, 108
+  size: 100, 121
+  orig: 117, 130
+  offset: 11, 5
+  index: -1
+images/effects/skilld/zifaguang/zifaguang_00053
+  rotate: false
+  xy: 836, 231
+  size: 100, 121
+  orig: 117, 130
+  offset: 11, 5
+  index: -1
+images/effects/skilld/zifaguang/zifaguang_00055
+  rotate: false
+  xy: 664, 108
+  size: 102, 121
+  orig: 117, 130
+  offset: 9, 5
+  index: -1
+images/effects/skilld/zifaguang/zifaguang_00057
+  rotate: false
+  xy: 317, 118
+  size: 103, 122
+  orig: 117, 130
+  offset: 8, 4
+  index: -1
+images/effects/skilld/zifaguang/zifaguang_00061
+  rotate: true
+  xy: 382, 276
+  size: 104, 124
+  orig: 117, 130
+  offset: 6, 4
+  index: -1
+images/effects/skilld/zifaguang/zifaguang_00063
+  rotate: true
+  xy: 256, 348
+  size: 106, 124
+  orig: 117, 130
+  offset: 4, 4
+  index: -1
+images/effects/skilld/zifaguang/zifaguang_00065
+  rotate: true
+  xy: 518, 354
+  size: 105, 125
+  orig: 117, 130
+  offset: 4, 4
+  index: -1
+images/effects/skilld/zifaguang/zifaguang_00067
+  rotate: true
+  xy: 129, 349
+  size: 105, 125
+  orig: 117, 130
+  offset: 4, 4
+  index: -1
+images/effects/skilld/zifaguang/zifaguang_00071
+  rotate: true
+  xy: 2, 426
+  size: 106, 125
+  orig: 117, 130
+  offset: 3, 4
+  index: -1
+images/effects/skilld/zifaguang/zifaguang_00073
+  rotate: true
+  xy: 2, 319
+  size: 105, 125
+  orig: 117, 130
+  offset: 4, 4
+  index: -1
+images/effects/skilld/zifaguang/zifaguang_00081
+  rotate: true
+  xy: 129, 242
+  size: 105, 124
+  orig: 117, 130
+  offset: 6, 4
+  index: -1
+images/effects/skilld/zifaguang/zifaguang_00083
+  rotate: false
+  xy: 106, 87
+  size: 104, 123
+  orig: 117, 130
+  offset: 7, 5
+  index: -1
+images/effects/skilld/zifaguang/zifaguang_00085
+  rotate: false
+  xy: 526, 230
+  size: 101, 122
+  orig: 117, 130
+  offset: 8, 6
+  index: -1
+images/effects/skilld/zifaguang/zifaguang_00087
+  rotate: false
+  xy: 733, 231
+  size: 101, 121
+  orig: 117, 130
+  offset: 9, 6
+  index: -1
+images/effects/skilld/zifaguang/zifaguang_00089
+  rotate: true
+  xy: 678, 5
+  size: 101, 120
+  orig: 117, 130
+  offset: 10, 6
+  index: -1
+images/effects/skilld/zifaguang/zifaguang_00091
+  rotate: true
+  xy: 768, 354
+  size: 99, 120
+  orig: 117, 130
+  offset: 11, 6
+  index: -1
+images/effects/skilld/zifaguang/zifaguang_00093
+  rotate: true
+  xy: 890, 355
+  size: 98, 120
+  orig: 117, 130
+  offset: 11, 6
+  index: -1
+images/effects/skilld/zifaguang/zifaguang_00095
+  rotate: true
+  xy: 645, 354
+  size: 99, 121
+  orig: 117, 130
+  offset: 11, 5
+  index: -1
+images/effects/skilld/zifaguang/zifaguang_00097
+  rotate: true
+  xy: 800, 6
+  size: 100, 121
+  orig: 117, 130
+  offset: 11, 5
+  index: -1
+images/effects/skilld/zifaguang/zifaguang_00099
+  rotate: false
+  xy: 870, 108
+  size: 100, 121
+  orig: 117, 130
+  offset: 11, 5
+  index: -1
+images/effects/skilld/zifaguang/zifaguang_00101
+  rotate: false
+  xy: 422, 152
+  size: 102, 122
+  orig: 117, 130
+  offset: 9, 4
+  index: -1
+images/effects/skilld/zifaguang/zifaguang_00103
+  rotate: false
+  xy: 456, 28
+  size: 102, 122
+  orig: 117, 130
+  offset: 8, 4
+  index: -1
+images/effects/skilld/zifaguang/zifaguang_00105
+  rotate: false
+  xy: 212, 117
+  size: 103, 123
+  orig: 117, 130
+  offset: 6, 4
+  index: -1
+images/effects/skilld/zifaguang/zifaguang_00107
+  rotate: false
+  xy: 2, 86
+  size: 102, 124
+  orig: 117, 130
+  offset: 6, 4
+  index: -1
+images/effects/skilld/zifaguang/zifaguang_00109
+  rotate: true
+  xy: 255, 242
+  size: 104, 124
+  orig: 117, 130
+  offset: 5, 3
+  index: -1
+images/effects/skilld/zifaguang/zifaguang_00111
+  rotate: true
+  xy: 2, 212
+  size: 105, 124
+  orig: 117, 130
+  offset: 4, 4
+  index: -1
+images/effects/skilld/zifaguang/zifaguang_00113
+  rotate: false
+  xy: 409, 382
+  size: 107, 123
+  orig: 117, 130
+  offset: 2, 3
+  index: -1
+images/effects/skilld/zifaguang/zifaguang_00117
+  rotate: true
+  xy: 212, 8
+  size: 107, 120
+  orig: 117, 130
+  offset: 0, 0
+  index: -1
+images/effects/skilld/zifaguang/zifaguang_00119
+  rotate: true
+  xy: 560, 2
+  size: 103, 116
+  orig: 117, 130
+  offset: 0, 0
+  index: -1
+
+effects_30601_EskillD3.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillc/shanguang/shanguang_00029
+  rotate: false
+  xy: 2, 244
+  size: 117, 118
+  orig: 354, 152
+  offset: 118, 13
+  index: -1
+images/effects/skillc/shanguang/shanguang_00030
+  rotate: false
+  xy: 2, 124
+  size: 117, 118
+  orig: 354, 152
+  offset: 118, 13
+  index: -1
+images/effects/skilld/zifaguang/zifaguang_00037
+  rotate: true
+  xy: 121, 140
+  size: 100, 119
+  orig: 117, 130
+  offset: 8, 7
+  index: -1
+images/effects/skilld/zifaguang/zifaguang_00045
+  rotate: false
+  xy: 121, 242
+  size: 100, 120
+  orig: 117, 130
+  offset: 10, 6
+  index: -1
+images/effects/skilld/zifaguang/zifaguang_00047
+  rotate: false
+  xy: 2, 2
+  size: 100, 120
+  orig: 117, 130
+  offset: 11, 6
+  index: -1
+images/effects/skilld/zifaguang/zifaguang_00049
+  rotate: false
+  xy: 223, 242
+  size: 100, 120
+  orig: 117, 130
+  offset: 11, 6
+  index: -1

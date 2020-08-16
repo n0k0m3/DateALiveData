@@ -1,0 +1,278 @@
+
+effects_11601_skillE.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_H/skillE/bai_000
+  rotate: true
+  xy: 921, 512
+  size: 80, 81
+  orig: 94, 106
+  offset: 7, 12
+  index: -1
+images/effects_H/skillE/buff/buff_040
+  rotate: false
+  xy: 641, 334
+  size: 225, 220
+  orig: 225, 220
+  offset: 0, 0
+  index: -1
+images/effects_H/skillE/buff/buff_042
+  rotate: true
+  xy: 868, 365
+  size: 145, 154
+  orig: 225, 220
+  offset: 47, 5
+  index: -1
+images/effects_H/skillE/buff/buff_044
+  rotate: true
+  xy: 2, 370
+  size: 159, 178
+  orig: 225, 220
+  offset: 40, 2
+  index: -1
+images/effects_H/skillE/buff/buff_046
+  rotate: false
+  xy: 387, 253
+  size: 225, 220
+  orig: 225, 220
+  offset: 0, 0
+  index: -1
+images/effects_H/skillE/buff/buff_048
+  rotate: false
+  xy: 705, 80
+  size: 152, 174
+  orig: 225, 220
+  offset: 48, 12
+  index: -1
+images/effects_H/skillE/buff/buff_052
+  rotate: true
+  xy: 182, 14
+  size: 223, 220
+  orig: 225, 220
+  offset: 0, 0
+  index: -1
+images/effects_H/skillE/glow1_000
+  rotate: false
+  xy: 2, 848
+  size: 403, 174
+  orig: 442, 174
+  offset: 25, 0
+  index: -1
+images/effects_H/skillE/glow_000
+  rotate: false
+  xy: 182, 449
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+images/effects_H/skillE/hei_000
+  rotate: true
+  xy: 265, 513
+  size: 80, 81
+  orig: 94, 106
+  offset: 7, 12
+  index: -1
+images/effects_H/skillE/hit/hit_001
+  rotate: true
+  xy: 2, 26
+  size: 225, 178
+  orig: 278, 186
+  offset: 26, 0
+  index: -1
+images/effects_H/skillE/hit/hit_003
+  rotate: false
+  xy: 405, 475
+  size: 234, 175
+  orig: 278, 186
+  offset: 26, 0
+  index: -1
+images/effects_H/skillE/hit/hit_005
+  rotate: false
+  xy: 405, 652
+  size: 258, 186
+  orig: 278, 186
+  offset: 6, 0
+  index: -1
+images/effects_H/skillE/hit/hit_007
+  rotate: false
+  xy: 2, 531
+  size: 261, 186
+  orig: 278, 186
+  offset: 14, 0
+  index: -1
+images/effects_H/skillE/hit/hit_009
+  rotate: false
+  xy: 407, 840
+  size: 278, 182
+  orig: 278, 186
+  offset: 0, 0
+  index: -1
+images/effects_H/skillE/hit/hit_011
+  rotate: false
+  xy: 2, 719
+  size: 262, 127
+  orig: 278, 186
+  offset: 6, 7
+  index: -1
+images/effects_H/skillE/ren_016
+  rotate: true
+  xy: 614, 256
+  size: 76, 146
+  orig: 94, 160
+  offset: 6, 6
+  index: -1
+images/effects_H/skillE/shandian11/shandian_000
+  rotate: false
+  xy: 266, 595
+  size: 137, 251
+  orig: 203, 265
+  offset: 24, 11
+  index: -1
+images/effects_H/skillE/shandian11/shandian_001
+  rotate: true
+  xy: 687, 824
+  size: 198, 262
+  orig: 203, 265
+  offset: 5, 0
+  index: -1
+images/effects_H/skillE/shandian11/shandian_002
+  rotate: false
+  xy: 868, 147
+  size: 153, 216
+  orig: 203, 265
+  offset: 32, 3
+  index: -1
+images/effects_H/skillE/shandian11/shandian_003
+  rotate: true
+  xy: 665, 735
+  size: 87, 255
+  orig: 203, 265
+  offset: 17, 6
+  index: -1
+images/effects_H/skillE/shandian11/shandian_004
+  rotate: false
+  xy: 552, 37
+  size: 151, 214
+  orig: 203, 265
+  offset: 40, 3
+  index: -1
+images/effects_H/skillE/shandian11/shandian_005
+  rotate: true
+  xy: 665, 556
+  size: 177, 254
+  orig: 203, 265
+  offset: 26, 6
+  index: -1
+images/effects_H/skillE/shandian11/shandian_006
+  rotate: false
+  xy: 404, 36
+  size: 146, 215
+  orig: 203, 265
+  offset: 42, 2
+  index: -1
+images/effects_H/skillE/shandian11/shandian_008
+  rotate: true
+  xy: 182, 239
+  size: 146, 202
+  orig: 203, 265
+  offset: 39, 3
+  index: -1
+images/effects_H/skillE/sui/1_005
+  rotate: false
+  xy: 404, 6
+  size: 199, 28
+  orig: 212, 41
+  offset: 5, 7
+  index: -1
+images/effects_H/skillE/sui/1_007
+  rotate: true
+  xy: 348, 387
+  size: 206, 37
+  orig: 212, 41
+  offset: 5, 0
+  index: -1
+images/effects_H/skillE/sui/2_009
+  rotate: false
+  xy: 2, 296
+  size: 168, 72
+  orig: 169, 72
+  offset: 0, 0
+  index: -1
+images/effects_H/skillE/sui/2_010
+  rotate: true
+  xy: 951, 759
+  size: 134, 48
+  orig: 169, 72
+  offset: 14, 10
+  index: -1
+images/effects_H/skillE/sui/3_017
+  rotate: false
+  xy: 705, 42
+  size: 206, 36
+  orig: 210, 54
+  offset: 0, 10
+  index: -1
+images/effects_H/skillE/sui/3_019
+  rotate: false
+  xy: 705, 6
+  size: 206, 34
+  orig: 210, 54
+  offset: 0, 9
+  index: -1
+images/effects_H/skillE/sui/4_019
+  rotate: true
+  xy: 922, 594
+  size: 163, 85
+  orig: 170, 85
+  offset: 0, 0
+  index: -1
+images/effects_H/skillE/sui/4_020
+  rotate: true
+  xy: 951, 895
+  size: 127, 57
+  orig: 170, 85
+  offset: 16, 14
+  index: -1
+
+effects_11601_skillE2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_H/skillE/buff/buff_050
+  rotate: true
+  xy: 201, 344
+  size: 166, 180
+  orig: 225, 220
+  offset: 38, 8
+  index: -1
+images/effects_H/skillE/buff/buff_054
+  rotate: false
+  xy: 166, 158
+  size: 148, 180
+  orig: 225, 220
+  offset: 51, 2
+  index: -1
+images/effects_H/skillE/hit/hit_000
+  rotate: false
+  xy: 2, 340
+  size: 197, 170
+  orig: 278, 186
+  offset: 38, 6
+  index: -1
+images/effects_H/skillE/shandian11/shandian_010
+  rotate: true
+  xy: 2, 2
+  size: 147, 191
+  orig: 203, 265
+  offset: 38, 12
+  index: -1
+images/effects_H/skillE/shandian11/shandian_011
+  rotate: false
+  xy: 2, 151
+  size: 162, 187
+  orig: 203, 265
+  offset: 39, 20
+  index: -1

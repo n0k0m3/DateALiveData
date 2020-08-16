@@ -1,0 +1,146 @@
+
+effect_summon_ui.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg_a
+  rotate: false
+  xy: 304, 812
+  size: 275, 93
+  orig: 275, 93
+  offset: 0, 0
+  index: -1
+glow_00021
+  rotate: false
+  xy: 2, 434
+  size: 196, 196
+  orig: 196, 196
+  offset: 0, 0
+  index: -1
+hr/hr_00005
+  rotate: true
+  xy: 538, 768
+  size: 42, 35
+  orig: 128, 128
+  offset: 20, 5
+  index: -1
+hr/hr_00006
+  rotate: false
+  xy: 2, 2
+  size: 69, 52
+  orig: 128, 128
+  offset: 10, 4
+  index: -1
+hr/hr_00007
+  rotate: false
+  xy: 200, 441
+  size: 94, 68
+  orig: 128, 128
+  offset: 2, 4
+  index: -1
+hr/hr_00008
+  rotate: false
+  xy: 299, 554
+  size: 105, 76
+  orig: 128, 128
+  offset: 1, 4
+  index: -1
+hr/hr_00009
+  rotate: false
+  xy: 2, 121
+  size: 110, 84
+  orig: 128, 128
+  offset: 1, 4
+  index: -1
+hr/hr_00010
+  rotate: false
+  xy: 581, 813
+  size: 115, 92
+  orig: 128, 128
+  offset: 1, 5
+  index: -1
+hr/hr_00011
+  rotate: true
+  xy: 200, 511
+  size: 119, 97
+  orig: 128, 128
+  offset: 3, 8
+  index: -1
+hr/hr_00012
+  rotate: false
+  xy: 304, 714
+  size: 120, 96
+  orig: 128, 128
+  offset: 7, 16
+  index: -1
+hr/hr_00013
+  rotate: false
+  xy: 2, 207
+  size: 116, 94
+  orig: 128, 128
+  offset: 12, 24
+  index: -1
+hr/hr_00014
+  rotate: false
+  xy: 426, 722
+  size: 110, 88
+  orig: 128, 128
+  offset: 18, 31
+  index: -1
+hr/hr_00015
+  rotate: false
+  xy: 304, 632
+  size: 106, 80
+  orig: 128, 128
+  offset: 22, 39
+  index: -1
+hr/hr_00016
+  rotate: false
+  xy: 698, 833
+  size: 99, 72
+  orig: 128, 128
+  offset: 29, 47
+  index: -1
+hr/hr_00017
+  rotate: false
+  xy: 2, 56
+  size: 89, 63
+  orig: 128, 128
+  offset: 39, 56
+  index: -1
+hr/hr_00018
+  rotate: true
+  xy: 148, 368
+  size: 64, 47
+  orig: 128, 128
+  offset: 56, 71
+  index: -1
+hr/hr_00019
+  rotate: false
+  xy: 299, 523
+  size: 37, 29
+  orig: 128, 128
+  offset: 72, 89
+  index: -1
+lizi_00000
+  rotate: false
+  xy: 799, 841
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+tuan_00005
+  rotate: false
+  xy: 2, 632
+  size: 300, 273
+  orig: 300, 273
+  offset: 0, 0
+  index: -1
+tuan_b_00018
+  rotate: false
+  xy: 2, 303
+  size: 144, 129
+  orig: 144, 129
+  offset: 0, 0
+  index: -1

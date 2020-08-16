@@ -1,0 +1,13 @@
+
+effects_10301_skillA1.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/new/skilla/feixing_00047
+  rotate: false
+  xy: 2, 73
+  size: 162, 91
+  orig: 163, 106
+  offset: 1, 10
+  index: -1

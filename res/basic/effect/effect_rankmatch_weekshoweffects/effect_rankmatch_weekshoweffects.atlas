@@ -1,0 +1,208 @@
+
+effect_rankmatch_weekshoweffects.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/baodian/baodian_00148
+  rotate: false
+  xy: 629, 9
+  size: 179, 250
+  orig: 350, 250
+  offset: 91, 0
+  index: -1
+images/baodian/baodian_00150
+  rotate: false
+  xy: 354, 9
+  size: 273, 250
+  orig: 350, 250
+  offset: 36, 0
+  index: -1
+images/baodian/baodian_00151
+  rotate: true
+  xy: 706, 323
+  size: 340, 250
+  orig: 350, 250
+  offset: 2, 0
+  index: -1
+images/baodian/baodian_00152
+  rotate: false
+  xy: 2, 765
+  size: 350, 250
+  orig: 350, 250
+  offset: 0, 0
+  index: -1
+images/baodian/baodian_00153
+  rotate: false
+  xy: 2, 513
+  size: 350, 250
+  orig: 350, 250
+  offset: 0, 0
+  index: -1
+images/baodian/baodian_00154
+  rotate: false
+  xy: 354, 765
+  size: 350, 250
+  orig: 350, 250
+  offset: 0, 0
+  index: -1
+images/baodian/baodian_00155
+  rotate: false
+  xy: 2, 261
+  size: 350, 250
+  orig: 350, 250
+  offset: 0, 0
+  index: -1
+images/baodian/baodian_00156
+  rotate: false
+  xy: 354, 513
+  size: 350, 250
+  orig: 350, 250
+  offset: 0, 0
+  index: -1
+images/baodian/baodian_00157
+  rotate: true
+  xy: 706, 665
+  size: 350, 250
+  orig: 350, 250
+  offset: 0, 0
+  index: -1
+images/baodian/baodian_00158
+  rotate: false
+  xy: 2, 9
+  size: 350, 250
+  orig: 350, 250
+  offset: 0, 0
+  index: -1
+images/baodian/baodian_00159
+  rotate: false
+  xy: 354, 261
+  size: 350, 250
+  orig: 350, 250
+  offset: 0, 0
+  index: -1
+images/baodian/baodian_00160
+  rotate: true
+  xy: 810, 99
+  size: 222, 205
+  orig: 350, 250
+  offset: 71, 18
+  index: -1
+images/saoguang/saoguang_00071
+  rotate: false
+  xy: 958, 825
+  size: 27, 94
+  orig: 300, 150
+  offset: 5, 24
+  index: -1
+images/saoguang/saoguang_00072
+  rotate: false
+  xy: 958, 921
+  size: 57, 94
+  orig: 300, 150
+  offset: 5, 24
+  index: -1
+images/saoguang/saoguang_00076
+  rotate: true
+  xy: 810, 18
+  size: 79, 95
+  orig: 300, 150
+  offset: 101, 24
+  index: -1
+images/saoguang/saoguang_00077
+  rotate: true
+  xy: 907, 18
+  size: 79, 95
+  orig: 300, 150
+  offset: 131, 24
+  index: -1
+images/saoguang/saoguang_00081
+  rotate: true
+  xy: 706, 274
+  size: 47, 95
+  orig: 300, 150
+  offset: 249, 24
+  index: -1
+images/saoguang/saoguang_00082
+  rotate: false
+  xy: 958, 765
+  size: 17, 58
+  orig: 300, 150
+  offset: 279, 43
+  index: -1
+
+effect_rankmatch_weekshoweffects2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/baodian/baodian_00147
+  rotate: true
+  xy: 234, 203
+  size: 124, 136
+  orig: 350, 250
+  offset: 117, 50
+  index: -1
+images/baodian/baodian_00149
+  rotate: false
+  xy: 2, 254
+  size: 230, 250
+  orig: 350, 250
+  offset: 70, 0
+  index: -1
+images/baodian/baodian_00161
+  rotate: false
+  xy: 2, 51
+  size: 222, 201
+  orig: 350, 250
+  offset: 71, 18
+  index: -1
+images/guang_00153
+  rotate: false
+  xy: 234, 329
+  size: 174, 175
+  orig: 200, 200
+  offset: 12, 13
+  index: -1
+images/saoguang/saoguang_00073
+  rotate: true
+  xy: 410, 329
+  size: 78, 94
+  orig: 300, 150
+  offset: 13, 24
+  index: -1
+images/saoguang/saoguang_00074
+  rotate: false
+  xy: 226, 107
+  size: 79, 94
+  orig: 300, 150
+  offset: 42, 24
+  index: -1
+images/saoguang/saoguang_00075
+  rotate: false
+  xy: 307, 107
+  size: 78, 94
+  orig: 300, 150
+  offset: 72, 24
+  index: -1
+images/saoguang/saoguang_00078
+  rotate: false
+  xy: 372, 232
+  size: 78, 95
+  orig: 300, 150
+  offset: 161, 24
+  index: -1
+images/saoguang/saoguang_00079
+  rotate: false
+  xy: 410, 409
+  size: 79, 95
+  orig: 300, 150
+  offset: 190, 24
+  index: -1
+images/saoguang/saoguang_00080
+  rotate: true
+  xy: 226, 29
+  size: 76, 95
+  orig: 300, 150
+  offset: 220, 24
+  index: -1

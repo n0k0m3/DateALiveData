@@ -1,0 +1,27 @@
+
+effects_10601_quickmove.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/canying
+  rotate: false
+  xy: 2, 225
+  size: 271, 224
+  orig: 325, 227
+  offset: 30, 0
+  index: -1
+images/effects/shandian/shandian_00003
+  rotate: false
+  xy: 2, 124
+  size: 198, 99
+  orig: 206, 99
+  offset: 0, 0
+  index: -1
+images/effects/shandian/shandian_00005
+  rotate: false
+  xy: 275, 371
+  size: 174, 78
+  orig: 206, 99
+  offset: 32, 7
+  index: -1

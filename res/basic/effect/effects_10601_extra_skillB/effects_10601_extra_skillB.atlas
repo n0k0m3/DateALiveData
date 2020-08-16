@@ -1,0 +1,865 @@
+
+effects_10601_extra_skillB.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/extea_shillb/2hongsezhuzi_00000
+  rotate: true
+  xy: 369, 164
+  size: 312, 90
+  orig: 312, 90
+  offset: 0, 0
+  index: -1
+images/effects/extea_shillb/2jiguangzhu/2jiguangzhu_00000
+  rotate: false
+  xy: 842, 318
+  size: 180, 90
+  orig: 180, 90
+  offset: 0, 0
+  index: -1
+images/effects/extea_shillb/2jiguangzhu/2jiguangzhu_00002
+  rotate: false
+  xy: 842, 226
+  size: 180, 90
+  orig: 180, 90
+  offset: 0, 0
+  index: -1
+images/effects/extea_shillb/2jiguangzhu/2jiguangzhu_00004
+  rotate: false
+  xy: 842, 134
+  size: 180, 90
+  orig: 180, 90
+  offset: 0, 0
+  index: -1
+images/effects/extea_shillb/2jiguangzhu/2jiguangzhu_00006
+  rotate: false
+  xy: 842, 42
+  size: 180, 90
+  orig: 180, 90
+  offset: 0, 0
+  index: -1
+images/effects/extea_shillb/2juqi2/juqi2/fangkuai_00004
+  rotate: false
+  xy: 461, 461
+  size: 316, 282
+  orig: 426, 316
+  offset: 40, 30
+  index: -1
+images/effects/extea_shillb/2juqi2/yuandaochu_00000
+  rotate: false
+  xy: 214, 142
+  size: 153, 153
+  orig: 180, 180
+  offset: 16, 14
+  index: -1
+images/effects/extea_shillb/2juqiqiu_00000
+  rotate: true
+  xy: 318, 615
+  size: 49, 50
+  orig: 60, 60
+  offset: 7, 5
+  index: -1
+images/effects/extea_shillb/2juqishandian/2juqishandian_00000
+  rotate: false
+  xy: 318, 341
+  size: 47, 40
+  orig: 90, 90
+  offset: 20, 28
+  index: -1
+images/effects/extea_shillb/2juqishandian/2juqishandian_00002
+  rotate: true
+  xy: 64, 164
+  size: 61, 48
+  orig: 90, 90
+  offset: 22, 20
+  index: -1
+images/effects/extea_shillb/2quan/2quan_00000
+  rotate: false
+  xy: 635, 3
+  size: 34, 76
+  orig: 66, 144
+  offset: 31, 37
+  index: -1
+images/effects/extea_shillb/2shandianzhuti/2shandianzhuti_00001
+  rotate: true
+  xy: 673, 159
+  size: 300, 104
+  orig: 300, 120
+  offset: 0, 2
+  index: -1
+images/effects/extea_shillb/2shenshanglizi/shenshanglizi_00006
+  rotate: true
+  xy: 2, 492
+  size: 108, 131
+  orig: 180, 180
+  offset: 38, 19
+  index: -1
+images/effects/extea_shillb/2shenshanglizi/shenshanglizi_00012
+  rotate: false
+  xy: 2, 2
+  size: 133, 160
+  orig: 180, 180
+  offset: 24, 2
+  index: -1
+images/effects/extea_shillb/2xiaojiguangqianmian/xiaojiguangqianmian_00004
+  rotate: false
+  xy: 64, 227
+  size: 71, 68
+  orig: 90, 90
+  offset: 12, 7
+  index: -1
+images/effects/extea_shillb/2zhutilizi/2zhutilizi_00000
+  rotate: false
+  xy: 461, 388
+  size: 210, 71
+  orig: 360, 120
+  offset: 0, 17
+  index: -1
+images/effects/extea_shillb/2zhutilizi/2zhutilizi_00002
+  rotate: false
+  xy: 793, 787
+  size: 229, 90
+  orig: 360, 120
+  offset: 15, 13
+  index: -1
+images/effects/extea_shillb/2zhutilizi/2zhutilizi_00004
+  rotate: false
+  xy: 779, 508
+  size: 240, 89
+  orig: 360, 120
+  offset: 24, 14
+  index: -1
+images/effects/extea_shillb/2zhutilizi/2zhutilizi_00008
+  rotate: false
+  xy: 779, 410
+  size: 239, 96
+  orig: 360, 120
+  offset: 63, 8
+  index: -1
+images/effects/extea_shillb/2zuihouxiaodiansi/zuihouxiaodiansi_00000
+  rotate: false
+  xy: 2, 403
+  size: 104, 87
+  orig: 132, 90
+  offset: 26, 1
+  index: -1
+images/effects/extea_shillb/2zuihouxiaodiansi/zuihouxiaodiansi_00012
+  rotate: false
+  xy: 318, 300
+  size: 31, 39
+  orig: 132, 90
+  offset: 101, 23
+  index: -1
+images/effects/extea_shillb/chuansuo/chuansuo_00001
+  rotate: false
+  xy: 461, 745
+  size: 326, 58
+  orig: 494, 78
+  offset: 26, 5
+  index: -1
+images/effects/extea_shillb/chuansuo/chuansuo_00003
+  rotate: false
+  xy: 2, 954
+  size: 457, 68
+  orig: 494, 78
+  offset: 35, 1
+  index: -1
+images/effects/extea_shillb/chuansuo/chuansuo_00004
+  rotate: false
+  xy: 461, 981
+  size: 412, 41
+  orig: 494, 78
+  offset: 63, 12
+  index: -1
+images/effects/extea_shillb/chuansuo/chuansuo_00005
+  rotate: false
+  xy: 461, 938
+  size: 412, 41
+  orig: 494, 78
+  offset: 63, 12
+  index: -1
+images/effects/extea_shillb/chuansuo/chuansuo_00007
+  rotate: false
+  xy: 369, 146
+  size: 302, 16
+  orig: 494, 78
+  offset: 118, 24
+  index: -1
+images/effects/extea_shillb/daoguangadd/daoguangadd_00002
+  rotate: true
+  xy: 137, 2
+  size: 293, 75
+  orig: 300, 120
+  offset: 3, 15
+  index: -1
+images/effects/extea_shillb/daoguangadd/daoguangadd_00003
+  rotate: false
+  xy: 779, 599
+  size: 241, 74
+  orig: 300, 120
+  offset: 55, 16
+  index: -1
+images/effects/extea_shillb/daoguangadd/daoguangadd_00005
+  rotate: true
+  xy: 793, 880
+  size: 56, 70
+  orig: 300, 120
+  offset: 148, 16
+  index: -1
+images/effects/extea_shillb/daoguanghuxing/daoguanghuxing_00002
+  rotate: true
+  xy: 214, 3
+  size: 137, 97
+  orig: 180, 144
+  offset: 26, 17
+  index: -1
+images/effects/extea_shillb/daoguangnor/daoguangandi_00000
+  rotate: false
+  xy: 382, 81
+  size: 287, 63
+  orig: 300, 120
+  offset: 7, 27
+  index: -1
+images/effects/extea_shillb/daoguangnor/daoguangandi_00002
+  rotate: true
+  xy: 313, 4
+  size: 136, 67
+  orig: 300, 120
+  offset: 158, 25
+  index: -1
+images/effects/extea_shillb/gensuilizipiaosan/gensuilizi_00000
+  rotate: false
+  xy: 2, 602
+  size: 314, 62
+  orig: 352, 79
+  offset: 38, 5
+  index: -1
+images/effects/extea_shillb/gensuilizipiaosan/gensuilizi_00002
+  rotate: false
+  xy: 461, 871
+  size: 330, 65
+  orig: 352, 79
+  offset: 20, 2
+  index: -1
+images/effects/extea_shillb/gensuilizipiaosan/gensuilizi_00004
+  rotate: false
+  xy: 461, 805
+  size: 328, 64
+  orig: 352, 79
+  offset: 13, 2
+  index: -1
+images/effects/extea_shillb/golw_00000
+  rotate: false
+  xy: 789, 675
+  size: 233, 110
+  orig: 233, 110
+  offset: 0, 0
+  index: -1
+images/effects/extea_shillb/hongsedi_00000
+  rotate: false
+  xy: 842, 27
+  size: 180, 13
+  orig: 180, 18
+  offset: 0, 2
+  index: -1
+images/effects/extea_shillb/juqi1/juqi1_00001
+  rotate: true
+  xy: 875, 879
+  size: 143, 147
+  orig: 240, 228
+  offset: 69, 36
+  index: -1
+images/effects/extea_shillb/juqi1/juqi1_00003
+  rotate: true
+  xy: 461, 172
+  size: 214, 205
+  orig: 240, 228
+  offset: 10, 3
+  index: -1
+images/effects/extea_shillb/juqi1/juqi1_00004
+  rotate: true
+  xy: 137, 403
+  size: 197, 179
+  orig: 240, 228
+  offset: 33, 26
+  index: -1
+images/effects/extea_shillb/juqi1/juqi1_00006
+  rotate: true
+  xy: 673, 9
+  size: 148, 167
+  orig: 240, 228
+  offset: 71, 37
+  index: -1
+images/effects/extea_shillb/lansedi_00000
+  rotate: false
+  xy: 842, 12
+  size: 180, 13
+  orig: 180, 18
+  offset: 0, 2
+  index: -1
+images/effects/extea_shillb/leidianhecheng/leidianhecheng_00000
+  rotate: false
+  xy: 382, 3
+  size: 251, 76
+  orig: 364, 124
+  offset: 40, 14
+  index: -1
+images/effects/extea_shillb/leidianhecheng/leidianhecheng_00008
+  rotate: true
+  xy: 382, 726
+  size: 226, 77
+  orig: 364, 124
+  offset: 120, 7
+  index: -1
+images/effects/extea_shillb/lizi1/lizi_00008
+  rotate: false
+  xy: 64, 297
+  size: 252, 104
+  orig: 300, 120
+  offset: 16, 6
+  index: -1
+images/effects/extea_shillb/lizi1/lizi_00011
+  rotate: true
+  xy: 373, 478
+  size: 246, 85
+  orig: 300, 120
+  offset: 8, 14
+  index: -1
+images/effects/extea_shillb/lizi1/lizi_00013
+  rotate: true
+  xy: 779, 183
+  size: 225, 60
+  orig: 300, 120
+  offset: 14, 15
+  index: -1
+images/effects/extea_shillb/shandian/shandian_00000
+  rotate: true
+  xy: 2, 165
+  size: 236, 60
+  orig: 246, 60
+  offset: 0, 0
+  index: -1
+images/effects/extea_shillb/shandian/shandian_00002
+  rotate: true
+  xy: 318, 383
+  size: 230, 49
+  orig: 246, 60
+  offset: 16, 11
+  index: -1
+images/effects/extea_shillb/yanchen1/yanwu__00000
+  rotate: false
+  xy: 2, 666
+  size: 369, 73
+  orig: 397, 98
+  offset: 12, 9
+  index: -1
+images/effects/extea_shillb/yanchen1/yanwu__00004
+  rotate: false
+  xy: 2, 741
+  size: 375, 67
+  orig: 397, 98
+  offset: 14, 8
+  index: -1
+images/effects/extea_shillb/yanchen1/yanwu__00008
+  rotate: false
+  xy: 2, 810
+  size: 375, 68
+  orig: 397, 98
+  offset: 15, 8
+  index: -1
+images/effects/extea_shillb/yanchen1/yanwu__00012
+  rotate: false
+  xy: 2, 880
+  size: 378, 72
+  orig: 397, 98
+  offset: 12, 9
+  index: -1
+
+effects_10601_extra_skillB2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/extea_shillb/2hongdian_00000
+  rotate: false
+  xy: 889, 341
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+images/effects/extea_shillb/2juqi2/juqi/lizi_00001
+  rotate: true
+  xy: 2, 801
+  size: 119, 292
+  orig: 426, 316
+  offset: 141, 13
+  index: -1
+images/effects/extea_shillb/2juqi2/juqi/lizi_00003
+  rotate: true
+  xy: 600, 773
+  size: 121, 286
+  orig: 426, 316
+  offset: 139, 14
+  index: -1
+images/effects/extea_shillb/2juqi2/juqi2/fangkuai_00002
+  rotate: true
+  xy: 296, 536
+  size: 279, 284
+  orig: 426, 316
+  offset: 35, 28
+  index: -1
+images/effects/extea_shillb/2juqishandian/2juqishandian_00004
+  rotate: true
+  xy: 833, 385
+  size: 72, 54
+  orig: 90, 90
+  offset: 10, 15
+  index: -1
+images/effects/extea_shillb/2landian1_00000
+  rotate: false
+  xy: 623, 404
+  size: 117, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+images/effects/extea_shillb/2qiangkou/2qiangkou_00000
+  rotate: true
+  xy: 929, 231
+  size: 108, 90
+  orig: 120, 90
+  offset: 2, 0
+  index: -1
+images/effects/extea_shillb/2qiangkou/2qiangkou_00002
+  rotate: true
+  xy: 835, 183
+  size: 106, 90
+  orig: 120, 90
+  offset: 2, 0
+  index: -1
+images/effects/extea_shillb/2qiangkou/2qiangkou_00004
+  rotate: true
+  xy: 742, 342
+  size: 115, 89
+  orig: 120, 90
+  offset: 4, 0
+  index: -1
+images/effects/extea_shillb/2quan/2quan_00002
+  rotate: false
+  xy: 582, 526
+  size: 55, 124
+  orig: 66, 144
+  offset: 11, 12
+  index: -1
+images/effects/extea_shillb/2quan/2quan_00004
+  rotate: true
+  xy: 743, 459
+  size: 64, 144
+  orig: 66, 144
+  offset: 2, 0
+  index: -1
+images/effects/extea_shillb/2quan/2quan_00005
+  rotate: true
+  xy: 743, 525
+  size: 66, 144
+  orig: 66, 144
+  offset: 0, 0
+  index: -1
+images/effects/extea_shillb/2shandianzhuti/2shandianzhuti_00003
+  rotate: false
+  xy: 2, 922
+  size: 300, 100
+  orig: 300, 120
+  offset: 0, 9
+  index: -1
+images/effects/extea_shillb/2shandianzhuti/2shandianzhuti_00005
+  rotate: false
+  xy: 304, 817
+  size: 294, 118
+  orig: 300, 120
+  offset: 0, 0
+  index: -1
+images/effects/extea_shillb/2shenshangfeng/shenshangfeng_00000
+  rotate: false
+  xy: 908, 923
+  size: 113, 99
+  orig: 120, 120
+  offset: 0, 11
+  index: -1
+images/effects/extea_shillb/2shenshangfeng/shenshangfeng_00002
+  rotate: true
+  xy: 769, 68
+  size: 113, 99
+  orig: 120, 120
+  offset: 1, 11
+  index: -1
+images/effects/extea_shillb/2shenshangfeng/shenshangfeng_00004
+  rotate: true
+  xy: 623, 291
+  size: 111, 103
+  orig: 120, 120
+  offset: 3, 11
+  index: -1
+images/effects/extea_shillb/2shenshangfeng/shenshangfeng_00006
+  rotate: true
+  xy: 639, 540
+  size: 110, 102
+  orig: 120, 120
+  offset: 4, 11
+  index: -1
+images/effects/extea_shillb/2shenshanglizi/shenshanglizi_00002
+  rotate: false
+  xy: 870, 115
+  size: 42, 66
+  orig: 180, 180
+  offset: 72, 55
+  index: -1
+images/effects/extea_shillb/2shenshanglizi/shenshanglizi_00010
+  rotate: false
+  xy: 892, 765
+  size: 129, 156
+  orig: 180, 180
+  offset: 26, 5
+  index: -1
+images/effects/extea_shillb/2xiaojiguangqianmian/xiaojiguangqianmian_00002
+  rotate: false
+  xy: 927, 141
+  size: 89, 88
+  orig: 90, 90
+  offset: 1, 2
+  index: -1
+images/effects/extea_shillb/2xiaojiguangqianmian/xiaojiguangqianmian_00006
+  rotate: false
+  xy: 132, 6
+  size: 70, 44
+  orig: 90, 90
+  offset: 13, 16
+  index: -1
+images/effects/extea_shillb/2xiaojiguangzhuti/xiaojiguangzhuti_00000
+  rotate: false
+  xy: 304, 992
+  size: 300, 30
+  orig: 300, 30
+  offset: 0, 0
+  index: -1
+images/effects/extea_shillb/2xiaojiguangzhuti/xiaojiguangzhuti_00001
+  rotate: false
+  xy: 304, 963
+  size: 300, 27
+  orig: 300, 30
+  offset: 0, 1
+  index: -1
+images/effects/extea_shillb/2xiaojiguangzhuti/xiaojiguangzhuti_00002
+  rotate: false
+  xy: 606, 963
+  size: 300, 27
+  orig: 300, 30
+  offset: 0, 1
+  index: -1
+images/effects/extea_shillb/2xiaojiguangzhuti/xiaojiguangzhuti_00003
+  rotate: false
+  xy: 304, 937
+  size: 300, 24
+  orig: 300, 30
+  offset: 0, 2
+  index: -1
+images/effects/extea_shillb/2xiaojiguangzhuti/xiaojiguangzhuti_00004
+  rotate: true
+  xy: 269, 285
+  size: 262, 25
+  orig: 300, 30
+  offset: 0, 2
+  index: -1
+images/effects/extea_shillb/2xiaojiguangzhuti/xiaojiguangzhuti_00005
+  rotate: false
+  xy: 365, 2
+  size: 200, 25
+  orig: 300, 30
+  offset: 87, 2
+  index: -1
+images/effects/extea_shillb/2yanwu2/yanwu1_00000
+  rotate: true
+  xy: 2, 2
+  size: 225, 23
+  orig: 300, 36
+  offset: 54, 1
+  index: -1
+images/effects/extea_shillb/2yanwu2/yanwu1_00001
+  rotate: false
+  xy: 606, 992
+  size: 300, 30
+  orig: 300, 36
+  offset: 0, 0
+  index: -1
+images/effects/extea_shillb/2yanwu2/yanwu1_00002
+  rotate: false
+  xy: 606, 930
+  size: 299, 31
+  orig: 300, 36
+  offset: 1, 0
+  index: -1
+images/effects/extea_shillb/2yanwu2/yanwu1_00003
+  rotate: false
+  xy: 600, 896
+  size: 290, 32
+  orig: 300, 36
+  offset: 10, 1
+  index: -1
+images/effects/extea_shillb/2yanwu2/yanwu1_00004
+  rotate: false
+  xy: 2, 765
+  size: 275, 34
+  orig: 300, 36
+  offset: 15, 0
+  index: -1
+images/effects/extea_shillb/2yanwu2/yanwu1_00005
+  rotate: true
+  xy: 454, 32
+  size: 252, 34
+  orig: 300, 36
+  offset: 40, 0
+  index: -1
+images/effects/extea_shillb/2zhutilizi/2zhutilizi_00006
+  rotate: true
+  xy: 465, 289
+  size: 245, 91
+  orig: 360, 120
+  offset: 38, 13
+  index: -1
+images/effects/extea_shillb/2zuihouxiaodiansi/zuihouxiaodiansi_00004
+  rotate: false
+  xy: 743, 17
+  size: 90, 43
+  orig: 132, 90
+  offset: 32, 40
+  index: -1
+images/effects/extea_shillb/2zuihouxiaodiansi/zuihouxiaodiansi_00008
+  rotate: true
+  xy: 204, 6
+  size: 44, 55
+  orig: 132, 90
+  offset: 88, 23
+  index: -1
+images/effects/extea_shillb/chuansuo/chuansuo_00000
+  rotate: true
+  xy: 27, 11
+  size: 216, 41
+  orig: 494, 78
+  offset: 26, 12
+  index: -1
+images/effects/extea_shillb/daoguangadd/daoguangadd_00001
+  rotate: false
+  xy: 889, 463
+  size: 121, 39
+  orig: 300, 120
+  offset: 33, 26
+  index: -1
+images/effects/extea_shillb/daoguangadd/daoguangadd_00004
+  rotate: false
+  xy: 743, 693
+  size: 147, 78
+  orig: 300, 120
+  offset: 149, 13
+  index: -1
+images/effects/extea_shillb/daoguanghuxing/daoguanghuxing_00000
+  rotate: false
+  xy: 889, 504
+  size: 128, 38
+  orig: 180, 144
+  offset: 3, 15
+  index: -1
+images/effects/extea_shillb/daoguanghuxing/daoguanghuxing_00001
+  rotate: false
+  xy: 743, 593
+  size: 144, 98
+  orig: 180, 144
+  offset: 23, 16
+  index: -1
+images/effects/extea_shillb/daoguangnor/daoguangandi_00001
+  rotate: true
+  xy: 558, 290
+  size: 233, 63
+  orig: 300, 120
+  offset: 61, 27
+  index: -1
+images/effects/extea_shillb/daoguangnor/daoguangandi_00003
+  rotate: true
+  xy: 70, 4
+  size: 46, 60
+  orig: 300, 120
+  offset: 157, 27
+  index: -1
+images/effects/extea_shillb/glowbai_00000
+  rotate: true
+  xy: 395, 286
+  size: 248, 68
+  orig: 254, 83
+  offset: 5, 7
+  index: -1
+images/effects/extea_shillb/juqi1/juqi1_00005
+  rotate: false
+  xy: 70, 52
+  size: 177, 175
+  orig: 240, 228
+  offset: 44, 31
+  index: -1
+images/effects/extea_shillb/juqi1/juqi1_00007
+  rotate: true
+  xy: 582, 652
+  size: 119, 156
+  orig: 240, 228
+  offset: 95, 41
+  index: -1
+images/effects/extea_shillb/leidianhecheng/leidianhecheng_00002
+  rotate: false
+  xy: 914, 55
+  size: 84, 84
+  orig: 364, 124
+  offset: 276, 33
+  index: -1
+images/effects/extea_shillb/leidianhecheng/leidianhecheng_00004
+  rotate: false
+  xy: 2, 657
+  size: 269, 106
+  orig: 364, 124
+  offset: 85, 7
+  index: -1
+images/effects/extea_shillb/leidianhecheng/leidianhecheng_00006
+  rotate: true
+  xy: 365, 29
+  size: 255, 87
+  orig: 364, 124
+  offset: 94, 15
+  index: -1
+images/effects/extea_shillb/lizi1/lizi_00000
+  rotate: true
+  xy: 652, 60
+  size: 229, 70
+  orig: 300, 120
+  offset: 71, 26
+  index: -1
+images/effects/extea_shillb/lizi1/lizi_00002
+  rotate: true
+  xy: 261, 27
+  size: 256, 102
+  orig: 300, 120
+  offset: 44, 9
+  index: -1
+images/effects/extea_shillb/lizi1/lizi_00004
+  rotate: false
+  xy: 2, 549
+  size: 268, 106
+  orig: 300, 120
+  offset: 29, 8
+  index: -1
+images/effects/extea_shillb/lizi1/lizi_00005
+  rotate: false
+  xy: 2, 440
+  size: 265, 107
+  orig: 300, 120
+  offset: 25, 6
+  index: -1
+images/effects/extea_shillb/lizi1/lizi_00006
+  rotate: false
+  xy: 2, 334
+  size: 261, 104
+  orig: 300, 120
+  offset: 22, 7
+  index: -1
+images/effects/extea_shillb/lizi1/lizi_00007
+  rotate: false
+  xy: 2, 229
+  size: 257, 103
+  orig: 300, 120
+  offset: 19, 7
+  index: -1
+images/effects/extea_shillb/lizi1/lizi_00009
+  rotate: true
+  xy: 490, 37
+  size: 250, 99
+  orig: 300, 120
+  offset: 13, 9
+  index: -1
+images/effects/extea_shillb/lizi1/lizi_00010
+  rotate: true
+  xy: 296, 286
+  size: 248, 97
+  orig: 300, 120
+  offset: 11, 8
+  index: -1
+images/effects/extea_shillb/renwu1lan_00052
+  rotate: false
+  xy: 892, 654
+  size: 128, 109
+  orig: 141, 152
+  offset: 3, 24
+  index: -1
+images/effects/extea_shillb/renwu2lv_00051
+  rotate: false
+  xy: 889, 544
+  size: 128, 108
+  orig: 150, 120
+  offset: 5, 5
+  index: -1
+images/effects/extea_shillb/shandian/shandian_00001
+  rotate: true
+  xy: 591, 56
+  size: 232, 59
+  orig: 246, 60
+  offset: 0, 0
+  index: -1
+images/effects/extea_shillb/shandian/shandian_00003
+  rotate: true
+  xy: 724, 62
+  size: 227, 43
+  orig: 246, 60
+  offset: 19, 16
+  index: -1
+images/effects/extea_shillb/sududi/sududi_00002
+  rotate: false
+  xy: 728, 291
+  size: 199, 48
+  orig: 225, 56
+  offset: 19, 2
+  index: -1
+images/effects/extea_shillb/sududi/sududi_00004
+  rotate: false
+  xy: 567, 3
+  size: 174, 32
+  orig: 225, 56
+  offset: 12, 16
+  index: -1
+
+effects_10601_extra_skillB3.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/extea_shillb/2landian2_00000
+  rotate: false
+  xy: 2, 84
+  size: 80, 79
+  orig: 90, 90
+  offset: 6, 4
+  index: -1
+images/effects/extea_shillb/2xiaojiguangqianmian/xiaojiguangqianmian_00000
+  rotate: false
+  xy: 84, 95
+  size: 67, 68
+  orig: 90, 90
+  offset: 13, 13
+  index: -1
+images/effects/extea_shillb/andicanying_00001
+  rotate: false
+  xy: 2, 16
+  size: 79, 66
+  orig: 84, 76
+  offset: 1, 6
+  index: -1
+images/effects/extea_shillb/sududi/sududi_00000
+  rotate: false
+  xy: 2, 165
+  size: 192, 29
+  orig: 225, 56
+  offset: 33, 16
+  index: -1

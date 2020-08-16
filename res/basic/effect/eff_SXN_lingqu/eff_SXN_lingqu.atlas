@@ -1,0 +1,55 @@
+
+eff_SXN_lingqu.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guang
+  rotate: false
+  xy: 2, 86
+  size: 110, 110
+  orig: 110, 110
+  offset: 0, 0
+  index: -1
+miaobian_00000
+  rotate: false
+  xy: 2, 66
+  size: 53, 18
+  orig: 225, 225
+  offset: 99, 134
+  index: -1
+miaobian_00001
+  rotate: true
+  xy: 23, 23
+  size: 41, 28
+  orig: 225, 225
+  offset: 112, 124
+  index: -1
+miaobian_00002
+  rotate: false
+  xy: 114, 155
+  size: 29, 41
+  orig: 225, 225
+  offset: 124, 111
+  index: -1
+miaobian_00003
+  rotate: false
+  xy: 2, 13
+  size: 19, 51
+  orig: 225, 225
+  offset: 134, 98
+  index: -1
+miaobian_00004
+  rotate: false
+  xy: 114, 102
+  size: 19, 51
+  orig: 225, 225
+  offset: 134, 86
+  index: -1
+miaobian_00005
+  rotate: true
+  xy: 145, 177
+  size: 19, 51
+  orig: 225, 225
+  offset: 134, 73
+  index: -1

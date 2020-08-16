@@ -1,0 +1,27 @@
+
+eff_CJ_chiyuanxiao.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+denglong
+  rotate: false
+  xy: 2, 7
+  size: 76, 90
+  orig: 76, 90
+  offset: 0, 0
+  index: -1
+paizi
+  rotate: false
+  xy: 80, 18
+  size: 16, 79
+  orig: 16, 79
+  offset: 0, 0
+  index: -1
+paizikuan
+  rotate: true
+  xy: 2, 2
+  size: 3, 47
+  orig: 3, 47
+  offset: 0, 0
+  index: -1

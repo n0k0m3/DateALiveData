@@ -1,0 +1,165 @@
+{
+"skeleton": { "hash": "GQAQpAHpuiHTEEFXYiAbBws0HfM", "spine": "2.1.27", "width": 0, "height": 0, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bdbox", "parent": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": 2, "scaleY": 2 },
+	{ "name": "dilie", "parent": "root", "scaleX": 2, "scaleY": 2 },
+	{ "name": "diliequan", "parent": "root" }
+],
+"slots": [
+	{ "name": "bdbox_eff", "bone": "bdbox", "attachment": "bdbox_eff" },
+	{ "name": "images/effects/skillc/xuanqi/xuanqi_000", "bone": "bone", "blend": "additive" },
+	{ "name": "images/effects/extra_skillB/baodian_dilie_00000", "bone": "dilie" },
+	{ "name": "images/effects/extra_skillB/diliequan_00000", "bone": "diliequan", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"bdbox_eff": {
+			"bdbox_eff": {
+				"type": "boundingbox",
+				"vertices": [ 62.71896, -64.58366, 61.42599, 62.13029, -61.40902, 63.42332, -61.40902, -67.16966 ]
+			}
+		},
+		"images/effects/extra_skillB/baodian_dilie_00000": {
+			"images/effects/extra_skillB/baodian_dilie_00000": { "width": 300, "height": 200 }
+		},
+		"images/effects/extra_skillB/diliequan_00000": {
+			"images/effects/extra_skillB/diliequan_00000": { "width": 400, "height": 160 }
+		},
+		"images/effects/skillc/xuanqi/xuanqi_000": {
+			"images/effects/skillc/xuanqi/xuanqi_000": { "width": 210, "height": 200 },
+			"images/effects/skillc/xuanqi/xuanqi_001": { "width": 210, "height": 200 },
+			"images/effects/skillc/xuanqi/xuanqi_003": { "width": 210, "height": 200 },
+			"images/effects/skillc/xuanqi/xuanqi_005": { "width": 210, "height": 200 },
+			"images/effects/skillc/xuanqi/xuanqi_007": { "width": 210, "height": 200 },
+			"images/effects/skillc/xuanqi/xuanqi_009": { "width": 210, "height": 200 }
+		}
+	}
+},
+"animations": {
+	"skillc_down": {
+		"slots": {
+			"images/effects/extra_skillB/baodian_dilie_00000": {
+				"attachment": [
+					{ "time": 0.4666, "name": "images/effects/extra_skillB/baodian_dilie_00000" }
+				],
+				"color": [
+					{ "time": 0.4666, "color": "ffffff00" },
+					{ "time": 0.5666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.8333, "color": "ffffffff" },
+					{ "time": 3, "color": "ffffff00" }
+				]
+			},
+			"images/effects/extra_skillB/diliequan_00000": {
+				"attachment": [
+					{ "time": 0.4666, "name": "images/effects/extra_skillB/diliequan_00000" }
+				],
+				"color": [
+					{ "time": 0.4666, "color": "ffffff00" },
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.7666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"bdbox": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 3, "y": 3 }
+				]
+			},
+			"bone": {
+				"translate": [
+					{ "time": 0, "x": 22.21, "y": 179.78 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.3, "y": 1.3 }
+				]
+			},
+			"dilie": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.4666, "x": 0.5, "y": 0.5 },
+					{ "time": 0.5666, "x": 1, "y": 1 }
+				]
+			},
+			"diliequan": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": -15.69 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 0.4666,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0, 0.78, 0.75, 1 ]
+					},
+					{ "time": 0.7666, "x": 2, "y": 2 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"skillc_up": {
+		"slots": {
+			"images/effects/skillc/xuanqi/xuanqi_000": {
+				"attachment": [
+					{ "time": 0.5, "name": "images/effects/skillc/xuanqi/xuanqi_000" },
+					{ "time": 0.5666, "name": "images/effects/skillc/xuanqi/xuanqi_001" },
+					{ "time": 0.6333, "name": "images/effects/skillc/xuanqi/xuanqi_003" },
+					{ "time": 0.7, "name": "images/effects/skillc/xuanqi/xuanqi_005" },
+					{ "time": 0.7666, "name": "images/effects/skillc/xuanqi/xuanqi_007" },
+					{ "time": 0.8333, "name": "images/effects/skillc/xuanqi/xuanqi_009" },
+					{ "time": 1, "name": null }
+				],
+				"color": [
+					{ "time": 0.8333, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"bdbox": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 3, "y": 3 }
+				]
+			},
+			"bone": {
+				"translate": [
+					{ "time": 0, "x": 22.21, "y": 179.78 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.3, "y": 1.3 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	}
+}
+}

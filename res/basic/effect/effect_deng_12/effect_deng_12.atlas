@@ -1,0 +1,27 @@
+
+effect_deng_12.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/deng1_00000
+  rotate: false
+  xy: 2, 204
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+images/deng2_00000
+  rotate: false
+  xy: 2, 2
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+images/deng3_00000
+  rotate: false
+  xy: 204, 204
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1

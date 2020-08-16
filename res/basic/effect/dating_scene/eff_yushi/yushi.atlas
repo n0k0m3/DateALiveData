@@ -1,0 +1,13 @@
+
+yushi.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dengguang_00000
+  rotate: false
+  xy: 2, 20
+  size: 127, 109
+  orig: 135, 135
+  offset: 0, 10
+  index: -1

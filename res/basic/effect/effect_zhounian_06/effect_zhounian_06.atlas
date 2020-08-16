@@ -1,0 +1,104 @@
+
+effect_zhounian_02.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: true
+  xy: 454, 251
+  size: 239, 59
+  orig: 246, 70
+  offset: 4, 11
+  index: -1
+02
+  rotate: false
+  xy: 714, 925
+  size: 246, 67
+  orig: 246, 70
+  offset: 0, 0
+  index: -1
+03
+  rotate: false
+  xy: 2, 84
+  size: 171, 56
+  orig: 246, 70
+  offset: 38, 11
+  index: -1
+6
+  rotate: false
+  xy: 515, 411
+  size: 77, 79
+  orig: 77, 79
+  offset: 0, 0
+  index: -1
+fang_00000
+  rotate: false
+  xy: 2, 2
+  size: 76, 80
+  orig: 76, 80
+  offset: 0, 0
+  index: -1
+final_00047_00000
+  rotate: false
+  xy: 2, 492
+  size: 656, 500
+  orig: 664, 500
+  offset: 8, 0
+  index: -1
+gong_00000
+  rotate: false
+  xy: 714, 763
+  size: 76, 80
+  orig: 76, 80
+  offset: 0, 0
+  index: -1
+huangse
+  rotate: false
+  xy: 304, 161
+  size: 19, 19
+  orig: 27, 27
+  offset: 4, 4
+  index: -1
+kai_00000
+  rotate: false
+  xy: 515, 330
+  size: 70, 79
+  orig: 70, 79
+  offset: 0, 0
+  index: -1
+neng_00000
+  rotate: true
+  xy: 797, 850
+  size: 73, 80
+  orig: 73, 80
+  offset: 0, 0
+  index: -1
+shenglidi
+  rotate: true
+  xy: 660, 368
+  size: 624, 52
+  orig: 624, 52
+  offset: 0, 0
+  index: -1
+tiao1_00000
+  rotate: false
+  xy: 2, 182
+  size: 450, 308
+  orig: 450, 320
+  offset: 0, 12
+  index: -1
+tiao_00000
+  rotate: false
+  xy: 2, 142
+  size: 300, 38
+  orig: 300, 100
+  offset: 0, 31
+  index: -1
+xin_00000
+  rotate: false
+  xy: 714, 845
+  size: 81, 78
+  orig: 81, 78
+  offset: 0, 0
+  index: -1

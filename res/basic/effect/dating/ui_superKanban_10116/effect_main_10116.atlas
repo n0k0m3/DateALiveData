@@ -1,0 +1,236 @@
+
+effect_main_10116.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dimian_00000
+  rotate: false
+  xy: 2, 393
+  size: 1012, 181
+  orig: 1012, 181
+  offset: 0, 0
+  index: -1
+jianzhu2_00000
+  rotate: false
+  xy: 2, 95
+  size: 1011, 296
+  orig: 1011, 296
+  offset: 0, 0
+  index: -1
+texiao/leidian_00000
+  rotate: false
+  xy: 982, 29
+  size: 33, 64
+  orig: 33, 64
+  offset: 0, 0
+  index: -1
+texiao/leidian_00002
+  rotate: false
+  xy: 925, 19
+  size: 55, 74
+  orig: 55, 74
+  offset: 0, 0
+  index: -1
+texiao/leidian_00003
+  rotate: false
+  xy: 610, 11
+  size: 66, 82
+  orig: 66, 82
+  offset: 0, 0
+  index: -1
+texiao/leidian_00004
+  rotate: true
+  xy: 678, 15
+  size: 78, 69
+  orig: 78, 69
+  offset: 0, 0
+  index: -1
+texiao/leidian_00005
+  rotate: true
+  xy: 428, 6
+  size: 87, 76
+  orig: 87, 76
+  offset: 0, 0
+  index: -1
+texiao/leidian_00006
+  rotate: true
+  xy: 352, 5
+  size: 88, 74
+  orig: 88, 74
+  offset: 0, 0
+  index: -1
+texiao/leiqiu3
+  rotate: false
+  xy: 211, 4
+  size: 139, 89
+  orig: 139, 89
+  offset: 0, 0
+  index: -1
+texiao/lizi_00001
+  rotate: false
+  xy: 749, 16
+  size: 60, 77
+  orig: 60, 77
+  offset: 0, 0
+  index: -1
+texiao/lizi_00003
+  rotate: true
+  xy: 506, 11
+  size: 82, 102
+  orig: 82, 102
+  offset: 0, 0
+  index: -1
+texiao/lizi_00004
+  rotate: true
+  xy: 2, 2
+  size: 91, 99
+  orig: 91, 99
+  offset: 0, 0
+  index: -1
+texiao/lizi_00005
+  rotate: true
+  xy: 103, 3
+  size: 90, 106
+  orig: 90, 106
+  offset: 0, 0
+  index: -1
+texiao/lizi_00006
+  rotate: true
+  xy: 811, 19
+  size: 74, 112
+  orig: 74, 112
+  offset: 0, 0
+  index: -1
+yanwu
+  rotate: false
+  xy: 2, 576
+  size: 1012, 445
+  orig: 1012, 445
+  offset: 0, 0
+  index: -1
+
+effect_main_101162.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fenwei
+  rotate: false
+  xy: 208, 7
+  size: 253, 117
+  orig: 253, 117
+  offset: 0, 0
+  index: -1
+jian1
+  rotate: true
+  xy: 208, 126
+  size: 177, 309
+  orig: 177, 309
+  offset: 0, 0
+  index: -1
+jian2
+  rotate: false
+  xy: 2, 305
+  size: 480, 467
+  orig: 480, 467
+  offset: 0, 0
+  index: -1
+shenqian_00000
+  rotate: true
+  xy: 484, 368
+  size: 404, 93
+  orig: 404, 93
+  offset: 0, 0
+  index: -1
+texiao/deng
+  rotate: false
+  xy: 728, 613
+  size: 201, 195
+  orig: 201, 195
+  offset: 0, 0
+  index: -1
+texiao/leidian_00001
+  rotate: true
+  xy: 484, 311
+  size: 55, 71
+  orig: 55, 71
+  offset: 0, 0
+  index: -1
+texiao/leiqiu1
+  rotate: true
+  xy: 698, 288
+  size: 143, 177
+  orig: 144, 177
+  offset: 1, 0
+  index: -1
+texiao/leiqiu2
+  rotate: false
+  xy: 716, 433
+  size: 195, 178
+  orig: 197, 180
+  offset: 0, 0
+  index: -1
+texiao/lizi_00000
+  rotate: false
+  xy: 931, 647
+  size: 56, 55
+  orig: 56, 55
+  offset: 0, 0
+  index: -1
+texiao/lizi_00002
+  rotate: false
+  xy: 931, 704
+  size: 62, 104
+  orig: 62, 104
+  offset: 0, 0
+  index: -1
+texiao/lizi_00007
+  rotate: false
+  xy: 463, 10
+  size: 55, 114
+  orig: 55, 114
+  offset: 0, 0
+  index: -1
+texiao/lizi_00008
+  rotate: true
+  xy: 579, 386
+  size: 56, 117
+  orig: 56, 117
+  offset: 0, 0
+  index: -1
+texiao/lizi_00009
+  rotate: true
+  xy: 969, 967
+  size: 55, 53
+  orig: 55, 53
+  offset: 0, 0
+  index: -1
+tiankong_00000
+  rotate: false
+  xy: 2, 774
+  size: 724, 248
+  orig: 724, 248
+  offset: 0, 0
+  index: -1
+tiankongyun_00000
+  rotate: true
+  xy: 2, 2
+  size: 301, 204
+  orig: 301, 204
+  offset: 0, 0
+  index: -1
+youyan_00000
+  rotate: true
+  xy: 579, 444
+  size: 328, 135
+  orig: 328, 135
+  offset: 0, 0
+  index: -1
+zuoyan_00000
+  rotate: false
+  xy: 728, 810
+  size: 239, 212
+  orig: 239, 212
+  offset: 0, 0
+  index: -1

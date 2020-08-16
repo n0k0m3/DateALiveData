@@ -1,0 +1,153 @@
+
+effect_jubianqi.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+deng1_00000
+  rotate: true
+  xy: 404, 333
+  size: 35, 47
+  orig: 50, 50
+  offset: 7, 2
+  index: -1
+deng2_00000
+  rotate: false
+  xy: 2, 357
+  size: 166, 153
+  orig: 200, 200
+  offset: 14, 26
+  index: -1
+deng_00000
+  rotate: false
+  xy: 404, 370
+  size: 86, 23
+  orig: 100, 50
+  offset: 7, 16
+  index: -1
+lanlizi_00022
+  rotate: true
+  xy: 236, 85
+  size: 28, 27
+  orig: 50, 50
+  offset: 10, 13
+  index: -1
+liuguag/liuguang_00000
+  rotate: true
+  xy: 236, 231
+  size: 115, 37
+  orig: 200, 200
+  offset: 38, 55
+  index: -1
+liuguag/liuguang_00001
+  rotate: false
+  xy: 119, 45
+  size: 115, 52
+  orig: 200, 200
+  offset: 38, 55
+  index: -1
+liuguag/liuguang_00002
+  rotate: false
+  xy: 170, 348
+  size: 115, 66
+  orig: 200, 200
+  offset: 38, 55
+  index: -1
+liuguag/liuguang_00003
+  rotate: false
+  xy: 287, 335
+  size: 115, 79
+  orig: 200, 200
+  offset: 38, 55
+  index: -1
+liuguag/liuguang_00004
+  rotate: true
+  xy: 404, 395
+  size: 115, 93
+  orig: 200, 200
+  offset: 38, 55
+  index: -1
+liuguag/liuguang_00005
+  rotate: false
+  xy: 2, 261
+  size: 115, 94
+  orig: 200, 200
+  offset: 38, 55
+  index: -1
+liuguag/liuguang_00006
+  rotate: false
+  xy: 170, 416
+  size: 115, 94
+  orig: 200, 200
+  offset: 38, 55
+  index: -1
+liuguag/liuguang_00007
+  rotate: false
+  xy: 2, 165
+  size: 115, 94
+  orig: 200, 200
+  offset: 38, 55
+  index: -1
+liuguag/liuguang_00008
+  rotate: false
+  xy: 287, 416
+  size: 115, 94
+  orig: 200, 200
+  offset: 38, 55
+  index: -1
+liuguag/liuguang_00009
+  rotate: false
+  xy: 2, 69
+  size: 115, 94
+  orig: 200, 200
+  offset: 38, 55
+  index: -1
+liuguag/liuguang_00010
+  rotate: false
+  xy: 119, 253
+  size: 115, 93
+  orig: 200, 200
+  offset: 38, 56
+  index: -1
+liuguag/liuguang_00011
+  rotate: false
+  xy: 119, 170
+  size: 115, 81
+  orig: 200, 200
+  offset: 38, 68
+  index: -1
+liuguag/liuguang_00012
+  rotate: false
+  xy: 119, 99
+  size: 115, 69
+  orig: 200, 200
+  offset: 38, 80
+  index: -1
+liuguag/liuguang_00013
+  rotate: false
+  xy: 2, 13
+  size: 115, 54
+  orig: 200, 200
+  offset: 38, 95
+  index: -1
+liuguag/liuguang_00014
+  rotate: false
+  xy: 119, 2
+  size: 115, 41
+  orig: 200, 200
+  offset: 38, 108
+  index: -1
+liuguag/liuguang_00015
+  rotate: true
+  xy: 236, 115
+  size: 114, 27
+  orig: 200, 200
+  offset: 38, 122
+  index: -1
+qinglizi_00022
+  rotate: false
+  xy: 453, 341
+  size: 28, 27
+  orig: 50, 50
+  offset: 10, 13
+  index: -1

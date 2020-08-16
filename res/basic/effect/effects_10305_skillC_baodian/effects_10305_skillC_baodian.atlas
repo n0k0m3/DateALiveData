@@ -1,0 +1,90 @@
+
+effects_10305_skillC_baodian.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillc_new/hit/hit_000
+  rotate: false
+  xy: 2, 813
+  size: 210, 197
+  orig: 210, 210
+  offset: 0, 2
+  index: -1
+images/effects/skillc_new/hit/hit_001
+  rotate: true
+  xy: 166, 679
+  size: 132, 124
+  orig: 210, 210
+  offset: 39, 41
+  index: -1
+images/effects/skillc_new/hit/hit_002
+  rotate: false
+  xy: 847, 881
+  size: 135, 129
+  orig: 210, 210
+  offset: 43, 38
+  index: -1
+images/effects/skillc_new/hit/hit_003
+  rotate: false
+  xy: 2, 2
+  size: 143, 141
+  orig: 210, 210
+  offset: 39, 30
+  index: -1
+images/effects/skillc_new/hit/hit_004
+  rotate: false
+  xy: 700, 856
+  size: 145, 154
+  orig: 210, 210
+  offset: 34, 25
+  index: -1
+images/effects/skillc_new/hit/hit_005
+  rotate: false
+  xy: 2, 145
+  size: 152, 152
+  orig: 210, 210
+  offset: 31, 27
+  index: -1
+images/effects/skillc_new/hit/hit_006
+  rotate: false
+  xy: 542, 853
+  size: 156, 157
+  orig: 210, 210
+  offset: 29, 24
+  index: -1
+images/effects/skillc_new/hit/hit_007
+  rotate: false
+  xy: 379, 852
+  size: 161, 158
+  orig: 210, 210
+  offset: 27, 24
+  index: -1
+images/effects/skillc_new/hit/hit_008
+  rotate: false
+  xy: 2, 457
+  size: 162, 172
+  orig: 210, 210
+  offset: 26, 24
+  index: -1
+images/effects/skillc_new/hit/hit_009
+  rotate: false
+  xy: 214, 835
+  size: 163, 175
+  orig: 210, 210
+  offset: 26, 23
+  index: -1
+images/effects/skillc_new/hit/hit_010
+  rotate: false
+  xy: 2, 631
+  size: 162, 180
+  orig: 210, 210
+  offset: 28, 21
+  index: -1
+images/effects/skillc_new/hit/hit_012
+  rotate: false
+  xy: 2, 299
+  size: 158, 156
+  orig: 210, 210
+  offset: 30, 27
+  index: -1

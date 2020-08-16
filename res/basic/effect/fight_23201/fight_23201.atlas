@@ -1,0 +1,146 @@
+
+fight_23201.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+anti
+  rotate: true
+  xy: 215, 763
+  size: 96, 161
+  orig: 96, 161
+  offset: 0, 0
+  index: -1
+bu1
+  rotate: false
+  xy: 533, 767
+  size: 43, 92
+  orig: 43, 92
+  offset: 0, 0
+  index: -1
+bu2
+  rotate: false
+  xy: 2, 60
+  size: 97, 74
+  orig: 97, 74
+  offset: 0, 0
+  index: -1
+bu3
+  rotate: true
+  xy: 157, 629
+  size: 125, 46
+  orig: 125, 46
+  offset: 0, 0
+  index: -1
+images/skillC/xunhuan/xunhuan_00032
+  rotate: false
+  xy: 2, 601
+  size: 153, 153
+  orig: 153, 153
+  offset: 0, 0
+  index: -1
+images/skillC/xunhuan/xunhuan_00034
+  rotate: false
+  xy: 215, 861
+  size: 153, 153
+  orig: 153, 153
+  offset: 0, 0
+  index: -1
+images/skillC/xunhuan/xunhuan_00036
+  rotate: false
+  xy: 2, 446
+  size: 153, 153
+  orig: 153, 153
+  offset: 0, 0
+  index: -1
+images/skillC/xunhuan/xunhuan_00038
+  rotate: false
+  xy: 370, 861
+  size: 153, 153
+  orig: 153, 153
+  offset: 0, 0
+  index: -1
+images/skillC/xunhuan/xunhuan_00040
+  rotate: false
+  xy: 2, 291
+  size: 153, 153
+  orig: 153, 153
+  offset: 0, 0
+  index: -1
+images/skillC/xunhuan/xunhuan_00042
+  rotate: false
+  xy: 525, 861
+  size: 153, 153
+  orig: 153, 153
+  offset: 0, 0
+  index: -1
+images/skillC/xunhuan/xunhuan_00044
+  rotate: false
+  xy: 2, 136
+  size: 153, 153
+  orig: 153, 153
+  offset: 0, 0
+  index: -1
+images/skillC/xunhuan/xunhuan_00046
+  rotate: false
+  xy: 680, 861
+  size: 153, 153
+  orig: 153, 153
+  offset: 0, 0
+  index: -1
+images/skillC/xunhuan/xunhuan_00048
+  rotate: false
+  xy: 835, 861
+  size: 153, 153
+  orig: 153, 153
+  offset: 0, 0
+  index: -1
+images/skillC/xunhuan/xunhuan_00050
+  rotate: false
+  xy: 378, 706
+  size: 153, 153
+  orig: 153, 153
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 2, 756
+  size: 211, 258
+  orig: 211, 258
+  offset: 0, 0
+  index: -1
+yanzhuL
+  rotate: false
+  xy: 533, 748
+  size: 16, 17
+  orig: 16, 17
+  offset: 0, 0
+  index: -1
+yanzhuR
+  rotate: false
+  xy: 990, 996
+  size: 17, 18
+  orig: 17, 18
+  offset: 0, 0
+  index: -1
+yjj
+  rotate: false
+  xy: 157, 587
+  size: 37, 40
+  orig: 37, 40
+  offset: 0, 0
+  index: -1
+zhuaL
+  rotate: true
+  xy: 101, 73
+  size: 61, 49
+  orig: 61, 49
+  offset: 0, 0
+  index: -1
+zhuaR
+  rotate: false
+  xy: 2, 2
+  size: 66, 56
+  orig: 66, 56
+  offset: 0, 0
+  index: -1

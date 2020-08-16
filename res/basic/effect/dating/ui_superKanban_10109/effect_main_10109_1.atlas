@@ -1,0 +1,76 @@
+
+effect_main_10109_1.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dadenglong3
+  rotate: true
+  xy: 246, 308
+  size: 202, 260
+  orig: 202, 260
+  offset: 0, 0
+  index: -1
+guangdian1
+  rotate: false
+  xy: 246, 279
+  size: 29, 27
+  orig: 29, 27
+  offset: 0, 0
+  index: -1
+guangdian2
+  rotate: true
+  xy: 246, 250
+  size: 27, 28
+  orig: 27, 28
+  offset: 0, 0
+  index: -1
+huaban12
+  rotate: true
+  xy: 62, 5
+  size: 22, 15
+  orig: 22, 15
+  offset: 0, 0
+  index: -1
+huaban6
+  rotate: false
+  xy: 2, 5
+  size: 33, 22
+  orig: 33, 22
+  offset: 0, 0
+  index: -1
+huaban7
+  rotate: false
+  xy: 37, 2
+  size: 23, 25
+  orig: 23, 25
+  offset: 0, 0
+  index: -1
+huaban8
+  rotate: false
+  xy: 246, 222
+  size: 26, 26
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+huachao
+  rotate: false
+  xy: 2, 187
+  size: 242, 323
+  orig: 242, 323
+  offset: 0, 0
+  index: -1
+wuqi1
+  rotate: true
+  xy: 297, 73
+  size: 233, 178
+  orig: 233, 180
+  offset: 0, 0
+  index: -1
+wuqi2
+  rotate: false
+  xy: 2, 29
+  size: 293, 156
+  orig: 293, 157
+  offset: 0, 0
+  index: -1

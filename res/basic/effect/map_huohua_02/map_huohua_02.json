@@ -1,0 +1,67 @@
+{
+"skeleton": {
+	"hash": "4wrYdj6m4opsnenwgGsDYOSv5s8",
+	"spine": "2.1.27",
+	"width": 0,
+	"height": 0,
+	"images": "C:/Users/Administrator/Desktop/尺寸需要修改的特效/map_huohua_02"
+},
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "images/DEM大楼内部（二）效果图/huohua_00064", "bone": "root" }
+],
+"skins": {
+	"default": {
+		"images/DEM大楼内部（二）效果图/huohua_00064": {
+			"images/huohua/huohua_00064": { "width": 75, "height": 80 },
+			"images/huohua/huohua_00065": { "width": 111, "height": 115 },
+			"images/huohua/huohua_00066": { "width": 134, "height": 125 },
+			"images/huohua/huohua_00067": { "width": 123, "height": 88 },
+			"images/huohua/huohua_00068": { "width": 123, "height": 88 },
+			"images/huohua/huohua_00069": { "width": 110, "height": 68 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"images/DEM大楼内部（二）效果图/huohua_00064": {
+				"attachment": [
+					{ "time": 1, "name": "images/huohua/huohua_00064" },
+					{ "time": 1.0666, "name": "images/huohua/huohua_00065" },
+					{ "time": 1.1333, "name": "images/huohua/huohua_00066" },
+					{ "time": 1.2, "name": "images/huohua/huohua_00067" },
+					{ "time": 1.2666, "name": "images/huohua/huohua_00068" },
+					{ "time": 1.3333, "name": "images/huohua/huohua_00069" },
+					{ "time": 1.4, "name": null },
+					{ "time": 3.1, "name": "images/huohua/huohua_00064" },
+					{ "time": 3.1666, "name": "images/huohua/huohua_00065" },
+					{ "time": 3.2333, "name": "images/huohua/huohua_00066" },
+					{ "time": 3.3, "name": "images/huohua/huohua_00067" },
+					{ "time": 3.3666, "name": "images/huohua/huohua_00068" },
+					{ "time": 3.4333, "name": "images/huohua/huohua_00069" },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.7666, "name": "images/huohua/huohua_00064" },
+					{ "time": 3.8333, "name": "images/huohua/huohua_00065" },
+					{ "time": 3.9, "name": "images/huohua/huohua_00066" },
+					{ "time": 3.9666, "name": "images/huohua/huohua_00067" },
+					{ "time": 4.0333, "name": "images/huohua/huohua_00068" },
+					{ "time": 4.1, "name": "images/huohua/huohua_00069" },
+					{ "time": 4.1666, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"translate": [
+					{ "time": 1, "x": -127.39, "y": -109.91, "curve": "stepped" },
+					{ "time": 3.0333, "x": 134.89, "y": -109.91, "curve": "stepped" },
+					{ "time": 3.5666, "x": 57.45, "y": -132.39 }
+				]
+			}
+		}
+	}
+}
+}

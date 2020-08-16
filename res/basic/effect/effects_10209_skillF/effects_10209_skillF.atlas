@@ -1,0 +1,313 @@
+
+effects_10209_skillF.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/skillF/chuanci/chuanci_00000
+  rotate: false
+  xy: 579, 13
+  size: 205, 26
+  orig: 470, 74
+  offset: 44, 22
+  index: -1
+images/effect/skillF/chuanci/chuanci_00001
+  rotate: true
+  xy: 359, 229
+  size: 433, 73
+  orig: 470, 74
+  offset: 23, 0
+  index: -1
+images/effect/skillF/chuanci/chuanci_00003
+  rotate: true
+  xy: 531, 229
+  size: 438, 68
+  orig: 470, 74
+  offset: 23, 0
+  index: -1
+images/effect/skillF/chuanci/chuanci_00005
+  rotate: true
+  xy: 601, 224
+  size: 443, 62
+  orig: 470, 74
+  offset: 23, 1
+  index: -1
+images/effect/skillF/chuanci/chuanci_00007
+  rotate: true
+  xy: 294, 45
+  size: 266, 37
+  orig: 470, 74
+  offset: 81, 16
+  index: -1
+images/effect/skillF/dabao/dabao_00000
+  rotate: false
+  xy: 665, 178
+  size: 212, 210
+  orig: 403, 393
+  offset: 89, 107
+  index: -1
+images/effect/skillF/dabao/dabao_00003
+  rotate: false
+  xy: 700, 702
+  size: 320, 320
+  orig: 403, 393
+  offset: 38, 39
+  index: -1
+images/effect/skillF/dabao/dabao_00005
+  rotate: false
+  xy: 2, 313
+  size: 355, 349
+  orig: 403, 393
+  offset: 24, 24
+  index: -1
+images/effect/skillF/dabao/dabao_00007
+  rotate: false
+  xy: 2, 664
+  size: 356, 358
+  orig: 403, 393
+  offset: 20, 20
+  index: -1
+images/effect/skillF/dabao/dabao_00009
+  rotate: false
+  xy: 360, 669
+  size: 338, 353
+  orig: 403, 393
+  offset: 23, 23
+  index: -1
+images/effect/skillF/dabao/dabao_00011
+  rotate: true
+  xy: 798, 439
+  size: 261, 223
+  orig: 403, 393
+  offset: 63, 91
+  index: -1
+images/effect/skillF/dilie_00005_00005
+  rotate: false
+  xy: 786, 5
+  size: 116, 18
+  orig: 116, 35
+  offset: 0, 8
+  index: -1
+images/effect/skillF/glow_00006
+  rotate: true
+  xy: 434, 253
+  size: 414, 95
+  orig: 419, 132
+  offset: 5, 20
+  index: -1
+images/effect/skillF/shandian/shandian_00011
+  rotate: true
+  xy: 665, 390
+  size: 277, 131
+  orig: 314, 151
+  offset: 15, 3
+  index: -1
+images/effect/skillF/shandian/shandian_00012
+  rotate: false
+  xy: 855, 105
+  size: 164, 68
+  orig: 314, 151
+  offset: 76, 43
+  index: -1
+images/effect/skillF/shandian/shandian_00013
+  rotate: false
+  xy: 579, 41
+  size: 274, 135
+  orig: 314, 151
+  offset: 23, 2
+  index: -1
+images/effect/skillF/shandian/shandian_00014
+  rotate: false
+  xy: 879, 175
+  size: 142, 72
+  orig: 314, 151
+  offset: 94, 41
+  index: -1
+images/effect/skillF/shandian1/shandian_00018
+  rotate: true
+  xy: 855, 25
+  size: 78, 104
+  orig: 115, 134
+  offset: 11, 6
+  index: -1
+images/effect/skillF/xiaobao/xiaobao_00000
+  rotate: true
+  xy: 879, 249
+  size: 188, 143
+  orig: 271, 226
+  offset: 39, 35
+  index: -1
+images/effect/skillF/xiaobao/xiaobao_00006
+  rotate: false
+  xy: 700, 671
+  size: 96, 29
+  orig: 271, 226
+  offset: 61, 132
+  index: -1
+images/effect/skillF/xuanzhuanyuan/xuanzhuanyuan_00023
+  rotate: false
+  xy: 333, 14
+  size: 244, 213
+  orig: 273, 249
+  offset: 11, 14
+  index: -1
+images/effect/skillF/yuan_00005
+  rotate: false
+  xy: 2, 21
+  size: 290, 290
+  orig: 354, 357
+  offset: 26, 35
+  index: -1
+
+effects_10209_skillF2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/glow
+  rotate: false
+  xy: 741, 529
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+images/effect/skillF/dabao/dabao_00001
+  rotate: false
+  xy: 235, 785
+  size: 226, 211
+  orig: 403, 393
+  offset: 87, 106
+  index: -1
+images/effect/skillF/dabao/dabao_00013
+  rotate: false
+  xy: 371, 413
+  size: 194, 159
+  orig: 403, 393
+  offset: 94, 136
+  index: -1
+images/effect/skillF/diyuan_00006
+  rotate: false
+  xy: 371, 369
+  size: 178, 42
+  orig: 222, 70
+  offset: 19, 12
+  index: -1
+images/effect/skillF/shandian/shandian_00007
+  rotate: false
+  xy: 463, 702
+  size: 231, 119
+  orig: 314, 151
+  offset: 40, 17
+  index: -1
+images/effect/skillF/shandian/shandian_00008
+  rotate: true
+  xy: 909, 597
+  size: 192, 76
+  orig: 314, 151
+  offset: 62, 41
+  index: -1
+images/effect/skillF/shandian/shandian_00009
+  rotate: false
+  xy: 461, 574
+  size: 250, 126
+  orig: 314, 151
+  offset: 26, 8
+  index: -1
+images/effect/skillF/shandian/shandian_00010
+  rotate: false
+  xy: 2, 33
+  size: 169, 61
+  orig: 314, 151
+  offset: 73, 55
+  index: -1
+images/effect/skillF/shandian/shandian_00016
+  rotate: true
+  xy: 910, 791
+  size: 205, 86
+  orig: 314, 151
+  offset: 57, 25
+  index: -1
+images/effect/skillF/shandian1/shandian_00020
+  rotate: false
+  xy: 567, 473
+  size: 83, 99
+  orig: 115, 134
+  offset: 10, 13
+  index: -1
+images/effect/skillF/shandian1/shandian_00022
+  rotate: true
+  xy: 652, 482
+  size: 90, 87
+  orig: 115, 134
+  offset: 10, 32
+  index: -1
+images/effect/skillF/shandian1/shandian_00024
+  rotate: true
+  xy: 567, 392
+  size: 79, 81
+  orig: 115, 134
+  offset: 21, 46
+  index: -1
+images/effect/skillF/xiaobao/xiaobao_00001
+  rotate: true
+  xy: 2, 96
+  size: 234, 175
+  orig: 271, 226
+  offset: 18, 20
+  index: -1
+images/effect/skillF/xiaobao/xiaobao_00002
+  rotate: false
+  xy: 463, 823
+  size: 238, 173
+  orig: 271, 226
+  offset: 19, 17
+  index: -1
+images/effect/skillF/xiaobao/xiaobao_00003
+  rotate: true
+  xy: 2, 332
+  size: 237, 197
+  orig: 271, 226
+  offset: 20, 17
+  index: -1
+images/effect/skillF/xiaobao/xiaobao_00004
+  rotate: false
+  xy: 230, 587
+  size: 229, 196
+  orig: 271, 226
+  offset: 24, 19
+  index: -1
+images/effect/skillF/xiaobao/xiaobao_00005
+  rotate: false
+  xy: 703, 808
+  size: 205, 188
+  orig: 271, 226
+  offset: 36, 25
+  index: -1
+images/effect/skillF/xuanzhuanyuan/xuanzhuanyuan_00018
+  rotate: false
+  xy: 201, 366
+  size: 168, 203
+  orig: 273, 249
+  offset: 53, 15
+  index: -1
+images/effect/skillF/xuanzhuanyuan/xuanzhuanyuan_00019
+  rotate: false
+  xy: 713, 601
+  size: 194, 205
+  orig: 273, 249
+  offset: 41, 15
+  index: -1
+images/effect/skillF/xuanzhuanyuan/xuanzhuanyuan_00021
+  rotate: false
+  xy: 2, 785
+  size: 231, 211
+  orig: 273, 249
+  offset: 20, 14
+  index: -1
+images/effect/skillF/xuanzhuanyuan/xuanzhuanyuan_00025
+  rotate: false
+  xy: 2, 571
+  size: 226, 212
+  orig: 273, 249
+  offset: 17, 15
+  index: -1

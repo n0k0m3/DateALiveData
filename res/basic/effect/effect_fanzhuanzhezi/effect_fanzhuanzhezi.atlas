@@ -1,0 +1,67 @@
+
+effect_fanzhuanzhezi.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dian_00000
+  rotate: false
+  xy: 827, 984
+  size: 30, 31
+  orig: 46, 47
+  offset: 8, 8
+  index: -1
+hudie
+  rotate: false
+  xy: 2, 2
+  size: 174, 186
+  orig: 174, 186
+  offset: 0, 0
+  index: -1
+xing3_00000
+  rotate: false
+  xy: 178, 164
+  size: 33, 24
+  orig: 37, 36
+  offset: 2, 6
+  index: -1
+zhuanlun_00000
+  rotate: false
+  xy: 2, 190
+  size: 823, 825
+  orig: 823, 825
+  offset: 0, 0
+  index: -1
+
+effect_fanzhuanzhezi2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hudie1
+  rotate: true
+  xy: 2, 627
+  size: 389, 404
+  orig: 389, 404
+  offset: 0, 0
+  index: -1
+renwu
+  rotate: true
+  xy: 408, 400
+  size: 616, 608
+  orig: 616, 608
+  offset: 0, 0
+  index: -1
+
+effect_fanzhuanzhezi3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow_00000
+  rotate: false
+  xy: 2, 40
+  size: 678, 640
+  orig: 678, 640
+  offset: 0, 0
+  index: -1

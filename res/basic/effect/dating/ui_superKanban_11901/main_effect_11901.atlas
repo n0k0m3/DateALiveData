@@ -1,0 +1,27 @@
+
+main_effect_11901.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/guang1
+  rotate: false
+  xy: 2, 38
+  size: 303, 151
+  orig: 303, 160
+  offset: 0, 9
+  index: -1
+images/guangyun1
+  rotate: true
+  xy: 324, 253
+  size: 213, 142
+  orig: 259, 160
+  offset: 27, 18
+  index: -1
+images/guangyun2
+  rotate: false
+  xy: 2, 191
+  size: 320, 275
+  orig: 322, 275
+  offset: 2, 0
+  index: -1

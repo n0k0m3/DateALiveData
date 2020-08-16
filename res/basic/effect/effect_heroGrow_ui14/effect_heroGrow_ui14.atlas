@@ -1,0 +1,83 @@
+
+effect_heroGrow_ui14.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+kuang/kuang_00001
+  rotate: true
+  xy: 348, 368
+  size: 136, 138
+  orig: 225, 225
+  offset: 50, 45
+  index: -1
+kuang/kuang_00003
+  rotate: true
+  xy: 198, 368
+  size: 136, 148
+  orig: 225, 225
+  offset: 50, 45
+  index: -1
+kuang/kuang_00005
+  rotate: false
+  xy: 94, 107
+  size: 124, 133
+  orig: 225, 225
+  offset: 53, 51
+  index: -1
+kuang/kuang_00007
+  rotate: false
+  xy: 220, 159
+  size: 85, 85
+  orig: 225, 225
+  offset: 70, 73
+  index: -1
+kuang/kuang_00009
+  rotate: false
+  xy: 2, 366
+  size: 194, 138
+  orig: 225, 225
+  offset: 16, 49
+  index: -1
+kuang/kuang_00011
+  rotate: true
+  xy: 2, 46
+  size: 194, 90
+  orig: 225, 225
+  offset: 16, 70
+  index: -1
+kuang/kuang_00013
+  rotate: false
+  xy: 2, 242
+  size: 192, 122
+  orig: 225, 225
+  offset: 17, 53
+  index: -1
+kuang/kuang_00015
+  rotate: false
+  xy: 196, 246
+  size: 115, 118
+  orig: 225, 225
+  offset: 57, 56
+  index: -1
+kuang/kuang_00017
+  rotate: false
+  xy: 313, 252
+  size: 111, 114
+  orig: 225, 225
+  offset: 58, 59
+  index: -1
+kuang/kuang_00019
+  rotate: true
+  xy: 94, 2
+  size: 103, 104
+  orig: 225, 225
+  offset: 62, 63
+  index: -1
+kuang/kuang_00021
+  rotate: false
+  xy: 200, 4
+  size: 100, 101
+  orig: 225, 225
+  offset: 65, 63
+  index: -1

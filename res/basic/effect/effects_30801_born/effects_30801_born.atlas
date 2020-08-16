@@ -1,0 +1,307 @@
+
+effects_30801_born.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/EskillA/zadiyann/zadiyann_00060
+  rotate: false
+  xy: 59, 4
+  size: 88, 56
+  orig: 145, 102
+  offset: 28, 13
+  index: -1
+images/effects/EskillA/zadiyann/zadiyann_00062
+  rotate: false
+  xy: 892, 926
+  size: 130, 96
+  orig: 145, 102
+  offset: 8, 3
+  index: -1
+images/effects/EskillA/zadiyann/zadiyann_00064
+  rotate: false
+  xy: 218, 747
+  size: 145, 102
+  orig: 145, 102
+  offset: 0, 0
+  index: -1
+images/effects/EskillA/zadiyann/zadiyann_00066
+  rotate: false
+  xy: 218, 643
+  size: 145, 102
+  orig: 145, 102
+  offset: 0, 0
+  index: -1
+images/effects/EskillA/zadiyann/zadiyann_00068
+  rotate: false
+  xy: 477, 874
+  size: 145, 102
+  orig: 145, 102
+  offset: 0, 0
+  index: -1
+images/effects/EskillA/zadiyann/zadiyann_00070
+  rotate: false
+  xy: 696, 868
+  size: 145, 102
+  orig: 145, 102
+  offset: 0, 0
+  index: -1
+images/effects/EskillA/zadiyann/zadiyann_00072
+  rotate: false
+  xy: 696, 768
+  size: 145, 98
+  orig: 145, 102
+  offset: 0, 0
+  index: -1
+images/effects/EskillA/zadiyann/zadiyann_00074
+  rotate: false
+  xy: 843, 838
+  size: 142, 86
+  orig: 145, 102
+  offset: 3, 0
+  index: -1
+images/effects/EskillA/zadiyann/zadiyann_00076
+  rotate: false
+  xy: 843, 755
+  size: 141, 81
+  orig: 145, 102
+  offset: 4, 0
+  index: -1
+images/effects/EskillA/zadiyann/zadiyann_00078
+  rotate: true
+  xy: 47, 252
+  size: 140, 74
+  orig: 145, 102
+  offset: 5, 6
+  index: -1
+images/effects/EskillC/shitoun/shitoun_00020
+  rotate: false
+  xy: 987, 895
+  size: 32, 29
+  orig: 88, 74
+  offset: 26, 4
+  index: -1
+images/effects/EskillC/shitoun/shitoun_00022
+  rotate: false
+  xy: 843, 927
+  size: 43, 43
+  orig: 88, 74
+  offset: 21, 7
+  index: -1
+images/effects/EskillC/shitoun/shitoun_00024
+  rotate: true
+  xy: 404, 851
+  size: 50, 53
+  orig: 88, 74
+  offset: 17, 9
+  index: -1
+images/effects/EskillC/shitoun/shitoun_00026
+  rotate: false
+  xy: 744, 704
+  size: 59, 62
+  orig: 88, 74
+  offset: 13, 7
+  index: -1
+images/effects/EskillC/shitoun/shitoun_00028
+  rotate: true
+  xy: 47, 184
+  size: 66, 72
+  orig: 88, 74
+  offset: 10, 2
+  index: -1
+images/effects/EskillC/shitoun/shitoun_00030
+  rotate: true
+  xy: 587, 696
+  size: 73, 74
+  orig: 88, 74
+  offset: 6, 0
+  index: -1
+images/effects/EskillC/shitoun/shitoun_00032
+  rotate: false
+  xy: 663, 704
+  size: 79, 62
+  orig: 88, 74
+  offset: 3, 10
+  index: -1
+images/effects/EskillC/shitoun/shitoun_00034
+  rotate: false
+  xy: 601, 771
+  size: 84, 59
+  orig: 88, 74
+  offset: 0, 7
+  index: -1
+images/effects/born/canyinga_00018
+  rotate: true
+  xy: 59, 62
+  size: 120, 74
+  orig: 121, 82
+  offset: 0, 1
+  index: -1
+images/effects/born/chongjia/chongjia_00017
+  rotate: true
+  xy: 2, 394
+  size: 233, 69
+  orig: 246, 70
+  offset: 13, 1
+  index: -1
+images/effects/born/chongjia/chongjia_00019
+  rotate: true
+  xy: 2, 629
+  size: 238, 70
+  orig: 246, 70
+  offset: 6, 0
+  index: -1
+images/effects/born/chongjia/chongjia_00021
+  rotate: false
+  xy: 238, 952
+  size: 237, 70
+  orig: 246, 70
+  offset: 5, 0
+  index: -1
+images/effects/born/chongjia/chongjia_00023
+  rotate: true
+  xy: 74, 654
+  size: 213, 70
+  orig: 246, 70
+  offset: 17, 0
+  index: -1
+images/effects/born/chongjia/chongjia_00025
+  rotate: true
+  xy: 146, 684
+  size: 183, 70
+  orig: 246, 70
+  offset: 20, 0
+  index: -1
+images/effects/born/chongjia/chongjia_00027
+  rotate: true
+  xy: 624, 832
+  size: 144, 70
+  orig: 246, 70
+  offset: 23, 0
+  index: -1
+images/effects/born/chongjim/chongjim_00017
+  rotate: true
+  xy: 2, 183
+  size: 209, 43
+  orig: 246, 70
+  offset: 26, 15
+  index: -1
+images/effects/born/chongjim/chongjim_00019
+  rotate: false
+  xy: 477, 978
+  size: 219, 44
+  orig: 246, 70
+  offset: 14, 14
+  index: -1
+images/effects/born/chongjim/chongjim_00021
+  rotate: false
+  xy: 238, 903
+  size: 218, 47
+  orig: 246, 70
+  offset: 11, 13
+  index: -1
+images/effects/born/chongjim/chongjim_00023
+  rotate: false
+  xy: 698, 972
+  size: 192, 50
+  orig: 246, 70
+  offset: 24, 10
+  index: -1
+images/effects/born/chongjim/chongjim_00025
+  rotate: false
+  xy: 238, 851
+  size: 164, 50
+  orig: 246, 70
+  offset: 28, 10
+  index: -1
+images/effects/born/chongjim/chongjim_00027
+  rotate: true
+  xy: 73, 504
+  size: 123, 46
+  orig: 246, 70
+  offset: 32, 12
+  index: -1
+images/effects/born/dilieguanga_00018
+  rotate: false
+  xy: 2, 869
+  size: 234, 153
+  orig: 234, 158
+  offset: 0, 0
+  index: -1
+images/effects/born/dilien_00018
+  rotate: true
+  xy: 365, 687
+  size: 162, 53
+  orig: 162, 53
+  offset: 0, 0
+  index: -1
+images/effects/born/kuosanbo_00018
+  rotate: true
+  xy: 2, 7
+  size: 174, 55
+  orig: 174, 55
+  offset: 0, 0
+  index: -1
+images/effects/born/lizia/lizia_00018
+  rotate: false
+  xy: 123, 219
+  size: 91, 86
+  orig: 95, 105
+  offset: 0, 3
+  index: -1
+images/effects/born/lizia/lizia_00020
+  rotate: false
+  xy: 508, 784
+  size: 91, 88
+  orig: 95, 105
+  offset: 1, 5
+  index: -1
+images/effects/born/lizia/lizia_00022
+  rotate: false
+  xy: 73, 405
+  size: 93, 97
+  orig: 95, 105
+  offset: 1, 0
+  index: -1
+images/effects/born/lizia/lizia_00024
+  rotate: false
+  xy: 123, 307
+  size: 90, 96
+  orig: 95, 105
+  offset: 4, 3
+  index: -1
+images/effects/born/lizia/lizia_00026
+  rotate: false
+  xy: 135, 122
+  size: 89, 95
+  orig: 95, 105
+  offset: 4, 6
+  index: -1
+images/effects/born/lizia/lizia_00028
+  rotate: false
+  xy: 420, 756
+  size: 86, 93
+  orig: 95, 105
+  offset: 6, 9
+  index: -1
+images/effects/born/lizia/lizia_00030
+  rotate: true
+  xy: 420, 673
+  size: 81, 89
+  orig: 95, 105
+  offset: 9, 13
+  index: -1
+images/effects/born/lizia/lizia_00032
+  rotate: false
+  xy: 511, 702
+  size: 74, 80
+  orig: 95, 105
+  offset: 13, 19
+  index: -1
+images/effects/glow
+  rotate: false
+  xy: 135, 72
+  size: 44, 48
+  orig: 56, 56
+  offset: 6, 3
+  index: -1

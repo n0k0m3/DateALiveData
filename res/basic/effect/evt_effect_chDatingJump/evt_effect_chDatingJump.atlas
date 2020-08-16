@@ -1,0 +1,118 @@
+
+evt_effect_chDatingJump.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/liangtiao_00020_00020
+  rotate: false
+  xy: 2, 967
+  size: 777, 32
+  orig: 777, 56
+  offset: 0, 10
+  index: -1
+images/liubian_00043
+  rotate: false
+  xy: 293, 801
+  size: 118, 106
+  orig: 127, 119
+  offset: 6, 7
+  index: -1
+images/lizi/lizi_00020
+  rotate: true
+  xy: 274, 477
+  size: 430, 17
+  orig: 482, 47
+  offset: 29, 12
+  index: -1
+images/lizi/lizi_00021
+  rotate: true
+  xy: 254, 463
+  size: 444, 18
+  orig: 482, 47
+  offset: 16, 11
+  index: -1
+images/lizi/lizi_00022
+  rotate: true
+  xy: 232, 458
+  size: 449, 20
+  orig: 482, 47
+  offset: 12, 10
+  index: -1
+images/lizi/lizi_00023
+  rotate: true
+  xy: 2, 2
+  size: 451, 22
+  orig: 482, 47
+  offset: 11, 9
+  index: -1
+images/lizi/lizi_00024
+  rotate: true
+  xy: 2, 455
+  size: 452, 23
+  orig: 482, 47
+  offset: 11, 9
+  index: -1
+images/lizi/lizi_00025
+  rotate: true
+  xy: 27, 456
+  size: 451, 24
+  orig: 482, 47
+  offset: 12, 8
+  index: -1
+images/lizi/lizi_00026
+  rotate: true
+  xy: 53, 457
+  size: 450, 25
+  orig: 482, 47
+  offset: 13, 8
+  index: -1
+images/lizi/lizi_00027
+  rotate: false
+  xy: 2, 939
+  size: 450, 26
+  orig: 482, 47
+  offset: 13, 7
+  index: -1
+images/lizi/lizi_00028
+  rotate: true
+  xy: 204, 459
+  size: 448, 26
+  orig: 482, 47
+  offset: 14, 7
+  index: -1
+images/lizi/lizi_00029
+  rotate: false
+  xy: 2, 909
+  size: 448, 28
+  orig: 482, 47
+  offset: 14, 6
+  index: -1
+images/lizi/lizi_00030
+  rotate: true
+  xy: 80, 460
+  size: 447, 28
+  orig: 482, 47
+  offset: 15, 6
+  index: -1
+images/lizi/lizi_00031
+  rotate: true
+  xy: 110, 461
+  size: 446, 28
+  orig: 482, 47
+  offset: 16, 6
+  index: -1
+images/lizi/lizi_00032
+  rotate: true
+  xy: 140, 464
+  size: 443, 30
+  orig: 482, 47
+  offset: 20, 5
+  index: -1
+images/lizi/lizi_00033
+  rotate: true
+  xy: 172, 465
+  size: 442, 30
+  orig: 482, 47
+  offset: 21, 5
+  index: -1

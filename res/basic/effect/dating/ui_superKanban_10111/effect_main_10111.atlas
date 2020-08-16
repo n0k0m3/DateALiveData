@@ -1,0 +1,20 @@
+
+effect_main_10111.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guang
+  rotate: false
+  xy: 2, 46
+  size: 421, 223
+  orig: 422, 224
+  offset: 0, 1
+  index: -1
+guang2_00000
+  rotate: false
+  xy: 2, 271
+  size: 499, 230
+  orig: 499, 230
+  offset: 0, 0
+  index: -1

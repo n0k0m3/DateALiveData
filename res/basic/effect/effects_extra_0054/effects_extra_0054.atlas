@@ -1,0 +1,334 @@
+
+effects_extra_0054.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+imange/baodian/baidian_00019
+  rotate: false
+  xy: 2, 2
+  size: 240, 202
+  orig: 320, 320
+  offset: 34, 70
+  index: -1
+imange/baodian/baidian_00021
+  rotate: true
+  xy: 367, 510
+  size: 250, 205
+  orig: 320, 320
+  offset: 29, 66
+  index: -1
+imange/baodian/baidian_00023
+  rotate: true
+  xy: 2, 206
+  size: 284, 221
+  orig: 320, 320
+  offset: 11, 66
+  index: -1
+imange/baodian/baidian_00025
+  rotate: true
+  xy: 574, 504
+  size: 273, 216
+  orig: 320, 320
+  offset: 14, 66
+  index: -1
+imange/baodian/baidian_00027
+  rotate: false
+  xy: 274, 762
+  size: 269, 260
+  orig: 320, 320
+  offset: 30, 9
+  index: -1
+imange/baodian/baidian_00029
+  rotate: false
+  xy: 2, 756
+  size: 270, 266
+  orig: 320, 320
+  offset: 29, 6
+  index: -1
+imange/baodian/baidian_00031
+  rotate: false
+  xy: 2, 492
+  size: 268, 262
+  orig: 320, 320
+  offset: 31, 8
+  index: -1
+imange/baokai/baokai_00003
+  rotate: true
+  xy: 787, 255
+  size: 247, 104
+  orig: 320, 120
+  offset: 24, 10
+  index: -1
+imange/baokai/baokai_00015
+  rotate: true
+  xy: 272, 492
+  size: 262, 93
+  orig: 320, 120
+  offset: 24, 10
+  index: -1
+imange/baokai/baokai_00017
+  rotate: true
+  xy: 854, 522
+  size: 261, 93
+  orig: 320, 120
+  offset: 24, 10
+  index: -1
+imange/bingshan_00009
+  rotate: true
+  xy: 434, 21
+  size: 189, 168
+  orig: 200, 200
+  offset: 5, 11
+  index: -1
+imange/dilie/dilie_00002
+  rotate: true
+  xy: 949, 503
+  size: 280, 73
+  orig: 280, 80
+  offset: 0, 0
+  index: -1
+imange/dilie/dilie_00008
+  rotate: true
+  xy: 792, 507
+  size: 270, 60
+  orig: 280, 80
+  offset: 10, 6
+  index: -1
+imange/dilie/dilie_00014
+  rotate: true
+  xy: 815, 6
+  size: 247, 58
+  orig: 280, 80
+  offset: 19, 8
+  index: -1
+imange/feitian1/feitian1_000
+  rotate: true
+  xy: 384, 212
+  size: 296, 160
+  orig: 296, 160
+  offset: 0, 0
+  index: -1
+imange/feitian1/feitian1_004
+  rotate: true
+  xy: 225, 207
+  size: 283, 157
+  orig: 296, 160
+  offset: 1, 3
+  index: -1
+imange/feitian1/feitian1_010
+  rotate: true
+  xy: 875, 43
+  size: 159, 142
+  orig: 296, 160
+  offset: 66, 12
+  index: -1
+imange/xuehua/xuehua_00009
+  rotate: true
+  xy: 893, 204
+  size: 175, 115
+  orig: 200, 200
+  offset: 12, 50
+  index: -1
+imange/yanwu/yanwu_00003
+  rotate: false
+  xy: 893, 381
+  size: 129, 120
+  orig: 280, 280
+  offset: 65, 77
+  index: -1
+imange/yanwu/yanwu_00007
+  rotate: true
+  xy: 244, 12
+  size: 193, 188
+  orig: 280, 280
+  offset: 42, 44
+  index: -1
+imange/yanwu/yanwu_00009
+  rotate: true
+  xy: 604, 35
+  size: 218, 209
+  orig: 280, 280
+  offset: 34, 33
+  index: -1
+imange/yanwu/yanwu_00011
+  rotate: true
+  xy: 794, 785
+  size: 237, 227
+  orig: 280, 280
+  offset: 26, 24
+  index: -1
+imange/yanwu/yanwu_00013
+  rotate: true
+  xy: 546, 255
+  size: 247, 239
+  orig: 280, 280
+  offset: 22, 18
+  index: -1
+imange/yanwu/yanwu_00015
+  rotate: false
+  xy: 545, 779
+  size: 247, 243
+  orig: 280, 280
+  offset: 22, 16
+  index: -1
+
+effects_extra_00542.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+imange/baokai/baokai_00001
+  rotate: false
+  xy: 572, 672
+  size: 187, 96
+  orig: 320, 120
+  offset: 56, 10
+  index: -1
+imange/baokai/baokai_00005
+  rotate: false
+  xy: 587, 906
+  size: 301, 103
+  orig: 320, 120
+  offset: 9, 10
+  index: -1
+imange/baokai/baokai_00007
+  rotate: true
+  xy: 2, 388
+  size: 310, 100
+  orig: 320, 120
+  offset: 0, 10
+  index: -1
+imange/baokai/baokai_00009
+  rotate: true
+  xy: 104, 399
+  size: 299, 92
+  orig: 320, 120
+  offset: 8, 10
+  index: -1
+imange/baokai/baokai_00011
+  rotate: true
+  xy: 2, 75
+  size: 311, 92
+  orig: 320, 120
+  offset: 1, 10
+  index: -1
+imange/baokai/baokai_00013
+  rotate: true
+  xy: 198, 407
+  size: 291, 93
+  orig: 320, 120
+  offset: 16, 10
+  index: -1
+imange/dilie/dilie_00000
+  rotate: false
+  xy: 293, 406
+  size: 180, 41
+  orig: 280, 80
+  offset: 55, 20
+  index: -1
+imange/dilie/dilie_00004
+  rotate: false
+  xy: 587, 831
+  size: 280, 73
+  orig: 280, 80
+  offset: 0, 0
+  index: -1
+imange/dilie/dilie_00006
+  rotate: false
+  xy: 300, 790
+  size: 280, 72
+  orig: 280, 80
+  offset: 0, 0
+  index: -1
+imange/dilie/dilie_00010
+  rotate: false
+  xy: 286, 727
+  size: 280, 61
+  orig: 280, 80
+  offset: 0, 5
+  index: -1
+imange/dilie/dilie_00012
+  rotate: false
+  xy: 582, 770
+  size: 268, 59
+  orig: 280, 80
+  offset: 12, 7
+  index: -1
+imange/feitian1/feitian1_002
+  rotate: false
+  xy: 2, 854
+  size: 296, 155
+  orig: 296, 160
+  offset: 0, 5
+  index: -1
+imange/feitian1/feitian1_006
+  rotate: false
+  xy: 2, 700
+  size: 282, 152
+  orig: 296, 160
+  offset: 1, 8
+  index: -1
+imange/feitian1/feitian1_008
+  rotate: false
+  xy: 300, 864
+  size: 285, 145
+  orig: 296, 160
+  offset: 0, 15
+  index: -1
+imange/xuehua/xuehua_00003
+  rotate: true
+  xy: 459, 569
+  size: 156, 111
+  orig: 200, 200
+  offset: 21, 10
+  index: -1
+imange/xuehua/xuehua_00005
+  rotate: true
+  xy: 890, 842
+  size: 167, 110
+  orig: 200, 200
+  offset: 15, 32
+  index: -1
+imange/xuehua/xuehua_00007
+  rotate: false
+  xy: 293, 449
+  size: 175, 114
+  orig: 200, 200
+  offset: 11, 42
+  index: -1
+imange/xuehua/xuehua_00011
+  rotate: false
+  xy: 572, 558
+  size: 171, 112
+  orig: 200, 200
+  offset: 18, 58
+  index: -1
+imange/xuehua/xuehua_00013
+  rotate: false
+  xy: 761, 662
+  size: 169, 106
+  orig: 200, 200
+  offset: 19, 64
+  index: -1
+imange/xuehua/xuehua_00015
+  rotate: false
+  xy: 470, 506
+  size: 93, 61
+  orig: 200, 200
+  offset: 27, 105
+  index: -1
+imange/yanwu/yanwu_00001
+  rotate: false
+  xy: 2, 2
+  size: 91, 71
+  orig: 280, 280
+  offset: 82, 101
+  index: -1
+imange/yanwu/yanwu_00005
+  rotate: false
+  xy: 293, 565
+  size: 164, 160
+  orig: 280, 280
+  offset: 50, 58
+  index: -1

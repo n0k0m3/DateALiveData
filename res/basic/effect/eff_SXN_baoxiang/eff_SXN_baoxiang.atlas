@@ -1,0 +1,20 @@
+
+eff_SXN_baoxiang.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1/baoxaing
+  rotate: false
+  xy: 2, 12
+  size: 103, 112
+  orig: 103, 112
+  offset: 0, 0
+  index: -1
+1/lizi1
+  rotate: false
+  xy: 107, 107
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1

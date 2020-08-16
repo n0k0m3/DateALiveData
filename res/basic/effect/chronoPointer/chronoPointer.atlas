@@ -1,0 +1,132 @@
+
+chronoPointer.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/guangtou_00000
+  rotate: false
+  xy: 2, 10
+  size: 10, 15
+  orig: 29, 24
+  offset: 15, 5
+  index: -1
+images/lizitou/lizitou_00000
+  rotate: true
+  xy: 196, 96
+  size: 54, 46
+  orig: 60, 54
+  offset: 5, 3
+  index: -1
+images/lizitou/lizitou_00001
+  rotate: true
+  xy: 92, 35
+  size: 55, 45
+  orig: 60, 54
+  offset: 5, 3
+  index: -1
+images/lizitou/lizitou_00002
+  rotate: true
+  xy: 92, 92
+  size: 57, 45
+  orig: 60, 54
+  offset: 1, 3
+  index: -1
+images/lizitou/lizitou_00003
+  rotate: false
+  xy: 63, 199
+  size: 58, 46
+  orig: 60, 54
+  offset: 1, 3
+  index: -1
+images/lizitou/lizitou_00004
+  rotate: false
+  xy: 2, 150
+  size: 59, 46
+  orig: 60, 54
+  offset: 0, 4
+  index: -1
+images/lizitou/lizitou_00005
+  rotate: true
+  xy: 48, 28
+  size: 58, 42
+  orig: 60, 54
+  offset: 0, 4
+  index: -1
+images/lizitou/lizitou_00006
+  rotate: true
+  xy: 48, 88
+  size: 60, 42
+  orig: 60, 54
+  offset: 0, 4
+  index: -1
+images/lizitou/lizitou_00007
+  rotate: true
+  xy: 2, 88
+  size: 60, 44
+  orig: 60, 54
+  offset: 0, 4
+  index: -1
+images/lizitou/lizitou_00008
+  rotate: false
+  xy: 123, 202
+  size: 60, 43
+  orig: 60, 54
+  offset: 0, 5
+  index: -1
+images/lizitou/lizitou_00009
+  rotate: true
+  xy: 2, 27
+  size: 59, 44
+  orig: 60, 54
+  offset: 0, 5
+  index: -1
+images/lizitou/lizitou_00010
+  rotate: false
+  xy: 123, 152
+  size: 55, 48
+  orig: 60, 54
+  offset: 3, 3
+  index: -1
+images/lizitou/lizitou_00011
+  rotate: false
+  xy: 139, 53
+  size: 55, 47
+  orig: 60, 54
+  offset: 3, 3
+  index: -1
+images/lizitou/lizitou_00012
+  rotate: false
+  xy: 180, 152
+  size: 55, 48
+  orig: 60, 54
+  offset: 2, 3
+  index: -1
+images/lizitou/lizitou_00013
+  rotate: false
+  xy: 63, 151
+  size: 58, 46
+  orig: 60, 54
+  offset: 2, 3
+  index: -1
+images/lizitou/lizitou_00014
+  rotate: false
+  xy: 2, 198
+  size: 59, 47
+  orig: 60, 54
+  offset: 0, 3
+  index: -1
+images/lizitou/lizitou_00015
+  rotate: false
+  xy: 185, 202
+  size: 60, 43
+  orig: 60, 54
+  offset: 0, 3
+  index: -1
+images/lizitou/lizitou_00016
+  rotate: false
+  xy: 139, 102
+  size: 55, 48
+  orig: 60, 54
+  offset: 5, 3
+  index: -1

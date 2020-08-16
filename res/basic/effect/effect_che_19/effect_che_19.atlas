@@ -1,0 +1,13 @@
+
+effect_che_19.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+che
+  rotate: false
+  xy: 2, 1336
+  size: 1506, 172
+  orig: 1506, 172
+  offset: 0, 0
+  index: -1

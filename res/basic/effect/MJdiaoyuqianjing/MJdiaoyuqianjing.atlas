@@ -1,0 +1,62 @@
+
+MJdiaoyuqianjing.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+coral1_2
+  rotate: false
+  xy: 2, 529
+  size: 303, 208
+  orig: 303, 208
+  offset: 0, 0
+  index: -1
+coral3_1
+  rotate: false
+  xy: 150, 330
+  size: 138, 197
+  orig: 138, 197
+  offset: 0, 0
+  index: -1
+coral3_2
+  rotate: true
+  xy: 368, 804
+  size: 177, 298
+  orig: 177, 298
+  offset: 0, 0
+  index: -1
+coral4_1
+  rotate: false
+  xy: 890, 892
+  size: 91, 89
+  orig: 92, 89
+  offset: 1, 0
+  index: -1
+cutstone1
+  rotate: false
+  xy: 2, 739
+  size: 364, 242
+  orig: 364, 242
+  offset: 0, 0
+  index: -1
+waterweed1
+  rotate: false
+  xy: 2, 8
+  size: 117, 248
+  orig: 117, 248
+  offset: 0, 0
+  index: -1
+waterweed2
+  rotate: true
+  xy: 668, 813
+  size: 168, 220
+  orig: 168, 220
+  offset: 0, 0
+  index: -1
+waterweed3
+  rotate: false
+  xy: 2, 258
+  size: 146, 269
+  orig: 146, 269
+  offset: 0, 0
+  index: -1

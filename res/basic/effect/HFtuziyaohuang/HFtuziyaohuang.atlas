@@ -1,0 +1,13 @@
+
+HFtuziyaohuang.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tuzi
+  rotate: false
+  xy: 2, 2
+  size: 69, 90
+  orig: 69, 90
+  offset: 0, 0
+  index: -1

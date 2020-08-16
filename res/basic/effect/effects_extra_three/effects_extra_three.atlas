@@ -1,0 +1,83 @@
+
+effects_extra_three.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/dimianxunhuan/dimianxunhuan_00000
+  rotate: false
+  xy: 208, 303
+  size: 194, 91
+  orig: 194, 115
+  offset: 0, 6
+  index: -1
+images/dimianxunhuan/dimianxunhuan_00002
+  rotate: false
+  xy: 208, 396
+  size: 194, 112
+  orig: 194, 115
+  offset: 0, 3
+  index: -1
+images/dimianxunhuan/dimianxunhuan_00004
+  rotate: false
+  xy: 2, 122
+  size: 194, 109
+  orig: 194, 115
+  offset: 0, 6
+  index: -1
+images/dimianxunhuan/dimianxunhuan_00006
+  rotate: false
+  xy: 198, 96
+  size: 194, 95
+  orig: 194, 115
+  offset: 0, 8
+  index: -1
+images/dimianxunhuan/dimianxunhuan_00008
+  rotate: true
+  xy: 404, 314
+  size: 194, 102
+  orig: 194, 115
+  offset: 0, 3
+  index: -1
+images/dimianxunhuan/dimianxunhuan_00010
+  rotate: false
+  xy: 2, 233
+  size: 194, 113
+  orig: 194, 115
+  offset: 0, 0
+  index: -1
+images/dimianxunhuan/dimianxunhuan_00012
+  rotate: false
+  xy: 198, 193
+  size: 194, 108
+  orig: 194, 115
+  offset: 0, 0
+  index: -1
+images/dimianxunhuan/dimianxunhuan_00014
+  rotate: false
+  xy: 2, 11
+  size: 194, 109
+  orig: 194, 115
+  offset: 0, 1
+  index: -1
+images/dimianxunhuan/dimianxunhuan_00016
+  rotate: false
+  xy: 198, 2
+  size: 194, 92
+  orig: 194, 115
+  offset: 0, 2
+  index: -1
+images/dimianxunhuan/dimianxunhuan_00018
+  rotate: true
+  xy: 394, 107
+  size: 194, 82
+  orig: 194, 115
+  offset: 0, 8
+  index: -1
+images/guangmu_00016
+  rotate: false
+  xy: 2, 348
+  size: 204, 160
+  orig: 206, 164
+  offset: 2, 0
+  index: -1

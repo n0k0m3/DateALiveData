@@ -1,0 +1,236 @@
+
+mcity_guangzhu.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/100000
+  rotate: false
+  xy: 2, 513
+  size: 212, 239
+  orig: 212, 239
+  offset: 0, 0
+  index: -1
+images/add00000
+  rotate: false
+  xy: 2, 754
+  size: 354, 256
+  orig: 354, 256
+  offset: 0, 0
+  index: -1
+images/lizi/100000
+  rotate: false
+  xy: 358, 785
+  size: 216, 225
+  orig: 216, 225
+  offset: 0, 0
+  index: -1
+images/lizi/100001
+  rotate: false
+  xy: 576, 785
+  size: 216, 225
+  orig: 216, 225
+  offset: 0, 0
+  index: -1
+images/lizi/100002
+  rotate: false
+  xy: 794, 785
+  size: 216, 225
+  orig: 216, 225
+  offset: 0, 0
+  index: -1
+images/lizi/100003
+  rotate: false
+  xy: 2, 286
+  size: 216, 225
+  orig: 216, 225
+  offset: 0, 0
+  index: -1
+images/lizi/100004
+  rotate: false
+  xy: 2, 59
+  size: 216, 225
+  orig: 216, 225
+  offset: 0, 0
+  index: -1
+images/lizi/100005
+  rotate: false
+  xy: 216, 527
+  size: 216, 225
+  orig: 216, 225
+  offset: 0, 0
+  index: -1
+images/lizi/100006
+  rotate: false
+  xy: 220, 300
+  size: 216, 225
+  orig: 216, 225
+  offset: 0, 0
+  index: -1
+images/lizi/100007
+  rotate: false
+  xy: 220, 73
+  size: 216, 225
+  orig: 216, 225
+  offset: 0, 0
+  index: -1
+images/lizi/100008
+  rotate: false
+  xy: 434, 558
+  size: 216, 225
+  orig: 216, 225
+  offset: 0, 0
+  index: -1
+images/lizi/100009
+  rotate: false
+  xy: 652, 558
+  size: 216, 225
+  orig: 216, 225
+  offset: 0, 0
+  index: -1
+images/lizi/100010
+  rotate: false
+  xy: 438, 331
+  size: 216, 225
+  orig: 216, 225
+  offset: 0, 0
+  index: -1
+images/lizi/100011
+  rotate: false
+  xy: 438, 104
+  size: 216, 225
+  orig: 216, 225
+  offset: 0, 0
+  index: -1
+images/lizi/100012
+  rotate: false
+  xy: 656, 331
+  size: 216, 225
+  orig: 216, 225
+  offset: 0, 0
+  index: -1
+images/lizi/100013
+  rotate: false
+  xy: 656, 104
+  size: 216, 225
+  orig: 216, 225
+  offset: 0, 0
+  index: -1
+
+mcity_guangzhu2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/lizi/100014
+  rotate: false
+  xy: 2, 683
+  size: 216, 225
+  orig: 216, 225
+  offset: 0, 0
+  index: -1
+images/lizi/100015
+  rotate: false
+  xy: 2, 456
+  size: 216, 225
+  orig: 216, 225
+  offset: 0, 0
+  index: -1
+images/lizi/100016
+  rotate: false
+  xy: 220, 683
+  size: 216, 225
+  orig: 216, 225
+  offset: 0, 0
+  index: -1
+images/lizi/100017
+  rotate: false
+  xy: 2, 229
+  size: 216, 225
+  orig: 216, 225
+  offset: 0, 0
+  index: -1
+images/lizi/100018
+  rotate: false
+  xy: 220, 456
+  size: 216, 225
+  orig: 216, 225
+  offset: 0, 0
+  index: -1
+images/lizi/100019
+  rotate: false
+  xy: 438, 683
+  size: 216, 225
+  orig: 216, 225
+  offset: 0, 0
+  index: -1
+images/lizi/100020
+  rotate: false
+  xy: 2, 2
+  size: 216, 225
+  orig: 216, 225
+  offset: 0, 0
+  index: -1
+images/lizi/100021
+  rotate: false
+  xy: 220, 229
+  size: 216, 225
+  orig: 216, 225
+  offset: 0, 0
+  index: -1
+images/lizi/100022
+  rotate: false
+  xy: 438, 456
+  size: 216, 225
+  orig: 216, 225
+  offset: 0, 0
+  index: -1
+images/lizi/100023
+  rotate: false
+  xy: 656, 683
+  size: 216, 225
+  orig: 216, 225
+  offset: 0, 0
+  index: -1
+images/lizi/100024
+  rotate: false
+  xy: 220, 2
+  size: 216, 225
+  orig: 216, 225
+  offset: 0, 0
+  index: -1
+images/lizi/100025
+  rotate: false
+  xy: 438, 229
+  size: 216, 225
+  orig: 216, 225
+  offset: 0, 0
+  index: -1
+images/lizi/100026
+  rotate: false
+  xy: 656, 456
+  size: 216, 225
+  orig: 216, 225
+  offset: 0, 0
+  index: -1
+images/lizi/100027
+  rotate: false
+  xy: 438, 2
+  size: 216, 225
+  orig: 216, 225
+  offset: 0, 0
+  index: -1
+images/lizi/100028
+  rotate: false
+  xy: 656, 229
+  size: 216, 225
+  orig: 216, 225
+  offset: 0, 0
+  index: -1
+images/lizi/100029
+  rotate: false
+  xy: 656, 2
+  size: 216, 225
+  orig: 216, 225
+  offset: 0, 0
+  index: -1

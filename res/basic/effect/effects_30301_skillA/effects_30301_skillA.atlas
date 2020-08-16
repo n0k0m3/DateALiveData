@@ -1,0 +1,132 @@
+
+effects_30301_skillA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/F_skillB/add/kaihuo__00035
+  rotate: false
+  xy: 622, 686
+  size: 196, 196
+  orig: 219, 205
+  offset: 9, 4
+  index: -1
+effect/F_skillB/add/kaihuo__00036
+  rotate: false
+  xy: 2, 249
+  size: 190, 191
+  orig: 219, 205
+  offset: 12, 7
+  index: -1
+effect/F_skillB/add/kaihuo__00037
+  rotate: true
+  xy: 820, 678
+  size: 89, 97
+  orig: 219, 205
+  offset: 69, 63
+  index: -1
+effect/F_skillB/add/kaihuo__00038
+  rotate: false
+  xy: 194, 327
+  size: 111, 113
+  orig: 219, 205
+  offset: 61, 66
+  index: -1
+effect/F_skillB/add/kaihuo__00039
+  rotate: false
+  xy: 820, 769
+  size: 101, 113
+  orig: 219, 205
+  offset: 74, 65
+  index: -1
+effect/F_skillB/add/kaihuo__00040
+  rotate: false
+  xy: 2, 120
+  size: 174, 127
+  orig: 219, 205
+  offset: 39, 37
+  index: -1
+effect/F_skillB/nor/baodian__00037
+  rotate: false
+  xy: 312, 478
+  size: 246, 134
+  orig: 308, 168
+  offset: 31, 3
+  index: -1
+effect/F_skillB/nor/baodian__00038
+  rotate: false
+  xy: 622, 884
+  size: 304, 136
+  orig: 308, 168
+  offset: 2, 3
+  index: -1
+effect/F_skillB/nor/baodian__00039
+  rotate: false
+  xy: 312, 724
+  size: 308, 143
+  orig: 308, 168
+  offset: 0, 3
+  index: -1
+effect/F_skillB/nor/baodian__00040
+  rotate: false
+  xy: 2, 715
+  size: 308, 151
+  orig: 308, 168
+  offset: 0, 3
+  index: -1
+effect/F_skillB/nor/baodian__00041
+  rotate: false
+  xy: 312, 869
+  size: 308, 151
+  orig: 308, 168
+  offset: 0, 3
+  index: -1
+effect/F_skillB/nor/baodian__00042
+  rotate: false
+  xy: 2, 868
+  size: 308, 152
+  orig: 308, 168
+  offset: 0, 3
+  index: -1
+effect/F_skillB/nor/baodian__00043
+  rotate: false
+  xy: 2, 563
+  size: 308, 150
+  orig: 308, 168
+  offset: 0, 5
+  index: -1
+effect/F_skillB/nor/baodian__00044
+  rotate: false
+  xy: 2, 442
+  size: 308, 119
+  orig: 308, 168
+  offset: 0, 14
+  index: -1
+effect/F_skillB/nor/baodian__00045
+  rotate: false
+  xy: 312, 614
+  size: 308, 108
+  orig: 308, 168
+  offset: 0, 13
+  index: -1
+effect/F_skillB/nor/baodian__00046
+  rotate: true
+  xy: 928, 894
+  size: 126, 92
+  orig: 308, 168
+  offset: 88, 13
+  index: -1
+effect/F_skillB/nor/baodian__00047
+  rotate: false
+  xy: 2, 46
+  size: 132, 72
+  orig: 308, 168
+  offset: 84, 14
+  index: -1
+effect/F_skillB/nor/zidan__00035
+  rotate: true
+  xy: 312, 444
+  size: 32, 146
+  orig: 78, 181
+  offset: 22, 31
+  index: -1

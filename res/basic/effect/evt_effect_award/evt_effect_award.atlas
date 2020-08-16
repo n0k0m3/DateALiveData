@@ -1,0 +1,858 @@
+
+evt_effect_award.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/baodian/baodian_00122
+  rotate: false
+  xy: 2, 707
+  size: 349, 315
+  orig: 383, 348
+  offset: 19, 14
+  index: -1
+images/baodian/baodian_00124
+  rotate: false
+  xy: 2, 416
+  size: 321, 289
+  orig: 383, 348
+  offset: 32, 28
+  index: -1
+images/baodian/baodian_00126
+  rotate: false
+  xy: 596, 784
+  size: 239, 238
+  orig: 383, 348
+  offset: 75, 55
+  index: -1
+images/baodian/baodian_00134
+  rotate: false
+  xy: 324, 186
+  size: 162, 147
+  orig: 383, 348
+  offset: 119, 101
+  index: -1
+images/baodian/hei_00123
+  rotate: false
+  xy: 673, 401
+  size: 152, 136
+  orig: 186, 174
+  offset: 18, 17
+  index: -1
+images/kejixiaotiao/kejixiantiao_00005
+  rotate: false
+  xy: 827, 413
+  size: 11, 11
+  orig: 208, 169
+  offset: 140, 135
+  index: -1
+images/kejixiaotiao/kejixiantiao_00013
+  rotate: false
+  xy: 353, 720
+  size: 17, 30
+  orig: 208, 169
+  offset: 141, 122
+  index: -1
+images/kejixiaotiao/kejixiantiao_00017
+  rotate: false
+  xy: 465, 344
+  size: 16, 29
+  orig: 208, 169
+  offset: 143, 115
+  index: -1
+images/kejixiaotiao/kejixiantiao_00029
+  rotate: false
+  xy: 353, 752
+  size: 20, 28
+  orig: 208, 169
+  offset: 145, 102
+  index: -1
+images/kejixiaotiao/kejixiantiao_00045
+  rotate: false
+  xy: 503, 386
+  size: 168, 102
+  orig: 208, 169
+  offset: 12, 14
+  index: -1
+images/kejixiaotiao/kejixiantiao_00077
+  rotate: true
+  xy: 989, 2
+  size: 177, 25
+  orig: 208, 169
+  offset: 12, 56
+  index: -1
+images/kejixiaotiao/kejixiantiao_00129
+  rotate: false
+  xy: 375, 755
+  size: 22, 25
+  orig: 208, 169
+  offset: 37, 106
+  index: -1
+images/kejixiaotiao/kejixiantiao_00133
+  rotate: false
+  xy: 465, 375
+  size: 21, 23
+  orig: 208, 169
+  offset: 38, 111
+  index: -1
+images/kejixiaotiao/kejixiantiao_00137
+  rotate: false
+  xy: 390, 707
+  size: 16, 27
+  orig: 208, 169
+  offset: 43, 114
+  index: -1
+images/kejixiaotiao/kejixiantiao_00141
+  rotate: false
+  xy: 372, 722
+  size: 16, 28
+  orig: 208, 169
+  offset: 44, 121
+  index: -1
+images/kejixiaotiao/kejixiantiao_00149
+  rotate: true
+  xy: 390, 736
+  size: 17, 19
+  orig: 208, 169
+  offset: 45, 134
+  index: -1
+images/kuo/kuo_00143
+  rotate: true
+  xy: 386, 2
+  size: 182, 167
+  orig: 247, 223
+  offset: 34, 28
+  index: -1
+images/kuo/kuo_00144
+  rotate: false
+  xy: 837, 853
+  size: 185, 169
+  orig: 247, 223
+  offset: 33, 28
+  index: -1
+images/kuo/kuo_00145
+  rotate: false
+  xy: 195, 2
+  size: 189, 173
+  orig: 247, 223
+  offset: 31, 26
+  index: -1
+images/kuo/kuo_00149
+  rotate: false
+  xy: 827, 602
+  size: 195, 176
+  orig: 247, 223
+  offset: 28, 24
+  index: -1
+images/kuo/kuo_00150
+  rotate: false
+  xy: 793, 3
+  size: 194, 176
+  orig: 247, 223
+  offset: 28, 24
+  index: -1
+images/kuo/kuo_00151
+  rotate: false
+  xy: 827, 426
+  size: 195, 174
+  orig: 247, 223
+  offset: 28, 25
+  index: -1
+images/kuo/kuo_00152
+  rotate: false
+  xy: 2, 2
+  size: 191, 173
+  orig: 247, 223
+  offset: 30, 25
+  index: -1
+images/lizi/lizi_00141
+  rotate: false
+  xy: 837, 780
+  size: 185, 71
+  orig: 278, 148
+  offset: 38, 53
+  index: -1
+images/lizi/lizi_00153
+  rotate: true
+  xy: 733, 194
+  size: 205, 105
+  orig: 278, 148
+  offset: 31, 23
+  index: -1
+images/lizi/lizi_00179
+  rotate: false
+  xy: 465, 400
+  size: 26, 22
+  orig: 278, 148
+  offset: 180, 44
+  index: -1
+images/m2
+  rotate: true
+  xy: 325, 335
+  size: 370, 84
+  orig: 370, 84
+  offset: 0, 0
+  index: -1
+images/m3
+  rotate: true
+  xy: 411, 424
+  size: 356, 90
+  orig: 356, 90
+  offset: 0, 0
+  index: -1
+images/m5
+  rotate: true
+  xy: 503, 490
+  size: 290, 80
+  orig: 290, 80
+  offset: 0, 0
+  index: -1
+images/m6
+  rotate: true
+  xy: 585, 506
+  size: 274, 86
+  orig: 274, 86
+  offset: 0, 0
+  index: -1
+images/xiantiao/paobian_00003
+  rotate: true
+  xy: 411, 340
+  size: 82, 52
+  orig: 245, 302
+  offset: 79, 10
+  index: -1
+images/xiantiao/paobian_00019
+  rotate: true
+  xy: 673, 539
+  size: 243, 152
+  orig: 245, 302
+  offset: 0, 9
+  index: -1
+images/xiantiao/paobian_00021
+  rotate: true
+  xy: 840, 181
+  size: 243, 175
+  orig: 245, 302
+  offset: 0, 9
+  index: -1
+images/xiantiao/paobian_00023
+  rotate: false
+  xy: 488, 191
+  size: 243, 193
+  orig: 245, 302
+  offset: 0, 10
+  index: -1
+images/xiantiao/paobian_00029
+  rotate: false
+  xy: 353, 782
+  size: 241, 240
+  orig: 245, 302
+  offset: 0, 27
+  index: -1
+images/xiantiao/paobian_00031
+  rotate: false
+  xy: 2, 177
+  size: 241, 237
+  orig: 245, 302
+  offset: 0, 50
+  index: -1
+images/xiantiao/paobian_00037
+  rotate: false
+  xy: 555, 6
+  size: 236, 183
+  orig: 245, 302
+  offset: 2, 113
+  index: -1
+images/xiantiao/paobian_00047
+  rotate: true
+  xy: 245, 188
+  size: 226, 77
+  orig: 245, 302
+  offset: 7, 220
+  index: -1
+
+evt_effect_award2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/baodian/baodian_00128
+  rotate: false
+  xy: 2, 784
+  size: 239, 238
+  orig: 383, 348
+  offset: 75, 55
+  index: -1
+images/baodian/baodian_00130
+  rotate: false
+  xy: 2, 544
+  size: 239, 238
+  orig: 383, 348
+  offset: 75, 55
+  index: -1
+images/baodian/baodian_00132
+  rotate: false
+  xy: 243, 784
+  size: 239, 238
+  orig: 383, 348
+  offset: 75, 55
+  index: -1
+images/guang_00084
+  rotate: false
+  xy: 726, 730
+  size: 240, 127
+  orig: 312, 202
+  offset: 31, 39
+  index: -1
+images/kejixiaotiao/kejixiantiao_00009
+  rotate: false
+  xy: 697, 650
+  size: 18, 23
+  orig: 208, 169
+  offset: 140, 130
+  index: -1
+images/kejixiaotiao/kejixiantiao_00021
+  rotate: true
+  xy: 173, 33
+  size: 20, 25
+  orig: 208, 169
+  offset: 143, 111
+  index: -1
+images/kejixiaotiao/kejixiantiao_00025
+  rotate: true
+  xy: 455, 263
+  size: 22, 24
+  orig: 208, 169
+  offset: 143, 107
+  index: -1
+images/kejixiaotiao/kejixiantiao_00033
+  rotate: false
+  xy: 677, 647
+  size: 18, 26
+  orig: 208, 169
+  offset: 146, 97
+  index: -1
+images/kejixiaotiao/kejixiantiao_00037
+  rotate: false
+  xy: 273, 6
+  size: 18, 25
+  orig: 208, 169
+  offset: 146, 93
+  index: -1
+images/kejixiaotiao/kejixiantiao_00081
+  rotate: false
+  xy: 677, 30
+  size: 177, 23
+  orig: 208, 169
+  offset: 13, 57
+  index: -1
+images/kejixiaotiao/kejixiantiao_00085
+  rotate: true
+  xy: 870, 54
+  size: 175, 32
+  orig: 208, 169
+  offset: 15, 53
+  index: -1
+images/kejixiaotiao/kejixiantiao_00093
+  rotate: false
+  xy: 2, 4
+  size: 169, 49
+  orig: 208, 169
+  offset: 21, 44
+  index: -1
+images/kejixiaotiao/kejixiantiao_00125
+  rotate: false
+  xy: 651, 216
+  size: 18, 26
+  orig: 208, 169
+  offset: 38, 101
+  index: -1
+images/kejixiaotiao/kejixiantiao_00145
+  rotate: false
+  xy: 961, 18
+  size: 18, 25
+  orig: 208, 169
+  offset: 44, 128
+  index: -1
+images/kuang
+  rotate: false
+  xy: 481, 244
+  size: 210, 76
+  orig: 210, 76
+  offset: 0, 0
+  index: -1
+images/kuo/kuo_00146
+  rotate: false
+  xy: 677, 55
+  size: 191, 174
+  orig: 247, 223
+  offset: 30, 25
+  index: -1
+images/kuo/kuo_00147
+  rotate: false
+  xy: 483, 498
+  size: 192, 175
+  orig: 247, 223
+  offset: 29, 24
+  index: -1
+images/kuo/kuo_00148
+  rotate: false
+  xy: 482, 322
+  size: 192, 174
+  orig: 247, 223
+  offset: 29, 25
+  index: -1
+images/kuo/kuo_00157
+  rotate: true
+  xy: 896, 256
+  size: 140, 122
+  orig: 247, 223
+  offset: 56, 51
+  index: -1
+images/lizi/lizi_00143
+  rotate: false
+  xy: 693, 231
+  size: 201, 102
+  orig: 278, 148
+  offset: 27, 30
+  index: -1
+images/lizi/lizi_00145
+  rotate: false
+  xy: 676, 335
+  size: 212, 115
+  orig: 278, 148
+  offset: 21, 22
+  index: -1
+images/lizi/lizi_00147
+  rotate: false
+  xy: 677, 511
+  size: 216, 117
+  orig: 278, 148
+  offset: 24, 17
+  index: -1
+images/lizi/lizi_00149
+  rotate: false
+  xy: 463, 31
+  size: 212, 113
+  orig: 278, 148
+  offset: 27, 18
+  index: -1
+images/lizi/lizi_00151
+  rotate: true
+  xy: 904, 45
+  size: 209, 110
+  orig: 278, 148
+  offset: 29, 20
+  index: -1
+images/lizi/lizi_00157
+  rotate: false
+  xy: 455, 146
+  size: 194, 96
+  orig: 278, 148
+  offset: 39, 27
+  index: -1
+images/lizi/lizi_00163
+  rotate: true
+  xy: 895, 460
+  size: 168, 71
+  orig: 278, 148
+  offset: 59, 32
+  index: -1
+images/lizi/lizi_00175
+  rotate: false
+  xy: 856, 8
+  size: 103, 35
+  orig: 278, 148
+  offset: 104, 41
+  index: -1
+images/lizi/lizi_00177
+  rotate: false
+  xy: 173, 2
+  size: 98, 29
+  orig: 278, 148
+  offset: 109, 43
+  index: -1
+images/lizi/lizi_00181
+  rotate: true
+  xy: 950, 710
+  size: 18, 16
+  orig: 278, 148
+  offset: 187, 49
+  index: -1
+images/xiantiao/paobian_00007
+  rotate: true
+  xy: 968, 452
+  size: 168, 54
+  orig: 245, 302
+  offset: 36, 9
+  index: -1
+images/xiantiao/paobian_00009
+  rotate: true
+  xy: 968, 806
+  size: 216, 54
+  orig: 245, 302
+  offset: 12, 9
+  index: -1
+images/xiantiao/paobian_00011
+  rotate: false
+  xy: 243, 509
+  size: 238, 68
+  orig: 245, 302
+  offset: 1, 9
+  index: -1
+images/xiantiao/paobian_00013
+  rotate: false
+  xy: 237, 287
+  size: 242, 87
+  orig: 245, 302
+  offset: 0, 9
+  index: -1
+images/xiantiao/paobian_00015
+  rotate: false
+  xy: 219, 33
+  size: 242, 111
+  orig: 245, 302
+  offset: 0, 9
+  index: -1
+images/xiantiao/paobian_00017
+  rotate: false
+  xy: 237, 376
+  size: 243, 131
+  orig: 245, 302
+  offset: 0, 9
+  index: -1
+images/xiantiao/paobian_00025
+  rotate: true
+  xy: 2, 55
+  size: 243, 215
+  orig: 245, 302
+  offset: 0, 10
+  index: -1
+images/xiantiao/paobian_00027
+  rotate: true
+  xy: 2, 300
+  size: 242, 233
+  orig: 245, 302
+  offset: 0, 15
+  index: -1
+images/xiantiao/paobian_00033
+  rotate: false
+  xy: 484, 798
+  size: 240, 224
+  orig: 245, 302
+  offset: 0, 69
+  index: -1
+images/xiantiao/paobian_00035
+  rotate: false
+  xy: 243, 579
+  size: 238, 203
+  orig: 245, 302
+  offset: 1, 92
+  index: -1
+images/xiantiao/paobian_00039
+  rotate: false
+  xy: 726, 859
+  size: 234, 163
+  orig: 245, 302
+  offset: 3, 133
+  index: -1
+images/xiantiao/paobian_00041
+  rotate: false
+  xy: 219, 146
+  size: 234, 139
+  orig: 245, 302
+  offset: 3, 157
+  index: -1
+images/xiantiao/paobian_00043
+  rotate: false
+  xy: 484, 675
+  size: 232, 121
+  orig: 245, 302
+  offset: 4, 175
+  index: -1
+images/xiantiao/paobian_00045
+  rotate: false
+  xy: 718, 630
+  size: 230, 98
+  orig: 245, 302
+  offset: 5, 198
+  index: -1
+images/xiantiao/paobian_00049
+  rotate: false
+  xy: 677, 452
+  size: 216, 57
+  orig: 245, 302
+  offset: 12, 239
+  index: -1
+images/xiantiao/paobian_00051
+  rotate: true
+  xy: 968, 622
+  size: 182, 54
+  orig: 245, 302
+  offset: 29, 242
+  index: -1
+images/xiantiao/paobian_00053
+  rotate: false
+  xy: 890, 398
+  size: 132, 52
+  orig: 245, 302
+  offset: 54, 243
+  index: -1
+
+evt_effect_award3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/baodian/baodian_00136
+  rotate: false
+  xy: 192, 867
+  size: 165, 155
+  orig: 383, 348
+  offset: 120, 96
+  index: -1
+images/baodian/baodian_00138
+  rotate: false
+  xy: 2, 698
+  size: 167, 160
+  orig: 383, 348
+  offset: 121, 92
+  index: -1
+images/baodian/baodian_00140
+  rotate: false
+  xy: 2, 551
+  size: 163, 145
+  orig: 383, 348
+  offset: 127, 106
+  index: -1
+images/baodian/baodian_00142
+  rotate: true
+  xy: 2, 385
+  size: 164, 129
+  orig: 383, 348
+  offset: 127, 103
+  index: -1
+images/baodian/baodian_00144
+  rotate: false
+  xy: 529, 734
+  size: 158, 92
+  orig: 383, 348
+  offset: 126, 103
+  index: -1
+images/kejixiaotiao/kejixiantiao_00041
+  rotate: true
+  xy: 171, 692
+  size: 166, 103
+  orig: 208, 169
+  offset: 14, 14
+  index: -1
+images/kejixiaotiao/kejixiantiao_00049
+  rotate: true
+  xy: 107, 60
+  size: 168, 95
+  orig: 208, 169
+  offset: 12, 17
+  index: -1
+images/kejixiaotiao/kejixiantiao_00053
+  rotate: true
+  xy: 276, 697
+  size: 168, 81
+  orig: 208, 169
+  offset: 12, 26
+  index: -1
+images/kejixiaotiao/kejixiantiao_00057
+  rotate: false
+  xy: 533, 828
+  size: 169, 73
+  orig: 208, 169
+  offset: 12, 29
+  index: -1
+images/kejixiaotiao/kejixiantiao_00061
+  rotate: false
+  xy: 359, 662
+  size: 169, 63
+  orig: 208, 169
+  offset: 12, 35
+  index: -1
+images/kejixiaotiao/kejixiantiao_00065
+  rotate: false
+  xy: 354, 546
+  size: 169, 53
+  orig: 208, 169
+  offset: 12, 41
+  index: -1
+images/kejixiaotiao/kejixiantiao_00069
+  rotate: true
+  xy: 204, 62
+  size: 170, 43
+  orig: 208, 169
+  offset: 12, 46
+  index: -1
+images/kejixiaotiao/kejixiantiao_00073
+  rotate: false
+  xy: 559, 903
+  size: 173, 35
+  orig: 208, 169
+  offset: 12, 51
+  index: -1
+images/kejixiaotiao/kejixiantiao_00089
+  rotate: false
+  xy: 326, 503
+  size: 170, 41
+  orig: 208, 169
+  offset: 20, 48
+  index: -1
+images/kejixiaotiao/kejixiantiao_00097
+  rotate: false
+  xy: 354, 601
+  size: 169, 59
+  orig: 208, 169
+  offset: 21, 39
+  index: -1
+images/kejixiaotiao/kejixiantiao_00101
+  rotate: true
+  xy: 249, 69
+  size: 168, 70
+  orig: 208, 169
+  offset: 22, 33
+  index: -1
+images/kejixiaotiao/kejixiantiao_00105
+  rotate: true
+  xy: 247, 239
+  size: 168, 80
+  orig: 208, 169
+  offset: 22, 28
+  index: -1
+images/kejixiaotiao/kejixiantiao_00109
+  rotate: true
+  xy: 935, 854
+  size: 168, 87
+  orig: 208, 169
+  offset: 22, 26
+  index: -1
+images/kejixiaotiao/kejixiantiao_00113
+  rotate: false
+  xy: 359, 727
+  size: 168, 101
+  orig: 208, 169
+  offset: 22, 16
+  index: -1
+images/kejixiaotiao/kejixiantiao_00117
+  rotate: true
+  xy: 2, 61
+  size: 167, 103
+  orig: 208, 169
+  offset: 23, 14
+  index: -1
+images/kejixiaotiao/kejixiantiao_00121
+  rotate: true
+  xy: 138, 234
+  size: 150, 107
+  orig: 208, 169
+  offset: 38, 14
+  index: -1
+images/kuo/kuo_00153
+  rotate: false
+  xy: 2, 860
+  size: 188, 162
+  orig: 247, 223
+  offset: 31, 30
+  index: -1
+images/kuo/kuo_00154
+  rotate: true
+  xy: 2, 230
+  size: 153, 134
+  orig: 247, 223
+  offset: 49, 45
+  index: -1
+images/kuo/kuo_00155
+  rotate: true
+  xy: 167, 551
+  size: 139, 120
+  orig: 247, 223
+  offset: 56, 52
+  index: -1
+images/kuo/kuo_00156
+  rotate: true
+  xy: 203, 409
+  size: 140, 121
+  orig: 247, 223
+  offset: 56, 51
+  index: -1
+images/lizi/lizi_00155
+  rotate: false
+  xy: 359, 921
+  size: 198, 101
+  orig: 278, 148
+  offset: 36, 25
+  index: -1
+images/lizi/lizi_00159
+  rotate: false
+  xy: 757, 929
+  size: 176, 93
+  orig: 278, 148
+  offset: 55, 29
+  index: -1
+images/lizi/lizi_00161
+  rotate: false
+  xy: 359, 830
+  size: 172, 89
+  orig: 278, 148
+  offset: 57, 31
+  index: -1
+images/lizi/lizi_00165
+  rotate: true
+  xy: 133, 386
+  size: 163, 68
+  orig: 278, 148
+  offset: 61, 33
+  index: -1
+images/lizi/lizi_00167
+  rotate: false
+  xy: 530, 667
+  size: 158, 65
+  orig: 278, 148
+  offset: 63, 34
+  index: -1
+images/lizi/lizi_00169
+  rotate: true
+  xy: 289, 552
+  size: 143, 63
+  orig: 278, 148
+  offset: 67, 35
+  index: -1
+images/lizi/lizi_00171
+  rotate: false
+  xy: 204, 2
+  size: 137, 58
+  orig: 278, 148
+  offset: 72, 37
+  index: -1
+images/lizi/lizi_00173
+  rotate: false
+  xy: 329, 397
+  size: 107, 50
+  orig: 278, 148
+  offset: 101, 40
+  index: -1
+images/m9
+  rotate: false
+  xy: 559, 940
+  size: 196, 82
+  orig: 196, 82
+  offset: 0, 0
+  index: -1
+images/xiantiao/paobian_00005
+  rotate: false
+  xy: 326, 449
+  size: 126, 52
+  orig: 245, 302
+  offset: 57, 10
+  index: -1
+images/xiantiao/paobian_00055
+  rotate: false
+  xy: 2, 11
+  size: 92, 48
+  orig: 245, 302
+  offset: 74, 245
+  index: -1

@@ -1,0 +1,48 @@
+
+effect_herotest_bg.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/BG
+  rotate: false
+  xy: 2, 1012
+  size: 1386, 640
+  orig: 1386, 640
+  offset: 0, 0
+  index: -1
+images/di
+  rotate: false
+  xy: 2, 905
+  size: 1386, 105
+  orig: 1386, 105
+  offset: 0, 0
+  index: -1
+images/glow
+  rotate: false
+  xy: 2, 12
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+images/jiao_00000
+  rotate: true
+  xy: 1390, 959
+  size: 693, 262
+  orig: 693, 273
+  offset: 0, 4
+  index: -1
+images/lizi_00011
+  rotate: false
+  xy: 675, 881
+  size: 22, 22
+  orig: 60, 52
+  offset: 18, 12
+  index: -1
+images/renwu_00000
+  rotate: false
+  xy: 2, 114
+  size: 671, 789
+  orig: 671, 789
+  offset: 0, 0
+  index: -1

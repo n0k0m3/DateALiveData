@@ -1,0 +1,153 @@
+
+effects_extra_0042.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+imange/glow_00009
+  rotate: false
+  xy: 2, 804
+  size: 199, 218
+  orig: 221, 252
+  offset: 13, 10
+  index: -1
+imange/huangse
+  rotate: false
+  xy: 2, 2
+  size: 28, 23
+  orig: 29, 23
+  offset: 0, 0
+  index: -1
+imange/xiantiao/xiantiao_00000
+  rotate: false
+  xy: 2, 539
+  size: 123, 85
+  orig: 175, 140
+  offset: 22, 29
+  index: -1
+imange/xiantiao/xiantiao_00001
+  rotate: false
+  xy: 473, 938
+  size: 124, 84
+  orig: 175, 140
+  offset: 22, 29
+  index: -1
+imange/xiantiao/xiantiao_00002
+  rotate: true
+  xy: 2, 413
+  size: 124, 84
+  orig: 175, 140
+  offset: 23, 29
+  index: -1
+imange/xiantiao/xiantiao_00003
+  rotate: false
+  xy: 599, 941
+  size: 127, 81
+  orig: 175, 140
+  offset: 24, 28
+  index: -1
+imange/xiantiao/xiantiao_00004
+  rotate: true
+  xy: 89, 286
+  size: 125, 70
+  orig: 175, 140
+  offset: 26, 29
+  index: -1
+imange/xiantiao/xiantiao_00005
+  rotate: false
+  xy: 203, 781
+  size: 127, 67
+  orig: 175, 140
+  offset: 25, 28
+  index: -1
+imange/xiantiao/xiantiao_00006
+  rotate: true
+  xy: 2, 157
+  size: 129, 75
+  orig: 175, 140
+  offset: 24, 28
+  index: -1
+imange/xiantiao/xiantiao_00007
+  rotate: false
+  xy: 341, 938
+  size: 130, 84
+  orig: 175, 140
+  offset: 23, 27
+  index: -1
+imange/xiantiao/xiantiao_00008
+  rotate: false
+  xy: 203, 936
+  size: 136, 86
+  orig: 175, 140
+  offset: 17, 28
+  index: -1
+imange/xiantiao/xiantiao_00009
+  rotate: false
+  xy: 2, 715
+  size: 136, 87
+  orig: 175, 140
+  offset: 16, 28
+  index: -1
+imange/xiantiao/xiantiao_00010
+  rotate: false
+  xy: 2, 626
+  size: 135, 87
+  orig: 175, 140
+  offset: 16, 29
+  index: -1
+imange/xiantiao/xiantiao_00011
+  rotate: false
+  xy: 203, 850
+  size: 132, 84
+  orig: 175, 140
+  offset: 15, 32
+  index: -1
+imange/xiantiao/xiantiao_00012
+  rotate: false
+  xy: 728, 947
+  size: 131, 75
+  orig: 175, 140
+  offset: 15, 41
+  index: -1
+imange/xiantiao/xiantiao_00013
+  rotate: false
+  xy: 861, 948
+  size: 130, 74
+  orig: 175, 140
+  offset: 16, 41
+  index: -1
+imange/xiantiao/xiantiao_00014
+  rotate: true
+  xy: 2, 27
+  size: 128, 73
+  orig: 175, 140
+  offset: 17, 41
+  index: -1
+imange/xiantiao/xiantiao_00015
+  rotate: true
+  xy: 88, 413
+  size: 124, 72
+  orig: 175, 140
+  offset: 17, 42
+  index: -1
+imange/xiantiao/xiantiao_00016
+  rotate: false
+  xy: 728, 870
+  size: 117, 75
+  orig: 175, 140
+  offset: 22, 39
+  index: -1
+imange/xiantiao/xiantiao_00017
+  rotate: true
+  xy: 79, 167
+  size: 117, 84
+  orig: 175, 140
+  offset: 22, 31
+  index: -1
+imange/xiantiao/xiantiao_00018
+  rotate: true
+  xy: 2, 288
+  size: 123, 85
+  orig: 175, 140
+  offset: 22, 29
+  index: -1

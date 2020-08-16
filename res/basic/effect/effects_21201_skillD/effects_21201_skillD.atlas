@@ -1,0 +1,166 @@
+
+effects_21201_skillD.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/skillD/nengliang/1_00023
+  rotate: true
+  xy: 952, 79
+  size: 186, 66
+  orig: 480, 172
+  offset: 36, 53
+  index: -1
+images/effect/skillD/nengliang/1_00024
+  rotate: true
+  xy: 2, 28
+  size: 393, 138
+  orig: 480, 172
+  offset: 4, 18
+  index: -1
+images/effect/skillD/nengliang/1_00025
+  rotate: false
+  xy: 2, 423
+  size: 449, 143
+  orig: 480, 172
+  offset: 4, 14
+  index: -1
+images/effect/skillD/nengliang/1_00026
+  rotate: false
+  xy: 2, 568
+  size: 452, 145
+  orig: 480, 172
+  offset: 4, 14
+  index: -1
+images/effect/skillD/nengliang/1_00027
+  rotate: false
+  xy: 469, 721
+  size: 465, 147
+  orig: 480, 172
+  offset: 4, 11
+  index: -1
+images/effect/skillD/nengliang/1_00028
+  rotate: false
+  xy: 2, 869
+  size: 465, 149
+  orig: 480, 172
+  offset: 4, 9
+  index: -1
+images/effect/skillD/nengliang/1_00029
+  rotate: false
+  xy: 469, 870
+  size: 465, 148
+  orig: 480, 172
+  offset: 4, 11
+  index: -1
+images/effect/skillD/nengliang/1_00030
+  rotate: false
+  xy: 2, 715
+  size: 464, 152
+  orig: 480, 172
+  offset: 4, 12
+  index: -1
+images/effect/skillD/nengliang/1_00031
+  rotate: false
+  xy: 468, 566
+  size: 454, 153
+  orig: 480, 172
+  offset: 4, 13
+  index: -1
+images/effect/skillD/nengliang/1_00032
+  rotate: true
+  xy: 142, 32
+  size: 389, 153
+  orig: 480, 172
+  offset: 4, 13
+  index: -1
+images/effect/skillD/nengliang/1_00033
+  rotate: true
+  xy: 297, 41
+  size: 380, 153
+  orig: 480, 172
+  offset: 29, 15
+  index: -1
+images/effect/skillD/nengliang/1_00034
+  rotate: false
+  xy: 453, 426
+  size: 375, 138
+  orig: 480, 172
+  offset: 29, 14
+  index: -1
+images/effect/skillD/nengliang/1_00035
+  rotate: true
+  xy: 452, 44
+  size: 377, 135
+  orig: 480, 172
+  offset: 28, 13
+  index: -1
+images/effect/skillD/nengliang/1_00036
+  rotate: true
+  xy: 924, 267
+  size: 377, 90
+  orig: 480, 172
+  offset: 28, 19
+  index: -1
+images/effect/skillD/nengliang/1_00037
+  rotate: true
+  xy: 936, 646
+  size: 372, 80
+  orig: 480, 172
+  offset: 33, 26
+  index: -1
+images/effect/skillD/nengliang/1_00038
+  rotate: false
+  xy: 297, 4
+  size: 306, 35
+  orig: 480, 172
+  offset: 95, 65
+  index: -1
+images/effect/skillD/shifa1/0_00001
+  rotate: false
+  xy: 764, 20
+  size: 186, 211
+  orig: 235, 225
+  offset: 20, 10
+  index: -1
+images/effect/skillD/shifa1/0_00003
+  rotate: false
+  xy: 589, 53
+  size: 173, 212
+  orig: 235, 225
+  offset: 28, 0
+  index: -1
+images/effect/skillD/shifa1/0_00005
+  rotate: false
+  xy: 764, 233
+  size: 158, 191
+  orig: 235, 225
+  offset: 36, 6
+  index: -1
+images/effect/skillD/shifa1/0_00007
+  rotate: true
+  xy: 589, 275
+  size: 149, 163
+  orig: 235, 225
+  offset: 43, 19
+  index: -1
+
+effects_21201_skillD2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/skillD/shifa1/0_00009
+  rotate: false
+  xy: 2, 153
+  size: 133, 143
+  orig: 235, 225
+  offset: 51, 32
+  index: -1
+images/effect/skillD/shifa1/0_00011
+  rotate: true
+  xy: 2, 2
+  size: 149, 123
+  orig: 235, 225
+  offset: 43, 44
+  index: -1

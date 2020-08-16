@@ -1,0 +1,270 @@
+
+effects_25301_skilla.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shoujishizi0002
+  rotate: false
+  xy: 272, 35
+  size: 419, 408
+  orig: 639, 639
+  offset: 103, 117
+  index: -1
+shoujishizi0003
+  rotate: true
+  xy: 643, 445
+  size: 574, 351
+  orig: 639, 639
+  offset: 30, 145
+  index: -1
+shoujishizi0004
+  rotate: false
+  xy: 2, 713
+  size: 639, 306
+  orig: 639, 639
+  offset: 0, 166
+  index: -1
+shoujishizi0005
+  rotate: true
+  xy: 2, 154
+  size: 557, 268
+  orig: 639, 639
+  offset: 45, 188
+  index: -1
+skilla_baozha_0
+  rotate: false
+  xy: 272, 467
+  size: 251, 244
+  orig: 260, 250
+  offset: 2, 6
+  index: -1
+skilla_baozha_1
+  rotate: true
+  xy: 693, 192
+  size: 251, 244
+  orig: 260, 250
+  offset: 2, 6
+  index: -1
+skilla_baozha_13
+  rotate: false
+  xy: 693, 2
+  size: 207, 188
+  orig: 260, 250
+  offset: 19, 28
+  index: -1
+skilla_huishou_4
+  rotate: false
+  xy: 2, 15
+  size: 229, 137
+  orig: 299, 214
+  offset: 68, 62
+  index: -1
+skilla_qiu_0
+  rotate: true
+  xy: 939, 241
+  size: 202, 79
+  orig: 217, 107
+  offset: 14, 6
+  index: -1
+skilla_qiu_2
+  rotate: true
+  xy: 939, 22
+  size: 217, 78
+  orig: 217, 107
+  offset: 0, 6
+  index: -1
+skilla_qiu_7
+  rotate: true
+  xy: 525, 494
+  size: 217, 79
+  orig: 217, 107
+  offset: 0, 6
+  index: -1
+
+effects_25301_skilla2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shoujishizi0001
+  rotate: false
+  xy: 2, 617
+  size: 387, 405
+  orig: 639, 639
+  offset: 114, 132
+  index: -1
+skilla_baozha_10
+  rotate: true
+  xy: 435, 43
+  size: 241, 235
+  orig: 260, 250
+  offset: 7, 14
+  index: -1
+skilla_baozha_11
+  rotate: false
+  xy: 672, 63
+  size: 217, 225
+  orig: 260, 250
+  offset: 35, 16
+  index: -1
+skilla_baozha_2
+  rotate: false
+  xy: 2, 371
+  size: 251, 244
+  orig: 260, 250
+  offset: 2, 6
+  index: -1
+skilla_baozha_3
+  rotate: false
+  xy: 391, 778
+  size: 251, 244
+  orig: 260, 250
+  offset: 2, 6
+  index: -1
+skilla_baozha_4
+  rotate: false
+  xy: 2, 125
+  size: 251, 244
+  orig: 260, 250
+  offset: 2, 6
+  index: -1
+skilla_baozha_5
+  rotate: false
+  xy: 644, 778
+  size: 251, 244
+  orig: 260, 250
+  offset: 2, 6
+  index: -1
+skilla_baozha_6
+  rotate: false
+  xy: 391, 532
+  size: 251, 244
+  orig: 260, 250
+  offset: 2, 6
+  index: -1
+skilla_baozha_7
+  rotate: false
+  xy: 644, 532
+  size: 251, 244
+  orig: 260, 250
+  offset: 2, 6
+  index: -1
+skilla_baozha_8
+  rotate: false
+  xy: 391, 286
+  size: 251, 244
+  orig: 260, 250
+  offset: 2, 6
+  index: -1
+skilla_baozha_9
+  rotate: false
+  xy: 644, 290
+  size: 249, 240
+  orig: 260, 250
+  offset: 3, 10
+  index: -1
+skilla_huishou_0
+  rotate: true
+  xy: 2, 2
+  size: 121, 138
+  orig: 299, 214
+  offset: 1, 27
+  index: -1
+skilla_huishou_1
+  rotate: false
+  xy: 255, 181
+  size: 133, 190
+  orig: 299, 214
+  offset: 56, 18
+  index: -1
+skilla_huishou_2
+  rotate: false
+  xy: 255, 2
+  size: 178, 177
+  orig: 299, 214
+  offset: 60, 36
+  index: -1
+skilla_huishou_3
+  rotate: true
+  xy: 255, 373
+  size: 242, 134
+  orig: 299, 214
+  offset: 53, 74
+  index: -1
+skilla_qiu_3
+  rotate: true
+  xy: 897, 805
+  size: 217, 78
+  orig: 217, 107
+  offset: 0, 7
+  index: -1
+skilla_qiu_4
+  rotate: true
+  xy: 897, 586
+  size: 217, 78
+  orig: 217, 107
+  offset: 0, 7
+  index: -1
+skilla_qiu_5
+  rotate: true
+  xy: 891, 71
+  size: 217, 76
+  orig: 217, 107
+  offset: 0, 7
+  index: -1
+skilla_qiu_6
+  rotate: true
+  xy: 895, 313
+  size: 217, 78
+  orig: 217, 107
+  offset: 0, 7
+  index: -1
+
+effects_25301_skilla3.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ggg
+  rotate: false
+  xy: 227, 306
+  size: 176, 176
+  orig: 207, 207
+  offset: 14, 16
+  index: -1
+skilla_baozha_12
+  rotate: false
+  xy: 2, 296
+  size: 223, 186
+  orig: 260, 250
+  offset: 21, 31
+  index: -1
+skilla_baozha_14
+  rotate: false
+  xy: 2, 121
+  size: 191, 173
+  orig: 260, 250
+  offset: 32, 43
+  index: -1
+skilla_qiu_1
+  rotate: false
+  xy: 2, 41
+  size: 215, 78
+  orig: 217, 107
+  offset: 1, 6
+  index: -1
+skilla_qiu_8
+  rotate: true
+  xy: 405, 266
+  size: 216, 77
+  orig: 217, 107
+  offset: 0, 8
+  index: -1
+skilla_qiu_9
+  rotate: true
+  xy: 227, 88
+  size: 216, 77
+  orig: 217, 107
+  offset: 0, 6
+  index: -1

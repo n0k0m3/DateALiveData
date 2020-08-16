@@ -1,0 +1,124 @@
+
+effects_24901_xuli.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/EskillD/add/glow_1
+  rotate: false
+  xy: 826, 859
+  size: 156, 156
+  orig: 160, 160
+  offset: 2, 2
+  index: -1
+images/effects/EskillD/add/xuli_guangxian/xlgx_0000
+  rotate: true
+  xy: 414, 5
+  size: 410, 275
+  orig: 410, 320
+  offset: 0, 16
+  index: -1
+images/effects/EskillD/add/xuli_guangxian/xlgx_0001
+  rotate: false
+  xy: 2, 418
+  size: 410, 294
+  orig: 410, 320
+  offset: 0, 6
+  index: -1
+images/effects/EskillD/add/xuli_guangxian/xlgx_0002
+  rotate: false
+  xy: 2, 714
+  size: 410, 301
+  orig: 410, 320
+  offset: 0, 0
+  index: -1
+images/effects/EskillD/add/xuli_guangxian/xlgx_0003
+  rotate: false
+  xy: 414, 417
+  size: 410, 296
+  orig: 410, 320
+  offset: 0, 0
+  index: -1
+images/effects/EskillD/add/xuli_guangxian/xlgx_0004
+  rotate: false
+  xy: 414, 715
+  size: 410, 300
+  orig: 410, 320
+  offset: 0, 0
+  index: -1
+images/effects/EskillD/add/xuli_guangxian/xlgx_0005
+  rotate: false
+  xy: 2, 125
+  size: 410, 291
+  orig: 410, 320
+  offset: 0, 9
+  index: -1
+images/effects/EskillD/add/xuli_guangxian2/xlgx2_0000
+  rotate: true
+  xy: 691, 7
+  size: 242, 228
+  orig: 410, 320
+  offset: 107, 42
+  index: -1
+images/effects/EskillD/add/xuli_lizi/xulilizi_0000
+  rotate: false
+  xy: 826, 545
+  size: 135, 312
+  orig: 410, 320
+  offset: 156, 0
+  index: -1
+images/effects/EskillD/add/yanzhuan/yanzhuan_0021
+  rotate: true
+  xy: 963, 564
+  size: 293, 51
+  orig: 400, 174
+  offset: 73, 86
+  index: -1
+images/effects/EskillD/add/yanzhuan/yanzhuan_0022
+  rotate: false
+  xy: 2, 22
+  size: 366, 101
+  orig: 400, 174
+  offset: 5, 37
+  index: -1
+images/effects/EskillD/add/yanzhuan/yanzhuan_0032
+  rotate: false
+  xy: 691, 331
+  size: 324, 84
+  orig: 400, 174
+  offset: 5, 42
+  index: -1
+images/effects/EskillD/add/yanzhuan/yanzhuan_0034
+  rotate: false
+  xy: 691, 251
+  size: 309, 78
+  orig: 400, 174
+  offset: 21, 45
+  index: -1
+
+effects_24901_xuli2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/EskillD/add/glow_1_3
+  rotate: false
+  xy: 2, 97
+  size: 224, 224
+  orig: 240, 240
+  offset: 8, 8
+  index: -1
+images/effects/EskillD/add/yanzhuan/yanzhuan_0026
+  rotate: false
+  xy: 2, 323
+  size: 361, 99
+  orig: 400, 174
+  offset: 6, 37
+  index: -1
+images/effects/EskillD/add/yanzhuan/yanzhuan_0028
+  rotate: false
+  xy: 2, 2
+  size: 353, 93
+  orig: 400, 174
+  offset: 2, 40
+  index: -1

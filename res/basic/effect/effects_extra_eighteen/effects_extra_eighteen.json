@@ -1,0 +1,57 @@
+{
+"skeleton": { "hash": "JLreIMUlqmjYA29ZWYqIm+LE2EI", "spine": "2.1.27", "width": 0, "height": 0, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "baonu", "parent": "root" }
+],
+"slots": [
+	{ "name": "baonu", "bone": "baonu", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"baonu": {
+			"images/baonu/baonu_00000": { "width": 110, "height": 123 },
+			"images/baonu/baonu_00002": { "width": 110, "height": 123 },
+			"images/baonu/baonu_00004": { "width": 110, "height": 123 },
+			"images/baonu/baonu_00006": { "width": 110, "height": 123 },
+			"images/baonu/baonu_00008": { "width": 110, "height": 123 },
+			"images/baonu/baonu_00010": { "width": 110, "height": 123 },
+			"images/baonu/baonu_00012": { "width": 110, "height": 123 },
+			"images/baonu/baonu_00014": { "width": 110, "height": 123 },
+			"images/baonu/baonu_00016": { "width": 110, "height": 123 },
+			"images/baonu/baonu_00018": { "width": 110, "height": 123 }
+		}
+	}
+},
+"animations": {
+	"effects_extra_eighteen": {
+		"slots": {
+			"baonu": {
+				"attachment": [
+					{ "time": 0, "name": "images/baonu/baonu_00000" },
+					{ "time": 0.0666, "name": "images/baonu/baonu_00002" },
+					{ "time": 0.1333, "name": "images/baonu/baonu_00004" },
+					{ "time": 0.2, "name": "images/baonu/baonu_00006" },
+					{ "time": 0.2666, "name": "images/baonu/baonu_00008" },
+					{ "time": 0.3333, "name": "images/baonu/baonu_00010" },
+					{ "time": 0.4, "name": "images/baonu/baonu_00012" },
+					{ "time": 0.4666, "name": "images/baonu/baonu_00014" },
+					{ "time": 0.5333, "name": "images/baonu/baonu_00016" },
+					{ "time": 0.6, "name": "images/baonu/baonu_00018" },
+					{ "time": 0.6666, "name": "images/baonu/baonu_00000" }
+				]
+			}
+		},
+		"bones": {
+			"baonu": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 222.12 }
+				],
+				"scale": [
+					{ "time": 0, "x": 4, "y": 4 }
+				]
+			}
+		}
+	}
+}
+}

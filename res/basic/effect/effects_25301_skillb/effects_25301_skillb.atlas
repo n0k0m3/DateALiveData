@@ -1,0 +1,361 @@
+
+effects_25301_skillb.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jianpanlizi_00004
+  rotate: false
+  xy: 354, 462
+  size: 207, 206
+  orig: 400, 400
+  offset: 53, 100
+  index: -1
+jianpanlizi_00008
+  rotate: true
+  xy: 561, 2
+  size: 178, 211
+  orig: 400, 400
+  offset: 84, 83
+  index: -1
+jianpanlizi_00010
+  rotate: false
+  xy: 183, 303
+  size: 169, 145
+  orig: 400, 400
+  offset: 114, 96
+  index: -1
+jianpanlizi_00011
+  rotate: false
+  xy: 354, 308
+  size: 184, 152
+  orig: 400, 400
+  offset: 124, 98
+  index: -1
+jianpanlizi_00012
+  rotate: false
+  xy: 2, 308
+  size: 179, 140
+  orig: 400, 400
+  offset: 126, 90
+  index: -1
+jianpanlizi_00013
+  rotate: true
+  xy: 886, 838
+  size: 183, 133
+  orig: 400, 400
+  offset: 130, 89
+  index: -1
+shoujishizi0003
+  rotate: false
+  xy: 2, 670
+  size: 574, 351
+  orig: 639, 639
+  offset: 30, 145
+  index: -1
+shoujishizi0004
+  rotate: true
+  xy: 578, 382
+  size: 639, 306
+  orig: 639, 639
+  offset: 0, 166
+  index: -1
+shoujishizi0005
+  rotate: false
+  xy: 2, 28
+  size: 557, 268
+  orig: 639, 639
+  offset: 45, 188
+  index: -1
+skillb_fazhen_0
+  rotate: false
+  xy: 561, 182
+  size: 219, 198
+  orig: 221, 198
+  offset: 2, 0
+  index: -1
+skillb_fazhen_4
+  rotate: true
+  xy: 2, 450
+  size: 218, 198
+  orig: 221, 198
+  offset: 3, 0
+  index: -1
+skillb_fazhen_5
+  rotate: true
+  xy: 782, 16
+  size: 219, 198
+  orig: 221, 198
+  offset: 2, 0
+  index: -1
+skillb_shou_4
+  rotate: true
+  xy: 782, 237
+  size: 143, 99
+  orig: 180, 126
+  offset: 18, 17
+  index: -1
+tiaoyan_00002
+  rotate: true
+  xy: 202, 490
+  size: 178, 133
+  orig: 224, 144
+  offset: 28, 0
+  index: -1
+tiaoyan_00003
+  rotate: true
+  xy: 886, 298
+  size: 176, 135
+  orig: 224, 144
+  offset: 20, 0
+  index: -1
+tiaoyan_00005
+  rotate: true
+  xy: 886, 476
+  size: 179, 134
+  orig: 224, 144
+  offset: 0, 0
+  index: -1
+tiaoyan_00006
+  rotate: true
+  xy: 886, 657
+  size: 179, 135
+  orig: 224, 144
+  offset: 0, 0
+  index: -1
+
+effects_25301_skillb2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ggg
+  rotate: false
+  xy: 747, 496
+  size: 176, 176
+  orig: 207, 207
+  offset: 14, 16
+  index: -1
+jianpanlizi_00001
+  rotate: true
+  xy: 596, 23
+  size: 185, 168
+  orig: 400, 400
+  offset: 27, 118
+  index: -1
+jianpanlizi_00002
+  rotate: true
+  xy: 391, 205
+  size: 187, 181
+  orig: 400, 400
+  offset: 38, 113
+  index: -1
+jianpanlizi_00003
+  rotate: true
+  xy: 574, 210
+  size: 195, 194
+  orig: 400, 400
+  offset: 42, 108
+  index: -1
+jianpanlizi_00005
+  rotate: true
+  xy: 2, 5
+  size: 197, 214
+  orig: 400, 400
+  offset: 61, 98
+  index: -1
+jianpanlizi_00006
+  rotate: false
+  xy: 562, 407
+  size: 183, 212
+  orig: 400, 400
+  offset: 69, 98
+  index: -1
+jianpanlizi_00007
+  rotate: false
+  xy: 391, 394
+  size: 169, 215
+  orig: 400, 400
+  offset: 78, 95
+  index: -1
+jianpanlizi_00009
+  rotate: true
+  xy: 640, 847
+  size: 172, 234
+  orig: 400, 400
+  offset: 101, 85
+  index: -1
+jianpanlizi_00014
+  rotate: true
+  xy: 889, 59
+  size: 170, 122
+  orig: 400, 400
+  offset: 140, 83
+  index: -1
+jianpanlizi_00015
+  rotate: false
+  xy: 640, 685
+  size: 211, 160
+  orig: 400, 400
+  offset: 146, 78
+  index: -1
+shoujishizi0001
+  rotate: false
+  xy: 2, 204
+  size: 387, 405
+  orig: 639, 639
+  offset: 114, 132
+  index: -1
+shoujishizi0002
+  rotate: false
+  xy: 2, 611
+  size: 419, 408
+  orig: 639, 639
+  offset: 103, 117
+  index: -1
+skillb_fazhen_1
+  rotate: false
+  xy: 423, 621
+  size: 211, 198
+  orig: 221, 198
+  offset: 10, 0
+  index: -1
+skillb_fazhen_2
+  rotate: false
+  xy: 425, 5
+  size: 169, 198
+  orig: 221, 198
+  offset: 29, 0
+  index: -1
+skillb_fazhen_3
+  rotate: false
+  xy: 423, 821
+  size: 215, 198
+  orig: 221, 198
+  offset: 6, 0
+  index: -1
+skillb_fazhen_6
+  rotate: false
+  xy: 218, 4
+  size: 205, 198
+  orig: 221, 198
+  offset: 14, 0
+  index: -1
+skillb_shou_1
+  rotate: true
+  xy: 925, 396
+  size: 136, 94
+  orig: 180, 126
+  offset: 30, 18
+  index: -1
+skillb_shou_6
+  rotate: true
+  xy: 925, 534
+  size: 138, 92
+  orig: 180, 126
+  offset: 19, 19
+  index: -1
+skillb_shou_7
+  rotate: false
+  xy: 747, 411
+  size: 137, 83
+  orig: 180, 126
+  offset: 20, 21
+  index: -1
+tiaoyan_00000
+  rotate: true
+  xy: 899, 247
+  size: 147, 120
+  orig: 224, 144
+  offset: 68, 1
+  index: -1
+tiaoyan_00001
+  rotate: true
+  xy: 766, 33
+  size: 175, 121
+  orig: 224, 144
+  offset: 40, 0
+  index: -1
+tiaoyan_00004
+  rotate: true
+  xy: 770, 231
+  size: 178, 127
+  orig: 224, 144
+  offset: 5, 0
+  index: -1
+tiaoyan_00007
+  rotate: true
+  xy: 876, 847
+  size: 172, 130
+  orig: 224, 144
+  offset: 0, 1
+  index: -1
+tiaoyan_00008
+  rotate: true
+  xy: 853, 674
+  size: 171, 129
+  orig: 224, 144
+  offset: 0, 2
+  index: -1
+
+effects_25301_skillb3.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skillb_shou_0
+  rotate: false
+  xy: 143, 248
+  size: 131, 90
+  orig: 180, 126
+  offset: 40, 17
+  index: -1
+skillb_shou_2
+  rotate: false
+  xy: 143, 340
+  size: 141, 98
+  orig: 180, 126
+  offset: 21, 18
+  index: -1
+skillb_shou_3
+  rotate: false
+  xy: 143, 340
+  size: 141, 98
+  orig: 180, 126
+  offset: 21, 18
+  index: -1
+skillb_shou_5
+  rotate: false
+  xy: 2, 98
+  size: 137, 98
+  orig: 180, 126
+  offset: 21, 18
+  index: -1
+tiaoyan_00009
+  rotate: false
+  xy: 2, 198
+  size: 139, 118
+  orig: 224, 144
+  offset: 0, 7
+  index: -1
+tiaoyan_00010
+  rotate: false
+  xy: 2, 318
+  size: 139, 120
+  orig: 224, 144
+  offset: 0, 7
+  index: -1
+tiaoyan_00011
+  rotate: false
+  xy: 286, 343
+  size: 119, 95
+  orig: 224, 144
+  offset: 1, 16
+  index: -1
+tiaoyan_00012
+  rotate: false
+  xy: 2, 2
+  size: 116, 94
+  orig: 224, 144
+  offset: 0, 17
+  index: -1

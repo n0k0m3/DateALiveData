@@ -1,0 +1,27 @@
+
+map_honglvdeng_06.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sucai/hongliang_00009
+  rotate: false
+  xy: 2, 49
+  size: 43, 45
+  orig: 43, 45
+  offset: 0, 0
+  index: -1
+sucai/lvan_00000
+  rotate: false
+  xy: 47, 61
+  size: 29, 33
+  orig: 29, 33
+  offset: 0, 0
+  index: -1
+sucai/lvliang_00000
+  rotate: false
+  xy: 2, 2
+  size: 43, 45
+  orig: 43, 45
+  offset: 0, 0
+  index: -1

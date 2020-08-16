@@ -1,0 +1,62 @@
+
+effects_st_dropitem.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/hong_00000
+  rotate: false
+  xy: 2, 499
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+images/hongbiao_00000
+  rotate: false
+  xy: 2, 297
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+images/lan_00000
+  rotate: false
+  xy: 204, 499
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+images/lanbiao_00000
+  rotate: false
+  xy: 2, 95
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+images/lubiao_00000
+  rotate: false
+  xy: 204, 297
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+images/shijianglow
+  rotate: false
+  xy: 2, 2
+  size: 91, 91
+  orig: 91, 91
+  offset: 0, 0
+  index: -1
+images/zantingglow
+  rotate: false
+  xy: 204, 218
+  size: 73, 77
+  orig: 73, 77
+  offset: 0, 0
+  index: -1
+images/zibiao_00000
+  rotate: false
+  xy: 406, 499
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,296 @@
+
+effects_10701_skillD4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skilld/p2_a_00000
+  rotate: true
+  xy: 2, 2
+  size: 14, 288
+  orig: 14, 288
+  offset: 0, 0
+  index: -1
+effects/skilld/p2_b/p2_b_00011
+  rotate: true
+  xy: 2, 18
+  size: 624, 288
+  orig: 624, 288
+  offset: 0, 0
+  index: -1
+effects/skilld/p2_b/p2_b_00012
+  rotate: true
+  xy: 292, 18
+  size: 624, 288
+  orig: 624, 288
+  offset: 0, 0
+  index: -1
+effects/skilld/p4_f_00033
+  rotate: false
+  xy: 2, 644
+  size: 910, 377
+  orig: 910, 377
+  offset: 0, 0
+  index: -1
+effects/skilld/whitepaper
+  rotate: false
+  xy: 1002, 764
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+juexing/fa3
+  rotate: true
+  xy: 582, 87
+  size: 140, 429
+  orig: 140, 429
+  offset: 0, 0
+  index: -1
+juexing/jiaolian
+  rotate: false
+  xy: 914, 742
+  size: 86, 40
+  orig: 86, 40
+  offset: 0, 0
+  index: -1
+juexing/lianzi
+  rotate: false
+  xy: 914, 784
+  size: 98, 150
+  orig: 99, 150
+  offset: 0, 0
+  index: -1
+juexing/suo
+  rotate: true
+  xy: 914, 936
+  size: 85, 104
+  orig: 86, 104
+  offset: 0, 0
+  index: -1
+juexing/wan
+  rotate: false
+  xy: 582, 229
+  size: 437, 413
+  orig: 437, 413
+  offset: 0, 0
+  index: -1
+juexing/zui
+  rotate: true
+  xy: 582, 23
+  size: 62, 37
+  orig: 62, 37
+  offset: 0, 0
+  index: -1
+
+effects_10701_skillD42.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skilld/p4_e_00033
+  rotate: false
+  xy: 2, 662
+  size: 778, 359
+  orig: 778, 359
+  offset: 0, 0
+  index: -1
+juexing/chiban033
+  rotate: true
+  xy: 687, 11
+  size: 155, 241
+  orig: 155, 241
+  offset: 0, 0
+  index: -1
+juexing/fa1
+  rotate: true
+  xy: 2, 3
+  size: 311, 421
+  orig: 311, 421
+  offset: 0, 0
+  index: -1
+juexing/fa4
+  rotate: false
+  xy: 767, 168
+  size: 248, 350
+  orig: 248, 350
+  offset: 0, 0
+  index: -1
+juexing/xiaobi
+  rotate: true
+  xy: 547, 2
+  size: 164, 138
+  orig: 164, 138
+  offset: 0, 0
+  index: -1
+juexing/yanjing
+  rotate: true
+  xy: 425, 5
+  size: 309, 120
+  orig: 309, 120
+  offset: 0, 0
+  index: -1
+juexing/youjiao00
+  rotate: true
+  xy: 2, 316
+  size: 344, 763
+  orig: 344, 763
+  offset: 0, 0
+  index: -1
+juexing/youtoufa
+  rotate: true
+  xy: 782, 520
+  size: 501, 229
+  orig: 501, 230
+  offset: 0, 1
+  index: -1
+juexing/zuantou01
+  rotate: false
+  xy: 547, 174
+  size: 182, 140
+  orig: 182, 140
+  offset: 0, 0
+  index: -1
+
+effects_10701_skillD43.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skilld/p2_b/p2_b_00013
+  rotate: true
+  xy: 435, 396
+  size: 624, 288
+  orig: 624, 288
+  offset: 0, 0
+  index: -1
+effects/skilld/p2_b/p2_b_00014
+  rotate: true
+  xy: 725, 396
+  size: 624, 288
+  orig: 624, 288
+  offset: 0, 0
+  index: -1
+effects/skilld/p4_b_00017
+  rotate: false
+  xy: 497, 11
+  size: 383, 383
+  orig: 383, 383
+  offset: 0, 0
+  index: -1
+juexing/xiezi
+  rotate: false
+  xy: 882, 195
+  size: 138, 199
+  orig: 138, 199
+  offset: 0, 0
+  index: -1
+juexing/youshou
+  rotate: false
+  xy: 2, 6
+  size: 493, 368
+  orig: 493, 368
+  offset: 0, 0
+  index: -1
+juexing/zuoshou
+  rotate: false
+  xy: 2, 376
+  size: 431, 644
+  orig: 433, 644
+  offset: 1, 0
+  index: -1
+
+effects_10701_skillD44.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+juexing/chiban01
+  rotate: true
+  xy: 765, 17
+  size: 152, 183
+  orig: 152, 183
+  offset: 0, 0
+  index: -1
+juexing/dabi
+  rotate: false
+  xy: 585, 171
+  size: 384, 359
+  orig: 384, 359
+  offset: 0, 0
+  index: -1
+juexing/qunzi
+  rotate: false
+  xy: 2, 16
+  size: 581, 457
+  orig: 581, 457
+  offset: 0, 0
+  index: -1
+juexing/shou00
+  rotate: false
+  xy: 585, 2
+  size: 178, 167
+  orig: 178, 167
+  offset: 0, 0
+  index: -1
+juexing/xiong
+  rotate: true
+  xy: 551, 532
+  size: 490, 463
+  orig: 491, 463
+  offset: 0, 0
+  index: -1
+juexing/zuantou
+  rotate: false
+  xy: 2, 475
+  size: 547, 547
+  orig: 547, 547
+  offset: 0, 0
+  index: -1
+
+effects_10701_skillD45.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skilld/p4_a_00011
+  rotate: false
+  xy: 662, 204
+  size: 266, 265
+  orig: 266, 265
+  offset: 0, 0
+  index: -1
+effects/skilld/p5_a_00172
+  rotate: false
+  xy: 2, 674
+  size: 603, 348
+  orig: 603, 348
+  offset: 0, 0
+  index: -1
+juexing/chiban02
+  rotate: true
+  xy: 662, 471
+  size: 202, 360
+  orig: 202, 360
+  offset: 0, 0
+  index: -1
+juexing/fa2
+  rotate: false
+  xy: 607, 675
+  size: 275, 347
+  orig: 275, 347
+  offset: 0, 0
+  index: -1
+juexing/tou
+  rotate: false
+  xy: 2, 191
+  size: 461, 481
+  orig: 463, 482
+  offset: 1, 1
+  index: -1
+juexing/zuotoufa
+  rotate: false
+  xy: 465, 129
+  size: 195, 543
+  orig: 196, 543
+  offset: 0, 0
+  index: -1

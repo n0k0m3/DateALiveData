@@ -1,0 +1,132 @@
+
+kuangsandenglu.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1/guang1
+  rotate: false
+  xy: 2, 287
+  size: 121, 222
+  orig: 121, 222
+  offset: 0, 0
+  index: -1
+1/lingxing1
+  rotate: true
+  xy: 2, 7
+  size: 21, 56
+  orig: 21, 56
+  offset: 0, 0
+  index: -1
+1/lizi1
+  rotate: false
+  xy: 125, 292
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+1/xuanzhongk1
+  rotate: false
+  xy: 125, 378
+  size: 120, 131
+  orig: 120, 131
+  offset: 0, 0
+  index: -1
+1/xuanzhongkuangbai1
+  rotate: false
+  xy: 115, 267
+  size: 7, 18
+  orig: 7, 18
+  offset: 0, 0
+  index: -1
+1/xuanzhongwenli1
+  rotate: false
+  xy: 247, 432
+  size: 125, 77
+  orig: 125, 77
+  offset: 0, 0
+  index: -1
+2/anguang
+  rotate: true
+  xy: 2, 30
+  size: 112, 106
+  orig: 112, 106
+  offset: 0, 0
+  index: -1
+2/guang2
+  rotate: false
+  xy: 2, 144
+  size: 111, 141
+  orig: 111, 141
+  offset: 0, 0
+  index: -1
+2/liuguang_00000
+  rotate: false
+  xy: 125, 309
+  size: 55, 67
+  orig: 110, 69
+  offset: 54, 2
+  index: -1
+2/liuguang_00002
+  rotate: false
+  xy: 374, 448
+  size: 59, 61
+  orig: 110, 69
+  offset: 44, 0
+  index: -1
+2/liuguang_00003
+  rotate: false
+  xy: 182, 320
+  size: 63, 56
+  orig: 110, 69
+  offset: 38, 0
+  index: -1
+2/liuguang_00004
+  rotate: false
+  xy: 247, 379
+  size: 65, 51
+  orig: 110, 69
+  offset: 32, 0
+  index: -1
+2/liuguang_00005
+  rotate: false
+  xy: 435, 464
+  size: 67, 45
+  orig: 110, 69
+  offset: 27, 0
+  index: -1
+2/liuguang_00006
+  rotate: false
+  xy: 247, 336
+  size: 71, 41
+  orig: 110, 69
+  offset: 21, 0
+  index: -1
+2/liuguang_00007
+  rotate: false
+  xy: 314, 394
+  size: 74, 36
+  orig: 110, 69
+  offset: 15, 0
+  index: -1
+2/liuguang_00008
+  rotate: false
+  xy: 320, 359
+  size: 77, 33
+  orig: 110, 69
+  offset: 9, 0
+  index: -1
+2/liuguang_00009
+  rotate: false
+  xy: 320, 324
+  size: 78, 33
+  orig: 110, 69
+  offset: 3, 0
+  index: -1
+2/lizi2
+  rotate: true
+  xy: 60, 2
+  size: 26, 41
+  orig: 26, 41
+  offset: 0, 0
+  index: -1

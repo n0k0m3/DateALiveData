@@ -1,0 +1,13 @@
+
+effects_ZNQ_xipai.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/kapai
+  rotate: false
+  xy: 2, 2
+  size: 218, 311
+  orig: 218, 311
+  offset: 0, 0
+  index: -1

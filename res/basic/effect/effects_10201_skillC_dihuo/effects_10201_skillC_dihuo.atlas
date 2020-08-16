@@ -1,0 +1,111 @@
+
+effects_10201_skillC_dihuo.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skillC/dihuo/dihuo_000
+  rotate: true
+  xy: 795, 348
+  size: 428, 104
+  orig: 450, 169
+  offset: 12, 23
+  index: -1
+effects/skillC/dihuo/dihuo_001
+  rotate: true
+  xy: 685, 348
+  size: 428, 108
+  orig: 450, 169
+  offset: 12, 23
+  index: -1
+effects/skillC/dihuo/dihuo_002
+  rotate: true
+  xy: 354, 342
+  size: 429, 108
+  orig: 450, 169
+  offset: 12, 23
+  index: -1
+effects/skillC/dihuo/dihuo_003
+  rotate: true
+  xy: 464, 347
+  size: 429, 109
+  orig: 450, 169
+  offset: 12, 23
+  index: -1
+effects/skillC/dihuo/dihuo_004
+  rotate: true
+  xy: 575, 347
+  size: 429, 108
+  orig: 450, 169
+  offset: 12, 23
+  index: -1
+effects/skillC/dihuo/dihuo_005
+  rotate: false
+  xy: 2, 228
+  size: 429, 112
+  orig: 450, 169
+  offset: 12, 23
+  index: -1
+effects/skillC/dihuo/dihuo_006
+  rotate: true
+  xy: 120, 342
+  size: 429, 115
+  orig: 450, 169
+  offset: 12, 23
+  index: -1
+effects/skillC/dihuo/dihuo_007
+  rotate: true
+  xy: 2, 342
+  size: 429, 116
+  orig: 450, 169
+  offset: 12, 23
+  index: -1
+effects/skillC/dihuo/dihuo_008
+  rotate: true
+  xy: 237, 342
+  size: 429, 115
+  orig: 450, 169
+  offset: 12, 23
+  index: -1
+effects/skillC/dihuo/dihuo_009
+  rotate: false
+  xy: 2, 115
+  size: 429, 111
+  orig: 450, 169
+  offset: 12, 23
+  index: -1
+effects/skillC/dihuo/dihuo_010
+  rotate: false
+  xy: 2, 2
+  size: 429, 111
+  orig: 450, 169
+  offset: 12, 23
+  index: -1
+effects/skillC/dihuo/dihuo_011
+  rotate: false
+  xy: 432, 778
+  size: 428, 116
+  orig: 450, 169
+  offset: 12, 23
+  index: -1
+effects/skillC/dihuo/dihuo_012
+  rotate: false
+  xy: 2, 773
+  size: 428, 119
+  orig: 450, 169
+  offset: 12, 23
+  index: -1
+effects/skillC/dihuo/dihuo_013
+  rotate: false
+  xy: 2, 894
+  size: 428, 120
+  orig: 450, 169
+  offset: 12, 23
+  index: -1
+effects/skillC/dihuo/dihuo_014
+  rotate: false
+  xy: 432, 896
+  size: 428, 118
+  orig: 450, 169
+  offset: 12, 23
+  index: -1

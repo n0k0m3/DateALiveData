@@ -1,0 +1,13 @@
+
+map_huoche_01.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sucai/huoche1
+  rotate: false
+  xy: 2, 255
+  size: 369, 116
+  orig: 369, 116
+  offset: 0, 0
+  index: -1

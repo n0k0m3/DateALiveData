@@ -1,0 +1,34 @@
+
+11wanjudian.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dengguang_00030
+  rotate: false
+  xy: 2, 88
+  size: 161, 210
+  orig: 161, 210
+  offset: 0, 0
+  index: -1
+glow_00000
+  rotate: false
+  xy: 2, 2
+  size: 84, 84
+  orig: 84, 84
+  offset: 0, 0
+  index: -1
+glow_00060
+  rotate: false
+  xy: 170, 380
+  size: 159, 126
+  orig: 159, 126
+  offset: 0, 0
+  index: -1
+yangguang_00000
+  rotate: false
+  xy: 2, 300
+  size: 166, 206
+  orig: 166, 206
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,195 @@
+
+danmen.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+beijing
+  rotate: false
+  xy: 262, 376
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+danmen/smoke1/smoke1_001
+  rotate: true
+  xy: 300, 413
+  size: 13, 63
+  orig: 13, 63
+  offset: 0, 0
+  index: -1
+danmen/smoke1/smoke1_003
+  rotate: true
+  xy: 554, 449
+  size: 13, 63
+  orig: 13, 63
+  offset: 0, 0
+  index: -1
+danmen/smoke1/smoke1_005
+  rotate: false
+  xy: 789, 805
+  size: 13, 63
+  orig: 13, 63
+  offset: 0, 0
+  index: -1
+danmen/smoke1/smoke1_007
+  rotate: true
+  xy: 856, 895
+  size: 13, 63
+  orig: 13, 63
+  offset: 0, 0
+  index: -1
+danmen/smoke1/smoke1_009
+  rotate: true
+  xy: 923, 935
+  size: 13, 63
+  orig: 13, 63
+  offset: 0, 0
+  index: -1
+danmen/smoke1/smoke1_011
+  rotate: false
+  xy: 2, 186
+  size: 13, 63
+  orig: 13, 63
+  offset: 0, 0
+  index: -1
+danmen/smoke1/smoke1_013
+  rotate: true
+  xy: 69, 276
+  size: 13, 63
+  orig: 13, 63
+  offset: 0, 0
+  index: -1
+danmen/smoke1/smoke1_015
+  rotate: true
+  xy: 136, 316
+  size: 13, 63
+  orig: 13, 63
+  offset: 0, 0
+  index: -1
+danmen/smoke1/smoke1_017
+  rotate: true
+  xy: 365, 413
+  size: 13, 63
+  orig: 13, 63
+  offset: 0, 0
+  index: -1
+danmen/smoke1/smoke1_019
+  rotate: true
+  xy: 554, 434
+  size: 13, 63
+  orig: 13, 63
+  offset: 0, 0
+  index: -1
+danmen/smoke2/smoke2_002
+  rotate: false
+  xy: 789, 950
+  size: 65, 38
+  orig: 65, 38
+  offset: 0, 0
+  index: -1
+danmen/smoke2/smoke2_004
+  rotate: false
+  xy: 2, 331
+  size: 65, 38
+  orig: 65, 38
+  offset: 0, 0
+  index: -1
+danmen/smoke2/smoke2_006
+  rotate: false
+  xy: 789, 910
+  size: 65, 38
+  orig: 65, 38
+  offset: 0, 0
+  index: -1
+danmen/smoke2/smoke2_008
+  rotate: false
+  xy: 856, 950
+  size: 65, 38
+  orig: 65, 38
+  offset: 0, 0
+  index: -1
+danmen/smoke2/smoke2_010
+  rotate: false
+  xy: 2, 291
+  size: 65, 38
+  orig: 65, 38
+  offset: 0, 0
+  index: -1
+danmen/smoke2/smoke2_012
+  rotate: false
+  xy: 69, 331
+  size: 65, 38
+  orig: 65, 38
+  offset: 0, 0
+  index: -1
+danmen/smoke2/smoke2_014
+  rotate: false
+  xy: 789, 870
+  size: 65, 38
+  orig: 65, 38
+  offset: 0, 0
+  index: -1
+danmen/smoke2/smoke2_016
+  rotate: false
+  xy: 856, 910
+  size: 65, 38
+  orig: 65, 38
+  offset: 0, 0
+  index: -1
+danmen/smoke2/smoke2_018
+  rotate: false
+  xy: 923, 950
+  size: 65, 38
+  orig: 65, 38
+  offset: 0, 0
+  index: -1
+danmen/smoke2/smoke2_020
+  rotate: false
+  xy: 2, 251
+  size: 65, 38
+  orig: 65, 38
+  offset: 0, 0
+  index: -1
+danmen/smoke2/smoke2_022
+  rotate: false
+  xy: 69, 291
+  size: 65, 38
+  orig: 65, 38
+  offset: 0, 0
+  index: -1
+danmen/smoke2/smoke2_024
+  rotate: false
+  xy: 136, 331
+  size: 65, 38
+  orig: 65, 38
+  offset: 0, 0
+  index: -1
+men1
+  rotate: false
+  xy: 300, 428
+  size: 252, 560
+  orig: 252, 560
+  offset: 0, 0
+  index: -1
+menbei
+  rotate: false
+  xy: 554, 464
+  size: 233, 524
+  orig: 233, 524
+  offset: 0, 0
+  index: -1
+menkan
+  rotate: false
+  xy: 2, 371
+  size: 258, 30
+  orig: 258, 30
+  offset: 0, 0
+  index: -1
+menkuang
+  rotate: false
+  xy: 2, 403
+  size: 296, 585
+  orig: 296, 585
+  offset: 0, 0
+  index: -1

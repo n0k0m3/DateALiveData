@@ -1,0 +1,341 @@
+
+effects_10501_skillF.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/extra_skillB/nor/huo_00018
+  rotate: true
+  xy: 184, 13
+  size: 259, 196
+  orig: 259, 212
+  offset: 0, 5
+  index: -1
+effect/extra_skillB/nor/huo_00019
+  rotate: true
+  xy: 382, 13
+  size: 259, 187
+  orig: 259, 212
+  offset: 0, 3
+  index: -1
+effect/extra_skillB/nor/huo_00020
+  rotate: true
+  xy: 571, 13
+  size: 259, 186
+  orig: 259, 212
+  offset: 0, 4
+  index: -1
+effect/extra_skillB/nor/huo_00025
+  rotate: true
+  xy: 301, 400
+  size: 106, 56
+  orig: 259, 212
+  offset: 126, 78
+  index: -1
+effect/glow
+  rotate: false
+  xy: 359, 423
+  size: 58, 62
+  orig: 72, 72
+  offset: 7, 4
+  index: -1
+effect/skillC/add/dg_00002
+  rotate: true
+  xy: 849, 230
+  size: 187, 172
+  orig: 257, 215
+  offset: 0, 34
+  index: -1
+effect/skillC/add/dg_00003
+  rotate: false
+  xy: 589, 347
+  size: 94, 138
+  orig: 257, 215
+  offset: 0, 23
+  index: -1
+effect/skillC/add/dg_00004
+  rotate: false
+  xy: 759, 169
+  size: 86, 103
+  orig: 257, 215
+  offset: 1, 18
+  index: -1
+effect/skillC/mul/dg_00002
+  rotate: false
+  xy: 359, 274
+  size: 228, 143
+  orig: 257, 215
+  offset: 16, 52
+  index: -1
+effect/skillC/mul/dg_00004
+  rotate: false
+  xy: 279, 287
+  size: 69, 111
+  orig: 257, 215
+  offset: 12, 33
+  index: -1
+effect/skillF/fengzhuan/fengzhuan_00021
+  rotate: false
+  xy: 2, 409
+  size: 297, 97
+  orig: 370, 223
+  offset: 6, 107
+  index: -1
+effect/skillF/fengzhuan/fengzhuan_00023
+  rotate: false
+  xy: 2, 833
+  size: 370, 189
+  orig: 370, 223
+  offset: 0, 17
+  index: -1
+effect/skillF/fengzhuan/fengzhuan_00025
+  rotate: false
+  xy: 374, 829
+  size: 360, 193
+  orig: 370, 223
+  offset: 8, 12
+  index: -1
+effect/skillF/fengzhuan/fengzhuan_00027
+  rotate: false
+  xy: 2, 648
+  size: 356, 183
+  orig: 370, 223
+  offset: 14, 14
+  index: -1
+effect/skillF/fengzhuan/fengzhuan_00029
+  rotate: false
+  xy: 360, 653
+  size: 347, 174
+  orig: 370, 223
+  offset: 23, 20
+  index: -1
+effect/skillF/fengzhuan/fengzhuan_00031
+  rotate: false
+  xy: 360, 487
+  size: 324, 164
+  orig: 370, 223
+  offset: 46, 22
+  index: -1
+effect/skillF/fengzhuan/fengzhuan_00033
+  rotate: false
+  xy: 686, 419
+  size: 320, 156
+  orig: 370, 223
+  offset: 42, 24
+  index: -1
+effect/skillF/fengzhuan/fengzhuan_00035
+  rotate: false
+  xy: 2, 508
+  size: 302, 138
+  orig: 370, 223
+  offset: 49, 35
+  index: -1
+effect/skillF/guangmu_00000
+  rotate: true
+  xy: 759, 2
+  size: 165, 259
+  orig: 169, 261
+  offset: 2, 0
+  index: -1
+effect/skillF/lizi/lizi_00002
+  rotate: true
+  xy: 709, 701
+  size: 126, 22
+  orig: 162, 185
+  offset: 10, 159
+  index: -1
+effect/skillF/lizi/lizi_00004
+  rotate: true
+  xy: 306, 520
+  size: 126, 49
+  orig: 162, 185
+  offset: 10, 131
+  index: -1
+effect/skillF/lizi/lizi_00014
+  rotate: true
+  xy: 685, 274
+  size: 143, 162
+  orig: 162, 185
+  offset: 10, 5
+  index: -1
+effect/skillF/yanchen/yanchen_00021
+  rotate: true
+  xy: 2, 11
+  size: 261, 180
+  orig: 286, 193
+  offset: 12, 0
+  index: -1
+effect/skillF/yanchen/yanchen_00022
+  rotate: false
+  xy: 736, 840
+  size: 283, 182
+  orig: 286, 193
+  offset: 3, 0
+  index: -1
+effect/skillF/yanchen/yanchen_00024
+  rotate: false
+  xy: 2, 274
+  size: 275, 133
+  orig: 286, 193
+  offset: 11, 60
+  index: -1
+effect/skillF/yanchen/yanchen_00025
+  rotate: false
+  xy: 736, 707
+  size: 281, 131
+  orig: 286, 193
+  offset: 5, 62
+  index: -1
+effect/skillF/yanchen/yanchen_00026
+  rotate: false
+  xy: 733, 577
+  size: 279, 128
+  orig: 286, 193
+  offset: 7, 65
+  index: -1
+
+effects_10501_skillF2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/extra_skillB/nor/huo_00016
+  rotate: false
+  xy: 2, 436
+  size: 234, 192
+  orig: 259, 212
+  offset: 8, 11
+  index: -1
+effect/extra_skillB/nor/huo_00017
+  rotate: false
+  xy: 2, 630
+  size: 254, 196
+  orig: 259, 212
+  offset: 5, 7
+  index: -1
+effect/extra_skillB/nor/huo_00021
+  rotate: false
+  xy: 275, 837
+  size: 259, 184
+  orig: 259, 212
+  offset: 0, 5
+  index: -1
+effect/extra_skillB/nor/huo_00022
+  rotate: false
+  xy: 536, 842
+  size: 246, 179
+  orig: 259, 212
+  offset: 0, 9
+  index: -1
+effect/extra_skillB/nor/huo_00023
+  rotate: false
+  xy: 784, 842
+  size: 217, 179
+  orig: 259, 212
+  offset: 22, 9
+  index: -1
+effect/extra_skillB/nor/huo_00024
+  rotate: false
+  xy: 756, 727
+  size: 121, 113
+  orig: 259, 212
+  offset: 117, 73
+  index: -1
+effect/skillC/add/dg_00000
+  rotate: false
+  xy: 179, 251
+  size: 129, 183
+  orig: 257, 215
+  offset: 128, 2
+  index: -1
+effect/skillC/add/dg_00001
+  rotate: true
+  xy: 2, 2
+  size: 184, 171
+  orig: 257, 215
+  offset: 72, 44
+  index: -1
+effect/skillC/mul/dg_00000
+  rotate: false
+  xy: 179, 92
+  size: 163, 157
+  orig: 257, 215
+  offset: 79, 11
+  index: -1
+effect/skillC/mul/dg_00001
+  rotate: false
+  xy: 238, 463
+  size: 157, 165
+  orig: 257, 215
+  offset: 88, 31
+  index: -1
+effect/skillC/mul/dg_00003
+  rotate: true
+  xy: 175, 18
+  size: 72, 132
+  orig: 257, 215
+  offset: 14, 42
+  index: -1
+effect/skillF/lizi/lizi_00006
+  rotate: true
+  xy: 258, 686
+  size: 140, 92
+  orig: 162, 185
+  offset: 11, 87
+  index: -1
+effect/skillF/lizi/lizi_00008
+  rotate: false
+  xy: 344, 39
+  size: 141, 104
+  orig: 162, 185
+  offset: 12, 74
+  index: -1
+effect/skillF/lizi/lizi_00010
+  rotate: true
+  xy: 492, 697
+  size: 138, 127
+  orig: 162, 185
+  offset: 15, 49
+  index: -1
+effect/skillF/lizi/lizi_00012
+  rotate: false
+  xy: 310, 302
+  size: 133, 159
+  orig: 162, 185
+  offset: 20, 14
+  index: -1
+effect/skillF/lizi/lizi_00016
+  rotate: false
+  xy: 344, 145
+  size: 142, 155
+  orig: 162, 185
+  offset: 11, 10
+  index: -1
+effect/skillF/lizi/lizi_00018
+  rotate: false
+  xy: 352, 699
+  size: 138, 136
+  orig: 162, 185
+  offset: 13, 13
+  index: -1
+effect/skillF/lizi/lizi_00020
+  rotate: false
+  xy: 621, 707
+  size: 133, 133
+  orig: 162, 185
+  offset: 13, 14
+  index: -1
+effect/skillF/yanchen/yanchen_00020
+  rotate: true
+  xy: 2, 188
+  size: 246, 175
+  orig: 286, 193
+  offset: 16, 0
+  index: -1
+effect/skillF/yanchen/yanchen_00023
+  rotate: false
+  xy: 2, 828
+  size: 271, 193
+  orig: 286, 193
+  offset: 15, 0
+  index: -1

@@ -1,0 +1,759 @@
+
+effects_fight_21801.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/final/final_00047
+  rotate: false
+  xy: 2, 382
+  size: 664, 640
+  orig: 664, 640
+  offset: 0, 0
+  index: -1
+effects/skillA/daoguangxiaosan/daoguangxiaosan_0
+  rotate: true
+  xy: 803, 16
+  size: 293, 103
+  orig: 295, 125
+  offset: 1, 6
+  index: -1
+effects/skillA/daoguangxiaosan/daoguangxiaosan_4
+  rotate: false
+  xy: 510, 320
+  size: 156, 60
+  orig: 295, 125
+  offset: 138, 19
+  index: -1
+effects/skillA/jian_end/jian_end
+  rotate: true
+  xy: 914, 644
+  size: 378, 108
+  orig: 390, 122
+  offset: 0, 6
+  index: -1
+effects/skillA/jian_miaobian/jian_miaobian
+  rotate: false
+  xy: 2, 230
+  size: 506, 150
+  orig: 526, 158
+  offset: 7, 2
+  index: -1
+effects/skillA/shouji/shouji_4
+  rotate: false
+  xy: 514, 25
+  size: 287, 284
+  orig: 300, 300
+  offset: 8, 10
+  index: -1
+effects/skillA/yanwu/yanwu_10
+  rotate: true
+  xy: 893, 327
+  size: 315, 113
+  orig: 338, 142
+  offset: 10, 10
+  index: -1
+effects/skillB/dun_fangda/dun_fangda_0
+  rotate: false
+  xy: 668, 648
+  size: 244, 374
+  orig: 260, 420
+  offset: 5, 21
+  index: -1
+effects/skillB/dun_shanguang/dun_shanguang_0
+  rotate: false
+  xy: 339, 4
+  size: 173, 224
+  orig: 249, 381
+  offset: 52, 157
+  index: -1
+effects/skillB/dun_shanguang/dun_shanguang_10
+  rotate: false
+  xy: 668, 311
+  size: 223, 335
+  orig: 249, 381
+  offset: 2, 46
+  index: -1
+effects/skillB/dun_shanguang/dun_shanguang_8
+  rotate: true
+  xy: 2, 5
+  size: 223, 335
+  orig: 249, 381
+  offset: 2, 46
+  index: -1
+effects/skillC/penshe/penshe_1
+  rotate: true
+  xy: 908, 21
+  size: 121, 111
+  orig: 167, 183
+  offset: 9, 28
+  index: -1
+effects/skillC/penshe/penshe_4
+  rotate: false
+  xy: 908, 144
+  size: 114, 181
+  orig: 167, 183
+  offset: 3, 0
+  index: -1
+
+effects_fight_218012.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skillA/ci/ci_0
+  rotate: true
+  xy: 223, 215
+  size: 187, 60
+  orig: 215, 105
+  offset: 17, 23
+  index: -1
+effects/skillA/ci/ci_1
+  rotate: false
+  xy: 446, 759
+  size: 196, 38
+  orig: 215, 105
+  offset: 13, 34
+  index: -1
+effects/skillA/ci/ci_2
+  rotate: true
+  xy: 285, 2
+  size: 207, 30
+  orig: 215, 105
+  offset: 8, 38
+  index: -1
+effects/skillA/daoguangxiaosan/daoguangxiaosan_1
+  rotate: true
+  xy: 285, 211
+  size: 292, 90
+  orig: 295, 125
+  offset: 2, 12
+  index: -1
+effects/skillA/daoguangxiaosan/daoguangxiaosan_2
+  rotate: true
+  xy: 285, 505
+  size: 180, 93
+  orig: 295, 125
+  offset: 113, 11
+  index: -1
+effects/skillA/daoguangxiaosan/daoguangxiaosan_5
+  rotate: false
+  xy: 910, 470
+  size: 111, 66
+  orig: 295, 125
+  offset: 183, 20
+  index: -1
+effects/skillA/jian_liuguang/jian_liuguang_0
+  rotate: false
+  xy: 929, 326
+  size: 85, 142
+  orig: 238, 235
+  offset: 8, 62
+  index: -1
+effects/skillA/jian_liuguang/jian_liuguang_12
+  rotate: false
+  xy: 929, 94
+  size: 84, 79
+  orig: 238, 235
+  offset: 116, 63
+  index: -1
+effects/skillA/jian_liuguang/jian_liuguang_4
+  rotate: true
+  xy: 532, 9
+  size: 193, 174
+  orig: 238, 235
+  offset: 20, 26
+  index: -1
+effects/skillA/shouji/shouji_2
+  rotate: false
+  xy: 177, 756
+  size: 267, 266
+  orig: 300, 300
+  offset: 16, 19
+  index: -1
+effects/skillA/shouji/shouji_3
+  rotate: false
+  xy: 2, 404
+  size: 281, 281
+  orig: 300, 300
+  offset: 9, 10
+  index: -1
+effects/skillA/shouji/shouji_6
+  rotate: false
+  xy: 317, 2
+  size: 213, 200
+  orig: 300, 300
+  offset: 42, 54
+  index: -1
+effects/skillA/yanwu/yanwu_0
+  rotate: false
+  xy: 603, 425
+  size: 305, 111
+  orig: 338, 142
+  offset: 16, 12
+  index: -1
+effects/skillB/baodian/bd1
+  rotate: false
+  xy: 934, 596
+  size: 88, 205
+  orig: 88, 205
+  offset: 0, 0
+  index: -1
+effects/skillB/dun_all/dun_all_0
+  rotate: false
+  xy: 382, 425
+  size: 219, 329
+  orig: 245, 351
+  offset: 14, 13
+  index: -1
+effects/skillB/dun_all/dun_all_10
+  rotate: false
+  xy: 708, 94
+  size: 219, 329
+  orig: 245, 351
+  offset: 14, 13
+  index: -1
+effects/skillB/dun_all/dun_all_2
+  rotate: false
+  xy: 2, 73
+  size: 219, 329
+  orig: 245, 351
+  offset: 14, 13
+  index: -1
+effects/skillB/dun_all/dun_all_4
+  rotate: true
+  xy: 377, 204
+  size: 219, 329
+  orig: 245, 351
+  offset: 14, 13
+  index: -1
+effects/skillB/dun_all/dun_all_6
+  rotate: true
+  xy: 603, 538
+  size: 219, 329
+  orig: 245, 351
+  offset: 14, 13
+  index: -1
+effects/skillB/dun_all/dun_all_8
+  rotate: true
+  xy: 682, 803
+  size: 219, 329
+  orig: 245, 351
+  offset: 14, 13
+  index: -1
+effects/skillB/dun_shanguang/dun_shanguang_4
+  rotate: true
+  xy: 446, 799
+  size: 223, 234
+  orig: 249, 381
+  offset: 2, 80
+  index: -1
+effects/skillB/dun_shanguang/dun_shanguang_6
+  rotate: false
+  xy: 2, 687
+  size: 173, 335
+  orig: 249, 381
+  offset: 52, 46
+  index: -1
+effects/skillC/jiaohuohua/jiaohuohua_0
+  rotate: false
+  xy: 929, 175
+  size: 81, 149
+  orig: 118, 210
+  offset: 26, 32
+  index: -1
+effects/skillC/jiaohuohua/jiaohuohua_10
+  rotate: false
+  xy: 223, 68
+  size: 60, 145
+  orig: 118, 210
+  offset: 28, 25
+  index: -1
+effects/skillC/jiaohuohua/jiaohuohua_6
+  rotate: true
+  xy: 878, 8
+  size: 84, 144
+  orig: 118, 210
+  offset: 12, 29
+  index: -1
+effects/skillC/shouji/shouji_3
+  rotate: true
+  xy: 708, 4
+  size: 88, 168
+  orig: 172, 327
+  offset: 45, 92
+  index: -1
+effects/skillC/tuowei_lizi/tuoweilizi_4
+  rotate: false
+  xy: 2, 2
+  size: 177, 69
+  orig: 250, 80
+  offset: 63, 7
+  index: -1
+effects/skillC/tuowei_lizi/tuoweilizi_6
+  rotate: false
+  xy: 177, 687
+  size: 203, 67
+  orig: 250, 80
+  offset: 22, 9
+  index: -1
+
+effects_fight_218013.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skillA/daoguang/daoguang_1
+  rotate: false
+  xy: 223, 804
+  size: 244, 218
+  orig: 256, 251
+  offset: 8, 15
+  index: -1
+effects/skillA/daoguang/daoguang_2
+  rotate: false
+  xy: 469, 805
+  size: 244, 217
+  orig: 256, 251
+  offset: 10, 16
+  index: -1
+effects/skillA/jian_liuguang/jian_liuguang_10
+  rotate: false
+  xy: 405, 28
+  size: 137, 105
+  orig: 238, 235
+  offset: 86, 48
+  index: -1
+effects/skillA/jian_liuguang/jian_liuguang_11
+  rotate: true
+  xy: 273, 2
+  size: 102, 105
+  orig: 238, 235
+  offset: 101, 50
+  index: -1
+effects/skillA/jian_liuguang/jian_liuguang_6
+  rotate: false
+  xy: 744, 14
+  size: 202, 164
+  orig: 238, 235
+  offset: 36, 36
+  index: -1
+effects/skillA/shouji/shouji_8
+  rotate: false
+  xy: 551, 2
+  size: 191, 171
+  orig: 300, 300
+  offset: 57, 76
+  index: -1
+effects/skillA/yanjing/yanjing_0
+  rotate: true
+  xy: 926, 194
+  size: 67, 85
+  orig: 76, 92
+  offset: 7, 2
+  index: -1
+effects/skillA/yanwu/yanwu_2
+  rotate: false
+  xy: 223, 671
+  size: 305, 131
+  orig: 338, 142
+  offset: 16, 8
+  index: -1
+effects/skillA/yanwu/yanwu_4
+  rotate: true
+  xy: 273, 106
+  size: 314, 130
+  orig: 338, 142
+  offset: 12, 6
+  index: -1
+effects/skillA/yanwu/yanwu_6
+  rotate: true
+  xy: 2, 101
+  size: 319, 135
+  orig: 338, 142
+  offset: 10, 4
+  index: -1
+effects/skillA/yanwu/yanwu_8
+  rotate: true
+  xy: 139, 100
+  size: 320, 132
+  orig: 338, 142
+  offset: 9, 4
+  index: -1
+effects/skillB/dun_all/dun_all_11
+  rotate: false
+  xy: 2, 693
+  size: 219, 329
+  orig: 245, 351
+  offset: 14, 13
+  index: -1
+effects/skillB/dun_shanguang/dun_shanguang_2
+  rotate: false
+  xy: 2, 422
+  size: 216, 269
+  orig: 249, 381
+  offset: 2, 112
+  index: -1
+effects/skillC/dun_bian/dun_bian_0
+  rotate: false
+  xy: 220, 422
+  size: 162, 247
+  orig: 167, 250
+  offset: 3, 0
+  index: -1
+effects/skillC/dun_fangda/dun_fangda_0
+  rotate: true
+  xy: 530, 678
+  size: 125, 190
+  orig: 129, 200
+  offset: 2, 8
+  index: -1
+effects/skillC/dun_yan/dun_yan_0
+  rotate: true
+  xy: 740, 180
+  size: 242, 184
+  orig: 252, 197
+  offset: 10, 9
+  index: -1
+effects/skillC/dun_yan/dun_yan_10
+  rotate: true
+  xy: 551, 175
+  size: 246, 187
+  orig: 252, 197
+  offset: 6, 6
+  index: -1
+effects/skillC/dun_yan/dun_yan_2
+  rotate: false
+  xy: 715, 834
+  size: 252, 188
+  orig: 252, 197
+  offset: 0, 2
+  index: -1
+effects/skillC/dun_yan/dun_yan_4
+  rotate: true
+  xy: 574, 424
+  size: 252, 184
+  orig: 252, 197
+  offset: 0, 3
+  index: -1
+effects/skillC/dun_yan/dun_yan_6
+  rotate: true
+  xy: 760, 443
+  size: 252, 188
+  orig: 252, 197
+  offset: 0, 5
+  index: -1
+effects/skillC/dun_yan/dun_yan_8
+  rotate: true
+  xy: 384, 423
+  size: 246, 188
+  orig: 252, 197
+  offset: 0, 9
+  index: -1
+effects/skillC/jiaohuohua/jiaohuohua_2
+  rotate: false
+  xy: 926, 263
+  size: 77, 178
+  orig: 118, 210
+  offset: 20, 17
+  index: -1
+effects/skillC/shouji/shouji_1
+  rotate: true
+  xy: 722, 697
+  size: 135, 284
+  orig: 172, 327
+  offset: 17, 13
+  index: -1
+effects/skillC/shouji/shouji_2
+  rotate: false
+  xy: 405, 135
+  size: 144, 286
+  orig: 172, 327
+  offset: 12, 21
+  index: -1
+effects/skillC/shouji/shouji_4
+  rotate: true
+  xy: 131, 32
+  size: 66, 131
+  orig: 172, 327
+  offset: 48, 121
+  index: -1
+effects/skillC/tuowei_lizi/tuoweilizi_0
+  rotate: true
+  xy: 948, 26
+  size: 166, 65
+  orig: 250, 80
+  offset: 69, 9
+  index: -1
+effects/skillC/tuowei_lizi/tuoweilizi_2
+  rotate: true
+  xy: 950, 503
+  size: 192, 67
+  orig: 250, 80
+  offset: 39, 7
+  index: -1
+effects/skillC/tuowei_yan/tuoweiyan_0
+  rotate: false
+  xy: 2, 2
+  size: 127, 97
+  orig: 128, 129
+  offset: 1, 0
+  index: -1
+effects/skillC/tuowei_yan/tuoweiyan_6
+  rotate: false
+  xy: 2, 2
+  size: 127, 97
+  orig: 128, 129
+  offset: 1, 0
+  index: -1
+
+effects_fight_218014.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skillA/daoguang/daoguang_0
+  rotate: false
+  xy: 2, 612
+  size: 197, 215
+  orig: 256, 251
+  offset: 48, 16
+  index: -1
+effects/skillA/daoguang/daoguang_3
+  rotate: false
+  xy: 2, 829
+  size: 238, 190
+  orig: 256, 251
+  offset: 14, 31
+  index: -1
+effects/skillA/daoguang/daoguang_4
+  rotate: false
+  xy: 2, 119
+  size: 186, 163
+  orig: 256, 251
+  offset: 31, 54
+  index: -1
+effects/skillA/jian_glow/jian_glow_0
+  rotate: false
+  xy: 242, 877
+  size: 232, 142
+  orig: 238, 164
+  offset: 0, 9
+  index: -1
+effects/skillA/jian_liuguang/jian_liuguang_1
+  rotate: true
+  xy: 697, 906
+  size: 113, 195
+  orig: 238, 235
+  offset: 5, 28
+  index: -1
+effects/skillA/jian_liuguang/jian_liuguang_2
+  rotate: true
+  xy: 201, 562
+  size: 161, 181
+  orig: 238, 235
+  offset: 6, 20
+  index: -1
+effects/skillA/jian_liuguang/jian_liuguang_3
+  rotate: true
+  xy: 193, 237
+  size: 166, 177
+  orig: 238, 235
+  offset: 18, 23
+  index: -1
+effects/skillA/jian_liuguang/jian_liuguang_5
+  rotate: false
+  xy: 2, 284
+  size: 189, 162
+  orig: 238, 235
+  offset: 31, 34
+  index: -1
+effects/skillA/jian_liuguang/jian_liuguang_7
+  rotate: false
+  xy: 2, 448
+  size: 191, 162
+  orig: 238, 235
+  offset: 47, 39
+  index: -1
+effects/skillA/jian_liuguang/jian_liuguang_8
+  rotate: false
+  xy: 195, 405
+  size: 179, 155
+  orig: 238, 235
+  offset: 59, 42
+  index: -1
+effects/skillA/jian_liuguang/jian_liuguang_9
+  rotate: true
+  xy: 384, 556
+  size: 167, 140
+  orig: 238, 235
+  offset: 71, 45
+  index: -1
+effects/skillA/shouji/shouji_1
+  rotate: false
+  xy: 702, 766
+  size: 138, 138
+  orig: 300, 300
+  offset: 81, 81
+  index: -1
+effects/skillA/shouji/shouji_10
+  rotate: false
+  xy: 190, 71
+  size: 174, 164
+  orig: 300, 300
+  offset: 56, 69
+  index: -1
+effects/skillA/shouji/shouji_12
+  rotate: false
+  xy: 376, 381
+  size: 158, 173
+  orig: 300, 300
+  offset: 76, 64
+  index: -1
+effects/skillB/baodian/bd2
+  rotate: true
+  xy: 428, 725
+  size: 150, 147
+  orig: 150, 150
+  offset: 0, 1
+  index: -1
+effects/skillB/baodian/bd3
+  rotate: true
+  xy: 242, 725
+  size: 150, 184
+  orig: 150, 184
+  offset: 0, 0
+  index: -1
+effects/skillC/jiaohuohua/jiaohuohua_4
+  rotate: true
+  xy: 2, 48
+  size: 69, 158
+  orig: 118, 210
+  offset: 19, 23
+  index: -1
+effects/skillC/jiaohuohua/jiaohuohua_8
+  rotate: false
+  xy: 536, 404
+  size: 64, 155
+  orig: 118, 210
+  offset: 33, 17
+  index: -1
+effects/skillC/penshe/penshe_0
+  rotate: false
+  xy: 366, 93
+  size: 157, 138
+  orig: 167, 183
+  offset: 10, 27
+  index: -1
+effects/skillC/penshe/penshe_2
+  rotate: true
+  xy: 577, 747
+  size: 154, 123
+  orig: 167, 183
+  offset: 10, 22
+  index: -1
+effects/skillC/penshe/penshe_3
+  rotate: false
+  xy: 372, 233
+  size: 155, 146
+  orig: 167, 183
+  offset: 2, 14
+  index: -1
+effects/skillC/penshe/penshe_5
+  rotate: true
+  xy: 894, 895
+  size: 124, 125
+  orig: 167, 183
+  offset: 4, 28
+  index: -1
+effects/skillC/shouji/shouji_0
+  rotate: true
+  xy: 476, 903
+  size: 116, 219
+  orig: 172, 327
+  offset: 33, 54
+  index: -1
+effects/skillC/tuowei_lizi/tuoweilizi_10
+  rotate: true
+  xy: 526, 561
+  size: 162, 63
+  orig: 250, 80
+  offset: 64, 11
+  index: -1
+effects/skillC/tuowei_lizi/tuoweilizi_8
+  rotate: false
+  xy: 366, 29
+  size: 149, 62
+  orig: 250, 80
+  offset: 95, 11
+  index: -1
+effects/skillC/tuowei_yan/tuoweiyan_1
+  rotate: true
+  xy: 591, 618
+  size: 127, 99
+  orig: 128, 129
+  offset: 1, 0
+  index: -1
+effects/skillC/tuowei_yan/tuoweiyan_2
+  rotate: false
+  xy: 842, 794
+  size: 127, 99
+  orig: 128, 129
+  offset: 1, 0
+  index: -1
+effects/skillC/tuowei_yan/tuoweiyan_8
+  rotate: false
+  xy: 842, 794
+  size: 127, 99
+  orig: 128, 129
+  offset: 1, 0
+  index: -1
+effects/skillC/tuowei_yan/tuoweiyan_3
+  rotate: true
+  xy: 602, 489
+  size: 127, 97
+  orig: 128, 129
+  offset: 1, 0
+  index: -1
+effects/skillC/tuowei_yan/tuoweiyan_9
+  rotate: true
+  xy: 602, 489
+  size: 127, 97
+  orig: 128, 129
+  offset: 1, 0
+  index: -1
+effects/skillC/tuowei_yan/tuoweiyan_4
+  rotate: false
+  xy: 602, 388
+  size: 127, 99
+  orig: 128, 129
+  offset: 1, 0
+  index: -1
+effects/skillC/tuowei_yan/tuoweiyan_10
+  rotate: false
+  xy: 602, 388
+  size: 127, 99
+  orig: 128, 129
+  offset: 1, 0
+  index: -1
+effects/skillC/tuowei_yan/tuoweiyan_5
+  rotate: false
+  xy: 842, 694
+  size: 127, 98
+  orig: 128, 129
+  offset: 1, 0
+  index: -1
+effects/skillC/tuowei_yan/tuoweiyan_11
+  rotate: false
+  xy: 842, 694
+  size: 127, 98
+  orig: 128, 129
+  offset: 1, 0
+  index: -1
+effects/skillC/tuowei_yan/tuoweiyan_7
+  rotate: true
+  xy: 692, 618
+  size: 127, 99
+  orig: 128, 129
+  offset: 1, 0
+  index: -1

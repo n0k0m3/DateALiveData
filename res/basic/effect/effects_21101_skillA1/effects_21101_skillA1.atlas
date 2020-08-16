@@ -1,0 +1,13 @@
+
+effects_21101_skillA1.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+texiao/guang_00020
+  rotate: false
+  xy: 2, 170
+  size: 214, 46
+  orig: 231, 55
+  offset: 9, 5
+  index: -1

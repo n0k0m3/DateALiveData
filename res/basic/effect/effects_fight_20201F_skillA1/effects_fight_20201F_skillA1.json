@@ -1,0 +1,124 @@
+{
+"skeleton": {
+	"hash": "hMs9VXUCEoZ0D5DRSdaS7hgAwJc",
+	"spine": "2.1.27",
+	"width": 119.25,
+	"height": 51,
+	"images": "C:/Users/Administrator/Desktop/尺寸需要修改的特效/新建文件夹/effects_fight_20201F_skillA1"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bdbox_eff", "parent": "root" },
+	{ "name": "lvguang222", "parent": "root", "x": 0.56, "scaleX": 0.795, "scaleY": 0.574 },
+	{ "name": "lvzidan", "parent": "root" },
+	{ "name": "lvzidanliang", "parent": "root" }
+],
+"slots": [
+	{ "name": "lvzidan", "bone": "lvzidan", "attachment": "lvzidan" },
+	{ "name": "lvguang222", "bone": "lvguang222", "attachment": "lvguang222" },
+	{ "name": "bdbox_eff", "bone": "bdbox_eff", "attachment": "bdbox_eff" },
+	{ "name": "lvzidanliang", "bone": "lvzidanliang", "attachment": "lvzidanliang" }
+],
+"skins": {
+	"default": {
+		"bdbox_eff": {
+			"bdbox_eff": {
+				"type": "boundingbox",
+				"vertices": [ -37.98028, -2.02251, 39.13181, -7.32838, 46.91377, -5.91348, 47.97495, 3.28336, 39.48553, 6.4669, -37.62657, 6.11317 ]
+			}
+		},
+		"lvguang222": {
+			"lvguang222": { "width": 150, "height": 78 }
+		},
+		"lvzidan": {
+			"lvzidan": { "width": 114, "height": 51 }
+		},
+		"lvzidanliang": {
+			"lvzidanliang": { "width": 114, "height": 51 }
+		}
+	}
+},
+"animations": {
+	"effects_fight_20301F_skillA1": {
+		"slots": {
+			"lvguang222": {
+				"attachment": [
+					{ "time": 0, "name": "lvguang222" },
+					{ "time": 0.1333, "name": "lvguang222" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff7c" },
+					{ "time": 0.0666, "color": "ffffff4e" },
+					{ "time": 0.1333, "color": "ffffff7c" }
+				]
+			},
+			"lvzidan": {
+				"attachment": [
+					{ "time": 0, "name": "lvzidan" },
+					{ "time": 0.1333, "name": "lvzidan" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffd5" },
+					{ "time": 0.0666, "color": "ffffffff" },
+					{ "time": 0.1333, "color": "ffffffd5" }
+				]
+			},
+			"lvzidanliang": {
+				"attachment": [
+					{ "time": 0, "name": "lvzidanliang" },
+					{ "time": 0.1333, "name": "lvzidanliang" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.0666, "color": "ffffff8b" },
+					{ "time": 0.1333, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"lvguang222": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 5.51, "y": -2.2, "curve": "stepped" },
+					{ "time": 0.1333, "x": 5.51, "y": -2.2 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1 }
+				]
+			},
+			"lvzidan": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1333, "x": 2, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1333, "x": 0.933, "y": 0.972 }
+				]
+			},
+			"lvzidanliang": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

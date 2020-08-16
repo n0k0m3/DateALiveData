@@ -1,0 +1,82 @@
+{
+"skeleton": { "hash": "OqtfvrQTcykjxzfyQIy4GboN/eo", "spine": "2.1.27", "width": 270, "height": 50, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "effect", "parent": "root" },
+	{ "name": "bone3", "parent": "effect" },
+	{ "name": "bone4", "parent": "effect" }
+],
+"slots": [
+	{ "name": "images/jingyantiao_109", "bone": "bone4", "attachment": "images/jingyantiao_00109", "blend": "additive" },
+	{ "name": "images/lizi/lizi_00059", "bone": "bone3", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"images/jingyantiao_109": {
+			"images/jingyantiao_00109": { "x": -0.33, "width": 270, "height": 50 }
+		},
+		"images/lizi/lizi_00059": {
+			"images/lizi/lizi_00060": { "width": 300, "height": 100 },
+			"images/lizi/lizi_00061": { "width": 300, "height": 100 },
+			"images/lizi/lizi_00062": { "width": 300, "height": 100 },
+			"images/lizi/lizi_00063": { "width": 300, "height": 100 },
+			"images/lizi/lizi_00064": { "width": 300, "height": 100 },
+			"images/lizi/lizi_00065": { "width": 300, "height": 100 },
+			"images/lizi/lizi_00066": { "width": 300, "height": 100 },
+			"images/lizi/lizi_00067": { "width": 300, "height": 100 },
+			"images/lizi/lizi_00068": { "width": 300, "height": 100 },
+			"images/lizi/lizi_00069": { "width": 300, "height": 100 },
+			"images/lizi/lizi_00070": { "width": 300, "height": 100 },
+			"images/lizi/lizi_00071": { "width": 300, "height": 100 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"images/jingyantiao_109": {
+				"attachment": [
+					{ "time": 0, "name": "images/jingyantiao_00109" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.1333, "color": "ffffff00" }
+				]
+			},
+			"images/lizi/lizi_00059": {
+				"attachment": [
+					{ "time": 0, "name": "images/lizi/lizi_00060" },
+					{ "time": 0.0333, "name": "images/lizi/lizi_00061" },
+					{ "time": 0.0666, "name": "images/lizi/lizi_00062" },
+					{ "time": 0.1, "name": "images/lizi/lizi_00063" },
+					{ "time": 0.1333, "name": "images/lizi/lizi_00064" },
+					{ "time": 0.1666, "name": "images/lizi/lizi_00065" },
+					{ "time": 0.2, "name": "images/lizi/lizi_00066" },
+					{ "time": 0.2333, "name": "images/lizi/lizi_00067" },
+					{ "time": 0.2666, "name": "images/lizi/lizi_00068" },
+					{ "time": 0.3, "name": "images/lizi/lizi_00069" },
+					{ "time": 0.3333, "name": "images/lizi/lizi_00070" },
+					{ "time": 0.3666, "name": "images/lizi/lizi_00071" },
+					{ "time": 0.4, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"bone3": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 14.42 }
+				]
+			},
+			"bone4": {
+				"translate": [
+					{ "time": 0, "x": -5.24, "y": 1.87 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1333, "x": 1, "y": 2.042 }
+				]
+			}
+		}
+	}
+}
+}

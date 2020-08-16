@@ -1,0 +1,522 @@
+
+effects_25301_skille.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ddwdwd_00012
+  rotate: false
+  xy: 2, 626
+  size: 174, 396
+  orig: 232, 451
+  offset: 30, 32
+  index: -1
+skille_juqi_0
+  rotate: false
+  xy: 889, 18
+  size: 75, 75
+  orig: 392, 244
+  offset: 188, 50
+  index: -1
+skille_juqi_20
+  rotate: true
+  xy: 2, 11
+  size: 254, 211
+  orig: 392, 244
+  offset: 121, 0
+  index: -1
+skille_juqi_36
+  rotate: true
+  xy: 896, 767
+  size: 255, 126
+  orig: 392, 244
+  offset: 74, 50
+  index: -1
+skille_qiu_0
+  rotate: false
+  xy: 178, 840
+  size: 357, 182
+  orig: 377, 226
+  offset: 0, 2
+  index: -1
+skille_qiu_1
+  rotate: false
+  xy: 178, 657
+  size: 357, 181
+  orig: 377, 226
+  offset: 0, 3
+  index: -1
+skille_qiu_10
+  rotate: false
+  xy: 215, 116
+  size: 357, 180
+  orig: 377, 226
+  offset: 0, 4
+  index: -1
+skille_qiu_11
+  rotate: false
+  xy: 574, 119
+  size: 357, 180
+  orig: 377, 226
+  offset: 0, 4
+  index: -1
+skille_qiu_2
+  rotate: false
+  xy: 537, 842
+  size: 357, 180
+  orig: 377, 226
+  offset: 0, 4
+  index: -1
+skille_qiu_3
+  rotate: false
+  xy: 537, 660
+  size: 357, 180
+  orig: 377, 226
+  offset: 0, 4
+  index: -1
+skille_qiu_4
+  rotate: true
+  xy: 2, 267
+  size: 357, 180
+  orig: 377, 226
+  offset: 0, 4
+  index: -1
+skille_qiu_5
+  rotate: true
+  xy: 184, 298
+  size: 357, 180
+  orig: 377, 226
+  offset: 0, 4
+  index: -1
+skille_qiu_6
+  rotate: true
+  xy: 366, 298
+  size: 357, 178
+  orig: 377, 226
+  offset: 0, 5
+  index: -1
+skille_qiu_7
+  rotate: true
+  xy: 728, 301
+  size: 357, 177
+  orig: 377, 226
+  offset: 0, 6
+  index: -1
+skille_qiu_9
+  rotate: true
+  xy: 546, 301
+  size: 357, 180
+  orig: 377, 226
+  offset: 0, 4
+  index: -1
+xuehuamanyan_00001
+  rotate: true
+  xy: 933, 95
+  size: 189, 54
+  orig: 274, 162
+  offset: 52, 36
+  index: -1
+xuehuamanyan_00002
+  rotate: true
+  xy: 933, 286
+  size: 194, 89
+  orig: 274, 162
+  offset: 54, 35
+  index: -1
+xuehuamanyan_00003
+  rotate: false
+  xy: 325, 5
+  size: 186, 109
+  orig: 274, 162
+  offset: 63, 34
+  index: -1
+xuehuamanyan_00004
+  rotate: false
+  xy: 574, 3
+  size: 187, 114
+  orig: 274, 162
+  offset: 63, 34
+  index: -1
+xuehuamanyan_00005
+  rotate: true
+  xy: 907, 583
+  size: 182, 115
+  orig: 274, 162
+  offset: 69, 34
+  index: -1
+xuehuamanyan_00011
+  rotate: false
+  xy: 763, 15
+  size: 124, 102
+  orig: 274, 162
+  offset: 136, 50
+  index: -1
+xuehuamanyan_00013
+  rotate: true
+  xy: 215, 2
+  size: 112, 108
+  orig: 274, 162
+  offset: 139, 52
+  index: -1
+xuehuamanyan_00014
+  rotate: true
+  xy: 907, 482
+  size: 99, 115
+  orig: 274, 162
+  offset: 134, 46
+  index: -1
+
+effects_25301_skille2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ggg
+  rotate: false
+  xy: 846, 633
+  size: 176, 176
+  orig: 207, 207
+  offset: 14, 16
+  index: -1
+skille_juqi_18
+  rotate: false
+  xy: 609, 597
+  size: 235, 212
+  orig: 392, 244
+  offset: 124, 0
+  index: -1
+skille_juqi_19
+  rotate: false
+  xy: 720, 811
+  size: 252, 211
+  orig: 392, 244
+  offset: 122, 0
+  index: -1
+skille_juqi_21
+  rotate: true
+  xy: 229, 238
+  size: 239, 205
+  orig: 392, 244
+  offset: 130, 0
+  index: -1
+skille_juqi_22
+  rotate: true
+  xy: 436, 238
+  size: 239, 205
+  orig: 392, 244
+  offset: 130, 0
+  index: -1
+skille_juqi_23
+  rotate: true
+  xy: 643, 363
+  size: 232, 202
+  orig: 392, 244
+  offset: 134, 0
+  index: -1
+skille_juqi_29
+  rotate: true
+  xy: 2, 18
+  size: 213, 236
+  orig: 392, 244
+  offset: 125, 3
+  index: -1
+skille_juqi_3
+  rotate: true
+  xy: 847, 401
+  size: 230, 174
+  orig: 392, 244
+  offset: 126, 18
+  index: -1
+skille_juqi_30
+  rotate: false
+  xy: 361, 597
+  size: 246, 244
+  orig: 392, 244
+  offset: 98, 0
+  index: -1
+skille_juqi_31
+  rotate: false
+  xy: 2, 233
+  size: 225, 244
+  orig: 392, 244
+  offset: 105, 0
+  index: -1
+skille_juqi_35
+  rotate: false
+  xy: 604, 13
+  size: 239, 165
+  orig: 392, 244
+  offset: 90, 50
+  index: -1
+skille_juqi_37
+  rotate: true
+  xy: 882, 181
+  size: 218, 126
+  orig: 392, 244
+  offset: 111, 50
+  index: -1
+skille_juqi_4
+  rotate: true
+  xy: 240, 2
+  size: 234, 180
+  orig: 392, 244
+  offset: 122, 18
+  index: -1
+skille_juqi_5
+  rotate: true
+  xy: 422, 2
+  size: 234, 180
+  orig: 392, 244
+  offset: 122, 18
+  index: -1
+skille_juqi_6
+  rotate: false
+  xy: 643, 180
+  size: 237, 181
+  orig: 392, 244
+  offset: 122, 17
+  index: -1
+skille_qiu_12
+  rotate: false
+  xy: 2, 479
+  size: 357, 179
+  orig: 377, 226
+  offset: 0, 4
+  index: -1
+skille_qiu_13
+  rotate: false
+  xy: 2, 842
+  size: 357, 180
+  orig: 377, 226
+  offset: 0, 4
+  index: -1
+skille_qiu_14
+  rotate: false
+  xy: 2, 660
+  size: 357, 180
+  orig: 377, 226
+  offset: 0, 3
+  index: -1
+skille_qiu_8
+  rotate: false
+  xy: 361, 843
+  size: 357, 179
+  orig: 377, 226
+  offset: 0, 5
+  index: -1
+xuehuamanyan_00000
+  rotate: true
+  xy: 974, 864
+  size: 158, 46
+  orig: 274, 162
+  offset: 50, 38
+  index: -1
+xuehuamanyan_00006
+  rotate: false
+  xy: 361, 479
+  size: 181, 116
+  orig: 274, 162
+  offset: 70, 34
+  index: -1
+xuehuamanyan_00007
+  rotate: true
+  xy: 845, 15
+  size: 163, 120
+  orig: 274, 162
+  offset: 89, 31
+  index: -1
+xuehuamanyan_00012
+  rotate: false
+  xy: 544, 488
+  size: 93, 107
+  orig: 274, 162
+  offset: 136, 53
+  index: -1
+
+effects_25301_skille3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skille_juqi_1
+  rotate: false
+  xy: 2, 2
+  size: 136, 142
+  orig: 392, 244
+  offset: 158, 26
+  index: -1
+skille_juqi_10
+  rotate: false
+  xy: 474, 843
+  size: 236, 179
+  orig: 392, 244
+  offset: 122, 18
+  index: -1
+skille_juqi_11
+  rotate: false
+  xy: 712, 843
+  size: 235, 179
+  orig: 392, 244
+  offset: 123, 18
+  index: -1
+skille_juqi_12
+  rotate: true
+  xy: 184, 382
+  size: 236, 178
+  orig: 392, 244
+  offset: 122, 18
+  index: -1
+skille_juqi_13
+  rotate: true
+  xy: 183, 147
+  size: 233, 179
+  orig: 392, 244
+  offset: 123, 19
+  index: -1
+skille_juqi_14
+  rotate: true
+  xy: 397, 607
+  size: 232, 180
+  orig: 392, 244
+  offset: 124, 18
+  index: -1
+skille_juqi_15
+  rotate: true
+  xy: 364, 374
+  size: 231, 180
+  orig: 392, 244
+  offset: 125, 18
+  index: -1
+skille_juqi_16
+  rotate: false
+  xy: 579, 655
+  size: 228, 186
+  orig: 392, 244
+  offset: 126, 10
+  index: -1
+skille_juqi_17
+  rotate: false
+  xy: 2, 620
+  size: 225, 196
+  orig: 392, 244
+  offset: 129, 0
+  index: -1
+skille_juqi_2
+  rotate: true
+  xy: 229, 620
+  size: 196, 166
+  orig: 392, 244
+  offset: 126, 26
+  index: -1
+skille_juqi_24
+  rotate: false
+  xy: 2, 818
+  size: 232, 204
+  orig: 392, 244
+  offset: 134, 0
+  index: -1
+skille_juqi_25
+  rotate: true
+  xy: 809, 476
+  size: 158, 182
+  orig: 392, 244
+  offset: 172, 18
+  index: -1
+skille_juqi_26
+  rotate: false
+  xy: 733, 159
+  size: 155, 161
+  orig: 392, 244
+  offset: 174, 22
+  index: -1
+skille_juqi_27
+  rotate: true
+  xy: 549, 152
+  size: 168, 182
+  orig: 392, 244
+  offset: 178, 26
+  index: -1
+skille_juqi_28
+  rotate: false
+  xy: 809, 636
+  size: 192, 205
+  orig: 392, 244
+  offset: 150, 18
+  index: -1
+skille_juqi_32
+  rotate: true
+  xy: 364, 148
+  size: 224, 183
+  orig: 392, 244
+  offset: 105, 31
+  index: -1
+skille_juqi_33
+  rotate: false
+  xy: 549, 322
+  size: 225, 165
+  orig: 392, 244
+  offset: 104, 50
+  index: -1
+skille_juqi_34
+  rotate: false
+  xy: 579, 489
+  size: 228, 164
+  orig: 392, 244
+  offset: 101, 50
+  index: -1
+skille_juqi_38
+  rotate: false
+  xy: 776, 350
+  size: 201, 124
+  orig: 392, 244
+  offset: 128, 40
+  index: -1
+skille_juqi_7
+  rotate: false
+  xy: 236, 841
+  size: 236, 181
+  orig: 392, 244
+  offset: 123, 17
+  index: -1
+skille_juqi_8
+  rotate: true
+  xy: 2, 383
+  size: 235, 180
+  orig: 392, 244
+  offset: 123, 18
+  index: -1
+skille_juqi_9
+  rotate: true
+  xy: 2, 146
+  size: 235, 179
+  orig: 392, 244
+  offset: 123, 18
+  index: -1
+xuehuamanyan_00008
+  rotate: true
+  xy: 890, 189
+  size: 159, 119
+  orig: 274, 162
+  offset: 89, 34
+  index: -1
+xuehuamanyan_00009
+  rotate: true
+  xy: 140, 11
+  size: 133, 122
+  orig: 274, 162
+  offset: 119, 30
+  index: -1
+xuehuamanyan_00010
+  rotate: false
+  xy: 264, 26
+  size: 119, 119
+  orig: 274, 162
+  offset: 137, 37
+  index: -1
+xuehuamanyan_00015
+  rotate: false
+  xy: 949, 947
+  size: 68, 75
+  orig: 274, 162
+  offset: 125, 66
+  index: -1

@@ -1,0 +1,89 @@
+
+effect_ui22.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+kuang_00012
+  rotate: false
+  xy: 501, 710
+  size: 502, 295
+  orig: 520, 400
+  offset: 4, 53
+  index: -1
+lizi_00011
+  rotate: false
+  xy: 2, 60
+  size: 55, 34
+  orig: 100, 100
+  offset: 29, 36
+  index: -1
+xulie/chuxian_00000
+  rotate: false
+  xy: 501, 417
+  size: 504, 291
+  orig: 520, 400
+  offset: 4, 54
+  index: -1
+xulie/chuxian_00007
+  rotate: false
+  xy: 502, 120
+  size: 498, 295
+  orig: 520, 400
+  offset: 3, 53
+  index: -1
+xulie/chuxian_00009
+  rotate: false
+  xy: 2, 96
+  size: 498, 298
+  orig: 520, 400
+  offset: 2, 51
+  index: -1
+xulie/chuxian_00011
+  rotate: false
+  xy: 2, 396
+  size: 496, 302
+  orig: 520, 400
+  offset: 1, 49
+  index: -1
+xulie/chuxian_00013
+  rotate: false
+  xy: 2, 700
+  size: 497, 305
+  orig: 520, 400
+  offset: 0, 47
+  index: -1
+
+effect_ui222.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xulie/chuxian_00001
+  rotate: false
+  xy: 2, 425
+  size: 505, 289
+  orig: 520, 400
+  offset: 3, 55
+  index: -1
+xulie/chuxian_00002
+  rotate: false
+  xy: 2, 716
+  size: 506, 289
+  orig: 520, 400
+  offset: 3, 55
+  index: -1
+xulie/chuxian_00003
+  rotate: false
+  xy: 510, 716
+  size: 495, 289
+  orig: 520, 400
+  offset: 6, 56
+  index: -1
+xulie/chuxian_00005
+  rotate: false
+  xy: 2, 131
+  size: 496, 292
+  orig: 520, 400
+  offset: 5, 55
+  index: -1

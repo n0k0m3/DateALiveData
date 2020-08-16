@@ -1,0 +1,104 @@
+
+fight_24101.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+DIerL01
+  rotate: true
+  xy: 228, 396
+  size: 105, 243
+  orig: 105, 243
+  offset: 0, 0
+  index: -1
+DIerR01
+  rotate: false
+  xy: 2, 67
+  size: 129, 225
+  orig: 129, 225
+  offset: 0, 0
+  index: -1
+DIhoujiaoL01
+  rotate: false
+  xy: 133, 81
+  size: 57, 86
+  orig: 57, 86
+  offset: 0, 0
+  index: -1
+DIhoujiaoR01
+  rotate: false
+  xy: 432, 318
+  size: 46, 76
+  orig: 46, 76
+  offset: 0, 0
+  index: -1
+DIhoutuiL01
+  rotate: false
+  xy: 267, 144
+  size: 40, 46
+  orig: 40, 46
+  offset: 0, 0
+  index: -1
+DIqiantuiR01
+  rotate: true
+  xy: 212, 139
+  size: 51, 53
+  orig: 51, 53
+  offset: 0, 0
+  index: -1
+DIshen
+  rotate: false
+  xy: 2, 294
+  size: 224, 207
+  orig: 224, 207
+  offset: 0, 0
+  index: -1
+DIyan01
+  rotate: false
+  xy: 473, 460
+  size: 28, 41
+  orig: 28, 41
+  offset: 0, 0
+  index: -1
+DIzhua01
+  rotate: true
+  xy: 2, 9
+  size: 56, 111
+  orig: 56, 111
+  offset: 0, 0
+  index: -1
+DIzhua03
+  rotate: false
+  xy: 133, 169
+  size: 77, 123
+  orig: 77, 123
+  offset: 0, 0
+  index: -1
+effect/skillB/weibapen/weibapen_00000
+  rotate: false
+  xy: 228, 294
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+effect/skillB/weibapen/weibapen_00001
+  rotate: false
+  xy: 212, 192
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+effect/skillB/weibapen/weibapen_00002
+  rotate: false
+  xy: 330, 294
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+effect/skillB/weibapen/weibapen_00003
+  rotate: false
+  xy: 314, 192
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1

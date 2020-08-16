@@ -1,0 +1,635 @@
+
+effects_10501_PskillA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/PskillA/baozhaa/baozhaa_00058
+  rotate: false
+  xy: 174, 2
+  size: 164, 168
+  orig: 181, 177
+  offset: 1, 7
+  index: -1
+effect/PskillA/baozhaa/baozhaa_00060
+  rotate: true
+  xy: 787, 487
+  size: 177, 165
+  orig: 181, 177
+  offset: 2, 3
+  index: -1
+effect/PskillA/baozhaa/baozhaa_00062
+  rotate: true
+  xy: 607, 8
+  size: 176, 162
+  orig: 181, 177
+  offset: 5, 2
+  index: -1
+effect/PskillA/baozhabaodian/baozhabaodian_00054
+  rotate: false
+  xy: 866, 77
+  size: 156, 85
+  orig: 166, 104
+  offset: 7, 12
+  index: -1
+effect/PskillA/baozhahuo/baozhahuo_00054
+  rotate: true
+  xy: 954, 490
+  size: 102, 64
+  orig: 117, 76
+  offset: 5, 1
+  index: -1
+effect/PskillA/baozhahuo/baozhahuo_00062
+  rotate: false
+  xy: 866, 2
+  size: 76, 73
+  orig: 117, 76
+  offset: 32, 0
+  index: -1
+effect/PskillA/baozhan/baozhan_00054
+  rotate: false
+  xy: 340, 2
+  size: 162, 168
+  orig: 187, 177
+  offset: 14, 9
+  index: -1
+effect/PskillA/baozhan/baozhan_00056
+  rotate: true
+  xy: 2, 2
+  size: 179, 170
+  orig: 187, 177
+  offset: 1, 5
+  index: -1
+effect/PskillA/baozhan/baozhan_00058
+  rotate: false
+  xy: 598, 493
+  size: 187, 171
+  orig: 187, 177
+  offset: 0, 4
+  index: -1
+effect/PskillA/baozhan/baozhan_00060
+  rotate: true
+  xy: 376, 346
+  size: 187, 169
+  orig: 187, 177
+  offset: 0, 3
+  index: -1
+effect/PskillA/baozhan/baozhan_00062
+  rotate: true
+  xy: 177, 660
+  size: 182, 167
+  orig: 187, 177
+  offset: 0, 1
+  index: -1
+effect/PskillA/baozhan/baozhan_00064
+  rotate: true
+  xy: 557, 186
+  size: 180, 166
+  orig: 187, 177
+  offset: 4, 1
+  index: -1
+effect/PskillA/baozhan/baozhan_00066
+  rotate: false
+  xy: 726, 315
+  size: 176, 170
+  orig: 187, 177
+  offset: 8, 1
+  index: -1
+effect/PskillA/baozhan/baozhan_00068
+  rotate: false
+  xy: 381, 172
+  size: 174, 172
+  orig: 187, 177
+  offset: 9, 0
+  index: -1
+effect/PskillA/guangmang_00051
+  rotate: false
+  xy: 954, 660
+  size: 68, 180
+  orig: 72, 180
+  offset: 1, 0
+  index: -1
+effect/PskillA/hit/shoujiyann/PskillA_00018
+  rotate: false
+  xy: 944, 8
+  size: 78, 67
+  orig: 127, 122
+  offset: 23, 30
+  index: -1
+effect/PskillA/hit/shoujiyann/PskillA_00022
+  rotate: false
+  xy: 904, 371
+  size: 118, 114
+  orig: 127, 122
+  offset: 4, 6
+  index: -1
+effect/PskillA/hit/shoujiyann/PskillA_00026
+  rotate: false
+  xy: 904, 262
+  size: 118, 107
+  orig: 127, 122
+  offset: 6, 12
+  index: -1
+effect/PskillA/huoqiu/huiqiua_00004
+  rotate: false
+  xy: 866, 164
+  size: 156, 96
+  orig: 175, 125
+  offset: 19, 14
+  index: -1
+effect/PskillA/huoqiu/huiqiua_00008
+  rotate: true
+  xy: 771, 9
+  size: 175, 93
+  orig: 175, 125
+  offset: 0, 15
+  index: -1
+effect/PskillA/huoqiu/huoqiun_00001
+  rotate: false
+  xy: 680, 842
+  size: 320, 180
+  orig: 350, 250
+  offset: 28, 33
+  index: -1
+effect/PskillA/huoqiu/huoqiun_00003
+  rotate: false
+  xy: 346, 843
+  size: 332, 179
+  orig: 350, 250
+  offset: 18, 33
+  index: -1
+effect/PskillA/huoqiu/huoqiun_00005
+  rotate: false
+  xy: 346, 667
+  size: 310, 174
+  orig: 350, 250
+  offset: 40, 38
+  index: -1
+effect/PskillA/huoqiu/huoqiun_00007
+  rotate: true
+  xy: 2, 499
+  size: 343, 173
+  orig: 350, 250
+  offset: 7, 38
+  index: -1
+effect/PskillA/huoqiu/huoqiun_00009
+  rotate: false
+  xy: 658, 666
+  size: 272, 174
+  orig: 350, 250
+  offset: 78, 37
+  index: -1
+effect/PskillA/huoqiu/huoqiun_00011
+  rotate: true
+  xy: 2, 183
+  size: 314, 175
+  orig: 350, 250
+  offset: 36, 36
+  index: -1
+effect/PskillA/huoqiu/huoqiun_00013
+  rotate: false
+  xy: 2, 844
+  size: 342, 178
+  orig: 350, 250
+  offset: 8, 34
+  index: -1
+effect/PskillA/qiangji/qiangji_00012
+  rotate: false
+  xy: 725, 186
+  size: 138, 127
+  orig: 174, 143
+  offset: 14, 8
+  index: -1
+effect/PskillA/qkbaodian/qkbaodian_00049
+  rotate: false
+  xy: 504, 2
+  size: 101, 168
+  orig: 108, 173
+  offset: 5, 2
+  index: -1
+effect/PskillA/shoujihuo/shoujihuo1_00017
+  rotate: true
+  xy: 179, 291
+  size: 242, 195
+  orig: 252, 199
+  offset: 4, 0
+  index: -1
+effect/PskillA/shoujihuo/shoujihuo1_00019
+  rotate: false
+  xy: 179, 172
+  size: 200, 117
+  orig: 218, 123
+  offset: 6, 0
+  index: -1
+effect/PskillA/shoujihuo/shoujihuo1_00021
+  rotate: false
+  xy: 177, 535
+  size: 218, 123
+  orig: 218, 123
+  offset: 0, 0
+  index: -1
+effect/PskillA/shoujihuo/shoujihuo1_00023
+  rotate: false
+  xy: 397, 542
+  size: 199, 123
+  orig: 218, 123
+  offset: 9, 0
+  index: -1
+effect/PskillA/shoujihuo/shoujihuo1_00025
+  rotate: false
+  xy: 547, 368
+  size: 177, 123
+  orig: 218, 123
+  offset: 9, 0
+  index: -1
+effect/PskillA/yanwu1/yanwu1_00018
+  rotate: false
+  xy: 865, 280
+  size: 29, 33
+  orig: 111, 65
+  offset: 4, 32
+  index: -1
+effect/glow
+  rotate: true
+  xy: 954, 594
+  size: 64, 68
+  orig: 80, 80
+  offset: 8, 5
+  index: -1
+
+effects_10501_PskillA2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/PskillA/baozhaa/baozhaa_00056
+  rotate: true
+  xy: 296, 850
+  size: 74, 161
+  orig: 181, 177
+  offset: 80, 16
+  index: -1
+effect/PskillA/baozhaa/baozhaa_00064
+  rotate: false
+  xy: 99, 225
+  size: 25, 157
+  orig: 181, 177
+  offset: 35, 13
+  index: -1
+effect/PskillA/baozhabaodian/baozhabaodian_00052
+  rotate: true
+  xy: 216, 280
+  size: 140, 100
+  orig: 166, 104
+  offset: 8, 0
+  index: -1
+effect/PskillA/baozhabaodian/baozhabaodian_00053
+  rotate: true
+  xy: 2, 59
+  size: 155, 94
+  orig: 166, 104
+  offset: 8, 5
+  index: -1
+effect/PskillA/baozhabaodian/baozhabaodian_00055
+  rotate: true
+  xy: 101, 569
+  size: 159, 73
+  orig: 166, 104
+  offset: 7, 23
+  index: -1
+effect/PskillA/baozhahuo/baozhahuo_00052
+  rotate: true
+  xy: 611, 539
+  size: 83, 49
+  orig: 117, 76
+  offset: 0, 9
+  index: -1
+effect/PskillA/baozhahuo/baozhahuo_00056
+  rotate: true
+  xy: 552, 322
+  size: 106, 74
+  orig: 117, 76
+  offset: 11, 0
+  index: -1
+effect/PskillA/baozhahuo/baozhahuo_00058
+  rotate: false
+  xy: 126, 187
+  size: 95, 76
+  orig: 117, 76
+  offset: 22, 0
+  index: -1
+effect/PskillA/baozhahuo/baozhahuo_00060
+  rotate: false
+  xy: 98, 109
+  size: 80, 76
+  orig: 117, 76
+  offset: 32, 0
+  index: -1
+effect/PskillA/baozhahuo/baozhahuo_00064
+  rotate: true
+  xy: 958, 970
+  size: 52, 64
+  orig: 117, 76
+  offset: 59, 8
+  index: -1
+effect/PskillA/baozhan/baozhan_00052
+  rotate: true
+  xy: 2, 730
+  size: 151, 128
+  orig: 187, 177
+  offset: 19, 21
+  index: -1
+effect/PskillA/hit/baokaihuon/baokaihuon_00019
+  rotate: false
+  xy: 424, 426
+  size: 109, 104
+  orig: 110, 104
+  offset: 1, 0
+  index: -1
+effect/PskillA/hit/baokaihuon/baokaihuon_00021
+  rotate: false
+  xy: 670, 608
+  size: 110, 98
+  orig: 110, 104
+  offset: 0, 6
+  index: -1
+effect/PskillA/hit/baokaihuon/baokaihuon_00023
+  rotate: false
+  xy: 581, 743
+  size: 110, 91
+  orig: 110, 104
+  offset: 0, 13
+  index: -1
+effect/PskillA/hit/baokaihuon/baokaihuon_00025
+  rotate: false
+  xy: 176, 571
+  size: 100, 81
+  orig: 110, 104
+  offset: 8, 23
+  index: -1
+effect/PskillA/hit/shoujiyana/shoujiyana_00018
+  rotate: true
+  xy: 929, 840
+  size: 81, 75
+  orig: 127, 122
+  offset: 20, 21
+  index: -1
+effect/PskillA/hit/shoujiyana/shoujiyana_00020
+  rotate: false
+  xy: 693, 808
+  size: 115, 113
+  orig: 127, 122
+  offset: 2, 3
+  index: -1
+effect/PskillA/hit/shoujiyana/shoujiyana_00022
+  rotate: false
+  xy: 299, 532
+  size: 120, 122
+  orig: 127, 122
+  offset: 0, 0
+  index: -1
+effect/PskillA/hit/shoujiyana/shoujiyana_00024
+  rotate: true
+  xy: 432, 621
+  size: 120, 122
+  orig: 127, 122
+  offset: 4, 0
+  index: -1
+effect/PskillA/hit/shoujiyana/shoujiyana_00026
+  rotate: true
+  xy: 434, 302
+  size: 122, 116
+  orig: 127, 122
+  offset: 5, 0
+  index: -1
+effect/PskillA/hit/shoujiyana/shoujiyana_00028
+  rotate: true
+  xy: 318, 300
+  size: 123, 114
+  orig: 127, 122
+  offset: 4, 2
+  index: -1
+effect/PskillA/hit/shoujiyana/shoujiyana_00030
+  rotate: false
+  xy: 299, 425
+  size: 123, 105
+  orig: 127, 122
+  offset: 4, 6
+  index: -1
+effect/PskillA/hit/shoujiyann/PskillA_00020
+  rotate: false
+  xy: 693, 708
+  size: 111, 98
+  orig: 127, 122
+  offset: 7, 15
+  index: -1
+effect/PskillA/hit/shoujiyann/PskillA_00024
+  rotate: true
+  xy: 556, 624
+  size: 117, 112
+  orig: 127, 122
+  offset: 5, 6
+  index: -1
+effect/PskillA/hit/shoujiyann/PskillA_00028
+  rotate: false
+  xy: 810, 822
+  size: 117, 99
+  orig: 127, 122
+  offset: 8, 12
+  index: -1
+effect/PskillA/huoqiu/huiqiua_00000
+  rotate: false
+  xy: 296, 751
+  size: 153, 97
+  orig: 175, 125
+  offset: 22, 12
+  index: -1
+effect/PskillA/huoqiu/huiqiua_00002
+  rotate: false
+  xy: 296, 926
+  size: 170, 96
+  orig: 175, 125
+  offset: 5, 13
+  index: -1
+effect/PskillA/huoqiu/huiqiua_00006
+  rotate: true
+  xy: 2, 216
+  size: 166, 95
+  orig: 175, 125
+  offset: 9, 15
+  index: -1
+effect/PskillA/huoqiu/huiqiua_00010
+  rotate: true
+  xy: 202, 422
+  size: 147, 95
+  orig: 175, 125
+  offset: 28, 15
+  index: -1
+effect/PskillA/huoqiu/huiqiua_00012
+  rotate: false
+  xy: 468, 927
+  size: 167, 95
+  orig: 175, 125
+  offset: 8, 14
+  index: -1
+effect/PskillA/huoqiu/huiqiua_00014
+  rotate: true
+  xy: 2, 553
+  size: 175, 97
+  orig: 175, 125
+  offset: 0, 13
+  index: -1
+effect/PskillA/qiangji/qiangji_00011
+  rotate: false
+  xy: 451, 743
+  size: 128, 91
+  orig: 174, 143
+  offset: 0, 25
+  index: -1
+effect/PskillA/qiangji/qiangji_00013
+  rotate: false
+  xy: 151, 887
+  size: 143, 135
+  orig: 174, 143
+  offset: 22, 4
+  index: -1
+effect/PskillA/qiangji/qiangji_00014
+  rotate: false
+  xy: 2, 883
+  size: 147, 139
+  orig: 174, 143
+  offset: 27, 2
+  index: -1
+effect/PskillA/qiangji/qiangji_00015
+  rotate: true
+  xy: 459, 836
+  size: 41, 142
+  orig: 174, 143
+  offset: 29, 1
+  index: -1
+effect/PskillA/qkbaodian/qkbaodian_00046
+  rotate: false
+  xy: 102, 413
+  size: 98, 154
+  orig: 108, 173
+  offset: 2, 8
+  index: -1
+effect/PskillA/qkbaodian/qkbaodian_00047
+  rotate: true
+  xy: 637, 923
+  size: 99, 159
+  orig: 108, 173
+  offset: 2, 6
+  index: -1
+effect/PskillA/qkbaodian/qkbaodian_00048
+  rotate: false
+  xy: 2, 384
+  size: 98, 167
+  orig: 108, 173
+  offset: 5, 3
+  index: -1
+effect/PskillA/qkguanga_00011
+  rotate: true
+  xy: 176, 654
+  size: 144, 102
+  orig: 153, 112
+  offset: 7, 4
+  index: -1
+effect/PskillA/qkquana_00048
+  rotate: true
+  xy: 280, 656
+  size: 93, 150
+  orig: 101, 150
+  offset: 3, 0
+  index: -1
+effect/PskillA/qkquann_00048
+  rotate: true
+  xy: 151, 800
+  size: 85, 143
+  orig: 101, 150
+  offset: 7, 4
+  index: -1
+effect/PskillA/shoujihuo/shoujihuo1_00027
+  rotate: false
+  xy: 798, 923
+  size: 158, 99
+  orig: 218, 123
+  offset: 17, 5
+  index: -1
+effect/PskillA/shoujihuo/shoujihuo1_00029
+  rotate: true
+  xy: 126, 265
+  size: 146, 88
+  orig: 218, 123
+  offset: 21, 8
+  index: -1
+effect/PskillA/shoujihuo/shoujihuo1_00031
+  rotate: false
+  xy: 468, 879
+  size: 144, 46
+  orig: 218, 123
+  offset: 22, 44
+  index: -1
+effect/PskillA/yanwu1/yanwu1_00011
+  rotate: false
+  xy: 662, 546
+  size: 106, 60
+  orig: 111, 65
+  offset: 4, 0
+  index: -1
+effect/PskillA/yanwu1/yanwu1_00013
+  rotate: false
+  xy: 320, 235
+  size: 102, 63
+  orig: 111, 65
+  offset: 0, 2
+  index: -1
+effect/PskillA/yanwu1/yanwu1_00015
+  rotate: false
+  xy: 320, 175
+  size: 99, 58
+  orig: 111, 65
+  offset: 0, 7
+  index: -1
+effect/PskillA/yanwu1/yanwu1_00017
+  rotate: false
+  xy: 2, 3
+  size: 96, 54
+  orig: 111, 65
+  offset: 0, 11
+  index: -1
+effect/PskillA/yanwu2/yanwu2_00047
+  rotate: true
+  xy: 603, 836
+  size: 41, 57
+  orig: 108, 110
+  offset: 66, 0
+  index: -1
+effect/PskillA/yanwu2/yanwu2_00049
+  rotate: false
+  xy: 535, 430
+  size: 94, 100
+  orig: 108, 110
+  offset: 8, 1
+  index: -1
+effect/PskillA/yanwu2/yanwu2_00051
+  rotate: false
+  xy: 223, 180
+  size: 95, 98
+  orig: 108, 110
+  offset: 5, 11
+  index: -1
+effect/PskillA/yanwu2/yanwu2_00053
+  rotate: false
+  xy: 421, 532
+  size: 98, 87
+  orig: 108, 110
+  offset: 0, 22
+  index: -1
+effect/PskillA/yanwu2/yanwu2_00055
+  rotate: false
+  xy: 521, 532
+  size: 88, 87
+  orig: 108, 110
+  offset: 1, 23
+  index: -1

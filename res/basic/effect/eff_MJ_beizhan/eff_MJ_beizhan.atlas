@@ -1,0 +1,55 @@
+
+eff_MJ_beizhan.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fazhen
+  rotate: true
+  xy: 271, 388
+  size: 273, 40
+  orig: 273, 40
+  offset: 0, 0
+  index: -1
+guangyun
+  rotate: false
+  xy: 2, 375
+  size: 267, 286
+  orig: 267, 286
+  offset: 0, 0
+  index: -1
+guangzhu1
+  rotate: false
+  xy: 2, 115
+  size: 195, 258
+  orig: 195, 258
+  offset: 0, 0
+  index: -1
+guangzhu2
+  rotate: false
+  xy: 332, 667
+  size: 266, 258
+  orig: 266, 258
+  offset: 0, 0
+  index: -1
+guangzhu3
+  rotate: false
+  xy: 2, 663
+  size: 328, 262
+  orig: 328, 262
+  offset: 0, 0
+  index: -1
+lizi
+  rotate: false
+  xy: 2, 90
+  size: 9, 23
+  orig: 9, 23
+  offset: 0, 0
+  index: -1
+waihuan
+  rotate: false
+  xy: 600, 859
+  size: 325, 66
+  orig: 325, 66
+  offset: 0, 0
+  index: -1

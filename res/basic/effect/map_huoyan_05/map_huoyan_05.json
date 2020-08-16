@@ -1,0 +1,202 @@
+{
+"skeleton": {
+	"hash": "7Nhp2MeiDidbkZmUQd9DepR/yFw",
+	"spine": "2.1.27",
+	"width": 0,
+	"height": 0,
+	"images": "C:/Users/Administrator/Desktop/尺寸需要修改的特效/map_huoyan_05"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "huoyan2", "parent": "bone" },
+	{ "name": "huoyan3", "parent": "bone" }
+],
+"slots": [
+	{ "name": "huoyan2", "bone": "huoyan2" },
+	{ "name": "huoyan3", "bone": "huoyan3" }
+],
+"skins": {
+	"default": {
+		"huoyan2": {
+			"sucai/huoyan2/10000": { "width": 46, "height": 139 },
+			"sucai/huoyan2/10002": { "width": 44, "height": 137 },
+			"sucai/huoyan2/10004": { "width": 43, "height": 139 },
+			"sucai/huoyan2/10006": { "width": 43, "height": 141 },
+			"sucai/huoyan2/10008": { "width": 49, "height": 140 },
+			"sucai/huoyan2/10010": { "width": 49, "height": 142 },
+			"sucai/huoyan2/10012": { "width": 48, "height": 141 },
+			"sucai/huoyan2/10014": { "width": 47, "height": 139 }
+		},
+		"huoyan3": {
+			"sucai/huoyan3/10000": { "width": 94, "height": 94 },
+			"sucai/huoyan3/10002": { "width": 94, "height": 94 },
+			"sucai/huoyan3/10004": { "width": 91, "height": 94 },
+			"sucai/huoyan3/10006": { "width": 92, "height": 93 },
+			"sucai/huoyan3/10008": { "width": 93, "height": 93 },
+			"sucai/huoyan3/10010": { "width": 88, "height": 93 },
+			"sucai/huoyan3/10012": { "width": 82, "height": 93 },
+			"sucai/huoyan3/10014": { "width": 78, "height": 93 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"huoyan2": {
+				"attachment": [
+					{ "time": 0, "name": "sucai/huoyan2/10000" },
+					{ "time": 0.1666, "name": "sucai/huoyan2/10002" },
+					{ "time": 0.3333, "name": "sucai/huoyan2/10004" },
+					{ "time": 0.5, "name": "sucai/huoyan2/10006" },
+					{ "time": 0.6666, "name": "sucai/huoyan2/10008" },
+					{ "time": 0.8333, "name": "sucai/huoyan2/10010" },
+					{ "time": 1, "name": "sucai/huoyan2/10012" },
+					{ "time": 1.1666, "name": "sucai/huoyan2/10014" },
+					{ "time": 1.3333, "name": "sucai/huoyan2/10000" },
+					{ "time": 1.5, "name": "sucai/huoyan2/10002" },
+					{ "time": 1.6666, "name": "sucai/huoyan2/10004" },
+					{ "time": 1.8333, "name": "sucai/huoyan2/10006" },
+					{ "time": 2, "name": "sucai/huoyan2/10008" },
+					{ "time": 2.1666, "name": "sucai/huoyan2/10010" },
+					{ "time": 2.3333, "name": "sucai/huoyan2/10012" },
+					{ "time": 2.5, "name": "sucai/huoyan2/10014" },
+					{ "time": 2.6666, "name": "sucai/huoyan2/10000" },
+					{ "time": 2.8333, "name": "sucai/huoyan2/10002" },
+					{ "time": 3, "name": "sucai/huoyan2/10004" },
+					{ "time": 3.1666, "name": "sucai/huoyan2/10006" },
+					{ "time": 3.3333, "name": "sucai/huoyan2/10008" },
+					{ "time": 3.5, "name": "sucai/huoyan2/10010" },
+					{ "time": 3.6666, "name": "sucai/huoyan2/10012" },
+					{ "time": 3.8333, "name": "sucai/huoyan2/10014" },
+					{ "time": 4, "name": "sucai/huoyan2/10000" },
+					{ "time": 4.1666, "name": "sucai/huoyan2/10002" },
+					{ "time": 4.3333, "name": "sucai/huoyan2/10004" },
+					{ "time": 4.5, "name": "sucai/huoyan2/10006" },
+					{ "time": 4.6666, "name": "sucai/huoyan2/10008" },
+					{ "time": 4.8333, "name": "sucai/huoyan2/10010" },
+					{ "time": 5, "name": "sucai/huoyan2/10012" },
+					{ "time": 5.1666, "name": "sucai/huoyan2/10014" },
+					{ "time": 5.3333, "name": "sucai/huoyan2/10000" },
+					{ "time": 5.5, "name": "sucai/huoyan2/10002" },
+					{ "time": 5.6666, "name": "sucai/huoyan2/10004" },
+					{ "time": 5.8333, "name": "sucai/huoyan2/10006" },
+					{ "time": 6, "name": "sucai/huoyan2/10008" },
+					{ "time": 6.1666, "name": "sucai/huoyan2/10010" },
+					{ "time": 6.3333, "name": "sucai/huoyan2/10012" },
+					{ "time": 6.5, "name": "sucai/huoyan2/10014" },
+					{ "time": 6.6666, "name": "sucai/huoyan2/10000" },
+					{ "time": 6.8333, "name": "sucai/huoyan2/10002" },
+					{ "time": 7, "name": "sucai/huoyan2/10004" },
+					{ "time": 7.1666, "name": "sucai/huoyan2/10006" },
+					{ "time": 7.3333, "name": "sucai/huoyan2/10008" },
+					{ "time": 7.5, "name": "sucai/huoyan2/10010" },
+					{ "time": 7.6666, "name": "sucai/huoyan2/10012" },
+					{ "time": 7.8333, "name": "sucai/huoyan2/10014" },
+					{ "time": 8, "name": "sucai/huoyan2/10000" },
+					{ "time": 8.1666, "name": "sucai/huoyan2/10002" },
+					{ "time": 8.3333, "name": "sucai/huoyan2/10004" },
+					{ "time": 8.5, "name": "sucai/huoyan2/10006" },
+					{ "time": 8.6666, "name": "sucai/huoyan2/10008" },
+					{ "time": 8.8333, "name": "sucai/huoyan2/10010" },
+					{ "time": 9, "name": "sucai/huoyan2/10012" },
+					{ "time": 9.1666, "name": "sucai/huoyan2/10014" },
+					{ "time": 9.3333, "name": "sucai/huoyan2/10000" },
+					{ "time": 9.5, "name": "sucai/huoyan2/10002" },
+					{ "time": 9.6666, "name": "sucai/huoyan2/10004" },
+					{ "time": 9.8333, "name": "sucai/huoyan2/10006" },
+					{ "time": 10, "name": "sucai/huoyan2/10008" },
+					{ "time": 10.1666, "name": "sucai/huoyan2/10010" },
+					{ "time": 10.3333, "name": "sucai/huoyan2/10012" },
+					{ "time": 10.5, "name": "sucai/huoyan2/10014" },
+					{ "time": 10.6666, "name": "sucai/huoyan2/10000" }
+				]
+			},
+			"huoyan3": {
+				"attachment": [
+					{ "time": 0, "name": "sucai/huoyan3/10000" },
+					{ "time": 0.1666, "name": "sucai/huoyan3/10002" },
+					{ "time": 0.3333, "name": "sucai/huoyan3/10004" },
+					{ "time": 0.5, "name": "sucai/huoyan3/10006" },
+					{ "time": 0.6666, "name": "sucai/huoyan3/10008" },
+					{ "time": 0.8333, "name": "sucai/huoyan3/10010" },
+					{ "time": 1, "name": "sucai/huoyan3/10012" },
+					{ "time": 1.1666, "name": "sucai/huoyan3/10014" },
+					{ "time": 1.3333, "name": "sucai/huoyan3/10000" },
+					{ "time": 1.5, "name": "sucai/huoyan3/10002" },
+					{ "time": 1.6666, "name": "sucai/huoyan3/10004" },
+					{ "time": 1.8333, "name": "sucai/huoyan3/10006" },
+					{ "time": 2, "name": "sucai/huoyan3/10008" },
+					{ "time": 2.1666, "name": "sucai/huoyan3/10010" },
+					{ "time": 2.3333, "name": "sucai/huoyan3/10012" },
+					{ "time": 2.5, "name": "sucai/huoyan3/10014" },
+					{ "time": 2.6666, "name": "sucai/huoyan3/10000" },
+					{ "time": 2.8333, "name": "sucai/huoyan3/10002" },
+					{ "time": 3, "name": "sucai/huoyan3/10004" },
+					{ "time": 3.1666, "name": "sucai/huoyan3/10006" },
+					{ "time": 3.3333, "name": "sucai/huoyan3/10008" },
+					{ "time": 3.5, "name": "sucai/huoyan3/10010" },
+					{ "time": 3.6666, "name": "sucai/huoyan3/10012" },
+					{ "time": 3.8333, "name": "sucai/huoyan3/10014" },
+					{ "time": 4, "name": "sucai/huoyan3/10000" },
+					{ "time": 4.1666, "name": "sucai/huoyan3/10002" },
+					{ "time": 4.3333, "name": "sucai/huoyan3/10004" },
+					{ "time": 4.5, "name": "sucai/huoyan3/10006" },
+					{ "time": 4.6666, "name": "sucai/huoyan3/10008" },
+					{ "time": 4.8333, "name": "sucai/huoyan3/10010" },
+					{ "time": 5, "name": "sucai/huoyan3/10012" },
+					{ "time": 5.1666, "name": "sucai/huoyan3/10014" },
+					{ "time": 5.3333, "name": "sucai/huoyan3/10000" },
+					{ "time": 5.5, "name": "sucai/huoyan3/10002" },
+					{ "time": 5.6666, "name": "sucai/huoyan3/10004" },
+					{ "time": 5.8333, "name": "sucai/huoyan3/10006" },
+					{ "time": 6, "name": "sucai/huoyan3/10008" },
+					{ "time": 6.1666, "name": "sucai/huoyan3/10010" },
+					{ "time": 6.3333, "name": "sucai/huoyan3/10012" },
+					{ "time": 6.5, "name": "sucai/huoyan3/10014" },
+					{ "time": 6.6666, "name": "sucai/huoyan3/10000" },
+					{ "time": 6.8333, "name": "sucai/huoyan3/10002" },
+					{ "time": 7, "name": "sucai/huoyan3/10004" },
+					{ "time": 7.1666, "name": "sucai/huoyan3/10006" },
+					{ "time": 7.3333, "name": "sucai/huoyan3/10008" },
+					{ "time": 7.5, "name": "sucai/huoyan3/10010" },
+					{ "time": 7.6666, "name": "sucai/huoyan3/10012" },
+					{ "time": 7.8333, "name": "sucai/huoyan3/10014" },
+					{ "time": 8, "name": "sucai/huoyan3/10000" },
+					{ "time": 8.1666, "name": "sucai/huoyan3/10002" },
+					{ "time": 8.3333, "name": "sucai/huoyan3/10004" },
+					{ "time": 8.5, "name": "sucai/huoyan3/10006" },
+					{ "time": 8.6666, "name": "sucai/huoyan3/10008" },
+					{ "time": 8.8333, "name": "sucai/huoyan3/10010" },
+					{ "time": 9, "name": "sucai/huoyan3/10012" },
+					{ "time": 9.1666, "name": "sucai/huoyan3/10014" },
+					{ "time": 9.3333, "name": "sucai/huoyan3/10000" },
+					{ "time": 9.5, "name": "sucai/huoyan3/10002" },
+					{ "time": 9.6666, "name": "sucai/huoyan3/10004" },
+					{ "time": 9.8333, "name": "sucai/huoyan3/10006" },
+					{ "time": 10, "name": "sucai/huoyan3/10008" },
+					{ "time": 10.1666, "name": "sucai/huoyan3/10010" },
+					{ "time": 10.3333, "name": "sucai/huoyan3/10012" },
+					{ "time": 10.5, "name": "sucai/huoyan3/10014" },
+					{ "time": 10.6666, "name": "sucai/huoyan3/10000" }
+				]
+			}
+		},
+		"bones": {
+			"huoyan2": {
+				"rotate": [
+					{ "time": 0, "angle": 4.02 }
+				],
+				"translate": [
+					{ "time": 0, "x": -363.27, "y": 18.41 }
+				]
+			},
+			"huoyan3": {
+				"translate": [
+					{ "time": 0, "x": -89.28, "y": -120.22 }
+				]
+			}
+		}
+	}
+}
+}

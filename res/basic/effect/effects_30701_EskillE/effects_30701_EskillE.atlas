@@ -1,0 +1,237 @@
+
+effects_30701_EskillE.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/eff/EskillD/add/lizi_00001
+  rotate: true
+  xy: 2, 253
+  size: 142, 116
+  orig: 155, 140
+  offset: 6, 5
+  index: -1
+images/eff/EskillD/add/lizi_00003
+  rotate: true
+  xy: 2, 109
+  size: 142, 117
+  orig: 155, 140
+  offset: 6, 9
+  index: -1
+images/eff/EskillD/add/lizi_00005
+  rotate: false
+  xy: 461, 748
+  size: 139, 117
+  orig: 155, 140
+  offset: 9, 13
+  index: -1
+images/eff/EskillD/add/lizi_00007
+  rotate: true
+  xy: 119, 435
+  size: 139, 114
+  orig: 155, 140
+  offset: 9, 19
+  index: -1
+images/eff/EskillD/add/lizi_00009
+  rotate: false
+  xy: 319, 753
+  size: 140, 112
+  orig: 155, 140
+  offset: 9, 24
+  index: -1
+images/eff/EskillD/add/lizi_00011
+  rotate: true
+  xy: 120, 295
+  size: 138, 108
+  orig: 155, 140
+  offset: 10, 27
+  index: -1
+images/eff/EskillD/add/xiaoshi2_00000
+  rotate: false
+  xy: 346, 656
+  size: 90, 95
+  orig: 195, 282
+  offset: 55, 21
+  index: -1
+images/eff/EskillD/add/xiaoshi2_00001
+  rotate: true
+  xy: 319, 867
+  size: 155, 229
+  orig: 195, 282
+  offset: 33, 1
+  index: -1
+images/eff/EskillD/add/xiaoshi2_00002
+  rotate: false
+  xy: 149, 805
+  size: 168, 217
+  orig: 195, 282
+  offset: 13, 36
+  index: -1
+images/eff/EskillD/add/xiaoshi2_00003
+  rotate: false
+  xy: 2, 779
+  size: 145, 243
+  orig: 195, 282
+  offset: 25, 24
+  index: -1
+images/eff/EskillD/add/xiaoshi2_00004
+  rotate: false
+  xy: 2, 576
+  size: 144, 201
+  orig: 195, 282
+  offset: 26, 69
+  index: -1
+images/eff/EskillD/add/xiaoshi2_00005
+  rotate: true
+  xy: 550, 899
+  size: 123, 193
+  orig: 195, 282
+  offset: 27, 81
+  index: -1
+images/eff/EskillD/add/xiaoshi2_00006
+  rotate: false
+  xy: 2, 397
+  size: 115, 177
+  orig: 195, 282
+  offset: 33, 99
+  index: -1
+images/eff/EskillD/add/xiaoshi_00000
+  rotate: true
+  xy: 211, 112
+  size: 50, 51
+  orig: 98, 141
+  offset: 25, 9
+  index: -1
+images/eff/EskillD/add/xiaoshi_00001
+  rotate: true
+  xy: 903, 937
+  size: 85, 119
+  orig: 98, 141
+  offset: 13, 0
+  index: -1
+images/eff/EskillD/add/xiaoshi_00002
+  rotate: false
+  xy: 802, 784
+  size: 93, 114
+  orig: 98, 141
+  offset: 2, 15
+  index: -1
+images/eff/EskillD/add/xiaoshi_00003
+  rotate: true
+  xy: 149, 725
+  size: 78, 126
+  orig: 98, 141
+  offset: 10, 10
+  index: -1
+images/eff/EskillD/add/xiaoshi_00004
+  rotate: false
+  xy: 83, 2
+  size: 78, 105
+  orig: 98, 141
+  offset: 10, 33
+  index: -1
+images/eff/EskillD/add/xiaoshi_00005
+  rotate: false
+  xy: 163, 10
+  size: 67, 100
+  orig: 98, 141
+  offset: 11, 40
+  index: -1
+images/eff/EskillD/add/xiaoshi_00006
+  rotate: true
+  xy: 438, 685
+  size: 61, 94
+  orig: 98, 141
+  offset: 13, 47
+  index: -1
+images/eff/EskillD/nor/lizi_00001
+  rotate: false
+  xy: 602, 762
+  size: 122, 135
+  orig: 155, 188
+  offset: 13, 2
+  index: -1
+images/eff/EskillD/nor/lizi_00003
+  rotate: true
+  xy: 745, 900
+  size: 122, 156
+  orig: 155, 188
+  offset: 13, 11
+  index: -1
+images/eff/EskillD/nor/lizi_00005
+  rotate: false
+  xy: 121, 164
+  size: 120, 129
+  orig: 155, 188
+  offset: 13, 24
+  index: -1
+images/eff/EskillD/nor/lizi_00007
+  rotate: false
+  xy: 148, 612
+  size: 120, 111
+  orig: 155, 188
+  offset: 14, 43
+  index: -1
+images/eff/EskillD/nor/lizi_00009
+  rotate: false
+  xy: 903, 842
+  size: 117, 93
+  orig: 155, 188
+  offset: 16, 52
+  index: -1
+images/eff/EskillD/nor/lizi_00011
+  rotate: false
+  xy: 602, 688
+  size: 109, 72
+  orig: 155, 188
+  offset: 22, 58
+  index: -1
+images/eff/EskillD/nor/xiaoshi_00000
+  rotate: false
+  xy: 277, 755
+  size: 40, 48
+  orig: 88, 133
+  offset: 29, 7
+  index: -1
+images/eff/EskillD/nor/xiaoshi_00001
+  rotate: true
+  xy: 897, 777
+  size: 63, 110
+  orig: 88, 133
+  offset: 21, 0
+  index: -1
+images/eff/EskillD/nor/xiaoshi_00002
+  rotate: false
+  xy: 2, 2
+  size: 79, 105
+  orig: 88, 133
+  offset: 4, 14
+  index: -1
+images/eff/EskillD/nor/xiaoshi_00003
+  rotate: false
+  xy: 726, 781
+  size: 74, 116
+  orig: 88, 133
+  offset: 9, 10
+  index: -1
+images/eff/EskillD/nor/xiaoshi_00004
+  rotate: false
+  xy: 270, 625
+  size: 74, 98
+  orig: 88, 133
+  offset: 9, 30
+  index: -1
+images/eff/EskillD/nor/xiaoshi_00005
+  rotate: false
+  xy: 534, 652
+  size: 61, 94
+  orig: 88, 133
+  offset: 10, 36
+  index: -1
+images/eff/EskillD/nor/xiaoshi_00006
+  rotate: true
+  xy: 121, 112
+  size: 50, 88
+  orig: 88, 133
+  offset: 21, 44
+  index: -1

@@ -1,0 +1,201 @@
+
+effects_24201_skillA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dj_skillA/1ggg_00011
+  rotate: true
+  xy: 425, 420
+  size: 97, 100
+  orig: 150, 150
+  offset: 28, 25
+  index: -1
+dj_skillA/1q_00011
+  rotate: true
+  xy: 129, 232
+  size: 128, 170
+  orig: 163, 210
+  offset: 24, 25
+  index: -1
+dj_skillA/1q_00011_00013
+  rotate: false
+  xy: 547, 540
+  size: 257, 257
+  orig: 300, 300
+  offset: 19, 22
+  index: -1
+dj_skillA/Abddd_00012
+  rotate: false
+  xy: 2, 431
+  size: 73, 73
+  orig: 250, 250
+  offset: 87, 90
+  index: -1
+dj_skillA/Abddd_00014
+  rotate: false
+  xy: 806, 457
+  size: 191, 183
+  orig: 250, 250
+  offset: 32, 29
+  index: -1
+dj_skillA/Abddd_00016
+  rotate: true
+  xy: 781, 57
+  size: 173, 171
+  orig: 250, 250
+  offset: 38, 41
+  index: -1
+dj_skillA/feix_00012
+  rotate: true
+  xy: 494, 228
+  size: 190, 34
+  orig: 200, 50
+  offset: 5, 10
+  index: -1
+dj_skillA/ppp_00011
+  rotate: false
+  xy: 275, 765
+  size: 270, 255
+  orig: 350, 350
+  offset: 42, 54
+  index: -1
+dj_skillA/ppp_00013
+  rotate: false
+  xy: 2, 755
+  size: 271, 265
+  orig: 350, 350
+  offset: 43, 44
+  index: -1
+dj_skillA/ppp_00015
+  rotate: true
+  xy: 275, 519
+  size: 244, 256
+  orig: 350, 350
+  offset: 60, 50
+  index: -1
+dj_skillA/ppp_00017
+  rotate: false
+  xy: 192, 12
+  size: 231, 218
+  orig: 350, 350
+  offset: 46, 69
+  index: -1
+dj_skillA/shifa1_00004
+  rotate: true
+  xy: 301, 233
+  size: 127, 191
+  orig: 237, 305
+  offset: 59, 66
+  index: -1
+dj_skillA/shifa1_00006
+  rotate: false
+  xy: 2, 239
+  size: 125, 179
+  orig: 237, 305
+  offset: 58, 73
+  index: -1
+dj_skillA/shifa1_00010
+  rotate: true
+  xy: 818, 851
+  size: 169, 199
+  orig: 237, 305
+  offset: 37, 54
+  index: -1
+dj_skillA/shifa1_00012
+  rotate: false
+  xy: 2, 9
+  size: 188, 221
+  orig: 237, 305
+  offset: 27, 42
+  index: -1
+dj_skillA/shifa1_00014
+  rotate: true
+  xy: 547, 799
+  size: 221, 269
+  orig: 237, 305
+  offset: 6, 24
+  index: -1
+dj_skillA/sj_yc_00013
+  rotate: true
+  xy: 254, 362
+  size: 155, 156
+  orig: 250, 250
+  offset: 52, 45
+  index: -1
+dj_skillA/sj_yc_00015
+  rotate: true
+  xy: 818, 642
+  size: 207, 197
+  orig: 250, 250
+  offset: 21, 25
+  index: -1
+dj_skillA/sj_yc_00017
+  rotate: false
+  xy: 785, 232
+  size: 235, 223
+  orig: 250, 250
+  offset: 7, 10
+  index: -1
+dj_skillA/sj_yc_00021
+  rotate: false
+  xy: 530, 48
+  size: 249, 242
+  orig: 250, 250
+  offset: 1, 0
+  index: -1
+dj_skillA/sj_yc_00023
+  rotate: false
+  xy: 533, 292
+  size: 250, 246
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+dj_skillA/sj_yc_00025
+  rotate: false
+  xy: 2, 506
+  size: 250, 247
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+
+effects_24201_skillA2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dj_skillA/Abddd_00018
+  rotate: false
+  xy: 249, 74
+  size: 140, 140
+  orig: 250, 250
+  offset: 41, 89
+  index: -1
+dj_skillA/Abddd_00020
+  rotate: false
+  xy: 251, 330
+  size: 155, 149
+  orig: 250, 250
+  offset: 32, 86
+  index: -1
+dj_skillA/shifa1_00008
+  rotate: true
+  xy: 251, 216
+  size: 112, 146
+  orig: 237, 305
+  offset: 65, 90
+  index: -1
+dj_skillA/sj_yc_00019
+  rotate: false
+  xy: 2, 2
+  size: 245, 234
+  orig: 250, 250
+  offset: 3, 4
+  index: -1
+dj_skillA/sj_yc_00027
+  rotate: false
+  xy: 2, 238
+  size: 247, 241
+  orig: 250, 250
+  offset: 3, 4
+  index: -1

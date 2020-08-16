@@ -1,0 +1,118 @@
+
+effects_extra_0035.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+imange/baodian/baodian_00019
+  rotate: false
+  xy: 810, 905
+  size: 114, 114
+  orig: 306, 282
+  offset: 94, 84
+  index: -1
+imange/baodian/baodian_00021
+  rotate: false
+  xy: 2, 815
+  size: 204, 204
+  orig: 306, 282
+  offset: 49, 39
+  index: -1
+imange/baodian/baodian_00023
+  rotate: false
+  xy: 2, 297
+  size: 152, 154
+  orig: 306, 282
+  offset: 75, 64
+  index: -1
+imange/baodian/baodian_00025
+  rotate: false
+  xy: 389, 856
+  size: 162, 163
+  orig: 306, 282
+  offset: 70, 59
+  index: -1
+imange/baodian/baodian_00027
+  rotate: false
+  xy: 2, 453
+  size: 172, 172
+  orig: 306, 282
+  offset: 65, 55
+  index: -1
+imange/baodian/baodian_00029
+  rotate: false
+  xy: 208, 838
+  size: 179, 181
+  orig: 306, 282
+  offset: 61, 51
+  index: -1
+imange/baodian/baodian_00031
+  rotate: false
+  xy: 2, 627
+  size: 183, 186
+  orig: 306, 282
+  offset: 60, 46
+  index: -1
+imange/baodian/baodian_00033
+  rotate: false
+  xy: 2, 152
+  size: 119, 143
+  orig: 306, 282
+  offset: 80, 64
+  index: -1
+imange/baodian/baodian_00035
+  rotate: false
+  xy: 690, 887
+  size: 118, 132
+  orig: 306, 282
+  offset: 81, 65
+  index: -1
+imange/baodian/baodian_00037
+  rotate: false
+  xy: 2, 39
+  size: 119, 111
+  orig: 306, 282
+  offset: 80, 63
+  index: -1
+imange/baodian/baodian_00039
+  rotate: true
+  xy: 2, 2
+  size: 35, 114
+  orig: 306, 282
+  offset: 163, 64
+  index: -1
+imange/gantanhao1_00000
+  rotate: true
+  xy: 553, 856
+  size: 26, 50
+  orig: 70, 70
+  offset: 20, 10
+  index: -1
+imange/gantanhao_00000
+  rotate: true
+  xy: 208, 815
+  size: 21, 47
+  orig: 70, 70
+  offset: 25, 13
+  index: -1
+imange/wenhao1_00000
+  rotate: false
+  xy: 926, 974
+  size: 42, 45
+  orig: 70, 70
+  offset: 11, 9
+  index: -1
+imange/wenhao_00000
+  rotate: false
+  xy: 187, 778
+  size: 22, 35
+  orig: 70, 70
+  offset: 23, 20
+  index: -1
+imange/xuanhzuan_00000
+  rotate: false
+  xy: 553, 884
+  size: 135, 135
+  orig: 140, 140
+  offset: 2, 1
+  index: -1

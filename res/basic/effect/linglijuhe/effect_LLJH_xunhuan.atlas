@@ -1,0 +1,69 @@
+
+effect_LLJH_xunhuan.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+di
+  rotate: false
+  xy: 2, 218
+  size: 345, 390
+  orig: 345, 390
+  offset: 0, 0
+  index: -1
+glow
+  rotate: true
+  xy: 412, 455
+  size: 246, 247
+  orig: 246, 247
+  offset: 0, 0
+  index: -1
+sanjiaowaikuo
+  rotate: false
+  xy: 2, 2
+  size: 242, 214
+  orig: 242, 214
+  offset: 0, 0
+  index: -1
+xian
+  rotate: false
+  xy: 246, 69
+  size: 56, 147
+  orig: 56, 147
+  offset: 0, 0
+  index: -1
+xian2
+  rotate: false
+  xy: 828, 850
+  size: 65, 158
+  orig: 65, 158
+  offset: 0, 0
+  index: -1
+xian3
+  rotate: false
+  xy: 661, 664
+  size: 76, 37
+  orig: 76, 37
+  offset: 0, 0
+  index: -1
+xian4
+  rotate: false
+  xy: 349, 526
+  size: 36, 82
+  orig: 36, 82
+  offset: 0, 0
+  index: -1
+yuan
+  rotate: false
+  xy: 2, 610
+  size: 408, 398
+  orig: 408, 398
+  offset: 0, 0
+  index: -1
+yuan1
+  rotate: false
+  xy: 412, 703
+  size: 414, 305
+  orig: 414, 398
+  offset: 0, 76
+  index: -1

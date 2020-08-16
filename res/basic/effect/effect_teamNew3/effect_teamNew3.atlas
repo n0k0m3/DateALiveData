@@ -1,0 +1,118 @@
+
+effect_teamNew3.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/baodian/baodian_00000
+  rotate: false
+  xy: 2, 132
+  size: 149, 152
+  orig: 152, 153
+  offset: 1, 0
+  index: -1
+images/baodian/baodian_00001
+  rotate: false
+  xy: 229, 358
+  size: 149, 152
+  orig: 152, 153
+  offset: 1, 0
+  index: -1
+images/baodian/baodian_00002
+  rotate: true
+  xy: 379, 91
+  size: 90, 93
+  orig: 152, 153
+  offset: 32, 31
+  index: -1
+images/baodian/baodian_00003
+  rotate: false
+  xy: 272, 134
+  size: 105, 105
+  orig: 152, 153
+  offset: 24, 26
+  index: -1
+images/baodian/baodian_00004
+  rotate: true
+  xy: 272, 241
+  size: 115, 114
+  orig: 152, 153
+  offset: 19, 22
+  index: -1
+images/baodian/baodian_00005
+  rotate: false
+  xy: 380, 391
+  size: 118, 119
+  orig: 152, 153
+  offset: 18, 19
+  index: -1
+images/baodian/baodian_00006
+  rotate: false
+  xy: 2, 10
+  size: 120, 120
+  orig: 152, 153
+  offset: 17, 19
+  index: -1
+images/baodian/baodian_00007
+  rotate: false
+  xy: 153, 167
+  size: 117, 117
+  orig: 152, 153
+  offset: 18, 20
+  index: -1
+images/baodian/baodian_00008
+  rotate: true
+  xy: 153, 77
+  size: 88, 92
+  orig: 152, 153
+  offset: 30, 28
+  index: -1
+images/baodian/baodian_00009
+  rotate: true
+  xy: 247, 46
+  size: 86, 88
+  orig: 152, 153
+  offset: 31, 29
+  index: -1
+images/baodian/baodian_00010
+  rotate: false
+  xy: 337, 12
+  size: 80, 77
+  orig: 152, 153
+  offset: 32, 29
+  index: -1
+images/baodian/baodian_00011
+  rotate: true
+  xy: 229, 305
+  size: 51, 15
+  orig: 152, 153
+  offset: 47, 31
+  index: -1
+images/bian
+  rotate: false
+  xy: 388, 183
+  size: 95, 95
+  orig: 109, 109
+  offset: 8, 6
+  index: -1
+images/golw_00000
+  rotate: false
+  xy: 2, 286
+  size: 225, 224
+  orig: 252, 224
+  offset: 10, 0
+  index: -1
+images/lizidan_00002
+  rotate: false
+  xy: 499, 378
+  size: 11, 11
+  orig: 32, 28
+  offset: 10, 8
+  index: -1
+images/yuan
+  rotate: false
+  xy: 388, 280
+  size: 109, 109
+  orig: 109, 109
+  offset: 0, 0
+  index: -1

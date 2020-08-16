@@ -1,0 +1,437 @@
+
+effects_10109_skillD.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bai_000
+  rotate: false
+  xy: 693, 21
+  size: 124, 58
+  orig: 124, 58
+  offset: 0, 0
+  index: -1
+skillD/D1/heidong/heidong_002
+  rotate: false
+  xy: 874, 495
+  size: 122, 180
+  orig: 315, 225
+  offset: 85, 5
+  index: -1
+skillD/D1/suishi/suishi_026
+  rotate: true
+  xy: 448, 9
+  size: 258, 243
+  orig: 270, 270
+  offset: 6, 4
+  index: -1
+skillD/D1/wangzuoguang_000
+  rotate: true
+  xy: 544, 677
+  size: 341, 441
+  orig: 360, 450
+  offset: 8, 9
+  index: -1
+skillD/D3/daoguang/daoguang_003
+  rotate: false
+  xy: 693, 81
+  size: 325, 186
+  orig: 360, 216
+  offset: 22, 17
+  index: -1
+skillD/D3/daoguang/daoguang_010
+  rotate: false
+  xy: 534, 480
+  size: 338, 195
+  orig: 360, 216
+  offset: 13, 8
+  index: -1
+skillD/D3/daoguangda/daoguangda_000
+  rotate: true
+  xy: 223, 57
+  size: 421, 223
+  orig: 423, 270
+  offset: 0, 10
+  index: -1
+skillD/D3/daoguangda/daoguangda_002
+  rotate: true
+  xy: 2, 55
+  size: 423, 219
+  orig: 423, 270
+  offset: 0, 14
+  index: -1
+skillD/D3/dayan/dayan_006
+  rotate: false
+  xy: 448, 269
+  size: 526, 209
+  orig: 540, 270
+  offset: 0, 27
+  index: -1
+skillD/D3/dayan/dayan_015
+  rotate: false
+  xy: 2, 480
+  size: 530, 206
+  orig: 540, 270
+  offset: 8, 38
+  index: -1
+skillD/D3/dayan/dayan_017
+  rotate: false
+  xy: 2, 688
+  size: 530, 207
+  orig: 540, 270
+  offset: 8, 39
+  index: -1
+skillD/D3/diliechang/diliechang_000
+  rotate: false
+  xy: 2, 897
+  size: 540, 121
+  orig: 540, 135
+  offset: 0, 9
+  index: -1
+
+effects_10109_skillD2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow_000
+  rotate: false
+  xy: 759, 10
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+skillD/D1/guangxian_000
+  rotate: false
+  xy: 662, 102
+  size: 360, 180
+  orig: 360, 180
+  offset: 0, 0
+  index: -1
+skillD/D1/suishi/suishi_002
+  rotate: true
+  xy: 662, 6
+  size: 94, 95
+  orig: 270, 270
+  offset: 75, 90
+  index: -1
+skillD/D1/suishi/suishi_006
+  rotate: false
+  xy: 847, 300
+  size: 150, 128
+  orig: 270, 270
+  offset: 50, 67
+  index: -1
+skillD/D1/suishi/suishi_016
+  rotate: true
+  xy: 239, 19
+  size: 258, 209
+  orig: 270, 270
+  offset: 6, 4
+  index: -1
+skillD/D1/suishi/suishi_022
+  rotate: true
+  xy: 2, 17
+  size: 258, 235
+  orig: 270, 270
+  offset: 6, 4
+  index: -1
+skillD/D1/suishi/suishi_036
+  rotate: false
+  xy: 450, 22
+  size: 210, 257
+  orig: 270, 270
+  offset: 6, 5
+  index: -1
+skillD/D3/daoguangda/daoguangda_001
+  rotate: false
+  xy: 527, 804
+  size: 419, 218
+  orig: 423, 270
+  offset: 0, 15
+  index: -1
+skillD/D3/dayan/dayan_000
+  rotate: true
+  xy: 847, 430
+  size: 372, 131
+  orig: 540, 270
+  offset: 30, 42
+  index: -1
+skillD/D3/dayan/dayan_002
+  rotate: true
+  xy: 643, 284
+  size: 518, 202
+  orig: 540, 270
+  offset: 0, 20
+  index: -1
+skillD/D3/dayan/dayan_004
+  rotate: true
+  xy: 217, 279
+  size: 523, 210
+  orig: 540, 270
+  offset: 0, 22
+  index: -1
+skillD/D3/dayan/dayan_008
+  rotate: false
+  xy: 2, 804
+  size: 523, 218
+  orig: 540, 270
+  offset: 4, 31
+  index: -1
+skillD/D3/dayan/dayan_011
+  rotate: true
+  xy: 429, 281
+  size: 521, 212
+  orig: 540, 270
+  offset: 9, 38
+  index: -1
+skillD/D3/dayan/dayan_013
+  rotate: true
+  xy: 2, 277
+  size: 525, 213
+  orig: 540, 270
+  offset: 9, 38
+  index: -1
+
+effects_10109_skillD3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skillD/D1/heidong/heidong_004
+  rotate: false
+  xy: 2, 2
+  size: 168, 196
+  orig: 315, 225
+  offset: 73, 5
+  index: -1
+skillD/D1/heidong/heidong_012
+  rotate: true
+  xy: 470, 79
+  size: 311, 210
+  orig: 315, 225
+  offset: 3, 2
+  index: -1
+skillD/D1/heidong/heidong_014
+  rotate: false
+  xy: 682, 330
+  size: 314, 210
+  orig: 315, 225
+  offset: 1, 3
+  index: -1
+skillD/D1/heidong/heidong_016
+  rotate: true
+  xy: 682, 16
+  size: 312, 207
+  orig: 315, 225
+  offset: 3, 5
+  index: -1
+skillD/D1/suishi/suishi_004
+  rotate: false
+  xy: 338, 211
+  size: 130, 117
+  orig: 270, 270
+  offset: 58, 76
+  index: -1
+skillD/D1/suishi/suishi_012
+  rotate: false
+  xy: 172, 9
+  size: 241, 189
+  orig: 270, 270
+  offset: 6, 15
+  index: -1
+skillD/D1/suishi/suishi_028
+  rotate: false
+  xy: 738, 774
+  size: 256, 246
+  orig: 270, 270
+  offset: 8, 4
+  index: -1
+skillD/D3/daoguang/daoguang_001
+  rotate: false
+  xy: 891, 178
+  size: 113, 150
+  orig: 360, 216
+  offset: 88, 27
+  index: -1
+skillD/D3/daoguang/daoguang_004
+  rotate: false
+  xy: 343, 392
+  size: 337, 194
+  orig: 360, 216
+  offset: 15, 10
+  index: -1
+skillD/D3/daoguang/daoguang_006
+  rotate: false
+  xy: 2, 595
+  size: 345, 197
+  orig: 360, 216
+  offset: 9, 9
+  index: -1
+skillD/D3/daoguang/daoguang_008
+  rotate: false
+  xy: 2, 397
+  size: 339, 196
+  orig: 360, 216
+  offset: 12, 8
+  index: -1
+skillD/D3/daoguang/daoguang_012
+  rotate: false
+  xy: 349, 588
+  size: 341, 193
+  orig: 360, 216
+  offset: 10, 8
+  index: -1
+skillD/D3/daoguang/daoguang_014
+  rotate: false
+  xy: 2, 200
+  size: 334, 195
+  orig: 360, 216
+  offset: 10, 6
+  index: -1
+skillD/D3/dayan/dayan_019
+  rotate: false
+  xy: 2, 794
+  size: 382, 226
+  orig: 540, 270
+  offset: 157, 30
+  index: -1
+skillD/D3/dayan/dayan_021
+  rotate: false
+  xy: 386, 783
+  size: 350, 237
+  orig: 540, 270
+  offset: 189, 19
+  index: -1
+skillD/D3/dayan/dayan_023
+  rotate: false
+  xy: 692, 542
+  size: 315, 230
+  orig: 540, 270
+  offset: 221, 17
+  index: -1
+
+effects_10109_skillD4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cikuo_000
+  rotate: false
+  xy: 808, 577
+  size: 211, 213
+  orig: 225, 225
+  offset: 3, 3
+  index: -1
+skillD/D1/heidong/heidong_006
+  rotate: false
+  xy: 305, 606
+  size: 251, 204
+  orig: 315, 225
+  offset: 36, 5
+  index: -1
+skillD/D1/heidong/heidong_008
+  rotate: false
+  xy: 306, 812
+  size: 293, 210
+  orig: 315, 225
+  offset: 12, 2
+  index: -1
+skillD/D1/heidong/heidong_010
+  rotate: false
+  xy: 2, 812
+  size: 302, 210
+  orig: 315, 225
+  offset: 10, 2
+  index: -1
+skillD/D1/heidong/heidong_018
+  rotate: false
+  xy: 2, 603
+  size: 301, 207
+  orig: 315, 225
+  offset: 14, 5
+  index: -1
+skillD/D1/suishi/suishi_008
+  rotate: false
+  xy: 694, 218
+  size: 210, 146
+  orig: 270, 270
+  offset: 13, 50
+  index: -1
+skillD/D1/suishi/suishi_010
+  rotate: true
+  xy: 853, 792
+  size: 230, 161
+  orig: 270, 270
+  offset: 7, 36
+  index: -1
+skillD/D1/suishi/suishi_014
+  rotate: false
+  xy: 791, 366
+  size: 231, 209
+  orig: 270, 270
+  offset: 8, 4
+  index: -1
+skillD/D1/suishi/suishi_018
+  rotate: false
+  xy: 601, 805
+  size: 250, 217
+  orig: 270, 270
+  offset: 6, 4
+  index: -1
+skillD/D1/suishi/suishi_020
+  rotate: false
+  xy: 544, 374
+  size: 245, 224
+  orig: 270, 270
+  offset: 6, 4
+  index: -1
+skillD/D1/suishi/suishi_024
+  rotate: false
+  xy: 251, 80
+  size: 227, 233
+  orig: 270, 270
+  offset: 37, 11
+  index: -1
+skillD/D1/suishi/suishi_030
+  rotate: false
+  xy: 2, 102
+  size: 247, 244
+  orig: 270, 270
+  offset: 17, 4
+  index: -1
+skillD/D1/suishi/suishi_032
+  rotate: false
+  xy: 2, 348
+  size: 247, 253
+  orig: 270, 270
+  offset: 10, 9
+  index: -1
+skillD/D1/suishi/suishi_034
+  rotate: true
+  xy: 558, 600
+  size: 203, 248
+  orig: 270, 270
+  offset: 26, 10
+  index: -1
+skillD/D1/suishi/suishi_038
+  rotate: false
+  xy: 480, 146
+  size: 212, 221
+  orig: 270, 270
+  offset: 6, 39
+  index: -1
+skillD/D1/wangzuo_000
+  rotate: false
+  xy: 399, 369
+  size: 143, 235
+  orig: 270, 270
+  offset: 64, 21
+  index: -1
+skillD/D3/daoguang/daoguang_002
+  rotate: true
+  xy: 251, 315
+  size: 286, 146
+  orig: 360, 216
+  offset: 56, 53
+  index: -1

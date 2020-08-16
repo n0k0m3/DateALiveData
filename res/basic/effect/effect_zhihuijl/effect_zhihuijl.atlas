@@ -1,0 +1,20 @@
+
+effect_zhihuijl.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/glow1_00000
+  rotate: false
+  xy: 2, 231
+  size: 272, 43
+  orig: 276, 48
+  offset: 4, 5
+  index: -1
+images/glow_00000
+  rotate: false
+  xy: 2, 146
+  size: 81, 83
+  orig: 113, 116
+  offset: 15, 16
+  index: -1

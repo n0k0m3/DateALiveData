@@ -1,0 +1,55 @@
+
+effect_shanguang_09.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/dianliu_00015
+  rotate: false
+  xy: 152, 306
+  size: 13, 12
+  orig: 50, 50
+  offset: 19, 19
+  index: -1
+images/huohua/huohua_00064
+  rotate: false
+  xy: 348, 379
+  size: 101, 107
+  orig: 300, 300
+  offset: 92, 88
+  index: -1
+images/huohua/huohua_00065
+  rotate: false
+  xy: 2, 165
+  size: 148, 153
+  orig: 300, 300
+  offset: 73, 87
+  index: -1
+images/huohua/huohua_00066
+  rotate: false
+  xy: 2, 320
+  size: 178, 166
+  orig: 300, 300
+  offset: 64, 74
+  index: -1
+images/huohua/huohua_00067
+  rotate: false
+  xy: 182, 369
+  size: 164, 117
+  orig: 300, 300
+  offset: 67, 61
+  index: -1
+images/huohua/huohua_00068
+  rotate: false
+  xy: 182, 369
+  size: 164, 117
+  orig: 300, 300
+  offset: 67, 61
+  index: -1
+images/huohua/huohua_00069
+  rotate: true
+  xy: 2, 2
+  size: 161, 91
+  orig: 300, 300
+  offset: 70, 85
+  index: -1

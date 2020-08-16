@@ -1,0 +1,320 @@
+
+effects_10111_skillA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillA/baodian/baodianadd_00000
+  rotate: true
+  xy: 750, 195
+  size: 153, 167
+  orig: 153, 204
+  offset: 0, 13
+  index: -1
+images/effects/skillA/baodian/baodianadd_00001
+  rotate: false
+  xy: 607, 631
+  size: 153, 191
+  orig: 153, 204
+  offset: 0, 3
+  index: -1
+images/effects/skillA/baodian/baodianadd_00002
+  rotate: false
+  xy: 471, 324
+  size: 153, 195
+  orig: 153, 204
+  offset: 0, 1
+  index: -1
+images/effects/skillA/baodian/baodianadd_00003
+  rotate: false
+  xy: 487, 824
+  size: 153, 198
+  orig: 153, 204
+  offset: 0, 0
+  index: -1
+images/effects/skillA/baodian/baodianadd_00004
+  rotate: false
+  xy: 452, 574
+  size: 153, 199
+  orig: 153, 204
+  offset: 0, 0
+  index: -1
+images/effects/skillA/baodian/baodianadd_00005
+  rotate: false
+  xy: 626, 335
+  size: 122, 120
+  orig: 153, 204
+  offset: 20, 36
+  index: -1
+images/effects/skillA/baodian/baodianadd_00006
+  rotate: true
+  xy: 919, 133
+  size: 97, 98
+  orig: 153, 204
+  offset: 34, 41
+  index: -1
+images/effects/skillA/baodian/baodiannor_00001
+  rotate: true
+  xy: 933, 583
+  size: 87, 89
+  orig: 153, 204
+  offset: 33, 46
+  index: -1
+images/effects/skillA/baodian/baodiannor_00002
+  rotate: false
+  xy: 607, 529
+  size: 96, 100
+  orig: 153, 204
+  offset: 29, 41
+  index: -1
+images/effects/skillA/baodian/baodiannor_00003
+  rotate: false
+  xy: 919, 232
+  size: 99, 99
+  orig: 153, 204
+  offset: 29, 43
+  index: -1
+images/effects/skillA/baodian/baodiannor_00004
+  rotate: false
+  xy: 926, 400
+  size: 96, 98
+  orig: 153, 204
+  offset: 30, 42
+  index: -1
+images/effects/skillA/baodian/baodiannor_00005
+  rotate: true
+  xy: 933, 500
+  size: 81, 88
+  orig: 153, 204
+  offset: 39, 51
+  index: -1
+images/effects/skillA/baodian/baodiannor_00006
+  rotate: true
+  xy: 926, 333
+  size: 65, 69
+  orig: 153, 204
+  offset: 51, 67
+  index: -1
+images/effects/skillA/baodian/dian_00000
+  rotate: false
+  xy: 452, 521
+  size: 50, 51
+  orig: 153, 204
+  offset: 53, 71
+  index: -1
+images/effects/skillA/daoguang1/daoguang1_00000
+  rotate: false
+  xy: 2, 769
+  size: 234, 253
+  orig: 255, 255
+  offset: 16, 0
+  index: -1
+images/effects/skillA/daoguang1/daoguang1_00001
+  rotate: false
+  xy: 2, 269
+  size: 241, 247
+  orig: 255, 255
+  offset: 4, 1
+  index: -1
+images/effects/skillA/daoguang1/daoguang1_00002
+  rotate: false
+  xy: 2, 518
+  size: 248, 249
+  orig: 255, 255
+  offset: 0, 1
+  index: -1
+images/effects/skillA/daoguang1/daoguang1_00003
+  rotate: false
+  xy: 238, 775
+  size: 247, 247
+  orig: 255, 255
+  offset: 0, 0
+  index: -1
+images/effects/skillA/daoguang1/daoguang1_00004
+  rotate: true
+  xy: 2, 24
+  size: 243, 237
+  orig: 255, 255
+  offset: 0, 6
+  index: -1
+images/effects/skillA/daoguang1/daoguang1_00005
+  rotate: true
+  xy: 241, 31
+  size: 236, 232
+  orig: 255, 255
+  offset: 2, 7
+  index: -1
+images/effects/skillA/daoguang1/daoguang1_00006
+  rotate: true
+  xy: 245, 280
+  size: 236, 224
+  orig: 255, 255
+  offset: 1, 8
+  index: -1
+images/effects/skillA/daoguang1/daoguang1_00007
+  rotate: false
+  xy: 252, 557
+  size: 198, 216
+  orig: 255, 255
+  offset: 17, 15
+  index: -1
+images/effects/skillA/daoguang2/daoguang2_00000
+  rotate: true
+  xy: 626, 457
+  size: 70, 129
+  orig: 204, 204
+  offset: 130, 31
+  index: -1
+images/effects/skillA/daoguang2/daoguang2_00001
+  rotate: true
+  xy: 642, 834
+  size: 188, 167
+  orig: 204, 204
+  offset: 8, 29
+  index: -1
+images/effects/skillA/daoguang2/daoguang2_00003
+  rotate: false
+  xy: 811, 838
+  size: 187, 184
+  orig: 204, 204
+  offset: 5, 9
+  index: -1
+images/effects/skillA/daoguang2/daoguang2_00005
+  rotate: true
+  xy: 811, 672
+  size: 164, 185
+  orig: 204, 204
+  offset: 14, 4
+  index: -1
+images/effects/skillA/daoguang2/daoguang2_00007
+  rotate: true
+  xy: 762, 509
+  size: 161, 169
+  orig: 204, 204
+  offset: 16, 8
+  index: -1
+images/effects/skillA/daoxu/daoxu_00003
+  rotate: false
+  xy: 642, 12
+  size: 113, 119
+  orig: 153, 153
+  offset: 21, 10
+  index: -1
+images/effects/skillA/daoxu/daoxu_00004
+  rotate: true
+  xy: 626, 217
+  size: 116, 121
+  orig: 153, 153
+  offset: 19, 9
+  index: -1
+images/effects/skillA/guiji1/guiji1_00002
+  rotate: false
+  xy: 475, 159
+  size: 148, 163
+  orig: 204, 204
+  offset: 43, 14
+  index: -1
+images/effects/skillA/guiji1/guiji1_00003
+  rotate: true
+  xy: 475, 3
+  size: 154, 165
+  orig: 204, 204
+  offset: 38, 12
+  index: -1
+images/effects/skillA/guiji1/guiji1_00004
+  rotate: true
+  xy: 757, 350
+  size: 157, 167
+  orig: 204, 204
+  offset: 36, 10
+  index: -1
+images/effects/skillA/guiji1/guiji1_00005
+  rotate: false
+  xy: 757, 30
+  size: 160, 163
+  orig: 204, 204
+  offset: 34, 14
+  index: -1
+
+effects_10111_skillA2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillA/daoxu/daoxu_00000
+  rotate: false
+  xy: 2, 435
+  size: 153, 153
+  orig: 153, 153
+  offset: 0, 0
+  index: -1
+images/effects/skillA/daoxu/daoxu_00001
+  rotate: false
+  xy: 333, 765
+  size: 153, 153
+  orig: 153, 153
+  offset: 0, 0
+  index: -1
+images/effects/skillA/daoxu/daoxu_00002
+  rotate: false
+  xy: 2, 119
+  size: 150, 150
+  orig: 153, 153
+  offset: 0, 3
+  index: -1
+images/effects/skillA/daoxu/daoxu_00005
+  rotate: false
+  xy: 2, 2
+  size: 113, 115
+  orig: 153, 153
+  offset: 22, 14
+  index: -1
+images/effects/skillA/daoxu/daoxu_00006
+  rotate: false
+  xy: 806, 809
+  size: 111, 109
+  orig: 153, 153
+  offset: 22, 14
+  index: -1
+images/effects/skillA/guiji1/guiji1_00000
+  rotate: true
+  xy: 651, 781
+  size: 137, 153
+  orig: 204, 204
+  offset: 48, 21
+  index: -1
+images/effects/skillA/guiji1/guiji1_00001
+  rotate: false
+  xy: 2, 271
+  size: 143, 162
+  orig: 204, 204
+  offset: 45, 15
+  index: -1
+images/effects/skillA/guiji1/guiji1_00006
+  rotate: false
+  xy: 2, 590
+  size: 163, 163
+  orig: 204, 204
+  offset: 32, 15
+  index: -1
+images/effects/skillA/guiji1/guiji1_00007
+  rotate: false
+  xy: 2, 755
+  size: 165, 163
+  orig: 204, 204
+  offset: 30, 14
+  index: -1
+images/effects/skillA/guiji1/guiji1_00008
+  rotate: false
+  xy: 169, 756
+  size: 162, 162
+  orig: 204, 204
+  offset: 31, 13
+  index: -1
+images/effects/skillA/guiji1/guiji1_00009
+  rotate: false
+  xy: 488, 775
+  size: 161, 143
+  orig: 204, 204
+  offset: 33, 27
+  index: -1

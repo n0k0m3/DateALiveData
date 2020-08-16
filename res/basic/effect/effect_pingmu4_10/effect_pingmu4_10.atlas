@@ -1,0 +1,13 @@
+
+effect_pingmu4_10.png
+size: 64,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/jindutiao1_00000
+  rotate: false
+  xy: 2, 2
+  size: 6, 30
+  orig: 50, 50
+  offset: 22, 10
+  index: -1

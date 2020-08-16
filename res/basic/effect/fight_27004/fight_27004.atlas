@@ -1,0 +1,111 @@
+
+fight_27004.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/BOOM_000
+  rotate: false
+  xy: 2, 803
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+effect/BOOM_002
+  rotate: false
+  xy: 2, 601
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+effect/BOOM_004
+  rotate: false
+  xy: 204, 803
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+effect/BOOM_006
+  rotate: false
+  xy: 2, 399
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+effect/BOOM_008
+  rotate: false
+  xy: 204, 601
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+effect/BOOM_010
+  rotate: false
+  xy: 406, 803
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+effect/BOOM_012
+  rotate: false
+  xy: 2, 197
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+effect/BOOM_014
+  rotate: false
+  xy: 204, 399
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+effect/BOOM_016
+  rotate: false
+  xy: 406, 601
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+effect/BOOM_018
+  rotate: false
+  xy: 608, 803
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+huohua1
+  rotate: false
+  xy: 406, 499
+  size: 104, 100
+  orig: 104, 100
+  offset: 0, 0
+  index: -1
+huohua2
+  rotate: false
+  xy: 204, 274
+  size: 132, 123
+  orig: 132, 123
+  offset: 0, 0
+  index: -1
+lei
+  rotate: false
+  xy: 2, 2
+  size: 193, 193
+  orig: 193, 193
+  offset: 0, 0
+  index: -1
+lei1
+  rotate: false
+  xy: 810, 945
+  size: 59, 58
+  orig: 59, 58
+  offset: 0, 0
+  index: -1
+yinxian
+  rotate: false
+  xy: 608, 717
+  size: 106, 84
+  orig: 106, 84
+  offset: 0, 0
+  index: -1

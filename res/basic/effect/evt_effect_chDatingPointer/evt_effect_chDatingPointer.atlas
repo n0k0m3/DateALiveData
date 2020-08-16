@@ -1,0 +1,62 @@
+
+evt_effect_chDatingPointer.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/jindulizi/jindulizi_00000
+  rotate: false
+  xy: 154, 95
+  size: 70, 66
+  orig: 78, 66
+  offset: 5, 0
+  index: -1
+images/jindulizi/jindulizi_00001
+  rotate: false
+  xy: 2, 163
+  size: 76, 66
+  orig: 78, 66
+  offset: 1, 0
+  index: -1
+images/jindulizi/jindulizi_00002
+  rotate: false
+  xy: 2, 95
+  size: 75, 66
+  orig: 78, 66
+  offset: 0, 0
+  index: -1
+images/jindulizi/jindulizi_00003
+  rotate: false
+  xy: 80, 163
+  size: 75, 66
+  orig: 78, 66
+  offset: 0, 0
+  index: -1
+images/jindulizi/jindulizi_00004
+  rotate: false
+  xy: 2, 27
+  size: 74, 66
+  orig: 78, 66
+  offset: 0, 0
+  index: -1
+images/jindulizi/jindulizi_00005
+  rotate: false
+  xy: 157, 163
+  size: 72, 66
+  orig: 78, 66
+  offset: 3, 0
+  index: -1
+images/jindulizi/jindulizi_00006
+  rotate: false
+  xy: 78, 27
+  size: 72, 66
+  orig: 78, 66
+  offset: 2, 0
+  index: -1
+images/jindulizi/jindulizi_00007
+  rotate: false
+  xy: 79, 95
+  size: 73, 66
+  orig: 78, 66
+  offset: 0, 0
+  index: -1

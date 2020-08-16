@@ -1,0 +1,55 @@
+
+effects_10201_quickmove.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/renwujianying_00001
+  rotate: false
+  xy: 375, 406
+  size: 135, 104
+  orig: 147, 112
+  offset: 7, 1
+  index: -1
+images/effect/shandian/shandian_00003
+  rotate: false
+  xy: 2, 388
+  size: 244, 122
+  orig: 254, 122
+  offset: 0, 0
+  index: -1
+images/effect/shandian/shandian_00005
+  rotate: false
+  xy: 2, 291
+  size: 215, 95
+  orig: 254, 122
+  offset: 39, 9
+  index: -1
+images/effect/skillc/weiyan/weiyan_00000
+  rotate: false
+  xy: 2, 182
+  size: 130, 107
+  orig: 139, 130
+  offset: 0, 18
+  index: -1
+images/effect/skillc/weiyan/weiyan_00001
+  rotate: false
+  xy: 248, 392
+  size: 125, 118
+  orig: 139, 130
+  offset: 12, 6
+  index: -1
+images/effect/skillc/weiyan/weiyan_00002
+  rotate: false
+  xy: 2, 76
+  size: 116, 104
+  orig: 139, 130
+  offset: 21, 20
+  index: -1
+images/effect/waifaguang_00000
+  rotate: false
+  xy: 134, 231
+  size: 76, 58
+  orig: 79, 58
+  offset: 1, 0
+  index: -1

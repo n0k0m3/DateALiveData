@@ -1,0 +1,472 @@
+
+effects_25301_skillc.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skillc_baokai_00018
+  rotate: false
+  xy: 769, 707
+  size: 253, 315
+  orig: 909, 512
+  offset: 453, 35
+  index: -1
+skillc_baokai_00019
+  rotate: true
+  xy: 342, 104
+  size: 280, 332
+  orig: 909, 512
+  offset: 431, 36
+  index: -1
+skillc_baokai_00020
+  rotate: true
+  xy: 2, 360
+  size: 322, 338
+  orig: 909, 512
+  offset: 431, 39
+  index: -1
+skillc_baokai_00021
+  rotate: false
+  xy: 380, 386
+  size: 341, 337
+  orig: 909, 512
+  offset: 412, 41
+  index: -1
+skillc_baokai_00022
+  rotate: false
+  xy: 2, 684
+  size: 376, 338
+  orig: 909, 512
+  offset: 412, 40
+  index: -1
+skillc_baokai_00023
+  rotate: false
+  xy: 380, 725
+  size: 387, 297
+  orig: 909, 512
+  offset: 401, 41
+  index: -1
+skillc_baokai_00024
+  rotate: true
+  xy: 723, 321
+  size: 378, 292
+  orig: 909, 512
+  offset: 401, 42
+  index: -1
+skillc_baokai_00034
+  rotate: false
+  xy: 342, 31
+  size: 111, 71
+  orig: 909, 512
+  offset: 556, 56
+  index: -1
+skillc_baokai_00035
+  rotate: false
+  xy: 455, 34
+  size: 109, 68
+  orig: 909, 512
+  offset: 557, 52
+  index: -1
+skillc_baokai_00036
+  rotate: false
+  xy: 566, 40
+  size: 106, 62
+  orig: 909, 512
+  offset: 558, 50
+  index: -1
+skillc_baokai_00037
+  rotate: false
+  xy: 723, 701
+  size: 28, 22
+  orig: 909, 512
+  offset: 633, 46
+  index: -1
+skillc_dishang_00020
+  rotate: false
+  xy: 2, 3
+  size: 338, 171
+  orig: 450, 274
+  offset: 50, 15
+  index: -1
+skillc_dishang_00022
+  rotate: false
+  xy: 2, 176
+  size: 338, 182
+  orig: 450, 274
+  offset: 50, 15
+  index: -1
+skillc_dishang_00023
+  rotate: false
+  xy: 676, 136
+  size: 338, 183
+  orig: 450, 274
+  offset: 50, 15
+  index: -1
+skillc_dishang_00035
+  rotate: false
+  xy: 676, 6
+  size: 330, 128
+  orig: 450, 274
+  offset: 54, 18
+  index: -1
+
+effects_25301_skillc2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skillc_dishang_00017
+  rotate: false
+  xy: 2, 551
+  size: 338, 133
+  orig: 450, 274
+  offset: 50, 15
+  index: -1
+skillc_dishang_00018
+  rotate: false
+  xy: 342, 597
+  size: 338, 148
+  orig: 450, 274
+  offset: 50, 15
+  index: -1
+skillc_dishang_00019
+  rotate: false
+  xy: 2, 686
+  size: 338, 167
+  orig: 450, 274
+  offset: 50, 15
+  index: -1
+skillc_dishang_00021
+  rotate: false
+  xy: 684, 663
+  size: 338, 177
+  orig: 450, 274
+  offset: 50, 15
+  index: -1
+skillc_dishang_00024
+  rotate: false
+  xy: 684, 842
+  size: 338, 180
+  orig: 450, 274
+  offset: 50, 15
+  index: -1
+skillc_dishang_00025
+  rotate: false
+  xy: 2, 855
+  size: 339, 167
+  orig: 450, 274
+  offset: 50, 15
+  index: -1
+skillc_dishang_00026
+  rotate: false
+  xy: 343, 882
+  size: 339, 140
+  orig: 450, 274
+  offset: 50, 15
+  index: -1
+skillc_dishang_00027
+  rotate: false
+  xy: 343, 747
+  size: 339, 133
+  orig: 450, 274
+  offset: 50, 15
+  index: -1
+skillc_dishang_00028
+  rotate: false
+  xy: 682, 528
+  size: 338, 133
+  orig: 450, 274
+  offset: 50, 15
+  index: -1
+skillc_dishang_00029
+  rotate: false
+  xy: 342, 462
+  size: 338, 133
+  orig: 450, 274
+  offset: 50, 15
+  index: -1
+skillc_dishang_00030
+  rotate: false
+  xy: 2, 416
+  size: 338, 133
+  orig: 450, 274
+  offset: 50, 15
+  index: -1
+skillc_dishang_00031
+  rotate: false
+  xy: 682, 393
+  size: 338, 133
+  orig: 450, 274
+  offset: 50, 15
+  index: -1
+skillc_dishang_00032
+  rotate: false
+  xy: 342, 327
+  size: 338, 133
+  orig: 450, 274
+  offset: 50, 15
+  index: -1
+skillc_dishang_00033
+  rotate: false
+  xy: 2, 281
+  size: 338, 133
+  orig: 450, 274
+  offset: 50, 15
+  index: -1
+skillc_dishang_00034
+  rotate: false
+  xy: 682, 258
+  size: 338, 133
+  orig: 450, 274
+  offset: 50, 15
+  index: -1
+skillc_xuli_00007
+  rotate: false
+  xy: 488, 192
+  size: 192, 133
+  orig: 271, 241
+  offset: 30, 82
+  index: -1
+skillc_xuli_00010
+  rotate: true
+  xy: 2, 7
+  size: 249, 241
+  orig: 271, 241
+  offset: 22, 0
+  index: -1
+skillc_xuli_00011
+  rotate: true
+  xy: 245, 7
+  size: 249, 241
+  orig: 271, 241
+  offset: 22, 0
+  index: -1
+skillc_xuli_00012
+  rotate: true
+  xy: 731, 7
+  size: 249, 238
+  orig: 271, 241
+  offset: 22, 0
+  index: -1
+skillc_xuli_00017
+  rotate: true
+  xy: 488, 2
+  size: 188, 241
+  orig: 271, 241
+  offset: 50, 0
+  index: -1
+
+effects_25301_skillc3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ggg
+  rotate: false
+  xy: 812, 396
+  size: 176, 176
+  orig: 207, 207
+  offset: 14, 16
+  index: -1
+skillc_baokai_00017
+  rotate: false
+  xy: 2, 24
+  size: 231, 193
+  orig: 909, 512
+  offset: 454, 41
+  index: -1
+skillc_baokai_00026
+  rotate: false
+  xy: 705, 2
+  size: 223, 199
+  orig: 909, 512
+  offset: 434, 51
+  index: -1
+skillc_baokai_00027
+  rotate: false
+  xy: 235, 19
+  size: 227, 195
+  orig: 909, 512
+  offset: 433, 50
+  index: -1
+skillc_baokai_00028
+  rotate: false
+  xy: 388, 216
+  size: 232, 189
+  orig: 909, 512
+  offset: 431, 48
+  index: -1
+skillc_baokai_00029
+  rotate: false
+  xy: 388, 407
+  size: 234, 168
+  orig: 909, 512
+  offset: 430, 62
+  index: -1
+skillc_baokai_00030
+  rotate: false
+  xy: 745, 574
+  size: 236, 162
+  orig: 909, 512
+  offset: 430, 58
+  index: -1
+skillc_baokai_00031
+  rotate: false
+  xy: 334, 749
+  size: 215, 141
+  orig: 909, 512
+  offset: 451, 74
+  index: -1
+skillc_baokai_00032
+  rotate: false
+  xy: 551, 741
+  size: 157, 148
+  orig: 909, 512
+  offset: 510, 67
+  index: -1
+skillc_baokai_00033
+  rotate: true
+  xy: 380, 592
+  size: 155, 156
+  orig: 909, 512
+  offset: 512, 62
+  index: -1
+skillc_dishang_00036
+  rotate: false
+  xy: 2, 764
+  size: 330, 128
+  orig: 450, 274
+  offset: 54, 18
+  index: -1
+skillc_dishang_00037
+  rotate: false
+  xy: 2, 894
+  size: 325, 123
+  orig: 450, 274
+  offset: 56, 20
+  index: -1
+skillc_xuli_00008
+  rotate: false
+  xy: 538, 577
+  size: 205, 159
+  orig: 271, 241
+  offset: 29, 56
+  index: -1
+skillc_xuli_00009
+  rotate: false
+  xy: 188, 424
+  size: 198, 166
+  orig: 271, 241
+  offset: 35, 49
+  index: -1
+skillc_xuli_00015
+  rotate: true
+  xy: 464, 4
+  size: 197, 239
+  orig: 271, 241
+  offset: 42, 0
+  index: -1
+skillc_xuli_00016
+  rotate: true
+  xy: 622, 203
+  size: 191, 239
+  orig: 271, 241
+  offset: 48, 0
+  index: -1
+skillc_xuli_00018
+  rotate: false
+  xy: 197, 219
+  size: 189, 203
+  orig: 271, 241
+  offset: 51, 30
+  index: -1
+skillc_xuli_00019
+  rotate: false
+  xy: 2, 244
+  size: 193, 178
+  orig: 271, 241
+  offset: 48, 50
+  index: -1
+skillc_xuli_00020
+  rotate: false
+  xy: 2, 433
+  size: 184, 174
+  orig: 271, 241
+  offset: 58, 53
+  index: -1
+skillc_xuli_00021
+  rotate: false
+  xy: 624, 397
+  size: 186, 175
+  orig: 271, 241
+  offset: 57, 54
+  index: -1
+skillc_xuli_00022
+  rotate: false
+  xy: 2, 609
+  size: 186, 153
+  orig: 271, 241
+  offset: 57, 55
+  index: -1
+skillc_xuli_00023
+  rotate: false
+  xy: 190, 594
+  size: 188, 153
+  orig: 271, 241
+  offset: 56, 54
+  index: -1
+skillc_xuli_00024
+  rotate: false
+  xy: 710, 738
+  size: 188, 151
+  orig: 271, 241
+  offset: 56, 54
+  index: -1
+skillc_xuli_00025
+  rotate: false
+  xy: 709, 891
+  size: 189, 126
+  orig: 271, 241
+  offset: 56, 54
+  index: -1
+skillc_xuli_00026
+  rotate: false
+  xy: 329, 894
+  size: 189, 123
+  orig: 271, 241
+  offset: 56, 54
+  index: -1
+skillc_xuli_00027
+  rotate: false
+  xy: 520, 892
+  size: 187, 125
+  orig: 271, 241
+  offset: 57, 54
+  index: -1
+
+effects_25301_skillc4.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skillc_baokai_00025
+  rotate: false
+  xy: 243, 271
+  size: 218, 207
+  orig: 909, 512
+  offset: 437, 46
+  index: -1
+skillc_xuli_00013
+  rotate: false
+  xy: 2, 240
+  size: 239, 238
+  orig: 271, 241
+  offset: 28, 0
+  index: -1
+skillc_xuli_00014
+  rotate: false
+  xy: 2, 2
+  size: 201, 236
+  orig: 271, 241
+  offset: 36, 0
+  index: -1

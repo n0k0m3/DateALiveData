@@ -1,0 +1,181 @@
+
+effects_10109_PskillD.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pskillA/glow_001
+  rotate: false
+  xy: 631, 525
+  size: 157, 155
+  orig: 158, 155
+  offset: 0, 0
+  index: -1
+pskillA/guangxian
+  rotate: true
+  xy: 735, 693
+  size: 124, 34
+  orig: 126, 35
+  offset: 1, 1
+  index: -1
+pskillA/kuo/kuo_012
+  rotate: false
+  xy: 796, 707
+  size: 186, 131
+  orig: 194, 165
+  offset: 3, 2
+  index: -1
+pskillA/kuo/kuo_014
+  rotate: false
+  xy: 252, 4
+  size: 171, 102
+  orig: 194, 165
+  offset: 9, 2
+  index: -1
+pskillA/kuo/kuo_015
+  rotate: false
+  xy: 330, 323
+  size: 162, 98
+  orig: 194, 165
+  offset: 17, 2
+  index: -1
+pskillA/kuo/kuo_016
+  rotate: false
+  xy: 463, 437
+  size: 152, 89
+  orig: 194, 165
+  offset: 26, 2
+  index: -1
+pskillD/dgadd/dgadd_009
+  rotate: false
+  xy: 617, 428
+  size: 99, 95
+  orig: 245, 145
+  offset: 125, 13
+  index: -1
+pskillD/dgadd/dgadd_010
+  rotate: false
+  xy: 425, 18
+  size: 134, 121
+  orig: 245, 145
+  offset: 96, 13
+  index: -1
+pskillD/dgadd/dgadd_011
+  rotate: true
+  xy: 220, 307
+  size: 224, 108
+  orig: 245, 145
+  offset: 13, 30
+  index: -1
+pskillD/dgadd/dgadd_013
+  rotate: true
+  xy: 188, 40
+  size: 215, 62
+  orig: 245, 145
+  offset: 15, 78
+  index: -1
+pskillD/dgadd/dgadd_015
+  rotate: true
+  xy: 989, 918
+  size: 103, 26
+  orig: 245, 145
+  offset: 42, 115
+  index: -1
+pskillD/fire/fire_007
+  rotate: false
+  xy: 494, 339
+  size: 116, 96
+  orig: 202, 191
+  offset: 86, 1
+  index: -1
+pskillD/fire/fire_009
+  rotate: false
+  xy: 463, 528
+  size: 166, 152
+  orig: 202, 191
+  offset: 23, 14
+  index: -1
+pskillD/fire/fire_011
+  rotate: false
+  xy: 411, 141
+  size: 179, 180
+  orig: 202, 191
+  offset: 8, 0
+  index: -1
+pskillD/fire/fire_013
+  rotate: false
+  xy: 796, 840
+  size: 191, 181
+  orig: 202, 191
+  offset: 0, 1
+  index: -1
+pskillD/fire/fire_015
+  rotate: false
+  xy: 271, 606
+  size: 184, 181
+  orig: 202, 191
+  offset: 12, 1
+  index: -1
+pskillD/fire/fire_017
+  rotate: true
+  xy: 252, 108
+  size: 197, 157
+  orig: 202, 191
+  offset: 5, 15
+  index: -1
+pskillD/fire/fire_019
+  rotate: false
+  xy: 532, 682
+  size: 201, 135
+  orig: 202, 191
+  offset: 0, 31
+  index: -1
+pskillD/fire/fire_021
+  rotate: true
+  xy: 330, 423
+  size: 181, 131
+  orig: 202, 191
+  offset: 17, 39
+  index: -1
+pskillD/xuanzhuan/xuanzhuan_007
+  rotate: true
+  xy: 2, 2
+  size: 253, 184
+  orig: 286, 243
+  offset: 5, 1
+  index: -1
+pskillD/xuanzhuan/xuanzhuan_009
+  rotate: false
+  xy: 2, 533
+  size: 265, 243
+  orig: 286, 243
+  offset: 21, 0
+  index: -1
+pskillD/xuanzhuan/xuanzhuan_011
+  rotate: false
+  xy: 2, 778
+  size: 267, 243
+  orig: 286, 243
+  offset: 19, 0
+  index: -1
+pskillD/xuanzhuan/xuanzhuan_013
+  rotate: false
+  xy: 271, 789
+  size: 259, 232
+  orig: 286, 243
+  offset: 21, 7
+  index: -1
+pskillD/xuanzhuan/xuanzhuan_015
+  rotate: true
+  xy: 2, 257
+  size: 274, 216
+  orig: 286, 243
+  offset: 5, 22
+  index: -1
+pskillD/xuanzhuan/xuanzhuan_016
+  rotate: false
+  xy: 532, 819
+  size: 262, 202
+  orig: 286, 243
+  offset: 11, 36
+  index: -1

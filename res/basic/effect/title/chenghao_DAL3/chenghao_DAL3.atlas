@@ -1,0 +1,27 @@
+
+chenghao_DAL3.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/DI
+  rotate: false
+  xy: 2, 185
+  size: 239, 56
+  orig: 239, 56
+  offset: 0, 0
+  index: -1
+images/zi
+  rotate: false
+  xy: 2, 97
+  size: 131, 25
+  orig: 239, 56
+  offset: 57, 17
+  index: -1
+images/zibian_00000
+  rotate: false
+  xy: 2, 124
+  size: 161, 59
+  orig: 200, 100
+  offset: 21, 23
+  index: -1

@@ -1,0 +1,118 @@
+
+battle_end_win_03.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+kuangsan/effect/V1/V11_000
+  rotate: false
+  xy: 27, 71
+  size: 400, 74
+  orig: 420, 100
+  offset: 11, 7
+  index: -1
+kuangsan/effect/V1/V212
+  rotate: false
+  xy: 2, 883
+  size: 561, 82
+  orig: 561, 82
+  offset: 0, 0
+  index: -1
+kuangsan/effect/V1/V21_000
+  rotate: false
+  xy: 565, 737
+  size: 400, 74
+  orig: 420, 100
+  offset: 11, 7
+  index: -1
+kuangsan/effect/V1/guangxian1_000
+  rotate: false
+  xy: 2, 597
+  size: 400, 200
+  orig: 400, 200
+  offset: 0, 0
+  index: -1
+kuangsan/effect/V1/hengtiao1_000
+  rotate: false
+  xy: 2, 10
+  size: 418, 59
+  orig: 420, 100
+  offset: 0, 18
+  index: -1
+kuangsan/effect/V1/lizi1/lizi_000
+  rotate: false
+  xy: 429, 324
+  size: 338, 128
+  orig: 350, 160
+  offset: 7, 9
+  index: -1
+kuangsan/effect/V1/lizi1/lizi_002
+  rotate: false
+  xy: 552, 599
+  size: 346, 136
+  orig: 350, 160
+  offset: 0, 5
+  index: -1
+kuangsan/effect/V1/lizi1/lizi_004
+  rotate: false
+  xy: 27, 147
+  size: 347, 144
+  orig: 350, 160
+  offset: 0, 3
+  index: -1
+kuangsan/effect/V1/lizi1/lizi_006
+  rotate: false
+  xy: 27, 446
+  size: 347, 149
+  orig: 350, 160
+  offset: 0, 3
+  index: -1
+kuangsan/effect/V1/lizi1/lizi_008
+  rotate: false
+  xy: 565, 813
+  size: 346, 152
+  orig: 350, 160
+  offset: 0, 3
+  index: -1
+kuangsan/effect/V1/lizi1/lizi_010
+  rotate: false
+  xy: 27, 293
+  size: 343, 151
+  orig: 350, 160
+  offset: 0, 5
+  index: -1
+kuangsan/effect/V1/lizi1/lizi_012
+  rotate: true
+  xy: 404, 459
+  size: 338, 146
+  orig: 350, 160
+  offset: 0, 8
+  index: -1
+kuangsan/effect/V1/lizi1/lizi_014
+  rotate: false
+  xy: 552, 454
+  size: 336, 143
+  orig: 350, 160
+  offset: 0, 9
+  index: -1
+kuangsan/effect/V1/lizi1/lizi_016
+  rotate: false
+  xy: 376, 186
+  size: 333, 136
+  orig: 350, 160
+  offset: 0, 13
+  index: -1
+kuangsan/effect/V1/shaoguang1_000
+  rotate: true
+  xy: 2, 101
+  size: 494, 23
+  orig: 500, 50
+  offset: 3, 13
+  index: -1
+kuangsan/effect/V1/yuhiyingyu
+  rotate: false
+  xy: 2, 799
+  size: 561, 82
+  orig: 562, 100
+  offset: 1, 3
+  index: -1

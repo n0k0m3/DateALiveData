@@ -1,0 +1,251 @@
+
+effects_10701_skillC_hit.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/chuchuang/p1_g/p1_g_0001
+  rotate: false
+  xy: 284, 445
+  size: 55, 20
+  orig: 65, 25
+  offset: 5, 2
+  index: -1
+images/effects/chuchuang/p1_g/p1_g_0002
+  rotate: false
+  xy: 226, 441
+  size: 56, 24
+  orig: 65, 25
+  offset: 5, 0
+  index: -1
+images/effects/chuchuang/p1_g/p1_g_0003
+  rotate: false
+  xy: 106, 440
+  size: 58, 25
+  orig: 65, 25
+  offset: 4, 0
+  index: -1
+images/effects/chuchuang/p1_g/p1_g_0004
+  rotate: false
+  xy: 166, 441
+  size: 58, 24
+  orig: 65, 25
+  offset: 4, 0
+  index: -1
+images/effects/chuchuang/p1_g/p1_g_0005
+  rotate: false
+  xy: 2, 2
+  size: 57, 21
+  orig: 65, 25
+  offset: 4, 1
+  index: -1
+images/effects/chuchuang/p1_g/p1_g_0006
+  rotate: false
+  xy: 341, 448
+  size: 50, 17
+  orig: 65, 25
+  offset: 9, 3
+  index: -1
+images/effects/skillb_l3/flare_a
+  rotate: false
+  xy: 2, 458
+  size: 102, 51
+  orig: 102, 51
+  offset: 0, 0
+  index: -1
+images/effects/skillb_l3/w_c_00017
+  rotate: false
+  xy: 56, 188
+  size: 26, 26
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+images/effects/skillc_n/p5_a/p5_a_0001
+  rotate: true
+  xy: 487, 481
+  size: 28, 20
+  orig: 54, 42
+  offset: 10, 9
+  index: -1
+images/effects/skillc_n/p5_a/p5_a_0002
+  rotate: false
+  xy: 58, 314
+  size: 44, 31
+  orig: 54, 42
+  offset: 4, 3
+  index: -1
+images/effects/skillc_n/p5_a/p5_a_0003
+  rotate: false
+  xy: 433, 471
+  size: 52, 38
+  orig: 54, 42
+  offset: 0, 0
+  index: -1
+images/effects/skillc_n/p5_a/p5_a_0004
+  rotate: false
+  xy: 2, 153
+  size: 52, 39
+  orig: 54, 42
+  offset: 0, 0
+  index: -1
+images/effects/skillc_n/p5_a/p5_a_0005
+  rotate: false
+  xy: 2, 111
+  size: 49, 40
+  orig: 54, 42
+  offset: 0, 0
+  index: -1
+images/effects/skillc_n/p5_a/p5_a_0006
+  rotate: false
+  xy: 381, 467
+  size: 50, 42
+  orig: 54, 42
+  offset: 0, 0
+  index: -1
+images/effects/skillc_n/p5_a/p5_a_0007
+  rotate: true
+  xy: 58, 347
+  size: 53, 42
+  orig: 54, 42
+  offset: 0, 0
+  index: -1
+images/effects/skillc_n/p5_a/p5_a_0008
+  rotate: false
+  xy: 2, 414
+  size: 54, 42
+  orig: 54, 42
+  offset: 0, 0
+  index: -1
+images/effects/skillc_n/p5_a/p5_a_0009
+  rotate: false
+  xy: 106, 467
+  size: 54, 42
+  orig: 54, 42
+  offset: 0, 0
+  index: -1
+images/effects/skillc_n/p5_a/p5_a_0010
+  rotate: false
+  xy: 2, 370
+  size: 54, 42
+  orig: 54, 42
+  offset: 0, 0
+  index: -1
+images/effects/skillc_n/p5_a/p5_a_0011
+  rotate: false
+  xy: 2, 282
+  size: 52, 42
+  orig: 54, 42
+  offset: 0, 0
+  index: -1
+images/effects/skillc_n/p5_a/p5_a_0012
+  rotate: false
+  xy: 273, 467
+  size: 52, 42
+  orig: 54, 42
+  offset: 0, 0
+  index: -1
+images/effects/skillc_n/p5_a/p5_a_0013
+  rotate: false
+  xy: 2, 238
+  size: 52, 42
+  orig: 54, 42
+  offset: 1, 0
+  index: -1
+images/effects/skillc_n/p5_a/p5_a_0014
+  rotate: false
+  xy: 218, 467
+  size: 53, 42
+  orig: 54, 42
+  offset: 1, 0
+  index: -1
+images/effects/skillc_n/p5_a/p5_a_0015
+  rotate: false
+  xy: 327, 467
+  size: 52, 42
+  orig: 54, 42
+  offset: 1, 0
+  index: -1
+images/effects/skillc_n/p5_a/p5_a_0016
+  rotate: false
+  xy: 2, 194
+  size: 52, 42
+  orig: 54, 42
+  offset: 1, 0
+  index: -1
+images/effects/skillc_n/p5_a/p5_a_0017
+  rotate: true
+  xy: 58, 402
+  size: 54, 42
+  orig: 54, 42
+  offset: 0, 0
+  index: -1
+images/effects/skillc_n/p5_a/p5_a_0018
+  rotate: false
+  xy: 162, 467
+  size: 54, 42
+  orig: 54, 42
+  offset: 0, 0
+  index: -1
+images/effects/skillc_n/p5_a/p5_a_0019
+  rotate: false
+  xy: 2, 326
+  size: 54, 42
+  orig: 54, 42
+  offset: 0, 0
+  index: -1
+images/effects/skillc_n/p5_b/p5_b_0001
+  rotate: false
+  xy: 102, 397
+  size: 47, 41
+  orig: 50, 50
+  offset: 2, 5
+  index: -1
+images/effects/skillc_n/p5_b/p5_b_0002
+  rotate: false
+  xy: 2, 68
+  size: 48, 41
+  orig: 50, 50
+  offset: 2, 5
+  index: -1
+images/effects/skillc_n/p5_b/p5_b_0003
+  rotate: false
+  xy: 2, 25
+  size: 48, 41
+  orig: 50, 50
+  offset: 2, 5
+  index: -1
+images/effects/skillc_n/p5_b/p5_b_0004
+  rotate: false
+  xy: 102, 354
+  size: 47, 41
+  orig: 50, 50
+  offset: 3, 5
+  index: -1
+images/effects/skillc_n/p5_b/p5_b_0005
+  rotate: true
+  xy: 56, 265
+  size: 47, 41
+  orig: 50, 50
+  offset: 2, 5
+  index: -1
+images/effects/skillc_n/p5_b/p5_b_0006
+  rotate: true
+  xy: 56, 216
+  size: 47, 41
+  orig: 50, 50
+  offset: 2, 5
+  index: -1
+images/effects/skillc_n/p5_c_00036
+  rotate: false
+  xy: 56, 162
+  size: 26, 24
+  orig: 26, 24
+  offset: 0, 0
+  index: -1
+images/effects/skillc_n/p5_d_00034
+  rotate: false
+  xy: 151, 425
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1

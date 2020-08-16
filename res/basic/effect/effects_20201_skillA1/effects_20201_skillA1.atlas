@@ -1,0 +1,13 @@
+
+effects_20201_skillA1.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skill01/zidan
+  rotate: false
+  xy: 2, 94
+  size: 125, 33
+  orig: 128, 46
+  offset: 2, 5
+  index: -1

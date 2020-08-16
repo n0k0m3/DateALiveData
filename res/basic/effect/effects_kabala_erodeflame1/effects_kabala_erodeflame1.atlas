@@ -1,0 +1,69 @@
+
+effects_kabala_erodeflame1.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dian_00000
+  rotate: false
+  xy: 377, 417
+  size: 17, 16
+  orig: 100, 100
+  offset: 41, 44
+  index: -1
+lizi/lizi_00000
+  rotate: false
+  xy: 2, 2
+  size: 82, 80
+  orig: 100, 100
+  offset: 6, 9
+  index: -1
+lizi/lizi_00002
+  rotate: false
+  xy: 291, 351
+  size: 84, 82
+  orig: 100, 100
+  offset: 4, 11
+  index: -1
+lizi/lizi_00004
+  rotate: false
+  xy: 100, 347
+  size: 93, 86
+  orig: 100, 100
+  offset: 4, 9
+  index: -1
+lizi/lizi_00006
+  rotate: false
+  xy: 2, 344
+  size: 96, 89
+  orig: 100, 100
+  offset: 4, 7
+  index: -1
+lizi/lizi_00008
+  rotate: false
+  xy: 2, 253
+  size: 95, 89
+  orig: 100, 100
+  offset: 5, 6
+  index: -1
+lizi/lizi_00010
+  rotate: false
+  xy: 2, 167
+  size: 94, 84
+  orig: 100, 100
+  offset: 6, 6
+  index: -1
+lizi/lizi_00012
+  rotate: false
+  xy: 195, 350
+  size: 94, 83
+  orig: 100, 100
+  offset: 6, 7
+  index: -1
+lizi/lizi_00014
+  rotate: false
+  xy: 2, 84
+  size: 89, 81
+  orig: 100, 100
+  offset: 6, 8
+  index: -1

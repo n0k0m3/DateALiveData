@@ -1,0 +1,321 @@
+
+qizui_touxiang.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+erduo/erduo_00000
+  rotate: false
+  xy: 352, 621
+  size: 114, 121
+  orig: 151, 141
+  offset: 17, 14
+  index: -1
+erduo/erduo_00002
+  rotate: false
+  xy: 471, 745
+  size: 114, 121
+  orig: 151, 141
+  offset: 17, 14
+  index: -1
+erduo/erduo_00004
+  rotate: false
+  xy: 592, 869
+  size: 114, 121
+  orig: 151, 141
+  offset: 17, 14
+  index: -1
+erduo/erduo_00006
+  rotate: false
+  xy: 2, 125
+  size: 114, 121
+  orig: 151, 141
+  offset: 17, 14
+  index: -1
+erduo/erduo_00008
+  rotate: false
+  xy: 118, 249
+  size: 114, 121
+  orig: 151, 141
+  offset: 17, 14
+  index: -1
+erduo/erduo_00010
+  rotate: false
+  xy: 234, 373
+  size: 114, 121
+  orig: 151, 141
+  offset: 17, 14
+  index: -1
+erduo/erduo_00012
+  rotate: false
+  xy: 708, 869
+  size: 114, 121
+  orig: 151, 141
+  offset: 17, 14
+  index: -1
+erduo/erduo_00014
+  rotate: false
+  xy: 2, 2
+  size: 114, 121
+  orig: 151, 141
+  offset: 17, 14
+  index: -1
+erduo/erduo_00016
+  rotate: false
+  xy: 118, 126
+  size: 114, 121
+  orig: 151, 141
+  offset: 17, 14
+  index: -1
+erduo/erduo_00018
+  rotate: false
+  xy: 234, 250
+  size: 114, 121
+  orig: 151, 141
+  offset: 17, 14
+  index: -1
+erduo/erduo_00020
+  rotate: false
+  xy: 587, 745
+  size: 113, 121
+  orig: 151, 141
+  offset: 17, 14
+  index: -1
+erduo/erduo_00022
+  rotate: false
+  xy: 824, 869
+  size: 114, 121
+  orig: 151, 141
+  offset: 17, 14
+  index: -1
+erduo/erduo_00024
+  rotate: false
+  xy: 118, 3
+  size: 114, 121
+  orig: 151, 141
+  offset: 17, 14
+  index: -1
+erduo/erduo_00026
+  rotate: false
+  xy: 234, 127
+  size: 114, 121
+  orig: 151, 141
+  offset: 17, 14
+  index: -1
+erduo/erduo_00028
+  rotate: false
+  xy: 234, 4
+  size: 114, 121
+  orig: 151, 141
+  offset: 17, 14
+  index: -1
+erduo/erduo_00030
+  rotate: false
+  xy: 702, 746
+  size: 114, 121
+  orig: 151, 141
+  offset: 17, 14
+  index: -1
+erduo/erduo_00032
+  rotate: false
+  xy: 818, 746
+  size: 114, 121
+  orig: 151, 141
+  offset: 17, 14
+  index: -1
+erduo/erduo_00034
+  rotate: false
+  xy: 468, 621
+  size: 114, 121
+  orig: 151, 141
+  offset: 17, 14
+  index: -1
+erduo/erduo_00036
+  rotate: false
+  xy: 584, 622
+  size: 114, 121
+  orig: 151, 141
+  offset: 17, 14
+  index: -1
+erduo/erduo_00038
+  rotate: false
+  xy: 350, 373
+  size: 114, 121
+  orig: 151, 141
+  offset: 17, 14
+  index: -1
+erduo/erduo_00040
+  rotate: false
+  xy: 350, 250
+  size: 114, 121
+  orig: 151, 141
+  offset: 17, 14
+  index: -1
+erduo/erduo_00042
+  rotate: false
+  xy: 2, 620
+  size: 116, 122
+  orig: 151, 141
+  offset: 15, 14
+  index: -1
+erduo/erduo_00044
+  rotate: false
+  xy: 2, 744
+  size: 119, 122
+  orig: 151, 141
+  offset: 13, 14
+  index: -1
+erduo/erduo_00046
+  rotate: false
+  xy: 2, 868
+  size: 120, 122
+  orig: 151, 141
+  offset: 12, 14
+  index: -1
+erduo/erduo_00048
+  rotate: false
+  xy: 124, 868
+  size: 118, 122
+  orig: 151, 141
+  offset: 13, 14
+  index: -1
+erduo/erduo_00050
+  rotate: false
+  xy: 123, 744
+  size: 114, 122
+  orig: 151, 141
+  offset: 17, 14
+  index: -1
+erduo/erduo_00052
+  rotate: false
+  xy: 244, 868
+  size: 114, 122
+  orig: 151, 141
+  offset: 17, 14
+  index: -1
+erduo/erduo_00054
+  rotate: false
+  xy: 2, 496
+  size: 114, 122
+  orig: 151, 141
+  offset: 17, 14
+  index: -1
+erduo/erduo_00056
+  rotate: false
+  xy: 120, 620
+  size: 114, 122
+  orig: 151, 141
+  offset: 17, 14
+  index: -1
+erduo/erduo_00058
+  rotate: false
+  xy: 239, 744
+  size: 114, 122
+  orig: 151, 141
+  offset: 17, 14
+  index: -1
+erduo/erduo_00060
+  rotate: false
+  xy: 350, 496
+  size: 113, 122
+  orig: 151, 141
+  offset: 17, 14
+  index: -1
+erduo/erduo_00062
+  rotate: false
+  xy: 360, 868
+  size: 114, 122
+  orig: 151, 141
+  offset: 17, 14
+  index: -1
+erduo/erduo_00064
+  rotate: false
+  xy: 2, 372
+  size: 114, 122
+  orig: 151, 141
+  offset: 17, 14
+  index: -1
+erduo/erduo_00066
+  rotate: false
+  xy: 118, 496
+  size: 114, 122
+  orig: 151, 141
+  offset: 17, 14
+  index: -1
+erduo/erduo_00068
+  rotate: false
+  xy: 236, 620
+  size: 114, 122
+  orig: 151, 141
+  offset: 17, 14
+  index: -1
+erduo/erduo_00070
+  rotate: false
+  xy: 355, 744
+  size: 114, 122
+  orig: 151, 141
+  offset: 17, 14
+  index: -1
+erduo/erduo_00072
+  rotate: false
+  xy: 476, 868
+  size: 114, 122
+  orig: 151, 141
+  offset: 17, 14
+  index: -1
+erduo/erduo_00074
+  rotate: false
+  xy: 2, 248
+  size: 114, 122
+  orig: 151, 141
+  offset: 17, 14
+  index: -1
+erduo/erduo_00076
+  rotate: false
+  xy: 118, 372
+  size: 114, 122
+  orig: 151, 141
+  offset: 17, 14
+  index: -1
+erduo/erduo_00078
+  rotate: false
+  xy: 234, 496
+  size: 114, 122
+  orig: 151, 141
+  offset: 17, 14
+  index: -1
+erduo/erduo_00080
+  rotate: false
+  xy: 350, 127
+  size: 114, 121
+  orig: 151, 141
+  offset: 17, 14
+  index: -1
+erduo/erduo_00082
+  rotate: false
+  xy: 350, 4
+  size: 114, 121
+  orig: 151, 141
+  offset: 17, 14
+  index: -1
+erduo/erduo_00084
+  rotate: false
+  xy: 466, 375
+  size: 113, 121
+  orig: 151, 141
+  offset: 17, 14
+  index: -1
+erduo/erduo_00086
+  rotate: false
+  xy: 465, 498
+  size: 114, 121
+  orig: 151, 141
+  offset: 17, 14
+  index: -1
+erduo/erduo_00088
+  rotate: false
+  xy: 466, 252
+  size: 114, 121
+  orig: 151, 141
+  offset: 17, 14
+  index: -1

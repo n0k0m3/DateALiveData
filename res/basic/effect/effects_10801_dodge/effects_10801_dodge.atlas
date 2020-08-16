@@ -1,0 +1,20 @@
+
+effects_10801_dodge.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/dodge/p1_a_00000
+  rotate: false
+  xy: 2, 2
+  size: 324, 152
+  orig: 324, 152
+  offset: 0, 0
+  index: -1
+effects/dodge/ry_0000
+  rotate: false
+  xy: 2, 156
+  size: 271, 255
+  orig: 271, 255
+  offset: 0, 0
+  index: -1

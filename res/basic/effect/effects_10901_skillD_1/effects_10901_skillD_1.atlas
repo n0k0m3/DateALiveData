@@ -1,0 +1,314 @@
+
+effects_10901_skillD_1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skillD/qifei/huanraoshangsheng/huanraoshangsheng_00082
+  rotate: false
+  xy: 912, 869
+  size: 47, 65
+  orig: 101, 153
+  offset: 14, 0
+  index: -1
+effect/skillD/qifei/huanraoshangsheng/huanraoshangsheng_00084
+  rotate: false
+  xy: 206, 652
+  size: 87, 136
+  orig: 101, 153
+  offset: 2, 0
+  index: -1
+effect/skillD/qifei/huanraoshangsheng/huanraoshangsheng_00086
+  rotate: false
+  xy: 513, 671
+  size: 100, 153
+  orig: 101, 153
+  offset: 1, 0
+  index: -1
+effect/skillD/qifei/huanraoshangsheng/huanraoshangsheng_00088
+  rotate: false
+  xy: 615, 679
+  size: 99, 145
+  orig: 101, 153
+  offset: 2, 8
+  index: -1
+effect/skillD/qifei/huanraoshangsheng/huanraoshangsheng_00090
+  rotate: true
+  xy: 763, 567
+  size: 94, 115
+  orig: 101, 153
+  offset: 6, 38
+  index: -1
+effect/skillD/qifei/huanraoshangsheng/huanraoshangsheng_00092
+  rotate: true
+  xy: 117, 223
+  size: 78, 92
+  orig: 101, 153
+  offset: 9, 61
+  index: -1
+effect/skillD/qifei/huanyan/huanyan_00081
+  rotate: true
+  xy: 968, 952
+  size: 70, 40
+  orig: 275, 143
+  offset: 99, 68
+  index: -1
+effect/skillD/qifei/huanyan/huanyan_00083
+  rotate: true
+  xy: 961, 800
+  size: 134, 61
+  orig: 275, 143
+  offset: 68, 56
+  index: -1
+effect/skillD/qifei/huanyan/huanyan_00085
+  rotate: false
+  xy: 753, 936
+  size: 213, 86
+  orig: 275, 143
+  offset: 30, 40
+  index: -1
+effect/skillD/qifei/huanyan/huanyan_00087
+  rotate: false
+  xy: 2, 790
+  size: 266, 111
+  orig: 275, 143
+  offset: 4, 15
+  index: -1
+effect/skillD/qifei/huanyan/huanyan_00089
+  rotate: false
+  xy: 2, 903
+  size: 274, 119
+  orig: 275, 143
+  offset: 1, 4
+  index: -1
+effect/skillD/qifei/huanyan/huanyan_00091
+  rotate: false
+  xy: 278, 917
+  size: 268, 105
+  orig: 275, 143
+  offset: 3, 8
+  index: -1
+effect/skillD/qifei/jiaodiyan/jiaodiyan_00084
+  rotate: false
+  xy: 777, 663
+  size: 100, 39
+  orig: 188, 107
+  offset: 41, 35
+  index: -1
+effect/skillD/qifei/jiaodiyan/jiaodiyan_00086
+  rotate: true
+  xy: 117, 303
+  size: 127, 88
+  orig: 188, 107
+  offset: 28, 10
+  index: -1
+effect/skillD/qifei/jiaodiyan/jiaodiyan_00088
+  rotate: false
+  xy: 753, 845
+  size: 157, 89
+  orig: 188, 107
+  offset: 11, 10
+  index: -1
+effect/skillD/qifei/jiaodiyan/jiaodiyan_00090
+  rotate: false
+  xy: 566, 826
+  size: 168, 95
+  orig: 188, 107
+  offset: 6, 6
+  index: -1
+effect/skillD/qifei/jiaodiyan/jiaodiyan_00092
+  rotate: true
+  xy: 428, 482
+  size: 174, 105
+  orig: 188, 107
+  offset: 3, 1
+  index: -1
+effect/skillD/qifei/jiaodiyan/jiaodiyan_00094
+  rotate: true
+  xy: 404, 658
+  size: 176, 107
+  orig: 188, 107
+  offset: 2, 0
+  index: -1
+effect/skillD/qifei/jiaodiyan/jiaodiyan_00096
+  rotate: true
+  xy: 295, 653
+  size: 181, 107
+  orig: 188, 107
+  offset: 1, 0
+  index: -1
+effect/skillD/qifei/jiaodiyan/jiaodiyan_00098
+  rotate: true
+  xy: 319, 468
+  size: 183, 107
+  orig: 188, 107
+  offset: 0, 0
+  index: -1
+effect/skillD/qifei/jiaodiyan/jiaodiyan_00100
+  rotate: true
+  xy: 2, 27
+  size: 185, 107
+  orig: 188, 107
+  offset: 0, 0
+  index: -1
+effect/skillD/qifei/jiaodiyan/jiaodiyan_00102
+  rotate: true
+  xy: 210, 466
+  size: 184, 107
+  orig: 188, 107
+  offset: 0, 0
+  index: -1
+effect/skillD/qifei/yanadd/yanadd_00076
+  rotate: false
+  xy: 759, 483
+  size: 38, 27
+  orig: 224, 144
+  offset: 49, 21
+  index: -1
+effect/skillD/qifei/yanadd/yanadd_00078
+  rotate: true
+  xy: 191, 94
+  size: 127, 37
+  orig: 224, 144
+  offset: 49, 16
+  index: -1
+effect/skillD/qifei/yanadd/yanadd_00080
+  rotate: true
+  xy: 716, 679
+  size: 145, 59
+  orig: 224, 144
+  offset: 43, 12
+  index: -1
+effect/skillD/qifei/yanadd/yanadd_00082
+  rotate: true
+  xy: 535, 499
+  size: 170, 74
+  orig: 224, 144
+  offset: 41, 11
+  index: -1
+effect/skillD/qifei/yanadd/yanadd_00084
+  rotate: false
+  xy: 278, 836
+  size: 184, 79
+  orig: 224, 144
+  offset: 38, 10
+  index: -1
+effect/skillD/qifei/yanadd/yanadd_00086
+  rotate: true
+  xy: 122, 456
+  size: 194, 86
+  orig: 224, 144
+  offset: 27, 9
+  index: -1
+effect/skillD/qifei/yanadd/yanadd_00088
+  rotate: false
+  xy: 548, 923
+  size: 203, 99
+  orig: 224, 144
+  offset: 15, 6
+  index: -1
+effect/skillD/qifei/yanadd/yanadd_00090
+  rotate: true
+  xy: 2, 214
+  size: 216, 113
+  orig: 224, 144
+  offset: 5, 4
+  index: -1
+effect/skillD/qifei/yanadd/yanadd_00092
+  rotate: true
+  xy: 2, 432
+  size: 218, 118
+  orig: 224, 144
+  offset: 3, 3
+  index: -1
+effect/skillD/qifei/yanadd/yanadd_00094
+  rotate: false
+  xy: 2, 652
+  size: 202, 136
+  orig: 224, 144
+  offset: 1, 1
+  index: -1
+effect/skillD/qifei/yanadd/yanadd_00096
+  rotate: false
+  xy: 777, 704
+  size: 102, 139
+  orig: 224, 144
+  offset: 67, 2
+  index: -1
+effect/skillD/qifei/yanadd/yanadd_00098
+  rotate: false
+  xy: 464, 836
+  size: 100, 79
+  orig: 224, 144
+  offset: 67, 63
+  index: -1
+effect/skillD/qifei/yanadd/yanadd_00100
+  rotate: false
+  xy: 535, 411
+  size: 74, 86
+  orig: 224, 144
+  offset: 64, 57
+  index: -1
+effect/skillD/quanpingguang/quanpingguang_00066
+  rotate: false
+  xy: 759, 512
+  size: 50, 53
+  orig: 146, 78
+  offset: 33, 0
+  index: -1
+effect/skillD/quanpingguang/quanpingguang_00068
+  rotate: true
+  xy: 111, 32
+  size: 32, 51
+  orig: 146, 78
+  offset: 58, 0
+  index: -1
+effect/skillD/quanpingguang/quanpingguang_00070
+  rotate: true
+  xy: 961, 669
+  size: 129, 60
+  orig: 146, 78
+  offset: 0, 13
+  index: -1
+effect/skillD/quanpingguang/quanpingguang_00072
+  rotate: true
+  xy: 881, 697
+  size: 146, 78
+  orig: 146, 78
+  offset: 0, 0
+  index: -1
+effect/skillD/quanpingguang/quanpingguang_00074
+  rotate: false
+  xy: 615, 599
+  size: 146, 78
+  orig: 146, 78
+  offset: 0, 0
+  index: -1
+effect/skillD/quanpingguang/quanpingguang_00076
+  rotate: false
+  xy: 611, 519
+  size: 146, 78
+  orig: 146, 78
+  offset: 0, 0
+  index: -1
+effect/skillD/quanpingguang/quanpingguang_00078
+  rotate: false
+  xy: 611, 439
+  size: 146, 78
+  orig: 146, 78
+  offset: 0, 0
+  index: -1
+effect/skillD/quanpingguang/quanpingguang_00080
+  rotate: true
+  xy: 111, 66
+  size: 146, 78
+  orig: 146, 78
+  offset: 0, 0
+  index: -1
+effect/skillD/quanpingguang/quanpingguang_00082
+  rotate: false
+  xy: 611, 359
+  size: 146, 78
+  orig: 146, 78
+  offset: 0, 0
+  index: -1

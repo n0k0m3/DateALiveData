@@ -1,0 +1,48 @@
+
+map_huohua_02.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/huohua/huohua_00064
+  rotate: false
+  xy: 263, 258
+  size: 75, 80
+  orig: 75, 80
+  offset: 0, 0
+  index: -1
+images/huohua/huohua_00065
+  rotate: false
+  xy: 2, 96
+  size: 111, 115
+  orig: 111, 115
+  offset: 0, 0
+  index: -1
+images/huohua/huohua_00066
+  rotate: false
+  xy: 2, 213
+  size: 134, 125
+  orig: 134, 125
+  offset: 0, 0
+  index: -1
+images/huohua/huohua_00067
+  rotate: false
+  xy: 138, 250
+  size: 123, 88
+  orig: 123, 88
+  offset: 0, 0
+  index: -1
+images/huohua/huohua_00068
+  rotate: false
+  xy: 138, 250
+  size: 123, 88
+  orig: 123, 88
+  offset: 0, 0
+  index: -1
+images/huohua/huohua_00069
+  rotate: false
+  xy: 2, 26
+  size: 110, 68
+  orig: 110, 68
+  offset: 0, 0
+  index: -1

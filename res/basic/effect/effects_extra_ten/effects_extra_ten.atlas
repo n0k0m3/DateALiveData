@@ -1,0 +1,27 @@
+
+effects_extra_ten.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/hudun1_00000
+  rotate: false
+  xy: 2, 117
+  size: 106, 122
+  orig: 106, 122
+  offset: 0, 0
+  index: -1
+images/hudun2_00000
+  rotate: false
+  xy: 2, 2
+  size: 83, 113
+  orig: 83, 113
+  offset: 0, 0
+  index: -1
+images/hudun3_00000
+  rotate: false
+  xy: 110, 126
+  size: 83, 113
+  orig: 83, 113
+  offset: 0, 0
+  index: -1

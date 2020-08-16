@@ -1,0 +1,27 @@
+
+effect_ui23.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/gantanhao
+  rotate: false
+  xy: 85, 103
+  size: 19, 44
+  orig: 19, 44
+  offset: 0, 0
+  index: -1
+images/yuanda
+  rotate: false
+  xy: 2, 66
+  size: 81, 81
+  orig: 81, 81
+  offset: 0, 0
+  index: -1
+images/yuanxiao
+  rotate: false
+  xy: 2, 2
+  size: 62, 62
+  orig: 62, 62
+  offset: 0, 0
+  index: -1

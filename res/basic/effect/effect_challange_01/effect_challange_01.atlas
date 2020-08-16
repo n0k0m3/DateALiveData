@@ -1,0 +1,41 @@
+
+effect_challange_01.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+biankuang_00000
+  rotate: true
+  xy: 260, 138
+  size: 139, 123
+  orig: 150, 150
+  offset: 7, 12
+  index: -1
+glow010_00000
+  rotate: false
+  xy: 2, 21
+  size: 256, 256
+  orig: 300, 300
+  offset: 19, 20
+  index: -1
+glow_000_00000
+  rotate: false
+  xy: 400, 399
+  size: 96, 97
+  orig: 100, 100
+  offset: 2, 2
+  index: -1
+guanmang
+  rotate: false
+  xy: 2, 279
+  size: 396, 217
+  orig: 407, 219
+  offset: 6, 2
+  index: -1
+lizidian
+  rotate: false
+  xy: 2, 2
+  size: 16, 17
+  orig: 19, 19
+  offset: 2, 1
+  index: -1

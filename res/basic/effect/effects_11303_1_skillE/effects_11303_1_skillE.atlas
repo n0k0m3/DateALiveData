@@ -1,0 +1,236 @@
+
+effects_11303_1_skillE.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skillA/hit/hit_022
+  rotate: true
+  xy: 820, 613
+  size: 214, 194
+  orig: 214, 194
+  offset: 0, 0
+  index: -1
+skillA/hit/hit_024
+  rotate: false
+  xy: 820, 829
+  size: 202, 193
+  orig: 214, 194
+  offset: 0, 0
+  index: -1
+skillA/hit/hit_028
+  rotate: true
+  xy: 818, 397
+  size: 214, 194
+  orig: 214, 194
+  offset: 0, 0
+  index: -1
+skillC/bao1/bao1_111
+  rotate: false
+  xy: 276, 502
+  size: 262, 254
+  orig: 262, 254
+  offset: 0, 0
+  index: -1
+skillC/bao1/bao1_117
+  rotate: false
+  xy: 2, 501
+  size: 262, 254
+  orig: 262, 254
+  offset: 0, 0
+  index: -1
+skillC/bao1/bao1_119
+  rotate: false
+  xy: 266, 246
+  size: 262, 254
+  orig: 262, 254
+  offset: 0, 0
+  index: -1
+skillC/bao1/bao1_121
+  rotate: false
+  xy: 2, 245
+  size: 262, 254
+  orig: 262, 254
+  offset: 0, 0
+  index: -1
+skillC/bao1/bao1_123
+  rotate: false
+  xy: 760, 141
+  size: 262, 254
+  orig: 262, 254
+  offset: 0, 0
+  index: -1
+skillC/bao1/bao1_129
+  rotate: false
+  xy: 2, 2
+  size: 262, 241
+  orig: 262, 254
+  offset: 0, 0
+  index: -1
+skillE/bao_000
+  rotate: false
+  xy: 530, 248
+  size: 228, 244
+  orig: 283, 267
+  offset: 32, 8
+  index: -1
+skillE/bao_002
+  rotate: false
+  xy: 548, 494
+  size: 268, 263
+  orig: 283, 267
+  offset: 11, 0
+  index: -1
+skillE/bao_004
+  rotate: false
+  xy: 276, 758
+  size: 270, 264
+  orig: 283, 267
+  offset: 9, 0
+  index: -1
+skillE/bao_006
+  rotate: false
+  xy: 2, 757
+  size: 272, 265
+  orig: 283, 267
+  offset: 8, 0
+  index: -1
+skillE/bao_008
+  rotate: false
+  xy: 548, 759
+  size: 270, 263
+  orig: 283, 267
+  offset: 9, 0
+  index: -1
+skillE/bao_010
+  rotate: false
+  xy: 266, 2
+  size: 237, 242
+  orig: 283, 267
+  offset: 26, 10
+  index: -1
+skillE/bao_012
+  rotate: true
+  xy: 505, 3
+  size: 241, 229
+  orig: 283, 267
+  offset: 22, 11
+  index: -1
+skillE/luobo
+  rotate: true
+  xy: 850, 67
+  size: 72, 138
+  orig: 72, 138
+  offset: 0, 0
+  index: -1
+skillE/luobolizi/luobolizi_00062
+  rotate: false
+  xy: 736, 25
+  size: 112, 114
+  orig: 187, 176
+  offset: 36, 43
+  index: -1
+
+effects_11303_1_skillE2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skillA/glow_001
+  rotate: false
+  xy: 746, 603
+  size: 178, 177
+  orig: 180, 177
+  offset: 1, 0
+  index: -1
+skillA/hit/hit_030
+  rotate: false
+  xy: 530, 782
+  size: 214, 194
+  orig: 214, 194
+  offset: 0, 0
+  index: -1
+skillA/hit/hit_032
+  rotate: false
+  xy: 2, 21
+  size: 214, 194
+  orig: 214, 194
+  offset: 0, 0
+  index: -1
+skillA/hit/hit_034
+  rotate: false
+  xy: 746, 782
+  size: 214, 194
+  orig: 214, 194
+  offset: 0, 0
+  index: -1
+skillA/hit/hit_036
+  rotate: false
+  xy: 530, 586
+  size: 214, 194
+  orig: 214, 194
+  offset: 0, 0
+  index: -1
+skillC/bao1/bao1_113
+  rotate: false
+  xy: 2, 217
+  size: 253, 249
+  orig: 262, 254
+  offset: 0, 0
+  index: -1
+skillC/bao1/bao1_115
+  rotate: false
+  xy: 2, 468
+  size: 262, 252
+  orig: 262, 254
+  offset: 0, 0
+  index: -1
+skillC/bao1/bao1_125
+  rotate: false
+  xy: 2, 722
+  size: 262, 254
+  orig: 262, 254
+  offset: 0, 0
+  index: -1
+skillC/bao1/bao1_127
+  rotate: false
+  xy: 266, 729
+  size: 262, 247
+  orig: 262, 254
+  offset: 0, 0
+  index: -1
+skillE/bao_016
+  rotate: false
+  xy: 266, 487
+  size: 234, 240
+  orig: 283, 267
+  offset: 28, 11
+  index: -1
+skillE/luobolizi/luobolizi_00064
+  rotate: true
+  xy: 218, 70
+  size: 145, 140
+  orig: 187, 176
+  offset: 18, 24
+  index: -1
+skillE/luobolizi/luobolizi_00066
+  rotate: true
+  xy: 671, 424
+  size: 160, 153
+  orig: 187, 176
+  offset: 9, 13
+  index: -1
+skillE/luobolizi/luobolizi_00068
+  rotate: false
+  xy: 502, 425
+  size: 167, 159
+  orig: 187, 176
+  offset: 6, 6
+  index: -1
+skillE/luobolizi/luobolizi_00070
+  rotate: false
+  xy: 826, 449
+  size: 150, 152
+  orig: 187, 176
+  offset: 19, 4
+  index: -1

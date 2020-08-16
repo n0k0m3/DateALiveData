@@ -1,0 +1,41 @@
+
+effect_hwx_bufflingqu.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+deng
+  rotate: false
+  xy: 102, 196
+  size: 51, 47
+  orig: 51, 47
+  offset: 0, 0
+  index: -1
+guang
+  rotate: false
+  xy: 2, 133
+  size: 98, 110
+  orig: 98, 110
+  offset: 0, 0
+  index: -1
+liiz
+  rotate: false
+  xy: 102, 174
+  size: 3, 20
+  orig: 3, 20
+  offset: 0, 0
+  index: -1
+tiao
+  rotate: false
+  xy: 2, 2
+  size: 46, 31
+  orig: 46, 31
+  offset: 0, 0
+  index: -1
+tubiao
+  rotate: false
+  xy: 2, 35
+  size: 98, 96
+  orig: 98, 96
+  offset: 0, 0
+  index: -1

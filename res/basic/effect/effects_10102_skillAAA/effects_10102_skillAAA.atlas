@@ -1,0 +1,620 @@
+
+effects_10102_skillAAA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Effects/AAA/daoguang1/daoguang1_001
+  rotate: false
+  xy: 426, 240
+  size: 185, 172
+  orig: 210, 210
+  offset: 7, 24
+  index: -1
+Effects/AAA/daoguang1/daoguang1_002
+  rotate: false
+  xy: 302, 675
+  size: 185, 189
+  orig: 210, 210
+  offset: 12, 11
+  index: -1
+Effects/AAA/daoguang1/daoguang1_006
+  rotate: true
+  xy: 829, 577
+  size: 186, 193
+  orig: 210, 210
+  offset: 17, 11
+  index: -1
+Effects/AAA/daoguang34/daoguang34_002
+  rotate: false
+  xy: 613, 240
+  size: 172, 178
+  orig: 210, 210
+  offset: 24, 17
+  index: -1
+Effects/AAA/daoguang34/daoguang34_016
+  rotate: true
+  xy: 242, 254
+  size: 150, 182
+  orig: 210, 210
+  offset: 50, 13
+  index: -1
+Effects/AAA/daoguang56/daoguang56_001
+  rotate: true
+  xy: 2, 2
+  size: 247, 106
+  orig: 252, 144
+  offset: 0, 14
+  index: -1
+Effects/AAA/daoguang56/daoguang56_003
+  rotate: true
+  xy: 110, 2
+  size: 247, 102
+  orig: 252, 144
+  offset: 5, 19
+  index: -1
+Effects/AAA/daoguang56/daoguang56_004
+  rotate: false
+  xy: 787, 257
+  size: 234, 103
+  orig: 252, 144
+  offset: 18, 19
+  index: -1
+Effects/AAA/daoguang56/daoguang56_008
+  rotate: true
+  xy: 737, 470
+  size: 204, 90
+  orig: 252, 144
+  offset: 48, 29
+  index: -1
+Effects/AAA/daoguang56/daoguang56_012
+  rotate: true
+  xy: 214, 2
+  size: 247, 102
+  orig: 252, 144
+  offset: 5, 14
+  index: -1
+Effects/AAA/daoguang56/daoguang56_013
+  rotate: true
+  xy: 318, 2
+  size: 250, 102
+  orig: 252, 144
+  offset: 2, 14
+  index: -1
+Effects/AAA/daoguang7/daoguang7_001
+  rotate: true
+  xy: 829, 362
+  size: 213, 192
+  orig: 228, 216
+  offset: 5, 8
+  index: -1
+Effects/AAA/daoguang7/daoguang7_002
+  rotate: false
+  xy: 801, 51
+  size: 217, 204
+  orig: 228, 216
+  offset: 6, 4
+  index: -1
+Effects/AAA/daoguang8/daoguang8_002
+  rotate: false
+  xy: 302, 866
+  size: 285, 156
+  orig: 300, 180
+  offset: 5, 22
+  index: -1
+Effects/AAA/daoguang8/daoguang8_003
+  rotate: false
+  xy: 2, 852
+  size: 298, 170
+  orig: 300, 180
+  offset: 0, 4
+  index: -1
+Effects/AAA/daoguang8/daoguang8_004
+  rotate: false
+  xy: 2, 675
+  size: 291, 175
+  orig: 300, 180
+  offset: 4, 0
+  index: -1
+Effects/AAA/daoguang8/daoguang8_005
+  rotate: false
+  xy: 589, 849
+  size: 269, 173
+  orig: 300, 180
+  offset: 21, 0
+  index: -1
+Effects/AAA/daoguang8/daoguang8_006
+  rotate: true
+  xy: 242, 406
+  size: 267, 170
+  orig: 300, 180
+  offset: 24, 0
+  index: -1
+Effects/AAA/daoguang8/daoguang8_007
+  rotate: true
+  xy: 414, 414
+  size: 259, 164
+  orig: 300, 180
+  offset: 33, 0
+  index: -1
+Effects/AAA/daoguang8/daoguang8_008
+  rotate: true
+  xy: 860, 765
+  size: 257, 161
+  orig: 300, 180
+  offset: 34, 1
+  index: -1
+Effects/AAA/daoguang8/daoguang8_009
+  rotate: true
+  xy: 580, 420
+  size: 253, 155
+  orig: 300, 180
+  offset: 36, 2
+  index: -1
+Effects/hit/hit_003
+  rotate: true
+  xy: 422, 7
+  size: 231, 195
+  orig: 240, 240
+  offset: 1, 25
+  index: -1
+Effects/hit/hit_004
+  rotate: false
+  xy: 2, 251
+  size: 238, 209
+  orig: 240, 240
+  offset: 1, 17
+  index: -1
+Effects/hit/hit_005
+  rotate: false
+  xy: 2, 462
+  size: 238, 211
+  orig: 240, 240
+  offset: 1, 16
+  index: -1
+Effects/hit/hit_006
+  rotate: true
+  xy: 619, 4
+  size: 234, 180
+  orig: 240, 240
+  offset: 5, 22
+  index: -1
+Effects/hit/hit_009
+  rotate: false
+  xy: 489, 675
+  size: 216, 172
+  orig: 240, 240
+  offset: 22, 26
+  index: -1
+Effects/tongyong/kuoqi/kuoqi_001
+  rotate: false
+  xy: 707, 676
+  size: 120, 171
+  orig: 180, 180
+  offset: 39, 5
+  index: -1
+Effects/tongyong/kuoqi/kuoqi_005
+  rotate: true
+  xy: 801, 16
+  size: 33, 119
+  orig: 180, 180
+  offset: 136, 30
+  index: -1
+
+effects_10102_skillAAA2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Effects/AAA/daciguang/daciguang_000
+  rotate: false
+  xy: 205, 193
+  size: 232, 84
+  orig: 240, 84
+  offset: 0, 0
+  index: -1
+Effects/AAA/daoguang1/daoguang1_004
+  rotate: false
+  xy: 205, 279
+  size: 184, 198
+  orig: 210, 210
+  offset: 16, 6
+  index: -1
+Effects/AAA/daoguang1/daoguang1_008
+  rotate: false
+  xy: 732, 212
+  size: 172, 177
+  orig: 210, 210
+  offset: 27, 18
+  index: -1
+Effects/AAA/daoguang2/daoguang2_000
+  rotate: false
+  xy: 427, 485
+  size: 96, 80
+  orig: 210, 150
+  offset: 80, 20
+  index: -1
+Effects/AAA/daoguang2/daoguang2_005
+  rotate: false
+  xy: 553, 28
+  size: 205, 127
+  orig: 210, 150
+  offset: 5, 12
+  index: -1
+Effects/AAA/daoguang2/daoguang2_006
+  rotate: true
+  xy: 878, 457
+  size: 207, 127
+  orig: 210, 150
+  offset: 3, 14
+  index: -1
+Effects/AAA/daoguang2/daoguang2_012
+  rotate: false
+  xy: 859, 932
+  size: 163, 90
+  orig: 210, 150
+  offset: 13, 45
+  index: -1
+Effects/AAA/daoguang34/daoguang34_005
+  rotate: false
+  xy: 760, 27
+  size: 175, 183
+  orig: 210, 210
+  offset: 28, 19
+  index: -1
+Effects/AAA/daoguang34/daoguang34_007
+  rotate: false
+  xy: 851, 666
+  size: 171, 184
+  orig: 210, 210
+  offset: 33, 19
+  index: -1
+Effects/AAA/daoguang34/daoguang34_010
+  rotate: false
+  xy: 443, 832
+  size: 196, 190
+  orig: 210, 210
+  offset: 3, 15
+  index: -1
+Effects/AAA/daoguang34/daoguang34_011
+  rotate: false
+  xy: 369, 4
+  size: 182, 187
+  orig: 210, 210
+  offset: 20, 10
+  index: -1
+Effects/AAA/daoguang56/daoguang56_000
+  rotate: false
+  xy: 439, 197
+  size: 140, 80
+  orig: 252, 144
+  offset: 32, 24
+  index: -1
+Effects/AAA/daoguang56/daoguang56_002
+  rotate: true
+  xy: 427, 567
+  size: 252, 103
+  orig: 252, 144
+  offset: 0, 10
+  index: -1
+Effects/AAA/daoguang56/daoguang56_006
+  rotate: true
+  xy: 906, 229
+  size: 226, 98
+  orig: 252, 144
+  offset: 26, 23
+  index: -1
+Effects/AAA/daoguang56/daoguang56_011
+  rotate: true
+  xy: 625, 337
+  size: 239, 105
+  orig: 252, 144
+  offset: 13, 11
+  index: -1
+Effects/AAA/daoguang56/daoguang56_014
+  rotate: true
+  xy: 532, 579
+  size: 251, 94
+  orig: 252, 144
+  offset: 1, 22
+  index: -1
+Effects/AAA/daoguang56/daoguang56_016
+  rotate: true
+  xy: 628, 578
+  size: 252, 85
+  orig: 252, 144
+  offset: 0, 27
+  index: -1
+Effects/AAA/daoguang56/daoguang56_018
+  rotate: true
+  xy: 540, 332
+  size: 245, 83
+  orig: 252, 144
+  offset: 6, 27
+  index: -1
+Effects/AAA/daoguang7/daoguang7_000
+  rotate: true
+  xy: 391, 279
+  size: 198, 147
+  orig: 228, 216
+  offset: 2, 38
+  index: -1
+Effects/AAA/daoguang7/daoguang7_003
+  rotate: false
+  xy: 2, 639
+  size: 220, 197
+  orig: 228, 216
+  offset: 6, 11
+  index: -1
+Effects/AAA/daoguang7/daoguang7_004
+  rotate: true
+  xy: 2, 206
+  size: 207, 201
+  orig: 228, 216
+  offset: 20, 8
+  index: -1
+Effects/AAA/daoguang7/daoguang7_006
+  rotate: false
+  xy: 238, 821
+  size: 203, 201
+  orig: 228, 216
+  offset: 25, 10
+  index: -1
+Effects/AAA/daoguang7/daoguang7_008
+  rotate: false
+  xy: 177, 4
+  size: 190, 187
+  orig: 228, 216
+  offset: 37, 16
+  index: -1
+Effects/AAA/daoguang8/daoguang8_000
+  rotate: true
+  xy: 732, 391
+  size: 219, 144
+  orig: 300, 180
+  offset: 41, 31
+  index: -1
+Effects/AAA/daoguang8/daoguang8_001
+  rotate: false
+  xy: 196, 479
+  size: 229, 156
+  orig: 300, 180
+  offset: 36, 22
+  index: -1
+Effects/AAA/daoguang8/daoguang8_010
+  rotate: true
+  xy: 715, 612
+  size: 238, 134
+  orig: 300, 180
+  offset: 37, 22
+  index: -1
+Effects/hit/hit_000
+  rotate: true
+  xy: 2, 2
+  size: 202, 173
+  orig: 240, 240
+  offset: 28, 35
+  index: -1
+Effects/hit/hit_001
+  rotate: false
+  xy: 224, 637
+  size: 201, 182
+  orig: 240, 240
+  offset: 14, 30
+  index: -1
+Effects/hit/hit_002
+  rotate: true
+  xy: 2, 415
+  size: 222, 192
+  orig: 240, 240
+  offset: 3, 25
+  index: -1
+Effects/hit/hit_007
+  rotate: false
+  xy: 2, 838
+  size: 234, 184
+  orig: 240, 240
+  offset: 5, 20
+  index: -1
+Effects/hit/hit_008
+  rotate: false
+  xy: 641, 852
+  size: 216, 170
+  orig: 240, 240
+  offset: 23, 27
+  index: -1
+Effects/tongyong/kuoqi/kuoqi_002
+  rotate: false
+  xy: 625, 157
+  size: 105, 178
+  orig: 180, 180
+  offset: 60, 1
+  index: -1
+Effects/tongyong/kuoqi/kuoqi_003
+  rotate: false
+  xy: 937, 59
+  size: 80, 168
+  orig: 180, 180
+  offset: 87, 6
+  index: -1
+Effects/tongyong/kuoqi/kuoqi_004
+  rotate: true
+  xy: 859, 876
+  size: 54, 152
+  orig: 180, 180
+  offset: 114, 14
+  index: -1
+
+effects_10102_skillAAA3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Effects/AAA/daoguang1/daoguang1_000
+  rotate: false
+  xy: 302, 551
+  size: 102, 93
+  orig: 210, 210
+  offset: 46, 77
+  index: -1
+Effects/AAA/daoguang1/daoguang1_010
+  rotate: true
+  xy: 758, 850
+  size: 170, 172
+  orig: 210, 210
+  offset: 29, 22
+  index: -1
+Effects/AAA/daoguang2/daoguang2_002
+  rotate: true
+  xy: 528, 705
+  size: 154, 104
+  orig: 210, 150
+  offset: 55, 12
+  index: -1
+Effects/AAA/daoguang2/daoguang2_004
+  rotate: true
+  xy: 176, 644
+  size: 194, 124
+  orig: 210, 150
+  offset: 12, 12
+  index: -1
+Effects/AAA/daoguang2/daoguang2_008
+  rotate: true
+  xy: 2, 80
+  size: 207, 126
+  orig: 210, 150
+  offset: 2, 17
+  index: -1
+Effects/AAA/daoguang2/daoguang2_010
+  rotate: true
+  xy: 130, 83
+  size: 204, 115
+  orig: 210, 150
+  offset: 0, 27
+  index: -1
+Effects/AAA/daoguang34/daoguang34_001
+  rotate: false
+  xy: 527, 566
+  size: 118, 137
+  orig: 210, 210
+  offset: 46, 32
+  index: -1
+Effects/AAA/daoguang34/daoguang34_003
+  rotate: false
+  xy: 2, 473
+  size: 168, 180
+  orig: 210, 210
+  offset: 28, 16
+  index: -1
+Effects/AAA/daoguang34/daoguang34_004
+  rotate: true
+  xy: 575, 862
+  size: 158, 181
+  orig: 210, 210
+  offset: 42, 19
+  index: -1
+Effects/AAA/daoguang34/daoguang34_006
+  rotate: false
+  xy: 2, 655
+  size: 172, 183
+  orig: 210, 210
+  offset: 31, 19
+  index: -1
+Effects/AAA/daoguang34/daoguang34_009
+  rotate: false
+  xy: 2, 840
+  size: 194, 180
+  orig: 210, 210
+  offset: 2, 25
+  index: -1
+Effects/AAA/daoguang34/daoguang34_012
+  rotate: true
+  xy: 198, 851
+  size: 169, 185
+  orig: 210, 210
+  offset: 34, 10
+  index: -1
+Effects/AAA/daoguang34/daoguang34_014
+  rotate: true
+  xy: 385, 861
+  size: 159, 188
+  orig: 210, 210
+  offset: 45, 8
+  index: -1
+Effects/AAA/daoguang56/daoguang56_010
+  rotate: true
+  xy: 302, 646
+  size: 203, 102
+  orig: 252, 144
+  offset: 38, 24
+  index: -1
+Effects/AAA/daoguang7/daoguang7_010
+  rotate: false
+  xy: 2, 289
+  size: 159, 182
+  orig: 228, 216
+  offset: 63, 21
+  index: -1
+Effects/AAA/tiaodai/tiaodai_000
+  rotate: false
+  xy: 2, 2
+  size: 116, 76
+  orig: 120, 150
+  offset: 1, 0
+  index: -1
+Effects/AAA/tiaodai/tiaodai_002
+  rotate: false
+  xy: 406, 570
+  size: 119, 142
+  orig: 120, 150
+  offset: 1, 0
+  index: -1
+Effects/AAA/tiaodai/tiaodai_004
+  rotate: false
+  xy: 406, 714
+  size: 120, 145
+  orig: 120, 150
+  offset: 0, 4
+  index: -1
+Effects/AAA/tiaodai/tiaodai_006
+  rotate: false
+  xy: 634, 717
+  size: 120, 143
+  orig: 120, 150
+  offset: 0, 6
+  index: -1
+Effects/AAA/tiaodai/tiaodai_008
+  rotate: true
+  xy: 756, 728
+  size: 120, 142
+  orig: 120, 150
+  offset: 0, 7
+  index: -1
+Effects/AAA/tiaodai/tiaodai_010
+  rotate: false
+  xy: 647, 592
+  size: 103, 123
+  orig: 120, 150
+  offset: 8, 23
+  index: -1
+Effects/AAA/tiaodai/tiaodai_012
+  rotate: true
+  xy: 294, 452
+  size: 97, 110
+  orig: 120, 150
+  offset: 15, 28
+  index: -1
+Effects/glow_000
+  rotate: false
+  xy: 932, 962
+  size: 58, 58
+  orig: 60, 60
+  offset: 1, 1
+  index: -1
+Effects/tongyong/kuoqi/kuoqi_000
+  rotate: false
+  xy: 172, 481
+  size: 120, 161
+  orig: 180, 180
+  offset: 33, 10
+  index: -1

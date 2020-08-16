@@ -1,0 +1,20 @@
+
+effect_DEM1_shuimian.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/glow_000
+  rotate: false
+  xy: 2, 350
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+images/haimian_00000
+  rotate: false
+  xy: 2, 452
+  size: 600, 150
+  orig: 600, 150
+  offset: 0, 0
+  index: -1

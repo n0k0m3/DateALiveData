@@ -1,0 +1,90 @@
+
+effects_extra_0034.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/baodian/baodian_00031
+  rotate: false
+  xy: 2, 32
+  size: 138, 149
+  orig: 280, 280
+  offset: 69, 64
+  index: -1
+images/baodian/baodian_00032
+  rotate: false
+  xy: 2, 183
+  size: 251, 274
+  orig: 280, 280
+  offset: 12, 2
+  index: -1
+images/baodian/baodian_00033
+  rotate: false
+  xy: 269, 742
+  size: 258, 279
+  orig: 280, 280
+  offset: 9, 0
+  index: -1
+images/baodian/baodian_00035
+  rotate: false
+  xy: 2, 459
+  size: 264, 280
+  orig: 280, 280
+  offset: 6, 0
+  index: -1
+images/baodian/baodian_00037
+  rotate: false
+  xy: 2, 741
+  size: 265, 280
+  orig: 280, 280
+  offset: 6, 0
+  index: -1
+images/baodian/baodian_00039
+  rotate: false
+  xy: 529, 763
+  size: 246, 258
+  orig: 280, 280
+  offset: 17, 10
+  index: -1
+images/baodian/baodian_00041
+  rotate: false
+  xy: 777, 831
+  size: 187, 190
+  orig: 280, 280
+  offset: 48, 45
+  index: -1
+images/baodian/baodian_00045
+  rotate: true
+  xy: 142, 47
+  size: 134, 125
+  orig: 280, 280
+  offset: 69, 77
+  index: -1
+images/baodian/baodian_00049
+  rotate: true
+  xy: 966, 909
+  size: 112, 54
+  orig: 280, 280
+  offset: 78, 132
+  index: -1
+images/baodian/baodian_00053
+  rotate: false
+  xy: 777, 738
+  size: 106, 91
+  orig: 280, 280
+  offset: 81, 92
+  index: -1
+images/baodian/baodian_00057
+  rotate: false
+  xy: 885, 757
+  size: 40, 72
+  orig: 280, 280
+  offset: 122, 95
+  index: -1
+images/baodian/baodian_00061
+  rotate: false
+  xy: 2, 2
+  size: 76, 28
+  orig: 280, 280
+  offset: 124, 123
+  index: -1

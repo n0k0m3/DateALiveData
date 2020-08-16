@@ -1,0 +1,300 @@
+
+effects_10101_skillA1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/2ban/1/bao1/bao_1_01
+  rotate: false
+  xy: 567, 2
+  size: 91, 114
+  orig: 284, 268
+  offset: 93, 57
+  index: -1
+effect/2ban/1/bao1/bao_1_02
+  rotate: false
+  xy: 869, 659
+  size: 153, 187
+  orig: 284, 268
+  offset: 67, 29
+  index: -1
+effect/2ban/1/bao1/bao_1_03
+  rotate: true
+  xy: 641, 533
+  size: 172, 198
+  orig: 284, 268
+  offset: 62, 36
+  index: -1
+effect/2ban/1/bao1/bao_1_04
+  rotate: true
+  xy: 436, 540
+  size: 174, 203
+  orig: 284, 268
+  offset: 60, 31
+  index: -1
+effect/2ban/1/bao1/bao_1_05
+  rotate: true
+  xy: 661, 848
+  size: 174, 208
+  orig: 284, 268
+  offset: 60, 26
+  index: -1
+effect/2ban/1/bao1/bao_1_06
+  rotate: true
+  xy: 228, 622
+  size: 171, 206
+  orig: 284, 268
+  offset: 63, 28
+  index: -1
+effect/2ban/1/bao1/bao_1_07
+  rotate: true
+  xy: 626, 364
+  size: 167, 194
+  orig: 284, 268
+  offset: 67, 40
+  index: -1
+effect/2ban/1/bao1/bao_1_09
+  rotate: false
+  xy: 429, 69
+  size: 136, 135
+  orig: 284, 268
+  offset: 83, 43
+  index: -1
+effect/2ban/1/bao1/bao_1_11
+  rotate: false
+  xy: 846, 129
+  size: 56, 70
+  orig: 284, 268
+  offset: 129, 110
+  index: -1
+effect/2ban/1/glow1
+  rotate: false
+  xy: 897, 203
+  size: 78, 80
+  orig: 149, 131
+  offset: 32, 28
+  index: -1
+effect/2ban/2/bao2/bao_2_01
+  rotate: false
+  xy: 660, 2
+  size: 85, 114
+  orig: 297, 249
+  offset: 106, 69
+  index: -1
+effect/2ban/2/bao2/bao_2_02
+  rotate: false
+  xy: 299, 125
+  size: 128, 159
+  orig: 297, 249
+  offset: 80, 46
+  index: -1
+effect/2ban/2/bao2/bao_2_03
+  rotate: false
+  xy: 429, 206
+  size: 136, 158
+  orig: 297, 249
+  offset: 74, 48
+  index: -1
+effect/2ban/2/bao2/bao_2_04
+  rotate: false
+  xy: 871, 857
+  size: 151, 165
+  orig: 297, 249
+  offset: 72, 46
+  index: -1
+effect/2ban/2/bao2/bao_2_05
+  rotate: true
+  xy: 822, 302
+  size: 159, 171
+  orig: 297, 249
+  offset: 72, 41
+  index: -1
+effect/2ban/2/bao2/bao_2_06
+  rotate: true
+  xy: 190, 286
+  size: 161, 165
+  orig: 297, 249
+  offset: 75, 44
+  index: -1
+effect/2ban/2/bao2/bao_2_08
+  rotate: false
+  xy: 567, 230
+  size: 150, 132
+  orig: 297, 249
+  offset: 87, 81
+  index: -1
+effect/2ban/2/bao2/bao_2_10
+  rotate: true
+  xy: 2, 23
+  size: 79, 138
+  orig: 297, 249
+  offset: 105, 81
+  index: -1
+effect/2ban/2/bao2/bao_2_12
+  rotate: false
+  xy: 968, 139
+  size: 54, 62
+  orig: 297, 249
+  offset: 104, 79
+  index: -1
+effect/2ban/2/di/di_1_01
+  rotate: false
+  xy: 567, 118
+  size: 108, 110
+  orig: 276, 282
+  offset: 68, 76
+  index: -1
+effect/2ban/2/di/di_1_03
+  rotate: false
+  xy: 164, 117
+  size: 133, 167
+  orig: 276, 282
+  offset: 58, 38
+  index: -1
+effect/2ban/2/di/di_1_05
+  rotate: true
+  xy: 228, 449
+  size: 171, 197
+  orig: 276, 282
+  offset: 56, 55
+  index: -1
+effect/2ban/2/di/di_1_07
+  rotate: true
+  xy: 427, 366
+  size: 172, 197
+  orig: 276, 282
+  offset: 55, 55
+  index: -1
+effect/2ban/2/di/di_1_09
+  rotate: false
+  xy: 841, 463
+  size: 172, 194
+  orig: 276, 282
+  offset: 55, 58
+  index: -1
+effect/2ban/3/X_xiaoshi/X_xiaoshi_01
+  rotate: true
+  xy: 169, 293
+  size: 259, 19
+  orig: 300, 71
+  offset: 20, 27
+  index: -1
+effect/2ban/3/X_xiaoshi/X_xiaoshi_02
+  rotate: true
+  xy: 210, 535
+  size: 246, 16
+  orig: 300, 71
+  offset: 20, 28
+  index: -1
+effect/2ban/3/X_xiaoshi/X_xiaoshi_03
+  rotate: false
+  xy: 2, 6
+  size: 246, 15
+  orig: 300, 71
+  offset: 20, 29
+  index: -1
+effect/2ban/3/X_xiaoshi/X_xiaoshi_04
+  rotate: false
+  xy: 813, 285
+  size: 193, 15
+  orig: 300, 71
+  offset: 55, 29
+  index: -1
+effect/2ban/3/bao3/bao3_01
+  rotate: false
+  xy: 2, 783
+  size: 224, 239
+  orig: 373, 304
+  offset: 94, 38
+  index: -1
+effect/2ban/3/bao3/bao3_02
+  rotate: false
+  xy: 2, 554
+  size: 206, 227
+  orig: 373, 304
+  offset: 114, 48
+  index: -1
+effect/2ban/3/bao3/bao3_03
+  rotate: false
+  xy: 228, 795
+  size: 206, 227
+  orig: 373, 304
+  offset: 114, 48
+  index: -1
+effect/2ban/3/bao3/bao3_04
+  rotate: false
+  xy: 654, 707
+  size: 213, 139
+  orig: 373, 304
+  offset: 110, 89
+  index: -1
+effect/2ban/3/bao3/bao3_05
+  rotate: true
+  xy: 2, 104
+  size: 223, 160
+  orig: 373, 304
+  offset: 121, 82
+  index: -1
+effect/2ban/3/bao3/bao3_06
+  rotate: false
+  xy: 436, 859
+  size: 223, 163
+  orig: 373, 304
+  offset: 121, 79
+  index: -1
+effect/2ban/3/bao3/bao3_08
+  rotate: true
+  xy: 2, 329
+  size: 223, 165
+  orig: 373, 304
+  offset: 121, 77
+  index: -1
+effect/2ban/3/bao3/bao3_10
+  rotate: false
+  xy: 436, 716
+  size: 216, 141
+  orig: 373, 304
+  offset: 127, 100
+  index: -1
+effect/2ban/3/bao3/bao3_12
+  rotate: true
+  xy: 719, 253
+  size: 109, 92
+  orig: 373, 304
+  offset: 159, 111
+  index: -1
+effect/2ban/3/bao3/bao3_13
+  rotate: true
+  xy: 770, 128
+  size: 71, 74
+  orig: 373, 304
+  offset: 174, 111
+  index: -1
+effect/2ban/3/glow3_1
+  rotate: false
+  xy: 813, 201
+  size: 82, 82
+  orig: 120, 121
+  offset: 22, 17
+  index: -1
+effect/glow_1
+  rotate: false
+  xy: 677, 131
+  size: 91, 97
+  orig: 130, 133
+  offset: 15, 20
+  index: -1
+effect/glow_2
+  rotate: false
+  xy: 357, 340
+  size: 24, 107
+  orig: 130, 133
+  offset: 48, 11
+  index: -1
+effect/glow_4
+  rotate: false
+  xy: 904, 140
+  size: 62, 61
+  orig: 109, 98
+  offset: 26, 16
+  index: -1

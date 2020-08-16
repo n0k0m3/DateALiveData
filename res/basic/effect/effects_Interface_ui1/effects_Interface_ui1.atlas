@@ -1,0 +1,48 @@
+
+effects_Interface_ui1.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bian_00030
+  rotate: false
+  xy: 2, 452
+  size: 463, 58
+  orig: 500, 100
+  offset: 17, 18
+  index: -1
+dizuo_00000
+  rotate: false
+  xy: 2, 396
+  size: 454, 54
+  orig: 500, 100
+  offset: 23, 20
+  index: -1
+lizi_00000
+  rotate: false
+  xy: 2, 2
+  size: 29, 33
+  orig: 29, 33
+  offset: 0, 0
+  index: -1
+qiebian_00000
+  rotate: false
+  xy: 2, 271
+  size: 295, 123
+  orig: 300, 200
+  offset: 3, 41
+  index: -1
+xu_00000
+  rotate: false
+  xy: 2, 37
+  size: 295, 37
+  orig: 300, 50
+  offset: 0, 7
+  index: -1
+yanwu_00030
+  rotate: false
+  xy: 2, 76
+  size: 225, 193
+  orig: 300, 200
+  offset: 28, 5
+  index: -1

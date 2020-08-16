@@ -1,0 +1,146 @@
+
+fight_20701.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guaiwu0
+  rotate: true
+  xy: 287, 336
+  size: 57, 32
+  orig: 57, 32
+  offset: 0, 0
+  index: -1
+guaiwu1
+  rotate: false
+  xy: 2, 299
+  size: 77, 94
+  orig: 77, 94
+  offset: 0, 0
+  index: -1
+guaiwu10
+  rotate: true
+  xy: 158, 351
+  size: 42, 80
+  orig: 42, 80
+  offset: 0, 0
+  index: -1
+guaiwu11
+  rotate: true
+  xy: 2, 127
+  size: 75, 52
+  orig: 75, 52
+  offset: 0, 0
+  index: -1
+guaiwu12
+  rotate: true
+  xy: 253, 395
+  size: 26, 63
+  orig: 26, 63
+  offset: 0, 0
+  index: -1
+guaiwu13
+  rotate: false
+  xy: 2, 204
+  size: 61, 93
+  orig: 61, 93
+  offset: 0, 0
+  index: -1
+guaiwu14
+  rotate: false
+  xy: 81, 322
+  size: 75, 71
+  orig: 75, 71
+  offset: 0, 0
+  index: -1
+guaiwu15
+  rotate: false
+  xy: 394, 464
+  size: 76, 44
+  orig: 76, 44
+  offset: 0, 0
+  index: -1
+guaiwu17
+  rotate: false
+  xy: 81, 279
+  size: 57, 41
+  orig: 57, 41
+  offset: 0, 0
+  index: -1
+guaiwu18
+  rotate: true
+  xy: 2, 62
+  size: 63, 51
+  orig: 63, 51
+  offset: 0, 0
+  index: -1
+guaiwu19
+  rotate: false
+  xy: 240, 336
+  size: 45, 57
+  orig: 45, 57
+  offset: 0, 0
+  index: -1
+guaiwu2
+  rotate: false
+  xy: 2, 395
+  size: 249, 113
+  orig: 249, 113
+  offset: 0, 0
+  index: -1
+guaiwu20
+  rotate: false
+  xy: 394, 428
+  size: 58, 34
+  orig: 58, 34
+  offset: 0, 0
+  index: -1
+guaiwu3
+  rotate: false
+  xy: 253, 423
+  size: 79, 85
+  orig: 79, 85
+  offset: 0, 0
+  index: -1
+guaiwu4
+  rotate: false
+  xy: 65, 235
+  size: 54, 42
+  orig: 54, 42
+  offset: 0, 0
+  index: -1
+guaiwu5
+  rotate: false
+  xy: 334, 435
+  size: 58, 73
+  orig: 58, 73
+  offset: 0, 0
+  index: -1
+guaiwu6
+  rotate: true
+  xy: 65, 210
+  size: 23, 53
+  orig: 23, 53
+  offset: 0, 0
+  index: -1
+guaiwu7
+  rotate: true
+  xy: 158, 317
+  size: 32, 80
+  orig: 32, 80
+  offset: 0, 0
+  index: -1
+guaiwu8
+  rotate: true
+  xy: 2, 2
+  size: 58, 51
+  orig: 58, 51
+  offset: 0, 0
+  index: -1
+guaiwu9
+  rotate: false
+  xy: 472, 479
+  size: 21, 29
+  orig: 21, 29
+  offset: 0, 0
+  index: -1

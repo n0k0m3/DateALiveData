@@ -1,0 +1,97 @@
+
+effects_10208_quickmove.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/quickmove/diceng/diceng_00000
+  rotate: true
+  xy: 393, 295
+  size: 119, 49
+  orig: 140, 56
+  offset: 16, 2
+  index: -1
+images/effect/quickmove/diceng/diceng_00002
+  rotate: true
+  xy: 458, 387
+  size: 119, 48
+  orig: 140, 56
+  offset: 16, 3
+  index: -1
+images/effect/quickmove/diceng/diceng_00004
+  rotate: true
+  xy: 444, 270
+  size: 115, 48
+  orig: 140, 56
+  offset: 20, 3
+  index: -1
+images/effect/quickmove/diceng/diceng_00006
+  rotate: true
+  xy: 440, 150
+  size: 118, 48
+  orig: 140, 56
+  offset: 17, 3
+  index: -1
+images/effect/quickmove/shangceng/shangceng_00000
+  rotate: false
+  xy: 289, 274
+  size: 102, 114
+  orig: 315, 119
+  offset: 204, 3
+  index: -1
+images/effect/quickmove/shangceng/shangceng_00001
+  rotate: false
+  xy: 2, 390
+  size: 305, 116
+  orig: 315, 119
+  offset: 1, 1
+  index: -1
+images/effect/quickmove/shangceng/shangceng_00003
+  rotate: false
+  xy: 2, 274
+  size: 285, 114
+  orig: 315, 119
+  offset: 20, 3
+  index: -1
+images/effect/quickmove/shangceng/shangceng_00005
+  rotate: false
+  xy: 2, 157
+  size: 233, 115
+  orig: 315, 119
+  offset: 73, 3
+  index: -1
+images/effect/quickmove/shangceng/shangceng_00007
+  rotate: false
+  xy: 2, 43
+  size: 231, 112
+  orig: 315, 119
+  offset: 74, 5
+  index: -1
+images/effect/quickmove/shangceng/shangceng_00009
+  rotate: true
+  xy: 237, 56
+  size: 216, 110
+  orig: 315, 119
+  offset: 90, 7
+  index: -1
+images/effect/quickmove/shangceng/shangceng_00011
+  rotate: false
+  xy: 309, 416
+  size: 147, 90
+  orig: 315, 119
+  offset: 83, 23
+  index: -1
+images/effect/quickmove/shangceng/shangceng_00013
+  rotate: true
+  xy: 349, 137
+  size: 135, 89
+  orig: 315, 119
+  offset: 85, 24
+  index: -1
+images/effect/quickmove/shangceng/shangceng_00015
+  rotate: false
+  xy: 349, 52
+  size: 95, 83
+  orig: 315, 119
+  offset: 97, 27
+  index: -1

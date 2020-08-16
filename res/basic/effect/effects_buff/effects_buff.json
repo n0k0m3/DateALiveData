@@ -1,0 +1,343 @@
+{
+"skeleton": {
+	"hash": "fl8AreVp4oFY7oEOU3SxD7Ji9GE",
+	"spine": "2.1.27",
+	"width": 0,
+	"height": 0,
+	"images": "C:/Users/Administrator/Desktop/尺寸需要修改的特效/新建文件夹/effects_buff"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "effects", "parent": "root" },
+	{ "name": "fangyu", "parent": "effects" },
+	{ "name": "fangyu2", "parent": "effects" },
+	{ "name": "feng", "parent": "effects" },
+	{ "name": "fengdai", "parent": "effects" },
+	{ "name": "gongji", "parent": "effects" }
+],
+"slots": [
+	{ "name": "fangyu/fangyu_00000_1", "bone": "fangyu", "blend": "additive" },
+	{ "name": "fangyu/fangyu_00000_2", "bone": "fangyu2", "blend": "additive" },
+	{ "name": "gongji/gongji_00000_1", "bone": "gongji", "blend": "additive" },
+	{ "name": "feng/feng_00000", "bone": "feng", "blend": "additive" },
+	{ "name": "fengdai/fengdai_00003", "bone": "fengdai", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"fangyu/fangyu_00000_1": {
+			"fangyu/fangyu_00000_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00001_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00003_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00004_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00006_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00007_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00009_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00010_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00012_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00013_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00015_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00016_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00017_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00019_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00020_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00022_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00023_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00025_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00026_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00028_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00029_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00031_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00032_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00033_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00035_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00036_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00038_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00039_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00041_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00042_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00044_1": { "width": 61, "height": 112 }
+		},
+		"fangyu/fangyu_00000_2": {
+			"fangyu/fangyu_00000_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00001_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00003_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00004_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00006_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00007_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00009_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00010_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00012_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00013_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00015_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00016_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00017_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00019_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00020_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00022_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00023_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00025_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00026_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00028_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00029_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00031_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00032_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00033_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00035_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00036_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00038_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00039_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00041_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00042_1": { "width": 61, "height": 112 },
+			"fangyu/fangyu_00044_1": { "width": 61, "height": 112 }
+		},
+		"feng/feng_00000": {
+			"feng/feng_00000": { "width": 167, "height": 82 },
+			"feng/feng_00002": { "width": 167, "height": 82 },
+			"feng/feng_00004": { "width": 167, "height": 82 },
+			"feng/feng_00006": { "width": 167, "height": 82 }
+		},
+		"fengdai/fengdai_00003": {
+			"fengdai/fengdai_00003": { "width": 198, "height": 124 },
+			"fengdai/fengdai_00006": { "width": 198, "height": 124 },
+			"fengdai/fengdai_00010": { "width": 198, "height": 124 },
+			"fengdai/fengdai_00013": { "width": 198, "height": 124 },
+			"fengdai/fengdai_00016": { "width": 198, "height": 124 },
+			"fengdai/fengdai_00017": { "width": 198, "height": 124 }
+		},
+		"gongji/gongji_00000_1": {
+			"gongji/gongji_00000_1": { "width": 77, "height": 151 },
+			"gongji/gongji_00001_1": { "width": 77, "height": 151 },
+			"gongji/gongji_00003_1": { "width": 77, "height": 151 },
+			"gongji/gongji_00004_1": { "width": 77, "height": 151 },
+			"gongji/gongji_00006_1": { "width": 77, "height": 151 },
+			"gongji/gongji_00007_1": { "width": 77, "height": 151 },
+			"gongji/gongji_00009_1": { "width": 77, "height": 151 },
+			"gongji/gongji_00010_1": { "width": 77, "height": 151 },
+			"gongji/gongji_00012_1": { "width": 77, "height": 151 },
+			"gongji/gongji_00013_1": { "width": 77, "height": 151 },
+			"gongji/gongji_00015_1": { "width": 77, "height": 151 },
+			"gongji/gongji_00016_1": { "width": 77, "height": 151 },
+			"gongji/gongji_00017_1": { "width": 77, "height": 151 },
+			"gongji/gongji_00019_1": { "width": 77, "height": 151 },
+			"gongji/gongji_00020_1": { "width": 77, "height": 151 },
+			"gongji/gongji_00022_1": { "width": 77, "height": 151 },
+			"gongji/gongji_00023_1": { "width": 77, "height": 151 },
+			"gongji/gongji_00025_1": { "width": 77, "height": 151 },
+			"gongji/gongji_00026_1": { "width": 77, "height": 151 },
+			"gongji/gongji_00028_1": { "width": 77, "height": 151 },
+			"gongji/gongji_00029_1": { "width": 77, "height": 151 },
+			"gongji/gongji_00031_1": { "width": 77, "height": 151 },
+			"gongji/gongji_00032_1": { "width": 77, "height": 151 },
+			"gongji/gongji_00033_1": { "width": 77, "height": 151 },
+			"gongji/gongji_00035_1": { "width": 77, "height": 151 },
+			"gongji/gongji_00036_1": { "width": 77, "height": 151 },
+			"gongji/gongji_00038_1": { "width": 77, "height": 151 },
+			"gongji/gongji_00039_1": { "width": 77, "height": 151 },
+			"gongji/gongji_00041_1": { "width": 77, "height": 151 },
+			"gongji/gongji_00042_1": { "width": 77, "height": 151 },
+			"gongji/gongji_00044_1": { "width": 77, "height": 151 }
+		}
+	}
+},
+"animations": {
+	"effects_buff1": {
+		"slots": {
+			"fangyu/fangyu_00000_1": {
+				"attachment": [
+					{ "time": 0, "name": "fangyu/fangyu_00000_1" },
+					{ "time": 0.0333, "name": "fangyu/fangyu_00001_1" },
+					{ "time": 0.1, "name": "fangyu/fangyu_00003_1" },
+					{ "time": 0.1333, "name": "fangyu/fangyu_00004_1" },
+					{ "time": 0.2, "name": "fangyu/fangyu_00006_1" },
+					{ "time": 0.2333, "name": "fangyu/fangyu_00007_1" },
+					{ "time": 0.3, "name": "fangyu/fangyu_00009_1" },
+					{ "time": 0.3333, "name": "fangyu/fangyu_00010_1" },
+					{ "time": 0.4, "name": "fangyu/fangyu_00012_1" },
+					{ "time": 0.4333, "name": "fangyu/fangyu_00013_1" },
+					{ "time": 0.5, "name": "fangyu/fangyu_00015_1" },
+					{ "time": 0.5333, "name": "fangyu/fangyu_00016_1" },
+					{ "time": 0.5666, "name": "fangyu/fangyu_00017_1" },
+					{ "time": 0.6333, "name": "fangyu/fangyu_00019_1" },
+					{ "time": 0.6666, "name": "fangyu/fangyu_00020_1" },
+					{ "time": 0.7333, "name": "fangyu/fangyu_00022_1" },
+					{ "time": 0.7666, "name": "fangyu/fangyu_00023_1" },
+					{ "time": 0.8333, "name": "fangyu/fangyu_00025_1" },
+					{ "time": 0.8666, "name": "fangyu/fangyu_00026_1" },
+					{ "time": 0.9333, "name": "fangyu/fangyu_00028_1" },
+					{ "time": 0.9666, "name": "fangyu/fangyu_00029_1" },
+					{ "time": 1.0333, "name": "fangyu/fangyu_00031_1" },
+					{ "time": 1.0666, "name": "fangyu/fangyu_00032_1" },
+					{ "time": 1.1, "name": "fangyu/fangyu_00033_1" },
+					{ "time": 1.1666, "name": "fangyu/fangyu_00035_1" },
+					{ "time": 1.2, "name": "fangyu/fangyu_00036_1" },
+					{ "time": 1.2666, "name": "fangyu/fangyu_00038_1" },
+					{ "time": 1.3, "name": "fangyu/fangyu_00039_1" },
+					{ "time": 1.3666, "name": "fangyu/fangyu_00041_1" },
+					{ "time": 1.4, "name": "fangyu/fangyu_00042_1" },
+					{ "time": 1.4666, "name": "fangyu/fangyu_00044_1" }
+				]
+			},
+			"fangyu/fangyu_00000_2": {
+				"attachment": [
+					{ "time": 0, "name": "fangyu/fangyu_00000_1" },
+					{ "time": 0.0333, "name": "fangyu/fangyu_00001_1" },
+					{ "time": 0.1, "name": "fangyu/fangyu_00003_1" },
+					{ "time": 0.1333, "name": "fangyu/fangyu_00004_1" },
+					{ "time": 0.2, "name": "fangyu/fangyu_00006_1" },
+					{ "time": 0.2333, "name": "fangyu/fangyu_00007_1" },
+					{ "time": 0.3, "name": "fangyu/fangyu_00009_1" },
+					{ "time": 0.3333, "name": "fangyu/fangyu_00010_1" },
+					{ "time": 0.4, "name": "fangyu/fangyu_00012_1" },
+					{ "time": 0.4333, "name": "fangyu/fangyu_00013_1" },
+					{ "time": 0.5, "name": "fangyu/fangyu_00015_1" },
+					{ "time": 0.5333, "name": "fangyu/fangyu_00016_1" },
+					{ "time": 0.5666, "name": "fangyu/fangyu_00017_1" },
+					{ "time": 0.6333, "name": "fangyu/fangyu_00019_1" },
+					{ "time": 0.6666, "name": "fangyu/fangyu_00020_1" },
+					{ "time": 0.7333, "name": "fangyu/fangyu_00022_1" },
+					{ "time": 0.7666, "name": "fangyu/fangyu_00023_1" },
+					{ "time": 0.8333, "name": "fangyu/fangyu_00025_1" },
+					{ "time": 0.8666, "name": "fangyu/fangyu_00026_1" },
+					{ "time": 0.9333, "name": "fangyu/fangyu_00028_1" },
+					{ "time": 0.9666, "name": "fangyu/fangyu_00029_1" },
+					{ "time": 1.0333, "name": "fangyu/fangyu_00031_1" },
+					{ "time": 1.0666, "name": "fangyu/fangyu_00032_1" },
+					{ "time": 1.1, "name": "fangyu/fangyu_00033_1" },
+					{ "time": 1.1666, "name": "fangyu/fangyu_00035_1" },
+					{ "time": 1.2, "name": "fangyu/fangyu_00036_1" },
+					{ "time": 1.2666, "name": "fangyu/fangyu_00038_1" },
+					{ "time": 1.3, "name": "fangyu/fangyu_00039_1" },
+					{ "time": 1.3666, "name": "fangyu/fangyu_00041_1" },
+					{ "time": 1.4, "name": "fangyu/fangyu_00042_1" },
+					{ "time": 1.4666, "name": "fangyu/fangyu_00044_1" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff70" }
+				]
+			}
+		},
+		"bones": {
+			"fangyu": {
+				"translate": [
+					{ "time": 0, "x": 2.33, "y": 13.71 }
+				],
+				"scale": [
+					{ "time": 0, "x": 3, "y": 3 }
+				]
+			},
+			"fangyu2": {
+				"translate": [
+					{ "time": 0, "x": 2.33, "y": 13.71 }
+				],
+				"scale": [
+					{ "time": 0, "x": 3, "y": 3 }
+				]
+			}
+		}
+	},
+	"effects_buff2": {
+		"slots": {
+			"gongji/gongji_00000_1": {
+				"attachment": [
+					{ "time": 0, "name": "gongji/gongji_00000_1" },
+					{ "time": 0.0333, "name": "gongji/gongji_00001_1" },
+					{ "time": 0.1, "name": "gongji/gongji_00003_1" },
+					{ "time": 0.1333, "name": "gongji/gongji_00004_1" },
+					{ "time": 0.2, "name": "gongji/gongji_00006_1" },
+					{ "time": 0.2333, "name": "gongji/gongji_00007_1" },
+					{ "time": 0.3, "name": "gongji/gongji_00009_1" },
+					{ "time": 0.3333, "name": "gongji/gongji_00010_1" },
+					{ "time": 0.4, "name": "gongji/gongji_00012_1" },
+					{ "time": 0.4333, "name": "gongji/gongji_00013_1" },
+					{ "time": 0.5, "name": "gongji/gongji_00015_1" },
+					{ "time": 0.5333, "name": "gongji/gongji_00016_1" },
+					{ "time": 0.5666, "name": "gongji/gongji_00017_1" },
+					{ "time": 0.6333, "name": "gongji/gongji_00019_1" },
+					{ "time": 0.6666, "name": "gongji/gongji_00020_1" },
+					{ "time": 0.7333, "name": "gongji/gongji_00022_1" },
+					{ "time": 0.7666, "name": "gongji/gongji_00023_1" },
+					{ "time": 0.8333, "name": "gongji/gongji_00025_1" },
+					{ "time": 0.8666, "name": "gongji/gongji_00026_1" },
+					{ "time": 0.9333, "name": "gongji/gongji_00028_1" },
+					{ "time": 0.9666, "name": "gongji/gongji_00029_1" },
+					{ "time": 1.0333, "name": "gongji/gongji_00031_1" },
+					{ "time": 1.0666, "name": "gongji/gongji_00032_1" },
+					{ "time": 1.1, "name": "gongji/gongji_00033_1" },
+					{ "time": 1.1666, "name": "gongji/gongji_00035_1" },
+					{ "time": 1.2, "name": "gongji/gongji_00036_1" },
+					{ "time": 1.2666, "name": "gongji/gongji_00038_1" },
+					{ "time": 1.3, "name": "gongji/gongji_00039_1" },
+					{ "time": 1.3666, "name": "gongji/gongji_00041_1" },
+					{ "time": 1.4, "name": "gongji/gongji_00042_1" },
+					{ "time": 1.4666, "name": "gongji/gongji_00044_1" }
+				]
+			}
+		},
+		"bones": {
+			"gongji": {
+				"translate": [
+					{ "time": 0, "x": -4.67, "y": -16.71 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2.978, "y": 2.978 }
+				]
+			}
+		}
+	},
+	"effects_buff3": {
+		"slots": {
+			"feng/feng_00000": {
+				"attachment": [
+					{ "time": 0, "name": "feng/feng_00000" },
+					{ "time": 0.0666, "name": "feng/feng_00002" },
+					{ "time": 0.1333, "name": "feng/feng_00004" },
+					{ "time": 0.2, "name": "feng/feng_00006" },
+					{ "time": 0.2666, "name": "feng/feng_00000" },
+					{ "time": 0.3333, "name": "feng/feng_00002" },
+					{ "time": 0.4, "name": "feng/feng_00004" },
+					{ "time": 0.4666, "name": "feng/feng_00006" },
+					{ "time": 0.5333, "name": "feng/feng_00000" },
+					{ "time": 0.6, "name": "feng/feng_00002" },
+					{ "time": 0.6666, "name": "feng/feng_00004" },
+					{ "time": 0.7333, "name": "feng/feng_00006" },
+					{ "time": 0.8, "name": "feng/feng_00000" },
+					{ "time": 0.8666, "name": "feng/feng_00002" },
+					{ "time": 0.9333, "name": "feng/feng_00004" },
+					{ "time": 1, "name": "feng/feng_00006" }
+				]
+			},
+			"fengdai/fengdai_00003": {
+				"attachment": [
+					{ "time": 0, "name": "fengdai/fengdai_00003" },
+					{ "time": 0.1, "name": "fengdai/fengdai_00006" },
+					{ "time": 0.2, "name": "fengdai/fengdai_00010" },
+					{ "time": 0.3, "name": "fengdai/fengdai_00013" },
+					{ "time": 0.4, "name": "fengdai/fengdai_00016" },
+					{ "time": 0.5, "name": "fengdai/fengdai_00017" },
+					{ "time": 0.6, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"feng": {
+				"translate": [
+					{ "time": 0, "x": -18.74, "y": 14.05 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.731, "y": 1.731 }
+				]
+			},
+			"fengdai": {
+				"translate": [
+					{ "time": 0, "x": -9.37, "y": 67.94 },
+					{ "time": 0.6, "x": -21.08, "y": 86.69 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.347, "y": 1.347 },
+					{ "time": 0.6, "x": 1.92, "y": 1.92 }
+				]
+			}
+		}
+	}
+}
+}

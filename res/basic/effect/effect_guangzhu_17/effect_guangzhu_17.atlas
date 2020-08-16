@@ -1,0 +1,55 @@
+
+effect_guangzhu_17.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/glow_000
+  rotate: false
+  xy: 622, 602
+  size: 96, 96
+  orig: 100, 100
+  offset: 2, 2
+  index: -1
+images/guangyun
+  rotate: false
+  xy: 425, 700
+  size: 312, 311
+  orig: 312, 311
+  offset: 0, 0
+  index: -1
+images/guangzhu
+  rotate: false
+  xy: 2, 86
+  size: 421, 925
+  orig: 421, 925
+  offset: 0, 0
+  index: -1
+images/xingxing1
+  rotate: true
+  xy: 425, 336
+  size: 362, 195
+  orig: 362, 195
+  offset: 0, 0
+  index: -1
+images/xingxing2
+  rotate: false
+  xy: 425, 278
+  size: 157, 56
+  orig: 157, 56
+  offset: 0, 0
+  index: -1
+images/xingzuo1
+  rotate: false
+  xy: 2, 2
+  size: 206, 82
+  orig: 206, 82
+  offset: 0, 0
+  index: -1
+images/xingzuo2
+  rotate: false
+  xy: 739, 782
+  size: 158, 229
+  orig: 158, 229
+  offset: 0, 0
+  index: -1

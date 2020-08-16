@@ -1,0 +1,20 @@
+
+texun.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+B
+  rotate: false
+  xy: 2, 85
+  size: 605, 658
+  orig: 605, 658
+  offset: 0, 0
+  index: -1
+lightj_00000
+  rotate: false
+  xy: 2, 2
+  size: 97, 81
+  orig: 97, 81
+  offset: 0, 0
+  index: -1

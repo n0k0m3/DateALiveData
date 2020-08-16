@@ -1,0 +1,195 @@
+
+effects_22401_skillA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/glow/shanguang1_00025
+  rotate: false
+  xy: 2, 907
+  size: 557, 115
+  orig: 614, 115
+  offset: 28, 0
+  index: -1
+effect/skilla/fight_22401-skillA_baoqi/fight_22401-skillA_baoqi_00025
+  rotate: true
+  xy: 362, 194
+  size: 159, 113
+  orig: 338, 140
+  offset: 8, 15
+  index: -1
+effect/skilla/fight_22401-skillA_baozha/fight_22401-skillA_baozha00029_00028
+  rotate: true
+  xy: 408, 361
+  size: 175, 164
+  orig: 210, 210
+  offset: 9, 24
+  index: -1
+effect/skilla/fight_22401-skillA_baozha/fight_22401-skillA_baozha00029_00030
+  rotate: false
+  xy: 637, 728
+  size: 176, 178
+  orig: 210, 210
+  offset: 16, 23
+  index: -1
+effect/skilla/fight_22401-skillA_baozha/fight_22401-skillA_baozha00029_00034
+  rotate: false
+  xy: 231, 355
+  size: 175, 181
+  orig: 210, 210
+  offset: 16, 20
+  index: -1
+effect/skilla/fight_22401-skillA_baozha/fight_22401-skillA_baozha00029_00036
+  rotate: false
+  xy: 467, 721
+  size: 168, 184
+  orig: 210, 210
+  offset: 20, 17
+  index: -1
+effect/skilla/fight_22401-skillA_baozha/fight_22401-skillA_baozha00029_00038
+  rotate: false
+  xy: 203, 173
+  size: 157, 165
+  orig: 210, 210
+  offset: 22, 26
+  index: -1
+effect/skilla/fight_22401-skillA_lizi/fight_22401-skillA_lizi_00009
+  rotate: false
+  xy: 2, 567
+  size: 271, 338
+  orig: 350, 350
+  offset: 22, 10
+  index: -1
+effect/skilla/fight_22401-skillA_lizi/fight_22401-skillA_lizi_00010
+  rotate: true
+  xy: 2, 2
+  size: 157, 199
+  orig: 350, 350
+  offset: 81, 64
+  index: -1
+effect/skilla/fight_22401-skillA_penshe/fight_22401-skillA_penshe_00024
+  rotate: false
+  xy: 561, 908
+  size: 272, 114
+  orig: 315, 140
+  offset: 1, 15
+  index: -1
+effect/skilla/fight_22401-skillA_qiu/fight_22401-skillA_qiu00020
+  rotate: true
+  xy: 785, 552
+  size: 134, 140
+  orig: 140, 140
+  offset: 6, 0
+  index: -1
+effect/skilla/fight_22401-skillA_shandian/shandina_00022_00022
+  rotate: false
+  xy: 275, 719
+  size: 190, 186
+  orig: 210, 210
+  offset: 3, 13
+  index: -1
+effect/skilla/fight_22401-skillA_shandian/shandina_00022_00023
+  rotate: true
+  xy: 835, 858
+  size: 164, 186
+  orig: 210, 210
+  offset: 17, 17
+  index: -1
+effect/skilla/fight_22401-skillA_shandian/shandina_00022_00024
+  rotate: true
+  xy: 815, 688
+  size: 168, 183
+  orig: 210, 210
+  offset: 20, 17
+  index: -1
+effect/skilla/fight_22401-skillA_shandian/shandina_00022_00025
+  rotate: false
+  xy: 2, 161
+  size: 199, 177
+  orig: 210, 210
+  offset: 0, 10
+  index: -1
+effect/skilla/fight_22401-skillA_shandian/shandina_00022_00026
+  rotate: true
+  xy: 275, 538
+  size: 179, 189
+  orig: 210, 210
+  offset: 13, 1
+  index: -1
+effect/skilla/fight_22401-skillA_xuli/fight_22401-skillA_xuli_00009
+  rotate: false
+  xy: 477, 213
+  size: 146, 146
+  orig: 245, 245
+  offset: 55, 46
+  index: -1
+effect/skilla/fight_22401-skillA_xuli/fight_22401-skillA_xuli_00011
+  rotate: false
+  xy: 362, 76
+  size: 113, 116
+  orig: 245, 245
+  offset: 79, 57
+  index: -1
+effect/skilla/fight_22401-skillA_xuli/fight_22401-skillA_xuli_00013
+  rotate: false
+  xy: 477, 65
+  size: 146, 146
+  orig: 245, 245
+  offset: 55, 46
+  index: -1
+effect/skilla/fight_22401-skillA_xuli/fight_22401-skillA_xuli_00015
+  rotate: true
+  xy: 832, 440
+  size: 110, 109
+  orig: 245, 245
+  offset: 73, 64
+  index: -1
+effect/skilla/fight_22401-skillA_xuli/fight_22401-skillA_xuli_00017
+  rotate: false
+  xy: 637, 580
+  size: 146, 146
+  orig: 245, 245
+  offset: 55, 46
+  index: -1
+effect/skilla/fight_22401-skillA_xuli/fight_22401-skillA_xuli_00019
+  rotate: false
+  xy: 710, 431
+  size: 120, 119
+  orig: 245, 245
+  offset: 68, 59
+  index: -1
+effect/skilla/fight_22401-skillA_xuli/fight_22401-skillA_xuli_00021
+  rotate: false
+  xy: 203, 16
+  size: 156, 155
+  orig: 245, 245
+  offset: 48, 41
+  index: -1
+effect/skilla/fight_22401-skillA_xuli/fight_22401-skillA_xuli_00023
+  rotate: false
+  xy: 2, 340
+  size: 227, 225
+  orig: 245, 245
+  offset: 8, 6
+  index: -1
+effect/skilla/fight_22401-skillA_xuli/fight_22401-skillA_xuli_00025
+  rotate: true
+  xy: 927, 588
+  size: 98, 93
+  orig: 245, 245
+  offset: 89, 78
+  index: -1
+effect/skilla/fight_22401-skillA_xuli/fight_22401-skillA_xuli_00027
+  rotate: false
+  xy: 574, 411
+  size: 75, 58
+  orig: 245, 245
+  offset: 96, 97
+  index: -1
+effect/skilla/fight_22401-skillA_xuli/fight_22401-skillA_xuli_00029
+  rotate: false
+  xy: 574, 471
+  size: 134, 107
+  orig: 245, 245
+  offset: 70, 73
+  index: -1

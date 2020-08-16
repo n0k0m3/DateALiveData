@@ -1,0 +1,118 @@
+
+effects_10406_quickmove.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/add_00000
+  rotate: false
+  xy: 2, 426
+  size: 187, 155
+  orig: 200, 200
+  offset: 5, 15
+  index: -1
+images/effects/nor_00000
+  rotate: false
+  xy: 2, 289
+  size: 171, 135
+  orig: 200, 200
+  offset: 12, 25
+  index: -1
+images/effects/suduxian/lizizizi_00006
+  rotate: false
+  xy: 2, 873
+  size: 240, 149
+  orig: 343, 202
+  offset: 89, 14
+  index: -1
+images/effects/suduxian/lizizizi_00007
+  rotate: false
+  xy: 2, 724
+  size: 239, 147
+  orig: 343, 202
+  offset: 99, 14
+  index: -1
+images/effects/suduxian/lizizizi_00008
+  rotate: false
+  xy: 244, 878
+  size: 235, 144
+  orig: 343, 202
+  offset: 107, 17
+  index: -1
+images/effects/suduxian/lizizizi_00009
+  rotate: false
+  xy: 2, 583
+  size: 231, 139
+  orig: 343, 202
+  offset: 112, 20
+  index: -1
+images/effects/suduxian/lizizizi_00010
+  rotate: false
+  xy: 481, 892
+  size: 223, 130
+  orig: 343, 202
+  offset: 116, 22
+  index: -1
+images/effects/suduxian/lizizizi_00011
+  rotate: false
+  xy: 706, 898
+  size: 215, 124
+  orig: 343, 202
+  offset: 126, 28
+  index: -1
+images/effects/suduxian/lizizizi_00012
+  rotate: false
+  xy: 2, 164
+  size: 144, 123
+  orig: 343, 202
+  offset: 128, 29
+  index: -1
+images/effects/suduxian/lizizizi_00013
+  rotate: true
+  xy: 923, 880
+  size: 142, 99
+  orig: 343, 202
+  offset: 130, 29
+  index: -1
+images/effects/suduxian/lizizizi_00014
+  rotate: false
+  xy: 2, 72
+  size: 141, 90
+  orig: 343, 202
+  offset: 131, 37
+  index: -1
+images/effects/suduxian/suduxian_00013
+  rotate: true
+  xy: 148, 184
+  size: 103, 38
+  orig: 120, 80
+  offset: 14, 25
+  index: -1
+images/effects/suduxian/suduxian_00014
+  rotate: true
+  xy: 175, 329
+  size: 95, 58
+  orig: 120, 80
+  offset: 22, 12
+  index: -1
+images/effects/suduxian/suduxian_00015
+  rotate: false
+  xy: 2, 7
+  size: 105, 63
+  orig: 120, 80
+  offset: 6, 6
+  index: -1
+images/effects/suduxian/suduxian_00016
+  rotate: true
+  xy: 191, 477
+  size: 104, 59
+  orig: 120, 80
+  offset: 6, 7
+  index: -1
+images/effects/suduxian/suduxian_00017
+  rotate: false
+  xy: 481, 846
+  size: 91, 44
+  orig: 120, 80
+  offset: 3, 22
+  index: -1

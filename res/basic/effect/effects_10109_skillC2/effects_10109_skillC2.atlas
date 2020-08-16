@@ -1,0 +1,286 @@
+
+effects_10109_skillC2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bai_000
+  rotate: false
+  xy: 2, 16
+  size: 69, 32
+  orig: 69, 32
+  offset: 0, 0
+  index: -1
+cikuo_000
+  rotate: false
+  xy: 735, 314
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: -1
+glow_000
+  rotate: false
+  xy: 912, 479
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+guangquan2_000
+  rotate: false
+  xy: 862, 389
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+guangxian_000
+  rotate: true
+  xy: 935, 860
+  size: 150, 75
+  orig: 150, 75
+  offset: 0, 0
+  index: -1
+skillC/guangquanci_000
+  rotate: false
+  xy: 506, 531
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+skillC/jutiao/jutiao_000
+  rotate: false
+  xy: 2, 860
+  size: 250, 150
+  orig: 250, 150
+  offset: 0, 0
+  index: -1
+skillC/jutiao/jutiao_001
+  rotate: false
+  xy: 2, 708
+  size: 250, 150
+  orig: 250, 150
+  offset: 0, 0
+  index: -1
+skillC/jutiao/jutiao_002
+  rotate: false
+  xy: 254, 860
+  size: 250, 150
+  orig: 250, 150
+  offset: 0, 0
+  index: -1
+skillC/jutiao/jutiao_004
+  rotate: false
+  xy: 2, 556
+  size: 250, 150
+  orig: 250, 150
+  offset: 0, 0
+  index: -1
+skillC/jutiao/jutiao_006
+  rotate: false
+  xy: 254, 708
+  size: 250, 150
+  orig: 250, 150
+  offset: 0, 0
+  index: -1
+skillC/jutiao/jutiao_008
+  rotate: false
+  xy: 506, 860
+  size: 250, 150
+  orig: 250, 150
+  offset: 0, 0
+  index: -1
+skillC/jutiao/jutiao_010
+  rotate: false
+  xy: 2, 404
+  size: 250, 150
+  orig: 250, 150
+  offset: 0, 0
+  index: -1
+skillC/jutiao/jutiao_012
+  rotate: false
+  xy: 254, 556
+  size: 250, 150
+  orig: 250, 150
+  offset: 0, 0
+  index: -1
+skillC/tiaodai/tiaodai_000
+  rotate: false
+  xy: 537, 289
+  size: 175, 88
+  orig: 175, 88
+  offset: 0, 0
+  index: -1
+skillC/tiaodai/tiaodai_002
+  rotate: false
+  xy: 735, 441
+  size: 175, 88
+  orig: 175, 88
+  offset: 0, 0
+  index: -1
+skillC/tiaodai/tiaodai_004
+  rotate: false
+  xy: 537, 199
+  size: 175, 88
+  orig: 175, 88
+  offset: 0, 0
+  index: -1
+tongyong/chuanxian/chuanxian_001
+  rotate: true
+  xy: 179, 152
+  size: 250, 25
+  orig: 250, 25
+  offset: 0, 0
+  index: -1
+tongyong/chuanxian/chuanxian_002
+  rotate: true
+  xy: 206, 152
+  size: 250, 25
+  orig: 250, 25
+  offset: 0, 0
+  index: -1
+tongyong/chuanxian/chuanxian_003
+  rotate: false
+  xy: 233, 200
+  size: 250, 25
+  orig: 250, 25
+  offset: 0, 0
+  index: -1
+tongyong/chuanxian/chuanxian_004
+  rotate: false
+  xy: 233, 173
+  size: 250, 25
+  orig: 250, 25
+  offset: 0, 0
+  index: -1
+tongyong/julizi/julizi_002
+  rotate: false
+  xy: 233, 227
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+tongyong/julizi/julizi_004
+  rotate: false
+  xy: 683, 683
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+tongyong/julizi/julizi_006
+  rotate: false
+  xy: 658, 531
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+tongyong/julizi/julizi_008
+  rotate: false
+  xy: 835, 683
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+tongyong/julizi/julizi_010
+  rotate: false
+  xy: 810, 531
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+tongyong/julizi/julizi_012
+  rotate: false
+  xy: 431, 379
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+tongyong/julizi/julizi_014
+  rotate: false
+  xy: 385, 227
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+tongyong/julizi/julizi_016
+  rotate: false
+  xy: 583, 379
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+tongyong/jusan/jusan2_000
+  rotate: false
+  xy: 506, 683
+  size: 175, 175
+  orig: 175, 175
+  offset: 0, 0
+  index: -1
+tongyong/jusan/jusan2_001
+  rotate: false
+  xy: 2, 227
+  size: 175, 175
+  orig: 175, 175
+  offset: 0, 0
+  index: -1
+tongyong/jusan/jusan2_002
+  rotate: false
+  xy: 2, 50
+  size: 175, 175
+  orig: 175, 175
+  offset: 0, 0
+  index: -1
+tongyong/jusan/jusan2_004
+  rotate: false
+  xy: 758, 835
+  size: 175, 175
+  orig: 175, 175
+  offset: 0, 0
+  index: -1
+tongyong/jusan/jusan2_005
+  rotate: false
+  xy: 254, 379
+  size: 175, 175
+  orig: 175, 175
+  offset: 0, 0
+  index: -1
+tongyong/jusan/jusan_000
+  rotate: false
+  xy: 714, 212
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+tongyong/jusan/jusan_001
+  rotate: false
+  xy: 179, 50
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+tongyong/jusan/jusan_002
+  rotate: false
+  xy: 281, 71
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+tongyong/jusan/jusan_003
+  rotate: false
+  xy: 383, 71
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+tongyong/jusan/jusan_004
+  rotate: false
+  xy: 485, 97
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+tongyong/jusan/jusan_005
+  rotate: false
+  xy: 587, 97
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,97 @@
+
+level_wyl_feichuan_BG.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/glow2_00000
+  rotate: false
+  xy: 2, 212
+  size: 222, 48
+  orig: 250, 50
+  offset: 14, 0
+  index: -1
+images/effects/glow3_00000
+  rotate: false
+  xy: 2, 413
+  size: 361, 75
+  orig: 400, 100
+  offset: 16, 15
+  index: -1
+images/effects/glow_00000
+  rotate: false
+  xy: 2, 262
+  size: 250, 149
+  orig: 250, 250
+  offset: 0, 60
+  index: -1
+images/effects/yanwu1/yanwu_00000
+  rotate: true
+  xy: 254, 255
+  size: 156, 28
+  orig: 175, 75
+  offset: 7, 23
+  index: -1
+images/effects/yanwu1/yanwu_00001
+  rotate: true
+  xy: 284, 255
+  size: 156, 28
+  orig: 175, 75
+  offset: 7, 23
+  index: -1
+images/effects/yanwu1/yanwu_00002
+  rotate: false
+  xy: 2, 122
+  size: 158, 28
+  orig: 175, 75
+  offset: 6, 23
+  index: -1
+images/effects/yanwu1/yanwu_00003
+  rotate: false
+  xy: 2, 92
+  size: 158, 28
+  orig: 175, 75
+  offset: 6, 23
+  index: -1
+images/effects/yanwu1/yanwu_00004
+  rotate: false
+  xy: 2, 62
+  size: 158, 28
+  orig: 175, 75
+  offset: 6, 23
+  index: -1
+images/effects/yanwu1/yanwu_00005
+  rotate: false
+  xy: 2, 182
+  size: 159, 28
+  orig: 175, 75
+  offset: 5, 23
+  index: -1
+images/effects/yanwu1/yanwu_00006
+  rotate: false
+  xy: 2, 152
+  size: 159, 28
+  orig: 175, 75
+  offset: 5, 23
+  index: -1
+images/effects/yanwu1/yanwu_00007
+  rotate: false
+  xy: 2, 32
+  size: 158, 28
+  orig: 175, 75
+  offset: 6, 23
+  index: -1
+images/effects/yanwu1/yanwu_00008
+  rotate: false
+  xy: 2, 2
+  size: 157, 28
+  orig: 175, 75
+  offset: 7, 23
+  index: -1
+images/effects/yanwu1/yanwu_00009
+  rotate: true
+  xy: 314, 254
+  size: 157, 28
+  orig: 175, 75
+  offset: 7, 23
+  index: -1

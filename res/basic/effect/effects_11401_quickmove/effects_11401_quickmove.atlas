@@ -1,0 +1,104 @@
+
+effects_11401_quickmove.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/quickmove/guangyun_00001
+  rotate: false
+  xy: 2, 915
+  size: 417, 96
+  orig: 420, 140
+  offset: 1, 17
+  index: -1
+images/effects/quickmove/shangceng/shangceng_00000
+  rotate: false
+  xy: 2, 35
+  size: 130, 103
+  orig: 315, 105
+  offset: 185, 1
+  index: -1
+images/effects/quickmove/shangceng/shangceng_00001
+  rotate: false
+  xy: 2, 704
+  size: 315, 102
+  orig: 315, 105
+  offset: 0, 1
+  index: -1
+images/effects/quickmove/shangceng/shangceng_00003
+  rotate: false
+  xy: 2, 808
+  size: 315, 105
+  orig: 315, 105
+  offset: 0, 0
+  index: -1
+images/effects/quickmove/shangceng/shangceng_00005
+  rotate: false
+  xy: 2, 276
+  size: 293, 105
+  orig: 315, 105
+  offset: 15, 0
+  index: -1
+images/effects/quickmove/shangceng/shangceng_00007
+  rotate: false
+  xy: 2, 383
+  size: 302, 105
+  orig: 315, 105
+  offset: 7, 0
+  index: -1
+images/effects/quickmove/shangceng/shangceng_00009
+  rotate: false
+  xy: 319, 813
+  size: 301, 100
+  orig: 315, 105
+  offset: 11, 0
+  index: -1
+images/effects/quickmove/shangceng/shangceng_00011
+  rotate: false
+  xy: 2, 140
+  size: 228, 74
+  orig: 315, 105
+  offset: 35, 4
+  index: -1
+images/effects/quickmove/xiaceng/xiaceng_00001
+  rotate: false
+  xy: 2, 597
+  size: 307, 105
+  orig: 315, 105
+  offset: 8, 0
+  index: -1
+images/effects/quickmove/xiaceng/xiaceng_00003
+  rotate: false
+  xy: 2, 490
+  size: 307, 105
+  orig: 315, 105
+  offset: 8, 0
+  index: -1
+images/effects/quickmove/xiaceng/xiaceng_00005
+  rotate: false
+  xy: 421, 915
+  size: 307, 96
+  orig: 315, 105
+  offset: 8, 3
+  index: -1
+images/effects/quickmove/xiaceng/xiaceng_00007
+  rotate: false
+  xy: 319, 713
+  size: 278, 98
+  orig: 315, 105
+  offset: 20, 3
+  index: -1
+images/effects/quickmove/xiaceng/xiaceng_00009
+  rotate: false
+  xy: 730, 930
+  size: 281, 81
+  orig: 315, 105
+  offset: 17, 14
+  index: -1
+images/effects/quickmove/xiaceng/xiaceng_00011
+  rotate: false
+  xy: 2, 216
+  size: 264, 58
+  orig: 315, 105
+  offset: 34, 22
+  index: -1

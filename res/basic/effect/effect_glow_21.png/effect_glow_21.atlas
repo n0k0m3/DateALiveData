@@ -1,0 +1,132 @@
+
+effect_glow_21.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dengbang/dengbang1
+  rotate: false
+  xy: 346, 250
+  size: 234, 84
+  orig: 234, 84
+  offset: 0, 0
+  index: -1
+dengbang/dengbang2
+  rotate: false
+  xy: 659, 361
+  size: 117, 70
+  orig: 117, 70
+  offset: 0, 0
+  index: -1
+dengbang/dengbang3
+  rotate: true
+  xy: 827, 734
+  size: 178, 94
+  orig: 178, 94
+  offset: 0, 0
+  index: -1
+dengbang/dengbang4
+  rotate: false
+  xy: 346, 178
+  size: 227, 70
+  orig: 227, 70
+  offset: 0, 0
+  index: -1
+dengbang/dengbang5
+  rotate: false
+  xy: 114, 3
+  size: 241, 118
+  orig: 241, 118
+  offset: 0, 0
+  index: -1
+dimianguang/dimianguang
+  rotate: false
+  xy: 607, 433
+  size: 189, 54
+  orig: 189, 54
+  offset: 0, 0
+  index: -1
+dimianguang/dimianguang1
+  rotate: true
+  xy: 2, 2
+  size: 427, 110
+  orig: 427, 110
+  offset: 0, 0
+  index: -1
+dimianguang/dimianguang2
+  rotate: false
+  xy: 346, 140
+  size: 141, 36
+  orig: 141, 36
+  offset: 0, 0
+  index: -1
+dimianguang/dimianguang3
+  rotate: false
+  xy: 346, 336
+  size: 311, 80
+  orig: 311, 80
+  offset: 0, 0
+  index: -1
+dimianguang1
+  rotate: false
+  xy: 2, 903
+  size: 550, 69
+  orig: 560, 70
+  offset: 6, 0
+  index: -1
+wutaideng/wutaideng
+  rotate: false
+  xy: 554, 914
+  size: 395, 58
+  orig: 395, 58
+  offset: 0, 0
+  index: -1
+wutaideng/wutaideng1
+  rotate: false
+  xy: 607, 489
+  size: 217, 210
+  orig: 218, 210
+  offset: 0, 0
+  index: -1
+wutaideng/wutaideng2
+  rotate: true
+  xy: 114, 123
+  size: 306, 230
+  orig: 306, 230
+  offset: 0, 0
+  index: -1
+wutaideng/wutaideng3
+  rotate: false
+  xy: 607, 701
+  size: 218, 211
+  orig: 218, 211
+  offset: 0, 0
+  index: -1
+wutaideng/wutaideng4
+  rotate: true
+  xy: 375, 595
+  size: 306, 230
+  orig: 306, 230
+  offset: 0, 0
+  index: -1
+wutaideng/wutaideng5
+  rotate: false
+  xy: 2, 667
+  size: 371, 234
+  orig: 373, 234
+  offset: 0, 0
+  index: -1
+wutaideng/wutaideng6
+  rotate: false
+  xy: 2, 431
+  size: 367, 234
+  orig: 372, 234
+  offset: 2, 0
+  index: -1
+wutaideng/wutaidengzhu
+  rotate: true
+  xy: 371, 418
+  size: 175, 234
+  orig: 183, 234
+  offset: 0, 0
+  index: -1

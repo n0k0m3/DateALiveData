@@ -1,0 +1,90 @@
+
+effects_10801_xiaoxuanfeng.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/xiaoxuanfeng/xiaoxuanfeng_000
+  rotate: false
+  xy: 231, 486
+  size: 218, 236
+  orig: 245, 245
+  offset: 22, 0
+  index: -1
+effect/xiaoxuanfeng/xiaoxuanfeng_001
+  rotate: false
+  xy: 2, 724
+  size: 227, 240
+  orig: 245, 245
+  offset: 17, 0
+  index: -1
+effect/xiaoxuanfeng/xiaoxuanfeng_002
+  rotate: false
+  xy: 460, 728
+  size: 218, 236
+  orig: 245, 245
+  offset: 22, 0
+  index: -1
+effect/xiaoxuanfeng/xiaoxuanfeng_004
+  rotate: false
+  xy: 2, 2
+  size: 218, 236
+  orig: 245, 245
+  offset: 22, 0
+  index: -1
+effect/xiaoxuanfeng/xiaoxuanfeng_005
+  rotate: false
+  xy: 2, 482
+  size: 227, 240
+  orig: 245, 245
+  offset: 17, 0
+  index: -1
+effect/xiaoxuanfeng/xiaoxuanfeng_006
+  rotate: false
+  xy: 231, 248
+  size: 218, 236
+  orig: 245, 245
+  offset: 22, 0
+  index: -1
+effect/xiaoxuanfeng/xiaoxuanfeng_008
+  rotate: false
+  xy: 680, 728
+  size: 218, 236
+  orig: 245, 245
+  offset: 22, 0
+  index: -1
+effect/xiaoxuanfeng/xiaoxuanfeng_010
+  rotate: false
+  xy: 451, 486
+  size: 218, 236
+  orig: 245, 245
+  offset: 22, 0
+  index: -1
+effect/xiaoxuanfeng/xiaoxuanfeng_011
+  rotate: false
+  xy: 231, 724
+  size: 227, 240
+  orig: 245, 245
+  offset: 17, 0
+  index: -1
+effect/xiaoxuanfeng/xiaoxuanfeng_012
+  rotate: false
+  xy: 451, 248
+  size: 218, 236
+  orig: 245, 245
+  offset: 22, 0
+  index: -1
+effect/xiaoxuanfeng/xiaoxuanfeng_013
+  rotate: false
+  xy: 2, 240
+  size: 227, 240
+  orig: 245, 245
+  offset: 17, 0
+  index: -1
+effect/xiaoxuanfeng/xiaoxuanfeng_014
+  rotate: false
+  xy: 671, 490
+  size: 218, 236
+  orig: 245, 245
+  offset: 22, 0
+  index: -1

@@ -1,0 +1,125 @@
+
+effects_10602_dodge.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/shanbi/1hourenwu_00000
+  rotate: true
+  xy: 105, 235
+  size: 85, 55
+  orig: 100, 60
+  offset: 5, 3
+  index: -1
+images/effects/shanbi/2hourenwu_00000
+  rotate: true
+  xy: 162, 242
+  size: 90, 60
+  orig: 100, 60
+  offset: 7, 0
+  index: -1
+images/effects/shanbi/hourenwu_00000
+  rotate: true
+  xy: 99, 143
+  size: 90, 60
+  orig: 100, 60
+  offset: 4, 0
+  index: -1
+images/effects/shanbi/shang/shang_00002
+  rotate: false
+  xy: 2, 428
+  size: 162, 72
+  orig: 168, 80
+  offset: 4, 0
+  index: -1
+images/effects/shanbi/shang/shang_00003
+  rotate: true
+  xy: 224, 242
+  size: 90, 55
+  orig: 168, 80
+  offset: 76, 12
+  index: -1
+images/effects/shanbi/shang/shang_00004
+  rotate: false
+  xy: 2, 361
+  size: 148, 65
+  orig: 168, 80
+  offset: 18, 7
+  index: -1
+images/effects/shanbi/shang/shang_00005
+  rotate: true
+  xy: 38, 159
+  size: 98, 59
+  orig: 168, 80
+  offset: 68, 12
+  index: -1
+images/effects/shanbi/shang/shang_00006
+  rotate: false
+  xy: 166, 440
+  size: 124, 60
+  orig: 168, 80
+  offset: 42, 12
+  index: -1
+images/effects/shanbi/shang/shang_00007
+  rotate: false
+  xy: 2, 259
+  size: 101, 61
+  orig: 168, 80
+  offset: 65, 12
+  index: -1
+images/effects/shanbi/shang/shang_00008
+  rotate: false
+  xy: 152, 334
+  size: 99, 51
+  orig: 168, 80
+  offset: 67, 12
+  index: -1
+images/effects/shanbi/shang/shang_00009
+  rotate: false
+  xy: 166, 387
+  size: 100, 51
+  orig: 168, 80
+  offset: 66, 11
+  index: -1
+images/effects/shanbi/shang/shang_00010
+  rotate: true
+  xy: 29, 53
+  size: 74, 40
+  orig: 168, 80
+  offset: 66, 21
+  index: -1
+images/effects/shanbi/suduxiandi/suduxiandi_00000
+  rotate: false
+  xy: 292, 441
+  size: 136, 23
+  orig: 160, 60
+  offset: 24, 21
+  index: -1
+images/effects/shanbi/suduxiandi/suduxiandi_00001
+  rotate: true
+  xy: 2, 129
+  size: 128, 34
+  orig: 160, 60
+  offset: 32, 14
+  index: -1
+images/effects/shanbi/suduxiandi/suduxiandi_00002
+  rotate: false
+  xy: 2, 322
+  size: 144, 37
+  orig: 160, 60
+  offset: 12, 10
+  index: -1
+images/effects/shanbi/suduxiandi/suduxiandi_00003
+  rotate: false
+  xy: 292, 466
+  size: 130, 34
+  orig: 160, 60
+  offset: 13, 11
+  index: -1
+images/effects/shanbi/suduxiandi/suduxiandi_00004
+  rotate: true
+  xy: 2, 2
+  size: 125, 25
+  orig: 160, 60
+  offset: 9, 20
+  index: -1

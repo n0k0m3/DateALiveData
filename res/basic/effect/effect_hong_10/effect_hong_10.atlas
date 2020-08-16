@@ -1,0 +1,13 @@
+
+effect_hong_10.png
+size: 64,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/hong_00001
+  rotate: false
+  xy: 2, 2
+  size: 32, 32
+  orig: 50, 50
+  offset: 7, 7
+  index: -1

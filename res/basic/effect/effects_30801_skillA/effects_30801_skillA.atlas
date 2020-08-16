@@ -1,0 +1,461 @@
+
+effects_30801_skillA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/EskillA/baodian1a/baodian1a_00009
+  rotate: true
+  xy: 683, 763
+  size: 123, 135
+  orig: 172, 167
+  offset: 19, 19
+  index: -1
+images/effects/EskillA/baodian1a/baodian1a_00010
+  rotate: false
+  xy: 2, 204
+  size: 144, 152
+  orig: 172, 167
+  offset: 10, 12
+  index: -1
+images/effects/EskillA/baodian1a/baodian1a_00011
+  rotate: false
+  xy: 2, 50
+  size: 144, 152
+  orig: 172, 167
+  offset: 10, 12
+  index: -1
+images/effects/EskillA/baodian1a/baodian1a_00012
+  rotate: false
+  xy: 2, 691
+  size: 164, 162
+  orig: 172, 167
+  offset: 8, 5
+  index: -1
+images/effects/EskillA/baodian1a/baodian1a_00013
+  rotate: false
+  xy: 172, 860
+  size: 164, 162
+  orig: 172, 167
+  offset: 8, 5
+  index: -1
+images/effects/EskillA/baodian1a/baodian1a_00014
+  rotate: false
+  xy: 2, 855
+  size: 168, 167
+  orig: 172, 167
+  offset: 4, 0
+  index: -1
+images/effects/EskillA/baodian1n/baodian1n_00009
+  rotate: true
+  xy: 741, 667
+  size: 94, 76
+  orig: 124, 102
+  offset: 4, 13
+  index: -1
+images/effects/EskillA/baodian1n/baodian1n_00011
+  rotate: true
+  xy: 537, 252
+  size: 100, 92
+  orig: 124, 102
+  offset: 6, 3
+  index: -1
+images/effects/EskillA/baodian1n/baodian1n_00013
+  rotate: false
+  xy: 424, 253
+  size: 111, 99
+  orig: 124, 102
+  offset: 3, 0
+  index: -1
+images/effects/EskillA/baodian1n/baodian1n_00015
+  rotate: true
+  xy: 323, 247
+  size: 119, 99
+  orig: 124, 102
+  offset: 4, 2
+  index: -1
+images/effects/EskillA/baodian1n/baodian1n_00017
+  rotate: false
+  xy: 631, 251
+  size: 91, 101
+  orig: 124, 102
+  offset: 23, 1
+  index: -1
+images/effects/EskillA/baodian1n/baodian1n_00019
+  rotate: false
+  xy: 323, 192
+  size: 86, 53
+  orig: 124, 102
+  offset: 26, 49
+  index: -1
+images/effects/EskillA/quanfenga/quanfenga_00008
+  rotate: false
+  xy: 813, 601
+  size: 95, 62
+  orig: 100, 69
+  offset: 2, 5
+  index: -1
+images/effects/EskillA/quanfenga/quanfenga_00009
+  rotate: false
+  xy: 701, 502
+  size: 95, 62
+  orig: 100, 69
+  offset: 4, 5
+  index: -1
+images/effects/EskillA/quanfenga/quanfenga_00010
+  rotate: false
+  xy: 813, 545
+  size: 76, 54
+  orig: 100, 69
+  offset: 21, 9
+  index: -1
+images/effects/EskillA/quanfenga/quanfenga_00011
+  rotate: false
+  xy: 910, 602
+  size: 77, 58
+  orig: 100, 69
+  offset: 9, 5
+  index: -1
+images/effects/EskillA/quanfengm/quanfengm_00009
+  rotate: true
+  xy: 338, 867
+  size: 155, 165
+  orig: 155, 165
+  offset: 0, 0
+  index: -1
+images/effects/EskillA/quanfengm/quanfengm_00010
+  rotate: false
+  xy: 2, 358
+  size: 148, 165
+  orig: 155, 165
+  offset: 0, 0
+  index: -1
+images/effects/EskillA/quanfengm/quanfengm_00011
+  rotate: true
+  xy: 505, 884
+  size: 138, 161
+  orig: 155, 165
+  offset: 0, 0
+  index: -1
+images/effects/EskillA/quanfengm/quanfengm_00012
+  rotate: true
+  xy: 819, 894
+  size: 128, 154
+  orig: 155, 165
+  offset: 0, 0
+  index: -1
+images/effects/EskillA/quanfengm/quanfengm_00013
+  rotate: true
+  xy: 493, 696
+  size: 120, 135
+  orig: 155, 165
+  offset: 0, 0
+  index: -1
+images/effects/EskillA/quanfengm/quanfengm_00014
+  rotate: true
+  xy: 168, 691
+  size: 114, 131
+  orig: 155, 165
+  offset: 0, 0
+  index: -1
+images/effects/EskillA/quanfengm/quanfengm_00015
+  rotate: false
+  xy: 148, 50
+  size: 107, 128
+  orig: 155, 165
+  offset: 0, 0
+  index: -1
+images/effects/EskillA/quanjinga/quanjinga_00009
+  rotate: false
+  xy: 924, 662
+  size: 65, 90
+  orig: 79, 106
+  offset: 14, 15
+  index: -1
+images/effects/EskillA/quanjinga/quanjinga_00011
+  rotate: false
+  xy: 724, 251
+  size: 73, 101
+  orig: 79, 106
+  offset: 6, 5
+  index: -1
+images/effects/EskillA/quanjinga/quanjinga_00013
+  rotate: false
+  xy: 415, 375
+  size: 61, 106
+  orig: 79, 106
+  offset: 3, 0
+  index: -1
+images/effects/EskillA/quanjinga/quanjinga_00014
+  rotate: false
+  xy: 891, 539
+  size: 50, 60
+  orig: 79, 106
+  offset: 6, 0
+  index: -1
+images/effects/EskillA/wenliquana/wenliquana_00008
+  rotate: true
+  xy: 975, 946
+  size: 76, 40
+  orig: 78, 41
+  offset: 2, 0
+  index: -1
+images/effects/EskillA/wenliquana/wenliquana_00010
+  rotate: false
+  xy: 798, 503
+  size: 76, 40
+  orig: 78, 41
+  offset: 2, 0
+  index: -1
+images/effects/EskillA/wenliquana/wenliquana_00012
+  rotate: true
+  xy: 975, 868
+  size: 76, 40
+  orig: 78, 41
+  offset: 2, 0
+  index: -1
+images/effects/EskillA/wenliquana/wenliquana_00014
+  rotate: true
+  xy: 966, 790
+  size: 76, 40
+  orig: 78, 41
+  offset: 2, 0
+  index: -1
+images/effects/EskillA/wenliquana/wenliquana_00016
+  rotate: true
+  xy: 301, 728
+  size: 77, 40
+  orig: 78, 41
+  offset: 1, 0
+  index: -1
+images/effects/EskillA/wenliquana/wenliquana_00018
+  rotate: false
+  xy: 230, 5
+  size: 76, 40
+  orig: 78, 41
+  offset: 2, 0
+  index: -1
+images/effects/EskillA/yanchengn1/yanchengn1_00009
+  rotate: true
+  xy: 148, 180
+  size: 176, 66
+  orig: 179, 66
+  offset: 0, 0
+  index: -1
+images/effects/EskillA/yanchengn1/yanchengn1_00010
+  rotate: false
+  xy: 505, 818
+  size: 176, 64
+  orig: 179, 66
+  offset: 0, 2
+  index: -1
+images/effects/EskillA/yanchengn1/yanchengn1_00011
+  rotate: false
+  xy: 2, 2
+  size: 176, 46
+  orig: 179, 66
+  offset: 0, 2
+  index: -1
+images/effects/EskillA/yanchengn1/yanchengn1_00012
+  rotate: true
+  xy: 162, 513
+  size: 176, 52
+  orig: 179, 66
+  offset: 0, 1
+  index: -1
+images/effects/EskillA/yanchengn1/yanchengn1_00013
+  rotate: true
+  xy: 216, 190
+  size: 176, 52
+  orig: 179, 66
+  offset: 0, 1
+  index: -1
+images/effects/EskillA/yanchengn1/yanchengn1_00014
+  rotate: true
+  xy: 270, 190
+  size: 176, 51
+  orig: 179, 66
+  offset: 0, 0
+  index: -1
+images/effects/EskillA/yanchengn1/yanchengn1_00015
+  rotate: false
+  xy: 172, 807
+  size: 176, 51
+  orig: 179, 66
+  offset: 0, 0
+  index: -1
+images/effects/EskillA/yanwuquanm/yanwuquanm_00008
+  rotate: true
+  xy: 723, 566
+  size: 99, 88
+  orig: 109, 90
+  offset: 9, 1
+  index: -1
+images/effects/EskillA/yanwuquanm/yanwuquanm_00010
+  rotate: false
+  xy: 819, 665
+  size: 103, 87
+  orig: 109, 90
+  offset: 5, 1
+  index: -1
+images/effects/EskillA/yanwuquanm/yanwuquanm_00012
+  rotate: true
+  xy: 610, 464
+  size: 107, 89
+  orig: 109, 90
+  offset: 2, 1
+  index: -1
+images/effects/EskillA/yanwuquanm/yanwuquanm_00014
+  rotate: true
+  xy: 597, 354
+  size: 108, 89
+  orig: 109, 90
+  offset: 1, 1
+  index: -1
+images/effects/EskillA/yanwuquanm/yanwuquanm_00016
+  rotate: false
+  xy: 630, 672
+  size: 109, 89
+  orig: 109, 90
+  offset: 0, 1
+  index: -1
+images/effects/EskillA/yanwuquanm/yanwuquanm_00018
+  rotate: true
+  xy: 688, 354
+  size: 108, 75
+  orig: 109, 90
+  offset: 0, 2
+  index: -1
+images/effects/EskillA/yanwuquanm/yanwuquanm_00020
+  rotate: true
+  xy: 398, 121
+  size: 69, 61
+  orig: 109, 90
+  offset: 0, 16
+  index: -1
+images/effects/EskillA/yanwuquanm/yanwuquanm_00022
+  rotate: true
+  xy: 398, 53
+  size: 66, 54
+  orig: 109, 90
+  offset: 1, 22
+  index: -1
+images/effects/EskillB/neiju/neijua_00016
+  rotate: true
+  xy: 355, 483
+  size: 115, 127
+  orig: 159, 164
+  offset: 20, 15
+  index: -1
+images/effects/EskillB/neiju/neijua_00018
+  rotate: false
+  xy: 257, 47
+  size: 139, 141
+  orig: 159, 164
+  offset: 11, 14
+  index: -1
+images/effects/EskillB/neiju/neijua_00020
+  rotate: false
+  xy: 668, 888
+  size: 149, 134
+  orig: 159, 164
+  offset: 10, 11
+  index: -1
+images/effects/EskillB/neiju/neijua_00022
+  rotate: false
+  xy: 2, 525
+  size: 158, 164
+  orig: 159, 164
+  offset: 1, 0
+  index: -1
+images/effects/EskillB/neiju/neijua_00024
+  rotate: false
+  xy: 152, 368
+  size: 141, 143
+  orig: 159, 164
+  offset: 12, 9
+  index: -1
+images/effects/EskillB/neiju/neijua_00026
+  rotate: true
+  xy: 295, 368
+  size: 113, 118
+  orig: 159, 164
+  offset: 21, 25
+  index: -1
+images/effects/EskillB/neiju/neijua_00028
+  rotate: false
+  xy: 484, 464
+  size: 124, 107
+  orig: 159, 164
+  offset: 22, 36
+  index: -1
+images/effects/EskillB/neiju/neijua_00030
+  rotate: false
+  xy: 295, 489
+  size: 58, 56
+  orig: 159, 164
+  offset: 51, 54
+  index: -1
+images/effects/EskillB/neiju/neijun_00017
+  rotate: true
+  xy: 820, 754
+  size: 138, 144
+  orig: 159, 164
+  offset: 16, 11
+  index: -1
+images/effects/EskillB/neiju/neijun_00019
+  rotate: false
+  xy: 216, 547
+  size: 137, 142
+  orig: 159, 164
+  offset: 14, 11
+  index: -1
+images/effects/EskillB/neiju/neijun_00021
+  rotate: false
+  xy: 350, 731
+  size: 141, 134
+  orig: 159, 164
+  offset: 9, 11
+  index: -1
+images/effects/EskillB/neiju/neijun_00023
+  rotate: false
+  xy: 355, 600
+  size: 134, 129
+  orig: 159, 164
+  offset: 12, 24
+  index: -1
+images/effects/EskillB/neiju/neijun_00025
+  rotate: false
+  xy: 491, 573
+  size: 128, 121
+  orig: 159, 164
+  offset: 16, 27
+  index: -1
+images/effects/EskillB/neiju/neijun_00027
+  rotate: false
+  xy: 478, 354
+  size: 117, 108
+  orig: 159, 164
+  offset: 23, 28
+  index: -1
+images/effects/EskillB/neiju/neijun_00029
+  rotate: false
+  xy: 621, 575
+  size: 100, 95
+  orig: 159, 164
+  offset: 32, 33
+  index: -1
+images/effects/EskillB/neiju/neijun_00031
+  rotate: false
+  xy: 216, 530
+  size: 33, 15
+  orig: 159, 164
+  offset: 78, 81
+  index: -1
+images/effects/glow
+  rotate: true
+  xy: 180, 4
+  size: 44, 48
+  orig: 56, 56
+  offset: 6, 3
+  index: -1

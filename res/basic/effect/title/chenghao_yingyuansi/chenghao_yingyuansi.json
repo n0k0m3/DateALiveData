@@ -1,0 +1,128 @@
+{
+"skeleton": { "hash": "g7RQhIuA9t1Oz9e5kr7QSAuGtIM", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "0000", "parent": "root" },
+	{ "name": "di", "parent": "0000" },
+	{ "name": "lizizong", "parent": "0000" },
+	{ "name": "zi", "parent": "0000" },
+	{ "name": "ziguang", "parent": "0000" }
+],
+"slots": [
+	{ "name": "guang", "bone": "di" },
+	{ "name": "lizi/lizi_00000", "bone": "lizizong" },
+	{ "name": "zi", "bone": "zi" },
+	{ "name": "ziguang", "bone": "ziguang", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"guang": {
+			"guang": { "width": 153, "height": 59 }
+		},
+		"lizi/lizi_00000": {
+			"lizi/lizi_00000": { "width": 438, "height": 396 },
+			"lizi/lizi_00001": { "width": 438, "height": 396 },
+			"lizi/lizi_00002": { "width": 438, "height": 396 },
+			"lizi/lizi_00003": { "width": 438, "height": 396 },
+			"lizi/lizi_00004": { "width": 438, "height": 396 },
+			"lizi/lizi_00005": { "width": 438, "height": 396 },
+			"lizi/lizi_00006": { "width": 438, "height": 396 },
+			"lizi/lizi_00007": { "width": 438, "height": 396 },
+			"lizi/lizi_00008": { "width": 438, "height": 396 },
+			"lizi/lizi_00009": { "width": 438, "height": 396 }
+		},
+		"zi": {
+			"zi": { "width": 102, "height": 22 }
+		},
+		"ziguang": {
+			"ziguang": { "width": 108, "height": 29 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"guang": {
+				"attachment": [
+					{ "time": 0, "name": "guang" }
+				]
+			},
+			"lizi/lizi_00000": {
+				"attachment": [
+					{ "time": 0, "name": "lizi/lizi_00000" },
+					{ "time": 0.1, "name": "lizi/lizi_00001" },
+					{ "time": 0.2, "name": "lizi/lizi_00002" },
+					{ "time": 0.3, "name": "lizi/lizi_00003" },
+					{ "time": 0.4, "name": "lizi/lizi_00004" },
+					{ "time": 0.5, "name": "lizi/lizi_00005" },
+					{ "time": 0.6, "name": "lizi/lizi_00006" },
+					{ "time": 0.7, "name": "lizi/lizi_00007" },
+					{ "time": 0.8, "name": "lizi/lizi_00008" },
+					{ "time": 0.9, "name": "lizi/lizi_00009" },
+					{ "time": 1, "name": "lizi/lizi_00000" },
+					{ "time": 1.1, "name": "lizi/lizi_00001" },
+					{ "time": 1.2, "name": "lizi/lizi_00002" },
+					{ "time": 1.3, "name": "lizi/lizi_00003" },
+					{ "time": 1.4, "name": "lizi/lizi_00004" },
+					{ "time": 1.5, "name": "lizi/lizi_00005" },
+					{ "time": 1.6, "name": "lizi/lizi_00006" },
+					{ "time": 1.7, "name": "lizi/lizi_00007" },
+					{ "time": 1.8, "name": "lizi/lizi_00008" },
+					{ "time": 1.9, "name": "lizi/lizi_00009" },
+					{ "time": 2, "name": "lizi/lizi_00000" },
+					{ "time": 2.1, "name": "lizi/lizi_00001" },
+					{ "time": 2.2, "name": "lizi/lizi_00002" },
+					{ "time": 2.3, "name": "lizi/lizi_00003" },
+					{ "time": 2.4, "name": "lizi/lizi_00004" },
+					{ "time": 2.5, "name": "lizi/lizi_00005" },
+					{ "time": 2.6, "name": "lizi/lizi_00006" },
+					{ "time": 2.7, "name": "lizi/lizi_00007" },
+					{ "time": 2.8, "name": "lizi/lizi_00008" },
+					{ "time": 2.9, "name": "lizi/lizi_00009" },
+					{ "time": 3, "name": "lizi/lizi_00000" },
+					{ "time": 3.1, "name": "lizi/lizi_00001" },
+					{ "time": 3.2, "name": "lizi/lizi_00002" },
+					{ "time": 3.3, "name": "lizi/lizi_00003" },
+					{ "time": 3.4, "name": "lizi/lizi_00004" },
+					{ "time": 3.5, "name": "lizi/lizi_00005" },
+					{ "time": 3.6, "name": "lizi/lizi_00006" },
+					{ "time": 3.7, "name": "lizi/lizi_00007" },
+					{ "time": 3.8, "name": "lizi/lizi_00008" },
+					{ "time": 3.9, "name": "lizi/lizi_00009" },
+					{ "time": 4, "name": "lizi/lizi_00000" }
+				]
+			},
+			"zi": {
+				"attachment": [
+					{ "time": 0, "name": "zi" }
+				]
+			},
+			"ziguang": {
+				"attachment": [
+					{ "time": 0, "name": "ziguang" }
+				],
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffff00",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"ziguang": {
+				"translate": [
+					{ "time": 0, "x": -0.19, "y": 0.72 }
+				]
+			}
+		}
+	}
+}
+}

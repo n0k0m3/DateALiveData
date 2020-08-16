@@ -1,0 +1,97 @@
+
+buff_du.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/buff_22/buff_22_00000
+  rotate: false
+  xy: 329, 437
+  size: 59, 73
+  orig: 128, 128
+  offset: 27, 22
+  index: -1
+images/effects/buff_22/buff_22_00001
+  rotate: false
+  xy: 85, 192
+  size: 73, 93
+  orig: 128, 128
+  offset: 21, 15
+  index: -1
+images/effects/buff_22/buff_22_00002
+  rotate: false
+  xy: 168, 405
+  size: 80, 105
+  orig: 128, 128
+  offset: 22, 9
+  index: -1
+images/effects/buff_22/buff_22_00003
+  rotate: false
+  xy: 2, 162
+  size: 81, 113
+  orig: 128, 128
+  offset: 22, 8
+  index: -1
+images/effects/buff_22/buff_22_00004
+  rotate: false
+  xy: 85, 396
+  size: 81, 114
+  orig: 128, 128
+  offset: 22, 8
+  index: -1
+images/effects/buff_22/buff_22_00005
+  rotate: false
+  xy: 2, 394
+  size: 81, 116
+  orig: 128, 128
+  offset: 22, 8
+  index: -1
+images/effects/buff_22/buff_22_00006
+  rotate: false
+  xy: 2, 277
+  size: 81, 115
+  orig: 128, 128
+  offset: 22, 9
+  index: -1
+images/effects/buff_22/buff_22_00007
+  rotate: false
+  xy: 85, 287
+  size: 80, 107
+  orig: 128, 128
+  offset: 23, 11
+  index: -1
+images/effects/buff_22/buff_22_00008
+  rotate: false
+  xy: 2, 69
+  size: 79, 91
+  orig: 128, 128
+  offset: 23, 26
+  index: -1
+images/effects/buff_22/buff_22_00009
+  rotate: false
+  xy: 250, 426
+  size: 77, 84
+  orig: 128, 128
+  offset: 25, 32
+  index: -1
+images/effects/buff_22/buff_22_00010
+  rotate: false
+  xy: 2, 2
+  size: 73, 65
+  orig: 128, 128
+  offset: 28, 50
+  index: -1
+images/effects/buff_22/buff_22_00011
+  rotate: false
+  xy: 390, 448
+  size: 67, 62
+  orig: 128, 128
+  offset: 33, 54
+  index: -1
+images/effects/buff_22/buff_22_00012
+  rotate: false
+  xy: 459, 468
+  size: 34, 42
+  orig: 128, 128
+  offset: 64, 72
+  index: -1

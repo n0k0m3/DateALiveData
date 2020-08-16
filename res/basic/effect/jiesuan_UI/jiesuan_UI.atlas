@@ -1,0 +1,48 @@
+
+jiesuan_UI.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+daxingxing_00005
+  rotate: false
+  xy: 2, 2
+  size: 84, 87
+  orig: 84, 87
+  offset: 0, 0
+  index: -1
+hongxingxing_00005
+  rotate: false
+  xy: 148, 272
+  size: 20, 19
+  orig: 22, 21
+  offset: 1, 1
+  index: -1
+huan
+  rotate: false
+  xy: 148, 293
+  size: 94, 94
+  orig: 94, 94
+  offset: 0, 0
+  index: -1
+huangxingxing_00005
+  rotate: false
+  xy: 244, 368
+  size: 20, 19
+  orig: 22, 21
+  offset: 1, 1
+  index: -1
+xiangjia
+  rotate: false
+  xy: 2, 235
+  size: 144, 152
+  orig: 144, 152
+  offset: 0, 0
+  index: -1
+zhengchang
+  rotate: false
+  xy: 2, 91
+  size: 140, 142
+  orig: 140, 142
+  offset: 0, 0
+  index: -1

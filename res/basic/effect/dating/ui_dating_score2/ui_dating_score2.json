@@ -1,0 +1,61 @@
+{
+"skeleton": { "hash": "14VNGxM5Bq1zC/KpYBwLp/h1zws", "spine": "2.1.27", "width": 170, "height": 140, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "effects", "parent": "root" },
+	{ "name": "xunhuanyeti", "parent": "effects" }
+],
+"slots": [
+	{ "name": "xunhuanyeti/yeti_0002", "bone": "xunhuanyeti", "attachment": "xunhuanyeti/yeti_0002" }
+],
+"skins": {
+	"default": {
+		"xunhuanyeti/yeti_0002": {
+			"xunhuanyeti/yeti_0002": { "width": 170, "height": 140 },
+			"xunhuanyeti/yeti_0004": { "width": 170, "height": 140 },
+			"xunhuanyeti/yeti_0006": { "width": 170, "height": 140 },
+			"xunhuanyeti/yeti_0008": { "width": 170, "height": 140 },
+			"xunhuanyeti/yeti_0010": { "width": 170, "height": 140 },
+			"xunhuanyeti/yeti_0012": { "width": 170, "height": 140 },
+			"xunhuanyeti/yeti_0014": { "width": 170, "height": 140 },
+			"xunhuanyeti/yeti_0016": { "width": 170, "height": 140 },
+			"xunhuanyeti/yeti_0018": { "width": 170, "height": 140 },
+			"xunhuanyeti/yeti_0020": { "width": 170, "height": 140 },
+			"xunhuanyeti/yeti_0022": { "width": 170, "height": 140 },
+			"xunhuanyeti/yeti_0024": { "width": 170, "height": 140 },
+			"xunhuanyeti/yeti_0026": { "width": 170, "height": 140 },
+			"xunhuanyeti/yeti_0028": { "width": 170, "height": 140 },
+			"xunhuanyeti/yeti_0030": { "width": 170, "height": 140 },
+			"xunhuanyeti/yeti_0032": { "width": 170, "height": 140 },
+			"xunhuanyeti/yeti_0034": { "width": 170, "height": 140 }
+		}
+	}
+},
+"animations": {
+	"ui_dating_score2": {
+		"slots": {
+			"xunhuanyeti/yeti_0002": {
+				"attachment": [
+					{ "time": 0, "name": "xunhuanyeti/yeti_0002" },
+					{ "time": 0.0666, "name": "xunhuanyeti/yeti_0004" },
+					{ "time": 0.1333, "name": "xunhuanyeti/yeti_0006" },
+					{ "time": 0.2, "name": "xunhuanyeti/yeti_0008" },
+					{ "time": 0.2666, "name": "xunhuanyeti/yeti_0010" },
+					{ "time": 0.3333, "name": "xunhuanyeti/yeti_0012" },
+					{ "time": 0.4, "name": "xunhuanyeti/yeti_0014" },
+					{ "time": 0.4666, "name": "xunhuanyeti/yeti_0016" },
+					{ "time": 0.5333, "name": "xunhuanyeti/yeti_0018" },
+					{ "time": 0.6, "name": "xunhuanyeti/yeti_0020" },
+					{ "time": 0.6666, "name": "xunhuanyeti/yeti_0022" },
+					{ "time": 0.7333, "name": "xunhuanyeti/yeti_0024" },
+					{ "time": 0.8, "name": "xunhuanyeti/yeti_0026" },
+					{ "time": 0.8666, "name": "xunhuanyeti/yeti_0028" },
+					{ "time": 0.9333, "name": "xunhuanyeti/yeti_0030" },
+					{ "time": 1, "name": "xunhuanyeti/yeti_0032" },
+					{ "time": 1.0666, "name": "xunhuanyeti/yeti_0034" }
+				]
+			}
+		}
+	}
+}
+}

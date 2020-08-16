@@ -1,0 +1,767 @@
+
+effects_11201_born.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillF/1yumao/1yumao_00004
+  rotate: false
+  xy: 457, 15
+  size: 107, 120
+  orig: 300, 270
+  offset: 93, 146
+  index: -1
+images/effects/skillF/1yumao/1yumao_00006
+  rotate: false
+  xy: 893, 485
+  size: 126, 153
+  orig: 300, 270
+  offset: 82, 113
+  index: -1
+images/effects/skillF/1yumao/1yumao_00014
+  rotate: false
+  xy: 640, 66
+  size: 240, 226
+  orig: 300, 270
+  offset: 42, 40
+  index: -1
+images/effects/skillF/1yumao/1yumao_00016
+  rotate: false
+  xy: 640, 520
+  size: 251, 244
+  orig: 300, 270
+  offset: 33, 22
+  index: -1
+images/effects/skillF/1yumao/1yumao_00018
+  rotate: false
+  xy: 655, 766
+  size: 268, 255
+  orig: 300, 270
+  offset: 26, 11
+  index: -1
+images/effects/skillF/1yumao/1yumao_00020
+  rotate: true
+  xy: 321, 137
+  size: 220, 246
+  orig: 300, 270
+  offset: 23, 20
+  index: -1
+images/effects/skillF/1yumao/1yumao_00022
+  rotate: true
+  xy: 2, 154
+  size: 226, 247
+  orig: 300, 270
+  offset: 19, 19
+  index: -1
+images/effects/skillF/1yumao/1yumao_00024
+  rotate: true
+  xy: 2, 382
+  size: 229, 251
+  orig: 300, 270
+  offset: 17, 15
+  index: -1
+images/effects/skillF/1yumao/1yumao_00026
+  rotate: true
+  xy: 323, 359
+  size: 227, 249
+  orig: 300, 270
+  offset: 17, 17
+  index: -1
+images/effects/skillF/1yumao/1yumao_00027
+  rotate: true
+  xy: 640, 294
+  size: 224, 246
+  orig: 300, 270
+  offset: 17, 20
+  index: -1
+images/effects/skillF/1yumao/1yumao_00030
+  rotate: true
+  xy: 882, 48
+  size: 207, 139
+  orig: 300, 270
+  offset: 25, 127
+  index: -1
+images/effects/skillF/baozha/baozha_00024
+  rotate: true
+  xy: 310, 10
+  size: 125, 145
+  orig: 210, 210
+  offset: 59, 41
+  index: -1
+images/effects/skillF/dengguang/dengguang_00000
+  rotate: false
+  xy: 925, 640
+  size: 61, 206
+  orig: 159, 244
+  offset: 48, 29
+  index: -1
+images/effects/skillF/dengguang/dengguang_00001
+  rotate: false
+  xy: 888, 257
+  size: 133, 226
+  orig: 159, 244
+  offset: 17, 11
+  index: -1
+images/effects/skillF/dixiaquan/dixiaquan_00004
+  rotate: true
+  xy: 255, 453
+  size: 158, 66
+  orig: 180, 120
+  offset: 11, 20
+  index: -1
+images/effects/skillF/dixiaquan/dixiaquan_00006
+  rotate: true
+  xy: 255, 292
+  size: 159, 64
+  orig: 180, 120
+  offset: 11, 21
+  index: -1
+images/effects/skillF/dixiaquan/dixiaquan_00008
+  rotate: true
+  xy: 574, 429
+  size: 157, 64
+  orig: 180, 120
+  offset: 13, 21
+  index: -1
+images/effects/skillF/dixiaquan/dixiaquan_00010
+  rotate: true
+  xy: 574, 272
+  size: 155, 64
+  orig: 180, 120
+  offset: 14, 21
+  index: -1
+images/effects/skillF/dixiaquan/dixiaquan_00012
+  rotate: false
+  xy: 636, 2
+  size: 158, 62
+  orig: 180, 120
+  offset: 15, 22
+  index: -1
+images/effects/skillF/glow_00000
+  rotate: true
+  xy: 925, 848
+  size: 173, 89
+  orig: 180, 90
+  offset: 4, 1
+  index: -1
+images/effects/skillF/lizi/lizi_00021
+  rotate: false
+  xy: 569, 123
+  size: 67, 147
+  orig: 150, 180
+  offset: 48, 18
+  index: -1
+images/effects/skillF/lizi/lizi_00022
+  rotate: false
+  xy: 251, 143
+  size: 67, 147
+  orig: 150, 180
+  offset: 48, 19
+  index: -1
+images/effects/skillF/shandian/shandian_00021
+  rotate: true
+  xy: 566, 21
+  size: 100, 68
+  orig: 120, 90
+  offset: 4, 9
+  index: -1
+images/effects/skillF/shandian/shandian_00025
+  rotate: true
+  xy: 796, 10
+  size: 54, 64
+  orig: 120, 90
+  offset: 12, 13
+  index: -1
+images/effects/skillF/shandian/shandian_00027
+  rotate: false
+  xy: 862, 8
+  size: 37, 38
+  orig: 120, 90
+  offset: 13, 41
+  index: -1
+images/effects/skillF/shandian/shandian_00028
+  rotate: false
+  xy: 901, 11
+  size: 35, 35
+  orig: 120, 90
+  offset: 14, 44
+  index: -1
+images/effects/skillF/yumao/yumaolizi_00032
+  rotate: false
+  xy: 2, 2
+  size: 229, 150
+  orig: 360, 240
+  offset: 0, 72
+  index: -1
+images/effects/skillF/yumao/yumaolizi_00034
+  rotate: false
+  xy: 327, 807
+  size: 326, 214
+  orig: 360, 240
+  offset: 0, 7
+  index: -1
+images/effects/skillF/yumao/yumaolizi_00036
+  rotate: false
+  xy: 2, 805
+  size: 323, 216
+  orig: 360, 240
+  offset: 18, 5
+  index: -1
+images/effects/skillF/yumao/yumaolizi_00038
+  rotate: false
+  xy: 327, 588
+  size: 311, 217
+  orig: 360, 240
+  offset: 34, 3
+  index: -1
+images/effects/skillF/yumao/yumaolizi_00040
+  rotate: false
+  xy: 2, 613
+  size: 307, 190
+  orig: 360, 240
+  offset: 41, 30
+  index: -1
+images/effects/skillF/zhuanquan/zhuanquan_00010
+  rotate: true
+  xy: 233, 6
+  size: 135, 75
+  orig: 180, 90
+  offset: 17, 8
+  index: -1
+
+effects_11201_born2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillF/1yumao/1yumao_00002
+  rotate: false
+  xy: 766, 77
+  size: 80, 74
+  orig: 300, 270
+  offset: 112, 192
+  index: -1
+images/effects/skillF/1yumao/1yumao_00012
+  rotate: false
+  xy: 633, 649
+  size: 220, 214
+  orig: 300, 270
+  offset: 52, 52
+  index: -1
+images/effects/skillF/1yumao/1yumao_00028
+  rotate: true
+  xy: 853, 367
+  size: 217, 169
+  orig: 300, 270
+  offset: 19, 97
+  index: -1
+images/effects/skillF/1yumao/1yumao_00032
+  rotate: true
+  xy: 322, 373
+  size: 184, 139
+  orig: 300, 270
+  offset: 27, 126
+  index: -1
+images/effects/skillF/dengguang/dengguang_00002
+  rotate: false
+  xy: 2, 544
+  size: 159, 237
+  orig: 159, 244
+  offset: 0, 0
+  index: -1
+images/effects/skillF/dengguang/dengguang_00003
+  rotate: false
+  xy: 162, 785
+  size: 159, 237
+  orig: 159, 244
+  offset: 0, 0
+  index: -1
+images/effects/skillF/dengguang/dengguang_00004
+  rotate: false
+  xy: 162, 307
+  size: 158, 235
+  orig: 159, 244
+  offset: 0, 2
+  index: -1
+images/effects/skillF/dengguang/dengguang_00005
+  rotate: false
+  xy: 2, 305
+  size: 158, 237
+  orig: 159, 244
+  offset: 0, 0
+  index: -1
+images/effects/skillF/dengguang/dengguang_00006
+  rotate: false
+  xy: 2, 783
+  size: 158, 239
+  orig: 159, 244
+  offset: 0, 0
+  index: -1
+images/effects/skillF/dengguang/dengguang_00007
+  rotate: false
+  xy: 2, 66
+  size: 158, 237
+  orig: 159, 244
+  offset: 0, 2
+  index: -1
+images/effects/skillF/dengguang/dengguang_00008
+  rotate: false
+  xy: 863, 799
+  size: 158, 223
+  orig: 159, 244
+  offset: 0, 15
+  index: -1
+images/effects/skillF/dengguang/dengguang_00009
+  rotate: false
+  xy: 321, 77
+  size: 157, 228
+  orig: 159, 244
+  offset: 0, 10
+  index: -1
+images/effects/skillF/dengguang/dengguang_00010
+  rotate: false
+  xy: 162, 75
+  size: 157, 230
+  orig: 159, 244
+  offset: 0, 10
+  index: -1
+images/effects/skillF/dengguang/dengguang_00011
+  rotate: false
+  xy: 163, 551
+  size: 157, 232
+  orig: 159, 244
+  offset: 0, 8
+  index: -1
+images/effects/skillF/dengguang/dengguang_00012
+  rotate: true
+  xy: 633, 865
+  size: 157, 228
+  orig: 159, 244
+  offset: 0, 12
+  index: -1
+images/effects/skillF/dixiaquan/dixiaquan_00002
+  rotate: false
+  xy: 322, 634
+  size: 148, 61
+  orig: 180, 120
+  offset: 16, 22
+  index: -1
+images/effects/skillF/dixiaquan/dixiaquan_00014
+  rotate: false
+  xy: 855, 661
+  size: 156, 60
+  orig: 180, 120
+  offset: 16, 23
+  index: -1
+images/effects/skillF/dixiaquan/dixiaquan_00016
+  rotate: false
+  xy: 472, 626
+  size: 157, 60
+  orig: 180, 120
+  offset: 14, 23
+  index: -1
+images/effects/skillF/dixiaquan/dixiaquan_00018
+  rotate: false
+  xy: 472, 688
+  size: 158, 61
+  orig: 180, 120
+  offset: 15, 22
+  index: -1
+images/effects/skillF/dixiaquan/dixiaquan_00020
+  rotate: false
+  xy: 2, 2
+  size: 154, 62
+  orig: 180, 120
+  offset: 16, 22
+  index: -1
+images/effects/skillF/dixiaquan/dixiaquan_00021
+  rotate: false
+  xy: 158, 2
+  size: 153, 62
+  orig: 180, 120
+  offset: 17, 22
+  index: -1
+images/effects/skillF/dixiaquan/dixiaquan_00022
+  rotate: false
+  xy: 480, 828
+  size: 150, 62
+  orig: 180, 120
+  offset: 19, 22
+  index: -1
+images/effects/skillF/dixiaquan/dixiaquan_00023
+  rotate: false
+  xy: 322, 697
+  size: 148, 62
+  orig: 180, 120
+  offset: 19, 22
+  index: -1
+images/effects/skillF/dixiaquan/dixiaquan_00024
+  rotate: false
+  xy: 323, 835
+  size: 149, 62
+  orig: 180, 120
+  offset: 17, 22
+  index: -1
+images/effects/skillF/dixiaquan/dixiaquan_00025
+  rotate: false
+  xy: 480, 958
+  size: 151, 64
+  orig: 180, 120
+  offset: 16, 21
+  index: -1
+images/effects/skillF/dixiaquan/dixiaquan_00026
+  rotate: false
+  xy: 480, 892
+  size: 151, 64
+  orig: 180, 120
+  offset: 16, 21
+  index: -1
+images/effects/skillF/dixiaquan/dixiaquan_00028
+  rotate: false
+  xy: 323, 899
+  size: 150, 60
+  orig: 180, 120
+  offset: 17, 23
+  index: -1
+images/effects/skillF/dixiaquan/dixiaquan_00032
+  rotate: false
+  xy: 323, 961
+  size: 155, 61
+  orig: 180, 120
+  offset: 16, 22
+  index: -1
+images/effects/skillF/dixiaquan/dixiaquan_00036
+  rotate: true
+  xy: 695, 159
+  size: 144, 59
+  orig: 180, 120
+  offset: 18, 23
+  index: -1
+images/effects/skillF/dixiaquan/dixiaquan_00038
+  rotate: false
+  xy: 322, 307
+  size: 139, 58
+  orig: 180, 120
+  offset: 22, 24
+  index: -1
+images/effects/skillF/lizi/lizi_00000
+  rotate: false
+  xy: 756, 183
+  size: 92, 120
+  orig: 150, 180
+  offset: 42, 32
+  index: -1
+images/effects/skillF/lizi/lizi_00004
+  rotate: true
+  xy: 650, 77
+  size: 74, 114
+  orig: 150, 180
+  offset: 50, 38
+  index: -1
+images/effects/skillF/lizi/lizi_00006
+  rotate: false
+  xy: 917, 56
+  size: 105, 95
+  orig: 150, 180
+  offset: 22, 39
+  index: -1
+images/effects/skillF/lizi/lizi_00017
+  rotate: true
+  xy: 549, 156
+  size: 75, 144
+  orig: 150, 180
+  offset: 44, 14
+  index: -1
+images/effects/skillF/lizi/lizi_00018
+  rotate: true
+  xy: 322, 559
+  size: 73, 146
+  orig: 150, 180
+  offset: 46, 14
+  index: -1
+images/effects/skillF/lizi/lizi_00019
+  rotate: true
+  xy: 855, 586
+  size: 73, 146
+  orig: 150, 180
+  offset: 46, 15
+  index: -1
+images/effects/skillF/lizi/lizi_00020
+  rotate: true
+  xy: 323, 761
+  size: 72, 148
+  orig: 150, 180
+  offset: 47, 16
+  index: -1
+images/effects/skillF/lizi/lizi_00023
+  rotate: true
+  xy: 313, 6
+  size: 67, 147
+  orig: 150, 180
+  offset: 48, 20
+  index: -1
+images/effects/skillF/lizi/lizi_00024
+  rotate: false
+  xy: 848, 5
+  size: 67, 146
+  orig: 150, 180
+  offset: 49, 22
+  index: -1
+images/effects/skillF/lizi/lizi_00025
+  rotate: false
+  xy: 480, 157
+  size: 67, 146
+  orig: 150, 180
+  offset: 49, 23
+  index: -1
+images/effects/skillF/shandian/shandian_00022
+  rotate: false
+  xy: 470, 564
+  size: 86, 60
+  orig: 120, 90
+  offset: 4, 12
+  index: -1
+images/effects/skillF/shandian/shandian_00024
+  rotate: true
+  xy: 917, 2
+  size: 52, 53
+  orig: 120, 90
+  offset: 16, 13
+  index: -1
+images/effects/skillF/yumao/yumaolizi_00030
+  rotate: true
+  xy: 549, 233
+  size: 115, 82
+  orig: 360, 240
+  offset: 0, 141
+  index: -1
+images/effects/skillF/yumao/yumaolizi_00044
+  rotate: true
+  xy: 463, 350
+  size: 207, 168
+  orig: 360, 240
+  offset: 50, 51
+  index: -1
+images/effects/skillF/yumao/yumaolizi_00046
+  rotate: true
+  xy: 852, 153
+  size: 212, 170
+  orig: 360, 240
+  offset: 54, 47
+  index: -1
+images/effects/skillF/yumao/yumaolizi_00048
+  rotate: false
+  xy: 633, 476
+  size: 218, 171
+  orig: 360, 240
+  offset: 58, 45
+  index: -1
+images/effects/skillF/yumao/yumaolizi_00050
+  rotate: false
+  xy: 633, 305
+  size: 217, 169
+  orig: 360, 240
+  offset: 63, 44
+  index: -1
+images/effects/skillF/zhuanquan/zhuanquan_00000
+  rotate: false
+  xy: 473, 751
+  size: 158, 75
+  orig: 180, 90
+  offset: 6, 7
+  index: -1
+images/effects/skillF/zhuanquan/zhuanquan_00002
+  rotate: false
+  xy: 480, 77
+  size: 168, 74
+  orig: 180, 90
+  offset: 4, 7
+  index: -1
+images/effects/skillF/zhuanquan/zhuanquan_00004
+  rotate: false
+  xy: 462, 2
+  size: 169, 73
+  orig: 180, 90
+  offset: 4, 8
+  index: -1
+images/effects/skillF/zhuanquan/zhuanquan_00006
+  rotate: false
+  xy: 633, 2
+  size: 168, 73
+  orig: 180, 90
+  offset: 5, 8
+  index: -1
+images/effects/skillF/zhuanquan/zhuanquan_00008
+  rotate: false
+  xy: 855, 723
+  size: 160, 74
+  orig: 180, 90
+  offset: 10, 8
+  index: -1
+
+effects_11201_born3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillF/1yumao/1yumao_00008
+  rotate: true
+  xy: 786, 658
+  size: 168, 180
+  orig: 300, 270
+  offset: 68, 86
+  index: -1
+images/effects/skillF/1yumao/1yumao_00010
+  rotate: false
+  xy: 2, 816
+  size: 197, 202
+  orig: 300, 270
+  offset: 59, 64
+  index: -1
+images/effects/skillF/1yumao/1yumao_00029
+  rotate: false
+  xy: 405, 849
+  size: 212, 169
+  orig: 300, 270
+  offset: 24, 97
+  index: -1
+images/effects/skillF/1yumao/1yumao_00031
+  rotate: false
+  xy: 201, 690
+  size: 189, 138
+  orig: 300, 270
+  offset: 25, 127
+  index: -1
+images/effects/skillF/baozha/baozha_00010
+  rotate: false
+  xy: 2, 422
+  size: 194, 195
+  orig: 210, 210
+  offset: 11, 8
+  index: -1
+images/effects/skillF/baozha/baozha_00011
+  rotate: false
+  xy: 2, 225
+  size: 194, 195
+  orig: 210, 210
+  offset: 11, 8
+  index: -1
+images/effects/skillF/baozha/baozha_00012
+  rotate: false
+  xy: 2, 619
+  size: 196, 195
+  orig: 210, 210
+  offset: 10, 8
+  index: -1
+images/effects/skillF/baozha/baozha_00014
+  rotate: true
+  xy: 597, 663
+  size: 169, 187
+  orig: 210, 210
+  offset: 23, 14
+  index: -1
+images/effects/skillF/baozha/baozha_00016
+  rotate: true
+  xy: 619, 834
+  size: 184, 194
+  orig: 210, 210
+  offset: 16, 10
+  index: -1
+images/effects/skillF/baozha/baozha_00018
+  rotate: false
+  xy: 2, 27
+  size: 190, 196
+  orig: 210, 210
+  offset: 13, 9
+  index: -1
+images/effects/skillF/baozha/baozha_00020
+  rotate: true
+  xy: 815, 828
+  size: 190, 192
+  orig: 210, 210
+  offset: 13, 10
+  index: -1
+images/effects/skillF/baozha/baozha_00022
+  rotate: false
+  xy: 405, 657
+  size: 190, 190
+  orig: 210, 210
+  offset: 13, 10
+  index: -1
+images/effects/skillF/dixiaquan/dixiaquan_00000
+  rotate: true
+  xy: 968, 698
+  size: 128, 50
+  orig: 180, 120
+  offset: 28, 28
+  index: -1
+images/effects/skillF/lizi/lizi_00002
+  rotate: false
+  xy: 323, 482
+  size: 90, 117
+  orig: 150, 180
+  offset: 43, 35
+  index: -1
+images/effects/skillF/lizi/lizi_00008
+  rotate: true
+  xy: 520, 551
+  size: 104, 91
+  orig: 150, 180
+  offset: 21, 43
+  index: -1
+images/effects/skillF/lizi/lizi_00010
+  rotate: false
+  xy: 415, 555
+  size: 103, 100
+  orig: 150, 180
+  offset: 22, 35
+  index: -1
+images/effects/skillF/lizi/lizi_00012
+  rotate: false
+  xy: 613, 561
+  size: 102, 100
+  orig: 150, 180
+  offset: 22, 38
+  index: -1
+images/effects/skillF/lizi/lizi_00014
+  rotate: false
+  xy: 315, 372
+  size: 99, 108
+  orig: 150, 180
+  offset: 22, 43
+  index: -1
+images/effects/skillF/lizi/lizi_00015
+  rotate: false
+  xy: 198, 260
+  size: 100, 108
+  orig: 150, 180
+  offset: 22, 45
+  index: -1
+images/effects/skillF/lizi/lizi_00016
+  rotate: true
+  xy: 200, 601
+  size: 87, 143
+  orig: 150, 180
+  offset: 34, 14
+  index: -1
+images/effects/skillF/yumao/yumaolizi_00042
+  rotate: false
+  xy: 201, 830
+  size: 202, 188
+  orig: 360, 240
+  offset: 46, 32
+  index: -1
+images/effects/skillF/yumao/yumaolizi_00052
+  rotate: false
+  xy: 198, 482
+  size: 123, 117
+  orig: 360, 240
+  offset: 67, 47
+  index: -1
+images/effects/skillF/yumao/yumaolizi_00054
+  rotate: false
+  xy: 198, 370
+  size: 115, 110
+  orig: 360, 240
+  offset: 76, 51
+  index: -1

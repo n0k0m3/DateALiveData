@@ -1,0 +1,76 @@
+
+fubenrukou.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dingceng
+  rotate: false
+  xy: 293, 380
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+fenzhen
+  rotate: false
+  xy: 293, 218
+  size: 94, 62
+  orig: 94, 62
+  offset: 0, 0
+  index: -1
+guang
+  rotate: false
+  xy: 2, 244
+  size: 289, 264
+  orig: 289, 264
+  offset: 0, 0
+  index: -1
+miaozhen
+  rotate: true
+  xy: 2, 2
+  size: 85, 107
+  orig: 85, 107
+  offset: 0, 0
+  index: -1
+shizhen
+  rotate: false
+  xy: 157, 89
+  size: 89, 25
+  orig: 89, 25
+  offset: 0, 0
+  index: -1
+waicihuan
+  rotate: false
+  xy: 2, 89
+  size: 153, 153
+  orig: 153, 153
+  offset: 0, 0
+  index: -1
+xuanzhuan1
+  rotate: false
+  xy: 423, 427
+  size: 81, 81
+  orig: 81, 81
+  offset: 0, 0
+  index: -1
+xuanzhuan2
+  rotate: false
+  xy: 285, 125
+  size: 91, 91
+  orig: 91, 91
+  offset: 0, 0
+  index: -1
+xuanzhuan3
+  rotate: false
+  xy: 157, 116
+  size: 126, 126
+  orig: 126, 126
+  offset: 0, 0
+  index: -1
+zhongcihuan
+  rotate: false
+  xy: 293, 282
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1

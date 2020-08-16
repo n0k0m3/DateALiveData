@@ -1,0 +1,56 @@
+{
+"skeleton": {
+	"hash": "04rhwY3jMeJUISb3VAGrMyAdCB8",
+	"spine": "2.1.27",
+	"width": 672.09,
+	"height": 248.25,
+	"images": "C:/Users/Administrator/Desktop/尺寸需要修改的特效/map_jdpt_yun_04"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "length": 284, "x": 1355.07, "y": 91.89, "rotation": -1.35, "color": "51ff00ff" },
+	{ "name": "bone10", "parent": "bone", "length": 137.47, "x": -430.74, "y": 789.44, "rotation": 1.8, "color": "0300ffff" },
+	{ "name": "bone6", "parent": "bone", "length": 137.47, "x": 378.01, "y": 808.2, "rotation": 1.8, "color": "0300ffff" }
+],
+"slots": [
+	{ "name": "yun", "bone": "bone6", "attachment": "yun" },
+	{ "name": "yun3", "bone": "bone10" }
+],
+"skins": {
+	"default": {
+		"yun": {
+			"yun": { "x": 4.71, "y": -96.14, "rotation": -0.45, "width": 672, "height": 248 }
+		},
+		"yun3": {
+			"yun": { "x": 4.71, "y": -96.14, "rotation": -0.45, "width": 672, "height": 248 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"yun3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"bone10": {
+				"translate": [
+					{ "time": 0, "x": 267.04, "y": 6.19, "curve": "stepped" },
+					{ "time": 5, "x": 267.04, "y": 6.19 },
+					{ "time": 21.6666, "x": 808.75, "y": 18.76 }
+				]
+			},
+			"bone6": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 9.9333, "x": 51.16, "y": 1.17 },
+					{ "time": 21.6666, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

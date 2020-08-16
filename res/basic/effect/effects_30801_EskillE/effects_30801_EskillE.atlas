@@ -1,0 +1,355 @@
+
+effects_30801_EskillE.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/EskillC/guangtiaoa_00001
+  rotate: true
+  xy: 952, 507
+  size: 71, 67
+  orig: 73, 74
+  offset: 1, 3
+  index: -1
+images/effects/EskillE_F/baodiana/baodiana_00044
+  rotate: true
+  xy: 152, 23
+  size: 178, 134
+  orig: 214, 169
+  offset: 19, 22
+  index: -1
+images/effects/EskillE_F/baodiana/baodiana_00045
+  rotate: true
+  xy: 2, 5
+  size: 196, 148
+  orig: 214, 169
+  offset: 11, 14
+  index: -1
+images/effects/EskillE_F/baodiana/baodiana_00046
+  rotate: false
+  xy: 2, 203
+  size: 210, 168
+  orig: 214, 169
+  offset: 2, 0
+  index: -1
+images/effects/EskillE_F/baodiana/baodiana_00047
+  rotate: false
+  xy: 2, 203
+  size: 210, 168
+  orig: 214, 169
+  offset: 2, 0
+  index: -1
+images/effects/EskillE_F/baodiana/baodiana_00048
+  rotate: false
+  xy: 713, 254
+  size: 210, 168
+  orig: 214, 169
+  offset: 2, 0
+  index: -1
+images/effects/EskillE_F/baodiana/baodiana_00049
+  rotate: false
+  xy: 239, 295
+  size: 214, 169
+  orig: 214, 169
+  offset: 0, 0
+  index: -1
+images/effects/EskillE_F/baodianm/baodianm_00045
+  rotate: false
+  xy: 240, 757
+  size: 236, 127
+  orig: 267, 147
+  offset: 21, 12
+  index: -1
+images/effects/EskillE_F/baodianm/baodianm_00046
+  rotate: false
+  xy: 240, 628
+  size: 236, 127
+  orig: 267, 147
+  offset: 21, 12
+  index: -1
+images/effects/EskillE_F/baodianm/baodianm_00047
+  rotate: false
+  xy: 524, 891
+  size: 248, 131
+  orig: 267, 147
+  offset: 13, 9
+  index: -1
+images/effects/EskillE_F/baodianm/baodianm_00048
+  rotate: false
+  xy: 774, 891
+  size: 248, 131
+  orig: 267, 147
+  offset: 13, 9
+  index: -1
+images/effects/EskillE_F/baodianm/baodianm_00049
+  rotate: false
+  xy: 2, 886
+  size: 259, 136
+  orig: 267, 147
+  offset: 7, 5
+  index: -1
+images/effects/EskillE_F/baodianm/baodianm_00050
+  rotate: false
+  xy: 263, 886
+  size: 259, 136
+  orig: 267, 147
+  offset: 7, 5
+  index: -1
+images/effects/EskillE_F/heiqiun_00003
+  rotate: true
+  xy: 486, 5
+  size: 159, 158
+  orig: 169, 169
+  offset: 5, 5
+  index: -1
+images/effects/EskillE_F/kuosanquann/kuosanquann_00044
+  rotate: true
+  xy: 952, 391
+  size: 114, 58
+  orig: 169, 94
+  offset: 27, 18
+  index: -1
+images/effects/EskillE_F/kuosanquann/kuosanquann_00046
+  rotate: true
+  xy: 925, 220
+  size: 169, 88
+  orig: 169, 94
+  offset: 0, 3
+  index: -1
+images/effects/EskillE_F/kuosanquann/kuosanquann_00048
+  rotate: true
+  xy: 288, 39
+  size: 162, 84
+  orig: 169, 94
+  offset: 2, 5
+  index: -1
+images/effects/EskillE_F/kuosanquann/kuosanquann_00049
+  rotate: false
+  xy: 306, 209
+  size: 159, 84
+  orig: 169, 94
+  offset: 4, 5
+  index: -1
+images/effects/EskillE_F/kxguangqiu_00096
+  rotate: false
+  xy: 214, 203
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+images/effects/EskillE_F/lizia/lizia_00045
+  rotate: true
+  xy: 467, 243
+  size: 55, 58
+  orig: 162, 112
+  offset: 40, 18
+  index: -1
+images/effects/EskillE_F/lizia/lizia_00047
+  rotate: true
+  xy: 455, 300
+  size: 113, 101
+  orig: 162, 112
+  offset: 20, 3
+  index: -1
+images/effects/EskillE_F/lizia/lizia_00053
+  rotate: true
+  xy: 646, 6
+  size: 158, 111
+  orig: 162, 112
+  offset: 0, 1
+  index: -1
+images/effects/EskillE_F/lizia/lizia_00055
+  rotate: false
+  xy: 527, 166
+  size: 160, 111
+  orig: 162, 112
+  offset: 0, 1
+  index: -1
+images/effects/EskillE_F/lizia/lizia_00057
+  rotate: false
+  xy: 759, 141
+  size: 158, 111
+  orig: 162, 112
+  offset: 3, 1
+  index: -1
+images/effects/EskillE_F/lizia/lizia_00059
+  rotate: true
+  xy: 374, 4
+  size: 160, 110
+  orig: 162, 112
+  offset: 2, 2
+  index: -1
+images/effects/EskillE_F/lizia/lizia_00061
+  rotate: true
+  xy: 909, 13
+  size: 126, 110
+  orig: 162, 112
+  offset: 36, 2
+  index: -1
+images/effects/EskillE_F/qiufengwenxha/qiufengwenxha_00000
+  rotate: false
+  xy: 2, 531
+  size: 235, 172
+  orig: 243, 179
+  offset: 4, 7
+  index: -1
+images/effects/EskillE_F/qiufengwenxha/qiufengwenxha_00002
+  rotate: false
+  xy: 239, 466
+  size: 235, 160
+  orig: 243, 179
+  offset: 4, 19
+  index: -1
+images/effects/EskillE_F/qiufengwenxha/qiufengwenxha_00004
+  rotate: false
+  xy: 2, 373
+  size: 235, 156
+  orig: 243, 179
+  offset: 4, 23
+  index: -1
+images/effects/EskillE_F/qiufengwenxha/qiufengwenxha_00006
+  rotate: false
+  xy: 715, 424
+  size: 235, 154
+  orig: 243, 179
+  offset: 4, 25
+  index: -1
+images/effects/EskillE_F/qiufengwenxha/qiufengwenxha_00008
+  rotate: false
+  xy: 524, 735
+  size: 238, 154
+  orig: 243, 179
+  offset: 1, 25
+  index: -1
+images/effects/EskillE_F/qiufengwenxha/qiufengwenxha_00010
+  rotate: false
+  xy: 764, 736
+  size: 238, 153
+  orig: 243, 179
+  offset: 1, 26
+  index: -1
+images/effects/EskillE_F/qiufengwenxha/qiufengwenxha_00012
+  rotate: false
+  xy: 476, 415
+  size: 235, 154
+  orig: 243, 179
+  offset: 4, 25
+  index: -1
+images/effects/EskillE_F/qiufengwenxha/qiufengwenxha_00014
+  rotate: false
+  xy: 478, 571
+  size: 235, 162
+  orig: 243, 179
+  offset: 4, 0
+  index: -1
+images/effects/EskillE_F/qiufengwenxha/qiufengwenxha_00016
+  rotate: false
+  xy: 764, 580
+  size: 237, 154
+  orig: 243, 179
+  offset: 4, 0
+  index: -1
+images/effects/EskillE_F/qiufengwenxha/qiufengwenxha_00018
+  rotate: false
+  xy: 2, 705
+  size: 236, 179
+  orig: 243, 179
+  offset: 4, 0
+  index: -1
+images/effects/EskillE_F/qiuxhn/qiuxhn_00022
+  rotate: false
+  xy: 558, 279
+  size: 148, 134
+  orig: 150, 134
+  offset: 2, 0
+  index: -1
+images/effects/EskillE_F/qiuxhn/qiuxhn_00038
+  rotate: false
+  xy: 759, 5
+  size: 148, 134
+  orig: 150, 134
+  offset: 2, 0
+  index: -1
+images/effects/glow
+  rotate: false
+  xy: 478, 836
+  size: 44, 48
+  orig: 56, 56
+  offset: 6, 3
+  index: -1
+
+effects_30801_EskillE2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/EskillE_F/lizia/lizia_00049
+  rotate: false
+  xy: 292, 115
+  size: 146, 111
+  orig: 162, 112
+  offset: 3, 1
+  index: -1
+images/effects/EskillE_F/lizia/lizia_00051
+  rotate: false
+  xy: 292, 2
+  size: 154, 111
+  orig: 162, 112
+  offset: 0, 1
+  index: -1
+images/effects/EskillE_F/qiuxhn/qiuxhn_00020
+  rotate: false
+  xy: 2, 228
+  size: 145, 134
+  orig: 150, 134
+  offset: 2, 0
+  index: -1
+images/effects/EskillE_F/qiuxhn/qiuxhn_00024
+  rotate: false
+  xy: 2, 364
+  size: 146, 134
+  orig: 150, 134
+  offset: 4, 0
+  index: -1
+images/effects/EskillE_F/qiuxhn/qiuxhn_00026
+  rotate: false
+  xy: 149, 228
+  size: 143, 134
+  orig: 150, 134
+  offset: 6, 0
+  index: -1
+images/effects/EskillE_F/qiuxhn/qiuxhn_00028
+  rotate: false
+  xy: 297, 364
+  size: 143, 134
+  orig: 150, 134
+  offset: 5, 0
+  index: -1
+images/effects/EskillE_F/qiuxhn/qiuxhn_00030
+  rotate: false
+  xy: 148, 92
+  size: 142, 134
+  orig: 150, 134
+  offset: 4, 0
+  index: -1
+images/effects/EskillE_F/qiuxhn/qiuxhn_00032
+  rotate: false
+  xy: 294, 228
+  size: 142, 134
+  orig: 150, 134
+  offset: 6, 0
+  index: -1
+images/effects/EskillE_F/qiuxhn/qiuxhn_00034
+  rotate: false
+  xy: 150, 364
+  size: 145, 134
+  orig: 150, 134
+  offset: 3, 0
+  index: -1
+images/effects/EskillE_F/qiuxhn/qiuxhn_00036
+  rotate: false
+  xy: 2, 92
+  size: 144, 134
+  orig: 150, 134
+  offset: 6, 0
+  index: -1

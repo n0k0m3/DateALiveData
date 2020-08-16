@@ -1,0 +1,146 @@
+{
+"skeleton": {
+	"hash": "Qy6MrW6WHurQNo/OSvtxDUFbVSU",
+	"spine": "2.1.27",
+	"width": 6,
+	"height": 8,
+	"images": "C:/Users/Administrator/Desktop/尺寸需要修改的特效/map_shuidi_08"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "bone2", "parent": "bone" },
+	{ "name": "bone3", "parent": "bone" }
+],
+"slots": [
+	{ "name": "sucai/shuidi/shuidi_00000", "bone": "bone3" },
+	{ "name": "sucai/yudi/yudi_00002", "bone": "bone2", "attachment": "sucai/yudi/yudi_00002" }
+],
+"skins": {
+	"default": {
+		"sucai/shuidi/shuidi_00000": {
+			"sucai/shuidi/shuidi_00001": { "width": 75, "height": 23 },
+			"sucai/shuidi/shuidi_00003": { "width": 75, "height": 23 },
+			"sucai/shuidi/shuidi_00005": { "width": 75, "height": 23 },
+			"sucai/shuidi/shuidi_00007": { "width": 75, "height": 23 },
+			"sucai/shuidi/shuidi_00009": { "width": 75, "height": 24 },
+			"sucai/shuidi/shuidi_00011": { "width": 75, "height": 23 },
+			"sucai/shuidi/shuidi_00013": { "width": 75, "height": 23 },
+			"sucai/shuidi/shuidi_00015": { "width": 75, "height": 23 },
+			"sucai/shuidi/shuidi_00017": { "width": 75, "height": 23 },
+			"sucai/shuidi/shuidi_00019": { "width": 75, "height": 24 },
+			"sucai/shuidi/shuidi_00021": { "width": 75, "height": 23 },
+			"sucai/shuidi/shuidi_00023": { "width": 75, "height": 23 },
+			"sucai/shuidi/shuidi_00025": { "width": 75, "height": 23 },
+			"sucai/shuidi/shuidi_00027": { "width": 75, "height": 23 },
+			"sucai/shuidi/shuidi_00029": { "width": 75, "height": 22 }
+		},
+		"sucai/yudi/yudi_00002": {
+			"sucai/yudi/yudi_00002": { "width": 6, "height": 8 },
+			"sucai/yudi/yudi_00003": { "width": 5, "height": 33 },
+			"sucai/yudi/yudi_00004": { "width": 4, "height": 35 },
+			"sucai/yudi/yudi_00005": { "width": 5, "height": 29 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"sucai/shuidi/shuidi_00000": {
+				"attachment": [
+					{ "time": 0, "name": "sucai/shuidi/shuidi_00001" },
+					{ "time": 0.1666, "name": "sucai/shuidi/shuidi_00003" },
+					{ "time": 0.3333, "name": "sucai/shuidi/shuidi_00005" },
+					{ "time": 0.5, "name": "sucai/shuidi/shuidi_00007" },
+					{ "time": 0.6666, "name": "sucai/shuidi/shuidi_00009" },
+					{ "time": 0.8333, "name": "sucai/shuidi/shuidi_00011" },
+					{ "time": 1, "name": "sucai/shuidi/shuidi_00013" },
+					{ "time": 1.1666, "name": "sucai/shuidi/shuidi_00015" },
+					{ "time": 1.3333, "name": "sucai/shuidi/shuidi_00017" },
+					{ "time": 1.5, "name": "sucai/shuidi/shuidi_00019" },
+					{ "time": 1.6666, "name": "sucai/shuidi/shuidi_00021" },
+					{ "time": 1.8333, "name": "sucai/shuidi/shuidi_00023" },
+					{ "time": 2, "name": "sucai/shuidi/shuidi_00025" },
+					{ "time": 2.1666, "name": "sucai/shuidi/shuidi_00027" },
+					{ "time": 2.3333, "name": "sucai/shuidi/shuidi_00029" },
+					{ "time": 2.5, "name": "sucai/shuidi/shuidi_00001" },
+					{ "time": 2.6666, "name": "sucai/shuidi/shuidi_00003" },
+					{ "time": 2.8333, "name": "sucai/shuidi/shuidi_00005" },
+					{ "time": 3, "name": "sucai/shuidi/shuidi_00007" },
+					{ "time": 3.1666, "name": "sucai/shuidi/shuidi_00009" },
+					{ "time": 3.3333, "name": "sucai/shuidi/shuidi_00011" },
+					{ "time": 3.5, "name": "sucai/shuidi/shuidi_00013" },
+					{ "time": 3.6666, "name": "sucai/shuidi/shuidi_00015" },
+					{ "time": 3.8333, "name": "sucai/shuidi/shuidi_00017" },
+					{ "time": 4, "name": "sucai/shuidi/shuidi_00019" },
+					{ "time": 4.1666, "name": "sucai/shuidi/shuidi_00021" },
+					{ "time": 4.3333, "name": "sucai/shuidi/shuidi_00023" },
+					{ "time": 4.5, "name": "sucai/shuidi/shuidi_00025" },
+					{ "time": 4.6666, "name": "sucai/shuidi/shuidi_00027" },
+					{ "time": 4.8333, "name": "sucai/shuidi/shuidi_00029" },
+					{ "time": 5, "name": null },
+					{ "time": 5.1666, "name": "sucai/shuidi/shuidi_00015" },
+					{ "time": 5.3333, "name": "sucai/shuidi/shuidi_00017" },
+					{ "time": 5.5, "name": "sucai/shuidi/shuidi_00029" }
+				]
+			},
+			"sucai/yudi/yudi_00002": {
+				"attachment": [
+					{ "time": 0, "name": "sucai/yudi/yudi_00002" },
+					{ "time": 0.1666, "name": "sucai/yudi/yudi_00003" },
+					{ "time": 0.3333, "name": "sucai/yudi/yudi_00004" },
+					{ "time": 0.5, "name": "sucai/yudi/yudi_00005" },
+					{ "time": 0.6666, "name": "sucai/yudi/yudi_00002" },
+					{ "time": 0.8333, "name": "sucai/yudi/yudi_00003" },
+					{ "time": 1, "name": "sucai/yudi/yudi_00004" },
+					{ "time": 1.1666, "name": "sucai/yudi/yudi_00005" },
+					{ "time": 1.3333, "name": "sucai/yudi/yudi_00002" },
+					{ "time": 1.5, "name": "sucai/yudi/yudi_00003" },
+					{ "time": 1.6666, "name": "sucai/yudi/yudi_00004" },
+					{ "time": 1.8333, "name": "sucai/yudi/yudi_00005" },
+					{ "time": 2, "name": "sucai/yudi/yudi_00002" },
+					{ "time": 2.1666, "name": "sucai/yudi/yudi_00003" },
+					{ "time": 2.3333, "name": "sucai/yudi/yudi_00004" },
+					{ "time": 2.5, "name": "sucai/yudi/yudi_00005" },
+					{ "time": 2.6666, "name": "sucai/yudi/yudi_00002" },
+					{ "time": 2.8333, "name": "sucai/yudi/yudi_00003" },
+					{ "time": 3, "name": "sucai/yudi/yudi_00004" },
+					{ "time": 3.1666, "name": "sucai/yudi/yudi_00005" },
+					{ "time": 3.3333, "name": "sucai/yudi/yudi_00002" },
+					{ "time": 3.5, "name": "sucai/yudi/yudi_00003" },
+					{ "time": 3.6666, "name": "sucai/yudi/yudi_00004" },
+					{ "time": 3.8333, "name": "sucai/yudi/yudi_00005" },
+					{ "time": 4, "name": "sucai/yudi/yudi_00002" },
+					{ "time": 4.1666, "name": "sucai/yudi/yudi_00003" },
+					{ "time": 4.3333, "name": "sucai/yudi/yudi_00004" },
+					{ "time": 4.5, "name": "sucai/yudi/yudi_00005" },
+					{ "time": 4.6666, "name": null },
+					{ "time": 4.8333, "name": "sucai/yudi/yudi_00003" },
+					{ "time": 5, "name": "sucai/yudi/yudi_00004" },
+					{ "time": 5.1666, "name": null },
+					{ "time": 5.3333, "name": "sucai/yudi/yudi_00004" },
+					{ "time": 5.5, "name": "sucai/yudi/yudi_00005" }
+				]
+			}
+		},
+		"bones": {
+			"bone3": {
+				"translate": [
+					{ "time": 0, "x": 211.82, "y": -45.93 }
+				]
+			},
+			"bone2": {
+				"translate": [
+					{ "time": 0, "x": 217.28, "y": 81.69, "curve": "stepped" },
+					{ "time": 0.6666, "x": 217.28, "y": 81.69, "curve": "stepped" },
+					{ "time": 1.3333, "x": 217.28, "y": 81.69, "curve": "stepped" },
+					{ "time": 2, "x": 217.28, "y": 81.69, "curve": "stepped" },
+					{ "time": 2.6666, "x": 217.28, "y": 81.69, "curve": "stepped" },
+					{ "time": 3.3333, "x": 217.28, "y": 81.69, "curve": "stepped" },
+					{ "time": 4, "x": 217.28, "y": 81.69 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,516 @@
+
+effects_30601_skillA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skilla_1/bd2_add/00061
+  rotate: true
+  xy: 945, 5
+  size: 60, 68
+  orig: 186, 224
+  offset: 59, 22
+  index: -1
+images/effects/skilla_1/bd2_nor/1_00061
+  rotate: true
+  xy: 655, 263
+  size: 44, 57
+  orig: 186, 224
+  offset: 67, 29
+  index: -1
+images/effects/skilla_1/bd_add/1_00061
+  rotate: true
+  xy: 270, 13
+  size: 67, 28
+  orig: 293, 131
+  offset: 78, 36
+  index: -1
+images/effects/skilla_1/bd_nor/1_00061
+  rotate: true
+  xy: 741, 776
+  size: 66, 13
+  orig: 339, 123
+  offset: 115, 43
+  index: -1
+images/effects/skilla_1/bd_nor/1_00064
+  rotate: false
+  xy: 759, 866
+  size: 263, 70
+  orig: 339, 123
+  offset: 53, 23
+  index: -1
+images/effects/skilla_1/daoguang/skilla_00115
+  rotate: false
+  xy: 765, 262
+  size: 256, 87
+  orig: 324, 132
+  offset: 29, 10
+  index: -1
+images/effects/skilla_1/daoguang/skilla_00116
+  rotate: false
+  xy: 779, 588
+  size: 243, 88
+  orig: 324, 132
+  offset: 44, 9
+  index: -1
+images/effects/skilla_1/daoguang/skilla_00117
+  rotate: false
+  xy: 558, 103
+  size: 219, 89
+  orig: 324, 132
+  offset: 70, 8
+  index: -1
+images/effects/skilla_1/daoguang/skilla_00118
+  rotate: true
+  xy: 765, 351
+  size: 233, 93
+  orig: 324, 132
+  offset: 58, 9
+  index: -1
+images/effects/skilla_1/daoguang/skilla_00119
+  rotate: false
+  xy: 759, 770
+  size: 236, 94
+  orig: 324, 132
+  offset: 56, 16
+  index: -1
+images/effects/skilla_1/daoguang/skilla_00120
+  rotate: false
+  xy: 779, 678
+  size: 243, 90
+  orig: 324, 132
+  offset: 44, 27
+  index: -1
+images/effects/skilla_1/daoguang/skilla_00122
+  rotate: true
+  xy: 208, 393
+  size: 278, 98
+  orig: 324, 132
+  offset: 25, 26
+  index: -1
+images/effects/skilla_1/daoguang/skilla_00123
+  rotate: false
+  xy: 759, 938
+  size: 263, 84
+  orig: 324, 132
+  offset: 37, 22
+  index: -1
+images/effects/skilla_1/daoguang/skilla_00124
+  rotate: true
+  xy: 200, 105
+  size: 286, 103
+  orig: 324, 132
+  offset: 0, 22
+  index: -1
+images/effects/skilla_1/daoguang/skilla_00125
+  rotate: true
+  xy: 857, 5
+  size: 255, 86
+  orig: 324, 132
+  offset: 34, 21
+  index: -1
+images/effects/skilla_1/daoguang_nor/1_00026
+  rotate: true
+  xy: 2, 211
+  size: 255, 196
+  orig: 355, 249
+  offset: 24, 8
+  index: -1
+images/effects/skilla_1/daoguang_nor/1_00027
+  rotate: true
+  xy: 2, 468
+  size: 250, 204
+  orig: 355, 249
+  offset: 32, 20
+  index: -1
+images/effects/skilla_1/daoguang_nor/1_00028
+  rotate: false
+  xy: 517, 586
+  size: 260, 181
+  orig: 355, 249
+  offset: 16, 40
+  index: -1
+images/effects/skilla_1/daoguang_nor/1_00030
+  rotate: true
+  xy: 187, 8
+  size: 72, 81
+  orig: 355, 249
+  offset: 6, 67
+  index: -1
+images/effects/skilla_1/daoguang_nor/1_00034
+  rotate: true
+  xy: 2, 720
+  size: 220, 215
+  orig: 355, 249
+  offset: 57, 0
+  index: -1
+images/effects/skilla_1/daoguang_nor/1_00035
+  rotate: false
+  xy: 308, 302
+  size: 256, 185
+  orig: 355, 249
+  offset: 17, 0
+  index: -1
+images/effects/skilla_1/daoguang_nor/1_00037
+  rotate: true
+  xy: 648, 11
+  size: 90, 121
+  orig: 355, 249
+  offset: 19, 15
+  index: -1
+images/effects/skilla_1/daoguang_nor/1_00039
+  rotate: true
+  xy: 655, 309
+  size: 180, 108
+  orig: 355, 249
+  offset: 32, 141
+  index: -1
+images/effects/skilla_1/daoguang_nor/1_00040
+  rotate: true
+  xy: 314, 769
+  size: 253, 230
+  orig: 355, 249
+  offset: 102, 17
+  index: -1
+images/effects/skilla_1/daoguang_nor/1_00041
+  rotate: true
+  xy: 546, 844
+  size: 178, 211
+  orig: 355, 249
+  offset: 177, 14
+  index: -1
+images/effects/skilla_1/daoguang_nor/1_00042
+  rotate: false
+  xy: 392, 130
+  size: 164, 170
+  orig: 355, 249
+  offset: 191, 26
+  index: -1
+images/effects/skilla_1/fengdai_nor/1_00062
+  rotate: false
+  xy: 392, 105
+  size: 97, 23
+  orig: 160, 73
+  offset: 13, 8
+  index: -1
+images/effects/skilla_1/fengdai_nor/1_00064
+  rotate: false
+  xy: 187, 82
+  size: 100, 21
+  orig: 160, 73
+  offset: 15, 8
+  index: -1
+images/effects/skilla_1/lizi/1_00068
+  rotate: true
+  xy: 2, 7
+  size: 202, 183
+  orig: 321, 233
+  offset: 69, 16
+  index: -1
+images/effects/skilla_1/lizi/1_00069
+  rotate: true
+  xy: 312, 489
+  size: 278, 203
+  orig: 321, 233
+  offset: 33, 13
+  index: -1
+images/effects/skilla_1/lizi/1_00071
+  rotate: true
+  xy: 860, 367
+  size: 219, 162
+  orig: 321, 233
+  offset: 101, 54
+  index: -1
+images/effects/skilla_1/nengliangzhao_00061
+  rotate: false
+  xy: 655, 195
+  size: 92, 65
+  orig: 95, 76
+  offset: 1, 4
+  index: -1
+images/effects/skilla_1/yan/1_00068
+  rotate: false
+  xy: 392, 14
+  size: 254, 87
+  orig: 266, 94
+  offset: 7, 4
+  index: -1
+images/effects/skilla_1/yan/1_00070
+  rotate: true
+  xy: 779, 4
+  size: 256, 76
+  orig: 266, 94
+  offset: 10, 5
+  index: -1
+images/effects/skilla_1/yan2/1_00068
+  rotate: false
+  xy: 2, 942
+  size: 310, 80
+  orig: 327, 104
+  offset: 1, 5
+  index: -1
+images/effects/skilla_1/yan2/1_00070
+  rotate: true
+  xy: 305, 16
+  size: 284, 85
+  orig: 327, 104
+  offset: 9, 5
+  index: -1
+images/effects/skilla_1/yan2/1_00072
+  rotate: true
+  xy: 566, 194
+  size: 295, 87
+  orig: 327, 104
+  offset: 16, 7
+  index: -1
+images/effects/skilla_1/yan2/1_00074
+  rotate: true
+  xy: 219, 673
+  size: 267, 91
+  orig: 327, 104
+  offset: 21, 5
+  index: -1
+images/effects/skilla_1/yan2/1_00076
+  rotate: false
+  xy: 517, 491
+  size: 246, 93
+  orig: 327, 104
+  offset: 46, 2
+  index: -1
+images/effects/skilla_1/zhuangdaoguang_add/1_00115
+  rotate: false
+  xy: 546, 769
+  size: 193, 73
+  orig: 193, 79
+  offset: 0, 0
+  index: -1
+images/effects/skilla_1/zhuangdaoguang_add/1_00117
+  rotate: true
+  xy: 945, 67
+  size: 193, 73
+  orig: 193, 79
+  offset: 0, 0
+  index: -1
+
+effects_30601_skillA2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skilla_1/bd2_add/00064
+  rotate: false
+  xy: 2, 383
+  size: 151, 189
+  orig: 186, 224
+  offset: 17, 11
+  index: -1
+images/effects/skilla_1/bd2_nor/1_00064
+  rotate: true
+  xy: 2, 2
+  size: 137, 178
+  orig: 186, 224
+  offset: 24, 19
+  index: -1
+images/effects/skilla_1/bd3_add/1_00061
+  rotate: true
+  xy: 282, 629
+  size: 108, 129
+  orig: 161, 154
+  offset: 33, 7
+  index: -1
+images/effects/skilla_1/bd_add/1_00064
+  rotate: true
+  xy: 86, 151
+  size: 230, 72
+  orig: 293, 131
+  offset: 50, 20
+  index: -1
+images/effects/skilla_1/daoguang/skilla_00121
+  rotate: true
+  xy: 2, 141
+  size: 240, 82
+  orig: 324, 132
+  offset: 41, 40
+  index: -1
+images/effects/skilla_1/daoguang/skilla_00128
+  rotate: false
+  xy: 239, 856
+  size: 195, 31
+  orig: 324, 132
+  offset: 38, 36
+  index: -1
+images/effects/skilla_1/daoguang_nor/1_00025
+  rotate: false
+  xy: 2, 735
+  size: 234, 139
+  orig: 355, 249
+  offset: 0, 13
+  index: -1
+images/effects/skilla_1/daoguang_nor/1_00029
+  rotate: false
+  xy: 238, 739
+  size: 173, 115
+  orig: 355, 249
+  offset: 7, 73
+  index: -1
+images/effects/skilla_1/daoguang_nor/1_00032
+  rotate: false
+  xy: 261, 395
+  size: 108, 119
+  orig: 355, 249
+  offset: 0, 76
+  index: -1
+images/effects/skilla_1/daoguang_nor/1_00033
+  rotate: false
+  xy: 2, 876
+  size: 235, 145
+  orig: 355, 249
+  offset: 17, 68
+  index: -1
+images/effects/skilla_1/daoguang_nor/1_00036
+  rotate: false
+  xy: 239, 889
+  size: 220, 132
+  orig: 355, 249
+  offset: 17, 0
+  index: -1
+images/effects/skilla_1/daoguang_nor/1_00043
+  rotate: false
+  xy: 261, 516
+  size: 133, 111
+  orig: 355, 249
+  offset: 222, 41
+  index: -1
+images/effects/skilla_1/dilie_add_00067
+  rotate: true
+  xy: 593, 644
+  size: 169, 61
+  orig: 169, 69
+  offset: 0, 0
+  index: -1
+images/effects/skilla_1/dilie_nor_00067
+  rotate: false
+  xy: 461, 889
+  size: 253, 47
+  orig: 279, 69
+  offset: 9, 9
+  index: -1
+images/effects/skilla_1/fengdai_nor/1_00066
+  rotate: false
+  xy: 396, 551
+  size: 134, 50
+  orig: 160, 73
+  offset: 22, 8
+  index: -1
+images/effects/skilla_1/fengdai_nor/1_00068
+  rotate: false
+  xy: 396, 497
+  size: 130, 52
+  orig: 160, 73
+  offset: 27, 8
+  index: -1
+images/effects/skilla_1/fengdai_nor/1_00070
+  rotate: true
+  xy: 282, 250
+  size: 143, 54
+  orig: 160, 73
+  offset: 17, 10
+  index: -1
+images/effects/skilla_1/glows_00061
+  rotate: false
+  xy: 2, 574
+  size: 212, 159
+  orig: 249, 183
+  offset: 19, 9
+  index: -1
+images/effects/skilla_1/xunhuanyan/1_00111
+  rotate: true
+  xy: 208, 386
+  size: 186, 51
+  orig: 208, 78
+  offset: 11, 15
+  index: -1
+images/effects/skilla_1/xunhuanyan/1_00117
+  rotate: true
+  xy: 208, 386
+  size: 186, 51
+  orig: 208, 78
+  offset: 11, 15
+  index: -1
+images/effects/skilla_1/xunhuanyan/1_00113
+  rotate: true
+  xy: 231, 204
+  size: 180, 49
+  orig: 208, 78
+  offset: 6, 13
+  index: -1
+images/effects/skilla_1/xunhuanyan/1_00115
+  rotate: true
+  xy: 155, 385
+  size: 187, 51
+  orig: 208, 78
+  offset: 4, 14
+  index: -1
+images/effects/skilla_1/yan/1_00061
+  rotate: true
+  xy: 338, 273
+  size: 120, 34
+  orig: 266, 94
+  offset: 70, 20
+  index: -1
+images/effects/skilla_1/yan/1_00062
+  rotate: true
+  xy: 160, 187
+  size: 196, 69
+  orig: 266, 94
+  offset: 34, 11
+  index: -1
+images/effects/skilla_1/yan/1_00064
+  rotate: false
+  xy: 707, 940
+  size: 234, 81
+  orig: 266, 94
+  offset: 14, 7
+  index: -1
+images/effects/skilla_1/yan/1_00066
+  rotate: false
+  xy: 461, 938
+  size: 244, 83
+  orig: 266, 94
+  offset: 10, 6
+  index: -1
+images/effects/skilla_1/yan2/1_00067
+  rotate: false
+  xy: 716, 878
+  size: 221, 60
+  orig: 327, 104
+  offset: 57, 9
+  index: -1
+images/effects/skilla_1/zhuangdaoguang_add/1_00116
+  rotate: false
+  xy: 436, 815
+  size: 193, 72
+  orig: 193, 79
+  offset: 0, 0
+  index: -1
+images/effects/skilla_1/zhuangdaoguang_nor/1_00111
+  rotate: false
+  xy: 413, 744
+  size: 178, 69
+  orig: 178, 71
+  offset: 0, 0
+  index: -1
+images/effects/skilla_1/zhuangdaoguang_nor/1_00112
+  rotate: false
+  xy: 413, 674
+  size: 178, 68
+  orig: 178, 71
+  offset: 0, 0
+  index: -1
+images/effects/skilla_1/zhuangdaoguang_nor/1_00113
+  rotate: false
+  xy: 413, 603
+  size: 178, 69
+  orig: 178, 71
+  offset: 0, 0
+  index: -1

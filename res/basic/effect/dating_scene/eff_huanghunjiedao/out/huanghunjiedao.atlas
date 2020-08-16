@@ -1,0 +1,26 @@
+
+huanghunjiedao.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+yangguang_00000
+  rotate: false
+  xy: 2, 46
+  size: 252, 208
+  orig: 258, 258
+  offset: 2, 24
+  index: -1
+
+huanghunjiedao2.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow_00060
+  rotate: false
+  xy: 2, 42
+  size: 196, 156
+  orig: 258, 258
+  offset: 2, 51
+  index: -1

@@ -1,0 +1,27 @@
+
+effect_yanwu_13.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/fanguang_00000
+  rotate: false
+  xy: 2, 2
+  size: 300, 100
+  orig: 300, 100
+  offset: 0, 0
+  index: -1
+images/wenli_00000
+  rotate: false
+  xy: 2, 104
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+images/yyyyy
+  rotate: false
+  xy: 304, 129
+  size: 100, 275
+  orig: 100, 275
+  offset: 0, 0
+  index: -1

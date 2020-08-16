@@ -1,0 +1,286 @@
+
+effects_10505_skillE.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skillE/add_00000
+  rotate: false
+  xy: 2, 33
+  size: 28, 28
+  orig: 70, 84
+  offset: 23, 27
+  index: -1
+effect/skillE/add_00001
+  rotate: false
+  xy: 325, 395
+  size: 29, 28
+  orig: 70, 84
+  offset: 23, 28
+  index: -1
+effect/skillE/add_00002
+  rotate: true
+  xy: 2, 2
+  size: 29, 26
+  orig: 70, 84
+  offset: 23, 29
+  index: -1
+effect/skillE/add_00003
+  rotate: false
+  xy: 155, 274
+  size: 30, 32
+  orig: 70, 84
+  offset: 23, 24
+  index: -1
+effect/skillE/add_00004
+  rotate: false
+  xy: 206, 323
+  size: 30, 32
+  orig: 70, 84
+  offset: 23, 25
+  index: -1
+effect/skillE/add_00005
+  rotate: false
+  xy: 2, 127
+  size: 31, 32
+  orig: 70, 84
+  offset: 23, 26
+  index: -1
+effect/skillE/add_00006
+  rotate: false
+  xy: 2, 95
+  size: 31, 30
+  orig: 70, 84
+  offset: 23, 27
+  index: -1
+effect/skillE/add_00007
+  rotate: false
+  xy: 53, 176
+  size: 31, 32
+  orig: 70, 84
+  offset: 23, 26
+  index: -1
+effect/skillE/add_00008
+  rotate: false
+  xy: 257, 421
+  size: 33, 32
+  orig: 70, 84
+  offset: 22, 26
+  index: -1
+effect/skillE/add_00009
+  rotate: false
+  xy: 257, 390
+  size: 33, 29
+  orig: 70, 84
+  offset: 22, 27
+  index: -1
+effect/skillE/add_00010
+  rotate: false
+  xy: 292, 425
+  size: 34, 28
+  orig: 70, 84
+  offset: 22, 29
+  index: -1
+effect/skillE/add_00011
+  rotate: false
+  xy: 257, 357
+  size: 28, 31
+  orig: 70, 84
+  offset: 22, 27
+  index: -1
+effect/skillE/add_00012
+  rotate: true
+  xy: 328, 425
+  size: 28, 30
+  orig: 70, 84
+  offset: 22, 26
+  index: -1
+effect/skillE/add_00013
+  rotate: false
+  xy: 238, 325
+  size: 29, 30
+  orig: 70, 84
+  offset: 21, 27
+  index: -1
+effect/skillE/add_00014
+  rotate: false
+  xy: 2, 63
+  size: 28, 30
+  orig: 70, 84
+  offset: 22, 28
+  index: -1
+effect/skillE/add_00015
+  rotate: true
+  xy: 360, 427
+  size: 26, 31
+  orig: 70, 84
+  offset: 22, 29
+  index: -1
+effect/skillE/add_00016
+  rotate: true
+  xy: 393, 427
+  size: 26, 30
+  orig: 70, 84
+  offset: 22, 31
+  index: -1
+effect/skillE/add_00017
+  rotate: true
+  xy: 425, 427
+  size: 26, 27
+  orig: 70, 84
+  offset: 22, 31
+  index: -1
+effect/skillE/add_00018
+  rotate: false
+  xy: 104, 225
+  size: 31, 32
+  orig: 70, 84
+  offset: 22, 28
+  index: -1
+effect/skillE/add_00019
+  rotate: false
+  xy: 292, 395
+  size: 31, 28
+  orig: 70, 84
+  offset: 22, 29
+  index: -1
+effect/skillE/nor_00000
+  rotate: false
+  xy: 2, 406
+  size: 49, 47
+  orig: 70, 84
+  offset: 13, 6
+  index: -1
+effect/skillE/nor_00001
+  rotate: false
+  xy: 2, 357
+  size: 49, 47
+  orig: 70, 84
+  offset: 13, 6
+  index: -1
+effect/skillE/nor_00002
+  rotate: false
+  xy: 53, 406
+  size: 49, 47
+  orig: 70, 84
+  offset: 13, 6
+  index: -1
+effect/skillE/nor_00003
+  rotate: false
+  xy: 2, 308
+  size: 49, 47
+  orig: 70, 84
+  offset: 13, 6
+  index: -1
+effect/skillE/nor_00004
+  rotate: false
+  xy: 53, 357
+  size: 49, 47
+  orig: 70, 84
+  offset: 13, 6
+  index: -1
+effect/skillE/nor_00005
+  rotate: false
+  xy: 104, 406
+  size: 49, 47
+  orig: 70, 84
+  offset: 13, 6
+  index: -1
+effect/skillE/nor_00006
+  rotate: false
+  xy: 2, 259
+  size: 49, 47
+  orig: 70, 84
+  offset: 13, 6
+  index: -1
+effect/skillE/nor_00007
+  rotate: false
+  xy: 53, 308
+  size: 49, 47
+  orig: 70, 84
+  offset: 13, 6
+  index: -1
+effect/skillE/nor_00008
+  rotate: false
+  xy: 104, 357
+  size: 49, 47
+  orig: 70, 84
+  offset: 13, 6
+  index: -1
+effect/skillE/nor_00009
+  rotate: false
+  xy: 155, 406
+  size: 49, 47
+  orig: 70, 84
+  offset: 13, 6
+  index: -1
+effect/skillE/nor_00010
+  rotate: false
+  xy: 2, 210
+  size: 49, 47
+  orig: 70, 84
+  offset: 13, 6
+  index: -1
+effect/skillE/nor_00011
+  rotate: false
+  xy: 53, 259
+  size: 49, 47
+  orig: 70, 84
+  offset: 13, 6
+  index: -1
+effect/skillE/nor_00012
+  rotate: false
+  xy: 104, 308
+  size: 49, 47
+  orig: 70, 84
+  offset: 13, 6
+  index: -1
+effect/skillE/nor_00013
+  rotate: false
+  xy: 155, 357
+  size: 49, 47
+  orig: 70, 84
+  offset: 13, 6
+  index: -1
+effect/skillE/nor_00014
+  rotate: false
+  xy: 206, 406
+  size: 49, 47
+  orig: 70, 84
+  offset: 13, 6
+  index: -1
+effect/skillE/nor_00015
+  rotate: false
+  xy: 2, 161
+  size: 49, 47
+  orig: 70, 84
+  offset: 13, 6
+  index: -1
+effect/skillE/nor_00016
+  rotate: false
+  xy: 53, 210
+  size: 49, 47
+  orig: 70, 84
+  offset: 13, 6
+  index: -1
+effect/skillE/nor_00017
+  rotate: false
+  xy: 104, 259
+  size: 49, 47
+  orig: 70, 84
+  offset: 13, 6
+  index: -1
+effect/skillE/nor_00018
+  rotate: false
+  xy: 155, 308
+  size: 49, 47
+  orig: 70, 84
+  offset: 13, 6
+  index: -1
+effect/skillE/nor_00019
+  rotate: false
+  xy: 206, 357
+  size: 49, 47
+  orig: 70, 84
+  offset: 13, 6
+  index: -1

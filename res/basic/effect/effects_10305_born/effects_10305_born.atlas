@@ -1,0 +1,202 @@
+
+effects_10305_born.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/extra_skillB_new/xuyanwu_00004
+  rotate: true
+  xy: 499, 160
+  size: 108, 120
+  orig: 130, 130
+  offset: 7, 6
+  index: -1
+images/effects/extra_skillB_new/yanwu/yanwu_00000
+  rotate: false
+  xy: 2, 714
+  size: 255, 153
+  orig: 260, 163
+  offset: 2, 10
+  index: -1
+images/effects/extra_skillB_new/yanwu/yanwu_00001
+  rotate: false
+  xy: 508, 559
+  size: 246, 153
+  orig: 260, 163
+  offset: 14, 10
+  index: -1
+images/effects/extra_skillB_new/yanwu/yanwu_00002
+  rotate: false
+  xy: 257, 559
+  size: 249, 153
+  orig: 260, 163
+  offset: 11, 10
+  index: -1
+images/effects/extra_skillB_new/yanwu/yanwu_00003
+  rotate: false
+  xy: 513, 714
+  size: 248, 153
+  orig: 260, 163
+  offset: 12, 10
+  index: -1
+images/effects/extra_skillB_new/yanwu/yanwu_00004
+  rotate: false
+  xy: 2, 404
+  size: 250, 153
+  orig: 260, 163
+  offset: 10, 10
+  index: -1
+images/effects/extra_skillB_new/yanwu/yanwu_00005
+  rotate: false
+  xy: 259, 714
+  size: 252, 153
+  orig: 260, 163
+  offset: 8, 10
+  index: -1
+images/effects/extra_skillB_new/yanwu/yanwu_00006
+  rotate: false
+  xy: 2, 249
+  size: 248, 153
+  orig: 260, 163
+  offset: 6, 10
+  index: -1
+images/effects/extra_skillB_new/yanwu/yanwu_00007
+  rotate: false
+  xy: 518, 869
+  size: 251, 153
+  orig: 260, 163
+  offset: 4, 10
+  index: -1
+images/effects/extra_skillB_new/yanwu/yanwu_00008
+  rotate: false
+  xy: 2, 869
+  size: 257, 153
+  orig: 260, 163
+  offset: 0, 10
+  index: -1
+images/effects/extra_skillB_new/yanwu/yanwu_00009
+  rotate: false
+  xy: 763, 731
+  size: 259, 136
+  orig: 260, 163
+  offset: 0, 10
+  index: -1
+images/effects/extra_skillB_new/yanwu/yanwu_00010
+  rotate: false
+  xy: 763, 591
+  size: 258, 138
+  orig: 260, 163
+  offset: 0, 10
+  index: -1
+images/effects/extra_skillB_new/yanwu/yanwu_00011
+  rotate: false
+  xy: 760, 450
+  size: 252, 139
+  orig: 260, 163
+  offset: 0, 10
+  index: -1
+images/effects/extra_skillB_new/yanwu/yanwu_00012
+  rotate: false
+  xy: 505, 415
+  size: 253, 142
+  orig: 260, 163
+  offset: 0, 10
+  index: -1
+images/effects/extra_skillB_new/yanwu/yanwu_00013
+  rotate: false
+  xy: 505, 270
+  size: 247, 143
+  orig: 260, 163
+  offset: 5, 10
+  index: -1
+images/effects/extra_skillB_new/yanwu/yanwu_00014
+  rotate: true
+  xy: 252, 159
+  size: 243, 146
+  orig: 260, 163
+  offset: 3, 10
+  index: -1
+images/effects/extra_skillB_new/yanwu/yanwu_00015
+  rotate: false
+  xy: 2, 97
+  size: 248, 150
+  orig: 260, 163
+  offset: 0, 10
+  index: -1
+images/effects/extra_skillB_new/yanwu/yanwu_00016
+  rotate: false
+  xy: 254, 405
+  size: 249, 152
+  orig: 260, 163
+  offset: 0, 10
+  index: -1
+images/effects/extra_skillB_new/yanwu/yanwu_00017
+  rotate: false
+  xy: 771, 869
+  size: 251, 153
+  orig: 260, 163
+  offset: 0, 10
+  index: -1
+images/effects/extra_skillB_new/yanwu/yanwu_00018
+  rotate: false
+  xy: 2, 559
+  size: 253, 153
+  orig: 260, 163
+  offset: 0, 10
+  index: -1
+images/effects/extra_skillB_new/yanwu/yanwu_00019
+  rotate: false
+  xy: 261, 869
+  size: 255, 153
+  orig: 260, 163
+  offset: 0, 10
+  index: -1
+images/effects/quickmove/bianfu/bianfu_00000
+  rotate: false
+  xy: 2, 60
+  size: 37, 35
+  orig: 65, 65
+  offset: 17, 9
+  index: -1
+images/effects/quickmove/bianfu/bianfu_00002
+  rotate: false
+  xy: 252, 131
+  size: 37, 26
+  orig: 65, 65
+  offset: 13, 20
+  index: -1
+images/effects/quickmove/bianfu/bianfu_00004
+  rotate: false
+  xy: 2, 31
+  size: 30, 27
+  orig: 65, 65
+  offset: 11, 23
+  index: -1
+images/effects/quickmove/bianfu/bianfu_00006
+  rotate: false
+  xy: 621, 235
+  size: 29, 33
+  orig: 65, 65
+  offset: 12, 24
+  index: -1
+images/effects/quickmove/zhuadd/zhuadd_00000
+  rotate: true
+  xy: 400, 172
+  size: 231, 97
+  orig: 260, 130
+  offset: 29, 14
+  index: -1
+images/effects/quickmove/zhuadd/zhuadd_00001
+  rotate: false
+  xy: 754, 246
+  size: 246, 100
+  orig: 260, 130
+  offset: 14, 12
+  index: -1
+images/effects/quickmove/zhuadd/zhuadd_00002
+  rotate: false
+  xy: 760, 348
+  size: 254, 100
+  orig: 260, 130
+  offset: 6, 12
+  index: -1

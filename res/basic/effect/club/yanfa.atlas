@@ -1,0 +1,27 @@
+
+yanfa.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+D_1
+  rotate: false
+  xy: 610, 611
+  size: 12, 11
+  orig: 12, 11
+  offset: 0, 0
+  index: -1
+D_2
+  rotate: false
+  xy: 2, 143
+  size: 606, 479
+  orig: 606, 479
+  offset: 0, 0
+  index: -1
+xinhaobo_00000
+  rotate: false
+  xy: 2, 121
+  size: 80, 20
+  orig: 200, 100
+  offset: 57, 45
+  index: -1

@@ -1,0 +1,214 @@
+
+effects_30502_skillA1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/anseguangqiu_00057
+  rotate: false
+  xy: 416, 308
+  size: 451, 256
+  orig: 1400, 785
+  offset: 500, 277
+  index: -1
+effect/dilie_00057
+  rotate: false
+  xy: 436, 772
+  size: 565, 246
+  orig: 1400, 785
+  offset: 458, 293
+  index: -1
+effect/jixiefazhen_00057
+  rotate: true
+  xy: 913, 535
+  size: 235, 105
+  orig: 1400, 785
+  offset: 649, 374
+  index: -1
+effect/jixiefazhen_00058
+  rotate: true
+  xy: 879, 31
+  size: 321, 137
+  orig: 1400, 785
+  offset: 603, 358
+  index: -1
+effect/jixiefazhen_00059
+  rotate: false
+  xy: 2, 9
+  size: 387, 162
+  orig: 1400, 785
+  offset: 569, 345
+  index: -1
+effect/juhuangqiu_00059
+  rotate: false
+  xy: 391, 7
+  size: 166, 94
+  orig: 1400, 785
+  offset: 654, 337
+  index: -1
+effect/kejixiaosan_00062
+  rotate: false
+  xy: 416, 103
+  size: 461, 203
+  orig: 1400, 785
+  offset: 524, 298
+  index: -1
+effect/kejixiaosan_00070
+  rotate: false
+  xy: 436, 566
+  size: 475, 204
+  orig: 1400, 785
+  offset: 519, 298
+  index: -1
+effect/miaozhun1_00016
+  rotate: false
+  xy: 2, 587
+  size: 432, 431
+  orig: 560, 560
+  offset: 69, 68
+  index: -1
+effect/miaozhun2_00016
+  rotate: false
+  xy: 2, 173
+  size: 412, 412
+  orig: 560, 560
+  offset: 77, 78
+  index: -1
+effect/miaozhun3_00000
+  rotate: true
+  xy: 416, 566
+  size: 19, 17
+  orig: 560, 560
+  offset: 274, 276
+  index: -1
+effect/miaozhun3_00001
+  rotate: false
+  xy: 559, 8
+  size: 88, 93
+  orig: 560, 560
+  offset: 236, 235
+  index: -1
+effect/miaozhun3_00005
+  rotate: false
+  xy: 869, 354
+  size: 140, 179
+  orig: 560, 560
+  offset: 227, 148
+  index: -1
+
+effects_30502_skillA12.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/fazhen_00057
+  rotate: false
+  xy: 2, 674
+  size: 347, 347
+  orig: 1400, 785
+  offset: 545, 238
+  index: -1
+effect/jixiefazhen_00060
+  rotate: true
+  xy: 815, 371
+  size: 444, 185
+  orig: 1400, 785
+  offset: 541, 333
+  index: -1
+effect/kejixiaosan_00058
+  rotate: false
+  xy: 674, 221
+  size: 332, 144
+  orig: 1400, 785
+  offset: 589, 327
+  index: -1
+effect/kejixiaosan_00059
+  rotate: false
+  xy: 2, 2
+  size: 444, 194
+  orig: 1400, 785
+  offset: 531, 301
+  index: -1
+effect/kejixiaosan_00060
+  rotate: true
+  xy: 615, 367
+  size: 448, 198
+  orig: 1400, 785
+  offset: 528, 299
+  index: -1
+effect/kejixiaosan_00063
+  rotate: false
+  xy: 351, 817
+  size: 467, 204
+  orig: 1400, 785
+  offset: 521, 297
+  index: -1
+effect/kejixiaosan_00064
+  rotate: true
+  xy: 413, 357
+  size: 458, 200
+  orig: 1400, 785
+  offset: 526, 299
+  index: -1
+effect/kejixiaosan_00066
+  rotate: true
+  xy: 208, 207
+  size: 465, 203
+  orig: 1400, 785
+  offset: 523, 298
+  index: -1
+effect/kejixiaosan_00068
+  rotate: true
+  xy: 2, 198
+  size: 474, 204
+  orig: 1400, 785
+  offset: 519, 298
+  index: -1
+effect/kejixiaosan_00072
+  rotate: false
+  xy: 448, 7
+  size: 444, 193
+  orig: 1400, 785
+  offset: 534, 303
+  index: -1
+effect/miaozhun3_00002
+  rotate: false
+  xy: 820, 855
+  size: 142, 166
+  orig: 560, 560
+  offset: 214, 196
+  index: -1
+effect/miaozhun3_00004
+  rotate: true
+  xy: 413, 202
+  size: 153, 259
+  orig: 560, 560
+  offset: 227, 148
+  index: -1
+
+effects_30502_skillA13.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/miaozhun3_00003
+  rotate: false
+  xy: 2, 55
+  size: 200, 239
+  orig: 560, 560
+  offset: 187, 157
+  index: -1
+effect/miaozhun4_00006
+  rotate: false
+  xy: 2, 296
+  size: 325, 324
+  orig: 560, 560
+  offset: 121, 122
+  index: -1
+effect/wangge_00057
+  rotate: false
+  xy: 329, 501
+  size: 291, 119
+  orig: 1400, 785
+  offset: 525, 322
+  index: -1

@@ -1,0 +1,41 @@
+
+effects_10701_dodge.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/dodge_2/p1_a_00000
+  rotate: false
+  xy: 2, 55
+  size: 65, 30
+  orig: 65, 30
+  offset: 0, 0
+  index: -1
+images/effects/dodge_2/p1_b_00000
+  rotate: false
+  xy: 2, 87
+  size: 85, 34
+  orig: 85, 34
+  offset: 0, 0
+  index: -1
+images/effects/dodge_2/p1_c_00005
+  rotate: false
+  xy: 2, 26
+  size: 51, 27
+  orig: 51, 27
+  offset: 0, 0
+  index: -1
+images/effects/skilla_n/p1_wing_c_00086
+  rotate: false
+  xy: 2, 2
+  size: 48, 22
+  orig: 48, 22
+  offset: 0, 0
+  index: -1
+images/effects/skilla_n/p5_wing_d_00084
+  rotate: false
+  xy: 89, 96
+  size: 23, 25
+  orig: 23, 25
+  offset: 0, 0
+  index: -1

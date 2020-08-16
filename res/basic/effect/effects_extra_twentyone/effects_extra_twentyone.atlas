@@ -1,0 +1,285 @@
+
+effects_extra_twentyone.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+add/bao__36
+  rotate: false
+  xy: 327, 349
+  size: 323, 342
+  orig: 349, 348
+  offset: 26, 6
+  index: -1
+add/bao__37
+  rotate: false
+  xy: 2, 672
+  size: 323, 348
+  orig: 349, 348
+  offset: 26, 0
+  index: -1
+add/bao__38
+  rotate: false
+  xy: 2, 322
+  size: 323, 348
+  orig: 349, 348
+  offset: 26, 0
+  index: -1
+add/bao__39
+  rotate: true
+  xy: 669, 704
+  size: 316, 348
+  orig: 349, 348
+  offset: 23, 0
+  index: -1
+add/bao__40
+  rotate: true
+  xy: 666, 23
+  size: 332, 312
+  orig: 349, 348
+  offset: 12, 5
+  index: -1
+add/bao__41
+  rotate: false
+  xy: 2, 2
+  size: 338, 318
+  orig: 349, 348
+  offset: 10, 4
+  index: -1
+add/bao__42
+  rotate: true
+  xy: 342, 8
+  size: 339, 322
+  orig: 349, 348
+  offset: 10, 5
+  index: -1
+add/bao__43
+  rotate: false
+  xy: 327, 693
+  size: 340, 327
+  orig: 349, 348
+  offset: 9, 3
+  index: -1
+add/bao__44
+  rotate: true
+  xy: 652, 357
+  size: 334, 292
+  orig: 349, 348
+  offset: 8, 2
+  index: -1
+qiliuadd__36
+  rotate: true
+  xy: 946, 382
+  size: 102, 74
+  orig: 113, 81
+  offset: 7, 2
+  index: -1
+quanadd__07
+  rotate: true
+  xy: 980, 275
+  size: 105, 38
+  orig: 112, 45
+  offset: 3, 3
+  index: -1
+tiao__36
+  rotate: false
+  xy: 946, 486
+  size: 63, 216
+  orig: 89, 253
+  offset: 13, 15
+  index: -1
+
+effects_extra_twentyone2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+add/bao__45
+  rotate: false
+  xy: 2, 732
+  size: 332, 287
+  orig: 349, 348
+  offset: 9, 6
+  index: -1
+add/bao__46
+  rotate: false
+  xy: 2, 484
+  size: 328, 246
+  orig: 349, 348
+  offset: 12, 36
+  index: -1
+add/di__40
+  rotate: false
+  xy: 332, 477
+  size: 207, 86
+  orig: 236, 104
+  offset: 16, 2
+  index: -1
+add/di__41
+  rotate: false
+  xy: 336, 664
+  size: 230, 92
+  orig: 236, 104
+  offset: 6, 1
+  index: -1
+add/di__42
+  rotate: false
+  xy: 332, 565
+  size: 230, 97
+  orig: 236, 104
+  offset: 6, 0
+  index: -1
+add/di__43
+  rotate: false
+  xy: 336, 758
+  size: 232, 101
+  orig: 236, 104
+  offset: 4, 0
+  index: -1
+add/ju__10
+  rotate: false
+  xy: 2, 163
+  size: 232, 160
+  orig: 238, 161
+  offset: 0, 1
+  index: -1
+add/ju__12
+  rotate: false
+  xy: 2, 325
+  size: 236, 157
+  orig: 238, 161
+  offset: 2, 4
+  index: -1
+add/ju__14
+  rotate: false
+  xy: 2, 2
+  size: 228, 159
+  orig: 238, 161
+  offset: 10, 2
+  index: -1
+add/ju__16
+  rotate: false
+  xy: 336, 861
+  size: 238, 158
+  orig: 238, 161
+  offset: 0, 3
+  index: -1
+add/ju__18
+  rotate: false
+  xy: 576, 869
+  size: 238, 150
+  orig: 238, 161
+  offset: 0, 3
+  index: -1
+guangyun2__28
+  rotate: false
+  xy: 332, 343
+  size: 141, 132
+  orig: 141, 132
+  offset: 0, 0
+  index: -1
+guangyun3__36
+  rotate: true
+  xy: 236, 163
+  size: 123, 95
+  orig: 123, 95
+  offset: 0, 0
+  index: -1
+huannor__44
+  rotate: false
+  xy: 816, 902
+  size: 163, 117
+  orig: 165, 117
+  offset: 2, 0
+  index: -1
+nor/yanwu2__36
+  rotate: true
+  xy: 232, 28
+  size: 133, 54
+  orig: 182, 81
+  offset: 21, 11
+  index: -1
+nor/yanwu2__37
+  rotate: true
+  xy: 475, 325
+  size: 150, 67
+  orig: 182, 81
+  offset: 16, 5
+  index: -1
+nor/yanwu2__38
+  rotate: false
+  xy: 564, 579
+  size: 159, 68
+  orig: 182, 81
+  offset: 11, 4
+  index: -1
+nor/yanwu2__39
+  rotate: false
+  xy: 568, 649
+  size: 160, 70
+  orig: 182, 81
+  offset: 10, 3
+  index: -1
+nor/yanwu2__40
+  rotate: false
+  xy: 816, 828
+  size: 165, 72
+  orig: 182, 81
+  offset: 9, 3
+  index: -1
+nor/yanwu2__41
+  rotate: false
+  xy: 570, 721
+  size: 171, 73
+  orig: 182, 81
+  offset: 6, 3
+  index: -1
+nor/yanwu2__42
+  rotate: false
+  xy: 576, 796
+  size: 172, 71
+  orig: 182, 81
+  offset: 6, 5
+  index: -1
+nor/yanwu__39
+  rotate: false
+  xy: 544, 424
+  size: 143, 84
+  orig: 164, 96
+  offset: 10, 2
+  index: -1
+nor/yanwu__41
+  rotate: false
+  xy: 544, 343
+  size: 146, 79
+  orig: 164, 96
+  offset: 10, 11
+  index: -1
+nor/yanwu__43
+  rotate: false
+  xy: 564, 510
+  size: 150, 67
+  orig: 164, 96
+  offset: 10, 24
+  index: -1
+nor/yanwu__45
+  rotate: false
+  xy: 544, 274
+  size: 150, 67
+  orig: 164, 96
+  offset: 13, 25
+  index: -1
+quanadd__35
+  rotate: false
+  xy: 332, 288
+  size: 140, 53
+  orig: 144, 56
+  offset: 2, 1
+  index: -1
+wenadd__07
+  rotate: true
+  xy: 240, 327
+  size: 155, 90
+  orig: 157, 92
+  offset: 0, 0
+  index: -1

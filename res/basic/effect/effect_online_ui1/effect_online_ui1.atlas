@@ -1,0 +1,117 @@
+
+effect_online_ui1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 973, 359
+  size: 38, 61
+  orig: 100, 100
+  offset: 36, 18
+  index: -1
+2
+  rotate: false
+  xy: 918, 299
+  size: 52, 61
+  orig: 100, 100
+  offset: 29, 18
+  index: -1
+3
+  rotate: false
+  xy: 918, 362
+  size: 53, 61
+  orig: 100, 100
+  offset: 27, 16
+  index: -1
+BGhongdian
+  rotate: true
+  xy: 668, 552
+  size: 470, 57
+  orig: 472, 59
+  offset: 1, 1
+  index: -1
+BGhuangdi
+  rotate: true
+  xy: 918, 425
+  size: 597, 57
+  orig: 599, 59
+  offset: 1, 1
+  index: -1
+Glow_Flare_009
+  rotate: false
+  xy: 660, 264
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+diandiand
+  rotate: false
+  xy: 972, 310
+  size: 18, 17
+  orig: 20, 19
+  offset: 1, 1
+  index: -1
+final_00047_00000
+  rotate: false
+  xy: 2, 522
+  size: 664, 500
+  orig: 664, 500
+  offset: 0, 0
+  index: -1
+final_00047_000010
+  rotate: false
+  xy: 2, 20
+  size: 656, 500
+  orig: 664, 500
+  offset: 8, 0
+  index: -1
+go
+  rotate: false
+  xy: 918, 236
+  size: 104, 61
+  orig: 120, 100
+  offset: 9, 19
+  index: -1
+go/go_00002
+  rotate: true
+  xy: 977, 422
+  size: 600, 37
+  orig: 600, 100
+  offset: 0, 23
+  index: -1
+huangse
+  rotate: false
+  xy: 972, 329
+  size: 32, 28
+  orig: 34, 30
+  offset: 1, 1
+  index: -1
+mask_18-2
+  rotate: false
+  xy: 660, 6
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+
+effect_online_ui12.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+go/go_00001
+  rotate: false
+  xy: 2, 551
+  size: 600, 51
+  orig: 600, 100
+  offset: 0, 16
+  index: -1
+go/go_00003
+  rotate: false
+  xy: 2, 522
+  size: 600, 27
+  orig: 600, 100
+  offset: 0, 28
+  index: -1

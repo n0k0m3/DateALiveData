@@ -1,0 +1,41 @@
+
+bg_chezhan.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow_00000
+  rotate: true
+  xy: 2, 46
+  size: 98, 250
+  orig: 300, 300
+  offset: 93, 12
+  index: -1
+glow_00060
+  rotate: true
+  xy: 304, 257
+  size: 227, 180
+  orig: 300, 300
+  offset: 3, 60
+  index: -1
+l
+  rotate: false
+  xy: 2, 3
+  size: 40, 41
+  orig: 40, 41
+  offset: 0, 0
+  index: -1
+shangguang_00000
+  rotate: false
+  xy: 2, 313
+  size: 300, 171
+  orig: 300, 300
+  offset: 0, 40
+  index: -1
+yangguang_00000
+  rotate: false
+  xy: 2, 146
+  size: 292, 165
+  orig: 300, 300
+  offset: 0, 46
+  index: -1

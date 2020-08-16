@@ -1,0 +1,48 @@
+
+map_huohua_01.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sucai/Spot-2
+  rotate: false
+  xy: 2, 318
+  size: 177, 178
+  orig: 177, 178
+  offset: 0, 0
+  index: -1
+sucai/huohua/huohua1
+  rotate: false
+  xy: 2, 2
+  size: 91, 76
+  orig: 91, 76
+  offset: 0, 0
+  index: -1
+sucai/huohua/huohua2
+  rotate: false
+  xy: 294, 393
+  size: 110, 103
+  orig: 110, 103
+  offset: 0, 0
+  index: -1
+sucai/huohua/huohua3
+  rotate: false
+  xy: 2, 80
+  size: 120, 121
+  orig: 120, 121
+  offset: 0, 0
+  index: -1
+sucai/huohua/huohua4
+  rotate: false
+  xy: 181, 365
+  size: 111, 131
+  orig: 111, 131
+  offset: 0, 0
+  index: -1
+sucai/shandeng_00000
+  rotate: false
+  xy: 2, 203
+  size: 172, 113
+  orig: 172, 113
+  offset: 0, 0
+  index: -1

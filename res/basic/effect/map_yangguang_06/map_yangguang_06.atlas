@@ -1,0 +1,20 @@
+
+map_yangguang_06.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sucai/guangyun
+  rotate: false
+  xy: 2, 2
+  size: 45, 23
+  orig: 45, 23
+  offset: 0, 0
+  index: -1
+sucai/yangguang1_00008
+  rotate: false
+  xy: 2, 27
+  size: 71, 69
+  orig: 71, 69
+  offset: 0, 0
+  index: -1

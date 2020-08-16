@@ -1,0 +1,132 @@
+
+effects_extra_five.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/diancixianjing/x/x_00017
+  rotate: false
+  xy: 402, 897
+  size: 399, 86
+  orig: 413, 100
+  offset: 10, 0
+  index: -1
+images/diancixianjing/x/x_00019
+  rotate: true
+  xy: 2, 3
+  size: 398, 84
+  orig: 413, 100
+  offset: 10, 0
+  index: -1
+images/diancixianjing/x/x_00021
+  rotate: true
+  xy: 2, 403
+  size: 398, 86
+  orig: 413, 100
+  offset: 10, 0
+  index: -1
+images/diancixianjing/x/x_00023
+  rotate: true
+  xy: 90, 403
+  size: 398, 84
+  orig: 413, 100
+  offset: 10, 0
+  index: -1
+images/diancixianjing/x/x_00025
+  rotate: false
+  xy: 2, 803
+  size: 397, 89
+  orig: 413, 100
+  offset: 11, 0
+  index: -1
+images/diancixianjing/x/x_00027
+  rotate: false
+  xy: 2, 894
+  size: 398, 89
+  orig: 413, 100
+  offset: 10, 0
+  index: -1
+images/diancixianjing/x/x_00029
+  rotate: true
+  xy: 88, 3
+  size: 398, 83
+  orig: 413, 100
+  offset: 10, 0
+  index: -1
+images/diancixianjing/x/x_00031
+  rotate: true
+  xy: 176, 403
+  size: 398, 83
+  orig: 413, 100
+  offset: 10, 0
+  index: -1
+images/diancixianjing/x/x_00033
+  rotate: true
+  xy: 173, 2
+  size: 399, 81
+  orig: 413, 100
+  offset: 10, 0
+  index: -1
+images/diancixianjing/y/y_00017
+  rotate: false
+  xy: 261, 627
+  size: 165, 174
+  orig: 165, 175
+  offset: 0, 0
+  index: -1
+images/diancixianjing/y/y_00019
+  rotate: false
+  xy: 762, 645
+  size: 165, 171
+  orig: 165, 175
+  offset: 0, 0
+  index: -1
+images/diancixianjing/y/y_00021
+  rotate: false
+  xy: 762, 473
+  size: 165, 170
+  orig: 165, 175
+  offset: 0, 0
+  index: -1
+images/diancixianjing/y/y_00023
+  rotate: false
+  xy: 261, 451
+  size: 165, 174
+  orig: 165, 175
+  offset: 0, 0
+  index: -1
+images/diancixianjing/y/y_00025
+  rotate: true
+  xy: 803, 818
+  size: 165, 174
+  orig: 165, 175
+  offset: 0, 0
+  index: -1
+images/diancixianjing/y/y_00027
+  rotate: false
+  xy: 428, 721
+  size: 165, 174
+  orig: 165, 175
+  offset: 0, 0
+  index: -1
+images/diancixianjing/y/y_00029
+  rotate: false
+  xy: 428, 546
+  size: 165, 173
+  orig: 165, 175
+  offset: 0, 0
+  index: -1
+images/diancixianjing/y/y_00031
+  rotate: false
+  xy: 595, 722
+  size: 165, 173
+  orig: 165, 175
+  offset: 0, 0
+  index: -1
+images/diancixianjing/y/y_00033
+  rotate: false
+  xy: 595, 548
+  size: 165, 172
+  orig: 165, 175
+  offset: 0, 0
+  index: -1

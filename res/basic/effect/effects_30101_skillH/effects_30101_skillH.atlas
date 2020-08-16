@@ -1,0 +1,153 @@
+
+effects_30101_skillH.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skillGH/wing_d/wing_d_0001
+  rotate: false
+  xy: 462, 573
+  size: 211, 102
+  orig: 240, 136
+  offset: 8, 7
+  index: -1
+effects/skillGH/wing_d/wing_d_0002
+  rotate: false
+  xy: 308, 686
+  size: 216, 97
+  orig: 240, 136
+  offset: 4, 9
+  index: -1
+effects/skillGH/wing_d/wing_d_0003
+  rotate: false
+  xy: 541, 784
+  size: 216, 105
+  orig: 240, 136
+  offset: 4, 3
+  index: -1
+effects/skillGH/wing_d/wing_d_0004
+  rotate: false
+  xy: 526, 677
+  size: 215, 105
+  orig: 240, 136
+  offset: 4, 4
+  index: -1
+effects/skillGH/wing_d/wing_d_0005
+  rotate: true
+  xy: 242, 373
+  size: 222, 106
+  orig: 240, 136
+  offset: 5, 10
+  index: -1
+effects/skillGH/wing_d/wing_d_0006
+  rotate: true
+  xy: 350, 469
+  size: 215, 110
+  orig: 240, 136
+  offset: 15, 10
+  index: -1
+effects/skillGH/wing_d/wing_d_0007
+  rotate: false
+  xy: 623, 891
+  size: 226, 114
+  orig: 240, 136
+  offset: 7, 8
+  index: -1
+effects/skillGH/wing_d/wing_d_0008
+  rotate: true
+  xy: 2, 79
+  size: 229, 116
+  orig: 240, 136
+  offset: 7, 8
+  index: -1
+effects/skillGH/wing_d/wing_d_0009
+  rotate: false
+  xy: 318, 785
+  size: 221, 117
+  orig: 240, 136
+  offset: 14, 9
+  index: -1
+effects/skillGH/wing_d/wing_d_0010
+  rotate: false
+  xy: 462, 461
+  size: 198, 110
+  orig: 240, 136
+  offset: 15, 17
+  index: -1
+effects/skillGH/wing_d/wing_d_0011
+  rotate: true
+  xy: 759, 709
+  size: 180, 97
+  orig: 240, 136
+  offset: 12, 25
+  index: -1
+effects/skillGH/wing_d/wing_d_0012
+  rotate: false
+  xy: 2, 2
+  size: 136, 75
+  orig: 240, 136
+  offset: 32, 41
+  index: -1
+effects/skillGH/wing_e/wing_e_0001
+  rotate: false
+  xy: 350, 400
+  size: 99, 67
+  orig: 336, 160
+  offset: 129, 14
+  index: -1
+effects/skillGH/wing_e/wing_e_0002
+  rotate: false
+  xy: 851, 920
+  size: 153, 85
+  orig: 336, 160
+  offset: 87, 13
+  index: -1
+effects/skillGH/wing_e/wing_e_0003
+  rotate: true
+  xy: 858, 734
+  size: 184, 94
+  orig: 336, 160
+  offset: 68, 12
+  index: -1
+effects/skillGH/wing_e/wing_e_0004
+  rotate: true
+  xy: 121, 366
+  size: 229, 119
+  orig: 336, 160
+  offset: 38, 11
+  index: -1
+effects/skillGH/wing_e/wing_e_0005
+  rotate: false
+  xy: 2, 597
+  size: 278, 139
+  orig: 336, 160
+  offset: 21, 5
+  index: -1
+effects/skillGH/wing_e/wing_e_0006
+  rotate: false
+  xy: 2, 738
+  size: 304, 135
+  orig: 336, 160
+  offset: 8, 13
+  index: -1
+effects/skillGH/wing_e/wing_e_0007
+  rotate: false
+  xy: 2, 875
+  size: 314, 130
+  orig: 336, 160
+  offset: 7, 25
+  index: -1
+effects/skillGH/wing_e/wing_e_0008
+  rotate: true
+  xy: 2, 310
+  size: 285, 117
+  orig: 336, 160
+  offset: 43, 36
+  index: -1
+effects/skillGH/wing_e/wing_e_0009
+  rotate: false
+  xy: 318, 904
+  size: 303, 101
+  orig: 336, 160
+  offset: 30, 43
+  index: -1

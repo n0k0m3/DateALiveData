@@ -1,0 +1,158 @@
+
+battle_end_win_02.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+kuangsan/baige_00014
+  rotate: false
+  xy: 900, 900
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+kuangsan/gezi_00060
+  rotate: false
+  xy: 2, 286
+  size: 896, 714
+  orig: 964, 800
+  offset: 40, 47
+  index: -1
+kuangsan/wenzi1_00000
+  rotate: false
+  xy: 900, 393
+  size: 61, 12
+  orig: 300, 300
+  offset: 106, 135
+  index: -1
+kuangsan/xulie/xulie_00010
+  rotate: false
+  xy: 2, 41
+  size: 486, 243
+  orig: 688, 400
+  offset: 111, 157
+  index: -1
+kuangsan/xulie/xulie_00011
+  rotate: false
+  xy: 490, 41
+  size: 486, 243
+  orig: 688, 400
+  offset: 111, 157
+  index: -1
+kuangsan/zige_00031_00009
+  rotate: false
+  xy: 900, 798
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+kuangsan/zisechang_00000
+  rotate: true
+  xy: 900, 407
+  size: 389, 93
+  orig: 400, 100
+  offset: 11, 3
+  index: -1
+
+battle_end_win_022.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+kuangsan/16lianxu
+  rotate: false
+  xy: 798, 798
+  size: 195, 195
+  orig: 195, 195
+  offset: 0, 0
+  index: -1
+kuangsan/glow_00000
+  rotate: false
+  xy: 2, 308
+  size: 700, 495
+  orig: 700, 700
+  offset: 0, 205
+  index: -1
+kuangsan/lanchang_00040
+  rotate: false
+  xy: 2, 805
+  size: 794, 188
+  orig: 800, 200
+  offset: 0, 3
+  index: -1
+kuangsan/xulie/xulie_00012
+  rotate: true
+  xy: 704, 310
+  size: 486, 243
+  orig: 688, 400
+  offset: 111, 157
+  index: -1
+kuangsan/xulie/xulie_00013
+  rotate: false
+  xy: 2, 63
+  size: 486, 243
+  orig: 688, 400
+  offset: 111, 157
+  index: -1
+kuangsan/xulie/xulie_00014
+  rotate: false
+  xy: 490, 63
+  size: 486, 243
+  orig: 688, 400
+  offset: 111, 157
+  index: -1
+
+battle_end_win_023.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+kuangsan/fangbian_00030
+  rotate: false
+  xy: 646, 646
+  size: 346, 346
+  orig: 500, 500
+  offset: 74, 74
+  index: -1
+kuangsan/glow1_00000
+  rotate: false
+  xy: 2, 601
+  size: 642, 391
+  orig: 700, 700
+  offset: 14, 277
+  index: -1
+kuangsan/sanjiaobian_00027
+  rotate: true
+  xy: 735, 162
+  size: 482, 241
+  orig: 500, 500
+  offset: 8, 114
+  index: -1
+kuangsan/wenzi_00000
+  rotate: true
+  xy: 735, 8
+  size: 152, 165
+  orig: 300, 300
+  offset: 69, 68
+  index: -1
+kuangsan/xulie/xulie_00015
+  rotate: false
+  xy: 2, 356
+  size: 486, 243
+  orig: 688, 400
+  offset: 111, 157
+  index: -1
+kuangsan/xulie/xulie_00016
+  rotate: false
+  xy: 2, 111
+  size: 486, 243
+  orig: 688, 400
+  offset: 111, 157
+  index: -1
+kuangsan/xulie/xulie_00017
+  rotate: true
+  xy: 490, 113
+  size: 486, 243
+  orig: 688, 400
+  offset: 111, 157
+  index: -1

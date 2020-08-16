@@ -1,0 +1,20 @@
+
+effects_10212_skillD1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skilld/show/BG_000
+  rotate: false
+  xy: 2, 2
+  size: 320, 160
+  orig: 320, 160
+  offset: 0, 0
+  index: -1
+effect/zhuwang
+  rotate: false
+  xy: 2, 164
+  size: 473, 468
+  orig: 480, 480
+  offset: 1, 2
+  index: -1

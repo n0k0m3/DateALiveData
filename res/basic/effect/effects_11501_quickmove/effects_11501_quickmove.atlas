@@ -1,0 +1,83 @@
+
+effects_11501_quickmove.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skillA/glow_084
+  rotate: true
+  xy: 2, 2
+  size: 254, 62
+  orig: 265, 76
+  offset: 5, 4
+  index: -1
+effects/skillB/glow
+  rotate: false
+  xy: 490, 942
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+effects/skillC/chongci/chongci003
+  rotate: false
+  xy: 2, 910
+  size: 247, 102
+  orig: 281, 107
+  offset: 32, 0
+  index: -1
+effects/skillC/chongci/chongci005
+  rotate: false
+  xy: 2, 258
+  size: 236, 105
+  orig: 281, 107
+  offset: 25, 0
+  index: -1
+effects/skillC/chongci/chongci007
+  rotate: false
+  xy: 2, 474
+  size: 237, 107
+  orig: 281, 107
+  offset: 20, 0
+  index: -1
+effects/skillC/chongci/chongci009
+  rotate: false
+  xy: 2, 365
+  size: 237, 107
+  orig: 281, 107
+  offset: 15, 0
+  index: -1
+effects/skillC/chongci/chongci011
+  rotate: false
+  xy: 2, 801
+  size: 238, 107
+  orig: 281, 107
+  offset: 10, 0
+  index: -1
+effects/skillC/chongci/chongci013
+  rotate: false
+  xy: 2, 692
+  size: 238, 107
+  orig: 281, 107
+  offset: 6, 0
+  index: -1
+effects/skillC/chongci/chongci015
+  rotate: false
+  xy: 2, 583
+  size: 238, 107
+  orig: 281, 107
+  offset: 3, 0
+  index: -1
+effects/skillC/chongci/chongci017
+  rotate: false
+  xy: 251, 925
+  size: 237, 87
+  orig: 281, 107
+  offset: 1, 0
+  index: -1
+effects/skillC/renwu/renwu002
+  rotate: false
+  xy: 66, 143
+  size: 123, 113
+  orig: 123, 113
+  offset: 0, 0
+  index: -1

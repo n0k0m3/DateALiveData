@@ -1,0 +1,543 @@
+
+effects_24901_born.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/born/chibangshandian_m/chibangshandian_m_00097
+  rotate: true
+  xy: 414, 2
+  size: 81, 70
+  orig: 213, 98
+  offset: 132, 6
+  index: -1
+images/effect/born/qpshan_add/qpshan_add_00033
+  rotate: false
+  xy: 2, 85
+  size: 561, 305
+  orig: 561, 314
+  offset: 0, 5
+  index: -1
+images/effect/born/qpshan_add/qpshan_add_00034
+  rotate: false
+  xy: 2, 708
+  size: 561, 314
+  orig: 561, 314
+  offset: 0, 0
+  index: -1
+images/effect/born/qpshan_add/qpshan_add_00035
+  rotate: false
+  xy: 2, 392
+  size: 561, 314
+  orig: 561, 314
+  offset: 0, 0
+  index: -1
+images/effect/born/qpshan_add/qpshan_add_00036
+  rotate: true
+  xy: 565, 461
+  size: 561, 314
+  orig: 561, 314
+  offset: 0, 0
+  index: -1
+images/effect/born/qpshan_add/qpshan_add_00037
+  rotate: true
+  xy: 565, 165
+  size: 294, 314
+  orig: 561, 314
+  offset: 267, 0
+  index: -1
+images/effect/born/qpshan_add/qpshan_add_00038
+  rotate: true
+  xy: 871, 7
+  size: 58, 83
+  orig: 561, 314
+  offset: 503, 31
+  index: -1
+images/effect/born/shexianguang_add/shexianguang_add_00111
+  rotate: false
+  xy: 565, 2
+  size: 164, 161
+  orig: 165, 161
+  offset: 0, 0
+  index: -1
+images/effect/born/xingshan_add/xingshan_add_00016
+  rotate: false
+  xy: 956, 5
+  size: 61, 60
+  orig: 86, 86
+  offset: 12, 13
+  index: -1
+images/effect/born/xingshan_add/xingshan_add_00026
+  rotate: true
+  xy: 486, 4
+  size: 79, 77
+  orig: 86, 86
+  offset: 3, 5
+  index: -1
+images/effect/born/xunhuanyumao_add/xunhuanyumao_add_00104
+  rotate: true
+  xy: 731, 2
+  size: 161, 138
+  orig: 180, 161
+  offset: 2, 23
+  index: -1
+images/effect/born/yanzhuan_add/yanzhuan_add_00087
+  rotate: false
+  xy: 2, 3
+  size: 410, 80
+  orig: 605, 152
+  offset: 117, 26
+  index: -1
+images/effect/born/yanzhuan_add/yanzhuan_add_00091
+  rotate: true
+  xy: 881, 433
+  size: 589, 139
+  orig: 605, 152
+  offset: 3, 8
+  index: -1
+images/effect/born/zishenshan_add_00087
+  rotate: true
+  xy: 881, 67
+  size: 364, 140
+  orig: 364, 142
+  offset: 0, 2
+  index: -1
+
+effects_24901_born2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/baibao_00027
+  rotate: false
+  xy: 939, 324
+  size: 43, 43
+  orig: 51, 51
+  offset: 4, 4
+  index: -1
+images/effect/born/bjfengwei_add/bjfengwei_add_00090
+  rotate: false
+  xy: 501, 709
+  size: 318, 313
+  orig: 318, 313
+  offset: 0, 0
+  index: -1
+images/effect/born/chibangshandian_m/chibangshandian_m_00093
+  rotate: false
+  xy: 255, 28
+  size: 196, 76
+  orig: 213, 98
+  offset: 17, 22
+  index: -1
+images/effect/born/chibangshandian_m/chibangshandian_m_00095
+  rotate: true
+  xy: 870, 317
+  size: 134, 67
+  orig: 213, 98
+  offset: 79, 6
+  index: -1
+images/effect/born/qilangyan1_nor/qilangyan1_nor_00032
+  rotate: true
+  xy: 642, 16
+  size: 111, 77
+  orig: 296, 195
+  offset: 94, 57
+  index: -1
+images/effect/born/qilangyan1_nor/qilangyan1_nor_00040
+  rotate: false
+  xy: 751, 130
+  size: 271, 185
+  orig: 296, 195
+  offset: 14, 4
+  index: -1
+images/effect/born/qilangyan1_nor/qilangyan1_nor_00044
+  rotate: false
+  xy: 465, 129
+  size: 284, 192
+  orig: 296, 195
+  offset: 7, 1
+  index: -1
+images/effect/born/qilangyan1_nor/qilangyan1_nor_00046
+  rotate: true
+  xy: 270, 106
+  size: 289, 193
+  orig: 296, 195
+  offset: 5, 0
+  index: -1
+images/effect/born/qilangyan1_nor/qilangyan1_nor_00048
+  rotate: false
+  xy: 490, 514
+  size: 290, 193
+  orig: 296, 195
+  offset: 4, 0
+  index: -1
+images/effect/born/qilangyan1_nor/qilangyan1_nor_00050
+  rotate: false
+  xy: 490, 323
+  size: 290, 189
+  orig: 296, 195
+  offset: 4, 2
+  index: -1
+images/effect/born/qilangyan_nor/qilangyan_nor_00038
+  rotate: true
+  xy: 948, 532
+  size: 304, 62
+  orig: 394, 90
+  offset: 43, 17
+  index: -1
+images/effect/born/qilangyan_nor/qilangyan_nor_00042
+  rotate: true
+  xy: 782, 317
+  size: 390, 86
+  orig: 394, 90
+  offset: 2, 3
+  index: -1
+images/effect/born/qilangyan_nor/qilangyan_nor_00044
+  rotate: true
+  xy: 870, 453
+  size: 383, 76
+  orig: 394, 90
+  offset: 5, 5
+  index: -1
+images/effect/born/qiudian_a_m/qiudian_a_n_00051
+  rotate: false
+  xy: 751, 2
+  size: 136, 126
+  orig: 178, 159
+  offset: 28, 15
+  index: -1
+images/effect/born/qiudian_a_m/qiudian_a_n_00062
+  rotate: true
+  xy: 2, 2
+  size: 154, 136
+  orig: 178, 159
+  offset: 4, 17
+  index: -1
+images/effect/born/qiudian_a_m/qiudian_a_n_00074
+  rotate: false
+  xy: 889, 32
+  size: 117, 96
+  orig: 178, 159
+  offset: 52, 9
+  index: -1
+images/effect/born/qpshan_add/qpshan_add_00030
+  rotate: false
+  xy: 948, 473
+  size: 55, 57
+  orig: 58, 59
+  offset: 2, 2
+  index: -1
+images/effect/born/qpshan_add/qpshan_add_00031
+  rotate: true
+  xy: 270, 397
+  size: 343, 218
+  orig: 346, 222
+  offset: 1, 4
+  index: -1
+images/effect/born/qpshan_add/qpshan_add_00032
+  rotate: false
+  xy: 2, 742
+  size: 497, 280
+  orig: 561, 314
+  offset: 46, 0
+  index: -1
+images/effect/born/shangshengyumao_add/shangshengyumao_add_00084
+  rotate: true
+  xy: 948, 453
+  size: 18, 25
+  orig: 232, 211
+  offset: 2, 95
+  index: -1
+images/effect/born/shangshengyumao_add/shangshengyumao_add_00108
+  rotate: false
+  xy: 821, 838
+  size: 201, 184
+  orig: 232, 211
+  offset: 15, 12
+  index: -1
+images/effect/born/xingshan_add/xingshan_add_00013
+  rotate: false
+  xy: 821, 762
+  size: 29, 29
+  orig: 86, 86
+  offset: 28, 29
+  index: -1
+images/effect/born/xingshan_add/xingshan_add_00014
+  rotate: false
+  xy: 821, 793
+  size: 44, 43
+  orig: 86, 86
+  offset: 21, 22
+  index: -1
+images/effect/born/xingshan_add/xingshan_add_00020
+  rotate: false
+  xy: 939, 369
+  size: 83, 82
+  orig: 86, 86
+  offset: 1, 2
+  index: -1
+images/effect/born/xunhuanglizi_add/xunhuanglizi_add_00098
+  rotate: false
+  xy: 140, 7
+  size: 113, 147
+  orig: 115, 162
+  offset: 2, 0
+  index: -1
+images/effect/born/xunhuanyumao_add/xunhuanyumao_add_00101
+  rotate: false
+  xy: 465, 2
+  size: 175, 125
+  orig: 180, 161
+  offset: 2, 34
+  index: -1
+images/effect/born/yanzhuan_add/yanzhuan_add_00089
+  rotate: true
+  xy: 2, 158
+  size: 582, 138
+  orig: 605, 152
+  offset: 21, 8
+  index: -1
+images/effect/born/yanzhuan_add/yanzhuan_add_00093
+  rotate: true
+  xy: 142, 156
+  size: 584, 126
+  orig: 605, 152
+  offset: 2, 18
+  index: -1
+
+effects_24901_born3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/born/chibangshandian_m/chibangshandian_m_00091
+  rotate: false
+  xy: 2, 22
+  size: 212, 87
+  orig: 213, 98
+  offset: 0, 1
+  index: -1
+images/effect/born/guanghuang_add_00009
+  rotate: false
+  xy: 682, 188
+  size: 93, 93
+  orig: 94, 95
+  offset: 1, 1
+  index: -1
+images/effect/born/qilangyan1_nor/qilangyan1_nor_00034
+  rotate: false
+  xy: 454, 432
+  size: 197, 147
+  orig: 296, 195
+  offset: 50, 22
+  index: -1
+images/effect/born/qilangyan1_nor/qilangyan1_nor_00036
+  rotate: false
+  xy: 227, 262
+  size: 195, 149
+  orig: 296, 195
+  offset: 51, 22
+  index: -1
+images/effect/born/qilangyan1_nor/qilangyan1_nor_00038
+  rotate: false
+  xy: 2, 475
+  size: 250, 172
+  orig: 296, 195
+  offset: 24, 10
+  index: -1
+images/effect/born/qilangyan1_nor/qilangyan1_nor_00042
+  rotate: false
+  xy: 2, 649
+  size: 279, 188
+  orig: 296, 195
+  offset: 10, 2
+  index: -1
+images/effect/born/qilangyan1_nor/qilangyan1_nor_00052
+  rotate: false
+  xy: 2, 839
+  size: 289, 183
+  orig: 296, 195
+  offset: 5, 6
+  index: -1
+images/effect/born/qilangyan_nor/qilangyan_nor_00036
+  rotate: false
+  xy: 216, 55
+  size: 191, 43
+  orig: 394, 90
+  offset: 98, 25
+  index: -1
+images/effect/born/qilangyan_nor/qilangyan_nor_00040
+  rotate: false
+  xy: 293, 943
+  size: 377, 79
+  orig: 394, 90
+  offset: 7, 11
+  index: -1
+images/effect/born/qiudian_a_m/qiudian_a_n_00054
+  rotate: true
+  xy: 653, 428
+  size: 151, 130
+  orig: 178, 159
+  offset: 11, 14
+  index: -1
+images/effect/born/qiudian_a_m/qiudian_a_n_00058
+  rotate: true
+  xy: 796, 277
+  size: 152, 135
+  orig: 178, 159
+  offset: 12, 5
+  index: -1
+images/effect/born/qiudian_a_m/qiudian_a_n_00069
+  rotate: true
+  xy: 777, 142
+  size: 133, 140
+  orig: 178, 159
+  offset: 42, 5
+  index: -1
+images/effect/born/qiudian_a_m/qiudian_a_n_00070
+  rotate: false
+  xy: 401, 110
+  size: 135, 150
+  orig: 178, 159
+  offset: 29, 7
+  index: -1
+images/effect/born/shangshengyumao_add/shangshengyumao_add_00087
+  rotate: true
+  xy: 520, 767
+  size: 174, 163
+  orig: 232, 211
+  offset: 5, 7
+  index: -1
+images/effect/born/shangshengyumao_add/shangshengyumao_add_00090
+  rotate: false
+  xy: 283, 601
+  size: 224, 165
+  orig: 232, 211
+  offset: 6, 6
+  index: -1
+images/effect/born/shangshengyumao_add/shangshengyumao_add_00093
+  rotate: false
+  xy: 293, 768
+  size: 225, 173
+  orig: 232, 211
+  offset: 5, 4
+  index: -1
+images/effect/born/shangshengyumao_add/shangshengyumao_add_00096
+  rotate: false
+  xy: 2, 294
+  size: 223, 179
+  orig: 232, 211
+  offset: 6, 5
+  index: -1
+images/effect/born/shangshengyumao_add/shangshengyumao_add_00099
+  rotate: false
+  xy: 2, 111
+  size: 219, 181
+  orig: 232, 211
+  offset: 8, 8
+  index: -1
+images/effect/born/shangshengyumao_add/shangshengyumao_add_00102
+  rotate: false
+  xy: 509, 581
+  size: 213, 184
+  orig: 232, 211
+  offset: 10, 8
+  index: -1
+images/effect/born/shangshengyumao_add/shangshengyumao_add_00105
+  rotate: true
+  xy: 724, 608
+  size: 206, 185
+  orig: 232, 211
+  offset: 13, 9
+  index: -1
+images/effect/born/shangshengyumao_add/shangshengyumao_add_00111
+  rotate: false
+  xy: 254, 413
+  size: 198, 186
+  orig: 232, 211
+  offset: 16, 14
+  index: -1
+images/effect/born/shangshengyumao_add/shangshengyumao_add_00114
+  rotate: false
+  xy: 223, 100
+  size: 176, 160
+  orig: 232, 211
+  offset: 38, 18
+  index: -1
+images/effect/born/shangshengyumao_add/shangshengyumao_add_00117
+  rotate: false
+  xy: 454, 275
+  size: 173, 155
+  orig: 232, 211
+  offset: 40, 23
+  index: -1
+images/effect/born/xiantiaohuiju_add/xiantiaohuiju_add_00008
+  rotate: false
+  xy: 685, 816
+  size: 190, 206
+  orig: 253, 227
+  offset: 0, 6
+  index: -1
+images/effect/born/xingshan_add/xingshan_add_00015
+  rotate: false
+  xy: 216, 2
+  size: 51, 51
+  orig: 86, 86
+  offset: 17, 18
+  index: -1
+images/effect/born/xingshan_add/xingshan_add_00018
+  rotate: true
+  xy: 493, 30
+  size: 78, 77
+  orig: 86, 86
+  offset: 4, 5
+  index: -1
+images/effect/born/xingshan_add/xingshan_add_00022
+  rotate: false
+  xy: 682, 104
+  size: 85, 82
+  orig: 86, 86
+  offset: 0, 2
+  index: -1
+images/effect/born/xingshan_add/xingshan_add_00024
+  rotate: false
+  xy: 409, 26
+  size: 82, 82
+  orig: 86, 86
+  offset: 2, 2
+  index: -1
+images/effect/born/xunhuanyumao_add/xunhuanyumao_add_00098
+  rotate: true
+  xy: 911, 675
+  size: 176, 104
+  orig: 180, 161
+  offset: 2, 38
+  index: -1
+images/effect/born/xunhuanyumao_add/xunhuanyumao_add_00107
+  rotate: true
+  xy: 538, 111
+  size: 162, 142
+  orig: 180, 161
+  offset: 4, 17
+  index: -1
+images/effect/born/xunhuanyumao_add/xunhuanyumao_add_00110
+  rotate: false
+  xy: 629, 283
+  size: 165, 143
+  orig: 180, 161
+  offset: 6, 12
+  index: -1
+images/effect/born/xunhuanyumao_add/xunhuanyumao_add_00113
+  rotate: true
+  xy: 877, 853
+  size: 169, 145
+  orig: 180, 161
+  offset: 5, 6
+  index: -1
+images/effect/born/xunhuanyumao_add/xunhuanyumao_add_00116
+  rotate: true
+  xy: 785, 431
+  size: 175, 143
+  orig: 180, 161
+  offset: 3, 2
+  index: -1

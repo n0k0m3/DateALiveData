@@ -1,0 +1,13 @@
+
+effects_fight_21901skillA2.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skillA/zidan/zidan0037
+  rotate: false
+  xy: 2, 61
+  size: 82, 23
+  orig: 91, 35
+  offset: 5, 6
+  index: -1

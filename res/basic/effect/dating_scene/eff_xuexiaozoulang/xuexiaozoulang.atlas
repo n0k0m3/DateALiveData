@@ -1,0 +1,26 @@
+
+xuexiaozoulang.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+yangguang_00000
+  rotate: false
+  xy: 2, 83
+  size: 210, 129
+  orig: 210, 129
+  offset: 0, 0
+  index: -1
+
+xuexiaozoulang2.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow_00060
+  rotate: false
+  xy: 2, 35
+  size: 159, 126
+  orig: 210, 210
+  offset: 2, 42
+  index: -1

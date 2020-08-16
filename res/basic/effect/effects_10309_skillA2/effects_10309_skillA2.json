@@ -1,0 +1,96 @@
+{
+"skeleton": { "hash": "NlI3QuvA1U93NqRgEqTHW8Mz0T4", "spine": "2.1.27", "width": 0, "height": 0, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bdbox", "parent": "root" },
+	{ "name": "glow", "parent": "root", "y": 135.76, "scaleX": 6, "scaleY": 6 },
+	{ "name": "hit", "parent": "root", "y": 124.12, "scaleX": 2, "scaleY": 2 }
+],
+"slots": [
+	{ "name": "bdbox_eff", "bone": "bdbox", "attachment": "bdbox_eff" },
+	{ "name": "images/effects/skilla/hit/hit_000", "bone": "hit" },
+	{ "name": "images/effects/glow_000", "bone": "glow", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"bdbox_eff": {
+			"bdbox_eff": {
+				"type": "boundingbox",
+				"vertices": [ 62.71896, -64.58366, 61.42599, 62.13029, -61.40902, 63.42332, -61.40902, -67.16966 ]
+			}
+		},
+		"images/effects/glow_000": {
+			"images/effects/glow_000": { "width": 100, "height": 100 }
+		},
+		"images/effects/skilla/hit/hit_000": {
+			"images/effects/skilla/hit/hit_000": { "width": 300, "height": 300 },
+			"images/effects/skilla/hit/hit_001": { "width": 300, "height": 300 },
+			"images/effects/skilla/hit/hit_003": { "width": 300, "height": 300 },
+			"images/effects/skilla/hit/hit_005": { "width": 300, "height": 300 },
+			"images/effects/skilla/hit/hit_007": { "width": 300, "height": 300 },
+			"images/effects/skilla/hit/hit_009": { "width": 300, "height": 300 },
+			"images/effects/skilla/hit/hit_011": { "width": 300, "height": 300 },
+			"images/effects/skilla/hit/hit_013": { "width": 300, "height": 300 }
+		}
+	}
+},
+"animations": {
+	"effects_skillA2": {
+		"slots": {
+			"images/effects/glow_000": {
+				"attachment": [
+					{ "time": 0, "name": "images/effects/glow_000" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.0333, "color": "00ccffff" },
+					{ "time": 0.1, "color": "2d00ff00" }
+				]
+			},
+			"images/effects/skilla/hit/hit_000": {
+				"attachment": [
+					{ "time": 0, "name": "images/effects/skilla/hit/hit_000" },
+					{ "time": 0.0666, "name": "images/effects/skilla/hit/hit_001" },
+					{ "time": 0.1333, "name": "images/effects/skilla/hit/hit_003" },
+					{ "time": 0.2, "name": "images/effects/skilla/hit/hit_005" },
+					{ "time": 0.2666, "name": "images/effects/skilla/hit/hit_007" },
+					{ "time": 0.3333, "name": "images/effects/skilla/hit/hit_009" },
+					{ "time": 0.4, "name": "images/effects/skilla/hit/hit_011" },
+					{ "time": 0.4666, "name": "images/effects/skilla/hit/hit_013" },
+					{ "time": 0.5666, "name": null }
+				],
+				"color": [
+					{ "time": 0.4666, "color": "ffffffff" },
+					{ "time": 0.5666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"hit": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -124.12 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.9, "y": 0.9 }
+				]
+			},
+			"glow": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -135.76 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"bdbox": {
+				"scale": [
+					{ "time": 0, "x": 2.675, "y": 2.675 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	}
+}
+}

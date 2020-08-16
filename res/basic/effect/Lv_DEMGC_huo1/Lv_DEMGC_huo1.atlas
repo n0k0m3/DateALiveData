@@ -1,0 +1,90 @@
+
+Lv_DEMGC_huo1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/huo2/huo2_00002
+  rotate: false
+  xy: 2, 2
+  size: 172, 200
+  orig: 210, 210
+  offset: 17, 8
+  index: -1
+images/huo2/huo2_00026
+  rotate: false
+  xy: 2, 2
+  size: 172, 200
+  orig: 210, 210
+  offset: 17, 8
+  index: -1
+images/huo2/huo2_00006
+  rotate: false
+  xy: 2, 408
+  size: 172, 202
+  orig: 210, 210
+  offset: 17, 8
+  index: -1
+images/huo2/huo2_00030
+  rotate: false
+  xy: 2, 408
+  size: 172, 202
+  orig: 210, 210
+  offset: 17, 8
+  index: -1
+images/huo2/huo2_00010
+  rotate: false
+  xy: 2, 204
+  size: 172, 202
+  orig: 210, 210
+  offset: 17, 8
+  index: -1
+images/huo2/huo2_00034
+  rotate: false
+  xy: 2, 204
+  size: 172, 202
+  orig: 210, 210
+  offset: 17, 8
+  index: -1
+images/huo2/huo2_00014
+  rotate: false
+  xy: 176, 408
+  size: 172, 202
+  orig: 210, 210
+  offset: 17, 8
+  index: -1
+images/huo2/huo2_00038
+  rotate: false
+  xy: 176, 408
+  size: 172, 202
+  orig: 210, 210
+  offset: 17, 8
+  index: -1
+images/huo2/huo2_00018
+  rotate: false
+  xy: 176, 206
+  size: 172, 200
+  orig: 210, 210
+  offset: 17, 8
+  index: -1
+images/huo2/huo2_00042
+  rotate: false
+  xy: 176, 206
+  size: 172, 200
+  orig: 210, 210
+  offset: 17, 8
+  index: -1
+images/huo2/huo2_00022
+  rotate: false
+  xy: 350, 411
+  size: 172, 199
+  orig: 210, 210
+  offset: 17, 8
+  index: -1
+images/huo2/huo2_00046
+  rotate: false
+  xy: 350, 411
+  size: 172, 199
+  orig: 210, 210
+  offset: 17, 8
+  index: -1
