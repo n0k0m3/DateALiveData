@@ -1,7 +1,7 @@
 return {
     [1] = {
         time = {
-            [43200] = 50400,
+            [36000] = 61200,
         },
         adIcon = "scene/summon/008.png",
         gifts = {
@@ -13,7 +13,7 @@ return {
     },
     [2] = {
         time = {
-            [64800] = 72000,
+            [64800] = 86400,
         },
         adIcon = "",
         gifts = {

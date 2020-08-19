@@ -84,25 +84,50 @@ return {
         limitData = 21600,
         id = 598408,
     },
+    [566048] = {
+        limitType = 1,
+        limitData = 43200,
+        id = 566048,
+    },
     [598409] = {
         limitType = 1,
         limitData = 21600,
         id = 598409,
+    },
+    [566047] = {
+        limitType = 1,
+        limitData = 43200,
+        id = 566047,
     },
     [598410] = {
         limitType = 1,
         limitData = 21600,
         id = 598410,
     },
+    [566046] = {
+        limitType = 1,
+        limitData = 43200,
+        id = 566046,
+    },
     [598411] = {
         limitType = 1,
         limitData = 21600,
         id = 598411,
     },
+    [566045] = {
+        limitType = 1,
+        limitData = 43200,
+        id = 566045,
+    },
     [598412] = {
         limitType = 1,
         limitData = 21600,
         id = 598412,
+    },
+    [566044] = {
+        limitType = 1,
+        limitData = 43200,
+        id = 566044,
     },
     [598413] = {
         limitType = 1,
@@ -289,10 +314,20 @@ return {
         limitData = 10080,
         id = 598304,
     },
+    [566043] = {
+        limitType = 1,
+        limitData = 43200,
+        id = 566043,
+    },
     [598305] = {
         limitType = 1,
         limitData = 10080,
         id = 598305,
+    },
+    [566042] = {
+        limitType = 1,
+        limitData = 43200,
+        id = 566042,
     },
     [598306] = {
         limitType = 1,
@@ -309,10 +344,20 @@ return {
         limitData = 10080,
         id = 598307,
     },
+    [566041] = {
+        limitType = 1,
+        limitData = 43200,
+        id = 566041,
+    },
     [598308] = {
         limitType = 1,
         limitData = 10080,
         id = 598308,
+    },
+    [566040] = {
+        limitType = 1,
+        limitData = 43200,
+        id = 566040,
     },
     [598309] = {
         limitType = 1,

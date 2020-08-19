@@ -287,8 +287,8 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "54",
-							ignoreSize = "True",
+							height = "92",
+							ignoreSize = "False",
 							name = "Image_zone",
 							sizepercentx = "0",
 							sizepercenty = "0",
@@ -325,15 +325,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_name",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -348,7 +348,7 @@ local t =
 									{
 										
 									},
-									width = "91",
+									width = "104",
 									ZOrder = "1",
 								},
 							},

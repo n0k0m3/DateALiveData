@@ -586,15 +586,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "18",
+									fontSize = "15",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "21",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "labShowTip1",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -607,10 +607,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 266,
-										PositionY = 33,
+										PositionX = 217,
+										PositionY = 30,
 									},
-									width = "513",
+									width = "409",
 									ZOrder = "1",
 									components = 
 									{

@@ -2957,7 +2957,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Umu... my feeling tells me it's here. Sandalphon, wait for me!",
+                text = "Umu... my feeling tells me it's here. SANDALPHON, wait for me!",
             },
         },
         actionL = {
@@ -3195,7 +3195,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "I'm METATRON, guardian angel of Kether, and the one who summoned you here.",
+                text = "I'm METATRON, guardian angel of KETHER, and the one who summoned you here.",
             },
         },
         actionL = {
@@ -3263,7 +3263,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "This place is the Kether world of the Tree of Life, independent from both the Spirit and human worlds, the source of spirit's ANGEL power.",
+                text = "This place is the KETHER world of the Tree of Life, independent from both the Spirit and human worlds, the source of spirit's ANGEL power.",
             },
         },
         actionL = {
@@ -3297,7 +3297,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "The Tree of Life is being eroded by the power of darkness, it is my hope that you can save the Kether world.",
+                text = "The Tree of Life is being eroded by the power of darkness, it is my hope that you can save the KETHER world.",
             },
         },
         actionL = {
@@ -3433,7 +3433,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "First; recapture the lighthouse from enemies to claim the energy crystal, and purify the corrupted area.",
+                text = "Firstly, recapture the lighthouse from enemies to claim the energy crystal, and purify the corrupted area.",
             },
         },
         actionL = {
@@ -3501,7 +3501,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Not enough. Tetragram, the power source of Kether, is devoured by the darkness. It must be retrieved to restore the vitality of the Tree of Life.",
+                text = "Not enough. Tetragram, the power source of KETHER, is devoured by the darkness. It must be retrieved to restore the vitality of the Tree of Life.",
             },
         },
         actionL = {
@@ -3637,7 +3637,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "You have my gratitude for finding the power source of Kether, but... the darkness has been alerted...",
+                text = "You have my gratitude for finding the power source of KETHER, but... the darkness has been alerted...",
             },
         },
         actionL = {
@@ -3739,7 +3739,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "The monsters that eroded Kether are still devouring the energy of the Tree of Life, please help to destroy them.",
+                text = "The monsters that eroded KETHER are still devouring the energy of the Tree of Life, please help to destroy them.",
             },
         },
         actionL = {
@@ -3875,7 +3875,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Umu, I need to defeat them asap, Sandalphon's cry for help is getting weaker.",
+                text = "Umu, I need to defeat them asap, SANDALPHON's cry for help is getting weaker.",
             },
         },
         actionL = {
@@ -4045,7 +4045,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Because SATAN, the demon king who occupied Kether is still alive, their power can continuously spawn new monsters.",
+                text = "Because SATAN, the demon king who occupied KETHER is still alive, their power can continuously spawn new monsters.",
             },
         },
         actionL = {
@@ -4385,7 +4385,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Kether world has been purified, thank you.",
+                text = "KETHER world has been purified, thank you.",
             },
         },
         actionL = {
@@ -4419,7 +4419,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "But Kether is but a Sephira World with the lowest corruption, while the Sephira Worlds below the Tree of Life have all been occupied.",
+                text = "But KETHER is but a Sephira World with the lowest corruption, while the Sephira Worlds below the Tree of Life have all been occupied.",
             },
         },
         actionL = {
@@ -4487,7 +4487,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Where is Sandalphon? How is it?",
+                text = "Where is SANDALPHON? How is it?",
             },
         },
         actionL = {
@@ -4521,7 +4521,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "The Malkuth world has been completely corrupted. Sandalphon's condition may not be good.",
+                text = "The MALKUTH world has been completely corrupted. SANDALPHON's condition may not be good.",
             },
         },
         actionL = {
@@ -4555,7 +4555,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Sandalphon... Kotori, let's go save it!",
+                text = "SANDALPHON... Kotori, let's go save it!",
             },
         },
         actionL = {
@@ -4623,7 +4623,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "There are nine left, you can follow path 22 to Malkuth where Sandalphon is located.",
+                text = "There are nine left, you can follow path 22 to MALKUTH where SANDALPHON is located.",
             },
         },
         actionL = {
@@ -4657,7 +4657,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Umu, if Sandalphon is in the last world, then the only choice is to defeat all demons in the way, one by one.",
+                text = "Umu, if SANDALPHON is in the last world, then the only choice is to defeat all demons in the way, one by one.",
             },
         },
         actionL = {
@@ -4759,7 +4759,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Darn, without Sandalphon's power, I...",
+                text = "Darn, without SANDALPHON's power, I...",
             },
         },
         actionL = {
@@ -4895,7 +4895,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "I'm RATZIEL, master of divine knowledge, guardian of the Chokhmah world.",
+                text = "I'm RATZIEL, master of divine knowledge, guardian of the CHOKHMAH world.",
             },
         },
         actionL = {
@@ -4929,7 +4929,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "I apologize, because of my negligence, the entire Chokhmah world has been infected by BEELZEBUB.",
+                text = "I apologize, because of my negligence, the entire CHOKHMAH world has been infected by BEELZEBUB.",
             },
         },
         actionL = {
@@ -5065,7 +5065,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "BEELZEBUB has polluted the Chokhmah world, the entire area was shrouded in the dark mist she released.",
+                text = "BEELZEBUB has polluted the CHOKHMAH world, the entire area was shrouded in the dark mist she released.",
             },
         },
         actionL = {
@@ -5201,7 +5201,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "The situation here seems more serious than Kether, how can we purify the Chokhmah world?",
+                text = "The situation here seems more serious than KETHER, how can we purify the CHOKHMAH world?",
             },
         },
         actionL = {
@@ -5269,7 +5269,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Only by eradicating these threats, can there be hope for the Chokhmah world.",
+                text = "Only by eradicating these threats, can there be hope for the CHOKHMAH world.",
             },
         },
         actionL = {
@@ -5677,7 +5677,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "I shall use your blood to paint the Chokhmah world!",
+                text = "I shall use your blood to paint the CHOKHMAH world!",
             },
         },
         actionL = {
@@ -5711,7 +5711,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Thank you for clearing the Chokhmah world. If your goal is to save Sandalphon, then the road ahead will be even more dangerous.",
+                text = "Thank you for clearing the CHOKHMAH world. If your goal is to save SANDALPHON, then the road ahead will be even more dangerous.",
             },
         },
         actionL = {
@@ -5745,7 +5745,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Please accept my gift, and I sincerely hope that you can successfully reach the final world Malkuth.",
+                text = "Please accept my gift, and I sincerely hope that you can successfully reach the final world MALKUTH.",
             },
         },
         actionL = {
@@ -5779,7 +5779,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Umu! Sandalphon must be waiting for me, let's go!",
+                text = "Umu! SANDALPHON must be waiting for me, let's go!",
             },
         },
         actionL = {
@@ -5813,7 +5813,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "The corruption of Chokhmah is too serious...",
+                text = "The corruption of CHOKHMAH is too serious...",
             },
         },
         actionL = {
@@ -5881,7 +5881,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "According to RATZIEL's information, the guardian of Binah is named ZAPHKIEL.",
+                text = "According to RATZIEL's information, the guardian of BINAH is named ZAPHKIEL.",
             },
         },
         actionL = {
@@ -5983,7 +5983,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Sandalphon doesn't have much time, darn...",
+                text = "SANDALPHON doesn't have much time, darn...",
             },
         },
         actionL = {
@@ -6119,7 +6119,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Absurd Demon and its minions have tampered with the Binah world. If this continues, the energy of activity and thought will be completely eroded.",
+                text = "Absurd Demon and its minions have tampered with the BINAH world. If this continues, the energy of activity and thought will be completely eroded.",
             },
         },
         actionL = {
@@ -6187,7 +6187,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "First you need to find the Binah stolen by them. It looks like a string of black pearls, it should be easy to spot.",
+                text = "First you need to find the BINAH stolen by them. It looks like a string of black pearls, it should be easy to spot.",
             },
         },
         actionL = {
@@ -6289,7 +6289,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "The power source of the Binah world is also eroded?",
+                text = "The power source of the BINAH world is also eroded?",
             },
         },
         actionL = {
@@ -6391,7 +6391,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "The source of Binah taken by Absurd Demon is glowing again, its minions are no longer a threat.",
+                text = "The source of BINAH taken by Absurd Demon is glowing again, its minions are no longer a threat.",
             },
         },
         actionL = {
@@ -6425,7 +6425,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "But there are two Absurd Demons, the other one still controls a large part of the Binah world.",
+                text = "But there are two Absurd Demons, the other one still controls a large part of the BINAH world.",
             },
         },
         actionL = {
@@ -6799,7 +6799,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "The Binah world corrupted by the Absurd Demon has been restored, will you continue to move forward?",
+                text = "The BINAH world corrupted by the Absurd Demon has been restored, will you continue to move forward?",
             },
         },
         actionL = {
@@ -6833,7 +6833,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Of course, Sandalphon is still calling to me!",
+                text = "Of course, SANDALPHON is still calling to me!",
             },
         },
         actionL = {
@@ -6867,7 +6867,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Be careful, I can't leave the Binah world, please accept my blessing.",
+                text = "Be careful, I can't leave the BINAH world, please accept my blessing.",
             },
         },
         actionL = {
@@ -37499,7 +37499,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Sorry I snuck in, I'm ZADKIEL, the guardian angel of the Chesed world.",
+                text = "Sorry I snuck in, I'm ZADKIEL, the guardian angel of the CHESED world.",
             },
         },
         actionL = {
@@ -38349,7 +38349,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Of course I will. You can protect him by finding the Relic of Chesed, Divine Veil.",
+                text = "Of course I will. You can protect him by finding the Relic of CHESED, Divine Veil.",
             },
         },
         actionL = {
@@ -38927,7 +38927,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Originally, Divine Veil could protect the entire Chesed world, but ASTAROTH's power weakened it.",
+                text = "Originally, Divine Veil could protect the entire CHESED world, but ASTAROTH's power weakened it.",
             },
         },
         actionL = {
@@ -39782,7 +39782,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Thank you... for saving the Chesed world.",
+                text = "Thank you... for saving the CHESED world.",
             },
         },
         actionL = {

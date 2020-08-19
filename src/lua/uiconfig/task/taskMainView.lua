@@ -1069,7 +1069,6 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							visible = "False",
 							width = "1136",
 							ZOrder = "1",
 							components = 
@@ -1591,7 +1590,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "偷心大师",
+											text = "成长守护",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -1599,7 +1598,7 @@ local t =
 												PositionX = 60,
 												PositionY = 309,
 											},
-											width = "91",
+											width = "90",
 											ZOrder = "1",
 										},
 										{
@@ -1637,7 +1636,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "猫の认可",
+											text = "成长助力",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -1645,7 +1644,7 @@ local t =
 												PositionX = 60,
 												PositionY = 149,
 											},
-											width = "91",
+											width = "89",
 											ZOrder = "1",
 										},
 										{
@@ -4807,7 +4806,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "64",
+									height = "2",
 									ignoreSize = "True",
 									name = "Image_taskMainView_3",
 									sizepercentx = "0",
@@ -4821,7 +4820,7 @@ local t =
 										PositionX = -306,
 										PositionY = -32,
 									},
-									width = "64",
+									width = "2",
 									ZOrder = "1",
 								},
 								{

@@ -433,14 +433,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "18",
+													fontSize = "14",
 													fontStroke = 
 													{
 														IsStroke = true,
 														StrokeColor = "#14000000",
 														StrokeSize = 1,
 													},
-													height = "24",
+													height = "19",
 													ignoreSize = "True",
 													name = "Label_state_tx",
 													nTextAlign = "1",
@@ -454,11 +454,11 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 10,
+														PositionX = -1,
 														PositionY = -28,
 													},
 													visible = "False",
-													width = "53",
+													width = "76",
 													ZOrder = "1",
 												},
 												{
@@ -733,14 +733,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "18",
+													fontSize = "14",
 													fontStroke = 
 													{
 														IsStroke = true,
 														StrokeColor = "#14000000",
 														StrokeSize = 1,
 													},
-													height = "24",
+													height = "19",
 													ignoreSize = "True",
 													name = "Label_state_tx",
 													nTextAlign = "1",
@@ -754,10 +754,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 11,
+														PositionX = -1,
 														PositionY = -27,
 													},
-													width = "53",
+													width = "76",
 													ZOrder = "1",
 												},
 												{
@@ -1032,14 +1032,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "18",
+													fontSize = "14",
 													fontStroke = 
 													{
 														IsStroke = true,
 														StrokeColor = "#14000000",
 														StrokeSize = 1,
 													},
-													height = "24",
+													height = "19",
 													ignoreSize = "True",
 													name = "Label_state_tx",
 													nTextAlign = "1",
@@ -1053,10 +1053,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 11,
+														PositionX = -1,
 														PositionY = -28,
 													},
-													width = "53",
+													width = "76",
 													ZOrder = "1",
 												},
 												{
@@ -1233,7 +1233,7 @@ local t =
 													{
 														PositionY = -17,
 													},
-													width = "75",
+													width = "114",
 													ZOrder = "1",
 												},
 												{
@@ -1328,7 +1328,7 @@ local t =
 													controlID = "Label_btn_Button_maphelp_Panel_function_btn_Panel_UI_Panel_root_Panel-kabalaTreeExploreView_Layer1_kabalaTree_Game",
 													UUID = "dbfc7e50_f0f0_4f1e_b158_1185d54159d1",
 													anchorPoint = "False",
-													anchorPointX = "0.5",
+													anchorPointX = "0",
 													anchorPointY = "0.5",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
@@ -1364,10 +1364,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 61,
+														PositionX = 30,
 														PositionY = -18,
 													},
-													width = "75",
+													width = "78",
 													ZOrder = "1",
 												},
 											},
@@ -1433,7 +1433,7 @@ local t =
 													controlID = "Label_btn_Button_itembag_Panel_function_btn_Panel_UI_Panel_root_Panel-kabalaTreeExploreView_Layer1_kabalaTree_Game",
 													UUID = "82cde869_9391_4dff_b488_8b2d28665660",
 													anchorPoint = "False",
-													anchorPointX = "0.5",
+													anchorPointX = "0",
 													anchorPointY = "0.5",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
@@ -1469,10 +1469,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 61,
+														PositionX = 30,
 														PositionY = -18,
 													},
-													width = "75",
+													width = "70",
 													ZOrder = "1",
 												},
 											},
@@ -1538,7 +1538,7 @@ local t =
 													controlID = "Label_btn_Button_statelist_Panel_function_btn_Panel_UI_Panel_root_Panel-kabalaTreeExploreView_Layer1_kabalaTree_Game",
 													UUID = "87119108_1898_432e_88f1_4af01cde7e96",
 													anchorPoint = "False",
-													anchorPointX = "0.5",
+													anchorPointX = "0",
 													anchorPointY = "0.5",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
@@ -1574,10 +1574,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 60,
+														PositionX = 30,
 														PositionY = -17,
 													},
-													width = "75",
+													width = "79",
 													ZOrder = "1",
 												},
 											},
@@ -1643,7 +1643,7 @@ local t =
 													controlID = "Label_btn_Button_statistics_Panel_function_btn_Panel_UI_Panel_root_Panel-kabalaTreeExploreView_Layer1_kabalaTree_Game",
 													UUID = "5f950e36_5df6_4cac_a062_569b3916d016",
 													anchorPoint = "False",
-													anchorPointX = "0.5",
+													anchorPointX = "0",
 													anchorPointY = "0.5",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
@@ -1679,10 +1679,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 61,
+														PositionX = 30,
 														PositionY = -18,
 													},
-													width = "75",
+													width = "70",
 													ZOrder = "1",
 												},
 											},
@@ -1782,7 +1782,7 @@ local t =
 											controlID = "Label_title_Image_task_bg_Panel_UI_Panel_root_Panel-kabalaTreeExploreView_Layer1_kabalaTree_Game",
 											UUID = "75d078a2_666a_4315_be23_b138e1d69765",
 											anchorPoint = "False",
-											anchorPointX = "0.5",
+											anchorPointX = "0",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
@@ -1804,7 +1804,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "29",
 											ignoreSize = "True",
 											name = "Label_title",
 											nTextAlign = "1",
@@ -1818,10 +1818,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -53,
-												PositionY = 51,
+												PositionX = -96,
+												PositionY = 53,
 											},
-											width = "99",
+											width = "161",
 											ZOrder = "1",
 										},
 										{
@@ -1907,14 +1907,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "20",
+													fontSize = "18",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "96",
+													height = "0",
 													ignoreSize = "False",
 													name = "Label_task",
 													nTextAlign = "0",
@@ -2900,7 +2900,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "30",
+													height = "29",
 													ignoreSize = "True",
 													name = "Label_buff_name",
 													nTextAlign = "1",
@@ -2917,7 +2917,7 @@ local t =
 														PositionX = -124,
 														PositionY = 51,
 													},
-													width = "98",
+													width = "179",
 													ZOrder = "1",
 												},
 												{
@@ -3527,7 +3527,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "26",
 											ignoreSize = "True",
 											name = "Label_boss_name",
 											nTextAlign = "1",
@@ -3544,7 +3544,7 @@ local t =
 												PositionX = -65,
 												PositionY = 15,
 											},
-											width = "91",
+											width = "147",
 											ZOrder = "1",
 										},
 										{
@@ -3590,7 +3590,7 @@ local t =
 												PositionX = -63,
 												PositionY = -9,
 											},
-											width = "75",
+											width = "55",
 											ZOrder = "1",
 										},
 										{
@@ -3907,7 +3907,7 @@ local t =
 												StrokeColor = "#FF30354A",
 												StrokeSize = 2,
 											},
-											height = "34",
+											height = "33",
 											ignoreSize = "True",
 											name = "Label_hiddenTip",
 											nTextAlign = "1",
@@ -3923,7 +3923,7 @@ local t =
 											{
 												
 											},
-											width = "134",
+											width = "158",
 											ZOrder = "1",
 										},
 									},

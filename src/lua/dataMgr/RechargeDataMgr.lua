@@ -219,6 +219,15 @@ function RechargeDataMgr:getRechargeList()
 	return list;
 end
 
+function RechargeDataMgr:getGiftSingleData(giftId)
+	for k,v in pairs(self.goodsList.rechargeGiftBagCfg) do
+		if giftId == v.rechargeCfg.id then
+			return v
+		end
+	end
+	return nil
+end
+
 function RechargeDataMgr:getGiftData(giftIds)
 	local list = {};
 
@@ -450,8 +459,49 @@ function RechargeDataMgr:getWarOrderGiftData()
 end
 
 function RechargeDataMgr:recvGoodsList(event)
+	local function existInOldDataById(data ,id)
+		local _bool = false
+		for i, _data in ipairs(data) do
+			if _data.rechargeCfg.id == id then
+				_bool = true
+			end
+		end
+		return _bool
+	end
+	local function changeDataById(sumData, changeData, changeType)
+		if not sumData or not changeData then
+			return
+		end
+		for j, newData in ipairs(changeData) do
+			if existInOldDataById(sumData, newData.rechargeCfg.id) then
+				for i, _data in ipairs(sumData) do
+					if _data.rechargeCfg.id == newData.rechargeCfg.id then
+						if changeType == EC_SChangeType.UPDATE then
+							sumData[i] = newData
+						elseif changeType == EC_SChangeType.DELETE then
+							sumData[i] = nil
+						end
+					end
+				end
+			else
+				table.insert(sumData, newData)
+			end
+		end
+	end
 
-	self.goodsList = event.data;
+	local data = event.data
+
+	if data.rechargeGiftBagCfg or data.monthCardCfg then  -- 4360
+		self.goodsList = data
+	else                                                  -- 4369
+		if self.goodsList then 
+			changeDataById(self.goodsList.rechargeGiftBagCfg, data.updateCreateGiftCfg, EC_SChangeType.UPDATE)
+			changeDataById(self.goodsList.rechargeGiftBagCfg, data.deleteGiftCfg, EC_SChangeType.DELETE)
+			changeDataById(self.goodsList.monthCardCfg, data.updateCreateMonthCardCfg, EC_SChangeType.UPDATE)
+			changeDataById(self.goodsList.monthCardCfg, data.deleteMonthCardCfg, EC_SChangeType.DELETE)
+		end
+	end
+
 	self.limitGoodsList = {}
 	self.sevenGiftBag = {}		--7日狂欢礼包，类型3
 

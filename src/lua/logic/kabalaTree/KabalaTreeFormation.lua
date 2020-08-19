@@ -59,6 +59,7 @@ function KabalaTreeFormation:initUI(ui)
     end
 
     HeroDataMgr:changeDataToSelf()
+    HeroDataMgr:resetShowList(true)
     self:initUIInfo()
 end
 

@@ -153,7 +153,7 @@ local t =
 									dstBlendFunc = "771",
 									flipX = "False",
 									flipY = "False",
-									height = "30",
+									height = "60",
 									ignoreSize = "True",
 									name = "Button_close",
 									normal = "ui/common/pop_ui/pop_btn_02.png",
@@ -168,7 +168,7 @@ local t =
 										PositionY = 221,
 									},
 									UItype = "Button",
-									width = "30",
+									width = "60",
 									ZOrder = "1",
 								},
 								{
@@ -197,7 +197,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "34",
 									ignoreSize = "True",
 									name = "Label_title",
 									nTextAlign = "1",
@@ -214,7 +214,7 @@ local t =
 										PositionX = -177,
 										PositionY = 218,
 									},
-									width = "115",
+									width = "230",
 									ZOrder = "1",
 								},
 								{
@@ -339,7 +339,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = true,
@@ -362,7 +362,7 @@ local t =
 											{
 												
 											},
-											width = "69",
+											width = "90",
 											ZOrder = "1",
 										},
 									},
@@ -418,7 +418,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = true,
@@ -441,7 +441,7 @@ local t =
 											{
 												
 											},
-											width = "69",
+											width = "90",
 											ZOrder = "1",
 										},
 									},

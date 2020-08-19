@@ -44,6 +44,7 @@ end
 
 function WarOrderView:registerEvents()
     EventMgr:addEventListener(self,EV_RECHARGE_UPDATE,handler(self.updateUI, self))
+    EventMgr:addEventListener(self, EV_ACTIVITY_SUBMIT_SUCCESS, handler(self.onSubmitSuccessEvent, self))
 
     self.Button_buy:onClick(function()
         FunctionDataMgr:jWarOrderBuy()
@@ -52,12 +53,28 @@ end
 
 function WarOrderView:updateGiftUI()
     self.ScrollView_gift:setVisible(true)
-    local giftData = RechargeDataMgr:getWarOrderGiftData()
-    if not giftData then
-        return
+    self.warOrderActivity = ActivityDataMgr2:getWarOrderAcrivityInfo()
+    local trainingTaskData = ActivityDataMgr2:getItems(self.warOrderActivity.id)
+    local itemInfo
+    local progressInfo
+    for i,v in ipairs(trainingTaskData) do
+        if tonumber(self.warOrderActivity.extendData.daytask) == v then
+            itemInfo = ActivityDataMgr2:getItemInfo(self.warOrderActivity.activityType, v)
+            break
+        end
     end
+    local giftData = RechargeDataMgr:getWarOrderGiftData()
     self.coolDown = {}
     self.ScrollView_gift:removeAllItems()
+
+    if itemInfo then
+        progressInfo = ActivityDataMgr2:getProgressInfo(self.warOrderActivity.activityType, itemInfo.id)
+        if progressInfo.status == EC_TaskStatus.GET then
+            local listItem = self.giftItem:clone()
+            self:updateTaskGiftItem(listItem, itemInfo)
+            self.ScrollView_gift:pushBackCustomItem(listItem)
+        end
+    end
     local serverTime = ServerDataMgr:getServerTime()
     for k,v in ipairs(giftData) do
         print("v.rechargeCfg.id",v.rechargeCfg.id)
@@ -78,12 +95,97 @@ function WarOrderView:updateGiftUI()
             self.ScrollView_gift:pushBackCustomItem(listItem)
         end
     end
+
+    if itemInfo then
+        progressInfo = ActivityDataMgr2:getProgressInfo(self.warOrderActivity.activityType, itemInfo.id)
+        if progressInfo.status == EC_TaskStatus.GETED then
+            local listItem = self.giftItem:clone()
+            self:updateTaskGiftItem(listItem, itemInfo)
+            self.ScrollView_gift:pushBackCustomItem(listItem)
+        end
+    end
     self.ScrollView_gift:update()
+end
+
+function WarOrderView:updateTaskGiftItem(item,itemInfo)
+    local progressInfo = ActivityDataMgr2:getProgressInfo(self.warOrderActivity.activityType, itemInfo.id)
+    local isReceive = progressInfo.status == EC_TaskStatus.GET
+    local isGeted = progressInfo.status == EC_TaskStatus.GETED
+
+    local Label_price   = TFDirector:getChildByPath(item,"Label_price")
+    if isReceive then
+        Label_price:setTextById(1820002)
+    else
+        Label_price:setTextById(1300015)
+    end
+
+    local Label_num     = TFDirector:getChildByPath(item,"Label_num")
+    Label_num:setTextById(tonumber(itemInfo.details))
+
+    local Label_leftTime= TFDirector:getChildByPath(item,"Label_leftTime"):hide()
+
+    local Label_tips    = TFDirector:getChildByPath(item,"Label_tips"):hide()
+
+    local Label_desc    = TFDirector:getChildByPath(item,"Label_desc")
+    Label_desc:setTextById(1640001)
+
+    local Label_countdown = TFDirector:getChildByPath(item,"Label_countdown")
+
+    if TextDataMgr:getTextAttr(itemInfo.extendData.des2) then
+        Label_countdown:setTextById(itemInfo.extendData.des2)
+    else
+        Label_countdown:setText(itemInfo.extendData.des2 or "")
+    end
+
+
+    local Image_new = TFDirector:getChildByPath(item,"Image_new"):hide()
+    local Image_title_di = TFDirector:getChildByPath(item,"Image_title_di"):hide()
+
+    local Button_buy        = TFDirector:getChildByPath(item,"Button_buy")
+    Button_buy:setTouchEnabled(isReceive)
+    Button_buy:setGrayEnabled(not isReceive)
+    Button_buy:onClick(function()
+        ActivityDataMgr2:send_ACTIVITY_NEW_SUBMIT_ACTIVITY(self.warOrderActivity.id, itemInfo.id)
+    end)
+
+    local Panel_item = TFDirector:getChildByPath(item,"Panel_item")
+    local reward = itemInfo.reward
+    if not reward then
+        return
+    end
+
+    local posX,deltaX = -115,115
+    if table.count(reward) == 1 then
+        posX = 0
+    elseif table.count(reward) == 2 then
+        posX,deltaX = -58,116
+    end
+
+    local idx = 1
+    for cid,v in pairs(reward) do
+        local Panel_goodsItem = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
+        PrefabDataMgr:setInfo(Panel_goodsItem, cid,v)
+        Panel_goodsItem:setPosition(ccp(posX+deltaX*(idx-1),0))
+        Panel_item:addChild(Panel_goodsItem)
+        Panel_goodsItem:onClick(function()
+            Utils:showInfo(cid, nil, true)
+        end)
+        idx = idx + 1
+    end
+end
+
+function WarOrderView:onSubmitSuccessEvent(activitId, itemId, reward)
+    if self.warOrderActivity.id == activitId then
+        Utils:showReward(reward)
+        self:timeOut(function()
+            self:updateGiftUI()
+        end, 0.3)
+    end
 end
 
 function WarOrderView:updateGiftItem(item,data)
     local Label_price   = TFDirector:getChildByPath(item,"Label_price")
-    Label_price:setString("￥ "..data.rechargeCfg.price)
+    Label_price:setTextById(1890020 , data.rechargeCfg.price / 100)
 
     local Label_num     = TFDirector:getChildByPath(item,"Label_num")
     Label_num:setText(data.name)
@@ -252,9 +354,9 @@ function WarOrderView:onCountDownPer()
     local day, hour, min, sec = Utils:getTimeDHMZ(remainTime, true)
     self.Label_activity_time:show()
     if day == "00" then
-        self.Label_activity_time:setTextById(111000110, hour, min, sec)
+        self.Label_activity_time:setTextById(190000078, hour, min, sec)
     else
-        self.Label_activity_time:setTextById(111000111,day, hour, min)
+        self.Label_activity_time:setTextById(213514,day, hour, min)
     end
 
     if not self.coolDown then

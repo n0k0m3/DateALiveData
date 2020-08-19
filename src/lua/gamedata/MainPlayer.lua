@@ -81,24 +81,29 @@ end
 
 function MainPlayer:getServerTimeBeforeLoginFuc()
     --TODO CLOSE
-    if  CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 or VERSION_DEBUG == true then
-         LOGIN_URL = "http://192.168.20.182:8081/account/querydate"
-     else
-         if RELEASE_TEST then
-             LOGIN_URL = "http://49.233.184.62:8081/account/querydate"
-         elseif HeitaoSdk and math.floor(HeitaoSdk.getplatformId() / 10000) == 3 then
-             LOGIN_URL = "http://uch.datealive.com:8081/account/querydate"
-         else
-             LOGIN_URL = "https://uc.datealive.com:8082/account/querydate"
-         end
-     end
+    -- if  CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 or VERSION_DEBUG == true then
+    --      LOGIN_URL = "http://192.168.20.182:8081/account/querydate"
+    --  else
+    --      if RELEASE_TEST then
+    --          LOGIN_URL = "http://49.233.184.62:8081/account/querydate"
+    --      elseif HeitaoSdk and math.floor(HeitaoSdk.getplatformId() / 10000) == 3 then
+    --          LOGIN_URL = "http://uch.datealive.com:8081/account/querydate"
+    --      else
+    --          LOGIN_URL = "https://uc.datealive.com:8082/account/querydate"
+    --      end
+    --  end
 	
-    --暂时屏蔽韩服修改
-    --[[if  CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 or VERSION_DEBUG == true then
-        LOGIN_URL = "http://164.52.43.153:7070/account/querydate"
-    else        
-        LOGIN_URL = "https://l-kr.datealive.com:8082/account/querydate"
-    end]]
+    --登陆前获取服务器时间改为英文地址
+    if  CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 or VERSION_DEBUG == true then
+        LOGIN_URL = "http://192.168.20.27:8980/account/querydate"
+    else 
+        if CC_TARGET_PLATFORM == CC_PLATFORM_IOS then
+             LOGIN_URL = "https://uc-en.datealive.com:8082/account/querydate"
+        else
+             LOGIN_URL = "http://uc-en.datealive.com:8081/account/querydate"
+        end       
+       
+    end
 
     HttpHelper:get(LOGIN_URL,function(data)
         data = json.decode(data)

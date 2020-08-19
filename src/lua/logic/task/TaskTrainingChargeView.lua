@@ -49,27 +49,33 @@ function TaskTrainingChargeView:refreshUI()
     self.Button_buy2:setGrayEnabled(false)
     local rechargeList = ActivityDataMgr2:getWarOrderChargeList()
     local chargeCfg1 = RechargeDataMgr:getOneRechargeCfg(rechargeList[1])
-    self.Label_price1:setText("¥"..chargeCfg1.rechargeCfg.price)
+    local exchangeCfg =  GoodsDataMgr:getItemCfg(chargeCfg1.exchangeCost[1].id);
+    self.Label_price1:getChildByName("imgToken"):setTexture(exchangeCfg.icon);
+    self.Label_price1:getChildByName("imgToken"):setSize(CCSizeMake(30,30));
+    self.Label_price1:setText(chargeCfg1.exchangeCost[1].num)
     local chargeCfg2 = RechargeDataMgr:getOneRechargeCfg(rechargeList[2])
-    self.Label_price2:setText("¥"..chargeCfg2.rechargeCfg.price)
+    self.Label_price2:setText(chargeCfg2.exchangeCost[1].num)
+    self.Label_price2:getChildByName("imgToken"):setTexture(exchangeCfg.icon);
+    self.Label_price2:getChildByName("imgToken"):setSize(CCSizeMake(30,30));
     local chargeCfg3 = RechargeDataMgr:getOneRechargeCfg(rechargeList[3])
     local extraItems1 = chargeCfg1.item
     local extraItems2 = chargeCfg2.item
     if state == 2 then
-        self.Label_price2:setText("¥"..chargeCfg3.rechargeCfg.price)
-        extraItems2 = chargeCfg3.item
+        self.Label_price2:setText(chargeCfg2.exchangeCost[1].num)
+        extraItems2 = chargeCfg2.item
         self.Label_buy2:setTextById(111000116)
         self.Button_buy2:setTouchEnabled(false)
         self.Button_buy2:setGrayEnabled(true)
     elseif state == 3 then
-        extraItems2 = chargeCfg3.item
+        extraItems2 = chargeCfg2.item
+        self.Label_price2:setText(chargeCfg2.exchangeCost[1].num)
         self.Label_buy2:setTextById(111000116)
-        self.Label_price2:hide()
         self.Button_buy2:setTouchEnabled(false)
         self.Button_buy2:setGrayEnabled(true)
     elseif state == 1 then
         self.Label_buy2:setTextById(111000117)
-        self.Label_price2:setText(chargeCfg3.rechargeCfg.price ..TextDataMgr:getText(111000105))
+        self.Label_price2:setText(chargeCfg3.exchangeCost[1].num)
+        extraItems2 = chargeCfg3.item
     end
     if state ~= 0 then
         self.Label_buy1:setTextById(111000116)

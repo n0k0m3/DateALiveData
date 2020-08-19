@@ -197,7 +197,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "37",
+									height = "36",
 									ignoreSize = "True",
 									name = "Label_title",
 									nTextAlign = "1",
@@ -214,7 +214,7 @@ local t =
 										PositionX = -493,
 										PositionY = 190,
 									},
-									width = "123",
+									width = "72",
 									ZOrder = "1",
 								},
 								{
@@ -278,6 +278,7 @@ local t =
 										PositionX = -301,
 										PositionY = 192,
 									},
+									visible = "False",
 									width = "121",
 									ZOrder = "1",
 								},
@@ -360,15 +361,15 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "28",
+													fontSize = "25",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "35",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "Label_btn_1",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -381,9 +382,9 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionY = 3,
+														
 													},
-													width = "113",
+													width = "146",
 													ZOrder = "1",
 												},
 												{
@@ -428,7 +429,8 @@ local t =
 													{
 														PositionY = -20,
 													},
-													width = "91",
+													visible = "False",
+													width = "93",
 													ZOrder = "1",
 												},
 											},
@@ -491,8 +493,8 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "35",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "Label_btn_1",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -505,9 +507,9 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionY = 3,
+														
 													},
-													width = "115",
+													width = "144",
 													ZOrder = "1",
 												},
 												{
@@ -552,7 +554,8 @@ local t =
 													{
 														PositionY = -20,
 													},
-													width = "124",
+													visible = "False",
+													width = "126",
 													ZOrder = "1",
 												},
 											},
@@ -744,14 +747,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "52",
+											height = "0",
 											ignoreSize = "False",
 											name = "Label_buff_name",
 											nTextAlign = "1",
@@ -814,7 +817,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "18",
+											fontSize = "17",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -845,7 +848,7 @@ local t =
 											UUID = "80737ec8_3b51_43e6_8cdc_07ec36dbcf68",
 											anchorPoint = "False",
 											anchorPointX = "0",
-											anchorPointY = "1",
+											anchorPointY = "0",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
@@ -866,8 +869,8 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_buff_effect",
 											nTextAlign = "0",
 											nTextHAlign = "0",
@@ -881,9 +884,8 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = 145,
-												PositionY = 27,
 											},
-											width = "103",
+											width = "106",
 											ZOrder = "1",
 										},
 										{
@@ -929,7 +931,7 @@ local t =
 												PositionX = 145,
 												PositionY = -3,
 											},
-											width = "70",
+											width = "63",
 											ZOrder = "1",
 										},
 										{
@@ -1005,7 +1007,7 @@ local t =
 													{
 														
 													},
-													width = "49",
+													width = "42",
 													ZOrder = "1",
 												},
 											},
@@ -1153,14 +1155,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "50",
+											height = "0",
 											ignoreSize = "False",
 											name = "Label_buff_name",
 											nTextAlign = "1",
@@ -1223,12 +1225,9 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = 49,
-														PositionY = -37,
-														IsPercent = true,
-														PercentX = 48.89,
-														PercentY = -74.08,
+														PositionY = -36,
 													},
-													width = "65",
+													width = "70",
 													ZOrder = "1",
 												},
 											},
@@ -1277,7 +1276,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "18",
+											fontSize = "17",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -1308,7 +1307,7 @@ local t =
 											UUID = "3e142335_d93c_4bce_a992_4255304d98d0",
 											anchorPoint = "False",
 											anchorPointX = "0",
-											anchorPointY = "1",
+											anchorPointY = "0",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
@@ -1329,8 +1328,8 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_buff_effect",
 											nTextAlign = "0",
 											nTextHAlign = "0",
@@ -1344,9 +1343,8 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = 145,
-												PositionY = 27,
 											},
-											width = "103",
+											width = "106",
 											ZOrder = "1",
 										},
 										{
@@ -1392,7 +1390,7 @@ local t =
 												PositionX = 145,
 												PositionY = -3,
 											},
-											width = "70",
+											width = "63",
 											ZOrder = "1",
 										},
 										{
@@ -1468,7 +1466,7 @@ local t =
 													{
 														
 													},
-													width = "49",
+													width = "42",
 													ZOrder = "1",
 												},
 											},

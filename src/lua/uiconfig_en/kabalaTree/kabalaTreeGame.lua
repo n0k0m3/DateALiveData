@@ -70,6 +70,8 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
+						PositionX = -106,
+						PositionY = 34,
 						relativeToName = "Panel",
 						nType = 3,
 						nGravity = 6,
@@ -241,7 +243,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "34",
 									ignoreSize = "True",
 									name = "Label_title",
 									nTextAlign = "1",
@@ -258,7 +260,7 @@ local t =
 										PositionX = -179,
 										PositionY = 221,
 									},
-									width = "115",
+									width = "261",
 									ZOrder = "1",
 								},
 								{
@@ -357,7 +359,7 @@ local t =
 										PositionX = -2,
 										PositionY = 162,
 									},
-									width = "245",
+									width = "279",
 									ZOrder = "1",
 								},
 								{
@@ -412,7 +414,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "80",
+									height = "0",
 									ignoreSize = "False",
 									name = "Label_effect_desc",
 									nTextAlign = "0",
@@ -427,7 +429,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = -148,
-										PositionY = -8,
+										PositionY = 1,
 									},
 									width = "300",
 									ZOrder = "1",
@@ -502,7 +504,7 @@ local t =
 											{
 												
 											},
-											width = "137",
+											width = "159",
 											ZOrder = "1",
 										},
 									},
@@ -558,14 +560,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_btn",
 											nTextAlign = "1",
@@ -581,7 +583,7 @@ local t =
 											{
 												
 											},
-											width = "61",
+											width = "68",
 											ZOrder = "1",
 										},
 									},
@@ -667,7 +669,7 @@ local t =
 											controlID = "Label_text_Button_buy_Panel_Divination_Panel_root_Panel-kabalaTreeGame_Layer1_kabalaTree_Game",
 											UUID = "81ac7453_c246_4767_afd5_f7a040ba42ce",
 											anchorPoint = "False",
-											anchorPointX = "0.5",
+											anchorPointX = "1",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
@@ -703,9 +705,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
+												PositionX = 68,
 												PositionY = 48,
 											},
-											width = "109",
+											width = "166",
 											ZOrder = "1",
 										},
 										{
@@ -755,15 +758,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_free",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -778,7 +781,7 @@ local t =
 											{
 												
 											},
-											width = "59",
+											width = "125",
 											ZOrder = "1",
 										},
 									},
@@ -853,7 +856,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "34",
 									ignoreSize = "True",
 									name = "Label_title",
 									nTextAlign = "1",
@@ -870,7 +873,7 @@ local t =
 										PositionX = -179,
 										PositionY = 221,
 									},
-									width = "115",
+									width = "144",
 									ZOrder = "1",
 								},
 								{
@@ -937,7 +940,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "80",
+											height = "0",
 											ignoreSize = "False",
 											name = "Label_desc",
 											nTextAlign = "0",
@@ -1056,7 +1059,7 @@ local t =
 													{
 														
 													},
-													width = "192",
+													width = "142",
 													ZOrder = "1",
 												},
 											},
@@ -1135,7 +1138,7 @@ local t =
 													{
 														
 													},
-													width = "192",
+													width = "142",
 													ZOrder = "1",
 												},
 											},
@@ -1214,7 +1217,7 @@ local t =
 													{
 														
 													},
-													width = "47",
+													width = "55",
 													ZOrder = "1",
 												},
 											},
@@ -1313,7 +1316,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "80",
+											height = "0",
 											ignoreSize = "False",
 											name = "Label_desc",
 											nTextAlign = "0",
@@ -1328,7 +1331,7 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = -149,
-												PositionY = 416,
+												PositionY = 418,
 											},
 											width = "300",
 											ZOrder = "1",
@@ -1385,7 +1388,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "31",
 											ignoreSize = "True",
 											name = "Label_tip",
 											nTextAlign = "0",
@@ -1401,7 +1404,7 @@ local t =
 											{
 												PositionY = 305,
 											},
-											width = "107",
+											width = "97",
 											ZOrder = "1",
 										},
 										{
@@ -1589,7 +1592,7 @@ local t =
 													{
 														
 													},
-													width = "55",
+													width = "63",
 													ZOrder = "1",
 												},
 											},
@@ -1687,7 +1690,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "80",
+											height = "0",
 											ignoreSize = "False",
 											name = "Label_desc",
 											nTextAlign = "0",
@@ -1780,7 +1783,7 @@ local t =
 													{
 														
 													},
-													width = "55",
+													width = "65",
 													ZOrder = "1",
 												},
 											},
@@ -1857,7 +1860,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "34",
 									ignoreSize = "True",
 									name = "Label_title",
 									nTextAlign = "1",
@@ -1874,7 +1877,7 @@ local t =
 										PositionX = -179,
 										PositionY = 221,
 									},
-									width = "115",
+									width = "199",
 									ZOrder = "1",
 								},
 								{
@@ -2060,7 +2063,7 @@ local t =
 													{
 														PositionX = -82,
 													},
-													width = "47",
+													width = "55",
 													ZOrder = "1",
 												},
 												{
@@ -2132,7 +2135,7 @@ local t =
 													{
 														PositionX = 18,
 													},
-													width = "47",
+													width = "55",
 													ZOrder = "1",
 												},
 											},
@@ -2210,7 +2213,7 @@ local t =
 													{
 														PositionX = -82,
 													},
-													width = "47",
+													width = "55",
 													ZOrder = "1",
 												},
 												{
@@ -2282,7 +2285,7 @@ local t =
 													{
 														PositionX = 18,
 													},
-													width = "47",
+													width = "55",
 													ZOrder = "1",
 												},
 											},
@@ -2360,7 +2363,7 @@ local t =
 													{
 														PositionX = -82,
 													},
-													width = "47",
+													width = "55",
 													ZOrder = "1",
 												},
 												{
@@ -2432,7 +2435,7 @@ local t =
 													{
 														PositionX = 18,
 													},
-													width = "47",
+													width = "55",
 													ZOrder = "1",
 												},
 											},
@@ -2530,7 +2533,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "80",
+											height = "0",
 											ignoreSize = "False",
 											name = "Label_desc",
 											nTextAlign = "0",
@@ -2602,7 +2605,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "31",
 											ignoreSize = "True",
 											name = "Label_tip",
 											nTextAlign = "0",
@@ -2618,7 +2621,7 @@ local t =
 											{
 												PositionY = 280,
 											},
-											width = "107",
+											width = "97",
 											ZOrder = "1",
 										},
 										{
@@ -2694,7 +2697,7 @@ local t =
 													{
 														
 													},
-													width = "55",
+													width = "63",
 													ZOrder = "1",
 												},
 											},
@@ -2751,7 +2754,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "31",
 											ignoreSize = "True",
 											name = "Label_tip1",
 											nTextAlign = "1",
@@ -2768,7 +2771,7 @@ local t =
 												PositionX = -42,
 												PositionY = 181,
 											},
-											width = "26",
+											width = "22",
 											ZOrder = "1",
 										},
 										{
@@ -2797,7 +2800,7 @@ local t =
 												StrokeColor = "#FF49557F",
 												StrokeSize = 2,
 											},
-											height = "44",
+											height = "42",
 											ignoreSize = "True",
 											name = "Label_rewardnum",
 											nTextAlign = "1",
@@ -2814,7 +2817,7 @@ local t =
 												PositionX = -4,
 												PositionY = 182,
 											},
-											width = "116",
+											width = "84",
 											ZOrder = "1",
 										},
 									},
@@ -2889,7 +2892,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "34",
 									ignoreSize = "True",
 									name = "Label_title",
 									nTextAlign = "1",
@@ -2906,7 +2909,7 @@ local t =
 										PositionX = -179,
 										PositionY = 221,
 									},
-									width = "115",
+									width = "196",
 									ZOrder = "1",
 								},
 								{
@@ -2973,7 +2976,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "80",
+											height = "0",
 											ignoreSize = "False",
 											name = "Label_desc",
 											nTextAlign = "0",
@@ -3092,7 +3095,7 @@ local t =
 													{
 														PositionX = -121,
 													},
-													width = "47",
+													width = "55",
 													ZOrder = "1",
 												},
 												{
@@ -3164,7 +3167,7 @@ local t =
 													{
 														PositionX = 65,
 													},
-													width = "47",
+													width = "55",
 													ZOrder = "1",
 												},
 											},
@@ -3242,7 +3245,7 @@ local t =
 													{
 														PositionX = -121,
 													},
-													width = "47",
+													width = "55",
 													ZOrder = "1",
 												},
 												{
@@ -3314,7 +3317,7 @@ local t =
 													{
 														PositionX = 65,
 													},
-													width = "47",
+													width = "55",
 													ZOrder = "1",
 												},
 											},
@@ -3392,7 +3395,7 @@ local t =
 													{
 														PositionX = -121,
 													},
-													width = "47",
+													width = "55",
 													ZOrder = "1",
 												},
 												{
@@ -3464,7 +3467,7 @@ local t =
 													{
 														PositionX = 65,
 													},
-													width = "47",
+													width = "55",
 													ZOrder = "1",
 												},
 											},
@@ -3562,7 +3565,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "80",
+											height = "0",
 											ignoreSize = "False",
 											name = "Label_desc",
 											nTextAlign = "0",
@@ -3634,7 +3637,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "31",
 											ignoreSize = "True",
 											name = "Label_tip",
 											nTextAlign = "0",
@@ -3650,7 +3653,7 @@ local t =
 											{
 												PositionY = 305,
 											},
-											width = "107",
+											width = "97",
 											ZOrder = "1",
 										},
 										{
@@ -3815,15 +3818,15 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "26",
+													fontSize = "22",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "30",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "Label_btn",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -3838,7 +3841,7 @@ local t =
 													{
 														
 													},
-													width = "55",
+													width = "125",
 													ZOrder = "1",
 												},
 											},
@@ -3942,7 +3945,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "35",
+											height = "34",
 											ignoreSize = "True",
 											name = "Label_title",
 											nTextAlign = "1",
@@ -3959,7 +3962,7 @@ local t =
 												PositionX = -358,
 												PositionY = 185,
 											},
-											width = "173",
+											width = "288",
 											ZOrder = "1",
 										},
 										{
@@ -4040,6 +4043,7 @@ local t =
 												PositionX = -123,
 												PositionY = 186,
 											},
+											visible = "False",
 											width = "121",
 											ZOrder = "1",
 										},
@@ -4098,7 +4102,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "60",
+											height = "0",
 											ignoreSize = "False",
 											name = "Label_dice",
 											nTextAlign = "0",
@@ -4183,7 +4187,7 @@ local t =
 													controlID = "Label_Name_Button_dice_options_1_Image_center_Panel_dice_Panel_root_Panel-kabalaTreeGame_Layer1_kabalaTree_Game",
 													UUID = "f6d3210c_d839_4482_bed4_f8b30b3f6b36",
 													anchorPoint = "False",
-													anchorPointX = "0",
+													anchorPointX = "1",
 													anchorPointY = "0.5",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
@@ -4219,10 +4223,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -24,
+														PositionX = 62,
 														PositionY = 2,
 													},
-													width = "47",
+													width = "71",
 													ZOrder = "1",
 												},
 												{
@@ -4290,7 +4294,7 @@ local t =
 													controlID = "Label_Name_Button_dice_options_2_Image_center_Panel_dice_Panel_root_Panel-kabalaTreeGame_Layer1_kabalaTree_Game",
 													UUID = "90da51d9_36c4_47ad_be3b_af86ad6888d3",
 													anchorPoint = "False",
-													anchorPointX = "0",
+													anchorPointX = "1",
 													anchorPointY = "0.5",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
@@ -4326,10 +4330,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -24,
+														PositionX = 62,
 														PositionY = 2,
 													},
-													width = "47",
+													width = "71",
 													ZOrder = "1",
 												},
 												{
@@ -4398,7 +4402,7 @@ local t =
 													controlID = "Label_Name_Button_dice_options_3_Image_center_Panel_dice_Panel_root_Panel-kabalaTreeGame_Layer1_kabalaTree_Game",
 													UUID = "a2c3d6cd_ea62_439b_926b_bf8be0425d30",
 													anchorPoint = "False",
-													anchorPointX = "0",
+													anchorPointX = "1",
 													anchorPointY = "0.5",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
@@ -4434,10 +4438,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -24,
+														PositionX = 62,
 														PositionY = 2,
 													},
-													width = "47",
+													width = "71",
 													ZOrder = "1",
 												},
 												{
@@ -4507,7 +4511,7 @@ local t =
 													controlID = "Label_Name_Button_dice_options_4_Image_center_Panel_dice_Panel_root_Panel-kabalaTreeGame_Layer1_kabalaTree_Game",
 													UUID = "afbe674c_6ab8_474d_b53a_b21158ad372b",
 													anchorPoint = "False",
-													anchorPointX = "0",
+													anchorPointX = "1",
 													anchorPointY = "0.5",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
@@ -4544,10 +4548,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -4,
+														PositionX = -75,
 														PositionY = 2,
 													},
-													width = "47",
+													width = "71",
 													ZOrder = "1",
 												},
 												{
@@ -4617,7 +4621,7 @@ local t =
 													controlID = "Label_Name_Button_dice_options_5_Image_center_Panel_dice_Panel_root_Panel-kabalaTreeGame_Layer1_kabalaTree_Game",
 													UUID = "171a8845_2786_4179_a197_6ff2462f915c",
 													anchorPoint = "False",
-													anchorPointX = "0",
+													anchorPointX = "1",
 													anchorPointY = "0.5",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
@@ -4654,10 +4658,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -4,
+														PositionX = -75,
 														PositionY = 2,
 													},
-													width = "47",
+													width = "71",
 													ZOrder = "1",
 												},
 												{
@@ -4727,7 +4731,7 @@ local t =
 													controlID = "Label_Name_Button_dice_options_6_Image_center_Panel_dice_Panel_root_Panel-kabalaTreeGame_Layer1_kabalaTree_Game",
 													UUID = "6fb11f7e_1fa0_4616_a3e6_9679b0dc5728",
 													anchorPoint = "False",
-													anchorPointX = "0",
+													anchorPointX = "1",
 													anchorPointY = "0.5",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
@@ -4764,10 +4768,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -4,
+														PositionX = -75,
 														PositionY = 2,
 													},
-													width = "47",
+													width = "71",
 													ZOrder = "1",
 												},
 												{

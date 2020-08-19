@@ -1054,9 +1054,9 @@ function TaskMainView:updateTrainingInfo()
         self.Label_level_exp:setText(TextDataMgr:getText(14220069).."："..levelExp.."/"..levelMaxExp)
         self.LoadingBar_levelProgress:setPercent(levelExp / levelMaxExp * 100)
     end
-    self.Label_unlock_reward:setText("解锁资格")
+    self.Label_unlock_reward:setTextById(190000076)
     if ActivityDataMgr2:getWarOrderChargeState() == 1 then
-        self.Label_unlock_reward:setText("升级资格")
+        self.Label_unlock_reward:setTextById(190000077)
     end
     self:addCountDownTimer()
     self:updateTrainingTime()
@@ -1074,9 +1074,9 @@ function TaskMainView:updateTrainingTime()
     end
     local day, hour, min, sec = Utils:getTimeDHMZ(remainTime, true)
     if day == "00" then
-        self.Label_training_time:setText("倒计时："..hour.."时"..min.."分"..sec.."秒")
+        self.Label_training_time:setTextById(190000078 ,hour , min , sec)
     else
-        self.Label_training_time:setText("倒计时："..day.."天"..hour.."时"..min.."分")
+        self.Label_training_time:setTextById(213514 , day , hour , min)
     end
 end
 
@@ -1119,6 +1119,13 @@ end
 
 function TaskMainView:updateTrainingTask()
     self.trainingTaskData = ActivityDataMgr2:getItems(self.warOrderActivity.id)
+    for i,v in ipairs(self.trainingTaskData) do
+        local itemInfo = ActivityDataMgr2:getItemInfo(self.warOrderActivity.activityType, v)
+        if tonumber(self.warOrderActivity.extendData.daytask) == v then
+            table.remove(self.trainingTaskData,i)
+            break
+        end
+    end
     local items = self.ListView_training_task:getItems()
 
     local items = self.ListView_training_task:getItems()
@@ -1163,7 +1170,11 @@ function TaskMainView:updateTrainingTask()
             foo.Image_diban:setTexture("ui/task/training/ui_018.png")
         end
         foo.Label_name:setTextById(tonumber(itemInfo.details))
-        foo.Label_desc:setText(itemInfo.extendData.des2 or "")
+        if itemInfo.extendData.des2 then
+            foo.Label_desc:setTextById(itemInfo.extendData.des2)
+        else
+            foo.Label_desc:setText("")
+        end
         foo.Label_progress:setText(progressInfo.progress .. "/" .. itemInfo.target)
         foo.LoadingBar_progress:setPercent(progressInfo.progress / itemInfo.target * 100)
         foo.Label_state:setVisible(isGeted)

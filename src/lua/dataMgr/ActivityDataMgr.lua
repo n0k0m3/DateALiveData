@@ -285,7 +285,7 @@ function ActivityDataMgr:receiveReward(actIdx)
 	local isCan = self:getIsCanReceive(actIdx);
 
 	if not isCan then
-		Utils:showTips("没有可领取的奖励");
+		Utils:showTips(TextDataMgr:getText(800057));
 		return;
 	end
 

@@ -303,8 +303,11 @@ function TalkMainLayer:updateTalkPanel(talk_panel,cfg)
 	img_talk_bg:setTexture(talkBGCfg.res)
 	img_talk_bg:setFlipX(talkBGCfg.flip)
 	local name_bg = talk_panel:getChildByName("Image_name_bg")
-	name_bg:setPosition(talkBGCfg.namePos)
-	name_bg:setRotation(talkBGCfg.nameRotation)
+	-- name_bg:setPosition(talkBGCfg.namePos)
+	-- name_bg:setRotation(talkBGCfg.nameRotation)
+	--英文版强制修改标题位置
+	name_bg:setPositionY(90)
+	name_bg:setRotation(5)
 	if cfg.name == "1" then
 		name_bg:getChildByName("Label_role_name"):setText(MainPlayer:getPlayerName())
 	else

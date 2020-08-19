@@ -462,14 +462,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_num",
 									nTextAlign = "1",
@@ -485,7 +485,7 @@ local t =
 									{
 										PositionY = 24,
 									},
-									width = "97",
+									width = "83",
 									ZOrder = "1",
 								},
 								{
@@ -507,14 +507,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_countdown",
 									nTextAlign = "1",
@@ -530,7 +530,7 @@ local t =
 									{
 										PositionY = -24,
 									},
-									width = "150",
+									width = "126",
 									ZOrder = "1",
 								},
 								{
@@ -1024,14 +1024,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_num",
 									nTextAlign = "1",
@@ -1047,7 +1047,7 @@ local t =
 									{
 										PositionY = 24,
 									},
-									width = "97",
+									width = "83",
 									ZOrder = "1",
 								},
 								{
@@ -1069,14 +1069,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_countdown",
 									nTextAlign = "1",
@@ -1092,7 +1092,7 @@ local t =
 									{
 										PositionY = -24,
 									},
-									width = "150",
+									width = "126",
 									ZOrder = "1",
 								},
 								{

@@ -2279,6 +2279,7 @@ end
 
 function FubenDataMgr:onRecvFightStart(event)
     AlertManager:closeLayerByName("FubenSquadView")
+    AlertManager:closeLayerByName("KabalaTreeFight")
     local data = event.data
     if data.helpPid ~= 0 then
         if FriendDataMgr:isFriend(data.helpPid) then

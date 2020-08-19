@@ -202,7 +202,7 @@ function ActivityDataMgr:getActivityInfoByType(activityType)
 end
 
 function ActivityDataMgr:getProgressInfo(type_, id)
-    local defaultProcess = {status = EC_TaskStatus.ING, progress = 0}
+    local defaultProcess = {status = EC_TaskStatus.ING, progress = 0,extend = {}}
     if self.progressInfoMap_ and self.progressInfoMap_[type_] then
         return self.progressInfoMap_[type_][id] or defaultProcess
     end
@@ -581,6 +581,15 @@ function ActivityDataMgr:isShowRedPoint(activityId)
             if #activity > 0 then
                 isShow = isShow or self:isCanGet(activity[1])
             end
+		elseif activityInfo.activityType == EC_ActivityType2.LOBARDAY_2020 then
+			local items = activityInfo.items or {}
+			for k,v in pairs (items) do
+				local progress = self:getProgressInfo(activityInfo.activityType, v)
+				if progress.status == EC_TaskStatus.GET then
+					isShow = true
+					break;
+				end
+			end
         elseif activityInfo.activityType == EC_ActivityType2.CHRONO_CROSS then
             isShow = self:isCanGet(activityId)
             local activity = self:getActivityInfoByType(EC_ActivityType2.CHRONO_CROSS)
@@ -1589,8 +1598,8 @@ function ActivityDataMgr:onGetWarOrderAward(event)
     local data = event.data
     local activityid = data.activityid
     local propId = data.propId
-    local rewards = data.rewards
-    Utils:showReward(data.rewards)
+    local rewards = data.rewards or {}
+    Utils:showReward(rewards)
     EventMgr:dispatchEvent(EV_ACTIVITY_WAR_ORDER_GET_REWARD)
 end
 
@@ -1656,9 +1665,11 @@ function ActivityDataMgr:checkWarOrderTaskRedPoint()
     local activityInfo = self:getWarOrderAcrivityInfo()
     local taskData = self:getItems(activityInfo.id)
     for i, info in ipairs(taskData) do
-        local progressInfo = ActivityDataMgr2:getProgressInfo(activityInfo.activityType, info)
-        if progressInfo.status == EC_TaskStatus.GET then
-            return true
+        if not activityInfo.extendData.daytask or tonumber(activityInfo.extendData.daytask) ~= info then
+            local progressInfo = ActivityDataMgr2:getProgressInfo(activityInfo.activityType, info)
+            if progressInfo.status == EC_TaskStatus.GET then
+                return true
+            end
         end
     end
     return false

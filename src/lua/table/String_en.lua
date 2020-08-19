@@ -4891,6 +4891,10 @@ return {
         id = 190000055,
         text = "You can buy this avatar frame at the Exclusive Pack in Month Card in October.",
     },
+    [190000087] = {
+        id = 190000087,
+        text = "60% Off Voucher",
+    },
     [42015] = {
         id = 42015,
         text = "S Class Energy Gem, obtain it to get a S Class Gem for a random skill of [Tohka Yatogami]. (Auto used once obtained)",
@@ -6749,7 +6753,7 @@ return {
     },
     [2100157] = {
         id = 2100157,
-        text = "5. Complete team instance in specified time frame to get extra rewards. (If you have 0 full-reward chances, you can stull gain reduced rewards)",
+        text = "5. Complete team instance in specified time frame to get extra rewards. (If you have 0 full-reward chances, you can still gain reduced rewards)",
     },
     [270736] = {
         id = 270736,
@@ -7183,6 +7187,10 @@ return {
         id = 270801,
         text = "Rank up to Ex rank to switch to the goddess portrayal",
     },
+    [14300281] = {
+        id = 14300281,
+        text = "Daily Rewards",
+    },
     [42045] = {
         id = 42045,
         text = "S Class Energy Gem, obtain it to get a S Class Gem for a random skill of [Kurumi Tokisaki]. (Auto used once obtained)",
@@ -7242,6 +7250,10 @@ return {
     [190000056] = {
         id = 190000056,
         text = "You can buy this avatar frame at the Exclusive Pack in Month Card in November.",
+    },
+    [190000088] = {
+        id = 190000088,
+        text = "50% Off Voucher",
     },
     [42047] = {
         id = 42047,
@@ -8797,7 +8809,7 @@ return {
     },
     [312001] = {
         id = 312001,
-        text = "1. When a cycle starts, based on performance on last cycle, players can choose to challenge from floor 1 or start from a higher floor",
+        text = "1. When a cycle starts, based on performance on the last cycle, players can choose to challenge from floor 1 or start from a higher floor",
     },
     [22062] = {
         id = 22062,
@@ -9877,7 +9889,7 @@ return {
     },
     [263100] = {
         id = 263100,
-        text = "1. During the event, completing daily endorse quests grants endorser coins. Daily dates and main instance may drop endorse coins.\n2. Endorse points are auto donated once you get them. As your endorse points reach certain goals, rewards will be granted.\n3. Server endorser points are sum of points earned by all players in the sever.\n4. As server endorse points go up, jigsaw pieces will be unlocked one by one. \n5. Unlock enough jigsaw pieces and bonus stories will be unlocked! To unlock the hidden final story, everyone needs to step up their games!\n6. Players are ranked by personal endorser points on the leaderboard. Ranking rewards are sent via mail when the event ends\n7. Top players on the leaderboard will get physical rewards! Others will get participation events. Thanks for your support and endorsement!",
+        text = "1. During the event, completing daily endorse quests grants endorser coins. Daily dates and main instance may drop endorse coins.\n2. Endorse points are auto donated once you get them. As your endorse points reach certain goals, rewards will be granted.\n3. Server endorser points are the sum of points earned by all players in the sever.\n4. As server endorse points go up, jigsaw pieces will be unlocked one by one. \n5. Unlock enough jigsaw pieces and bonus stories will be unlocked! To unlock the hidden final story, everyone needs to step up their games!\n6. Players are ranked by personal endorser points on the leaderboard. Ranking rewards are sent via mail when the event ends\n7. Top players on the leaderboard will get physical rewards! Others will get participation events. Thanks for your support and endorsement!",
     },
     [13087] = {
         id = 13087,
@@ -9989,7 +10001,7 @@ return {
     },
     [13088] = {
         id = 13088,
-        text = "Use to get: 5-star Set Sephira - Myriads - Chokhmah Dual Blade*1, Lv.5 Gold Item*70, Boss Guru*24",
+        text = "Use to get: 5-star Set Sephira - Myriads – Chokhmah Dual Blade*1, Lv.5 Gold Item*70, Boss Guru*24",
     },
     [63614] = {
         id = 63614,
@@ -10301,7 +10313,7 @@ return {
     },
     [213514] = {
         id = 213514,
-        text = "Countdown: %s Day %s:%s:00",
+        text = "Countdown: %s d %sh %sm",
     },
     [20035] = {
         id = 20035,
@@ -10469,7 +10481,7 @@ return {
     },
     [263200] = {
         id = 263200,
-        text = "Dear Covenanter, \n\nYou seem to be really busy as you hadn't contact us for %d days\n\nWhile you were gone, many things happened in Tengu City.\n\nHere is the operation briefing for you to catch up quickly.\n\nLet's confront new challenges together!",
+        text = "Dear Covenanter, \n\nYou seem to be really busy as you hadn't contacted us for %d days\n\nWhile you were gone, many things happened in Tengu City.\n\nHere is the operation briefing for you to catch up quickly.\n\nLet's confront new challenges together!",
     },
     [20036] = {
         id = 20036,
@@ -11039,29 +11051,113 @@ return {
         id = 10023,
         text = "Support",
     },
+    [190000101] = {
+        id = 190000101,
+        text = "This miraculous item reduces the price of token packs by 10% in Battle Pass.",
+    },
+    [190000100] = {
+        id = 190000100,
+        text = "This miraculous item reduces the price of token packs by 20% in Battle Pass.",
+    },
+    [190000099] = {
+        id = 190000099,
+        text = "This miraculous item reduces the price of token packs by 30% in Battle Pass.",
+    },
     [12071] = {
         id = 12071,
         text = "Commuter - Male 1",
+    },
+    [190000098] = {
+        id = 190000098,
+        text = "This miraculous item reduces the price of token packs by 40% in Battle Pass.",
+    },
+    [190000097] = {
+        id = 190000097,
+        text = "This miraculous item reduces the price of token packs by 50% in Battle Pass.",
+    },
+    [190000096] = {
+        id = 190000096,
+        text = "This miraculous item reduces the price of token packs by 60% in Battle Pass.",
     },
     [13095] = {
         id = 13095,
         text = "Daily Pray Reward",
     },
+    [190000095] = {
+        id = 190000095,
+        text = "This miraculous item reduces the price of token packs by 70% in Battle Pass.",
+    },
+    [190000094] = {
+        id = 190000094,
+        text = "This miraculous item reduces the price of token packs by 80% in Battle Pass.",
+    },
+    [190000093] = {
+        id = 190000093,
+        text = "This miraculous item reduces the price of token packs by 90% in Battle Pass.",
+    },
     [110000379] = {
         id = 110000379,
         text = "한정 패키지",
+    },
+    [190000092] = {
+        id = 190000092,
+        text = "10% Off Voucher",
+    },
+    [190000091] = {
+        id = 190000091,
+        text = "20% Off Voucher",
+    },
+    [190000090] = {
+        id = 190000090,
+        text = "30% Off Voucher",
+    },
+    [190000089] = {
+        id = 190000089,
+        text = "40% Off Voucher",
     },
     [213601] = {
         id = 213601,
         text = "Timeout!",
     },
+    [190000086] = {
+        id = 190000086,
+        text = "70% Off Voucher",
+    },
     [63642] = {
         id = 63642,
         text = "1. During Server Rebate event, you will get rebate packs for buying event packs enough times. \n\n2. Some rebate packs are available to those who have bought event packs.\n",
     },
+    [190000085] = {
+        id = 190000085,
+        text = "80% Off Voucher",
+    },
+    [190000084] = {
+        id = 190000084,
+        text = "90% Off Voucher",
+    },
+    [41116] = {
+        id = 41116,
+        text = "SS Class Gem Scroll, obtain it to get a SS Class Gem Scroll for a random skill of [Inverse Tohka]. (Auto used once obtained)",
+    },
+    [190000082] = {
+        id = 190000082,
+        text = "Complete Battle 100 times",
+    },
+    [1310176] = {
+        id = 1310176,
+        text = "Natsumi Search 1",
+    },
     [213602] = {
         id = 213602,
         text = "There are incomplete events. Please enter the event again.",
+    },
+    [43014] = {
+        id = 43014,
+        text = "A Class Energy Gem, first instance clearance 100% grants an A Class Gem for a random skill of the instance's character.",
+    },
+    [1400021] = {
+        id = 1400021,
+        text = "[Use Item]",
     },
     [20046] = {
         id = 20046,
@@ -11075,6 +11171,10 @@ return {
         id = 21070,
         text = "Type: Astral Dress\nOwner: Spirit Origami\nIt looks like a wedding dress and a white veil. The golden feather-like pillars around her can shoot out beams of light.",
     },
+    [190000078] = {
+        id = 190000078,
+        text = "Countdown: %sh %sm %ss",
+    },
     [22094] = {
         id = 22094,
         text = "Acquires a random Blue item that can rank up Blue and Green Bonds items.",
@@ -11083,13 +11183,13 @@ return {
         id = 213603,
         text = "Plot not unlocked",
     },
-    [25166] = {
-        id = 25166,
-        text = "A special item for the Time Corridor event, used to exchange resources to enhance keepsakes and rare New Year avatar frames!",
+    [2106063] = {
+        id = 2106063,
+        text = "Battle Guide",
     },
-    [213604] = {
-        id = 213604,
-        text = "Illegal interference with story plot",
+    [332078] = {
+        id = 332078,
+        text = "a new title",
     },
     [3210045] = {
         id = 3210045,
@@ -11098,6 +11198,30 @@ return {
     [10131051] = {
         id = 10131051,
         text = "Berserk",
+    },
+    [25166] = {
+        id = 25166,
+        text = "A special item for the Time Corridor event, used to exchange resources to enhance keepsakes and rare New Year avatar frames!",
+    },
+    [10221128] = {
+        id = 10221128,
+        text = "[Methratton] ATK Speed +12%.",
+    },
+    [190000072] = {
+        id = 190000072,
+        text = "Kurumi's Gift",
+    },
+    [213604] = {
+        id = 213604,
+        text = "Illegal interference with story plot",
+    },
+    [2460038] = {
+        id = 2460038,
+        text = "Rose Crown",
+    },
+    [190000070] = {
+        id = 190000070,
+        text = "Duel Card*3",
     },
     [1250001] = {
         id = 1250001,
@@ -11215,22 +11339,6 @@ return {
         id = 1250029,
         text = "Crafting material, used to pray for Malkuth Sephiroth.",
     },
-    [10221128] = {
-        id = 10221128,
-        text = "[Methratton] ATK Speed +12%.",
-    },
-    [190000072] = {
-        id = 190000072,
-        text = "Kurumi's Gift",
-    },
-    [2460038] = {
-        id = 2460038,
-        text = "Rose Crown",
-    },
-    [190000070] = {
-        id = 190000070,
-        text = "Duel Card*3",
-    },
     [10703105] = {
         id = 10703105,
         text = "All attacks of Kaguya gain +30% Crit DMG, inflict +15% DMG to vulnerable targets.",
@@ -11255,10 +11363,6 @@ return {
         id = 190000064,
         text = "Neko Badge",
     },
-    [63644] = {
-        id = 63644,
-        text = "Upgrade Covenant",
-    },
     [13300171] = {
         id = 13300171,
         text = "Date for Two",
@@ -11275,21 +11379,41 @@ return {
         id = 190000060,
         text = "Nice to meet you. Welcome to Tengu City! ",
     },
-    [901177] = {
-        id = 901177,
-        text = "Hello there, this is Tohka, the smartest, cutest, kindest girl in the world! Not Kurumi, Kotori, or Shiori! If you have question or wanna talk, feel free~! Tohka will try her best to reply!",
+    [63644] = {
+        id = 63644,
+        text = "Upgrade Covenant",
+    },
+    [1701999] = {
+        id = 1701999,
+        text = "So don't give me clothes any more...",
     },
     [190000054] = {
         id = 190000054,
         text = "You can buy this avatar frame at the Exclusive Pack in Month Card in September.",
     },
+    [190000053] = {
+        id = 190000053,
+        text = "You can buy this avatar frame at the Exclusive Pack in Month Card in August.",
+    },
+    [190000052] = {
+        id = 190000052,
+        text = "You can buy this avatar frame at the Exclusive Pack in Month Card in July.",
+    },
+    [1320466] = {
+        id = 1320466,
+        text = "Player reaches Lv.25",
+    },
+    [1605015] = {
+        id = 1605015,
+        text = " - Sign-in rewards\n – Multiple privileges",
+    },
     [19023] = {
         id = 19023,
         text = "Special Item 12",
     },
-    [190000053] = {
-        id = 190000053,
-        text = "You can buy this avatar frame at the Exclusive Pack in Month Card in August.",
+    [190000049] = {
+        id = 190000049,
+        text = "You can buy this avatar frame at the Exclusive Pack in Month Card in April.",
     },
     [20047] = {
         id = 20047,
@@ -11303,37 +11427,17 @@ return {
         id = 42141,
         text = "D Class Energy Gem, obtain it to get a D Class Gem for a random skill of [Mayuri]. (Auto used once obtained)",
     },
-    [190000052] = {
-        id = 190000052,
-        text = "You can buy this avatar frame at the Exclusive Pack in Month Card in July.",
+    [471032] = {
+        id = 471032,
+        text = "# inflicts extra Pure DMG equal to 6% DMG dealt.",
     },
     [22095] = {
         id = 22095,
         text = "Purple Rank Up Item",
     },
-    [1320466] = {
-        id = 1320466,
-        text = "Player reaches Lv.25",
-    },
-    [1605015] = {
-        id = 1605015,
-        text = " - Sign-in rewards\n – Multiple privileges",
-    },
-    [190000049] = {
-        id = 190000049,
-        text = "You can buy this avatar frame at the Exclusive Pack in Month Card in April.",
-    },
-    [471032] = {
-        id = 471032,
-        text = "# inflicts extra Pure DMG equal to 6% DMG dealt.",
-    },
     [1021611] = {
         id = 1021611,
         text = "Oh~ Where is the key to the closet?",
-    },
-    [25167] = {
-        id = 25167,
-        text = "Anime Points",
     },
     [190000046] = {
         id = 190000046,
@@ -11346,6 +11450,26 @@ return {
     [3004032] = {
         id = 3004032,
         text = "Life Essence",
+    },
+    [3210046] = {
+        id = 3210046,
+        text = "Elemental DMG +11%",
+    },
+    [25167] = {
+        id = 25167,
+        text = "Anime Points",
+    },
+    [3210060] = {
+        id = 3210060,
+        text = "Frost DMG +15%",
+    },
+    [190000041] = {
+        id = 190000041,
+        text = "Favor Lv.%s",
+    },
+    [190000040] = {
+        id = 190000040,
+        text = "You can have up to ten item cards. If you buy it again, it will turn to",
     },
     [5000003] = {
         id = 5000003,
@@ -11367,30 +11491,6 @@ return {
         id = 5000006,
         text = "Login for 6 days",
     },
-    [3210046] = {
-        id = 3210046,
-        text = "Elemental DMG +11%",
-    },
-    [3210060] = {
-        id = 3210060,
-        text = "Frost DMG +15%",
-    },
-    [190000041] = {
-        id = 190000041,
-        text = "Favor Lv.%s",
-    },
-    [31311] = {
-        id = 31311,
-        text = "Adonai Tzabaoth",
-    },
-    [63645] = {
-        id = 63645,
-        text = "Transcend Covenant",
-    },
-    [190000040] = {
-        id = 190000040,
-        text = "You can have up to ten item cards. If you buy it again, it will turn to",
-    },
     [190000039] = {
         id = 190000039,
         text = "Get the reward by buying the month card again at the specified time",
@@ -11402,6 +11502,14 @@ return {
     [10703106] = {
         id = 10703106,
         text = "Kaguya gains 5 Wind Energy when she defeats an enemy.",
+    },
+    [31311] = {
+        id = 31311,
+        text = "Adonai Tzabaoth",
+    },
+    [63645] = {
+        id = 63645,
+        text = "Transcend Covenant",
     },
     [10911142] = {
         id = 10911142,
@@ -11417,19 +11525,11 @@ return {
     },
     [23006] = {
         id = 23006,
-        text = "The exclusive model kit of Kurumi will inspire you daily from now on. When the ranking are settled, winners need to write in home address in the event page. Physical rewards will be delivered to you by express after the event ends!",
-    },
-    [10024] = {
-        id = 10024,
-        text = "DPS",
+        text = "The exclusive model kit of Kurumi will inspire you daily from now on. When the ranking are settled, winners need to write in home address on the event page. Physical rewards will be delivered to you by express after the event ends!",
     },
     [190000032] = {
         id = 190000032,
         text = "There is no available item card, you can buy it in the store.",
-    },
-    [42142] = {
-        id = 42142,
-        text = "C Class Energy Gem, obtain it to get a C Class Gem for a random skill of [Mayuri]. (Auto used once obtained)",
     },
     [13300172] = {
         id = 13300172,
@@ -11442,6 +11542,30 @@ return {
     [190000029] = {
         id = 190000029,
         text = "Total Spin: %d",
+    },
+    [10024] = {
+        id = 10024,
+        text = "DPS",
+    },
+    [190000028] = {
+        id = 190000028,
+        text = "The ball exuding mysterious power seems to be able to be used to summon mysterious objects. ",
+    },
+    [42142] = {
+        id = 42142,
+        text = "C Class Energy Gem, obtain it to get a C Class Gem for a random skill of [Mayuri]. (Auto used once obtained)",
+    },
+    [190000027] = {
+        id = 190000027,
+        text = "Divination ball",
+    },
+    [190000022] = {
+        id = 190000022,
+        text = "Endless Battle",
+    },
+    [190000021] = {
+        id = 190000021,
+        text = "The reward in current grid has been obtained and cannot be obtained repeatedly",
     },
     [10131007] = {
         id = 10131007,
@@ -11515,29 +11639,29 @@ return {
         id = 63646,
         text = "Already transcended to the max level!",
     },
-    [190000028] = {
-        id = 190000028,
-        text = "The ball exuding mysterious power seems to be able to be used to summon mysterious objects. ",
+    [190000020] = {
+        id = 190000020,
+        text = "The selected number exceeds the allowable range",
     },
     [230001] = {
         id = 230001,
         text = "Club - Hunter's Pursuit: 1st Kill Reward doesn't exist.",
     },
-    [190000027] = {
-        id = 190000027,
-        text = "Divination ball",
+    [901177] = {
+        id = 901177,
+        text = "Hello there, this is Tohka, the smartest, cutest, kindest girl in the world! Not Kurumi, Kotori, or Shiori! If you have question or wanna talk, feel free~! Tohka will try her best to reply!",
     },
-    [190000022] = {
-        id = 190000022,
-        text = "Endless Battle",
+    [1327107] = {
+        id = 1327107,
+        text = "Title Unlocked %s Unlocked",
     },
-    [190000021] = {
-        id = 190000021,
-        text = "The reward in current grid has been obtained and cannot be obtained repeatedly",
+    [190000017] = {
+        id = 190000017,
+        text = "The next time you roll the dice, if the Spirit moves to the grid with a question mark, the reward doubles",
     },
-    [190000020] = {
-        id = 190000020,
-        text = "The selected number exceeds the allowable range",
+    [901074] = {
+        id = 901074,
+        text = "Lv.1 Unlock Voice",
     },
     [19024] = {
         id = 19024,
@@ -11559,37 +11683,13 @@ return {
         id = 21072,
         text = "Ehyeh - Inverse",
     },
-    [1327107] = {
-        id = 1327107,
-        text = "Title Unlocked %s Unlocked",
-    },
-    [22096] = {
-        id = 22096,
-        text = "Acquires a random Purple item that can rank up Blue and Purple Bonds items.",
-    },
-    [190000017] = {
-        id = 190000017,
-        text = "The next time you roll the dice, if the Spirit moves to the grid with a question mark, the reward doubles",
-    },
-    [901074] = {
-        id = 901074,
-        text = "Lv.1 Unlock Voice",
-    },
-    [1701999] = {
-        id = 1701999,
-        text = "So don't give me clothes any more...",
-    },
     [190000014] = {
         id = 190000014,
         text = "You can specify any number of dice moves for the next roll",
     },
-    [230003] = {
-        id = 230003,
-        text = "Club - Hunter's Pursuit: Last Hit Reward doesn't exist.",
-    },
-    [25168] = {
-        id = 25168,
-        text = "The long-anticipated Date A Live Season 3 is live! Thanks for your support! DAL: Dating Never Stops!",
+    [22096] = {
+        id = 22096,
+        text = "Acquires a random Purple item that can rank up Blue and Purple Bonds items.",
     },
     [2106066] = {
         id = 2106066,
@@ -11607,17 +11707,17 @@ return {
         id = 10131054,
         text = "Spot Weakness: Boss",
     },
-    [20000000] = {
-        id = 20000000,
-        text = "Reserved for beat'em up mode",
+    [230003] = {
+        id = 230003,
+        text = "Club - Hunter's Pursuit: Last Hit Reward doesn't exist.",
+    },
+    [25168] = {
+        id = 25168,
+        text = "The long-anticipated Date A Live Season 3 is live! Thanks for your support! DAL: Dating Never Stops!",
     },
     [10221129] = {
         id = 10221129,
         text = "[Methratton] Can inflict the 4th strike. The skill inflicts Holy DMG equal to 500% of Origami's ATK.",
-    },
-    [230004] = {
-        id = 230004,
-        text = "Club - Hunter's Pursuit: Last Hit Reward has been claimed",
     },
     [190000008] = {
         id = 190000008,
@@ -11631,9 +11731,33 @@ return {
         id = 190000006,
         text = "Dice",
     },
+    [20000000] = {
+        id = 20000000,
+        text = "Reserved for beat'em up mode",
+    },
     [10703107] = {
         id = 10703107,
         text = "Gains 1 Wind Energy when Kaguya crits.",
+    },
+    [230004] = {
+        id = 230004,
+        text = "Club - Hunter's Pursuit: Last Hit Reward has been claimed",
+    },
+    [10911143] = {
+        id = 10911143,
+        text = "[Cross Slash] Crit DMG +5%.",
+    },
+    [11000223] = {
+        id = 11000223,
+        text = "Hehe~",
+    },
+    [11201054] = {
+        id = 11201054,
+        text = "Flowing Cloud",
+    },
+    [12000149] = {
+        id = 12000149,
+        text = "Kerubiel Lv.1",
     },
     [31312] = {
         id = 31312,
@@ -11715,21 +11839,21 @@ return {
         id = 230007,
         text = "Club - Hunter's Pursuit: Insufficient Club Merits",
     },
-    [10911143] = {
-        id = 10911143,
-        text = "[Cross Slash] Crit DMG +5%.",
+    [13400098] = {
+        id = 13400098,
+        text = "Sashimi",
     },
-    [11000223] = {
-        id = 11000223,
-        text = "Hehe~",
+    [111000116] = {
+        id = 111000116,
+        text = "Purchased",
     },
-    [11201054] = {
-        id = 11201054,
-        text = "Flowing Cloud",
+    [111000115] = {
+        id = 111000115,
+        text = "Purchase",
     },
-    [12000149] = {
-        id = 12000149,
-        text = "Kerubiel Lv.1",
+    [111000114] = {
+        id = 111000114,
+        text = "Resets at 00:00 on Monday",
     },
     [100000358] = {
         id = 100000358,
@@ -12517,7 +12641,7 @@ return {
     },
     [10303042] = {
         id = 10303042,
-        text = "[Ice Thorns] Unleashes fan-shaped Ice Thornss to the front. \nInflicts Frost DMG equal to 220% ATK over 4 attacks.",
+        text = "[Ice Thorns] Unleashes fan-shaped Ice Thorns to the front. \nInflicts Frost DMG equal to 220% ATK over 4 attacks.",
     },
     [920097] = {
         id = 920097,
@@ -12573,7 +12697,7 @@ return {
     },
     [20052] = {
         id = 20052,
-        text = "Type: Costume\nOwner: Yoshino\nThe cute clotheswith fluffy snowflakes is the perfect New Year clothes to bring Yoshino joy.",
+        text = "Type: Costume\nOwner: Yoshino\nThe cute clothes with fluffy snowflakes is the perfect New Year clothes to bring Yoshino joy.",
     },
     [920104] = {
         id = 920104,
@@ -12693,7 +12817,7 @@ return {
     },
     [270416] = {
         id = 270416,
-        text = "Cannot offered more red envelopes today. Come back tomorrow",
+        text = "Cannot offer more red envelopes today. Come back tomorrow",
     },
     [920119] = {
         id = 920119,
@@ -12933,7 +13057,7 @@ return {
     },
     [12100006] = {
         id = 12100006,
-        text = "The emblazoned feathers give you an impression that the gift box will fly away at any time...",
+        text = "The emblazoned feathers give you the impression that the gift box will fly away at any time...",
     },
     [920149] = {
         id = 920149,
@@ -14637,7 +14761,7 @@ return {
     },
     [22108] = {
         id = 22108,
-        text = "Open and get 3 ingredient needed to make chocolate.",
+        text = "Open and get 3 ingredients needed to make chocolate.",
     },
     [111000107] = {
         id = 111000107,
@@ -16917,7 +17041,7 @@ return {
     },
     [3006403] = {
         id = 3006403,
-        text = "Binah",
+        text = "BINAH",
     },
     [3207019] = {
         id = 3207019,
@@ -17993,7 +18117,7 @@ return {
     },
     [14240016] = {
         id = 14240016,
-        text = "1. You are advised to correct erroneous questions first.\n2. If a question already has a good answer, your instruction will fail.\n3. Beware: Political and adult topics are strictly forbidden! If you instruct her such contents, it will be rejected and you'll lose instructor EXP!\n4. The answers should suit Tohka's personality or interesting, otherwise they will not be approved.\n5. To improve approval rate, try to focus on daily casual conversation. We recommend you talk with the AI on regular basis and spot the incorrect answers before training her. This will make your approval rate soar!\n6. Do not waste time on meaningless questions or glossaries, for these will not be approved. Moreover, spamming answers will lead to a loss in instructor EXP!\n7. If you have further questions about the instruction reviews, contact our customer service!",
+        text = "1. You are advised to correct erroneous questions first.\n2. If a question already has a good answer, your instruction will fail.\n3. Beware: Political and adult topics are strictly forbidden! If you instruct her such contents, it will be rejected and you'll lose instructor EXP!\n4. The answers should suit Tohka's personality or interesting, otherwise they will not be approved.\n5. To improve approval rate, try to focus on daily casual conversation. We recommend you talk with the AI on a regular basis and spot the incorrect answers before training her. This will make your approval rate soar!\n6. Do not waste time on meaningless questions or glossaries, for these will not be approved. Moreover, spamming answers will lead to a loss in instructor EXP!\n7. If you have further questions about the instruction reviews, contact our customer service!",
     },
     [14240015] = {
         id = 14240015,
@@ -18941,11 +19065,11 @@ return {
     },
     [14220075] = {
         id = 14220075,
-        text = "Heart Stealer Reward",
+        text = "Growth Guardian Reward",
     },
     [14220074] = {
         id = 14220074,
-        text = "Only players who have unlocked Cat's Trust can buy special packs in the special pack store.",
+        text = "Only players who have unlocked Growth Breakthrough can buy special packs in the special pack store.",
     },
     [17005] = {
         id = 17005,
@@ -18953,7 +19077,7 @@ return {
     },
     [14220073] = {
         id = 14220073,
-        text = "1. In the Heart Stealer event, you will earn event EXP via daily quests and master quests. Event level will go up once you have enough EXP. \n\n2. You can claim event rewards once your event level is high enough. \n\n3. There are normal rewards and special rewards only accessible to those who have unlocked Cat's Recognition or Cat's Trust. \n\n4. Players who have unlocked Cat's Recognition can pay price difference to unlock Cat's Trust. \n\n5. Before the event end, qualified players can claim rewards in accordance with their event level.",
+        text = "1. In the Growth Guardian event, you will earn event EXP via daily quests and weekly quests. Event level will go up once you have enough EXP. \n\n2. You can claim event rewards once your event level is high enough. \n\n3. There are normal rewards and special rewards only accessible to those who have unlocked Growth Boost or Growth Breakthrough. \n\n4. Players who have unlocked Growth Boost can pay price difference to unlock Growth Breakthrough. \n\n5. Before the event end, qualified players can claim rewards in accordance with their event level.",
     },
     [18029] = {
         id = 18029,
@@ -19025,7 +19149,7 @@ return {
     },
     [14220063] = {
         id = 14220063,
-        text = "Only players who have unlocked Cat's Trust can buy special packs in the special pack store.",
+        text = "Only players who have unlocked Growth Breakthrough can buy special packs in the special pack store.",
     },
     [272053] = {
         id = 272053,
@@ -19033,7 +19157,7 @@ return {
     },
     [14220062] = {
         id = 14220062,
-        text = "1. In the Heart Stealer event, you will earn event EXP via daily quests and princess quests. Event level will go up once you have enough EXP. \n\n2. You can claim event rewards once your event level is high enough. \n\n3. There are normal rewards and special rewards only accessible to those who have unlocked Cat's Recognition or Cat's Trust. \n\n4. Players who have unlocked Cat's Recognition can pay price difference to unlock Cat's Trust. \n\n5. Before the event end, qualified players can claim rewards in accordance with their event level.",
+        text = "1. In the Growth Guardian event, you will earn event EXP via daily quests and weekly quests. Event level will go up once you have enough EXP. \n\n2. You can claim event rewards once your event level is high enough. \n\n3. There are normal rewards and special rewards only accessible to those who have unlocked Growth Boost or Growth Breakthrough. \n\n4. Players who have unlocked Growth Boost can pay price difference to unlock Growth Breakthrough. \n\n5. Before the event end, qualified players can claim rewards in accordance with their event level.",
     },
     [1702493] = {
         id = 1702493,
@@ -20049,7 +20173,7 @@ return {
     },
     [14210226] = {
         id = 14210226,
-        text = "Qliphoth Tree is open. Objective confirmed. Defeat the demon king Rophocale. Purify the Sephira World of its filth!",
+        text = "Qliphoth Tree is open. Objective confirmed. Defeat the demon king ROPHOCATE. Purify the Sephira World of its filth!",
     },
     [272117] = {
         id = 272117,
@@ -21797,7 +21921,7 @@ return {
     },
     [12010147] = {
         id = 12010147,
-        text = "1. The Kerubiel challenge opens between 10:00 on Monday to 22:00 on Sunday. \n2. Players can get contribution by challenging Kerubiel, which will add to server contribution. When the server contribution is high enough, Kerubiel will become tougher. \n3. Players get 1 challenge chance every 8 hours. Performance in the challenge determines damage reward, individual contribution reward and server contribution reward. \n4. Rules to calculate individual contributions in challenges: Player's DMG dealt in the challenge determines the contribution they earn (up to 100 each time).\n5. Individual contribution rewards: After the battle ends, players get Gold and Spiritual Substances based on individual contribution and Kerubiel's difficulty. \n6. Server contribution rewards: After the server contribution meets the goal, the server chest will be activated on 22:00 - 23:30 Sunday for everyone who have joined at least one challenge (Unclaimed rewards will be mailed to them later). \n7. Besides, players can get first clearance reward by defeating Kerubiel of each difficulty for the first time (Rewards vary based on difficulty).",
+        text = "1. The Kerubiel challenge opens between 10:00 on Monday to 22:00 on Sunday. \n2. Players can get contribution by challenging Kerubiel, which will add to server contribution. When the server contribution is high enough, Kerubiel will become tougher. \n3. Players get 1 challenge chance every 8 hours. Performance in the challenge determines damage reward, individual contribution reward and server contribution reward. \n4. Rules to calculate individual contributions in challenges: Player's DMG dealt in the challenge determines the contribution they earn (up to 100 each time).\n5. Individual contribution rewards: After the battle ends, players get Gold and Spiritual Substances based on individual contribution and Kerubiel's difficulty. \n6. Server contribution rewards: After the server contribution meets the goal, the server chest will be activated on 22:00 - 23:30 Sunday for everyone who have joined at least one challenge (Unclaimed rewards will be mailed to them later). \n7. Besides, players can get first clearance rewards by defeating Kerubiel of each difficulty for the first time (Rewards vary based on difficulty).",
     },
     [14110316] = {
         id = 14110316,
@@ -22693,7 +22817,7 @@ return {
     },
     [14110153] = {
         id = 14110153,
-        text = "A shining keystone. Hand it to the <Seeker> in the [Sharam Gate] command hall to draw high quality items.",
+        text = "A shining keystone. Hand it to the <Seeker> in the [Sharam Gate] command hall to draw high-quality items.",
     },
     [14110152] = {
         id = 14110152,
@@ -22813,7 +22937,7 @@ return {
     },
     [20092] = {
         id = 20092,
-        text = "Type: Costume\nOwner: Origami Tobiichi\nBringer of destruction and bad omen, an existence without sanity, a broken heart struggling in the abyss, satan who tries to escape from the reality.",
+        text = "Type: Costume\nOwner: Origami Tobiichi\nBringer of destruction and bad omen, an existence without sanity, a broken heart struggling in the abyss, Satan who tries to escape from the reality.",
     },
     [14110127] = {
         id = 14110127,
@@ -23037,11 +23161,11 @@ return {
     },
     [14110074] = {
         id = 14110074,
-        text = "3. Players need to use [VS Runestones] to unlock corresponding instance. VS Runestones can be acquired from Sharam Store or lottery.",
+        text = "3. Players need to use [VS Runestones] to unlock the corresponding instance. VS Runestones can be acquired from Sharam Store or lottery.",
     },
     [14110073] = {
         id = 14110073,
-        text = "2. Runestone challenges comes in 5 classes: D, C, B, A, and S. A higher class challenge have tougher enemies and grants better rewards.",
+        text = "2. Runestone challenges come in 5 classes: D, C, B, A, and S. The higher class challenge has tougher enemies and better rewards.",
     },
     [17021] = {
         id = 17021,
@@ -23925,7 +24049,7 @@ return {
     },
     [13400259] = {
         id = 13400259,
-        text = "Use it exchange various items in the café.",
+        text = "Use it to exchange various items in the café.",
     },
     [13400258] = {
         id = 13400258,
@@ -24073,7 +24197,7 @@ return {
     },
     [13400199] = {
         id = 13400199,
-        text = "A cute maid that seldom shows herself to customers. Her daily magic performance on 20:00 is the highlight of the café.",
+        text = "A cute maid that seldom shows herself to customers. Her daily magic performance at 20:00 is the highlight of the café.",
     },
     [18049] = {
         id = 18049,
@@ -24303,9 +24427,9 @@ return {
         id = 111000053,
         text = "Event time：%s.%s.%s - %s.%s.%s ",
     },
-    [13400098] = {
-        id = 13400098,
-        text = "Sashimi",
+    [111000117] = {
+        id = 111000117,
+        text = "Upgrade",
     },
     [111000069] = {
         id = 111000069,
@@ -24437,7 +24561,7 @@ return {
     },
     [14220076] = {
         id = 14220076,
-        text = "Here are your unclaimed rewards from the Heart Stealer event.",
+        text = "Here are your unclaimed rewards from the Growth Guardian event.",
     },
     [13400015] = {
         id = 13400015,
@@ -24541,7 +24665,7 @@ return {
     },
     [11000417] = {
         id = 11000417,
-        text = "I made it for you whole heartedly.",
+        text = "I made it for you wholeheartedly.",
     },
     [1023662] = {
         id = 1023662,
@@ -24697,7 +24821,7 @@ return {
     },
     [13311569] = {
         id = 13311569,
-        text = "The cracks of Ginkgo nuts indicates the arrival of autumn!",
+        text = "The cracks of Ginkgo nuts indicate the arrival of autumn!",
     },
     [13311568] = {
         id = 13311568,
@@ -24729,7 +24853,7 @@ return {
     },
     [13311561] = {
         id = 13311561,
-        text = "Please enjoy my homemade beverage. Exactly, it restores your stamina and revitalize you.",
+        text = "Please enjoy my homemade beverage. Exactly, it restores your stamina and revitalizes you.",
     },
     [13311560] = {
         id = 13311560,
@@ -24773,7 +24897,7 @@ return {
     },
     [13311551] = {
         id = 13311551,
-        text = "Teleportation? No, we should try to reduce cost while we can. Do you think teleportation come free?",
+        text = "Teleportation? No, we should try to reduce cost while we can. Do you think teleportation comes free?",
     },
     [13311550] = {
         id = 13311550,
@@ -25005,7 +25129,7 @@ return {
     },
     [13311240] = {
         id = 13311240,
-        text = "1. During the exploration in Test of Courage, you may trigger companion events./n2. In such cases, you must answer question of Spirits correctly or give them specified items to earn the trust./n3. Afterwards, the Spirit will become your companion, and her story would progress onwards./n4. Once a Spirit's story has started, other Spirits' story will not be triggered./n5. After completing her main story, you can continue or exit (and get rewards)./6. If you continue, you can choose to rescue other Spirits.",
+        text = "1. During the exploration in Test of Courage, you may trigger companion events./n2. In such cases, you must answer questions of Spirits correctly or give them specified items to earn the trust./n3. Afterwards, the Spirit will become your companion, and her story would progress onwards./n4. Once a Spirit's story has started, other Spirits' story will not be triggered./n5. After completing her main story, you can continue or exit (and get rewards)./6. If you continue, you can choose to rescue other Spirits.",
     },
     [13311239] = {
         id = 13311239,
@@ -25081,7 +25205,7 @@ return {
     },
     [13311221] = {
         id = 13311221,
-        text = "This music box doesn't work any more, because its spring is missing.",
+        text = "This music box doesn't work anymore, because its spring is missing.",
     },
     [13311220] = {
         id = 13311220,
@@ -25445,7 +25569,7 @@ return {
     },
     [23008] = {
         id = 23008,
-        text = "The art book records every precious moments Covenanters spent with Spirits in 2019. (If you have this, contact Customer Support when the event is over and claim the physical product)",
+        text = "The art book records every precious moment Covenanters spent with Spirits in 2019. (If you have this, contact Customer Support when the event is over and claim the physical product)",
     },
     [13311139] = {
         id = 13311139,
@@ -25661,7 +25785,7 @@ return {
     },
     [13311090] = {
         id = 13311090,
-        text = "It seems this item can be inserted on something.",
+        text = "It seems this item can be inserted onto something.",
     },
     [13311089] = {
         id = 13311089,
@@ -26081,7 +26205,7 @@ return {
     },
     [13310588] = {
         id = 13310588,
-        text = "Due to the Sea Princess ceremony on the seaside, girls have dressed as the sea princess as tribute to for the Sea Princess' gift.",
+        text = "Due to the Sea Princess ceremony on the seaside, girls have dressed as the sea princess as tribute to the Sea Princess' gift.",
     },
     [13310587] = {
         id = 13310587,
@@ -26469,7 +26593,7 @@ return {
     },
     [13310535] = {
         id = 13310535,
-        text = "Dear Covenanters, \n Thanks to your support, this game has been going for 1 year. During this year, we have received many player feedbacks from many players and worked on our weakness. \n We will keep improving this game, providing better contents, better experience and making our community better. \n Thank you for the support along the way! Love you all!\n Dating never stops!\n The evergrowing Hot Games",
+        text = "Dear Covenanters, \n Thanks to your support, this game has been going for 1 year. During this year, we have received many player feedback from many players and worked on our weakness. \n We will keep improving this game, providing better contents, better experience and making our community better. \n Thank you for the support along the way! Love you all!\n Dating never stops!\n The evergrowing Hot Games",
     },
     [1020142] = {
         id = 1020142,
@@ -26477,7 +26601,7 @@ return {
     },
     [13310534] = {
         id = 13310534,
-        text = "Dear Covenanters, \n Thanks to your support, this game has been going for 1 year. We have received many player feedbacks and made many refinements during this year. \n We have launched a number of Date A Live related projects, both online and offline, in various countries. Some received positive feedback and encouragements. Some didn't pan out well, but we still appreciated the honest feedbacks. Thank you for your long-term companionship and support! We'll keep on doing our best! \n Dating never stops\n The evergrowing Hot Games",
+        text = "Dear Covenanters, \n Thanks to your support, this game has been going for 1 year. We have received many player feedback and made many refinements during this year. \n We have launched a number of Date A Live related projects, both online and offline, in various countries. Some received positive feedback and encouragement. Some didn't pan out well, but we still appreciated the honest feedback. Thank you for your long-term companionship and support! We'll keep on doing our best! \n Dating never stops\n The evergrowing Hot Games",
     },
     [1020143] = {
         id = 1020143,
@@ -26509,11 +26633,11 @@ return {
     },
     [13310527] = {
         id = 13310527,
-        text = "Dear Covenanters, \n Thank you for supporting DAL and us. We will make best efforts to promote DAL and com up with more awesome projects. \n Support DAL and Hot Games for your fav waifu!\n Dating never stops! (Tohka handed you kinako bread)\n - Designer Sima",
+        text = "Dear Covenanters, \n Thank you for supporting DAL and us. We will make best efforts to promote DAL and come up with more awesome projects. \n Support DAL and Hot Games for your fav waifu!\n Dating never stops! (Tohka handed you kinako bread)\n - Designer Sima",
     },
     [13310526] = {
         id = 13310526,
-        text = "Dear Covenanters, \n Thanks to everyone's support, Date A Live anime season 3 has started! Our waifus are alive and moving!\n We have been hard at work to promote DAL. We hop you will continue to support the series and us!\n Dating never ends!\n - Hot Games",
+        text = "Dear Covenanters, \n Thanks to everyone's support, Date A Live anime season 3 has started! Our waifus are alive and moving!\n We have been hard at work to promote DAL. We hope you will continue to support the series and us!\n Dating never ends!\n - Hot Games",
     },
     [13300084] = {
         id = 13300084,
@@ -27061,7 +27185,7 @@ return {
     },
     [13310306] = {
         id = 13310306,
-        text = "If you time leap now, you'll miss a date. Continue anyway? (Time leap costs 50 Energy.)",
+        text = "If your time leap now, you'll miss a date. Continue anyway? (Time leap costs 50 Energy.)",
     },
     [13300111] = {
         id = 13300111,
@@ -27125,7 +27249,7 @@ return {
     },
     [300867] = {
         id = 300867,
-        text = "Deploy Spirits with high base attack and additional skill effect",
+        text = "Deploy Spirits with high base attack and Branch Attack effect",
     },
     [13310227] = {
         id = 13310227,
@@ -28401,7 +28525,7 @@ return {
     },
     [13310525] = {
         id = 13310525,
-        text = "Dear Covenanters, \n We sincerely apologize for not clarifying about the failsafe mechanism that maintains the balance between lucky and unlucky players in the event rules has caused some misunderstanding among players. We sincerely apologize for the confusion caused. \n Despite of our intend to add user-friendly features, due to lack of consideration and explanation as well as implementation, the results are not as we expected. We are still a young studio and will try to learn and improve. We appreciate your understandings and support!\n - Hot Games",
+        text = "Dear Covenanters, \n We sincerely apologize for not clarifying about the failsafe mechanism that maintains the balance between lucky and unlucky players in the event rules has caused some misunderstanding among players. We sincerely apologize for the confusion caused. \n Despite of our intention to add user-friendly features, due to lack of consideration and explanation as well as implementation, the results are not as we expected. We are still a young studio and will try to learn and improve. We appreciate your understandings and support!\n - Hot Games",
     },
     [13310533] = {
         id = 13310533,
@@ -28409,7 +28533,7 @@ return {
     },
     [13310541] = {
         id = 13310541,
-        text = "Dear Covenanters, \n Ratatoskr has detected violent fluctuation of Spirit Power! Analysis says they are likely to be emanated from Mayuri!\n Red alert! Everyone in Ratatoskr, prepare for tough enemy. \n Have you come back, Mayuri?\n A designer under the pseudonym of D·A·L",
+        text = "Dear Covenanters, \n Ratatoskr has detected violent fluctuation of Spirit Power! Analysis says they are likely to be emanated from Mayuri!\n Red alert! Everyone in Ratatoskr, prepare for tough enemies. \n Have you come back, Mayuri?\n A designer under the pseudonym of D·A·L",
     },
     [13310549] = {
         id = 13310549,
@@ -29173,7 +29297,7 @@ return {
     },
     [13200303] = {
         id = 13200303,
-        text = "Meeting you must be destinated.",
+        text = "Meeting you must be destined.",
     },
     [13200302] = {
         id = 13200302,
@@ -29245,7 +29369,7 @@ return {
     },
     [13200288] = {
         id = 13200288,
-        text = "Very delicious. Maybe the one in your hand is more delicious? How about we exchanging our snacks?",
+        text = "Very delicious. Maybe the one in your hand is more delicious? How about exchanging our snacks?",
     },
     [13200287] = {
         id = 13200287,
@@ -29697,7 +29821,7 @@ return {
     },
     [13200195] = {
         id = 13200195,
-        text = "A... a bumper harvest!... If only I could fish better so that we won't get nothing but shells and sea weeds...",
+        text = "A... a bumper harvest!... If only I could fish better so that we won't get anything but shells and sea weeds...",
     },
     [17047] = {
         id = 17047,
@@ -32897,7 +33021,7 @@ return {
     },
     [27108] = {
         id = 27108,
-        text = "Keepsake for the 2019 Dragon Boat Fest. Why you are in the clothesof Zongzi? Wrap the tender heart with the leaves to remember where eternity lies.",
+        text = "Keepsake for the 2019 Dragon Boat Fest. Why are you in the clothes of Zongzi? Wrap the tender heart with the leaves to remember where eternity lies.",
     },
     [13100035] = {
         id = 13100035,
@@ -33057,7 +33181,7 @@ return {
     },
     [13100009] = {
         id = 13100009,
-        text = "Appears in the place that generates sweet beverage.",
+        text = "Appears in the place that generates sweet beverages.",
     },
     [202003] = {
         id = 202003,
@@ -33121,7 +33245,7 @@ return {
     },
     [100000170] = {
         id = 100000170,
-        text = "Resets on Mon",
+        text = "Reset on Monday",
     },
     [202005] = {
         id = 202005,
@@ -33269,7 +33393,7 @@ return {
     },
     [12101039] = {
         id = 12101039,
-        text = "Clear the room [Balcony] to unlock card unfold feature.",
+        text = "Clear the room [Balcony] to unlock card-unfold feature.",
     },
     [12101038] = {
         id = 12101038,
@@ -33429,7 +33553,7 @@ return {
     },
     [12101008] = {
         id = 12101008,
-        text = "The item used to play the card unfolding game in the Halloween event. Each item let you fold 2 cards.",
+        text = "The item used to play the card unfolding game in the Halloween event. Each item will let you fold 2 cards.",
     },
     [1021012] = {
         id = 1021012,
@@ -33669,7 +33793,7 @@ return {
     },
     [202022] = {
         id = 202022,
-        text = "Current particle world is unavailable",
+        text = "Current Sephira world is unavailable",
     },
     [1021042] = {
         id = 1021042,
@@ -34069,7 +34193,7 @@ return {
     },
     [12032043] = {
         id = 12032043,
-        text = "You have joined a demon king's faction and is ready for the new journey.",
+        text = "You have joined a demon king's faction and are ready for the new journey.",
     },
     [12032042] = {
         id = 12032042,
@@ -34157,7 +34281,7 @@ return {
     },
     [12032026] = {
         id = 12032026,
-        text = "7. During phase 3, all players in the faction are ranked by time spent on the stages, and the top 100 players are displayed on the leaderboard an get rewards after [Battle Time] ends.",
+        text = "7. During phase 3, all players in the faction are ranked by time spent on the stages, and the top 100 players are displayed on the leaderboard and get rewards after [Battle Time] ends.",
     },
     [1021103] = {
         id = 1021103,
@@ -34965,7 +35089,7 @@ return {
     },
     [14110061] = {
         id = 14110061,
-        text = "1. There are 5 chapters in Sharam Gate. A random chapter unlocks daily from Monday to Friday, and 2 random chapters unlocks on Saturday and Sunday.",
+        text = "1. There are 5 chapters in Sharam Gate. A random chapter will be unlocked daily from Monday to Friday, and 2 random chapters will be unlocked on Saturday and Sunday.",
     },
     [14110069] = {
         id = 14110069,
@@ -35693,7 +35817,7 @@ return {
     },
     [12010030] = {
         id = 12010030,
-        text = "To improve Yuzuru's mood, we selected another place for date.",
+        text = "To improve Yuzuru's mood, we selected another place for a date.",
     },
     [213053] = {
         id = 213053,
@@ -36005,7 +36129,7 @@ return {
     },
     [1420062] = {
         id = 1420062,
-        text = "Reward - [Cat's Recognition]",
+        text = "Reward - [Growth Boost]",
     },
     [1420063] = {
         id = 1420063,
@@ -36789,7 +36913,7 @@ return {
     },
     [11312063] = {
         id = 11312063,
-        text = "[Celestial Prison] After releasing enemies, conjures a magic mirror behind them to pull enemies in front of it. The skill inflicts Magic DMG equal to 400% ATK in total. \nDuring [Star Realm Wanderer], 12 stars appear near Natsumi at random spot. They explode when they hits the ground, damaging enemies within a small range. Each star inflicts Magic DMG equal to 25% ATK.",
+        text = "[Celestial Prison] After releasing enemies, conjures a magic mirror behind them to pull enemies in front of it. The skill inflicts Magic DMG equal to 400% ATK in total. \nDuring [Star Realm Wanderer], 12 stars appear near Natsumi at a random spot. They explode when they hit the ground, damaging enemies within a small range. Each star inflicts Magic DMG equal to 25% ATK.",
     },
     [1021432] = {
         id = 1021432,
@@ -42377,7 +42501,7 @@ return {
     },
     [11003073] = {
         id = 11003073,
-        text = "[Concerto] When retrieved, notes won't disappear, they will spins at the same spot and attack nearby enemies for 7s. \nInflicts Spiritual DMG equal to 400% ATK.",
+        text = "[Concerto] When retrieved, notes won't disappear, they will spin at the same spot and attack nearby enemies for 7s. \nInflicts Spiritual DMG equal to 400% ATK.",
     },
     [11003072] = {
         id = 11003072,
@@ -43413,7 +43537,7 @@ return {
     },
     [11000470] = {
         id = 11000470,
-        text = "Only what you see with own eyes is true.",
+        text = "Only what you see with your own eyes is true.",
     },
     [10703010] = {
         id = 10703010,
@@ -44017,7 +44141,7 @@ return {
     },
     [11000279] = {
         id = 11000279,
-        text = "You may able to breath in the sea.",
+        text = "You may able to breathe in the sea.",
     },
     [11000278] = {
         id = 11000278,
@@ -44461,7 +44585,7 @@ return {
     },
     [11000185] = {
         id = 11000185,
-        text = "This is the first time I've worn clotheslike this.",
+        text = "This is the first time I've worn clothes like this.",
     },
     [11000184] = {
         id = 11000184,
@@ -45489,7 +45613,7 @@ return {
     },
     [265515] = {
         id = 265515,
-        text = "Get the Astral Dress - \"Miku Stage Uniform\" to activate this avatar",
+        text = "Get the Astral Dress - \"Miku Stage Outfit\" to activate this avatar",
     },
     [10931235] = {
         id = 10931235,
@@ -47173,7 +47297,7 @@ return {
     },
     [290000054] = {
         id = 290000054,
-        text = "I brought Miku to an amusement park to relax while she was on vacation. ",
+        text = "I brought Miku to an amusement park for relax while she was on vacation. ",
     },
     [282004] = {
         id = 282004,
@@ -48205,7 +48329,7 @@ return {
     },
     [10911190] = {
         id = 10911190,
-        text = "[Cross Pledge] Charges 5 times in total before blasting enemies with remaining energy mid air. The skill inflicts Physical DMG equal to 1400% of the character's ATK",
+        text = "[Cross Pledge] Charges 5 times in total before blasting enemies with remaining energy midair. The skill inflicts Physical DMG equal to 1400% of the character's ATK",
     },
     [10103051] = {
         id = 10103051,
@@ -51465,7 +51589,7 @@ return {
     },
     [10211021] = {
         id = 10211021,
-        text = "Particle Fission",
+        text = "Sephira Fission",
     },
     [18156] = {
         id = 18156,
@@ -53225,7 +53349,7 @@ return {
     },
     [11000955] = {
         id = 11000955,
-        text = "Well, besides touch my head… ",
+        text = "Well, besides touching my head… ",
     },
     [10701072] = {
         id = 10701072,
@@ -62069,7 +62193,7 @@ return {
     },
     [63017] = {
         id = 63017,
-        text = "There are has 3 regular quest types: Main, Daily and Achievements and 1 event quest - Heart Stealer. Complete them and you will get great rewards. \nMain quests are connected to the story, usually you need to challenge an instance. \nDaily quests are connected with various modes of the game. Complete them to get Activity Points and rewards. Daily quests refresh daily. Unclaimed rewards will be sent to you via mail after refresh. \n Achievements offer decent challenges in game. The harder the challenge, the better the rewards. \nIn the Heart Stealer event, you will earn event EXP via daily quests and master quests. Event level will go up once you have enough EXP. \nYou can claim event rewards once your event level is high enough.",
+        text = "There are has 3 regular quest types: Main, Daily and Achievements and 1 event quest - Growth Guardian. Complete them and you will get great rewards. \nMain quests are connected to the story, usually you need to challenge an instance. \nDaily quests are connected with various modes of the game. Complete them to get Activity Points and rewards. Daily quests refresh daily. Unclaimed rewards will be sent to you via mail after refresh. \n Achievements offer decent challenges in game. The harder the challenge, the better the rewards. \nIn the Growth Guardian event, you will earn event EXP via daily quests and daily quests. Event level will go up once you have enough EXP. \nYou can claim event rewards once your event level is high enough.",
     },
     [10401033] = {
         id = 10401033,
@@ -62325,7 +62449,7 @@ return {
     },
     [63019] = {
         id = 63019,
-        text = "Instances in the game come in several forms: \nStory Instance\nIn Story Instance, you will reexperience the classic story of Date A Live from dates and battles stages full of plots, CGs and voiceovers. \nStory Instance breaks into interconnected chapters. This is also your main source of transcend items and character fragments. So in order to power up your beloved character, be sure to visit here often. \nDaily Instance\nUnlike Story Instance, Daily Instance has more variation, including flying and parkour stages. \nDaily Instance is not always open. They will open and close in rotation each week. Pay attention to their opening time.\nEvent Instance\nCompared to Story Instance and Daily Instance, Event Instance is much harder. It is the true test to your skill and strength of your characters. Event Instance include Endless Ladder, Spirit Trials which test your play, fun multip.",
+        text = "Instances in the game come in several forms: \nStory Instance\nIn Story Instance, you will reexperience the classic story of Date A Live from dates and battles stages full of plots, CGs and voiceovers. \nStory Instance breaks into interconnected chapters. This is also your main source of transcend items and character fragments. So in order to power up your beloved character, be sure to visit here often. \nDaily Instance\nUnlike Story Instance, Daily Instance has more variation, including flying and parkour stages. \nDaily Instance is not always open. They will open and close in rotation each week. Pay attention to their opening time.\nEvent Instance\nCompared to Story Instance and Daily Instance, Event Instance is much harder. It is the true test to your skill and strength of your characters. Event Instance include Endless Ladder, Spirit Trials which test your play, fun multiplayer mode and the mysterious Kabbalah battles.",
     },
     [2460015] = {
         id = 2460015,
@@ -63169,7 +63293,7 @@ return {
     },
     [266620] = {
         id = 266620,
-        text = "You can get this avatar frame by activating month card June",
+        text = "You can get this avatar frame by activating month card in June",
     },
     [910045] = {
         id = 910045,
@@ -63333,7 +63457,7 @@ return {
     },
     [910065] = {
         id = 910065,
-        text = "Kurumi left, as indicated by the particle that went by in lighting speed meant Kurumi had left.",
+        text = "Kurumi left, as indicated by the Sephira that went by in lighting speed meant Kurumi had left.",
     },
     [10311138] = {
         id = 10311138,
@@ -65169,7 +65293,7 @@ return {
     },
     [266745] = {
         id = 266745,
-        text = "Purchase \"Cat's Request\" to obtain",
+        text = "Purchase \"Growth Breakthrough\" to obtain",
     },
     [910295] = {
         id = 910295,
@@ -65945,7 +66069,7 @@ return {
     },
     [10303034] = {
         id = 10303034,
-        text = "[Ice Thorns] Releases more Ice Thornss. \nInflicts Frost DMG equal to 150% ATK over 3 attacks.",
+        text = "[Ice Thorns] Releases more Ice Thorns. \nInflicts Frost DMG equal to 150% ATK over 3 attacks.",
     },
     [10303033] = {
         id = 10303033,
@@ -65981,7 +66105,7 @@ return {
     },
     [10303025] = {
         id = 10303025,
-        text = "[Icicle] The 4th strike will releases an extra big icicle. \nInflicts Frost DMG equal to 150% ATK 1 time.",
+        text = "[Icicle] The 4th strike will release an extra big icicle. \nInflicts Frost DMG equal to 150% ATK 1 time.",
     },
     [10303024] = {
         id = 10303024,
@@ -67729,7 +67853,7 @@ return {
     },
     [266905] = {
         id = 266905,
-        text = "Join the 2019 Autumn Night event to obtain",
+        text = "How to obtain bubble frames",
     },
     [10231103] = {
         id = 10231103,
@@ -69313,7 +69437,7 @@ return {
     },
     [267004] = {
         id = 267004,
-        text = "Activate it to obtain exclusive UI set. You can set it in Settings - Home to get it displayed in your home page.",
+        text = "Activate it to obtain exclusive UI set. You can set it in Settings - Home to get it displayed on your home page.",
     },
     [10221052] = {
         id = 10221052,
@@ -71133,7 +71257,7 @@ return {
     },
     [260535] = {
         id = 260535,
-        text = "Usually refers to garment material made of silk. Often used to made formal dresses for its soft touch. (If you can't store more, they will be turned to some Gold)",
+        text = "Usually refers to garment material made of silk. Often used to make formal dresses for its soft touch. (If you can't store more, they will be turned to some Gold)",
     },
     [10211025] = {
         id = 10211025,
@@ -71165,15 +71289,15 @@ return {
     },
     [10211020] = {
         id = 10211020,
-        text = "Particle Fission",
+        text = "Sephira Fission",
     },
     [10211019] = {
         id = 10211019,
-        text = "Particle Fission",
+        text = "Sephira Fission",
     },
     [10211018] = {
         id = 10211018,
-        text = "Particle Fission",
+        text = "Sephira Fission",
     },
     [10211017] = {
         id = 10211017,
@@ -73873,7 +73997,7 @@ return {
     },
     [300056] = {
         id = 300056,
-        text = "Get hit less then %s times",
+        text = "Get hit less than %s times",
     },
     [10911188] = {
         id = 10911188,
@@ -78633,7 +78757,7 @@ return {
     },
     [21068] = {
         id = 21068,
-        text = "Type: Astral Dress\nOwner: Mayuri\nThe star flashes through the morning sky with golden tail, bringing the hope of victory to you.",
+        text = "Type: Astral Dress\nOwner: Mayuri\nThe star flashes through the morning sky with a golden tail, bringing the hope of victory to you.",
     },
     [3204534] = {
         id = 3204534,
@@ -79473,7 +79597,7 @@ return {
     },
     [300406] = {
         id = 300406,
-        text = "The girl who kills human and the girl who kills Spirits. How to end this nightmare?",
+        text = "The girl who kills humans and the girl who kills Spirits. How to end this nightmare?",
     },
     [3202034] = {
         id = 3202034,
@@ -79565,7 +79689,7 @@ return {
     },
     [13229] = {
         id = 13229,
-        text = "Heart Stealer EXP",
+        text = "Growth Guardian EXP",
     },
     [300412] = {
         id = 300412,
@@ -79785,7 +79909,7 @@ return {
     },
     [3006606] = {
         id = 3006606,
-        text = "Belphegor",
+        text = "BELPHEGOR",
     },
     [1010423] = {
         id = 1010423,
@@ -79797,15 +79921,15 @@ return {
     },
     [3006605] = {
         id = 3006605,
-        text = "Asmodeus",
+        text = "ASMODEUS",
     },
     [3006604] = {
         id = 3006604,
-        text = "Astaroth",
+        text = "ASTAROTH",
     },
     [3006603] = {
         id = 3006603,
-        text = "Rophocale",
+        text = "ROPHOCALE",
     },
     [300427] = {
         id = 300427,
@@ -79813,11 +79937,11 @@ return {
     },
     [3006602] = {
         id = 3006602,
-        text = "Beelzebub",
+        text = "BEELZEBUB",
     },
     [3006601] = {
         id = 3006601,
-        text = "Satan",
+        text = "SATAN",
     },
     [3006510] = {
         id = 3006510,
@@ -79845,11 +79969,11 @@ return {
     },
     [3006506] = {
         id = 3006506,
-        text = "Power source of \"Chesed\", \"Divine Veil\", as pure as sapphire.",
+        text = "Power source of \"CHESED\", \"Divine Veil\", as pure as sapphire.",
     },
     [3006505] = {
         id = 3006505,
-        text = "Shard records a mysterious location. Collect enough [Beacon Fragment] and maybe you will decode it. But what is hidden there? No one knows.",
+        text = "Shard records a mysterious location. Collect enough [Beacon Shard] and maybe you will decode it. But what is hidden there? No one knows.",
     },
     [1010431] = {
         id = 1010431,
@@ -79857,7 +79981,7 @@ return {
     },
     [3006504] = {
         id = 3006504,
-        text = "A composition of the source of \"Binah\", looks like a golden pearl necklace.",
+        text = "A composition of the source of \"BINAH\", looks like a golden pearl necklace.",
     },
     [1010432] = {
         id = 1010432,
@@ -79877,11 +80001,11 @@ return {
     },
     [3006502] = {
         id = 3006502,
-        text = "Power source of \"Chokhmah\", pine green circle of intelligence.",
+        text = "Power source of \"CHOKHMAH\", pine green circle of intelligence.",
     },
     [3006501] = {
         id = 3006501,
-        text = "Energy crystal with the texture of diamond, power source of \"Kether\"",
+        text = "Energy crystal with the texture of diamond, power source of \"KETHER\"",
     },
     [3006410] = {
         id = 3006410,
@@ -80529,7 +80653,7 @@ return {
     },
     [3005054] = {
         id = 3005054,
-        text = "Demon king of the particle world has showed up",
+        text = "Demon king of the Sephira world has showed up",
     },
     [40011] = {
         id = 40011,
@@ -80613,7 +80737,7 @@ return {
     },
     [3005036] = {
         id = 3005036,
-        text = "Quest deadline is past. Particle world is closed",
+        text = "Quest deadline is past. Sephira world is closed",
     },
     [15023] = {
         id = 15023,
@@ -80673,7 +80797,7 @@ return {
     },
     [3005026] = {
         id = 3005026,
-        text = "After you defeat the devil, the particle world will become stable and cannot be accessed. Go fight it?",
+        text = "After you defeat the devil, the Sephira world will become stable and cannot be accessed. Go fight it?",
     },
     [1329133] = {
         id = 1329133,
@@ -80997,11 +81121,11 @@ return {
     },
     [3004108] = {
         id = 3004108,
-        text = "Spirits suffer infection while fighting in the particle worlds.",
+        text = "Spirits suffer infection while fighting in the Sephira worlds.",
     },
     [3004107] = {
         id = 3004107,
-        text = "Energy used to explore events in the particle worlds.",
+        text = "Energy used to explore events in the Sephira worlds.",
     },
     [3004106] = {
         id = 3004106,
@@ -81029,11 +81153,11 @@ return {
     },
     [3004102] = {
         id = 3004102,
-        text = "1. Particle worlds are consisted of space hubs. Move the airship to unlock more area. You can go to different hub via portals.\n2. After finishing several phases of purify quests in order, the ultimate demon will show itself. Defeat it to purify the particle world.\n3. Particle worlds have special events that grants rewards. Check map intro for details.\n4. To trigger events, you need energy points, which restore over time. If you gain energy from items bought at the Ririko's Store.\n5. Spirits will be infected during battles in the particle world. Spirits with special icon are vulnerable to infection. If infection ratio is too high, Spirits can't be added to the team \n8. Non-quest events on the map update daily. Pay attention to update time at \"Event Stats\".\n7. Exploration target appears only after successful exploration. Watch the signal of the radar to ensure your exploration is not in vain.\n8. Tap the radar at the lower right which will give you get location of a random target of the current phase.",
+        text = "1. Sephira worlds are consisted of space hubs. Move the airship to unlock more area. You can go to different hub via portals.\n2. After finishing several phases of purify quests in order, the ultimate demon will show itself. Defeat it to purify the Sephira world.\n3. Sephira worlds have special events that grants rewards. Check map intro for details.\n4. To trigger events, you need energy points, which restore over time. If you gain energy from items bought at the Ririko's Store.\n5. Spirits will be infected during battles in the Sephira world. Spirits with special icon are vulnerable to infection. If infection ratio is too high, Spirits can't be added to the team \n8. Non-quest events on the map update daily. Pay attention to update time at \"Event Stats\".\n7. Exploration target appears only after successful exploration. Watch the signal of the radar to ensure your exploration is not in vain.\n8. Tap the radar at the lower right which will give you get location of a random target of the current phase.",
     },
     [3004101] = {
         id = 3004101,
-        text = "1. Polluted by evil strength, the Tree of Life Kabbalah is becoming unstable.\n2. One particle world will be eroded every 3 days. you must enter those worlds to purify them.\n3. Remember to read purification quests info. Rewards will be sent when you purify eroded worlds.\n4. Particle worlds grants life essences and evil insignia of each Devil that can exchange items in the Kabbalah store.",
+        text = "1. Polluted by evil strength, the Tree of Life Kabbalah is becoming unstable.\n2. One Sephira world will be eroded every 3 days. you must enter those worlds to purify them.\n3. Remember to read purification quests info. Rewards will be sent when you purify eroded worlds.\n4. Sephira worlds grant life essences and evil insignia of each Devil that can exchange items in the Kabbalah store.",
     },
     [3004053] = {
         id = 3004053,
@@ -81175,9 +81299,9 @@ return {
         id = 190000044,
         text = "How to unlock: Angel's star level reaches %d star",
     },
-    [332078] = {
-        id = 332078,
-        text = "a new title",
+    [190000076] = {
+        id = 190000076,
+        text = "Unlock Qualification",
     },
     [3004030] = {
         id = 3004030,
@@ -81533,7 +81657,7 @@ return {
     },
     [3002220] = {
         id = 3002220,
-        text = "Go to Space Hub # 1, find the guardian angel - Zadkiel, talk to her for clues.",
+        text = "Go to Space Hub # 1, find the guardian angel - ZADKIEL, talk to her for clues.",
     },
     [471074] = {
         id = 471074,
@@ -81541,7 +81665,7 @@ return {
     },
     [3002218] = {
         id = 3002218,
-        text = "Defeat the invader of the world - Rophocale and purify the particle world",
+        text = "Defeat the invader of the world - ROPHOCALE and purify the Sephira world",
     },
     [901158] = {
         id = 901158,
@@ -81549,7 +81673,7 @@ return {
     },
     [3002216] = {
         id = 3002216,
-        text = "Go to Space Hub # 3, collect Aralim, the power source of \"Binah\".",
+        text = "Go to Space Hub # 3, collect Aralim, the power source of \"BINAH\".",
     },
     [213018] = {
         id = 213018,
@@ -81557,7 +81681,7 @@ return {
     },
     [3002214] = {
         id = 3002214,
-        text = "Go to Space Hub # 1, find the guardian angel - Zaphkiel, talk to her for clues.",
+        text = "Go to Space Hub # 1, find the guardian angel – ZAPHKIE, talk to her for clues.",
     },
     [471073] = {
         id = 471073,
@@ -81565,7 +81689,7 @@ return {
     },
     [3002212] = {
         id = 3002212,
-        text = "Go to Space Hub - Portal # 2, defeat the invader of the world - Beelzebub.",
+        text = "Go to Space Hub - Portal # 2, defeat the invader of the world - BEELZEBUB.",
     },
     [30214] = {
         id = 30214,
@@ -81609,7 +81733,7 @@ return {
     },
     [3002202] = {
         id = 3002202,
-        text = "Go to Space Hub# 1, find the scattered \"Beacon Fragment\", maybe you will get something.",
+        text = "Go to Space Hub# 1, find the scattered \"Beacon Shard\", maybe you will get something.",
     },
     [13233] = {
         id = 13233,
@@ -81617,7 +81741,7 @@ return {
     },
     [3002201] = {
         id = 3002201,
-        text = "Go to Space Hub - Portal # 2, defeat the invader of the world - Satan.",
+        text = "Go to Space Hub - Portal # 2, defeat the invader of the world - SATAN.",
     },
     [3002110] = {
         id = 3002110,
@@ -81653,7 +81777,7 @@ return {
     },
     [3002104] = {
         id = 3002104,
-        text = "Keep searching for Sandalphon, put and end to the mess caused by devil Astaroth and purify \"Chesed\".",
+        text = "Keep searching for SANDALPHON, put and end to the mess caused by devil ASTAROTH and purify \"CHESED\".",
     },
     [224001] = {
         id = 224001,
@@ -81745,11 +81869,11 @@ return {
     },
     [3001104] = {
         id = 3001104,
-        text = "The crisis is spreading in the particle world of \"Chesed\" Astaroth is at the center of the chaos. How to defeat her?",
+        text = "The crisis is spreading in the Sephira world of \"CHESED\". ASTAROTH is at the center of the chaos. How to defeat her?",
     },
     [3001103] = {
         id = 3001103,
-        text = "Rophocale is trying to occupy \"Binah\". Hurry up to complete the rescue operation before it is too late.",
+        text = "ROPHOCALE is trying to occupy \"BINAH\". Hurry up to complete the rescue operation before it is too late.",
     },
     [224004] = {
         id = 224004,
@@ -81757,7 +81881,7 @@ return {
     },
     [3001102] = {
         id = 3001102,
-        text = "\"Chokhmah\", the particle world infected by the Beelzebub, who is devouring the energy there bite after bite.",
+        text = "\"CHOKHMAH\", the Sephira world infected by the BEELZEBUB, who is devouring the energy there bite after bite.",
     },
     [300549] = {
         id = 300549,
@@ -81765,7 +81889,7 @@ return {
     },
     [3001101] = {
         id = 3001101,
-        text = "\"Kether\", the starting particle world of Tree of Life protected by Metatron, is under threatened from Satan.",
+        text = "\"KETHER\", the starting Sephira world of Tree of Life protected by METATRON, is under threatened from SATAN.",
     },
     [448001] = {
         id = 448001,
@@ -81773,7 +81897,7 @@ return {
     },
     [3001010] = {
         id = 3001010,
-        text = "Kether",
+        text = "KETHER",
     },
     [300550] = {
         id = 300550,
@@ -81781,7 +81905,7 @@ return {
     },
     [3001009] = {
         id = 3001009,
-        text = "Chokhmah",
+        text = "CHOKHMAH",
     },
     [224005] = {
         id = 224005,
@@ -81789,7 +81913,7 @@ return {
     },
     [3001008] = {
         id = 3001008,
-        text = "Binah",
+        text = "BINAH",
     },
     [300551] = {
         id = 300551,
@@ -81797,15 +81921,15 @@ return {
     },
     [3001007] = {
         id = 3001007,
-        text = "Chesed",
+        text = "CHESED",
     },
     [3001006] = {
         id = 3001006,
-        text = "Geburah",
+        text = "GEBURAH",
     },
     [3001005] = {
         id = 3001005,
-        text = "Tiphareth",
+        text = "TIPHARETH",
     },
     [300552] = {
         id = 300552,
@@ -81813,7 +81937,7 @@ return {
     },
     [3001004] = {
         id = 3001004,
-        text = "Netzach",
+        text = "NETZACH",
     },
     [224006] = {
         id = 224006,
@@ -81821,7 +81945,7 @@ return {
     },
     [3001003] = {
         id = 3001003,
-        text = "Hod",
+        text = "HOD",
     },
     [300553] = {
         id = 300553,
@@ -81829,11 +81953,11 @@ return {
     },
     [3001002] = {
         id = 3001002,
-        text = "Yesod",
+        text = "YESOD",
     },
     [3001001] = {
         id = 3001001,
-        text = "Malkuth",
+        text = "MALKUTH",
     },
     [1024611] = {
         id = 1024611,
@@ -83897,7 +84021,7 @@ return {
     },
     [10931228] = {
         id = 10931228,
-        text = "When Kurumi is on the battlefield, summons 1 clone to attack the neatest enemy every 3s. Each time a clone attacks, inflicting Dark DMG equal to 100% ATK.",
+        text = "When Kurumi is on the battlefield, summons 1 clone to attack the nearest enemy every 3s. Each time a clone attacks, inflicting Dark DMG equal to 100% ATK.",
     },
     [2109035] = {
         id = 2109035,
@@ -85271,9 +85395,9 @@ return {
         id = 190000045,
         text = "Language",
     },
-    [2106063] = {
-        id = 2106063,
-        text = "Battle Guide",
+    [190000077] = {
+        id = 190000077,
+        text = "Upgrade Qualification",
     },
     [2106062] = {
         id = 2106062,
@@ -85673,7 +85797,7 @@ return {
     },
     [2101612] = {
         id = 2101612,
-        text = "Give feedbacks of all departments to the main designer.",
+        text = "Give feedback of all departments to the main designer.",
     },
     [2101610] = {
         id = 2101610,
@@ -85829,7 +85953,7 @@ return {
     },
     [2101447] = {
         id = 2101447,
-        text = "Submit all feedbacks.",
+        text = "Submit all feedback.",
     },
     [2101446] = {
         id = 2101446,
@@ -89973,7 +90097,7 @@ return {
     },
     [14220077] = {
         id = 14220077,
-        text = "Unlock Cat's Recognition or Cat's Trust to claim the following rewards",
+        text = "Unlock Growth Boost or Growth Breakthrough to claim the following rewards",
     },
     [266523] = {
         id = 266523,
@@ -90897,7 +91021,7 @@ return {
     },
     [301120] = {
         id = 301120,
-        text = "Abandoned Station",
+        text = "Abandoned Bus Station",
     },
     [1702291] = {
         id = 1702291,
@@ -91633,7 +91757,7 @@ return {
     },
     [301166] = {
         id = 301166,
-        text = "Something accident seems to occur?",
+        text = "Something accidental seems to occur?",
     },
     [1702209] = {
         id = 1702209,
@@ -91665,7 +91789,7 @@ return {
     },
     [301168] = {
         id = 301168,
-        text = "Something accident seems to occur?",
+        text = "Something accidental seems to occur?",
     },
     [1130378] = {
         id = 1130378,
@@ -92365,7 +92489,7 @@ return {
     },
     [212048] = {
         id = 212048,
-        text = "Dear Covenanter,\n\n We are really sorry! The bug that causes players to get repeated items from Carnival - [Lucky Roulette] due to data update exception has been fixed. The event will start soon. Here is returned [Lucky Insignia] spent on duplicated repeated items. \nThanks for your supervision and feedbacks\n\nThat's all\nCommand Center",
+        text = "Dear Covenanter,\n\n We are really sorry! The bug that causes players to get repeated items from Carnival - [Lucky Roulette] due to data update exception has been fixed. The event will start soon. Here is returned [Lucky Insignia] spent on duplicated repeated items. \nThanks for your supervision and feedback\n\nThat's all\nCommand Center",
     },
     [1702101] = {
         id = 1702101,
@@ -93463,9 +93587,9 @@ return {
         id = 190000047,
         text = "You can buy this avatar frame at the Exclusive Pack in Month Card in February.",
     },
-    [1400021] = {
-        id = 1400021,
-        text = "[Use Item]",
+    [190000079] = {
+        id = 190000079,
+        text = "Work for 40 hours",
     },
     [900653] = {
         id = 900653,
@@ -93629,7 +93753,7 @@ return {
     },
     [1500002] = {
         id = 1500002,
-        text = "Dear players, \n\nTohka Yatogami: [Hello everyone, we've finally met!]\nKurumi Tokisaki: [Ara ara~ Good day! We've finally met. Thanks for your long term anticipation, it's great to meet you all.] \nOrigami Tobiichi: [After obtaining the license from Kadokawa Shoten. The dev team has been working hard to give the fans a well-made game that will satisfy our DAL fans.] \nTohka Yatogami: [Umu~ This is the first public beta test for all players. There are some lot of issues to iron out. Sorry for the inconvenience~ (crying in the toilet T-T). In the precious tests, we've received many suggestions and feedbacks. They are all well read and sorted. Besides... we've make plans to adjust the game. Changes will be implemented on our next date.] \nKotori Itsuka: [We understand many has sent feedbacks regarding BGM, Spirit images, battle and gameplays. Ratatoskr are working hard to improve those aspects. Please be rest assured.] \nTohka Yatogami: [She will be voiced by the original voice actress!]\nOrigami Tobiichi: [She will be voiced by the original voice actress!]\nKotori Itsuka: [She will be voiced by the original voice actress!]\nKurumi Tokisaki: [If you have any question or request, please join our group for this test: 542524583. We need your help to make the game and our team better.] \nOrigami Tobiichi: [Thanks again for your support. You are our biggest motivation to move forward.] \nTohka Yatogami: [Now, let our date (battle) begin!]\n\nP.S.: Tons of benefits will be given in this test. Be sure to login everyday~\n\nIf you encounter any problem, contact Costumer Support QQ: 4000585151",
+        text = "Dear players, \n\nTohka Yatogami: [Hello everyone, we've finally met!]\nKurumi Tokisaki: [Ara ara~ Good day! We've finally met. Thanks for your long term anticipation, it's great to meet you all.] \nOrigami Tobiichi: [After obtaining the license from Kadokawa Shoten. The dev team has been working hard to give the fans a well-made game that will satisfy our DAL fans.] \nTohka Yatogami: [Umu~ This is the first public beta test for all players. There are some lot of issues to iron out. Sorry for the inconvenience~ (crying in the toilet T-T). In the precious tests, we've received many suggestions and feedback. They are all well read and sorted. Besides... we've make plans to adjust the game. Changes will be implemented on our next date.] \nKotori Itsuka: [We understand many has sent feedback regarding BGM, Spirit images, battle and gameplays. Ratatoskr are working hard to improve those aspects. Please be rest assured.] \nTohka Yatogami: [She will be voiced by the original voice actress!]\nOrigami Tobiichi: [She will be voiced by the original voice actress!]\nKotori Itsuka: [She will be voiced by the original voice actress!]\nKurumi Tokisaki: [If you have any question or request, please join our group for this test: 542524583. We need your help to make the game and our team better.] \nOrigami Tobiichi: [Thanks again for your support. You are our biggest motivation to move forward.] \nTohka Yatogami: [Now, let our date (battle) begin!]\n\nP.S.: Tons of benefits will be given in this test. Be sure to login everyday~\n\nIf you encounter any problem, contact Costumer Support QQ: 4000585151",
     },
     [1500003] = {
         id = 1500003,
@@ -96661,7 +96785,7 @@ return {
     },
     [303050] = {
         id = 303050,
-        text = "2. The event comes in 2 phrases. New story Winter Clash is available on the first 5 days, while the Enemy Invasion event take place in the last 10 days.",
+        text = "2. The event comes in 2 phrases. New story Winter Clash is available on the first 5 days, while the Enemy Invasion event takes place in the last 10 days.",
     },
     [43007] = {
         id = 43007,
@@ -97505,7 +97629,7 @@ return {
     },
     [10303101] = {
         id = 10303101,
-        text = "[Ice Storm] When tornado is present, summons icicles to attack enemies in range. \nInflicts DMG equal to 45% ATK 1 time per 0.2s.",
+        text = "[Ice Storm] When the tornado is present, summons icicles to attack enemies in range. \nInflicts DMG equal to 45% ATK 1 time per 0.2s.",
     },
     [10303109] = {
         id = 10303109,
@@ -97559,9 +97683,9 @@ return {
         id = 190000048,
         text = "You can buy this avatar frame at the Exclusive Pack in Month Card in March.",
     },
-    [43014] = {
-        id = 43014,
-        text = "A Class Energy Gem, first instance clearance 100% grants an A Class Gem for a random skill of the instance's character.",
+    [190000080] = {
+        id = 190000080,
+        text = "Login for 3 days",
     },
     [22020] = {
         id = 22020,
@@ -97953,15 +98077,15 @@ return {
     },
     [3002102] = {
         id = 3002102,
-        text = "Keep searching for Sandalphon, explore the unknown area, expel enemies that pollute the area, defeat devil of the world - Beelzebub and purify \"Chokhmah\".",
+        text = "Keep searching for SANDALPHON, explore the unknown area, expel enemies that pollute the area, defeat devil of the world – BEELZEBUB and purify \"CHOKHMAH\".",
     },
     [3002101] = {
         id = 3002101,
-        text = "Find clues about Sandalphon, take back the lighthouse ruled by enemies, find the lost source of power Tetragram, defeat Satan and purify \"Kether\".",
+        text = "Find clues about SANDALPHON, take back the lighthouse ruled by enemies, find the lost source of power Tetragram, defeat SATAN and purify \"KETHER\".",
     },
     [3002103] = {
         id = 3002103,
-        text = "Search for Sandalphon, kill polluted enemies in the area, search for the source of lost power, defeat devil of the world - Rophocale and purify \"Binah\".",
+        text = "Search for SANDALPHON, kill polluted enemies in the area, search for the source of lost power, defeat devil of the world – ROPHOCALE and purify \"BINAH\".",
     },
     [3002105] = {
         id = 3002105,
@@ -98173,19 +98297,19 @@ return {
     },
     [3002209] = {
         id = 3002209,
-        text = "Go to Space Hub # 1, find the guardian angel - Metatron, talk to her for clues.",
+        text = "Go to Space Hub # 1, find the guardian angel - METATRON, talk to her for clues.",
     },
     [3002211] = {
         id = 3002211,
-        text = "Go to Space Hub # 1, find the guardian angel - Ratziel, talk to her for clues.",
+        text = "Go to Space Hub # 1, find the guardian angel – RATZIEL, talk to her for clues.",
     },
     [3002213] = {
         id = 3002213,
-        text = "Go to Space Hub - Portal # 2, collect Signifieth, the power source of \"Chokhmah\".",
+        text = "Go to Space Hub - Portal # 2, collect Signifieth, the power source of \"CHOKHMAH\".",
     },
     [3002215] = {
         id = 3002215,
-        text = "Go to Space Hub # 2 , defeat enemies to collect enough \"Beacon Fragment\" and decode their secret.",
+        text = "Go to Space Hub # 2 , defeat enemies to collect enough \"Beacon Shard\" and decode their secret.",
     },
     [3002217] = {
         id = 3002217,
@@ -98193,7 +98317,7 @@ return {
     },
     [3002219] = {
         id = 3002219,
-        text = "Go to Space Hub - Portal # 1, defeat the invader of the particle world - Astaroth.",
+        text = "Go to Space Hub - Portal # 1, defeat the invader of the Sephira world - ASTAROTH.",
     },
     [277001] = {
         id = 277001,
@@ -98201,7 +98325,7 @@ return {
     },
     [3002223] = {
         id = 3002223,
-        text = "Go to Space Hub # 4, collect Divine Veil, the power source of \"Chesed\".",
+        text = "Go to Space Hub # 4, collect Divine Veil, the power source of \"CHESED\".",
     },
     [3002225] = {
         id = 3002225,
@@ -98961,7 +99085,7 @@ return {
     },
     [270442] = {
         id = 270442,
-        text = "Confirm to appoint %s as leader? Your positions will be swapped when you tap \"Confirm\".",
+        text = "Confirm to appoint %s as the leader? Your positions will be swapped when you tap \"Confirm\".",
     },
     [270443] = {
         id = 270443,
@@ -101655,9 +101779,9 @@ return {
         id = 441052,
         text = "Max HP +15%; ATK Speed +10%",
     },
-    [1310176] = {
-        id = 1310176,
-        text = "Natsumi Search 1",
+    [190000081] = {
+        id = 190000081,
+        text = "Spend 3 Fate Badges",
     },
     [490203] = {
         id = 490203,
@@ -102361,7 +102485,7 @@ return {
     },
     [63023] = {
         id = 63023,
-        text = "Welcome to Tengu City where you will date with beloved Spirits!\n\n1. Tap the Spirit on the left to select who you want to date. \n\n2. Main segment of Date are: Favor Date, Daily Date, Spirit Interaction and Mini-Game. \n\n3.Favor Date: Tap the \"Favor\" button in the popup menu to enter the Date interface. \n\n4. In the Favor Date page, all CGs you could win from the date are listed. Rewards for \"Favor Giftbox\" can also be previewed. Don't forget to claim them when conditions are met.\n\n5. Tap \"Date\" in the Favor Date page to start dating. Favor Date has no attempt limit but costs Stamina.\n\n6. Daily Date: Tap character avatar then \"Daily\" button and you'll see the Date page. \n\n7. In Daily Date page, you can see date location and ending collection progress. \nTap \"Date\" in Favor Date to start dating. You have 3 Daily Date chances and can get 2 more with date coupons each day. \nBesides Mainline Date and Daily Date, you should take notice of Spirits' mood. When they are \"Hungry, Mad or Bored\", better prepare a date in time.\n\n8. When a Spirit is \"Hungry\", tap that Spirit then gift her food. ",
+        text = "Welcome to Tengu City where you will date with beloved Spirits!\n\n1. Tap the Spirit Avatar Frame on the left to select who you want to date. \n\n2. Main segment of Date are: Favor Date, Daily Date, Spirit Interaction and Mini-Game. \n\n3.Favor Date: Tap the \"Favor\" button in the popup menu to enter the Date interface. \n\n4. In the Favor Date page, all CGs you could win from the date are listed. Rewards for \"Favor Giftbox\" can also be previewed. Don't forget to claim them when conditions are met.\n\n5. Tap \"Date\" in the Favor Date page to start dating. Favor Date has no attempt limit but costs Stamina.\n\n6. Daily Date: Tap character avatar then \"Daily\" button and you'll see the Date page. \n\n7. In Daily Date page, you can see date location and ending collection progress. \nTap \"Date\" in Favor Date to start dating. You have 3 Daily Date chances and can get 2 more with date coupons each day. \nBesides Mainline Date and Daily Date, you should take notice of Spirits' mood. When they are \"Hungry, Mad or Bored\", better prepare a date in time.\n\n8. When a Spirit is \"Hungry\", tap that Spirit then gift her food. ",
     },
     [12173] = {
         id = 12173,
@@ -102457,7 +102581,7 @@ return {
     },
     [63024] = {
         id = 63024,
-        text = "Welcome to Tengu City where you will date with beloved Spirits!\n\n1. Tap the Spirit on the left to select who you want to date. \n\n2. Main segment of Date are: Favor Date, Daily Date, Planned Date, Outing Date, Spirit Interaction and Mini-Game. \n\n3.Favor Date: Tap the \"Favor\" button in the popup menu to enter the Date interface. \n\n4. In the Favor Date page, all CGs you could win from the date are listed. Rewards for \"Favor Giftbox\" can also be previewed. Don't forget to claim them when conditions are met.\n\n5. Tap \"Date\" in the Favor Date page to start dating. Favor Date has no attempt limit but costs Stamina.\n\n6. Daily Date: Tap character avatar then \"Daily\" button and you'll see the Date page. \n\n7. In Daily Date page, you can see date location and ending collection progress. \nTap \"Date\" in Favor Date to start dating. You have 3 Daily Date chances and can get 2 more with date coupons each day. \nBesides Mainline Date and Daily Date, you should take notice of Spirits' mood. When they are \"Hungry, Mad or Bored\", better prepare a date in time.\n\n8. When a Spirit is \"Hungry\", tap that Spirit then gift her food. \n\n9. Sometimes, Spirits will request a date. Check \"Outing Date\" and \"Planned Date\" icon on avatar frames. Tap them to begin these dates.",
+        text = "Welcome to Tengu City where you will date with beloved Spirits!\n\n1. Tap the Spirit Avatar Frame on the left to select who you want to date.  \n\n2. Main segment of Date are: Favor Date, Daily Date, Planned Date, Outing Date, Spirit Interaction and Mini-Game. \n\n3.Favor Date: Tap the \"Favor\" button in the popup menu to enter the Date interface. \n\n4. In the Favor Date page, all CGs you could win from the date are listed. Keepsakes from Ending Giftbox and Rewards from \"Favor Giftbox\" can also be previewed. Don't forget to claim them when conditions are met.\n\n5. Tap \"Date\" in the Favor Date page to start dating. Favor Date has no attempt limit but costs Stamina.\n\n6. Daily Date: Tap character avatar then \"Daily\" button and you'll see the Date page. \n\n7. In Daily Date page, you can see date location and ending collection progress. \nTap \"Date\" in Favor Date to start dating. You have 3 Daily Date chances and can get 2 more with date coupons each day. \nBesides Mainline Date and Daily Date, you should take notice of Spirits' mood. When they are \"Hungry, Mad or Bored\", better prepare a date in time.\n\n8. When a Spirit is \"Hungry\", tap that Spirit then gift her food. \n\n9. Sometimes, Spirits will request a date. Check \"Outing Date\" and \"Planned Date\" icon on avatar frames. Tap them to begin these dates.",
     },
     [410019] = {
         id = 410019,
@@ -102813,7 +102937,7 @@ return {
     },
     [266626] = {
         id = 266626,
-        text = "You can get this avatar frame by activating month card July",
+        text = "You can get this avatar frame by activating month card in July",
     },
     [270722] = {
         id = 270722,
@@ -103057,7 +103181,7 @@ return {
     },
     [21023] = {
         id = 21023,
-        text = "Type: Astral Dress\nOwner: Inverse Tohka\nThe dark violet with plated armor no only fits her well but also provides high Spirit Power.",
+        text = "Type: Astral Dress\nOwner: Inverse Tohka\nThe dark violet with plated armor not only fits her well but also provides high Spirit Power.",
     },
     [441140] = {
         id = 441140,
@@ -103797,11 +103921,11 @@ return {
     },
     [3005021] = {
         id = 3005021,
-        text = "Particle world has been purified",
+        text = "Sephira world has been purified",
     },
     [3005023] = {
         id = 3005023,
-        text = "Particle world hasn't been completely eroded.",
+        text = "Sephira world hasn't been completely eroded.",
     },
     [3005025] = {
         id = 3005025,
@@ -103989,7 +104113,7 @@ return {
     },
     [200025] = {
         id = 200025,
-        text = "Available after buying or upgrading [Cat's Request]",
+        text = "Available after buying or upgrading [Growth Breakthrough]",
     },
     [1701407] = {
         id = 1701407,
@@ -104037,7 +104161,7 @@ return {
     },
     [25010] = {
         id = 25010,
-        text = "The proof of your prowess in Endless Corridor and the common currency at Endless Store.",
+        text = "The proof of your powers in Endless Corridor and the common currency at Endless Store.",
     },
     [244005] = {
         id = 244005,
@@ -106133,7 +106257,7 @@ return {
     },
     [1420061] = {
         id = 1420061,
-        text = "Reward - [Heart Stealer]",
+        text = "Reward - [Growth Guardian]",
     },
     [1420059] = {
         id = 1420059,
@@ -109269,7 +109393,7 @@ return {
     },
     [21058] = {
         id = 21058,
-        text = "Type: Astral Dress\nOwner: Natsumi\nAstral Dress - <Adonai Tzabaoth>. The witch-style magic Astral Dress changes its appearance as Natsumi wants. The emerald on the hat has different symbol and shape in different forms.",
+        text = "Type: Astral Dress\nOwner: Natsumi\nAstral Dress - <Adonai Tzabaoth>. The witch-style magic Astral Dress changes its appearance as Natsumi wants. The emerald on the hat has different symbols and shape in different forms.",
     },
     [14055] = {
         id = 14055,
@@ -109847,9 +109971,9 @@ return {
         id = 190000051,
         text = "You can buy this avatar frame at the Exclusive Pack in Month Card in June.",
     },
-    [41116] = {
-        id = 41116,
-        text = "SS Class Gem Scroll, obtain it to get a SS Class Gem Scroll for a random skill of [Inverse Tohka]. (Auto used once obtained)",
+    [190000083] = {
+        id = 190000083,
+        text = "Complete Daily Date 10 times",
     },
     [21071] = {
         id = 21071,
@@ -110165,7 +110289,7 @@ return {
     },
     [13230] = {
         id = 13230,
-        text = "EXP used for \"Heart Stealer\". Obtained from daily quests and Heart Stealer weekly quests",
+        text = "EXP used for \"Growth Guardian\". Obtained from daily quests and Growth Guardian weekly quests",
     },
     [28113] = {
         id = 28113,
@@ -118933,7 +119057,7 @@ return {
     },
     [310013] = {
         id = 310013,
-        text = "There are Spirit in team that can't be deployed. Please adjust your team",
+        text = "There is Spirit in team that can't be deployed. Please adjust your team",
     },
     [900632] = {
         id = 900632,
@@ -119173,7 +119297,7 @@ return {
     },
     [265127] = {
         id = 265127,
-        text = "Join the [Cat's Recognition] event to obtain this avatar",
+        text = "Join the [Growth Boost] event to obtain this avatar",
     },
     [900662] = {
         id = 900662,
@@ -119197,7 +119321,7 @@ return {
     },
     [23016] = {
         id = 23016,
-        text = "The pillow printed with delicate picture of Spirits. Designed so well that it makes you feel like holding your waifu in arms. (If you have this, contact Customer Support when the event is over and claim the physical product)",
+        text = "The pillow printed with delicate pictures of Spirits. Designed so well that it makes you feel like holding your waifu in arms. (If you have this, contact Customer Support when the event is over and claim the physical product)",
     },
     [900665] = {
         id = 900665,

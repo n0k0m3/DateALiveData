@@ -47198,7 +47198,7 @@ return {
             [250123] = 1,
         },
         showBeginTime = "",
-        openContVal = 1,
+        openContVal = 99,
         title = 0,
         sellDescribtion = "2003",
         showEndTime = "",
