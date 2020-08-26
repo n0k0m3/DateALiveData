@@ -6,37 +6,47 @@ local GiftPos = {
     {{135,183},{90,91},{190,91}},
     {{90,183},{190,183},{90,91},{190,91}}
 }
+local SuperType = {
+	daily = 64,
+	common = 65
+}
 
-function TokenPopView:initDta(data, type)
+function TokenPopView:initDta(data, defaultPrice)
     self.data = data or {}
     self.goodsId = data;
+	self.defaultPrice = defaultPrice
     self.goodsData = RechargeDataMgr:getOneRechargeCfg(self.goodsId);
-    self.price = self.goodsData.exchangeCost[1].num;
+    self.price = self.defaultPrice or self.goodsData.exchangeCost[1].num;
     self.exchangeId = self.goodsData.exchangeCost[1].id;
 
-    self.couponData = {};
-    for __,_type in pairs(self.goodsData.packType or {}) do
+    self.couponData = {[SuperType.common] = {},  [SuperType.daily] = {}};
+    for __,_type in pairs(SuperType) do
+		self.couponData[_type] = {}
         local couponData = GoodsDataMgr:getItemsBySuperTyper(_type);
         for k,v in pairs(couponData) do
-            table.insert(self.couponData,v);
+            table.insert(self.couponData[_type],v);
         end
     end
 
-    table.sort(self.couponData,function (a,b)
+	for k, v in pairs(self.couponData) do
+		table.sort(v,function (a,b)
                 if a.cid == b.cid then
                     return a.outTime < b.outTime
                 else
                     return a.cid < b.cid
                 end
         end)
-
+	end
+   
     -- 当前选中使用的优惠卷数量
     self.selectNum = 1
     -- 当前选中优惠卷id
     self.selectIdx = nil;
+	self.curTab = SuperType.daily
 
     self.selectCoupon = nil;
-
+	self.selectItem = nil
+	
     self.selectAwards = {}
 
     self.listViewItems = {}
@@ -54,9 +64,19 @@ end
 function TokenPopView:initUI(ui)
     self.super.initUI(self,ui) 
 
+	self.Image_tokenPopView_1 = ui:getChildByName("Image_tokenPopView_1")
+	self.Image_tokenPopView_1:setVisible(true)
+	self.Image_tokenPopView_2 = ui:getChildByName("Image_tokenPopView_2")
+	self.Image_tokenPopView_2:setVisible(false)
+
     self.listView = UIListView:create(self._ui.listview)
-    self.listView:setItemsMargin(10)
+    self.listView:setItemsMargin(3)
     self:updateLeftView()
+
+	self.btn1Image = self._ui.btn1:getChildByName("imgSelect")
+	self.btn1Image:setVisible(true)
+	self.btn2Image = self._ui.btn2:getChildByName("imgSelect")
+	self.btn2Image:setVisible(false)
 
     self.awardView = UIListView:create(self._ui.awardView)
     self.awardView:setItemsMargin(5)
@@ -66,20 +86,47 @@ function TokenPopView:initUI(ui)
     self._ui.imgToken:setTexture(exchangeCfg.icon);
     self._ui.imgToken:setSize(CCSizeMake(45,45));
 
-    TFDirector:getChildByPath(ui , "Label_tokenPopView_2"):hide()
+	self._ui.imgTokenDiscount:setTexture(exchangeCfg.icon);
+	self._ui.imgTokenDiscount:setSize(CCSizeMake(45,45));
+
+	self._ui.originPriceIcon:setTexture(exchangeCfg.icon);
+    self._ui.originPriceIcon:setSize(CCSizeMake(45,45));
 
     self:refreshBottomPannel();
+	self:addCountDownTimer()
+	self:setBuyLimitTips()
+end
+
+function TokenPopView:setBuyLimitTips()
+  	local exsit = true
+	for __,_type in pairs(self.goodsData.packType or {}) do
+		if _type == SuperType.daily then
+			exsit = false
+			break;
+		end
+	end
+	if exsit then
+		self._ui.useLimitTip:setVisible(true)
+		self._ui.useLimitTip:setTextById(14220110)
+	else
+		self._ui.useLimitTip:setVisible(false)
+	end
 end
 
 function TokenPopView:updateCountDown()
-    local remainTime = math.max(0, self.selectCoupon.outTime - ServerDataMgr:getServerTime())
-    if remainTime == 0 then
-        self:removeCountDownTimer()
-        self._ui.labShowTip2:setTextById(301010)
-    else
-        local day, hour, min = Utils:getTimeDHMZ(remainTime)
-        self._ui.labShowTip2:setTextById(301005, day,hour, min)
-    end
+	for k,v in pairs(self.listViewItems) do
+		local remainTime = math.max(0, v.Coupon.outTime - ServerDataMgr:getServerTime())
+		if remainTime == 0 then
+--		    self:removeCountDownTimer()
+		    v.time:setTextById(301010)			
+		else
+			
+		    local day, hour, min = Utils:getTimeDHMZ(remainTime)
+		    v.time:setTextById(800044, day,hour, min)
+			v.time:setVisible(true)
+		end
+		v.remainTime = remainTime
+	end
 end
 
 function TokenPopView:onCountDownPer()
@@ -108,7 +155,13 @@ function TokenPopView:registerEvents()
         btn:onClick(function()
             if i ~= self.curChooseType then
                 self.curChooseType = i
+				if SuperType.daily == self.curTab then
+					self.curTab = SuperType.common
+				else
+					self.curTab = SuperType.daily
+				end
                 self:updateLeftView()
+				self:refreshBottomPannel()
             end
         end)
     end
@@ -147,12 +200,16 @@ function TokenPopView:registerEvents()
             local item = self.listViewItems[v]
             item.imgSelect:hide();
         end
-        self:removeCountDownTimer();
+--        self:removeCountDownTimer();
         self.oldLine = nil;
         self.oldrow  = nil;
         self.selectIdx = nil;
-        self.selectCoupon = nil;
-        self:refreshBottomPannel()
+        self.selectCoupon = nil; 
+		if self.selectItem then    
+			self.selectItem.imgSelect:setVisible(false)
+			self.selectItem = nil
+		end
+		self:refreshBottomPannel()
     end)
 
     -- 确定按钮
@@ -236,74 +293,88 @@ function TokenPopView:holdDownAction(isAddOp)
     self.timer = TFDirector:addTimer(0, -1, nil, action)
 end
 
-function TokenPopView:addItem()
-    local item = self._ui.viewItem:clone()
+function TokenPopView:addItem(idx)
+
+    local item = self._ui.Panel_cardItem:clone()
     local tab = {}
     tab.rewards = {}
+	tab.remainTime = 1
+	tab.idx = idx
     tab.root = item
+	tab.root:setTouchEnabled(true)
+--	tab.root:setSwallowTouches(true)
     tab.imgSelect = item:getChildByName("imgSelect")
     tab.imgSelect:setVisible(false)
-    for i = 1, 4 do
-        local foo = {}
-        foo.goodsItem = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
-        foo.goodsItem:setScale(0.7)
-        foo.goodsItem:AddTo(item:getChildByName(string.format("itemPos%d",i))):Pos(0,0):ZO(-1)
-        tab.rewards[i] = foo
-    end
+
+    tab.icon = item:getChildByName("icon")
+    tab.icon:setVisible(true)
+	local goodsItem = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
+	goodsItem:AddTo(tab.icon)
+	goodsItem:setPosition(0,0)
+	goodsItem:setScale(0.9)
+
+	local Coupon = self.couponData[self.curTab][tab.idx];
+    local CouponCfg = GoodsDataMgr:getItemCfg(Coupon.cid)
+	tab.Coupon = Coupon
+	tab.CouponCfg = CouponCfg
+	tab.time = item:getChildByName("time")
+	tab.des = item:getChildByName("des")	
+	tab.des:setTextById(CouponCfg.desTextId)
+	PrefabDataMgr:set_Panel_goodsItem(goodsItem, Coupon.cid)
+
+	tab.name = item:getChildByName("name")
+	tab.name:setTextById(CouponCfg.nameTextId)
     self.listViewItems[tab.root] = tab
     return item
 end
 
 function TokenPopView:updateLeftView()
-    -- for i, btn in ipairs(self._ui.pannelChooseBtns:getChildren()) do
-    --     local imgSelect = btn:getChildByName("imgSelect")
-    --     imgSelect:setVisible(self.curChooseType == i)
-    -- end
+     for i, btn in ipairs(self._ui.pannelChooseBtns:getChildren()) do
+         local imgSelect = btn:getChildByName("imgSelect")
+         imgSelect:setVisible(self.curChooseType == i)
+     end
 
-    local tt = #(self.couponData)--self.curChooseType == 1 and 0 or 9 --TODO
+    local tt = #(self.couponData[self.curTab])--self.curChooseType == 1 and 0 or 9 --TODO
     self._ui.labNullShow:setVisible(tt == 0)
     if self.goodsData.packType then
         self._ui.labNullShow:setTextById(223508)
     else
         self._ui.labNullShow:setTextById(223509)
     end
-    self._ui.labShowTip1:setVisible(not self._ui.labNullShow:isVisible())
-    --self._ui.pannelContentRight:setVisible(not self._ui.labNullShow:isVisible())
-    --self._ui.pannelbottom:setVisible(not self._ui.labNullShow:isVisible())
 
-    local nums = math.ceil(tt / 4)
-    local items = self.listView:getItems()
-    local gap = nums - #items
-    if gap > 0 then
-        for i = 1, math.abs(gap) do
-            local item = self:addItem()
+	self.listView:removeAllItems()
+	self.listViewItems = {}
+	self.selectItem = nil
+	self.selectIdx = nil
+    if tt > 0 then
+        for i = 1, math.abs(tt) do
+            local item = self:addItem(i)
             item:setName("item"..i)
             self.listView:pushBackCustomItem(item)
         end
     else
-        for i = 1, math.abs(gap) do
-            self.listView:removeItem(1)
-        end
+--        for i = 1, math.abs(gap) do
+--            self.listView:removeItem(1)
+--        end
     end
+
+	if table.indexOf(self.goodsData.packType or {}, self.curTab) == -1  then
+		self._ui.touch_mask:setVisible(tt > 0)
+		self._ui.maskTip:setTextById(14220110)
+		self._ui.maskTip:setVisible(tt > 0)
+	else
+		self._ui.touch_mask:setVisible(false)
+		self._ui.maskTip:setVisible(false)
+	end
 
     local index = 1;
     for i, v in ipairs(self.listView:getItems()) do
-        item = self.listViewItems[v]
-        for j, award in ipairs(item.rewards) do
-            local lastLineNum =  tt - (i - 1)*4
-            if lastLineNum >= j then
-                PrefabDataMgr:setInfo(award.goodsItem, self.couponData[index].cid) --TODO
-                award.goodsItem:show()
-                award.goodsItem.idx = index;
-                award.goodsItem:onClick(function(sender)
-                    -- self.selectId = id  --TODO
-                    self:chooseSelect(i,j,award.goodsItem.idx)
-                end)
-                index = index + 1;
-            else
-                award.goodsItem:hide()
-            end
-        end
+        local tab = self.listViewItems[v]
+
+		tab.root:onClick(function(sender)
+            self:chooseSelect(tab)		
+        end)
+		
     end
     if tt == 0 then 
         return
@@ -329,37 +400,6 @@ function TokenPopView:addAwardItem()
 end
 
 function TokenPopView:updateAwardView()
-    -- local nums = math.ceil(#(self.goodsData.item) / 2)
-    -- local items = self.awardView:getItems()
-    -- local gap = nums - #items
-    -- if gap > 0 then
-    --     for i = 1, math.abs(gap) do
-    --         local item = self:addAwardItem()
-    --         item:setName("item"..i)
-    --         self.awardView:pushBackCustomItem(item)
-    --     end
-    -- else
-    --     for i = 1, math.abs(gap) do
-    --         self.awardView:removeItem(1)
-    --     end
-    -- end
-
-    -- local index = 1;
-    -- for i, v in ipairs(self.awardView:getItems()) do
-    --     item = self.awardViewItems[v]
-    --     for j, award in ipairs(item.rewards) do
-    --         local lastLineNum =  #(self.goodsData.item) - (i - 1) * 2
-    --         if lastLineNum >= j then
-    --             local id = self.goodsData.item[index].id
-    --             PrefabDataMgr:setInfo(award.goodsItem, id, self.goodsData.item[index].num) --TODO
-    --             --TFDirector:getChildByPath(award.goodsItem, "Image_frame"):hide();
-    --             award.diBg:show()
-    --             index = index + 1
-    --         else
-    --             award.diBg:hide()
-    --         end
-    --     end
-    -- end
 
     local item = self.goodsData.item or {}
     local posIndex = #item;
@@ -369,41 +409,32 @@ function TokenPopView:updateAwardView()
         item:setScale(0.8)
         self._ui.pannelContentRight:addChild(item);
         local pos = GiftPos[posIndex][k];
-        item:setPosition(pos[1],pos[2]);
+        item:setPosition(pos[1] +40,pos[2]);
     end
 end
 
 -- 
-function TokenPopView:chooseSelect(line,row,index)
-    local item, sender, imgSelect
-    local function getByLr(_line, _row)
-        item = self.listView:getItems()[_line]
-        sender = item:getChildByName(string.format( "itemPos%d",_row))
-        imgSelect = item:getChildByName("imgSelect")
-    end
-    if self.oldLine and  self.oldrow  then
-        getByLr(self.oldLine, self.oldrow)
-        imgSelect:setVisible(false)
-    end
-    getByLr(line, row)
-    imgSelect:setPosition(sender:getPosition())
-    imgSelect:setVisible(true)
-    self.listView:doLayout()
-    self.oldLine = line
-    self.oldrow  = row
+function TokenPopView:chooseSelect(tab)
+    self.selectIdx = tab.idx  
+	if self.selectItem then
+		self.selectItem.imgSelect:setVisible(false)
+	end
+	tab.imgSelect:setVisible(true)
+	self.selectItem = tab
 
-    self.selectIdx = index
-    self:refreshBottomPannel()
+	self:refreshBottomPannel()
 end
 
 function TokenPopView:refreshBottomPannel()
     local oneCoupon,oneCouponCfg;
-    if self.couponData and table.count(self.couponData) > 0 and self.selectIdx then
-        oneCoupon = self.couponData[self.selectIdx];
+    if self.couponData and self.couponData[self.curTab] and table.count(self.couponData[self.curTab]) > 0 and self.selectIdx then
+        oneCoupon = self.couponData[self.curTab][self.selectIdx];
         oneCouponCfg = GoodsDataMgr:getItemCfg(oneCoupon.cid)
         self._ui.labShowTip1:setTextById(oneCouponCfg.desTextId);
         self.selectCoupon = oneCoupon;
-        self:addCountDownTimer();
+--        self:addCountDownTimer();
+
+		self._ui.discountScale:setTextById(277004, math.floor(oneCouponCfg.useProfit.discount / 10 ))
     end
 
     local price = self.price;
@@ -415,6 +446,11 @@ function TokenPopView:refreshBottomPannel()
     end
 
     self._ui.labTokenNum:setString(price)
+	self._ui.originPriceLab:setString(self.price)
+	self._ui.labTokenNumDiscount:setString(price)
+
+	self.Image_tokenPopView_1:setVisible(not self.selectItem or self.selectItem.remainTime <= 0)
+	self.Image_tokenPopView_2:setVisible(self.selectItem and self.selectItem.remainTime > 0)
 end
 
 function TokenPopView:removeUI()

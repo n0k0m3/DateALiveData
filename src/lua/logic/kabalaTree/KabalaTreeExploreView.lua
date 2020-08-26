@@ -1709,6 +1709,11 @@ function KabalaTreeExploreView:onTriggerMiniGame(data)
     Utils:openView("kabalaTree.KabalaTreeGame",data)
 end
 
+
+function KabalaTreeExploreView:onOpenKabalaStore(newItem,nextTime )
+    Utils:openView("kabalaTree.KabalaTreeStore" ,{newItem = newItem , nextTime = nextTime})
+end
+
 -------------------------------消息反馈----------------------------
 function KabalaTreeExploreView:onGetWorldInfo(worldNameID)
 
@@ -1814,7 +1819,7 @@ function KabalaTreeExploreView:onRecvTriggerEvent(eventId,tiledPosMN)
             end,0.6)
         end
     elseif eventType == Enum_TriggerEventType.EventType_Store then        
-        Utils:openView("kabalaTree.KabalaTreeStore")
+        TFDirector:send(c2s.QLIPHOTH_SHOP_INFO, {})
     elseif eventType == Enum_TriggerEventType.EventType_ConcealBoss then
         dump(targetTab)
         Utils:openView("kabalaTree.KabalaTreeConcealBoss",eventId,oilCost,targetTab)
@@ -1977,6 +1982,8 @@ function KabalaTreeExploreView:registerEvents()
     EventMgr:addEventListener(self,EV_UPDATE_HIDDENEVENT,handler(self.onUpdateHiddenEvent, self))
     EventMgr:addEventListener(self,EV_PLAY_HIDDENEVENT_EFFECT,handler(self.onSpawnHiddenEvent, self))
     EventMgr:addEventListener(self,EV_TRRIGGER_MINIGAME,handler(self.onTriggerMiniGame, self))
+    EventMgr:addEventListener(self,EV_QLIPHOTH_SHOP_INFO,handler(self.onOpenKabalaStore, self))
+
 
 
     self:setMainBtnCallback(function()

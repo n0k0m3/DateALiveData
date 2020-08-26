@@ -3896,7 +3896,7 @@ return {
         nextCondition = 0,
         open = 1,
         preCondition = 0,
-        finishParams = "",
+        finishParams = "{\"datingType\":2}",
         group = 196,
         taskParam = "",
         reward = "{500005:50,510155:2,500074:300,510105:2}",

@@ -13,6 +13,7 @@ function FubenDataMgr:init()
     TFDirector:addProto(s2c.PLAYER_REPS_HELP_FIGHT_PLAYERS, self, self.onRecvFightAsstiant)
     TFDirector:addProto(s2c.DUNGEON_GET_LEVEL_GROUP_REWARD, self, self.onRecvLevelGroupReward)
     TFDirector:addProto(s2c.DUNGEON_UPDATE_LEVEL_GROUP_INFO, self, self.onRecvUpdateLevelGroupInfo)
+    TFDirector:addProto(s2c.DUNGEON_REFRESH_DUNGEON_LEVEL_GROUP_LIST, self, self.onRecvUpdateGroupListInfo)
     TFDirector:addProto(s2c.DUNGEON_LEVEL_INFOS, self, self.onRecvUpdateLevelInfo)
     TFDirector:addProto(s2c.DUNGEON_BUY_FIGHT_COUNT, self, self.onRecvBuyFightCount)
     TFDirector:addProto(s2c.ENDLESS_CLOISTER_RSP_ENDLESS_CLOISTER_INFO, self, self.onRecvEndlessInfo)
@@ -1121,9 +1122,12 @@ function FubenDataMgr:getPlotLevelRemainFightCount(levelCid)
     local levelInfo = self:getLevelInfo(levelCid)
     local remainCount = levelCfg.fightCount
     if levelInfo and levelInfo.fightCount then
+        local freeHadFightNum = levelInfo.freeCount or 0
         local buyCount = levelInfo.buyCount or 0
-        remainCount = math.max(0, levelCfg.fightCount + buyCount - levelInfo.fightCount)
+        remainCount = levelCfg.fightCount + buyCount - levelInfo.fightCount - freeHadFightNum 
     end
+    remainCount = remainCount + self:getFreePrivilegeNumById(levelCid)
+    remainCount = math.max(0, remainCount)
     return remainCount
 end
 
@@ -2448,6 +2452,18 @@ function FubenDataMgr:onRecvUpdateLevelGroupInfo(event)
     end
 end
 
+function FubenDataMgr:onRecvUpdateGroupListInfo(event)
+    local data = event.data
+    if not data then return end
+
+    self.levelGroupInfo_ = self.levelGroupInfo_ or {}
+    for k, v in ipairs(data.group or {}) do
+        self.levelGroupInfo_[v.cid] = v
+    end
+
+    EventMgr:dispatchEvent(EV_FUBEN_DAILYBUYCOUNT)
+end
+
 function FubenDataMgr:onRecvUpdateLevelInfo(event)
 	print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~FubenDataMgr:onRecvUpdateLevelInfo=");
     local data = event.data
@@ -2824,7 +2840,6 @@ function FubenDataMgr:getKsanLevelInfo(dungenLevel)
     return self.ksDungeonCityCfgMap[dungenLevel]
 end
 
-
 function FubenDataMgr:checkIsAllChapterPassWin()
     if not self.isNeedCheckAllPassWin then  return end
     local data = TabDataMgr:getData("DiscreteData",1100008).data
@@ -2835,6 +2850,266 @@ function FubenDataMgr:checkIsAllChapterPassWin()
     end
     self.isNeedCheckAllPassWin = false
     return true
+end
+-- 周卡月卡特权日常或剧场增加次数 108、109、110
+function FubenDataMgr:getFreePrivilegeNumById(levelCid)
+    local num = 0
+    local levelCfg = self:getLevelCfg(levelCid)
+    local levelGroup = self.levelGroupMap_[levelCfg.levelGroupId]
+    local isHavePrivilege1, cfg1 = RechargeDataMgr:getIsHavePrivilegeByType(108)
+    local isHavePrivilege2, cfg2 = RechargeDataMgr:getIsHavePrivilegeByType(109)
+    local isHavePrivilege3, cfg3 = RechargeDataMgr:getIsHavePrivilegeByType(110)
+    -- 日常困难地狱模式(周卡)
+    if isHavePrivilege1 then 
+        for type, v in pairs(cfg1.privilege.dungeonType) do
+            if type == levelGroup.dungeonType and v[levelCfg.dungeonType] then
+                for i, diffculty in ipairs(v[levelCfg.dungeonType]) do
+                    if levelCfg.difficulty == diffculty then
+                        num = num + cfg1.privilege.chance
+                        break
+                    end
+                end
+            end
+        end
+    end
+    -- 日常困难地狱模式(月卡)
+    if isHavePrivilege3 then 
+        for type, v in pairs(cfg3.privilege.dungeonType) do
+            if type == levelGroup.dungeonType and v[levelCfg.dungeonType] then
+                for i, diffculty in ipairs(v[levelCfg.dungeonType]) do
+                    if levelCfg.difficulty == diffculty then
+                        num = num + cfg3.privilege.chance
+                        break
+                    end
+                end
+            end
+        end
+    end
+
+    -- 剧场困难模式
+    if isHavePrivilege2 then
+        for type, v in pairs(cfg2.privilege.dungeonType) do
+            if type == levelGroup.dungeonType and v[levelCfg.dungeonType] and v[levelCfg.dungeonType][1] == levelCfg.difficulty then
+                num = num + cfg2.privilege.chance
+                break
+            end
+        end 
+    end
+    return num
+end
+
+--魔王试炼
+function FubenDataMgr:requestMonsterTrialInfo()
+	TFDirector:send(c2s.DUNGEON_REQ_GET_EXPERIMENT,{})
+end
+
+function FubenDataMgr:onRecvMonsterTrialInfo(evt)
+	if evt.data == nil then
+		return
+	end
+	dump(evt.data)
+	self.MonsterTrialInfo = nil
+	self.MonsterTrialInfo = clone(evt.data)
+	self.MonsterTrialInfo["experiment"] = self.MonsterTrialInfo["experiment"] or {}
+	self.MonsterTrialInfo["attackOrder"] = self.MonsterTrialInfo["attackOrder"] or {}
+	self.MonsterTrialInfo["heroBuff"] = self.MonsterTrialInfo["heroBuff"] or {}
+	self.MonsterTrialInfo["taskList"] = self.MonsterTrialInfo["taskList"] or {}
+
+	local exp = self.MonsterTrialInfo["experiment"]
+	for i = 1, #exp do
+		local config = TabDataMgr:getData("HighBoss", exp[i].id)
+		exp[i].position = config.position
+		exp[i].configHighBoss = config
+		exp[i].configDungeonLevel = TabDataMgr:getData("DungeonLevel", config.dungeonLevelId)
+	end
+	table.sort(exp, function(a,b)
+		return a.position < b.position
+	end)
+
+	self:initMonsterBuffList()
+
+	--dump(self.MonsterTrialInfo)
+
+	EventMgr:dispatchEvent(EV_RECV_MONSTER_TRIAL_INFO)
+end
+
+function FubenDataMgr:initMonsterBuffList()
+	self.MonsterLvlBufflist = {}
+
+	local attackOrder = self.MonsterTrialInfo["attackOrder"] or {}
+	
+	for i = 1, #attackOrder do
+		local temp = {
+			HighBossId = attackOrder[i],
+			Config = TabDataMgr:getData("HighBoss", attackOrder[i])
+		}			
+		table.insert(self.MonsterLvlBufflist, temp)
+	end
+end
+
+function FubenDataMgr:onRecvMonsterTrialSettlement(evt)
+	self.MonsterTrialSettlementData = evt.data
+	dump( evt.data)
+	local exp = self.MonsterTrialInfo["experiment"] or {}
+	for i = 1, #exp do
+		if exp[i].id == evt.data.id then
+			exp[i].score = evt.data.history
+			self:saveNewBuff(exp[i].id)
+			break;
+		end
+	end
+	EventMgr:dispatchEvent(EV_RECV_MONSTER_TRIAL_SETTLEMENT)
+end
+
+function FubenDataMgr:getMonsterTrialInfo()
+	return self.MonsterTrialInfo;
+end
+
+function FubenDataMgr:getMonsterTrialBuffListByLvId(Lv)
+	local highBossCfg = self:getMonsterTrialInfoByLvl(Lv)
+	local buffCfgList = self:getMonsterLvlBufflist(highBossCfg.id) or {}
+	local ret = {}
+	for k, v in pairs(buffCfgList) do
+		table.insert(ret, v.Config)
+	end
+	return ret
+end
+
+function FubenDataMgr:getMonsterTrialInfoByLvl(levelID)
+	local ret;
+	if levelID then
+		for k,v in pairs(self.MonsterTrialInfo["experiment"]) do
+			if levelID == v.configHighBoss.dungeonLevelId then
+				ret = v
+				break;
+			end
+		end
+	end
+	return ret
+end
+
+function FubenDataMgr:getMonsterTrialInfoByHighBoss(HighBossId)
+	local ret;
+	if HighBossId then
+		for k,v in pairs(self.MonsterTrialInfo["experiment"]) do
+			if HighBossId == v.id then
+				ret = v
+				break;
+			end
+		end
+	end
+	return ret
+end
+
+function FubenDataMgr:getMonsterTrialLvTotalScore()
+	local scroe = 0
+	for k,v in pairs(self.MonsterTrialInfo["experiment"] or {}) do		
+		scroe = scroe + v.score	
+	end
+	return scroe
+end
+
+function FubenDataMgr:getMonsterLvlBufflist(HighBossId)
+	local ret = {}
+	local exsit = false
+	for k, v in ipairs(self.MonsterLvlBufflist) do		
+		if HighBossId == v.HighBossId then
+			exsit = true
+			break;
+		end
+		table.insert(ret, v)
+	end
+	if not exsit and #ret == 0 then
+		ret = unpack(self.MonsterLvlBufflist)
+	end
+	return ret
+end
+
+function FubenDataMgr:saveNewBuff(highBossId)
+	if table.indexOf(self.MonsterTrialInfo["attackOrder"], highBossId) == -1 then
+		table.insert(self.MonsterTrialInfo["attackOrder"], highBossId)
+	end
+	self:initMonsterBuffList()
+end
+
+function FubenDataMgr:getMonsterTrialSettlementData()
+	self.MonsterTrialSettlementData = self.MonsterTrialSettlementData or {}
+	local lvlIDd = self.MonsterTrialSettlementData.id
+	local levelInfo = self:getMonsterTrialInfoByHighBoss(lvlIDd)	
+	local upParam = 0.0
+	if levelInfo.up then
+		local discreteCfg = TabDataMgr:getData("DiscreteData", 90021)
+		upParam = discreteCfg.data.upBilinear / 10000
+	end
+	self.MonsterTrialSettlementData.maxScore = levelInfo.configHighBoss.max * (1 + upParam) or 0
+	return self.MonsterTrialSettlementData
+end
+
+function FubenDataMgr:isMonsterTrialOpen()
+	local open = true
+	local date = TFDate(ServerDataMgr:getServerTime()):tolocal()
+	local discreteCfg = TabDataMgr:getData("DiscreteData", 90021)	
+	local today = date:getweekday() - 1
+	if today <= 0 then
+		today = today + 7
+	end
+	if today == discreteCfg.data.settlement then
+		open = false
+	end
+	return open
+end
+
+function FubenDataMgr:caculationMonsterScore(lvlId, costTime)
+	costTime = math.floor(costTime / 1000)
+
+	local discrete = TabDataMgr:getData("DiscreteData", 90021)
+	local LvlConfig = TabDataMgr:getData("DungeonLevel", lvlId)
+
+	local LvlInfo = self:getMonsterTrialInfoByLvl(lvlId)
+	local baseScore = LvlInfo.configHighBoss.max
+	local up = 0.0
+	if LvlInfo.up then		
+		up = discrete.data.upBilinear / 10000
+	end
+
+	local A = discrete.data.paramA
+	local B = discrete.data.paramB
+	local X = discrete.data.paramX
+	local Y = discrete.data.paramY
+	
+	if costTime > A then
+		baseScore = X + math.max(LvlConfig.time - costTime, 0) / Y
+	end
+	local total = baseScore * (1 + up)
+	dump({
+		lvlId= lvlId,
+		up= LvlInfo.up,
+		costTime= costTime,
+		A= A,
+		B= B,
+		X= X,
+		Y= Y,
+		time=LvlConfig.time,
+		total = total
+	})
+	print("caculationMonsterScore")
+	return total
+end
+
+function FubenDataMgr:getMonsterFullScoreRemainTime(costTime)
+	local discrete = TabDataMgr:getData("DiscreteData", 90021)
+	return math.max( math.floor(discrete.data.paramA -  costTime / 1000), 0)
+end
+
+function FubenDataMgr:getMonsterBuffByHeroId(heroId)
+	local ret;
+	for k,v in pairs(self.MonsterTrialInfo["heroBuff"] or {}) do		
+		if 	heroId == v.heroId then
+			ret = v.buffId
+			break;
+		end
+	end
+	return ret
 end
 
 return FubenDataMgr:new()

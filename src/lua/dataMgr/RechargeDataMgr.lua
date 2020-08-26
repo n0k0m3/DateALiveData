@@ -42,6 +42,10 @@ function RechargeDataMgr:init()
 
 	TFDirector:addProto(s2c.RECHARGE_RESP_RECEIVE_SYS_FUN_INFO,self,self.recvGrowFundList)
 	TFDirector:addProto(s2c.RECHARGE_RESP_GET_FUN_AWARD,self,self.recvGrowFundAwards)
+	TFDirector:addProto(s2c.RECHARGE_RESP_WEEK_CARD_INFO, self, self.onRecvWeekCardInfo)
+	TFDirector:addProto(s2c.RECHARGE_RESP_GET_WEEK_AWARD, self, self.onRecvWeekSignAward)
+
+	TFDirector:addProto(s2c.RECHARGE_PUSH_CHANGE_RECHARGE_CFG, self, self.recvGoodsList)
 
 	--s2c.RECHARGE_BUY_MONTH_CARD_INFO
 
@@ -74,7 +78,7 @@ function RechargeDataMgr:recvRechargeOk(event)
 	end
 
 	--月卡  
-	if cfg.days and cfg.days > 0 and cfg.type ~= 6 then
+	if cfg.days and cfg.days > 0 and cfg.type ~= 6 and cfg.type ~= 0 then
 		Utils:openView("store.MCardActivated")
 	end
 
@@ -83,7 +87,16 @@ function RechargeDataMgr:recvRechargeOk(event)
 	end
 
 	if reward and table.count(reward) > 0 then
-		Utils:showReward(reward);
+		local batchCount = event.data.buyCount
+		local tempReward = {}
+		if batchCount and batchCount > 1 then
+			for k, v in pairs(reward) do
+				table.insert(tempReward, {id = v.id, num=v.num * batchCount})
+			end
+		else
+			tempReward = reward
+		end
+		Utils:showReward(tempReward);
 	end
 
 	EventMgr:dispatchEvent(EV_RECHARGE_UPDATE);
@@ -98,6 +111,7 @@ function RechargeDataMgr:onLogin()
 	self:sendGetTotalPayRewardInfo()
 	self:sendGetTotalPayRewardCfg()
 	self:sendGetMonthCardInfo()
+	self:sendWeekCardInfo()
 
 	return {
 			s2c.RECHARGE_GET_RECHARGE_CFG,
@@ -130,8 +144,17 @@ end
 function RechargeDataMgr:getOrderNO(goodsid, extraInfo)
 	--[[判断是否代币兑换]]
 	local goods = self:getOneRechargeCfg(goodsid)
-	if goods and goods.buyType and goods.buyType == 1 then
-		Utils:openView("store.TokenPopView",goodsid);
+	if goods.buyType and goods.buyType == 1 then
+		if goods.packType and next(goods.packType) then
+			if goods.packType[1] == 1002 then
+				Utils:openView("store.TokenPopViewNew",goodsid);
+			else
+				Utils:openView("store.TokenPopView",goodsid);
+			end
+		else
+			Utils:openView("store.BuyConfirmView2", goodsid)
+		end
+		--Utils:openView("store.TokenPopView",goodsid);
 	else
 		local msg = {
 			goodsid,
@@ -316,7 +339,7 @@ function RechargeDataMgr:getLimitGiftData()
 	local list = {}
 
 	if not self.goodsList or not self.goodsList.rechargeGiftBagCfg then
-		return
+		return nil
 	end
 
 	
@@ -363,6 +386,57 @@ function RechargeDataMgr:getLimitGiftData()
 	list = tab1
 	return list
 end
+
+--英文版独有获取礼包方法
+function RechargeDataMgr:getGiftDataByInterfaceType(giftType)
+	local list = {};
+
+	if not self.goodsList or not self.goodsList.rechargeGiftBagCfg then
+		return
+	end
+	for k,v in pairs(self.goodsList.rechargeGiftBagCfg) do
+			if v.interfaceType == giftType then
+				table.insert(list,v);
+			end
+	end
+	local tab1 = {}
+	local tab2 = {}
+	for k,v in pairs(list) do
+		local left = v.buyCount - self:getBuyCount(v.rechargeCfg.id)
+		if left > 0 then
+			table.insert(tab1,v)
+		else
+			table.insert(tab2,v)
+		end
+	end
+
+	table.sort(tab1,function (a,b)
+
+		local buyCnt1 = a.buyCount - self:getBuyCount(a.rechargeCfg.id)
+		local buyCnt2 = b.buyCount - self:getBuyCount(b.rechargeCfg.id)
+
+		local orderId1 = a.rechargeCfg.id;--self:getGiftBagOrderId(a.rechargeCfg.id)
+		local orderId2 = b.rechargeCfg.id;--self:getGiftBagOrderId(b.rechargeCfg.id)
+		return orderId1 > orderId2
+	end)
+
+	table.sort(tab2,function (a,b)
+		
+		local buyCnt1 = a.buyCount - self:getBuyCount(a.rechargeCfg.id)
+		local buyCnt2 = b.buyCount - self:getBuyCount(b.rechargeCfg.id)
+		local orderId1 = a.rechargeCfg.id;--self:getGiftBagOrderId(a.rechargeCfg.id)
+		local orderId2 = b.rechargeCfg.id;--self:getGiftBagOrderId(b.rechargeCfg.id)
+		return orderId1 > orderId2
+	end)
+
+	for k,v in pairs(tab2) do
+		tab1[#tab1 + 1] = v
+	end
+
+	list = tab1;
+	return list;
+end
+
 
 function RechargeDataMgr:getNewBirdGiftData()
 	local list = {}
@@ -510,6 +584,7 @@ function RechargeDataMgr:recvGoodsList(event)
 	end
 
 	for k,v in pairs(self.goodsList.rechargeGiftBagCfg) do
+
 		if v.startDate then
 			table.insert(self.limitGoodsList,v)
 		end
@@ -585,6 +660,59 @@ function RechargeDataMgr:recvGrowFundAwards(event)
 	local data = event.data or {}
 	Utils:showReward(data.reward)
 	EventMgr:dispatchEvent(EV_RECHARGE_UPDATE)
+end
+
+function RechargeDataMgr:onRecvWeekCardInfo(event)
+	self.weekCardInfo = event.data
+	EventMgr:dispatchEvent(EV_WEEKCARD_UPDATE)
+	EventMgr:dispatchEvent(EV_PRIVILEGE_UPDATE, EC_CardPrivilege.Week)
+end
+
+function RechargeDataMgr:onRecvWeekSignAward(event)
+	local data = event.data or {}
+	Utils:showReward(data.rewards)
+end	
+
+function RechargeDataMgr:getWeekCardInfo()
+	return self.weekCardInfo
+end
+
+function RechargeDataMgr:getCardPrivilegeByType(type)
+	local tmp = {}
+	local tab = TabDataMgr:getData("Privilege")
+	for i, v in pairs(tab) do
+		if type and v.type == type then
+			table.insert(tmp, v)
+		end
+	end
+	return tmp
+end
+
+-- 根据id获取是否有对应特权和相应配置
+function RechargeDataMgr:getIsHavePrivilegeByType(id)
+	local _bool = false
+	local cfg   = nil
+	--英文版暂时屏蔽以下id
+	if id == 101 or id == 109 or id == 103 then
+		return _bool , cfg
+	end
+	local tab = TabDataMgr:getData("Privilege")
+	for i, v in pairs(tab) do
+		if v.privilegeId == id then
+			if v.type == EC_CardPrivilege.Month then
+				_bool = self.monthCard.etime > 0
+			elseif v.type == EC_CardPrivilege.Week then
+				_bool = self.weekCardInfo.etime > 0
+			end
+			cfg = v
+			break
+		end
+	end
+	if not cfg then
+		Box("ERROR ID:".. id)
+		return
+	end
+	return _bool, cfg
 end
 
 function RechargeDataMgr:getGrowFundById(id)
@@ -787,7 +915,6 @@ function RechargeDataMgr:updateRecordInfo(event)
 	self.recordInfo = self.recordInfo or {}
 
 	self.recordInfo[event.data.cid] = event.data;
-	--dump(self.recordInfo);
 end
 
 function RechargeDataMgr:updateMonthCardInfo(event)
@@ -796,6 +923,7 @@ end
 
 function RechargeDataMgr:recvMonthCard(event)
 	self.monthCard = event.data;
+	EventMgr:dispatchEvent(EV_PRIVILEGE_UPDATE, EC_CardPrivilege.Month)
 end
 
 function RechargeDataMgr:getMonthCardLeftTime()
@@ -992,13 +1120,26 @@ function RechargeDataMgr:sendMonthCardGiftBy(id)
 	TFDirector:send(c2s.RECHARGE_REQ_MONTH_CARD_STORE, {id})
 end
 
+-- 4387 周卡信息
+function RechargeDataMgr:sendWeekCardInfo()
+	TFDirector:send(c2s.RECHARGE_REQ_WEEK_CARD_INFO, {})
+end
+
+-- 4388
+function RechargeDataMgr:sendWeekCardSign()
+	TFDirector:send(c2s.RECHARGE_REQ_GET_WEEK_AWARD, {})
+end
+
+
 --==================== 累计充值 REQ BEGIN ====================
 
 --==================== 累计充值 RSP BEGIN ====================
 function RechargeDataMgr:recvTotalPayRewardInfo( event )
 	self.totalPayRewardInfo = event.data
-	--dump(event.data, "recvTotalPayRewardInfo: ")
+
 	EventMgr:dispatchEvent(EV_TRECHARGE_RES_TOTAL_PAY_REWARD_INFO)
+	
+	--dump(event.data, "recvTotalPayRewardInfo: ")
 end
 
 function RechargeDataMgr:recvTotalPayRewardCfg( event )
@@ -1308,10 +1449,17 @@ function RechargeDataMgr:getTokenMoneyData()
 	return list;
 end
 
-function RechargeDataMgr:RECHARGE_REQ_CHARGE_EXCHANGE(rechargeId,discountId)
+function RechargeDataMgr:RECHARGE_REQ_CHARGE_EXCHANGE(rechargeId,discountId,redPackId,bless,buyCount)
+	discountId = discountId or ""
+	redPackId = redPackId or 0
+	bless = bless or ""
+	buyCount = buyCount or 0
 	local msg = {
 		rechargeId,
-		discountId
+		discountId,
+		redPackId,
+		bless,
+		buyCount,
 	}
 
 	TFDirector:send(c2s.RECHARGE_REQ_CHARGE_EXCHANGE, msg)
@@ -1326,6 +1474,27 @@ function RechargeDataMgr:SendGrowFundRward(id)
 	TFDirector:send(c2s.RECHARGE_REQ_GET_FUN_AWARD,{id})
 end
 
+function RechargeDataMgr:currencyIsEnough(allCost, buyNum)
+	buyNum = buyNum or 1
+	local enough = true
+	local noEnoughItem;
+	for i = 1, #allCost do
+		local cost = allCost[i]
+        local haveNum = GoodsDataMgr:getItemCount(cost["id"])
+        if haveNum < cost["num"] * buyNum then
+			enough = false
+			noEnoughItem = cost
+			break;
+		end     
+    end
+	return enough, noEnoughItem
+end
+
+function RechargeDataMgr:getWeekCardCanSign()
+	local info = self:getWeekCardInfo()
+	local isHaveCard = tobool((info.etime - ServerDataMgr:getServerTime()) > 0)
+	return (isHaveCard and info.canSign)
+end
 --获取月卡信息
 function RechargeDataMgr:getMonthCardInfo(  )
 	return self.monthCard

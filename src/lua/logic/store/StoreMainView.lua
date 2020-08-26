@@ -182,6 +182,7 @@ end
 function StoreMainView:updateAssets()
     local storeId = self.storeData_[self.selectIndex_]
     local storeCfg = StoreDataMgr:getStoreCfg(storeId)
+    if not storeCfg then return end
 
     local items = self.ListView_assets:getItems()
     local gap = #storeCfg.showCurrency - #items
@@ -209,8 +210,9 @@ end
 function StoreMainView:updateRefreshInfo()
     local storeId = self.storeData_[self.selectIndex_]
     local storeCfg = StoreDataMgr:getStoreCfg(storeId)
-    local isAutoRefresh = storeCfg.autoRefreshCorn
+    if not storeCfg then return end
 
+    local isAutoRefresh = storeCfg.autoRefreshCorn
     self.Button_refresh:setVisible(storeCfg.manualRefresh)
     self.Panel_refresh_cost:setVisible(storeCfg.manualRefresh)
     self.Label_countDown:setTextById(302202)
@@ -223,18 +225,21 @@ function StoreMainView:updateRefreshInfo()
     local refreshCostId = storeCfg.refreshCostId
     local itemCfg = GoodsDataMgr:getItemCfg(refreshCostId)
     local outOfTime = count > #storeCfg.refreshCostNum
-    self.Button_refresh:setGrayEnabled(outOfTime)
-    self.Button_refresh:setTouchEnabled(not outOfTime)
+    local hasFreeRefresh = StoreDataMgr:isFreeRefreshByStoreId(storeId)
+    self.Button_refresh:setGrayEnabled(outOfTime and not hasFreeRefresh)
+    self.Button_refresh:setTouchEnabled(not outOfTime or hasFreeRefresh)
     self.Image_refreshIcon:setTexture(itemCfg.icon)
     self.Label_refreshCount:setText("x0")
     if outOfTime then return end
 
     local refreshCostNum = storeCfg.refreshCostNum[count]
-    self.Label_refreshCount:setTextById(302201, refreshCostNum)
+    if not hasFreeRefresh then
+        self.Label_refreshCount:setTextById(302201, refreshCostNum)
+    end
 end
 
 function StoreMainView:updateGoodsList()
-    if #self.storeData_ < 1 then
+    if not self.storeData_ or #self.storeData_ < 1 then
         return
     end
     local storeId = self.storeData_[self.selectIndex_]
@@ -266,6 +271,9 @@ function StoreMainView:updateGoodsList()
             foo.Image_open_time = TFDirector:getChildByPath(Image_diban, "Image_open_time"):hide()
             foo.Label_open_time = TFDirector:getChildByPath(foo.Image_open_time, "Label_open_time")
             foo.Image_zhezhao   = TFDirector:getChildByPath(item, "Image_zhezhao")
+            foo.Label_buy_tip   = TFDirector:getChildByPath(item, "Label_buy_tip"):hide()
+            foo.Panel_content   = TFDirector:getChildByPath(item, "Panel_content")
+
             local Panel_goodsItem = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
             Panel_goodsItem:ZO(1):AddTo(foo.Panel_head)
             Panel_goodsItem:Pos(0, 0)
@@ -316,7 +324,6 @@ function StoreMainView:updateGoodsItem(item, commodityId)
     local isBeginBuy = true
     if type(buyBeginTime) == "table" and buyBeginTime.year then
         local beginDate = TFDate(buyBeginTime.year, buyBeginTime.month, buyBeginTime.day, buyBeginTime.hour, buyBeginTime.min, buyBeginTime.sec)
-        print(beginDate)
         local serverTime = ServerDataMgr:getServerTime()
         local serverDate = TFDate(serverTime):tolocal()
         isBeginBuy = serverDate >= beginDate
@@ -351,6 +358,7 @@ function StoreMainView:updateGoodsItem(item, commodityId)
                 return
             end 
 
+            local callFunc = function ( ... )
             local isEnough = StoreDataMgr:currencyIsEnough(commodityId)
             if isBeginBuy then
                 if isEnough then
@@ -385,8 +393,35 @@ function StoreMainView:updateGoodsItem(item, commodityId)
             else
                 Utils:showTips(303048)
             end
+            end
+            local tipId = Utils:getStoreBuyTipId(StoreDataMgr:getCommodityCfg(commodityId).extendData, 2)
+            if tipId then
+                local args = {
+                    tittle = 2107025,
+                    reType = "buyGiftTip",
+                    content = TextDataMgr:getText(tipId),
+                    confirmCall = function ( ... )
+                        callFunc();
+                    end,
+                }
+                Utils:showReConfirm(args)
+                return
+            end
+            
+            callFunc();
     end)
 
+    foo.Button_buy:setVisible(true)
+    foo.Panel_content:setVisible(true)
+    foo.Label_buy_tip:setVisible(false)
+
+    local tipId = Utils:getStoreBuyTipId(commodityCfg.extendData, 1)
+    if tipId then
+        foo.Button_buy:setVisible(not tipId)
+        foo.Panel_content:setVisible(not tipId)
+        foo.Label_buy_tip:setTextById(tipId)
+        foo.Label_buy_tip:setVisible(tipId)
+    end
 
     local quality = goodsCfg.quality
     if goodsCfg.superType == EC_ResourceType.HERO then
@@ -437,9 +472,9 @@ function StoreMainView:updateGoodsItem(item, commodityId)
         foo.Image_cost_bg:setSize(CCSizeMake(194, 60))
     end
 
+    local isCanBuy, remainCount = StoreDataMgr:getRemainBuyCount(commodityId)
     if isBeginBuy then
         -- 限购
-        local isCanBuy, remainCount = StoreDataMgr:getRemainBuyCount(commodityId)
         local visible = #commodityCfg.sellDescribtion > 0
         foo.Label_countLimit:setVisible(visible)
         if foo.Label_countLimit.__richText then
@@ -450,6 +485,12 @@ function StoreMainView:updateGoodsItem(item, commodityId)
         end
         foo.Button_buy:setGrayEnabled(not isCanBuy)
         foo.Button_buy:setTouchEnabled(isCanBuy)
+    end
+    if not isCanBuy then
+        --优先判断是否能购买
+        foo.Button_buy:setVisible(true)
+        foo.Panel_content:setVisible(true)
+        foo.Label_buy_tip:setVisible(false)
     end
     if commodityCfg.storeId == 190000 and LeagueDataMgr:getUnionLevel() < commodityCfg.openContVal then
         foo.Button_buy:setGrayEnabled(true)
@@ -468,11 +509,17 @@ function StoreMainView:updateGoodsItem(item, commodityId)
     foo.Label_name:setTextById(goodsCfg.nameTextId)
 end
 
+function StoreMainView:updateData()
+    self.storeType = self.storeType or EC_StoreType.SUPPLY
+    self.storeData_ = StoreDataMgr:getOpenStore(self.storeType)
+end
+
 function StoreMainView:registerEvents()
     EventMgr:addEventListener(self, EV_STORE_BUYINFO_UPDATE, handler(self.onBuyInfoUpdateEvent, self))
     EventMgr:addEventListener(self, EV_STORE_REFRESH, handler(self.onRefreshEvent, self))
     EventMgr:addEventListener(self, EV_BAG_ITEM_UPDATE, handler(self.onItemUpdateEvent, self))
     EventMgr:addEventListener(self, EV_STORE_UPDATE_CFG, handler(self.onStoreCfgUpdateEvent, self))
+    EventMgr:addEventListener(self, EV_OFFLINE_EVENT, handler(self.removeCountDownTimer, self))
 
     for i, v in ipairs(self.tabBtn_) do
         v.Image_touch:onClick(function()
@@ -481,27 +528,35 @@ function StoreMainView:registerEvents()
     end
 
     self.Button_refresh:onClick(function()
-            local storeId = self.storeData_[self.selectIndex_]
-            local storeCfg = StoreDataMgr:getStoreCfg(storeId)
-            local storeInfo = StoreDataMgr:getStoreInfo(storeId)
-            local count = storeInfo.todayRefreshCount + 1
-            local refreshCostId = storeCfg.refreshCostId
-            local refreshCostNum = storeCfg.refreshCostNum[count]
-            if GoodsDataMgr:currencyIsEnough(refreshCostId, refreshCostNum) then
-                local function reaFresh()
-                    TFDirector:send(c2s.STORE_REFRESH_STORE, {storeId})
-                end
-                if MainPlayer:getOneLoginStatus(EC_OneLoginStatusType.ReConfirm_StoreFresh) then
-                    reaFresh()
-                else
-                    local rstr = TextDataMgr:getTextAttr(302205)
-                    local content = string.format(rstr.text, refreshCostNum, TabDataMgr:getData("Item", refreshCostId).icon)
-                    Utils:openView("common.ReConfirmTipsView", {tittle = 302206, content = content, reType = EC_OneLoginStatusType.ReConfirm_StoreFresh, confirmCall = reaFresh})
-                end
+        local storeId = self.storeData_[self.selectIndex_]
+        local storeCfg = StoreDataMgr:getStoreCfg(storeId)
+        local storeInfo = StoreDataMgr:getStoreInfo(storeId)
+        local count = storeInfo.todayRefreshCount + 1
+        local refreshCostId = storeCfg.refreshCostId
+        local refreshCostNum = storeCfg.refreshCostNum[count]
 
+        local function reaFresh()
+            TFDirector:send(c2s.STORE_REFRESH_STORE, {storeId})
+        end
+
+        if StoreDataMgr:isFreeRefreshByStoreId(storeId) then
+            reaFresh()
+            return
+        end 
+
+        if GoodsDataMgr:currencyIsEnough(refreshCostId, refreshCostNum) then
+            
+            if MainPlayer:getOneLoginStatus(EC_OneLoginStatusType.ReConfirm_StoreFresh) then
+                reaFresh()
             else
-                Utils:showAccess(refreshCostId)
+                local rstr = TextDataMgr:getTextAttr(302205)
+                local content = string.format(rstr.text, refreshCostNum, TabDataMgr:getData("Item", refreshCostId).icon)
+                Utils:openView("common.ReConfirmTipsView", {tittle = 302206, content = content, reType = EC_OneLoginStatusType.ReConfirm_StoreFresh, confirmCall = reaFresh})
             end
+
+        else
+            Utils:showAccess(refreshCostId)
+        end
     end)
 end
 
@@ -547,24 +602,23 @@ function StoreMainView:updateCountDonw()
                 self:removeStore(v)
             else
                 if i == self.selectIndex_ then
-                    local _, hour, min = Utils:getFuzzyDHMS(remainTime, true)
-                    self.Label_deadLine:setTextById(302203, hour, min)
+                    local day, hour, min = Utils:getFuzzyDHMS(remainTime, true)
                     self.Label_deadLine:show()
+                    self.Label_deadLine:setTextById(302203, day, hour, min)
                 end
             end
-
-        -- else
-        --     self.Label_deadLine:hide()
         end
     end
 end
 
 function StoreMainView:onBuyInfoUpdateEvent()
+    self:updateData()
     self:updateGoodsList()
     self:updateShowInfo()
 end
 
 function StoreMainView:onRefreshEvent(storeId)
+    self:updateData()
     self:updateRefreshInfo()
     self:updateGoodsList()
     self:updateShowInfo()
@@ -575,11 +629,13 @@ function StoreMainView:onClose()
 end
 
 function StoreMainView:onItemUpdateEvent()
+    self:updateData()
     self:updateAssets()
     self:updateGoodsList()
 end
 
 function StoreMainView:onStoreCfgUpdateEvent()
+    self:updateData()
     self:selectTabBtn(self.selectIndex_, true)
 end
 

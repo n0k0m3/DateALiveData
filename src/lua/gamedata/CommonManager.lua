@@ -508,6 +508,29 @@ function CommonManager:getNewGuyGifyBagFlage()
     return flag
 end
 
+function CommonManager:getNewGuyGiftBagIsCanJumpSecond( ... )
+    local playerId = MainPlayer:getPlayerId()
+    local serverTime =  ServerDataMgr:customUtcTimeForServerTimestap()
+    local saveTime = CCUserDefault:sharedUserDefault():getIntegerForKey(playerId.."NewGuyGifySecond")
+    local isJumpSecond = CCUserDefault:sharedUserDefault():getBoolForKey(playerId.."NewGuyGifySecondJump")
+    if not isJumpSecond and ( (saveTime > 0 and serverTime - saveTime > 24 * 3600 ) or saveTime <= 0 )  then
+        CCUserDefault:sharedUserDefault():setBoolForKey(playerId.."NewGuyGifySecondJump" , true)
+        return true
+    end
+    return false
+end
+
+--记录萌新礼包二次弹出时间点
+function CommonManager:saveNewGuyGiftBagIsCanJumpSecond( ... )
+    local playerId = MainPlayer:getPlayerId()
+    local saveTime = CCUserDefault:sharedUserDefault():getIntegerForKey(playerId.."NewGuyGifySecond")
+    if saveTime > 0 then
+        return
+    end
+    local serverTime =  ServerDataMgr:customUtcTimeForServerTimestap()
+    CCUserDefault:sharedUserDefault():setIntegerForKey(playerId.."NewGuyGifySecond" ,serverTime)
+end
+
 function CommonManager:setChristmasBagFlage(christmasBagOpen)
     self.christmasBagOpen = christmasBagOpen
 end

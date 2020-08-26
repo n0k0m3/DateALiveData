@@ -454,7 +454,7 @@ return {
                 icon = "icon/hero/frame/10119.png",
             },
             [8] = {
-                ShowEffect2 = "",
+                tg = "ui/monthcardNew1/bg.png",
                 ShowEffect1 = "",
                 name = 266531,
                 month = {
@@ -463,9 +463,10 @@ return {
                 },
                 describe = 266532,
                 icon = "icon/hero/frame/10128.png",
+                ShowEffect2 = "",
             },
             [9] = {
-                ShowEffect2 = "",
+                tg = "ui/monthcardNew1/bg9.png",
                 ShowEffect1 = "",
                 name = 266540,
                 month = {
@@ -474,6 +475,7 @@ return {
                 },
                 describe = 266541,
                 icon = "icon/hero/frame/10135.png",
+                ShowEffect2 = "",
             },
             [10] = {
                 ShowEffect2 = "",

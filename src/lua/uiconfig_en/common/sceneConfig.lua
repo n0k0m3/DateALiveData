@@ -329,5 +329,15 @@ local t = {
 			canLoad=true,
 			logic="",
 		},
+		{
+			name="buyTiliLayer",
+			ui ="buyTiliLayer.lua",
+			x=0,
+			y=0,
+			speed=0,
+			layer="common",
+			canLoad=true,
+			logic="",
+		},
 }
 return t

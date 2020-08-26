@@ -275,10 +275,19 @@ function StoreDataMgr:getBuyItemRecoverFromInfo(cid,count)
 end
 
 function StoreDataMgr:canContinueBuyItemRecover(cid)
+    local hadUseNum = 0
+    local isHavePrivilege, cfg = RechargeDataMgr:getIsHavePrivilegeByType(104)
+    local _cfg = self:getItemRecoverInfo(cid)
+    if isHavePrivilege and cfg.privilege.itemRecoverId == cid and _cfg then
+        if not _cfg.discountNum then
+            hadUseNum = cfg.privilege.chance
+        end
+    end 
+
     local itemRecoverCfg = self:getItemRecoverCfg(cid)
     local buyCount = self:getItemRecoverBuyCount(cid)
     local maxCount = #itemRecoverCfg.price
-    local remainCount = me.clampf(maxCount - buyCount, 0, maxCount)
+    local remainCount = me.clampf(maxCount + hadUseNum - buyCount, 0, maxCount)
     local canBuy = (remainCount > 0)
     return canBuy
 end
@@ -366,6 +375,19 @@ end
 function StoreDataMgr:getCommodityState(commodityCid)
     return self.commodityState[commodityCid] or  1;
 end
+
+-- 对应id有无免费刷新次数
+function StoreDataMgr:isFreeRefreshByStoreId(storeId)
+    local _bool = false
+    local isHavePrivilege, cfg = RechargeDataMgr:getIsHavePrivilegeByType(106)
+    local limitNum = cfg.privilege.storeTypeList[storeId]
+    local freeNum = self:getStoreInfo(storeId).freeNum or 0
+    if isHavePrivilege and limitNum and limitNum > freeNum then
+        _bool = true
+    end
+    return _bool
+end
+
 -----------------------------------------------------
 
 function StoreDataMgr:sendSellGoods(goods)
@@ -431,6 +453,10 @@ function StoreDataMgr:__handleStoreInfo(storeData)
                 }
             else
                 commodityCfg.buyEndTime = {}
+            end
+            commodityCfg.extendData = {}
+            if commodityCfg.extra then
+                commodityCfg.extendData = json.decode(commodityCfg.extra)
             end
 
             table.insert(self.commodity_[storeCid], commodityCfg.id)
@@ -526,7 +552,11 @@ function StoreDataMgr:onRecvResourceBuyLog(event)
         elseif v.ct == EC_SChangeType.UPDATE then
             newItem = self.itemRecoverInfo_[v.cid]
             oldItem = clone(newItem)
-            attrAssgin(newItem, v)
+            if nil == newItem then
+                self.itemRecoverInfo_[v.cid] = v
+            else
+                attrAssgin(newItem, v)
+            end
         elseif v.ct == EC_SChangeType.DELETE then
             oldItem = self.itemRecoverInfo_[v.cid]
             newItem = nil

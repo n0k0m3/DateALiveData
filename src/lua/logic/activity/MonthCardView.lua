@@ -34,20 +34,14 @@ function MonthCardView:registerEvents()
         RechargeDataMgr:sendMonthCardSignIn()
     end)
 
-    self._ui.Image_day7:setTouchEnabled(true)
-    self._ui.Image_day7:onClick(function(sender)
-        -- if self.extraPreviewPanel:isVisible() then
-        --     self.extraPreviewPanel:hide()
-        -- else
-            local reward = RechargeDataMgr:getMonthCardSignData().specialReward or {}
-            if #reward <= 0 then
-                return
-            end
-            Utils:previewReward(self.extraPreviewPanel, reward, 0.6)
-            -- self.extraPreviewPanel:Pos(0, 0)
-            -- self.extraPreviewPanel:show()
-        -- end
-    end)
+    -- self._ui.Image_day7:setTouchEnabled(true)
+    -- self._ui.Image_day7:onClick(function(sender)
+    --     local reward = RechargeDataMgr:getMonthCardSignData().specialReward or {}
+    --     if #reward <= 0 then
+    --         return
+    --     end
+    --     Utils:previewReward(self.extraPreviewPanel, reward, 0.6)
+    -- end)
 
     self.Button_buyCard_ios:onClick(function ( ... )
         local layer = require("lua.logic.store.MonthCard"):new({{998},RechargeDataMgr:getSubscribeMonthCardCfg()})
@@ -65,7 +59,7 @@ function MonthCardView:registerEvents()
 end
 
 function MonthCardView:initData()
-    self.signImgs = {}
+    -- self.signImgs = {}
     self.isDoubleCardOpen = ActivityDataMgr2:isOpen(EC_ActivityType2.DOUBLE_CARD)
 end
 
@@ -96,14 +90,11 @@ function MonthCardView:initUI(ui)
     self.Button_sign = TFDirector:getChildByPath(ui, "Button_sign")
     self.Image_double = TFDirector:getChildByPath(ui, "Image_double")
     self.Label_doubleTime = TFDirector:getChildByPath(ui, "Label_doubleTime")
-    self.Label_buyCard = TFDirector:getChildByPath(ui, "Label_buyCard")
     self.Label_leftDay = TFDirector:getChildByPath(ui, "Label_leftDay")
     TFDirector:getChildByPath(ui, "Image_signDay"):hide()
     self.Label_signDay = TFDirector:getChildByPath(ui, "Label_signDay")
     self.Label_signTips = TFDirector:getChildByPath(ui, "Label_signTips")
     self.Label_signTips:setTextById(1605001)
-    local price = TabDataMgr:getData("Recharge", 1).price
-    self.Label_buyCard:setText(TextDataMgr:getText(1605002).."\n"..TextDataMgr:getText(1605003, tostring(price)))
 
     for i = 1, 2 do
         local bttab = TFDirector:getChildByPath(ui, "Button_tab"..i)
@@ -113,11 +104,11 @@ function MonthCardView:initUI(ui)
         self["Panel_tab"..i] = TFDirector:getChildByPath(ui, "Panel_tab"..i)
     end
 
-    local Panel_signProgress = TFDirector:getChildByPath(ui, "Panel_signProgress")
-    for i = 1, 7 do
-        local img = TFDirector:getChildByPath(Panel_signProgress, "Image_day"..i)
-        table.insert(self.signImgs, img)
-    end
+    -- local Panel_signProgress = TFDirector:getChildByPath(ui, "Panel_signProgress")
+    -- for i = 1, 7 do
+    --     local img = TFDirector:getChildByPath(Panel_signProgress, "Image_day"..i)
+    --     table.insert(self.signImgs, img)
+    -- end
     self.Button_signExtra = TFDirector:getChildByPath(Panel_signProgress, "Button_signExtra")
     self.Panel_preview = TFDirector:getChildByPath(ui, "Panel_preview")
     -- self.extraPreviewPanel = Utils:previewReward()
@@ -135,7 +126,33 @@ function MonthCardView:initUI(ui)
     self.ListView_gift = UIListView:create(TFDirector:getChildByPath(ui, "ScrollView_gift"))
     self.ListView_gift:setItemsMargin(0)
 
+    self.ScrollView_welfare = UIListView:create(TFDirector:getChildByPath(ui, "ScrollView_welfare"))
+    self.ScrollView_welfare:setItemsMargin(10)
+    self.img_welfare = TFDirector:getChildByPath(ui, "img_welfare"):hide()
+
+    self:initWelfarelist()
     self:updateContentView()
+end
+
+function MonthCardView:initWelfarelist()
+    local cfgs = RechargeDataMgr:getCardPrivilegeByType(EC_CardPrivilege.Month)
+    for i = 1, #cfgs do
+        local item = self.img_welfare:clone()
+        item:show()
+        local lab_indexNum = TFDirector:getChildByPath(item, "lab_indexNum")
+        local lab_desc     = TFDirector:getChildByPath(item, "lab_desc")
+        lab_desc:setTextById(cfgs[i].describe)
+
+        local imgRes 
+        if i % 2 == 0 then
+            imgRes = "ui/weekCard/4.png"
+        else
+            imgRes = "ui/weekCard/5.png"
+        end 
+        item:setTexture(imgRes)
+        lab_indexNum:setText(i)
+        self.ScrollView_welfare:pushBackCustomItem(item)
+    end
 end
 
 function MonthCardView:updateContentView()
@@ -144,11 +161,10 @@ function MonthCardView:updateContentView()
     self:showGiftPanel(true)
     self:showSignPanel(true)
     self:updateBgRes()
-    self:addCountDownTimer()
 end
 
 function MonthCardView:updateBgRes()
-    local defaultRes = "ui/monthcardNew1/bg.png"
+    local defaultRes = "ui/monthcardNew1/bg_month.png"
     local cfg = TabDataMgr:getData("Portrait", 10003)
     if #cfg.toggle > 0  then
         local extraData = AvatarDataMgr:getExtraData()
@@ -172,21 +188,21 @@ function MonthCardView:showSignPanel(bupdate)
         local signdata = RechargeDataMgr:getMonthCardSignData()
 
         --签到进度
-        for i, v in ipairs(self.signImgs) do
-            v:show()
-            local imgNotget = v:getChildByName("imgNotget")
-            local imgPass = v:getChildByName("imgPass")
-            local imgNow = v:getChildByName("imgNow")
-            imgPass:setVisible(tobool(i <= signdata.signDays))
-            imgNotget:setVisible(tobool(i > signdata.signDays))
-            imgNow:setVisible(false)
-            if RechargeDataMgr:isMonthCardCanSign() then
-                if tobool(i == signdata.signDays + 1) then
-                    imgNow:setVisible(true)
-                    imgPass:setVisible(false)
-                end
-            end
-        end
+        -- for i, v in ipairs(self.signImgs) do
+        --     v:show()
+        --     local imgNotget = v:getChildByName("imgNotget")
+        --     local imgPass = v:getChildByName("imgPass")
+        --     local imgNow = v:getChildByName("imgNow")
+        --     imgPass:setVisible(tobool(i <= signdata.signDays))
+        --     imgNotget:setVisible(tobool(i > signdata.signDays))
+        --     imgNow:setVisible(false)
+        --     if RechargeDataMgr:isMonthCardCanSign() then
+        --         if tobool(i == signdata.signDays + 1) then
+        --             imgNow:setVisible(true)
+        --             imgPass:setVisible(false)
+        --         end
+        --     end
+        -- end
 
         --双倍
         if self.isDoubleCardOpen then
@@ -218,21 +234,21 @@ function MonthCardView:showSignPanel(bupdate)
         --额外奖励
         local extrareward = signdata.specialReward or {}
         local extday = signdata.extDay or 0
-        if extday > 1 then
-            self.Image_extraTipsBg:show()
+        -- if extday > 1 then
+        --     self.Image_extraTipsBg:show()
             -- self.Label_extraTips:setTextById("r2503", tostring(extday))
             self.Label_extraTips:setText(tostring(extday))
-            self.ListView_extra:setVisible(false)
-        else
+        --     self.ListView_extra:setVisible(false)
+        -- else
             self.ListView_extra:removeAllItems()
             for i, v in ipairs(extrareward) do
                 local reward = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone():Scale(0.6)
                 PrefabDataMgr:setInfo(reward, v.id, v.num)
                 self.ListView_extra:pushBackCustomItem(reward)
             end
-            self.ListView_extra:setVisible(true)
-            self.Image_extraTipsBg:hide()
-        end
+            -- self.ListView_extra:setVisible(true)
+            -- self.Image_extraTipsBg:hide()
+        -- end
 
         local havecard = tobool(RechargeDataMgr:getMonthCardLeftTime() > 0)
         local cansign = RechargeDataMgr:isMonthCardCanSign()
@@ -288,31 +304,6 @@ function MonthCardView:showGiftPanel(bupdate)
                 Utils:showReConfirm(args)
                 return
             end)
-            local monthCardInfo = RechargeDataMgr:getMonthCardInfo()
-            local label_time_limit = gift:getChild("label_time_limit")
-            if tobool(RechargeDataMgr:getMonthCardLeftTime() > 0) and v.ext.day and  monthCardInfo.lastEndTime and  monthCardInfo.lastGainDate ~= 0 then
-                local lastBuyTime = monthCardInfo.lastGainDate
-                local lastEndTime = monthCardInfo.lastEndTime
-                if lastEndTime > 0 and lastBuyTime - lastEndTime  <= v.ext.day * 24 * 3600    then
-                    label_time_limit:hide()
-                else
-                    label_time_limit:show()
-                    function calcShowTime(startTime , endTime , limitDay )
-                    local showTime
-                        if endTime > 0 then
-                           showTime =  startTime + (30+ limitDay) * 24 * 3600
-                        else
-                            showTime = startTime + (30+ limitDay) * 24 * 3600
-                        end
-                        return Utils:getTimeData(showTime)
-                    end
-                    local showCalcTime = calcShowTime(lastBuyTime , lastEndTime , v.ext.day)
-                    local timeStrShow = string.format("%s-%s-%s %02d:%02d:%02d" , showCalcTime.Year,showCalcTime.Month,showCalcTime.Day,showCalcTime.Hour,showCalcTime.Minute , showCalcTime.Second)
-                    label_time_limit:setTextById(190000043 ,timeStrShow)
-                end
-            else
-                label_time_limit:hide()
-            end
             local awardlistview = UIListView:create(gift:getChild("ScrollView_award"))
             awardlistview:setItemsMargin(4)
             local awardlist = v.items or {}
@@ -345,6 +336,11 @@ function MonthCardView:showGiftPanel(bupdate)
 
             local havecard = tobool(RechargeDataMgr:getMonthCardLeftTime() > 0)
             local countEnough = tobool(v.buyCount > 0)
+            for i,v in ipairs(awardlist) do
+                if v.id == 410209 and GoodsDataMgr:getItemCount(410209) > 0 then
+                    havecard = false
+                end
+            end
             btBuy:setTouchEnabled(havecard and bCostEnough and countEnough)
             btBuy:setGrayEnabled(not havecard or not bCostEnough or not countEnough)
 
@@ -392,26 +388,4 @@ function MonthCardView:onCheckMonthCardDouble()
     end
 end
 
-function MonthCardView:addCountDownTimer()
-    if not self.countDownTimer_ then
-        self.countDownTimer_ = TFDirector:addTimer(1000, count, nil, handler(self.onCountDownPer, self))
-    end
-end
-
-function MonthCardView:removeCountDownTimer()
-    if self.countDownTimer_ then
-        TFDirector:removeTimer(self.countDownTimer_)
-    end
-end
-
-function MonthCardView:onCountDownPer(dt)
-   local giftdata = RechargeDataMgr:getMonthCardGiftData()
-   for k ,v in pairs(giftdata) do
-
-   end
-end
-
-function MonthCardView:removeEvents( ... )
-    self:removeCountDownTimer()
-end
 return MonthCardView

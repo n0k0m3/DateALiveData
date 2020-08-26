@@ -32,6 +32,7 @@ function CrazyDiamondDataMgr:onRespCrazyDiamondDrawRsp( event )
 			_activity.ownCrazyDiamondRank = data.ownCrazyDiamondRank
 			_activity.diamondNum = data.diamondNum
 			_activity.surplusDraw = data.surplusDraw
+			_activity.totalMoney = data.totalMoney
 			exit = true
 			break
 		end
@@ -150,6 +151,16 @@ end
 --红点状态
 function CrazyDiamondDataMgr:getCrazyDiamondRedPoint( id )
 	return self:getSurplusDraw(id) > 0
+end
+
+--获取招财猫累充
+function CrazyDiamondDataMgr:getTotalPay(id )
+	for i,_activity in ipairs(self.activityList) do
+		if _activity.id == id then
+			return _activity.totalMoney
+		end
+	end
+	return 0
 end
 
 return CrazyDiamondDataMgr:new()

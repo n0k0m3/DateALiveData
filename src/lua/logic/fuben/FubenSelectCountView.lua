@@ -38,7 +38,16 @@ function FubenSelectCountView:refreshView()
     local costNum = self.levelCfg_.cost[1][2]
     local costCfg = GoodsDataMgr:getItemCfg(costCid)
     local starNum = FubenDataMgr:getStarNum(self.levelCid_)
-    for i, v in ipairs(self.levelCfg_.quickBattleParameter) do
+
+    local data = clone(self.levelCfg_.quickBattleParameter)
+    local cardPrivilegeFreeNum = FubenDataMgr:getFreePrivilegeNumById(self.levelCid_)
+    for i = 1, cardPrivilegeFreeNum do
+        local useTmp = clone(data[#data]) -- 用最后一个数据结构作为叠加
+        useTmp[1] = useTmp[1] + 1
+        table.insert(data, useTmp)
+    end
+
+    for i, v in ipairs(data) do
         local Panel_countItem = self.Panel_countItem:clone()
         self.ListView_content:pushBackCustomItem(Panel_countItem)
 

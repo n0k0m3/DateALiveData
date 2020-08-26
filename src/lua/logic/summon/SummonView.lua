@@ -1,12 +1,15 @@
 
 local SummonView = class("SummonView", BaseLayer)
 
-function SummonView:initData(paramIdx, selectHotTabIndex)
+function SummonView:initData(paramIdx, selectRightIndex)
     self.summon_ = SummonDataMgr:getSummon()
     dump(self.summon_)
     self.summonItems_ = {}
+    self.firstCostItemId_ = nil
+    self.fristCostItem_ = {}
     self.costItem_ = {}
-    self.selectHotTabIndex_ = selectHotTabIndex or 1
+    self.selectHotTabIndex_ = selectRightIndex or 1
+    self.selectClothse = selectRightIndex or 1
     self.paramIdx_ = paramIdx
 
     self.hotSpotData_ = {
@@ -19,6 +22,17 @@ function SummonView:initData(paramIdx, selectHotTabIndex)
             text = 1200065,
         },
     }
+    self.clothseData_ = {
+        [1] = {
+            type = EC_SummonType.CLOTHESE_1,
+            text = 15010089,
+        },
+        [2] = {
+            type = EC_SummonType.CLOTHESE_2,
+            text = 15010090,
+        },
+    }
+
     self.checkBtn = {}
 end
 
@@ -52,7 +66,14 @@ function SummonView:initUI(ui)
     self.Image_history = TFDirector:getChildByPath(self.Panel_root, "Image_history")
     self.Button_history = TFDirector:getChildByPath(self.Image_history, "Button_history")
     self.Image_history_pos = self.Image_history:Pos()
+
+    self.Image_firstCost = TFDirector:getChildByPath(self.Panel_root, "Image_firstCost"):hide()
+    self.Image_fistIcon = TFDirector:getChildByPath(self.Image_firstCost, "Image_fistIcon")
+    self.Label_fistHave = TFDirector:getChildByPath(self.Image_firstCost, "Label_have")
+    self.Label_fistCur = TFDirector:getChildByPath(self.Image_firstCost, "Label_cur")
+
     self.Image_curOwn = TFDirector:getChildByPath(self.Panel_root, "Image_curOwn")
+    self.Image_curOwn.initPosY = self.Image_curOwn:getPositionY()
     self.Image_ownIcon = TFDirector:getChildByPath(self.Image_curOwn, "Image_ownIcon")
     self.Label_have = TFDirector:getChildByPath(self.Image_curOwn, "Label_have")
     self.Label_cur = TFDirector:getChildByPath(self.Image_curOwn, "Label_cur")
@@ -61,8 +82,12 @@ function SummonView:initUI(ui)
         local item = {}
         item.root = TFDirector:getChildByPath(self.Panel_root, "Button_buy_" .. i)
         item.Label_summon = TFDirector:getChildByPath(item.root, "Label_summon")
+        item.Image_firstCostIcon = TFDirector:getChildByPath(item.root, "Image_firstCostIcon"):hide()
+        item.Label_firstCostNum = TFDirector:getChildByPath(item.root, "Label_firstCostNum"):hide()
         item.Image_costIcon = TFDirector:getChildByPath(item.root, "Image_costIcon")
         item.Label_costNum = TFDirector:getChildByPath(item.root, "Label_costNum")
+        item.initFirstPosX = item.Image_firstCostIcon:getPositionX()
+        item.initPosX = item.Image_costIcon:getPositionX()
         item.Image_upTips = TFDirector:getChildByPath(item.root, "Image_upTips"):hide()
         self.Button_buy[i] = item
     end
@@ -107,17 +132,40 @@ function SummonView:initUI(ui)
     self.Button_hotTab = {}
     for i = 1, 2 do
         self.Button_hotTab[i] = TFDirector:getChildByPath(self.Panel_hotSPot, "Button_hotTab_" .. i)
-        local Label_hotTab = TFDirector:getChildByPath(self.Button_hotTab[i], "Label_hotTab")
-        Label_hotTab:setTextById(self.hotSpotData_[i].text)
+        self.Button_hotTab[i].Label_hotTab = TFDirector:getChildByPath(self.Button_hotTab[i], "Label_hotTab")
+        -- Label_hotTab:setTextById(self.hotSpotData_[i].text)
     end
     local Image_hotCount = TFDirector:getChildByPath(self.Panel_hotSPot, "Image_hotCount")
     self.Label_hotCount_1 = TFDirector:getChildByPath(Image_hotCount, "Label_hotCount_1")
     self.Label_hotCount_2 = TFDirector:getChildByPath(Image_hotCount, "Label_hotCount_2")
     self.Label_hotCount = TFDirector:getChildByPath(Image_hotCount, "Label_hotCount")
+    self.pannel_lastTime = TFDirector:getChildByPath(self.Panel_hotSPot, "pannel_lastTime"):hide()
+    TFDirector:getChildByPath(self.Panel_hotSPot, "Label_lastTip"):setTextById(14300346)
+    self.lab_lastTime    = TFDirector:getChildByPath(self.pannel_lastTime, "lab_lastTime")
+
+
+    self.Panel_special    = TFDirector:getChildByPath(self.Panel_root, "Panel_special")
+    TFDirector:getChildByPath(self.Panel_special, "Label_tip2"):setTextById(15010061)
 
     self:refreshView()
     self:updateNoobReward()
     SummonDataMgr:resetAlreadyHaveHero()
+    SummonDataMgr:resetAlreadyHaveItem()
+end
+
+function SummonView:refreshRightTabTxt()
+    if not self.currentSummon_ then
+        return
+    end
+    local summonCfg = SummonDataMgr:getSummonCfg(self.currentSummon_[1].id)
+    local summonType = summonCfg.summonType
+    for i, v in ipairs(self.Button_hotTab) do
+        if summonType == EC_SummonType.HOT_ROLE or summonType == EC_SummonType.HOT_EQUIPMENT then
+            v.Label_hotTab:setTextById(self.hotSpotData_[i].text)
+        elseif summonType == EC_SummonType.CLOTHESE_1 or summonType == EC_SummonType.CLOTHESE_2 then
+            v.Label_hotTab:setTextById(self.clothseData_[i].text)
+        end
+    end
 end
 
 function SummonView:addSummonItem(i)
@@ -164,6 +212,7 @@ end
 function SummonView:updateSelectInfo()
 
     local summon = self.currentSummon_
+    self.viewSelectSummon_ = summon
     local summonCfg = SummonDataMgr:getSummonCfg(summon[1].id)
     local summonType = summonCfg.summonType
     self.Image_ad:setTexture(summonCfg.icon)
@@ -199,7 +248,7 @@ function SummonView:updateSelectInfo()
     end
 
     self.costItem_ = {}
-    local showCostCid
+    self.fristCostItem_ = {}
     for i, v in ipairs(self.Button_buy) do
         v.root:setVisible(tobool(summon[i]))
 
@@ -215,47 +264,95 @@ function SummonView:updateSelectInfo()
 
         v.Image_upTips:setVisible(summonCfg.up)
         if v.root:isVisible() then
-            local summonCfg = SummonDataMgr:getSummonCfg(summon[i].id)
-            v.Label_summon:setTextById(1200006, summonCfg.cardCount)
-            local desc = {
-                TextDataMgr:getText(summonCfg.ad1),
-                TextDataMgr:getText(summonCfg.ad2),
+            local subSummonCfg = SummonDataMgr:getSummonCfg(summon[i].id)
+            local cost = subSummonCfg.cost[1]
+            local costId, costNum
+            for id, num in pairs(cost) do
+                costId = id
+                costNum = num
+                break
+            end
+            
+            -- 特权召唤一次免费情况(仅限召唤一次的按钮)
+            if i == 1 and SummonDataMgr:isFreeBtnById(self.currentSummon_[i].id) then
+                v.Label_summon:setTextById(14300345)
+                costNum = 0
+            else
+                v.Label_summon:setTextById(1200006, subSummonCfg.cardCount)
+            end
+
+            local costCfg = GoodsDataMgr:getItemCfg(costId)
+            costicon = costCfg.icon
+            v.Image_costIcon:setTexture(costCfg.icon)
+            v.Label_costNum:setTextById(800007, costNum)
+            self.costItem_[i] = {
+                id = costId,
+                num = costNum,
             }
-            for j, cost in ipairs(summonCfg.cost) do
-                local costIndex = j
-                local costId, costNum
-                for id, num in pairs(cost) do
-                    costId = id
-                    costNum = num
+
+            v.Image_firstCostIcon:hide()
+            v.Label_firstCostNum:hide()
+            if subSummonCfg.firstCost and #subSummonCfg.firstCost > 0 then
+                local firstCost = subSummonCfg.firstCost[1]
+                local firstCostId, firstCostNum
+                for id, num in pairs(firstCost) do
+                    firstCostId = id
+                    firstCostNum = num
                     break
                 end
 
-                if not showCostCid then
-                    if GoodsDataMgr:getItemCount(costId) > 0 then
-                        showCostCid = costId
-                    else
-                        if j == #summonCfg.cost then
-                            showCostCid = costId
-                        end
-                    end
+                v.Image_firstCostIcon:show()
+                v.Label_firstCostNum:show()
+                v.Image_firstCostIcon:setTexture(GoodsDataMgr:getItemCfg(firstCostId).icon)
+
+                local ownNum = GoodsDataMgr:getItemCount(firstCostId)
+                if ownNum >= costNum then
+                    v.Label_firstCostNum:setTextById(800007, costNum)
+                    v.Label_costNum:setTextById(800007, 0)
+                else
+                    v.Label_firstCostNum:setTextById(800007, ownNum)
+                    v.Label_costNum:setTextById(800007, costNum - ownNum)
                 end
 
-                local costCfg = GoodsDataMgr:getItemCfg(costId)
-                costicon = costCfg.icon
-                v.Image_costIcon:setTexture(costCfg.icon)
-                v.Label_costNum:setTextById(800007, costNum)
-                self.costItem_[i] = {
-                    id = costId,
-                    num = costNum,
-                    index = costIndex,
+                self.fristCostItem_[i] = {
+                    id = firstCostId,
+                    num = firstCostNum,
                 }
-                if GoodsDataMgr:currencyIsEnough(costId, costNum) then
-                    break
-                end
+            end
+
+            v.Image_costIcon:setPositionX(v.initFirstPosX)
+            if v.Image_firstCostIcon:isVisible() then
+                v.Image_costIcon:setPositionX(v.initPosX)
             end
         end
     end
 
+    --判断是否有优先消耗的道具
+    self.Image_firstCost:hide()
+    if summonCfg.firstCost and #summonCfg.firstCost > 0 then
+        local firstCost = summonCfg.firstCost[1]
+        local firstCostId
+        for k, v in pairs(firstCost) do
+            firstCostId = k
+            break
+        end
+
+        if summonCfg.summonType ~= EC_SummonType.ELF_CONTRACT then
+            self.Image_firstCost:show()
+            local firstCostCfg = GoodsDataMgr:getItemCfg(firstCostId)
+            self.Image_fistIcon:setTexture(firstCostCfg.icon)
+            self.Label_fistCur:setTextById(800007, GoodsDataMgr:getItemCount(firstCostId))
+            self.Label_fistHave:setTextById(1200001, TextDataMgr:getText(firstCostCfg.nameTextId))
+        end
+        self.firstCostItemId_ = firstCostId
+    end
+
+    self.Image_curOwn:setScale(1)
+    self.Image_curOwn:setPositionY(self.Image_curOwn.initPosY)
+    if self.Image_firstCost:isVisible() then
+        self.Image_curOwn:setScale(0.8)
+        self.Image_curOwn:setPositionY(self.Image_curOwn.initPosY - 20)
+    end
 
     local cost = summonCfg.cost[1]
     local ownCostId
@@ -266,7 +363,10 @@ function SummonView:updateSelectInfo()
 
     self.Label_tips:setVisible(true)
     self.Label_tips:setText("")
-    if summonCfg.summonType == EC_SummonType.APPOINT_EQUIPMENT or summonCfg.summonType == EC_SummonType.APPOINT_HERO then
+    if summonCfg.summonType == EC_SummonType.APPOINT_EQUIPMENT or summonCfg.summonType == EC_SummonType.APPOINT_HERO
+    or summonCfg.summonType == EC_SummonType.CLOTHESE
+    or summonCfg.summonType == EC_SummonType.SPECIAL_SUMMON
+    or summonCfg.summonType == EC_SummonType.CLOTHESE_1 or summonCfg.summonType == EC_SummonType.CLOTHESE_2 then
         if summonInfo then
             local startShow = TFDate(summonInfo.startShow + GV_UTC_TIME_ZONE * 3600):fmt("%Y.%m.%d")
             local endShow = TFDate(summonInfo.endShow+ GV_UTC_TIME_ZONE * 3600):fmt("%Y.%m.%d %H:%M")
@@ -331,9 +431,61 @@ function SummonView:updateSelectInfo()
 
     -- 热点召唤
     local isHotSummon = summonType == EC_SummonType.HOT_ROLE or summonType == EC_SummonType.HOT_EQUIPMENT
-    self.Panel_hotSPot:setVisible(isHotSummon)
-    self.Image_preview:Pos(isHotSummon and self.Panel_hotPreview_pos or self.Image_preview_pos)
-    self.Image_history:Pos(isHotSummon and self.Panel_hotHistory_pos or self.Image_history_pos)
+    local isClothseSummon = summonType == EC_SummonType.CLOTHESE_1 or summonType == EC_SummonType.CLOTHESE_2
+    self.Panel_hotSPot:setVisible(isHotSummon or isClothseSummon)
+
+    local isHavePrivilege, _ = RechargeDataMgr:getIsHavePrivilegeByType(105)
+    local curTmpId = self.currentSummon_[self.selectHotTabIndex_].id
+    self.pannel_lastTime:setVisible(not SummonDataMgr:isFreeBtnById(curTmpId)  and isHavePrivilege and isHotSummon)
+    if self.pannel_lastTime:isVisible() then
+        local endTime = SummonDataMgr:getFreeTimeById(curTmpId)
+        local function refreshFreeBtnTime()
+            local lastTime = endTime - ServerDataMgr:getServerTime()
+            if lastTime > 0 then
+                local day, hour, min, sec = Utils:getTimeDHMZ(lastTime)
+                if sec > 0  then
+                    if min < 59 then
+                        min = min + 1
+                    else
+                        min = 0
+                        hour = hour + 1
+                    end
+
+                end
+                self.lab_lastTime:setTextById(14300347, (day*24 + hour), min)
+            else
+                self:removeCountDownTimer()
+                self.pannel_lastTime:setVisible(not SummonDataMgr:isFreeBtnById(curTmpId)  and isHavePrivilege)
+                for i, v in ipairs(self.Button_buy) do
+                    local isHavePrivilege, _ = RechargeDataMgr:getIsHavePrivilegeByType(105)
+                    local subSummonCfg = SummonDataMgr:getSummonCfg(summon[i].id)
+                    if i == 1 and SummonDataMgr:isFreeBtnById(self.currentSummon_[i].id) and isHavePrivilege then
+                        v.Label_summon:setTextById(14300345)
+                        self.costItem_[1] = {
+                            id = ownCostId,
+                            num = 0,
+                        }
+                    else
+                        v.Label_summon:setTextById(1200006, subSummonCfg.cardCount)
+                    end
+                end
+            end
+        end
+        
+        if not self.timer then
+            self.timer = TFDirector:addTimer(1000 * 10,-1,nil,refreshFreeBtnTime)
+        end
+        refreshFreeBtnTime()
+    end
+
+    self.Button_trailNotice:setVisible(isHotSummon)
+    if isHotSummon then
+        self.Image_preview:Pos(self.Panel_hotPreview_pos)
+        self.Image_history:Pos(self.Panel_hotHistory_pos)
+    else
+        self.Image_preview:Pos(self.Image_preview_pos)
+        self.Image_history:Pos(self.Image_history_pos)
+    end
     if isHotSummon then
         self.Label_hotCount_1:setTextById(1200066)
         self.Label_hotCount_2:setTextById(summonType == EC_SummonType.HOT_ROLE and 1200067 or 1200068)
@@ -347,6 +499,31 @@ function SummonView:updateSelectInfo()
         self.Image_hotPlay:setVisible(tabData.loopType == EC_SummonLoopType.ROLE)
         self.Image_ad:setTexture(summonCfg.icon)
         self.Button_equipPre:setVisible(tabData.loopType == EC_SummonLoopType.EQUIPMENT)
+    end
+
+    -- 服装召唤
+    if isClothseSummon then
+        local summon = {}
+
+        local summonType = self.clothseData_[self.selectClothse].type
+        for i, v in ipairs(self.currentSummon_) do
+            local cfg = SummonDataMgr:getSummonCfg(v.id)
+            if cfg.summonType == summonType then
+                table.insert(summon, clone(v))
+            end
+        end
+
+        self.viewSelectSummon_ = summon
+
+        local summonCfg = SummonDataMgr:getSummonCfg(summon[1].id)
+        local summonType = summonCfg.summonType
+        self.Image_hotPlay:setVisible(false)
+        self.Button_equipPre:setVisible(false)
+        self.Label_hotCount_2:setTextById(15010088)
+        local _num = SummonDataMgr:getPreciousCount(summonType)
+        local num = _num == 0 and summonCfg.immortalGetTimes or (summonCfg.immortalGetTimes - _num + 1)
+        self.Label_hotCount:setText(num)
+        self.Image_ad:setTexture(summonCfg.icon)
     end
 
     ---检测坐标
@@ -363,6 +540,55 @@ function SummonView:updateSelectInfo()
         self.Image_ad:addChild(btn)
         self.checkBtn[k] = {btn = btn,itemId = v.itemId}
     end
+
+
+    local summonFreeTime = SummonDataMgr:getSummonFreeTime(summonCfg)
+    self.Panel_special:setVisible(summonFreeTime)
+
+    if summonFreeTime then
+        local pannel_lastTime    = TFDirector:getChildByPath(self.Panel_special, "pannel_lastTime")
+        local lab_lastTime    = TFDirector:getChildByPath(self.Panel_special, "lab_lastTime")
+        pannel_lastTime:setVisible(summonFreeTime.nextFreeTime)
+        if summonFreeTime.nextFreeTime then
+            local function refreshFreeBtnTime()
+                local lastTime = summonFreeTime.nextFreeTime - ServerDataMgr:getServerTime()
+                if lastTime > 0 then
+                    local day, hour, min, sec = Utils:getTimeDHMZ(lastTime)
+
+                    if sec > 0  then
+                        if min < 59 then
+                            min = min + 1
+                        else
+                            min = 0
+                            hour = hour + 1
+                        end
+
+                    end
+                    lab_lastTime:setTextById(14300347, (day*24 + hour), min)
+                else
+                    self:removeCountDownTimer()
+                    pannel_lastTime:hide()
+                    self.Button_buy[2].Label_summon:setTextById(14300345)
+                    self.costItem_[2] = {
+                        id = ownCostId,
+                        num = 0,
+                    }
+                end
+            end
+
+            if not self._timer then
+                self._timer = TFDirector:addTimer(1000 * 10,-1,nil,refreshFreeBtnTime)
+            end
+            refreshFreeBtnTime()
+        else
+            self:removeCountDownTimer()
+        end
+
+        local Label_Count = TFDirector:getChildByPath(self.Panel_special, "Label_Count")
+        Label_Count:setText(summonFreeTime.summonNums)
+    end
+
+
 end
 function SummonView:selectSummon(index, force)
 
@@ -375,12 +601,15 @@ function SummonView:selectSummon(index, force)
         foo.Image_select:setVisible(i == index)
     end
 
-    if summonCfg.summonType == EC_SummonType.HOT_ROLE then
-        self:selectHotTab(self.selectHotTabIndex_)
+    self.currentSummon_ = summon
+
+    if summonCfg.summonType == EC_SummonType.HOT_ROLE or
+     summonCfg.summonType == EC_SummonType.CLOTHESE_1 or summonCfg.summonType == EC_SummonType.CLOTHESE_2 then
+        self:selectHotTab()
     else
-        self.currentSummon_ = summon
         self:updateSelectInfo()
     end
+    self:refreshRightTabTxt()
 end
 
 function SummonView:onShow()
@@ -389,9 +618,6 @@ function SummonView:onShow()
         self:removeLockLayer()
         GameGuide:checkGuide(self);
     end,0.05)
-
-    me.TextureCache:removeUnusedTextures()
-    SpineCache:getInstance():clearUnused()
 end
 
 function SummonView:refreshView()
@@ -430,25 +656,26 @@ function SummonView:registerEvents()
     EventMgr:addEventListener(self, EV_SUMMON_SELECT, handler(self.onRecvNewGuideSelect, self))
     EventMgr:addEventListener(self, EV_FUBEN_UPDATE_LIMITHERO, handler(self.onLimitHeroEvent, self))
     EventMgr:addEventListener(self, EV_SUMMON_HOTSPLOT_UPDATE, handler(self.onHotSpotUpdateEvent, self))
+    EventMgr:addEventListener(self, EV_PRIVILEGE_UPDATE, handler(self.updateSelectInfo, self))
 
     self.Button_preview:onClick(function()
-            local summon = self.currentSummon_
-            local summonCfg = SummonDataMgr:getSummonCfg(summon[1].id)
-            if summonCfg.summonType == EC_SummonType.APPOINT_HERO or
-                summonCfg.summonType == EC_SummonType.APPOINT_EQUIPMENT then
-                local isInStage = SummonDataMgr:isInOpenStage(summon[1].id)
-                if not isInStage then
-                    Utils:showTips(1200054)
-                    return
-                end
-                Utils:openView("summon.SummonPreviewView", summonCfg.groupId)
-            else
-                Utils:openView("summon.SummonPreviewView", summonCfg.groupId)
+        local summon = self.viewSelectSummon_
+        local summonCfg = SummonDataMgr:getSummonCfg(summon[1].id)
+        if summonCfg.summonType == EC_SummonType.APPOINT_HERO or
+            summonCfg.summonType == EC_SummonType.APPOINT_EQUIPMENT then
+            local isInStage = SummonDataMgr:isInOpenStage(summon[1].id)
+            if not isInStage then
+                Utils:showTips(1200054)
+                return
             end
+            Utils:openView("summon.SummonPreviewView", summonCfg.groupId)
+        else
+            Utils:openView("summon.SummonPreviewView", summonCfg.groupId)
+        end
     end)
 
     self.Button_history:onClick(function()
-        local summon = self.currentSummon_
+        local summon = self.viewSelectSummon_
         local summonCfg = SummonDataMgr:getSummonCfg(summon[1].id)
         if summonCfg.summonType == EC_SummonType.APPOINT_HERO or
            summonCfg.summonType == EC_SummonType.APPOINT_EQUIPMENT then
@@ -465,40 +692,103 @@ function SummonView:registerEvents()
 
     for i, v in ipairs(self.Button_buy) do
         v.root:onClick(function()
-                local cost = self.costItem_[i]
-                if GoodsDataMgr:currencyIsEnough(cost.id, cost.num) then
-                    local function reaSummon()
-                        local summon = self.currentSummon_                                       
-                        SummonDataMgr:send_SUMMON_SUMMON(summon[i].id, cost.index)                                              
-                        GameGuide:checkGuideEnd(self.guideFuncId)
-                    end
-                    if MainPlayer:getOneLoginStatus(EC_OneLoginStatusType.ReConfirm_Summon) or GuideDataMgr:isInNewGuide() then
-                        reaSummon()
+            if not self.viewSelectSummon_ then
+                return
+            end
+
+            if i == 1 and SummonDataMgr:isFreeBtnById(self.viewSelectSummon_[i].id) then
+                SummonDataMgr:send_SUMMON_SUMMON(self.viewSelectSummon_[i].id, 1)
+                return
+            end
+
+            local firstCost = self.fristCostItem_[i]
+            local cost = self.costItem_[i]
+
+            if cost.num == 0 then
+                SummonDataMgr:send_SUMMON_SUMMON(self.viewSelectSummon_[i].id, 1)
+                return
+            end
+
+            local isEnough = false
+            local ownCostNum = GoodsDataMgr:getItemCount(cost.id)
+            local stringId = 1200042
+            local isMultiple = false
+            if firstCost then
+                local ownFirstNum = GoodsDataMgr:getItemCount(firstCost.id)
+                if ownFirstNum >= cost.num or (ownFirstNum + ownCostNum) >= cost.num then
+                    isEnough = true
+                    if ownFirstNum >= cost.num or ownFirstNum <= 0 then
+                        stringId = 1200042 + i - 1
                     else
-                        local rstr = TextDataMgr:getTextAttr(1200042 + i -1)
-                        local formatStr = rstr and rstr.text or ""
-                        local content = string.format(formatStr, cost.num, TabDataMgr:getData("Item", cost.id).icon)
-                        Utils:openView("common.ReConfirmTipsView", {tittle = 1200041, content = content, reType = EC_OneLoginStatusType.ReConfirm_Summon, confirmCall = reaSummon})
-                    end
-                else
-                    local summon = self.currentSummon_
-                    local summonCfg = SummonDataMgr:getSummonCfg(summon[i].id)
-                    if summonCfg.costCommodity == 0 then
-                        Utils:showAccess(cost.id)
-                    else
-                        local haveCount = GoodsDataMgr:getItemCount(cost.id)
-                        Utils:openView("summon.SummonBuyResourceView", summonCfg.costCommodity, cost.num - haveCount)
+                        stringId = 1200081
+                        isMultiple = true
                     end
                 end
+            else
+                if ownCostNum >= cost.num then
+                    isEnough = true
+                end
+                stringId = 1200042 + i - 1
+            end
+            if isEnough then
+                local function reaSummon()
+                    local summon = self.viewSelectSummon_
+                    SummonDataMgr:send_SUMMON_SUMMON(summon[i].id, 1)
+                    GameGuide:checkGuideEnd(self.guideFuncId)
+                end
+                if MainPlayer:getOneLoginStatus(EC_OneLoginStatusType.ReConfirm_Summon) or GuideDataMgr:isInNewGuide() then
+                    reaSummon()
+                else
+                    local costIcon = TabDataMgr:getData("Item", cost.id).icon
+                    local rstr = TextDataMgr:getTextAttr(stringId)
+                    local formatStr = rstr and rstr.text or ""
+                    local content = ""
+                    if firstCost then
+                        local ownFirstNum = GoodsDataMgr:getItemCount(firstCost.id)
+                        local firstIcon = TabDataMgr:getData("Item", firstCost.id).icon
+                        if ownFirstNum > 0 then
+                            if isMultiple then
+                                content = string.format(formatStr, ownFirstNum, firstIcon, cost.num - ownFirstNum, costIcon)
+                            else
+                                content = string.format(formatStr, cost.num, firstIcon)
+                            end
+                        else
+                            content = string.format(formatStr, cost.num, costIcon)
+                        end
+                    else
+                        content = string.format(formatStr, cost.num, costIcon)
+                    end
+                    Utils:openView("common.ReConfirmTipsView", {tittle = 1200041, content = content, reType = EC_OneLoginStatusType.ReConfirm_Summon, confirmCall = reaSummon})
+                end
+            else
+                local summon = self.viewSelectSummon_
+                local summonCfg = SummonDataMgr:getSummonCfg(summon[i].id)
+                if summonCfg.costCommodity == 0 then
+                    Utils:showAccess(cost.id)
+                else
+                    local haveCount = GoodsDataMgr:getItemCount(cost.id)
+                    if firstCost then
+                        local ownFirstNum = GoodsDataMgr:getItemCount(firstCost.id)
+                        haveCount = haveCount + ownFirstNum
+                    end
+                    Utils:openView("summon.SummonBuyResourceView", summonCfg.costCommodity, cost.num - haveCount)
+                end
+            end
         end)
     end
+
+    self.Image_fistIcon:onClick(function()
+        if self.firstCostItemId_ then
+            Utils:showInfo(self.firstCostItemId_, nil, true)
+        end
+    end)
 
     self.Image_ownIcon:onClick(function()
             Utils:showInfo(self.costItemId_, nil, true)
     end)
 
     self.Button_award:onClick(function()
-        local summon = self.currentSummon_
+        local summon = self.viewSelectSummon_
         local summonCfg = SummonDataMgr:getSummonCfg(summon[1].id)
         if summonCfg.summonType == EC_SummonType.APPOINT_HERO then
             local isInStage = SummonDataMgr:isInOpenStage(summon[1].id)
@@ -511,7 +801,7 @@ function SummonView:registerEvents()
     end)
 
     self.Button_equip:onClick(function()
-        local summon = self.currentSummon_
+        local summon = self.viewSelectSummon_
         local summonCfg = SummonDataMgr:getSummonCfg(summon[1].id)
         if summonCfg.summonType == EC_SummonType.APPOINT_EQUIPMENT then
             local isInStage = SummonDataMgr:isInOpenStage(summon[1].id)
@@ -524,7 +814,7 @@ function SummonView:registerEvents()
     end)
 
     self.Button_equipPre:onClick(function()
-            local summon = self.currentSummon_
+            local summon = self.viewSelectSummon_
             local summonCfg = SummonDataMgr:getSummonCfg(summon[EC_SummonLoopType.EQUIPMENT].id)
 
             if summonCfg.summonType == EC_SummonType.HOT_EQUIPMENT then
@@ -551,7 +841,7 @@ function SummonView:registerEvents()
     end)
 
     self.Button_contract_preview:onClick(function()
-        local summon = self.currentSummon_
+        local summon = self.viewSelectSummon_
         local summonCfg = SummonDataMgr:getSummonCfg(summon[1].id)
         Utils:openView("summon.SummonContractPreviewView",summonCfg)
     end)
@@ -568,7 +858,7 @@ function SummonView:registerEvents()
     end)
 
     self.Button_hotPlay:onClick(function()
-            local summon = self.currentSummon_
+            local summon = self.viewSelectSummon_
             local summonCfg = SummonDataMgr:getSummonCfg(summon[1].id)
             if MainPlayer:getOneLoginStatus(EC_OneLoginStatusType.ReConfirm_HotSpotTryPlay) then
                 FubenDataMgr:send_DUNGEON_LIMIT_HERO_DUNGEON(summonCfg.dungeonId1)
@@ -588,16 +878,23 @@ function SummonView:registerEvents()
 end
 
 function SummonView:selectHotTab(index)
-    self.selectHotTabIndex_ = index
-    local tabData = self.hotSpotData_[index]
-    self.selectHotTabIndex_ = index
+
+    local summonCfg = SummonDataMgr:getSummonCfg(self.currentSummon_[1].id)
+    local summonType = summonCfg.summonType
+    if summonType == EC_SummonType.HOT_ROLE or summonType == EC_SummonType.HOT_EQUIPMENT then
+        index = index or self.selectHotTabIndex_
+        self.selectHotTabIndex_ = index
+        local tabData = self.hotSpotData_[self.selectHotTabIndex_]
+        self.currentSummon_ = SummonDataMgr:getHotSummon(tabData.loopType)
+    elseif summonType == EC_SummonType.CLOTHESE_1 or summonType == EC_SummonType.CLOTHESE_2 then  
+        -- （这两组卡池在一个界面，同时产生和结束）
+        index = index or self.selectClothse
+        self.selectClothse = index
+    end
     for i, v in ipairs(self.Button_hotTab) do
         v:setTouchEnabled(i ~= index)
         v:setBright(i ~= index)
     end
-    local hotSpotInfo = SummonDataMgr:getHotSpotInfo()
-    local summon = SummonDataMgr:getHotSummon(tabData.loopType)
-    self.currentSummon_ = summon
     self:updateSelectInfo()
 end
 
@@ -679,12 +976,13 @@ end
 
 function SummonView:onItemUpdateEvent()
     self.Label_cur:setTextById(800007, GoodsDataMgr:getItemCount(self.costItemId_))
+    if self.firstCostItemId_ then
+        self.Label_fistCur:setTextById(800007, GoodsDataMgr:getItemCount(self.firstCostItemId_))
+    end
 end
 
 function SummonView:onRecvUpdatePanelInfo()
-    print("SummonView: the recv update panel info...............")
     self.summon_ = SummonDataMgr:getSummon()
-    dump(self.summon_)
     self:refreshView()
 end
 
@@ -705,8 +1003,6 @@ function SummonView:onRecvUpdateHeroData()
 end
 
 function SummonView:onRecvNewGuideSelect()
-    print("SummonView: the recv new guide select...............")
-    dump(self.summon_)
 
     --引导召唤 需要设定对应的卡池类型
     local normalIndex = 1
@@ -754,6 +1050,24 @@ end
 
 function SummonView:onHotSpotUpdateEvent()
     self:updateSelectInfo()
+end
+
+function SummonView:removeCountDownTimer()
+    if self.timer then
+        TFDirector:stopTimer(self.timer)
+        TFDirector:removeTimer(self.timer)
+        self.timer = nil
+    end
+
+    if self._timer then
+        TFDirector:stopTimer(self._timer)
+        TFDirector:removeTimer(self._timer)
+        self._timer = nil
+    end
+end
+
+function SummonView:removeEvents()
+    self:removeCountDownTimer()
 end
 
 ---------------------------guide------------------------------

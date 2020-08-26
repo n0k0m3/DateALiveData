@@ -1,7 +1,7 @@
 
 local FubenReadyView = class("FubenReadyView", BaseLayer)
 
-function FubenReadyView:initData(levelCid)
+function FubenReadyView:initData(levelCid,paramData)
     self.levelCid_ = levelCid
     self.levelCfg_ = FubenDataMgr:getLevelCfg(levelCid)
     self.levelGroupCfg_ = FubenDataMgr:getLevelGroupCfg(self.levelCfg_.levelGroupId)
@@ -14,16 +14,19 @@ function FubenReadyView:initData(levelCid)
         self.costNum_ = cost[2]
     end
     self.earningsCostCid_, self.earningsCostNum_ = next(self.levelCfg_.duelModCost)
-
+    self.paramData = paramData
     FubenDataMgr:cacheSelectFubenType(self.chapterCfg_.type)
     FubenDataMgr:cacheSelectLevelGroup(self.levelCfg_.levelGroupId)
     FubenDataMgr:cacheSelectChapter(self.levelGroupCfg_.dungeonChapterId)
     FubenDataMgr:cacheSelectLevel(self.levelCid_)
+
+    local cardPrivilegeFreeNum = FubenDataMgr:getFreePrivilegeNumById(levelCid)
+    self.cfgFightCount = self.levelCfg_.fightCount + cardPrivilegeFreeNum
 end
 
-function FubenReadyView:ctor(...)
+function FubenReadyView:ctor(levelCid,paramData)
     self.super.ctor(self)
-    self:initData(...)
+    self:initData(levelCid,paramData)
     self:showPopAnim(true)
     self:init("lua.uiconfig.fuben.fubenReadyView")
 end
@@ -207,10 +210,10 @@ function FubenReadyView:updateFighting()
         end
     end
     self.Label_remainCount:setTextById(3004031)
-    if self.levelCfg_.fightCount > 0 then
+    if self.cfgFightCount > 0 then
         self.Image_fight_info:show()
         local remainCount = FubenDataMgr:getPlotLevelRemainFightCount(self.levelCid_)
-        self.Label_count:setTextById(800005, remainCount, self.levelCfg_.fightCount)
+        self.Label_count:setTextById(800005, remainCount, self.cfgFightCount)
     end
 
     self.Button_cost:setTouchEnabled(false)
@@ -479,9 +482,10 @@ function FubenReadyView:registerEvents()
     end)
 
     self.Button_buyCount:onClick(function()
-            local fightCount = FubenDataMgr:getFightCount(self.levelCid_)
-            local remainCount = math.max(0, self.levelCfg_.fightCount - fightCount)
-            if remainCount < self.levelCfg_.fightCount then
+            -- local fightCount = FubenDataMgr:getFightCount(self.levelCid_)
+            -- local remainCount = math.max(0, self.cfgFightCount - fightCount)
+            local remainCount = FubenDataMgr:getPlotLevelRemainFightCount(self.levelCid_)
+            if remainCount < self.cfgFightCount then
                 Utils:openView("fuben.FubenPlotBuyCountView", self.levelCid_)
             else
                 Utils:showTips(300592)

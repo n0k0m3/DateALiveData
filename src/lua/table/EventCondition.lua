@@ -707,6 +707,12 @@ return {
         event_id = 17,
         remark = "随机召唤X次",
     },
+    [17050] = {
+        id = 17050,
+        history = false,
+        event_id = 17,
+        remark = "召唤某个（多个）固定卡池",
+    },
     [10001] = {
         id = 10001,
         history = false,

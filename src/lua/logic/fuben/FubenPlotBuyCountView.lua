@@ -59,7 +59,8 @@ function FubenPlotBuyCountView:registerEvents()
 
     self.Button_ok:onClick(function()
             local remainCount = FubenDataMgr:getPlotLevelRemainFightCount(self.levelCid_)
-            if remainCount < self.levelCfg_.fightCount then
+            local fightCount = FubenDataMgr:getFreePrivilegeNumById(self.levelCid_) + self.levelCfg_.fightCount
+            if remainCount < fightCount then
                 if GoodsDataMgr:currencyIsEnough(self.costItemCid_, self.costItemNum_) then
                     FubenDataMgr:send_DUNGEON_BUY_LEVEL_COUNT(self.levelCid_)
                 else

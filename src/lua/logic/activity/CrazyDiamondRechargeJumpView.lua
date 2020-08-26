@@ -21,8 +21,9 @@ function CrazyDiamondRechargeJumpView:initUI(ui)
     self.tipsLabel = TFDirector:getChildByPath(ui,"label_tips")
 
     local open = CrazyDiamondDataMgr:getOpen(self.activityId)
-    local totalPayDiamond = RechargeDataMgr:getTotalPay()
-    local payDiamond = math.max(0, open - totalPayDiamond*0.01)
+    local totalPayDiamond = CrazyDiamondDataMgr:getTotalPay(self.activityId)
+
+    local payDiamond = math.max(0, (open*100 - totalPayDiamond)*0.01)
     self.tipsLabel:setTextById(100000337, payDiamond)
 end
 

@@ -137,7 +137,7 @@ EC_FBLevelGroupType = {
     LINKAGE = 100,  -- 海王星联动
 }
 
--- 副本类型
+-- 副本类型(Dungeonchapter type字段)
 EC_FBType = {
     PLOT = 1,    -- 剧情副本
     DAILY = 2,    -- 日常副本
@@ -2219,6 +2219,12 @@ EC_NetTeamType = {
     Hunter = 5     ---追猎计划
 }
 
+EC_JOINTEAM_TYPE = {
+    NORAML = 0,    ---非好友，非社团成员
+    FRIEND = 1,    ---好友
+    LEAGUE = 2,    ---社团成员
+}
+
 ---1-挂机，2-钓鱼，3-饮料，4-点灯，5-占卜，6-拼图
 EC_NewYearGameType = {
     Hook = 1,      ---挂机
@@ -2229,6 +2235,11 @@ EC_NewYearGameType = {
     Puzzle = 6,    ---拼图
 }
 
+-- 1-月卡特权, 2-周卡特权
+EC_CardPrivilege = {
+    Month = 1,
+    Week  = 2
+}
 --语言类型设置
 EC_LanguageType = 
 {

@@ -1186,9 +1186,9 @@ function battleController.requestFightingOver()
         if statistics.skillAwakeKill > 0 then
           table.insert(skillEnemy,{eSkillType.AWAKE, statistics.skillAwakeKill})
         end
-        if levelCfg.dungeonType == EC_FBLevelType.PRACTICE or
-                levelCfg.dungeonType == EC_FBLevelType.NOOBSUMMON then
-            
+        if levelCfg.dungeonType == EC_FBLevelType.PRACTICE  then
+        elseif levelCfg.dungeonType == EC_FBLevelType.NOOBSUMMON then
+             AlertManager:changeScene(SceneType.MainScene)
         else
             battleController.sendVerifyFightResult(isWin)
             local costTime = math.floor(this.getTime())

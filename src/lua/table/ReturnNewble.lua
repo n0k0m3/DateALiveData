@@ -189,7 +189,7 @@ return {
         status = 2,
         titleIcon = "ui/activity/picture/icon300.png",
         type = 1017,
-        details = "{\"beginTime\":\"2020-08-04 00:00:00\",\"endTime\":\"2020-08-04 00:00:00\",\"taskId\":1017,\"rankOrderType\":1,\"rankCount\":100,\"drawItemId\":500002}",
+        details = "{\"beginTime\":\"2020-08-26 00:00:00\",\"endTime\":\"2020-09-08 23:59:59\",\"taskId\":1017,\"rankOrderType\":1,\"rankCount\":100,\"drawItemId\":500002}",
     },
     [200024] = {
         subtitle = "罗盘",
@@ -442,7 +442,7 @@ return {
         status = 2,
         titleIcon = "",
         type = 1012,
-        details = "{\"beginTime\":\"2020-08-19 01:00:00\",\"endTime\":\"2020-09-22 23:59:59\",\"maxLevel\":100,\"rechargeList\":[910001,910002,910003],\"levelCost\":5,\"upMinExp\":10,\"activityShowType\":9999,\"addItems\":\"102947\",\"daytask\":\"102947\"}",
+        details = "{\"beginTime\":\"2020-08-19 00:00:00\",\"endTime\":\"2020-09-22 23:59:59\",\"maxLevel\":100,\"rechargeList\":[910001,910002,910003],\"levelCost\":5,\"upMinExp\":10,\"activityShowType\":9999,\"addItems\":\"102947\",\"daytask\":\"102947\"}",
     },
     [130001] = {
         subtitle = "限定福利",

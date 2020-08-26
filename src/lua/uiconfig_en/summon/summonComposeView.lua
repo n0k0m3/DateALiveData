@@ -681,7 +681,7 @@ local t =
 																	{
 																		
 																	},
-																	width = "87",
+																	width = "70",
 																	ZOrder = "1",
 																},
 															},
@@ -1142,7 +1142,7 @@ local t =
 																	{
 																		
 																	},
-																	width = "87",
+																	width = "70",
 																	ZOrder = "1",
 																},
 															},
@@ -1603,7 +1603,7 @@ local t =
 																	{
 																		
 																	},
-																	width = "87",
+																	width = "70",
 																	ZOrder = "1",
 																},
 															},
@@ -2062,7 +2062,7 @@ local t =
 																	{
 																		
 																	},
-																	width = "87",
+																	width = "70",
 																	ZOrder = "1",
 																},
 															},
@@ -2523,7 +2523,7 @@ local t =
 																	{
 																		
 																	},
-																	width = "87",
+																	width = "70",
 																	ZOrder = "1",
 																},
 															},
@@ -2984,7 +2984,7 @@ local t =
 																	{
 																		
 																	},
-																	width = "87",
+																	width = "70",
 																	ZOrder = "1",
 																},
 															},
@@ -3445,7 +3445,7 @@ local t =
 																	{
 																		
 																	},
-																	width = "87",
+																	width = "70",
 																	ZOrder = "1",
 																},
 															},
@@ -3904,7 +3904,7 @@ local t =
 																	{
 																		
 																	},
-																	width = "87",
+																	width = "70",
 																	ZOrder = "1",
 																},
 															},
@@ -4365,7 +4365,7 @@ local t =
 																	{
 																		
 																	},
-																	width = "87",
+																	width = "70",
 																	ZOrder = "1",
 																},
 															},
@@ -4826,7 +4826,7 @@ local t =
 																	{
 																		
 																	},
-																	width = "87",
+																	width = "70",
 																	ZOrder = "1",
 																},
 															},
@@ -5406,6 +5406,85 @@ local t =
 							},
 						},
 						{
+							controlID = "Button_onekeyComplete_Panel_root_Panel-summonComposeView_Layer1_summon_Game",
+							UUID = "00bac914_3bd6_48c0_9a0e_9fa60bbb1955",
+							anchorPoint = "False",
+							anchorPointX = "0.5",
+							anchorPointY = "0.5",
+							backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
+							classname = "MEButton",
+							ClickHighLightEnabled = "True",
+							dstBlendFunc = "771",
+							flipX = "False",
+							flipY = "False",
+							height = "56",
+							ignoreSize = "False",
+							name = "Button_onekeyComplete",
+							normal = "ui/common/button09.png",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "1",
+							touchAble = "True",
+							UILayoutViewModel = 
+							{
+								PositionX = 341,
+								PositionY = -256,
+							},
+							UItype = "Button",
+							width = "120",
+							ZOrder = "1",
+							components = 
+							{
+								
+								{
+									controlID = "Label_onekey_Button_onekeyComplete_Panel_root_Panel-summonComposeView_Layer1_summon_Game",
+									UUID = "dd2f13bc_0500_478b_8daf_e7fbc12ff9bf",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									classname = "MELabel",
+									compPath = "luacomponents.common.MEIconLabel",
+									dstBlendFunc = "771",
+									FontColor = "#FFFFFFFF",
+									fontName = "font/fangzheng_zhunyuan.ttf",
+									fontShadow = 
+									{
+										IsShadow = false,
+										ShadowColor = "#FFFFFFFF",
+										ShadowAlpha = 255,
+										OffsetX = 0,
+										OffsetY = 0,
+									},
+									fontSize = "24",
+									fontStroke = 
+									{
+										IsStroke = false,
+										StrokeColor = "#FFE6E6E6",
+										StrokeSize = 1,
+									},
+									height = "0",
+									ignoreSize = "False",
+									name = "Label_onekey",
+									nTextAlign = "1",
+									nTextHAlign = "1",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "770",
+									text = "Complete All",
+									touchAble = "False",
+									touchScaleEnable = "False",
+									UILayoutViewModel = 
+									{
+										
+									},
+									width = "120",
+									ZOrder = "1",
+								},
+							},
+						},
+						{
 							controlID = "Panel_formula_Panel_root_Panel-summonComposeView_Layer1_summon_Game",
 							UUID = "811fba43_dfba_4309_98eb_e86de984d68d",
 							anchorPoint = "False",
@@ -5438,6 +5517,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
+							visible = "False",
 							width = "446",
 							ZOrder = "1",
 							components = 
@@ -5584,7 +5664,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "50",
+											height = "48",
 											ignoreSize = "True",
 											name = "Label_selectPointName",
 											nTextAlign = "1",
@@ -5601,7 +5681,7 @@ local t =
 												PositionX = 6,
 												PositionY = 240,
 											},
-											width = "210",
+											width = "164",
 											ZOrder = "1",
 										},
 										{
@@ -5648,7 +5728,7 @@ local t =
 												PositionY = 217,
 											},
 											visible = "False",
-											width = "65",
+											width = "57",
 											ZOrder = "1",
 										},
 										{
@@ -5888,7 +5968,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
+													height = "24",
 													ignoreSize = "True",
 													name = "Label_summonComposeView_1",
 													nTextAlign = "1",
@@ -5905,7 +5985,7 @@ local t =
 														PositionX = 4,
 														PositionY = 9,
 													},
-													width = "241",
+													width = "188",
 													ZOrder = "1",
 												},
 												{
@@ -5952,7 +6032,7 @@ local t =
 														PositionY = -11,
 													},
 													visible = "False",
-													width = "140",
+													width = "113",
 													ZOrder = "1",
 												},
 											},
@@ -6000,7 +6080,7 @@ local t =
 												PositionX = 206,
 												PositionY = 43,
 											},
-											width = "141",
+											width = "110",
 											ZOrder = "1",
 										},
 										{
@@ -6117,7 +6197,7 @@ local t =
 											{
 												
 											},
-											width = "93",
+											width = "79",
 											ZOrder = "1",
 										},
 									},
@@ -6328,7 +6408,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "26",
 											ignoreSize = "True",
 											name = "Label_cost",
 											nTextAlign = "1",
@@ -6344,7 +6424,7 @@ local t =
 											{
 												PositionX = 38,
 											},
-											width = "40",
+											width = "28",
 											ZOrder = "1",
 										},
 									},
@@ -6406,7 +6486,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "26",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_enable",
 									nTextAlign = "1",
@@ -6422,7 +6502,7 @@ local t =
 									{
 										PositionX = -207,
 									},
-									width = "218",
+									width = "173",
 									ZOrder = "1",
 								},
 							},
@@ -6501,7 +6581,7 @@ local t =
 									{
 										PositionY = -40,
 									},
-									width = "74",
+									width = "59",
 									ZOrder = "1",
 								},
 							},
@@ -6833,7 +6913,7 @@ local t =
 									{
 										PositionY = -38,
 									},
-									width = "35",
+									width = "36",
 									ZOrder = "1",
 								},
 							},
@@ -7055,7 +7135,7 @@ local t =
 										PositionX = 54,
 										PositionY = -75,
 									},
-									width = "38",
+									width = "30",
 									ZOrder = "1",
 								},
 								{
@@ -7084,7 +7164,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "20",
+									height = "19",
 									ignoreSize = "True",
 									name = "equip_cost",
 									nTextAlign = "1",
@@ -7101,7 +7181,7 @@ local t =
 										PositionX = 54,
 										PositionY = -92,
 									},
-									width = "29",
+									width = "23",
 									ZOrder = "1",
 								},
 								{
@@ -7130,7 +7210,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "15",
+									height = "14",
 									ignoreSize = "True",
 									name = "Label_level_title",
 									nTextAlign = "1",
@@ -7147,7 +7227,7 @@ local t =
 										PositionX = -35,
 										PositionY = 85,
 									},
-									width = "21",
+									width = "18",
 									ZOrder = "1",
 									components = 
 									{
@@ -7192,13 +7272,13 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 22,
+												PositionX = 19,
 												PositionY = 2,
 												IsPercent = true,
 												PercentX = 103,
 												PercentY = 16,
 											},
-											width = "32",
+											width = "25",
 											ZOrder = "1",
 										},
 									},

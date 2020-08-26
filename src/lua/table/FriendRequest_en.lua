@@ -213,7 +213,7 @@ return {
         id = 1040,
         open = 1,
         preCondition = 0,
-        des2 = "1 Buddy reach level 40",
+        des2 = "1 Buddy reaches level 40",
         resetType = 1,
         reward = {
             [1] = {

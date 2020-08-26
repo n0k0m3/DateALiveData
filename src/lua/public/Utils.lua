@@ -1891,4 +1891,24 @@ function Utils:splitLanguageStringByTag(text , tag )
     end
     return text or ""
 end
+
+function Utils:getIsDayChangeBySaveData( strName )
+    local playerId = MainPlayer:getPlayerId()
+    local serverTime =  ServerDataMgr:customUtcTimeForServerTimestap()
+    local saveTime = CCUserDefault:sharedUserDefault():getIntegerForKey(playerId..strName)
+    if (saveTime > 0 and serverTime - saveTime > 24 * 3600 )   then
+        CCUserDefault:sharedUserDefault():setIntegerForKey(playerId..strName ,serverTime)
+        return true
+    elseif  saveTime <= 0 then
+        CCUserDefault:sharedUserDefault():setIntegerForKey(playerId..strName ,serverTime)
+        return true
+    end
+    return false
+end
+
+function Utils:clearDayChageSaveData( strName )
+    local playerId = MainPlayer:getPlayerId()
+    CCUserDefault:sharedUserDefault():setIntegerForKey(playerId..strName ,0)
+end
+
 return Utils

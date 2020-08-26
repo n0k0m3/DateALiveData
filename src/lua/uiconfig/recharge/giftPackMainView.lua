@@ -103,7 +103,7 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/common/bg_01.png",
+							texturePath = "ui/recharge/gifts/new_1/BG.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
@@ -167,7 +167,7 @@ local t =
 							height = "570",
 							ignoreSize = "False",
 							innerHeight = "570",
-							innerWidth = "186",
+							innerWidth = "110",
 							name = "ScrollView_tab_btn",
 							showScrollbar = "False",
 							sizepercentx = "0",
@@ -177,15 +177,15 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = -567,
-								PositionY = -28,
+								PositionX = -565,
+								PositionY = -33,
 							},
 							uipanelviewmodel = 
 							{
 								Layout="Absolute",
 								nType = "0"
 							},
-							width = "186",
+							width = "110",
 							ZOrder = "10",
 						},
 						{
@@ -194,24 +194,24 @@ local t =
 							anchorPoint = "False",
 							anchorPointX = "0",
 							anchorPointY = "0.5",
-							backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
+							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "576",
-							ignoreSize = "False",
+							height = "574",
+							ignoreSize = "True",
 							name = "Image_tab_bg1",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/recharge/gifts/bg2.png",
+							texturePath = "ui/recharge/gifts/new_1/002.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
 								PositionX = -567,
 								PositionY = -32,
 							},
-							width = "170",
+							width = "100",
 							ZOrder = "1",
 						},
 					},
@@ -274,7 +274,7 @@ local t =
 							DesignType = "0",
 							DesignWidth = "960",
 							dstBlendFunc = "771",
-							height = "76",
+							height = "96",
 							ignoreSize = "False",
 							name = "Panel_tabItem",
 							sizepercentx = "0",
@@ -292,7 +292,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							width = "186",
+							width = "105",
 							ZOrder = "1",
 							components = 
 							{
@@ -306,22 +306,46 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "74",
+									height = "96",
 									ignoreSize = "True",
 									name = "Image_select",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "1",
-									texturePath = "ui/recharge/gifts/btn_select.png",
+									texturePath = "ui/recharge/gifts/new_1/003.png",
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 93,
-										IsPercent = true,
-										PercentX = 50,
+										PositionX = 50,
 									},
-									width = "186",
+									width = "100",
+									ZOrder = "1",
+								},
+								{
+									controlID = "img_icon_Panel_tabItem_Panel_prefab_Panel-giftPackMainView_Layer1_recharge_Game",
+									UUID = "874491d9_0b0e_40af_821b_c9183bea90ac",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MEImage",
+									dstBlendFunc = "771",
+									height = "80",
+									ignoreSize = "True",
+									name = "img_icon",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									texturePath = "ui/recharge/gifts/new_1/004.png",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = 47,
+										PositionY = 6,
+									},
+									width = "80",
 									ZOrder = "1",
 								},
 								{
@@ -343,14 +367,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "22",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_name",
 									nTextAlign = "1",
@@ -364,9 +388,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 81,
+										PositionX = 46,
+										PositionY = -27,
 									},
-									width = "98",
+									width = "90",
 									ZOrder = "1",
 								},
 								{
@@ -378,21 +403,21 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "1",
+									height = "4",
 									ignoreSize = "True",
 									name = "Image_line",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "1",
-									texturePath = "ui/recharge/gifts/image_line.png",
+									texturePath = "ui/recharge/gifts/new_1/001.png",
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 84,
-										PositionY = -41,
+										PositionX = 48,
+										PositionY = -48,
 									},
-									width = "166",
+									width = "50",
 									ZOrder = "1",
 								},
 								{
@@ -415,8 +440,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 146,
-										PositionY = 19,
+										PositionX = 68,
+										PositionY = 24,
 									},
 									width = "30",
 									ZOrder = "1",
@@ -436,10 +461,11 @@ local t =
 	{
 		textures = 
 		{
-			"ui/common/bg_01.png",
-			"ui/recharge/gifts/bg2.png",
-			"ui/recharge/gifts/btn_select.png",
-			"ui/recharge/gifts/image_line.png",
+			"ui/recharge/gifts/new_1/BG.png",
+			"ui/recharge/gifts/new_1/002.png",
+			"ui/recharge/gifts/new_1/003.png",
+			"ui/recharge/gifts/new_1/004.png",
+			"ui/recharge/gifts/new_1/001.png",
 			"ui/common/news_small.png",
 		},
 		armatures = 

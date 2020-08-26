@@ -70,6 +70,13 @@ function TopBar:initUI(ui)
                             --Utils:notOpenTips()
                             --RechargeDataMgr:showRechageLayer();
                             FunctionDataMgr:jPay()
+                        elseif v[1] == EC_SItemType.POWER then
+                            --体力购买单独面板
+                            if StoreDataMgr:canContinueBuyItemRecover(itemCfg.buyItemRecover) then
+                                Utils:openView("common.BuyTiliLayer", v[1])
+                            else
+                                Utils:showTips(800021)
+                            end
                         else
                             if StoreDataMgr:canContinueBuyItemRecover(itemCfg.buyItemRecover) then
                                 Utils:openView("common.BuyResourceView", v[1])

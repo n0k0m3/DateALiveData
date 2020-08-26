@@ -9,7 +9,7 @@ local LimitGiftPackView = class("LimitGiftPackView", BaseLayer)
 function LimitGiftPackView:ctor(...)
     self.super.ctor(self)
     self:initData(...)
-    self:init("lua.uiconfig.recharge.limitGiftPackView")
+    self:init("lua.uiconfig.recharge.hotMallView")
 end
 
 function LimitGiftPackView:initData()
@@ -28,9 +28,9 @@ function LimitGiftPackView:initUI(ui)
     self.initSize = self.scroll_list:getContentSize()
     self.gridView = UIGridView:create(self.scroll_list)
 	self.gridView:setItemModel(self.panel_cell)
-	self.gridView:setColumn(4)
-    self.gridView:setColumnMargin(4)
-    self.gridView:setRowMargin(8)
+	self.gridView:setColumn(3)
+    self.gridView:setColumnMargin(15)
+    self.gridView:setRowMargin(15)
     
     self:addCountDownTimer()
 end
@@ -53,6 +53,7 @@ function LimitGiftPackView:onCountDownPer()
             str = TextDataMgr:getText(100000074,day, hour, min)
         end
         k:setText(str)
+        k:setVisible(str ~= "")
     end
 end
 
@@ -124,9 +125,12 @@ function LimitGiftPackView:updateContentView()
 end
 
 function LimitGiftPackView:updateGiftItem(item, data)
-	local Label_price   = TFDirector:getChildByPath(item,"Label_price")
+    local Label_price   = TFDirector:getChildByPath(item,"Label_price")
+    if not Label_price.oldPos then
+        Label_price.oldPos  = Label_price:getPosition()
+    end
     Label_price:setString("￥ "..data.rechargeCfg.price)
-
+    
     local Image_exchange = TFDirector:getChildByPath(item,"Image_exchange")
     if data.buyType == 1 then
         local exchangeCfg = GoodsDataMgr:getItemCfg(data.exchangeCost[1].id)
@@ -135,6 +139,9 @@ function LimitGiftPackView:updateGiftItem(item, data)
         Image_exchange:setSize(CCSizeMake(45,45))
         Label_price:setString(data.exchangeCost[1].num);
         Label_price:setPositionX(Image_exchange:getPositionX() + 55)
+    else
+        Label_price:setPositionX(Label_price.oldPos.x - 20)
+        Image_exchange:hide()
     end
 
     local Label_num = TFDirector:getChildByPath(item,"Label_num")
@@ -153,6 +160,7 @@ function LimitGiftPackView:updateGiftItem(item, data)
     local serverTime = ServerDataMgr:getServerTime()
     local Label_countdown = TFDirector:getChildByPath(item,"Label_countdown")
     Label_countdown:setText("")
+    Label_countdown:setVisible(false)
     if data.triggerEndDate and data.triggerEndDate > 0 then
         self.coolDown[Label_countdown] = data.triggerEndDate
     elseif data.startDate and data.endDate and serverTime >= data.startDate and serverTime < data.endDate then
@@ -195,7 +203,8 @@ function LimitGiftPackView:updateGiftItem(item, data)
     Button_buy:setGrayEnabled(not isCanBuy)
     Button_buy:setTouchEnabled(isCanBuy)
 
-    local Image_title_di = TFDirector:getChildByPath(item,"Image_title_di")
+    local Image_title_di = TFDirector:getChildByPath(item,"Image_title_di"):show()
+    local img_rightIcon  = TFDirector:getChildByPath(item,"img_rightIcon"):hide()
     local Label_title_desc = TFDirector:getChildByPath(item,"Label_title_desc")
     local Label_title_desc1 = TFDirector:getChildByPath(item,"Label_title_desc1")
 
@@ -217,20 +226,39 @@ function LimitGiftPackView:updateGiftItem(item, data)
     else
         Image_title_di:hide()
     end
+
+    -- 底图和右上角标签图
+    local url = "ui/recharge/gifts/"      -- 固定前置路径
+    local imgBg = item:getParent()
+    imgBg:setTexture(url.."g003.png") -- 默认图片
+    if data.extendData then
+        local _dataBg = Json.decode(data.extendData)
+        if Image_title_di:isVisible() and _dataBg.rightBgIocn then
+            Image_title_di:hide()
+            img_rightIcon:setTexture(url.._dataBg.rightBgIocn)
+            img_rightIcon:show()
+        else
+            img_rightIcon:hide()
+        end
+
+        if _dataBg.imgBg then
+            imgBg:setTexture(url.._dataBg.imgBg)
+        end
+    end
 end
 
 function LimitGiftPackView:updateCellItem(item, data, canTouch, posY)
-	posY = posY or 80
+	posY = posY or 25
 	if canTouch == nil then
 		canTouch = true
 	end
 	item:setPositionY(posY)
 
 	local posList = {}
-	posList[1] = {{0, -15, 0.8}}
-    posList[2] = {{-47, -15, 0.8}, {47, -15, 0.8}}
-    posList[3] = {{-47, 19, 0.6}, {47, 19, 0.6}, {0, -54, 0.6}}
-    posList[4] = {{-47, 19, 0.6}, {47, 19, 0.6}, {-47, -54, 0.6}, {47, -54, 0.6}}
+	posList[1] = {{-8, -15, 0.75}}
+	posList[2] = {{-47, 0, 0.6}, {10, -35, 0.6}}
+	posList[3] = {{-45, 5, 0.5}, {20, 5, 0.5}, {-10, -40, 0.5}}
+	posList[4] = {{-47, 5, 0.5}, {10, 5, 0.5}, {-30, -40, 0.5}, {27, -40, 0.5}}
 
 	if not item.list then
 		item.list = {}

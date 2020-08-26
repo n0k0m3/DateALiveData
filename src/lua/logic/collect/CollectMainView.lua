@@ -35,10 +35,16 @@ function CollectMainView:initUI(ui)
 end
 
 function CollectMainView:commonUpdateInfo(tarnode,pageType)
+
 	local param = CollectDataMgr:getCollectsProcessByPage(pageType)
 	local isShowRed = CollectDataMgr:isPageShowRed(pageType)
 	tarnode:getChildByName("Label_percent_value"):setString(tostring(param.percent))
 	tarnode:getChildByName("Label_trophy_value"):setString(tostring(param.trophy))
+
+	--暂时屏蔽信物红点
+	if pageType == EC_CollectPage.TOKEN then
+		isShowRed = false
+	end
 	tarnode:getChildByName("Image_reddot"):setVisible(isShowRed)
 end
 

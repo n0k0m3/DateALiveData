@@ -7976,7 +7976,7 @@ return {
         sort = 622,
         sortr = "693",
         name1 = 1701973,
-        isOpen = false,
+        isOpen = true,
         type1 = 5,
         type3 = {
             [1] = 205001,

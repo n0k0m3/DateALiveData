@@ -308,7 +308,7 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = -280,
+										PositionX = -374,
 										PositionY = 225,
 									},
 									visible = "False",
@@ -597,7 +597,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "20",
+													fontSize = "22",
 													fontStroke = 
 													{
 														IsStroke = false,
@@ -608,7 +608,7 @@ local t =
 													ignoreSize = "False",
 													name = "Label_start",
 													nTextAlign = "1",
-													nTextHAlign = "0",
+													nTextHAlign = "1",
 													sizepercentx = "0",
 													sizepercenty = "0",
 													sizeType = "0",
@@ -620,7 +620,7 @@ local t =
 													{
 														PositionY = -1,
 													},
-													width = "150",
+													width = "146",
 													ZOrder = "1",
 												},
 												{
@@ -658,7 +658,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "Date Settings",
+													text = "date settings",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -666,7 +666,7 @@ local t =
 														PositionY = -20,
 													},
 													visible = "False",
-													width = "82",
+													width = "80",
 													ZOrder = "1",
 												},
 											},
@@ -782,14 +782,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "12",
+													fontSize = "20",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "14",
+													height = "24",
 													ignoreSize = "True",
 													name = "Label_roomLv",
 													nTextAlign = "1",
@@ -798,7 +798,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "TextLable",
+													text = "Lv 33",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -828,14 +828,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "17",
+													fontSize = "24",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "20",
+													height = "29",
 													ignoreSize = "True",
 													name = "Label_roomName",
 													nTextAlign = "1",
@@ -844,7 +844,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "Instance Name",
+													text = "Instance name",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -852,7 +852,7 @@ local t =
 														PositionX = -143,
 														PositionY = 47,
 													},
-													width = "127",
+													width = "176",
 													ZOrder = "1",
 												},
 												{
@@ -1061,6 +1061,7 @@ local t =
 											{
 												PositionX = -257,
 											},
+											visible = "False",
 											width = "301",
 											ZOrder = "1",
 											components = 
@@ -1101,7 +1102,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "Join the fight now！",
+													text = "TextLable",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -1266,14 +1267,14 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
-															text = "Join",
+															text = "Jon",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
 																
 															},
-															width = "35",
+															width = "31",
 															ZOrder = "1",
 														},
 														{
@@ -1311,14 +1312,14 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
-															text = "N／A",
+															text = "Empty",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
 																PositionY = 68,
 															},
-															width = "49",
+															width = "54",
 															ZOrder = "1",
 														},
 													},
@@ -1387,7 +1388,7 @@ local t =
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "0",
+															height = "21",
 															ignoreSize = "True",
 															name = "Label_name",
 															nTextAlign = "1",
@@ -1396,6 +1397,7 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
+															text = "TextLable",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
@@ -1403,7 +1405,7 @@ local t =
 																PositionX = 1,
 																PositionY = 71,
 															},
-															width = "0",
+															width = "73",
 															ZOrder = "1",
 														},
 														{
@@ -1756,14 +1758,14 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
-															text = "Join",
+															text = "Jon",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
 																
 															},
-															width = "35",
+															width = "31",
 															ZOrder = "1",
 														},
 														{
@@ -1801,14 +1803,14 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
-															text = "N／A",
+															text = "Empty",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
 																PositionY = 68,
 															},
-															width = "49",
+															width = "54",
 															ZOrder = "1",
 														},
 													},
@@ -1877,7 +1879,7 @@ local t =
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "0",
+															height = "21",
 															ignoreSize = "True",
 															name = "Label_name",
 															nTextAlign = "1",
@@ -1886,6 +1888,7 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
+															text = "TextLable",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
@@ -1893,7 +1896,7 @@ local t =
 																PositionX = 1,
 																PositionY = 71,
 															},
-															width = "0",
+															width = "73",
 															ZOrder = "1",
 														},
 														{
@@ -2246,14 +2249,14 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
-															text = "Join",
+															text = "Jon",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
 																
 															},
-															width = "35",
+															width = "31",
 															ZOrder = "1",
 														},
 														{
@@ -2291,14 +2294,14 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
-															text = "N／A",
+															text = "Empty",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
 																PositionY = 68,
 															},
-															width = "49",
+															width = "54",
 															ZOrder = "1",
 														},
 													},
@@ -2367,7 +2370,7 @@ local t =
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "0",
+															height = "21",
 															ignoreSize = "True",
 															name = "Label_name",
 															nTextAlign = "1",
@@ -2376,6 +2379,7 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
+															text = "TextLable",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
@@ -2383,7 +2387,7 @@ local t =
 																PositionX = 1,
 																PositionY = 71,
 															},
-															width = "0",
+															width = "73",
 															ZOrder = "1",
 														},
 														{

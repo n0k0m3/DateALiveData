@@ -138,7 +138,7 @@ local t =
 									controlID = "Label_date_Image_ad_Panel_root_Panel-storeActivityView_Layer1_activity_Game",
 									UUID = "869418cb_3fc5_4948_bb8d_15b9da728546",
 									anchorPoint = "False",
-									anchorPointX = "0.5",
+									anchorPointX = "1",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -153,14 +153,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "17",
 									fontStroke = 
 									{
 										IsStroke = true,
 										StrokeColor = "#FF000000",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "21",
 									ignoreSize = "True",
 									name = "Label_date",
 									nTextAlign = "1",
@@ -174,10 +174,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 311,
-										PositionY = -51,
+										PositionX = 413,
+										PositionY = -50,
 									},
-									width = "81",
+									width = "70",
 									ZOrder = "1",
 								},
 								{
@@ -929,15 +929,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "15",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_name",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -945,14 +945,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Green Energy",
+											text = "Green Energy Green Energy",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = 153,
+												PositionY = 156,
 											},
-											width = "188",
+											width = "170",
 											ZOrder = "1",
 										},
 										{

@@ -66,11 +66,12 @@ function StoreActivityView:updateActivity()
         self:updateGoodsItem(i)
     end
 
-    local startDate = Utils:getLocalDate(self.activityInfo_.startTime)
-    local startDateStr = startDate:fmt("%Y.%m.%d")
-    local endDate = Utils:getLocalDate(self.activityInfo_.endTime)
-    local endDateStr = endDate:fmt("%Y.%m.%d")
-    self.Label_date:setTextById(800041, startDateStr, endDateStr)
+    -- local startDate = Utils:getLocalDate(self.activityInfo_.startTime)
+    -- local startDateStr = startDate:fmt("%Y.%m.%d")
+    -- local endDate = Utils:getLocalDate(self.activityInfo_.endTime)
+    -- local endDateStr = endDate:fmt("%Y.%m.%d")
+
+    self.Label_date:setText(Utils:getActivityDateString(self.activityInfo_.startTime, self.activityInfo_.endTime, self.activityInfo_.extendData.dateStyle))
     self.Image_ad:setTexture(self.activityInfo_.showIcon)
 
     local extendData = self.activityInfo_.extendData

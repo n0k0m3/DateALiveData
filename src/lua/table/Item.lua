@@ -33536,7 +33536,7 @@ return {
         onceUseLimit = 0,
         id = 580002,
         totalMax = 99999,
-        subType = 3,
+        subType = 4,
         sellProfit = {
             [1] = {
                 [1] = 500001,
@@ -54118,6 +54118,57 @@ return {
         accessId = {
         },
         des = "9折战令折扣券",
+    },
+    [566049] = {
+        superType = 7,
+        desTextId = 190000116,
+        cost = "",
+        order = 1,
+        pileUp = true,
+        useProfit = {
+            fix = {
+                items = {
+                    [1] = {
+                        id = 540190,
+                        num = 1,
+                    },
+                },
+            },
+        },
+        buyItemRecover = 0,
+        gridMax = 9999999,
+        bornEffect = false,
+        outTime = 0,
+        bagType = 4,
+        autoUse = true,
+        nameTextId = 190000115,
+        icon = "icon/item/goods/520020.png",
+        quality = 1,
+        isHide = false,
+        delete = false,
+        useCast = {
+        },
+        onceUseLimit = 0,
+        id = 566049,
+        totalMax = 9999999,
+        subType = 3,
+        sellProfit = {
+            [1] = {
+                [1] = 500001,
+                [2] = 1,
+            },
+        },
+        batchUse = false,
+        convertMax = {
+        },
+        iconShow = "",
+        smallType = 0,
+        dealProfit = {
+        },
+        star = 0,
+        accessId = {
+        },
+        des = "满月祭",
     },
     [533301] = {
         superType = 6,
@@ -91170,7 +91221,7 @@ return {
     },
     [540190] = {
         superType = 10,
-        desTextId = 900450,
+        desTextId = 190000118,
         cost = "",
         order = 1,
         pileUp = true,
@@ -91182,7 +91233,7 @@ return {
         outTime = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 0,
+        nameTextId = 190000117,
         icon = "icon/pokedexActivity/icon_manyueji.png",
         quality = 1,
         isHide = false,

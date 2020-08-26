@@ -5,6 +5,21 @@ function BuyResourceView:initData(itemId)
     self.itemId_ = itemId
     self.itemCfg_ = GoodsDataMgr:getItemCfg(itemId)
     self.itemRecoverCfg_ = StoreDataMgr:getItemRecoverCfg(self.itemCfg_.buyItemRecover)
+    self.prices = clone(self.itemRecoverCfg_.price)
+
+    local isHavePrivilege, cfg = RechargeDataMgr:getIsHavePrivilegeByType(104)
+
+    self.discountNum = 0
+    local _cfg = StoreDataMgr:getItemRecoverInfo(self.itemCfg_.buyItemRecover)
+    if _cfg then
+        self.discountNum = _cfg.discountNum or 0
+    end 
+    local buyCount = StoreDataMgr:getItemRecoverBuyCount(self.itemCfg_.buyItemRecover)
+    if itemId == cfg.privilege.itemId and isHavePrivilege  then
+        for i = 1, cfg.privilege.chance do
+            table.insert(self.prices, buyCount + cfg.privilege.chance, self.prices[1])
+        end
+    end
 end
 
 function BuyResourceView:ctor(...)
@@ -38,11 +53,12 @@ end
 function BuyResourceView:refreshView()
     self.Label_title:setTextById(800020)
     local name = TextDataMgr:getText(self.itemCfg_.nameTextId)
-    local buyCount = StoreDataMgr:getItemRecoverBuyCount(self.itemCfg_.buyItemRecover)
-    local remainCount = math.max(0, #self.itemRecoverCfg_.price - buyCount)
+    
+    local buyCount = StoreDataMgr:getItemRecoverBuyCount(self.itemCfg_.buyItemRecover) + self.discountNum
+    local remainCount = math.max(0, #self.prices - buyCount)
     self.Label_tips:setTextById("r30001", name, remainCount)
 
-    self.cost = self.itemRecoverCfg_.price[buyCount + 1][1]
+    self.cost = self.prices[buyCount + 1][1]
     local costCfg = GoodsDataMgr:getItemCfg(self.cost[1].id)
     local Panel_goodsItem= PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
     PrefabDataMgr:setInfo(Panel_goodsItem, self.cost[1].id)

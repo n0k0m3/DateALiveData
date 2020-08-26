@@ -129,5 +129,15 @@ local t = {
 			canLoad=true,
 			logic="",
 		},
+		{
+			name="teamRoomSelectView",
+			ui ="teamRoomSelectView.lua",
+			x=0,
+			y=0,
+			speed=0,
+			layer="teamFight",
+			canLoad=true,
+			logic="",
+		},
 }
 return t

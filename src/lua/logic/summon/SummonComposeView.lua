@@ -80,6 +80,8 @@ function SummonComposeView:initUI(ui)
     self.Button_preview = TFDirector:getChildByPath(self.Panel_root, "Button_preview")
     self.Label_preview = TFDirector:getChildByPath(self.Button_preview, "Label_preview")
 
+    self.Button_onekeyComplete = TFDirector:getChildByPath(ui, "Button_onekeyComplete")
+
     self.Label_top_tips:setTextById(1200077)
     local data = TabDataMgr:getData("DiscreteData",14009).data
     local min = math.floor(data.time / 60)
@@ -108,6 +110,8 @@ function SummonComposeView:updateOneKey()
         end
     end
     self._ui.Button_onekey:setVisible(isShowOneKey);
+
+    self.Button_onekeyComplete:setVisible(SummonDataMgr:isHaveNotCommplete() and SummonDataMgr:isCanFreeAllApeedUp())
 end
 
 function SummonComposeView:updatePointItem(pointType)
@@ -330,6 +334,7 @@ end
 function SummonComposeView:registerEvents()
     EventMgr:addEventListener(self, EV_SUMMON_COMPOSE_UPDATE, handler(self.onComposeUpdateEvent, self))
     EventMgr:addEventListener(self, EV_SUMMON_COMPOSE_RECEIVE, handler(self.onComposeReceiveEvent, self))
+    EventMgr:addEventListener(self, EV_PRIVILEGE_UPDATE, handler(self.updateOneKey, self))
 
     self.Button_compose:onClick(function()
         local summonComposeCfg = self.summonCompose_[self.selectPointType_]
@@ -377,7 +382,11 @@ function SummonComposeView:registerEvents()
             --传-1表示一件领取
             self.selectPointType_ = 1;
             SummonDataMgr:send_SUMMON_COMPOSE_FINISH(-1)
-        end)
+    end)
+
+    self.Button_onekeyComplete:onClick(function()
+        SummonDataMgr:send_SUMMON_COMPOSE_SPEED(0)
+    end)
 end
 
 function SummonComposeView:onShow( )

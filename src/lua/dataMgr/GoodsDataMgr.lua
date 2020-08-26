@@ -723,4 +723,22 @@ end
 function GoodsDataMgr:getBaseHeroData()
     return self.baseHerosData
 end
+
+--英文获取过期折扣券信息    过期时间参数从小到大
+function GoodsDataMgr:getOverdueCouponData( couponType , time_1 , time_2 )
+    local itemList_1 = {}
+    local itemList_2 = {}
+    local couponData = self:getItemsBySuperTyper(couponType)
+    for k,v in pairs(couponData) do
+        local remainTime = math.max(0, v.outTime - ServerDataMgr:getServerTime())
+        if remainTime >0 then
+            if remainTime <  time_1 then
+                table.insert(itemList_1,v);
+            elseif remainTime < time_2 then
+                table.insert(itemList_2,v);
+            end
+        end
+    end
+    return itemList_1 , itemList_2
+end
 return GoodsDataMgr:new()

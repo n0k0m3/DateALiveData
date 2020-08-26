@@ -200,7 +200,7 @@ return {
         flip = false,
         id = 410403,
         modelId = 104,
-        rolePath = "modle/citymodle/city_10401/city_10401",
+        rolePath = "modle/citymodle/city_10403/city_10403",
         roleType = 1,
         iconPos = {
             y = 230,
@@ -886,7 +886,7 @@ return {
         flip = true,
         id = 410105,
         modelId = 101,
-        rolePath = "modle/citymodle/city_10101/city_10101",
+        rolePath = "modle/citymodle/city_10105/city_10105",
         roleType = 1,
         iconPos = {
             y = 230,

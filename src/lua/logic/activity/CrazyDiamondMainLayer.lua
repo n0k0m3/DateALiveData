@@ -170,10 +170,11 @@ function CrazyDiamondMainLayer:updateUI( )
     self.getDiamondLabel:setTextById("r99990001", itemCfg.icon, minRewardArray[2], maxRewardArray[2])
     self.tipLabel:setTextById(100000331)
     local open = CrazyDiamondDataMgr:getOpen(self.activityId)
-    local totalPayDiamond = RechargeDataMgr:getTotalPay()
+    local totalPayDiamond = CrazyDiamondDataMgr:getTotalPay(self.activityId)
 
     local payDiamond = math.max(0, (open*100 - totalPayDiamond)*0.01)
     self.reqLabel:setTextById(100000344, payDiamond)
+
 
     for i,_boxPanel in ipairs(self.boxT) do
         _boxPanel.getedPanel:hide()

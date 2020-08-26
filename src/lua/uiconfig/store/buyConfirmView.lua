@@ -281,7 +281,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "物品属性",
+									text = "礼包预览",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -289,7 +289,7 @@ local t =
 										PositionX = -175,
 										PositionY = 219,
 									},
-									width = "114",
+									width = "116",
 									ZOrder = "1",
 								},
 								{
@@ -438,6 +438,45 @@ local t =
 										PositionY = 130,
 									},
 									width = "64",
+									ZOrder = "1",
+								},
+								{
+									controlID = "rewardList_Image_bg_Panel_root_Panel-buyConfirmView_Layer1_store_Game",
+									UUID = "ba6af16b_2d65_40b2_8484_8ae161d6f975",
+									anchorPoint = "False",
+									anchorPointX = "0",
+									anchorPointY = "0",
+									backGroundScale9Enable = "False",
+									bgColorOpacity = "50",
+									bIsOpenClipping = "True",
+									bounceEnable = "False",
+									classname = "MEScrollView",
+									colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+									direction = "2",
+									dstBlendFunc = "771",
+									height = "140",
+									ignoreSize = "False",
+									innerHeight = "140",
+									innerWidth = "350",
+									name = "rewardList",
+									showScrollbar = "False",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									touchAble = "True",
+									UILayoutViewModel = 
+									{
+										PositionX = -177,
+										PositionY = 50,
+									},
+									uipanelviewmodel = 
+									{
+										Layout="Absolute",
+										nType = "0"
+									},
+									visible = "False",
+									width = "350",
 									ZOrder = "1",
 								},
 								{

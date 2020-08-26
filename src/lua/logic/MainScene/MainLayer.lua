@@ -26,6 +26,8 @@ function MainLayer:ctor(data)
 
     self.UTC_TIME = -7  --主界面显示时区为UTC-7
 
+    self.overdueTime = TabDataMgr:getData("DiscreteData")[1100009].data  --折扣券即将过期提示时间
+
 	--[[
     if Utils:isNewYearMainLayerUi() then
         self:init("lua.uiconfig.NewYear.MainLayer")
@@ -1203,6 +1205,8 @@ function MainLayer:updatePlayerInfo()
         --self.info_di:setSize(CCSizeMake(maxWidth, 62))
         --self.Panel_player_level:PosX(maxWidth - self.Panel_player_level:getSize().width / 2)
     end
+
+
 end
 
 function MainLayer:onAvatarUpdata()
@@ -1404,7 +1408,7 @@ function MainLayer:registerEvents()
     self.tiliAdd:onClick(function()
             local itemCfg = GoodsDataMgr:getItemCfg(EC_SItemType.POWER)
             if StoreDataMgr:canContinueBuyItemRecover(itemCfg.buyItemRecover) then
-                Utils:openView("common.BuyResourceView", itemCfg.id)
+                 Utils:openView("common.BuyTiliLayer", itemCfg.id)
             else
                 Utils:showTips(800021)
             end
@@ -2736,6 +2740,10 @@ function MainLayer:onShow()
     self:onRedPointUpdatePoker()
     self:onRedPointUpdateUnion()
     self:onRedPointUpdateDispatch()
+
+    --检查过期折扣券
+    self:checkOverdueCoupon()
+
     --self.Image_noticeTip:setVisible(TaskDataMgr:getTempValue())
     --self.Image_noticeTip:setVisible(NoticeDataMgr:getNoticeCount() > 0)
     self.Image_noticeTip:setVisible(false)
@@ -2870,6 +2878,7 @@ function MainLayer:onShow()
     --     self.Button_ARCamera:hide()
     -- end
     
+
 end
 
 function MainLayer:onUpdateServerGiftRedPoint(  )
@@ -2986,6 +2995,8 @@ function MainLayer:checkAdsShowEnable()
     self:checkChristmasSignIn()
     self:checkChristmasBag()
     self:checkSevenSign()
+
+
 
 end
 
@@ -3126,19 +3137,24 @@ function MainLayer:checkShowNewGuyGift()
         return false
     end
 
+    local playerId = MainPlayer:getPlayerId()
+    local isJumpSecond = CCUserDefault:sharedUserDefault():getBoolForKey(playerId.."NewGuyGifySecondJump")
+
     local isLoginIn = CommonManager:getFirstLoginIn()
-    if isLoginIn then
+    if isLoginIn and isJumpSecond then
         return false
     end
 
     --判断是否弹出过
     local isSave = CommonManager:getNewGuyGifyBagFlage()
     if isSave then
-        return false
+        if not CommonManager:getNewGuyGiftBagIsCanJumpSecond() then
+            return false
+        end
     end
 
     Utils:openView("store.NewGuyGiftBag")
-
+    CommonManager:saveNewGuyGiftBagIsCanJumpSecond()
     return true
 end
 
@@ -3873,6 +3889,25 @@ function MainLayer:updateGiftTime()
 	end
 end
 
+--检查过期折扣券
+function MainLayer:checkOverdueCoupon( ... )
+    if GuideDataMgr:isInNewGuide() then
+        return
+    end
+    if Utils:getIsDayChangeBySaveData( "IsJumpOverdueCoupon" ) then
+        local time_1 = self.overdueTime.thirdNotification.leftTime[1]
+        local time_2 = self.overdueTime.secondNotification.leftTime[1]
+        local goodsData = {}
+        local originItem , convertItem = GoodsDataMgr:getOverdueCouponData(1002 ,time_1 * 60 , time_2 * 60)
+        goodsData.originItem = originItem
+        goodsData.convertItem = convertItem
+        if #goodsData.originItem >0 or #goodsData.convertItem >0 then
+            Utils:openView("bag.OverduePromptView", goodsData)
+        else
+            Utils:clearDayChageSaveData( "IsJumpOverdueCoupon" )
+        end
+    end
+end
 
 return MainLayer;
 

@@ -20,6 +20,15 @@ function CrazyDiamondActivityView:initUI(ui)
     self.timeLabel = TFDirector:getChildByPath(self.rootPanel, "label_time")
     self.tipLabel = TFDirector:getChildByPath(self.rootPanel, "label_tip")
     self.goBtn = TFDirector:getChildByPath(self.rootPanel, "btn_goto")
+    self.tipLabel:enableOutline(ccc3(255 , 255 , 255))
+
+    local bgPanel = TFPanel:create()
+    bgPanel:setSize(CCSize(374 , 201))
+    bgPanel:setBackGroundColorType(TF_LAYOUT_COLOR_SOLID)
+    bgPanel:setBackGroundColor(ccc3(0 , 0 ,0))
+    bgPanel:setBackGroundColorOpacity(80)
+    bgPanel:setPosition(-188 , -99)
+    self.rootPanel:getChildByName("img_content"):addChild(bgPanel)
 end
 
 function CrazyDiamondActivityView:onShow( )

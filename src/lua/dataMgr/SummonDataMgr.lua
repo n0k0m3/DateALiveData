@@ -32,6 +32,11 @@ function SummonDataMgr:init()
     ---GM命令
     TFDirector:addProto(s2c.SUMMON_RES_RESULT_STATISTICS, self, self.onRecvResultStatistics)
 
+    -- 周卡月卡特权免费信息
+    TFDirector:addProto(s2c.SUMMON_RESP_FREE_SUMMON, self, self.onRecvCardPrivilegeInfo)
+    TFDirector:addProto(s2c.SUMMON_RESP_TIME_FREE_SUMMON, self, self.onRecvFreeTimeInfo)
+
+
     self.summonComposeInfo_ = {}
     self.summonPannelInfo = {}
 
@@ -47,6 +52,8 @@ function SummonDataMgr:init()
     self.celebrationCount = {}
     self.dayVoteCount = {}
     self.celebrationPrize = {}
+    self.cardPrivilegeInfo = {}
+    self.preciousDic = {}
     self.summonMap_ = TabDataMgr:getData("Summon")
     local summon = {}
     for k, v in pairs(self.summonMap_) do
@@ -230,6 +237,13 @@ function SummonDataMgr:init()
     end
 
     self.dayVoteMax = Utils:getKVP(90006)
+
+    self.ItemCanConverDic = {}
+    for i, v in pairs(TabDataMgr:getData("Item")) do
+        if v.convertMax and table.count(v.convertMax) ~= 0 then
+            self.ItemCanConverDic[v.id] = 0
+        end
+    end
 end
 
 function SummonDataMgr:reset()
@@ -239,6 +253,8 @@ function SummonDataMgr:reset()
     self.celebrationCount = {}
     self.dayVoteCount = {}
     self.celebrationPrize = {}
+    self.cardPrivilegeInfo = {}
+    self.summonFreeTime = {}
 end
 
 function SummonDataMgr:onLogin()
@@ -250,6 +266,9 @@ function SummonDataMgr:onLogin()
     TFDirector:send(c2s.INDENTURE_REQ_INDENTURE_INFO, {})
     TFDirector:send(c2s.SUMMON_REQ_HOT_SUMMON_INFO, {})
     TFDirector:send(c2s.SUMMON_REQ_SUMMON_PREVIEW, {})
+    TFDirector:send(c2s.SUMMON_REQ_FREE_SUMMON, {})
+    --TFDirector:send(c2s.SUMMON_REQ_FREE_SUMMON_TIME, {})
+
     return {s2c.SUMMON_GET_COMPOSE_INFO, s2c.SUMMON_SUMMON_PANEL_INFO,
             s2c.SUMMON_RES_SUMMON_COUNT, s2c.SUMMON_RES_NWSUMMON_INFO,
             s2c.SUMMON_RES_SUMMON_PREVIEW,}
@@ -278,6 +297,18 @@ function SummonDataMgr:isCanReceiveComposeReward(pointType)
         isReceive = serverTime >= composeInfo.finishTime
     end
     return isReceive
+end
+
+-- 是否有未完成的祈愿
+function SummonDataMgr:isHaveNotCommplete()
+    local _bool = false
+    for i, v in pairs(self.summonComposeInfo_) do
+        if v.finishTime > ServerDataMgr:getServerTime() then
+            _bool = true
+            break
+        end
+    end
+    return _bool
 end
 
 function SummonDataMgr:isCanCompose(pointType)
@@ -546,6 +577,16 @@ function SummonDataMgr:isHaveHero(id)
     return index ~= -1
 end
 
+function SummonDataMgr:resetAlreadyHaveItem()
+    for id, value in pairs(self.ItemCanConverDic) do
+        self.ItemCanConverDic[id] = GoodsDataMgr:getItemCount(id)
+    end
+end
+
+function SummonDataMgr:getItemOldNum(id)
+    return self.ItemCanConverDic[id] or 0
+end
+
 function SummonDataMgr:getWishProb()
     local score = self.score_ * 0.0001
     local baseProb = Utils:getKVP(14002, "rareProbability")
@@ -565,6 +606,50 @@ function SummonDataMgr:getComposePreview(type_)
     end
 end
 
+-- 对应id的召唤按钮是否免费 
+function SummonDataMgr:isFreeBtnById(id)
+    local _bool = false
+    local isHavePrivilege, _ = RechargeDataMgr:getIsHavePrivilegeByType(105)
+    local cfg = self.summonMap_[id]
+
+    if isHavePrivilege and cfg then
+        local lastTime = self:getFreeTimeById(id) - ServerDataMgr:getServerTime()
+        -- 特殊（热点召唤角色和质点或运算）
+        if cfg.summonType == EC_SummonType.HOT_ROLE or cfg.summonType == EC_SummonType.HOT_EQUIPMENT then -- ..
+            if self.cardPrivilegeInfo[EC_SummonType.HOT_ROLE] or self.cardPrivilegeInfo[EC_SummonType.HOT_EQUIPMENT] then
+                dump(lastTime)
+                if lastTime <= 0 then
+                    _bool = true
+                end
+            else
+                _bool = true
+            end
+        end
+    end
+    return _bool
+end
+
+-- 获取对应id免费召唤剩余时间
+function SummonDataMgr:getFreeTimeById(id)
+    local time = 0
+    local cfg = self.summonMap_[id]
+    if cfg then
+        if cfg.summonType == EC_SummonType.HOT_ROLE or cfg.summonType == EC_SummonType.HOT_EQUIPMENT then
+            if self.cardPrivilegeInfo[EC_SummonType.HOT_ROLE] then
+                time = self.cardPrivilegeInfo[EC_SummonType.HOT_ROLE].nextFreeTime
+            elseif self.cardPrivilegeInfo[EC_SummonType.HOT_EQUIPMENT] then
+                time = self.cardPrivilegeInfo[EC_SummonType.HOT_EQUIPMENT].nextFreeTime
+            end
+        else
+            if self.cardPrivilegeInfo[cfg.summonType] then
+                 time = self.cardPrivilegeInfo[cfg.summonType].nextFreeTime
+            end
+        end
+    end
+
+    return time
+end
+
 function SummonDataMgr:resertSummon()
     for i,data in ipairs(self.summon_) do
         local cfg =  self:getSummonCfg(data[1].id)
@@ -581,6 +666,12 @@ function SummonDataMgr:resertSummon()
                 end
             end
         end
+
+        table.sort(data, function(a, b)
+            local cfgA = self:getSummonCfg(a.id)
+            local cfgB = self:getSummonCfg(b.id)
+            return cfgA.summonType < cfgB.summonType
+        end)
     end
 
     for i,data in ipairs(self.agoraSummon_) do
@@ -737,6 +828,12 @@ end
 function SummonDataMgr:setNoobInfo(noobInfo)
     self.noobInfo = noobInfo
 end
+
+-- 是否可以免费一键加速免费
+function SummonDataMgr:isCanFreeAllApeedUp()
+    local isHavePrivilege, cfg = RechargeDataMgr:getIsHavePrivilegeByType(102)
+    return (isHavePrivilege and self.freeNum < cfg.privilege.chance)
+end
 ----------------------------------------------------------
 
 function SummonDataMgr:send_SUMMON_SUMMON(cid, costIndex)
@@ -778,13 +875,49 @@ end
 
 function SummonDataMgr:onRecvSummon(event)
     local data = event.data
-    dump(data)
     if not data.item then return end
     self:setNoobInfo(data.noobInfo)
     self:setActiveIds(data.activeId)
     self.hotHeroSummonScore = data.hotHeroSummonScore
     self.hotEquipSummonScore = data.hotEquipSummonScore
+    if data.freeInfo then
+        self.cardPrivilegeInfo[data.freeInfo.type] = data.freeInfo
+    end
+
+    if data.freeTime then
+        self.summonFreeTime = self.summonFreeTime or {}
+        self.summonFreeTime[data.freeTime.type] = data.freeTime
+    end
+
+    if data.preciousCount then
+        local summonType = self:getSummonCfg(data.id).summonType
+        self.preciousDic[summonType] = data.preciousCount
+    end
+
     EventMgr:dispatchEvent(EV_SUMMON_RESULT, data.item ,data.fixItem,data.id)
+end
+
+function SummonDataMgr:getSummonFreeTime( summonCfg )
+    -- body
+    if not summonCfg then return nil end
+    local summonType = summonCfg.summonType
+    local freeFuncTime = Utils:getKVP(90026,"etime")[summonType]
+    if self.summonFreeTime and self.summonFreeTime[summonType] then
+        local data = clone(self.summonFreeTime[summonType])
+        if ServerDataMgr:getServerTime() >= freeFuncTime or data.nextFreeTime >= freeFuncTime then data.nextFreeTime = nil end
+        data.summonNums = summonCfg.immortalGetTimes - data.summonNums + 1
+        return data
+    else
+        if freeFuncTime then 
+            if ServerDataMgr:getServerTime() < freeFuncTime then
+                return {nextFreeTime = 0,summonNums = summonCfg.immortalGetTimes}
+            else
+                return {summonNums = summonCfg.immortalGetTimes}
+            end
+
+        end
+    end
+    return nil
 end
 
 function SummonDataMgr:getHotSummonRemainCount(loopType)
@@ -810,9 +943,14 @@ end
 function SummonDataMgr:onRecvSpeedCompose(event)
     local data = event.data
     if not data.composeInfo then return end
-    local cfg = self:getSummonComposeCfg(data.composeInfo.cid)
-    self.summonComposeInfo_[cfg.zPointType] = data.composeInfo
-    EventMgr:dispatchEvent(EV_SUMMON_COMPOSE_UPDATE, cfg.zPointType)
+    for i, v in ipairs(data.composeInfo) do
+        local cfg = self:getSummonComposeCfg(v.cid)
+        self.summonComposeInfo_[cfg.zPointType] = v
+    end
+    if data.freeNum then
+        self.freeNum = data.freeNum
+    end
+    EventMgr:dispatchEvent(EV_SUMMON_COMPOSE_UPDATE)
 end
 
 function SummonDataMgr:onRecvComposeFinish(event)
@@ -826,7 +964,6 @@ end
 function SummonDataMgr:onRecvComposeReceive(event)
     local data = event.data
     self.score_ = data.score
-    dump(data)
     local rewards = data.item;--clone(self.summonComposeInfo_[data.zPointType].items)
     for k,v in pairs(rewards) do
         local subType = EquipmentDataMgr:getEquipSubType(v.id)
@@ -844,6 +981,9 @@ function SummonDataMgr:onRecvComposeInfo(event)
         end
     end
     self.score_ = data.score or 0
+    if data.freeNum then
+        self.freeNum = data.freeNum
+    end
 end
 
 function SummonDataMgr:onRecvSummonHistory(event)
@@ -876,7 +1016,10 @@ function SummonDataMgr:onRecvSummonPanelInfo(event)
             if summonCfg then
                 self.dayVoteCount[summonCfg.groupId] = info.dayTimes
             end
-
+            if info.preciousCount then
+                local summonType = self:getSummonCfg(info.summonId).summonType
+                self.preciousDic[summonType] = info.preciousCount
+            end
         end
     end
 
@@ -1230,6 +1373,11 @@ function SummonDataMgr:getGmSummonStatistics()
     return self.gmStatistics
 end
 
+-- 高级保底次数(用了的)
+function SummonDataMgr:getPreciousCount(type)
+   return self.preciousDic[type] or 0
+end
+
 function SummonDataMgr:onRecvResultStatistics(event)
 
     local data = event.data
@@ -1251,6 +1399,28 @@ end
 function SummonDataMgr:getSummonPoolMapCfgs( summonPoolId)
     local id = tonumber(summonPoolId)
     return self.summonPoolMap_[id]
+end
+
+function SummonDataMgr:onRecvCardPrivilegeInfo(event)
+    local data = event.data
+    if not data then
+        return
+    end
+    for i, v in ipairs(data.freeInfo or {}) do
+        self.cardPrivilegeInfo[v.type] = v
+    end
+end
+
+function SummonDataMgr:onRecvFreeTimeInfo(event)
+    local data = event.data
+    if not data then
+        return
+    end
+    self.summonFreeTime = self.summonFreeTime or {}
+    for i, v in ipairs(data.freeTimeSummon or {}) do
+        self.summonFreeTime[v.type] = v
+    end
+    EventMgr:dispatchEvent(EV_PRIVILEGE_UPDATE)
 end
 
 return SummonDataMgr:new()

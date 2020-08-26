@@ -306,7 +306,7 @@ function DatingLetterViewNew:getStatus( pageIdx )
     end
     -- 未解锁
     local favorLevel = mainItemInfo.condition[1] and mainItemInfo.condition[1][2] or 0
-    if DatingDataMgr:checkScriptIdIsFinish(mainItemInfo.prepose) or self.curFavorLevel < favorLevel then
+    if (DatingDataMgr:checkScriptIdIsFinish(mainItemInfo.datingRuleId) ) or self.curFavorLevel < favorLevel then
         return EC_DatingLetterStatus.STATUS_LOCK
     end
     return EC_DatingLetterStatus.STAUS_ING

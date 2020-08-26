@@ -2957,7 +2957,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Umu... my feeling tells me it's here. SANDALPHON, wait for me!",
+                text = "Umu... my feeling tells me it's here. Sandalphon, wait for me!",
             },
         },
         actionL = {
@@ -3136,7 +3136,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "METATRON",
+        name = "Metatron",
         cameraAction = 0,
         headL = "40101_a1",
         conditions = {
@@ -3195,7 +3195,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "I'm METATRON, guardian angel of KETHER, and the one who summoned you here.",
+                text = "I'm Metatron, guardian angel of Kether, and the one who summoned you here.",
             },
         },
         actionL = {
@@ -3204,7 +3204,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "METATRON",
+        name = "Metatron",
         cameraAction = 0,
         headL = "40101_a1",
         conditions = {
@@ -3263,7 +3263,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "This place is the KETHER world of the Tree of Life, independent from both the Spirit and human worlds, the source of spirit's ANGEL power.",
+                text = "This place is the Kether world of the Tree of Life, independent from both the Spirit and human worlds, the source of spirit's ANGEL power.",
             },
         },
         actionL = {
@@ -3272,7 +3272,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "METATRON",
+        name = "Metatron",
         cameraAction = 0,
         headL = "40101_a1",
         conditions = {
@@ -3297,7 +3297,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "The Tree of Life is being eroded by the power of darkness, it is my hope that you can save the KETHER world.",
+                text = "The Tree of Life is being eroded by the power of darkness, it is my hope that you can save the Kether world.",
             },
         },
         actionL = {
@@ -3306,7 +3306,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "METATRON",
+        name = "Metatron",
         cameraAction = 0,
         headL = "40101_a1",
         conditions = {
@@ -3374,7 +3374,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "METATRON",
+        name = "Metatron",
         cameraAction = 0,
         headL = "40101_a1",
         conditions = {
@@ -3442,7 +3442,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "METATRON",
+        name = "Metatron",
         cameraAction = 0,
         headL = "40101_a1",
         conditions = {
@@ -3467,7 +3467,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "METATRON, the lighthouse has been occupied, can this area be restored?",
+                text = "Metatron, the lighthouse has been occupied, can this area be restored?",
             },
         },
         actionL = {
@@ -3501,7 +3501,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Not enough. Tetragram, the power source of KETHER, is devoured by the darkness. It must be retrieved to restore the vitality of the Tree of Life.",
+                text = "Not enough. Tetragram, the power source of Kether, is devoured by the darkness. It must be retrieved to restore the vitality of the Tree of Life.",
             },
         },
         actionL = {
@@ -3510,7 +3510,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "METATRON",
+        name = "Metatron",
         cameraAction = 0,
         headL = "10101_e2",
         conditions = {
@@ -3578,7 +3578,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "METATRON",
+        name = "Metatron",
         cameraAction = 0,
         headL = "10501_b2",
         conditions = {
@@ -3637,7 +3637,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "You have my gratitude for finding the power source of KETHER, but... the darkness has been alerted...",
+                text = "You have my gratitude for finding the power source of Kether, but... the darkness has been alerted...",
             },
         },
         actionL = {
@@ -3646,7 +3646,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "METATRON",
+        name = "Metatron",
         cameraAction = 0,
         headL = "40101_a1",
         conditions = {
@@ -3680,7 +3680,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "METATRON",
+        name = "Metatron",
         cameraAction = 0,
         headL = "40101_a1",
         conditions = {
@@ -3739,7 +3739,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "The monsters that eroded KETHER are still devouring the energy of the Tree of Life, please help to destroy them.",
+                text = "The monsters that eroded Kether are still devouring the energy of the Tree of Life, please help to destroy them.",
             },
         },
         actionL = {
@@ -3748,7 +3748,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "METATRON",
+        name = "Metatron",
         cameraAction = 0,
         headL = "40101_a1",
         conditions = {
@@ -3850,7 +3850,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "METATRON",
+        name = "Metatron",
         cameraAction = 0,
         headL = "10501_b1",
         conditions = {
@@ -3875,7 +3875,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Umu, I need to defeat them asap, SANDALPHON's cry for help is getting weaker.",
+                text = "Umu, I need to defeat them asap, Sandalphon's cry for help is getting weaker.",
             },
         },
         actionL = {
@@ -3943,7 +3943,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Hmm, METATRON, can you help us with the search?",
+                text = "Hmm, Metatron, can you help us with the search?",
             },
         },
         actionL = {
@@ -3986,7 +3986,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "METATRON",
+        name = "Metatron",
         cameraAction = 0,
         headL = "10501_b1",
         conditions = {
@@ -4045,7 +4045,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Because SATAN, the demon king who occupied KETHER is still alive, their power can continuously spawn new monsters.",
+                text = "Because SATANAS, the demon king who occupied Kether is still alive, their power can continuously spawn new monsters.",
             },
         },
         actionL = {
@@ -4054,7 +4054,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "METATRON",
+        name = "Metatron",
         cameraAction = 0,
         headL = "10501_b2",
         conditions = {
@@ -4122,7 +4122,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "METATRON",
+        name = "Metatron",
         cameraAction = 0,
         headL = "10501_b1",
         conditions = {
@@ -4156,7 +4156,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "METATRON",
+        name = "Metatron",
         cameraAction = 0,
         headL = "10501_b2",
         conditions = {
@@ -4181,7 +4181,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Understood, let's start with SATAN first. Kannazuki, Move out!",
+                text = "Understood, let's start with SATANAS first. Kannazuki, Move out!",
             },
         },
         actionL = {
@@ -4224,7 +4224,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "SATAN",
+        name = "SATANAS",
         cameraAction = 0,
         headL = "40201_a1",
         conditions = {
@@ -4292,7 +4292,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "SATAN",
+        name = "SATANAS",
         cameraAction = 0,
         headL = "40201_a1",
         conditions = {
@@ -4360,7 +4360,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "SATAN",
+        name = "SATANAS",
         cameraAction = 0,
         headL = "10101_b1",
         conditions = {
@@ -4385,7 +4385,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "KETHER world has been purified, thank you.",
+                text = "Kether world has been purified, thank you.",
             },
         },
         actionL = {
@@ -4394,7 +4394,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "METATRON",
+        name = "Metatron",
         cameraAction = 0,
         headL = "40101_a1",
         conditions = {
@@ -4419,7 +4419,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "But KETHER is but a Sephira World with the lowest corruption, while the Sephira Worlds below the Tree of Life have all been occupied.",
+                text = "But Kether is but a Sephira World with the lowest corruption, while the Sephira Worlds below the Tree of Life have all been occupied.",
             },
         },
         actionL = {
@@ -4428,7 +4428,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "METATRON",
+        name = "Metatron",
         cameraAction = 0,
         headL = "40101_a1",
         conditions = {
@@ -4462,7 +4462,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "METATRON",
+        name = "Metatron",
         cameraAction = 0,
         headL = "40101_a1",
         conditions = {
@@ -4487,7 +4487,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Where is SANDALPHON? How is it?",
+                text = "Where is Sandalphon? How is it?",
             },
         },
         actionL = {
@@ -4521,7 +4521,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "The MALKUTH world has been completely corrupted. SANDALPHON's condition may not be good.",
+                text = "The Malkuth world has been completely corrupted. Sandalphon's condition may not be good.",
             },
         },
         actionL = {
@@ -4530,7 +4530,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "METATRON",
+        name = "Metatron",
         cameraAction = 0,
         headL = "40101_a1",
         conditions = {
@@ -4555,7 +4555,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "SANDALPHON... Kotori, let's go save it!",
+                text = "Sandalphon... Kotori, let's go save it!",
             },
         },
         actionL = {
@@ -4623,7 +4623,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "There are nine left, you can follow path 22 to MALKUTH where SANDALPHON is located.",
+                text = "There are nine left, you can follow path 22 to Malkuth where Sandalphon is located.",
             },
         },
         actionL = {
@@ -4632,7 +4632,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "METATRON",
+        name = "Metatron",
         cameraAction = 0,
         headL = "40101_a1",
         conditions = {
@@ -4657,7 +4657,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Umu, if SANDALPHON is in the last world, then the only choice is to defeat all demons in the way, one by one.",
+                text = "Umu, if Sandalphon is in the last world, then the only choice is to defeat all demons in the way, one by one.",
             },
         },
         actionL = {
@@ -4700,7 +4700,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "METATRON",
+        name = "Metatron",
         cameraAction = 0,
         headL = "40101_a1",
         conditions = {
@@ -4734,7 +4734,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "METATRON",
+        name = "Metatron",
         cameraAction = 0,
         headL = "40101_a1",
         conditions = {
@@ -4759,7 +4759,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Darn, without SANDALPHON's power, I...",
+                text = "Darn, without Sandalphon's power, I...",
             },
         },
         actionL = {
@@ -4827,7 +4827,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "METATRON told me everything, I can't believe that you have defeated SATAN.",
+                text = "Metatron told me everything, I can't believe that you have defeated SATANAS.",
             },
         },
         actionL = {
@@ -4836,7 +4836,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "RATZIEL",
+        name = "Ratziel",
         cameraAction = 0,
         headL = "40102_a1",
         conditions = {
@@ -4895,7 +4895,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "I'm RATZIEL, master of divine knowledge, guardian of the CHOKHMAH world.",
+                text = "I'm Ratziel, master of divine knowledge, guardian of the Chokhmah world.",
             },
         },
         actionL = {
@@ -4904,7 +4904,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "RATZIEL",
+        name = "Ratziel",
         cameraAction = 0,
         headL = "40102_a1",
         conditions = {
@@ -4929,7 +4929,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "I apologize, because of my negligence, the entire CHOKHMAH world has been infected by BEELZEBUB.",
+                text = "I apologize, because of my negligence, the entire Chokhmah world has been infected by BEELZEBUL.",
             },
         },
         actionL = {
@@ -4938,7 +4938,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "RATZIEL",
+        name = "Ratziel",
         cameraAction = 0,
         headL = "40102_a1",
         conditions = {
@@ -4972,7 +4972,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "RATZIEL",
+        name = "Ratziel",
         cameraAction = 0,
         headL = "40102_a1",
         conditions = {
@@ -5065,7 +5065,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "BEELZEBUB has polluted the CHOKHMAH world, the entire area was shrouded in the dark mist she released.",
+                text = "BEELZEBUL has polluted the Chokhmah world, the entire area was shrouded in the dark mist she released.",
             },
         },
         actionL = {
@@ -5074,7 +5074,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "RATZIEL",
+        name = "Ratziel",
         cameraAction = 0,
         headL = "10501_f2",
         conditions = {
@@ -5108,7 +5108,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "RATZIEL",
+        name = "Ratziel",
         cameraAction = 0,
         headL = "10501_f2",
         conditions = {
@@ -5176,7 +5176,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "RATZIEL",
+        name = "Ratziel",
         cameraAction = 0,
         headL = "10501_c2",
         conditions = {
@@ -5201,7 +5201,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "The situation here seems more serious than KETHER, how can we purify the CHOKHMAH world?",
+                text = "The situation here seems more serious than Kether, how can we purify the Chokhmah world?",
             },
         },
         actionL = {
@@ -5235,7 +5235,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "BEELZEBUB has created too many energy monsters in the area and they are scattered across the continent.",
+                text = "BEELZEBUL has created too many energy monsters in the area and they are scattered across the continent.",
             },
         },
         actionL = {
@@ -5244,7 +5244,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "RATZIEL",
+        name = "Ratziel",
         cameraAction = 0,
         headL = "10501_b2",
         conditions = {
@@ -5269,7 +5269,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Only by eradicating these threats, can there be hope for the CHOKHMAH world.",
+                text = "Only by eradicating these threats, can there be hope for the Chokhmah world.",
             },
         },
         actionL = {
@@ -5278,7 +5278,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "RATZIEL",
+        name = "Ratziel",
         cameraAction = 0,
         headL = "10501_b2",
         conditions = {
@@ -5346,7 +5346,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "RATZIEL",
+        name = "Ratziel",
         cameraAction = 0,
         headL = "40102_a1",
         conditions = {
@@ -5380,7 +5380,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "RATZIEL",
+        name = "Ratziel",
         cameraAction = 0,
         headL = "40102_a1",
         conditions = {
@@ -5448,7 +5448,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "RATZIEL",
+        name = "Ratziel",
         cameraAction = 0,
         headL = "40102_a1",
         conditions = {
@@ -5507,7 +5507,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Please be careful. BEELZEBUB has super strong mutation power.",
+                text = "Please be careful. BEELZEBUL has super strong mutation power.",
             },
         },
         actionL = {
@@ -5516,7 +5516,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "RATZIEL",
+        name = "Ratziel",
         cameraAction = 0,
         headL = "10501_f2",
         conditions = {
@@ -5575,7 +5575,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Spirits, are you those who defeated SATAN?",
+                text = "Spirits, are you those who defeated SATANAS?",
             },
         },
         actionL = {
@@ -5584,7 +5584,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "BEELZEBUB",
+        name = "BEELZEBUL",
         cameraAction = 0,
         headL = "10501_f1",
         conditions = {
@@ -5652,7 +5652,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "BEELZEBUB",
+        name = "BEELZEBUL",
         cameraAction = 0,
         headL = "10501_f2",
         conditions = {
@@ -5677,7 +5677,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "I shall use your blood to paint the CHOKHMAH world!",
+                text = "I shall use your blood to paint the Chokhmah world!",
             },
         },
         actionL = {
@@ -5686,7 +5686,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "BEELZEBUB",
+        name = "BEELZEBUL",
         cameraAction = 0,
         headL = "40202_a1",
         conditions = {
@@ -5711,7 +5711,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Thank you for clearing the CHOKHMAH world. If your goal is to save SANDALPHON, then the road ahead will be even more dangerous.",
+                text = "Thank you for clearing the Chokhmah world. If your goal is to save Sandalphon, then the road ahead will be even more dangerous.",
             },
         },
         actionL = {
@@ -5720,7 +5720,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "RATZIEL",
+        name = "Ratziel",
         cameraAction = 0,
         headL = "40102_a1",
         conditions = {
@@ -5745,7 +5745,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Please accept my gift, and I sincerely hope that you can successfully reach the final world MALKUTH.",
+                text = "Please accept my gift, and I sincerely hope that you can successfully reach the final world Malkuth.",
             },
         },
         actionL = {
@@ -5754,7 +5754,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "RATZIEL",
+        name = "Ratziel",
         cameraAction = 0,
         headL = "40102_a1",
         conditions = {
@@ -5779,7 +5779,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Umu! SANDALPHON must be waiting for me, let's go!",
+                text = "Umu! Sandalphon must be waiting for me, let's go!",
             },
         },
         actionL = {
@@ -5813,7 +5813,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "The corruption of CHOKHMAH is too serious...",
+                text = "The corruption of Chokhmah is too serious...",
             },
         },
         actionL = {
@@ -5822,7 +5822,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "RATZIEL",
+        name = "Ratziel",
         cameraAction = 0,
         headL = "40102_a1",
         conditions = {
@@ -5856,7 +5856,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "RATZIEL",
+        name = "Ratziel",
         cameraAction = 0,
         headL = "40102_a1",
         conditions = {
@@ -5881,7 +5881,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "According to RATZIEL's information, the guardian of BINAH is named ZAPHKIEL.",
+                text = "According to Ratziel's information, the guardian of Binah is named Zaphkiel.",
             },
         },
         actionL = {
@@ -5915,7 +5915,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Umu ~ Has ZAPHKIEL also been drowned in the darkness?",
+                text = "Umu ~ Has Zaphkiel also been drowned in the darkness?",
             },
         },
         actionL = {
@@ -5983,7 +5983,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "SANDALPHON doesn't have much time, darn...",
+                text = "Sandalphon doesn't have much time, darn...",
             },
         },
         actionL = {
@@ -6060,7 +6060,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "ZAPHKIEL",
+        name = "Zaphkiel",
         cameraAction = 0,
         headL = "40103_a1",
         conditions = {
@@ -6119,7 +6119,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Absurd Demon and its minions have tampered with the BINAH world. If this continues, the energy of activity and thought will be completely eroded.",
+                text = "Absurd Demon and its minions have tampered with the Binah world. If this continues, the energy of activity and thought will be completely eroded.",
             },
         },
         actionL = {
@@ -6128,7 +6128,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "ZAPHKIEL",
+        name = "Zaphkiel",
         cameraAction = 0,
         headL = "40103_a1",
         conditions = {
@@ -6187,7 +6187,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "First you need to find the BINAH stolen by them. It looks like a string of black pearls, it should be easy to spot.",
+                text = "First you need to find the Binah stolen by them. It looks like a string of black pearls, it should be easy to spot.",
             },
         },
         actionL = {
@@ -6196,7 +6196,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "ZAPHKIEL",
+        name = "Zaphkiel",
         cameraAction = 0,
         headL = "40103_a1",
         conditions = {
@@ -6264,7 +6264,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "ZAPHKIEL",
+        name = "Zaphkiel",
         cameraAction = 0,
         headL = "10501_f1",
         conditions = {
@@ -6289,7 +6289,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "The power source of the BINAH world is also eroded?",
+                text = "The power source of the Binah world is also eroded?",
             },
         },
         actionL = {
@@ -6332,7 +6332,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "ZAPHKIEL",
+        name = "Zaphkiel",
         cameraAction = 0,
         headL = "10501_f1",
         conditions = {
@@ -6366,7 +6366,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "ZAPHKIEL",
+        name = "Zaphkiel",
         cameraAction = 0,
         headL = "10501_f1",
         conditions = {
@@ -6391,7 +6391,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "The source of BINAH taken by Absurd Demon is glowing again, its minions are no longer a threat.",
+                text = "The source of Binah taken by Absurd Demon is glowing again, its minions are no longer a threat.",
             },
         },
         actionL = {
@@ -6400,7 +6400,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "ZAPHKIEL",
+        name = "Zaphkiel",
         cameraAction = 0,
         headL = "40103_a1",
         conditions = {
@@ -6425,7 +6425,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "But there are two Absurd Demons, the other one still controls a large part of the BINAH world.",
+                text = "But there are two Absurd Demons, the other one still controls a large part of the Binah world.",
             },
         },
         actionL = {
@@ -6434,7 +6434,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "ZAPHKIEL",
+        name = "Zaphkiel",
         cameraAction = 0,
         headL = "40103_a1",
         conditions = {
@@ -6502,7 +6502,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "ZAPHKIEL",
+        name = "Zaphkiel",
         cameraAction = 0,
         headL = "40103_a1",
         conditions = {
@@ -6570,7 +6570,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "ZAPHKIEL",
+        name = "Zaphkiel",
         cameraAction = 0,
         headL = "10401L_c1",
         conditions = {
@@ -6638,7 +6638,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "ZAPHKIEL",
+        name = "Zaphkiel",
         cameraAction = 0,
         headL = "10401L_i",
         conditions = {
@@ -6799,7 +6799,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "The BINAH world corrupted by the Absurd Demon has been restored, will you continue to move forward?",
+                text = "The Binah world corrupted by the Absurd Demon has been restored, will you continue to move forward?",
             },
         },
         actionL = {
@@ -6808,7 +6808,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "ZAPHKIEL",
+        name = "Zaphkiel",
         cameraAction = 0,
         headL = "40103_a1",
         conditions = {
@@ -6833,7 +6833,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Of course, SANDALPHON is still calling to me!",
+                text = "Of course, Sandalphon is still calling to me!",
             },
         },
         actionL = {
@@ -6867,7 +6867,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Be careful, I can't leave the BINAH world, please accept my blessing.",
+                text = "Be careful, I can't leave the Binah world, please accept my blessing.",
             },
         },
         actionL = {
@@ -6876,7 +6876,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "ZAPHKIEL",
+        name = "Zaphkiel",
         cameraAction = 0,
         headL = "40103_a1",
         conditions = {
@@ -6910,7 +6910,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "ZAPHKIEL",
+        name = "Zaphkiel",
         cameraAction = 0,
         headL = "40103_a1",
         conditions = {
@@ -16975,7 +16975,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "RATZIEL",
+        name = "Ratziel",
         cameraAction = 0,
         headL = "10103_b1",
         conditions = {
@@ -17043,7 +17043,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "RATZIEL",
+        name = "Ratziel",
         cameraAction = 0,
         headL = "10103_e1",
         conditions = {
@@ -17077,7 +17077,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "RATZIEL",
+        name = "Ratziel",
         cameraAction = 0,
         headL = "10103_e1",
         conditions = {
@@ -17145,7 +17145,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "RATZIEL",
+        name = "Ratziel",
         cameraAction = 0,
         headL = "10103_b2",
         conditions = {
@@ -17213,7 +17213,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "RATZIEL",
+        name = "Ratziel",
         cameraAction = 0,
         headL = "10103_e2",
         conditions = {
@@ -17315,7 +17315,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "SATAN",
+        name = "SATANAS",
         cameraAction = 0,
         headL = "40201_a1",
         conditions = {
@@ -17383,7 +17383,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "SATAN",
+        name = "SATANAS",
         cameraAction = 0,
         headL = "40201_a1",
         conditions = {
@@ -17485,7 +17485,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "SATAN",
+        name = "SATANAS",
         cameraAction = 0,
         headL = "40201_a1",
         conditions = {
@@ -17519,7 +17519,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "SATAN",
+        name = "SATANAS",
         cameraAction = 0,
         headL = "40201_a1",
         conditions = {
@@ -17621,7 +17621,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "SATAN",
+        name = "SATANAS",
         cameraAction = 0,
         headL = "40201_a1",
         conditions = {
@@ -30564,7 +30564,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "SATAN",
+        name = "SATANAS",
         cameraAction = 0,
         headL = "10602_c2",
         conditions = {
@@ -30657,7 +30657,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "SATAN",
+        name = "SATANAS",
         cameraAction = 0,
         headL = "10501_c1",
         conditions = {
@@ -30750,7 +30750,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "SATAN",
+        name = "SATANAS",
         cameraAction = 0,
         headL = "10101_a1",
         conditions = {
@@ -30828,7 +30828,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "SATAN",
+        name = "SATANAS",
         cameraAction = 0,
         headL = "",
         conditions = {
@@ -30906,7 +30906,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "SATAN",
+        name = "SATANAS",
         cameraAction = 0,
         headL = "10602_b2",
         conditions = {
@@ -30945,7 +30945,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "SATAN",
+        name = "SATANAS",
         cameraAction = 0,
         headL = "10602_b2",
         conditions = {
@@ -31160,7 +31160,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "SATAN",
+        name = "SATANAS",
         cameraAction = 0,
         headL = "11001_c1",
         conditions = {
@@ -31204,7 +31204,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "SATAN",
+        name = "SATANAS",
         cameraAction = 0,
         headL = "11001_c1",
         conditions = {
@@ -37338,7 +37338,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "ZADKIEL",
+        name = "Zadkiel",
         cameraAction = 0,
         headL = "10399_a1",
         conditions = {
@@ -37397,7 +37397,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Then you are the warriors! The prophecy of great METATRON is true.",
+                text = "Then you are the warriors! The prophecy of great Metatron is true.",
             },
         },
         actionL = {
@@ -37406,7 +37406,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "ZADKIEL",
+        name = "Zadkiel",
         cameraAction = 0,
         headL = "10301_a1",
         conditions = {
@@ -37499,7 +37499,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Sorry I snuck in, I'm ZADKIEL, the guardian angel of the CHESED world.",
+                text = "Sorry I snuck in, I'm Zadkiel, the guardian angel of the Chesed world.",
             },
         },
         actionL = {
@@ -37508,7 +37508,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "ZADKIEL",
+        name = "Zadkiel",
         cameraAction = 0,
         headL = "40210_a1",
         conditions = {
@@ -37533,7 +37533,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "A guardian angel like METATRON? Why is this place more stressful than previous worlds?",
+                text = "A guardian angel like Metatron? Why is this place more stressful than previous worlds?",
             },
         },
         actionL = {
@@ -37576,7 +37576,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "ZADKIEL",
+        name = "Zadkiel",
         cameraAction = 0,
         headL = "40210_a1",
         conditions = {
@@ -37644,7 +37644,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "ZADKIEL",
+        name = "Zadkiel",
         cameraAction = 0,
         headL = "40210_a1",
         conditions = {
@@ -37712,7 +37712,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "ZADKIEL",
+        name = "Zadkiel",
         cameraAction = 0,
         headL = "40210_a1",
         conditions = {
@@ -37780,7 +37780,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "ZADKIEL",
+        name = "Zadkiel",
         cameraAction = 0,
         headL = "40210_a1",
         conditions = {
@@ -38222,7 +38222,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "ZADKIEL",
+        name = "Zadkiel",
         cameraAction = 0,
         headL = "40210_a1",
         conditions = {
@@ -38290,7 +38290,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "ZADKIEL",
+        name = "Zadkiel",
         cameraAction = 0,
         headL = "40210_a1",
         conditions = {
@@ -38349,7 +38349,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Of course I will. You can protect him by finding the Relic of CHESED, Divine Veil.",
+                text = "Of course I will. You can protect him by finding the Relic of Chesed, Divine Veil.",
             },
         },
         actionL = {
@@ -38358,7 +38358,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "ZADKIEL",
+        name = "Zadkiel",
         cameraAction = 0,
         headL = "40210_D1",
         conditions = {
@@ -38426,7 +38426,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "ZADKIEL",
+        name = "Zadkiel",
         cameraAction = 0,
         headL = "40210_a1",
         conditions = {
@@ -38927,7 +38927,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Originally, Divine Veil could protect the entire CHESED world, but ASTAROTH's power weakened it.",
+                text = "Originally, Divine Veil could protect the entire Chesed world, but ASTAROTH's power weakened it.",
             },
         },
         actionL = {
@@ -38936,7 +38936,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "ZADKIEL",
+        name = "Zadkiel",
         cameraAction = 0,
         headL = "10101_e2",
         conditions = {
@@ -39004,7 +39004,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "ZADKIEL",
+        name = "Zadkiel",
         cameraAction = 0,
         headL = "10101_b3",
         conditions = {
@@ -39077,7 +39077,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "ZADKIEL",
+        name = "Zadkiel",
         cameraAction = 0,
         headL = "10101_b3",
         conditions = {
@@ -39145,7 +39145,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "ZADKIEL",
+        name = "Zadkiel",
         cameraAction = 0,
         headL = "40210_a1",
         conditions = {
@@ -39782,7 +39782,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "Thank you... for saving the CHESED world.",
+                text = "Thank you... for saving the Chesed world.",
             },
         },
         actionL = {
@@ -39791,7 +39791,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "ZADKIEL",
+        name = "Zadkiel",
         cameraAction = 0,
         headL = "40210_D1",
         conditions = {
@@ -39893,7 +39893,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "ZADKIEL",
+        name = "Zadkiel",
         cameraAction = 0,
         headL = "10101_b3",
         conditions = {
@@ -41414,7 +41414,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "SATAN!",
+                text = "SATANAS!",
             },
         },
         actionL = {
@@ -55553,7 +55553,7 @@ return {
         text = {
             [1] = {
                 speed = 10,
-                text = "SATAN!",
+                text = "SATANAS!",
             },
         },
         actionL = {
@@ -63552,7 +63552,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "BEELZEBUB",
+        name = "BEELZEBUL",
         cameraAction = 0,
         headL = "40202_a1",
         conditions = {
@@ -65971,7 +65971,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASTAROTH",
         cameraAction = 0,
         headL = "10399_a1",
         conditions = {
@@ -92563,7 +92563,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "BEELZEBUB",
+        name = "BEELZEBUL",
         cameraAction = 0,
         headL = "40202_a1",
         conditions = {
@@ -95923,7 +95923,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "BEELZEBUB",
+        name = "BEELZEBUL",
         cameraAction = 0,
         headL = "40202_a1",
         conditions = {
@@ -95957,7 +95957,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "BEELZEBUB",
+        name = "BEELZEBUL",
         cameraAction = 0,
         headL = "40202_a1",
         conditions = {
@@ -96025,7 +96025,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "SATAN",
+        name = "SATANAS",
         cameraAction = 0,
         headL = "40201_a1",
         conditions = {
@@ -96059,7 +96059,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "SATAN",
+        name = "SATANAS",
         cameraAction = 0,
         headL = "40201_a1",
         conditions = {
@@ -96127,7 +96127,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "SATAN",
+        name = "SATANAS",
         cameraAction = 0,
         headL = "40201_a1",
         conditions = {
@@ -97696,7 +97696,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASTAROTH",
         cameraAction = 0,
         headL = "10302L_a1",
         conditions = {
@@ -97764,7 +97764,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASTAROTH",
         cameraAction = 0,
         headL = "10302L_a1",
         conditions = {
@@ -109645,7 +109645,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASTAROTH",
         cameraAction = 0,
         headL = "10399_a1",
         conditions = {
@@ -109781,7 +109781,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASTAROTH",
         cameraAction = 0,
         headL = "10301_a1",
         conditions = {
@@ -112879,7 +112879,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASTAROTH",
         cameraAction = 0,
         headL = "10302L_a1",
         conditions = {
@@ -112913,7 +112913,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASTAROTH",
         cameraAction = 0,
         headL = "10302L_a1",
         conditions = {
@@ -113015,7 +113015,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASTAROTH",
         cameraAction = 0,
         headL = "10302L_a1",
         conditions = {
@@ -113501,7 +113501,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASTAROTH",
         cameraAction = 0,
         headL = "10399_a1",
         conditions = {
@@ -115137,7 +115137,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASTAROTH",
         cameraAction = 0,
         headL = "10302L_a1",
         conditions = {
@@ -115171,7 +115171,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASTAROTH",
         cameraAction = 0,
         headL = "10302L_a1",
         conditions = {
@@ -115205,7 +115205,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASTAROTH",
         cameraAction = 0,
         headL = "10302L_a1",
         conditions = {
@@ -115239,7 +115239,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASTAROTH",
         cameraAction = 0,
         headL = "10302L_a1",
         conditions = {
@@ -115409,7 +115409,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASTAROTH",
         cameraAction = 0,
         headL = "10399_a1",
         conditions = {
@@ -115477,7 +115477,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASTAROTH",
         cameraAction = 0,
         headL = "10301_a1",
         conditions = {
@@ -119947,7 +119947,7 @@ Father... Mother...",
         actionText = {
         },
         isSpeakingR = false,
-        name = "SATAN",
+        name = "SATANAS",
         cameraAction = 0,
         headL = "40201_a1",
         conditions = {
@@ -127983,7 +127983,7 @@ Father... Mother...",
         actionText = {
         },
         isSpeakingR = true,
-        name = "Astaroth",
+        name = "ASTAROTH",
         cameraAction = 0,
         headL = "10399_a1",
         conditions = {
@@ -128843,7 +128843,7 @@ Father... Mother...",
         actionText = {
         },
         isSpeakingR = false,
-        name = "BEELZEBUB",
+        name = "BEELZEBUL",
         cameraAction = 0,
         headL = "40202_a1",
         conditions = {

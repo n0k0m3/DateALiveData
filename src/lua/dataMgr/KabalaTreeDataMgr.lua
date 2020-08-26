@@ -1751,6 +1751,7 @@ function KabalaTreeDataMgr:onRecvShopInfo(event)
 	if not data then
 		return
 	end
+	EventMgr:dispatchEvent(EV_QLIPHOTH_SHOP_INFO,data.produces,data.nextRefresh)
 	EventMgr:dispatchEvent(EV_UPDATE_STORE,data.produces,data.nextRefresh)
 end
 

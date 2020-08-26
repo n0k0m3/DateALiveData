@@ -1,18 +1,23 @@
 return {
     [1] = {
-        recover_count = 1,
+        privilegePrice = "",
+        id = 1,
+        cooldown = 360,
         resetBuyCountTime = 0,
+        quota = 0,
         price = {
         },
         item_id = 500004,
-        id = 1,
         maxRecoverCount = 0,
-        cooldown = 360,
+        recover_count = 1,
         sendNum = 0,
     },
     [2] = {
-        recover_count = 3,
+        privilegePrice = "",
+        id = 2,
+        cooldown = -1,
         resetBuyCountTime = 2,
+        quota = 0,
         price = {
             [1] = {
                 [1] = {
@@ -34,25 +39,29 @@ return {
             },
         },
         item_id = 500011,
-        id = 2,
         maxRecoverCount = 3,
-        cooldown = -1,
+        recover_count = 3,
         sendNum = 0,
     },
     [3] = {
-        recover_count = 20,
+        privilegePrice = "",
+        id = 3,
+        cooldown = -1,
         resetBuyCountTime = 0,
+        quota = 0,
         price = {
         },
         item_id = 500012,
-        id = 3,
         maxRecoverCount = 20,
-        cooldown = -1,
+        recover_count = 20,
         sendNum = 0,
     },
     [4] = {
-        recover_count = 0,
+        privilegePrice = "500002:25#60",
+        id = 4,
+        cooldown = 0,
         resetBuyCountTime = 2,
+        quota = 0,
         price = {
             [1] = {
                 [1] = {
@@ -146,14 +155,16 @@ return {
             },
         },
         item_id = 500004,
-        id = 4,
         maxRecoverCount = 0,
-        cooldown = 0,
+        recover_count = 0,
         sendNum = 0,
     },
     [5] = {
-        recover_count = 0,
+        privilegePrice = "",
+        id = 5,
+        cooldown = -1,
         resetBuyCountTime = 2,
+        quota = 0,
         price = {
             [1] = {
                 [1] = {
@@ -337,14 +348,16 @@ return {
             },
         },
         item_id = 500001,
-        id = 5,
         maxRecoverCount = 0,
-        cooldown = -1,
+        recover_count = 0,
         sendNum = 0,
     },
     [6] = {
-        recover_count = 3,
+        privilegePrice = "",
+        id = 6,
+        cooldown = -1,
         resetBuyCountTime = 2,
+        quota = 0,
         price = {
             [1] = {
                 [1] = {
@@ -438,25 +451,29 @@ return {
             },
         },
         item_id = 500017,
-        id = 6,
         maxRecoverCount = 3,
-        cooldown = -1,
+        recover_count = 3,
         sendNum = 0,
     },
     [7] = {
-        recover_count = 1,
+        privilegePrice = "",
+        id = 7,
+        cooldown = 720,
         resetBuyCountTime = 0,
+        quota = 0,
         price = {
         },
         item_id = 500024,
-        id = 7,
         maxRecoverCount = 0,
-        cooldown = 720,
+        recover_count = 1,
         sendNum = 0,
     },
     [8] = {
-        recover_count = 0,
+        privilegePrice = "",
+        id = 8,
+        cooldown = 0,
         resetBuyCountTime = 2,
+        quota = 0,
         price = {
             [1] = {
                 [1] = {
@@ -550,25 +567,29 @@ return {
             },
         },
         item_id = 500024,
-        id = 8,
         maxRecoverCount = 0,
-        cooldown = 0,
+        recover_count = 0,
         sendNum = 0,
     },
     [9] = {
-        recover_count = 1,
+        privilegePrice = "",
+        id = 9,
+        cooldown = 120,
         resetBuyCountTime = 0,
+        quota = 0,
         price = {
         },
         item_id = 500025,
-        id = 9,
         maxRecoverCount = 0,
-        cooldown = 120,
+        recover_count = 1,
         sendNum = 0,
     },
     [10] = {
-        recover_count = 0,
+        privilegePrice = "",
+        id = 10,
+        cooldown = 0,
         resetBuyCountTime = 2,
+        quota = 0,
         price = {
             [1] = {
                 [1] = {
@@ -662,25 +683,29 @@ return {
             },
         },
         item_id = 500025,
-        id = 10,
         maxRecoverCount = 0,
-        cooldown = 0,
+        recover_count = 0,
         sendNum = 0,
     },
     [11] = {
-        recover_count = 1,
+        privilegePrice = "",
+        id = 11,
+        cooldown = 28800,
         resetBuyCountTime = 0,
+        quota = 0,
         price = {
         },
         item_id = 500030,
-        id = 11,
         maxRecoverCount = 0,
-        cooldown = 28800,
+        recover_count = 1,
         sendNum = 0,
     },
     [12] = {
-        recover_count = 0,
+        privilegePrice = "",
+        id = 12,
+        cooldown = -1,
         resetBuyCountTime = 2,
+        quota = 0,
         price = {
             [1] = {
                 [1] = {
@@ -693,25 +718,29 @@ return {
             },
         },
         item_id = 500033,
-        id = 12,
         maxRecoverCount = 0,
-        cooldown = -1,
+        recover_count = 0,
         sendNum = 0,
     },
     [13] = {
-        recover_count = 1,
+        privilegePrice = "",
+        id = 13,
+        cooldown = 360,
         resetBuyCountTime = 0,
+        quota = 0,
         price = {
         },
         item_id = 500056,
-        id = 13,
         maxRecoverCount = 0,
-        cooldown = 360,
+        recover_count = 1,
         sendNum = 0,
     },
     [14] = {
-        recover_count = 0,
+        privilegePrice = "",
+        id = 14,
+        cooldown = 0,
         resetBuyCountTime = 2,
+        quota = 0,
         price = {
             [1] = {
                 [1] = {
@@ -805,25 +834,29 @@ return {
             },
         },
         item_id = 500056,
-        id = 14,
         maxRecoverCount = 0,
-        cooldown = 0,
+        recover_count = 0,
         sendNum = 0,
     },
     [15] = {
-        recover_count = 3,
+        privilegePrice = "",
+        id = 15,
+        cooldown = -1,
         resetBuyCountTime = 2,
+        quota = 0,
         price = {
         },
         item_id = 599503,
-        id = 15,
         maxRecoverCount = 10,
-        cooldown = -1,
+        recover_count = 3,
         sendNum = 0,
     },
     [16] = {
-        recover_count = 0,
+        privilegePrice = "",
+        id = 16,
+        cooldown = -1,
         resetBuyCountTime = 2,
+        quota = 0,
         price = {
             [1] = {
                 [1] = {
@@ -872,14 +905,16 @@ return {
             },
         },
         item_id = 500060,
-        id = 16,
         maxRecoverCount = 0,
-        cooldown = -1,
+        recover_count = 0,
         sendNum = 0,
     },
     [17] = {
-        recover_count = 0,
+        privilegePrice = "",
+        id = 17,
+        cooldown = -1,
         resetBuyCountTime = 2,
+        quota = 0,
         price = {
             [1] = {
                 [1] = {
@@ -912,7 +947,7 @@ return {
                 [1] = {
                     [1] = {
                         id = 500002,
-                        num = 100,
+                        num = 120,
                     },
                     targetNum = 1,
                 },
@@ -928,14 +963,16 @@ return {
             },
         },
         item_id = 500063,
-        id = 17,
         maxRecoverCount = 0,
-        cooldown = -1,
+        recover_count = 0,
         sendNum = 0,
     },
     [18] = {
-        recover_count = 1,
+        privilegePrice = "",
+        id = 18,
+        cooldown = 432,
         resetBuyCountTime = 2,
+        quota = 0,
         price = {
             [1] = {
                 [1] = {
@@ -993,25 +1030,29 @@ return {
             },
         },
         item_id = 500071,
-        id = 18,
         maxRecoverCount = 0,
-        cooldown = 432,
+        recover_count = 1,
         sendNum = 0,
     },
     [19] = {
-        recover_count = 0,
+        privilegePrice = "",
+        id = 19,
+        cooldown = -1,
         resetBuyCountTime = 0,
+        quota = 0,
         price = {
         },
         item_id = 598426,
-        id = 19,
         maxRecoverCount = 0,
-        cooldown = -1,
+        recover_count = 0,
         sendNum = 1,
     },
     [20] = {
-        recover_count = 0,
+        privilegePrice = "",
+        id = 20,
+        cooldown = -1,
         resetBuyCountTime = 1,
+        quota = 0,
         price = {
             [1] = {
                 [1] = {
@@ -1033,25 +1074,29 @@ return {
             },
         },
         item_id = 500083,
-        id = 20,
         maxRecoverCount = 3,
-        cooldown = -1,
+        recover_count = 0,
         sendNum = 1,
     },
     [21] = {
-        recover_count = 1,
+        privilegePrice = "",
+        id = 21,
+        cooldown = 300,
         resetBuyCountTime = 0,
+        quota = 0,
         price = {
         },
         item_id = 501001,
-        id = 21,
         maxRecoverCount = 0,
-        cooldown = 300,
+        recover_count = 1,
         sendNum = 0,
     },
     [22] = {
-        recover_count = 0,
+        privilegePrice = "",
+        id = 22,
+        cooldown = 0,
         resetBuyCountTime = 2,
+        quota = 0,
         price = {
             [1] = {
                 [1] = {
@@ -1100,14 +1145,16 @@ return {
             },
         },
         item_id = 501001,
-        id = 22,
         maxRecoverCount = 0,
-        cooldown = 0,
+        recover_count = 0,
         sendNum = 0,
     },
     [23] = {
-        recover_count = 0,
+        privilegePrice = "",
+        id = 23,
+        cooldown = -1,
         resetBuyCountTime = 2,
+        quota = 0,
         price = {
             [1] = {
                 [1] = {
@@ -1129,25 +1176,29 @@ return {
             },
         },
         item_id = 500103,
-        id = 23,
         maxRecoverCount = 0,
-        cooldown = -1,
+        recover_count = 0,
         sendNum = 0,
     },
     [24] = {
-        recover_count = 1,
+        privilegePrice = "",
+        id = 24,
+        cooldown = 600,
         resetBuyCountTime = 0,
+        quota = 0,
         price = {
         },
         item_id = 501005,
-        id = 24,
         maxRecoverCount = 0,
-        cooldown = 600,
+        recover_count = 1,
         sendNum = 0,
     },
     [25] = {
-        recover_count = 0,
+        privilegePrice = "",
+        id = 25,
+        cooldown = 0,
         resetBuyCountTime = 2,
+        quota = 0,
         price = {
             [1] = {
                 [1] = {
@@ -1196,25 +1247,29 @@ return {
             },
         },
         item_id = 501005,
-        id = 25,
         maxRecoverCount = 0,
-        cooldown = 0,
+        recover_count = 0,
         sendNum = 0,
     },
     [26] = {
-        recover_count = 1,
+        privilegePrice = "",
+        id = 26,
+        cooldown = 600,
         resetBuyCountTime = 0,
+        quota = 0,
         price = {
         },
         item_id = 501008,
-        id = 26,
         maxRecoverCount = 0,
-        cooldown = 600,
+        recover_count = 1,
         sendNum = 0,
     },
     [27] = {
-        recover_count = 0,
+        privilegePrice = "",
+        id = 27,
+        cooldown = 0,
         resetBuyCountTime = 2,
+        quota = 0,
         price = {
             [1] = {
                 [1] = {
@@ -1245,9 +1300,8 @@ return {
             },
         },
         item_id = 501008,
-        id = 27,
         maxRecoverCount = 0,
-        cooldown = 0,
+        recover_count = 0,
         sendNum = 0,
     },
 }

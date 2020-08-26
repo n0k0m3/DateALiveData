@@ -47,6 +47,9 @@ function TeamFightDataMgr:init()
     TFDirector:addProto(s2c.TEAM_RESP_ALL_TEAM_INFO, self, self.onRecvRoomInfo)
     TFDirector:addProto(s2c.TEAM_RESP_SET_TEAM_SHOW_TYPE, self, self.onRecvShowInRoomState)
 
+	TFDirector:addProto(s2c.TEAM_RESP_MATCH_RANK, self, self.onRecvMatchRank)
+	
+
     self.inviteSendReport = {friend = {},public = {},club = {}}
     self.levelsGroup = TabDataMgr:getData("ChasmDungeonGroup")
     self.levelsCfg = TabDataMgr:getData("ChasmDungeon")
@@ -77,6 +80,7 @@ function TeamFightDataMgr:reset()
     self.reviveCost      = self.reviveCost or {} --复活消耗
     self.roomTypeCfg = Utils:getKVP(28504,"room")
     self.showInRoom = true
+    self.minLv           = 1
 end
 
 function TeamFightDataMgr:onLoginOut()
@@ -166,13 +170,13 @@ end
 function TeamFightDataMgr:onRecvTumbledUpMsg(event)
     if event.data then
         Utils:showTips(2100148,event.data.name)
-        EventMgr:dispatchEvent(EV_REPORT_SUCCESS)
     end
 end
 
 function TeamFightDataMgr:onRecvInformPlayer(event )
     if event.data then
         Utils:showTips(2100156,event.data.name)
+        EventMgr:dispatchEvent(EV_REPORT_SUCCESS)
     end
 end
 
@@ -251,6 +255,12 @@ function TeamFightDataMgr:onRecvJoinTeam(event)
     --TOAST TIP "match team success"
     --OPEN teamview
     local data = event.data.team
+	
+	local matchType = self.roomTypeCfg[3][1]
+	if self.nTeamType == matchType then	--符石类型使用服务器传过来的battleID,其他情况使用本地存的battleId(保持原来的逻辑不变)
+		self.nBattleId	 = data.battleId	or 0
+	end
+
     self:installTeamInfo(data)
     self:openTeamView()
 end
@@ -270,9 +280,13 @@ end
 
 function TeamFightDataMgr:onRecvFightRevive(event)
     local data = event.data
-    self.nReviveCount = self.nReviveCount + 1
-    EventMgr:dispatchEvent(EV_TEAM_FIGHT_FIGHT_REVIVE)
-    LockStep.sendRelive()
+    if data.isSuccess then
+        self.nReviveCount = self.nReviveCount + 1
+        LockStep.sendRelive()
+    else
+        self:reFreshreviveCostData()
+    end
+    EventMgr:dispatchEvent(EV_TEAM_FIGHT_FIGHT_REVIVE, data.isSuccess)
 end
 
 function TeamFightDataMgr:onRecvExitFight(event)
@@ -295,7 +309,8 @@ function TeamFightDataMgr:onRecvStartFightInfo(event)
     end
     self.nBattleId  = tonumber(data.levelCid)
     local tmlevelCfg  = self:getBattleCfg()
-    self.reviveCost = tmlevelCfg.reviveCost --复活消耗
+    self:reFreshreviveCostData() --复活消耗
+
     self.forbidRevive = tmlevelCfg.forbidRevive or false
     --设置战斗通讯方式(1KCP 2 tcp)
     LockStep.setConnectType(data.netType)
@@ -307,6 +322,18 @@ function TeamFightDataMgr:onRecvStartFightInfo(event)
     AlertManager:show()
     FubenDataMgr:cachePlayerInfo()
 end
+
+function TeamFightDataMgr:reFreshreviveCostData()
+    self.reviveCost = clone(self:getBattleCfg().reviveCost)
+     -- 适配以前的逻辑 加入周卡月卡特权免费复活次数
+     local isHavePrivilege, cfg = RechargeDataMgr:getIsHavePrivilegeByType(107)
+     if isHavePrivilege and self.reviveCost then
+         for i = 1, cfg.privilege.chance do
+             table.insert(self.reviveCost, 1, {[500002] = 0})
+         end
+     end
+end
+
 function TeamFightDataMgr:onRecvHeroReward(event)
     local data = event.data
     -- dump(data)
@@ -394,6 +421,14 @@ function TeamFightDataMgr:onRecvOverFight(event)
     end
 end
 
+function TeamFightDataMgr:getLimitLevel()
+    return self.minLv or 1
+end
+
+function TeamFightDataMgr:getTeamRoomVisibleType()
+    return self.visibleType or 0
+end
+
 -----------------------------------------------------------------REQUEST
 function TeamFightDataMgr:requestTeamLevelStat()
     TFDirector:send(c2s.CHASM_REQ_ENTER_CHASM,{})
@@ -412,7 +447,7 @@ function TeamFightDataMgr:requestInformPlayer(info)
 end
 
 --//请求创建队伍
-function TeamFightDataMgr:requestCreateTeam( nTeamType,nBattleId,costItemId)      --@nTeamType 队伍类型 @nBattleId副本id
+function TeamFightDataMgr:requestCreateTeam( nTeamType,nBattleId,visibleType,limitLevel,isAutoMatch,costItemId)      --@nTeamType 队伍类型 @nBattleId副本id
     -- body
 
     self:reset()
@@ -424,8 +459,10 @@ function TeamFightDataMgr:requestCreateTeam( nTeamType,nBattleId,costItemId)    
     }
     self.nTeamType = nTeamType
     self.nBattleId = nBattleId
+
+    costItemId = costItemId or ""
 	print("=====================================send c2s.TEAM_REQ_CREATE_TEAM")
-    TFDirector:send(c2s.TEAM_REQ_CREATE_TEAM, {enterMsg,costItemId})
+    TFDirector:send(c2s.TEAM_REQ_CREATE_TEAM, {enterMsg,costItemId,visibleType,limitLevel,isAutoMatch})
 end
 
 --//请求变更队伍状态（是否开启自动匹配队员）
@@ -473,7 +510,8 @@ function TeamFightDataMgr:requestCancelMatchTeam()                      --@nullp
 end
 
 --//请求加入队伍
-function TeamFightDataMgr:requestJoinTeam( nTeamId,nBattleId,nTeamType)                    --@nTeamId 将队伍id
+function TeamFightDataMgr:requestJoinTeam( nTeamId,nBattleId,nTeamType,joinType)                    --@nTeamId 将队伍id
+
     if self.strTeamId == "" then
         self:reset()
         self.nTeamType = nTeamType
@@ -495,7 +533,11 @@ function TeamFightDataMgr:requestJoinTeam( nTeamId,nBattleId,nTeamType)         
         elseif nTeamType == 3 or nTeamType == 4 or nTeamType == 5  or nTeamType == 6 then
             self.nTeamType = nTeamType
             self.nBattleId = nBattleId
-            TFDirector:send(c2s.TEAM_REQ_JOIN_TEAM, {nTeamId})
+            if nTeamId == nil or nTeamId == "" then
+                Utils:showTips(202015)
+                return
+            end
+            TFDirector:send(c2s.TEAM_REQ_JOIN_TEAM, {nTeamId,joinType})
             return
         elseif nTeamType == 7 then
             openInfo.isOpening = true
@@ -534,7 +576,11 @@ function TeamFightDataMgr:requestJoinTeam( nTeamId,nBattleId,nTeamType)         
             local checkExtId = TFAssetsManager:getCheckInfo(3,EC_ActivityFubenType.TEAM)
             TFAssetsManager:downloadAssetsOfFunc(checkExtId,function()
                 self.nBattleId = nBattleId
-                TFDirector:send(c2s.TEAM_REQ_JOIN_TEAM, {nTeamId})
+                if nTeamId == nil or nTeamId == "" then
+                    Utils:showTips(202015)
+                    return
+                end
+                TFDirector:send(c2s.TEAM_REQ_JOIN_TEAM, {nTeamId,joinType})
             end,true)
             return
         end
@@ -849,6 +895,10 @@ end
 function TeamFightDataMgr:installTeamInfo( data )
     self.strTeamId       = data.teamId  	or ""
     self.nTeamStatus     = data.status      or 0
+
+    self.visibleType     = data.show_type   or 0
+    self.minLv           = data.level_limit or 1
+
     local defaultValue   = self.nTeamType ~= EC_NetTeamType.FuShi
 
     self.showInRoom = data.open == nil and defaultValue or data.open
@@ -1133,6 +1183,8 @@ function TeamFightDataMgr:checkInviteMsg(msg,timestamp)
 		print("----------6")
         return false
     end
+
+    
     return true,livetime
 end
 
@@ -1160,9 +1212,8 @@ function TeamFightDataMgr:Send_getTeamRoomInfo(teamType)
     TFDirector:send(c2s.TEAM_REQ_ALL_TEAM_INFO, {teamType,0})
 end
 
-function TeamFightDataMgr:Send_showRoomList(isOpen)
-    self.serverIsOpen = isOpen
-    TFDirector:send(c2s.TEAM_REQ_SET_TEAM_SHOW_TYPE, {isOpen})
+function TeamFightDataMgr:Send_ChangeTeamShowType(show_type)
+    TFDirector:send(c2s.TEAM_REQ_SET_TEAM_SHOW_TYPE, {show_type})
 end
 
 function TeamFightDataMgr:onRecvRoomInfo(event)
@@ -1189,8 +1240,17 @@ function TeamFightDataMgr:onRecvShowInRoomState(event)
     if not data then
         return
     end
-    self:setShowInlistState(self.serverIsOpen)
     EventMgr:dispatchEvent(EV_TEAM_IS_SHOWINROOM)
+end
+
+function TeamFightDataMgr:onRecvMatchRank(event)	
+	local data = event.data
+	dump(data)
+    if not data then
+        return
+    end
+
+    EventMgr:dispatchEvent(EV_TEAM_MATCH_RANK, data)
 end
 
 return TeamFightDataMgr:new()

@@ -103,7 +103,7 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/recharge/bg.png",
+							texturePath = "ui/recharge/gifts/new_1/BG.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
@@ -146,7 +146,7 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 180,
+								PositionX = 120,
 								PositionY = 18,
 							},
 							uipanelviewmodel = 
@@ -174,7 +174,7 @@ local t =
 					DesignType = "0",
 					DesignWidth = "960",
 					dstBlendFunc = "771",
-					height = "343",
+					height = "202",
 					ignoreSize = "False",
 					name = "panel_cell",
 					sizepercentx = "0",
@@ -186,8 +186,8 @@ local t =
 					{
 						PositionX = -780,
 						PositionY = -967,
-						LeftPositon = -329,
-						TopPosition = 1116,
+						LeftPositon = -373,
+						TopPosition = 1186,
 						relativeToName = "Panel",
 						nType = 3,
 					},
@@ -196,7 +196,7 @@ local t =
 						Layout="Absolute",
 						nType = "0"
 					},
-					width = "233",
+					width = "322",
 					ZOrder = "1",
 					components = 
 					{
@@ -210,21 +210,20 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "343",
+							height = "202",
 							ignoreSize = "True",
 							name = "img_di",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/recharge/gifts/item_bg.png",
+							texturePath = "ui/recharge/gifts/g003.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -3,
-								PositionY = -2,
+								
 							},
-							width = "233",
+							width = "322",
 							ZOrder = "1",
 							components = 
 							{
@@ -244,7 +243,7 @@ local t =
 									DesignType = "0",
 									DesignWidth = "960",
 									dstBlendFunc = "771",
-									height = "343",
+									height = "202",
 									ignoreSize = "False",
 									name = "cell_gift",
 									sizepercentx = "0",
@@ -261,7 +260,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									width = "233",
+									width = "322",
 									ZOrder = "1",
 									components = 
 									{
@@ -270,7 +269,7 @@ local t =
 											controlID = "Label_num_cell_gift_img_di_panel_cell_Panel-hotMallView_Layer1_recharge_Game",
 											UUID = "95ef9485_3175_45f9_9f03_be1edae087b5",
 											anchorPoint = "False",
-											anchorPointX = "0.5",
+											anchorPointX = "0",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
@@ -285,14 +284,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "13",
+											fontSize = "24",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "16",
+											height = "30",
 											ignoreSize = "True",
 											name = "Label_num",
 											nTextAlign = "1",
@@ -306,21 +305,22 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = -24,
+												PositionX = -155,
+												PositionY = 75,
 											},
-											width = "56",
+											width = "97",
 											ZOrder = "1",
 										},
 										{
 											controlID = "Label_countdown_cell_gift_img_di_panel_cell_Panel-hotMallView_Layer1_recharge_Game",
 											UUID = "2aad6de2_79af_46d8_8265_c9e1b8522a5b",
 											anchorPoint = "False",
-											anchorPointX = "0.5",
+											anchorPointX = "0",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
-											FontColor = "#FFFFFFFF",
+											FontColor = "#FFD8F0F8",
 											fontName = "font/fangzheng_zhunyuan.ttf",
 											fontShadow = 
 											{
@@ -330,14 +330,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "18",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "21",
+											height = "18",
 											ignoreSize = "True",
 											name = "Label_countdown",
 											nTextAlign = "1",
@@ -351,9 +351,66 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = -48,
+												PositionX = -137,
+												PositionY = -61,
 											},
-											width = "114",
+											width = "102",
+											ZOrder = "1",
+											components = 
+											{
+												
+												{
+													controlID = "img_timeIcon_Label_countdown_cell_gift_img_di_panel_cell_Panel-hotMallView_Layer1_recharge_Game",
+													UUID = "2974d8db_cf6f_4dfc_8909_3465c5e755c5",
+													anchorPoint = "False",
+													anchorPointX = "0.5",
+													anchorPointY = "0.5",
+													backGroundScale9Enable = "False",
+													classname = "MEImage",
+													dstBlendFunc = "771",
+													height = "24",
+													ignoreSize = "True",
+													name = "img_timeIcon",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													srcBlendFunc = "1",
+													texturePath = "ui/recharge/gifts/g004.png",
+													touchAble = "False",
+													UILayoutViewModel = 
+													{
+														PositionX = -10,
+														PositionY = 1,
+													},
+													width = "24",
+													ZOrder = "1",
+												},
+											},
+										},
+										{
+											controlID = "Image_hotMallView_1_cell_gift_img_di_panel_cell_Panel-hotMallView_Layer1_recharge_Game",
+											UUID = "102afca4_0541_4236_8898_778808c87b02",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
+											classname = "MEImage",
+											dstBlendFunc = "771",
+											height = "20",
+											ignoreSize = "False",
+											name = "Image_hotMallView_1",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											texturePath = "ui/recharge/gifts/g002.png",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = 101,
+												PositionY = -46,
+											},
+											width = "120",
 											ZOrder = "1",
 										},
 										{
@@ -365,7 +422,7 @@ local t =
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
-											FontColor = "#FFFFFFFF",
+											FontColor = "#FFCAE3F5",
 											fontName = "font/fangzheng_zhunyuan.ttf",
 											fontShadow = 
 											{
@@ -375,14 +432,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "18",
+											fontSize = "15",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "21",
+											height = "17",
 											ignoreSize = "True",
 											name = "Label_desc",
 											nTextAlign = "1",
@@ -396,9 +453,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = -70,
+												PositionX = 101,
+												PositionY = -47,
 											},
-											width = "82",
+											width = "70",
 											ZOrder = "1",
 										},
 										{
@@ -410,7 +468,7 @@ local t =
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
-											FontColor = "#FFEF5F7D",
+											FontColor = "#FF324566",
 											fontName = "font/fangzheng_zhunyuan.ttf",
 											fontShadow = 
 											{
@@ -441,8 +499,8 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 9,
-												PositionY = -144,
+												PositionX = -108,
+												PositionY = -86,
 											},
 											width = "8",
 											ZOrder = "1",
@@ -456,7 +514,7 @@ local t =
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
-											FontColor = "#FF38436A",
+											FontColor = "#FF324566",
 											fontName = "font/fangzheng_zhunyuan.ttf",
 											fontShadow = 
 											{
@@ -487,7 +545,8 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = -144,
+												PositionX = -116,
+												PositionY = -86,
 											},
 											width = "82",
 											ZOrder = "1",
@@ -512,8 +571,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 113,
-												PositionY = 145,
+												PositionX = 164,
+												PositionY = 86,
 											},
 											width = "106",
 											ZOrder = "2",
@@ -644,20 +703,20 @@ local t =
 										},
 										{
 											controlID = "Button_buy_cell_gift_img_di_panel_cell_Panel-hotMallView_Layer1_recharge_Game",
-											UUID = "d1e8bc99_7dfa_4c7b_a56c_ba1ce6bf333e",
+											UUID = "6b27b79b_5b7c_41ed_b261_d75e33495bfd",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
+											backGroundScale9Enable = "False",
 											classname = "MEButton",
 											ClickHighLightEnabled = "True",
 											dstBlendFunc = "771",
 											flipX = "False",
 											flipY = "False",
-											height = "42",
-											ignoreSize = "False",
+											height = "50",
+											ignoreSize = "True",
 											name = "Button_buy",
-											normal = "ui/recharge/gifts/btn_big.png",
+											normal = "ui/recharge/gifts/g001.png",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -665,17 +724,18 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												PositionY = -110,
+												PositionX = 80,
+												PositionY = -71,
 											},
 											UItype = "Button",
-											width = "122",
+											width = "160",
 											ZOrder = "1",
 											components = 
 											{
 												
 												{
 													controlID = "Label_price_Button_buy_cell_gift_img_di_panel_cell_Panel-hotMallView_Layer1_recharge_Game",
-													UUID = "73d2491d_69d0_4a32_be98_fe27c89e547c",
+													UUID = "bdb06955_edd4_44c6_9e2c_b715c98be80e",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -695,11 +755,11 @@ local t =
 													fontSize = "22",
 													fontStroke = 
 													{
-														IsStroke = true,
-														StrokeColor = "#FFCA4465",
-														StrokeSize = 2,
+														IsStroke = false,
+														StrokeColor = "#FFE6E6E6",
+														StrokeSize = 1,
 													},
-													height = "31",
+													height = "27",
 													ignoreSize = "True",
 													name = "Label_price",
 													nTextAlign = "1",
@@ -713,14 +773,15 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionY = -2,
+														PositionX = 34,
+														PositionY = -10,
 													},
-													width = "76",
+													width = "74",
 													ZOrder = "1",
 												},
 												{
 													controlID = "Image_exchange_Button_buy_cell_gift_img_di_panel_cell_Panel-hotMallView_Layer1_recharge_Game",
-													UUID = "de7124fc_901a_4b70_aeba_35d6715759bb",
+													UUID = "71a88fcc_8d0a_4e6d_aefa_85cc999dd113",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -737,13 +798,40 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -40,
-														PositionY = -1,
+														PositionX = -23,
+														PositionY = -7,
 													},
 													width = "30",
 													ZOrder = "1",
 												},
 											},
+										},
+										{
+											controlID = "img_rightIcon_cell_gift_img_di_panel_cell_Panel-hotMallView_Layer1_recharge_Game",
+											UUID = "0398612b_980f_4dfe_bb91_18bac2a5c181",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											classname = "MEImage",
+											dstBlendFunc = "771",
+											height = "64",
+											ignoreSize = "True",
+											name = "img_rightIcon",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											texturePath = "ui/recharge/gifts/002.png",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = 137,
+												PositionY = 75,
+											},
+											visible = "False",
+											width = "64",
+											ZOrder = "1",
 										},
 									},
 								},
@@ -762,7 +850,7 @@ local t =
 									DesignType = "0",
 									DesignWidth = "960",
 									dstBlendFunc = "771",
-									height = "130",
+									height = "100",
 									ignoreSize = "False",
 									name = "cell_item",
 									sizepercentx = "0",
@@ -772,14 +860,15 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionY = 65,
+										PositionX = -60,
+										PositionY = 7,
 									},
 									uipanelviewmodel = 
 									{
 										Layout="Absolute",
 										nType = "0"
 									},
-									width = "200",
+									width = "188",
 									ZOrder = "1",
 								},
 							},
@@ -797,11 +886,14 @@ local t =
 	{
 		textures = 
 		{
-			"ui/recharge/bg.png",
-			"ui/recharge/gifts/item_bg.png",
+			"ui/recharge/gifts/new_1/BG.png",
+			"ui/recharge/gifts/g003.png",
+			"ui/recharge/gifts/g004.png",
+			"ui/recharge/gifts/g002.png",
 			"ui/recharge/gifts/bg1.png",
 			"ui/recharge/new_ui/03.png",
-			"ui/recharge/gifts/btn_big.png",
+			"ui/recharge/gifts/g001.png",
+			"ui/recharge/gifts/002.png",
 		},
 		armatures = 
 		{

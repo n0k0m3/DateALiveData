@@ -1,8 +1,8 @@
 local KabalaTreeStore = class("KabalaTreeStore", BaseLayer)
 
-function KabalaTreeStore:ctor()
+function KabalaTreeStore:ctor(data)
     self.super.ctor(self)
-    self:initData()
+    self:initData(data)
     self:showPopAnim(true)
     self:init("lua.uiconfig.kabalaTree.kabalaTreeStore")
 end
@@ -15,11 +15,13 @@ function KabalaTreeStore:registerEvents()
     end)
 end
 
-function KabalaTreeStore:initData()
+function KabalaTreeStore:initData(data)
 
     self.storeData = TabDataMgr:getData("KabalaShop")
     self.goodsListItem = {}
     self.goodsIconMap_ = {}
+
+    self.data = data
 end
 
 function KabalaTreeStore:initUI(ui)
@@ -37,8 +39,9 @@ function KabalaTreeStore:initUI(ui)
 
     self.Image_storeItem = TFDirector:getChildByPath(self.ui, "Panel_ItemBg")
     self.Label_title:setTextById(3003011)
-    TFDirector:send(c2s.QLIPHOTH_SHOP_INFO, {})
     self._scheduleId   = TFDirector:addTimer(1000, -1, nil, handler(self.onCountDownPer, self))
+
+    self:updateGoodsList(self.data.newItem , self.data.nextTime)
 end
 
 function KabalaTreeStore:updateKabalaCoin()

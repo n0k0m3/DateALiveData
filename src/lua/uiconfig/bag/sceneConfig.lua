@@ -79,5 +79,15 @@ local t = {
 			canLoad=true,
 			logic="",
 		},
+		{
+			name="overduePromptView",
+			ui ="overduePromptView.lua",
+			x=0,
+			y=0,
+			speed=0,
+			layer="bag",
+			canLoad=true,
+			logic="",
+		},
 }
 return t

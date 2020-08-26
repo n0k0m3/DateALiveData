@@ -5327,6 +5327,85 @@ local t =
 							},
 						},
 						{
+							controlID = "Button_onekeyComplete_Panel_root_Panel-summonComposeView_Layer1_summon_Game",
+							UUID = "4d54fa6a_5c7d_4ba9_b401_530d6d64d7fd",
+							anchorPoint = "False",
+							anchorPointX = "0.5",
+							anchorPointY = "0.5",
+							backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
+							classname = "MEButton",
+							ClickHighLightEnabled = "True",
+							dstBlendFunc = "771",
+							flipX = "False",
+							flipY = "False",
+							height = "56",
+							ignoreSize = "False",
+							name = "Button_onekeyComplete",
+							normal = "ui/common/button09.png",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "1",
+							touchAble = "True",
+							UILayoutViewModel = 
+							{
+								PositionX = 341,
+								PositionY = -256,
+							},
+							UItype = "Button",
+							width = "120",
+							ZOrder = "1",
+							components = 
+							{
+								
+								{
+									controlID = "Label_onekey_Button_onekeyComplete_Panel_root_Panel-summonComposeView_Layer1_summon_Game",
+									UUID = "c950de65_02e2_4a16_970b_a15e9e9bf4f3",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									classname = "MELabel",
+									compPath = "luacomponents.common.MEIconLabel",
+									dstBlendFunc = "771",
+									FontColor = "#FFFFFFFF",
+									fontName = "font/fangzheng_zhunyuan.ttf",
+									fontShadow = 
+									{
+										IsShadow = false,
+										ShadowColor = "#FFFFFFFF",
+										ShadowAlpha = 255,
+										OffsetX = 0,
+										OffsetY = 0,
+									},
+									fontSize = "24",
+									fontStroke = 
+									{
+										IsStroke = false,
+										StrokeColor = "#FFE6E6E6",
+										StrokeSize = 1,
+									},
+									height = "27",
+									ignoreSize = "True",
+									name = "Label_onekey",
+									nTextAlign = "1",
+									nTextHAlign = "1",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "770",
+									text = "一键完成",
+									touchAble = "False",
+									touchScaleEnable = "False",
+									UILayoutViewModel = 
+									{
+										
+									},
+									width = "99",
+									ZOrder = "1",
+								},
+							},
+						},
+						{
 							controlID = "Button_onekey_Panel_root_Panel-summonComposeView_Layer1_summon_Game",
 							UUID = "bede0a9a_e152_4cb1_9f46_ddd8a58f8ab1",
 							anchorPoint = "False",
@@ -5438,6 +5517,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
+							visible = "False",
 							width = "446",
 							ZOrder = "1",
 							components = 

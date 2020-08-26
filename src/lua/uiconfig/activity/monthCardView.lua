@@ -72,9 +72,6 @@ local t =
 					{
 						PositionX = -510,
 						PositionY = -354,
-						IsPercent = true,
-						PercentX = -50,
-						PercentY = -50,
 						relativeToName = "Panel",
 						nGravity = 6,
 						nAlign = 5
@@ -110,7 +107,7 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = 568,
-								PositionY = 313,
+								PositionY = 314,
 								IsPercent = true,
 								PercentX = 50,
 								PercentY = 49,
@@ -381,7 +378,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -107,
+												PositionX = -108,
 												IsPercent = true,
 												PercentX = -50,
 											},
@@ -522,7 +519,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 107,
+												PositionX = 108,
 												IsPercent = true,
 												PercentX = 50,
 											},

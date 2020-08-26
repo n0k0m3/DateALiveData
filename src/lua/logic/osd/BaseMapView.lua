@@ -495,7 +495,7 @@ function BaseMapView:registerEvents()
     self.odsdiaAddBtn:onClick(function()
         local itemCfg = GoodsDataMgr:getItemCfg(EC_SItemType.POWER)
         if StoreDataMgr:canContinueBuyItemRecover(itemCfg.buyItemRecover) then
-            Utils:openView("common.BuyResourceView", itemCfg.id)
+            Utils:openView("common.BuyTiliLayer", itemCfg.id)
         else
             Utils:showTips(800021)
         end

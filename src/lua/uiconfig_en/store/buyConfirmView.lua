@@ -206,14 +206,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Owned",
+									text = "持有数量：999",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										PositionY = 60,
 									},
-									width = "71",
+									width = "135",
 									ZOrder = "1",
 								},
 								{
@@ -265,23 +265,23 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "15",
+									fontSize = "22",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "0",
-									ignoreSize = "False",
+									height = "26",
+									ignoreSize = "True",
 									name = "Label_name",
 									nTextAlign = "1",
-									nTextHAlign = "0",
+									nTextHAlign = "1",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Item Stats",
+									text = "Item State",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -289,7 +289,7 @@ local t =
 										PositionX = -175,
 										PositionY = 219,
 									},
-									width = "303",
+									width = "119",
 									ZOrder = "1",
 								},
 								{
@@ -327,7 +327,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "TextLable",
+									text = "在一个大雨天与五河士道初次相遇，四糸乃没有撑伞在大雨中玩耍，然而就在这时四糸乃却突然摔到了，士道看见后急忙跑上前帮助她…",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -395,7 +395,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "31",
+											height = "30",
 											ignoreSize = "True",
 											name = "Label_use",
 											nTextAlign = "1",
@@ -411,7 +411,7 @@ local t =
 											{
 												
 											},
-											width = "54",
+											width = "43",
 											ZOrder = "1",
 										},
 									},
@@ -441,6 +441,45 @@ local t =
 									ZOrder = "1",
 								},
 								{
+									controlID = "rewardList_Image_bg_Panel_root_Panel-buyConfirmView_Layer1_store_Game",
+									UUID = "ba6af16b_2d65_40b2_8484_8ae161d6f975",
+									anchorPoint = "False",
+									anchorPointX = "0",
+									anchorPointY = "0",
+									backGroundScale9Enable = "False",
+									bgColorOpacity = "50",
+									bIsOpenClipping = "True",
+									bounceEnable = "False",
+									classname = "MEScrollView",
+									colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+									direction = "2",
+									dstBlendFunc = "771",
+									height = "140",
+									ignoreSize = "False",
+									innerHeight = "140",
+									innerWidth = "350",
+									name = "rewardList",
+									showScrollbar = "False",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									touchAble = "True",
+									UILayoutViewModel = 
+									{
+										PositionX = -177,
+										PositionY = 50,
+									},
+									uipanelviewmodel = 
+									{
+										Layout="Absolute",
+										nType = "0"
+									},
+									visible = "False",
+									width = "350",
+									ZOrder = "1",
+								},
+								{
 									controlID = "Panel_batch_Image_bg_Panel_root_Panel-buyConfirmView_Layer1_store_Game",
 									UUID = "6bc02adc_c791_42e3_ae7f_edaf57bd2975",
 									anchorPoint = "False",
@@ -465,7 +504,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionY = -135,
+										PositionY = -151,
 									},
 									uipanelviewmodel = 
 									{
@@ -615,7 +654,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "28",
+											height = "27",
 											ignoreSize = "True",
 											name = "Label_num",
 											nTextAlign = "1",
@@ -631,7 +670,7 @@ local t =
 											{
 												PositionX = -40,
 											},
-											width = "50",
+											width = "41",
 											ZOrder = "1",
 										},
 									},
