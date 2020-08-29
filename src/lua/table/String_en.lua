@@ -11079,6 +11079,10 @@ return {
         id = 22093,
         text = "Blue Rank Up Item",
     },
+    [190000119] = {
+        id = 190000119,
+        text = "It's already on! Come join us!",
+    },
     [190000118] = {
         id = 190000118,
         text = "One limited CG for Full Moon Festival event",
@@ -81805,7 +81809,7 @@ return {
     },
     [3002214] = {
         id = 3002214,
-        text = "Go to Space Hub # 1, find the guardian angel – ZAPHKIE, talk to her for clues.",
+        text = "Go to Space Hub # 1, find the guardian angel – Zaphkiel, talk to her for clues.",
     },
     [901147] = {
         id = 901147,
@@ -98453,7 +98457,7 @@ return {
     },
     [3002211] = {
         id = 3002211,
-        text = "Go to Space Hub # 1, find the guardian angel – RATZIEL, talk to her for clues.",
+        text = "Go to Space Hub # 1, find the guardian angel – Ratziel, talk to her for clues.",
     },
     [3002213] = {
         id = 3002213,

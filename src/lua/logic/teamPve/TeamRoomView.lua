@@ -150,6 +150,7 @@ function TeamRoomView:updateRoomItems(item,data)
 
     local Image_title2 = TFDirector:getChildByPath(item, "Image_title2")
     local Label_desc1 = TFDirector:getChildByPath(item, "Label_desc1")
+    local Label_desc2 = TFDirector:getChildByPath(item, "Label_desc2")
 
     Image_title2:setVisible(data.teamType ~= EC_NetTeamType.FuShi)
     Image_title:setVisible(data.teamType == EC_NetTeamType.FuShi)
@@ -183,6 +184,7 @@ function TeamRoomView:updateRoomItems(item,data)
     else
         local name = TextDataMgr:getText(cfg.levelName)
         Label_desc1:setText("Lv."..cfg.lvlLimit[1]..name)
+        Label_desc2:setTextById(190000119)
     end
 end
 
