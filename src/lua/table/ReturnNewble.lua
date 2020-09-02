@@ -189,7 +189,7 @@ return {
         status = 2,
         titleIcon = "ui/activity/picture/icon300.png",
         type = 1017,
-        details = "{\"beginTime\":\"2020-08-26 00:00:00\",\"endTime\":\"2020-09-08 23:59:59\",\"taskId\":1017,\"rankOrderType\":1,\"rankCount\":100,\"drawItemId\":500002}",
+        details = "{\"beginTime\":\"2020-07-26 00:00:00\",\"endTime\":\"2020-07-26 00:00:00\",\"taskId\":1017,\"rankOrderType\":1,\"rankCount\":100,\"drawItemId\":500002}",
     },
     [200024] = {
         subtitle = "罗盘",
@@ -384,7 +384,7 @@ return {
         status = 2,
         titleIcon = "ui/dfwNew/ui_dfw_ad_title.png",
         type = 1076,
-        details = "{\"beginTime\":\"2020-08-04 00:00:00\",\"endTime\":\"2020-08-04 00:00:00\",\"refreshTaskNum\":3,\"refreshCost\":{\"500002\":50},\"refreshTime\":[0,12]}",
+        details = "{\"beginTime\":\"2020-09-02 00:00:00\",\"endTime\":\"2020-09-15 23:59:59\",\"refreshTaskNum\":3,\"refreshCost\":{\"500002\":50},\"refreshTime\":[0,12]}",
     },
     [120006] = {
         subtitle = "",

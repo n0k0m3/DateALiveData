@@ -174,6 +174,18 @@ function TextDataMgr:getNoFormatText(textAttr, ...)
     return content
 end
 
+function TextDataMgr:getTextAttrCanNil(id)
+    id = tostring(id)
+    local rid = string.match(id, "r(%d+)")
+    if rid then
+        id = tonumber(rid)
+        return self.rstrTab_[id] 
+    else
+        id = tonumber(id)
+        return self.strTab_[id]
+    end
+end
+
 function TextDataMgr:reset()
 
 end

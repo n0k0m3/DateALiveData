@@ -67,7 +67,7 @@ function CreateLeagueLayer:registerEvents()
     local function onTextFieldChangedHandleAcc(input)
         local text = input:getText()
         local list = string.UTF8ToCharArray(text)
-        if #list <= 8 then
+        if #list <= 16 then
             local new_text = string.gsub(text, "·", "")
             input:setText(new_text)
             self.Label_league_name:setText(input:getText())

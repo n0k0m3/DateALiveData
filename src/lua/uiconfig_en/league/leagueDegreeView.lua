@@ -94,7 +94,7 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "64",
+							height = "2",
 							ignoreSize = "True",
 							name = "Image_leagueDegreeView_1",
 							sizepercentx = "0",
@@ -111,7 +111,7 @@ local t =
 								PercentX = 50,
 								PercentY = 50,
 							},
-							width = "64",
+							width = "2",
 							ZOrder = "1",
 						},
 						{
@@ -170,7 +170,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "32",
+									height = "31",
 									ignoreSize = "True",
 									name = "Label_tittle",
 									nTextAlign = "1",
@@ -187,7 +187,7 @@ local t =
 										PositionX = -386,
 										PositionY = 231,
 									},
-									width = "107",
+									width = "213",
 									ZOrder = "1",
 								},
 								{
@@ -327,7 +327,7 @@ local t =
 									{
 										PositionY = 215,
 									},
-									width = "296",
+									width = "285",
 									ZOrder = "1",
 								},
 								{
@@ -412,7 +412,7 @@ local t =
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
 											FontColor = "#FFFFFFFF",
-											fontName = "phanta.ttf",
+											fontName = "font/fangzheng_zhunyuan.ttf",
 											fontShadow = 
 											{
 												IsShadow = false,
@@ -421,15 +421,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_degree",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -444,7 +444,7 @@ local t =
 											{
 												
 											},
-											width = "47",
+											width = "113",
 											ZOrder = "1",
 										},
 									},
@@ -491,7 +491,7 @@ local t =
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
 											FontColor = "#FFFFFFFF",
-											fontName = "phanta.ttf",
+											fontName = "font/fangzheng_zhunyuan.ttf",
 											fontShadow = 
 											{
 												IsShadow = false,
@@ -500,15 +500,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_degree",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -523,7 +523,7 @@ local t =
 											{
 												
 											},
-											width = "47",
+											width = "113",
 											ZOrder = "1",
 										},
 									},
@@ -570,7 +570,7 @@ local t =
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
 											FontColor = "#FFFFFFFF",
-											fontName = "phanta.ttf",
+											fontName = "font/fangzheng_zhunyuan.ttf",
 											fontShadow = 
 											{
 												IsShadow = false,
@@ -579,15 +579,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_degree",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -602,7 +602,7 @@ local t =
 											{
 												
 											},
-											width = "47",
+											width = "113",
 											ZOrder = "1",
 										},
 									},
@@ -649,7 +649,7 @@ local t =
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
 											FontColor = "#FFFFFFFF",
-											fontName = "phanta.ttf",
+											fontName = "font/fangzheng_zhunyuan.ttf",
 											fontShadow = 
 											{
 												IsShadow = false,
@@ -658,15 +658,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_degree",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -681,7 +681,7 @@ local t =
 											{
 												
 											},
-											width = "47",
+											width = "113",
 											ZOrder = "1",
 										},
 									},
@@ -728,7 +728,7 @@ local t =
 									{
 										PositionY = -201,
 									},
-									width = "91",
+									width = "147",
 									ZOrder = "1",
 								},
 							},
@@ -813,7 +813,7 @@ local t =
 									{
 										PositionX = -302,
 									},
-									width = "83",
+									width = "103",
 									ZOrder = "1",
 								},
 								{
@@ -1087,7 +1087,7 @@ local t =
 												PositionX = -302,
 												PositionY = 24,
 											},
-											width = "91",
+											width = "112",
 											ZOrder = "1",
 										},
 										{
@@ -1133,7 +1133,7 @@ local t =
 												PositionX = -302,
 												PositionY = -22,
 											},
-											width = "91",
+											width = "84",
 											ZOrder = "1",
 										},
 										{
@@ -1179,7 +1179,7 @@ local t =
 												PositionX = -139,
 												PositionY = 24,
 											},
-											width = "47",
+											width = "65",
 											ZOrder = "1",
 										},
 										{
@@ -1225,7 +1225,7 @@ local t =
 												PositionX = 12,
 												PositionY = 24,
 											},
-											width = "69",
+											width = "68",
 											ZOrder = "1",
 										},
 										{
@@ -1271,7 +1271,7 @@ local t =
 												PositionX = 162,
 												PositionY = 24,
 											},
-											width = "47",
+											width = "38",
 											ZOrder = "1",
 										},
 										{
@@ -1317,7 +1317,7 @@ local t =
 												PositionX = 312,
 												PositionY = 24,
 											},
-											width = "48",
+											width = "63",
 											ZOrder = "1",
 										},
 										{

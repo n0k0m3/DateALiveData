@@ -392,14 +392,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "22",
+													fontSize = "20",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
+													height = "23",
 													ignoreSize = "True",
 													name = "Label_impeach_time",
 													nTextAlign = "1",
@@ -415,7 +415,7 @@ local t =
 													{
 														
 													},
-													width = "361",
+													width = "141",
 													ZOrder = "99",
 												},
 												{
@@ -718,14 +718,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "24",
 											ignoreSize = "True",
 											name = "Label_npc_name",
 											nTextAlign = "1",
@@ -740,9 +740,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = -3,
+												PositionY = -2,
 											},
-											width = "122",
+											width = "109",
 											ZOrder = "1",
 										},
 									},
@@ -795,8 +795,8 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "31",
-									ignoreSize = "True",
+									height = "44",
+									ignoreSize = "False",
 									name = "Image_name_bg",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -808,7 +808,7 @@ local t =
 									{
 										
 									},
-									width = "104",
+									width = "128",
 									ZOrder = "2",
 									components = 
 									{
@@ -832,15 +832,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "14",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_build_name",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -855,7 +855,7 @@ local t =
 											{
 												
 											},
-											width = "83",
+											width = "101",
 											ZOrder = "1",
 										},
 										{
@@ -983,14 +983,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "20",
+													fontSize = "15",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "23",
+													height = "17",
 													ignoreSize = "True",
 													name = "Label_time",
 													nTextAlign = "1",
@@ -1006,7 +1006,7 @@ local t =
 													{
 														
 													},
-													width = "80",
+													width = "62",
 													ZOrder = "1",
 												},
 											},

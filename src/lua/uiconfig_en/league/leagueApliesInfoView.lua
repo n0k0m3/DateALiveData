@@ -144,7 +144,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
+									height = "29",
 									ignoreSize = "True",
 									name = "Label_tittle",
 									nTextAlign = "1",
@@ -160,7 +160,7 @@ local t =
 									{
 										PositionY = 198,
 									},
-									width = "101",
+									width = "139",
 									ZOrder = "1",
 								},
 								{
@@ -275,7 +275,7 @@ local t =
 									{
 										PositionY = 14,
 									},
-									width = "130",
+									width = "164",
 									ZOrder = "2",
 								},
 								{
@@ -352,7 +352,7 @@ local t =
 											{
 												
 											},
-											width = "99",
+											width = "93",
 											ZOrder = "1",
 										},
 									},
@@ -431,7 +431,7 @@ local t =
 											{
 												
 											},
-											width = "99",
+											width = "91",
 											ZOrder = "1",
 										},
 									},
@@ -445,7 +445,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "64",
+									height = "2",
 									ignoreSize = "True",
 									name = "Image_leagueApliesInfoView_1",
 									sizepercentx = "0",
@@ -458,7 +458,7 @@ local t =
 									{
 										
 									},
-									width = "64",
+									width = "2",
 									ZOrder = "1",
 								},
 							},
@@ -569,7 +569,7 @@ local t =
 										PositionX = -255,
 										PositionY = 30,
 									},
-									width = "42",
+									width = "54",
 									ZOrder = "1",
 								},
 								{
@@ -612,10 +612,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -200,
+										PositionX = -197,
 										PositionY = 30,
 									},
-									width = "143",
+									width = "186",
 									ZOrder = "1",
 								},
 								{
@@ -661,7 +661,7 @@ local t =
 										PositionX = -255,
 										PositionY = -30,
 									},
-									width = "62",
+									width = "25",
 									ZOrder = "1",
 								},
 								{
@@ -753,7 +753,7 @@ local t =
 										PositionX = 34,
 										PositionY = -30,
 									},
-									width = "190",
+									width = "85",
 									ZOrder = "1",
 								},
 								{
@@ -791,7 +791,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "TextLable",
+									text = "Lv.99",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -876,7 +876,7 @@ local t =
 											{
 												
 											},
-											width = "51",
+											width = "63",
 											ZOrder = "1",
 										},
 									},
@@ -955,7 +955,7 @@ local t =
 											{
 												
 											},
-											width = "51",
+											width = "62",
 											ZOrder = "1",
 										},
 									},

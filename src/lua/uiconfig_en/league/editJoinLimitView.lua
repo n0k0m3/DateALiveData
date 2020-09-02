@@ -94,7 +94,7 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "640",
+							height = "2",
 							ignoreSize = "True",
 							name = "Image_editJoinLimitView_1",
 							sizepercentx = "0",
@@ -111,7 +111,7 @@ local t =
 								PercentX = 50,
 								PercentY = 50,
 							},
-							width = "1386",
+							width = "2",
 							ZOrder = "1",
 						},
 						{
@@ -236,7 +236,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
+									height = "29",
 									ignoreSize = "True",
 									name = "Label_tittle",
 									nTextAlign = "1",
@@ -253,7 +253,7 @@ local t =
 										PositionX = -254,
 										PositionY = 130,
 									},
-									width = "147",
+									width = "218",
 									ZOrder = "1",
 								},
 								{
@@ -297,7 +297,7 @@ local t =
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
 											FontColor = "#FFFFFFFF",
-											fontName = "phanta.ttf",
+											fontName = "font/fangzheng_zhunyuan.ttf",
 											fontShadow = 
 											{
 												IsShadow = false,
@@ -306,15 +306,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_ok",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -329,7 +329,7 @@ local t =
 											{
 												
 											},
-											width = "91",
+											width = "115",
 											ZOrder = "1",
 										},
 									},
@@ -451,7 +451,7 @@ local t =
 													{
 														PositionX = -18,
 													},
-													width = "83",
+													width = "95",
 													ZOrder = "1",
 												},
 												{
@@ -731,7 +731,7 @@ local t =
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
 											FontColor = "#FFFFFFFF",
-											fontName = "phanta.ttf",
+											fontName = "font/fangzheng_zhunyuan.ttf",
 											fontShadow = 
 											{
 												IsShadow = false,
@@ -740,14 +740,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
+											height = "20",
 											ignoreSize = "True",
 											name = "Label_content",
 											nTextAlign = "1",
@@ -763,7 +763,7 @@ local t =
 											{
 												
 											},
-											width = "83",
+											width = "141",
 											ZOrder = "1",
 										},
 									},

@@ -4401,7 +4401,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 10,
+										PositionX = 36,
 										PositionY = 47,
 									},
 									width = "60",
@@ -4427,7 +4427,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 112,
+										PositionX = 128,
 										PositionY = 47,
 									},
 									width = "60",
@@ -4453,7 +4453,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 212,
+										PositionX = 230,
 										PositionY = 47,
 									},
 									width = "60",
@@ -4479,7 +4479,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 363,
+										PositionX = 373,
 										PositionY = 47,
 									},
 									width = "60",
@@ -4531,10 +4531,9 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 567,
+										PositionX = -58,
 										PositionY = 47,
 									},
-									visible = "False",
 									width = "60",
 									ZOrder = "1",
 								},
@@ -4569,7 +4568,7 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 10,
+										PositionX = -56,
 										PositionY = 50,
 									},
 									UItype = "Button",
@@ -4789,7 +4788,7 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 114,
+										PositionX = 36,
 										PositionY = 50,
 									},
 									UItype = "Button",
@@ -5011,8 +5010,8 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 211,
-										PositionY = 50,
+										PositionX = 232,
+										PositionY = 47,
 									},
 									UItype = "Button",
 									width = "60",
@@ -5452,7 +5451,7 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 364,
+										PositionX = 374,
 										PositionY = 50,
 									},
 									UItype = "Button",
@@ -5677,11 +5676,10 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 160,
+										PositionX = 131,
 										PositionY = 47,
 									},
 									UItype = "Button",
-									visible = "False",
 									width = "60",
 									ZOrder = "1",
 									components = 
@@ -6154,14 +6152,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "20",
+													fontSize = "15",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "23",
+													height = "17",
 													ignoreSize = "True",
 													name = "Label_redpack_get",
 													nTextAlign = "1",
@@ -6177,7 +6175,7 @@ local t =
 													{
 														PositionY = -23,
 													},
-													width = "87",
+													width = "65",
 													ZOrder = "1",
 												},
 											},
@@ -6258,6 +6256,7 @@ local t =
 										PositionX = 400,
 										PositionY = 15,
 									},
+									visible = "False",
 									width = "2",
 									ZOrder = "1",
 								},

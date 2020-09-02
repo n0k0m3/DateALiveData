@@ -4531,10 +4531,9 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 611,
+										PositionX = -6,
 										PositionY = 47,
 									},
-									visible = "False",
 									width = "60",
 									ZOrder = "1",
 								},
@@ -4569,7 +4568,7 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 88,
+										PositionX = -5,
 										PositionY = 50,
 									},
 									UItype = "Button",
@@ -4789,7 +4788,7 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 180,
+										PositionX = 87,
 										PositionY = 50,
 									},
 									UItype = "Button",
@@ -5677,11 +5676,10 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 160,
+										PositionX = 181,
 										PositionY = 47,
 									},
 									UItype = "Button",
-									visible = "False",
 									width = "60",
 									ZOrder = "1",
 									components = 

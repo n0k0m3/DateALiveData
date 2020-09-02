@@ -3689,67 +3689,67 @@ return {
     },
     [1311025] = {
         id = 1311025,
-        text = "Tobiichi Angel - Continued 1",
+        text = "Tobiichi Angel: Continued 1",
     },
     [1311026] = {
         id = 1311026,
-        text = "Tobiichi Angel - Continued 2",
+        text = "Tobiichi Angel: Continued 2",
     },
     [1311027] = {
         id = 1311027,
-        text = "Tobiichi Angel - Continued 3",
+        text = "Tobiichi Angel: Continued 3",
     },
     [1311028] = {
         id = 1311028,
-        text = "Tobiichi Angel - Continued 4",
+        text = "Tobiichi Angel: Continued 4",
     },
     [1311029] = {
         id = 1311029,
-        text = "Tobiichi Angel - Continued 5",
+        text = "Tobiichi Angel: Continued 5",
     },
     [1311030] = {
         id = 1311030,
-        text = "Tobiichi Angel - Continued 6",
+        text = "Tobiichi Angel: Continued 6",
     },
     [1311031] = {
         id = 1311031,
-        text = "Tobiichi Angel - Continued 7",
+        text = "Tobiichi Angel: Continued 7",
     },
     [1311032] = {
         id = 1311032,
-        text = "Tobiichi Angel - Continued 8",
+        text = "Tobiichi Angel: Continued 8",
     },
     [1311033] = {
         id = 1311033,
-        text = "Tobiichi Angel - Continued 9",
+        text = "Tobiichi Angel: Continued 9",
     },
     [1311034] = {
         id = 1311034,
-        text = "Tobiichi Angel - Continued 10",
+        text = "Tobiichi Angel: Continued 10",
     },
     [1311035] = {
         id = 1311035,
-        text = "Tobiichi Angel - Continued 11",
+        text = "Tobiichi Angel: Continued 11",
     },
     [1311036] = {
         id = 1311036,
-        text = "Tobiichi Angel - Continued 12",
+        text = "Tobiichi Angel: Continued 12",
     },
     [1311037] = {
         id = 1311037,
-        text = "Tobiichi Angel - Continued 13",
+        text = "Tobiichi Angel: Continued 13",
     },
     [1311038] = {
         id = 1311038,
-        text = "Tobiichi Angel - Continued 14",
+        text = "Tobiichi Angel: Continued 14",
     },
     [1311039] = {
         id = 1311039,
-        text = "Tobiichi Angel - Continued 15",
+        text = "Tobiichi Angel: Continued 15",
     },
     [1311040] = {
         id = 1311040,
-        text = "Tobiichi Angel - Continued 16",
+        text = "Tobiichi Angel: Continued 16",
     },
     [21000] = {
         id = 21000,
@@ -3757,7 +3757,7 @@ return {
     },
     [1311042] = {
         id = 1311042,
-        text = "Tobiichi Angel - Continued 18",
+        text = "Tobiichi Angel: Continued 18",
     },
     [22024] = {
         id = 22024,
@@ -3765,23 +3765,23 @@ return {
     },
     [1311044] = {
         id = 1311044,
-        text = "Tobiichi Angel - Continued 20",
+        text = "Tobiichi Angel: Continued 20",
     },
     [1311045] = {
         id = 1311045,
-        text = "Tobiichi Angel - Continued 21",
+        text = "Tobiichi Angel: Continued 21",
     },
     [1311046] = {
         id = 1311046,
-        text = "Tobiichi Angel - Continued 22",
+        text = "Tobiichi Angel: Continued 22",
     },
     [1311047] = {
         id = 1311047,
-        text = "Tobiichi Angel - Continued 23",
+        text = "Tobiichi Angel: Continued 23",
     },
     [1311048] = {
         id = 1311048,
-        text = "Tobiichi Angel - Continued 24",
+        text = "Tobiichi Angel: Continued 24",
     },
     [25096] = {
         id = 25096,
@@ -3789,15 +3789,15 @@ return {
     },
     [1311050] = {
         id = 1311050,
-        text = "Tobiichi Angel - Continued 26",
+        text = "Tobiichi Angel: Continued 26",
     },
     [1311051] = {
         id = 1311051,
-        text = "Tobiichi Angel - Continued 27",
+        text = "Tobiichi Angel: Continued 27",
     },
     [1311052] = {
         id = 1311052,
-        text = "Tobiichi Angel - Continued 28",
+        text = "Tobiichi Angel: Continued 28",
     },
     [27144] = {
         id = 27144,
@@ -3805,79 +3805,79 @@ return {
     },
     [1311054] = {
         id = 1311054,
-        text = "Tobiichi Angel - Continued 30",
+        text = "Tobiichi Angel: Continued 30",
     },
     [1311055] = {
         id = 1311055,
-        text = "Tobiichi Angel - Continued°1",
+        text = "Tobiichi Angel: Continued°1",
     },
     [1311056] = {
         id = 1311056,
-        text = "Tobiichi Angel - Continued°2",
+        text = "Tobiichi Angel: Continued°2",
     },
     [1311057] = {
         id = 1311057,
-        text = "Tobiichi Angel - Continued°3",
+        text = "Tobiichi Angel: Continued°3",
     },
     [1311058] = {
         id = 1311058,
-        text = "Tobiichi Angel - Continued°4",
+        text = "Tobiichi Angel: Continued°4",
     },
     [1311059] = {
         id = 1311059,
-        text = "Tobiichi Angel - Continued°5",
+        text = "Tobiichi Angel: Continued°5",
     },
     [1311060] = {
         id = 1311060,
-        text = "Tobiichi Angel - Continued°6",
+        text = "Tobiichi Angel: Continued°6",
     },
     [1311061] = {
         id = 1311061,
-        text = "Tobiichi Angel - Continued°7",
+        text = "Tobiichi Angel: Continued°7",
     },
     [1311062] = {
         id = 1311062,
-        text = "Tobiichi Angel - Continued°8",
+        text = "Tobiichi Angel: Continued°8",
     },
     [1311063] = {
         id = 1311063,
-        text = "Tobiichi Angel - Continued°9",
+        text = "Tobiichi Angel: Continued°9",
     },
     [1311064] = {
         id = 1311064,
-        text = "Tobiichi Angel - Continued°10",
+        text = "Tobiichi Angel: Continued°10",
     },
     [1311065] = {
         id = 1311065,
-        text = "Tobiichi Angel - Continued°11",
+        text = "Tobiichi Angel: Continued°11",
     },
     [1311066] = {
         id = 1311066,
-        text = "Tobiichi Angel - Continued°12",
+        text = "Tobiichi Angel: Continued°12",
     },
     [1311067] = {
         id = 1311067,
-        text = "Tobiichi Angel - Continued°13",
+        text = "Tobiichi Angel: Continued°13",
     },
     [1311068] = {
         id = 1311068,
-        text = "Tobiichi Angel - Continued°14",
+        text = "Tobiichi Angel: Continued°14",
     },
     [1311069] = {
         id = 1311069,
-        text = "Tobiichi Angel - Continued°15",
+        text = "Tobiichi Angel: Continued°15",
     },
     [1311070] = {
         id = 1311070,
-        text = "Tobiichi Angel - Continued°16",
+        text = "Tobiichi Angel: Continued°16",
     },
     [1311071] = {
         id = 1311071,
-        text = "Tobiichi Angel - Continued°17",
+        text = "Tobiichi Angel: Continued°17",
     },
     [1311072] = {
         id = 1311072,
-        text = "Tobiichi Angel - Continued°18",
+        text = "Tobiichi Angel: Continued°18",
     },
     [1311073] = {
         id = 1311073,
@@ -4105,7 +4105,7 @@ return {
     },
     [270456] = {
         id = 270456,
-        text = "Diamond Red Envelope",
+        text = "Diamond",
     },
     [1311130] = {
         id = 1311130,
@@ -4585,7 +4585,7 @@ return {
     },
     [270501] = {
         id = 270501,
-        text = "Resets in: %.2dHr%.2dMin",
+        text = "Reset in: %.2dh %.2dm",
     },
     [28172] = {
         id = 28172,
@@ -4593,7 +4593,7 @@ return {
     },
     [270502] = {
         id = 270502,
-        text = "Resets in: %.2dMin",
+        text = "Reset in: %.2dm",
     },
     [213077] = {
         id = 213077,
@@ -4629,7 +4629,7 @@ return {
     },
     [270508] = {
         id = 270508,
-        text = "Claimable at Club Training Points %d",
+        text = "Club Training Points: %d",
     },
     [213080] = {
         id = 213080,
@@ -4637,7 +4637,7 @@ return {
     },
     [270509] = {
         id = 270509,
-        text = "Chances Today: %d",
+        text = "Chance Left: %d",
     },
     [270510] = {
         id = 270510,
@@ -6701,7 +6701,7 @@ return {
     },
     [2100131] = {
         id = 2100131,
-        text = "Defeat Demon King – BEELZEBUL",
+        text = "Defeat Demon King: BEELZEBUL",
     },
     [213192] = {
         id = 213192,
@@ -7282,6 +7282,10 @@ return {
     [63550] = {
         id = 63550,
         text = "Allocate Covenant Pts in 3 types: DPS, Survival and Balanced, each with several stats for you to choose from.",
+    },
+    [190000120] = {
+        id = 190000120,
+        text = "Join the Club Special Training Matrix %s times",
     },
     [190000024] = {
         id = 190000024,
@@ -9023,6 +9027,10 @@ return {
         id = 63582,
         text = "Activity: \n1. Activity of the 4 types of quests are separated, and they offer different rewards.",
     },
+    [190000121] = {
+        id = 190000121,
+        text = "Purchase %s times in Club Store",
+    },
     [190000025] = {
         id = 190000025,
         text = "Dice Reward",
@@ -9653,7 +9661,7 @@ return {
     },
     [13085] = {
         id = 13085,
-        text = "Myriads - Enhanced Armor Box",
+        text = "Myriads: Enhanced Armor Box",
     },
     [63602] = {
         id = 63602,
@@ -9805,7 +9813,7 @@ return {
     },
     [13086] = {
         id = 13086,
-        text = "Use to get: 5-star Set Sephira - Myriads - Enhanced Armor*1, Lv.5 Gold Item*70, Boss Guru*24",
+        text = "Use to get: 5-star Set Sephira - Myriads: Enhanced Armor*1, Lv.5 Gold Item*70, Boss Guru*24",
     },
     [63606] = {
         id = 63606,
@@ -9933,7 +9941,7 @@ return {
     },
     [13087] = {
         id = 13087,
-        text = "Myriads - Chokhmah Dual Blade Box",
+        text = "Myriads: Chokhmah Dual Blade Box",
     },
     [263101] = {
         id = 263101,
@@ -10046,6 +10054,10 @@ return {
     [63614] = {
         id = 63614,
         text = "There are vacant exchange columns, saved automatically!",
+    },
+    [190000122] = {
+        id = 190000122,
+        text = "Players meeting the requirement will be auto approved",
     },
     [190000026] = {
         id = 190000026,
@@ -10265,7 +10277,7 @@ return {
     },
     [13089] = {
         id = 13089,
-        text = "Myriads - Battlefield Flower Box",
+        text = "Myriads: Battlefield Flower Box",
     },
     [213504] = {
         id = 213504,
@@ -10505,7 +10517,7 @@ return {
     },
     [13090] = {
         id = 13090,
-        text = "Use to get: 5-star Set Sephira - Myriads - Battlefield Flower Box*1, Lv.5 Gold Item*70, Boss Guru*24",
+        text = "Use to get: 5-star Set Sephira - Myriads: Battlefield Flower Box*1, Lv.5 Gold Item*70, Boss Guru*24",
     },
     [263198] = {
         id = 263198,
@@ -10733,7 +10745,7 @@ return {
     },
     [13092] = {
         id = 13092,
-        text = "Use to select 1 from: Fate Badge*50, Myriads - Enhanced Armor Box*1, Chokhmah Dual Blade Box*1, Myriads - Battlefield Flower *1 (Chests contain corresponding Sephiroth, 5-star Gold Item*70 & Pro Guru*24)",
+        text = "Use to select 1 from: Fate Badge*50, Myriads: Enhanced Armor Box*1, Chokhmah Dual Blade Box*1, Myriads: Battlefield Flower *1 (Chests contain corresponding Sephiroth, 5-star Gold Item*70 & Pro Guru*24)",
     },
     [63630] = {
         id = 63630,
@@ -11067,13 +11079,33 @@ return {
         id = 63640,
         text = "(Channel Server)",
     },
+    [190000127] = {
+        id = 190000127,
+        text = "Request Supplies!",
+    },
+    [190000126] = {
+        id = 190000126,
+        text = "Request Supplies in Club 2 times",
+    },
+    [14210264] = {
+        id = 14210264,
+        text = "Club Matrix - Absolute Defense has appeared. Gather club mates and put your skills to the test!",
+    },
     [20045] = {
         id = 20045,
         text = "Adonai Tzabaoth",
     },
+    [190000124] = {
+        id = 190000124,
+        text = "Clear a team instance 2 times",
+    },
     [42137] = {
         id = 42137,
         text = "SSS Class Energy Gem, obtain it to get a SSS Class Gem for a random skill of [Shekhinah Tohka]. (Auto used once obtained)",
+    },
+    [10703099] = {
+        id = 10703099,
+        text = "[Death Thorn ] Inflicts +24% DMG to slowed enemies.",
     },
     [22093] = {
         id = 22093,
@@ -11657,7 +11689,7 @@ return {
     },
     [190000022] = {
         id = 190000022,
-        text = "Endless Battle",
+        text = "Go Fight!",
     },
     [31311] = {
         id = 31311,
@@ -11815,9 +11847,9 @@ return {
         id = 190000006,
         text = "Dice",
     },
-    [10703099] = {
-        id = 10703099,
-        text = "[Death Thorn ] Inflicts +24% DMG to slowed enemies.",
+    [190000123] = {
+        id = 190000123,
+        text = "You don't have the item to play Runestone Challenge. You can buy it from the store!",
     },
     [19024] = {
         id = 19024,
@@ -13045,7 +13077,7 @@ return {
     },
     [100000272] = {
         id = 100000272,
-        text = "社团总活跃度达到%s",
+        text = "Club Activity reaches %s",
     },
     [920128] = {
         id = 920128,
@@ -13053,7 +13085,7 @@ return {
     },
     [100000271] = {
         id = 100000271,
-        text = "领取社团空投%s次",
+        text = "Request Supplies in Club %s times",
     },
     [920129] = {
         id = 920129,
@@ -17945,7 +17977,7 @@ return {
     },
     [2110013] = {
         id = 2110013,
-        text = "Ratatoskr is trying to testing the capability of Goddess - White Heart. See how powerful the goddess is!",
+        text = "Ratatoskr is trying to testing the capability of Goddess: White Heart. See how powerful the goddess is!",
     },
     [2110015] = {
         id = 2110015,
@@ -20007,9 +20039,9 @@ return {
         id = 18032,
         text = "The kitten headband is unbelievable cute",
     },
-    [14210264] = {
-        id = 14210264,
-        text = "Club Matrix - Absolute Defense has appeared. Gather club mates and put your skills to the test!",
+    [190000125] = {
+        id = 190000125,
+        text = "Clear Spirit Trials once",
     },
     [272097] = {
         id = 272097,
@@ -20453,7 +20485,7 @@ return {
     },
     [13113] = {
         id = 13113,
-        text = "Special pack for the Autumn Fest! Open and get random Pray Material*2",
+        text = "Open and get random Pray Material*2",
     },
     [14210199] = {
         id = 14210199,
@@ -26993,7 +27025,7 @@ return {
     },
     [302203] = {
         id = 302203,
-        text = "Close in %sh %sm",
+        text = "Close in:\n%sd %sh %sm",
     },
     [13300093] = {
         id = 13300093,
@@ -29649,7 +29681,7 @@ return {
     },
     [400152] = {
         id = 400152,
-        text = "Trial - Dispersed Shadow",
+        text = "Trial: Dispersed Shadow",
     },
     [12107] = {
         id = 12107,
@@ -30969,7 +31001,7 @@ return {
     },
     [13200006] = {
         id = 13200006,
-        text = "Get a random roll from 1 to 6.",
+        text = "Get a random roll from 1 to 6. The storage limit is 999, and if it exceeds, it will automatically be converted into 3 Coins.",
     },
     [27059] = {
         id = 27059,
@@ -33353,15 +33385,15 @@ return {
     },
     [12107003] = {
         id = 12107003,
-        text = "Enemies rush attacks from the flanks of the matrix. Release Ellen's \"Parry\" at perfect timing is the key to victory.",
+        text = "Enemies will appear from both sides of the matrix and rush to the opposite side at a high speed. Release Ellen's \"Parry\" at the perfect timing is the key to victory.",
     },
     [12107002] = {
         id = 12107002,
-        text = "A permanent flame wall erects at the left of the matrix, and the conveyor belt will move Tohka towards the flame wall. Use Inverse Tohka's power to destroy all the enemies.",
+        text = "A permanent flame wall erects at the left of the matrix, and the conveyor belt will continue to move Tohka towards the flame wall. Use Inverse Tohka's power to destroy all the enemies.",
     },
     [12107001] = {
         id = 12107001,
-        text = "All the enemies in the training matrix are floating. Timing your skills and attacking them with air combos are the key to get a high score.",
+        text = "All the enemies in the training matrix are floating. Controlling the timing of skill release and extending the time in the air are the key to get a high score.",
     },
     [12106004] = {
         id = 12106004,
@@ -43329,7 +43361,7 @@ return {
     },
     [400069] = {
         id = 400069,
-        text = "Demon King – ROPHOCALE",
+        text = "Demon King: ROPHOCALE",
     },
     [421006] = {
         id = 421006,
@@ -46649,7 +46681,7 @@ return {
     },
     [2110012] = {
         id = 2110012,
-        text = "Ratatoskr is trying to testing the capability of Goddess - Purple Heart. Can they find the source of the goddess power?",
+        text = "Ratatoskr is trying to testing the capability of Goddess: Purple Heart. Can they find the source of the goddess power?",
     },
     [10931067] = {
         id = 10931067,
@@ -51533,7 +51565,7 @@ return {
     },
     [405135] = {
         id = 405135,
-        text = "Purple Heart: The Sephira of Goddess - Purple Heart has the spiritual strength from Planeptune. Sephira is Kether. Contains 4 random stats",
+        text = "Purple Heart: The Sephira of Goddess: Purple Heart has the spiritual strength from Planeptune. Sephira is Kether. Contains 4 random stats",
     },
     [10901006] = {
         id = 10901006,
@@ -51549,7 +51581,7 @@ return {
     },
     [405136] = {
         id = 405136,
-        text = "White Heart: The Sephira of Goddess - White Heart has the spiritual strength from Lowee. Sephira is Chokhmah. Contains 4 random stats",
+        text = "White Heart: The Sephira of Goddess: White Heart has the spiritual strength from Lowee. Sephira is Chokhmah. Contains 4 random stats",
     },
     [1023242] = {
         id = 1023242,
@@ -51565,7 +51597,7 @@ return {
     },
     [405137] = {
         id = 405137,
-        text = "Black Heart: The Sephira of Goddess - Black Heart has the spiritual strength from Lastation. Sephira is Binah. Contains 4 random stats",
+        text = "Black Heart: The Sephira of Goddess: Black Heart has the spiritual strength from Lastation. Sephira is Binah. Contains 4 random stats",
     },
     [10803113] = {
         id = 10803113,
@@ -51581,7 +51613,7 @@ return {
     },
     [405138] = {
         id = 405138,
-        text = "Green Heart: The Sephira of Goddess - Black Heart has the spiritual strength from Leanbox. Sephira is Tiphareth. Contains 4 random stats",
+        text = "Green Heart: The Sephira of Goddess: Black Heart has the spiritual strength from Leanbox. Sephira is Tiphareth. Contains 4 random stats",
     },
     [10803110] = {
         id = 10803110,
@@ -51645,7 +51677,7 @@ return {
     },
     [405142] = {
         id = 405142,
-        text = "Trial Sephira for goddesses of the event [Goddess Advent] Purple Heart: The Sephira of Goddess - Purple Heart has the spiritual strength from Planeptune. Sephira is Kether. Contains 4 random stats",
+        text = "Trial Sephira for goddesses of the event [Goddess Advent] Purple Heart: The Sephira of Goddess: Purple Heart has the spiritual strength from Planeptune. Sephira is Kether. Contains 4 random stats",
     },
     [2106016] = {
         id = 2106016,
@@ -51661,7 +51693,7 @@ return {
     },
     [405143] = {
         id = 405143,
-        text = "Trial Sephira for goddesses of the event [Goddess Advent] White Heart: The Sephira of Goddess - White Heart has the spiritual strength from Lowee. Sephira is Chokhmah. Contains 4 random stats",
+        text = "Trial Sephira for goddesses of the event [Goddess Advent] White Heart: The Sephira of Goddess: White Heart has the spiritual strength from Lowee. Sephira is Chokhmah. Contains 4 random stats",
     },
     [10803097] = {
         id = 10803097,
@@ -51677,7 +51709,7 @@ return {
     },
     [405144] = {
         id = 405144,
-        text = "Trial Sephira for goddesses of the event [Goddess Advent] Black Heart: The Sephira of Goddess - Black Heart has the spiritual strength from Lastation. Sephira is Binah. Contains 4 random stats",
+        text = "Trial Sephira for goddesses of the event [Goddess Advent] Black Heart: The Sephira of Goddess: Black Heart has the spiritual strength from Lastation. Sephira is Binah. Contains 4 random stats",
     },
     [12918] = {
         id = 12918,
@@ -51693,7 +51725,7 @@ return {
     },
     [405145] = {
         id = 405145,
-        text = "Trial Sephira for goddesses of the event [Goddess Advent] Green Heart: The Sephira of Goddess - Black Heart has the spiritual strength from Leanbox. Sephira is Tiphareth. Contains 4 random stats",
+        text = "Trial Sephira for goddesses of the event [Goddess Advent] Green Heart: The Sephira of Goddess: Black Heart has the spiritual strength from Leanbox. Sephira is Tiphareth. Contains 4 random stats",
     },
     [10803094] = {
         id = 10803094,
@@ -74869,7 +74901,7 @@ return {
     },
     [4007008] = {
         id = 4007008,
-        text = "%s Day %s:%s:00",
+        text = "%sd %sh %sm",
     },
     [4007006] = {
         id = 4007006,
@@ -81129,7 +81161,7 @@ return {
     },
     [1890011] = {
         id = 1890011,
-        text = "Remaining: %s Day %s:%s:00",
+        text = "Remaining: %sd %sh %sm",
     },
     [1890012] = {
         id = 1890012,
@@ -81785,7 +81817,7 @@ return {
     },
     [3002220] = {
         id = 3002220,
-        text = "Go to Space Hub # 1, find the guardian angel - Zadkiel, talk to her for clues.",
+        text = "Go to Space Hub # 1, find the guardian Angel: Zadkiel, talk to her for clues.",
     },
     [471069] = {
         id = 471069,
@@ -81869,7 +81901,7 @@ return {
     },
     [270364] = {
         id = 270364,
-        text = "%s opened a red envelope and earned %d %s",
+        text = "%s opened a red envelope and got %d %s",
     },
     [3002108] = {
         id = 3002108,
@@ -82653,7 +82685,7 @@ return {
     },
     [276012] = {
         id = 276012,
-        text = "%s opened a red envelope and earned %d %s",
+        text = "%s opened a red envelope and got %d %s",
     },
     [2210150] = {
         id = 2210150,
@@ -82697,7 +82729,7 @@ return {
     },
     [300590] = {
         id = 300590,
-        text = "Time Left: %s Day %s:%s:00",
+        text = "Time Left: %sd %sh %sm",
     },
     [276015] = {
         id = 276015,
@@ -83417,11 +83449,11 @@ return {
     },
     [2200030] = {
         id = 2200030,
-        text = "Guardian Goddess - Halberd",
+        text = "Guardian Goddess: Halberd",
     },
     [2200029] = {
         id = 2200029,
-        text = "Guardian Goddess - Katana",
+        text = "Guardian Goddess: Katana",
     },
     [2200028] = {
         id = 2200028,
@@ -87533,7 +87565,7 @@ return {
     },
     [2100132] = {
         id = 2100132,
-        text = "Defeat Demon King – ROPHOCALE",
+        text = "Defeat Demon King: ROPHOCALE",
     },
     [14012] = {
         id = 14012,
@@ -87541,7 +87573,7 @@ return {
     },
     [2100130] = {
         id = 2100130,
-        text = "Defeat Demon King - SATANAS",
+        text = "Defeat Demon King: SATANAS",
     },
     [300893] = {
         id = 300893,
@@ -88969,7 +89001,7 @@ return {
     },
     [300982] = {
         id = 300982,
-        text = "Resets at: %s Day %s:%s:00",
+        text = "Resets at: %sd %sh %sm",
     },
     [13300044] = {
         id = 13300044,
@@ -90181,7 +90213,7 @@ return {
     },
     [400156] = {
         id = 400156,
-        text = "Winter Gift - Sweet Snow",
+        text = "Winter Gift: Sweet Snow",
     },
     [1702499] = {
         id = 1702499,
@@ -90197,7 +90229,7 @@ return {
     },
     [800044] = {
         id = 800044,
-        text = "%s Day %s:%s",
+        text = "%sd %sh %sm",
     },
     [1702495] = {
         id = 1702495,
@@ -90541,7 +90573,7 @@ return {
     },
     [274004] = {
         id = 274004,
-        text = "%s was appointed by %s%s as %s",
+        text = "%s was appointed by %s %s as %s",
     },
     [1702413] = {
         id = 1702413,
@@ -90549,7 +90581,7 @@ return {
     },
     [274005] = {
         id = 274005,
-        text = "The previous leader %s appointed %s as new leader of the club, Congrats to %s!",
+        text = "The previous leader %s appointed %s as new leader of the club. Congrats to %s!",
     },
     [1702411] = {
         id = 1702411,
@@ -90605,7 +90637,7 @@ return {
     },
     [274010] = {
         id = 274010,
-        text = "The club has reached Lv.%d thanks to joint efforts",
+        text = "The club has reached Lv.%d. Thanks to joint efforts",
     },
     [14018] = {
         id = 14018,
@@ -93645,7 +93677,7 @@ return {
     },
     [400127] = {
         id = 400127,
-        text = "Mid Summer - Ellen Mathers",
+        text = "Mid Summer: Ellen Mathers",
     },
     [1224008] = {
         id = 1224008,
@@ -98101,7 +98133,7 @@ return {
     },
     [270353] = {
         id = 270353,
-        text = "Impeach will end in: %.2d Day %.2d:%.2d:00",
+        text = "Impeach will end in: %.2dd %.2dh %.2dm",
     },
     [471045] = {
         id = 471045,
@@ -98173,7 +98205,7 @@ return {
     },
     [270358] = {
         id = 270358,
-        text = "Unclaimed Gold from red envelope offered 24hrago will be refunded",
+        text = "Unclaimed Gold from red envelope offered 24hr ago will be refunded",
     },
     [30113] = {
         id = 30113,
@@ -98193,7 +98225,7 @@ return {
     },
     [270359] = {
         id = 270359,
-        text = "Unclaimed Diamonds from red envelope offered 24hrago will be refunded",
+        text = "Unclaimed Diamond from red envelope offered 24hr ago will be refunded",
     },
     [471051] = {
         id = 471051,
@@ -98205,7 +98237,7 @@ return {
     },
     [270360] = {
         id = 270360,
-        text = "Quantity %d",
+        text = "Quantity: %d",
     },
     [471052] = {
         id = 471052,
@@ -98217,7 +98249,7 @@ return {
     },
     [270361] = {
         id = 270361,
-        text = "Wish you a prosperous future!",
+        text = "Wish you great fortune!",
     },
     [471053] = {
         id = 471053,
@@ -98229,7 +98261,7 @@ return {
     },
     [270362] = {
         id = 270362,
-        text = "Could offer %d more times today",
+        text = "Chances Left: %d",
     },
     [3002102] = {
         id = 3002102,
@@ -98453,7 +98485,7 @@ return {
     },
     [3002209] = {
         id = 3002209,
-        text = "Go to Space Hub # 1, find the guardian angel - Metatron, talk to her for clues.",
+        text = "Go to Space Hub # 1, find the guardian Angel: Metatron, talk to her for clues.",
     },
     [3002211] = {
         id = 3002211,
@@ -99273,7 +99305,7 @@ return {
     },
     [270436] = {
         id = 270436,
-        text = "Enter %d/200 characters",
+        text = "%d/200",
     },
     [270437] = {
         id = 270437,
@@ -99393,7 +99425,7 @@ return {
     },
     [1311041] = {
         id = 1311041,
-        text = "Tobiichi Angel - Continued 17",
+        text = "Tobiichi Angel: Continued 17",
     },
     [21003] = {
         id = 21003,
@@ -99401,7 +99433,7 @@ return {
     },
     [1311043] = {
         id = 1311043,
-        text = "Tobiichi Angel - Continued 19",
+        text = "Tobiichi Angel: Continued 19",
     },
     [270453] = {
         id = 270453,
@@ -99413,7 +99445,7 @@ return {
     },
     [1311049] = {
         id = 1311049,
-        text = "Tobiichi Angel - Continued 25",
+        text = "Tobiichi Angel: Continued 25",
     },
     [270454] = {
         id = 270454,
@@ -99429,7 +99461,7 @@ return {
     },
     [1311053] = {
         id = 1311053,
-        text = "Tobiichi Angel - Continued 29",
+        text = "Tobiichi Angel: Continued 29",
     },
     [27046] = {
         id = 27046,
@@ -99437,7 +99469,7 @@ return {
     },
     [270455] = {
         id = 270455,
-        text = "Gold Red Envelope",
+        text = "Gold",
     },
     [213055] = {
         id = 213055,
@@ -99657,7 +99689,7 @@ return {
     },
     [270500] = {
         id = 270500,
-        text = "Resets in: %.2d Day %.2dhour",
+        text = "Reset in: %.2dd %.2dh",
     },
     [1701891] = {
         id = 1701891,
@@ -100493,7 +100525,7 @@ return {
     },
     [400129] = {
         id = 400129,
-        text = "Devil - Domain Destroyer",
+        text = "Devil: Domain Destroyer",
     },
     [441081] = {
         id = 441081,
@@ -100857,7 +100889,7 @@ return {
     },
     [200017] = {
         id = 200017,
-        text = "Character too long",
+        text = "Character is too long",
     },
     [14110228] = {
         id = 14110228,
@@ -101385,7 +101417,7 @@ return {
     },
     [400059] = {
         id = 400059,
-        text = "Deity - Mocana",
+        text = "Deity: Mocana",
     },
     [441018] = {
         id = 441018,
@@ -101513,7 +101545,7 @@ return {
     },
     [400067] = {
         id = 400067,
-        text = "Demon King – SATANAS",
+        text = "Demon King: SATANAS",
     },
     [441026] = {
         id = 441026,
@@ -101529,7 +101561,7 @@ return {
     },
     [400068] = {
         id = 400068,
-        text = "Demon King – BEELZEBUL",
+        text = "Demon King: BEELZEBUL",
     },
     [441027] = {
         id = 441027,
@@ -102313,7 +102345,7 @@ return {
     },
     [400117] = {
         id = 400117,
-        text = "Angel - Sympathetic Dance",
+        text = "Angel: Sympathetic Dance",
     },
     [310008] = {
         id = 310008,
@@ -102329,7 +102361,7 @@ return {
     },
     [400118] = {
         id = 400118,
-        text = "Angel - Divine Warsong",
+        text = "Angel: Divine Warsong",
     },
     [310009] = {
         id = 310009,
@@ -102345,7 +102377,7 @@ return {
     },
     [400119] = {
         id = 400119,
-        text = "Angel - Light Fairy",
+        text = "Angel: Light Fairy",
     },
     [310010] = {
         id = 310010,
@@ -102361,7 +102393,7 @@ return {
     },
     [400120] = {
         id = 400120,
-        text = "Fairy - Alfilia",
+        text = "Fairy: Alfilia",
     },
     [441079] = {
         id = 441079,
@@ -102377,7 +102409,7 @@ return {
     },
     [400121] = {
         id = 400121,
-        text = "Fairy - Lakhill",
+        text = "Fairy: Lakhill",
     },
     [310012] = {
         id = 310012,
@@ -102393,7 +102425,7 @@ return {
     },
     [400122] = {
         id = 400122,
-        text = "Fairy - Doris",
+        text = "Fairy: Doris",
     },
     [310013] = {
         id = 310013,
@@ -102409,7 +102441,7 @@ return {
     },
     [400123] = {
         id = 400123,
-        text = "Myriads - Enhanced Armor",
+        text = "Myriads: Enhanced Armor",
     },
     [441082] = {
         id = 441082,
@@ -102441,7 +102473,7 @@ return {
     },
     [400125] = {
         id = 400125,
-        text = "Myriads - Battlefield Flower",
+        text = "Myriads: Battlefield Flower",
     },
     [441084] = {
         id = 441084,
@@ -102521,7 +102553,7 @@ return {
     },
     [400130] = {
         id = 400130,
-        text = "Devil - True Darkness",
+        text = "Devil: True Darkness",
     },
     [441089] = {
         id = 441089,
@@ -102553,7 +102585,7 @@ return {
     },
     [400132] = {
         id = 400132,
-        text = "Trial - Domain Destroyer",
+        text = "Trial: Domain Destroyer",
     },
     [310023] = {
         id = 310023,
@@ -102569,7 +102601,7 @@ return {
     },
     [400133] = {
         id = 400133,
-        text = "Trial - True Darkness",
+        text = "Trial: True Darkness",
     },
     [310024] = {
         id = 310024,
@@ -102585,7 +102617,7 @@ return {
     },
     [400134] = {
         id = 400134,
-        text = "Trial - World Salvation",
+        text = "Trial: World Salvation",
     },
     [310025] = {
         id = 310025,
@@ -102601,7 +102633,7 @@ return {
     },
     [400135] = {
         id = 400135,
-        text = "Goddess - Purple Heart",
+        text = "Goddess: Purple Heart",
     },
     [310026] = {
         id = 310026,
@@ -102633,7 +102665,7 @@ return {
     },
     [400137] = {
         id = 400137,
-        text = "Goddess - Dark Heart",
+        text = "Goddess: Dark Heart",
     },
     [441096] = {
         id = 441096,
@@ -102649,7 +102681,7 @@ return {
     },
     [400138] = {
         id = 400138,
-        text = "Goddess - Green Heart",
+        text = "Goddess: Green Heart",
     },
     [441097] = {
         id = 441097,
@@ -102665,7 +102697,7 @@ return {
     },
     [400139] = {
         id = 400139,
-        text = "C Minor - Chord of Dream",
+        text = "C Minor: Chord of Dream",
     },
     [441098] = {
         id = 441098,
@@ -102681,7 +102713,7 @@ return {
     },
     [400140] = {
         id = 400140,
-        text = "D Major - Tipsy Waltz",
+        text = "D Major: Tipsy Waltz",
     },
     [441099] = {
         id = 441099,
@@ -102697,7 +102729,7 @@ return {
     },
     [400141] = {
         id = 400141,
-        text = "X Record - Old Sound",
+        text = "X Record: Old Sound",
     },
     [441100] = {
         id = 441100,
@@ -102713,7 +102745,7 @@ return {
     },
     [400142] = {
         id = 400142,
-        text = "Trial - Purple Heart",
+        text = "Trial: Purple Heart",
     },
     [441101] = {
         id = 441101,
@@ -102729,7 +102761,7 @@ return {
     },
     [400143] = {
         id = 400143,
-        text = "Trial - White Heart",
+        text = "Trial: White Heart",
     },
     [441102] = {
         id = 441102,
@@ -102761,7 +102793,7 @@ return {
     },
     [400145] = {
         id = 400145,
-        text = "Trial - Green Heart",
+        text = "Trial: Green Heart",
     },
     [441104] = {
         id = 441104,
@@ -102777,7 +102809,7 @@ return {
     },
     [400146] = {
         id = 400146,
-        text = "Trial - Heroic Stance",
+        text = "Trial: Heroic Stance",
     },
     [441105] = {
         id = 441105,
@@ -102793,7 +102825,7 @@ return {
     },
     [400147] = {
         id = 400147,
-        text = "Trial - Rose Armor",
+        text = "Trial: Rose Armor",
     },
     [441106] = {
         id = 441106,
@@ -102809,7 +102841,7 @@ return {
     },
     [400148] = {
         id = 400148,
-        text = "Trial - Dark Lord",
+        text = "Trial: Dark Lord",
     },
     [441107] = {
         id = 441107,
@@ -102825,7 +102857,7 @@ return {
     },
     [400149] = {
         id = 400149,
-        text = "Plane Traveler - Dispersed Shadow",
+        text = "Plane Traveler: Dispersed Shadow",
     },
     [441108] = {
         id = 441108,
@@ -102841,7 +102873,7 @@ return {
     },
     [400150] = {
         id = 400150,
-        text = "Plane Traveler - Impenetrable Domain",
+        text = "Plane Traveler: Impenetrable Domain",
     },
     [441109] = {
         id = 441109,
@@ -102857,7 +102889,7 @@ return {
     },
     [400151] = {
         id = 400151,
-        text = "Plane Traveler - Eternal Moment",
+        text = "Plane Traveler: Eternal Moment",
     },
     [441110] = {
         id = 441110,
@@ -102889,7 +102921,7 @@ return {
     },
     [400153] = {
         id = 400153,
-        text = "Trial - Impenetrable Domain",
+        text = "Trial: Impenetrable Domain",
     },
     [441112] = {
         id = 441112,
@@ -102905,7 +102937,7 @@ return {
     },
     [400154] = {
         id = 400154,
-        text = "Trial - Eternal Moment",
+        text = "Trial: Eternal Moment",
     },
     [441113] = {
         id = 441113,
@@ -102921,7 +102953,7 @@ return {
     },
     [400155] = {
         id = 400155,
-        text = "Winter Gift - Warm Snow",
+        text = "Winter Gift: Warm Snow",
     },
     [441114] = {
         id = 441114,
@@ -102953,7 +102985,7 @@ return {
     },
     [400157] = {
         id = 400157,
-        text = "Winter Gift - Dancing Snow",
+        text = "Winter Gift: Dancing Snow",
     },
     [441116] = {
         id = 441116,
@@ -104241,7 +104273,7 @@ return {
     },
     [400124] = {
         id = 400124,
-        text = "Myriads - Chokhmah Dual Blade",
+        text = "Myriads: Chokhmah Dual Blade",
     },
     [1701411] = {
         id = 1701411,
@@ -110121,7 +110153,7 @@ return {
     },
     [190000019] = {
         id = 190000019,
-        text = "       Obtain the dice through time-limited tasks, tap to roll dice to move forward, and accumulate the number of moving circles to get rewards. \n       Get the Dice coins on the grid and use them to exchange rewards in the Dice store. \n       Grid with a question mark can trigger events and you will get unexpected surprise rewards. \n       Grid with item cards can draw a item card. Make good use of the item card to get rewards more easily. \n       There is a chance to open a lot of coins in the treasure chest",
+        text = "       Obtain the dice through time-limited tasks, tap to roll dice to move forward, and accumulate the number of moving circles to get rewards. \n\n       Get the Dice coins on the grid and use them to exchange rewards in the Dice store. \n\n       Grid with a question mark can trigger events and you will get unexpected surprise rewards. \n\n       Grid with item cards can draw an item card. Make good use of the item card to get rewards more easily. \n\n       There is a chance to open a lot of coins in the treasure chest",
     },
     [190000051] = {
         id = 190000051,
@@ -119213,7 +119245,7 @@ return {
     },
     [400126] = {
         id = 400126,
-        text = "Mid Summer - Mana Takamiya",
+        text = "Mid Summer: Mana Takamiya",
     },
     [900632] = {
         id = 900632,
@@ -119229,7 +119261,7 @@ return {
     },
     [400131] = {
         id = 400131,
-        text = "Devil - World Salvation",
+        text = "Devil: World Salvation",
     },
     [900634] = {
         id = 900634,
@@ -119261,7 +119293,7 @@ return {
     },
     [400136] = {
         id = 400136,
-        text = "Goddess - White Heart",
+        text = "Goddess: White Heart",
     },
     [13050] = {
         id = 13050,
@@ -119285,7 +119317,7 @@ return {
     },
     [400144] = {
         id = 400144,
-        text = "Trial - Dark Heart",
+        text = "Trial: Dark Heart",
     },
     [900641] = {
         id = 900641,
@@ -119741,7 +119773,7 @@ return {
     },
     [302202] = {
         id = 302202,
-        text = "Refresh in:",
+        text = "Refresh in: ",
     },
     [900698] = {
         id = 900698,
@@ -119845,7 +119877,7 @@ return {
     },
     [400128] = {
         id = 400128,
-        text = "Mid Summer - Origami Tobiichi",
+        text = "Mid Summer: Origami Tobiichi",
     },
     [900711] = {
         id = 900711,

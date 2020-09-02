@@ -94,7 +94,7 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "64",
+							height = "2",
 							ignoreSize = "True",
 							name = "Image_editJoinLimitView_1",
 							sizepercentx = "0",
@@ -111,7 +111,7 @@ local t =
 								PercentX = 50,
 								PercentY = 50,
 							},
-							width = "64",
+							width = "2",
 							ZOrder = "1",
 						},
 						{
@@ -236,7 +236,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "34",
 									ignoreSize = "True",
 									name = "Label_tittle",
 									nTextAlign = "1",
@@ -253,7 +253,7 @@ local t =
 										PositionX = -355,
 										PositionY = 182,
 									},
-									width = "114",
+									width = "277",
 									ZOrder = "1",
 								},
 								{
@@ -372,7 +372,7 @@ local t =
 										PositionY = -187,
 									},
 									visible = "False",
-									width = "145",
+									width = "73",
 									ZOrder = "1",
 								},
 								{
@@ -446,15 +446,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "15",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_name",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -468,9 +468,9 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 203,
-										PositionY = 138,
+										PositionY = 141,
 									},
-									width = "98",
+									width = "119",
 									ZOrder = "1",
 								},
 								{
@@ -492,14 +492,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "18",
+									fontSize = "15",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "60",
+									height = "0",
 									ignoreSize = "False",
 									name = "Label_tips",
 									nTextAlign = "1",
@@ -610,14 +610,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
+									height = "24",
 									ignoreSize = "True",
 									name = "Label_zhufuyu_name",
 									nTextAlign = "1",
@@ -634,7 +634,7 @@ local t =
 										PositionX = 203,
 										PositionY = -22,
 									},
-									width = "73",
+									width = "96",
 									ZOrder = "1",
 								},
 								{
@@ -652,7 +652,7 @@ local t =
 									height = "75",
 									ignoreSize = "False",
 									KeyBoradType = "0",
-									maxLengthEnable = "True;maxLength:18",
+									maxLengthEnable = "True;maxLength:25",
 									name = "TextField_zhufuyu",
 									outlineColor = "#FF000000",
 									outlineSize = "1",
@@ -697,7 +697,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "18",
+									fontSize = "15",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -743,14 +743,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "18",
+									fontSize = "15",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "21",
+									height = "17",
 									ignoreSize = "True",
 									name = "Label_send_limit",
 									nTextAlign = "1",
@@ -767,7 +767,7 @@ local t =
 										PositionX = 203,
 										PositionY = -131,
 									},
-									width = "131",
+									width = "185",
 									ZOrder = "1",
 								},
 								{
@@ -844,14 +844,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_res_num",
 											nTextAlign = "1",
@@ -868,7 +868,7 @@ local t =
 												PositionX = 16,
 												PositionY = -11,
 											},
-											width = "63",
+											width = "58",
 											ZOrder = "1",
 										},
 										{
@@ -890,14 +890,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_cost",
 											nTextAlign = "1",
@@ -914,7 +914,7 @@ local t =
 												PositionX = 16,
 												PositionY = 12,
 											},
-											width = "47",
+											width = "41",
 											ZOrder = "1",
 										},
 									},
@@ -961,7 +961,7 @@ local t =
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
 											FontColor = "#FFFFFFFF",
-											fontName = "phanta.ttf",
+											fontName = "font/fangzheng_zhunyuan.ttf",
 											fontShadow = 
 											{
 												IsShadow = false,
@@ -970,15 +970,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_apply",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -993,7 +993,7 @@ local t =
 											{
 												
 											},
-											width = "68",
+											width = "115",
 											ZOrder = "1",
 										},
 									},
@@ -1116,7 +1116,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "26",
 											ignoreSize = "True",
 											name = "Label_price",
 											nTextAlign = "1",
@@ -1132,7 +1132,7 @@ local t =
 											{
 												
 											},
-											width = "21",
+											width = "16",
 											ZOrder = "1",
 										},
 									},

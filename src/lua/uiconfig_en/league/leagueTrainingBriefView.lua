@@ -169,7 +169,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "34",
 									ignoreSize = "True",
 									name = "Label_tittle",
 									nTextAlign = "1",
@@ -186,7 +186,7 @@ local t =
 										PositionX = -335,
 										PositionY = 198,
 									},
-									width = "114",
+									width = "188",
 									ZOrder = "1",
 								},
 								{
@@ -275,7 +275,7 @@ local t =
 									controlID = "Label_title1_Image_bg_Panel_root_Panel-leagueTrainingBriefView_Layer1_league_Game",
 									UUID = "37741c38_57d6_41a9_a5d4_787e17c9bc36",
 									anchorPoint = "False",
-									anchorPointX = "0.5",
+									anchorPointX = "0",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -290,14 +290,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "23",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "26",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_title1",
 									nTextAlign = "1",
@@ -311,17 +311,17 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -278,
+										PositionX = -336,
 										PositionY = 153,
 									},
-									width = "131",
+									width = "136",
 									ZOrder = "1",
 								},
 								{
 									controlID = "Label_title2_Image_bg_Panel_root_Panel-leagueTrainingBriefView_Layer1_league_Game",
 									UUID = "4f351c7d_b086_414a_b745_bb1566fdbced",
 									anchorPoint = "False",
-									anchorPointX = "0.5",
+									anchorPointX = "0",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -336,14 +336,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "23",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "26",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_title2",
 									nTextAlign = "1",
@@ -357,10 +357,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -278,
+										PositionX = -336,
 										PositionY = 75,
 									},
-									width = "131",
+									width = "179",
 									ZOrder = "1",
 								},
 								{
@@ -406,7 +406,7 @@ local t =
 										PositionX = -330,
 										PositionY = 118,
 									},
-									width = "83",
+									width = "126",
 									ZOrder = "1",
 								},
 								{

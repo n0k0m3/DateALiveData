@@ -102,6 +102,7 @@ function LeagueHallView:initUI(ui)
     self.Button_edit = TFDirector:getChildByPath(self.Panel_right, "Button_edit")
     self.Button_set = TFDirector:getChildByPath(self.Panel_right, "Button_set")
     self.Label_tips = TFDirector:getChildByPath(self.Panel_right, "Label_tips")
+    self.Label_tips:setTextById(190000122)
 
     self.change_btns = {}
     self.change_flags = {}

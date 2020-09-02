@@ -52,7 +52,7 @@ function DfwNewActivityView:updateView()
 	local endDate = os.date("%Y.%m.%d", showEndTime)
 
 	local str = TextDataMgr:getText(100000330)
-	self.label_date:setString(string.format("%s%s-%s", str, startDate, endDate))
+	self.label_date:setString(Utils:getActivityDateString(self.activityInfo.showStartTime, self.activityInfo.showEndTime, self.activityInfo.extendData.dateStyle))
 end
 
 function DfwNewActivityView:registerEvents()

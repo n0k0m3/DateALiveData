@@ -10199,7 +10199,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 521001,
         extendsTaskId = 0,
         subType = 2,
@@ -22399,7 +22399,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 520601,
         extendsTaskId = 0,
         subType = 2,
@@ -41121,7 +41121,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 520801,
         extendsTaskId = 0,
         subType = 2,
@@ -43239,7 +43239,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 520501,
         extendsTaskId = 0,
         subType = 2,
@@ -48737,7 +48737,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 520901,
         extendsTaskId = 0,
         subType = 2,
@@ -48937,7 +48937,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 334002,
         extendsTaskId = 334001,
         subType = 2,
@@ -49045,7 +49045,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 520101,
         extendsTaskId = 0,
         subType = 2,
@@ -49090,7 +49090,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 334003,
         extendsTaskId = 334002,
         subType = 2,
@@ -49577,7 +49577,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 334006,
         extendsTaskId = 334005,
         subType = 2,
@@ -49735,7 +49735,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 334007,
         extendsTaskId = 334006,
         subType = 2,
@@ -49809,7 +49809,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 520701,
         extendsTaskId = 0,
         subType = 2,
@@ -50222,7 +50222,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 334010,
         extendsTaskId = 334009,
         subType = 2,
@@ -50375,7 +50375,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 520401,
         extendsTaskId = 0,
         subType = 2,
@@ -50913,7 +50913,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 520201,
         extendsTaskId = 0,
         subType = 2,
@@ -52543,7 +52543,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 520301,
         extendsTaskId = 0,
         subType = 2,
@@ -54804,7 +54804,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 334009,
         extendsTaskId = 334008,
         subType = 2,
@@ -57943,7 +57943,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 334008,
         extendsTaskId = 334007,
         subType = 2,
@@ -57980,7 +57980,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 334005,
         extendsTaskId = 334004,
         subType = 2,
@@ -58017,7 +58017,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 334004,
         extendsTaskId = 334003,
         subType = 2,
@@ -58091,7 +58091,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 334001,
         extendsTaskId = 0,
         subType = 2,
@@ -66084,7 +66084,7 @@ return {
         colour2 = {
         },
         typeDes = "1330002",
-        open = false,
+        open = true,
         id = 193001,
         extendsTaskId = 0,
         subType = 2,

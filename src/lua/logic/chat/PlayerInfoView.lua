@@ -132,8 +132,7 @@ function PlayerInfoView:initPlayerInfo()
     else
         self.Label_league_name:setTextById(100000083)
     end
-    --屏蔽社团显示
-    TFDirector:getChildByPath(self.ui, "Panel_association"):hide()
+    
     
     self.Label_no_title:setVisible(not (self.titleId > 0))
     self.Image_title_effect_bg:setVisible(self.titleId > 0)
@@ -188,7 +187,6 @@ function PlayerInfoView:refreshBtn()
     self.Button_lockMessage:setVisible(not isShieldingFriend)
     self.Button_unlockMessage:setVisible(isShieldingFriend)
     self.Button_league:setVisible(self.playerInfo.unionId and self.playerInfo.unionId > 0)
-    self.Button_league:hide()  --屏蔽社团显示
 end
 
 function PlayerInfoView:onSearchUnionBack(data)

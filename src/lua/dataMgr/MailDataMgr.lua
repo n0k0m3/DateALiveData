@@ -120,21 +120,25 @@ function MailDataMgr:getOneMail(idx)
 			mailInfo.body = strBody[2] or mailInfo.body
 		end
 	else
-		
-
 		local bodyStr = string.split(mailInfo.body , ',')
 		if #bodyStr > 1 then
 			mailInfo.isStrId = true
 			local  symbol  = {}
-			for s in string.gmatch(bodyStr[1] , '(%%%a)') do
+			local bodyInfo = TextDataMgr:getTextAttrCanNil(bodyStr[1])
+			if bodyInfo then
+				bodyInfo = TextDataMgr:getText(bodyStr[1])
+			else
+				bodyInfo = bodyStr[1]
+			end
+			for s in string.gmatch(bodyInfo , '(%%%a)') do
 			 	table.insert(symbol , s)
 			end
 			local symbolInfo = {}
 			for i=1 , #symbol , 1 do
 				if symbol[i] == "%s" then
-					local strInfo = TextDataMgr:getText(bodyStr[i+1])
+					local strInfo = TextDataMgr:getTextAttrCanNil(bodyStr[i+1])
 					if strInfo then
-						symbolInfo[i] = strInfo
+						symbolInfo[i] = TextDataMgr:getText(bodyStr[i+1])
 					else
 						symbolInfo[i] = bodyStr[i+1]
 					end
@@ -143,7 +147,7 @@ function MailDataMgr:getOneMail(idx)
 				end
 			end
 			mailInfo.title = TextDataMgr:getText(mailInfo.title)
-			mailInfo.body = TextDataMgr:getText(bodyStr[1] , bodyStr[2], bodyStr[3] ,  bodyStr[4] ,  bodyStr[5])
+			mailInfo.body = TextDataMgr:getText(bodyStr[1] , symbolInfo[1], symbolInfo[2] ,  symbolInfo[3] ,  symbolInfo[4])
 		else
 			mailInfo.body = tonumber(mailInfo.body)
 			mailInfo.title = tonumber(mailInfo.title)

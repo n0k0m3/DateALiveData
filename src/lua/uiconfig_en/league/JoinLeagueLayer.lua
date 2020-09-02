@@ -126,7 +126,7 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "64",
+							height = "2",
 							ignoreSize = "True",
 							name = "Image_JoinLeagueLayer_1",
 							sizepercentx = "0",
@@ -139,7 +139,7 @@ local t =
 							{
 								
 							},
-							width = "64",
+							width = "2",
 							ZOrder = "1",
 						},
 						{
@@ -252,7 +252,7 @@ local t =
 								PositionX = -349,
 								PositionY = 192,
 							},
-							width = "200",
+							width = "240",
 							ZOrder = "1",
 							components = 
 							{
@@ -360,7 +360,7 @@ local t =
 									{
 										
 									},
-									width = "99",
+									width = "104",
 									ZOrder = "1",
 								},
 							},
@@ -440,7 +440,7 @@ local t =
 									{
 										
 									},
-									width = "99",
+									width = "115",
 									ZOrder = "1",
 								},
 							},
@@ -588,7 +588,7 @@ local t =
 									{
 										PositionX = -3,
 									},
-									width = "109",
+									width = "117",
 									ZOrder = "1",
 								},
 							},
@@ -647,14 +647,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_search_join",
 									nTextAlign = "1",
@@ -670,7 +670,7 @@ local t =
 									{
 										
 									},
-									width = "99",
+									width = "115",
 									ZOrder = "1",
 								},
 							},
@@ -853,7 +853,7 @@ local t =
 										PositionX = -278,
 										PositionY = 10,
 									},
-									width = "157",
+									width = "192",
 									ZOrder = "1",
 								},
 								{
@@ -891,7 +891,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "TextLable",
+									text = "Lv.99",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -906,7 +906,7 @@ local t =
 									controlID = "Label_members_Panel_league_item_Panel_prefab_Panel-JoinLeagueLayer_Layer1_league_Game",
 									UUID = "6a12fc0d_f567_43e3_a3a6_3974b3de6bb2",
 									anchorPoint = "False",
-									anchorPointX = "0",
+									anchorPointX = "1",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -942,10 +942,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 240,
+										PositionX = 323,
 										PositionY = 45,
 									},
-									width = "90",
+									width = "126",
 									ZOrder = "1",
 								},
 								{
@@ -991,14 +991,14 @@ local t =
 										PositionX = -50,
 										PositionY = 10,
 									},
-									width = "110",
+									width = "103",
 									ZOrder = "1",
 								},
 								{
 									controlID = "Label_limit_Panel_league_item_Panel_prefab_Panel-JoinLeagueLayer_Layer1_league_Game",
 									UUID = "ef72c142_1b31_4363_88ba_a2bf771aea2b",
 									anchorPoint = "False",
-									anchorPointX = "0",
+									anchorPointX = "1",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -1034,10 +1034,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -50,
+										PositionX = 45,
 										PositionY = -35,
 									},
-									width = "90",
+									width = "109",
 									ZOrder = "1",
 								},
 								{
@@ -1175,7 +1175,7 @@ local t =
 										PositionX = 50,
 										PositionY = -35,
 									},
-									width = "161",
+									width = "122",
 									ZOrder = "1",
 								},
 								{
@@ -1252,7 +1252,7 @@ local t =
 											{
 												
 											},
-											width = "91",
+											width = "38",
 											ZOrder = "1",
 										},
 									},
@@ -1377,7 +1377,7 @@ local t =
 											{
 												
 											},
-											width = "47",
+											width = "38",
 											ZOrder = "1",
 										},
 									},

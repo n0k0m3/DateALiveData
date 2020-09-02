@@ -24,7 +24,13 @@ function EditNoticeView:initUI(ui)
 
     local notice = LeagueDataMgr:getUnionNotice()
     local list = string.UTF8ToCharArray(notice)
-    local length = math.max(0, 100 - #list)
+    self.allStrNum = 100
+    if GAME_LANGUAGE_VAR == "" then
+         self.allStrNum = 100
+    else
+         self.allStrNum = 200
+    end
+    local length = math.max(0,  self.allStrNum - #list)
     self.Label_tips:setTextById(270436, length)
     self.Label_notice:setText(notice)
     
@@ -35,7 +41,8 @@ function EditNoticeView:initUI(ui)
         end,
         closeCallback = function()
             self:onCloseInputLayer()
-        end
+        end,
+        contentSize = CCSize(933 , 50)
     }
     self.inputLayer = require("lua.logic.common.InputLayer"):new(params)
     self:addLayer(self.inputLayer,1000)
@@ -61,11 +68,11 @@ function EditNoticeView:registerEvents()
     local function onTextFieldChangedHandleAcc(input)
         local text = input:getText()
         local list = string.UTF8ToCharArray(text)
-        if #list <= 100 then
+        if #list <= self.allStrNum then
             input:setText(text)
             self.Label_notice:setText(text)
             self.inputLayer:listener(input:getText())
-            local length = math.max(0, 100 - #list)
+            local length = math.max(0, self.allStrNum - #list)
             self.Label_tips:setTextById(270436, length)
         end
     end
@@ -76,7 +83,7 @@ function EditNoticeView:registerEvents()
         input:setText(text)
         self.inputLayer:show()
         self.inputLayer:listener(input:getText())
-        local length = math.max(0, 100 - #list)
+        local length = math.max(0,  self.allStrNum - #list)
         self.Label_tips:setTextById(270436, length)
     end
 
@@ -95,10 +102,10 @@ function EditNoticeView:registerEvents()
 
     self.Button_ok:onClick(function()
         local text = self.Label_notice:getText()
-        if Utils:isStringContainSpecialChars(text,"%s") ~= nil then
-            Utils:showTips(200006)
-            return
-        end
+        -- if Utils:isStringContainSpecialChars(text,"%s") ~= nil then
+        --     Utils:showTips(200006)
+        --     return
+        -- end
         LeagueDataMgr:UpdateUnionInfo(EC_UNION_EDIT_Type.PROCLAMATION, text)
     end)
 

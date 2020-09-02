@@ -224,7 +224,7 @@ local t =
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
 											FontColor = "#FFA2A4C8",
-											fontName = "phanta.ttf",
+											fontName = "font/fangzheng_zhunyuan.ttf",
 											fontShadow = 
 											{
 												IsShadow = false,
@@ -233,14 +233,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "18",
+											fontSize = "15",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "20",
+											height = "17",
 											ignoreSize = "True",
 											name = "Label_check",
 											nTextAlign = "1",
@@ -256,7 +256,7 @@ local t =
 											{
 												
 											},
-											width = "82",
+											width = "86",
 											ZOrder = "1",
 										},
 									},
@@ -280,15 +280,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_zhufuyu",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -301,9 +301,9 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionY = -30,
+										PositionY = -28,
 									},
-									width = "219",
+									width = "258",
 									ZOrder = "1",
 								},
 								{
@@ -534,14 +534,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
+									height = "21",
 									ignoreSize = "True",
 									name = "Label_player_name",
 									nTextAlign = "1",
@@ -557,7 +557,7 @@ local t =
 									{
 										PositionY = -192,
 									},
-									width = "143",
+									width = "171",
 									ZOrder = "1",
 								},
 							},

@@ -154,7 +154,7 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "64",
+							height = "2",
 							ignoreSize = "True",
 							name = "Image_leagueHallView_1",
 							sizepercentx = "0",
@@ -171,7 +171,7 @@ local t =
 								PercentX = 50,
 								PercentY = 50,
 							},
-							width = "64",
+							width = "2",
 							ZOrder = "1",
 						},
 						{
@@ -370,7 +370,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
+									height = "29",
 									ignoreSize = "True",
 									name = "Label_league_info",
 									nTextAlign = "1",
@@ -387,7 +387,7 @@ local t =
 										PositionX = 37,
 										PositionY = 541,
 									},
-									width = "99",
+									width = "120",
 									ZOrder = "1",
 									components = 
 									{
@@ -552,7 +552,7 @@ local t =
 												PositionX = 259,
 												PositionY = 496,
 											},
-											width = "157",
+											width = "192",
 											ZOrder = "1",
 										},
 										{
@@ -590,7 +590,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "TextLable",
+											text = "Lv.11",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -627,7 +627,7 @@ local t =
 												StrokeColor = "#FF000000",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "31",
 											ignoreSize = "True",
 											name = "Label_league_id",
 											nTextAlign = "1",
@@ -644,7 +644,7 @@ local t =
 												PositionX = 30,
 												PositionY = 93,
 											},
-											width = "92",
+											width = "97",
 											ZOrder = "1",
 										},
 										{
@@ -673,7 +673,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "29",
 											ignoreSize = "True",
 											name = "Label_league_id_num",
 											nTextAlign = "1",
@@ -690,7 +690,7 @@ local t =
 												PositionX = 435,
 												PositionY = 91,
 											},
-											width = "123",
+											width = "95",
 											ZOrder = "1",
 										},
 										{
@@ -761,7 +761,7 @@ local t =
 												PositionX = 32,
 												PositionY = 57,
 											},
-											width = "107",
+											width = "150",
 											ZOrder = "1",
 										},
 										{
@@ -878,7 +878,7 @@ local t =
 												PositionX = 32,
 												PositionY = 24,
 											},
-											width = "131",
+											width = "123",
 											ZOrder = "1",
 										},
 										{
@@ -1065,7 +1065,7 @@ local t =
 												PositionX = 10,
 												PositionY = 273,
 											},
-											width = "91",
+											width = "102",
 											ZOrder = "1",
 											components = 
 											{
@@ -1298,7 +1298,7 @@ local t =
 												PositionX = 11,
 												PositionY = 260,
 											},
-											width = "47",
+											width = "144",
 											ZOrder = "1",
 											components = 
 											{
@@ -1474,7 +1474,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
+									height = "29",
 									ignoreSize = "True",
 									name = "Label_members_title",
 									nTextAlign = "1",
@@ -1491,7 +1491,7 @@ local t =
 										PositionX = 24,
 										PositionY = 551,
 									},
-									width = "99",
+									width = "156",
 									ZOrder = "1",
 									components = 
 									{
@@ -1703,15 +1703,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_delate",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -1726,7 +1726,7 @@ local t =
 											{
 												
 											},
-											width = "91",
+											width = "114",
 											ZOrder = "1",
 										},
 									},
@@ -1782,15 +1782,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_aply",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -1805,7 +1805,7 @@ local t =
 											{
 												
 											},
-											width = "92",
+											width = "114",
 											ZOrder = "1",
 										},
 										{
@@ -1888,15 +1888,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_degree",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -1911,7 +1911,7 @@ local t =
 											{
 												
 											},
-											width = "91",
+											width = "114",
 											ZOrder = "1",
 										},
 									},
@@ -2030,14 +2030,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "22",
+													fontSize = "18",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
+													height = "21",
 													ignoreSize = "True",
 													name = "Label_detail",
 													nTextAlign = "1",
@@ -2053,7 +2053,7 @@ local t =
 													{
 														
 													},
-													width = "91",
+													width = "73",
 													ZOrder = "1",
 												},
 											},
@@ -2109,14 +2109,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "22",
+													fontSize = "18",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
+													height = "21",
 													ignoreSize = "True",
 													name = "Label_appoint",
 													nTextAlign = "1",
@@ -2132,7 +2132,7 @@ local t =
 													{
 														
 													},
-													width = "91",
+													width = "63",
 													ZOrder = "1",
 												},
 											},
@@ -2211,7 +2211,7 @@ local t =
 													{
 														
 													},
-													width = "90",
+													width = "75",
 													ZOrder = "1",
 												},
 											},
@@ -2237,15 +2237,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_impeach_time",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -2261,7 +2261,7 @@ local t =
 										PositionX = 22,
 										PositionY = 42,
 									},
-									width = "284",
+									width = "119",
 									ZOrder = "1",
 								},
 							},
@@ -2298,7 +2298,6 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							visible = "False",
 							width = "1030",
 							ZOrder = "1",
 							components = 
@@ -2394,7 +2393,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "29",
 											ignoreSize = "True",
 											name = "Label_setting_title",
 											nTextAlign = "1",
@@ -2411,7 +2410,7 @@ local t =
 												PositionX = 32,
 												PositionY = 545,
 											},
-											width = "100",
+											width = "166",
 											ZOrder = "1",
 											components = 
 											{
@@ -2513,7 +2512,7 @@ local t =
 												PositionX = 250,
 												PositionY = 495,
 											},
-											width = "157",
+											width = "192",
 											ZOrder = "1",
 										},
 										{
@@ -2576,7 +2575,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "TextLable",
+											text = "Lv.11",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -2638,15 +2637,15 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "22",
+													fontSize = "18",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "Label_change_flag",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -2661,7 +2660,7 @@ local t =
 													{
 														
 													},
-													width = "91",
+													width = "114",
 													ZOrder = "1",
 												},
 												{
@@ -2767,7 +2766,7 @@ local t =
 													{
 														
 													},
-													width = "90",
+													width = "102",
 													ZOrder = "1",
 												},
 											},
@@ -2823,15 +2822,15 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "22",
+													fontSize = "18",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "Label_disband",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -2846,7 +2845,7 @@ local t =
 													{
 														
 													},
-													width = "90",
+													width = "114",
 													ZOrder = "1",
 												},
 											},
@@ -2916,7 +2915,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "29",
 											ignoreSize = "True",
 											name = "Label_notice_title",
 											nTextAlign = "1",
@@ -2933,7 +2932,7 @@ local t =
 												PositionX = 19,
 												PositionY = 545,
 											},
-											width = "51",
+											width = "178",
 											ZOrder = "1",
 											components = 
 											{
@@ -3011,7 +3010,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -3175,7 +3174,7 @@ local t =
 														PositionX = 67,
 														PositionY = 31,
 													},
-													width = "91",
+													width = "94",
 													ZOrder = "1",
 												},
 												{
@@ -3213,7 +3212,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "TextLable",
+													text = "Lv.1",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -3418,15 +3417,15 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "22",
+													fontSize = "18",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "Label_open_apply",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -3434,7 +3433,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "Confirm to enable club application",
+													text = "People Can Join",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -3442,14 +3441,14 @@ local t =
 														PositionX = 109,
 														PositionY = 31,
 													},
-													width = "180",
+													width = "200",
 													ZOrder = "1",
 												},
 												{
 													controlID = "Label_leagueHallView_1_Panel_apply_Panel_right_Panel_setting_Panel_base_Panel-leagueHallView_Layer1_league_Game",
 													UUID = "9d0b6706_1026_48cb_ad72_35e177089a58",
 													anchorPoint = "False",
-													anchorPointX = "0.5",
+													anchorPointX = "1",
 													anchorPointY = "0.5",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
@@ -3485,17 +3484,17 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 256,
+														PositionX = 266,
 														PositionY = 31,
 													},
-													width = "25",
+													width = "30",
 													ZOrder = "1",
 												},
 												{
 													controlID = "Label_leagueHallView_1-Copy1_Panel_apply_Panel_right_Panel_setting_Panel_base_Panel-leagueHallView_Layer1_league_Game",
 													UUID = "cd0250b8_8184_461e_867e_a60fe1b67d56",
 													anchorPoint = "False",
-													anchorPointX = "0.5",
+													anchorPointX = "0",
 													anchorPointY = "0.5",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
@@ -3531,10 +3530,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 387,
+														PositionX = 381,
 														PositionY = 31,
 													},
-													width = "25",
+													width = "35",
 													ZOrder = "1",
 												},
 												{
@@ -3680,15 +3679,15 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "22",
+													fontSize = "18",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "Label_open_limit",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -3696,7 +3695,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "Would you like to enable restrictions",
+													text = "New member restrictions",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -3704,14 +3703,14 @@ local t =
 														PositionX = 109,
 														PositionY = 31,
 													},
-													width = "179",
+													width = "200",
 													ZOrder = "1",
 												},
 												{
 													controlID = "Label_leagueHallView_1_Panel_limit_Panel_right_Panel_setting_Panel_base_Panel-leagueHallView_Layer1_league_Game",
 													UUID = "5140febc_eb2c_4e21_8905_6fb5fe8fbf5b",
 													anchorPoint = "False",
-													anchorPointX = "0.5",
+													anchorPointX = "1",
 													anchorPointY = "0.5",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
@@ -3747,17 +3746,17 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 256,
+														PositionX = 266,
 														PositionY = 31,
 													},
-													width = "25",
+													width = "30",
 													ZOrder = "1",
 												},
 												{
 													controlID = "Label_leagueHallView_1-Copy1_Panel_limit_Panel_right_Panel_setting_Panel_base_Panel-leagueHallView_Layer1_league_Game",
 													UUID = "766c6f75_3344_447f_95f3_6cd3248b931e",
 													anchorPoint = "False",
-													anchorPointX = "0.5",
+													anchorPointX = "0",
 													anchorPointY = "0.5",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
@@ -3793,10 +3792,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 387,
+														PositionX = 381,
 														PositionY = 31,
 													},
-													width = "25",
+													width = "35",
 													ZOrder = "1",
 												},
 												{
@@ -3942,15 +3941,15 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "22",
+													fontSize = "18",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "Label_open_apply",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -3958,7 +3957,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "Would you like to enable auto joining",
+													text = "Auto Approve all Requests",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -3966,14 +3965,14 @@ local t =
 														PositionX = 109,
 														PositionY = 31,
 													},
-													width = "179",
+													width = "200",
 													ZOrder = "1",
 												},
 												{
 													controlID = "Label_leagueHallView_1_Panel_auto_Panel_right_Panel_setting_Panel_base_Panel-leagueHallView_Layer1_league_Game",
 													UUID = "6f576f9d_2fcd_446b_bb54_d5a7d6c333ca",
 													anchorPoint = "False",
-													anchorPointX = "0.5",
+													anchorPointX = "1",
 													anchorPointY = "0.5",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
@@ -4009,17 +4008,17 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 256,
+														PositionX = 266,
 														PositionY = 31,
 													},
-													width = "25",
+													width = "30",
 													ZOrder = "1",
 												},
 												{
 													controlID = "Label_leagueHallView_1-Copy1_Panel_auto_Panel_right_Panel_setting_Panel_base_Panel-leagueHallView_Layer1_league_Game",
 													UUID = "4eb75e9d_5841_4558_b646_5bf619f22546",
 													anchorPoint = "False",
-													anchorPointX = "0.5",
+													anchorPointX = "0",
 													anchorPointY = "0.5",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
@@ -4055,10 +4054,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 387,
+														PositionX = 381,
 														PositionY = 31,
 													},
-													width = "25",
+													width = "35",
 													ZOrder = "1",
 												},
 												{
@@ -4195,7 +4194,7 @@ local t =
 												PositionX = 252,
 												PositionY = 24,
 											},
-											width = "424",
+											width = "85",
 											ZOrder = "1",
 										},
 									},
@@ -4271,8 +4270,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 324,
-								PositionY = 55,
+								PositionX = 377,
+								PositionY = 160,
 							},
 							uipanelviewmodel = 
 							{
@@ -4352,15 +4351,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_name",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -4376,7 +4375,7 @@ local t =
 										PositionX = -10,
 										PositionY = -27,
 									},
-									width = "43",
+									width = "92",
 									ZOrder = "1",
 								},
 								{
@@ -4673,7 +4672,7 @@ local t =
 										PositionX = -330,
 										PositionY = 10,
 									},
-									width = "157",
+									width = "206",
 									ZOrder = "1",
 								},
 								{
@@ -4719,7 +4718,7 @@ local t =
 										PositionX = -330,
 										PositionY = -35,
 									},
-									width = "77",
+									width = "27",
 									ZOrder = "1",
 								},
 								{
@@ -4808,10 +4807,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -99,
+										PositionX = -70,
 										PositionY = 10,
 									},
-									width = "47",
+									width = "65",
 									ZOrder = "1",
 								},
 								{
@@ -4857,7 +4856,7 @@ local t =
 										PositionX = 20,
 										PositionY = -39,
 									},
-									width = "47",
+									width = "61",
 									ZOrder = "1",
 								},
 								{
@@ -4895,7 +4894,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "TextLable",
+									text = "Lv.99",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -4910,7 +4909,7 @@ local t =
 									controlID = "Label_dedication1_Panel_member_item_Panel_prefab_Panel-leagueHallView_Layer1_league_Game",
 									UUID = "a638233d_c26b_4c3b_85a9_daa95a1eb344",
 									anchorPoint = "False",
-									anchorPointX = "0",
+									anchorPointX = "1",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -4946,17 +4945,17 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 205,
+										PositionX = 356,
 										PositionY = 10,
 									},
-									width = "99",
+									width = "184",
 									ZOrder = "1",
 								},
 								{
 									controlID = "Label_dedication2_Panel_member_item_Panel_prefab_Panel-leagueHallView_Layer1_league_Game",
 									UUID = "a9ffebda_7438_4bd7_9cb0_f7c989ed6a6d",
 									anchorPoint = "False",
-									anchorPointX = "0",
+									anchorPointX = "1",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -4992,10 +4991,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 205,
+										PositionX = 346,
 										PositionY = -35,
 									},
-									width = "99",
+									width = "164",
 									ZOrder = "1",
 								},
 								{
@@ -5038,7 +5037,7 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 320,
+										PositionX = 367,
 										PositionY = 10,
 									},
 									width = "62",
@@ -5084,7 +5083,7 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 320,
+										PositionX = 368,
 										PositionY = -35,
 									},
 									width = "74",
@@ -5380,7 +5379,7 @@ local t =
 									{
 										PositionY = 20,
 									},
-									width = "70",
+									width = "78",
 									ZOrder = "1",
 								},
 							},

@@ -254,6 +254,7 @@ end
 function DfwNewTaskView:registerEvents()
     EventMgr:addEventListener(self, EV_TASK_RECEIVE, handler(onRecviceReward, self))
     EventMgr:addEventListener(self, EV_ACTIVITY_UPDATE_ACTIVITY, handler(onRefreshTaskView, self))
+    EventMgr:addEventListener(self, EV_ACTIVITY_UPDATE_PROGRESS, handler(onRefreshTaskView, self))
 
     self.Button_refresh:onClick(function()
         DfwDataMgr:send_ZILLIONAIRE_REQ_REFRESH_TASK()

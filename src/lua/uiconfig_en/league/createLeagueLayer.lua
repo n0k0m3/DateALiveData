@@ -219,14 +219,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_create_league",
 									nTextAlign = "1",
@@ -242,7 +242,7 @@ local t =
 									{
 										
 									},
-									width = "98",
+									width = "100",
 									ZOrder = "1",
 								},
 							},
@@ -333,14 +333,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "23",
 									HitType = 
 									{
 										nHitType = 1,
@@ -364,7 +364,7 @@ local t =
 									{
 										
 									},
-									width = "147",
+									width = "138",
 									ZOrder = "1",
 								},
 							},

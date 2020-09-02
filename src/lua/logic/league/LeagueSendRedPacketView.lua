@@ -99,7 +99,7 @@ function LeagueSendRedPacketView:refreshView()
         self.Button_send:setVisible(false)
         self.Button_buy:setVisible(true)
         local cfg = RechargeDataMgr:getOneRechargeCfg(packetCfg.rechargeID)
-        self.Label_price:setText("¥"..cfg.rechargeCfg.price)
+        self.Label_price:setTextById(1605003 , cfg.rechargeCfg.price * 0.01)
    end
    self.Label_total_num:setText("x"..packetCfg.bonus)
    
@@ -130,7 +130,7 @@ function LeagueSendRedPacketView:registerEvents()
     local function onTextFieldChangedHandleAcc(input)
         local text = input:getText()
         local list = string.UTF8ToCharArray(text)
-        if #list <= 10 then
+        if #list <= 25 then
             self.Label_zhufuyu:setText(input:getText())
             self.inputLayer:listener(input:getText())
         end

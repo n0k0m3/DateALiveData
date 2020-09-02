@@ -29,6 +29,7 @@ function LeagueSupplyDropView:initUI(ui)
     self.Image_res_icon = TFDirector:getChildByPath(self.Panel_supply, "Image_res_icon")
     self.Label_res_num = TFDirector:getChildByPath(self.Panel_supply, "Label_res_num")
     self.Label_free = TFDirector:getChildByPath(self.Panel_supply, "Label_free")
+    self.Label_free:setTextById(2100087)
 
     self.Button_supply = TFDirector:getChildByPath(self.Panel_supply, "Button_supply")
     self.Label_no_logs = TFDirector:getChildByPath(self.Panel_supply, "Label_no_logs")

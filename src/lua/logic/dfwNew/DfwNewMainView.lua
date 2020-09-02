@@ -708,9 +708,7 @@ end
     获得当前看板对应的q版模型
 ]]
 function DfwNewMainView:getHeroQModel()
-    local roleInfo = RoleDataMgr:getCurRoleInfo()
-    dfw.debug("DfwNewMainView: the hero modelID is %s, useID is %s", modelID, useID)
-
+    local roleInfo = RoleDataMgr:getUseRoleInfo()
     local cfg = TabDataMgr:getData("CityRoleModel", roleInfo.dressId)
     local resPath  = cfg.rolePath
 

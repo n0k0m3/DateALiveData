@@ -377,14 +377,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "15",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "18",
 											ignoreSize = "True",
 											name = "Label_activeTitle",
 											nTextAlign = "1",
@@ -398,10 +398,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -339,
-												PositionY = 41,
+												PositionX = -348,
+												PositionY = 44,
 											},
-											width = "112",
+											width = "131",
 											ZOrder = "1",
 										},
 										{
@@ -617,7 +617,7 @@ local t =
 										PositionX = 554,
 										PositionY = -303,
 									},
-									width = "147",
+									width = "219",
 									ZOrder = "1",
 								},
 								{
@@ -763,7 +763,7 @@ local t =
 												PositionX = 152,
 												PositionY = 533,
 											},
-											width = "113",
+											width = "186",
 											ZOrder = "1",
 										},
 										{
@@ -866,7 +866,7 @@ local t =
 												PositionX = 22,
 												PositionY = 153,
 											},
-											width = "99",
+											width = "112",
 											ZOrder = "1",
 										},
 										{
@@ -1041,7 +1041,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "60",
+											height = "0",
 											ignoreSize = "False",
 											name = "Label_desc",
 											nTextAlign = "1",
@@ -1050,7 +1050,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "TextLable",
+											text = "Complete quests to upgrade the fusion device. Level of fusion device determines level of the annexe.",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -1193,7 +1193,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = -11,
-										PositionY = 15,
+										PositionY = 20,
 									},
 									width = "68",
 									ZOrder = "1",
@@ -1217,15 +1217,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_name",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -1233,15 +1233,15 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Story",
+									text = "Story Story",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										PositionX = -11,
-										PositionY = -28,
+										PositionY = -26,
 									},
-									width = "43",
+									width = "85",
 									ZOrder = "1",
 								},
 								{
@@ -1504,7 +1504,7 @@ local t =
 											{
 												PositionX = 46,
 											},
-											width = "44",
+											width = "35",
 											ZOrder = "1",
 										},
 									},
@@ -1528,7 +1528,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "15",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -1574,14 +1574,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "15",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
+									height = "17",
 									ignoreSize = "True",
 									name = "Label_type",
 									nTextAlign = "0",
@@ -1598,7 +1598,7 @@ local t =
 										PositionX = -40,
 										PositionY = -36,
 									},
-									width = "43",
+									width = "61",
 									ZOrder = "1",
 								},
 								{
@@ -1756,15 +1756,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_goto",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -1779,7 +1779,7 @@ local t =
 											{
 												
 											},
-											width = "48",
+											width = "90",
 											ZOrder = "1",
 										},
 									},
@@ -1835,15 +1835,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_receive",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -1858,7 +1858,7 @@ local t =
 											{
 												
 											},
-											width = "47",
+											width = "90",
 											ZOrder = "1",
 										},
 									},
@@ -1934,14 +1934,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
+									height = "21",
 									ignoreSize = "True",
 									name = "Label_reward",
 									nTextAlign = "1",
@@ -1958,7 +1958,7 @@ local t =
 										PositionX = -22,
 										PositionY = 50,
 									},
-									width = "83",
+									width = "108",
 									ZOrder = "1",
 								},
 								{
@@ -1980,14 +1980,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
+									height = "21",
 									ignoreSize = "True",
 									name = "Label_title",
 									nTextAlign = "1",
@@ -2004,7 +2004,7 @@ local t =
 										PositionX = -338,
 										PositionY = 49,
 									},
-									width = "83",
+									width = "129",
 									ZOrder = "1",
 								},
 								{
@@ -2051,7 +2051,7 @@ local t =
 										PositionY = -14,
 									},
 									visible = "False",
-									width = "69",
+									width = "76",
 									ZOrder = "1",
 								},
 							},

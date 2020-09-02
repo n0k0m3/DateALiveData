@@ -33,7 +33,7 @@ function LeagueSnapInfoView:initContent()
 
     self.Label_league_name:setText(self.snapInfo_.name)
     self.Label_leader_name:setText(self.snapInfo_.leaderName)
-    self.Label_league_level:setText(self.snapInfo_.level.."级")
+    self.Label_league_level:setText(self.snapInfo_.level)
     self.Label_member_num:setText(self.snapInfo_.memberCount.."/"..self.snapInfo_.memberCountMax)
     if  self.snapInfo_.notice and string.len(self.snapInfo_.notice) > 1 then
         self.Label_notice:setText(self.snapInfo_.notice)

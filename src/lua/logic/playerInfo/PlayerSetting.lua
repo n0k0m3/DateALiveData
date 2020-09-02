@@ -246,8 +246,7 @@ function PlayerSetting:initInfo()
     ScrollView_info:setContentSize(CCSize(410 , 288))
     TFDirector:getChildByPath(self.Panel_player_info , "Image_info_bg_1"):hide()
 
-    --屏蔽社团显示\
-    TFDirector:getChildByPath(self.Panel_player_info,"Panel_association"):hide()
+   
     --屏蔽实名认真
     TFDirector:getChildByPath(self.Panel_player_info,"Panel_certification"):hide()
     

@@ -831,7 +831,6 @@ function ChatView:tableCellTouchBegan()
 end
 
 function ChatView:tableCellTouched()
-    print("sdddddddd")
     self:playWaitUpdateInfo()
 end
 
@@ -1396,6 +1395,7 @@ function ChatView:updateItem(item, chatInfo)
             local itemCfg = GoodsDataMgr:getItemCfg(content.itemId)
             local itemName = TextDataMgr:getText(itemCfg.nameTextId)
             Label_record:setTextById("r301006", content.recver,tostring(content.num),itemName)
+            Label_record.__richText:setScale(0.9)
         end
     else
         lab_content:show()

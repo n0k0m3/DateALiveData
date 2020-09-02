@@ -138,7 +138,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "25",
+							height = "24",
 							ignoreSize = "True",
 							name = "label_rank",
 							nTextAlign = "1",
@@ -154,7 +154,7 @@ local t =
 							{
 								PositionY = -9,
 							},
-							width = "14",
+							width = "13",
 							ZOrder = "1",
 						},
 						{
@@ -200,7 +200,7 @@ local t =
 								PositionX = -349,
 								PositionY = 35,
 							},
-							width = "93",
+							width = "156",
 							ZOrder = "1",
 						},
 						{
@@ -246,7 +246,7 @@ local t =
 								PositionX = 229,
 								PositionY = -1,
 							},
-							width = "51",
+							width = "57",
 							ZOrder = "1",
 						},
 						{
@@ -396,7 +396,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "34",
 									ignoreSize = "True",
 									name = "Label_name",
 									nTextAlign = "1",
@@ -413,7 +413,7 @@ local t =
 										PositionX = -356,
 										PositionY = 182,
 									},
-									width = "115",
+									width = "167",
 									ZOrder = "1",
 								},
 								{
@@ -439,6 +439,7 @@ local t =
 										PositionX = -236,
 										PositionY = 184,
 									},
+									visible = "False",
 									width = "2",
 									ZOrder = "1",
 									components = 
@@ -487,6 +488,7 @@ local t =
 												PositionX = 4,
 												PositionY = -15,
 											},
+											visible = "False",
 											width = "53",
 											ZOrder = "1",
 										},
@@ -628,7 +630,7 @@ local t =
 												PercentX = 14.36,
 												PercentY = 50,
 											},
-											width = "57",
+											width = "105",
 											ZOrder = "1",
 										},
 										{
@@ -677,7 +679,7 @@ local t =
 												PercentX = 50,
 												PercentY = 50,
 											},
-											width = "111",
+											width = "129",
 											ZOrder = "1",
 										},
 										{
@@ -726,7 +728,7 @@ local t =
 												PercentX = 85.64,
 												PercentY = 50,
 											},
-											width = "111",
+											width = "130",
 											ZOrder = "1",
 										},
 									},
@@ -841,7 +843,7 @@ local t =
 									{
 										PositionY = -184,
 									},
-									width = "83",
+									width = "114",
 									ZOrder = "1",
 								},
 							},

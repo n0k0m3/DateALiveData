@@ -752,7 +752,7 @@ return {
         stingerTrigger = {
         },
         serverId = 2,
-        showIcon = false,
+        showIcon = true,
         stingerDating = "",
         name = "1454040",
         unlockExplain = {
@@ -771,7 +771,7 @@ return {
         stingerTrigger = {
         },
         serverId = 2,
-        showIcon = false,
+        showIcon = true,
         stingerDating = "",
         name = "1454041",
         unlockExplain = {
@@ -831,7 +831,7 @@ return {
         stingerTrigger = {
         },
         serverId = 2,
-        showIcon = false,
+        showIcon = true,
         stingerDating = "",
         name = "1454044",
         unlockExplain = {
@@ -1798,8 +1798,8 @@ return {
         levelType = 2,
     },
     [98] = {
-        isOpen = true,
-        openLevel = 4,
+        isOpen = false,
+        openLevel = 99,
         isStinger = false,
         id = 98,
         openDun = 0,
@@ -1812,7 +1812,7 @@ return {
         name = "",
         unlockExplain = {
             [1] = 2,
-            [2] = 3300027,
+            [2] = 270420,
         },
         icon = "",
         levelType = 2,
@@ -1857,7 +1857,7 @@ return {
     },
     [101] = {
         isOpen = true,
-        openLevel = 99,
+        openLevel = 30,
         isStinger = false,
         id = 101,
         openDun = 0,
@@ -1865,7 +1865,7 @@ return {
         stingerTrigger = {
         },
         serverId = 2,
-        showIcon = false,
+        showIcon = true,
         stingerDating = "",
         name = "302011",
         unlockExplain = {

@@ -1187,6 +1187,7 @@ function battleController.requestFightingOver()
           table.insert(skillEnemy,{eSkillType.AWAKE, statistics.skillAwakeKill})
         end
         if levelCfg.dungeonType == EC_FBLevelType.PRACTICE  then
+            AlertManager:changeScene(SceneType.MainScene)
         elseif levelCfg.dungeonType == EC_FBLevelType.NOOBSUMMON then
              AlertManager:changeScene(SceneType.MainScene)
         else

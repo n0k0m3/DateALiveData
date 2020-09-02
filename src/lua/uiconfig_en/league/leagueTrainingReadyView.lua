@@ -244,14 +244,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "28",
+									fontSize = "22",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "26",
 									ignoreSize = "True",
 									name = "Label_theam_title",
 									nTextAlign = "1",
@@ -268,7 +268,7 @@ local t =
 										PositionX = 19,
 										PositionY = 540,
 									},
-									width = "115",
+									width = "118",
 									ZOrder = "1",
 									components = 
 									{
@@ -337,7 +337,7 @@ local t =
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
 									FontColor = "#FFFFDF71",
-									fontName = "phanta.ttf",
+									fontName = "font/fangzheng_zhunyuan.ttf",
 									fontShadow = 
 									{
 										IsShadow = false,
@@ -346,14 +346,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "21",
 									ignoreSize = "True",
 									name = "Label_title",
 									nTextAlign = "1",
@@ -370,7 +370,7 @@ local t =
 										PositionX = 16,
 										PositionY = 492,
 									},
-									width = "91",
+									width = "96",
 									ZOrder = "1",
 								},
 								{
@@ -383,7 +383,7 @@ local t =
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
 									FontColor = "#FFFFFFFF",
-									fontName = "phanta.ttf",
+									fontName = "font/fangzheng_zhunyuan.ttf",
 									fontShadow = 
 									{
 										IsShadow = false,
@@ -392,14 +392,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
+									height = "21",
 									ignoreSize = "True",
 									name = "Label_train_target",
 									nTextAlign = "1",
@@ -416,7 +416,7 @@ local t =
 										PositionX = 15,
 										PositionY = 457,
 									},
-									width = "90",
+									width = "118",
 									ZOrder = "1",
 								},
 								{
@@ -429,7 +429,7 @@ local t =
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
 									FontColor = "#FFFFFFFF",
-									fontName = "phanta.ttf",
+									fontName = "font/fangzheng_zhunyuan.ttf",
 									fontShadow = 
 									{
 										IsShadow = false,
@@ -438,14 +438,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
+									height = "21",
 									ignoreSize = "True",
 									name = "Label_train_name",
 									nTextAlign = "1",
@@ -459,10 +459,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 120,
+										PositionX = 162,
 										PositionY = 457,
 									},
-									width = "103",
+									width = "144",
 									ZOrder = "1",
 								},
 								{
@@ -475,7 +475,7 @@ local t =
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
 									FontColor = "#FFFFFFFF",
-									fontName = "phanta.ttf",
+									fontName = "font/fangzheng_zhunyuan.ttf",
 									fontShadow = 
 									{
 										IsShadow = false,
@@ -484,14 +484,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
+									height = "21",
 									ignoreSize = "True",
 									name = "Label_train_desc",
 									nTextAlign = "1",
@@ -508,7 +508,7 @@ local t =
 										PositionX = 16,
 										PositionY = 423,
 									},
-									width = "90",
+									width = "99",
 									ZOrder = "1",
 								},
 								{
@@ -521,7 +521,7 @@ local t =
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
 									FontColor = "#FFFFFFFF",
-									fontName = "phanta.ttf",
+									fontName = "font/fangzheng_zhunyuan.ttf",
 									fontShadow = 
 									{
 										IsShadow = false,
@@ -530,7 +530,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -613,14 +613,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "28",
+											fontSize = "22",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "35",
+											height = "26",
 											ignoreSize = "True",
 											name = "Label_reward_title",
 											nTextAlign = "1",
@@ -637,7 +637,7 @@ local t =
 												PositionX = 20,
 												PositionY = 100,
 											},
-											width = "113",
+											width = "154",
 											ZOrder = "1",
 											components = 
 											{
@@ -757,7 +757,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -780,7 +780,7 @@ local t =
 											{
 												PositionY = 15,
 											},
-											width = "47",
+											width = "84",
 											ZOrder = "1",
 										},
 										{
@@ -809,7 +809,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "26",
 											ignoreSize = "True",
 											name = "Label_taskPercent",
 											nTextAlign = "1",
@@ -825,7 +825,7 @@ local t =
 											{
 												PositionY = -15,
 											},
-											width = "42",
+											width = "41",
 											ZOrder = "1",
 										},
 									},
@@ -881,15 +881,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_fight",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -904,7 +904,7 @@ local t =
 											{
 												
 											},
-											width = "98",
+											width = "120",
 											ZOrder = "1",
 										},
 									},
@@ -960,15 +960,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_task",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -983,7 +983,7 @@ local t =
 											{
 												
 											},
-											width = "91",
+											width = "120",
 											ZOrder = "1",
 										},
 									},
@@ -1039,14 +1039,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_detail",
 											nTextAlign = "1",
@@ -1062,7 +1062,7 @@ local t =
 											{
 												
 											},
-											width = "47",
+											width = "59",
 											ZOrder = "1",
 										},
 									},
@@ -1234,14 +1234,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "15",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "18",
 									ignoreSize = "True",
 									name = "Label_theme",
 									nTextAlign = "1",
@@ -1256,9 +1256,9 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 29,
-										PositionY = 43,
+										PositionY = 45,
 									},
-									width = "135",
+									width = "149",
 									ZOrder = "1",
 								},
 								{

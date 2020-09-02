@@ -94,7 +94,7 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "64",
+							height = "2",
 							ignoreSize = "True",
 							name = "Image_leagueDelateInfoView_1",
 							sizepercentx = "0",
@@ -108,7 +108,7 @@ local t =
 								PositionX = 573,
 								PositionY = 324,
 							},
-							width = "64",
+							width = "2",
 							ZOrder = "1",
 						},
 						{
@@ -148,7 +148,7 @@ local t =
 									controlID = "Label_tittle_Image_bg_Panel_base_Panel-leagueDelateInfoView_Layer1_league_Game",
 									UUID = "65c9fb7f_a9c8_4bb4_8e7b_57d81f859363",
 									anchorPoint = "False",
-									anchorPointX = "0.5",
+									anchorPointX = "0",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -170,7 +170,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
+									height = "29",
 									ignoreSize = "True",
 									name = "Label_tittle",
 									nTextAlign = "1",
@@ -184,10 +184,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -414,
+										PositionX = -464,
 										PositionY = 241,
 									},
-									width = "100",
+									width = "158",
 									ZOrder = "1",
 								},
 								{
@@ -383,7 +383,7 @@ local t =
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
 											FontColor = "#FFFFFFFF",
-											fontName = "phanta.ttf",
+											fontName = "font/fangzheng_zhunyuan.ttf",
 											fontShadow = 
 											{
 												IsShadow = false,
@@ -392,15 +392,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_join",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -415,7 +415,7 @@ local t =
 											{
 												
 											},
-											width = "98",
+											width = "106",
 											ZOrder = "1",
 										},
 									},
@@ -462,7 +462,7 @@ local t =
 									{
 										PositionY = 193,
 									},
-									width = "289",
+									width = "520",
 									ZOrder = "1",
 								},
 								{
@@ -500,7 +500,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "TextLable",
+									text = "The member with the highest weekly contribution will become the next leader.",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -508,7 +508,7 @@ local t =
 										PositionX = -452,
 										PositionY = -231,
 									},
-									width = "333",
+									width = "715",
 									ZOrder = "1",
 								},
 							},
@@ -619,7 +619,7 @@ local t =
 										PositionX = -305,
 										PositionY = 30,
 									},
-									width = "46",
+									width = "59",
 									ZOrder = "1",
 								},
 								{
@@ -665,7 +665,7 @@ local t =
 										PositionX = -246,
 										PositionY = 30,
 									},
-									width = "157",
+									width = "206",
 									ZOrder = "1",
 								},
 								{
@@ -711,7 +711,7 @@ local t =
 										PositionX = -305,
 										PositionY = -30,
 									},
-									width = "68",
+									width = "27",
 									ZOrder = "1",
 								},
 								{
@@ -803,7 +803,7 @@ local t =
 										PositionX = 10,
 										PositionY = -30,
 									},
-									width = "209",
+									width = "94",
 									ZOrder = "1",
 								},
 								{
@@ -841,7 +841,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "TextLable",
+									text = "Lv.99",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -937,7 +937,7 @@ local t =
 									controlID = "Label_active_Panel_member_item_Panel_base_Panel-leagueDelateInfoView_Layer1_league_Game",
 									UUID = "711c4cad_27bb_477f_8ff5_8070228ab36e",
 									anchorPoint = "False",
-									anchorPointX = "0",
+									anchorPointX = "1",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -973,9 +973,9 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 250,
+										PositionX = 338,
 									},
-									width = "99",
+									width = "189",
 									ZOrder = "1",
 								},
 								{
