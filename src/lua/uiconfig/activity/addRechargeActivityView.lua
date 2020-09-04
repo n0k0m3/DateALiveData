@@ -413,7 +413,7 @@ local t =
 					{
 						
 						{
-							controlID = "Panel_taskItem_Panel_prefab_Panel-addRechargeActivityView_Layer1_activity_Game",
+							controlID = "Panel_taskItem_cccc_Panel_prefab_Panel-addRechargeActivityView_Layer1_activity_Game",
 							UUID = "b9c6449c_c357_470d_8e55_867b2e3556a9",
 							anchorPoint = "False",
 							anchorPointX = "0.5",
@@ -429,7 +429,7 @@ local t =
 							dstBlendFunc = "771",
 							height = "88",
 							ignoreSize = "False",
-							name = "Panel_taskItem",
+							name = "Panel_taskItem_cccc",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
@@ -451,7 +451,7 @@ local t =
 							{
 								
 								{
-									controlID = "Panel_geted_Panel_taskItem_Panel_prefab_Panel-addRechargeActivityView_Layer1_activity_Game",
+									controlID = "Panel_geted_Panel_taskItem_cccc_Panel_prefab_Panel-addRechargeActivityView_Layer1_activity_Game",
 									UUID = "9b9434d2_51ad_4e77_baa0_f537618ac5d9",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
@@ -489,7 +489,7 @@ local t =
 									{
 										
 										{
-											controlID = "Image_geted_Panel_geted_Panel_taskItem_Panel_prefab_Panel-addRechargeActivityView_Layer1_activity_Game",
+											controlID = "Image_geted_Panel_geted_Panel_taskItem_cccc_Panel_prefab_Panel-addRechargeActivityView_Layer1_activity_Game",
 											UUID = "52b5d4f3_febd_48c1_8ad6_1c670ff1e4a4",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
@@ -516,7 +516,7 @@ local t =
 											ZOrder = "1",
 										},
 										{
-											controlID = "Label_geted_Panel_geted_Panel_taskItem_Panel_prefab_Panel-addRechargeActivityView_Layer1_activity_Game",
+											controlID = "Label_geted_Panel_geted_Panel_taskItem_cccc_Panel_prefab_Panel-addRechargeActivityView_Layer1_activity_Game",
 											UUID = "9537f939_cd6e_4a60_8dfb_2cf8b454cf64",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
@@ -563,7 +563,7 @@ local t =
 									},
 								},
 								{
-									controlID = "Panel_get_Panel_taskItem_Panel_prefab_Panel-addRechargeActivityView_Layer1_activity_Game",
+									controlID = "Panel_get_Panel_taskItem_cccc_Panel_prefab_Panel-addRechargeActivityView_Layer1_activity_Game",
 									UUID = "646930fb_1337_4d45_b515_4cbbb92b3956",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
@@ -600,7 +600,7 @@ local t =
 									{
 										
 										{
-											controlID = "Spine_receive_Panel_get_Panel_taskItem_Panel_prefab_Panel-addRechargeActivityView_Layer1_activity_Game",
+											controlID = "Spine_receive_Panel_get_Panel_taskItem_cccc_Panel_prefab_Panel-addRechargeActivityView_Layer1_activity_Game",
 											UUID = "8dd6c5cb_f34a_4e0e_9761_e5b522d87ea1",
 											classname = "MESpine",
 											dstBlendFunc = "771",
@@ -629,7 +629,7 @@ local t =
 											ZOrder = "1",
 										},
 										{
-											controlID = "Button_get_Panel_get_Panel_taskItem_Panel_prefab_Panel-addRechargeActivityView_Layer1_activity_Game",
+											controlID = "Button_get_Panel_get_Panel_taskItem_cccc_Panel_prefab_Panel-addRechargeActivityView_Layer1_activity_Game",
 											UUID = "395238b7_ae12_44f3_8d1e_73584c213d07",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
@@ -661,7 +661,7 @@ local t =
 											ZOrder = "1",
 										},
 										{
-											controlID = "Label_get_Panel_get_Panel_taskItem_Panel_prefab_Panel-addRechargeActivityView_Layer1_activity_Game",
+											controlID = "Label_get_Panel_get_Panel_taskItem_cccc_Panel_prefab_Panel-addRechargeActivityView_Layer1_activity_Game",
 											UUID = "fe97d346_44ec_424f_8dd2_4e2374017cc5",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
@@ -708,7 +708,7 @@ local t =
 									},
 								},
 								{
-									controlID = "Panel_notGet_Panel_taskItem_Panel_prefab_Panel-addRechargeActivityView_Layer1_activity_Game",
+									controlID = "Panel_notGet_Panel_taskItem_cccc_Panel_prefab_Panel-addRechargeActivityView_Layer1_activity_Game",
 									UUID = "0f300e01_a4db_45e8_b001_32acb878cd7b",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
@@ -746,7 +746,7 @@ local t =
 									{
 										
 										{
-											controlID = "Image_notGet_Panel_notGet_Panel_taskItem_Panel_prefab_Panel-addRechargeActivityView_Layer1_activity_Game",
+											controlID = "Image_notGet_Panel_notGet_Panel_taskItem_cccc_Panel_prefab_Panel-addRechargeActivityView_Layer1_activity_Game",
 											UUID = "b4f87fa7_520a_4c35_8098_c1affebbce8d",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
@@ -773,7 +773,7 @@ local t =
 											ZOrder = "1",
 										},
 										{
-											controlID = "Label_money_Panel_notGet_Panel_taskItem_Panel_prefab_Panel-addRechargeActivityView_Layer1_activity_Game",
+											controlID = "Label_money_Panel_notGet_Panel_taskItem_cccc_Panel_prefab_Panel-addRechargeActivityView_Layer1_activity_Game",
 											UUID = "6b305b6e_bc46_47a9_8d18_a37e5d0fe4bd",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
@@ -821,6 +821,408 @@ local t =
 								},
 							},
 						},
+						{
+							controlID = "Panel_taskItem_Panel_prefab_Panel-addRechargeActivityView_Layer1_activity_Game",
+							UUID = "acabdbac_f8af_40f4_a8fe_2cca199670ca",
+							anchorPoint = "False",
+							anchorPointX = "0.5",
+							anchorPointY = "0",
+							backGroundScale9Enable = "False",
+							bgColorOpacity = "50",
+							bIsOpenClipping = "False",
+							classname = "MEPanel",
+							colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+							DesignHeight = "640",
+							DesignType = "0",
+							DesignWidth = "960",
+							dstBlendFunc = "771",
+							height = "93",
+							ignoreSize = "False",
+							name = "Panel_taskItem",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "1",
+							touchAble = "False",
+							UILayoutViewModel = 
+							{
+								PositionX = 336,
+								PositionY = 530,
+							},
+							uipanelviewmodel = 
+							{
+								Layout="Absolute",
+								nType = "0"
+							},
+							width = "88",
+							ZOrder = "1",
+							components = 
+							{
+								
+								{
+									controlID = "Panel_geted_Panel_taskItem_Panel_prefab_Panel-addRechargeActivityView_Layer1_activity_Game",
+									UUID = "5eaa60ee_9f7b_4665_99bd_be912a05aac0",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0",
+									backGroundScale9Enable = "False",
+									bgColorOpacity = "50",
+									bIsOpenClipping = "False",
+									classname = "MEPanel",
+									colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+									DesignHeight = "640",
+									DesignType = "0",
+									DesignWidth = "960",
+									dstBlendFunc = "771",
+									height = "88",
+									ignoreSize = "False",
+									name = "Panel_geted",
+									sizepercentx = "100",
+									sizepercenty = "100",
+									sizeType = "1",
+									srcBlendFunc = "1",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										
+									},
+									uipanelviewmodel = 
+									{
+										Layout="Absolute",
+										nType = "0"
+									},
+									width = "88",
+									ZOrder = "1",
+									components = 
+									{
+										
+										{
+											controlID = "Image_geted_Panel_geted_Panel_taskItem_Panel_prefab_Panel-addRechargeActivityView_Layer1_activity_Game",
+											UUID = "53022727_2e4c_4d45_be76_c63510c12e39",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											classname = "MEImage",
+											dstBlendFunc = "771",
+											height = "122",
+											ignoreSize = "True",
+											name = "Image_geted",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											texturePath = "ui/activity/fanshiAssist/addRecharge/02.png",
+											touchAble = "True",
+											UILayoutViewModel = 
+											{
+												PositionY = 56,
+											},
+											width = "117",
+											ZOrder = "1",
+										},
+										{
+											controlID = "Label_geted_Panel_geted_Panel_taskItem_Panel_prefab_Panel-addRechargeActivityView_Layer1_activity_Game",
+											UUID = "7292c0b4_f46f_4a22_a869_1ee47818465b",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											classname = "MELabel",
+											compPath = "luacomponents.common.MEIconLabel",
+											dstBlendFunc = "771",
+											FontColor = "#FFFFFFFF",
+											fontName = "font/MFLiHei_Noncommercial.ttf",
+											fontShadow = 
+											{
+												IsShadow = false,
+												ShadowColor = "#FFFFFFFF",
+												ShadowAlpha = 255,
+												OffsetX = 0,
+												OffsetY = 0,
+											},
+											fontSize = "20",
+											fontStroke = 
+											{
+												IsStroke = true,
+												StrokeColor = "#FFD159A9",
+												StrokeSize = 1,
+											},
+											height = "27",
+											ignoreSize = "True",
+											name = "Label_geted",
+											nTextAlign = "1",
+											nTextHAlign = "1",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "770",
+											text = "已领取",
+											touchAble = "False",
+											touchScaleEnable = "False",
+											UILayoutViewModel = 
+											{
+												PositionY = 9,
+											},
+											width = "65",
+											ZOrder = "1",
+										},
+									},
+								},
+								{
+									controlID = "Panel_get_Panel_taskItem_Panel_prefab_Panel-addRechargeActivityView_Layer1_activity_Game",
+									UUID = "877e7973_b7ec_4783_b109_93f341bf9aeb",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0",
+									backGroundScale9Enable = "False",
+									bgColorOpacity = "50",
+									bIsOpenClipping = "False",
+									classname = "MEPanel",
+									colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+									DesignHeight = "640",
+									DesignType = "0",
+									DesignWidth = "960",
+									dstBlendFunc = "771",
+									height = "88",
+									ignoreSize = "False",
+									name = "Panel_get",
+									sizepercentx = "100",
+									sizepercenty = "100",
+									sizeType = "1",
+									srcBlendFunc = "1",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										
+									},
+									uipanelviewmodel = 
+									{
+										Layout="Absolute",
+										nType = "0"
+									},
+									visible = "False",
+									width = "88",
+									ZOrder = "1",
+									components = 
+									{
+										
+										{
+											controlID = "Spine_receive_Panel_get_Panel_taskItem_Panel_prefab_Panel-addRechargeActivityView_Layer1_activity_Game",
+											UUID = "e22c7b67_ff8c_4154_8a9e_d20dcbc5e79e",
+											classname = "MESpine",
+											dstBlendFunc = "771",
+											name = "Spine_receive",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											spineModel = 
+											{
+												SpinePath = "effect/ui_fanzhehuodong_gift/ui_fanzhehuodong_gift",
+												animationName = "animation2",
+												IsLoop = true,
+												IsPlay = true,
+												IsUseQueue = false,
+												AnimationQueue = 
+												{
+													
+												},
+											},
+											srcBlendFunc = "1",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionY = 49,
+											},
+											ZOrder = "1",
+										},
+										{
+											controlID = "Button_get_Panel_get_Panel_taskItem_Panel_prefab_Panel-addRechargeActivityView_Layer1_activity_Game",
+											UUID = "402ed607_9d77_42be_b1ff_e5590ebbf635",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											classname = "MEButton",
+											ClickHighLightEnabled = "True",
+											dstBlendFunc = "771",
+											flipX = "False",
+											flipY = "False",
+											height = "122",
+											ignoreSize = "True",
+											name = "Button_get",
+											normal = "ui/activity/fanshiAssist/addRecharge/03.png",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											touchAble = "True",
+											UILayoutViewModel = 
+											{
+												PositionY = 49,
+											},
+											UItype = "Button",
+											width = "117",
+											ZOrder = "1",
+										},
+										{
+											controlID = "Label_get_Panel_get_Panel_taskItem_Panel_prefab_Panel-addRechargeActivityView_Layer1_activity_Game",
+											UUID = "617d9c25_b0d8_4d5a_9ab6_9d2a53589331",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											classname = "MELabel",
+											compPath = "luacomponents.common.MEIconLabel",
+											dstBlendFunc = "771",
+											FontColor = "#FFFFFFFF",
+											fontName = "font/MFLiHei_Noncommercial.ttf",
+											fontShadow = 
+											{
+												IsShadow = false,
+												ShadowColor = "#FFFFFFFF",
+												ShadowAlpha = 255,
+												OffsetX = 0,
+												OffsetY = 0,
+											},
+											fontSize = "20",
+											fontStroke = 
+											{
+												IsStroke = true,
+												StrokeColor = "#FFD159A9",
+												StrokeSize = 1,
+											},
+											height = "27",
+											ignoreSize = "True",
+											name = "Label_get",
+											nTextAlign = "1",
+											nTextHAlign = "1",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "770",
+											text = "领取",
+											touchAble = "False",
+											touchScaleEnable = "False",
+											UILayoutViewModel = 
+											{
+												PositionY = 11,
+											},
+											width = "45",
+											ZOrder = "1",
+										},
+									},
+								},
+								{
+									controlID = "Panel_notGet_Panel_taskItem_Panel_prefab_Panel-addRechargeActivityView_Layer1_activity_Game",
+									UUID = "7a24a052_34c6_48eb_be66_10988854080c",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0",
+									backGroundScale9Enable = "False",
+									bgColorOpacity = "50",
+									bIsOpenClipping = "False",
+									classname = "MEPanel",
+									colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+									DesignHeight = "640",
+									DesignType = "0",
+									DesignWidth = "960",
+									dstBlendFunc = "771",
+									height = "88",
+									ignoreSize = "False",
+									name = "Panel_notGet",
+									sizepercentx = "100",
+									sizepercenty = "100",
+									sizeType = "1",
+									srcBlendFunc = "1",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										
+									},
+									uipanelviewmodel = 
+									{
+										Layout="Absolute",
+										nType = "0"
+									},
+									visible = "False",
+									width = "88",
+									ZOrder = "1",
+									components = 
+									{
+										
+										{
+											controlID = "Image_notGet_Panel_notGet_Panel_taskItem_Panel_prefab_Panel-addRechargeActivityView_Layer1_activity_Game",
+											UUID = "4b12100e_1921_4735_80e8_8591f6f57deb",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											classname = "MEImage",
+											dstBlendFunc = "771",
+											height = "122",
+											ignoreSize = "True",
+											name = "Image_notGet",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											texturePath = "ui/activity/fanshiAssist/addRecharge/03.png",
+											touchAble = "True",
+											UILayoutViewModel = 
+											{
+												PositionY = 49,
+											},
+											width = "117",
+											ZOrder = "1",
+										},
+										{
+											controlID = "Label_money_Panel_notGet_Panel_taskItem_Panel_prefab_Panel-addRechargeActivityView_Layer1_activity_Game",
+											UUID = "19d80ee6_c37a_4e3e_9b69_c2e6ae3268ab",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											classname = "MELabel",
+											compPath = "luacomponents.common.MEIconLabel",
+											dstBlendFunc = "771",
+											FontColor = "#FFFFFFFF",
+											fontName = "font/MFLiHei_Noncommercial.ttf",
+											fontShadow = 
+											{
+												IsShadow = false,
+												ShadowColor = "#FFFFFFFF",
+												ShadowAlpha = 255,
+												OffsetX = 0,
+												OffsetY = 0,
+											},
+											fontSize = "20",
+											fontStroke = 
+											{
+												IsStroke = true,
+												StrokeColor = "#FFD159A9",
+												StrokeSize = 1,
+											},
+											height = "27",
+											ignoreSize = "True",
+											name = "Label_money",
+											nTextAlign = "1",
+											nTextHAlign = "1",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "770",
+											text = "100",
+											touchAble = "False",
+											touchScaleEnable = "False",
+											UILayoutViewModel = 
+											{
+												PositionY = 10,
+											},
+											width = "49",
+											ZOrder = "1",
+										},
+									},
+								},
+							},
+						},
 					},
 				},
 			},
@@ -839,6 +1241,8 @@ local t =
 			"ui/task/box_3.png",
 			"ui/task/box_2.png",
 			"ui/task/box_1.png",
+			"ui/activity/fanshiAssist/addRecharge/02.png",
+			"ui/activity/fanshiAssist/addRecharge/03.png",
 		},
 		armatures = 
 		{
