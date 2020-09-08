@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>alpha_Binah_gray.pvr</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{98,46}</string>
+                <key>spriteSourceSize</key>
+                <string>{98,46}</string>
+                <key>textureRect</key>
+                <string>{{1,1},{98,46}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>3</integer>
+            <key>pixelFormat</key>
+            <string>RGBA8888</string>
+            <key>premultiplyAlpha</key>
+            <false/>
+            <key>realTextureFileName</key>
+            <string>alpha_Binah_gray.png</string>
+            <key>size</key>
+            <string>{100,48}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:cf5f4ce4779fc1a0f1ae15d17ab5e3ba:136f8ea7b0f9ea59719381279e031859:49fad7d21c17c27e6cb99cad79441524$</string>
+            <key>textureFileName</key>
+            <string>alpha_Binah_gray.png</string>
+        </dict>
+    </dict>
+</plist>
