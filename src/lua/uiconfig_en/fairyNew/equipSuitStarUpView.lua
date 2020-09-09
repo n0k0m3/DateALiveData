@@ -203,7 +203,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
+									height = "29",
 									ignoreSize = "True",
 									name = "Label_name",
 									nTextAlign = "1",
@@ -220,7 +220,7 @@ local t =
 										PositionX = 41,
 										PositionY = 541,
 									},
-									width = "128",
+									width = "175",
 									ZOrder = "1",
 								},
 								{
@@ -652,7 +652,7 @@ local t =
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
 									FontColor = "#FFFFFFFF",
-									fontName = "phanta.ttf",
+									fontName = "font/fangzheng_zhunyuan.ttf",
 									fontShadow = 
 									{
 										IsShadow = false,
@@ -661,7 +661,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -759,7 +759,7 @@ local t =
 											{
 												PositionX = 5,
 											},
-											width = "91",
+											width = "112",
 											ZOrder = "1",
 										},
 									},
@@ -996,7 +996,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "29",
 											ignoreSize = "True",
 											name = "Label_name",
 											nTextAlign = "1",
@@ -1013,7 +1013,7 @@ local t =
 												PositionX = 15,
 												PositionY = 27,
 											},
-											width = "98",
+											width = "172",
 											ZOrder = "1",
 										},
 										{
@@ -1059,6 +1059,7 @@ local t =
 												PositionX = 20,
 												PositionY = 11,
 											},
+											visible = "False",
 											width = "89",
 											ZOrder = "1",
 										},
@@ -1464,7 +1465,7 @@ local t =
 														PositionX = 43,
 														PositionY = 15,
 													},
-													width = "47",
+													width = "30",
 													ZOrder = "1",
 												},
 												{
@@ -1696,7 +1697,7 @@ local t =
 														PositionX = 43,
 														PositionY = 15,
 													},
-													width = "47",
+													width = "61",
 													ZOrder = "1",
 												},
 												{
@@ -1928,7 +1929,7 @@ local t =
 														PositionX = 43,
 														PositionY = 15,
 													},
-													width = "47",
+													width = "36",
 													ZOrder = "1",
 												},
 												{
@@ -2125,7 +2126,7 @@ local t =
 											{
 												PositionX = 5,
 											},
-											width = "91",
+											width = "163",
 											ZOrder = "1",
 										},
 									},
@@ -2259,14 +2260,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_up",
 											nTextAlign = "1",
@@ -2282,7 +2283,7 @@ local t =
 											{
 												
 											},
-											width = "62",
+											width = "73",
 											ZOrder = "1",
 										},
 									},
@@ -2417,14 +2418,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "21",
 											ignoreSize = "True",
 											name = "Label_tips",
 											nTextAlign = "1",
@@ -2433,15 +2434,15 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "TextLable",
+											text = "Enhance. Cost",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 93,
+												PositionX = 94,
 												PositionY = 43,
 											},
-											width = "91",
+											width = "112",
 											ZOrder = "1",
 										},
 									},

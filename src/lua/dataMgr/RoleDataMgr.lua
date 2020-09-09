@@ -1795,10 +1795,6 @@ function RoleDataMgr:checkMainRewardState(roleId)
 end
 
 function RoleDataMgr:checkDayRewardState(roleId)
-    --暂时屏蔽信物约会红点提示
-    if true then
-        return false 
-    end
     local buildDataList = self:getDayBuildList(roleId)
     for i, v in ipairs(buildDataList) do
         local data = DatingDataMgr:getBuildDayScripInfo(v.buildId,roleId)
@@ -1844,9 +1840,9 @@ function RoleDataMgr:getElvesShowState(roleId)
     if self:checkDayRewardState(roleId) then
         return EC_ElvesState.reward
     end
---    if self:checkMainRewardState(roleId) then
---        return EC_ElvesState.reward
---    end
+   -- if self:checkMainRewardState(roleId) then  --屏蔽旧主线约会奖励
+   --     return EC_ElvesState.reward
+   -- end
     if self:checkNewMainRewardState(roleId) then
         return EC_ElvesState.reward
     end

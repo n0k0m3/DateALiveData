@@ -322,6 +322,7 @@ function MainLayer:initUI(ui)
     self.Button_league = TFDirector:getChildByPath(self.Panel_bottom, "Button_league")
     self.Image_leagueTip = TFDirector:getChildByPath(self.Button_league, "RedTips")
 
+
     self.Button_ARCamera    = TFDirector:getChildByPath(self.Panel_bottom,"Button_ARCamera")
 
     self.Panel_player_info_touch = TFDirector:getChildByPath(self.ui,"Panel_player_info_touch")

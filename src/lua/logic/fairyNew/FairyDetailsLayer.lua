@@ -37,8 +37,8 @@ function FairyDetailsLayer:ctor(data)
 	{name = TextDataMgr:getText(1454010), icon = "ui/fairy/new_ui/tab_2.png"},
 	{name = TextDataMgr:getText(1454032), icon = "ui/fairy/new_ui/tab_3.png"},
 	{name = TextDataMgr:getText(1454031), icon = "ui/fairy/new_ui/tab_4.png"},
-	-- {name = TextDataMgr:getText(1454056), icon = "ui/fairy/new_ui/tab_6.png"},
-	-- {name = TextDataMgr:getText(1454057), icon = "ui/fairy/new_ui/tab_8.png"},
+	{name = TextDataMgr:getText(1454056), icon = "ui/fairy/new_ui/tab_6.png"},
+	{name = TextDataMgr:getText(1454057), icon = "ui/fairy/new_ui/tab_8.png"},
 	{name = TextDataMgr:getText(900318), icon = "ui/fairy/new_ui/tab_5.png"}}
 	self.heroPos = data.pos
 	self.gotoWhichTab = data.gotoWhichTab
@@ -291,8 +291,8 @@ function FairyDetailsLayer:initUI(ui)
 	table.insert(self.tabPanels,{pl = self.Panel_crystal,uiType = EC_FairyDetailUIType.Crystal})
 	table.insert(self.tabPanels,{pl = self.Panel_Equipment,uiType = EC_FairyDetailUIType.Equip})
 	table.insert(self.tabPanels,{pl = self.Panel_angel,uiType = EC_FairyDetailUIType.Angle})
-	-- table.insert(self.tabPanels,{pl = self.Panel_equip_suit,uiType = EC_FairyDetailUIType.NewEquip})
-	-- table.insert(self.tabPanels,{pl = self.Panel_baoshi,uiType = EC_FairyDetailUIType.BaoShi})
+	table.insert(self.tabPanels,{pl = self.Panel_equip_suit,uiType = EC_FairyDetailUIType.NewEquip})
+	table.insert(self.tabPanels,{pl = self.Panel_baoshi,uiType = EC_FairyDetailUIType.BaoShi})
 	table.insert(self.tabPanels,{pl = self.Panel_skin,uiType = EC_FairyDetailUIType.Skin})
 
 	self.ListView_tab = UIListView:create(TFDirector:getChildByPath(ui, "ScrollView_tab"))
@@ -860,9 +860,9 @@ function FairyDetailsLayer:onBottomBtnTouch(idx)
 			return
 		end
 	elseif idx == 5 then
-		-- if not FunctionDataMgr:checkFuncOpen(80) then
-		-- 	return
-		-- end
+		if not FunctionDataMgr:checkFuncOpen(80) then
+			return
+		end
 	elseif idx == 6 then
 		if not FunctionDataMgr:checkFuncOpen(107) then
 			return
@@ -886,7 +886,7 @@ function FairyDetailsLayer:onBottomBtnTouch(idx)
 		end
 	end
 
-	if idx == 5 then
+	if idx == 7 then
 		if self.showSkinID ~= HeroDataMgr:getCurSkin(self.showHeroId) then
 			self.anim_hero = Utils:createHeroModel(self.showHeroId, self.Image_hero)
 			self.showSkinID = HeroDataMgr:getCurSkin(self.showHeroId)
@@ -908,7 +908,7 @@ function FairyDetailsLayer:onBottomBtnTouch(idx)
 	end
 
 	
-	if idx == 5 then
+	if idx == 7 then
 		self:updateSkinBtnState()
 	elseif idx == 3 then
 		self:updateEquipLayer()
@@ -916,10 +916,10 @@ function FairyDetailsLayer:onBottomBtnTouch(idx)
 		self:updateAngelLayer()
 	elseif idx == 2 then
 		self:updateCrystalLayer()
-	-- elseif idx == 5 then
-	-- 	self:updateEquipSuitLayer()
-	-- elseif idx == 6 then
-	-- 	self:updateBaoshiLayer()		
+	elseif idx == 5 then
+		self:updateEquipSuitLayer()
+	elseif idx == 6 then
+		self:updateBaoshiLayer()		
 	end
 
 	local showAngelFlag = self.curPanel == self.Panel_angel or self.curPanel == self.Panel_baoshi
@@ -949,7 +949,7 @@ function FairyDetailsLayer:onBottomBtnTouch(idx)
 	self.Image_suit_bg:setVisible(not (btn == self.Button_tab_4))
 	self.Label_suit_name:setVisible(not (btn == self.Button_tab_4))
 
-	if idx == 5 then
+	if idx == 7 then
 		self.showSkinID = self.skinItemsList_[1].skinId
 		self.skinScrollView:setVisible(true)
 		self.skinScrollView:setOpacity(0)

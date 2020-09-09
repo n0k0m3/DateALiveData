@@ -134,8 +134,6 @@ function EquipSuitMainLayer:initUI(ui)
     self.Label_title:setTextById(490022)
     self.Image_arrow = TFDirector:getChildByName(self.Button_open,"Image_arrow")
 
-    self.Button_jinjie    = TFDirector:getChildByPath(self.Panel_di,"Button_jinjie"):hide()
-    self.Image_JinjieredTip = TFDirector:getChildByPath(self.Button_jinjie,"Image_redTip"):hide()
 
     self.Button_qianghua    = TFDirector:getChildByPath(self.Panel_di,"Button_qianghua")
     self.Image_redTip = TFDirector:getChildByPath(self.Button_qianghua,"Image_redTip"):hide()

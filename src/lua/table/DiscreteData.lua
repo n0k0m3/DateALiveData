@@ -656,8 +656,7 @@ return {
         id = 46013,
         data = {
             sort = {
-                [1] = 1,
-                [2] = 2,
+                [1] = 2,
             },
             defaultSelect = 2,
         },

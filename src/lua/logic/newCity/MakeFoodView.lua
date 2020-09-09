@@ -12,6 +12,7 @@ function MakeFoodView:initData()
     self.MaterialsItem_ = {}
     self.ability = {}
 	self.menuItem_ = {}
+	self.allQuicklyMsg = {}
 
     self.maxType = 3
     self.maxMaterialsCnt = 5
@@ -841,6 +842,8 @@ end
 
 function MakeFoodView:onCountDownPer()
 
+
+
     if not self.choosedFood or not self.choosedFood.qte then
     	return
     end
@@ -867,7 +870,7 @@ function MakeFoodView:onCountDownPer()
 	print("startQTE:",self.score,self.curTime,self.qteIndex)
 	self:startQTE(self.qteIndex)	
 	print("self.endCookTime:",self.endCookTime,ServerDataMgr:getServerTime())
-	if self.endCookTime <= ServerDataMgr:getServerTime() then
+	if self.endCookTime <= ServerDataMgr:getServerTime() and #self.allQuicklyMsg <=0 then
 
 		--避免后台没有加上update的时间
 		if self.score < self.choosedFood.cooktime then
@@ -922,6 +925,14 @@ function MakeFoodView:startQTE(qteIndex)
 			self:endTouchQte(self.qteType)
 		else
 			self:setQteVisible(self.qteType,false)
+			if self.qteType == self.enumQteType.QuickClick then
+				if #self.allQuicklyMsg > 0 then
+					for k , v in pairs(self.allQuicklyMsg ) do
+						TFDirector:send(c2s.NEW_BUILDING_REQ_UPLOAD_QTE_INTEGRAL, v)
+					end
+					self.allQuicklyMsg = {}
+				end
+			end
 		end
 
 		if self.Image_hand:isVisible() then		
@@ -970,7 +981,6 @@ function MakeFoodView:setQteVisible(qteType,visible,effectName)
 end
 
 function MakeFoodView:beginTouchQte(qteType)
-
 	if not self.cookQte[qteType] then
 		return
 	end
@@ -1026,12 +1036,14 @@ function MakeFoodView:beginTouchQte(qteType)
 			self.Spine_qte:setVisible(true)
 		end
 		self.Spine_qte:play("effect_Key_0",false)
+
 		local msg = {
 			self.choosedFood.id,
 			self.qteType,
 			pointTab[1],
 		}
-		TFDirector:send(c2s.NEW_BUILDING_REQ_UPLOAD_QTE_INTEGRAL, msg)
+		table.insert(self.allQuicklyMsg , msg)
+		
 	end
 end
 
@@ -1041,6 +1053,7 @@ function MakeFoodView:removeClickTimer()
 	    self.clickTimer = nil;
 	end
 end
+
 
 --结束长按
 function MakeFoodView:endTouchQte(qteType)

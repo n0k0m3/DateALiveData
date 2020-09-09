@@ -25,7 +25,7 @@ local OSDLevelEntranceView = class("OSDLevelEntranceView",BaseLayer)
 function OSDLevelEntranceView:ctor( data )
 	self.super.ctor(self,data)
 	self.highTeamDungeonLevel = TabDataMgr:getData("HighTeamDungeonLevel")
-	self:init("lua.uiconfig.osd.entrance")
+	self:init("lua.uiconfig.osd.Entrance")
 end
 
 function OSDLevelEntranceView:removeUI( )

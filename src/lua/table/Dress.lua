@@ -1008,6 +1008,7 @@ return {
         roleModel = 210308,
         icon = "icon/role/dress_kanban/10308.png",
         accessId = {
+            [1] = 303,
         },
         totalMax = 1,
     },
@@ -2546,6 +2547,7 @@ return {
         roleModel = 210508,
         icon = "icon/role/dress_kanban/10509.png",
         accessId = {
+            [1] = 303,
         },
         totalMax = 1,
     },

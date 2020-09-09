@@ -736,14 +736,6 @@ function SettingsView:initPanelBattle()
     local panel_battle_roke = TFDirector:getChildByPath(self.Panel_battle, "Panel_roke")
     local Panel_common = TFDirector:getChildByPath(self.Panel_battle, "Panel_common")
     
-    --屏蔽同屏人数选项屏蔽
-    Panel_common:hide()
-    local pos1 = Panel_common:getPosition()
-    local pos2 = panel_battle_fps:getPosition()
-    local pos3 = panel_battle_roke:getPosition()
-    panel_battle_fps:setPosition(pos1)
-    panel_battle_roke:setPosition(pos2)
-
 
 
     local Panel_redPack = TFDirector:getChildByPath(self.Panel_battle, "Panel_redPack")

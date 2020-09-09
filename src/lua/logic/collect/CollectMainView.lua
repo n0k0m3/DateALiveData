@@ -25,13 +25,7 @@ function CollectMainView:initUI(ui)
 	self.medal_panel = root_panel:getChildByName("Panel_enter_medal")
 	self.Panel_enter_scene = root_panel:getChildByName("Panel_enter_scene")
 
-	--暂时添加屏蔽图片
-	for k ,v in pairs(self.token_panel:getChildren() ) do
-		v:hide()
-	end
-	local lockImage = TFImage:create("ui/collect/TJ_EQUIP_NULL.png")
-	lockImage:setPositionY(5)
-	self.token_panel:addChild(lockImage , 9999)
+	
 end
 
 function CollectMainView:commonUpdateInfo(tarnode,pageType)
@@ -41,10 +35,7 @@ function CollectMainView:commonUpdateInfo(tarnode,pageType)
 	tarnode:getChildByName("Label_percent_value"):setString(tostring(param.percent))
 	tarnode:getChildByName("Label_trophy_value"):setString(tostring(param.trophy))
 
-	--暂时屏蔽信物红点
-	if pageType == EC_CollectPage.TOKEN then
-		isShowRed = false
-	end
+	
 	tarnode:getChildByName("Image_reddot"):setVisible(isShowRed)
 end
 
@@ -160,8 +151,6 @@ function CollectMainView:registerEvents()
 		Utils:openView("collect.CollectSpriteView")
 	end)
 	self.token_panel:onClick(function()
-		--暂时屏蔽
-		if true then return  end
 		if CollectDataMgr:checkPageCanEnter(EC_CollectPage.TOKEN) == false then
 			Utils:showTips(241009)
 			return

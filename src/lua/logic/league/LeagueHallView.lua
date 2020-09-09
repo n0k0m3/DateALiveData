@@ -356,8 +356,8 @@ function LeagueHallView:updateMemberItem(item, data)
     if data.online then
         Label_state:setTextById(270446)
     else
-        local nowDate = Utils:getUTCDate(ServerDataMgr:getServerTime())
-        local lastLoginDate = Utils:getUTCDate(data.lastLoginTime / 1000)
+        local nowDate = Utils:getUTCDate(ServerDataMgr:getServerTime() ,GV_UTC_TIME_ZONE)
+        local lastLoginDate = Utils:getUTCDate(data.lastLoginTime / 1000 , GV_UTC_TIME_ZONE)
         local diffDate = TFDate.diff(nowDate, lastLoginDate)
         local day = diffDate:spandays()
         local hour = diffDate:spanhours() + day * 24

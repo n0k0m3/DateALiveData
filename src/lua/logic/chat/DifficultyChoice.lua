@@ -4,7 +4,7 @@ local DifficultyChoice = class("DifficultyChoice", BaseLayer)
 function DifficultyChoice:ctor(params)
     self.super.ctor(self)
     self:showPopAnim(true)
-    self.iconRes = {"D.png","C.png","B.png","A.png","S.png","blackwhite.png"}
+    self.iconRes = {"D.png","C.png","B.png","A.png","S.png",--[["blackwhite.png"]]}
     self:init("lua.uiconfig.chat.difficultyChoice")
 end
 

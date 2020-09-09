@@ -158,14 +158,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "28",
+									fontSize = "22",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "26",
 									ignoreSize = "True",
 									name = "Label_name",
 									nTextAlign = "1",
@@ -182,7 +182,7 @@ local t =
 										PositionX = -254,
 										PositionY = 130,
 									},
-									width = "114",
+									width = "161",
 									ZOrder = "1",
 								},
 								{
@@ -234,14 +234,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "19",
 									ignoreSize = "True",
 									name = "Label_remain",
 									nTextAlign = "1",
@@ -258,7 +258,7 @@ local t =
 										PositionX = -241,
 										PositionY = -124,
 									},
-									width = "91",
+									width = "110",
 									ZOrder = "1",
 								},
 								{
@@ -280,14 +280,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "26",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "32",
+									height = "24",
 									ignoreSize = "True",
 									name = "Label_remainCount",
 									nTextAlign = "1",
@@ -301,10 +301,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -139,
+										PositionX = -116,
 										PositionY = -122,
 									},
-									width = "26",
+									width = "16",
 									ZOrder = "1",
 								},
 								{
@@ -381,7 +381,7 @@ local t =
 											{
 												
 											},
-											width = "54",
+											width = "87",
 											ZOrder = "1",
 										},
 									},
@@ -550,7 +550,7 @@ local t =
 														StrokeColor = "#FF3C4664",
 														StrokeSize = 1,
 													},
-													height = "64",
+													height = "62",
 													ignoreSize = "True",
 													name = "Label_count_normal",
 													nTextAlign = "1",
@@ -567,7 +567,7 @@ local t =
 													{
 														
 													},
-													width = "29",
+													width = "28",
 													ZOrder = "1",
 												},
 											},
@@ -626,7 +626,7 @@ local t =
 														StrokeColor = "#FF722C40",
 														StrokeSize = 1,
 													},
-													height = "64",
+													height = "62",
 													ignoreSize = "True",
 													name = "Label_count_select",
 													nTextAlign = "1",
@@ -642,7 +642,7 @@ local t =
 													{
 														
 													},
-													width = "29",
+													width = "28",
 													ZOrder = "1",
 												},
 												{
@@ -725,7 +725,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "62",
+													height = "60",
 													ignoreSize = "True",
 													name = "Label_count_disable",
 													nTextAlign = "1",
@@ -840,7 +840,7 @@ local t =
 														StrokeColor = "#FF3C4664",
 														StrokeSize = 1,
 													},
-													height = "64",
+													height = "62",
 													ignoreSize = "True",
 													name = "Label_count_normal",
 													nTextAlign = "1",
@@ -857,7 +857,7 @@ local t =
 													{
 														
 													},
-													width = "29",
+													width = "28",
 													ZOrder = "1",
 												},
 											},
@@ -916,7 +916,7 @@ local t =
 														StrokeColor = "#FF722C40",
 														StrokeSize = 1,
 													},
-													height = "64",
+													height = "62",
 													ignoreSize = "True",
 													name = "Label_count_select",
 													nTextAlign = "1",
@@ -932,7 +932,7 @@ local t =
 													{
 														
 													},
-													width = "29",
+													width = "28",
 													ZOrder = "1",
 												},
 												{
@@ -1015,7 +1015,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "62",
+													height = "60",
 													ignoreSize = "True",
 													name = "Label_count_disable",
 													nTextAlign = "1",
@@ -1129,7 +1129,7 @@ local t =
 														StrokeColor = "#FF3C4664",
 														StrokeSize = 1,
 													},
-													height = "64",
+													height = "62",
 													ignoreSize = "True",
 													name = "Label_count_normal",
 													nTextAlign = "1",
@@ -1146,7 +1146,7 @@ local t =
 													{
 														
 													},
-													width = "29",
+													width = "28",
 													ZOrder = "1",
 												},
 											},
@@ -1205,7 +1205,7 @@ local t =
 														StrokeColor = "#FF722C40",
 														StrokeSize = 1,
 													},
-													height = "64",
+													height = "62",
 													ignoreSize = "True",
 													name = "Label_count_select",
 													nTextAlign = "1",
@@ -1221,7 +1221,7 @@ local t =
 													{
 														
 													},
-													width = "29",
+													width = "28",
 													ZOrder = "1",
 												},
 												{
@@ -1304,7 +1304,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "62",
+													height = "60",
 													ignoreSize = "True",
 													name = "Label_count_disable",
 													nTextAlign = "1",
@@ -1419,7 +1419,7 @@ local t =
 														StrokeColor = "#FF3C4664",
 														StrokeSize = 1,
 													},
-													height = "64",
+													height = "62",
 													ignoreSize = "True",
 													name = "Label_count_normal",
 													nTextAlign = "1",
@@ -1436,7 +1436,7 @@ local t =
 													{
 														
 													},
-													width = "29",
+													width = "28",
 													ZOrder = "1",
 												},
 											},
@@ -1495,7 +1495,7 @@ local t =
 														StrokeColor = "#FF722C40",
 														StrokeSize = 1,
 													},
-													height = "64",
+													height = "62",
 													ignoreSize = "True",
 													name = "Label_count_select",
 													nTextAlign = "1",
@@ -1511,7 +1511,7 @@ local t =
 													{
 														
 													},
-													width = "29",
+													width = "28",
 													ZOrder = "1",
 												},
 												{
@@ -1594,7 +1594,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "62",
+													height = "60",
 													ignoreSize = "True",
 													name = "Label_count_disable",
 													nTextAlign = "1",
@@ -1709,7 +1709,7 @@ local t =
 														StrokeColor = "#FF3C4664",
 														StrokeSize = 1,
 													},
-													height = "64",
+													height = "62",
 													ignoreSize = "True",
 													name = "Label_count_normal",
 													nTextAlign = "1",
@@ -1726,7 +1726,7 @@ local t =
 													{
 														
 													},
-													width = "29",
+													width = "28",
 													ZOrder = "1",
 												},
 											},
@@ -1785,7 +1785,7 @@ local t =
 														StrokeColor = "#FF722C40",
 														StrokeSize = 1,
 													},
-													height = "64",
+													height = "62",
 													ignoreSize = "True",
 													name = "Label_count_select",
 													nTextAlign = "1",
@@ -1801,7 +1801,7 @@ local t =
 													{
 														
 													},
-													width = "29",
+													width = "28",
 													ZOrder = "1",
 												},
 												{
@@ -1884,7 +1884,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "62",
+													height = "60",
 													ignoreSize = "True",
 													name = "Label_count_disable",
 													nTextAlign = "1",

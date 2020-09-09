@@ -153,7 +153,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "64",
+									height = "2",
 									ignoreSize = "True",
 									name = "Image_b2(2)",
 									sizepercentx = "0",
@@ -168,7 +168,7 @@ local t =
 										IsPercent = true,
 										PercentX = -50,
 									},
-									width = "64",
+									width = "2",
 									ZOrder = "1",
 								},
 							},
@@ -1282,7 +1282,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "30",
+													height = "29",
 													ignoreSize = "True",
 													name = "Label_name",
 													nTextAlign = "1",
@@ -1297,9 +1297,9 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = 15,
-														PositionY = 21,
+														PositionY = 19,
 													},
-													width = "102",
+													width = "138",
 													ZOrder = "1",
 												},
 												{
@@ -1344,7 +1344,8 @@ local t =
 													{
 														PositionX = 15,
 													},
-													width = "83",
+													visible = "False",
+													width = "84",
 													ZOrder = "1",
 												},
 												{
@@ -1668,7 +1669,7 @@ local t =
 													{
 														
 													},
-													width = "99",
+													width = "67",
 													ZOrder = "1",
 												},
 											},
@@ -1752,7 +1753,7 @@ local t =
 													{
 														
 													},
-													width = "57",
+													width = "82",
 													ZOrder = "1",
 												},
 											},
@@ -1836,7 +1837,7 @@ local t =
 													{
 														
 													},
-													width = "57",
+													width = "58",
 													ZOrder = "1",
 												},
 											},
@@ -1963,18 +1964,18 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "22",
+													fontSize = "15",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "Label_name",
 													nTextAlign = "1",
-													nTextHAlign = "1",
+													nTextHAlign = "0",
 													sizepercentx = "0",
 													sizepercenty = "0",
 													sizeType = "0",
@@ -1987,7 +1988,7 @@ local t =
 														PositionX = 8,
 														PositionY = 99,
 													},
-													width = "91",
+													width = "203",
 													ZOrder = "1",
 												},
 												{
@@ -2065,7 +2066,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "20",
+													fontSize = "18",
 													fontStroke = 
 													{
 														IsStroke = false,
@@ -2270,15 +2271,15 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "22",
+															fontSize = "15",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "25",
-															ignoreSize = "True",
+															height = "0",
+															ignoreSize = "False",
 															name = "Label_skill_name",
 															nTextAlign = "1",
 															nTextHAlign = "1",
@@ -2286,14 +2287,14 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
-															text = "Attack",
+															text = "Attack AttackAttack",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
 																PositionY = -48,
 															},
-															width = "47",
+															width = "83",
 															ZOrder = "1",
 														},
 													},
@@ -2372,15 +2373,15 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "22",
+															fontSize = "15",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "25",
-															ignoreSize = "True",
+															height = "0",
+															ignoreSize = "False",
 															name = "Label_skill_name",
 															nTextAlign = "1",
 															nTextHAlign = "1",
@@ -2388,14 +2389,14 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
-															text = "Attack",
+															text = "Attack AttackAttack",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
 																PositionY = -48,
 															},
-															width = "47",
+															width = "83",
 															ZOrder = "1",
 														},
 													},
@@ -2474,15 +2475,15 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "22",
+															fontSize = "15",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "25",
-															ignoreSize = "True",
+															height = "0",
+															ignoreSize = "False",
 															name = "Label_skill_name",
 															nTextAlign = "1",
 															nTextHAlign = "1",
@@ -2490,14 +2491,14 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
-															text = "Attack",
+															text = "Attack AttackAttack",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
 																PositionY = -48,
 															},
-															width = "47",
+															width = "83",
 															ZOrder = "1",
 														},
 													},

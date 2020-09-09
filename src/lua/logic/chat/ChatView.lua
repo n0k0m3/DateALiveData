@@ -2036,12 +2036,11 @@ function ChatView:setSelectChanel(chatType)
         self:reloadData()
     end
 
-    -- if self.chatType == EC_ChatType.TEAM_YQ then
-    --     self.Button_filter:show()
-    -- else
-    --     self.Button_filter:hide()
-    -- end
-    self.Button_filter:hide()
+    if self.chatType == EC_ChatType.TEAM_YQ then
+        self.Button_filter:show()
+    else
+        self.Button_filter:hide()
+    end
 end
 
 --接收到新的聊天消息

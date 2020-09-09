@@ -153,7 +153,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "64",
+									height = "2",
 									ignoreSize = "True",
 									name = "Image_b2(2)",
 									sizepercentx = "0",
@@ -168,7 +168,7 @@ local t =
 										IsPercent = true,
 										PercentX = -50,
 									},
-									width = "64",
+									width = "2",
 									ZOrder = "1",
 								},
 							},
@@ -1049,14 +1049,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "27",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "33",
+											height = "24",
 											ignoreSize = "True",
 											name = "label_compose",
 											nTextAlign = "1",
@@ -1071,9 +1071,8 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = -1,
-												PositionY = -3,
 											},
-											width = "55",
+											width = "61",
 											ZOrder = "1",
 										},
 										{
@@ -1162,14 +1161,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "18",
+									fontSize = "15",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "22",
+									height = "18",
 									ignoreSize = "True",
 									name = "label_text",
 									nTextAlign = "1",
@@ -1183,9 +1182,9 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -8,
+										PositionX = -1,
 									},
-									width = "75",
+									width = "84",
 									ZOrder = "1",
 								},
 							},
@@ -1242,14 +1241,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "18",
+									fontSize = "15",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "22",
+									height = "18",
 									ignoreSize = "True",
 									name = "label_text",
 									nTextAlign = "1",
@@ -1263,9 +1262,9 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -8,
+										PositionX = -1,
 									},
-									width = "75",
+									width = "122",
 									ZOrder = "1",
 								},
 							},
@@ -1491,7 +1490,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "24",
 											ignoreSize = "True",
 											name = "Label_attr_title",
 											nTextAlign = "1",
@@ -1508,7 +1507,7 @@ local t =
 												PositionX = 7,
 												PositionY = -2,
 											},
-											width = "84",
+											width = "142",
 											ZOrder = "1",
 										},
 									},
@@ -1532,14 +1531,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = true,
 										StrokeColor = "#FFE8CE22",
 										StrokeSize = 2,
 									},
-									height = "31",
+									height = "26",
 									ignoreSize = "True",
 									name = "Label_choose",
 									nTextAlign = "1",
@@ -1553,17 +1552,17 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 297,
+										PositionX = 300,
 										PositionY = 508,
 									},
-									width = "49",
+									width = "58",
 									ZOrder = "1",
 								},
 								{
 									controlID = "Label_choose1_Panel_right_panel_base_Panel-baoshiSpecialComposeView_Layer1_fairyNew_Game",
 									UUID = "d4ab21bc_b632_4803_bbb0_eb12b38d334e",
 									anchorPoint = "False",
-									anchorPointX = "0.5",
+									anchorPointX = "1",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -1578,14 +1577,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "22",
 									ignoreSize = "True",
 									name = "Label_choose1",
 									nTextAlign = "1",
@@ -1599,17 +1598,17 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 244,
+										PositionX = 260,
 										PositionY = 508,
 									},
-									width = "43",
+									width = "70",
 									ZOrder = "1",
 								},
 								{
 									controlID = "Label_choose2_Panel_right_panel_base_Panel-baoshiSpecialComposeView_Layer1_fairyNew_Game",
 									UUID = "254e323d_1d1c_4d96_be85_a9a9cac39c80",
 									anchorPoint = "False",
-									anchorPointX = "0.5",
+									anchorPointX = "0",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -1624,14 +1623,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "22",
 									ignoreSize = "True",
 									name = "Label_choose2",
 									nTextAlign = "1",
@@ -1645,10 +1644,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 349,
+										PositionX = 348,
 										PositionY = 508,
 									},
-									width = "43",
+									width = "45",
 									ZOrder = "1",
 								},
 								{
@@ -1751,7 +1750,7 @@ local t =
 											{
 												PositionX = -29,
 											},
-											width = "129",
+											width = "164",
 											ZOrder = "1",
 										},
 									},
@@ -1830,7 +1829,7 @@ local t =
 											{
 												
 											},
-											width = "53",
+											width = "56",
 											ZOrder = "1",
 										},
 									},

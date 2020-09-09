@@ -194,7 +194,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "35",
+							height = "34",
 							ignoreSize = "True",
 							name = "Label_title",
 							nTextAlign = "1",
@@ -211,7 +211,7 @@ local t =
 								PositionX = -495,
 								PositionY = 227,
 							},
-							width = "142",
+							width = "201",
 							ZOrder = "1",
 						},
 						{
@@ -237,6 +237,7 @@ local t =
 								PositionX = -342,
 								PositionY = 231,
 							},
+							visible = "False",
 							width = "4",
 							ZOrder = "1",
 							components = 
@@ -409,15 +410,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "22",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_start",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -430,9 +431,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = 5,
+												PositionY = -3,
 											},
-											width = "107",
+											width = "154",
 											ZOrder = "1",
 										},
 										{
@@ -477,6 +478,7 @@ local t =
 											{
 												PositionY = -20,
 											},
+											visible = "False",
 											width = "68",
 											ZOrder = "1",
 										},
@@ -536,15 +538,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "22",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_start",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -557,9 +559,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = 5,
+												PositionY = -3,
 											},
-											width = "107",
+											width = "154",
 											ZOrder = "1",
 										},
 										{
@@ -604,6 +606,7 @@ local t =
 											{
 												PositionY = -20,
 											},
+											visible = "False",
 											width = "80",
 											ZOrder = "1",
 										},
@@ -745,14 +748,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "40",
+									fontSize = "30",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "50",
+									height = "36",
 									ignoreSize = "True",
 									name = "Label_complete",
 									nTextAlign = "1",
@@ -769,7 +772,7 @@ local t =
 										PositionX = 386,
 										PositionY = 215,
 									},
-									width = "282",
+									width = "479",
 									ZOrder = "1",
 								},
 							},
@@ -800,11 +803,11 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "23",
-							ignoreSize = "True",
+							height = "0",
+							ignoreSize = "False",
 							name = "Label_tip",
 							nTextAlign = "1",
-							nTextHAlign = "1",
+							nTextHAlign = "0",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
@@ -817,7 +820,7 @@ local t =
 								PositionX = -443,
 								PositionY = -229,
 							},
-							width = "123",
+							width = "555",
 							ZOrder = "1",
 						},
 						{
@@ -972,7 +975,7 @@ local t =
 										PositionX = 141,
 										PositionY = 42,
 									},
-									width = "69",
+									width = "105",
 									ZOrder = "1",
 								},
 								{
@@ -1183,7 +1186,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "32",
+									height = "31",
 									ignoreSize = "True",
 									name = "Label_progress_value",
 									nTextAlign = "1",
@@ -1200,14 +1203,14 @@ local t =
 										PositionX = 141,
 										PositionY = 222,
 									},
-									width = "51",
+									width = "43",
 									ZOrder = "1",
 								},
 								{
 									controlID = "Label_progress_Panel_task1_Panel_prefab_Panel-TaskLayer_group_osd_Game",
 									UUID = "daa8d81f_1dc3_46be_9a7d_5c4e230ac5c1",
 									anchorPoint = "False",
-									anchorPointX = "0.5",
+									anchorPointX = "1",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -1243,10 +1246,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 252,
+										PositionX = 272,
 										PositionY = 220,
 									},
-									width = "47",
+									width = "83",
 									ZOrder = "1",
 								},
 								{
@@ -1268,7 +1271,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -1342,14 +1345,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FF419DBB",
 												StrokeSize = 1,
 											},
-											height = "29",
+											height = "24",
 											ignoreSize = "True",
 											name = "Label_task_name",
 											nTextAlign = "1",
@@ -1365,7 +1368,7 @@ local t =
 											{
 												
 											},
-											width = "92",
+											width = "114",
 											ZOrder = "1",
 										},
 									},
@@ -1422,15 +1425,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_name",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -1445,7 +1448,7 @@ local t =
 											{
 												
 											},
-											width = "51",
+											width = "108",
 											ZOrder = "1",
 										},
 									},
@@ -1534,7 +1537,7 @@ local t =
 										PositionX = 141,
 										PositionY = 42,
 									},
-									width = "69",
+									width = "105",
 									ZOrder = "1",
 								},
 								{
@@ -1745,7 +1748,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "32",
+									height = "31",
 									ignoreSize = "True",
 									name = "Label_progress_value",
 									nTextAlign = "1",
@@ -1762,14 +1765,14 @@ local t =
 										PositionX = 141,
 										PositionY = 222,
 									},
-									width = "51",
+									width = "43",
 									ZOrder = "1",
 								},
 								{
 									controlID = "Label_progress_Panel_task2_Panel_prefab_Panel-TaskLayer_group_osd_Game",
 									UUID = "046e34a9_b27a_4913_84e3_376d938d5e8f",
 									anchorPoint = "False",
-									anchorPointX = "0.5",
+									anchorPointX = "1",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -1805,10 +1808,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 252,
+										PositionX = 272,
 										PositionY = 220,
 									},
-									width = "47",
+									width = "83",
 									ZOrder = "1",
 								},
 								{
@@ -1830,7 +1833,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -1904,14 +1907,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FFC49728",
 												StrokeSize = 1,
 											},
-											height = "29",
+											height = "24",
 											ignoreSize = "True",
 											name = "Label_task_name",
 											nTextAlign = "1",
@@ -1927,7 +1930,7 @@ local t =
 											{
 												
 											},
-											width = "92",
+											width = "114",
 											ZOrder = "1",
 										},
 									},
@@ -1984,15 +1987,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_name",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -2007,7 +2010,7 @@ local t =
 											{
 												
 											},
-											width = "51",
+											width = "108",
 											ZOrder = "1",
 										},
 									},

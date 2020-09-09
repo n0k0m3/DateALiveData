@@ -201,7 +201,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "35",
+							height = "34",
 							ignoreSize = "True",
 							name = "Label_title",
 							nTextAlign = "1",
@@ -218,7 +218,7 @@ local t =
 								PositionX = 312,
 								PositionY = 432,
 							},
-							width = "114",
+							width = "181",
 							ZOrder = "1",
 						},
 						{
@@ -289,7 +289,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "64",
+									height = "2",
 									ignoreSize = "True",
 									name = "Image_skill_icon",
 									scaleX = "0.8",
@@ -304,7 +304,7 @@ local t =
 									{
 										PositionX = -2,
 									},
-									width = "64",
+									width = "2",
 									ZOrder = "1",
 								},
 								{
@@ -326,14 +326,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_skill_name",
 									nTextAlign = "1",
@@ -349,7 +349,7 @@ local t =
 									{
 										PositionY = -80,
 									},
-									width = "99",
+									width = "90",
 									ZOrder = "1",
 								},
 							},
@@ -373,7 +373,7 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "22",
+							fontSize = "20",
 							fontStroke = 
 							{
 								IsStroke = false,

@@ -91,4 +91,34 @@ return {
             chance = 1,
         },
     },
+    [9] = {
+        type = 1,
+        privilegeId = 101,
+        id = 9,
+        describe = 14300349,
+        privilege = {
+            chance = 1,
+        },
+    },
+    [10] = {
+        type = 1,
+        privilegeId = 109,
+        id = 10,
+        describe = 14300357,
+        privilege = {
+            dungeonType = {
+                [9] = {
+                    [10] = {
+                        [1] = 1,
+                    },
+                },
+                [17] = {
+                    [10] = {
+                        [1] = 1,
+                    },
+                },
+            },
+            chance = 1,
+        },
+    },
 }

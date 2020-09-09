@@ -68,12 +68,12 @@ function BagView:initData(mainSelectIndex, selectIndex)
             category = EC_BagCategory.ITEM,
 			
         },
-        -- {
-        --     txt = 225007,
-        --     iconImg = "ui/fairy/new_ui/tab_6.png",
-        --     bag = {EC_Bag.NEWEQUIP},
-        --     category = EC_BagCategory.NEWEQUIP,
-        -- },
+        {
+            txt = 225007,
+            iconImg = "ui/fairy/new_ui/tab_6.png",
+            bag = {EC_Bag.NEWEQUIP},
+            category = EC_BagCategory.NEWEQUIP,
+        },
         --{
         --    txt = 301023,
         --    iconImg = "ui/fairy/new_ui/tab_7.png",
@@ -81,13 +81,13 @@ function BagView:initData(mainSelectIndex, selectIndex)
         --    category = EC_BagCategory.TRAILCARD,
         --    sellType = EC_BagSellType.SINGLESELECT,
         --},
-        -- {
-        --     txt = 1100001,
-        --     iconImg = "ui/fairy/new_ui/tab_8.png",
-        --     bag = {EC_Bag.BAOSHI},
-        --     category = EC_BagCategory.BAOSHI,
-        --     sellType = EC_BagSellType.MULTISELECT,
-        -- },
+        {
+            txt = 1100001,
+            iconImg = "ui/fairy/new_ui/tab_8.png",
+            bag = {EC_Bag.BAOSHI},
+            category = EC_BagCategory.BAOSHI,
+            sellType = EC_BagSellType.MULTISELECT,
+        },
         
     }
 

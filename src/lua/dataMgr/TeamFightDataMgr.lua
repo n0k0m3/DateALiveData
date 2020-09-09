@@ -446,8 +446,8 @@ function TeamFightDataMgr:requestInformPlayer(info)
     TFDirector:send(c2s.TEAM_REQ_CHASM_REPORT,info)
 end
 
---//请求创建队伍
-function TeamFightDataMgr:requestCreateTeam( nTeamType,nBattleId,visibleType,limitLevel,isAutoMatch,costItemId)      --@nTeamType 队伍类型 @nBattleId副本id
+---//请求创建队伍
+function TeamFightDataMgr:requestCreateTeam( nTeamType,nBattleId,costItemId)      --@nTeamType 队伍类型 @nBattleId副本id
     -- body
 
     self:reset()
@@ -459,12 +459,9 @@ function TeamFightDataMgr:requestCreateTeam( nTeamType,nBattleId,visibleType,lim
     }
     self.nTeamType = nTeamType
     self.nBattleId = nBattleId
-
-    costItemId = costItemId or ""
-	print("=====================================send c2s.TEAM_REQ_CREATE_TEAM")
-    TFDirector:send(c2s.TEAM_REQ_CREATE_TEAM, {enterMsg,costItemId,visibleType,limitLevel,isAutoMatch})
+    print("=====================================send c2s.TEAM_REQ_CREATE_TEAM")
+    TFDirector:send(c2s.TEAM_REQ_CREATE_TEAM, {enterMsg,costItemId})
 end
-
 --//请求变更队伍状态（是否开启自动匹配队员）
 function TeamFightDataMgr:requestChangeTeamStatus( nTeamStatus )            --@nTeamStatus 是否开启队伍自动匹配 1:off 2:on
     -- body
@@ -899,7 +896,7 @@ function TeamFightDataMgr:installTeamInfo( data )
     self.visibleType     = data.show_type   or 0
     self.minLv           = data.level_limit or 1
 
-    local defaultValue   = self.nTeamType ~= EC_NetTeamType.FuShi
+    local defaultValue   = true
 
     self.showInRoom = data.open == nil and defaultValue or data.open
     if self.nLeaderId ~= nil and self.nLeaderId ~= 0 and self.nLeaderId ~= data.leaderPid then
@@ -1212,8 +1209,9 @@ function TeamFightDataMgr:Send_getTeamRoomInfo(teamType)
     TFDirector:send(c2s.TEAM_REQ_ALL_TEAM_INFO, {teamType,0})
 end
 
-function TeamFightDataMgr:Send_ChangeTeamShowType(show_type)
-    TFDirector:send(c2s.TEAM_REQ_SET_TEAM_SHOW_TYPE, {show_type})
+function TeamFightDataMgr:Send_showRoomList(isOpen)
+    self.serverIsOpen = isOpen
+    TFDirector:send(c2s.TEAM_REQ_SET_TEAM_SHOW_TYPE, {isOpen})
 end
 
 function TeamFightDataMgr:onRecvRoomInfo(event)

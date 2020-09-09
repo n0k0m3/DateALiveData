@@ -94,7 +94,7 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "640",
+							height = "2",
 							ignoreSize = "True",
 							name = "Image_baoshiSortChooseView_1",
 							sizepercentx = "0",
@@ -114,7 +114,7 @@ local t =
 								TopPosition = 608,
 								relativeToName = "Panel",
 							},
-							width = "1386",
+							width = "2",
 							ZOrder = "1",
 						},
 						{
@@ -233,7 +233,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "35",
+							height = "34",
 							ignoreSize = "True",
 							name = "Label_title",
 							nTextAlign = "1",
@@ -250,7 +250,7 @@ local t =
 								PositionX = 212,
 								PositionY = 484,
 							},
-							width = "117",
+							width = "160",
 							ZOrder = "1",
 						},
 						{
@@ -328,7 +328,7 @@ local t =
 									{
 										
 									},
-									width = "99",
+									width = "81",
 									ZOrder = "1",
 								},
 							},
@@ -418,7 +418,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "34",
 									ignoreSize = "True",
 									name = "Label_normal",
 									nTextAlign = "1",
@@ -434,7 +434,7 @@ local t =
 									{
 										PositionX = -307,
 									},
-									width = "113",
+									width = "225",
 									ZOrder = "1",
 								},
 								{
@@ -480,6 +480,7 @@ local t =
 										PositionX = -150,
 										PositionY = -5,
 									},
+									visible = "False",
 									width = "82",
 									ZOrder = "1",
 								},
@@ -539,7 +540,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "34",
 									ignoreSize = "True",
 									name = "Label_extra",
 									nTextAlign = "1",
@@ -555,7 +556,7 @@ local t =
 									{
 										PositionX = -307,
 									},
-									width = "113",
+									width = "199",
 									ZOrder = "1",
 								},
 								{
@@ -601,6 +602,7 @@ local t =
 										PositionX = -150,
 										PositionY = -5,
 									},
+									visible = "False",
 									width = "66",
 									ZOrder = "1",
 								},

@@ -53,14 +53,14 @@ function FubenChapterView:initData(fubenType, selectChapter, theaterId)
         data = FubenDataMgr:getChapter(EC_FBType.HOLIDAY),
         showTime = false,
     }
-    -- local theater = {
-    --     type_ = EC_FBType.THEATER,
-    --     icon = "ui/fuben/icon_juchang.png",
-    --     name = 300964,
-    --     selector = handler(self.flushTheater, self),
-    --     data = FubenDataMgr:getChapter(EC_FBType.THEATER),
-    --     showTime = false,
-    -- }
+    local theater = {
+        type_ = EC_FBType.THEATER,
+        icon = "ui/fuben/icon_juchang.png",
+        name = 300964,
+        selector = handler(self.flushTheater, self),
+        data = FubenDataMgr:getChapter(EC_FBType.THEATER),
+        showTime = false,
+    }
 
     local linkage = {
         type_ = EC_FBType.LINKAGE,

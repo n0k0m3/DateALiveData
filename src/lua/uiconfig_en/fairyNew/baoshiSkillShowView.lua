@@ -241,7 +241,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "35",
+							height = "34",
 							ignoreSize = "True",
 							name = "Label_title",
 							nTextAlign = "1",
@@ -258,7 +258,7 @@ local t =
 								PositionX = 211,
 								PositionY = 471,
 							},
-							width = "113",
+							width = "199",
 							ZOrder = "1",
 						},
 						{
@@ -431,14 +431,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_skill_name",
 									nTextAlign = "1",
@@ -455,7 +455,7 @@ local t =
 										PositionX = 84,
 										PositionY = 80,
 									},
-									width = "99",
+									width = "90",
 									ZOrder = "1",
 								},
 								{
@@ -477,7 +477,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "18",
+									fontSize = "15",
 									fontStroke = 
 									{
 										IsStroke = false,

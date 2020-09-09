@@ -36,8 +36,7 @@ function NewDatingDayView:initUI(ui)
     self.Panel_info.infoDi = TFDirector:getChildByPath(self.ui, "Image_infoDi")
     self.Panel_info.infoDi.savePos = self.Panel_info.infoDi:Pos()
 
-    --屏蔽日常约会奖励
-    --self:loadingReward()
+    self:loadingReward()
     self:initTableView()
     self:tableCellTouched(true)
     self:initOther()

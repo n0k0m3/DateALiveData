@@ -15155,7 +15155,7 @@ local t =
 																		OffsetX = 0,
 																		OffsetY = 0,
 																	},
-																	fontSize = "18",
+																	fontSize = "15",
 																	fontStroke = 
 																	{
 																		IsStroke = false,
@@ -15171,14 +15171,14 @@ local t =
 																	sizepercenty = "0",
 																	sizeType = "0",
 																	srcBlendFunc = "770",
-																	text = "Bonds Keepsake",
+																	text = "Keepsake",
 																	touchAble = "False",
 																	touchScaleEnable = "False",
 																	UILayoutViewModel = 
 																	{
 																		
 																	},
-																	width = "60",
+																	width = "67",
 																	ZOrder = "1",
 																},
 															},

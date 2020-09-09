@@ -330,12 +330,23 @@ function ChatDataMgr:checkChatInfo(chatInfo)
 end
 
 function ChatDataMgr:filteChatInfo()
+    self.datas.customRemoveMsg = self.datas.customRemoveMsg or {}
+    --self.datas.customRemoveMsg 相关为修复符石挑战切换难度无法显示之前曾经的邀请bug 2020-09-07
+    if #self.datas.customRemoveMsg > 0 then
+        for k ,v in pairs(self.datas.customRemoveMsg) do
+           table.insert(self.datas[EC_ChatType.TEAM_YQ] , v)
+        end
+        self.datas.customRemoveMsg = {}
+    end
+
     local chatInfoList = self.datas[EC_ChatType.TEAM_YQ]
     local _chatInfoList = {}
     if chatInfoList then
         for i,chatInfo in ipairs(chatInfoList) do
             if self:checkChatInfo(chatInfo) then 
                 table.insert(_chatInfoList,chatInfo)
+            else
+                table.insert(self.datas.customRemoveMsg , chatInfo)
             end
         end
         self.datas[EC_ChatType.TEAM_YQ] = _chatInfoList
@@ -528,6 +539,7 @@ function ChatDataMgr:reshTeamYq(event)
     -- print("刷新组队邀请信息--------- chatInfo ",chatInfo)
     -- print("刷新组队邀请信息--------- chatInfo_ ",chatInfo_)
     self.datas[chatInfo.chatType] = {}
+    self.datas.customRemoveMsg = {}
     local chatInfoList = self.datas[chatInfo.chatType]
     for i,v in ipairs(chatInfo_) do
         table.insert(chatInfoList,v)

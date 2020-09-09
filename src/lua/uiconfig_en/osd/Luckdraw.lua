@@ -427,7 +427,6 @@ local t =
 											{
 												relativeToName = "Panel",
 											},
-											visible = "False",
 											ZOrder = "1",
 										},
 									},
@@ -1621,7 +1620,7 @@ local t =
 										PositionX = 101,
 										PositionY = 227,
 									},
-									width = "91",
+									width = "68",
 									ZOrder = "1",
 								},
 								{
@@ -1667,7 +1666,7 @@ local t =
 										PositionX = 101,
 										PositionY = 119,
 									},
-									width = "91",
+									width = "68",
 									ZOrder = "1",
 								},
 								{
@@ -1722,14 +1721,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FF3B77A0",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "24",
 											ignoreSize = "True",
 											name = "Label_title",
 											nTextAlign = "1",
@@ -1745,7 +1744,7 @@ local t =
 											{
 												
 											},
-											width = "89",
+											width = "167",
 											ZOrder = "1",
 										},
 									},
@@ -1802,14 +1801,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FF98263D",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "24",
 											ignoreSize = "True",
 											name = "Label_title",
 											nTextAlign = "1",
@@ -1825,7 +1824,7 @@ local t =
 											{
 												
 											},
-											width = "111",
+											width = "179",
 											ZOrder = "1",
 										},
 									},

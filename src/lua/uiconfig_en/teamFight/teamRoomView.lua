@@ -828,15 +828,15 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "24",
+													fontSize = "18",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "29",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "Label_roomName",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -850,9 +850,9 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = -143,
-														PositionY = 47,
+														PositionY = 52,
 													},
-													width = "176",
+													width = "194",
 													ZOrder = "1",
 												},
 												{
@@ -1267,14 +1267,14 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
-															text = "Jon",
+															text = "Join",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
 																
 															},
-															width = "31",
+															width = "35",
 															ZOrder = "1",
 														},
 														{
@@ -1758,14 +1758,14 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
-															text = "Jon",
+															text = "Join",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
 																
 															},
-															width = "31",
+															width = "35",
 															ZOrder = "1",
 														},
 														{
@@ -2249,14 +2249,14 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
-															text = "Jon",
+															text = "Join",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
 																
 															},
-															width = "31",
+															width = "35",
 															ZOrder = "1",
 														},
 														{

@@ -96,15 +96,15 @@ return {
         },
     },
     [9] = {
-        show = 0,
+        show = 1,
         heroSkinId = 1103021,
-        sort = 24,
+        sort = 3,
         id = 9,
         heroId = 110302,
-        scale  = 0.22,
+        scale  = 0.4,
         paintPosition = {
-            y = 90,
-            x = 690,
+            y = 165,
+            x = 900,
         },
     },
     [10] = {

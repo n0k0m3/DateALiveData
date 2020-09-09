@@ -96,7 +96,7 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "64",
+							height = "2",
 							ignoreSize = "True",
 							name = "Image_baoshiSortChooseView_1",
 							sizepercentx = "0",
@@ -116,7 +116,7 @@ local t =
 								TopPosition = 608,
 								relativeToName = "Panel",
 							},
-							width = "64",
+							width = "2",
 							ZOrder = "1",
 						},
 						{
@@ -235,7 +235,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "35",
+							height = "34",
 							ignoreSize = "True",
 							name = "Label_title",
 							nTextAlign = "1",
@@ -252,7 +252,7 @@ local t =
 								PositionX = 212,
 								PositionY = 484,
 							},
-							width = "116",
+							width = "233",
 							ZOrder = "1",
 						},
 						{
@@ -330,7 +330,7 @@ local t =
 									{
 										
 									},
-									width = "99",
+									width = "81",
 									ZOrder = "1",
 								},
 							},
@@ -449,14 +449,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_desc1",
 									nTextAlign = "1",
@@ -473,7 +473,7 @@ local t =
 										PositionX = 358,
 										PositionY = 285,
 									},
-									width = "291",
+									width = "271",
 									ZOrder = "1",
 								},
 								{
@@ -621,7 +621,7 @@ local t =
 												PositionX = 358,
 												PositionY = 113,
 											},
-											width = "291",
+											width = "326",
 											ZOrder = "1",
 										},
 										{

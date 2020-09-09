@@ -281,6 +281,12 @@ return {
         event_id = 2,
         remark = "灵装数量（默认灵装除外）",
     },
+    [8015] = {
+        id = 8015,
+        history = false,
+        event_id = 8,
+        remark = "将%s个五星质点强化到%s级 ",
+    },
     [2012] = {
         id = 2012,
         history = true,
@@ -821,17 +827,17 @@ return {
         event_id = 17,
         remark = "累计击杀X个X级悬赏",
     },
-    [2006] = {
-        id = 2006,
-        history = false,
-        event_id = 2,
-        remark = "圣诞节道具合成",
-    },
     [17013] = {
         id = 17013,
         history = false,
         event_id = 17,
         remark = "单次10连抽奖出现X个稀有道具",
+    },
+    [2006] = {
+        id = 2006,
+        history = false,
+        event_id = 2,
+        remark = "圣诞节道具合成",
     },
     [9003] = {
         id = 9003,

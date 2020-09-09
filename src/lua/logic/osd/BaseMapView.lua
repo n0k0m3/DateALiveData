@@ -398,12 +398,12 @@ function BaseMapView:initFuncListView()
 end
 
 --NPC 功能类型
-local checkRedStatFunc = {
-    [FuncType.FUN_BEN] = handler(OSDDataMgr.checkLevelEntranceRedState,OSDDataMgr), -- 副本红点检测方法
+local checkRedStatFunc = {  --暂时屏蔽夏拉姆部分功能红点
+    --[FuncType.FUN_BEN] = handler(OSDDataMgr.checkLevelEntranceRedState,OSDDataMgr), -- 副本红点检测方法
     [FuncType.Bounty] = handler(OSDDataMgr.checkHuntingInvitationRedState,OSDDataMgr), -- 悬赏令红点检测方法
-    [FuncType.LuckDraw] = handler(SummonDataMgr.isCanTeamSummon,SummonDataMgr), -- 召唤红点检测方法
+    --[FuncType.LuckDraw] = handler(SummonDataMgr.isCanTeamSummon,SummonDataMgr), -- 召唤红点检测方法
     [FuncType.Seq_War] = handler(SkyLadderDataMgr.isNewTurn,SkyLadderDataMgr), -- 天梯红点检测方法
-    [FuncType.Task] = handler(TaskDataMgr.isShowRedPointInOSDView,TaskDataMgr), -- 任务检测方法
+    --[FuncType.Task] = handler(TaskDataMgr.isShowRedPointInOSDView,TaskDataMgr), -- 任务检测方法
 }
 
 function BaseMapView:updateFuncListRedState(  )

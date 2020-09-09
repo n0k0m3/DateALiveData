@@ -1505,7 +1505,7 @@ return {
     },
     [28159] = {
         id = 28159,
-        text = "Try different [Angel Loadouts] on enemies and you may be surprised by Spirits' power!",
+        text = "When you have trouble increasing your BP, try to equip [Keepsake] to boost BP quickly.",
     },
     [950159] = {
         id = 950159,
@@ -2017,7 +2017,7 @@ return {
     },
     [28161] = {
         id = 28161,
-        text = "Try different [Angel Loadouts] on enemies and you may be surprised by Spirits' power!",
+        text = "There are bonds between Keepsakes. [Keepsake Bonds] will make keepsakes even more powerful!",
     },
     [1310608] = {
         id = 1310608,
@@ -6385,7 +6385,7 @@ return {
     },
     [28185] = {
         id = 28185,
-        text = "You can check stats of Sephiroth and sets in Gallery!",
+        text = "Crafting of S Class or better Gems grants random stats",
     },
     [270710] = {
         id = 270710,
@@ -6589,7 +6589,7 @@ return {
     },
     [28186] = {
         id = 28186,
-        text = "You can check stats of Sephiroth and sets in Gallery!",
+        text = "Keepsakes and Sephiroth share cost. Beware of that and use them wisely.",
     },
     [2100077] = {
         id = 2100077,
@@ -6937,7 +6937,7 @@ return {
     },
     [22044] = {
         id = 22044,
-        text = "Open and randomly get Fragment*1 of any Spirit/Character.",
+        text = "Open and randomly get Fragment*1 of any Spirit/Character (Inversed Spirits excluded)",
     },
     [213203] = {
         id = 213203,
@@ -7245,7 +7245,7 @@ return {
     },
     [14300349] = {
         id = 14300349,
-        text = "The Chance to D-class runestone challenge +1",
+        text = "The Chance of Runestone Challenge Rewards +1",
     },
     [25119] = {
         id = 25119,
@@ -11078,6 +11078,14 @@ return {
     [63640] = {
         id = 63640,
         text = "(Channel Server)",
+    },
+    [190000129] = {
+        id = 190000129,
+        text = "Total Top-up Rewards",
+    },
+    [190000128] = {
+        id = 190000128,
+        text = "Free",
     },
     [190000127] = {
         id = 190000127,
@@ -22437,7 +22445,7 @@ return {
     },
     [12010146] = {
         id = 12010146,
-        text = "1. Players of level 30 of higher can accept the challenge in Mayuri's theater. Yoshino's theater challenge is unlocked at level 40. Accept the challenge to enjoy splendid stories as well as exciting battles. \n2. Theater mode contains 3 parts: date stages, battle stages and Kerubiel Challenge. \n3. Your choices in the date will influence the story up next, will there be more romance or battles? It is all up to you!\n4. During the instance challenge, you'll no longer fight alone, as each challenge from players on the server increases the unstable Spirit waves. \n5. When there are enough unstable Spirit waves, the powerful Kerubiel will appear, and players need to defeat him with joint efforts of the server to unlock new chapter.",
+        text = "1. Yoshino's theater challenge is unlocked at level 40. Accept the challenge to enjoy splendid stories as well as exciting battles. \n2. Theater mode contains 2 parts: date stages and battle stages. \n3. Your choices in the date will influence the story up next, will there be more romance or battles? It is all up to you!",
     },
     [22035] = {
         id = 22035,
@@ -25337,7 +25345,7 @@ return {
     },
     [28125] = {
         id = 28125,
-        text = "Prayer Book obtained from Daily - [Pray Clash]. Can exchange advanced Sephiroth in Pray.",
+        text = "In [Kabbalah], Energy Points for exploration restores over time. You can also exchange restorative items at Ririko's Store.",
     },
     [13311227] = {
         id = 13311227,
@@ -25513,7 +25521,7 @@ return {
     },
     [28124] = {
         id = 28124,
-        text = "Prayer Book obtained from Daily - [Pray Clash]. Can exchange advanced Sephiroth in Pray.",
+        text = "In [Kabbalah], purification quest has multiple phases. Only by defeating the devil can you purify Particle World.",
     },
     [13311187] = {
         id = 13311187,
@@ -25857,7 +25865,7 @@ return {
     },
     [28121] = {
         id = 28121,
-        text = "Prayer Book obtained from Daily - [Pray Clash]. Can exchange advanced Sephiroth in Pray.",
+        text = "In [Kabbalah], 1 Particle World will be corrupted every 3 days. Please go purify them.",
     },
     [13311107] = {
         id = 13311107,
@@ -36733,7 +36741,7 @@ return {
     },
     [400112] = {
         id = 400112,
-        text = "Ice Maiden: Arctic Domain",
+        text = "Ice Princess: Arctic Domain",
     },
     [12000011] = {
         id = 12000011,
@@ -61869,7 +61877,7 @@ return {
     },
     [63013] = {
         id = 63013,
-        text = "Most items you have are kept in Bag which breaks down to 4 sections: Sephiroth, Material, Item, and Trial Card. You can switch between them via the button on the left. \nBag has limited capacity. When the cap is reached, items acquired will be mailed to you. But you should clear your Bag as soon as possible because mails will be deleted over time.",
+        text = "Most items you have are kept in Bag which breaks down to 5 sections: Sephiroth, Material, Item, Keepsake, and Gem. You can switch between them via the button on the left. \nBag has limited capacity. When the cap is reached, items acquired will be mailed to you. But you should clear your Bag as soon as possible because mails will be deleted over time.",
     },
     [10231213] = {
         id = 10231213,
@@ -62893,7 +62901,7 @@ return {
     },
     [63021] = {
         id = 63021,
-        text = "You must get well prepared before a battle. Deploy different characters based on conditions of each stage. Beware that in the world of Date A Live, you can't deploy duplicated characters (except assistants). Example: if you've deployed Tohka Yatogami, Shekhinah Tohka won't be deployable.",
+        text = "You must get well prepared before a battle. Deploy different characters based on conditions of each stage. Beware that in the world of Date A Live, you can't deploy duplicated characters (except assistants). Example: if you've deployed Tohka Yatogami, Shekinah Tohka and Inverse Tohka won't be deployable.",
     },
     [10311198] = {
         id = 10311198,
@@ -74953,7 +74961,7 @@ return {
     },
     [28167] = {
         id = 28167,
-        text = "Duplicate costumes and Astral Dresses will be turned to costume fragments and Astral Dress fragments.",
+        text = "To disband a club, you need to wait till the club has been founded for 7 days.",
     },
     [3330026] = {
         id = 3330026,
@@ -86569,7 +86577,7 @@ return {
     },
     [300830] = {
         id = 300830,
-        text = "Goal: Restores Snowman HP to 100",
+        text = "Snowman HP restored to 100",
     },
     [1011232] = {
         id = 1011232,
@@ -87513,7 +87521,7 @@ return {
     },
     [300889] = {
         id = 300889,
-        text = "Save the wounded snowman",
+        text = "save the wounded snowman",
     },
     [2100140] = {
         id = 2100140,
@@ -91025,7 +91033,7 @@ return {
     },
     [28037] = {
         id = 28037,
-        text = "When Mood is above 90, Spirits will have extra buff in battles.",
+        text = "When all dates are over, don't forget to claim exclusive keepsakes.",
     },
     [1130114] = {
         id = 1130114,
@@ -91209,7 +91217,7 @@ return {
     },
     [301120] = {
         id = 301120,
-        text = "Abandoned Bus Station",
+        text = "Bus Station",
     },
     [301175] = {
         id = 301175,
@@ -93085,7 +93093,7 @@ return {
     },
     [25014] = {
         id = 25014,
-        text = "The embodiment of Kabbalah Tree of Life's essence. Used to awaken following characters' angelic power: \nShekhinah Tohka",
+        text = "The embodiment of Kabbalah Tree of Life's essence. Used to awaken following characters' angelic power: \nShekhinah Tohkai\nIce Princess – Yoshino",
     },
     [43001] = {
         id = 43001,
@@ -94849,7 +94857,7 @@ return {
     },
     [26004] = {
         id = 26004,
-        text = "A special item that modifies Affixes of Sephiroth at random, used to modify Blue, Purple and Yellow Affix Stats.",
+        text = "A special item that modifies Affixes of Sephiroth at random, used to modify Blue, Purple and Orange Affix Stats.",
     },
     [900027] = {
         id = 900027,
@@ -97517,7 +97525,7 @@ return {
     },
     [28162] = {
         id = 28162,
-        text = "Try different [Angel Loadouts] on enemies and you may be surprised by Spirits' power!",
+        text = "To craft gems, you need to collect [Gem Blueprints]~",
     },
     [471007] = {
         id = 471007,
@@ -98937,7 +98945,7 @@ return {
     },
     [63501] = {
         id = 63501,
-        text = "Most items you have are kept in Bag which breaks down to 4 sections: Sephiroth, Material, Item, and Trial Card. You can switch between them via the button on the left.",
+        text = "Most items you have are kept in Bag which breaks down to 4 sections: Sephiroth, Material, Item, Keepsake, and Gem. You can switch between them via the button on the left.",
     },
     [266311] = {
         id = 266311,
@@ -99801,7 +99809,7 @@ return {
     },
     [63002] = {
         id = 63002,
-        text = "There are 5 character growth modules: Stats, Crystal, Sephira, Angel, and Astral Dress\n\nStats\nHere displays each character's base stats and stats bonus from Crystal, Sephira and Bonds. (bonus from skills are excluded). Tap the Upgrade button on lower right to upgrade characters with EXP Cards and boost her base stats. \n\nCrystal\nCrystals directly boost characters' base stats. Crystal has 7 phases which is corresponding to character rarity. Each phase has some crystal slots. Spend materials to transcend crystals. Light up crystal slots to earn stats bonus. \n\nSephira\nCharacters can equip Sephiroth to get stats boots and special skills. Each character can equip 3 Sephiroth of different types at once. Based on Sephiroth's type and set, Sephira combo skills and set skill may be activated. Please note that equipping Sephira consumes Cost. Stronger Sephira need higher Cost. \n\nAngel\nAngel function let you enhance all the skills of each character. By spending Angel Points earned via upgrade, you can add hit count, damage and extra effects to base attack, normal skills and Ultimate. After awakening Angels, up to 4 of 16 passive skills can be used; Transcend Angel unlocks at Spirits Lv.70 EX. Transcending angels grants angel points. \n\nAstral Dress\nBy changing Astral Dresses, characters will have different look in battles. Advanced Astral Dresses change more than just the look, there will be unique moves, new skill sound effects and unique skill icons.",
+        text = "There are 7 character growth modules: Stats, Crystal, Sephira, Angel, Bonds, Gem and Astral Dress\n\nStats\nHere displays each character's base stats and stats bonus from Crystal, Sephira and Bonds. (bonus from skills are excluded). Tap the Upgrade button on lower right to upgrade characters with EXP Cards and boost her base stats. \n\nCrystal\nCrystals directly boost characters' base stats. Crystal has 7 phases which is corresponding to character rarity. Each phase has some crystal slots. Spend materials to transcend crystals. Light up crystal slots to earn stats bonus. \n\nSephira\nCharacters can equip Sephiroth to get stats boots and special skills. Each character can equip 3 Sephiroth of different types at once. Based on Sephiroth's type and set, Sephira combo skills and set skill may be activated. Please note that equipping Sephira consumes Cost. Stronger Sephira need higher Cost. \n\nAngel\nAngel function let you enhance all the skills of each character. By spending Angel Points earned via upgrade, you can add hit count, damage and extra effects to base attack, normal skills and Ultimate. After awakening Angels, up to 4 of 16 passive skills can be used; Transcend Angel unlocks at Spirits Lv.70 EX. Transcending angels grants angel points. \n\nBonds\nEquip Keepsakes acquired from Dates to activates bonds which provide stats boosts and extra effects to your character. Keepsake itself can be upgraded and advanced with materials for stats boosts. \n\nGem\nEquip Gems to massively improve character skills. Gems come in 7 rarities. Lower tier gems can be crafted into a higher tiered one, which provide extra skill damage and additional effect. \n\nAstral Dress\nBy changing Astral Dresses, characters will have different look in battles. Advanced Astral Dresses change more than just the look, there will be unique moves, new skill sound effects and unique skill icons.",
     },
     [1701867] = {
         id = 1701867,
@@ -102233,7 +102241,7 @@ return {
     },
     [400110] = {
         id = 400110,
-        text = "Ice Maiden - Winter Spirit",
+        text = "Ice Princess: Winter Spirit",
     },
     [310001] = {
         id = 310001,
@@ -102249,7 +102257,7 @@ return {
     },
     [400111] = {
         id = 400111,
-        text = "Ice Maiden: Enchantress Dance",
+        text = "Ice Princess: Enchantress Dance",
     },
     [441070] = {
         id = 441070,
@@ -102281,7 +102289,7 @@ return {
     },
     [400113] = {
         id = 400113,
-        text = "Demon King - ASTAROTH",
+        text = "Demon King: ASTAROTH",
     },
     [310004] = {
         id = 310004,
@@ -102837,7 +102845,7 @@ return {
     },
     [63023] = {
         id = 63023,
-        text = "Welcome to Tengu City where you will date with beloved Spirits!\n\n1. Tap the Spirit Avatar Frame on the left to select who you want to date. \n\n2. Main segment of Date are: Favor Date, Daily Date, Spirit Interaction and Mini-Game. \n\n3.Favor Date: Tap the \"Favor\" button in the popup menu to enter the Date interface. \n\n4. In the Favor Date page, all CGs you could win from the date are listed. Rewards for \"Favor Giftbox\" can also be previewed. Don't forget to claim them when conditions are met.\n\n5. Tap \"Date\" in the Favor Date page to start dating. Favor Date has no attempt limit but costs Stamina.\n\n6. Daily Date: Tap character avatar then \"Daily\" button and you'll see the Date page. \n\n7. In Daily Date page, you can see date location and ending collection progress. \nTap \"Date\" in Favor Date to start dating. You have 3 Daily Date chances and can get 2 more with date coupons each day. \nBesides Mainline Date and Daily Date, you should take notice of Spirits' mood. When they are \"Hungry, Mad or Bored\", better prepare a date in time.\n\n8. When a Spirit is \"Hungry\", tap that Spirit then gift her food. ",
+        text = "Welcome to Tengu City where you will date with beloved Spirits!\n\n1. Tap the Spirit Avatar Frame on the left to select who you want to date. \n\n2. Main segment of Date are: Favor Date, Daily Date, Spirit Interaction and Mini-Game. \n\n3.Favor Date: Tap the \"Favor\" button in the popup menu to enter the Date interface. \n\n4. In the Favor Date page, all CGs you could win from the date are listed. Rewards for \"Favor Giftbox\" can also be previewed. Don't forget to claim them when conditions are met.\n\n5. Tap \"Date\" in the Favor Date page to start dating. Favor Date has no attempt limit but costs Stamina.\n\n6. Daily Date: Tap character avatar then \"Daily\" button and you'll see the Date page. \n\n7. In Daily Date page, you can see date location or preview Keepsakes in \"Ending Giftbox\" and ending collection progress.\nTap \"Date\" in Favor Date to start dating. You have 3 Daily Date chances and can get 2 more with date coupons each day. \nBesides Mainline Date and Daily Date, you should take notice of Spirits' mood. When they are \"Hungry, Mad or Bored\", better prepare a date in time.\n\n8. When a Spirit is \"Hungry\", tap that Spirit then gift her food. ",
     },
     [400148] = {
         id = 400148,
@@ -104433,7 +104441,7 @@ return {
     },
     [28170] = {
         id = 28170,
-        text = "When Bag is full, only some items will be sent to Mail, the rest will be converted into materials.",
+        text = "When kicked out of a club, you can join another one without waiting.",
     },
     [244006] = {
         id = 244006,
@@ -104721,7 +104729,7 @@ return {
     },
     [28168] = {
         id = 28168,
-        text = "Duplicate costumes and Astral Dresses will be turned to costume fragments and Astral Dress fragments.",
+        text = "After quitting a club, you must wait for 24hr to join a new one!",
     },
     [201023] = {
         id = 201023,
@@ -105269,7 +105277,7 @@ return {
     },
     [28160] = {
         id = 28160,
-        text = "Try different [Angel Loadouts] on enemies and you may be surprised by Spirits' power!",
+        text = "Both Event Date and Daily Date drop [Keepsake] that boosts your BP.",
     },
     [21039] = {
         id = 21039,
@@ -105605,7 +105613,7 @@ return {
     },
     [28155] = {
         id = 28155,
-        text = "Spirits with the new passive skill will get high BP boost.",
+        text = "Complete dice mini games in [Kabbalah] grant buff bonus.",
     },
     [27070] = {
         id = 27070,
@@ -109457,7 +109465,7 @@ return {
     },
     [28109] = {
         id = 28109,
-        text = "Remember to do Spirit Trials everyday to win abundant diamonds.",
+        text = "Sharam Store grants a free VS Runestone every day!",
     },
     [1325353] = {
         id = 1325353,
@@ -109713,7 +109721,7 @@ return {
     },
     [28110] = {
         id = 28110,
-        text = "Remember to do Spirit Trials everyday to win abundant diamonds.",
+        text = "VS Runestone of S rank is quite hard. You'd better bring powerful teammates.",
     },
     [300014] = {
         id = 300014,
@@ -112785,7 +112793,7 @@ return {
     },
     [28122] = {
         id = 28122,
-        text = "Prayer Book obtained from Daily - [Pray Clash]. Can exchange advanced Sephiroth in Pray.",
+        text = "In [Kabbalah], Life Essence and Devil Insignia dropped from Particle World can exchange items at Kabbalah Store.",
     },
     [1701316] = {
         id = 1701316,
@@ -113041,7 +113049,7 @@ return {
     },
     [28123] = {
         id = 28123,
-        text = "Prayer Book obtained from Daily - [Pray Clash]. Can exchange advanced Sephiroth in Pray.",
+        text = "In [Kabbalah], Particle World is consisted of Space Hubs. Control and move the airship to unlock more realms.",
     },
     [1701380] = {
         id = 1701380,
@@ -119185,7 +119193,7 @@ return {
     },
     [28147] = {
         id = 28147,
-        text = "The blue number in battles (Back Hit) can stack with critical strike and Pierce, the latter of which inflicts massive damage.",
+        text = "Challenge will auto start when you get runestones. Check how long a challenge will last in the Runestone Challenge page.",
     },
     [1021731] = {
         id = 1021731,
@@ -120181,7 +120189,7 @@ return {
     },
     [28126] = {
         id = 28126,
-        text = "Prayer Book obtained from Daily - [Pray Clash]. Can exchange advanced Sephiroth in Pray.",
+        text = "In [Kabbalah], Spirits will be polluted while fighting in the Particle World and cannot be deployed in a team when they are highly polluted.",
     },
     [25079] = {
         id = 25079,
@@ -120721,7 +120729,7 @@ return {
     },
     [28153] = {
         id = 28153,
-        text = "Spirits with the new passive skill will get high BP boost.",
+        text = "Collect all the events in [Kabbalah] to win abundant rewards.",
     },
     [1310096] = {
         id = 1310096,

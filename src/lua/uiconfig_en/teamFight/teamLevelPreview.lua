@@ -532,7 +532,7 @@ local t =
 												PositionY = 117,
 											},
 											vAlignment = "0",
-											width = "460",
+											width = "440",
 											ZOrder = "1",
 										},
 										{

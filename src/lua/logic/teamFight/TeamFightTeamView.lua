@@ -664,11 +664,6 @@ function TeamFightTeamView:updateTeamPart()
                     end
                 end
             end
-            --暂时屏蔽社团邀请 2020-3-11
-            if j == 1 then
-                self.teamItems[i]["ctrl"]["btn_"..j]:setGrayEnabled(true)
-                self.teamItems[i]["ctrl"]["btn_"..j]:setTouchEnabled(false)
-            end
         end
         --不是队长，暂时不准邀请
         if self.teamItems[i]["stat"]["value"] == 1 then

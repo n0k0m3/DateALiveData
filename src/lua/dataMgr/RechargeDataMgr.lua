@@ -693,7 +693,7 @@ function RechargeDataMgr:getIsHavePrivilegeByType(id)
 	local _bool = false
 	local cfg   = nil
 	--英文版暂时屏蔽以下id
-	if id == 101 or id == 109 or id == 103 then
+	if id == 103 then
 		return _bool , cfg
 	end
 	local tab = TabDataMgr:getData("Privilege")

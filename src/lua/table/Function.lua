@@ -1467,7 +1467,7 @@ return {
     },
     [80] = {
         isOpen = true,
-        openLevel = 99,
+        openLevel = 25,
         isStinger = false,
         id = 80,
         openDun = 0,
@@ -1969,7 +1969,7 @@ return {
     },
     [107] = {
         isOpen = true,
-        openLevel = 99,
+        openLevel = 35,
         isStinger = false,
         id = 107,
         openDun = 0,
@@ -2008,8 +2008,8 @@ return {
         levelType = 1,
     },
     [111] = {
-        isOpen = true,
-        openLevel = 40,
+        isOpen = false,
+        openLevel = 99,
         isStinger = false,
         id = 111,
         openDun = 0,
@@ -2021,15 +2021,15 @@ return {
         stingerDating = "",
         name = "",
         unlockExplain = {
-            [1] = 1,
-            [2] = 3203019,
+            [1] = 2,
+            [2] = 270420,
         },
         icon = "",
         levelType = 1,
     },
     [112] = {
-        isOpen = true,
-        openLevel = 1,
+        isOpen = false,
+        openLevel = 99,
         isStinger = false,
         id = 112,
         openDun = 0,
@@ -2041,6 +2041,8 @@ return {
         stingerDating = "",
         name = "",
         unlockExplain = {
+            [1] = 2,
+            [2] = 270420,
         },
         icon = "",
         levelType = 1,

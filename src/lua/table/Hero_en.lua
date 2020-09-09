@@ -1872,7 +1872,7 @@ return {
         site = 26,
         title = 30323,
         callLimit = 1,
-        isOpen = 0,
+        isOpen = 1,
         expitem = {
             [1] = 510101,
             [2] = 510102,

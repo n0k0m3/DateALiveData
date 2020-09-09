@@ -144,15 +144,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = true,
 										StrokeColor = "#FF4D6BA1",
 										StrokeSize = 1,
 									},
-									height = "25",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_fun_title",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -166,12 +166,12 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 104,
-										PositionY = 26,
+										PositionY = 27,
 										IsPercent = true,
 										PercentX = 50,
-										PercentY = 50,
+										PercentY = 51.92,
 									},
-									width = "84",
+									width = "144",
 									ZOrder = "1",
 								},
 								{
@@ -314,7 +314,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = true,
@@ -922,7 +922,7 @@ local t =
 												PositionY = -32,
 											},
 											vAlignment = "0",
-											width = "148",
+											width = "256",
 											ZOrder = "1",
 										},
 										{
@@ -1702,14 +1702,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "18",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FF49557F",
 												StrokeSize = 2,
 											},
-											height = "26",
+											height = "23",
 											ignoreSize = "True",
 											name = "txt_room_tile",
 											nTextAlign = "1",
@@ -1723,10 +1723,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -3,
+												PositionX = -1,
 												PositionY = 10,
 											},
-											width = "40",
+											width = "48",
 											ZOrder = "1",
 										},
 										{
@@ -1771,7 +1771,7 @@ local t =
 											{
 												PositionY = -17,
 											},
-											width = "32",
+											width = "25",
 											ZOrder = "1",
 										},
 									},
@@ -2182,14 +2182,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "22",
 											ignoreSize = "True",
 											name = "Label_fun_title",
 											nTextAlign = "1",
@@ -2209,7 +2209,7 @@ local t =
 												PercentX = 57.21,
 												PercentY = 21.35,
 											},
-											width = "62",
+											width = "56",
 											ZOrder = "1",
 										},
 										{
@@ -2433,7 +2433,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "24",
 											ignoreSize = "True",
 											name = "label_roomNums",
 											nTextAlign = "1",
@@ -2544,7 +2544,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "31",
 											ignoreSize = "True",
 											name = "Label_MapLayer_1",
 											nTextAlign = "1",
@@ -2560,7 +2560,7 @@ local t =
 											{
 												
 											},
-											width = "106",
+											width = "172",
 											ZOrder = "1",
 										},
 									},
@@ -2619,7 +2619,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "31",
 											ignoreSize = "True",
 											name = "Label_MapLayer_1",
 											nTextAlign = "1",
@@ -2635,7 +2635,7 @@ local t =
 											{
 												
 											},
-											width = "105",
+											width = "61",
 											ZOrder = "1",
 										},
 									},

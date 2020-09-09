@@ -65962,7 +65962,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "The other 「me」, if you desire so much to return, I'll grant you your wish. May all those useless emotions be erased in the void!",
+                text = "The other me, if you desire so much to return, I'll grant you your wish. May all those useless emotions be erased in the void!",
             },
         },
         actionL = {
@@ -109602,7 +109602,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Drag? Funny. Weren't you the one who suddenly appeared in the 「Magic Palace」 of 「Astaroth」?",
+                text = "Drag? Funny. Weren't you the one who suddenly appeared in the Magic Palace of Astaroth?",
             },
         },
         actionL = {
@@ -112236,7 +112236,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "This is the bus station?...「Towards Central Area - One Way」...Will we find some assistance there?",
+                text = "This is the bus station?...Towards Central Area - One Way...Will we find some assistance there?",
             },
         },
         actionL = {
@@ -112904,7 +112904,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "But...the ability to control 「ice」? Could it be...",
+                text = "But...the ability to control ice? Could it be...",
             },
         },
         actionL = {
@@ -112938,7 +112938,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "This is the edge of the 「Magic Palace」, now if we run away from here——",
+                text = "This is the edge of the Magic Palace, now if we run away from here——",
             },
         },
         actionL = {
@@ -116249,7 +116249,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "That guy isn't chasing us...Jeeze, starting our「adventure」with something like this sure is troublesome.",
+                text = "That guy isn't chasing us...Jeeze, starting ouradventurewith something like this sure is troublesome.",
             },
         },
         actionL = {
@@ -126614,7 +126614,7 @@ Father... Mother...",
         text = {
             [1] = {
                 speed = 40,
-                text = "We just have to release the four seals to maximize the Spirit Power, then we can defeat that 「Asat Tower」!",
+                text = "We just have to release the four seals to maximize the Spirit Power, then we can defeat that Asat Tower!",
             },
         },
         actionL = {
@@ -127974,7 +127974,7 @@ Father... Mother...",
         text = {
             [1] = {
                 speed = 40,
-                text = "Wait, what's that in your hands——Really? I see, hahaha. The Goddess of Luck has truly blessed you, 「Outsider」",
+                text = "Wait, what's that in your hands——Really? I see, hahaha. The Goddess of Luck has truly blessed you, Outsider",
             },
         },
         actionL = {

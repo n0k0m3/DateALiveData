@@ -288,6 +288,8 @@ function StoreMainView:updateGoodsList()
             end
             self.goodsIconMap_[item] = foo
             ListView_goods:pushBackCustomItem(item)
+
+            foo.Label_free:setTextById(190000128)
         end
     else
         for i = 1, math.abs(gap) do

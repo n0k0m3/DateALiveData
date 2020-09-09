@@ -1203,6 +1203,7 @@ local t =
 								relativeToName = "Panel",
 							},
 							UItype = "Button",
+							visible = "False",
 							width = "102",
 							ZOrder = "1",
 							components = 

@@ -45,6 +45,7 @@ function HuntingInvitationView:initUI( ui )
 	self.button_shop = TFDirector:getChildByPath(ui,"button_shop")
     self.label_noCard = TFDirector:getChildByPath(ui,"label_noCard")
     self.button_help = TFDirector:getChildByPath(ui,"button_help")
+    self.label_noCard:setTextById(190000123)
 
     self:flushList()
     self.TurnView_mainScroll:scrollToItem(1)

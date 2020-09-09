@@ -128,7 +128,7 @@ function EquipSuitUpView:refreshView()
             end
         end
     end
-    self.Label_attr_title:setText("所需材料")
+    self.Label_attr_title:setTextById(100000050)
 
     --[[ 不显示套装属性
         if string.len(equipCfg.suitId) > 1 then

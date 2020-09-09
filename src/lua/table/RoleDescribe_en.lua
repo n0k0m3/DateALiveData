@@ -517,7 +517,7 @@ return {
         energyMax = "Max: 100",
         character1 = "Mid ranged attack, dealing dark damage.",
         character2 = "Skills have very short cooldown but cost Time.",
-        character3 = "By using City of Devouring Time, Kurumi absorbs Time from enemies.",
+        character3 = "By using Time-Eating Castle, Kurumi absorbs Time from enemies.",
         sign = 0,
         skillName2 = "Realm",
         paint = 1104011,

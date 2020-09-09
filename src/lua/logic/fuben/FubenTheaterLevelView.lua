@@ -43,7 +43,6 @@ function FubenTheaterContor:distory()
 end
 
 function FubenTheaterContor:onShow( )
-    self.super.onShow(self)
     self:checkProcess()
 end
 

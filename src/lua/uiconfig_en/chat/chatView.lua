@@ -5838,7 +5838,6 @@ local t =
 									{
 										PositionX = 90,
 									},
-									visible = "False",
 									width = "121",
 									ZOrder = "1",
 									components = 
@@ -6199,7 +6198,6 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									visible = "False",
 									width = "372",
 									ZOrder = "1",
 									components = 
@@ -6375,31 +6373,31 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "24",
+													fontSize = "18",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "29",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "label_name",
 													nTextAlign = "1",
-													nTextHAlign = "1",
+													nTextHAlign = "0",
 													sizepercentx = "0",
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "Stage Name Name",
+													text = "Stage Name Name Stage Name Name",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 14,
-														PositionY = 124,
+														PositionX = 10,
+														PositionY = 120,
 													},
-													width = "219",
+													width = "202",
 													ZOrder = "1",
 												},
 												{
@@ -6428,11 +6426,12 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "0",
-													ignoreSize = "False",
+													height = "25",
+													ignoreSize = "True",
 													name = "label_join",
 													nTextAlign = "1",
 													nTextHAlign = "1",
+													rotation = "90",
 													sizepercentx = "0",
 													sizepercenty = "0",
 													sizeType = "0",
@@ -6442,10 +6441,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 333,
-														PositionY = 73,
+														PositionX = 346,
+														PositionY = 125,
 													},
-													width = "23",
+													width = "96",
 													ZOrder = "1",
 												},
 												{
