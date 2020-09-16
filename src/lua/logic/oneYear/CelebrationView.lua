@@ -53,6 +53,12 @@ function CelebrationView:initUI(ui)
     self.Label_vote_tip:setSkewX(15)
     self.Label_vote_time:setSkewX(15)
 
+    --屏蔽按钮英文版
+    self.Button_address:hide()
+    self.Button_lucky_list:setPositionY(self.Button_lucky_list:getPositionY() - 100)
+    self.Button_rule:setPositionY(self.Button_rule:getPositionY() - 100)
+
+
     self.Image_signed = TFDirector:getChildByPath(self.Panel_root, "Image_signed")
     self.Image_not_sign = TFDirector:getChildByPath(self.Panel_root, "Image_not_sign")
     self.Panel_active = TFDirector:getChildByPath(self.Panel_root, "Panel_active")
@@ -119,6 +125,9 @@ function CelebrationView:initUI(ui)
     self.Panel_finish = TFDirector:getChildByPath(self.Panel_root, "Panel_finish"):hide()
     self.Image_finished = TFDirector:getChildByPath(self.Panel_finish, "Image_finished")
     self.Image_cool_bg = TFDirector:getChildByPath(self.Panel_finish, "Image_cool_bg")
+
+    TFDirector:getChildByPath(self.Panel_finish , "Label_celebrationView_1"):hide()
+    
     self.coolTimeText = {}
     for i=1,4 do
         self.coolTimeText[i] = TFDirector:getChildByPath(self.Image_cool_bg, "Image_time_text"..i)
@@ -126,6 +135,7 @@ function CelebrationView:initUI(ui)
 
     self.Label_cool_tip = TFDirector:getChildByPath(self.Panel_finish, "Label_cool_tip")
     self.Label_cool_tip:setSkewX(15)
+
 
     OneYearDataMgr:Send_GetLuckyList()
 
@@ -165,12 +175,12 @@ function CelebrationView:refreshUI()
         self:checkState()
         self:updateStageInfo()
 
-        local startDate = Utils:getLocalDate(self.activityInfo_.startTime)
+        local startDate = Utils:getUTCDate(self.activityInfo_.startTime , GV_UTC_TIME_ZONE)
         local startDateStr = startDate:fmt("%m.%d")
-        local endDate = Utils:getLocalDate(self.activityInfo_.endTime)
+        local endDate = Utils:getUTCDate(self.activityInfo_.endTime , GV_UTC_TIME_ZONE)
         local endDateStr = endDate:fmt("%m.%d")
         self.Label_time:setText(startDateStr)
-        self.Label_end_time:setText(endDateStr)
+        self.Label_end_time:setText(endDateStr..GV_UTC_TIME_STRING)
     end
 end
 
@@ -206,7 +216,8 @@ end
 
 function CelebrationView:updateTitle(stage,inStage)
 
-    local curTime = Utils:getLocalDate(ServerDataMgr:getServerTime())
+    --local curTime = Utils:getLocalDate(ServerDataMgr:getServerTime())
+    local curTime = Utils:getUTCDate(ServerDataMgr:getServerTime() , GV_UTC_TIME_ZONE)
     local curTimeStr = curTime:fmt("%Y-%m-%d %H:%M")
     print("stage",self.curTurnIndex,stage,curTimeStr)
     ---stage 1.报名 2.抽奖二等奖 3：抽一等奖 4.显示奖励
@@ -215,11 +226,11 @@ function CelebrationView:updateTitle(stage,inStage)
         local voteTime = ""
         local stageInfo = OneYearDataMgr:getStageInfoByIndex(self.curTurnIndex)
         if stageInfo then
-            local startTime = Utils:getLocalDate(stageInfo.registrationTime)
+            local startTime = Utils:getUTCDate(stageInfo.registrationTime, GV_UTC_TIME_ZONE)
             local startDateStr = startTime:fmt("%Y-%m-%d %H:%M")
-            local closeTime = Utils:getLocalDate(stageInfo.endTtime)
+            local closeTime = Utils:getUTCDate(stageInfo.endTtime, GV_UTC_TIME_ZONE)
             local closeStr = closeTime:fmt("%H:%M")
-            voteTime =startDateStr.."-"..closeStr
+            voteTime =startDateStr.."-"..closeStr..GV_UTC_TIME_STRING
         end
         self.Label_vote_time:setText(voteTime)
     elseif stage == 2 or stage == 3 then
@@ -230,11 +241,11 @@ function CelebrationView:updateTitle(stage,inStage)
             local awardTime = ""
             local curStageInfo = OneYearDataMgr:getStageInfoByIndex(self.curTurnIndex)
             if curStageInfo then
-                local startTime = Utils:getLocalDate(curStageInfo.rewardTime)
+                local startTime = Utils:getUTCDate(curStageInfo.rewardTime, GV_UTC_TIME_ZONE)
                 local startDateStr = startTime:fmt("%Y-%m-%d %H:%M")
-                local closeTime = Utils:getLocalDate(curStageInfo.finishTime)
+                local closeTime = Utils:getUTCDate(curStageInfo.finishTime, GV_UTC_TIME_ZONE)
                 local closeStr = closeTime:fmt("%H:%M")
-                awardTime =startDateStr.."-"..closeStr
+                awardTime =startDateStr.."-"..closeStr..GV_UTC_TIME_STRING
             end
             self.Label_getReward_time:setTextById(112000256, awardTime)
         else
@@ -339,11 +350,11 @@ function CelebrationView:updateDrawView(stage)
     local voteTime = ""
     local stageInfo = OneYearDataMgr:getStageInfoByIndex(self.curTurnIndex)
     if stageInfo then
-        local startTime = Utils:getLocalDate(stageInfo.drawInfo[1].drawTime)
+        local startTime = Utils:getUTCDate(stageInfo.drawInfo[1].drawTime, GV_UTC_TIME_ZONE)
         local startDateStr = startTime:fmt("%Y-%m-%d %H:%M")
-        local closeTime = Utils:getLocalDate(stageInfo.drawInfo[2].closingTime)
+        local closeTime = Utils:getUTCDate(stageInfo.drawInfo[2].closingTime, GV_UTC_TIME_ZONE)
         local closeStr = closeTime:fmt("%H:%M")
-        voteTime =startDateStr.."-"..closeStr
+        voteTime =startDateStr.."-"..closeStr..GV_UTC_TIME_STRING
     end
     self.Label_draw_time:setText(voteTime)
 
@@ -353,7 +364,7 @@ function CelebrationView:updateDrawView(stage)
     self.Panel_draw_scend:setVisible(awardType == 2)
 
     local pos = awardType == 2 and ccp(-174,67) or ccp(-171,-9)
-    local pos1 = awardType == 2 and ccp(-34,91) or ccp(-31,14)
+    local pos1 = awardType == 2 and ccp(34,100) or ccp(31,24)
     self.Label_draw_tip:setTextById(112000257, self.curTurnIndex)
     self.Label_draw_tip:setPosition(pos)
     self.Label_draw_time:setPosition(pos1)

@@ -8,7 +8,7 @@ function KuangsanAssistView:ctor(data)
 	self.super.ctor(self,data)
 	self.activityId = data
     self.activityInfo_ = ActivityDataMgr2:getActivityInfo(self.activityId)
-    self.tab_data = {{id = 1, name = "每日任务"},{id = 2, name = "解锁拼图"},{id = 3, name = "应援排行"}}
+    self.tab_data = {{id = 1, name = 303068},{id = 2, name = 112000252},{id = 3, name = 112000253}}
     self.pic_name_id = {{normal = "022", unlock = "043"},{normal = "023", unlock = "046"},{normal = "024", unlock = "044"},{normal = "025", unlock = "017"},{normal = "026", unlock = "018"},{normal = "027", unlock = "042"},{normal = "028", unlock = "019"},{normal = "029", unlock = "020"},{normal = "030", unlock = "045"}}
     self.selectTabId = nil
     self.totalPoint = 0
@@ -80,7 +80,7 @@ function KuangsanAssistView:initView()
 	self.tab_items = {}
     for i,v in ipairs(self.tab_data) do
         local item = self.tab_btn:clone()
-        TFDirector:getChildByPath(item, "Label_btn_name"):setText(v.name)
+        TFDirector:getChildByPath(item, "Label_btn_name"):setTextById(v.name)
         self.ListViewTab:pushBackCustomItem(item)
         self.tab_items[v.id] = item
         item:setTouchEnabled(true)
@@ -182,7 +182,8 @@ function KuangsanAssistView:selectTabBtn(id)
 end
 
 function KuangsanAssistView:updatePanelHead(data)
-    self.totalPoint = data.process
+    --self.totalPoint = data.process
+   self.totalPoint =  GoodsDataMgr:getItemCount(580168)
     self.realItemMinRank = data.realItemMinRank
     local percent
     if self.maxPoint == 0 then
@@ -262,7 +263,7 @@ function KuangsanAssistView:updateTaskItem(index)
     local item = self.ListView_task:getItem(index)
     local foo = self.taskItems_[item]
 
-    foo.Label_task_desc:setText(itemInfo.extendData.des2)
+    foo.Label_task_desc:setText(Utils:splitLanguageStringByTag(itemInfo.extendData.des2))
     foo.Label_percent_value:setTextById(800005, progress, itemInfo.target)
     if progress > tonumber(itemInfo.target)  then
         foo.Label_percent_value:setTextById(800005, itemInfo.target, itemInfo.target)
@@ -437,7 +438,23 @@ end
 
 function KuangsanAssistView:onSubmitSuccessEvent(activitId, itemId, reward)
     if self.activityId ~= activitId then return end
-    Utils:showReward(reward)
+    local singleReward = {}
+    local otherReward = {}
+    for k,v in pairs(reward) do
+        if v.id == 540288 then
+            table.insert(singleReward , v)
+        else
+            table.insert(otherReward , v)
+        end
+    end
+    if #singleReward > 0 then
+        Utils:showReward(singleReward , nil , function( ... )
+           Utils:showReward(otherReward)
+        end)
+    else
+        Utils:showReward(reward)
+    end
+    
     ActivityDataMgr2:requestAssistProgress(self.activityId)
 end
 

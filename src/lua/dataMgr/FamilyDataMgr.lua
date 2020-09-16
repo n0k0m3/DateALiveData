@@ -78,7 +78,8 @@ function FamilyDataMgr:createAnimation( heroid, panel )
     panel:addChild(model)
     if not HeroDataMgr:getIsHave(heroid) then
     	model:setColor(ccc3(80,80,80))
-        model:setZOrder(model:getZOrder() - 100)
+        --屏蔽未解锁精灵放到最后
+        --model:setZOrder(model:getZOrder() - 100)
     end
 	return model
 end

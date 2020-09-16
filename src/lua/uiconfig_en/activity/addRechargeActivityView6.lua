@@ -230,7 +230,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "TextLable",
+									text = "During the event, players can get great rewards by fulfilling the top-up targets.",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -286,7 +286,7 @@ local t =
 										PositionY = -238,
 									},
 									visible = "False",
-									width = "242",
+									width = "267",
 									ZOrder = "1",
 								},
 								{
@@ -308,14 +308,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "30",
+									fontSize = "25",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "37",
+									height = "30",
 									ignoreSize = "True",
 									name = "Label_recharge",
 									nTextAlign = "1",
@@ -329,10 +329,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -238,
+										PositionX = -262,
 										PositionY = -216,
 									},
-									width = "99",
+									width = "63",
 									ZOrder = "1",
 								},
 								{
@@ -410,18 +410,18 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "28",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_addRecharge_title",
 									nTextAlign = "1",
-									nTextHAlign = "1",
+									nTextHAlign = "0",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -434,7 +434,7 @@ local t =
 										PositionX = -424,
 										PositionY = -216,
 									},
-									width = "178",
+									width = "150",
 									ZOrder = "1",
 								},
 							},
@@ -624,7 +624,7 @@ local t =
 											{
 												PositionY = 11,
 											},
-											width = "59",
+											width = "75",
 											ZOrder = "1",
 										},
 									},
@@ -797,7 +797,7 @@ local t =
 											{
 												PositionY = 11,
 											},
-											width = "41",
+											width = "55",
 											ZOrder = "1",
 										},
 									},
@@ -907,7 +907,7 @@ local t =
 											{
 												PositionY = 10,
 											},
-											width = "44",
+											width = "36",
 											ZOrder = "1",
 										},
 									},

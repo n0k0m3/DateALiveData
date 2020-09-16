@@ -869,8 +869,10 @@ function DatingScriptView:showSceneEffect()
                 else
                     effectSK = self:showSceneSingleEffect(effectData,layerZ,uEffectId)
                 end
-                self.sceneEffect_[uEffectId] = effectSK
-                self.sceneEffect_[uEffectId].disScale = self.sceneEffect_[uEffectId]:getParent().disScale or 1
+                if effectSK then
+                    self.sceneEffect_[uEffectId] = effectSK
+                    self.sceneEffect_[uEffectId].disScale = self.sceneEffect_[uEffectId]:getParent().disScale or 1
+                end
             end
         end
     end
@@ -880,6 +882,7 @@ function DatingScriptView:showSceneSingleEffect(effectData,layerZ,uEffectId)
     local skPath = effectData.path
     local aniName = effectData.action
     local layerBelongTo = layerZ
+    if skPath == "" then return nil end
     local effectSK = SkeletonAnimation:create(skPath)
     effectSK:play(aniName, false)
     local scale = 1
@@ -935,6 +938,8 @@ function DatingScriptView:showSceneLoopEffect(effectData,layerZ,gSZorder)
     local skPath = effectData.path
     local aniName = effectData.action
     local layerBelongTo = layerZ
+
+    if skPath == "" then return nil end
     local effectSK = SkeletonAnimation:create(skPath)
     effectSK:play(aniName, true)
     local scale = 1

@@ -107,7 +107,7 @@ function Utils:showError(idOrText, ...)
     end
 
     toastMessage(text)
-    printError(text)
+    --printError(text)
 end
 
 
@@ -1293,7 +1293,10 @@ function Utils:randomAD(showType)
         for i, data in ipairs(showData) do
             if ranValue <= data.section then
                 -- print(showType , ranValue ,data)
-                return data.res , data.descID
+                if TFFileUtil:existFile(data.res) then
+                    return data.res ,data.descID
+                end
+                return "ui/update/s1.png",data.descID
             end
         end
     end
@@ -1406,7 +1409,7 @@ end
 function Utils:onTraitCollectionDidChange( )
     -- body
     local currentScene = Public:currentScene()
-    if currentScene then currentScene:updateUIUserInterfaceStyle() end
+    if (currentScene and currentScene.updateUIUserInterfaceStyle) then currentScene:updateUIUserInterfaceStyle() end
 end
 
 function Utils:onKeyBack()

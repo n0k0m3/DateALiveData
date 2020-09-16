@@ -304,6 +304,32 @@ function MonthCardView:showGiftPanel(bupdate)
                 Utils:showReConfirm(args)
                 return
             end)
+            --英文版特有过期提示
+            local monthCardInfo = RechargeDataMgr:getMonthCardInfo()
+            local label_time_limit = gift:getChild("label_time_limit")
+            if tobool(RechargeDataMgr:getMonthCardLeftTime() > 0) and v.ext.day and  monthCardInfo.lastEndTime and  monthCardInfo.lastGainDate ~= 0 then
+                local lastBuyTime = monthCardInfo.lastGainDate
+                local lastEndTime = monthCardInfo.lastEndTime
+                if lastEndTime > 0 and lastBuyTime - lastEndTime  <= v.ext.day * 24 * 3600    then
+                    label_time_limit:hide()
+                else
+                    label_time_limit:show()
+                    function calcShowTime(startTime , endTime , limitDay )
+                    local showTime
+                        if endTime > 0 then
+                           showTime =  startTime + (30+ limitDay) * 24 * 3600
+                        else
+                            showTime = startTime + (30+ limitDay) * 24 * 3600
+                        end
+                        return Utils:getTimeData(showTime)
+                    end
+                    local showCalcTime = calcShowTime(lastBuyTime , lastEndTime , v.ext.day)
+                    local timeStrShow = string.format("%s-%s-%s %02d:%02d:%02d" , showCalcTime.Year,showCalcTime.Month,showCalcTime.Day,showCalcTime.Hour,showCalcTime.Minute , showCalcTime.Second)
+                    label_time_limit:setTextById(190000043 ,timeStrShow)
+                end
+            else
+                label_time_limit:hide()
+            end
             local awardlistview = UIListView:create(gift:getChild("ScrollView_award"))
             awardlistview:setItemsMargin(4)
             local awardlist = v.items or {}

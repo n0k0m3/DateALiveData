@@ -165,8 +165,11 @@ function LuckyListView:updateList()
     if not curExtendData then
         return
     end
-    self.Label_num_first:setText(curExtendData.drawInfo[2].activity.."人")
-    self.Label_num_scend:setText(curExtendData.drawInfo[1].activity.."人")
+    self.Label_num_first:setTextById( 190000150 ,curExtendData.drawInfo[2].activity)
+    self.Label_num_scend:setTextById(190000150 , curExtendData.drawInfo[1].activity)
+    --隐藏显示
+    self.Label_num_first:hide()
+    self.Label_num_scend:hide()
     local prizeFirst = OneYearDataMgr:getLuckyList(curExtendData.sign,curExtendData.drawInfo[2].prize)
     local prizeFirstCnt = prizeFirst and #prizeFirst or 0
     self.Panel_First:setVisible(prizeFirstCnt > 0)

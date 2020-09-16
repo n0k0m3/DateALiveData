@@ -15,6 +15,7 @@ function BagView:initData(mainSelectIndex, selectIndex)
             bag = {EC_Bag.SPIRIT},
             sellType = EC_BagSellType.MULTISELECT,
             category = EC_BagCategory.EQUIPMENT,
+            emptyText = 190000130,
         },
         {
             txt = 301003,
@@ -29,7 +30,8 @@ function BagView:initData(mainSelectIndex, selectIndex)
                     bag = {EC_Bag.DRAWING},
                     category = EC_BagCategory.MATERIAL,
                     sellType = EC_BagSellType.SINGLESELECT,
-                    isExtend = true
+                    isExtend = true,
+                    emptyText = 190000131,
                 },
                 {
                     txt = 14300201,
@@ -37,7 +39,9 @@ function BagView:initData(mainSelectIndex, selectIndex)
                     bag = {EC_Bag.FRAGMENT},
                     category = EC_BagCategory.MATERIAL,
                     sellType = EC_BagSellType.SINGLESELECT,
-                    isExtend = true
+                    isExtend = true,
+                    emptyText = 190000132,
+
                 },
                 {
                     txt = 14300202,
@@ -45,7 +49,8 @@ function BagView:initData(mainSelectIndex, selectIndex)
                     bag = {EC_Bag.CRYSTYL},
                     category = EC_BagCategory.MATERIAL,
                     sellType = EC_BagSellType.SINGLESELECT,
-                    isExtend = true
+                    isExtend = true,
+                    emptyText = 190000133,
                 },
                 {
                     txt = 14300203,
@@ -53,7 +58,8 @@ function BagView:initData(mainSelectIndex, selectIndex)
                     bag = {EC_Bag.MATERIAL},
                     category = EC_BagCategory.MATERIAL,
                     sellType = EC_BagSellType.SINGLESELECT,
-                    isExtend = true
+                    isExtend = true,
+                    emptyText = 190000134,
                 },
                 
             },
@@ -66,13 +72,14 @@ function BagView:initData(mainSelectIndex, selectIndex)
             bag = {EC_Bag.USEITEM},
             sellType = EC_BagSellType.SINGLESELECT,
             category = EC_BagCategory.ITEM,
-			
+			emptyText = 190000135,
         },
         {
             txt = 225007,
             iconImg = "ui/fairy/new_ui/tab_6.png",
             bag = {EC_Bag.NEWEQUIP},
             category = EC_BagCategory.NEWEQUIP,
+            emptyText = 190000136,
         },
         --{
         --    txt = 301023,
@@ -87,6 +94,7 @@ function BagView:initData(mainSelectIndex, selectIndex)
             bag = {EC_Bag.BAOSHI},
             category = EC_BagCategory.BAOSHI,
             sellType = EC_BagSellType.MULTISELECT,
+            emptyText = 190000137,
         },
         
     }
@@ -159,6 +167,20 @@ function BagView:initUI(ui)
     self.Label_capacity = TFDirector:getChildByPath(Panel_middle, "Label_capacity")
     self.Label_capacity_percent = TFDirector:getChildByPath(Panel_middle, "Label_capacity_percent")
     self.LoadingBar_capacity = TFDirector:getChildByPath(Panel_middle, "LoadingBar_capacity")
+
+
+    self.label_empyTetx = TFLabel:create()
+    self.label_empyTetx:setFontName("font/MFLiHei_Noncommercial.ttf")
+    self.label_empyTetx:setFontSize(25)
+    self.label_empyTetx:setTextAreaSize(CCSize(950 , 0))
+    self.label_empyTetx:setAnchorPoint(ccp(0.5 , 1))
+    self.label_empyTetx:setPosition(0 , -100)
+    --self.label_empyTetx:enableOutline(ccc4(0,0,0,255), 1)
+    Panel_middle:addChild(self.label_empyTetx)
+
+    self.image_emptyImag = TFImage:create("ui/guide/809.png")
+    self.image_emptyImag:setPositionY(0)
+    Panel_middle:addChild(self.image_emptyImag)
 
     self.Panel_bottom = TFDirector:getChildByPath(self.Panel_root, "Panel_bottom")
     self.Button_sell = TFDirector:getChildByPath(self.Panel_bottom, "Button_sell")
@@ -428,6 +450,7 @@ function BagView:updateBtnView(index)
                     item:Alpha(0)
                 end
             end
+            
         end
     end
 
@@ -597,6 +620,7 @@ end
 
 function BagView:showGoodsItem()
     local goodsData = self.goodsData_[self.selectIndex_]
+   
     if goodsData == nil then
         return;
     end
@@ -1162,6 +1186,16 @@ function BagView:updateGoodsData(index)
         end
     end
     self:goodsDataSort(index)
+
+    self.image_emptyImag:hide()
+    self.label_empyTetx:hide()
+    if #self.goodsData_[index]<=0 then
+         self.label_empyTetx:show()
+        self.label_empyTetx:setTextById(config.emptyText)
+        self.image_emptyImag:show()
+        return;
+    end
+    local loadIndex = self.loadItemIndex_[self.selectIndex_]
 end
 
 function BagView:getEquipGoodsIndex(index,itemCid)

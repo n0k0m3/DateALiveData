@@ -3269,7 +3269,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Badge",
+									text = "Badge & Title",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -3277,7 +3277,7 @@ local t =
 										PositionX = -70,
 										PositionY = 45,
 									},
-									width = "62",
+									width = "124",
 									ZOrder = "1",
 								},
 								{

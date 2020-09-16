@@ -2,7 +2,6 @@
 local ChristmasPreView = class("ChristmasPreView",BaseLayer)
 
 function ChristmasPreView:ctor( data )
-    -- body
     self.super.ctor(self,data)
     self.activityId_ = data
     self.path = "ui/activity/christmas_pre/"
@@ -10,19 +9,16 @@ function ChristmasPreView:ctor( data )
 end
 
 function ChristmasPreView:initUI( ui )
-    -- body
     self.super.initUI(self,ui)
 
     self.label_time = TFDirector:getChildByPath(ui,"label_time")
     self.label_des = TFDirector:getChildByPath(ui,"label_des")
-    self.label_des1 = TFDirector:getChildByPath(ui,"label_des1")
+    self.label_des_ex = TFDirector:getChildByPath(ui,"label_des_ex")
 
-    self.label_number = TFDirector:getChildByPath(ui,"label_number"):hide()
-    self.label_number:setSkewX(15)
-    self.label_tip1 = TFDirector:getChildByPath(ui,"label_tip1"):hide()
-    self.label_tip1:setSkewX(15)
-    self.label_tip2 = TFDirector:getChildByPath(ui,"label_tip2"):hide()
-    self.label_tip2:setSkewX(15)
+    self.label_number = TFDirector:getChildByPath(ui,"label_number")
+    self.label_tip2 = TFDirector:getChildByPath(ui,"label_tip2")
+
+    self.Image_title = TFDirector:getChildByPath(ui,"Image_title")
 
     self.Button_sell = TFDirector:getChildByPath(ui,"Button_sell")
     self.sellImage_icon = TFDirector:getChildByPath(self.Button_sell,"Image_icon")
@@ -32,28 +28,24 @@ function ChristmasPreView:initUI( ui )
     self.Image_dis = TFDirector:getChildByPath(self.Button_sell,"Image_dis")
 
     self.Image_bought = TFDirector:getChildByPath(ui,"Image_bought")
+    self.Image_bought:setGrayEnabled(true)
+    self.Image_discount = TFDirector:getChildByPath(ui,"Image_discount"):hide()
 
     self.Button_pre = TFDirector:getChildByPath(ui,"Button_pre")
     self.preImage_icon = TFDirector:getChildByPath(self.Button_pre,"Image_icon")
     self.preLabel_price = TFDirector:getChildByPath(self.Button_pre,"Label_price")
 
-    self.Image_bar = TFDirector:getChildByPath(ui,"Image_bar"):hide()
+    self.Image_bar = TFDirector:getChildByPath(ui,"Image_bar")
     self.LoadingBar = TFDirector:getChildByPath(ui,"LoadingBar")
     self.barBgWidth = self.Image_bar:getContentSize().width
 
-    self.Panel_items = TFDirector:getChildByPath(ui,"Panel_items")
+    self.Panel_items = TFDirector:getChildByPath(ui,"Panel_items"):hide()
 
     self:refreshView( )
     self:updateCountDonw()
-
-    local _startyear, _startmonth, _startday = Utils:getDate(self.activityInfo.startTime, true)
-    local _endyear, _endmonth, _endday = Utils:getDate(self.activityInfo.endTime, true)
-    self.label_time:setText(_startyear..".".._startmonth .. "." .. _startday .. "-".._endyear..".".. _endmonth .. "." .. _endday)
-
 end
 
 function ChristmasPreView:refreshView()
-
     local saveStr = ActivityDataMgr2:getChristmasPreSaveStr()
     local curTime = ServerDataMgr:getServerTime()
     local timeFormate = Utils:getLocalDate(curTime)
@@ -80,10 +72,8 @@ function ChristmasPreView:updateBuyNum()
     dump(self.activityInfo)
     local curPersonNum = self.activityInfo.extendData.buyCount or 0
     self.label_des:setText(self.activityInfo.extendData.des)
-    self.label_des1:setText(self.activityInfo.extendData.des1)
-    self.label_number:setText(curPersonNum)
-    local posX = self.label_number:getPositionX() + self.label_number:getContentSize().width
-    self.label_tip2:setPositionX(posX)
+    self.label_des_ex:setText(self.activityInfo.extendData.des1)
+    self.label_number:setTextById(270611, curPersonNum)
     local items = ActivityDataMgr2:getItems(self.activityId_)
     local maxItemId = items[#items]
     if not maxItemId then
@@ -92,12 +82,9 @@ function ChristmasPreView:updateBuyNum()
     local itemInfo = ActivityDataMgr2:getItemInfo(EC_ActivityType2.CHRISTMAS_PRE, maxItemId)
     local percent = math.floor(curPersonNum/itemInfo.target*100)
     self.LoadingBar:setPercent(percent)
-
 end
 
 function ChristmasPreView:updateProgeress()
-
-
     local items = ActivityDataMgr2:getItems(self.activityId_)
     local maxItemId = items[#items]
     if not maxItemId then
@@ -120,17 +107,16 @@ function ChristmasPreView:updateProgeress()
         end
         self:updateItem(item,v)
     end
-
 end
 
-function ChristmasPreView:updateItem( item, id)
-
+function ChristmasPreView:updateItem(item, id)
     local progressInfo = ActivityDataMgr2:getProgressInfo(EC_ActivityType2.CHRISTMAS_PRE, id)
     local itemInfo = ActivityDataMgr2:getItemInfo(EC_ActivityType2.CHRISTMAS_PRE, id)
     local Image_goodbg = TFDirector:getChildByPath(item,"Image_goodbg")
     local Image_geted = TFDirector:getChildByPath(item,"Image_geted")
+    local Label_get_num = TFDirector:getChildByPath(item,"Label_get_num")
     local Image_ing = TFDirector:getChildByPath(item,"Image_ing")
-    local Image_discount = TFDirector:getChildByPath(item,"Image_discount")
+    local Label_ing_num = TFDirector:getChildByPath(Image_goodbg,"Label_ing_num")
     local Label_personNum = TFDirector:getChildByPath(item,"Label_personNum")
     Label_personNum:setText(itemInfo.target)
     progressInfo.status = progressInfo.status or EC_TaskStatus.ING
@@ -141,9 +127,8 @@ function ChristmasPreView:updateItem( item, id)
     if not imageNames then
         return
     end
-    Image_goodbg:setTexture(self.path..imageNames[2]..".png")
-    Image_discount:setTexture(self.path..imageNames[1]..".png")
-
+    Image_goodbg:setTexture(self.path .. "m1.png")
+    Label_ing_num:setText(imageNames[1])
 end
 
 function ChristmasPreView:updateSellInfo()
@@ -164,9 +149,19 @@ function ChristmasPreView:updateSellInfo()
     if giftData.buyCount ~= 0 and giftData.buyCount - RechargeDataMgr:getBuyCount(giftData.rechargeCfg.id) <= 0 then
         isBuyPreGift = true
     end
-
+    --英文版移动图片
+    self.Image_title:setPosition(234 , -80)
     if isSellState then
-
+        self.Image_title:setTexture(self.path .. "t2.png")
+        self.label_tip2:setTextById(270613)
+    else
+        self.Image_title:setTexture(self.path .. "t1.png")
+        self.label_tip2:setTextById(270612)
+    end
+    self.Image_bar:setVisible(not isSellState)
+    self.Image_discount:setVisible(isSellState)
+    
+    if isSellState then
         self.Label_cur_price:setVisible(isBuyPreGift)
         self.Image_dis:setVisible(isBuyPreGift)
 
@@ -180,8 +175,14 @@ function ChristmasPreView:updateSellInfo()
         self.Label_price:setText(originalData.exchangeCost[1].num)
         self.sellImage_icon:setTexture(exchangeCfg.icon)
 
-        local x = isBuyPreGift and -53 or -20
-        self.Label_price:setPositionX(x)
+        if self.Label_cur_price:isVisible() then
+            self.Label_price:setPositionX(self.Label_cur_price:getPositionX() - self.Label_price:getContentSize().width/2)
+        else
+            local iconWidth = self.sellImage_icon:getContentSize().width * self.sellImage_icon:getScale()
+            self.Label_price:setPositionX(iconWidth / 2)
+        end
+
+        local x = self.Label_price:getPositionX() - self.Label_price:getContentSize().width/2
         self.sellImage_icon:setPositionX(x)
 
         local isBuyGift = false
@@ -199,11 +200,9 @@ function ChristmasPreView:updateSellInfo()
 
         self.Image_bought:setVisible(isBuyPreGift)
     end
-
 end
 
 function ChristmasPreView:showRewardPreview(item, reward)
-
     local format_reward = {}
     for k, v in pairs(reward) do
         local item = Utils:makeRewardItem(k, v)
@@ -244,14 +243,9 @@ function ChristmasPreView:updateCountDonw()
     if not self.activityInfo then
         return
     end
-    local serverTime = ServerDataMgr:getServerTime()
-    local remainTime = math.max(0, self.activityInfo.showEndTime - serverTime)
-    local day, hour, min = Utils:getFuzzyDHMS(remainTime, true)
-    if day == "00" then
-        self.label_time:setTextById(self.activityInfo.extendData.hourRstring, hour, min)
-    else
-        self.label_time:setTextById(self.activityInfo.extendData.dayRstring, day, hour)
-    end
+    local _startyear, _startmonth, _startday = Utils:getDate(self.activityInfo.startTime, true)
+    local _endyear, _endmonth, _endday = Utils:getDate(self.activityInfo.endTime, true)
+    self.label_time:setText(_startyear..".".._startmonth .. "." .. _startday .. "-".._endyear..".".. _endmonth .. "." .. _endday)
 end
 
 function ChristmasPreView:onUpdateProgressEvent()
@@ -266,7 +260,6 @@ function ChristmasPreView:onSubmitSuccessEvent(activitId, itemId, reward)
     if self.activityId_ ~= activitId then return end
     Utils:showReward(reward)
 end
-
 
 function ChristmasPreView:registerEvents()
     self.super.registerEvents(self)
@@ -286,7 +279,19 @@ function ChristmasPreView:registerEvents()
         local originalId = self.activityInfo.extendData.originalId
         local sellGiftId = isBuyPreGift and discountId or originalId
 
-        RechargeDataMgr:getOrderNO(sellGiftId);
+        local realCfg = RechargeDataMgr:getOneRechargeCfg(sellGiftId)
+        local exchangeId = realCfg.exchangeCost[1].id
+        local needNum = realCfg.exchangeCost[1].num
+
+        if not self:checkTokenMoney(exchangeId, needNum) then
+            Utils:showAccess(exchangeId)
+            return;
+        end
+        local function cb()
+            RechargeDataMgr:RECHARGE_REQ_CHARGE_EXCHANGE(sellGiftId)
+        end
+        local content = TextDataMgr:getText(270610, needNum)
+        Utils:openView("common.ReConfirmTipsView", {tittle = 14210305, content = content, reType = false, confirmCall = cb,showCancle = true})
     end)
 
     self.Button_pre:onClick(function()
@@ -294,7 +299,27 @@ function ChristmasPreView:registerEvents()
             return
         end
         local preGiftId = self.activityInfo.extendData.giftID[1]
-        RechargeDataMgr:getOrderNO(preGiftId);
+        local rechargeCfg = RechargeDataMgr:getOneRechargeCfg(preGiftId)
+        local exchangeId = rechargeCfg.exchangeCost[1].id
+        local needNum = rechargeCfg.exchangeCost[1].num
+        if not self:checkTokenMoney(exchangeId, needNum) then
+            Utils:showAccess(exchangeId)
+            return;
+        end
+        local function cb()
+            RechargeDataMgr:RECHARGE_REQ_CHARGE_EXCHANGE(preGiftId)
+        end
+        local content = TextDataMgr:getText(270604, needNum)
+        Utils:openView("common.ReConfirmTipsView", {tittle = 270605, content = content, reType = false, confirmCall = cb,showCancle = true})
     end)
+end
+
+function ChristmasPreView:checkTokenMoney(id, num)
+    local have = GoodsDataMgr:getItemCount(id)
+    if num > have then
+        return false
+    end
+
+    return true
 end
 return ChristmasPreView

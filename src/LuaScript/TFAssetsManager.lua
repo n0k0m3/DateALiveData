@@ -1,7 +1,8 @@
 local TFAssetsManager = TFAssetsManager or {}
+
 TFAssetsManager.baseAppVersion = TabDataMgr:getData("PackBranch")[1].version or "1.03"   --小包远程资源版本号
 local strCfg = require("lua.table.String" ..GAME_LANGUAGE_VAR)
-function TFAssetsManager:init()
+function TFAssetsManager:init( tag )
 	self.normalQuene = {} --静默后台下载队列
 	self.priorityQuene = {} --优先插队下载队列
 	self.priorityAssets = nil --当前需要的远程资源(未开始下载及静默下载中的)
@@ -87,6 +88,8 @@ function TFAssetsManager:init()
 	self.remoteUrlIdx = 1
 	self.remoteUrlBasic = self.remoteUrl[self.remoteUrlIdx].."%s.awb"
 	self.remoteListUrl = self.remoteUrl[self.remoteUrlIdx].."extlist.json"
+
+	self.tag = tag or 1
 end
 
 function TFAssetsManager:getCheckInfo(series,param)
@@ -149,6 +152,7 @@ function TFAssetsManager:retryGetRemoteList()
 		self.remoteListUrl = self.remoteUrl[self.remoteUrlIdx].."extlist.bin"
 		self:getRemoteFileList(true)
 	end
+	EventMgr:dispatchEvent(EV_EXT_ASSET_DOWNLOAD_RETRY_EXTLIST)
 end
 
 function TFAssetsManager:onRemoteListGot(bReTry)
@@ -163,6 +167,7 @@ function TFAssetsManager:onRemoteListGot(bReTry)
 		return
 	end
 	self:downloadAssetsNormal(true)
+	EventMgr:dispatchEvent(EV_EXT_ASSET_DOWNLOAD_EXTLIST)
 end
 
 function TFAssetsManager:runManager()
@@ -367,10 +372,14 @@ function TFAssetsManager:downloadAssetsOfFunc(funcId,callback,isconfirm)
 		end
 		return
 	end
-	if CommonManager:getConnectionStatus() == false then
-		Utils:showError(strCfg[111000051].text)
-		return
+
+	if self.tag and self.tag > 0 then
+		if CommonManager:getConnectionStatus() == false then
+			Utils:showError(strCfg[111000051].text)
+			return
+		end
 	end
+	
 	if self.remoteListDict == nil then
 		--CDN未连接成功
 		Utils:showError(strCfg[111000052].text)
@@ -508,10 +517,14 @@ function TFAssetsManager:downloadHeroAssets(callback,isconfirm)
 		end
 		return
 	end
-	if CommonManager:getConnectionStatus() == false then
-		Utils:showError(strCfg[111000051].text)
-		return
+
+	if self.tag and self.tag > 0 then
+		if CommonManager:getConnectionStatus() == false then
+			Utils:showError(strCfg[111000051].text)
+			return
+		end
 	end
+	
 	if self.remoteListDict == nil then
 		--CDN未连接成功
 		Utils:showError(strCfg[111000052].text)
@@ -818,6 +831,10 @@ end
 
 function TFAssetsManager:getDownloading()
 	return self.priorityTasks_process
+end
+
+function TFAssetsManager:getRemoteListDict( )
+	return self.remoteListDict
 end
 
 return TFAssetsManager

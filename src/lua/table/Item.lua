@@ -3215,25 +3215,7 @@ return {
                     },
                     [13] = {
                         min = 1,
-                        id = 510316,
-                        max = 1,
-                        weight = 700,
-                    },
-                    [14] = {
-                        min = 1,
                         id = 510317,
-                        max = 1,
-                        weight = 700,
-                    },
-                    [15] = {
-                        min = 1,
-                        id = 510318,
-                        max = 1,
-                        weight = 900,
-                    },
-                    [16] = {
-                        min = 1,
-                        id = 510319,
                         max = 1,
                         weight = 700,
                     },
@@ -52013,7 +51995,7 @@ return {
     },
     [500095] = {
         superType = 6,
-        desTextId = 112000197,
+        desTextId = 14300080,
         cost = "",
         order = 1,
         pileUp = true,
@@ -52025,7 +52007,7 @@ return {
         outTime = 0,
         bagType = 5,
         autoUse = false,
-        nameTextId = 112000196,
+        nameTextId = 14300079,
         icon = "icon/item/goods/500095.png",
         quality = 3,
         isHide = false,
@@ -55794,6 +55776,272 @@ return {
         accessId = {
         },
         des = "开启后可选择任意角色的随机技能的A级宝石。",
+    },
+    [566051] = {
+        superType = 16,
+        desTextId = 266909,
+        cost = "",
+        order = 0,
+        pileUp = true,
+        useProfit = {
+        },
+        buyItemRecover = 0,
+        gridMax = 1,
+        bornEffect = false,
+        outTime = 0,
+        bagType = 0,
+        autoUse = false,
+        nameTextId = 190000147,
+        icon = "icon/hero/name/555020.png",
+        quality = 4,
+        isHide = false,
+        delete = false,
+        useCast = {
+        },
+        onceUseLimit = 0,
+        id = 566051,
+        totalMax = 1,
+        subType = 0,
+        sellProfit = {
+        },
+        batchUse = false,
+        convertMax = {
+        },
+        iconShow = "",
+        smallType = 0,
+        dealProfit = {
+        },
+        star = 0,
+        accessId = {
+        },
+        des = "参与「猩红梦魇」活动解锁拼图可获得",
+    },
+    [566052] = {
+        superType = 7,
+        desTextId = 190000149,
+        cost = "",
+        order = 1,
+        pileUp = true,
+        useProfit = {
+            fix = {
+                items = {
+                    [1] = {
+                        id = 540288,
+                        num = 1,
+                    },
+                },
+            },
+        },
+        buyItemRecover = 0,
+        gridMax = 9999999,
+        bornEffect = false,
+        outTime = 0,
+        bagType = 4,
+        autoUse = true,
+        nameTextId = 190000148,
+        icon = "icon/item/goods/566052.png",
+        quality = 1,
+        isHide = false,
+        delete = false,
+        useCast = {
+        },
+        onceUseLimit = 0,
+        id = 566052,
+        totalMax = 9999999,
+        subType = 3,
+        sellProfit = {
+            [1] = {
+                [1] = 500001,
+                [2] = 1,
+            },
+        },
+        batchUse = false,
+        convertMax = {
+        },
+        iconShow = "",
+        smallType = 0,
+        dealProfit = {
+        },
+        star = 0,
+        accessId = {
+        },
+        des = "开启后可获得猫娘狂三CG。",
+    },
+    [566053] = {
+        superType = 18,
+        desTextId = 190000153,
+        cost = "",
+        order = 0,
+        pileUp = true,
+        useProfit = {
+        },
+        buyItemRecover = 0,
+        gridMax = 1,
+        bornEffect = false,
+        outTime = 0,
+        bagType = 0,
+        autoUse = false,
+        nameTextId = 190000152,
+        icon = "icon/item/goods/566053.png",
+        quality = 4,
+        isHide = false,
+        delete = false,
+        useCast = {
+        },
+        onceUseLimit = 0,
+        id = 566053,
+        totalMax = 1,
+        subType = 0,
+        sellProfit = {
+        },
+        batchUse = false,
+        convertMax = {
+        },
+        iconShow = "",
+        smallType = 0,
+        dealProfit = {
+        },
+        star = 0,
+        accessId = {
+        },
+        des = "关注DAL SP游戏的FB和TW官方社区获得",
+    },
+    [566054] = {
+        superType = 12,
+        desTextId = 190000155,
+        cost = "",
+        order = 1,
+        pileUp = true,
+        useProfit = {
+            fix = {
+                items = {
+                    [1] = {
+                        id = 1210000,
+                        num = 1,
+                    },
+                },
+            },
+        },
+        buyItemRecover = 0,
+        gridMax = 99999,
+        bornEffect = false,
+        outTime = 0,
+        bagType = 0,
+        autoUse = true,
+        nameTextId = 190000154,
+        icon = "icon/item/goods/566054.png",
+        quality = 3,
+        isHide = false,
+        delete = false,
+        useCast = {
+        },
+        onceUseLimit = 0,
+        id = 566054,
+        totalMax = 99999,
+        subType = 1,
+        sellProfit = {
+        },
+        batchUse = false,
+        convertMax = {
+        },
+        iconShow = "",
+        smallType = 0,
+        dealProfit = {
+        },
+        star = 0,
+        accessId = {
+        },
+        des = "你现在是DAL SP粉丝团的一员了",
+    },
+    [566055] = {
+        superType = 18,
+        desTextId = 190000151,
+        cost = "",
+        order = 0,
+        pileUp = true,
+        useProfit = {
+        },
+        buyItemRecover = 0,
+        gridMax = 1,
+        bornEffect = false,
+        outTime = 0,
+        bagType = 0,
+        autoUse = false,
+        nameTextId = 190000150,
+        icon = "icon/item/goods/566055.png",
+        quality = 4,
+        isHide = false,
+        delete = false,
+        useCast = {
+        },
+        onceUseLimit = 0,
+        id = 566055,
+        totalMax = 1,
+        subType = 0,
+        sellProfit = {
+        },
+        batchUse = false,
+        convertMax = {
+        },
+        iconShow = "",
+        smallType = 0,
+        dealProfit = {
+        },
+        star = 0,
+        accessId = {
+        },
+        des = "纪念FB和TW社媒总粉丝数达成65K",
+    },
+    [566056] = {
+        superType = 7,
+        desTextId = 190000149,
+        cost = "",
+        order = 1,
+        pileUp = true,
+        useProfit = {
+            fix = {
+                items = {
+                    [1] = {
+                        id = 566052,
+                        num = 1,
+                    },
+                },
+            },
+        },
+        buyItemRecover = 0,
+        gridMax = 9999999,
+        bornEffect = false,
+        outTime = 0,
+        bagType = 4,
+        autoUse = true,
+        nameTextId = 190000148,
+        icon = "icon/item/goods/566052.png",
+        quality = 1,
+        isHide = false,
+        delete = false,
+        useCast = {
+        },
+        onceUseLimit = 0,
+        id = 566056,
+        totalMax = 9999999,
+        subType = 3,
+        sellProfit = {
+            [1] = {
+                [1] = 500001,
+                [2] = 1,
+            },
+        },
+        batchUse = false,
+        convertMax = {
+        },
+        iconShow = "",
+        smallType = 0,
+        dealProfit = {
+        },
+        star = 0,
+        accessId = {
+        },
+        des = "开启后可获得猫娘狂三CG。",
     },
     [533301] = {
         superType = 6,
@@ -63226,8 +63474,9 @@ return {
         },
         star = 0,
         accessId = {
-            [1] = 94,
-            [2] = 95,
+            [1] = 11,
+            [2] = 94,
+            [3] = 95,
         },
         des = "强化四糸乃碎片",
     },

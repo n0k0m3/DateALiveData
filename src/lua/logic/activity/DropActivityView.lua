@@ -69,7 +69,7 @@ function DropActivityView:updateActivity()
         self:updateCountDonw()
 
         local title = string.gsub(self.activityInfo_.activityTitle, "\\n", "\n")
-        self.Label_title:setText(title)
+        self.Label_title:setText(Utils:splitLanguageStringByTag(title))
     end
 end
 

@@ -634,7 +634,7 @@ function FubenLevelView:onShow()
     end, 0.1)
 
     if FubenDataMgr:checkIsAllChapterPassWin() then   --按需求要弹出四糸乃跳转提示
-        local mainFuncInfo = FunctionDataMgr:getMainFuncInfo(207)
+        local mainFuncInfo = FunctionDataMgr:getMainFuncInfo(217)
         if mainFuncInfo and tobool(mainFuncInfo.openWelfare) then
             Utils:openView("fuben.SisinaiChapterTipsView")
         end

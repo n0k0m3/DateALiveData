@@ -174,7 +174,7 @@ local function updateBuffView(self)
     if (activityInfo) then
         local buffID = activityInfo.extendData.equipItemCid
 
-        if (buffID) then
+        if (buffID) and tonumber(buffID) >0 then
             local cfgItem = TabDataMgr:getData("DfwCard", buffID)
 
             if (cfgItem) then

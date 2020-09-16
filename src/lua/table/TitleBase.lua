@@ -1,12 +1,12 @@
 return {
-    [9200000] = {
+    [9200114] = {
         superType = 38,
         excursion1 = {
         },
         order = 1,
         pileUp = true,
         condition = {
-            hasItem = 570501,
+            hasItem = 570516,
         },
         gridMax = 1,
         effectivetime = -1,
@@ -21,15 +21,15 @@ return {
         },
         content = 0,
         classify = 3,
-        lamp = 1101,
+        lamp = 0,
         titleLevel = 1,
-        notable = 1325370,
-        showPower = 40,
-        accessdes = 1326370,
-        titleType = 1,
+        notable = 1325417,
+        showPower = 130,
+        accessdes = 1326418,
+        titleType = 14,
         toplimit = 0,
         size2 = {
-            [1] = 120,
+            [1] = 110,
             [2] = 100,
             [3] = 100,
         },
@@ -39,11 +39,11 @@ return {
         reward = {
         },
         displayClassify = 1,
-        showEffect = "effect/title/chenghao_DAL3/chenghao_DAL3",
+        showEffect = "effect/title/skeleton/skeleton",
         excursion2 = {
             [1] = {
                 [1] = 5,
-                [2] = 0,
+                [2] = -8,
             },
             [2] = {
                 [1] = 0,
@@ -57,10 +57,11 @@ return {
         useCast = {
         },
         baseAttribute = {
-            [1] = 5000,
-            [3] = 1111,
+            [1] = 14110,
+            [2] = 4831,
+            [3] = 3755,
         },
-        chatShow = false,
+        chatShow = true,
         title = 0,
         relatedTask = 0,
         subType = 0,
@@ -72,6 +73,6 @@ return {
         },
         probability = 0,
         quality = 1,
-        id = 9200000,
+        id = 9200114,
     },
 }

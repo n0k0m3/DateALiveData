@@ -76,6 +76,8 @@ function BaseScene:addTouchEffectLayer()
             effectParticle:stopSystem()
             touchLayer.effectParticle = effectParticle
             touchLayer:addChild(effectParticle)
+        else
+            return
         end
         local touchBegan = function( sender )
             if TFDirectorModel.bPause == true then

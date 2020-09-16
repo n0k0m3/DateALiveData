@@ -3269,7 +3269,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "勋章",
+									text = "勋章&称号",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -3277,7 +3277,7 @@ local t =
 										PositionX = -70,
 										PositionY = 45,
 									},
-									width = "47",
+									width = "106",
 									ZOrder = "1",
 								},
 								{

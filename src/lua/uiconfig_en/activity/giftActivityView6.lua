@@ -224,7 +224,7 @@ local t =
 										PositionX = -372,
 										PositionY = 2,
 									},
-									width = "147",
+									width = "138",
 									ZOrder = "1",
 								},
 								{
@@ -410,15 +410,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "15",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_num",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -433,7 +433,7 @@ local t =
 											{
 												PositionY = 217,
 											},
-											width = "107",
+											width = "243",
 											ZOrder = "1",
 										},
 										{
@@ -462,8 +462,8 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_buyCount",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -478,7 +478,7 @@ local t =
 											{
 												PositionY = 179,
 											},
-											width = "80",
+											width = "199",
 											ZOrder = "1",
 										},
 										{
@@ -523,7 +523,7 @@ local t =
 											{
 												PositionY = -99,
 											},
-											width = "126",
+											width = "134",
 											ZOrder = "1",
 										},
 										{
@@ -561,14 +561,15 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "   times left",
+											text = "Stock:",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
+												PositionX = -12,
 												PositionY = -215,
 											},
-											width = "92",
+											width = "47",
 											ZOrder = "1",
 											components = 
 											{
@@ -588,12 +589,12 @@ local t =
 													sizepercentx = "0",
 													sizepercenty = "0",
 													sizeType = "0",
-													srcBlendFunc = "1",
+													srcBlendFunc = "770",
 													texturePath = "ui/activity/assist/kuangsan/gift_003.png",
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														
+														PositionX = 17,
 													},
 													width = "156",
 													ZOrder = "-1",
@@ -640,7 +641,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 10,
+												PositionX = 24,
 												PositionY = -216,
 											},
 											width = "8",
@@ -695,14 +696,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "24",
+													fontSize = "20",
 													fontStroke = 
 													{
 														IsStroke = true,
 														StrokeColor = "#FFCA4465",
 														StrokeSize = 2,
 													},
-													height = "34",
+													height = "28",
 													ignoreSize = "True",
 													name = "Label_title_desc1",
 													nTextAlign = "1",
@@ -717,16 +718,16 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = -47,
-														PositionY = 4,
+														PositionY = 6,
 													},
-													width = "53",
+													width = "73",
 													ZOrder = "1",
 												},
 												{
 													controlID = "Label_title_desc_Image_title_di_Image_diban_Panel_gift_Panel_prefab_Panel-giftActivityView6_kuangsanAssist_activity_Game",
 													UUID = "2fa5a5b2_942c_493b_861f_f5e42487583c",
 													anchorPoint = "False",
-													anchorPointX = "0.5",
+													anchorPointX = "1",
 													anchorPointY = "0.5",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
@@ -741,14 +742,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "24",
+													fontSize = "15",
 													fontStroke = 
 													{
 														IsStroke = true,
 														StrokeColor = "#FFD7812B",
 														StrokeSize = 2,
 													},
-													height = "34",
+													height = "22",
 													ignoreSize = "True",
 													name = "Label_title_desc",
 													nTextAlign = "1",
@@ -762,11 +763,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -66,
+														PositionX = -17,
 														PositionY = 4,
 													},
-													visible = "False",
-													width = "102",
+													width = "252",
 													ZOrder = "1",
 												},
 											},
@@ -1006,14 +1006,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "24",
 											ignoreSize = "True",
 											name = "Label_price",
 											nTextAlign = "1",
@@ -1029,7 +1029,7 @@ local t =
 											{
 												PositionY = -2,
 											},
-											width = "81",
+											width = "53",
 											ZOrder = "1",
 										},
 										{

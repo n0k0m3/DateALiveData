@@ -120,15 +120,15 @@ return {
         },
     },
     [11] = {
-        show = 0,
+        show = 1,
         heroSkinId = 1104023,
-        sort = 16,
+        sort = 2,
         id = 11,
         heroId = 110413,
-        scale  = 0.22,
+        scale  = 0.45,
         paintPosition = {
-            y = 90,
-            x = 850,
+            y = 170,
+            x = 500,
         },
     },
     [12] = {

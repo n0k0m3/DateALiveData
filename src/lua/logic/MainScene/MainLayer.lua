@@ -3098,7 +3098,7 @@ function MainLayer:checkStarEvaluate()
             -- end
         end
         --onestore包没有5星评价
-        if EX_ASSETS_ENABLE then return end
+        if EX_ASSETS_ENABLE and (HeitaoSdk and tonumber(HeitaoSdk.getplatformId()) == 3) then return end
     else
         --999001服务器屏蔽
         --TODO close
@@ -3834,6 +3834,7 @@ function MainLayer:updatePushGiftList()
 	if GiftRoot == nil then
 		return;
 	end
+    GiftRoot:setPositionX(234)
 	GiftRoot:removeAllChildren()
 	local giftPrefab = TFDirector:getChildByPath(self.ui,"PrefabGift");
 	local limitData = RechargeDataMgr:getLimitGiftData()   

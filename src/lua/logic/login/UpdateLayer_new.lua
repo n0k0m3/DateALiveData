@@ -61,7 +61,8 @@ function UpdateLayer_new:initUI(ui)
     local loadInfo      = require("lua.gamedata.FileLoader"); --GetLoadFileList()
     local addLoadNum    = 0
     local maxNum        = loadInfo.total;
-    self.txt_update:setText(string.format(self.strCfg[800092].text, addLoadNum, maxNum))
+
+    self.txt_update:setSystemFontText(self.strCfg[800092].text)
     self.bar_load:setPercent((addLoadNum / maxNum) * 100)
 
     --ui
@@ -80,9 +81,9 @@ function UpdateLayer_new:initUI(ui)
     TFDirector:getChildByPath(ui,"Image_updateLayer_3(3)"):hide();
 
     self.Label_percent    = TFDirector:getChildByPath(ui,"Label_percent");
-    self.Label_percent:setString("");
+    self.Label_percent:setSystemFontText("");
     self.Label_percent_2  = TFDirector:getChildByPath(ui,"Label_percent_2");
-    self.Label_percent_2:setString("");
+    self.Label_percent_2:setSystemFontText("");
 
     local pDirector = CCDirector:sharedDirector();
     local frameSize = pDirector:getOpenGLView():getFrameSize();
@@ -146,12 +147,19 @@ local function randomAD()
         for i, data in ipairs(showDatas) do
             if ranValue <= data.section then
                 -- print(1 , ranValue ,data)
-                return data.res ,data.descID
+                if TFFileUtil:existFile(data.res) then
+                    return data.res ,data.descID
+                end
+                return "ui/update/s1.png",data.descID
             end 
         end
     end
     -- Box("random ad data error showType:"..tostring(showType).." random:"..tostring(ranValue))
-    return showDatas[1].res ,showDatas[1].descID
+    if TFFileUtil:existFile(showDatas[1].res) then
+        return showDatas[1].res ,showDatas[1].descID
+    end
+
+    return "ui/update/s1.png" ,showDatas[1].descID
 end
 
 
@@ -237,7 +245,7 @@ function UpdateLayer_new:updateUI(idx)
         table.sort(desIds)
         local textId = math.random(desIds[2] - desIds[1]) - 1 + desIds[1]
         local text   = TextDataMgr:getText(textId)
-        self.Label_tips:setText(string.format("<%s>",text))
+        self.Label_tips:setSystemFontText(string.format("<%s>",text))
     else
         self.Label_tips:hide()
     end
@@ -332,12 +340,12 @@ function UpdateLayer_new:updateVision()
         nRate  = math.floor(nRate)
 
         self.bar_load:setPercent(nRate)
-        self.Label_percent:setText(string.format(self.strCfg[800093].text, nRate));
-        self.Label_percent_2:setText(string.format(self.strCfg[800094].text, size1, size2));
+        self.Label_percent:setSystemFontText(string.format(self.strCfg[800093].text, nRate));
+        self.Label_percent_2:setSystemFontText(string.format(self.strCfg[800094].text, size1, size2));
     end
 
     local function startUpdate()
-        self.txt_update:setText(self.strCfg[800095].text)
+        self.txt_update:setSystemFontText(self.strCfg[800095].text)
         TFClientUpdate:startDownloadZip(downloadingRecvData)
     end
 
@@ -400,8 +408,8 @@ function UpdateLayer_new:updateVision()
             print("---------------加载本地文件")
 
             Utils:sendHttpLog("unupdate_loading_G")
-            self.Label_percent:setString("");
-            self.Label_percent_2:setString("");
+            self.Label_percent:setSystemFontText("");
+            self.Label_percent_2:setSystemFontText("");
             self.bar_load:setPercent(0);
             restartLuaEngine("CompleteUpdate")
             return
@@ -409,8 +417,8 @@ function UpdateLayer_new:updateVision()
         elseif ret == 1 then
             print("---------------下载完成准备解压资源")
             local desc  = self.strCfg[800097].text
-            self.txt_update:setText(desc)
-            self.Label_percent_2:setString("");
+            self.txt_update:setSystemFontText(desc)
+            self.Label_percent_2:setSystemFontText("");
         elseif ret == -14 then
             if not self:checkForcedUpdate() then
                 self:showFailDiag(errorType);

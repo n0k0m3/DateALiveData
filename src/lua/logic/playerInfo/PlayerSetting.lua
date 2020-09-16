@@ -241,11 +241,6 @@ function PlayerSetting:initInfo()
     self.Image_title_new = TFDirector:getChildByPath(self.Button_title,"Image_title_new"):hide()
 
 
-    --屏蔽称号显示
-    self.Button_title:hide()
-    ScrollView_info:setContentSize(CCSize(410 , 288))
-    TFDirector:getChildByPath(self.Panel_player_info , "Image_info_bg_1"):hide()
-
    
     --屏蔽实名认真
     TFDirector:getChildByPath(self.Panel_player_info,"Panel_certification"):hide()

@@ -270,7 +270,7 @@ function MainPlayer:loadLocalFile()
                     bar_load:setPercent(100)
                 end
                 if (txt_update) then
-                    txt_update:setText(self.strCfg[800060].text)
+                    txt_update:setSystemFontText(self.strCfg[800060].text)
                 end
                 _G["MainPlayer"] = MainPlayer:new()
 
@@ -321,9 +321,9 @@ function MainPlayer:loadLocalFile()
 
                 if (txt_update) then
                     if (bar_load:getPercent() >= 100) then
-                        txt_update:setText(self.strCfg[800060].text)
+                        txt_update:setSystemFontText(self.strCfg[800060].text)
                     else
-                        txt_update:setText(self.strCfg[800061].text)
+                        txt_update:setSystemFontText(self.strCfg[800061].text)
                     end
                 end
             end

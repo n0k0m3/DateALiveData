@@ -29,7 +29,7 @@ end
 function TitleDetailView:updateUI()
     self.Label_get_desc:setTextById(self.titleCfg.accessdes)
     self.Label_percent:setDimensions(380, 0)
-    self.Label_get_desc:setDimensions(380, 0)
+    self.Label_get_desc:setDimensions(320, 0)
 
     if self.titleId == 9200106  then
         self.Label_percent:setString(TextDataMgr:getText(1326518))

@@ -153,7 +153,7 @@ local t =
 									controlID = "Label_addressConfirmView_1_Panel_before_info_Panel_root_Panel-addressConfirmView_kuangsanAssist_activity_Game",
 									UUID = "2a1eb6e6_5801_48aa_8a59_470cc3793238",
 									anchorPoint = "False",
-									anchorPointX = "0.5",
+									anchorPointX = "0",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -175,7 +175,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "32",
+									height = "31",
 									ignoreSize = "True",
 									name = "Label_addressConfirmView_1",
 									nTextAlign = "1",
@@ -189,10 +189,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -122,
+										PositionX = -158,
 										PositionY = 190,
 									},
-									width = "81",
+									width = "156",
 									ZOrder = "1",
 								},
 								{
@@ -265,7 +265,7 @@ local t =
 											{
 												PositionX = 40,
 											},
-											width = "63",
+											width = "21",
 											ZOrder = "1",
 										},
 										{
@@ -310,7 +310,7 @@ local t =
 											{
 												PositionX = 110,
 											},
-											width = "70",
+											width = "23",
 											ZOrder = "1",
 										},
 									},
@@ -385,7 +385,7 @@ local t =
 											{
 												PositionX = 40,
 											},
-											width = "57",
+											width = "66",
 											ZOrder = "1",
 										},
 										{
@@ -506,7 +506,7 @@ local t =
 											{
 												PositionX = 40,
 											},
-											width = "75",
+											width = "65",
 											ZOrder = "1",
 										},
 										{
@@ -627,7 +627,7 @@ local t =
 											{
 												PositionX = 40,
 											},
-											width = "39",
+											width = "72",
 											ZOrder = "1",
 										},
 										{
@@ -672,7 +672,7 @@ local t =
 											{
 												PositionX = 110,
 											},
-											width = "70",
+											width = "23",
 											ZOrder = "1",
 										},
 									},
@@ -747,7 +747,7 @@ local t =
 											{
 												PositionX = 40,
 											},
-											width = "39",
+											width = "108",
 											ZOrder = "1",
 										},
 										{
@@ -792,7 +792,7 @@ local t =
 											{
 												PositionX = 110,
 											},
-											width = "70",
+											width = "23",
 											ZOrder = "1",
 										},
 									},
@@ -912,7 +912,7 @@ local t =
 											{
 												PositionX = 110,
 											},
-											width = "50",
+											width = "70",
 											ZOrder = "1",
 										},
 									},
@@ -974,7 +974,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "31",
 											ignoreSize = "True",
 											name = "Label_submit",
 											nTextAlign = "1",
@@ -990,7 +990,7 @@ local t =
 											{
 												
 											},
-											width = "54",
+											width = "65",
 											ZOrder = "1",
 										},
 									},
@@ -1088,7 +1088,7 @@ local t =
 									controlID = "Label_after_tip_Panel_after_info_Panel_root_Panel-addressConfirmView_kuangsanAssist_activity_Game",
 									UUID = "90f246b0_ac06_4dc6_a2ae_4373579c721e",
 									anchorPoint = "False",
-									anchorPointX = "0.5",
+									anchorPointX = "0",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -1110,7 +1110,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "32",
+									height = "31",
 									ignoreSize = "True",
 									name = "Label_after_tip",
 									nTextAlign = "1",
@@ -1124,10 +1124,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -122,
+										PositionX = -158,
 										PositionY = 190,
 									},
-									width = "80",
+									width = "140",
 									ZOrder = "1",
 								},
 								{
@@ -1187,7 +1187,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "31",
 											ignoreSize = "True",
 											name = "Label_submit",
 											nTextAlign = "1",
@@ -1203,7 +1203,7 @@ local t =
 											{
 												
 											},
-											width = "55",
+											width = "110",
 											ZOrder = "1",
 										},
 									},
@@ -1278,7 +1278,7 @@ local t =
 											{
 												PositionX = 40,
 											},
-											width = "63",
+											width = "21",
 											ZOrder = "1",
 										},
 										{
@@ -1323,7 +1323,7 @@ local t =
 											{
 												PositionX = 110,
 											},
-											width = "70",
+											width = "23",
 											ZOrder = "1",
 										},
 									},
@@ -1398,7 +1398,7 @@ local t =
 											{
 												PositionX = 40,
 											},
-											width = "57",
+											width = "66",
 											ZOrder = "1",
 										},
 										{
@@ -1519,7 +1519,7 @@ local t =
 											{
 												PositionX = 40,
 											},
-											width = "75",
+											width = "65",
 											ZOrder = "1",
 										},
 										{
@@ -1640,7 +1640,7 @@ local t =
 											{
 												PositionX = 40,
 											},
-											width = "39",
+											width = "72",
 											ZOrder = "1",
 										},
 										{
@@ -1685,7 +1685,7 @@ local t =
 											{
 												PositionX = 110,
 											},
-											width = "70",
+											width = "23",
 											ZOrder = "1",
 										},
 									},
@@ -1760,7 +1760,7 @@ local t =
 											{
 												PositionX = 40,
 											},
-											width = "39",
+											width = "108",
 											ZOrder = "1",
 										},
 										{
@@ -1805,7 +1805,7 @@ local t =
 											{
 												PositionX = 110,
 											},
-											width = "70",
+											width = "23",
 											ZOrder = "1",
 										},
 									},
@@ -1925,7 +1925,7 @@ local t =
 											{
 												PositionX = 110,
 											},
-											width = "50",
+											width = "70",
 											ZOrder = "1",
 										},
 									},

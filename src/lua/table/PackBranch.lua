@@ -1,7 +1,7 @@
 return {
     [1] = {
         note = "第二章开启",
-        version = "1.03",
+        version = "1.04",
         id = 1,
         triggerType = 1,
         extParam = {
@@ -15,7 +15,7 @@ return {
     },
     [2] = {
         note = "替换看板",
-        version = "1.03",
+        version = "1.04",
         id = 2,
         triggerType = 11,
         extParam = {
@@ -29,7 +29,7 @@ return {
     },
     [3] = {
         note = "第三章开启",
-        version = "1.03",
+        version = "1.04",
         id = 3,
         triggerType = 1,
         extParam = {
@@ -58,7 +58,7 @@ return {
     },
     [4] = {
         note = "进入日常副本",
-        version = "1.03",
+        version = "1.04",
         id = 4,
         triggerType = 2,
         extParam = {
@@ -76,7 +76,7 @@ return {
     },
     [5] = {
         note = "进入无尽副本",
-        version = "1.03",
+        version = "1.04",
         id = 5,
         triggerType = 3,
         extParam = {
@@ -97,7 +97,7 @@ return {
     },
     [6] = {
         note = "进入联机副本",
-        version = "1.03",
+        version = "1.04",
         id = 6,
         triggerType = 3,
         extParam = {
@@ -125,7 +125,7 @@ return {
     },
     [7] = {
         note = "进入精灵挑战副本",
-        version = "1.03",
+        version = "1.04",
         id = 7,
         triggerType = 3,
         extParam = {
@@ -149,7 +149,7 @@ return {
     },
     [8] = {
         note = "进入卡巴拉副本",
-        version = "1.03",
+        version = "1.04",
         id = 8,
         triggerType = 3,
         extParam = {
@@ -167,7 +167,7 @@ return {
     },
     [9] = {
         note = "进入AST真那体验副本",
-        version = "1.03",
+        version = "1.04",
         id = 9,
         triggerType = 3,
         extParam = {
@@ -188,7 +188,7 @@ return {
     },
     [10] = {
         note = "进入强化十香体验副本",
-        version = "1.03",
+        version = "1.04",
         id = 10,
         triggerType = 3,
         extParam = {
@@ -208,7 +208,7 @@ return {
     },
     [11] = {
         note = "进入木桩副本",
-        version = "1.03",
+        version = "1.04",
         id = 11,
         triggerType = 5,
         extParam = {
@@ -234,7 +234,7 @@ return {
     },
     [12] = {
         note = "进入圣诞节",
-        version = "1.03",
+        version = "1.04",
         id = 12,
         triggerType = 6,
         extParam = {
@@ -275,7 +275,7 @@ return {
     },
     [13] = {
         note = "44乃",
-        version = "1.03",
+        version = "1.04",
         id = 13,
         triggerType = 4,
         extParam = {
@@ -288,7 +288,7 @@ return {
     },
     [14] = {
         note = "抽出狂三",
-        version = "1.03",
+        version = "1.04",
         id = 14,
         triggerType = 4,
         extParam = {
@@ -301,7 +301,7 @@ return {
     },
     [15] = {
         note = "抽出琴里",
-        version = "1.03",
+        version = "1.04",
         id = 15,
         triggerType = 4,
         extParam = {
@@ -315,7 +315,7 @@ return {
     },
     [16] = {
         note = "抽出真那",
-        version = "1.03",
+        version = "1.04",
         id = 16,
         triggerType = 4,
         extParam = {
@@ -328,7 +328,7 @@ return {
     },
     [17] = {
         note = "抽出耶具矢",
-        version = "1.03",
+        version = "1.04",
         id = 17,
         triggerType = 4,
         extParam = {
@@ -341,7 +341,7 @@ return {
     },
     [18] = {
         note = "抽出夕弦",
-        version = "1.03",
+        version = "1.04",
         id = 18,
         triggerType = 4,
         extParam = {
@@ -354,7 +354,7 @@ return {
     },
     [19] = {
         note = "抽出艾伦",
-        version = "1.03",
+        version = "1.04",
         id = 19,
         triggerType = 4,
         extParam = {
@@ -367,7 +367,7 @@ return {
     },
     [20] = {
         note = "抽出美久",
-        version = "1.03",
+        version = "1.04",
         id = 20,
         triggerType = 4,
         extParam = {
@@ -380,7 +380,7 @@ return {
     },
     [21] = {
         note = "抽出反转十香",
-        version = "1.03",
+        version = "1.04",
         id = 21,
         triggerType = 4,
         extParam = {
@@ -393,7 +393,7 @@ return {
     },
     [22] = {
         note = "抽出AST真那",
-        version = "1.03",
+        version = "1.04",
         id = 22,
         triggerType = 4,
         extParam = {
@@ -407,7 +407,7 @@ return {
     },
     [23] = {
         note = "抽出强化十香",
-        version = "1.03",
+        version = "1.04",
         id = 23,
         triggerType = 4,
         extParam = {
@@ -419,7 +419,7 @@ return {
     },
     [24] = {
         note = "抽出万由里",
-        version = "1.03",
+        version = "1.04",
         id = 24,
         triggerType = 4,
         extParam = {
@@ -432,7 +432,7 @@ return {
     },
     [25] = {
         note = "抽出七罪",
-        version = "1.03",
+        version = "1.04",
         id = 25,
         triggerType = 4,
         extParam = {
@@ -444,7 +444,7 @@ return {
     },
     [26] = {
         note = "抽出DEM折纸",
-        version = "1.03",
+        version = "1.04",
         id = 26,
         triggerType = 4,
         extParam = {
@@ -456,7 +456,7 @@ return {
     },
     [27] = {
         note = "抽出强化四糸乃",
-        version = "1.03",
+        version = "1.04",
         id = 27,
         triggerType = 4,
         extParam = {
@@ -468,7 +468,7 @@ return {
     },
     [28] = {
         note = "抽出精灵折纸",
-        version = "1.03",
+        version = "1.04",
         id = 28,
         triggerType = 4,
         extParam = {
@@ -480,7 +480,7 @@ return {
     },
     [29] = {
         note = "抽出黑折纸",
-        version = "1.03",
+        version = "1.04",
         id = 29,
         triggerType = 4,
         extParam = {
@@ -492,7 +492,7 @@ return {
     },
     [30] = {
         note = "抽出涅普",
-        version = "1.03",
+        version = "1.04",
         id = 30,
         triggerType = 4,
         extParam = {
@@ -504,7 +504,7 @@ return {
     },
     [31] = {
         note = "抽出布兰",
-        version = "1.03",
+        version = "1.04",
         id = 31,
         triggerType = 4,
         extParam = {
@@ -516,7 +516,7 @@ return {
     },
     [32] = {
         note = "第四章开启",
-        version = "1.03",
+        version = "1.04",
         id = 32,
         triggerType = 1,
         extParam = {
@@ -545,7 +545,7 @@ return {
     },
     [33] = {
         note = "第五章开启",
-        version = "1.03",
+        version = "1.04",
         id = 33,
         triggerType = 1,
         extParam = {
@@ -576,7 +576,7 @@ return {
     },
     [34] = {
         note = "第六章开启",
-        version = "1.03",
+        version = "1.04",
         id = 34,
         triggerType = 1,
         extParam = {
@@ -609,7 +609,7 @@ return {
     },
     [35] = {
         note = "第七章开启",
-        version = "1.03",
+        version = "1.04",
         id = 35,
         triggerType = 1,
         extParam = {
@@ -644,7 +644,7 @@ return {
     },
     [36] = {
         note = "万由里剧场",
-        version = "1.03",
+        version = "1.04",
         id = 36,
         triggerType = 7,
         extParam = {
@@ -684,7 +684,7 @@ return {
     },
     [37] = {
         note = "第八章开启",
-        version = "1.03",
+        version = "1.04",
         id = 37,
         triggerType = 1,
         extParam = {
@@ -726,7 +726,7 @@ return {
     },
     [38] = {
         note = "万由里BOSS",
-        version = "1.03",
+        version = "1.04",
         id = 38,
         triggerType = 8,
         extParam = {
@@ -763,7 +763,7 @@ return {
     },
     [39] = {
         note = "万由里万由里困难",
-        version = "1.03",
+        version = "1.04",
         id = 39,
         triggerType = 9,
         extParam = {
@@ -800,12 +800,23 @@ return {
     },
     [40] = {
         note = "图鉴（全包）",
-        version = "1.03",
+        version = "1.04",
         id = 40,
         triggerType = 10,
         extParam = {
         },
         packID = {
+        },
+    },
+    [41] = {
+        note = "登陆小包",
+        version = "1.04",
+        id = 41,
+        triggerType = 12,
+        extParam = {
+        },
+        packID = {
+            [1] = 102,
         },
     },
 }

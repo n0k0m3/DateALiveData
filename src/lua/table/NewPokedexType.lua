@@ -13,7 +13,7 @@ return {
         name = 1701036,
         default = 205001,
         icon = "",
-        sort = 62,
+        sort = 63,
     },
     [5013] = {
         type2 = 105013,
@@ -29,7 +29,7 @@ return {
         name = 1701036,
         default = 205001,
         icon = "",
-        sort = 63,
+        sort = 64,
     },
     [5014] = {
         type2 = 105014,
@@ -45,7 +45,7 @@ return {
         name = 1701036,
         default = 205001,
         icon = "",
-        sort = 64,
+        sort = 65,
     },
     [1004] = {
         type2 = 101004,
@@ -123,7 +123,7 @@ return {
         name = 1701036,
         default = 205001,
         icon = "",
-        sort = 67,
+        sort = 68,
     },
     [3001] = {
         type2 = 103001,
@@ -153,7 +153,7 @@ return {
         name = 1701036,
         default = 205001,
         icon = "",
-        sort = 52,
+        sort = 53,
     },
     [3002] = {
         type2 = 103002,
@@ -301,7 +301,7 @@ return {
     },
     [1022] = {
         type2 = 101022,
-        isOpen = false,
+        isOpen = true,
         type1 = 1,
         type3 = {
             [1] = 201001,
@@ -556,6 +556,25 @@ return {
         icon = "",
         sort = 19,
     },
+    [10014] = {
+        type2 = 110014,
+        isOpen = true,
+        type1 = 11,
+        type3 = {
+            [1] = 210001,
+            [2] = 210002,
+            [3] = 210003,
+            [4] = 210004,
+            [5] = 210005,
+            [6] = 210006,
+        },
+        id = 10014,
+        roleId = 0,
+        name = 1702213,
+        default = 210001,
+        icon = "",
+        sort = 14,
+    },
     [7009] = {
         type2 = 107009,
         isOpen = true,
@@ -598,9 +617,9 @@ return {
         icon = "",
         sort = 79,
     },
-    [10014] = {
-        type2 = 110014,
-        isOpen = true,
+    [10013] = {
+        type2 = 110013,
+        isOpen = false,
         type1 = 11,
         type3 = {
             [1] = 210001,
@@ -610,12 +629,12 @@ return {
             [5] = 210005,
             [6] = 210006,
         },
-        id = 10014,
+        id = 10013,
         roleId = 0,
         name = 1702213,
         default = 210001,
         icon = "",
-        sort = 14,
+        sort = 13,
     },
     [7011] = {
         type2 = 107011,
@@ -661,39 +680,6 @@ return {
         icon = "",
         sort = 81,
     },
-    [10013] = {
-        type2 = 110013,
-        isOpen = false,
-        type1 = 11,
-        type3 = {
-            [1] = 210001,
-            [2] = 210002,
-            [3] = 210003,
-            [4] = 210004,
-            [5] = 210005,
-            [6] = 210006,
-        },
-        id = 10013,
-        roleId = 0,
-        name = 1702213,
-        default = 210001,
-        icon = "",
-        sort = 13,
-    },
-    [7013] = {
-        type2 = 107013,
-        isOpen = false,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 7013,
-        roleId = 0,
-        name = 1701038,
-        default = 207001,
-        icon = "",
-        sort = 82,
-    },
     [10011] = {
         type2 = 110011,
         isOpen = true,
@@ -713,19 +699,19 @@ return {
         icon = "",
         sort = 11,
     },
-    [7014] = {
-        type2 = 107014,
+    [7013] = {
+        type2 = 107013,
         isOpen = false,
         type1 = 7,
         type3 = {
             [1] = 207001,
         },
-        id = 7014,
+        id = 7013,
         roleId = 0,
         name = 1701038,
         default = 207001,
         icon = "",
-        sort = 83,
+        sort = 82,
     },
     [10009] = {
         type2 = 110009,
@@ -746,6 +732,20 @@ return {
         icon = "",
         sort = 9,
     },
+    [7014] = {
+        type2 = 107014,
+        isOpen = false,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 7014,
+        roleId = 0,
+        name = 1701038,
+        default = 207001,
+        icon = "",
+        sort = 83,
+    },
     [10007] = {
         type2 = 110007,
         isOpen = true,
@@ -764,6 +764,25 @@ return {
         default = 210001,
         icon = "",
         sort = 7,
+    },
+    [10005] = {
+        type2 = 110005,
+        isOpen = true,
+        type1 = 11,
+        type3 = {
+            [1] = 210001,
+            [2] = 210002,
+            [3] = 210003,
+            [4] = 210004,
+            [5] = 210005,
+            [6] = 210006,
+        },
+        id = 10005,
+        roleId = 0,
+        name = 1702213,
+        default = 210001,
+        icon = "",
+        sort = 5,
     },
     [2008] = {
         type2 = 102008,
@@ -797,8 +816,8 @@ return {
         icon = "",
         sort = 9,
     },
-    [10005] = {
-        type2 = 110005,
+    [10003] = {
+        type2 = 110003,
         isOpen = true,
         type1 = 11,
         type3 = {
@@ -809,12 +828,12 @@ return {
             [5] = 210005,
             [6] = 210006,
         },
-        id = 10005,
+        id = 10003,
         roleId = 0,
         name = 1702213,
         default = 210001,
         icon = "",
-        sort = 5,
+        sort = 3,
     },
     [6001] = {
         type2 = 106002,
@@ -859,24 +878,19 @@ return {
         icon = "",
         sort = 69,
     },
-    [10003] = {
-        type2 = 110003,
+    [5050] = {
+        type2 = 105050,
         isOpen = true,
-        type1 = 11,
+        type1 = 5,
         type3 = {
-            [1] = 210001,
-            [2] = 210002,
-            [3] = 210003,
-            [4] = 210004,
-            [5] = 210005,
-            [6] = 210006,
+            [1] = 205001,
         },
-        id = 10003,
+        id = 5050,
         roleId = 0,
-        name = 1702213,
-        default = 210001,
+        name = 1701036,
+        default = 205001,
         icon = "",
-        sort = 3,
+        sort = 50,
     },
     [10001] = {
         type2 = 110001,
@@ -930,7 +944,7 @@ return {
     },
     [8002] = {
         type2 = 108002,
-        isOpen = false,
+        isOpen = true,
         type1 = 8,
         type3 = {
             [1] = 208002,
@@ -985,7 +999,7 @@ return {
         name = 1701036,
         default = 205001,
         icon = "",
-        sort = 66,
+        sort = 67,
     },
     [5015] = {
         type2 = 105015,
@@ -1001,7 +1015,7 @@ return {
         name = 1701036,
         default = 205001,
         icon = "",
-        sort = 65,
+        sort = 66,
     },
     [1001] = {
         type2 = 101001,
@@ -1189,7 +1203,7 @@ return {
         name = 1701036,
         default = 205001,
         icon = "",
-        sort = 57,
+        sort = 58,
     },
     [1006] = {
         type2 = 101006,
@@ -1335,7 +1349,7 @@ return {
         name = 1701036,
         default = 205001,
         icon = "",
-        sort = 50,
+        sort = 51,
     },
     [4009] = {
         type2 = 104009,
@@ -1364,7 +1378,7 @@ return {
         name = 1701036,
         default = 205001,
         icon = "",
-        sort = 51,
+        sort = 52,
     },
     [1005] = {
         type2 = 101005,
@@ -1394,7 +1408,7 @@ return {
         name = 1701036,
         default = 205001,
         icon = "",
-        sort = 53,
+        sort = 54,
     },
     [2013] = {
         type2 = 102013,
@@ -1424,7 +1438,7 @@ return {
         name = 1701036,
         default = 205001,
         icon = "",
-        sort = 54,
+        sort = 55,
     },
     [2009] = {
         type2 = 102009,
@@ -1456,7 +1470,7 @@ return {
         name = 1701036,
         default = 205001,
         icon = "",
-        sort = 55,
+        sort = 56,
     },
     [4011] = {
         type2 = 104011,
@@ -1487,7 +1501,7 @@ return {
         name = 1701036,
         default = 205001,
         icon = "",
-        sort = 56,
+        sort = 57,
     },
     [1008] = {
         type2 = 101008,
@@ -1551,7 +1565,7 @@ return {
         name = 1701036,
         default = 205001,
         icon = "",
-        sort = 58,
+        sort = 59,
     },
     [1012] = {
         type2 = 101012,
@@ -1583,7 +1597,7 @@ return {
         name = 1701036,
         default = 205001,
         icon = "",
-        sort = 59,
+        sort = 60,
     },
     [4013] = {
         type2 = 104013,
@@ -1614,7 +1628,7 @@ return {
         name = 1701036,
         default = 205001,
         icon = "",
-        sort = 60,
+        sort = 61,
     },
     [2012] = {
         type2 = 102012,
@@ -1646,7 +1660,7 @@ return {
         name = 1701036,
         default = 205001,
         icon = "",
-        sort = 61,
+        sort = 62,
     },
     [2015] = {
         type2 = 102015,

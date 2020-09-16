@@ -1918,7 +1918,6 @@ return {
         roleModel = 210220,
         icon = "icon/role/dress_kanban/10219.png",
         accessId = {
-            [1] = 122,
         },
         totalMax = 1,
     },
@@ -2735,7 +2734,6 @@ return {
         roleModel = 210510,
         icon = "icon/role/dress_kanban/10510.png",
         accessId = {
-            [1] = 115,
         },
         totalMax = 1,
     },
@@ -2871,7 +2869,6 @@ return {
         roleModel = 210511,
         icon = "icon/role/dress_kanban/10511.png",
         accessId = {
-            [1] = 98,
         },
         totalMax = 1,
     },
@@ -4600,7 +4597,6 @@ return {
         roleModel = 210220,
         icon = "icon/role/dress_kanban/10219.png",
         accessId = {
-            [1] = 121,
         },
         totalMax = 1,
     },

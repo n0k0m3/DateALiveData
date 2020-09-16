@@ -15,7 +15,7 @@ function CommonManager:ctor()
         hideAllLoading();
     end
     self.TryReLoginFailTimes = 0
-    TFAssetsManager:init()
+    TFAssetsManager:init(1)
     TFDirector:addMEGlobalListener("Engine_Will_Restart", self.engineWillRestart)
     TFDirector:addProto(s2c.LOGIN_ENTER_SUC, self, self.loginHandle)
     TFDirector:addProto(s2c.PLAYER_RES_TIP_INFO, self, self.onTipInfoHandle) --服务器作弊信息提示
@@ -246,7 +246,7 @@ function CommonManager:connectHandle(nResult,requestLogin)
                     hideAllLoading();
                     toastMessageLink(TextDataMgr:getText(800121))
                     EventMgr:dispatchEvent(EV_EXT_ASSET_DOWNLOAD_VIEW_CLOSE)
-                    TFAssetsManager:init()
+                    TFAssetsManager:init(1)
                 else
                     self:reConnectServer(true);
                 end
@@ -265,7 +265,7 @@ function CommonManager:reConnectServer(re)
         hideAllLoading()
         toastMessageLink(TextDataMgr:getText(800121));
         EventMgr:dispatchEvent(EV_EXT_ASSET_DOWNLOAD_VIEW_CLOSE)
-        TFAssetsManager:init()
+        TFAssetsManager:init(1)
         return;
     end
 
@@ -277,7 +277,7 @@ function CommonManager:reConnectServer(re)
             -- toastMessageLink("与服务器断开");
             toastMessageLink(TextDataMgr:getText(800122));
             EventMgr:dispatchEvent(EV_EXT_ASSET_DOWNLOAD_VIEW_CLOSE)
-            TFAssetsManager:init()
+            TFAssetsManager:init(1)
             self:closeConnection3();
             return;
         end
@@ -360,7 +360,7 @@ function CommonManager:loginHandle(event)
     else
 		hideAllLoading()
         EventMgr:dispatchEvent(EV_EXT_ASSET_DOWNLOAD_VIEW_CLOSE)
-        TFAssetsManager:init()
+        TFAssetsManager:init(1)
         -- toastMessageLink("登录游戏服失败")
 		toastMessageLink(TextDataMgr:getText(800124))
     end
@@ -394,7 +394,7 @@ function CommonManager:connectionClosedCallback(nResult)
             -- toastMessageLink("登录游戏服失败");
             toastMessageLink(TextDataMgr:getText(800124))
             EventMgr:dispatchEvent(EV_EXT_ASSET_DOWNLOAD_VIEW_CLOSE)
-            TFAssetsManager:init()
+            TFAssetsManager:init(1)
             return
         end
     end

@@ -43,9 +43,6 @@ function PlayerInfoView:initUI(ui)
     self.Image_title_effect_bg = TFDirector:getChildByPath(self.ui, "Image_title_effect_bg")
 
     self.Image_title_bg = TFDirector:getChildByPath(self.ui , "Image_title_bg")
-    --暂时屏蔽称号
-    self.Image_title_bg:hide() --调整滚动区域
-    ScrollView_info:setContentSize(CCSize(548 , 300))
 
     self:initHeadInfo()
     self:initPlayerInfo()

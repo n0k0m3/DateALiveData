@@ -109568,7 +109568,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Where is this?! You are you?! Did you drag Yoshino here?!",
+                text = "Where is this?! Who are you?! Did you drag Yoshino here?!",
             },
         },
         actionL = {

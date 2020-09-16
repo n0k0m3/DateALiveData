@@ -1440,14 +1440,14 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "当前全服积分",
+													text = "我的积分",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
 														PositionY = 24,
 													},
-													width = "123",
+													width = "83",
 													ZOrder = "1",
 												},
 												{

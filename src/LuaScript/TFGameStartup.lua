@@ -21,7 +21,7 @@ GM_MODE = false;
 
 MD5_DEBUG = true
 
-if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID  and HeitaoSdk and tonumber(HeitaoSdk.getplatformId()) == 3) then
+if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID  and HeitaoSdk and (tonumber(HeitaoSdk.getplatformId()) == 3 or tonumber(HeitaoSdk.getplatformId()) == 5)) then
      EX_ASSETS_ENABLE = true
 end
 
@@ -348,14 +348,21 @@ function TFGameStartup:run(strrest)
     if strrest == "CompleteUpdate" then
         print("============检查更新完成 CompleteUpdate==============")
         self:loadGameInitFile(function ()
+            AlertManager:changeScene(SceneType.PACKBRANCH)
+
             -- TODO 模拟器下不显示LOGO
-            -- if CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 then
-            --     TFDirector:changeScene:changeScene(SceneType.LOGIN)
-            -- else
-                AlertManager:changeScene(SceneType.LOGO)
-            --end
+            -- -- if CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 then
+            -- --     TFDirector:changeScene:changeScene(SceneType.LOGIN)
+            -- -- else
+            --     AlertManager:changeScene(SceneType.LOGO)
+            -- --end
 
             print("*******************************************")
+        end)
+        return
+    elseif strrest == "checkPackBranchComplte" then
+         self:loadGameInitFile(function ()
+            AlertManager:changeScene(SceneType.LOGO)
         end)
         return
     elseif strrest == "EnterGame" then

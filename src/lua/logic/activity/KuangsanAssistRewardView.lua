@@ -31,6 +31,15 @@ function KuangsanAssistRewardView:initUI(ui)
     self.Button_rank = TFDirector:getChildByPath(ui, "Button_rank")
     self.Button_pic = TFDirector:getChildByPath(ui, "Button_pic")
 
+    local label_custom = TFLabel:create()
+    label_custom:setFontName("font/fangzheng_zhunyuan.ttf")
+    label_custom:setFontSize(15)
+    label_custom:setAnchorPoint(ccp(0 , 0.5))
+    label_custom:setPosition(-40 , 207)
+    --label_custom:enableOutline(ccc4(0,0,0,255), 1)
+    TFDirector:getChildByPath(ui , "Image_bg"):addChild(label_custom)
+    label_custom:setTextById(190000160)
+
     self:refreshView()
     self:selectTabBtn(1)
 end
@@ -40,7 +49,8 @@ function KuangsanAssistRewardView:refreshView()
     for i,v in ipairs(rankData) do
         local item = self.Panel_reward_item:clone()
         self.ListView_ranking:pushBackCustomItem(item)
-        TFDirector:getChildByPath(item, "Label_desc"):setText(v.extendData.des2 or "")
+        local nowDes = v.extendData.des2 or ""
+        TFDirector:getChildByPath(item, "Label_desc"):setText(Utils:splitLanguageStringByTag(nowDes))
         local Image_item_bg = TFDirector:getChildByPath(item, "Image_item_bg")
         local count = 0
         local goodsId, goodsNum
@@ -61,7 +71,9 @@ function KuangsanAssistRewardView:refreshView()
     for i,v in ipairs(picData) do
         local item = self.Panel_reward_item:clone()
         self.ListView_pic:pushBackCustomItem(item)
-        TFDirector:getChildByPath(item, "Label_desc"):setText(v.extendData.des2 or "")
+        
+        local nowDes = v.extendData.des2 or ""
+        TFDirector:getChildByPath(item, "Label_desc"):setText(Utils:splitLanguageStringByTag(nowDes))
         local Image_item_bg = TFDirector:getChildByPath(item, "Image_item_bg")
         local count = 0
         local goodsId, goodsNum

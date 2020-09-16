@@ -8,6 +8,13 @@ local TFLabelEx = {}
 local __setText = Label.setText
 
 local function setText(self,format, ...)
+    local label = TFDirector:getChildByPath(self:getParent(), "systemFont_"..self:getName())
+    if label then
+        self:setVisible(label:isVisible())
+        label:RemoveSelf()
+        label = nil
+    end
+
     if self.__richText then
         self:setVisible(self.__richText:isVisible())
         self.__richText:RemoveSelf()
@@ -205,6 +212,54 @@ function TFLabelEx:printer(id, speedHandle, completeHandle, ...)
     run()
 end
 
+function TFLabelEx:setSystemFontText( text )
+    if CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 or (not(EX_ASSETS_ENABLE == true)) then
+        self:setText(text)
+        return self, false
+    end
+
+    local label = TFDirector:getChildByPath(self:getParent(), "systemFont_"..self:getName())
+    if label == nil then
+        local fontSize = self:getFontSize()
+        local dimensions = self:getDimensions()
+        local hAlignment = self:getHorizontalAlignment()
+        label = Label:create()
+        label:setName("systemFont_"..self:getName())
+        label:setSystemFontName("Helvetica")
+        label:setSystemFontSize(fontSize)
+        if self:getParent() then
+            label:AddTo(self:getParent())
+        end
+        label:setAnchorPoint(self:getAnchorPoint())
+        label:setColor(self:getColor())
+        label:setFontFillColor(self:getTextColor())
+        label:Pos(self:Pos())
+        label:ZO(self:ZO())
+        label:setRotation(self:getRotation())
+        label:setDimensions(dimensions.width,dimensions.height)
+    end
+    self:hide()   
+    label:setString(text)
+    return label, true
+end
+
+function TFLabelEx:setSystemFontTextById( id, ... )
+    if not (EX_ASSETS_ENABLE == true) then
+        self:setTextById(id, ...)
+        return
+    end
+
+    if textAttr and (not TextDataMgr:isRString(textAttr)) then
+        local textAttr = TextDataMgr:getTextAttr(id)
+        local content = textAttr.text
+        if #{...} > 0 then
+            content = string.format(content, ...)
+        end
+        self:setSystemFontText(content)
+        return
+    end
+    self:setTextById(id, ...)
+end
 
 ----------------------------------------------------
 
