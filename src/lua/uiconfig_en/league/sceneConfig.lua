@@ -269,5 +269,25 @@ local t = {
 			canLoad=true,
 			logic="",
 		},
+		{
+			name="LeagueModifyName",
+			ui ="LeagueModifyName.lua",
+			x=0,
+			y=0,
+			speed=0,
+			layer="league",
+			canLoad=true,
+			logic="",
+		},
+		{
+			name="leagueCountrySelect",
+			ui ="leagueCountrySelect.lua",
+			x=0,
+			y=0,
+			speed=0,
+			layer="league",
+			canLoad=true,
+			logic="",
+		},
 }
 return t

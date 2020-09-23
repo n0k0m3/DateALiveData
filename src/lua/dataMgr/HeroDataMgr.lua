@@ -243,6 +243,7 @@ function HeroDataMgr:initShowList(onlyHave,containSimulationTrial)
 
 			haveTab = haveTab or {};
 			haveTab[v.site] = haveTab[v.site] or {};
+			haveTab[v.site].fightPower = v.fightPower or 0 
 			if v.ishave and not haveTab[v.site].ishave then
 				haveTab[v.site].ishave = true;
 			end
@@ -259,11 +260,13 @@ function HeroDataMgr:initShowList(onlyHave,containSimulationTrial)
 			if not haveTab[v.site].isCanCompose and isCanCompose then
 				haveTab[v.site].isCanCompose = true
 			end
-
+			
 			if v.job == 1 then
 				self.teamleader = v.id;
 			end
 		end
+
+		
 	end
 
 	--默认第一个为选中状态，将id插入有序表方便显示处理
@@ -289,7 +292,6 @@ function HeroDataMgr:initShowList(onlyHave,containSimulationTrial)
 		table.insert(self.showListIds,k);
 		self.showList[k][1].isSelected = true;
 	end
-
 	table.sort(self.showListIds,function ( a,b )
 		-- body
 			local ahave,bhave = 0,0;
@@ -308,10 +310,10 @@ function HeroDataMgr:initShowList(onlyHave,containSimulationTrial)
 							return aCanCompose > bCanCompose;
 						end
 					else
-						return a < b;
+						return haveTab[a].fightPower > haveTab[b].fightPower;  --英文版修改战力排序
 					end
 				else
-					return ahave > bhave;
+					return haveTab[a].fightPower > haveTab[b].fightPower;  --英文版修改战力排序
 				end
 			else
 				return haveTab[a].job < haveTab[b].job;

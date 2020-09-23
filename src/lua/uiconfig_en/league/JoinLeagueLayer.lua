@@ -829,14 +829,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "21",
 									ignoreSize = "True",
 									name = "Label_league_name",
 									nTextAlign = "1",
@@ -845,7 +845,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Club Name 16 Chars",
+									text = "CCCCCCCCCCCCCCCCCCCCCC",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -853,7 +853,7 @@ local t =
 										PositionX = -278,
 										PositionY = 10,
 									},
-									width = "192",
+									width = "245",
 									ZOrder = "1",
 								},
 								{
@@ -891,7 +891,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Lv.99",
+									text = "TextLable",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -899,7 +899,7 @@ local t =
 										PositionX = -276,
 										PositionY = -35,
 									},
-									width = "50",
+									width = "88",
 									ZOrder = "1",
 								},
 								{
@@ -967,14 +967,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
+									height = "21",
 									ignoreSize = "True",
 									name = "Label_active",
 									nTextAlign = "1",
@@ -988,10 +988,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -50,
+										PositionX = -19,
 										PositionY = 10,
 									},
-									width = "103",
+									width = "96",
 									ZOrder = "1",
 								},
 								{
@@ -1105,14 +1105,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
+									height = "21",
 									ignoreSize = "True",
 									name = "Label_active_num",
 									nTextAlign = "1",
@@ -1126,10 +1126,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 60,
+										PositionX = 91,
 										PositionY = 10,
 									},
-									width = "46",
+									width = "42",
 									ZOrder = "1",
 								},
 								{

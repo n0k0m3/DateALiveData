@@ -52,6 +52,7 @@ function LeagueDataMgr:init()
     
 
     self.clubBaesMap_ = TabDataMgr:getData("ClubBaes")
+    self.clubCountry_ = TabDataMgr:getData("ClubCountry")
 
     self.myUnionData_ = nil
     self.unionSnapInfoList_ = {}
@@ -102,11 +103,11 @@ function LeagueDataMgr:onLoginOut()
 end
 
 --创建社团
-function LeagueDataMgr:createUnion(unionName)
+function LeagueDataMgr:createUnion(unionName , country)
     if Utils:isStringContainSpecialChars(unionName,"%s") ~= nil then
         return false
     end
-    TFDirector:send(c2s.UNION_CREATE_UNION, {unionName})
+    TFDirector:send(c2s.UNION_CREATE_UNION, {unionName ,country})
     return true
 end
 
@@ -462,6 +463,20 @@ function LeagueDataMgr:onRecvUpdataUnionInfo(event)
         elseif data.type == EC_UNION_EDIT_Type.TRAIN_REMAIN_TIMES then
             self.trainMatrixInfo.remainTimes = self.trainMatrixInfo and tonumber(data.param) or self.trainMatrixInfo.remainTimes
             EventMgr:dispatchEvent(EV_UNION_TRAIN_INFO_UPDATE)
+        elseif data.type == EC_UNION_EDIT_Type.MODIFY_NAME then
+            if self.myUnionData_ then
+                self.myUnionData_.name = data.param
+            end
+            EventMgr:dispatchEvent(EV_UNION_MODIFY_NAME)
+        elseif data.type == EC_UNION_EDIT_Type.CHANGE_COUNTRY then
+            self.myUnionData_.country = data.param
+            EventMgr:dispatchEvent(EV_UNION_CHANGE_COUNTRY)
+        elseif data.type == EC_UNION_EDIT_Type.SHOW_COUNTRY then
+            if data.param == "true" then
+                self.myUnionData_.showCountry = true
+            else
+                self.myUnionData_.showCountry = false
+            end
         end
     end
 end
@@ -1251,7 +1266,21 @@ function LeagueDataMgr:getUnionName()
     if not self:checkSelfInUnion() then
         return TextDataMgr:getText(100000083)
     end
+    if self.myUnionData_.showCountry then
+        local countryStr = ""
+        if self.myUnionData_.showCountry then
+            countryStr = " ("..self:getClubCountryDataById(self.myUnionData_.country).Countryabbreviations..")"
+        end
+        return self.myUnionData_.name..countryStr
+    end
     return self.myUnionData_.name
+end
+
+function LeagueDataMgr:getUnionCountryName( ... )
+    if not self:checkSelfInUnion() then
+        return ""
+    end
+    return tonumber(self.myUnionData_.country or 0)
 end
 
 function LeagueDataMgr:getUnionMembers()
@@ -1358,6 +1387,8 @@ function LeagueDataMgr:getCurSettingStateByType(cType)
         return self.myUnionData_.joinLimit
     elseif cType == EC_UNION_SETTING_Type.AUTO_JOIN then
         return self.myUnionData_.autoJoin
+    elseif cType == EC_UNION_SETTING_Type.SHOW_COUNTRY then
+        return self.myUnionData_.showCountry
     end
 end
 
@@ -1512,7 +1543,7 @@ function LeagueDataMgr:getDegreePermissions()
         return a < b
     end)
     local permissions = {}
-    local names = {270426,270427,270428,270429,270430,270431,270432,270433,270434}
+    local names = {270426,270427,270428,270429,270430,270431,270432,270433,270434 , 190000181}
     for i, right in ipairs(rights) do
         local data = {}
         data.name =  TextDataMgr:getText(names[i])
@@ -2022,6 +2053,11 @@ function LeagueDataMgr:getHasHuntingFDAwardCanGet( )
         end
     end
     return false
+end
+
+function LeagueDataMgr:getClubCountryDataById( id )
+    id = tonumber(id)
+    return self.clubCountry_[id] or {}
 end
 --[[---------------------------------]]
 

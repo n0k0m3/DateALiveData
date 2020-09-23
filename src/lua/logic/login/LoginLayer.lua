@@ -403,7 +403,8 @@ function LoginLayer:registerEvents()
         --AlertManager:show()
     end)
 
-	ADD_KEYBOARD_CLOSE_LISTENER(self, self.ui)
+    --与返回键功能冲突 屏蔽 2020-09-21
+	--ADD_KEYBOARD_CLOSE_LISTENER(self, self.ui)
 
 	self.Button_closeLogin:onClick(function()
        	self.loginBoard:setVisible(false)

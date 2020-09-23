@@ -1514,6 +1514,10 @@ function EquipmentDataMgr:initShowList(heroId,pos,isSkyLadder)
 		local aSuit = self:getEquipSuitInfo(a)
 		local bSuit = self:getEquipSuitInfo(b)
 		local aUse  = self:isUesing(a);
+		local aQuality = self:getEquipQuality(a)
+		local bQuality = self:getEquipQuality(b)
+
+
 		if aUse then aUse = 1;else aUse = 0 end
 		local bUse 	= self:isUesing(b);
 		if bUse then bUse = 1;else bUse = 0 end
@@ -1541,10 +1545,14 @@ function EquipmentDataMgr:initShowList(heroId,pos,isSkyLadder)
 
 		if aUse == bUse then
 			if aStar == bStar then
-				if aCid == bCid then
-					return aLv > bLv
+				if aQuality == bQuality then
+					if aLv == bLv then
+						return aCid < bCid
+					else
+						return aLv > bLv
+					end
 				else
-					return aCid < bCid
+					return aQuality > bQuality
 				end
 			else
 				return aStar > bStar;

@@ -60,7 +60,8 @@ function KuangsanTaskView:initUILogic()
     self.Label_time:setText("")
     self.Label_end_time:setText("")
 
-    self.Label_task_progress:setText("活动开放时间："..startDateStr.."-"..endDateStr)
+    self.Label_task_progress:setText(Utils:getActivityDateString(self.activityInfo_.startTime, self.activityInfo_.endTime))
+
     self:refreshTime()
     self:updateTask()
 end
@@ -112,7 +113,7 @@ function KuangsanTaskView:updateCost()
 end
 
 function KuangsanTaskView:updateTask()
-
+    if not self.activityInfo_ then return end
     local items = self.activityInfo_.items
     for i=1,3 do
         local itemId = items[i]
@@ -154,10 +155,9 @@ function KuangsanTaskView:updateTaskItem(index,id)
             Utils:showInfo(itemId,nil,true)
         end)
     end
-
-    self.Panel_task_item[index].name:setText(itemInfo.extendData.des)
+    self.Panel_task_item[index].name:setTextById(itemInfo.extendData.des)
     self.Panel_task_item[index].name:setColor(nameColor)
-    self.Panel_task_item[index].desc:setText(itemInfo.extendData.des2)
+    self.Panel_task_item[index].desc:setTextById(itemInfo.extendData.des2)
     self.Panel_task_item[index].desc:setColor(descColor)
 
     self.Panel_task_item[index].getedBg:setVisible(state == EC_TaskStatus.GETED)

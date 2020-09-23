@@ -237,6 +237,7 @@ function TFLabelEx:setSystemFontText( text )
         label:ZO(self:ZO())
         label:setRotation(self:getRotation())
         label:setDimensions(dimensions.width,dimensions.height)
+        label:setVisible(self:isVisible())
     end
     self:hide()   
     label:setString(text)

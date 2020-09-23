@@ -19591,17 +19591,17 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "好的，我明白了。",
+                text = "Okay, I understand. ",
                 delay = 1000,
             },
             [2] = {
                 speed = 40,
-                text = "十香、耶俱矢，",
+                text = "Tohka, Kaguya, ",
                 delay = 800,
             },
             [3] = {
                 speed = 40,
-                text = " 拜托你们打头阵了。",
+                text = "Please lead the way.",
             },
         },
         actionL = {
@@ -19635,7 +19635,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "放心交给我吧！",
+                text = "Leave it to me!",
             },
         },
         actionL = {
@@ -19669,12 +19669,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "嗤嗤嗤，",
+                text = "Tsk, tsk, tsk.",
                 delay = 1000,
             },
             [2] = {
                 speed = 40,
-                text = "胜利的果实，就由作为先锋的我们独占吧。",
+                text = "I suppose we shall savor the sweet, sweet victory as the vanguards.",
             },
         },
         actionL = {
@@ -19708,7 +19708,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "不要冲的太过头啦。",
+                text = "Don't get over your head.",
             },
         },
         actionL = {
@@ -19742,17 +19742,17 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "此地已经是吾的阵地了！",
+                text = "This has become my territory! ",
                 delay = 1000,
             },
             [2] = {
                 speed = 40,
-                text = " 来吧",
+                text = " Go on. ",
                 delay = 800,
             },
             [3] = {
                 speed = 40,
-                text = "，攻上来试试吧！",
+                text = "Come and try me!",
             },
         },
         actionL = {
@@ -19786,12 +19786,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "很好，",
+                text = "Great! ",
                 delay = 800,
             },
             [2] = {
                 speed = 40,
-                text = "敌人好像开始撤退了！",
+                text = "The enemies seem to be retreating!",
             },
         },
         actionL = {
@@ -19825,17 +19825,17 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "唔姆，",
+                text = "Umu, ",
                 delay = 800,
             },
             [2] = {
                 speed = 40,
-                text = "这边看来是这样的，",
+                text = "it does seem so over here. ",
                 delay = 800,
             },
             [3] = {
                 speed = 40,
-                text = "敌人的攻势已经减弱了。",
+                text = "Their attacks are weakening.",
             },
         },
         actionL = {
@@ -19869,12 +19869,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "诶诶诶！",
+                text = "W-w-wait! ",
                 delay = 1000,
             },
             [2] = {
                 speed = 40,
-                text = "怎么这样……",
+                text = "How could it be...?!",
             },
         },
         actionL = {
@@ -19908,12 +19908,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "好的，",
+                text = "All right. ",
                 delay = 800,
             },
             [2] = {
                 speed = 40,
-                text = "我明白了。",
+                text = "I understand.",
             },
         },
         actionL = {
@@ -19947,17 +19947,17 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "正好，",
+                text = "Just as well. ",
                 delay = 800,
             },
             [2] = {
                 speed = 40,
-                text = "在先前深入卡巴拉世界的作战中，",
+                text = "I'd acquired lots of strategies ",
                 delay = 800,
             },
             [3] = {
                 speed = 40,
-                text = "正好学会了不少对策呢。",
+                text = "during the battles in the Kabbalah World last time.",
             },
         },
         actionL = {
@@ -19991,12 +19991,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "诸位，",
+                text = "Everyone, ",
                 delay = 800,
             },
             [2] = {
                 speed = 40,
-                text = "做好备战准备！",
+                text = "prepare yourself for battle!",
             },
         },
         actionL = {
@@ -20030,7 +20030,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "遵命！",
+                text = "Roger!",
             },
         },
         actionL = {
@@ -20064,12 +20064,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "报告司令官，",
+                text = "Commander,",
                 delay = 800,
             },
             [2] = {
                 speed = 40,
-                text = "敌人已经开始撤退了。",
+                text = "the enemy has begun retreating.",
             },
         },
         actionL = {
@@ -20103,17 +20103,17 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "终于肯乖乖放弃了呢。",
+                text = "They've finally learned to give up.",
                 delay = 1000,
             },
             [2] = {
                 speed = 40,
-                text = "诸位，",
+                text = "Everyone, ",
                 delay = 800,
             },
             [3] = {
                 speed = 40,
-                text = "就在原地构筑阵地。",
+                text = "let's fortify our base here.",
             },
         },
         actionL = {
@@ -20147,12 +20147,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "观测组继续监视球体的变化，",
+                text = "The observation team, keep tracking the evolution of the sphere. ",
                 delay = 800,
             },
             [2] = {
                 speed = 40,
-                text = "有情况立刻向我报告！",
+                text = "Report to me once things change.",
             },
         },
         actionL = {
@@ -20186,7 +20186,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "是！",
+                text = "Yes!",
             },
         },
         actionL = {
@@ -20220,12 +20220,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "这些怪物，",
+                text = "So these monsters ",
                 delay = 800,
             },
             [2] = {
                 speed = 40,
-                text = "果然和精灵有关。",
+                text = "were related to Spirits after all.",
             },
         },
         actionL = {
@@ -20259,17 +20259,17 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "是啊。",
+                text = "Yeah.",
                 delay = 1000,
             },
             [2] = {
                 speed = 40,
-                text = "而且没想到，",
+                text = "And who would've thought",
                 delay = 800,
             },
             [3] = {
                 speed = 40,
-                text = "居然会借用你的力量呢。",
+                text = " they would leverage your power.",
             },
         },
         actionL = {
@@ -20303,12 +20303,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "这是最优的决策，",
+                text = "You and I both know that ",
                 delay = 800,
             },
             [2] = {
                 speed = 40,
-                text = "你我都很清楚。",
+                text = "this is the best solution.",
             },
         },
         actionL = {
@@ -20342,7 +20342,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "哼。",
+                text = "Humph.",
             },
         },
         actionL = {
@@ -20376,12 +20376,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "打断。",
+                text = "Quiet. ",
                 delay = 1000,
             },
             [2] = {
                 speed = 40,
-                text = "敌人已经冲上来了。",
+                text = "The enemies are coming up.",
             },
         },
         actionL = {
@@ -20415,12 +20415,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "呀——！",
+                text = "Yeek! ",
                 delay = 1000,
             },
             [2] = {
                 speed = 40,
-                text = "像蚂蚁一样密密麻麻地好恶心！",
+                text = "They're like a horde of ants. Disgusting!",
             },
         },
         actionL = {
@@ -20454,22 +20454,22 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "敌人的数量已经被大大削减了！……",
+                text = "The number of enemies has been cut down drastically! And...",
                 delay = 1000,
             },
             [2] = {
                 speed = 40,
-                text = " 开",
+                text = "And...",
                 delay = 400,
             },
             [3] = {
                 speed = 40,
-                text = "、开始撤退了",
+                text = "they've begun retreating! ",
                 delay = 1000,
             },
             [4] = {
                 speed = 40,
-                text = "！大家没事吧？",
+                text = "Is everyone okay?",
             },
         },
         actionL = {
@@ -20503,12 +20503,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "没、",
+                text = "N-nothing ",
                 delay = 800,
             },
             [2] = {
                 speed = 40,
-                text = "没什么大碍……",
+                text = "serious.",
             },
         },
         actionL = {
@@ -20542,12 +20542,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "这种程度，",
+                text = "This isn't enough to make me release ",
                 delay = 800,
             },
             [2] = {
                 speed = 40,
-                text = "还不足以让吾使出漆黑之枪的全部力量呐。",
+                text = "the full strength of my Lance of Darkness.",
             },
         },
         actionL = {
@@ -20581,7 +20581,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "不打算追击吗？",
+                text = "Are you not going to pursue them?",
             },
         },
         actionL = {
@@ -20615,12 +20615,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "考虑到敌人有可能派出增援，",
+                text = "Enemy might send reinforcement, ",
                 delay = 800,
             },
             [2] = {
                 speed = 40,
-                text = "我们现在的首要任务是休息。",
+                text = "Our top task right now to taking some rest.",
             },
         },
         actionL = {
@@ -20654,12 +20654,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "明白了，",
+                text = "Understood. ",
                 delay = 800,
             },
             [2] = {
                 speed = 40,
-                text = "接下来就去吃晚饭吧！",
+                text = "Let us have dinner then!",
             },
         },
         actionL = {
@@ -20693,12 +20693,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "果然你和最近发生的这些怪事有所牵连吧。",
+                text = "You must be involved in these recent strange occurrences... ",
                 delay = 1000,
             },
             [2] = {
                 speed = 40,
-                text = "狂三。",
+                text = "Kurumi.",
             },
         },
         actionL = {
@@ -20732,7 +20732,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "谁知道呢。",
+                text = "How should I know?",
             },
         },
         actionL = {
@@ -20766,12 +20766,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "好吧，",
+                text = "Fine.",
                 delay = 800,
             },
             [2] = {
                 speed = 40,
-                text = "我想，你肯定能成为一个不错的拷问对象的。",
+                text = "I think you'd make an interesting target to interrogate.",
             },
         },
         actionL = {
@@ -20805,12 +20805,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "啊啦啊啦，",
+                text = "Ara ara, ",
                 delay = 800,
             },
             [2] = {
                 speed = 40,
-                text = "突然就亮出獠牙了呢。",
+                text = "the kitty's bearing her fangs.",
             },
         },
         actionL = {
@@ -20844,12 +20844,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "不愧是炎之精灵呢，",
+                text = "I shouldn't have expected less from the Flame Spirit. ",
                 delay = 800,
             },
             [2] = {
                 speed = 40,
-                text = "好可怕好可怕。",
+                text = "I'm shaking.",
             },
         },
         actionL = {
@@ -20883,12 +20883,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "不过我觉得你还是收手为妙哦，",
+                text = "But I'd suggest you quit while you still can, ",
                 delay = 800,
             },
             [2] = {
                 speed = 40,
-                text = " 不然的话……",
+                text = "otherwise...",
             },
         },
         actionL = {
@@ -20922,7 +20922,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "你到底想说什么……",
+                text = "What are you trying to say...",
             },
         },
         actionL = {
@@ -20956,22 +20956,22 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "我会在最后抉择的时刻等你们的，",
+                text = "I shall be waiting for you when it comes time for the final choice. ",
                 delay = 800,
             },
             [2] = {
                 speed = 40,
-                text = "届时，你就会知道了。",
+                text = "You will understand then.",
                 delay = 1000,
             },
             [3] = {
                 speed = 40,
-                text = " 在此之前",
+                text = "For now, ",
                 delay = 400,
             },
             [4] = {
                 speed = 40,
-                text = "，还请静静等待吧。",
+                text = "I ask only of your patience.",
             },
         },
         actionL = {
@@ -21005,7 +21005,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "等等——！",
+                text = "Wait!",
             },
         },
         actionL = {
@@ -21039,17 +21039,17 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "那么，",
+                text = "Well,",
                 delay = 400,
             },
             [2] = {
                 speed = 40,
-                text = "就此别过吧。",
+                text = "it is time to say farewell.",
                 delay = 1000,
             },
             [3] = {
                 speed = 40,
-                text = "嘻嘻嘻嘻~",
+                text = "Tee-hee-hee...",
             },
         },
         actionL = {
@@ -21083,12 +21083,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "这里交给你们了，",
+                text = "I'll leave it to you.",
                 delay = 800,
             },
             [2] = {
                 speed = 40,
-                text = "我先带 %s 去避难。",
+                text = "I'll take %s and wait for everything to blow over.",
             },
         },
         actionL = {
@@ -21122,12 +21122,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "哈啊！？",
+                text = "Ha?! ",
                 delay = 800,
             },
             [2] = {
                 speed = 40,
-                text = "我才不会把 %s 交给你！",
+                text = "I'm not going to let you take %s!",
             },
         },
         actionL = {
@@ -21161,17 +21161,17 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "你在说什么，",
+                text = "What are you saying?",
                 delay = 800,
             },
             [2] = {
                 speed = 40,
-                text = " 你要呆在这里，",
+                text = " You must stay here ",
                 delay = 800,
             },
             [3] = {
                 speed = 40,
-                text = "  这样才能保证 %s 的安全。",
+                text = " for the safety of %s.",
             },
         },
         actionL = {
@@ -21205,32 +21205,32 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "你说的没错，",
+                text = "You're right. ",
                 delay = 400,
             },
             [2] = {
                 speed = 40,
-                text = "%s 安全是最重要的……",
+                text = "%s's safety is of top priority. ",
                 delay = 1000,
             },
             [3] = {
                 speed = 40,
-                text = "啊！",
+                text = "Oh! ",
                 delay = 400,
             },
             [4] = {
                 speed = 40,
-                text = "不对！",
+                text = "No! ",
                 delay = 800,
             },
             [5] = {
                 speed = 40,
-                text = "鸢一折纸，",
+                text = "I'm not falling for your tricks, ",
                 delay = 400,
             },
             [6] = {
                 speed = 40,
-                text = "我才不会上当呢！",
+                text = "Origami Tobiichi!",
             },
         },
         actionL = {
@@ -21264,12 +21264,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "是嘛……",
+                text = "Is that right? ",
                 delay = 800,
             },
             [2] = {
                 speed = 40,
-                text = "这就是你最后的选择吗。",
+                text = "Is that your final choice?",
             },
         },
         actionL = {
@@ -21303,12 +21303,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "果然……",
+                text = "As it turned out, ",
                 delay = 800,
             },
             [2] = {
                 speed = 40,
-                text = "那份期待都只是幻觉而已吗。",
+                text = "the expectation was just an illusion.",
             },
         },
         actionL = {
@@ -21342,12 +21342,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "这种感觉……",
+                text = "This feeling...",
                 delay = 1000,
             },
             [2] = {
                 speed = 40,
-                text = "你果然也是那边的吗？",
+                text = "So you're also on their side?",
             },
         },
         actionL = {
@@ -21381,22 +21381,22 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "什——……！",
+                text = "W-wha?! ",
                 delay = 1000,
             },
             [2] = {
                 speed = 40,
-                text = "灵力值呈现出负数？",
+                text = "Negative Spirit Power? ",
                 delay = 800,
             },
             [3] = {
                 speed = 40,
-                text = "这是……",
+                text = "What is happening? ",
                 delay = 400,
             },
             [4] = {
                 speed = 40,
-                text = "反转！？",
+                text = "Inversion?",
             },
         },
         actionL = {
@@ -21430,12 +21430,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "最后的裁决已经开始了。",
+                text = "The final arbitration has begun. ",
                 delay = 1000,
             },
             [2] = {
                 speed = 40,
-                text = "我会亲眼见证你最后的结局的。",
+                text = "I will witness your doom with my very eyes.",
             },
         },
         actionL = {

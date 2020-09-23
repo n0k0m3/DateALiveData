@@ -1032,7 +1032,7 @@ function FairyDetailsLayer:updateSkinItem(idx)
   	foo.Button_skinDetail:onClick(function()
   		if self.showSkinID then
   			self.notHide = true
-			Utils:showInfo(self.showSkinID)
+			Utils:showInfo(self.showSkinID , nil , true)
 		end
   	end)
 end

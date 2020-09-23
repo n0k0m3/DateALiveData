@@ -471,7 +471,11 @@ function MainLayer:initUI(ui)
 			self.Association_TextArea_name:hide()
 		else
 			self.Association_TextArea_name:show()
-			self.Association_TextArea_name:setText(unionData.name)
+                local countryStr = ""
+                if unionData.showCountry then
+                    countryStr = " ("..LeagueDataMgr:getClubCountryDataById(unionData.country).Countryabbreviations..")"
+                end
+			self.Association_TextArea_name:setText(unionData.name..countryStr)
 		end
 	end
 end
@@ -1407,12 +1411,13 @@ function MainLayer:registerEvents()
 	
 
     self.tiliAdd:onClick(function()
-            local itemCfg = GoodsDataMgr:getItemCfg(EC_SItemType.POWER)
-            if StoreDataMgr:canContinueBuyItemRecover(itemCfg.buyItemRecover) then
-                 Utils:openView("common.BuyTiliLayer", itemCfg.id)
-            else
-                Utils:showTips(800021)
-            end
+            -- local itemCfg = GoodsDataMgr:getItemCfg(EC_SItemType.POWER)
+            -- if StoreDataMgr:canContinueBuyItemRecover(itemCfg.buyItemRecover) then
+            --      Utils:openView("common.BuyTiliLayer", itemCfg.id)
+            -- else
+            --     Utils:showTips(800021)
+            -- end
+            Utils:openView("league.LeagueCountrySelectView")
     end)
     self.goldAdd:onClick(function()
             local itemCfg = GoodsDataMgr:getItemCfg(EC_SItemType.GOLD)
@@ -2502,7 +2507,11 @@ function MainLayer:onRedPointUpdateUnion()
 			self.Association_TextArea_name:hide()
 		else
 			self.Association_TextArea_name:show()
-			self.Association_TextArea_name:setText(unionData.name)
+            local countryStr = ""
+            if unionData.showCountry then
+                countryStr = " ("..LeagueDataMgr:getClubCountryDataById(unionData.country).Countryabbreviations..")"
+            end
+			self.Association_TextArea_name:setText(unionData.name .. countryStr)
 		end
 		
 	end

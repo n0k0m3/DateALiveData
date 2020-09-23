@@ -11,6 +11,9 @@ local MAX_RECONNECT_TIMES = 1
 function OSDConnector:init()
 	self.bConnected      = false
     self.nReconnectTimes = 0
+    self.ipArray = TFArray:new()
+    self.connectedIpArray = TFArray:new()
+
 end
 
 function OSDConnector:close()
@@ -21,6 +24,8 @@ function OSDConnector:close()
         self.client:CloseSocket(true)
         self.client = nil
     end
+    self.ipArray:clear()
+    self.connectedIpArray:clear()
 end
 
 
@@ -29,7 +34,7 @@ function OSDConnector:isConnected()
 end
 --重连
 function OSDConnector:reconnect()
-    if self.nReconnectTimes < MAX_RECONNECT_TIMES then
+    if self.nReconnectTimes < MAX_RECONNECT_TIMES*self.ipArray:length() then
         self.nReconnectTimes = self.nReconnectTimes + 1
         print("重连第"..tostring(self.nReconnectTimes).."次")
         self:connect()
@@ -126,6 +131,13 @@ end
 --连接服务器
 function OSDConnector:connect(serverInfo)
     self.serverInfo = serverInfo or self.serverInfo
+
+    self.ipArray:clear()
+    local split = string.split(tostring(self.serverInfo.host), ",")
+    for _,_ip in ipairs(split) do
+        self.ipArray:push(_ip)
+    end
+
     print("connect OSDServer host:",self.serverInfo.host,"port:",self.serverInfo.port)
     if self:isConnected() then
         return
@@ -139,7 +151,17 @@ function OSDConnector:connect(serverInfo)
     if not self.client then
         self.client = TFClientNet:create(0,true)
     end
-    self.client:Connect(self.serverInfo.host , self.serverInfo.port ,onConnected, nil,onConnectError)
+
+    local connectIp = ""
+    if self.connectedIpArray:length() <= 0 then
+        connectIp = self.ipArray:front()
+    else
+        local connectedIp = self.connectedIpArray:back()
+        local index = self.ipArray:indexOf(connectedIp)
+        connectIp = self.ipArray:getObjectAt((((index + 1) - 1)%self.ipArray:length()) + 1)
+    end
+    self.connectedIpArray:push(connectIp)
+    self.client:Connect(connectIp , self.serverInfo.port ,onConnected, nil,onConnectError)
 end
 
 --心跳要不要

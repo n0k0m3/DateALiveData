@@ -223,9 +223,8 @@ function TitleMainView:updateTitleBaseInfo()
     local ownTitleInfo = TitleDataMgr:getOwnTitleById(self.chooseTitleCfg.id)
     if ownTitleInfo then
         isOwn = true
-        local year, month, day = Utils:getDate(ownTitleInfo.createTime, true)
-        local hour, min = Utils:getTime(ownTitleInfo.createTime, true)
-        createTime = year.."."..month.."."..day
+        --local year, month, day = Utils:getDate(ownTitleInfo.createTime, true)
+        createTime = Utils:getUTCDate(ownTitleInfo.createTime, GV_UTC_TIME_ZONE):fmt("%Y.%m.%d")..GV_UTC_TIME_STRING
     else
         createTime = TextDataMgr:getText(1327104)
     end

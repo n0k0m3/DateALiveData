@@ -15,7 +15,10 @@ function CommonManager:ctor()
         hideAllLoading();
     end
     self.TryReLoginFailTimes = 0
+    self.ipArray = TFArray:new()
+    self.connectedArray = TFArray:new()
     TFAssetsManager:init(1)
+
     TFDirector:addMEGlobalListener("Engine_Will_Restart", self.engineWillRestart)
     TFDirector:addProto(s2c.LOGIN_ENTER_SUC, self, self.loginHandle)
     TFDirector:addProto(s2c.PLAYER_RES_TIP_INFO, self, self.onTipInfoHandle) --服务器作弊信息提示
@@ -203,7 +206,22 @@ function CommonManager:connectServer(requestLogin)
     local ip = serverInfo.gameServerIp;
     local port = serverInfo.gameServerPort;
     dump({ip = ip,port = port})
-    TFDirector:connect(ip, port,
+
+    self.ipArray:clear()
+    local ipList = string.split(ip, ",")
+    for _,_ip in ipairs(ipList) do
+        self.ipArray:push(_ip)
+    end
+    local connectIp = ""
+    if self.connectedArray:length() <= 0 then
+        connectIp = self.ipArray:front()
+    else
+        local connectedIp = self.connectedArray:back()
+        local connectedIpIdx = self.ipArray:indexOf(connectedIp)
+        connectIp = self.ipArray:getObjectAt((((connectedIpIdx + 1) - 1)%self.ipArray:length()) + 1)
+    end
+    self.connectedArray:push(connectIp)
+    TFDirector:connect(connectIp, port,
     function (nResult)
         self:connectHandle(nResult,requestLogin)
     end,
@@ -211,6 +229,15 @@ function CommonManager:connectServer(requestLogin)
     function (nResult)
         self:connectionClosedCallback(nResult)
     end)
+    local time = 0
+    for _ip in self.connectedArray:iterator() do
+        if _ip == connectIp then
+            time = time + 1
+        end
+    end
+    if HeitaoSdk and time <= 1 then
+        HeitaoSdk.reportNetworkData(connectIp)
+    end
 end
 
 --连接打开的回调方法，当连接创建成功后会由系统调用此方法
@@ -465,8 +492,8 @@ function CommonManager:autoFixRes()
     CCFileUtils:sharedFileUtils():removeDirectory(updatePath)
     CCFileUtils:sharedFileUtils():purgeCachedEntries()
 
-    local oldVersion = "1.0.0"
-    local content = io.readfile("src/TFFramework/net/TFClientUpdate.lua") or 'newUpdateFun:SetUpdateDefaultVersion("1.0.0")'
+    local oldVersion = "1.0.01"
+    local content = io.readfile("src/TFFramework/net/TFClientUpdate.lua") or 'newUpdateFun:SetUpdateDefaultVersion("1.0.01")'
     string.gsub(content, 'SetUpdateDefaultVersion%("(.-)"%)', function(version)
         oldVersion = version
     end)

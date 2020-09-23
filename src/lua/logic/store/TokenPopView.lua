@@ -433,8 +433,8 @@ function TokenPopView:refreshBottomPannel()
         self._ui.labShowTip1:setTextById(oneCouponCfg.desTextId);
         self.selectCoupon = oneCoupon;
 --        self:addCountDownTimer();
-
-		self._ui.discountScale:setTextById(277004, math.floor(oneCouponCfg.useProfit.discount / 10 ))
+    --英文版修改折扣显示
+		self._ui.discountScale:setTextById(277004, math.floor(100 - oneCouponCfg.useProfit.discount ))
     end
 
     local price = self.price;

@@ -579,15 +579,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "15",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "0",
-											ignoreSize = "False",
+											height = "17",
+											ignoreSize = "True",
 											name = "Label_cost1",
 											nTextAlign = "1",
 											nTextHAlign = "0",
@@ -601,9 +601,9 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = -372,
-												PositionY = -286,
+												PositionY = -275,
 											},
-											width = "80",
+											width = "36",
 											ZOrder = "1",
 										},
 										{
@@ -625,8 +625,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -282,
-												PositionY = -288,
+												PositionX = -310,
+												PositionY = -274,
 											},
 											width = "64",
 											ZOrder = "1",
@@ -650,18 +650,18 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_cost2",
 											nTextAlign = "1",
-											nTextHAlign = "1",
+											nTextHAlign = "0",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -674,7 +674,7 @@ local t =
 												PositionX = -209,
 												PositionY = -286,
 											},
-											width = "80",
+											width = "550",
 											ZOrder = "1",
 										},
 									},

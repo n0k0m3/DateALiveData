@@ -394,10 +394,12 @@ function RechargeDataMgr:getGiftDataByInterfaceType(giftType)
 	if not self.goodsList or not self.goodsList.rechargeGiftBagCfg then
 		return
 	end
+
+	local serverTime = ServerDataMgr:getServerTime()
 	for k,v in pairs(self.goodsList.rechargeGiftBagCfg) do
-			if v.interfaceType == giftType then
-				table.insert(list,v);
-			end
+		if v.interfaceType == giftType and serverTime >= v.startDate and serverTime < v.endDate then
+			table.insert(list,v);
+		end
 	end
 	local tab1 = {}
 	local tab2 = {}

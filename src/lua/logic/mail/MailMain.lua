@@ -43,6 +43,17 @@ function MailMain:initUI(ui)
 	self.Label_count = TFDirector:getChildByPath(ui,"Label_count")
 	self.Image_bottom_icon = TFDirector:getChildByPath(ui,"Image_bottom_icon")
 
+	--添加空文本显示
+	self.label_empyTetx = TFLabel:create()
+    self.label_empyTetx:setFontName("font/MFLiHei_Noncommercial.ttf")
+    self.label_empyTetx:setFontSize(22)
+    self.label_empyTetx:setTextAreaSize(CCSize(800 , 0))
+    self.label_empyTetx:setAnchorPoint(ccp(0.5 , 1))
+    self.label_empyTetx:setPosition(448 , -234)
+    self.label_empyTetx:setTextById(190000175)
+    --self.label_empyTetx:enableOutline(ccc4(0,0,0,255), 1)
+    Panel_bottom:addChild(self.label_empyTetx)
+
 
 	self:initTableView();
 	self:updateUI()
@@ -55,6 +66,12 @@ function MailMain:updateUI()
 	MailDataMgr:initShowList(self.mailType);
 	self.tableView:reloadData();
 	self:updateUnReceiveCount()
+
+	if MailDataMgr:getMailCount(self.mailType) > 0 then
+		self.label_empyTetx:hide()
+	else
+		self.label_empyTetx:show()
+	end
 end
 
 function MailMain:updateUnReceiveCount()

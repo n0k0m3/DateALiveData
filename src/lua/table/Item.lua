@@ -2489,18 +2489,6 @@ return {
                     },
                     [5] = {
                         min = 1,
-                        id = 510316,
-                        max = 1,
-                        weight = 1429,
-                    },
-                    [6] = {
-                        min = 1,
-                        id = 510319,
-                        max = 1,
-                        weight = 1429,
-                    },
-                    [7] = {
-                        min = 1,
                         id = 510317,
                         max = 1,
                         weight = 1429,
@@ -55992,57 +55980,6 @@ return {
         },
         des = "纪念FB和TW社媒总粉丝数达成65K",
     },
-    [566056] = {
-        superType = 7,
-        desTextId = 190000149,
-        cost = "",
-        order = 1,
-        pileUp = true,
-        useProfit = {
-            fix = {
-                items = {
-                    [1] = {
-                        id = 566052,
-                        num = 1,
-                    },
-                },
-            },
-        },
-        buyItemRecover = 0,
-        gridMax = 9999999,
-        bornEffect = false,
-        outTime = 0,
-        bagType = 4,
-        autoUse = true,
-        nameTextId = 190000148,
-        icon = "icon/item/goods/566052.png",
-        quality = 1,
-        isHide = false,
-        delete = false,
-        useCast = {
-        },
-        onceUseLimit = 0,
-        id = 566056,
-        totalMax = 9999999,
-        subType = 3,
-        sellProfit = {
-            [1] = {
-                [1] = 500001,
-                [2] = 1,
-            },
-        },
-        batchUse = false,
-        convertMax = {
-        },
-        iconShow = "",
-        smallType = 0,
-        dealProfit = {
-        },
-        star = 0,
-        accessId = {
-        },
-        des = "开启后可获得猫娘狂三CG。",
-    },
     [533301] = {
         superType = 6,
         desTextId = 260531,
@@ -61379,6 +61316,52 @@ return {
         },
         des = "获得后，自动提升体验角色「涅普迪努」结晶突破至最高等级。",
     },
+    [599806] = {
+        superType = 54,
+        desTextId = 2108098,
+        cost = "",
+        order = 1,
+        pileUp = false,
+        useProfit = {
+            hero = 110211,
+            angerID = 3,
+            stringID = 2108081,
+        },
+        buyItemRecover = 0,
+        gridMax = 1,
+        bornEffect = false,
+        outTime = 0,
+        bagType = 0,
+        autoUse = true,
+        nameTextId = 2108097,
+        icon = "icon/hero/herotest/016.png",
+        quality = 5,
+        isHide = false,
+        delete = false,
+        useCast = {
+        },
+        onceUseLimit = 0,
+        id = 599806,
+        totalMax = 999,
+        subType = 0,
+        sellProfit = {
+            [1] = {
+                [1] = 500001,
+                [2] = 100,
+            },
+        },
+        batchUse = false,
+        convertMax = {
+        },
+        iconShow = "",
+        smallType = 0,
+        dealProfit = {
+        },
+        star = 0,
+        accessId = {
+        },
+        des = "只能用于解锁体验角色「反转折纸」的天使技能加点方案「猛攻」。",
+    },
     [535054] = {
         superType = 8,
         desTextId = 18030,
@@ -61435,38 +61418,36 @@ return {
         },
         des = "手工制作礼物21",
     },
-    [599806] = {
-        superType = 54,
-        desTextId = 2108098,
+    [598102] = {
+        superType = 50,
+        desTextId = 14110016,
         cost = "",
         order = 1,
         pileUp = false,
         useProfit = {
-            hero = 110211,
-            angerID = 3,
-            stringID = 2108081,
+            dungenID = 430102,
         },
         buyItemRecover = 0,
         gridMax = 1,
         bornEffect = false,
         outTime = 0,
         bagType = 0,
-        autoUse = true,
-        nameTextId = 2108097,
-        icon = "icon/hero/herotest/016.png",
-        quality = 5,
+        autoUse = false,
+        nameTextId = 14110028,
+        icon = "icon/item/highteam/002.png",
+        quality = 3,
         isHide = false,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 599806,
-        totalMax = 999,
-        subType = 0,
+        id = 598102,
+        totalMax = 99999,
+        subType = 3,
         sellProfit = {
             [1] = {
                 [1] = 500001,
-                [2] = 100,
+                [2] = 1,
             },
         },
         batchUse = false,
@@ -61479,7 +61460,7 @@ return {
         star = 0,
         accessId = {
         },
-        des = "只能用于解锁体验角色「反转折纸」的天使技能加点方案「猛攻」。",
+        des = "一份刻满咒语的挑战书，用于开启C级的BOSS挑战。",
     },
     [522076] = {
         superType = 7,
@@ -61553,36 +61534,38 @@ return {
         },
         des = "SS级能量宝石，获取后可随机得到【八舞耶俱矢】任意技能SS级宝石。",
     },
-    [598102] = {
-        superType = 50,
-        desTextId = 14110016,
+    [599804] = {
+        superType = 54,
+        desTextId = 2108094,
         cost = "",
         order = 1,
         pileUp = false,
         useProfit = {
-            dungenID = 430102,
+            hero = 110211,
+            angerID = 1,
+            stringID = 2108079,
         },
         buyItemRecover = 0,
         gridMax = 1,
         bornEffect = false,
         outTime = 0,
         bagType = 0,
-        autoUse = false,
-        nameTextId = 14110028,
-        icon = "icon/item/highteam/002.png",
-        quality = 3,
+        autoUse = true,
+        nameTextId = 2108093,
+        icon = "icon/hero/herotest/014.png",
+        quality = 5,
         isHide = false,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 598102,
-        totalMax = 99999,
-        subType = 3,
+        id = 599804,
+        totalMax = 999,
+        subType = 0,
         sellProfit = {
             [1] = {
                 [1] = 500001,
-                [2] = 1,
+                [2] = 100,
             },
         },
         batchUse = false,
@@ -61595,7 +61578,7 @@ return {
         star = 0,
         accessId = {
         },
-        des = "一份刻满咒语的挑战书，用于开启C级的BOSS挑战。",
+        des = "只能用于解锁体验角色「反转折纸」的天使技能加点方案「黑暗」。",
     },
     [500071] = {
         superType = 5,
@@ -61675,39 +61658,32 @@ return {
         },
         des = "",
     },
-    [599804] = {
-        superType = 54,
-        desTextId = 2108094,
+    [543231] = {
+        superType = 6,
+        desTextId = 17165,
         cost = "",
         order = 1,
-        pileUp = false,
+        pileUp = true,
         useProfit = {
-            hero = 110211,
-            angerID = 1,
-            stringID = 2108079,
         },
         buyItemRecover = 0,
-        gridMax = 1,
+        gridMax = 99999,
         bornEffect = false,
         outTime = 0,
         bagType = 0,
-        autoUse = true,
-        nameTextId = 2108093,
-        icon = "icon/hero/herotest/014.png",
-        quality = 5,
+        autoUse = false,
+        nameTextId = 17165,
+        icon = "icon/item/gift/541006.png",
+        quality = 1,
         isHide = false,
-        delete = false,
+        delete = true,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 599804,
-        totalMax = 999,
-        subType = 0,
+        id = 543231,
+        totalMax = 99999,
+        subType = 3,
         sellProfit = {
-            [1] = {
-                [1] = 500001,
-                [2] = 100,
-            },
         },
         batchUse = false,
         convertMax = {
@@ -61719,7 +61695,7 @@ return {
         star = 0,
         accessId = {
         },
-        des = "只能用于解锁体验角色「反转折纸」的天使技能加点方案「黑暗」。",
+        des = "",
     },
     [552501] = {
         superType = 16,
@@ -61799,32 +61775,40 @@ return {
         },
         des = "",
     },
-    [543231] = {
-        superType = 6,
-        desTextId = 17165,
+    [599802] = {
+        superType = 52,
+        desTextId = 2108090,
         cost = "",
         order = 1,
-        pileUp = true,
+        pileUp = false,
         useProfit = {
+            progress = 7,
+            value2 = 7,
+            hero = 110211,
+            value1 = 5,
         },
         buyItemRecover = 0,
-        gridMax = 99999,
+        gridMax = 1,
         bornEffect = false,
         outTime = 0,
         bagType = 0,
-        autoUse = false,
-        nameTextId = 17165,
-        icon = "icon/item/gift/541006.png",
-        quality = 1,
+        autoUse = true,
+        nameTextId = 2108089,
+        icon = "icon/hero/herotest/012.png",
+        quality = 5,
         isHide = false,
-        delete = true,
+        delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 543231,
-        totalMax = 99999,
-        subType = 3,
+        id = 599802,
+        totalMax = 999,
+        subType = 0,
         sellProfit = {
+            [1] = {
+                [1] = 500001,
+                [2] = 100,
+            },
         },
         batchUse = false,
         convertMax = {
@@ -61836,7 +61820,7 @@ return {
         star = 0,
         accessId = {
         },
-        des = "",
+        des = "只能用于进阶体验角色「反转折纸」至EX。",
     },
     [535062] = {
         superType = 8,
@@ -61951,42 +61935,74 @@ return {
         },
         des = "手工制作礼物23",
     },
-    [599802] = {
-        superType = 52,
-        desTextId = 2108090,
+    [520027] = {
+        superType = 7,
+        desTextId = 22054,
         cost = "",
         order = 1,
-        pileUp = false,
+        pileUp = true,
         useProfit = {
-            progress = 7,
-            value2 = 7,
-            hero = 110211,
-            value1 = 5,
+            fix = {
+                items = {
+                    [1] = {
+                        id = 510225,
+                        num = 4,
+                    },
+                    [2] = {
+                        id = 510226,
+                        num = 4,
+                    },
+                    [3] = {
+                        id = 510227,
+                        num = 4,
+                    },
+                    [4] = {
+                        id = 510228,
+                        num = 4,
+                    },
+                    [5] = {
+                        id = 510229,
+                        num = 4,
+                    },
+                    [6] = {
+                        id = 510230,
+                        num = 4,
+                    },
+                    [7] = {
+                        id = 510231,
+                        num = 4,
+                    },
+                    [8] = {
+                        id = 510232,
+                        num = 4,
+                    },
+                },
+            },
         },
         buyItemRecover = 0,
-        gridMax = 1,
+        gridMax = 999,
         bornEffect = false,
         outTime = 0,
-        bagType = 0,
-        autoUse = true,
-        nameTextId = 2108089,
-        icon = "icon/hero/herotest/012.png",
+        bagType = 9,
+        autoUse = false,
+        nameTextId = 22053,
+        icon = "icon/item/goods/520026.png",
         quality = 5,
         isHide = false,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 599802,
+        id = 520027,
         totalMax = 999,
         subType = 0,
         sellProfit = {
             [1] = {
                 [1] = 500001,
-                [2] = 100,
+                [2] = 1000,
             },
         },
-        batchUse = false,
+        batchUse = true,
         convertMax = {
         },
         iconShow = "",
@@ -61996,7 +62012,7 @@ return {
         star = 0,
         accessId = {
         },
-        des = "只能用于进阶体验角色「反转折纸」至EX。",
+        des = "使用后可获得精灵4星结晶突破材料各4个",
     },
     [535064] = {
         superType = 8,
@@ -62639,6 +62655,30 @@ return {
                         max = 1,
                         weight = 100,
                     },
+                    [57] = {
+                        min = 1,
+                        id = 1322411,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [58] = {
+                        min = 1,
+                        id = 1322421,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [59] = {
+                        min = 1,
+                        id = 1322431,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [60] = {
+                        min = 1,
+                        id = 1322441,
+                        max = 1,
+                        weight = 100,
+                    },
                 },
             },
         },
@@ -63192,6 +63232,30 @@ return {
                         max = 1,
                         weight = 100,
                     },
+                    [57] = {
+                        min = 1,
+                        id = 1322711,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [58] = {
+                        min = 1,
+                        id = 1322721,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [59] = {
+                        min = 1,
+                        id = 1322731,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [60] = {
+                        min = 1,
+                        id = 1322741,
+                        max = 1,
+                        weight = 100,
+                    },
                 },
             },
         },
@@ -63480,13 +63544,78 @@ return {
         },
         des = "强化四糸乃碎片",
     },
-    [580050] = {
-        superType = 6,
-        desTextId = 25184,
+    [599705] = {
+        superType = 7,
+        desTextId = 14110251,
         cost = "",
         order = 1,
         pileUp = true,
         useProfit = {
+            custom = {
+                count = 1,
+                items = {
+                    [1] = {
+                        id = 521016,
+                        num = 1,
+                    },
+                    [2] = {
+                        id = 521026,
+                        num = 1,
+                    },
+                    [3] = {
+                        id = 521036,
+                        num = 1,
+                    },
+                    [4] = {
+                        id = 521046,
+                        num = 1,
+                    },
+                    [5] = {
+                        id = 521056,
+                        num = 1,
+                    },
+                    [6] = {
+                        id = 521066,
+                        num = 1,
+                    },
+                    [7] = {
+                        id = 521076,
+                        num = 1,
+                    },
+                    [8] = {
+                        id = 521086,
+                        num = 1,
+                    },
+                    [9] = {
+                        id = 521096,
+                        num = 1,
+                    },
+                    [10] = {
+                        id = 521106,
+                        num = 1,
+                    },
+                    [11] = {
+                        id = 521116,
+                        num = 1,
+                    },
+                    [12] = {
+                        id = 521126,
+                        num = 1,
+                    },
+                    [13] = {
+                        id = 521136,
+                        num = 1,
+                    },
+                    [14] = {
+                        id = 521166,
+                        num = 1,
+                    },
+                    [15] = {
+                        id = 521226,
+                        num = 1,
+                    },
+                },
+            },
         },
         buyItemRecover = 0,
         gridMax = 99999,
@@ -63494,24 +63623,24 @@ return {
         outTime = 0,
         bagType = 9,
         autoUse = false,
-        nameTextId = 25183,
-        icon = "icon/item/goods/580050.png",
-        quality = 4,
+        nameTextId = 14110239,
+        icon = "icon/item/goods/520001.png",
+        quality = 6,
         isHide = false,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 580050,
+        id = 599705,
         totalMax = 99999,
-        subType = 3,
+        subType = 0,
         sellProfit = {
             [1] = {
                 [1] = 500001,
-                [2] = 1,
+                [2] = 100,
             },
         },
-        batchUse = false,
+        batchUse = true,
         convertMax = {
         },
         iconShow = "",
@@ -63521,7 +63650,7 @@ return {
         star = 0,
         accessId = {
         },
-        des = "粉嫩的猫掌隐藏着尖尖的利爪，它竟然是一个福袋？打开有几率获得狂三新时装-猫娘诱惑的部件或者铃铛，重复获得已有部件将转化为铃铛。",
+        des = "开启后可选择任意角色的随机SS级图纸宝石技能图卷。",
     },
     [540209] = {
         superType = 10,
@@ -63761,110 +63890,6 @@ return {
         },
         des = "特殊道具2",
     },
-    [599705] = {
-        superType = 7,
-        desTextId = 14110251,
-        cost = "",
-        order = 1,
-        pileUp = true,
-        useProfit = {
-            custom = {
-                count = 1,
-                items = {
-                    [1] = {
-                        id = 521016,
-                        num = 1,
-                    },
-                    [2] = {
-                        id = 521026,
-                        num = 1,
-                    },
-                    [3] = {
-                        id = 521036,
-                        num = 1,
-                    },
-                    [4] = {
-                        id = 521046,
-                        num = 1,
-                    },
-                    [5] = {
-                        id = 521056,
-                        num = 1,
-                    },
-                    [6] = {
-                        id = 521066,
-                        num = 1,
-                    },
-                    [7] = {
-                        id = 521076,
-                        num = 1,
-                    },
-                    [8] = {
-                        id = 521086,
-                        num = 1,
-                    },
-                    [9] = {
-                        id = 521096,
-                        num = 1,
-                    },
-                    [10] = {
-                        id = 521106,
-                        num = 1,
-                    },
-                    [11] = {
-                        id = 521116,
-                        num = 1,
-                    },
-                    [12] = {
-                        id = 521126,
-                        num = 1,
-                    },
-                    [13] = {
-                        id = 521136,
-                        num = 1,
-                    },
-                    [14] = {
-                        id = 521166,
-                        num = 1,
-                    },
-                },
-            },
-        },
-        buyItemRecover = 0,
-        gridMax = 99999,
-        bornEffect = false,
-        outTime = 0,
-        bagType = 9,
-        autoUse = false,
-        nameTextId = 14110239,
-        icon = "icon/item/goods/520001.png",
-        quality = 6,
-        isHide = false,
-        delete = false,
-        useCast = {
-        },
-        onceUseLimit = 0,
-        id = 599705,
-        totalMax = 99999,
-        subType = 0,
-        sellProfit = {
-            [1] = {
-                [1] = 500001,
-                [2] = 100,
-            },
-        },
-        batchUse = true,
-        convertMax = {
-        },
-        iconShow = "",
-        smallType = 0,
-        dealProfit = {
-        },
-        star = 0,
-        accessId = {
-        },
-        des = "开启后可选择任意角色的随机SS级图纸宝石技能图卷。",
-    },
     [580055] = {
         superType = 6,
         desTextId = 13200108,
@@ -63895,6 +63920,45 @@ return {
                 [1] = 500001,
                 [2] = 1,
             },
+        },
+        batchUse = false,
+        convertMax = {
+        },
+        iconShow = "",
+        smallType = 0,
+        dealProfit = {
+        },
+        star = 0,
+        accessId = {
+        },
+        des = "",
+    },
+    [580056] = {
+        superType = 6,
+        desTextId = 13200165,
+        cost = "",
+        order = 0,
+        pileUp = true,
+        useProfit = {
+        },
+        buyItemRecover = 0,
+        gridMax = 99999,
+        bornEffect = false,
+        outTime = 0,
+        bagType = 0,
+        autoUse = false,
+        nameTextId = 13200153,
+        icon = "icon/dafuweng/580054.png",
+        quality = 4,
+        isHide = false,
+        delete = false,
+        useCast = {
+        },
+        onceUseLimit = 0,
+        id = 580056,
+        totalMax = 99999,
+        subType = 0,
+        sellProfit = {
         },
         batchUse = false,
         convertMax = {
@@ -64045,11 +64109,11 @@ return {
         },
         des = "万由里饰品店",
     },
-    [580056] = {
+    [580058] = {
         superType = 6,
-        desTextId = 13200165,
+        desTextId = 13200167,
         cost = "",
-        order = 0,
+        order = 1,
         pileUp = true,
         useProfit = {
         },
@@ -64059,15 +64123,15 @@ return {
         outTime = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 13200153,
-        icon = "icon/dafuweng/580054.png",
-        quality = 4,
+        nameTextId = 13200155,
+        icon = "icon/dafuweng/580072.png",
+        quality = 5,
         isHide = false,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 580056,
+        id = 580058,
         totalMax = 99999,
         subType = 0,
         sellProfit = {
@@ -64123,11 +64187,11 @@ return {
         },
         des = "万由里饰品店",
     },
-    [580058] = {
+    [580060] = {
         superType = 6,
-        desTextId = 13200167,
+        desTextId = 13200169,
         cost = "",
-        order = 1,
+        order = 0,
         pileUp = true,
         useProfit = {
         },
@@ -64137,15 +64201,15 @@ return {
         outTime = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 13200155,
-        icon = "icon/dafuweng/580072.png",
-        quality = 5,
+        nameTextId = 13200157,
+        icon = "icon/dafuweng/580055.png",
+        quality = 4,
         isHide = false,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 580058,
+        id = 580060,
         totalMax = 99999,
         subType = 0,
         sellProfit = {
@@ -64369,32 +64433,36 @@ return {
         },
         des = "三星面包2",
     },
-    [580060] = {
+    [570057] = {
         superType = 6,
-        desTextId = 13200169,
+        desTextId = 14300308,
         cost = "",
         order = 0,
         pileUp = true,
         useProfit = {
         },
         buyItemRecover = 0,
-        gridMax = 99999,
+        gridMax = 999,
         bornEffect = false,
         outTime = 0,
-        bagType = 0,
+        bagType = 5,
         autoUse = false,
-        nameTextId = 13200157,
-        icon = "icon/dafuweng/580055.png",
-        quality = 4,
+        nameTextId = 14300305,
+        icon = "icon/item/goods/570057.png",
+        quality = 6,
         isHide = false,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 580060,
-        totalMax = 99999,
-        subType = 0,
+        id = 570057,
+        totalMax = 999,
+        subType = 4,
         sellProfit = {
+            [1] = {
+                [1] = 500001,
+                [2] = 1000,
+            },
         },
         batchUse = false,
         convertMax = {
@@ -64405,8 +64473,9 @@ return {
         },
         star = 0,
         accessId = {
+            [1] = 3,
         },
-        des = "",
+        des = "可以替代货币（钻石）进行召唤的道具。外形是一个设计精巧的徽章",
     },
     [522023] = {
         superType = 7,
@@ -70675,32 +70744,36 @@ return {
         },
         des = "鲜花【描述】",
     },
-    [570048] = {
+    [570050] = {
         superType = 6,
-        desTextId = 13216,
+        desTextId = 25190,
         cost = "",
         order = 1,
         pileUp = true,
         useProfit = {
         },
         buyItemRecover = 0,
-        gridMax = 999,
+        gridMax = 99999,
         bornEffect = false,
         outTime = 0,
-        bagType = 0,
+        bagType = 5,
         autoUse = false,
-        nameTextId = 13206,
-        icon = "icon/item/goods/570048.png",
-        quality = 3,
+        nameTextId = 25189,
+        icon = "icon/item/goods/570050.png",
+        quality = 4,
         isHide = false,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 570048,
-        totalMax = 99999999,
-        subType = 4,
+        id = 570050,
+        totalMax = 99999,
+        subType = 3,
         sellProfit = {
+            [1] = {
+                [1] = 500001,
+                [2] = 200,
+            },
         },
         batchUse = false,
         convertMax = {
@@ -70711,8 +70784,9 @@ return {
         },
         star = 0,
         accessId = {
+            [1] = 12,
         },
-        des = "",
+        des = "卡巴拉生命树凝练的精华，可用于觉醒天使能力。",
     },
     [542020] = {
         superType = 14,
@@ -71118,36 +71192,32 @@ return {
         },
         des = "手工制作礼物2",
     },
-    [510316] = {
-        superType = 6,
-        desTextId = 16036,
+    [552300] = {
+        superType = 16,
+        desTextId = 265505,
         cost = "",
-        order = 1,
+        order = 0,
         pileUp = true,
         useProfit = {
         },
         buyItemRecover = 0,
-        gridMax = 999,
+        gridMax = 1,
         bornEffect = false,
         outTime = 0,
-        bagType = 19,
+        bagType = 0,
         autoUse = false,
-        nameTextId = 16035,
-        icon = "icon/item/goods/510316.png",
-        quality = 5,
+        nameTextId = 265005,
+        icon = "icon/hero/name/1104011.png",
+        quality = 4,
         isHide = false,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 510316,
-        totalMax = 9999,
-        subType = 3,
+        id = 552300,
+        totalMax = 1,
+        subType = 0,
         sellProfit = {
-            [1] = {
-                [1] = 570002,
-                [2] = 6,
-            },
         },
         batchUse = false,
         convertMax = {
@@ -71158,10 +71228,8 @@ return {
         },
         star = 0,
         accessId = {
-            [1] = 4,
-            [2] = 1,
         },
-        des = "七罪碎片",
+        des = "时崎狂三_初始头像",
     },
     [500052] = {
         superType = 5,
@@ -71243,32 +71311,36 @@ return {
         },
         des = "",
     },
-    [552300] = {
-        superType = 16,
-        desTextId = 265505,
+    [510307] = {
+        superType = 6,
+        desTextId = 16014,
         cost = "",
-        order = 0,
+        order = 1,
         pileUp = true,
         useProfit = {
         },
         buyItemRecover = 0,
-        gridMax = 1,
+        gridMax = 999,
         bornEffect = false,
         outTime = 0,
-        bagType = 0,
+        bagType = 19,
         autoUse = false,
-        nameTextId = 265005,
-        icon = "icon/hero/name/1104011.png",
-        quality = 4,
+        nameTextId = 16013,
+        icon = "icon/item/goods/510307.png",
+        quality = 5,
         isHide = false,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 552300,
-        totalMax = 1,
-        subType = 0,
+        id = 510307,
+        totalMax = 9999,
+        subType = 3,
         sellProfit = {
+            [1] = {
+                [1] = 570002,
+                [2] = 6,
+            },
         },
         batchUse = false,
         convertMax = {
@@ -71279,8 +71351,11 @@ return {
         },
         star = 0,
         accessId = {
+            [1] = 11,
+            [2] = 4,
+            [3] = 1,
         },
-        des = "时崎狂三_初始头像",
+        des = "时崎狂三碎片",
     },
     [500053] = {
         superType = 5,
@@ -71362,38 +71437,127 @@ return {
         },
         des = "",
     },
-    [510307] = {
-        superType = 6,
-        desTextId = 16014,
+    [599713] = {
+        superType = 7,
+        desTextId = 14110417,
         cost = "",
         order = 1,
         pileUp = true,
         useProfit = {
+            custom = {
+                count = 1,
+                items = {
+                    [1] = {
+                        id = 521015,
+                        num = 1,
+                    },
+                    [2] = {
+                        id = 521025,
+                        num = 1,
+                    },
+                    [3] = {
+                        id = 521035,
+                        num = 1,
+                    },
+                    [4] = {
+                        id = 521045,
+                        num = 1,
+                    },
+                    [5] = {
+                        id = 521055,
+                        num = 1,
+                    },
+                    [6] = {
+                        id = 521065,
+                        num = 1,
+                    },
+                    [7] = {
+                        id = 521075,
+                        num = 1,
+                    },
+                    [8] = {
+                        id = 521085,
+                        num = 1,
+                    },
+                    [9] = {
+                        id = 521095,
+                        num = 1,
+                    },
+                    [10] = {
+                        id = 521105,
+                        num = 1,
+                    },
+                    [11] = {
+                        id = 521115,
+                        num = 1,
+                    },
+                    [12] = {
+                        id = 521125,
+                        num = 1,
+                    },
+                    [13] = {
+                        id = 521135,
+                        num = 1,
+                    },
+                    [14] = {
+                        id = 521145,
+                        num = 1,
+                    },
+                    [15] = {
+                        id = 521155,
+                        num = 1,
+                    },
+                    [16] = {
+                        id = 521165,
+                        num = 1,
+                    },
+                    [17] = {
+                        id = 521175,
+                        num = 1,
+                    },
+                    [18] = {
+                        id = 521185,
+                        num = 1,
+                    },
+                    [19] = {
+                        id = 521195,
+                        num = 1,
+                    },
+                    [20] = {
+                        id = 521205,
+                        num = 1,
+                    },
+                    [21] = {
+                        id = 521215,
+                        num = 1,
+                    },
+                },
+            },
         },
         buyItemRecover = 0,
-        gridMax = 999,
+        gridMax = 99999,
         bornEffect = false,
         outTime = 0,
-        bagType = 19,
+        bagType = 9,
         autoUse = false,
-        nameTextId = 16013,
-        icon = "icon/item/goods/510307.png",
+        nameTextId = 14110411,
+        icon = "icon/item/goods/520001.png",
         quality = 5,
         isHide = false,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 510307,
-        totalMax = 9999,
-        subType = 3,
+        id = 599713,
+        totalMax = 99999,
+        subType = 0,
         sellProfit = {
             [1] = {
-                [1] = 570002,
-                [2] = 6,
+                [1] = 500001,
+                [2] = 100,
             },
         },
-        batchUse = false,
+        batchUse = true,
         convertMax = {
         },
         iconShow = "",
@@ -71402,11 +71566,8 @@ return {
         },
         star = 0,
         accessId = {
-            [1] = 11,
-            [2] = 4,
-            [3] = 1,
         },
-        des = "时崎狂三碎片",
+        des = "开启后可选择任意角色的随机S级图纸宝石技能图卷。",
     },
     [521036] = {
         superType = 7,
@@ -72001,9 +72162,9 @@ return {
         },
         des = "",
     },
-    [599711] = {
+    [570023] = {
         superType = 6,
-        desTextId = 14110257,
+        desTextId = 25094,
         cost = "",
         order = 1,
         pileUp = true,
@@ -72015,21 +72176,21 @@ return {
         outTime = 0,
         bagType = 5,
         autoUse = false,
-        nameTextId = 14110245,
-        icon = "icon/item/goods/520001.png",
-        quality = 6,
+        nameTextId = 25093,
+        icon = "icon/item/goods/570013.png",
+        quality = 4,
         isHide = false,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 599711,
+        id = 570023,
         totalMax = 99999,
         subType = 3,
         sellProfit = {
             [1] = {
                 [1] = 500001,
-                [2] = 100,
+                [2] = 200,
             },
         },
         batchUse = false,
@@ -72041,34 +72202,36 @@ return {
         },
         star = 0,
         accessId = {
+            [1] = 39,
+            [2] = 1,
         },
-        des = "随机获取S级宝石图卷",
+        des = "卡巴拉生命树凝练的精华，可用于觉醒天使能力。",
     },
-    [570043] = {
-        superType = 6,
-        desTextId = 13211,
+    [540338] = {
+        superType = 10,
+        desTextId = 0,
         cost = "",
         order = 1,
         pileUp = true,
         useProfit = {
         },
         buyItemRecover = 0,
-        gridMax = 999,
+        gridMax = 9999999,
         bornEffect = false,
         outTime = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 13201,
-        icon = "icon/item/goods/570043.png",
-        quality = 3,
+        nameTextId = 0,
+        icon = "icon/cg/main_cg_1107.png",
+        quality = 1,
         isHide = false,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 570043,
-        totalMax = 99999999,
-        subType = 4,
+        id = 540338,
+        totalMax = 9999999,
+        subType = 0,
         sellProfit = {
         },
         batchUse = false,
@@ -72155,36 +72318,32 @@ return {
         },
         des = "A级能量宝石，获取后可随机得到【崇宫真那】任意技能A级宝石。",
     },
-    [570023] = {
+    [570043] = {
         superType = 6,
-        desTextId = 25094,
+        desTextId = 13211,
         cost = "",
         order = 1,
         pileUp = true,
         useProfit = {
         },
         buyItemRecover = 0,
-        gridMax = 99999,
+        gridMax = 999,
         bornEffect = false,
         outTime = 0,
-        bagType = 5,
+        bagType = 0,
         autoUse = false,
-        nameTextId = 25093,
-        icon = "icon/item/goods/570013.png",
-        quality = 4,
+        nameTextId = 13201,
+        icon = "icon/item/goods/570043.png",
+        quality = 3,
         isHide = false,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 570023,
-        totalMax = 99999,
-        subType = 3,
+        id = 570043,
+        totalMax = 99999999,
+        subType = 4,
         sellProfit = {
-            [1] = {
-                [1] = 500001,
-                [2] = 200,
-            },
         },
         batchUse = false,
         convertMax = {
@@ -72195,10 +72354,8 @@ return {
         },
         star = 0,
         accessId = {
-            [1] = 39,
-            [2] = 1,
         },
-        des = "卡巴拉生命树凝练的精华，可用于觉醒天使能力。",
+        des = "",
     },
     [500060] = {
         superType = 5,
@@ -72699,34 +72856,103 @@ return {
         },
         des = "战斗中精灵每损失x2%HP，攻击和攻速获得y2%提升，无累加上限(每名精灵单独计算)",
     },
-    [540348] = {
-        superType = 10,
-        desTextId = 13310596,
+    [599706] = {
+        superType = 7,
+        desTextId = 14110252,
         cost = "",
         order = 1,
         pileUp = true,
         useProfit = {
+            custom = {
+                count = 1,
+                items = {
+                    [1] = {
+                        id = 521017,
+                        num = 1,
+                    },
+                    [2] = {
+                        id = 521027,
+                        num = 1,
+                    },
+                    [3] = {
+                        id = 521037,
+                        num = 1,
+                    },
+                    [4] = {
+                        id = 521047,
+                        num = 1,
+                    },
+                    [5] = {
+                        id = 521057,
+                        num = 1,
+                    },
+                    [6] = {
+                        id = 521067,
+                        num = 1,
+                    },
+                    [7] = {
+                        id = 521077,
+                        num = 1,
+                    },
+                    [8] = {
+                        id = 521087,
+                        num = 1,
+                    },
+                    [9] = {
+                        id = 521097,
+                        num = 1,
+                    },
+                    [10] = {
+                        id = 521107,
+                        num = 1,
+                    },
+                    [11] = {
+                        id = 521117,
+                        num = 1,
+                    },
+                    [12] = {
+                        id = 521127,
+                        num = 1,
+                    },
+                    [13] = {
+                        id = 521137,
+                        num = 1,
+                    },
+                    [14] = {
+                        id = 521167,
+                        num = 1,
+                    },
+                    [15] = {
+                        id = 521227,
+                        num = 1,
+                    },
+                },
+            },
         },
         buyItemRecover = 0,
-        gridMax = 9999999,
+        gridMax = 99999,
         bornEffect = false,
         outTime = 0,
-        bagType = 0,
+        bagType = 9,
         autoUse = false,
-        nameTextId = 13310595,
-        icon = "icon/cg/cg_znq_01.png",
-        quality = 1,
+        nameTextId = 14110240,
+        icon = "icon/item/goods/520001.png",
+        quality = 7,
         isHide = false,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 540348,
-        totalMax = 9999999,
+        id = 599706,
+        totalMax = 99999,
         subType = 0,
         sellProfit = {
+            [1] = {
+                [1] = 500001,
+                [2] = 100,
+            },
         },
-        batchUse = false,
+        batchUse = true,
         convertMax = {
         },
         iconShow = "",
@@ -72736,7 +72962,7 @@ return {
         star = 0,
         accessId = {
         },
-        des = "",
+        des = "开启后可选择任意角色的随机SSS级图纸宝石技能图卷。",
     },
     [501004] = {
         superType = 6,
@@ -72790,53 +73016,41 @@ return {
                 items = {
                     [1] = {
                         min = 5,
-                        id = 570009,
+                        id = 570011,
                         max = 8,
                         weight = 1000,
                     },
                     [2] = {
                         min = 5,
-                        id = 570011,
+                        id = 570012,
                         max = 8,
                         weight = 1000,
                     },
                     [3] = {
                         min = 5,
-                        id = 570012,
+                        id = 570013,
                         max = 8,
                         weight = 1000,
                     },
                     [4] = {
                         min = 5,
-                        id = 570013,
+                        id = 570016,
                         max = 8,
                         weight = 1000,
                     },
                     [5] = {
                         min = 5,
-                        id = 570015,
+                        id = 570017,
                         max = 8,
                         weight = 1000,
                     },
                     [6] = {
                         min = 5,
-                        id = 570016,
-                        max = 8,
-                        weight = 1000,
-                    },
-                    [7] = {
-                        min = 5,
-                        id = 570017,
-                        max = 8,
-                        weight = 1000,
-                    },
-                    [8] = {
-                        min = 5,
                         id = 570018,
                         max = 8,
                         weight = 1000,
                     },
-                    [9] = {
+                    [7] = {
                         min = 6,
                         id = 570008,
                         max = 10,
@@ -73283,60 +73497,31 @@ return {
         },
         des = "黑暗之羽飘落，救世的魔王将开启新的世界！收集100个黑羽灵装券，可购买反转折纸灵装黑羽渡鸦！\n[说明：此道具为2019年圣诞活动期间使用。活动结束后道具将会失效]",
     },
-    [521047] = {
-        superType = 7,
-        desTextId = 41047,
+    [580050] = {
+        superType = 6,
+        desTextId = 25184,
         cost = "",
         order = 1,
         pileUp = true,
         useProfit = {
-            roll = {
-                count = 1,
-                items = {
-                    [1] = {
-                        min = 1,
-                        id = 1404711,
-                        max = 1,
-                        weight = 2500,
-                    },
-                    [2] = {
-                        min = 1,
-                        id = 1404721,
-                        max = 1,
-                        weight = 2500,
-                    },
-                    [3] = {
-                        min = 1,
-                        id = 1404731,
-                        max = 1,
-                        weight = 2500,
-                    },
-                    [4] = {
-                        min = 1,
-                        id = 1404741,
-                        max = 1,
-                        weight = 2500,
-                    },
-                },
-            },
         },
         buyItemRecover = 0,
-        gridMax = 999,
+        gridMax = 99999,
         bornEffect = false,
         outTime = 0,
-        bagType = 0,
-        autoUse = true,
-        nameTextId = 40010,
-        icon = "icon/stone/random/521007.png",
-        quality = 7,
+        bagType = 9,
+        autoUse = false,
+        nameTextId = 25183,
+        icon = "icon/item/goods/580050.png",
+        quality = 4,
         isHide = false,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 521047,
-        totalMax = 999,
-        subType = 0,
+        id = 580050,
+        totalMax = 99999,
+        subType = 3,
         sellProfit = {
             [1] = {
                 [1] = 500001,
@@ -73353,7 +73538,7 @@ return {
         star = 0,
         accessId = {
         },
-        des = "SSS级宝石图纸，可随机获得【时崎狂三】任意技能SSS级宝石图纸。",
+        des = "粉嫩的猫掌隐藏着尖尖的利爪，它竟然是一个福袋？打开有几率获得狂三新时装-猫娘诱惑的部件或者铃铛，重复获得已有部件将转化为铃铛。",
     },
     [540001] = {
         superType = 10,
@@ -76508,6 +76693,30 @@ return {
                         max = 1,
                         weight = 100,
                     },
+                    [57] = {
+                        min = 1,
+                        id = 1322211,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [58] = {
+                        min = 1,
+                        id = 1322221,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [59] = {
+                        min = 1,
+                        id = 1322231,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [60] = {
+                        min = 1,
+                        id = 1322241,
+                        max = 1,
+                        weight = 100,
+                    },
                 },
             },
         },
@@ -76931,6 +77140,30 @@ return {
                         max = 1,
                         weight = 100,
                     },
+                    [57] = {
+                        min = 1,
+                        id = 1322311,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [58] = {
+                        min = 1,
+                        id = 1322321,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [59] = {
+                        min = 1,
+                        id = 1322331,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [60] = {
+                        min = 1,
+                        id = 1322341,
+                        max = 1,
+                        weight = 100,
+                    },
                 },
             },
         },
@@ -77008,74 +77241,34 @@ return {
         },
         des = "date_cg_32",
     },
-    [520027] = {
-        superType = 7,
-        desTextId = 22054,
+    [570048] = {
+        superType = 6,
+        desTextId = 13216,
         cost = "",
         order = 1,
         pileUp = true,
         useProfit = {
-            fix = {
-                items = {
-                    [1] = {
-                        id = 510225,
-                        num = 4,
-                    },
-                    [2] = {
-                        id = 510226,
-                        num = 4,
-                    },
-                    [3] = {
-                        id = 510227,
-                        num = 4,
-                    },
-                    [4] = {
-                        id = 510228,
-                        num = 4,
-                    },
-                    [5] = {
-                        id = 510229,
-                        num = 4,
-                    },
-                    [6] = {
-                        id = 510230,
-                        num = 4,
-                    },
-                    [7] = {
-                        id = 510231,
-                        num = 4,
-                    },
-                    [8] = {
-                        id = 510232,
-                        num = 4,
-                    },
-                },
-            },
         },
         buyItemRecover = 0,
         gridMax = 999,
         bornEffect = false,
         outTime = 0,
-        bagType = 9,
+        bagType = 0,
         autoUse = false,
-        nameTextId = 22053,
-        icon = "icon/item/goods/520026.png",
-        quality = 5,
+        nameTextId = 13206,
+        icon = "icon/item/goods/570048.png",
+        quality = 3,
         isHide = false,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 520027,
-        totalMax = 999,
-        subType = 0,
+        id = 570048,
+        totalMax = 99999999,
+        subType = 4,
         sellProfit = {
-            [1] = {
-                [1] = 500001,
-                [2] = 1000,
-            },
         },
-        batchUse = true,
+        batchUse = false,
         convertMax = {
         },
         iconShow = "",
@@ -77085,7 +77278,7 @@ return {
         star = 0,
         accessId = {
         },
-        des = "使用后可获得精灵4星结晶突破材料各4个",
+        des = "",
     },
     [540036] = {
         superType = 10,
@@ -77580,6 +77773,30 @@ return {
                     [56] = {
                         min = 1,
                         id = 1316541,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [57] = {
+                        min = 1,
+                        id = 1322511,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [58] = {
+                        min = 1,
+                        id = 1322521,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [59] = {
+                        min = 1,
+                        id = 1322531,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [60] = {
+                        min = 1,
+                        id = 1322541,
                         max = 1,
                         weight = 100,
                     },
@@ -81431,6 +81648,30 @@ return {
                     [56] = {
                         min = 1,
                         id = 1416541,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [57] = {
+                        min = 1,
+                        id = 1422511,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [58] = {
+                        min = 1,
+                        id = 1422521,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [59] = {
+                        min = 1,
+                        id = 1422531,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [60] = {
+                        min = 1,
+                        id = 1422541,
                         max = 1,
                         weight = 100,
                     },
@@ -86331,35 +86572,35 @@ return {
         },
         des = "date_cg_95",
     },
-    [570050] = {
+    [510316] = {
         superType = 6,
-        desTextId = 25190,
+        desTextId = 16036,
         cost = "",
         order = 1,
         pileUp = true,
         useProfit = {
         },
         buyItemRecover = 0,
-        gridMax = 99999,
+        gridMax = 999,
         bornEffect = false,
         outTime = 0,
-        bagType = 5,
+        bagType = 19,
         autoUse = false,
-        nameTextId = 25189,
-        icon = "icon/item/goods/570050.png",
-        quality = 4,
+        nameTextId = 16035,
+        icon = "icon/item/goods/510316.png",
+        quality = 5,
         isHide = false,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 570050,
-        totalMax = 99999,
+        id = 510316,
+        totalMax = 9999,
         subType = 3,
         sellProfit = {
             [1] = {
-                [1] = 500001,
-                [2] = 200,
+                [1] = 570002,
+                [2] = 6,
             },
         },
         batchUse = false,
@@ -86371,9 +86612,10 @@ return {
         },
         star = 0,
         accessId = {
-            [1] = 12,
+            [1] = 4,
+            [2] = 1,
         },
-        des = "卡巴拉生命树凝练的精华，可用于觉醒天使能力。",
+        des = "七罪碎片",
     },
     [540129] = {
         superType = 10,
@@ -87003,127 +87245,38 @@ return {
         },
         des = "date_cg_95",
     },
-    [599713] = {
-        superType = 7,
-        desTextId = 14110417,
+    [599712] = {
+        superType = 6,
+        desTextId = 14110258,
         cost = "",
         order = 1,
         pileUp = true,
         useProfit = {
-            custom = {
-                count = 1,
-                items = {
-                    [1] = {
-                        id = 521015,
-                        num = 1,
-                    },
-                    [2] = {
-                        id = 521025,
-                        num = 1,
-                    },
-                    [3] = {
-                        id = 521035,
-                        num = 1,
-                    },
-                    [4] = {
-                        id = 521045,
-                        num = 1,
-                    },
-                    [5] = {
-                        id = 521055,
-                        num = 1,
-                    },
-                    [6] = {
-                        id = 521065,
-                        num = 1,
-                    },
-                    [7] = {
-                        id = 521075,
-                        num = 1,
-                    },
-                    [8] = {
-                        id = 521085,
-                        num = 1,
-                    },
-                    [9] = {
-                        id = 521095,
-                        num = 1,
-                    },
-                    [10] = {
-                        id = 521105,
-                        num = 1,
-                    },
-                    [11] = {
-                        id = 521115,
-                        num = 1,
-                    },
-                    [12] = {
-                        id = 521125,
-                        num = 1,
-                    },
-                    [13] = {
-                        id = 521135,
-                        num = 1,
-                    },
-                    [14] = {
-                        id = 521145,
-                        num = 1,
-                    },
-                    [15] = {
-                        id = 521155,
-                        num = 1,
-                    },
-                    [16] = {
-                        id = 521165,
-                        num = 1,
-                    },
-                    [17] = {
-                        id = 521175,
-                        num = 1,
-                    },
-                    [18] = {
-                        id = 521185,
-                        num = 1,
-                    },
-                    [19] = {
-                        id = 521195,
-                        num = 1,
-                    },
-                    [20] = {
-                        id = 521205,
-                        num = 1,
-                    },
-                    [21] = {
-                        id = 521215,
-                        num = 1,
-                    },
-                },
-            },
         },
         buyItemRecover = 0,
         gridMax = 99999,
         bornEffect = false,
         outTime = 0,
-        bagType = 9,
+        bagType = 5,
         autoUse = false,
-        nameTextId = 14110411,
+        nameTextId = 14110246,
         icon = "icon/item/goods/520001.png",
-        quality = 5,
+        quality = 6,
         isHide = false,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 599713,
+        id = 599712,
         totalMax = 99999,
-        subType = 0,
+        subType = 3,
         sellProfit = {
             [1] = {
                 [1] = 500001,
                 [2] = 100,
             },
         },
-        batchUse = true,
+        batchUse = false,
         convertMax = {
         },
         iconShow = "",
@@ -87133,7 +87286,7 @@ return {
         star = 0,
         accessId = {
         },
-        des = "开启后可选择任意角色的随机S级图纸宝石技能图卷。",
+        des = "随机获取S-SS宝石图卷",
     },
     [540137] = {
         superType = 10,
@@ -87332,9 +87485,9 @@ return {
         },
         des = "date_cg_95",
     },
-    [599712] = {
+    [599711] = {
         superType = 6,
-        desTextId = 14110258,
+        desTextId = 14110257,
         cost = "",
         order = 1,
         pileUp = true,
@@ -87346,7 +87499,7 @@ return {
         outTime = 0,
         bagType = 5,
         autoUse = false,
-        nameTextId = 14110246,
+        nameTextId = 14110245,
         icon = "icon/item/goods/520001.png",
         quality = 6,
         isHide = false,
@@ -87354,7 +87507,7 @@ return {
         useCast = {
         },
         onceUseLimit = 0,
-        id = 599712,
+        id = 599711,
         totalMax = 99999,
         subType = 3,
         sellProfit = {
@@ -87373,7 +87526,7 @@ return {
         star = 0,
         accessId = {
         },
-        des = "随机获取S-SS宝石图卷",
+        des = "随机获取S级宝石图卷",
     },
     [540140] = {
         superType = 10,
@@ -88226,9 +88379,9 @@ return {
         },
         des = "date_cg_95",
     },
-    [540338] = {
+    [540348] = {
         superType = 10,
-        desTextId = 0,
+        desTextId = 13310596,
         cost = "",
         order = 1,
         pileUp = true,
@@ -88240,15 +88393,15 @@ return {
         outTime = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 0,
-        icon = "icon/cg/main_cg_1107.png",
+        nameTextId = 13310595,
+        icon = "icon/cg/cg_znq_01.png",
         quality = 1,
         isHide = false,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 540338,
+        id = 540348,
         totalMax = 9999999,
         subType = 0,
         sellProfit = {
@@ -92111,6 +92264,30 @@ return {
                         max = 1,
                         weight = 100,
                     },
+                    [57] = {
+                        min = 1,
+                        id = 1322111,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [58] = {
+                        min = 1,
+                        id = 1322121,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [59] = {
+                        min = 1,
+                        id = 1322131,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [60] = {
+                        min = 1,
+                        id = 1322141,
+                        max = 1,
+                        weight = 100,
+                    },
                 },
             },
         },
@@ -93239,6 +93416,30 @@ return {
                     [56] = {
                         min = 1,
                         id = 1316641,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [57] = {
+                        min = 1,
+                        id = 1322611,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [58] = {
+                        min = 1,
+                        id = 1322621,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [59] = {
+                        min = 1,
+                        id = 1322631,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [60] = {
+                        min = 1,
+                        id = 1322641,
                         max = 1,
                         weight = 100,
                     },
@@ -98447,6 +98648,30 @@ return {
                         max = 1,
                         weight = 100,
                     },
+                    [57] = {
+                        min = 1,
+                        id = 1422611,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [58] = {
+                        min = 1,
+                        id = 1422621,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [59] = {
+                        min = 1,
+                        id = 1422631,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [60] = {
+                        min = 1,
+                        id = 1422641,
+                        max = 1,
+                        weight = 100,
+                    },
                 },
             },
         },
@@ -98961,6 +99186,30 @@ return {
                     [56] = {
                         min = 1,
                         id = 1416741,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [57] = {
+                        min = 1,
+                        id = 1422711,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [58] = {
+                        min = 1,
+                        id = 1422721,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [59] = {
+                        min = 1,
+                        id = 1422731,
+                        max = 1,
+                        weight = 100,
+                    },
+                    [60] = {
+                        min = 1,
+                        id = 1422741,
                         max = 1,
                         weight = 100,
                     },
@@ -106560,6 +106809,10 @@ return {
                         id = 521165,
                         num = 1,
                     },
+                    [15] = {
+                        id = 521225,
+                        num = 1,
+                    },
                 },
             },
         },
@@ -106732,99 +106985,67 @@ return {
         },
         des = "",
     },
-    [599706] = {
+    [521047] = {
         superType = 7,
-        desTextId = 14110252,
+        desTextId = 41047,
         cost = "",
         order = 1,
         pileUp = true,
         useProfit = {
-            custom = {
+            roll = {
                 count = 1,
                 items = {
                     [1] = {
-                        id = 521017,
-                        num = 1,
+                        min = 1,
+                        id = 1404711,
+                        max = 1,
+                        weight = 2500,
                     },
                     [2] = {
-                        id = 521027,
-                        num = 1,
+                        min = 1,
+                        id = 1404721,
+                        max = 1,
+                        weight = 2500,
                     },
                     [3] = {
-                        id = 521037,
-                        num = 1,
+                        min = 1,
+                        id = 1404731,
+                        max = 1,
+                        weight = 2500,
                     },
                     [4] = {
-                        id = 521047,
-                        num = 1,
-                    },
-                    [5] = {
-                        id = 521057,
-                        num = 1,
-                    },
-                    [6] = {
-                        id = 521067,
-                        num = 1,
-                    },
-                    [7] = {
-                        id = 521077,
-                        num = 1,
-                    },
-                    [8] = {
-                        id = 521087,
-                        num = 1,
-                    },
-                    [9] = {
-                        id = 521097,
-                        num = 1,
-                    },
-                    [10] = {
-                        id = 521107,
-                        num = 1,
-                    },
-                    [11] = {
-                        id = 521117,
-                        num = 1,
-                    },
-                    [12] = {
-                        id = 521127,
-                        num = 1,
-                    },
-                    [13] = {
-                        id = 521137,
-                        num = 1,
-                    },
-                    [14] = {
-                        id = 521167,
-                        num = 1,
+                        min = 1,
+                        id = 1404741,
+                        max = 1,
+                        weight = 2500,
                     },
                 },
             },
         },
         buyItemRecover = 0,
-        gridMax = 99999,
+        gridMax = 999,
         bornEffect = false,
         outTime = 0,
-        bagType = 9,
-        autoUse = false,
-        nameTextId = 14110240,
-        icon = "icon/item/goods/520001.png",
+        bagType = 0,
+        autoUse = true,
+        nameTextId = 40010,
+        icon = "icon/stone/random/521007.png",
         quality = 7,
         isHide = false,
         delete = false,
         useCast = {
         },
         onceUseLimit = 0,
-        id = 599706,
-        totalMax = 99999,
+        id = 521047,
+        totalMax = 999,
         subType = 0,
         sellProfit = {
             [1] = {
                 [1] = 500001,
-                [2] = 100,
+                [2] = 1,
             },
         },
-        batchUse = true,
+        batchUse = false,
         convertMax = {
         },
         iconShow = "",
@@ -106834,7 +107055,7 @@ return {
         star = 0,
         accessId = {
         },
-        des = "开启后可选择任意角色的随机SSS级图纸宝石技能图卷。",
+        des = "SSS级宝石图纸，可随机获得【时崎狂三】任意技能SSS级宝石图纸。",
     },
     [522071] = {
         superType = 7,
@@ -106972,6 +107193,10 @@ return {
                     },
                     [14] = {
                         id = 522164,
+                        num = 1,
+                    },
+                    [15] = {
+                        id = 522224,
                         num = 1,
                     },
                 },
@@ -107366,6 +107591,10 @@ return {
                         id = 522165,
                         num = 1,
                     },
+                    [15] = {
+                        id = 522225,
+                        num = 1,
+                    },
                 },
             },
         },
@@ -107507,6 +107736,10 @@ return {
                     },
                     [14] = {
                         id = 522166,
+                        num = 1,
+                    },
+                    [15] = {
+                        id = 522226,
                         num = 1,
                     },
                 },

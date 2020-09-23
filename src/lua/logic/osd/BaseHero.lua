@@ -705,7 +705,11 @@ function BaseHero:refresName()
 		if self.Label_gonghui then
 			if self.data.unionName and #self.data.unionName > 0 then 
 				self.Label_gonghui:show()
-				self.Label_gonghui:setText(string.format("[%s]",self.data.unionName))
+				local countryStr = ""
+	            if self.data.showCountry then
+	                countryStr = " ("..LeagueDataMgr:getClubCountryDataById(self.data.country).Countryabbreviations..")"
+	            end
+				self.Label_gonghui:setText(string.format("[%s]",self.data.unionName..countryStr))
 			else
 				self.Label_gonghui:hide()
 			end 

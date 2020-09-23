@@ -91,6 +91,8 @@ function OSDDataMgr:transData(data,heroType)
 		ret.level      = data.level
 		ret.skinCid     = data.skinCid
 		ret.unionName  = data.unionName or ""
+		ret.showCountry = data.showCountry
+		ret.country = data.country
 		ret.titleId     = data.titleId or 0
 		if data.pos then 
 			ret.pos    = ccp(data.pos.x,data.pos.y)

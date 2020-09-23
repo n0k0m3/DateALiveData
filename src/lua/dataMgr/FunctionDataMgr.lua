@@ -85,6 +85,7 @@ function FunctionDataMgr:initFuncList()
         [999] = self.jSpecialFuben,    --特殊活动副本
         [199] = self.jAssistanceCode,
         [200] = self.jRechargeArray,
+        [305] = self.jNewGuyGiftBag,    --萌新礼包弹窗
     }
     local tempFunc = {}
     for k, v in pairs(self.funcList_) do
@@ -1203,6 +1204,10 @@ function FunctionDataMgr:isMainLayerOneYearUI(str)
         return true
     end
     return false
+end
+
+function FunctionDataMgr:jNewGuyGiftBag( ... )
+    Utils:openView("store.NewGuyGiftBag")
 end
 
 function FunctionDataMgr:isOneYearLoginUI()

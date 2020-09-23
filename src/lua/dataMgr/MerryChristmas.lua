@@ -23,8 +23,8 @@ function FileCheckMgr:ctor()
         }
     else
         self.urlHeads = {
-            "https:c-en.datealive.com/dal_eng/",
-            "https:c-dal-en.heitaoglobal.com/dal_eng/",
+            "https://c-en.datealive.com/dal_eng/",
+            "https://c-dal-en.heitaoglobal.com/dal_eng/",
         }
     end
 

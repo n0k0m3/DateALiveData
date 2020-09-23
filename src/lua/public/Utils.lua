@@ -1914,4 +1914,80 @@ function Utils:clearDayChageSaveData( strName )
     CCUserDefault:sharedUserDefault():setIntegerForKey(playerId..strName ,0)
 end
 
+function Utils:createClubCountryNamePanel(panelRoot , panelPos  , isShowBGColor , isCanClick , callback , isShowString)
+    local bgPanel = TFPanel:create()
+    bgPanel:setName("bgPanel")
+    bgPanel:setSize(CCSize(80 , 25))
+    if isShowBGColor then
+        bgPanel:setBackGroundColorType(TF_LAYOUT_COLOR_SOLID)
+        bgPanel:setBackGroundColor(ccc3(0 , 0 ,0))
+        bgPanel:setBackGroundColorOpacity(50)
+    end
+    bgPanel:setPosition(panelPos)
+
+    local label_custom = TFLabel:create()
+    label_custom:setFontName("font/fangzheng_zhunyuan.ttf")
+    label_custom:setFontSize(20)
+    label_custom:setAnchorPoint(ccp(0 , 0))
+    label_custom:setPosition(120 , 0)
+    label_custom:setName("label_custom")
+    bgPanel:addChild(label_custom)
+
+    bgPanel:setSize(CCSize(label_custom:getContentSize().width , 25))
+
+    -- local changeBtn = TFButton:create("ui/league/ui_33.png")
+    --     changeBtn:setScale(0.8)
+    --     changeBtn:onClick(function( ... )
+    --         Utils:openView("league.LeagueCountrySelectView" , callback)
+    --     end)
+    --     changeBtn:setName("changeBtn")
+    --     bgPanel:addChild(changeBtn)
+
+        
+
+    -- if not isCanClick then
+    --     changeBtn:hide()
+    -- end
+
+    bgPanel:setTouchEnabled(true)
+        bgPanel:onClick(function( ... )
+            Utils:openView("league.LeagueCountrySelectView" , callback)
+        end)
+
+    panelRoot:addChild(bgPanel ,1)
+
+    if isShowString then
+        local label_empyTetx = TFLabel:create()
+        label_empyTetx:setFontName("font/MFLiHei_Noncommercial.ttf")
+        label_empyTetx:setFontSize(22)
+        label_empyTetx:setTextAreaSize(CCSize(400 , 0))
+        label_empyTetx:setAnchorPoint(ccp(0 , 0))
+        label_empyTetx:setPosition(-150 , -2)
+        label_empyTetx:setTextById(190000177)
+        --self.label_empyTetx:enableOutline(ccc4(0,0,0,255), 1)
+
+        bgPanel:addChild(label_empyTetx , 1)
+    end
+
+    self:updateClubCountryName(bgPanel , "USA")
+
+
+
+    return bgPanel
+end
+
+
+function Utils:updateClubCountryName(bgPanel , text )
+    text = text or ""
+    local label_custom = bgPanel:getChildByName( "label_custom")
+    label_custom:setText(text)
+    local labelW = 150
+    if label_custom:getContentSize().width > labelW then
+        labelW = label_custom:getContentSize().width
+    end
+    
+    bgPanel:setSize(CCSize( labelW  , 25))
+    -- local changeBtn = bgPanel:getChildByName("changeBtn")
+    -- changeBtn:setPosition(bgPanel:getContentSize().width +  changeBtn:getContentSize().width/2 - 8, changeBtn:getContentSize().height / 2 - 8)
+end
 return Utils

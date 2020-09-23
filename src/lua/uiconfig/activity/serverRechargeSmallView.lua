@@ -151,19 +151,18 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "24",
+							fontSize = "20",
 							fontStroke = 
 							{
 								IsStroke = true,
 								StrokeColor = "#FF3A1316",
 								StrokeSize = 1,
 							},
-							height = "100",
-							ignoreSize = "False",
+							height = "27",
+							ignoreSize = "True",
 							name = "label_time",
 							nTextAlign = "1",
 							nTextHAlign = "1",
-							rotation = "-10",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
@@ -174,9 +173,9 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = -447,
-								PositionY = 209,
+								PositionY = 214,
 							},
-							width = "120",
+							width = "136",
 							ZOrder = "1",
 						},
 						{

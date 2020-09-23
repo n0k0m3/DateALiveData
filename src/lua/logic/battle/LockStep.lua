@@ -143,6 +143,9 @@ function LockStep.initlize()
     -- CCDirector:sharedDirector():setDisplayStats(true)
 
     this.synchronBossStateTime = 0
+
+    this.ipArray = TFArray:new()
+    this.connectedIpArray = TFArray:new()
 end
 function LockStep.setRunState(state)
     this.nRunState = state
@@ -568,9 +571,19 @@ function LockStep.closeUDP()
         this.kcpnet = nil
     end
     this.bConnected = false
+    this.connectedIpArray:clear()
+    this.ipArray:clear()
 end
 
 function LockStep.setUDPCfg(host,port)
+    this.connectedIpArray:clear()
+    this.ipArray:clear()
+
+    local split = string.split(tostring(host), ",")
+    for _,_ip in ipairs(split) do
+        this.ipArray:push(_ip)
+    end
+
     this.host   = tostring(host)
     this.port   = tonumber(port)
 end
@@ -615,7 +628,7 @@ function LockStep:onRevEndFight(event)
     -- enum MsgID{eMsgID = 25605;}; //注意：消息id放最后,以免客户端解析异常
     --处理战斗结束消息
     _print("onRev Team Fight end")
-    dump(data)
+    dump(event)
     this.endData = event  --保存战斗结束的数据        
     EventMgr:dispatchEvent(eEvent.EVENT_TEAM_FIGHT_END)
 end
@@ -835,19 +848,19 @@ end
 
 --重连
 function LockStep:reconnect()
-    if this.nReconnectTimes < MAX_RECONNECT_TIMES then
+    if this.nReconnectTimes < MAX_RECONNECT_TIMES*this.ipArray:length() then
         this.nReconnectTimes = this.nReconnectTimes + 1
         this.connect(true)
         return true
     else
-        print("已超过最大重连次数")
+        print_("已超过最大重连次数")
         return false
     end
 end
 
 --连接服务器
 function LockStep.connect(isReconnect)
-    print("host:",this.host,"port:",this.port)
+    print_("host:",this.host,"port:",this.port)
     if this.isConnected() then
         return
     end
@@ -872,10 +885,12 @@ function LockStep.connect(isReconnect)
         else
             this.kcpnet = TFClientNet:create(0,true)
         end
+
+        --this.kcpnet:SetConnTOT(50)
     end
     --连接成功
     local function onConnected(nResult)
-         print("onConnected:",nResult)
+        print_("onConnected:",nResult)
         if nResult == 1 then
             this.bConnected      = true
             this.nReconnectTimes = 0
@@ -892,6 +907,7 @@ function LockStep.connect(isReconnect)
                     this.sendHeartbeat()
                 end)
             end
+            this.connectedIpArray:clear()
         elseif nResult == -1 or nResult == -2 then
             this.bConnected      = false
             if not this.reconnect() then
@@ -902,14 +918,36 @@ function LockStep.connect(isReconnect)
     end
     --连接错误
     local function onConnectError()
-        print("连接失败")
+        print_("连接失败")
         this.bConnected = false
         if not this.reconnect() then
             Utils:showError(100000016)
             EventMgr:dispatchEvent(eEvent.EVENT_LEAVE)
         end
     end
-    this.kcpnet:Connect(this.host , this.port ,onConnected, nil,onConnectError)
+
+    local connectIp = ""
+    if this.connectedIpArray:length() <= 0 then
+        connectIp = this.ipArray:front()
+    else
+        local connectedIp = this.connectedIpArray:back()
+        local index = this.ipArray:indexOf(connectedIp)
+        connectIp = this.ipArray:getObjectAt((((index + 1) - 1)%this.ipArray:length()) + 1)
+    end
+    this.connectedIpArray:push(connectIp)
+
+    this.kcpnet:SetConnTOT(5)
+    this.kcpnet:Connect(connectIp , this.port ,onConnected, nil, onConnectError)
+
+    local time = 0
+    for _ip in this.connectedIpArray:iterator() do
+        if _ip == connectIp then
+            time = time + 1
+        end
+    end
+    if HeitaoSdk and time <= 1 then
+        HeitaoSdk.reportNetworkData(connectIp)
+    end
 end
 
 function LockStep.sendHeartbeat()
@@ -1081,6 +1119,7 @@ end
 -- required int32 fightTime = 4;           // 战斗时间
 --通知战斗结束
 function LockStep.sendEndFight(message)
+    _print("LockStep.sendEndFight >>>>>>>>>>>>>")
     --战斗已经结束不需要发送
     if this.endData then
         return

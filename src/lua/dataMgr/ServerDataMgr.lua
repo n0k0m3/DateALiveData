@@ -23,23 +23,23 @@ function ServerDataMgr:init()
 
         ["android_check"] = {
             sort = 3,
-            url = "http://uc-en.datealive.com:8081/account/login"
+            url = {[1] = "http://uc-en.datealive.com:8081/account/login"}
         },
 
         ["ios_check"] = {
             sort = 4,
-            url = "https://uc-en.datealive.com:8082/account/login"
+            url = {[1] = "https://uc-en.datealive.com:8082/account/login"} 
         },   
 
         ["cehua"] = {
             sort = 5,
             name = "外网-策划",
-            url = "http://148.153.55.228:7070/account/login"
+            url = {[1] = "http://148.153.55.228:7070/account/login"}
         }, 
         ["eng"] = {
             sort = 6,
             name = "外网-正式服",
-            url = "http://uc-en.datealive.com:8081/account/login"
+            url = {[1] = "http://uc-en.datealive.com:8081/account/login"}
         }
     }
 

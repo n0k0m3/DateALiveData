@@ -111,6 +111,17 @@ function FriendView:initUI(ui)
         self.Button_rule[i] = Button_rule
     end
 
+    --添加空文本显示
+    self.label_empyTetx_friend = TFLabel:create()
+    self.label_empyTetx_friend:setFontName("font/MFLiHei_Noncommercial.ttf")
+    self.label_empyTetx_friend:setFontSize(22)
+    self.label_empyTetx_friend:setTextAreaSize(CCSize(800 , 0))
+    self.label_empyTetx_friend:setAnchorPoint(ccp(0.5 , 1))
+    self.label_empyTetx_friend:setPosition(57 , -30)
+    self.label_empyTetx_friend:setTextById(190000173)
+    --self.label_empyTetx:enableOutline(ccc4(0,0,0,255), 1)
+    self.Panel_friend:addChild(self.label_empyTetx_friend)
+
     self.Button_receive = TFDirector:getChildByPath(self.Panel_friend, "Button_receive")
     self.Label_receive = TFDirector:getChildByPath(self.Button_receive, "Label_receive")
     self.Button_giving = TFDirector:getChildByPath(self.Panel_friend, "Button_giving")
@@ -139,6 +150,16 @@ function FriendView:initUI(ui)
     self.Label_agree = TFDirector:getChildByPath(self.Button_agree, "Label_agree")
     self.Button_reject = TFDirector:getChildByPath(self.Panel_root, "Button_reject")
     self.Label_reject = TFDirector:getChildByPath(self.Button_reject, "Label_reject")
+     --添加空文本显示
+    self.label_empyTetx_apply = TFLabel:create()
+    self.label_empyTetx_apply:setFontName("font/MFLiHei_Noncommercial.ttf")
+    self.label_empyTetx_apply:setFontSize(22)
+    self.label_empyTetx_apply:setTextAreaSize(CCSize(800 , 0))
+    self.label_empyTetx_apply:setAnchorPoint(ccp(0.5 , 1))
+    self.label_empyTetx_apply:setPosition(57 , -30)
+    self.label_empyTetx_apply:setTextById(190000174)
+    --self.label_empyTetx:enableOutline(ccc4(0,0,0,255), 1)
+    self.Panel_apply:addChild(self.label_empyTetx_apply)
 
     self.Panel_add = TFDirector:getChildByPath(self.Panel_root, "Panel_add")
     local Image_addScrollBar = TFDirector:getChildByPath(self.Panel_add, "Image_addScrollBar")
@@ -202,6 +223,18 @@ function FriendView:initUI(ui)
     self.ListView_shielding:setItemsMargin(5)
     self.ListView_shielding:setScrollBar(scrollBar)
     self.ListView_shielding.scrollView = ScrollView_shielding
+
+     --添加空文本显示
+    self.label_empyTetx_shielding = TFLabel:create()
+    self.label_empyTetx_shielding:setFontName("font/MFLiHei_Noncommercial.ttf")
+    self.label_empyTetx_shielding:setFontSize(22)
+    self.label_empyTetx_shielding:setTextAreaSize(CCSize(800 , 0))
+    self.label_empyTetx_shielding:setAnchorPoint(ccp(0.5 , 1))
+    self.label_empyTetx_shielding:setPosition(57 , -30)
+    self.label_empyTetx_shielding:setTextById(190000176)
+    --self.label_empyTetx:enableOutline(ccc4(0,0,0,255), 1)
+    self.Panel_shielding:addChild(self.label_empyTetx_shielding)
+
 
     self.Panel_top = TFDirector:getChildByPath(self.Panel_root, "Panel_top")
     local Panel_left = TFDirector:getChildByPath(self.Panel_root, "Panel_left")
@@ -502,10 +535,20 @@ function FriendView:updateFriendListByType(type_)
             end)
         end
         data = self.friend_
+        if #data > 0 then
+            self.label_empyTetx_friend:hide()
+        else
+            self.label_empyTetx_friend:show()
+        end
     elseif type_ == EC_Friend.APPLY then
         listView = self.ListView_apply
         self.applyFriend_ = FriendDataMgr:getFriend(EC_Friend.APPLY)
         data = self.applyFriend_
+        if #data > 0 then
+            self.label_empyTetx_apply:hide()
+        else
+            self.label_empyTetx_apply:show()
+        end
     elseif type_ == EC_Friend.ADD then
         listView = self.ListView_add
         self.addFriend_ = FriendDataMgr:getFriend(EC_Friend.ADD)
@@ -514,6 +557,11 @@ function FriendView:updateFriendListByType(type_)
         listView = self.ListView_shielding
         self.shieldingFriend_ = FriendDataMgr:getFriend(EC_Friend.SHIELDING)
         data = self.shieldingFriend_
+        if #data > 0 then
+            self.label_empyTetx_shielding:hide()
+        else
+            self.label_empyTetx_shielding:show()
+        end
     end
     local items = listView:getItems()
     local gap = #data - #items

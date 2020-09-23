@@ -6,6 +6,7 @@ function VideoView:initData(...)
     self.videoPlayer_ = nil
 
     self.isEndLoop = false
+    self.isSkipComplete = false
 end
 
 function VideoView:ctor(...)
@@ -29,6 +30,14 @@ end
 
 function VideoView:setEndLoop(loop)
     self.isEndLoop = loop
+end
+
+function VideoView:setSkipComplete(isSkipComplete)
+    self.isSkipComplete = isSkipComplete
+end
+
+function VideoView:bindSpecicalCompleteCallBack(fun)
+    self.specicalCompleteCallBack_ = fun
 end
 
 function VideoView:bindEndCallBack(fun)
@@ -96,7 +105,11 @@ function VideoView:playVideo(video, isEnd)
             end,
             endCall = function(...)
                 if self.onVideoPlayComplete then 
-                    self:onVideoPlayComplete(...)
+                    if self.isSkipComplete == true then
+                        self:onVideoPlayComplete()
+                    else
+                        self:onVideoPlayComplete(...)
+                    end
                 end
             end
         })
@@ -135,6 +148,11 @@ function VideoView:onVideoPlayComplete(videoPlayer_, isSkip)
         self:stopVideo()
         return
     end
+
+    if self.videoPathIndex_ < #self.videoPathList_ and self.specicalCompleteCallBack_ then
+        self.specicalCompleteCallBack_()
+    end
+
     self.videoPathIndex_ = self.videoPathIndex_ + 1
     if self.videoPathIndex_ > #self.videoPathList_ and not self.isEndLoop then
         self:stopVideo()

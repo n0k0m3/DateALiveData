@@ -120,10 +120,16 @@ function JoinLeagueLayer:updateLeagueItem(item, data)
     local Button_aply = TFDirector:getChildByPath(item, "Button_aply")
     local Button_join = TFDirector:getChildByPath(item, "Button_join")
     local Label_aplied = TFDirector:getChildByPath(item, "Label_aplied")
+
+
+    local countryStr = ""
+    if data.showCountry then
+        countryStr = " ("..LeagueDataMgr:getClubCountryDataById(data.country).Countryabbreviations..")"
+    end
     
     local emblemCfg = LeagueDataMgr:getEmblemCfgById(data.icon or 101)
     Image_league_flag:setTexture(emblemCfg.icon)
-    Label_league_name:setText(data.name)
+    Label_league_name:setText(data.name .. countryStr)
     Label_league_level:setText("Lv."..tostring(data.level))
     Label_members_num:setText(tostring(data.memberCount).."/"..data.memberCountMax)
     local active = data.active

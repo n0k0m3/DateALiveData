@@ -158,14 +158,14 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "18",
+							fontSize = "15",
 							fontStroke = 
 							{
 								IsStroke = false,
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "21",
+							height = "17",
 							ignoreSize = "True",
 							name = "label_time",
 							nTextAlign = "1",
@@ -182,7 +182,7 @@ local t =
 								PositionX = -443,
 								PositionY = 256,
 							},
-							width = "73",
+							width = "62",
 							ZOrder = "1",
 						},
 						{

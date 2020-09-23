@@ -158,14 +158,14 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "18",
+							fontSize = "15",
 							fontStroke = 
 							{
 								IsStroke = false,
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "21",
+							height = "17",
 							ignoreSize = "True",
 							name = "label_time",
 							nTextAlign = "1",
@@ -182,7 +182,7 @@ local t =
 								PositionX = -443,
 								PositionY = 256,
 							},
-							width = "73",
+							width = "62",
 							ZOrder = "1",
 						},
 						{
@@ -204,15 +204,15 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "18",
+							fontSize = "15",
 							fontStroke = 
 							{
 								IsStroke = false,
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "21",
-							ignoreSize = "True",
+							height = "0",
+							ignoreSize = "False",
 							name = "label_des",
 							nTextAlign = "1",
 							nTextHAlign = "0",
@@ -226,7 +226,7 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = -441,
-								PositionY = -238,
+								PositionY = -229,
 							},
 							width = "505",
 							ZOrder = "1",
@@ -350,7 +350,6 @@ local t =
 								PositionY = -228,
 							},
 							UItype = "Button",
-							visible = "False",
 							width = "200",
 							ZOrder = "1",
 							components = 
@@ -403,15 +402,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "28",
+									fontSize = "15",
 									fontStroke = 
 									{
 										IsStroke = true,
 										StrokeColor = "#FF76310C",
 										StrokeSize = 2,
 									},
-									height = "38",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_btn",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -419,15 +418,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "预售",
+									text = "Pre-order",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -42,
-										PositionY = -3,
+										PositionX = -49,
 									},
-									width = "60",
+									width = "71",
 									ZOrder = "1",
 								},
 								{
@@ -505,6 +503,7 @@ local t =
 								PositionY = -226,
 							},
 							UItype = "Button",
+							visible = "False",
 							width = "200",
 							ZOrder = "1",
 							components = 
@@ -709,7 +708,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 236,
-										PositionY = -6,
+										PositionY = -5,
 										IsPercent = true,
 										PercentX = 50.05,
 										PercentY = -33.28,
@@ -831,7 +830,7 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "22",
+															fontSize = "18",
 															fontStroke = 
 															{
 																IsStroke = false,
@@ -906,7 +905,7 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "22",
+															fontSize = "18",
 															fontStroke = 
 															{
 																IsStroke = false,
@@ -1036,15 +1035,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "30",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = true,
 										StrokeColor = "#FF76310C",
 										StrokeSize = 2,
 									},
-									height = "40",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_tip",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -1052,14 +1051,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "已购买",
+									text = "Pre-ordered",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										
+										PositionX = 12,
 									},
-									width = "95",
+									width = "161",
 									ZOrder = "1",
 								},
 							},

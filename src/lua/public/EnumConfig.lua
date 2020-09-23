@@ -748,6 +748,7 @@ EC_UNIONType = {
     TRANSFER = 6,  -- 转让团长
     FAST_JOIN = 7, --快速加入
     IMPEACH_LEADER = 8, --弹劾团长
+
 }
 
 -- 社团信息修改
@@ -766,6 +767,10 @@ EC_UNION_EDIT_Type = {
     TRAIN_THEME_ID = 12,           -- 特训主题ID
     TRAIN_UNION_SCORE = 13,           -- 特训社团积分
     TRAIN_REMAIN_TIMES = 14,           -- 特训剩余次数
+    MODIFY_NAME = 15,          -- 修改社团名字
+    MORALE_UPDATE = 16,        -- 世界boss士气更新
+    CHANGE_COUNTRY = 28,     --国家修改设置
+    SHOW_COUNTRY = 29,        --是否显示国家
 }
 
 -- 社团职位类型
@@ -794,6 +799,7 @@ EC_UNION_SETTING_Type = {
     OPEN_APPLY = 1,              -- 开放申请
     LIMIT_JOIN = 2,              -- 开放限制条件
     AUTO_JOIN = 3,               -- 开放自动加入
+    SHOW_COUNTRY = 4,            -- 显示国家
 }
 
 EC_UNION_NOTIFY_Type = {

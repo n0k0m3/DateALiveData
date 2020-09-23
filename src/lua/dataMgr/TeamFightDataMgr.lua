@@ -896,7 +896,7 @@ function TeamFightDataMgr:installTeamInfo( data )
     self.visibleType     = data.show_type   or 0
     self.minLv           = data.level_limit or 1
 
-    local defaultValue   = true
+    local defaultValue   = self.nTeamType ~= EC_NetTeamType.FuShi
 
     self.showInRoom = data.open == nil and defaultValue or data.open
     if self.nLeaderId ~= nil and self.nLeaderId ~= 0 and self.nLeaderId ~= data.leaderPid then

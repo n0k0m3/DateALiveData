@@ -347,14 +347,14 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "20",
+							fontSize = "15",
 							fontStroke = 
 							{
 								IsStroke = false,
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "23",
+							height = "17",
 							ignoreSize = "True",
 							name = "Label_percent_title",
 							nTextAlign = "0",
@@ -369,9 +369,9 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = 330,
-								PositionY = 385,
+								PositionY = 387,
 							},
-							width = "75",
+							width = "59",
 							ZOrder = "1",
 							components = 
 							{
@@ -397,7 +397,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = -8,
-										PositionY = -13,
+										PositionY = -8,
 									},
 									width = "13",
 									ZOrder = "1",
@@ -423,7 +423,7 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "20",
+							fontSize = "15",
 							fontStroke = 
 							{
 								IsStroke = false,
@@ -445,7 +445,7 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = 440,
-								PositionY = 385,
+								PositionY = 387,
 							},
 							width = "372",
 							ZOrder = "1",
@@ -469,14 +469,14 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "20",
+							fontSize = "15",
 							fontStroke = 
 							{
 								IsStroke = false,
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "23",
+							height = "17",
 							ignoreSize = "True",
 							name = "Label_get_desc_title",
 							nTextAlign = "0",
@@ -491,9 +491,9 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = 330,
-								PositionY = 340,
+								PositionY = 342,
 							},
-							width = "131",
+							width = "100",
 							ZOrder = "1",
 							components = 
 							{
@@ -519,7 +519,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = -8,
-										PositionY = -12,
+										PositionY = -7,
 									},
 									width = "13",
 									ZOrder = "1",
@@ -545,7 +545,7 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "20",
+							fontSize = "15",
 							fontStroke = 
 							{
 								IsStroke = false,
@@ -567,7 +567,7 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = 493,
-								PositionY = 340,
+								PositionY = 342,
 							},
 							width = "300",
 							ZOrder = "1",
@@ -591,7 +591,7 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "20",
+							fontSize = "15",
 							fontStroke = 
 							{
 								IsStroke = false,
@@ -613,7 +613,7 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = 330,
-								PositionY = 250,
+								PositionY = 252,
 							},
 							width = "480",
 							ZOrder = "1",
@@ -641,7 +641,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = -5,
-										PositionY = -12,
+										PositionY = -7,
 									},
 									width = "13",
 									ZOrder = "1",

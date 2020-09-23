@@ -1,4 +1,154 @@
 return {
+    [9200116] = {
+        superType = 38,
+        excursion1 = {
+        },
+        order = 1,
+        pileUp = true,
+        condition = {
+        },
+        gridMax = 1,
+        effectivetime = 43200,
+        activeTime = 0,
+        clubPush = 0,
+        sellProfit = {
+        },
+        onceUseLimit = 0,
+        triggerEnvelope = 0,
+        totalMax = 1,
+        convertMax = {
+        },
+        content = 0,
+        classify = 3,
+        lamp = 1117,
+        titleLevel = 1,
+        notable = 1325419,
+        showPower = 180,
+        accessdes = 1326420,
+        titleType = 16,
+        toplimit = 0,
+        size2 = {
+            [1] = 110,
+            [2] = 100,
+            [3] = 100,
+        },
+        bagType = 0,
+        autoUse = false,
+        star = 4,
+        reward = {
+        },
+        displayClassify = 1,
+        showEffect = "effect/title/chenghao_QW2/chenghao_QW2",
+        excursion2 = {
+            [1] = {
+                [1] = 5,
+                [2] = -8,
+            },
+            [2] = {
+                [1] = 0,
+                [2] = 0,
+            },
+            [3] = {
+                [1] = 0,
+                [2] = 15,
+            },
+        },
+        useCast = {
+        },
+        baseAttribute = {
+            [1] = 23470,
+            [2] = 6697,
+            [3] = 6079,
+        },
+        chatShow = true,
+        title = 0,
+        relatedTask = 0,
+        subType = 0,
+        timeDescription = 1326529,
+        showPic = "",
+        size1 = 0,
+        titleStar = 4,
+        dealProfit = {
+        },
+        probability = 0,
+        quality = 1,
+        id = 9200116,
+    },
+    [9200115] = {
+        superType = 38,
+        excursion1 = {
+        },
+        order = 1,
+        pileUp = true,
+        condition = {
+        },
+        gridMax = 1,
+        effectivetime = 43200,
+        activeTime = 0,
+        clubPush = 0,
+        sellProfit = {
+        },
+        onceUseLimit = 0,
+        triggerEnvelope = 0,
+        totalMax = 1,
+        convertMax = {
+        },
+        content = 0,
+        classify = 3,
+        lamp = 1116,
+        titleLevel = 1,
+        notable = 1325418,
+        showPower = 120,
+        accessdes = 1326419,
+        titleType = 15,
+        toplimit = 0,
+        size2 = {
+            [1] = 110,
+            [2] = 100,
+            [3] = 100,
+        },
+        bagType = 0,
+        autoUse = false,
+        star = 4,
+        reward = {
+        },
+        displayClassify = 1,
+        showEffect = "effect/title/chenghao_QW1/chenghao_QW1",
+        excursion2 = {
+            [1] = {
+                [1] = 5,
+                [2] = -8,
+            },
+            [2] = {
+                [1] = 0,
+                [2] = 0,
+            },
+            [3] = {
+                [1] = 0,
+                [2] = 15,
+            },
+        },
+        useCast = {
+        },
+        baseAttribute = {
+            [1] = 14110,
+            [2] = 4027,
+            [3] = 3755,
+        },
+        chatShow = true,
+        title = 0,
+        relatedTask = 0,
+        subType = 0,
+        timeDescription = 1326529,
+        showPic = "",
+        size1 = 0,
+        titleStar = 3,
+        dealProfit = {
+        },
+        probability = 0,
+        quality = 1,
+        id = 9200115,
+    },
     [9200114] = {
         superType = 38,
         excursion1 = {
@@ -74,5 +224,80 @@ return {
         probability = 0,
         quality = 1,
         id = 9200114,
+    },
+    [9200117] = {
+        superType = 38,
+        excursion1 = {
+        },
+        order = 1,
+        pileUp = true,
+        condition = {
+        },
+        gridMax = 1,
+        effectivetime = 43200,
+        activeTime = 0,
+        clubPush = 0,
+        sellProfit = {
+        },
+        onceUseLimit = 0,
+        triggerEnvelope = 0,
+        totalMax = 1,
+        convertMax = {
+        },
+        content = 0,
+        classify = 3,
+        lamp = 1118,
+        titleLevel = 1,
+        notable = 1325420,
+        showPower = 250,
+        accessdes = 1326421,
+        titleType = 17,
+        toplimit = 0,
+        size2 = {
+            [1] = 110,
+            [2] = 100,
+            [3] = 100,
+        },
+        bagType = 0,
+        autoUse = false,
+        star = 4,
+        reward = {
+        },
+        displayClassify = 1,
+        showEffect = "effect/title/chenghao_QW3/chenghao_QW3",
+        excursion2 = {
+            [1] = {
+                [1] = 5,
+                [2] = -8,
+            },
+            [2] = {
+                [1] = 0,
+                [2] = 0,
+            },
+            [3] = {
+                [1] = 0,
+                [2] = 15,
+            },
+        },
+        useCast = {
+        },
+        baseAttribute = {
+            [1] = 36327,
+            [2] = 10378,
+            [3] = 9211,
+        },
+        chatShow = true,
+        title = 0,
+        relatedTask = 0,
+        subType = 0,
+        timeDescription = 1326529,
+        showPic = "",
+        size1 = 0,
+        titleStar = 5,
+        dealProfit = {
+        },
+        probability = 0,
+        quality = 1,
+        id = 9200117,
     },
 }

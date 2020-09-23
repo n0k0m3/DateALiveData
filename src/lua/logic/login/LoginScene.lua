@@ -30,11 +30,6 @@ function LoginScene:onEnter(re)
 		self:showVideoView();
 		Utils.isInMovieScene = false
 	end
-
-	me.TextureCache:removeUnusedTextures()
-	TFDirector:clearMovieClipCache()
-	me.FrameCache:removeUnusedSpriteFrames()
-	SpineCache:getInstance():clearUnused()
 end
 
 function LoginScene:showVideoView(re)
@@ -50,8 +45,8 @@ function LoginScene:showVideoView(re)
 		videoPth2 = "video/loginPart5.mp4"
 	else
 		delayTime = 2
-		videoPth1 = "video/loginPart3.mp4"
-		videoPth2 = "video/loginPart3.mp4"
+		videoPth1 = "video/loginPart1.mp4"
+		videoPth2 = "video/loginPart2.mp4"
 	end
 
 	if self.videoView or re then
@@ -80,20 +75,22 @@ function LoginScene:showVideoView(re)
 	    videoView:setAnchorPoint(ccp(0.5, 0.5))
 	    videoView:setPosition(ccp((GameConfig.WS.width - videoView:getSize().width)/2 + videoView:getSize().width / 2, (GameConfig.WS.height - videoView:getSize().height)/2 + videoView:getSize().height / 2))
 	    currentScene:addChild(videoView)
+	    videoView:setSkipComplete(true)
 	    videoView:setEndLoop(true)
-	    videoView:setIshowSkip(false)
+	    videoView:setIshowSkip(true)
+	    videoView:bindSpecicalCompleteCallBack(function()
+	    	videoView:setSkipComplete(false)
+	    	videoView:setIshowSkip(false)
+    		Utils:sendHttpLog("cartoon_finish_J")
+    		local layer = require("lua.logic.login.LoginLayer"):new(self.data)
+			videoView:addTopLayer(layer)
+			layer:setPosition(ccp(-GameConfig.WS.width / 2,-GameConfig.WS.height / 2))
+			self.layer = layer
+	    end)
 	    USE_NATIVE_VLC = OldValue
 	    TFAudio.resumeMusic()
 
-	    TimeOut(function()
-	    	Utils:sendHttpLog("cartoon_finish_J")
-	    		local layer = require("lua.logic.login.LoginLayer"):new(self.data)
-				videoView:addTopLayer(layer)
-				layer:setPosition(ccp(-GameConfig.WS.width / 2,-GameConfig.WS.height / 2))
-				self.layer = layer
-	    	end,delayTime)
-
-	    self.videoView = videoView;
+	    self.videoView = videoView
 	end
 end
 

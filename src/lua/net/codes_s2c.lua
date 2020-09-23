@@ -1368,7 +1368,7 @@ s2c.OFFICE_EXPLORE_OFFICE_TASK_REWARD = 7216
 
 --[[
 	[1] = {--UpdateUnionInfo
-		[1] = 'int32':type	[ 1修改社团徽记 2修改社团公告 3变更是否开启社团申请(参数true或false) 4变更是否开启自动加入(参数true或false) 5变更社团申请限制(是否开启限制,需求等级,需求战力)    // 1修改社团徽记 2修改社团公告 3变更是否开启社团申请(参数true或false) 4变更是否开启自动加入(参数true或false) 5变更社团申请限制(是否开启限制,需求等级,需求战力)]
+		[1] = 'int32':type	[ 1修改社团徽记 2修改社团公告 3变更是否开启社团申请(参数true或false) 4变更是否开启自动加入(参数true或false) 5变更社团申请限制(是否开启限制,需求等级,需求战力) 15改名    // 1修改社团徽记 2修改社团公告 3变更是否开启社团申请(参数true或false) 4变更是否开启自动加入(参数true或false) 5变更社团申请限制(是否开启限制,需求等级,需求战力) 15改名]
 		[2] = 'string':param
 	}
 --]]
@@ -1998,6 +1998,8 @@ s2c.NEW_BUILDING_RESP_GET_HAND_WORK_AWARD = 2083
 			[11] = 'bool':canApply	[是否可以申请加入]
 			[12] = 'string':leaderName	[团长名]
 			[13] = 'string':notice	[社团公告]
+			[14] = 'int32':country	[国家ID]
+			[15] = 'bool':showCountry	[是否显示国家]
 		},
 	}
 --]]
@@ -6728,6 +6730,8 @@ s2c.HERO_CHALLENGE_CHALLENGE_AWARD = 6303
 			[20] = 'int32':receiveTimes	[本日领取的空投次数]
 			[21] = 'int32':goldRedpacketTime	[本日金币红包次数]
 			[22] = 'int32':rechargeRedpacketTime	[本日钻石红包次数]
+			[23] = 'int32':country	[国家ID]
+			[24] = 'bool':showCountry	[是否显示国家]
 		},
 	}
 --]]
@@ -6756,6 +6760,8 @@ s2c.DUNGEON_BUY_FIGHT_COUNT = 1800
 			[11] = 'bool':canApply	[是否可以申请加入]
 			[12] = 'string':leaderName	[团长名]
 			[13] = 'string':notice	[社团公告]
+			[14] = 'int32':country	[国家ID]
+			[15] = 'bool':showCountry	[是否显示国家]
 		},
 	}
 --]]
@@ -6892,6 +6898,8 @@ s2c.PLAYER_HELP_FIGHT_HERO = 269
 			[20] = 'int32':receiveTimes	[本日领取的空投次数]
 			[21] = 'int32':goldRedpacketTime	[本日金币红包次数]
 			[22] = 'int32':rechargeRedpacketTime	[本日钻石红包次数]
+			[23] = 'int32':country	[国家ID]
+			[24] = 'bool':showCountry	[是否显示国家]
 		},
 	}
 --]]

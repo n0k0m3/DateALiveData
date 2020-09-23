@@ -20,6 +20,16 @@ function CreateLeagueLayer:initUI(ui)
     self.Image_res_icon = TFDirector:getChildByPath(self.ui, "Image_res_icon")
     self.Label_res_num = TFDirector:getChildByPath(self.ui, "Label_res_num")
 
+
+    local Image_placeholder_bg = TFDirector:getChildByPath(self.ui , "Image_placeholder_bg")
+
+    self.countryId = 0
+    self.panel_country =  Utils:createClubCountryNamePanel(Image_placeholder_bg , ccp(200 , -10)  , true , true , function ( countryId )
+        self.countryId = countryId
+        Utils:updateClubCountryName(self.panel_country , LeagueDataMgr:getClubCountryDataById(self.countryId).Countryabbreviations)
+    end , true)
+    Utils:updateClubCountryName(self.panel_country , LeagueDataMgr:getClubCountryDataById(self.countryId).Countryabbreviations)
+
     local params = {
         _type = EC_InputLayerType.OK,
         buttonCallback = function()
@@ -97,7 +107,7 @@ function CreateLeagueLayer:registerEvents()
         local text = self.Label_league_name:getText()
         if #text == 0 or not self.Label_league_name.isSet then
             Utils:showTips(270435)
-        elseif not LeagueDataMgr:createUnion(text) then
+        elseif not LeagueDataMgr:createUnion(text ,self.countryId) then
             Utils:showTips(200006)
         end
     end,

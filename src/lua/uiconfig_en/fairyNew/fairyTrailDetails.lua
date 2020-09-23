@@ -1980,7 +1980,6 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									visible = "False",
 									width = "510",
 									ZOrder = "1",
 									components = 
@@ -5141,15 +5140,15 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "24",
+													fontSize = "20",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "27",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "Label_skill_1_name",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -5168,7 +5167,7 @@ local t =
 														TopPosition = 331,
 														relativeToName = "Panel",
 													},
-													width = "108",
+													width = "97",
 													ZOrder = "1",
 												},
 												{
@@ -5241,15 +5240,15 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "24",
+													fontSize = "20",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "27",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "Label_skill_2_name",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -5268,7 +5267,7 @@ local t =
 														TopPosition = 8,
 														relativeToName = "Panel",
 													},
-													width = "108",
+													width = "97",
 													ZOrder = "1",
 												},
 												{
@@ -5341,15 +5340,15 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "24",
+													fontSize = "20",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "27",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "Label_skill_3_name",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -5368,7 +5367,7 @@ local t =
 														TopPosition = 331,
 														relativeToName = "Panel",
 													},
-													width = "108",
+													width = "97",
 													ZOrder = "1",
 												},
 												{

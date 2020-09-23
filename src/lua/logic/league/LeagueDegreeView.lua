@@ -52,7 +52,7 @@ function LeagueDegreeView:refreshUI()
         local item = self.Panel_degree_item:clone()
         self:updateItem(item, data)
         self.Panel_degree:addChild(item, 5)
-        item:setPosition(ccp(size.width / 2, size.height - 111 - (i - 1) * 47))
+        item:setPosition(ccp(size.width / 2, size.height - 111 - (i - 1) * 46))
     end
     self.Panel_degree:removeFromParent()
     self.ScrollView_degree:pushBackCustomItem(self.Panel_degree)

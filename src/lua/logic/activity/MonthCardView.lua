@@ -61,6 +61,8 @@ end
 function MonthCardView:initData()
     -- self.signImgs = {}
     self.isDoubleCardOpen = ActivityDataMgr2:isOpen(EC_ActivityType2.DOUBLE_CARD)
+    self.doubleData = TabDataMgr:getData("DiscreteData")[1100010].data
+
 end
 
 function MonthCardView:initUI(ui)
@@ -129,6 +131,8 @@ function MonthCardView:initUI(ui)
     self.ScrollView_welfare = UIListView:create(TFDirector:getChildByPath(ui, "ScrollView_welfare"))
     self.ScrollView_welfare:setItemsMargin(10)
     self.img_welfare = TFDirector:getChildByPath(ui, "img_welfare"):hide()
+
+    self:checkIsCustomDouble()
 
     self:initWelfarelist()
     self:updateContentView()
@@ -209,8 +213,20 @@ function MonthCardView:showSignPanel(bupdate)
             self.Image_double:show()
             local doubleCardId = ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.DOUBLE_CARD)
             local activityInfo = ActivityDataMgr2:getActivityInfo(doubleCardId[1])
-            if activityInfo then
+            if doubleCardId[1] and next(activityInfo) then
                 local remainTime = math.max(0, activityInfo.endTime - ServerDataMgr:getServerTime())
+                local day, hour, min = Utils:getFuzzyDHMS(remainTime, true)
+                self.Label_doubleTime:setTextById(800044, day, hour, min)
+            else
+                local allTime = self.doubleData.date[2] * 24 * 3600
+                local nowServerDate = ServerDataMgr:customUtcTimeForServerDate()
+                local startDay = self.doubleData.date[1]
+                local nowDay = nowServerDate.day
+                local nowHour = nowServerDate.hour
+                local nowMin = nowServerDate.min
+                local nowSec = nowServerDate.sec
+                local passTime = (((nowDay - startDay) * 24 + nowHour ) * 60 + nowMin) * 60 + nowSec
+                local remainTime = math.max(0, allTime - passTime)
                 local day, hour, min = Utils:getFuzzyDHMS(remainTime, true)
                 self.Label_doubleTime:setTextById(800044, day, hour, min)
             end
@@ -410,6 +426,21 @@ function MonthCardView:onCheckMonthCardDouble()
     local newstatus = ActivityDataMgr2:isOpen(EC_ActivityType2.DOUBLE_CARD)
     if self.isDoubleCardOpen ~= newstatus then
         self.isDoubleCardOpen = newstatus
+        self:updateContentView()
+    end
+    if not self.isDoubleCardOpen then
+        self:checkIsCustomDouble()
+    end
+end
+
+function MonthCardView:checkIsCustomDouble( ... )
+
+    local data = self.doubleData.date
+    local startDay = data[1]
+    local endDay = data[2] + data[1]
+    local nowServerDate = ServerDataMgr:customUtcTimeForServerDate( )
+    if nowServerDate.day >= startDay and nowServerDate.day < endDay then
+        self.isDoubleCardOpen = true
         self:updateContentView()
     end
 end

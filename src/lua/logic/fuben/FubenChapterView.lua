@@ -416,11 +416,11 @@ function FubenChapterView:refreshKsanPage()
     self.Panel_kuangsan.Button_start:setTouchEnabled(visible)
     self.Panel_kuangsan.Button_start:setGrayEnabled(not visible)
 
-    local startDate = Utils:getLocalDate(self.activityKsanInfo.showStartTime)
+    local startDate = Utils:getUTCDate(self.activityKsanInfo.showStartTime , GV_UTC_TIME_ZONE)
     local startDateStr = startDate:fmt("%Y.%m.%d")
-    local endDate = Utils:getLocalDate(self.activityKsanInfo.showEndTime)
+    local endDate = Utils:getUTCDate(self.activityKsanInfo.showEndTime ,GV_UTC_TIME_ZONE)
     local endDateStr = endDate:fmt("%m.%d")
-    self.Panel_kuangsan.Label_time_value:setText(startDateStr.."-"..endDateStr)
+    self.Panel_kuangsan.Label_time_value:setText(startDateStr.."-"..endDateStr..GV_UTC_TIME_STRING)
 
 end
 
@@ -557,8 +557,8 @@ function FubenChapterView:updateFubenItem(index)
         foo.Label_tip:setText(self.linkageData.tips)
     elseif fubenData.type_ == EC_FBType.KSAN_FUBEN then
         if self.activityKsanInfo then
-            local year, month, day = Utils:getDate(self.activityKsanInfo.showEndTime, true)
-            local timeStr  = TextDataMgr:getText(12030003,month,day)
+            local dateTime = Utils:getUTCDate(self.activityKsanInfo.showEndTime, GV_UTC_TIME_ZONE)
+            local timeStr  = TextDataMgr:getText(12030003,dateTime:fmt("%m"),dateTime:fmt("%d"))
             foo.Label_tip:setText(timeStr)
         end
     end

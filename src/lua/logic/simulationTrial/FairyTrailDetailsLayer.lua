@@ -415,12 +415,6 @@ function FairyTrailDetailsLayer:initUI(ui)
 	table.insert(self.tabButtons, {btn = self.btn_jiban, panel = self.tabPanels[4].pl,id = 4,uiType = self.tabPanels[4].uiType})
 	table.insert(self.tabButtons, {btn = self.btn_bone, panel = self.tabPanels[5].pl,id = 5,uiType = self.tabPanels[5].uiType})
 
-	--屏蔽信物和宝石
-	self.btn_attr:setPosition(self.btn_zhidian:getPosition())
-	self.btn_zhidian:setPosition(self.btn_angel:getPosition())
-	self.btn_angel:setPosition(self.btn_jiban:getPosition())
-	self.btn_jiban:hide()
-	self.btn_bone:hide()
 
 
 
@@ -771,7 +765,7 @@ function FairyTrailDetailsLayer:updateEquipLayer()
             Image_skill_desc:setOpacity(255)
             local size = Label_skill_desc:getContentSize()
             size.width = size.width + 20
-            size.height = size.height - 30
+            size.height = size.height
             Image_skill_desc:setContentSize(size)
             Image_skill_desc:runAction(Sequence:create({DelayTime:create(2), FadeOut:create(0.5)}))
             end)

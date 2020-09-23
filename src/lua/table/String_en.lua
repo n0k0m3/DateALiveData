@@ -5721,7 +5721,7 @@ return {
     },
     [1705087] = {
         id = 1705087,
-        text = "Human's heart, is something that even they themselves cannot understand well. Please be careful.",
+        text = "The human heart is something unpredictable that even you probably do not understand yourself. Please be careful.",
     },
     [213148] = {
         id = 213148,
@@ -7165,7 +7165,7 @@ return {
     },
     [14300045] = {
         id = 14300045,
-        text = "80% Off Universal Voucher",
+        text = "80% Off Voucher",
     },
     [14300053] = {
         id = 14300053,
@@ -9341,7 +9341,7 @@ return {
     },
     [25140] = {
         id = 25140,
-        text = "A special item required for limited summon. Are you the covenant to sign contracts with Spirits?",
+        text = "A special item required for limited summon. Are you the covenanter to sign contracts with Spirits?",
     },
     [2300002] = {
         id = 2300002,
@@ -9649,7 +9649,7 @@ return {
     },
     [63601] = {
         id = 63601,
-        text = "1. Duration of Support Draw: When daily Support Points reach 360, you can sign up to draw rewards. \n2. Draw comes in 7 rounds, a round will take place daily during Sep. 16th - 22nd. \n3. When daily draw is over, unclaimed rewards will be sent via mail.",
+        text = "1. Duration of Support Draw: When daily Support Points reach 200, you can sign up to draw rewards. \n2. Draw comes in 7 rounds, a round will take place daily during Sep. 16th - 22nd. \n3. When daily draw is over, unclaimed rewards will be sent via mail.",
     },
     [10013] = {
         id = 10013,
@@ -11003,29 +11003,105 @@ return {
         id = 25163,
         text = "Christmas Key",
     },
+    [190000181] = {
+        id = 190000181,
+        text = "Country settings",
+    },
+    [190000180] = {
+        id = 190000180,
+        text = "Time Clue",
+    },
+    [190000179] = {
+        id = 190000179,
+        text = "Cat's Recognition",
+    },
+    [190000178] = {
+        id = 190000178,
+        text = "Heart Stealer",
+    },
+    [190000177] = {
+        id = 190000177,
+        text = "Country",
+    },
+    [190000176] = {
+        id = 190000176,
+        text = "There is no player on the blocklist",
+    },
+    [190000175] = {
+        id = 190000175,
+        text = "There is currently no email. Go battle and get the reward email!",
+    },
     [63637] = {
         id = 63637,
         text = "Out of chances",
+    },
+    [190000174] = {
+        id = 190000174,
+        text = "You don’t have friends. Go add now.",
+    },
+    [190000173] = {
+        id = 190000173,
+        text = "You don’t have friends. Go add now.",
+    },
+    [190000172] = {
+        id = 190000172,
+        text = "There is currently no chat information. You can send first.",
+    },
+    [190000171] = {
+        id = 190000171,
+        text = "Complete a Runestone Challenge of rank-B or above",
+    },
+    [190000170] = {
+        id = 190000170,
+        text = "Complete a Runestone Challenge of rank-D or above",
+    },
+    [190000169] = {
+        id = 190000169,
+        text = "Complete any daily date",
+    },
+    [190000168] = {
+        id = 190000168,
+        text = "Rookie Booster Supply",
+    },
+    [190000167] = {
+        id = 190000167,
+        text = "Summon %s times in Crimson Nightmare summon pool",
     },
     [10022] = {
         id = 10022,
         text = "Tank",
     },
+    [190000166] = {
+        id = 190000166,
+        text = "Get %s resources in the city",
+    },
     [42134] = {
         id = 42134,
         text = "A Class Energy Gem, obtain it to get an A Class Gem for a random skill of [Shekhinah Tohka]. (Auto used once obtained)",
     },
-    [12070] = {
-        id = 12070,
-        text = "Mii Fujibakama",
+    [190000165] = {
+        id = 190000165,
+        text = "Kill %s enemies in stages",
     },
-    [13094] = {
-        id = 13094,
-        text = "Daily Pray Reward",
+    [190000164] = {
+        id = 190000164,
+        text = "Kill %s enemies in stages with awakening skill",
+    },
+    [190000163] = {
+        id = 190000163,
+        text = "Cause %s damage in stages",
+    },
+    [190000162] = {
+        id = 190000162,
+        text = "Clear the battle stage of the Demon Strife %s times",
     },
     [190000161] = {
         id = 190000161,
         text = "Auto-renew Service can be unsubscribed",
+    },
+    [12070] = {
+        id = 12070,
+        text = "Mii Fujibakama",
     },
     [190000160] = {
         id = 190000160,
@@ -11039,6 +11115,10 @@ return {
         id = 190000158,
         text = "Limited",
     },
+    [13094] = {
+        id = 13094,
+        text = "Daily Pray Reward",
+    },
     [190000157] = {
         id = 190000157,
         text = "Stay Tuned",
@@ -11046,10 +11126,6 @@ return {
     [190000156] = {
         id = 190000156,
         text = "Participate in the 80K-follower social media mission",
-    },
-    [63638] = {
-        id = 63638,
-        text = "Do you want to spend %d<img src='%s'></img> to mock summon",
     },
     [190000155] = {
         id = 190000155,
@@ -11083,25 +11159,17 @@ return {
         id = 190000148,
         text = "Neko Kurumi CG",
     },
-    [20044] = {
-        id = 20044,
-        text = "Type: Costume\nOwner: Natsumi\nIt is as elegant as dark night. Natsumi gains this after transformation, which even changes her personality.",
+    [63638] = {
+        id = 63638,
+        text = "Do you want to spend %d<img src='%s'></img> to mock summon",
     },
     [190000147] = {
         id = 190000147,
         text = "Avater - Rose",
     },
-    [42135] = {
-        id = 42135,
-        text = "S Class Energy Gem, obtain it to get an S Class Gem for a random skill of [Shekhinah Tohka]. (Auto used once obtained)",
-    },
     [190000146] = {
         id = 190000146,
         text = "Downloading additional resources",
-    },
-    [22092] = {
-        id = 22092,
-        text = "Open and get the 5-star set Sephiroth for Kotori: Scorch: Wind Embers, Scorch: Scarlet Embrace, and Scorch: Exorcist's End",
     },
     [190000145] = {
         id = 190000145,
@@ -11123,21 +11191,29 @@ return {
         id = 190000141,
         text = "Download Later",
     },
-    [25164] = {
-        id = 25164,
-        text = "A special Christmas event item, collect enough of it to get all rare rewards on the Lucky Christmas Tree!",
-    },
     [190000140] = {
         id = 190000140,
         text = "Version Update",
+    },
+    [20044] = {
+        id = 20044,
+        text = "Type: Costume\nOwner: Natsumi\nIt is as elegant as dark night. Natsumi gains this after transformation, which even changes her personality.",
     },
     [190000139] = {
         id = 190000139,
         text = "Data Update",
     },
+    [42135] = {
+        id = 42135,
+        text = "S Class Energy Gem, obtain it to get an S Class Gem for a random skill of [Shekhinah Tohka]. (Auto used once obtained)",
+    },
     [190000138] = {
         id = 190000138,
         text = "Detecting the latest resource",
+    },
+    [22092] = {
+        id = 22092,
+        text = "Open and get the 5-star set Sephiroth for Kotori: Scorch: Wind Embers, Scorch: Scarlet Embrace, and Scorch: Exorcist's End",
     },
     [190000137] = {
         id = 190000137,
@@ -11159,6 +11235,10 @@ return {
         id = 190000133,
         text = "Whoaaa, there is no crystal in the bag. Get it in stages",
     },
+    [25164] = {
+        id = 25164,
+        text = "A special Christmas event item, collect enough of it to get all rare rewards on the Lucky Christmas Tree!",
+    },
     [190000132] = {
         id = 190000132,
         text = "Whoaaa, there is no fragment in the bag. Get it in stages",
@@ -11175,10 +11255,6 @@ return {
         id = 190000129,
         text = "Total Top-up Rewards",
     },
-    [63639] = {
-        id = 63639,
-        text = "(Official Server)",
-    },
     [190000128] = {
         id = 190000128,
         text = "Free",
@@ -11191,17 +11267,17 @@ return {
         id = 190000126,
         text = "Request Supplies in Club 2 times",
     },
-    [2107023] = {
-        id = 2107023,
-        text = "Enemy Level",
+    [14210250] = {
+        id = 14210250,
+        text = "New Spirit in season 3 - Natsumi has arrived! - \"Even you are looking for troubles? Then don't blame me. \"",
     },
     [190000124] = {
         id = 190000124,
         text = "Clear a team instance 2 times",
     },
-    [100000341] = {
-        id = 100000341,
-        text = "Here is your chance to get more diamonds! There are two free chances for everyone, and you can get two more chances when total top up reaches $0.99, and four more chances when total top up reaches $4.99, $14.99, $59.99, and $99.99 during this event.",
+    [100000333] = {
+        id = 100000333,
+        text = "%s diamonds",
     },
     [190000119] = {
         id = 190000119,
@@ -11211,6 +11287,10 @@ return {
         id = 190000118,
         text = "One limited CG for Full Moon Festival event",
     },
+    [63639] = {
+        id = 63639,
+        text = "(Official Server)",
+    },
     [281051] = {
         id = 281051,
         text = "Use to swear a 3-day oath with Kotori Itsuka",
@@ -11218,38 +11298,6 @@ return {
     [190000116] = {
         id = 190000116,
         text = "Includes one limited CG for Full Moon Festival event",
-    },
-    [42136] = {
-        id = 42136,
-        text = "SS Class Energy Gem, obtain it to get a SS Class Gem for a random skill of [Shekhinah Tohka]. (Auto used once obtained)",
-    },
-    [4007002] = {
-        id = 4007002,
-        text = "Badge Progress",
-    },
-    [4007001] = {
-        id = 4007001,
-        text = "Unlock Badge",
-    },
-    [4007003] = {
-        id = 4007003,
-        text = "Validity: ",
-    },
-    [4007005] = {
-        id = 4007005,
-        text = "Locked",
-    },
-    [4007007] = {
-        id = 4007007,
-        text = "Permanent",
-    },
-    [4007009] = {
-        id = 4007009,
-        text = "Unlock Badge",
-    },
-    [4007011] = {
-        id = 4007011,
-        text = "Badge Gallery",
     },
     [901207] = {
         id = 901207,
@@ -11283,6 +11331,38 @@ return {
         id = 266534,
         text = "Get the Costume - \"End of the World\" to activate this avatar frame",
     },
+    [42136] = {
+        id = 42136,
+        text = "SS Class Energy Gem, obtain it to get a SS Class Gem for a random skill of [Shekhinah Tohka]. (Auto used once obtained)",
+    },
+    [4007002] = {
+        id = 4007002,
+        text = "Badge Progress",
+    },
+    [4007001] = {
+        id = 4007001,
+        text = "Unlock Badge",
+    },
+    [4007003] = {
+        id = 4007003,
+        text = "Validity: ",
+    },
+    [4007005] = {
+        id = 4007005,
+        text = "Locked",
+    },
+    [4007007] = {
+        id = 4007007,
+        text = "Permanent",
+    },
+    [4007009] = {
+        id = 4007009,
+        text = "Unlock Badge",
+    },
+    [4007011] = {
+        id = 4007011,
+        text = "Badge Gallery",
+    },
     [3210032] = {
         id = 3210032,
         text = "Spiritual DMG +7%",
@@ -11302,10 +11382,6 @@ return {
     [2460016] = {
         id = 2460016,
         text = "Stay with the one you like brings good luck? - Then stay with me forever~",
-    },
-    [63640] = {
-        id = 63640,
-        text = "(Channel Server)",
     },
     [190000102] = {
         id = 190000102,
@@ -11339,25 +11415,17 @@ return {
         id = 190000095,
         text = "This miraculous item reduces the price of token packs by 70% in Battle Pass.",
     },
-    [20045] = {
-        id = 20045,
-        text = "Adonai Tzabaoth",
+    [63640] = {
+        id = 63640,
+        text = "(Channel Server)",
     },
     [190000094] = {
         id = 190000094,
         text = "This miraculous item reduces the price of token packs by 80% in Battle Pass.",
     },
-    [42137] = {
-        id = 42137,
-        text = "SSS Class Energy Gem, obtain it to get a SSS Class Gem for a random skill of [Shekhinah Tohka]. (Auto used once obtained)",
-    },
     [190000093] = {
         id = 190000093,
         text = "This miraculous item reduces the price of token packs by 90% in Battle Pass.",
-    },
-    [22093] = {
-        id = 22093,
-        text = "Blue Rank Up Item",
     },
     [190000092] = {
         id = 190000092,
@@ -11379,21 +11447,29 @@ return {
         id = 190000086,
         text = "70% Off Voucher",
     },
-    [25165] = {
-        id = 25165,
-        text = "Event Points",
-    },
     [190000085] = {
         id = 190000085,
         text = "80% Off Voucher",
+    },
+    [20045] = {
+        id = 20045,
+        text = "Adonai Tzabaoth",
     },
     [190000084] = {
         id = 190000084,
         text = "90% Off Voucher",
     },
+    [42137] = {
+        id = 42137,
+        text = "SSS Class Energy Gem, obtain it to get a SSS Class Gem for a random skill of [Shekhinah Tohka]. (Auto used once obtained)",
+    },
     [901205] = {
         id = 901205,
         text = "Lovers' clothes?",
+    },
+    [22093] = {
+        id = 22093,
+        text = "Blue Rank Up Item",
     },
     [190000082] = {
         id = 190000082,
@@ -11415,6 +11491,10 @@ return {
         id = 190000078,
         text = "Countdown: %sh %sm %ss",
     },
+    [25165] = {
+        id = 25165,
+        text = "Event Points",
+    },
     [2106038] = {
         id = 2106038,
         text = "DMG +15%",
@@ -11430,10 +11510,6 @@ return {
     [10131033] = {
         id = 10131033,
         text = "Sky Splitter: Perish",
-    },
-    [63641] = {
-        id = 63641,
-        text = "Server Rebate",
     },
     [10221112] = {
         id = 10221112,
@@ -11463,49 +11539,49 @@ return {
         id = 11000204,
         text = "I am better at taking them off.",
     },
-    [11201035] = {
-        id = 11201035,
+    [11201033] = {
+        id = 11201033,
         text = "Crit",
     },
-    [10023] = {
-        id = 10023,
-        text = "Support",
+    [63641] = {
+        id = 63641,
+        text = "Server Rebate",
     },
-    [12000078] = {
-        id = 12000078,
-        text = "Girl's Mood",
+    [12000075] = {
+        id = 12000075,
+        text = "Run Info Tohka",
     },
     [190000064] = {
         id = 190000064,
         text = "Neko Badge",
     },
-    [13300154] = {
-        id = 13300154,
-        text = "Kannazuki just brought me some materials. I'll keep them in your hand for now!",
+    [13300151] = {
+        id = 13300151,
+        text = "Tsk! Some bored prankster buried these under the sand...",
     },
-    [13400262] = {
-        id = 13400262,
-        text = "",
+    [13400258] = {
+        id = 13400258,
+        text = "Maid Hairband",
     },
-    [14210252] = {
-        id = 14210252,
-        text = "The adventure in Hot Games has started! Rescue innocent developers! Defeat the frenzied production director!",
+    [14210249] = {
+        id = 14210249,
+        text = "New Spirit in season 3 - Natsumi has arrived! - \"It seems that AST just won't stop. All right then, I'll teach them a lesson!\"",
     },
     [190000060] = {
         id = 190000060,
         text = "Nice to meet you. Welcome to Tengu City! ",
     },
-    [100000340] = {
-        id = 100000340,
-        text = "Crazy Diamond - csv:details configuration error",
-    },
-    [12071] = {
-        id = 12071,
-        text = "Commuter - Male 1",
+    [100000331] = {
+        id = 100000331,
+        text = "Spin specified times to unlock following gift box",
     },
     [190000054] = {
         id = 190000054,
         text = "You can buy this avatar frame at the Exclusive Pack in Month Card in September.",
+    },
+    [10023] = {
+        id = 10023,
+        text = "Support",
     },
     [190000053] = {
         id = 190000053,
@@ -11514,10 +11590,6 @@ return {
     [190000052] = {
         id = 190000052,
         text = "You can buy this avatar frame at the Exclusive Pack in Month Card in July.",
-    },
-    [13095] = {
-        id = 13095,
-        text = "Daily Pray Reward",
     },
     [901206] = {
         id = 901206,
@@ -11531,10 +11603,6 @@ return {
         id = 190000049,
         text = "You can buy this avatar frame at the Exclusive Pack in Month Card in April.",
     },
-    [110000379] = {
-        id = 110000379,
-        text = "한정 패키지",
-    },
     [266240] = {
         id = 266240,
         text = "Login Streak, Day 7",
@@ -11542,6 +11610,10 @@ return {
     [100052] = {
         id = 100052,
         text = "",
+    },
+    [12071] = {
+        id = 12071,
+        text = "Commuter - Male 1",
     },
     [190000046] = {
         id = 190000046,
@@ -11551,17 +11623,13 @@ return {
         id = 2106040,
         text = "Pierce Rate +10%",
     },
-    [213601] = {
-        id = 213601,
-        text = "Timeout!",
-    },
     [3004016] = {
         id = 3004016,
         text = "Improving",
     },
-    [63642] = {
-        id = 63642,
-        text = "1. During Server Rebate event, you will get rebate packs for buying event packs enough times. \n\n2. Some rebate packs are available to those who have bought event packs.\n",
+    [13095] = {
+        id = 13095,
+        text = "Daily Pray Reward",
     },
     [3210030] = {
         id = 3210030,
@@ -11575,6 +11643,10 @@ return {
         id = 190000041,
         text = "Favor Lv.%s",
     },
+    [110000379] = {
+        id = 110000379,
+        text = "한정 패키지",
+    },
     [190000040] = {
         id = 190000040,
         text = "You can have up to ten item cards. If you buy it again, it will turn to",
@@ -11583,10 +11655,6 @@ return {
         id = 190000039,
         text = "Get the reward by buying the month card again at the specified time",
     },
-    [213602] = {
-        id = 213602,
-        text = "There are incomplete events. Please enter the event again.",
-    },
     [190000038] = {
         id = 190000038,
         text = "Clear daily instance once",
@@ -11594,6 +11662,50 @@ return {
     [10703087] = {
         id = 10703087,
         text = "[Death Thorn] Fires 10 wind arrows that pierce targets. \nInflicts Tempest DMG equal to 500% ATK over 11 strikes.",
+    },
+    [213601] = {
+        id = 213601,
+        text = "Timeout!",
+    },
+    [10103041] = {
+        id = 10103041,
+        text = "[Sky Breaker] ATK Range +20%. \nInflicts Physical DMG equal to 550% ATK over 3 attacks.",
+    },
+    [63642] = {
+        id = 63642,
+        text = "1. During Server Rebate event, you will get rebate packs for buying event packs enough times. \n\n2. Some rebate packs are available to those who have bought event packs.\n",
+    },
+    [11000205] = {
+        id = 11000205,
+        text = "Go to visit the shrine together.",
+    },
+    [11201034] = {
+        id = 11201034,
+        text = "Crit",
+    },
+    [270003] = {
+        id = 270003,
+        text = "We detected that this is not a new account. To start the game, you need to download %s resources. Start downloading now?\n\n*It's recommended to download using WiFi",
+    },
+    [190000032] = {
+        id = 190000032,
+        text = "There is no available item card, you can buy it in the store.",
+    },
+    [13300152] = {
+        id = 13300152,
+        text = "This gift... is from that girl... bathing in the sun...",
+    },
+    [213602] = {
+        id = 213602,
+        text = "There are incomplete events. Please enter the event again.",
+    },
+    [13400259] = {
+        id = 13400259,
+        text = "Use it to exchange various items in the café.",
+    },
+    [190000029] = {
+        id = 190000029,
+        text = "Total Spin: %d",
     },
     [20046] = {
         id = 20046,
@@ -11607,9 +11719,9 @@ return {
         id = 21070,
         text = "Type: Astral Dress\nOwner: Spirit Origami\nIt looks like a wedding dress and a white veil. The golden feather-like pillars around her can shoot out beams of light.",
     },
-    [10103041] = {
-        id = 10103041,
-        text = "[Sky Breaker] ATK Range +20%. \nInflicts Physical DMG equal to 550% ATK over 3 attacks.",
+    [190000028] = {
+        id = 190000028,
+        text = "The ball exuding mysterious power seems to be able to be used to summon mysterious objects. ",
     },
     [22094] = {
         id = 22094,
@@ -11619,45 +11731,45 @@ return {
         id = 213603,
         text = "Plot not unlocked",
     },
-    [11000205] = {
-        id = 11000205,
-        text = "Go to visit the shrine together.",
+    [190000027] = {
+        id = 190000027,
+        text = "Divination ball",
     },
-    [2100014] = {
-        id = 2100014,
-        text = "Challenge Goal",
+    [190000022] = {
+        id = 190000022,
+        text = "Go Fight!",
     },
-    [12000079] = {
-        id = 12000079,
-        text = "All Out Assault",
+    [190000021] = {
+        id = 190000021,
+        text = "The reward in current grid has been obtained and cannot be obtained repeatedly",
     },
-    [190000032] = {
-        id = 190000032,
-        text = "There is no available item card, you can buy it in the store.",
+    [190000020] = {
+        id = 190000020,
+        text = "The selected number exceeds the allowable range",
     },
     [25166] = {
         id = 25166,
         text = "A special item for the Time Corridor event, used to exchange resources to enhance keepsakes and rare New Year avatar frames!",
     },
-    [13300155] = {
-        id = 13300155,
-        text = "Darling! My cover was almost blown up... but thankfully I took these and escaped.",
+    [1320530] = {
+        id = 1320530,
+        text = "Clear normal instance 300 times",
     },
-    [13400263] = {
-        id = 13400263,
-        text = "",
+    [1605011] = {
+        id = 1605011,
+        text = "Sign In",
     },
     [213604] = {
         id = 213604,
         text = "Illegal interference with story plot",
     },
-    [190000029] = {
-        id = 190000029,
-        text = "Total Spin: %d",
+    [190000017] = {
+        id = 190000017,
+        text = "The next time you roll the dice, if the Spirit moves to the grid with a question mark, the reward doubles",
     },
-    [190000028] = {
-        id = 190000028,
-        text = "The ball exuding mysterious power seems to be able to be used to summon mysterious objects. ",
+    [901065] = {
+        id = 901065,
+        text = "Favor reaches 1500",
     },
     [1250001] = {
         id = 1250001,
@@ -11775,38 +11887,6 @@ return {
         id = 1250029,
         text = "Crafting material, used to pray for Malkuth Sephiroth.",
     },
-    [190000027] = {
-        id = 190000027,
-        text = "Divination ball",
-    },
-    [190000022] = {
-        id = 190000022,
-        text = "Go Fight!",
-    },
-    [190000021] = {
-        id = 190000021,
-        text = "The reward in current grid has been obtained and cannot be obtained repeatedly",
-    },
-    [190000020] = {
-        id = 190000020,
-        text = "The selected number exceeds the allowable range",
-    },
-    [1320530] = {
-        id = 1320530,
-        text = "Clear normal instance 300 times",
-    },
-    [1605011] = {
-        id = 1605011,
-        text = "Sign In",
-    },
-    [190000017] = {
-        id = 190000017,
-        text = "The next time you roll the dice, if the Spirit moves to the grid with a question mark, the reward doubles",
-    },
-    [901065] = {
-        id = 901065,
-        text = "Favor reaches 1500",
-    },
     [265012] = {
         id = 265012,
         text = "Ellen Mathers",
@@ -11814,10 +11894,6 @@ return {
     [190000014] = {
         id = 190000014,
         text = "You can specify any number of dice moves for the next roll",
-    },
-    [63644] = {
-        id = 63644,
-        text = "Upgrade Covenant",
     },
     [2106041] = {
         id = 2106041,
@@ -11843,33 +11919,17 @@ return {
         id = 190000008,
         text = "Coins obtained in the Dice event can be exchanged for items in the Dice store",
     },
-    [19023] = {
-        id = 19023,
-        text = "Special Item 12",
-    },
     [10403083] = {
         id = 10403083,
         text = "[Shooting Gallery] Attacks enemies 8 times. \nInflicts Dark DMG equal to 450% ATK over 8 times.",
-    },
-    [20047] = {
-        id = 20047,
-        text = "White Sparrow",
-    },
-    [41117] = {
-        id = 41117,
-        text = "SSS Class Gem Scroll, obtain it to get a SSS Class Gem Scroll for a random skill of [Inverse Tohka]. (Auto used once obtained)",
-    },
-    [42141] = {
-        id = 42141,
-        text = "D Class Energy Gem, obtain it to get a D Class Gem for a random skill of [Mayuri]. (Auto used once obtained)",
     },
     [190000006] = {
         id = 190000006,
         text = "Dice",
     },
-    [22095] = {
-        id = 22095,
-        text = "Purple Rank Up Item",
+    [63644] = {
+        id = 63644,
+        text = "Upgrade Covenant",
     },
     [10703088] = {
         id = 10703088,
@@ -11883,29 +11943,81 @@ return {
         id = 11000206,
         text = "Kimono is expensive.",
     },
-    [11201037] = {
-        id = 11201037,
-        text = "Spot Weakness: Boss",
+    [11201035] = {
+        id = 11201035,
+        text = "Crit",
     },
-    [12000080] = {
-        id = 12000080,
-        text = "Solo Ambush",
-    },
-    [25167] = {
-        id = 25167,
-        text = "Anime Points",
+    [12000078] = {
+        id = 12000078,
+        text = "Girl's Mood",
     },
     [111000454] = {
         id = 111000454,
         text = "Owned: %d",
     },
-    [13400057] = {
-        id = 13400057,
-        text = "Private Cat Girl",
+    [19023] = {
+        id = 19023,
+        text = "Special Item 12",
+    },
+    [10103118] = {
+        id = 10103118,
+        text = "When Tohka defeats an enemy, she restores 20% max HP.",
+    },
+    [20047] = {
+        id = 20047,
+        text = "White Sparrow",
+    },
+    [41117] = {
+        id = 41117,
+        text = "SSS Class Gem Scroll, obtain it to get a SSS Class Gem Scroll for a random skill of [Inverse Tohka]. (Auto used once obtained)",
+    },
+    [42141] = {
+        id = 42141,
+        text = "D Class Energy Gem, obtain it to get a D Class Gem for a random skill of [Mayuri]. (Auto used once obtained)",
     },
     [111000116] = {
         id = 111000116,
         text = "Purchased",
+    },
+    [22095] = {
+        id = 22095,
+        text = "Purple Rank Up Item",
+    },
+    [111000115] = {
+        id = 111000115,
+        text = "Purchase",
+    },
+    [111000114] = {
+        id = 111000114,
+        text = "Resets at 00:00 on Monday",
+    },
+    [100000358] = {
+        id = 100000358,
+        text = "Clear Story instance Volume 7",
+    },
+    [100000357] = {
+        id = 100000357,
+        text = "Clear Story instance Volume 6",
+    },
+    [100000356] = {
+        id = 100000356,
+        text = "Clear Story instance Volume 5",
+    },
+    [25167] = {
+        id = 25167,
+        text = "Anime Points",
+    },
+    [100000355] = {
+        id = 100000355,
+        text = "Clear Story instance Volume 4",
+    },
+    [100000354] = {
+        id = 100000354,
+        text = "Clear Story instance Volume 3",
+    },
+    [1110613] = {
+        id = 1110613,
+        text = "Crimson Nightmare SS Class Gem",
     },
     [5000003] = {
         id = 5000003,
@@ -11927,46 +12039,6 @@ return {
         id = 5000006,
         text = "Login for 6 days",
     },
-    [111000115] = {
-        id = 111000115,
-        text = "Purchase",
-    },
-    [111000114] = {
-        id = 111000114,
-        text = "Resets at 00:00 on Monday",
-    },
-    [100000358] = {
-        id = 100000358,
-        text = "Clear Story instance Volume 7",
-    },
-    [31311] = {
-        id = 31311,
-        text = "Adonai Tzabaoth",
-    },
-    [63645] = {
-        id = 63645,
-        text = "Transcend Covenant",
-    },
-    [100000357] = {
-        id = 100000357,
-        text = "Clear Story instance Volume 6",
-    },
-    [100000356] = {
-        id = 100000356,
-        text = "Clear Story instance Volume 5",
-    },
-    [100000355] = {
-        id = 100000355,
-        text = "Clear Story instance Volume 4",
-    },
-    [100000354] = {
-        id = 100000354,
-        text = "Clear Story instance Volume 3",
-    },
-    [1110613] = {
-        id = 1110613,
-        text = "Crimson Nightmare SS Class Gem",
-    },
     [2300018] = {
         id = 2300018,
         text = "Debuff Duration MIT",
@@ -11979,17 +12051,17 @@ return {
         id = 100000350,
         text = "Cumulative consume %s Tokens",
     },
-    [10024] = {
-        id = 10024,
-        text = "DPS",
+    [31311] = {
+        id = 31311,
+        text = "Adonai Tzabaoth",
+    },
+    [63645] = {
+        id = 63645,
+        text = "Transcend Covenant",
     },
     [100000349] = {
         id = 100000349,
         text = "Your unclaimed rewards of Crazy diamonds event are attached below.",
-    },
-    [42142] = {
-        id = 42142,
-        text = "C Class Energy Gem, obtain it to get a C Class Gem for a random skill of [Mayuri]. (Auto used once obtained)",
     },
     [100000348] = {
         id = 100000348,
@@ -12002,6 +12074,46 @@ return {
     [100000346] = {
         id = 100000346,
         text = "6 times",
+    },
+    [100000345] = {
+        id = 100000345,
+        text = "3 times",
+    },
+    [100000344] = {
+        id = 100000344,
+        text = "Required Top-up: $%s",
+    },
+    [100000343] = {
+        id = 100000343,
+        text = "Confirm Spin",
+    },
+    [100000342] = {
+        id = 100000342,
+        text = "Spend %d <img src='%s' size='30x30'></img> to spin 1 time?",
+    },
+    [10024] = {
+        id = 10024,
+        text = "DPS",
+    },
+    [100000341] = {
+        id = 100000341,
+        text = "Here is your chance to get more diamonds! There are two free chances for everyone, and you can get two more chances when total top up reaches $0.99, and four more chances when total top up reaches $4.99, $14.99, $59.99, and $99.99 during this event.",
+    },
+    [42142] = {
+        id = 42142,
+        text = "C Class Energy Gem, obtain it to get a C Class Gem for a random skill of [Mayuri]. (Auto used once obtained)",
+    },
+    [100000340] = {
+        id = 100000340,
+        text = "Crazy Diamond - csv:details configuration error",
+    },
+    [100000339] = {
+        id = 100000339,
+        text = "Crazy Diamond - There is no free chances now. Top up %s more to get the chance",
+    },
+    [100000338] = {
+        id = 100000338,
+        text = "Crazy Diamond - There is no chances left",
     },
     [10131007] = {
         id = 10131007,
@@ -12075,25 +12187,25 @@ return {
         id = 63646,
         text = "Already transcended to the max level!",
     },
-    [100000345] = {
-        id = 100000345,
-        text = "3 times",
+    [100000337] = {
+        id = 100000337,
+        text = "There is no free chances now. Top up $%s more to get the chance",
     },
     [230001] = {
         id = 230001,
         text = "Club - Hunter's Pursuit: 1st Kill Reward doesn't exist.",
     },
-    [100000344] = {
-        id = 100000344,
-        text = "Required Top-up: $%s",
+    [100000336] = {
+        id = 100000336,
+        text = "Insufficient chances",
     },
-    [100000343] = {
-        id = 100000343,
-        text = "Confirm Spin",
+    [100000335] = {
+        id = 100000335,
+        text = "Event Details",
     },
-    [100000342] = {
-        id = 100000342,
-        text = "Spend %d <img src='%s' size='30x30'></img> to spin 1 time?",
+    [100000334] = {
+        id = 100000334,
+        text = "Want some more diamonds? Here is your chance! \n\n1. During the event, you can spend specific diamonds to spin for more diamonds! \n\n2. There are two free chances for everyone, and you can get two more chances when total top up reach $0.99, and a total of four chances when total top up reaches $4.99, $14.99, $59.99, and $99.99 during this event.\n\n3. Cost and Win: \n1st Spin: cost 88 diamonds, win 68~168 diamonds\n2nd Spin: cost 288 diamonds, win 248~488 diamonds\n3rd Spin: cost 888 diamonds, win 788~1688 diamonds\n4th Spin: cost 1688 diamonds, win 1588~2888 diamonds\n5th Spin: cost 5088 diamonds, win 5088~6888 diamonds\n6th Spin: cost 10888 diamonds, win 10888~14888 diamonds\n7th Spin: cost 20888 diamonds, win 20888~26888 diamonds\n8th Spin: cost 40888 diamonds, win 40888~58888 diamonds",
     },
     [190000123] = {
         id = 190000123,
@@ -12119,65 +12231,17 @@ return {
         id = 21072,
         text = "Ehyeh - Inverse",
     },
-    [100000339] = {
-        id = 100000339,
-        text = "Crazy Diamond - There is no free chances now. Top up %s more to get the chance",
+    [100000330] = {
+        id = 100000330,
+        text = "Event Time：",
     },
     [22096] = {
         id = 22096,
         text = "Acquires a random Purple item that can rank up Blue and Purple Bonds items.",
     },
-    [100000338] = {
-        id = 100000338,
-        text = "Crazy Diamond - There is no chances left",
-    },
-    [100000337] = {
-        id = 100000337,
-        text = "There is no free chances now. Top up $%s more to get the chance",
-    },
-    [100000336] = {
-        id = 100000336,
-        text = "Insufficient chances",
-    },
-    [100000335] = {
-        id = 100000335,
-        text = "Event Details",
-    },
-    [230003] = {
-        id = 230003,
-        text = "Club - Hunter's Pursuit: Last Hit Reward doesn't exist.",
-    },
-    [25168] = {
-        id = 25168,
-        text = "The long-anticipated Date A Live Season 3 is live! Thanks for your support! DAL: Dating Never Stops!",
-    },
-    [100000334] = {
-        id = 100000334,
-        text = "Want some more diamonds? Here is your chance! \n\n1. During the event, you can spend specific diamonds to spin for more diamonds! \n\n2. There are two free chances for everyone, and you can get two more chances when total top up reach $0.99, and a total of four chances when total top up reaches $4.99, $14.99, $59.99, and $99.99 during this event.\n\n3. Cost and Win: \n1st Spin: cost 88 diamonds, win 68~168 diamonds\n2nd Spin: cost 288 diamonds, win 248~488 diamonds\n3rd Spin: cost 888 diamonds, win 788~1688 diamonds\n4th Spin: cost 1688 diamonds, win 1588~2888 diamonds\n5th Spin: cost 5088 diamonds, win 5088~6888 diamonds\n6th Spin: cost 10888 diamonds, win 10888~14888 diamonds\n7th Spin: cost 20888 diamonds, win 20888~26888 diamonds\n8th Spin: cost 40888 diamonds, win 40888~58888 diamonds",
-    },
-    [100000333] = {
-        id = 100000333,
-        text = "%s diamonds",
-    },
-    [100000331] = {
-        id = 100000331,
-        text = "Spin specified times to unlock following gift box",
-    },
-    [100000330] = {
-        id = 100000330,
-        text = "Event Time：",
-    },
-    [20000000] = {
-        id = 20000000,
-        text = "Reserved for beat'em up mode",
-    },
     [100000329] = {
         id = 100000329,
         text = "After purchase, get 300 diamonds immediately and 60 diamonds daily for 30 days.",
-    },
-    [230004] = {
-        id = 230004,
-        text = "Club - Hunter's Pursuit: Last Hit Reward has been claimed",
     },
     [100000328] = {
         id = 100000328,
@@ -12191,9 +12255,57 @@ return {
         id = 100000326,
         text = "Double for your 1st purchase, and +20% for follow-up purchases!",
     },
+    [230003] = {
+        id = 230003,
+        text = "Club - Hunter's Pursuit: Last Hit Reward doesn't exist.",
+    },
+    [25168] = {
+        id = 25168,
+        text = "The long-anticipated Date A Live Season 3 is live! Thanks for your support! DAL: Dating Never Stops!",
+    },
     [100000325] = {
         id = 100000325,
         text = "Double for your 1st purchase, and +15% for follow-up purchases!",
+    },
+    [100000324] = {
+        id = 100000324,
+        text = "Double for your 1st purchase, and +10% for follow-up purchases!",
+    },
+    [100000323] = {
+        id = 100000323,
+        text = "Double for your 1st purchase",
+    },
+    [100000322] = {
+        id = 100000322,
+        text = "After purchase, get 300 diamonds immediately and 60 diamonds daily for 30 days.",
+    },
+    [20000000] = {
+        id = 20000000,
+        text = "Reserved for beat'em up mode",
+    },
+    [100000321] = {
+        id = 100000321,
+        text = "30% extra",
+    },
+    [230004] = {
+        id = 230004,
+        text = "Club - Hunter's Pursuit: Last Hit Reward has been claimed",
+    },
+    [100000320] = {
+        id = 100000320,
+        text = "25% extra",
+    },
+    [100000319] = {
+        id = 100000319,
+        text = "20% extra",
+    },
+    [100000318] = {
+        id = 100000318,
+        text = "15% extra",
+    },
+    [100000317] = {
+        id = 100000317,
+        text = "10% extra",
     },
     [31312] = {
         id = 31312,
@@ -12275,73 +12387,73 @@ return {
         id = 230007,
         text = "Club - Hunter's Pursuit: Insufficient Club Merits",
     },
-    [100000324] = {
-        id = 100000324,
-        text = "Double for your 1st purchase, and +10% for follow-up purchases!",
-    },
-    [100000323] = {
-        id = 100000323,
-        text = "Double for your 1st purchase",
-    },
-    [100000322] = {
-        id = 100000322,
-        text = "After purchase, get 300 diamonds immediately and 60 diamonds daily for 30 days.",
-    },
-    [100000321] = {
-        id = 100000321,
-        text = "30% extra",
-    },
-    [100000320] = {
-        id = 100000320,
-        text = "25% extra",
-    },
-    [100000319] = {
-        id = 100000319,
-        text = "20% extra",
-    },
-    [100000318] = {
-        id = 100000318,
-        text = "15% extra",
-    },
-    [230008] = {
-        id = 230008,
-        text = "Club - Hunter's Pursuit: Conditions to unlock boss not met",
-    },
-    [100000317] = {
-        id = 100000317,
-        text = "10% extra",
-    },
-    [920001] = {
-        id = 920001,
-        text = "Young Baker",
-    },
     [100000316] = {
         id = 100000316,
         text = "%s/%s",
-    },
-    [920002] = {
-        id = 920002,
-        text = "Serious Eggbeater",
     },
     [100000315] = {
         id = 100000315,
         text = "Cooldown: %ss",
     },
+    [100000311] = {
+        id = 100000311,
+        text = "Any %s-star Sephira",
+    },
+    [100000310] = {
+        id = 100000310,
+        text = "Skill plan 4",
+    },
+    [100000309] = {
+        id = 100000309,
+        text = "Skill plan 3",
+    },
+    [100000308] = {
+        id = 100000308,
+        text = "Skill plan 2",
+    },
+    [100000307] = {
+        id = 100000307,
+        text = "Skill plan 1",
+    },
+    [230008] = {
+        id = 230008,
+        text = "Club - Hunter's Pursuit: Conditions to unlock boss not met",
+    },
+    [100000306] = {
+        id = 100000306,
+        text = "Once only",
+    },
+    [920001] = {
+        id = 920001,
+        text = "Young Baker",
+    },
+    [100000305] = {
+        id = 100000305,
+        text = "Confirm claiming %s?",
+    },
+    [920002] = {
+        id = 920002,
+        text = "Serious Eggbeater",
+    },
+    [100000304] = {
+        id = 100000304,
+        text = "礼包、月卡购买金额也计入累计哟",
+    },
     [920003] = {
         id = 920003,
         text = "Where is Baking Soda? Ⅰ",
     },
-    [100000311] = {
-        id = 100000311,
-        text = "Any %s-star Sephira",
+    [100000303] = {
+        id = 100000303,
+        text = "活动期间，累计充值达到指定金额，即可获得对应奖励",
     },
     [920004] = {
         id = 920004,
         text = "Euro Flour Ferry Ⅰ",
     },
-    [100000310] = {
-        id = 100000310,
-        text = "Skill plan 4",
+    [10303025] = {
+        id = 10303025,
+        text = "[Icicle] The 4th strike will release an extra big icicle. \nInflicts Frost DMG equal to 150% ATK 1 time.",
     },
     [920005] = {
         id = 920005,
@@ -12387,17 +12499,17 @@ return {
         id = 920010,
         text = "Move Flour and Eggs Ⅰ",
     },
-    [100000309] = {
-        id = 100000309,
-        text = "Skill plan 3",
+    [100000301] = {
+        id = 100000301,
+        text = "任意看板娘的好感度达到%s",
     },
     [920011] = {
         id = 920011,
         text = "Seasoned Baker",
     },
-    [100000308] = {
-        id = 100000308,
-        text = "Skill plan 2",
+    [100000300] = {
+        id = 100000300,
+        text = "在精灵试炼中战胜%s次万由里",
     },
     [920012] = {
         id = 920012,
@@ -12411,41 +12523,41 @@ return {
         id = 920013,
         text = "Where is Baking Soda? Ⅱ",
     },
-    [100000307] = {
-        id = 100000307,
-        text = "Skill plan 1",
+    [11101094] = {
+        id = 11101094,
+        text = "Ignore Defense",
     },
     [920014] = {
         id = 920014,
         text = "Euro Flour Ferry Ⅱ",
     },
-    [100000306] = {
-        id = 100000306,
-        text = "Once only",
+    [12101049] = {
+        id = 12101049,
+        text = "Clear the stage to unlock the buff: All bosses in [Castle Exploration] have their ATK reduced by 20%.",
     },
     [920015] = {
         id = 920015,
         text = "This is Chicken's Den? Ⅱ",
     },
-    [100000305] = {
-        id = 100000305,
-        text = "Confirm claiming %s?",
+    [13311237] = {
+        id = 13311237,
+        text = "A shabby coat that may shield you from rain.",
     },
     [920016] = {
         id = 920016,
         text = "Baking Soda Rules Ⅱ",
     },
-    [100000304] = {
-        id = 100000304,
-        text = "礼包、月卡购买金额也计入累计哟",
+    [290000078] = {
+        id = 290000078,
+        text = "爱上偶像节目的七罪，决定做出人生中最大胆的尝试。",
     },
     [920017] = {
         id = 920017,
         text = "Best Way to Mix Dough",
     },
-    [100000303] = {
-        id = 100000303,
-        text = "活动期间，累计充值达到指定金额，即可获得对应奖励",
+    [100000293] = {
+        id = 100000293,
+        text = "在精灵试炼中战胜%s次美九",
     },
     [920018] = {
         id = 920018,
@@ -12459,33 +12571,33 @@ return {
         id = 920019,
         text = "Chicken Soda Ⅱ",
     },
-    [10303025] = {
-        id = 10303025,
-        text = "[Icicle] The 4th strike will release an extra big icicle. \nInflicts Frost DMG equal to 150% ATK 1 time.",
+    [100000292] = {
+        id = 100000292,
+        text = "在精灵试炼中战胜%s次夕弦",
     },
     [920020] = {
         id = 920020,
         text = "Move Flour and Eggs Ⅱ",
     },
-    [100000301] = {
-        id = 100000301,
-        text = "任意看板娘的好感度达到%s",
+    [100000291] = {
+        id = 100000291,
+        text = "在精灵试炼中战胜%s次耶俱矢",
     },
     [920021] = {
         id = 920021,
         text = "Expert Baker",
     },
-    [100000300] = {
-        id = 100000300,
-        text = "在精灵试炼中战胜%s次万由里",
+    [270408] = {
+        id = 270408,
+        text = "The player is no longer in your club",
     },
     [920022] = {
         id = 920022,
         text = "Enduring Eggbeater",
     },
-    [11101096] = {
-        id = 11101096,
-        text = "Enhance",
+    [1702357] = {
+        id = 1702357,
+        text = "Achieved Daily: Get all endings of Supermarket - Tohka to unlock",
     },
     [920023] = {
         id = 920023,
@@ -12507,17 +12619,17 @@ return {
         id = 920025,
         text = "This is Chicken's Den? Ⅲ",
     },
-    [12101052] = {
-        id = 12101052,
-        text = "Clear the stage to unlock the buff: Spirits restore 5% HP every 10 seconds.",
+    [100000288] = {
+        id = 100000288,
+        text = "在精灵试炼中战胜%s次四糸乃",
     },
     [920026] = {
         id = 920026,
         text = "Baking Soda Rules Ⅲ",
     },
-    [13311240] = {
-        id = 13311240,
-        text = "1. During the exploration in Test of Courage, you may trigger companion events./n2. In such cases, you must answer questions of Spirits correctly or give them specified items to earn the trust./n3. Afterwards, the Spirit will become your companion, and her story would progress onwards./n4. Once a Spirit's story has started, other Spirits' story will not be triggered./n5. After completing her main story, you can continue or exit (and get rewards)./6. If you continue, you can choose to rescue other Spirits.",
+    [100000287] = {
+        id = 100000287,
+        text = "在精灵试炼中战胜%s次折纸",
     },
     [920027] = {
         id = 920027,
@@ -12531,9 +12643,9 @@ return {
         id = 920028,
         text = "One Omelette Ⅲ",
     },
-    [800110] = {
-        id = 800110,
-        text = "Quit Game",
+    [100000286] = {
+        id = 100000286,
+        text = "春季特训积分%s",
     },
     [920029] = {
         id = 920029,
@@ -12547,57 +12659,57 @@ return {
         id = 920030,
         text = "Move Flour and Eggs Ⅲ",
     },
-    [100000293] = {
-        id = 100000293,
-        text = "在精灵试炼中战胜%s次美九",
+    [100000285] = {
+        id = 100000285,
+        text = "每日准时打卡",
     },
     [920031] = {
         id = 920031,
         text = "Master Baker",
     },
-    [100000292] = {
-        id = 100000292,
-        text = "在精灵试炼中战胜%s次夕弦",
+    [100000284] = {
+        id = 100000284,
+        text = "探索度100%%，完成大凉山事件%s个",
     },
     [920032] = {
         id = 920032,
         text = "Master Eggbeater",
     },
-    [100000291] = {
-        id = 100000291,
-        text = "在精灵试炼中战胜%s次耶俱矢",
+    [100000283] = {
+        id = 100000283,
+        text = "累计完成%s个大凉山事件",
     },
     [920033] = {
         id = 920033,
         text = "Where is Baking Soda? Ⅳ",
     },
-    [270408] = {
-        id = 270408,
-        text = "The player is no longer in your club",
+    [100000282] = {
+        id = 100000282,
+        text = "收集员工工牌达到%s个",
     },
     [920034] = {
         id = 920034,
         text = "Euro Flour Ferry Ⅳ",
     },
-    [1702357] = {
-        id = 1702357,
-        text = "Achieved Daily: Get all endings of Supermarket - Tohka to unlock",
+    [100000281] = {
+        id = 100000281,
+        text = "无尽回廊达到%s层",
     },
     [920035] = {
         id = 920035,
         text = "This is Chicken's Den? Ⅳ",
     },
-    [100000288] = {
-        id = 100000288,
-        text = "在精灵试炼中战胜%s次四糸乃",
+    [100000280] = {
+        id = 100000280,
+        text = "精灵最高战斗力达到%s",
     },
     [920036] = {
         id = 920036,
         text = "Baking Soda Rules Ⅳ",
     },
-    [100000287] = {
-        id = 100000287,
-        text = "在精灵试炼中战胜%s次折纸",
+    [100000279] = {
+        id = 100000279,
+        text = "进行%s次夏拉姆召唤",
     },
     [920037] = {
         id = 920037,
@@ -12643,17 +12755,17 @@ return {
         id = 920042,
         text = "Guru Eggbeater",
     },
-    [100000286] = {
-        id = 100000286,
-        text = "春季特训积分%s",
+    [100000278] = {
+        id = 100000278,
+        text = "通关悬赏令%s次",
     },
     [920043] = {
         id = 920043,
         text = "Where is Baking Soda? Ⅴ",
     },
-    [100000285] = {
-        id = 100000285,
-        text = "每日准时打卡",
+    [100000277] = {
+        id = 100000277,
+        text = "购买%s个夏拉姆商店任意商品",
     },
     [920044] = {
         id = 920044,
@@ -12667,33 +12779,33 @@ return {
         id = 920045,
         text = "This is Chicken's Den? Ⅴ",
     },
-    [100000284] = {
-        id = 100000284,
-        text = "探索度100%%，完成大凉山事件%s个",
+    [100000276] = {
+        id = 100000276,
+        text = "通关任意悬赏令副本%s次",
     },
     [920046] = {
         id = 920046,
         text = "Baking Soda Rules Ⅴ",
     },
-    [100000283] = {
-        id = 100000283,
-        text = "累计完成%s个大凉山事件",
+    [100000275] = {
+        id = 100000275,
+        text = "Clear any Sharam team instance %s times",
     },
     [920047] = {
         id = 920047,
         text = "Best Baker",
     },
-    [100000282] = {
-        id = 100000282,
-        text = "收集员工工牌达到%s个",
+    [100000274] = {
+        id = 100000274,
+        text = "Buy Month Card to claim rewards daily",
     },
     [920048] = {
         id = 920048,
         text = "One Omelette Ⅴ",
     },
-    [100000281] = {
-        id = 100000281,
-        text = "无尽回廊达到%s层",
+    [100000273] = {
+        id = 100000273,
+        text = "Join any club",
     },
     [920049] = {
         id = 920049,
@@ -12779,25 +12891,25 @@ return {
         id = 920059,
         text = "Sweet Spring Water Ⅰ",
     },
-    [100000280] = {
-        id = 100000280,
-        text = "精灵最高战斗力达到%s",
+    [100000272] = {
+        id = 100000272,
+        text = "Club Activity reaches %s",
     },
     [920060] = {
         id = 920060,
         text = "Odd Combination Ⅰ",
     },
-    [100000279] = {
-        id = 100000279,
-        text = "进行%s次夏拉姆召唤",
+    [100000271] = {
+        id = 100000271,
+        text = "Request Supplies in Club %s times",
     },
     [920061] = {
         id = 920061,
         text = "Deliver Milk Ⅰ",
     },
-    [100000278] = {
-        id = 100000278,
-        text = "通关悬赏令%s次",
+    [100000270] = {
+        id = 100000270,
+        text = "Clear Volume %s",
     },
     [920062] = {
         id = 920062,
@@ -12811,25 +12923,25 @@ return {
         id = 920063,
         text = "Sweetness is Happiness Ⅱ",
     },
-    [100000277] = {
-        id = 100000277,
-        text = "购买%s个夏拉姆商店任意商品",
+    [100000269] = {
+        id = 100000269,
+        text = "Player reaches Lv.%s",
     },
     [920064] = {
         id = 920064,
         text = "Milk... Milk Custard?",
     },
-    [100000276] = {
-        id = 100000276,
-        text = "通关任意悬赏令副本%s次",
+    [100000268] = {
+        id = 100000268,
+        text = "Hell [Main] Volume %s 1-2",
     },
     [920065] = {
         id = 920065,
         text = "Taste of Spring Water Ⅱ",
     },
-    [100000275] = {
-        id = 100000275,
-        text = "Clear any Sharam team instance %s times",
+    [100000267] = {
+        id = 100000267,
+        text = "Hell Volume %s 1-1",
     },
     [920066] = {
         id = 920066,
@@ -12843,9 +12955,9 @@ return {
         id = 920067,
         text = "Milk with Sugar Ⅱ",
     },
-    [100000274] = {
-        id = 100000274,
-        text = "Buy Month Card to claim rewards daily",
+    [100000266] = {
+        id = 100000266,
+        text = "Hard [Main] Volume %s 1-2",
     },
     [920068] = {
         id = 920068,
@@ -12907,9 +13019,9 @@ return {
         id = 920075,
         text = "Taste of Spring Water Ⅲ",
     },
-    [100000273] = {
-        id = 100000273,
-        text = "Join any club",
+    [100000265] = {
+        id = 100000265,
+        text = "Hard Volume %s 1-1",
     },
     [920076] = {
         id = 920076,
@@ -12923,41 +13035,41 @@ return {
         id = 920077,
         text = "Milk with Sugar Ⅲ",
     },
-    [100000272] = {
-        id = 100000272,
-        text = "Club Activity reaches %s",
+    [100000264] = {
+        id = 100000264,
+        text = "Normal Volume %s 1-1",
     },
     [920078] = {
         id = 920078,
         text = "This is Milk Spring? Ⅲ",
     },
-    [100000271] = {
-        id = 100000271,
-        text = "Request Supplies in Club %s times",
+    [100000263] = {
+        id = 100000263,
+        text = "Have %s character",
     },
     [920079] = {
         id = 920079,
         text = "Sweet Spring Water Ⅲ",
     },
-    [100000270] = {
-        id = 100000270,
-        text = "Clear Volume %s",
+    [100000262] = {
+        id = 100000262,
+        text = "Get 30 or higher combo in a battle",
     },
     [920080] = {
         id = 920080,
         text = "Odd Combination Ⅲ",
     },
-    [100000269] = {
-        id = 100000269,
-        text = "Player reaches Lv.%s",
+    [100000261] = {
+        id = 100000261,
+        text = "Modify Sephira %s times",
     },
     [920081] = {
         id = 920081,
         text = "Deliver Milk Ⅳ",
     },
-    [100000268] = {
-        id = 100000268,
-        text = "Hell [Main] Volume %s 1-2",
+    [100000260] = {
+        id = 100000260,
+        text = "Share %s times with mobile screenshot",
     },
     [920082] = {
         id = 920082,
@@ -12971,33 +13083,33 @@ return {
         id = 920083,
         text = "Sweetness is Happiness Ⅳ",
     },
-    [100000267] = {
-        id = 100000267,
-        text = "Hell Volume %s 1-1",
+    [100000259] = {
+        id = 100000259,
+        text = "Get %s or higher combo in the battle",
     },
     [920084] = {
         id = 920084,
         text = "Fresh... Fresh Milk?",
     },
-    [100000266] = {
-        id = 100000266,
-        text = "Hard [Main] Volume %s 1-2",
+    [100000258] = {
+        id = 100000258,
+        text = "Summon %s times",
     },
     [920085] = {
         id = 920085,
         text = "Taste of Spring Water Ⅳ",
     },
-    [100000265] = {
-        id = 100000265,
-        text = "Hard Volume %s 1-1",
+    [100000257] = {
+        id = 100000257,
+        text = "Enhance Sephira %s times",
     },
     [920086] = {
         id = 920086,
         text = "Beautiful Sweetness Ⅳ",
     },
-    [100000264] = {
-        id = 100000264,
-        text = "Normal Volume %s 1-1",
+    [100000256] = {
+        id = 100000256,
+        text = "Upgrade any Spirits %s times",
     },
     [920087] = {
         id = 920087,
@@ -13075,41 +13187,41 @@ return {
         id = 920096,
         text = "Beautiful Sweetness Ⅴ",
     },
-    [100000263] = {
-        id = 100000263,
-        text = "Have %s character",
+    [100000255] = {
+        id = 100000255,
+        text = "Upgrade %s Spirits to Lv.%s",
     },
     [920097] = {
         id = 920097,
         text = "Milk with Sugar Ⅴ",
     },
-    [100000262] = {
-        id = 100000262,
-        text = "Get 30 or higher combo in a battle",
+    [100000254] = {
+        id = 100000254,
+        text = "Refine Sephira %s times",
     },
     [920098] = {
         id = 920098,
         text = "This is Milk Spring? Ⅴ",
     },
-    [100000261] = {
-        id = 100000261,
-        text = "Modify Sephira %s times",
+    [100000253] = {
+        id = 100000253,
+        text = "Win %s times in Endless Corridor",
     },
     [920099] = {
         id = 920099,
         text = "Sweet Spring Water Ⅴ",
     },
-    [100000260] = {
-        id = 100000260,
-        text = "Share %s times with mobile screenshot",
+    [100000252] = {
+        id = 100000252,
+        text = "Buy %s times in Fragment Store",
     },
     [920100] = {
         id = 920100,
         text = "Odd Combination Ⅴ",
     },
-    [100000259] = {
-        id = 100000259,
-        text = "Get %s or higher combo in the battle",
+    [100000251] = {
+        id = 100000251,
+        text = "WeChat Instructor reaches Lv.%s",
     },
     [920101] = {
         id = 920101,
@@ -13203,16 +13315,16 @@ return {
         id = 920112,
         text = "Good Vegetable Grower",
     },
-    [100000258] = {
-        id = 100000258,
-        text = "Summon %s times",
+    [100000250] = {
+        id = 100000250,
+        text = "3 characters reach Lv.%s",
     },
     [920113] = {
         id = 920113,
         text = "Zongzi Maker Ⅱ",
     },
-    [100000257] = {
-        id = 100000257,
+    [100000249] = {
+        id = 100000249,
         text = "Enhance Sephira %s times",
     },
     [920114] = {
@@ -13227,41 +13339,41 @@ return {
         id = 920115,
         text = "Do You Want Power?",
     },
-    [100000256] = {
-        id = 100000256,
-        text = "Upgrade any Spirits %s times",
+    [100000248] = {
+        id = 100000248,
+        text = "Upgrade Spirits %s times",
     },
     [920116] = {
         id = 920116,
         text = "Sticky Rice Rules Ⅱ",
     },
-    [100000255] = {
-        id = 100000255,
-        text = "Upgrade %s Spirits to Lv.%s",
+    [100000247] = {
+        id = 100000247,
+        text = "Clear Main Story - Chapter %s",
     },
     [920117] = {
         id = 920117,
         text = "Sticky Fruit Ⅱ",
     },
-    [100000254] = {
-        id = 100000254,
-        text = "Refine Sephira %s times",
+    [100000246] = {
+        id = 100000246,
+        text = "Clear Volume %s",
     },
     [920118] = {
         id = 920118,
         text = "Healthy Combo Ⅱ",
     },
-    [100000253] = {
-        id = 100000253,
-        text = "Win %s times in Endless Corridor",
+    [100000245] = {
+        id = 100000245,
+        text = "Player reaches Lv.%s",
     },
     [920119] = {
         id = 920119,
         text = "Let's Make Zongzi Ⅱ",
     },
-    [100000252] = {
-        id = 100000252,
-        text = "Buy %s times in Fragment Store",
+    [100000244] = {
+        id = 100000244,
+        text = "Trainer reaches Lv.%s",
     },
     [920120] = {
         id = 920120,
@@ -13275,97 +13387,97 @@ return {
         id = 920121,
         text = "No Money? Go away",
     },
-    [100000251] = {
-        id = 100000251,
-        text = "WeChat Instructor reaches Lv.%s",
+    [100000243] = {
+        id = 100000243,
+        text = "Rank No.%s in this event",
     },
     [920122] = {
         id = 920122,
         text = "Happy Farming",
     },
-    [100000250] = {
-        id = 100000250,
-        text = "3 characters reach Lv.%s",
+    [100000242] = {
+        id = 100000242,
+        text = "Get %s Likes from ally in Online Battles",
     },
     [920123] = {
         id = 920123,
         text = "Zongzi Maker Ⅲ",
     },
-    [100000249] = {
-        id = 100000249,
-        text = "Enhance Sephira %s times",
+    [100000241] = {
+        id = 100000241,
+        text = "Get MVP %s times in Online Battles",
     },
     [920124] = {
         id = 920124,
         text = "Ignore Bad Fruits Ⅲ",
     },
-    [100000248] = {
-        id = 100000248,
-        text = "Upgrade Spirits %s times",
+    [100000240] = {
+        id = 100000240,
+        text = "Clear Theater Instance %s times",
     },
     [920125] = {
         id = 920125,
         text = "Calming Forgiveness",
     },
-    [100000247] = {
-        id = 100000247,
-        text = "Clear Main Story - Chapter %s",
+    [10101112] = {
+        id = 10101112,
+        text = "Sword Blast",
     },
     [920126] = {
         id = 920126,
         text = "Sticky Rice Rules Ⅲ",
     },
-    [100000246] = {
-        id = 100000246,
-        text = "Clear Volume %s",
+    [10303026] = {
+        id = 10303026,
+        text = "[Icicle] Inflicts +5% more DMG to normal enemies.",
     },
     [920127] = {
         id = 920127,
         text = "Sticky Fruit Ⅲ",
     },
-    [100000245] = {
-        id = 100000245,
-        text = "Player reaches Lv.%s",
+    [100000237] = {
+        id = 100000237,
+        text = "Get %s Badges in total",
     },
     [920128] = {
         id = 920128,
         text = "Healthy Combo Ⅲ",
     },
-    [100000244] = {
-        id = 100000244,
-        text = "Trainer reaches Lv.%s",
+    [100000236] = {
+        id = 100000236,
+        text = "Get %s Avatars in total",
     },
     [920129] = {
         id = 920129,
         text = "Let's Make Zongzi Ⅲ",
     },
-    [100000243] = {
-        id = 100000243,
-        text = "Rank No.%s in this event",
+    [100000235] = {
+        id = 100000235,
+        text = "Get %s Club Merits in total",
     },
     [920130] = {
         id = 920130,
         text = "Fruity Vegetable Ⅲ",
     },
-    [100000242] = {
-        id = 100000242,
-        text = "Get %s Likes from ally in Online Battles",
+    [100000234] = {
+        id = 100000234,
+        text = "Claim chests in Spirit Trials %s times in total",
     },
     [920131] = {
         id = 920131,
         text = "Gimme an Apple",
     },
-    [100000241] = {
-        id = 100000241,
-        text = "Get MVP %s times in Online Battles",
+    [13311238] = {
+        id = 13311238,
+        text = "Actually, this flower doesn't feed on human corpse at all.",
     },
     [920132] = {
         id = 920132,
         text = "Plant Fine Species",
     },
-    [100000240] = {
-        id = 100000240,
-        text = "Clear Theater Instance %s times",
+    [901167] = {
+        id = 901167,
+        text = "Lv.4 Unlock Voice",
     },
     [920133] = {
         id = 920133,
@@ -13411,17 +13523,17 @@ return {
         id = 920138,
         text = "Healthy Combo Ⅳ",
     },
-    [10101112] = {
-        id = 10101112,
-        text = "Sword Blast",
+    [100000229] = {
+        id = 100000229,
+        text = "Get %s red Sephiroth",
     },
     [920139] = {
         id = 920139,
         text = "Let's Make Zongzi Ⅳ",
     },
-    [10303026] = {
-        id = 10303026,
-        text = "[Icicle] Inflicts +5% more DMG to normal enemies.",
+    [100000228] = {
+        id = 100000228,
+        text = "Get %s orange Sephiroth",
     },
     [920140] = {
         id = 920140,
@@ -13435,57 +13547,57 @@ return {
         id = 920141,
         text = "You are not 486",
     },
-    [100000237] = {
-        id = 100000237,
-        text = "Get %s Badges in total",
+    [100000227] = {
+        id = 100000227,
+        text = "Get %s purple Sephiroth",
     },
     [920142] = {
         id = 920142,
         text = "Vegetable Mastery",
     },
-    [100000236] = {
-        id = 100000236,
-        text = "Get %s Avatars in total",
+    [266312] = {
+        id = 266312,
+        text = "Clear daily instance 15 times",
     },
     [920143] = {
         id = 920143,
         text = "Zongzi Maker Ⅴ",
     },
-    [100000235] = {
-        id = 100000235,
-        text = "Get %s Club Merits in total",
+    [1110611] = {
+        id = 1110611,
+        text = "Crimson Nightmare S Class Gem",
     },
     [920144] = {
         id = 920144,
         text = "Ignore Bad Fruits Ⅴ",
     },
-    [100000234] = {
-        id = 100000234,
-        text = "Claim chests in Spirit Trials %s times in total",
+    [2300019] = {
+        id = 2300019,
+        text = "DMG Boost Ratio",
     },
     [920145] = {
         id = 920145,
         text = "Tolerance is Power",
     },
-    [13311241] = {
-        id = 13311241,
-        text = "Test of Courage",
+    [100000223] = {
+        id = 100000223,
+        text = "Login for %s days",
     },
     [920146] = {
         id = 920146,
         text = "Sticky Rice Rules Ⅴ",
     },
-    [110000374] = {
-        id = 110000374,
-        text = "친구 지$ 포인트, 윷놀이 게임에서 아이템 보상 교환에 사용 가능",
+    [100000222] = {
+        id = 100000222,
+        text = "Login for %s days in a row",
     },
     [920147] = {
         id = 920147,
         text = "Sticky Fruit Ⅴ",
     },
-    [100000229] = {
-        id = 100000229,
-        text = "Get %s red Sephiroth",
+    [100000221] = {
+        id = 100000221,
+        text = "Day %s",
     },
     [920148] = {
         id = 920148,
@@ -13571,57 +13683,57 @@ return {
         id = 920158,
         text = "Binding Options Ⅰ",
     },
-    [100000228] = {
-        id = 100000228,
-        text = "Get %s orange Sephiroth",
+    [100000220] = {
+        id = 100000220,
+        text = "Rank No.%s",
     },
     [920159] = {
         id = 920159,
         text = "Silk (?) Leather Ⅰ",
     },
-    [100000227] = {
-        id = 100000227,
-        text = "Get %s purple Sephiroth",
+    [100000219] = {
+        id = 100000219,
+        text = "Send gifts %s times",
     },
     [920160] = {
         id = 920160,
         text = "Show Sponsor Ⅰ",
     },
-    [266312] = {
-        id = 266312,
-        text = "Clear daily instance 15 times",
+    [100000218] = {
+        id = 100000218,
+        text = "Get “HiddenEnd” %s times in daily date",
     },
     [920161] = {
         id = 920161,
         text = "Did You Drop the Ribbon Ⅱ",
     },
-    [1110611] = {
-        id = 1110611,
-        text = "Crimson Nightmare S Class Gem",
+    [100000217] = {
+        id = 100000217,
+        text = "Get “HappyEnd” %s times in daily date",
     },
     [920162] = {
         id = 920162,
         text = "Handcrafted Ribbon Ⅱ",
     },
-    [2300019] = {
-        id = 2300019,
-        text = "DMG Boost Ratio",
+    [100000216] = {
+        id = 100000216,
+        text = "Get “TrueEnd” %s times in daily date",
     },
     [920163] = {
         id = 920163,
         text = "Or Needle & String? Ⅱ",
     },
-    [100000223] = {
-        id = 100000223,
-        text = "Login for %s days",
+    [100000215] = {
+        id = 100000215,
+        text = "Complete any date %s times",
     },
     [920164] = {
         id = 920164,
         text = "Lucky Ribbon Ⅱ",
     },
-    [100000222] = {
-        id = 100000222,
-        text = "Login for %s days in a row",
+    [100000214] = {
+        id = 100000214,
+        text = "Complete favor date %s times",
     },
     [920165] = {
         id = 920165,
@@ -13667,17 +13779,17 @@ return {
         id = 920170,
         text = "Show Sponsor Ⅱ",
     },
-    [100000221] = {
-        id = 100000221,
-        text = "Day %s",
+    [100000213] = {
+        id = 100000213,
+        text = "Complete daily date %s times",
     },
     [920171] = {
         id = 920171,
         text = "Did You Drop the Ribbon Ⅲ",
     },
-    [100000220] = {
-        id = 100000220,
-        text = "Rank No.%s",
+    [100000212] = {
+        id = 100000212,
+        text = "Claim Work Reward %s times",
     },
     [920172] = {
         id = 920172,
@@ -13691,89 +13803,89 @@ return {
         id = 920173,
         text = "Or Needle & String? Ⅲ",
     },
-    [100000219] = {
-        id = 100000219,
-        text = "Send gifts %s times",
+    [100000211] = {
+        id = 100000211,
+        text = "Work for %s hours",
     },
     [920174] = {
         id = 920174,
         text = "Lucky Ribbon Ⅲ",
     },
-    [100000218] = {
-        id = 100000218,
-        text = "Get “HiddenEnd” %s times in daily date",
+    [100000210] = {
+        id = 100000210,
+        text = "Finish Cooking %s times",
     },
     [920175] = {
         id = 920175,
         text = "Deluxe Accessory Ⅲ",
     },
-    [100000217] = {
-        id = 100000217,
-        text = "Get “HappyEnd” %s times in daily date",
+    [100000209] = {
+        id = 100000209,
+        text = "Finish Handcraft %s times",
     },
     [920176] = {
         id = 920176,
         text = "Beautiful Weaver Ⅲ",
     },
-    [100000216] = {
-        id = 100000216,
-        text = "Get “TrueEnd” %s times in daily date",
+    [100000208] = {
+        id = 100000208,
+        text = "Win in Daily Instance %s times",
     },
     [920177] = {
         id = 920177,
         text = "Ribbon and Sewing Ⅲ",
     },
-    [100000215] = {
-        id = 100000215,
-        text = "Complete any date %s times",
+    [100000207] = {
+        id = 100000207,
+        text = "Win in Story Instance %s times",
     },
     [920178] = {
         id = 920178,
         text = "Binding Options Ⅲ",
     },
-    [100000214] = {
-        id = 100000214,
-        text = "Complete favor date %s times",
+    [100000206] = {
+        id = 100000206,
+        text = "Win in Online Battle %s times",
     },
     [920179] = {
         id = 920179,
         text = "Silk (?) Leather Ⅲ",
     },
-    [100000213] = {
-        id = 100000213,
-        text = "Complete daily date %s times",
+    [100000205] = {
+        id = 100000205,
+        text = "Win in Theater Battle %s times",
     },
     [920180] = {
         id = 920180,
         text = "Show Sponsor Ⅲ",
     },
-    [100000212] = {
-        id = 100000212,
-        text = "Claim Work Reward %s times",
+    [100000204] = {
+        id = 100000204,
+        text = "Challenge Kerubiel %s times",
     },
     [920181] = {
         id = 920181,
         text = "Did You Drop the Ribbon Ⅳ",
     },
-    [100000211] = {
-        id = 100000211,
-        text = "Work for %s hours",
+    [100000203] = {
+        id = 100000203,
+        text = "Clear Runestone Challenge %s times",
     },
     [920182] = {
         id = 920182,
         text = "Handcrafted Ribbon Ⅳ",
     },
-    [100000210] = {
-        id = 100000210,
-        text = "Finish Cooking %s times",
+    [100000202] = {
+        id = 100000202,
+        text = "Clear team instance %s times",
     },
     [920183] = {
         id = 920183,
         text = "Or Needle & String? Ⅳ",
     },
-    [100000209] = {
-        id = 100000209,
-        text = "Finish Handcraft %s times",
+    [100000201] = {
+        id = 100000201,
+        text = "Clear daily instance %s times",
     },
     [920184] = {
         id = 920184,
@@ -13787,17 +13899,17 @@ return {
         id = 920185,
         text = "Deluxe Accessory Ⅳ",
     },
-    [100000208] = {
-        id = 100000208,
-        text = "Win in Daily Instance %s times",
+    [100000200] = {
+        id = 100000200,
+        text = "Clear hell instance %s times",
     },
     [920186] = {
         id = 920186,
         text = "Beautiful Weaver Ⅳ",
     },
-    [100000207] = {
-        id = 100000207,
-        text = "Win in Story Instance %s times",
+    [100000199] = {
+        id = 100000199,
+        text = "Clear hard instance %s times",
     },
     [920187] = {
         id = 920187,
@@ -13931,9 +14043,9 @@ return {
         id = 920203,
         text = "Woolen Yarn Ⅰ",
     },
-    [100000206] = {
-        id = 100000206,
-        text = "Win in Online Battle %s times",
+    [100000198] = {
+        id = 100000198,
+        text = "Clear normal instance %s times",
     },
     [920204] = {
         id = 920204,
@@ -13947,49 +14059,49 @@ return {
         id = 920205,
         text = "Basic Sewing Material Ⅰ",
     },
-    [100000205] = {
-        id = 100000205,
-        text = "Win in Theater Battle %s times",
+    [100000197] = {
+        id = 100000197,
+        text = "Total Points reach %s",
     },
     [920206] = {
         id = 920206,
         text = "Beauty Wool Ⅰ",
     },
-    [100000204] = {
-        id = 100000204,
-        text = "Challenge Kerubiel %s times",
+    [100000196] = {
+        id = 100000196,
+        text = "Support Points reach %s",
     },
     [920207] = {
         id = 920207,
         text = "Dream of dolls Ⅰ",
     },
-    [100000203] = {
-        id = 100000203,
-        text = "Clear Runestone Challenge %s times",
+    [100000195] = {
+        id = 100000195,
+        text = "Battle Points reach %s",
     },
     [920208] = {
         id = 920208,
         text = "Doll Spine Ⅰ",
     },
-    [100000202] = {
-        id = 100000202,
-        text = "Clear team instance %s times",
+    [100000194] = {
+        id = 100000194,
+        text = "Top up %s diamonds [day %s]",
     },
     [920209] = {
         id = 920209,
         text = "Cute Appearance Ⅰ",
     },
-    [100000201] = {
-        id = 100000201,
-        text = "Clear daily instance %s times",
+    [100000193] = {
+        id = 100000193,
+        text = "Purchase %s packs",
     },
     [920210] = {
         id = 920210,
         text = "Childlike Fantasy Ⅰ",
     },
-    [100000200] = {
-        id = 100000200,
-        text = "Clear hell instance %s times",
+    [100000192] = {
+        id = 100000192,
+        text = "Total Top up $%s",
     },
     [920211] = {
         id = 920211,
@@ -14035,25 +14147,25 @@ return {
         id = 920216,
         text = "Beauty Wool Ⅱ",
     },
-    [100000199] = {
-        id = 100000199,
-        text = "Clear hard instance %s times",
+    [100000191] = {
+        id = 100000191,
+        text = "Pray %s times",
     },
     [920217] = {
         id = 920217,
         text = "Dream of dolls Ⅱ",
     },
-    [100000198] = {
-        id = 100000198,
-        text = "Clear normal instance %s times",
+    [100000190] = {
+        id = 100000190,
+        text = "Earn %s stars",
     },
     [920218] = {
         id = 920218,
         text = "Doll Spine Ⅱ",
     },
-    [100000197] = {
-        id = 100000197,
-        text = "Total Points reach %s",
+    [100000189] = {
+        id = 100000189,
+        text = "Get %s gold",
     },
     [920219] = {
         id = 920219,
@@ -14067,9 +14179,9 @@ return {
         id = 920220,
         text = "Childlike Fantasy Ⅱ",
     },
-    [100000196] = {
-        id = 100000196,
-        text = "Support Points reach %s",
+    [100000188] = {
+        id = 100000188,
+        text = "Spend %s stamina",
     },
     [920221] = {
         id = 920221,
@@ -14083,57 +14195,57 @@ return {
         id = 920222,
         text = "Focus Twine Ⅲ",
     },
-    [100000195] = {
-        id = 100000195,
-        text = "Battle Points reach %s",
+    [100000187] = {
+        id = 100000187,
+        text = "Spend %s gold",
     },
     [920223] = {
         id = 920223,
         text = "Woolen Yarn Ⅲ",
     },
-    [100000194] = {
-        id = 100000194,
-        text = "Top up %s diamonds [day %s]",
+    [100000186] = {
+        id = 100000186,
+        text = "Spend %s diamonds",
     },
     [920224] = {
         id = 920224,
         text = "Perfect Rope Ⅲ",
     },
-    [100000193] = {
-        id = 100000193,
-        text = "Purchase %s packs",
+    [100000185] = {
+        id = 100000185,
+        text = "Limited Summon for %s times",
     },
     [920225] = {
         id = 920225,
         text = "Basic Sewing Material Ⅲ",
     },
-    [100000192] = {
-        id = 100000192,
-        text = "Total Top up $%s",
+    [100000184] = {
+        id = 100000184,
+        text = "Normal summon for %s times",
     },
     [920226] = {
         id = 920226,
         text = "Beauty Wool Ⅲ",
     },
-    [100000191] = {
-        id = 100000191,
-        text = "Pray %s times",
+    [100000183] = {
+        id = 100000183,
+        text = "Spend %s Fate Badges",
     },
     [920227] = {
         id = 920227,
         text = "Dream of dolls Ⅲ",
     },
-    [100000190] = {
-        id = 100000190,
-        text = "Earn %s stars",
+    [100000182] = {
+        id = 100000182,
+        text = "Spend %s Proofs of Oath",
     },
     [920228] = {
         id = 920228,
         text = "Doll Spine Ⅲ",
     },
-    [100000189] = {
-        id = 100000189,
-        text = "Get %s gold",
+    [100000181] = {
+        id = 100000181,
+        text = "Double",
     },
     [920229] = {
         id = 920229,
@@ -14179,17 +14291,17 @@ return {
         id = 920234,
         text = "Perfect Rope Ⅳ",
     },
-    [100000188] = {
-        id = 100000188,
-        text = "Spend %s stamina",
+    [100000180] = {
+        id = 100000180,
+        text = "%s off",
     },
     [920235] = {
         id = 920235,
         text = "Basic Sewing Material Ⅳ",
     },
-    [100000187] = {
-        id = 100000187,
-        text = "Spend %s gold",
+    [100000179] = {
+        id = 100000179,
+        text = "Timed",
     },
     [920236] = {
         id = 920236,
@@ -14699,9 +14811,9 @@ return {
         id = 920299,
         text = "Underpriced Accessory Ⅴ",
     },
-    [100000186] = {
-        id = 100000186,
-        text = "Spend %s diamonds",
+    [100000178] = {
+        id = 100000178,
+        text = "Exclusive",
     },
     [920300] = {
         id = 920300,
@@ -14715,53 +14827,9 @@ return {
         id = 411008,
         text = "Pierce Rate +3%",
     },
-    [100000185] = {
-        id = 100000185,
-        text = "Limited Summon for %s times",
-    },
-    [100000184] = {
-        id = 100000184,
-        text = "Normal summon for %s times",
-    },
-    [100000183] = {
-        id = 100000183,
-        text = "Spend %s Fate Badges",
-    },
-    [411009] = {
-        id = 411009,
-        text = "Pierce Rate +4%",
-    },
-    [100000182] = {
-        id = 100000182,
-        text = "Spend %s Proofs of Oath",
-    },
-    [100000181] = {
-        id = 100000181,
-        text = "Double",
-    },
-    [100000180] = {
-        id = 100000180,
-        text = "%s off",
-    },
-    [411010] = {
-        id = 411010,
-        text = "Pierce Rate +5%",
-    },
-    [100000179] = {
-        id = 100000179,
-        text = "Timed",
-    },
-    [100000178] = {
-        id = 100000178,
-        text = "Exclusive",
-    },
     [100000177] = {
         id = 100000177,
         text = "Limited",
-    },
-    [411011] = {
-        id = 411011,
-        text = "HP +1%",
     },
     [100000176] = {
         id = 100000176,
@@ -14771,13 +14839,13 @@ return {
         id = 100000175,
         text = "Special",
     },
+    [411009] = {
+        id = 411009,
+        text = "Pierce Rate +4%",
+    },
     [10303027] = {
         id = 10303027,
         text = "[Icicle] Inflicts +8% more DMG to normal enemies.",
-    },
-    [411012] = {
-        id = 411012,
-        text = "HP +2%",
     },
     [100000173] = {
         id = 100000173,
@@ -14787,33 +14855,29 @@ return {
         id = 100000172,
         text = "Cancel",
     },
-    [11101097] = {
-        id = 11101097,
-        text = "Enhance",
+    [411010] = {
+        id = 411010,
+        text = "Pierce Rate +5%",
     },
-    [411013] = {
-        id = 411013,
-        text = "HP +3%",
+    [11101095] = {
+        id = 11101095,
+        text = "Ignore Defense",
     },
-    [3203221] = {
-        id = 3203221,
-        text = "2. Each card with active effect adds 1 skill in stages. Tap button to release.",
+    [12101050] = {
+        id = 12101050,
+        text = "Clear the stage to unlock the buff: All bosses in [Castle Exploration] have their DEF reduced by 20%.",
     },
-    [13042] = {
-        id = 13042,
-        text = "Christmas Key",
+    [13311239] = {
+        id = 13311239,
+        text = "This coin has been scratched by some sharp objects.",
     },
-    [42164] = {
-        id = 42164,
-        text = "A Class Energy Gem, obtain it to get a A Class Gem for a random skill of [Ice Princess - Yoshino] (Auto used once obtained)",
+    [411011] = {
+        id = 411011,
+        text = "HP +1%",
     },
-    [411014] = {
-        id = 411014,
-        text = "HP +4%",
-    },
-    [110000375] = {
-        id = 110000375,
-        text = "모",
+    [332015] = {
+        id = 332015,
+        text = "a new costume of Origami",
     },
     [100000165] = {
         id = 100000165,
@@ -14823,9 +14887,9 @@ return {
         id = 100000164,
         text = "Reforging Pack",
     },
-    [411015] = {
-        id = 411015,
-        text = "HP +5%",
+    [411012] = {
+        id = 411012,
+        text = "HP +2%",
     },
     [100000163] = {
         id = 100000163,
@@ -14839,9 +14903,9 @@ return {
         id = 1702359,
         text = "Get all endings of Natsumi Main Chapter 1 to unlock",
     },
-    [411016] = {
-        id = 411016,
-        text = "ATK Speed +1%",
+    [411013] = {
+        id = 411013,
+        text = "HP +3%",
     },
     [2300020] = {
         id = 2300020,
@@ -14851,13 +14915,17 @@ return {
         id = 100000159,
         text = "Adv. Transcend Pack",
     },
+    [42164] = {
+        id = 42164,
+        text = "A Class Energy Gem, obtain it to get a A Class Gem for a random skill of [Ice Princess - Yoshino] (Auto used once obtained)",
+    },
+    [411014] = {
+        id = 411014,
+        text = "HP +4%",
+    },
     [100000158] = {
         id = 100000158,
         text = "Fate Badge",
-    },
-    [411017] = {
-        id = 411017,
-        text = "ATK Speed +2%",
     },
     [100000157] = {
         id = 100000157,
@@ -14867,13 +14935,13 @@ return {
         id = 100000156,
         text = "Sephira Material Pack",
     },
+    [411015] = {
+        id = 411015,
+        text = "HP +5%",
+    },
     [100000155] = {
         id = 100000155,
         text = "Bond Material Pack",
-    },
-    [411018] = {
-        id = 411018,
-        text = "ATK Speed +3%",
     },
     [100000154] = {
         id = 100000154,
@@ -14883,13 +14951,13 @@ return {
         id = 100000153,
         text = "Changed to",
     },
+    [411016] = {
+        id = 411016,
+        text = "ATK Speed +1%",
+    },
     [100000152] = {
         id = 100000152,
         text = "No change",
-    },
-    [411019] = {
-        id = 411019,
-        text = "ATK Speed +4%",
     },
     [100000151] = {
         id = 100000151,
@@ -14899,9 +14967,53 @@ return {
         id = 100000150,
         text = "Cleared Floors/Clear Time",
     },
+    [411017] = {
+        id = 411017,
+        text = "ATK Speed +2%",
+    },
     [100000128] = {
         id = 100000128,
         text = "Limit Gallery",
+    },
+    [100000127] = {
+        id = 100000127,
+        text = "Confirm to switch?",
+    },
+    [100000126] = {
+        id = 100000126,
+        text = "Do you want to skip the tutorial?",
+    },
+    [411018] = {
+        id = 411018,
+        text = "ATK Speed +3%",
+    },
+    [122000002] = {
+        id = 122000002,
+        text = "No.%s",
+    },
+    [13410025] = {
+        id = 13410025,
+        text = "restore maid's stamina",
+    },
+    [112000260] = {
+        id = 112000260,
+        text = "The selected homepage is not unlocked",
+    },
+    [411019] = {
+        id = 411019,
+        text = "ATK Speed +4%",
+    },
+    [112000259] = {
+        id = 112000259,
+        text = "Number of Rewards: ",
+    },
+    [112000258] = {
+        id = 112000258,
+        text = "Round %s",
+    },
+    [112000257] = {
+        id = 112000257,
+        text = "Round %s Lottery",
     },
     [411020] = {
         id = 411020,
@@ -14911,9 +15023,9 @@ return {
         id = 18011,
         text = "White Headband [Perfect]",
     },
-    [100000127] = {
-        id = 100000127,
-        text = "Confirm to switch?",
+    [112000256] = {
+        id = 112000256,
+        text = "Claim Reward: %s",
     },
     [19035] = {
         id = 19035,
@@ -14927,9 +15039,9 @@ return {
         id = 20059,
         text = "Pine and Moon",
     },
-    [100000126] = {
-        id = 100000126,
-        text = "Do you want to skip the tutorial?",
+    [112000255] = {
+        id = 112000255,
+        text = "Round %s Registration",
     },
     [21083] = {
         id = 21083,
@@ -14943,54 +15055,6 @@ return {
         id = 22107,
         text = "Chocolate Ingredient Pack",
     },
-    [122000002] = {
-        id = 122000002,
-        text = "No.%s",
-    },
-    [13410028] = {
-        id = 13410028,
-        text = "Stamina",
-    },
-    [411023] = {
-        id = 411023,
-        text = "DEF +3%",
-    },
-    [112000260] = {
-        id = 112000260,
-        text = "The selected homepage is not unlocked",
-    },
-    [112000259] = {
-        id = 112000259,
-        text = "Number of Rewards: ",
-    },
-    [25179] = {
-        id = 25179,
-        text = "Special Training Medal",
-    },
-    [411024] = {
-        id = 411024,
-        text = "DEF +4%",
-    },
-    [112000258] = {
-        id = 112000258,
-        text = "Round %s",
-    },
-    [112000257] = {
-        id = 112000257,
-        text = "Round %s Lottery",
-    },
-    [112000256] = {
-        id = 112000256,
-        text = "Claim Reward: %s",
-    },
-    [411025] = {
-        id = 411025,
-        text = "DEF +5%",
-    },
-    [112000255] = {
-        id = 112000255,
-        text = "Round %s Registration",
-    },
     [112000254] = {
         id = 112000254,
         text = "%sh %sm %ss",
@@ -14999,25 +15063,25 @@ return {
         id = 112000253,
         text = "Support Event Ranking",
     },
-    [411026] = {
-        id = 411026,
-        text = "Anti Crit +1%",
+    [411023] = {
+        id = 411023,
+        text = "DEF +3%",
     },
     [112000252] = {
         id = 112000252,
         text = "Unlock Jigsaw",
     },
-    [30811] = {
-        id = 30811,
-        text = "Elohim Tzabaoth",
-    },
     [112000251] = {
         id = 112000251,
         text = "No. %s",
     },
-    [411027] = {
-        id = 411027,
-        text = "Anti Crit +2%",
+    [25179] = {
+        id = 25179,
+        text = "Special Training Medal",
+    },
+    [411024] = {
+        id = 411024,
+        text = "DEF +4%",
     },
     [112000197] = {
         id = 112000197,
@@ -15031,9 +15095,9 @@ return {
         id = 112000195,
         text = "통계",
     },
-    [411028] = {
-        id = 411028,
-        text = "Anti Crit +3%",
+    [411025] = {
+        id = 411025,
+        text = "DEF +5%",
     },
     [112000194] = {
         id = 112000194,
@@ -15047,29 +15111,25 @@ return {
         id = 112000192,
         text = "시간 도약 소모: %s 포인트",
     },
-    [411029] = {
-        id = 411029,
-        text = "Anti Crit +4%",
-    },
-    [10030] = {
-        id = 10030,
-        text = "Fire",
+    [411026] = {
+        id = 411026,
+        text = "Anti Crit +1%",
     },
     [112000191] = {
         id = 112000191,
         text = "에너지 보충",
     },
-    [42166] = {
-        id = 42166,
-        text = "SS Class Energy Gem, obtain it to get a SS Class Gem for a random skill of [Ice Princess - Yoshino] (Auto used once obtained)",
-    },
-    [411030] = {
-        id = 411030,
-        text = "Anti Crit +5%",
+    [30811] = {
+        id = 30811,
+        text = "Elohim Tzabaoth",
     },
     [112000190] = {
         id = 112000190,
         text = "나한테 설레는 것이냐?",
+    },
+    [411027] = {
+        id = 411027,
+        text = "Anti Crit +2%",
     },
     [112000189] = {
         id = 112000189,
@@ -15079,6 +15139,58 @@ return {
         id = 112000188,
         text = "헤헤~너무 기뻐~",
     },
+    [112000187] = {
+        id = 112000187,
+        text = "음, 내 마음 속에? 당연하지!",
+    },
+    [411028] = {
+        id = 411028,
+        text = "Anti Crit +3%",
+    },
+    [112000186] = {
+        id = 112000186,
+        text = "가자! 오늘 신나게 놀자~",
+    },
+    [112000185] = {
+        id = 112000185,
+        text = "음, 무슨 말이든 다 들어줄게!",
+    },
+    [112000184] = {
+        id = 112000184,
+        text = "사실 나도 너와 얘기하고 싶어, 정말이야~ ",
+    },
+    [411029] = {
+        id = 411029,
+        text = "Anti Crit +4%",
+    },
+    [10030] = {
+        id = 10030,
+        text = "Fire",
+    },
+    [112000183] = {
+        id = 112000183,
+        text = "나한테 설레는 것이냐?",
+    },
+    [42166] = {
+        id = 42166,
+        text = "SS Class Energy Gem, obtain it to get a SS Class Gem for a random skill of [Ice Princess - Yoshino] (Auto used once obtained)",
+    },
+    [411030] = {
+        id = 411030,
+        text = "Anti Crit +5%",
+    },
+    [112000182] = {
+        id = 112000182,
+        text = "변치 말고 약속해!",
+    },
+    [112000181] = {
+        id = 112000181,
+        text = "헤헤~너무 기뻐~",
+    },
+    [112000180] = {
+        id = 112000180,
+        text = "내 마음 속에? 당연하지!",
+    },
     [411031] = {
         id = 411031,
         text = "ATK +1%",
@@ -15087,12 +15199,12 @@ return {
         id = 12078,
         text = "Commuter - Female 3",
     },
-    [112000187] = {
-        id = 112000187,
-        text = "음, 내 마음 속에? 당연하지!",
+    [112000179] = {
+        id = 112000179,
+        text = "음,",
     },
-    [112000186] = {
-        id = 112000186,
+    [112000178] = {
+        id = 112000178,
         text = "가자! 오늘 신나게 놀자~",
     },
     [411032] = {
@@ -15103,50 +15215,6 @@ return {
         id = 13102,
         text = "Daily Pray Reward",
     },
-    [112000185] = {
-        id = 112000185,
-        text = "음, 무슨 말이든 다 들어줄게!",
-    },
-    [112000184] = {
-        id = 112000184,
-        text = "사실 나도 너와 얘기하고 싶어, 정말이야~ ",
-    },
-    [411033] = {
-        id = 411033,
-        text = "ATK +3%",
-    },
-    [112000183] = {
-        id = 112000183,
-        text = "나한테 설레는 것이냐?",
-    },
-    [112000182] = {
-        id = 112000182,
-        text = "변치 말고 약속해!",
-    },
-    [112000181] = {
-        id = 112000181,
-        text = "헤헤~너무 기뻐~",
-    },
-    [411034] = {
-        id = 411034,
-        text = "ATK +4%",
-    },
-    [112000180] = {
-        id = 112000180,
-        text = "내 마음 속에? 당연하지!",
-    },
-    [112000179] = {
-        id = 112000179,
-        text = "음,",
-    },
-    [112000178] = {
-        id = 112000178,
-        text = "가자! 오늘 신나게 놀자~",
-    },
-    [63670] = {
-        id = 63670,
-        text = "Online Red Envelope",
-    },
     [112000177] = {
         id = 112000177,
         text = "음, 무슨 말이든 다 들어줄게!",
@@ -15155,9 +15223,53 @@ return {
         id = 112000176,
         text = "사실 나도 너와 얘기하고 싶어, 정말이야~",
     },
+    [411033] = {
+        id = 411033,
+        text = "ATK +3%",
+    },
     [112000175] = {
         id = 112000175,
         text = "쿠루미 필통 굿즈 패키지, [모]로 교환 가능",
+    },
+    [11301107] = {
+        id = 11301107,
+        text = "Light's Judgment",
+    },
+    [12010123] = {
+        id = 12010123,
+        text = "Defeat Kerubiel.",
+    },
+    [411034] = {
+        id = 411034,
+        text = "ATK +4%",
+    },
+    [112000172] = {
+        id = 112000172,
+        text = "累计充值179000元",
+    },
+    [112000170] = {
+        id = 112000170,
+        text = "累计充值98000元",
+    },
+    [200022] = {
+        id = 200022,
+        text = "You (Character ID: %s) have cheated many times. Therefore, your account will be banned for %s min.",
+    },
+    [63670] = {
+        id = 63670,
+        text = "Online Red Envelope",
+    },
+    [112000168] = {
+        id = 112000168,
+        text = "148000$",
+    },
+    [13200] = {
+        id = 13200,
+        text = "Covenant Insignia",
+    },
+    [900853] = {
+        id = 900853,
+        text = "OK, fine...",
     },
     [411036] = {
         id = 411036,
@@ -15167,9 +15279,9 @@ return {
         id = 18012,
         text = "Perfect crafted item. The simple white headband matches almost any style",
     },
-    [13200223] = {
-        id = 13200223,
-        text = "Origin Lucky Bag",
+    [112000165] = {
+        id = 112000165,
+        text = "포인트 소모",
     },
     [19036] = {
         id = 19036,
@@ -15183,9 +15295,9 @@ return {
         id = 20060,
         text = "Type: Costume\nOwner: Tohka Yatogami\nThere are many things you can't afford to miss, summer, cherry blossom rain, sweet memory and dates.",
     },
-    [14110392] = {
-        id = 14110392,
-        text = "Proof of Friendship",
+    [3204520] = {
+        id = 3204520,
+        text = "Spirit gains Control Immunity and a Shield periodically",
     },
     [21084] = {
         id = 21084,
@@ -15199,54 +15311,6 @@ return {
         id = 22108,
         text = "Open and get 3 ingredients needed to make chocolate.",
     },
-    [112000172] = {
-        id = 112000172,
-        text = "累计充值179000元",
-    },
-    [112000170] = {
-        id = 112000170,
-        text = "累计充值98000元",
-    },
-    [411039] = {
-        id = 411039,
-        text = "Crit Rate +4%",
-    },
-    [200022] = {
-        id = 200022,
-        text = "You (Character ID: %s) have cheated many times. Therefore, your account will be banned for %s min.",
-    },
-    [112000168] = {
-        id = 112000168,
-        text = "148000$",
-    },
-    [25180] = {
-        id = 25180,
-        text = "The proof of excellence in Special Training, used to exchange rare items at the event store! (Inherits unused Spring Special Training Medal)",
-    },
-    [411040] = {
-        id = 411040,
-        text = "Crit Rate +5%",
-    },
-    [13200] = {
-        id = 13200,
-        text = "Covenant Insignia",
-    },
-    [900853] = {
-        id = 900853,
-        text = "OK, fine...",
-    },
-    [112000165] = {
-        id = 112000165,
-        text = "포인트 소모",
-    },
-    [411041] = {
-        id = 411041,
-        text = "Awakening Regen +2%",
-    },
-    [3204520] = {
-        id = 3204520,
-        text = "Spirit gains Control Immunity and a Shield periodically",
-    },
     [10211121] = {
         id = 10211121,
         text = "[Fragmentation Cannon] Inflicts 4 strikes. The skill inflicts Lightning DMG equal to 350% of Origami's ATK.",
@@ -15255,25 +15319,25 @@ return {
         id = 10603007,
         text = "[Murakumo] Has a 20% chance to electrify targets for 5s on hit. \n[[When electrified targets are attacked again, they suffer extra Lightning DMG equal to 20% of Mana's ATK]]",
     },
-    [411042] = {
-        id = 411042,
-        text = "Awakening Regen +4%",
+    [411039] = {
+        id = 411039,
+        text = "Crit Rate +4%",
     },
     [10931153] = {
         id = 10931153,
         text = "[Collapsing Torrent] Skill CD -3s.",
     },
-    [30812] = {
-        id = 30812,
-        text = "Visit. Yuzuru Yamai, is here.",
-    },
     [112000159] = {
         id = 112000159,
         text = "바보! %s칸 후퇴해!",
     },
-    [63671] = {
-        id = 63671,
-        text = "Congrats to %s who activated the title - Lucky Fella. Go claim red envelope in Red Envelop Mail!",
+    [25180] = {
+        id = 25180,
+        text = "The proof of excellence in Special Training, used to exchange rare items at the event store! (Inherits unused Spring Special Training Medal)",
+    },
+    [411040] = {
+        id = 411040,
+        text = "Crit Rate +5%",
     },
     [112000158] = {
         id = 112000158,
@@ -15287,9 +15351,9 @@ return {
         id = 112000156,
         text = "랭킹 새로고침 주기: 10분",
     },
-    [411044] = {
-        id = 411044,
-        text = "Awakening Regen +8%",
+    [411041] = {
+        id = 411041,
+        text = "Awakening Regen +2%",
     },
     [112000155] = {
         id = 112000155,
@@ -15303,25 +15367,29 @@ return {
         id = 112000153,
         text = "피규어",
     },
-    [411045] = {
-        id = 411045,
-        text = "Awakening Regen +10%",
+    [411042] = {
+        id = 411042,
+        text = "Awakening Regen +4%",
     },
     [112000152] = {
         id = 112000152,
         text = "인형",
     },
+    [30812] = {
+        id = 30812,
+        text = "Visit. Yuzuru Yamai, is here.",
+    },
     [112000151] = {
         id = 112000151,
         text = "쿠루미 필통",
     },
+    [63671] = {
+        id = 63671,
+        text = "Congrats to %s who activated the title - Lucky Fella. Go claim red envelope in Red Envelop Mail!",
+    },
     [112000150] = {
         id = 112000150,
         text = "데어라 머그컵",
-    },
-    [411046] = {
-        id = 411046,
-        text = "Dodge Rate +1%",
     },
     [112000149] = {
         id = 112000149,
@@ -15331,13 +15399,13 @@ return {
         id = 112000148,
         text = "요시노 반지갑",
     },
+    [411044] = {
+        id = 411044,
+        text = "Awakening Regen +8%",
+    },
     [112000147] = {
         id = 112000147,
         text = "어서 윷을 던져서 보상을 획득하세요",
-    },
-    [411047] = {
-        id = 411047,
-        text = "Dodge Rate +2%",
     },
     [112000146] = {
         id = 112000146,
@@ -15347,13 +15415,13 @@ return {
         id = 112000145,
         text = "개 ",
     },
+    [411045] = {
+        id = 411045,
+        text = "Awakening Regen +10%",
+    },
     [112000144] = {
         id = 112000144,
         text = "걸 ",
-    },
-    [411048] = {
-        id = 411048,
-        text = "Dodge Rate +3%",
     },
     [112000143] = {
         id = 112000143,
@@ -15363,13 +15431,13 @@ return {
         id = 112000142,
         text = "모",
     },
+    [411046] = {
+        id = 411046,
+        text = "Dodge Rate +1%",
+    },
     [112000141] = {
         id = 112000141,
         text = "유저 65레벨 달성",
-    },
-    [411049] = {
-        id = 411049,
-        text = "Dodge Rate +4%",
     },
     [112000140] = {
         id = 112000140,
@@ -15379,13 +15447,13 @@ return {
         id = 112000139,
         text = "Lv.55",
     },
+    [411047] = {
+        id = 411047,
+        text = "Dodge Rate +2%",
+    },
     [112000138] = {
         id = 112000138,
         text = "Lv.45",
-    },
-    [411050] = {
-        id = 411050,
-        text = "Dodge Rate +5%",
     },
     [112000137] = {
         id = 112000137,
@@ -15395,13 +15463,13 @@ return {
         id = 112000136,
         text = "Lv.25",
     },
+    [411048] = {
+        id = 411048,
+        text = "Dodge Rate +3%",
+    },
     [112000135] = {
         id = 112000135,
         text = "Lv.15",
-    },
-    [63672] = {
-        id = 63672,
-        text = "Server Red Envelope",
     },
     [112000134] = {
         id = 112000134,
@@ -15411,9 +15479,53 @@ return {
         id = 112000133,
         text = "주소 입력이 완료되지 않았습니다. 정말 퇴장하겠습니까?",
     },
+    [411049] = {
+        id = 411049,
+        text = "Dodge Rate +4%",
+    },
     [112000132] = {
         id = 112000132,
         text = "<img src='%s'></img> %d개 소모해 교환을 진행하겠습니까?\n(확인 시 주소 입력 메뉴로 이동)",
+    },
+    [112000131] = {
+        id = 112000131,
+        text = "[모] 수량이 부족해 교환에 실패했습니다",
+    },
+    [112000130] = {
+        id = 112000130,
+        text = "<img src='%s'></img> %d개 소모해 보상을 갱신하겠습니까?",
+    },
+    [411050] = {
+        id = 411050,
+        text = "Dodge Rate +5%",
+    },
+    [112000129] = {
+        id = 112000129,
+        text = "<img src='%s'></img> %d개 소모해 윷을 던지겠습니까?",
+    },
+    [112000128] = {
+        id = 112000128,
+        text = "필수 작성 내용이 빠져 있습니다",
+    },
+    [112000127] = {
+        id = 112000127,
+        text = "입력한 우변번호 형식이 올바르지 않습니다",
+    },
+    [63672] = {
+        id = 63672,
+        text = "Server Red Envelope",
+    },
+    [13200223] = {
+        id = 13200223,
+        text = "Origin Lucky Bag",
+    },
+    [14110391] = {
+        id = 14110391,
+        text = "Here are your unclaimed quest rewards from the Battle of Demise.",
+    },
+    [112000124] = {
+        id = 112000124,
+        text = "1. 친구에게 초대코드 발송 시 이벤트 참가 가능\n\n2. 초대 성공 시 친구의 활약도에 따라 포인트 수령 가능\n\n3. 포인트로 윷놀이 게임 진해하여 보상을 획득 가능",
     },
     [411052] = {
         id = 411052,
@@ -15423,9 +15535,9 @@ return {
         id = 18013,
         text = "Bow Headband",
     },
-    [112000131] = {
-        id = 112000131,
-        text = "[모] 수량이 부족해 교환에 실패했습니다",
+    [112000122] = {
+        id = 112000122,
+        text = "累计充值59000元",
     },
     [19037] = {
         id = 19037,
@@ -15455,25 +15567,25 @@ return {
         id = 22109,
         text = "Commander Choice Chest",
     },
-    [112000130] = {
-        id = 112000130,
-        text = "<img src='%s'></img> %d개 소모해 보상을 갱신하겠습니까?",
+    [31215] = {
+        id = 31215,
+        text = "31215",
     },
-    [112000129] = {
-        id = 112000129,
-        text = "<img src='%s'></img> %d개 소모해 윷을 던지겠습니까?",
+    [112000120] = {
+        id = 112000120,
+        text = "累计充值30000元",
     },
     [411055] = {
         id = 411055,
         text = "Overall DMG MIT +5%",
     },
-    [112000128] = {
-        id = 112000128,
-        text = "필수 작성 내용이 빠져 있습니다",
+    [63035] = {
+        id = 63035,
+        text = "Gems with high rarity can also be acquired by crafting multiple gems of low quality along with a blueprint. \nCrafting C/B/A Class gems costs no blueprint, and crafting materials are limited by rarity only, you will get a random gem of the corresponding rarity. Crafting S/SS/SSS Class gems costs blueprint, and crafting materials are limited by rarity and character. You will get a random gem of the corresponding rarity for specific character and skill \nTap Filter to filter blueprints and materials quickly. It will come in handy when you have many blueprints and materials.",
     },
-    [112000127] = {
-        id = 112000127,
-        text = "입력한 우변번호 형식이 올바르지 않습니다",
+    [900849] = {
+        id = 900849,
+        text = "Oh... sure.",
     },
     [25181] = {
         id = 25181,
@@ -15483,33 +15595,33 @@ return {
         id = 411056,
         text = "Hit Rate +1%",
     },
-    [13200226] = {
-        id = 13200226,
-        text = "Let's Catch Starfishes",
+    [112000117] = {
+        id = 112000117,
+        text = "累计充值9900元",
     },
-    [14110394] = {
-        id = 14110394,
-        text = "Proof of Glory",
+    [3204524] = {
+        id = 3204524,
+        text = "When used by Spirit in battle, restores some HP instantly and keep restoring over time.",
     },
-    [112000124] = {
-        id = 112000124,
-        text = "1. 친구에게 초대코드 발송 시 이벤트 참가 가능\n\n2. 초대 성공 시 친구의 활약도에 따라 포인트 수령 가능\n\n3. 포인트로 윷놀이 게임 진해하여 보상을 획득 가능",
+    [10211123] = {
+        id = 10211123,
+        text = "[Fragmentation Cannon] Inflicts 9% more DMG to Spirit enemies.",
     },
     [411057] = {
         id = 411057,
         text = "Hit Rate +2%",
     },
-    [112000122] = {
-        id = 112000122,
-        text = "累计充值59000元",
+    [112000114] = {
+        id = 112000114,
+        text = "초대 성공",
     },
-    [31215] = {
-        id = 31215,
-        text = "31215",
+    [10603010] = {
+        id = 10603010,
+        text = "[Murakumo] Inflicts +10% more DMG to Spirits.",
     },
-    [112000120] = {
-        id = 112000120,
-        text = "累计充值30000元",
+    [2109029] = {
+        id = 2109029,
+        text = "Yoshino and Yoshinon's Halloween Adventure - Are you ready to get cursed by witches? You won't guess what the curse is~",
     },
     [411058] = {
         id = 411058,
@@ -15523,41 +15635,41 @@ return {
         id = 30813,
         text = "□ Attacks ranged enemies with the chain",
     },
-    [63035] = {
-        id = 63035,
-        text = "Gems with high rarity can also be acquired by crafting multiple gems of low quality along with a blueprint. \nCrafting C/B/A Class gems costs no blueprint, and crafting materials are limited by rarity only, you will get a random gem of the corresponding rarity. Crafting S/SS/SSS Class gems costs blueprint, and crafting materials are limited by rarity and character. You will get a random gem of the corresponding rarity for specific character and skill \nTap Filter to filter blueprints and materials quickly. It will come in handy when you have many blueprints and materials.",
+    [112000111] = {
+        id = 112000111,
+        text = "30000$",
     },
     [63673] = {
         id = 63673,
         text = "Congrats to %s who activated the title - The Jinx. Go claim red envelope in Red Envelop Mail!",
     },
-    [900849] = {
-        id = 900849,
-        text = "Oh... sure.",
+    [15045] = {
+        id = 15045,
+        text = "Star Jade",
     },
-    [112000117] = {
-        id = 112000117,
-        text = "累计充值9900元",
+    [14110390] = {
+        id = 14110390,
+        text = "Battle of Demise Quest Reward",
     },
-    [3204524] = {
-        id = 3204524,
-        text = "When used by Spirit in battle, restores some HP instantly and keep restoring over time.",
+    [112000108] = {
+        id = 112000108,
+        text = "9900$",
     },
     [411060] = {
         id = 411060,
         text = "Hit Rate +5%",
     },
-    [10211123] = {
-        id = 10211123,
-        text = "[Fragmentation Cannon] Inflicts 9% more DMG to Spirit enemies.",
+    [112000107] = {
+        id = 112000107,
+        text = "1200$",
     },
-    [112000114] = {
-        id = 112000114,
-        text = "초대 성공",
+    [112000106] = {
+        id = 112000106,
+        text = "Lv.70",
     },
-    [10603010] = {
-        id = 10603010,
-        text = "[Murakumo] Inflicts +10% more DMG to Spirits.",
+    [112000105] = {
+        id = 112000105,
+        text = "Lv.60",
     },
     [411061] = {
         id = 411061,
@@ -15571,65 +15683,13 @@ return {
         id = 41146,
         text = "SS Class Gem Scroll, obtain it to get a SS Class Gem Scroll for a random skill of [Mayuri]. (Auto used once obtained)",
     },
-    [2109029] = {
-        id = 2109029,
-        text = "Yoshino and Yoshinon's Halloween Adventure - Are you ready to get cursed by witches? You won't guess what the curse is~",
+    [112000104] = {
+        id = 112000104,
+        text = "Lv.50",
     },
     [411062] = {
         id = 411062,
         text = "Overall DMG Bonus +2%",
-    },
-    [112000111] = {
-        id = 112000111,
-        text = "30000$",
-    },
-    [13200224] = {
-        id = 13200224,
-        text = "Let's Catch Starfishes",
-    },
-    [14110393] = {
-        id = 14110393,
-        text = "Proof of Elite",
-    },
-    [411063] = {
-        id = 411063,
-        text = "Overall DMG Bonus +3%",
-    },
-    [12079] = {
-        id = 12079,
-        text = "Commuter - Female 4",
-    },
-    [112000108] = {
-        id = 112000108,
-        text = "9900$",
-    },
-    [112000107] = {
-        id = 112000107,
-        text = "1200$",
-    },
-    [411064] = {
-        id = 411064,
-        text = "Overall DMG Bonus +4%",
-    },
-    [13103] = {
-        id = 13103,
-        text = "Daily Pray Reward",
-    },
-    [112000106] = {
-        id = 112000106,
-        text = "Lv.70",
-    },
-    [112000105] = {
-        id = 112000105,
-        text = "Lv.60",
-    },
-    [411065] = {
-        id = 411065,
-        text = "Overall DMG Bonus +5%",
-    },
-    [112000104] = {
-        id = 112000104,
-        text = "Lv.50",
     },
     [1310291] = {
         id = 1310291,
@@ -15639,13 +15699,17 @@ return {
         id = 22013,
         text = "Spirit Package",
     },
-    [411066] = {
-        id = 411066,
-        text = "Converts 1% DMG dealt into HP",
-    },
     [112000101] = {
         id = 112000101,
         text = "Lv.20",
+    },
+    [411063] = {
+        id = 411063,
+        text = "Overall DMG Bonus +3%",
+    },
+    [12079] = {
+        id = 12079,
+        text = "Commuter - Female 4",
     },
     [1024701] = {
         id = 1024701,
@@ -15655,13 +15719,13 @@ return {
         id = 10211122,
         text = "[Fragmentation Cannon] Inflicts 6% more DMG to Spirit enemies.",
     },
-    [63674] = {
-        id = 63674,
-        text = "Red Envelope Mail is full. Cannot get more red envelopes!",
+    [411064] = {
+        id = 411064,
+        text = "Overall DMG Bonus +4%",
     },
-    [1251001] = {
-        id = 1251001,
-        text = "Marvelous gem that controls time, reduces time used to pray.",
+    [13103] = {
+        id = 13103,
+        text = "Daily Pray Reward",
     },
     [112000098] = {
         id = 112000098,
@@ -15671,6 +15735,54 @@ return {
         id = 10603008,
         text = "[Murakumo] Strikes enemy 4 times in a row. \nStrike 4: Inflicts Lightning DMG equal to 40% ATK 2 times.",
     },
+    [411065] = {
+        id = 411065,
+        text = "Overall DMG Bonus +5%",
+    },
+    [112000096] = {
+        id = 112000096,
+        text = "[Favor] Natsumi_Chapter 3",
+    },
+    [112000095] = {
+        id = 112000095,
+        text = "[Favor] Natsumi_Chapter 2",
+    },
+    [13200222] = {
+        id = 13200222,
+        text = "Summer Style",
+    },
+    [411066] = {
+        id = 411066,
+        text = "Converts 1% DMG dealt into HP",
+    },
+    [112000093] = {
+        id = 112000093,
+        text = "[Favor] Mayuri_Chapter 5",
+    },
+    [112000092] = {
+        id = 112000092,
+        text = "[Favor] Mayuri_Chapter 4",
+    },
+    [112000091] = {
+        id = 112000091,
+        text = "[Favor] Mayuri_Chapter 3",
+    },
+    [63674] = {
+        id = 63674,
+        text = "Red Envelope Mail is full. Cannot get more red envelopes!",
+    },
+    [1251001] = {
+        id = 1251001,
+        text = "Marvelous gem that controls time, reduces time used to pray.",
+    },
+    [112000090] = {
+        id = 112000090,
+        text = "[Favor] Mayuri_Chapter 2",
+    },
+    [15002] = {
+        id = 15002,
+        text = "The basic gene potion developed by Ratatoskr. Used to transcend Spirits.",
+    },
     [411068] = {
         id = 411068,
         text = "Converts 1.5% DMG dealt into HP",
@@ -15679,9 +15791,9 @@ return {
         id = 18014,
         text = "The cute bowknot on the bungee cord makes its wearer cute and ladylike.",
     },
-    [112000096] = {
-        id = 112000096,
-        text = "[Favor] Natsumi_Chapter 3",
+    [112000088] = {
+        id = 112000088,
+        text = "[Favor] Miku_Chapter 5",
     },
     [19038] = {
         id = 19038,
@@ -15711,25 +15823,25 @@ return {
         id = 22110,
         text = "Open to select one from: Commander: Sin Breaker, Commander: Bonding Oath and Commander: Formation Shatter.",
     },
-    [112000095] = {
-        id = 112000095,
-        text = "[Favor] Natsumi_Chapter 2",
+    [12176] = {
+        id = 12176,
+        text = "Doll Shop - Work 4",
     },
-    [13200225] = {
-        id = 13200225,
-        text = "Let's Catch Starfishes",
+    [900851] = {
+        id = 900851,
+        text = "Sorry, I have to return borrowed books.",
     },
     [411071] = {
         id = 411071,
         text = "HP Regen +2%",
     },
-    [112000093] = {
-        id = 112000093,
-        text = "[Favor] Mayuri_Chapter 5",
+    [112000085] = {
+        id = 112000085,
+        text = "[Favor] Miku_Chapter 2",
     },
-    [112000092] = {
-        id = 112000092,
-        text = "[Favor] Mayuri_Chapter 4",
+    [3204522] = {
+        id = 3204522,
+        text = "When used by Spirit in battle, generates a shield. The shield blocks multiple attack multiples in effect.",
     },
     [25182] = {
         id = 25182,
@@ -15739,33 +15851,33 @@ return {
         id = 411072,
         text = "HP Regen +4%",
     },
-    [112000091] = {
-        id = 112000091,
-        text = "[Favor] Mayuri_Chapter 3",
+    [112000083] = {
+        id = 112000083,
+        text = "[Favor] Kotori_Chapter 5",
     },
-    [112000090] = {
-        id = 112000090,
-        text = "[Favor] Mayuri_Chapter 2",
+    [112000082] = {
+        id = 112000082,
+        text = "[Favor] Kotori_Chapter 4",
     },
-    [15002] = {
-        id = 15002,
-        text = "The basic gene potion developed by Ratatoskr. Used to transcend Spirits.",
+    [112000081] = {
+        id = 112000081,
+        text = "[Favor] Kotori_Chapter 3",
     },
     [411073] = {
         id = 411073,
         text = "HP Regen +6%",
     },
-    [112000088] = {
-        id = 112000088,
-        text = "[Favor] Miku_Chapter 5",
+    [10931154] = {
+        id = 10931154,
+        text = "[Collapsing Torrent] Inflicts +6% DMG to mecha enemies.",
     },
-    [12176] = {
-        id = 12176,
-        text = "Doll Shop - Work 4",
+    [112000079] = {
+        id = 112000079,
+        text = "[Favor] Kotori_Chapter 1",
     },
-    [900851] = {
-        id = 900851,
-        text = "Sorry, I have to return borrowed books.",
+    [112000078] = {
+        id = 112000078,
+        text = "[Favor] Kurumi_Chapter 5",
     },
     [411074] = {
         id = 411074,
@@ -15779,61 +15891,13 @@ return {
         id = 30814,
         text = "□ Inflicts continuous thrusts with the chain",
     },
-    [112000085] = {
-        id = 112000085,
-        text = "[Favor] Miku_Chapter 2",
-    },
-    [411075] = {
-        id = 411075,
-        text = "HP Regen +10%",
-    },
-    [3204522] = {
-        id = 3204522,
-        text = "When used by Spirit in battle, generates a shield. The shield blocks multiple attack multiples in effect.",
-    },
-    [112000083] = {
-        id = 112000083,
-        text = "[Favor] Kotori_Chapter 5",
-    },
-    [112000082] = {
-        id = 112000082,
-        text = "[Favor] Kotori_Chapter 4",
-    },
-    [411076] = {
-        id = 411076,
-        text = "Crit DMG Multiplier +4%",
-    },
-    [112000081] = {
-        id = 112000081,
-        text = "[Favor] Kotori_Chapter 3",
-    },
-    [10931154] = {
-        id = 10931154,
-        text = "[Collapsing Torrent] Inflicts +6% DMG to mecha enemies.",
-    },
-    [112000079] = {
-        id = 112000079,
-        text = "[Favor] Kotori_Chapter 1",
-    },
-    [411077] = {
-        id = 411077,
-        text = "Crit DMG Multiplier +8%",
-    },
-    [112000078] = {
-        id = 112000078,
-        text = "[Favor] Kurumi_Chapter 5",
-    },
     [112000077] = {
         id = 112000077,
         text = "[Favor] Kurumi_Chapter 4",
     },
-    [42172] = {
-        id = 42172,
-        text = "C Class Energy Gem, obtain it to get a C Class Gem for a random skill of [Mordred Origami]. (Auto used once obtained)",
-    },
-    [411078] = {
-        id = 411078,
-        text = "Crit DMG Multiplier +12%",
+    [411075] = {
+        id = 411075,
+        text = "HP Regen +10%",
     },
     [112000076] = {
         id = 112000076,
@@ -15847,9 +15911,9 @@ return {
         id = 112000074,
         text = "[Favor] Kurumi_Chapter 1",
     },
-    [280011] = {
-        id = 280011,
-        text = "Inverse Tohka Temp Oath",
+    [411076] = {
+        id = 411076,
+        text = "Crit DMG Multiplier +4%",
     },
     [112000073] = {
         id = 112000073,
@@ -15863,9 +15927,9 @@ return {
         id = 1310290,
         text = "Yamai Tempest - Continued 14",
     },
-    [411080] = {
-        id = 411080,
-        text = "Crit DMG Multiplier +20%",
+    [411077] = {
+        id = 411077,
+        text = "Crit DMG Multiplier +8%",
     },
     [900850] = {
         id = 900850,
@@ -15875,13 +15939,17 @@ return {
         id = 112000069,
         text = "[Favor] Yoshino_Chapter 1",
     },
+    [42172] = {
+        id = 42172,
+        text = "C Class Energy Gem, obtain it to get a C Class Gem for a random skill of [Mordred Origami]. (Auto used once obtained)",
+    },
+    [411078] = {
+        id = 411078,
+        text = "Crit DMG Multiplier +12%",
+    },
     [1320822] = {
         id = 1320822,
         text = "Get MVP 10 times in Online Battles",
-    },
-    [411081] = {
-        id = 411081,
-        text = "Shield Effects +2%",
     },
     [112000067] = {
         id = 112000067,
@@ -15891,13 +15959,13 @@ return {
         id = 112000066,
         text = "[Favor] Origami_Chapter 3",
     },
+    [280011] = {
+        id = 280011,
+        text = "Inverse Tohka Temp Oath",
+    },
     [10603009] = {
         id = 10603009,
         text = "[Murakumo] Inflicts +5% more DMG to Spirits.",
-    },
-    [411082] = {
-        id = 411082,
-        text = "Shield Effects +4%",
     },
     [10931155] = {
         id = 10931155,
@@ -15907,25 +15975,69 @@ return {
         id = 112000063,
         text = "[Favor] Tohka_Chapter 5",
     },
-    [13200227] = {
-        id = 13200227,
-        text = "Let's Fish Together",
+    [411080] = {
+        id = 411080,
+        text = "Crit DMG Multiplier +20%",
     },
-    [411083] = {
-        id = 411083,
-        text = "Shield Effects +6%",
+    [13200224] = {
+        id = 13200224,
+        text = "Let's Catch Starfishes",
     },
     [112000061] = {
         id = 112000061,
         text = "[Favor] Tohka_Chapter 3",
     },
+    [112000060] = {
+        id = 112000060,
+        text = "[Favor] Tohka_Chapter 2",
+    },
+    [411081] = {
+        id = 411081,
+        text = "Shield Effects +2%",
+    },
+    [111000420] = {
+        id = 111000420,
+        text = "Open and get 1 from: Shekhinah Tohka Fragment, Kurumi Tokisaki Fragment, Kotori Itsuka Fragment, DEM Ellen Fragment*1.",
+    },
+    [111000419] = {
+        id = 111000419,
+        text = "S-rank Spirit fragments Choice Chest",
+    },
+    [111000107] = {
+        id = 111000107,
+        text = "Switch Fav Girl will turn off Slideshow",
+    },
+    [411082] = {
+        id = 411082,
+        text = "Shield Effects +4%",
+    },
+    [111000106] = {
+        id = 111000106,
+        text = "Favor level：%s",
+    },
+    [111000105] = {
+        id = 111000105,
+        text = "Cancel Slideshow",
+    },
+    [10911016] = {
+        id = 10911016,
+        text = "Energy Absorb",
+    },
+    [411083] = {
+        id = 411083,
+        text = "Shield Effects +6%",
+    },
+    [111000103] = {
+        id = 111000103,
+        text = "Switch",
+    },
     [493001] = {
         id = 493001,
         text = "Select Material",
     },
-    [112000060] = {
-        id = 112000060,
-        text = "[Favor] Tohka_Chapter 2",
+    [111000102] = {
+        id = 111000102,
+        text = "Remove",
     },
     [411084] = {
         id = 411084,
@@ -17007,45 +17119,13 @@ return {
         id = 10403117,
         text = "Every time Kurumi uses a skill, restores 8% of Max HP.",
     },
-    [111000420] = {
-        id = 111000420,
-        text = "Open and get 1 from: Shekhinah Tohka Fragment, Kurumi Tokisaki Fragment, Kotori Itsuka Fragment, DEM Ellen Fragment*1.",
+    [13400047] = {
+        id = 13400047,
+        text = "Pigtailed Follower",
     },
     [25187] = {
         id = 25187,
         text = "Support Points",
-    },
-    [111000419] = {
-        id = 111000419,
-        text = "S-rank Spirit fragments Choice Chest",
-    },
-    [111000107] = {
-        id = 111000107,
-        text = "Switch Fav Girl will turn off Slideshow",
-    },
-    [111000106] = {
-        id = 111000106,
-        text = "Favor level：%s",
-    },
-    [111000105] = {
-        id = 111000105,
-        text = "Cancel Slideshow",
-    },
-    [10911016] = {
-        id = 10911016,
-        text = "Energy Absorb",
-    },
-    [111000103] = {
-        id = 111000103,
-        text = "Switch",
-    },
-    [111000102] = {
-        id = 111000102,
-        text = "Remove",
-    },
-    [10103118] = {
-        id = 10103118,
-        text = "When Tohka defeats an enemy, she restores 20% max HP.",
     },
     [111000100] = {
         id = 111000100,
@@ -17091,25 +17171,17 @@ return {
         id = 111000086,
         text = "Has reached the maximum transcend level",
     },
-    [13400055] = {
-        id = 13400055,
-        text = "Innocent Girl",
+    [10103119] = {
+        id = 10103119,
+        text = "Skill CD of Tohka is reduced. \n[Sky Breaker]: Skill CD -2s; \n[Moon Striker]: Skill CD -1s; \n[Sword Elegy]: Skill CD -3s.",
     },
     [111000084] = {
         id = 111000084,
         text = "This transcend will return the above materials",
     },
-    [10034] = {
-        id = 10034,
-        text = "Healing",
-    },
     [111000083] = {
         id = 111000083,
         text = "Refunded material",
-    },
-    [42182] = {
-        id = 42182,
-        text = "C Class Energy Gem, obtain it to get a C Class Gem for a random skill of [Spirit Origami]. (Auto used once obtained)",
     },
     [111000082] = {
         id = 111000082,
@@ -17119,21 +17191,13 @@ return {
         id = 111000081,
         text = "Use transcended Sephiroth to transcend will refund the corresponding material used to transcend them",
     },
-    [13400056] = {
-        id = 13400056,
-        text = "Dating Master",
+    [13400051] = {
+        id = 13400051,
+        text = "Herbivore Manhunter",
     },
     [111000068] = {
         id = 111000068,
         text = "산가지 부족",
-    },
-    [280091] = {
-        id = 280091,
-        text = "Ellen Mathers Temp Oath",
-    },
-    [12082] = {
-        id = 12082,
-        text = "High School Student - Male 2",
     },
     [111000066] = {
         id = 111000066,
@@ -17147,13 +17211,17 @@ return {
         id = 111000064,
         text = "선택하세요",
     },
-    [13106] = {
-        id = 13106,
-        text = "Daily Pray Reward",
+    [10034] = {
+        id = 10034,
+        text = "Healing",
     },
     [111000063] = {
         id = 111000063,
         text = "배율 x%d",
+    },
+    [42182] = {
+        id = 42182,
+        text = "C Class Energy Gem, obtain it to get a C Class Gem for a random skill of [Spirit Origami]. (Auto used once obtained)",
     },
     [1024002] = {
         id = 1024002,
@@ -17171,6 +17239,14 @@ return {
         id = 111000059,
         text = "매일 한정",
     },
+    [280091] = {
+        id = 280091,
+        text = "Ellen Mathers Temp Oath",
+    },
+    [12082] = {
+        id = 12082,
+        text = "High School Student - Male 2",
+    },
     [111000058] = {
         id = 111000058,
         text = "이벤트 기간 동안 획득 가능한 아이템, 이벤트 상점에서 희귀 아이템으로 교환할 수 있다.",
@@ -17183,17 +17259,21 @@ return {
         id = 10911019,
         text = "Berserk",
     },
-    [25015] = {
-        id = 25015,
-        text = "Pocket Money",
+    [13106] = {
+        id = 13106,
+        text = "Daily Pray Reward",
+    },
+    [11103050] = {
+        id = 11103050,
+        text = "[Inverted Cloud] Changes into shadow to attack enemies 4 times in total, inflicting Lightning DMG equal to 140% of Mana's ATK.",
     },
     [111000054] = {
         id = 111000054,
         text = "All rewards have been unlocked",
     },
-    [13400058] = {
-        id = 13400058,
-        text = "Sweet Commander",
+    [13400055] = {
+        id = 13400055,
+        text = "Innocent Girl",
     },
     [111000052] = {
         id = 111000052,
@@ -17211,10 +17291,6 @@ return {
         id = 110000390,
         text = "$가:",
     },
-    [18020] = {
-        id = 18020,
-        text = "The simple daisy accessory makes its wearer looks pure and intellectual",
-    },
     [800120] = {
         id = 800120,
         text = "Cannot connect to battle server",
@@ -17227,25 +17303,13 @@ return {
         id = 110000387,
         text = "시간 한정%s",
     },
-    [20068] = {
-        id = 20068,
-        text = "Type: Costume\nOwner: Tohka Yatogami\nThe birthday party Tohka got in 2019. Somehow a sweet fragrance is exuded whenever she wears it.",
-    },
     [10221211] = {
         id = 10221211,
         text = "[Kadour] Inflicts 18% extra DMG to enemies with Mark of Light.",
     },
-    [42183] = {
-        id = 42183,
-        text = "B Class Energy Gem, obtain it to get a B Class Gem for a random skill of [Spirit Origami]. (Auto used once obtained)",
-    },
     [10501077] = {
         id = 10501077,
         text = "Spot Weakness",
-    },
-    [22116] = {
-        id = 22116,
-        text = "The rare item can purify Tree of Qliphoth. Use it to gain 1 ASTAROTH Insignia.",
     },
     [10801106] = {
         id = 10801106,
@@ -17255,25 +17319,73 @@ return {
         id = 11000312,
         text = "Ne-Nep, Nep-ne, Nep-n, Nep",
     },
-    [12010049] = {
-        id = 12010049,
-        text = "As I expected, the one I met in the bakery was...",
+    [12010047] = {
+        id = 12010047,
+        text = "How will I feel when I meet Mayuri again?",
     },
-    [13300264] = {
-        id = 13300264,
-        text = "Used to exchange items in the birthday store during the Birthday Clash.",
+    [18020] = {
+        id = 18020,
+        text = "The simple daisy accessory makes its wearer looks pure and intellectual",
     },
-    [10131004] = {
-        id = 10131004,
-        text = "Awakening Lv.4",
+    [13300260] = {
+        id = 13300260,
+        text = "Happy moments are to be shared by friends!",
+    },
+    [14220017] = {
+        id = 14220017,
+        text = "In the past year, we have %s close encounters. They always make my face blush...",
+    },
+    [110000376] = {
+        id = 110000376,
+        text = "윷놀이 게임을 진행해 획득한 아이템, 굿즈 보상 교환에 사용 가능",
+    },
+    [20068] = {
+        id = 20068,
+        text = "Type: Costume\nOwner: Tohka Yatogami\nThe birthday party Tohka got in 2019. Somehow a sweet fragrance is exuded whenever she wears it.",
+    },
+    [110000375] = {
+        id = 110000375,
+        text = "모",
+    },
+    [42183] = {
+        id = 42183,
+        text = "B Class Energy Gem, obtain it to get a B Class Gem for a random skill of [Spirit Origami]. (Auto used once obtained)",
+    },
+    [110000374] = {
+        id = 110000374,
+        text = "친구 지$ 포인트, 윷놀이 게임에서 아이템 보상 교환에 사용 가능",
+    },
+    [22116] = {
+        id = 22116,
+        text = "The rare item can purify Tree of Qliphoth. Use it to gain 1 ASTAROTH Insignia.",
+    },
+    [800110] = {
+        id = 800110,
+        text = "Quit Game",
+    },
+    [25184] = {
+        id = 25184,
+        text = "A special item for the 2019 White Valentine's Day event, used to exchange Kurumi advanced costumes in the event.",
+    },
+    [290000084] = {
+        id = 290000084,
+        text = "제4장",
+    },
+    [290000083] = {
+        id = 290000083,
+        text = "제3장",
+    },
+    [100010] = {
+        id = 100010,
+        text = "Missing user name",
     },
     [25188] = {
         id = 25188,
         text = "A special item for the Crimson Nightmare - Kurumi Warm-up event, used to claim Total Points Reward.",
     },
-    [110000376] = {
-        id = 110000376,
-        text = "윷놀이 게임을 진행해 획득한 아이템, 굿즈 보상 교환에 사용 가능",
+    [290000081] = {
+        id = 290000081,
+        text = "제1장",
     },
     [100000056] = {
         id = 100000056,
@@ -17307,38 +17419,6 @@ return {
         id = 100000296,
         text = "在精灵试炼中战胜%s次七罪",
     },
-    [25184] = {
-        id = 25184,
-        text = "A special item for the 2019 White Valentine's Day event, used to exchange Kurumi advanced costumes in the event.",
-    },
-    [290000084] = {
-        id = 290000084,
-        text = "제4장",
-    },
-    [290000083] = {
-        id = 290000083,
-        text = "제3장",
-    },
-    [100010] = {
-        id = 100010,
-        text = "Missing user name",
-    },
-    [290000081] = {
-        id = 290000081,
-        text = "제1장",
-    },
-    [332015] = {
-        id = 332015,
-        text = "a new costume of Origami",
-    },
-    [901167] = {
-        id = 901167,
-        text = "Lv.4 Unlock Voice",
-    },
-    [290000078] = {
-        id = 290000078,
-        text = "爱上偶像节目的七罪，决定做出人生中最大胆的尝试。",
-    },
     [290000077] = {
         id = 290000077,
         text = "猫女七罪",
@@ -17362,10 +17442,6 @@ return {
     [2108236] = {
         id = 2108236,
         text = "",
-    },
-    [42184] = {
-        id = 42184,
-        text = "A Class Energy Gem, obtain it to get an A Class Gem for a random skill of [Spirit Origami]. (Auto used once obtained)",
     },
     [290000071] = {
         id = 290000071,
@@ -17398,6 +17474,10 @@ return {
     [10231103] = {
         id = 10231103,
         text = "Despair Cohesion",
+    },
+    [42184] = {
+        id = 42184,
+        text = "A Class Energy Gem, obtain it to get an A Class Gem for a random skill of [Spirit Origami]. (Auto used once obtained)",
     },
     [10303075] = {
         id = 10303075,
@@ -17443,77 +17523,65 @@ return {
         id = 11000044,
         text = "Police! This is the bad guy!",
     },
-    [11001029] = {
-        id = 11001029,
-        text = "Spot Weakness",
-    },
-    [280111] = {
-        id = 280111,
-        text = "Vanargand Mana Temp Oath",
+    [11001027] = {
+        id = 11001027,
+        text = "Lure",
     },
     [290000051] = {
         id = 290000051,
         text = "Forest Princess",
     },
-    [10133095] = {
-        id = 10133095,
-        text = "[Disillusion] Skill DMG +15%.",
+    [11301066] = {
+        id = 11301066,
+        text = "Spot Weakness: Elite",
     },
-    [11312017] = {
-        id = 11312017,
-        text = "[Star Scatter] The 4th strike unleashes 2 more stars. The skill inflicts Magic DMG equal to 400% ATK. \n[Magic Orb] Flies slower but damages enemies on touch, inflicting damage up to 2 times per sec. Each time inflicts Magic DMG equal to 50% ATK.",
+    [11312015] = {
+        id = 11312015,
+        text = "When [Star Scatter/Magic Orb] inflict damage, has a 60% chance to gain 10% ATK Speed for 5s.",
     },
-    [12020005] = {
-        id = 12020005,
-        text = "Challenge 1-5",
+    [12020003] = {
+        id = 12020003,
+        text = "Challenge 1-3",
     },
-    [18021] = {
-        id = 18021,
-        text = "Daisy Collar [Fine]",
+    [13100027] = {
+        id = 13100027,
+        text = "It has favorable attitudes toward humans but may get irritated by wrong answers (may trigger battle).",
     },
-    [13100030] = {
-        id = 13100030,
-        text = "This one has mild disposition, but you'll need to make it happy.",
-    },
-    [13100056] = {
-        id = 13100056,
-        text = "%02dm %02ds",
+    [13100053] = {
+        id = 13100053,
+        text = "Time Left: %02dh %02dm",
     },
     [290000045] = {
         id = 290000045,
         text = "Beautiful Scenery",
     },
-    [20069] = {
-        id = 20069,
-        text = "Trainee Maid",
+    [1701941] = {
+        id = 1701941,
+        text = "[Main] Kurumi_Chapter 1",
     },
-    [13300081] = {
-        id = 13300081,
-        text = "Unexpected Conversation",
+    [280111] = {
+        id = 280111,
+        text = "Vanargand Mana Temp Oath",
     },
-    [42185] = {
-        id = 42185,
-        text = "S Class Gem, obtain it to get a S Class Gem Scroll for a random skill of [Spirit Origami]. (Auto used once obtained)",
+    [13311562] = {
+        id = 13311562,
+        text = "Be careful... is it hot...? Th-thank you... Aww... yummy...",
     },
-    [10701114] = {
-        id = 10701114,
-        text = "Recuperate",
+    [14110156] = {
+        id = 14110156,
+        text = "Daily reward chances from D-class runestone challenge",
     },
-    [22117] = {
-        id = 22117,
-        text = "DEM Origami",
-    },
-    [14110159] = {
-        id = 14110159,
-        text = "Daily reward chances from A-class runestone challenge",
-    },
-    [14210114] = {
-        id = 14210114,
-        text = "Kabbalah Instance",
+    [14210111] = {
+        id = 14210111,
+        text = "Main Chapter 7",
     },
     [290000040] = {
         id = 290000040,
         text = "The cat caught by the bad boy needs to be rescued by me and Kurumi.",
+    },
+    [18021] = {
+        id = 18021,
+        text = "Daisy Collar [Fine]",
     },
     [290000039] = {
         id = 290000039,
@@ -17523,21 +17591,29 @@ return {
         id = 290000038,
         text = "Because I wanted to know whether Kurumi would be afraid of the haunted houses like other girls, I decided to check.",
     },
-    [25189] = {
-        id = 25189,
-        text = "Nightmare Essence",
-    },
     [290000037] = {
         id = 290000037,
         text = "Haunted House",
+    },
+    [20069] = {
+        id = 20069,
+        text = "Trainee Maid",
     },
     [290000036] = {
         id = 290000036,
         text = "Kurumi, who enrolled on the first day, left the regret of not being able to date me alone, because of the interruption of Tohka and Origami,",
     },
+    [42185] = {
+        id = 42185,
+        text = "S Class Gem, obtain it to get a S Class Gem Scroll for a random skill of [Spirit Origami]. (Auto used once obtained)",
+    },
     [290000035] = {
         id = 290000035,
         text = "Unfinished Wish",
+    },
+    [22117] = {
+        id = 22117,
+        text = "DEM Origami",
     },
     [290000034] = {
         id = 290000034,
@@ -17558,6 +17634,10 @@ return {
     [290000030] = {
         id = 290000030,
         text = "Yoshino has been looking for the prince of her own, and today is a good opportunity to help her realize this dream.",
+    },
+    [25189] = {
+        id = 25189,
+        text = "Nightmare Essence",
     },
     [290000029] = {
         id = 290000029,
@@ -17607,21 +17687,9 @@ return {
         id = 1310372,
         text = "Tohka Dead End - Continued°1",
     },
-    [280121] = {
-        id = 280121,
-        text = "Shekhinah Tohka Temp Oath",
-    },
-    [10035] = {
-        id = 10035,
-        text = "Movement Speed",
-    },
     [290000017] = {
         id = 290000017,
         text = "Weak Origami",
-    },
-    [42186] = {
-        id = 42186,
-        text = "SS Class Gem, obtain it to get a SS Class Gem Scroll for a random skill of [Spirit Origami]. (Auto used once obtained)",
     },
     [290000016] = {
         id = 290000016,
@@ -17643,10 +17711,6 @@ return {
         id = 400004,
         text = "Maria",
     },
-    [12083] = {
-        id = 12083,
-        text = "High School Student - Male 3",
-    },
     [800032] = {
         id = 800032,
         text = "Required Level",
@@ -17655,13 +17719,21 @@ return {
         id = 2081148,
         text = "",
     },
+    [280121] = {
+        id = 280121,
+        text = "Shekhinah Tohka Temp Oath",
+    },
+    [10035] = {
+        id = 10035,
+        text = "Movement Speed",
+    },
     [290000009] = {
         id = 290000009,
         text = "Sorrow of Moving",
     },
-    [13107] = {
-        id = 13107,
-        text = "Pray Lucky Bag",
+    [42186] = {
+        id = 42186,
+        text = "SS Class Gem, obtain it to get a SS Class Gem Scroll for a random skill of [Spirit Origami]. (Auto used once obtained)",
     },
     [2108233] = {
         id = 2108233,
@@ -17683,6 +17755,10 @@ return {
         id = 3210290,
         text = "Skill CD -24% for Spirits in battle",
     },
+    [12083] = {
+        id = 12083,
+        text = "High School Student - Male 3",
+    },
     [290000003] = {
         id = 290000003,
         text = "Cause of Insomnia",
@@ -17694,6 +17770,10 @@ return {
     [290000001] = {
         id = 290000001,
         text = "Real Fear",
+    },
+    [13107] = {
+        id = 13107,
+        text = "Pray Lucky Bag",
     },
     [100000149] = {
         id = 100000149,
@@ -17723,10 +17803,6 @@ return {
         id = 100000143,
         text = "Confirm to spend %d<img src='%s'></img> to refresh it?<br/>(Daily Diamond refresh chances: %s)",
     },
-    [18022] = {
-        id = 18022,
-        text = "Fine crafted item. The simple daisy accessory makes its wearer looks pure and intellectual",
-    },
     [100000142] = {
         id = 100000142,
         text = "Quest Refresh Confirmation",
@@ -17739,25 +17815,13 @@ return {
         id = 100000140,
         text = "Owned %s",
     },
-    [20070] = {
-        id = 20070,
-        text = "Type: Costume\nOwner: Yoshino\nThis is the work of-of trainee maid. Please- Please - let me! I will fall? Hmm... No- No, I won't!",
-    },
     [100000139] = {
         id = 100000139,
         text = "Craft",
     },
-    [42187] = {
-        id = 42187,
-        text = "SSS Class Gem, obtain it to get a SSS Class Gem Scroll for a random skill of [Spirit Origami]. (Auto used once obtained)",
-    },
     [100000138] = {
         id = 100000138,
         text = "Insufficient materials",
-    },
-    [22118] = {
-        id = 22118,
-        text = "Grants DEM Origami. Duplicates of the Spirit will be turned into 15 Spirit fragments.",
     },
     [100000137] = {
         id = 100000137,
@@ -17767,21 +17831,17 @@ return {
         id = 100000136,
         text = "Unlocked by finishing all the submissions",
     },
-    [280131] = {
-        id = 280131,
-        text = "Mayuri Temp Oath",
-    },
     [100000135] = {
         id = 100000135,
         text = "Rewards Preview",
     },
+    [18022] = {
+        id = 18022,
+        text = "Fine crafted item. The simple daisy accessory makes its wearer looks pure and intellectual",
+    },
     [100000134] = {
         id = 100000134,
         text = "Craft",
-    },
-    [25190] = {
-        id = 25190,
-        text = "Contains a mysterious energy called Qliphoth that permanently changed the nature of Kabbalah Essence. \nUsed to awaken following characters' angelic power: \nCrimson Nightmare - Kurumi Tokisaki",
     },
     [100000133] = {
         id = 100000133,
@@ -17791,13 +17851,25 @@ return {
         id = 100000132,
         text = "Achievements",
     },
+    [20070] = {
+        id = 20070,
+        text = "Type: Costume\nOwner: Yoshino\nThis is the work of-of trainee maid. Please- Please - let me! I will fall? Hmm... No- No, I won't!",
+    },
     [100000131] = {
         id = 100000131,
         text = "Refresh",
     },
+    [42187] = {
+        id = 42187,
+        text = "SSS Class Gem, obtain it to get a SSS Class Gem Scroll for a random skill of [Spirit Origami]. (Auto used once obtained)",
+    },
     [100000130] = {
         id = 100000130,
         text = "Submit",
+    },
+    [22118] = {
+        id = 22118,
+        text = "Grants DEM Origami. Duplicates of the Spirit will be turned into 15 Spirit fragments.",
     },
     [100000123] = {
         id = 100000123,
@@ -17807,6 +17879,10 @@ return {
         id = 100000122,
         text = "Download the latest client to enjoy talking with Spirits!",
     },
+    [280131] = {
+        id = 280131,
+        text = "Mayuri Temp Oath",
+    },
     [100000121] = {
         id = 100000121,
         text = "%s",
@@ -17814,6 +17890,10 @@ return {
     [100000120] = {
         id = 100000120,
         text = "Files are corrupted. Confirm to delete and download them again?",
+    },
+    [25190] = {
+        id = 25190,
+        text = "Contains a mysterious energy called Qliphoth that permanently changed the nature of Kabbalah Essence. \nUsed to awaken following characters' angelic power: \nCrimson Nightmare - Kurumi Tokisaki",
     },
     [100000119] = {
         id = 100000119,
@@ -17863,21 +17943,17 @@ return {
         id = 100000108,
         text = "ATK:",
     },
-    [11101098] = {
-        id = 11101098,
+    [11101096] = {
+        id = 11101096,
         text = "Enhance",
     },
-    [12101054] = {
-        id = 12101054,
-        text = "2. Players can get buffs after clearing some rooms for the first time such as Spirit buffs and boss debuffs.",
+    [12101051] = {
+        id = 12101051,
+        text = "Clear the stage to unlock the buff: Spirits inflict 30% more Dark DMG.",
     },
-    [441071] = {
-        id = 441071,
-        text = "Dark DMG Bonus +20%",
-    },
-    [42188] = {
-        id = 42188,
-        text = "D Class Energy Gem, obtain it to get a D Class Gem for a random skill of [Inverse Origami]. (Auto used once obtained)",
+    [13311240] = {
+        id = 13311240,
+        text = "1. During the exploration in Test of Courage, you may trigger companion events./n2. In such cases, you must answer questions of Spirits correctly or give them specified items to earn the trust./n3. Afterwards, the Spirit will become your companion, and her story would progress onwards./n4. Once a Spirit's story has started, other Spirits' story will not be triggered./n5. After completing her main story, you can continue or exit (and get rewards)./6. If you continue, you can choose to rescue other Spirits.",
     },
     [100000101] = {
         id = 100000101,
@@ -17911,6 +17987,10 @@ return {
         id = 100000094,
         text = "Dodge",
     },
+    [42188] = {
+        id = 42188,
+        text = "D Class Energy Gem, obtain it to get a D Class Gem for a random skill of [Inverse Origami]. (Auto used once obtained)",
+    },
     [100000093] = {
         id = 100000093,
         text = "Block",
@@ -17926,10 +18006,6 @@ return {
     [100000090] = {
         id = 100000090,
         text = "hours ago",
-    },
-    [280141] = {
-        id = 280141,
-        text = "Natsumi Temp Oath",
     },
     [100000089] = {
         id = 100000089,
@@ -17963,6 +18039,10 @@ return {
         id = 100000082,
         text = "Reporting submitted!",
     },
+    [280141] = {
+        id = 280141,
+        text = "Natsumi Temp Oath",
+    },
     [100000080] = {
         id = 100000080,
         text = "Rich-text contents can't be connected with normal-text contents:",
@@ -17979,10 +18059,6 @@ return {
         id = 100000077,
         text = "Prompt type is not configured!",
     },
-    [18023] = {
-        id = 18023,
-        text = "Daisy Collar [Perfect]",
-    },
     [100000076] = {
         id = 100000076,
         text = "Function (ID: %s) is not found!",
@@ -17995,25 +18071,9 @@ return {
         id = 100000074,
         text = "End in %sd %sh %sm",
     },
-    [20071] = {
-        id = 20071,
-        text = "Maid Commander",
-    },
-    [41165] = {
-        id = 41165,
-        text = "S Class Gem Scroll, obtain it to get a S Class Gem Scroll for a random skill of [Ice Princess - Yoshino]. (Auto used once obtained)",
-    },
-    [42189] = {
-        id = 42189,
-        text = "C Class Energy Gem, obtain it to get a C Class Gem for a random skill of [Inverse Origami]. (Auto used once obtained)",
-    },
     [100000073] = {
         id = 100000073,
         text = "Month Card: %s days left",
-    },
-    [22119] = {
-        id = 22119,
-        text = "Random Rare Character Pack",
     },
     [100000072] = {
         id = 100000072,
@@ -18031,13 +18091,13 @@ return {
         id = 100000069,
         text = "City module is empty, module ID =",
     },
+    [18023] = {
+        id = 18023,
+        text = "Daisy Collar [Perfect]",
+    },
     [100000068] = {
         id = 100000068,
         text = "A new version is available. Please download the update.",
-    },
-    [25191] = {
-        id = 25191,
-        text = "Kurumi Support Points",
     },
     [100000067] = {
         id = 100000067,
@@ -18047,9 +18107,25 @@ return {
         id = 100000066,
         text = "Battle has timed out",
     },
+    [20071] = {
+        id = 20071,
+        text = "Maid Commander",
+    },
+    [41165] = {
+        id = 41165,
+        text = "S Class Gem Scroll, obtain it to get a S Class Gem Scroll for a random skill of [Ice Princess - Yoshino]. (Auto used once obtained)",
+    },
+    [42189] = {
+        id = 42189,
+        text = "C Class Energy Gem, obtain it to get a C Class Gem for a random skill of [Inverse Origami]. (Auto used once obtained)",
+    },
     [100000065] = {
         id = 100000065,
         text = "Remove",
+    },
+    [22119] = {
+        id = 22119,
+        text = "Random Rare Character Pack",
     },
     [100000064] = {
         id = 100000064,
@@ -18071,25 +18147,21 @@ return {
         id = 100000060,
         text = "[Skill]",
     },
-    [11101102] = {
-        id = 11101102,
-        text = "Spot Weakness: Elite",
+    [25191] = {
+        id = 25191,
+        text = "Kurumi Support Points",
     },
-    [30311] = {
-        id = 30311,
-        text = "El",
+    [11101099] = {
+        id = 11101099,
+        text = "Enhance",
     },
-    [12101058] = {
-        id = 12101058,
-        text = "6. Halloween mini game - card matching: win the game by getting two of the same cards. Win enough times to claim extra rewards.",
+    [12101055] = {
+        id = 12101055,
+        text = "3. After locating the Pumpkin King's room, all players are ranked based on their clearance time and get ranking rewards after the event ends.",
     },
-    [1325307] = {
-        id = 1325307,
-        text = "Reach Lv.%s to buy and activate again",
-    },
-    [280151] = {
-        id = 280151,
-        text = "DEM Origami Temp Oath",
+    [13311502] = {
+        id = 13311502,
+        text = "Ginkgo Leaf [Event]",
     },
     [100000053] = {
         id = 100000053,
@@ -18115,6 +18187,10 @@ return {
         id = 2300026,
         text = "Perce DMG Bonus",
     },
+    [30311] = {
+        id = 30311,
+        text = "El",
+    },
     [10101114] = {
         id = 10101114,
         text = "Wonder of Magic",
@@ -18123,17 +18199,9 @@ return {
         id = 100000046,
         text = "Max level reached! Please rank up first!",
     },
-    [10036] = {
-        id = 10036,
-        text = "Energy",
-    },
-    [41166] = {
-        id = 41166,
-        text = "SS Class Gem Scroll, obtain it to get a SS Class Gem Scroll for a random skill of [Ice Princess - Yoshino]. (Auto used once obtained)",
-    },
-    [42190] = {
-        id = 42190,
-        text = "B Class Energy Gem, obtain it to get a B Class Gem for a random skill of [Inverse Origami]. (Auto used once obtained)",
+    [280151] = {
+        id = 280151,
+        text = "DEM Origami Temp Oath",
     },
     [100000045] = {
         id = 100000045,
@@ -18143,21 +18211,17 @@ return {
         id = 100000044,
         text = "Set not activated yet!",
     },
-    [11101099] = {
-        id = 11101099,
+    [11101097] = {
+        id = 11101097,
         text = "Enhance",
     },
-    [12101055] = {
-        id = 12101055,
-        text = "3. After locating the Pumpkin King's room, all players are ranked based on their clearance time and get ranking rewards after the event ends.",
+    [12101052] = {
+        id = 12101052,
+        text = "Clear the stage to unlock the buff: Spirits restore 5% HP every 10 seconds.",
     },
-    [13311502] = {
-        id = 13311502,
-        text = "Ginkgo Leaf [Event]",
-    },
-    [12084] = {
-        id = 12084,
-        text = "High School Student - Male 4",
+    [13311241] = {
+        id = 13311241,
+        text = "Test of Courage",
     },
     [100000040] = {
         id = 100000040,
@@ -18171,9 +18235,17 @@ return {
         id = 100000036,
         text = "No ending point recorded",
     },
-    [13108] = {
-        id = 13108,
-        text = "Random Runestone Giftbox (D-B)",
+    [10036] = {
+        id = 10036,
+        text = "Energy",
+    },
+    [41166] = {
+        id = 41166,
+        text = "SS Class Gem Scroll, obtain it to get a SS Class Gem Scroll for a random skill of [Ice Princess - Yoshino]. (Auto used once obtained)",
+    },
+    [42190] = {
+        id = 42190,
+        text = "B Class Energy Gem, obtain it to get a B Class Gem for a random skill of [Inverse Origami]. (Auto used once obtained)",
     },
     [100000035] = {
         id = 100000035,
@@ -18194,6 +18266,46 @@ return {
     [10101115] = {
         id = 10101115,
         text = "Death Omen",
+    },
+    [12084] = {
+        id = 12084,
+        text = "High School Student - Male 4",
+    },
+    [266235] = {
+        id = 266235,
+        text = "Clear a team instance",
+    },
+    [100000029] = {
+        id = 100000029,
+        text = "Background Offset",
+    },
+    [100000028] = {
+        id = 100000028,
+        text = "Background Size",
+    },
+    [13108] = {
+        id = 13108,
+        text = "Random Runestone Giftbox (D-B)",
+    },
+    [100000027] = {
+        id = 100000027,
+        text = "Background",
+    },
+    [3203221] = {
+        id = 3203221,
+        text = "2. Each card with active effect adds 1 skill in stages. Tap button to release.",
+    },
+    [13042] = {
+        id = 13042,
+        text = "Christmas Key",
+    },
+    [100000022] = {
+        id = 100000022,
+        text = "Fav Girl 2 Size",
+    },
+    [100000021] = {
+        id = 100000021,
+        text = "Fav Girl 1 Size",
     },
     [2110002] = {
         id = 2110002,
@@ -18231,21 +18343,21 @@ return {
         id = 2110015,
         text = "She brings blood! The crimson spear will conquer the world!",
     },
-    [266235] = {
-        id = 266235,
-        text = "Clear a team instance",
+    [100000020] = {
+        id = 100000020,
+        text = "%s input value error. Please enter a correct number",
     },
     [18024] = {
         id = 18024,
         text = "Perfect crafted item. The simple daisy accessory makes its wearer looks pure and intellectual",
     },
-    [100000029] = {
-        id = 100000029,
-        text = "Background Offset",
+    [100000019] = {
+        id = 100000019,
+        text = "Disconnected from server",
     },
-    [100000028] = {
-        id = 100000028,
-        text = "Background Size",
+    [100000018] = {
+        id = 100000018,
+        text = "Insert Coin",
     },
     [222002] = {
         id = 222002,
@@ -18263,57 +18375,13 @@ return {
         id = 42191,
         text = "A Class Energy Gem, obtain it to get an A Class Gem for a random skill of [Inverse Origami]. (Auto used once obtained)",
     },
-    [100000027] = {
-        id = 100000027,
-        text = "Background",
-    },
-    [22120] = {
-        id = 22120,
-        text = "Open and get 1 random character with A or AA class. (Duplicates will be turned to fragments)",
-    },
-    [12101056] = {
-        id = 12101056,
-        text = "4. Different rooms grant different buffs. It is suggested to get them all before challenging the Pumpkin King.",
-    },
-    [13311503] = {
-        id = 13311503,
-        text = "An intact ginkgo leaf that makes a perfect bookmark.",
-    },
-    [222003] = {
-        id = 222003,
-        text = "You've entered illegal characters",
-    },
-    [100000022] = {
-        id = 100000022,
-        text = "Fav Girl 2 Size",
-    },
-    [100000021] = {
-        id = 100000021,
-        text = "Fav Girl 1 Size",
-    },
-    [25192] = {
-        id = 25192,
-        text = "Points of the Kurumi Support event, during which it can be acquired from instance and event quests.",
-    },
-    [100000020] = {
-        id = 100000020,
-        text = "%s input value error. Please enter a correct number",
-    },
-    [100000019] = {
-        id = 100000019,
-        text = "Disconnected from server",
-    },
-    [100000018] = {
-        id = 100000018,
-        text = "Insert Coin",
-    },
     [100000017] = {
         id = 100000017,
         text = "Capture",
     },
-    [222004] = {
-        id = 222004,
-        text = "That's too self-absorbed! You can't like your own comment!",
+    [22120] = {
+        id = 22120,
+        text = "Open and get 1 random character with A or AA class. (Duplicates will be turned to fragments)",
     },
     [2300022] = {
         id = 2300022,
@@ -18323,6 +18391,10 @@ return {
         id = 100000015,
         text = "has left the team",
     },
+    [222003] = {
+        id = 222003,
+        text = "You've entered illegal characters",
+    },
     [10303030] = {
         id = 10303030,
         text = "[Ice Thorns] Skill DMG +6%.",
@@ -18331,25 +18403,29 @@ return {
         id = 100000013,
         text = "In Progress %s/%s:",
     },
-    [30312] = {
-        id = 30312,
-        text = "…Please……don't hurt me.",
+    [25192] = {
+        id = 25192,
+        text = "Points of the Kurumi Support event, during which it can be acquired from instance and event quests.",
     },
     [100000012] = {
         id = 100000012,
         text = "Target: %s",
     },
-    [16018] = {
-        id = 16018,
-        text = "Mana Takamiya - DEM Murakumo Form fragment, used to activate DEM Mana or increase her capability.",
+    [11101098] = {
+        id = 11101098,
+        text = "Enhance",
     },
-    [12101057] = {
-        id = 12101057,
-        text = "5. Every day, there will be 3 different challenge quests, from which you can get the items to unfold cards. Don't forget to complete them!",
+    [12101054] = {
+        id = 12101054,
+        text = "2. Players can get buffs after clearing some rooms for the first time such as Spirit buffs and boss debuffs.",
     },
-    [900766] = {
-        id = 900766,
-        text = "Chapter 1",
+    [13210009] = {
+        id = 13210009,
+        text = "Start",
+    },
+    [222004] = {
+        id = 222004,
+        text = "That's too self-absorbed! You can't like your own comment!",
     },
     [100000005] = {
         id = 100000005,
@@ -18367,6 +18443,10 @@ return {
         id = 100000002,
         text = "Successive Log Ins",
     },
+    [30312] = {
+        id = 30312,
+        text = "…Please……don't hurt me.",
+    },
     [3205506] = {
         id = 3205506,
         text = "Rare deck obtained from [Fight for Territory], grants 1 random rare card",
@@ -18379,6 +18459,10 @@ return {
         id = 331005,
         text = "Bonds of Flower",
     },
+    [12010122] = {
+        id = 12010122,
+        text = "Talk with the mysterious girl.",
+    },
     [15000001] = {
         id = 15000001,
         text = "This Sephira does not belong to any set",
@@ -18387,13 +18471,25 @@ return {
         id = 10221025,
         text = "Radiation",
     },
-    [42192] = {
-        id = 42192,
-        text = "S Class Energy Gem, obtain it to get a S Class Gem for a random skill of [Inverse Origami]. (Auto used once obtained)",
-    },
     [14301001] = {
         id = 14301001,
         text = "Breeder UI",
+    },
+    [14300323] = {
+        id = 14300323,
+        text = "Rename the Club",
+    },
+    [14300320] = {
+        id = 14300320,
+        text = "Successfully Renamed",
+    },
+    [14300308] = {
+        id = 14300308,
+        text = "The club leader can use it to rename the club.",
+    },
+    [14300305] = {
+        id = 14300305,
+        text = "Club Rename Card",
     },
     [14300003] = {
         id = 14300003,
@@ -18402,6 +18498,10 @@ return {
     [14300002] = {
         id = 14300002,
         text = "1 Year Celebration",
+    },
+    [42192] = {
+        id = 42192,
+        text = "S Class Energy Gem, obtain it to get a S Class Gem for a random skill of [Inverse Origami]. (Auto used once obtained)",
     },
     [14300001] = {
         id = 14300001,
@@ -18415,9 +18515,9 @@ return {
         id = 14240021,
         text = "Answer:",
     },
-    [63648] = {
-        id = 63648,
-        text = "Fund sale will end in:",
+    [63649] = {
+        id = 63649,
+        text = "Sale has ended",
     },
     [14240019] = {
         id = 14240019,
@@ -18447,9 +18547,9 @@ return {
         id = 900181,
         text = "Well, I can explain...",
     },
-    [11000166] = {
-        id = 11000166,
-        text = "What are you doing...",
+    [11000163] = {
+        id = 11000163,
+        text = "No way you can fool me.",
     },
     [14240011] = {
         id = 14240011,
@@ -18483,17 +18583,9 @@ return {
         id = 14240004,
         text = "Please enter at least 4 characters, instructor!",
     },
-    [17001] = {
-        id = 17001,
-        text = "Dry Bread",
-    },
     [1701779] = {
         id = 1701779,
         text = "Mana Takamiya reaches Lv.30",
-    },
-    [18025] = {
-        id = 18025,
-        text = "Bow Hairpin",
     },
     [14240002] = {
         id = 14240002,
@@ -18503,41 +18595,49 @@ return {
         id = 14240001,
         text = "Please enter the question that you would like to ask, instructor!",
     },
+    [17001] = {
+        id = 17001,
+        text = "Dry Bread",
+    },
     [900839] = {
         id = 900839,
         text = "%s, you miss the date with %s",
     },
-    [20073] = {
-        id = 20073,
-        text = "Exclusive Maid",
+    [18025] = {
+        id = 18025,
+        text = "Bow Hairpin",
     },
-    [11301107] = {
-        id = 11301107,
-        text = "Light's Judgment",
-    },
-    [42193] = {
-        id = 42193,
-        text = "SS Class Energy Gem, obtain it to get a SS Class Gem for a random skill of [Inverse Origami]. (Auto used once obtained)",
+    [13200233] = {
+        id = 13200233,
+        text = "Let's Catch Starfishes",
     },
     [14230011] = {
         id = 14230011,
         text = "To make the fleeting sweet moment last longer, and to keep true love from fading away, she gathered the power of Spirits and pulled the slash of redemption.",
     },
-    [22121] = {
-        id = 22121,
-        text = "Spirit Origami",
-    },
     [14230010] = {
         id = 14230010,
         text = "Luck is the most elusive thing, like an encounter in eons. It is called a \"miracle\", and I am willing to create such a miracle for you.",
+    },
+    [20073] = {
+        id = 20073,
+        text = "Exclusive Maid",
     },
     [14230009] = {
         id = 14230009,
         text = "Success is always bred from diligence. Sometimes, we can't help encouraging the diligent even if they haven't succeeded.",
     },
+    [42193] = {
+        id = 42193,
+        text = "SS Class Energy Gem, obtain it to get a SS Class Gem for a random skill of [Inverse Origami]. (Auto used once obtained)",
+    },
     [14230008] = {
         id = 14230008,
         text = "Despite all the pain, traumas and nightmares, there will always be someone who cheers up for you and warms your soul.",
+    },
+    [22121] = {
+        id = 22121,
+        text = "Spirit Origami",
     },
     [1310119] = {
         id = 1310119,
@@ -18547,25 +18647,25 @@ return {
         id = 14230006,
         text = "It's the break time. However, our dream will never break! The next time, we'll challenge the next peak!",
     },
-    [25193] = {
-        id = 25193,
-        text = "Winter Battle Points",
-    },
     [1023711] = {
         id = 1023711,
         text = "Air is quite fresh...",
     },
-    [400112] = {
-        id = 400112,
-        text = "Ice Princess: Arctic Domain",
+    [13200234] = {
+        id = 13200234,
+        text = "Let's Catch Starfishes",
     },
     [900838] = {
         id = 900838,
         text = "Tell Yoshino definition of home",
     },
-    [13200238] = {
-        id = 13200238,
-        text = "Let's Fish Together",
+    [25193] = {
+        id = 25193,
+        text = "Winter Battle Points",
+    },
+    [13200235] = {
+        id = 13200235,
+        text = "Let's Catch Starfishes",
     },
     [900837] = {
         id = 900837,
@@ -18587,10 +18687,6 @@ return {
         id = 14300354,
         text = "The Free refresh of Fragment Store +1",
     },
-    [30313] = {
-        id = 30313,
-        text = "□ Ranged ATK: releases icicles and creates ice wall",
-    },
     [14300353] = {
         id = 14300353,
         text = "One Free summon in Heat Summon every 48 hours (Character or Sephira) ",
@@ -18602,6 +18698,10 @@ return {
     [14300350] = {
         id = 14300350,
         text = "Complete all the Sephiroth that are praying at once. Once per day",
+    },
+    [30313] = {
+        id = 30313,
+        text = "□ Ranged ATK: releases icicles and creates ice wall",
     },
     [14300348] = {
         id = 14300348,
@@ -18635,17 +18735,9 @@ return {
         id = 14300100,
         text = "Event Time: %s to %s",
     },
-    [10037] = {
-        id = 10037,
-        text = "Block",
-    },
     [14300099] = {
         id = 14300099,
         text = "Spirit Covenant",
-    },
-    [42194] = {
-        id = 42194,
-        text = "SSS Class Energy Gem, obtain it to get a SSS Class Gem for a random skill of [Inverse Origami]. (Auto used once obtained)",
     },
     [14300098] = {
         id = 14300098,
@@ -18655,9 +18747,17 @@ return {
         id = 14300097,
         text = "Special Reinforcements",
     },
+    [10037] = {
+        id = 10037,
+        text = "Block",
+    },
     [14300096] = {
         id = 14300096,
         text = "Month Card",
+    },
+    [42194] = {
+        id = 42194,
+        text = "SSS Class Energy Gem, obtain it to get a SSS Class Gem for a random skill of [Inverse Origami]. (Auto used once obtained)",
     },
     [14300095] = {
         id = 14300095,
@@ -18666,10 +18766,6 @@ return {
     [14300094] = {
         id = 14300094,
         text = "Timed",
-    },
-    [12085] = {
-        id = 12085,
-        text = "High School Student - Male 5",
     },
     [14300092] = {
         id = 14300092,
@@ -18683,9 +18779,9 @@ return {
         id = 14300090,
         text = "Online Battles",
     },
-    [13109] = {
-        id = 13109,
-        text = "EXP Lucky Bag",
+    [12085] = {
+        id = 12085,
+        text = "High School Student - Male 5",
     },
     [14300089] = {
         id = 14300089,
@@ -18698,6 +18794,10 @@ return {
     [14300081] = {
         id = 14300081,
         text = "1. During the support event, players can earn support points by completing quests, buying packs and challenging main instances. Event quests reset daily. \n\n 2. All support points earned are added to the personal points. After personal points meet the goal, you can view the artwork of \"Crimson Nightmare\", unlock the jigsaw and great rewards. \n\n 3. After the event ends, the top 100 players can get ranking rewards. \n\n 4. In-game ranking rewards will be sent via email after the event ends.",
+    },
+    [13109] = {
+        id = 13109,
+        text = "EXP Lucky Bag",
     },
     [14300086] = {
         id = 14300086,
@@ -18739,65 +18839,77 @@ return {
         id = 14300075,
         text = "Acquire",
     },
-    [17002] = {
-        id = 17002,
-        text = "This simple combo of flour and sugar can be stored for a long period.",
-    },
     [14300074] = {
         id = 14300074,
         text = "Insufficient tokens! Buy more and go shopping!",
-    },
-    [18026] = {
-        id = 18026,
-        text = "The cute bow hairpin is the first choice of most girls in daily life.",
     },
     [14300073] = {
         id = 14300073,
         text = "Insufficient tokens",
     },
-    [272001] = {
-        id = 272001,
-        text = "Win in Theater Battle 5 times",
-    },
     [14300072] = {
         id = 14300072,
         text = "This miraculous item reduces the price of common token packs by 10%.",
     },
-    [20074] = {
-        id = 20074,
-        text = "Type: Costume\nOwner: Kotori Itsuka\nSpeaking of maid outfit, would it goes well with white headband?",
+    [17002] = {
+        id = 17002,
+        text = "This simple combo of flour and sugar can be stored for a long period.",
     },
     [14300071] = {
         id = 14300071,
         text = "This miraculous item reduces the price of common token packs by 20%.",
     },
-    [272002] = {
-        id = 272002,
-        text = "Win in Online Battle 3 times",
+    [18026] = {
+        id = 18026,
+        text = "The cute bow hairpin is the first choice of most girls in daily life.",
     },
     [14300070] = {
         id = 14300070,
         text = "This miraculous item reduces the price of common token packs by 30%.",
     },
-    [22122] = {
-        id = 22122,
-        text = "Grants Spirit Origami. Each duplicate of the Spirit will be turned into 30 Spirit fragments.",
+    [272001] = {
+        id = 272001,
+        text = "Win in Theater Battle 5 times",
     },
     [10311011] = {
         id = 10311011,
         text = "Frost Bite",
     },
-    [272003] = {
-        id = 272003,
-        text = "Claim Spirit Trials Chest 1 time",
+    [20074] = {
+        id = 20074,
+        text = "Type: Costume\nOwner: Kotori Itsuka\nSpeaking of maid outfit, would it goes well with white headband?",
     },
     [14300067] = {
         id = 14300067,
         text = "This miraculous item reduces the price of common token packs by 60%.",
     },
+    [272002] = {
+        id = 272002,
+        text = "Win in Online Battle 3 times",
+    },
     [14300066] = {
         id = 14300066,
         text = "This miraculous item reduces the price of common token packs by 70%.",
+    },
+    [22122] = {
+        id = 22122,
+        text = "Grants Spirit Origami. Each duplicate of the Spirit will be turned into 30 Spirit fragments.",
+    },
+    [14300065] = {
+        id = 14300065,
+        text = "This miraculous item reduces the price of common token packs by 80%.",
+    },
+    [272003] = {
+        id = 272003,
+        text = "Claim Spirit Trials Chest 1 time",
+    },
+    [14300064] = {
+        id = 14300064,
+        text = "This miraculous item reduces the price of common token packs by 90%.",
+    },
+    [14300063] = {
+        id = 14300063,
+        text = "Token used to purchase packs in the shopping street or other events.",
     },
     [10931007] = {
         id = 10931007,
@@ -18927,45 +19039,29 @@ return {
         id = 10931229,
         text = "Clones inflict +30% DMG.",
     },
-    [14300065] = {
-        id = 14300065,
-        text = "This miraculous item reduces the price of common token packs by 80%.",
+    [14300062] = {
+        id = 14300062,
+        text = "Shopping Token",
     },
     [272012] = {
         id = 272012,
         text = "Reserved Quest",
     },
-    [14300064] = {
-        id = 14300064,
-        text = "This miraculous item reduces the price of common token packs by 90%.",
-    },
-    [14300063] = {
-        id = 14300063,
-        text = "Token used to purchase packs in the shopping street or other events.",
-    },
-    [14300062] = {
-        id = 14300062,
-        text = "Shopping Token",
-    },
-    [272013] = {
-        id = 272013,
-        text = "Reserved Quest",
-    },
     [14300061] = {
         id = 14300061,
-        text = "This miraculous item reduces the price of all token packs by 10%.",
+        text = "This miraculous item reduces the price of some token packs by 10%.",
     },
     [14300060] = {
         id = 14300060,
-        text = "This miraculous item reduces the price of all token packs by 20%.",
+        text = "This miraculous item reduces the price of some token packs by 20%.",
     },
     [14300059] = {
         id = 14300059,
         text = "This miraculous item reduces the price of all token packs by 30%.",
     },
-    [272014] = {
-        id = 272014,
-        text = "Reach Endless Corridor - Floor 80",
+    [272013] = {
+        id = 272013,
+        text = "Reserved Quest",
     },
     [14300058] = {
         id = 14300058,
@@ -18979,9 +19075,9 @@ return {
         id = 14300056,
         text = "This miraculous item reduces the price of all token packs by 60%.",
     },
-    [272015] = {
-        id = 272015,
-        text = "Win in Theater Battle 5 times",
+    [272014] = {
+        id = 272014,
+        text = "Reach Endless Corridor - Floor 80",
     },
     [14300055] = {
         id = 14300055,
@@ -18995,72 +19091,72 @@ return {
         id = 10311012,
         text = "Frost Bite",
     },
-    [272016] = {
-        id = 272016,
-        text = "Win in Online Battle 3 times",
+    [272015] = {
+        id = 272015,
+        text = "Win in Theater Battle 5 times",
     },
     [14300051] = {
         id = 14300051,
-        text = "20% Off Universal Voucher",
-    },
-    [18027] = {
-        id = 18027,
-        text = "Bow Hairpin [Fine]",
+        text = "20% Off Voucher",
     },
     [14300050] = {
         id = 14300050,
         text = "30% Off Universal Voucher",
     },
-    [272017] = {
-        id = 272017,
-        text = "Claim Spirit Trials Chest 1 time",
-    },
     [14300049] = {
         id = 14300049,
         text = "40% Off Universal Voucher",
     },
-    [20075] = {
-        id = 20075,
-        text = "Radiant Dawn",
+    [272016] = {
+        id = 272016,
+        text = "Win in Online Battle 3 times",
     },
     [14300048] = {
         id = 14300048,
         text = "50% Off Universal Voucher",
     },
-    [272018] = {
-        id = 272018,
-        text = "Reserved Quest",
+    [18027] = {
+        id = 18027,
+        text = "Bow Hairpin [Fine]",
     },
     [14300047] = {
         id = 14300047,
         text = "60% Off Universal Voucher",
     },
-    [22123] = {
-        id = 22123,
-        text = "Inverse Origami",
+    [272017] = {
+        id = 272017,
+        text = "Claim Spirit Trials Chest 1 time",
     },
     [14300046] = {
         id = 14300046,
         text = "70% Off Universal Voucher",
     },
-    [272019] = {
-        id = 272019,
-        text = "Reserved Quest",
+    [20075] = {
+        id = 20075,
+        text = "Radiant Dawn",
     },
     [14300044] = {
         id = 14300044,
         text = "10% Off Daily Voucher",
     },
+    [272018] = {
+        id = 272018,
+        text = "Reserved Quest",
+    },
     [14300043] = {
         id = 14300043,
         text = "20% Off Daily Voucher",
+    },
+    [22123] = {
+        id = 22123,
+        text = "Inverse Origami",
     },
     [14300042] = {
         id = 14300042,
         text = "30% Off Daily Voucher",
     },
-    [272020] = {
-        id = 272020,
+    [272019] = {
+        id = 272019,
         text = "Reserved Quest",
     },
     [14300041] = {
@@ -19075,9 +19171,9 @@ return {
         id = 14300039,
         text = "60% Off Daily Voucher",
     },
-    [272021] = {
-        id = 272021,
-        text = "Reach Endless Corridor - Floor 80",
+    [272020] = {
+        id = 272020,
+        text = "Reserved Quest",
     },
     [14300038] = {
         id = 14300038,
@@ -19091,41 +19187,41 @@ return {
         id = 10311013,
         text = "Ice Puncture: Extreme",
     },
-    [272022] = {
-        id = 272022,
-        text = "Win in Theater Battle 5 times",
+    [272021] = {
+        id = 272021,
+        text = "Reach Endless Corridor - Floor 80",
     },
     [14300035] = {
         id = 14300035,
         text = "90% Off Daily Voucher",
     },
-    [30315] = {
-        id = 30315,
-        text = "□ Summons Zadkiel that creates ice storm",
-    },
     [14300034] = {
         id = 14300034,
         text = "A great helper for early-game instances.",
-    },
-    [272023] = {
-        id = 272023,
-        text = "Win in Online Battle 3 times",
     },
     [14300033] = {
         id = 14300033,
         text = "A Sephira made of high-DEF instances. Combine nonstop skill casting, high ATK and Purgatory to deal high true damage. Top choice for high-level Hunter's Pursuit challenges.",
     },
+    [272022] = {
+        id = 272022,
+        text = "Win in Theater Battle 5 times",
+    },
     [14300032] = {
         id = 14300032,
         text = "So far the best Sephira choice in terms of damage inflicting for fully upgraded Neptune.",
+    },
+    [30315] = {
+        id = 30315,
+        text = "□ Summons Zadkiel that creates ice storm",
     },
     [14300031] = {
         id = 14300031,
         text = "Overall speaking, the best Sephira set for Natsumi, but it requires a certain level of Crit bonus.",
     },
-    [272024] = {
-        id = 272024,
-        text = "Claim Spirit Trials Chest 1 time",
+    [272023] = {
+        id = 272023,
+        text = "Win in Online Battle 3 times",
     },
     [14300030] = {
         id = 14300030,
@@ -19139,89 +19235,89 @@ return {
         id = 14300027,
         text = "These separated Sephira provide Ice Princess with a higher skill dps damage.",
     },
-    [272025] = {
-        id = 272025,
-        text = "Reserved Quest",
+    [272024] = {
+        id = 272024,
+        text = "Claim Spirit Trials Chest 1 time",
     },
     [14300026] = {
         id = 14300026,
         text = "Great choice if you want to reply on Inv. Tohka's awakening ability, suitable for PVE battles.",
     },
-    [10038] = {
-        id = 10038,
-        text = "Immunity",
-    },
     [14300025] = {
         id = 14300025,
         text = "Inv. Tohka's Sephira set for speedrun. When in Fight for Territory, you can replace Rose Armor with Rose Slash. This set provides unparalleled skill damage among all the sets of Inv. Tohka.",
-    },
-    [42198] = {
-        id = 42198,
-        text = "A Class Energy Gem, obtain it to get an A Class Gem for a random skill of [Neptune]. (Auto used once obtained)",
     },
     [14300024] = {
         id = 14300024,
         text = "Blanc's exclusive set that provides various buffs.",
     },
+    [272025] = {
+        id = 272025,
+        text = "Reserved Quest",
+    },
     [14300023] = {
         id = 14300023,
         text = "Blanc's exclusive set that provides various buffs.",
+    },
+    [10038] = {
+        id = 10038,
+        text = "Immunity",
     },
     [14300022] = {
         id = 14300022,
         text = "Neptune's exclusive set, which increases her all-round stats and provides damage dealt bonus that rivals solo Sephira.",
     },
-    [272027] = {
-        id = 272027,
-        text = "Reserved Quest",
+    [42198] = {
+        id = 42198,
+        text = "A Class Energy Gem, obtain it to get an A Class Gem for a random skill of [Neptune]. (Auto used once obtained)",
     },
     [10311014] = {
         id = 10311014,
         text = "Ice Assault",
     },
-    [12086] = {
-        id = 12086,
-        text = "High School Student - Female 1",
-    },
     [14300019] = {
         id = 14300019,
         text = "Mayuri's exclusive set that performs splendidly in hard instances. Tiphareth Sephira greatly boosts her Spirit Power regen thus increases max combos. Its combo skills also boost h and her teammates' damage.",
-    },
-    [272028] = {
-        id = 272028,
-        text = "Reach Endless Corridor - Floor 80",
     },
     [14300018] = {
         id = 14300018,
         text = "An all-rounder support Sephira set.",
     },
-    [13110] = {
-        id = 13110,
-        text = "Random Runestone Giftbox (B-S)",
+    [272027] = {
+        id = 272027,
+        text = "Reserved Quest",
     },
     [14300017] = {
         id = 14300017,
         text = "Ellen's exclusive Sephira set, greatly increasing Ellen's stats.",
     },
-    [272029] = {
-        id = 272029,
-        text = "Win in Theater Battle 5 times",
+    [12086] = {
+        id = 12086,
+        text = "High School Student - Female 1",
     },
     [14300016] = {
         id = 14300016,
         text = "Demon King Set greatly boosts Yuzuru's damage dealt.",
     },
+    [272028] = {
+        id = 272028,
+        text = "Reach Endless Corridor - Floor 80",
+    },
     [10311016] = {
         id = 10311016,
         text = "Ice Assault",
+    },
+    [13110] = {
+        id = 13110,
+        text = "Random Runestone Giftbox (B-S)",
     },
     [14300012] = {
         id = 14300012,
         text = "Kotori's exclusive set, suitable for ignition focus playstyle. As long as Kotori survives, this set enables her to inflicting huge damage. A wonderful choice for both top-level Hunter's Pursuit and Fight for Territory.",
     },
-    [272030] = {
-        id = 272030,
-        text = "Win in Online Battle 3 times",
+    [272029] = {
+        id = 272029,
+        text = "Win in Theater Battle 5 times",
     },
     [14300011] = {
         id = 14300011,
@@ -19235,9 +19331,9 @@ return {
         id = 14300009,
         text = "This Sephira Yoshino goes well solo or on set, and provides high dps damage.",
     },
-    [272031] = {
-        id = 272031,
-        text = "Claim Spirit Trials Chest 1 time",
+    [272030] = {
+        id = 272030,
+        text = "Win in Online Battle 3 times",
     },
     [14300008] = {
         id = 14300008,
@@ -19251,29 +19347,45 @@ return {
         id = 10311015,
         text = "Ice Assault",
     },
-    [272032] = {
-        id = 272032,
-        text = "Reserved Quest",
+    [272031] = {
+        id = 272031,
+        text = "Claim Spirit Trials Chest 1 time",
     },
-    [900019] = {
-        id = 900019,
-        text = "World peace",
-    },
-    [18028] = {
-        id = 18028,
-        text = "Fine crafted item. The cute bow hairpin is the first choice of most girls in daily life.",
+    [13311707] = {
+        id = 13311707,
+        text = "I heard something terrible up ahead. I should know better than go there...",
     },
     [14220103] = {
         id = 14220103,
         text = "Shekhinah Tohka's exclusive Sephira set",
     },
+    [14220102] = {
+        id = 14220102,
+        text = "A Sephira useful in set or alone, provides crucial stats like Crit Rate and Crit DMG for Tohka.",
+    },
+    [272032] = {
+        id = 272032,
+        text = "Reserved Quest",
+    },
+    [800030] = {
+        id = 800030,
+        text = "%sm",
+    },
+    [18028] = {
+        id = 18028,
+        text = "Fine crafted item. The cute bow hairpin is the first choice of most girls in daily life.",
+    },
+    [900021] = {
+        id = 900021,
+        text = "Tohka Main CG2",
+    },
     [272033] = {
         id = 272033,
         text = "Reserved Quest",
     },
-    [14220102] = {
-        id = 14220102,
-        text = "A Sephira useful in set or alone, provides crucial stats like Crit Rate and Crit DMG for Tohka.",
+    [14220078] = {
+        id = 14220078,
+        text = "Crimson Nightmare's exclusive Sephira set, it provides bonus damage and skill CD, as well as HP restoration which is crucial to her.",
     },
     [20076] = {
         id = 20076,
@@ -19287,49 +19399,49 @@ return {
         id = 42199,
         text = "S Class Energy Gem, obtain it to get a S Class Gem for a random skill of [Neptune]. (Auto used once obtained)",
     },
-    [800030] = {
-        id = 800030,
-        text = "%sm",
+    [1702475] = {
+        id = 1702475,
+        text = "Run! The security guard is here!",
     },
     [22124] = {
         id = 22124,
         text = "Grants Inverse Origami. Each duplicate of the Spirit will be turned into 60 Spirit fragments.",
     },
-    [13200328] = {
-        id = 13200328,
-        text = "Surfboard Rental",
+    [27016] = {
+        id = 27016,
+        text = "Wooh, what delicacy is this! Tohka proclaimed as she ate more than 20 pieces.",
     },
     [272035] = {
         id = 272035,
         text = "Reach Endless Corridor - Floor 80",
     },
-    [14220078] = {
-        id = 14220078,
-        text = "Crimson Nightmare's exclusive Sephira set, it provides bonus damage and skill CD, as well as HP restoration which is crucial to her.",
+    [14220075] = {
+        id = 14220075,
+        text = "Heart Stealer Reward",
     },
-    [1702475] = {
-        id = 1702475,
-        text = "Run! The security guard is here!",
+    [14220074] = {
+        id = 14220074,
+        text = "Only players who have unlocked Cat's Request can buy special packs in the special pack store.",
     },
-    [13200296] = {
-        id = 13200296,
-        text = "Exchange all the pocket money into game tokens. All right... what should I do next?",
+    [14220073] = {
+        id = 14220073,
+        text = "1. In the Heart Stealer event, you will earn event EXP via daily quests and weekly quests. Event level will go up once you have enough EXP. \n\n2. You can claim event rewards once your event level is high enough. \n\n3. There are normal rewards and special rewards only accessible to those who have unlocked Cat's Recognition or Cat's Request. \n\n4. Players who have unlocked Cat's Recognition can pay price difference to unlock Cat's Request. \n\n5. Before the event end, qualified players can claim rewards in accordance with their event level.",
     },
     [272036] = {
         id = 272036,
         text = "Win in Theater Battle 5 times",
     },
-    [14220075] = {
-        id = 14220075,
-        text = "Growth Guardian Reward",
+    [14220072] = {
+        id = 14220072,
+        text = "Reserved",
     },
-    [14220074] = {
-        id = 14220074,
-        text = "Only players who have unlocked Growth Breakthrough can buy special packs in the special pack store.",
+    [14220071] = {
+        id = 14220071,
+        text = "Weekly",
     },
-    [14220073] = {
-        id = 14220073,
-        text = "1. In the Growth Guardian event, you will earn event EXP via daily quests and weekly quests. Event level will go up once you have enough EXP. \n\n2. You can claim event rewards once your event level is high enough. \n\n3. There are normal rewards and special rewards only accessible to those who have unlocked Growth Boost or Growth Breakthrough. \n\n4. Players who have unlocked Growth Boost can pay price difference to unlock Growth Breakthrough. \n\n5. Before the event end, qualified players can claim rewards in accordance with their event level.",
+    [14220070] = {
+        id = 14220070,
+        text = "Reward",
     },
     [272037] = {
         id = 272037,
@@ -19399,13 +19511,13 @@ return {
         id = 272041,
         text = "Reserved Quest",
     },
-    [14220072] = {
-        id = 14220072,
-        text = "Reserved",
+    [800072] = {
+        id = 800072,
+        text = "Craft",
     },
-    [14220071] = {
-        id = 14220071,
-        text = "Weekly",
+    [900019] = {
+        id = 900019,
+        text = "World peace",
     },
     [41176] = {
         id = 41176,
@@ -19414,22 +19526,6 @@ return {
     [42200] = {
         id = 42200,
         text = "SS Class Energy Gem, obtain it to get a SS Class Gem for a random skill of [Neptune]. (Auto used once obtained)",
-    },
-    [14220070] = {
-        id = 14220070,
-        text = "Reward",
-    },
-    [800072] = {
-        id = 800072,
-        text = "Craft",
-    },
-    [900803] = {
-        id = 900803,
-        text = "Going out with Origami for a day... as lovers... I'd better get up early and get ready for the date!",
-    },
-    [272043] = {
-        id = 272043,
-        text = "Win in Theater Battle 5 times",
     },
     [14220067] = {
         id = 14220067,
@@ -19443,9 +19539,9 @@ return {
         id = 14220065,
         text = "Level up to %d to get the following rewards",
     },
-    [272044] = {
-        id = 272044,
-        text = "Win in Online Battle 3 times",
+    [272043] = {
+        id = 272043,
+        text = "Win in Theater Battle 5 times",
     },
     [14220064] = {
         id = 14220064,
@@ -19453,31 +19549,31 @@ return {
     },
     [14220063] = {
         id = 14220063,
-        text = "Only players who have unlocked Growth Breakthrough can buy special packs in the special pack store.",
+        text = "Only players who have unlocked Cat's Request can buy special packs in the special pack store.",
     },
     [14220062] = {
         id = 14220062,
-        text = "1. In the Growth Guardian event, you will earn event EXP via daily quests and weekly quests. Event level will go up once you have enough EXP. \n\n2. You can claim event rewards once your event level is high enough. \n\n3. There are normal rewards and special rewards only accessible to those who have unlocked Growth Boost or Growth Breakthrough. \n\n4. Players who have unlocked Growth Boost can pay price difference to unlock Growth Breakthrough. \n\n5. Before the event end, qualified players can claim rewards in accordance with their event level.",
+        text = "1. In the Heart Stealer event, you will earn event EXP via daily quests and weekly quests. Event level will go up once you have enough EXP. \n\n2. You can claim event rewards once your event level is high enough. \n\n3. There are normal rewards and special rewards only accessible to those who have unlocked Cat's Recognition or Cat's Request. \n\n4. Players who have unlocked Cat's Recognition can pay price difference to unlock Cat's Request. \n\n5. Before the event end, qualified players can claim rewards in accordance with their event level.",
     },
-    [272045] = {
-        id = 272045,
-        text = "Claim Spirit Trials Chest 1 time",
+    [272044] = {
+        id = 272044,
+        text = "Win in Online Battle 3 times",
     },
     [1702477] = {
         id = 1702477,
         text = "",
     },
+    [900783] = {
+        id = 900783,
+        text = "Kurumi 3 Details",
+    },
     [900081] = {
         id = 900081,
         text = "Energy Cookie",
     },
-    [13200295] = {
-        id = 13200295,
-        text = "Ahh... exchanging game tokens is such an arduous task! They almost saw my face!! TAT~",
-    },
-    [272046] = {
-        id = 272046,
-        text = "Reserved Quest",
+    [272045] = {
+        id = 272045,
+        text = "Claim Spirit Trials Chest 1 time",
     },
     [14220059] = {
         id = 14220059,
@@ -19491,8 +19587,8 @@ return {
         id = 14220057,
         text = "To me, you're not only an object for observation... but the one I like!",
     },
-    [272047] = {
-        id = 272047,
+    [272046] = {
+        id = 272046,
         text = "Reserved Quest",
     },
     [14220056] = {
@@ -19507,29 +19603,45 @@ return {
         id = 14220054,
         text = "You have touched me %s times already... Maybe I should be more proactive next time...",
     },
-    [272048] = {
-        id = 272048,
+    [272047] = {
+        id = 272047,
         text = "Reserved Quest",
     },
     [1110451] = {
         id = 1110451,
         text = "Mordred D Class Gem",
     },
+    [400008] = {
+        id = 400008,
+        text = "Diana",
+    },
+    [14220051] = {
+        id = 14220051,
+        text = "Thanks you for your company and letting me stay in this world.",
+    },
+    [272048] = {
+        id = 272048,
+        text = "Reserved Quest",
+    },
+    [14220050] = {
+        id = 14220050,
+        text = "Your affection means so much to me. I'll repay you with a gift you'll never forget. Don't worry.",
+    },
     [18029] = {
         id = 18029,
         text = "Bow Hairpin [Perfect]",
     },
-    [900085] = {
-        id = 900085,
-        text = "Chocolate Cake",
+    [14220049] = {
+        id = 14220049,
+        text = "So far, %s and I have fought in %s battles. It's been a year, and you're already a combat master, my love.",
     },
     [272049] = {
         id = 272049,
         text = "Reach Endless Corridor - Floor 80",
     },
-    [14220051] = {
-        id = 14220051,
-        text = "Thanks you for your company and letting me stay in this world.",
+    [14220048] = {
+        id = 14220048,
+        text = "During the last 365 days, we have dated %s times. Look forward to the next year. I'll schedule our dating plan well.",
     },
     [20077] = {
         id = 20077,
@@ -19543,53 +19655,37 @@ return {
         id = 42201,
         text = "SSS Class Energy Gem, obtain it to get a SSS Class Gem for a random skill of [Neptune]. (Auto used once obtained)",
     },
-    [14220050] = {
-        id = 14220050,
-        text = "Your affection means so much to me. I'll repay you with a gift you'll never forget. Don't worry.",
+    [14220047] = {
+        id = 14220047,
+        text = "You have touched me %s times in secret. This is unexpected from you. What else do you like? We can find somewhere private ...",
     },
     [22125] = {
         id = 22125,
         text = "Transcend Choice Chest",
     },
-    [14220049] = {
-        id = 14220049,
-        text = "So far, %s and I have fought in %s battles. It's been a year, and you're already a combat master, my love.",
+    [14220046] = {
+        id = 14220046,
+        text = "Thank you for accompanying me and retrieving my lost memories.",
     },
     [272051] = {
         id = 272051,
         text = "Win in Online Battle 3 times",
     },
-    [14220048] = {
-        id = 14220048,
-        text = "During the last 365 days, we have dated %s times. Look forward to the next year. I'll schedule our dating plan well.",
-    },
-    [14220047] = {
-        id = 14220047,
-        text = "You have touched me %s times in secret. This is unexpected from you. What else do you like? We can find somewhere private ...",
-    },
-    [14220046] = {
-        id = 14220046,
-        text = "Thank you for accompanying me and retrieving my lost memories.",
-    },
-    [272052] = {
-        id = 272052,
-        text = "Claim Spirit Trials Chest 1 time",
-    },
     [1702479] = {
         id = 1702479,
         text = "",
     },
-    [13200294] = {
-        id = 13200294,
-        text = "Darling! I've won lots of game tokens! How would you reward me?",
+    [900803] = {
+        id = 900803,
+        text = "Going out with Origami for a day... as lovers... I'd better get up early and get ready for the date!",
     },
     [14220043] = {
         id = 14220043,
         text = "During the last year, we have dated %s times. Fufu... are you still afraid of me?",
     },
-    [272053] = {
-        id = 272053,
-        text = "Reserved Quest",
+    [272052] = {
+        id = 272052,
+        text = "Claim Spirit Trials Chest 1 time",
     },
     [14220042] = {
         id = 14220042,
@@ -19603,8 +19699,8 @@ return {
         id = 14220040,
         text = "You- gave me the courage... You... you are my hero! Thank you for liking me... you know... I like you, too!",
     },
-    [272054] = {
-        id = 272054,
+    [272053] = {
+        id = 272053,
         text = "Reserved Quest",
     },
     [14220039] = {
@@ -19619,13 +19715,13 @@ return {
         id = 13046,
         text = "A material required to craft Pure Snowflake",
     },
-    [272055] = {
-        id = 272055,
+    [272054] = {
+        id = 272054,
         text = "Reserved Quest",
     },
-    [900802] = {
-        id = 900802,
-        text = "Somehow you end up locked in the warehouse... Call for help asap!",
+    [11301097] = {
+        id = 11301097,
+        text = "Arbiter",
     },
     [14220035] = {
         id = 14220035,
@@ -19635,9 +19731,9 @@ return {
         id = 14220034,
         text = "So far, %s and I have fought in %s battles. I'm more than a commander who hides in a safe place. You know you can count on me!",
     },
-    [272056] = {
-        id = 272056,
-        text = "Reach Endless Corridor - Floor 80",
+    [272055] = {
+        id = 272055,
+        text = "Reserved Quest",
     },
     [14220033] = {
         id = 14220033,
@@ -19651,200 +19747,200 @@ return {
         id = 14220031,
         text = "To me, everything of you is irresistible. Are you satisfied, Big Brother?",
     },
-    [272057] = {
-        id = 272057,
-        text = "Win in Theater Battle 5 times",
+    [272056] = {
+        id = 272056,
+        text = "Reach Endless Corridor - Floor 80",
     },
     [14220030] = {
         id = 14220030,
         text = "Though we haven't known each other for too long, I'm already the most important one to you. So I must become cuter for your sake!",
     },
-    [10039] = {
-        id = 10039,
-        text = "Absorb",
-    },
     [1702481] = {
         id = 1702481,
         text = "Go to the seaside or mountain? I want both!",
     },
-    [42202] = {
-        id = 42202,
-        text = "D Class Energy Gem, obtain it to get a D Class Gem for a random skill of [Blanc]. (Auto used once obtained)",
+    [900085] = {
+        id = 900085,
+        text = "Chocolate Cake",
     },
-    [13200297] = {
-        id = 13200297,
-        text = "Since Kannazuki took great efforts to earn these game tokens, I'll fritter them away!",
+    [272057] = {
+        id = 272057,
+        text = "Win in Theater Battle 5 times",
     },
     [14220027] = {
         id = 14220027,
         text = "You have touched me %s times in the last year... Are you sure you are not trying to pick on me? You... really like me?",
     },
+    [10039] = {
+        id = 10039,
+        text = "Absorb",
+    },
     [14220026] = {
         id = 14220026,
         text = "Have we been together this long already?!",
     },
-    [272059] = {
-        id = 272059,
-        text = "Claim Spirit Trials Chest 1 time",
+    [42202] = {
+        id = 42202,
+        text = "D Class Energy Gem, obtain it to get a D Class Gem for a random skill of [Blanc]. (Auto used once obtained)",
     },
     [14220025] = {
         id = 14220025,
         text = "Ah, I'm your favorite, darling! Then I'll sing a song for my dearest, darling. A song that belongs to us...",
     },
-    [12087] = {
-        id = 12087,
-        text = "High School Student - Female 2",
-    },
     [14220024] = {
         id = 14220024,
         text = "So far we have fought in %s battles. I'll protect you the next year too, darling!",
-    },
-    [272060] = {
-        id = 272060,
-        text = "Reserved Quest",
     },
     [14220023] = {
         id = 14220023,
         text = "In the past year, we have dated %s times! As long as we are together, darling, I'll always be happy ♥~",
     },
-    [13111] = {
-        id = 13111,
-        text = "Gold Lucky Bag",
+    [272059] = {
+        id = 272059,
+        text = "Claim Spirit Trials Chest 1 time",
     },
     [14220022] = {
         id = 14220022,
         text = "You've been quite proactive in the past year, darling. You have touched me %s times! You've known all my secrets already!",
     },
-    [272061] = {
-        id = 272061,
-        text = "Reserved Quest",
+    [12087] = {
+        id = 12087,
+        text = "High School Student - Female 2",
     },
     [14220021] = {
         id = 14220021,
         text = "Thank you for being with me during the last year, darling. From now on, I'll take good care of you as I always do, darling.",
     },
-    [110000380] = {
-        id = 110000380,
-        text = "패키지",
+    [272060] = {
+        id = 272060,
+        text = "Reserved Quest",
+    },
+    [13200291] = {
+        id = 13200291,
+        text = "Where are you, darling...? I've bought some Takoyaki for you!",
+    },
+    [13111] = {
+        id = 13111,
+        text = "Gold Lucky Bag",
     },
     [14220019] = {
         id = 14220019,
         text = "So far, I have fought with %s in %s battles. Together, %s and I will protect Tengu City!",
     },
-    [272062] = {
-        id = 272062,
+    [272061] = {
+        id = 272061,
         text = "Reserved Quest",
     },
     [14220018] = {
         id = 14220018,
         text = "In the past year, we have dated %s times, but that is not enough! How about another date tomorrow?",
     },
-    [14220017] = {
-        id = 14220017,
-        text = "In the past year, we have %s close encounters. They always make my face blush...",
+    [110000380] = {
+        id = 110000380,
+        text = "패키지",
     },
     [14220016] = {
         id = 14220016,
         text = "It has been one year already... I feel as if we met each other yesterday!",
     },
-    [272063] = {
-        id = 272063,
-        text = "Reach Endless Corridor - Floor 80",
+    [272062] = {
+        id = 272062,
+        text = "Reserved Quest",
     },
     [14220015] = {
         id = 14220015,
         text = "Reserved",
     },
-    [13400008] = {
-        id = 13400008,
-        text = "Mii",
+    [13400003] = {
+        id = 13400003,
+        text = "Tamae Okamine",
     },
     [17131] = {
         id = 17131,
         text = "Vegetable Platter [Exceptional]",
     },
-    [272064] = {
-        id = 272064,
-        text = "Win in Theater Battle 5 times",
+    [272063] = {
+        id = 272063,
+        text = "Reach Endless Corridor - Floor 80",
     },
-    [13400003] = {
-        id = 13400003,
-        text = "Tamae Okamine",
-    },
-    [18030] = {
-        id = 18030,
-        text = "Perfect crafted item. The cute bow hairpin is the first choice of most girls in daily life.",
+    [900802] = {
+        id = 900802,
+        text = "Somehow you end up locked in the warehouse... Call for help asap!",
     },
     [14220011] = {
         id = 14220011,
         text = "You have played Date A Live for %s hours.",
     },
-    [272065] = {
-        id = 272065,
-        text = "Win in Online Battle 3 times",
-    },
     [14220010] = {
         id = 14220010,
         text = "Till now, Date A Live has been with you for %s days.",
     },
-    [20078] = {
-        id = 20078,
-        text = "Type: Costume\nOwner: Mayuri\nChaseg away darkness with light, and stay by you side forever in warmth.",
+    [272064] = {
+        id = 272064,
+        text = "Win in Theater Battle 5 times",
     },
     [14220009] = {
         id = 14220009,
         text = "%s is the Spirit who connects with you the most.",
     },
-    [42203] = {
-        id = 42203,
-        text = "C Class Energy Gem, obtain it to get a C Class Gem for a random skill of [Blanc]. (Auto used once obtained)",
+    [18030] = {
+        id = 18030,
+        text = "Perfect crafted item. The cute bow hairpin is the first choice of most girls in daily life.",
     },
     [14220008] = {
         id = 14220008,
         text = "You and %s have the most memories, as you have collected %s CGs with her.",
     },
-    [22126] = {
-        id = 22126,
-        text = "Use to select 1 from 1-5 Star Transcend Material Choice Chests.",
+    [272065] = {
+        id = 272065,
+        text = "Win in Online Battle 3 times",
     },
     [1702485] = {
         id = 1702485,
         text = "Hot spring will be ready soon. Please wait.",
     },
-    [272067] = {
-        id = 272067,
-        text = "Reserved Quest",
-    },
-    [13400009] = {
-        id = 13400009,
-        text = "Ellen",
-    },
-    [14220005] = {
-        id = 14220005,
-        text = "%s, your first EX Spirit is %s.",
+    [20078] = {
+        id = 20078,
+        text = "Type: Costume\nOwner: Mayuri\nChaseg away darkness with light, and stay by you side forever in warmth.",
     },
     [10131003] = {
         id = 10131003,
         text = "Awakening Lv.3",
     },
-    [272068] = {
-        id = 272068,
+    [42203] = {
+        id = 42203,
+        text = "C Class Energy Gem, obtain it to get a C Class Gem for a random skill of [Blanc]. (Auto used once obtained)",
+    },
+    [14220005] = {
+        id = 14220005,
+        text = "%s, your first EX Spirit is %s.",
+    },
+    [22126] = {
+        id = 22126,
+        text = "Use to select 1 from 1-5 Star Transcend Material Choice Chests.",
+    },
+    [13200294] = {
+        id = 13200294,
+        text = "Darling! I've won lots of game tokens! How would you reward me?",
+    },
+    [272067] = {
+        id = 272067,
         text = "Reserved Quest",
     },
     [1702483] = {
         id = 1702483,
         text = "Test of courage? I- I am not interested, not interested at all... I AM REALLY NOT INTERESTED-- Ayh!",
     },
-    [13400007] = {
-        id = 13400007,
-        text = "Mai",
+    [10131004] = {
+        id = 10131004,
+        text = "Awakening Lv.4",
     },
     [25066] = {
         id = 25066,
         text = "Kabbalah Sephira Essence, used to awaken the following characters' angelic power: \nSpirit Origami Tobiichi",
     },
-    [272069] = {
-        id = 272069,
+    [272068] = {
+        id = 272068,
         text = "Reserved Quest",
     },
     [14210307] = {
@@ -19859,9 +19955,9 @@ return {
         id = 14210305,
         text = "Confirm",
     },
-    [272070] = {
-        id = 272070,
-        text = "Reach Endless Corridor - Floor 80",
+    [272069] = {
+        id = 272069,
+        text = "Reserved Quest",
     },
     [14210304] = {
         id = 14210304,
@@ -19875,25 +19971,25 @@ return {
         id = 14210302,
         text = "Modify Sephira 8 times",
     },
-    [272071] = {
-        id = 272071,
-        text = "Activity of club members in Order reaches 10000",
+    [272070] = {
+        id = 272070,
+        text = "Reach Endless Corridor - Floor 80",
     },
     [2107018] = {
         id = 2107018,
         text = "Endless",
     },
-    [14210286] = {
-        id = 14210286,
-        text = "Pierce stat has returned! Shekhinah Tohka will reign supreme once more! Take your sword and join the battle!",
+    [14210283] = {
+        id = 14210283,
+        text = "Club Hunter's Pursuit has started! Gather your club mates and fight for your club!",
     },
     [14210299] = {
         id = 14210299,
         text = "Join 20 runestone challenges.",
     },
-    [272072] = {
-        id = 272072,
-        text = "Contribution in Kerubiel reaches 15000",
+    [272071] = {
+        id = 272071,
+        text = "Activity of club members in Order reaches 10000",
     },
     [14210298] = {
         id = 14210298,
@@ -19907,9 +20003,9 @@ return {
         id = 14210296,
         text = "Clear 50 main stages in Hell mode.",
     },
-    [272073] = {
-        id = 272073,
-        text = "Airdrop provides supplies 70 times",
+    [272072] = {
+        id = 272072,
+        text = "Contribution in Kerubiel reaches 15000",
     },
     [14210295] = {
         id = 14210295,
@@ -19923,13 +20019,13 @@ return {
         id = 14210293,
         text = "3. Players can review the completed memory events via the \"Review\" page.",
     },
-    [42204] = {
-        id = 42204,
-        text = "B Class Energy Gem, obtain it to get a B Class Gem for a random skill of [Blanc]. (Auto used once obtained)",
+    [272073] = {
+        id = 272073,
+        text = "Airdrop provides supplies 70 times",
     },
-    [14210287] = {
-        id = 14210287,
-        text = "To learn the truth, Origami, who has obtained the power of Spirit, traveled back to the past. - \"She is the only one who can do that. \"",
+    [14210284] = {
+        id = 14210284,
+        text = "Pierce stat has returned! Shekhinah Tohka will reign supreme once more! Take your sword and join the battle!",
     },
     [14210291] = {
         id = 14210291,
@@ -19939,13 +20035,29 @@ return {
         id = 14210289,
         text = "I can see Origami's fragile body and soul, tortured by despair and guilt! She is murmuring something, her lips quivering. We'll never leave you alone! \"Wait for me, Origami!\"",
     },
-    [272075] = {
-        id = 272075,
-        text = "Contribution in Kerubiel reaches 16000",
+    [42204] = {
+        id = 42204,
+        text = "B Class Energy Gem, obtain it to get a B Class Gem for a random skill of [Blanc]. (Auto used once obtained)",
     },
     [14210288] = {
         id = 14210288,
         text = "Merciless and desperate, the truth crushed Origami's soul. Uncontrolled ominous power flew through her. Inverse Origami has arrived!",
+    },
+    [14210287] = {
+        id = 14210287,
+        text = "To learn the truth, Origami, who has obtained the power of Spirit, traveled back to the past. - \"She is the only one who can do that. \"",
+    },
+    [14210286] = {
+        id = 14210286,
+        text = "Pierce stat has returned! Shekhinah Tohka will reign supreme once more! Take your sword and join the battle!",
+    },
+    [272075] = {
+        id = 272075,
+        text = "Contribution in Kerubiel reaches 16000",
+    },
+    [2107020] = {
+        id = 2107020,
+        text = "Closed",
     },
     [14210006] = {
         id = 14210006,
@@ -20111,29 +20223,13 @@ return {
         id = 14210300,
         text = "Clear Sharam Gate 12 times.",
     },
-    [2107020] = {
-        id = 2107020,
-        text = "Closed",
-    },
-    [272086] = {
-        id = 272086,
-        text = "Activity of club members in Order reaches 18000",
-    },
-    [14210284] = {
-        id = 14210284,
-        text = "Pierce stat has returned! Shekhinah Tohka will reign supreme once more! Take your sword and join the battle!",
-    },
-    [14210283] = {
-        id = 14210283,
-        text = "Club Hunter's Pursuit has started! Gather your club mates and fight for your club!",
-    },
     [14210282] = {
         id = 14210282,
         text = "Club Hunter's Pursuit has started! Gather your club mates and fight for your club!",
     },
-    [272087] = {
-        id = 272087,
-        text = "Contribution in Kerubiel reaches 24000",
+    [272086] = {
+        id = 272086,
+        text = "Activity of club members in Order reaches 18000",
     },
     [14210281] = {
         id = 14210281,
@@ -20147,9 +20243,9 @@ return {
         id = 14210279,
         text = "Origami with the power of Spirit. Though I hate this more than anything else, I have no alternative!",
     },
-    [272088] = {
-        id = 272088,
-        text = "Airdrop provides supplies 120 times",
+    [272087] = {
+        id = 272087,
+        text = "Contribution in Kerubiel reaches 24000",
     },
     [14210278] = {
         id = 14210278,
@@ -20163,89 +20259,89 @@ return {
         id = 14210275,
         text = "Date A Live 2.0 has arrived. Sharam's World is open. Go forward! Towards the Sharam Gate!",
     },
-    [272089] = {
-        id = 272089,
-        text = "Challenge preparation stages 220 times",
+    [272088] = {
+        id = 272088,
+        text = "Airdrop provides supplies 120 times",
     },
     [14210274] = {
         id = 14210274,
         text = "Date A Live 2.0 has arrived. Sharam's World is open. Go forward! Towards the Sharam Gate!",
     },
-    [10040] = {
-        id = 10040,
-        text = "Parry",
-    },
     [14210273] = {
         id = 14210273,
         text = "Emergency! The satellite is out of control! We must gather all the power to stop this disaster!",
-    },
-    [42206] = {
-        id = 42206,
-        text = "S Class Energy Gem, obtain it to get a S Class Gem for a random skill of [Blanc]. (Auto used once obtained)",
     },
     [14210272] = {
         id = 14210272,
         text = "Fraxinus is under attack of DEM. - \"I'm the commander here, and I'm not gonna escape!\"",
     },
+    [272089] = {
+        id = 272089,
+        text = "Challenge preparation stages 220 times",
+    },
     [14210271] = {
         id = 14210271,
         text = "Having misread the intention of folks on the airship, Natsumi is plotting her escape! - \"! They must has some hidden agenda! I know it!\"",
+    },
+    [10040] = {
+        id = 10040,
+        text = "Parry",
     },
     [14210270] = {
         id = 14210270,
         text = "Qliphoth Tree is open! The wicked mastermind has finally bared the evil fangs!",
     },
-    [272091] = {
-        id = 272091,
-        text = "Reserved Quest",
+    [42206] = {
+        id = 42206,
+        text = "S Class Energy Gem, obtain it to get a S Class Gem for a random skill of [Blanc]. (Auto used once obtained)",
     },
     [2107021] = {
         id = 2107021,
         text = "Restore Default",
     },
-    [12088] = {
-        id = 12088,
-        text = "High School Student - Female 3",
-    },
     [14210267] = {
         id = 14210267,
         text = "Yoshino Theater - Cocoon of Mercy is open. The mist in her dream has dissipated. The final duel with ASTAROTH has come!",
-    },
-    [272092] = {
-        id = 272092,
-        text = "Activity of club members in Order reaches 20000",
     },
     [14210266] = {
         id = 14210266,
         text = "Yoshino Theater - Cocoon of Mercy is open. Yoshino lost her way in her dream. What kind of trials would be awaiting her?",
     },
-    [13112] = {
-        id = 13112,
-        text = "Origin Lucky Bag",
+    [272091] = {
+        id = 272091,
+        text = "Reserved Quest",
     },
     [14210265] = {
         id = 14210265,
         text = "Yoshino Theater - Cocoon of Mercy is open. Yoshino lost her way in her dream. What kind of trials would be awaiting her?",
     },
-    [272093] = {
-        id = 272093,
-        text = "Contribution in Kerubiel reaches 30000",
+    [12088] = {
+        id = 12088,
+        text = "High School Student - Female 3",
     },
     [14210264] = {
         id = 14210264,
         text = "Club Matrix - Absolute Defense has appeared. Gather club mates and put your skills to the test!",
     },
+    [272092] = {
+        id = 272092,
+        text = "Activity of club members in Order reaches 20000",
+    },
     [14210263] = {
         id = 14210263,
         text = "Club Matrix - Dark Domain has appeared. Gather club mates and put your skills to the test!",
+    },
+    [13112] = {
+        id = 13112,
+        text = "Origin Lucky Bag",
     },
     [14210262] = {
         id = 14210262,
         text = "Club Matrix - Warping Demonwolf has appeared. Gather club mates and put your skills to the test!",
     },
-    [272094] = {
-        id = 272094,
-        text = "Airdrop provides supplies 150 times",
+    [272093] = {
+        id = 272093,
+        text = "Contribution in Kerubiel reaches 30000",
     },
     [2107022] = {
         id = 2107022,
@@ -20259,9 +20355,9 @@ return {
         id = 14210258,
         text = "Nian Beast event has started! Defeat the ancient beast that will sabotage the lunar new year fest!",
     },
-    [272095] = {
-        id = 272095,
-        text = "Challenge preparation stages 240 times",
+    [272094] = {
+        id = 272094,
+        text = "Airdrop provides supplies 150 times",
     },
     [14210257] = {
         id = 14210257,
@@ -20275,13 +20371,29 @@ return {
         id = 14210255,
         text = "The adventure in Hot Games has started! The developers are well prepared for battle!",
     },
-    [17008] = {
-        id = 17008,
-        text = "High-qualify milk is added to give the bread wonderful aroma.",
+    [272095] = {
+        id = 272095,
+        text = "Challenge preparation stages 240 times",
     },
     [14210254] = {
         id = 14210254,
         text = "The adventure in Hot Games has started! Rescue innocent developers! Defeat the frenzied production director!",
+    },
+    [2107023] = {
+        id = 2107023,
+        text = "Enemy Level",
+    },
+    [14210252] = {
+        id = 14210252,
+        text = "The adventure in Hot Games has started! Rescue innocent developers! Defeat the frenzied production director!",
+    },
+    [17008] = {
+        id = 17008,
+        text = "High-qualify milk is added to give the bread wonderful aroma.",
+    },
+    [14210251] = {
+        id = 14210251,
+        text = "What is Natsumi's true color? Time to lift her veil and reveal her secrets!",
     },
     [18032] = {
         id = 18032,
@@ -20303,33 +20415,33 @@ return {
         id = 20080,
         text = "Type: Costume\nOwner: Chiyogami Itsuka\nThe daughter of \"you\" and Origami Tobiichi is a good girl, loveable and polite. - Hey! Origami!? Stop saying strange things!",
     },
-    [14210251] = {
-        id = 14210251,
-        text = "What is Natsumi's true color? Time to lift her veil and reveal her secrets!",
+    [14210248] = {
+        id = 14210248,
+        text = "Qliphoth Tree is open. Objective confirmed. Defeat the demon king BEELZEBUL. Purify the Sephira World of its filth!",
     },
     [42207] = {
         id = 42207,
         text = "SS Class Energy Gem, obtain it to get a SS Class Gem for a random skill of [Blanc]. (Auto used once obtained)",
     },
-    [14210250] = {
-        id = 14210250,
-        text = "New Spirit in season 3 - Natsumi has arrived! - \"Even you are looking for troubles? Then don't blame me. \"",
+    [14210247] = {
+        id = 14210247,
+        text = "Qliphoth Tree is open. Objective confirmed. Defeat the enemies. Purify the Sephira World of its filth!",
     },
     [22128] = {
         id = 22128,
         text = "Open to get 5 praying materials of a random type",
     },
-    [14210249] = {
-        id = 14210249,
-        text = "New Spirit in season 3 - Natsumi has arrived! - \"It seems that AST just won't stop. All right then, I'll teach them a lesson!\"",
+    [14210246] = {
+        id = 14210246,
+        text = "Qliphoth Tree is open. Objective confirmed. Defeat the enemies. Purify the Sephira World of its filth!",
     },
     [272099] = {
         id = 272099,
         text = "Activity of club members in Order reaches 20000",
     },
-    [14210248] = {
-        id = 14210248,
-        text = "Qliphoth Tree is open. Objective confirmed. Defeat the demon king BEELZEBUL. Purify the Sephira World of its filth!",
+    [14210245] = {
+        id = 14210245,
+        text = "The winter clash has started. Despite their cute appearance, I'll not pull my punches.",
     },
     [10803006] = {
         id = 10803006,
@@ -20399,28 +20511,12 @@ return {
         id = 10803108,
         text = "Yuzuru restores +2 Wind Energy every sec.",
     },
-    [14210247] = {
-        id = 14210247,
-        text = "Qliphoth Tree is open. Objective confirmed. Defeat the enemies. Purify the Sephira World of its filth!",
-    },
-    [272104] = {
-        id = 272104,
-        text = "Reserved Quest",
-    },
-    [14210246] = {
-        id = 14210246,
-        text = "Qliphoth Tree is open. Objective confirmed. Defeat the enemies. Purify the Sephira World of its filth!",
-    },
-    [14210245] = {
-        id = 14210245,
-        text = "The winter clash has started. Despite their cute appearance, I'll not pull my punches.",
-    },
     [14210243] = {
         id = 14210243,
         text = "The winter clash has started. Despite their cute appearance, I'll not pull my punches.",
     },
-    [272105] = {
-        id = 272105,
+    [272104] = {
+        id = 272104,
         text = "Reserved Quest",
     },
     [14210242] = {
@@ -20435,9 +20531,9 @@ return {
         id = 14210240,
         text = "Operation begins. The second battle against Kerubiel. The fight has become more intense.",
     },
-    [42208] = {
-        id = 42208,
-        text = "SSS Class Energy Gem, obtain it to get a SSS Class Gem for a random skill of [Blanc]. (Auto used once obtained)",
+    [272105] = {
+        id = 272105,
+        text = "Reserved Quest",
     },
     [14210239] = {
         id = 14210239,
@@ -20451,9 +20547,9 @@ return {
         id = 2107024,
         text = "Confirm to enter dummy practice?",
     },
-    [272107] = {
-        id = 272107,
-        text = "Contribution in Kerubiel reaches 30000",
+    [42208] = {
+        id = 42208,
+        text = "SSS Class Energy Gem, obtain it to get a SSS Class Gem for a random skill of [Blanc]. (Auto used once obtained)",
     },
     [14210235] = {
         id = 14210235,
@@ -20467,9 +20563,9 @@ return {
         id = 14210233,
         text = "The enemies in Endless Corridor are now even tougher! Time to prove yourself! Challenge the Berserk Mecha!",
     },
-    [272108] = {
-        id = 272108,
-        text = "Airdrop provides supplies 150 times",
+    [272107] = {
+        id = 272107,
+        text = "Contribution in Kerubiel reaches 30000",
     },
     [14210232] = {
         id = 14210232,
@@ -20483,9 +20579,9 @@ return {
         id = 14210230,
         text = "Among the mysterious forest and malicious enemies, the Halloween horror night has begun. We shall fight for justice!",
     },
-    [272109] = {
-        id = 272109,
-        text = "Challenge preparation stages 240 times",
+    [272108] = {
+        id = 272108,
+        text = "Airdrop provides supplies 150 times",
     },
     [2107026] = {
         id = 2107026,
@@ -20499,9 +20595,9 @@ return {
         id = 14210226,
         text = "Qliphoth Tree is open. Objective confirmed. Defeat the demon king ROPHOCATE. Purify the Sephira World of its filth!",
     },
-    [272110] = {
-        id = 272110,
-        text = "Kill 3 bosses in Hunter's Pursuit",
+    [272109] = {
+        id = 272109,
+        text = "Challenge preparation stages 240 times",
     },
     [14210225] = {
         id = 14210225,
@@ -20515,9 +20611,9 @@ return {
         id = 14210223,
         text = "All DEM battles units, start the operation to capture the Spirit: Tohka Yatogami. ——\"I'll take good care of you, my little princess. \"",
     },
-    [272111] = {
-        id = 272111,
-        text = "Reserved Quest",
+    [272110] = {
+        id = 272110,
+        text = "Kill 3 bosses in Hunter's Pursuit",
     },
     [14210222] = {
         id = 14210222,
@@ -20531,29 +20627,45 @@ return {
         id = 14210220,
         text = "During the field trip, DEM suddenly emerged! After burying the hatchet, the Yamai sisters were determined to defeat the enemies!",
     },
-    [272112] = {
-        id = 272112,
+    [272111] = {
+        id = 272111,
         text = "Reserved Quest",
     },
     [14210219] = {
         id = 14210219,
         text = "During the field trip, DEM suddenly appeared. What were they after? - \"The World's Strongest Wizard? Indeed a tough enemy!\"",
     },
+    [14210218] = {
+        id = 14210218,
+        text = "During the field trip, the twin sisters Kaguya and Yuzuru fought over the name of Yamai! - \"Show me what you've got!\"",
+    },
+    [14210217] = {
+        id = 14210217,
+        text = "Believing that Kotori Itsuka was the one who killed her parents, Origami lost her mind and eager to have her revenge! - \"Die! Spirit!\"",
+    },
+    [272112] = {
+        id = 272112,
+        text = "Reserved Quest",
+    },
+    [14210216] = {
+        id = 14210216,
+        text = "Kotori Itsuka, who turned the tide of the battle, suddenly went of control. - \"Don't let me down, Nightmare!\"",
+    },
     [18033] = {
         id = 18033,
         text = "Kitty Headband [Fine]",
     },
-    [14210218] = {
-        id = 14210218,
-        text = "During the field trip, the twin sisters Kaguya and Yuzuru fought over the name of Yamai! - \"Show me what you've got!\"",
+    [14210215] = {
+        id = 14210215,
+        text = "Humph, finally I've found you, the Spirit named \"Nightmare\". This time, I, Mana Takamiya, will take you down!",
     },
     [272113] = {
         id = 272113,
         text = "Activity of club members in Order reaches 20000",
     },
-    [14210217] = {
-        id = 14210217,
-        text = "Believing that Kotori Itsuka was the one who killed her parents, Origami lost her mind and eager to have her revenge! - \"Die! Spirit!\"",
+    [14210214] = {
+        id = 14210214,
+        text = "Emergency! Yoshino is surrounded by AST, I can't let anyone approach her ward! - \"Answer my call, Sandalphon!\"",
     },
     [20081] = {
         id = 20081,
@@ -20567,37 +20679,21 @@ return {
         id = 42209,
         text = "D Class Energy Gem, obtain it to get a D Class Gem for a random skill of [Crimson Nightmare]. (Auto used once obtained)",
     },
-    [14210216] = {
-        id = 14210216,
-        text = "Kotori Itsuka, who turned the tide of the battle, suddenly went of control. - \"Don't let me down, Nightmare!\"",
+    [14210213] = {
+        id = 14210213,
+        text = "New Spirit discovered: a Spirit named Yoshino, coded as \"Hermit\". The capture plan is underway!",
     },
     [22129] = {
         id = 22129,
         text = "S Class Spirit Lucky Bag",
     },
-    [14210215] = {
-        id = 14210215,
-        text = "Humph, finally I've found you, the Spirit named \"Nightmare\". This time, I, Mana Takamiya, will take you down!",
-    },
-    [272115] = {
-        id = 272115,
-        text = "Airdrop provides supplies 150 times",
-    },
-    [14210214] = {
-        id = 14210214,
-        text = "Emergency! Yoshino is surrounded by AST, I can't let anyone approach her ward! - \"Answer my call, Sandalphon!\"",
-    },
-    [14210213] = {
-        id = 14210213,
-        text = "New Spirit discovered: a Spirit named Yoshino, coded as \"Hermit\". The capture plan is underway!",
-    },
     [14210211] = {
         id = 14210211,
         text = "The magic of time does not lie in the constants, but in that you still recall the passion of the moment after 1 year. Happy the first anniversary, my dearest!",
     },
-    [272116] = {
-        id = 272116,
-        text = "Challenge preparation stages 240 times",
+    [272115] = {
+        id = 272115,
+        text = "Airdrop provides supplies 150 times",
     },
     [14210210] = {
         id = 14210210,
@@ -20611,9 +20707,9 @@ return {
         id = 14210208,
         text = "Luck is the most elusive thing, like an encounter in eons. It is called a \"miracle\", and I am willing to create such a miracle for you.",
     },
-    [272117] = {
-        id = 272117,
-        text = "Kill 3 bosses in Hunter's Pursuit",
+    [272116] = {
+        id = 272116,
+        text = "Challenge preparation stages 240 times",
     },
     [14210207] = {
         id = 14210207,
@@ -20627,41 +20723,41 @@ return {
         id = 2107030,
         text = "Ordinary Enemy",
     },
-    [272118] = {
-        id = 272118,
-        text = "Reserved Quest",
+    [272117] = {
+        id = 272117,
+        text = "Kill 3 bosses in Hunter's Pursuit",
     },
     [14210204] = {
         id = 14210204,
         text = "It's the break time. However, our dream will never break! The next time, we'll challenge the next peak!",
     },
-    [30321] = {
-        id = 30321,
-        text = "Ice Princess",
-    },
     [14210203] = {
         id = 14210203,
         text = "Sometimes, one may wish to become a different person. But in fact, diligence and time always make a difference.",
-    },
-    [272119] = {
-        id = 272119,
-        text = "Reserved Quest",
     },
     [14210202] = {
         id = 14210202,
         text = "Life is always full of [judgments]. Even if you're not the hero of a light novel, try to confront it with courage!",
     },
+    [272118] = {
+        id = 272118,
+        text = "Reserved Quest",
+    },
     [14210201] = {
         id = 14210201,
         text = "When you feel at a loss, don't go around in circles, try exploring the vast world. Exploration is the joyful process to discover the unknown!",
+    },
+    [30321] = {
+        id = 30321,
+        text = "Ice Princess",
     },
     [14210200] = {
         id = 14210200,
         text = "The prelude has ended, but our story has just begun. Despite the twists and turns, stick to it and your journey will become smooth in the end.",
     },
-    [272120] = {
-        id = 272120,
-        text = "Activity of club members in Order reaches 20000",
+    [272119] = {
+        id = 272119,
+        text = "Reserved Quest",
     },
     [14210199] = {
         id = 14210199,
@@ -20675,13 +20771,29 @@ return {
         id = 2107032,
         text = "Select Enemy",
     },
-    [272121] = {
-        id = 272121,
-        text = "Contribution in Kerubiel reaches 30000",
+    [272120] = {
+        id = 272120,
+        text = "Activity of club members in Order reaches 20000",
     },
     [14210195] = {
         id = 14210195,
         text = "Lunar Jun. Blessing",
+    },
+    [14210194] = {
+        id = 14210194,
+        text = "Lunar May Blessing",
+    },
+    [14210193] = {
+        id = 14210193,
+        text = "Lunar Apr. Blessing",
+    },
+    [272121] = {
+        id = 272121,
+        text = "Contribution in Kerubiel reaches 30000",
+    },
+    [14210192] = {
+        id = 14210192,
+        text = "Lunar Mar. Blessing",
     },
     [10041] = {
         id = 10041,
@@ -20695,68 +20807,52 @@ return {
         id = 42210,
         text = "C Class Energy Gem, obtain it to get a C Class Gem for a random skill of [Crimson Nightmare]. (Auto used once obtained)",
     },
-    [14210194] = {
-        id = 14210194,
-        text = "Lunar May Blessing",
-    },
-    [14210193] = {
-        id = 14210193,
-        text = "Lunar Apr. Blessing",
-    },
-    [14210192] = {
-        id = 14210192,
-        text = "Lunar Mar. Blessing",
-    },
-    [272123] = {
-        id = 272123,
-        text = "Challenge preparation stages 240 times",
-    },
     [14210191] = {
         id = 14210191,
         text = "Lunar Feb. Blessing",
-    },
-    [12089] = {
-        id = 12089,
-        text = "High School Student - Female 4",
     },
     [14210190] = {
         id = 14210190,
         text = "Lunar Jan. Blessing",
     },
-    [272124] = {
-        id = 272124,
-        text = "Kill 3 bosses in Hunter's Pursuit",
-    },
     [2107034] = {
         id = 2107034,
         text = "DMG Stats: %.1f(%.1f/s)",
     },
-    [13113] = {
-        id = 13113,
-        text = "Open and get random Pray Material*2",
+    [272123] = {
+        id = 272123,
+        text = "Challenge preparation stages 240 times",
     },
     [14210188] = {
         id = 14210188,
         text = "Lunar Nov. Blessing",
     },
-    [272125] = {
-        id = 272125,
-        text = "Reserved Quest",
+    [12089] = {
+        id = 12089,
+        text = "High School Student - Female 4",
     },
     [14210187] = {
         id = 14210187,
         text = "Lunar Oct. Blessing",
     },
+    [272124] = {
+        id = 272124,
+        text = "Kill 3 bosses in Hunter's Pursuit",
+    },
     [14210186] = {
         id = 14210186,
         text = "Lunar Sep. Blessing",
+    },
+    [13113] = {
+        id = 13113,
+        text = "Open and get random Pray Material*2",
     },
     [14210185] = {
         id = 14210185,
         text = "All memory events are completed",
     },
-    [272126] = {
-        id = 272126,
+    [272125] = {
+        id = 272125,
         text = "Reserved Quest",
     },
     [14210184] = {
@@ -20771,9 +20867,9 @@ return {
         id = 14210182,
         text = "Next memory chapter will be open on Sep 29st",
     },
-    [272127] = {
-        id = 272127,
-        text = "Activity of club members in Order reaches 20000",
+    [272126] = {
+        id = 272126,
+        text = "Reserved Quest",
     },
     [14210181] = {
         id = 14210181,
@@ -20787,29 +20883,45 @@ return {
         id = 14210178,
         text = "Next memory chapter will be open on Sep 25st",
     },
-    [272128] = {
-        id = 272128,
-        text = "Contribution in Kerubiel reaches 30000",
+    [272127] = {
+        id = 272127,
+        text = "Activity of club members in Order reaches 20000",
     },
     [14210177] = {
         id = 14210177,
         text = "Next memory chapter will be open on Sep 24st",
     },
+    [14210176] = {
+        id = 14210176,
+        text = "Next memory chapter will be open on Sep 23st",
+    },
+    [14210175] = {
+        id = 14210175,
+        text = "Next memory chapter will be open on Sep 22st",
+    },
+    [272128] = {
+        id = 272128,
+        text = "Contribution in Kerubiel reaches 30000",
+    },
+    [14210174] = {
+        id = 14210174,
+        text = "Next memory chapter will be open on Sep 21st",
+    },
     [18034] = {
         id = 18034,
         text = "Fine crafted item. The kitten headband is unbelievable cute",
     },
-    [14210176] = {
-        id = 14210176,
-        text = "Next memory chapter will be open on Sep 23st",
+    [2107036] = {
+        id = 2107036,
+        text = "DMG Stats: %.1fW(%.1fW/s)",
     },
     [272129] = {
         id = 272129,
         text = "Airdrop provides supplies 150 times",
     },
-    [14210175] = {
-        id = 14210175,
-        text = "Next memory chapter will be open on Sep 22st",
+    [14210172] = {
+        id = 14210172,
+        text = "………………………………..",
     },
     [20082] = {
         id = 20082,
@@ -20823,36 +20935,20 @@ return {
         id = 272130,
         text = "Reserved Quest",
     },
-    [14210174] = {
-        id = 14210174,
-        text = "Next memory chapter will be open on Sep 21st",
+    [14210171] = {
+        id = 14210171,
+        text = "Finish all the memory events of the month to receive all the rewards",
     },
     [22130] = {
         id = 22130,
         text = "Open to get 1 fragment of a random S Class Spirit",
     },
-    [2107036] = {
-        id = 2107036,
-        text = "DMG Stats: %.1fW(%.1fW/s)",
-    },
-    [272131] = {
-        id = 272131,
-        text = "Reserved Quest",
-    },
-    [14210172] = {
-        id = 14210172,
-        text = "………………………………..",
-    },
-    [14210171] = {
-        id = 14210171,
-        text = "Finish all the memory events of the month to receive all the rewards",
-    },
     [14210170] = {
         id = 14210170,
         text = "Date A Live is 1 year old already!\n The joyful, surprising and touching moments of the last year are our most precious memories!\n We sincerely thank you all for the company and support!\n We'll keep our promise and stay on your side. Dating never stops!",
     },
-    [272132] = {
-        id = 272132,
+    [272131] = {
+        id = 272131,
         text = "Reserved Quest",
     },
     [14210169] = {
@@ -20867,8 +20963,8 @@ return {
         id = 14210167,
         text = "44093",
     },
-    [272133] = {
-        id = 272133,
+    [272132] = {
+        id = 272132,
         text = "Reserved Quest",
     },
     [14210166] = {
@@ -20883,37 +20979,41 @@ return {
         id = 14210163,
         text = "Dear Covenanters, \nRatatoskr has found Origami Tobiichi's mood went south for unknown reasons and inversion seems inevitable. Emergency! Please get prepared for the inspection and stay safe. \n Hot Games that tries its best to make Origami look nice",
     },
-    [272134] = {
-        id = 272134,
-        text = "Activity of club members in Order reaches 20000",
+    [272133] = {
+        id = 272133,
+        text = "Reserved Quest",
     },
     [14210162] = {
         id = 14210162,
         text = "Dear Covenanters, \n Ratatoskr has detected violent fluctuation of Spirit Power! The analysis says they are likely to be emanated from Mayuri!\n Red alert! Everyone in Ratatoskr, prepare for tough enemy. \n Have you come back, Mayuri?\n A designer under the pseudonym of D·A·L",
     },
-    [30322] = {
-        id = 30322,
-        text = "Nickname: Hermit, She is very shy and barely talks to others directly, instead her puppet alter ego, \"Yoshinon,\" will do the talking for her.",
-    },
     [14210161] = {
         id = 14210161,
         text = "Dear Covenanters, \n Thanks to the latest tech provided by Natsumi, Tohka's chatting AI - \"Tohbaka\" has officially joined Ratatoskr. \n We have been hard at work to improve the game and add more & better contents. More Spirits will join in the chat later. Please look forward to it!\n Hot Games",
-    },
-    [272135] = {
-        id = 272135,
-        text = "Contribution in Kerubiel reaches 30000",
     },
     [14210160] = {
         id = 14210160,
         text = "Dear Covenanters, \n Another charming idol will be available soon! Besides, your waifu Mayuri's voiceover is available now! What would Mayuri say?\n Due to voice actresses' schedule, new voiceover was not added as scheduled. Still, we have done it in the end!\n Hot Games will keep improving this game and giving you better contents. New contents may be late, but they will never be absent. \n Hot Games",
     },
+    [272134] = {
+        id = 272134,
+        text = "Activity of club members in Order reaches 20000",
+    },
     [14210159] = {
         id = 14210159,
         text = "Dear Covenanters, \n Violent spatial quakes in Hot Games crushed our development server crashed, which had a severe impact on our work and led to the delay of launch. We apologize for the inconvenience, and will take precautions to prevent it from happening again. Thank you all for your support\n Hot Games",
     },
+    [30322] = {
+        id = 30322,
+        text = "Nickname: Hermit, She is very shy and barely talks to others directly, instead her puppet alter ego, \"Yoshinon,\" will do the talking for her.",
+    },
     [14210158] = {
         id = 14210158,
         text = "Dear Covenanters, \n We have found a black sphere has emerged above Tengu City. \n Based on the analysis of Ratatoskr, this black sphere is generated from Spirits' negative emotions like jealousy, grudge and obsession. \n The Spirit Power fluctuation emanated from the sphere may cause spatial quakes. All covenanters, prepare for incoming battles!\n Hot Games",
+    },
+    [272135] = {
+        id = 272135,
+        text = "Contribution in Kerubiel reaches 30000",
     },
     [2107501] = {
         id = 2107501,
@@ -20943,14 +21043,6 @@ return {
         id = 14210151,
         text = "Main Chapter 6 and voiceover for Mayuri Theater are available",
     },
-    [41188] = {
-        id = 41188,
-        text = "S Class Gem Scroll, obtain it to get a S Class Gem Scroll for a random skill of [Inverse Origami]. (Auto used once obtained)",
-    },
-    [42212] = {
-        id = 42212,
-        text = "A Class Energy Gem, obtain it to get an A Class Gem for a random skill of [Crimson Nightmare]. (Auto used once obtained)",
-    },
     [14210150] = {
         id = 14210150,
         text = "Server Launch Delayed",
@@ -20962,6 +21054,14 @@ return {
     [14210147] = {
         id = 14210147,
         text = "Jul. 4 Uncertain",
+    },
+    [41188] = {
+        id = 41188,
+        text = "S Class Gem Scroll, obtain it to get a S Class Gem Scroll for a random skill of [Inverse Origami]. (Auto used once obtained)",
+    },
+    [42212] = {
+        id = 42212,
+        text = "A Class Energy Gem, obtain it to get an A Class Gem for a random skill of [Crimson Nightmare]. (Auto used once obtained)",
     },
     [14210146] = {
         id = 14210146,
@@ -21043,17 +21143,9 @@ return {
         id = 14210126,
         text = "Kabbalah Instance",
     },
-    [17011] = {
-        id = 17011,
-        text = "Milk Bread [Exceptional]",
-    },
     [2108004] = {
         id = 2108004,
         text = "Woke up, slept, woke up and slept again... yet some changes in the space broke the ever lasting loop. The awakened king and the altered fate, what will happen -",
-    },
-    [18035] = {
-        id = 18035,
-        text = "Kitty Headband [Perfect]",
     },
     [14210124] = {
         id = 14210124,
@@ -21063,9 +21155,29 @@ return {
         id = 14210123,
         text = "Spring Special Training",
     },
+    [17011] = {
+        id = 17011,
+        text = "Milk Bread [Exceptional]",
+    },
     [14210122] = {
         id = 14210122,
         text = "Nian Beast Event",
+    },
+    [18035] = {
+        id = 18035,
+        text = "Kitty Headband [Perfect]",
+    },
+    [14210121] = {
+        id = 14210121,
+        text = "Visit Hot Games",
+    },
+    [14210120] = {
+        id = 14210120,
+        text = "Main Chapter 8",
+    },
+    [14210119] = {
+        id = 14210119,
+        text = "Kabbalah Instance",
     },
     [20083] = {
         id = 20083,
@@ -21079,25 +21191,13 @@ return {
         id = 42213,
         text = "S Class Energy Gem, obtain it to get an S Class Gem for a random skill of [Crimson Nightmare]. (Auto used once obtained)",
     },
-    [14210121] = {
-        id = 14210121,
-        text = "Visit Hot Games",
+    [14210118] = {
+        id = 14210118,
+        text = "Christmas Snowman Event",
     },
     [22131] = {
         id = 22131,
         text = "Neptune",
-    },
-    [14210120] = {
-        id = 14210120,
-        text = "Main Chapter 8",
-    },
-    [14210119] = {
-        id = 14210119,
-        text = "Kabbalah Instance",
-    },
-    [14210118] = {
-        id = 14210118,
-        text = "Christmas Snowman Event",
     },
     [14210117] = {
         id = 14210117,
@@ -21107,9 +21207,9 @@ return {
         id = 14210115,
         text = "Mayuri Theater",
     },
-    [290000041] = {
-        id = 290000041,
-        text = "A Leisure Day",
+    [14210114] = {
+        id = 14210114,
+        text = "Kabbalah Instance",
     },
     [14210113] = {
         id = 14210113,
@@ -21119,9 +21219,9 @@ return {
         id = 14210112,
         text = "Halloween Event",
     },
-    [14210111] = {
-        id = 14210111,
-        text = "Main Chapter 7",
+    [290000041] = {
+        id = 290000041,
+        text = "A Leisure Day",
     },
     [14210110] = {
         id = 14210110,
@@ -21147,10 +21247,6 @@ return {
         id = 14210104,
         text = "S. Origami",
     },
-    [30323] = {
-        id = 30323,
-        text = "El",
-    },
     [14210103] = {
         id = 14210103,
         text = "Snow Princess Yoshino",
@@ -21162,6 +21258,10 @@ return {
     [2108006] = {
         id = 2108006,
         text = "The clown who broke the loop will be consumed by the rage of the king or swallowed by the infiniteness, \"staying\" here forever.",
+    },
+    [30323] = {
+        id = 30323,
+        text = "El",
     },
     [14210099] = {
         id = 14210099,
@@ -21195,18 +21295,6 @@ return {
         id = 14210092,
         text = "Natsumi - Casino",
     },
-    [10042] = {
-        id = 10042,
-        text = "Poison",
-    },
-    [41190] = {
-        id = 41190,
-        text = "SSS Class Gem Scroll, obtain it to get a SSS Class Gem Scroll for a random skill of [Inverse Origami]. (Auto used once obtained)",
-    },
-    [42214] = {
-        id = 42214,
-        text = "SS Class Energy Gem, obtain it to get an SS Class Gem for a random skill of [Crimson Nightmare]. (Auto used once obtained)",
-    },
     [14210091] = {
         id = 14210091,
         text = "Origami - Children's Day",
@@ -21219,6 +21307,18 @@ return {
         id = 14210089,
         text = "Maid Café",
     },
+    [10042] = {
+        id = 10042,
+        text = "Poison",
+    },
+    [41190] = {
+        id = 41190,
+        text = "SSS Class Gem Scroll, obtain it to get a SSS Class Gem Scroll for a random skill of [Inverse Origami]. (Auto used once obtained)",
+    },
+    [42214] = {
+        id = 42214,
+        text = "SS Class Energy Gem, obtain it to get an SS Class Gem for a random skill of [Crimson Nightmare]. (Auto used once obtained)",
+    },
     [14210088] = {
         id = 14210088,
         text = "Tohka - Kitchen",
@@ -21226,10 +21326,6 @@ return {
     [14210087] = {
         id = 14210087,
         text = "Spring Fest",
-    },
-    [12090] = {
-        id = 12090,
-        text = "High School Student - Female 5",
     },
     [14210086] = {
         id = 14210086,
@@ -21243,9 +21339,9 @@ return {
         id = 14210083,
         text = "Christmas",
     },
-    [13114] = {
-        id = 13114,
-        text = "Special giftbox for the Autumn Fest! Open and get random VS Runestone (D~B)",
+    [12090] = {
+        id = 12090,
+        text = "High School Student - Female 5",
     },
     [14210082] = {
         id = 14210082,
@@ -21258,6 +21354,10 @@ return {
     [14210080] = {
         id = 14210080,
         text = "Kurumi - Gothic",
+    },
+    [13114] = {
+        id = 13114,
+        text = "Special giftbox for the Autumn Fest! Open and get random VS Runestone (D~B)",
     },
     [14210079] = {
         id = 14210079,
@@ -21283,10 +21383,6 @@ return {
         id = 14210073,
         text = "Our promise begins now",
     },
-    [218001] = {
-        id = 218001,
-        text = "Crane Game in cool down",
-    },
     [14210072] = {
         id = 14210072,
         text = "Our promise begins now",
@@ -21299,29 +21395,45 @@ return {
         id = 14210070,
         text = "Our promise begins now",
     },
-    [17012] = {
-        id = 17012,
-        text = "Exceptional Food. High-qualify milk is added to give the bread wonderful aroma.",
+    [218001] = {
+        id = 218001,
+        text = "Crane Game in cool down",
     },
     [2108010] = {
         id = 2108010,
         text = "4. Duration: 6/15-6/30",
     },
+    [14210067] = {
+        id = 14210067,
+        text = "Our promise begins now",
+    },
+    [14210066] = {
+        id = 14210066,
+        text = "44074",
+    },
+    [17012] = {
+        id = 17012,
+        text = "Exceptional Food. High-qualify milk is added to give the bread wonderful aroma.",
+    },
+    [14210065] = {
+        id = 14210065,
+        text = "44044",
+    },
     [18036] = {
         id = 18036,
         text = "Perfect crafted item. The kitten headband is unbelievable cute",
     },
-    [14210067] = {
-        id = 14210067,
-        text = "Our promise begins now",
+    [14210064] = {
+        id = 14210064,
+        text = "44043",
     },
     [218002] = {
         id = 218002,
         text = "Crane Game refresh in cool down",
     },
-    [14210066] = {
-        id = 14210066,
-        text = "44074",
+    [14210063] = {
+        id = 14210063,
+        text = "44013",
     },
     [20084] = {
         id = 20084,
@@ -21335,33 +21447,21 @@ return {
         id = 42215,
         text = "SSS Class Energy Gem, obtain it to get an SSS Class Gem for a random skill of [Crimson Nightmare]. (Auto used once obtained)",
     },
-    [14210065] = {
-        id = 14210065,
-        text = "44044",
+    [14210062] = {
+        id = 14210062,
+        text = "44012",
     },
     [22132] = {
         id = 22132,
         text = "Grants Neptune. Each duplicate of the Goddess will be turned into 60 Goddess fragments.",
     },
-    [14210064] = {
-        id = 14210064,
-        text = "44043",
+    [2108012] = {
+        id = 2108012,
+        text = "Sim Trial: Guerrilla",
     },
     [218003] = {
         id = 218003,
         text = "Crane Game timeout",
-    },
-    [14210063] = {
-        id = 14210063,
-        text = "44013",
-    },
-    [14210062] = {
-        id = 14210062,
-        text = "44012",
-    },
-    [2108012] = {
-        id = 2108012,
-        text = "Sim Trial: Guerrilla",
     },
     [14210060] = {
         id = 14210060,
@@ -21379,10 +21479,6 @@ return {
         id = 14210057,
         text = "43922",
     },
-    [218004] = {
-        id = 218004,
-        text = "Game Tokens all used up",
-    },
     [14210056] = {
         id = 14210056,
         text = "43921",
@@ -21395,6 +21491,10 @@ return {
         id = 14210054,
         text = "43889",
     },
+    [218004] = {
+        id = 218004,
+        text = "Game Tokens all used up",
+    },
     [14210053] = {
         id = 14210053,
         text = "43862",
@@ -21402,10 +21502,6 @@ return {
     [14210051] = {
         id = 14210051,
         text = "43831",
-    },
-    [30324] = {
-        id = 30324,
-        text = "…Please……don't hurt me.",
     },
     [14210050] = {
         id = 14210050,
@@ -21418,6 +21514,10 @@ return {
     [14210048] = {
         id = 14210048,
         text = "44165",
+    },
+    [30324] = {
+        id = 30324,
+        text = "…Please……don't hurt me.",
     },
     [14210047] = {
         id = 14210047,
@@ -21455,10 +21555,6 @@ return {
         id = 14210038,
         text = "Sim summoning cardpool is available now! Come take a look!",
     },
-    [41192] = {
-        id = 41192,
-        text = "SS Class Gem Scroll, obtain it to get a SS Class Gem Scroll for a random skill of [Neptune]. (Auto used once obtained)",
-    },
     [2108014] = {
         id = 2108014,
         text = "Sim Trial: Assault",
@@ -21470,6 +21566,10 @@ return {
     [14210034] = {
         id = 14210034,
         text = "Sim summoning cardpool is available now! Come take a look!",
+    },
+    [41192] = {
+        id = 41192,
+        text = "SS Class Gem Scroll, obtain it to get a SS Class Gem Scroll for a random skill of [Neptune]. (Auto used once obtained)",
     },
     [14210033] = {
         id = 14210033,
@@ -21555,29 +21655,41 @@ return {
         id = 14210010,
         text = "Rerun items are available now! Come and take a look!",
     },
-    [17013] = {
-        id = 17013,
-        text = "Cheese Tart",
-    },
     [14210009] = {
         id = 14210009,
         text = "1 Year Celebration",
-    },
-    [18037] = {
-        id = 18037,
-        text = "Cherry Hair Tie",
     },
     [14210008] = {
         id = 14210008,
         text = "Rerun Sephira",
     },
+    [2108021] = {
+        id = 2108021,
+        text = "It is accidental yet evitable. Something is not right with Tohka's astral dress. What is waiting for us next?",
+    },
+    [17013] = {
+        id = 17013,
+        text = "Cheese Tart",
+    },
+    [2108018] = {
+        id = 2108018,
+        text = "Extra Story: Accident",
+    },
+    [18037] = {
+        id = 18037,
+        text = "Cherry Hair Tie",
+    },
+    [2108020] = {
+        id = 2108020,
+        text = "Extra Story: Decisiveness",
+    },
     [19061] = {
         id = 19061,
         text = "Candy Preserved Flower",
     },
-    [2108021] = {
-        id = 2108021,
-        text = "It is accidental yet evitable. Something is not right with Tohka's astral dress. What is waiting for us next?",
+    [14210002] = {
+        id = 14210002,
+        text = "9,10,11,12,1,2,3,4,5,6,7,8,9",
     },
     [20085] = {
         id = 20085,
@@ -21587,22 +21699,6 @@ return {
         id = 41193,
         text = "SSS Class Gem Scroll, obtain it to get a SSS Class Gem Scroll for a random skill of [Neptune]. (Auto used once obtained)",
     },
-    [2108018] = {
-        id = 2108018,
-        text = "Extra Story: Accident",
-    },
-    [2108020] = {
-        id = 2108020,
-        text = "Extra Story: Decisiveness",
-    },
-    [22133] = {
-        id = 22133,
-        text = "Blanc",
-    },
-    [14210002] = {
-        id = 14210002,
-        text = "9,10,11,12,1,2,3,4,5,6,7,8,9",
-    },
     [14210001] = {
         id = 14210001,
         text = "%s:%s",
@@ -21610,6 +21706,10 @@ return {
     [14110440] = {
         id = 14110440,
         text = "(%d times)",
+    },
+    [22133] = {
+        id = 22133,
+        text = "Blanc",
     },
     [14110439] = {
         id = 14110439,
@@ -21619,9 +21719,9 @@ return {
         id = 14110438,
         text = "Defeat enemy snowmen",
     },
-    [12010121] = {
-        id = 12010121,
-        text = "Enjoy delicious food with Tohka.",
+    [12010119] = {
+        id = 12010119,
+        text = "Speak with Origami who suddenly appears.",
     },
     [1310203] = {
         id = 1310203,
@@ -21659,10 +21759,6 @@ return {
         id = 14110428,
         text = "Brave snowmen! Defeat 50 Snow Spirits as fast as you can!",
     },
-    [30325] = {
-        id = 30325,
-        text = "□ Ranged ATK: releases icicles and creates ice wall",
-    },
     [14110427] = {
         id = 14110427,
         text = "Brave snowmen! Defeat 40 Snow Spirits as fast as you can!",
@@ -21674,6 +21770,10 @@ return {
     [14110425] = {
         id = 14110425,
         text = "Spirit Origami takes 15% less holy DMG but 30% more dark DMG.",
+    },
+    [30325] = {
+        id = 30325,
+        text = "□ Ranged ATK: releases icicles and creates ice wall",
     },
     [14110424] = {
         id = 14110424,
@@ -21687,9 +21787,9 @@ return {
         id = 14110422,
         text = "Use it to select a random class-SS gem for any character",
     },
-    [12010122] = {
-        id = 12010122,
-        text = "Talk with the mysterious girl.",
+    [12010120] = {
+        id = 12010120,
+        text = "Accompany Tohka to the place that is the most important to her.",
     },
     [900024] = {
         id = 900024,
@@ -21707,14 +21807,6 @@ return {
         id = 14110417,
         text = "Use it to select a random class-S gem skill scroll for any character",
     },
-    [10043] = {
-        id = 10043,
-        text = "Ignite",
-    },
-    [41194] = {
-        id = 41194,
-        text = "S Class Gem Scroll, obtain it to get a S Class Gem Scroll for a random skill of [Blanc]. (Auto used once obtained)",
-    },
     [14110416] = {
         id = 14110416,
         text = "Special SS-class Gem Choice Chest",
@@ -21727,9 +21819,17 @@ return {
         id = 14110414,
         text = "Special A-class Gem Choice Chest",
     },
-    [12010123] = {
-        id = 12010123,
-        text = "Defeat Kerubiel.",
+    [10043] = {
+        id = 10043,
+        text = "Ignite",
+    },
+    [41194] = {
+        id = 41194,
+        text = "S Class Gem Scroll, obtain it to get a S Class Gem Scroll for a random skill of [Blanc]. (Auto used once obtained)",
+    },
+    [12010121] = {
+        id = 12010121,
+        text = "Enjoy delicious food with Tohka.",
     },
     [14110412] = {
         id = 14110412,
@@ -21738,10 +21838,6 @@ return {
     [14110411] = {
         id = 14110411,
         text = "Special S-class Scroll Choice Chest",
-    },
-    [12091] = {
-        id = 12091,
-        text = "Student in Swim Suit - Male 1",
     },
     [14110410] = {
         id = 14110410,
@@ -21755,9 +21851,9 @@ return {
         id = 14110408,
         text = "Battle of Demise - Nightmare",
     },
-    [13115] = {
-        id = 13115,
-        text = "Special pack for the Autumn Fest! Open and get 3~7 EXP Cards",
+    [12091] = {
+        id = 12091,
+        text = "Student in Swim Suit - Male 1",
     },
     [14110407] = {
         id = 14110407,
@@ -21767,9 +21863,13 @@ return {
         id = 14110406,
         text = "Battle of Demise - Normal",
     },
-    [63506] = {
-        id = 63506,
-        text = "The status of temp Spirits are kept so you can start from where you left off when Spirits are unlocked or activated again.",
+    [15000002] = {
+        id = 15000002,
+        text = "The new name cannot be the same as the original name",
+    },
+    [13115] = {
+        id = 13115,
+        text = "Special pack for the Autumn Fest! Open and get 3~7 EXP Cards",
     },
     [1310202] = {
         id = 1310202,
@@ -21807,6 +21907,18 @@ return {
         id = 14110396,
         text = "2. Daily participation reward chances: %s/%s",
     },
+    [14110395] = {
+        id = 14110395,
+        text = "1. All stages share the same daily participation reward quota.",
+    },
+    [14110394] = {
+        id = 14110394,
+        text = "Proof of Glory",
+    },
+    [14110393] = {
+        id = 14110393,
+        text = "Proof of Elite",
+    },
     [264000] = {
         id = 264000,
         text = "Still locked",
@@ -21815,9 +21927,9 @@ return {
         id = 17014,
         text = "It is crisp, soft and sweet. The flavor of egg is well-presented.",
     },
-    [14110395] = {
-        id = 14110395,
-        text = "1. All stages share the same daily participation reward quota.",
+    [14110392] = {
+        id = 14110392,
+        text = "Proof of Friendship",
     },
     [18038] = {
         id = 18038,
@@ -21859,22 +21971,6 @@ return {
         id = 264003,
         text = "November",
     },
-    [14110391] = {
-        id = 14110391,
-        text = "Here are your unclaimed quest rewards from the Battle of Demise.",
-    },
-    [14110390] = {
-        id = 14110390,
-        text = "Battle of Demise Quest Reward",
-    },
-    [12010125] = {
-        id = 12010125,
-        text = "Save Mayuri.",
-    },
-    [264004] = {
-        id = 264004,
-        text = "Releases New Info",
-    },
     [900030] = {
         id = 900030,
         text = "Sleeping Detective",
@@ -21887,9 +21983,9 @@ return {
         id = 14110386,
         text = "Flame & Frost Resist",
     },
-    [264005] = {
-        id = 264005,
-        text = "December",
+    [264004] = {
+        id = 264004,
+        text = "Releases New Info",
     },
     [14110385] = {
         id = 14110385,
@@ -21903,29 +21999,25 @@ return {
         id = 14110383,
         text = "Takes 30% less lightning and tempest DMG.",
     },
-    [264006] = {
-        id = 264006,
-        text = "Releases New Info",
+    [264005] = {
+        id = 264005,
+        text = "December",
     },
     [14110382] = {
         id = 14110382,
         text = "Lightning & Tempest Resist",
     },
-    [12010126] = {
-        id = 12010126,
-        text = "Protect Mayuri.",
-    },
-    [30326] = {
-        id = 30326,
-        text = "□ Summons Ice Tornado to sweep frontal area",
-    },
-    [264007] = {
-        id = 264007,
-        text = "November",
+    [63506] = {
+        id = 63506,
+        text = "The status of temp Spirits are kept so you can start from where you left off when Spirits are unlocked or activated again.",
     },
     [14110380] = {
         id = 14110380,
         text = "Physical Resist",
+    },
+    [264006] = {
+        id = 264006,
+        text = "Releases New Info",
     },
     [14110379] = {
         id = 14110379,
@@ -21935,9 +22027,13 @@ return {
         id = 14110378,
         text = "Control Immunity",
     },
-    [264008] = {
-        id = 264008,
-        text = "Releases Warm-up PV",
+    [30326] = {
+        id = 30326,
+        text = "□ Summons Ice Tornado to sweep frontal area",
+    },
+    [264007] = {
+        id = 264007,
+        text = "November",
     },
     [14110377] = {
         id = 14110377,
@@ -21951,9 +22047,9 @@ return {
         id = 14110375,
         text = "Rage",
     },
-    [264009] = {
-        id = 264009,
-        text = "January",
+    [264008] = {
+        id = 264008,
+        text = "Releases Warm-up PV",
     },
     [14110374] = {
         id = 14110374,
@@ -21967,9 +22063,9 @@ return {
         id = 1310200,
         text = "Natsumi Search 25",
     },
-    [264010] = {
-        id = 264010,
-        text = "Official Main Visual",
+    [264009] = {
+        id = 264009,
+        text = "January",
     },
     [14110371] = {
         id = 14110371,
@@ -21983,9 +22079,9 @@ return {
         id = 14110369,
         text = "Iron Heart",
     },
-    [264011] = {
-        id = 264011,
-        text = "December",
+    [264010] = {
+        id = 264010,
+        text = "Official Main Visual",
     },
     [14110368] = {
         id = 14110368,
@@ -21999,9 +22095,9 @@ return {
         id = 14110366,
         text = "Immobilizes all players present at regular intervals.",
     },
-    [264012] = {
-        id = 264012,
-        text = "Release Event",
+    [264011] = {
+        id = 264011,
+        text = "December",
     },
     [14110365] = {
         id = 14110365,
@@ -22015,9 +22111,9 @@ return {
         id = 14110363,
         text = "Time Reverse",
     },
-    [264013] = {
-        id = 264013,
-        text = "December",
+    [264012] = {
+        id = 264012,
+        text = "Release Event",
     },
     [14110362] = {
         id = 14110362,
@@ -22031,9 +22127,9 @@ return {
         id = 14110360,
         text = "Restores an amount of Superarmor when put under control.",
     },
-    [264014] = {
-        id = 264014,
-        text = "Winter Comic Market",
+    [264013] = {
+        id = 264013,
+        text = "December",
     },
     [14110359] = {
         id = 14110359,
@@ -22047,9 +22143,9 @@ return {
         id = 14110357,
         text = "Hardened Armor",
     },
-    [264015] = {
-        id = 264015,
-        text = "2019",
+    [264014] = {
+        id = 264014,
+        text = "Winter Comic Market",
     },
     [900032] = {
         id = 900032,
@@ -22063,25 +22159,13 @@ return {
         id = 14110354,
         text = "Confuses all players at regular intervals, making their control reversed.",
     },
-    [264016] = {
-        id = 264016,
-        text = "Broadcast Starts",
-    },
-    [17015] = {
-        id = 17015,
-        text = "Cheese Tart [Delicious]",
+    [264015] = {
+        id = 264015,
+        text = "2019",
     },
     [14110353] = {
         id = 14110353,
         text = "Chaos",
-    },
-    [18039] = {
-        id = 18039,
-        text = "Cherry Hair Tie [Fine]",
-    },
-    [264017] = {
-        id = 264017,
-        text = "1.12",
     },
     [14110352] = {
         id = 14110352,
@@ -22091,6 +22175,34 @@ return {
         id = 14110351,
         text = "Toxic Smog",
     },
+    [264016] = {
+        id = 264016,
+        text = "Broadcast Starts",
+    },
+    [17015] = {
+        id = 17015,
+        text = "Cheese Tart [Delicious]",
+    },
+    [14110350] = {
+        id = 14110350,
+        text = "Stun effects received in a row within 5 seconds will be reduced.",
+    },
+    [18039] = {
+        id = 18039,
+        text = "Cherry Hair Tie [Fine]",
+    },
+    [264017] = {
+        id = 264017,
+        text = "1.12",
+    },
+    [12010125] = {
+        id = 12010125,
+        text = "Save Mayuri.",
+    },
+    [14110348] = {
+        id = 14110348,
+        text = "Stasis effects received in a row within 5 seconds will be reduced.",
+    },
     [20087] = {
         id = 20087,
         text = "Abyss Diva",
@@ -22098,26 +22210,6 @@ return {
     [264018] = {
         id = 264018,
         text = "Fantasia Bunko 30th Anniversary",
-    },
-    [14110350] = {
-        id = 14110350,
-        text = "Stun effects received in a row within 5 seconds will be reduced.",
-    },
-    [12010127] = {
-        id = 12010127,
-        text = "Unclaimed Kerubiel Rewards",
-    },
-    [22135] = {
-        id = 22135,
-        text = "Crimson Nightmare - Kurumi Tokisaki",
-    },
-    [264019] = {
-        id = 264019,
-        text = "March",
-    },
-    [14110348] = {
-        id = 14110348,
-        text = "Stasis effects received in a row within 5 seconds will be reduced.",
     },
     [14110347] = {
         id = 14110347,
@@ -22127,9 +22219,13 @@ return {
         id = 14110346,
         text = "Summons an orb of frost at regular intervals. The orb auto flies towards its target and generates an area of frost on hit or expiration.",
     },
-    [264020] = {
-        id = 264020,
-        text = "AnimeJapan2019",
+    [22135] = {
+        id = 22135,
+        text = "Crimson Nightmare - Kurumi Tokisaki",
+    },
+    [264019] = {
+        id = 264019,
+        text = "March",
     },
     [14110345] = {
         id = 14110345,
@@ -22143,9 +22239,9 @@ return {
         id = 14110343,
         text = "Heart of Frost",
     },
-    [264021] = {
-        id = 264021,
-        text = "Under Planning Phase",
+    [264020] = {
+        id = 264020,
+        text = "AnimeJapan2019",
     },
     [14110342] = {
         id = 14110342,
@@ -22159,8 +22255,8 @@ return {
         id = 42021,
         text = "D Class Energy Gem, obtain it to get a D Class Gem for a random skill of [AST Origami]. (Auto used once obtained)",
     },
-    [264022] = {
-        id = 264022,
+    [264021] = {
+        id = 264021,
         text = "Under Planning Phase",
     },
     [14110339] = {
@@ -22171,13 +22267,13 @@ return {
         id = 14110338,
         text = "Summon fire pillars at random spots, inflicting damage to nearby units.",
     },
-    [30327] = {
-        id = 30327,
-        text = "□ Summons Zadkiel that creates ice storm",
-    },
     [14110337] = {
         id = 14110337,
         text = "Fire Pillar",
+    },
+    [264022] = {
+        id = 264022,
+        text = "Under Planning Phase",
     },
     [14110336] = {
         id = 14110336,
@@ -22186,6 +22282,10 @@ return {
     [14110335] = {
         id = 14110335,
         text = "Lightning Ball",
+    },
+    [30327] = {
+        id = 30327,
+        text = "□ Summons Zadkiel that creates ice storm",
     },
     [14110334] = {
         id = 14110334,
@@ -22219,6 +22319,18 @@ return {
         id = 14110327,
         text = "Missile",
     },
+    [14110326] = {
+        id = 14110326,
+        text = "Each enemy has a slowing field. Characters caught in it will move and attack slower.",
+    },
+    [12010126] = {
+        id = 12010126,
+        text = "Protect Mayuri.",
+    },
+    [1310198] = {
+        id = 1310198,
+        text = "Natsumi Search 23",
+    },
     [10044] = {
         id = 10044,
         text = "Electrocute",
@@ -22226,18 +22338,6 @@ return {
     [41198] = {
         id = 41198,
         text = "SS Class Gem Scroll, obtain it to get a SS Class Gem Scroll for a random skill of [Crimson Nightmare]. (Auto used once obtained)",
-    },
-    [14110326] = {
-        id = 14110326,
-        text = "Each enemy has a slowing field. Characters caught in it will move and attack slower.",
-    },
-    [12010128] = {
-        id = 12010128,
-        text = "Here are your unclaimed rewards from the Kerubiel challenge event.",
-    },
-    [1310198] = {
-        id = 1310198,
-        text = "Natsumi Search 23",
     },
     [14110323] = {
         id = 14110323,
@@ -22251,10 +22351,6 @@ return {
         id = 14110321,
         text = "Collector",
     },
-    [12092] = {
-        id = 12092,
-        text = "Student in Swim Suit - Male 2",
-    },
     [14110320] = {
         id = 14110320,
         text = "Runestone Elite",
@@ -22267,13 +22363,13 @@ return {
         id = 14110318,
         text = "Shopping Is a Must",
     },
-    [13116] = {
-        id = 13116,
-        text = "Special giftbox for the Autumn Fest! Open and get random VS Runestone (B~S)",
+    [12092] = {
+        id = 12092,
+        text = "Student in Swim Suit - Male 2",
     },
-    [12010129] = {
-        id = 12010129,
-        text = "Kerubiel Contribution Rewards",
+    [12010127] = {
+        id = 12010127,
+        text = "Unclaimed Kerubiel Rewards",
     },
     [14110316] = {
         id = 14110316,
@@ -22282,6 +22378,10 @@ return {
     [14110315] = {
         id = 14110315,
         text = "Exchange Sharam Keystones 10 times.",
+    },
+    [13116] = {
+        id = 13116,
+        text = "Special giftbox for the Autumn Fest! Open and get random VS Runestone (B~S)",
     },
     [14110314] = {
         id = 14110314,
@@ -22303,9 +22403,9 @@ return {
         id = 14110310,
         text = "Clear any Sharam team instance once.",
     },
-    [12010130] = {
-        id = 12010130,
-        text = "Here are your contribution rewards from the Kerubiel challenge event.",
+    [12010128] = {
+        id = 12010128,
+        text = "Here are your unclaimed rewards from the Kerubiel challenge event.",
     },
     [1701715] = {
         id = 1701715,
@@ -22323,17 +22423,9 @@ return {
         id = 14110305,
         text = "Since you haven't claimed the chest, this lottery draw won't add to the progress.",
     },
-    [17016] = {
-        id = 17016,
-        text = "Delicious Food. It is crisp, soft and sweet. The flavor of egg is well-presented.",
-    },
     [14110304] = {
         id = 14110304,
         text = "Sharam's Realm 5 [Nightmare]",
-    },
-    [18040] = {
-        id = 18040,
-        text = "Fine crafted item. It is said that the hair tie decorated with cherry blossom brings good luck to its wearer",
     },
     [14110303] = {
         id = 14110303,
@@ -22343,17 +22435,17 @@ return {
         id = 14110302,
         text = "Sharam's Realm 5 [Normal]",
     },
+    [17016] = {
+        id = 17016,
+        text = "Delicious Food. It is crisp, soft and sweet. The flavor of egg is well-presented.",
+    },
     [14110301] = {
         id = 14110301,
         text = "Sharam's Realm 4 [Nightmare]",
     },
-    [20088] = {
-        id = 20088,
-        text = "Type: Costume\nOwner: Miku Izayoi\nThis song will drag you down into the abyss of the azure, so, still want to hear me sing?",
-    },
-    [41199] = {
-        id = 41199,
-        text = "SSS Class Gem Scroll, obtain it to get a SSS Class Gem Scroll for a random skill of [Crimson Nightmare]. (Auto used once obtained)",
+    [18040] = {
+        id = 18040,
+        text = "Fine crafted item. It is said that the hair tie decorated with cherry blossom brings good luck to its wearer",
     },
     [14110300] = {
         id = 14110300,
@@ -22363,13 +22455,17 @@ return {
         id = 14110299,
         text = "Sharam's Realm 4 [Normal]",
     },
-    [22136] = {
-        id = 22136,
-        text = "Grants Crimson Nightmare Kurumi Tokisaki. Each duplicate of the Spirit will be turned into 60 Spirit fragments.",
-    },
     [14110298] = {
         id = 14110298,
         text = "Sharam's Realm 3 [Nightmare]",
+    },
+    [20088] = {
+        id = 20088,
+        text = "Type: Costume\nOwner: Miku Izayoi\nThis song will drag you down into the abyss of the azure, so, still want to hear me sing?",
+    },
+    [41199] = {
+        id = 41199,
+        text = "SSS Class Gem Scroll, obtain it to get a SSS Class Gem Scroll for a random skill of [Crimson Nightmare]. (Auto used once obtained)",
     },
     [14110297] = {
         id = 14110297,
@@ -22379,6 +22475,10 @@ return {
         id = 14110296,
         text = "Sharam's Realm 3 [Normal]",
     },
+    [22136] = {
+        id = 22136,
+        text = "Grants Crimson Nightmare Kurumi Tokisaki. Each duplicate of the Spirit will be turned into 60 Spirit fragments.",
+    },
     [14110295] = {
         id = 14110295,
         text = "Sharam's Realm 2 [Nightmare]",
@@ -22387,9 +22487,9 @@ return {
         id = 14110294,
         text = "Sharam's Realm 2 [Difficult]",
     },
-    [12010131] = {
-        id = 12010131,
-        text = "Kerubiel",
+    [12010129] = {
+        id = 12010129,
+        text = "Kerubiel Contribution Rewards",
     },
     [27155] = {
         id = 27155,
@@ -22427,10 +22527,6 @@ return {
         id = 14110284,
         text = "A mysterious letter from Sharam's World. Use it to unlock Sharam team instances. Players can get 3 free invitations daily at 6:00. Each player can keep at most 10 invitations.",
     },
-    [30328] = {
-        id = 30328,
-        text = "",
-    },
     [14110283] = {
         id = 14110283,
         text = "Sharam Invitation",
@@ -22442,6 +22538,10 @@ return {
     [14110281] = {
         id = 14110281,
         text = "5. Rules of the mini map on the top right:",
+    },
+    [30328] = {
+        id = 30328,
+        text = "",
     },
     [14110280] = {
         id = 14110280,
@@ -22455,9 +22555,9 @@ return {
         id = 14110278,
         text = "2. Each area has instances of 3 difficulties that grant gems for Spirit enhancement.",
     },
-    [270447] = {
-        id = 270447,
-        text = "Offline",
+    [12010130] = {
+        id = 12010130,
+        text = "Here are your contribution rewards from the Kerubiel challenge event.",
     },
     [332021] = {
         id = 332021,
@@ -22483,10 +22583,6 @@ return {
         id = 14110271,
         text = "",
     },
-    [305001] = {
-        id = 305001,
-        text = "The Examiner",
-    },
     [14110270] = {
         id = 14110270,
         text = "World of Sharam",
@@ -22499,9 +22595,9 @@ return {
         id = 14110268,
         text = "",
     },
-    [305002] = {
-        id = 305002,
-        text = "The Adjudicator",
+    [305001] = {
+        id = 305001,
+        text = "The Examiner",
     },
     [14110267] = {
         id = 14110267,
@@ -22515,9 +22611,9 @@ return {
         id = 14110265,
         text = "<Kyouhei Kannazuki> The initiator of Runestone Challenge. Talk with him to start a team boss challenge.",
     },
-    [305003] = {
-        id = 305003,
-        text = "The Executor",
+    [305002] = {
+        id = 305002,
+        text = "The Adjudicator",
     },
     [14110264] = {
         id = 14110264,
@@ -22531,13 +22627,13 @@ return {
         id = 14110262,
         text = "Area cleared. Please wait for the team leader to select the next room.",
     },
-    [305004] = {
-        id = 305004,
-        text = "The Preacher",
+    [305003] = {
+        id = 305003,
+        text = "The Executor",
     },
-    [12010134] = {
-        id = 12010134,
-        text = "Mayuri",
+    [12010131] = {
+        id = 12010131,
+        text = "Kerubiel",
     },
     [1310196] = {
         id = 1310196,
@@ -22547,9 +22643,9 @@ return {
         id = 14110259,
         text = "Random VS Runestone",
     },
-    [305005] = {
-        id = 305005,
-        text = "The Chanter of Sin",
+    [305004] = {
+        id = 305004,
+        text = "The Preacher",
     },
     [14110258] = {
         id = 14110258,
@@ -22563,9 +22659,9 @@ return {
         id = 14110256,
         text = "May get a random gem from class B to S.",
     },
-    [305006] = {
-        id = 305006,
-        text = "The Blind Executor",
+    [305005] = {
+        id = 305005,
+        text = "The Chanter of Sin",
     },
     [14110255] = {
         id = 14110255,
@@ -22575,65 +22671,65 @@ return {
         id = 14110254,
         text = "Use it to select a random class-S gem for any character",
     },
-    [12010135] = {
-        id = 12010135,
-        text = "BEGINNING",
+    [270447] = {
+        id = 270447,
+        text = "Offline",
     },
-    [305007] = {
-        id = 305007,
-        text = "Nazgul",
+    [305006] = {
+        id = 305006,
+        text = "The Blind Executor",
     },
     [14110252] = {
         id = 14110252,
         text = "Use it to select a random class-SSS blueprint and gem skill scroll for any character",
     },
-    [18041] = {
-        id = 18041,
-        text = "Cherry Hair Tie [Perfect]",
-    },
     [14110251] = {
         id = 14110251,
         text = "Use it to select a random class-SS blueprint and gem skill scroll for any character",
-    },
-    [305008] = {
-        id = 305008,
-        text = "Balogh",
     },
     [14110250] = {
         id = 14110250,
         text = "Use it to select a random class-S blueprint and gem skill scroll for any character",
     },
-    [20089] = {
-        id = 20089,
-        text = "Pure White",
+    [305007] = {
+        id = 305007,
+        text = "Nazgul",
     },
     [14110249] = {
         id = 14110249,
         text = "It contains 1000 Sharam Jewels and a random VS Runestone of B to S class.",
     },
-    [305009] = {
-        id = 305009,
-        text = "The Liberator",
+    [18041] = {
+        id = 18041,
+        text = "Cherry Hair Tie [Perfect]",
     },
     [14110248] = {
         id = 14110248,
         text = "It contains 500 Sharam Jewels and a random VS Runestone of C to A class.",
     },
+    [305008] = {
+        id = 305008,
+        text = "Balogh",
+    },
     [14110247] = {
         id = 14110247,
         text = "It contains 300 Sharam Jewels and a random VS Runestone of D to B class.",
+    },
+    [20089] = {
+        id = 20089,
+        text = "Pure White",
     },
     [14110246] = {
         id = 14110246,
         text = "Random S-SS Class Gem Scroll",
     },
-    [305010] = {
-        id = 305010,
-        text = "Kerubiel",
+    [305009] = {
+        id = 305009,
+        text = "The Liberator",
     },
-    [12010136] = {
-        id = 12010136,
-        text = "RESCUE",
+    [12010134] = {
+        id = 12010134,
+        text = "Mayuri",
     },
     [1701717] = {
         id = 1701717,
@@ -22643,9 +22739,9 @@ return {
         id = 14110243,
         text = "SS-class Gem Choice Chest",
     },
-    [305011] = {
-        id = 305011,
-        text = "Snow Enemy",
+    [305010] = {
+        id = 305010,
+        text = "Kerubiel",
     },
     [14110242] = {
         id = 14110242,
@@ -22659,9 +22755,9 @@ return {
         id = 14110240,
         text = "SSS-class Scroll Choice Chest",
     },
-    [305012] = {
-        id = 305012,
-        text = "Snow Spirit",
+    [305011] = {
+        id = 305011,
+        text = "Snow Enemy",
     },
     [14110239] = {
         id = 14110239,
@@ -22675,9 +22771,9 @@ return {
         id = 14110237,
         text = "Advanced Challenge Pack",
     },
-    [305013] = {
-        id = 305013,
-        text = "Snowman",
+    [305012] = {
+        id = 305012,
+        text = "Snow Spirit",
     },
     [14110236] = {
         id = 14110236,
@@ -22691,9 +22787,9 @@ return {
         id = 14110234,
         text = "Confirm to return to the main screen?",
     },
-    [305014] = {
-        id = 305014,
-        text = "Nian Beast - Zi",
+    [305013] = {
+        id = 305013,
+        text = "Snowman",
     },
     [14110233] = {
         id = 14110233,
@@ -22707,21 +22803,37 @@ return {
         id = 14110231,
         text = "This [Sharam Gate] has connected the real world with another world. All players need to follow the leader's guide, find the final room and defeat the boss.",
     },
-    [305015] = {
-        id = 305015,
-        text = "Nian Beast - Sui",
+    [305014] = {
+        id = 305014,
+        text = "Nian Beast - Zi",
     },
     [14110230] = {
         id = 14110230,
         text = "This [Sharam Gate] has connected the real world with another world. All players need to follow the leader's guide, find the final room and defeat the boss.",
     },
-    [12010137] = {
-        id = 12010137,
-        text = "SALVATION",
+    [12010135] = {
+        id = 12010135,
+        text = "BEGINNING",
     },
     [1310194] = {
         id = 1310194,
         text = "Natsumi Search 19",
+    },
+    [305015] = {
+        id = 305015,
+        text = "Nian Beast - Sui",
+    },
+    [14110227] = {
+        id = 14110227,
+        text = "This [Sharam Gate] has connected the real world with another world. All players need to follow the leader's guide, find the final room and defeat the boss.",
+    },
+    [14110226] = {
+        id = 14110226,
+        text = "This [Sharam Gate] has connected the real world with another world. All players need to follow the leader's guide, find the final room and defeat the boss.",
+    },
+    [14110225] = {
+        id = 14110225,
+        text = "This [Sharam Gate] has connected the real world with another world. All players need to follow the leader's guide, find the final room and defeat the boss.",
     },
     [305016] = {
         id = 305016,
@@ -22829,7 +22941,7 @@ return {
     },
     [1220026] = {
         id = 1220026,
-        text = "A piece of [Plane Traveler] Sephira set",
+        text = "A piece of [Planar Traveler] Sephira set",
     },
     [1220027] = {
         id = 1220027,
@@ -22871,18 +22983,6 @@ return {
         id = 1220036,
         text = "Fate Bracelet*12",
     },
-    [14110227] = {
-        id = 14110227,
-        text = "This [Sharam Gate] has connected the real world with another world. All players need to follow the leader's guide, find the final room and defeat the boss.",
-    },
-    [14110226] = {
-        id = 14110226,
-        text = "This [Sharam Gate] has connected the real world with another world. All players need to follow the leader's guide, find the final room and defeat the boss.",
-    },
-    [14110225] = {
-        id = 14110225,
-        text = "This [Sharam Gate] has connected the real world with another world. All players need to follow the leader's guide, find the final room and defeat the boss.",
-    },
     [14110224] = {
         id = 14110224,
         text = "This [Sharam Gate] has connected the real world with another world. All players need to follow the leader's guide, find the final room and defeat the boss.",
@@ -22895,9 +22995,9 @@ return {
         id = 14110222,
         text = "This [Sharam Gate] has connected the real world with another world. All players need to follow the leader's guide, find the final room and defeat the boss.",
     },
-    [12010138] = {
-        id = 12010138,
-        text = "RESTART",
+    [12010136] = {
+        id = 12010136,
+        text = "RESCUE",
     },
     [14110220] = {
         id = 14110220,
@@ -23023,9 +23123,9 @@ return {
         id = 14110190,
         text = "Explore the [Sharam Gate] in this area. Find and defeat the area boss.",
     },
-    [12010139] = {
-        id = 12010139,
-        text = "Unlocked when Kerubiel Lv.1 challenge ends\n(Unlocks in advance when the server contribution bar of Kerubiel Lv.1 is full.)",
+    [12010137] = {
+        id = 12010137,
+        text = "SALVATION",
     },
     [14110188] = {
         id = 14110188,
@@ -23091,17 +23191,9 @@ return {
         id = 14110173,
         text = "Defeat the boss: BEELZEBUL",
     },
-    [17019] = {
-        id = 17019,
-        text = "Butter Bread",
-    },
     [14110172] = {
         id = 14110172,
         text = "Defeat the boss: Terminator",
-    },
-    [18043] = {
-        id = 18043,
-        text = "Fate Bracelet",
     },
     [14110171] = {
         id = 14110171,
@@ -23111,13 +23203,17 @@ return {
         id = 14110170,
         text = "Defeat the boss: SATANAS",
     },
+    [17019] = {
+        id = 17019,
+        text = "Butter Bread",
+    },
     [14110169] = {
         id = 14110169,
         text = "Defeat the boss: Kotori Itsuka",
     },
-    [20091] = {
-        id = 20091,
-        text = "Void Redemption",
+    [18043] = {
+        id = 18043,
+        text = "Fate Bracelet",
     },
     [14110168] = {
         id = 14110168,
@@ -23131,9 +23227,13 @@ return {
         id = 14110166,
         text = "Defeat the boss: Berserker Mecha",
     },
-    [213051] = {
-        id = 213051,
-        text = "Yoshino",
+    [20091] = {
+        id = 20091,
+        text = "Void Redemption",
+    },
+    [12010138] = {
+        id = 12010138,
+        text = "RESTART",
     },
     [22035] = {
         id = 22035,
@@ -23155,21 +23255,21 @@ return {
         id = 14110160,
         text = "Weekly reward chances from S-class runestone challenge",
     },
-    [290000042] = {
-        id = 290000042,
-        text = "Kotori got a rare vacation, which finally gave me the opportunity to spend a good day with her.",
+    [14110159] = {
+        id = 14110159,
+        text = "Daily reward chances from A-class runestone challenge",
     },
     [14110158] = {
         id = 14110158,
         text = "Daily reward chances from B-class runestone challenge",
     },
-    [12010141] = {
-        id = 12010141,
-        text = "Unlocked when Kerubiel Lv.3 challenge ends\n(Unlocks in advance when the server contribution bar of Kerubiel Lv.3 is full.)",
+    [12010139] = {
+        id = 12010139,
+        text = "Unlocked when Kerubiel Lv.1 challenge ends\n(Unlocks in advance when the server contribution bar of Kerubiel Lv.1 is full.)",
     },
-    [14110156] = {
-        id = 14110156,
-        text = "Daily reward chances from D-class runestone challenge",
+    [290000042] = {
+        id = 290000042,
+        text = "Kotori got a rare vacation, which finally gave me the opportunity to spend a good day with her.",
     },
     [14110155] = {
         id = 14110155,
@@ -23195,9 +23295,9 @@ return {
         id = 14110150,
         text = "Sharam Jewel",
     },
-    [12010142] = {
-        id = 12010142,
-        text = "You must reach level %s to start the challenge.",
+    [213051] = {
+        id = 213051,
+        text = "Yoshino",
     },
     [1310190] = {
         id = 1310190,
@@ -23243,10 +23343,6 @@ return {
         id = 14110138,
         text = "Confirm to return to the main screen?",
     },
-    [10046] = {
-        id = 10046,
-        text = "Burn",
-    },
     [14110137] = {
         id = 14110137,
         text = "Remaining: %sd %sh %sm",
@@ -23259,13 +23355,17 @@ return {
         id = 14110135,
         text = "Realm 10",
     },
+    [10046] = {
+        id = 10046,
+        text = "Burn",
+    },
     [14110134] = {
         id = 14110134,
         text = "Realm 9",
     },
-    [12010143] = {
-        id = 12010143,
-        text = "You must clear chapter %s in Mayuri theater to start the challenge.",
+    [12010141] = {
+        id = 12010141,
+        text = "Unlocked when Kerubiel Lv.3 challenge ends\n(Unlocks in advance when the server contribution bar of Kerubiel Lv.3 is full.)",
     },
     [1701723] = {
         id = 1701723,
@@ -23274,10 +23374,6 @@ return {
     [14110131] = {
         id = 14110131,
         text = "Realm 6",
-    },
-    [12094] = {
-        id = 12094,
-        text = "Student in Swim Suit - Female 1",
     },
     [14110130] = {
         id = 14110130,
@@ -23291,9 +23387,9 @@ return {
         id = 14110128,
         text = "Realm 3",
     },
-    [13118] = {
-        id = 13118,
-        text = "Special pack for the Autumn Fest! Open and get 1~5 Spirit Origins",
+    [12094] = {
+        id = 12094,
+        text = "Student in Swim Suit - Female 1",
     },
     [14110127] = {
         id = 14110127,
@@ -23303,9 +23399,13 @@ return {
         id = 14110126,
         text = "Realm 1",
     },
-    [12010144] = {
-        id = 12010144,
-        text = "Kerubiel",
+    [12010142] = {
+        id = 12010142,
+        text = "You must reach level %s to start the challenge.",
+    },
+    [13118] = {
+        id = 13118,
+        text = "Special pack for the Autumn Fest! Open and get 1~5 Spirit Origins",
     },
     [14110124] = {
         id = 14110124,
@@ -23335,9 +23435,9 @@ return {
         id = 14110118,
         text = "",
     },
-    [12010145] = {
-        id = 12010145,
-        text = "Theater Instance",
+    [12010143] = {
+        id = 12010143,
+        text = "You must clear chapter %s in Mayuri theater to start the challenge.",
     },
     [21011] = {
         id = 21011,
@@ -23347,17 +23447,9 @@ return {
         id = 14110115,
         text = "",
     },
-    [17020] = {
-        id = 17020,
-        text = "This simple blend of flour, soda and butter is loved by most people.",
-    },
     [14110114] = {
         id = 14110114,
         text = "",
-    },
-    [18044] = {
-        id = 18044,
-        text = "It is said that the bracelet woven of delicate ribbon can tell its wearer's fate",
     },
     [14110113] = {
         id = 14110113,
@@ -23367,13 +23459,17 @@ return {
         id = 14110112,
         text = "",
     },
+    [17020] = {
+        id = 17020,
+        text = "This simple blend of flour, soda and butter is loved by most people.",
+    },
     [14110111] = {
         id = 14110111,
         text = "",
     },
-    [20092] = {
-        id = 20092,
-        text = "Type: Costume\nOwner: Origami Tobiichi\nBringer of destruction and bad omen, an existence without sanity, a broken heart struggling in the abyss, Satan who tries to escape from the reality.",
+    [18044] = {
+        id = 18044,
+        text = "It is said that the bracelet woven of delicate ribbon can tell its wearer's fate",
     },
     [14110110] = {
         id = 14110110,
@@ -23386,6 +23482,10 @@ return {
     [14110108] = {
         id = 14110108,
         text = "",
+    },
+    [20092] = {
+        id = 20092,
+        text = "Type: Costume\nOwner: Origami Tobiichi\nBringer of destruction and bad omen, an existence without sanity, a broken heart struggling in the abyss, Satan who tries to escape from the reality.",
     },
     [14110107] = {
         id = 14110107,
@@ -23411,9 +23511,9 @@ return {
         id = 14110102,
         text = "",
     },
-    [12010146] = {
-        id = 12010146,
-        text = "1. Yoshino's theater challenge is unlocked at level 40. Accept the challenge to enjoy splendid stories as well as exciting battles. \n2. Theater mode contains 2 parts: date stages and battle stages. \n3. Your choices in the date will influence the story up next, will there be more romance or battles? It is all up to you!",
+    [12010144] = {
+        id = 12010144,
+        text = "Kerubiel",
     },
     [332016] = {
         id = 332016,
@@ -23443,9 +23543,9 @@ return {
         id = 14110094,
         text = "",
     },
-    [12010147] = {
-        id = 12010147,
-        text = "1. The Kerubiel challenge opens between 10:00 on Monday to 22:00 on Sunday. \n2. Players can get contribution by challenging Kerubiel, which will add to server contribution. When the server contribution is high enough, Kerubiel will become tougher. \n3. Players get 1 challenge chance every 8 hours. Performance in the challenge determines damage reward, individual contribution reward and server contribution reward. \n4. Rules to calculate individual contributions in challenges: Player's DMG dealt in the challenge determines the contribution they earn (up to 100 each time).\n5. Individual contribution rewards: After the battle ends, players get Gold and Spiritual Substances based on individual contribution and Kerubiel's difficulty. \n6. Server contribution rewards: After the server contribution meets the goal, the server chest will be activated on 22:00 - 23:30 Sunday for everyone who have joined at least one challenge (Unclaimed rewards will be mailed to them later). \n7. Besides, players can get first clearance rewards by defeating Kerubiel of each difficulty for the first time (Rewards vary based on difficulty).",
+    [12010145] = {
+        id = 12010145,
+        text = "Theater Instance",
     },
     [14110092] = {
         id = 14110092,
@@ -23475,9 +23575,9 @@ return {
         id = 14110086,
         text = "",
     },
-    [270448] = {
-        id = 270448,
-        text = "Impeach Leader",
+    [12010146] = {
+        id = 12010146,
+        text = "1. Yoshino's theater challenge is unlocked at level 40. Accept the challenge to enjoy splendid stories as well as exciting battles. \n2. Theater mode contains 2 parts: date stages and battle stages. \n3. Your choices in the date will influence the story up next, will there be more romance or battles? It is all up to you!",
     },
     [1310188] = {
         id = 1310188,
@@ -23503,14 +23603,6 @@ return {
         id = 14110079,
         text = "8. Player who start and join the instance get different rewards from the instance.",
     },
-    [1810001] = {
-        id = 1810001,
-        text = "Sign In",
-    },
-    [1810002] = {
-        id = 1810002,
-        text = "Signed in",
-    },
     [14110078] = {
         id = 14110078,
         text = "7. For team leaders, as long as they have enough VS Runestones, they can challenge instances and get rewards without such limit.",
@@ -23522,6 +23614,14 @@ return {
     [14110076] = {
         id = 14110076,
         text = "5. Each instance has a time limit, and it will disappear after it expires.",
+    },
+    [1810001] = {
+        id = 1810001,
+        text = "Sign In",
+    },
+    [1810002] = {
+        id = 1810002,
+        text = "Signed in",
     },
     [14110075] = {
         id = 14110075,
@@ -23547,9 +23647,9 @@ return {
         id = 14110070,
         text = "",
     },
-    [12010150] = {
-        id = 12010150,
-        text = "22:00 every Sunday",
+    [12010147] = {
+        id = 12010147,
+        text = "1. The Kerubiel challenge opens between 10:00 on Monday to 22:00 on Sunday. \n2. Players can get contribution by challenging Kerubiel, which will add to server contribution. When the server contribution is high enough, Kerubiel will become tougher. \n3. Players get 1 challenge chance every 8 hours. Performance in the challenge determines damage reward, individual contribution reward and server contribution reward. \n4. Rules to calculate individual contributions in challenges: Player's DMG dealt in the challenge determines the contribution they earn (up to 100 each time).\n5. Individual contribution rewards: After the battle ends, players get Gold and Spiritual Substances based on individual contribution and Kerubiel's difficulty. \n6. Server contribution rewards: After the server contribution meets the goal, the server chest will be activated on 22:00 - 23:30 Sunday for everyone who have joined at least one challenge (Unclaimed rewards will be mailed to them later). \n7. Besides, players can get first clearance rewards by defeating Kerubiel of each difficulty for the first time (Rewards vary based on difficulty).",
     },
     [14110068] = {
         id = 14110068,
@@ -23579,9 +23679,9 @@ return {
         id = 14110062,
         text = "2. Each chapter contains 3 stages that vary in difficulty.",
     },
-    [12010151] = {
-        id = 12010151,
-        text = "Challenge Info",
+    [270448] = {
+        id = 270448,
+        text = "Impeach Leader",
     },
     [14110060] = {
         id = 14110060,
@@ -23603,45 +23703,45 @@ return {
         id = 14110056,
         text = "1. Players can choose from Draw x1 and Draw x5.",
     },
+    [14110055] = {
+        id = 14110055,
+        text = "",
+    },
+    [14110054] = {
+        id = 14110054,
+        text = "",
+    },
+    [14110053] = {
+        id = 14110053,
+        text = "",
+    },
     [17021] = {
         id = 17021,
         text = "Butter Bread [Delicious]",
     },
-    [14110055] = {
-        id = 14110055,
+    [14110052] = {
+        id = 14110052,
         text = "",
     },
     [18045] = {
         id = 18045,
         text = "Fate Bracelet [Fine]",
     },
-    [14110054] = {
-        id = 14110054,
+    [14110051] = {
+        id = 14110051,
         text = "",
     },
     [19069] = {
         id = 19069,
         text = "Azalea Pendent",
     },
-    [14110053] = {
-        id = 14110053,
-        text = "",
+    [14110050] = {
+        id = 14110050,
+        text = "Challenge Rules",
     },
     [20093] = {
         id = 20093,
         text = "End of the World",
-    },
-    [14110052] = {
-        id = 14110052,
-        text = "",
-    },
-    [14110051] = {
-        id = 14110051,
-        text = "",
-    },
-    [14110050] = {
-        id = 14110050,
-        text = "Challenge Rules",
     },
     [14110049] = {
         id = 14110049,
@@ -23659,9 +23759,9 @@ return {
         id = 14110046,
         text = "S Class VS Runestone - Flame",
     },
-    [12010152] = {
-        id = 12010152,
-        text = "Resets on Mon",
+    [12010150] = {
+        id = 12010150,
+        text = "22:00 every Sunday",
     },
     [14110044] = {
         id = 14110044,
@@ -23686,6 +23786,18 @@ return {
     [14110039] = {
         id = 14110039,
         text = "A Class VS Runestone - Wizardry",
+    },
+    [14110038] = {
+        id = 14110038,
+        text = "A Class VS Runestone - Pain",
+    },
+    [14110037] = {
+        id = 14110037,
+        text = "A Class VS Runestone - Dread",
+    },
+    [14110036] = {
+        id = 14110036,
+        text = "B Class VS Runestone - Flame",
     },
     [13300007] = {
         id = 13300007,
@@ -23839,18 +23951,6 @@ return {
         id = 13300277,
         text = "Tohka Inverse",
     },
-    [14110038] = {
-        id = 14110038,
-        text = "A Class VS Runestone - Pain",
-    },
-    [14110037] = {
-        id = 14110037,
-        text = "A Class VS Runestone - Dread",
-    },
-    [14110036] = {
-        id = 14110036,
-        text = "B Class VS Runestone - Flame",
-    },
     [14110035] = {
         id = 14110035,
         text = "B Class VS Runestone - Darkness",
@@ -23859,45 +23959,45 @@ return {
         id = 14110034,
         text = "B Class VS Runestone - Wizardry",
     },
-    [17022] = {
-        id = 17022,
-        text = "Delicious Food. This simple blend of flour, soda and butter is loved by most people.",
-    },
     [14110033] = {
         id = 14110033,
         text = "B Class VS Runestone - Pain",
-    },
-    [18046] = {
-        id = 18046,
-        text = "Fine crafted item. It is said that the bracelet woven of delicate ribbon can tell its wearer's fate",
     },
     [14110032] = {
         id = 14110032,
         text = "B Class VS Runestone - Dread",
     },
-    [19070] = {
-        id = 19070,
-        text = "The handcrafted flower of bright red and green seems to ooze infinite vitality.",
-    },
     [14110031] = {
         id = 14110031,
         text = "C Class VS Runestone - Flame",
     },
-    [20094] = {
-        id = 20094,
-        text = "Type: Costume\nOwner: Origami Tobiichi\nShe abandons all mundane emotion, including love and yearning. Standing at the end of the world with a destructive heart, she awaits for your redemption.",
+    [17022] = {
+        id = 17022,
+        text = "Delicious Food. This simple blend of flour, soda and butter is loved by most people.",
     },
     [14110030] = {
         id = 14110030,
         text = "C Class VS Runestone - Darkness",
     },
-    [12010153] = {
-        id = 12010153,
-        text = "Settlement Time:",
+    [18046] = {
+        id = 18046,
+        text = "Fine crafted item. It is said that the bracelet woven of delicate ribbon can tell its wearer's fate",
+    },
+    [12010151] = {
+        id = 12010151,
+        text = "Challenge Info",
+    },
+    [19070] = {
+        id = 19070,
+        text = "The handcrafted flower of bright red and green seems to ooze infinite vitality.",
     },
     [14110028] = {
         id = 14110028,
         text = "C Class VS Runestone - Pain",
+    },
+    [20094] = {
+        id = 20094,
+        text = "Type: Costume\nOwner: Origami Tobiichi\nShe abandons all mundane emotion, including love and yearning. Standing at the end of the world with a destructive heart, she awaits for your redemption.",
     },
     [14110027] = {
         id = 14110027,
@@ -23955,9 +24055,9 @@ return {
         id = 14110014,
         text = "S Class VS Runestone",
     },
-    [12010154] = {
-        id = 12010154,
-        text = "Refreshes tomorrow",
+    [12010152] = {
+        id = 12010152,
+        text = "Resets on Mon",
     },
     [14110012] = {
         id = 14110012,
@@ -23979,33 +24079,33 @@ return {
         id = 14110008,
         text = "Reset daily at 0:00",
     },
-    [12010159] = {
-        id = 12010159,
-        text = "Pray in the shrine.",
+    [270449] = {
+        id = 270449,
+        text = "Confirm to impeach the leader?",
     },
     [14110006] = {
         id = 14110006,
         text = "Treasure Log",
     },
-    [12010155] = {
-        id = 12010155,
-        text = "Meet with Mayuri.",
+    [12010153] = {
+        id = 12010153,
+        text = "Settlement Time:",
     },
     [14110004] = {
         id = 14110004,
         text = "Treasure Hunt %s Times",
     },
-    [270449] = {
-        id = 270449,
-        text = "Confirm to impeach the leader?",
+    [12010154] = {
+        id = 12010154,
+        text = "Refreshes tomorrow",
     },
     [14110002] = {
         id = 14110002,
         text = "Runestone challenge instance ended. Rewards have been mailed to you. Check your mailbox!",
     },
-    [12010158] = {
-        id = 12010158,
-        text = "Talk with Miku and Yoshino who has booked the whole area.",
+    [12010155] = {
+        id = 12010155,
+        text = "Meet with Mayuri.",
     },
     [13500103] = {
         id = 13500103,
@@ -24115,17 +24215,9 @@ return {
         id = 13500001,
         text = "Promise of White Feather (Fragment)",
     },
-    [17023] = {
-        id = 17023,
-        text = "Butter Bread [Exceptional]",
-    },
     [13410062] = {
         id = 13410062,
         text = "",
-    },
-    [18047] = {
-        id = 18047,
-        text = "Fate Bracelet [Perfect]",
     },
     [3205522] = {
         id = 3205522,
@@ -24135,13 +24227,17 @@ return {
         id = 13410060,
         text = "",
     },
+    [17023] = {
+        id = 17023,
+        text = "Butter Bread [Exceptional]",
+    },
     [13410059] = {
         id = 13410059,
         text = "",
     },
-    [20095] = {
-        id = 20095,
-        text = "Ehyeh",
+    [18047] = {
+        id = 18047,
+        text = "Fate Bracelet [Perfect]",
     },
     [13410058] = {
         id = 13410058,
@@ -24154,6 +24250,10 @@ return {
     [13410056] = {
         id = 13410056,
         text = "",
+    },
+    [20095] = {
+        id = 20095,
+        text = "Ehyeh",
     },
     [13410055] = {
         id = 13410055,
@@ -24255,9 +24355,9 @@ return {
         id = 3206002,
         text = "Ladder Deck-Bronze Ⅱ",
     },
-    [122000001] = {
-        id = 122000001,
-        text = "Gallery: unlocked %s",
+    [13410028] = {
+        id = 13410028,
+        text = "Stamina",
     },
     [13410027] = {
         id = 13410027,
@@ -24267,13 +24367,9 @@ return {
         id = 13410026,
         text = "Restore",
     },
-    [10048] = {
-        id = 10048,
-        text = "Charm",
-    },
-    [13410025] = {
-        id = 13410025,
-        text = "restore maid's stamina",
+    [122000001] = {
+        id = 122000001,
+        text = "Gallery: unlocked %s",
     },
     [13410024] = {
         id = 13410024,
@@ -24282,6 +24378,10 @@ return {
     [13410023] = {
         id = 13410023,
         text = "Feed",
+    },
+    [10048] = {
+        id = 10048,
+        text = "Charm",
     },
     [13410022] = {
         id = 13410022,
@@ -24299,10 +24399,6 @@ return {
         id = 13410019,
         text = "Bond Maids",
     },
-    [12096] = {
-        id = 12096,
-        text = "Student in Swim Suit - Female 3",
-    },
     [13410018] = {
         id = 13410018,
         text = "Filter",
@@ -24315,9 +24411,9 @@ return {
         id = 13410016,
         text = "Service Master",
     },
-    [13120] = {
-        id = 13120,
-        text = "Open and get 1~3 6-sided dices by random.",
+    [12096] = {
+        id = 12096,
+        text = "Student in Swim Suit - Female 3",
     },
     [13410015] = {
         id = 13410015,
@@ -24330,6 +24426,10 @@ return {
     [13410012] = {
         id = 13410012,
         text = "Feed",
+    },
+    [13120] = {
+        id = 13120,
+        text = "Open and get 1~3 6-sided dices by random.",
     },
     [13410011] = {
         id = 13410011,
@@ -24351,10 +24451,6 @@ return {
         id = 13410007,
         text = "Spending",
     },
-    [214001] = {
-        id = 214001,
-        text = "Wrong pack code",
-    },
     [13410006] = {
         id = 13410006,
         text = "Customer",
@@ -24367,17 +24463,33 @@ return {
         id = 3206005,
         text = "Ladder Deck-Silver Ⅱ",
     },
+    [214001] = {
+        id = 214001,
+        text = "Wrong pack code",
+    },
     [13410002] = {
         id = 13410002,
         text = "Store",
+    },
+    [3206006] = {
+        id = 3206006,
+        text = "Ladder Deck-Silver Ⅲ",
+    },
+    [13400263] = {
+        id = 13400263,
+        text = "",
+    },
+    [13400262] = {
+        id = 13400262,
+        text = "",
     },
     [17024] = {
         id = 17024,
         text = "Exceptional Food. This simple blend of flour, soda and butter is loved by most people.",
     },
-    [3206006] = {
-        id = 3206006,
-        text = "Ladder Deck-Silver Ⅲ",
+    [13400261] = {
+        id = 13400261,
+        text = "",
     },
     [18048] = {
         id = 18048,
@@ -24399,25 +24511,9 @@ return {
         id = 20096,
         text = "Type: Costume\nOwner: Origami Tobiichi\nWith the crown on her head and a white dress covering her body, Origami resolved herself to revenge with the awakening Spirit power.",
     },
-    [13400261] = {
-        id = 13400261,
-        text = "",
-    },
-    [13400259] = {
-        id = 13400259,
-        text = "Use it to exchange various items in the café.",
-    },
-    [13400258] = {
-        id = 13400258,
-        text = "Maid Hairband",
-    },
     [13400257] = {
         id = 13400257,
         text = "%.1f/min",
-    },
-    [214003] = {
-        id = 214003,
-        text = "Wrong platform for the gift code",
     },
     [13400256] = {
         id = 13400256,
@@ -24430,6 +24526,10 @@ return {
     [13400254] = {
         id = 13400254,
         text = "Stamina",
+    },
+    [214003] = {
+        id = 214003,
+        text = "Wrong platform for the gift code",
     },
     [13400253] = {
         id = 13400253,
@@ -24447,10 +24547,6 @@ return {
         id = 13400249,
         text = "Maid Café Daily Purchase Times",
     },
-    [214004] = {
-        id = 214004,
-        text = "Wrong channel for the gift code",
-    },
     [13400248] = {
         id = 13400248,
         text = "Omurice",
@@ -24462,6 +24558,10 @@ return {
     [13400246] = {
         id = 13400246,
         text = "Maids' stamina cost -80%, customer attraction -20%, cooking ability -20%.",
+    },
+    [214004] = {
+        id = 214004,
+        text = "Wrong channel for the gift code",
     },
     [13400245] = {
         id = 13400245,
@@ -24479,10 +24579,6 @@ return {
         id = 13400242,
         text = "Maids' stamina cost +400%, cooking ability +200%, customer attraction +200%.",
     },
-    [214005] = {
-        id = 214005,
-        text = "Gift code ineffective",
-    },
     [13400241] = {
         id = 13400241,
         text = "Maids' customer attraction +200%, cooking ability +200%.",
@@ -24494,6 +24590,10 @@ return {
     [13400239] = {
         id = 13400239,
         text = "Customers' spending power +1.",
+    },
+    [214005] = {
+        id = 214005,
+        text = "Gift code ineffective",
     },
     [13400238] = {
         id = 13400238,
@@ -24511,10 +24611,6 @@ return {
         id = 13400234,
         text = "Gemini Magic",
     },
-    [214006] = {
-        id = 214006,
-        text = "Gift code expired",
-    },
     [13400233] = {
         id = 13400233,
         text = "Max Popularity",
@@ -24526,6 +24622,10 @@ return {
     [13400231] = {
         id = 13400231,
         text = "Suspicious Dish",
+    },
+    [214006] = {
+        id = 214006,
+        text = "Gift code expired",
     },
     [13400230] = {
         id = 13400230,
@@ -24543,10 +24643,6 @@ return {
         id = 13400227,
         text = "Food Fight",
     },
-    [214007] = {
-        id = 214007,
-        text = "This gift code has been claimed too many times and expired.",
-    },
     [13400201] = {
         id = 13400201,
         text = "A cute girl seeming from a high school nearby as a part-timer. Though inexperienced, she works hard and learns fast.",
@@ -24558,6 +24654,10 @@ return {
     [13400199] = {
         id = 13400199,
         text = "A cute maid that seldom shows herself to customers. Her daily magic performance at 20:00 is the highlight of the café.",
+    },
+    [214007] = {
+        id = 214007,
+        text = "This gift code has been claimed too many times and expired.",
     },
     [13400198] = {
         id = 13400198,
@@ -24575,10 +24675,6 @@ return {
         id = 13400195,
         text = "A diligent girl, excel in turning all sorts of ingredients into terrible casserole.",
     },
-    [214008] = {
-        id = 214008,
-        text = "Reservation reward already claimed. Cannot claim again.",
-    },
     [13400194] = {
         id = 13400194,
         text = "A very careful maid who tries to keep everything in place in the store, but it's only a wish...",
@@ -24590,6 +24686,10 @@ return {
     [13400192] = {
         id = 13400192,
         text = "A maid with an murderous aura. Despite her striking beauty, one would know better than to approach her carelessly.",
+    },
+    [214008] = {
+        id = 214008,
+        text = "Reservation reward already claimed. Cannot claim again.",
     },
     [13400191] = {
         id = 13400191,
@@ -24627,45 +24727,45 @@ return {
         id = 13400183,
         text = "A normal looking maid who has no resistance to handsome mature men. The way she talks suggests she is knowledgeable.",
     },
-    [17025] = {
-        id = 17025,
-        text = "Pudding Cake",
-    },
     [13400182] = {
         id = 13400182,
         text = "A maid with round face and pigtail, she adores the maid \"Dating Master\" and is always with her.",
-    },
-    [18049] = {
-        id = 18049,
-        text = "Squirrel Hair Clip",
     },
     [13400181] = {
         id = 13400181,
         text = "A capable maid with ponytail. She is always enthusiastic towards handsome young guests and worries about her future marriage.",
     },
-    [19073] = {
-        id = 19073,
-        text = "Blue Beauty",
-    },
     [13400156] = {
         id = 13400156,
         text = "N/A",
     },
-    [20097] = {
-        id = 20097,
-        text = "Moon and Flower",
+    [17025] = {
+        id = 17025,
+        text = "Pudding Cake",
     },
     [13400155] = {
         id = 13400155,
         text = "Gourmet Service",
     },
+    [18049] = {
+        id = 18049,
+        text = "Squirrel Hair Clip",
+    },
     [13400154] = {
         id = 13400154,
         text = "Magic Performance",
     },
+    [19073] = {
+        id = 19073,
+        text = "Blue Beauty",
+    },
     [13400153] = {
         id = 13400153,
         text = "Skin Care",
+    },
+    [20097] = {
+        id = 20097,
+        text = "Moon and Flower",
     },
     [13400152] = {
         id = 13400152,
@@ -24811,10 +24911,6 @@ return {
         id = 13400093,
         text = "Deluxe Seafood",
     },
-    [12097] = {
-        id = 12097,
-        text = "Bakery Staff - Male",
-    },
     [13400092] = {
         id = 13400092,
         text = "Mango Shaved Ice",
@@ -24827,9 +24923,9 @@ return {
         id = 13400066,
         text = "N/A",
     },
-    [13121] = {
-        id = 13121,
-        text = "Autumn Fest Special Dice Pack",
+    [12097] = {
+        id = 12097,
+        text = "Bakery Staff - Male",
     },
     [13400065] = {
         id = 13400065,
@@ -24842,6 +24938,10 @@ return {
     [13400063] = {
         id = 13400063,
         text = "Porcelain Doll",
+    },
+    [13121] = {
+        id = 13121,
+        text = "Autumn Fest Special Dice Pack",
     },
     [13400062] = {
         id = 13400062,
@@ -24858,6 +24958,18 @@ return {
     [13400059] = {
         id = 13400059,
         text = "Queen of Hearts",
+    },
+    [13400058] = {
+        id = 13400058,
+        text = "Sweet Commander",
+    },
+    [13400057] = {
+        id = 13400057,
+        text = "Private Cat Girl",
+    },
+    [13400056] = {
+        id = 13400056,
+        text = "Dating Master",
     },
     [111000053] = {
         id = 111000053,
@@ -24877,51 +24989,39 @@ return {
     },
     [111000101] = {
         id = 111000101,
-        text = "Obtained: Not obtained",
-    },
-    [13400051] = {
-        id = 13400051,
-        text = "Herbivore Manhunter",
-    },
-    [17026] = {
-        id = 17026,
-        text = "Made from many kinds of fruit. Just one bite and you will fall for it.",
-    },
-    [10103119] = {
-        id = 10103119,
-        text = "Skill CD of Tohka is reduced. \n[Sky Breaker]: Skill CD -2s; \n[Moon Striker]: Skill CD -1s; \n[Sword Elegy]: Skill CD -3s.",
-    },
-    [18050] = {
-        id = 18050,
-        text = "The hair clip with a squirrel accessory is a perfect match to a lively day.",
-    },
-    [13400047] = {
-        id = 13400047,
-        text = "Pigtailed Follower",
-    },
-    [19074] = {
-        id = 19074,
-        text = "Perfect crafted item. The beautiful flower becomes a best seller because it is easy to grow and hard to die.",
+        text = "Obtained: %s",
     },
     [13400046] = {
         id = 13400046,
         text = "Outspoken Girl",
     },
-    [20098] = {
-        id = 20098,
-        text = "Type: Costume\nOwner: Kotori Itsuka\nNo matter it is a moon-lit night or flower-blossoming morning... I will spend it with you.",
+    [17026] = {
+        id = 17026,
+        text = "Made from many kinds of fruit. Just one bite and you will fall for it.",
     },
     [3210048] = {
         id = 3210048,
         text = "Elemental DMG +13%",
     },
+    [18050] = {
+        id = 18050,
+        text = "The hair clip with a squirrel accessory is a perfect match to a lively day.",
+    },
     [13400019] = {
         id = 13400019,
         text = "Natsumi",
     },
+    [19074] = {
+        id = 19074,
+        text = "Perfect crafted item. The beautiful flower becomes a best seller because it is easy to grow and hard to die.",
+    },
     [13400018] = {
         id = 13400018,
         text = "Yoshino",
+    },
+    [20098] = {
+        id = 20098,
+        text = "Type: Costume\nOwner: Kotori Itsuka\nNo matter it is a moon-lit night or flower-blossoming morning... I will spend it with you.",
     },
     [13400017] = {
         id = 13400017,
@@ -24946,6 +25046,18 @@ return {
     [13400010] = {
         id = 13400010,
         text = "Tohka",
+    },
+    [13400009] = {
+        id = 13400009,
+        text = "Ellen",
+    },
+    [13400008] = {
+        id = 13400008,
+        text = "Mii",
+    },
+    [13400007] = {
+        id = 13400007,
+        text = "Mai",
     },
     [14220006] = {
         id = 14220006,
@@ -24997,7 +25109,7 @@ return {
     },
     [14220076] = {
         id = 14220076,
-        text = "Here are your unclaimed rewards from the Growth Guardian event.",
+        text = "Here are your unclaimed rewards from the Heart Stealer event.",
     },
     [14220110] = {
         id = 14220110,
@@ -25011,37 +25123,25 @@ return {
         id = 14220100,
         text = "Win in Daily Instance 2 times",
     },
-    [900783] = {
-        id = 900783,
-        text = "Kurumi 3 Details",
-    },
-    [13311707] = {
-        id = 13311707,
-        text = "I heard something terrible up ahead. I should know better than go there...",
-    },
-    [900021] = {
-        id = 900021,
-        text = "Tohka Main CG2",
-    },
-    [13200330] = {
-        id = 13200330,
-        text = "Gift Store",
+    [13200327] = {
+        id = 13200327,
+        text = "Surfboard Rental",
     },
     [900782] = {
         id = 900782,
         text = "Kurumi 3 Title",
     },
-    [11301094] = {
-        id = 11301094,
-        text = "CD Reduction",
+    [13200329] = {
+        id = 13200329,
+        text = "Gift Store",
     },
     [900781] = {
         id = 900781,
         text = "Destined Farewell",
     },
-    [13200329] = {
-        id = 13200329,
-        text = "Gift Store",
+    [13200326] = {
+        id = 13200326,
+        text = "Surfboard Rental",
     },
     [13311601] = {
         id = 13311601,
@@ -25059,9 +25159,9 @@ return {
         id = 13311598,
         text = "Harvest - Winter Preparation 7",
     },
-    [1325313] = {
-        id = 1325313,
-        text = "%.2d:%.2d:%.2d",
+    [306022] = {
+        id = 306022,
+        text = "5-2",
     },
     [1326376] = {
         id = 1326376,
@@ -25123,9 +25223,9 @@ return {
         id = 13311582,
         text = "Harvest - Baked Sweet Potato 5",
     },
-    [11000326] = {
-        id = 11000326,
-        text = "When I grow up, will my chest get bigger....",
+    [13200334] = {
+        id = 13200334,
+        text = "Gift Store",
     },
     [30202] = {
         id = 30202,
@@ -25139,45 +25239,45 @@ return {
         id = 13311578,
         text = "Harvest - Winter Preparation 1",
     },
-    [17027] = {
-        id = 17027,
-        text = "Pudding Cake [Delicious]",
-    },
     [13311577] = {
         id = 13311577,
         text = "Harvest - Baked Ginkgo Nut 3",
-    },
-    [18051] = {
-        id = 18051,
-        text = "Squirrel Hair Clip [Fine]",
     },
     [13311576] = {
         id = 13311576,
         text = "Harvest - Baked Ginkgo Nut 2",
     },
-    [19075] = {
-        id = 19075,
-        text = "Starry Sky Decoration",
-    },
     [13311575] = {
         id = 13311575,
         text = "Harvest - Baked Ginkgo Nut 1",
     },
-    [20099] = {
-        id = 20099,
-        text = "",
+    [17027] = {
+        id = 17027,
+        text = "Pudding Cake [Delicious]",
     },
     [13311574] = {
         id = 13311574,
         text = "Harvest - Baked Sweet Potato 3",
     },
-    [441092] = {
-        id = 441092,
-        text = "Holy DMG Bonus +20%",
+    [18051] = {
+        id = 18051,
+        text = "Squirrel Hair Clip [Fine]",
+    },
+    [13200335] = {
+        id = 13200335,
+        text = "Activity: %d",
+    },
+    [19075] = {
+        id = 19075,
+        text = "Starry Sky Decoration",
     },
     [900771] = {
         id = 900771,
         text = "Origami 3 Details",
+    },
+    [20099] = {
+        id = 20099,
+        text = "",
     },
     [13311571] = {
         id = 13311571,
@@ -25203,9 +25303,9 @@ return {
         id = 13311566,
         text = "Harvest - Baked Ginkgo Nut",
     },
-    [290000043] = {
-        id = 290000043,
-        text = "Special Gift",
+    [1325313] = {
+        id = 1325313,
+        text = "%.2d:%.2d:%.2d",
     },
     [1023643] = {
         id = 1023643,
@@ -25215,9 +25315,9 @@ return {
         id = 13311563,
         text = "It's called Takoyaki but it has nothing to do with Taki... Hmm? Ahaha! I didn't say anything~",
     },
-    [13311562] = {
-        id = 13311562,
-        text = "Be careful... is it hot...? Th-thank you... Aww... yummy...",
+    [290000043] = {
+        id = 290000043,
+        text = "Special Gift",
     },
     [13311561] = {
         id = 13311561,
@@ -25235,9 +25335,9 @@ return {
         id = 13311558,
         text = "I found this there. What is it? Lucky?... I don't quite get it...",
     },
-    [1325309] = {
-        id = 1325309,
-        text = "Buy Spirit Covenant to claim",
+    [11000326] = {
+        id = 11000326,
+        text = "When I grow up, will my chest get bigger....",
     },
     [900770] = {
         id = 900770,
@@ -25267,9 +25367,9 @@ return {
         id = 13311550,
         text = "Is this feeling while waiting called \"anticipation\"?",
     },
-    [11000401] = {
-        id = 11000401,
-        text = "I like it very much!",
+    [441092] = {
+        id = 441092,
+        text = "Holy DMG Bonus +20%",
     },
     [1023642] = {
         id = 1023642,
@@ -25299,9 +25399,9 @@ return {
         id = 13311542,
         text = "No grilled turtle or beef pizzle? What a shame.",
     },
-    [441087] = {
-        id = 441087,
-        text = "Overall DMG Bonus +6%, Overall DMG Mitigation +6%",
+    [10701114] = {
+        id = 10701114,
+        text = "Recuperate",
     },
     [13311540] = {
         id = 13311540,
@@ -25323,10 +25423,6 @@ return {
         id = 13311536,
         text = "Takoyaki",
     },
-    [12098] = {
-        id = 12098,
-        text = "Bakery Staff - Female",
-    },
     [13311535] = {
         id = 13311535,
         text = "Takoyaki",
@@ -25335,13 +25431,13 @@ return {
         id = 13311534,
         text = "Praying Room",
     },
-    [13210008] = {
-        id = 13210008,
-        text = "Steps Reward",
+    [1325309] = {
+        id = 1325309,
+        text = "Buy Spirit Covenant to claim",
     },
-    [13122] = {
-        id = 13122,
-        text = "Open and get 1 6-sided dice and 1 random item card. Has a chance to grant 1 special dice (Speed Dice, Slow Dice, Tele Dice)",
+    [12098] = {
+        id = 12098,
+        text = "Bakery Staff - Female",
     },
     [900769] = {
         id = 900769,
@@ -25354,6 +25450,10 @@ return {
     [13311530] = {
         id = 13311530,
         text = "Praying Room",
+    },
+    [13122] = {
+        id = 13122,
+        text = "Open and get 1 6-sided dice and 1 random item card. Has a chance to grant 1 special dice (Speed Dice, Slow Dice, Tele Dice)",
     },
     [13311529] = {
         id = 13311529,
@@ -25371,9 +25471,9 @@ return {
         id = 13311526,
         text = "Bus Station",
     },
-    [13210009] = {
-        id = 13210009,
-        text = "Start",
+    [11000401] = {
+        id = 11000401,
+        text = "I like it very much!",
     },
     [900001] = {
         id = 900001,
@@ -25395,45 +25495,45 @@ return {
         id = 13311520,
         text = "Food Stall",
     },
-    [17028] = {
-        id = 17028,
-        text = "Delicious Food. Made from many kinds of fruit. Just one bite and you will fall for it.",
-    },
     [13311519] = {
         id = 13311519,
         text = "BBQ Joint",
-    },
-    [18052] = {
-        id = 18052,
-        text = "Fine crafted item. The hair clip with a squirrel accessory is a perfect match to a lively day.",
     },
     [13311518] = {
         id = 13311518,
         text = "BBQ Joint",
     },
-    [19076] = {
-        id = 19076,
-        text = "The flower blossoms are like stars in the sky. It is one of the most robust decorations.",
+    [441087] = {
+        id = 441087,
+        text = "Overall DMG Bonus +6%, Overall DMG Mitigation +6%",
     },
-    [13210010] = {
-        id = 13210010,
-        text = "Drawing Lottery",
-    },
-    [20100] = {
-        id = 20100,
-        text = "",
+    [17028] = {
+        id = 17028,
+        text = "Delicious Food. Made from many kinds of fruit. Just one bite and you will fall for it.",
     },
     [1701897] = {
         id = 1701897,
         text = "[Instance] 7-26",
     },
+    [18052] = {
+        id = 18052,
+        text = "Fine crafted item. The hair clip with a squirrel accessory is a perfect match to a lively day.",
+    },
     [13311515] = {
         id = 13311515,
         text = "A fragment of the costume [Starry Night]. Use it to exchange costumes in the Autumn Harvest Store.",
     },
+    [19076] = {
+        id = 19076,
+        text = "The flower blossoms are like stars in the sky. It is one of the most robust decorations.",
+    },
     [13311514] = {
         id = 13311514,
         text = "Starry Night Fragment",
+    },
+    [20100] = {
+        id = 20100,
+        text = "",
     },
     [13311513] = {
         id = 13311513,
@@ -25451,9 +25551,9 @@ return {
         id = 1701899,
         text = "Mayuri Theater 3-14",
     },
-    [13210011] = {
-        id = 13210011,
-        text = "Play %s more times to earn guaranteed rewards in the purple or orange slot",
+    [13210008] = {
+        id = 13210008,
+        text = "Steps Reward",
     },
     [27106] = {
         id = 27106,
@@ -25466,6 +25566,18 @@ return {
     [13311506] = {
         id = 13311506,
         text = "Baked Sweet Potato [Event]",
+    },
+    [13210010] = {
+        id = 13210010,
+        text = "Drawing Lottery",
+    },
+    [900766] = {
+        id = 900766,
+        text = "Chapter 1",
+    },
+    [13311503] = {
+        id = 13311503,
+        text = "An intact ginkgo leaf that makes a perfect bookmark.",
     },
     [100000057] = {
         id = 100000057,
@@ -25498,18 +25610,6 @@ return {
     [100000297] = {
         id = 100000297,
         text = "在精灵试炼中战胜%s次灭杀皇十香",
-    },
-    [13311239] = {
-        id = 13311239,
-        text = "This coin has been scratched by some sharp objects.",
-    },
-    [13311238] = {
-        id = 13311238,
-        text = "Actually, this flower doesn't feed on human corpse at all.",
-    },
-    [13311237] = {
-        id = 13311237,
-        text = "A shabby coat that may shield you from rain.",
     },
     [13311236] = {
         id = 13311236,
@@ -25651,45 +25751,45 @@ return {
         id = 13311202,
         text = "Electronic Organ",
     },
-    [17029] = {
-        id = 17029,
-        text = "Pudding Cake [Exceptional]",
-    },
     [13311201] = {
         id = 13311201,
         text = "Battery",
-    },
-    [18053] = {
-        id = 18053,
-        text = "Squirrel Hair Clip [Perfect]",
     },
     [13311200] = {
         id = 13311200,
         text = "Electronic Organ Back",
     },
-    [19077] = {
-        id = 19077,
-        text = "Flower Wreath",
-    },
     [13311199] = {
         id = 13311199,
         text = "Walkman (Off)",
     },
-    [20101] = {
-        id = 20101,
-        text = "Neptune",
+    [17029] = {
+        id = 17029,
+        text = "Pudding Cake [Exceptional]",
     },
     [13311198] = {
         id = 13311198,
         text = "Tape",
     },
+    [18053] = {
+        id = 18053,
+        text = "Squirrel Hair Clip [Perfect]",
+    },
     [13311197] = {
         id = 13311197,
         text = "Walkman",
     },
+    [19077] = {
+        id = 19077,
+        text = "Flower Wreath",
+    },
     [17146] = {
         id = 17146,
         text = "The smart combo of well-roasted sausage, fruit and vegetable will keep you eating!",
+    },
+    [20101] = {
+        id = 20101,
+        text = "Neptune",
     },
     [13311195] = {
         id = 13311195,
@@ -25835,10 +25935,6 @@ return {
         id = 13311160,
         text = "You lose less AP when exploration leads to no discoveries. - Can't we just bring all these first-aid kits with us? Maybe the next wave of zombies will...",
     },
-    [12099] = {
-        id = 12099,
-        text = "Beverage Store Staff - Male",
-    },
     [13311159] = {
         id = 13311159,
         text = "Sport Shoes",
@@ -25851,9 +25947,9 @@ return {
         id = 13311157,
         text = "Map",
     },
-    [13123] = {
-        id = 13123,
-        text = "Random Gem Resource Chest",
+    [12099] = {
+        id = 12099,
+        text = "Beverage Store Staff - Male",
     },
     [23004] = {
         id = 23004,
@@ -25866,6 +25962,10 @@ return {
     [13311154] = {
         id = 13311154,
         text = "Recipe",
+    },
+    [13123] = {
+        id = 13123,
+        text = "Random Gem Resource Chest",
     },
     [13311153] = {
         id = 13311153,
@@ -25907,45 +26007,45 @@ return {
         id = 13311144,
         text = "This candy tastes... argh, bitter! You can find it near the park or in the shopping mall.",
     },
-    [17030] = {
-        id = 17030,
-        text = "Exceptional Food. Made from many kinds of fruit. Just one bite and you will fall for it.",
-    },
     [13311143] = {
         id = 13311143,
         text = "A sweet candy! You can find it in the amusement park or the Spirits Apartment.",
-    },
-    [18054] = {
-        id = 18054,
-        text = "Perfect crafted item. The hair clip with a squirrel accessory is a perfect match to a lively day.",
     },
     [13311142] = {
         id = 13311142,
         text = "Just roast it a bit and it will become delicious! You can find it on the seashore or in the hot spring.",
     },
-    [19078] = {
-        id = 19078,
-        text = "The wreath carefully made with many kinds of flowers exudes an impressive fragrance.",
-    },
     [13311141] = {
         id = 13311141,
         text = "A piece of wire that you can see anywhere. No idea what is its use. You can find it in the shrine or hotel room.",
     },
-    [20102] = {
-        id = 20102,
-        text = "Type: Costume\nOwner: Neptune\nNeptune's classic clothes is only for protagonist. See? Neptune is super awesome!",
+    [17030] = {
+        id = 17030,
+        text = "Exceptional Food. Made from many kinds of fruit. Just one bite and you will fall for it.",
     },
     [900743] = {
         id = 900743,
         text = "Sun",
     },
+    [18054] = {
+        id = 18054,
+        text = "Perfect crafted item. The hair clip with a squirrel accessory is a perfect match to a lively day.",
+    },
     [13311139] = {
         id = 13311139,
         text = "This drinking water seems clean... probably... you can find it in the hot spring or shrine.",
     },
+    [19078] = {
+        id = 19078,
+        text = "The wreath carefully made with many kinds of flowers exudes an impressive fragrance.",
+    },
     [13311138] = {
         id = 13311138,
         text = "This looks fresh... hopefully... You can find it in your home or in the park.",
+    },
+    [20102] = {
+        id = 20102,
+        text = "Type: Costume\nOwner: Neptune\nNeptune's classic clothes is only for protagonist. See? Neptune is super awesome!",
     },
     [13311137] = {
         id = 13311137,
@@ -26091,9 +26191,9 @@ return {
         id = 13311102,
         text = "One-off Key",
     },
-    [13300019] = {
-        id = 13300019,
-        text = "Birthday Tradition",
+    [13300016] = {
+        id = 13300016,
+        text = "Unexpected Forbearance",
     },
     [260015] = {
         id = 260015,
@@ -26155,53 +26255,53 @@ return {
         id = 13311086,
         text = "The legs of a ballerina doll.",
     },
-    [1710018] = {
-        id = 1710018,
-        text = "Rapport reaches 180",
+    [13300017] = {
+        id = 13300017,
+        text = "Tohka's Concern",
     },
     [23001] = {
         id = 23001,
         text = "Support Souvenir Coin",
     },
-    [17031] = {
-        id = 17031,
-        text = "Kinako Bread",
-    },
     [13311083] = {
         id = 13311083,
         text = "The body of a ballerina doll.",
-    },
-    [18055] = {
-        id = 18055,
-        text = "Bunny Plushy",
     },
     [13311082] = {
         id = 13311082,
         text = "The key card to the rooftop of the school.",
     },
-    [19079] = {
-        id = 19079,
-        text = "Rose Bouquet",
-    },
     [13311081] = {
         id = 13311081,
         text = "A coin emblazoned with an angel.",
     },
-    [20103] = {
-        id = 20103,
-        text = "Protagonist's Weekend",
+    [17031] = {
+        id = 17031,
+        text = "Kinako Bread",
     },
     [13311080] = {
         id = 13311080,
         text = "A coin emblazoned with an angel.",
     },
+    [18055] = {
+        id = 18055,
+        text = "Bunny Plushy",
+    },
     [13311079] = {
         id = 13311079,
         text = "A coin emblazoned with a demon.",
     },
+    [19079] = {
+        id = 19079,
+        text = "Rose Bouquet",
+    },
     [13311078] = {
         id = 13311078,
         text = "A coin emblazoned with a demon.",
+    },
+    [20103] = {
+        id = 20103,
+        text = "Protagonist's Weekend",
     },
     [13311077] = {
         id = 13311077,
@@ -26235,9 +26335,9 @@ return {
         id = 13311070,
         text = "It's three times more expensive than common kinako bread!",
     },
-    [13300022] = {
-        id = 13300022,
-        text = "Kotori's Feelings",
+    [13300018] = {
+        id = 13300018,
+        text = "Share the Sweetness",
     },
     [1701913] = {
         id = 1701913,
@@ -26267,9 +26367,9 @@ return {
         id = 13311062,
         text = "Doll Body",
     },
-    [13300023] = {
-        id = 13300023,
-        text = "Joy of Gliding",
+    [13300019] = {
+        id = 13300019,
+        text = "Birthday Tradition",
     },
     [28120] = {
         id = 28120,
@@ -26299,9 +26399,9 @@ return {
         id = 13311054,
         text = "Trap Box",
     },
-    [13300024] = {
-        id = 13300024,
-        text = "New Swimsuit",
+    [1710018] = {
+        id = 1710018,
+        text = "Rapport reaches 180",
     },
     [260014] = {
         id = 260014,
@@ -26331,9 +26431,9 @@ return {
         id = 13311046,
         text = "It looks suspicious up ahead! Shouldn't we take a look there?!",
     },
-    [13300025] = {
-        id = 13300025,
-        text = "Childhood Gift",
+    [13300022] = {
+        id = 13300022,
+        text = "Kotori's Feelings",
     },
     [1210006] = {
         id = 1210006,
@@ -26347,10 +26447,6 @@ return {
         id = 13311042,
         text = "Recipe 6",
     },
-    [12100] = {
-        id = 12100,
-        text = "Beverage Store Staff - Female",
-    },
     [13311041] = {
         id = 13311041,
         text = "Recipe 5",
@@ -26363,21 +26459,25 @@ return {
         id = 13311039,
         text = "Recipe 3",
     },
-    [13124] = {
-        id = 13124,
-        text = "Blue Rank Up Item Choice Chest",
+    [12100] = {
+        id = 12100,
+        text = "Beverage Store Staff - Female",
     },
     [13311038] = {
         id = 13311038,
         text = "Recipe 2",
     },
-    [13300026] = {
-        id = 13300026,
-        text = "A Tough Choice",
+    [13300023] = {
+        id = 13300023,
+        text = "Joy of Gliding",
     },
     [17123] = {
         id = 17123,
         text = "Fruit Pizza [Delicious]",
+    },
+    [13124] = {
+        id = 13124,
+        text = "Blue Rank Up Item Choice Chest",
     },
     [13311035] = {
         id = 13311035,
@@ -26403,9 +26503,9 @@ return {
         id = 13311030,
         text = "Material 8",
     },
-    [13300027] = {
-        id = 13300027,
-        text = "The Cat's Temptation",
+    [13300024] = {
+        id = 13300024,
+        text = "New Swimsuit",
     },
     [28127] = {
         id = 28127,
@@ -26419,45 +26519,45 @@ return {
         id = 13311026,
         text = "Material 4",
     },
-    [17032] = {
-        id = 17032,
-        text = "The bread isn't anything fancy, but you won't be able to stop once you take a bite.",
-    },
     [13311025] = {
         id = 13311025,
         text = "Material 3",
-    },
-    [18056] = {
-        id = 18056,
-        text = "Casting a glance at the smiling bunny doll alone makes you happy.",
     },
     [13311024] = {
         id = 13311024,
         text = "Material 2",
     },
-    [19080] = {
-        id = 19080,
-        text = "The bouquet made of well-selected roses is among the best gifts to express love, as it represents love.",
-    },
     [13311023] = {
         id = 13311023,
         text = "Material 1",
     },
-    [20104] = {
-        id = 20104,
-        text = "Type: Costume\nOwner: Neptune\nThis is Neptune's favorite night skirt. But the buttons in the middle are loose. Do you like it?",
+    [17032] = {
+        id = 17032,
+        text = "The bread isn't anything fancy, but you won't be able to stop once you take a bite.",
     },
     [13311022] = {
         id = 13311022,
         text = "Recipe 7",
     },
-    [1710017] = {
-        id = 1710017,
-        text = "Rapport reaches 150",
+    [18056] = {
+        id = 18056,
+        text = "Casting a glance at the smiling bunny doll alone makes you happy.",
+    },
+    [13300025] = {
+        id = 13300025,
+        text = "Childhood Gift",
+    },
+    [19080] = {
+        id = 19080,
+        text = "The bouquet made of well-selected roses is among the best gifts to express love, as it represents love.",
     },
     [1701915] = {
         id = 1701915,
         text = "[Daily] Tohka_Doll Shop",
+    },
+    [20104] = {
+        id = 20104,
+        text = "Type: Costume\nOwner: Neptune\nThis is Neptune's favorite night skirt. But the buttons in the middle are loose. Do you like it?",
     },
     [13311019] = {
         id = 13311019,
@@ -26483,9 +26583,9 @@ return {
         id = 13311014,
         text = "Material 13",
     },
-    [13300030] = {
-        id = 13300030,
-        text = "Sunlight is Bright",
+    [13300026] = {
+        id = 13300026,
+        text = "A Tough Choice",
     },
     [27102] = {
         id = 27102,
@@ -26507,9 +26607,9 @@ return {
         id = 13311008,
         text = "Material 7",
     },
-    [13300032] = {
-        id = 13300032,
-        text = "Share the Sweetness",
+    [1710017] = {
+        id = 1710017,
+        text = "Rapport reaches 150",
     },
     [1701917] = {
         id = 1701917,
@@ -26523,9 +26623,9 @@ return {
         id = 450021,
         text = "Insufficient Skill Points to upgrade! \n[Rankup] and [Upgrade] Spirits to gain more Skill Points!",
     },
-    [13300031] = {
-        id = 13300031,
-        text = "Tohka's Concern",
+    [13300027] = {
+        id = 13300027,
+        text = "The Cat's Temptation",
     },
     [28124] = {
         id = 28124,
@@ -26567,9 +26667,9 @@ return {
         id = 13310590,
         text = "Taking a deep breath, Origami hugged the old clothes tightly. This feels so familiar...",
     },
-    [1710014] = {
-        id = 1710014,
-        text = "Rapport reaches 80",
+    [13300057] = {
+        id = 13300057,
+        text = "Temporary Quest",
     },
     [13310588] = {
         id = 13310588,
@@ -26631,9 +26731,9 @@ return {
         id = 13310574,
         text = "On the day of miracle, I smelt alluringly sweet scent...",
     },
-    [13300062] = {
-        id = 13300062,
-        text = "Extra Gift",
+    [13300058] = {
+        id = 13300058,
+        text = "Tohka's Concern",
     },
     [217001] = {
         id = 217001,
@@ -26675,29 +26775,41 @@ return {
         id = 13310563,
         text = "While decorating the Christmas tree with Kotori and Tohka, I received an unexpected gift.",
     },
-    [17033] = {
-        id = 17033,
-        text = "Kinako Bread [Delicious]",
-    },
     [13310562] = {
         id = 13310562,
         text = "Like a Spirit, Mayuri strolls in the seas of flowers, coming into my world of fairy tale.",
-    },
-    [18057] = {
-        id = 18057,
-        text = "Bunny Doll [Fine]",
     },
     [13310561] = {
         id = 13310561,
         text = "I want to save Mayuri... and everyone else! What should I do?",
     },
+    [13310560] = {
+        id = 13310560,
+        text = "Why do I have to purchase the maid costumes?!... I'm totally confused!",
+    },
+    [17033] = {
+        id = 17033,
+        text = "Kinako Bread [Delicious]",
+    },
+    [13310559] = {
+        id = 13310559,
+        text = "The time moves forward, as our story goes. New Spirits will join DEM soon.",
+    },
+    [18057] = {
+        id = 18057,
+        text = "Bunny Doll [Fine]",
+    },
+    [13310558] = {
+        id = 13310558,
+        text = "Ribbons, balloons, and cake... Thank you for your company. Happy first anniversary!",
+    },
     [19081] = {
         id = 19081,
         text = "Sunflower Decoration",
     },
-    [13310560] = {
-        id = 13310560,
-        text = "Why do I have to purchase the maid costumes?!... I'm totally confused!",
+    [13300059] = {
+        id = 13300059,
+        text = "Unexpected Forbearance",
     },
     [20105] = {
         id = 20105,
@@ -26707,25 +26819,25 @@ return {
         id = 1020101,
         text = "Ah- Ah-",
     },
-    [13310559] = {
-        id = 13310559,
-        text = "The time moves forward, as our story goes. New Spirits will join DEM soon.",
+    [12904] = {
+        id = 12904,
+        text = "Crit Rate +10%, ATK Speed +10%",
     },
     [1020102] = {
         id = 1020102,
         text = "You still don't want to rest?",
     },
-    [13310558] = {
-        id = 13310558,
-        text = "Ribbons, balloons, and cake... Thank you for your company. Happy first anniversary!",
+    [13310555] = {
+        id = 13310555,
+        text = "Come to me! Praise me as you like! Hey! What exactly... is this weird request?!",
     },
     [1020103] = {
         id = 1020103,
         text = "I'm not giving up~",
     },
-    [13300063] = {
-        id = 13300063,
-        text = "Long-held Feelings",
+    [1110573] = {
+        id = 1110573,
+        text = "Blanc B Class Gem",
     },
     [1221001] = {
         id = 1221001,
@@ -26827,18 +26939,6 @@ return {
         id = 1221025,
         text = "Crimson Nightmare - Kurumi Tokisaki",
     },
-    [12904] = {
-        id = 12904,
-        text = "Crit Rate +10%, ATK Speed +10%",
-    },
-    [13310555] = {
-        id = 13310555,
-        text = "Come to me! Praise me as you like! Hey! What exactly... is this weird request?!",
-    },
-    [1110573] = {
-        id = 1110573,
-        text = "Blanc B Class Gem",
-    },
     [13310553] = {
         id = 13310553,
         text = "\"I am a Spirit. \" said the mysterious transfer student.",
@@ -26855,9 +26955,21 @@ return {
         id = 13310550,
         text = "As arranged by commander Kotori, I tried to contact the Spirit who caused the spatial quake.",
     },
-    [13300064] = {
-        id = 13300064,
-        text = "Sister's Reminder",
+    [1710014] = {
+        id = 1710014,
+        text = "Rapport reaches 80",
+    },
+    [13310547] = {
+        id = 13310547,
+        text = "Full of memories.",
+    },
+    [13310546] = {
+        id = 13310546,
+        text = "8/1/2019 - 8/17/2019",
+    },
+    [13310545] = {
+        id = 13310545,
+        text = "Anniversary Celebration",
     },
     [12101] = {
         id = 12101,
@@ -26867,9 +26979,9 @@ return {
         id = 1020121,
         text = "I want... I want more!",
     },
-    [13310547] = {
-        id = 13310547,
-        text = "Full of memories.",
+    [13310544] = {
+        id = 13310544,
+        text = "Dear Covenanters, \n Thanks to your support, Date A Live: Spirit Pledge is celebrating its 1st birthday. Thank you for your long term support. \n A year filled with intense romance, thanks to your support. \n A year filled with intense battles, thanks to your participation. \n A year filled with great establishments, thanks to your trust. \n We look forward to keeping the promise and creating more sweet memories with you. \n On this 1st anniversary, we promise that we will keep improving this great game and providing with more pleasant surprises. \n DAL: Dating Never Stops!",
     },
     [1020122] = {
         id = 1020122,
@@ -26883,18 +26995,6 @@ return {
         id = 1020123,
         text = "Fragrance of a girl~",
     },
-    [13310546] = {
-        id = 13310546,
-        text = "8/1/2019 - 8/17/2019",
-    },
-    [13310545] = {
-        id = 13310545,
-        text = "Anniversary Celebration",
-    },
-    [13310544] = {
-        id = 13310544,
-        text = "Dear Covenanters, \n Thanks to your support, Date A Live: Spirit Pledge is celebrating its 1st birthday. Thank you for your long term support. \n A year filled with intense romance, thanks to your support. \n A year filled with intense battles, thanks to your participation. \n A year filled with great establishments, thanks to your trust. \n We look forward to keeping the promise and creating more sweet memories with you. \n On this 1st anniversary, we promise that we will keep improving this great game and providing with more pleasant surprises. \n DAL: Dating Never Stops!",
-    },
     [13310543] = {
         id = 13310543,
         text = "Dear Covenanters, \n New semester has begun. Don't panic if you are caught by spatial quakes on your way to school. Follow the guide, go to the spatial quake Center, and get your waifu. \n Spirits and Ratatoskr are fully prepared for the new semester! Let our date begin!\n Crunching Hot Games",
@@ -26903,9 +27003,9 @@ return {
         id = 13310542,
         text = "Dear Covenanters, \nRatatoskr has found Origami Tobiichi's mood went south for unknown reasons and inversion seems inevitable. Emergency! Please get prepared for the inspection and stay safe. \n Hot Games that tries its best to make Origami look nice",
     },
-    [13300065] = {
-        id = 13300065,
-        text = "Gift from a Fan",
+    [13300062] = {
+        id = 13300062,
+        text = "Extra Gift",
     },
     [1701935] = {
         id = 1701935,
@@ -26931,13 +27031,25 @@ return {
         id = 13310535,
         text = "Dear Covenanters, \n Thanks to your support, this game has been going for 1 year. During this year, we have received many player feedback from many players and worked on our weakness. \n We will keep improving this game, providing better contents, better experience and making our community better. \n Thank you for the support along the way! Love you all!\n Dating never stops!\n The evergrowing Hot Games",
     },
+    [13310534] = {
+        id = 13310534,
+        text = "Dear Covenanters, \n Thanks to your support, this game has been going for 1 year. We have received many player feedback and made many refinements during this year. \n We have launched a number of Date A Live related projects, both online and offline, in various countries. Some received positive feedback and encouragement. Some didn't pan out well, but we still appreciated the honest feedback. Thank you for your long-term companionship and support! We'll keep on doing our best! \n Dating never stops\n The evergrowing Hot Games",
+    },
+    [13300063] = {
+        id = 13300063,
+        text = "Long-held Feelings",
+    },
+    [1110445] = {
+        id = 1110445,
+        text = "Ice Princess SSS Class Gem",
+    },
     [17034] = {
         id = 17034,
         text = "Delicious Food. The bread isn't anything fancy, but you won't be able to stop once you take a bite.",
     },
-    [13310534] = {
-        id = 13310534,
-        text = "Dear Covenanters, \n Thanks to your support, this game has been going for 1 year. We have received many player feedback and made many refinements during this year. \n We have launched a number of Date A Live related projects, both online and offline, in various countries. Some received positive feedback and encouragement. Some didn't pan out well, but we still appreciated the honest feedback. Thank you for your long-term companionship and support! We'll keep on doing our best! \n Dating never stops\n The evergrowing Hot Games",
+    [13310531] = {
+        id = 13310531,
+        text = "Dear Covenanters, \n In this early summer, we will be launching a major update with lots of splendid new features!\n We have prepared lots of new game modes and contents, including Sharam Gate, Fight for Territory and Runestone Challenge. We sincerely wish you would enjoy the update. \n We really appreciate your supports and tolerance!\n Dating never ends! Love you all!\n - Designer Sima",
     },
     [18058] = {
         id = 18058,
@@ -26963,18 +27075,6 @@ return {
         id = 1020133,
         text = "Commander in swimsuit, awesome!",
     },
-    [13300066] = {
-        id = 13300066,
-        text = "Exploratory Observation",
-    },
-    [1110445] = {
-        id = 1110445,
-        text = "Ice Princess SSS Class Gem",
-    },
-    [13310531] = {
-        id = 13310531,
-        text = "Dear Covenanters, \n In this early summer, we will be launching a major update with lots of splendid new features!\n We have prepared lots of new game modes and contents, including Sharam Gate, Fight for Territory and Runestone Challenge. We sincerely wish you would enjoy the update. \n We really appreciate your supports and tolerance!\n Dating never ends! Love you all!\n - Designer Sima",
-    },
     [13310530] = {
         id = 13310530,
         text = "Dear Covenanters, \n In this early summer, we will be launching a major update with lots of splendid new features! Here it comes, Date A Live 2.0!\n We have prepared lots of new game modes and contents in this latest version. We sincerely wish you would enjoy the update. \n Thank you for your support!\n Dating never stops!\n - Hot Games devs who have been crunching to bald",
@@ -26995,9 +27095,9 @@ return {
         id = 13310526,
         text = "Dear Covenanters, \n Thanks to everyone's support, Date A Live anime season 3 has started! Our waifus are alive and moving!\n We have been hard at work to promote DAL. We hope you will continue to support the series and us!\n Dating never ends!\n - Hot Games",
     },
-    [13300067] = {
-        id = 13300067,
-        text = "Bashful Gifting",
+    [13300064] = {
+        id = 13300064,
+        text = "Sister's Reminder",
     },
     [13310524] = {
         id = 13310524,
@@ -27023,37 +27123,37 @@ return {
         id = 13310519,
         text = "A bizarre fragment, through the surface of which you can see images. Collect all the fragments to activate the CG.",
     },
+    [13310518] = {
+        id = 13310518,
+        text = "A bizarre fragment, through the surface of which you can see images. Collect all the fragments to activate the CG.",
+    },
+    [13300065] = {
+        id = 13300065,
+        text = "Gift from a Fan",
+    },
+    [13310516] = {
+        id = 13310516,
+        text = "A bizarre fragment, through the surface of which you can see images. Collect all the fragments to activate the CG.",
+    },
     [1020141] = {
         id = 1020141,
         text = "Gua~ Trample my body~",
     },
-    [13310518] = {
-        id = 13310518,
+    [13310515] = {
+        id = 13310515,
         text = "A bizarre fragment, through the surface of which you can see images. Collect all the fragments to activate the CG.",
     },
     [1020142] = {
         id = 1020142,
         text = "Feeling listless...",
     },
-    [13300068] = {
-        id = 13300068,
-        text = "Lucky Prize",
+    [13310514] = {
+        id = 13310514,
+        text = "A bizarre fragment, through the surface of which you can see images. Collect all the fragments to activate the CG.",
     },
     [1020143] = {
         id = 1020143,
         text = "Thanks... for... the treatment~",
-    },
-    [13310516] = {
-        id = 13310516,
-        text = "A bizarre fragment, through the surface of which you can see images. Collect all the fragments to activate the CG.",
-    },
-    [13310515] = {
-        id = 13310515,
-        text = "A bizarre fragment, through the surface of which you can see images. Collect all the fragments to activate the CG.",
-    },
-    [13310514] = {
-        id = 13310514,
-        text = "A bizarre fragment, through the surface of which you can see images. Collect all the fragments to activate the CG.",
     },
     [13310513] = {
         id = 13310513,
@@ -27063,17 +27163,17 @@ return {
         id = 13310512,
         text = "A bizarre fragment, through the surface of which you can see images. Collect all the fragments to activate the CG.",
     },
-    [13300072] = {
-        id = 13300072,
-        text = "Appeal of Signed Photo",
+    [13300069] = {
+        id = 13300069,
+        text = "Cherished Giftbox",
     },
     [302203] = {
         id = 302203,
         text = "Close in:\n%sd %sh %sm",
     },
-    [13300069] = {
-        id = 13300069,
-        text = "Cherished Giftbox",
+    [13300066] = {
+        id = 13300066,
+        text = "Exploratory Observation",
     },
     [1270026] = {
         id = 1270026,
@@ -27087,53 +27187,53 @@ return {
         id = 13310506,
         text = "Memory Fragment 7",
     },
-    [13300071] = {
-        id = 13300071,
-        text = "Sincere Reward",
+    [13300068] = {
+        id = 13300068,
+        text = "Lucky Prize",
     },
     [1701937] = {
         id = 1701937,
         text = "[Daily] Yoshino_Park (Night)",
     },
-    [13300073] = {
-        id = 13300073,
-        text = "Hospitable Service",
+    [13300070] = {
+        id = 13300070,
+        text = "Convenient Gift",
     },
     [900700] = {
         id = 900700,
         text = "[Secret Date]",
     },
-    [1020151] = {
-        id = 1020151,
-        text = "It is already night?",
-    },
-    [13300070] = {
-        id = 13300070,
-        text = "Convenient Gift",
-    },
-    [1020152] = {
-        id = 1020152,
-        text = "The carnival is about to begin?",
+    [13300067] = {
+        id = 13300067,
+        text = "Bashful Gifting",
     },
     [900702] = {
         id = 900702,
         text = "Convenience Store",
     },
-    [1020153] = {
-        id = 1020153,
-        text = "I am formidable when I get serious~",
-    },
     [13310470] = {
         id = 13310470,
         text = "Some quests are incomplete. Confirm to refresh anyway?",
     },
-    [13300074] = {
-        id = 13300074,
-        text = "Hunger's Reward",
+    [1020151] = {
+        id = 1020151,
+        text = "It is already night?",
+    },
+    [13300071] = {
+        id = 13300071,
+        text = "Sincere Reward",
+    },
+    [1020152] = {
+        id = 1020152,
+        text = "The carnival is about to begin?",
     },
     [1130298] = {
         id = 1130298,
         text = "Inverse Tohka exclusive. Can be inserted to a Skill 1 gem slot. Can activate 1 extra angel skill",
+    },
+    [1020153] = {
+        id = 1020153,
+        text = "I am formidable when I get serious~",
     },
     [13310467] = {
         id = 13310467,
@@ -27151,17 +27251,17 @@ return {
         id = 13310464,
         text = "Snow Mooncake",
     },
-    [13300077] = {
-        id = 13300077,
-        text = "Remnant of Fear",
+    [13300074] = {
+        id = 13300074,
+        text = "Hunger's Reward",
     },
     [1701939] = {
         id = 1701939,
         text = "[Main] Kurumi_Chapter 1",
     },
-    [13300075] = {
-        id = 13300075,
-        text = "Treasure Under the Sand",
+    [13300072] = {
+        id = 13300072,
+        text = "Appeal of Signed Photo",
     },
     [13310460] = {
         id = 13310460,
@@ -27182,6 +27282,18 @@ return {
     [13310456] = {
         id = 13310456,
         text = "Sweet bean paste made of red beans.",
+    },
+    [13300075] = {
+        id = 13300075,
+        text = "Treasure Under the Sand",
+    },
+    [932023] = {
+        id = 932023,
+        text = "Story",
+    },
+    [13310453] = {
+        id = 13310453,
+        text = "Red Peanut [Event]",
     },
     [1020161] = {
         id = 1020161,
@@ -27207,65 +27319,53 @@ return {
         id = 19083,
         text = "Rose Decoration",
     },
-    [13300078] = {
-        id = 13300078,
-        text = "Key Material",
+    [13310452] = {
+        id = 13310452,
+        text = "Kiwi Fruit [Event]",
     },
     [20107] = {
         id = 20107,
         text = "Seaside Inspiration",
     },
-    [932023] = {
-        id = 932023,
-        text = "Story",
-    },
-    [13310453] = {
-        id = 13310453,
-        text = "Red Peanut [Event]",
-    },
-    [13310452] = {
-        id = 13310452,
-        text = "Kiwi Fruit [Event]",
-    },
-    [13300076] = {
-        id = 13300076,
-        text = "Big Sister's Caring",
+    [13300073] = {
+        id = 13300073,
+        text = "Hospitable Service",
     },
     [302200] = {
         id = 302200,
         text = "Need more currency to make purchase.",
     },
-    [13300083] = {
-        id = 13300083,
-        text = "Lucky Gashapon",
+    [13300080] = {
+        id = 13300080,
+        text = "Skin Care Tricks",
     },
     [932014] = {
         id = 932014,
         text = "Story",
     },
-    [13300080] = {
-        id = 13300080,
-        text = "Skin Care Tricks",
+    [13300077] = {
+        id = 13300077,
+        text = "Remnant of Fear",
     },
     [932016] = {
         id = 932016,
         text = "Story",
     },
-    [290000044] = {
-        id = 290000044,
-        text = "Today, I bought a new hair ribbon for Kotori. Will she like it?",
+    [13300078] = {
+        id = 13300078,
+        text = "Key Material",
     },
     [13310402] = {
         id = 13310402,
         text = "Don't pop up again (*you can enter it via the \"setting\" button near the Slideshow mode)",
     },
-    [13300082] = {
-        id = 13300082,
-        text = "Survey Prize",
+    [13300079] = {
+        id = 13300079,
+        text = "Excuse to Get Away",
     },
-    [1701941] = {
-        id = 1701941,
-        text = "[Main] Kurumi_Chapter 1",
+    [290000044] = {
+        id = 290000044,
+        text = "Today, I bought a new hair ribbon for Kotori. Will she like it?",
     },
     [13310353] = {
         id = 13310353,
@@ -27283,9 +27383,9 @@ return {
         id = 13310350,
         text = "Stamina Training",
     },
-    [13300087] = {
-        id = 13300087,
-        text = "Implicit Regifting",
+    [13300084] = {
+        id = 13300084,
+        text = "Lucky Girl",
     },
     [932007] = {
         id = 932007,
@@ -27315,9 +27415,9 @@ return {
         id = 13310342,
         text = "This memory is inaccessible now. Maybe you need to repair other memories first.",
     },
-    [13300088] = {
-        id = 13300088,
-        text = "Distressing Decision",
+    [13300085] = {
+        id = 13300085,
+        text = "Extra Dessert",
     },
     [1110325] = {
         id = 1110325,
@@ -27347,9 +27447,9 @@ return {
         id = 13310334,
         text = "Time Leap Unavailable",
     },
-    [13300089] = {
-        id = 13300089,
-        text = "It's never easy to make a surprise.",
+    [13300086] = {
+        id = 13300086,
+        text = "Idol's Popularity",
     },
     [13310332] = {
         id = 13310332,
@@ -27371,10 +27471,6 @@ return {
         id = 13310328,
         text = "Rate of Change: 0.995067",
     },
-    [12102] = {
-        id = 12102,
-        text = "Beverage Store Waitress",
-    },
     [13310327] = {
         id = 13310327,
         text = "Rate of Change: 0.998251",
@@ -27383,13 +27479,13 @@ return {
         id = 13310326,
         text = "Rate of Change: 1.004360",
     },
-    [13300090] = {
-        id = 13300090,
-        text = "Emergency! Decoration materials are running low!",
+    [13300087] = {
+        id = 13300087,
+        text = "Implicit Regifting",
     },
-    [13126] = {
-        id = 13126,
-        text = "Orange Rank Up Item Choice Chest",
+    [12102] = {
+        id = 12102,
+        text = "Beverage Store Waitress",
     },
     [1270010] = {
         id = 1270010,
@@ -27398,6 +27494,22 @@ return {
     [13310323] = {
         id = 13310323,
         text = "Rate of Change: 0.997240",
+    },
+    [13310322] = {
+        id = 13310322,
+        text = "Disconnected from the memory. Leaving the memory soon.",
+    },
+    [13126] = {
+        id = 13126,
+        text = "Orange Rank Up Item Choice Chest",
+    },
+    [13310321] = {
+        id = 13310321,
+        text = "If you leave now, you'll need to restart the date from the beginning. Confirm to leave now?",
+    },
+    [13310320] = {
+        id = 13310320,
+        text = "A crystalloid acquired from a fantastic date. Despite its cold touch, it warms your heart.",
     },
     [1090101] = {
         id = 1090101,
@@ -27411,22 +27523,6 @@ return {
         id = 1090103,
         text = "Don't know what to do... really wanna date...",
     },
-    [13310322] = {
-        id = 13310322,
-        text = "Disconnected from the memory. Leaving the memory soon.",
-    },
-    [13310321] = {
-        id = 13310321,
-        text = "If you leave now, you'll need to restart the date from the beginning. Confirm to leave now?",
-    },
-    [210001] = {
-        id = 210001,
-        text = "Target is your friend already",
-    },
-    [13310320] = {
-        id = 13310320,
-        text = "A crystalloid acquired from a fantastic date. Despite its cold touch, it warms your heart.",
-    },
     [13310319] = {
         id = 13310319,
         text = "Memory Fragment 10",
@@ -27435,61 +27531,61 @@ return {
         id = 13310318,
         text = "Memory Fragment 9",
     },
-    [13300091] = {
-        id = 13300091,
-        text = "The white-haired girl almost screwed up everything.",
+    [210001] = {
+        id = 210001,
+        text = "Target is your friend already",
+    },
+    [13300088] = {
+        id = 13300088,
+        text = "Distressing Decision",
     },
     [28106] = {
         id = 28106,
         text = "You can save Daily Instance up for a duration then challenge it for multiplied rewards.",
     },
-    [17036] = {
-        id = 17036,
-        text = "Exceptional Food. The bread isn't anything fancy, but you won't be able to stop once you take a bite.",
-    },
     [13310315] = {
         id = 13310315,
         text = "Memory Fragment 6",
-    },
-    [210002] = {
-        id = 210002,
-        text = "Friend info doesn't exist",
     },
     [13310314] = {
         id = 13310314,
         text = "Memory Fragment 5",
     },
-    [19084] = {
-        id = 19084,
-        text = "The decoration looks exactly like a real rose. It even has thorns! You can barely tell it apart from a real one from a glance.",
-    },
     [13310313] = {
         id = 13310313,
         text = "Memory Fragment 4",
     },
-    [20108] = {
-        id = 20108,
-        text = "Type: Costume\nOwner: Blanc\nThe collision of cool sea water and swim suit will surely inspire you!",
+    [17036] = {
+        id = 17036,
+        text = "Exceptional Food. The bread isn't anything fancy, but you won't be able to stop once you take a bite.",
     },
     [13310312] = {
         id = 13310312,
         text = "Memory Fragment 3",
     },
-    [13300095] = {
-        id = 13300095,
-        text = "I know nothing about birthday, and I can't understand its joy.",
+    [210002] = {
+        id = 210002,
+        text = "Friend info doesn't exist",
+    },
+    [13300092] = {
+        id = 13300092,
+        text = "The two girls who have been quarreling all the time are acting differently today.",
+    },
+    [19084] = {
+        id = 19084,
+        text = "The decoration looks exactly like a real rose. It even has thorns! You can barely tell it apart from a real one from a glance.",
     },
     [1701945] = {
         id = 1701945,
         text = "[Main] Kurumi_Chapter 2",
     },
-    [210003] = {
-        id = 210003,
-        text = "You haven't blocked the player",
+    [20108] = {
+        id = 20108,
+        text = "Type: Costume\nOwner: Blanc\nThe collision of cool sea water and swim suit will surely inspire you!",
     },
-    [13300092] = {
-        id = 13300092,
-        text = "The two girls who have been quarreling all the time are acting differently today.",
+    [13300089] = {
+        id = 13300089,
+        text = "It's never easy to make a surprise.",
     },
     [24010] = {
         id = 24010,
@@ -27499,17 +27595,33 @@ return {
         id = 13310307,
         text = "Memory Interrupted",
     },
+    [210003] = {
+        id = 210003,
+        text = "You haven't blocked the player",
+    },
     [13310306] = {
         id = 13310306,
         text = "If your time leap now, you'll miss a date. Continue anyway? (Time leap costs 50 Energy.)",
+    },
+    [13300091] = {
+        id = 13300091,
+        text = "The white-haired girl almost screwed up everything.",
+    },
+    [900688] = {
+        id = 900688,
+        text = "Tohka Side Story 1 Details",
+    },
+    [13310303] = {
+        id = 13310303,
+        text = "Time Leap Prompt",
     },
     [1020201] = {
         id = 1020201,
         text = "Hum? You also don't want to sleep?",
     },
-    [13300094] = {
-        id = 13300094,
-        text = "Happiness is not meant to be owned, but to be shared.",
+    [900687] = {
+        id = 900687,
+        text = "Tohka Side Story 1",
     },
     [1020202] = {
         id = 1020202,
@@ -27523,49 +27635,33 @@ return {
         id = 1020203,
         text = "The little bear hasn't fallen asleep~",
     },
-    [900688] = {
-        id = 900688,
-        text = "Tohka Side Story 1 Details",
-    },
-    [13310303] = {
-        id = 13310303,
-        text = "Time Leap Prompt",
-    },
-    [420001] = {
-        id = 420001,
-        text = "Max HP +%s",
-    },
-    [900687] = {
-        id = 900687,
-        text = "Tohka Side Story 1",
-    },
-    [13300093] = {
-        id = 13300093,
-        text = "What is Tohka worrying about on this happy birthday?",
+    [13300090] = {
+        id = 13300090,
+        text = "Emergency! Decoration materials are running low!",
     },
     [15077] = {
         id = 15077,
         text = "Sun Jade",
     },
-    [420002] = {
-        id = 420002,
-        text = "ATK +%s",
+    [420001] = {
+        id = 420001,
+        text = "Max HP +%s",
     },
     [13310230] = {
         id = 13310230,
         text = "Odds: ×%s",
     },
-    [13300101] = {
-        id = 13300101,
-        text = "I'd like to share my precious memories with you.",
+    [13300098] = {
+        id = 13300098,
+        text = "As the commander, Kotori always comes up with excellent ideas.",
     },
     [24008] = {
         id = 24008,
         text = "Building material, the high-quality sends no stimulating gases.",
     },
-    [420003] = {
-        id = 420003,
-        text = "DEF +%s",
+    [420002] = {
+        id = 420002,
+        text = "ATK +%s",
     },
     [13310227] = {
         id = 13310227,
@@ -27579,6 +27675,22 @@ return {
         id = 13310225,
         text = "Find the true Natsumi in the three cards.",
     },
+    [420003] = {
+        id = 420003,
+        text = "DEF +%s",
+    },
+    [13310224] = {
+        id = 13310224,
+        text = "Bet on any Spirit.",
+    },
+    [13310223] = {
+        id = 13310223,
+        text = "Carnival",
+    },
+    [13310222] = {
+        id = 13310222,
+        text = "A Crucial Bet",
+    },
     [420004] = {
         id = 420004,
         text = "DMG +%s",
@@ -27587,9 +27699,9 @@ return {
         id = 1020211,
         text = "Oh? What do you want to know?",
     },
-    [13310224] = {
-        id = 13310224,
-        text = "Bet on any Spirit.",
+    [13300099] = {
+        id = 13300099,
+        text = "Sudden screams echo from afar. Is there any danger lurking outside?",
     },
     [1020212] = {
         id = 1020212,
@@ -27603,22 +27715,6 @@ return {
         id = 1020213,
         text = "No problem, carry out the plan~",
     },
-    [13310223] = {
-        id = 13310223,
-        text = "Carnival",
-    },
-    [13310222] = {
-        id = 13310222,
-        text = "A Crucial Bet",
-    },
-    [420006] = {
-        id = 420006,
-        text = "ATK Speed +%s",
-    },
-    [13300102] = {
-        id = 13300102,
-        text = "There are lots of pretty clothes, but choosing the one that suits you best is always hard.",
-    },
     [1270002] = {
         id = 1270002,
         text = "1-star Chokhmah Sephira",
@@ -27627,9 +27723,9 @@ return {
         id = 13310219,
         text = "Wheel of Fortune",
     },
-    [420007] = {
-        id = 420007,
-        text = "Shield +%s",
+    [420006] = {
+        id = 420006,
+        text = "ATK Speed +%s",
     },
     [13310218] = {
         id = 13310218,
@@ -27643,9 +27739,9 @@ return {
         id = 13310216,
         text = "Join a roulette game.",
     },
-    [420008] = {
-        id = 420008,
-        text = "Max SP (& initial SP) +%s",
+    [420007] = {
+        id = 420007,
+        text = "Shield +%s",
     },
     [13310215] = {
         id = 13310215,
@@ -27659,6 +27755,22 @@ return {
         id = 13310213,
         text = "Persistence Brings Victory",
     },
+    [420008] = {
+        id = 420008,
+        text = "Max SP (& initial SP) +%s",
+    },
+    [13310212] = {
+        id = 13310212,
+        text = "Twin's Blessings",
+    },
+    [13310211] = {
+        id = 13310211,
+        text = "Guaranteed Victory",
+    },
+    [13310210] = {
+        id = 13310210,
+        text = "Lucky Gift Offer",
+    },
     [420009] = {
         id = 420009,
         text = "SP Regen +%s",
@@ -27667,9 +27779,9 @@ return {
         id = 1020221,
         text = "Work hard~",
     },
-    [13310212] = {
-        id = 13310212,
-        text = "Twin's Blessings",
+    [13310209] = {
+        id = 13310209,
+        text = "Lose 5 times in the divination game.",
     },
     [1020222] = {
         id = 1020222,
@@ -27683,61 +27795,61 @@ return {
         id = 1020223,
         text = "Sugar, I want more...",
     },
-    [13310211] = {
-        id = 13310211,
-        text = "Guaranteed Victory",
+    [13310208] = {
+        id = 13310208,
+        text = "Win 5 times in the divination game.",
     },
-    [13310210] = {
-        id = 13310210,
-        text = "Lucky Gift Offer",
+    [13300101] = {
+        id = 13300101,
+        text = "I'd like to share my precious memories with you.",
     },
     [420011] = {
         id = 420011,
         text = "Movement Speed +%s",
     },
-    [13310209] = {
-        id = 13310209,
-        text = "Lose 5 times in the divination game.",
+    [17144] = {
+        id = 17144,
+        text = "Exceptional Food. The perfect Raman made with has 15 kinds of vegetable. Its rich taste will satisfy your voracious appetite!",
     },
     [17037] = {
         id = 17037,
         text = "Matcha Cake",
     },
-    [13310208] = {
-        id = 13310208,
-        text = "Win 5 times in the divination game.",
+    [13310205] = {
+        id = 13310205,
+        text = "Lose 5 times in the roulette game.",
     },
     [420012] = {
         id = 420012,
         text = "Defense Break +%s",
     },
-    [13300104] = {
-        id = 13300104,
-        text = "As the commander, Kotori always comes up with excellent ideas.",
+    [13310204] = {
+        id = 13310204,
+        text = "Win 5 times in the roulette game.",
     },
-    [17144] = {
-        id = 17144,
-        text = "Exceptional Food. The perfect Raman made with has 15 kinds of vegetable. Its rich taste will satisfy your voracious appetite!",
+    [13300100] = {
+        id = 13300100,
+        text = "Without a swimsuit, one can hardly enjoy the sun bathing.",
     },
-    [13310205] = {
-        id = 13310205,
-        text = "Lose 5 times in the roulette game.",
+    [13310202] = {
+        id = 13310202,
+        text = "Unlocked by acquiring the highest-tier reward in phase 1",
     },
     [20109] = {
         id = 20109,
         text = "White Bunny",
     },
-    [13310204] = {
-        id = 13310204,
-        text = "Win 5 times in the roulette game.",
+    [13310201] = {
+        id = 13310201,
+        text = "All acquired",
     },
-    [13300103] = {
-        id = 13300103,
-        text = "Even a girl would feel abashed by wearing this cloth.",
+    [15076] = {
+        id = 15076,
+        text = "The energy storage device obtained by smashing nuclear proton at SP Crystal Core. Used to transcend Spirits.",
     },
-    [13310202] = {
-        id = 13310202,
-        text = "Unlocked by acquiring the highest-tier reward in phase 1",
+    [13310013] = {
+        id = 13310013,
+        text = "White Feather",
     },
     [420014] = {
         id = 420014,
@@ -27747,37 +27859,21 @@ return {
         id = 1020231,
         text = "What? I am not drowsy~",
     },
-    [13310201] = {
-        id = 13310201,
-        text = "All acquired",
+    [13026] = {
+        id = 13026,
+        text = "Spend Energy to explore the city",
     },
     [1020232] = {
         id = 1020232,
         text = "I need a... caffeine fix...",
     },
-    [15076] = {
-        id = 15076,
-        text = "The energy storage device obtained by smashing nuclear proton at SP Crystal Core. Used to transcend Spirits.",
+    [13310011] = {
+        id = 13310011,
+        text = "",
     },
     [1020233] = {
         id = 1020233,
         text = "Me? I am fine.",
-    },
-    [13310013] = {
-        id = 13310013,
-        text = "White Feather",
-    },
-    [13026] = {
-        id = 13026,
-        text = "Spend Energy to explore the city",
-    },
-    [210012] = {
-        id = 210012,
-        text = "Request failure! Target player's request list is full",
-    },
-    [13310011] = {
-        id = 13310011,
-        text = "",
     },
     [13310010] = {
         id = 13310010,
@@ -27787,17 +27883,33 @@ return {
         id = 13310009,
         text = "",
     },
-    [28301] = {
-        id = 28301,
-        text = "",
+    [210012] = {
+        id = 210012,
+        text = "Request failure! Target player's request list is full",
     },
     [13310008] = {
         id = 13310008,
         text = "Use it to reduce Tohka's Inverse by 10.",
     },
-    [13300119] = {
-        id = 13300119,
-        text = "I wish to share with you the simple happiness made of sands.",
+    [13300116] = {
+        id = 13300116,
+        text = "Whenever the Spirits are gathered together, there will be a storm in the culinary world.",
+    },
+    [27111] = {
+        id = 27111,
+        text = "Fate Dice",
+    },
+    [28301] = {
+        id = 28301,
+        text = "",
+    },
+    [13300113] = {
+        id = 13300113,
+        text = "What is Tohka worrying about on this happy birthday?",
+    },
+    [17091] = {
+        id = 17091,
+        text = "Mint Matcha Tea",
     },
     [1090201] = {
         id = 1090201,
@@ -27811,49 +27923,37 @@ return {
         id = 1090203,
         text = "Want to go out with you... date",
     },
-    [27111] = {
-        id = 27111,
-        text = "Fate Dice",
-    },
-    [13300116] = {
-        id = 13300116,
-        text = "Whenever the Spirits are gathered together, there will be a storm in the culinary world.",
-    },
-    [17091] = {
-        id = 17091,
-        text = "Mint Matcha Tea",
-    },
-    [1020241] = {
-        id = 1020241,
-        text = "Ah... no need to worry about me~",
-    },
-    [13300117] = {
-        id = 13300117,
-        text = "The cinema is just up ahead, but we can't get our stomach full there, right?",
-    },
-    [1020242] = {
-        id = 1020242,
-        text = "You can work harder.",
+    [13300114] = {
+        id = 13300114,
+        text = "Happiness is not meant to be owned, but to be shared.",
     },
     [18114] = {
         id = 18114,
         text = "Perfect crafted item. The basket wove by selected sweet-scented Aglaia branches is among the best decoration options.",
     },
-    [1020243] = {
-        id = 1020243,
-        text = "Always ready.",
+    [13300115] = {
+        id = 13300115,
+        text = "It seems that Origami doesn't intend to go against Tohka today.",
     },
-    [13300118] = {
-        id = 13300118,
-        text = "Even a girl would feel abashed by wearing this cloth.",
+    [1020241] = {
+        id = 1020241,
+        text = "Ah... no need to worry about me~",
     },
     [13300279] = {
         id = 13300279,
         text = "Merry Christmas!!!!!",
     },
+    [1020242] = {
+        id = 1020242,
+        text = "You can work harder.",
+    },
     [13300278] = {
         id = 13300278,
         text = "Tohka's Inverse is 0. Inverse inhibitor is unnecessary.",
+    },
+    [1020243] = {
+        id = 1020243,
+        text = "Always ready.",
     },
     [13300276] = {
         id = 13300276,
@@ -27883,10 +27983,6 @@ return {
         id = 13300270,
         text = "(Explore)",
     },
-    [12103] = {
-        id = 12103,
-        text = "Fancy Restaurant Waiter",
-    },
     [1709012] = {
         id = 1709012,
         text = "You want to touch it so bad?",
@@ -27899,6 +27995,22 @@ return {
         id = 13300266,
         text = "Used to summon rare clothes in the clothes summon.",
     },
+    [12103] = {
+        id = 12103,
+        text = "Fancy Restaurant Waiter",
+    },
+    [13300265] = {
+        id = 13300265,
+        text = "Princess Badge",
+    },
+    [13300264] = {
+        id = 13300264,
+        text = "Used to exchange items in the birthday store during the Birthday Clash.",
+    },
+    [13300263] = {
+        id = 13300263,
+        text = "Wish Card",
+    },
     [13127] = {
         id = 13127,
         text = "Rank Up Item Choice Chest",
@@ -27907,9 +28019,9 @@ return {
         id = 1020251,
         text = "It's not time to relax!",
     },
-    [13300265] = {
-        id = 13300265,
-        text = "Princess Badge",
+    [13300262] = {
+        id = 13300262,
+        text = "Used in the city exploration during Birthday Clash.",
     },
     [1020252] = {
         id = 1020252,
@@ -27922,18 +28034,6 @@ return {
     [1020253] = {
         id = 1020253,
         text = "Emergency?",
-    },
-    [13300263] = {
-        id = 13300263,
-        text = "Wish Card",
-    },
-    [13300262] = {
-        id = 13300262,
-        text = "Used in the city exploration during Birthday Clash.",
-    },
-    [13300260] = {
-        id = 13300260,
-        text = "Happy moments are to be shared by friends!",
     },
     [13300259] = {
         id = 13300259,
@@ -27955,17 +28055,9 @@ return {
         id = 13300255,
         text = "Of course, the main event of the birthday party would be dating!",
     },
-    [17038] = {
-        id = 17038,
-        text = "The perfect blend of cream and eggs is covered by a layer of matcha. It is popular among girls.",
-    },
     [13300254] = {
         id = 13300254,
         text = "Happy moments are to be shared by friends!",
-    },
-    [18062] = {
-        id = 18062,
-        text = "The cute and faithful pony doll is the most trustworthy friend in the bedside.",
     },
     [1709992] = {
         id = 1709992,
@@ -27975,9 +28067,29 @@ return {
         id = 13300251,
         text = "Following someone's advice, Tohka is asking for the moon!",
     },
+    [17038] = {
+        id = 17038,
+        text = "The perfect blend of cream and eggs is covered by a layer of matcha. It is popular among girls.",
+    },
     [13300250] = {
         id = 13300250,
         text = "If only we could defy the gravity like this...",
+    },
+    [18062] = {
+        id = 18062,
+        text = "The cute and faithful pony doll is the most trustworthy friend in the bedside.",
+    },
+    [13300249] = {
+        id = 13300249,
+        text = "Wish upon the conch. Maybe the sea will answer your prayer.",
+    },
+    [13300248] = {
+        id = 13300248,
+        text = "This clothes is a bit too revealing. Is Tohka really ok with this?",
+    },
+    [13300247] = {
+        id = 13300247,
+        text = "Without splendid attires, the birthday party would not be perfect!",
     },
     [20110] = {
         id = 20110,
@@ -27987,33 +28099,21 @@ return {
         id = 1020261,
         text = "Time to take a short break~",
     },
-    [13300249] = {
-        id = 13300249,
-        text = "Wish upon the conch. Maybe the sea will answer your prayer.",
+    [13300246] = {
+        id = 13300246,
+        text = "Of course, the main event of the birthday party would be dating!",
     },
     [1020262] = {
         id = 1020262,
         text = "You've worked hard, have a good rest~",
     },
-    [13300248] = {
-        id = 13300248,
-        text = "This clothes is a bit too revealing. Is Tohka really ok with this?",
+    [13300244] = {
+        id = 13300244,
+        text = "If only we could defy the gravity like this...",
     },
     [1020263] = {
         id = 1020263,
         text = "I just fell down by accident~",
-    },
-    [13300247] = {
-        id = 13300247,
-        text = "Without splendid attires, the birthday party would not be perfect!",
-    },
-    [13300246] = {
-        id = 13300246,
-        text = "Of course, the main event of the birthday party would be dating!",
-    },
-    [13300244] = {
-        id = 13300244,
-        text = "If only we could defy the gravity like this...",
     },
     [13300243] = {
         id = 13300243,
@@ -28191,13 +28291,25 @@ return {
         id = 13300196,
         text = "Look, We Are Flying",
     },
+    [13300195] = {
+        id = 13300195,
+        text = "Memory of Childhood",
+    },
+    [13300194] = {
+        id = 13300194,
+        text = "Meow! I'm a Cat",
+    },
+    [13300193] = {
+        id = 13300193,
+        text = "Meanings of Attire",
+    },
     [461001] = {
         id = 461001,
         text = "#Base DMG +1%",
     },
-    [13300195] = {
-        id = 13300195,
-        text = "Memory of Childhood",
+    [13300192] = {
+        id = 13300192,
+        text = "Limit of Hunger",
     },
     [1090301] = {
         id = 1090301,
@@ -28215,9 +28327,9 @@ return {
         id = 17039,
         text = "Matcha Cake [Delicious]",
     },
-    [13300194] = {
-        id = 13300194,
-        text = "Meow! I'm a Cat",
+    [13300191] = {
+        id = 13300191,
+        text = "Today Is Ours",
     },
     [18063] = {
         id = 18063,
@@ -28227,26 +28339,6 @@ return {
         id = 461003,
         text = "#Base DMG +4%",
     },
-    [13300193] = {
-        id = 13300193,
-        text = "Meanings of Attire",
-    },
-    [13300192] = {
-        id = 13300192,
-        text = "Limit of Hunger",
-    },
-    [20111] = {
-        id = 20111,
-        text = "Marry Me Today",
-    },
-    [461004] = {
-        id = 461004,
-        text = "#Base DMG +7%",
-    },
-    [13300191] = {
-        id = 13300191,
-        text = "Today Is Ours",
-    },
     [13300190] = {
         id = 13300190,
         text = "Archenemy's Guilt",
@@ -28255,9 +28347,13 @@ return {
         id = 13300189,
         text = "Cake Shopping",
     },
-    [461005] = {
-        id = 461005,
-        text = "#Base DMG +12%",
+    [20111] = {
+        id = 20111,
+        text = "Marry Me Today",
+    },
+    [461004] = {
+        id = 461004,
+        text = "#Base DMG +7%",
     },
     [13300188] = {
         id = 13300188,
@@ -28271,9 +28367,9 @@ return {
         id = 13300186,
         text = "Memory of Childhood",
     },
-    [461006] = {
-        id = 461006,
-        text = "#Base DMG +20%",
+    [461005] = {
+        id = 461005,
+        text = "#Base DMG +12%",
     },
     [13300185] = {
         id = 13300185,
@@ -28287,9 +28383,9 @@ return {
         id = 13300183,
         text = "Cake Shopping",
     },
-    [461007] = {
-        id = 461007,
-        text = "#Base DMG +30%",
+    [461006] = {
+        id = 461006,
+        text = "#Base DMG +20%",
     },
     [13300182] = {
         id = 13300182,
@@ -28303,13 +28399,29 @@ return {
         id = 13300180,
         text = "Conch's Wish",
     },
-    [1020301] = {
-        id = 1020301,
-        text = "Aha, happy time~",
+    [461007] = {
+        id = 461007,
+        text = "#Base DMG +30%",
     },
     [13300179] = {
         id = 13300179,
         text = "Meow! I'm a Cat",
+    },
+    [13300178] = {
+        id = 13300178,
+        text = "Meanings of Attire",
+    },
+    [13300177] = {
+        id = 13300177,
+        text = "Date for Two",
+    },
+    [1020301] = {
+        id = 1020301,
+        text = "Aha, happy time~",
+    },
+    [13300176] = {
+        id = 13300176,
+        text = "Embarrassing Request",
     },
     [1020302] = {
         id = 1020302,
@@ -28323,26 +28435,6 @@ return {
         id = 1020303,
         text = "I know you are still awake!",
     },
-    [13300178] = {
-        id = 13300178,
-        text = "Meanings of Attire",
-    },
-    [13300177] = {
-        id = 13300177,
-        text = "Date for Two",
-    },
-    [420051] = {
-        id = 420051,
-        text = "Current HP +%s",
-    },
-    [461010] = {
-        id = 461010,
-        text = "#Base DMG +4%",
-    },
-    [13300176] = {
-        id = 13300176,
-        text = "Embarrassing Request",
-    },
     [13300175] = {
         id = 13300175,
         text = "Look, We Are Flying",
@@ -28351,9 +28443,13 @@ return {
         id = 13300174,
         text = "Memory of Childhood",
     },
-    [461011] = {
-        id = 461011,
-        text = "#Base DMG +7%",
+    [420051] = {
+        id = 420051,
+        text = "Current HP +%s",
+    },
+    [461010] = {
+        id = 461010,
+        text = "#Base DMG +4%",
     },
     [13300173] = {
         id = 13300173,
@@ -28367,9 +28463,9 @@ return {
         id = 13300171,
         text = "Date for Two",
     },
-    [461012] = {
-        id = 461012,
-        text = "#Base DMG +12%",
+    [461011] = {
+        id = 461011,
+        text = "#Base DMG +7%",
     },
     [13300170] = {
         id = 13300170,
@@ -28383,13 +28479,29 @@ return {
         id = 13300168,
         text = "Archenemy's Guilt",
     },
-    [1020311] = {
-        id = 1020311,
-        text = "Friend, did you miss me?",
+    [461012] = {
+        id = 461012,
+        text = "#Base DMG +12%",
     },
     [13300167] = {
         id = 13300167,
         text = "Revealed Surprise",
+    },
+    [13300166] = {
+        id = 13300166,
+        text = "A Delicate Gift",
+    },
+    [13300165] = {
+        id = 13300165,
+        text = "Sister's Choice",
+    },
+    [1020311] = {
+        id = 1020311,
+        text = "Friend, did you miss me?",
+    },
+    [13300164] = {
+        id = 13300164,
+        text = "Gift? I've never considered about it. Maybe this will do?",
     },
     [1020312] = {
         id = 1020312,
@@ -28403,26 +28515,6 @@ return {
         id = 1020313,
         text = "We are having a romantic time",
     },
-    [13300166] = {
-        id = 13300166,
-        text = "A Delicate Gift",
-    },
-    [13300165] = {
-        id = 13300165,
-        text = "Sister's Choice",
-    },
-    [13128] = {
-        id = 13128,
-        text = "Poly Jewel Choice Chest",
-    },
-    [461015] = {
-        id = 461015,
-        text = "#Base DMG +1%",
-    },
-    [13300164] = {
-        id = 13300164,
-        text = "Gift? I've never considered about it. Maybe this will do?",
-    },
     [13300163] = {
         id = 13300163,
         text = "Anyway, today is Tohka's birthday. Please take these gifts to her for me.",
@@ -28431,9 +28523,13 @@ return {
         id = 13300162,
         text = "The shop owners here all know me. They gave me these stuff...",
     },
-    [461016] = {
-        id = 461016,
-        text = "#Base DMG +2%",
+    [13128] = {
+        id = 13128,
+        text = "Poly Jewel Choice Chest",
+    },
+    [461015] = {
+        id = 461015,
+        text = "#Base DMG +1%",
     },
     [13300161] = {
         id = 13300161,
@@ -28447,9 +28543,9 @@ return {
         id = 13300159,
         text = "Ahaha, thanks to you, I won the grand prize on the first draw!",
     },
-    [461017] = {
-        id = 461017,
-        text = "#Base DMG +4%",
+    [461016] = {
+        id = 461016,
+        text = "#Base DMG +2%",
     },
     [13300158] = {
         id = 13300158,
@@ -28462,6 +28558,22 @@ return {
     [13300156] = {
         id = 13300156,
         text = "Please take this. I need to observe how to use beach supplies.",
+    },
+    [461017] = {
+        id = 461017,
+        text = "#Base DMG +4%",
+    },
+    [13300155] = {
+        id = 13300155,
+        text = "Darling! My cover was almost blown up... but thankfully I took these and escaped.",
+    },
+    [13300154] = {
+        id = 13300154,
+        text = "Kannazuki just brought me some materials. I'll keep them in your hand for now!",
+    },
+    [13300153] = {
+        id = 13300153,
+        text = "Fufufu... bad timing? That man just dropped his stuffs and ran away.",
     },
     [1020321] = {
         id = 1020321,
@@ -28499,22 +28611,6 @@ return {
         id = 461020,
         text = "#Base DMG +20%",
     },
-    [13300153] = {
-        id = 13300153,
-        text = "Fufufu... bad timing? That man just dropped his stuffs and ran away.",
-    },
-    [13300152] = {
-        id = 13300152,
-        text = "This gift... is from that girl... bathing in the sun...",
-    },
-    [13300151] = {
-        id = 13300151,
-        text = "Tsk! Some bored prankster buried these under the sand...",
-    },
-    [461021] = {
-        id = 461021,
-        text = "#Base DMG +30%",
-    },
     [13300150] = {
         id = 13300150,
         text = "I... I bought some food... I wonder... if you like it...",
@@ -28527,9 +28623,9 @@ return {
         id = 13300148,
         text = "Lucky! I exchanged lots of gifts with an autographed photo!",
     },
-    [461022] = {
-        id = 461022,
-        text = "#Base DMG +1%",
+    [461021] = {
+        id = 461021,
+        text = "#Base DMG +30%",
     },
     [13300147] = {
         id = 13300147,
@@ -28543,41 +28639,41 @@ return {
         id = 13300145,
         text = "Th-though I'm treated like a kid... still... I'm happy... to get a gift...",
     },
-    [1020331] = {
-        id = 1020331,
-        text = "Please help this poor girl without lunch!",
+    [461022] = {
+        id = 461022,
+        text = "#Base DMG +1%",
     },
     [13300144] = {
         id = 13300144,
         text = "A special offer? Today must be my lucky day!",
     },
-    [1020332] = {
-        id = 1020332,
-        text = "Aha! As expected, we meet again!",
-    },
     [13300143] = {
         id = 13300143,
         text = "Come here. Please... bring this to Tohka.",
-    },
-    [1020333] = {
-        id = 1020333,
-        text = "I knew you would make it~",
     },
     [13300142] = {
         id = 13300142,
         text = "Because... this is the first time... I prepare a birthday gift... and I've no idea... what to buy...",
     },
+    [1020331] = {
+        id = 1020331,
+        text = "Please help this poor girl without lunch!",
+    },
     [13300141] = {
         id = 13300141,
         text = "Pheww, darling... these gifts are from my fans... and I've brought them here.",
+    },
+    [1020332] = {
+        id = 1020332,
+        text = "Aha! As expected, we meet again!",
     },
     [13300140] = {
         id = 13300140,
         text = "How could you leave such an important thing at the door, dumbhead?",
     },
-    [461025] = {
-        id = 461025,
-        text = "#Base DMG +7%",
+    [1020333] = {
+        id = 1020333,
+        text = "I knew you would make it~",
     },
     [13300139] = {
         id = 13300139,
@@ -28591,13 +28687,29 @@ return {
         id = 13300137,
         text = "...You need this item more than I do, so I'm bringing it to you.",
     },
-    [461026] = {
-        id = 461026,
-        text = "#Base DMG +12%",
+    [461025] = {
+        id = 461025,
+        text = "#Base DMG +7%",
     },
     [13300136] = {
         id = 13300136,
         text = "Where is Origami? We must find her back before enjoying the cake.",
+    },
+    [13300135] = {
+        id = 13300135,
+        text = "The two girls who have been quarreling all the time are acting differently today.",
+    },
+    [13300134] = {
+        id = 13300134,
+        text = "What is Tohka worrying about on this happy birthday?",
+    },
+    [461026] = {
+        id = 461026,
+        text = "#Base DMG +12%",
+    },
+    [13300133] = {
+        id = 13300133,
+        text = "A difficult task for me? Somehow, I'm looking forward to it.",
     },
     [1090401] = {
         id = 1090401,
@@ -28611,49 +28723,37 @@ return {
         id = 461027,
         text = "#Base DMG +20%",
     },
-    [13300135] = {
-        id = 13300135,
-        text = "The two girls who have been quarreling all the time are acting differently today.",
-    },
-    [13300134] = {
-        id = 13300134,
-        text = "What is Tohka worrying about on this happy birthday?",
-    },
-    [13300133] = {
-        id = 13300133,
-        text = "A difficult task for me? Somehow, I'm looking forward to it.",
-    },
-    [461028] = {
-        id = 461028,
-        text = "#Base DMG +30%",
-    },
     [13300132] = {
         id = 13300132,
         text = "I'd like to share my precious memories with you.",
-    },
-    [1020342] = {
-        id = 1020342,
-        text = "Take this~",
     },
     [13300131] = {
         id = 13300131,
         text = "Just like everyone expects, Tohka could hardly step away from the food store.",
     },
-    [1020343] = {
-        id = 1020343,
-        text = "Could you... do me a favor?",
-    },
     [13300130] = {
         id = 13300130,
         text = "Where is Origami? We must find her back before enjoying the cake.",
+    },
+    [461028] = {
+        id = 461028,
+        text = "#Base DMG +30%",
     },
     [13300129] = {
         id = 13300129,
         text = "The white-haired girl almost screwed up everything.",
     },
+    [1020342] = {
+        id = 1020342,
+        text = "Take this~",
+    },
     [13300128] = {
         id = 13300128,
         text = "What is Tohka worrying about on this happy birthday?",
+    },
+    [1020343] = {
+        id = 1020343,
+        text = "Could you... do me a favor?",
     },
     [13300127] = {
         id = 13300127,
@@ -28687,6 +28787,18 @@ return {
         id = 13300120,
         text = "Sudden screams echo from afar. Is there any danger lurking outside?",
     },
+    [13300119] = {
+        id = 13300119,
+        text = "I wish to share with you the simple happiness made of sands.",
+    },
+    [13300118] = {
+        id = 13300118,
+        text = "Even a girl would feel abashed by wearing this cloth.",
+    },
+    [13300117] = {
+        id = 13300117,
+        text = "The cinema is just up ahead, but we can't get our stomach full there, right?",
+    },
     [13310007] = {
         id = 13310007,
         text = "Inverse Inhibitor",
@@ -28715,9 +28827,9 @@ return {
         id = 1020352,
         text = "I am doing you a favor~",
     },
-    [13300115] = {
-        id = 13300115,
-        text = "It seems that Origami doesn't intend to go against Tohka today.",
+    [13300112] = {
+        id = 13300112,
+        text = "If only the time could stay still so that we can live at this moment forever.",
     },
     [1020353] = {
         id = 1020353,
@@ -28727,41 +28839,29 @@ return {
         id = 17041,
         text = "Matcha Cake [Exceptional]",
     },
-    [13300114] = {
-        id = 13300114,
-        text = "Happiness is not meant to be owned, but to be shared.",
+    [13300111] = {
+        id = 13300111,
+        text = "Sudden screams echo from afar. Is there any danger lurking outside?",
     },
     [18065] = {
         id = 18065,
         text = "Cute Pony [Perfect]",
     },
-    [13300113] = {
-        id = 13300113,
-        text = "What is Tohka worrying about on this happy birthday?",
+    [13300110] = {
+        id = 13300110,
+        text = "Whenever the Spirits are gathered together, there will be a storm in the culinary world.",
     },
     [251001] = {
         id = 251001,
         text = "Steak",
     },
-    [13300112] = {
-        id = 13300112,
-        text = "If only the time could stay still so that we can live at this moment forever.",
+    [13300109] = {
+        id = 13300109,
+        text = "It seems that Origami doesn't intend to go against Tohka today.",
     },
     [20113] = {
         id = 20113,
         text = "Dreamlike Start",
-    },
-    [13300111] = {
-        id = 13300111,
-        text = "Sudden screams echo from afar. Is there any danger lurking outside?",
-    },
-    [13300110] = {
-        id = 13300110,
-        text = "Whenever the Spirits are gathered together, there will be a storm in the culinary world.",
-    },
-    [13300109] = {
-        id = 13300109,
-        text = "It seems that Origami doesn't intend to go against Tohka today.",
     },
     [13300108] = {
         id = 13300108,
@@ -28771,10 +28871,6 @@ return {
         id = 13300107,
         text = "What is Tohka worrying about on this happy birthday?",
     },
-    [251002] = {
-        id = 251002,
-        text = "Golden Pasta",
-    },
     [13300106] = {
         id = 13300106,
         text = "If only the time could stay still so that we can live at this moment forever.",
@@ -28782,6 +28878,22 @@ return {
     [13300105] = {
         id = 13300105,
         text = "Sudden screams echo from afar. Is there any danger lurking outside?",
+    },
+    [13300104] = {
+        id = 13300104,
+        text = "As the commander, Kotori always comes up with excellent ideas.",
+    },
+    [251002] = {
+        id = 251002,
+        text = "Golden Pasta",
+    },
+    [13300103] = {
+        id = 13300103,
+        text = "Even a girl would feel abashed by wearing this cloth.",
+    },
+    [13300102] = {
+        id = 13300102,
+        text = "There are lots of pretty clothes, but choosing the one that suits you best is always hard.",
     },
     [1020361] = {
         id = 1020361,
@@ -28815,18 +28927,6 @@ return {
         id = 13310229,
         text = "Exclusive Reward",
     },
-    [13300100] = {
-        id = 13300100,
-        text = "Without a swimsuit, one can hardly enjoy the sun bathing.",
-    },
-    [13300099] = {
-        id = 13300099,
-        text = "Sudden screams echo from afar. Is there any danger lurking outside?",
-    },
-    [13300098] = {
-        id = 13300098,
-        text = "As the commander, Kotori always comes up with excellent ideas.",
-    },
     [13300097] = {
         id = 13300097,
         text = "Even a girl would feel abashed by wearing this cloth.",
@@ -28834,6 +28934,18 @@ return {
     [13300096] = {
         id = 13300096,
         text = "There are lots of pretty clothes, but choosing the one that suits you best is always hard.",
+    },
+    [13300095] = {
+        id = 13300095,
+        text = "I know nothing about birthday, and I can't understand its joy.",
+    },
+    [13300094] = {
+        id = 13300094,
+        text = "Happiness is not meant to be owned, but to be shared.",
+    },
+    [13300093] = {
+        id = 13300093,
+        text = "What is Tohka worrying about on this happy birthday?",
     },
     [251004] = {
         id = 251004,
@@ -28875,17 +28987,17 @@ return {
         id = 13310349,
         text = "※ Unlocked by completing the final date",
     },
-    [13300086] = {
-        id = 13300086,
-        text = "Idol's Popularity",
+    [13300083] = {
+        id = 13300083,
+        text = "Lucky Gashapon",
     },
-    [13300085] = {
-        id = 13300085,
-        text = "Extra Dessert",
+    [13300082] = {
+        id = 13300082,
+        text = "Survey Prize",
     },
-    [13300084] = {
-        id = 13300084,
-        text = "Lucky Girl",
+    [13300081] = {
+        id = 13300081,
+        text = "Unexpected Conversation",
     },
     [13310407] = {
         id = 13310407,
@@ -28903,9 +29015,9 @@ return {
         id = 13310405,
         text = "Please select at least two fav girls.",
     },
-    [13300079] = {
-        id = 13300079,
-        text = "Excuse to Get Away",
+    [13300076] = {
+        id = 13300076,
+        text = "Big Sister's Caring",
     },
     [12105] = {
         id = 12105,
@@ -28995,9 +29107,9 @@ return {
         id = 13310589,
         text = "Therefore, my top priority is helping Origami find herself back in her memories.",
     },
-    [13300059] = {
-        id = 13300059,
-        text = "Unexpected Forbearance",
+    [13300056] = {
+        id = 13300056,
+        text = "Childhood Gift",
     },
     [1090501] = {
         id = 1090501,
@@ -29011,21 +29123,21 @@ return {
         id = 1090503,
         text = "Nothing to do... Date? Worth trying...",
     },
-    [13300058] = {
-        id = 13300058,
-        text = "Tohka's Concern",
-    },
-    [13300057] = {
-        id = 13300057,
-        text = "Temporary Quest",
-    },
-    [13300056] = {
-        id = 13300056,
-        text = "Childhood Gift",
-    },
     [13300055] = {
         id = 13300055,
         text = "Food Temptation",
+    },
+    [13300054] = {
+        id = 13300054,
+        text = "Missing Origami",
+    },
+    [1710015] = {
+        id = 1710015,
+        text = "Rapport reaches 100",
+    },
+    [13300051] = {
+        id = 13300051,
+        text = "Sunlight is Bright",
     },
     [12000007] = {
         id = 12000007,
@@ -29087,17 +29199,17 @@ return {
         id = 12000093,
         text = "Just Go to the Restaurant",
     },
-    [13300054] = {
-        id = 13300054,
-        text = "Missing Origami",
+    [13300050] = {
+        id = 13300050,
+        text = "Joy of Gliding",
     },
-    [1710015] = {
-        id = 1710015,
-        text = "Rapport reaches 100",
+    [13300049] = {
+        id = 13300049,
+        text = "Birthday Outing",
     },
-    [13300051] = {
-        id = 13300051,
-        text = "Sunlight is Bright",
+    [13300048] = {
+        id = 13300048,
+        text = "Temporary Quest",
     },
     [12000151] = {
         id = 12000151,
@@ -29115,25 +29227,13 @@ return {
         id = 1020402,
         text = "Is anyone here?",
     },
-    [13300050] = {
-        id = 13300050,
-        text = "Joy of Gliding",
+    [13300047] = {
+        id = 13300047,
+        text = "Childhood Gift",
     },
     [1020403] = {
         id = 1020403,
         text = "Ah~I am alone again~",
-    },
-    [13300049] = {
-        id = 13300049,
-        text = "Birthday Outing",
-    },
-    [13300048] = {
-        id = 13300048,
-        text = "Temporary Quest",
-    },
-    [13300047] = {
-        id = 13300047,
-        text = "Childhood Gift",
     },
     [13300046] = {
         id = 13300046,
@@ -29182,6 +29282,18 @@ return {
     [13300033] = {
         id = 13300033,
         text = "Rival's Decision",
+    },
+    [13300032] = {
+        id = 13300032,
+        text = "Share the Sweetness",
+    },
+    [13300031] = {
+        id = 13300031,
+        text = "Tohka's Concern",
+    },
+    [13300030] = {
+        id = 13300030,
+        text = "Sunlight is Bright",
     },
     [1020411] = {
         id = 1020411,
@@ -29319,18 +29431,6 @@ return {
         id = 1451017,
         text = "Invite Friends unlocks at Lv.8~",
     },
-    [13300018] = {
-        id = 13300018,
-        text = "Share the Sweetness",
-    },
-    [13300017] = {
-        id = 13300017,
-        text = "Tohka's Concern",
-    },
-    [13300016] = {
-        id = 13300016,
-        text = "Unexpected Forbearance",
-    },
     [13300015] = {
         id = 13300015,
         text = "Apology",
@@ -29343,37 +29443,37 @@ return {
         id = 1710019,
         text = "Rapport reaches 210",
     },
-    [1020431] = {
-        id = 1020431,
-        text = "Aha~ I almost fell asleep~",
-    },
     [13300011] = {
         id = 13300011,
         text = "Prepare splendid attires for the highlight of the party: Tohka!",
-    },
-    [1020432] = {
-        id = 1020432,
-        text = "Come on~",
     },
     [13300010] = {
         id = 13300010,
         text = "A special operation is in progress. The most delicious cakes will be served soon!",
     },
-    [1020433] = {
-        id = 1020433,
-        text = "It's not time to rest~",
-    },
     [13300009] = {
         id = 13300009,
         text = "Modify the living room into the venue of the birthday party!",
+    },
+    [1020431] = {
+        id = 1020431,
+        text = "Aha~ I almost fell asleep~",
     },
     [13300008] = {
         id = 13300008,
         text = "Oath on the Golden Beach",
     },
+    [1020432] = {
+        id = 1020432,
+        text = "Come on~",
+    },
     [13300006] = {
         id = 13300006,
         text = "Party in Progress",
+    },
+    [1020433] = {
+        id = 1020433,
+        text = "It's not time to rest~",
     },
     [13300004] = {
         id = 13300004,
@@ -29419,6 +29519,18 @@ return {
         id = 13210015,
         text = "Confirm to use %d<img src='%s'></img> to refresh it?",
     },
+    [400026] = {
+        id = 400026,
+        text = "Relish",
+    },
+    [1325307] = {
+        id = 1325307,
+        text = "Reach Lv.%s to buy and activate again",
+    },
+    [441071] = {
+        id = 441071,
+        text = "Dark DMG Bonus +20%",
+    },
     [12106] = {
         id = 12106,
         text = "Doll Shop Staff - Female",
@@ -29427,9 +29539,9 @@ return {
         id = 1020441,
         text = "Ahhh, blind date~ blind date~",
     },
-    [400026] = {
-        id = 400026,
-        text = "Relish",
+    [13210011] = {
+        id = 13210011,
+        text = "Play %s more times to earn guaranteed rewards in the purple or orange slot",
     },
     [1020442] = {
         id = 1020442,
@@ -29507,9 +29619,9 @@ return {
         id = 1020451,
         text = "Aya, am I not beautiful enough?",
     },
-    [13200335] = {
-        id = 13200335,
-        text = "Activity: %d",
+    [11301092] = {
+        id = 11301092,
+        text = "CD Reduction",
     },
     [1020452] = {
         id = 1020452,
@@ -29527,21 +29639,21 @@ return {
         id = 1320001,
         text = "Clear %s (%s) Instance %s",
     },
-    [13200334] = {
-        id = 13200334,
+    [13200331] = {
+        id = 13200331,
         text = "Gift Store",
     },
-    [306022] = {
-        id = 306022,
-        text = "5-2",
+    [13200330] = {
+        id = 13200330,
+        text = "Gift Store",
     },
     [13311703] = {
         id = 13311703,
         text = "",
     },
-    [13200331] = {
-        id = 13200331,
-        text = "Gift Store",
+    [13200328] = {
+        id = 13200328,
+        text = "Surfboard Rental",
     },
     [13311705] = {
         id = 13311705,
@@ -29555,21 +29667,9 @@ return {
         id = 13311709,
         text = "Please clear [Tohka's Main Story] to unlock this map!",
     },
-    [13200327] = {
-        id = 13200327,
-        text = "Surfboard Rental",
-    },
-    [13200326] = {
-        id = 13200326,
-        text = "Surfboard Rental",
-    },
-    [27016] = {
-        id = 27016,
-        text = "Wooh, what delicacy is this! Tohka proclaimed as she ate more than 20 pieces.",
-    },
-    [11301095] = {
-        id = 11301095,
-        text = "Arbiter",
+    [10133092] = {
+        id = 10133092,
+        text = "Nahemah Form: \nHeavy Strike splashes sword beam to deal 2 extra attacks. The skill inflicts Dark DMG equal to 1150% ATK. \nPaverschlev Form: \nAfter releasing all the sword beams, Tohka thrusts her sword into the earth to splash sword waves nearby, inflicting 5 extra strikes. The skill inflicts Dark DMG equal to 1340% ATK in total.",
     },
     [13200323] = {
         id = 13200323,
@@ -29583,37 +29683,37 @@ return {
         id = 13200321,
         text = "Gold Fish Game",
     },
-    [1020461] = {
-        id = 1020461,
-        text = "Ahhh~ Where are my glasses?",
-    },
     [13200320] = {
         id = 13200320,
         text = "Gold Fish Game",
-    },
-    [1020462] = {
-        id = 1020462,
-        text = "I can't see anything clear~",
     },
     [13200319] = {
         id = 13200319,
         text = "Gold Fish Game",
     },
-    [1020463] = {
-        id = 1020463,
-        text = "It's time to rest~",
-    },
     [13200318] = {
         id = 13200318,
         text = "Gold Fish Game",
+    },
+    [1020461] = {
+        id = 1020461,
+        text = "Ahhh~ Where are my glasses?",
     },
     [331035] = {
         id = 331035,
         text = "When the world in your eyes is covered by red maple leaves",
     },
-    [11301096] = {
-        id = 11301096,
-        text = "Arbiter",
+    [1020462] = {
+        id = 1020462,
+        text = "I can't see anything clear~",
+    },
+    [11301094] = {
+        id = 11301094,
+        text = "CD Reduction",
+    },
+    [1020463] = {
+        id = 1020463,
+        text = "It's time to rest~",
     },
     [13200315] = {
         id = 13200315,
@@ -29643,8 +29743,8 @@ return {
         id = 1000614,
         text = "My work doesn't require me to smile.",
     },
-    [11301097] = {
-        id = 11301097,
+    [11301095] = {
+        id = 11301095,
         text = "Arbiter",
     },
     [13200307] = {
@@ -29675,9 +29775,9 @@ return {
         id = 28168,
         text = "After quitting a club, you must wait for 24hr to join a new one!",
     },
-    [11301098] = {
-        id = 11301098,
-        text = "Divine Sanction: Final",
+    [11301096] = {
+        id = 11301096,
+        text = "Arbiter",
     },
     [13200299] = {
         id = 13200299,
@@ -29687,13 +29787,25 @@ return {
         id = 13200298,
         text = "Here, I have won so many game tokens! Aha, because I'm good at shooting balloons and catching gold fishes!",
     },
+    [13200297] = {
+        id = 13200297,
+        text = "Since Kannazuki took great efforts to earn these game tokens, I'll fritter them away!",
+    },
+    [13200296] = {
+        id = 13200296,
+        text = "Exchange all the pocket money into game tokens. All right... what should I do next?",
+    },
+    [13200295] = {
+        id = 13200295,
+        text = "Ahh... exchanging game tokens is such an arduous task! They almost saw my face!! TAT~",
+    },
     [13312007] = {
         id = 13312007,
         text = "An antique coin found from the Time Secret. Use it to exchange event rewards.",
     },
     [13312001] = {
         id = 13312001,
-        text = "Unfold a card. When you unfold two of the same cards, you'll get rewards.",
+        text = " to unfold a card. You will be rewarded when unfolding two of the same cards. ",
     },
     [13312003] = {
         id = 13312003,
@@ -29702,18 +29814,6 @@ return {
     [13312005] = {
         id = 13312005,
         text = "Obtained",
-    },
-    [400008] = {
-        id = 400008,
-        text = "Diana",
-    },
-    [11301099] = {
-        id = 11301099,
-        text = "Enlarge",
-    },
-    [13200291] = {
-        id = 13200291,
-        text = "Where are you, darling...? I've bought some Takoyaki for you!",
     },
     [13200290] = {
         id = 13200290,
@@ -29739,25 +29839,17 @@ return {
         id = 400084,
         text = "Christmas: Kurumi Tokisaki",
     },
-    [10133091] = {
-        id = 10133091,
-        text = "[Disillusion] Ignores 12% DEF.",
+    [11301098] = {
+        id = 11301098,
+        text = "Divine Sanction: Final",
     },
     [13200283] = {
         id = 13200283,
         text = "Now that we're on the seaside, let's enjoy the beach!",
     },
-    [17045] = {
-        id = 17045,
-        text = "Sticky Rice Dango [Delicious]",
-    },
     [13200282] = {
         id = 13200282,
         text = "Now that we're on the seaside, let's enjoy the beach!",
-    },
-    [18069] = {
-        id = 18069,
-        text = "Heart Pillow [Fine]",
     },
     [13200281] = {
         id = 13200281,
@@ -29767,13 +29859,17 @@ return {
         id = 13200280,
         text = "Now that we're on the seaside, let's enjoy the beach!",
     },
+    [17045] = {
+        id = 17045,
+        text = "Sticky Rice Dango [Delicious]",
+    },
     [13200279] = {
         id = 13200279,
         text = "Time for fishing!",
     },
-    [20117] = {
-        id = 20117,
-        text = "Starry Night",
+    [18069] = {
+        id = 18069,
+        text = "Heart Pillow [Fine]",
     },
     [13200278] = {
         id = 13200278,
@@ -29783,9 +29879,13 @@ return {
         id = 1000610,
         text = "What? This is my friend... not a doll.",
     },
-    [11301102] = {
-        id = 11301102,
+    [11301099] = {
+        id = 11301099,
         text = "Enlarge",
+    },
+    [20117] = {
+        id = 20117,
+        text = "Starry Night",
     },
     [13200275] = {
         id = 13200275,
@@ -29815,9 +29915,9 @@ return {
         id = 400096,
         text = "Prydwen: Thorn Stab",
     },
-    [11301103] = {
-        id = 11301103,
-        text = "Sacred Affinity",
+    [10133091] = {
+        id = 10133091,
+        text = "[Disillusion] Ignores 12% DEF.",
     },
     [13200267] = {
         id = 13200267,
@@ -29847,9 +29947,9 @@ return {
         id = 201019,
         text = "You are typing too fast. Please wait for a while~",
     },
-    [11301104] = {
-        id = 11301104,
-        text = "Surge",
+    [11301102] = {
+        id = 11301102,
+        text = "Enlarge",
     },
     [13200259] = {
         id = 13200259,
@@ -29879,9 +29979,9 @@ return {
         id = 21001,
         text = "Type: Astral Dress\nOwner: Tohka Yatogami\nAstral Dress - <Adonai Melekh> The dark violet Astral Dress with plated armor not only fits her well but also provides high Spirit Power.",
     },
-    [11301105] = {
-        id = 11301105,
-        text = "Sin of Judgment",
+    [11301103] = {
+        id = 11301103,
+        text = "Sacred Affinity",
     },
     [13200251] = {
         id = 13200251,
@@ -29903,41 +30003,37 @@ return {
         id = 13200247,
         text = "Let's Fish Together",
     },
-    [1020501] = {
-        id = 1020501,
-        text = "Zzz~ I fell asleep?",
-    },
     [13200246] = {
         id = 13200246,
         text = "Let's Fish Together",
-    },
-    [1020502] = {
-        id = 1020502,
-        text = "Explore carefully~",
     },
     [1000606] = {
         id = 1000606,
         text = "Welcome... it's you? What do you need today?",
     },
-    [1020503] = {
-        id = 1020503,
-        text = "Those who cheat on their loves will die young!",
+    [11301104] = {
+        id = 11301104,
+        text = "Surge",
     },
-    [11301106] = {
-        id = 11301106,
-        text = "Purgatory",
+    [1020501] = {
+        id = 1020501,
+        text = "Zzz~ I fell asleep?",
     },
     [13200243] = {
         id = 13200243,
         text = "Let's Catch Starfishes",
     },
-    [12107] = {
-        id = 12107,
-        text = "Accessory Shop Staff - Male",
+    [1020502] = {
+        id = 1020502,
+        text = "Explore carefully~",
     },
     [13200242] = {
         id = 13200242,
         text = "Let's Catch Starfishes",
+    },
+    [1020503] = {
+        id = 1020503,
+        text = "Those who cheat on their loves will die young!",
     },
     [13200241] = {
         id = 13200241,
@@ -29947,13 +30043,29 @@ return {
         id = 13200240,
         text = "Let's Swim Together",
     },
-    [13131] = {
-        id = 13131,
-        text = "Open to select 1 from: Glamorous Core*1, Moon Feldspar - Shadow*1, Thunder Chip*1, Feather of Purity*1, Primal Stone*1.",
+    [12107] = {
+        id = 12107,
+        text = "Accessory Shop Staff - Male",
     },
     [13200239] = {
         id = 13200239,
         text = "Let's Swim Together",
+    },
+    [13200238] = {
+        id = 13200238,
+        text = "Let's Fish Together",
+    },
+    [400112] = {
+        id = 400112,
+        text = "Ice Princess: Arctic Domain",
+    },
+    [13131] = {
+        id = 13131,
+        text = "Open to select 1 from: Glamorous Core*1, Moon Feldspar - Shadow*1, Thunder Chip*1, Feather of Purity*1, Primal Stone*1.",
+    },
+    [11301105] = {
+        id = 11301105,
+        text = "Sin of Judgment",
     },
     [14230002] = {
         id = 14230002,
@@ -29967,37 +30079,37 @@ return {
         id = 14230012,
         text = "The most terrible thing is not giving up on oneself, but being forgotten. Who will hold the hands of the drowned and save her from oblivion?",
     },
-    [13200235] = {
-        id = 13200235,
-        text = "Let's Catch Starfishes",
-    },
-    [13200234] = {
-        id = 13200234,
-        text = "Let's Catch Starfishes",
-    },
-    [13200233] = {
-        id = 13200233,
-        text = "Let's Catch Starfishes",
-    },
     [13200232] = {
         id = 13200232,
         text = "Let's Swim Together",
-    },
-    [1020511] = {
-        id = 1020511,
-        text = "I am full of energy~",
     },
     [13200231] = {
         id = 13200231,
         text = "Let's Swim Together",
     },
+    [13200230] = {
+        id = 13200230,
+        text = "Let's Swim Together",
+    },
+    [1310350] = {
+        id = 1310350,
+        text = "Natsumi Search - Continued 9",
+    },
+    [1020511] = {
+        id = 1020511,
+        text = "I am full of energy~",
+    },
+    [11301106] = {
+        id = 11301106,
+        text = "Purgatory",
+    },
     [1020512] = {
         id = 1020512,
         text = "Don't you underestimate girls~",
     },
-    [13200230] = {
-        id = 13200230,
-        text = "Let's Swim Together",
+    [13200227] = {
+        id = 13200227,
+        text = "Let's Fish Together",
     },
     [1020513] = {
         id = 1020513,
@@ -30007,17 +30119,17 @@ return {
         id = 17046,
         text = "Delicious Food. A bite of this soft and sticky dango will leave you satisfied. The dessert is a favorite for both the old and the young.",
     },
-    [1310350] = {
-        id = 1310350,
-        text = "Natsumi Search - Continued 9",
+    [13200226] = {
+        id = 13200226,
+        text = "Let's Catch Starfishes",
     },
     [18070] = {
         id = 18070,
         text = "Fine crafted item. The huge heart-shaped pillow is always there when you need a hug of love.",
     },
-    [11301108] = {
-        id = 11301108,
-        text = "Light Reserves",
+    [13200225] = {
+        id = 13200225,
+        text = "Let's Catch Starfishes",
     },
     [112000062] = {
         id = 112000062,
@@ -30043,18 +30155,6 @@ return {
         id = 112000174,
         text = "데어라 머그컵 굿즈 패키지, [모]로 교환 가능",
     },
-    [13200222] = {
-        id = 13200222,
-        text = "Summer Style",
-    },
-    [15045] = {
-        id = 15045,
-        text = "Star Jade",
-    },
-    [10133090] = {
-        id = 10133090,
-        text = "[Disillusion] Ignores 9% DEF.",
-    },
     [13200219] = {
         id = 13200219,
         text = "Samsara Stone",
@@ -30063,41 +30163,41 @@ return {
         id = 13200218,
         text = "Abyss Diva Fragment",
     },
-    [1020521] = {
-        id = 1020521,
-        text = "The playboy who dates 3 girls at the same time~",
-    },
     [13200217] = {
         id = 13200217,
         text = "EXP Lucky Bag",
-    },
-    [1020522] = {
-        id = 1020522,
-        text = "That guy changes his girlfriend again~",
     },
     [13200216] = {
         id = 13200216,
         text = "Fate Badge",
     },
-    [1020523] = {
-        id = 1020523,
-        text = "How dare you cheat on Tohka~",
-    },
     [13200215] = {
         id = 13200215,
         text = "Random Runestone D-B",
+    },
+    [1020521] = {
+        id = 1020521,
+        text = "The playboy who dates 3 girls at the same time~",
     },
     [13200214] = {
         id = 13200214,
         text = "Pure White Fragment",
     },
+    [1020522] = {
+        id = 1020522,
+        text = "That guy changes his girlfriend again~",
+    },
     [17004] = {
         id = 17004,
         text = "Delicious Food. This simple combo of flour and sugar can be stored for a long period.",
     },
-    [11301110] = {
-        id = 11301110,
-        text = "Sacred Gift",
+    [1020523] = {
+        id = 1020523,
+        text = "How dare you cheat on Tohka~",
+    },
+    [11301108] = {
+        id = 11301108,
+        text = "Light Reserves",
     },
     [13200211] = {
         id = 13200211,
@@ -30143,37 +30243,37 @@ return {
         id = 13200201,
         text = "A fragment of the costume [Abyss Diva]. Use it to exchange costumes in the Summer Fest Store.",
     },
-    [1020531] = {
-        id = 1020531,
-        text = "This- this one- is really delicious!",
-    },
     [13200200] = {
         id = 13200200,
         text = "Abyss Diva Fragment",
-    },
-    [1020532] = {
-        id = 1020532,
-        text = "My stomach is about to go on strike~",
     },
     [13200199] = {
         id = 13200199,
         text = "A fragment of the costume [Pure White]. Use it to exchange costumes in the Summer Fest Store.",
     },
-    [1020533] = {
-        id = 1020533,
-        text = "Need... food...",
-    },
     [13200198] = {
         id = 13200198,
         text = "Pure White Fragment",
+    },
+    [1020531] = {
+        id = 1020531,
+        text = "This- this one- is really delicious!",
     },
     [13200197] = {
         id = 13200197,
         text = "A souvenir from the date that contains mysterious power of pentagram.",
     },
+    [1020532] = {
+        id = 1020532,
+        text = "My stomach is about to go on strike~",
+    },
     [13200196] = {
         id = 13200196,
         text = "Starfish [Event]",
+    },
+    [1020533] = {
+        id = 1020533,
+        text = "Need... food...",
     },
     [13200195] = {
         id = 13200195,
@@ -30223,53 +30323,45 @@ return {
         id = 13200176,
         text = "Get costume fragment.",
     },
-    [1020541] = {
-        id = 1020541,
-        text = "What a good girl~",
-    },
     [13200175] = {
         id = 13200175,
         text = "Get the Spring Fest exclusive avatar frame.",
-    },
-    [1020542] = {
-        id = 1020542,
-        text = "This is for you~",
     },
     [13200174] = {
         id = 13200174,
         text = "Get random transcendence item.",
     },
-    [1020543] = {
-        id = 1020543,
-        text = "Enjoy the afternoon~",
-    },
     [13200173] = {
         id = 13200173,
         text = "Get Fate Badges.",
+    },
+    [1020541] = {
+        id = 1020541,
+        text = "What a good girl~",
     },
     [13200172] = {
         id = 13200172,
         text = "Get random crystal item.",
     },
+    [1020542] = {
+        id = 1020542,
+        text = "This is for you~",
+    },
     [13200171] = {
         id = 13200171,
         text = "Collect 3 Origami Kimono Fragments to exchange Origami Spring Fest Kimono in the Sakura Store.",
+    },
+    [1020543] = {
+        id = 1020543,
+        text = "Enjoy the afternoon~",
     },
     [13200170] = {
         id = 13200170,
         text = "Get Astral Dress fragments used to exchange Astral Dresses.",
     },
-    [17047] = {
-        id = 17047,
-        text = "Sticky Rice Dango [Exceptional]",
-    },
     [13200169] = {
         id = 13200169,
         text = "Each time you can get 2 CG Fragments (Origami). Collect 24 fragments to unlock Origami_Spring CG and exclusive date.",
-    },
-    [18071] = {
-        id = 18071,
-        text = "Heart Pillow [Perfect]",
     },
     [13200168] = {
         id = 13200168,
@@ -30279,13 +30371,17 @@ return {
         id = 13200167,
         text = "Collect 6 Tohka Kimono Fragments to exchange Tohka Spring Fest Kimono in the Sakura Store.",
     },
+    [17047] = {
+        id = 17047,
+        text = "Sticky Rice Dango [Exceptional]",
+    },
     [13200166] = {
         id = 13200166,
         text = "Get random modification item.",
     },
-    [20119] = {
-        id = 20119,
-        text = "Abyssal Stare",
+    [18071] = {
+        id = 18071,
+        text = "Heart Pillow [Perfect]",
     },
     [13200165] = {
         id = 13200165,
@@ -30299,41 +30395,45 @@ return {
         id = 13200163,
         text = "Spring Fest Avatar Frame",
     },
+    [20119] = {
+        id = 20119,
+        text = "Abyssal Stare",
+    },
     [13200162] = {
         id = 13200162,
         text = "Random Transcendence Item",
-    },
-    [1020551] = {
-        id = 1020551,
-        text = "Ah~ I also want to date~",
     },
     [13200161] = {
         id = 13200161,
         text = "Fate Badge",
     },
-    [1020552] = {
-        id = 1020552,
-        text = "Can't move his heart?",
-    },
     [13200160] = {
         id = 13200160,
         text = "Random Crystal Item",
-    },
-    [1020553] = {
-        id = 1020553,
-        text = "The boy wearing glasses ~",
     },
     [13200159] = {
         id = 13200159,
         text = "Origami Kimono Fragment",
     },
+    [1020551] = {
+        id = 1020551,
+        text = "Ah~ I also want to date~",
+    },
     [13200158] = {
         id = 13200158,
         text = "Astral Dress Fragment",
     },
+    [1020552] = {
+        id = 1020552,
+        text = "Can't move his heart?",
+    },
     [13200157] = {
         id = 13200157,
         text = "CG Fragment (Origami)",
+    },
+    [1020553] = {
+        id = 1020553,
+        text = "The boy wearing glasses ~",
     },
     [13200156] = {
         id = 13200156,
@@ -30383,37 +30483,37 @@ return {
         id = 13200145,
         text = "Essential ingredients for picnic. You can never have too many of them.",
     },
-    [1020561] = {
-        id = 1020561,
-        text = "Ahaha~ I am too tired~",
-    },
     [13200144] = {
         id = 13200144,
         text = "It's almost the time for picnic, but we still need a tablecloth.",
-    },
-    [1020562] = {
-        id = 1020562,
-        text = "Let's call it a day~",
     },
     [13200143] = {
         id = 13200143,
         text = "A soft and smooth cushion will bring more comfort to the ride!",
     },
-    [1020563] = {
-        id = 1020563,
-        text = "Good night, tender man~",
-    },
     [13200142] = {
         id = 13200142,
         text = "We can't let that broken bicycle ruin our riding plan!",
+    },
+    [1020561] = {
+        id = 1020561,
+        text = "Ahaha~ I am too tired~",
     },
     [13200141] = {
         id = 13200141,
         text = "Time to clean up your dusted sunglasses and modify them a bit.",
     },
+    [1020562] = {
+        id = 1020562,
+        text = "Let's call it a day~",
+    },
     [13200140] = {
         id = 13200140,
         text = "Find some materials to mend the teddy bear, your faithful partner.",
+    },
+    [1020563] = {
+        id = 1020563,
+        text = "Good night, tender man~",
     },
     [13200139] = {
         id = 13200139,
@@ -30443,10 +30543,6 @@ return {
         id = 13200133,
         text = "Enjoy the spring and catch butterflies together!",
     },
-    [12108] = {
-        id = 12108,
-        text = "Accessory Shop Staff - Female",
-    },
     [13200132] = {
         id = 13200132,
         text = "Enjoy the spring and catch butterflies together!",
@@ -30459,9 +30555,9 @@ return {
         id = 13200130,
         text = "Fall in Love Again",
     },
-    [13132] = {
-        id = 13132,
-        text = "Open to select 1 from: Glitter Core*1, Moon Feldspar - Dream*1, Arc Chip*1, Feather of Hope*1, Stone of Finality*1, Sacred Horn*1.",
+    [12108] = {
+        id = 12108,
+        text = "Accessory Shop Staff - Female",
     },
     [13200129] = {
         id = 13200129,
@@ -30475,6 +30571,10 @@ return {
         id = 13200127,
         text = "Afternoon Tea",
     },
+    [13132] = {
+        id = 13132,
+        text = "Open to select 1 from: Glitter Core*1, Moon Feldspar - Dream*1, Arc Chip*1, Feather of Hope*1, Stone of Finality*1, Sacred Horn*1.",
+    },
     [13200126] = {
         id = 13200126,
         text = "Ambrosia",
@@ -30486,10 +30586,6 @@ return {
     [13200124] = {
         id = 13200124,
         text = "Maintain Vitality",
-    },
-    [206001] = {
-        id = 206001,
-        text = "City has been unlocked",
     },
     [13200123] = {
         id = 13200123,
@@ -30503,6 +30599,10 @@ return {
         id = 13200121,
         text = "Traffic Preparation",
     },
+    [206001] = {
+        id = 206001,
+        text = "City has been unlocked",
+    },
     [13200120] = {
         id = 13200120,
         text = "Rescue Bicycle",
@@ -30514,18 +30614,6 @@ return {
     [13200118] = {
         id = 13200118,
         text = "Mend Bear Doll",
-    },
-    [17048] = {
-        id = 17048,
-        text = "Exceptional Food. A bite of this soft and sticky dango will leave you satisfied. The dessert is a favorite for both the old and the young.",
-    },
-    [206002] = {
-        id = 206002,
-        text = "Insufficient player level. Cannot unlock",
-    },
-    [18072] = {
-        id = 18072,
-        text = "Perfect crafted item. The huge heart-shaped pillow is there when you need a hug of love.",
     },
     [13200117] = {
         id = 13200117,
@@ -30539,9 +30627,17 @@ return {
         id = 13200115,
         text = "Decorate with Flowers",
     },
-    [20120] = {
-        id = 20120,
-        text = "Type: Costume\nOwner: Inverse Tohka\nI shall take thou to the infinite abyss...",
+    [17048] = {
+        id = 17048,
+        text = "Exceptional Food. A bite of this soft and sticky dango will leave you satisfied. The dessert is a favorite for both the old and the young.",
+    },
+    [206002] = {
+        id = 206002,
+        text = "Insufficient player level. Cannot unlock",
+    },
+    [18072] = {
+        id = 18072,
+        text = "Perfect crafted item. The huge heart-shaped pillow is there when you need a hug of love.",
     },
     [13200114] = {
         id = 13200114,
@@ -30551,13 +30647,13 @@ return {
         id = 13200113,
         text = "Peachy Memories Ⅱ",
     },
-    [206003] = {
-        id = 206003,
-        text = "Stage not cleared yet. Cannot unlock",
-    },
     [13200112] = {
         id = 13200112,
         text = "Peachy Memories Ⅰ",
+    },
+    [20120] = {
+        id = 20120,
+        text = "Type: Costume\nOwner: Inverse Tohka\nI shall take thou to the infinite abyss...",
     },
     [13200111] = {
         id = 13200111,
@@ -30566,6 +30662,10 @@ return {
     [13200110] = {
         id = 13200110,
         text = "Sunshine and Bug Net Ⅱ",
+    },
+    [206003] = {
+        id = 206003,
+        text = "Stage not cleared yet. Cannot unlock",
     },
     [13200109] = {
         id = 13200109,
@@ -30583,10 +30683,6 @@ return {
         id = 13200106,
         text = "Used to unlock Tohka_Spring Fest CG and exclusive dates.",
     },
-    [206004] = {
-        id = 206004,
-        text = "Building is already unlocked",
-    },
     [13200105] = {
         id = 13200105,
         text = "Tohka_Spring Fragment",
@@ -30598,6 +30694,10 @@ return {
     [13200103] = {
         id = 13200103,
         text = "Tohka_Spring",
+    },
+    [206004] = {
+        id = 206004,
+        text = "Building is already unlocked",
     },
     [13200102] = {
         id = 13200102,
@@ -30615,10 +30715,6 @@ return {
         id = 13200099,
         text = "Peach Blossom",
     },
-    [206005] = {
-        id = 206005,
-        text = "Building is not in the idle status",
-    },
     [13200098] = {
         id = 13200098,
         text = "Butterfly",
@@ -30630,6 +30726,10 @@ return {
     [13200096] = {
         id = 13200096,
         text = "Next roll +3.",
+    },
+    [206005] = {
+        id = 206005,
+        text = "Building is not in the idle status",
     },
     [13200095] = {
         id = 13200095,
@@ -30647,10 +30747,6 @@ return {
         id = 13200092,
         text = "Spring Fest Avatar Frame",
     },
-    [206006] = {
-        id = 206006,
-        text = "Building is not unlocked",
-    },
     [13200091] = {
         id = 13200091,
         text = "Random Transcendence Item",
@@ -30662,6 +30758,10 @@ return {
     [13200089] = {
         id = 13200089,
         text = "Random Crystal Item",
+    },
+    [206006] = {
+        id = 206006,
+        text = "Building is not unlocked",
     },
     [13200088] = {
         id = 13200088,
@@ -30679,10 +30779,6 @@ return {
         id = 13200085,
         text = "Random Essence Item",
     },
-    [206007] = {
-        id = 206007,
-        text = "Building already at max level",
-    },
     [13200084] = {
         id = 13200084,
         text = "Tohka Kimono Fragment",
@@ -30695,6 +30791,10 @@ return {
         id = 13200082,
         text = "CG Fragment (Tohka)",
     },
+    [206007] = {
+        id = 206007,
+        text = "Building already at max level",
+    },
     [13200081] = {
         id = 13200081,
         text = "Then I'll play the divination first. Maybe I can even give my darling a surprise!",
@@ -30703,29 +30803,41 @@ return {
         id = 13200080,
         text = "Must I take the bus myself? Ha... I hope they won't recognize me...",
     },
-    [1020601] = {
-        id = 1020601,
-        text = "Ahh, can't fall asleep~",
-    },
     [13200079] = {
         id = 13200079,
         text = "Huh... so many game tokens. The fans are really enthusiastic!",
-    },
-    [1020602] = {
-        id = 1020602,
-        text = "Are you also wandering around at night?",
     },
     [13200078] = {
         id = 13200078,
         text = "Why is my darling so late...? Anyway, I'll take a break at that café...",
     },
+    [13200077] = {
+        id = 13200077,
+        text = "Tsk... she's just a human, yet she calls herself a witch?! Her divination will miss for sure!",
+    },
+    [1020601] = {
+        id = 1020601,
+        text = "Ahh, can't fall asleep~",
+    },
+    [13200076] = {
+        id = 13200076,
+        text = "B-b-bus...?! No way! I'll never take a bus! But maybe there will be no one on the last bus, right?",
+    },
+    [1020602] = {
+        id = 1020602,
+        text = "Are you also wandering around at night?",
+    },
+    [13200075] = {
+        id = 13200075,
+        text = "Ahh... exchanging game tokens is such an arduous task! They almost saw my face!! TAT~",
+    },
     [1020603] = {
         id = 1020603,
         text = "Now, let's do something thrilling~",
     },
-    [13200077] = {
-        id = 13200077,
-        text = "Tsk... she's just a human, yet she calls herself a witch?! Her divination will miss for sure!",
+    [13200074] = {
+        id = 13200074,
+        text = "Aww... delicious banana cake!... Maybe I can change my appearance and slip there...",
     },
     [1222001] = {
         id = 1222001,
@@ -30803,25 +30915,13 @@ return {
         id = 1020613,
         text = "In that case, I need to work hard~",
     },
-    [13200076] = {
-        id = 13200076,
-        text = "B-b-bus...?! No way! I'll never take a bus! But maybe there will be no one on the last bus, right?",
+    [13200073] = {
+        id = 13200073,
+        text = "The divination looks miraculous. Is it another type of Spirit Power? Anyway, I'll try it.",
     },
     [206011] = {
         id = 206011,
         text = "Work Condition 4 Not Met: The team can't have duplicate Spirits of the same Fav Girl.",
-    },
-    [13200075] = {
-        id = 13200075,
-        text = "Ahh... exchanging game tokens is such an arduous task! They almost saw my face!! TAT~",
-    },
-    [13200074] = {
-        id = 13200074,
-        text = "Aww... delicious banana cake!... Maybe I can change my appearance and slip there...",
-    },
-    [13200073] = {
-        id = 13200073,
-        text = "The divination looks miraculous. Is it another type of Spirit Power? Anyway, I'll try it.",
     },
     [13200072] = {
         id = 13200072,
@@ -30839,10 +30939,6 @@ return {
         id = 13200069,
         text = "Hmm... what should I divine for? Maybe... let's see when my baka Big Brother will become smarter!",
     },
-    [206012] = {
-        id = 206012,
-        text = "Work Condition 5 Not Met: The team must have N Spirits of to your Fav Girl.",
-    },
     [13200068] = {
         id = 13200068,
         text = "Ahhh... the bus is as slow as snails! I'll take a nap while waiting for it...",
@@ -30855,6 +30951,10 @@ return {
         id = 13200066,
         text = "Humph, lollipops! I guess there will be new flavors in the supermarket today.",
     },
+    [206012] = {
+        id = 206012,
+        text = "Work Condition 5 Not Met: The team must have N Spirits of to your Fav Girl.",
+    },
     [13200065] = {
         id = 13200065,
         text = "Ara, ara! This divination hut looks fun, but I prefer to hold my future in my own hand.",
@@ -30863,37 +30963,37 @@ return {
         id = 13200064,
         text = "A bus? Kihihi... it's fun to experience the vehicles of human.",
     },
-    [1020621] = {
-        id = 1020621,
-        text = "Yo, we meet again~",
-    },
     [13200063] = {
         id = 13200063,
         text = "Well, well, I just played some casual games and won lots of rewards.",
-    },
-    [1020622] = {
-        id = 1020622,
-        text = "Do you best today!",
     },
     [13200062] = {
         id = 13200062,
         text = "Ara, ara! A grilled fish store. All right, I'll buy some for the poor kids...",
     },
-    [1020623] = {
-        id = 1020623,
-        text = "You need to focus~",
-    },
     [402009] = {
         id = 402009,
         text = "Yesod",
     },
-    [11301111] = {
-        id = 11301111,
-        text = "Sacred Summon",
+    [1020621] = {
+        id = 1020621,
+        text = "Yo, we meet again~",
+    },
+    [10133090] = {
+        id = 10133090,
+        text = "[Disillusion] Ignores 9% DEF.",
+    },
+    [1020622] = {
+        id = 1020622,
+        text = "Do you best today!",
     },
     [13200059] = {
         id = 13200059,
         text = "Hmm? Shiny coins...? Who put these ... into my pocket...?",
+    },
+    [1020623] = {
+        id = 1020623,
+        text = "You need to focus~",
     },
     [13200058] = {
         id = 13200058,
@@ -30902,10 +31002,6 @@ return {
     [13200057] = {
         id = 13200057,
         text = "So here I am... guided by my fate... I believe it would be him!",
-    },
-    [206014] = {
-        id = 206014,
-        text = "Cannot collect at the moment",
     },
     [13200056] = {
         id = 13200056,
@@ -30919,13 +31015,17 @@ return {
         id = 13200054,
         text = "I'm dehydrating... I should go to the ice cream store there...",
     },
+    [206014] = {
+        id = 206014,
+        text = "Cannot collect at the moment",
+    },
     [402008] = {
         id = 402008,
         text = "Hod",
     },
-    [11301112] = {
-        id = 11301112,
-        text = "Energizing Feather",
+    [11301110] = {
+        id = 11301110,
+        text = "Sacred Gift",
     },
     [13200051] = {
         id = 13200051,
@@ -30935,21 +31035,33 @@ return {
         id = 13200050,
         text = "Awwww...!! Tamago ice cream! This looks so delicious!",
     },
+    [13200049] = {
+        id = 13200049,
+        text = "Divination Hut",
+    },
+    [13200048] = {
+        id = 13200048,
+        text = "Bus Station",
+    },
+    [13200047] = {
+        id = 13200047,
+        text = "Carnival",
+    },
     [206015] = {
         id = 206015,
         text = "Spirit ID error",
     },
-    [13200049] = {
-        id = 13200049,
-        text = "Divination Hut",
+    [13200046] = {
+        id = 13200046,
+        text = "Food Street",
     },
     [1020631] = {
         id = 1020631,
         text = "Ah~ I must make it to the restaurant~",
     },
-    [13200048] = {
-        id = 13200048,
-        text = "Bus Station",
+    [1100029] = {
+        id = 1100029,
+        text = "Sort by Rarity (Des)",
     },
     [1020632] = {
         id = 1020632,
@@ -30963,9 +31075,9 @@ return {
         id = 1020633,
         text = "Control calorie input ~",
     },
-    [13200047] = {
-        id = 13200047,
-        text = "Carnival",
+    [11301111] = {
+        id = 11301111,
+        text = "Sacred Summon",
     },
     [206016] = {
         id = 206016,
@@ -30974,18 +31086,6 @@ return {
     [13133] = {
         id = 13133,
         text = "Open to select 1 from: Blue Rank Up Item Choice Chest *4, Purple Rank Up Item Choice Chest *2, Orange Rank Up Item Choice Chest *1.",
-    },
-    [13200046] = {
-        id = 13200046,
-        text = "Food Street",
-    },
-    [1100029] = {
-        id = 1100029,
-        text = "Sort by Rarity (Des)",
-    },
-    [11301113] = {
-        id = 11301113,
-        text = "Light Blessing",
     },
     [13200043] = {
         id = 13200043,
@@ -30999,6 +31099,18 @@ return {
         id = 13200041,
         text = "Divination Hut",
     },
+    [13200040] = {
+        id = 13200040,
+        text = "Bus Station",
+    },
+    [13200039] = {
+        id = 13200039,
+        text = "Carnival",
+    },
+    [13200038] = {
+        id = 13200038,
+        text = "Food Street",
+    },
     [1091001] = {
         id = 1091001,
         text = "Darling, how about eating out together~",
@@ -31011,17 +31123,17 @@ return {
         id = 1091003,
         text = "Darling, please don't ignore me...",
     },
-    [13200040] = {
-        id = 13200040,
-        text = "Bus Station",
+    [1025153] = {
+        id = 1025153,
+        text = "This glowing hairpin...",
     },
-    [13200039] = {
-        id = 13200039,
+    [11301112] = {
+        id = 11301112,
+        text = "Energizing Feather",
+    },
+    [13200035] = {
+        id = 13200035,
         text = "Carnival",
-    },
-    [13200038] = {
-        id = 13200038,
-        text = "Food Street",
     },
     [1020641] = {
         id = 1020641,
@@ -31043,33 +31155,17 @@ return {
         id = 1020643,
         text = "Cannot tolerate betrayal!",
     },
-    [1025153] = {
-        id = 1025153,
-        text = "This glowing hairpin...",
-    },
-    [11301114] = {
-        id = 11301114,
-        text = "Sacred Avatar",
-    },
-    [20122] = {
-        id = 20122,
-        text = "Type: Costume\nOwner: Inverse Tohka\nWho would dominate the world engulfed in dark night?",
-    },
-    [13200035] = {
-        id = 13200035,
-        text = "Carnival",
-    },
     [13200034] = {
         id = 13200034,
         text = "Food Street",
     },
-    [206019] = {
-        id = 206019,
-        text = "Insufficient items to upgrade the building",
-    },
     [13200033] = {
         id = 13200033,
         text = "Divination Hut",
+    },
+    [20122] = {
+        id = 20122,
+        text = "Type: Costume\nOwner: Inverse Tohka\nWho would dominate the world engulfed in dark night?",
     },
     [13200032] = {
         id = 13200032,
@@ -31079,6 +31175,10 @@ return {
         id = 13200031,
         text = "Carnival",
     },
+    [206019] = {
+        id = 206019,
+        text = "Insufficient items to upgrade the building",
+    },
     [13200030] = {
         id = 13200030,
         text = "Food Street",
@@ -31087,61 +31187,61 @@ return {
         id = 201011,
         text = "Out of Daily Date chances",
     },
-    [11301115] = {
-        id = 11301115,
-        text = "Full Vitality",
+    [11301113] = {
+        id = 11301113,
+        text = "Light Blessing",
     },
     [13200027] = {
         id = 13200027,
         text = "Carnival",
     },
-    [206020] = {
-        id = 206020,
-        text = "Insufficient player level to upgrade the building",
-    },
     [13200026] = {
         id = 13200026,
         text = "Food Street",
-    },
-    [1020651] = {
-        id = 1020651,
-        text = "Hahaha! I am too full!",
     },
     [13200025] = {
         id = 13200025,
         text = "Divination Hut",
     },
-    [1020652] = {
-        id = 1020652,
-        text = "Cooking is troublesome~",
-    },
     [13200024] = {
         id = 13200024,
         text = "Bus Station",
     },
-    [1020653] = {
-        id = 1020653,
-        text = "Must treat dinner seriously~",
+    [206020] = {
+        id = 206020,
+        text = "Insufficient player level to upgrade the building",
     },
     [13200023] = {
         id = 13200023,
         text = "Carnival",
     },
-    [206021] = {
-        id = 206021,
-        text = "Instance stages not cleared. Cannot upgrade the building",
+    [1020651] = {
+        id = 1020651,
+        text = "Hahaha! I am too full!",
     },
     [13200022] = {
         id = 13200022,
         text = "Food Street",
     },
+    [1020652] = {
+        id = 1020652,
+        text = "Cooking is troublesome~",
+    },
     [1025143] = {
         id = 1025143,
         text = "",
     },
-    [11301117] = {
-        id = 11301117,
-        text = "Purifying Light",
+    [1020653] = {
+        id = 1020653,
+        text = "Must treat dinner seriously~",
+    },
+    [11301114] = {
+        id = 11301114,
+        text = "Sacred Avatar",
+    },
+    [206021] = {
+        id = 206021,
+        text = "Instance stages not cleared. Cannot upgrade the building",
     },
     [13200019] = {
         id = 13200019,
@@ -31159,21 +31259,21 @@ return {
         id = 13200015,
         text = "Two Koi",
     },
-    [206022] = {
-        id = 206022,
-        text = "Building not found",
-    },
     [1025142] = {
         id = 1025142,
         text = "",
     },
-    [11301118] = {
-        id = 11301118,
-        text = "Sacred Protection",
+    [11301115] = {
+        id = 11301115,
+        text = "Full Vitality",
     },
     [13200011] = {
         id = 13200011,
         text = "Small",
+    },
+    [206022] = {
+        id = 206022,
+        text = "Building not found",
     },
     [13200010] = {
         id = 13200010,
@@ -31183,37 +31283,37 @@ return {
         id = 13200009,
         text = "Big",
     },
-    [1020661] = {
-        id = 1020661,
-        text = "Whew~ Take a nap~",
-    },
     [13200008] = {
         id = 13200008,
         text = "Select a number from 1 to 6.",
-    },
-    [1020662] = {
-        id = 1020662,
-        text = "Comfortable big pillow~",
     },
     [1310346] = {
         id = 1310346,
         text = "Natsumi Search - Continued 5",
     },
-    [1020663] = {
-        id = 1020663,
-        text = "The light is out~",
-    },
     [13200006] = {
         id = 13200006,
         text = "Get a random roll from 1 to 6. The storage limit is 999, and if it exceeds, it will automatically be converted into 3 Coins.",
+    },
+    [1020661] = {
+        id = 1020661,
+        text = "Whew~ Take a nap~",
     },
     [15003] = {
         id = 15003,
         text = "SP Remnant",
     },
-    [11303001] = {
-        id = 11303001,
-        text = "DMG of awakening skill increases to 1800%.",
+    [1020662] = {
+        id = 1020662,
+        text = "Comfortable big pillow~",
+    },
+    [11301117] = {
+        id = 11301117,
+        text = "Purifying Light",
+    },
+    [1020663] = {
+        id = 1020663,
+        text = "The light is out~",
     },
     [201008] = {
         id = 201008,
@@ -31222,10 +31322,6 @@ return {
     [13200002] = {
         id = 13200002,
         text = "Sakura Coins earned from the Spring Fest event, used to exchange items in the Points Store.",
-    },
-    [206024] = {
-        id = 206024,
-        text = "Insufficient items to play mini game",
     },
     [25097] = {
         id = 25097,
@@ -31238,6 +31334,10 @@ return {
     [13100078] = {
         id = 13100078,
         text = "Crafting quantity is 0.",
+    },
+    [206024] = {
+        id = 206024,
+        text = "Insufficient items to play mini game",
     },
     [13100077] = {
         id = 13100077,
@@ -31255,10 +31355,6 @@ return {
         id = 13100074,
         text = "This one is timorous and always tries to escape (it may escape and needs to be found multiple times).",
     },
-    [206025] = {
-        id = 206025,
-        text = "Work not finished",
-    },
     [13100073] = {
         id = 13100073,
         text = "Whoa! This one looks prickly... (prepare for battle)",
@@ -31270,6 +31366,10 @@ return {
     [13100071] = {
         id = 13100071,
         text = "It has favorable attitudes toward humans but may get irritated by wrong answers (may trigger battle).",
+    },
+    [206025] = {
+        id = 206025,
+        text = "Work not finished",
     },
     [13100070] = {
         id = 13100070,
@@ -31283,18 +31383,6 @@ return {
         id = 13100068,
         text = "You have caught the Nian Beast.",
     },
-    [17051] = {
-        id = 17051,
-        text = "Strawberry Mochi [Delicious]",
-    },
-    [206026] = {
-        id = 206026,
-        text = "Working Spirit is in a bad mood",
-    },
-    [18075] = {
-        id = 18075,
-        text = "Fox Baby [Fine]",
-    },
     [13100067] = {
         id = 13100067,
         text = "Appears in the place for holiday journey.",
@@ -31307,9 +31395,17 @@ return {
         id = 13100065,
         text = "Please select a type of firecrackers",
     },
-    [20123] = {
-        id = 20123,
-        text = "Crimson Rose",
+    [17051] = {
+        id = 17051,
+        text = "Strawberry Mochi [Delicious]",
+    },
+    [206026] = {
+        id = 206026,
+        text = "Working Spirit is in a bad mood",
+    },
+    [18075] = {
+        id = 18075,
+        text = "Fox Baby [Fine]",
     },
     [13100064] = {
         id = 13100064,
@@ -31319,13 +31415,13 @@ return {
         id = 13100063,
         text = "Insufficient firecrackers. Please craft more in the \"Craft\" page.",
     },
-    [206027] = {
-        id = 206027,
-        text = "Working Spirit doesn't have enough Favor",
-    },
     [13100062] = {
         id = 13100062,
         text = "Confirm to use firecrackers to summon a Nian Beast?",
+    },
+    [20123] = {
+        id = 20123,
+        text = "Crimson Rose",
     },
     [13100061] = {
         id = 13100061,
@@ -31334,6 +31430,10 @@ return {
     [13100060] = {
         id = 13100060,
         text = "Nian Beast event hasn't started (start time: Feb 4th)",
+    },
+    [206027] = {
+        id = 206027,
+        text = "Working Spirit doesn't have enough Favor",
     },
     [13100059] = {
         id = 13100059,
@@ -31347,13 +31447,9 @@ return {
         id = 13100057,
         text = "Nian Beast Appears: %s-%s",
     },
-    [290000046] = {
-        id = 290000046,
-        text = "Kotori and I missed the grand shrine ritual because we got lost and came to the beach at night.",
-    },
-    [206028] = {
-        id = 206028,
-        text = "Cuisine not found",
+    [13100056] = {
+        id = 13100056,
+        text = "%02dm %02ds",
     },
     [13100055] = {
         id = 13100055,
@@ -31363,9 +31459,25 @@ return {
         id = 13100054,
         text = "Time Left: %02dm %02ds",
     },
-    [13100053] = {
-        id = 13100053,
-        text = "Time Left: %02dh %02dm",
+    [290000046] = {
+        id = 290000046,
+        text = "Kotori and I missed the grand shrine ritual because we got lost and came to the beach at night.",
+    },
+    [206028] = {
+        id = 206028,
+        text = "Cuisine not found",
+    },
+    [282105] = {
+        id = 282105,
+        text = "Trial Spirits cannot join the mode",
+    },
+    [13100051] = {
+        id = 13100051,
+        text = "New year quest includes: red envelope quest, date quest, random quest and minigame. Spirits need your help in this holiday. You can change fav girl quest for free every 3 hours, or do so with Diamonds. Complete quests to earn points, which can be used to exchange rewards in Exchange!\nRed Envelope Quest: Just claim the red envelop. \nDate Quest: Each Spirit has limited date quests, and players can complete them to get rewards. Completed date quests no longer appear. If a Spirit has no new date quests, switch to another Spirit to get new date quests. \nRandom Quest: Follow the tips to complete the quests. \nMini Game Quest: Follow the tips to complete mini games.\nP.S.: Please don't forget to claim rewards! Unclaimed rewards will be delivered to your mailbox.",
+    },
+    [13100050] = {
+        id = 13100050,
+        text = "Launch fireworks in the city to get random rewards and send your best blessings.\nP.S. Players need to launch fireworks within the time limit.",
     },
     [1320462] = {
         id = 1320462,
@@ -32943,18 +33055,6 @@ return {
         id = 1320855,
         text = "Complete 30 Hot Games events",
     },
-    [282105] = {
-        id = 282105,
-        text = "Trial Spirits cannot join the mode",
-    },
-    [13100051] = {
-        id = 13100051,
-        text = "New year quest includes: red envelope quest, date quest, random quest and minigame. Spirits need your help in this holiday. You can change fav girl quest for free every 3 hours, or do so with Diamonds. Complete quests to earn points, which can be used to exchange rewards in Exchange!\nRed Envelope Quest: Just claim the red envelop. \nDate Quest: Each Spirit has limited date quests, and players can complete them to get rewards. Completed date quests no longer appear. If a Spirit has no new date quests, switch to another Spirit to get new date quests. \nRandom Quest: Follow the tips to complete the quests. \nMini Game Quest: Follow the tips to complete mini games.\nP.S.: Please don't forget to claim rewards! Unclaimed rewards will be delivered to your mailbox.",
-    },
-    [13100050] = {
-        id = 13100050,
-        text = "Launch fireworks in the city to get random rewards and send your best blessings.\nP.S. Players need to launch fireworks within the time limit.",
-    },
     [13100049] = {
         id = 13100049,
         text = "The first new year spent together with the Spirits...",
@@ -32962,6 +33062,18 @@ return {
     [13100048] = {
         id = 13100048,
         text = "Complete random date quests to get rewards.",
+    },
+    [13100047] = {
+        id = 13100047,
+        text = "Complete specified mini games to get rewards.",
+    },
+    [13100046] = {
+        id = 13100046,
+        text = "Complete new year date to get rewards.",
+    },
+    [10601083] = {
+        id = 10601083,
+        text = "Spot Weakness: Elite",
     },
     [1320861] = {
         id = 1320861,
@@ -32999,25 +33111,25 @@ return {
         id = 1320869,
         text = "Complete 30 Hot Games events with 100%% completeness",
     },
-    [13100047] = {
-        id = 13100047,
-        text = "Complete specified mini games to get rewards.",
+    [13100044] = {
+        id = 13100044,
+        text = "Random Quest",
     },
     [12113] = {
         id = 12113,
         text = "Amusement Park Staff - Male",
     },
-    [13100046] = {
-        id = 13100046,
-        text = "Complete new year date to get rewards.",
+    [13100043] = {
+        id = 13100043,
+        text = "Mini Game",
     },
-    [10601083] = {
-        id = 10601083,
-        text = "Spot Weakness: Elite",
+    [13100042] = {
+        id = 13100042,
+        text = "New Year Date",
     },
-    [13100044] = {
-        id = 13100044,
-        text = "Random Quest",
+    [13100041] = {
+        id = 13100041,
+        text = "Lucky Red Envelope",
     },
     [13137] = {
         id = 13137,
@@ -33239,17 +33351,17 @@ return {
         id = 1320929,
         text = "Become the trainer for the 1st time",
     },
-    [13100043] = {
-        id = 13100043,
-        text = "Mini Game",
+    [13100040] = {
+        id = 13100040,
+        text = "Everyone's treasures have been retrieved. It turned out they are... Anyway, enjoy the new year!",
     },
-    [13100042] = {
-        id = 13100042,
-        text = "New Year Date",
+    [13100039] = {
+        id = 13100039,
+        text = "Ratatoskr has issued guidelines to catch the Nian Beasts!",
     },
-    [13100041] = {
-        id = 13100041,
-        text = "Lucky Red Envelope",
+    [13100038] = {
+        id = 13100038,
+        text = "Spirits' treasures have been stolen! What on earth are those weird creatures?",
     },
     [1452001] = {
         id = 1452001,
@@ -33335,9 +33447,9 @@ return {
         id = 17059,
         text = "Sweet Juice [Exceptional]",
     },
-    [13100040] = {
-        id = 13100040,
-        text = "Everyone's treasures have been retrieved. It turned out they are... Anyway, enjoy the new year!",
+    [13100037] = {
+        id = 13100037,
+        text = "A gift for me?",
     },
     [18083] = {
         id = 18083,
@@ -33347,9 +33459,9 @@ return {
         id = 1020931,
         text = "Hehe, you have quite a nice figure.",
     },
-    [13100039] = {
-        id = 13100039,
-        text = "Ratatoskr has issued guidelines to catch the Nian Beasts!",
+    [63669] = {
+        id = 63669,
+        text = "Congrats to %s who activated the title - Diamond Tycoon. Come grab tycoon's red envelope!",
     },
     [1020932] = {
         id = 1020932,
@@ -33362,18 +33474,6 @@ return {
     [1020933] = {
         id = 1020933,
         text = "Hoho, earn some pocket money",
-    },
-    [13100038] = {
-        id = 13100038,
-        text = "Spirits' treasures have been stolen! What on earth are those weird creatures?",
-    },
-    [13100037] = {
-        id = 13100037,
-        text = "A gift for me?",
-    },
-    [63669] = {
-        id = 63669,
-        text = "Congrats to %s who activated the title - Diamond Tycoon. Come grab tycoon's red envelope!",
     },
     [13100035] = {
         id = 13100035,
@@ -33395,9 +33495,9 @@ return {
         id = 13100031,
         text = "It has favorable attitudes toward humans but may get irritated by wrong answers.",
     },
-    [290000047] = {
-        id = 290000047,
-        text = "Canned Food",
+    [13100030] = {
+        id = 13100030,
+        text = "This one has mild disposition, but you'll need to make it happy.",
     },
     [10601084] = {
         id = 10601084,
@@ -33407,9 +33507,9 @@ return {
         id = 13100028,
         text = "Whoa! This one looks prickly... (prepare for battle)",
     },
-    [13100027] = {
-        id = 13100027,
-        text = "It has favorable attitudes toward humans but may get irritated by wrong answers (may trigger battle).",
+    [290000047] = {
+        id = 290000047,
+        text = "Canned Food",
     },
     [13100026] = {
         id = 13100026,
@@ -33423,45 +33523,45 @@ return {
         id = 13100024,
         text = "Complete random quests.",
     },
-    [1020941] = {
-        id = 1020941,
-        text = "La- la- la, time to rub the back~",
-    },
     [13100023] = {
         id = 13100023,
         text = "Complete the mini game.",
-    },
-    [1020942] = {
-        id = 1020942,
-        text = "We have a lot of costumers today...",
     },
     [13100022] = {
         id = 13100022,
         text = "Complete the date on new-year custom research.",
     },
-    [1020943] = {
-        id = 1020943,
-        text = "We have a handsome customer~",
-    },
     [10601085] = {
         id = 10601085,
         text = "CD Reduce",
     },
-    [281111] = {
-        id = 281111,
-        text = "Use to swear a 3-day oath with Vanargand Mana",
+    [1020941] = {
+        id = 1020941,
+        text = "La- la- la, time to rub the back~",
     },
     [265536] = {
         id = 265536,
         text = "Rank up Kotori Itsuka to EX rank to activate this avatar",
     },
+    [1020942] = {
+        id = 1020942,
+        text = "We have a lot of costumers today...",
+    },
     [13100019] = {
         id = 13100019,
         text = "Complete the red envelope quest.",
     },
+    [1020943] = {
+        id = 1020943,
+        text = "We have a handsome customer~",
+    },
     [13100018] = {
         id = 13100018,
         text = "Wonderful Bonds",
+    },
+    [281111] = {
+        id = 281111,
+        text = "Use to swear a 3-day oath with Vanargand Mana",
     },
     [13100017] = {
         id = 13100017,
@@ -33503,13 +33603,25 @@ return {
         id = 13100008,
         text = "Appears in the place known as \"the warm haven\".",
     },
+    [10601089] = {
+        id = 10601089,
+        text = "Pierce",
+    },
+    [13100006] = {
+        id = 13100006,
+        text = "Hides in the place that has lots of delicate accessories.",
+    },
+    [10601087] = {
+        id = 10601087,
+        text = "CD Reduce",
+    },
     [1020951] = {
         id = 1020951,
         text = "Woah~! This is heavy~",
     },
-    [10601089] = {
-        id = 10601089,
-        text = "Pierce",
+    [265532] = {
+        id = 265532,
+        text = "Rank up Mio Takamiya to EX rank to activate this avatar",
     },
     [1020952] = {
         id = 1020952,
@@ -33523,22 +33635,6 @@ return {
         id = 1020953,
         text = "No~ We don't have that sort of service!",
     },
-    [13100006] = {
-        id = 13100006,
-        text = "Hides in the place that has lots of delicate accessories.",
-    },
-    [10601087] = {
-        id = 10601087,
-        text = "CD Reduce",
-    },
-    [13138] = {
-        id = 13138,
-        text = "Activate 「」",
-    },
-    [265532] = {
-        id = 265532,
-        text = "Rank up Mio Takamiya to EX rank to activate this avatar",
-    },
     [13100003] = {
         id = 13100003,
         text = "Hides in the Spirits' secret place.",
@@ -33547,6 +33643,10 @@ return {
         id = 13100002,
         text = "Hides in the Spirits' secret place.",
     },
+    [13138] = {
+        id = 13138,
+        text = "Activate 「」",
+    },
     [10601088] = {
         id = 10601088,
         text = "Lightning Strike Gallery: Extreme",
@@ -33554,10 +33654,6 @@ return {
     [12107004] = {
         id = 12107004,
         text = "In the training matrix, skill CD is reduced by N seconds and energy regen is N% faster. Enemies are floating so make good use of air combos.",
-    },
-    [202001] = {
-        id = 202001,
-        text = "Previous stages not cleared",
     },
     [12107003] = {
         id = 12107003,
@@ -33571,6 +33667,10 @@ return {
         id = 12107001,
         text = "All the enemies in the training matrix are floating. Controlling the timing of skill release and extending the time in the air are the key to get a high score.",
     },
+    [202001] = {
+        id = 202001,
+        text = "Previous stages not cleared",
+    },
     [12106004] = {
         id = 12106004,
         text = "Yoshino",
@@ -33582,6 +33682,18 @@ return {
     [12106002] = {
         id = 12106002,
         text = "Inverse Tohka",
+    },
+    [12106001] = {
+        id = 12106001,
+        text = "Vanargand Mana",
+    },
+    [12105004] = {
+        id = 12105004,
+        text = "Frost Ward",
+    },
+    [12105003] = {
+        id = 12105003,
+        text = "Absolute Defense",
     },
     [1020961] = {
         id = 1020961,
@@ -33603,9 +33715,9 @@ return {
         id = 1020963,
         text = "Rub the back with strength!",
     },
-    [12106001] = {
-        id = 12106001,
-        text = "Vanargand Mana",
+    [12105002] = {
+        id = 12105002,
+        text = "Dark Domain",
     },
     [281121] = {
         id = 281121,
@@ -33615,25 +33727,13 @@ return {
         id = 20132,
         text = "Type: Costume\nOwner: Origami Tobiichi\nWith the falling snowflakes, the Christmas mood is just right. There is a gift to be handed over to you.",
     },
-    [12105004] = {
-        id = 12105004,
-        text = "Frost Ward",
+    [12105001] = {
+        id = 12105001,
+        text = "Wrapping Demonwolf",
     },
     [202003] = {
         id = 202003,
         text = "Out of battle chances",
-    },
-    [12105003] = {
-        id = 12105003,
-        text = "Absolute Defense",
-    },
-    [12105002] = {
-        id = 12105002,
-        text = "Dark Domain",
-    },
-    [12105001] = {
-        id = 12105001,
-        text = "Wrapping Demonwolf",
     },
     [12101063] = {
         id = 12101063,
@@ -33651,13 +33751,25 @@ return {
         id = 12101060,
         text = "Only the time spent in the Pumpkin King's [Bedroom] is counted.",
     },
+    [12101059] = {
+        id = 12101059,
+        text = "7. Players can get tokens from the event and use them to exchange items in the Halloween store.",
+    },
+    [12101058] = {
+        id = 12101058,
+        text = "6. Halloween mini game - card matching: win the game by getting two of the same cards. Win enough times to claim extra rewards.",
+    },
+    [12101057] = {
+        id = 12101057,
+        text = "5. Every day, there will be 3 different challenge quests, from which you can get the items to unfold cards. Don't forget to complete them!",
+    },
     [202004] = {
         id = 202004,
         text = "Main stage cleared. Cannot enter again",
     },
-    [12101059] = {
-        id = 12101059,
-        text = "7. Players can get tokens from the event and use them to exchange items in the Halloween store.",
+    [12101056] = {
+        id = 12101056,
+        text = "4. Different rooms grant different buffs. It is suggested to get them all before challenging the Pumpkin King.",
     },
     [100000058] = {
         id = 100000058,
@@ -33691,18 +33803,6 @@ return {
         id = 100000298,
         text = "在精灵试炼中战胜%s次真那",
     },
-    [12101051] = {
-        id = 12101051,
-        text = "Clear the stage to unlock the buff: Spirits inflict 30% more Dark DMG.",
-    },
-    [12101050] = {
-        id = 12101050,
-        text = "Clear the stage to unlock the buff: All bosses in [Castle Exploration] have their DEF reduced by 20%.",
-    },
-    [12101049] = {
-        id = 12101049,
-        text = "Clear the stage to unlock the buff: All bosses in [Castle Exploration] have their ATK reduced by 20%.",
-    },
     [12101048] = {
         id = 12101048,
         text = "Clear the stage to unlock the buff: All bosses in [Castle Exploration] have their max HP reduced by 20%.",
@@ -33715,10 +33815,6 @@ return {
         id = 12101046,
         text = "Store",
     },
-    [202006] = {
-        id = 202006,
-        text = "Out of challenge chances",
-    },
     [3203222] = {
         id = 3203222,
         text = "3. Cards with passive effects take effect directly in stages.",
@@ -33730,6 +33826,10 @@ return {
     [12101043] = {
         id = 12101043,
         text = "Quest",
+    },
+    [202006] = {
+        id = 202006,
+        text = "Out of challenge chances",
     },
     [12101042] = {
         id = 12101042,
@@ -33747,10 +33847,6 @@ return {
         id = 12101039,
         text = "Clear the room [Balcony] to unlock card-unfold feature.",
     },
-    [202007] = {
-        id = 202007,
-        text = "Insufficient player level",
-    },
     [12101038] = {
         id = 12101038,
         text = "Spirits restore 5% HP every 10 seconds.",
@@ -33763,13 +33859,13 @@ return {
         id = 12101035,
         text = "All bosses in [Castle Exploration] have their ATK reduced by 20%.",
     },
+    [202007] = {
+        id = 202007,
+        text = "Insufficient player level",
+    },
     [12101034] = {
         id = 12101034,
         text = "All bosses in [Castle Exploration] have their max HP reduced by 20%.",
-    },
-    [281131] = {
-        id = 281131,
-        text = "Use to swear a 3-day oath with Mayuri",
     },
     [12101033] = {
         id = 12101033,
@@ -33779,13 +33875,13 @@ return {
         id = 12101032,
         text = "Unlocked by clearing [Cellar].",
     },
-    [202008] = {
-        id = 202008,
-        text = "Out of purchase chances",
-    },
     [12101031] = {
         id = 12101031,
         text = "Unlocked by clearing [Watch Tower].",
+    },
+    [281131] = {
+        id = 281131,
+        text = "Use to swear a 3-day oath with Mayuri",
     },
     [12101030] = {
         id = 12101030,
@@ -33794,6 +33890,10 @@ return {
     [3203224] = {
         id = 3203224,
         text = "5. Each card can be upgraded up to Lv.10 with duplicate cards. Duplicate cards of Lv.10 cards will be turned into Sharam Jewel automatically.",
+    },
+    [202008] = {
+        id = 202008,
+        text = "Out of purchase chances",
     },
     [12101028] = {
         id = 12101028,
@@ -33811,10 +33911,6 @@ return {
         id = 12101025,
         text = "Unlock Feature",
     },
-    [202009] = {
-        id = 202009,
-        text = "Instance group reward has been claimed",
-    },
     [12101024] = {
         id = 12101024,
         text = "Chamber",
@@ -33826,6 +33922,10 @@ return {
     [12101022] = {
         id = 12101022,
         text = "Treasury",
+    },
+    [202009] = {
+        id = 202009,
+        text = "Instance group reward has been claimed",
     },
     [12101021] = {
         id = 12101021,
@@ -33843,17 +33943,9 @@ return {
         id = 12101017,
         text = "Warehouse",
     },
-    [202010] = {
-        id = 202010,
-        text = "Cap reached",
-    },
     [12101016] = {
         id = 12101016,
         text = "Kitchen",
-    },
-    [18085] = {
-        id = 18085,
-        text = "Dog Pedant",
     },
     [12101015] = {
         id = 12101015,
@@ -33863,21 +33955,21 @@ return {
         id = 3203225,
         text = "6. Card packs are given after you finish cycle quests or completed a cycle of competition, from them you can get cards of varying quality.",
     },
+    [202010] = {
+        id = 202010,
+        text = "Cap reached",
+    },
     [12101012] = {
         id = 12101012,
         text = "Cloakroom",
     },
-    [20133] = {
-        id = 20133,
-        text = "Candlelit Christmas Eve",
+    [18085] = {
+        id = 18085,
+        text = "Dog Pedant",
     },
     [12101011] = {
         id = 12101011,
         text = "Prison Cell",
-    },
-    [202011] = {
-        id = 202011,
-        text = "Need more stage stars to claim rewards",
     },
     [12101010] = {
         id = 12101010,
@@ -33887,9 +33979,17 @@ return {
         id = 12101009,
         text = "Hall",
     },
+    [20133] = {
+        id = 20133,
+        text = "Candlelit Christmas Eve",
+    },
     [12101008] = {
         id = 12101008,
         text = "The item used to play the card unfolding game in the Halloween event. Each item will let you fold 2 cards.",
+    },
+    [202011] = {
+        id = 202011,
+        text = "Need more stage stars to claim rewards",
     },
     [3203227] = {
         id = 3203227,
@@ -33903,6 +34003,18 @@ return {
         id = 12101005,
         text = "Pumpkin King's Coin",
     },
+    [3203226] = {
+        id = 3203226,
+        text = "",
+    },
+    [12101002] = {
+        id = 12101002,
+        text = "The item used in castle exploration in the Halloween Event (replenishes by 1 every 5 minutes).",
+    },
+    [12101001] = {
+        id = 12101001,
+        text = "Witch's Sweetener",
+    },
     [1021001] = {
         id = 1021001,
         text = "Take a nap secretly~",
@@ -33915,37 +34027,21 @@ return {
         id = 1021002,
         text = "Hmm... I am so sleepy...",
     },
-    [3203226] = {
-        id = 3203226,
-        text = "",
+    [12100107] = {
+        id = 12100107,
+        text = "A mysterious Christmas gift.",
     },
     [1021003] = {
         id = 1021003,
         text = "Will there be any masked bandit?",
     },
-    [12101002] = {
-        id = 12101002,
-        text = "The item used in castle exploration in the Halloween Event (replenishes by 1 every 5 minutes).",
+    [12100106] = {
+        id = 12100106,
+        text = "A mysterious Christmas gift.",
     },
     [281141] = {
         id = 281141,
         text = "Use to swear a 3-day oath with Natsumi",
-    },
-    [12101001] = {
-        id = 12101001,
-        text = "Witch's Sweetener",
-    },
-    [12100107] = {
-        id = 12100107,
-        text = "A mysterious Christmas gift.",
-    },
-    [202013] = {
-        id = 202013,
-        text = "The team is full",
-    },
-    [12100106] = {
-        id = 12100106,
-        text = "A mysterious Christmas gift.",
     },
     [12100105] = {
         id = 12100105,
@@ -33954,6 +34050,10 @@ return {
     [12100104] = {
         id = 12100104,
         text = "Unlocked by completing Natsumi's all dates and tasks.",
+    },
+    [202013] = {
+        id = 202013,
+        text = "The team is full",
     },
     [12100103] = {
         id = 12100103,
@@ -33971,10 +34071,6 @@ return {
         id = 12100089,
         text = "You still have rewards to claim. Please claim them all before refreshing!",
     },
-    [202014] = {
-        id = 202014,
-        text = "Failed to find matchup team",
-    },
     [12100088] = {
         id = 12100088,
         text = "Welcome to the Spirit's party!",
@@ -33983,21 +34079,37 @@ return {
         id = 12100087,
         text = "12/23/2018 - 1/6/2019",
     },
+    [1090403] = {
+        id = 1090403,
+        text = "Time is ticking out. But if it is to date you...",
+    },
+    [202014] = {
+        id = 202014,
+        text = "Failed to find matchup team",
+    },
+    [12100084] = {
+        id = 12100084,
+        text = "Jingle bells, jingle bells, jingle all the way! The Christmas tree is decorated with gifts, and Spirits are longing for a romantic date!\n1. Players will receive 6 tasks from Santa every 24 hours. After completing them all, one can wait for 24 hours or use Diamonds to refresh them.\n2. Complete tasks to gain the gift progress. When a Spirit's progress reaches 100%, you'll receive a Christmas gift from her.\n3. After getting the gifts from all Spirits, you can get the super gift on the top of the Christmas tree! Time to get your ultimate Christmas gift!!",
+    },
+    [12100083] = {
+        id = 12100083,
+        text = "Christmas Clash",
+    },
     [1021011] = {
         id = 1021011,
         text = "Ahaha, we get new products here~",
     },
-    [1090403] = {
-        id = 1090403,
-        text = "Time is ticking out. But if it is to date you...",
+    [12100082] = {
+        id = 12100082,
+        text = "Complete the Christmas dating with all fav girls.",
     },
     [1021012] = {
         id = 1021012,
         text = "Hopefully we have more customers today!",
     },
-    [12100084] = {
-        id = 12100084,
-        text = "Jingle bells, jingle bells, jingle all the way! The Christmas tree is decorated with gifts, and Spirits are longing for a romantic date!\n1. Players will receive 6 tasks from Santa every 24 hours. After completing them all, one can wait for 24 hours or use Diamonds to refresh them.\n2. Complete tasks to gain the gift progress. When a Spirit's progress reaches 100%, you'll receive a Christmas gift from her.\n3. After getting the gifts from all Spirits, you can get the super gift on the top of the Christmas tree! Time to get your ultimate Christmas gift!!",
+    [12100081] = {
+        id = 12100081,
+        text = "",
     },
     [1021013] = {
         id = 1021013,
@@ -34007,18 +34119,6 @@ return {
         id = 202015,
         text = "Failed to find team",
     },
-    [12100083] = {
-        id = 12100083,
-        text = "Christmas Clash",
-    },
-    [12100082] = {
-        id = 12100082,
-        text = "Complete the Christmas dating with all fav girls.",
-    },
-    [12100081] = {
-        id = 12100081,
-        text = "",
-    },
     [12100080] = {
         id = 12100080,
         text = "Out of chances to refresh with Diamonds",
@@ -34026,6 +34126,18 @@ return {
     [3204546] = {
         id = 3204546,
         text = "Physical DMG Up",
+    },
+    [12100078] = {
+        id = 12100078,
+        text = "(Daily Diamond Refresh Chances: %s)",
+    },
+    [3204544] = {
+        id = 3204544,
+        text = "Lightning DMG Up",
+    },
+    [1091201] = {
+        id = 1091201,
+        text = "I am exhausted~",
     },
     [12115] = {
         id = 12115,
@@ -34119,45 +34231,45 @@ return {
         id = 12010157,
         text = "Talk with Tohka who appears.",
     },
-    [12100078] = {
-        id = 12100078,
-        text = "(Daily Diamond Refresh Chances: %s)",
+    [12100024] = {
+        id = 12100024,
+        text = "Clear a team instance",
     },
     [20134] = {
         id = 20134,
         text = "Type: Costume\nOwner: Mayuri\nStumbling all the way to you, I am willing to do something to you. But at this moment, I just want to stay by your side...",
     },
-    [3204544] = {
-        id = 3204544,
-        text = "Lightning DMG Up",
+    [12100023] = {
+        id = 12100023,
+        text = "Complete any Date 1 time",
     },
     [202019] = {
         id = 202019,
         text = "Spirit limit configuration error",
     },
-    [1091201] = {
-        id = 1091201,
-        text = "I am exhausted~",
+    [12100022] = {
+        id = 12100022,
+        text = "Complete an instance in Hell",
     },
-    [12100024] = {
-        id = 12100024,
-        text = "Clear a team instance",
+    [3204548] = {
+        id = 3204548,
+        text = "Melee DMG Up",
     },
     [1021031] = {
         id = 1021031,
         text = "Excuse me~",
     },
-    [12100023] = {
-        id = 12100023,
-        text = "Complete any Date 1 time",
+    [12100020] = {
+        id = 12100020,
+        text = "Complete an instance in Hard",
     },
     [1021032] = {
         id = 1021032,
         text = "New products are on sale~",
     },
-    [12100022] = {
-        id = 12100022,
-        text = "Complete an instance in Hell",
+    [12100019] = {
+        id = 12100019,
+        text = "Complete handcraft once",
     },
     [1021033] = {
         id = 1021033,
@@ -34166,18 +34278,6 @@ return {
     [202020] = {
         id = 202020,
         text = "Spirit limit has banned Spirit",
-    },
-    [3204548] = {
-        id = 3204548,
-        text = "Melee DMG Up",
-    },
-    [12100020] = {
-        id = 12100020,
-        text = "Complete an instance in Difficult",
-    },
-    [12100019] = {
-        id = 12100019,
-        text = "Complete handcraft once",
     },
     [12100018] = {
         id = 12100018,
@@ -34195,10 +34295,6 @@ return {
         id = 12100015,
         text = "Claim work reward once",
     },
-    [202021] = {
-        id = 202021,
-        text = "Spirit limit has duplicate Spirit",
-    },
     [12100014] = {
         id = 12100014,
         text = "Enjoy this Christmas together with everyone!",
@@ -34210,6 +34306,10 @@ return {
     [12100011] = {
         id = 12100011,
         text = "In your hands, the milky way comes into existence, yet I've no idea which star is the brightest.",
+    },
+    [202021] = {
+        id = 202021,
+        text = "Spirit limit has duplicate Spirit",
     },
     [12100010] = {
         id = 12100010,
@@ -34223,6 +34323,18 @@ return {
         id = 12100008,
         text = "\"Santa Claus must exist!\" - Tohka said in tears.",
     },
+    [3204553] = {
+        id = 3204553,
+        text = "",
+    },
+    [3204550] = {
+        id = 3204550,
+        text = "",
+    },
+    [12100004] = {
+        id = 12100004,
+        text = "Its black-and-red hue represents her ruthlessness as well as her warm regards.",
+    },
     [1021041] = {
         id = 1021041,
         text = "Handle it with care~",
@@ -34235,33 +34347,17 @@ return {
         id = 1021042,
         text = "Cold and quiet...",
     },
-    [3204553] = {
-        id = 3204553,
-        text = "",
+    [1091303] = {
+        id = 1091303,
+        text = "Don't mind me... just leave me alone.",
     },
     [1021043] = {
         id = 1021043,
         text = "Clean the counter~",
     },
-    [3204550] = {
-        id = 3204550,
-        text = "",
-    },
-    [12100004] = {
-        id = 12100004,
-        text = "Its black-and-red hue represents her ruthlessness as well as her warm regards.",
-    },
-    [1091303] = {
-        id = 1091303,
-        text = "Don't mind me... just leave me alone.",
-    },
     [3204552] = {
         id = 3204552,
         text = "",
-    },
-    [202023] = {
-        id = 202023,
-        text = "Current map location is unavailable",
     },
     [12042002] = {
         id = 12042002,
@@ -34270,6 +34366,14 @@ return {
     [12042001] = {
         id = 12042001,
         text = "Black Raven Voucher",
+    },
+    [1310683] = {
+        id = 1310683,
+        text = "Medium Enhance 2",
+    },
+    [202023] = {
+        id = 202023,
+        text = "Current map location is unavailable",
     },
     [12033030] = {
         id = 12033030,
@@ -34291,10 +34395,6 @@ return {
         id = 12033026,
         text = "",
     },
-    [202024] = {
-        id = 202024,
-        text = "Current map store is unavailable",
-    },
     [12033025] = {
         id = 12033025,
         text = "",
@@ -34303,21 +34403,33 @@ return {
         id = 12033024,
         text = "",
     },
-    [1021051] = {
-        id = 1021051,
-        text = "Haha~ you are really funny~",
+    [202024] = {
+        id = 202024,
+        text = "Current map store is unavailable",
     },
     [12033023] = {
         id = 12033023,
         text = "",
     },
+    [12033022] = {
+        id = 12033022,
+        text = "",
+    },
+    [1021051] = {
+        id = 1021051,
+        text = "Haha~ you are really funny~",
+    },
+    [1023103] = {
+        id = 1023103,
+        text = "It's so dark~",
+    },
     [1021052] = {
         id = 1021052,
         text = "Anything I can do for you?",
     },
-    [12033022] = {
-        id = 12033022,
-        text = "",
+    [411051] = {
+        id = 411051,
+        text = "Overall DMG MIT +1%",
     },
     [1021053] = {
         id = 1021053,
@@ -34326,14 +34438,6 @@ return {
     [202025] = {
         id = 202025,
         text = "Out of chances to buy more from the current map store",
-    },
-    [1023103] = {
-        id = 1023103,
-        text = "It's so dark~",
-    },
-    [411051] = {
-        id = 411051,
-        text = "Overall DMG MIT +1%",
     },
     [12033019] = {
         id = 12033019,
@@ -34355,28 +34459,36 @@ return {
         id = 12033015,
         text = "",
     },
-    [202026] = {
-        id = 202026,
-        text = "Need more energy to trigger current event",
-    },
     [19039] = {
         id = 19039,
         text = "Special Item 20",
-    },
-    [18087] = {
-        id = 18087,
-        text = "Dog Pedant [Fine]",
     },
     [11000069] = {
         id = 11000069,
         text = "But... not annoyed...",
     },
+    [202026] = {
+        id = 202026,
+        text = "Need more energy to trigger current event",
+    },
     [1310687] = {
         id = 1310687,
         text = "Medium Enhance 6",
     },
+    [18087] = {
+        id = 18087,
+        text = "Dog Pedant [Fine]",
+    },
     [12033011] = {
         id = 12033011,
+        text = "",
+    },
+    [12033010] = {
+        id = 12033010,
+        text = "",
+    },
+    [12033009] = {
+        id = 12033009,
         text = "",
     },
     [20135] = {
@@ -34395,21 +34507,13 @@ return {
         id = 1021062,
         text = "Matching accessory... is hard!",
     },
-    [12033010] = {
-        id = 12033010,
+    [12033008] = {
+        id = 12033008,
         text = "",
     },
     [1021063] = {
         id = 1021063,
         text = "Relax my legs and feet~",
-    },
-    [12033009] = {
-        id = 12033009,
-        text = "",
-    },
-    [12033008] = {
-        id = 12033008,
-        text = "",
     },
     [11000073] = {
         id = 11000073,
@@ -34419,10 +34523,6 @@ return {
         id = 1310691,
         text = "Advanced Enhance 4",
     },
-    [202028] = {
-        id = 202028,
-        text = "Current formation contains Spirit with high infection ratio.",
-    },
     [11000070] = {
         id = 11000070,
         text = "Looks…",
@@ -34430,6 +34530,10 @@ return {
     [20063] = {
         id = 20063,
         text = "Stardom Chaser",
+    },
+    [202028] = {
+        id = 202028,
+        text = "Current formation contains Spirit with high infection ratio.",
     },
     [11000071] = {
         id = 11000071,
@@ -34451,10 +34555,6 @@ return {
         id = 12032063,
         text = "",
     },
-    [202029] = {
-        id = 202029,
-        text = "Instance: Cannot use Rapid Battle",
-    },
     [12032062] = {
         id = 12032062,
         text = "You can't claim doubled resources from this city.",
@@ -34462,6 +34562,10 @@ return {
     [11000156] = {
         id = 11000156,
         text = "Can... can we date together?",
+    },
+    [202029] = {
+        id = 202029,
+        text = "Instance: Cannot use Rapid Battle",
     },
     [230010] = {
         id = 230010,
@@ -34483,10 +34587,6 @@ return {
         id = 12032056,
         text = "◆ Enemies inflict much higher DMG but their DEF is greatly reduced.",
     },
-    [202030] = {
-        id = 202030,
-        text = "Instance: Cannot use Duel Mode",
-    },
     [12032055] = {
         id = 12032055,
         text = "◆ Enemies' DEF is greatly enhanced.",
@@ -34494,6 +34594,10 @@ return {
     [12032054] = {
         id = 12032054,
         text = "◆ Enemies inflict much higher DMG.",
+    },
+    [202030] = {
+        id = 202030,
+        text = "Instance: Cannot use Duel Mode",
     },
     [11000157] = {
         id = 11000157,
@@ -34515,10 +34619,6 @@ return {
         id = 12032049,
         text = "Forward Bullet",
     },
-    [202031] = {
-        id = 202031,
-        text = "Team shall have at least 1 Spirit",
-    },
     [12032048] = {
         id = 12032048,
         text = "The leaderboard will be displayed during phase Ⅲ.",
@@ -34526,6 +34626,10 @@ return {
     [12032047] = {
         id = 12032047,
         text = "Defeat all the hostile demon kings.",
+    },
+    [202031] = {
+        id = 202031,
+        text = "Team shall have at least 1 Spirit",
     },
     [12032046] = {
         id = 12032046,
@@ -34539,33 +34643,33 @@ return {
         id = 63650,
         text = "1. In the event, you will get points via Daily Quest, online duration and Top-up. \n 2. During the event, top up $1 to get 10 points. Every 1 Activity earned in Daily Quest also grants 3 points. \n 3. During the event, you can get 20 points for 1 min of online duration, up to 240 points per day. \n4. During the event, you can exchange Support Points earned in the Kurumi Support event at the ratio of 3:1 to current event points.",
     },
+    [12032043] = {
+        id = 12032043,
+        text = "You have joined a demon king's faction and are ready for the new journey.",
+    },
+    [12032042] = {
+        id = 12032042,
+        text = "This city will open on ''09/25/2020 00:00:00''.",
+    },
     [12116] = {
         id = 12116,
         text = "Bath House Staff - Female",
     },
-    [12032043] = {
-        id = 12032043,
-        text = "You have joined a demon king's faction and are ready for the new journey.",
+    [12032041] = {
+        id = 12032041,
+        text = "This city will open on ''09/24/2020 00:00:00''.",
     },
     [202032] = {
         id = 202032,
         text = "Cheating program detected. Cannot get rewards.",
     },
-    [12032042] = {
-        id = 12032042,
-        text = "This city will open on ''11/29/2019 00:00:00''.",
+    [12032040] = {
+        id = 12032040,
+        text = "No available resources to claim. Please wait for some time.",
     },
     [13140] = {
         id = 13140,
         text = "Light of hope is condensed on the feather.",
-    },
-    [12032041] = {
-        id = 12032041,
-        text = "This city will open on ''2019-11-28 00:00:00''.",
-    },
-    [12032040] = {
-        id = 12032040,
-        text = "No available resources to claim. Please wait for some time.",
     },
     [12032039] = {
         id = 12032039,
@@ -34611,49 +34715,49 @@ return {
         id = 11000160,
         text = "Wow! Don't- don't joke around!",
     },
-    [17064] = {
-        id = 17064,
-        text = "Delicious Food. This vitamin-filled drink made of vegetable is good for your health.",
-    },
     [300268] = {
         id = 300268,
         text = "Winter Clash",
-    },
-    [18088] = {
-        id = 18088,
-        text = "Fine crafted item. It makes you feel safe to have the cute dog on the delicate chain guard you.",
     },
     [12032027] = {
         id = 12032027,
         text = "8. Meanwhile, all the 3 factions are ranked based on total time spent by the top players in each faction. After [Battle Time] ends, players in all factions who have joined at least 1 challenge will get the ranking rewards.",
     },
+    [17064] = {
+        id = 17064,
+        text = "Delicious Food. This vitamin-filled drink made of vegetable is good for your health.",
+    },
     [12032026] = {
         id = 12032026,
         text = "7. During phase 3, all players in the faction are ranked by time spent on the stages, and the top 100 players are displayed on the leaderboard and get rewards after [Battle Time] ends.",
+    },
+    [18088] = {
+        id = 18088,
+        text = "Fine crafted item. It makes you feel safe to have the cute dog on the delicate chain guard you.",
     },
     [12032025] = {
         id = 12032025,
         text = "6. During phase 3, the three demon kings appear in the same city. Players also have assisting demon king in this phase.",
     },
-    [20136] = {
-        id = 20136,
-        text = "Type: Costume\nOwner: Natsumi\nSpend the happy Christmas season with you! Holding happiness and sweatiness in hands, they are all gifts of love.",
-    },
     [12032024] = {
         id = 12032024,
         text = "5. During phase 2, 3 demon kings appear in 3 random cities, and their location changes every 3 days. Players will challenge different stages depending on their faction.",
     },
-    [202035] = {
-        id = 202035,
-        text = "To make the game a better place, please don't use cheating bots.",
-    },
     [12032023] = {
         id = 12032023,
-        text = "4. After all the cities are unlocked in phase 1, players must choose a demon lord's faction before entering phase 2 and 3.",
+        text = "4. After all the cities are unlocked in phase 1, players must choose a demon lord's faction before entering phase 2&3.",
+    },
+    [20136] = {
+        id = 20136,
+        text = "Type: Costume\nOwner: Natsumi\nSpend the happy Christmas season with you! Holding happiness and sweatiness in hands, they are all gifts of love.",
     },
     [12032022] = {
         id = 12032022,
         text = "3. During phase 1, players can unlock cities by clearing stages and save resources there. Once you've saved enough resources for some time (can do that for limited times), you can claim them. Players can spend AP to claim double resources.",
+    },
+    [202035] = {
+        id = 202035,
+        text = "To make the game a better place, please don't use cheating bots.",
     },
     [11000161] = {
         id = 11000161,
@@ -34675,10 +34779,6 @@ return {
         id = 12032017,
         text = "Phase Ⅲ",
     },
-    [202036] = {
-        id = 202036,
-        text = "Team error. Please retry later!",
-    },
     [12032016] = {
         id = 12032016,
         text = "Phase Ⅱ",
@@ -34686,6 +34786,10 @@ return {
     [12032015] = {
         id = 12032015,
         text = "Phase Ⅰ",
+    },
+    [202036] = {
+        id = 202036,
+        text = "Team error. Please retry later!",
     },
     [21074] = {
         id = 21074,
@@ -34703,29 +34807,37 @@ return {
         id = 12032011,
         text = "Lost City #9",
     },
-    [1021101] = {
-        id = 1021101,
-        text = "Welcome... What?!",
-    },
     [12032010] = {
         id = 12032010,
         text = "Lost Ark #8",
-    },
-    [1021102] = {
-        id = 1021102,
-        text = "That guy is gone?",
     },
     [12032009] = {
         id = 12032009,
         text = "Abandoned Church #7",
     },
-    [1021103] = {
-        id = 1021103,
-        text = "Who could come at midnight?",
+    [1021101] = {
+        id = 1021101,
+        text = "Welcome... What?!",
     },
     [12032008] = {
         id = 12032008,
         text = "Cliff Walkway #6",
+    },
+    [1021102] = {
+        id = 1021102,
+        text = "That guy is gone?",
+    },
+    [11000166] = {
+        id = 11000166,
+        text = "What are you doing...",
+    },
+    [1021103] = {
+        id = 1021103,
+        text = "Who could come at midnight?",
+    },
+    [63648] = {
+        id = 63648,
+        text = "Fund sale will end in:",
     },
     [1223001] = {
         id = 1223001,
@@ -34975,21 +35087,13 @@ return {
         id = 243004,
         text = "Option to explore this city is not unlocked",
     },
-    [11000163] = {
-        id = 11000163,
-        text = "No way you can fool me.",
+    [11000164] = {
+        id = 11000164,
+        text = "Except my words, I won't trust anything.",
     },
     [31401] = {
         id = 31401,
         text = "Neptune",
-    },
-    [63649] = {
-        id = 63649,
-        text = "Sale has ended",
-    },
-    [11000164] = {
-        id = 11000164,
-        text = "Except my words, I won't trust anything.",
     },
     [1310957] = {
         id = 1310957,
@@ -35003,10 +35107,6 @@ return {
         id = 12031054,
         text = "",
     },
-    [243005] = {
-        id = 243005,
-        text = "Configuration error",
-    },
     [11000265] = {
         id = 11000265,
         text = "Sleep deprivation is enemy of your skin~",
@@ -35014,6 +35114,10 @@ return {
     [600036] = {
         id = 600036,
         text = "Customer Support",
+    },
+    [243005] = {
+        id = 243005,
+        text = "Configuration error",
     },
     [12031051] = {
         id = 12031051,
@@ -35023,37 +35127,33 @@ return {
         id = 12031050,
         text = "",
     },
+    [12031049] = {
+        id = 12031049,
+        text = "",
+    },
+    [12031048] = {
+        id = 12031048,
+        text = "",
+    },
     [1021141] = {
         id = 1021141,
         text = "Hi~ costumer, what brought you here so early?",
     },
-    [12031049] = {
-        id = 12031049,
+    [12031047] = {
+        id = 12031047,
         text = "",
     },
     [1021142] = {
         id = 1021142,
         text = "You just pass by?",
     },
-    [12031048] = {
-        id = 12031048,
-        text = "",
-    },
-    [1021143] = {
-        id = 1021143,
-        text = "New products have hit the shelf!",
-    },
-    [12031047] = {
-        id = 12031047,
-        text = "",
-    },
     [12031046] = {
         id = 12031046,
         text = "Open Soon:",
     },
-    [12117] = {
-        id = 12117,
-        text = "Dialogue 1 Dialogue 1 Dialogue 1 Dialogue 1",
+    [1021143] = {
+        id = 1021143,
+        text = "New products have hit the shelf!",
     },
     [12031045] = {
         id = 12031045,
@@ -35063,13 +35163,13 @@ return {
         id = 600035,
         text = "Verification",
     },
+    [12117] = {
+        id = 12117,
+        text = "Dialogue 1 Dialogue 1 Dialogue 1 Dialogue 1",
+    },
     [12031043] = {
         id = 12031043,
         text = "Challenge -7",
-    },
-    [13141] = {
-        id = 13141,
-        text = "Marvel Dice Pack",
     },
     [12031042] = {
         id = 12031042,
@@ -35078,6 +35178,10 @@ return {
     [12031041] = {
         id = 12031041,
         text = "Challenge -5",
+    },
+    [13141] = {
+        id = 13141,
+        text = "Marvel Dice Pack",
     },
     [12031040] = {
         id = 12031040,
@@ -35091,10 +35195,6 @@ return {
         id = 12031038,
         text = "Challenge -2",
     },
-    [202049] = {
-        id = 202049,
-        text = "The stage is not open yet",
-    },
     [11000266] = {
         id = 11000266,
         text = "Ara",
@@ -35103,21 +35203,33 @@ return {
         id = 600034,
         text = "Bind Phone",
     },
-    [1021151] = {
-        id = 1021151,
-        text = "Hahaha~ This one is really good.",
+    [202049] = {
+        id = 202049,
+        text = "The stage is not open yet",
     },
     [12031035] = {
         id = 12031035,
         text = "Materials for a Novel",
     },
+    [12031034] = {
+        id = 12031034,
+        text = "Let's Play a Game",
+    },
+    [1021151] = {
+        id = 1021151,
+        text = "Hahaha~ This one is really good.",
+    },
+    [12031033] = {
+        id = 12031033,
+        text = "Refilled Faith",
+    },
     [1021152] = {
         id = 1021152,
         text = "It is already a good deal~",
     },
-    [12031034] = {
-        id = 12031034,
-        text = "Let's Play a Game",
+    [12031032] = {
+        id = 12031032,
+        text = "Demon Reappears",
     },
     [1021153] = {
         id = 1021153,
@@ -35127,21 +35239,13 @@ return {
         id = 17066,
         text = "Exceptional Food. This vitamin-filled drink made of vegetable is good for your health.",
     },
-    [12031033] = {
-        id = 12031033,
-        text = "Refilled Faith",
+    [12031031] = {
+        id = 12031031,
+        text = "Goddess' Defeat",
     },
     [18090] = {
         id = 18090,
         text = "Perfect crafted item. It makes you feel safe to have the cute dog on the delicate chain guard you.",
-    },
-    [12031032] = {
-        id = 12031032,
-        text = "Demon Reappears",
-    },
-    [12031031] = {
-        id = 12031031,
-        text = "Goddess' Defeat",
     },
     [12031030] = {
         id = 12031030,
@@ -35183,33 +35287,33 @@ return {
         id = 11000267,
         text = "Ah! Darling, geez.",
     },
-    [1021161] = {
-        id = 1021161,
-        text = "I won't! I won't fall asleep~",
-    },
     [600032] = {
         id = 600032,
         text = "BP",
-    },
-    [1021162] = {
-        id = 1021162,
-        text = "Z~ ZZZZ~",
     },
     [12031019] = {
         id = 12031019,
         text = "Pink Melodies",
     },
-    [1021163] = {
-        id = 1021163,
-        text = "Ouch~ My forehead starts to swell~",
+    [1021161] = {
+        id = 1021161,
+        text = "I won't! I won't fall asleep~",
     },
     [12031018] = {
         id = 12031018,
         text = "Diva's Control",
     },
+    [1021162] = {
+        id = 1021162,
+        text = "Z~ ZZZZ~",
+    },
     [12031017] = {
         id = 12031017,
         text = "Rescue Natsumi",
+    },
+    [1021163] = {
+        id = 1021163,
+        text = "Ouch~ My forehead starts to swell~",
     },
     [12031016] = {
         id = 12031016,
@@ -35235,10 +35339,6 @@ return {
         id = 12031011,
         text = "Special \"Test\"",
     },
-    [31402] = {
-        id = 31402,
-        text = "The guardian goddess of Planeptune is cheerful and full of energy, she can always light up the mood.",
-    },
     [12031010] = {
         id = 12031010,
         text = "Ability Test",
@@ -35246,6 +35346,10 @@ return {
     [12031009] = {
         id = 12031009,
         text = "Neptune Has a Sister Too",
+    },
+    [31402] = {
+        id = 31402,
+        text = "The guardian goddess of Planeptune is cheerful and full of energy, she can always light up the mood.",
     },
     [12031008] = {
         id = 12031008,
@@ -35379,25 +35483,25 @@ return {
         id = 20008,
         text = "Type: Costume\nOwner: Tohka Yatogami\nTohka - Swimsuit, Description",
     },
-    [17067] = {
-        id = 17067,
-        text = "Rice Wine",
-    },
     [12020019] = {
         id = 12020019,
         text = "Challenge 3-6",
-    },
-    [18091] = {
-        id = 18091,
-        text = "Heart Bear",
     },
     [12020018] = {
         id = 12020018,
         text = "Challenge 3-5",
     },
+    [17067] = {
+        id = 17067,
+        text = "Rice Wine",
+    },
     [12020017] = {
         id = 12020017,
         text = "Challenge 3-4",
+    },
+    [18091] = {
+        id = 18091,
+        text = "Heart Bear",
     },
     [12020016] = {
         id = 12020016,
@@ -35443,17 +35547,17 @@ return {
         id = 12020006,
         text = "Challenge 1-6",
     },
-    [290000048] = {
-        id = 290000048,
-        text = "On a whim, Kotori claimed to cook me a meal. Can I really trust her?",
+    [12020005] = {
+        id = 12020005,
+        text = "Challenge 1-5",
     },
     [1310334] = {
         id = 1310334,
         text = "Miku Truth - Continued 18",
     },
-    [12020003] = {
-        id = 12020003,
-        text = "Challenge 1-3",
+    [290000048] = {
+        id = 290000048,
+        text = "On a whim, Kotori claimed to cook me a meal. Can I really trust her?",
     },
     [12020002] = {
         id = 12020002,
@@ -35482,6 +35586,14 @@ return {
     [12010160] = {
         id = 12010160,
         text = "Talk with Origami and Yuzuru.",
+    },
+    [12010159] = {
+        id = 12010159,
+        text = "Pray in the shrine.",
+    },
+    [12010158] = {
+        id = 12010158,
+        text = "Talk with Miku and Yoshino who has booked the whole area.",
     },
     [14110007] = {
         id = 14110007,
@@ -35715,18 +35827,6 @@ return {
         id = 14110437,
         text = "Snowman - Blue",
     },
-    [12010120] = {
-        id = 12010120,
-        text = "Accompany Tohka to the place that is the most important to her.",
-    },
-    [12010119] = {
-        id = 12010119,
-        text = "Speak with Origami who suddenly appears.",
-    },
-    [420513] = {
-        id = 420513,
-        text = "Buff Duration +%.2f%%",
-    },
     [12010118] = {
         id = 12010118,
         text = "Join the date with Tohka.",
@@ -35735,9 +35835,21 @@ return {
         id = 270446,
         text = "Online",
     },
+    [420513] = {
+        id = 420513,
+        text = "Buff Duration +%.2f%%",
+    },
     [12010115] = {
         id = 12010115,
         text = "Date with Kotori in the restaurant.",
+    },
+    [12010114] = {
+        id = 12010114,
+        text = "Prepare for the date.",
+    },
+    [12010113] = {
+        id = 12010113,
+        text = "Cook with Kotori's help.",
     },
     [420514] = {
         id = 420514,
@@ -35747,9 +35859,9 @@ return {
         id = 1021231,
         text = "Good noon~",
     },
-    [12010114] = {
-        id = 12010114,
-        text = "Prepare for the date.",
+    [12010112] = {
+        id = 12010112,
+        text = "Kotori's invitation.",
     },
     [1021232] = {
         id = 1021232,
@@ -35762,14 +35874,6 @@ return {
     [1021233] = {
         id = 1021233,
         text = "We don't have that sort of toy~",
-    },
-    [12010113] = {
-        id = 12010113,
-        text = "Cook with Kotori's help.",
-    },
-    [12010112] = {
-        id = 12010112,
-        text = "Kotori's invitation.",
     },
     [12010111] = {
         id = 12010111,
@@ -35823,33 +35927,33 @@ return {
         id = 12010098,
         text = "Hold the family meeting.",
     },
-    [1021241] = {
-        id = 1021241,
-        text = "Whose cat is this?",
-    },
     [12010097] = {
         id = 12010097,
         text = "Talk with Yuzuru who suddenly appeared.",
-    },
-    [1021242] = {
-        id = 1021242,
-        text = "Children, look over here~",
     },
     [12010096] = {
         id = 12010096,
         text = "Walk Miku home.",
     },
-    [1021243] = {
-        id = 1021243,
-        text = "Put on this ribbon~",
+    [1021241] = {
+        id = 1021241,
+        text = "Whose cat is this?",
     },
     [12010095] = {
         id = 12010095,
         text = "Escape from the enthusiastic fans.",
     },
+    [1021242] = {
+        id = 1021242,
+        text = "Children, look over here~",
+    },
     [12010094] = {
         id = 12010094,
         text = "Enter Shopping Mode",
+    },
+    [1021243] = {
+        id = 1021243,
+        text = "Put on this ribbon~",
     },
     [270445] = {
         id = 270445,
@@ -35866,6 +35970,14 @@ return {
     [12010089] = {
         id = 12010089,
         text = "Comfort Kaguya.",
+    },
+    [12010088] = {
+        id = 12010088,
+        text = "Follow the lottery rules.",
+    },
+    [12010087] = {
+        id = 12010087,
+        text = "Go on the date based on the dating order.",
     },
     [10703007] = {
         id = 10703007,
@@ -35935,14 +36047,6 @@ return {
         id = 10703109,
         text = "50% of Kaguya's ATK SPD Bonus coverts to Movement Speed Bonus.",
     },
-    [12010088] = {
-        id = 12010088,
-        text = "Follow the lottery rules.",
-    },
-    [12010087] = {
-        id = 12010087,
-        text = "Go on the date based on the dating order.",
-    },
     [12010086] = {
         id = 12010086,
         text = "Find the girl who suddenly appears out of nowhere.",
@@ -35983,33 +36087,33 @@ return {
         id = 12010076,
         text = "Challenge 16",
     },
-    [1021261] = {
-        id = 1021261,
-        text = "The doll with the heaviest circle down its eyes...",
-    },
     [12010075] = {
         id = 12010075,
         text = "Challenge 15",
-    },
-    [1021262] = {
-        id = 1021262,
-        text = "Ah! Panda eyes~",
     },
     [12010074] = {
         id = 12010074,
         text = "Challenge 14",
     },
-    [1021263] = {
-        id = 1021263,
-        text = "Can we close shop now?",
+    [1021261] = {
+        id = 1021261,
+        text = "The doll with the heaviest circle down its eyes...",
     },
     [12010073] = {
         id = 12010073,
         text = "Challenge 13",
     },
+    [1021262] = {
+        id = 1021262,
+        text = "Ah! Panda eyes~",
+    },
     [12010072] = {
         id = 12010072,
         text = "Challenge 12",
+    },
+    [1021263] = {
+        id = 1021263,
+        text = "Can we close shop now?",
     },
     [12010071] = {
         id = 12010071,
@@ -36075,10 +36179,6 @@ return {
         id = 12010056,
         text = "Kerubiel Challenges",
     },
-    [12119] = {
-        id = 12119,
-        text = "Work",
-    },
     [12010055] = {
         id = 12010055,
         text = "Where will we meet the next time?",
@@ -36087,13 +36187,13 @@ return {
         id = 12010054,
         text = "In the last dating location, my sister provided me with timely help.",
     },
+    [12119] = {
+        id = 12119,
+        text = "Work",
+    },
     [12010053] = {
         id = 12010053,
         text = "I met someone unexpected in the cat café.",
-    },
-    [13143] = {
-        id = 13143,
-        text = "Dispatch Reward 1",
     },
     [270442] = {
         id = 270442,
@@ -36103,21 +36203,25 @@ return {
         id = 12010051,
         text = "Shrine, the place for prayers. Mayuri's wish is...",
     },
+    [13143] = {
+        id = 13143,
+        text = "Dispatch Reward 1",
+    },
     [12010050] = {
         id = 12010050,
         text = "Somehow, there are only a few visitors to this popular water park today.",
     },
-    [110000382] = {
-        id = 110000382,
-        text = "월카드",
+    [12010049] = {
+        id = 12010049,
+        text = "As I expected, the one I met in the bakery was...",
     },
     [12010048] = {
         id = 12010048,
         text = "The location that Mayuri selected for date was...?",
     },
-    [12010047] = {
-        id = 12010047,
-        text = "How will I feel when I meet Mayuri again?",
+    [110000382] = {
+        id = 110000382,
+        text = "월카드",
     },
     [12010046] = {
         id = 12010046,
@@ -36147,25 +36251,25 @@ return {
         id = 12010039,
         text = "Origami's sudden appearance caused tension in the air.",
     },
-    [17070] = {
-        id = 17070,
-        text = "Delicious Food. This beverage fermented and distilled from rice has a lingering aroma.",
-    },
     [12010038] = {
         id = 12010038,
         text = "Tohka said she had prepared a surprise for me. What would it be?",
-    },
-    [18094] = {
-        id = 18094,
-        text = "Fine crafted item. The lively bear holds a heart in its arms, a soft and comfortable product that helps you get a good sleep.",
     },
     [270441] = {
         id = 270441,
         text = "Change Leader",
     },
+    [17070] = {
+        id = 17070,
+        text = "Delicious Food. This beverage fermented and distilled from rice has a lingering aroma.",
+    },
     [12010035] = {
         id = 12010035,
         text = "There is a rule that I'll never forget during the date with Kotori.",
+    },
+    [18094] = {
+        id = 18094,
+        text = "Fine crafted item. The lively bear holds a heart in its arms, a soft and comfortable product that helps you get a good sleep.",
     },
     [12010034] = {
         id = 12010034,
@@ -36303,21 +36407,29 @@ return {
         id = 331010,
         text = "Divination of Fate",
     },
+    [900720] = {
+        id = 900720,
+        text = "Main Story, Day 1, Phase 6, Reminder",
+    },
+    [12000096] = {
+        id = 12000096,
+        text = "Let Me Consider",
+    },
     [1021301] = {
         id = 1021301,
         text = "Flowers that blossom at night~",
     },
-    [900720] = {
-        id = 900720,
-        text = "Main Story, Day 1, Phase 6, Reminder",
+    [12000095] = {
+        id = 12000095,
+        text = "Everything for Tohka",
     },
     [1021302] = {
         id = 1021302,
         text = "May the fragrance give you a sweet dream~",
     },
-    [12000096] = {
-        id = 12000096,
-        text = "Let Me Consider",
+    [12000094] = {
+        id = 12000094,
+        text = "Food Street Sounds Nice",
     },
     [1021303] = {
         id = 1021303,
@@ -36565,7 +36677,7 @@ return {
     },
     [1420062] = {
         id = 1420062,
-        text = "Reward - [Growth Boost]",
+        text = "Reward - [Cat's Recognition]",
     },
     [1420063] = {
         id = 1420063,
@@ -36595,18 +36707,6 @@ return {
         id = 10311228,
         text = "Each Ice Crystal gained increases 3% ATK and 2.5% DEF bonus. Each 6 Ice Crystals consumed grants 5% max HP as a shield. Cannot stack.",
     },
-    [12000095] = {
-        id = 12000095,
-        text = "Everything for Thoka",
-    },
-    [12000094] = {
-        id = 12000094,
-        text = "Food Street Sounds Nice",
-    },
-    [13144] = {
-        id = 13144,
-        text = "Dispatch Reward 2",
-    },
     [12000092] = {
         id = 12000092,
         text = "To the Restaurant",
@@ -36614,6 +36714,10 @@ return {
     [12000091] = {
         id = 12000091,
         text = "Cooking at Home",
+    },
+    [13144] = {
+        id = 13144,
+        text = "Dispatch Reward 2",
     },
     [12000090] = {
         id = 12000090,
@@ -36623,33 +36727,33 @@ return {
         id = 12000089,
         text = "What Did You Say?!",
     },
-    [1021341] = {
-        id = 1021341,
-        text = "Welcome to come back~",
-    },
     [12000088] = {
         id = 12000088,
         text = "When?",
-    },
-    [1021342] = {
-        id = 1021342,
-        text = "Ah~ I can finally relax for a while~",
     },
     [12000087] = {
         id = 12000087,
         text = "Fresh Recollection",
     },
-    [1021343] = {
-        id = 1021343,
-        text = "Water has evaporated~",
+    [1021341] = {
+        id = 1021341,
+        text = "Welcome to come back~",
     },
     [12000086] = {
         id = 12000086,
         text = "Agree Right Away",
     },
+    [1021342] = {
+        id = 1021342,
+        text = "Ah~ I can finally relax for a while~",
+    },
     [900717] = {
         id = 900717,
         text = "Main Story, Day 1, Phase 3, Reminder",
+    },
+    [1021343] = {
+        id = 1021343,
+        text = "Water has evaporated~",
     },
     [12000083] = {
         id = 12000083,
@@ -36659,13 +36763,21 @@ return {
         id = 12000082,
         text = "Only Mention Kaguya",
     },
+    [12000081] = {
+        id = 12000081,
+        text = "Mention All Spirits",
+    },
+    [12000080] = {
+        id = 12000080,
+        text = "Solo Ambush",
+    },
     [17072] = {
         id = 17072,
         text = "Exceptional Food. This beverage fermented and distilled from rice has a lingering aroma.",
     },
-    [12000081] = {
-        id = 12000081,
-        text = "Mention All Spirits",
+    [12000079] = {
+        id = 12000079,
+        text = "All Out Assault",
     },
     [18096] = {
         id = 18096,
@@ -36683,14 +36795,6 @@ return {
         id = 190000065,
         text = "Neko Kurumi Costume (Adv.)",
     },
-    [270003] = {
-        id = 270003,
-        text = "We detected that this is not a new account. To start the game, you need to download %s resources. Start downloading now?\n\n*It's recommended to download using WiFi",
-    },
-    [12000075] = {
-        id = 12000075,
-        text = "Run Info Tohka",
-    },
     [12000074] = {
         id = 12000074,
         text = "Date Progress",
@@ -36703,33 +36807,33 @@ return {
         id = 12000072,
         text = "Escape from Danger",
     },
-    [1021351] = {
-        id = 1021351,
-        text = "Ayah~ Stretch my legs~",
-    },
     [12000071] = {
         id = 12000071,
         text = "Break Free",
-    },
-    [1021352] = {
-        id = 1021352,
-        text = "We sell flowers at a discount at night~",
     },
     [12000070] = {
         id = 12000070,
         text = "Sparks of Sword",
     },
-    [1021353] = {
-        id = 1021353,
-        text = "Keep the moisture~",
+    [1021351] = {
+        id = 1021351,
+        text = "Ayah~ Stretch my legs~",
     },
     [1701927] = {
         id = 1701927,
         text = "[Daily] Origami_Flower Shop",
     },
+    [1021352] = {
+        id = 1021352,
+        text = "We sell flowers at a discount at night~",
+    },
     [12000067] = {
         id = 12000067,
         text = "Impending Enemy",
+    },
+    [1021353] = {
+        id = 1021353,
+        text = "Keep the moisture~",
     },
     [12000066] = {
         id = 12000066,
@@ -36783,33 +36887,33 @@ return {
         id = 900714,
         text = "Default Story, Day 1, Phase 8, Reminder",
     },
-    [1021361] = {
-        id = 1021361,
-        text = "Dear customer, good evening~",
-    },
     [12000051] = {
         id = 12000051,
         text = "Kids Meal",
-    },
-    [1021362] = {
-        id = 1021362,
-        text = "We have earned a lot today~",
     },
     [12000050] = {
         id = 12000050,
         text = "s2-9",
     },
-    [1021363] = {
-        id = 1021363,
-        text = "Let's call it a day~",
+    [1021361] = {
+        id = 1021361,
+        text = "Dear customer, good evening~",
     },
     [12000049] = {
         id = 12000049,
         text = "s2-8",
     },
+    [1021362] = {
+        id = 1021362,
+        text = "We have earned a lot today~",
+    },
     [12000048] = {
         id = 12000048,
         text = "Food Reserves",
+    },
+    [1021363] = {
+        id = 1021363,
+        text = "Let's call it a day~",
     },
     [12000047] = {
         id = 12000047,
@@ -36915,25 +37019,25 @@ return {
         id = 12000018,
         text = "Fancy Restaurant",
     },
-    [17073] = {
-        id = 17073,
-        text = "Fruit Pudding",
-    },
     [12000017] = {
         id = 12000017,
         text = "Wavering Cracks",
-    },
-    [18097] = {
-        id = 18097,
-        text = "Cute Bunny",
     },
     [12000016] = {
         id = 12000016,
         text = "s1-7",
     },
+    [17073] = {
+        id = 17073,
+        text = "Fruit Pudding",
+    },
     [12000015] = {
         id = 12000015,
         text = "Cozy Game",
+    },
+    [18097] = {
+        id = 18097,
+        text = "Cute Bunny",
     },
     [1270034] = {
         id = 1270034,
@@ -37099,6 +37203,14 @@ return {
         id = 3207034,
         text = "Spark Master Ⅲ",
     },
+    [11312084] = {
+        id = 11312084,
+        text = "[Inspire Mascot/Lingering Misery] Crit Rate +8%",
+    },
+    [11312083] = {
+        id = 11312083,
+        text = "[Inspire Mascot/Lingering Misery] Crit Rate +6%",
+    },
     [12121] = {
         id = 12121,
         text = "Handcraft",
@@ -37107,9 +37219,9 @@ return {
         id = 1021401,
         text = "We provide late night snack~",
     },
-    [11312084] = {
-        id = 11312084,
-        text = "[Inspire Mascot/Lingering Misery] Crit Rate +8%",
+    [11312082] = {
+        id = 11312082,
+        text = "[Inspire Mascot/Lingering Misery] Crit Rate +4%",
     },
     [1021402] = {
         id = 1021402,
@@ -37123,18 +37235,6 @@ return {
         id = 1021403,
         text = "Check the gas~",
     },
-    [11312083] = {
-        id = 11312083,
-        text = "[Inspire Mascot/Lingering Misery] Crit Rate +6%",
-    },
-    [11312082] = {
-        id = 11312082,
-        text = "[Inspire Mascot/Lingering Misery] Crit Rate +4%",
-    },
-    [420601] = {
-        id = 420601,
-        text = "Physical DMG +%.2f%%",
-    },
     [11312081] = {
         id = 11312081,
         text = "[Inspire Mascot/Lingering Misery] Crit Rate +2%",
@@ -37143,13 +37243,13 @@ return {
         id = 11312080,
         text = "[Inspire Mascot/Lingering Misery] Inflicts +20% DMG to bosses.",
     },
+    [420601] = {
+        id = 420601,
+        text = "Physical DMG +%.2f%%",
+    },
     [11312079] = {
         id = 11312079,
         text = "[Inspire Mascot/Lingering Misery] Inflicts +15% DMG to bosses.",
-    },
-    [420602] = {
-        id = 420602,
-        text = "Frost DMG +%.2f%%",
     },
     [11312078] = {
         id = 11312078,
@@ -37159,25 +37259,37 @@ return {
         id = 3207035,
         text = "Pose Change Ⅲ",
     },
+    [420602] = {
+        id = 420602,
+        text = "Frost DMG +%.2f%%",
+    },
     [11312076] = {
         id = 11312076,
         text = "[Inspire Mascot] Transformed enemies will suffer 1 layer of \"Witch Curse\" The skill inflicts DMG equal to 350% ATK. \n[Lingering Misery] The skill inflicts DMG equal to 480% ATK.",
-    },
-    [420603] = {
-        id = 420603,
-        text = "Flame DMG +%.2f%%",
     },
     [11312075] = {
         id = 11312075,
         text = "Using [Celestial Prison/Star Realm Wanderer] has a 100% chance to restore 1 Gem Power.",
     },
+    [11312074] = {
+        id = 11312074,
+        text = "Using [Celestial Prison/Star Realm Wanderer] has a 60% chance to restore 1 Gem Power.",
+    },
+    [420603] = {
+        id = 420603,
+        text = "Flame DMG +%.2f%%",
+    },
+    [11312073] = {
+        id = 11312073,
+        text = "Using [Celestial Prison/Star Realm Wanderer] has a 30% chance to restore 1 Gem Power.",
+    },
     [17074] = {
         id = 17074,
         text = "This fancy pudding decorated with fresh fruit is good-looking and tasty.",
     },
-    [11312074] = {
-        id = 11312074,
-        text = "Using [Celestial Prison/Star Realm Wanderer] has a 60% chance to restore 1 Gem Power.",
+    [11312072] = {
+        id = 11312072,
+        text = "[Celestial Prison/Star Realm Wanderer] Range of special effect extends by 20%",
     },
     [420604] = {
         id = 420604,
@@ -37187,9 +37299,9 @@ return {
         id = 1021411,
         text = "Ah~ So much fresh vegetable~",
     },
-    [11312073] = {
-        id = 11312073,
-        text = "Using [Celestial Prison/Star Realm Wanderer] has a 30% chance to restore 1 Gem Power.",
+    [11312071] = {
+        id = 11312071,
+        text = "[Celestial Prison/Star Realm Wanderer] Reduces overall Stats Resist by 10% for 5s on hit.",
     },
     [1021412] = {
         id = 1021412,
@@ -37203,18 +37315,6 @@ return {
         id = 1021413,
         text = "Open the door to get some air~",
     },
-    [11312072] = {
-        id = 11312072,
-        text = "[Celestial Prison/Star Realm Wanderer] Range of special effect extends by 20%",
-    },
-    [11312071] = {
-        id = 11312071,
-        text = "[Celestial Prison/Star Realm Wanderer] Reduces overall Stats Resist by 10% for 5s on hit.",
-    },
-    [420606] = {
-        id = 420606,
-        text = "Magic DMG +%.2f%%",
-    },
     [11312070] = {
         id = 11312070,
         text = "[Celestial Prison/Star Realm Wanderer] Reduces overall Stats Resist by 8% for 5s on hit.",
@@ -37223,13 +37323,13 @@ return {
         id = 3207036,
         text = "Ace in the Hole Ⅲ",
     },
+    [420606] = {
+        id = 420606,
+        text = "Magic DMG +%.2f%%",
+    },
     [11312068] = {
         id = 11312068,
         text = "[Celestial Prison/Star Realm Wanderer] Reduces overall Stats Resist by 2% for 5s on hit.",
-    },
-    [420607] = {
-        id = 420607,
-        text = "Holy DMG +%.2f%%",
     },
     [11312067] = {
         id = 11312067,
@@ -37239,17 +37339,29 @@ return {
         id = 11312066,
         text = "[Celestial Prison/Star Realm Wanderer] Crit DMG +20%",
     },
+    [420607] = {
+        id = 420607,
+        text = "Holy DMG +%.2f%%",
+    },
     [11312065] = {
         id = 11312065,
         text = "[Celestial Prison/Star Realm Wanderer] Crit DMG +15%",
+    },
+    [11312064] = {
+        id = 11312064,
+        text = "[Celestial Prison/Star Realm Wanderer] Crit DMG +10%",
+    },
+    [11312063] = {
+        id = 11312063,
+        text = "[Celestial Prison] After releasing enemies, conjures a magic mirror behind them to pull enemies in front of it. The skill inflicts Magic DMG equal to 400% ATK in total. \nDuring [Star Realm Wanderer], 12 stars appear near Natsumi at a random spot. They explode when they hit the ground, damaging enemies within a small range. Each star inflicts Magic DMG equal to 25% ATK.",
     },
     [420608] = {
         id = 420608,
         text = "Dark DMG +%.2f%%",
     },
-    [11312064] = {
-        id = 11312064,
-        text = "[Celestial Prison/Star Realm Wanderer] Crit DMG +10%",
+    [11312062] = {
+        id = 11312062,
+        text = "Using [Celestial Prison/Star Realm Wanderer] increases ATK by +20% for 5s.",
     },
     [1453001] = {
         id = 1453001,
@@ -37267,29 +37379,21 @@ return {
         id = 1021421,
         text = "So many people on the street~",
     },
-    [11312063] = {
-        id = 11312063,
-        text = "[Celestial Prison] After releasing enemies, conjures a magic mirror behind them to pull enemies in front of it. The skill inflicts Magic DMG equal to 400% ATK in total. \nDuring [Star Realm Wanderer], 12 stars appear near Natsumi at a random spot. They explode when they hit the ground, damaging enemies within a small range. Each star inflicts Magic DMG equal to 25% ATK.",
+    [3207037] = {
+        id = 3207037,
+        text = "Sage in Trail Ⅳ",
     },
     [1021422] = {
         id = 1021422,
         text = "One steak~",
     },
-    [11312062] = {
-        id = 11312062,
-        text = "Using [Celestial Prison/Star Realm Wanderer] increases ATK by +20% for 5s.",
+    [11312060] = {
+        id = 11312060,
+        text = "Using [Celestial Prison/Star Realm Wanderer] increases ATK by +10% for 5s.",
     },
     [1021423] = {
         id = 1021423,
         text = "Ayah~ customer, sorry~",
-    },
-    [3207037] = {
-        id = 3207037,
-        text = "Sage in Trail Ⅳ",
-    },
-    [11312060] = {
-        id = 11312060,
-        text = "Using [Celestial Prison/Star Realm Wanderer] increases ATK by +10% for 5s.",
     },
     [11312059] = {
         id = 11312059,
@@ -37343,33 +37447,33 @@ return {
         id = 11312047,
         text = "Using [Transform] expands special attack effect by 20%.",
     },
-    [1021431] = {
-        id = 1021431,
-        text = "Here is the juice you ordered~",
-    },
     [11312046] = {
         id = 11312046,
         text = "Using [Transform] has a 100% chance to increase DMG by +25%.",
-    },
-    [1021432] = {
-        id = 1021432,
-        text = "Table 25~ One sec~",
     },
     [3207038] = {
         id = 3207038,
         text = "Execution Expert Ⅳ",
     },
-    [1021433] = {
-        id = 1021433,
-        text = "It will be done soon~",
+    [1021431] = {
+        id = 1021431,
+        text = "Here is the juice you ordered~",
     },
     [11312044] = {
         id = 11312044,
         text = "Using [Transform] has a 30% chance to increase DMG by +25%.",
     },
+    [1021432] = {
+        id = 1021432,
+        text = "Table 25~ One sec~",
+    },
     [11312043] = {
         id = 11312043,
         text = "Using [Transform] increases Movement Speed by +20% for 6s.",
+    },
+    [1021433] = {
+        id = 1021433,
+        text = "It will be done soon~",
     },
     [11312042] = {
         id = 11312042,
@@ -37423,6 +37527,14 @@ return {
         id = 11312030,
         text = "Using [Transform] increases DMG inflict by skills used in next 5s by +10%.",
     },
+    [3207039] = {
+        id = 3207039,
+        text = "Battle Master Ⅳ",
+    },
+    [11312028] = {
+        id = 11312028,
+        text = "When [Star Scatter/Magic Orb] inflict damage, has a 10% chance to rain a star that explodes at a target location, inflicting DMG equal to 25% of Natsumi's ATK",
+    },
     [1021441] = {
         id = 1021441,
         text = "Seat by the window?",
@@ -37442,14 +37554,6 @@ return {
     [1021443] = {
         id = 1021443,
         text = "OK, reservation accepted~",
-    },
-    [3207039] = {
-        id = 3207039,
-        text = "Battle Master Ⅳ",
-    },
-    [11312028] = {
-        id = 11312028,
-        text = "When [Star Scatter/Magic Orb] inflict damage, has a 10% chance to rain a star that explodes at a target location, inflicting DMG equal to 25% of Natsumi's ATK",
     },
     [11312027] = {
         id = 11312027,
@@ -37491,45 +37595,45 @@ return {
         id = 11312018,
         text = "When [Star Scatter/Magic Orb] inflict damage, reduces targets' ATK by 3% for 5s.",
     },
-    [290000049] = {
-        id = 290000049,
-        text = "Goodnight Gift",
+    [11312017] = {
+        id = 11312017,
+        text = "[Star Scatter] The 4th strike unleashes 2 more stars. The skill inflicts Magic DMG equal to 400% ATK. \n[Magic Orb] Flies slower but damages enemies on touch, inflicting damage up to 2 times per sec. Each time inflicts Magic DMG equal to 50% ATK.",
     },
     [11312016] = {
         id = 11312016,
         text = "When [Star Scatter/Magic Orb] inflict damage, has a 100% chance to gain 10% ATK Speed for 5s.",
     },
-    [11312015] = {
-        id = 11312015,
-        text = "When [Star Scatter/Magic Orb] inflict damage, has a 60% chance to gain 10% ATK Speed for 5s.",
-    },
-    [1021451] = {
-        id = 1021451,
-        text = "Thanks for choosing us~",
+    [290000049] = {
+        id = 290000049,
+        text = "Goodnight Gift",
     },
     [3207040] = {
         id = 3207040,
         text = "Spark Master Ⅵ",
     },
-    [1021452] = {
-        id = 1021452,
-        text = "This is a gift~",
-    },
     [11312012] = {
         id = 11312012,
         text = "[Star Scatter/Magic Orb] Inflicts +12% DMG to elite enemies.",
     },
-    [1021453] = {
-        id = 1021453,
-        text = "Aha~ Out of clean dishes~",
+    [1021451] = {
+        id = 1021451,
+        text = "Thanks for choosing us~",
     },
     [11312011] = {
         id = 11312011,
         text = "[Star Scatter/Magic Orb] Inflicts +8% DMG to elite enemies.",
     },
+    [1021452] = {
+        id = 1021452,
+        text = "This is a gift~",
+    },
     [11312010] = {
         id = 11312010,
         text = "[Star Scatter/Magic Orb] Inflicts +5% DMG to elite enemies.",
+    },
+    [1021453] = {
+        id = 1021453,
+        text = "Aha~ Out of clean dishes~",
     },
     [11312009] = {
         id = 11312009,
@@ -37539,10 +37643,6 @@ return {
         id = 11312008,
         text = "[Star Scatter/Magic Orb] Crit Rate +6%.",
     },
-    [31411] = {
-        id = 31411,
-        text = "Purple Heart",
-    },
     [11312007] = {
         id = 11312007,
         text = "[Star Scatter/Magic Orb] Crit Rate +4%.",
@@ -37550,6 +37650,10 @@ return {
     [11312006] = {
         id = 11312006,
         text = "[Star Scatter/Magic Orb] Crit Rate +2%.",
+    },
+    [31411] = {
+        id = 31411,
+        text = "Purple Heart",
     },
     [3207041] = {
         id = 3207041,
@@ -37583,37 +37687,33 @@ return {
         id = 11311115,
         text = "Gale Protection",
     },
-    [1021461] = {
-        id = 1021461,
-        text = "It's finally done~",
-    },
     [11311114] = {
         id = 11311114,
         text = "Mascot Protection",
-    },
-    [1021462] = {
-        id = 1021462,
-        text = "Wash- wash- wash~! Wash dishes ~",
     },
     [11311113] = {
         id = 11311113,
         text = "Magic Ace",
     },
-    [1021463] = {
-        id = 1021463,
-        text = "Must change the dish cloth~",
+    [1021461] = {
+        id = 1021461,
+        text = "It's finally done~",
     },
     [11311112] = {
         id = 11311112,
         text = "Lasting Recovery",
     },
+    [1021462] = {
+        id = 1021462,
+        text = "Wash- wash- wash~! Wash dishes ~",
+    },
     [11311111] = {
         id = 11311111,
         text = "Arcane Refill",
     },
-    [12122] = {
-        id = 12122,
-        text = "Cooking",
+    [1021463] = {
+        id = 1021463,
+        text = "Must change the dish cloth~",
     },
     [11311110] = {
         id = 11311110,
@@ -37623,13 +37723,13 @@ return {
         id = 11311109,
         text = "Magic Specialty",
     },
+    [12122] = {
+        id = 12122,
+        text = "Cooking",
+    },
     [11311108] = {
         id = 11311108,
         text = "Aurora Meteor",
-    },
-    [13146] = {
-        id = 13146,
-        text = "Dispatch Reward 4",
     },
     [11311107] = {
         id = 11311107,
@@ -37638,6 +37738,10 @@ return {
     [11311106] = {
         id = 11311106,
         text = "Judgment Curse",
+    },
+    [13146] = {
+        id = 13146,
+        text = "Dispatch Reward 4",
     },
     [11311105] = {
         id = 11311105,
@@ -37683,25 +37787,25 @@ return {
         id = 11311095,
         text = "Enhance",
     },
-    [17076] = {
-        id = 17076,
-        text = "Delicious Food. This fancy pudding decorated with fresh fruit is good-looking and tasty",
-    },
     [11311094] = {
         id = 11311094,
         text = "Enhance",
-    },
-    [18100] = {
-        id = 18100,
-        text = "Fine crafted item. The warm bunny-shaped doll seems to be filled with happiness and joy.",
     },
     [11311093] = {
         id = 11311093,
         text = "Mojo Fissure",
     },
+    [17076] = {
+        id = 17076,
+        text = "Delicious Food. This fancy pudding decorated with fresh fruit is good-looking and tasty",
+    },
     [11311092] = {
         id = 11311092,
         text = "Mojo Fissure",
+    },
+    [18100] = {
+        id = 18100,
+        text = "Fine crafted item. The warm bunny-shaped doll seems to be filled with happiness and joy.",
     },
     [11311091] = {
         id = 11311091,
@@ -37791,14 +37895,6 @@ return {
         id = 11311070,
         text = "Chemical Reaction",
     },
-    [264999] = {
-        id = 264999,
-        text = "Info will soon be available, please wait",
-    },
-    [31412] = {
-        id = 31412,
-        text = "Behold, the power of goddess!",
-    },
     [11311069] = {
         id = 11311069,
         text = "Chemical Reaction",
@@ -37807,9 +37903,13 @@ return {
         id = 11311068,
         text = "Chemical Reaction",
     },
-    [265000] = {
-        id = 265000,
-        text = "Tohka Yatogami",
+    [264999] = {
+        id = 264999,
+        text = "Info will soon be available, please wait",
+    },
+    [31412] = {
+        id = 31412,
+        text = "Behold, the power of goddess!",
     },
     [11311067] = {
         id = 11311067,
@@ -37819,13 +37919,13 @@ return {
         id = 11311066,
         text = "Mojo Fissure",
     },
+    [265000] = {
+        id = 265000,
+        text = "Tohka Yatogami",
+    },
     [11311065] = {
         id = 11311065,
         text = "Mojo Fissure",
-    },
-    [265001] = {
-        id = 265001,
-        text = "Tohka Yatogami",
     },
     [11311064] = {
         id = 11311064,
@@ -37835,13 +37935,13 @@ return {
         id = 11311063,
         text = "Star Realm: Extreme",
     },
+    [265001] = {
+        id = 265001,
+        text = "Tohka Yatogami",
+    },
     [11311062] = {
         id = 11311062,
         text = "Levitation",
-    },
-    [265002] = {
-        id = 265002,
-        text = "Tohka Yatogami",
     },
     [11311061] = {
         id = 11311061,
@@ -37851,13 +37951,13 @@ return {
         id = 11311060,
         text = "Levitation",
     },
+    [265002] = {
+        id = 265002,
+        text = "Tohka Yatogami",
+    },
     [11311059] = {
         id = 11311059,
         text = "Levitation",
-    },
-    [265003] = {
-        id = 265003,
-        text = "Inverse Tohka",
     },
     [11311058] = {
         id = 11311058,
@@ -37867,13 +37967,13 @@ return {
         id = 11311057,
         text = "Fragility",
     },
+    [265003] = {
+        id = 265003,
+        text = "Inverse Tohka",
+    },
     [11311056] = {
         id = 11311056,
         text = "Fragility",
-    },
-    [265004] = {
-        id = 265004,
-        text = "Origami Tobiichi",
     },
     [11311055] = {
         id = 11311055,
@@ -37883,13 +37983,13 @@ return {
         id = 11311054,
         text = "Magic Crit",
     },
+    [265004] = {
+        id = 265004,
+        text = "Origami Tobiichi",
+    },
     [3210001] = {
         id = 3210001,
         text = "Flame DMG +6%",
-    },
-    [265005] = {
-        id = 265005,
-        text = "Kurumi Tokisaki",
     },
     [11311052] = {
         id = 11311052,
@@ -37899,36 +37999,48 @@ return {
         id = 11311051,
         text = "Star Realm: Perish",
     },
+    [265005] = {
+        id = 265005,
+        text = "Kurumi Tokisaki",
+    },
     [11311050] = {
         id = 11311050,
+        text = "Adept Witch",
+    },
+    [11311049] = {
+        id = 11311049,
+        text = "Adept Witch",
+    },
+    [11311048] = {
+        id = 11311048,
         text = "Adept Witch",
     },
     [1021501] = {
         id = 1021501,
         text = "Don't eat late night snack too often!",
     },
-    [11311049] = {
-        id = 11311049,
-        text = "Adept Witch",
+    [11311047] = {
+        id = 11311047,
+        text = "Transform: Final",
     },
     [1021502] = {
         id = 1021502,
         text = "Just sleep... for a short while.",
     },
-    [11311048] = {
-        id = 11311048,
-        text = "Adept Witch",
+    [11311046] = {
+        id = 11311046,
+        text = "Intimidate",
     },
     [265007] = {
         id = 265007,
         text = "Kotori Itsuka",
     },
-    [11311047] = {
-        id = 11311047,
-        text = "Transform: Final",
+    [3210002] = {
+        id = 3210002,
+        text = "Flame DMG +7%",
     },
-    [11311046] = {
-        id = 11311046,
+    [11311044] = {
+        id = 11311044,
         text = "Intimidate",
     },
     [420651] = {
@@ -37943,9 +38055,9 @@ return {
         id = 17077,
         text = "Fruit Pudding [Exceptional]",
     },
-    [3210002] = {
-        id = 3210002,
-        text = "Flame DMG +7%",
+    [11311043] = {
+        id = 11311043,
+        text = "Speed Up",
     },
     [420652] = {
         id = 420652,
@@ -37955,12 +38067,12 @@ return {
         id = 265009,
         text = "Mana Takamiya",
     },
-    [11311044] = {
-        id = 11311044,
-        text = "Intimidate",
+    [11311042] = {
+        id = 11311042,
+        text = "Speed Up",
     },
-    [11311043] = {
-        id = 11311043,
+    [11311041] = {
+        id = 11311041,
         text = "Speed Up",
     },
     [420653] = {
@@ -37971,13 +38083,13 @@ return {
         id = 265010,
         text = "Kaguya Yamai",
     },
-    [11311042] = {
-        id = 11311042,
-        text = "Speed Up",
+    [11311040] = {
+        id = 11311040,
+        text = "Transform: Extreme",
     },
-    [11311041] = {
-        id = 11311041,
-        text = "Speed Up",
+    [11311039] = {
+        id = 11311039,
+        text = "Repair DMG",
     },
     [420654] = {
         id = 420654,
@@ -37987,37 +38099,25 @@ return {
         id = 1021511,
         text = "Em~ new ingredients have arrived.",
     },
-    [11311040] = {
-        id = 11311040,
-        text = "Transform: Extreme",
+    [11311038] = {
+        id = 11311038,
+        text = "Repair DMG",
     },
     [1021512] = {
         id = 1021512,
         text = "Delicious breakfast...",
     },
-    [11311039] = {
-        id = 11311039,
+    [11311037] = {
+        id = 11311037,
         text = "Repair DMG",
     },
     [1021513] = {
         id = 1021513,
         text = "Time to welcome sunlight!",
     },
-    [11311038] = {
-        id = 11311038,
-        text = "Repair DMG",
-    },
-    [11311037] = {
-        id = 11311037,
-        text = "Repair DMG",
-    },
     [11311036] = {
         id = 11311036,
         text = "Magic Speedup",
-    },
-    [265013] = {
-        id = 265013,
-        text = "Miku Izayoi",
     },
     [11311035] = {
         id = 11311035,
@@ -38027,13 +38127,13 @@ return {
         id = 11311034,
         text = "Magic Speedup",
     },
+    [265013] = {
+        id = 265013,
+        text = "Miku Izayoi",
+    },
     [11311033] = {
         id = 11311033,
         text = "Magic Speedup",
-    },
-    [265014] = {
-        id = 265014,
-        text = "Yoshino",
     },
     [11311032] = {
         id = 11311032,
@@ -38043,17 +38143,13 @@ return {
         id = 11311031,
         text = "Magic Buffer",
     },
+    [265014] = {
+        id = 265014,
+        text = "Yoshino",
+    },
     [11311030] = {
         id = 11311030,
         text = "Magic Buffer",
-    },
-    [265015] = {
-        id = 265015,
-        text = "Miku Izayoi",
-    },
-    [31413] = {
-        id = 31413,
-        text = "31213",
     },
     [3210003] = {
         id = 3210003,
@@ -38063,32 +38159,48 @@ return {
         id = 11311028,
         text = "Shooting Star",
     },
-    [1021521] = {
-        id = 1021521,
-        text = "Another busy day.",
+    [265015] = {
+        id = 265015,
+        text = "Miku Izayoi",
+    },
+    [31413] = {
+        id = 31413,
+        text = "31213",
     },
     [11311027] = {
         id = 11311027,
         text = "Shooting Star",
     },
-    [1021522] = {
-        id = 1021522,
-        text = "With fried egg? OK!",
-    },
     [11311026] = {
         id = 11311026,
         text = "Shooting Star",
     },
-    [1021523] = {
-        id = 1021523,
-        text = "Ara~ The plate is broken!",
+    [1021521] = {
+        id = 1021521,
+        text = "Another busy day.",
     },
     [11311025] = {
         id = 11311025,
         text = "Star Shatter: Final",
     },
+    [1021522] = {
+        id = 1021522,
+        text = "With fried egg? OK!",
+    },
     [11311024] = {
         id = 11311024,
+        text = "Enhance",
+    },
+    [1021523] = {
+        id = 1021523,
+        text = "Ara~ The plate is broken!",
+    },
+    [11311023] = {
+        id = 11311023,
+        text = "Enhance",
+    },
+    [11311022] = {
+        id = 11311022,
         text = "Enhance",
     },
     [420661] = {
@@ -38099,13 +38211,13 @@ return {
         id = 265018,
         text = "Shekhinah Tohka",
     },
-    [11311023] = {
-        id = 11311023,
-        text = "Enhance",
+    [3210004] = {
+        id = 3210004,
+        text = "Flame DMG +9%",
     },
-    [11311022] = {
-        id = 11311022,
-        text = "Enhance",
+    [11311020] = {
+        id = 11311020,
+        text = "Abrasion Effect",
     },
     [420662] = {
         id = 420662,
@@ -38115,12 +38227,12 @@ return {
         id = 265019,
         text = "Mayuri",
     },
-    [3210004] = {
-        id = 3210004,
-        text = "Flame DMG +9%",
+    [11311019] = {
+        id = 11311019,
+        text = "Abrasion Effect",
     },
-    [11311020] = {
-        id = 11311020,
+    [11311018] = {
+        id = 11311018,
         text = "Abrasion Effect",
     },
     [420663] = {
@@ -38131,13 +38243,13 @@ return {
         id = 265020,
         text = "Natsumi",
     },
-    [11311019] = {
-        id = 11311019,
-        text = "Abrasion Effect",
+    [11311017] = {
+        id = 11311017,
+        text = "Star Shatter: Extreme",
     },
-    [11311018] = {
-        id = 11311018,
-        text = "Abrasion Effect",
+    [11311016] = {
+        id = 11311016,
+        text = "Hand of Magic",
     },
     [13147] = {
         id = 13147,
@@ -38147,37 +38259,25 @@ return {
         id = 1021531,
         text = "Ice cream for two on the way!",
     },
-    [11311017] = {
-        id = 11311017,
-        text = "Star Shatter: Extreme",
+    [11311015] = {
+        id = 11311015,
+        text = "Hand of Magic",
     },
     [1021532] = {
         id = 1021532,
         text = "Your cuisines will be served right away!",
     },
-    [11311016] = {
-        id = 11311016,
+    [11311014] = {
+        id = 11311014,
         text = "Hand of Magic",
     },
     [1021533] = {
         id = 1021533,
         text = "Aya~ Out of seasonings?",
     },
-    [11311015] = {
-        id = 11311015,
-        text = "Hand of Magic",
-    },
-    [11311014] = {
-        id = 11311014,
-        text = "Hand of Magic",
-    },
     [3210005] = {
         id = 3210005,
         text = "Flame DMG +10%",
-    },
-    [265023] = {
-        id = 265023,
-        text = "Mio Takamiya",
     },
     [11311012] = {
         id = 11311012,
@@ -38187,9 +38287,21 @@ return {
         id = 11311011,
         text = "Spot Weakness: Elite",
     },
+    [265023] = {
+        id = 265023,
+        text = "Mio Takamiya",
+    },
     [11311010] = {
         id = 11311010,
         text = "Spot Weakness: Elite",
+    },
+    [11311009] = {
+        id = 11311009,
+        text = "Crosshair",
+    },
+    [11311008] = {
+        id = 11311008,
+        text = "Crosshair",
     },
     [265024] = {
         id = 265024,
@@ -38339,21 +38451,9 @@ return {
         id = 265033,
         text = "Under Planning Phase",
     },
-    [11311009] = {
-        id = 11311009,
-        text = "Crosshair",
-    },
-    [11311008] = {
-        id = 11311008,
-        text = "Crosshair",
-    },
     [3210008] = {
         id = 3210008,
         text = "Flame DMG +13%",
-    },
-    [265034] = {
-        id = 265034,
-        text = "Under Planning Phase",
     },
     [11311006] = {
         id = 11311006,
@@ -38363,13 +38463,13 @@ return {
         id = 11311005,
         text = "Star Shatter: Perish",
     },
+    [265034] = {
+        id = 265034,
+        text = "Under Planning Phase",
+    },
     [11311004] = {
         id = 11311004,
         text = "Awakening Lv.4",
-    },
-    [265035] = {
-        id = 265035,
-        text = "Under Planning Phase",
     },
     [3210006] = {
         id = 3210006,
@@ -38379,45 +38479,45 @@ return {
         id = 11311002,
         text = "Awakening Lv.2",
     },
+    [265035] = {
+        id = 265035,
+        text = "Under Planning Phase",
+    },
     [3210007] = {
         id = 3210007,
         text = "Flame DMG +12%",
-    },
-    [265036] = {
-        id = 265036,
-        text = "Under Planning Phase",
     },
     [11303118] = {
         id = 11303118,
         text = "When a teammate is about to die, grants Invincibility for 3s and restores her for 30% HP over 3s. Mayuri will trigger small-scale [Divine Sanction] 1 time. Attacks enemies in a wild range for 4 times, inflicting DMG equal to 400% of the trigger's ATK. The effect is invalid to summoned creatures. Cooldown: 120s.",
     },
-    [1021562] = {
-        id = 1021562,
-        text = "Calculate the bill.",
-    },
     [11303117] = {
         id = 11303117,
         text = "For any crit dealt to enemies, absorbs 5% DMG dealt as HP.",
     },
-    [265037] = {
-        id = 265037,
+    [265036] = {
+        id = 265036,
         text = "Under Planning Phase",
     },
     [11303115] = {
         id = 11303115,
         text = "When HP is above 70%, increase ATK by 25%.",
     },
+    [1021562] = {
+        id = 1021562,
+        text = "Calculate the bill.",
+    },
     [11303114] = {
         id = 11303114,
         text = "Increases ATK of [Child of Cathedral], improving DMG of every bullet to 50%.",
     },
+    [265037] = {
+        id = 265037,
+        text = "Under Planning Phase",
+    },
     [11303113] = {
         id = 11303113,
         text = "During [Child of Cathedral]'s 10s existence, increases +20% ATK and restores 1.5% HP every sec.",
-    },
-    [265038] = {
-        id = 265038,
-        text = "Under Planning Phase",
     },
     [11303112] = {
         id = 11303112,
@@ -38427,13 +38527,13 @@ return {
         id = 11303111,
         text = "When Mayuri is on the battlefield, summons 1 <Thunder Ball> every 10s.",
     },
+    [265038] = {
+        id = 265038,
+        text = "Under Planning Phase",
+    },
     [11303110] = {
         id = 11303110,
         text = "Has a 20% chance to turn enemies defeated by Mayuri into Thunder Balls. Thunder Ball has 50% of Mayuri's ATK, and 20% of her Max HP. Lasts 6s. Can have up to 6 thunder balls at once.",
-    },
-    [265039] = {
-        id = 265039,
-        text = "Under Planning Phase",
     },
     [11303109] = {
         id = 11303109,
@@ -38443,9 +38543,21 @@ return {
         id = 11303108,
         text = "Cooldown of [Thunderstorm], [Holy Realm] and [Divine Sanction] reduces by 2s.",
     },
+    [265039] = {
+        id = 265039,
+        text = "Under Planning Phase",
+    },
     [11303107] = {
         id = 11303107,
         text = "Each Holy DMG dealt reduces targets' DMG MIT by 5%. Stacks up to 4 layers. Lasts 3s",
+    },
+    [11303106] = {
+        id = 11303106,
+        text = "All Holy DMG has a 20% chance to deal damage over time, inflicting 50% Holy DMG every sec. Stacks up to 3 layers. Lasts 3s.",
+    },
+    [11303105] = {
+        id = 11303105,
+        text = "When attacking \"Arbitrated\" enemies, has a 20% chance to summon a Divine Sanction, inflicting DMG equal to 200% of Mayuri's ATK within a small area.",
     },
     [265040] = {
         id = 265040,
@@ -38455,9 +38567,9 @@ return {
         id = 17079,
         text = "Pudding Milkshake",
     },
-    [11303106] = {
-        id = 11303106,
-        text = "All Holy DMG has a 20% chance to deal damage over time, inflicting 50% Holy DMG every sec. Stacks up to 3 layers. Lasts 3s.",
+    [11303104] = {
+        id = 11303104,
+        text = "Mayuri inflicts 30% more damage to enemies in the \"Arbitrated\" status. \n[Note: The Arbitrated status lasts 3s, preventing movement and reduce Holy DMG MIT by -30%. Its cooldown is 10s. ]",
     },
     [18103] = {
         id = 18103,
@@ -38467,14 +38579,6 @@ return {
         id = 265041,
         text = "White Heart",
     },
-    [11303105] = {
-        id = 11303105,
-        text = "When attacking \"Arbitrated\" enemies, has a 20% chance to summon a Divine Sanction, inflicting DMG equal to 200% of Mayuri's ATK within a small area.",
-    },
-    [11303104] = {
-        id = 11303104,
-        text = "Mayuri inflicts 30% more damage to enemies in the \"Arbitrated\" status. \n[Note: The Arbitrated status lasts 3s, preventing movement and reduce Holy DMG MIT by -30%. Its cooldown is 10s. ]",
-    },
     [11303103] = {
         id = 11303103,
         text = "Increases Mayuri's Holy DMG by +25%.",
@@ -38482,10 +38586,6 @@ return {
     [11303102] = {
         id = 11303102,
         text = "[Divine Sanction] Crit DMG +32%.",
-    },
-    [306001] = {
-        id = 306001,
-        text = "1-1",
     },
     [11303101] = {
         id = 11303101,
@@ -38495,13 +38595,13 @@ return {
         id = 11303099,
         text = "[Divine Sanction] Crit DMG +8%.",
     },
+    [306001] = {
+        id = 306001,
+        text = "1-1",
+    },
     [11303098] = {
         id = 11303098,
         text = "After [Divine Sanction], summons Divine Sanction periodically to attack. Summons 1 Divine Sanction to attack enemies every 2s. Lasts 8s. The skill inflicts DMG equal to 1400% ATK.",
-    },
-    [306002] = {
-        id = 306002,
-        text = "1-2",
     },
     [11303097] = {
         id = 11303097,
@@ -38511,13 +38611,13 @@ return {
         id = 11303096,
         text = "[Divine Sanction] Inflicts +15% DMG to enemies with less than 30% HP.",
     },
+    [306002] = {
+        id = 306002,
+        text = "1-2",
+    },
     [11303095] = {
         id = 11303095,
         text = "[Divine Sanction] Inflicts +10% DMG to enemies with less than 30% HP.",
-    },
-    [306003] = {
-        id = 306003,
-        text = "1-3",
     },
     [11303094] = {
         id = 11303094,
@@ -38527,13 +38627,13 @@ return {
         id = 10103110,
         text = "[Sky Breaker] higher charged strikes equal higher the damage dealt. \nCharged Strike 1: [Sky Breaker] Skill DMG +10%; \nCharged Strike 2: [Sky Breaker] Skill DMG +20%; \nCharged Strike 3: [Sky Breaker] Skill DMG +30%.",
     },
+    [306003] = {
+        id = 306003,
+        text = "1-3",
+    },
     [11303091] = {
         id = 11303091,
         text = "After [Divine Sanction], Unleashes energy that spread out from her. The skill inflicts DMG equal to 1200% ATK.",
-    },
-    [306004] = {
-        id = 306004,
-        text = "1-4",
     },
     [11303090] = {
         id = 11303090,
@@ -38543,13 +38643,13 @@ return {
         id = 11303089,
         text = "[Divine Sanction] Inflicts +12% DMG to Bosses.",
     },
+    [306004] = {
+        id = 306004,
+        text = "1-4",
+    },
     [11303088] = {
         id = 11303088,
         text = "[Divine Sanction] Inflicts +8% DMG to Bosses.",
-    },
-    [306005] = {
-        id = 306005,
-        text = "1-5",
     },
     [11303087] = {
         id = 11303087,
@@ -38559,13 +38659,13 @@ return {
         id = 11303086,
         text = "[Divine Sanction] DMG +20%.",
     },
+    [306005] = {
+        id = 306005,
+        text = "1-5",
+    },
     [11303085] = {
         id = 11303085,
         text = "[Divine Sanction] DMG +15%.",
-    },
-    [306006] = {
-        id = 306006,
-        text = "2-1",
     },
     [11303083] = {
         id = 11303083,
@@ -38575,13 +38675,13 @@ return {
         id = 11303082,
         text = "[Divine Sanction] Crit Rate +8%",
     },
+    [306006] = {
+        id = 306006,
+        text = "2-1",
+    },
     [11303081] = {
         id = 11303081,
         text = "[Divine Sanction] Crit Rate +6%",
-    },
-    [306007] = {
-        id = 306007,
-        text = "2-2",
     },
     [11303080] = {
         id = 11303080,
@@ -38591,13 +38691,13 @@ return {
         id = 11303079,
         text = "[Divine Sanction] Crit Rate +2%",
     },
+    [306007] = {
+        id = 306007,
+        text = "2-2",
+    },
     [11303078] = {
         id = 11303078,
         text = "[Divine Sanction] Inflicts energy attacks at a higher rate, thus deal damage more times. The skill inflicts DMG equal to 1000% ATK.",
-    },
-    [306008] = {
-        id = 306008,
-        text = "2-3",
     },
     [10103111] = {
         id = 10103111,
@@ -38607,13 +38707,13 @@ return {
         id = 11303075,
         text = "[Holy Realm] reduces targets' DEF by 5% for 5s on hit.",
     },
+    [306008] = {
+        id = 306008,
+        text = "2-3",
+    },
     [11303074] = {
         id = 11303074,
         text = "[Holy Realm] Skill Attack Range extends by 20%.",
-    },
-    [306009] = {
-        id = 306009,
-        text = "2-4",
     },
     [11303073] = {
         id = 11303073,
@@ -38623,61 +38723,61 @@ return {
         id = 11303072,
         text = "Using [Holy Realm] increases ATK by 22% for 3s.",
     },
+    [306009] = {
+        id = 306009,
+        text = "2-4",
+    },
     [11303071] = {
         id = 11303071,
         text = "Using [Holy Realm] increases ATK by 15% for 3s.",
-    },
-    [306010] = {
-        id = 306010,
-        text = "2-5",
     },
     [11303070] = {
         id = 11303070,
         text = "Using [Holy Realm] increases ATK by 8% for 3s.",
     },
-    [12124] = {
-        id = 12124,
-        text = "Bakery - Work 2",
-    },
     [11303069] = {
         id = 11303069,
         text = "[Holy Realm] CD -3s.",
     },
-    [306011] = {
-        id = 306011,
-        text = "3-1",
+    [306010] = {
+        id = 306010,
+        text = "2-5",
     },
     [11303067] = {
         id = 11303067,
         text = "[Holy Realm] CD -1s.",
     },
-    [13148] = {
-        id = 13148,
-        text = "Dispatch Reward 6",
+    [12124] = {
+        id = 12124,
+        text = "Bakery - Work 2",
     },
     [11303066] = {
         id = 11303066,
         text = "[Holy Realm] Inflicts +15% DMG to elite enemies.",
     },
-    [306012] = {
-        id = 306012,
-        text = "3-2",
+    [306011] = {
+        id = 306011,
+        text = "3-1",
     },
     [11303065] = {
         id = 11303065,
         text = "[Holy Realm] Inflicts +12% DMG to elite enemies.",
     },
+    [13148] = {
+        id = 13148,
+        text = "Dispatch Reward 6",
+    },
     [11303064] = {
         id = 11303064,
         text = "[Holy Realm] Inflicts +8% DMG to elite enemies.",
     },
+    [306012] = {
+        id = 306012,
+        text = "3-2",
+    },
     [11303063] = {
         id = 11303063,
         text = "[Holy Realm] Inflicts +5% DMG to elite enemies.",
-    },
-    [306013] = {
-        id = 306013,
-        text = "3-3",
     },
     [11303062] = {
         id = 11303062,
@@ -38687,13 +38787,13 @@ return {
         id = 10103112,
         text = "[Sword Elegy] Tohka inflicts 5% more DMG on hits for 5s. Stacks up to 10 layers.",
     },
+    [306013] = {
+        id = 306013,
+        text = "3-3",
+    },
     [11303059] = {
         id = 11303059,
         text = "Damage of [Holy Realm] reduces enemies' Movement Speed by 40%.",
-    },
-    [306014] = {
-        id = 306014,
-        text = "3-4",
     },
     [11303058] = {
         id = 11303058,
@@ -38702,6 +38802,18 @@ return {
     [11303057] = {
         id = 11303057,
         text = "[Holy Realm] DMG +15%.",
+    },
+    [306014] = {
+        id = 306014,
+        text = "3-4",
+    },
+    [11303056] = {
+        id = 11303056,
+        text = "[Holy Realm] DMG +10%.",
+    },
+    [11303055] = {
+        id = 11303055,
+        text = "[Holy Realm] DMG +5%.",
     },
     [1021601] = {
         id = 1021601,
@@ -38815,33 +38927,33 @@ return {
         id = 1224022,
         text = "Random Blanc SS Class Blueprint",
     },
-    [11303056] = {
-        id = 11303056,
-        text = "[Holy Realm] DMG +10%.",
+    [11303054] = {
+        id = 11303054,
+        text = "Before [Holy Realm] shows up, creates energy whirlwind to pull nearby enemies together. The skill inflicts DMG equal to 900% ATK.",
     },
     [31416] = {
         id = 31416,
         text = "31216",
     },
-    [11303055] = {
-        id = 11303055,
-        text = "[Holy Realm] DMG +5%.",
+    [11303053] = {
+        id = 11303053,
+        text = "When [Thunderstorm] inflicts damage, has a 32% chance to inflict extra DMG equal to 50% ATK. (Summoned energy balls won't trigger this effect)",
     },
     [420707] = {
         id = 420707,
         text = "Holy DMG MIT +%.2f%%",
     },
-    [11303054] = {
-        id = 11303054,
-        text = "Before [Holy Realm] shows up, creates energy whirlwind to pull nearby enemies together. The skill inflicts DMG equal to 900% ATK.",
+    [11303052] = {
+        id = 11303052,
+        text = "When [Thunderstorm] inflicts damage, has a 24% chance to inflict extra DMG equal to 50% ATK. (Summoned energy balls won't trigger this effect)",
     },
     [306023] = {
         id = 306023,
         text = "5-3",
     },
-    [11303053] = {
-        id = 11303053,
-        text = "When [Thunderstorm] inflicts damage, has a 32% chance to inflict extra DMG equal to 50% ATK. (Summoned energy balls won't trigger this effect)",
+    [11303051] = {
+        id = 11303051,
+        text = "When [Thunderstorm] inflicts damage, has a 16% chance to inflict extra DMG equal to 50% ATK. (Summoned energy balls won't trigger this effect)",
     },
     [420708] = {
         id = 420708,
@@ -38886,14 +38998,6 @@ return {
     [1650011] = {
         id = 1650011,
         text = "Month Card",
-    },
-    [11303052] = {
-        id = 11303052,
-        text = "When [Thunderstorm] inflicts damage, has a 24% chance to inflict extra DMG equal to 50% ATK. (Summoned energy balls won't trigger this effect)",
-    },
-    [11303051] = {
-        id = 11303051,
-        text = "When [Thunderstorm] inflicts damage, has a 16% chance to inflict extra DMG equal to 50% ATK. (Summoned energy balls won't trigger this effect)",
     },
     [11303050] = {
         id = 11303050,
@@ -38943,21 +39047,29 @@ return {
         id = 11303038,
         text = "[Thunderstorm] Crit Rate +3%.",
     },
+    [11303037] = {
+        id = 11303037,
+        text = "[Thunderstorm] Casting Speed +20%.",
+    },
+    [11303035] = {
+        id = 11303035,
+        text = "[Thunderstorm] Casting Speed +10%.",
+    },
     [1021631] = {
         id = 1021631,
         text = "Take your change.",
     },
-    [11303037] = {
-        id = 11303037,
-        text = "[Thunderstorm] Casting Speed +20%.",
+    [11303034] = {
+        id = 11303034,
+        text = "[Thunderstorm] Casting Speed +5%.",
     },
     [1021632] = {
         id = 1021632,
         text = "We only have coins left.",
     },
-    [11303035] = {
-        id = 11303035,
-        text = "[Thunderstorm] Casting Speed +10%.",
+    [11303033] = {
+        id = 11303033,
+        text = "[Thunderstorm] Inflicts +15% DMG to Bosses.",
     },
     [1021633] = {
         id = 1021633,
@@ -38967,9 +39079,9 @@ return {
         id = 17081,
         text = "Pudding Milkshake [Delicious]",
     },
-    [11303034] = {
-        id = 11303034,
-        text = "[Thunderstorm] Casting Speed +5%.",
+    [11303032] = {
+        id = 11303032,
+        text = "[Thunderstorm] Inflicts +12% DMG to Bosses.",
     },
     [18105] = {
         id = 18105,
@@ -39079,14 +39191,6 @@ return {
         id = 3300051,
         text = "Boss: Demon King BELPHEGOR",
     },
-    [11303033] = {
-        id = 11303033,
-        text = "[Thunderstorm] Inflicts +15% DMG to Bosses.",
-    },
-    [11303032] = {
-        id = 11303032,
-        text = "[Thunderstorm] Inflicts +12% DMG to Bosses.",
-    },
     [11303031] = {
         id = 11303031,
         text = "[Thunderstorm] Inflicts +8% DMG to Bosses.",
@@ -39103,33 +39207,33 @@ return {
         id = 11303027,
         text = "[Arrow of Judgment] When the 2nd attack of the 2nd strike hits, gains 1 extra energy.",
     },
-    [1021651] = {
-        id = 1021651,
-        text = "Two-patties ones are more expensive~",
-    },
     [11303026] = {
         id = 11303026,
         text = "[Arrow of Judgment] When the 1st attack of the 1st strike hits, gains 1 extra energy.",
-    },
-    [1021652] = {
-        id = 1021652,
-        text = "OK, deliver to the square right?",
     },
     [11303025] = {
         id = 11303025,
         text = "When the 4th strike explodes, inflicting DMG over time on the ground. The skill inflicts DMG equal to 700% ATK.",
     },
-    [1021653] = {
-        id = 1021653,
-        text = "Ah! It is sold out~",
+    [1021651] = {
+        id = 1021651,
+        text = "Two-patties ones are more expensive~",
     },
     [11303024] = {
         id = 11303024,
         text = "[Arrow of Judgment] ATK Speed +10%.",
     },
+    [1021652] = {
+        id = 1021652,
+        text = "OK, deliver to the square right?",
+    },
     [11303023] = {
         id = 11303023,
         text = "[Arrow of Judgment] ATK Speed +7%.",
+    },
+    [1021653] = {
+        id = 1021653,
+        text = "Ah! It is sold out~",
     },
     [11303022] = {
         id = 11303022,
@@ -39147,10 +39251,6 @@ return {
         id = 11303018,
         text = "When [Arrow of Judgment] inflict damage, has a 30% chance to gain 10% Movement Speed for 3s.",
     },
-    [12125] = {
-        id = 12125,
-        text = "Bakery - Work 3",
-    },
     [11303017] = {
         id = 11303017,
         text = "[Arrow of Judgment] Inflicts +15% DMG to elite enemies.",
@@ -39159,13 +39259,13 @@ return {
         id = 11303016,
         text = "[Arrow of Judgment] Inflicts +12% DMG to elite enemies.",
     },
+    [12125] = {
+        id = 12125,
+        text = "Bakery - Work 3",
+    },
     [11303015] = {
         id = 11303015,
         text = "[Arrow of Judgment] Inflicts +8% DMG to elite enemies.",
-    },
-    [13149] = {
-        id = 13149,
-        text = "Dispatch Reward 7",
     },
     [11303014] = {
         id = 11303014,
@@ -39175,6 +39275,10 @@ return {
         id = 10103114,
         text = "[Sky Breaker] and [Sword Elegy] Crit Rate +20%, Crit DMG +50%",
     },
+    [13149] = {
+        id = 13149,
+        text = "Dispatch Reward 7",
+    },
     [11303011] = {
         id = 11303011,
         text = "[Arrow of Judgment] Crit Rate +4%",
@@ -39183,33 +39287,33 @@ return {
         id = 11303010,
         text = "[Arrow of Judgment] Crit Rate +2%",
     },
-    [1021661] = {
-        id = 1021661,
-        text = "It is already this late?",
-    },
     [11303009] = {
         id = 11303009,
         text = "[Arrow of Judgment] The 4th strike explodes in the end, inflicting damage in a small area. The skill inflicts DMG equal to 550% ATK.",
-    },
-    [1021662] = {
-        id = 1021662,
-        text = "Save some bread for dinner...",
     },
     [11303008] = {
         id = 11303008,
         text = "[Arrow of Judgment] Base ATK DMG +18% (Exclude ground DOT of [Arrow of Judgment: Final])",
     },
-    [1021663] = {
-        id = 1021663,
-        text = "Humph humph humph.",
+    [1021661] = {
+        id = 1021661,
+        text = "It is already this late?",
     },
     [10103116] = {
         id = 10103116,
         text = "When Tohka loses more than 15% max HP from an attack, she gains 30% max HP as a shield. Cooldown: 30s.",
     },
+    [1021662] = {
+        id = 1021662,
+        text = "Save some bread for dinner...",
+    },
     [11303006] = {
         id = 11303006,
         text = "[Arrow of Judgment] DMG +6% (Exclude ground DOT of [Arrow of Judgment: Final])",
+    },
+    [1021663] = {
+        id = 1021663,
+        text = "Humph humph humph.",
     },
     [11303005] = {
         id = 11303005,
@@ -39219,13 +39323,21 @@ return {
         id = 10103115,
         text = "[Sword Elegy] inflicts 50% Extra DMG to target with over 70% HP.",
     },
+    [11303002] = {
+        id = 11303002,
+        text = "DMG of awakening skill increases to 2000%.",
+    },
+    [11303001] = {
+        id = 11303001,
+        text = "DMG of awakening skill increases to 1800%.",
+    },
     [17082] = {
         id = 17082,
         text = "Delicious Food. Made by mixing pudding and milk in the blender, the drink is popular almost everywhere",
     },
-    [11303002] = {
-        id = 11303002,
-        text = "DMG of awakening skill increases to 2000%.",
+    [11301118] = {
+        id = 11301118,
+        text = "Sacred Protection",
     },
     [18106] = {
         id = 18106,
@@ -39399,14 +39511,6 @@ return {
         id = 13200332,
         text = "Gift Store",
     },
-    [10133092] = {
-        id = 10133092,
-        text = "Nahemah Form: \nHeavy Strike splashes sword beam to deal 2 extra attacks. The skill inflicts Dark DMG equal to 1150% ATK. \nPaverschlev Form: \nAfter releasing all the sword beams, Tohka thrusts her sword into the earth to splash sword waves nearby, inflicting 5 extra strikes. The skill inflicts Dark DMG equal to 1340% ATK in total.",
-    },
-    [11301092] = {
-        id = 11301092,
-        text = "CD Reduction",
-    },
     [11301091] = {
         id = 11301091,
         text = "Divine Sanction: Extreme",
@@ -39423,10 +39527,6 @@ return {
         id = 11301088,
         text = "Spot Weakness: Boss",
     },
-    [265101] = {
-        id = 265101,
-        text = "Christmas Elk",
-    },
     [11301087] = {
         id = 11301087,
         text = "Spot Weakness: Boss",
@@ -39435,13 +39535,13 @@ return {
         id = 11301086,
         text = "Enhance",
     },
+    [265101] = {
+        id = 265101,
+        text = "Christmas Elk",
+    },
     [11301085] = {
         id = 11301085,
         text = "Enhance",
-    },
-    [265102] = {
-        id = 265102,
-        text = "Dancing Lion",
     },
     [11301083] = {
         id = 11301083,
@@ -39451,13 +39551,13 @@ return {
         id = 11301082,
         text = "Crit",
     },
+    [265102] = {
+        id = 265102,
+        text = "Dancing Lion",
+    },
     [11301081] = {
         id = 11301081,
         text = "Crit",
-    },
-    [265103] = {
-        id = 265103,
-        text = "Sakura Encounter",
     },
     [11301080] = {
         id = 11301080,
@@ -39467,9 +39567,21 @@ return {
         id = 11301079,
         text = "Crit",
     },
+    [265103] = {
+        id = 265103,
+        text = "Sakura Encounter",
+    },
     [11301078] = {
         id = 11301078,
         text = "Divine Sanction: Perish",
+    },
+    [10133094] = {
+        id = 10133094,
+        text = "[Disillusion] Skill DMG +10%.",
+    },
+    [11301076] = {
+        id = 11301076,
+        text = "Repentance",
     },
     [265104] = {
         id = 265104,
@@ -39479,9 +39591,9 @@ return {
         id = 17083,
         text = "Pudding Milkshake [Exceptional]",
     },
-    [10133094] = {
-        id = 10133094,
-        text = "[Disillusion] Skill DMG +10%.",
+    [11301075] = {
+        id = 11301075,
+        text = "Repentance",
     },
     [18107] = {
         id = 18107,
@@ -39491,45 +39603,45 @@ return {
         id = 265105,
         text = "Fragrant Zongzi",
     },
-    [11301076] = {
-        id = 11301076,
-        text = "Repentance",
-    },
-    [11301075] = {
-        id = 11301075,
-        text = "Repentance",
-    },
     [11301074] = {
         id = 11301074,
         text = "Holy Realm: Final",
+    },
+    [11301073] = {
+        id = 11301073,
+        text = "ATK Up",
+    },
+    [11301072] = {
+        id = 11301072,
+        text = "ATK Up",
     },
     [265106] = {
         id = 265106,
         text = "Lucky Queen",
     },
-    [11301073] = {
-        id = 11301073,
+    [11301071] = {
+        id = 11301071,
         text = "ATK Up",
     },
     [1021702] = {
         id = 1021702,
         text = "Juicers must be cleaned periodically.",
     },
-    [11301072] = {
-        id = 11301072,
+    [11301070] = {
+        id = 11301070,
         text = "ATK Up",
     },
     [1021703] = {
         id = 1021703,
         text = "That paper box is...",
     },
-    [11301071] = {
-        id = 11301071,
-        text = "ATK Up",
+    [10133095] = {
+        id = 10133095,
+        text = "[Disillusion] Skill DMG +15%.",
     },
-    [11301070] = {
-        id = 11301070,
-        text = "ATK Up",
+    [11301067] = {
+        id = 11301067,
+        text = "CD Reduction",
     },
     [420751] = {
         id = 420751,
@@ -39543,9 +39655,9 @@ return {
         id = 290000050,
         text = "I finally got my wish to participate in the shrine ritual, and by the way, I asked for a small gift for Kotori.",
     },
-    [11301067] = {
-        id = 11301067,
-        text = "CD Reduction",
+    [11301065] = {
+        id = 11301065,
+        text = "Spot Weakness: Elite",
     },
     [420752] = {
         id = 420752,
@@ -39555,12 +39667,12 @@ return {
         id = 265109,
         text = "Join the [Summer Party] event to obtain this avatar",
     },
-    [11301066] = {
-        id = 11301066,
+    [11301064] = {
+        id = 11301064,
         text = "Spot Weakness: Elite",
     },
-    [11301065] = {
-        id = 11301065,
+    [11301063] = {
+        id = 11301063,
         text = "Spot Weakness: Elite",
     },
     [420753] = {
@@ -39571,13 +39683,13 @@ return {
         id = 265110,
         text = "Full-Moon Night",
     },
-    [11301064] = {
-        id = 11301064,
-        text = "Spot Weakness: Elite",
+    [11301062] = {
+        id = 11301062,
+        text = "Holy Realm: Extreme",
     },
-    [11301063] = {
-        id = 11301063,
-        text = "Spot Weakness: Elite",
+    [10133096] = {
+        id = 10133096,
+        text = "[Disillusion] Skill DMG +20%.",
     },
     [420754] = {
         id = 420754,
@@ -39587,37 +39699,25 @@ return {
         id = 1021711,
         text = "We provide fresh milk~!",
     },
-    [11301062] = {
-        id = 11301062,
-        text = "Holy Realm: Extreme",
+    [11301059] = {
+        id = 11301059,
+        text = "Slow Enhancer",
     },
     [1021712] = {
         id = 1021712,
         text = "The strawberry milk just hit the shelf.",
     },
-    [10133096] = {
-        id = 10133096,
-        text = "[Disillusion] Skill DMG +20%.",
+    [11301058] = {
+        id = 11301058,
+        text = "Enhance",
     },
     [1021713] = {
         id = 1021713,
         text = "Fresh bean milk, very nutritious!",
     },
-    [11301059] = {
-        id = 11301059,
-        text = "Slow Enhancer",
-    },
-    [11301058] = {
-        id = 11301058,
-        text = "Enhance",
-    },
     [11301057] = {
         id = 11301057,
         text = "Enhance",
-    },
-    [265113] = {
-        id = 265113,
-        text = "Obtained from the 1 Year Celebration event - Our Year 1",
     },
     [11301056] = {
         id = 11301056,
@@ -39627,13 +39727,13 @@ return {
         id = 11301055,
         text = "Enhance",
     },
+    [265113] = {
+        id = 265113,
+        text = "Obtained from the 1 Year Celebration event - Our Year 1",
+    },
     [11301054] = {
         id = 11301054,
         text = "Holy Realm: Perish",
-    },
-    [265114] = {
-        id = 265114,
-        text = "Tohka Yatogami",
     },
     [11301053] = {
         id = 11301053,
@@ -39643,13 +39743,13 @@ return {
         id = 11301051,
         text = "Extra DMG",
     },
+    [265114] = {
+        id = 265114,
+        text = "Tohka Yatogami",
+    },
     [11301050] = {
         id = 11301050,
         text = "Extra DMG",
-    },
-    [265115] = {
-        id = 265115,
-        text = "Autumn Tour",
     },
     [11301049] = {
         id = 11301049,
@@ -39657,6 +39757,18 @@ return {
     },
     [11301048] = {
         id = 11301048,
+        text = "CD Reduction",
+    },
+    [265115] = {
+        id = 265115,
+        text = "Autumn Tour",
+    },
+    [11301047] = {
+        id = 11301047,
+        text = "CD Reduction",
+    },
+    [11301046] = {
+        id = 11301046,
         text = "CD Reduction",
     },
     [12126] = {
@@ -39667,9 +39779,9 @@ return {
         id = 1021721,
         text = "Ice mint is perfect for the weather.",
     },
-    [11301047] = {
-        id = 11301047,
-        text = "CD Reduction",
+    [10133097] = {
+        id = 10133097,
+        text = "Every enemy present increases skill damage of [Disillusion] by +1%.",
     },
     [1021722] = {
         id = 1021722,
@@ -39683,21 +39795,9 @@ return {
         id = 1021723,
         text = "The coffee bean is from yesterday.",
     },
-    [11301046] = {
-        id = 11301046,
-        text = "CD Reduction",
-    },
-    [10133097] = {
-        id = 10133097,
-        text = "Every enemy present increases skill damage of [Disillusion] by +1%.",
-    },
     [11301043] = {
         id = 11301043,
         text = "Enhance",
-    },
-    [265118] = {
-        id = 265118,
-        text = "Train Tohka AI successfully 1 time to obtain the avatar",
     },
     [11301042] = {
         id = 11301042,
@@ -39707,13 +39807,13 @@ return {
         id = 11301041,
         text = "Thunderstorm: Extreme",
     },
+    [265118] = {
+        id = 265118,
+        text = "Train Tohka AI successfully 1 time to obtain the avatar",
+    },
     [11301040] = {
         id = 11301040,
         text = "Crit",
-    },
-    [265119] = {
-        id = 265119,
-        text = "Oriental Wind",
     },
     [11301039] = {
         id = 11301039,
@@ -39723,9 +39823,21 @@ return {
         id = 11301038,
         text = "Crit",
     },
+    [265119] = {
+        id = 265119,
+        text = "Oriental Wind",
+    },
     [10133098] = {
         id = 10133098,
         text = "Every enemy present increases skill damage of [Disillusion] by +2%.",
+    },
+    [11301035] = {
+        id = 11301035,
+        text = "Nimble",
+    },
+    [11301034] = {
+        id = 11301034,
+        text = "Nimble",
     },
     [265120] = {
         id = 265120,
@@ -39735,9 +39847,9 @@ return {
         id = 17084,
         text = "Exceptional Food. Made by mixing pudding and milk in the blender, the drink is popular almost everywhere",
     },
-    [11301035] = {
-        id = 11301035,
-        text = "Nimble",
+    [11301033] = {
+        id = 11301033,
+        text = "Spot Weakness: Boss",
     },
     [18108] = {
         id = 18108,
@@ -39747,37 +39859,25 @@ return {
         id = 265121,
         text = "Save 2 Spirits in Test of Courage to obtain the avatar",
     },
-    [11301034] = {
-        id = 11301034,
-        text = "Nimble",
+    [11301032] = {
+        id = 11301032,
+        text = "Spot Weakness: Boss",
     },
     [1021732] = {
         id = 1021732,
         text = "Three cups of cappuccino!",
     },
-    [11301033] = {
-        id = 11301033,
+    [11301031] = {
+        id = 11301031,
         text = "Spot Weakness: Boss",
     },
     [265122] = {
         id = 265122,
         text = "Scary Ghost",
     },
-    [11301032] = {
-        id = 11301032,
-        text = "Spot Weakness: Boss",
-    },
-    [11301031] = {
-        id = 11301031,
-        text = "Spot Weakness: Boss",
-    },
     [11301030] = {
         id = 11301030,
         text = "Spot Weakness: Boss",
-    },
-    [265123] = {
-        id = 265123,
-        text = "Save 3 Spirits in Test of Courage to obtain the avatar",
     },
     [10133099] = {
         id = 10133099,
@@ -39787,13 +39887,13 @@ return {
         id = 11301027,
         text = "SP Drain",
     },
+    [265123] = {
+        id = 265123,
+        text = "Save 3 Spirits in Test of Courage to obtain the avatar",
+    },
     [11301026] = {
         id = 11301026,
         text = "SP Drain",
-    },
-    [265124] = {
-        id = 265124,
-        text = "Marvelous Night",
     },
     [11301025] = {
         id = 11301025,
@@ -39803,13 +39903,13 @@ return {
         id = 11301024,
         text = "ATK Speed",
     },
+    [265124] = {
+        id = 265124,
+        text = "Marvelous Night",
+    },
     [11301023] = {
         id = 11301023,
         text = "ATK Speed",
-    },
-    [265125] = {
-        id = 265125,
-        text = "Save 5 Spirits in Test of Courage to obtain the avatar",
     },
     [11301022] = {
         id = 11301022,
@@ -39819,45 +39919,45 @@ return {
         id = 11301021,
         text = "ATK Speed",
     },
+    [265125] = {
+        id = 265125,
+        text = "Save 5 Spirits in Test of Courage to obtain the avatar",
+    },
     [11301019] = {
         id = 11301019,
         text = "Movement Speed Up",
-    },
-    [1021741] = {
-        id = 1021741,
-        text = "Ahaha~ Customer, you are so funny!",
     },
     [11301018] = {
         id = 11301018,
         text = "Movement Speed Up",
     },
+    [11301017] = {
+        id = 11301017,
+        text = "Spot Weakness: Elite",
+    },
+    [1021741] = {
+        id = 1021741,
+        text = "Ahaha~ Customer, you are so funny!",
+    },
+    [11301016] = {
+        id = 11301016,
+        text = "Spot Weakness: Elite",
+    },
     [1021742] = {
         id = 1021742,
         text = "We don't have that kind of... magic water~",
     },
-    [11301017] = {
-        id = 11301017,
+    [11301015] = {
+        id = 11301015,
         text = "Spot Weakness: Elite",
     },
     [1021743] = {
         id = 1021743,
         text = "Out of disposable cups!",
     },
-    [11301016] = {
-        id = 11301016,
-        text = "Spot Weakness: Elite",
-    },
-    [11301015] = {
-        id = 11301015,
-        text = "Spot Weakness: Elite",
-    },
     [3206022] = {
         id = 3206022,
         text = "",
-    },
-    [265128] = {
-        id = 265128,
-        text = "Santa Clause",
     },
     [11301011] = {
         id = 11301011,
@@ -39867,13 +39967,13 @@ return {
         id = 11301010,
         text = "Crit",
     },
+    [265128] = {
+        id = 265128,
+        text = "Santa Clause",
+    },
     [11301009] = {
         id = 11301009,
         text = "Arrow of Judgment: Extreme",
-    },
-    [265129] = {
-        id = 265129,
-        text = "Don't forget to claim my gift delivered by Santa!\n2019 Christmas Event Exclusive Avatar!",
     },
     [11301008] = {
         id = 11301008,
@@ -39882,6 +39982,10 @@ return {
     [11301007] = {
         id = 11301007,
         text = "Enhance",
+    },
+    [265129] = {
+        id = 265129,
+        text = "Don't forget to claim my gift delivered by Santa!\n2019 Christmas Event Exclusive Avatar!",
     },
     [10133101] = {
         id = 10133101,
@@ -39903,33 +40007,33 @@ return {
         id = 1710004,
         text = "Rapport Leaderboard",
     },
-    [1021751] = {
-        id = 1021751,
-        text = "Aha, feel free to have a taste.",
-    },
     [11203115] = {
         id = 11203115,
         text = "Inflicts +25% DMG to Bosses.",
-    },
-    [1021752] = {
-        id = 1021752,
-        text = "Thanks for your patronage!",
     },
     [11203114] = {
         id = 11203114,
         text = "When HP is above 70%, increase ATK by 30%.",
     },
-    [1021753] = {
-        id = 1021753,
-        text = "One cup of hot latte!",
+    [1021751] = {
+        id = 1021751,
+        text = "Aha, feel free to have a taste.",
     },
     [11203113] = {
         id = 11203113,
         text = "Dark, Holy Resist +30%. Reduces duration of debuff and control effect received by 30%.",
     },
+    [1021752] = {
+        id = 1021752,
+        text = "Thanks for your patronage!",
+    },
     [11203112] = {
         id = 11203112,
         text = "Pierce Rate +10%, Pierce DMG Dealt +30%.",
+    },
+    [1021753] = {
+        id = 1021753,
+        text = "One cup of hot latte!",
     },
     [11203111] = {
         id = 11203111,
@@ -39983,6 +40087,14 @@ return {
         id = 11203097,
         text = "[Phantom Sword Surge] Unlocks the BBBAAA combo. Summons several Shadow Swords to attack enemies on downwards. The skill inflicts Holy DMG equal to 610% ATK.",
     },
+    [11203096] = {
+        id = 11203096,
+        text = "[Sword Meteor/Phantom Sword Surge] Critical hit increases DMG by +20% for 3s.",
+    },
+    [11203095] = {
+        id = 11203095,
+        text = "[Sword Meteor/Phantom Sword Surge] Critical hit increases DMG by +15% for 3s.",
+    },
     [1021761] = {
         id = 1021761,
         text = "It is already night, but it is still hot...",
@@ -40002,14 +40114,6 @@ return {
     [1021763] = {
         id = 1021763,
         text = "Ahhh~ I spilled it!",
-    },
-    [11203096] = {
-        id = 11203096,
-        text = "[Sword Meteor/Phantom Sword Surge] Critical hit increases DMG by +20% for 3s.",
-    },
-    [11203095] = {
-        id = 11203095,
-        text = "[Sword Meteor/Phantom Sword Surge] Critical hit increases DMG by +15% for 3s.",
     },
     [11203094] = {
         id = 11203094,
@@ -40171,10 +40275,6 @@ return {
         id = 11203050,
         text = "When [Cleaving Dance/Shining Edge] inflict damage, has a 20% chance to increase ATK by +10% for 3s.",
     },
-    [12127] = {
-        id = 12127,
-        text = "Bakery - Work 5",
-    },
     [11203049] = {
         id = 11203049,
         text = "[Cleaving Dance] After the 3rd assault, attacks with sword beam in the small area on the back. The skill inflicts Holy DMG equal to 675% ATK. \n[Shining Edge] Inflicts 1 more Heavy Blow at the end. The skill inflicts Holy DMG equal to 620% ATK.",
@@ -40183,13 +40283,13 @@ return {
         id = 11203048,
         text = "When [Cleaving Dance/Shining Edge] crit increases DMG dealt by the next attack by +25%.",
     },
+    [12127] = {
+        id = 12127,
+        text = "Bakery - Work 5",
+    },
     [11203047] = {
         id = 11203047,
         text = "When [Cleaving Dance/Shining Edge] crit increases DMG dealt by the next attack by +20%.",
-    },
-    [13151] = {
-        id = 13151,
-        text = "Dispatch Reward 9",
     },
     [11203046] = {
         id = 11203046,
@@ -40198,6 +40298,10 @@ return {
     [11203044] = {
         id = 11203044,
         text = "[Cleaving Dance/Shining Edge] Ignores 15% DEF.",
+    },
+    [13151] = {
+        id = 13151,
+        text = "Dispatch Reward 9",
     },
     [11203043] = {
         id = 11203043,
@@ -40243,25 +40347,25 @@ return {
         id = 11203032,
         text = "[Cleaving Dance/Shining Edge] DMG +15%.",
     },
-    [17086] = {
-        id = 17086,
-        text = "This mixed drink of high-quality cocoa powder and hot milk is the best choice in the cold winter.",
-    },
     [11203031] = {
         id = 11203031,
         text = "[Cleaving Dance/Shining Edge] DMG +10%.",
-    },
-    [18110] = {
-        id = 18110,
-        text = "The basket wove by selected sweet-scented Aglaia branches is among the best decoration options.",
     },
     [11203030] = {
         id = 11203030,
         text = "[Cleaving Dance/Shining Edge] DMG +5%.",
     },
+    [17086] = {
+        id = 17086,
+        text = "This mixed drink of high-quality cocoa powder and hot milk is the best choice in the cold winter.",
+    },
     [11203029] = {
         id = 11203029,
         text = "[Cleaving Dance] Unlocks the AABB combo. Assault up to 2 times. Can control the direction. The skill inflicts Holy DMG equal to 315% ATK. \n[Shining Edge] Attack 2 more times. The skill inflicts Holy DMG equal to 320% ATK.",
+    },
+    [18110] = {
+        id = 18110,
+        text = "The basket wove by selected sweet-scented Aglaia branches is among the best decoration options.",
     },
     [1710009] = {
         id = 1710009,
@@ -40303,33 +40407,33 @@ return {
         id = 11203018,
         text = "[Twin Cleave/Sky Cleave] Inflicts +9% DMG to Bosses.",
     },
-    [1021801] = {
-        id = 1021801,
-        text = "Wash~ Wash fruits~",
-    },
     [11203017] = {
         id = 11203017,
         text = "[Twin Cleave/Sky Cleave] Inflicts +6% DMG to Bosses.",
-    },
-    [1021802] = {
-        id = 1021802,
-        text = "Em... the user guide of the new juicer~",
     },
     [11203016] = {
         id = 11203016,
         text = "[Twin Cleave] Unlocks the AAAAA combo. The skill inflicts Physical DMG equal to 650% ATK. \n[Sky Cleave] Unlocks the ABBB combo. Attacks 2 more times mid air. The skill inflicts Physical DMG equal to 560% ATK.",
     },
-    [1021803] = {
-        id = 1021803,
-        text = "Aha~ what a large pile of garbage~",
+    [1021801] = {
+        id = 1021801,
+        text = "Wash~ Wash fruits~",
     },
     [11203015] = {
         id = 11203015,
         text = "When [Twin Cleave/Sky Cleave] inflict damage, has a 100% chance to reduce targets' DEF by 20% for 3s.",
     },
+    [1021802] = {
+        id = 1021802,
+        text = "Em... the user guide of the new juicer~",
+    },
     [1710013] = {
         id = 1710013,
         text = "Rapport reaches 60",
+    },
+    [1021803] = {
+        id = 1021803,
+        text = "Aha~ what a large pile of garbage~",
     },
     [11203012] = {
         id = 11203012,
@@ -40383,33 +40487,33 @@ return {
         id = 11201112,
         text = "Sunder Specialty",
     },
-    [1021811] = {
-        id = 1021811,
-        text = "One cup of nutritious breakfast milk~",
-    },
     [11201111] = {
         id = 11201111,
         text = "Heavy Collapse",
-    },
-    [1021812] = {
-        id = 1021812,
-        text = "Today's offer~",
     },
     [11201110] = {
         id = 11201110,
         text = "Combo Master",
     },
-    [1021813] = {
-        id = 1021813,
-        text = "How about some fresh soya-bean milk?",
+    [1021811] = {
+        id = 1021811,
+        text = "One cup of nutritious breakfast milk~",
     },
     [11201109] = {
         id = 11201109,
         text = "Morale Boost",
     },
+    [1021812] = {
+        id = 1021812,
+        text = "Today's offer~",
+    },
     [11201108] = {
         id = 11201108,
         text = "Winter's Blade",
+    },
+    [1021813] = {
+        id = 1021813,
+        text = "How about some fresh soya-bean milk?",
     },
     [11201107] = {
         id = 11201107,
@@ -40463,33 +40567,33 @@ return {
         id = 11201095,
         text = "Sharp",
     },
-    [1021821] = {
-        id = 1021821,
-        text = "Buy one get the second one half off~",
-    },
     [11201094] = {
         id = 11201094,
         text = "Sharp",
-    },
-    [1021822] = {
-        id = 1021822,
-        text = "Add more ice blocks~",
     },
     [11201093] = {
         id = 11201093,
         text = "Sharp",
     },
-    [1021823] = {
-        id = 1021823,
-        text = "If this has no sugar~",
+    [1021821] = {
+        id = 1021821,
+        text = "Buy one get the second one half off~",
     },
     [11201092] = {
         id = 11201092,
         text = "Haste",
     },
+    [1021822] = {
+        id = 1021822,
+        text = "Add more ice blocks~",
+    },
     [11201091] = {
         id = 11201091,
         text = "Haste",
+    },
+    [1021823] = {
+        id = 1021823,
+        text = "If this has no sugar~",
     },
     [11201090] = {
         id = 11201090,
@@ -40499,25 +40603,25 @@ return {
         id = 11201089,
         text = "Phantom Sword: Extreme",
     },
-    [17087] = {
-        id = 17087,
-        text = "Cocoa Milk [Delicious]",
-    },
     [11201088] = {
         id = 11201088,
         text = "Crit",
-    },
-    [18111] = {
-        id = 18111,
-        text = "Aglaia Pendant [Fine]",
     },
     [11201087] = {
         id = 11201087,
         text = "Crit",
     },
+    [17087] = {
+        id = 17087,
+        text = "Cocoa Milk [Delicious]",
+    },
     [11201086] = {
         id = 11201086,
         text = "Crit",
+    },
+    [18111] = {
+        id = 18111,
+        text = "Aglaia Pendant [Fine]",
     },
     [11201085] = {
         id = 11201085,
@@ -40543,33 +40647,33 @@ return {
         id = 11201080,
         text = "Enhance",
     },
-    [1021831] = {
-        id = 1021831,
-        text = "Oh, you have a coupon?",
-    },
     [11201079] = {
         id = 11201079,
         text = "Enhance",
-    },
-    [1021832] = {
-        id = 1021832,
-        text = "Don't drink too much alcoholic beverage~",
     },
     [11201078] = {
         id = 11201078,
         text = "Enhance",
     },
-    [1021833] = {
-        id = 1021833,
-        text = "Cola is running low!",
+    [1021831] = {
+        id = 1021831,
+        text = "Oh, you have a coupon?",
     },
     [11201077] = {
         id = 11201077,
         text = "Phantom Sword: Perish",
     },
+    [1021832] = {
+        id = 1021832,
+        text = "Don't drink too much alcoholic beverage~",
+    },
     [2100007] = {
         id = 2100007,
         text = "In Progress: %s:%s",
+    },
+    [1021833] = {
+        id = 1021833,
+        text = "Cola is running low!",
     },
     [11201075] = {
         id = 11201075,
@@ -40607,10 +40711,6 @@ return {
         id = 11201067,
         text = "Spot Weakness: Boss",
     },
-    [30911] = {
-        id = 30911,
-        text = "Realizer - Pendragon",
-    },
     [11201066] = {
         id = 11201066,
         text = "Spot Weakness: Boss",
@@ -40619,37 +40719,41 @@ return {
         id = 11201065,
         text = "Spot Weakness: Boss",
     },
+    [30911] = {
+        id = 30911,
+        text = "Realizer - Pendragon",
+    },
     [11201064] = {
         id = 11201064,
         text = "Stab: Extreme",
+    },
+    [11201063] = {
+        id = 11201063,
+        text = "Enhance",
+    },
+    [11201062] = {
+        id = 11201062,
+        text = "Enhance",
     },
     [1021841] = {
         id = 1021841,
         text = "Aha, is that a joke?",
     },
-    [11201063] = {
-        id = 11201063,
+    [11201061] = {
+        id = 11201061,
         text = "Enhance",
     },
     [1021842] = {
         id = 1021842,
         text = "What? We can't serve that drink~",
     },
-    [11201062] = {
-        id = 11201062,
-        text = "Enhance",
+    [11201060] = {
+        id = 11201060,
+        text = "Pierce",
     },
     [1021843] = {
         id = 1021843,
         text = "Speaking of sports drink~",
-    },
-    [11201061] = {
-        id = 11201061,
-        text = "Enhance",
-    },
-    [11201060] = {
-        id = 11201060,
-        text = "Pierce",
     },
     [11201059] = {
         id = 11201059,
@@ -40683,10 +40787,6 @@ return {
         id = 2100010,
         text = "Floor %s-%s",
     },
-    [12128] = {
-        id = 12128,
-        text = "Bakery - Work 6",
-    },
     [11201051] = {
         id = 11201051,
         text = "Attack by Force",
@@ -40695,9 +40795,21 @@ return {
         id = 11201050,
         text = "Attack by Force",
     },
+    [12128] = {
+        id = 12128,
+        text = "Bakery - Work 6",
+    },
     [11201049] = {
         id = 11201049,
         text = "Sword Cleave: Final",
+    },
+    [11201048] = {
+        id = 11201048,
+        text = "Rage",
+    },
+    [11201047] = {
+        id = 11201047,
+        text = "Rage",
     },
     [13152] = {
         id = 13152,
@@ -40707,29 +40819,21 @@ return {
         id = 1021851,
         text = "This is loaded with calories~",
     },
-    [11201048] = {
-        id = 11201048,
+    [11201046] = {
+        id = 11201046,
         text = "Rage",
     },
     [1021852] = {
         id = 1021852,
         text = "Hot chocolate?",
     },
-    [11201047] = {
-        id = 11201047,
+    [11201045] = {
+        id = 11201045,
         text = "Rage",
     },
     [1021853] = {
         id = 1021853,
         text = "Please wait in line~",
-    },
-    [11201046] = {
-        id = 11201046,
-        text = "Rage",
-    },
-    [11201045] = {
-        id = 11201045,
-        text = "Rage",
     },
     [2100012] = {
         id = 2100012,
@@ -40755,13 +40859,21 @@ return {
         id = 11201039,
         text = "Spot Weakness: Boss",
     },
+    [11201038] = {
+        id = 11201038,
+        text = "Spot Weakness: Boss",
+    },
+    [11201037] = {
+        id = 11201037,
+        text = "Spot Weakness: Boss",
+    },
     [17088] = {
         id = 17088,
         text = "Delicious Food. This mixed drink of high-quality cocoa powder and hot milk is the best choice in the cold winter.",
     },
-    [11201038] = {
-        id = 11201038,
-        text = "Spot Weakness: Boss",
+    [2100014] = {
+        id = 2100014,
+        text = "Challenge Goal",
     },
     [18112] = {
         id = 18112,
@@ -40779,37 +40891,29 @@ return {
         id = 190000066,
         text = "Fate Badge*5",
     },
-    [11201034] = {
-        id = 11201034,
-        text = "Crit",
+    [11201032] = {
+        id = 11201032,
+        text = "Enhance",
     },
     [1021861] = {
         id = 1021861,
         text = "It's the cat we saw last time~",
     },
-    [11201033] = {
-        id = 11201033,
-        text = "Crit",
+    [11201031] = {
+        id = 11201031,
+        text = "Enhance",
     },
     [1021862] = {
         id = 1021862,
         text = "This is refresher~",
     },
-    [11201032] = {
-        id = 11201032,
+    [11201030] = {
+        id = 11201030,
         text = "Enhance",
     },
     [1021863] = {
         id = 1021863,
         text = "Drink something hot for the night~",
-    },
-    [11201031] = {
-        id = 11201031,
-        text = "Enhance",
-    },
-    [11201030] = {
-        id = 11201030,
-        text = "Enhance",
     },
     [11201029] = {
         id = 11201029,
@@ -40863,10 +40967,6 @@ return {
         id = 11201017,
         text = "Spot Weakness: Boss",
     },
-    [30912] = {
-        id = 30912,
-        text = "30812",
-    },
     [11201016] = {
         id = 11201016,
         text = "Twin Blades: Extreme",
@@ -40874,6 +40974,10 @@ return {
     [11201015] = {
         id = 11201015,
         text = "Weaken",
+    },
+    [30912] = {
+        id = 30912,
+        text = "30812",
     },
     [11201014] = {
         id = 11201014,
@@ -41011,25 +41115,25 @@ return {
         id = 11103098,
         text = "[Tracing] Skill DMG +15%.",
     },
-    [17089] = {
-        id = 17089,
-        text = "Cocoa Milk [Exceptional]",
-    },
     [11103097] = {
         id = 11103097,
         text = "[Tracing] Skill DMG +10%.",
-    },
-    [18113] = {
-        id = 18113,
-        text = "Aglaia Pendant [Perfect]",
     },
     [11103096] = {
         id = 11103096,
         text = "[Tracing] Skill DMG +5%.",
     },
+    [17089] = {
+        id = 17089,
+        text = "Cocoa Milk [Exceptional]",
+    },
     [11103095] = {
         id = 11103095,
         text = "[Tracing] ignores 32% DEF of targets.",
+    },
+    [18113] = {
+        id = 18113,
+        text = "Aglaia Pendant [Perfect]",
     },
     [11103094] = {
         id = 11103094,
@@ -41103,13 +41207,21 @@ return {
         id = 11103074,
         text = "[Army Breaker] Mana charges forward in the end, inflicting Lightning DMG equal to 140% of Mana's ATK",
     },
+    [11103073] = {
+        id = 11103073,
+        text = "[Army Breaker] ignores 32% DEF of targets",
+    },
+    [11103072] = {
+        id = 11103072,
+        text = "[Army Breaker] ignores 24% DEF of targets",
+    },
     [1021901] = {
         id = 1021901,
         text = "*Sigh*, there is so few customers!",
     },
-    [11103073] = {
-        id = 11103073,
-        text = "[Army Breaker] ignores 32% DEF of targets",
+    [11103071] = {
+        id = 11103071,
+        text = "[Army Breaker] ignores 16% DEF of targets",
     },
     [1021902] = {
         id = 1021902,
@@ -41127,21 +41239,9 @@ return {
         id = 470001,
         text = "ATK Speed",
     },
-    [11103072] = {
-        id = 11103072,
-        text = "[Army Breaker] ignores 24% DEF of targets",
-    },
-    [11103071] = {
-        id = 11103071,
-        text = "[Army Breaker] ignores 16% DEF of targets",
-    },
     [11103070] = {
         id = 11103070,
         text = "[Army Breaker] ignores 8% DEF of targets",
-    },
-    [470002] = {
-        id = 470002,
-        text = "Hawk Eyes",
     },
     [60006] = {
         id = 60006,
@@ -41151,13 +41251,13 @@ return {
         id = 11103067,
         text = "[Army Breaker] gains +5% Pierce Rate.",
     },
+    [470002] = {
+        id = 470002,
+        text = "Hawk Eyes",
+    },
     [11103066] = {
         id = 11103066,
         text = "[Army Breaker] gains +3% Pierce Rate.",
-    },
-    [470003] = {
-        id = 470003,
-        text = "Hawk Eyes",
     },
     [11103065] = {
         id = 11103065,
@@ -41167,13 +41267,13 @@ return {
         id = 11103064,
         text = "[Army Breaker] The skill inflicts +15% DMG to Spirit enemies.",
     },
+    [470003] = {
+        id = 470003,
+        text = "Hawk Eyes",
+    },
     [11103063] = {
         id = 11103063,
         text = "[Army Breaker] The skill inflicts +10% DMG to Spirit enemies.",
-    },
-    [470004] = {
-        id = 470004,
-        text = "Hawk Eyes",
     },
     [11103062] = {
         id = 11103062,
@@ -41182,6 +41282,18 @@ return {
     [400081] = {
         id = 400081,
         text = "Scorch: Exorcist's End",
+    },
+    [470004] = {
+        id = 470004,
+        text = "Hawk Eyes",
+    },
+    [11103059] = {
+        id = 11103059,
+        text = "Reduces cost of [Army Breaker] by 1",
+    },
+    [11103058] = {
+        id = 11103058,
+        text = "[Army Breaker] Skill DMG +20%.",
     },
     [1021911] = {
         id = 1021911,
@@ -41207,49 +41319,49 @@ return {
         id = 470006,
         text = "Crit",
     },
-    [11103059] = {
-        id = 11103059,
-        text = "Reduces cost of [Army Breaker] by 1",
+    [11103057] = {
+        id = 11103057,
+        text = "[Army Breaker] Skill DMG +15%.",
     },
     [13153] = {
         id = 13153,
         text = "Dispatch Reward 11",
     },
-    [11103058] = {
-        id = 11103058,
-        text = "[Army Breaker] Skill DMG +20%.",
+    [11103056] = {
+        id = 11103056,
+        text = "[Army Breaker] Skill DMG +10%.",
     },
     [470007] = {
         id = 470007,
         text = "Crit",
     },
-    [11103057] = {
-        id = 11103057,
-        text = "[Army Breaker] Skill DMG +15%.",
-    },
-    [11103056] = {
-        id = 11103056,
-        text = "[Army Breaker] Skill DMG +10%.",
-    },
     [11103055] = {
         id = 11103055,
         text = "[Army Breaker] Skill DMG +5%.",
-    },
-    [470008] = {
-        id = 470008,
-        text = "Crit",
     },
     [11103054] = {
         id = 11103054,
         text = "[Army Breaker] slashes forward 6 times in total, inflicting Lightning DMG equal to 400% of Mana's ATK.",
     },
-    [111000055] = {
-        id = 111000055,
-        text = "AA급 정령 파편 선택상자",
+    [25015] = {
+        id = 25015,
+        text = "Pocket Money",
+    },
+    [470008] = {
+        id = 470008,
+        text = "Crit",
     },
     [11103051] = {
         id = 11103051,
         text = "[Inverted Cloud] The skill inflicts +4% DMG to elite enemies.",
+    },
+    [111000055] = {
+        id = 111000055,
+        text = "AA급 정령 파편 선택상자",
+    },
+    [11103049] = {
+        id = 11103049,
+        text = "[Inverted Cloud] Skill DMG +10%.",
     },
     [1454001] = {
         id = 1454001,
@@ -41487,21 +41599,21 @@ return {
         id = 1454059,
         text = "Training",
     },
-    [11103050] = {
-        id = 11103050,
-        text = "[Inverted Cloud] Changes into shadow to attack enemies 4 times in total, inflicting Lightning DMG equal to 140% of Mana's ATK.",
+    [11103048] = {
+        id = 11103048,
+        text = "[Inverted Cloud] Skill DMG +7%.",
     },
     [470024] = {
         id = 470024,
         text = "Defense Breaker",
     },
-    [11103049] = {
-        id = 11103049,
-        text = "[Inverted Cloud] Skill DMG +10%.",
+    [11103047] = {
+        id = 11103047,
+        text = "[Inverted Cloud] Skill DMG +5%.",
     },
-    [11103048] = {
-        id = 11103048,
-        text = "[Inverted Cloud] Skill DMG +7%.",
+    [11103046] = {
+        id = 11103046,
+        text = "[Inverted Cloud] Skill DMG +3%.",
     },
     [1021951] = {
         id = 1021951,
@@ -41515,9 +41627,9 @@ return {
         id = 1021952,
         text = "Do you need a big plastic bag?",
     },
-    [11103047] = {
-        id = 11103047,
-        text = "[Inverted Cloud] Skill DMG +5%.",
+    [11103045] = {
+        id = 11103045,
+        text = "[Inverted Cloud] The skill reduces enemies' DEF by 25% on hit. Lasts 5s.",
     },
     [1021953] = {
         id = 1021953,
@@ -41527,37 +41639,25 @@ return {
         id = 470026,
         text = "Lifesteal",
     },
-    [11103046] = {
-        id = 11103046,
-        text = "[Inverted Cloud] Skill DMG +3%.",
+    [11103043] = {
+        id = 11103043,
+        text = "[Inverted Cloud] The skill reduces enemies' DEF by 15% on hit. Lasts 5s.",
     },
     [18115] = {
         id = 18115,
         text = "Romantic Violet",
     },
-    [11103045] = {
-        id = 11103045,
-        text = "[Inverted Cloud] The skill reduces enemies' DEF by 25% on hit. Lasts 5s.",
+    [11103042] = {
+        id = 11103042,
+        text = "[Inverted Cloud] The skill reduces enemies' DEF by 10% on hit. Lasts 5s.",
     },
     [470027] = {
         id = 470027,
         text = "Lifesteal",
     },
-    [11103043] = {
-        id = 11103043,
-        text = "[Inverted Cloud] The skill reduces enemies' DEF by 15% on hit. Lasts 5s.",
-    },
-    [11103042] = {
-        id = 11103042,
-        text = "[Inverted Cloud] The skill reduces enemies' DEF by 10% on hit. Lasts 5s.",
-    },
     [11103041] = {
         id = 11103041,
         text = "[Inverted Cloud] has a 20% chance to increase Mana's ATK Speed by 20% on hit. Lasts 5s.",
-    },
-    [470028] = {
-        id = 470028,
-        text = "Lifesteal",
     },
     [11103040] = {
         id = 11103040,
@@ -41567,13 +41667,13 @@ return {
         id = 11103039,
         text = "[Inverted Cloud] has a 20% chance to increase Mana's ATK Speed by 10% on hit. Lasts 5s.",
     },
+    [470028] = {
+        id = 470028,
+        text = "Lifesteal",
+    },
     [11103038] = {
         id = 11103038,
         text = "[Inverted Cloud] has a 20% chance to increase Mana's ATK Speed by 5% on hit. Lasts 5s.",
-    },
-    [470029] = {
-        id = 470029,
-        text = "Lifesteal",
     },
     [201015] = {
         id = 201015,
@@ -41582,6 +41682,18 @@ return {
     [11103035] = {
         id = 11103035,
         text = "Pierce Rate of [Inverted Cloud] +4%.",
+    },
+    [470029] = {
+        id = 470029,
+        text = "Lifesteal",
+    },
+    [11103034] = {
+        id = 11103034,
+        text = "Pierce Rate of [Inverted Cloud] +2%.",
+    },
+    [11103033] = {
+        id = 11103033,
+        text = "Reduces cost of [Inverted Cloud] by 3.",
     },
     [1021961] = {
         id = 1021961,
@@ -41595,9 +41707,9 @@ return {
         id = 1021962,
         text = "Hello, we don't have that product.",
     },
-    [11103034] = {
-        id = 11103034,
-        text = "Pierce Rate of [Inverted Cloud] +2%.",
+    [11103032] = {
+        id = 11103032,
+        text = "Reduces cost of [Inverted Cloud] by 2.",
     },
     [1021963] = {
         id = 1021963,
@@ -41607,21 +41719,9 @@ return {
         id = 470031,
         text = "Dual",
     },
-    [11103033] = {
-        id = 11103033,
-        text = "Reduces cost of [Inverted Cloud] by 3.",
-    },
-    [11103032] = {
-        id = 11103032,
-        text = "Reduces cost of [Inverted Cloud] by 2.",
-    },
     [11103031] = {
         id = 11103031,
         text = "Reduces cost of [Inverted Cloud] by 1.",
-    },
-    [470032] = {
-        id = 470032,
-        text = "Dual",
     },
     [11103030] = {
         id = 11103030,
@@ -41631,12 +41731,8 @@ return {
         id = 11103029,
         text = "[Wolf Tail] Each Base ATK has a 30% chance to gain 2 Energy.",
     },
-    [30915] = {
-        id = 30915,
-        text = "30815",
-    },
-    [470033] = {
-        id = 470033,
+    [470032] = {
+        id = 470032,
         text = "Dual",
     },
     [11103027] = {
@@ -41647,13 +41743,17 @@ return {
         id = 11103026,
         text = "[Wolf Tail] Each Base ATK has a 7% chance to gain 2 Energy.",
     },
+    [30915] = {
+        id = 30915,
+        text = "30815",
+    },
+    [470033] = {
+        id = 470033,
+        text = "Dual",
+    },
     [11103025] = {
         id = 11103025,
         text = "[Wolf Tail] Extends ATK Range of Base ATK.",
-    },
-    [470034] = {
-        id = 470034,
-        text = "CD",
     },
     [11103024] = {
         id = 11103024,
@@ -41663,13 +41763,13 @@ return {
         id = 11103023,
         text = "[Wolf Tail] Base ATK inflicts +7% DMG to Spirit enemies.",
     },
+    [470034] = {
+        id = 470034,
+        text = "CD",
+    },
     [11103022] = {
         id = 11103022,
         text = "[Wolf Tail] Base ATK inflicts +5% DMG to Spirit enemies.",
-    },
-    [470035] = {
-        id = 470035,
-        text = "CD",
     },
     [1025163] = {
         id = 1025163,
@@ -41679,13 +41779,13 @@ return {
         id = 11103019,
         text = "[Wolf Tail] Pierce Rate of Base ATK +5%.",
     },
+    [470035] = {
+        id = 470035,
+        text = "CD",
+    },
     [11103018] = {
         id = 11103018,
         text = "[Wolf Tail] Pierce Rate of Base ATK +3%.",
-    },
-    [470036] = {
-        id = 470036,
-        text = "CD",
     },
     [11103017] = {
         id = 11103017,
@@ -41695,61 +41795,61 @@ return {
         id = 11103016,
         text = "[Wolf Tail] Base ATK inflicts +12% DMG to elite enemies.",
     },
+    [470036] = {
+        id = 470036,
+        text = "CD",
+    },
     [11103015] = {
         id = 11103015,
         text = "[Wolf Tail] Base ATK inflicts +8% DMG to elite enemies.",
-    },
-    [470037] = {
-        id = 470037,
-        text = "CD",
     },
     [11103013] = {
         id = 11103013,
         text = "[Wolf Tail] Base ATK DMG +20%.",
     },
-    [12130] = {
-        id = 12130,
-        text = "Bakery - Work 8",
-    },
     [11103011] = {
         id = 11103011,
         text = "[Wolf Tail] Base ATK DMG +10%.",
     },
-    [470038] = {
-        id = 470038,
+    [470037] = {
+        id = 470037,
         text = "CD",
     },
     [11103010] = {
         id = 11103010,
         text = "[Wolf Tail] Base ATK DMG +5%.",
     },
-    [13154] = {
-        id = 13154,
-        text = "Dispatch Reward 12",
+    [12130] = {
+        id = 12130,
+        text = "Bakery - Work 8",
     },
     [11103009] = {
         id = 11103009,
         text = "[Wolf Tail] Base ATK Speed +12%.",
     },
-    [470039] = {
-        id = 470039,
+    [470038] = {
+        id = 470038,
         text = "CD",
     },
     [11103008] = {
         id = 11103008,
         text = "[Wolf Tail] Base ATK Speed +9%.",
     },
+    [13154] = {
+        id = 13154,
+        text = "Dispatch Reward 12",
+    },
     [201013] = {
         id = 201013,
         text = "Date type error",
     },
+    [470039] = {
+        id = 470039,
+        text = "CD",
+    },
     [1025162] = {
         id = 1025162,
         text = "How about the haunted house...",
-    },
-    [470040] = {
-        id = 470040,
-        text = "CD",
     },
     [1025161] = {
         id = 1025161,
@@ -41759,13 +41859,13 @@ return {
         id = 20010,
         text = "Type: Costume\nOwner: Tohka Yatogami\nTohka Yatogami's daily outfit. Looks very ladylike. But she doesn't care about it at all.",
     },
+    [470040] = {
+        id = 470040,
+        text = "CD",
+    },
     [11101120] = {
         id = 11101120,
         text = "Shock Trail",
-    },
-    [470041] = {
-        id = 470041,
-        text = "CD",
     },
     [11101119] = {
         id = 11101119,
@@ -41775,45 +41875,45 @@ return {
         id = 11101118,
         text = "Deadly Pursuit",
     },
+    [470041] = {
+        id = 470041,
+        text = "CD",
+    },
     [63042] = {
         id = 63042,
         text = "Carnival Event Guide - Are you ready?\nThis event includes 3 mini games and a prize draw. \n\n[Wheel of Fortune] Rules: \n 1. You can bet up to 50 lucky coins\n 2. Settlement: When the wheel stops at the Spirit you bet on, you will get the lucky coins based on the odds. Those bet on the other Spirits will be given to Natsumi, you can't take them back. \n\n[Divination] Rules: \nNatsumi will perform divination with 3 cards. After Natsumi flips all cards, you will be lucky (not true) if you find the true Natsumi, and gain lucky coins based on odds.\n\n[Lucky Dice] Rules: \n 1. You can bet on either [Miku]/[Kotori]/[?×3]. You can bet on [?×3] plus [Miku] or [Kotori] but can't bet on [Miku] plus [Kotori] at the same time.\n 2. Settlement: When the dice stops, if there are more [Notes], [Miku] will win; if there are more [Sparks], [Kotori] will win; If 3 dices are of the same pattern, [?] will win (the Spirit with that pattern also wins);\n----------------------------------\nDraw Rules: \n 1. You can draw with the event item [Lucky Insignia].\n 2. [Lucky Insignia] can be exchanged in Store - [Carnival].\n 3. [Draw] has two price pools. When the best item in phase 1 is drawn, phase 2 will unlock. \n 4. Both prize pools have limited rewards. When all rewards are taken, players won't be able to draw more. \nIn the [Draw], you may get the best reward - [Natsumi - Lucky Queen Advanced Costume]. Don't miss that!\n-----------------------\nDraw Rate List\nPhase 1: \nFav Girl Theme - Natsumi 0.50%\nS Class Scroll Choice Chest 4.00%\nA Class Gem Choice Chest 4.00%\nA Class Random Gem 10.50%\nS Class Random Blueprint 10.50%\nFate Badge 10.50%\nGold Lucky Bag 15.00%\nEXP Lucky Bag 15.00%\nOrigin Lucky Bag 15.00%\nSephira Essence Lucky Bag 15.00%\nPhase 2: \nSenior Fav Girl Theme - Natsumi 0.50%\nSS Class Scroll Choice Chest 4.00%\nS Class Gem Choice Chest 4.00%\nA Class Gem Choice Chest 10.50%\nS Class Scroll Choice Chest 10.50%\nA Class Challenge Scroll 10.50%\nGold Lucky Bag (L) 15.00%\nXP Lucky Bag (L) 15.00%\nOrigin Lucky Bag (L) 15.00%\nSephira Essence Lucky Bag (L) 15.00%",
-    },
-    [17092] = {
-        id = 17092,
-        text = "The ice-cold mint matcha tea is popular in summer.",
     },
     [11101115] = {
         id = 11101115,
         text = "Adept Efficiency",
     },
-    [18116] = {
-        id = 18116,
-        text = "The mysterious and elegant violet in the basket is highly ornamental.",
-    },
     [11101114] = {
         id = 11101114,
         text = "Combo Master",
     },
-    [470043] = {
-        id = 470043,
-        text = "CD",
+    [17092] = {
+        id = 17092,
+        text = "The ice-cold mint matcha tea is popular in summer.",
     },
     [11101113] = {
         id = 11101113,
         text = "Spot Weakness",
     },
+    [18116] = {
+        id = 18116,
+        text = "The mysterious and elegant violet in the basket is highly ornamental.",
+    },
     [11101112] = {
         id = 11101112,
         text = "Lethal Speed",
     },
+    [470043] = {
+        id = 470043,
+        text = "CD",
+    },
     [11101111] = {
         id = 11101111,
         text = "Army Breaker Expert",
-    },
-    [470044] = {
-        id = 470044,
-        text = "CD",
     },
     [11101110] = {
         id = 11101110,
@@ -41823,13 +41923,13 @@ return {
         id = 63038,
         text = "During the event, you can refresh tasks 1 time for free every 12hr. \nCompleting tasks grants massive rewards. \nCompleting Date tasks grants CG fragments. Collect them to unlock CGs.",
     },
+    [470044] = {
+        id = 470044,
+        text = "CD",
+    },
     [11101107] = {
         id = 11101107,
         text = "Munitions Supply",
-    },
-    [470045] = {
-        id = 470045,
-        text = "CD",
     },
     [11101106] = {
         id = 11101106,
@@ -41839,17 +41939,29 @@ return {
         id = 11101105,
         text = "Archnemesis",
     },
+    [470045] = {
+        id = 470045,
+        text = "CD",
+    },
     [11101104] = {
         id = 11101104,
+        text = "Spot Weakness: Elite",
+    },
+    [11101103] = {
+        id = 11101103,
+        text = "Spot Weakness: Elite",
+    },
+    [11101102] = {
+        id = 11101102,
         text = "Spot Weakness: Elite",
     },
     [470046] = {
         id = 470046,
         text = "CD",
     },
-    [11101103] = {
-        id = 11101103,
-        text = "Spot Weakness: Elite",
+    [16018] = {
+        id = 16018,
+        text = "Mana Takamiya - DEM Murakumo Form fragment, used to activate DEM Mana or increase her capability.",
     },
     [100000059] = {
         id = 100000059,
@@ -41883,8 +41995,8 @@ return {
         id = 100000299,
         text = "在精灵试炼中战胜%s次芬里尔真那",
     },
-    [11101095] = {
-        id = 11101095,
+    [11101093] = {
+        id = 11101093,
         text = "Ignore Defense",
     },
     [30916] = {
@@ -41895,13 +42007,13 @@ return {
         id = 470049,
         text = "Endurance",
     },
-    [11101094] = {
-        id = 11101094,
+    [11101092] = {
+        id = 11101092,
         text = "Ignore Defense",
     },
-    [11101093] = {
-        id = 11101093,
-        text = "Ignore Defense",
+    [11101091] = {
+        id = 11101091,
+        text = "Precise Pursuit",
     },
     [1022001] = {
         id = 1022001,
@@ -41915,9 +42027,9 @@ return {
         id = 1022002,
         text = "Time to take a nap~",
     },
-    [11101092] = {
-        id = 11101092,
-        text = "Ignore Defense",
+    [11101090] = {
+        id = 11101090,
+        text = "Precise Pursuit",
     },
     [1022003] = {
         id = 1022003,
@@ -41927,21 +42039,9 @@ return {
         id = 470051,
         text = "Endurance",
     },
-    [11101091] = {
-        id = 11101091,
-        text = "Precise Pursuit",
-    },
-    [11101090] = {
-        id = 11101090,
-        text = "Precise Pursuit",
-    },
     [11101089] = {
         id = 11101089,
         text = "Precise Pursuit",
-    },
-    [470052] = {
-        id = 470052,
-        text = "Endurance",
     },
     [11101088] = {
         id = 11101088,
@@ -41951,13 +42051,13 @@ return {
         id = 11101087,
         text = "Tracing: Extreme",
     },
+    [470052] = {
+        id = 470052,
+        text = "Endurance",
+    },
     [11101086] = {
         id = 11101086,
         text = "Pierce",
-    },
-    [470053] = {
-        id = 470053,
-        text = "Endurance",
     },
     [1701531] = {
         id = 1701531,
@@ -41967,13 +42067,13 @@ return {
         id = 11101083,
         text = "Pierce",
     },
+    [470053] = {
+        id = 470053,
+        text = "Endurance",
+    },
     [11101082] = {
         id = 11101082,
         text = "Cost Reduction",
-    },
-    [470054] = {
-        id = 470054,
-        text = "Endurance",
     },
     [11101081] = {
         id = 11101081,
@@ -41982,6 +42082,18 @@ return {
     [11101080] = {
         id = 11101080,
         text = "Cost Reduction",
+    },
+    [470054] = {
+        id = 470054,
+        text = "Endurance",
+    },
+    [11101079] = {
+        id = 11101079,
+        text = "Tracing: Perish",
+    },
+    [11101078] = {
+        id = 11101078,
+        text = "Precision Targeting",
     },
     [1022011] = {
         id = 1022011,
@@ -41995,9 +42107,9 @@ return {
         id = 1022012,
         text = "Today's happy time is over~",
     },
-    [11101079] = {
-        id = 11101079,
-        text = "Tracing: Perish",
+    [441089] = {
+        id = 441089,
+        text = "Pierce Rate +10%, Movement Speed +10%",
     },
     [1022013] = {
         id = 1022013,
@@ -42007,21 +42119,9 @@ return {
         id = 470056,
         text = "Endurance",
     },
-    [11101078] = {
-        id = 11101078,
-        text = "Precision Targeting",
-    },
-    [441089] = {
-        id = 441089,
-        text = "Pierce Rate +10%, Movement Speed +10%",
-    },
     [11101076] = {
         id = 11101076,
         text = "Precision Targeting",
-    },
-    [470057] = {
-        id = 470057,
-        text = "Endurance",
     },
     [11101075] = {
         id = 11101075,
@@ -42031,37 +42131,49 @@ return {
         id = 11101074,
         text = "Army Breaker: Final",
     },
+    [470057] = {
+        id = 470057,
+        text = "Endurance",
+    },
     [11101073] = {
         id = 11101073,
+        text = "Ignore Defense",
+    },
+    [11101072] = {
+        id = 11101072,
+        text = "Ignore Defense",
+    },
+    [11101071] = {
+        id = 11101071,
         text = "Ignore Defense",
     },
     [17093] = {
         id = 17093,
         text = "Mint Matcha Tea [Delicious]",
     },
-    [11101072] = {
-        id = 11101072,
+    [11101070] = {
+        id = 11101070,
         text = "Ignore Defense",
     },
     [18117] = {
         id = 18117,
         text = "Romantic Violet [Fine]",
     },
-    [11101071] = {
-        id = 11101071,
-        text = "Ignore Defense",
+    [1310295] = {
+        id = 1310295,
+        text = "Yamai Tempest - Continued 19",
     },
     [470059] = {
         id = 470059,
         text = "Time",
     },
-    [11101070] = {
-        id = 11101070,
-        text = "Ignore Defense",
+    [11101068] = {
+        id = 11101068,
+        text = "Pierce",
     },
-    [1310295] = {
-        id = 1310295,
-        text = "Yamai Tempest - Continued 19",
+    [11101067] = {
+        id = 11101067,
+        text = "Pierce",
     },
     [1022021] = {
         id = 1022021,
@@ -42075,8 +42187,8 @@ return {
         id = 1022022,
         text = "Let me take that for you~",
     },
-    [11101068] = {
-        id = 11101068,
+    [11101066] = {
+        id = 11101066,
         text = "Pierce",
     },
     [1022023] = {
@@ -42087,21 +42199,9 @@ return {
         id = 470061,
         text = "Time",
     },
-    [11101067] = {
-        id = 11101067,
-        text = "Pierce",
-    },
-    [11101066] = {
-        id = 11101066,
-        text = "Pierce",
-    },
     [11101065] = {
         id = 11101065,
         text = "Army Breaker: Extreme",
-    },
-    [470062] = {
-        id = 470062,
-        text = "Time",
     },
     [11101064] = {
         id = 11101064,
@@ -42111,13 +42211,13 @@ return {
         id = 11101063,
         text = "Spot Weakness: Spirit",
     },
+    [470062] = {
+        id = 470062,
+        text = "Time",
+    },
     [11101062] = {
         id = 11101062,
         text = "Spot Weakness: Spirit",
-    },
-    [470063] = {
-        id = 470063,
-        text = "Time",
     },
     [1701535] = {
         id = 1701535,
@@ -42127,13 +42227,13 @@ return {
         id = 11101060,
         text = "Cost Reduction",
     },
+    [470063] = {
+        id = 470063,
+        text = "Time",
+    },
     [11101059] = {
         id = 11101059,
         text = "Cost Reduction",
-    },
-    [470064] = {
-        id = 470064,
-        text = "Time",
     },
     [11101058] = {
         id = 11101058,
@@ -42141,6 +42241,18 @@ return {
     },
     [11101057] = {
         id = 11101057,
+        text = "Enhance",
+    },
+    [470064] = {
+        id = 470064,
+        text = "Time",
+    },
+    [11101056] = {
+        id = 11101056,
+        text = "Enhance",
+    },
+    [11101055] = {
+        id = 11101055,
         text = "Enhance",
     },
     [1022031] = {
@@ -42155,9 +42267,9 @@ return {
         id = 1022032,
         text = "It's cleaner now~",
     },
-    [11101056] = {
-        id = 11101056,
-        text = "Enhance",
+    [11101054] = {
+        id = 11101054,
+        text = "Army Breaker: Perish",
     },
     [1022033] = {
         id = 1022033,
@@ -42167,21 +42279,9 @@ return {
         id = 470066,
         text = "Time",
     },
-    [11101055] = {
-        id = 11101055,
-        text = "Enhance",
-    },
-    [11101054] = {
-        id = 11101054,
-        text = "Army Breaker: Perish",
-    },
     [11101053] = {
         id = 11101053,
         text = "Spot Weakness: Elite",
-    },
-    [470067] = {
-        id = 470067,
-        text = "Rage",
     },
     [11101051] = {
         id = 11101051,
@@ -42191,13 +42291,13 @@ return {
         id = 11101050,
         text = "Inverted Cloud: Final",
     },
+    [470067] = {
+        id = 470067,
+        text = "Rage",
+    },
     [11101049] = {
         id = 11101049,
         text = "Enhance",
-    },
-    [470068] = {
-        id = 470068,
-        text = "Rage",
     },
     [11101048] = {
         id = 11101048,
@@ -42207,16 +42307,28 @@ return {
         id = 11101047,
         text = "Enhance",
     },
+    [470068] = {
+        id = 470068,
+        text = "Rage",
+    },
     [11101046] = {
         id = 11101046,
         text = "Enhance",
+    },
+    [11101045] = {
+        id = 11101045,
+        text = "Defense Breaker",
+    },
+    [11101043] = {
+        id = 11101043,
+        text = "Defense Breaker",
     },
     [470069] = {
         id = 470069,
         text = "Rage",
     },
-    [11101045] = {
-        id = 11101045,
+    [11101042] = {
+        id = 11101042,
         text = "Defense Breaker",
     },
     [12131] = {
@@ -42247,21 +42359,9 @@ return {
         id = 470071,
         text = "Rage",
     },
-    [11101043] = {
-        id = 11101043,
-        text = "Defense Breaker",
-    },
-    [11101042] = {
-        id = 11101042,
-        text = "Defense Breaker",
-    },
     [11101041] = {
         id = 11101041,
         text = "Haste",
-    },
-    [470072] = {
-        id = 470072,
-        text = "Rage",
     },
     [11101040] = {
         id = 11101040,
@@ -42271,13 +42371,13 @@ return {
         id = 11101039,
         text = "Haste",
     },
+    [470072] = {
+        id = 470072,
+        text = "Rage",
+    },
     [11101038] = {
         id = 11101038,
         text = "Haste",
-    },
-    [470073] = {
-        id = 470073,
-        text = "Rage",
     },
     [441076] = {
         id = 441076,
@@ -42287,16 +42387,28 @@ return {
         id = 11101035,
         text = "Pierce",
     },
+    [470073] = {
+        id = 470073,
+        text = "Rage",
+    },
     [11101034] = {
         id = 11101034,
         text = "Pierce",
+    },
+    [11101033] = {
+        id = 11101033,
+        text = "Cost Reduction",
+    },
+    [11101032] = {
+        id = 11101032,
+        text = "Cost Reduction",
     },
     [17094] = {
         id = 17094,
         text = "Delicious Food. The ice-cold mint matcha tea is popular in summer.",
     },
-    [11101033] = {
-        id = 11101033,
+    [11101031] = {
+        id = 11101031,
         text = "Cost Reduction",
     },
     [18118] = {
@@ -42315,9 +42427,9 @@ return {
         id = 1022052,
         text = "OK, let me pack it up for you~",
     },
-    [11101032] = {
-        id = 11101032,
-        text = "Cost Reduction",
+    [11101030] = {
+        id = 11101030,
+        text = "Inverted Cloud: Perish",
     },
     [1022053] = {
         id = 1022053,
@@ -42327,21 +42439,9 @@ return {
         id = 470076,
         text = "Wind Energy",
     },
-    [11101031] = {
-        id = 11101031,
-        text = "Cost Reduction",
-    },
-    [11101030] = {
-        id = 11101030,
-        text = "Inverted Cloud: Perish",
-    },
     [1310294] = {
         id = 1310294,
         text = "Yamai Tempest - Continued 18",
-    },
-    [470077] = {
-        id = 470077,
-        text = "Wind Energy",
     },
     [11101028] = {
         id = 11101028,
@@ -42351,13 +42451,13 @@ return {
         id = 11101027,
         text = "Energy Backup",
     },
+    [470077] = {
+        id = 470077,
+        text = "Wind Energy",
+    },
     [11101026] = {
         id = 11101026,
         text = "Energy Backup",
-    },
-    [470078] = {
-        id = 470078,
-        text = "Wind Energy",
     },
     [11101025] = {
         id = 11101025,
@@ -42367,13 +42467,13 @@ return {
         id = 11101024,
         text = "Spot Weakness: Spirit",
     },
+    [470078] = {
+        id = 470078,
+        text = "Wind Energy",
+    },
     [11101023] = {
         id = 11101023,
         text = "Spot Weakness: Spirit",
-    },
-    [470079] = {
-        id = 470079,
-        text = "Wind Energy",
     },
     [11101022] = {
         id = 11101022,
@@ -42382,6 +42482,18 @@ return {
     [11101021] = {
         id = 11101021,
         text = "Spot Weakness: Spirit",
+    },
+    [470079] = {
+        id = 470079,
+        text = "Wind Energy",
+    },
+    [11101020] = {
+        id = 11101020,
+        text = "Pierce",
+    },
+    [11101019] = {
+        id = 11101019,
+        text = "Pierce",
     },
     [1022061] = {
         id = 1022061,
@@ -42395,8 +42507,8 @@ return {
         id = 1022062,
         text = "This brand has good reputation~",
     },
-    [11101020] = {
-        id = 11101020,
+    [11101018] = {
+        id = 11101018,
         text = "Pierce",
     },
     [1022063] = {
@@ -42407,21 +42519,9 @@ return {
         id = 470081,
         text = "Wind Energy",
     },
-    [11101019] = {
-        id = 11101019,
-        text = "Pierce",
-    },
-    [11101018] = {
-        id = 11101018,
-        text = "Pierce",
-    },
     [11101017] = {
         id = 11101017,
         text = "Wolf Tail: Extreme",
-    },
-    [470082] = {
-        id = 470082,
-        text = "Wind Energy",
     },
     [11101016] = {
         id = 11101016,
@@ -42431,13 +42531,13 @@ return {
         id = 11101015,
         text = "Spot Weakness: Elite",
     },
+    [470082] = {
+        id = 470082,
+        text = "Wind Energy",
+    },
     [11101014] = {
         id = 11101014,
         text = "Spot Weakness: Elite",
-    },
-    [470083] = {
-        id = 470083,
-        text = "Wind Energy",
     },
     [63037] = {
         id = 63037,
@@ -42447,13 +42547,13 @@ return {
         id = 11101012,
         text = "Enhance",
     },
+    [470083] = {
+        id = 470083,
+        text = "Wind Energy",
+    },
     [11101011] = {
         id = 11101011,
         text = "Enhance",
-    },
-    [470084] = {
-        id = 470084,
-        text = "Wind Energy",
     },
     [11101010] = {
         id = 11101010,
@@ -42463,13 +42563,13 @@ return {
         id = 11101009,
         text = "ATK Speed",
     },
+    [470084] = {
+        id = 470084,
+        text = "Wind Energy",
+    },
     [11101008] = {
         id = 11101008,
         text = "ATK Speed",
-    },
-    [470085] = {
-        id = 470085,
-        text = "Wind Energy",
     },
     [11101007] = {
         id = 11101007,
@@ -42479,13 +42579,13 @@ return {
         id = 11101006,
         text = "ATK Speed",
     },
+    [470085] = {
+        id = 470085,
+        text = "Wind Energy",
+    },
     [1701539] = {
         id = 1701539,
         text = "Remember to arrive in time, this is an order.",
-    },
-    [470086] = {
-        id = 470086,
-        text = "Wind Energy",
     },
     [11101004] = {
         id = 11101004,
@@ -42495,13 +42595,13 @@ return {
         id = 11101003,
         text = "Awakening Lv.3",
     },
+    [470086] = {
+        id = 470086,
+        text = "Wind Energy",
+    },
     [11101002] = {
         id = 11101002,
         text = "Awakening Lv.2",
-    },
-    [470087] = {
-        id = 470087,
-        text = "Wind Energy",
     },
     [11101001] = {
         id = 11101001,
@@ -42511,13 +42611,13 @@ return {
         id = 11003116,
         text = "When Miku and teammates enter the battlefield, gains +10% ATK and 20% DEF. Lasts 8s. \n[Take effect when: Takes effects when Miku is in the team, whether she is fighting or not. ]",
     },
+    [470087] = {
+        id = 470087,
+        text = "Wind Energy",
+    },
     [11003115] = {
         id = 11003115,
         text = "Miku and Teammates' ATK +10%, Crit Rate +5% \n[Take effect when: Takes effects when Miku is in the team, whether she is fighting or not. ]",
-    },
-    [470088] = {
-        id = 470088,
-        text = "Energy",
     },
     [11003114] = {
         id = 11003114,
@@ -42527,13 +42627,13 @@ return {
         id = 11003113,
         text = "During Miku's burst, she gains +15% ATK and DEF.",
     },
+    [470088] = {
+        id = 470088,
+        text = "Energy",
+    },
     [11003112] = {
         id = 11003112,
         text = "During Miku's burst, reduces targets' Movement Speed by -25% for 1s on hit. Cannot stack.",
-    },
-    [470089] = {
-        id = 470089,
-        text = "Energy",
     },
     [11003111] = {
         id = 11003111,
@@ -42543,45 +42643,45 @@ return {
         id = 11003110,
         text = "During the burst, Miku and her teammates restore 5% max HP every 3s. \n[Take effect when: Miku is in the burst status. ]",
     },
+    [470089] = {
+        id = 470089,
+        text = "Energy",
+    },
     [11003109] = {
         id = 11003109,
         text = "Reduces target's DEF by -20% on hit. Lasts 3s. Cannot stack.",
-    },
-    [470090] = {
-        id = 470090,
-        text = "Energy",
     },
     [265607] = {
         id = 265607,
         text = "You can exchange this avatar only in the 2019 Christmas event!",
     },
-    [18119] = {
-        id = 18119,
-        text = "Romantic Violet [Perfect]",
-    },
     [11003107] = {
         id = 11003107,
         text = "Every time Miku uses a skill, Miku and her teammates gains Dodge Rate/Hit Rate +25%/20% respectively. Lasts 5s.",
     },
-    [470091] = {
-        id = 470091,
+    [470090] = {
+        id = 470090,
         text = "Energy",
     },
     [11003106] = {
         id = 11003106,
         text = "Charmed units take 50% of DMG received by Miku.",
     },
+    [18119] = {
+        id = 18119,
+        text = "Romantic Violet [Perfect]",
+    },
     [11003105] = {
         id = 11003105,
         text = "Each charmed unit provides Miku and her teammates 8% ATK and 8% DEF.",
     },
+    [470091] = {
+        id = 470091,
+        text = "Energy",
+    },
     [11003104] = {
         id = 11003104,
         text = "Units in the charmed status explores 1 time upon death.",
-    },
-    [470092] = {
-        id = 470092,
-        text = "Energy",
     },
     [11003103] = {
         id = 11003103,
@@ -42591,13 +42691,13 @@ return {
         id = 11003102,
         text = "Charmed Units enjoy ATK/DEF +30%/30%, plus Movement Speed/ATK Speed +20%/20%.",
     },
+    [470092] = {
+        id = 470092,
+        text = "Energy",
+    },
     [11003101] = {
         id = 11003101,
         text = "Has a +20% chance to inflict 1 layer of Lure to targets on hit. \n[Lure for 10s. Charm targets for 8s on stack 3. Charmed targets will help Miku attack others. Bosses are immune to Charm. ]",
-    },
-    [470093] = {
-        id = 470093,
-        text = "Energy",
     },
     [11003100] = {
         id = 11003100,
@@ -42607,13 +42707,13 @@ return {
         id = 11003099,
         text = "Using [Rondo] has a 15% chance to grant 1 note energy.",
     },
+    [470093] = {
+        id = 470093,
+        text = "Energy",
+    },
     [11003098] = {
         id = 11003098,
         text = "Using [Rondo] has a 10% chance to grant 1 note energy.",
-    },
-    [470094] = {
-        id = 470094,
-        text = "Energy",
     },
     [11003097] = {
         id = 11003097,
@@ -42623,13 +42723,13 @@ return {
         id = 11003096,
         text = "[Rondo] The light circle drops 7 notes in total within the range. \nEach note ball inflicts Spiritual DMG equal to 21% ATK 1 time on hit.",
     },
+    [470094] = {
+        id = 470094,
+        text = "Energy",
+    },
     [11003095] = {
         id = 11003095,
         text = "[Rondo] Skill DMG +20%.",
-    },
-    [470095] = {
-        id = 470095,
-        text = "Energy",
     },
     [11003094] = {
         id = 11003094,
@@ -42639,13 +42739,13 @@ return {
         id = 10601070,
         text = "ATK Speed",
     },
+    [470095] = {
+        id = 470095,
+        text = "Energy",
+    },
     [265606] = {
         id = 265606,
         text = "Join the [Heart of Princess] event to obtain it",
-    },
-    [470096] = {
-        id = 470096,
-        text = "Energy",
     },
     [11003091] = {
         id = 11003091,
@@ -42655,13 +42755,13 @@ return {
         id = 11003090,
         text = "[Rondo] Skill CD -1s.",
     },
+    [470096] = {
+        id = 470096,
+        text = "Energy",
+    },
     [11003089] = {
         id = 11003089,
         text = "[Rondo] Skill CD -0.5s.",
-    },
-    [470097] = {
-        id = 470097,
-        text = "Despair",
     },
     [11003088] = {
         id = 11003088,
@@ -42671,13 +42771,13 @@ return {
         id = 11003087,
         text = "[Rondo] Has a 16% chance to stun targets for 2s on hit.",
     },
+    [470097] = {
+        id = 470097,
+        text = "Despair",
+    },
     [11003086] = {
         id = 11003086,
         text = "[Rondo] Has a 12% chance to stun targets for 2s on hit.",
-    },
-    [470098] = {
-        id = 470098,
-        text = "Despair",
     },
     [10601071] = {
         id = 10601071,
@@ -42687,13 +42787,13 @@ return {
         id = 11003084,
         text = "[Rondo] Has a 4% chance to stun targets for 2s on hit.",
     },
+    [470098] = {
+        id = 470098,
+        text = "Despair",
+    },
     [11003083] = {
         id = 11003083,
         text = "[Rondo] Inflicts +12% DMG to common enemies.",
-    },
-    [470099] = {
-        id = 470099,
-        text = "Despair",
     },
     [11003082] = {
         id = 11003082,
@@ -42702,6 +42802,18 @@ return {
     [11003081] = {
         id = 11003081,
         text = "[Rondo] Inflicts +4% DMG to common enemies.",
+    },
+    [470099] = {
+        id = 470099,
+        text = "Despair",
+    },
+    [11003080] = {
+        id = 11003080,
+        text = "After [Concerto], leaves light circle on the ground to inflict damage over time to enemies near it. \nInflicts damage up to 10 times, dealing Spiritual DMG equal to 25% of Miku's ATK.",
+    },
+    [11003079] = {
+        id = 11003079,
+        text = "[Concerto] Using it increases +20% Def for 6s.",
     },
     [1022101] = {
         id = 1022101,
@@ -42715,9 +42827,9 @@ return {
         id = 1022102,
         text = "Do you want to try the haunted house?",
     },
-    [11003080] = {
-        id = 11003080,
-        text = "After [Concerto], leaves light circle on the ground to inflict damage over time to enemies near it. \nInflicts damage up to 10 times, dealing Spiritual DMG equal to 25% of Miku's ATK.",
+    [11003078] = {
+        id = 11003078,
+        text = "[Concerto] Using it increases +15% Def for 6s.",
     },
     [1022103] = {
         id = 1022103,
@@ -42727,17 +42839,17 @@ return {
         id = 470101,
         text = "Despair",
     },
-    [11003079] = {
-        id = 11003079,
-        text = "[Concerto] Using it increases +20% Def for 6s.",
+    [10601072] = {
+        id = 10601072,
+        text = "ATK Speed",
     },
     [12132] = {
         id = 12132,
         text = "Bakery - Work 10",
     },
-    [11003078] = {
-        id = 11003078,
-        text = "[Concerto] Using it increases +15% Def for 6s.",
+    [27098] = {
+        id = 27098,
+        text = "Exclusive Keepsake for the Maid Café. Modified maid outfit, blue white color plus a big bow tie, does that fit your concept of moe?",
     },
     [470102] = {
         id = 470102,
@@ -42751,29 +42863,17 @@ return {
         id = 13156,
         text = "Dispatch Reward 14",
     },
-    [10601072] = {
-        id = 10601072,
-        text = "ATK Speed",
+    [11003075] = {
+        id = 11003075,
+        text = "[Concerto] Has a 15% chance to reduces enemies' Anti Crit by 15% for 5s on hit.",
     },
     [470103] = {
         id = 470103,
         text = "Despair",
     },
-    [27098] = {
-        id = 27098,
-        text = "Exclusive Keepsake for the Maid Café. Modified maid outfit, blue white color plus a big bow tie, does that fit your concept of moe?",
-    },
-    [11003075] = {
-        id = 11003075,
-        text = "[Concerto] Has a 15% chance to reduces enemies' Anti Crit by 15% for 5s on hit.",
-    },
     [11003074] = {
         id = 11003074,
         text = "[Concerto] Has a 10% chance to reduces enemies' Anti Crit by 15% for 5s on hit.",
-    },
-    [470104] = {
-        id = 470104,
-        text = "Despair",
     },
     [11003073] = {
         id = 11003073,
@@ -42782,6 +42882,18 @@ return {
     [11003072] = {
         id = 11003072,
         text = "[Concerto] Has a +20% chance to lure targets on hit. \n[Lure for 10s. Charm targets for 8s on stack 3. Charmed targets will help Miku attack others. Bosses are immune to Charm. ]",
+    },
+    [470104] = {
+        id = 470104,
+        text = "Despair",
+    },
+    [11003071] = {
+        id = 11003071,
+        text = "[Concerto] Has a +15% chance to lure targets on hit. \n[Lure for 10s. Charm targets for 8s on stack 3. Charmed targets will help Miku attack others. Bosses are immune to Charm. ]",
+    },
+    [11003070] = {
+        id = 11003070,
+        text = "[Concerto] Has a +10% chance to lure targets on hit. \n[Lure for 10s. Charm targets for 8s on stack 3. Charmed targets will help Miku attack others. Bosses are immune to Charm. ]",
     },
     [1022111] = {
         id = 1022111,
@@ -42795,9 +42907,9 @@ return {
         id = 1022112,
         text = "Remember to fasten the seat belt~",
     },
-    [11003071] = {
-        id = 11003071,
-        text = "[Concerto] Has a +15% chance to lure targets on hit. \n[Lure for 10s. Charm targets for 8s on stack 3. Charmed targets will help Miku attack others. Bosses are immune to Charm. ]",
+    [10601073] = {
+        id = 10601073,
+        text = "Cloud Piercer: Final",
     },
     [1022113] = {
         id = 1022113,
@@ -42807,37 +42919,25 @@ return {
         id = 17096,
         text = "Exceptional Food. The ice-cold mint matcha tea is popular in summer.",
     },
-    [11003070] = {
-        id = 11003070,
-        text = "[Concerto] Has a +10% chance to lure targets on hit. \n[Lure for 10s. Charm targets for 8s on stack 3. Charmed targets will help Miku attack others. Bosses are immune to Charm. ]",
+    [11003068] = {
+        id = 11003068,
+        text = "[Concerto] Inflicts +12% DMG to common enemies.",
     },
     [18120] = {
         id = 18120,
         text = "Perfect crafted item. The mysterious and elegant violet in the basket is highly ornamental.",
     },
-    [10601073] = {
-        id = 10601073,
-        text = "Cloud Piercer: Final",
+    [11003067] = {
+        id = 11003067,
+        text = "[Concerto] Inflicts +8% DMG to common enemies.",
     },
     [470107] = {
         id = 470107,
         text = "Faith",
     },
-    [11003068] = {
-        id = 11003068,
-        text = "[Concerto] Inflicts +12% DMG to common enemies.",
-    },
-    [11003067] = {
-        id = 11003067,
-        text = "[Concerto] Inflicts +8% DMG to common enemies.",
-    },
     [11003066] = {
         id = 11003066,
         text = "[Concerto] Inflicts +4% DMG to common enemies.",
-    },
-    [470108] = {
-        id = 470108,
-        text = "Faith",
     },
     [11003065] = {
         id = 11003065,
@@ -42847,9 +42947,21 @@ return {
         id = 11003064,
         text = "[Concerto] Skill ATK Speed +20%.",
     },
+    [470108] = {
+        id = 470108,
+        text = "Faith",
+    },
     [11003063] = {
         id = 11003063,
         text = "[Concerto] Skill ATK Speed +15%.",
+    },
+    [11003062] = {
+        id = 11003062,
+        text = "[Concerto] Skill ATK Speed +10%.",
+    },
+    [10601074] = {
+        id = 10601074,
+        text = "CD Reduce",
     },
     [470109] = {
         id = 470109,
@@ -42903,21 +43015,9 @@ return {
         id = 470112,
         text = "Faith",
     },
-    [11003062] = {
-        id = 11003062,
-        text = "[Concerto] Skill ATK Speed +10%.",
-    },
-    [10601074] = {
-        id = 10601074,
-        text = "CD Reduce",
-    },
     [265567] = {
         id = 265567,
         text = "Get the Astral Dress - \"Christmas Eve Witch\" to activate this avatar",
-    },
-    [470113] = {
-        id = 470113,
-        text = "Faith",
     },
     [11003059] = {
         id = 11003059,
@@ -42927,13 +43027,13 @@ return {
         id = 11003058,
         text = "[Concerto] Skill CD -0.5s.",
     },
+    [470113] = {
+        id = 470113,
+        text = "Faith",
+    },
     [11003057] = {
         id = 11003057,
         text = "[Concerto] ATK Range +20%. \nInflicts Spiritual DMG equal to 220% ATK.",
-    },
-    [470114] = {
-        id = 470114,
-        text = "Faith",
     },
     [11003056] = {
         id = 11003056,
@@ -42943,33 +43043,37 @@ return {
         id = 11003055,
         text = "Using [Concerto] increases her DEF/ANTI Crit by 30%/9% respectively. Lasts 5s.",
     },
-    [1022131] = {
-        id = 1022131,
-        text = "That is really trilling~",
+    [470114] = {
+        id = 470114,
+        text = "Faith",
     },
     [11003054] = {
         id = 11003054,
         text = "Using [Concerto] increases her DEF/ANTI Crit by 20%/6% respectively. Lasts 5s.",
     },
-    [1022132] = {
-        id = 1022132,
-        text = "Kids zone is this way~",
-    },
     [11003053] = {
         id = 11003053,
         text = "Using [Concerto] increases her DEF/ANTI Crit by 10%/3% respectively. Lasts 5s.",
     },
-    [1022133] = {
-        id = 1022133,
-        text = "Please take your gift~",
+    [1022131] = {
+        id = 1022131,
+        text = "That is really trilling~",
     },
     [11003052] = {
         id = 11003052,
         text = "[March] Has a 10% chance to gain +20% Movement Speed for 5s on hit.",
     },
+    [1022132] = {
+        id = 1022132,
+        text = "Kids zone is this way~",
+    },
     [11003051] = {
         id = 11003051,
         text = "[March] Has a 10% chance to gain +15% Movement Speed for 5s on hit.",
+    },
+    [1022133] = {
+        id = 1022133,
+        text = "Please take your gift~",
     },
     [11003050] = {
         id = 11003050,
@@ -43023,33 +43127,33 @@ return {
         id = 11003038,
         text = "[March] Skill DMG +15%.",
     },
-    [1022141] = {
-        id = 1022141,
-        text = "You can win prizes if you hit the target~",
-    },
     [11003037] = {
         id = 11003037,
         text = "[March] Skill DMG +10%.",
-    },
-    [1022142] = {
-        id = 1022142,
-        text = "This doll is your prize~",
     },
     [11003036] = {
         id = 11003036,
         text = "[March] Skill DMG +5%.",
     },
-    [1022143] = {
-        id = 1022143,
-        text = "That is~ roller coaster~",
+    [1022141] = {
+        id = 1022141,
+        text = "You can win prizes if you hit the target~",
     },
     [11003035] = {
         id = 11003035,
         text = "[March] Skill CD -1.5s.",
     },
+    [1022142] = {
+        id = 1022142,
+        text = "This doll is your prize~",
+    },
     [11003034] = {
         id = 11003034,
         text = "[March] Skill CD -1s.",
+    },
+    [1022143] = {
+        id = 1022143,
+        text = "That is~ roller coaster~",
     },
     [11003033] = {
         id = 11003033,
@@ -43059,25 +43163,25 @@ return {
         id = 11003032,
         text = "[March] The sonic orb explodes within a small area when it ends. \nInflicts Spiritual DMG equal to 180% ATK.",
     },
-    [17097] = {
-        id = 17097,
-        text = "Green Beauty",
-    },
     [11003031] = {
         id = 11003031,
         text = "[March] Inflicts +12% DMG to common enemies.",
-    },
-    [18121] = {
-        id = 18121,
-        text = "Mixed Roses Decoration",
     },
     [11003030] = {
         id = 11003030,
         text = "[March] Inflicts +8% DMG to common enemies.",
     },
+    [17097] = {
+        id = 17097,
+        text = "Green Beauty",
+    },
     [10601077] = {
         id = 10601077,
         text = "Rage",
+    },
+    [18121] = {
+        id = 18121,
+        text = "Mixed Roses Decoration",
     },
     [265561] = {
         id = 265561,
@@ -43103,33 +43207,33 @@ return {
         id = 11003023,
         text = "[Gabriel] Inflicts +12% DMG to common enemies.",
     },
-    [1022151] = {
-        id = 1022151,
-        text = "You are too young for this~",
-    },
     [11003022] = {
         id = 11003022,
         text = "[Gabriel] Inflicts +8% DMG to common enemies.",
-    },
-    [1022152] = {
-        id = 1022152,
-        text = "Please close the door~",
     },
     [10601078] = {
         id = 10601078,
         text = "Rage",
     },
-    [1022153] = {
-        id = 1022153,
-        text = "The circus show is on~",
+    [1022151] = {
+        id = 1022151,
+        text = "You are too young for this~",
     },
     [11003020] = {
         id = 11003020,
         text = "[Gabriel] Killing a target restores 5% max HP.",
     },
+    [1022152] = {
+        id = 1022152,
+        text = "Please close the door~",
+    },
     [11003019] = {
         id = 11003019,
         text = "[Gabriel] Killing a target restores 3% max HP.",
+    },
+    [1022153] = {
+        id = 1022153,
+        text = "The circus show is on~",
     },
     [11003018] = {
         id = 11003018,
@@ -43183,33 +43287,33 @@ return {
         id = 27096,
         text = "Exclusive Keepsake for the Maid Café. Traditional British maid outfit, the black dress combined with white apron, practical and classic.",
     },
-    [1022161] = {
-        id = 1022161,
-        text = "The next program is ring of fire with lion~",
-    },
     [10601080] = {
         id = 10601080,
         text = "Rage",
-    },
-    [1022162] = {
-        id = 1022162,
-        text = "No interaction with animals",
     },
     [11003004] = {
         id = 11003004,
         text = "Summons Gabriel to inflict Spiritual DMG equal to 1500% ATK to all enemies on the screen 1 time.",
     },
-    [1022163] = {
-        id = 1022163,
-        text = "Thanks for your applause~",
+    [1022161] = {
+        id = 1022161,
+        text = "The next program is ring of fire with lion~",
     },
     [10601081] = {
         id = 10601081,
         text = "Lightning Strike Gallery: Perish",
     },
+    [1022162] = {
+        id = 1022162,
+        text = "No interaction with animals",
+    },
     [1701027] = {
         id = 1701027,
         text = "08/26/2020 – 09/05/2020",
+    },
+    [1022163] = {
+        id = 1022163,
+        text = "Thanks for your applause~",
     },
     [10601082] = {
         id = 10601082,
@@ -43243,10 +43347,6 @@ return {
         id = 11001110,
         text = "Healing Note",
     },
-    [12133] = {
-        id = 12133,
-        text = "Beverage Store - Work 1",
-    },
     [10701044] = {
         id = 10701044,
         text = "Sunder Armor",
@@ -43255,13 +43355,9 @@ return {
         id = 1021921,
         text = "OK, let me take it for you.",
     },
-    [12901] = {
-        id = 12901,
-        text = "ATK +10%, DEF +10%",
-    },
-    [13157] = {
-        id = 13157,
-        text = "Dispatch Reward 15",
+    [12133] = {
+        id = 12133,
+        text = "Beverage Store - Work 1",
     },
     [11001107] = {
         id = 11001107,
@@ -43270,6 +43366,14 @@ return {
     [11001106] = {
         id = 11001106,
         text = "Soul Concerto",
+    },
+    [12901] = {
+        id = 12901,
+        text = "ATK +10%, DEF +10%",
+    },
+    [13157] = {
+        id = 13157,
+        text = "Dispatch Reward 15",
     },
     [11001105] = {
         id = 11001105,
@@ -43315,25 +43419,25 @@ return {
         id = 11001095,
         text = "Enhance",
     },
-    [17098] = {
-        id = 17098,
-        text = "The mixed drink of avocado and vegetable is good-looking and tasty",
-    },
     [11001094] = {
         id = 11001094,
         text = "Enhance",
-    },
-    [18122] = {
-        id = 18122,
-        text = "The bouquet made of several kinds of roses gives a whole room a sweet vibe.",
     },
     [11001093] = {
         id = 11001093,
         text = "Enhance",
     },
+    [17098] = {
+        id = 17098,
+        text = "The mixed drink of avocado and vegetable is good-looking and tasty",
+    },
     [1021923] = {
         id = 1021923,
         text = "Please pay the bill here.",
+    },
+    [18122] = {
+        id = 18122,
+        text = "The bouquet made of several kinds of roses gives a whole room a sweet vibe.",
     },
     [11001091] = {
         id = 11001091,
@@ -43503,37 +43607,33 @@ return {
         id = 11001050,
         text = "Movement Speed",
     },
-    [1022201] = {
-        id = 1022201,
-        text = "Want to experience night attractions?",
-    },
     [11001049] = {
         id = 11001049,
         text = "March: Final",
-    },
-    [1022202] = {
-        id = 1022202,
-        text = "The haunted house is more horrible at midnight~",
     },
     [11001048] = {
         id = 11001048,
         text = "Weakening",
     },
-    [1022203] = {
-        id = 1022203,
-        text = "Customer, what are you looking for?",
+    [1022201] = {
+        id = 1022201,
+        text = "Want to experience night attractions?",
     },
     [11001047] = {
         id = 11001047,
         text = "Weakening",
     },
+    [1022202] = {
+        id = 1022202,
+        text = "The haunted house is more horrible at midnight~",
+    },
     [11001046] = {
         id = 11001046,
         text = "Weakening",
     },
-    [421001] = {
-        id = 421001,
-        text = "Max HP +%.2f%%",
+    [1022203] = {
+        id = 1022203,
+        text = "Customer, what are you looking for?",
     },
     [10701049] = {
         id = 10701049,
@@ -43543,13 +43643,13 @@ return {
         id = 450003,
         text = "Ddg.",
     },
+    [421001] = {
+        id = 421001,
+        text = "Max HP +%.2f%%",
+    },
     [11001043] = {
         id = 11001043,
         text = "Pierce",
-    },
-    [421002] = {
-        id = 421002,
-        text = "ATK +%.2f%%",
     },
     [11001042] = {
         id = 11001042,
@@ -43559,24 +43659,36 @@ return {
         id = 11001041,
         text = "Pierce",
     },
+    [421002] = {
+        id = 421002,
+        text = "ATK +%.2f%%",
+    },
     [11001040] = {
         id = 11001040,
         text = "March: Extreme",
+    },
+    [11001039] = {
+        id = 11001039,
+        text = "Enhance",
+    },
+    [11001038] = {
+        id = 11001038,
+        text = "Enhance",
     },
     [421003] = {
         id = 421003,
         text = "DEF +%.2f%%",
     },
-    [11001039] = {
-        id = 11001039,
+    [11001037] = {
+        id = 11001037,
         text = "Enhance",
     },
     [17099] = {
         id = 17099,
         text = "Green Beauty [Delicious]",
     },
-    [11001038] = {
-        id = 11001038,
+    [11001036] = {
+        id = 11001036,
         text = "Enhance",
     },
     [18123] = {
@@ -43587,33 +43699,21 @@ return {
         id = 1022211,
         text = "Please show your ticket~",
     },
-    [11001037] = {
-        id = 11001037,
-        text = "Enhance",
+    [11001035] = {
+        id = 11001035,
+        text = "CD Reduce",
     },
     [1022212] = {
         id = 1022212,
         text = "Please stay safe~",
     },
-    [11001036] = {
-        id = 11001036,
-        text = "Enhance",
-    },
-    [1022213] = {
-        id = 1022213,
-        text = "Please relax~",
-    },
-    [11001035] = {
-        id = 11001035,
-        text = "CD Reduce",
-    },
     [11001034] = {
         id = 11001034,
         text = "CD Reduce",
     },
-    [421006] = {
-        id = 421006,
-        text = "ATK Speed +%.2f%%",
+    [1022213] = {
+        id = 1022213,
+        text = "Please relax~",
     },
     [11001033] = {
         id = 11001033,
@@ -43623,41 +43723,53 @@ return {
         id = 11001032,
         text = "March: Perish",
     },
+    [421006] = {
+        id = 421006,
+        text = "ATK Speed +%.2f%%",
+    },
     [11001031] = {
         id = 11001031,
+        text = "Spot Weakness",
+    },
+    [11001030] = {
+        id = 11001030,
+        text = "Spot Weakness",
+    },
+    [11001029] = {
+        id = 11001029,
         text = "Spot Weakness",
     },
     [421007] = {
         id = 421007,
         text = "Shield Effects +%.2f%%",
     },
-    [11001030] = {
-        id = 11001030,
-        text = "Spot Weakness",
+    [26031] = {
+        id = 26031,
+        text = "Glamorous Core",
     },
     [290000052] = {
         id = 290000052,
         text = "Miku asked me about the stage design. I took her to the flower shop to find inspiration.",
     },
-    [26031] = {
-        id = 26031,
-        text = "Glamorous Core",
+    [11001026] = {
+        id = 11001026,
+        text = "Lure",
     },
     [421008] = {
         id = 421008,
         text = "Max SP (& initial SP) +%.2f%%",
     },
-    [11001027] = {
-        id = 11001027,
-        text = "Lure",
-    },
-    [11001026] = {
-        id = 11001026,
-        text = "Lure",
-    },
     [11001025] = {
         id = 11001025,
         text = "Lure",
+    },
+    [11001024] = {
+        id = 11001024,
+        text = "Gabriel: Final",
+    },
+    [11001023] = {
+        id = 11001023,
+        text = "Spot Weakness",
     },
     [421009] = {
         id = 421009,
@@ -43667,9 +43779,9 @@ return {
         id = 1022221,
         text = "This is a joyful attraction~",
     },
-    [11001024] = {
-        id = 11001024,
-        text = "Gabriel: Final",
+    [11001022] = {
+        id = 11001022,
+        text = "Spot Weakness",
     },
     [1022222] = {
         id = 1022222,
@@ -43683,18 +43795,6 @@ return {
         id = 1022223,
         text = "I don't suggest that attraction~",
     },
-    [11001023] = {
-        id = 11001023,
-        text = "Spot Weakness",
-    },
-    [11001022] = {
-        id = 11001022,
-        text = "Spot Weakness",
-    },
-    [421011] = {
-        id = 421011,
-        text = "Movement Speed +%.2f%%",
-    },
     [10701050] = {
         id = 10701050,
         text = "Berserk",
@@ -43703,13 +43803,13 @@ return {
         id = 11001020,
         text = "Battle Supplies",
     },
+    [421011] = {
+        id = 421011,
+        text = "Movement Speed +%.2f%%",
+    },
     [11001019] = {
         id = 11001019,
         text = "Battle Supplies",
-    },
-    [421012] = {
-        id = 421012,
-        text = "Defense Break +%.2f%%",
     },
     [11001018] = {
         id = 11001018,
@@ -43718,6 +43818,10 @@ return {
     [11001017] = {
         id = 11001017,
         text = "Gabriel: Extreme",
+    },
+    [421012] = {
+        id = 421012,
+        text = "Defense Break +%.2f%%",
     },
     [11001016] = {
         id = 11001016,
@@ -43743,13 +43847,21 @@ return {
         id = 11001011,
         text = "Spot Weakness: Human",
     },
+    [11001010] = {
+        id = 11001010,
+        text = "Spot Weakness: Human",
+    },
+    [11001009] = {
+        id = 11001009,
+        text = "Gabriel: Perish",
+    },
     [1022231] = {
         id = 1022231,
         text = "It is a little bit too thrilling for you~",
     },
-    [11001010] = {
-        id = 11001010,
-        text = "Spot Weakness: Human",
+    [11001008] = {
+        id = 11001008,
+        text = "Enhance",
     },
     [1022232] = {
         id = 1022232,
@@ -43763,9 +43875,9 @@ return {
         id = 1022233,
         text = "Take care of your child~",
     },
-    [11001009] = {
-        id = 11001009,
-        text = "Gabriel: Perish",
+    [10701053] = {
+        id = 10701053,
+        text = "Wind Walk",
     },
     [12902] = {
         id = 12902,
@@ -43774,14 +43886,6 @@ return {
     [13158] = {
         id = 13158,
         text = "Dispatch Reward 16",
-    },
-    [11001008] = {
-        id = 11001008,
-        text = "Enhance",
-    },
-    [10701053] = {
-        id = 10701053,
-        text = "Wind Walk",
     },
     [28136] = {
         id = 28136,
@@ -43806,6 +43910,14 @@ return {
     [17010] = {
         id = 17010,
         text = "Delicious Food. High-qualify milk is added to give the bread wonderful aroma.",
+    },
+    [25065] = {
+        id = 25065,
+        text = "Kether Essence",
+    },
+    [10701055] = {
+        id = 10701055,
+        text = "Destructive Tornado: Perish",
     },
     [11000956] = {
         id = 11000956,
@@ -44125,7 +44237,7 @@ return {
     },
     [11000422] = {
         id = 11000422,
-        text = "I am Nep, the protagonist of protagonists! Nice to meet you!",
+        text = "The face of Neptunia series, the protagonist of protagonists!",
     },
     [11000421] = {
         id = 11000421,
@@ -44149,7 +44261,7 @@ return {
     },
     [11000416] = {
         id = 11000416,
-        text = "Reading is my hobby. My target is to get my work published.",
+        text = "Reading is my hobby. My goal in life is to get my work published.",
     },
     [11000415] = {
         id = 11000415,
@@ -44329,11 +44441,11 @@ return {
     },
     [11000307] = {
         id = 11000307,
-        text = "Pudding♪Pudding♪",
+        text = "Pudding Pudding",
     },
     [11000306] = {
         id = 11000306,
-        text = "Yahhoooi! I am Nep, cutest girl of this game series,",
+        text = "I am Nep.",
     },
     [231009] = {
         id = 231009,
@@ -53787,9 +53899,9 @@ return {
         id = 11000955,
         text = "Well, besides touching my head… ",
     },
-    [10701055] = {
-        id = 10701055,
-        text = "Destructive Tornado: Perish",
+    [11000957] = {
+        id = 11000957,
+        text = "Nice to meet you!",
     },
     [10701054] = {
         id = 10701054,
@@ -55193,7 +55305,7 @@ return {
     },
     [1326418] = {
         id = 1326418,
-        text = "Exclusive title of Kurumi Support Event, unlock the 9th jigsaw piece to keep Your Kurumi forever.",
+        text = "Exclusive title of Kurumi Support Event, unlock the 7th jigsaw piece to keep Your Kurumi forever.",
     },
     [1326419] = {
         id = 1326419,
@@ -62245,7 +62357,7 @@ return {
     },
     [63014] = {
         id = 63014,
-        text = "The game has no shortage of various events, like quest event where you will win big after meeting quest conditions and store event where you can exchange collected items for event items. Pay close attention to in-game bulletin and other notices. \n\n The counting method of Total Top-up event is rounding up. E.g. top up $0.99 will be counted as $1.",
+        text = "The game has no shortage of various events, like quest event where you will win big after meeting quest conditions and store event where you can exchange collected items for event items. Pay close attention to in-game bulletin and other notices. \n\nThe counting method of Total Top-up event is rounding up. E.g. top up $0.99 will be counted as $1. \n\nDuring costume pre-sale event, the more people participating in the pre-sale, the higher the discount.\nThe cumulative number of participants in the pre-sale reached 500, 1000, 1500, 2000, and the costume can be purchased at 5%, 10%, 15%, or 20% discount when it is officially sold. \nThe balance is the discounted price minus the advance payment. Players who have not paid the balance will be returned 300 diamonds via email after the event.During costume pre-sale event, the more people participating in the pre-sale, the higher the discount.\nIf the cumulative number of participants in the pre-sale reaches 500, 1000, 1500, 2000, the costume can be purchased at 5%, 10%, 15%, or 20% discount respectively when it is officially sold. \nThe remaining payment is the discounted price minus the advance payment. Players who pre-ordered but failed to pay the remaining amount will be returned with 300 diamonds via in-game mail after the event.",
     },
     [16010] = {
         id = 16010,
@@ -62401,7 +62513,7 @@ return {
     },
     [332071] = {
         id = 332071,
-        text = "a new keepdake",
+        text = "a new keepsake",
     },
     [10401040] = {
         id = 10401040,
@@ -62629,7 +62741,7 @@ return {
     },
     [63017] = {
         id = 63017,
-        text = "There are has 3 regular quest types: Main, Daily and Achievements and 1 event quest - Growth Guardian. Complete them and you will get great rewards. \nMain quests are connected to the story, usually you need to challenge an instance. \nDaily quests are connected with various modes of the game. Complete them to get Activity Points and rewards. Daily quests refresh daily. Unclaimed rewards will be sent to you via mail after refresh. \n Achievements offer decent challenges in game. The harder the challenge, the better the rewards. \nIn the Growth Guardian event, you will earn event EXP via daily quests and daily quests. Event level will go up once you have enough EXP. \nYou can claim event rewards once your event level is high enough.",
+        text = "There are has 3 regular quest types: Main, Daily and Achievements and 1 event quest - Heart Stealer. Complete them and you will get great rewards. \nMain quests are connected to the story, usually you need to challenge an instance. \nDaily quests are connected with various modes of the game. Complete them to get Activity Points and rewards. Daily quests refresh daily. Unclaimed rewards will be sent to you via mail after refresh. \n Achievements offer decent challenges in game. The harder the challenge, the better the rewards. \nIn the Heart Stealer event, you will earn event EXP via daily quests and daily quests. Event level will go up once you have enough EXP. \nYou can claim event rewards once your event level is high enough.",
     },
     [3004112] = {
         id = 3004112,
@@ -64977,7 +65089,7 @@ return {
     },
     [14300036] = {
         id = 14300036,
-        text = "90% Off Universal Voucher",
+        text = "90% Off Voucher",
     },
     [910201] = {
         id = 910201,
@@ -64985,7 +65097,7 @@ return {
     },
     [14300052] = {
         id = 14300052,
-        text = "10% Off Universal Voucher",
+        text = "10% Off Voucher",
     },
     [910202] = {
         id = 910202,
@@ -65729,7 +65841,7 @@ return {
     },
     [266745] = {
         id = 266745,
-        text = "Purchase \"Growth Breakthrough\" to obtain",
+        text = "Purchase \"Cat's Request\" to obtain",
     },
     [910295] = {
         id = 910295,
@@ -68133,7 +68245,7 @@ return {
     },
     [63060] = {
         id = 63060,
-        text = "1. Complete timeline clue and you will get time catalyst. Spend catalyst*1 to reveal 1 time secret. Revealed time secret can't flipped back. \n\n2. When there are 2 identical time secret, you will get the secret reward and time secret fragments. \n\n3. Time secret fragments can exchange other items at the event store. \n\n4. When all time secrets are revealed, they will be reset and another round will begin.",
+        text = "1. Complete timeline clue and you will get time catalyst. Spend catalyst*1 to reveal 1 time secret. Revealed time secret can't be flipped back. \n\n2. When there are 2 identical time secret, you will get the secret reward and time secret fragments. \n\n3. Time secret fragments can exchange other items at the event store. \n\n4. When all time secrets are revealed, they will be reset and another round will begin.",
     },
     [2200503] = {
         id = 2200503,
@@ -80125,7 +80237,7 @@ return {
     },
     [13229] = {
         id = 13229,
-        text = "Growth Guardian EXP",
+        text = "Heart Stealer EXP",
     },
     [300412] = {
         id = 300412,
@@ -83005,7 +83117,7 @@ return {
     },
     [2202201] = {
         id = 2202201,
-        text = "Crimson Dance",
+        text = "Crimson Dance ",
     },
     [300592] = {
         id = 300592,
@@ -84645,7 +84757,7 @@ return {
     },
     [2108220] = {
         id = 2108220,
-        text = "11.27-12.15",
+        text = "Sep 23rd – Oct 13rd",
     },
     [2108218] = {
         id = 2108218,
@@ -87397,7 +87509,7 @@ return {
     },
     [1400003] = {
         id = 1400003,
-        text = "[Store]",
+        text = "[Store] ",
     },
     [700018] = {
         id = 700018,
@@ -87405,7 +87517,7 @@ return {
     },
     [1400005] = {
         id = 1400005,
-        text = "[Pray]",
+        text = "[Pray] ",
     },
     [700019] = {
         id = 700019,
@@ -87413,7 +87525,7 @@ return {
     },
     [1400007] = {
         id = 1400007,
-        text = "[Instance]",
+        text = "[Instance] ",
     },
     [700020] = {
         id = 700020,
@@ -87421,7 +87533,7 @@ return {
     },
     [1400009] = {
         id = 1400009,
-        text = "[Benefits]",
+        text = "[Benefits] ",
     },
     [700021] = {
         id = 700021,
@@ -87429,7 +87541,7 @@ return {
     },
     [1400011] = {
         id = 1400011,
-        text = "[City]",
+        text = "[City] ",
     },
     [700022] = {
         id = 700022,
@@ -87437,7 +87549,7 @@ return {
     },
     [1400013] = {
         id = 1400013,
-        text = "[Friend]",
+        text = "[Friend] ",
     },
     [700023] = {
         id = 700023,
@@ -87445,7 +87557,7 @@ return {
     },
     [1400015] = {
         id = 1400015,
-        text = "[Event Instance]",
+        text = "[Event Instance] ",
     },
     [700024] = {
         id = 700024,
@@ -87477,7 +87589,7 @@ return {
     },
     [1400023] = {
         id = 1400023,
-        text = "[Top-up]",
+        text = "[Top-up] ",
     },
     [700028] = {
         id = 700028,
@@ -89885,7 +89997,7 @@ return {
     },
     [1702615] = {
         id = 1702615,
-        text = "I am Blanc, the goddess of Lowee. Reading is my hobby. My target is to get my work published. Nice to meet you.",
+        text = "I am Blanc, the goddess of Lowee. Reading is my hobby. My goal in life is to get my work published. Nice to meet you.",
     },
     [301022] = {
         id = 301022,
@@ -89961,7 +90073,7 @@ return {
     },
     [1702609] = {
         id = 1702609,
-        text = "I am Blanc, the goddess of Lowee. Reading is my hobby. My target is to get my work published. Nice to meet you.",
+        text = "I am Blanc, the goddess of Lowee. Reading is my hobby. My goal in life is to get my work published. Nice to meet you.",
     },
     [206033] = {
         id = 206033,
@@ -90005,7 +90117,7 @@ return {
     },
     [1702601] = {
         id = 1702601,
-        text = "Yahhoooi! I am Nep, cutest girl of this game series, the protagonist of protagonists! Nice to meet you!",
+        text = "Yahhoooi! I am Nep. The face of Neptunia series, the protagonist of protagonists! Nice to meet you!",
     },
     [1702600] = {
         id = 1702600,
@@ -90533,7 +90645,7 @@ return {
     },
     [14220077] = {
         id = 14220077,
-        text = "Unlock Growth Boost or Growth Breakthrough to claim the following rewards",
+        text = "Unlock Cat's Recognition or Cat's Request to claim the following rewards",
     },
     [1702474] = {
         id = 1702474,
@@ -92993,7 +93105,7 @@ return {
     },
     [1400021] = {
         id = 1400021,
-        text = "[Use Item]",
+        text = "[Use Item] ",
     },
     [1702071] = {
         id = 1702071,
@@ -93001,7 +93113,7 @@ return {
     },
     [1400019] = {
         id = 1400019,
-        text = "[Benefits]",
+        text = "[Benefits] ",
     },
     [1702069] = {
         id = 1702069,
@@ -93069,7 +93181,7 @@ return {
     },
     [1400001] = {
         id = 1400001,
-        text = "[Stage]",
+        text = "[Stage] ",
     },
     [1702055] = {
         id = 1702055,
@@ -93717,7 +93829,7 @@ return {
     },
     [200025] = {
         id = 200025,
-        text = "Available after buying or upgrading [Growth Breakthrough]",
+        text = "Available after buying or upgrading [Cat's Request]",
     },
     [100017] = {
         id = 100017,
@@ -94145,7 +94257,7 @@ return {
     },
     [265127] = {
         id = 265127,
-        text = "Join the [Growth Boost] event to obtain this avatar",
+        text = "Join the [Cat's Recognition] event to obtain this avatar",
     },
     [600039] = {
         id = 600039,
@@ -97541,7 +97653,7 @@ return {
     },
     [266206] = {
         id = 266206,
-        text = "Complete favor date 1 time",
+        text = "Complete any favor date",
     },
     [303068] = {
         id = 303068,
@@ -98805,7 +98917,7 @@ return {
     },
     [277004] = {
         id = 277004,
-        text = "%s Discount",
+        text = "%s%% Discount",
     },
     [901154] = {
         id = 901154,
@@ -99301,7 +99413,7 @@ return {
     },
     [270414] = {
         id = 270414,
-        text = "Can only disband the club when its Activity is below 30%%",
+        text = "Can only disband the club when its Activity is below 30%",
     },
     [63502] = {
         id = 63502,
@@ -101661,7 +101773,7 @@ return {
     },
     [270604] = {
         id = 270604,
-        text = "Spend %s Tokens to pre-order now?",
+        text = "Spend %s Tokens to participate in the pre-sale now?",
     },
     [400059] = {
         id = 400059,
@@ -103105,7 +103217,7 @@ return {
     },
     [400149] = {
         id = 400149,
-        text = "Plane Traveler: Dispersed Shadow",
+        text = "Planar Traveler: Dispersed Shadow",
     },
     [441108] = {
         id = 441108,
@@ -103121,7 +103233,7 @@ return {
     },
     [400150] = {
         id = 400150,
-        text = "Plane Traveler: Impenetrable Domain",
+        text = "Planar Traveler: Impenetrable Domain",
     },
     [441109] = {
         id = 441109,
@@ -103137,7 +103249,7 @@ return {
     },
     [400151] = {
         id = 400151,
-        text = "Plane Traveler: Eternal Moment",
+        text = "Planar Traveler: Eternal Moment",
     },
     [441110] = {
         id = 441110,
@@ -103373,7 +103485,7 @@ return {
     },
     [270701] = {
         id = 270701,
-        text = "The founder of a club is the leader by default and has the right to appoint positions, set joining conditions, change insignia or notice.",
+        text = "The founder of a club is the leader by default and has the right to appoint positions, set joining conditions, change club insignia, club notice, club name, and club country.",
     },
     [1310268] = {
         id = 1310268,
@@ -103653,7 +103765,7 @@ return {
     },
     [441142] = {
         id = 441142,
-        text = "Casting [Shooting Gallery] reduces CD for [Collapsing Torrent], [Beyond Netherworld] and [Final Judgment] by 1s, 2s and 3s respectively and restores 40% HP.",
+        text = "Casting [Realm of Image] reduces CD for [Collapsing Torrent], [Beyond Netherworld] and [Final Judgment] by 1s, 2s and 3s respectively and restores 40% HP.",
     },
     [213204] = {
         id = 213204,
@@ -106705,7 +106817,7 @@ return {
     },
     [1420061] = {
         id = 1420061,
-        text = "Reward - [Growth Guardian]",
+        text = "Reward - [Heart Stealer]",
     },
     [1021733] = {
         id = 1021733,
@@ -106837,11 +106949,11 @@ return {
     },
     [1400022] = {
         id = 1400022,
-        text = "[Theater Instance]",
+        text = "[Theater Instance] ",
     },
     [1400020] = {
         id = 1400020,
-        text = "[Festival Instance]",
+        text = "[Festival Instance] ",
     },
     [1021613] = {
         id = 1021613,
@@ -106849,11 +106961,11 @@ return {
     },
     [1400018] = {
         id = 1400018,
-        text = "[Event]",
+        text = "[Event] ",
     },
     [1400017] = {
         id = 1400017,
-        text = "[Theater Instance]",
+        text = "[Theater Instance] ",
     },
     [24002] = {
         id = 24002,
@@ -106861,11 +106973,11 @@ return {
     },
     [1400016] = {
         id = 1400016,
-        text = "[Top-up Pack]",
+        text = "[Top-up Pack] ",
     },
     [1400014] = {
         id = 1400014,
-        text = "[Date]",
+        text = "[Date] ",
     },
     [1022453] = {
         id = 1022453,
@@ -106889,23 +107001,23 @@ return {
     },
     [1400010] = {
         id = 1400010,
-        text = "[Quest]",
+        text = "[Quest] ",
     },
     [1400008] = {
         id = 1400008,
-        text = "[Instance]",
+        text = "[Instance] ",
     },
     [1400006] = {
         id = 1400006,
-        text = "[City]",
+        text = "[City] ",
     },
     [1400004] = {
         id = 1400004,
-        text = "[Summon]",
+        text = "[Summon] ",
     },
     [1400002] = {
         id = 1400002,
-        text = "[Daily Instance]",
+        text = "[Daily Instance] ",
     },
     [1329140] = {
         id = 1329140,
@@ -110581,7 +110693,7 @@ return {
     },
     [12032020] = {
         id = 12032020,
-        text = "1. Explore the new world in the [Demon Strife] event.",
+        text = "1. Explore the new world in the [Demon Strife] event. After the battle, remember to collect the reward before the end of the event",
     },
     [12032028] = {
         id = 12032028,
@@ -110877,7 +110989,7 @@ return {
     },
     [13230] = {
         id = 13230,
-        text = "EXP used for \"Growth Guardian\". Obtained from daily quests and Growth Guardian weekly quests",
+        text = "EXP used for \"Heart Stealer\". Obtained from daily quests and Heart Stealer weekly quests",
     },
     [42165] = {
         id = 42165,
@@ -111087,9 +111199,9 @@ return {
         id = 12033028,
         text = "",
     },
-    [1310683] = {
-        id = 1310683,
-        text = "Medium Enhance 2",
+    [12033042] = {
+        id = 12033042,
+        text = "Bonus +30%",
     },
     [1310681] = {
         id = 1310681,
@@ -118181,7 +118293,7 @@ return {
     },
     [1702602] = {
         id = 1702602,
-        text = "Pudding♪Pudding♪",
+        text = "Pudding Pudding",
     },
     [900468] = {
         id = 900468,
@@ -119077,7 +119189,7 @@ return {
     },
     [11000468] = {
         id = 11000468,
-        text = "Human's heart, is something that even they themselves cannot understand well.",
+        text = "The human heart is something unpredictable",
     },
     [900580] = {
         id = 900580,
@@ -119307,9 +119419,9 @@ return {
         id = 900608,
         text = "Side Story Review 101",
     },
-    [25065] = {
-        id = 25065,
-        text = "Kether Essence",
+    [11000958] = {
+        id = 11000958,
+        text = "that even you probably do not understand yourself.",
     },
     [900609] = {
         id = 900609,

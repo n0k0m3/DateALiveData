@@ -44807,7 +44807,7 @@ return {
         textShowType = 1,
         roleShowType2 = 3,
         jump = {
-            [1] = 225501406,
+            [1] = 225501506,
         },
         id = 225501605,
         roleLipAnime = 2,

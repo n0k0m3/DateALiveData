@@ -133,6 +133,17 @@ function ChatView:initUI(ui)
     self.scrollBar:setPosition(me.p(565,360))
     self.panel_chat:addChild(self.scrollBar,100)
 
+    --添加空状态显示
+    self.label_empyTetx = TFLabel:create()
+    self.label_empyTetx:setFontName("font/MFLiHei_Noncommercial.ttf")
+    self.label_empyTetx:setFontSize(22)
+    self.label_empyTetx:setTextAreaSize(CCSize(400 , 0))
+    self.label_empyTetx:setAnchorPoint(ccp(0.5 , 1))
+    self.label_empyTetx:setPosition(312 , 326)
+    self.label_empyTetx:setTextById(190000172)
+    --self.label_empyTetx:enableOutline(ccc4(0,0,0,255), 1)
+    self.panel_chat:addChild(self.label_empyTetx , 1)
+
     self.Panel_base = TFDirector:getChildByPath(ui, "Panel_base")
 
     -- 表情ui块
@@ -212,6 +223,9 @@ function ChatView:initUI(ui)
 
     self.panel_chat:show()
     self.panel_chat:moveTo(0.2,0,0)
+
+
+
 
 
     self:initDouTu()
@@ -1754,8 +1768,20 @@ function ChatView:getChatInfoList()
                 end
             end
         end
+        _datas = datas or {}
+        if #_datas >0 then
+            self.label_empyTetx:hide()
+        else
+            self.label_empyTetx:show()
+        end
         return _datas
     else
+        datas  = datas or {}
+        if #datas >0 then
+            self.label_empyTetx:hide()
+        else
+            self.label_empyTetx:show()
+        end
         return datas
     end
 end

@@ -148,6 +148,11 @@ function TaskMainView:initUI(ui)
     self.Button_get_all = TFDirector:getChildByPath(self.Panel_training, "Button_get_all")
     self.Label_preview_level = TFDirector:getChildByPath(self.Panel_training, "Label_preview_level")
     self.Panel_lock_cover = TFDirector:getChildByPath(self.Panel_training, "Panel_lock_cover")
+
+    self.Panel_reward:getChildByName("Label_title_free"):setTextById(190000178)
+    self.Panel_reward:getChildByName("Label_title_charge"):setTextById(190000179)
+
+
     self.previewItems = {}
     for i=1,2 do
         local item = TFDirector:getChildByPath(self.Panel_training, "Panel_item"..i)

@@ -3,8 +3,9 @@ local LogonHelper = class("LogonHelper")
 
 local UserCenterHttpClient = TFClientNetHttp:GetInstance()
 
+LOGIN_URL = {}
 if  CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 or VERSION_DEBUG == true then
-    LOGIN_URL = "http://192.168.20.27:8980/account/login"
+    LOGIN_URL[1] = "http://192.168.20.27:8980/account/login"
     GM_URL    = "http://192.168.20.181:8080/login/account/adminLogin"
 else
     -- if RELEASE_TEST then
@@ -23,24 +24,31 @@ else
 
     if HeitaoSdk then
         if CC_TARGET_PLATFORM == CC_PLATFORM_IOS then
-            LOGIN_URL = "https://uc-en.datealive.com:8082/account/login"
+            LOGIN_URL[1] = "https://uc-en.datealive.com:8082/account/login"
+            LOGIN_URL[2] = "https://uc-en2.datealive.com:8082/account/login"
             GM_URL    = "http://uch.datealive.com:8081/account/adminLogin"
         else
-            LOGIN_URL = "http://uc-en.datealive.com:8081/account/login"
+            LOGIN_URL[1] = "http://uc-en.datealive.com:8081/account/login"
+            LOGIN_URL[2] = "http://uc-en2.datealive.com:8081/account/login"
             GM_URL    = "http://uch.datealive.com:8081/account/adminLogin"
         end
     else
-        LOGIN_URL = "http://uc-en.datealive.com:8081/account/login"
+        LOGIN_URL[1] = "http://uc-en.datealive.com:8081/account/login"
+        LOGIN_URL[2] = "http://uc-en2.datealive.com:8081/account/login"
         GM_URL    = "https://uc.datealive.com:8082/account/adminLogin"
     end
     --ACTIVATE_URL = "http://120.131.3.158:8081/login/account/checkActivateCode"
 end
 
 function LogonHelper:ctor(data)
+    self.urlIdx = 0
+    self.path = ""
+    self.connectedArray = TFArray:new()
+
     if GM_MODE then
         self.loginUrl_ = GM_URL
     else
-        self.loginUrl_ = LOGIN_URL
+        self.loginUrl_ = LOGIN_URL[1]
     end
     self.account_ = nil
     self.password_ = nil
@@ -103,25 +111,28 @@ function LogonHelper:loginTest(account,password,code,isAuto)
     self.password_ = password
     self.code_ = code
     self.isAuto_ = isAuto
+    self.path = ""
 
     self.loginCallback = function (type,ret,data)
-        hideAllLoading();
         data = json.decode(data);
         dump(data);
         if not data then
             self.isLogined = false;
+            self:LoginUcCenterFailHandler()
             -- toastMessageLink("连接登录服务器失败")
-            toastMessageLink(TextDataMgr:getText(800114))
+            --toastMessageLink(TextDataMgr:getText(800114))
             return
         end
 
         --游戏资源需要更新
         if data.status and data.status == 100017 then
+            hideAllLoading();
             self:restartGame(data.msg);
             return;
         end
 
         if data.status ~= 0 then
+            hideAllLoading();
             self.isLogined = false;
             local text = TextDataMgr:getText(data.status);
             if data.status == 100036 then
@@ -133,6 +144,7 @@ function LogonHelper:loginTest(account,password,code,isAuto)
             SaveManager:saveIsActivat(false);
         else
             if not data.data then
+                self:LoginUcCenterFailHandler()
                 return
             end
 
@@ -141,7 +153,7 @@ function LogonHelper:loginTest(account,password,code,isAuto)
             --     toastMessageLink(string.format("本次测试服务器将于%d月%d日%d时开放，感谢您的关注！",date.month,date.day,date.hour));
             --     return
             -- end
-
+            hideAllLoading();
             ServerDataMgr:setGameServerList(data.data)
 
             if GameConfig.Debug then
@@ -179,42 +191,48 @@ function LogonHelper:loginTest(account,password,code,isAuto)
     end
 
     local serverGroupConfig = ServerDataMgr:getServerList(self.serverGroup_)
-    local url = self.loginUrl_
+    --local url = self.loginUrl_[1]
     if serverGroupConfig and serverGroupConfig.url then
-        url = serverGroupConfig.url
+        LOGIN_URL = serverGroupConfig.url
+        dump(LOGIN_URL)
     end
 
-    url = url.."?accountId="..string.url_encode(account);
-    url = url.."&password="..password;
-    url = url.."&token="..token;
-    url = url.."&deviceid="..((TFDeviceInfo:getMachineOnlyID()) or 1);
-    url = url.."&deviceName="..((TFDeviceInfo:getSystemName()) or 1);
-    url = url.."&osVersion="..((TFDeviceInfo:getSystemVersion()) or 1);
-    url = url.."&osName="..osname;
-    url = url.."&version="..TFClientUpdate:getCurVersion();
-    url = url.."&sdkVersion=".."";
-    url = url.."&sdk=".."";
+    local path = ""
+    path = path.."?accountId="..string.url_encode(account);
+    path = path.."&password="..password;
+    path = path.."&token="..token;
+    path = path.."&deviceid="..((TFDeviceInfo:getMachineOnlyID()) or 1);
+    path = path.."&deviceName="..((TFDeviceInfo:getSystemName()) or 1);
+    path = path.."&osVersion="..((TFDeviceInfo:getSystemVersion()) or 1);
+    path = path.."&osName="..osname;
+    path = path.."&version="..TFClientUpdate:getCurVersion();
+    path = path.."&sdkVersion=".."";
+    path = path.."&sdk=".."";
 
     if FileCheckMgr then
-        url = url.."&mimi="..FileCheckMgr:getIsSuccess();
+        path = path.."&mimi="..FileCheckMgr:getIsSuccess();
     end
 
     if self.serverName_ then
-        url = url.."&serverName="..self.serverName_;
+        path = path.."&serverName="..self.serverName_;
     end
     if self.serverGroup_ then
-        url = url.."&serverGroup=" .. self.serverGroup_;
+        path = path.."&serverGroup=" .. self.serverGroup_;
     end
-    url = url.."&channelAppId="..1;
-    url = url.."&channelId=".."LOCAL_TEST";
+    path = path.."&channelAppId="..1;
+    path = path.."&channelId=".."LOCAL_TEST";
     if code and code ~= "" then
-        url = url.."&activateKey="..code;
+        path = path.."&activateKey="..code;
     end
 
-    url = string.gsub(url," ","");
-    print(url);
-    UserCenterHttpClient:addMERecvListener(self.loginCallback)
-    UserCenterHttpClient:httpRequest(TFHTTP_TYPE_GET,url)
+    self.path = string.gsub(path," ","");
+    --print(path);
+    self.path = path
+
+    self:tryLoginUcCenter()
+
+    --UserCenterHttpClient:addMERecvListener(self.loginCallback)
+    --UserCenterHttpClient:httpRequest(TFHTTP_TYPE_GET,url)
 end
 
 
@@ -295,37 +313,45 @@ function LogonHelper:loginVerification()
     self.password_ = password
     self.code_ = code
     self.isAuto_ = isAuto
+    self.path = ""
 
-    local loginCallback = function (type,ret,data)
-        hideAllLoading();
+    self.loginCallback = function (type,ret,data)
         data = json.decode(data);
         if not data then
             self.isLogined = false;
             self:setVerification(false)
+            self:LoginUcCenterFailHandler()
             -- toastMessageLink("连接登录服务器失败")
-            toastMessageLink(TextDataMgr:getText(800114))
+            -----toastMessageLink(TextDataMgr:getText(800114))
             return
         end
-
         dump(data);
 
         --游戏资源需要更新
         if data.status and data.status == 100017 then
+            hideAllLoading();
             self:restartGame(data.msg);
+            self.connectedArray:clear()
             return;
         end        
 
         if data.status ~= 0 then
+            hideAllLoading();
             self:setVerification(false)
             local text = TextDataMgr:getText(data.status);
             if data.status == 100036 then
                 text = text.."  "..data.msg
             end
             Utils:showTips(text)
+            self.connectedArray:clear()
         else
             if not data.data then
+                self:LoginUcCenterFailHandler()
                 return
             end
+
+            hideAllLoading();
+            self.connectedArray:clear()
 
             if data.data.openServerDate then
                 local date = os.date("*t",data.data.openServerDate / 1000)
@@ -357,9 +383,7 @@ function LogonHelper:loginVerification()
             end
 
             EventMgr:dispatchEvent(EV_LOGIN_UPDATESERVERNAME)
-            
-            --TFDirector:dispatchGlobalEventWith("LoginLayer.LoginSuccess", {})
-        end
+        end  
     end
 
     local osname = "WINDOWS"
@@ -385,55 +409,56 @@ function LogonHelper:loginVerification()
 
     local size = CCDirector:sharedDirector():getOpenGLView():getFrameSize();
 
-    local url = self.loginUrl_
-    url = url.."?token="..string.url_encode(token);
-    url = url.."&accountId="..string.url_encode(HeitaoSdk.getuserid());
-    url = url.."&deviceid="..string.url_encode(((TFDeviceInfo:getMachineOnlyID()) or 1));
-    url = url.."&osVersion="..string.url_encode(((TFDeviceInfo:getSystemVersion()) or 1));
-    url = url.."&osName="..string.url_encode(osname);
-    url = url.."&networkType="..string.url_encode((TFDeviceInfo:getNetWorkType()));
-    url = url.."&networkCarrier="..string.url_encode((TFDeviceInfo:getCarrierOperator()));
-    url = url.."&screenWidth="..string.url_encode((size.width));
-    url = url.."&screenHeight="..string.url_encode((size.height));
-    url = url.."&appVersion="..string.url_encode((TFDeviceInfo:getCurAppVersion()));
-    url = url.."&version="..string.url_encode(TFClientUpdate:getCurVersion());
-    url = url.."&sdkVersion=".."";
-    url = url.."&sdk=".."";
-    url = url.."&channelAppId="..string.url_encode(HeitaoSdk.getplatformId() % 10000);
+    local path = ""
+    --local url = self.loginUrl_
+    path = path.."?token="..string.url_encode(token);
+    path = path.."&accountId="..string.url_encode(HeitaoSdk.getuserid());
+    path = path.."&deviceid="..string.url_encode(((TFDeviceInfo:getMachineOnlyID()) or 1));
+    path = path.."&osVersion="..string.url_encode(((TFDeviceInfo:getSystemVersion()) or 1));
+    path = path.."&osName="..string.url_encode(osname);
+    path = path.."&networkType="..string.url_encode((TFDeviceInfo:getNetWorkType()));
+    path = path.."&networkCarrier="..string.url_encode((TFDeviceInfo:getCarrierOperator()));
+    path = path.."&screenWidth="..string.url_encode((size.width));
+    path = path.."&screenHeight="..string.url_encode((size.height));
+    path = path.."&appVersion="..string.url_encode((TFDeviceInfo:getCurAppVersion()));
+    path = path.."&version="..string.url_encode(TFClientUpdate:getCurVersion());
+    path = path.."&sdkVersion=".."";
+    path = path.."&sdk=".."";
+    path = path.."&channelAppId="..string.url_encode(HeitaoSdk.getplatformId() % 10000);
     local myVersion = md5.sumhexa("@#156qazxswedc7*$%#@!*&2dduebvgrelas"..token..TFDeviceInfo:getMachineOnlyID()..TFClientUpdate:GetUpdateDefaultVersion())
-    url = url.."&myVersion="..string.url_encode(myVersion);
+    path = path.."&myVersion="..string.url_encode(myVersion);
 
     if FileCheckMgr then
-        url = url.."&mimi="..FileCheckMgr:getIsSuccess();
+        path = path.."&mimi="..FileCheckMgr:getIsSuccess();
     end    
     
     if CC_TARGET_PLATFORM == CC_PLATFORM_IOS then
-        url = url.."&deviceName="..string.url_encode(((TFDeviceInfo:getDeviceModel()) or 1));
-        url = url.."&devicebrand="..string.url_encode("Apple");
-        url = url.."&idfa="..string.url_encode(((TFDeviceInfo:getMachineOnlyID()) or 1));
-        url = url.."&idfv="..string.url_encode(((TFDeviceInfo:getIDFV()) or 1));
+        path = path.."&deviceName="..string.url_encode(((TFDeviceInfo:getDeviceModel()) or 1));
+        path = path.."&devicebrand="..string.url_encode("Apple");
+        path = path.."&idfa="..string.url_encode(((TFDeviceInfo:getMachineOnlyID()) or 1));
+        path = path.."&idfv="..string.url_encode(((TFDeviceInfo:getIDFV()) or 1));
     elseif CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID then
-        url = url.."&deviceName="..string.url_encode(((TFDeviceInfo:getSystemName()) or 1));
-        url = url.."&devicebrand="..string.url_encode(TFDeviceInfo:getMachineName());
-        url = url.."&imei="..string.url_encode(imei);
-        url = url.."&androidid="..string.url_encode(((TFDeviceInfo:getAndroidId()) or 1));
+        path = path.."&deviceName="..string.url_encode(((TFDeviceInfo:getSystemName()) or 1));
+        path = path.."&devicebrand="..string.url_encode(TFDeviceInfo:getMachineName());
+        path = path.."&imei="..string.url_encode(imei);
+        path = path.."&androidid="..string.url_encode(((TFDeviceInfo:getAndroidId()) or 1));
     end
     if RELEASE_TEST then
-        url = url.."&serverGroup=".."cehua_ext";
-        url = url.."&channelId=".."LOCAL_TEST";
+        path = path.."&serverGroup=".."cehua_ext";
+        path = path.."&channelId=".."LOCAL_TEST";
     else
-        url = url.."&serverGroup=".."ios_check";
-        url = url.."&channelId=".."HEI_TAO";
+        path = path.."&serverGroup=".."ios_check";
+        path = path.."&channelId=".."HEI_TAO";
     end
     
     if code and code ~= "" then
-        url = url.."&activateKey="..code;
+        path = path.."&activateKey="..code;
     end
 
-    url = string.gsub(url," ","");
-    print(url);
-    UserCenterHttpClient:addMERecvListener(loginCallback)
-    UserCenterHttpClient:httpRequest(TFHTTP_TYPE_GET,url)
+    path = string.gsub(path," ","");
+    --print(path);
+    self.path = path
+    self:tryLoginUcCenter()
 end
 
 function LogonHelper:activat(code)
@@ -467,7 +492,7 @@ function LogonHelper:activat(code)
     url = url.."&activateKey="..code;
 
     url = string.gsub(url," ","");
-    print(url);
+    --print(url);
     UserCenterHttpClient:addMERecvListener(activateCallback)
     UserCenterHttpClient:httpRequest(TFHTTP_TYPE_GET,url)
 end
@@ -535,6 +560,42 @@ end
 
 function LogonHelper:getGroupName()
     return self.serverGroup_
+end
+
+function LogonHelper:LoginUcCenterFailHandler( )
+    if self.connectedArray:length() >= 2*#LOGIN_URL then
+        hideAllLoading()
+        toastMessageLink(TextDataMgr:getText(800114))
+        return
+    end
+    TimeOut(function()
+        self:tryLoginUcCenter()
+    end, 2)
+end
+
+function LogonHelper:tryLoginUcCenter( )
+    self.urlIdx = self.urlIdx + 1
+    if self.urlIdx > #LOGIN_URL then
+        self.urlIdx = 1
+    end
+
+    self.connectedArray:push(LOGIN_URL[self.urlIdx])
+    UserCenterHttpClient:addMERecvListener(self.loginCallback)
+    UserCenterHttpClient:httpRequest(TFHTTP_TYPE_GET, LOGIN_URL[self.urlIdx] ..self.path)
+    print(LOGIN_URL[self.urlIdx] ..self.path)
+
+    local time = 0
+    for url in self.connectedArray:iterator() do
+        if url == LOGIN_URL[self.urlIdx] then
+            time = time + 1
+        end
+    end
+
+    if HeitaoSdk and time <= 1 then
+        local url = require("TFFramework.net.TFUrl")
+        local parsed_url = url.parse(LOGIN_URL[self.urlIdx])
+        HeitaoSdk.reportNetworkData(parsed_url.host)
+    end
 end
 
 return LogonHelper:new()

@@ -4184,7 +4184,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "17",
+													fontSize = "15",
 													fontStroke = 
 													{
 														IsStroke = false,
@@ -4200,7 +4200,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "고유 속성",
+													text = "ccccc",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 

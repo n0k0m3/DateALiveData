@@ -31,7 +31,11 @@ function LeagueSnapInfoView:initContent()
     self.Button_apply:setTouchEnabled(self.snapInfo_.memberCount < self.snapInfo_.memberCountMax)
     self.Button_apply:setGrayEnabled(self.snapInfo_.memberCount >= self.snapInfo_.memberCountMax)
 
-    self.Label_league_name:setText(self.snapInfo_.name)
+    local countryStr = ""
+    if self.snapInfo_.showCountry then
+        countryStr = " ("..LeagueDataMgr:getClubCountryDataById(self.snapInfo_.country).Countryabbreviations..")"
+    end
+    self.Label_league_name:setText(self.snapInfo_.name..countryStr)
     self.Label_leader_name:setText(self.snapInfo_.leaderName)
     self.Label_league_level:setText(self.snapInfo_.level)
     self.Label_member_num:setText(self.snapInfo_.memberCount.."/"..self.snapInfo_.memberCountMax)

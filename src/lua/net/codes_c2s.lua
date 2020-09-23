@@ -421,7 +421,7 @@ c2s.UNION_REQ_TRAIN_MAXTRI_INFO = 6669
 
 --[[
 	[1] = {--UpdateUnionInfo
-		[1] = 'int32':type	[ 1修改社团徽记 2修改社团公告 3变更是否开启社团申请 4变更是否开启自动加入]
+		[1] = 'int32':type	[ 1修改社团徽记 2修改社团公告 3变更是否开启社团申请 4变更是否开启自动加入 15改名  28国家ID 29是否显示国家]
 		[2] = 'string':param
 	}
 --]]
@@ -443,6 +443,7 @@ c2s.EQUIPMENT_REQ_DECOMPOSE_GEM = 2838
 --[[
 	[1] = {--CreateUnion
 		[1] = 'string':name
+		[2] = 'int32':country	[国家ID]
 	}
 --]]
 c2s.UNION_CREATE_UNION = 6650

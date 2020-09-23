@@ -42,11 +42,9 @@ function ActivityFundView:updateGiftBagInfo()
         return
     end
 
-    self.Label_desc:setText(self.activityInfo_.extendData.des)
+    self.Label_desc:setText(Utils:splitLanguageStringByTag(self.activityInfo_.extendData.des))
 
     self.giftData = RechargeDataMgr:getOneRechargeCfg(self.activityInfo_.extendData.rechargeId)
-
-    dump(self.giftData)
 
     if not self.giftData then
         return
@@ -59,14 +57,16 @@ function ActivityFundView:updateGiftBagInfo()
             local remainTime = endTime - curTime
             local day, hour, min, sec = Utils:getTimeDHMZ(remainTime, true)
             if day == "00" then
-                self.Label_buy_time:setText(hour.."时"..min.."分"..sec.."秒")
+                self.Label_buy_time:setTextById(190000078 ,hour  , min , sec)
             else
-                self.Label_buy_time:setText(day.."天"..hour.."时"..min.."分")
+                self.Label_buy_time:setTextById(213514 ,day , hour , min)
             end
             if remainTime <= 0 then
                 self.Label_buy_time:stopAllActions()
                 self.Label_buy_time:setText("")
                 self.Label_desc_2:setTextById(63649)
+            else
+                self.Label_desc_2:setText("")
             end
         end),
         CCDelayTime:create(1)
@@ -74,7 +74,7 @@ function ActivityFundView:updateGiftBagInfo()
 
     self.Label_buy_time:runAction(CCRepeatForever:create(act))
 
-    self.Label_buy:setText(self.giftData.rechargeCfg.price.."￥ 购买")
+    self.Label_buy:setTextById(1325305 ,self.giftData.rechargeCfg.price / 100)
 
     local isCanBuy = true
     if self.giftData.buyCount ~= 0 and self.giftData.buyCount - RechargeDataMgr:getBuyCount(self.giftData.rechargeCfg.id) <= 0 then
@@ -85,6 +85,8 @@ function ActivityFundView:updateGiftBagInfo()
     self.Label_desc_2:setVisible(isCanBuy)
     self.Button_buy:setTouchEnabled(isCanBuy)
     self.Button_buy:setGrayEnabled(not isCanBuy)
+
+    self.Label_buy_time:setPosition(self.Label_desc_2:getPosition())
 
     self:updateActivity()
 end
@@ -129,12 +131,14 @@ function ActivityFundView:updateActivity()
 
     local _startyear, _startmonth, _startday = Utils:getDate(self.activityInfo_.showStartTime, true)
     local _endyear, _endmonth, _endday = Utils:getDate(self.activityInfo_.showEndTime, true)
-    if self.activityInfo_.extendData.activityShowType and self.activityInfo_.extendData.activityShowType == 6 then
-        self.label_time:setSkewX(10)
-        self.label_time:setText(_startmonth .. "." .. _startday .. "             " .. _endmonth .. "." .. _endday)
-    else
-        self.label_time:setText(_startmonth .. "." .. _startday .. " - " .. _endmonth .. "." .. _endday)
-    end
+    -- if self.activityInfo_.extendData.activityShowType and self.activityInfo_.extendData.activityShowType == 6 then
+    --     self.label_time:setSkewX(10)
+    --     self.label_time:setText(_startmonth .. "." .. _startday .. "             " .. _endmonth .. "." .. _endday)
+    -- else
+    --     self.label_time:setText(_startmonth .. "." .. _startday .. " - " .. _endmonth .. "." .. _endday)
+    -- end
+
+    self.label_time:setText(Utils:getActivityDateString(self.activityInfo_.startTime, self.activityInfo_.showEndTime, self.activityInfo_.extendData.dateStyle))
 end
 
 function ActivityFundView:addGoodsItem()
@@ -175,7 +179,7 @@ function ActivityFundView:updateGoodsItem(index)
     local target = itemInfo.target
     local progress = progressInfo.progress
     local conditionStr = string.format(itemInfo.extendData.des2,target)
-    foo.Label_condition:setText(conditionStr)
+    foo.Label_condition:setTextById(conditionStr , target)
 
     local goodsId, goodsCount
     for k, v in pairs(itemInfo.reward) do

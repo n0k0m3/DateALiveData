@@ -29,6 +29,7 @@ function LeagueHallView:initData(data)
     local funtionCfg = FunctionDataMgr:getFunctionCfg(101)
     self.minLevel_ = funtionCfg.openLevel
     self.limitLevel_ = LeagueDataMgr:getJoinLimitLevel()
+    self.countryData = TabDataMgr:getData("ClubCountry")
     LeagueDataMgr:setNoticeChangeRedPoint(false)
 end
 
@@ -49,6 +50,7 @@ function LeagueHallView:initUI(ui)
     self.Panel_date = TFDirector:getChildByPath(self.Panel_prefab, "Panel_date")
 
     self.Panel_infos = TFDirector:getChildByPath(self.ui, "Panel_infos")
+    self.Button_modify_name = TFDirector:getChildByPath(self.Panel_infos, "Button_modify_name"):hide()
     self.Button_copy = TFDirector:getChildByPath(self.Panel_infos, "Button_copy")
     self.Button_edit_notice = TFDirector:getChildByPath(self.Panel_infos, "Button_edit_notice")
     local ScrollView_changes = TFDirector:getChildByPath(self.Panel_infos, "ScrollView_changes")
@@ -89,6 +91,7 @@ function LeagueHallView:initUI(ui)
     self.Label_league_level = TFDirector:getChildByPath(self.Panel_left, "Label_league_level")
     self.Button_change_flag = TFDirector:getChildByPath(self.Panel_left, "Button_change_flag")
     self.Image_flag_tip = TFDirector:getChildByPath(self.Button_change_flag, "Image_flag_tip")
+    self.Button_modify = TFDirector:getChildByPath(self.Panel_left, "Button_modify"):hide()
     self.Button_quit = TFDirector:getChildByPath(self.Panel_left, "Button_quit")
     self.Button_disband = TFDirector:getChildByPath(self.Panel_left, "Button_disband")
 
@@ -106,20 +109,25 @@ function LeagueHallView:initUI(ui)
 
     self.change_btns = {}
     self.change_flags = {}
-    for i=1,3 do
+    for i=1,4 do
         local btn = TFDirector:getChildByPath(self.Panel_right, "Button_open"..i)
         local Image_flag = TFDirector:getChildByPath(btn,"Image_flag")
-        self.change_btns[#self.change_btns + 1] = btn
-        self.change_flags[#self.change_flags + 1] = Image_flag
+        self.change_btns[i] = btn
+        self.change_flags[i] = Image_flag
     end
 
     local ScrollView_tab = TFDirector:getChildByPath(self.ui, "ScrollView_tab")
     self.ListView_tab = UIListView:create(ScrollView_tab)
     self.ListView_tab:setItemsMargin(2)
 
+    self.panel_country_setting =  Utils:createClubCountryNamePanel(self.Panel_left , ccp(self.Button_modify:getPositionX() - 280 , self.Button_modify:getPositionY() - 50)  , true , true , nil , true)
+    self.panel_country_info = Utils:createClubCountryNamePanel(self.Panel_infos:getChildByName("Panel_league_info") , ccp(self.Button_modify_name:getPositionX() - 280 , self.Button_modify_name:getPositionY() - 50)  , true , true , nil , true)
+
     self:initLeft()
 
     self:selectTabBtn(self.defaultIdx or 1)
+
+
 end
 
 function LeagueHallView:onShow()
@@ -200,6 +208,7 @@ function LeagueHallView:refreshPanelInfos()
         return
     end
     Label_league_name:setText(unionData.name)
+    Utils:updateClubCountryName(self.panel_country_info , LeagueDataMgr:getClubCountryDataById(unionData.country).Countryabbreviations)
     Label_league_level_num:setText("Lv."..unionData.level)
     Label_league_id_num:setText(tostring(unionData.id))
     Label_league_member_num:setText(tostring(unionData.memberCount).."/"..LeagueDataMgr:getUnionMaxMemberCount())
@@ -214,6 +223,8 @@ function LeagueHallView:refreshPanelInfos()
 
     local degree = LeagueDataMgr:getSelfDegree()
     self.Button_edit_notice:setVisible(LeagueDataMgr:checkDegreeOwnPermission(degree, EC_UNION_PERMISSION_Type.EDIT))
+    self.Button_modify_name:setVisible(degree == EC_UNION_DEGREE_Type.HEAD)
+    self.panel_country_info:getChildByName("bgPanel"):setTouchEnabled(degree == EC_UNION_DEGREE_Type.HEAD)
 
     local count = #self.ScrollView_changes:getItems()
     local notifys = LeagueDataMgr:getNotifyDataBySortDate()
@@ -413,14 +424,17 @@ function LeagueHallView:refreshPanelSetting()
     self.Button_edit:setVisible(LeagueDataMgr:checkDegreeOwnPermission(degree, EC_UNION_PERMISSION_Type.EDIT))
     self.Button_change_flag:setVisible(LeagueDataMgr:checkDegreeOwnPermission(degree, EC_UNION_PERMISSION_Type.CHANGE_FLAG))
     self.Button_disband:setVisible(degree == EC_UNION_DEGREE_Type.HEAD)
+    self.Button_modify:setVisible(degree == EC_UNION_DEGREE_Type.HEAD)
+    self.panel_country_setting:getChildByName("bgPanel"):setTouchEnabled(degree == EC_UNION_DEGREE_Type.HEAD)
     self.Button_quit:setVisible(degree > EC_UNION_DEGREE_Type.HEAD)
     local openLimit = LeagueDataMgr:checkDegreeOwnPermission(degree, EC_UNION_PERMISSION_Type.OPEN_LIMIT)
     local openApply = LeagueDataMgr:checkDegreeOwnPermission(degree, EC_UNION_PERMISSION_Type.OPEN_APPLY)
     local openAutoJoin = LeagueDataMgr:checkDegreeOwnPermission(degree, EC_UNION_PERMISSION_Type.OPEN_AUTO_JOIN)
+    local openCountryShow =  degree == EC_UNION_DEGREE_Type.HEAD
     self.Panel_limit_level:setVisible(openLimit)
     self.Button_save_level:setTouchEnabled(openLimit)
     self.Button_save_level:setGrayEnabled(not openLimit)
-    for i=1,3 do
+    for i=1,4 do
         local btn = self.change_btns[i]
         local image_flag = self.change_flags[i]
         local saveState = LeagueDataMgr:getCurSettingStateByType(i)
@@ -438,6 +452,9 @@ function LeagueHallView:refreshPanelSetting()
         elseif i == 3 then
             btn:setTouchEnabled(openAutoJoin)
             image_flag:setGrayEnabled(not openAutoJoin)
+        elseif i == 4 then
+            btn:setTouchEnabled(openCountryShow)
+            image_flag:setGrayEnabled(not openCountryShow)
         end
     end
     self.Slider_level:setTouchEnabled(openLimit)
@@ -447,6 +464,7 @@ function LeagueHallView:refreshPanelSetting()
 
     local unionData = LeagueDataMgr:getMyUnionInfo()
     self.Label_league_name:setText(unionData.name)
+    Utils:updateClubCountryName(self.panel_country_setting , LeagueDataMgr:getClubCountryDataById(unionData.country).Countryabbreviations)
     self.Label_league_level:setText("Lv."..tostring(unionData.level))
     self.Label_notice:setText(LeagueDataMgr:getUnionNotice())
     local emblemCfg = LeagueDataMgr:getEmblemCfgById(LeagueDataMgr:getUionEmblem())
@@ -467,7 +485,7 @@ function LeagueHallView:updateChangeFlagState(idx)
             local saveState = LeagueDataMgr:getCurSettingStateByType(i)
             local changeType
             local param = ""
-            if saveState then 
+            if saveState  then 
                 param = "false"
             else
                 param = "true"
@@ -480,8 +498,10 @@ function LeagueHallView:updateChangeFlagState(idx)
                 param = param..","..limitLevel
                 self.Panel_limit_level:setVisible(not saveState)
                 self:updateLevelLimit()
-            else 
+            elseif i== 3 then
                 changeType = EC_UNION_EDIT_Type.OPEN_AUTO_JOIN
+            elseif i == 4 then
+                changeType = EC_UNION_EDIT_Type.SHOW_COUNTRY
             end
             LeagueDataMgr:UpdateUnionInfo(changeType, param)
 
@@ -567,6 +587,25 @@ function LeagueHallView:updateRedPoints()
     end
 end
 
+function LeagueHallView:onNameUpdate()
+    local Label_league_name = TFDirector:getChildByPath(self.Panel_infos, "Label_league_name")
+    local unionData = LeagueDataMgr:getMyUnionInfo()
+    if not unionData then
+        return
+    end
+    Label_league_name:setText(unionData.name)
+    self.Label_league_name:setText(unionData.name)
+end
+
+function LeagueHallView:onChangeCountry()
+    local unionData = LeagueDataMgr:getMyUnionInfo()
+    if not unionData then
+        return
+    end
+    Utils:updateClubCountryName(self.panel_country_info , LeagueDataMgr:getClubCountryDataById(unionData.country).Countryabbreviations)
+    Utils:updateClubCountryName(self.panel_country_setting , LeagueDataMgr:getClubCountryDataById(unionData.country).Countryabbreviations)
+end
+
 function LeagueHallView:registerEvents()
     EventMgr:addEventListener(self, EV_UNION_BASE_INFO_UPDATE, handler(self.refreshPanelInfos, self))
     EventMgr:addEventListener(self, EV_UNION_NOTIFY_UPDATE, handler(self.refreshPanelInfos, self))
@@ -580,6 +619,10 @@ function LeagueHallView:registerEvents()
     EventMgr:addEventListener(self, EV_UNION_FLAG_CHANGE, handler(self.onInfoChangeRefresh, self))
     EventMgr:addEventListener(self, EV_UNION_APPLY_UPDATE, handler(self.updateRedPoints, self))
     EventMgr:addEventListener(self, EV_UNION_INFO_RESET, handler(self.onInfoChangeRefresh, self))
+    EventMgr:addEventListener(self, EV_UNION_MODIFY_NAME, handler(self.onNameUpdate, self))
+    EventMgr:addEventListener(self, EV_UNION_CHANGE_COUNTRY, handler(self.onChangeCountry, self))
+
+    
     
     self.Slider_level:addMEListener(
         TFSLIDER_CHANGED,
@@ -678,6 +721,8 @@ function LeagueHallView:registerEvents()
         end)
     end
 
+    self.Button_modify:onClick(handler(self.modifyNameHandle, self))
+    self.Button_modify_name:onClick(handler(self.modifyNameHandle, self))
     local function onTouchBegan(touch, location)
         if self.Panel_operate_frame:isVisible() then
             self.Panel_operate_frame:setVisible(false)
@@ -696,6 +741,10 @@ function LeagueHallView:registerEvents()
     self.Panel_touch:addMEListener(TFWIDGET_TOUCHBEGAN, onTouchBegan)
     self.Panel_touch:addMEListener(TFWIDGET_TOUCHMOVED, onTouchMove)
     self.Panel_touch:addMEListener(TFWIDGET_TOUCHENDED, onTouchUp)
+end
+
+function LeagueHallView:modifyNameHandle(sender)
+    Utils:openView("league.LeagueModifyName")
 end
 
 return LeagueHallView

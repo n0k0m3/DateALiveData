@@ -15,6 +15,8 @@ function ChristmasPreView:initUI( ui )
     self.label_des = TFDirector:getChildByPath(ui,"label_des")
     self.label_des_ex = TFDirector:getChildByPath(ui,"label_des_ex")
 
+    self.label_des_ex:setFontColor(ccc3(255 , 255 , 255))
+
     self.label_number = TFDirector:getChildByPath(ui,"label_number")
     self.label_tip2 = TFDirector:getChildByPath(ui,"label_tip2")
 
@@ -69,10 +71,9 @@ function ChristmasPreView:updateBuyNum()
     if not self.activityInfo then
         return
     end
-    dump(self.activityInfo)
     local curPersonNum = self.activityInfo.extendData.buyCount or 0
-    self.label_des:setText(self.activityInfo.extendData.des)
-    self.label_des_ex:setText(self.activityInfo.extendData.des1)
+    self.label_des:setText(Utils:splitLanguageStringByTag(self.activityInfo.extendData.des))
+    self.label_des_ex:setText(Utils:splitLanguageStringByTag(self.activityInfo.extendData.des1))
     self.label_number:setTextById(270611, curPersonNum)
     local items = ActivityDataMgr2:getItems(self.activityId_)
     local maxItemId = items[#items]
@@ -122,6 +123,8 @@ function ChristmasPreView:updateItem(item, id)
     progressInfo.status = progressInfo.status or EC_TaskStatus.ING
     Image_ing:setVisible(progressInfo.status == EC_TaskStatus.ING)
     Image_geted:setVisible(progressInfo.status >= EC_TaskStatus.GET)
+    Label_get_num:setTextById(13310005)
+    
 
     local imageNames = string.split(itemInfo.extendData.icon,"|")
     if not imageNames then
@@ -168,6 +171,7 @@ function ChristmasPreView:updateSellInfo()
         local discountId = self.activityInfo.extendData.discountId
         local discountData = RechargeDataMgr:getOneRechargeCfg(discountId)
         self.Label_cur_price:setText(discountData.exchangeCost[1].num)
+
 
         local originalId = self.activityInfo.extendData.originalId
         local originalData = RechargeDataMgr:getOneRechargeCfg(originalId)
@@ -246,6 +250,8 @@ function ChristmasPreView:updateCountDonw()
     local _startyear, _startmonth, _startday = Utils:getDate(self.activityInfo.startTime, true)
     local _endyear, _endmonth, _endday = Utils:getDate(self.activityInfo.endTime, true)
     self.label_time:setText(_startyear..".".._startmonth .. "." .. _startday .. "-".._endyear..".".. _endmonth .. "." .. _endday)
+
+    self.label_time:setText(Utils:getActivityDateString(self.activityInfo.startTime, self.activityInfo.endTime, self.activityInfo.extendData.dateStyle))
 end
 
 function ChristmasPreView:onUpdateProgressEvent()

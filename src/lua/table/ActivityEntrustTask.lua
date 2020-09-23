@@ -2350,7 +2350,7 @@ return {
         relation = {
             [1] = 1015,
         },
-        des2 = "领取1次打工奖励",
+        des2 = "266219",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -2361,12 +2361,12 @@ return {
         inheritType = 3,
         speedAdd = {
         },
-        typeDes = "任务",
+        typeDes = "1454023",
         reward = "{500101:2}",
         id = 135701,
         progress = 1,
         open = 1,
-        des = "时间线索",
+        des = "190000180",
         type = 5,
         endingList = {
         },
@@ -2534,7 +2534,7 @@ return {
         relation = {
             [1] = 1015,
         },
-        des2 = "完成1次料理",
+        des2 = "12100017",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -2545,12 +2545,12 @@ return {
         inheritType = 3,
         speedAdd = {
         },
-        typeDes = "任务",
+        typeDes = "1454023",
         reward = "{500101:2}",
         id = 135702,
         progress = 1,
         open = 1,
-        des = "时间线索",
+        des = "190000180",
         type = 5,
         endingList = {
         },
@@ -2678,7 +2678,7 @@ return {
         relation = {
             [1] = 1015,
         },
-        des2 = "通关1次普通难度副本",
+        des2 = "12100018",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -2689,12 +2689,12 @@ return {
         inheritType = 3,
         speedAdd = {
         },
-        typeDes = "任务",
+        typeDes = "1454023",
         reward = "{500101:2}",
         id = 135703,
         progress = 1,
         open = 1,
-        des = "时间线索",
+        des = "190000180",
         type = 5,
         endingList = {
         },
@@ -2895,7 +2895,7 @@ return {
         relation = {
             [1] = 1015,
         },
-        des2 = "完成1次手工",
+        des2 = "266214",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -2906,12 +2906,12 @@ return {
         inheritType = 3,
         speedAdd = {
         },
-        typeDes = "任务",
+        typeDes = "1454023",
         reward = "{500101:2}",
         id = 135704,
         progress = 1,
         open = 1,
-        des = "时间线索",
+        des = "190000180",
         type = 5,
         endingList = {
         },
@@ -3039,7 +3039,7 @@ return {
         relation = {
             [1] = 1015,
         },
-        des2 = "通关1次困难难度副本",
+        des2 = "12100020",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -3050,12 +3050,12 @@ return {
         inheritType = 3,
         speedAdd = {
         },
-        typeDes = "任务",
+        typeDes = "1454023",
         reward = "{500101:2}",
         id = 135705,
         progress = 1,
         open = 1,
-        des = "时间线索",
+        des = "190000180",
         type = 5,
         endingList = {
         },
@@ -3256,7 +3256,7 @@ return {
         relation = {
             [1] = 1015,
         },
-        des2 = "赠送1次礼物",
+        des2 = "12100021",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -3267,12 +3267,12 @@ return {
         inheritType = 3,
         speedAdd = {
         },
-        typeDes = "任务",
+        typeDes = "1454023",
         reward = "{500101:2}",
         id = 135706,
         progress = 1,
         open = 1,
-        des = "时间线索",
+        des = "190000180",
         type = 5,
         endingList = {
         },
@@ -3619,7 +3619,7 @@ return {
         relation = {
             [1] = 1015,
         },
-        des2 = "完成任意1次日常约会",
+        des2 = "190000169",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -3630,12 +3630,12 @@ return {
         inheritType = 3,
         speedAdd = {
         },
-        typeDes = "任务",
+        typeDes = "1454023",
         reward = "{500101:2}",
         id = 135708,
         progress = 1,
         open = 1,
-        des = "时间线索",
+        des = "190000180",
         type = 5,
         endingList = {
         },
@@ -3977,36 +3977,36 @@ return {
     },
     [135710] = {
         bgShow = "",
-        finishCondId = 17002,
+        finishCondId = 12003,
         group = 0,
         unlock = {
         },
         relation = {
             [1] = 1015,
         },
-        des2 = "使用夏拉姆转盘1次",
+        des2 = "266206",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
         chance = 100,
-        jumpInterface = 112,
+        jumpInterface = 33,
         icon = "",
         preCondition = 0,
         inheritType = 3,
         speedAdd = {
         },
-        typeDes = "任务",
+        typeDes = "1454023",
         reward = "{500101:2}",
         id = 135710,
         progress = 1,
         open = 1,
-        des = "时间线索",
+        des = "190000180",
         type = 5,
         endingList = {
         },
         iconShow = "icon/item/goods/500101.png",
         times = true,
-        finishParams = "{\"summonType\":10}",
+        finishParams = "{\"datingType\":30}",
         datingScriptId = 0,
         taskParam = "",
         rank = 10,
@@ -4092,7 +4092,7 @@ return {
         relation = {
             [1] = 1015,
         },
-        des2 = "完成D级或D级以上符石挑战1次",
+        des2 = "190000170",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -4103,12 +4103,12 @@ return {
         inheritType = 3,
         speedAdd = {
         },
-        typeDes = "任务",
+        typeDes = "1454023",
         reward = "{500101:2}",
         id = 135711,
         progress = 1,
         open = 1,
-        des = "时间线索",
+        des = "190000180",
         type = 5,
         endingList = {
         },
@@ -4128,7 +4128,7 @@ return {
         relation = {
             [1] = 1015,
         },
-        des2 = "通关组队副本1次",
+        des2 = "12100024",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -4139,12 +4139,12 @@ return {
         inheritType = 3,
         speedAdd = {
         },
-        typeDes = "任务",
+        typeDes = "1454023",
         reward = "{500101:2}",
         id = 135709,
         progress = 1,
         open = 1,
-        des = "时间线索",
+        des = "190000180",
         type = 5,
         endingList = {
         },
@@ -4312,7 +4312,7 @@ return {
         relation = {
             [1] = 1015,
         },
-        des2 = "通关1次地狱难度副本",
+        des2 = "12100022",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -4323,12 +4323,12 @@ return {
         inheritType = 3,
         speedAdd = {
         },
-        typeDes = "任务",
+        typeDes = "1454023",
         reward = "{500101:2}",
         id = 135707,
         progress = 1,
         open = 1,
-        des = "时间线索",
+        des = "190000180",
         type = 5,
         endingList = {
         },
@@ -4571,7 +4571,7 @@ return {
         relation = {
             [1] = 1015,
         },
-        des2 = "完成B级或B级以上符石挑战1次",
+        des2 = "190000171",
         resetType = 1,
         consume = 0,
         nextCondition = 0,
@@ -4582,12 +4582,12 @@ return {
         inheritType = 3,
         speedAdd = {
         },
-        typeDes = "任务",
+        typeDes = "1454023",
         reward = "{500101:2}",
         id = 135712,
         progress = 1,
         open = 1,
-        des = "时间线索",
+        des = "190000180",
         type = 5,
         endingList = {
         },

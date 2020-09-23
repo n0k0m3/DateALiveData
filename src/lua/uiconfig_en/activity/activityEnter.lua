@@ -112,7 +112,7 @@ local t =
 									controlID = "label_date_Image_bg_Panel_root_Panel-activityEnter_kuangsanFuben_activity_Game",
 									UUID = "07cf6456_085e_4f7b_b182_8088b532759e",
 									anchorPoint = "False",
-									anchorPointX = "0.5",
+									anchorPointX = "0",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -127,19 +127,18 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = true,
 										StrokeColor = "#FF3A1316",
 										StrokeSize = 1,
 									},
-									height = "0",
-									ignoreSize = "False",
+									height = "24",
+									ignoreSize = "True",
 									name = "label_date",
 									nTextAlign = "0",
 									nTextHAlign = "0",
-									rotation = "-12",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -149,10 +148,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -391,
-										PositionY = 213,
+										PositionX = -450,
+										PositionY = 216,
 									},
-									width = "77",
+									width = "118",
 									ZOrder = "1",
 								},
 								{
@@ -206,15 +205,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_btn",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -229,7 +228,7 @@ local t =
 											{
 												
 											},
-											width = "53",
+											width = "84",
 											ZOrder = "1",
 										},
 									},

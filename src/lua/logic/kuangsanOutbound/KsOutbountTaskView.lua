@@ -104,7 +104,7 @@ function KsOutbountTaskView:refreshView()
         local data = self.task_[i]
         local item = self.taskItems[v]
         local progressInfo = ActivityDataMgr2:getProgressInfo(self.activityInfo.activityType, data.id)
-        item.itemLabTip:setText(data.extendData.des2)
+        item.itemLabTip:setTextById(data.extendData.des2 , data.target or "")
         item.labProcesShow:setPositionX(item.itemLabTip:getContentSize().width)
         item.labProcesShow:setText("("..progressInfo.progress.."/"..data.target..")")
         

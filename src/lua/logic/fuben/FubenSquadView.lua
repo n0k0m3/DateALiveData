@@ -222,6 +222,9 @@ function FubenSquadView:initKsanLevelData(data)
     self.score = data.score
     self.pass = data.dunPass
 
+    local activityId = ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.KUANGSAN_FUBEN)[1]
+    self.ksanFubenActivityInfo  = ActivityDataMgr2:getActivityInfo(activityId)
+
     self:initFormationData()
 end
 
@@ -290,6 +293,7 @@ function FubenSquadView:initUI(ui)
     self.Image_card_cost = TFDirector:getChildByPath(self.Panel_prefab, "Image_card_cost")
 
     self.Panel_formation = TFDirector:getChildByPath(self.Panel_root, "Panel_formation"):hide()
+    self.Image_kSanFuben:setVisible(self.fubenType_ == EC_FBType.KSAN_FUBEN)
     local Panel_formation1 = TFDirector:getChildByPath(self.Panel_root, "Panel_formation1"):hide()
     if self.fubenType_ == EC_FBType.KSAN_FUBEN then
         self.Panel_formation = Panel_formation1
@@ -341,6 +345,13 @@ function FubenSquadView:initUI(ui)
     self.Label_myTeam = TFDirector:getChildByPath(self.Panel_formation, "Label_myTeam")
     self.Label_myTeam2 = TFDirector:getChildByPath(self.Panel_formation, "Label_myTeam2")
     self.Label_captain = TFDirector:getChildByPath(self.Panel_formation, "Label_captain")
+
+    if self.fubenType_ == EC_FBType.KSAN_FUBEN then
+        self.Label_myTeam:setColor(ccc3(191,56,58))
+        self.Label_myTeam2:setColor(ccc3(191,56,58))
+        self.Label_captain:setColor(ccc3(191,56,58))
+    end
+
     self.Panel_member = {}
     for i = 1, 3 do
         local item = {}
@@ -377,7 +388,10 @@ function FubenSquadView:initUI(ui)
         item.panel_element = Utils:createElementPanel(item.Panel_role , 1 , startPos , nil , 0.5)
 
         --item.Panel_mojin_coin = TFDirector:getChildByPath(item.Panel_role, "Panel_mojin_coin"):hide()
-
+	   item.Panel_ksan_coin = TFDirector:getChildByPath(item.Panel_role, "Panel_ksan_coin"):hide()
+        if self.fubenType_ == EC_FBType.KSAN_FUBEN then
+            item.Button_add:setTextureNormal("ui/activity/kuangsan_fuben/fightReady/006.png")
+        end
         self.Panel_member[i] = item
     end
 
@@ -1567,9 +1581,26 @@ function FubenSquadView:updateFormation()
                 v.Label_disable_type:setTextById(100000039)
             end
             --更新克制icon
+            v.Panel_ksan_coin:hide()
             PrefabDataMgr:setInfo(v.panel_element , heroData.magicAttribute)
 
             -- v.Panel_mojin_coin:hide()
+	    if self.fubenType_ == EC_FBType.KSAN_FUBEN then
+                dump(self.ksanFubenActivityInfo.extendData.herobonus)
+                local herobonus = self.ksanFubenActivityInfo.extendData.herobonus or {}
+                for heroId,bonus in pairs(herobonus) do
+                    if tonumber(heroId) == heroData.id then
+                        v.Panel_ksan_coin:show()
+                        for itemId,buff in pairs(bonus) do
+                            local itemCfg = GoodsDataMgr:getItemCfg(tonumber(itemId))
+                            TFDirector:getChildByPath(v.Panel_ksan_coin, "Image_coin"):setScale(0.4)
+                            TFDirector:getChildByPath(v.Panel_ksan_coin, "Image_coin"):setTexture(itemCfg.icon)
+                            TFDirector:getChildByPath(v.Panel_ksan_coin, "Label_coin_buff"):setTextById(buff <= 10 and 12033022 or 12033042)
+                            break
+                        end
+                    end
+                end
+	    end
             -- if self.fubenType_ == EC_FBType.NEWYEAR_FUBEN then
             --     local herobonus = self.mojinActivityInfo.extendData.herobonus
             --     for heroId,bonus in pairs(herobonus) do

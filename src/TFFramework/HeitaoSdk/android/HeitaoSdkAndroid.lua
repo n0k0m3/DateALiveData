@@ -730,4 +730,16 @@ function HeitaoSdk.getUIUserInterfaceStyleDark( )
     return "-1"
 end
 
+function HeitaoSdk.reportNetworkData( url )
+    local ok,ret;
+    if CC_TARGET_PLATFORM == CC_PLATFORM_IOS then
+        ok,ret = TFLuaOcJava.callStaticMethod(HeitaoSdk.classname, "reportNetworkData", {url = url});
+    elseif CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID then
+        ok,ret = TFLuaOcJava.callStaticMethod(HeitaoSdk.classname, "reportNetworkData", {url}, "(Ljava/lang/String;)V");
+    end
+
+    return HeitaoSdk.checkResult(ok,ret)
+end
+
+
 return HeitaoSdk
