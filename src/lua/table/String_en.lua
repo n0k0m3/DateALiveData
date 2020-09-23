@@ -83085,7 +83085,7 @@ return {
     },
     [2202210] = {
         id = 2202210,
-        text = "With deeper understanding of angle, Kurumi uses Zafkiel's Handles to launch dance-like attack. The skill inflicts Dark DMG equal to 250% of the character's ATK",
+        text = "With deeper understanding of angel, Kurumi uses Zafkiel's Handles to launch dance-like attack. The skill inflicts Dark DMG equal to 250% of the character's ATK",
     },
     [300590] = {
         id = 300590,

@@ -1411,13 +1411,12 @@ function MainLayer:registerEvents()
 	
 
     self.tiliAdd:onClick(function()
-            -- local itemCfg = GoodsDataMgr:getItemCfg(EC_SItemType.POWER)
-            -- if StoreDataMgr:canContinueBuyItemRecover(itemCfg.buyItemRecover) then
-            --      Utils:openView("common.BuyTiliLayer", itemCfg.id)
-            -- else
-            --     Utils:showTips(800021)
-            -- end
-            Utils:openView("league.LeagueCountrySelectView")
+            local itemCfg = GoodsDataMgr:getItemCfg(EC_SItemType.POWER)
+            if StoreDataMgr:canContinueBuyItemRecover(itemCfg.buyItemRecover) then
+                 Utils:openView("common.BuyTiliLayer", itemCfg.id)
+            else
+                Utils:showTips(800021)
+            end
     end)
     self.goldAdd:onClick(function()
             local itemCfg = GoodsDataMgr:getItemCfg(EC_SItemType.GOLD)
