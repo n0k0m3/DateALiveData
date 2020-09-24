@@ -472,7 +472,7 @@ function MainLayer:initUI(ui)
 		else
 			self.Association_TextArea_name:show()
                 local countryStr = ""
-                if unionData.showCountry then
+                if unionData.showCountry and tonumber(unionData.country)>0 then
                     countryStr = " ("..LeagueDataMgr:getClubCountryDataById(unionData.country).Countryabbreviations..")"
                 end
 			self.Association_TextArea_name:setText(unionData.name..countryStr)
@@ -2507,7 +2507,7 @@ function MainLayer:onRedPointUpdateUnion()
 		else
 			self.Association_TextArea_name:show()
             local countryStr = ""
-            if unionData.showCountry then
+            if unionData.showCountry and tonumber(unionData.country) > 0 then
                 countryStr = " ("..LeagueDataMgr:getClubCountryDataById(unionData.country).Countryabbreviations..")"
             end
 			self.Association_TextArea_name:setText(unionData.name .. countryStr)

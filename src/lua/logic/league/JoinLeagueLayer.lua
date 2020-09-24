@@ -123,7 +123,7 @@ function JoinLeagueLayer:updateLeagueItem(item, data)
 
 
     local countryStr = ""
-    if data.showCountry then
+    if data.showCountry and tonumber(data.country) > 0 then
         countryStr = " ("..LeagueDataMgr:getClubCountryDataById(data.country).Countryabbreviations..")"
     end
     

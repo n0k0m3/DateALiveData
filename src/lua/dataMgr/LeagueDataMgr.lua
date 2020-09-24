@@ -1268,7 +1268,7 @@ function LeagueDataMgr:getUnionName()
     end
     if self.myUnionData_.showCountry then
         local countryStr = ""
-        if self.myUnionData_.showCountry then
+        if self.myUnionData_.showCountry and tonumber(self.myUnionData_.country) > 0 then
             countryStr = " ("..self:getClubCountryDataById(self.myUnionData_.country).Countryabbreviations..")"
         end
         return self.myUnionData_.name..countryStr

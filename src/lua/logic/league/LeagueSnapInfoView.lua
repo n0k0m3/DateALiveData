@@ -32,7 +32,7 @@ function LeagueSnapInfoView:initContent()
     self.Button_apply:setGrayEnabled(self.snapInfo_.memberCount >= self.snapInfo_.memberCountMax)
 
     local countryStr = ""
-    if self.snapInfo_.showCountry then
+    if self.snapInfo_.showCountry and tonumber(self.snapInfo_.country)>0 then
         countryStr = " ("..LeagueDataMgr:getClubCountryDataById(self.snapInfo_.country).Countryabbreviations..")"
     end
     self.Label_league_name:setText(self.snapInfo_.name..countryStr)
