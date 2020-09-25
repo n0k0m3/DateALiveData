@@ -48,6 +48,7 @@ function LoginScene:showVideoView(re)
 		videoPth1 = "video/loginPart1.mp4"
 		videoPth2 = "video/loginPart2.mp4"
 	end
+	
 
 	if self.videoView or re then
 		
@@ -117,6 +118,7 @@ function LoginScene:addCustomLayer(layer)
 		self.videoView:addCustomLayer(layer,999)
 	end
 end
+
 
 function LoginScene:onExit()
 	self.super.onExit(self)

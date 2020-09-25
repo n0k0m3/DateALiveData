@@ -10999,13 +10999,13 @@ return {
         id = 22091,
         text = "Kotori Sephira Chest",
     },
-    [25163] = {
-        id = 25163,
-        text = "Christmas Key",
-    },
     [190000181] = {
         id = 190000181,
         text = "Country settings",
+    },
+    [25163] = {
+        id = 25163,
+        text = "Christmas Key",
     },
     [190000180] = {
         id = 190000180,
@@ -11031,10 +11031,6 @@ return {
         id = 190000175,
         text = "There is currently no email. Go battle and get the reward email!",
     },
-    [63637] = {
-        id = 63637,
-        text = "Out of chances",
-    },
     [190000174] = {
         id = 190000174,
         text = "You don’t have friends. Go add now.",
@@ -11059,6 +11055,10 @@ return {
         id = 190000169,
         text = "Complete any daily date",
     },
+    [63637] = {
+        id = 63637,
+        text = "Out of chances",
+    },
     [190000168] = {
         id = 190000168,
         text = "Rookie Booster Supply",
@@ -11067,17 +11067,9 @@ return {
         id = 190000167,
         text = "Summon %s times in Crimson Nightmare summon pool",
     },
-    [10022] = {
-        id = 10022,
-        text = "Tank",
-    },
     [190000166] = {
         id = 190000166,
         text = "Get %s resources in the city",
-    },
-    [42134] = {
-        id = 42134,
-        text = "A Class Energy Gem, obtain it to get an A Class Gem for a random skill of [Shekhinah Tohka]. (Auto used once obtained)",
     },
     [190000165] = {
         id = 190000165,
@@ -11099,13 +11091,17 @@ return {
         id = 190000161,
         text = "Auto-renew Service can be unsubscribed",
     },
-    [12070] = {
-        id = 12070,
-        text = "Mii Fujibakama",
+    [10022] = {
+        id = 10022,
+        text = "Tank",
     },
     [190000160] = {
         id = 190000160,
         text = "The ranking rewards will be sent via email after the event ends",
+    },
+    [42134] = {
+        id = 42134,
+        text = "A Class Energy Gem, obtain it to get an A Class Gem for a random skill of [Shekhinah Tohka]. (Auto used once obtained)",
     },
     [190000159] = {
         id = 190000159,
@@ -11114,10 +11110,6 @@ return {
     [190000158] = {
         id = 190000158,
         text = "Limited",
-    },
-    [13094] = {
-        id = 13094,
-        text = "Daily Pray Reward",
     },
     [190000157] = {
         id = 190000157,
@@ -11131,6 +11123,10 @@ return {
         id = 190000155,
         text = "You are now officially a part of the DAL SP FAN CULT",
     },
+    [12070] = {
+        id = 12070,
+        text = "Mii Fujibakama",
+    },
     [190000154] = {
         id = 190000154,
         text = "Fan Cult",
@@ -11142,6 +11138,10 @@ return {
     [190000152] = {
         id = 190000152,
         text = "Top Fan",
+    },
+    [13094] = {
+        id = 13094,
+        text = "Daily Pray Reward",
     },
     [190000151] = {
         id = 190000151,
@@ -11158,10 +11158,6 @@ return {
     [190000148] = {
         id = 190000148,
         text = "Neko Kurumi CG",
-    },
-    [63638] = {
-        id = 63638,
-        text = "Do you want to spend %d<img src='%s'></img> to mock summon",
     },
     [190000147] = {
         id = 190000147,
@@ -11187,6 +11183,10 @@ return {
         id = 190000142,
         text = "Download Now",
     },
+    [63638] = {
+        id = 63638,
+        text = "Do you want to spend %d<img src='%s'></img> to mock summon",
+    },
     [190000141] = {
         id = 190000141,
         text = "Download Later",
@@ -11195,25 +11195,13 @@ return {
         id = 190000140,
         text = "Version Update",
     },
-    [20044] = {
-        id = 20044,
-        text = "Type: Costume\nOwner: Natsumi\nIt is as elegant as dark night. Natsumi gains this after transformation, which even changes her personality.",
-    },
     [190000139] = {
         id = 190000139,
         text = "Data Update",
     },
-    [42135] = {
-        id = 42135,
-        text = "S Class Energy Gem, obtain it to get an S Class Gem for a random skill of [Shekhinah Tohka]. (Auto used once obtained)",
-    },
     [190000138] = {
         id = 190000138,
         text = "Detecting the latest resource",
-    },
-    [22092] = {
-        id = 22092,
-        text = "Open and get the 5-star set Sephiroth for Kotori: Scorch: Wind Embers, Scorch: Scarlet Embrace, and Scorch: Exorcist's End",
     },
     [190000137] = {
         id = 190000137,
@@ -11231,17 +11219,25 @@ return {
         id = 190000134,
         text = "Whoaaa, there is no materials in the bag. Get it in stages",
     },
+    [20044] = {
+        id = 20044,
+        text = "Type: Costume\nOwner: Natsumi\nIt is as elegant as dark night. Natsumi gains this after transformation, which even changes her personality.",
+    },
     [190000133] = {
         id = 190000133,
         text = "Whoaaa, there is no crystal in the bag. Get it in stages",
     },
-    [25164] = {
-        id = 25164,
-        text = "A special Christmas event item, collect enough of it to get all rare rewards on the Lucky Christmas Tree!",
+    [42135] = {
+        id = 42135,
+        text = "S Class Energy Gem, obtain it to get an S Class Gem for a random skill of [Shekhinah Tohka]. (Auto used once obtained)",
     },
     [190000132] = {
         id = 190000132,
         text = "Whoaaa, there is no fragment in the bag. Get it in stages",
+    },
+    [22092] = {
+        id = 22092,
+        text = "Open and get the 5-star set Sephiroth for Kotori: Scorch: Wind Embers, Scorch: Scarlet Embrace, and Scorch: Exorcist's End",
     },
     [190000131] = {
         id = 190000131,
@@ -11262,6 +11258,10 @@ return {
     [190000127] = {
         id = 190000127,
         text = "Request Supplies!",
+    },
+    [25164] = {
+        id = 25164,
+        text = "A special Christmas event item, collect enough of it to get all rare rewards on the Lucky Christmas Tree!",
     },
     [190000126] = {
         id = 190000126,
@@ -11287,10 +11287,6 @@ return {
         id = 190000118,
         text = "One limited CG for Full Moon Festival event",
     },
-    [63639] = {
-        id = 63639,
-        text = "(Official Server)",
-    },
     [281051] = {
         id = 281051,
         text = "Use to swear a 3-day oath with Kotori Itsuka",
@@ -11315,6 +11311,10 @@ return {
         id = 471027,
         text = "# turns 3% DMG dealt into HP",
     },
+    [63639] = {
+        id = 63639,
+        text = "(Official Server)",
+    },
     [190000111] = {
         id = 190000111,
         text = "Your unclaimed reward for buying Oath Pack is attached below.",
@@ -11330,6 +11330,30 @@ return {
     [266534] = {
         id = 266534,
         text = "Get the Costume - \"End of the World\" to activate this avatar frame",
+    },
+    [3210032] = {
+        id = 3210032,
+        text = "Spiritual DMG +7%",
+    },
+    [10131036] = {
+        id = 10131036,
+        text = "Spot Weakness: Boss",
+    },
+    [10221114] = {
+        id = 10221114,
+        text = "Code",
+    },
+    [190000104] = {
+        id = 190000104,
+        text = "Costume Pack",
+    },
+    [2460016] = {
+        id = 2460016,
+        text = "Stay with the one you like brings good luck? - Then stay with me forever~",
+    },
+    [190000102] = {
+        id = 190000102,
+        text = "Event Limited",
     },
     [42136] = {
         id = 42136,
@@ -11363,30 +11387,6 @@ return {
         id = 4007011,
         text = "Badge Gallery",
     },
-    [3210032] = {
-        id = 3210032,
-        text = "Spiritual DMG +7%",
-    },
-    [10131036] = {
-        id = 10131036,
-        text = "Spot Weakness: Boss",
-    },
-    [10221114] = {
-        id = 10221114,
-        text = "Code",
-    },
-    [190000104] = {
-        id = 190000104,
-        text = "Costume Pack",
-    },
-    [2460016] = {
-        id = 2460016,
-        text = "Stay with the one you like brings good luck? - Then stay with me forever~",
-    },
-    [190000102] = {
-        id = 190000102,
-        text = "Event Limited",
-    },
     [190000101] = {
         id = 190000101,
         text = "This miraculous item reduces the price of token packs by 10% in Battle Pass.",
@@ -11415,10 +11415,6 @@ return {
         id = 190000095,
         text = "This miraculous item reduces the price of token packs by 70% in Battle Pass.",
     },
-    [63640] = {
-        id = 63640,
-        text = "(Channel Server)",
-    },
     [190000094] = {
         id = 190000094,
         text = "This miraculous item reduces the price of token packs by 80% in Battle Pass.",
@@ -11443,6 +11439,10 @@ return {
         id = 190000089,
         text = "40% Off Voucher",
     },
+    [63640] = {
+        id = 63640,
+        text = "(Channel Server)",
+    },
     [190000086] = {
         id = 190000086,
         text = "70% Off Voucher",
@@ -11451,25 +11451,13 @@ return {
         id = 190000085,
         text = "80% Off Voucher",
     },
-    [20045] = {
-        id = 20045,
-        text = "Adonai Tzabaoth",
-    },
     [190000084] = {
         id = 190000084,
         text = "90% Off Voucher",
     },
-    [42137] = {
-        id = 42137,
-        text = "SSS Class Energy Gem, obtain it to get a SSS Class Gem for a random skill of [Shekhinah Tohka]. (Auto used once obtained)",
-    },
     [901205] = {
         id = 901205,
         text = "Lovers' clothes?",
-    },
-    [22093] = {
-        id = 22093,
-        text = "Blue Rank Up Item",
     },
     [190000082] = {
         id = 190000082,
@@ -11487,17 +11475,25 @@ return {
         id = 1240011,
         text = "T1 Runestone",
     },
+    [20045] = {
+        id = 20045,
+        text = "Adonai Tzabaoth",
+    },
     [190000078] = {
         id = 190000078,
         text = "Countdown: %sh %sm %ss",
     },
-    [25165] = {
-        id = 25165,
-        text = "Event Points",
+    [42137] = {
+        id = 42137,
+        text = "SSS Class Energy Gem, obtain it to get a SSS Class Gem for a random skill of [Shekhinah Tohka]. (Auto used once obtained)",
     },
     [2106038] = {
         id = 2106038,
         text = "DMG +15%",
+    },
+    [22093] = {
+        id = 22093,
+        text = "Blue Rank Up Item",
     },
     [266533] = {
         id = 266533,
@@ -11518,6 +11514,10 @@ return {
     [190000072] = {
         id = 190000072,
         text = "Kurumi's Gift",
+    },
+    [25165] = {
+        id = 25165,
+        text = "Event Points",
     },
     [10403082] = {
         id = 10403082,
@@ -11543,13 +11543,9 @@ return {
         id = 11201033,
         text = "Crit",
     },
-    [63641] = {
-        id = 63641,
-        text = "Server Rebate",
-    },
     [12000075] = {
         id = 12000075,
-        text = "Run Info Tohka",
+        text = "Run Into Tohka",
     },
     [190000064] = {
         id = 190000064,
@@ -11571,6 +11567,10 @@ return {
         id = 190000060,
         text = "Nice to meet you. Welcome to Tengu City! ",
     },
+    [63641] = {
+        id = 63641,
+        text = "Server Rebate",
+    },
     [100000331] = {
         id = 100000331,
         text = "Spin specified times to unlock following gift box",
@@ -11578,10 +11578,6 @@ return {
     [190000054] = {
         id = 190000054,
         text = "You can buy this avatar frame at the Exclusive Pack in Month Card in September.",
-    },
-    [10023] = {
-        id = 10023,
-        text = "Support",
     },
     [190000053] = {
         id = 190000053,
@@ -11607,13 +11603,13 @@ return {
         id = 266240,
         text = "Login Streak, Day 7",
     },
+    [10023] = {
+        id = 10023,
+        text = "Support",
+    },
     [100052] = {
         id = 100052,
         text = "",
-    },
-    [12071] = {
-        id = 12071,
-        text = "Commuter - Male 1",
     },
     [190000046] = {
         id = 190000046,
@@ -11627,10 +11623,6 @@ return {
         id = 3004016,
         text = "Improving",
     },
-    [13095] = {
-        id = 13095,
-        text = "Daily Pray Reward",
-    },
     [3210030] = {
         id = 3210030,
         text = "Tempest DMG +15%",
@@ -11643,9 +11635,9 @@ return {
         id = 190000041,
         text = "Favor Lv.%s",
     },
-    [110000379] = {
-        id = 110000379,
-        text = "한정 패키지",
+    [12071] = {
+        id = 12071,
+        text = "Commuter - Male 1",
     },
     [190000040] = {
         id = 190000040,
@@ -11659,25 +11651,25 @@ return {
         id = 190000038,
         text = "Clear daily instance once",
     },
+    [13095] = {
+        id = 13095,
+        text = "Daily Pray Reward",
+    },
     [10703087] = {
         id = 10703087,
         text = "[Death Thorn] Fires 10 wind arrows that pierce targets. \nInflicts Tempest DMG equal to 500% ATK over 11 strikes.",
-    },
-    [213601] = {
-        id = 213601,
-        text = "Timeout!",
     },
     [10103041] = {
         id = 10103041,
         text = "[Sky Breaker] ATK Range +20%. \nInflicts Physical DMG equal to 550% ATK over 3 attacks.",
     },
-    [63642] = {
-        id = 63642,
-        text = "1. During Server Rebate event, you will get rebate packs for buying event packs enough times. \n\n2. Some rebate packs are available to those who have bought event packs.\n",
-    },
     [11000205] = {
         id = 11000205,
         text = "Go to visit the shrine together.",
+    },
+    [110000379] = {
+        id = 110000379,
+        text = "한정 패키지",
     },
     [11201034] = {
         id = 11201034,
@@ -11695,41 +11687,25 @@ return {
         id = 13300152,
         text = "This gift... is from that girl... bathing in the sun...",
     },
-    [213602] = {
-        id = 213602,
-        text = "There are incomplete events. Please enter the event again.",
+    [213601] = {
+        id = 213601,
+        text = "Timeout!",
     },
     [13400259] = {
         id = 13400259,
         text = "Use it to exchange various items in the café.",
     },
+    [63642] = {
+        id = 63642,
+        text = "1. During Server Rebate event, you will get rebate packs for buying event packs enough times. \n\n2. Some rebate packs are available to those who have bought event packs.\n",
+    },
     [190000029] = {
         id = 190000029,
         text = "Total Spin: %d",
     },
-    [20046] = {
-        id = 20046,
-        text = "Type: Costume\nOwner: Natsumi\nAn Astral Dress as raw as uncut gem. After left unattended for a long time, her hair is unkempt.",
-    },
-    [41115] = {
-        id = 41115,
-        text = "S Class Gem Scroll, obtain it to get a S Class Gem Scroll for a random skill of [Inverse Tohka]. (Auto used once obtained)",
-    },
-    [21070] = {
-        id = 21070,
-        text = "Type: Astral Dress\nOwner: Spirit Origami\nIt looks like a wedding dress and a white veil. The golden feather-like pillars around her can shoot out beams of light.",
-    },
     [190000028] = {
         id = 190000028,
         text = "The ball exuding mysterious power seems to be able to be used to summon mysterious objects. ",
-    },
-    [22094] = {
-        id = 22094,
-        text = "Acquires a random Blue item that can rank up Blue and Green Bonds items.",
-    },
-    [213603] = {
-        id = 213603,
-        text = "Plot not unlocked",
     },
     [190000027] = {
         id = 190000027,
@@ -11743,25 +11719,41 @@ return {
         id = 190000021,
         text = "The reward in current grid has been obtained and cannot be obtained repeatedly",
     },
+    [213602] = {
+        id = 213602,
+        text = "There are incomplete events. Please enter the event again.",
+    },
     [190000020] = {
         id = 190000020,
         text = "The selected number exceeds the allowable range",
-    },
-    [25166] = {
-        id = 25166,
-        text = "A special item for the Time Corridor event, used to exchange resources to enhance keepsakes and rare New Year avatar frames!",
     },
     [1320530] = {
         id = 1320530,
         text = "Clear normal instance 300 times",
     },
+    [20046] = {
+        id = 20046,
+        text = "Type: Costume\nOwner: Natsumi\nAn Astral Dress as raw as uncut gem. After left unattended for a long time, her hair is unkempt.",
+    },
+    [41115] = {
+        id = 41115,
+        text = "S Class Gem Scroll, obtain it to get a S Class Gem Scroll for a random skill of [Inverse Tohka]. (Auto used once obtained)",
+    },
+    [21070] = {
+        id = 21070,
+        text = "Type: Astral Dress\nOwner: Spirit Origami\nIt looks like a wedding dress and a white veil. The golden feather-like pillars around her can shoot out beams of light.",
+    },
     [1605011] = {
         id = 1605011,
         text = "Sign In",
     },
-    [213604] = {
-        id = 213604,
-        text = "Illegal interference with story plot",
+    [22094] = {
+        id = 22094,
+        text = "Acquires a random Blue item that can rank up Blue and Green Bonds items.",
+    },
+    [213603] = {
+        id = 213603,
+        text = "Plot not unlocked",
     },
     [190000017] = {
         id = 190000017,
@@ -11770,6 +11762,38 @@ return {
     [901065] = {
         id = 901065,
         text = "Favor reaches 1500",
+    },
+    [265012] = {
+        id = 265012,
+        text = "Ellen Mathers",
+    },
+    [190000014] = {
+        id = 190000014,
+        text = "You can specify any number of dice moves for the next roll",
+    },
+    [25166] = {
+        id = 25166,
+        text = "A special item for the Time Corridor event, used to exchange resources to enhance keepsakes and rare New Year avatar frames!",
+    },
+    [2106041] = {
+        id = 2106041,
+        text = "Pierce Rate +15%",
+    },
+    [190000012] = {
+        id = 190000012,
+        text = "Double",
+    },
+    [213604] = {
+        id = 213604,
+        text = "Illegal interference with story plot",
+    },
+    [3210031] = {
+        id = 3210031,
+        text = "Spiritual DMG +6%",
+    },
+    [10131035] = {
+        id = 10131035,
+        text = "Spot Weakness: Boss",
     },
     [1250001] = {
         id = 1250001,
@@ -11887,30 +11911,6 @@ return {
         id = 1250029,
         text = "Crafting material, used to pray for Malkuth Sephiroth.",
     },
-    [265012] = {
-        id = 265012,
-        text = "Ellen Mathers",
-    },
-    [190000014] = {
-        id = 190000014,
-        text = "You can specify any number of dice moves for the next roll",
-    },
-    [2106041] = {
-        id = 2106041,
-        text = "Pierce Rate +15%",
-    },
-    [190000012] = {
-        id = 190000012,
-        text = "Double",
-    },
-    [3210031] = {
-        id = 3210031,
-        text = "Spiritual DMG +6%",
-    },
-    [10131035] = {
-        id = 10131035,
-        text = "Spot Weakness: Boss",
-    },
     [10221113] = {
         id = 10221113,
         text = "Burning Mark",
@@ -11926,10 +11926,6 @@ return {
     [190000006] = {
         id = 190000006,
         text = "Dice",
-    },
-    [63644] = {
-        id = 63644,
-        text = "Upgrade Covenant",
     },
     [10703088] = {
         id = 10703088,
@@ -11954,6 +11950,34 @@ return {
     [111000454] = {
         id = 111000454,
         text = "Owned: %d",
+    },
+    [63644] = {
+        id = 63644,
+        text = "Upgrade Covenant",
+    },
+    [111000123] = {
+        id = 111000123,
+        text = "%smonth %sd-%smonth %sd",
+    },
+    [111000122] = {
+        id = 111000122,
+        text = "진급 완료",
+    },
+    [111000121] = {
+        id = 111000121,
+        text = "%smonth %sd %sh",
+    },
+    [111000120] = {
+        id = 111000120,
+        text = "S%s 시즌 종료 시간",
+    },
+    [11103049] = {
+        id = 11103049,
+        text = "[Inverted Cloud] Skill DMG +10%.",
+    },
+    [111000118] = {
+        id = 111000118,
+        text = "현재 퀘스트 완료",
     },
     [19023] = {
         id = 19023,
@@ -41359,9 +41383,9 @@ return {
         id = 111000055,
         text = "AA급 정령 파편 선택상자",
     },
-    [11103049] = {
-        id = 11103049,
-        text = "[Inverted Cloud] Skill DMG +10%.",
+    [111000119] = {
+        id = 111000119,
+        text = "주간 퀘스트는 다음주 월요일 0시에 개방할 예정입니다.",
     },
     [1454001] = {
         id = 1454001,
@@ -62357,7 +62381,7 @@ return {
     },
     [63014] = {
         id = 63014,
-        text = "The game has no shortage of various events, like quest event where you will win big after meeting quest conditions and store event where you can exchange collected items for event items. Pay close attention to in-game bulletin and other notices. \n\nThe counting method of Total Top-up event is rounding up. E.g. top up $0.99 will be counted as $1. \n\nDuring costume pre-sale event, the more people participating in the pre-sale, the higher the discount.\nThe cumulative number of participants in the pre-sale reached 500, 1000, 1500, 2000, and the costume can be purchased at 5%, 10%, 15%, or 20% discount when it is officially sold. \nThe balance is the discounted price minus the advance payment. Players who have not paid the balance will be returned 300 diamonds via email after the event.During costume pre-sale event, the more people participating in the pre-sale, the higher the discount.\nIf the cumulative number of participants in the pre-sale reaches 500, 1000, 1500, 2000, the costume can be purchased at 5%, 10%, 15%, or 20% discount respectively when it is officially sold. \nThe remaining payment is the discounted price minus the advance payment. Players who pre-ordered but failed to pay the remaining amount will be returned with 300 diamonds via in-game mail after the event.",
+        text = "The game has no shortage of various events, like quest event where you will win big after meeting quest conditions and store event where you can exchange collected items for event items. Pay close attention to in-game bulletin and other notices. \n\nThe counting method of Total Top-up event is rounding up. E.g. top up $0.99 will be counted as $1. \n\nDuring costume pre-sale event, the more people participating in the pre-sale, the higher the discount.\nIf the cumulative number of participants in the pre-sale reaches 500, 1000, 1500, 2000, the costume can be purchased at 5%, 10%, 15%, or 20% discount respectively when it is officially sold. \nThe remaining payment is the discounted price minus the advance payment. Players who pre-ordered but failed to pay the remaining amount will be returned with 300 diamonds via in-game mail after the event.",
     },
     [16010] = {
         id = 16010,

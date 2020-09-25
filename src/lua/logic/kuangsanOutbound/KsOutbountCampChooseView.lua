@@ -16,7 +16,7 @@ function KsOutbountCampChooseView:initUI(ui)
 
     local activityId = ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.KUANGSAN_FUBEN)[1]
     local activityInfo = ActivityDataMgr2:getActivityInfo(activityId)
-    local strName = {3006604 , 3006605 , 3006606}
+    local strName = {3006604 , 3006606 , 3006605}
     for k,i in pairs(activityInfo.extendData.campChose) do
         local camp = self._ui[string.format( "camp%d",i)]
         local campBtn = camp:getChildByName(string.format("btnCamp%d",i))
