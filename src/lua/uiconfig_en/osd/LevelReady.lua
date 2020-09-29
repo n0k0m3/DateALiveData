@@ -480,7 +480,7 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "18",
+							fontSize = "15",
 							fontStroke = 
 							{
 								IsStroke = false,
@@ -491,18 +491,18 @@ local t =
 							ignoreSize = "False",
 							name = "label_modle",
 							nTextAlign = "1",
-							nTextHAlign = "1",
+							nTextHAlign = "0",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "Normal Mode",
+							text = "Normal Mode Normal Mode",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
 								PositionX = 672,
-								PositionY = 504,
+								PositionY = 503,
 							},
 							width = "124",
 							ZOrder = "1",
@@ -649,7 +649,7 @@ local t =
 							controlID = "label_level_panel_base_Panel-LevelReady_entrance_osd_Game",
 							UUID = "c7f28ba0_7bf9_4789_98c1_ca316f59350e",
 							anchorPoint = "False",
-							anchorPointX = "0.5",
+							anchorPointX = "1",
 							anchorPointY = "0.5",
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
@@ -664,14 +664,14 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "20",
+							fontSize = "15",
 							fontStroke = 
 							{
 								IsStroke = false,
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "24",
+							height = "18",
 							ignoreSize = "True",
 							name = "label_level",
 							nTextAlign = "1",
@@ -680,15 +680,15 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "Lv.30",
+							text = "TextLable",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 1056,
-								PositionY = 498,
+								PositionX = 1083,
+								PositionY = 502,
 							},
-							width = "59",
+							width = "76",
 							ZOrder = "1",
 						},
 						{
@@ -1705,7 +1705,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												
+												PositionY = 1,
 											},
 											uipanelviewmodel = 
 											{
@@ -2118,14 +2118,14 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "18",
+							fontSize = "15",
 							fontStroke = 
 							{
 								IsStroke = false,
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "21",
+							height = "17",
 							ignoreSize = "True",
 							name = "label_modelDesc",
 							nTextAlign = "0",
@@ -2142,7 +2142,7 @@ local t =
 								PositionX = 44,
 								PositionY = 44,
 							},
-							width = "364",
+							width = "299",
 							ZOrder = "1",
 						},
 					},

@@ -249,7 +249,7 @@ local t =
 															controlID = "Label_name_Image_icon_1_Panel_rank_title_Image_innerbg_Image_rank_Panel_root_Panel-skyladderEndRankView_Layer1_skyladder_Game",
 															UUID = "d64fdd74_4c9d_42ba_b9d3_de1a51eddb67",
 															anchorPoint = "False",
-															anchorPointX = "0.5",
+															anchorPointX = "0",
 															anchorPointY = "0.5",
 															classname = "MELabel",
 															compPath = "luacomponents.common.MEIconLabel",
@@ -264,14 +264,14 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "20",
+															fontSize = "16",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "23",
+															height = "18",
 															ignoreSize = "True",
 															name = "Label_name",
 															nTextAlign = "1",
@@ -285,9 +285,9 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 44,
+																PositionX = 20,
 															},
-															width = "43",
+															width = "56",
 															ZOrder = "1",
 														},
 													},
@@ -323,7 +323,7 @@ local t =
 															controlID = "Label_name_Image_icon_2_Panel_rank_title_Image_innerbg_Image_rank_Panel_root_Panel-skyladderEndRankView_Layer1_skyladder_Game",
 															UUID = "b4f3c5d1_5655_4b88_92e7_16b565f6cd3a",
 															anchorPoint = "False",
-															anchorPointX = "0.5",
+															anchorPointX = "0",
 															anchorPointY = "0.5",
 															classname = "MELabel",
 															compPath = "luacomponents.common.MEIconLabel",
@@ -338,14 +338,14 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "20",
+															fontSize = "16",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "23",
+															height = "18",
 															ignoreSize = "True",
 															name = "Label_name",
 															nTextAlign = "1",
@@ -359,9 +359,9 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 44,
+																PositionX = 18,
 															},
-															width = "43",
+															width = "44",
 															ZOrder = "1",
 														},
 													},
@@ -398,7 +398,7 @@ local t =
 															controlID = "Label_name_Image_icon_4_Panel_rank_title_Image_innerbg_Image_rank_Panel_root_Panel-skyladderEndRankView_Layer1_skyladder_Game",
 															UUID = "3175609f_83eb_4037_ba50_687af1dc8b18",
 															anchorPoint = "False",
-															anchorPointX = "0.5",
+															anchorPointX = "0",
 															anchorPointY = "0.5",
 															classname = "MELabel",
 															compPath = "luacomponents.common.MEIconLabel",
@@ -413,14 +413,14 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "20",
+															fontSize = "16",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "23",
+															height = "18",
 															ignoreSize = "True",
 															name = "Label_name",
 															nTextAlign = "1",
@@ -434,9 +434,9 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 60,
+																PositionX = 19,
 															},
-															width = "83",
+															width = "96",
 															ZOrder = "1",
 														},
 													},
@@ -472,7 +472,7 @@ local t =
 															controlID = "Label_name_Image_icon_5_Panel_rank_title_Image_innerbg_Image_rank_Panel_root_Panel-skyladderEndRankView_Layer1_skyladder_Game",
 															UUID = "c61ea511_5c3b_440d_b0c4_e6074756973b",
 															anchorPoint = "False",
-															anchorPointX = "0.5",
+															anchorPointX = "0",
 															anchorPointY = "0.5",
 															classname = "MELabel",
 															compPath = "luacomponents.common.MEIconLabel",
@@ -487,14 +487,14 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "20",
+															fontSize = "16",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "23",
+															height = "18",
 															ignoreSize = "True",
 															name = "Label_name",
 															nTextAlign = "1",
@@ -508,9 +508,9 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 41,
+																PositionX = 19,
 															},
-															width = "43",
+															width = "49",
 															ZOrder = "1",
 														},
 													},
@@ -546,7 +546,7 @@ local t =
 															controlID = "Label_name_Image_icon_3_Panel_rank_title_Image_innerbg_Image_rank_Panel_root_Panel-skyladderEndRankView_Layer1_skyladder_Game",
 															UUID = "40012966_9102_47fc_90ab_ac1fb9c71de0",
 															anchorPoint = "False",
-															anchorPointX = "0.5",
+															anchorPointX = "0",
 															anchorPointY = "0.5",
 															classname = "MELabel",
 															compPath = "luacomponents.common.MEIconLabel",
@@ -561,14 +561,14 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "20",
+															fontSize = "16",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "23",
+															height = "18",
 															ignoreSize = "True",
 															name = "Label_name",
 															nTextAlign = "1",
@@ -582,9 +582,9 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 59,
+																PositionX = 18,
 															},
-															width = "83",
+															width = "93",
 															ZOrder = "1",
 														},
 													},
@@ -697,7 +697,7 @@ local t =
 															{
 																
 															},
-															width = "82",
+															width = "112",
 															ZOrder = "1",
 														},
 													},
@@ -780,7 +780,7 @@ local t =
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "31",
+															height = "30",
 															ignoreSize = "True",
 															name = "Label_rank_num",
 															nTextAlign = "1",
@@ -796,7 +796,7 @@ local t =
 															{
 																PositionX = -427,
 															},
-															width = "67",
+															width = "50",
 															ZOrder = "1",
 														},
 														{
@@ -844,14 +844,14 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "20",
+															fontSize = "16",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "23",
+															height = "18",
 															ignoreSize = "True",
 															name = "Label_name",
 															nTextAlign = "1",
@@ -868,7 +868,7 @@ local t =
 																PositionX = -213,
 																PositionY = 10,
 															},
-															width = "163",
+															width = "150",
 															ZOrder = "1",
 														},
 														{
@@ -890,14 +890,14 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "20",
+															fontSize = "16",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "23",
+															height = "18",
 															ignoreSize = "True",
 															name = "Label_lv",
 															nTextAlign = "1",
@@ -914,7 +914,7 @@ local t =
 																PositionX = -213,
 																PositionY = -18,
 															},
-															width = "54",
+															width = "64",
 															ZOrder = "1",
 														},
 														{
@@ -936,14 +936,14 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "20",
+															fontSize = "18",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "25",
+															height = "22",
 															ignoreSize = "True",
 															name = "Label_fight_socre",
 															nTextAlign = "1",
@@ -960,7 +960,7 @@ local t =
 																PositionX = 45,
 																PositionY = -3,
 															},
-															width = "123",
+															width = "108",
 															ZOrder = "1",
 														},
 														{
@@ -982,14 +982,14 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "20",
+															fontSize = "18",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "25",
+															height = "22",
 															ignoreSize = "True",
 															name = "Label_ladder_delta",
 															nTextAlign = "1",
@@ -1006,7 +1006,7 @@ local t =
 																PositionX = 221,
 																PositionY = -2,
 															},
-															width = "123",
+															width = "108",
 															ZOrder = "1",
 															components = 
 															{
@@ -1060,14 +1060,14 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "20",
+															fontSize = "18",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "25",
+															height = "22",
 															ignoreSize = "True",
 															name = "Label_ladder_score",
 															nTextAlign = "1",
@@ -1084,7 +1084,7 @@ local t =
 																PositionX = 403,
 																PositionY = -2,
 															},
-															width = "123",
+															width = "108",
 															ZOrder = "1",
 															components = 
 															{
@@ -1286,7 +1286,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "37",
+											height = "36",
 											ignoreSize = "True",
 											name = "Label_title",
 											nTextAlign = "1",
@@ -1302,7 +1302,7 @@ local t =
 											{
 												PositionX = -409,
 											},
-											width = "123",
+											width = "155",
 											ZOrder = "1",
 										},
 									},
@@ -1388,14 +1388,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "28",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_ok",
 											nTextAlign = "1",
@@ -1409,9 +1409,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												
+												PositionY = -1,
 											},
-											width = "59",
+											width = "68",
 											ZOrder = "1",
 										},
 									},
@@ -1461,18 +1461,18 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_tip",
 									nTextAlign = "1",
-									nTextHAlign = "1",
+									nTextHAlign = "0",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -1483,9 +1483,9 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = -440,
-										PositionY = -211,
+										PositionY = -212,
 									},
-									width = "80",
+									width = "667",
 									ZOrder = "1",
 								},
 							},
@@ -1588,7 +1588,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "31",
+									height = "30",
 									ignoreSize = "True",
 									name = "Label_rank_num",
 									nTextAlign = "1",
@@ -1604,7 +1604,7 @@ local t =
 									{
 										PositionX = -427,
 									},
-									width = "67",
+									width = "50",
 									ZOrder = "1",
 								},
 								{
@@ -1652,14 +1652,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
+									height = "18",
 									ignoreSize = "True",
 									name = "Label_name",
 									nTextAlign = "1",
@@ -1676,7 +1676,7 @@ local t =
 										PositionX = -213,
 										PositionY = 10,
 									},
-									width = "163",
+									width = "150",
 									ZOrder = "1",
 								},
 								{
@@ -1698,14 +1698,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
+									height = "18",
 									ignoreSize = "True",
 									name = "Label_lv",
 									nTextAlign = "1",
@@ -1722,7 +1722,7 @@ local t =
 										PositionX = -213,
 										PositionY = -18,
 									},
-									width = "54",
+									width = "64",
 									ZOrder = "1",
 								},
 								{
@@ -1744,14 +1744,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "22",
 									ignoreSize = "True",
 									name = "Label_fight_socre",
 									nTextAlign = "1",
@@ -1768,7 +1768,7 @@ local t =
 										PositionX = 45,
 										PositionY = -3,
 									},
-									width = "123",
+									width = "108",
 									ZOrder = "1",
 								},
 								{
@@ -1790,14 +1790,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "22",
 									ignoreSize = "True",
 									name = "Label_ladder_delta",
 									nTextAlign = "1",
@@ -1814,7 +1814,7 @@ local t =
 										PositionX = 221,
 										PositionY = -2,
 									},
-									width = "123",
+									width = "108",
 									ZOrder = "1",
 									components = 
 									{
@@ -1868,14 +1868,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "22",
 									ignoreSize = "True",
 									name = "Label_ladder_score",
 									nTextAlign = "1",
@@ -1892,7 +1892,7 @@ local t =
 										PositionX = 403,
 										PositionY = -2,
 									},
-									width = "123",
+									width = "108",
 									ZOrder = "1",
 									components = 
 									{

@@ -385,7 +385,7 @@ return {
         },
         datingVariable = {
         },
-        order = 30,
+        order = 35,
         datingBottom = "wzui/y210.png",
         favor = 0,
         dress = {

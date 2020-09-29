@@ -1444,7 +1444,8 @@ EC_OneLoginStatusType = {
     ReconFirm_UpgradeGMSkill = "ReconFirm_UpgradeGMSkill",       --升级共鸣技能
     ReConfirm_AssistanceGameScoreRefresh = "ReConfirm_AssistanceGameScoreRefresh" , --尤茨游戏刷新奖励
     ReConfirm_AssistanceGameUseScore = "ReConfirm_AssistanceGameUseScore",   ---使用尤茨分数投掷
-    ReConfirm_CrazyDiamond = "ReConfirm_CrazyDiamond"   ---疯狂钻石抽取
+    ReConfirm_CrazyDiamond = "ReConfirm_CrazyDiamond",   ---疯狂钻石抽取
+    ReConfirm_DafuwengRefreashCost = "ReConfirm_DafuwengRefreashCost"  --大富翁刷新二次确认消耗
 }
 
 EC_SKILL_TYPE = {

@@ -590,7 +590,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Lv.11",
+											text = "TextLable",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -598,7 +598,7 @@ local t =
 												PositionX = 261,
 												PositionY = 149,
 											},
-											width = "43",
+											width = "95",
 											ZOrder = "1",
 										},
 										{
@@ -2605,7 +2605,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Lv.11",
+											text = "TextLable",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -2613,7 +2613,7 @@ local t =
 												PositionX = 255,
 												PositionY = 149,
 											},
-											width = "43",
+											width = "95",
 											ZOrder = "1",
 										},
 										{
@@ -3014,7 +3014,7 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionY = 362,
+														PositionY = 238,
 													},
 													uipanelviewmodel = 
 													{
@@ -3171,7 +3171,7 @@ local t =
 																	sizepercenty = "0",
 																	sizeType = "0",
 																	srcBlendFunc = "770",
-																	text = "Lv.1",
+																	text = "TextLable",
 																	touchAble = "False",
 																	touchScaleEnable = "False",
 																	UILayoutViewModel = 
@@ -3179,7 +3179,7 @@ local t =
 																		PositionX = 180,
 																		PositionY = 31,
 																	},
-																	width = "33",
+																	width = "88",
 																	ZOrder = "1",
 																},
 																{
@@ -4346,6 +4346,61 @@ local t =
 											},
 										},
 										{
+											controlID = "Image_scrollBarModel_Panel_right_Panel_setting_Panel_base_Panel-leagueHallView_Layer1_league_Game",
+											UUID = "09515482_9424_4f2c_900e_996fc8882f88",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
+											classname = "MEImage",
+											dstBlendFunc = "771",
+											height = "284",
+											ignoreSize = "False",
+											name = "Image_scrollBarModel",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											texturePath = "ui/common/scroll_bar_01.png",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = 503,
+												PositionY = 47,
+											},
+											width = "6",
+											ZOrder = "1",
+											components = 
+											{
+												
+												{
+													controlID = "Image_scrollBarInner_Image_scrollBarModel_Panel_right_Panel_setting_Panel_base_Panel-leagueHallView_Layer1_league_Game",
+													UUID = "b57f2ec8_47c9_479f_bdea_85a14d1836f6",
+													anchorPoint = "False",
+													anchorPointX = "0.5",
+													anchorPointY = "0.5",
+													backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
+													classname = "MEImage",
+													dstBlendFunc = "771",
+													height = "284",
+													ignoreSize = "False",
+													name = "Image_scrollBarInner",
+													sizepercentx = "100",
+													sizepercenty = "100",
+													sizeType = "0",
+													srcBlendFunc = "1",
+													texturePath = "ui/common/scroll_bar_02.png",
+													touchAble = "False",
+													UILayoutViewModel = 
+													{
+														PositionY = 142,
+													},
+													width = "6",
+													ZOrder = "1",
+												},
+											},
+										},
+										{
 											controlID = "Label_notice_title_Panel_right_Panel_setting_Panel_base_Panel-leagueHallView_Layer1_league_Game",
 											UUID = "1c09d97c_f8ff_4e6a_bf18_4c74a39c352b",
 											anchorPoint = "False",
@@ -5297,7 +5352,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Lv.99",
+									text = "TextLable",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -5305,7 +5360,7 @@ local t =
 										PositionX = 20,
 										PositionY = 10,
 									},
-									width = "50",
+									width = "88",
 									ZOrder = "1",
 								},
 								{

@@ -775,7 +775,7 @@ return {
                 ShowEffect2 = "",
             },
             [10] = {
-                ShowEffect2 = "",
+                tg = "ui/monthcardNew1/bg10.png",
                 ShowEffect1 = "",
                 name = 266551,
                 month = {
@@ -784,6 +784,7 @@ return {
                 },
                 describe = 266552,
                 icon = "icon/hero/frame/10143.png",
+                ShowEffect2 = "",
             },
             [11] = {
                 ShowEffect2 = "",

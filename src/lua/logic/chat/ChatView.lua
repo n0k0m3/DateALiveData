@@ -204,7 +204,8 @@ function ChatView:initUI(ui)
     self.Button_red_pack = TFDirector:getChildByPath(self.Panel_union,"Button_red_pack")
     self.Label_online_num = TFDirector:getChildByPath(self.Panel_union,"Label_online_num")
 
-
+    --暂时屏蔽社团红包
+    self.Button_red_pack:hide()
 
     self:initPanelPrivate()
     self:initScrollTab()

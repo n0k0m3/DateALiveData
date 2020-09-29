@@ -3,6 +3,7 @@ local TeamFightTeamView = class("TeamFightTeamView", BaseLayer)
 
 function TeamFightTeamView:initData()
     self.isTeamLeader = false
+    self.isAutoReady = SettingDataMgr:getIsAutoReady() == 1  --是否自动准备
     self.teamItemsPos = {
         [1] = {ccp(0,0)},
         [2] = {ccp(-180,0),ccp(180,0)},
@@ -418,6 +419,26 @@ function TeamFightTeamView:initCommonPart()
         self.Image_on_show_effect:setPosition(SELECT_POS[status])
     end
 
+
+
+     --联机战斗自动准备开关准备
+    self.Panel_auto_ready = self.root_panel:getChildByName("Panel_auto_ready")
+    self.Panel_auto_ready:getChildByName("Label_title"):setTextById(190000183 )
+    local Image_auto_ready_ctrl = self.Panel_auto_ready:getChildByName("Image_auto_bg")
+    self.Image_on_auto_ready =  Image_auto_ready_ctrl:getChildByName("Image_on")
+    Image_auto_ready_ctrl:onClick(function()
+        local status = SettingDataMgr:getIsAutoReady()
+        if status == 1  then
+            status = 2
+        else
+            status = 1
+        end
+        SettingDataMgr:setIsAutoReady(status)
+        self.isAutoReady = status == 1
+        self.Image_on_auto_ready:setPosition(SELECT_POS[status])
+        self:updateTeamPart()
+    end)
+    self.Image_on_auto_ready:setPosition(SELECT_POS[SettingDataMgr:getIsAutoReady()])
     ---------------------------------
     self.commonWidget = {}
 
@@ -479,6 +500,7 @@ function TeamFightTeamView:initCommonPart()
             TeamFightDataMgr:requestMemberReady(2)
         elseif self.commonWidget["common"]["stat"] == 3 then
             TeamFightDataMgr:requestMemberReady(1)
+            self.isAutoReady = false
         elseif self.commonWidget["common"]["stat"] == 5 then
             Utils:showError(TextDataMgr:getText(240016))
         end
@@ -677,6 +699,16 @@ function TeamFightTeamView:updateTeamPart()
     else
         self:stopMatchingAction()
     end
+
+    print(self.isAutoReady  ,  self.isRepeatWithOther , self.commonWidget["common"]["stat"] , "6666666666666")
+    if self.isAutoReady == true and self.isRepeatWithOther == false then
+        if self.commonWidget["common"]["stat"] == 1 or self.commonWidget["common"]["stat"] == 2 then
+            TeamFightDataMgr:requestMemberReady(2)
+        end
+    end
+
+    self.Panel_auto_ready:setVisible(not self.isTeamLeader)
+
 end
 
 function TeamFightTeamView:updateCommonPart()
@@ -736,7 +768,7 @@ function TeamFightTeamView:updateCommonPart()
     -- end
     local memberNumLimit = self.curLevelCfg.countLimit
     self.commonWidget["open_desc"]:setText(tostring(memberNumLimit))
-
+   
     self:updateSwitchInRoomState()
 end
 

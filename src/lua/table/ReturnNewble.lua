@@ -622,7 +622,7 @@ return {
         mailTitle = 0,
         items = "",
         showIcon = "ui/activity/christmas_dating/003.png ",
-        title = "圣诞大作战",
+        title = "圣诞大作战 ",
         weight = 4,
         status = 2,
         titleIcon = "ui/activity/picture/icon26.png",

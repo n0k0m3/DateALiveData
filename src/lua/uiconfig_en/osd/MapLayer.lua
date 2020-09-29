@@ -2279,7 +2279,6 @@ local t =
 						Layout="Relative",
 						nType = "3"
 					},
-					visible = "False",
 					width = "1136",
 					ZOrder = "1",
 					components = 
@@ -2537,14 +2536,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "31",
+											height = "24",
 											ignoreSize = "True",
 											name = "Label_MapLayer_1",
 											nTextAlign = "1",
@@ -2560,7 +2559,7 @@ local t =
 											{
 												
 											},
-											width = "172",
+											width = "135",
 											ZOrder = "1",
 										},
 									},
@@ -2586,7 +2585,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 776,
-										PositionY = 41,
+										PositionY = 32,
 									},
 									width = "174",
 									ZOrder = "1",
@@ -2612,14 +2611,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "31",
+											height = "24",
 											ignoreSize = "True",
 											name = "Label_MapLayer_1",
 											nTextAlign = "1",
@@ -2635,7 +2634,7 @@ local t =
 											{
 												
 											},
-											width = "61",
+											width = "48",
 											ZOrder = "1",
 										},
 									},

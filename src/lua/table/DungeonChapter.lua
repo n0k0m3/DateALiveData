@@ -665,7 +665,7 @@ return {
         chapterDescribe = 2108234,
         nameEn = "",
         unlockLevel = 15,
-        order = 2,
+        order = 8,
         openTime = 0,
         openTime2 = 0,
         orderName = 0,

@@ -19467,7 +19467,7 @@ return {
         des = "1320001",
     },
     [610000] = {
-        finishCondId = 12007,
+        finishCondId = 12015,
         order = 4,
         acceptParams = {
             plvl = 1,
@@ -19482,7 +19482,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 610000,
         extendsTaskId = 0,
         subType = 2,
@@ -19492,20 +19492,14 @@ return {
                 [2] = 1,
             },
         },
-        progress = 5,
+        progress = 1,
         type = 11,
         name = "",
         acceptCondId = 10001,
         finishParams = {
-            chapter = 1010101,
-            datingId = {
-                [1] = 1,
-                [2] = 2,
-                [3] = 3,
-                [4] = 4,
-                [5] = 5,
+            scriptList = {
+                [1] = 101040000,
             },
-            roleId = 101,
         },
         effectiveTime = -1,
         colour1 = {
@@ -19513,7 +19507,7 @@ return {
         des = "",
     },
     [610001] = {
-        finishCondId = 12007,
+        finishCondId = 12015,
         order = 1,
         acceptParams = {
             plvl = 1,
@@ -19528,7 +19522,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 610001,
         extendsTaskId = 0,
         subType = 2,
@@ -19538,18 +19532,14 @@ return {
                 [2] = 1,
             },
         },
-        progress = 3,
+        progress = 1,
         type = 11,
         name = "",
         acceptCondId = 10001,
         finishParams = {
-            chapter = 1020101,
-            datingId = {
-                [1] = 6,
-                [2] = 7,
-                [3] = 8,
+            scriptList = {
+                [1] = 102040000,
             },
-            roleId = 102,
         },
         effectiveTime = -1,
         colour1 = {
@@ -19557,7 +19547,7 @@ return {
         des = "",
     },
     [610002] = {
-        finishCondId = 12007,
+        finishCondId = 12015,
         order = 2,
         acceptParams = {
             plvl = 1,
@@ -19572,7 +19562,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 610002,
         extendsTaskId = 0,
         subType = 2,
@@ -19582,19 +19572,14 @@ return {
                 [2] = 1,
             },
         },
-        progress = 4,
+        progress = 1,
         type = 11,
         name = "",
         acceptCondId = 10001,
         finishParams = {
-            chapter = 1050101,
-            datingId = {
-                [1] = 9,
-                [2] = 10,
-                [3] = 11,
-                [4] = 1000501,
+            scriptList = {
+                [1] = 105050000,
             },
-            roleId = 105,
         },
         effectiveTime = -1,
         colour1 = {
@@ -19688,7 +19673,7 @@ return {
         des = "1320892",
     },
     [610004] = {
-        finishCondId = 12007,
+        finishCondId = 12015,
         order = 4,
         acceptParams = {
             plvl = 1,
@@ -19703,7 +19688,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 610004,
         extendsTaskId = 0,
         subType = 2,
@@ -19713,20 +19698,14 @@ return {
                 [2] = 1,
             },
         },
-        progress = 5,
+        progress = 1,
         type = 11,
         name = "",
         acceptCondId = 10001,
         finishParams = {
-            chapter = 1040101,
-            datingId = {
-                [1] = 15,
-                [2] = 16,
-                [3] = 17,
-                [4] = 18,
-                [5] = 19,
+            scriptList = {
+                [1] = 104040000,
             },
-            roleId = 104,
         },
         effectiveTime = -1,
         colour1 = {
@@ -19830,7 +19809,7 @@ return {
         des = "1320001",
     },
     [610006] = {
-        finishCondId = 12007,
+        finishCondId = 12015,
         order = 2,
         acceptParams = {
             plvl = 1,
@@ -19845,7 +19824,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 610006,
         extendsTaskId = 0,
         subType = 2,
@@ -19855,20 +19834,14 @@ return {
                 [2] = 1,
             },
         },
-        progress = 5,
+        progress = 1,
         type = 11,
         name = "",
         acceptCondId = 10001,
         finishParams = {
-            chapter = 1010201,
-            datingId = {
-                [1] = 25,
-                [2] = 26,
-                [3] = 27,
-                [4] = 28,
-                [5] = 29,
+            scriptList = {
+                [1] = 101050000,
             },
-            roleId = 101,
         },
         effectiveTime = -1,
         colour1 = {
@@ -19960,7 +19933,7 @@ return {
         des = "1320001",
     },
     [610008] = {
-        finishCondId = 12007,
+        finishCondId = 12015,
         order = 4,
         acceptParams = {
             plvl = 1,
@@ -19975,7 +19948,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 610008,
         extendsTaskId = 0,
         subType = 2,
@@ -19985,19 +19958,14 @@ return {
                 [2] = 1,
             },
         },
-        progress = 4,
+        progress = 1,
         type = 11,
         name = "",
         acceptCondId = 10001,
         finishParams = {
-            chapter = 1120101,
-            datingId = {
-                [1] = 33,
-                [2] = 34,
-                [3] = 35,
-                [4] = 36,
+            scriptList = {
+                [1] = 112050000,
             },
-            roleId = 112,
         },
         effectiveTime = -1,
         colour1 = {
@@ -20005,7 +19973,7 @@ return {
         des = "",
     },
     [610009] = {
-        finishCondId = 12007,
+        finishCondId = 12015,
         order = 1,
         acceptParams = {
             plvl = 1,
@@ -20020,7 +19988,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 610009,
         extendsTaskId = 0,
         subType = 2,
@@ -20030,19 +19998,14 @@ return {
                 [2] = 1,
             },
         },
-        progress = 4,
+        progress = 1,
         type = 11,
         name = "",
         acceptCondId = 10001,
         finishParams = {
-            chapter = 1040201,
-            datingId = {
-                [1] = 37,
-                [2] = 38,
-                [3] = 39,
-                [4] = 40,
+            scriptList = {
+                [1] = 104050000,
             },
-            roleId = 104,
         },
         effectiveTime = -1,
         colour1 = {
@@ -20050,7 +20013,7 @@ return {
         des = "",
     },
     [610010] = {
-        finishCondId = 12007,
+        finishCondId = 12015,
         order = 2,
         acceptParams = {
             plvl = 1,
@@ -20065,7 +20028,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 610010,
         extendsTaskId = 0,
         subType = 2,
@@ -20075,19 +20038,14 @@ return {
                 [2] = 1,
             },
         },
-        progress = 4,
+        progress = 1,
         type = 11,
         name = "",
         acceptCondId = 10001,
         finishParams = {
-            chapter = 1130101,
-            datingId = {
-                [1] = 41,
-                [2] = 42,
-                [3] = 43,
-                [4] = 44,
+            scriptList = {
+                [1] = 113050000,
             },
-            roleId = 113,
         },
         effectiveTime = -1,
         colour1 = {
@@ -24066,7 +24024,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 737001,
         extendsTaskId = 0,
         subType = 2,
@@ -24146,7 +24104,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 737002,
         extendsTaskId = 0,
         subType = 2,
@@ -24222,7 +24180,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 737004,
         extendsTaskId = 0,
         subType = 2,
@@ -24260,7 +24218,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 737005,
         extendsTaskId = 0,
         subType = 2,
@@ -28870,7 +28828,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 737006,
         extendsTaskId = 0,
         subType = 2,
@@ -28908,7 +28866,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 737003,
         extendsTaskId = 0,
         subType = 2,
@@ -29292,7 +29250,7 @@ return {
         des = "1320001",
     },
     [610005] = {
-        finishCondId = 12007,
+        finishCondId = 0,
         order = 1,
         acceptParams = {
             plvl = 1,
@@ -29317,20 +29275,11 @@ return {
                 [2] = 1,
             },
         },
-        progress = 5,
+        progress = 1,
         type = 11,
         name = "",
         acceptCondId = 10001,
         finishParams = {
-            chapter = 1030201,
-            datingId = {
-                [1] = 20,
-                [2] = 21,
-                [3] = 22,
-                [4] = 23,
-                [5] = 24,
-            },
-            roleId = 103,
         },
         effectiveTime = -1,
         colour1 = {
@@ -29338,7 +29287,7 @@ return {
         des = "",
     },
     [610011] = {
-        finishCondId = 12007,
+        finishCondId = 12015,
         order = 3,
         acceptParams = {
             plvl = 1,
@@ -29353,7 +29302,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 610011,
         extendsTaskId = 0,
         subType = 2,
@@ -29363,19 +29312,14 @@ return {
                 [2] = 1,
             },
         },
-        progress = 4,
+        progress = 1,
         type = 11,
         name = "",
         acceptCondId = 10001,
         finishParams = {
-            chapter = 1100101,
-            datingId = {
-                [1] = 45,
-                [2] = 46,
-                [3] = 47,
-                [4] = 48,
+            scriptList = {
+                [1] = 110050000,
             },
-            roleId = 110,
         },
         effectiveTime = -1,
         colour1 = {
@@ -42292,7 +42236,7 @@ return {
         colour2 = {
         },
         typeDes = "1330003",
-        open = false,
+        open = true,
         id = 220011,
         extendsTaskId = 0,
         subType = 2,
@@ -47125,7 +47069,7 @@ return {
         des = "3207502",
     },
     [610007] = {
-        finishCondId = 12007,
+        finishCondId = 12015,
         order = 3,
         acceptParams = {
             plvl = 1,
@@ -47140,7 +47084,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 610007,
         extendsTaskId = 0,
         subType = 2,
@@ -47150,18 +47094,14 @@ return {
                 [2] = 1,
             },
         },
-        progress = 3,
+        progress = 1,
         type = 11,
         name = "",
         acceptCondId = 10001,
         finishParams = {
-            chapter = 1020201,
-            datingId = {
-                [1] = 30,
-                [2] = 31,
-                [3] = 32,
+            scriptList = {
+                [1] = 102050000,
             },
-            roleId = 102,
         },
         effectiveTime = -1,
         colour1 = {
@@ -47307,7 +47247,7 @@ return {
         des = "1320001",
     },
     [610003] = {
-        finishCondId = 12007,
+        finishCondId = 12015,
         order = 3,
         acceptParams = {
             plvl = 1,
@@ -47322,7 +47262,7 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = false,
+        open = true,
         id = 610003,
         extendsTaskId = 0,
         subType = 2,
@@ -47332,18 +47272,14 @@ return {
                 [2] = 1,
             },
         },
-        progress = 3,
+        progress = 1,
         type = 11,
         name = "",
         acceptCondId = 10001,
         finishParams = {
-            chapter = 1030101,
-            datingId = {
-                [1] = 12,
-                [2] = 13,
-                [3] = 14,
+            scriptList = {
+                [1] = 103050000,
             },
-            roleId = 103,
         },
         effectiveTime = -1,
         colour1 = {

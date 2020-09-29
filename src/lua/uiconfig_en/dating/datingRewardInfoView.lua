@@ -152,7 +152,7 @@ local t =
 											UUID = "07ecde5f_3bd8_4498_986e_6e81f43c4f1e",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
-											anchorPointY = "0.5",
+											anchorPointY = "1",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
@@ -188,9 +188,9 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = -335,
-												PositionY = 19,
+												PositionY = 29,
 											},
-											width = "187",
+											width = "153",
 											ZOrder = "1",
 										},
 										{
@@ -257,7 +257,7 @@ local t =
 												StrokeColor = "#FFFFFFFF",
 												StrokeSize = 2,
 											},
-											height = "32",
+											height = "31",
 											ignoreSize = "True",
 											name = "Label_dbi",
 											nTextAlign = "0",
@@ -274,7 +274,7 @@ local t =
 												PositionX = -364,
 												PositionY = -18,
 											},
-											width = "59",
+											width = "44",
 											ZOrder = "1",
 										},
 										{
@@ -500,6 +500,7 @@ local t =
 							{
 								
 							},
+							visible = "False",
 							width = "80",
 							ZOrder = "1",
 							components = 
@@ -695,7 +696,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "28",
+											height = "27",
 											ignoreSize = "True",
 											name = "Label_des",
 											nTextAlign = "0",
@@ -711,7 +712,7 @@ local t =
 											{
 												
 											},
-											width = "105",
+											width = "84",
 											ZOrder = "1",
 										},
 									},

@@ -90,6 +90,24 @@ function SummonView:initUI(ui)
         item.initPosX = item.Image_costIcon:getPositionX()
         item.Image_upTips = TFDirector:getChildByPath(item.root, "Image_upTips"):hide()
         self.Button_buy[i] = item
+
+        item.saleBg = TFImage:create("ui/summon/sale.png")
+        item.saleBg:setPosition(9 , 90)
+        item.Label_summon:addChild(item.saleBg)
+
+        local label_empyTetx = TFLabel:create()
+        label_empyTetx:setFontName("font/MFLiHei_Noncommercial.ttf")
+        label_empyTetx:setFontSize(22)
+        label_empyTetx:setTextAreaSize(CCSize(80 , 0))
+        label_empyTetx:setAnchorPoint(ccp(0.5 , 0.5))
+        label_empyTetx:setPosition(0 , 8)
+        label_empyTetx:setTextById(2106010)
+        --self.label_empyTetx:enableOutline(ccc4(0,0,0,255), 1)
+
+        item.saleBg:addChild(label_empyTetx , 1)
+
+        ViewAnimationHelper.doMoveUpAndDown(item.saleBg , 0.5 , 5)
+
     end
 
     --英雄奖励按钮
@@ -277,8 +295,10 @@ function SummonView:updateSelectInfo()
             if i == 1 and SummonDataMgr:isFreeBtnById(self.currentSummon_[i].id) then
                 v.Label_summon:setTextById(14300345)
                 costNum = 0
+                v.saleBg:show()
             else
                 v.Label_summon:setTextById(1200006, subSummonCfg.cardCount)
+                v.saleBg:hide()
             end
 
             local costCfg = GoodsDataMgr:getItemCfg(costId)
@@ -461,12 +481,14 @@ function SummonView:updateSelectInfo()
                     local subSummonCfg = SummonDataMgr:getSummonCfg(summon[i].id)
                     if i == 1 and SummonDataMgr:isFreeBtnById(self.currentSummon_[i].id) and isHavePrivilege then
                         v.Label_summon:setTextById(14300345)
+                        v.saleBg:show()
                         self.costItem_[1] = {
                             id = ownCostId,
                             num = 0,
                         }
                     else
                         v.Label_summon:setTextById(1200006, subSummonCfg.cardCount)
+                        v.saleBg:hide()
                     end
                 end
             end
@@ -565,10 +587,12 @@ function SummonView:updateSelectInfo()
 
                     end
                     lab_lastTime:setTextById(14300347, (day*24 + hour), min)
+                    self.Button_buy[2].saleBg:hide()
                 else
                     self:removeCountDownTimer()
                     pannel_lastTime:hide()
                     self.Button_buy[2].Label_summon:setTextById(14300345)
+                    self.Button_buy[2].saleBg:show()
                     self.costItem_[2] = {
                         id = ownCostId,
                         num = 0,

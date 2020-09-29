@@ -176,18 +176,15 @@ function OSDControl:doFunc(funcType)
 	-- Utils:showTips("doFunc:"..tostring(funcType))   
 	--暂时屏蔽不开启部分功能
 	if funcType == FuncType.Task     then  --任务
-		Utils:openView("common.FunctionTipsView", {270420}, nil, nil)
-		--Utils:openView("osd.TaskLayer")
+		Utils:openView("osd.TaskLayer")
 	elseif funcType == FuncType.WarStore  then  --商店
 		FunctionDataMgr:jWarStore()
 	elseif funcType == FuncType.LuckDraw then --抽奖
-		Utils:openView("common.FunctionTipsView", {270420}, nil, nil)
-		--Utils:openView("osd.LuckdrawLayer")
+		Utils:openView("osd.LuckdrawLayer")
 	elseif funcType == FuncType.Bounty   then --悬赏
 		OSDDataMgr:sendEnterHuntingInvitation()
 	elseif funcType == FuncType.FUN_BEN  then  --副本
-		Utils:openView("common.FunctionTipsView", {270420}, nil, nil)
-		--Utils:openView("osd.OSDLevelEntranceView")
+		Utils:openView("osd.OSDLevelEntranceView")
 	elseif funcType == FuncType.Seq_War then --序列战争
 		FunctionDataMgr:jSkyLadder()
 	end

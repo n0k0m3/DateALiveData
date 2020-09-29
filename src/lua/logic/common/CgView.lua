@@ -63,6 +63,7 @@ function CgView:initSkipBtn()
         self.skipBtn:Touchable(false)
         self:removeFromParent()
     end)
+    self.skipBtn:hide()
 end
 
 function CgView:refreshUI()
@@ -90,6 +91,9 @@ end
 function CgView:registerEvents()
     self:addMEListener(TFWIDGET_EXIT, handler(self._onExit, self))
     self.Panel_lockTouch:onClick(function()
+            if self.skipBtn then
+                self.skipBtn:show()
+            end
             if self.isTouchClose and self.isOver then
                 self:removeFromParent()
             end

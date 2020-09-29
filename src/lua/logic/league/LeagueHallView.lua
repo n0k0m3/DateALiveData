@@ -120,6 +120,19 @@ function LeagueHallView:initUI(ui)
     self.ListView_tab = UIListView:create(ScrollView_tab)
     self.ListView_tab:setItemsMargin(2)
 
+    local Image_scrollBarModel_setting = TFDirector:getChildByPath(self.Panel_right, "Image_scrollBarModel")
+    local Image_scrollBarInner_setting = TFDirector:getChildByPath(Image_scrollBarModel_setting, "Image_scrollBarInner")
+    local scrollBar = UIScrollBar:create(Image_scrollBarModel_setting, Image_scrollBarInner_setting)
+
+    local ScrollView_leagueHallView_setting = TFDirector:getChildByPath(self.Panel_right , "ScrollView_leagueHallView_1")
+    self.ScrollView_leagueHallView_setting_list = UIListView:create( ScrollView_leagueHallView_setting)
+    self.ScrollView_leagueHallView_setting_list:setItemsMargin(0)
+    self.ScrollView_leagueHallView_setting_list:setScrollBar(scrollBar)
+    local panel_scroll =  TFDirector:getChildByPath(self.Panel_right , "panel_scroll")
+    panel_scroll:setPosition(0 , 0)
+    panel_scroll:removeFromParent()
+    self.ScrollView_leagueHallView_setting_list:pushBackCustomItem(panel_scroll)
+
     self.panel_country_setting =  Utils:createClubCountryNamePanel(self.Panel_left , ccp(self.Button_modify:getPositionX() - 280 , self.Button_modify:getPositionY() - 50)  , true , true , nil , true)
     self.panel_country_info = Utils:createClubCountryNamePanel(self.Panel_infos:getChildByName("Panel_league_info") , ccp(self.Button_modify_name:getPositionX() - 280 , self.Button_modify_name:getPositionY() - 50)  , true , true , nil , true)
 

@@ -2028,8 +2028,8 @@ return {
         levelType = 1,
     },
     [112] = {
-        isOpen = false,
-        openLevel = 99,
+        isOpen = true,
+        openLevel = 1,
         isStinger = false,
         id = 112,
         openDun = 0,
@@ -2041,8 +2041,6 @@ return {
         stingerDating = "",
         name = "",
         unlockExplain = {
-            [1] = 2,
-            [2] = 270420,
         },
         icon = "",
         levelType = 1,

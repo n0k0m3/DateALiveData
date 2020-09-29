@@ -267,7 +267,7 @@ return {
             [5] = 0,
             [6] = 0,
         },
-        timeText = "活动时间：2018.10.26至2018.10.30",
+        timeText = "活动时间：2018.10.26至2018.10.30 23:59",
         rareGetTimes = 10,
         name = "1200052",
         immortalItemTimes = 1,

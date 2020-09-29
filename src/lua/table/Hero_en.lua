@@ -602,7 +602,7 @@ return {
         changeType = false,
         heroLimitType = 1,
         quality = 4,
-        order = 100,
+        order = 99,
         label = {
             [1] = 4,
             [2] = 5,

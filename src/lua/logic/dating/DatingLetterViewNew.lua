@@ -39,6 +39,7 @@ function DatingLetterViewNew:initUI(ui)
     
 
 
+    self:loadingReward()
     self:initChapterList()  
     self:updateChapterList()  
     self:loadPageView()
@@ -48,6 +49,38 @@ function DatingLetterViewNew:initUI(ui)
 end
 
 function DatingLetterViewNew:loadingReward()
+    self.DatingRewardView = require("lua.logic.dating.DatingRewardInfoView"):new()
+    self.DatingRewardView:Pos(0 ,0)
+    self.rewardPanel:addChild(self.DatingRewardView,1000)
+end
+
+function DatingLetterViewNew:refreshRewardView()
+    if not self.DatingRewardView then
+        return
+    end
+    local mainItemInfo = self.mainLiveList[self.mainPageIdx] 
+    local taskId = mainItemInfo.taskIdNew or 10001
+    local rewardData = TaskDataMgr:getTaskCfg(taskId)
+    local taskInfo = TaskDataMgr:getTaskInfo(taskId)
+
+    if not rewardData then
+        self.DatingRewardView:hide()
+        return
+    else
+        self.DatingRewardView:show()
+    end
+
+    print("taskId---------------------- ",taskId)
+    local params = {
+        itemList = rewardData.reward or {},
+        pro = 0,
+        status = taskInfo and taskInfo.status,
+        bili = "",
+        taskId = taskId
+    }
+    print("refreshRewardView params ",params)
+    self.DatingRewardView:setCounstomDesc(190000182 , TextDataMgr:getText(mainItemInfo.datingName))
+    self.DatingRewardView:refresh(params)
 end
 
 function DatingLetterViewNew:initChapterList( )
@@ -265,7 +298,7 @@ function DatingLetterViewNew:updateMainLiveItem(pageIdx)
     image_lockIcon:setVisible(isLock)
     cg_mask:setVisible(not isLock)
 
-    self.rewardPanel:removeAllChildren()    
+    --self.rewardPanel:removeAllChildren()    
     self.datingRewardView = self.datingRewardView or {}  
     --self.datingRewardView[pageIdx] = require("lua.logic.dating.DatingRewardInfoView"):new()
     --self.rewardPanel:addChild(self.datingRewardView[pageIdx],1000)
@@ -348,6 +381,7 @@ function DatingLetterViewNew:selectMainPage(pageIdx)
     if self.mainPageIdx ~= pageIdx then
         self:changePage(pageIdx)
     end
+    self:refreshRewardView()
 end
 
 function DatingLetterViewNew:backBtnClickHandle()

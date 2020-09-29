@@ -118,6 +118,8 @@ function WarOrderView:updateTaskGiftItem(item,itemInfo)
     else
         Label_price:setTextById(1300015)
     end
+    Label_price:setAnchorPoint(ccp(0.5 , 0.5))
+     Label_price:setPositionX(0)
 
     local Label_num     = TFDirector:getChildByPath(item,"Label_num")
     Label_num:setTextById(tonumber(itemInfo.details))
@@ -185,7 +187,19 @@ end
 
 function WarOrderView:updateGiftItem(item,data)
     local Label_price   = TFDirector:getChildByPath(item,"Label_price")
-    Label_price:setTextById(1890020 , data.rechargeCfg.price / 100)
+    Label_price:setAnchorPoint(ccp(0 , 0.5))
+    Label_price:setPositionX(-5)
+
+    local image_cost = TFDirector:getChildByPath(item , "img_icon")
+    if image_cost then
+         local costCfgData = RechargeDataMgr:getOneRechargeCfg(data.rechargeCfg.id).exchangeCost[1]
+        image_cost:setTexture(GoodsDataMgr:getItemCfg(costCfgData.id).icon)
+
+        Label_price:setText(costCfgData.num)
+        image_cost:setPositionX(-5)
+        image_cost:setAnchorPoint(ccp(1,0.5))
+    end
+   
 
     local Label_num     = TFDirector:getChildByPath(item,"Label_num")
     Label_num:setText(data.name)

@@ -2381,6 +2381,17 @@ function RoleDataMgr:checkNewMainRewardState( roleId )
             return true
         end     
     end
+
+    local mainLiveList = self:getNewMainList(roleId)
+    for k , v in pairs(mainLiveList) do
+        local taskInfo = TaskDataMgr:getTaskInfo(v.taskIdNew)
+        if taskInfo then
+            if taskInfo.status == EC_TaskStatus.GET then
+                return true
+            end
+        end
+    end
+
     return false
 end
 

@@ -4261,7 +4261,7 @@ return {
     },
     [1311168] = {
         id = 1311168,
-        text = "Lv.1 Rookie Trainer Ⅰ",
+        text = "Lv.1 Rookie Trainer I",
     },
     [21002] = {
         id = 21002,
@@ -4269,7 +4269,7 @@ return {
     },
     [1311170] = {
         id = 1311170,
-        text = "Lv.3 Junior Trainer Ⅰ",
+        text = "Lv.3 Junior Trainer I",
     },
     [22026] = {
         id = 22026,
@@ -4277,23 +4277,23 @@ return {
     },
     [1311172] = {
         id = 1311172,
-        text = "Lv.4 Inspiring Trainer Ⅰ",
+        text = "Lv.4 Inspiring Trainer I",
     },
     [1311173] = {
         id = 1311173,
-        text = "Lv.4 Inspiring Trainer Ⅱ",
+        text = "Lv.4 Inspiring Trainer II",
     },
     [1311174] = {
         id = 1311174,
-        text = "Lv.4 Inspiring Trainer Ⅲ",
+        text = "Lv.4 Inspiring Trainer III",
     },
     [1311175] = {
         id = 1311175,
-        text = "Lv.5 Talent Trainer Ⅰ",
+        text = "Lv.5 Talent Trainer I",
     },
     [1311176] = {
         id = 1311176,
-        text = "Lv.5 Talent Trainer Ⅱ",
+        text = "Lv.5 Talent Trainer II",
     },
     [25098] = {
         id = 25098,
@@ -4309,7 +4309,7 @@ return {
     },
     [1311180] = {
         id = 1311180,
-        text = "Lv.6 Genius Trainer Ⅰ",
+        text = "Lv.6 Genius Trainer I",
     },
     [27146] = {
         id = 27146,
@@ -4317,7 +4317,7 @@ return {
     },
     [1311182] = {
         id = 1311182,
-        text = "Lv.6 Genius Trainer Ⅲ",
+        text = "Lv.6 Genius Trainer III",
     },
     [1311183] = {
         id = 1311183,
@@ -4329,15 +4329,15 @@ return {
     },
     [1311185] = {
         id = 1311185,
-        text = "Lv.7 Warm Trainer Ⅰ",
+        text = "Lv.7 Warm Trainer I",
     },
     [1311186] = {
         id = 1311186,
-        text = "Lv.7 Warm Trainer Ⅱ",
+        text = "Lv.7 Warm Trainer II",
     },
     [1311187] = {
         id = 1311187,
-        text = "Lv.7 Warm Trainer Ⅲ",
+        text = "Lv.7 Warm Trainer III",
     },
     [1311188] = {
         id = 1311188,
@@ -4349,15 +4349,15 @@ return {
     },
     [1311190] = {
         id = 1311190,
-        text = "Lv.8 Pro Trainer Ⅰ",
+        text = "Lv.8 Pro Trainer I",
     },
     [1311191] = {
         id = 1311191,
-        text = "Lv.8 Pro Trainer Ⅱ",
+        text = "Lv.8 Pro Trainer II",
     },
     [1311192] = {
         id = 1311192,
-        text = "Lv.8 Pro Trainer Ⅲ",
+        text = "Lv.8 Pro Trainer III",
     },
     [1311193] = {
         id = 1311193,
@@ -4373,15 +4373,15 @@ return {
     },
     [1311196] = {
         id = 1311196,
-        text = "Lv.9 Omni Trainer Ⅰ",
+        text = "Lv.9 Omni Trainer I",
     },
     [1311197] = {
         id = 1311197,
-        text = "Lv.9 Omni Trainer Ⅱ",
+        text = "Lv.9 Omni Trainer II",
     },
     [1311198] = {
         id = 1311198,
-        text = "Lv.9 Omni Trainer Ⅲ",
+        text = "Lv.9 Omni Trainer III",
     },
     [1311199] = {
         id = 1311199,
@@ -10999,6 +10999,14 @@ return {
         id = 22091,
         text = "Kotori Sephira Chest",
     },
+    [190000183] = {
+        id = 190000183,
+        text = "Auto Preparation",
+    },
+    [190000182] = {
+        id = 190000182,
+        text = "Complete Chapter %s",
+    },
     [190000181] = {
         id = 190000181,
         text = "Country settings",
@@ -11957,19 +11965,19 @@ return {
     },
     [111000123] = {
         id = 111000123,
-        text = "%smonth %sd-%smonth %sd",
+        text = "%s.%s-%s.%s",
     },
     [111000122] = {
         id = 111000122,
-        text = "진급 완료",
+        text = "Promoted",
     },
     [111000121] = {
         id = 111000121,
-        text = "%smonth %sd %sh",
+        text = "Nov 28, 2020 23:00",
     },
     [111000120] = {
         id = 111000120,
-        text = "S%s 시즌 종료 시간",
+        text = "S%s End Time",
     },
     [11103049] = {
         id = 11103049,
@@ -11977,7 +11985,7 @@ return {
     },
     [111000118] = {
         id = 111000118,
-        text = "현재 퀘스트 완료",
+        text = "Completed all quested",
     },
     [19023] = {
         id = 19023,
@@ -12465,7 +12473,7 @@ return {
     },
     [920003] = {
         id = 920003,
-        text = "Where is Baking Soda? Ⅰ",
+        text = "Where is Baking Soda? I",
     },
     [100000303] = {
         id = 100000303,
@@ -12473,7 +12481,7 @@ return {
     },
     [920004] = {
         id = 920004,
-        text = "Euro Flour Ferry Ⅰ",
+        text = "Euro Flour Ferry I",
     },
     [10303025] = {
         id = 10303025,
@@ -12481,7 +12489,7 @@ return {
     },
     [920005] = {
         id = 920005,
-        text = "This is Chicken's Den? Ⅰ",
+        text = "This is Chicken's Den? I",
     },
     [18001] = {
         id = 18001,
@@ -12489,7 +12497,7 @@ return {
     },
     [920006] = {
         id = 920006,
-        text = "Baking Soda Rules Ⅰ",
+        text = "Baking Soda Rules I",
     },
     [19025] = {
         id = 19025,
@@ -12505,7 +12513,7 @@ return {
     },
     [920008] = {
         id = 920008,
-        text = "One Omelette Ⅰ",
+        text = "One Omelette I",
     },
     [42145] = {
         id = 42145,
@@ -12513,7 +12521,7 @@ return {
     },
     [920009] = {
         id = 920009,
-        text = "Chicken Soda Ⅰ",
+        text = "Chicken Soda I",
     },
     [22097] = {
         id = 22097,
@@ -12521,7 +12529,7 @@ return {
     },
     [920010] = {
         id = 920010,
-        text = "Move Flour and Eggs Ⅰ",
+        text = "Move Flour and Eggs I",
     },
     [100000301] = {
         id = 100000301,
@@ -12545,7 +12553,7 @@ return {
     },
     [920013] = {
         id = 920013,
-        text = "Where is Baking Soda? Ⅱ",
+        text = "Where is Baking Soda? II",
     },
     [11101094] = {
         id = 11101094,
@@ -12553,7 +12561,7 @@ return {
     },
     [920014] = {
         id = 920014,
-        text = "Euro Flour Ferry Ⅱ",
+        text = "Euro Flour Ferry II",
     },
     [12101049] = {
         id = 12101049,
@@ -12561,7 +12569,7 @@ return {
     },
     [920015] = {
         id = 920015,
-        text = "This is Chicken's Den? Ⅱ",
+        text = "This is Chicken's Den? II",
     },
     [13311237] = {
         id = 13311237,
@@ -12569,7 +12577,7 @@ return {
     },
     [920016] = {
         id = 920016,
-        text = "Baking Soda Rules Ⅱ",
+        text = "Baking Soda Rules II",
     },
     [290000078] = {
         id = 290000078,
@@ -12585,7 +12593,7 @@ return {
     },
     [920018] = {
         id = 920018,
-        text = "One Omelette Ⅱ",
+        text = "One Omelette II",
     },
     [31313] = {
         id = 31313,
@@ -12593,7 +12601,7 @@ return {
     },
     [920019] = {
         id = 920019,
-        text = "Chicken Soda Ⅱ",
+        text = "Chicken Soda II",
     },
     [100000292] = {
         id = 100000292,
@@ -12601,7 +12609,7 @@ return {
     },
     [920020] = {
         id = 920020,
-        text = "Move Flour and Eggs Ⅱ",
+        text = "Move Flour and Eggs II",
     },
     [100000291] = {
         id = 100000291,
@@ -12625,7 +12633,7 @@ return {
     },
     [920023] = {
         id = 920023,
-        text = "Where is Baking Soda? Ⅲ",
+        text = "Where is Baking Soda? III",
     },
     [10025] = {
         id = 10025,
@@ -12633,7 +12641,7 @@ return {
     },
     [920024] = {
         id = 920024,
-        text = "Euro Flour Ferry Ⅲ",
+        text = "Euro Flour Ferry III",
     },
     [42146] = {
         id = 42146,
@@ -12641,7 +12649,7 @@ return {
     },
     [920025] = {
         id = 920025,
-        text = "This is Chicken's Den? Ⅲ",
+        text = "This is Chicken's Den? III",
     },
     [100000288] = {
         id = 100000288,
@@ -12649,7 +12657,7 @@ return {
     },
     [920026] = {
         id = 920026,
-        text = "Baking Soda Rules Ⅲ",
+        text = "Baking Soda Rules III",
     },
     [100000287] = {
         id = 100000287,
@@ -12665,7 +12673,7 @@ return {
     },
     [920028] = {
         id = 920028,
-        text = "One Omelette Ⅲ",
+        text = "One Omelette III",
     },
     [100000286] = {
         id = 100000286,
@@ -12673,7 +12681,7 @@ return {
     },
     [920029] = {
         id = 920029,
-        text = "Chicken Soda Ⅲ",
+        text = "Chicken Soda III",
     },
     [13097] = {
         id = 13097,
@@ -12681,7 +12689,7 @@ return {
     },
     [920030] = {
         id = 920030,
-        text = "Move Flour and Eggs Ⅲ",
+        text = "Move Flour and Eggs III",
     },
     [100000285] = {
         id = 100000285,
@@ -12849,7 +12857,7 @@ return {
     },
     [920051] = {
         id = 920051,
-        text = "Deliver Milk Ⅰ",
+        text = "Deliver Milk I",
     },
     [1709003] = {
         id = 1709003,
@@ -12857,7 +12865,7 @@ return {
     },
     [920052] = {
         id = 920052,
-        text = "Collect Spring Water Ⅰ",
+        text = "Collect Spring Water I",
     },
     [1709005] = {
         id = 1709005,
@@ -12865,7 +12873,7 @@ return {
     },
     [920053] = {
         id = 920053,
-        text = "Sweetness is Happiness Ⅰ",
+        text = "Sweetness is Happiness I",
     },
     [1709007] = {
         id = 1709007,
@@ -12881,7 +12889,7 @@ return {
     },
     [920055] = {
         id = 920055,
-        text = "Taste of Spring Water Ⅰ",
+        text = "Taste of Spring Water I",
     },
     [1709011] = {
         id = 1709011,
@@ -12889,7 +12897,7 @@ return {
     },
     [920056] = {
         id = 920056,
-        text = "Beautiful Sweetness Ⅰ",
+        text = "Beautiful Sweetness I",
     },
     [1709013] = {
         id = 1709013,
@@ -12897,7 +12905,7 @@ return {
     },
     [920057] = {
         id = 920057,
-        text = "Milk with Sugar Ⅰ",
+        text = "Milk with Sugar I",
     },
     [11312116] = {
         id = 11312116,
@@ -12905,7 +12913,7 @@ return {
     },
     [920058] = {
         id = 920058,
-        text = "This is Milk Spring? Ⅰ",
+        text = "This is Milk Spring? I",
     },
     [250502] = {
         id = 250502,
@@ -12913,7 +12921,7 @@ return {
     },
     [920059] = {
         id = 920059,
-        text = "Sweet Spring Water Ⅰ",
+        text = "Sweet Spring Water I",
     },
     [100000272] = {
         id = 100000272,
@@ -12921,7 +12929,7 @@ return {
     },
     [920060] = {
         id = 920060,
-        text = "Odd Combination Ⅰ",
+        text = "Odd Combination I",
     },
     [100000271] = {
         id = 100000271,
@@ -12929,7 +12937,7 @@ return {
     },
     [920061] = {
         id = 920061,
-        text = "Deliver Milk Ⅰ",
+        text = "Deliver Milk I",
     },
     [100000270] = {
         id = 100000270,
@@ -12937,7 +12945,7 @@ return {
     },
     [920062] = {
         id = 920062,
-        text = "Collect Spring Water Ⅱ",
+        text = "Collect Spring Water II",
     },
     [250503] = {
         id = 250503,
@@ -12945,7 +12953,7 @@ return {
     },
     [920063] = {
         id = 920063,
-        text = "Sweetness is Happiness Ⅱ",
+        text = "Sweetness is Happiness II",
     },
     [100000269] = {
         id = 100000269,
@@ -12961,7 +12969,7 @@ return {
     },
     [920065] = {
         id = 920065,
-        text = "Taste of Spring Water Ⅱ",
+        text = "Taste of Spring Water II",
     },
     [100000267] = {
         id = 100000267,
@@ -12969,7 +12977,7 @@ return {
     },
     [920066] = {
         id = 920066,
-        text = "Beautiful Sweetness Ⅱ",
+        text = "Beautiful Sweetness II",
     },
     [250504] = {
         id = 250504,
@@ -12977,7 +12985,7 @@ return {
     },
     [920067] = {
         id = 920067,
-        text = "Milk with Sugar Ⅱ",
+        text = "Milk with Sugar II",
     },
     [100000266] = {
         id = 100000266,
@@ -12985,7 +12993,7 @@ return {
     },
     [920068] = {
         id = 920068,
-        text = "This is Milk Spring? Ⅱ",
+        text = "This is Milk Spring? II",
     },
     [501001] = {
         id = 501001,
@@ -12993,7 +13001,7 @@ return {
     },
     [920069] = {
         id = 920069,
-        text = "Sweet Spring Water Ⅱ",
+        text = "Sweet Spring Water II",
     },
     [18003] = {
         id = 18003,
@@ -13001,7 +13009,7 @@ return {
     },
     [920070] = {
         id = 920070,
-        text = "Odd Combination Ⅱ",
+        text = "Odd Combination II",
     },
     [19027] = {
         id = 19027,
@@ -13009,7 +13017,7 @@ return {
     },
     [920071] = {
         id = 920071,
-        text = "Deliver Milk Ⅰ",
+        text = "Deliver Milk I",
     },
     [20051] = {
         id = 20051,
@@ -13025,7 +13033,7 @@ return {
     },
     [920073] = {
         id = 920073,
-        text = "Sweetness is Happiness Ⅲ",
+        text = "Sweetness is Happiness III",
     },
     [22099] = {
         id = 22099,
@@ -13041,7 +13049,7 @@ return {
     },
     [920075] = {
         id = 920075,
-        text = "Taste of Spring Water Ⅲ",
+        text = "Taste of Spring Water III",
     },
     [100000265] = {
         id = 100000265,
@@ -13049,7 +13057,7 @@ return {
     },
     [920076] = {
         id = 920076,
-        text = "Beautiful Sweetness Ⅲ",
+        text = "Beautiful Sweetness III",
     },
     [501005] = {
         id = 501005,
@@ -13057,7 +13065,7 @@ return {
     },
     [920077] = {
         id = 920077,
-        text = "Milk with Sugar Ⅲ",
+        text = "Milk with Sugar III",
     },
     [100000264] = {
         id = 100000264,
@@ -13065,7 +13073,7 @@ return {
     },
     [920078] = {
         id = 920078,
-        text = "This is Milk Spring? Ⅲ",
+        text = "This is Milk Spring? III",
     },
     [100000263] = {
         id = 100000263,
@@ -13073,7 +13081,7 @@ return {
     },
     [920079] = {
         id = 920079,
-        text = "Sweet Spring Water Ⅲ",
+        text = "Sweet Spring Water III",
     },
     [100000262] = {
         id = 100000262,
@@ -13081,7 +13089,7 @@ return {
     },
     [920080] = {
         id = 920080,
-        text = "Odd Combination Ⅲ",
+        text = "Odd Combination III",
     },
     [100000261] = {
         id = 100000261,
@@ -13265,7 +13273,7 @@ return {
     },
     [920103] = {
         id = 920103,
-        text = "Zongzi Maker Ⅰ",
+        text = "Zongzi Maker I",
     },
     [20052] = {
         id = 20052,
@@ -13273,7 +13281,7 @@ return {
     },
     [920104] = {
         id = 920104,
-        text = "Ignore Bad Fruits Ⅰ",
+        text = "Ignore Bad Fruits I",
     },
     [42151] = {
         id = 42151,
@@ -13297,7 +13305,7 @@ return {
     },
     [920107] = {
         id = 920107,
-        text = "Sticky Fruit Ⅰ",
+        text = "Sticky Fruit I",
     },
     [13410004] = {
         id = 13410004,
@@ -13305,7 +13313,7 @@ return {
     },
     [920108] = {
         id = 920108,
-        text = "Healthy Combo Ⅰ",
+        text = "Healthy Combo I",
     },
     [25172] = {
         id = 25172,
@@ -13313,7 +13321,7 @@ return {
     },
     [920109] = {
         id = 920109,
-        text = "Let's Make Zongzi Ⅰ",
+        text = "Let's Make Zongzi I",
     },
     [13410036] = {
         id = 13410036,
@@ -13321,7 +13329,7 @@ return {
     },
     [920110] = {
         id = 920110,
-        text = "Fruity Vegetable Ⅰ",
+        text = "Fruity Vegetable I",
     },
     [13410052] = {
         id = 13410052,
@@ -13345,7 +13353,7 @@ return {
     },
     [920113] = {
         id = 920113,
-        text = "Zongzi Maker Ⅱ",
+        text = "Zongzi Maker II",
     },
     [100000249] = {
         id = 100000249,
@@ -13353,7 +13361,7 @@ return {
     },
     [920114] = {
         id = 920114,
-        text = "Ignore Bad Fruits Ⅱ",
+        text = "Ignore Bad Fruits II",
     },
     [31316] = {
         id = 31316,
@@ -13369,7 +13377,7 @@ return {
     },
     [920116] = {
         id = 920116,
-        text = "Sticky Rice Rules Ⅱ",
+        text = "Sticky Rice Rules II",
     },
     [100000247] = {
         id = 100000247,
@@ -13377,7 +13385,7 @@ return {
     },
     [920117] = {
         id = 920117,
-        text = "Sticky Fruit Ⅱ",
+        text = "Sticky Fruit II",
     },
     [100000246] = {
         id = 100000246,
@@ -13385,7 +13393,7 @@ return {
     },
     [920118] = {
         id = 920118,
-        text = "Healthy Combo Ⅱ",
+        text = "Healthy Combo II",
     },
     [100000245] = {
         id = 100000245,
@@ -13393,7 +13401,7 @@ return {
     },
     [920119] = {
         id = 920119,
-        text = "Let's Make Zongzi Ⅱ",
+        text = "Let's Make Zongzi II",
     },
     [100000244] = {
         id = 100000244,
@@ -13401,7 +13409,7 @@ return {
     },
     [920120] = {
         id = 920120,
-        text = "Fruity Vegetable Ⅱ",
+        text = "Fruity Vegetable II",
     },
     [42152] = {
         id = 42152,
@@ -13425,7 +13433,7 @@ return {
     },
     [920123] = {
         id = 920123,
-        text = "Zongzi Maker Ⅲ",
+        text = "Zongzi Maker III",
     },
     [100000241] = {
         id = 100000241,
@@ -13433,7 +13441,7 @@ return {
     },
     [920124] = {
         id = 920124,
-        text = "Ignore Bad Fruits Ⅲ",
+        text = "Ignore Bad Fruits III",
     },
     [100000240] = {
         id = 100000240,
@@ -13449,7 +13457,7 @@ return {
     },
     [920126] = {
         id = 920126,
-        text = "Sticky Rice Rules Ⅲ",
+        text = "Sticky Rice Rules III",
     },
     [10303026] = {
         id = 10303026,
@@ -13457,7 +13465,7 @@ return {
     },
     [920127] = {
         id = 920127,
-        text = "Sticky Fruit Ⅲ",
+        text = "Sticky Fruit III",
     },
     [100000237] = {
         id = 100000237,
@@ -13465,7 +13473,7 @@ return {
     },
     [920128] = {
         id = 920128,
-        text = "Healthy Combo Ⅲ",
+        text = "Healthy Combo III",
     },
     [100000236] = {
         id = 100000236,
@@ -13473,7 +13481,7 @@ return {
     },
     [920129] = {
         id = 920129,
-        text = "Let's Make Zongzi Ⅲ",
+        text = "Let's Make Zongzi III",
     },
     [100000235] = {
         id = 100000235,
@@ -13481,7 +13489,7 @@ return {
     },
     [920130] = {
         id = 920130,
-        text = "Fruity Vegetable Ⅲ",
+        text = "Fruity Vegetable III",
     },
     [100000234] = {
         id = 100000234,
@@ -13649,7 +13657,7 @@ return {
     },
     [920151] = {
         id = 920151,
-        text = "Did You Drop the Ribbon Ⅰ",
+        text = "Did You Drop the Ribbon I",
     },
     [10027] = {
         id = 10027,
@@ -13657,7 +13665,7 @@ return {
     },
     [920152] = {
         id = 920152,
-        text = "Handcrafted Ribbon Ⅰ",
+        text = "Handcrafted Ribbon I",
     },
     [42154] = {
         id = 42154,
@@ -13665,7 +13673,7 @@ return {
     },
     [920153] = {
         id = 920153,
-        text = "Or Needle & String? Ⅰ",
+        text = "Or Needle & String? I",
     },
     [12100086] = {
         id = 12100086,
@@ -13673,7 +13681,7 @@ return {
     },
     [920154] = {
         id = 920154,
-        text = "Lucky Ribbon Ⅰ",
+        text = "Lucky Ribbon I",
     },
     [12100076] = {
         id = 12100076,
@@ -13681,7 +13689,7 @@ return {
     },
     [920155] = {
         id = 920155,
-        text = "Deluxe Accessory Ⅰ",
+        text = "Deluxe Accessory I",
     },
     [12075] = {
         id = 12075,
@@ -13689,7 +13697,7 @@ return {
     },
     [920156] = {
         id = 920156,
-        text = "Beautiful Weaver Ⅰ",
+        text = "Beautiful Weaver I",
     },
     [12100108] = {
         id = 12100108,
@@ -13697,7 +13705,7 @@ return {
     },
     [920157] = {
         id = 920157,
-        text = "Ribbon and Sewing Ⅰ",
+        text = "Ribbon and Sewing I",
     },
     [13099] = {
         id = 13099,
@@ -13705,7 +13713,7 @@ return {
     },
     [920158] = {
         id = 920158,
-        text = "Binding Options Ⅰ",
+        text = "Binding Options I",
     },
     [100000220] = {
         id = 100000220,
@@ -13713,7 +13721,7 @@ return {
     },
     [920159] = {
         id = 920159,
-        text = "Silk (?) Leather Ⅰ",
+        text = "Silk (?) Leather I",
     },
     [100000219] = {
         id = 100000219,
@@ -13721,7 +13729,7 @@ return {
     },
     [920160] = {
         id = 920160,
-        text = "Show Sponsor Ⅰ",
+        text = "Show Sponsor I",
     },
     [100000218] = {
         id = 100000218,
@@ -13729,7 +13737,7 @@ return {
     },
     [920161] = {
         id = 920161,
-        text = "Did You Drop the Ribbon Ⅱ",
+        text = "Did You Drop the Ribbon II",
     },
     [100000217] = {
         id = 100000217,
@@ -13737,7 +13745,7 @@ return {
     },
     [920162] = {
         id = 920162,
-        text = "Handcrafted Ribbon Ⅱ",
+        text = "Handcrafted Ribbon II",
     },
     [100000216] = {
         id = 100000216,
@@ -13745,7 +13753,7 @@ return {
     },
     [920163] = {
         id = 920163,
-        text = "Or Needle & String? Ⅱ",
+        text = "Or Needle & String? II",
     },
     [100000215] = {
         id = 100000215,
@@ -13753,7 +13761,7 @@ return {
     },
     [920164] = {
         id = 920164,
-        text = "Lucky Ribbon Ⅱ",
+        text = "Lucky Ribbon II",
     },
     [100000214] = {
         id = 100000214,
@@ -13761,7 +13769,7 @@ return {
     },
     [920165] = {
         id = 920165,
-        text = "Deluxe Accessory Ⅱ",
+        text = "Deluxe Accessory II",
     },
     [18006] = {
         id = 18006,
@@ -13769,7 +13777,7 @@ return {
     },
     [920166] = {
         id = 920166,
-        text = "Beautiful Weaver Ⅱ",
+        text = "Beautiful Weaver II",
     },
     [19030] = {
         id = 19030,
@@ -13777,7 +13785,7 @@ return {
     },
     [920167] = {
         id = 920167,
-        text = "Ribbon and Sewing Ⅱ",
+        text = "Ribbon and Sewing II",
     },
     [20054] = {
         id = 20054,
@@ -13785,7 +13793,7 @@ return {
     },
     [920168] = {
         id = 920168,
-        text = "Binding Options Ⅱ",
+        text = "Binding Options II",
     },
     [21078] = {
         id = 21078,
@@ -13793,7 +13801,7 @@ return {
     },
     [920169] = {
         id = 920169,
-        text = "Silk (?) Leather Ⅱ",
+        text = "Silk (?) Leather II",
     },
     [22102] = {
         id = 22102,
@@ -13801,7 +13809,7 @@ return {
     },
     [920170] = {
         id = 920170,
-        text = "Show Sponsor Ⅱ",
+        text = "Show Sponsor II",
     },
     [100000213] = {
         id = 100000213,
@@ -13809,7 +13817,7 @@ return {
     },
     [920171] = {
         id = 920171,
-        text = "Did You Drop the Ribbon Ⅲ",
+        text = "Did You Drop the Ribbon III",
     },
     [100000212] = {
         id = 100000212,
@@ -13817,7 +13825,7 @@ return {
     },
     [920172] = {
         id = 920172,
-        text = "Handcrafted Ribbon Ⅲ",
+        text = "Handcrafted Ribbon III",
     },
     [25174] = {
         id = 25174,
@@ -13825,7 +13833,7 @@ return {
     },
     [920173] = {
         id = 920173,
-        text = "Or Needle & String? Ⅲ",
+        text = "Or Needle & String? III",
     },
     [100000211] = {
         id = 100000211,
@@ -13833,7 +13841,7 @@ return {
     },
     [920174] = {
         id = 920174,
-        text = "Lucky Ribbon Ⅲ",
+        text = "Lucky Ribbon III",
     },
     [100000210] = {
         id = 100000210,
@@ -13841,7 +13849,7 @@ return {
     },
     [920175] = {
         id = 920175,
-        text = "Deluxe Accessory Ⅲ",
+        text = "Deluxe Accessory III",
     },
     [100000209] = {
         id = 100000209,
@@ -13849,7 +13857,7 @@ return {
     },
     [920176] = {
         id = 920176,
-        text = "Beautiful Weaver Ⅲ",
+        text = "Beautiful Weaver III",
     },
     [100000208] = {
         id = 100000208,
@@ -13857,7 +13865,7 @@ return {
     },
     [920177] = {
         id = 920177,
-        text = "Ribbon and Sewing Ⅲ",
+        text = "Ribbon and Sewing III",
     },
     [100000207] = {
         id = 100000207,
@@ -13865,7 +13873,7 @@ return {
     },
     [920178] = {
         id = 920178,
-        text = "Binding Options Ⅲ",
+        text = "Binding Options III",
     },
     [100000206] = {
         id = 100000206,
@@ -13873,7 +13881,7 @@ return {
     },
     [920179] = {
         id = 920179,
-        text = "Silk (?) Leather Ⅲ",
+        text = "Silk (?) Leather III",
     },
     [100000205] = {
         id = 100000205,
@@ -13881,7 +13889,7 @@ return {
     },
     [920180] = {
         id = 920180,
-        text = "Show Sponsor Ⅲ",
+        text = "Show Sponsor III",
     },
     [100000204] = {
         id = 100000204,
@@ -14049,7 +14057,7 @@ return {
     },
     [920201] = {
         id = 920201,
-        text = "Multipurpose Rope Ⅰ",
+        text = "Multipurpose Rope I",
     },
     [22103] = {
         id = 22103,
@@ -14057,7 +14065,7 @@ return {
     },
     [920202] = {
         id = 920202,
-        text = "Focus Twine Ⅰ",
+        text = "Focus Twine I",
     },
     [10921229] = {
         id = 10921229,
@@ -14065,7 +14073,7 @@ return {
     },
     [920203] = {
         id = 920203,
-        text = "Woolen Yarn Ⅰ",
+        text = "Woolen Yarn I",
     },
     [100000198] = {
         id = 100000198,
@@ -14073,7 +14081,7 @@ return {
     },
     [920204] = {
         id = 920204,
-        text = "Perfect Rope Ⅰ",
+        text = "Perfect Rope I",
     },
     [25175] = {
         id = 25175,
@@ -14081,7 +14089,7 @@ return {
     },
     [920205] = {
         id = 920205,
-        text = "Basic Sewing Material Ⅰ",
+        text = "Basic Sewing Material I",
     },
     [100000197] = {
         id = 100000197,
@@ -14089,7 +14097,7 @@ return {
     },
     [920206] = {
         id = 920206,
-        text = "Beauty Wool Ⅰ",
+        text = "Beauty Wool I",
     },
     [100000196] = {
         id = 100000196,
@@ -14097,7 +14105,7 @@ return {
     },
     [920207] = {
         id = 920207,
-        text = "Dream of dolls Ⅰ",
+        text = "Dream of dolls I",
     },
     [100000195] = {
         id = 100000195,
@@ -14105,7 +14113,7 @@ return {
     },
     [920208] = {
         id = 920208,
-        text = "Doll Spine Ⅰ",
+        text = "Doll Spine I",
     },
     [100000194] = {
         id = 100000194,
@@ -14113,7 +14121,7 @@ return {
     },
     [920209] = {
         id = 920209,
-        text = "Cute Appearance Ⅰ",
+        text = "Cute Appearance I",
     },
     [100000193] = {
         id = 100000193,
@@ -14121,7 +14129,7 @@ return {
     },
     [920210] = {
         id = 920210,
-        text = "Childlike Fantasy Ⅰ",
+        text = "Childlike Fantasy I",
     },
     [100000192] = {
         id = 100000192,
@@ -14129,7 +14137,7 @@ return {
     },
     [920211] = {
         id = 920211,
-        text = "Multipurpose Rope Ⅱ",
+        text = "Multipurpose Rope II",
     },
     [12101014] = {
         id = 12101014,
@@ -14137,7 +14145,7 @@ return {
     },
     [920212] = {
         id = 920212,
-        text = "Focus Twine Ⅱ",
+        text = "Focus Twine II",
     },
     [12101004] = {
         id = 12101004,
@@ -14145,7 +14153,7 @@ return {
     },
     [920213] = {
         id = 920213,
-        text = "Woolen Yarn Ⅱ",
+        text = "Woolen Yarn II",
     },
     [12101020] = {
         id = 12101020,
@@ -14153,7 +14161,7 @@ return {
     },
     [920214] = {
         id = 920214,
-        text = "Perfect Rope Ⅱ",
+        text = "Perfect Rope II",
     },
     [12101036] = {
         id = 12101036,
@@ -14161,7 +14169,7 @@ return {
     },
     [920215] = {
         id = 920215,
-        text = "Basic Sewing Material Ⅱ",
+        text = "Basic Sewing Material II",
     },
     [10028] = {
         id = 10028,
@@ -14169,7 +14177,7 @@ return {
     },
     [920216] = {
         id = 920216,
-        text = "Beauty Wool Ⅱ",
+        text = "Beauty Wool II",
     },
     [100000191] = {
         id = 100000191,
@@ -14177,7 +14185,7 @@ return {
     },
     [920217] = {
         id = 920217,
-        text = "Dream of dolls Ⅱ",
+        text = "Dream of dolls II",
     },
     [100000190] = {
         id = 100000190,
@@ -14185,7 +14193,7 @@ return {
     },
     [920218] = {
         id = 920218,
-        text = "Doll Spine Ⅱ",
+        text = "Doll Spine II",
     },
     [100000189] = {
         id = 100000189,
@@ -14193,7 +14201,7 @@ return {
     },
     [920219] = {
         id = 920219,
-        text = "Cute Appearance Ⅱ",
+        text = "Cute Appearance II",
     },
     [12076] = {
         id = 12076,
@@ -14201,7 +14209,7 @@ return {
     },
     [920220] = {
         id = 920220,
-        text = "Childlike Fantasy Ⅱ",
+        text = "Childlike Fantasy II",
     },
     [100000188] = {
         id = 100000188,
@@ -14209,7 +14217,7 @@ return {
     },
     [920221] = {
         id = 920221,
-        text = "Multipurpose Rope Ⅲ",
+        text = "Multipurpose Rope III",
     },
     [13100] = {
         id = 13100,
@@ -14217,7 +14225,7 @@ return {
     },
     [920222] = {
         id = 920222,
-        text = "Focus Twine Ⅲ",
+        text = "Focus Twine III",
     },
     [100000187] = {
         id = 100000187,
@@ -14225,7 +14233,7 @@ return {
     },
     [920223] = {
         id = 920223,
-        text = "Woolen Yarn Ⅲ",
+        text = "Woolen Yarn III",
     },
     [100000186] = {
         id = 100000186,
@@ -14233,7 +14241,7 @@ return {
     },
     [920224] = {
         id = 920224,
-        text = "Perfect Rope Ⅲ",
+        text = "Perfect Rope III",
     },
     [100000185] = {
         id = 100000185,
@@ -14241,7 +14249,7 @@ return {
     },
     [920225] = {
         id = 920225,
-        text = "Basic Sewing Material Ⅲ",
+        text = "Basic Sewing Material III",
     },
     [100000184] = {
         id = 100000184,
@@ -14249,7 +14257,7 @@ return {
     },
     [920226] = {
         id = 920226,
-        text = "Beauty Wool Ⅲ",
+        text = "Beauty Wool III",
     },
     [100000183] = {
         id = 100000183,
@@ -14257,7 +14265,7 @@ return {
     },
     [920227] = {
         id = 920227,
-        text = "Dream of dolls Ⅲ",
+        text = "Dream of dolls III",
     },
     [100000182] = {
         id = 100000182,
@@ -14265,7 +14273,7 @@ return {
     },
     [920228] = {
         id = 920228,
-        text = "Doll Spine Ⅲ",
+        text = "Doll Spine III",
     },
     [100000181] = {
         id = 100000181,
@@ -14273,7 +14281,7 @@ return {
     },
     [920229] = {
         id = 920229,
-        text = "Cute Appearance Ⅲ",
+        text = "Cute Appearance III",
     },
     [18008] = {
         id = 18008,
@@ -14281,7 +14289,7 @@ return {
     },
     [920230] = {
         id = 920230,
-        text = "Childlike Fantasy Ⅲ",
+        text = "Childlike Fantasy III",
     },
     [19032] = {
         id = 19032,
@@ -14449,7 +14457,7 @@ return {
     },
     [920251] = {
         id = 920251,
-        text = "Elastic Thread Ⅰ",
+        text = "Elastic Thread I",
     },
     [2108059] = {
         id = 2108059,
@@ -14465,7 +14473,7 @@ return {
     },
     [920253] = {
         id = 920253,
-        text = "Temperament Bonus Ⅰ",
+        text = "Temperament Bonus I",
     },
     [2108067] = {
         id = 2108067,
@@ -14473,7 +14481,7 @@ return {
     },
     [920254] = {
         id = 920254,
-        text = "Untangled Thread Ⅰ",
+        text = "Untangled Thread I",
     },
     [2108071] = {
         id = 2108071,
@@ -14481,7 +14489,7 @@ return {
     },
     [920255] = {
         id = 920255,
-        text = "Collect General Materials Ⅰ",
+        text = "Collect General Materials I",
     },
     [2108075] = {
         id = 2108075,
@@ -14489,7 +14497,7 @@ return {
     },
     [920256] = {
         id = 920256,
-        text = "Function of Trinkets Ⅰ",
+        text = "Function of Trinkets I",
     },
     [2108079] = {
         id = 2108079,
@@ -14497,7 +14505,7 @@ return {
     },
     [920257] = {
         id = 920257,
-        text = "Marvelous combo Ⅰ",
+        text = "Marvelous combo I",
     },
     [2108083] = {
         id = 2108083,
@@ -14505,7 +14513,7 @@ return {
     },
     [920258] = {
         id = 920258,
-        text = "Dual Threads Ⅰ",
+        text = "Dual Threads I",
     },
     [2108087] = {
         id = 2108087,
@@ -14513,7 +14521,7 @@ return {
     },
     [920259] = {
         id = 920259,
-        text = "Underpriced Accessory Ⅰ",
+        text = "Underpriced Accessory I",
     },
     [2108091] = {
         id = 2108091,
@@ -14521,7 +14529,7 @@ return {
     },
     [920260] = {
         id = 920260,
-        text = "Thread a Needle Ⅰ",
+        text = "Thread a Needle I",
     },
     [2108095] = {
         id = 2108095,
@@ -14529,7 +14537,7 @@ return {
     },
     [920261] = {
         id = 920261,
-        text = "Elastic Thread Ⅱ",
+        text = "Elastic Thread II",
     },
     [18009] = {
         id = 18009,
@@ -14545,7 +14553,7 @@ return {
     },
     [920263] = {
         id = 920263,
-        text = "Temperament Bonus Ⅱ",
+        text = "Temperament Bonus II",
     },
     [20057] = {
         id = 20057,
@@ -14553,7 +14561,7 @@ return {
     },
     [920264] = {
         id = 920264,
-        text = "Thread never triangles Ⅱ",
+        text = "Thread never triangles II",
     },
     [42161] = {
         id = 42161,
@@ -14561,7 +14569,7 @@ return {
     },
     [920265] = {
         id = 920265,
-        text = "Collect General Materials Ⅱ",
+        text = "Collect General Materials II",
     },
     [22105] = {
         id = 22105,
@@ -14569,7 +14577,7 @@ return {
     },
     [920266] = {
         id = 920266,
-        text = "Function of Trinkets Ⅱ",
+        text = "Function of Trinkets II",
     },
     [2108119] = {
         id = 2108119,
@@ -14577,7 +14585,7 @@ return {
     },
     [920267] = {
         id = 920267,
-        text = "Marvelous combo Ⅱ",
+        text = "Marvelous combo II",
     },
     [2108123] = {
         id = 2108123,
@@ -14585,7 +14593,7 @@ return {
     },
     [920268] = {
         id = 920268,
-        text = "Dual Threads Ⅱ",
+        text = "Dual Threads II",
     },
     [25177] = {
         id = 25177,
@@ -14593,7 +14601,7 @@ return {
     },
     [920269] = {
         id = 920269,
-        text = "Underpriced Accessory Ⅱ",
+        text = "Underpriced Accessory II",
     },
     [2108131] = {
         id = 2108131,
@@ -14601,7 +14609,7 @@ return {
     },
     [920270] = {
         id = 920270,
-        text = "Thread a Needle Ⅱ",
+        text = "Thread a Needle II",
     },
     [2108135] = {
         id = 2108135,
@@ -14609,7 +14617,7 @@ return {
     },
     [920271] = {
         id = 920271,
-        text = "Elastic Thread Ⅲ",
+        text = "Elastic Thread III",
     },
     [2108139] = {
         id = 2108139,
@@ -14625,7 +14633,7 @@ return {
     },
     [920273] = {
         id = 920273,
-        text = "Temperament Bonus Ⅲ",
+        text = "Temperament Bonus III",
     },
     [2108147] = {
         id = 2108147,
@@ -14633,7 +14641,7 @@ return {
     },
     [920274] = {
         id = 920274,
-        text = "Thread never triangles Ⅲ",
+        text = "Thread never triangles III",
     },
     [2108151] = {
         id = 2108151,
@@ -14641,7 +14649,7 @@ return {
     },
     [920275] = {
         id = 920275,
-        text = "Collect General Materials Ⅲ",
+        text = "Collect General Materials III",
     },
     [2108155] = {
         id = 2108155,
@@ -14649,7 +14657,7 @@ return {
     },
     [920276] = {
         id = 920276,
-        text = "Function of Trinkets Ⅲ",
+        text = "Function of Trinkets III",
     },
     [2108159] = {
         id = 2108159,
@@ -14657,7 +14665,7 @@ return {
     },
     [920277] = {
         id = 920277,
-        text = "Marvelous combo Ⅲ",
+        text = "Marvelous combo III",
     },
     [2108163] = {
         id = 2108163,
@@ -14665,7 +14673,7 @@ return {
     },
     [920278] = {
         id = 920278,
-        text = "Dual Threads Ⅲ",
+        text = "Dual Threads III",
     },
     [2108167] = {
         id = 2108167,
@@ -14673,7 +14681,7 @@ return {
     },
     [920279] = {
         id = 920279,
-        text = "Underpriced Accessory Ⅲ",
+        text = "Underpriced Accessory III",
     },
     [10029] = {
         id = 10029,
@@ -14681,7 +14689,7 @@ return {
     },
     [920280] = {
         id = 920280,
-        text = "Thread a Needle Ⅲ",
+        text = "Thread a Needle III",
     },
     [42162] = {
         id = 42162,
@@ -17393,11 +17401,11 @@ return {
     },
     [290000084] = {
         id = 290000084,
-        text = "제4장",
+        text = "4",
     },
     [290000083] = {
         id = 290000083,
-        text = "제3장",
+        text = "3",
     },
     [100010] = {
         id = 100010,
@@ -17409,7 +17417,7 @@ return {
     },
     [290000081] = {
         id = 290000081,
-        text = "제1장",
+        text = "1",
     },
     [100000056] = {
         id = 100000056,
@@ -17477,7 +17485,7 @@ return {
     },
     [3207003] = {
         id = 3207003,
-        text = "Bronze Ⅲ",
+        text = "Bronze III",
     },
     [3210293] = {
         id = 3210293,
@@ -22593,11 +22601,11 @@ return {
     },
     [14110274] = {
         id = 14110274,
-        text = "Dropped gems in this area: Tohka, Kaguya, Mayuri, and Natsumi",
+        text = "Dropped gems in this area: Tohka, and Kaguya",
     },
     [14110273] = {
         id = 14110273,
-        text = "Dropped gems in this area: Yoshino, Shekhinah Tohka, DEM Origami, Inverse Origami, and Crimson Nightmare Kurumi",
+        text = "Dropped gems in this area: Yoshino, Shekhinah Tohka, and Crimson Nightmare Kurumi",
     },
     [14110272] = {
         id = 14110272,
@@ -24349,7 +24357,7 @@ return {
     },
     [3206001] = {
         id = 3206001,
-        text = "Ladder Deck-Bronze Ⅰ",
+        text = "Ladder Deck-Bronze I",
     },
     [13410035] = {
         id = 13410035,
@@ -24377,7 +24385,7 @@ return {
     },
     [3206002] = {
         id = 3206002,
-        text = "Ladder Deck-Bronze Ⅱ",
+        text = "Ladder Deck-Bronze II",
     },
     [13410028] = {
         id = 13410028,
@@ -24413,7 +24421,7 @@ return {
     },
     [3206003] = {
         id = 3206003,
-        text = "Ladder Deck-Bronze Ⅲ",
+        text = "Ladder Deck-Bronze III",
     },
     [13410020] = {
         id = 13410020,
@@ -24481,11 +24489,11 @@ return {
     },
     [3206004] = {
         id = 3206004,
-        text = "Ladder Deck-Silver Ⅰ",
+        text = "Ladder Deck-Silver I",
     },
     [3206005] = {
         id = 3206005,
-        text = "Ladder Deck-Silver Ⅱ",
+        text = "Ladder Deck-Silver II",
     },
     [214001] = {
         id = 214001,
@@ -24497,7 +24505,7 @@ return {
     },
     [3206006] = {
         id = 3206006,
-        text = "Ladder Deck-Silver Ⅲ",
+        text = "Ladder Deck-Silver III",
     },
     [13400263] = {
         id = 13400263,
@@ -30665,15 +30673,15 @@ return {
     },
     [13200114] = {
         id = 13200114,
-        text = "Peachy Memories Ⅲ",
+        text = "Peachy Memories III",
     },
     [13200113] = {
         id = 13200113,
-        text = "Peachy Memories Ⅱ",
+        text = "Peachy Memories II",
     },
     [13200112] = {
         id = 13200112,
-        text = "Peachy Memories Ⅰ",
+        text = "Peachy Memories I",
     },
     [20120] = {
         id = 20120,
@@ -30681,11 +30689,11 @@ return {
     },
     [13200111] = {
         id = 13200111,
-        text = "Sunshine and Bug Net ⅡⅠ",
+        text = "Sunshine and Bug Net III",
     },
     [13200110] = {
         id = 13200110,
-        text = "Sunshine and Bug Net Ⅱ",
+        text = "Sunshine and Bug Net II",
     },
     [206003] = {
         id = 206003,
@@ -30693,7 +30701,7 @@ return {
     },
     [13200109] = {
         id = 13200109,
-        text = "Sunshine and Bug Net Ⅰ",
+        text = "Sunshine and Bug Net I",
     },
     [13200108] = {
         id = 13200108,
@@ -34645,7 +34653,7 @@ return {
     },
     [12032048] = {
         id = 12032048,
-        text = "The leaderboard will be displayed during phase Ⅲ.",
+        text = "The leaderboard will be displayed during phase III.",
     },
     [12032047] = {
         id = 12032047,
@@ -34801,15 +34809,15 @@ return {
     },
     [12032017] = {
         id = 12032017,
-        text = "Phase Ⅲ",
+        text = "Phase III",
     },
     [12032016] = {
         id = 12032016,
-        text = "Phase Ⅱ",
+        text = "Phase II",
     },
     [12032015] = {
         id = 12032015,
-        text = "Phase Ⅰ",
+        text = "Phase I",
     },
     [202036] = {
         id = 202036,
@@ -36533,7 +36541,7 @@ return {
     },
     [1420020] = {
         id = 1420020,
-        text = "Origami Main Chapter 1",
+        text = "Origami Favor Dating - Chapter 4",
     },
     [1021313] = {
         id = 1021313,
@@ -36541,11 +36549,11 @@ return {
     },
     [1420022] = {
         id = 1420022,
-        text = "Yoshino Main Chapter 1",
+        text = "Yoshino Favor Dating - Chapter 5",
     },
     [1420023] = {
         id = 1420023,
-        text = "Kurumi Main Chapter 1",
+        text = "Kurumi Main Favor Dating - Chapter 4",
     },
     [18095] = {
         id = 18095,
@@ -36553,19 +36561,19 @@ return {
     },
     [1420025] = {
         id = 1420025,
-        text = "Tohka Main Chapter 2",
+        text = "Tohka Favor Dating - Chapter 5",
     },
     [1420026] = {
         id = 1420026,
-        text = "Origami Main Chapter 2",
+        text = "Origami Favor Dating - Chapter 5",
     },
     [1420027] = {
         id = 1420027,
-        text = "Mayuri Main Chapter 1",
+        text = "Mayuri Main Favor Dating - Chapter 5",
     },
     [1420028] = {
         id = 1420028,
-        text = "Kurumi Main Chapter 2",
+        text = "Kurumi Favor Dating - Chapter 5",
     },
     [1420029] = {
         id = 1420029,
@@ -36577,7 +36585,7 @@ return {
     },
     [1420031] = {
         id = 1420031,
-        text = "Natsumi Main Chapter 1",
+        text = "Natsumi Favor Dating - Chapter 5",
     },
     [1420032] = {
         id = 1420032,
@@ -37101,7 +37109,7 @@ return {
     },
     [3207030] = {
         id = 3207030,
-        text = "Ace in the Hole Ⅱ",
+        text = "Ace in the Hole II",
     },
     [11312115] = {
         id = 11312115,
@@ -37129,7 +37137,7 @@ return {
     },
     [3207031] = {
         id = 3207031,
-        text = "Sage in Trail Ⅲ",
+        text = "Sage in Trail III",
     },
     [11312108] = {
         id = 11312108,
@@ -37161,7 +37169,7 @@ return {
     },
     [3207032] = {
         id = 3207032,
-        text = "Execution Expert Ⅲ",
+        text = "Execution Expert III",
     },
     [11312100] = {
         id = 11312100,
@@ -37193,7 +37201,7 @@ return {
     },
     [3207033] = {
         id = 3207033,
-        text = "Battle Master Ⅲ",
+        text = "Battle Master III",
     },
     [11312092] = {
         id = 11312092,
@@ -37225,7 +37233,7 @@ return {
     },
     [3207034] = {
         id = 3207034,
-        text = "Spark Master Ⅲ",
+        text = "Spark Master III",
     },
     [11312084] = {
         id = 11312084,
@@ -37281,7 +37289,7 @@ return {
     },
     [3207035] = {
         id = 3207035,
-        text = "Pose Change Ⅲ",
+        text = "Pose Change III",
     },
     [420602] = {
         id = 420602,
@@ -37345,7 +37353,7 @@ return {
     },
     [3207036] = {
         id = 3207036,
-        text = "Ace in the Hole Ⅲ",
+        text = "Ace in the Hole III",
     },
     [420606] = {
         id = 420606,
@@ -41385,7 +41393,7 @@ return {
     },
     [111000119] = {
         id = 111000119,
-        text = "주간 퀘스트는 다음주 월요일 0시에 개방할 예정입니다.",
+        text = "Weekly Quest will reset at 0:00 every Sunday",
     },
     [1454001] = {
         id = 1454001,
@@ -46373,7 +46381,7 @@ return {
     },
     [10931183] = {
         id = 10931183,
-        text = "After [Collapsing Torrent], leaves a twisted realm to swallow HP from enemies in it. The skill inflicts Dark DMG equal to 1100% of the character's ATK",
+        text = "After [Beyond Netherworld], leaves a twisted realm to swallow HP from enemies in it. The skill inflicts Dark DMG equal to 1100% of the character's ATK",
     },
     [1022543] = {
         id = 1022543,
@@ -47397,7 +47405,7 @@ return {
     },
     [3204015] = {
         id = 3204015,
-        text = "Divine Awakening-Ⅰ",
+        text = "Divine Awakening-I",
     },
     [10921227] = {
         id = 10921227,
@@ -47461,7 +47469,7 @@ return {
     },
     [3204016] = {
         id = 3204016,
-        text = "Savage-Ⅰ",
+        text = "Savage-I",
     },
     [10921211] = {
         id = 10921211,
@@ -47505,7 +47513,7 @@ return {
     },
     [3204017] = {
         id = 3204017,
-        text = "Heavy Wound-Ⅰ",
+        text = "Heavy Wound-I",
     },
     [10921203] = {
         id = 10921203,
@@ -47537,7 +47545,7 @@ return {
     },
     [3204018] = {
         id = 3204018,
-        text = "Insight-Ⅰ",
+        text = "Insight-I",
     },
     [10921195] = {
         id = 10921195,
@@ -47585,7 +47593,7 @@ return {
     },
     [3204019] = {
         id = 3204019,
-        text = "Deadly-Ⅰ",
+        text = "Deadly-I",
     },
     [10921187] = {
         id = 10921187,
@@ -47629,7 +47637,7 @@ return {
     },
     [3204020] = {
         id = 3204020,
-        text = "Escape Trick-Ⅰ",
+        text = "Escape Trick-I",
     },
     [10921179] = {
         id = 10921179,
@@ -47673,7 +47681,7 @@ return {
     },
     [3204021] = {
         id = 3204021,
-        text = "Enhancer-Ⅰ",
+        text = "Enhancer-I",
     },
     [10921171] = {
         id = 10921171,
@@ -47953,7 +47961,7 @@ return {
     },
     [3204028] = {
         id = 3204028,
-        text = "Vitality-Ⅱ",
+        text = "Vitality-II",
     },
     [10921115] = {
         id = 10921115,
@@ -48009,7 +48017,7 @@ return {
     },
     [3204029] = {
         id = 3204029,
-        text = "Composure-Ⅱ",
+        text = "Composure-II",
     },
     [10921107] = {
         id = 10921107,
@@ -48037,7 +48045,7 @@ return {
     },
     [3204030] = {
         id = 3204030,
-        text = "Divine Awakening-Ⅱ",
+        text = "Divine Awakening-II",
     },
     [1022751] = {
         id = 1022751,
@@ -48277,7 +48285,7 @@ return {
     },
     [3204031] = {
         id = 3204031,
-        text = "Savage-Ⅱ",
+        text = "Savage-II",
     },
     [10921067] = {
         id = 10921067,
@@ -48353,7 +48361,7 @@ return {
     },
     [3204032] = {
         id = 3204032,
-        text = "Heavy Wound-Ⅱ",
+        text = "Heavy Wound-II",
     },
     [10921051] = {
         id = 10921051,
@@ -48385,7 +48393,7 @@ return {
     },
     [3204033] = {
         id = 3204033,
-        text = "Insight-Ⅱ",
+        text = "Insight-II",
     },
     [10921043] = {
         id = 10921043,
@@ -48413,7 +48421,7 @@ return {
     },
     [3204034] = {
         id = 3204034,
-        text = "Deadly-Ⅱ",
+        text = "Deadly-II",
     },
     [10921035] = {
         id = 10921035,
@@ -48453,7 +48461,7 @@ return {
     },
     [3204035] = {
         id = 3204035,
-        text = "Escape Trick-Ⅱ",
+        text = "Escape Trick-II",
     },
     [1022803] = {
         id = 1022803,
@@ -48485,7 +48493,7 @@ return {
     },
     [3204036] = {
         id = 3204036,
-        text = "Enhancer-Ⅱ",
+        text = "Enhancer-II",
     },
     [10921019] = {
         id = 10921019,
@@ -48525,7 +48533,7 @@ return {
     },
     [3204040] = {
         id = 3204040,
-        text = "Mind-Ⅱ",
+        text = "Mind-II",
     },
     [1022812] = {
         id = 1022812,
@@ -48541,7 +48549,7 @@ return {
     },
     [3204037] = {
         id = 3204037,
-        text = "Flame-Ⅱ",
+        text = "Flame-II",
     },
     [10921011] = {
         id = 10921011,
@@ -48565,11 +48573,11 @@ return {
     },
     [3204041] = {
         id = 3204041,
-        text = "Balance-Ⅱ",
+        text = "Balance-II",
     },
     [3204038] = {
         id = 3204038,
-        text = "Void-Ⅱ",
+        text = "Void-II",
     },
     [17118] = {
         id = 17118,
@@ -48585,7 +48593,7 @@ return {
     },
     [3204039] = {
         id = 3204039,
-        text = "Hurricane-Ⅱ",
+        text = "Hurricane-II",
     },
     [10911242] = {
         id = 10911242,
@@ -51137,7 +51145,7 @@ return {
     },
     [1325370] = {
         id = 1325370,
-        text = "DAL Ⅲ",
+        text = "DAL III",
     },
     [18152] = {
         id = 18152,
@@ -61661,7 +61669,7 @@ return {
     },
     [1328001] = {
         id = 1328001,
-        text = "DAL Ⅲ",
+        text = "DAL III",
     },
     [1328002] = {
         id = 1328002,
@@ -66765,7 +66773,7 @@ return {
     },
     [303035] = {
         id = 303035,
-        text = "Open %s times",
+        text = "x%s Summon",
     },
     [10301108] = {
         id = 10301108,
@@ -73309,7 +73317,7 @@ return {
     },
     [3206502] = {
         id = 3206502,
-        text = "Deck of group Bronze Ⅱ, grants x y card(s)",
+        text = "Deck of group Bronze II, grants x y card(s)",
     },
     [3206027] = {
         id = 3206027,
@@ -73337,7 +73345,7 @@ return {
     },
     [3206503] = {
         id = 3206503,
-        text = "Deck of group Bronze Ⅲ, grants x y card(s)",
+        text = "Deck of group Bronze III, grants x y card(s)",
     },
     [10133005] = {
         id = 10133005,
@@ -73345,7 +73353,7 @@ return {
     },
     [3206501] = {
         id = 3206501,
-        text = "Deck of group Bronze Ⅰ, grants x y card(s)",
+        text = "Deck of group Bronze I, grants x y card(s)",
     },
     [10133002] = {
         id = 10133002,
@@ -76921,7 +76929,7 @@ return {
     },
     [300203] = {
         id = 300203,
-        text = "Ⅲ",
+        text = "III",
     },
     [3210201] = {
         id = 3210201,
@@ -78441,51 +78449,51 @@ return {
     },
     [3207029] = {
         id = 3207029,
-        text = "Pose Change Ⅱ",
+        text = "Pose Change II",
     },
     [3207028] = {
         id = 3207028,
-        text = "Spark Master Ⅱ",
+        text = "Spark Master II",
     },
     [3207027] = {
         id = 3207027,
-        text = "Battle Master Ⅱ",
+        text = "Battle Master II",
     },
     [3207026] = {
         id = 3207026,
-        text = "Execution Expert Ⅱ",
+        text = "Execution Expert II",
     },
     [3207025] = {
         id = 3207025,
-        text = "Sage in Trail Ⅱ",
+        text = "Sage in Trail II",
     },
     [3207024] = {
         id = 3207024,
-        text = "Ace in the Hole Ⅰ",
+        text = "Ace in the Hole I",
     },
     [3207023] = {
         id = 3207023,
-        text = "Pose Change Ⅰ",
+        text = "Pose Change I",
     },
     [3207022] = {
         id = 3207022,
-        text = "Spark Master Ⅰ",
+        text = "Spark Master I",
     },
     [3207021] = {
         id = 3207021,
-        text = "Battle Master Ⅰ",
+        text = "Battle Master I",
     },
     [3207020] = {
         id = 3207020,
-        text = "Execution Expert Ⅰ",
+        text = "Execution Expert I",
     },
     [3207019] = {
         id = 3207019,
-        text = "Sage in Trail Ⅰ",
+        text = "Sage in Trail I",
     },
     [3207018] = {
         id = 3207018,
-        text = "Glory Group Ⅲ",
+        text = "Glory Group III",
     },
     [300301] = {
         id = 300301,
@@ -78493,7 +78501,7 @@ return {
     },
     [3207017] = {
         id = 3207017,
-        text = "Glory Group Ⅱ",
+        text = "Glory Group II",
     },
     [60068] = {
         id = 60068,
@@ -78501,7 +78509,7 @@ return {
     },
     [3207016] = {
         id = 3207016,
-        text = "Glory Group Ⅰ",
+        text = "Glory Group I",
     },
     [300302] = {
         id = 300302,
@@ -78509,15 +78517,15 @@ return {
     },
     [3207015] = {
         id = 3207015,
-        text = "Diamond Ⅲ",
+        text = "Diamond III",
     },
     [3207014] = {
         id = 3207014,
-        text = "Diamond Ⅱ",
+        text = "Diamond II",
     },
     [3207013] = {
         id = 3207013,
-        text = "Diamond Ⅰ",
+        text = "Diamond I",
     },
     [300303] = {
         id = 300303,
@@ -78525,15 +78533,15 @@ return {
     },
     [3207012] = {
         id = 3207012,
-        text = "Platinum Ⅲ",
+        text = "Platinum III",
     },
     [3207011] = {
         id = 3207011,
-        text = "Platinum Ⅱ",
+        text = "Platinum II",
     },
     [3207010] = {
         id = 3207010,
-        text = "Platinum Ⅰ",
+        text = "Platinum I",
     },
     [300304] = {
         id = 300304,
@@ -78541,15 +78549,15 @@ return {
     },
     [3207009] = {
         id = 3207009,
-        text = "Gold Ⅲ",
+        text = "Gold III",
     },
     [3207008] = {
         id = 3207008,
-        text = "Gold Ⅱ",
+        text = "Gold II",
     },
     [3207007] = {
         id = 3207007,
-        text = "Gold Ⅰ",
+        text = "Gold I",
     },
     [300305] = {
         id = 300305,
@@ -78557,15 +78565,15 @@ return {
     },
     [3207006] = {
         id = 3207006,
-        text = "Silver Ⅲ",
+        text = "Silver III",
     },
     [3207005] = {
         id = 3207005,
-        text = "Silver Ⅱ",
+        text = "Silver II",
     },
     [3207004] = {
         id = 3207004,
-        text = "Silver Ⅰ",
+        text = "Silver I",
     },
     [300306] = {
         id = 300306,
@@ -78577,11 +78585,11 @@ return {
     },
     [3207002] = {
         id = 3207002,
-        text = "Bronze Ⅱ",
+        text = "Bronze II",
     },
     [3207001] = {
         id = 3207001,
-        text = "Bronze Ⅰ",
+        text = "Bronze I",
     },
     [300307] = {
         id = 300307,
@@ -78601,27 +78609,27 @@ return {
     },
     [3206518] = {
         id = 3206518,
-        text = "Deck of group Glory Ⅲ, grants x y card(s)",
+        text = "Deck of group Glory III, grants x y card(s)",
     },
     [3206517] = {
         id = 3206517,
-        text = "Deck of group Glory Ⅱ, grants x y card(s)",
+        text = "Deck of group Glory II, grants x y card(s)",
     },
     [3206516] = {
         id = 3206516,
-        text = "Deck of group Glory Ⅰ, grants x y card(s)",
+        text = "Deck of group Glory I, grants x y card(s)",
     },
     [3206515] = {
         id = 3206515,
-        text = "Deck of group Diamond Ⅲ, grants x y card(s)",
+        text = "Deck of group Diamond III, grants x y card(s)",
     },
     [3206514] = {
         id = 3206514,
-        text = "Deck of group Diamond Ⅱ, grants x y card(s)",
+        text = "Deck of group Diamond II, grants x y card(s)",
     },
     [3206513] = {
         id = 3206513,
-        text = "Deck of group Diamond Ⅰ, grants x y card(s)",
+        text = "Deck of group Diamond I, grants x y card(s)",
     },
     [60069] = {
         id = 60069,
@@ -78629,23 +78637,23 @@ return {
     },
     [3206512] = {
         id = 3206512,
-        text = "Deck of group Platinum Ⅲ, grants x y card(s)",
+        text = "Deck of group Platinum III, grants x y card(s)",
     },
     [3206511] = {
         id = 3206511,
-        text = "Deck of group Platinum Ⅱ, grants x y card(s)",
+        text = "Deck of group Platinum II, grants x y card(s)",
     },
     [3206510] = {
         id = 3206510,
-        text = "Deck of group Platinum Ⅰ, grants x y card(s)",
+        text = "Deck of group Platinum I, grants x y card(s)",
     },
     [3206509] = {
         id = 3206509,
-        text = "Deck of group Gold Ⅲ, grants x y card(s)",
+        text = "Deck of group Gold III, grants x y card(s)",
     },
     [3206508] = {
         id = 3206508,
-        text = "Deck of group Gold Ⅱ, grants x y card(s)",
+        text = "Deck of group Gold II, grants x y card(s)",
     },
     [300311] = {
         id = 300311,
@@ -78653,15 +78661,15 @@ return {
     },
     [3206507] = {
         id = 3206507,
-        text = "Deck of group Gold Ⅰ, grants x y card(s)",
+        text = "Deck of group Gold I, grants x y card(s)",
     },
     [3206506] = {
         id = 3206506,
-        text = "Deck of group Silver Ⅲ, grants x y card(s)",
+        text = "Deck of group Silver III, grants x y card(s)",
     },
     [3206505] = {
         id = 3206505,
-        text = "Deck of group Silver Ⅱ, grants x y card(s)",
+        text = "Deck of group Silver II, grants x y card(s)",
     },
     [300312] = {
         id = 300312,
@@ -78669,7 +78677,7 @@ return {
     },
     [3206504] = {
         id = 3206504,
-        text = "Deck of group Silver Ⅰ, grants x y card(s)",
+        text = "Deck of group Silver I, grants x y card(s)",
     },
     [10133006] = {
         id = 10133006,
@@ -78749,7 +78757,7 @@ return {
     },
     [3206018] = {
         id = 3206018,
-        text = "Ladder Deck-Glory Ⅲ",
+        text = "Ladder Deck-Glory III",
     },
     [15018] = {
         id = 15018,
@@ -78757,15 +78765,15 @@ return {
     },
     [3206017] = {
         id = 3206017,
-        text = "Ladder Deck-Glory Ⅱ",
+        text = "Ladder Deck-Glory II",
     },
     [3206016] = {
         id = 3206016,
-        text = "Ladder Deck-Glory Ⅰ",
+        text = "Ladder Deck-Glory I",
     },
     [3206015] = {
         id = 3206015,
-        text = "Ladder Deck-Diamond Ⅲ",
+        text = "Ladder Deck-Diamond III",
     },
     [16042] = {
         id = 16042,
@@ -78773,19 +78781,19 @@ return {
     },
     [3206014] = {
         id = 3206014,
-        text = "Ladder Deck-Diamond Ⅱ",
+        text = "Ladder Deck-Diamond II",
     },
     [3206013] = {
         id = 3206013,
-        text = "Ladder Deck-Diamond Ⅰ",
+        text = "Ladder Deck-Diamond I",
     },
     [3206012] = {
         id = 3206012,
-        text = "Ladder Deck-Platinum Ⅲ",
+        text = "Ladder Deck-Platinum III",
     },
     [3206011] = {
         id = 3206011,
-        text = "Ladder Deck-Platinum Ⅱ",
+        text = "Ladder Deck-Platinum II",
     },
     [1010211] = {
         id = 1010211,
@@ -78801,7 +78809,7 @@ return {
     },
     [3206010] = {
         id = 3206010,
-        text = "Ladder Deck-Platinum Ⅰ",
+        text = "Ladder Deck-Platinum I",
     },
     [1010213] = {
         id = 1010213,
@@ -78813,15 +78821,15 @@ return {
     },
     [3206009] = {
         id = 3206009,
-        text = "Ladder Deck-Gold Ⅲ",
+        text = "Ladder Deck-Gold III",
     },
     [3206008] = {
         id = 3206008,
-        text = "Ladder Deck-Gold Ⅱ",
+        text = "Ladder Deck-Gold II",
     },
     [3206007] = {
         id = 3206007,
-        text = "Ladder Deck-Gold Ⅰ",
+        text = "Ladder Deck-Gold I",
     },
     [300322] = {
         id = 300322,
@@ -79441,31 +79449,31 @@ return {
     },
     [3204048] = {
         id = 3204048,
-        text = "Warrior-Ⅱ",
+        text = "Warrior-II",
     },
     [3204047] = {
         id = 3204047,
-        text = "Hunter-Ⅱ",
+        text = "Hunter-II",
     },
     [3204046] = {
         id = 3204046,
-        text = "Destruction-Ⅱ",
+        text = "Destruction-II",
     },
     [3204045] = {
         id = 3204045,
-        text = "Magic-Ⅱ",
+        text = "Magic-II",
     },
     [3204044] = {
         id = 3204044,
-        text = "Thunder-Ⅱ",
+        text = "Thunder-II",
     },
     [3204043] = {
         id = 3204043,
-        text = "Pure-Ⅱ",
+        text = "Pure-II",
     },
     [3204042] = {
         id = 3204042,
-        text = "Ice-Ⅱ",
+        text = "Ice-II",
     },
     [10921006] = {
         id = 10921006,
@@ -79601,7 +79609,7 @@ return {
     },
     [3204014] = {
         id = 3204014,
-        text = "Composure-Ⅰ",
+        text = "Composure-I",
     },
     [1010313] = {
         id = 1010313,
@@ -79609,43 +79617,43 @@ return {
     },
     [3204013] = {
         id = 3204013,
-        text = "Vitality-Ⅰ",
+        text = "Vitality-I",
     },
     [3204012] = {
         id = 3204012,
-        text = "Warrior-Ⅰ",
+        text = "Warrior-I",
     },
     [3204011] = {
         id = 3204011,
-        text = "Hunter-Ⅰ",
+        text = "Hunter-I",
     },
     [3204010] = {
         id = 3204010,
-        text = "Destruction-Ⅰ",
+        text = "Destruction-I",
     },
     [3204009] = {
         id = 3204009,
-        text = "Magic-Ⅰ",
+        text = "Magic-I",
     },
     [3204008] = {
         id = 3204008,
-        text = "Thunder-Ⅰ",
+        text = "Thunder-I",
     },
     [3204007] = {
         id = 3204007,
-        text = "Pure-Ⅰ",
+        text = "Pure-I",
     },
     [3204006] = {
         id = 3204006,
-        text = "Ice-Ⅰ",
+        text = "Ice-I",
     },
     [3204005] = {
         id = 3204005,
-        text = "Balance-Ⅰ",
+        text = "Balance-I",
     },
     [3204004] = {
         id = 3204004,
-        text = "Mind-Ⅰ",
+        text = "Mind-I",
     },
     [60077] = {
         id = 60077,
@@ -79653,15 +79661,15 @@ return {
     },
     [3204003] = {
         id = 3204003,
-        text = "Hurricane-Ⅰ",
+        text = "Hurricane-I",
     },
     [3204002] = {
         id = 3204002,
-        text = "Void-Ⅰ",
+        text = "Void-I",
     },
     [3204001] = {
         id = 3204001,
-        text = "Flame-Ⅰ",
+        text = "Flame-I",
     },
     [12101007] = {
         id = 12101007,
@@ -80213,7 +80221,7 @@ return {
     },
     [3202008] = {
         id = 3202008,
-        text = "Tier ⅠⅠ",
+        text = "Tier II",
     },
     [300409] = {
         id = 300409,
@@ -80269,7 +80277,7 @@ return {
     },
     [3201018] = {
         id = 3201018,
-        text = "Glory Ⅲ",
+        text = "Glory III",
     },
     [42033] = {
         id = 42033,
@@ -80277,7 +80285,7 @@ return {
     },
     [3201016] = {
         id = 3201016,
-        text = "Glory Ⅰ",
+        text = "Glory I",
     },
     [300413] = {
         id = 300413,
@@ -80285,7 +80293,7 @@ return {
     },
     [3201015] = {
         id = 3201015,
-        text = "Diamond Ⅲ",
+        text = "Diamond III",
     },
     [15021] = {
         id = 15021,
@@ -80293,7 +80301,7 @@ return {
     },
     [3201014] = {
         id = 3201014,
-        text = "Diamond Ⅱ",
+        text = "Diamond II",
     },
     [300414] = {
         id = 300414,
@@ -80301,7 +80309,7 @@ return {
     },
     [3201013] = {
         id = 3201013,
-        text = "Diamond Ⅰ",
+        text = "Diamond I",
     },
     [16045] = {
         id = 16045,
@@ -80321,7 +80329,7 @@ return {
     },
     [3201012] = {
         id = 3201012,
-        text = "Platinum Ⅲ",
+        text = "Platinum III",
     },
     [1010403] = {
         id = 1010403,
@@ -80337,7 +80345,7 @@ return {
     },
     [3201010] = {
         id = 3201010,
-        text = "Platinum Ⅰ",
+        text = "Platinum I",
     },
     [272034] = {
         id = 272034,
@@ -80345,23 +80353,23 @@ return {
     },
     [3201008] = {
         id = 3201008,
-        text = "Gold Ⅱ",
+        text = "Gold II",
     },
     [3201007] = {
         id = 3201007,
-        text = "Gold Ⅰ",
+        text = "Gold I",
     },
     [3201006] = {
         id = 3201006,
-        text = "Silver Ⅲ",
+        text = "Silver III",
     },
     [3201005] = {
         id = 3201005,
-        text = "Silver Ⅱ",
+        text = "Silver II",
     },
     [3201004] = {
         id = 3201004,
-        text = "Silver Ⅰ",
+        text = "Silver I",
     },
     [27161] = {
         id = 27161,
@@ -80369,7 +80377,7 @@ return {
     },
     [3201002] = {
         id = 3201002,
-        text = "Bronze ⅠⅠ",
+        text = "Bronze II",
     },
     [266586] = {
         id = 266586,
@@ -80721,7 +80729,7 @@ return {
     },
     [1328501] = {
         id = 1328501,
-        text = "Obtain it to activate the title \"DAL Ⅲ\"",
+        text = "Obtain it to activate the title \"DAL III\"",
     },
     [1010453] = {
         id = 1010453,
@@ -80893,7 +80901,7 @@ return {
     },
     [1420024] = {
         id = 1420024,
-        text = "Yoshino Main Chapter 2",
+        text = "Yoshino Favor Dating - Chapter 5",
     },
     [3006236] = {
         id = 3006236,
@@ -80937,7 +80945,7 @@ return {
     },
     [3006226] = {
         id = 3006226,
-        text = "Tactical Guru Ⅱ",
+        text = "Tactical Guru II",
     },
     [950031] = {
         id = 950031,
@@ -80945,7 +80953,7 @@ return {
     },
     [3006224] = {
         id = 3006224,
-        text = "Wound Resistance Ⅱ",
+        text = "Wound Resistance II",
     },
     [1420039] = {
         id = 1420039,
@@ -80953,7 +80961,7 @@ return {
     },
     [3006222] = {
         id = 3006222,
-        text = "Embrace Death Ⅱ",
+        text = "Embrace Death II",
     },
     [950033] = {
         id = 950033,
@@ -80961,7 +80969,7 @@ return {
     },
     [3006220] = {
         id = 3006220,
-        text = "Double-edged Ⅱ",
+        text = "Double-edged II",
     },
     [1420041] = {
         id = 1420041,
@@ -80969,7 +80977,7 @@ return {
     },
     [3006218] = {
         id = 3006218,
-        text = "Crit DMG Bonus Ⅲ",
+        text = "Crit DMG Bonus III",
     },
     [950044] = {
         id = 950044,
@@ -80977,15 +80985,15 @@ return {
     },
     [3006216] = {
         id = 3006216,
-        text = "Crit DMG Bonus Ⅰ",
+        text = "Crit DMG Bonus I",
     },
     [3006215] = {
         id = 3006215,
-        text = "Crit Rate Bonus Ⅲ",
+        text = "Crit Rate Bonus III",
     },
     [3006214] = {
         id = 3006214,
-        text = "Crit Rate Bonus Ⅱ",
+        text = "Crit Rate Bonus II",
     },
     [950045] = {
         id = 950045,
@@ -80993,7 +81001,7 @@ return {
     },
     [3006212] = {
         id = 3006212,
-        text = "ATK SPD Bonus Ⅲ",
+        text = "ATK SPD Bonus III",
     },
     [950047] = {
         id = 950047,
@@ -81001,7 +81009,7 @@ return {
     },
     [3006210] = {
         id = 3006210,
-        text = "ATK SPD Bonus Ⅰ",
+        text = "ATK SPD Bonus I",
     },
     [950057] = {
         id = 950057,
@@ -81009,15 +81017,15 @@ return {
     },
     [3006208] = {
         id = 3006208,
-        text = "DEF Bonus Ⅱ",
+        text = "DEF Bonus II",
     },
     [3006207] = {
         id = 3006207,
-        text = "DEF Bonus Ⅰ",
+        text = "DEF Bonus I",
     },
     [3006206] = {
         id = 3006206,
-        text = "HP Bonus Ⅲ",
+        text = "HP Bonus III",
     },
     [950058] = {
         id = 950058,
@@ -81025,7 +81033,7 @@ return {
     },
     [3006204] = {
         id = 3006204,
-        text = "HP Bonus Ⅰ",
+        text = "HP Bonus I",
     },
     [1420057] = {
         id = 1420057,
@@ -83597,7 +83605,7 @@ return {
     },
     [2201106] = {
         id = 2201106,
-        text = "Paverschelev",
+        text = "Paverschlev",
     },
     [2201104] = {
         id = 2201104,
@@ -84781,7 +84789,7 @@ return {
     },
     [2108220] = {
         id = 2108220,
-        text = "Sep 23rd – Oct 13rd",
+        text = "Sep 23rd – Oct 13th",
     },
     [2108218] = {
         id = 2108218,
@@ -85881,7 +85889,7 @@ return {
     },
     [300763] = {
         id = 300763,
-        text = "DEM-T3 Experimental Type Ⅰ",
+        text = "DEM-T3 Experimental Type I",
     },
     [2106062] = {
         id = 2106062,
@@ -85897,7 +85905,7 @@ return {
     },
     [300764] = {
         id = 300764,
-        text = "DEM-T3 Experimental Type Ⅱ",
+        text = "DEM-T3 Experimental Type II",
     },
     [2106059] = {
         id = 2106059,
@@ -85913,7 +85921,7 @@ return {
     },
     [300765] = {
         id = 300765,
-        text = "DEM-T3 Experimental Type Ⅲ",
+        text = "DEM-T3 Experimental Type III",
     },
     [2106056] = {
         id = 2106056,
@@ -88237,7 +88245,7 @@ return {
     },
     [2100053] = {
         id = 2100053,
-        text = "Stop matchup",
+        text = "Stop Matchup",
     },
     [2100052] = {
         id = 2100052,
@@ -99973,11 +99981,11 @@ return {
     },
     [1311169] = {
         id = 1311169,
-        text = "Lv.2 Test Trainer Ⅰ",
+        text = "Lv.2 Test Trainer I",
     },
     [1311171] = {
         id = 1311171,
-        text = "Lv.3 Junior Trainer Ⅱ",
+        text = "Lv.3 Junior Trainer II",
     },
     [270485] = {
         id = 270485,
@@ -99985,11 +99993,11 @@ return {
     },
     [1311177] = {
         id = 1311177,
-        text = "Lv.5 Talent Trainer Ⅲ",
+        text = "Lv.5 Talent Trainer III",
     },
     [1311181] = {
         id = 1311181,
-        text = "Lv.6 Genius Trainer Ⅱ",
+        text = "Lv.6 Genius Trainer II",
     },
     [270490] = {
         id = 270490,
@@ -99997,7 +100005,7 @@ return {
     },
     [1311201] = {
         id = 1311201,
-        text = "Lv.10 Guru Trainer Ⅰ",
+        text = "Lv.10 Guru Trainer I",
     },
     [900029] = {
         id = 900029,
@@ -101301,7 +101309,7 @@ return {
     },
     [14110276] = {
         id = 14110276,
-        text = "Dropped gems in this area: Kurumi, Miku, Ellen, and Spirit Origami",
+        text = "Dropped gems in this area: Kurumi, Miku, and Ellen",
     },
     [400028] = {
         id = 400028,
@@ -103249,11 +103257,11 @@ return {
     },
     [3201001] = {
         id = 3201001,
-        text = "Bronze Ⅰ",
+        text = "Bronze I",
     },
     [3201003] = {
         id = 3201003,
-        text = "Bronze Ⅲ",
+        text = "Bronze III",
     },
     [400150] = {
         id = 400150,
@@ -103265,11 +103273,11 @@ return {
     },
     [3201009] = {
         id = 3201009,
-        text = "Gold Ⅲ",
+        text = "Gold III",
     },
     [3201011] = {
         id = 3201011,
-        text = "Platinum Ⅱ",
+        text = "Platinum II",
     },
     [400151] = {
         id = 400151,
@@ -103281,7 +103289,7 @@ return {
     },
     [3201017] = {
         id = 3201017,
-        text = "Glory Ⅱ",
+        text = "Glory II",
     },
     [1310257] = {
         id = 1310257,
@@ -105197,7 +105205,7 @@ return {
     },
     [290000082] = {
         id = 290000082,
-        text = "제2장",
+        text = "2",
     },
     [1310370] = {
         id = 1310370,
@@ -105261,11 +105269,11 @@ return {
     },
     [3202007] = {
         id = 3202007,
-        text = "Tier Ⅰ",
+        text = "Tier I",
     },
     [3202009] = {
         id = 3202009,
-        text = "Tier Ⅲ",
+        text = "Tier III",
     },
     [3202011] = {
         id = 3202011,
@@ -106849,19 +106857,19 @@ return {
     },
     [3006202] = {
         id = 3006202,
-        text = "ATK Bonus Ⅱ",
+        text = "ATK Bonus II",
     },
     [3006201] = {
         id = 3006201,
-        text = "ATK Bonus Ⅰ",
+        text = "ATK Bonus I",
     },
     [3006203] = {
         id = 3006203,
-        text = "ATK Bonus Ⅲ",
+        text = "ATK Bonus III",
     },
     [3006205] = {
         id = 3006205,
-        text = "HP Bonus Ⅱ",
+        text = "HP Bonus II",
     },
     [12001] = {
         id = 12001,
@@ -106869,15 +106877,15 @@ return {
     },
     [3006209] = {
         id = 3006209,
-        text = "DEF Bonus Ⅲ",
+        text = "DEF Bonus III",
     },
     [3006211] = {
         id = 3006211,
-        text = "ATK SPD Bonus Ⅱ",
+        text = "ATK SPD Bonus II",
     },
     [3006213] = {
         id = 3006213,
-        text = "Crit Rate Bonus Ⅰ",
+        text = "Crit Rate Bonus I",
     },
     [13025] = {
         id = 13025,
@@ -106885,7 +106893,7 @@ return {
     },
     [3006217] = {
         id = 3006217,
-        text = "Crit DMG Bonus Ⅱ",
+        text = "Crit DMG Bonus II",
     },
     [3006219] = {
         id = 3006219,
@@ -106893,19 +106901,19 @@ return {
     },
     [3006221] = {
         id = 3006221,
-        text = "Double-edged Ⅲ",
+        text = "Double-edged III",
     },
     [3006223] = {
         id = 3006223,
-        text = "Embrace Death Ⅲ",
+        text = "Embrace Death III",
     },
     [3006225] = {
         id = 3006225,
-        text = "Wound Resistance Ⅲ",
+        text = "Wound Resistance III",
     },
     [3006227] = {
         id = 3006227,
-        text = "Tactical Guru Ⅲ",
+        text = "Tactical Guru III",
     },
     [3006229] = {
         id = 3006229,
@@ -106933,7 +106941,7 @@ return {
     },
     [1420021] = {
         id = 1420021,
-        text = "Kotori Main Chapter 1",
+        text = "Kotori Favor Dating - Chapter 5",
     },
     [930012] = {
         id = 930012,
@@ -106941,7 +106949,7 @@ return {
     },
     [1420019] = {
         id = 1420019,
-        text = "Tohka Main Chapter 1",
+        text = "Tohka Favor Dating - Chapter 4",
     },
     [1420017] = {
         id = 1420017,
@@ -110841,7 +110849,7 @@ return {
     },
     [920072] = {
         id = 920072,
-        text = "Collect Spring Water Ⅲ",
+        text = "Collect Spring Water III",
     },
     [63657] = {
         id = 63657,
@@ -111341,7 +111349,7 @@ return {
     },
     [290000085] = {
         id = 290000085,
-        text = "제5장",
+        text = "5",
     },
     [24019] = {
         id = 24019,

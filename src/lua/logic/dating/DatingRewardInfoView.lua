@@ -46,6 +46,11 @@ function DatingRewardInfoView:refreshDes()
     Label_dbi:show()
 end
 
+function DatingRewardInfoView:setCounstomDesc( stringId  , ...)
+     local Label_des = TFDirector:getChildByPath(self.ui, "Label_des")
+     Label_des:setTextById(stringId ,...)
+end
+
 function DatingRewardInfoView:initListView()
     local ScrollView_list = TFDirector:getChildByPath(self.ui, "ScrollView_list")
     self.listView = UIListView:create(ScrollView_list)

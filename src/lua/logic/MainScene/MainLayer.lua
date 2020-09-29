@@ -240,6 +240,13 @@ function MainLayer:initUI(ui)
     self.Panel_chat_di      = TFDirector:getChildByPath(ui,"Panel_chat_di");
     self.Label_message      = TFDirector:getChildByPath(ui,"Label_message");
 
+
+    self.img_chat_new_tip = TFImage:create("ui/recharge/new.png")
+    self.img_chat_new_tip:setPosition(40 ,10)
+    self.Image_chat:addChild(self.img_chat_new_tip , 1)
+    self.img_chat_new_tip:hide()
+
+
     self.Panel_bottom       = TFDirector:getChildByPath(ui,"Panel_bottom");
     self.Panel_chat         = TFDirector:getChildByPath(ui,"Panel_chat");
     -- self.Panel_chat_di:setOpacity(0)
@@ -2443,6 +2450,19 @@ function MainLayer:onRedPointUpdateChat()
     else
         self.Image_redPack_tips:setVisible(redPacket)
     end
+
+
+    if  self.img_chat_new_tip then
+        if not ChatDataMgr:getReadState(EC_ChatType.PRIVATE) then
+            self.img_chat_new_tip:show()
+        elseif not ChatDataMgr:getReadState(EC_ChatType.GUILD) then
+            self.img_chat_new_tip:show()
+        else
+            self.img_chat_new_tip:hide()
+        end
+    end
+    
+    
 end
 
 function MainLayer:refreshTitle(node)

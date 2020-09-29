@@ -9512,7 +9512,7 @@ return {
         },
         delete = true,
         isEnd = false,
-        limitTime = "20:00-08:00:00",
+        limitTime = "20:00:00-08:00:00",
         id = 103020001,
         addTime = "08:00:00",
         costTime = 0,

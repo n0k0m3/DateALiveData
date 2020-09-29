@@ -276,6 +276,22 @@ function SettingDataMgr:getAttactEffect()
     end
 end
 
+--联机组队是否自动准备 1是自动准备 2 是取消自动准备
+function SettingDataMgr:setIsAutoReady(value)
+    local id = MainPlayer:getPlayerId() or ""
+    UserDefalt:setStringForKey("IsAutoReadyOnlineBattle"..id, value)
+end
+
+function SettingDataMgr:getIsAutoReady()
+    local id = MainPlayer:getPlayerId() or ""
+    local value = UserDefalt:getStringForKey("IsAutoReadyOnlineBattle"..id)
+    if value == "" then
+        return 1
+    else
+        return tonumber(value)
+    end
+end
+
 function SettingDataMgr:getAttactEffectVal()
     return ATTACK_EFFECT_VAL[self:getAttactEffect()]
 end

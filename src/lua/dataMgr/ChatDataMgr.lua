@@ -82,6 +82,7 @@ function ChatDataMgr:init()
     TFDirector:addProto(s2c.CHAT_RESP_CHANGE_ROOM, self, self.onChangeRoom)
     TFDirector:addProto(s2c.CHAT_RESP_CHAT_INFO_CHANGE,self,self.reshTeamYq)
     TFDirector:addProto(s2c.CHAT_RESP_SCROLLING_INFO,self,self.onRecvMarquree)
+    TFDirector:addProto(s2c.CHAT_INIT_UNION_CHAT_INFO , self ,self.onRecvLeagueHistoryChat )
 
     self:reset()
     self:initConfigData()
@@ -110,7 +111,7 @@ function ChatDataMgr:getRichtextImgDict()
 end
 
 function ChatDataMgr:onLogin()
-
+    EventMgr:addEventListener(self,EV_OFFLINE_EVENT, handler(self.onLoginOut,self))
     TFDirector:addProto(s2c.CHAT_RESP_INIT_CHAT_INFO, self, self.onChatRecordWorldInfo)
     TFDirector:send(c2s.CHAT_REQ_INIT_CHAT_INFO, {})
     EventMgr:addEventListener(self,EV_CHAT_UPDATE_TEAM_INVITE, handler(self.onUpdateTeamInvite, self))
@@ -352,6 +353,7 @@ function ChatDataMgr:filteChatInfo()
         self.datas[EC_ChatType.TEAM_YQ] = _chatInfoList
     end
 end
+
 
 function ChatDataMgr:onRecvChatInfo(event)
 	print("ChatDataMgr:onRecvChatInfo--------------------")
@@ -973,5 +975,15 @@ function ChatDataMgr:clearBigWorldData()
         self.datas[EC_ChatType.BIG_WORLD] = {}
     end
 end
+
+--社团历史记录消息
+function ChatDataMgr:onRecvLeagueHistoryChat( event )
+    local data = event.data
+    data.msgs = data.msgs or {}
+    for k ,v in pairs(data.msgs) do
+        self:onRecvChatInfo({data = v})
+    end
+end
+
 
 return ChatDataMgr:new()

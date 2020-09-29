@@ -220,7 +220,8 @@ function SkyLadderMainView:updateBaseInfo()
 
     local raceEndTime = SkyLadderDataMgr:getRaceEndTime()
     local endTime = Utils:getTimeData(raceEndTime)
-    self.Label_closeTime:setTextById(111000121, endTime.Month, endTime.Day, endTime.Hour)
+    local endDate = Utils:getUTCDate(raceEndTime , GV_UTC_TIME_ZONE)
+    self.Label_closeTime:setText(TextDataMgr:getText(111000121, endDate:fmt("%m"), endDate:fmt("%d"), endDate:fmt("%H"))..GV_UTC_TIME_STRING)
 
     local textId = 3202063
     local step = SkyLadderDataMgr:getStep()

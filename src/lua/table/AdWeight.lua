@@ -125,7 +125,7 @@ return {
         showType = 1,
         res = "ui/update/s25.png",
         id = 17,
-        probability = 0,
+        probability = 2000,
     },
     [18] = {
         descID = {
@@ -157,7 +157,7 @@ return {
         showType = 1,
         res = "ui/update/s55.png",
         id = 21,
-        probability = 0,
+        probability = 2000,
     },
     [22] = {
         descID = {
@@ -335,7 +335,7 @@ return {
         showType = 2,
         res = "ui/update/s25.png",
         id = 39,
-        probability = 0,
+        probability = 2000,
     },
     [40] = {
         descID = {
@@ -375,7 +375,7 @@ return {
         showType = 2,
         res = "ui/update/s55.png",
         id = 43,
-        probability = 0,
+        probability = 2000,
     },
     [44] = {
         descID = {
@@ -555,7 +555,7 @@ return {
         showType = 3,
         res = "ui/update/s25.png",
         id = 61,
-        probability = 0,
+        probability = 2000,
     },
     [62] = {
         descID = {
@@ -595,7 +595,7 @@ return {
         showType = 3,
         res = "ui/update/s55.png",
         id = 65,
-        probability = 0,
+        probability = 2000,
     },
     [66] = {
         descID = {
@@ -775,7 +775,7 @@ return {
         showType = 31,
         res = "ui/update/s25.png",
         id = 83,
-        probability = 0,
+        probability = 2000,
     },
     [84] = {
         descID = {
@@ -815,7 +815,7 @@ return {
         showType = 31,
         res = "ui/update/s55.png",
         id = 87,
-        probability = 0,
+        probability = 2000,
     },
     [88] = {
         descID = {
@@ -995,7 +995,7 @@ return {
         showType = 32,
         res = "ui/update/s25.png",
         id = 105,
-        probability = 0,
+        probability = 2000,
     },
     [106] = {
         descID = {
@@ -1035,7 +1035,7 @@ return {
         showType = 32,
         res = "ui/update/s55.png",
         id = 109,
-        probability = 0,
+        probability = 2000,
     },
     [110] = {
         descID = {
@@ -1215,7 +1215,7 @@ return {
         showType = 33,
         res = "ui/update/s25.png",
         id = 127,
-        probability = 0,
+        probability = 2000,
     },
     [128] = {
         descID = {
@@ -1255,7 +1255,7 @@ return {
         showType = 33,
         res = "ui/update/s55.png",
         id = 131,
-        probability = 0,
+        probability = 2000,
     },
     [132] = {
         descID = {
@@ -1435,7 +1435,7 @@ return {
         showType = 34,
         res = "ui/update/s25.png",
         id = 149,
-        probability = 0,
+        probability = 2000,
     },
     [150] = {
         descID = {
@@ -1475,7 +1475,7 @@ return {
         showType = 34,
         res = "ui/update/s55.png",
         id = 153,
-        probability = 0,
+        probability = 2000,
     },
     [154] = {
         descID = {
@@ -1655,7 +1655,7 @@ return {
         showType = 35,
         res = "ui/update/s25.png",
         id = 171,
-        probability = 0,
+        probability = 2000,
     },
     [172] = {
         descID = {
@@ -1695,7 +1695,7 @@ return {
         showType = 35,
         res = "ui/update/s55.png",
         id = 175,
-        probability = 0,
+        probability = 2000,
     },
     [176] = {
         descID = {
@@ -1875,7 +1875,7 @@ return {
         showType = 36,
         res = "ui/update/s25.png",
         id = 193,
-        probability = 0,
+        probability = 2000,
     },
     [194] = {
         descID = {
@@ -1915,7 +1915,7 @@ return {
         showType = 36,
         res = "ui/update/s55.png",
         id = 197,
-        probability = 0,
+        probability = 2000,
     },
     [198] = {
         descID = {
@@ -2095,7 +2095,7 @@ return {
         showType = 37,
         res = "ui/update/s25.png",
         id = 215,
-        probability = 0,
+        probability = 2000,
     },
     [216] = {
         descID = {
@@ -2135,7 +2135,7 @@ return {
         showType = 37,
         res = "ui/update/s55.png",
         id = 219,
-        probability = 0,
+        probability = 2000,
     },
     [220] = {
         descID = {
@@ -2315,7 +2315,7 @@ return {
         showType = 38,
         res = "ui/update/s25.png",
         id = 237,
-        probability = 0,
+        probability = 2000,
     },
     [238] = {
         descID = {
@@ -2355,7 +2355,7 @@ return {
         showType = 38,
         res = "ui/update/s55.png",
         id = 241,
-        probability = 0,
+        probability = 2000,
     },
     [242] = {
         descID = {
@@ -2535,7 +2535,7 @@ return {
         showType = 39,
         res = "ui/update/s25.png",
         id = 259,
-        probability = 0,
+        probability = 2000,
     },
     [260] = {
         descID = {
@@ -2575,7 +2575,7 @@ return {
         showType = 39,
         res = "ui/update/s55.png",
         id = 263,
-        probability = 0,
+        probability = 2000,
     },
     [264] = {
         descID = {
@@ -2755,7 +2755,7 @@ return {
         showType = 40,
         res = "ui/update/s25.png",
         id = 281,
-        probability = 0,
+        probability = 2000,
     },
     [282] = {
         descID = {
@@ -2795,7 +2795,7 @@ return {
         showType = 40,
         res = "ui/update/s55.png",
         id = 285,
-        probability = 0,
+        probability = 2000,
     },
     [286] = {
         descID = {
@@ -2975,7 +2975,7 @@ return {
         showType = 41,
         res = "ui/update/s25.png",
         id = 303,
-        probability = 0,
+        probability = 2000,
     },
     [304] = {
         descID = {
@@ -3015,7 +3015,7 @@ return {
         showType = 41,
         res = "ui/update/s55.png",
         id = 307,
-        probability = 0,
+        probability = 2000,
     },
     [308] = {
         descID = {
@@ -3195,7 +3195,7 @@ return {
         showType = 101,
         res = "ui/update/s25.png",
         id = 325,
-        probability = 0,
+        probability = 2000,
     },
     [326] = {
         descID = {
@@ -3235,7 +3235,7 @@ return {
         showType = 101,
         res = "ui/update/s55.png",
         id = 329,
-        probability = 0,
+        probability = 2000,
     },
     [330] = {
         descID = {
@@ -3415,7 +3415,7 @@ return {
         showType = 102,
         res = "ui/update/s25.png",
         id = 347,
-        probability = 0,
+        probability = 2000,
     },
     [348] = {
         descID = {
@@ -3455,7 +3455,7 @@ return {
         showType = 102,
         res = "ui/update/s55.png",
         id = 351,
-        probability = 0,
+        probability = 2000,
     },
     [352] = {
         descID = {
@@ -3635,7 +3635,7 @@ return {
         showType = 103,
         res = "ui/update/s25.png",
         id = 369,
-        probability = 0,
+        probability = 2000,
     },
     [370] = {
         descID = {
@@ -3675,7 +3675,7 @@ return {
         showType = 103,
         res = "ui/update/s55.png",
         id = 373,
-        probability = 0,
+        probability = 2000,
     },
     [374] = {
         descID = {
@@ -3855,7 +3855,7 @@ return {
         showType = 104,
         res = "ui/update/s25.png",
         id = 391,
-        probability = 0,
+        probability = 2000,
     },
     [392] = {
         descID = {
@@ -3895,7 +3895,7 @@ return {
         showType = 104,
         res = "ui/update/s55.png",
         id = 395,
-        probability = 0,
+        probability = 2000,
     },
     [396] = {
         descID = {
@@ -4075,7 +4075,7 @@ return {
         showType = 105,
         res = "ui/update/s25.png",
         id = 413,
-        probability = 0,
+        probability = 2000,
     },
     [414] = {
         descID = {
@@ -4115,7 +4115,7 @@ return {
         showType = 105,
         res = "ui/update/s55.png",
         id = 417,
-        probability = 0,
+        probability = 2000,
     },
     [418] = {
         descID = {
@@ -4295,7 +4295,7 @@ return {
         showType = 110,
         res = "ui/update/s25.png",
         id = 435,
-        probability = 0,
+        probability = 2000,
     },
     [436] = {
         descID = {
@@ -4335,7 +4335,7 @@ return {
         showType = 110,
         res = "ui/update/s55.png",
         id = 439,
-        probability = 0,
+        probability = 2000,
     },
     [440] = {
         descID = {
@@ -4515,7 +4515,7 @@ return {
         showType = 112,
         res = "ui/update/s25.png",
         id = 457,
-        probability = 0,
+        probability = 2000,
     },
     [458] = {
         descID = {
@@ -4555,7 +4555,7 @@ return {
         showType = 112,
         res = "ui/update/s55.png",
         id = 461,
-        probability = 0,
+        probability = 2000,
     },
     [462] = {
         descID = {
@@ -4735,7 +4735,7 @@ return {
         showType = 113,
         res = "ui/update/s25.png",
         id = 479,
-        probability = 0,
+        probability = 2000,
     },
     [480] = {
         descID = {
@@ -4775,7 +4775,7 @@ return {
         showType = 113,
         res = "ui/update/s55.png",
         id = 483,
-        probability = 0,
+        probability = 2000,
     },
     [484] = {
         descID = {

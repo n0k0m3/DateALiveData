@@ -1,7 +1,7 @@
 return {
     [12015] = {
         id = 12015,
-        history = false,
+        history = true,
         event_id = 12,
         remark = "周年庆通过约会关卡",
     },

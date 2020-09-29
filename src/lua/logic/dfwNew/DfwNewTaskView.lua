@@ -226,7 +226,8 @@ function DfwNewTaskView:updateTaskView()
                 local itemCfg = TabDataMgr:getData("Item", tonumber(itemID))
                 self.Image_cost_icon:setTexture(itemCfg.icon)
                 self.Label_cost_num:setString(num)
-
+                self.costIcon = itemCfg.icon
+                self.costNum = num
                 break
             end
         end
@@ -257,7 +258,20 @@ function DfwNewTaskView:registerEvents()
     EventMgr:addEventListener(self, EV_ACTIVITY_UPDATE_PROGRESS, handler(onRefreshTaskView, self))
 
     self.Button_refresh:onClick(function()
-        DfwDataMgr:send_ZILLIONAIRE_REQ_REFRESH_TASK()
+
+        local function refreshCost( )
+            DfwDataMgr:send_ZILLIONAIRE_REQ_REFRESH_TASK()  
+        end
+
+        if MainPlayer:getOneLoginStatus(EC_OneLoginStatusType.ReConfirm_DafuwengRefreashCost) then
+            refreshCost()
+            return
+        end
+        local rstr = TextDataMgr:getTextAttr(13410048)
+        local formatStr = rstr and rstr.text or ""
+        local content = string.format(formatStr, self.costNum or 0, self.costIcon or "")
+        Utils:openView("common.ReConfirmTipsView", {tittle = 100000142, content = content, reType = EC_OneLoginStatusType.ReConfirm_DafuwengRefreashCost, confirmCall = refreshCost})
+        
     end)
 
     self.Button_close:onClick(function()
