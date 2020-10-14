@@ -15,6 +15,10 @@ function PackBranchLayer:initUI(ui)
 
     self.label_title = TFDirector:getChildByPath(ui,"label_title")
     self.label_title:setSystemFontText(self.strCfg[190000138].text)
+
+    local img_bg = TFDirector:getChildByPath(ui,"img_bg")
+    local path,desc = Utils:randomAD(3);
+    img_bg:setTexture(path);
 end
 
 function PackBranchLayer:registerEvents()

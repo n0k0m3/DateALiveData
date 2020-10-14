@@ -1041,8 +1041,8 @@ function ActivityDataMgr:__handleActivity(activitys)
     for i, v in ipairs(activitys) do
         local activityInfo = self:__parserActivity(v)
         dump(activityInfo)
-
-        if v.activityType == EC_ActivityType2.DUANWU_1 then
+        --英文版新增DFW_AUTUMN 掉落活动筛选
+        if v.activityType == EC_ActivityType2.DUANWU_1 or v.activityType == EC_ActivityType2.DFW_AUTUMN then
             self.duanwuType = tonumber(v.extendData.displayType) or 0
         end
 

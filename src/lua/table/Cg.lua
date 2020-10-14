@@ -3392,7 +3392,7 @@ return {
         cg3 = "",
         id = 1057,
         cgId = 540350,
-        cg = "date_cg_249",
+        cg = "date_cg_qiuriji",
         backGround = "",
         cg2 = "",
         video = "",

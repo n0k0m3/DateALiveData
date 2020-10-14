@@ -19,6 +19,7 @@ return {
             [1] = 410301,
             [2] = 410303,
             [3] = 410308,
+            [4] = 410309,
         },
         weight = "35",
         maxFavor = 500,
@@ -385,7 +386,7 @@ return {
         },
         datingVariable = {
         },
-        order = 35,
+        order = 30,
         datingBottom = "wzui/y210.png",
         favor = 0,
         dress = {

@@ -1020,8 +1020,7 @@ return {
         fileName = "Help",
         desc = {
             [1] = 62997,
-            [2] = 62998,
-            [3] = 62999,
+            [2] = 62999,
         },
     },
     [1036] = {
@@ -1417,7 +1416,7 @@ return {
     [1046] = {
         picPath  = "",
         type = 0,
-        title = "61045",
+        title = "61014",
         pictureParameter = {
         },
         id = 1046,
@@ -1448,7 +1447,7 @@ return {
     [1047] = {
         picPath  = "",
         type = 0,
-        title = "61045",
+        title = "61014",
         pictureParameter = {
         },
         id = 1047,

@@ -209,6 +209,7 @@ EV_CITY_DO_PART_TIME_JOB = "ev_city_do_part_time_job"    -- 兼职任务
 EV_CITY_PART_TIME_JOB_AWARD = "ev_city_part_time_jobaward"    -- 领取兼职任务奖励
 EV_CITY_GIVE_UP_JOB = "ev_city_give_up_job"    -- 放弃兼职任务
 EV_CITY_OPEN_ROOM = "ev_city_open_room"    -- 打开房间
+EV_NEW_BUILDING_RES_SPEED_PART_TIME_JOB = "EV_NEW_BUILDING_RES_SPEED_PART_TIME_JOB" --兼职加速响应
 
 --灵装
 EV_EQUIPMENT_OPERATION = "EV_EQUIPMENT_OPERATION" -- 灵装操作

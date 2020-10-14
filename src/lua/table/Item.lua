@@ -46142,7 +46142,7 @@ return {
             fix = {
                 items = {
                     [1] = {
-                        id = 1200023,
+                        id = 1200022,
                         num = 1,
                     },
                 },
@@ -52961,7 +52961,7 @@ return {
         outTime = 0,
         bagType = 0,
         autoUse = false,
-        nameTextId = 13200005,
+        nameTextId = 190000185,
         icon = "ui/dfwNew/566023.png",
         quality = 4,
         isHide = false,
@@ -70102,7 +70102,7 @@ return {
             fix = {
                 items = {
                     [1] = {
-                        id = 1200022,
+                        id = 1200023,
                         num = 1,
                     },
                 },
@@ -110062,7 +110062,7 @@ return {
         bagType = 0,
         autoUse = false,
         nameTextId = 0,
-        icon = "icon/cg/date_cg_249.png",
+        icon = "icon/cg/date_cg_qiuriji.png",
         quality = 1,
         isHide = false,
         delete = false,

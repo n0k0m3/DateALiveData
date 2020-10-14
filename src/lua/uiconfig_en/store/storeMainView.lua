@@ -1291,15 +1291,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_name",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -1313,9 +1313,9 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = -8,
-										PositionY = -25,
+										PositionY = -27,
 									},
-									width = "45",
+									width = "89",
 									ZOrder = "1",
 								},
 								{

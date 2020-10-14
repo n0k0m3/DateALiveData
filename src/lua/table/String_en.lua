@@ -5625,7 +5625,7 @@ return {
     },
     [1705063] = {
         id = 1705063,
-        text = "Very- very beautiful cloth... do it really suit me?",
+        text = "Very- very beautiful clothes... Does it really suit me?",
     },
     [213145] = {
         id = 213145,
@@ -10983,21 +10983,77 @@ return {
         id = 42132,
         text = "C Class Energy Gem, obtain it to get a C Class Gem for a random skill of [Shekhinah Tohka]. (Auto used once obtained)",
     },
+    [10703085] = {
+        id = 10703085,
+        text = "[Death Thorn] Wind Energy Cost -2.",
+    },
+    [10911122] = {
+        id = 10911122,
+        text = "Transforms into sword beam to slash nearby enemies. Then charges up and strikes down, damaging all enemies with massive energy. The skill inflicts Physical DMG equal to 1400% of the character's ATK",
+    },
     [63636] = {
         id = 63636,
         text = "1. Recruit Chances: You can recruit with items 3 times and pay for 10 extra recruit times. \n2. Save Recruit: Up to 3 recruit results can be saved. The first 3 results are auto saved and each can be replaced with a new result. (exchanged results can't be replaced)\n3. Exchange Recruit: You can exchange up to 3 saved recruit results from each prize pool. Doing so costs mock badges. \n4 When you are out of exchange chances, you can't recruit from this prize pool, so exchange with caution. \n5. When the 1st Anniversary Memory event ends, the prize pool will close. Please exchange in time.",
+    },
+    [11000203] = {
+        id = 11000203,
+        text = "Compared with wearing these,",
+    },
+    [11201032] = {
+        id = 11201032,
+        text = "Enhance",
+    },
+    [12000074] = {
+        id = 12000074,
+        text = "Date Progress",
+    },
+    [190000192] = {
+        id = 190000192,
+        text = "Air Force ",
+    },
+    [190000191] = {
+        id = 190000191,
+        text = "Air Force ",
+    },
+    [190000190] = {
+        id = 190000190,
+        text = "Navy Girl",
+    },
+    [190000189] = {
+        id = 190000189,
+        text = "Navy Girl",
+    },
+    [190000188] = {
+        id = 190000188,
+        text = "Out of daily chances",
     },
     [20043] = {
         id = 20043,
         text = "Adonai Tzabaoth",
     },
+    [190000187] = {
+        id = 190000187,
+        text = "Each speedup reduces work duration by %smin.",
+    },
     [42133] = {
         id = 42133,
         text = "B Class Energy Gem, obtain it to get a B Class Gem for a random skill of [Shekhinah Tohka]. (Auto used once obtained)",
     },
+    [190000186] = {
+        id = 190000186,
+        text = "The Free Speed up of Work in Date City +1",
+    },
     [22091] = {
         id = 22091,
         text = "Kotori Sephira Chest",
+    },
+    [190000185] = {
+        id = 190000185,
+        text = "Get a random roll from 1 to 6. The storage limit is 999, and if it exceeds, it will automatically be converted into 3 Coins.",
+    },
+    [190000184] = {
+        id = 190000184,
+        text = "Move %s Steps",
     },
     [190000183] = {
         id = 190000183,
@@ -11041,11 +11097,11 @@ return {
     },
     [190000174] = {
         id = 190000174,
-        text = "You don’t have friends. Go add now.",
+        text = "You don't have friends. Go add now.",
     },
     [190000173] = {
         id = 190000173,
-        text = "You don’t have friends. Go add now.",
+        text = "You don't have friends. Go add now.",
     },
     [190000172] = {
         id = 190000172,
@@ -31325,7 +31381,7 @@ return {
     },
     [13200006] = {
         id = 13200006,
-        text = "Get a random roll from 1 to 6. The storage limit is 999, and if it exceeds, it will automatically be converted into 3 Coins.",
+        text = "Get a random roll from 1 to 6. ",
     },
     [1020661] = {
         id = 1020661,
@@ -36827,9 +36883,9 @@ return {
         id = 190000065,
         text = "Neko Kurumi Costume (Adv.)",
     },
-    [12000074] = {
-        id = 12000074,
-        text = "Date Progress",
+    [190000193] = {
+        id = 190000193,
+        text = "Don't be panic",
     },
     [12000073] = {
         id = 12000073,
@@ -40923,9 +40979,9 @@ return {
         id = 190000066,
         text = "Fate Badge*5",
     },
-    [11201032] = {
-        id = 11201032,
-        text = "Enhance",
+    [190000194] = {
+        id = 190000194,
+        text = "Ara ara… No traffic here",
     },
     [1021861] = {
         id = 1021861,
@@ -44201,7 +44257,7 @@ return {
     },
     [11000435] = {
         id = 11000435,
-        text = "Very- very beautiful cloth...",
+        text = "Very- very beautiful clothes…",
     },
     [11000434] = {
         id = 11000434,
@@ -44377,7 +44433,7 @@ return {
     },
     [13210004] = {
         id = 13210004,
-        text = "Letter",
+        text = "Puzzle",
     },
     [13210012] = {
         id = 13210012,
@@ -45019,9 +45075,9 @@ return {
         id = 190000067,
         text = "Transcend Supply Box*6",
     },
-    [11000203] = {
-        id = 11000203,
-        text = "Compared with wearing these,",
+    [190000195] = {
+        id = 190000195,
+        text = "You don't look delicious now",
     },
     [11000202] = {
         id = 11000202,
@@ -49115,9 +49171,9 @@ return {
         id = 190000068,
         text = "Ultra EXP Chip*7",
     },
-    [10911122] = {
-        id = 10911122,
-        text = "Transforms into sword beam to slash nearby enemies. Then charges up and strikes down, damaging all enemies with massive energy. The skill inflicts Physical DMG equal to 1400% of the character's ATK",
+    [190000196] = {
+        id = 190000196,
+        text = "Hmm… Touch me softly",
     },
     [10911121] = {
         id = 10911121,
@@ -53211,9 +53267,9 @@ return {
         id = 190000069,
         text = "Fine Rice Ball*18",
     },
-    [10703085] = {
-        id = 10703085,
-        text = "[Death Thorn] Wind Energy Cost -2.",
+    [190000197] = {
+        id = 190000197,
+        text = "Essence Choice Giftbox *8",
     },
     [1310214] = {
         id = 1310214,
@@ -66485,7 +66541,7 @@ return {
     },
     [63046] = {
         id = 63046,
-        text = "Dice can be acquired via timed quests etc. Move with dices to accumulate steps and win rewards when you've moved enough steps. \nMake good use of item cards and different dices to reap massive rewards easily. \nCollect all CG fragments to unlocks CG in notebook and corresponding dating story. CGs will be obtained when date stories are complete. \n*Attention: When you cannot take more dices of any kind, each dice earned afterwards will be turned to 1 ginkgo leaf. \n\nBuildingn Details:",
+        text = "Dice can be acquired via timed quests etc. Move with dices to accumulate steps and win rewards when you've moved enough steps. \nMake good use of item cards and different dices to reap massive rewards easily. \nCollect all CG fragments to unlocks CG in Puzzle and corresponding dating story. CG can be obtained when the date story is completed. \n*Attention: When you cannot take more dices of any kind, each dice earned afterwards will be turned to 1 ginkgo leaf. \n\nBuildingn Details:",
     },
     [223505] = {
         id = 223505,
@@ -95117,7 +95173,7 @@ return {
     },
     [13311510] = {
         id = 13311510,
-        text = "Autumn Snooze - Jigsaw",
+        text = "Autumn Snooze - Puzzle",
     },
     [13311504] = {
         id = 13311504,
@@ -112389,7 +112445,7 @@ return {
     },
     [1701118] = {
         id = 1701118,
-        text = "You... look delicious~",
+        text = "You... Look delicious~",
     },
     [1701119] = {
         id = 1701119,
@@ -112417,7 +112473,7 @@ return {
     },
     [1701125] = {
         id = 1701125,
-        text = "You... look delicious~",
+        text = "You... Look delicious~",
     },
     [1701126] = {
         id = 1701126,
@@ -112557,7 +112613,7 @@ return {
     },
     [1701160] = {
         id = 1701160,
-        text = "You... look delicious~",
+        text = "You... Look delicious~",
     },
     [1701161] = {
         id = 1701161,
@@ -112957,7 +113013,7 @@ return {
     },
     [1701260] = {
         id = 1701260,
-        text = "You... look delicious~",
+        text = "You... Look delicious~",
     },
     [1701261] = {
         id = 1701261,
@@ -113497,7 +113553,7 @@ return {
     },
     [1701395] = {
         id = 1701395,
-        text = "Very- very beautiful cloth... do it really suit me?",
+        text = "Very- very beautiful clothes... Does it really suit me?",
     },
     [1701396] = {
         id = 1701396,
@@ -119245,7 +119301,7 @@ return {
     },
     [900038] = {
         id = 900038,
-        text = "Used to exchange date coupons in [Daily Date]",
+        text = "Used to exchange date chances in [Daily Date]",
     },
     [900583] = {
         id = 900583,

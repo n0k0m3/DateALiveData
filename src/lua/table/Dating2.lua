@@ -90776,7 +90776,7 @@ return {
         id = 339036,
         text = " ",
         isVisibleUI = 1,
-        cg = "date_cg_249",
+        cg = "date_cg_qiuriji",
         effectId = {
             [1] = 1,
         },

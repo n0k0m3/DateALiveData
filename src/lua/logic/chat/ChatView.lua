@@ -2049,6 +2049,7 @@ function ChatView:setSelectChanel(chatType)
         local totalCount = LeagueDataMgr:getUnionMemberCount()
         local onlineCount = LeagueDataMgr:getUnionMemberOnlineCount()
         self.Label_online_num:setText(onlineCount.."/"..totalCount)
+        self.Panel_private:hide()
     else
         self.Panel_private:hide()
         if chatType == EC_ChatType.WORLD then

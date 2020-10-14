@@ -54,7 +54,7 @@ local t =
 					backGroundScale9Enable = "False",
 					classname = "MEImage",
 					dstBlendFunc = "771",
-					height = "64",
+					height = "2",
 					ignoreSize = "True",
 					name = "Image_dfwEventView_1",
 					sizepercentx = "0",
@@ -73,7 +73,7 @@ local t =
 						nAlign = 5
 					},
 					visible = "False",
-					width = "64",
+					width = "2",
 					ZOrder = "1",
 				},
 				{
@@ -220,18 +220,18 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "28",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_title",
 									nTextAlign = "1",
-									nTextHAlign = "1",
+									nTextHAlign = "0",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -244,7 +244,7 @@ local t =
 										PositionX = -174,
 										PositionY = 218,
 									},
-									width = "169",
+									width = "304",
 									ZOrder = "1",
 								},
 								{
@@ -319,7 +319,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "15",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -364,7 +364,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "15",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -506,14 +506,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_receive",
 											nTextAlign = "1",
@@ -529,7 +529,7 @@ local t =
 											{
 												
 											},
-											width = "55",
+											width = "50",
 											ZOrder = "1",
 										},
 									},

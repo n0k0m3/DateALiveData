@@ -461,6 +461,20 @@ return {
         rolePath2 = "modle/citymodle/city_410501",
         role = "",
     },
+    [410221] = {
+        modeHead = "icon/role/mood/102/3.png",
+        flip = false,
+        id = 410221,
+        modelId = 102,
+        rolePath = "modle/citymodle/city_10221/city_10221",
+        roleType = 1,
+        iconPos = {
+            y = 230,
+            x = 70,
+        },
+        rolePath2 = "modle/citymodle/city_410205",
+        role = "",
+    },
     [410507] = {
         modeHead = "icon/role/mood/105/3.png",
         flip = true,
@@ -909,6 +923,20 @@ return {
         rolePath2 = "modle/citymodle/city_420107",
         role = "",
     },
+    [410424] = {
+        modeHead = "icon/role/mood/104/3.png",
+        flip = false,
+        id = 410424,
+        modelId = 104,
+        rolePath = "modle/citymodle/city_10424/city_10424",
+        roleType = 1,
+        iconPos = {
+            y = 230,
+            x = 70,
+        },
+        rolePath2 = "modle/citymodle/city_410404",
+        role = "",
+    },
     [420108] = {
         modeHead = "icon/role/mood/peijue/city_420108.png",
         flip = true,
@@ -1175,20 +1203,6 @@ return {
         rolePath2 = "modle/citymodle/city_410104",
         role = "",
     },
-    [411001] = {
-        modeHead = "icon/role/mood/110/3.png",
-        flip = false,
-        id = 411001,
-        modelId = 110,
-        rolePath = "modle/citymodle/city_11001/city_411001",
-        roleType = 1,
-        iconPos = {
-            y = 230,
-            x = 70,
-        },
-        rolePath2 = "modle/citymodle/city_411203",
-        role = "",
-    },
     [410124] = {
         modeHead = "icon/role/mood/101/3.png",
         flip = false,
@@ -1201,6 +1215,20 @@ return {
             x = 70,
         },
         rolePath2 = "modle/citymodle/city_410104",
+        role = "",
+    },
+    [411001] = {
+        modeHead = "icon/role/mood/110/3.png",
+        flip = false,
+        id = 411001,
+        modelId = 110,
+        rolePath = "modle/citymodle/city_11001/city_411001",
+        roleType = 1,
+        iconPos = {
+            y = 230,
+            x = 70,
+        },
+        rolePath2 = "modle/citymodle/city_411203",
         role = "",
     },
 }

@@ -2815,7 +2815,7 @@ end
 function HeroDataMgr:getOpenedHeroNum()
 	local num = 0
 	for k, v in pairs(self.heroTable) do
-		if v.isOpen and  v.isOpen == 1 then
+		if v.isOpen and  v.isOpen == 1  and v.heroStatus ~= 3 and v.testType ~=1 then
 			num = num + 1
 		end
 	end

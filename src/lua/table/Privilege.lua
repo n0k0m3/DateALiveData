@@ -121,4 +121,13 @@ return {
             chance = 1,
         },
     },
+    [30] = {
+        type = 1,
+        privilegeId = 130,
+        id = 30,
+        describe = 190000186,
+        privilege = {
+            chance = 1,
+        },
+    },
 }

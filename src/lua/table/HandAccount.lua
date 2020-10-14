@@ -56,7 +56,7 @@ return {
         },
         activityOrder = 1,
         pageNum = 1,
-        cg = "modle/cg/main_cg_role_249.png",
+        cg = "modle/cg/main_cg_role_qiuriji.png",
         size = 0.85,
     },
     [10021] = {

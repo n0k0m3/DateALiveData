@@ -94,8 +94,8 @@ function DfwAutumnStepRewardView:updateAllTaskItem()
         local foo = self.taskItems_[v]
         local progressInfo = ActivityDataMgr2:getProgressInfo(self.activityInfo_.activityType, taskData[i])
         local itemInfo = ActivityDataMgr2:getItemInfo(self.activityInfo_.activityType, taskData[i])
-        foo.Label_desc:setText(itemInfo.extendData.des2)
-        foo.Label_desc_complete:setText(itemInfo.extendData.des2)
+        foo.Label_desc:setTextById(itemInfo.extendData.des2 ,itemInfo.target)
+        foo.Label_desc_complete:setTextById(itemInfo.extendData.des2 ,itemInfo.target)
         foo.Label_step:setText(itemInfo.target)
         foo.Label_step_complete:setText(itemInfo.target)
         local isReceive = progressInfo.status == EC_TaskStatus.GET

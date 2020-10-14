@@ -4,6 +4,8 @@ function CityJobView:initData(data)
     self.cityJobData_ = {}
     self.workingJobInfo = nil
     self.passTime = 0
+
+    self.accelerateData = TabDataMgr:getData("DiscreteData",1100011).data
     
     self.selectBuildIndex_ = CityJobDataMgr:getBuildingSelectedIndex()
     self.selectJobIndex_ = CityJobDataMgr:getJobSelectedIndex()
@@ -61,6 +63,7 @@ function CityJobView:onReloadJobUI()
     self:loadJobPanel()
     self:refreshRewardPanel()
     self:refreshJobBtnState()
+    self:updatePanelAccelerate()
     if CityJobDataMgr:dontHaveAnyJobData() then
         self.Panel_reward_info:hide()
         self.Label_no_work_place:show()
@@ -83,6 +86,10 @@ end
 function CityJobView:onGiveUpJobSuccess()
     CCUserDefault:sharedUserDefault():setIntegerForKey("give_up_city_job_time", ServerDataMgr:getServerTime())
     self:onRefreshJobUI()
+end
+
+function CityJobView:onRecvAccelerateInfo()
+    self:updatePanelAccelerate()
 end
 
 function CityJobView:onRefreshJobUI()
@@ -376,8 +383,68 @@ function CityJobView:initJobPanel()
     self.Panel_jobItem = TFDirector:getChildByPath(self.Panel_prefab,"Panel_jobItem")
     self.Button_start_job:onClick(handler(self.onJobStateBtnClick,self))
 
+    self.Panel_accelerate = TFDirector:getChildByPath(self.Panel_job , "Panel_accelerate")
+    local Label_desc = TFDirector:getChildByPath(self.Panel_accelerate , "Label_desc")
+    Label_desc:setTextById(190000187 ,self.accelerateData.time/60)
+    self.Button_accelerate = TFDirector:getChildByPath(self.Panel_accelerate , "Button_accelerate")
+    self.Button_accelerate:onClick(handler(self.onJobAccelerateClick,self))
+
     self:loadJobPanel()
     self:refreshJobBtnState()
+end
+
+function CityJobView:updatePanelAccelerate()
+    local Label_accelerate_limit = TFDirector:getChildByPath(self.Panel_accelerate , "Label_accelerate_limit")
+    local acclereteMax =  CityJobDataMgr:getPrivilegeFreeWrokAccelerateNum() + self.accelerateData.max
+    local lastDaySpeedNum = self.accelerateData.max - CityJobDataMgr:getWorlAccelerateData().speedNum
+    local lastFreeSpeedNum = CityJobDataMgr:getPrivilegeFreeWrokAccelerateNum() - CityJobDataMgr:getWorlAccelerateData().freeSpeedNum
+    if lastFreeSpeedNum < 0 then 
+        lastFreeSpeedNum = 0 
+    end
+    Label_accelerate_limit:setTextById(270609 , lastDaySpeedNum + lastFreeSpeedNum ,acclereteMax)
+
+
+    local Image_accele_icon = TFDirector:getChildByPath(self.Panel_accelerate , "Image_accele_icon")
+    local Label_accele_num = TFDirector:getChildByPath(self.Panel_accelerate , "Label_accele_num")
+
+    local Label_accelerate_free = TFDirector:getChildByPath(self.Button_accelerate , "Label_accelerate_free")
+
+    Image_accele_icon:show()
+    Label_accele_num:show()
+
+    self.accelerateCost = 0
+    self.costId = 0
+    Label_accelerate_free:setTextById(11311043)
+    if lastDaySpeedNum >0 or lastFreeSpeedNum > 0 then  --可加速
+        self.Button_accelerate:setTouchEnabled(true)
+        self.Button_accelerate:setGrayEnabled(false)
+        if lastFreeSpeedNum > 0 then
+            Image_accele_icon:hide()
+            Label_accele_num:hide()
+            Label_accelerate_free:setText(TextDataMgr:getText(2106010).." "..TextDataMgr:getText(11311043))
+        else
+            local costIdx = self.accelerateData.max - lastDaySpeedNum + 1
+            local costData = self.accelerateData.useItem[costIdx]
+            for k ,v in pairs(costData) do
+                Image_accele_icon:setTexture(GoodsDataMgr:getItemCfg(k).icon)
+                Label_accele_num:setTextById(302201 , v)
+                self.accelerateCost = v
+                self.costId = k
+                local ownNum = GoodsDataMgr:getItemCount(self.costId)
+                if ownNum >= v then
+                    Label_accele_num:setFontColor(ccc3(255 , 255 , 255))
+                else
+                    Label_accele_num:setFontColor(ccc3(255 , 0 , 0))
+                end
+            end
+        end
+    else
+        self.Button_accelerate:setTouchEnabled(false)
+        self.Button_accelerate:setGrayEnabled(true)
+        Image_accele_icon:hide()
+        Label_accele_num:hide()
+    end
+    
 end
 
 function CityJobView:onJobStateBtnClick(btn)
@@ -418,8 +485,24 @@ function CityJobView:onJobStateBtnClick(btn)
     end
 end
 
+--兼职加速按钮响应
+function CityJobView:onJobAccelerateClick()
+    if self.accelerateCost == 0 then  --如果是免费的
+         CityJobDataMgr:sendWorkAccelerate()
+    else
+        local ownNum = GoodsDataMgr:getItemCount(self.costId)
+        if ownNum >= self.accelerateCost then
+            CityJobDataMgr:sendWorkAccelerate()
+        else
+            Utils:showTips(204002)
+        end
+    end
+end
+
 --刷新按钮状态
 function CityJobView:refreshJobBtnState()
+
+    self.Panel_accelerate:hide()  --加速面板显示 只有开始兼职后且未完成前显示
     if self:checkBtnEnableShow() then
         self.Button_start_job:show()
     else
@@ -428,12 +511,15 @@ function CityJobView:refreshJobBtnState()
     if self.workingJobInfo then
         if CityJobDataMgr:getJobEventSuplTime() > 0 then
             TFDirector:getChildByPath(self.Button_start_job,"Label_start_job"):setTextById(2400012)
+            self.Panel_accelerate:show()
         else
             TFDirector:getChildByPath(self.Button_start_job,"Label_start_job"):setTextById(2400013)
         end
     else
         TFDirector:getChildByPath(self.Button_start_job,"Label_start_job"):setTextById(2400010)
     end
+
+    --GoodsDataMgr:getItemCfg(firstCostId).icon
 end
 
 function CityJobView:checkBtnEnableShow()
@@ -654,6 +740,9 @@ function CityJobView:registerEvents()
     EventMgr:addEventListener(self, EV_CITY_DO_PART_TIME_JOB, handler(self.onRefreshJobUI, self))
     EventMgr:addEventListener(self, EV_CITY_PART_TIME_JOB_AWARD, handler(self.onGetJobReward, self))
     EventMgr:addEventListener(self, EV_CITY_GIVE_UP_JOB, handler(self.onGiveUpJobSuccess, self))
+    EventMgr:addEventListener(self, EV_NEW_BUILDING_RES_SPEED_PART_TIME_JOB, handler(self.onRecvAccelerateInfo, self))
+
+    
     
     for i,buildItem in ipairs(self.buildScroll:getItems()) do
         buildItem:Touchable(true)
@@ -689,6 +778,7 @@ function CityJobView:onShow()
         self:removeLockLayer()
         GameGuide:checkGuide(self);
     end,0.02)
+    self:updatePanelAccelerate()
 end
 
 

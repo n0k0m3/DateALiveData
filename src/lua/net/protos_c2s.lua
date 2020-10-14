@@ -20,13 +20,6 @@ local tblProto = {
 			{'index', }
 		}
 	end,
-	[25610] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{},
-			{}
-		}
-	end,
 	[5223] = function()
 		return {
 			{"net.NetHelper", "receive"},
@@ -34,11 +27,25 @@ local tblProto = {
 			{}
 		}
 	end,
-	[9151] = function()
+	[25610] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 'v4', },
-			{'changeId', 'originalId', }
+			{},
+			{}
+		}
+	end,
+	[6665] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{},
+			{}
+		}
+	end,
+	[5221] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'v4', },
+			{'itemCid', }
 		}
 	end,
 	[2830] = function()
@@ -83,18 +90,18 @@ local tblProto = {
 			{'activityId', }
 		}
 	end,
-	[5221] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'v4', },
-			{'itemCid', }
-		}
-	end,
 	[5153] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{'v4', },
 			{'activityId', }
+		}
+	end,
+	[9101] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{},
+			{}
 		}
 	end,
 	[1815] = function()
@@ -139,7 +146,7 @@ local tblProto = {
 			{'needSave', }
 		}
 	end,
-	[9101] = function()
+	[9103] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{},
@@ -174,13 +181,6 @@ local tblProto = {
 			{'roleId', 'favorDatingId', }
 		}
 	end,
-	[9103] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{},
-			{}
-		}
-	end,
 	[9104] = function()
 		return {
 			{"net.NetHelper", "receive"},
@@ -188,11 +188,18 @@ local tblProto = {
 			{}
 		}
 	end,
-	[3080] = function()
+	[5121] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', },
-			{'cid', }
+			{},
+			{}
+		}
+	end,
+	[3502] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'v4', 'v4', },
+			{'activityId', 'cid', }
 		}
 	end,
 	[6145] = function()
@@ -209,11 +216,11 @@ local tblProto = {
 			{'cgid', }
 		}
 	end,
-	[3502] = function()
+	[8701] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 'v4', },
-			{'activityId', 'cid', }
+			{},
+			{}
 		}
 	end,
 	[1795] = function()
@@ -258,13 +265,6 @@ local tblProto = {
 			{}
 		}
 	end,
-	[8701] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{},
-			{}
-		}
-	end,
 	[8702] = function()
 		return {
 			{"net.NetHelper", "receive"},
@@ -286,6 +286,13 @@ local tblProto = {
 			{}
 		}
 	end,
+	[7403] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'v4', {true,{'v4', 'v4', }},},
+			{'roleid', {true,{'gifts','giftCid', 'giftNum', }},}
+		}
+	end,
 	[7202] = function()
 		return {
 			{"net.NetHelper", "receive"},
@@ -300,13 +307,6 @@ local tblProto = {
 			{}
 		}
 	end,
-	[7403] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'v4', {true,{'v4', 'v4', }},},
-			{'roleid', {true,{'gifts','giftCid', 'giftNum', }},}
-		}
-	end,
 	[7405] = function()
 		return {
 			{"net.NetHelper", "receive"},
@@ -314,11 +314,18 @@ local tblProto = {
 			{}
 		}
 	end,
-	[2079] = function()
+	[6661] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 'v4', },
-			{'buildingId', 'jobId', }
+			{'v4', 'v4', 'v8', },
+			{'id', 'senderId', 'createTime', }
+		}
+	end,
+	[2076] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{},
+			{}
 		}
 	end,
 	[5160] = function()
@@ -328,11 +335,11 @@ local tblProto = {
 			{}
 		}
 	end,
-	[5897] = function()
+	[6809] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', },
-			{'status', }
+			{'v4', 'v4', 'v4', },
+			{'posX', 'posY', 'dir', }
 		}
 	end,
 	[2827] = function()
@@ -370,11 +377,11 @@ local tblProto = {
 			{'itemCid', 'num', 'customParameList', }
 		}
 	end,
-	[3585] = function()
+	[6652] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{},
-			{}
+			{'v4', 'tv4', },
+			{'operType', 'targets', }
 		}
 	end,
 	[3075] = function()
@@ -391,11 +398,11 @@ local tblProto = {
 			{'awardId', }
 		}
 	end,
-	[6652] = function()
+	[6654] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 'tv4', },
-			{'operType', 'targets', }
+			{'v4', 's', },
+			{'type', 'param', }
 		}
 	end,
 	[6669] = function()
@@ -405,11 +412,11 @@ local tblProto = {
 			{}
 		}
 	end,
-	[6654] = function()
+	[5890] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 's', },
-			{'type', 'param', }
+			{'v4', },
+			{'status', }
 		}
 	end,
 	[1287] = function()
@@ -440,11 +447,11 @@ local tblProto = {
 			{'buildingId', 'targetLevel', }
 		}
 	end,
-	[6661] = function()
+	[6653] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 'v4', 'v8', },
-			{'id', 'senderId', 'createTime', }
+			{'v4', 'v4', },
+			{'degree', 'target', }
 		}
 	end,
 	[1557] = function()
@@ -468,11 +475,11 @@ local tblProto = {
 			{'activityId', 'rewardId', }
 		}
 	end,
-	[6653] = function()
+	[6663] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 'v4', },
-			{'degree', 'target', }
+			{},
+			{}
 		}
 	end,
 	[6813] = function()
@@ -480,13 +487,6 @@ local tblProto = {
 			{"net.NetHelper", "receive"},
 			{'v4', 'v4', },
 			{'index', 'restTime', }
-		}
-	end,
-	[6663] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{},
-			{}
 		}
 	end,
 	[6152] = function()
@@ -510,6 +510,13 @@ local tblProto = {
 			{'id', }
 		}
 	end,
+	[6673] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'v4', },
+			{'index', }
+		}
+	end,
 	[2840] = function()
 		return {
 			{"net.NetHelper", "receive"},
@@ -517,11 +524,11 @@ local tblProto = {
 			{{true,{'designInfo','id', 'num', }},}
 		}
 	end,
-	[6673] = function()
+	[6616] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', },
-			{'index', }
+			{},
+			{}
 		}
 	end,
 	[2825] = function()
@@ -552,14 +559,14 @@ local tblProto = {
 			{'sourceEquipmentId', 'oldAttrIndex', 'costEquipmentId', 'costAttrIndex', }
 		}
 	end,
-	[6616] = function()
+	[6662] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{},
 			{}
 		}
 	end,
-	[6662] = function()
+	[6671] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{},
@@ -580,7 +587,7 @@ local tblProto = {
 			{'progress', }
 		}
 	end,
-	[6671] = function()
+	[6670] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{},
@@ -636,11 +643,11 @@ local tblProto = {
 			{{true,{'goods','id', 'num', }},}
 		}
 	end,
-	[6670] = function()
+	[9151] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{},
-			{}
+			{'v4', 'v4', },
+			{'changeId', 'originalId', }
 		}
 	end,
 	[5220] = function()
@@ -657,11 +664,11 @@ local tblProto = {
 			{'gemId', 'specialAttr', }
 		}
 	end,
-	[6665] = function()
+	[5889] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{},
-			{}
+			{{false,{'v4', 'v4', }},'s', },
+			{{false,{'feature','teamType', 'dungeonCid', }},'itemId', }
 		}
 	end,
 	[5190] = function()
@@ -685,11 +692,11 @@ local tblProto = {
 			{}
 		}
 	end,
-	[5889] = function()
+	[5899] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{false,{'v4', 'v4', }},'s', },
-			{{false,{'feature','teamType', 'dungeonCid', }},'itemId', }
+			{'v4', 'v4', },
+			{'targetPid', 'dungeonId', }
 		}
 	end,
 	[5132] = function()
@@ -755,18 +762,18 @@ local tblProto = {
 			{}
 		}
 	end,
-	[5899] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'v4', 'v4', },
-			{'targetPid', 'dungeonId', }
-		}
-	end,
 	[5891] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{'v4', 'v4', },
 			{'targetPid', 'type', }
+		}
+	end,
+	[5900] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'v4', 'v4', 'v4', 'v4', 'v4', 'v4', },
+			{'targetPid', 'dungeonId', 'hurt', 'hurted', 'fightTime', 'type', }
 		}
 	end,
 	[6705] = function()
@@ -776,11 +783,11 @@ local tblProto = {
 			{'fireworkId', }
 		}
 	end,
-	[5900] = function()
+	[4869] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 'v4', 'v4', 'v4', 'v4', 'v4', },
-			{'targetPid', 'dungeonId', 'hurt', 'hurted', 'fightTime', 'type', }
+			{},
+			{}
 		}
 	end,
 	[5156] = function()
@@ -797,11 +804,11 @@ local tblProto = {
 			{}
 		}
 	end,
-	[4869] = function()
+	[8003] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{},
-			{}
+			{'v4', },
+			{'itemId', }
 		}
 	end,
 	[7217] = function()
@@ -811,18 +818,11 @@ local tblProto = {
 			{}
 		}
 	end,
-	[5139] = function()
+	[2083] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{},
-			{}
-		}
-	end,
-	[4865] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{},
-			{}
+			{'v4', },
+			{'manualId', }
 		}
 	end,
 	[5901] = function()
@@ -839,11 +839,18 @@ local tblProto = {
 			{{false,{'feature','teamType', 'dungeonCid', }},}
 		}
 	end,
-	[4354] = function()
+	[4375] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{},
-			{}
+			{'v4', },
+			{'id', }
+		}
+	end,
+	[5897] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'v4', },
+			{'status', }
 		}
 	end,
 	[6656] = function()
@@ -888,11 +895,11 @@ local tblProto = {
 			{'chapterId', }
 		}
 	end,
-	[5890] = function()
+	[5894] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', },
-			{'status', }
+			{'s', },
+			{'teamId', }
 		}
 	end,
 	[1563] = function()
@@ -916,11 +923,11 @@ local tblProto = {
 			{'x', 'y', }
 		}
 	end,
-	[5894] = function()
+	[4099] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'s', },
-			{'teamId', }
+			{'v4', },
+			{'taskId', }
 		}
 	end,
 	[275] = function()
@@ -937,11 +944,11 @@ local tblProto = {
 			{}
 		}
 	end,
-	[4099] = function()
+	[4097] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', },
-			{'taskId', }
+			{},
+			{}
 		}
 	end,
 	[265] = function()
@@ -972,11 +979,11 @@ local tblProto = {
 			{'id', 'heroCid', }
 		}
 	end,
-	[4097] = function()
+	[4098] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{},
-			{}
+			{'v4', },
+			{'taskCid', }
 		}
 	end,
 	[1028] = function()
@@ -993,11 +1000,11 @@ local tblProto = {
 			{}
 		}
 	end,
-	[4098] = function()
+	[8150] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', },
-			{'taskCid', }
+			{},
+			{}
 		}
 	end,
 	[5377] = function()
@@ -1014,11 +1021,11 @@ local tblProto = {
 			{'cid', }
 		}
 	end,
-	[8150] = function()
+	[8151] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{},
-			{}
+			{'v4', },
+			{'id', }
 		}
 	end,
 	[1565] = function()
@@ -1035,13 +1042,6 @@ local tblProto = {
 			{}
 		}
 	end,
-	[8151] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'v4', },
-			{'id', }
-		}
-	end,
 	[8152] = function()
 		return {
 			{"net.NetHelper", "receive"},
@@ -1054,6 +1054,13 @@ local tblProto = {
 			{"net.NetHelper", "receive"},
 			{'tv4', },
 			{'type', }
+		}
+	end,
+	[3337] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'v4', 'v4', },
+			{'summid', 'num', }
 		}
 	end,
 	[6502] = function()
@@ -1070,11 +1077,11 @@ local tblProto = {
 			{{true,{'eTypes','elementType', 'type', }},}
 		}
 	end,
-	[3337] = function()
+	[3345] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 'v4', },
-			{'summid', 'num', }
+			{'v4', },
+			{'cid', }
 		}
 	end,
 	[25611] = function()
@@ -1091,18 +1098,18 @@ local tblProto = {
 			{}
 		}
 	end,
-	[3345] = function()
+	[6202] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{'v4', },
-			{'cid', }
+			{'worldCid', }
 		}
 	end,
-	[6229] = function()
+	[3333] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'tv4', },
-			{'options', }
+			{},
+			{}
 		}
 	end,
 	[5127] = function()
@@ -1112,11 +1119,11 @@ local tblProto = {
 			{}
 		}
 	end,
-	[3333] = function()
+	[264] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{},
-			{}
+			{'v4', 's', 's', },
+			{'formationType', 'sourceHeroId', 'targetHeroId', }
 		}
 	end,
 	[5633] = function()
@@ -1133,14 +1140,7 @@ local tblProto = {
 			{}
 		}
 	end,
-	[6149] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{},
-			{}
-		}
-	end,
-	[4360] = function()
+	[4370] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{},
@@ -1152,6 +1152,13 @@ local tblProto = {
 			{"net.NetHelper", "receive"},
 			{'v4', 'v4', },
 			{'cid', 'order', }
+		}
+	end,
+	[3342] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{},
+			{}
 		}
 	end,
 	[6602] = function()
@@ -1175,18 +1182,18 @@ local tblProto = {
 			{'levelCid', 'helpPlayerId', 'helpHeroCid', {true,{'limitHeros','limitType', 'limitCid', }},'quickCount', 'isDuelMod', }
 		}
 	end,
-	[6212] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'v4', 'v4', },
-			{'listId', 'num', }
-		}
-	end,
 	[3341] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{},
 			{}
+		}
+	end,
+	[3340] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'v4', },
+			{'targetAwardId', }
 		}
 	end,
 	[8302] = function()
@@ -1224,11 +1231,11 @@ local tblProto = {
 			{'heroId', 'rarity', 'index', 'type', }
 		}
 	end,
-	[3340] = function()
+	[6224] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', },
-			{'targetAwardId', }
+			{},
+			{}
 		}
 	end,
 	[5379] = function()
@@ -1259,18 +1266,18 @@ local tblProto = {
 			{}
 		}
 	end,
-	[3342] = function()
+	[6220] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{},
-			{}
+			{'v4', 'v4', 'v4', },
+			{'x', 'y', 'event', }
 		}
 	end,
-	[6201] = function()
+	[6103] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{},
-			{}
+			{'v4', },
+			{'id', }
 		}
 	end,
 	[4362] = function()
@@ -1315,13 +1322,6 @@ local tblProto = {
 			{}
 		}
 	end,
-	[5193] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'v4', 'b', },
-			{'activityId', 'isDraw', }
-		}
-	end,
 	[9153] = function()
 		return {
 			{"net.NetHelper", "receive"},
@@ -1343,6 +1343,13 @@ local tblProto = {
 			{'chapterId', 'areaId', 'nextAreaId', 'evtId', }
 		}
 	end,
+	[6909] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{},
+			{}
+		}
+	end,
 	[5134] = function()
 		return {
 			{"net.NetHelper", "receive"},
@@ -1355,13 +1362,6 @@ local tblProto = {
 			{"net.NetHelper", "receive"},
 			{'s', },
 			{'time', }
-		}
-	end,
-	[6909] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{},
-			{}
 		}
 	end,
 	[2823] = function()
@@ -1392,13 +1392,6 @@ local tblProto = {
 			{}
 		}
 	end,
-	[257] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'s', 'v4', },
-			{'token', 'anti', }
-		}
-	end,
 	[6908] = function()
 		return {
 			{"net.NetHelper", "receive"},
@@ -1406,11 +1399,11 @@ local tblProto = {
 			{'type', 'order', }
 		}
 	end,
-	[269] = function()
+	[257] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'s', },
-			{'heroId', }
+			{'s', 'v4', },
+			{'token', 'anti', }
 		}
 	end,
 	[6905] = function()
@@ -1418,6 +1411,13 @@ local tblProto = {
 			{"net.NetHelper", "receive"},
 			{'v4', },
 			{'equipId', }
+		}
+	end,
+	[269] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'s', },
+			{'heroId', }
 		}
 	end,
 	[6904] = function()
@@ -1441,13 +1441,6 @@ local tblProto = {
 			{}
 		}
 	end,
-	[8000] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{},
-			{}
-		}
-	end,
 	[6915] = function()
 		return {
 			{"net.NetHelper", "receive"},
@@ -1455,18 +1448,25 @@ local tblProto = {
 			{}
 		}
 	end,
-	[267] = function()
+	[8000] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{},
 			{}
 		}
 	end,
-	[4366] = function()
+	[288] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{},
 			{}
+		}
+	end,
+	[4353] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'v4', 's', },
+			{'goodsId', 'extinfo', }
 		}
 	end,
 	[2563] = function()
@@ -1476,13 +1476,6 @@ local tblProto = {
 			{'cid', }
 		}
 	end,
-	[6800] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{},
-			{}
-		}
-	end,
 	[9154] = function()
 		return {
 			{"net.NetHelper", "receive"},
@@ -1490,7 +1483,7 @@ local tblProto = {
 			{'type', }
 		}
 	end,
-	[6301] = function()
+	[6800] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{},
@@ -1504,6 +1497,20 @@ local tblProto = {
 			{}
 		}
 	end,
+	[6301] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{},
+			{}
+		}
+	end,
+	[6814] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{},
+			{}
+		}
+	end,
 	[6803] = function()
 		return {
 			{"net.NetHelper", "receive"},
@@ -1511,18 +1518,11 @@ local tblProto = {
 			{'heroId', 'skinId', }
 		}
 	end,
-	[6811] = function()
+	[260] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{},
-			{}
-		}
-	end,
-	[6807] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{},
-			{}
+			{'s', 's', },
+			{'playerName', 'remark', }
 		}
 	end,
 	[262] = function()
@@ -1539,6 +1539,13 @@ local tblProto = {
 			{'roleId', }
 		}
 	end,
+	[2820] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'s', 'ts', },
+			{'equipmentId', 'costEquipmentId', }
+		}
+	end,
 	[1050] = function()
 		return {
 			{"net.NetHelper", "receive"},
@@ -1553,18 +1560,18 @@ local tblProto = {
 			{'newEquipId', }
 		}
 	end,
-	[2820] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'s', 'ts', },
-			{'equipmentId', 'costEquipmentId', }
-		}
-	end,
 	[5122] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{'v4', },
 			{'id', }
+		}
+	end,
+	[3080] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'v4', },
+			{'cid', }
 		}
 	end,
 	[8704] = function()
@@ -1574,11 +1581,11 @@ local tblProto = {
 			{}
 		}
 	end,
-	[5121] = function()
+	[5193] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{},
-			{}
+			{'v4', 'b', },
+			{'activityId', 'isDraw', }
 		}
 	end,
 	[5141] = function()
@@ -1616,11 +1623,11 @@ local tblProto = {
 			{'portraitType', }
 		}
 	end,
-	[6103] = function()
+	[5139] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', },
-			{'id', }
+			{},
+			{}
 		}
 	end,
 	[6504] = function()
@@ -1665,11 +1672,11 @@ local tblProto = {
 			{}
 		}
 	end,
-	[8003] = function()
+	[8304] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', },
-			{'itemId', }
+			{'tv4', },
+			{'heroes', }
 		}
 	end,
 	[5159] = function()
@@ -1677,13 +1684,6 @@ local tblProto = {
 			{"net.NetHelper", "receive"},
 			{'v4', 'v4', },
 			{'activityId', 'pos', }
-		}
-	end,
-	[8304] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'tv4', },
-			{'heroes', }
 		}
 	end,
 	[1288] = function()
@@ -1700,6 +1700,13 @@ local tblProto = {
 			{'roomCid', }
 		}
 	end,
+	[1282] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'s', 'v4', 'v4', },
+			{'roleId', 'itemCid', 'num', }
+		}
+	end,
 	[519] = function()
 		return {
 			{"net.NetHelper", "receive"},
@@ -1714,11 +1721,11 @@ local tblProto = {
 			{}
 		}
 	end,
-	[1282] = function()
+	[1284] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'s', 'v4', 'v4', },
-			{'roleId', 'itemCid', 'num', }
+			{'s', 's', },
+			{'roleId', 'itemId', }
 		}
 	end,
 	[1816] = function()
@@ -1735,11 +1742,11 @@ local tblProto = {
 			{'heroCid', }
 		}
 	end,
-	[1284] = function()
+	[1281] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'s', 's', },
-			{'roleId', 'itemId', }
+			{},
+			{}
 		}
 	end,
 	[1560] = function()
@@ -1784,11 +1791,11 @@ local tblProto = {
 			{'cid', }
 		}
 	end,
-	[1281] = function()
+	[1291] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{},
-			{}
+			{'b', },
+			{'rotationState', }
 		}
 	end,
 	[1810] = function()
@@ -1805,18 +1812,18 @@ local tblProto = {
 			{'camp', }
 		}
 	end,
-	[1291] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'b', },
-			{'rotationState', }
-		}
-	end,
 	[1290] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{'tv4', },
 			{'rotationList', }
+		}
+	end,
+	[1285] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'s', },
+			{'roleId', }
 		}
 	end,
 	[1562] = function()
@@ -1833,18 +1840,18 @@ local tblProto = {
 			{'barrageId', }
 		}
 	end,
-	[1285] = function()
+	[6801] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'s', 'v4', },
+			{'roomId', 'pid', }
+		}
+	end,
+	[7304] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{'s', },
-			{'roleId', }
-		}
-	end,
-	[6809] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'v4', 'v4', 'v4', },
-			{'posX', 'posY', 'dir', }
+			{'id', }
 		}
 	end,
 	[2818] = function()
@@ -1868,7 +1875,7 @@ local tblProto = {
 			{'levelCid', 'isWin', 'goals', 'batter', 'pickUpTypeCount', 'pickUpCount', {true,{'enemy','enemyCid', 'enemyNum', }},'fightTime', 'damage', 'rating', {true,{'skillEnemy','skillId', 'enemyNum', }},}
 		}
 	end,
-	[7304] = function()
+	[7303] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{'s', },
@@ -1889,11 +1896,11 @@ local tblProto = {
 			{}
 		}
 	end,
-	[7303] = function()
+	[4368] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'s', },
-			{'id', }
+			{'v4', 's', 'v4', 's', 'v4', },
+			{'rechargeId', 'discountId', 'redPackId', 'bless', 'buyCount', }
 		}
 	end,
 	[5144] = function()
@@ -1903,18 +1910,18 @@ local tblProto = {
 			{'activityId', 'extendData', }
 		}
 	end,
-	[4368] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'v4', 's', 'v4', 's', 'v4', },
-			{'rechargeId', 'discountId', 'redPackId', 'bless', 'buyCount', }
-		}
-	end,
 	[5148] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{'v4', },
 			{'level', }
+		}
+	end,
+	[4360] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{},
+			{}
 		}
 	end,
 	[3351] = function()
@@ -1924,7 +1931,7 @@ local tblProto = {
 			{'isReplace', 'order', }
 		}
 	end,
-	[4370] = function()
+	[4354] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{},
@@ -1952,11 +1959,11 @@ local tblProto = {
 			{'spiritType', }
 		}
 	end,
-	[4375] = function()
+	[4387] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', },
-			{'id', }
+			{},
+			{}
 		}
 	end,
 	[517] = function()
@@ -1966,11 +1973,11 @@ local tblProto = {
 			{'itemId', }
 		}
 	end,
-	[4387] = function()
+	[4367] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{},
-			{}
+			{'v4', },
+			{'id', }
 		}
 	end,
 	[6806] = function()
@@ -1980,11 +1987,11 @@ local tblProto = {
 			{'roomId', }
 		}
 	end,
-	[4367] = function()
+	[281] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', },
-			{'id', }
+			{'s', },
+			{'data', }
 		}
 	end,
 	[5155] = function()
@@ -2008,13 +2015,6 @@ local tblProto = {
 			{'address', }
 		}
 	end,
-	[6202] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'v4', },
-			{'worldCid', }
-		}
-	end,
 	[4357] = function()
 		return {
 			{"net.NetHelper", "receive"},
@@ -2036,6 +2036,13 @@ local tblProto = {
 			{'id', }
 		}
 	end,
+	[4356] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{},
+			{}
+		}
+	end,
 	[5142] = function()
 		return {
 			{"net.NetHelper", "receive"},
@@ -2043,7 +2050,7 @@ local tblProto = {
 			{'activityId', }
 		}
 	end,
-	[4356] = function()
+	[4366] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{},
@@ -2064,18 +2071,18 @@ local tblProto = {
 			{'needSave', }
 		}
 	end,
-	[4353] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'v4', 's', },
-			{'goodsId', 'extinfo', }
-		}
-	end,
 	[4363] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{'v4', },
 			{'id', }
+		}
+	end,
+	[6201] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{},
+			{}
 		}
 	end,
 	[3330] = function()
@@ -2085,18 +2092,18 @@ local tblProto = {
 			{'cid', }
 		}
 	end,
-	[6220] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'v4', 'v4', 'v4', },
-			{'x', 'y', 'event', }
-		}
-	end,
 	[6222] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{},
 			{}
+		}
+	end,
+	[6212] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'v4', 'v4', },
+			{'listId', 'num', }
 		}
 	end,
 	[1539] = function()
@@ -2134,11 +2141,11 @@ local tblProto = {
 			{}
 		}
 	end,
-	[6224] = function()
+	[6229] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{},
-			{}
+			{'tv4', },
+			{'options', }
 		}
 	end,
 	[5140] = function()
@@ -2232,11 +2239,11 @@ local tblProto = {
 			{'equipId', 'costEquipId', }
 		}
 	end,
-	[278] = function()
+	[25607] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', },
-			{'guideId', }
+			{'b', },
+			{'isReviveFight', }
 		}
 	end,
 	[1812] = function()
@@ -2251,13 +2258,6 @@ local tblProto = {
 			{"net.NetHelper", "receive"},
 			{},
 			{}
-		}
-	end,
-	[25607] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'b', },
-			{'isReviveFight', }
 		}
 	end,
 	[6205] = function()
@@ -2281,6 +2281,13 @@ local tblProto = {
 			{}
 		}
 	end,
+	[278] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'v4', },
+			{'guideId', }
+		}
+	end,
 	[1039] = function()
 		return {
 			{"net.NetHelper", "receive"},
@@ -2302,11 +2309,11 @@ local tblProto = {
 			{}
 		}
 	end,
-	[281] = function()
+	[279] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{'s', },
-			{'data', }
+			{'err', }
 		}
 	end,
 	[2078] = function()
@@ -2323,18 +2330,18 @@ local tblProto = {
 			{}
 		}
 	end,
-	[279] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'s', },
-			{'err', }
-		}
-	end,
 	[266] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{'s', },
 			{'content', }
+		}
+	end,
+	[6149] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{},
+			{}
 		}
 	end,
 	[3350] = function()
@@ -2344,13 +2351,6 @@ local tblProto = {
 			{'cid', }
 		}
 	end,
-	[264] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'v4', 's', 's', },
-			{'formationType', 'sourceHeroId', 'targetHeroId', }
-		}
-	end,
 	[1045] = function()
 		return {
 			{"net.NetHelper", "receive"},
@@ -2358,18 +2358,18 @@ local tblProto = {
 			{'heroId', 'trialSkinId', }
 		}
 	end,
+	[267] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{},
+			{}
+		}
+	end,
 	[2562] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{'v4', 'v4', },
 			{'cid', 'num', }
-		}
-	end,
-	[288] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{},
-			{}
 		}
 	end,
 	[273] = function()
@@ -2400,6 +2400,13 @@ local tblProto = {
 			{'formationType', }
 		}
 	end,
+	[2081] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'v4', 'v4', },
+			{'manualId', 'times', }
+		}
+	end,
 	[9302] = function()
 		return {
 			{"net.NetHelper", "receive"},
@@ -2407,11 +2414,11 @@ local tblProto = {
 			{'index', 'id', 'zooming', 'rotate', 'text', }
 		}
 	end,
-	[2081] = function()
+	[2842] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 'v4', },
-			{'manualId', 'times', }
+			{'v4', {true,{'v4', 's', }},},
+			{'id', {true,{'detail','position', 'equipId', }},}
 		}
 	end,
 	[8505] = function()
@@ -2456,18 +2463,18 @@ local tblProto = {
 			{}
 		}
 	end,
-	[260] = function()
+	[6614] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'s', 's', },
-			{'playerName', 'remark', }
+			{},
+			{}
 		}
 	end,
-	[8401] = function()
+	[7102] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', }},},
-			{{true,{'points','cid', 'num', }},}
+			{},
+			{}
 		}
 	end,
 	[3001] = function()
@@ -2482,13 +2489,6 @@ local tblProto = {
 			{"net.NetHelper", "receive"},
 			{'v4', 's', 's', 'v4', },
 			{'roleId', 'query', 'reply', 'like', }
-		}
-	end,
-	[7102] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{},
-			{}
 		}
 	end,
 	[7220] = function()
@@ -2512,6 +2512,13 @@ local tblProto = {
 			{'listId', 'num', }
 		}
 	end,
+	[7229] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'tv4', },
+			{'options', }
+		}
+	end,
 	[6613] = function()
 		return {
 			{"net.NetHelper", "receive"},
@@ -2526,11 +2533,11 @@ local tblProto = {
 			{'location', }
 		}
 	end,
-	[7229] = function()
+	[7204] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'tv4', },
-			{'options', }
+			{'v4', 'v4', },
+			{'sourceHero', 'targetHero', }
 		}
 	end,
 	[5146] = function()
@@ -2540,18 +2547,18 @@ local tblProto = {
 			{'activityId', 'propId', }
 		}
 	end,
-	[7204] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'v4', 'v4', },
-			{'sourceHero', 'targetHero', }
-		}
-	end,
 	[7213] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{},
 			{}
+		}
+	end,
+	[7205] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'v4', 'v4', },
+			{'x', 'y', }
 		}
 	end,
 	[8407] = function()
@@ -2575,13 +2582,6 @@ local tblProto = {
 			{'areaCid', }
 		}
 	end,
-	[7205] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'v4', 'v4', },
-			{'x', 'y', }
-		}
-	end,
 	[6513] = function()
 		return {
 			{"net.NetHelper", "receive"},
@@ -2589,14 +2589,14 @@ local tblProto = {
 			{'id', 'chapterId', }
 		}
 	end,
-	[7101] = function()
+	[8401] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{},
-			{}
+			{{true,{'v4', 'v4', }},},
+			{{true,{'points','cid', 'num', }},}
 		}
 	end,
-	[6614] = function()
+	[7101] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{},
@@ -2610,6 +2610,13 @@ local tblProto = {
 			{'prizeIndex', }
 		}
 	end,
+	[6503] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'v4', },
+			{'rankType', }
+		}
+	end,
 	[1813] = function()
 		return {
 			{"net.NetHelper", "receive"},
@@ -2617,11 +2624,11 @@ local tblProto = {
 			{'target', 'limitType', 'heroId', 'limitCid', 'mosterId', 'mosterLevel', 'hurtId', 'extraHurtType', 'hurt', 'isWeakness', 'isSuperArmor', 'hurtScale', 'attack', }
 		}
 	end,
-	[6503] = function()
+	[6811] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', },
-			{'rankType', }
+			{},
+			{}
 		}
 	end,
 	[5662] = function()
@@ -2631,7 +2638,7 @@ local tblProto = {
 			{'datingValue', }
 		}
 	end,
-	[6805] = function()
+	[3585] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{},
@@ -2694,11 +2701,11 @@ local tblProto = {
 			{'fromIndex', 'pid', 'fightId', }
 		}
 	end,
-	[6801] = function()
+	[6815] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'s', 'v4', },
-			{'roomId', 'pid', }
+			{},
+			{}
 		}
 	end,
 	[1811] = function()
@@ -2708,7 +2715,7 @@ local tblProto = {
 			{'levelId', }
 		}
 	end,
-	[6815] = function()
+	[6807] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{},
@@ -2729,11 +2736,11 @@ local tblProto = {
 			{'anti', }
 		}
 	end,
-	[2842] = function()
+	[6805] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', {true,{'v4', 's', }},},
-			{'id', {true,{'detail','position', 'equipId', }},}
+			{},
+			{}
 		}
 	end,
 	[1806] = function()
@@ -2764,7 +2771,7 @@ local tblProto = {
 			{'equipmentId', 'costEquipmentId', }
 		}
 	end,
-	[6814] = function()
+	[280] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{},
@@ -2792,13 +2799,6 @@ local tblProto = {
 			{}
 		}
 	end,
-	[280] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{},
-			{}
-		}
-	end,
 	[2068] = function()
 		return {
 			{"net.NetHelper", "receive"},
@@ -2811,6 +2811,13 @@ local tblProto = {
 			{"net.NetHelper", "receive"},
 			{},
 			{}
+		}
+	end,
+	[3076] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'v4', },
+			{'pid', }
 		}
 	end,
 	[5131] = function()
@@ -2841,11 +2848,11 @@ local tblProto = {
 			{'id', }
 		}
 	end,
-	[3076] = function()
+	[4865] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', },
-			{'pid', }
+			{},
+			{}
 		}
 	end,
 	[516] = function()
@@ -2862,11 +2869,11 @@ local tblProto = {
 			{'heroCid', 'limitedHero', }
 		}
 	end,
-	[2083] = function()
+	[2079] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', },
-			{'manualId', }
+			{'v4', 'v4', },
+			{'buildingId', 'jobId', }
 		}
 	end,
 	[6659] = function()
@@ -2876,7 +2883,7 @@ local tblProto = {
 			{'id', 'blessing', }
 		}
 	end,
-	[2076] = function()
+	[2075] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{},

@@ -23,17 +23,17 @@ return {
         type = 3,
         color = "ui/dawuwong/turntable/DFW_CJ_4.png",
         weight = 30,
-        name = 13311514,
+        name = 190000197,
         rewardMax = 3,
         sort = 7,
         id = 10007,
-        icon = 580162,
+        icon = 520023,
         reward = {
             fix = {
                 items = {
                     [1] = {
-                        id = 580162,
-                        num = 1,
+                        id = 520023,
+                        num = 8,
                     },
                 },
             },

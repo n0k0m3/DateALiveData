@@ -7,10 +7,14 @@ function CityJobDataMgr:init()
     TFDirector:addProto(s2c.NEW_BUILDING_RESP_DO_PART_TIME_JOB, self, self.onRecvDoPartTimeJob)
     TFDirector:addProto(s2c.NEW_BUILDING_RESP_PART_TIME_JOB_AWARD, self, self.onRecvPartTimeJobAward)
     TFDirector:addProto(s2c.NEW_BUILDING_RESP_GIVE_UP_JOB, self, self.onRecvGiveUpJob)
+    TFDirector:addProto(s2c.NEW_BUILDING_RES_SPEED_PART_TIME_JOB, self, self.onRecvAccelerateInfo)
+    TFDirector:addProto(s2c.NEW_BUILDING_RES_SPEED_JOB_NUM, self, self.onRecvAccelerateInfo)
+
 
     self.cityJobData_ = {}  --兼职数据
     self.cityJobEvent = nil --正在做的兼职
     self.selectBuildIndex_ = 1
+    self.cityJobAccelerate = {} --兼职加速数据
 
 
     -- 本地配置数据
@@ -21,6 +25,7 @@ end
 function CityJobDataMgr:reset()
    self.cityJobData_ = {}
    self.cityJobEvent = nil
+   self.cityJobAccelerate = {}
 end
 
 function CityJobDataMgr:onLogin()
@@ -129,6 +134,7 @@ function CityJobDataMgr:onRecvPartTimeJobList(event)
             end
         end
     end
+
     EventMgr:dispatchEvent(EV_CITY_PART_TIME_JOB_LIST, {})
 end
 
@@ -180,6 +186,22 @@ function CityJobDataMgr:onRecvGiveUpJob(event)
         end
     end
     EventMgr:dispatchEvent(EV_CITY_GIVE_UP_JOB, {})
+end
+
+--加速兼职响应
+function CityJobDataMgr:onRecvAccelerateInfo(event)
+    local data = event.data
+    self.cityJobAccelerate.freeSpeedNum = data.freeSpeedNum  --免费加速1为有一次
+    self.cityJobAccelerate.speedNum = data.speedNum         --当日已加速次数
+    if self.cityJobEvent then
+        self.cityJobEvent.etime = data.etime or self.cityJobEvent.etime
+    end
+    EventMgr:dispatchEvent(EV_NEW_BUILDING_RES_SPEED_PART_TIME_JOB, {})
+end
+
+--获取兼职加速数据
+function CityJobDataMgr:getWorlAccelerateData()
+    return self.cityJobAccelerate
 end
 
 function CityJobDataMgr:updateJobList(jobList)
@@ -322,5 +344,19 @@ function CityJobDataMgr:checkItemEnableShow(id)
     return false
 end
 
+--获取工作兼职加速的特权次数
+function CityJobDataMgr:getPrivilegeFreeWrokAccelerateNum()
+    local isHavePrivilege  , cfg = RechargeDataMgr:getIsHavePrivilegeByType(130)
+    if isHavePrivilege then
+        return cfg.privilege.chance
+    else
+        return 0
+    end
+end
+
+--请求兼职加速
+function CityJobDataMgr:sendWorkAccelerate( ... )
+    TFDirector:send(c2s.NEW_BUILDING_REQ_SPEED_PART_TIME_JOB, {})
+end
 
 return CityJobDataMgr:new()

@@ -1,6 +1,6 @@
 return {
     [313000] = {
-        buyEndTime = "2019-11-06 23:59:59",
+        buyEndTime = "2020-11-03 23:59:59",
         openTimeType = 1,
         showCurrency = {
         },
@@ -24,13 +24,13 @@ return {
         },
         refreshCostId = 500002,
         manualRefresh = true,
-        showBeginTime = "2019-10-18 00:00:01",
+        showBeginTime = "2020-10-14 00:00:01",
         autoRefreshCorn = "0 0 0 * * ?",
         name = "",
         orderType = 1,
-        showEndTime = "2019-11-06 23:59:59",
+        showEndTime = "2020-11-03 23:59:59",
         roleSet = 22,
-        buyBeginTime = "2019-10-18 00:00:01",
+        buyBeginTime = "2020-10-14 00:00:01",
         rank = 99,
     },
     [311000] = {
@@ -391,7 +391,7 @@ return {
         rank = 4,
     },
     [312000] = {
-        buyEndTime = "2019-11-09 00:00:00",
+        buyEndTime = "2020-11-06 00:00:00",
         openTimeType = 1,
         showCurrency = {
             [1] = 500081,
@@ -411,13 +411,13 @@ return {
         },
         refreshCostId = 0,
         manualRefresh = false,
-        showBeginTime = "2019-10-18 00:00:01",
+        showBeginTime = "2020-10-14 00:00:01",
         autoRefreshCorn = "0 0 0 * * ?",
         name = "13311516",
         orderType = 1,
-        showEndTime = "2019-11-09 00:00:00",
+        showEndTime = "2020-11-06 00:00:00",
         roleSet = 22,
-        buyBeginTime = "2019-10-18 00:00:01",
+        buyBeginTime = "2020-10-14 00:00:01",
         rank = 1,
     },
     [308000] = {

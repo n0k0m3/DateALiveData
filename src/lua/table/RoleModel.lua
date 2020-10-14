@@ -735,12 +735,12 @@ return {
         roleName = "bust_31001.model.json",
         type = 0,
     },
-    [210404] = {
-        rolePath = "modle/bust_kanban/bust_10404_kanban",
-        name = "狂三-校服",
-        id = 210404,
+    [210403] = {
+        rolePath = "modle/bust_kanban/bust_10403_kanban",
+        name = "时崎狂三-哥特装（3.0）",
+        id = 210403,
         isCloseTouchFollow = false,
-        roleName = "bust_10404_new.model3.json",
+        roleName = "bust_10403_new.model3.json",
         type = 1,
     },
     [411306] = {
@@ -759,14 +759,6 @@ return {
         roleName = "bust_31601.model.json",
         type = 0,
     },
-    [510409] = {
-        rolePath = "modle/bust_kanban/bust_10409_superkanban",
-        name = "狂三-白色情人节-猫娘（高级）",
-        id = 510409,
-        isCloseTouchFollow = false,
-        roleName = "bust_10409_new.model3.json",
-        type = 1,
-    },
     [10005] = {
         rolePath = "effect/dating_script/nianshou",
         name = "年兽-夕",
@@ -781,6 +773,14 @@ return {
         id = 511502,
         isCloseTouchFollow = false,
         roleName = "bust_11502_new.model3.json",
+        type = 1,
+    },
+    [510409] = {
+        rolePath = "modle/bust_kanban/bust_10409_superkanban",
+        name = "狂三-白色情人节-猫娘（高级）",
+        id = 510409,
+        isCloseTouchFollow = false,
+        roleName = "bust_10409_new.model3.json",
         type = 1,
     },
     [211501] = {
@@ -799,14 +799,6 @@ return {
         roleName = "bust_11402_new.model3.json",
         type = 1,
     },
-    [210104] = {
-        rolePath = "modle/bust/bust_10104_kanban",
-        name = "十香-校服（3.0）",
-        id = 210104,
-        isCloseTouchFollow = false,
-        roleName = "bust_10104.model3.json",
-        type = 1,
-    },
     [211401] = {
         rolePath = "modle/bust_kanban/bust_11401_kanban",
         name = "涅普顿-普通",
@@ -815,12 +807,20 @@ return {
         roleName = "bust_11401_new.model3.json",
         type = 1,
     },
-    [211303] = {
-        rolePath = "modle/bust_kanban/bust_11303_kanaban",
-        name = "七罪灵装(小)-看板",
-        id = 211303,
+    [210204] = {
+        rolePath = "modle/bust/bust_10204_kanban",
+        name = "鸢一折纸-校服(3.0)",
+        id = 210204,
         isCloseTouchFollow = false,
-        roleName = "bust_11303_new.model3.json",
+        roleName = "bust_10204.model3.json",
+        type = 1,
+    },
+    [210104] = {
+        rolePath = "modle/bust/bust_10104_kanban",
+        name = "十香-校服（3.0）",
+        id = 210104,
+        isCloseTouchFollow = false,
+        roleName = "bust_10104.model3.json",
         type = 1,
     },
     [511311] = {
@@ -831,12 +831,12 @@ return {
         roleName = "bust_11311_new.model3.json",
         type = 1,
     },
-    [510509] = {
-        rolePath = "modle/bust_kanban/bust_10509_superKanban",
-        name = "琴里女仆高级",
-        id = 510509,
+    [210424] = {
+        rolePath = "modle/bust_kanban/bust_10424_kanban",
+        name = "狂三-警服（英文版）",
+        id = 210424,
         isCloseTouchFollow = false,
-        roleName = "bust_10509_new.model3.json",
+        roleName = "bust_10424_new.model3.json",
         type = 1,
     },
     [211307] = {
@@ -847,12 +847,12 @@ return {
         roleName = "bust_11307_new.model3.json",
         type = 1,
     },
-    [211316] = {
-        rolePath = "modle/bust_kanban/bust_11316_kanban",
-        name = "七罪御姐泳衣-普通（英文版）",
-        id = 211316,
+    [211303] = {
+        rolePath = "modle/bust_kanban/bust_11303_kanaban",
+        name = "七罪灵装(小)-看板",
+        id = 211303,
         isCloseTouchFollow = false,
-        roleName = "bust_11316_new.model3.json",
+        roleName = "bust_11303_new.model3.json",
         type = 1,
     },
     [511006] = {
@@ -863,6 +863,22 @@ return {
         roleName = "bust_11006_new.model3.json",
         type = 1,
     },
+    [211316] = {
+        rolePath = "modle/bust_kanban/bust_11316_kanban",
+        name = "七罪御姐泳衣-普通（英文版）",
+        id = 211316,
+        isCloseTouchFollow = false,
+        roleName = "bust_11316_new.model3.json",
+        type = 1,
+    },
+    [210221] = {
+        rolePath = "modle/bust_kanban/bust_10221_kanban",
+        name = "折纸-警服（英文版）",
+        id = 210221,
+        isCloseTouchFollow = false,
+        roleName = "bust_10221_new.model3.json",
+        type = 1,
+    },
     [101101] = {
         rolePath = "modle/bust/bust_101_eff",
         name = "101表情包",
@@ -871,12 +887,12 @@ return {
         roleName = "bust_101_eff.model.json",
         type = 0,
     },
-    [210204] = {
-        rolePath = "modle/bust/bust_10204_kanban",
-        name = "鸢一折纸-校服(3.0)",
-        id = 210204,
+    [510511] = {
+        rolePath = "modle/bust_kanban/bust_10511_superKanban",
+        name = "琴里中秋 高级",
+        id = 510511,
         isCloseTouchFollow = false,
-        roleName = "bust_10204.model3.json",
+        roleName = "bust_10511_new.model3.json",
         type = 1,
     },
     [10602] = {
@@ -895,20 +911,20 @@ return {
         roleName = "bust_10604_new.model.json",
         type = 0,
     },
-    [410306] = {
-        rolePath = "modle/bust/bust_10306_new",
-        name = "四糸乃新春服-剧情",
-        id = 410306,
+    [210510] = {
+        rolePath = "modle/bust_kanban/bust_10510_kanban",
+        name = "琴里中秋 普通",
+        id = 210510,
         isCloseTouchFollow = false,
-        roleName = "bust_10306_new.model.json",
-        type = 0,
+        roleName = "bust_10510_new.model3.json",
+        type = 1,
     },
-    [510511] = {
-        rolePath = "modle/bust_kanban/bust_10511_superKanban",
-        name = "琴里中秋 高级",
-        id = 510511,
+    [510509] = {
+        rolePath = "modle/bust_kanban/bust_10509_superKanban",
+        name = "琴里女仆高级",
+        id = 510509,
         isCloseTouchFollow = false,
-        roleName = "bust_10511_new.model3.json",
+        roleName = "bust_10509_new.model3.json",
         type = 1,
     },
     [31101] = {
@@ -959,12 +975,12 @@ return {
         roleName = "bust_30101.model.json",
         type = 0,
     },
-    [210510] = {
-        rolePath = "modle/bust_kanban/bust_10510_kanban",
-        name = "琴里中秋 普通",
-        id = 210510,
+    [210501] = {
+        rolePath = "modle/bust/bust_10501_kanban",
+        name = "琴里-灵装(3.0)",
+        id = 210501,
         isCloseTouchFollow = false,
-        roleName = "bust_10510_new.model3.json",
+        roleName = "bust_10501.model3.json",
         type = 1,
     },
     [511308] = {
@@ -973,14 +989,6 @@ return {
         id = 511308,
         isCloseTouchFollow = false,
         roleName = "bust_11308_new.model3.json",
-        type = 1,
-    },
-    [210501] = {
-        rolePath = "modle/bust/bust_10501_kanban",
-        name = "琴里-灵装(3.0)",
-        id = 210501,
-        isCloseTouchFollow = false,
-        roleName = "bust_10501.model3.json",
         type = 1,
     },
     [510414] = {
@@ -1015,6 +1023,14 @@ return {
         roleName = "bust_10407_new.model3.json",
         type = 1,
     },
+    [210404] = {
+        rolePath = "modle/bust_kanban/bust_10404_kanban",
+        name = "狂三-校服",
+        id = 210404,
+        isCloseTouchFollow = false,
+        roleName = "bust_10404_new.model3.json",
+        type = 1,
+    },
     [11401] = {
         rolePath = "modle/bust/bust_11401_new",
         name = "海王星-涅普迪努",
@@ -1022,14 +1038,6 @@ return {
         isCloseTouchFollow = false,
         roleName = "bust_11401_new.model.json",
         type = 0,
-    },
-    [210403] = {
-        rolePath = "modle/bust_kanban/bust_10403_kanban",
-        name = "时崎狂三-哥特装（3.0）",
-        id = 210403,
-        isCloseTouchFollow = false,
-        roleName = "bust_10403_new.model3.json",
-        type = 1,
     },
     [210308] = {
         rolePath = "modle/bust_kanban/bust_10308_kanban",
@@ -1055,6 +1063,14 @@ return {
         roleName = "bust_10305_new.model3.json",
         type = 1,
     },
+    [210303] = {
+        rolePath = "modle/bust_kanban/bust_10303_kanban",
+        name = "四糸乃-休闲装(3.0)",
+        id = 210303,
+        isCloseTouchFollow = false,
+        roleName = "bust_10303.model3.json",
+        type = 1,
+    },
     [10901] = {
         rolePath = "modle/bust/bust_10901",
         name = "艾伦-DEM1",
@@ -1071,13 +1087,13 @@ return {
         roleName = "bust_10903_new.model.json",
         type = 0,
     },
-    [210303] = {
-        rolePath = "modle/bust_kanban/bust_10303_kanban",
-        name = "四糸乃-休闲装(3.0)",
-        id = 210303,
+    [410306] = {
+        rolePath = "modle/bust/bust_10306_new",
+        name = "四糸乃新春服-剧情",
+        id = 410306,
         isCloseTouchFollow = false,
-        roleName = "bust_10303.model3.json",
-        type = 1,
+        roleName = "bust_10306_new.model.json",
+        type = 0,
     },
     [410204] = {
         rolePath = "modle/bust/bust_10204_new",
