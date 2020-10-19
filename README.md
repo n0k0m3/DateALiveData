@@ -1,4 +1,4 @@
 # DateALiveData
-This repository holds the decrypted data for the game Date A Live: Spirit Pledge  
+This repository holds the decrypted data for the game Date A Live: Spirit Pledge with version control
 
-A more accessible of this repo is hosted at: [Google Drive](https://drive.google.com/drive/folders/1Ft39Tn0nPQCMh3tQ49knFnUzN-_otsDQ?usp=sharing)
+Clone this repo: `git clone https://github.com/n0k0m3/DateALiveData --depth=1`
