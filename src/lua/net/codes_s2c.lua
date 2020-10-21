@@ -6607,10 +6607,12 @@ s2c.UNION_LEVEL_UP = 6657
 			[18] = 'repeated int32':weekExpPrizeReceiveIndex	[周经验领取索引]
 			[19] = 'int32':lastWeekActive	[上周活跃度]
 			[20] = 'int32':receiveTimes	[本日领取的空投次数]
-			[21] = 'int32':goldRedpacketTime	[本日金币红包次数]
-			[22] = 'int32':rechargeRedpacketTime	[本日钻石红包次数]
-			[23] = 'int32':country	[国家ID]
-			[24] = 'bool':showCountry	[是否显示国家]
+			[21] = 'int32':country	[国家ID]
+			[22] = 'bool':showCountry	[是否显示国家]
+			[23] = {--repeated RedpacketTimes
+				[1] = 'int32':type	[类型   1:金币 2:钻石 3:体力]
+				[2] = 'int32':num	[数量]
+			},
 		},
 	}
 --]]
@@ -6754,10 +6756,12 @@ s2c.DUNGEON_BUY_FIGHT_COUNT = 1800
 			[18] = 'repeated int32':weekExpPrizeReceiveIndex	[周经验领取索引]
 			[19] = 'int32':lastWeekActive	[上周活跃度]
 			[20] = 'int32':receiveTimes	[本日领取的空投次数]
-			[21] = 'int32':goldRedpacketTime	[本日金币红包次数]
-			[22] = 'int32':rechargeRedpacketTime	[本日钻石红包次数]
-			[23] = 'int32':country	[国家ID]
-			[24] = 'bool':showCountry	[是否显示国家]
+			[21] = 'int32':country	[国家ID]
+			[22] = 'bool':showCountry	[是否显示国家]
+			[23] = {--repeated RedpacketTimes
+				[1] = 'int32':type	[类型   1:金币 2:钻石 3:体力]
+				[2] = 'int32':num	[数量]
+			},
 		},
 	}
 --]]

@@ -27,13 +27,15 @@ return {
         noobIcon = "ui/summon/mengxin.png",
         summonType = 1,
         smallIcon = "ui/summon/006.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "1200032",
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -52,11 +54,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [2] = {
         heroReward = {
@@ -86,13 +88,15 @@ return {
         noobIcon = "ui/summon/mengxin.png",
         summonType = 1,
         smallIcon = "ui/summon/006.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "1200034",
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -111,11 +115,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [3] = {
         heroReward = {
@@ -145,13 +149,15 @@ return {
         noobIcon = "",
         summonType = 4,
         smallIcon = "ui/summon/007.png",
-        costCommodity = 0,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "1200036",
         minQuality = {
             [1] = 2,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -170,11 +176,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 0,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [4] = {
         heroReward = {
@@ -204,13 +210,15 @@ return {
         noobIcon = "",
         summonType = 4,
         smallIcon = "ui/summon/007.png",
-        costCommodity = 0,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "1200038",
         minQuality = {
             [1] = 2,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -229,11 +237,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 0,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [5] = {
         heroReward = {
@@ -267,7 +275,7 @@ return {
             [5] = 0,
             [6] = 0,
         },
-        timeText = "Event Time: 2018.10.26 to 2018.10.30 23:59",
+        timeText = "Event Time: 2018.10.26 to 2018.10.30",
         rareGetTimes = 10,
         name = "1200052",
         immortalItemTimes = 1,
@@ -275,7 +283,7 @@ return {
         noobIcon = "",
         summonType = 2,
         smallIcon = "ui/summon/btn_equip.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2018,
             [2] = 10,
@@ -288,6 +296,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2018,
@@ -330,11 +340,11 @@ return {
                 itemId = 250122,
             },
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [6] = {
         heroReward = {
@@ -376,7 +386,7 @@ return {
         noobIcon = "",
         summonType = 2,
         smallIcon = "ui/summon/btn_equip.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2018,
             [2] = 10,
@@ -389,6 +399,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2018,
@@ -431,11 +443,11 @@ return {
                 itemId = 250122,
             },
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [7] = {
         heroReward = {
@@ -480,7 +492,7 @@ return {
         noobIcon = "",
         summonType = 3,
         smallIcon = "ui/summon/btn_hero.png",
-        costCommodity = 101501,
+        interfaceType = 1,
         startDate = {
             [1] = 2018,
             [2] = 10,
@@ -493,6 +505,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2018,
@@ -517,11 +531,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 1,
+        costCommodity = 101501,
         heroId = 110103,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 1,
     },
     [8] = {
         heroReward = {
@@ -566,7 +580,7 @@ return {
         noobIcon = "",
         summonType = 3,
         smallIcon = "ui/summon/btn_hero.png",
-        costCommodity = 101501,
+        interfaceType = 1,
         startDate = {
             [1] = 2018,
             [2] = 10,
@@ -579,6 +593,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2018,
@@ -603,11 +619,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 1,
+        costCommodity = 101501,
         heroId = 110103,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 1,
     },
     [9] = {
         heroReward = {
@@ -649,7 +665,7 @@ return {
         noobIcon = "",
         summonType = 2,
         smallIcon = "ui/summon/btn_equip.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2018,
             [2] = 10,
@@ -662,6 +678,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2018,
@@ -689,11 +707,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [10] = {
         heroReward = {
@@ -735,7 +753,7 @@ return {
         noobIcon = "",
         summonType = 2,
         smallIcon = "ui/summon/btn_equip.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2018,
             [2] = 10,
@@ -748,6 +766,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2018,
@@ -775,11 +795,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [11] = {
         heroReward = {
@@ -824,7 +844,7 @@ return {
         noobIcon = "",
         summonType = 3,
         smallIcon = "ui/summon/btn_hero.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2018,
             [2] = 11,
@@ -837,6 +857,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2018,
@@ -861,11 +883,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 110602,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [12] = {
         heroReward = {
@@ -910,7 +932,7 @@ return {
         noobIcon = "",
         summonType = 3,
         smallIcon = "ui/summon/btn_hero.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2018,
             [2] = 11,
@@ -923,6 +945,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2018,
@@ -947,11 +971,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 110602,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [13] = {
         heroReward = {
@@ -993,7 +1017,7 @@ return {
         noobIcon = "",
         summonType = 2,
         smallIcon = "ui/summon/btn_equip.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2018,
             [2] = 11,
@@ -1006,6 +1030,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2018,
@@ -1033,11 +1059,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [14] = {
         heroReward = {
@@ -1079,7 +1105,7 @@ return {
         noobIcon = "",
         summonType = 2,
         smallIcon = "ui/summon/btn_equip.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2018,
             [2] = 11,
@@ -1092,6 +1118,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2018,
@@ -1119,11 +1147,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [15] = {
         heroReward = {
@@ -1168,7 +1196,7 @@ return {
         noobIcon = "",
         summonType = 3,
         smallIcon = "ui/summon/btn_hero.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2018,
             [2] = 11,
@@ -1181,6 +1209,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2018,
@@ -1205,11 +1235,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 110401,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [16] = {
         heroReward = {
@@ -1254,7 +1284,7 @@ return {
         noobIcon = "",
         summonType = 3,
         smallIcon = "ui/summon/btn_hero.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2018,
             [2] = 11,
@@ -1267,6 +1297,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2018,
@@ -1291,11 +1323,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 110401,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [17] = {
         heroReward = {
@@ -1340,7 +1372,7 @@ return {
         noobIcon = "",
         summonType = 3,
         smallIcon = "ui/summon/btn_hero.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2018,
             [2] = 12,
@@ -1353,6 +1385,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2018,
@@ -1377,11 +1411,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 110102,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [18] = {
         heroReward = {
@@ -1426,7 +1460,7 @@ return {
         noobIcon = "",
         summonType = 3,
         smallIcon = "ui/summon/btn_hero.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2018,
             [2] = 12,
@@ -1439,6 +1473,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2018,
@@ -1463,11 +1499,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 110102,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [19] = {
         heroReward = {
@@ -1512,7 +1548,7 @@ return {
         noobIcon = "",
         summonType = 3,
         smallIcon = "ui/summon/btn_hero.png",
-        costCommodity = 101501,
+        interfaceType = 1,
         startDate = {
             [1] = 2018,
             [2] = 12,
@@ -1525,6 +1561,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -1549,11 +1587,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 1,
+        costCommodity = 101501,
         heroId = 112001,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 1,
     },
     [20] = {
         heroReward = {
@@ -1598,7 +1636,7 @@ return {
         noobIcon = "",
         summonType = 3,
         smallIcon = "ui/summon/btn_hero.png",
-        costCommodity = 101501,
+        interfaceType = 1,
         startDate = {
             [1] = 2018,
             [2] = 12,
@@ -1611,6 +1649,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -1635,11 +1675,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 1,
+        costCommodity = 101501,
         heroId = 112001,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 1,
     },
     [21] = {
         heroReward = {
@@ -1681,7 +1721,7 @@ return {
         noobIcon = "",
         summonType = 2,
         smallIcon = "ui/summon/btn_equip.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2018,
             [2] = 12,
@@ -1694,6 +1734,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -1721,11 +1763,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [22] = {
         heroReward = {
@@ -1767,7 +1809,7 @@ return {
         noobIcon = "",
         summonType = 2,
         smallIcon = "ui/summon/btn_equip.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2018,
             [2] = 12,
@@ -1780,6 +1822,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -1807,11 +1851,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [23] = {
         heroReward = {
@@ -1853,7 +1897,7 @@ return {
         noobIcon = "",
         summonType = 5,
         smallIcon = "",
-        costCommodity = 0,
+        interfaceType = 2,
         startDate = {
             [1] = 2018,
             [2] = 12,
@@ -1866,6 +1910,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -1890,11 +1936,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 0,
         heroId = 0,
         goods = {
         },
-        interfaceType = 2,
+        titleType = 0,
     },
     [24] = {
         heroReward = {
@@ -1936,7 +1982,7 @@ return {
         noobIcon = "",
         summonType = 5,
         smallIcon = "",
-        costCommodity = 0,
+        interfaceType = 2,
         startDate = {
             [1] = 2018,
             [2] = 12,
@@ -1949,6 +1995,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -1973,11 +2021,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 0,
         heroId = 0,
         goods = {
         },
-        interfaceType = 2,
+        titleType = 0,
     },
     [25] = {
         heroReward = {
@@ -2022,7 +2070,7 @@ return {
         noobIcon = "",
         summonType = 3,
         smallIcon = "ui/summon/btn_hero.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2019,
             [2] = 1,
@@ -2035,6 +2083,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -2059,11 +2109,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 110901,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [26] = {
         heroReward = {
@@ -2108,7 +2158,7 @@ return {
         noobIcon = "",
         summonType = 3,
         smallIcon = "ui/summon/btn_hero.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2019,
             [2] = 1,
@@ -2121,6 +2171,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -2145,11 +2197,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 110901,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [27] = {
         heroReward = {
@@ -2191,7 +2243,7 @@ return {
         noobIcon = "",
         summonType = 2,
         smallIcon = "ui/summon/btn_equip.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2019,
             [2] = 1,
@@ -2204,6 +2256,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -2231,11 +2285,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [28] = {
         heroReward = {
@@ -2277,7 +2331,7 @@ return {
         noobIcon = "",
         summonType = 2,
         smallIcon = "ui/summon/btn_equip.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2019,
             [2] = 1,
@@ -2290,6 +2344,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -2317,11 +2373,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [29] = {
         heroReward = {
@@ -2363,7 +2419,7 @@ return {
         noobIcon = "",
         summonType = 6,
         smallIcon = "ui/summon/btn_equip.png",
-        costCommodity = 0,
+        interfaceType = 3,
         startDate = {
             [1] = 2019,
             [2] = 1,
@@ -2376,6 +2432,8 @@ return {
         minQuality = {
             [1] = 2,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -2400,11 +2458,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 0,
         heroId = 0,
         goods = {
         },
-        interfaceType = 3,
+        titleType = 0,
     },
     [30] = {
         heroReward = {
@@ -2419,9 +2477,9 @@ return {
         },
         order = 16,
         showStartDate = {
-            [1] = 2019,
-            [2] = 1,
-            [3] = 23,
+            [1] = 2020,
+            [2] = 10,
+            [3] = 21,
             [4] = 0,
             [5] = 0,
             [6] = 0,
@@ -2434,14 +2492,14 @@ return {
         up = false,
         cardCount = 1,
         endDate = {
-            [1] = 2019,
-            [2] = 2,
-            [3] = 12,
+            [1] = 2020,
+            [2] = 10,
+            [3] = 27,
             [4] = 23,
             [5] = 59,
             [6] = 59,
         },
-        timeText = "Event Time: Jan 29th, 2019 - 23:59 on Feb 12th, 2019",
+        timeText = "Event Time: Oct 21st, 2020 - 23:59 on Oct 27th, 2020",
         rareGetTimes = 10,
         name = "1200052",
         immortalItemTimes = 1,
@@ -2449,11 +2507,11 @@ return {
         noobIcon = "",
         summonType = 3,
         smallIcon = "ui/summon/btn_hero.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
-            [1] = 2019,
-            [2] = 1,
-            [3] = 23,
+            [1] = 2020,
+            [2] = 10,
+            [3] = 21,
             [4] = 0,
             [5] = 0,
             [6] = 0,
@@ -2463,10 +2521,12 @@ return {
             [1] = 3,
             [2] = 3,
         },
+        firstCost = {
+        },
         showEndDate = {
-            [1] = 2019,
-            [2] = 2,
-            [3] = 12,
+            [1] = 2020,
+            [2] = 10,
+            [3] = 27,
             [4] = 23,
             [5] = 59,
             [6] = 59,
@@ -2486,11 +2546,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 111301,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [31] = {
         heroReward = {
@@ -2505,9 +2565,9 @@ return {
         },
         order = 16,
         showStartDate = {
-            [1] = 2019,
-            [2] = 1,
-            [3] = 23,
+            [1] = 2020,
+            [2] = 10,
+            [3] = 21,
             [4] = 0,
             [5] = 0,
             [6] = 0,
@@ -2520,14 +2580,14 @@ return {
         up = false,
         cardCount = 10,
         endDate = {
-            [1] = 2019,
-            [2] = 2,
-            [3] = 12,
+            [1] = 2020,
+            [2] = 10,
+            [3] = 27,
             [4] = 23,
             [5] = 59,
             [6] = 59,
         },
-        timeText = "Event Time: Jan 29th, 2019 - 23:59 on Feb 12th, 2019",
+        timeText = "Event Time: Oct 21st, 2020 - 23:59 on Oct 27th, 2020",
         rareGetTimes = 10,
         name = "1200052",
         immortalItemTimes = 1,
@@ -2535,11 +2595,11 @@ return {
         noobIcon = "",
         summonType = 3,
         smallIcon = "ui/summon/btn_hero.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
-            [1] = 2019,
-            [2] = 1,
-            [3] = 23,
+            [1] = 2020,
+            [2] = 10,
+            [3] = 21,
             [4] = 0,
             [5] = 0,
             [6] = 0,
@@ -2549,10 +2609,12 @@ return {
             [1] = 3,
             [2] = 3,
         },
+        firstCost = {
+        },
         showEndDate = {
-            [1] = 2019,
-            [2] = 2,
-            [3] = 12,
+            [1] = 2020,
+            [2] = 10,
+            [3] = 27,
             [4] = 23,
             [5] = 59,
             [6] = 59,
@@ -2572,11 +2634,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 111301,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [32] = {
         heroReward = {
@@ -2588,9 +2650,9 @@ return {
         },
         order = 17,
         showStartDate = {
-            [1] = 2019,
-            [2] = 1,
-            [3] = 23,
+            [1] = 2020,
+            [2] = 10,
+            [3] = 21,
             [4] = 0,
             [5] = 0,
             [6] = 0,
@@ -2603,14 +2665,14 @@ return {
         up = false,
         cardCount = 1,
         endDate = {
-            [1] = 2019,
-            [2] = 2,
-            [3] = 12,
+            [1] = 2020,
+            [2] = 10,
+            [3] = 27,
             [4] = 23,
             [5] = 59,
             [6] = 59,
         },
-        timeText = "Event Time: Jan 29th, 2019 - 23:59 on Feb 12th, 2019",
+        timeText = "Event Time: Oct 21st, 2020 - 23:59 on Oct 27th, 2020",
         rareGetTimes = 10,
         name = "1200052",
         immortalItemTimes = 1,
@@ -2618,11 +2680,11 @@ return {
         noobIcon = "",
         summonType = 2,
         smallIcon = "ui/summon/btn_equip.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
-            [1] = 2019,
-            [2] = 1,
-            [3] = 23,
+            [1] = 2020,
+            [2] = 10,
+            [3] = 21,
             [4] = 0,
             [5] = 0,
             [6] = 0,
@@ -2632,10 +2694,12 @@ return {
             [1] = 3,
             [2] = 4,
         },
+        firstCost = {
+        },
         showEndDate = {
-            [1] = 2019,
-            [2] = 2,
-            [3] = 12,
+            [1] = 2020,
+            [2] = 10,
+            [3] = 27,
             [4] = 23,
             [5] = 59,
             [6] = 59,
@@ -2658,11 +2722,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [33] = {
         heroReward = {
@@ -2674,9 +2738,9 @@ return {
         },
         order = 17,
         showStartDate = {
-            [1] = 2019,
-            [2] = 1,
-            [3] = 23,
+            [1] = 2020,
+            [2] = 10,
+            [3] = 21,
             [4] = 0,
             [5] = 0,
             [6] = 0,
@@ -2689,14 +2753,14 @@ return {
         up = false,
         cardCount = 10,
         endDate = {
-            [1] = 2019,
-            [2] = 2,
-            [3] = 12,
+            [1] = 2020,
+            [2] = 10,
+            [3] = 27,
             [4] = 23,
             [5] = 59,
             [6] = 59,
         },
-        timeText = "Event Time: Jan 29th, 2019 - 23:59 on Feb 12th, 2019",
+        timeText = "Event Time: Oct 21st, 2020 - 23:59 on Oct 27th, 2020",
         rareGetTimes = 10,
         name = "1200052",
         immortalItemTimes = 1,
@@ -2704,11 +2768,11 @@ return {
         noobIcon = "",
         summonType = 2,
         smallIcon = "ui/summon/btn_equip.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
-            [1] = 2019,
-            [2] = 1,
-            [3] = 23,
+            [1] = 2020,
+            [2] = 10,
+            [3] = 21,
             [4] = 0,
             [5] = 0,
             [6] = 0,
@@ -2718,10 +2782,12 @@ return {
             [1] = 3,
             [2] = 4,
         },
+        firstCost = {
+        },
         showEndDate = {
-            [1] = 2019,
-            [2] = 2,
-            [3] = 12,
+            [1] = 2020,
+            [2] = 10,
+            [3] = 27,
             [4] = 23,
             [5] = 59,
             [6] = 59,
@@ -2744,11 +2810,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [34] = {
         heroReward = {
@@ -2793,7 +2859,7 @@ return {
         noobIcon = "",
         summonType = 3,
         smallIcon = "ui/summon/btn_hero.png",
-        costCommodity = 101501,
+        interfaceType = 1,
         startDate = {
             [1] = 2020,
             [2] = 8,
@@ -2806,6 +2872,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2020,
@@ -2830,11 +2898,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 1,
+        costCommodity = 101501,
         heroId = 110103,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 1,
     },
     [35] = {
         heroReward = {
@@ -2879,7 +2947,7 @@ return {
         noobIcon = "",
         summonType = 3,
         smallIcon = "ui/summon/btn_hero.png",
-        costCommodity = 101501,
+        interfaceType = 1,
         startDate = {
             [1] = 2020,
             [2] = 8,
@@ -2892,6 +2960,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2020,
@@ -2916,11 +2986,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 1,
+        costCommodity = 101501,
         heroId = 110103,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 1,
     },
     [36] = {
         heroReward = {
@@ -2962,7 +3032,7 @@ return {
         noobIcon = "",
         summonType = 2,
         smallIcon = "ui/summon/btn_equip.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2020,
             [2] = 8,
@@ -2975,6 +3045,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2020,
@@ -3002,11 +3074,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [37] = {
         heroReward = {
@@ -3048,7 +3120,7 @@ return {
         noobIcon = "",
         summonType = 2,
         smallIcon = "ui/summon/btn_equip.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2020,
             [2] = 8,
@@ -3061,6 +3133,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2020,
@@ -3088,11 +3162,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [38] = {
         heroReward = {
@@ -3137,7 +3211,7 @@ return {
         noobIcon = "",
         summonType = 3,
         smallIcon = "ui/summon/btn_hero.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2019,
             [2] = 8,
@@ -3150,6 +3224,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -3174,11 +3250,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 110501,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [39] = {
         heroReward = {
@@ -3223,7 +3299,7 @@ return {
         noobIcon = "",
         summonType = 3,
         smallIcon = "ui/summon/btn_hero.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2019,
             [2] = 8,
@@ -3236,6 +3312,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -3260,11 +3338,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 110501,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [40] = {
         heroReward = {
@@ -3306,7 +3384,7 @@ return {
         noobIcon = "",
         summonType = 2,
         smallIcon = "ui/summon/btn_equip.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2019,
             [2] = 8,
@@ -3319,6 +3397,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -3346,11 +3426,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [41] = {
         heroReward = {
@@ -3392,7 +3472,7 @@ return {
         noobIcon = "",
         summonType = 2,
         smallIcon = "ui/summon/btn_equip.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2019,
             [2] = 8,
@@ -3405,6 +3485,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -3432,11 +3514,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [42] = {
         heroReward = {
@@ -3481,7 +3563,7 @@ return {
         noobIcon = "",
         summonType = 3,
         smallIcon = "ui/summon/btn_hero.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2020,
             [2] = 9,
@@ -3494,6 +3576,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2020,
@@ -3518,11 +3602,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 110302,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [43] = {
         heroReward = {
@@ -3567,7 +3651,7 @@ return {
         noobIcon = "",
         summonType = 3,
         smallIcon = "ui/summon/btn_hero.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2020,
             [2] = 9,
@@ -3580,6 +3664,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2020,
@@ -3604,11 +3690,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 110302,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [44] = {
         heroReward = {
@@ -3650,7 +3736,7 @@ return {
         noobIcon = "",
         summonType = 2,
         smallIcon = "ui/summon/btn_equip.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2020,
             [2] = 9,
@@ -3663,6 +3749,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2020,
@@ -3690,11 +3778,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [45] = {
         heroReward = {
@@ -3736,7 +3824,7 @@ return {
         noobIcon = "",
         summonType = 2,
         smallIcon = "ui/summon/btn_equip.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2020,
             [2] = 9,
@@ -3749,6 +3837,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2020,
@@ -3776,11 +3866,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [46] = {
         heroReward = {
@@ -3822,7 +3912,7 @@ return {
         noobIcon = "",
         summonType = 7,
         smallIcon = "ui/summon/btn_clothes.png",
-        costCommodity = 0,
+        interfaceType = 1,
         startDate = {
             [1] = 2019,
             [2] = 4,
@@ -3835,6 +3925,8 @@ return {
         minQuality = {
             [1] = 2,
             [2] = 2,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -3859,11 +3951,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 0,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [47] = {
         heroReward = {
@@ -3905,7 +3997,7 @@ return {
         noobIcon = "",
         summonType = 7,
         smallIcon = "ui/summon/btn_clothes.png",
-        costCommodity = 0,
+        interfaceType = 1,
         startDate = {
             [1] = 2019,
             [2] = 4,
@@ -3918,6 +4010,8 @@ return {
         minQuality = {
             [1] = 2,
             [2] = 2,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -3942,11 +4036,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 0,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [48] = {
         heroReward = {
@@ -3991,7 +4085,7 @@ return {
         noobIcon = "",
         summonType = 3,
         smallIcon = "ui/summon/btn_hero.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2019,
             [2] = 4,
@@ -4004,6 +4098,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -4028,11 +4124,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 110208,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [49] = {
         heroReward = {
@@ -4077,7 +4173,7 @@ return {
         noobIcon = "",
         summonType = 3,
         smallIcon = "ui/summon/btn_hero.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2019,
             [2] = 4,
@@ -4090,6 +4186,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -4114,11 +4212,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 110208,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [50] = {
         heroReward = {
@@ -4160,7 +4258,7 @@ return {
         noobIcon = "",
         summonType = 2,
         smallIcon = "ui/summon/btn_equip.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2020,
             [2] = 8,
@@ -4173,6 +4271,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2020,
@@ -4200,11 +4300,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [51] = {
         heroReward = {
@@ -4246,7 +4346,7 @@ return {
         noobIcon = "",
         summonType = 2,
         smallIcon = "ui/summon/btn_equip.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2020,
             [2] = 8,
@@ -4259,6 +4359,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2020,
@@ -4286,11 +4388,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [52] = {
         heroReward = {
@@ -4335,7 +4437,7 @@ return {
         noobIcon = "",
         summonType = 3,
         smallIcon = "ui/summon/btn_hero.png",
-        costCommodity = 101501,
+        interfaceType = 1,
         startDate = {
             [1] = 2019,
             [2] = 5,
@@ -4348,6 +4450,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -4372,11 +4476,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 1,
+        costCommodity = 101501,
         heroId = 112001,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 1,
     },
     [53] = {
         heroReward = {
@@ -4421,7 +4525,7 @@ return {
         noobIcon = "",
         summonType = 3,
         smallIcon = "ui/summon/btn_hero.png",
-        costCommodity = 101501,
+        interfaceType = 1,
         startDate = {
             [1] = 2019,
             [2] = 5,
@@ -4434,6 +4538,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -4458,11 +4564,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 1,
+        costCommodity = 101501,
         heroId = 112001,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 1,
     },
     [54] = {
         heroReward = {
@@ -4504,7 +4610,7 @@ return {
         noobIcon = "",
         summonType = 2,
         smallIcon = "ui/summon/btn_equip.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2019,
             [2] = 5,
@@ -4517,6 +4623,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -4544,11 +4652,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [55] = {
         heroReward = {
@@ -4590,7 +4698,7 @@ return {
         noobIcon = "",
         summonType = 2,
         smallIcon = "ui/summon/btn_equip.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2019,
             [2] = 5,
@@ -4603,6 +4711,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -4630,11 +4740,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [60] = {
         heroReward = {
@@ -4664,13 +4774,15 @@ return {
         noobIcon = "ui/summon/mengxin.png",
         summonType = 10,
         smallIcon = "ui/summon/006.png",
-        costCommodity = 100101,
+        interfaceType = 6,
         startDate = {
         },
         ad1 = "1200032",
         minQuality = {
             [1] = 4,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -4689,11 +4801,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 6,
+        titleType = 0,
     },
     [61] = {
         heroReward = {
@@ -4723,13 +4835,15 @@ return {
         noobIcon = "ui/summon/mengxin.png",
         summonType = 10,
         smallIcon = "ui/summon/006.png",
-        costCommodity = 100101,
+        interfaceType = 6,
         startDate = {
         },
         ad1 = "1200032",
         minQuality = {
             [1] = 4,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -4748,11 +4862,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 6,
+        titleType = 0,
     },
     [62] = {
         heroReward = {
@@ -4794,7 +4908,7 @@ return {
         noobIcon = "",
         summonType = 11,
         smallIcon = "",
-        costCommodity = 0,
+        interfaceType = 7,
         startDate = {
             [1] = 2019,
             [2] = 5,
@@ -4807,6 +4921,8 @@ return {
         minQuality = {
             [1] = 4,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -4831,12 +4947,12 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 0,
         heroId = 0,
         goods = {
             [500065] = 3,
         },
-        interfaceType = 7,
+        titleType = 0,
     },
     [63] = {
         heroReward = {
@@ -4878,7 +4994,7 @@ return {
         noobIcon = "",
         summonType = 11,
         smallIcon = "",
-        costCommodity = 0,
+        interfaceType = 7,
         startDate = {
             [1] = 2019,
             [2] = 5,
@@ -4891,6 +5007,8 @@ return {
         minQuality = {
             [1] = 4,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -4915,12 +5033,12 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 0,
         heroId = 0,
         goods = {
             [500065] = 30,
         },
-        interfaceType = 7,
+        titleType = 0,
     },
     [64] = {
         heroReward = {
@@ -4965,7 +5083,7 @@ return {
         noobIcon = "",
         summonType = 3,
         smallIcon = "ui/summon/btn_hero.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2019,
             [2] = 6,
@@ -4978,6 +5096,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -5002,11 +5122,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 110209,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [65] = {
         heroReward = {
@@ -5051,7 +5171,7 @@ return {
         noobIcon = "",
         summonType = 3,
         smallIcon = "ui/summon/btn_hero.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2019,
             [2] = 6,
@@ -5064,6 +5184,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -5088,11 +5210,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 110209,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [66] = {
         heroReward = {
@@ -5134,7 +5256,7 @@ return {
         noobIcon = "",
         summonType = 2,
         smallIcon = "ui/summon/btn_equip.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2019,
             [2] = 6,
@@ -5147,6 +5269,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -5174,11 +5298,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [67] = {
         heroReward = {
@@ -5220,7 +5344,7 @@ return {
         noobIcon = "",
         summonType = 2,
         smallIcon = "ui/summon/btn_equip.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2019,
             [2] = 6,
@@ -5233,6 +5357,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -5260,11 +5386,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [68] = {
         heroReward = {
@@ -5294,13 +5420,15 @@ return {
         noobIcon = "",
         summonType = 12,
         smallIcon = "ui/summon/btn_clothes.png",
-        costCommodity = 0,
+        interfaceType = 12,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 2,
             [2] = 2,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -5319,11 +5447,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 0,
         heroId = 0,
         goods = {
         },
-        interfaceType = 12,
+        titleType = 0,
     },
     [69] = {
         heroReward = {
@@ -5353,13 +5481,15 @@ return {
         noobIcon = "",
         summonType = 12,
         smallIcon = "ui/summon/btn_clothes.png",
-        costCommodity = 0,
+        interfaceType = 12,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 2,
             [2] = 2,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -5378,11 +5508,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 0,
         heroId = 0,
         goods = {
         },
-        interfaceType = 12,
+        titleType = 0,
     },
     [70] = {
         heroReward = {
@@ -5427,7 +5557,7 @@ return {
         noobIcon = "",
         summonType = 3,
         smallIcon = "ui/summon/btn_hero.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2019,
             [2] = 7,
@@ -5440,6 +5570,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -5464,11 +5596,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 110102,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [71] = {
         heroReward = {
@@ -5513,7 +5645,7 @@ return {
         noobIcon = "",
         summonType = 3,
         smallIcon = "ui/summon/btn_hero.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2019,
             [2] = 7,
@@ -5526,6 +5658,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -5550,11 +5684,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 110102,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [72] = {
         heroReward = {
@@ -5596,7 +5730,7 @@ return {
         noobIcon = "",
         summonType = 2,
         smallIcon = "ui/summon/btn_equip.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2019,
             [2] = 7,
@@ -5609,6 +5743,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -5636,11 +5772,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [73] = {
         heroReward = {
@@ -5682,7 +5818,7 @@ return {
         noobIcon = "",
         summonType = 2,
         smallIcon = "ui/summon/btn_equip.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2019,
             [2] = 7,
@@ -5695,6 +5831,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -5722,11 +5860,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [74] = {
         heroReward = {
@@ -5771,7 +5909,7 @@ return {
         noobIcon = "",
         summonType = 3,
         smallIcon = "ui/summon/btn_hero.png",
-        costCommodity = 101501,
+        interfaceType = 1,
         startDate = {
             [1] = 2019,
             [2] = 12,
@@ -5784,6 +5922,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2020,
@@ -5808,11 +5948,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 1,
+        costCommodity = 101501,
         heroId = 110210,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 1,
     },
     [75] = {
         heroReward = {
@@ -5857,7 +5997,7 @@ return {
         noobIcon = "",
         summonType = 3,
         smallIcon = "ui/summon/btn_hero.png",
-        costCommodity = 101501,
+        interfaceType = 1,
         startDate = {
             [1] = 2019,
             [2] = 12,
@@ -5870,6 +6010,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2020,
@@ -5894,11 +6036,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 1,
+        costCommodity = 101501,
         heroId = 110210,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 1,
     },
     [76] = {
         heroReward = {
@@ -5940,7 +6082,7 @@ return {
         noobIcon = "",
         summonType = 2,
         smallIcon = "ui/summon/btn_equip.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2019,
             [2] = 12,
@@ -5953,6 +6095,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2020,
@@ -5980,11 +6124,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [77] = {
         heroReward = {
@@ -6026,7 +6170,7 @@ return {
         noobIcon = "",
         summonType = 2,
         smallIcon = "ui/summon/btn_equip.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2019,
             [2] = 12,
@@ -6039,6 +6183,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2020,
@@ -6066,11 +6212,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [78] = {
         heroReward = {
@@ -6115,7 +6261,7 @@ return {
         noobIcon = "",
         summonType = 3,
         smallIcon = "ui/summon/btn_hero.png",
-        costCommodity = 101501,
+        interfaceType = 1,
         startDate = {
             [1] = 2019,
             [2] = 9,
@@ -6128,6 +6274,8 @@ return {
         minQuality = {
             [1] = 4,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -6152,11 +6300,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 1,
+        costCommodity = 101501,
         heroId = 111401,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 1,
     },
     [79] = {
         heroReward = {
@@ -6201,7 +6349,7 @@ return {
         noobIcon = "",
         summonType = 3,
         smallIcon = "ui/summon/btn_hero.png",
-        costCommodity = 101501,
+        interfaceType = 1,
         startDate = {
             [1] = 2019,
             [2] = 9,
@@ -6214,6 +6362,8 @@ return {
         minQuality = {
             [1] = 4,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -6238,11 +6388,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 1,
+        costCommodity = 101501,
         heroId = 111401,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 1,
     },
     [80] = {
         heroReward = {
@@ -6287,7 +6437,7 @@ return {
         noobIcon = "",
         summonType = 3,
         smallIcon = "ui/summon/btn_hero.png",
-        costCommodity = 101501,
+        interfaceType = 1,
         startDate = {
             [1] = 2019,
             [2] = 10,
@@ -6300,6 +6450,8 @@ return {
         minQuality = {
             [1] = 4,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -6324,11 +6476,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 1,
+        costCommodity = 101501,
         heroId = 111501,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 1,
     },
     [81] = {
         heroReward = {
@@ -6373,7 +6525,7 @@ return {
         noobIcon = "",
         summonType = 3,
         smallIcon = "ui/summon/btn_hero.png",
-        costCommodity = 101501,
+        interfaceType = 1,
         startDate = {
             [1] = 2019,
             [2] = 10,
@@ -6386,6 +6538,8 @@ return {
         minQuality = {
             [1] = 4,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -6410,11 +6564,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 1,
+        costCommodity = 101501,
         heroId = 111501,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 1,
     },
     [82] = {
         heroReward = {
@@ -6456,7 +6610,7 @@ return {
         noobIcon = "",
         summonType = 2,
         smallIcon = "ui/summon/btn_equip.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2019,
             [2] = 9,
@@ -6469,6 +6623,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -6496,11 +6652,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [83] = {
         heroReward = {
@@ -6542,7 +6698,7 @@ return {
         noobIcon = "",
         summonType = 2,
         smallIcon = "ui/summon/btn_equip.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2019,
             [2] = 9,
@@ -6555,6 +6711,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -6582,11 +6740,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [84] = {
         heroReward = {
@@ -6628,7 +6786,7 @@ return {
         noobIcon = "",
         summonType = 2,
         smallIcon = "ui/summon/btn_equip.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2019,
             [2] = 10,
@@ -6641,6 +6799,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -6668,11 +6828,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [85] = {
         heroReward = {
@@ -6714,7 +6874,7 @@ return {
         noobIcon = "",
         summonType = 2,
         smallIcon = "ui/summon/btn_equip.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2019,
             [2] = 10,
@@ -6727,6 +6887,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -6754,11 +6916,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [86] = {
         heroReward = {
@@ -6803,7 +6965,7 @@ return {
         noobIcon = "",
         summonType = 3,
         smallIcon = "ui/summon/btn_hero.png",
-        costCommodity = 101501,
+        interfaceType = 1,
         startDate = {
             [1] = 2019,
             [2] = 9,
@@ -6816,6 +6978,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -6840,11 +7004,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 1,
+        costCommodity = 101501,
         heroId = 110413,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 1,
     },
     [87] = {
         heroReward = {
@@ -6889,7 +7053,7 @@ return {
         noobIcon = "",
         summonType = 3,
         smallIcon = "ui/summon/btn_hero.png",
-        costCommodity = 101501,
+        interfaceType = 1,
         startDate = {
             [1] = 2019,
             [2] = 9,
@@ -6902,6 +7066,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -6926,11 +7092,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 1,
+        costCommodity = 101501,
         heroId = 110413,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 1,
     },
     [88] = {
         heroReward = {
@@ -6972,7 +7138,7 @@ return {
         noobIcon = "",
         summonType = 2,
         smallIcon = "ui/summon/btn_equip.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2019,
             [2] = 10,
@@ -6985,6 +7151,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -7012,11 +7180,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [89] = {
         heroReward = {
@@ -7058,7 +7226,7 @@ return {
         noobIcon = "",
         summonType = 2,
         smallIcon = "ui/summon/btn_equip.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
             [1] = 2019,
             [2] = 10,
@@ -7071,6 +7239,8 @@ return {
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -7098,11 +7268,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [90] = {
         heroReward = {
@@ -7144,7 +7314,7 @@ return {
         noobIcon = "",
         summonType = 11,
         smallIcon = "",
-        costCommodity = 0,
+        interfaceType = 7,
         startDate = {
             [1] = 2019,
             [2] = 12,
@@ -7157,6 +7327,8 @@ return {
         minQuality = {
             [1] = 4,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2020,
@@ -7181,12 +7353,12 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 0,
         heroId = 0,
         goods = {
             [500089] = 6,
         },
-        interfaceType = 7,
+        titleType = 0,
     },
     [91] = {
         heroReward = {
@@ -7228,7 +7400,7 @@ return {
         noobIcon = "",
         summonType = 11,
         smallIcon = "",
-        costCommodity = 0,
+        interfaceType = 7,
         startDate = {
             [1] = 2019,
             [2] = 12,
@@ -7241,6 +7413,8 @@ return {
         minQuality = {
             [1] = 4,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2020,
@@ -7265,12 +7439,12 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 0,
         heroId = 0,
         goods = {
             [500089] = 60,
         },
-        interfaceType = 7,
+        titleType = 0,
     },
     [92] = {
         heroReward = {
@@ -7303,13 +7477,15 @@ return {
         noobIcon = "",
         summonType = 3,
         smallIcon = "ui/summon/btn_hero.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -7328,11 +7504,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 110901,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [93] = {
         heroReward = {
@@ -7365,13 +7541,15 @@ return {
         noobIcon = "",
         summonType = 3,
         smallIcon = "ui/summon/btn_hero.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -7390,11 +7568,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 110901,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [94] = {
         heroReward = {
@@ -7427,13 +7605,15 @@ return {
         noobIcon = "",
         summonType = 3,
         smallIcon = "ui/summon/btn_hero.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -7452,11 +7632,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 110401,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [95] = {
         heroReward = {
@@ -7489,13 +7669,15 @@ return {
         noobIcon = "",
         summonType = 3,
         smallIcon = "ui/summon/btn_hero.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -7514,11 +7696,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 110401,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [11003] = {
         heroReward = {
@@ -7545,13 +7727,15 @@ return {
         noobIcon = "ui/summon/mengxin.png",
         summonType = 51,
         smallIcon = "ui/summon/006.png",
-        costCommodity = 0,
+        interfaceType = 0,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -7570,11 +7754,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 0,
         heroId = 0,
         goods = {
         },
-        interfaceType = 0,
+        titleType = 0,
     },
     [2051] = {
         heroReward = {
@@ -7604,13 +7788,15 @@ return {
         noobIcon = "",
         summonType = 999,
         smallIcon = "ui/summon/hot_spot/009.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -7638,11 +7824,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [2022] = {
         heroReward = {
@@ -7672,13 +7858,15 @@ return {
         noobIcon = "",
         summonType = 999,
         smallIcon = "ui/summon/hot_spot/009.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -7706,11 +7894,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [1021] = {
         heroReward = {
@@ -7740,13 +7928,15 @@ return {
         noobIcon = "ui/summon/mengxin.png",
         summonType = 998,
         smallIcon = "ui/summon/hot_spot/009.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -7765,11 +7955,11 @@ return {
         dungeonId1  = 710002,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [2201] = {
         heroReward = {
@@ -7799,13 +7989,15 @@ return {
         noobIcon = "",
         summonType = 999,
         smallIcon = "ui/summon/hot_spot/009.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -7830,11 +8022,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [2091] = {
         heroReward = {
@@ -7864,13 +8056,15 @@ return {
         noobIcon = "",
         summonType = 999,
         smallIcon = "ui/summon/hot_spot/009.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -7898,11 +8092,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [2042] = {
         heroReward = {
@@ -7932,13 +8126,15 @@ return {
         noobIcon = "",
         summonType = 999,
         smallIcon = "ui/summon/hot_spot/009.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -7966,11 +8162,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [11007] = {
         heroReward = {
@@ -7997,13 +8193,15 @@ return {
         noobIcon = "ui/summon/mengxin.png",
         summonType = 51,
         smallIcon = "ui/summon/006.png",
-        costCommodity = 0,
+        interfaceType = 0,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -8022,11 +8220,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 0,
         heroId = 0,
         goods = {
         },
-        interfaceType = 0,
+        titleType = 0,
     },
     [1042] = {
         heroReward = {
@@ -8056,13 +8254,15 @@ return {
         noobIcon = "ui/summon/mengxin.png",
         summonType = 998,
         smallIcon = "ui/summon/hot_spot/009.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -8081,11 +8281,11 @@ return {
         dungeonId1  = 710005,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [10000] = {
         heroReward = {
@@ -8127,7 +8327,7 @@ return {
         noobIcon = "",
         summonType = 13,
         smallIcon = "ui/summon/006.png",
-        costCommodity = 0,
+        interfaceType = 13,
         startDate = {
             [1] = 2019,
             [2] = 9,
@@ -8138,6 +8338,8 @@ return {
         },
         ad1 = "",
         minQuality = {
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2019,
@@ -8160,11 +8362,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 0,
         heroId = 0,
         goods = {
         },
-        interfaceType = 13,
+        titleType = 0,
     },
     [2202] = {
         heroReward = {
@@ -8194,13 +8396,15 @@ return {
         noobIcon = "",
         summonType = 999,
         smallIcon = "ui/summon/hot_spot/009.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -8225,11 +8429,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [1062] = {
         heroReward = {
@@ -8259,13 +8463,15 @@ return {
         noobIcon = "ui/summon/mengxin.png",
         summonType = 998,
         smallIcon = "ui/summon/hot_spot/009.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -8284,11 +8490,11 @@ return {
         dungeonId1  = 710009,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [2011] = {
         heroReward = {
@@ -8318,13 +8524,15 @@ return {
         noobIcon = "",
         summonType = 999,
         smallIcon = "ui/summon/hot_spot/009.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -8352,11 +8560,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [2061] = {
         heroReward = {
@@ -8386,13 +8594,15 @@ return {
         noobIcon = "",
         summonType = 999,
         smallIcon = "ui/summon/hot_spot/009.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -8420,11 +8630,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [2031] = {
         heroReward = {
@@ -8454,13 +8664,15 @@ return {
         noobIcon = "",
         summonType = 999,
         smallIcon = "ui/summon/hot_spot/009.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -8488,11 +8700,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [1031] = {
         heroReward = {
@@ -8522,13 +8734,15 @@ return {
         noobIcon = "ui/summon/mengxin.png",
         summonType = 998,
         smallIcon = "ui/summon/hot_spot/009.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -8547,11 +8761,11 @@ return {
         dungeonId1  = 710004,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [2101] = {
         heroReward = {
@@ -8581,13 +8795,15 @@ return {
         noobIcon = "",
         summonType = 999,
         smallIcon = "ui/summon/hot_spot/009.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -8615,11 +8831,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [12101] = {
         heroReward = {
@@ -8661,7 +8877,7 @@ return {
         noobIcon = "",
         summonType = 7,
         smallIcon = "ui/summon/btn_clothes.png",
-        costCommodity = 0,
+        interfaceType = 1,
         startDate = {
             [1] = 2020,
             [2] = 8,
@@ -8674,6 +8890,8 @@ return {
         minQuality = {
             [1] = 2,
             [2] = 2,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2020,
@@ -8698,11 +8916,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 0,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [2062] = {
         heroReward = {
@@ -8732,13 +8950,15 @@ return {
         noobIcon = "",
         summonType = 999,
         smallIcon = "ui/summon/hot_spot/009.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -8766,11 +8986,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [1051] = {
         heroReward = {
@@ -8800,13 +9020,15 @@ return {
         noobIcon = "ui/summon/mengxin.png",
         summonType = 998,
         smallIcon = "ui/summon/hot_spot/009.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -8825,11 +9047,11 @@ return {
         dungeonId1  = 710001,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [9001] = {
         heroReward = {
@@ -8859,13 +9081,15 @@ return {
         noobIcon = "",
         summonType = 8,
         smallIcon = "ui/summon/006.png",
-        costCommodity = 0,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -8884,11 +9108,11 @@ return {
         dungeonId1  = 710007,
         detailsPosition = {
         },
-        titleType = 1,
+        costCommodity = 0,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 1,
     },
     [12100] = {
         heroReward = {
@@ -8930,7 +9154,7 @@ return {
         noobIcon = "",
         summonType = 7,
         smallIcon = "ui/summon/btn_clothes.png",
-        costCommodity = 0,
+        interfaceType = 1,
         startDate = {
             [1] = 2020,
             [2] = 8,
@@ -8943,6 +9167,8 @@ return {
         minQuality = {
             [1] = 2,
             [2] = 2,
+        },
+        firstCost = {
         },
         showEndDate = {
             [1] = 2020,
@@ -8967,11 +9193,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 0,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [1012] = {
         heroReward = {
@@ -9001,13 +9227,15 @@ return {
         noobIcon = "ui/summon/mengxin.png",
         summonType = 998,
         smallIcon = "ui/summon/hot_spot/009.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -9026,11 +9254,11 @@ return {
         dungeonId1  = 710003,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [2012] = {
         heroReward = {
@@ -9060,13 +9288,15 @@ return {
         noobIcon = "",
         summonType = 999,
         smallIcon = "ui/summon/hot_spot/009.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -9094,11 +9324,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [12001] = {
         heroReward = {
@@ -9128,13 +9358,15 @@ return {
         noobIcon = "",
         summonType = 22,
         smallIcon = "ui/summon/006.png",
-        costCommodity = 0,
+        interfaceType = 0,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -9153,11 +9385,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 0,
         heroId = 0,
         goods = {
         },
-        interfaceType = 0,
+        titleType = 0,
     },
     [11004] = {
         heroReward = {
@@ -9184,13 +9416,15 @@ return {
         noobIcon = "ui/summon/mengxin.png",
         summonType = 51,
         smallIcon = "ui/summon/006.png",
-        costCommodity = 0,
+        interfaceType = 0,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -9209,11 +9443,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 0,
         heroId = 0,
         goods = {
         },
-        interfaceType = 0,
+        titleType = 0,
     },
     [11009] = {
         heroReward = {
@@ -9240,13 +9474,15 @@ return {
         noobIcon = "ui/summon/mengxin.png",
         summonType = 51,
         smallIcon = "ui/summon/006.png",
-        costCommodity = 0,
+        interfaceType = 0,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -9265,11 +9501,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 0,
         heroId = 0,
         goods = {
         },
-        interfaceType = 0,
+        titleType = 0,
     },
     [2071] = {
         heroReward = {
@@ -9299,13 +9535,15 @@ return {
         noobIcon = "",
         summonType = 999,
         smallIcon = "ui/summon/hot_spot/009.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -9333,11 +9571,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [2032] = {
         heroReward = {
@@ -9367,13 +9605,15 @@ return {
         noobIcon = "",
         summonType = 999,
         smallIcon = "ui/summon/hot_spot/009.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -9401,11 +9641,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [11008] = {
         heroReward = {
@@ -9432,13 +9672,15 @@ return {
         noobIcon = "ui/summon/mengxin.png",
         summonType = 51,
         smallIcon = "ui/summon/006.png",
-        costCommodity = 0,
+        interfaceType = 0,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -9457,11 +9699,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 0,
         heroId = 0,
         goods = {
         },
-        interfaceType = 0,
+        titleType = 0,
     },
     [1032] = {
         heroReward = {
@@ -9491,13 +9733,15 @@ return {
         noobIcon = "ui/summon/mengxin.png",
         summonType = 998,
         smallIcon = "ui/summon/hot_spot/009.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -9516,11 +9760,11 @@ return {
         dungeonId1  = 710004,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [11006] = {
         heroReward = {
@@ -9547,13 +9791,15 @@ return {
         noobIcon = "ui/summon/mengxin.png",
         summonType = 51,
         smallIcon = "ui/summon/006.png",
-        costCommodity = 0,
+        interfaceType = 0,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -9572,11 +9818,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 0,
         heroId = 0,
         goods = {
         },
-        interfaceType = 0,
+        titleType = 0,
     },
     [11005] = {
         heroReward = {
@@ -9603,13 +9849,15 @@ return {
         noobIcon = "ui/summon/mengxin.png",
         summonType = 51,
         smallIcon = "ui/summon/006.png",
-        costCommodity = 0,
+        interfaceType = 0,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -9628,11 +9876,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 0,
         heroId = 0,
         goods = {
         },
-        interfaceType = 0,
+        titleType = 0,
     },
     [12000] = {
         heroReward = {
@@ -9662,13 +9910,15 @@ return {
         noobIcon = "",
         summonType = 22,
         smallIcon = "ui/summon/006.png",
-        costCommodity = 0,
+        interfaceType = 0,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -9687,11 +9937,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 0,
         heroId = 0,
         goods = {
         },
-        interfaceType = 0,
+        titleType = 0,
     },
     [11002] = {
         heroReward = {
@@ -9718,13 +9968,15 @@ return {
         noobIcon = "ui/summon/mengxin.png",
         summonType = 51,
         smallIcon = "ui/summon/006.png",
-        costCommodity = 0,
+        interfaceType = 0,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -9743,11 +9995,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 0,
         heroId = 0,
         goods = {
         },
-        interfaceType = 0,
+        titleType = 0,
     },
     [2072] = {
         heroReward = {
@@ -9777,13 +10029,15 @@ return {
         noobIcon = "",
         summonType = 999,
         smallIcon = "ui/summon/hot_spot/009.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -9811,11 +10065,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [2052] = {
         heroReward = {
@@ -9845,13 +10099,15 @@ return {
         noobIcon = "",
         summonType = 999,
         smallIcon = "ui/summon/hot_spot/009.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -9879,11 +10135,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [1022] = {
         heroReward = {
@@ -9913,13 +10169,15 @@ return {
         noobIcon = "ui/summon/mengxin.png",
         summonType = 998,
         smallIcon = "ui/summon/hot_spot/009.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -9938,11 +10196,11 @@ return {
         dungeonId1  = 710002,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [1064] = {
         heroReward = {
@@ -9972,13 +10230,15 @@ return {
         noobIcon = "ui/summon/mengxin.png",
         summonType = 998,
         smallIcon = "ui/summon/hot_spot/009.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -9997,11 +10257,11 @@ return {
         dungeonId1  = 710010,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [9002] = {
         heroReward = {
@@ -10031,13 +10291,15 @@ return {
         noobIcon = "",
         summonType = 8,
         smallIcon = "ui/summon/006.png",
-        costCommodity = 0,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -10056,11 +10318,11 @@ return {
         dungeonId1  = 710007,
         detailsPosition = {
         },
-        titleType = 1,
+        costCommodity = 0,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 1,
     },
     [2102] = {
         heroReward = {
@@ -10090,13 +10352,15 @@ return {
         noobIcon = "",
         summonType = 999,
         smallIcon = "ui/summon/hot_spot/009.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -10124,11 +10388,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [2021] = {
         heroReward = {
@@ -10158,13 +10422,15 @@ return {
         noobIcon = "",
         summonType = 999,
         smallIcon = "ui/summon/hot_spot/009.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -10192,11 +10458,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [2094] = {
         heroReward = {
@@ -10226,13 +10492,15 @@ return {
         noobIcon = "",
         summonType = 999,
         smallIcon = "ui/summon/hot_spot/009.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -10260,11 +10528,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [2093] = {
         heroReward = {
@@ -10294,13 +10562,15 @@ return {
         noobIcon = "",
         summonType = 999,
         smallIcon = "ui/summon/hot_spot/009.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -10328,11 +10598,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [2081] = {
         heroReward = {
@@ -10362,13 +10632,15 @@ return {
         noobIcon = "",
         summonType = 999,
         smallIcon = "ui/summon/hot_spot/009.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -10396,11 +10668,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [2092] = {
         heroReward = {
@@ -10430,13 +10702,15 @@ return {
         noobIcon = "",
         summonType = 999,
         smallIcon = "ui/summon/hot_spot/009.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -10464,11 +10738,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [2041] = {
         heroReward = {
@@ -10498,13 +10772,15 @@ return {
         noobIcon = "",
         summonType = 999,
         smallIcon = "ui/summon/hot_spot/009.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -10532,11 +10808,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [1011] = {
         heroReward = {
@@ -10566,13 +10842,15 @@ return {
         noobIcon = "ui/summon/mengxin.png",
         summonType = 998,
         smallIcon = "ui/summon/hot_spot/009.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -10591,11 +10869,11 @@ return {
         dungeonId1  = 710003,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [1041] = {
         heroReward = {
@@ -10625,13 +10903,15 @@ return {
         noobIcon = "ui/summon/mengxin.png",
         summonType = 998,
         smallIcon = "ui/summon/hot_spot/009.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -10650,11 +10930,11 @@ return {
         dungeonId1  = 710005,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [11000] = {
         heroReward = {
@@ -10681,13 +10961,15 @@ return {
         noobIcon = "ui/summon/mengxin.png",
         summonType = 51,
         smallIcon = "ui/summon/006.png",
-        costCommodity = 0,
+        interfaceType = 0,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -10706,11 +10988,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 0,
         heroId = 0,
         goods = {
         },
-        interfaceType = 0,
+        titleType = 0,
     },
     [1052] = {
         heroReward = {
@@ -10740,13 +11022,15 @@ return {
         noobIcon = "ui/summon/mengxin.png",
         summonType = 998,
         smallIcon = "ui/summon/hot_spot/009.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -10765,11 +11049,11 @@ return {
         dungeonId1  = 710001,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [11001] = {
         heroReward = {
@@ -10796,13 +11080,15 @@ return {
         noobIcon = "ui/summon/mengxin.png",
         summonType = 51,
         smallIcon = "ui/summon/006.png",
-        costCommodity = 0,
+        interfaceType = 0,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -10821,11 +11107,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 0,
         heroId = 0,
         goods = {
         },
-        interfaceType = 0,
+        titleType = 0,
     },
     [2082] = {
         heroReward = {
@@ -10855,13 +11141,15 @@ return {
         noobIcon = "",
         summonType = 999,
         smallIcon = "ui/summon/hot_spot/009.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 4,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -10889,11 +11177,11 @@ return {
         dungeonId1  = 0,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [1061] = {
         heroReward = {
@@ -10923,13 +11211,15 @@ return {
         noobIcon = "ui/summon/mengxin.png",
         summonType = 998,
         smallIcon = "ui/summon/hot_spot/009.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -10948,11 +11238,11 @@ return {
         dungeonId1  = 710009,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
     [1063] = {
         heroReward = {
@@ -10982,13 +11272,15 @@ return {
         noobIcon = "ui/summon/mengxin.png",
         summonType = 998,
         smallIcon = "ui/summon/hot_spot/009.png",
-        costCommodity = 100101,
+        interfaceType = 1,
         startDate = {
         },
         ad1 = "",
         minQuality = {
             [1] = 3,
             [2] = 3,
+        },
+        firstCost = {
         },
         showEndDate = {
         },
@@ -11007,10 +11299,10 @@ return {
         dungeonId1  = 710010,
         detailsPosition = {
         },
-        titleType = 0,
+        costCommodity = 100101,
         heroId = 0,
         goods = {
         },
-        interfaceType = 1,
+        titleType = 0,
     },
 }

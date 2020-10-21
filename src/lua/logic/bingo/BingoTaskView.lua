@@ -105,8 +105,8 @@ function BingoTaskView:updateAllTaskItem()
         local foo = self.taskItems_[v]
         local progressInfo = ActivityDataMgr2:getProgressInfo(EC_ActivityType2.BINGOGAME, taskData[i])
         local itemInfo = ActivityDataMgr2:getItemInfo(EC_ActivityType2.BINGOGAME, taskData[i])
-        foo.Label_desc:setText(itemInfo.extendData.des2)
-        foo.Label_desc_complete:setText(itemInfo.extendData.des2)
+        foo.Label_desc:setTextById(itemInfo.extendData.des2 ,itemInfo.target)
+        foo.Label_desc_complete:setTextById(itemInfo.extendData.des2 ,itemInfo.target)
         foo.Label_step:setText("")
         foo.Label_step_complete:setText("")
         local isReceive = progressInfo.status == EC_TaskStatus.GET

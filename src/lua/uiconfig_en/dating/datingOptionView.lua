@@ -33,8 +33,8 @@ local t =
 			touchAble = "False",
 			UILayoutViewModel = 
 			{
-				PositionX = 568,
-				PositionY = 320,
+				PositionX = 510,
+				PositionY = 334,
 				IsPercent = true,
 				PercentX = 50,
 				PercentY = 50,
@@ -203,7 +203,6 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									visible = "False",
 									width = "1136",
 									ZOrder = "1",
 									components = 
@@ -260,7 +259,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "26",
+													fontSize = "20",
 													fontStroke = 
 													{
 														IsStroke = false,
@@ -330,7 +329,7 @@ local t =
 														PositionY = -20,
 													},
 													visible = "False",
-													width = "121",
+													width = "171",
 													ZOrder = "1",
 												},
 												{
@@ -436,7 +435,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "26",
+													fontSize = "20",
 													fontStroke = 
 													{
 														IsStroke = false,
@@ -506,7 +505,7 @@ local t =
 														PositionY = -20,
 													},
 													visible = "False",
-													width = "121",
+													width = "171",
 													ZOrder = "1",
 												},
 												{
@@ -612,7 +611,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "26",
+													fontSize = "20",
 													fontStroke = 
 													{
 														IsStroke = false,
@@ -682,7 +681,7 @@ local t =
 														PositionY = -20,
 													},
 													visible = "False",
-													width = "121",
+													width = "171",
 													ZOrder = "1",
 												},
 												{
@@ -1163,7 +1162,7 @@ local t =
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "32",
+															height = "31",
 															ignoreSize = "True",
 															name = "Label_name",
 															nTextAlign = "1",
@@ -1179,7 +1178,7 @@ local t =
 															{
 																PositionX = 10,
 															},
-															width = "159",
+															width = "218",
 															ZOrder = "1",
 														},
 													},
@@ -1277,6 +1276,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
+									visible = "False",
 									width = "1136",
 									ZOrder = "1",
 									components = 
@@ -2056,7 +2056,7 @@ local t =
 												PercentX = 50.41,
 												PercentY = 28.46,
 											},
-											width = "75",
+											width = "135",
 											ZOrder = "1",
 										},
 										{
@@ -2105,7 +2105,7 @@ local t =
 												PercentX = 49.18,
 												PercentY = 8.14,
 											},
-											width = "76",
+											width = "56",
 											ZOrder = "1",
 										},
 									},

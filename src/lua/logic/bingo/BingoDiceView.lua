@@ -98,7 +98,7 @@ function BingoDiceView:initVotePanel()
     local itemCfg = GoodsDataMgr:getItemCfg(chipItemId)
     for k,v in ipairs(self.VotePanelTab) do
         local odds = BingoDataMgr:getDiceOddsByType(k)
-        v.Label_odds_num:setText("赔率 x"..odds/10000)
+        v.Label_odds_num:setText(TextDataMgr:getText(13310230 , odds/10000))
         v.Label_num:setText(0)
         local oddRes = BingoDataMgr:getOddIcon(0)
         v.Image_voteIcon:setTexture(oddRes)
@@ -181,7 +181,7 @@ function BingoDiceView:updateBatchPanel(num)
     end
 
     if num > 0 and self.recordVoteNum[self.diceType] >= self.limit then
-        Utils:showTips("已达到最大投注")
+        Utils:showTips(111000065)
         self:stopTimer()
         return
     end
@@ -471,7 +471,7 @@ function BingoDiceView:registerEvents()
             end
         end
         if not exitVote then
-            Utils:showTips("请先投注")
+            Utils:showTips(111000066)
             return
         end
 

@@ -151,9 +151,12 @@ function RechargeDataMgr:getOrderNO(goodsid, extraInfo)
 			else
 				Utils:openView("store.TokenPopView",goodsid);
 			end
-		else
+		elseif goods.item and #goods.item > 0 then
 			Utils:openView("store.BuyConfirmView2", goodsid)
+		else
+			Utils:openView("common.ConfirmBoxViewSmall", goodsid, extraInfo)
 		end
+
 		--Utils:openView("store.TokenPopView",goodsid);
 	else
 		local msg = {
@@ -1468,7 +1471,7 @@ function RechargeDataMgr:RECHARGE_REQ_CHARGE_EXCHANGE(rechargeId,discountId,redP
 end
 
 function RechargeDataMgr:RECHARGE_RES_CHARGE_EXCHANGE(event)
-	dump(event.data)
+	EventMgr:dispatchEvent(EV_GOODS_EXCHANGE, event.data)
 end
 
 -- 养成基金奖励领取

@@ -70,8 +70,8 @@ function BingoMainView:initUI(ui)
     self.Button_turnplate = TFDirector:getChildByPath(self.Panel_root, "Button_turnplate")
     self.Button_divination = TFDirector:getChildByPath(self.Panel_root, "Button_divination")
     self.Button_dice = TFDirector:getChildByPath(self.Panel_root, "Button_dice")
-    TFDirector:getChildByPath(self.Button_dice, "Label_btn"):setSkewX(15)
-    TFDirector:getChildByPath(self.Button_dice, "Label_btn_en"):setSkewX(15)
+    --TFDirector:getChildByPath(self.Button_dice, "Label_btn"):setSkewX(15)
+    --TFDirector:getChildByPath(self.Button_dice, "Label_btn_en"):setSkewX(15)
 
     self.Spine_sceneEffect = TFDirector:getChildByPath(self.ui, "Spine_sceneEffect"):hide()
     self.Spine_effectHB = TFDirector:getChildByPath(self.ui, "Spine_effectHB")
@@ -161,7 +161,7 @@ function BingoMainView:initUI(ui)
         tab.lock = TFDirector:getChildByPath(tab.btn, "Image_lock"):hide()
         tab.select = TFDirector:getChildByPath(tab.btn, "Image_select")
         tab.Label_btn = TFDirector:getChildByPath(tab.btn, "Label_btn")
-        tab.Label_btn:setSkewX(-5)
+        --tab.Label_btn:setSkewX(-5)
         tab.poolType = self.summonPoolTypeTab[i]
         self.Button_TypeTab[i] = tab
     end

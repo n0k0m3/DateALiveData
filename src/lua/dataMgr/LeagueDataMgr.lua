@@ -64,6 +64,7 @@ function LeagueDataMgr:init()
     self.flagUnlockRed = false
     self.noticeChangeRed = false
     self.degreeNumMax = {1,2,10,999}
+    self.redPackTypes = 3
 end
 
 function LeagueDataMgr:reset()
@@ -443,8 +444,10 @@ function LeagueDataMgr:onRecvUpdataUnionInfo(event)
             EventMgr:dispatchEvent(EV_UNION_WEEK_EXP_CHANGE)
         elseif data.type == EC_UNION_EDIT_Type.DAILY_RESET then
             self.myUnionData_.receiveTimes = 0
-            self.myUnionData_.goldRedpacketTime = 0
-            self.myUnionData_.rechargeRedpacketTime = 0
+            self.myUnionData_.redpackettimes = {}
+            for i=1,self.redPackTypes do
+                self.myUnionData_.redpackettimes[i] = {type = i , num = 0}
+            end
             EventMgr:dispatchEvent(EV_UNION_INFO_RESET)
         elseif data.type == EC_UNION_EDIT_Type.WEEK_RESET then
             self.myUnionData_.weekExpPrizeReceiveIndex = {}
@@ -549,13 +552,40 @@ function LeagueDataMgr:onRecvSendRedPacket(event)
     end
     if data then
         local cfg = self:getPacketCfgById(data.id)
-        if cfg.type == 1 then
-            self.myUnionData_.goldRedpacketTime = self.myUnionData_.goldRedpacketTime or 0
-            self.myUnionData_.goldRedpacketTime = math.min(self.myUnionData_.goldRedpacketTime + 1, cfg.packettimes)
-        else
-            self.myUnionData_.rechargeRedpacketTime = self.myUnionData_.rechargeRedpacketTime or 0
-            self.myUnionData_.rechargeRedpacketTime = math.min(self.myUnionData_.rechargeRedpacketTime + 1, cfg.packettimes)
+        local haveTypes = {}
+        for k ,v in pairs(self.myUnionData_.redpackettimes) do
+            table.insert(haveTypes , v.type)
         end
+        local needAddTypes = {}
+        for i=1,self.redPackTypes do
+            local isHaveType = false
+            for k , v in pairs(haveTypes) do
+                if v == i then
+                    isHaveType = true
+                end
+            end
+            if isHaveType == false then
+                table.insert(needAddTypes , i)
+            end
+        end
+        for k , v in pairs(needAddTypes) do
+            local addType = {type=v , num = 0}
+            tabel.insert(self.myUnionData_.redpackettimes , addType)
+        end
+        for k , v in pairs(self.myUnionData_.redpackettimes) do
+            if v.type == cfg.type then
+                v.num = math.min(v.num + 1, cfg.packettimes)
+            end
+        end
+        -- if cfg.type == 1 then
+        --     self.myUnionData_.goldRedpacketTime = self.myUnionData_.goldRedpacketTime or 0
+        --     self.myUnionData_.goldRedpacketTime = math.min(self.myUnionData_.goldRedpacketTime + 1, cfg.packettimes)
+        -- elseif cfg.type == 2 then
+        --     self.myUnionData_.rechargeRedpacketTime = self.myUnionData_.rechargeRedpacketTime or 0
+        --     self.myUnionData_.rechargeRedpacketTime = math.min(self.myUnionData_.rechargeRedpacketTime + 1, cfg.packettimes)
+        -- elseif cfg.type == 3 then
+
+        -- end
         EventMgr:dispatchEvent(EV_UNION_SEND_PACKET_SUCCESS)
     end
 end
@@ -1738,11 +1768,44 @@ function LeagueDataMgr:getSendPacketSurplsTimes(id)
     if not self:checkSelfInUnion() then
         return cfg.packettimes
     end
-    if cfg.type == 1 then
-        return cfg.packettimes - self.myUnionData_.goldRedpacketTime
-    else
-        return cfg.packettimes - self.myUnionData_.rechargeRedpacketTime
+    if not self.myUnionData_.redpackettimes then
+        self.myUnionData_.redpackettimes = {}
     end
+    local haveTypes = {}
+    for k ,v in pairs(self.myUnionData_.redpackettimes) do
+        table.insert(haveTypes , v.type)
+    end
+    local needAddTypes = {}
+    for i=1,self.redPackTypes do
+        local isHaveType = false
+        for k , v in pairs(haveTypes) do
+            if v == i then
+                isHaveType = true
+            end
+        end
+        if isHaveType == false then
+            table.insert(needAddTypes , i)
+        end
+    end
+    for k , v in pairs(needAddTypes) do
+        local addType = {type=v , num = 0}
+        table.insert(self.myUnionData_.redpackettimes , addType)
+    end
+
+    for k , v in pairs(self.myUnionData_.redpackettimes) do
+        if v.type == cfg.type then
+            return cfg.packettimes - v.num
+        end
+    end
+
+    --return cfg.packettimes - self.myUnionData_.customRedTimes[cfg.type]
+    -- if cfg.type == 1 then
+    --     return cfg.packettimes - self.myUnionData_.goldRedpacketTime
+    -- elseif cfg.type == 2 then
+    --     return cfg.packettimes - self.myUnionData_.rechargeRedpacketTime
+    -- elseif cfg.type == 3 then
+    --     return 0
+    -- end
 end
 
 function LeagueDataMgr:getDegreeName(degree)

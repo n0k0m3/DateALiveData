@@ -60,12 +60,7 @@ end
 
 function AutumnActivityView:updateActivity()
     self.activityInfo_ = ActivityDataMgr2:getActivityInfo(self.activityId_)
-
-    local startDate = Utils:getUTCDate(self.activityInfo_.startTime , GV_UTC_TIME_ZONE)
-    local startDateStr = startDate:fmt("%Y.%m.%d")
-    local endDate = Utils:getUTCDate(self.activityInfo_.endTime ,GV_UTC_TIME_ZONE)
-    local endDateStr = endDate:fmt("%Y.%m.%d")
-    self.Label_time:setText(TextDataMgr:getText(800041, startDateStr, endDateStr)..GV_UTC_TIME_STRING)
+    self.Label_time:setText(Utils:getActivityDateString(self.activityInfo_.startTime, self.activityInfo_.endTime, self.activityInfo_.extendData.dateStyle))
     self.Label_tip:setText(Utils:splitLanguageStringByTag(self.activityInfo_.extendData.dec))
 
     local extendData = self.activityInfo_.extendData or {}

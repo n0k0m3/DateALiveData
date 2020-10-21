@@ -489,7 +489,7 @@ function AlertManager:hideInVisibleLayer( )
             if idx >= topIndex and tlayer.isShow then
                 table.insert(showList, tlayer) 
             else
-                if tlayer.__cname ~= "BattleResultView" and  tlayer.__cname ~= "OverduePromptView" then
+                if tlayer.__cname ~= "BattleResultView" and  tlayer.__cname ~= "OverduePromptView" and  tlayer.__cname ~= "LeagueSendRedPacketView" then
                     table.insert(hideList, tlayer) 
                 end
             end

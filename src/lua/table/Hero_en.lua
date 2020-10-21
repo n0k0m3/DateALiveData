@@ -622,7 +622,6 @@ return {
         color = "ui/715.png",
         optionalSkin = {
             [1] = 1113011,
-            [2] = 1113031,
         },
         condition = {
         },
@@ -655,7 +654,7 @@ return {
         site = 25,
         title = 31311,
         callLimit = 1,
-        isOpen = 0,
+        isOpen = 1,
         expitem = {
             [1] = 510101,
             [2] = 510102,

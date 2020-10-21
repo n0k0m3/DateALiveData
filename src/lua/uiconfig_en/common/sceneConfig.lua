@@ -349,5 +349,25 @@ local t = {
 			canLoad=true,
 			logic="",
 		},
+		{
+			name="announcementLayer",
+			ui ="announcementLayer.lua",
+			x=0,
+			y=0,
+			speed=0,
+			layer="common",
+			canLoad=true,
+			logic="",
+		},
+		{
+			name="confirmBoxViewSmall",
+			ui ="confirmBoxViewSmall.lua",
+			x=0,
+			y=0,
+			speed=0,
+			layer="common",
+			canLoad=true,
+			logic="",
+		},
 }
 return t

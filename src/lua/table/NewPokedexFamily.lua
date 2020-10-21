@@ -228,15 +228,15 @@ return {
         },
     },
     [20] = {
-        show = 0,
+        show = 1,
         heroSkinId = 1113011,
         sort = 5,
         id = 20,
         heroId = 111301,
-        scale  = 0.22,
+        scale  = 0.4,
         paintPosition = {
-            y = 220,
-            x = 880,
+            y = 230,
+            x = 700,
         },
     },
     [21] = {

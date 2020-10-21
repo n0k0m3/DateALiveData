@@ -1567,6 +1567,10 @@ function MainLayer:registerEvents()
     --     end)
 
     self.Button_notice:onClick(function()
+        --暂时屏蔽新公告
+            --Utils:openView("common.AnnouncementLayer")
+            
+            --屏蔽旧版公告
             if me.platform == "win32" then
                 --Utils:openView("login.NoticeBoard")
             elseif me.platform == "android" then
@@ -1584,6 +1588,7 @@ function MainLayer:registerEvents()
                     end                    
                 end
             end
+            --早已屏蔽
             -- Utils:openView("MainScene.NoticeView")
             -- Utils:openView("MainScene.ProclamationView")
     end)

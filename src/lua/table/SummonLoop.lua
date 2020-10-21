@@ -119,4 +119,28 @@ return {
         days = 5,
         loopId = 6,
     },
+    [11] = {
+        loopType = 1,
+        name = 1701850,
+        icon = "icon/hero/name/1103021.png",
+        id = 11,
+        summonId = {
+            [1] = 1061,
+            [2] = 1062,
+        },
+        days = 5,
+        loopId = 5,
+    },
+    [12] = {
+        loopType = 2,
+        name = 1701850,
+        icon = "icon/equipment/suit/icon19.png",
+        id = 12,
+        summonId = {
+            [1] = 2091,
+            [2] = 2092,
+        },
+        days = 5,
+        loopId = 7,
+    },
 }

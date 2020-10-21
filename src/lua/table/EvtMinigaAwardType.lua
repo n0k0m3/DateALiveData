@@ -93,7 +93,7 @@ return {
         poolType = 33,
         showAction = "",
         id = 12,
-        itemId = 599705,
+        itemId = 599605,
     },
     [13] = {
         count = 1,

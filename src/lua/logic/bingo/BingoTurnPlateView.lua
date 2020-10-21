@@ -100,7 +100,7 @@ function BingoTurnPlateView:initVoteItem()
             v.Label_num:setText(0)
             self.voteNum_[k] = 0
             local odds = info.odds/10000
-            v.Label_odds_num:setText("赔率 x"..odds)
+            v.Label_odds_num:setText(TextDataMgr:getText(13310230 , odds))
             v.Image_vote:setTexture(info.portrait)
             v.Image_vote:setScale(self.scale[k])
             v.Image_icon:setScale(0.5)
@@ -184,7 +184,7 @@ function BingoTurnPlateView:updateBatchPanel(num)
     end
 
     if num > 0 and self.voteNum_[self.lastSelectId] >= self.limit then
-        Utils:showTips("已达到最大投注")
+        Utils:showTips(111000065)
         self:stopTimer()
         return
     end
