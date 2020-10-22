@@ -518,7 +518,7 @@ function BingoTurnPlateView:registerEvents()
         end
 
         if num == 0 then
-            Utils:showTips("请投注")
+            Utils:showTips(111000067)
             return
         end
 
