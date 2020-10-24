@@ -592,6 +592,7 @@ end
 function SettlementLayer:close()
     if NewCityDataMgr.curCityType == EC_NewCityType.NewCity_FuBen then
         FubenDataMgr:send_DUNGEON_FIGHT_OVER(FubenDataMgr:getCurLevelCid(), true, {1}, 1, 1, 1)
+        return
     elseif NewCityDataMgr.curCityType == EC_NewCityType.NewCity_MainLine then
         NewCityDataMgr:enterNewCity(EC_NewCityType.NewCity_Normal)
         return

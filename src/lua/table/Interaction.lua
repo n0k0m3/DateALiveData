@@ -28003,7 +28003,7 @@ return {
         effect = "",
         id = 50019,
         lines1 = 0,
-        voice1 = "qizui_188_A",
+        voice1 = "qizui_188",
         lineShow = {
             [1] = 11000137,
             [2] = 11000138,
@@ -28766,7 +28766,7 @@ return {
         effect = "",
         id = 50016,
         lines1 = 0,
-        voice1 = "qizui_188_A",
+        voice1 = "qizui_188",
         lineShow = {
             [1] = 11000137,
             [2] = 11000138,

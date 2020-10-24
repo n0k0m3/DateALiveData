@@ -44,13 +44,13 @@ function MonthCardView:registerEvents()
     -- end)
 
     self.Button_buyCard_ios:onClick(function ( ... )
-        local layer = require("lua.logic.store.MonthCard"):new({{998},RechargeDataMgr:getSubscribeMonthCardCfg()})
+        local layer = require("lua.logic.store.MonthCardNew"):new({{998},RechargeDataMgr:getSubscribeMonthCardCfg()})
         AlertManager:addLayer(layer)
         AlertManager:show()
     end)
 
     self.button_monthCard_rule:onClick(function ( ... )
-        local layer = require("lua.logic.store.MonthCard"):new({{998},RechargeDataMgr:getSubscribeMonthCardCfg(), noBtn = true})
+        local layer = require("lua.logic.store.MonthCardNew"):new({{998},RechargeDataMgr:getSubscribeMonthCardCfg(), noBtn = true})
         AlertManager:addLayer(layer)
         AlertManager:show()
     end)
@@ -80,9 +80,9 @@ function MonthCardView:initUI(ui)
     self.button_monthCard_rule = TFDirector:getChildByPath(ui, "button_monthCard_rule")
 
     --英文版屏蔽ios月卡续订
-   -- if (me.platform == "ios" and tonumber(TFDeviceInfo:getCurAppVersion()) >= 3.65) or me.platform == "win32" then
-    if false then
-        self.Button_buyCard_ios:show()
+    --if me.platform ~= "android" or me.platform == "android" and HeitaoSdk and  ((HeitaoSdk.getplatformId()~=3 and HeitaoSdk.getplatformId() ~= 1) or  (HeitaoSdk.getplatformId() == 1 and tonumber(TFDeviceInfo:getCurAppVersion()) == 1.13)) then
+		if false then
+       self.Button_buyCard_ios:show()
         self.Button_buyCard:hide()
     else
         self.Button_buyCard_ios:hide()
@@ -279,10 +279,6 @@ function MonthCardView:showSignPanel(bupdate)
     self.Button_tab2.imgUnselect:show()
 
 
-    -- --屏蔽专属礼包按钮 2020-03-24
-    -- self.Button_tab2:hide()
-    --屏蔽月卡规则
-    self.button_monthCard_rule:hide()
 end
 
 function MonthCardView:showGiftPanel(bupdate)

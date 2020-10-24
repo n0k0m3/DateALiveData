@@ -2377,7 +2377,7 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "22",
+							fontSize = "18",
 							fontStroke = 
 							{
 								IsStroke = false,
@@ -2393,7 +2393,7 @@ local t =
 							sizepercenty = "17",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "TextLable",
+							text = "TextLableTextLableTextLableTextLableTextLableTextLableTextLableTextLable",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
@@ -2412,7 +2412,7 @@ local t =
 							UUID = "7a53ce2f_09b4_40ca_9ced_15f0ec4d9f2b",
 							anchorPoint = "False",
 							anchorPointX = "0.5",
-							anchorPointY = "1",
+							anchorPointY = "0",
 							classname = "MELabel",
 							ColorMixing = "#FFDFE3FF",
 							compPath = "luacomponents.common.MEIconLabel",
@@ -2427,7 +2427,7 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "22",
+							fontSize = "18",
 							fontStroke = 
 							{
 								IsStroke = false,
@@ -2443,13 +2443,13 @@ local t =
 							sizepercenty = "17",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							text = "TextLable",
+							text = "TextLableTextLableTextLableTextLableTextLable",
 							touchAble = "False",
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
 								PositionX = 161,
-								PositionY = 115,
+								PositionY = 88,
 								LeftPositon = 529,
 								TopPosition = 219,
 								relativeToName = "panel_totalCell",

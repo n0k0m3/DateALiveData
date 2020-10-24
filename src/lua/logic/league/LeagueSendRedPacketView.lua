@@ -66,33 +66,53 @@ end
 
 function LeagueSendRedPacketView:refreshView()
    local packetCfg = LeagueDataMgr:getPacketCfgByType(self.packetType_)
-   if self.packetType_ == 1 then
-        self.Label_tips:setTextById(270358)
+   if true then
+   --if self.packetType_ == 1 then
+
+        local bgTexture = {"ui/league/ui_45.png" , "ui/league/ui_08.png" , "ui/league/ui_10086.png"}
+        local tipsTextId = {270358 , 270359 , 190000198}
+        local nameId = {270455 , 270456 , 190000199}
+
+        self.Label_tips:setTextById(tipsTextId[self.packetType_])
         self.Image_cost_bg:setVisible(true)
         self.Button_send:setVisible(true)
         self.Button_buy:setVisible(false)
-        if packetCfg.cost[1][1] then
-            local itemCfg = GoodsDataMgr:getItemCfg(packetCfg.cost[1][1])
-            local count = GoodsDataMgr:getItemCount(EC_SItemType.UNION_REDPACKET)
-            if count > 0 then
-                self.Image_res_icon:setTexture("ui/league/ui_49.png")
-                self.Image_res_icon:setScale(0.6)
-                self.Label_res_num:setText("1/"..count)
+
+        local cfg = RechargeDataMgr:getOneRechargeCfg(packetCfg.rechargeID)
+        if cfg then
+            self.Image_res_icon:setTexture(GoodsDataMgr:getItemCfg(cfg.exchangeCost[1].id).icon)
+            self.Image_res_icon:setScale(0.4)
+            self.Label_res_num:setText(cfg.exchangeCost[1].num)
+            if GoodsDataMgr:getItemCount(cfg.exchangeCost[1].id) < cfg.exchangeCost[1].num then
+                self.Label_res_num:setFontColor(ccc3(219,50,50))
             else
-                self.Image_res_icon:setTexture(itemCfg.icon)
-                self.Image_res_icon:setScale(0.4)
-                self.Label_res_num:setText(packetCfg.cost[1][2])
-                if GoodsDataMgr:getItemCount(packetCfg.cost[1][1]) < packetCfg.cost[1][2] then
-                    self.Label_res_num:setColor(ccc3(219,50,50))
+                self.Label_res_num:setFontColor(ccc3(255,255,255))
+            end
+        else
+            if packetCfg.cost[1][1] then
+                local itemCfg = GoodsDataMgr:getItemCfg(packetCfg.cost[1][1])
+                local count = GoodsDataMgr:getItemCount(EC_SItemType.UNION_REDPACKET)
+                if count > 0 then
+                    self.Image_res_icon:setTexture("ui/league/ui_49.png")
+                    self.Image_res_icon:setScale(0.6)
+                    self.Label_res_num:setText("1/"..count)
                 else
-                    self.Label_res_num:setFontColor(ccc3(255,255,255))
+                    self.Image_res_icon:setTexture(itemCfg.icon)
+                    self.Image_res_icon:setScale(0.4)
+                    self.Label_res_num:setText(packetCfg.cost[1][2])
+                    if GoodsDataMgr:getItemCount(packetCfg.cost[1][1]) < packetCfg.cost[1][2] then
+                        self.Label_res_num:setFontColor(ccc3(219,50,50))
+                    else
+                        self.Label_res_num:setFontColor(ccc3(255,255,255))
+                    end
                 end
             end
+            
         end
-        self.Image_packet_bg:setTexture("ui/league/ui_45.png")
-        self.Label_name:setTextById(270455)
+        self.Image_packet_bg:setTexture(bgTexture[self.packetType_])
+        self.Label_name:setTextById(nameId[self.packetType_])
    else
-        self.Label_tips:setTextById(270359)
+        self.Label_tips:setTextById(tipsTextId[self.packetType_])
         self.Image_cost_bg:setVisible(false)
         self.Image_packet_bg:setTexture("ui/league/ui_08.png")
         self.Label_name:setTextById(270456)
@@ -170,15 +190,19 @@ function LeagueSendRedPacketView:registerEvents()
         if GoodsDataMgr:getItemCount(EC_SItemType.UNION_REDPACKET) > 0 then
             LeagueDataMgr:SendRedPacket(packetCfg.id, text)
         else
-            local cost = packetCfg.cost[1][2]
-            if GoodsDataMgr:getItemCount(packetCfg.cost[1][1]) < cost then
-                    Utils:showTips(800048)
-                return
+            if packetCfg.rechargeID > 0 then
+                RechargeDataMgr:getOrderNO(packetCfg.rechargeID, {discount = "", id=packetCfg.id, bless=text, buyCount=1})
+            else
+                local cost = packetCfg.cost[1][2]
+                if GoodsDataMgr:getItemCount(packetCfg.cost[1][1]) < cost then
+                        Utils:showTips(800048)
+                    return
+                end
+                showChooseMessageBox(TextDataMgr:getText(800011), TextDataMgr:getText(276011, cost), function()
+                    AlertManager:close()
+                    LeagueDataMgr:SendRedPacket(packetCfg.id, text)
+                end)
             end
-            showChooseMessageBox(TextDataMgr:getText(800011), TextDataMgr:getText(276011, cost), function()
-                AlertManager:close()
-                LeagueDataMgr:SendRedPacket(packetCfg.id, text)
-            end)
         end
     end)
 
@@ -187,22 +211,20 @@ function LeagueSendRedPacketView:registerEvents()
         local text = self.Label_zhufuyu:getText()
         local info = {cid = tostring(packetCfg.id), bless = text}
         local string = json.encode(info)
-        RechargeDataMgr:getOrderNO(packetCfg.rechargeID, string)
+        LeagueDataMgr:SendRedPacket(packetCfg.id, text)
     end)
 
     self.Button_left:onClick(function()
-        if self.packetType_ == 1 then
-            self.packetType_ = 2
-        else
-            self.packetType_ = 1
+        self.packetType_ = self.packetType_ - 1
+        if self.packetType_ < 1 then 
+            self.packetType_ = 3
         end
         self:refreshView()
     end)
 
     self.Button_right:onClick(function()
-        if self.packetType_ == 1 then
-            self.packetType_ = 2
-        else
+        self.packetType_ = self.packetType_ + 1
+        if self.packetType_ > 3 then 
             self.packetType_ = 1
         end
         self:refreshView()

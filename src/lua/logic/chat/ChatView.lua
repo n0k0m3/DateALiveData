@@ -204,8 +204,6 @@ function ChatView:initUI(ui)
     self.Button_red_pack = TFDirector:getChildByPath(self.Panel_union,"Button_red_pack")
     self.Label_online_num = TFDirector:getChildByPath(self.Panel_union,"Label_online_num")
 
-    --暂时屏蔽社团红包
-    self.Button_red_pack:hide()
 
     self:initPanelPrivate()
     self:initScrollTab()
@@ -1158,8 +1156,10 @@ function ChatView:updateItem(item, chatInfo)
             local packetCfg = LeagueDataMgr:getPacketCfgById(content.cid)
             if packetCfg.type == 1 then
                 Image_res:setTexture("icon/system/003.png")
-            else
+            elseif packetCfg.type == 2 then
                 Image_res:setTexture("icon/system/005.png")
+            elseif packetCfg.type == 3 then
+                Image_res:setTexture("icon/system/001.png")
             end
             local info = ChatDataMgr:getRedPacketStatus(id, content.time)
             if info.count <= 0 then

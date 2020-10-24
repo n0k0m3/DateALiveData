@@ -33,6 +33,9 @@ function TeachCardShowView:initUI(ui)
 end
 
 function TeachCardShowView:registerEvents()
+    EventMgr:addEventListener(self, EV_GOODS_EXCHANGE, function()
+        AlertManager:closeLayer(self)
+    end)
     self._ui.Button_close:onClick(function()
         AlertManager:closeLayer(self)
     end)

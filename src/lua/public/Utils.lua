@@ -1756,9 +1756,9 @@ end
 
 function Utils:getActivityDateString(startTime, endTime, stringType)
     local startDate = self:getUTCDate(startTime ,GV_UTC_TIME_ZONE)
-    local startDateStr = startDate:fmt("%Y.%m.%d")
+    local startDateStr = startDate:fmt("%Y.%m.%d ")
     local endDate = self:getUTCDate(endTime ,GV_UTC_TIME_ZONE)
-    local endDateStr = endDate:fmt("%Y.%m.%d")
+    local endDateStr = endDate:fmt(" %Y.%m.%d  %H:%M")
 
 
     if stringType == 1 then

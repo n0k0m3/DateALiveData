@@ -2276,14 +2276,14 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "24",
+							fontSize = "20",
 							fontStroke = 
 							{
 								IsStroke = true,
 								StrokeColor = "#FF313757",
 								StrokeSize = 1,
 							},
-							height = "32",
+							height = "27",
 							ignoreSize = "True",
 							name = "label_title",
 							nTextAlign = "1",
@@ -2304,7 +2304,7 @@ local t =
 								nGravity = 2,
 								nAlign = 2
 							},
-							width = "102",
+							width = "84",
 							ZOrder = "1",
 						},
 						{

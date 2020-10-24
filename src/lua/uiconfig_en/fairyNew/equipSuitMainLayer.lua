@@ -6272,7 +6272,7 @@ local t =
 													UUID = "437d6711_23ff_47e1_b644_8b7f4f7d81a4",
 													anchorPoint = "False",
 													anchorPointX = "0",
-													anchorPointY = "0.5",
+													anchorPointY = "1",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
 													dstBlendFunc = "771",
@@ -6293,7 +6293,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "50",
+													height = "0",
 													ignoreSize = "False",
 													name = "Label_bag_skill_desc",
 													nTextAlign = "1",
@@ -6308,7 +6308,7 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = 84,
-														PositionY = 45,
+														PositionY = 67,
 													},
 													width = "468",
 													ZOrder = "1",

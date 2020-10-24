@@ -764,6 +764,8 @@ function RechargeMain:updateMonthCardItem(item, data)
     img_title:setTexture(titleBgImg[data.type])
     img_icon:hide()
 
+    label_intro3:setTextById(190000161)
+
     if not item.icon_spine then
         item.icon_spine = SkeletonAnimation:create(data.icon)
         local pos = img_icon:getPosition()
@@ -789,7 +791,7 @@ function RechargeMain:updateMonthCardItem(item, data)
         Image_tishi:show()
         Image_tishi:setTouchEnabled(true)
         Image_tishi:onClick(function()
-            local layer = require("lua.logic.store.MonthCard"):new({{998}, data})
+            local layer = require("lua.logic.store.MonthCardNew"):new({{998}, data})
             AlertManager:addLayer(layer)
             AlertManager:show()
         end)
@@ -802,7 +804,7 @@ function RechargeMain:updateMonthCardItem(item, data)
 
     img_bg:onClick(function ()
         if data.type == 7 then
-            local layer = require("lua.logic.store.MonthCard"):new({{998}, data})
+            local layer = require("lua.logic.store.MonthCardNew"):new({{998}, data})
             AlertManager:addLayer(layer)
             AlertManager:show()
         else
@@ -834,7 +836,7 @@ function RechargeMain:updateMonthCardItemIos(item, data)
 
     img_bg:onClick(function ()
         if data.type == 7 then
-            local layer = require("lua.logic.store.MonthCard"):new({{998}, data})
+            local layer = require("lua.logic.store.MonthCardNew"):new({{998}, data})
             AlertManager:addLayer(layer)
             AlertManager:show()
         else

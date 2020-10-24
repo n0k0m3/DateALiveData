@@ -151,9 +151,12 @@ function RechargeDataMgr:getOrderNO(goodsid, extraInfo)
 			else
 				Utils:openView("store.TokenPopView",goodsid);
 			end
-		else
+		elseif goods.item and #goods.item > 0 then
 			Utils:openView("store.BuyConfirmView2", goodsid)
+		else
+			Utils:openView("common.ConfirmBoxViewSmall", goodsid, extraInfo)
 		end
+
 		--Utils:openView("store.TokenPopView",goodsid);
 	else
 		local msg = {
@@ -212,8 +215,9 @@ function RechargeDataMgr:getMonthCardList()
 	end
     local ret = {}
     for k,v in pairs(self.goodsList.monthCardCfg) do
-        if v.type ~= 7 or (me.platform == "ios" and tonumber(TFDeviceInfo:getCurAppVersion()) >= 3.65) or me.platform == "win32" then
-            table.insert(ret,v)
+    	--if v.type ~= 7 or (me.platform == "ios") or me.platform == "win32" or (me.platform == "android" and HeitaoSdk and ((HeitaoSdk.getplatformId()~=3 and HeitaoSdk.getplatformId() ~= 1) or  (HeitaoSdk.getplatformId() == 1 and tonumber(TFDeviceInfo:getCurAppVersion()) == 1.13)))then
+		if v.type ~= 7 then
+		    table.insert(ret,v)
         end
     end
     return ret
@@ -1468,7 +1472,7 @@ function RechargeDataMgr:RECHARGE_REQ_CHARGE_EXCHANGE(rechargeId,discountId,redP
 end
 
 function RechargeDataMgr:RECHARGE_RES_CHARGE_EXCHANGE(event)
-	dump(event.data)
+	EventMgr:dispatchEvent(EV_GOODS_EXCHANGE, event.data)
 end
 
 -- 养成基金奖励领取

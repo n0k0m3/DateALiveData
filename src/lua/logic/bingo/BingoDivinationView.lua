@@ -120,7 +120,7 @@ end
 function BingoDivinationView:initVotePanel()
 
     self.Label_vote_num:setText(self.voteNum)
-    self.Label_odds_num:setText("赔率 x" ..self.oddsNum/10000)
+    self.Label_odds_num:setText(TextDataMgr:getText(13310230 , self.oddsNum/10000))
 
     local chipItemId = BingoDataMgr:getChipItemId(EC_BingoGameType.Divination)
     local itemCfg = GoodsDataMgr:getItemCfg(chipItemId)
@@ -197,7 +197,7 @@ end
 function BingoDivinationView:openCards()
 
     if self.voteNum == 0 then
-        Utils:showTips("请先投注")
+        Utils:showTips(111000066)
         return
     end
 
@@ -359,7 +359,7 @@ function BingoDivinationView:updateBatchPanel(num)
     local preNum = self.voteNum + num
     preNum = preNum <= 0 and 0 or preNum
     if num > 0 and self.voteNum >= self.limit then
-        Utils:showTips("已达到最大投注")
+        Utils:showTips(111000065)
         self:stopTimer()
         return
     end
@@ -615,7 +615,7 @@ function BingoDivinationView:registerEvents()
 
     self.Button_do:onClick(function()
         if self.voteNum == 0 then
-            Utils:showTips("请先下注")
+            Utils:showTips(111000065)
             return
         end
         local param = {}
@@ -655,7 +655,7 @@ function BingoDivinationView:registerEvents()
 
         local chipNum = BingoDataMgr:getChipNum()
         if chipNum == 0 then
-            Utils:showTips("筹码不够")
+            Utils:showTips(111000068)
             return
         end
         Utils:playSound(5011, false)

@@ -4,6 +4,7 @@ local BuyConfirmView2 = class("BuyConfirmView2", BaseLayer)
 function BuyConfirmView2:initData(commodityId)
     self.commodityId_ = commodityId
     self.commodityCfg_ = RechargeDataMgr:getOneRechargeCfg(commodityId)
+    print(self.commodityCfg_)
     self.selectNum = 1
 	EventMgr:addEventListener(self,EV_RECHARGE_UPDATE,handler(self.onBuySuccessEvent, self))
 end

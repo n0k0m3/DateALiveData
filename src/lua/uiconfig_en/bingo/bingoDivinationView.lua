@@ -511,7 +511,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "24",
 											ignoreSize = "True",
 											name = "Label_num",
 											nTextAlign = "1",
@@ -527,7 +527,7 @@ local t =
 											{
 												PositionY = 15,
 											},
-											width = "56",
+											width = "47",
 											ZOrder = "1",
 										},
 										{
@@ -882,7 +882,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "24",
 											ignoreSize = "True",
 											name = "Label_num",
 											nTextAlign = "1",
@@ -898,7 +898,7 @@ local t =
 											{
 												PositionY = 15,
 											},
-											width = "56",
+											width = "47",
 											ZOrder = "1",
 										},
 										{
@@ -1254,7 +1254,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "24",
 											ignoreSize = "True",
 											name = "Label_num",
 											nTextAlign = "1",
@@ -1270,7 +1270,7 @@ local t =
 											{
 												PositionY = 15,
 											},
-											width = "56",
+											width = "47",
 											ZOrder = "1",
 										},
 										{
@@ -1730,15 +1730,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_odds_num",
 											nTextAlign = "0",
 											nTextHAlign = "0",
@@ -1754,7 +1754,7 @@ local t =
 												PositionX = -11,
 												PositionY = 61,
 											},
-											width = "108",
+											width = "147",
 											ZOrder = "1",
 										},
 										{
@@ -1783,7 +1783,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "24",
 											ignoreSize = "True",
 											name = "Label_vote_num",
 											nTextAlign = "1",
@@ -1800,7 +1800,7 @@ local t =
 												PositionX = 28,
 												PositionY = 26,
 											},
-											width = "73",
+											width = "54",
 											ZOrder = "1",
 										},
 										{
@@ -1888,7 +1888,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "35",
+											height = "34",
 											ignoreSize = "True",
 											name = "Label_add",
 											nTextAlign = "1",
@@ -1905,7 +1905,7 @@ local t =
 												PositionX = -20,
 												PositionY = 2,
 											},
-											width = "15",
+											width = "18",
 											ZOrder = "1",
 										},
 										{
@@ -1981,7 +1981,7 @@ local t =
 										PositionX = 106,
 										PositionY = -15,
 									},
-									width = "171",
+									width = "200",
 									ZOrder = "1",
 								},
 								{
@@ -2042,7 +2042,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "35",
+											height = "34",
 											ignoreSize = "True",
 											name = "Label_add",
 											nTextAlign = "1",
@@ -2059,7 +2059,7 @@ local t =
 												PositionX = -20,
 												PositionY = 2,
 											},
-											width = "22",
+											width = "18",
 											ZOrder = "1",
 										},
 										{
@@ -2143,15 +2143,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FFB83F59",
 												StrokeSize = 2,
 											},
-											height = "34",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_enterPlot",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -2166,7 +2166,7 @@ local t =
 											{
 												
 											},
-											width = "97",
+											width = "153",
 											ZOrder = "1",
 										},
 									},
@@ -2222,14 +2222,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FFB83F59",
 												StrokeSize = 2,
 											},
-											height = "34",
+											height = "26",
 											ignoreSize = "True",
 											name = "Label_enterPlot",
 											nTextAlign = "1",
@@ -2245,7 +2245,7 @@ local t =
 											{
 												
 											},
-											width = "54",
+											width = "73",
 											ZOrder = "1",
 										},
 									},
@@ -2269,7 +2269,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,

@@ -1188,7 +1188,7 @@ return {
         smallType = 0,
         sellProfit = {
         },
-        fitting = true,
+        fitting = false,
         moveType = 0,
         totalMax = 1,
         convertMax = {

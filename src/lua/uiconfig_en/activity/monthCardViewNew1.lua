@@ -3411,7 +3411,6 @@ local t =
 								PositionY = -261,
 							},
 							UItype = "Button",
-							visible = "False",
 							width = "148",
 							ZOrder = "1",
 							components = 
@@ -3540,18 +3539,19 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "18",
+											fontSize = "13",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "89",
+											height = "0",
 											ignoreSize = "False",
 											name = "Label_monthCardViewNew1_1",
 											nTextAlign = "1",
 											nTextHAlign = "1",
+											rotation = "90",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -3563,7 +3563,7 @@ local t =
 											{
 												
 											},
-											width = "35",
+											width = "100",
 											ZOrder = "1",
 										},
 									},
