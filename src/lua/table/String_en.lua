@@ -11209,7 +11209,7 @@ return {
     },
     [190000210] = {
         id = 190000210,
-        text = "Yoshino's Astral Dress – Halloween Witch",
+        text = "Yoshino's Astral Dress - Halloween Witch",
     },
     [190000209] = {
         id = 190000209,

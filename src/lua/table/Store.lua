@@ -244,7 +244,7 @@ return {
         isOpen = false,
         id = 170000,
         storeLabel = "",
-        openContVal = 1,
+        openContVal = 99,
         refreshCostNum = {
         },
         refreshCostId = 0,

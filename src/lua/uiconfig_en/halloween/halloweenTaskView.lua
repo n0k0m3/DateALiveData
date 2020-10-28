@@ -563,14 +563,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "18",
 											ignoreSize = "True",
 											name = "task_des",
 											nTextAlign = "1",
@@ -579,7 +579,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "TextLable",
+											text = "task",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -587,7 +587,7 @@ local t =
 												PositionX = 8,
 												PositionY = 85,
 											},
-											width = "88",
+											width = "31",
 											ZOrder = "1",
 										},
 									},
@@ -625,6 +625,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
+									visible = "False",
 									width = "400",
 									ZOrder = "1",
 									components = 
@@ -675,14 +676,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "18",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "21",
+											height = "18",
 											ignoreSize = "True",
 											name = "task_des",
 											nTextAlign = "1",
@@ -699,7 +700,7 @@ local t =
 												PositionX = 8,
 												PositionY = 85,
 											},
-											width = "73",
+											width = "64",
 											ZOrder = "1",
 										},
 									},
