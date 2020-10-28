@@ -671,11 +671,11 @@ return {
         event_id = 16,
         remark = "完成X次料理或手工",
     },
-    [17023] = {
-        id = 17023,
-        history = false,
+    [17021] = {
+        id = 17021,
+        history = true,
         event_id = 17,
-        remark = "全服累加数值进度",
+        remark = "竞速时间排名第N(排名有区间）",
     },
     [29003] = {
         id = 29003,
@@ -724,6 +724,12 @@ return {
         history = false,
         event_id = 10,
         remark = "常规任务接取条件",
+    },
+    [17023] = {
+        id = 17023,
+        history = false,
+        event_id = 17,
+        remark = "全服累加数值进度",
     },
     [14001] = {
         id = 14001,
@@ -809,11 +815,11 @@ return {
         event_id = 17,
         remark = "全服返利购买进度",
     },
-    [17021] = {
-        id = 17021,
+    [3010] = {
+        id = 3010,
         history = true,
-        event_id = 17,
-        remark = "竞速时间排名第N(排名有区间）",
+        event_id = 3,
+        remark = "登陆事件-账号累计登陆天数",
     },
     [17019] = {
         id = 17019,

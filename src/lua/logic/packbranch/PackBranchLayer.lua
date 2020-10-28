@@ -63,7 +63,7 @@ function PackBranchLayer:downLoadExtListFileSuc()
         return 
     end
 
-    if HeitaoSdk and (tonumber(HeitaoSdk.getplatformId()) == 5) then
+    if HeitaoSdk and (tonumber(HeitaoSdk.getplatformId()) == 5 or  tonumber(HeitaoSdk.getplatformId()) == 6) then
         local checkExtId = TFAssetsManager:getCheckInfo(12)
         if checkExtId then
             TFAssetsManager:downloadAssetsOfFunc(checkExtId, function()

@@ -62,7 +62,7 @@ function MainScene:onKeyBack()
         if HeitaoSdk then
             HeitaoSdk.loginExit()
         else
-            Box("Õæ»úÉÏµ÷ÓÃÍË³ö")
+            Box("çœŸæœºä¸Šè°ƒç”¨é€€å‡º")
         end
     end
 end

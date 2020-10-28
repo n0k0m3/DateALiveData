@@ -65,7 +65,7 @@ function PrefabDataMgr:updateEquip( item, idOrCid, count, level)
 
     local countLabel = TFDirector:getChildByPath(item, "Label_count")
     countLabel:hide()
-    --¾­ÑéÖÊµãĞèÒªÏÔÊ¾ÊıÁ¿
+    --ç»éªŒè´¨ç‚¹éœ€è¦æ˜¾ç¤ºæ•°é‡
     local cid = getItemCid()
     if (not (count == nil)) and ((EquipmentDataMgr:isExpEquip(cid)) or (EquipmentDataMgr:isUniversalEquip(cid))) then
         countLabel:show()

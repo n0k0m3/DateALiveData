@@ -582,7 +582,7 @@ function FubenSquadView:showHalloween2019()
 	local Image_halloween_desc = TFDirector:getChildByPath(self.Panel_halloween2019, "Image_halloween_desc")
 	local Image_halloween_desc_Label_fubenSquadView_1 = TFDirector:getChildByPath(Image_halloween_desc, "Label_fubenSquadView_1")
 	local Image_halloween_desc_Label_fubenSquadView_2 = TFDirector:getChildByPath(Image_halloween_desc, "Label_fubenSquadView_2")
-	Image_halloween_desc_Label_fubenSquadView_1:setText("通关条件")
+	Image_halloween_desc_Label_fubenSquadView_1:setTextById(3005037)
 	--dump(self.levelCfg_)
 
 	local victoryParam = self.levelCfg_.victoryParam
@@ -590,7 +590,7 @@ function FubenSquadView:showHalloween2019()
         monsterCid_ = victoryParam[1][1]
         monsterCfg_ = TabDataMgr:getData("Monster", monsterCid_)
 		--dump(monsterCfg_)
-		Image_halloween_desc_Label_fubenSquadView_2:setTextById(self.levelCfg_.victoryTypeDescribe[1], monsterCfg_.nameLook,victoryParam[1][2])
+		Image_halloween_desc_Label_fubenSquadView_2:setTextById(self.levelCfg_.victoryTypeDescribe[1], TextDataMgr:getText(monsterCfg_.name),victoryParam[1][2])
     else
 		Image_halloween_desc_Label_fubenSquadView_2:setTextById(self.levelCfg_.victoryTypeDescribe[1])
 	end
@@ -639,12 +639,12 @@ function FubenSquadView:showHalloween2019()
 	
 	local scrollView_Items = UIListView:create(Image_halloween_desc3_ScrollView_fubenSquadView_1)
 	local items = self.levelCfg_.dropShow 
-	Image_halloween_desc3_Label_fubenSquadView_1:setText("关卡奖励")
+	Image_halloween_desc3_Label_fubenSquadView_1:setTextById(2101010)
 
 	
 	if not self.levelPassState_[self.levelCid_] and  self.levelCfg_.firstDropShow and #self.levelCfg_.firstDropShow > 0 then
 		--Box("firstDropShow")
-		Image_halloween_desc3_Label_fubenSquadView_1:setText("首通奖励")
+		Image_halloween_desc3_Label_fubenSquadView_1:setTextById(14110286)
 		items = self.levelCfg_.firstDropShow
 	end
 	for i = 1, #items do

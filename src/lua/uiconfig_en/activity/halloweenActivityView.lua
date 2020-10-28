@@ -268,7 +268,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "26",
 									ignoreSize = "True",
 									name = "Label_time_title",
 									nTextAlign = "1",
@@ -286,7 +286,7 @@ local t =
 										PositionX = -115,
 										PositionY = -132,
 									},
-									width = "97",
+									width = "131",
 									ZOrder = "1",
 								},
 								{
@@ -315,7 +315,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "26",
 									ignoreSize = "True",
 									name = "Label_time",
 									nTextAlign = "1",
@@ -330,10 +330,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -13,
-										PositionY = -105,
+										PositionX = -91,
+										PositionY = -151,
 									},
-									width = "151",
+									width = "112",
 									ZOrder = "1",
 								},
 								{
@@ -421,7 +421,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "31",
 											ignoreSize = "True",
 											name = "Label_goto",
 											nTextAlign = "1",
@@ -437,7 +437,7 @@ local t =
 											{
 												PositionY = -4,
 											},
-											width = "105",
+											width = "146",
 											ZOrder = "1",
 										},
 									},
@@ -486,7 +486,7 @@ local t =
 										PositionY = -250,
 									},
 									visible = "False",
-									width = "99",
+									width = "172",
 									ZOrder = "1",
 								},
 								{
@@ -544,7 +544,7 @@ local t =
 												StrokeColor = "#FF808080",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "31",
 											ignoreSize = "True",
 											name = "Label_num",
 											nTextAlign = "1",
@@ -561,7 +561,7 @@ local t =
 												PositionX = 99,
 												PositionY = -1,
 											},
-											width = "81",
+											width = "64",
 											ZOrder = "1",
 										},
 										{
@@ -648,7 +648,7 @@ local t =
 												StrokeColor = "#FF808080",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "31",
 											ignoreSize = "True",
 											name = "Label_num",
 											nTextAlign = "1",
@@ -664,7 +664,7 @@ local t =
 											{
 												PositionX = 99,
 											},
-											width = "81",
+											width = "64",
 											ZOrder = "1",
 										},
 										{

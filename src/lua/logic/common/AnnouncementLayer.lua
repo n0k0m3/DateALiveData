@@ -9,6 +9,7 @@ end
 
 function AnnouncementLayer:initData(helpIds)
     self.AdImageCnt = 5
+    self.groupLimit = 8
     self.changeTime = 3.0
     self.panel_title_list = {}
 
@@ -60,28 +61,61 @@ function AnnouncementLayer:initUI(ui)
 end
 
 function AnnouncementLayer:getAnnouncementInfo( ... )
+    print(self.announcementUrl[self.urlIdx])
     HttpHelper:get(self.announcementUrl[self.urlIdx],function(data)
         data = json.decode(data)
         if data then
-            self.data = data.data
+            table.sort(data , function ( a , b )
+                return a.group > b.group
+            end)
+            local newGroup = data[1].group
+
+            local usedata = {}
+            for i=0,self.groupLimit - 1 do
+                local getIdx = newGroup - i
+                for k ,v in pairs(data) do
+                    if v.isHide == false then
+                        usedata[getIdx] = usedata[getIdx] or {}
+                        table.insert(usedata[getIdx] , v)
+                    end
+                end
+                for k ,v in pairs(data) do
+                    if v.group == getIdx then
+                        usedata[getIdx] = usedata[getIdx] or {}
+                        table.insert(usedata[getIdx] , v)
+                    end
+                end
+            end
+            self.data = usedata
             self.myData = {}
+
             for k ,v in pairs(self.data) do
                 local title = {}
                 local content = {}
                 for key , data in pairs(v) do
+                    local textData = {
+                        baseName = data.baseName,
+                        name = data.name,
+                        color = data.color,
+                        text = data.text,
+                        clickId = "",
+                        size = data.size,}
                     if data.type == "title" then
-                        table.insert(title , data)
+                        table.insert(title , textData)
                     else
-                        table.insert(content , data)
+                        table.insert(content , textData)
                     end
                 end
+                title.align = "left"
                 table.sort(title ,function(a , b )
                    return a.index < b.index
                 end)
+                content.align = "left"
                 table.sort(content ,function(a , b )
                    return a.index < b.index
                 end)
                 table.insert(self.myData , {title = title , content = content})
+                print(self.myData)
             end
             self:initScrollInfos()
         else   --如果没有数据
@@ -106,8 +140,8 @@ function AnnouncementLayer:initScrollInfos( ... )
     local scrollBar = UIScrollBar:create(Image_scrollBar, Image_scrollBarInner)
     self.ListView_info:setScrollBar(scrollBar)
 
-    for i=1,#self.data do
-        local infos = self.data[i]
+    for i=1,#self.myData do
+        local infos = self.myData[i]
         local panel_title_item = self.panel_title_item:clone()
         panel_title_item:setPosition(0 , 0)
         panel_title_item.index = i
@@ -126,7 +160,7 @@ function AnnouncementLayer:initScrollInfos( ... )
                 self:updateTitleItemIndex(sender.index , true)
                 sender.label_des = panel_content:getChildByName("Label_des")
                 sender.label_des:setTextAreaSize(CCSize(960 , 0))
-                local content = {sender.infos.content , align = "left"}
+                local content = sender.infos.content 
                 sender.label_des:setTextByAttr(content)
                 local index = sender.index
                 local idx = index + 1
@@ -138,9 +172,10 @@ function AnnouncementLayer:initScrollInfos( ... )
             end
         end)
         self.ListView_info:pushBackCustomItem(panel_title_item)
-        local titleData = {infos.title , align = "left"}
-        item.label_title:setTextByAttr(titleData)
-        item.infos = infos
+        local titleData = infos.title
+        print(titleData)
+        panel_title_item.label_title:setTextByAttr(titleData)
+        panel_title_item.infos = infos
     end
 end
 

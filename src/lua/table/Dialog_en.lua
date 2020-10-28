@@ -105072,21 +105072,15 @@ return {
         scriptId = 8002,
         headMirrorL = false,
         showBG = 0,
-        headMirrorR = false,
         actionR = {
         },
-        autoShutTime = 0,
+        headMirrorR = false,
         effect = "",
         id = 800201,
-        text = {
-            [1] = {
-                speed = 40,
-                text = "How many Sephira Crystals does Phantom have... if they can be created infinitely...",
-            },
-        },
+        cameraAction2 = 0,
         actionL = {
         },
-        cameraAction2 = 0,
+        autoShutTime = 0,
         actionText = {
         },
         isSpeakingR = false,

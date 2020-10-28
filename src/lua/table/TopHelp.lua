@@ -6997,6 +6997,38 @@ return {
         icon = "icon/system/025.png",
         isDiban = true,
     },
+    [10005] = {
+        helpDes = 100000334,
+        resource = {
+            [1] = {
+                [1] = 500004,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 500001,
+                [2] = 1,
+            },
+            [3] = {
+                [1] = 500002,
+                [2] = 1,
+            },
+        },
+        dynamic = false,
+        id = 10005,
+        helpTitle = 100000335,
+        fileName = "CrazyDiamondMainLayerNew",
+        isResource = true,
+        helpInterface = {
+            [1] = 3200,
+        },
+        isHelp = true,
+        help = "",
+        isMain = true,
+        isBack = true,
+        name = "疯狂钻石",
+        icon = "icon/system/025.png",
+        isDiban = true,
+    },
     [265] = {
         helpDes = 3300023,
         resource = {

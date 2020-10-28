@@ -334,7 +334,7 @@ function SimulationSummonResultView:registerEvents()
             --EventMgr:dispatchEvent(EV_SUMMON_SHOWRESULT_END)
 			--Utils:showTips(63614)
             --AlertManager:close()
-			--弹出提示界面
+			--寮瑰嚭鎻愮ず鐣岄潰
 		Utils:openView("summon.SimulationSummonExchangeView", self.cid_, 3, self.reward_)
 		AlertManager:closeLayer(self)
     end)

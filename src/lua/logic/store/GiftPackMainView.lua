@@ -12,7 +12,7 @@ function GiftPackMainView:initData(panelId)
     self.modelPanel = {}
     self.selectIndex = nil
     self.curPanelId = nil
-    self:initTabData()
+    panelId = self:initTabData(panelId)
     if panelId then
         for i, v in ipairs(self.tabData) do
             if v.id == panelId then
@@ -23,7 +23,7 @@ function GiftPackMainView:initData(panelId)
     end
 end
 
-function GiftPackMainView:initTabData()
+function GiftPackMainView:initTabData(panelId)
     self.tabData = {
     {id = 1, name = 14300095,iconRes = "ui/recharge/gifts/new_1/006.png"},
     {id = 2, name = 14300096,iconRes = "ui/recharge/gifts/new_1/004.png"},
@@ -57,8 +57,12 @@ function GiftPackMainView:initTabData()
         if #realGiftDaya > 0 then
             table.insert(self.tabData , {id = 8 + k, name = nameList[k],iconRes = "ui/recharge/gifts/new_1/006.png" , giftData = realGiftDaya})
         end
+        if v == panelId then
+            panelId = 8 + k
+        end
     end
 
+    return panelId
 end
 
 function GiftPackMainView:initUI(ui)

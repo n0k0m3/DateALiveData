@@ -19,9 +19,10 @@ EXPERIENCE = false
 --GM模式
 GM_MODE = false;
 
-MD5_DEBUG = true
 
-if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID  and HeitaoSdk and (tonumber(HeitaoSdk.getplatformId()) == 3 or tonumber(HeitaoSdk.getplatformId()) == 5)) then
+MD5_DEBUG = false
+
+if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID  and HeitaoSdk and (tonumber(HeitaoSdk.getplatformId()) == 3 or tonumber(HeitaoSdk.getplatformId()) == 4 or tonumber(HeitaoSdk.getplatformId()) == 5 or tonumber(HeitaoSdk.getplatformId()) == 6)) then
      EX_ASSETS_ENABLE = true
 end
 
@@ -84,6 +85,8 @@ CDN_INDEX    = 0;
 --     VersionPaths[2] = "http://c.dal.heitao2014.com/dal/release_android/"
 --     FilePaths[2]    = "http://c.dal.heitao2014.com/dal/release_android/"
 -- end
+
+
 
 if VERSION_DEBUG == true then
     -- -- --本地

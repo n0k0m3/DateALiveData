@@ -6458,7 +6458,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "20",
+													fontSize = "15",
 													fontStroke = 
 													{
 														IsStroke = true,
@@ -6487,7 +6487,7 @@ local t =
 														nGravity = 3,
 														nAlign = 3
 													},
-													width = "163",
+													width = "200",
 													ZOrder = "1",
 												},
 												{
@@ -6530,7 +6530,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 86,
+														PositionX = 125,
 														PositionY = -3,
 														RightPosition = -200,
 														TopPosition = -23,
@@ -7087,7 +7087,7 @@ local t =
 													UUID = "551b160a_cbe1_40d9_998f_e5419fdd89b6",
 													anchorPoint = "False",
 													anchorPointX = "0",
-													anchorPointY = "1",
+													anchorPointY = "0.5",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
 													dstBlendFunc = "771",
@@ -7101,7 +7101,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "20",
+													fontSize = "15",
 													fontStroke = 
 													{
 														IsStroke = true,
@@ -7123,14 +7123,14 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = -80,
-														PositionY = 26,
+														PositionY = 1,
 														RightPosition = -200,
 														TopPosition = -23,
 														relativeToName = "Panel_victory",
 														nGravity = 3,
 														nAlign = 3
 													},
-													width = "163",
+													width = "200",
 													ZOrder = "1",
 												},
 												{
@@ -7173,7 +7173,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 85,
+														PositionX = 124,
 														RightPosition = -200,
 														TopPosition = -23,
 														relativeToName = "Panel_victory",

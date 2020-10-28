@@ -60,7 +60,11 @@ function ActivityDataMgr:init()
     TFDirector:addProto(s2c.CHRISTMAS_RESP2019_CHRISTMAS_PRODUCT, self, self.onRecvChristmasProductRsp)
 
 
+    TFDirector:addProto(s2c.ACTIVITY_RESP_GET_BE_CALL_INFO, self, self.onRespCallBackInfo)
     TFDirector:addProto(s2c.ACTIVITY_RES_DRAW_COMPASS, self, self.onRecvDrawComPass)
+    TFDirector:addProto(s2c.ACTIVITY_RESP_SHARE_COMPLETE, self, self.onRespShareComplete)
+    TFDirector:addProto(s2c.ACTIVITY_RESP_WRITE_BE_CALL_PLAYER_ID, self, self.onRespSubmitUid)
+    TFDirector:addProto(s2c.ACTIVITY_RESP_ACTIVITY_ITEM_REFRESH,self,self.onActivityItemRefreshRsp)
     
    
     self.activityInfo_ = {}
@@ -251,7 +255,8 @@ function ActivityDataMgr:getItems(id)
             activityInfo.activityType ==EC_ActivityType2.VALENTINE or
             activityInfo.activityType ==EC_ActivityType2.VALENTINE or
             activityInfo.activityType ==EC_ActivityType2.FUND or
-            activityInfo.activityType ==EC_ActivityType2.TRAINING then
+            activityInfo.activityType ==EC_ActivityType2.TRAINING or
+            activityInfo.activityType ==EC_ActivityType2.NEW_BACKACTIVITY then
             local getData = {}
             local ingData = {}
             local getedData = {}
@@ -381,6 +386,9 @@ function ActivityDataMgr:getAssistProgressData()
 end
 
 function ActivityDataMgr:getItemInfo(type_, id)
+    if not self.itemInfoMap_[type_] then
+        return nil
+    end
     return self.itemInfoMap_[type_][id]
 end
 
@@ -1820,4 +1828,49 @@ end
 ---------------圣诞节结束---------------------
 
 
+----召回活动
+function ActivityDataMgr:setCallBackInfo(info)
+    self.callbackInfo = info
+end
+function ActivityDataMgr:getCallBackInfo()
+    return self.callbackInfo
+end
+function ActivityDataMgr:ReqGetBeCallInfo(activityId)
+    TFDirector:send(c2s.ACTIVITY_REQ_GET_BE_CALL_INFO,{activityId})
+end
+
+function ActivityDataMgr:ReqShareComplete(activityId)
+    TFDirector:send(c2s.ACTIVITY_REQ_SHARE_COMPLETE,{activityId})
+end
+function ActivityDataMgr:ReqWriteBeCallPlayerId(activityId,uid)
+    TFDirector:send(c2s.ACTIVITY_REQ_WRITE_BE_CALL_PLAYER_ID,{activityId,uid})
+end
+function ActivityDataMgr:onRespCallBackInfo(event)
+
+    local data = event.data
+    if not data then
+        return
+    end
+    self:setCallBackInfo(data)
+    EventMgr:dispatchEvent(EV_ACTIVITY_CALL_BACK_INFO)
+end
+function ActivityDataMgr:onRespShareComplete(data)
+
+end
+function ActivityDataMgr:onRespSubmitUid(event)
+    local data = event.data
+    if not data then
+        return
+    end
+
+    dump(data)
+    ----0表示成功  其他去读string.csv里面的id
+    local successCode = data.successCode
+    if successCode == 0 then
+        Utils:showTips(100000145)
+        EventMgr:dispatchEvent(EV_ACTIVITY_CALL_BACK_BIND,true)
+    else
+        Utils:showTips(successCode)
+    end
+end
 return ActivityDataMgr:new()

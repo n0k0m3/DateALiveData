@@ -88,7 +88,7 @@ function ActivityBuyConfirmView:registerEvents()
                 self.itemId_,
                 self.selectNum,
             }
-            --韩服好友助力兑换商店修改
+            --闊╂湇濂藉弸鍔╁姏鍏戞崲鍟嗗簵淇敼
             local extendData = {num = self.selectNum}
             local json = require("LuaScript.extends.json")
             local jsonExtendData = json.encode(extendData)

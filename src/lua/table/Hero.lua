@@ -139,6 +139,8 @@ return {
         color = "ui/713.png",
         optionalSkin = {
             [1] = 1103011,
+            [2] = 1103015,
+            [3] = 1103019,
         },
         condition = {
         },
@@ -811,6 +813,7 @@ return {
         color = "ui/710.png",
         optionalSkin = {
             [1] = 1105011,
+            [2] = 1105013,
         },
         condition = {
         },
@@ -3097,6 +3100,7 @@ return {
             [1] = 1101011,
             [2] = 1101012,
             [3] = 1101013,
+            [4] = 1101016,
         },
         condition = {
         },

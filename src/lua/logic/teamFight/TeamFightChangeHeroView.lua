@@ -346,6 +346,8 @@ function TeamFightChangeHeroView:updateOneHead(cell,idx,isChange)
     local Image_jinyong = TFDirector:getChildByPath(cell,"Image_jinyong");
     Image_jinyong:setVisible((hero.job > 3 and  hero.Inoperable))
 
+    local Image_skyladder = TFDirector:getChildByPath(cell, "Image_skyladder")
+    Image_skyladder:hide()
 
     -- 无尽竞速模式
     local Image_endless_hp = TFDirector:getChildByPath(cell, "Image_endless_hp")

@@ -108,6 +108,16 @@ function CrazyDiamondDataMgr:getminRewardAndMaxReward( id )
 	end
 	return self.crazyDiamondCfgList[#self.crazyDiamondCfgList].minReward, self.crazyDiamondCfgList[#self.crazyDiamondCfgList].maxReward
 end
+--获取钻石面板显示数量
+function CrazyDiamondDataMgr:getDiamondRewardShow( id  , oldRank)
+	local ownCrazyDiamondRank = oldRank or self:getOwnCrazyDiamondRank(id)
+	for i,_cfg in ipairs(self.crazyDiamondCfgList) do
+		if _cfg.id == (#ownCrazyDiamondRank + 1) then
+			return _cfg.rewardShow
+		end
+	end
+	return self.crazyDiamondCfgList[#self.crazyDiamondCfgList].rewardShow
+end
 
 --钻石消耗
 function CrazyDiamondDataMgr:getCost( id )

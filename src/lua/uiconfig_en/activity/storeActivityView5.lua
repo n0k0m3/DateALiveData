@@ -329,7 +329,7 @@ local t =
 										PositionX = -421,
 									},
 									visible = "False",
-									width = "83",
+									width = "63",
 									ZOrder = "1",
 								},
 								{
@@ -375,7 +375,7 @@ local t =
 										PositionX = -375,
 										PositionY = 4,
 									},
-									width = "147",
+									width = "138",
 									ZOrder = "1",
 								},
 								{
@@ -945,14 +945,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "18",
+											fontSize = "15",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "34",
+											height = "0",
 											ignoreSize = "False",
 											name = "Label_countLimit",
 											nTextAlign = "1",
@@ -990,15 +990,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_name",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -1011,9 +1011,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = 213,
+												PositionY = 219,
 											},
-											width = "108",
+											width = "244",
 											ZOrder = "1",
 										},
 										{
@@ -1689,15 +1689,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "26",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "32",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_buy",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -1712,7 +1712,7 @@ local t =
 									{
 										PositionY = -153,
 									},
-									width = "66",
+									width = "134",
 									ZOrder = "1",
 								},
 								{
@@ -1879,7 +1879,7 @@ local t =
 												PositionX = 3,
 												PositionY = -29,
 											},
-											width = "23",
+											width = "37",
 											ZOrder = "1",
 										},
 									},

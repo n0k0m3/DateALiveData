@@ -134,7 +134,7 @@ end
 function FubenHalloweenLevelView:ctor(...)
     self.super.ctor(self)
     self:initData(...)
-    self:init("lua.uiconfig.fuben.fubenHalloweenLevelView")
+    self:init("lua.uiconfig.fuben.FubenHalloweenLevelView")
 end
 
 function FubenHalloweenLevelView:initUI(ui)
@@ -495,7 +495,7 @@ function FubenHalloweenLevelView:onCountDownPer()
 	local day,hour,min,sec = Utils:getTimeDHMZ( remaining > 0 and remaining or 0)
 	--dump(self.activityInfo_.showEndTime)
 	
-	self.Label_FubenHalloweenLevelView_1:setText("剩余" .. day .. "天" .. hour .. "时")
+	self.Label_FubenHalloweenLevelView_1:setTextById(270500 , day , hour)
 	
 end
 
@@ -904,7 +904,7 @@ function FubenHalloweenLevelView:registerEvents()
 	self.Button_FubenHalloweenLevelView_6:onClick(function()
 		--Utils:openView("halloween.HalloweenTaskView", self.activityId_)
 		--FunctionDataMgr:jActivityByType(EC_ActivityType2.STORE)
-		FunctionDataMgr:jActivity(10026)
+		FunctionDataMgr:jActivity(73)
     end)
 	
 	--[[

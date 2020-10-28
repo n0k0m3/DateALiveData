@@ -11700,6 +11700,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
+							visible = "False",
 							width = "1136",
 							ZOrder = "1",
 							components = 
@@ -14853,7 +14854,6 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							visible = "False",
 							width = "1136",
 							ZOrder = "1",
 							components = 
@@ -14891,7 +14891,7 @@ local t =
 											controlID = "Label_fubenSquadView_1_Image_halloween_desc_Panel_halloween2019_Panel_root_Panel-fubenSquadView_Layer1_fuben_Game",
 											UUID = "07787776_816b_469d_a81d_30a8eaed897e",
 											anchorPoint = "False",
-											anchorPointX = "0.5",
+											anchorPointX = "0",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
@@ -14906,14 +14906,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "29",
+											height = "24",
 											ignoreSize = "True",
 											name = "Label_fubenSquadView_1",
 											nTextAlign = "1",
@@ -14927,10 +14927,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -99,
+												PositionX = -156,
 												PositionY = -2,
 											},
-											width = "215",
+											width = "184",
 											ZOrder = "1",
 										},
 										{
@@ -14952,14 +14952,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "21",
 											ignoreSize = "True",
 											name = "Label_fubenSquadView_2",
 											nTextAlign = "1",
@@ -14976,7 +14976,7 @@ local t =
 												PositionX = -154,
 												PositionY = -48,
 											},
-											width = "494",
+											width = "411",
 											ZOrder = "1",
 										},
 									},
@@ -15013,7 +15013,7 @@ local t =
 											controlID = "Label_fubenSquadView_1_Image_halloween_desc2_Panel_halloween2019_Panel_root_Panel-fubenSquadView_Layer1_fuben_Game",
 											UUID = "2fc49b2e_8a8e_4a2f_a9cf_34dad37a244e",
 											anchorPoint = "False",
-											anchorPointX = "0.5",
+											anchorPointX = "0",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
@@ -15028,14 +15028,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "29",
+											height = "24",
 											ignoreSize = "True",
 											name = "Label_fubenSquadView_1",
 											nTextAlign = "1",
@@ -15049,10 +15049,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -99,
+												PositionX = -155,
 												PositionY = -2,
 											},
-											width = "215",
+											width = "184",
 											ZOrder = "1",
 										},
 										{
@@ -15074,7 +15074,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -15135,7 +15135,7 @@ local t =
 											controlID = "Label_fubenSquadView_1_Image_halloween_desc3_Panel_halloween2019_Panel_root_Panel-fubenSquadView_Layer1_fuben_Game",
 											UUID = "eef2d381_5ef4_4a3e_a3a9_ef6ea63814cf",
 											anchorPoint = "False",
-											anchorPointX = "0.5",
+											anchorPointX = "0",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
@@ -15150,14 +15150,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "29",
+											height = "24",
 											ignoreSize = "True",
 											name = "Label_fubenSquadView_1",
 											nTextAlign = "1",
@@ -15171,10 +15171,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -99,
-												PositionY = -2,
+												PositionX = -156,
 											},
-											width = "167",
+											width = "142",
 											ZOrder = "1",
 										},
 										{

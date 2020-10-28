@@ -42,7 +42,7 @@ function FubenSelectCountView:refreshView()
     local data = clone(self.levelCfg_.quickBattleParameter)
     local cardPrivilegeFreeNum = FubenDataMgr:getFreePrivilegeNumById(self.levelCid_)
     for i = 1, cardPrivilegeFreeNum do
-        local useTmp = clone(data[#data]) -- ÓÃ×îºóÒ»¸öÊı¾İ½á¹¹×÷Îªµş¼Ó
+        local useTmp = clone(data[#data]) -- ç”¨æœ€åä¸€ä¸ªæ•°æ®ç»“æ„ä½œä¸ºå åŠ 
         useTmp[1] = useTmp[1] + 1
         table.insert(data, useTmp)
     end

@@ -251,7 +251,7 @@ function HalloweenRankView:updateRewardItem(item ,data ,idx)
 	        pos:setVisible(false)
 		end
 	end
-	label_rank:setText(data.extendData.des2)
+	label_rank:setTextById(data.extendData.des2)
 	label_rank:setSkewX(10)
 end
 

@@ -58,7 +58,7 @@ return {
         roleModel = 210112,
         icon = "icon/role/dress_kanban/10111.png",
         accessId = {
-            [1] = 96,
+            [1] = 4,
         },
         totalMax = 1,
     },
@@ -1916,7 +1916,6 @@ return {
         roleModel = 210220,
         icon = "icon/role/dress_kanban/10219.png",
         accessId = {
-            [1] = 122,
         },
         totalMax = 1,
     },
@@ -2155,6 +2154,7 @@ return {
         roleModel = 210221,
         icon = "icon/role/dress_kanban/10221.png",
         accessId = {
+            [1] = 4,
         },
         totalMax = 1,
     },
@@ -3108,6 +3108,7 @@ return {
         roleModel = 211307,
         icon = "icon/role/dress_kanban/11307.png",
         accessId = {
+            [1] = 308,
         },
         totalMax = 1,
     },
@@ -3653,6 +3654,7 @@ return {
         roleModel = 210424,
         icon = "icon/role/dress_kanban/10424.png",
         accessId = {
+            [1] = 4,
         },
         totalMax = 1,
     },
@@ -4148,6 +4150,7 @@ return {
         roleModel = 211316,
         icon = "icon/role/dress_kanban/11316.png",
         accessId = {
+            [1] = 307,
         },
         totalMax = 1,
     },
@@ -4522,7 +4525,7 @@ return {
         sellProfit = {
         },
         convertMax = {
-            [570004] = 120,
+            [566057] = 120,
         },
         offSet = {
             y = 110,
@@ -4719,7 +4722,6 @@ return {
         roleModel = 210220,
         icon = "icon/role/dress_kanban/10219.png",
         accessId = {
-            [1] = 121,
         },
         totalMax = 1,
     },

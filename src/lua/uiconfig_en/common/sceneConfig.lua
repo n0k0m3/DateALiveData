@@ -369,5 +369,15 @@ local t = {
 			canLoad=true,
 			logic="",
 		},
+		{
+			name="normalHelpView",
+			ui ="normalHelpView.lua",
+			x=0,
+			y=0,
+			speed=0,
+			layer="common",
+			canLoad=true,
+			logic="",
+		},
 }
 return t

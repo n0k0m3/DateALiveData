@@ -62,7 +62,7 @@ function CrazyDiamondActivityView:onRespCrazyDiamondDrawRsp( data )
 
     if not data.isDraw then
         if not self.openCrazyDiamondMainLayer then
-            Utils:openView("activity.CrazyDiamondMainLayer",self.activityId_)
+            Utils:openView("activity.CrazyDiamondMainLayerNew",self.activityId_)
         end
         self.openCrazyDiamondMainLayer = true
     end

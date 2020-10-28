@@ -52,6 +52,8 @@ function ActivityMainView:initData(selectActivityId,activityShowType)
             [EC_ActivityType2.CRAZY_DIAMOND] = requireNew("lua.logic.activity.CrazyDiamondActivityView"),
             [EC_ActivityType2.TURNTABLE] = requireNew("lua.logic.activity.TurntableActivityView"),
             [EC_ActivityType2.DFW_NEW] = requireNew("lua.logic.activity.DfwNewActivityView"),
+            [EC_ActivityType2.CALL_BACK] = requireNew("lua.logic.activity.CallBackMainView"),
+            [EC_ActivityType2.NEW_BACKACTIVITY] = requireNew("lua.logic.activity.TaskActivityView"),
 
         },
         [3] = {
@@ -220,8 +222,11 @@ function ActivityMainView:addModelItem(activitId, type_)
     end
     local modelClass = modelClassMap[type_] or self.createModelClass_[DEFAULT_SHOW_TYPE][type_]
     if modelClass then
-        local model = modelClass:new(activitId)
+        local model = modelClass:new(activitId, self)
         self:addLayerToNode(model, self.Panel_activity)
+        if self:getParent() then
+            model:onShow()
+        end
         return model
     else
         Box("not found ModelClass for type:"..tostring(type_))

@@ -31,11 +31,15 @@ return {
         startDate = {
         },
         ad1 = "1200032",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
         },
@@ -92,11 +96,15 @@ return {
         startDate = {
         },
         ad1 = "1200034",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
         },
@@ -153,6 +161,7 @@ return {
         startDate = {
         },
         ad1 = "1200036",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 2,
             [2] = 3,
@@ -214,6 +223,7 @@ return {
         startDate = {
         },
         ad1 = "1200038",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 2,
             [2] = 3,
@@ -293,11 +303,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
             [1] = 2018,
@@ -396,11 +410,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
             [1] = 2018,
@@ -502,6 +520,7 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
@@ -590,6 +609,7 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
@@ -675,11 +695,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
             [1] = 2018,
@@ -763,11 +787,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
             [1] = 2018,
@@ -854,11 +882,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
             [1] = 2018,
@@ -942,11 +974,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
             [1] = 2018,
@@ -1027,11 +1063,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
             [1] = 2018,
@@ -1115,11 +1155,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
             [1] = 2018,
@@ -1206,11 +1250,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
             [1] = 2018,
@@ -1294,11 +1342,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
             [1] = 2018,
@@ -1382,11 +1434,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
             [1] = 2018,
@@ -1470,11 +1526,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
             [1] = 2018,
@@ -1558,6 +1618,7 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
@@ -1646,6 +1707,7 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
@@ -1731,11 +1793,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
             [1] = 2019,
@@ -1819,11 +1885,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
             [1] = 2019,
@@ -1907,6 +1977,7 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
@@ -1992,6 +2063,7 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
@@ -2080,11 +2152,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
             [1] = 2019,
@@ -2168,11 +2244,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
             [1] = 2019,
@@ -2253,11 +2333,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
             [1] = 2019,
@@ -2341,11 +2425,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
             [1] = 2019,
@@ -2429,6 +2517,7 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 2,
             [2] = 3,
@@ -2517,11 +2606,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
             [1] = 2020,
@@ -2605,11 +2698,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
             [1] = 2020,
@@ -2690,11 +2787,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
             [1] = 2020,
@@ -2778,11 +2879,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
             [1] = 2020,
@@ -2869,6 +2974,7 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
@@ -2957,6 +3063,7 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
@@ -3042,11 +3149,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
             [1] = 2020,
@@ -3130,11 +3241,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
             [1] = 2020,
@@ -3221,11 +3336,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
             [1] = 2019,
@@ -3309,11 +3428,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
             [1] = 2019,
@@ -3394,11 +3517,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
             [1] = 2019,
@@ -3482,11 +3609,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
             [1] = 2019,
@@ -3573,11 +3704,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
             [1] = 2020,
@@ -3661,11 +3796,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
             [1] = 2020,
@@ -3746,11 +3885,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
             [1] = 2020,
@@ -3834,11 +3977,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
             [1] = 2020,
@@ -3922,6 +4069,7 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 2,
             [2] = 2,
@@ -4007,6 +4155,7 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 2,
             [2] = 2,
@@ -4095,11 +4244,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
             [1] = 2019,
@@ -4183,11 +4336,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
             [1] = 2019,
@@ -4268,11 +4425,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
             [1] = 2020,
@@ -4356,11 +4517,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
             [1] = 2020,
@@ -4447,6 +4612,7 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
@@ -4535,6 +4701,7 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
@@ -4620,11 +4787,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
             [1] = 2019,
@@ -4708,11 +4879,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
             [1] = 2019,
@@ -4778,6 +4953,7 @@ return {
         startDate = {
         },
         ad1 = "1200032",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 4,
             [2] = 4,
@@ -4839,6 +5015,7 @@ return {
         startDate = {
         },
         ad1 = "1200032",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 4,
             [2] = 4,
@@ -4918,6 +5095,7 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 4,
             [2] = 4,
@@ -5004,6 +5182,7 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 4,
             [2] = 4,
@@ -5093,11 +5272,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
             [1] = 2019,
@@ -5181,11 +5364,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
             [1] = 2019,
@@ -5266,11 +5453,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
             [1] = 2019,
@@ -5354,11 +5545,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
             [1] = 2019,
@@ -5424,6 +5619,7 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 2,
             [2] = 2,
@@ -5485,6 +5681,7 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 2,
             [2] = 2,
@@ -5567,11 +5764,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
             [1] = 2019,
@@ -5655,11 +5856,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
             [1] = 2019,
@@ -5740,11 +5945,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
             [1] = 2019,
@@ -5828,11 +6037,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
             [1] = 2019,
@@ -5919,6 +6132,7 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
@@ -6007,6 +6221,7 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
@@ -6092,11 +6307,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
             [1] = 2020,
@@ -6180,11 +6399,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
             [1] = 2020,
@@ -6271,6 +6494,7 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 4,
             [2] = 4,
@@ -6359,6 +6583,7 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 4,
             [2] = 4,
@@ -6447,6 +6672,7 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 4,
             [2] = 4,
@@ -6535,6 +6761,7 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 4,
             [2] = 4,
@@ -6620,11 +6847,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
             [1] = 2019,
@@ -6708,11 +6939,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
             [1] = 2019,
@@ -6796,11 +7031,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
             [1] = 2019,
@@ -6884,11 +7123,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
             [1] = 2019,
@@ -6975,6 +7218,7 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
@@ -7063,6 +7307,7 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
@@ -7148,11 +7393,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
             [1] = 2019,
@@ -7236,11 +7485,15 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
             [1] = 2019,
@@ -7324,6 +7577,7 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 4,
             [2] = 4,
@@ -7410,6 +7664,7 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 4,
             [2] = 4,
@@ -7481,11 +7736,15 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
         },
@@ -7545,11 +7804,15 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
         },
@@ -7609,11 +7872,15 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
         },
@@ -7673,11 +7940,15 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
         },
@@ -7698,6 +7969,92 @@ return {
         },
         costCommodity = 100101,
         heroId = 110401,
+        goods = {
+        },
+        titleType = 0,
+    },
+    [12105] = {
+        heroReward = {
+        },
+        cost = {
+            [1] = {
+                [566056] = 10,
+            },
+        },
+        order = 3,
+        showStartDate = {
+            [1] = 2020,
+            [2] = 10,
+            [3] = 28,
+            [4] = 0,
+            [5] = 0,
+            [6] = 0,
+        },
+        dungeonId2 = 0,
+        sunmmonId = 0,
+        icon = "ui/summon/ad_clothes3.png",
+        rareItemTimes = 10,
+         image_r = "",
+        up = false,
+        cardCount = 10,
+        endDate = {
+            [1] = 2020,
+            [2] = 11,
+            [3] = 10,
+            [4] = 23,
+            [5] = 59,
+            [6] = 59,
+        },
+        timeText = "活动时间：2020.7.10至2020.8.30 23:59",
+        rareGetTimes = 30,
+        name = "190000221",
+        immortalItemTimes = 15,
+        poolType = 920,
+        noobIcon = "",
+        summonType = 7,
+        smallIcon = "ui/summon/btn_clothes.png",
+        interfaceType = 1,
+        startDate = {
+            [1] = 2020,
+            [2] = 10,
+            [3] = 28,
+            [4] = 0,
+            [5] = 0,
+            [6] = 0,
+        },
+        ad1 = "",
+        clothesSummonShow = true,
+        minQuality = {
+            [1] = 2,
+            [2] = 2,
+        },
+        firstCost = {
+        },
+        showEndDate = {
+            [1] = 2020,
+            [2] = 11,
+            [3] = 10,
+            [4] = 23,
+            [5] = 59,
+            [6] = 59,
+        },
+        personalExclusive = 0,
+        groupId = 12102,
+        id = 12105,
+        image_l  = "",
+        ad2 = "",
+        maxQuality = {
+            [1] = 3,
+            [2] = 3,
+        },
+        immortalGetTimes = 40,
+        equipmentReward = {
+        },
+        dungeonId1  = 0,
+        detailsPosition = {
+        },
+        costCommodity = 0,
+        heroId = 0,
         goods = {
         },
         titleType = 0,
@@ -7731,6 +8088,7 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
@@ -7792,11 +8150,15 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
         },
@@ -7862,11 +8224,15 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
         },
@@ -7932,11 +8298,15 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
         },
@@ -7993,11 +8363,15 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
         },
@@ -8060,11 +8434,15 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
         },
@@ -8130,11 +8508,15 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
         },
@@ -8197,6 +8579,7 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
@@ -8258,11 +8641,15 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
         },
@@ -8337,6 +8724,7 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
         },
         firstCost = {
@@ -8400,11 +8788,15 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
         },
@@ -8467,11 +8859,15 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
         },
@@ -8528,11 +8924,15 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
         },
@@ -8598,11 +8998,15 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
         },
@@ -8631,6 +9035,92 @@ return {
         detailsPosition = {
         },
         costCommodity = 100101,
+        heroId = 0,
+        goods = {
+        },
+        titleType = 0,
+    },
+    [12104] = {
+        heroReward = {
+        },
+        cost = {
+            [1] = {
+                [566056] = 1,
+            },
+        },
+        order = 3,
+        showStartDate = {
+            [1] = 2020,
+            [2] = 10,
+            [3] = 28,
+            [4] = 0,
+            [5] = 0,
+            [6] = 0,
+        },
+        dungeonId2 = 0,
+        sunmmonId = 0,
+        icon = "ui/summon/ad_clothes3.png",
+        rareItemTimes = 10,
+         image_r = "",
+        up = false,
+        cardCount = 1,
+        endDate = {
+            [1] = 2020,
+            [2] = 11,
+            [3] = 10,
+            [4] = 23,
+            [5] = 59,
+            [6] = 59,
+        },
+        timeText = "活动时间：2020.7.10至2020.8.30 23:59",
+        rareGetTimes = 30,
+        name = "190000221",
+        immortalItemTimes = 15,
+        poolType = 920,
+        noobIcon = "",
+        summonType = 7,
+        smallIcon = "ui/summon/btn_clothes.png",
+        interfaceType = 1,
+        startDate = {
+            [1] = 2020,
+            [2] = 10,
+            [3] = 28,
+            [4] = 0,
+            [5] = 0,
+            [6] = 0,
+        },
+        ad1 = "",
+        clothesSummonShow = true,
+        minQuality = {
+            [1] = 2,
+            [2] = 2,
+        },
+        firstCost = {
+        },
+        showEndDate = {
+            [1] = 2020,
+            [2] = 11,
+            [3] = 10,
+            [4] = 23,
+            [5] = 59,
+            [6] = 59,
+        },
+        personalExclusive = 0,
+        groupId = 12102,
+        id = 12104,
+        image_l  = "",
+        ad2 = "",
+        maxQuality = {
+            [1] = 3,
+            [2] = 3,
+        },
+        immortalGetTimes = 40,
+        equipmentReward = {
+        },
+        dungeonId1  = 0,
+        detailsPosition = {
+        },
+        costCommodity = 0,
         heroId = 0,
         goods = {
         },
@@ -8668,11 +9158,15 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
         },
@@ -8698,6 +9192,71 @@ return {
             [9] = 250192,
         },
         dungeonId1  = 0,
+        detailsPosition = {
+        },
+        costCommodity = 100101,
+        heroId = 0,
+        goods = {
+        },
+        titleType = 0,
+    },
+    [1052] = {
+        heroReward = {
+        },
+        cost = {
+            [1] = {
+                [570033] = 10,
+            },
+        },
+        order = 998,
+        showStartDate = {
+        },
+        dungeonId2 = 0,
+        sunmmonId = 0,
+        icon = "ui/summon/031.png",
+        rareItemTimes = 0,
+         image_r = "",
+        up = false,
+        cardCount = 10,
+        endDate = {
+        },
+        timeText = "",
+        rareGetTimes = 10,
+        name = "1200063",
+        immortalItemTimes = 0,
+        poolType = 10005,
+        noobIcon = "ui/summon/mengxin.png",
+        summonType = 998,
+        smallIcon = "ui/summon/hot_spot/009.png",
+        interfaceType = 1,
+        startDate = {
+        },
+        ad1 = "",
+        clothesSummonShow = false,
+        minQuality = {
+            [1] = 3,
+            [2] = 3,
+        },
+        firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
+        },
+        showEndDate = {
+        },
+        personalExclusive = 0,
+        groupId = 1005,
+        id = 1052,
+        image_l  = "",
+        ad2 = "",
+        maxQuality = {
+            [1] = 4,
+            [2] = 4,
+        },
+        immortalGetTimes = 99999,
+        equipmentReward = {
+        },
+        dungeonId1  = 710001,
         detailsPosition = {
         },
         costCommodity = 100101,
@@ -8738,11 +9297,15 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
         },
@@ -8799,11 +9362,15 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
         },
@@ -8832,6 +9399,92 @@ return {
         detailsPosition = {
         },
         costCommodity = 100101,
+        heroId = 0,
+        goods = {
+        },
+        titleType = 0,
+    },
+    [12102] = {
+        heroReward = {
+        },
+        cost = {
+            [1] = {
+                [500002] = 120,
+            },
+        },
+        order = 3,
+        showStartDate = {
+            [1] = 2020,
+            [2] = 10,
+            [3] = 28,
+            [4] = 0,
+            [5] = 0,
+            [6] = 0,
+        },
+        dungeonId2 = 0,
+        sunmmonId = 0,
+        icon = "ui/summon/ad_clothes4.png",
+        rareItemTimes = 10,
+         image_r = "",
+        up = false,
+        cardCount = 1,
+        endDate = {
+            [1] = 2020,
+            [2] = 11,
+            [3] = 10,
+            [4] = 23,
+            [5] = 59,
+            [6] = 59,
+        },
+        timeText = "活动时间：2020.7.10至2020.8.30 23:59",
+        rareGetTimes = 99999,
+        name = "1200061",
+        immortalItemTimes = 15,
+        poolType = 910,
+        noobIcon = "",
+        summonType = 7,
+        smallIcon = "ui/summon/btn_clothes.png",
+        interfaceType = 1,
+        startDate = {
+            [1] = 2020,
+            [2] = 10,
+            [3] = 28,
+            [4] = 0,
+            [5] = 0,
+            [6] = 0,
+        },
+        ad1 = "",
+        clothesSummonShow = false,
+        minQuality = {
+            [1] = 2,
+            [2] = 2,
+        },
+        firstCost = {
+        },
+        showEndDate = {
+            [1] = 2020,
+            [2] = 11,
+            [3] = 10,
+            [4] = 23,
+            [5] = 59,
+            [6] = 59,
+        },
+        personalExclusive = 0,
+        groupId = 12101,
+        id = 12102,
+        image_l  = "",
+        ad2 = "",
+        maxQuality = {
+            [1] = 3,
+            [2] = 3,
+        },
+        immortalGetTimes = 99999,
+        equipmentReward = {
+        },
+        dungeonId1  = 0,
+        detailsPosition = {
+        },
+        costCommodity = 0,
         heroId = 0,
         goods = {
         },
@@ -8887,6 +9540,7 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 2,
             [2] = 2,
@@ -8954,11 +9608,15 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
         },
@@ -9024,11 +9682,15 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
         },
@@ -9085,6 +9747,7 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
@@ -9164,6 +9827,7 @@ return {
             [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 2,
             [2] = 2,
@@ -9231,11 +9895,15 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
         },
@@ -9292,11 +9960,15 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
         },
@@ -9362,6 +10034,7 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
@@ -9420,6 +10093,7 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
@@ -9478,6 +10152,7 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
@@ -9539,11 +10214,15 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
         },
@@ -9609,11 +10288,15 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
         },
@@ -9676,6 +10359,7 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
@@ -9737,11 +10421,15 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
         },
@@ -9795,6 +10483,7 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
@@ -9853,6 +10542,7 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
@@ -9914,6 +10604,7 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
@@ -9972,6 +10663,7 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
@@ -10033,11 +10725,15 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
         },
@@ -10103,11 +10799,15 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
         },
@@ -10173,11 +10873,15 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
         },
@@ -10234,11 +10938,15 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
         },
@@ -10295,6 +11003,7 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
@@ -10356,11 +11065,15 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
         },
@@ -10426,11 +11139,15 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
         },
@@ -10496,11 +11213,15 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
         },
@@ -10566,11 +11287,15 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
         },
@@ -10636,11 +11361,15 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
         },
@@ -10706,11 +11435,15 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
         },
@@ -10776,11 +11509,15 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
         },
@@ -10846,11 +11583,15 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
         },
@@ -10907,11 +11648,15 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
         },
@@ -10965,6 +11710,7 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
@@ -10994,62 +11740,87 @@ return {
         },
         titleType = 0,
     },
-    [1052] = {
+    [12103] = {
         heroReward = {
         },
         cost = {
             [1] = {
-                [570033] = 10,
+                [500002] = 1200,
             },
         },
-        order = 998,
+        order = 3,
         showStartDate = {
+            [1] = 2020,
+            [2] = 10,
+            [3] = 28,
+            [4] = 0,
+            [5] = 0,
+            [6] = 0,
         },
         dungeonId2 = 0,
         sunmmonId = 0,
-        icon = "ui/summon/031.png",
-        rareItemTimes = 0,
+        icon = "ui/summon/ad_clothes4.png",
+        rareItemTimes = 10,
          image_r = "",
         up = false,
         cardCount = 10,
         endDate = {
+            [1] = 2020,
+            [2] = 11,
+            [3] = 10,
+            [4] = 23,
+            [5] = 59,
+            [6] = 59,
         },
-        timeText = "",
-        rareGetTimes = 10,
-        name = "1200063",
-        immortalItemTimes = 0,
-        poolType = 10005,
-        noobIcon = "ui/summon/mengxin.png",
-        summonType = 998,
-        smallIcon = "ui/summon/hot_spot/009.png",
+        timeText = "活动时间：2020.7.10至2020.8.30 23:59",
+        rareGetTimes = 99999,
+        name = "1200061",
+        immortalItemTimes = 15,
+        poolType = 910,
+        noobIcon = "",
+        summonType = 7,
+        smallIcon = "ui/summon/btn_clothes.png",
         interfaceType = 1,
         startDate = {
+            [1] = 2020,
+            [2] = 10,
+            [3] = 28,
+            [4] = 0,
+            [5] = 0,
+            [6] = 0,
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
-            [1] = 3,
-            [2] = 3,
+            [1] = 2,
+            [2] = 2,
         },
         firstCost = {
         },
         showEndDate = {
+            [1] = 2020,
+            [2] = 11,
+            [3] = 10,
+            [4] = 23,
+            [5] = 59,
+            [6] = 59,
         },
         personalExclusive = 0,
-        groupId = 1005,
-        id = 1052,
+        groupId = 12101,
+        id = 12103,
         image_l  = "",
         ad2 = "",
         maxQuality = {
-            [1] = 4,
-            [2] = 4,
+            [1] = 3,
+            [2] = 3,
         },
         immortalGetTimes = 99999,
         equipmentReward = {
         },
-        dungeonId1  = 710001,
+        dungeonId1  = 0,
         detailsPosition = {
         },
-        costCommodity = 100101,
+        costCommodity = 0,
         heroId = 0,
         goods = {
         },
@@ -11084,6 +11855,7 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
@@ -11145,11 +11917,15 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 4,
         },
         firstCost = {
+            [1] = {
+                [566058] = 10,
+            },
         },
         showEndDate = {
         },
@@ -11215,11 +11991,15 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
         },
@@ -11276,11 +12056,15 @@ return {
         startDate = {
         },
         ad1 = "",
+        clothesSummonShow = false,
         minQuality = {
             [1] = 3,
             [2] = 3,
         },
         firstCost = {
+            [1] = {
+                [566058] = 1,
+            },
         },
         showEndDate = {
         },

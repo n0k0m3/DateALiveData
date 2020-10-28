@@ -79,6 +79,11 @@ return {
         limitData = 21600,
         id = 598407,
     },
+    [598420] = {
+        limitType = 1,
+        limitData = 21600,
+        id = 598420,
+    },
     [598408] = {
         limitType = 1,
         limitData = 21600,
@@ -429,10 +434,10 @@ return {
         limitData = 10080,
         id = 600001,
     },
-    [598420] = {
+    [566058] = {
         limitType = 1,
-        limitData = 21600,
-        id = 598420,
+        limitData = 43200,
+        id = 566058,
     },
     [699091] = {
         limitType = 1,

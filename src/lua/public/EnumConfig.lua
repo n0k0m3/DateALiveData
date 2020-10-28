@@ -1621,6 +1621,7 @@ EC_ActivityType2 = {
     NEWPLAYER = 1003, --萌新
     BACKPLAYER = 1002, --回归指引
     BACKACTIVITY = 1001, --回归活动
+    NEW_BACKACTIVITY = 1021, --新回归活动
     VALENTINE = 1006,    -- 情人节活动
     CGCOLLECTED = 1007,    -- CG收集活动
     DUANWU_2 = 1008,    -- 端午
@@ -1661,6 +1662,7 @@ EC_ActivityType2 = {
     TURNTABLE = 1075  ,  --占卜罗盘活动
     DFW_NEW = 1076,         -- 新-大富翁活动
     FANSHI_ASSIST = 1001,  --反十应援活动
+    CALL_BACK = 48,             --回归活动
 }
 
 EC_Activity_CHRISTMAS_Subtype = {

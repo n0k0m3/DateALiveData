@@ -886,6 +886,12 @@ function ElvesNpc:createLive2dNpcID(modelId,isTouch,isSendTouch,defaultAcName,is
 
 	print("ElvesNpc:createLive2dNpcID roleInfo: ",roleInfo)
 
+	if not TFFileUtil:existFile(roleInfo.rolePath  .."/" ..roleInfo.roleName) then
+		local errMsg = string.format("ElvesNpc:createLive2dNpcID modelId = %s roleInfo.rolePath  =%s roleInfo.roleName=%s  not exit resource!",tostring(modelId),tostring(roleInfo.rolePath),tostring(roleInfo.roleName))
+		Bugly:ReportLuaException(errMsg)
+		return
+	end
+
 	_ElvesNpc.live2d = TTFLive2D:createWithRole(roleInfo)
 
 	local node = CCNode:create():Size(CCSizeMake(2000,2000))

@@ -47,7 +47,7 @@ function DifficultyChoice:initUI(ui)
         self.difficultyItems[k] = node
     end
 	
-	--ÐÂÔöÖÕÑÉÖ®Õ½µÄÄÑ¶ÈÉ¸Ñ¡
+	--æ–°å¢žç»ˆç„‰ä¹‹æˆ˜çš„éš¾åº¦ç­›é€‰
 	self.blackAndWhiteDifficultyItems = {}
 	local blackAndWhiteSelects =SettingDataMgr:getBlackAndWhiteDifficultyChoice()
     for i=1,3 do

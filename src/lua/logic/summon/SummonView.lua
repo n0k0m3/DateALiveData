@@ -165,6 +165,17 @@ function SummonView:initUI(ui)
     self.Panel_special    = TFDirector:getChildByPath(self.Panel_root, "Panel_special")
     TFDirector:getChildByPath(self.Panel_special, "Label_tip2"):setTextById(15010061)
 
+
+    local panel_cost = TFDirector:getChildByPath(self.Panel_root , "panel_cost")
+
+
+    self.Button_goto_shop = TFButton:create("ui/summon/Store.png")
+    self.Button_goto_shop:setPosition(-67 , -7)
+    panel_cost:addChild(self.Button_goto_shop)
+
+
+    self.panel_cost_2 = TFDirector:getChildByPath(self.Panel_root , "panel_cost_2")
+
     self:refreshView()
     self:updateNoobReward()
     SummonDataMgr:resetAlreadyHaveHero()
@@ -250,6 +261,17 @@ function SummonView:updateSelectInfo()
 
     self.Button_goto:setVisible(summonCfg.summonType == EC_SummonType.CLOTHESE)
     self.Button_show:setVisible(summonCfg.summonType == EC_SummonType.CLOTHESE)
+
+    self.Button_goto_shop:setVisible(summonCfg.clothesSummonShow)
+    self.panel_cost_2:setVisible(summonCfg.clothesSummonShow)
+
+    self.panel_cost_2:getChildByName("Image_cloth_icon"):setTexture(GoodsDataMgr:getItemCfg(566057).icon)
+    self.panel_cost_2:getChildByName("Label_cur"):setTextById(800007, GoodsDataMgr:getItemCount(566057))
+    self.panel_cost_2:getChildByName("Label_have"):setTextById(1200001, TextDataMgr:getText(GoodsDataMgr:getItemCfg(566057).nameTextId))
+
+
+    self.Button_goto:setVisible(false) ---英文版屏蔽高级时装跳转
+
     
     --暂时屏蔽狂三卡池试用
     self.Button_show:hide()
@@ -681,6 +703,12 @@ function SummonView:registerEvents()
     EventMgr:addEventListener(self, EV_FUBEN_UPDATE_LIMITHERO, handler(self.onLimitHeroEvent, self))
     EventMgr:addEventListener(self, EV_SUMMON_HOTSPLOT_UPDATE, handler(self.onHotSpotUpdateEvent, self))
     EventMgr:addEventListener(self, EV_PRIVILEGE_UPDATE, handler(self.updateSelectInfo, self))
+
+
+
+    self.Button_goto_shop:onClick(function( ... )
+        FunctionDataMgr:jStore(600002)
+    end)
 
     self.Button_preview:onClick(function()
         local summon = self.viewSelectSummon_

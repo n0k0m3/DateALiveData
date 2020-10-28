@@ -37,5 +37,5 @@ GV_MIDAUTUMN_580128_FIRSTMAKE = make("GV_MIDAUTUMN_580128_FIRSTMAKE", "boolean",
 GV_MIDAUTUMN_580129_FIRSTMAKE = make("GV_MIDAUTUMN_580129_FIRSTMAKE", "boolean", true, true)
 
 
-GV_UTC_TIME_ZONE = -7   ---Utc时区设置 目前 正负即为 对应+ - 时区
+GV_UTC_TIME_ZONE =  -7 -- + (os.date("*t" , os.time()).isdst and -1 or 0)  ---Utc时区设置 目前 正负即为 对应+ - 时区 另加冬夏令时加减1小时 目前暂时屏蔽冬夏令时判断（美国utc-7冬夏令时时区为加减1小时 所以为-1 or 0 其它时区同理）
 GV_UTC_TIME_STRING = "(UTC-7)"

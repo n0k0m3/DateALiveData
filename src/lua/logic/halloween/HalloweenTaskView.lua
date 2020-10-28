@@ -120,8 +120,8 @@ function HalloweenTaskView:updateItem( item, data )
 	Image_get:setVisible(progressInfo.status == EC_TaskStatus.GET)
 	label_ing:setVisible(progressInfo.status == EC_TaskStatus.ING)
 
-	task_des1:setText(data.extendData.des2)
-	task_des2:setText(data.extendData.des2)
+	task_des1:setTextById(data.extendData.des2 , data.target)
+	task_des2:setTextById(data.extendData.des2 , data.target)
 
 	label_progress:setText("("..progressInfo.progress.."/"..data.target..")")
 	if progressInfo.status ~= EC_TaskStatus.ING then

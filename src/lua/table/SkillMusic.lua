@@ -31175,7 +31175,7 @@ return {
         musicType = 0,
     },
     [2162] = {
-        action = "SkillB_0",
+        action = "skillB_0",
         cartoonType = 2,
         triggerEvents = {
             [1] = "music1",
@@ -31189,7 +31189,7 @@ return {
         musicType = 0,
     },
     [2163] = {
-        action = "SkillB_0",
+        action = "skillB_0",
         cartoonType = 2,
         triggerEvents = {
             [1] = "music2",
@@ -31203,7 +31203,7 @@ return {
         musicType = 0,
     },
     [2164] = {
-        action = "SkillB_0",
+        action = "skillB_0",
         cartoonType = 2,
         triggerEvents = {
             [1] = "music2",

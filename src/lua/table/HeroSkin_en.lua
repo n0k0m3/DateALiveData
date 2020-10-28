@@ -239,7 +239,7 @@ return {
         moveType = 0,
         subType = 0,
         convertMax = {
-            [570003] = 30,
+            [566057] = 150,
         },
         model = "fight_10505",
         angelSkills = {
@@ -292,6 +292,7 @@ return {
         },
         quality = 5,
         accessId = {
+            [1] = 4,
         },
         AngelSkillTree = "Angle_skill_1105",
     },
@@ -965,7 +966,7 @@ return {
         moveType = 0,
         subType = 0,
         convertMax = {
-            [570003] = 120,
+            [566057] = 150,
         },
         model = "fight_10305",
         angelSkills = {
@@ -1017,6 +1018,7 @@ return {
         },
         quality = 5,
         accessId = {
+            [1] = 4,
         },
         AngelSkillTree = "Angle_skill_1103",
     },
@@ -1184,7 +1186,7 @@ return {
         moveType = 0,
         subType = 0,
         convertMax = {
-            [570003] = 120,
+            [566057] = 150,
         },
         model = "fight_10309",
         angelSkills = {
@@ -1236,6 +1238,7 @@ return {
         },
         quality = 5,
         accessId = {
+            [1] = 4,
         },
         AngelSkillTree = "Angle_skill_1103",
     },
@@ -2055,7 +2058,7 @@ return {
         moveType = 0,
         subType = 0,
         convertMax = {
-            [570003] = 120,
+            [566057] = 150,
         },
         model = "fight_10111",
         angelSkills = {
@@ -2107,6 +2110,7 @@ return {
         },
         quality = 5,
         accessId = {
+            [1] = 4,
         },
         AngelSkillTree = "Angle_skill_1101",
     },

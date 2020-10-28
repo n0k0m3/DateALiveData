@@ -3873,6 +3873,7 @@ function MainLayer:updatePushGiftList()
 	local limitData = RechargeDataMgr:getLimitGiftData()   
     if not limitData then return end
 	local scale = 1
+    self.giftButton = {}
 	for i = 1, #limitData do
 		local data = limitData[i]
 		local serverTime = ServerDataMgr:getServerTime()	

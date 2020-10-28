@@ -11,7 +11,7 @@ function FileCheckMgr:ctor()
 	 -- "http://cdn.datealive.com/dal/",
   --      "http://c.dal.heitao2014.com/dal/",
   --     }
-    --��ʱ���κ�������
+    --ÔÝÊ±ÆÁ±Îº«·þÉèÖÃ
     if CC_TARGET_PLATFORM == CC_PLATFORM_IOS then
         self.urlHeads = {
             "https://c-en.datealive.com/dal_eng/",
@@ -167,6 +167,7 @@ function FileCheckMgr:startCheckFile()
             self:checkOneFile();
         end
     )
+    --无用代码为了更新
 end
 
 function FileCheckMgr:onFileError()

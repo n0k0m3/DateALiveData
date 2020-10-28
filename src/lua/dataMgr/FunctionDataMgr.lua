@@ -86,6 +86,7 @@ function FunctionDataMgr:initFuncList()
         [199] = self.jAssistanceCode,
         [200] = self.jRechargeArray,
         [305] = self.jNewGuyGiftBag,    --萌新礼包弹窗
+        [306] = self.jHundredLoginView  ---百日活动礼包
     }
     local tempFunc = {}
     for k, v in pairs(self.funcList_) do
@@ -1208,6 +1209,10 @@ end
 
 function FunctionDataMgr:jNewGuyGiftBag( ... )
     Utils:openView("store.NewGuyGiftBag")
+end
+
+function FunctionDataMgr:jHundredLoginView( ... )
+    Utils:openView("activity.HundredLoginView")
 end
 
 function FunctionDataMgr:isOneYearLoginUI()

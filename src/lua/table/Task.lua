@@ -27740,6 +27740,42 @@ return {
         },
         des = "1320001",
     },
+    [799000] = {
+        finishCondId = 3010,
+        order = 1,
+        acceptParams = {
+        },
+        taskCollection = false,
+        resetType = 1,
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 799000,
+        extendsTaskId = 0,
+        subType = 2,
+        reward = {
+            [1] = {
+                [1] = 566058,
+                [2] = 10,
+            },
+        },
+        progress = 100,
+        type = 4,
+        name = "",
+        acceptCondId = 0,
+        finishParams = {
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "190000237",
+    },
     [740032] = {
         finishCondId = 31001,
         order = 32,
