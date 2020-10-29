@@ -268,10 +268,89 @@ local t =
 									ZOrder = "1",
 								},
 								{
+									controlID = "Button_buy_1_Panel_content_Panel_base_Panel-monthCardNew_Layer1_recharge_Game",
+									UUID = "66ef0644_9021_47ae_8a93_1f12e0997886",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
+									classname = "MEButton",
+									ClickHighLightEnabled = "True",
+									dstBlendFunc = "771",
+									flipX = "False",
+									flipY = "False",
+									height = "38",
+									ignoreSize = "False",
+									name = "Button_buy_1",
+									normal = "ui/activity/assist/019.png",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									touchAble = "True",
+									UILayoutViewModel = 
+									{
+										PositionX = 106,
+										PositionY = 210,
+									},
+									UItype = "Button",
+									width = "140",
+									ZOrder = "1",
+									components = 
+									{
+										
+										{
+											controlID = "Label_goto_Button_buy_1_Panel_content_Panel_base_Panel-monthCardNew_Layer1_recharge_Game",
+											UUID = "35e8aa35_82e4_4e5c_8016_f7b49c62cffa",
+											anchorPoint = "False",
+											anchorPointX = "1",
+											anchorPointY = "0.5",
+											classname = "MELabel",
+											compPath = "luacomponents.common.MEIconLabel",
+											dstBlendFunc = "771",
+											FontColor = "#FFFFFFFF",
+											fontName = "font/fangzheng_zhunyuan.ttf",
+											fontShadow = 
+											{
+												IsShadow = false,
+												ShadowColor = "#FFFFFFFF",
+												ShadowAlpha = 255,
+												OffsetX = 0,
+												OffsetY = 0,
+											},
+											fontSize = "15",
+											fontStroke = 
+											{
+												IsStroke = false,
+												StrokeColor = "#FFE6E6E6",
+												StrokeSize = 1,
+											},
+											height = "0",
+											ignoreSize = "False",
+											name = "Label_goto",
+											nTextAlign = "1",
+											nTextHAlign = "1",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "770",
+											text = "Resume Subscription",
+											touchAble = "False",
+											touchScaleEnable = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = 35,
+											},
+											width = "85",
+											ZOrder = "1",
+										},
+									},
+								},
+								{
 									controlID = "Label_monthCard_1_Panel_content_Panel_base_Panel-monthCardNew_Layer1_recharge_Game",
 									UUID = "5a9d5a53_7ee2_4797_89be_4c6e8a65a25a",
 									anchorPoint = "False",
-									anchorPointX = "0.5",
+									anchorPointX = "0",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -286,7 +365,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -297,7 +376,7 @@ local t =
 									ignoreSize = "False",
 									name = "Label_monthCard_1",
 									nTextAlign = "1",
-									nTextHAlign = "1",
+									nTextHAlign = "0",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -307,9 +386,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionY = 206,
+										PositionX = -175,
+										PositionY = 209,
 									},
-									width = "352",
+									width = "215",
 									ZOrder = "1",
 								},
 								{
@@ -577,6 +657,7 @@ local t =
 		{
 			"ui/recharge/monthCardNew/2.png",
 			"ui/recharge/monthCardNew/1.png",
+			"ui/activity/assist/019.png",
 			"ui/task/1101.png",
 		},
 		armatures = 

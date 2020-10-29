@@ -21,6 +21,12 @@ function MonthCardNew:initUI(ui)
             RechargeDataMgr:getOrderNO(self.rechargeData.rechargeCfg.id)
         end)
 
+    
+    self.Button_buy_1   = TFDirector:getChildByPath(self.ui,"Button_buy_1");
+    self.Button_buy_1:onClick(function()
+            RechargeDataMgr:getOrderNO(self.rechargeData.rechargeCfg.id)
+        end)
+
     self.Button_shiyong = TFDirector:getChildByPath(self.ui , "Button_shiyong")
     self.Button_shiyong:onClick(function ( ... )
         TFDeviceInfo:openUrl("http://en.datealive.com/user_pay_protocol.html")
