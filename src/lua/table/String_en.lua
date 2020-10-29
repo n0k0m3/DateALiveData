@@ -68449,7 +68449,7 @@ return {
     },
     [63057] = {
         id = 63057,
-        text = "Treat? Trick! ——\n\nHalloween event has started! Don't miss out on abundant rewards!\n\nGuide of Test of Courage ——\n\n1. When exploring Test of Courage, you may trigger teamup events with Spirits. \n 2. In team-up events, giving the right answer or items to win Spirit's trust \n 3. After winning her trust, she will become your company in the follow-up event story. \n 4. Once you have a company, you will continue the main event story with her and not with anyone else. \n 5. When the main story of a Spirit is complete, you can continue or quit the test so rewards will be settled\n 6. If you choose to continue, you can save other Spirits.",
+        text = "Treat? Trick! ——\n\nHalloween event has started! Don't miss out on abundant rewards!\n\n1. Players can join the [Castle Exploration] event to explore rooms, fight enemies, and get rewards.\n\n2. The Pumpkin King's Coin obtained in the castle exploration event can be used to exchange for gifts at the exchange store.",
     },
     [10231179] = {
         id = 10231179,

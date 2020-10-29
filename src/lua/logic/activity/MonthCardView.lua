@@ -1,5 +1,5 @@
 local MonthCardView = class("MonthCardView", BaseLayer)
-
+--add to update
 function MonthCardView:ctor()
     self.super.ctor(self)
     self:initData()

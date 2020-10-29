@@ -1,7 +1,7 @@
 local FileCheckMgr = class("FileCheckMgr")
 local UserCenterHttpClient = TFClientNetHttp:GetInstance()
 local TFClientUpdate =  TFClientResourceUpdate:GetClientResourceUpdate()
-
+--add to update
 function FileCheckMgr:ctor()
     self.strCfg = require("lua.table.String" ..GAME_LANGUAGE_VAR)
 	--self.checkUrl = "http://192.168.10.16:8000/version_3.0.05.xml"

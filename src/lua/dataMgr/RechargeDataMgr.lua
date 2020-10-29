@@ -3,7 +3,7 @@ local RechargeDataMgr = class("RechargeDataMgr", BaseDataMgr)
 local UserDefalt = CCUserDefault:sharedUserDefault()
 RechargeDataMgr.RESREWARDTOTALPAY = "RechargeDataMgr.RESREWARDTOTALPAY" --领取累计充值奖励
 
-
+--add to update
 function RechargeDataMgr:ctor()
     self:init()
 	self:reset()
