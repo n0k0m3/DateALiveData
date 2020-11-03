@@ -33,13 +33,14 @@ function CommonManager:onTipInfoHandle(event)
     local status = data.status
     dump(data)
     if status == 0 then
+
         Utils:showTips(data.content)
     else
         if data.status == 2 or data.status == 3 then 
             CommonManager.tipData = data
         end
         local EC_GameAlertParams           = clone(EC_GameAlertParams)
-        EC_GameAlertParams.msg             = data.content
+        EC_GameAlertParams.msg             = Utils:MultiLanguageStringDeal(data.content)
         EC_GameAlertParams.showtype        = 1
         EC_GameAlertParams.outsideClose    = false
         EC_GameAlertParams.comfirmCallback = function ()
@@ -51,6 +52,7 @@ function CommonManager:onTipInfoHandle(event)
                 me.Director:endToLua()
             end
         end
+
         showGameAlert(EC_GameAlertParams)
     end
 end

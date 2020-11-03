@@ -453,7 +453,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									hAlignment = "1",
+									hAlignment = "0",
 									height = "160",
 									ignoreSize = "False",
 									name = "TextArea_alert_info",

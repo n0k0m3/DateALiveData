@@ -10759,6 +10759,14 @@ return {
         id = 63630,
         text = "Prydwen",
     },
+    [190000283] = {
+        id = 190000283,
+        text = "Your account has been blocked until %s.\nYour ID: %s. Server ID: %s\nPlease contact customer service at en.cs@datealive.com if you have any questions",
+    },
+    [190000282] = {
+        id = 190000282,
+        text = "Your account is abnormal. Please contact customer service\nYour ID: %s. Server ID: %s",
+    },
     [20040] = {
         id = 20040,
         text = "Type: Costume\nOwner: Kotori Itsuka\nDear horns? What? The horns of the Astral Dress look more like accessory? Huh? I won't let you touch them!",
@@ -11185,7 +11193,7 @@ return {
     },
     [190000223] = {
         id = 190000223,
-        text = "Inflicts 100000 damage",
+        text = "Inflicts %s damage",
     },
     [13400189] = {
         id = 13400189,
@@ -12341,7 +12349,7 @@ return {
     },
     [100000334] = {
         id = 100000334,
-        text = "Want some more diamonds? Here is your chance! \n\n1. During the event, you can spend specific diamonds to spin for more diamonds! \n\n2. There are two free chances for everyone, and you can get two more chances when total top up reaches $0.99, and a total of four chances when total top up reaches $4.99, $14.99, $59.99, and $99.99 during this event.\n\n3. Cost and Win: \n1st Spin: cost 88 diamonds, win 68~168 diamonds\n2nd Spin: cost 288 diamonds, win 248~488 diamonds\n3rd Spin: cost 888 diamonds, win 788~1688 diamonds\n4th Spin: cost 1688 diamonds, win 1588~2888 diamonds\n5th Spin: cost 5088 diamonds, win 5088~6888 diamonds\n6th Spin: cost 10888 diamonds, win 10888~14888 diamonds\n7th Spin: cost 20888 diamonds, win 20888~26888 diamonds\n8th Spin: cost 40888 diamonds, win 40888~58888 diamonds",
+        text = "Want some more diamonds? Here is your chance! \n\n1. During the event, you can spend specific diamonds to spin for more diamonds! \n\n2. There are two free chances for everyone, and you can get two more chances when total top up reaches $0.99, and a total of four chances when total top up reaches $4.99, $14.99, $59.99, and $99.99 during this event.\n\n3. Cost and Win: \n1st Spin: cost 88 diamonds, win 68~168 diamonds\n2nd Spin: cost 288 diamonds, win 248~488 diamonds\n3rd Spin: cost 888 diamonds, win 788~1688 diamonds\n4th Spin: cost 1688 diamonds, win 1588~2888 diamonds\n5th Spin: cost 5088 diamonds, win 5088~6888 diamonds\n6th Spin: cost 10888 diamonds, win 10888~14888 diamonds\n7th Spin: cost 20888 diamonds, win 20888~26888 diamonds\n8th Spin: cost 40888 diamonds, win 40888~48888 diamonds",
     },
     [100000333] = {
         id = 100000333,
@@ -36049,7 +36057,7 @@ return {
     },
     [12010146] = {
         id = 12010146,
-        text = "1. Yoshino's theater challenge is unlocked at level 40. Accept the challenge to enjoy splendid stories as well as exciting battles. \n2. Theater mode contains 2 parts: date stages and battle stages. \n3. Your choices in the date will influence the story up next, will there be more romance or battles? It is all up to you!",
+        text = "1. Players of level 30 of higher can accept the challenge in Mayuri's theater. Yoshino's theater challenge is unlocked at level 40. Accept the challenge to enjoy splendid stories as well as exciting battles. \n2. Theater mode contains 3 parts: date stages, battle stages and Kerubiel Challenge. \n3. Your choices in the date will influence the story up next, will there be more romance or battles? It is all up to you!\n4. During the instance challenge, you'll no longer fight alone, as each challenge from players on the server increases the unstable Spirit waves. \n5. When there are enough unstable Spirit waves, the powerful Kerubiel will appear, and players need to defeat him with joint efforts of the server to unlock new chapter.",
     },
     [12010145] = {
         id = 12010145,
@@ -43745,7 +43753,7 @@ return {
     },
     [200024] = {
         id = 200024,
-        text = "Auto-renewed already enabled. No need to buy again.",
+        text = "Already in the validity period of the monthly card. No need to buy again.",
     },
     [11001107] = {
         id = 11001107,

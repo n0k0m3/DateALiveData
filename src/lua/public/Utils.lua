@@ -1990,4 +1990,54 @@ function Utils:updateClubCountryName(bgPanel , text )
     -- local changeBtn = bgPanel:getChildByName("changeBtn")
     -- changeBtn:setPosition(bgPanel:getContentSize().width +  changeBtn:getContentSize().width/2 - 8, changeBtn:getContentSize().height / 2 - 8)
 end
+
+--多语言通用处理规则
+function Utils:MultiLanguageStringDeal(content)
+    local mailInfo = {}
+    mailInfo.body = content
+    local strTag = "#####"
+    mailInfo.isStrId = string.find(mailInfo.body , strTag)
+    if mailInfo.isStrId then
+        local strBody = string.split(mailInfo.body , strTag)
+        if GAME_LANGUAGE_VAR == EC_LanguageType.Chinese then
+            mailInfo.body = strBody[1]
+        else
+            mailInfo.body = strBody[2] or mailInfo.body
+        end
+    else
+        local bodyStr = string.split(mailInfo.body , ',')
+        if #bodyStr > 1 then
+            mailInfo.isStrId = true
+            local  symbol  = {}
+            local bodyInfo = TextDataMgr:getTextAttrCanNil(bodyStr[1])
+            if bodyInfo then
+                bodyInfo = TextDataMgr:getText(bodyStr[1])
+            else
+                bodyInfo = bodyStr[1]
+            end
+            for s in string.gmatch(bodyInfo , '(%%%a)') do
+                table.insert(symbol , s)
+            end
+            local symbolInfo = {}
+            for i=1 , #symbol , 1 do
+                if symbol[i] == "%s" then
+                    local strInfo = TextDataMgr:getTextAttrCanNil(bodyStr[i+1])
+                    if strInfo then
+                        symbolInfo[i] = TextDataMgr:getText(bodyStr[i+1])
+                    else
+                        symbolInfo[i] = bodyStr[i+1]
+                    end
+                elseif symbol[i] == "%d" then
+                    symbolInfo[i] = bodyStr[i+1]
+                end
+            end
+            mailInfo.body = TextDataMgr:getText(bodyStr[1] , unpack(symbolInfo))
+        else
+            mailInfo.body = tonumber(mailInfo.body)
+        end
+        
+    end
+    
+    return mailInfo.body
+end
 return Utils
