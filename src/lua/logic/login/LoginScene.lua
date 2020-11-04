@@ -41,12 +41,12 @@ function LoginScene:showVideoView(re)
 	local delayTime ,videoPth1, videoPth2
 	if FunctionDataMgr:isOneYearLoginUI() then
 		delayTime = 1
-		videoPth1 = "video/loginPart5.mp4"
-		videoPth2 = "video/loginPart5.mp4"
+		videoPth1 = "video/wanyouli.mp4"
+		videoPth2 = "video/wanyouli.mp4"
 	else
 		delayTime = 2
-		videoPth1 = "video/loginPart1.mp4"
-		videoPth2 = "video/loginPart2.mp4"
+		videoPth1 = "video/wanyouli.mp4"
+		videoPth2 = "video/wanyouli.mp4"
 	end
 	
 

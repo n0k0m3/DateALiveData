@@ -4300,7 +4300,7 @@ return {
             color = "#FFFFFF",
             text = "[%s]: Get",
             clickId = "",
-            size = 20,
+            size = 18,
         },
         [2] = {
             baseName = "fangzheng_zhunyuan",
@@ -4308,7 +4308,7 @@ return {
             color = "#FFDF71",
             text = " %s contribution in the challenge",
             clickId = "",
-            size = 20,
+            size = 18,
         },
         align = "left",
         id = 300998,

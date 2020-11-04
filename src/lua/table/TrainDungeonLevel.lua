@@ -74,7 +74,7 @@ return {
         LevelDesc = 2101851,
         levelTarget = 2101854,
         type = 2,
-        countLimit = 2,
+        countLimit = 1,
         capacity = 3,
         reward = {
             [1] = 61710006,
@@ -115,7 +115,7 @@ return {
         LevelDesc = 2101823,
         levelTarget = 2101826,
         type = 2,
-        countLimit = 2,
+        countLimit = 1,
         capacity = 3,
         reward = {
             [1] = 61710002,
@@ -197,7 +197,7 @@ return {
         LevelDesc = 2101823,
         levelTarget = 2101826,
         type = 2,
-        countLimit = 2,
+        countLimit = 1,
         capacity = 3,
         reward = {
             [1] = 61710003,
@@ -238,7 +238,7 @@ return {
         LevelDesc = 2101850,
         levelTarget = 2101853,
         type = 2,
-        countLimit = 2,
+        countLimit = 1,
         capacity = 3,
         reward = {
             [1] = 61710005,
@@ -320,7 +320,7 @@ return {
         LevelDesc = 2101850,
         levelTarget = 2101853,
         type = 2,
-        countLimit = 2,
+        countLimit = 1,
         capacity = 3,
         reward = {
             [1] = 61710006,
@@ -361,7 +361,7 @@ return {
         LevelDesc = 2101824,
         levelTarget = 2101828,
         type = 2,
-        countLimit = 2,
+        countLimit = 1,
         capacity = 3,
         reward = {
             [1] = 61710002,
@@ -484,7 +484,7 @@ return {
         LevelDesc = 2101824,
         levelTarget = 2101829,
         type = 2,
-        countLimit = 2,
+        countLimit = 1,
         capacity = 3,
         reward = {
             [1] = 61710003,
@@ -525,7 +525,7 @@ return {
         LevelDesc = 2101852,
         levelTarget = 2101856,
         type = 2,
-        countLimit = 2,
+        countLimit = 1,
         capacity = 3,
         reward = {
             [1] = 61710005,
@@ -566,7 +566,7 @@ return {
         LevelDesc = 2101822,
         levelTarget = 2101825,
         type = 2,
-        countLimit = 2,
+        countLimit = 1,
         capacity = 3,
         reward = {
             [1] = 61710002,
@@ -648,7 +648,7 @@ return {
         LevelDesc = 2101852,
         levelTarget = 2101857,
         type = 2,
-        countLimit = 2,
+        countLimit = 1,
         capacity = 3,
         reward = {
             [1] = 61710006,
@@ -689,7 +689,7 @@ return {
         LevelDesc = 2101822,
         levelTarget = 2101825,
         type = 2,
-        countLimit = 2,
+        countLimit = 1,
         capacity = 3,
         reward = {
             [1] = 61710003,
@@ -730,7 +730,7 @@ return {
         LevelDesc = 2101851,
         levelTarget = 2101854,
         type = 2,
-        countLimit = 2,
+        countLimit = 1,
         capacity = 3,
         reward = {
             [1] = 61710005,

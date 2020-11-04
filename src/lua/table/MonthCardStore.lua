@@ -400,7 +400,7 @@ return {
         name = "100000162",
         limitVal = 2,
         limitType = 9,
-        order = 10,
+        order = 20,
         color = 2,
         limitDes = "100000165",
     },
@@ -419,8 +419,27 @@ return {
         name = "100000163",
         limitVal = 1,
         limitType = 3,
-        order = 11,
+        order = 22,
         color = 2,
         limitDes = "100000166",
+    },
+    [23] = {
+        ext = {
+        },
+        buyEndTime = "",
+        id = 23,
+        price = {
+            [580019] = 100,
+        },
+        items = {
+            [600017] = 1,
+        },
+        buyBeginTime = "",
+        name = "14300051",
+        limitVal = 1,
+        limitType = 8,
+        order = 23,
+        color = 1,
+        limitDes = "100000170",
     },
 }

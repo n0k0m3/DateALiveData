@@ -2342,7 +2342,7 @@ return {
         sort = 723,
         sortr = "655",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
@@ -9654,7 +9654,7 @@ return {
         sort = 550,
         sortr = "597",
         name1 = 1701898,
-        isOpen = false,
+        isOpen = true,
         type1 = 5,
         type3 = {
             [1] = 205001,
@@ -11025,7 +11025,7 @@ return {
         sort = 693,
         sortr = "740",
         name1 = 1701982,
-        isOpen = false,
+        isOpen = true,
         type1 = 5,
         type3 = {
             [1] = 205001,
@@ -37649,7 +37649,7 @@ return {
         sort = 551,
         sortr = "598",
         name1 = 1701899,
-        isOpen = false,
+        isOpen = true,
         type1 = 5,
         type3 = {
             [1] = 205001,

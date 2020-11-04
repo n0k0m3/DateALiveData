@@ -432,7 +432,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "15",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -440,7 +440,7 @@ local t =
 												StrokeSize = 1,
 											},
 											height = "0",
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "Label_tips",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -448,13 +448,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
+											text = "ChallengingChallengingChallengingChallengingChallengingChallengingChallengingChallenging",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												
 											},
-											width = "0",
+											width = "345",
 											ZOrder = "1",
 										},
 									},

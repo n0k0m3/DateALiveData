@@ -53,17 +53,20 @@ function PackBranchLayer:dispose()
 end
 
 function PackBranchLayer:downLoadExtListFileSuc()
+    --非小包走这里
     if EX_ASSETS_ENABLE ~= true then
         restartLuaEngine("checkPackBranchComplte")
         return
     end
     
-    if HeitaoSdk and (tonumber(HeitaoSdk.getplatformId()) == 3) then
+    --官网小包走这里
+    if HeitaoSdk and (tonumber(HeitaoSdk.getplatformId()) == 3 or  tonumber(HeitaoSdk.getplatformId()) == 6) then
         restartLuaEngine("checkPackBranchComplte")
         return 
     end
 
-    if HeitaoSdk and (tonumber(HeitaoSdk.getplatformId()) == 5 or  tonumber(HeitaoSdk.getplatformId()) == 6) then
+    --谷歌小包逻辑走这里
+    if HeitaoSdk and (tonumber(HeitaoSdk.getplatformId()) == 5 ) then
         local checkExtId = TFAssetsManager:getCheckInfo(12)
         if checkExtId then
             TFAssetsManager:downloadAssetsOfFunc(checkExtId, function()

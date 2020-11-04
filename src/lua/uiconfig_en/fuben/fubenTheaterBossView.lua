@@ -3281,13 +3281,13 @@ local t =
 							DesignType = "0",
 							DesignWidth = "960",
 							dstBlendFunc = "771",
-							height = "30",
+							height = "35",
 							ignoreSize = "False",
 							name = "Panel_challengeInfo_item",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
-							srcBlendFunc = "1",
+							srcBlendFunc = "770",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
@@ -3348,14 +3348,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "15",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
+									height = "0",
 									ignoreSize = "False",
 									name = "Label_notice",
 									nTextAlign = "1",
@@ -3370,7 +3370,6 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = -182,
-										PositionY = 1,
 									},
 									width = "395",
 									ZOrder = "1",

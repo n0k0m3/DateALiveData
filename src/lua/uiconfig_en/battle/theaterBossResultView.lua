@@ -334,7 +334,7 @@ local t =
 								PositionX = 549,
 								PositionY = -293,
 							},
-							width = "183",
+							width = "329",
 							ZOrder = "1",
 						},
 						{
@@ -384,14 +384,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "21",
 									ignoreSize = "True",
 									name = "Label_contribution_title",
 									nTextAlign = "1",
@@ -406,9 +406,8 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = -9,
-										PositionY = 6,
 									},
-									width = "113",
+									width = "176",
 									ZOrder = "1",
 								},
 								{
@@ -454,6 +453,7 @@ local t =
 										PositionX = -7,
 										PositionY = -12,
 									},
+									visible = "False",
 									width = "76",
 									ZOrder = "1",
 								},
@@ -551,14 +551,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "21",
 									ignoreSize = "True",
 									name = "Label_hurt_title",
 									nTextAlign = "1",
@@ -573,9 +573,8 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = -9,
-										PositionY = 6,
 									},
-									width = "92",
+									width = "112",
 									ZOrder = "1",
 								},
 								{
@@ -621,6 +620,7 @@ local t =
 										PositionX = -7,
 										PositionY = -12,
 									},
+									visible = "False",
 									width = "53",
 									ZOrder = "1",
 								},
@@ -719,14 +719,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "21",
 									ignoreSize = "True",
 									name = "Label_reward_title",
 									nTextAlign = "1",
@@ -741,9 +741,8 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = -9,
-										PositionY = 6,
 									},
-									width = "90",
+									width = "66",
 									ZOrder = "1",
 								},
 								{
@@ -789,7 +788,8 @@ local t =
 										PositionX = -7,
 										PositionY = -12,
 									},
-									width = "62",
+									visible = "False",
+									width = "65",
 									ZOrder = "1",
 								},
 								{

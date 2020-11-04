@@ -333,11 +333,11 @@ function MonthCardView:showGiftPanel(bupdate)
                         else
                             showTime = startTime + (30+ limitDay) * 24 * 3600
                         end
-                        return Utils:getTimeData(showTime)
+                        return Utils:getUTCDate(showTime , GV_UTC_TIME_ZONE)
                     end
                     local showCalcTime = calcShowTime(lastBuyTime , lastEndTime , v.ext.day)
-                    local timeStrShow = string.format("%s-%s-%s %02d:%02d:%02d" , showCalcTime.Year,showCalcTime.Month,showCalcTime.Day,showCalcTime.Hour,showCalcTime.Minute , showCalcTime.Second)
-                    label_time_limit:setTextById(190000043 ,timeStrShow)
+                    local timeStrShow = showCalcTime:fmt("%Y-%m-%d  %H:%M:%S ")
+                    label_time_limit:setText(TextDataMgr:getText(190000043  ,timeStrShow)..GV_UTC_TIME_STRING)
                 end
             else
                 label_time_limit:hide()

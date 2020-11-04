@@ -2451,7 +2451,6 @@ local t =
 									{
 										
 									},
-									visible = "False",
 									width = "110",
 									ZOrder = "1",
 									components = 
@@ -2461,7 +2460,7 @@ local t =
 											controlID = "Label_select_order_Image_select_Panel_chapter_item_Panel_prefab_Panel-fubenTheaterLevelView_Layer1_fuben_Game",
 											UUID = "c48d62d3_a077_49e1_86f2_038f76d13866",
 											anchorPoint = "False",
-											anchorPointX = "0.5",
+											anchorPointX = "1",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
@@ -2476,14 +2475,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "15",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "24",
+											height = "18",
 											ignoreSize = "True",
 											name = "Label_select_order",
 											nTextAlign = "1",
@@ -2497,10 +2496,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 14,
+												PositionX = 45,
 												PositionY = -54,
 											},
-											width = "102",
+											width = "78",
 											ZOrder = "1",
 										},
 									},
@@ -3130,7 +3129,7 @@ local t =
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
 									FontColor = "#FF57ABE5",
-									fontName = "font/MFLiHei_Noncommercial.ttf",
+									fontName = "font/fangzheng_zhunyuan.ttf",
 									fontShadow = 
 									{
 										IsShadow = false,
@@ -3500,7 +3499,7 @@ local t =
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
 									FontColor = "#FF57ABE5",
-									fontName = "font/MFLiHei_Noncommercial.ttf",
+									fontName = "font/fangzheng_zhunyuan.ttf",
 									fontShadow = 
 									{
 										IsShadow = false,

@@ -4984,8 +4984,8 @@ local t =
 									fontSize = "12",
 									fontStroke = 
 									{
-										IsStroke = true,
-										StrokeColor = "#FF8A9AE8",
+										IsStroke = false,
+										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
 									height = "0",
@@ -5002,10 +5002,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 208,
+										PositionX = 204,
 										PositionY = -66,
 									},
-									width = "414",
+									width = "415",
 									ZOrder = "1",
 								},
 							},
@@ -5563,8 +5563,8 @@ local t =
 									fontSize = "12",
 									fontStroke = 
 									{
-										IsStroke = true,
-										StrokeColor = "#FF8A9AE8",
+										IsStroke = false,
+										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
 									height = "0",
@@ -5581,10 +5581,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 208,
+										PositionX = 204,
 										PositionY = -66,
 									},
-									width = "414",
+									width = "415",
 									ZOrder = "1",
 								},
 							},

@@ -40,7 +40,7 @@ return {
             [2] = 70,
         },
         bosspic = "boss_1.png",
-        countLimit = 2,
+        countLimit = 1,
         capacity = 3,
         joinshowgroupID = {
             [1] = 500001,
@@ -220,7 +220,7 @@ return {
             [2] = 70,
         },
         bosspic = "boss_8.png",
-        countLimit = 2,
+        countLimit = 1,
         capacity = 3,
         joinshowgroupID = {
             [1] = 500001,
@@ -400,7 +400,7 @@ return {
             [2] = 70,
         },
         bosspic = "boss_4.png",
-        countLimit = 2,
+        countLimit = 1,
         capacity = 3,
         joinshowgroupID = {
             [1] = 500001,
@@ -490,7 +490,7 @@ return {
             [2] = 70,
         },
         bosspic = "boss_7.png",
-        countLimit = 2,
+        countLimit = 1,
         capacity = 3,
         joinshowgroupID = {
             [1] = 500001,

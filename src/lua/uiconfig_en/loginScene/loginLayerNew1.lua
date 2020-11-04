@@ -200,14 +200,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "28",
+											fontSize = "25",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "35",
+											height = "30",
 											ignoreSize = "True",
 											name = "continue",
 											nTextAlign = "1",
@@ -223,7 +223,7 @@ local t =
 											{
 												
 											},
-											width = "474",
+											width = "341",
 											ZOrder = "1",
 										},
 										{
@@ -252,7 +252,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "26",
+											height = "25",
 											ignoreSize = "True",
 											name = "version",
 											nTextAlign = "1",
@@ -269,7 +269,7 @@ local t =
 												PositionX = 521,
 												PositionY = -1,
 											},
-											width = "42",
+											width = "33",
 											ZOrder = "1",
 										},
 									},
@@ -848,7 +848,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "26",
+											height = "25",
 											ignoreSize = "True",
 											name = "Label_loginLayer_1",
 											nTextAlign = "1",
@@ -864,7 +864,7 @@ local t =
 											{
 												
 											},
-											width = "67",
+											width = "51",
 											ZOrder = "1",
 										},
 									},
@@ -931,7 +931,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "26",
+											height = "25",
 											ignoreSize = "True",
 											name = "Label_loginLayer_2",
 											nTextAlign = "1",
@@ -947,7 +947,7 @@ local t =
 											{
 												
 											},
-											width = "98",
+											width = "74",
 											ZOrder = "1",
 										},
 									},
@@ -978,7 +978,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "34",
 									ignoreSize = "True",
 									name = "Label_name",
 									nTextAlign = "1",
@@ -995,7 +995,7 @@ local t =
 										PositionX = -309,
 										PositionY = 143,
 									},
-									width = "100",
+									width = "81",
 									ZOrder = "1",
 								},
 								{
@@ -1050,7 +1050,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "19",
+									height = "18",
 									ignoreSize = "True",
 									name = "Label_englishName",
 									nTextAlign = "1",
@@ -1067,7 +1067,7 @@ local t =
 										PositionX = -188,
 										PositionY = 140,
 									},
-									width = "121",
+									width = "102",
 									ZOrder = "1",
 								},
 								{
@@ -1210,7 +1210,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "26",
+							height = "25",
 							ignoreSize = "True",
 							name = "label_apkVersion",
 							nTextAlign = "1",
@@ -1227,7 +1227,7 @@ local t =
 								PositionX = 40,
 								PositionY = 26,
 							},
-							width = "185",
+							width = "145",
 							ZOrder = "1",
 						},
 						{
@@ -1321,7 +1321,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "29",
 											ignoreSize = "True",
 											name = "Label_serverName",
 											nTextAlign = "1",
@@ -1337,7 +1337,7 @@ local t =
 											{
 												
 											},
-											width = "232",
+											width = "196",
 											ZOrder = "1",
 										},
 										{
@@ -1461,7 +1461,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "29",
 											ignoreSize = "True",
 											name = "Label_serverName",
 											nTextAlign = "1",
@@ -1477,7 +1477,7 @@ local t =
 											{
 												
 											},
-											width = "112",
+											width = "83",
 											ZOrder = "1",
 										},
 										{

@@ -10237,7 +10237,7 @@ return {
     },
     [13400252] = {
         id = 13400252,
-        text = "Maid Café Daily Purchase Times",
+        text = "Maid cafe Daily Purchase Times",
     },
     [13400260] = {
         id = 13400260,
@@ -10758,6 +10758,22 @@ return {
     [63630] = {
         id = 63630,
         text = "Prydwen",
+    },
+    [190000287] = {
+        id = 190000287,
+        text = "Mayuri Bonus Pack %s times",
+    },
+    [190000286] = {
+        id = 190000286,
+        text = "Mayuri Presale Pack (3) %s times",
+    },
+    [190000285] = {
+        id = 190000285,
+        text = "Mayuri Presale Pack (2) %s times",
+    },
+    [190000284] = {
+        id = 190000284,
+        text = "Buy Mayuri Presale Pack (1) %s times",
     },
     [190000283] = {
         id = 190000283,
@@ -11709,7 +11725,7 @@ return {
     },
     [190000101] = {
         id = 190000101,
-        text = "This miraculous item reduces the price of token packs by 10% in Battle Pass.",
+        text = "This miraculous item reduces the price of token packs by 10% in Battle Pass. (Valid for 35 days)",
     },
     [13094] = {
         id = 13094,
@@ -11717,35 +11733,35 @@ return {
     },
     [190000100] = {
         id = 190000100,
-        text = "This miraculous item reduces the price of token packs by 20% in Battle Pass.",
+        text = "This miraculous item reduces the price of token packs by 20% in Battle Pass. (Valid for 35 days)",
     },
     [190000099] = {
         id = 190000099,
-        text = "This miraculous item reduces the price of token packs by 30% in Battle Pass.",
+        text = "This miraculous item reduces the price of token packs by 30% in Battle Pass. (Valid for 35 days)",
     },
     [190000098] = {
         id = 190000098,
-        text = "This miraculous item reduces the price of token packs by 40% in Battle Pass.",
+        text = "This miraculous item reduces the price of token packs by 40% in Battle Pass. (Valid for 35 days)",
     },
     [190000097] = {
         id = 190000097,
-        text = "This miraculous item reduces the price of token packs by 50% in Battle Pass.",
+        text = "This miraculous item reduces the price of token packs by 50% in Battle Pass. (Valid for 35 days)",
     },
     [190000096] = {
         id = 190000096,
-        text = "This miraculous item reduces the price of token packs by 60% in Battle Pass.",
+        text = "This miraculous item reduces the price of token packs by 60% in Battle Pass. (Valid for 35 days)",
     },
     [190000095] = {
         id = 190000095,
-        text = "This miraculous item reduces the price of token packs by 70% in Battle Pass.",
+        text = "This miraculous item reduces the price of token packs by 70% in Battle Pass. (Valid for 35 days)",
     },
     [190000094] = {
         id = 190000094,
-        text = "This miraculous item reduces the price of token packs by 80% in Battle Pass.",
+        text = "This miraculous item reduces the price of token packs by 80% in Battle Pass. (Valid for 35 days)",
     },
     [190000093] = {
         id = 190000093,
-        text = "This miraculous item reduces the price of token packs by 90% in Battle Pass.",
+        text = "This miraculous item reduces the price of token packs by 90% in Battle Pass. (Valid for 35 days)",
     },
     [190000092] = {
         id = 190000092,
@@ -11881,7 +11897,7 @@ return {
     },
     [13400190] = {
         id = 13400190,
-        text = "The most popular maid in the café. This troublemaker is always forgiven by customers because she is way too cute.",
+        text = "The most popular maid in the cafe. This troublemaker is always forgiven by customers because she is way too cute.",
     },
     [63639] = {
         id = 63639,
@@ -11993,7 +12009,7 @@ return {
     },
     [190000039] = {
         id = 190000039,
-        text = "Get the reward by buying the month card again at the specified time",
+        text = "Get it by buying the month card again at the specified time",
     },
     [190000038] = {
         id = 190000038,
@@ -13889,7 +13905,7 @@ return {
     },
     [13410036] = {
         id = 13410036,
-        text = "Café",
+        text = "cafe",
     },
     [920110] = {
         id = 920110,
@@ -19293,7 +19309,7 @@ return {
     },
     [14300061] = {
         id = 14300061,
-        text = "This miraculous item reduces the price of some token packs by 10%.",
+        text = "This miraculous item reduces the price of some token packs by 10%. (Valid for 7 days)",
     },
     [30313] = {
         id = 30313,
@@ -19301,7 +19317,7 @@ return {
     },
     [14300060] = {
         id = 14300060,
-        text = "This miraculous item reduces the price of some token packs by 20%.",
+        text = "This miraculous item reduces the price of some token packs by 20%. (Valid for 7 days)",
     },
     [14300059] = {
         id = 14300059,
@@ -21709,7 +21725,7 @@ return {
     },
     [14210089] = {
         id = 14210089,
-        text = "Maid Café",
+        text = "Maid cafe",
     },
     [14210088] = {
         id = 14210088,
@@ -24333,7 +24349,7 @@ return {
     },
     [14110009] = {
         id = 14110009,
-        text = "Resets at 0:00 every Sunday",
+        text = "Reset at 00:00 every Monday",
     },
     [20093] = {
         id = 20093,
@@ -24341,7 +24357,7 @@ return {
     },
     [14110008] = {
         id = 14110008,
-        text = "Reset daily at 0:00",
+        text = "Reset daily at 00:00",
     },
     [12010112] = {
         id = 12010112,
@@ -24905,7 +24921,7 @@ return {
     },
     [13400259] = {
         id = 13400259,
-        text = "Use it to exchange various items in the café.",
+        text = "Use it to exchange various items in the cafe.",
     },
     [13400258] = {
         id = 13400258,
@@ -24929,19 +24945,19 @@ return {
     },
     [13400253] = {
         id = 13400253,
-        text = "Maid Café Daily Refresh Times",
+        text = "Maid cafe Daily Refresh Times",
     },
     [13400251] = {
         id = 13400251,
-        text = "Use it to recruit maids in the café and restore their stamina.",
+        text = "Use it to recruit maids in the cafe and restore their stamina.",
     },
     [13400250] = {
         id = 13400250,
-        text = "Maid Café Daily Refresh Times",
+        text = "Maid cafe Daily Refresh Times",
     },
     [13400249] = {
         id = 13400249,
-        text = "Maid Café Daily Purchase Times",
+        text = "Maid cafe Daily Purchase Times",
     },
     [13400248] = {
         id = 13400248,
@@ -25049,7 +25065,7 @@ return {
     },
     [13400199] = {
         id = 13400199,
-        text = "A cute maid that seldom shows herself to customers. Her daily magic performance at 20:00 is the highlight of the café.",
+        text = "A cute maid that seldom shows herself to customers. Her daily magic performance at 20:00 is the highlight of the cafe.",
     },
     [13400198] = {
         id = 13400198,
@@ -25077,7 +25093,7 @@ return {
     },
     [13400193] = {
         id = 13400193,
-        text = "The acting owner of café, who arranges work for other maids and literally manages everything. Yet she may act cute sometimes too.",
+        text = "The acting owner of cafe, who arranges work for other maids and literally manages everything. Yet she may act cute sometimes too.",
     },
     [17024] = {
         id = 17024,
@@ -27149,7 +27165,7 @@ return {
     },
     [13310576] = {
         id = 13310576,
-        text = "Kotori invited me to the café. Is she doing this to realize my dream?",
+        text = "Kotori invited me to the cafe. Is she doing this to realize my dream?",
     },
     [20104] = {
         id = 20104,
@@ -29817,7 +29833,7 @@ return {
     },
     [12000147] = {
         id = 12000147,
-        text = "Happy Times",
+        text = "Happy Time",
     },
     [1020402] = {
         id = 1020402,
@@ -31205,7 +31221,7 @@ return {
     },
     [13200078] = {
         id = 13200078,
-        text = "Why is my darling so late...? Anyway, I'll take a break at that café...",
+        text = "Why is my darling so late...? Anyway, I'll take a break at that cafe...",
     },
     [13200077] = {
         id = 13200077,
@@ -36005,7 +36021,7 @@ return {
     },
     [12010161] = {
         id = 12010161,
-        text = "Talk with Kurumi in the café.",
+        text = "Talk with Kurumi in the cafe.",
     },
     [12010160] = {
         id = 12010160,
@@ -36529,7 +36545,7 @@ return {
     },
     [12010053] = {
         id = 12010053,
-        text = "I met someone unexpected in the cat café.",
+        text = "I met someone unexpected in the cat cafe.",
     },
     [1021241] = {
         id = 1021241,
@@ -37201,7 +37217,7 @@ return {
     },
     [1420044] = {
         id = 1420044,
-        text = "Maid Café Event",
+        text = "Maid cafe Event",
     },
     [1420045] = {
         id = 1420045,
@@ -48181,7 +48197,7 @@ return {
     },
     [265604] = {
         id = 265604,
-        text = "You can exchange this avatar only in the Maid Café event!",
+        text = "You can exchange this avatar only in the Maid cafe event!",
     },
     [10921143] = {
         id = 10921143,
@@ -62257,7 +62273,7 @@ return {
     },
     [2460013] = {
         id = 2460013,
-        text = "Welcome to the Maid Café! Today, you are \"master\" of Spirits!",
+        text = "Welcome to the Maid cafe! Today, you are \"master\" of Spirits!",
     },
     [332018] = {
         id = 332018,
@@ -72033,7 +72049,7 @@ return {
     },
     [61037] = {
         id = 61037,
-        text = "Maid Café",
+        text = "Maid cafe",
     },
     [2202102] = {
         id = 2202102,
@@ -78345,7 +78361,7 @@ return {
     },
     [190000043] = {
         id = 190000043,
-        text = "Get the reward by buying the month card again before %s",
+        text = "Get it by buying the month card again before %s",
     },
     [190000075] = {
         id = 190000075,
@@ -83005,7 +83021,7 @@ return {
     },
     [2470013] = {
         id = 2470013,
-        text = "Join the Maid Café event to obtain",
+        text = "Join the Maid cafe event to obtain",
     },
     [2470012] = {
         id = 2470012,
@@ -91985,7 +92001,7 @@ return {
     },
     [1702299] = {
         id = 1702299,
-        text = "Cat Café",
+        text = "Cat cafe",
     },
     [301109] = {
         id = 301109,
@@ -92825,7 +92841,7 @@ return {
     },
     [1702199] = {
         id = 1702199,
-        text = "[Event] Maid Café",
+        text = "[Event] Maid cafe",
     },
     [1110189] = {
         id = 1110189,
@@ -95349,7 +95365,7 @@ return {
     },
     [12000146] = {
         id = 12000146,
-        text = "Cat Coffee",
+        text = "Cat Cafe",
     },
     [12000148] = {
         id = 12000148,
@@ -95605,7 +95621,7 @@ return {
     },
     [27096] = {
         id = 27096,
-        text = "Exclusive Keepsake for the Maid Café. Traditional British maid outfit, the black dress combined with white apron, practical and classic.",
+        text = "Exclusive Keepsake for the Maid cafe. Traditional British maid outfit, the black dress combined with white apron, practical and classic.",
     },
     [260015] = {
         id = 260015,
@@ -104637,7 +104653,7 @@ return {
     },
     [63037] = {
         id = 63037,
-        text = "During the event, dispatch maids to work in the Maid Café to increase revenue. \nAs revenue builds up, rewards will be offered. \nCollecting maids and increasing revenue to unlock story in Café. \nYou will start with 3 default maids. When the event starts, Maid Café will be open for business. \nYou can recruit maids with Omurice in Maid Café. \nMaids come with 3 tiers. They also have different Stamina, Attraction and Cooking stats. \nDuring work, maids will lose Stamina, which restores slowly when they take a rest. \nMaids with high Attraction can attract more costumers. \nCostumers will spend more when maids have higher Cooking stats. \nDispatching maids with Bonds bonus will activate bonds. \nWhen Stamina of a maid drops to 0, she will stop serving and corresponding bonds will be disabled.",
+        text = "During the event, dispatch maids to work in the Maid cafe to increase revenue. \nAs revenue builds up, rewards will be offered. \nCollecting maids and increasing revenue to unlock story in cafe. \nYou will start with 3 default maids. When the event starts, Maid cafe will be open for business. \nYou can recruit maids with Omurice in Maid cafe. \nMaids come with 3 tiers. They also have different Stamina, Attraction and Cooking stats. \nDuring work, maids will lose Stamina, which restores slowly when they take a rest. \nMaids with high Attraction can attract more costumers. \nCostumers will spend more when maids have higher Cooking stats. \nDispatching maids with Bonds bonus will activate bonds. \nWhen Stamina of a maid drops to 0, she will stop serving and corresponding bonds will be disabled.",
     },
     [1701510] = {
         id = 1701510,
@@ -119905,7 +119921,7 @@ return {
     },
     [27100] = {
         id = 27100,
-        text = "Exclusive Keepsake for the Maid Café. Japanese Maid Outfit, the blend of Japanese attire and maid outfit emphasizes cute and mild demeanor.",
+        text = "Exclusive Keepsake for the Maid cafe. Japanese Maid Outfit, the blend of Japanese attire and maid outfit emphasizes cute and mild demeanor.",
     },
     [900595] = {
         id = 900595,
@@ -121121,7 +121137,7 @@ return {
     },
     [27098] = {
         id = 27098,
-        text = "Exclusive Keepsake for the Maid Café. Modified maid outfit, blue white color plus a big bow tie, does that fit your concept of moe?",
+        text = "Exclusive Keepsake for the Maid cafe. Modified maid outfit, blue white color plus a big bow tie, does that fit your concept of moe?",
     },
     [900747] = {
         id = 900747,
@@ -121169,7 +121185,7 @@ return {
     },
     [27102] = {
         id = 27102,
-        text = "Exclusive Keepsake for the Maid Café. Japanese Maid Outfit, the blend of Japanese attire and maid outfit emphasizes cute and mild demeanor.",
+        text = "Exclusive Keepsake for the Maid cafe. Japanese Maid Outfit, the blend of Japanese attire and maid outfit emphasizes cute and mild demeanor.",
     },
     [900753] = {
         id = 900753,
