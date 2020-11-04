@@ -176,7 +176,8 @@ function TaskDataMgr:isCanReceiveTask(taskType)
     local taskData = self:getTask(taskType)
     for i, v in ipairs(taskData) do
         local taskInfo = self:getTaskInfo(v)
-        if taskInfo.status == EC_TaskStatus.GET then
+        --剔除百日登陆活动红点
+        if taskInfo.status == EC_TaskStatus.GET and v~= 799000 then
             isCanReceive = true
             break
         end

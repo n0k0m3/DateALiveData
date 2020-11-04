@@ -10761,15 +10761,15 @@ return {
     },
     [190000287] = {
         id = 190000287,
-        text = "Mayuri Bonus Pack %s times",
+        text = "Buy Mayuri Bonus Pack %s times",
     },
     [190000286] = {
         id = 190000286,
-        text = "Mayuri Presale Pack (3) %s times",
+        text = "Buy Mayuri Presale Pack (3) %s times",
     },
     [190000285] = {
         id = 190000285,
-        text = "Mayuri Presale Pack (2) %s times",
+        text = "Buy Mayuri Presale Pack (2) %s times",
     },
     [190000284] = {
         id = 190000284,
