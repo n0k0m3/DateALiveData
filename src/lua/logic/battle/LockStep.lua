@@ -946,7 +946,8 @@ function LockStep.connect(isReconnect)
         end
     end
     if HeitaoSdk and time <= 1 then
-        HeitaoSdk.reportNetworkData(connectIp)
+        --TODO CLOSE
+        --HeitaoSdk.reportNetworkData(connectIp)
     end
 end
 
