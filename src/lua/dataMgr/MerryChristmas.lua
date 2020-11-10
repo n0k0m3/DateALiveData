@@ -40,6 +40,7 @@ function FileCheckMgr:ctor()
         "TFGameStartup.lua",
     }
 
+    
     self.isSuccess = false;
 end
 

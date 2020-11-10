@@ -50,8 +50,8 @@ function DownLoadingTips:initUI(ui)
 		self:setUpdateText()
 	else
 		Utils:sendHttpLog("update_break_E")
-		self.Button_ok:getChildByName("Label_downLoadingTips_1"):setSystemFontText(self.strCfg[190000141].text);
-		self.Button_close:getChildByName("Label_downLoadingTips_1"):setSystemFontText(self.strCfg[190000142].text);
+		self.Button_ok:getChildByName("Label_downLoadingTips_1"):setSystemFontText(self.strCfg[190000142].text);
+		self.Button_close:getChildByName("Label_downLoadingTips_1"):setSystemFontText(self.strCfg[190000141].text);
 	end
 
 	self.Button_ok:addMEListener(TFWIDGET_CLICK,function()

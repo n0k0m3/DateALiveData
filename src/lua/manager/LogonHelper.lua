@@ -594,7 +594,7 @@ function LogonHelper:tryLoginUcCenter( )
     if HeitaoSdk and time <= 1 then
         local url = require("TFFramework.net.TFUrl")
         local parsed_url = url.parse(LOGIN_URL[self.urlIdx])
-        HeitaoSdk.reportNetworkData(parsed_url.host)
+        --HeitaoSdk.reportNetworkData(parsed_url.host)
     end
 end
 
