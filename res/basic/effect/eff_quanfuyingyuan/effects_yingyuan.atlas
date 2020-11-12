@@ -1,0 +1,83 @@
+
+effects_yingyuan.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/anniu/1
+  rotate: false
+  xy: 149, 333
+  size: 81, 44
+  orig: 81, 44
+  offset: 0, 0
+  index: -1
+images/anniu/2
+  rotate: false
+  xy: 323, 388
+  size: 81, 44
+  orig: 81, 44
+  offset: 0, 0
+  index: -1
+images/anniu/dasanjiao
+  rotate: false
+  xy: 2, 174
+  size: 122, 127
+  orig: 122, 127
+  offset: 0, 0
+  index: -1
+images/anniu/dasanjiaojiao
+  rotate: false
+  xy: 149, 379
+  size: 172, 53
+  orig: 172, 53
+  offset: 0, 0
+  index: -1
+images/anniu/heisanjiao
+  rotate: false
+  xy: 2, 303
+  size: 145, 129
+  orig: 145, 129
+  offset: 0, 0
+  index: -1
+images/anniu/wenzi
+  rotate: true
+  xy: 126, 260
+  size: 41, 17
+  orig: 41, 17
+  offset: 0, 0
+  index: -1
+images/anniu/xiaosanjiao
+  rotate: false
+  xy: 2, 2
+  size: 49, 48
+  orig: 49, 48
+  offset: 0, 0
+  index: -1
+images/bangzhu/di
+  rotate: false
+  xy: 2, 100
+  size: 78, 72
+  orig: 78, 72
+  offset: 0, 0
+  index: -1
+images/bangzhu/jiao
+  rotate: false
+  xy: 2, 52
+  size: 54, 46
+  orig: 54, 46
+  offset: 0, 0
+  index: -1
+images/bangzhu/toumingsanjiao
+  rotate: false
+  xy: 82, 136
+  size: 42, 36
+  orig: 42, 36
+  offset: 0, 0
+  index: -1
+images/bangzhu/wenhao
+  rotate: true
+  xy: 232, 334
+  size: 43, 49
+  orig: 43, 49
+  offset: 0, 0
+  index: -1

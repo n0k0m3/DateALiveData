@@ -1,0 +1,110 @@
+
+effects_29003_1_EskillA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ER/Edaoguang/Edaoguang_000
+  rotate: true
+  xy: 877, 466
+  size: 273, 144
+  orig: 400, 350
+  offset: 50, 181
+  index: -1
+ER/Edaoguang/Edaoguang_001
+  rotate: false
+  xy: 2, 681
+  size: 364, 340
+  orig: 400, 350
+  offset: 21, 0
+  index: -1
+ER/Edaoguang/Edaoguang_002
+  rotate: false
+  xy: 368, 685
+  size: 352, 336
+  orig: 400, 350
+  offset: 28, 0
+  index: -1
+ER/Edaoguang/Edaoguang_003
+  rotate: true
+  xy: 2, 310
+  size: 369, 327
+  orig: 400, 350
+  offset: 11, 0
+  index: -1
+ER/Edaoguang/Edaoguang_005
+  rotate: true
+  xy: 331, 333
+  size: 346, 320
+  orig: 400, 350
+  offset: 14, 8
+  index: -1
+ER/Edaoguang/Edaoguang_007
+  rotate: false
+  xy: 2, 3
+  size: 323, 305
+  orig: 400, 350
+  offset: 35, 12
+  index: -1
+ER/Edaoguang/Edaoguang_009
+  rotate: true
+  xy: 653, 362
+  size: 321, 222
+  orig: 400, 350
+  offset: 33, 24
+  index: -1
+ER/Ehit/Ehit_004
+  rotate: true
+  xy: 618, 52
+  size: 279, 273
+  orig: 300, 300
+  offset: 10, 12
+  index: -1
+ER/Ehit/Ehit_006
+  rotate: false
+  xy: 331, 52
+  size: 285, 279
+  orig: 300, 300
+  offset: 7, 9
+  index: -1
+ER/Ehit/Ehit_008
+  rotate: false
+  xy: 722, 741
+  size: 285, 280
+  orig: 300, 300
+  offset: 7, 9
+  index: -1
+glow
+  rotate: false
+  xy: 877, 364
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+
+effects_29003_1_EskillA2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ER/Ehit/Ehit_000
+  rotate: false
+  xy: 277, 280
+  size: 253, 250
+  orig: 300, 300
+  offset: 25, 25
+  index: -1
+ER/Ehit/Ehit_001
+  rotate: false
+  xy: 2, 8
+  size: 257, 252
+  orig: 300, 300
+  offset: 21, 23
+  index: -1
+ER/Ehit/Ehit_002
+  rotate: false
+  xy: 2, 262
+  size: 273, 268
+  orig: 300, 300
+  offset: 15, 17
+  index: -1

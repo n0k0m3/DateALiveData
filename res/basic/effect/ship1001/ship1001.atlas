@@ -1,0 +1,111 @@
+
+ship1001.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+daodang_1
+  rotate: false
+  xy: 671, 659
+  size: 185, 108
+  orig: 189, 112
+  offset: 2, 2
+  index: -1
+daodang_2
+  rotate: true
+  xy: 198, 36
+  size: 116, 83
+  orig: 120, 87
+  offset: 2, 2
+  index: -1
+daodang_3
+  rotate: false
+  xy: 305, 429
+  size: 104, 111
+  orig: 108, 115
+  offset: 2, 2
+  index: -1
+houyi1
+  rotate: false
+  xy: 374, 629
+  size: 295, 138
+  orig: 299, 142
+  offset: 2, 2
+  index: -1
+houyi2
+  rotate: false
+  xy: 411, 429
+  size: 77, 111
+  orig: 81, 115
+  offset: 2, 2
+  index: -1
+jishen1
+  rotate: false
+  xy: 2, 769
+  size: 855, 238
+  orig: 859, 242
+  offset: 2, 2
+  index: -1
+jishen2
+  rotate: false
+  xy: 2, 154
+  size: 260, 140
+  orig: 264, 144
+  offset: 2, 2
+  index: -1
+jishen3
+  rotate: true
+  xy: 859, 836
+  size: 171, 143
+  orig: 175, 147
+  offset: 2, 2
+  index: -1
+jishen4
+  rotate: false
+  xy: 687, 536
+  size: 160, 121
+  orig: 164, 125
+  offset: 2, 2
+  index: -1
+jishen5
+  rotate: false
+  xy: 2, 48
+  size: 194, 104
+  orig: 198, 108
+  offset: 2, 2
+  index: -1
+qiangguan
+  rotate: false
+  xy: 2, 296
+  size: 281, 122
+  orig: 285, 126
+  offset: 2, 2
+  index: -1
+qianyi1
+  rotate: false
+  xy: 2, 556
+  size: 370, 211
+  orig: 374, 215
+  offset: 2, 2
+  index: -1
+qianyi2
+  rotate: false
+  xy: 2, 420
+  size: 301, 134
+  orig: 305, 138
+  offset: 2, 2
+  index: -1
+qianyi3
+  rotate: false
+  xy: 859, 685
+  size: 148, 149
+  orig: 152, 153
+  offset: 2, 2
+  index: -1
+yinqing
+  rotate: false
+  xy: 374, 542
+  size: 311, 85
+  orig: 315, 89
+  offset: 2, 2
+  index: -1

@@ -1620,6 +1620,7 @@ return {
         optionalSkin = {
             [1] = 1120011,
             [2] = 1120012,
+            [3] = 1120014,
         },
         condition = {
         },
@@ -1658,7 +1659,7 @@ return {
         site = 24,
         title = 31211,
         callLimit = 6,
-        isOpen = 0,
+        isOpen = 1,
         expitem = {
             [1] = 510101,
             [2] = 510102,

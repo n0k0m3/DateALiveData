@@ -1,0 +1,340 @@
+
+effects_31201_nengliangcang.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_G/glow
+  rotate: false
+  xy: 397, 4
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+images/effects_G/guangxian_000
+  rotate: true
+  xy: 944, 202
+  size: 160, 56
+  orig: 160, 56
+  offset: 0, 0
+  index: -1
+images/effects_G/nengliangcang/boom2/boom2_000
+  rotate: true
+  xy: 665, 364
+  size: 256, 288
+  orig: 256, 288
+  offset: 0, 0
+  index: -1
+images/effects_G/nengliangcang/dian/dian_000
+  rotate: false
+  xy: 2, 34
+  size: 184, 184
+  orig: 184, 184
+  offset: 0, 0
+  index: -1
+images/effects_G/nengliangcang/dian/dian_002
+  rotate: false
+  xy: 188, 34
+  size: 184, 184
+  orig: 184, 184
+  offset: 0, 0
+  index: -1
+images/effects_G/nengliangcang/dian/dian_004
+  rotate: false
+  xy: 374, 86
+  size: 184, 184
+  orig: 184, 184
+  offset: 0, 0
+  index: -1
+images/effects_G/nengliangcang/luo/luo_000
+  rotate: false
+  xy: 940, 622
+  size: 80, 400
+  orig: 80, 400
+  offset: 0, 0
+  index: -1
+images/effects_G/nengliangcang/luo/luo_002
+  rotate: false
+  xy: 270, 354
+  size: 80, 400
+  orig: 80, 400
+  offset: 0, 0
+  index: -1
+images/effects_G/nengliangcang/luo/luo_004
+  rotate: true
+  xy: 270, 272
+  size: 80, 400
+  orig: 80, 400
+  offset: 0, 0
+  index: -1
+images/effects_G/nengliangcang/nlc/c1
+  rotate: true
+  xy: 276, 21
+  size: 11, 88
+  orig: 11, 88
+  offset: 0, 0
+  index: -1
+images/effects_G/nengliangcang/nlc/c10
+  rotate: false
+  xy: 352, 645
+  size: 38, 35
+  orig: 38, 35
+  offset: 0, 0
+  index: -1
+images/effects_G/nengliangcang/nlc/c11
+  rotate: false
+  xy: 366, 3
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+images/effects_G/nengliangcang/nlc/c12
+  rotate: true
+  xy: 220, 6
+  size: 26, 54
+  orig: 26, 54
+  offset: 0, 0
+  index: -1
+images/effects_G/nengliangcang/nlc/c2
+  rotate: false
+  xy: 85, 6
+  size: 76, 26
+  orig: 76, 26
+  offset: 0, 0
+  index: -1
+images/effects_G/nengliangcang/nlc/c8
+  rotate: true
+  xy: 2, 4
+  size: 28, 81
+  orig: 28, 81
+  offset: 0, 0
+  index: -1
+images/effects_G/nengliangcang/nlc/c9
+  rotate: true
+  xy: 352, 611
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
+images/effects_G/nengliangcang/nlc/h1
+  rotate: false
+  xy: 163, 6
+  size: 55, 26
+  orig: 55, 26
+  offset: 0, 0
+  index: -1
+images/effects_G/nengliangcang/nlc/h2
+  rotate: false
+  xy: 270, 220
+  size: 48, 50
+  orig: 48, 50
+  offset: 0, 0
+  index: -1
+images/effects_G/nengliangcang/nlc/h4
+  rotate: false
+  xy: 352, 682
+  size: 34, 72
+  orig: 34, 72
+  offset: 0, 0
+  index: -1
+images/effects_G/tongyong/boom/boom_000
+  rotate: true
+  xy: 672, 2
+  size: 360, 270
+  orig: 360, 270
+  offset: 0, 0
+  index: -1
+images/effects_G/tongyong/dian1/dian1_000
+  rotate: false
+  xy: 2, 622
+  size: 266, 400
+  orig: 266, 400
+  offset: 0, 0
+  index: -1
+images/effects_G/tongyong/dian1/dian1_002
+  rotate: false
+  xy: 2, 220
+  size: 266, 400
+  orig: 266, 400
+  offset: 0, 0
+  index: -1
+images/effects_G/tongyong/dian1/dian1_004
+  rotate: true
+  xy: 270, 756
+  size: 266, 400
+  orig: 266, 400
+  offset: 0, 0
+  index: -1
+images/effects_G/tongyong/dian1/dian1_006
+  rotate: false
+  xy: 672, 622
+  size: 266, 400
+  orig: 266, 400
+  offset: 0, 0
+  index: -1
+images/effects_G/tongyong/dian1/dian1_008
+  rotate: false
+  xy: 397, 354
+  size: 266, 400
+  orig: 266, 400
+  offset: 0, 0
+  index: -1
+
+effects_31201_nengliangcang2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_G/nengliangcang/boom2/boom2_002
+  rotate: true
+  xy: 2, 2
+  size: 256, 288
+  orig: 256, 288
+  offset: 0, 0
+  index: -1
+images/effects_G/nengliangcang/dian/dian_006
+  rotate: false
+  xy: 694, 52
+  size: 184, 184
+  orig: 184, 184
+  offset: 0, 0
+  index: -1
+images/effects_G/nengliangcang/luo/luo_006
+  rotate: true
+  xy: 274, 398
+  size: 80, 400
+  orig: 80, 400
+  offset: 0, 0
+  index: -1
+images/effects_G/nengliangcang/luo/luo_008
+  rotate: true
+  xy: 292, 44
+  size: 80, 400
+  orig: 80, 400
+  offset: 0, 0
+  index: -1
+images/effects_G/nengliangcang/nengliangcang2_000
+  rotate: true
+  xy: 676, 238
+  size: 240, 292
+  orig: 240, 292
+  offset: 0, 0
+  index: -1
+images/effects_G/tongyong/boom/boom_002
+  rotate: false
+  xy: 270, 752
+  size: 360, 270
+  orig: 360, 270
+  offset: 0, 0
+  index: -1
+images/effects_G/tongyong/boom/boom_004
+  rotate: false
+  xy: 632, 752
+  size: 360, 270
+  orig: 360, 270
+  offset: 0, 0
+  index: -1
+images/effects_G/tongyong/boom/boom_006
+  rotate: true
+  xy: 2, 260
+  size: 360, 270
+  orig: 360, 270
+  offset: 0, 0
+  index: -1
+images/effects_G/tongyong/boom/boom_008
+  rotate: false
+  xy: 274, 480
+  size: 360, 270
+  orig: 360, 270
+  offset: 0, 0
+  index: -1
+images/effects_G/tongyong/boom/boom_010
+  rotate: false
+  xy: 636, 480
+  size: 360, 270
+  orig: 360, 270
+  offset: 0, 0
+  index: -1
+images/effects_G/tongyong/boom/boom_012
+  rotate: false
+  xy: 292, 126
+  size: 360, 270
+  orig: 360, 270
+  offset: 0, 0
+  index: -1
+images/effects_G/tongyong/dian1/dian1_010
+  rotate: false
+  xy: 2, 622
+  size: 266, 400
+  orig: 266, 400
+  offset: 0, 0
+  index: -1
+
+effects_31201_nengliangcang3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_G/nengliangcang/boom2/boom2_004
+  rotate: false
+  xy: 2, 382
+  size: 256, 288
+  orig: 256, 288
+  offset: 0, 0
+  index: -1
+images/effects_G/nengliangcang/boom2/boom2_006
+  rotate: true
+  xy: 364, 686
+  size: 256, 288
+  orig: 256, 288
+  offset: 0, 0
+  index: -1
+images/effects_G/nengliangcang/boom2/boom2_008
+  rotate: false
+  xy: 2, 92
+  size: 256, 288
+  orig: 256, 288
+  offset: 0, 0
+  index: -1
+images/effects_G/nengliangcang/boom2/boom2_010
+  rotate: true
+  xy: 654, 686
+  size: 256, 288
+  orig: 256, 288
+  offset: 0, 0
+  index: -1
+images/effects_G/nengliangcang/boom2/boom2_012
+  rotate: false
+  xy: 342, 382
+  size: 256, 288
+  orig: 256, 288
+  offset: 0, 0
+  index: -1
+images/effects_G/nengliangcang/boom2/boom2_014
+  rotate: false
+  xy: 600, 396
+  size: 256, 288
+  orig: 256, 288
+  offset: 0, 0
+  index: -1
+images/effects_G/nengliangcang/dian/dian_008
+  rotate: false
+  xy: 342, 196
+  size: 184, 184
+  orig: 184, 184
+  offset: 0, 0
+  index: -1
+images/effects_G/nengliangcang/luo/luo_010
+  rotate: false
+  xy: 260, 270
+  size: 80, 400
+  orig: 80, 400
+  offset: 0, 0
+  index: -1
+images/effects_G/tongyong/boom/boom_014
+  rotate: false
+  xy: 2, 672
+  size: 360, 270
+  orig: 360, 270
+  offset: 0, 0
+  index: -1

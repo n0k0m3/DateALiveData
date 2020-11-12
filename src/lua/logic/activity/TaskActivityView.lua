@@ -14,6 +14,7 @@ function TaskActivityView:ctor(...)
     if self.activityInfo_.extendData.activityShowType == EC_ActivityType2.FANSHI_ASSIST then
         uiName = "taskActivityViewFanshi"
     end
+    print(self.activityInfo_.extendData , "666666666666666")
     self:init("lua.uiconfig.activity."..uiName)
 end
 

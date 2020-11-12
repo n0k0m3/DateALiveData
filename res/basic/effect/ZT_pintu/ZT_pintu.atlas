@@ -1,0 +1,180 @@
+
+ZT_pintu.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/pintu_014
+  rotate: false
+  xy: 383, 292
+  size: 376, 366
+  orig: 458, 403
+  offset: 46, 23
+  index: -1
+images/pintu_015
+  rotate: false
+  xy: 383, 660
+  size: 378, 360
+  orig: 458, 403
+  offset: 46, 26
+  index: -1
+images/pintu_016
+  rotate: false
+  xy: 2, 657
+  size: 379, 363
+  orig: 458, 403
+  offset: 44, 22
+  index: -1
+images/pintu_017
+  rotate: false
+  xy: 2, 293
+  size: 376, 362
+  orig: 458, 403
+  offset: 46, 21
+  index: -1
+images/pintu_023
+  rotate: false
+  xy: 244, 6
+  size: 329, 284
+  orig: 458, 403
+  offset: 70, 47
+  index: -1
+images/pintu_025
+  rotate: true
+  xy: 763, 499
+  size: 308, 247
+  orig: 458, 403
+  offset: 81, 70
+  index: -1
+images/pintu_026
+  rotate: true
+  xy: 2, 2
+  size: 288, 240
+  orig: 458, 403
+  offset: 91, 75
+  index: -1
+images/pintu_027
+  rotate: true
+  xy: 575, 19
+  size: 271, 227
+  orig: 458, 403
+  offset: 95, 81
+  index: -1
+images/pintu_028
+  rotate: false
+  xy: 763, 809
+  size: 257, 211
+  orig: 458, 403
+  offset: 104, 82
+  index: -1
+images/pintu_029
+  rotate: true
+  xy: 804, 60
+  size: 240, 207
+  orig: 458, 403
+  offset: 111, 86
+  index: -1
+images/pintu_030
+  rotate: false
+  xy: 761, 302
+  size: 206, 195
+  orig: 458, 403
+  offset: 121, 97
+  index: -1
+
+ZT_pintu2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/pintu_018
+  rotate: false
+  xy: 2, 663
+  size: 373, 358
+  orig: 458, 403
+  offset: 46, 23
+  index: -1
+images/pintu_019
+  rotate: false
+  xy: 377, 674
+  size: 366, 347
+  orig: 458, 403
+  offset: 50, 27
+  index: -1
+images/pintu_020
+  rotate: false
+  xy: 377, 334
+  size: 358, 338
+  orig: 458, 403
+  offset: 54, 32
+  index: -1
+images/pintu_021
+  rotate: false
+  xy: 2, 12
+  size: 351, 320
+  orig: 458, 403
+  offset: 58, 36
+  index: -1
+images/pintu_022
+  rotate: false
+  xy: 2, 349
+  size: 344, 312
+  orig: 458, 403
+  offset: 63, 40
+  index: -1
+images/pintu_024
+  rotate: true
+  xy: 745, 703
+  size: 318, 266
+  orig: 458, 403
+  offset: 75, 54
+  index: -1
+images/pintu_031
+  rotate: false
+  xy: 745, 538
+  size: 186, 163
+  orig: 458, 403
+  offset: 139, 126
+  index: -1
+images/pintu_032
+  rotate: false
+  xy: 737, 383
+  size: 179, 153
+  orig: 458, 403
+  offset: 139, 126
+  index: -1
+images/pintu_033
+  rotate: false
+  xy: 737, 228
+  size: 179, 153
+  orig: 458, 403
+  offset: 139, 126
+  index: -1
+images/pintu_034
+  rotate: true
+  xy: 355, 154
+  size: 178, 153
+  orig: 458, 403
+  offset: 139, 126
+  index: -1
+images/pintu_035
+  rotate: false
+  xy: 510, 180
+  size: 178, 152
+  orig: 458, 403
+  offset: 139, 127
+  index: -1
+images/pintu_036
+  rotate: true
+  xy: 690, 48
+  size: 178, 150
+  orig: 458, 403
+  offset: 139, 129
+  index: -1
+images/pintu_037
+  rotate: true
+  xy: 510, 2
+  size: 176, 150
+  orig: 458, 403
+  offset: 140, 129
+  index: -1

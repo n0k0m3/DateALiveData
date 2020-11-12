@@ -1,0 +1,132 @@
+
+effects_feiji_shibai.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/shibai/bai_019
+  rotate: false
+  xy: 329, 373
+  size: 66, 62
+  orig: 105, 99
+  offset: 14, 20
+  index: -1
+images/shibai/di1_000
+  rotate: false
+  xy: 2, 443
+  size: 337, 58
+  orig: 358, 76
+  offset: 11, 9
+  index: -1
+images/shibai/di_000
+  rotate: false
+  xy: 2, 398
+  size: 325, 43
+  orig: 325, 62
+  offset: 0, 7
+  index: -1
+images/shibai/dou_019
+  rotate: true
+  xy: 317, 311
+  size: 60, 62
+  orig: 88, 99
+  offset: 13, 21
+  index: -1
+images/shibai/pian_010
+  rotate: false
+  xy: 6, 322
+  size: 211, 42
+  orig: 228, 61
+  offset: 7, 9
+  index: -1
+images/shibai/shi_019
+  rotate: false
+  xy: 397, 373
+  size: 64, 62
+  orig: 80, 99
+  offset: 6, 20
+  index: -1
+images/shibai/xian_010
+  rotate: true
+  xy: 2, 58
+  size: 338, 2
+  orig: 358, 20
+  offset: 10, 8
+  index: -1
+images/shibai/yingwen/yingwen_006
+  rotate: true
+  xy: 71, 133
+  size: 187, 15
+  orig: 285, 45
+  offset: 74, 20
+  index: -1
+images/shibai/yingwen/yingwen_007
+  rotate: false
+  xy: 6, 366
+  size: 238, 30
+  orig: 285, 45
+  offset: 47, 6
+  index: -1
+images/shibai/yingwen/yingwen_008
+  rotate: true
+  xy: 6, 97
+  size: 223, 30
+  orig: 285, 45
+  offset: 34, 6
+  index: -1
+images/shibai/yingwen/yingwen_009
+  rotate: true
+  xy: 38, 125
+  size: 195, 31
+  orig: 285, 45
+  offset: 34, 5
+  index: -1
+images/shibai/yingwen/yingwen_010
+  rotate: true
+  xy: 121, 182
+  size: 138, 31
+  orig: 285, 45
+  offset: 62, 5
+  index: -1
+images/shibai/yingwen/yingwen_011
+  rotate: false
+  xy: 341, 470
+  size: 160, 31
+  orig: 285, 45
+  offset: 63, 5
+  index: -1
+images/shibai/yingwen/yingwen_012
+  rotate: true
+  xy: 88, 173
+  size: 147, 31
+  orig: 285, 45
+  offset: 70, 5
+  index: -1
+images/shibai/yingwen/yingwen_013
+  rotate: true
+  xy: 154, 183
+  size: 137, 31
+  orig: 285, 45
+  offset: 74, 5
+  index: -1
+images/shibai/yingwen/yingwen_014
+  rotate: true
+  xy: 187, 187
+  size: 133, 31
+  orig: 285, 45
+  offset: 72, 5
+  index: -1
+images/shibai/yingwen/yingwen_015
+  rotate: false
+  xy: 341, 437
+  size: 132, 31
+  orig: 285, 45
+  offset: 66, 5
+  index: -1
+images/shibai/zhan_019
+  rotate: false
+  xy: 246, 334
+  size: 69, 62
+  orig: 97, 105
+  offset: 19, 27
+  index: -1

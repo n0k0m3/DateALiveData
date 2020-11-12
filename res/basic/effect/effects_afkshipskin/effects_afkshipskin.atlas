@@ -1,0 +1,503 @@
+
+effects_afkshipskin.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/beijing/1_000
+  rotate: false
+  xy: 2, 5
+  size: 11, 42
+  orig: 37, 77
+  offset: 12, 19
+  index: -1
+images/beijing/2_000
+  rotate: false
+  xy: 527, 167
+  size: 13, 4
+  orig: 37, 35
+  offset: 11, 16
+  index: -1
+images/beijing/3_000
+  rotate: false
+  xy: 818, 692
+  size: 114, 330
+  orig: 158, 386
+  offset: 24, 33
+  index: -1
+images/beijing/fangge_000
+  rotate: false
+  xy: 2, 49
+  size: 60, 60
+  orig: 94, 98
+  offset: 17, 19
+  index: -1
+images/beijing/gezi_000
+  rotate: false
+  xy: 2, 524
+  size: 814, 498
+  orig: 834, 501
+  offset: 0, 3
+  index: -1
+images/beijing/sanjiao1_000
+  rotate: false
+  xy: 792, 503
+  size: 21, 19
+  orig: 41, 37
+  offset: 9, 11
+  index: -1
+images/beijing/sanjiao_000
+  rotate: false
+  xy: 910, 671
+  size: 21, 19
+  orig: 41, 37
+  offset: 9, 11
+  index: -1
+images/beijing/shuzi/shuzi_000
+  rotate: false
+  xy: 700, 513
+  size: 90, 9
+  orig: 110, 26
+  offset: 10, 8
+  index: -1
+images/beijing/shuzi/shuzi_001
+  rotate: false
+  xy: 818, 681
+  size: 90, 9
+  orig: 110, 26
+  offset: 10, 8
+  index: -1
+images/beijing/shuzi/shuzi_002
+  rotate: false
+  xy: 64, 100
+  size: 90, 9
+  orig: 110, 26
+  offset: 10, 8
+  index: -1
+images/beijing/shuzi/shuzi_003
+  rotate: false
+  xy: 415, 156
+  size: 90, 9
+  orig: 110, 26
+  offset: 10, 8
+  index: -1
+images/beijing/shuzi/shuzi_004
+  rotate: true
+  xy: 934, 877
+  size: 90, 9
+  orig: 110, 26
+  offset: 10, 8
+  index: -1
+images/beijing/shuzi/shuzi_005
+  rotate: false
+  xy: 700, 502
+  size: 90, 9
+  orig: 110, 26
+  offset: 10, 8
+  index: -1
+images/beijing/shuzi/shuzi_006
+  rotate: false
+  xy: 818, 670
+  size: 90, 9
+  orig: 110, 26
+  offset: 10, 8
+  index: -1
+images/beijing/shuzi/shuzi_007
+  rotate: false
+  xy: 818, 659
+  size: 89, 9
+  orig: 110, 26
+  offset: 10, 8
+  index: -1
+images/beijing/shuzi/shuzi_008
+  rotate: false
+  xy: 64, 78
+  size: 89, 9
+  orig: 110, 26
+  offset: 10, 8
+  index: -1
+images/beijing/shuzi/shuzi_009
+  rotate: false
+  xy: 934, 1013
+  size: 88, 9
+  orig: 110, 26
+  offset: 10, 8
+  index: -1
+images/beijing/shuzi/shuzi_010
+  rotate: false
+  xy: 156, 89
+  size: 89, 9
+  orig: 110, 26
+  offset: 10, 8
+  index: -1
+images/beijing/shuzi/shuzi_011
+  rotate: false
+  xy: 248, 100
+  size: 89, 9
+  orig: 110, 26
+  offset: 10, 8
+  index: -1
+images/beijing/shuzi/shuzi_012
+  rotate: false
+  xy: 415, 134
+  size: 89, 9
+  orig: 110, 26
+  offset: 10, 8
+  index: -1
+images/beijing/shuzi/shuzi_013
+  rotate: true
+  xy: 934, 694
+  size: 89, 9
+  orig: 110, 26
+  offset: 10, 8
+  index: -1
+images/beijing/shuzi/shuzi_014
+  rotate: true
+  xy: 945, 786
+  size: 89, 9
+  orig: 110, 26
+  offset: 10, 8
+  index: -1
+images/beijing/shuzi/shuzi_015
+  rotate: true
+  xy: 956, 878
+  size: 89, 9
+  orig: 110, 26
+  offset: 10, 8
+  index: -1
+images/beijing/shuzi/shuzi_016
+  rotate: false
+  xy: 934, 1002
+  size: 88, 9
+  orig: 110, 26
+  offset: 11, 8
+  index: -1
+images/beijing/shuzi/shuzi_017
+  rotate: false
+  xy: 934, 991
+  size: 88, 9
+  orig: 110, 26
+  offset: 11, 8
+  index: -1
+images/beijing/shuzi/shuzi_018
+  rotate: false
+  xy: 700, 480
+  size: 89, 9
+  orig: 110, 26
+  offset: 11, 8
+  index: -1
+images/beijing/shuzi/shuzi_019
+  rotate: false
+  xy: 818, 648
+  size: 89, 9
+  orig: 110, 26
+  offset: 11, 8
+  index: -1
+images/beijing/shuzi/shuzi_020
+  rotate: false
+  xy: 64, 89
+  size: 90, 9
+  orig: 110, 26
+  offset: 10, 8
+  index: -1
+images/beijing/shuzi/shuzi_021
+  rotate: false
+  xy: 156, 100
+  size: 90, 9
+  orig: 110, 26
+  offset: 10, 8
+  index: -1
+images/beijing/shuzi/shuzi_022
+  rotate: false
+  xy: 415, 145
+  size: 90, 9
+  orig: 110, 26
+  offset: 10, 8
+  index: -1
+images/beijing/shuzi/shuzi_023
+  rotate: true
+  xy: 934, 785
+  size: 90, 9
+  orig: 110, 26
+  offset: 10, 8
+  index: -1
+images/beijing/shuzi/shuzi_024
+  rotate: true
+  xy: 945, 877
+  size: 90, 9
+  orig: 110, 26
+  offset: 10, 8
+  index: -1
+images/beijing/shuzi/shuzi_025
+  rotate: false
+  xy: 700, 491
+  size: 90, 9
+  orig: 110, 26
+  offset: 10, 8
+  index: -1
+images/beijing/shuzi/shuzi_026
+  rotate: false
+  xy: 64, 67
+  size: 89, 9
+  orig: 110, 26
+  offset: 10, 8
+  index: -1
+images/beijing/shuzi/shuzi_027
+  rotate: false
+  xy: 155, 78
+  size: 89, 9
+  orig: 110, 26
+  offset: 10, 8
+  index: -1
+images/beijing/shuzi/shuzi_028
+  rotate: false
+  xy: 934, 980
+  size: 88, 9
+  orig: 110, 26
+  offset: 10, 8
+  index: -1
+images/beijing/shuzi/shuzi_029
+  rotate: false
+  xy: 934, 969
+  size: 88, 9
+  orig: 110, 26
+  offset: 10, 8
+  index: -1
+images/beijing/shuzi1/shuzi_030
+  rotate: false
+  xy: 64, 56
+  size: 69, 9
+  orig: 97, 32
+  offset: 13, 11
+  index: -1
+images/beijing/shuzi1/shuzi_031
+  rotate: false
+  xy: 155, 67
+  size: 69, 9
+  orig: 97, 32
+  offset: 13, 11
+  index: -1
+images/beijing/shuzi1/shuzi_032
+  rotate: false
+  xy: 246, 78
+  size: 69, 9
+  orig: 97, 32
+  offset: 13, 11
+  index: -1
+images/beijing/shuzi1/shuzi_033
+  rotate: false
+  xy: 319, 89
+  size: 69, 9
+  orig: 97, 32
+  offset: 13, 11
+  index: -1
+images/beijing/shuzi1/shuzi_034
+  rotate: false
+  xy: 415, 112
+  size: 69, 9
+  orig: 97, 32
+  offset: 13, 11
+  index: -1
+images/beijing/shuzi1/shuzi_035
+  rotate: true
+  xy: 978, 828
+  size: 68, 9
+  orig: 97, 32
+  offset: 14, 11
+  index: -1
+images/beijing/shuzi1/shuzi_036
+  rotate: true
+  xy: 989, 899
+  size: 68, 9
+  orig: 97, 32
+  offset: 14, 11
+  index: -1
+images/beijing/shuzi1/shuzi_037
+  rotate: false
+  xy: 700, 447
+  size: 68, 9
+  orig: 97, 32
+  offset: 14, 11
+  index: -1
+images/beijing/shuzi1/shuzi_038
+  rotate: true
+  xy: 956, 735
+  size: 69, 9
+  orig: 97, 32
+  offset: 14, 11
+  index: -1
+images/beijing/shuzi1/shuzi_039
+  rotate: false
+  xy: 247, 89
+  size: 70, 9
+  orig: 97, 32
+  offset: 13, 11
+  index: -1
+images/beijing/shuzi1/shuzi_040
+  rotate: false
+  xy: 339, 100
+  size: 70, 9
+  orig: 97, 32
+  offset: 13, 11
+  index: -1
+images/beijing/shuzi1/shuzi_041
+  rotate: false
+  xy: 415, 123
+  size: 70, 9
+  orig: 97, 32
+  offset: 13, 11
+  index: -1
+images/beijing/shuzi1/shuzi_042
+  rotate: true
+  xy: 945, 714
+  size: 70, 9
+  orig: 97, 32
+  offset: 13, 11
+  index: -1
+images/beijing/shuzi1/shuzi_043
+  rotate: true
+  xy: 956, 806
+  size: 70, 9
+  orig: 97, 32
+  offset: 13, 11
+  index: -1
+images/beijing/shuzi1/shuzi_044
+  rotate: true
+  xy: 967, 897
+  size: 70, 9
+  orig: 97, 32
+  offset: 13, 11
+  index: -1
+images/beijing/shuzi1/shuzi_045
+  rotate: false
+  xy: 700, 469
+  size: 70, 9
+  orig: 97, 32
+  offset: 13, 11
+  index: -1
+images/beijing/shuzi1/shuzi_046
+  rotate: true
+  xy: 967, 826
+  size: 69, 9
+  orig: 97, 32
+  offset: 13, 11
+  index: -1
+images/beijing/shuzi1/shuzi_047
+  rotate: true
+  xy: 978, 898
+  size: 69, 9
+  orig: 97, 32
+  offset: 13, 11
+  index: -1
+images/beijing/shuzi1/shuzi_048
+  rotate: false
+  xy: 818, 615
+  size: 68, 9
+  orig: 97, 32
+  offset: 13, 11
+  index: -1
+images/beijing/shuzi1/shuzi_049
+  rotate: false
+  xy: 206, 56
+  size: 68, 9
+  orig: 97, 32
+  offset: 13, 11
+  index: -1
+images/beijing/shuzi1/shuzi_050
+  rotate: false
+  xy: 700, 458
+  size: 69, 9
+  orig: 97, 32
+  offset: 13, 11
+  index: -1
+images/beijing/shuzi1/shuzi_051
+  rotate: false
+  xy: 818, 626
+  size: 69, 9
+  orig: 97, 32
+  offset: 13, 11
+  index: -1
+images/beijing/shuzi1/shuzi_052
+  rotate: false
+  xy: 135, 56
+  size: 69, 9
+  orig: 97, 32
+  offset: 13, 11
+  index: -1
+images/beijing/shuzi1/shuzi_053
+  rotate: false
+  xy: 226, 67
+  size: 69, 9
+  orig: 97, 32
+  offset: 13, 11
+  index: -1
+images/beijing/shuzi1/shuzi_054
+  rotate: false
+  xy: 317, 78
+  size: 69, 9
+  orig: 97, 32
+  offset: 13, 11
+  index: -1
+images/beijing/shuzi1/shuzi_055
+  rotate: false
+  xy: 297, 67
+  size: 68, 9
+  orig: 97, 32
+  offset: 14, 11
+  index: -1
+images/beijing/shuzi1/shuzi_056
+  rotate: true
+  xy: 978, 758
+  size: 68, 9
+  orig: 97, 32
+  offset: 14, 11
+  index: -1
+images/beijing/shuzi1/shuzi_057
+  rotate: true
+  xy: 989, 829
+  size: 68, 9
+  orig: 97, 32
+  offset: 14, 11
+  index: -1
+images/beijing/shuzi1/shuzi_058
+  rotate: true
+  xy: 967, 755
+  size: 69, 9
+  orig: 97, 32
+  offset: 14, 11
+  index: -1
+images/beijing/shuzi1/shuzi_059
+  rotate: false
+  xy: 818, 637
+  size: 70, 9
+  orig: 97, 32
+  offset: 13, 11
+  index: -1
+images/beijing/tiao/1_000
+  rotate: false
+  xy: 415, 167
+  size: 110, 4
+  orig: 125, 8
+  offset: 10, 2
+  index: -1
+images/beijing/tiao/2_000
+  rotate: false
+  xy: 64, 49
+  size: 64, 5
+  orig: 125, 10
+  offset: 10, 3
+  index: -1
+images/beijing/yuan1_100
+  rotate: false
+  xy: 2, 111
+  size: 411, 411
+  orig: 523, 494
+  offset: 57, 42
+  index: -1
+images/beijing/yuan_000
+  rotate: false
+  xy: 415, 173
+  size: 283, 349
+  orig: 400, 400
+  offset: 95, 18
+  index: -1

@@ -1,0 +1,409 @@
+
+effects_29003_EskillG.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ES/EC/lizi/lizi_004
+  rotate: true
+  xy: 806, 233
+  size: 139, 145
+  orig: 160, 160
+  offset: 7, 6
+  index: -1
+ES/EC/lizi/lizi_008
+  rotate: false
+  xy: 890, 97
+  size: 127, 134
+  orig: 160, 160
+  offset: 14, 11
+  index: -1
+ES/EG/Gxuanqi_001
+  rotate: false
+  xy: 295, 3
+  size: 292, 210
+  orig: 350, 250
+  offset: 22, 11
+  index: -1
+ES/EG/Gxuanqi_003
+  rotate: true
+  xy: 806, 374
+  size: 315, 206
+  orig: 350, 250
+  offset: 9, 4
+  index: -1
+ES/EG/Gxuanqi_005
+  rotate: false
+  xy: 2, 2
+  size: 291, 211
+  orig: 350, 250
+  offset: 9, 1
+  index: -1
+ES/EG/Gxuanqi_007
+  rotate: false
+  xy: 589, 4
+  size: 299, 209
+  orig: 350, 250
+  offset: 19, 2
+  index: -1
+ES/EG/Gxuanqi_015
+  rotate: true
+  xy: 806, 691
+  size: 326, 208
+  orig: 350, 250
+  offset: 14, 27
+  index: -1
+ES/Ekuomo/Ekuomo_005
+  rotate: false
+  xy: 2, 617
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+ES/Ekuomo/Ekuomo_007
+  rotate: false
+  xy: 2, 215
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+ES/Ekuomo/Ekuomo_009
+  rotate: false
+  xy: 404, 617
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+ES/Ekuomo/Ekuomo_011
+  rotate: false
+  xy: 404, 215
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+
+effects_29003_EskillG2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ES/EG/Gxuanqi_011
+  rotate: false
+  xy: 2, 7
+  size: 347, 241
+  orig: 350, 250
+  offset: 3, 9
+  index: -1
+ES/EG/Gxuanqi_013
+  rotate: true
+  xy: 789, 681
+  size: 341, 233
+  orig: 350, 250
+  offset: 9, 11
+  index: -1
+ES/EG/Gxuanqi_017
+  rotate: false
+  xy: 741, 32
+  size: 258, 167
+  orig: 350, 250
+  offset: 71, 57
+  index: -1
+ES/Efazhen/Efazhen_000
+  rotate: false
+  xy: 2, 250
+  size: 394, 373
+  orig: 400, 400
+  offset: 3, 14
+  index: -1
+ES/Efazhenqi1/Efazhenqi1_000
+  rotate: true
+  xy: 751, 201
+  size: 331, 250
+  orig: 350, 250
+  offset: 5, 0
+  index: -1
+ES/Efazhenqi1/Efazhenqi1_008
+  rotate: false
+  xy: 398, 62
+  size: 341, 250
+  orig: 350, 250
+  offset: 5, 0
+  index: -1
+ES/Ekuomo/Ekuomo_001
+  rotate: false
+  xy: 399, 314
+  size: 350, 350
+  orig: 400, 400
+  offset: 25, 25
+  index: -1
+ES/Ekuomo/Ekuomo_003
+  rotate: false
+  xy: 2, 625
+  size: 395, 397
+  orig: 400, 400
+  offset: 0, 3
+  index: -1
+ES/Ekuomo/Ekuomo_013
+  rotate: false
+  xy: 399, 666
+  size: 388, 356
+  orig: 400, 400
+  offset: 12, 30
+  index: -1
+ES/Eshifaqi/Eshifaqi_001
+  rotate: false
+  xy: 789, 534
+  size: 233, 145
+  orig: 350, 200
+  offset: 25, 5
+  index: -1
+guangxianh
+  rotate: false
+  xy: 351, 12
+  size: 177, 48
+  orig: 180, 50
+  offset: 2, 2
+  index: -1
+
+effects_29003_EskillG3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ES/EG/Gxuanqi_009
+  rotate: false
+  xy: 345, 784
+  size: 338, 238
+  orig: 350, 250
+  offset: 0, 0
+  index: -1
+ES/Efazhenqi0/Efazhenqi0_008
+  rotate: true
+  xy: 392, 17
+  size: 321, 192
+  orig: 350, 250
+  offset: 15, 58
+  index: -1
+ES/Efazhenqi0/Efazhenqi0_010
+  rotate: false
+  xy: 336, 340
+  size: 324, 190
+  orig: 350, 250
+  offset: 13, 60
+  index: -1
+ES/Efazhenqi0/Efazhenqi0_012
+  rotate: true
+  xy: 2, 3
+  size: 322, 192
+  orig: 350, 250
+  offset: 16, 58
+  index: -1
+ES/Efazhenqi1/Efazhenqi1_002
+  rotate: false
+  xy: 2, 520
+  size: 332, 250
+  orig: 350, 250
+  offset: 5, 0
+  index: -1
+ES/Efazhenqi1/Efazhenqi1_004
+  rotate: false
+  xy: 683, 520
+  size: 333, 250
+  orig: 350, 250
+  offset: 8, 0
+  index: -1
+ES/Efazhenqi1/Efazhenqi1_006
+  rotate: false
+  xy: 685, 772
+  size: 337, 250
+  orig: 350, 250
+  offset: 6, 0
+  index: -1
+ES/Efazhenqi1/Efazhenqi1_010
+  rotate: false
+  xy: 345, 532
+  size: 336, 250
+  orig: 350, 250
+  offset: 8, 0
+  index: -1
+ES/Efazhenqi1/Efazhenqi1_012
+  rotate: false
+  xy: 2, 772
+  size: 341, 250
+  orig: 350, 250
+  offset: 6, 0
+  index: -1
+ES/Ekuoci/Ekuoci_000
+  rotate: false
+  xy: 833, 360
+  size: 158, 158
+  orig: 300, 300
+  offset: 71, 71
+  index: -1
+ES/Ekuoci/Ekuoci_002
+  rotate: false
+  xy: 774, 101
+  size: 244, 237
+  orig: 300, 300
+  offset: 28, 33
+  index: -1
+ES/Eshifaqi/Eshifaqi_005
+  rotate: false
+  xy: 2, 327
+  size: 323, 191
+  orig: 350, 200
+  offset: 25, 4
+  index: -1
+ES/Eshifaqi/Eshifaqi_007
+  rotate: true
+  xy: 196, 4
+  size: 321, 194
+  orig: 350, 200
+  offset: 25, 4
+  index: -1
+ES/Eshifaqi/Eshifaqi_009
+  rotate: true
+  xy: 586, 17
+  size: 321, 186
+  orig: 350, 200
+  offset: 25, 10
+  index: -1
+ES/guangxing_000
+  rotate: true
+  xy: 662, 340
+  size: 178, 169
+  orig: 200, 200
+  offset: 11, 15
+  index: -1
+
+effects_29003_EskillG4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ES/EC/lizi/lizi_000
+  rotate: false
+  xy: 909, 884
+  size: 109, 134
+  orig: 160, 160
+  offset: 41, 10
+  index: -1
+ES/EC/lizi/lizi_002
+  rotate: false
+  xy: 641, 160
+  size: 138, 145
+  orig: 160, 160
+  offset: 11, 4
+  index: -1
+ES/EC/lizi/lizi_006
+  rotate: false
+  xy: 781, 183
+  size: 134, 143
+  orig: 160, 160
+  offset: 9, 8
+  index: -1
+ES/EC/lizi/lizi_010
+  rotate: true
+  xy: 2, 3
+  size: 124, 131
+  orig: 160, 160
+  offset: 15, 15
+  index: -1
+ES/EC/lizi/lizi_012
+  rotate: false
+  xy: 641, 307
+  size: 120, 128
+  orig: 160, 160
+  offset: 16, 19
+  index: -1
+ES/EC/lizi/lizi_014
+  rotate: false
+  xy: 135, 4
+  size: 117, 123
+  orig: 160, 160
+  offset: 17, 24
+  index: -1
+ES/Efazhenqi0/Efazhenqi0_000
+  rotate: true
+  xy: 278, 101
+  size: 314, 193
+  orig: 350, 250
+  offset: 15, 57
+  index: -1
+ES/Efazhenqi0/Efazhenqi0_002
+  rotate: false
+  xy: 448, 437
+  size: 314, 193
+  orig: 350, 250
+  offset: 15, 57
+  index: -1
+ES/Efazhenqi0/Efazhenqi0_004
+  rotate: false
+  xy: 589, 632
+  size: 316, 192
+  orig: 350, 250
+  offset: 15, 58
+  index: -1
+ES/Efazhenqi0/Efazhenqi0_006
+  rotate: false
+  xy: 589, 826
+  size: 318, 192
+  orig: 350, 250
+  offset: 16, 58
+  index: -1
+ES/Ekuoci/Ekuoci_004
+  rotate: false
+  xy: 301, 742
+  size: 286, 276
+  orig: 300, 300
+  offset: 7, 14
+  index: -1
+ES/Ekuoci/Ekuoci_006
+  rotate: true
+  xy: 2, 417
+  size: 300, 294
+  orig: 300, 300
+  offset: 0, 5
+  index: -1
+ES/Ekuoci/Ekuoci_008
+  rotate: false
+  xy: 2, 719
+  size: 297, 299
+  orig: 300, 300
+  offset: 0, 1
+  index: -1
+ES/Ekuoci/Ekuoci_010
+  rotate: false
+  xy: 2, 129
+  size: 274, 286
+  orig: 300, 300
+  offset: 21, 5
+  index: -1
+ES/Eshifaqi/Eshifaqi_003
+  rotate: true
+  xy: 473, 125
+  size: 310, 166
+  orig: 350, 200
+  offset: 25, 4
+  index: -1
+ES/Eshifaqi/Eshifaqi_011
+  rotate: true
+  xy: 298, 420
+  size: 297, 148
+  orig: 350, 200
+  offset: 27, 42
+  index: -1
+glow
+  rotate: false
+  xy: 763, 328
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+guangquan_000
+  rotate: false
+  xy: 764, 430
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1

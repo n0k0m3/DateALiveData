@@ -1,0 +1,479 @@
+
+effects_29003_EskillE.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ES/Ekuomo/Ekuomo_005
+  rotate: false
+  xy: 2, 622
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+ES/Ekuomo/Ekuomo_007
+  rotate: false
+  xy: 2, 220
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+ES/Ekuomo/Ekuomo_009
+  rotate: false
+  xy: 404, 622
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+ES/Ekuomo/Ekuomo_011
+  rotate: false
+  xy: 404, 220
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+ES/Enengliang/Enengliang_000
+  rotate: true
+  xy: 538, 33
+  size: 185, 285
+  orig: 300, 330
+  offset: 115, 41
+  index: -1
+ES/Eshifaqi/Eshifaqi_003
+  rotate: true
+  xy: 825, 66
+  size: 310, 166
+  orig: 350, 200
+  offset: 25, 4
+  index: -1
+ES/Eshifaqi/Eshifaqi_005
+  rotate: false
+  xy: 213, 27
+  size: 323, 191
+  orig: 350, 200
+  offset: 25, 4
+  index: -1
+ES/Eshifaqi/Eshifaqi_007
+  rotate: true
+  xy: 806, 701
+  size: 321, 194
+  orig: 350, 200
+  offset: 25, 4
+  index: -1
+ES/Eshifaqi/Eshifaqi_009
+  rotate: true
+  xy: 806, 378
+  size: 321, 186
+  orig: 350, 200
+  offset: 25, 10
+  index: -1
+ES/anqi/anqi_005
+  rotate: false
+  xy: 2, 2
+  size: 209, 216
+  orig: 250, 250
+  offset: 35, 15
+  index: -1
+guangxianh
+  rotate: false
+  xy: 825, 16
+  size: 177, 48
+  orig: 180, 50
+  offset: 2, 2
+  index: -1
+
+effects_29003_EskillE2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ES/Ekuomo/Ekuomo_001
+  rotate: false
+  xy: 360, 272
+  size: 350, 350
+  orig: 400, 400
+  offset: 25, 25
+  index: -1
+ES/Ekuomo/Ekuomo_003
+  rotate: false
+  xy: 2, 624
+  size: 395, 397
+  orig: 400, 400
+  offset: 0, 3
+  index: -1
+ES/Ekuomo/Ekuomo_013
+  rotate: true
+  xy: 2, 234
+  size: 388, 356
+  orig: 400, 400
+  offset: 12, 30
+  index: -1
+ES/Enengliang/Enengliang_001
+  rotate: true
+  xy: 789, 62
+  size: 299, 232
+  orig: 300, 330
+  offset: 1, 98
+  index: -1
+ES/Enengliang/Enengliang_002
+  rotate: false
+  xy: 399, 702
+  size: 300, 319
+  orig: 300, 330
+  offset: 0, 11
+  index: -1
+ES/Enengliang/Enengliang_003
+  rotate: false
+  xy: 712, 691
+  size: 300, 330
+  orig: 300, 330
+  offset: 0, 0
+  index: -1
+ES/Enengliang/Enengliang_004
+  rotate: false
+  xy: 712, 363
+  size: 287, 326
+  orig: 300, 330
+  offset: 0, 0
+  index: -1
+ES/Enengliang/Enengliang_006
+  rotate: true
+  xy: 474, 18
+  size: 252, 313
+  orig: 300, 330
+  offset: 9, 0
+  index: -1
+ES/anqi/anqi_009
+  rotate: false
+  xy: 2, 13
+  size: 234, 219
+  orig: 250, 250
+  offset: 15, 12
+  index: -1
+ES/anqi/anqi_011
+  rotate: false
+  xy: 238, 13
+  size: 234, 219
+  orig: 250, 250
+  offset: 15, 15
+  index: -1
+
+effects_29003_EskillE3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ES/EC/lizi/lizi_004
+  rotate: false
+  xy: 883, 877
+  size: 139, 145
+  orig: 160, 160
+  offset: 7, 6
+  index: -1
+ES/EC/lizi/lizi_006
+  rotate: false
+  xy: 883, 732
+  size: 134, 143
+  orig: 160, 160
+  offset: 9, 8
+  index: -1
+ES/EE/EBUFF/EBUFF_016
+  rotate: true
+  xy: 849, 536
+  size: 190, 173
+  orig: 200, 200
+  offset: 3, 6
+  index: -1
+ES/EE/Elinhun/Elinhun_000
+  rotate: false
+  xy: 863, 224
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+ES/EE/Elinhun/Elinhun_002
+  rotate: false
+  xy: 863, 72
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+ES/EE/hit/hit_000
+  rotate: true
+  xy: 293, 155
+  size: 274, 280
+  orig: 300, 300
+  offset: 13, 10
+  index: -1
+ES/EE/hit/hit_005
+  rotate: false
+  xy: 293, 431
+  size: 276, 290
+  orig: 300, 300
+  offset: 13, 10
+  index: -1
+ES/EE/hit/hit_007
+  rotate: false
+  xy: 2, 402
+  size: 289, 297
+  orig: 300, 300
+  offset: 8, 3
+  index: -1
+ES/EE/hit/hit_009
+  rotate: false
+  xy: 2, 112
+  size: 287, 288
+  orig: 300, 300
+  offset: 9, 4
+  index: -1
+ES/Ekuoci/Ekuoci_000
+  rotate: false
+  xy: 863, 376
+  size: 158, 158
+  orig: 300, 300
+  offset: 71, 71
+  index: -1
+ES/Ekuoci/Ekuoci_004
+  rotate: true
+  xy: 571, 435
+  size: 286, 276
+  orig: 300, 300
+  offset: 7, 14
+  index: -1
+ES/Ekuoci/Ekuoci_006
+  rotate: false
+  xy: 581, 728
+  size: 300, 294
+  orig: 300, 300
+  offset: 0, 5
+  index: -1
+ES/Ekuoci/Ekuoci_008
+  rotate: false
+  xy: 282, 723
+  size: 297, 299
+  orig: 300, 300
+  offset: 0, 1
+  index: -1
+ES/Ekuoci/Ekuoci_010
+  rotate: true
+  xy: 575, 159
+  size: 274, 286
+  orig: 300, 300
+  offset: 21, 5
+  index: -1
+ES/Enengliang/Enengliang_005
+  rotate: false
+  xy: 2, 701
+  size: 278, 321
+  orig: 300, 330
+  offset: 6, 0
+  index: -1
+ES/Eshifaqi/Eshifaqi_001
+  rotate: false
+  xy: 590, 12
+  size: 233, 145
+  orig: 350, 200
+  offset: 25, 5
+  index: -1
+ES/Eshifaqi/Eshifaqi_011
+  rotate: false
+  xy: 291, 5
+  size: 297, 148
+  orig: 350, 200
+  offset: 27, 42
+  index: -1
+glow
+  rotate: false
+  xy: 2, 10
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+
+effects_29003_EskillE4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ES/EC/lizi/lizi_008
+  rotate: false
+  xy: 884, 709
+  size: 127, 134
+  orig: 160, 160
+  offset: 14, 11
+  index: -1
+ES/EC/lizi/lizi_010
+  rotate: false
+  xy: 896, 104
+  size: 124, 131
+  orig: 160, 160
+  offset: 15, 15
+  index: -1
+ES/EC/lizi/lizi_012
+  rotate: true
+  xy: 884, 587
+  size: 120, 128
+  orig: 160, 160
+  offset: 16, 19
+  index: -1
+ES/EC/lizi/lizi_014
+  rotate: true
+  xy: 871, 468
+  size: 117, 123
+  orig: 160, 160
+  offset: 17, 24
+  index: -1
+ES/EE/EBUFF/EBUFF_000
+  rotate: false
+  xy: 424, 213
+  size: 185, 179
+  orig: 200, 200
+  offset: 14, 0
+  index: -1
+ES/EE/EBUFF/EBUFF_002
+  rotate: false
+  xy: 284, 394
+  size: 189, 177
+  orig: 200, 200
+  offset: 11, 0
+  index: -1
+ES/EE/EBUFF/EBUFF_004
+  rotate: false
+  xy: 732, 845
+  size: 194, 175
+  orig: 200, 200
+  offset: 6, 0
+  index: -1
+ES/EE/EBUFF/EBUFF_006
+  rotate: false
+  xy: 2, 49
+  size: 192, 179
+  orig: 200, 200
+  offset: 4, 0
+  index: -1
+ES/EE/EBUFF/EBUFF_008
+  rotate: false
+  xy: 530, 643
+  size: 187, 175
+  orig: 200, 200
+  offset: 4, 0
+  index: -1
+ES/EE/EBUFF/EBUFF_010
+  rotate: false
+  xy: 196, 41
+  size: 188, 179
+  orig: 200, 200
+  offset: 3, 0
+  index: -1
+ES/EE/EBUFF/EBUFF_012
+  rotate: false
+  xy: 386, 34
+  size: 185, 177
+  orig: 200, 200
+  offset: 6, 0
+  index: -1
+ES/EE/EBUFF/EBUFF_014
+  rotate: false
+  xy: 519, 470
+  size: 186, 171
+  orig: 200, 200
+  offset: 4, 4
+  index: -1
+ES/EE/EBUFF/EBUFF_018
+  rotate: false
+  xy: 233, 222
+  size: 189, 170
+  orig: 200, 200
+  offset: 7, 5
+  index: -1
+ES/EE/Elinhun/Elinhun_004
+  rotate: false
+  xy: 732, 693
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+ES/EE/Elinhun/Elinhun_006
+  rotate: false
+  xy: 719, 541
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+ES/EE/Elinhun/Elinhun_008
+  rotate: false
+  xy: 707, 389
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+ES/EE/Elinhun/Elinhun_010
+  rotate: false
+  xy: 611, 237
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+ES/EE/Elinhun/Elinhun_012
+  rotate: false
+  xy: 763, 237
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+ES/EE/Elinhun/Elinhun_014
+  rotate: false
+  xy: 744, 85
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+ES/EE/hit/hit_001
+  rotate: false
+  xy: 2, 738
+  size: 280, 282
+  orig: 300, 300
+  offset: 10, 9
+  index: -1
+ES/EE/hit/hit_003
+  rotate: false
+  xy: 2, 454
+  size: 280, 282
+  orig: 300, 300
+  offset: 10, 9
+  index: -1
+ES/Ekuoci/Ekuoci_002
+  rotate: false
+  xy: 284, 783
+  size: 244, 237
+  orig: 300, 300
+  offset: 28, 33
+  index: -1
+ES/anqi/anqi_007
+  rotate: false
+  xy: 2, 230
+  size: 229, 222
+  orig: 250, 250
+  offset: 19, 12
+  index: -1
+ES/anqi/anqi_013
+  rotate: false
+  xy: 284, 573
+  size: 233, 208
+  orig: 250, 250
+  offset: 15, 20
+  index: -1
+ES/guangxing_000
+  rotate: true
+  xy: 573, 33
+  size: 178, 169
+  orig: 200, 200
+  offset: 11, 15
+  index: -1
+guangquan_000
+  rotate: false
+  xy: 530, 820
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1

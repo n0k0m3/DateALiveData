@@ -67,7 +67,7 @@ local t =
 					sizepercenty = "100",
 					sizeType = "1",
 					srcBlendFunc = "1",
-					touchAble = "True",
+					touchAble = "False",
 					UILayoutViewModel = 
 					{
 						relativeToName = "Panel",
@@ -133,7 +133,7 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = 360,
-								PositionY = -131,
+								PositionY = -207,
 							},
 							UItype = "Button",
 							width = "198",
@@ -184,6 +184,7 @@ local t =
 										PositionX = 15,
 										PositionY = -2,
 									},
+									visible = "False",
 									width = "82",
 									ZOrder = "1",
 								},

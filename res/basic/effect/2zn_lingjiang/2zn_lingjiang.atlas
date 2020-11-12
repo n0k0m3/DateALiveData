@@ -1,0 +1,124 @@
+
+2zn_lingjiang.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/lizi/lizi_000
+  rotate: true
+  xy: 821, 215
+  size: 400, 194
+  orig: 490, 205
+  offset: 25, 1
+  index: -1
+images/lizi/lizi_002
+  rotate: false
+  xy: 398, 232
+  size: 397, 194
+  orig: 490, 205
+  offset: 27, 1
+  index: -1
+images/lizi/lizi_004
+  rotate: false
+  xy: 412, 37
+  size: 396, 193
+  orig: 490, 205
+  offset: 28, 2
+  index: -1
+images/lizi/lizi_010
+  rotate: true
+  xy: 840, 617
+  size: 403, 180
+  orig: 490, 205
+  offset: 24, 14
+  index: -1
+images/lizi/lizi_014
+  rotate: false
+  xy: 420, 630
+  size: 413, 190
+  orig: 490, 205
+  offset: 22, 6
+  index: -1
+images/lizi/lizi_016
+  rotate: false
+  xy: 2, 625
+  size: 416, 195
+  orig: 490, 205
+  offset: 20, 3
+  index: -1
+images/lizi/lizi_018
+  rotate: false
+  xy: 2, 822
+  size: 418, 198
+  orig: 490, 205
+  offset: 18, 1
+  index: -1
+images/lizi/lizi_020
+  rotate: false
+  xy: 422, 822
+  size: 416, 198
+  orig: 490, 205
+  offset: 18, 0
+  index: -1
+images/lizi/lizi_022
+  rotate: true
+  xy: 2, 202
+  size: 413, 198
+  orig: 490, 205
+  offset: 20, 0
+  index: -1
+images/lizi/lizi_024
+  rotate: false
+  xy: 2, 3
+  size: 408, 197
+  orig: 490, 205
+  offset: 22, 0
+  index: -1
+images/lizi/lizi_026
+  rotate: false
+  xy: 412, 428
+  size: 407, 195
+  orig: 490, 205
+  offset: 22, 1
+  index: -1
+images/lizi/lizi_028
+  rotate: true
+  xy: 202, 220
+  size: 403, 194
+  orig: 490, 205
+  offset: 24, 1
+  index: -1
+
+2zn_lingjiang2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/guangxian_000
+  rotate: false
+  xy: 2, 776
+  size: 428, 164
+  orig: 490, 205
+  offset: 29, 21
+  index: -1
+images/lizi/lizi_006
+  rotate: false
+  xy: 2, 400
+  size: 394, 187
+  orig: 490, 205
+  offset: 29, 7
+  index: -1
+images/lizi/lizi_008
+  rotate: true
+  xy: 2, 2
+  size: 396, 185
+  orig: 490, 205
+  offset: 27, 9
+  index: -1
+images/lizi/lizi_012
+  rotate: false
+  xy: 2, 589
+  size: 407, 185
+  orig: 490, 205
+  offset: 23, 10
+  index: -1

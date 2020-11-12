@@ -1,0 +1,111 @@
+
+effects_29003_1_skillB.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+R/C/boom/boom_001
+  rotate: false
+  xy: 231, 506
+  size: 191, 106
+  orig: 250, 200
+  offset: 29, 22
+  index: -1
+R/C/boom/boom_002
+  rotate: false
+  xy: 2, 27
+  size: 213, 118
+  orig: 250, 200
+  offset: 24, 22
+  index: -1
+R/C/boom/boom_003
+  rotate: false
+  xy: 2, 463
+  size: 227, 149
+  orig: 250, 200
+  offset: 18, 22
+  index: -1
+R/C/boom/boom_004
+  rotate: false
+  xy: 2, 304
+  size: 218, 157
+  orig: 250, 200
+  offset: 11, 22
+  index: -1
+R/C/boom/boom_005
+  rotate: false
+  xy: 2, 147
+  size: 206, 155
+  orig: 250, 200
+  offset: 11, 24
+  index: -1
+R/C/boom/boom_006
+  rotate: true
+  xy: 594, 717
+  size: 190, 154
+  orig: 250, 200
+  offset: 14, 25
+  index: -1
+R/C/dao1_030
+  rotate: true
+  xy: 231, 446
+  size: 58, 77
+  orig: 100, 100
+  offset: 22, 11
+  index: -1
+R/C/di/di_000
+  rotate: false
+  xy: 404, 909
+  size: 377, 113
+  orig: 400, 120
+  offset: 13, 0
+  index: -1
+R/C/di/di_002
+  rotate: false
+  xy: 2, 909
+  size: 400, 113
+  orig: 400, 120
+  offset: 0, 1
+  index: -1
+R/C/di/di_004
+  rotate: false
+  xy: 2, 799
+  size: 400, 108
+  orig: 400, 120
+  offset: 0, 2
+  index: -1
+R/C/di/di_006
+  rotate: false
+  xy: 2, 707
+  size: 400, 90
+  orig: 400, 120
+  offset: 0, 12
+  index: -1
+R/C/di/di_007
+  rotate: false
+  xy: 2, 614
+  size: 398, 91
+  orig: 400, 120
+  offset: 2, 12
+  index: -1
+R/C/dilie_000
+  rotate: false
+  xy: 783, 973
+  size: 239, 49
+  orig: 250, 50
+  offset: 11, 0
+  index: -1
+R/C/zidan/zidan_000
+  rotate: false
+  xy: 404, 716
+  size: 188, 191
+  orig: 200, 200
+  offset: 12, 7
+  index: -1
+R/guangxian_000
+  rotate: false
+  xy: 783, 940
+  size: 237, 31
+  orig: 250, 40
+  offset: 6, 5
+  index: -1

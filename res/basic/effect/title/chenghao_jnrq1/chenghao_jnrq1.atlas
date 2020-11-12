@@ -1,0 +1,20 @@
+
+chenghao_jnrq1.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/qishi_000
+  rotate: false
+  xy: 2, 106
+  size: 147, 43
+  orig: 180, 50
+  offset: 17, 6
+  index: -1
+images/qishiglow_000
+  rotate: false
+  xy: 2, 65
+  size: 119, 39
+  orig: 180, 50
+  offset: 31, 4
+  index: -1

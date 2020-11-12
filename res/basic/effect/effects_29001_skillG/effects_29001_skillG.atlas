@@ -1,0 +1,256 @@
+
+effects_29001_skillG.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skillG/chuan/chuan_063
+  rotate: false
+  xy: 2, 100
+  size: 413, 148
+  orig: 420, 150
+  offset: 0, 2
+  index: -1
+effects/skillG/dao1/dao1_000
+  rotate: false
+  xy: 564, 817
+  size: 455, 202
+  orig: 500, 260
+  offset: 6, 10
+  index: -1
+effects/skillG/dao1/dao1_001
+  rotate: false
+  xy: 546, 100
+  size: 467, 254
+  orig: 500, 260
+  offset: 18, 3
+  index: -1
+effects/skillG/dao1/dao1_003
+  rotate: false
+  xy: 564, 593
+  size: 453, 222
+  orig: 500, 260
+  offset: 27, 32
+  index: -1
+effects/skillG/dao4/dao4_061
+  rotate: false
+  xy: 564, 356
+  size: 450, 235
+  orig: 560, 280
+  offset: 110, 0
+  index: -1
+effects/skillG/dao4/dao4_062
+  rotate: false
+  xy: 2, 509
+  size: 560, 245
+  orig: 560, 280
+  offset: 0, 0
+  index: -1
+effects/skillG/dao4/dao4_064
+  rotate: false
+  xy: 2, 756
+  size: 560, 263
+  orig: 560, 280
+  offset: 0, 0
+  index: -1
+effects/skillG/dao4/dao4_066
+  rotate: false
+  xy: 2, 250
+  size: 542, 257
+  orig: 560, 280
+  offset: 3, 6
+  index: -1
+effects/tongyong/yan/yan_048
+  rotate: false
+  xy: 848, 8
+  size: 147, 90
+  orig: 200, 100
+  offset: 27, 2
+  index: -1
+effects/tongyong/yan/yan_049
+  rotate: false
+  xy: 681, 7
+  size: 165, 91
+  orig: 200, 100
+  offset: 19, 2
+  index: -1
+effects/tongyong/yan/yan_050
+  rotate: false
+  xy: 511, 6
+  size: 168, 92
+  orig: 200, 100
+  offset: 16, 1
+  index: -1
+effects/tongyong/yan/yan_051
+  rotate: false
+  xy: 340, 5
+  size: 169, 93
+  orig: 200, 100
+  offset: 20, 1
+  index: -1
+effects/tongyong/yan/yan_052
+  rotate: false
+  xy: 161, 5
+  size: 177, 93
+  orig: 200, 100
+  offset: 11, 0
+  index: -1
+effects/tongyong/yan/yan_053
+  rotate: false
+  xy: 2, 4
+  size: 157, 94
+  orig: 200, 100
+  offset: 11, 1
+  index: -1
+effects/tongyong/yan2/yan2_006
+  rotate: false
+  xy: 417, 157
+  size: 122, 91
+  orig: 200, 100
+  offset: 21, 5
+  index: -1
+effects/tongyong/yan2/yan2_008
+  rotate: false
+  xy: 417, 100
+  size: 111, 55
+  orig: 200, 100
+  offset: 22, 5
+  index: -1
+
+effects_29001_skillG2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/glow
+  rotate: false
+  xy: 857, 74
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+effects/skillG/chuan/chuan_059
+  rotate: true
+  xy: 806, 314
+  size: 304, 143
+  orig: 420, 150
+  offset: 0, 0
+  index: -1
+effects/skillG/chuan/chuan_061
+  rotate: false
+  xy: 403, 425
+  size: 401, 150
+  orig: 420, 150
+  offset: 0, 0
+  index: -1
+effects/skillG/chuan/chuan_067
+  rotate: true
+  xy: 885, 620
+  size: 402, 135
+  orig: 420, 150
+  offset: 16, 3
+  index: -1
+effects/skillG/dao1/dao1_005
+  rotate: false
+  xy: 2, 35
+  size: 440, 198
+  orig: 500, 260
+  offset: 27, 51
+  index: -1
+effects/skillG/dao1/dao1_007
+  rotate: false
+  xy: 394, 251
+  size: 403, 172
+  orig: 500, 260
+  offset: 27, 55
+  index: -1
+effects/skillG/dao4/dao4_068
+  rotate: false
+  xy: 403, 846
+  size: 480, 176
+  orig: 560, 280
+  offset: 17, 54
+  index: -1
+effects/skillG/dao4/dao4_070
+  rotate: false
+  xy: 444, 84
+  size: 411, 165
+  orig: 560, 280
+  offset: 67, 63
+  index: -1
+effects/skillG/hit/hit_002
+  rotate: false
+  xy: 403, 577
+  size: 372, 267
+  orig: 400, 267
+  offset: 14, 0
+  index: -1
+effects/skillG/hit/hit_004
+  rotate: false
+  xy: 2, 235
+  size: 390, 258
+  orig: 400, 267
+  offset: 4, 3
+  index: -1
+effects/skillG/hit/hit_006
+  rotate: false
+  xy: 2, 495
+  size: 399, 262
+  orig: 400, 267
+  offset: 0, 1
+  index: -1
+effects/skillG/hit/hit_007
+  rotate: false
+  xy: 2, 759
+  size: 399, 263
+  orig: 400, 267
+  offset: 0, 1
+  index: -1
+effects/tongyong/yan2/yan2_000
+  rotate: true
+  xy: 951, 501
+  size: 117, 71
+  orig: 200, 100
+  offset: 75, 5
+  index: -1
+effects/tongyong/yan2/yan2_002
+  rotate: true
+  xy: 857, 176
+  size: 136, 88
+  orig: 200, 100
+  offset: 33, 5
+  index: -1
+effects/tongyong/yan2/yan2_004
+  rotate: true
+  xy: 777, 704
+  size: 140, 90
+  orig: 200, 100
+  offset: 22, 5
+  index: -1
+
+effects_29001_skillG3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skillG/chuan/chuan_065
+  rotate: false
+  xy: 361, 624
+  size: 410, 147
+  orig: 420, 150
+  offset: 2, 3
+  index: -1
+effects/skillG/hit/hit_000
+  rotate: false
+  xy: 2, 244
+  size: 335, 263
+  orig: 400, 267
+  offset: 34, 2
+  index: -1
+effects/skillG/hit/hit_001
+  rotate: false
+  xy: 2, 509
+  size: 357, 262
+  orig: 400, 267
+  offset: 21, 0
+  index: -1

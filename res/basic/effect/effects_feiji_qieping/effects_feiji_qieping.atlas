@@ -1,0 +1,117 @@
+
+effects_feiji_qieping.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/qiechang/qiechang_008
+  rotate: true
+  xy: 416, 734
+  size: 198, 516
+  orig: 247, 584
+  offset: 26, 30
+  index: -1
+images/qiechang/qiechang_010
+  rotate: false
+  xy: 714, 21
+  size: 193, 511
+  orig: 247, 584
+  offset: 31, 30
+  index: -1
+images/qiechang/qiechang_012
+  rotate: false
+  xy: 212, 422
+  size: 202, 510
+  orig: 247, 584
+  offset: 23, 30
+  index: -1
+images/qiechang/qiechang_014
+  rotate: false
+  xy: 2, 417
+  size: 208, 515
+  orig: 247, 584
+  offset: 16, 30
+  index: -1
+images/qiechang/qiechang_022
+  rotate: false
+  xy: 518, 19
+  size: 194, 513
+  orig: 247, 584
+  offset: 31, 30
+  index: -1
+images/qiechang/qiechang_024
+  rotate: true
+  xy: 2, 5
+  size: 203, 512
+  orig: 247, 584
+  offset: 21, 30
+  index: -1
+images/qiechang/qiechang_026
+  rotate: true
+  xy: 416, 534
+  size: 198, 511
+  orig: 247, 584
+  offset: 26, 30
+  index: -1
+images/qiechang/qiechang_028
+  rotate: true
+  xy: 2, 210
+  size: 205, 514
+  orig: 247, 584
+  offset: 19, 30
+  index: -1
+
+effects_feiji_qieping2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/qiechang/qiechang_000
+  rotate: true
+  xy: 385, 362
+  size: 169, 516
+  orig: 247, 584
+  offset: 55, 30
+  index: -1
+images/qiechang/qiechang_002
+  rotate: true
+  xy: 2, 183
+  size: 177, 515
+  orig: 247, 584
+  offset: 47, 30
+  index: -1
+images/qiechang/qiechang_004
+  rotate: true
+  xy: 385, 716
+  size: 185, 514
+  orig: 247, 584
+  offset: 39, 30
+  index: -1
+images/qiechang/qiechang_006
+  rotate: false
+  xy: 2, 388
+  size: 190, 513
+  orig: 247, 584
+  offset: 33, 30
+  index: -1
+images/qiechang/qiechang_016
+  rotate: true
+  xy: 2, 8
+  size: 173, 515
+  orig: 247, 584
+  offset: 51, 30
+  index: -1
+images/qiechang/qiechang_018
+  rotate: true
+  xy: 385, 533
+  size: 181, 514
+  orig: 247, 584
+  offset: 43, 30
+  index: -1
+images/qiechang/qiechang_020
+  rotate: false
+  xy: 194, 388
+  size: 189, 513
+  orig: 247, 584
+  offset: 35, 30
+  index: -1

@@ -1,0 +1,326 @@
+
+effects_29001_skillF.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skillF/buff1/buff1_042
+  rotate: false
+  xy: 823, 4
+  size: 131, 163
+  orig: 160, 200
+  offset: 14, 27
+  index: -1
+effects/skillF/buff1/buff1_046
+  rotate: true
+  xy: 823, 169
+  size: 129, 187
+  orig: 160, 200
+  offset: 15, 9
+  index: -1
+effects/skillF/buff1/buff1_056
+  rotate: true
+  xy: 180, 382
+  size: 128, 153
+  orig: 160, 200
+  offset: 20, 34
+  index: -1
+effects/skillF/buff2/buff2_000
+  rotate: true
+  xy: 335, 2
+  size: 140, 200
+  orig: 140, 220
+  offset: 0, 10
+  index: -1
+effects/skillF/buff2/buff2_002
+  rotate: false
+  xy: 180, 84
+  size: 140, 200
+  orig: 140, 220
+  offset: 0, 10
+  index: -1
+effects/skillF/buff2/buff2_010
+  rotate: true
+  xy: 823, 478
+  size: 140, 199
+  orig: 140, 220
+  offset: 0, 11
+  index: -1
+effects/skillF/heiqi/heiqi_000
+  rotate: true
+  xy: 956, 121
+  size: 46, 50
+  orig: 100, 200
+  offset: 37, 0
+  index: -1
+effects/skillF/heiqi/heiqi_001
+  rotate: true
+  xy: 180, 3
+  size: 71, 153
+  orig: 100, 200
+  offset: 4, 3
+  index: -1
+effects/skillF/heiqi/heiqi_002
+  rotate: true
+  xy: 823, 392
+  size: 84, 193
+  orig: 100, 200
+  offset: 4, 2
+  index: -1
+effects/skillF/heiqi/heiqi_003
+  rotate: true
+  xy: 823, 300
+  size: 90, 190
+  orig: 100, 200
+  offset: 4, 7
+  index: -1
+effects/skillF/heiqi/heiqi_005
+  rotate: true
+  xy: 180, 286
+  size: 94, 143
+  orig: 100, 200
+  offset: 5, 57
+  index: -1
+effects/skillF/jianhuo/jianhuo_008
+  rotate: false
+  xy: 335, 144
+  size: 225, 366
+  orig: 230, 380
+  offset: 2, 8
+  index: -1
+effects/skillG/dao4/dao4_061
+  rotate: false
+  xy: 564, 787
+  size: 450, 235
+  orig: 560, 280
+  offset: 110, 0
+  index: -1
+effects/skillG/dao4/dao4_062
+  rotate: false
+  xy: 2, 512
+  size: 560, 245
+  orig: 560, 280
+  offset: 0, 0
+  index: -1
+effects/skillG/dao4/dao4_064
+  rotate: false
+  xy: 2, 759
+  size: 560, 263
+  orig: 560, 280
+  offset: 0, 0
+  index: -1
+effects/skillG/dao4/dao4_066
+  rotate: true
+  xy: 564, 76
+  size: 542, 257
+  orig: 560, 280
+  offset: 3, 6
+  index: -1
+effects/skillG/dao4/dao4_068
+  rotate: true
+  xy: 2, 30
+  size: 480, 176
+  orig: 560, 280
+  offset: 17, 54
+  index: -1
+effects/skillG/dao4/dao4_070
+  rotate: false
+  xy: 564, 620
+  size: 411, 165
+  orig: 560, 280
+  offset: 67, 63
+  index: -1
+
+effects_29001_skillF2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skillF/buff1/buff1_048
+  rotate: false
+  xy: 800, 22
+  size: 125, 180
+  orig: 160, 200
+  offset: 16, 12
+  index: -1
+effects/skillF/buff1/buff1_050
+  rotate: true
+  xy: 637, 367
+  size: 118, 180
+  orig: 160, 200
+  offset: 20, 13
+  index: -1
+effects/skillF/buff2/buff2_004
+  rotate: true
+  xy: 435, 506
+  size: 140, 200
+  orig: 140, 220
+  offset: 0, 10
+  index: -1
+effects/skillF/buff2/buff2_006
+  rotate: true
+  xy: 435, 364
+  size: 140, 200
+  orig: 140, 220
+  offset: 0, 10
+  index: -1
+effects/skillF/buff2/buff2_008
+  rotate: true
+  xy: 800, 204
+  size: 139, 200
+  orig: 140, 220
+  offset: 1, 10
+  index: -1
+effects/skillF/buff2/buff2_012
+  rotate: false
+  xy: 374, 65
+  size: 140, 200
+  orig: 140, 220
+  offset: 0, 10
+  index: -1
+effects/skillF/buff2/buff2_014
+  rotate: false
+  xy: 516, 67
+  size: 140, 200
+  orig: 140, 220
+  offset: 0, 10
+  index: -1
+effects/skillF/buff2/buff2_016
+  rotate: true
+  xy: 819, 345
+  size: 140, 200
+  orig: 140, 220
+  offset: 0, 10
+  index: -1
+effects/skillF/buff2/buff2_018
+  rotate: false
+  xy: 658, 71
+  size: 140, 200
+  orig: 140, 220
+  offset: 0, 10
+  index: -1
+effects/skillF/heiqi/heiqi_004
+  rotate: true
+  xy: 435, 269
+  size: 93, 179
+  orig: 100, 200
+  offset: 4, 17
+  index: -1
+effects/skillF/heiqi/heiqi_006
+  rotate: true
+  xy: 616, 273
+  size: 89, 127
+  orig: 100, 200
+  offset: 11, 73
+  index: -1
+effects/skillF/jianhuo/jianhuo_000
+  rotate: true
+  xy: 637, 487
+  size: 136, 324
+  orig: 230, 380
+  offset: 21, 22
+  index: -1
+effects/skillF/jianhuo/jianhuo_002
+  rotate: true
+  xy: 646, 805
+  size: 214, 364
+  orig: 230, 380
+  offset: 5, 10
+  index: -1
+effects/skillF/jianhuo/jianhuo_004
+  rotate: false
+  xy: 211, 267
+  size: 222, 373
+  orig: 230, 380
+  offset: 5, 6
+  index: -1
+effects/skillF/jianhuo/jianhuo_006
+  rotate: true
+  xy: 2, 39
+  size: 224, 370
+  orig: 230, 380
+  offset: 5, 7
+  index: -1
+effects/skillF/jianhuo/jianhuo_010
+  rotate: false
+  xy: 425, 648
+  size: 219, 371
+  orig: 230, 380
+  offset: 8, 6
+  index: -1
+effects/skillF/jianhuo/jianhuo_012
+  rotate: false
+  xy: 2, 642
+  size: 216, 377
+  orig: 230, 380
+  offset: 5, 2
+  index: -1
+effects/skillF/jianhuo/jianhuo_014
+  rotate: false
+  xy: 2, 265
+  size: 207, 375
+  orig: 230, 380
+  offset: 9, 2
+  index: -1
+effects/skillF/jianhuo/jianhuo_016
+  rotate: false
+  xy: 220, 647
+  size: 203, 372
+  orig: 230, 380
+  offset: 13, 2
+  index: -1
+effects/skillF/jianhuo/jianhuo_018
+  rotate: true
+  xy: 646, 625
+  size: 178, 354
+  orig: 230, 380
+  offset: 22, 7
+  index: -1
+
+effects_29001_skillF3.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/glow
+  rotate: false
+  xy: 260, 260
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+effects/skillF/buff1/buff1_040
+  rotate: false
+  xy: 2, 146
+  size: 118, 162
+  orig: 160, 200
+  offset: 18, 22
+  index: -1
+effects/skillF/buff1/buff1_044
+  rotate: false
+  xy: 126, 324
+  size: 132, 162
+  orig: 160, 200
+  offset: 14, 30
+  index: -1
+effects/skillF/buff1/buff1_052
+  rotate: false
+  xy: 2, 310
+  size: 122, 176
+  orig: 160, 200
+  offset: 19, 21
+  index: -1
+effects/skillF/buff1/buff1_054
+  rotate: true
+  xy: 260, 362
+  size: 124, 163
+  orig: 160, 200
+  offset: 19, 29
+  index: -1
+effects/skillF/buff1/buff1_058
+  rotate: false
+  xy: 2, 2
+  size: 116, 142
+  orig: 160, 200
+  offset: 21, 39
+  index: -1

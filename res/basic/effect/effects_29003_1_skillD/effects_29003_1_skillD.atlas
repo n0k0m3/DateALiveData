@@ -1,0 +1,90 @@
+
+effects_29003_1_skillD.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+R/C/shifa/shifa_001
+  rotate: false
+  xy: 546, 559
+  size: 190, 190
+  orig: 250, 250
+  offset: 0, 36
+  index: -1
+R/C/shifa/shifa_003
+  rotate: false
+  xy: 261, 22
+  size: 200, 204
+  orig: 250, 250
+  offset: 11, 27
+  index: -1
+R/C/shifa/shifa_004
+  rotate: false
+  xy: 315, 552
+  size: 229, 197
+  orig: 250, 250
+  offset: 11, 34
+  index: -1
+R/C/shifa/shifa_005
+  rotate: false
+  xy: 314, 383
+  size: 222, 167
+  orig: 250, 250
+  offset: 18, 58
+  index: -1
+R/C/shifa/shifa_006
+  rotate: false
+  xy: 291, 228
+  size: 208, 153
+  orig: 250, 250
+  offset: 25, 70
+  index: -1
+R/D/Ddaoguang_000
+  rotate: false
+  xy: 315, 751
+  size: 303, 222
+  orig: 350, 300
+  offset: 6, 69
+  index: -1
+R/D/Ddaoguang_001
+  rotate: false
+  xy: 2, 708
+  size: 311, 265
+  orig: 350, 300
+  offset: 5, 6
+  index: -1
+R/D/Ddaoguang_003
+  rotate: false
+  xy: 2, 465
+  size: 310, 241
+  orig: 350, 300
+  offset: 25, 10
+  index: -1
+R/D/Ddaoguang_005
+  rotate: false
+  xy: 2, 233
+  size: 287, 230
+  orig: 350, 300
+  offset: 48, 22
+  index: -1
+R/D/Ddaoguang_007
+  rotate: false
+  xy: 2, 4
+  size: 257, 227
+  orig: 350, 300
+  offset: 53, 37
+  index: -1
+R/D/Ddaoguang_009
+  rotate: false
+  xy: 620, 772
+  size: 251, 201
+  orig: 350, 300
+  offset: 54, 59
+  index: -1
+glow
+  rotate: false
+  xy: 873, 873
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1

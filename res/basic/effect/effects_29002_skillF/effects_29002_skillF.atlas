@@ -1,0 +1,97 @@
+
+effects_29002_skillF.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/glow
+  rotate: false
+  xy: 561, 638
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+effects/skillF/baoyan/baoyan_000
+  rotate: false
+  xy: 2, 259
+  size: 236, 219
+  orig: 320, 260
+  offset: 37, 16
+  index: -1
+effects/skillF/baoyan/baoyan_002
+  rotate: false
+  xy: 2, 731
+  size: 309, 246
+  orig: 320, 260
+  offset: 7, 11
+  index: -1
+effects/skillF/baoyan/baoyan_004
+  rotate: false
+  xy: 2, 480
+  size: 305, 249
+  orig: 320, 260
+  offset: 9, 11
+  index: -1
+effects/skillF/baoyan/baoyan_006
+  rotate: false
+  xy: 313, 740
+  size: 300, 237
+  orig: 320, 260
+  offset: 8, 18
+  index: -1
+effects/skillF/baoyan/baoyan_008
+  rotate: false
+  xy: 615, 750
+  size: 218, 227
+  orig: 320, 260
+  offset: 47, 20
+  index: -1
+effects/skillF/baoyan/baoyan_010
+  rotate: false
+  xy: 2, 45
+  size: 201, 212
+  orig: 320, 260
+  offset: 52, 19
+  index: -1
+effects/skillF/yan/yan_001
+  rotate: true
+  xy: 240, 251
+  size: 227, 91
+  orig: 260, 140
+  offset: 16, 18
+  index: -1
+effects/skillF/yan/yan_002
+  rotate: false
+  xy: 309, 535
+  size: 242, 101
+  orig: 260, 140
+  offset: 4, 19
+  index: -1
+effects/skillF/yan/yan_003
+  rotate: true
+  xy: 835, 733
+  size: 244, 104
+  orig: 260, 140
+  offset: 3, 19
+  index: -1
+effects/skillF/yan/yan_004
+  rotate: true
+  xy: 205, 2
+  size: 247, 103
+  orig: 260, 140
+  offset: 4, 19
+  index: -1
+effects/skillF/yan/yan_005
+  rotate: true
+  xy: 310, 3
+  size: 246, 102
+  orig: 260, 140
+  offset: 5, 19
+  index: -1
+effects/skillF/yan/yan_006
+  rotate: false
+  xy: 313, 638
+  size: 246, 100
+  orig: 260, 140
+  offset: 5, 19
+  index: -1

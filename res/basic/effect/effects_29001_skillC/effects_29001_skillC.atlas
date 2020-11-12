@@ -1,0 +1,97 @@
+
+effects_29001_skillC.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/glow
+  rotate: false
+  xy: 404, 509
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+effects/skillC/canyinga_000
+  rotate: true
+  xy: 872, 822
+  size: 200, 150
+  orig: 200, 150
+  offset: 0, 0
+  index: -1
+effects/skillC/chuan/chuan_000
+  rotate: false
+  xy: 449, 773
+  size: 324, 117
+  orig: 450, 150
+  offset: 0, 26
+  index: -1
+effects/skillC/chuan/chuan_002
+  rotate: false
+  xy: 2, 577
+  size: 400, 145
+  orig: 450, 150
+  offset: 0, 4
+  index: -1
+effects/skillC/chuan/chuan_004
+  rotate: false
+  xy: 2, 873
+  size: 445, 149
+  orig: 450, 150
+  offset: 4, 1
+  index: -1
+effects/skillC/chuan/chuan_006
+  rotate: false
+  xy: 2, 724
+  size: 412, 147
+  orig: 450, 150
+  offset: 38, 2
+  index: -1
+effects/skillC/chuan/chuan_008
+  rotate: false
+  xy: 2, 431
+  size: 390, 144
+  orig: 450, 150
+  offset: 60, 1
+  index: -1
+effects/skillC/chuan1/chuan1_000
+  rotate: true
+  xy: 658, 551
+  size: 220, 112
+  orig: 430, 130
+  offset: 0, 18
+  index: -1
+effects/skillC/chuan1/chuan1_002
+  rotate: true
+  xy: 134, 49
+  size: 380, 130
+  orig: 430, 130
+  offset: 8, 0
+  index: -1
+effects/skillC/chuan1/chuan1_004
+  rotate: false
+  xy: 449, 892
+  size: 421, 130
+  orig: 430, 130
+  offset: 9, 0
+  index: -1
+effects/skillC/chuan1/chuan1_006
+  rotate: true
+  xy: 2, 29
+  size: 400, 130
+  orig: 430, 130
+  offset: 30, 0
+  index: -1
+effects/skillC/chuan1/chuan1_008
+  rotate: true
+  xy: 266, 51
+  size: 378, 130
+  orig: 430, 130
+  offset: 51, 0
+  index: -1
+effects/skillC/jianying_000
+  rotate: false
+  xy: 416, 611
+  size: 240, 160
+  orig: 240, 160
+  offset: 0, 0
+  index: -1

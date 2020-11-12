@@ -728,14 +728,17 @@ end
 function GoodsDataMgr:getOverdueCouponData( couponType , time_1 , time_2 )
     local itemList_1 = {}
     local itemList_2 = {}
-    local couponData = self:getItemsBySuperTyper(couponType)
-    for k,v in pairs(couponData) do
-        local remainTime = math.max(0, v.outTime - ServerDataMgr:getServerTime())
-        if remainTime >0 then
-            if remainTime <  time_1 then
-                table.insert(itemList_1,v);
-            elseif remainTime < time_2 then
-                table.insert(itemList_2,v);
+    for key , itemType in pairs(couponType) do
+        local couponData = self:getItemsBySuperTyper(itemType)
+        for k,v in pairs(couponData) do
+            local outTime = v.outTime or 0
+            local remainTime = math.max(0, outTime - ServerDataMgr:getServerTime())
+            if remainTime >0 then
+                if remainTime <  time_1 then
+                    table.insert(itemList_1,v);
+                elseif remainTime < time_2 then
+                    table.insert(itemList_2,v);
+                end
             end
         end
     end

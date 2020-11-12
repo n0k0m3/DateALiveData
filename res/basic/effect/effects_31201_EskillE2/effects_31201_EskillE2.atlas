@@ -1,0 +1,265 @@
+
+effects_31201_EskillE2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+c_lchi3
+  rotate: false
+  xy: 562, 312
+  size: 94, 78
+  orig: 95, 78
+  offset: 0, 0
+  index: -1
+c_lchi6
+  rotate: true
+  xy: 756, 700
+  size: 125, 182
+  orig: 126, 182
+  offset: 0, 0
+  index: -1
+c_rchi3
+  rotate: false
+  xy: 437, 354
+  size: 123, 106
+  orig: 123, 107
+  offset: 0, 1
+  index: -1
+c_rchi6
+  rotate: true
+  xy: 310, 849
+  size: 173, 285
+  orig: 173, 286
+  offset: 0, 0
+  index: -1
+effects_L/EskillE/boom/boom_031
+  rotate: false
+  xy: 562, 392
+  size: 91, 89
+  orig: 234, 171
+  offset: 74, 15
+  index: -1
+effects_L/EskillE/boom/boom_032
+  rotate: true
+  xy: 261, 180
+  size: 182, 158
+  orig: 234, 171
+  offset: 32, 2
+  index: -1
+effects_L/EskillE/boom/boom_033
+  rotate: false
+  xy: 2, 320
+  size: 220, 160
+  orig: 234, 171
+  offset: 5, 1
+  index: -1
+effects_L/EskillE/boom/boom_035
+  rotate: false
+  xy: 597, 859
+  size: 215, 163
+  orig: 234, 171
+  offset: 7, 3
+  index: -1
+effects_L/EskillE/boom/boom_037
+  rotate: false
+  xy: 814, 859
+  size: 208, 163
+  orig: 234, 171
+  offset: 16, 6
+  index: -1
+effects_L/EskillE/boom/boom_039
+  rotate: false
+  xy: 2, 166
+  size: 205, 152
+  orig: 234, 171
+  offset: 20, 19
+  index: -1
+effects_L/EskillE/boom/boom_041
+  rotate: false
+  xy: 2, 18
+  size: 205, 146
+  orig: 234, 171
+  offset: 20, 25
+  index: -1
+effects_L/EskillE/boom/boom_043
+  rotate: false
+  xy: 308, 593
+  size: 204, 143
+  orig: 234, 171
+  offset: 21, 28
+  index: -1
+effects_L/EskillE/boom/boom_045
+  rotate: false
+  xy: 308, 462
+  size: 199, 129
+  orig: 234, 171
+  offset: 24, 40
+  index: -1
+effects_L/EskillE/boom/boom_047
+  rotate: false
+  xy: 261, 88
+  size: 153, 90
+  orig: 234, 171
+  offset: 26, 45
+  index: -1
+effects_L/EskillE/boom/boom_049
+  rotate: false
+  xy: 421, 277
+  size: 133, 75
+  orig: 234, 171
+  offset: 40, 51
+  index: -1
+effects_L/EskillE/dimian_031
+  rotate: false
+  xy: 597, 827
+  size: 311, 30
+  orig: 350, 60
+  offset: 12, 6
+  index: -1
+effects_L/EskillE/shandian2/shandian2_076
+  rotate: false
+  xy: 421, 189
+  size: 86, 17
+  orig: 237, 106
+  offset: 74, 49
+  index: -1
+effects_L/EskillE/shandian2/shandian2_078
+  rotate: false
+  xy: 528, 670
+  size: 212, 75
+  orig: 237, 106
+  offset: 17, 17
+  index: -1
+effects_L/EskillE/shandian2/shandian2_080
+  rotate: true
+  xy: 209, 87
+  size: 231, 50
+  orig: 237, 106
+  offset: 2, 27
+  index: -1
+effects_L/EskillE/shandian2/shandian2_082
+  rotate: false
+  xy: 528, 747
+  size: 226, 78
+  orig: 237, 106
+  offset: 7, 15
+  index: -1
+effects_L/EskillE/shandian2/shandian2_084
+  rotate: false
+  xy: 514, 626
+  size: 211, 42
+  orig: 237, 106
+  offset: 8, 34
+  index: -1
+effects_L/EskillE/shandian3/shandian3_076
+  rotate: false
+  xy: 421, 208
+  size: 121, 67
+  orig: 149, 82
+  offset: 21, 2
+  index: -1
+effects_L/EskillE/shandian3/shandian3_077
+  rotate: false
+  xy: 421, 208
+  size: 121, 67
+  orig: 149, 82
+  offset: 21, 2
+  index: -1
+effects_L/EskillE/shandian3/shandian3_078
+  rotate: false
+  xy: 421, 208
+  size: 121, 67
+  orig: 149, 82
+  offset: 21, 2
+  index: -1
+effects_L/EskillE/shandian3/shandian3_079
+  rotate: false
+  xy: 556, 238
+  size: 95, 72
+  orig: 149, 82
+  offset: 31, 2
+  index: -1
+effects_L/EskillE/shandian3/shandian3_080
+  rotate: false
+  xy: 556, 238
+  size: 95, 72
+  orig: 149, 82
+  offset: 31, 2
+  index: -1
+effects_L/EskillE/shandian3/shandian3_081
+  rotate: false
+  xy: 679, 550
+  size: 52, 74
+  orig: 149, 82
+  offset: 12, 4
+  index: -1
+effects_L/EskillE/shandian5/shandian5_030
+  rotate: true
+  xy: 940, 692
+  size: 165, 77
+  orig: 177, 95
+  offset: 5, 5
+  index: -1
+effects_L/EskillE/shandian5/shandian5_032
+  rotate: false
+  xy: 514, 553
+  size: 163, 71
+  orig: 177, 95
+  offset: 8, 10
+  index: -1
+effects_L/EskillE/shandian5/shandian5_034
+  rotate: false
+  xy: 509, 483
+  size: 151, 68
+  orig: 177, 95
+  offset: 18, 16
+  index: -1
+effects_L/EskillE/shandian5/shandian5_036
+  rotate: false
+  xy: 209, 2
+  size: 47, 83
+  orig: 177, 95
+  offset: 115, 1
+  index: -1
+effects_L/EskillE/shandian5/shandian5_037
+  rotate: false
+  xy: 209, 2
+  size: 47, 83
+  orig: 177, 95
+  offset: 115, 1
+  index: -1
+effects_L/Eskillc/glow_021
+  rotate: false
+  xy: 742, 652
+  size: 145, 46
+  orig: 150, 61
+  offset: 2, 6
+  index: -1
+lchi3
+  rotate: false
+  xy: 224, 364
+  size: 211, 96
+  orig: 212, 97
+  offset: 0, 1
+  index: -1
+lchi6
+  rotate: false
+  xy: 2, 482
+  size: 304, 255
+  orig: 304, 255
+  offset: 0, 0
+  index: -1
+rchi3
+  rotate: false
+  xy: 310, 738
+  size: 216, 109
+  orig: 216, 109
+  offset: 0, 0
+  index: -1
+rchi6
+  rotate: false
+  xy: 2, 739
+  size: 306, 283
+  orig: 307, 284
+  offset: 0, 1
+  index: -1

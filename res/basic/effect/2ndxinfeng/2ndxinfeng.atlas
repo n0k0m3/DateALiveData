@@ -1,0 +1,97 @@
+
+2ndxinfeng.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/bei_090
+  rotate: false
+  xy: 509, 1284
+  size: 500, 176
+  orig: 532, 221
+  offset: 13, 24
+  index: -1
+images/beimian_000
+  rotate: false
+  xy: 2, 1179
+  size: 505, 281
+  orig: 588, 589
+  offset: 46, 24
+  index: -1
+images/bianqian_000
+  rotate: false
+  xy: 1036, 1534
+  size: 311, 234
+  orig: 360, 284
+  offset: 36, 17
+  index: -1
+images/caidai1_000
+  rotate: false
+  xy: 325, 706
+  size: 130, 200
+  orig: 212, 320
+  offset: 41, 73
+  index: -1
+images/caidai_000
+  rotate: false
+  xy: 2, 320
+  size: 201, 264
+  orig: 288, 430
+  offset: 40, 91
+  index: -1
+images/caomei_000
+  rotate: false
+  xy: 1349, 1592
+  size: 141, 176
+  orig: 238, 234
+  offset: 60, 28
+  index: -1
+images/maobing_000
+  rotate: false
+  xy: 1543, 1770
+  size: 135, 91
+  orig: 216, 176
+  offset: 35, 40
+  index: -1
+images/xinzhi_000
+  rotate: false
+  xy: 2, 1462
+  size: 1032, 584
+  orig: 1032, 584
+  offset: 0, 0
+  index: -1
+images/yuan_000
+  rotate: false
+  xy: 2, 586
+  size: 321, 320
+  orig: 460, 420
+  offset: 65, 50
+  index: -1
+images/zhang_000
+  rotate: false
+  xy: 2, 169
+  size: 140, 149
+  orig: 194, 196
+  offset: 26, 22
+  index: -1
+images/zheng_000
+  rotate: false
+  xy: 1543, 1863
+  size: 503, 183
+  orig: 588, 225
+  offset: 47, 2
+  index: -1
+images/zhengmian_000
+  rotate: false
+  xy: 1036, 1770
+  size: 505, 276
+  orig: 588, 345
+  offset: 46, 24
+  index: -1
+images/zhi_000
+  rotate: false
+  xy: 2, 908
+  size: 460, 269
+  orig: 588, 345
+  offset: 64, 38
+  index: -1

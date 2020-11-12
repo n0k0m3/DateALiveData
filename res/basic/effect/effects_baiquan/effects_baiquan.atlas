@@ -1,0 +1,348 @@
+
+effects_baiquan.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/boom/boom_000
+  rotate: false
+  xy: 2, 72
+  size: 279, 279
+  orig: 300, 300
+  offset: 10, 5
+  index: -1
+effects/boom/boom_001
+  rotate: false
+  xy: 583, 543
+  size: 277, 277
+  orig: 300, 300
+  offset: 11, 6
+  index: -1
+effects/boom/boom_002
+  rotate: false
+  xy: 283, 72
+  size: 279, 279
+  orig: 300, 300
+  offset: 10, 5
+  index: -1
+effects/boom/boom_004
+  rotate: false
+  xy: 564, 167
+  size: 277, 277
+  orig: 300, 300
+  offset: 11, 6
+  index: -1
+effects/feidan/feidan_000
+  rotate: false
+  xy: 578, 28
+  size: 75, 25
+  orig: 100, 50
+  offset: 14, 12
+  index: -1
+effects/feidan/feidan_001
+  rotate: false
+  xy: 495, 23
+  size: 81, 30
+  orig: 100, 50
+  offset: 8, 9
+  index: -1
+effects/fuyoupao/hit/hit_039
+  rotate: false
+  xy: 872, 411
+  size: 142, 142
+  orig: 189, 180
+  offset: 20, 16
+  index: -1
+effects/fuyoupao/jiguang/jiguang_029
+  rotate: true
+  xy: 931, 810
+  size: 210, 87
+  orig: 362, 122
+  offset: 14, 13
+  index: -1
+effects/fuyoupao/jiguang/jiguang_030
+  rotate: false
+  xy: 584, 921
+  size: 345, 99
+  orig: 362, 122
+  offset: 4, 7
+  index: -1
+effects/fuyoupao/jiguang/jiguang_031
+  rotate: false
+  xy: 584, 822
+  size: 345, 97
+  orig: 362, 122
+  offset: 4, 8
+  index: -1
+effects/fuyoupao/jiguang/jiguang_032
+  rotate: false
+  xy: 564, 72
+  size: 345, 93
+  orig: 362, 122
+  offset: 2, 10
+  index: -1
+effects/fuyoupao/jiguang/jiguang_033
+  rotate: false
+  xy: 525, 446
+  size: 345, 95
+  orig: 362, 122
+  offset: 4, 9
+  index: -1
+effects/fuyoupao/jiguang/jiguang_034
+  rotate: false
+  xy: 2, 2
+  size: 294, 17
+  orig: 362, 122
+  offset: 34, 49
+  index: -1
+effects/fuyoupao/jiguang/jiguang_036
+  rotate: false
+  xy: 495, 55
+  size: 271, 15
+  orig: 362, 122
+  offset: 50, 50
+  index: -1
+effects/fuyoupao/jiguang/jiguang_040
+  rotate: true
+  xy: 843, 203
+  size: 241, 16
+  orig: 362, 122
+  offset: 71, 49
+  index: -1
+effects/fuyoupao2
+  rotate: false
+  xy: 525, 560
+  size: 28, 15
+  orig: 30, 30
+  offset: 1, 6
+  index: -1
+effects/jiguang/jiguang_003
+  rotate: false
+  xy: 861, 243
+  size: 146, 166
+  orig: 580, 193
+  offset: 24, 17
+  index: -1
+effects/jiguang/jiguang_007
+  rotate: true
+  xy: 862, 555
+  size: 93, 132
+  orig: 580, 193
+  offset: 54, 34
+  index: -1
+effects/jiguang/jiguang_010
+  rotate: true
+  xy: 911, 39
+  size: 202, 102
+  orig: 580, 193
+  offset: 47, 45
+  index: -1
+effects/jiguang/jiguang_012
+  rotate: false
+  xy: 2, 720
+  size: 579, 141
+  orig: 580, 193
+  offset: 1, 23
+  index: -1
+effects/jiguang/jiguang_013
+  rotate: false
+  xy: 2, 577
+  size: 579, 141
+  orig: 580, 193
+  offset: 1, 23
+  index: -1
+effects/jiguang/jiguang_015
+  rotate: false
+  xy: 2, 863
+  size: 580, 157
+  orig: 580, 193
+  offset: 0, 18
+  index: -1
+effects/jiguang/jiguang_017
+  rotate: false
+  xy: 2, 431
+  size: 521, 144
+  orig: 580, 193
+  offset: 59, 21
+  index: -1
+effects/jiguang/jiguang_019
+  rotate: false
+  xy: 2, 353
+  size: 502, 76
+  orig: 580, 193
+  offset: 78, 62
+  index: -1
+effects/jiguang/jiguang_021
+  rotate: false
+  xy: 2, 21
+  size: 491, 49
+  orig: 580, 193
+  offset: 89, 71
+  index: -1
+effects/shoushun/shoushun_000
+  rotate: false
+  xy: 862, 650
+  size: 158, 158
+  orig: 200, 200
+  offset: 21, 21
+  index: -1
+
+effects_baiquan2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/boom/boom_006
+  rotate: false
+  xy: 2, 755
+  size: 267, 267
+  orig: 300, 300
+  offset: 16, 11
+  index: -1
+effects/boom/boom_008
+  rotate: false
+  xy: 2, 497
+  size: 255, 256
+  orig: 300, 300
+  offset: 22, 16
+  index: -1
+effects/boom/boom_010
+  rotate: false
+  xy: 271, 641
+  size: 190, 187
+  orig: 300, 300
+  offset: 52, 69
+  index: -1
+effects/boom/boom_012
+  rotate: false
+  xy: 659, 834
+  size: 193, 188
+  orig: 300, 300
+  offset: 50, 70
+  index: -1
+effects/boom/boom_014
+  rotate: true
+  xy: 2, 107
+  size: 194, 188
+  orig: 300, 300
+  offset: 50, 71
+  index: -1
+effects/fuyoupao/hit/hit_033
+  rotate: false
+  xy: 259, 483
+  size: 156, 156
+  orig: 189, 180
+  offset: 15, 9
+  index: -1
+effects/fuyoupao/hit/hit_035
+  rotate: false
+  xy: 196, 325
+  size: 156, 156
+  orig: 189, 180
+  offset: 15, 9
+  index: -1
+effects/fuyoupao/hit/hit_037
+  rotate: false
+  xy: 354, 325
+  size: 152, 156
+  orig: 189, 180
+  offset: 17, 9
+  index: -1
+effects/fuyoupao/hit/hit_041
+  rotate: false
+  xy: 333, 78
+  size: 120, 108
+  orig: 189, 180
+  offset: 26, 32
+  index: -1
+effects/fuyoupao/hit/hit_043
+  rotate: false
+  xy: 455, 77
+  size: 120, 109
+  orig: 189, 180
+  offset: 26, 31
+  index: -1
+effects/fuyoupao/hit/hit_045
+  rotate: true
+  xy: 417, 522
+  size: 117, 108
+  orig: 189, 180
+  offset: 29, 32
+  index: -1
+effects/fuyoupao/hit/hit_047
+  rotate: false
+  xy: 527, 534
+  size: 115, 108
+  orig: 189, 180
+  offset: 31, 32
+  index: -1
+effects/jiguang/jiguang_001
+  rotate: true
+  xy: 854, 885
+  size: 137, 168
+  orig: 580, 193
+  offset: 28, 16
+  index: -1
+effects/jiguang/jiguang_005
+  rotate: true
+  xy: 361, 188
+  size: 135, 158
+  orig: 580, 193
+  offset: 31, 24
+  index: -1
+effects/jiguang/jiguang_009
+  rotate: false
+  xy: 2, 16
+  size: 74, 89
+  orig: 580, 193
+  offset: 56, 58
+  index: -1
+effects/shoushun/shoushun_002
+  rotate: false
+  xy: 271, 830
+  size: 192, 192
+  orig: 200, 200
+  offset: 4, 4
+  index: -1
+effects/shoushun/shoushun_004
+  rotate: false
+  xy: 2, 303
+  size: 192, 192
+  orig: 200, 200
+  offset: 4, 4
+  index: -1
+effects/shoushun/shoushun_006
+  rotate: false
+  xy: 465, 830
+  size: 192, 192
+  orig: 200, 200
+  offset: 4, 4
+  index: -1
+effects/shoushun/shoushun_008
+  rotate: true
+  xy: 463, 644
+  size: 184, 190
+  orig: 200, 200
+  offset: 8, 5
+  index: -1
+effects/shoushun/shoushun_010
+  rotate: false
+  xy: 196, 196
+  size: 163, 127
+  orig: 200, 200
+  offset: 20, 38
+  index: -1
+effects/shoushun/shoushun_012
+  rotate: false
+  xy: 854, 757
+  size: 166, 126
+  orig: 200, 200
+  offset: 30, 38
+  index: -1
+effects/shoushun/shoushun_014
+  rotate: false
+  xy: 192, 86
+  size: 139, 108
+  orig: 200, 200
+  offset: 30, 49
+  index: -1

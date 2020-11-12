@@ -1,0 +1,292 @@
+
+btlUI_rythemGame.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chenggong/chenggong_00004
+  rotate: false
+  xy: 2, 231
+  size: 485, 113
+  orig: 1386, 640
+  offset: 448, 270
+  index: -1
+chenggong/chenggong_00005
+  rotate: false
+  xy: 2, 118
+  size: 486, 111
+  orig: 1386, 640
+  offset: 446, 271
+  index: -1
+chenggong/chenggong_00007
+  rotate: false
+  xy: 490, 777
+  size: 475, 109
+  orig: 1386, 640
+  offset: 453, 269
+  index: -1
+chenggong/chenggong_00009
+  rotate: false
+  xy: 2, 10
+  size: 484, 106
+  orig: 1386, 640
+  offset: 444, 269
+  index: -1
+chenggong/chenggong_00011
+  rotate: false
+  xy: 486, 549
+  size: 467, 102
+  orig: 1386, 640
+  offset: 462, 267
+  index: -1
+chenggong/chenggong_00013
+  rotate: false
+  xy: 490, 409
+  size: 464, 95
+  orig: 1386, 640
+  offset: 481, 272
+  index: -1
+chenggongxian/chenggongxian_00000
+  rotate: true
+  xy: 956, 429
+  size: 75, 33
+  orig: 1386, 640
+  offset: 471, 330
+  index: -1
+chenggongxian/chenggongxian_00002
+  rotate: false
+  xy: 488, 26
+  size: 223, 37
+  orig: 1386, 640
+  offset: 469, 328
+  index: -1
+chenggongxian/chenggongxian_00003
+  rotate: false
+  xy: 489, 249
+  size: 397, 37
+  orig: 1386, 640
+  offset: 483, 328
+  index: -1
+chongjibo
+  rotate: true
+  xy: 490, 65
+  size: 182, 186
+  orig: 182, 186
+  offset: 0, 0
+  index: -1
+daojishi/daojishi_00000
+  rotate: true
+  xy: 959, 721
+  size: 54, 46
+  orig: 150, 150
+  offset: 43, 51
+  index: -1
+daojishi/daojishi_00002
+  rotate: true
+  xy: 970, 901
+  size: 57, 48
+  orig: 150, 150
+  offset: 39, 51
+  index: -1
+daojishi/daojishi_00004
+  rotate: true
+  xy: 967, 779
+  size: 61, 43
+  orig: 150, 150
+  offset: 36, 52
+  index: -1
+daojishi/daojishi_00006
+  rotate: false
+  xy: 713, 42
+  size: 58, 46
+  orig: 150, 150
+  offset: 37, 52
+  index: -1
+daojishi/daojishi_00008
+  rotate: false
+  xy: 933, 506
+  size: 62, 41
+  orig: 150, 150
+  offset: 36, 53
+  index: -1
+daojishi/daojishi_00010
+  rotate: false
+  xy: 967, 842
+  size: 55, 44
+  orig: 150, 150
+  offset: 41, 51
+  index: -1
+daojishi/daojishi_00012
+  rotate: false
+  xy: 773, 41
+  size: 56, 47
+  orig: 150, 150
+  offset: 40, 51
+  index: -1
+daojishi/daojishi_00014
+  rotate: true
+  xy: 970, 960
+  size: 62, 49
+  orig: 150, 150
+  offset: 36, 51
+  index: -1
+jiantou
+  rotate: true
+  xy: 891, 278
+  size: 129, 70
+  orig: 129, 70
+  offset: 0, 0
+  index: -1
+lizi/lizi_00006
+  rotate: true
+  xy: 862, 70
+  size: 177, 157
+  orig: 1386, 640
+  offset: 601, 246
+  index: -1
+lizi/lizi_00008
+  rotate: false
+  xy: 678, 90
+  size: 182, 157
+  orig: 1386, 640
+  offset: 601, 243
+  index: -1
+shibai/shibai_00000
+  rotate: false
+  xy: 485, 506
+  size: 446, 41
+  orig: 1386, 640
+  offset: 468, 339
+  index: -1
+shibai/shibai_00001
+  rotate: false
+  xy: 489, 653
+  size: 468, 122
+  orig: 1386, 640
+  offset: 455, 267
+  index: -1
+shibai/shibai_00003
+  rotate: false
+  xy: 490, 888
+  size: 478, 134
+  orig: 1386, 640
+  offset: 452, 261
+  index: -1
+shibai/shibai_00005
+  rotate: false
+  xy: 2, 886
+  size: 486, 136
+  orig: 1386, 640
+  offset: 447, 263
+  index: -1
+shibai/shibai_00007
+  rotate: false
+  xy: 2, 606
+  size: 482, 139
+  orig: 1386, 640
+  offset: 448, 261
+  index: -1
+shibai/shibai_00008
+  rotate: false
+  xy: 2, 466
+  size: 481, 138
+  orig: 1386, 640
+  offset: 451, 262
+  index: -1
+shibai/shibai_00010
+  rotate: false
+  xy: 2, 747
+  size: 485, 137
+  orig: 1386, 640
+  offset: 449, 263
+  index: -1
+shibai/shibai_00012
+  rotate: false
+  xy: 2, 346
+  size: 486, 118
+  orig: 1386, 640
+  offset: 451, 261
+  index: -1
+shibai/shibai_00014
+  rotate: false
+  xy: 490, 288
+  size: 399, 119
+  orig: 1386, 640
+  offset: 540, 260
+  index: -1
+shibai/shibai_00016
+  rotate: false
+  xy: 959, 627
+  size: 46, 43
+  orig: 1386, 640
+  offset: 624, 265
+  index: -1
+yuan
+  rotate: false
+  xy: 959, 672
+  size: 47, 47
+  orig: 47, 47
+  offset: 0, 0
+  index: -1
+
+btlUI_rythemGame2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hongguang
+  rotate: false
+  xy: 118, 96
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+honghuan
+  rotate: false
+  xy: 2, 2
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+hongyuan
+  rotate: false
+  xy: 2, 94
+  size: 114, 114
+  orig: 114, 114
+  offset: 0, 0
+  index: -1
+lizi/lizi_00004
+  rotate: false
+  xy: 2, 210
+  size: 156, 137
+  orig: 1386, 640
+  offset: 613, 261
+  index: -1
+lizi/lizi_00010
+  rotate: false
+  xy: 2, 349
+  size: 179, 151
+  orig: 1386, 640
+  offset: 603, 245
+  index: -1
+lvguang
+  rotate: false
+  xy: 183, 261
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+lvyuan
+  rotate: false
+  xy: 311, 387
+  size: 113, 113
+  orig: 113, 113
+  offset: 0, 0
+  index: -1
+xingxing
+  rotate: false
+  xy: 183, 375
+  size: 126, 125
+  orig: 126, 125
+  offset: 0, 0
+  index: -1

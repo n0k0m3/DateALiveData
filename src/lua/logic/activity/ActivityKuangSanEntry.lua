@@ -19,7 +19,7 @@ function ActivityKuangSanEntry:initUI(ui)
     local panel_root = ui:getChildByName("Panel_root")
     local ship_btn = panel_root:getChildByName("btn_entry")
     ship_btn:onClick(function(sender)
-        Utils:openView("simulationTrial.SimulationTrialMainView",EC_ActivityFubenType.SIMULATION_TRIAL_5)
+        Utils:openView("summon.SummonView", 5)
     end)
 end
 

@@ -1,0 +1,152 @@
+
+effects_afkshipskin_light.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/light/bian_000
+  rotate: false
+  xy: 2, 653
+  size: 295, 360
+  orig: 295, 360
+  offset: 0, 0
+  index: -1
+images/light/guang/guang_002
+  rotate: true
+  xy: 895, 215
+  size: 126, 115
+  orig: 282, 353
+  offset: 29, 35
+  index: -1
+images/light/guang/guang_004
+  rotate: true
+  xy: 600, 17
+  size: 139, 147
+  orig: 282, 353
+  offset: 29, 35
+  index: -1
+images/light/guang/guang_006
+  rotate: false
+  xy: 419, 11
+  size: 179, 168
+  orig: 282, 353
+  offset: 29, 35
+  index: -1
+images/light/guang/guang_008
+  rotate: true
+  xy: 792, 602
+  size: 203, 215
+  orig: 282, 353
+  offset: 30, 35
+  index: -1
+images/light/guang/guang_010
+  rotate: false
+  xy: 724, 343
+  size: 205, 252
+  orig: 282, 353
+  offset: 31, 35
+  index: -1
+images/light/guang/guang_012
+  rotate: false
+  xy: 213, 72
+  size: 204, 272
+  orig: 282, 353
+  offset: 34, 36
+  index: -1
+images/light/guang/guang_014
+  rotate: true
+  xy: 513, 804
+  size: 209, 276
+  orig: 282, 353
+  offset: 32, 36
+  index: -1
+images/light/guang/guang_016
+  rotate: true
+  xy: 513, 597
+  size: 205, 277
+  orig: 282, 353
+  offset: 39, 36
+  index: -1
+images/light/guang/guang_018
+  rotate: false
+  xy: 240, 374
+  size: 208, 277
+  orig: 282, 353
+  offset: 40, 36
+  index: -1
+images/light/guang/guang_020
+  rotate: false
+  xy: 2, 67
+  size: 209, 277
+  orig: 282, 353
+  offset: 40, 36
+  index: -1
+images/light/guang/guang_022
+  rotate: false
+  xy: 299, 738
+  size: 212, 275
+  orig: 282, 353
+  offset: 42, 38
+  index: -1
+images/light/guang/guang_024
+  rotate: true
+  xy: 450, 389
+  size: 206, 272
+  orig: 282, 353
+  offset: 49, 41
+  index: -1
+images/light/guang/guang_026
+  rotate: true
+  xy: 450, 181
+  size: 206, 237
+  orig: 282, 353
+  offset: 50, 76
+  index: -1
+images/light/guang/guang_028
+  rotate: true
+  xy: 791, 807
+  size: 206, 222
+  orig: 282, 353
+  offset: 51, 91
+  index: -1
+images/light/guang/guang_030
+  rotate: false
+  xy: 689, 158
+  size: 204, 183
+  orig: 282, 353
+  offset: 53, 130
+  index: -1
+images/light/guang/guang_034
+  rotate: false
+  xy: 749, 38
+  size: 145, 118
+  orig: 282, 353
+  offset: 112, 195
+  index: -1
+images/light/guang/guang_036
+  rotate: false
+  xy: 896, 115
+  size: 111, 98
+  orig: 282, 353
+  offset: 146, 215
+  index: -1
+images/light/kuang_000
+  rotate: false
+  xy: 2, 346
+  size: 236, 305
+  orig: 282, 353
+  offset: 14, 23
+  index: -1
+
+effects_afkshipskin_light2.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/light/guang/guang_032
+  rotate: false
+  xy: 2, 5
+  size: 170, 167
+  orig: 282, 353
+  offset: 87, 146
+  index: -1

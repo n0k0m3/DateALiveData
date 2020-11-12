@@ -979,4 +979,264 @@ return {
         },
         skipGame = 0,
     },
+    [39] = {
+        showSound = "0",
+        id = 39,
+        triggerEvents = {
+            [1] = "show1",
+        },
+        actionId = 13641,
+        detection = true,
+        effectsUp = {
+            [1] = {
+                action = "skillDshow_up",
+                animation = "effects_11601_skillD",
+            },
+        },
+        showAction = {
+            action = "skillD_show",
+            animation = "fight_11601",
+        },
+        effectsDown = {
+            [1] = {
+                action = "skillDshow_down",
+                animation = "effects_11601_skillD",
+            },
+        },
+        skipGame = 0,
+    },
+    [40] = {
+        showSound = "0",
+        id = 40,
+        triggerEvents = {
+            [1] = "show1",
+        },
+        actionId = 13740,
+        detection = true,
+        effectsUp = {
+            [1] = {
+                action = "skilld_show",
+                animation = "effects_11701_skillD",
+            },
+        },
+        showAction = {
+            action = "skillD_show",
+            animation = "fight_11701",
+        },
+        effectsDown = {
+        },
+        skipGame = 0,
+    },
+    [41] = {
+        showSound = "0",
+        id = 41,
+        triggerEvents = {
+            [1] = "show1",
+        },
+        actionId = 13840,
+        detection = true,
+        effectsUp = {
+            [1] = {
+                action = "skillDshow_up",
+                animation = "effects_12301_skillD",
+            },
+        },
+        showAction = {
+            action = "skillD_show",
+            animation = "fight_12301",
+        },
+        effectsDown = {
+            [1] = {
+                action = "skillDshow_down",
+                animation = "effects_12301_skillD",
+            },
+        },
+        skipGame = 0,
+    },
+    [42] = {
+        showSound = "0",
+        id = 42,
+        triggerEvents = {
+            [1] = "show1",
+        },
+        actionId = 14051,
+        detection = true,
+        effectsUp = {
+            [1] = {
+                action = "skillDshow_up",
+                animation = "effects_11212_skillD",
+            },
+        },
+        showAction = {
+            action = "effect_11201_skillD",
+            animation = "effects_11212_skillD2",
+        },
+        effectsDown = {
+            [1] = {
+                action = "skillDshow_down",
+                animation = "effects_11212_skillD",
+            },
+        },
+        skipGame = 0,
+    },
+    [43] = {
+        showSound = "0",
+        id = 43,
+        triggerEvents = {
+            [1] = "show1",
+        },
+        actionId = 14151,
+        detection = true,
+        effectsUp = {
+            [1] = {
+                action = "show_shang",
+                animation = "effects_12201_skillD",
+            },
+        },
+        showAction = {
+            action = "skillD_show",
+            animation = "fight_12201",
+        },
+        effectsDown = {
+            [1] = {
+                action = "show_xia",
+                animation = "effects_12201_skillD",
+            },
+        },
+        skipGame = 0,
+    },
+    [44] = {
+        showSound = "0",
+        id = 44,
+        triggerEvents = {
+            [1] = "show1",
+        },
+        actionId = 14251,
+        detection = false,
+        effectsUp = {
+            [1] = {
+                action = "skillD2_up",
+                animation = "effects_10415_skillD",
+            },
+        },
+        showAction = {
+            action = "skillD_show",
+            animation = "fight_10415",
+        },
+        effectsDown = {
+            [1] = {
+                action = "skillD2_down",
+                animation = "effects_10415_skillD",
+            },
+        },
+        skipGame = 0,
+    },
+    [45] = {
+        showSound = "0",
+        id = 45,
+        triggerEvents = {
+            [1] = "show1",
+        },
+        actionId = 14341,
+        detection = true,
+        effectsUp = {
+            [1] = {
+                action = "skilldshow_up",
+                animation = "effects_10213_skillD",
+            },
+        },
+        showAction = {
+            action = "skillD_show",
+            animation = "fight_10213",
+        },
+        effectsDown = {
+            [1] = {
+                action = "skilldshow_down",
+                animation = "effects_10213_skillD1",
+            },
+            [2] = {
+                action = "skillD_show",
+                animation = "hua_skillD_show",
+            },
+        },
+        skipGame = 0,
+    },
+    [46] = {
+        showSound = "0",
+        id = 46,
+        triggerEvents = {
+            [1] = "show1",
+        },
+        actionId = 14440,
+        detection = false,
+        effectsUp = {
+            [1] = {
+                action = "show_shang",
+                animation = "effects_12501_skillD",
+            },
+        },
+        showAction = {
+            action = "skillD_show",
+            animation = "fight_12501",
+        },
+        effectsDown = {
+            [1] = {
+                action = "show_xia",
+                animation = "effects_12501_skillD",
+            },
+        },
+        skipGame = 0,
+    },
+    [47] = {
+        showSound = "0",
+        id = 47,
+        triggerEvents = {
+            [1] = "show1",
+        },
+        actionId = 15071,
+        detection = false,
+        effectsUp = {
+            [1] = {
+                action = "show_up",
+                animation = "effects_12701_skillD",
+            },
+        },
+        showAction = {
+            action = "skillD_show",
+            animation = "fight_12701",
+        },
+        effectsDown = {
+            [1] = {
+                action = "show_down",
+                animation = "effects_12701_skillD",
+            },
+        },
+        skipGame = 0,
+    },
+    [48] = {
+        showSound = "0",
+        id = 48,
+        triggerEvents = {
+            [1] = "show1",
+        },
+        actionId = 14541,
+        detection = false,
+        effectsUp = {
+            [1] = {
+                action = "show_up",
+                animation = "effects_12401_skillD",
+            },
+        },
+        showAction = {
+            action = "skillD_show",
+            animation = "fight_12401",
+        },
+        effectsDown = {
+            [1] = {
+                action = "show_down",
+                animation = "effects_12401_skillD",
+            },
+        },
+        skipGame = 0,
+    },
 }

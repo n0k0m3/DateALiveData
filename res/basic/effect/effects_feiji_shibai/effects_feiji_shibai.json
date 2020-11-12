@@ -1,0 +1,311 @@
+{
+"skeleton": { "hash": "37RgvnlVqY97ts7VMunWj4aRaS0", "spine": "2.1.27", "width": 0, "height": 0, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "effects", "parent": "root" },
+	{ "name": "di", "parent": "effects" },
+	{ "name": "di2", "parent": "effects" },
+	{ "name": "pian", "parent": "effects" },
+	{ "name": "pian2", "parent": "effects" },
+	{ "name": "xian", "parent": "effects" },
+	{ "name": "yinwen", "parent": "effects" },
+	{ "name": "zi", "parent": "effects" },
+	{ "name": "bai", "parent": "zi" },
+	{ "name": "dou", "parent": "zi" },
+	{ "name": "shi", "parent": "zi" },
+	{ "name": "zhan", "parent": "zi" }
+],
+"slots": [
+	{ "name": "images/shibai/bai_019", "bone": "bai" },
+	{ "name": "images/shibai/di1_000", "bone": "di" },
+	{ "name": "images/shibai/di_000", "bone": "di2" },
+	{ "name": "images/shibai/dou_019", "bone": "dou" },
+	{ "name": "images/shibai/pian_010", "bone": "pian" },
+	{ "name": "images/shibai/pian_10", "bone": "pian2" },
+	{ "name": "images/shibai/shi_019", "bone": "shi" },
+	{ "name": "images/shibai/xian_010", "bone": "xian" },
+	{ "name": "images/shibai/zhan_019", "bone": "zhan" },
+	{ "name": "images/shibai/yingwen/yingwen_006", "bone": "yinwen" }
+],
+"skins": {
+	"default": {
+		"images/shibai/bai_019": {
+			"images/shibai/bai_019": { "width": 105, "height": 99 }
+		},
+		"images/shibai/di1_000": {
+			"images/shibai/di1_000": { "width": 358, "height": 76 }
+		},
+		"images/shibai/di_000": {
+			"images/shibai/di_000": { "width": 325, "height": 62 }
+		},
+		"images/shibai/dou_019": {
+			"images/shibai/dou_019": { "width": 88, "height": 99 }
+		},
+		"images/shibai/pian_010": {
+			"images/shibai/pian_010": { "width": 228, "height": 61 }
+		},
+		"images/shibai/pian_10": {
+			"images/shibai/pian_010": { "width": 228, "height": 61 }
+		},
+		"images/shibai/shi_019": {
+			"images/shibai/shi_019": { "width": 80, "height": 99 }
+		},
+		"images/shibai/xian_010": {
+			"images/shibai/xian_010": { "width": 358, "height": 20 }
+		},
+		"images/shibai/yingwen/yingwen_006": {
+			"images/shibai/yingwen/yingwen_006": { "width": 285, "height": 45 },
+			"images/shibai/yingwen/yingwen_007": { "width": 285, "height": 45 },
+			"images/shibai/yingwen/yingwen_008": { "width": 285, "height": 45 },
+			"images/shibai/yingwen/yingwen_009": { "width": 285, "height": 45 },
+			"images/shibai/yingwen/yingwen_010": { "width": 285, "height": 45 },
+			"images/shibai/yingwen/yingwen_011": { "width": 285, "height": 45 },
+			"images/shibai/yingwen/yingwen_012": { "width": 285, "height": 45 },
+			"images/shibai/yingwen/yingwen_013": { "width": 285, "height": 45 },
+			"images/shibai/yingwen/yingwen_014": { "width": 285, "height": 45 },
+			"images/shibai/yingwen/yingwen_015": { "width": 285, "height": 45 }
+		},
+		"images/shibai/zhan_019": {
+			"images/shibai/zhan_019": { "width": 97, "height": 105 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"images/shibai/bai_019": {
+				"attachment": [
+					{ "time": 0.8333, "name": "images/shibai/bai_019" }
+				],
+				"color": [
+					{ "time": 0.8333, "color": "ffffff00" },
+					{ "time": 1, "color": "ffffffff" }
+				]
+			},
+			"images/shibai/di1_000": {
+				"attachment": [
+					{ "time": 0, "name": "images/shibai/di1_000" }
+				]
+			},
+			"images/shibai/di_000": {
+				"attachment": [
+					{ "time": 0, "name": "images/shibai/di_000" }
+				]
+			},
+			"images/shibai/dou_019": {
+				"attachment": [
+					{ "time": 0.5, "name": "images/shibai/dou_019" }
+				],
+				"color": [
+					{ "time": 0.5, "color": "ffffff00" },
+					{ "time": 0.6666, "color": "ffffffff" }
+				]
+			},
+			"images/shibai/pian_010": {
+				"attachment": [
+					{ "time": 0.3333, "name": "images/shibai/pian_010" }
+				],
+				"color": [
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.6666, "color": "ffffff83" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"images/shibai/pian_10": {
+				"attachment": [
+					{ "time": 0.3333, "name": "images/shibai/pian_010" }
+				],
+				"color": [
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.6666, "color": "ffffff83" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"images/shibai/shi_019": {
+				"attachment": [
+					{ "time": 0.6666, "name": "images/shibai/shi_019" }
+				],
+				"color": [
+					{ "time": 0.6666, "color": "ffffff00" },
+					{ "time": 0.8333, "color": "ffffffff" }
+				]
+			},
+			"images/shibai/xian_010": {
+				"attachment": [
+					{ "time": 0.3333, "name": "images/shibai/xian_010" }
+				],
+				"color": [
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff" }
+				]
+			},
+			"images/shibai/yingwen/yingwen_006": {
+				"attachment": [
+					{ "time": 0.5333, "name": "images/shibai/yingwen/yingwen_006" },
+					{ "time": 0.5666, "name": "images/shibai/yingwen/yingwen_007" },
+					{ "time": 0.6, "name": "images/shibai/yingwen/yingwen_008" },
+					{ "time": 0.6333, "name": "images/shibai/yingwen/yingwen_009" },
+					{ "time": 0.6666, "name": "images/shibai/yingwen/yingwen_010" },
+					{ "time": 0.7, "name": "images/shibai/yingwen/yingwen_011" },
+					{ "time": 0.7333, "name": "images/shibai/yingwen/yingwen_012" },
+					{ "time": 0.7666, "name": "images/shibai/yingwen/yingwen_013" },
+					{ "time": 0.8, "name": "images/shibai/yingwen/yingwen_014" },
+					{ "time": 0.8333, "name": "images/shibai/yingwen/yingwen_015" }
+				]
+			},
+			"images/shibai/zhan_019": {
+				"attachment": [
+					{ "time": 0.3333, "name": "images/shibai/zhan_019" }
+				],
+				"color": [
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"di": {
+				"translate": [
+					{ "time": 0, "x": -7.82, "y": -9.03 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 1 },
+					{ "time": 0.1, "x": 1.2, "y": 1 },
+					{ "time": 0.2666, "x": 0.9, "y": 1 },
+					{ "time": 0.3333, "x": 1, "y": 1 }
+				]
+			},
+			"di2": {
+				"scale": [
+					{ "time": 0, "x": 4, "y": 4 }
+				]
+			},
+			"bai": {
+				"translate": [
+					{ "time": 0.8333, "x": 71.39, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0.8333,
+						"x": 0.5,
+						"y": 0.5,
+						"curve": [ 0, 0.6, 0.75, 1 ]
+					},
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"shi": {
+				"translate": [
+					{ "time": 0.6666, "x": 17.68, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0.6666,
+						"x": 0.5,
+						"y": 0.5,
+						"curve": [ 0, 0.59, 0.75, 1 ]
+					},
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			},
+			"zhan": {
+				"translate": [
+					{ "time": 0.3333, "x": -84.49, "y": -5.23 }
+				],
+				"scale": [
+					{
+						"time": 0.3333,
+						"x": 0.5,
+						"y": 0.5,
+						"curve": [ 0, 0.59, 0.75, 1 ]
+					},
+					{ "time": 0.5, "x": 1, "y": 1 }
+				]
+			},
+			"dou": {
+				"translate": [
+					{ "time": 0.5, "x": -30.78, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0.5,
+						"x": 0.5,
+						"y": 0.5,
+						"curve": [ 0, 0.6, 0.75, 1 ]
+					},
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			},
+			"yinwen": {
+				"translate": [
+					{ "time": 0.3333, "x": 2.99, "y": -35.33 }
+				]
+			},
+			"xian": {
+				"translate": [
+					{ "time": 0.3333, "x": -6.13, "y": -38.5 }
+				],
+				"scale": [
+					{
+						"time": 0.3333,
+						"x": 1.5,
+						"y": 1,
+						"curve": [ 0, 0.6, 0.75, 1 ]
+					},
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			},
+			"pian": {
+				"translate": [
+					{
+						"time": 0.3333,
+						"x": 261.08,
+						"y": -16.76,
+						"curve": [ 0, 0.79, 0.75, 1 ]
+					},
+					{ "time": 1, "x": 55.02, "y": -16.76 }
+				]
+			},
+			"pian2": {
+				"translate": [
+					{
+						"time": 0.3333,
+						"x": -258.53,
+						"y": 11.52,
+						"curve": [ 0, 0.8, 0.75, 1 ]
+					},
+					{ "time": 1, "x": -45.07, "y": 11.52 }
+				],
+				"scale": [
+					{ "time": 0.3333, "x": -1, "y": 1 }
+				]
+			},
+			"zi": {
+				"scale": [
+					{ "time": 1, "x": 1, "y": 1 },
+					{ "time": 1.3333, "x": 1.05, "y": 1.05 },
+					{ "time": 1.6666, "x": 1, "y": 1 },
+					{ "time": 2, "x": 1.05, "y": 1.05 },
+					{ "time": 2.3333, "x": 1, "y": 1 }
+				]
+			},
+			"effects": {
+				"translate": [
+					{ "time": 0, "x": 11.23, "y": 12.95 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "images/shibai/bai_019", "offset": 9 },
+					{ "slot": "images/shibai/dou_019", "offset": 3 },
+					{ "slot": "images/shibai/shi_019", "offset": 1 },
+					{ "slot": "images/shibai/yingwen/yingwen_006", "offset": -5 }
+				]
+			}
+		]
+	}
+}
+}

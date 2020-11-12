@@ -238,6 +238,7 @@ function CommonManager:connectServer(requestLogin)
         end
     end
     if HeitaoSdk and time <= 1 then
+        --TODO CLOSE
         --HeitaoSdk.reportNetworkData(connectIp)
     end
 end

@@ -1,0 +1,104 @@
+
+chenghao_lianghangyuan_chuji.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chuji/C_kuang
+  rotate: false
+  xy: 2, 154
+  size: 110, 26
+  orig: 110, 26
+  offset: 0, 0
+  index: -1
+chuji/C_lizi
+  rotate: false
+  xy: 2, 58
+  size: 19, 20
+  orig: 19, 20
+  offset: 0, 0
+  index: -1
+chuji/C_zi
+  rotate: false
+  xy: 2, 124
+  size: 108, 28
+  orig: 108, 28
+  offset: 0, 0
+  index: -1
+chuji/C_ziguang
+  rotate: false
+  xy: 2, 182
+  size: 149, 70
+  orig: 149, 70
+  offset: 0, 0
+  index: -1
+saoguang/saoguang_00000
+  rotate: false
+  xy: 57, 82
+  size: 13, 18
+  orig: 1386, 640
+  offset: 643, 311
+  index: -1
+saoguang/saoguang_00002
+  rotate: false
+  xy: 212, 210
+  size: 25, 20
+  orig: 1386, 640
+  offset: 643, 311
+  index: -1
+saoguang/saoguang_00004
+  rotate: false
+  xy: 213, 232
+  size: 39, 20
+  orig: 1386, 640
+  offset: 643, 311
+  index: -1
+saoguang/saoguang_00006
+  rotate: false
+  xy: 153, 188
+  size: 52, 20
+  orig: 1386, 640
+  offset: 643, 311
+  index: -1
+saoguang/saoguang_00008
+  rotate: false
+  xy: 153, 232
+  size: 58, 20
+  orig: 1386, 640
+  offset: 650, 311
+  index: -1
+saoguang/saoguang_00010
+  rotate: false
+  xy: 2, 102
+  size: 58, 20
+  orig: 1386, 640
+  offset: 663, 311
+  index: -1
+saoguang/saoguang_00012
+  rotate: false
+  xy: 153, 210
+  size: 57, 20
+  orig: 1386, 640
+  offset: 676, 311
+  index: -1
+saoguang/saoguang_00014
+  rotate: false
+  xy: 2, 80
+  size: 53, 20
+  orig: 1386, 640
+  offset: 689, 311
+  index: -1
+saoguang/saoguang_00016
+  rotate: false
+  xy: 62, 102
+  size: 42, 20
+  orig: 1386, 640
+  offset: 702, 311
+  index: -1
+saoguang/saoguang_00018
+  rotate: false
+  xy: 114, 160
+  size: 28, 20
+  orig: 1386, 640
+  offset: 716, 311
+  index: -1

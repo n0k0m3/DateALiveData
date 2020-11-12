@@ -1,0 +1,90 @@
+
+effects_29003_1_EskillD.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ER/EC/Eshifa/Eshifa_001
+  rotate: false
+  xy: 631, 244
+  size: 245, 226
+  orig: 270, 270
+  offset: 3, 32
+  index: -1
+ER/EC/Eshifa/Eshifa_003
+  rotate: false
+  xy: 616, 6
+  size: 242, 236
+  orig: 270, 270
+  offset: 3, 22
+  index: -1
+ER/EC/Eshifa/Eshifa_004
+  rotate: false
+  xy: 372, 253
+  size: 257, 217
+  orig: 270, 270
+  offset: 3, 41
+  index: -1
+ER/EC/Eshifa/Eshifa_005
+  rotate: false
+  xy: 358, 51
+  size: 256, 200
+  orig: 270, 270
+  offset: 4, 58
+  index: -1
+ER/EC/Eshifa/Eshifa_006
+  rotate: false
+  xy: 724, 585
+  size: 217, 184
+  orig: 270, 270
+  offset: 32, 72
+  index: -1
+ER/ED/EDdaoguang_000
+  rotate: false
+  xy: 2, 127
+  size: 354, 268
+  orig: 400, 350
+  offset: 7, 80
+  index: -1
+ER/ED/EDdaoguang_001
+  rotate: false
+  xy: 2, 700
+  size: 372, 322
+  orig: 400, 350
+  offset: 4, 15
+  index: -1
+ER/ED/EDdaoguang_003
+  rotate: false
+  xy: 2, 397
+  size: 368, 301
+  orig: 400, 350
+  offset: 20, 18
+  index: -1
+ER/ED/EDdaoguang_005
+  rotate: false
+  xy: 376, 743
+  size: 346, 279
+  orig: 400, 350
+  offset: 44, 26
+  index: -1
+ER/ED/EDdaoguang_007
+  rotate: false
+  xy: 376, 472
+  size: 328, 269
+  orig: 400, 350
+  offset: 48, 43
+  index: -1
+ER/ED/EDdaoguang_009
+  rotate: false
+  xy: 724, 771
+  size: 298, 251
+  orig: 400, 350
+  offset: 58, 57
+  index: -1
+glow
+  rotate: false
+  xy: 2, 25
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,166 @@
+
+effects_29003_1_EskillE.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ER/EE/Ebuff/Ebuff_000
+  rotate: false
+  xy: 334, 396
+  size: 330, 296
+  orig: 330, 330
+  offset: 0, 0
+  index: -1
+ER/EE/Ebuff/Ebuff_002
+  rotate: false
+  xy: 324, 104
+  size: 330, 290
+  orig: 330, 330
+  offset: 0, 0
+  index: -1
+ER/EE/Ebuff/Ebuff_004
+  rotate: false
+  xy: 2, 86
+  size: 318, 299
+  orig: 330, 330
+  offset: 12, 0
+  index: -1
+ER/EE/Ebuff/Ebuff_006
+  rotate: false
+  xy: 656, 86
+  size: 324, 288
+  orig: 330, 330
+  offset: 0, 0
+  index: -1
+ER/EE/Ebuff/Ebuff_008
+  rotate: false
+  xy: 2, 693
+  size: 330, 324
+  orig: 330, 330
+  offset: 0, 0
+  index: -1
+ER/EE/Ebuff/Ebuff_010
+  rotate: false
+  xy: 666, 697
+  size: 330, 320
+  orig: 330, 330
+  offset: 0, 0
+  index: -1
+ER/EE/Ebuff/Ebuff_012
+  rotate: true
+  xy: 334, 694
+  size: 323, 330
+  orig: 330, 330
+  offset: 7, 0
+  index: -1
+ER/EE/Ebuff/Ebuff_014
+  rotate: true
+  xy: 666, 376
+  size: 319, 330
+  orig: 330, 330
+  offset: 0, 0
+  index: -1
+ER/EE/Ebuff/Ebuff_016
+  rotate: false
+  xy: 2, 387
+  size: 320, 304
+  orig: 330, 330
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 322, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+
+effects_29003_1_EskillE2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ER/EE/Ebuff/Ebuff_018
+  rotate: false
+  xy: 2, 609
+  size: 310, 299
+  orig: 330, 330
+  offset: 16, 0
+  index: -1
+ER/EE/Ehundan/Ehundan_000
+  rotate: false
+  xy: 541, 453
+  size: 174, 174
+  orig: 180, 180
+  offset: 3, 3
+  index: -1
+ER/EE/Ehundan/Ehundan_002
+  rotate: false
+  xy: 717, 464
+  size: 174, 174
+  orig: 180, 180
+  offset: 3, 3
+  index: -1
+ER/EE/Ehundan/Ehundan_004
+  rotate: false
+  xy: 541, 277
+  size: 174, 174
+  orig: 180, 180
+  offset: 3, 3
+  index: -1
+ER/EE/Ehundan/Ehundan_006
+  rotate: false
+  xy: 717, 288
+  size: 174, 174
+  orig: 180, 180
+  offset: 3, 3
+  index: -1
+ER/EE/Ehundan/Ehundan_008
+  rotate: false
+  xy: 289, 178
+  size: 174, 174
+  orig: 180, 180
+  offset: 3, 3
+  index: -1
+ER/EE/Ehundan/Ehundan_010
+  rotate: false
+  xy: 283, 2
+  size: 174, 174
+  orig: 180, 180
+  offset: 3, 3
+  index: -1
+ER/Ehit/Ehit_000
+  rotate: true
+  xy: 289, 354
+  size: 253, 250
+  orig: 300, 300
+  offset: 25, 25
+  index: -1
+ER/Ehit/Ehit_002
+  rotate: false
+  xy: 601, 640
+  size: 273, 268
+  orig: 300, 300
+  offset: 15, 17
+  index: -1
+ER/Ehit/Ehit_004
+  rotate: false
+  xy: 2, 52
+  size: 279, 273
+  orig: 300, 300
+  offset: 10, 12
+  index: -1
+ER/Ehit/Ehit_006
+  rotate: false
+  xy: 314, 629
+  size: 285, 279
+  orig: 300, 300
+  offset: 7, 9
+  index: -1
+ER/Ehit/Ehit_008
+  rotate: false
+  xy: 2, 327
+  size: 285, 280
+  orig: 300, 300
+  offset: 7, 9
+  index: -1

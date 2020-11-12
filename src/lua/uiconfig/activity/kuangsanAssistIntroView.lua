@@ -70,6 +70,7 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
+						PositionX = -88,
 						relativeToName = "Panel",
 						nType = 3,
 						nGravity = 6,
@@ -94,7 +95,7 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "576",
+							height = "561",
 							ignoreSize = "True",
 							name = "Image_bg",
 							sizepercentx = "100",
@@ -105,15 +106,15 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 568,
-								PositionY = 320,
+								PositionX = 557,
+								PositionY = 360,
 								IsPercent = true,
-								PercentX = 50,
-								PercentY = 50,
+								PercentX = 49.03,
+								PercentY = 56.25,
 								LeftPositon = 118,
 								TopPosition = 70,
 							},
-							width = "1021",
+							width = "1061",
 							ZOrder = "1",
 							components = 
 							{
@@ -158,8 +159,8 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -288,
-										PositionY = 215,
+										PositionX = -214,
+										PositionY = 154,
 									},
 									width = "114",
 									ZOrder = "1",
@@ -187,8 +188,8 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 404,
-										PositionY = 214,
+										PositionX = 478,
+										PositionY = 153,
 									},
 									UItype = "Button",
 									width = "30",
@@ -214,9 +215,10 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 64,
-										PositionY = 9,
+										PositionX = 138,
+										PositionY = -52,
 									},
+									visible = "False",
 									width = "700",
 									ZOrder = "1",
 								},
@@ -229,7 +231,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FFECAFAB",
+									FontColor = "#FFFFFFFF",
 									fontName = "font/MFLiHei_Noncommercial.ttf",
 									fontShadow = 
 									{
@@ -260,8 +262,8 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 64,
-										PositionY = 9,
+										PositionX = 138,
+										PositionY = -52,
 									},
 									width = "711",
 									ZOrder = "2",

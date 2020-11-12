@@ -165,6 +165,7 @@ function MainLayer:initUI(ui)
 	end	
     self.Button_activity2 = TFDirector:getChildByPath(self.Panel_right, "Button_Activity2"):show()
     self.Image_activityTip = TFDirector:getChildByPath(self.Button_activity, "Image_activityTip")
+    self.Button_rankNotice = TFDirector:getChildByPath(self.Panel_left , "Button_rankNotice")
     self.Image_activityTip2 = TFDirector:getChildByPath(self.Button_activity2, "Image_activityTip")
     self.Button_assistance = TFDirector:getChildByPath(self.Panel_left, "Button_assistance")
     self.Image_assistanceTip = TFDirector:getChildByPath(self.Button_assistance, "Image_assistanceTip"):hide()
@@ -439,6 +440,7 @@ function MainLayer:initUI(ui)
         self.Button_kefu = self:createCustomBtnOnBear("ui/mainLayer/new_ui/kefu_btn.png" , ccp(52 , 101) , "http://api-en.datealive.com/yhdzz/customer?" , true)
         self.Button_fb = self:createCustomBtnOnBear("ui/mainLayer/new_ui/btn_fb.png" , ccp(52 , 101) , "https://www.facebook.com/DALSpiritPledge.Global")
         self.Button_twitter = self:createCustomBtnOnBear("ui/mainLayer/new_ui/btn_twitter.png" , ccp(52 , 101) , "https://twitter.com/SpiritPledgeDAL")
+        self.Button_dis = self:createCustomBtnOnBear("ui/mainLayer/new_ui/btn_dis.png" , ccp(52 , 101) , "https://discord.gg/vC8Uq2z")
 	end
 
     local activityInfos = ActivityDataMgr2:getActivityInfo(nil,2)
@@ -668,7 +670,7 @@ function MainLayer:updateLeftButtons()
 		end
 		]]
 	else
-		local tmAllBtns2 = {self.Button_notice, self.Button_welfare, self.Button_activity,self.Button_focus, self.Button_ScoreReward, self.Button_RoleTeach, self.btn_zhibo }
+		local tmAllBtns2 = {self.Button_notice, self.Button_welfare, self.Button_activity,self.Button_focus, self.Button_ScoreReward, self.Button_RoleTeach, self.btn_zhibo , self.Button_rankNotice }
         if self.Button_serverGiftActivity then
             table.insert(tmAllBtns2,self.Button_serverGiftActivity)
         end
@@ -684,8 +686,8 @@ function MainLayer:updateLeftButtons()
 			end
 		end
 		
-		local tmAllBtns3 = { self.Button_kefu , self.Button_fb, self.Button_twitter,self.Button_update, self.Button_backPlayer, self.Button_wj,self.Button_preview,self.Button_OneYearShare,self.btn_zhuifan}
-		local tmAllBtnspos3 = {ccp(52,104),ccp(165,104),ccp(265,104),ccp(52,43),ccp(165,43),ccp(265,43)}
+		local tmAllBtns3 = { self.Button_kefu , self.Button_fb, self.Button_twitter, self.Button_dis,self.Button_update, self.Button_backPlayer, self.Button_wj,self.Button_preview,self.Button_OneYearShare,self.btn_zhuifan}
+		local tmAllBtnspos3 = {ccp(52,104),ccp(165,104),ccp(265,104),ccp(52,35),ccp(165,35),ccp(265,35)}
         local idx = 1
         local isShowSpineBtn = false
 		for k,v in ipairs(tmAllBtns3) do
@@ -748,7 +750,7 @@ function MainLayer:showLeftBtnAnim()
         self.Button_newPlayer:runAction(Spawn:create({FadeIn:create(0.3),MoveTo:create(0.3,orgPos),ScaleTo:create(0.3,1)}))
     end
 
-    if self.Button_Activity5:isVisible() then
+    if self.Button_Activity5:isVisible() and  not self.Button_Activity6:isVisible()  then
         self.Button_Activity5:setScale(0.85)
         self.Button_Activity5:setOpacity(0)
         local orgPos = self.Button_Activity5:getPosition()
@@ -756,7 +758,7 @@ function MainLayer:showLeftBtnAnim()
         self.Button_Activity5:runAction(Spawn:create({FadeIn:create(0.3),MoveTo:create(0.3,orgPos),ScaleTo:create(0.3,1)}))
     end
 
-    if self.Button_Activity6:isVisible() then
+    if self.Button_Activity6:isVisible()  and  not self.Button_Activity5:isVisible() then
         self.Button_Activity6:setScale(0.85)
         self.Button_Activity6:setOpacity(0)
         local orgPos = self.Button_Activity6:getPosition()
@@ -778,6 +780,22 @@ function MainLayer:showLeftBtnAnim()
         local orgPos = self.Button_Activity7:getPosition()
         self.Button_Activity7:setPosition(me.p(orgPos.x - 20,orgPos.y))
         self.Button_Activity7:runAction(Spawn:create({FadeIn:create(0.3),MoveTo:create(0.3,orgPos),ScaleTo:create(0.3,1)}))
+    end
+
+--如果万圣节活动和强三活动同时存在新增特殊处理
+    if self.Button_Activity6:isVisible()  and self.Button_Activity5:isVisible() then
+        self.Button_Activity6:setScale(0.6)
+        self.Button_Activity6.orgPos = self.Button_Activity6.orgPos or self.Button_Activity6:getPosition()
+        local orgPos6 = self.Button_Activity6.orgPos
+        self.Button_Activity6:setPosition(orgPos6 + ccp(-80 , -20))
+        self.Button_Activity6:runAction(Spawn:create({FadeIn:create(0.3),MoveTo:create(0.3,ccp(orgPos6.x - 80,orgPos6.y - 20)),ScaleTo:create(0.3,0.8)}))
+
+
+        self.Button_Activity5:setScale(0.6)
+        self.Button_Activity5.orgPos = self.Button_Activity5.orgPos or self.Button_Activity5:getPosition()
+        local orgPos5 = self.Button_Activity5.orgPos
+        self.Button_Activity5:setPosition(orgPos5 + ccp(80 , -20))
+        self.Button_Activity5:runAction(Spawn:create({FadeIn:create(0.3),MoveTo:create(0.3,ccp(orgPos5.x + 80,orgPos5.y - 20)),ScaleTo:create(0.3,0.8)}))
     end
 
 end
@@ -1850,6 +1868,10 @@ function MainLayer:registerEvents()
     -- 月卡
     self.Button_monthCard:onClick(function()
             Utils:openView("store.MonthlyCardTipView")
+    end)
+    --排行榜
+    self.Button_rankNotice:onClick(function()
+            Utils:openView("MainScene.RankNoticeView")
     end)
 
     self.Panel_ai_chat:onClick(function()
@@ -3934,7 +3956,7 @@ function MainLayer:checkOverdueCoupon( ... )
         local time_1 = self.overdueTime.thirdNotification.leftTime[1]
         local time_2 = self.overdueTime.secondNotification.leftTime[1]
         local goodsData = {}
-        local originItem , convertItem = GoodsDataMgr:getOverdueCouponData(1002 ,time_1 * 60 , time_2 * 60)
+        local originItem , convertItem = GoodsDataMgr:getOverdueCouponData(self.overdueTime.itemType ,time_1 * 60 , time_2 * 60)
         goodsData.originItem = originItem
         goodsData.convertItem = convertItem
         if #goodsData.originItem >0 or #goodsData.convertItem >0 then

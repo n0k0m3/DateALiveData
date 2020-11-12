@@ -1,0 +1,136 @@
+
+ZT_leiyu.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/xiayu/xiayu_014
+  rotate: false
+  xy: 2, 697
+  size: 693, 320
+  orig: 772, 396
+  offset: 43, 26
+  index: -1
+images/xiayu/xiayu_016
+  rotate: false
+  xy: 2, 375
+  size: 693, 320
+  orig: 772, 396
+  offset: 43, 26
+  index: -1
+images/xiayu/xiayu_018
+  rotate: false
+  xy: 2, 53
+  size: 693, 320
+  orig: 772, 396
+  offset: 43, 26
+  index: -1
+images/xiayu/xiayu_020
+  rotate: true
+  xy: 697, 324
+  size: 693, 320
+  orig: 772, 396
+  offset: 43, 26
+  index: -1
+
+ZT_leiyu2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/xiayu/xiayu_022
+  rotate: false
+  xy: 2, 696
+  size: 692, 320
+  orig: 772, 396
+  offset: 44, 26
+  index: -1
+images/xiayu/xiayu_024
+  rotate: false
+  xy: 2, 374
+  size: 692, 320
+  orig: 772, 396
+  offset: 44, 26
+  index: -1
+images/xiayu/xiayu_026
+  rotate: false
+  xy: 2, 52
+  size: 692, 320
+  orig: 772, 396
+  offset: 44, 26
+  index: -1
+images/xiayu/xiayu_028
+  rotate: true
+  xy: 696, 324
+  size: 692, 320
+  orig: 772, 396
+  offset: 44, 26
+  index: -1
+
+ZT_leiyu3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/xiayu/xiayu_000
+  rotate: false
+  xy: 2, 50
+  size: 689, 320
+  orig: 772, 396
+  offset: 44, 26
+  index: -1
+images/xiayu/xiayu_004
+  rotate: true
+  xy: 694, 325
+  size: 689, 320
+  orig: 772, 396
+  offset: 44, 26
+  index: -1
+images/xiayu/xiayu_008
+  rotate: false
+  xy: 2, 694
+  size: 690, 320
+  orig: 772, 396
+  offset: 43, 26
+  index: -1
+images/xiayu/xiayu_010
+  rotate: false
+  xy: 2, 372
+  size: 690, 320
+  orig: 772, 396
+  offset: 43, 26
+  index: -1
+
+ZT_leiyu4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/bai_012
+  rotate: true
+  xy: 694, 509
+  size: 448, 240
+  orig: 474, 268
+  offset: 15, 14
+  index: -1
+images/xiayu/xiayu_002
+  rotate: false
+  xy: 2, 2
+  size: 689, 313
+  orig: 772, 396
+  offset: 44, 33
+  index: -1
+images/xiayu/xiayu_006
+  rotate: false
+  xy: 2, 638
+  size: 690, 319
+  orig: 772, 396
+  offset: 43, 27
+  index: -1
+images/xiayu/xiayu_012
+  rotate: false
+  xy: 2, 317
+  size: 686, 319
+  orig: 772, 396
+  offset: 43, 27
+  index: -1

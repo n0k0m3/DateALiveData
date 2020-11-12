@@ -1,0 +1,20 @@
+
+emotionBubble_1001.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/gantan_089
+  rotate: false
+  xy: 2, 2
+  size: 37, 73
+  orig: 115, 130
+  offset: 42, 27
+  index: -1
+images/qipao_089
+  rotate: false
+  xy: 2, 77
+  size: 98, 104
+  orig: 167, 156
+  offset: 31, 26
+  index: -1

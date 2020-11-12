@@ -1,0 +1,292 @@
+
+effects_kuangsanwaizhuan_star.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/lzii/lizi_008
+  rotate: false
+  xy: 1355, 722
+  size: 674, 331
+  orig: 708, 411
+  offset: 7, 17
+  index: -1
+images/lzii/lizi_010
+  rotate: false
+  xy: 678, 716
+  size: 674, 331
+  orig: 708, 411
+  offset: 7, 17
+  index: -1
+images/lzii/lizi_012
+  rotate: false
+  xy: 1354, 390
+  size: 674, 330
+  orig: 708, 411
+  offset: 7, 18
+  index: -1
+images/lzii/lizi_014
+  rotate: false
+  xy: 680, 1714
+  size: 675, 330
+  orig: 708, 411
+  offset: 6, 18
+  index: -1
+images/lzii/lizi_016
+  rotate: false
+  xy: 2, 57
+  size: 674, 329
+  orig: 708, 411
+  offset: 6, 18
+  index: -1
+images/lzii/lizi_018
+  rotate: false
+  xy: 1354, 59
+  size: 674, 329
+  orig: 708, 411
+  offset: 6, 18
+  index: -1
+images/lzii/lizi_020
+  rotate: false
+  xy: 2, 1385
+  size: 675, 329
+  orig: 708, 411
+  offset: 5, 18
+  index: -1
+images/lzii/lizi_022
+  rotate: false
+  xy: 1357, 1715
+  size: 675, 329
+  orig: 708, 411
+  offset: 5, 18
+  index: -1
+images/lzii/lizi_024
+  rotate: false
+  xy: 2, 1716
+  size: 676, 328
+  orig: 708, 411
+  offset: 4, 18
+  index: -1
+images/lzii/lizi_026
+  rotate: false
+  xy: 1357, 1385
+  size: 675, 328
+  orig: 708, 411
+  offset: 4, 18
+  index: -1
+images/lzii/lizi_028
+  rotate: false
+  xy: 679, 1384
+  size: 675, 328
+  orig: 708, 411
+  offset: 3, 18
+  index: -1
+images/lzii/lizi_030
+  rotate: false
+  xy: 2, 1055
+  size: 675, 328
+  orig: 708, 411
+  offset: 3, 18
+  index: -1
+images/lzii/lizi_034
+  rotate: false
+  xy: 1356, 1055
+  size: 675, 328
+  orig: 708, 411
+  offset: 2, 18
+  index: -1
+images/lzii/lizi_036
+  rotate: false
+  xy: 678, 53
+  size: 674, 329
+  orig: 708, 411
+  offset: 2, 18
+  index: -1
+images/lzii/lizi_038
+  rotate: false
+  xy: 678, 384
+  size: 674, 330
+  orig: 708, 411
+  offset: 1, 18
+  index: -1
+images/lzii/lizi_040
+  rotate: false
+  xy: 2, 388
+  size: 674, 331
+  orig: 708, 411
+  offset: 1, 17
+  index: -1
+images/lzii/lizi_042
+  rotate: false
+  xy: 2, 721
+  size: 674, 332
+  orig: 708, 411
+  offset: 0, 17
+  index: -1
+images/lzii/lizi_044
+  rotate: false
+  xy: 679, 1049
+  size: 674, 333
+  orig: 708, 411
+  offset: 0, 17
+  index: -1
+images/xingxing_000
+  rotate: false
+  xy: 2, 2
+  size: 67, 53
+  orig: 75, 75
+  offset: 4, 11
+  index: -1
+
+effects_kuangsanwaizhuan_star2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/dituguang_000
+  rotate: false
+  xy: 1337, 1468
+  size: 518, 241
+  orig: 564, 298
+  offset: 24, 41
+  index: -1
+images/lzii/lizi_000
+  rotate: true
+  xy: 1004, 719
+  size: 657, 332
+  orig: 708, 411
+  offset: 9, 17
+  index: -1
+images/lzii/lizi_002
+  rotate: false
+  xy: 2, 1712
+  size: 673, 332
+  orig: 708, 411
+  offset: 9, 17
+  index: -1
+images/lzii/lizi_004
+  rotate: false
+  xy: 2, 1378
+  size: 672, 332
+  orig: 708, 411
+  offset: 9, 17
+  index: -1
+images/lzii/lizi_006
+  rotate: false
+  xy: 677, 1713
+  size: 673, 331
+  orig: 708, 411
+  offset: 8, 17
+  index: -1
+images/lzii/lizi_032
+  rotate: true
+  xy: 2, 702
+  size: 674, 328
+  orig: 708, 411
+  offset: 3, 18
+  index: -1
+images/lzii/lizi_046
+  rotate: false
+  xy: 1352, 1711
+  size: 659, 333
+  orig: 708, 411
+  offset: 14, 17
+  index: -1
+images/lzii/lizi_048
+  rotate: true
+  xy: 2, 42
+  size: 658, 334
+  orig: 708, 411
+  offset: 14, 17
+  index: -1
+images/lzii/lizi_050
+  rotate: true
+  xy: 332, 717
+  size: 659, 334
+  orig: 708, 411
+  offset: 13, 17
+  index: -1
+images/lzii/lizi_052
+  rotate: true
+  xy: 338, 57
+  size: 658, 334
+  orig: 708, 411
+  offset: 13, 17
+  index: -1
+images/lzii/lizi_054
+  rotate: true
+  xy: 668, 718
+  size: 658, 334
+  orig: 708, 411
+  offset: 12, 17
+  index: -1
+images/lzii/lizi_056
+  rotate: true
+  xy: 674, 58
+  size: 658, 334
+  orig: 708, 411
+  offset: 12, 17
+  index: -1
+images/lzii/lizi_058
+  rotate: true
+  xy: 1010, 60
+  size: 657, 334
+  orig: 708, 411
+  offset: 12, 17
+  index: -1
+images/lzii/lizi_060
+  rotate: false
+  xy: 677, 1378
+  size: 658, 333
+  orig: 708, 411
+  offset: 11, 17
+  index: -1
+images/lzii/lizi_062
+  rotate: true
+  xy: 1338, 809
+  size: 657, 333
+  orig: 708, 411
+  offset: 11, 17
+  index: -1
+images/lzii/lizi_064
+  rotate: true
+  xy: 1346, 150
+  size: 657, 333
+  orig: 708, 411
+  offset: 10, 17
+  index: -1
+images/lzii/lizi_066
+  rotate: true
+  xy: 1673, 810
+  size: 656, 333
+  orig: 708, 411
+  offset: 10, 17
+  index: -1
+images/lzii/lizi_068
+  rotate: true
+  xy: 1681, 152
+  size: 656, 333
+  orig: 708, 411
+  offset: 10, 17
+  index: -1
+images/wu2_246
+  rotate: true
+  xy: 1857, 1500
+  size: 209, 96
+  orig: 241, 141
+  offset: 14, 24
+  index: -1
+images/wu3_413
+  rotate: false
+  xy: 1346, 52
+  size: 209, 96
+  orig: 241, 141
+  offset: 14, 24
+  index: -1
+images/wu_160
+  rotate: true
+  xy: 1955, 1500
+  size: 209, 89
+  orig: 241, 141
+  offset: 14, 24
+  index: -1

@@ -5479,7 +5479,7 @@ return {
         [2] = {
             baseName = "MFLiHei_Noncommercial",
             name = "font/MFLiHei_Noncommercial.ttf",
-            color = "#000000",
+            color = "#FFFFFF",
             text = "天",
             clickId = "",
             size = 20,
@@ -5495,7 +5495,7 @@ return {
         [4] = {
             baseName = "MFLiHei_Noncommercial",
             name = "font/MFLiHei_Noncommercial.ttf",
-            color = "#000000",
+            color = "#FFFFFF",
             text = "时后结束",
             clickId = "",
             size = 20,

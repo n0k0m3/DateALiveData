@@ -90,6 +90,16 @@ local t = {
 			logic="",
 		},
 		{
+			name="RankNoticeView",
+			ui ="RankNoticeView.lua",
+			x=0,
+			y=0,
+			speed=0,
+			layer="MainScene",
+			canLoad=true,
+			logic="",
+		},
+		{
 			name="OneCelebrationMainLayer",
 			ui ="OneCelebrationMainLayer.lua",
 			x=0,

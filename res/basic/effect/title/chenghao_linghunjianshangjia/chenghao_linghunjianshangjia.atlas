@@ -1,0 +1,382 @@
+
+chenghao_linghunjianshangjia.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+diguang
+  rotate: true
+  xy: 138, 8
+  size: 121, 33
+  orig: 121, 33
+  offset: 0, 0
+  index: -1
+liziguang/liziguang_00020
+  rotate: false
+  xy: 263, 48
+  size: 172, 79
+  orig: 1386, 640
+  offset: 607, 268
+  index: -1
+saoguang/saoguang_00006
+  rotate: false
+  xy: 308, 304
+  size: 5, 7
+  orig: 1386, 640
+  offset: 640, 305
+  index: -1
+saoguang/saoguang_00007
+  rotate: true
+  xy: 437, 60
+  size: 67, 64
+  orig: 1386, 640
+  offset: 612, 279
+  index: -1
+saoguang/saoguang_00011
+  rotate: true
+  xy: 2, 2
+  size: 125, 88
+  orig: 1386, 640
+  offset: 612, 269
+  index: -1
+saoguang/saoguang_00013
+  rotate: false
+  xy: 165, 313
+  size: 154, 97
+  orig: 1386, 640
+  offset: 608, 260
+  index: -1
+saoguang/saoguang_00014
+  rotate: false
+  xy: 2, 312
+  size: 161, 98
+  orig: 1386, 640
+  offset: 610, 259
+  index: -1
+saoguang/saoguang_00015
+  rotate: false
+  xy: 2, 412
+  size: 163, 98
+  orig: 1386, 640
+  offset: 614, 259
+  index: -1
+saoguang/saoguang_00016
+  rotate: false
+  xy: 167, 412
+  size: 157, 98
+  orig: 1386, 640
+  offset: 622, 259
+  index: -1
+saoguang/saoguang_00019
+  rotate: true
+  xy: 173, 13
+  size: 117, 88
+  orig: 1386, 640
+  offset: 658, 259
+  index: -1
+saoguang/saoguang_00023
+  rotate: false
+  xy: 378, 19
+  size: 31, 27
+  orig: 1386, 640
+  offset: 726, 292
+  index: -1
+yan/yan_00000
+  rotate: false
+  xy: 326, 359
+  size: 179, 74
+  orig: 1386, 640
+  offset: 608, 280
+  index: -1
+yan/yan_00002
+  rotate: true
+  xy: 2, 129
+  size: 181, 74
+  orig: 1386, 640
+  offset: 607, 280
+  index: -1
+yan/yan_00004
+  rotate: false
+  xy: 326, 435
+  size: 180, 75
+  orig: 1386, 640
+  offset: 607, 280
+  index: -1
+yan/yan_00006
+  rotate: true
+  xy: 78, 131
+  size: 179, 75
+  orig: 1386, 640
+  offset: 608, 280
+  index: -1
+yan/yan_00008
+  rotate: false
+  xy: 321, 283
+  size: 178, 74
+  orig: 1386, 640
+  offset: 609, 280
+  index: -1
+yan/yan_00010
+  rotate: true
+  xy: 231, 134
+  size: 177, 75
+  orig: 1386, 640
+  offset: 610, 280
+  index: -1
+yan/yan_00012
+  rotate: false
+  xy: 308, 129
+  size: 177, 74
+  orig: 1386, 640
+  offset: 610, 280
+  index: -1
+yan/yan_00016
+  rotate: false
+  xy: 308, 205
+  size: 176, 76
+  orig: 1386, 640
+  offset: 611, 279
+  index: -1
+yan/yan_00028
+  rotate: true
+  xy: 155, 132
+  size: 178, 74
+  orig: 1386, 640
+  offset: 609, 280
+  index: -1
+zi
+  rotate: false
+  xy: 263, 15
+  size: 113, 31
+  orig: 113, 31
+  offset: 0, 0
+  index: -1
+zimiaobian
+  rotate: true
+  xy: 92, 2
+  size: 127, 44
+  orig: 127, 44
+  offset: 0, 0
+  index: -1
+
+chenghao_linghunjianshangjia2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+liziguang/liziguang_00000
+  rotate: false
+  xy: 353, 234
+  size: 157, 81
+  orig: 1386, 640
+  offset: 609, 266
+  index: -1
+liziguang/liziguang_00008
+  rotate: false
+  xy: 346, 74
+  size: 164, 79
+  orig: 1386, 640
+  offset: 613, 268
+  index: -1
+liziguang/liziguang_00010
+  rotate: false
+  xy: 348, 155
+  size: 162, 77
+  orig: 1386, 640
+  offset: 615, 270
+  index: -1
+liziguang/liziguang_00014
+  rotate: false
+  xy: 171, 42
+  size: 167, 79
+  orig: 1386, 640
+  offset: 609, 273
+  index: -1
+liziguang/liziguang_00016
+  rotate: false
+  xy: 175, 206
+  size: 171, 75
+  orig: 1386, 640
+  offset: 608, 273
+  index: -1
+liziguang/liziguang_00018
+  rotate: false
+  xy: 2, 205
+  size: 171, 77
+  orig: 1386, 640
+  offset: 607, 270
+  index: -1
+liziguang/liziguang_00024
+  rotate: false
+  xy: 2, 122
+  size: 167, 81
+  orig: 1386, 640
+  offset: 607, 266
+  index: -1
+liziguang/liziguang_00026
+  rotate: false
+  xy: 175, 123
+  size: 169, 81
+  orig: 1386, 640
+  offset: 607, 266
+  index: -1
+saoguang/saoguang_00010
+  rotate: true
+  xy: 2, 7
+  size: 113, 86
+  orig: 1386, 640
+  offset: 612, 270
+  index: -1
+saoguang/saoguang_00012
+  rotate: false
+  xy: 356, 317
+  size: 142, 95
+  orig: 1386, 640
+  offset: 608, 262
+  index: -1
+saoguang/saoguang_00017
+  rotate: false
+  xy: 358, 414
+  size: 148, 96
+  orig: 1386, 640
+  offset: 633, 259
+  index: -1
+saoguang/saoguang_00022
+  rotate: false
+  xy: 90, 46
+  size: 77, 74
+  orig: 1386, 640
+  offset: 700, 267
+  index: -1
+yan/yan_00014
+  rotate: false
+  xy: 2, 436
+  size: 177, 74
+  orig: 1386, 640
+  offset: 610, 280
+  index: -1
+yan/yan_00018
+  rotate: false
+  xy: 181, 434
+  size: 175, 76
+  orig: 1386, 640
+  offset: 611, 279
+  index: -1
+yan/yan_00020
+  rotate: false
+  xy: 2, 360
+  size: 175, 74
+  orig: 1386, 640
+  offset: 611, 280
+  index: -1
+yan/yan_00022
+  rotate: false
+  xy: 178, 283
+  size: 173, 74
+  orig: 1386, 640
+  offset: 612, 280
+  index: -1
+yan/yan_00024
+  rotate: false
+  xy: 2, 284
+  size: 174, 74
+  orig: 1386, 640
+  offset: 612, 280
+  index: -1
+yan/yan_00026
+  rotate: false
+  xy: 179, 359
+  size: 175, 73
+  orig: 1386, 640
+  offset: 611, 281
+  index: -1
+
+chenghao_linghunjianshangjia3.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+di
+  rotate: true
+  xy: 84, 260
+  size: 163, 82
+  orig: 163, 82
+  offset: 0, 0
+  index: -1
+liziguang/liziguang_00002
+  rotate: false
+  xy: 2, 425
+  size: 163, 85
+  orig: 1386, 640
+  offset: 609, 266
+  index: -1
+liziguang/liziguang_00004
+  rotate: false
+  xy: 336, 428
+  size: 163, 82
+  orig: 1386, 640
+  offset: 612, 267
+  index: -1
+liziguang/liziguang_00006
+  rotate: true
+  xy: 2, 90
+  size: 165, 79
+  orig: 1386, 640
+  offset: 612, 268
+  index: -1
+liziguang/liziguang_00012
+  rotate: false
+  xy: 168, 352
+  size: 163, 77
+  orig: 1386, 640
+  offset: 614, 270
+  index: -1
+liziguang/liziguang_00022
+  rotate: true
+  xy: 2, 257
+  size: 166, 80
+  orig: 1386, 640
+  offset: 607, 267
+  index: -1
+liziguang/liziguang_00028
+  rotate: false
+  xy: 167, 431
+  size: 167, 79
+  orig: 1386, 640
+  offset: 609, 266
+  index: -1
+saoguang/saoguang_00008
+  rotate: true
+  xy: 399, 252
+  size: 88, 81
+  orig: 1386, 640
+  offset: 607, 272
+  index: -1
+saoguang/saoguang_00009
+  rotate: false
+  xy: 333, 342
+  size: 102, 84
+  orig: 1386, 640
+  offset: 608, 271
+  index: -1
+saoguang/saoguang_00018
+  rotate: false
+  xy: 168, 257
+  size: 134, 93
+  orig: 1386, 640
+  offset: 644, 259
+  index: -1
+saoguang/saoguang_00020
+  rotate: false
+  xy: 2, 2
+  size: 106, 86
+  orig: 1386, 640
+  offset: 672, 260
+  index: -1
+saoguang/saoguang_00021
+  rotate: false
+  xy: 304, 257
+  size: 93, 83
+  orig: 1386, 640
+  offset: 686, 262
+  index: -1

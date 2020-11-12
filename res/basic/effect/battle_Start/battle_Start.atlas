@@ -1,0 +1,55 @@
+
+battle_Start.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/golw2_00011
+  rotate: false
+  xy: 2, 178
+  size: 505, 51
+  orig: 505, 51
+  offset: 0, 0
+  index: -1
+images/golw_00000
+  rotate: false
+  xy: 2, 36
+  size: 428, 140
+  orig: 428, 140
+  offset: 0, 0
+  index: -1
+images/ui_00010
+  rotate: false
+  xy: 432, 2
+  size: 568, 108
+  orig: 568, 108
+  offset: 0, 0
+  index: -1
+images/zi/START_01
+  rotate: true
+  xy: 509, 142
+  size: 87, 117
+  orig: 87, 117
+  offset: 0, 0
+  index: -1
+images/zi/START_02
+  rotate: true
+  xy: 628, 127
+  size: 102, 117
+  orig: 102, 117
+  offset: 0, 0
+  index: -1
+images/zi/START_03
+  rotate: false
+  xy: 866, 112
+  size: 118, 117
+  orig: 118, 117
+  offset: 0, 0
+  index: -1
+images/zi/START_04
+  rotate: true
+  xy: 747, 119
+  size: 110, 117
+  orig: 110, 117
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,27 @@
+
+ZT_youdeng.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/deng_000
+  rotate: false
+  xy: 260, 350
+  size: 54, 81
+  orig: 260, 230
+  offset: 102, 69
+  index: -1
+images/glow1_000
+  rotate: false
+  xy: 2, 202
+  size: 256, 229
+  orig: 260, 230
+  offset: 2, 0
+  index: -1
+images/glow_000
+  rotate: false
+  xy: 2, 2
+  size: 196, 198
+  orig: 260, 230
+  offset: 32, 11
+  index: -1

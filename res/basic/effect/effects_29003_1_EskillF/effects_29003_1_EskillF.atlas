@@ -1,0 +1,68 @@
+
+effects_29003_1_EskillF.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ER/EF/Eboom_001
+  rotate: false
+  xy: 2, 257
+  size: 372, 360
+  orig: 400, 400
+  offset: 28, 0
+  index: -1
+ER/EF/Eboom_003
+  rotate: false
+  xy: 400, 280
+  size: 384, 360
+  orig: 400, 400
+  offset: 15, 0
+  index: -1
+ER/EF/Eboom_005
+  rotate: false
+  xy: 2, 619
+  size: 396, 388
+  orig: 400, 400
+  offset: 0, 1
+  index: -1
+ER/EF/Eboom_007
+  rotate: false
+  xy: 400, 642
+  size: 400, 365
+  orig: 400, 400
+  offset: 0, 5
+  index: -1
+ER/EF/Eboom_011
+  rotate: true
+  xy: 786, 297
+  size: 343, 221
+  orig: 400, 400
+  offset: 30, 65
+  index: -1
+ER/EF/Eboom_013
+  rotate: false
+  xy: 802, 827
+  size: 201, 180
+  orig: 400, 400
+  offset: 110, 87
+  index: -1
+glow
+  rotate: false
+  xy: 802, 725
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+
+effects_29003_1_EskillF2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ER/EF/Eboom_009
+  rotate: false
+  xy: 2, 98
+  size: 400, 304
+  orig: 400, 400
+  offset: 0, 20
+  index: -1

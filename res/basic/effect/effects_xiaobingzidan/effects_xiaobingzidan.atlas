@@ -1,0 +1,62 @@
+
+effects_xiaobingzidan.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/zidan/2/baodian/baodian_000
+  rotate: false
+  xy: 260, 257
+  size: 81, 81
+  orig: 182, 160
+  offset: 48, 41
+  index: -1
+images/effects/zidan/2/baodian/baodian_001
+  rotate: false
+  xy: 260, 340
+  size: 85, 92
+  orig: 182, 160
+  offset: 45, 41
+  index: -1
+images/effects/zidan/2/baodian/baodian_002
+  rotate: true
+  xy: 152, 240
+  size: 123, 106
+  orig: 182, 160
+  offset: 28, 34
+  index: -1
+images/effects/zidan/2/baodian/baodian_004
+  rotate: false
+  xy: 2, 245
+  size: 148, 118
+  orig: 182, 160
+  offset: 21, 22
+  index: -1
+images/effects/zidan/2/baodian/baodian_006
+  rotate: false
+  xy: 2, 119
+  size: 134, 124
+  orig: 182, 160
+  offset: 20, 20
+  index: -1
+images/effects/zidan/2/baodian/baodian_008
+  rotate: false
+  xy: 2, 2
+  size: 126, 115
+  orig: 182, 160
+  offset: 21, 34
+  index: -1
+images/effects/zidan/2/baodian/baodian_010
+  rotate: false
+  xy: 138, 127
+  size: 125, 111
+  orig: 182, 160
+  offset: 21, 39
+  index: -1
+images/effects/zidan/2/zidan_000
+  rotate: false
+  xy: 2, 365
+  size: 226, 67
+  orig: 250, 150
+  offset: 10, 50
+  index: -1

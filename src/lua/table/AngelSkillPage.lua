@@ -1,18 +1,18 @@
 return {
     [1] = {
         id = 1,
-        nameId = 100000307,
+        nameId = 0,
     },
     [2] = {
         id = 2,
-        nameId = 100000308,
+        nameId = 0,
     },
     [3] = {
         id = 3,
-        nameId = 100000309,
+        nameId = 0,
     },
     [4] = {
         id = 4,
-        nameId = 100000310,
+        nameId = 0,
     },
 }

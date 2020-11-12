@@ -59,7 +59,7 @@ function BuyConfirmView2:refreshView()
 		Panel_goodsItem:Pos(pos):AddTo(self.Image_head)
 		Panel_goodsItem:setScale(RewardPos[PosIdx]["scale"])
 	end
-    self.Label_desc:setText(self.commodityCfg_.des3)
+    self.Label_desc:setText(Utils:MultiLanguageStringDeal(self.commodityCfg_.des3))
     --self.Label_name:setTextById(itemCfg.nameTextId)
 	
     self.Panel_batch:setVisible(true)

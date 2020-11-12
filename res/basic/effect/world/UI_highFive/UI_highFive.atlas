@@ -1,0 +1,27 @@
+
+UI_highFive.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/fuhao_005
+  rotate: false
+  xy: 2, 154
+  size: 106, 56
+  orig: 122, 110
+  offset: 7, 45
+  index: -1
+images/youshou_005
+  rotate: false
+  xy: 2, 2
+  size: 61, 72
+  orig: 122, 110
+  offset: 37, 17
+  index: -1
+images/zuoshou_005
+  rotate: false
+  xy: 2, 76
+  size: 66, 76
+  orig: 122, 110
+  offset: 26, 18
+  index: -1

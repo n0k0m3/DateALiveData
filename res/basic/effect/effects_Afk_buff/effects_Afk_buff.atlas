@@ -1,0 +1,1138 @@
+
+effects_Afk_buff.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/buff/fangyulijiangdi/jiangdi_000
+  rotate: false
+  xy: 200, 583
+  size: 138, 124
+  orig: 142, 129
+  offset: 3, 1
+  index: -1
+images/effects/buff/fangyulijiangdi/jiangdi_002
+  rotate: false
+  xy: 340, 573
+  size: 138, 127
+  orig: 142, 129
+  offset: 3, 1
+  index: -1
+images/effects/buff/fangyulijiangdi/jiangdi_004
+  rotate: true
+  xy: 321, 350
+  size: 138, 128
+  orig: 142, 129
+  offset: 3, 1
+  index: -1
+images/effects/buff/fangyulijiangdi/jiangdi_006
+  rotate: false
+  xy: 484, 650
+  size: 137, 128
+  orig: 142, 129
+  offset: 3, 1
+  index: -1
+images/effects/buff/fangyulijiangdi/jiangdi_008
+  rotate: true
+  xy: 623, 645
+  size: 136, 128
+  orig: 142, 129
+  offset: 3, 1
+  index: -1
+images/effects/buff/fangyulijiangdi/jiangdi_010
+  rotate: true
+  xy: 567, 8
+  size: 133, 128
+  orig: 142, 129
+  offset: 3, 1
+  index: -1
+images/effects/buff/fangyulijiangdi/jiangdi_018
+  rotate: false
+  xy: 303, 2
+  size: 136, 125
+  orig: 142, 129
+  offset: 3, 4
+  index: -1
+images/effects/buff/fangyulijiangdi/jiangdi_020
+  rotate: false
+  xy: 451, 282
+  size: 137, 123
+  orig: 142, 129
+  offset: 3, 6
+  index: -1
+images/effects/buff/fangyulijiangdi/jiangdi_022
+  rotate: false
+  xy: 753, 522
+  size: 138, 123
+  orig: 142, 129
+  offset: 3, 6
+  index: -1
+images/effects/buff/fangyulijiangdi/jiangdi_024
+  rotate: false
+  xy: 590, 388
+  size: 138, 122
+  orig: 142, 129
+  offset: 3, 6
+  index: -1
+images/effects/buff/fangyulijiangdi/jiangdi_026
+  rotate: false
+  xy: 590, 267
+  size: 138, 119
+  orig: 142, 129
+  offset: 3, 6
+  index: -1
+images/effects/buff/fangyulijiangdi/jiangdi_028
+  rotate: false
+  xy: 699, 140
+  size: 138, 119
+  orig: 142, 129
+  offset: 3, 6
+  index: -1
+images/effects/buff/fangyulijianrui/jianrui_082
+  rotate: false
+  xy: 621, 512
+  size: 130, 63
+  orig: 149, 118
+  offset: 8, 32
+  index: -1
+images/effects/buff/fangyulijianrui/jianrui_098
+  rotate: false
+  xy: 312, 490
+  size: 131, 81
+  orig: 149, 118
+  offset: 6, 10
+  index: -1
+images/effects/buff/fangyulijianrui/jianrui_100
+  rotate: true
+  xy: 932, 676
+  size: 121, 90
+  orig: 149, 118
+  offset: 6, 1
+  index: -1
+images/effects/buff/fangyulijianrui/jianrui_102
+  rotate: false
+  xy: 621, 577
+  size: 130, 66
+  orig: 149, 118
+  offset: 8, 26
+  index: -1
+images/effects/buff/fangyulijiaqiang/jiaqiang_010
+  rotate: true
+  xy: 797, 3
+  size: 135, 76
+  orig: 153, 133
+  offset: 7, 26
+  index: -1
+images/effects/buff/fangyulijiaqiang/jiaqiang_020
+  rotate: false
+  xy: 893, 291
+  size: 129, 103
+  orig: 153, 133
+  offset: 3, 15
+  index: -1
+images/effects/buff/fangyulijiaqiang/jiaqiang_026
+  rotate: false
+  xy: 202, 709
+  size: 139, 72
+  orig: 153, 133
+  offset: 3, 31
+  index: -1
+images/effects/buff/fangyulijiaqiang/jiaqiang_028
+  rotate: false
+  xy: 343, 702
+  size: 139, 77
+  orig: 153, 133
+  offset: 3, 28
+  index: -1
+images/effects/buff/fangyulijiaqiang/jiaqiang_030
+  rotate: true
+  xy: 497, 780
+  size: 139, 93
+  orig: 153, 133
+  offset: 3, 11
+  index: -1
+images/effects/buff/fangyulijiaqiang1/jaiqiang_020
+  rotate: false
+  xy: 839, 140
+  size: 125, 119
+  orig: 125, 124
+  offset: 0, 2
+  index: -1
+images/effects/buff/gongjilijiacheng/jiacheng_030
+  rotate: false
+  xy: 193, 489
+  size: 117, 92
+  orig: 142, 119
+  offset: 0, 1
+  index: -1
+images/effects/buff/gongjilijiacheng/jiacheng_032
+  rotate: true
+  xy: 216, 348
+  size: 139, 103
+  orig: 142, 119
+  offset: 0, 8
+  index: -1
+images/effects/buff/gongjilijiacheng/jiacheng_036
+  rotate: true
+  xy: 312, 129
+  size: 136, 108
+  orig: 142, 119
+  offset: 0, 3
+  index: -1
+images/effects/buff/gongjilijiacheng/jiacheng_040
+  rotate: true
+  xy: 875, 5
+  size: 133, 104
+  orig: 142, 119
+  offset: 7, 6
+  index: -1
+images/effects/buff/gongjilijiacheng/jiacheng_054
+  rotate: false
+  xy: 480, 547
+  size: 139, 101
+  orig: 142, 119
+  offset: 0, 0
+  index: -1
+images/effects/buff/gongjilijiacheng/jiacheng_056
+  rotate: true
+  xy: 697, 2
+  size: 136, 98
+  orig: 142, 119
+  offset: 0, 3
+  index: -1
+images/effects/buff/gongjilijiacheng/jiacheng_058
+  rotate: true
+  xy: 932, 799
+  size: 126, 90
+  orig: 142, 119
+  offset: 5, 12
+  index: -1
+images/effects/buff/gongjilijiangdi/jiangdi_030
+  rotate: true
+  xy: 559, 267
+  size: 13, 28
+  orig: 131, 129
+  offset: 14, 89
+  index: -1
+images/effects/buff/gongjilijiangdi/jiangdi_036
+  rotate: true
+  xy: 201, 110
+  size: 17, 70
+  orig: 131, 129
+  offset: 13, 38
+  index: -1
+images/effects/buff/gongjilijiangdi/jiangdi_040
+  rotate: false
+  xy: 190, 2
+  size: 111, 106
+  orig: 131, 129
+  offset: 12, 14
+  index: -1
+images/effects/buff/gongjilijiangdi/jiangdi_046
+  rotate: false
+  xy: 893, 724
+  size: 17, 61
+  orig: 131, 129
+  offset: 85, 41
+  index: -1
+images/effects/buff/gongjilijiangdi/jiangdi_054
+  rotate: false
+  xy: 977, 942
+  size: 19, 80
+  orig: 131, 129
+  offset: 34, 10
+  index: -1
+images/effects/buff/gongjilijiangdi/jiangdi_056
+  rotate: false
+  xy: 740, 853
+  size: 19, 68
+  orig: 131, 129
+  offset: 34, 11
+  index: -1
+images/effects/buff/huduntexiao/huduntexiao_008
+  rotate: true
+  xy: 559, 143
+  size: 122, 138
+  orig: 151, 139
+  offset: 23, 0
+  index: -1
+images/effects/buff/huduntexiao/huduntexiao_010
+  rotate: true
+  xy: 753, 394
+  size: 126, 138
+  orig: 151, 139
+  offset: 19, 0
+  index: -1
+images/effects/buff/huduntexiao/huduntexiao_012
+  rotate: true
+  xy: 730, 261
+  size: 131, 138
+  orig: 151, 139
+  offset: 14, 0
+  index: -1
+images/effects/buff/huduntexiao/huduntexiao_014
+  rotate: false
+  xy: 422, 142
+  size: 135, 138
+  orig: 151, 139
+  offset: 10, 0
+  index: -1
+images/effects/buff/huduntexiao/huduntexiao_016
+  rotate: false
+  xy: 753, 647
+  size: 138, 138
+  orig: 151, 139
+  offset: 7, 0
+  index: -1
+images/effects/buff/huduntexiao/huduntexiao_018
+  rotate: false
+  xy: 451, 407
+  size: 137, 138
+  orig: 151, 139
+  offset: 8, 0
+  index: -1
+images/effects/buff/huduntexiao/huduntexiao_020
+  rotate: false
+  xy: 594, 783
+  size: 144, 138
+  orig: 151, 139
+  offset: 1, 0
+  index: -1
+images/effects/buff/huduntexiao/huduntexiao_022
+  rotate: false
+  xy: 785, 787
+  size: 145, 138
+  orig: 151, 139
+  offset: 0, 0
+  index: -1
+images/effects/buff/huduntexiao/huduntexiao_024
+  rotate: false
+  xy: 893, 536
+  size: 129, 138
+  orig: 151, 139
+  offset: 16, 0
+  index: -1
+images/effects/buff/huduntexiao/huduntexiao_026
+  rotate: false
+  xy: 441, 2
+  size: 124, 138
+  orig: 151, 139
+  offset: 21, 0
+  index: -1
+images/effects/buff/huduntexiao/huduntexiao_028
+  rotate: false
+  xy: 893, 396
+  size: 129, 138
+  orig: 151, 139
+  offset: 16, 0
+  index: -1
+images/effects/buff/jiangdi_000
+  rotate: false
+  xy: 356, 781
+  size: 139, 138
+  orig: 142, 139
+  offset: 3, 0
+  index: -1
+images/effects/buff/jiansu/jiansu_020
+  rotate: false
+  xy: 321, 282
+  size: 119, 66
+  orig: 153, 98
+  offset: 21, 15
+  index: -1
+images/effects/buff/jiaqiang_000
+  rotate: false
+  xy: 212, 783
+  size: 142, 136
+  orig: 153, 138
+  offset: 4, 0
+  index: -1
+images/effects/buff/jiasu/jiasu_000
+  rotate: true
+  xy: 2, 297
+  size: 190, 108
+  orig: 229, 114
+  offset: 13, 0
+  index: -1
+images/effects/buff/jiasu/jiasu_002
+  rotate: false
+  xy: 2, 709
+  size: 198, 103
+  orig: 229, 114
+  offset: 15, 3
+  index: -1
+images/effects/buff/jiasu/jiasu_004
+  rotate: false
+  xy: 2, 920
+  size: 208, 102
+  orig: 229, 114
+  offset: 13, 0
+  index: -1
+images/effects/buff/jiasu/jiasu_006
+  rotate: false
+  xy: 594, 923
+  size: 189, 99
+  orig: 229, 114
+  offset: 12, 0
+  index: -1
+images/effects/buff/jiasu/jiasu_008
+  rotate: true
+  xy: 114, 110
+  size: 192, 85
+  orig: 229, 114
+  offset: 15, 0
+  index: -1
+images/effects/buff/jiasu/jiasu_010
+  rotate: true
+  xy: 201, 129
+  size: 173, 109
+  orig: 229, 114
+  offset: 14, 0
+  index: -1
+images/effects/buff/jiasu/jiasu_012
+  rotate: true
+  xy: 112, 304
+  size: 183, 102
+  orig: 229, 114
+  offset: 14, 4
+  index: -1
+images/effects/buff/jiasu/jiasu_014
+  rotate: false
+  xy: 2, 2
+  size: 186, 104
+  orig: 229, 114
+  offset: 14, 4
+  index: -1
+images/effects/buff/jiasu/jiasu_016
+  rotate: false
+  xy: 2, 602
+  size: 196, 105
+  orig: 229, 114
+  offset: 12, 1
+  index: -1
+images/effects/buff/jiasu/jiasu_018
+  rotate: false
+  xy: 2, 814
+  size: 205, 104
+  orig: 229, 114
+  offset: 12, 1
+  index: -1
+images/effects/buff/jiasu/jiasu_020
+  rotate: false
+  xy: 212, 921
+  size: 189, 101
+  orig: 229, 114
+  offset: 12, 3
+  index: -1
+images/effects/buff/jiasu/jiasu_022
+  rotate: false
+  xy: 785, 927
+  size: 190, 95
+  orig: 229, 114
+  offset: 11, 8
+  index: -1
+images/effects/buff/jiasu/jiasu_024
+  rotate: false
+  xy: 403, 921
+  size: 189, 101
+  orig: 229, 114
+  offset: 11, 3
+  index: -1
+images/effects/buff/jiasu/jiasu_026
+  rotate: false
+  xy: 2, 489
+  size: 189, 111
+  orig: 229, 114
+  offset: 11, 0
+  index: -1
+images/effects/buff/jiasu/jiasu_028
+  rotate: true
+  xy: 2, 108
+  size: 187, 110
+  orig: 229, 114
+  offset: 12, 0
+  index: -1
+
+effects_Afk_buff2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/buff/fangyulijiangdi/jiangdi_012
+  rotate: false
+  xy: 380, 894
+  size: 128, 128
+  orig: 142, 129
+  offset: 3, 1
+  index: -1
+images/effects/buff/fangyulijiangdi/jiangdi_014
+  rotate: false
+  xy: 510, 895
+  size: 128, 127
+  orig: 142, 129
+  offset: 3, 2
+  index: -1
+images/effects/buff/fangyulijiangdi/jiangdi_016
+  rotate: false
+  xy: 247, 896
+  size: 131, 126
+  orig: 142, 129
+  offset: 3, 3
+  index: -1
+images/effects/buff/fangyulijianrui/jianrui_080
+  rotate: true
+  xy: 954, 777
+  size: 120, 68
+  orig: 149, 118
+  offset: 7, 35
+  index: -1
+images/effects/buff/fangyulijianrui/jianrui_084
+  rotate: false
+  xy: 593, 354
+  size: 124, 61
+  orig: 149, 118
+  offset: 15, 29
+  index: -1
+images/effects/buff/fangyulijianrui/jianrui_086
+  rotate: true
+  xy: 125, 52
+  size: 131, 63
+  orig: 149, 118
+  offset: 9, 27
+  index: -1
+images/effects/buff/fangyulijianrui/jianrui_088
+  rotate: true
+  xy: 190, 50
+  size: 133, 71
+  orig: 149, 118
+  offset: 7, 25
+  index: -1
+images/effects/buff/fangyulijianrui/jianrui_090
+  rotate: true
+  xy: 256, 195
+  size: 134, 77
+  orig: 149, 118
+  offset: 6, 22
+  index: -1
+images/effects/buff/fangyulijianrui/jianrui_092
+  rotate: true
+  xy: 263, 59
+  size: 134, 76
+  orig: 149, 118
+  offset: 6, 20
+  index: -1
+images/effects/buff/fangyulijianrui/jianrui_094
+  rotate: true
+  xy: 260, 484
+  size: 134, 74
+  orig: 149, 118
+  offset: 6, 18
+  index: -1
+images/effects/buff/fangyulijianrui/jianrui_096
+  rotate: true
+  xy: 335, 213
+  size: 133, 76
+  orig: 149, 118
+  offset: 6, 18
+  index: -1
+images/effects/buff/fangyulijianrui/jianrui_104
+  rotate: true
+  xy: 817, 524
+  size: 127, 70
+  orig: 149, 118
+  offset: 12, 23
+  index: -1
+images/effects/buff/fangyulijianrui/jianrui_106
+  rotate: true
+  xy: 665, 117
+  size: 131, 72
+  orig: 149, 118
+  offset: 9, 21
+  index: -1
+images/effects/buff/fangyulijianrui/jianrui_108
+  rotate: true
+  xy: 341, 78
+  size: 133, 76
+  orig: 149, 118
+  offset: 7, 20
+  index: -1
+images/effects/buff/fangyulijianrui/jianrui_110
+  rotate: true
+  xy: 283, 348
+  size: 134, 84
+  orig: 149, 118
+  offset: 6, 15
+  index: -1
+images/effects/buff/fangyulijianrui/jianrui_112
+  rotate: true
+  xy: 336, 500
+  size: 134, 78
+  orig: 149, 118
+  offset: 6, 18
+  index: -1
+images/effects/buff/fangyulijianrui/jianrui_114
+  rotate: true
+  xy: 369, 364
+  size: 134, 74
+  orig: 149, 118
+  offset: 6, 18
+  index: -1
+images/effects/buff/fangyulijianrui/jianrui_116
+  rotate: true
+  xy: 413, 229
+  size: 133, 76
+  orig: 149, 118
+  offset: 6, 18
+  index: -1
+images/effects/buff/fangyulijianrui/jianrui_118
+  rotate: true
+  xy: 739, 119
+  size: 131, 73
+  orig: 149, 118
+  offset: 6, 20
+  index: -1
+images/effects/buff/fangyulijianrui/jianrui_120
+  rotate: true
+  xy: 826, 653
+  size: 121, 71
+  orig: 149, 118
+  offset: 6, 22
+  index: -1
+images/effects/buff/fangyulijiaqiang/jiaqiang_000
+  rotate: false
+  xy: 899, 687
+  size: 121, 88
+  orig: 153, 133
+  offset: 8, 4
+  index: -1
+images/effects/buff/fangyulijiaqiang/jiaqiang_002
+  rotate: true
+  xy: 580, 117
+  size: 131, 83
+  orig: 153, 133
+  offset: 9, 12
+  index: -1
+images/effects/buff/fangyulijiaqiang/jiaqiang_004
+  rotate: true
+  xy: 499, 645
+  size: 123, 75
+  orig: 153, 133
+  offset: 17, 20
+  index: -1
+images/effects/buff/fangyulijiaqiang/jiaqiang_006
+  rotate: false
+  xy: 889, 464
+  size: 131, 62
+  orig: 153, 133
+  offset: 11, 35
+  index: -1
+images/effects/buff/fangyulijiaqiang/jiaqiang_008
+  rotate: true
+  xy: 445, 374
+  size: 134, 71
+  orig: 153, 133
+  offset: 8, 28
+  index: -1
+images/effects/buff/fangyulijiaqiang/jiaqiang_012
+  rotate: true
+  xy: 206, 620
+  size: 135, 75
+  orig: 153, 133
+  offset: 7, 29
+  index: -1
+images/effects/buff/fangyulijiaqiang/jiaqiang_014
+  rotate: true
+  xy: 184, 468
+  size: 135, 74
+  orig: 153, 133
+  offset: 7, 32
+  index: -1
+images/effects/buff/fangyulijiaqiang/jiaqiang_016
+  rotate: false
+  xy: 341, 2
+  size: 133, 74
+  orig: 153, 133
+  offset: 7, 31
+  index: -1
+images/effects/buff/fangyulijiaqiang/jiaqiang_018
+  rotate: true
+  xy: 512, 511
+  size: 132, 77
+  orig: 153, 133
+  offset: 7, 34
+  index: -1
+images/effects/buff/fangyulijiaqiang/jiaqiang_022
+  rotate: true
+  xy: 107, 185
+  size: 137, 75
+  orig: 153, 133
+  offset: 3, 23
+  index: -1
+images/effects/buff/fangyulijiaqiang/jiaqiang_024
+  rotate: true
+  xy: 184, 185
+  size: 137, 70
+  orig: 153, 133
+  offset: 3, 31
+  index: -1
+images/effects/buff/fangyulijiaqiang/jiaqiang_032
+  rotate: true
+  xy: 108, 324
+  size: 138, 86
+  orig: 153, 133
+  offset: 4, 15
+  index: -1
+images/effects/buff/fangyulijiaqiang/jiaqiang_034
+  rotate: true
+  xy: 109, 465
+  size: 137, 73
+  orig: 153, 133
+  offset: 5, 28
+  index: -1
+images/effects/buff/fangyulijiaqiang/jiaqiang_036
+  rotate: true
+  xy: 419, 94
+  size: 133, 72
+  orig: 153, 133
+  offset: 7, 31
+  index: -1
+images/effects/buff/fangyulijiaqiang/jiaqiang_038
+  rotate: true
+  xy: 518, 377
+  size: 132, 73
+  orig: 153, 133
+  offset: 7, 31
+  index: -1
+images/effects/buff/fangyulijiaqiang/jiaqiang_040
+  rotate: true
+  xy: 504, 770
+  size: 122, 67
+  orig: 153, 133
+  offset: 7, 32
+  index: -1
+images/effects/buff/fangyulijiaqiang1/jaiqiang_000
+  rotate: false
+  xy: 640, 899
+  size: 125, 123
+  orig: 125, 124
+  offset: 0, 0
+  index: -1
+images/effects/buff/fangyulijiaqiang1/jaiqiang_002
+  rotate: false
+  xy: 767, 899
+  size: 125, 123
+  orig: 125, 124
+  offset: 0, 0
+  index: -1
+images/effects/buff/fangyulijiaqiang1/jaiqiang_004
+  rotate: false
+  xy: 894, 899
+  size: 125, 123
+  orig: 125, 124
+  offset: 0, 0
+  index: -1
+images/effects/buff/fangyulijiaqiang1/jaiqiang_006
+  rotate: true
+  xy: 125, 757
+  size: 125, 123
+  orig: 125, 124
+  offset: 0, 0
+  index: -1
+images/effects/buff/fangyulijiaqiang1/jaiqiang_008
+  rotate: false
+  xy: 250, 771
+  size: 125, 123
+  orig: 125, 124
+  offset: 0, 0
+  index: -1
+images/effects/buff/fangyulijiaqiang1/jaiqiang_010
+  rotate: false
+  xy: 377, 770
+  size: 125, 122
+  orig: 125, 124
+  offset: 0, 0
+  index: -1
+images/effects/buff/fangyulijiaqiang1/jaiqiang_012
+  rotate: false
+  xy: 591, 522
+  size: 120, 121
+  orig: 125, 124
+  offset: 0, 0
+  index: -1
+images/effects/buff/fangyulijiaqiang1/jaiqiang_014
+  rotate: false
+  xy: 703, 653
+  size: 121, 121
+  orig: 125, 124
+  offset: 0, 0
+  index: -1
+images/effects/buff/fangyulijiaqiang1/jaiqiang_016
+  rotate: true
+  xy: 2, 58
+  size: 125, 121
+  orig: 125, 124
+  offset: 0, 0
+  index: -1
+images/effects/buff/fangyulijiaqiang1/jaiqiang_018
+  rotate: false
+  xy: 700, 776
+  size: 125, 121
+  orig: 125, 124
+  offset: 0, 0
+  index: -1
+images/effects/buff/fangyulijiaqiang1/jaiqiang_022
+  rotate: false
+  xy: 827, 778
+  size: 125, 119
+  orig: 125, 124
+  offset: 0, 2
+  index: -1
+images/effects/buff/fangyulijiaqiang1/jaiqiang_024
+  rotate: false
+  xy: 372, 645
+  size: 125, 123
+  orig: 125, 124
+  offset: 0, 0
+  index: -1
+images/effects/buff/fangyulijiaqiang1/jaiqiang_026
+  rotate: false
+  xy: 573, 770
+  size: 125, 123
+  orig: 125, 124
+  offset: 0, 0
+  index: -1
+images/effects/buff/fangyulijiaqiang1/jaiqiang_028
+  rotate: false
+  xy: 576, 645
+  size: 125, 123
+  orig: 125, 124
+  offset: 0, 0
+  index: -1
+images/effects/buff/gongjilijiacheng/jiacheng_034
+  rotate: true
+  xy: 2, 185
+  size: 137, 103
+  orig: 142, 119
+  offset: 3, 8
+  index: -1
+images/effects/buff/gongjilijiacheng/jiacheng_038
+  rotate: true
+  xy: 2, 464
+  size: 138, 105
+  orig: 142, 119
+  offset: 0, 4
+  index: -1
+images/effects/buff/gongjilijiacheng/jiacheng_042
+  rotate: true
+  xy: 677, 2
+  size: 113, 98
+  orig: 142, 119
+  offset: 29, 11
+  index: -1
+images/effects/buff/gongjilijiacheng/jiacheng_044
+  rotate: true
+  xy: 811, 342
+  size: 112, 85
+  orig: 142, 119
+  offset: 29, 6
+  index: -1
+images/effects/buff/gongjilijiacheng/jiacheng_046
+  rotate: false
+  xy: 784, 261
+  size: 110, 79
+  orig: 142, 119
+  offset: 29, 6
+  index: -1
+images/effects/buff/gongjilijiacheng/jiacheng_048
+  rotate: true
+  xy: 416, 510
+  size: 133, 94
+  orig: 142, 119
+  offset: 0, 10
+  index: -1
+images/effects/buff/gongjilijiacheng/jiacheng_050
+  rotate: false
+  xy: 889, 528
+  size: 116, 88
+  orig: 142, 119
+  offset: 0, 16
+  index: -1
+images/effects/buff/gongjilijiacheng/jiacheng_052
+  rotate: true
+  xy: 713, 534
+  size: 117, 102
+  orig: 142, 119
+  offset: 0, 1
+  index: -1
+images/effects/buff/gongjilijiacheng/jiacheng_060
+  rotate: true
+  xy: 491, 239
+  size: 133, 83
+  orig: 142, 119
+  offset: 9, 10
+  index: -1
+images/effects/buff/gongjilijiacheng/jiacheng_062
+  rotate: true
+  xy: 283, 636
+  size: 133, 87
+  orig: 142, 119
+  offset: 7, 6
+  index: -1
+images/effects/buff/gongjilijiacheng/jiacheng_064
+  rotate: true
+  xy: 196, 331
+  size: 135, 85
+  orig: 142, 119
+  offset: 6, 8
+  index: -1
+images/effects/buff/gongjilijiacheng/jiacheng_066
+  rotate: false
+  xy: 898, 377
+  size: 110, 85
+  orig: 142, 119
+  offset: 29, 6
+  index: -1
+images/effects/buff/gongjilijiacheng/jiacheng_068
+  rotate: true
+  xy: 120, 605
+  size: 137, 84
+  orig: 142, 119
+  offset: 0, 7
+  index: -1
+images/effects/buff/gongjilijiacheng/jiacheng_070
+  rotate: true
+  xy: 493, 104
+  size: 133, 85
+  orig: 142, 119
+  offset: 0, 6
+  index: -1
+images/effects/buff/gongjilijiangdi/jiangdi_032
+  rotate: true
+  xy: 571, 2
+  size: 100, 104
+  orig: 131, 129
+  offset: 11, 13
+  index: -1
+images/effects/buff/gongjilijiangdi/jiangdi_034
+  rotate: false
+  xy: 593, 417
+  size: 115, 103
+  orig: 131, 129
+  offset: 7, 14
+  index: -1
+images/effects/buff/gongjilijiangdi/jiangdi_038
+  rotate: false
+  xy: 576, 250
+  size: 115, 102
+  orig: 131, 129
+  offset: 11, 18
+  index: -1
+images/effects/buff/gongjilijiangdi/jiangdi_042
+  rotate: false
+  xy: 719, 358
+  size: 90, 80
+  orig: 131, 129
+  offset: 13, 39
+  index: -1
+images/effects/buff/gongjilijiangdi/jiangdi_048
+  rotate: false
+  xy: 713, 440
+  size: 96, 92
+  orig: 131, 129
+  offset: 7, 8
+  index: -1
+images/effects/buff/gongjilijiangdi/jiangdi_050
+  rotate: false
+  xy: 476, 2
+  size: 93, 90
+  orig: 131, 129
+  offset: 14, 9
+  index: -1
+images/effects/buff/gongjilijiangdi/jiangdi_052
+  rotate: true
+  xy: 693, 252
+  size: 100, 89
+  orig: 131, 129
+  offset: 11, 10
+  index: -1
+images/effects/buff/gongjilijiangdi/jiangdi_062
+  rotate: true
+  xy: 811, 456
+  size: 66, 76
+  orig: 131, 129
+  offset: 38, 21
+  index: -1
+images/effects/buff/gongjilijiangdi/jiangdi_064
+  rotate: false
+  xy: 899, 618
+  size: 119, 67
+  orig: 131, 129
+  offset: 5, 13
+  index: -1
+images/effects/buff/gongjilijiangdi/jiangdi_066
+  rotate: true
+  xy: 814, 140
+  size: 119, 70
+  orig: 131, 129
+  offset: 4, 12
+  index: -1
+images/effects/buff/hudun_000
+  rotate: false
+  xy: 2, 324
+  size: 104, 138
+  orig: 151, 139
+  offset: 41, 0
+  index: -1
+images/effects/buff/huduntexiao/huduntexiao_000
+  rotate: false
+  xy: 125, 884
+  size: 120, 138
+  orig: 151, 139
+  offset: 25, 0
+  index: -1
+images/effects/buff/huduntexiao/huduntexiao_002
+  rotate: false
+  xy: 2, 884
+  size: 121, 138
+  orig: 151, 139
+  offset: 24, 0
+  index: -1
+images/effects/buff/huduntexiao/huduntexiao_004
+  rotate: false
+  xy: 2, 604
+  size: 116, 138
+  orig: 151, 139
+  offset: 29, 0
+  index: -1
+images/effects/buff/huduntexiao/huduntexiao_006
+  rotate: false
+  xy: 2, 744
+  size: 121, 138
+  orig: 151, 139
+  offset: 24, 0
+  index: -1
+images/effects/buff/jiansu/jiansu_000
+  rotate: false
+  xy: 898, 316
+  size: 112, 59
+  orig: 153, 98
+  offset: 28, 14
+  index: -1
+images/effects/buff/jiansu/jiansu_002
+  rotate: false
+  xy: 896, 255
+  size: 117, 59
+  orig: 153, 98
+  offset: 23, 14
+  index: -1
+images/effects/buff/jiansu/jiansu_004
+  rotate: false
+  xy: 886, 123
+  size: 118, 60
+  orig: 153, 98
+  offset: 21, 14
+  index: -1
+images/effects/buff/jiansu/jiansu_010
+  rotate: true
+  xy: 906, 2
+  size: 119, 60
+  orig: 153, 98
+  offset: 21, 16
+  index: -1
+images/effects/buff/jiansu/jiansu_016
+  rotate: false
+  xy: 886, 185
+  size: 117, 68
+  orig: 153, 98
+  offset: 22, 12
+  index: -1
+images/effects/buff/jiansu/jiansu_024
+  rotate: true
+  xy: 841, 2
+  size: 119, 63
+  orig: 153, 98
+  offset: 21, 14
+  index: -1
+images/effects/buff/jiansu/jiansu_028
+  rotate: true
+  xy: 777, 2
+  size: 115, 62
+  orig: 153, 98
+  offset: 25, 14
+  index: -1
+
+effects_Afk_buff3.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/buff/gongjilijiangdi/jiangdi_044
+  rotate: true
+  xy: 2, 47
+  size: 86, 71
+  orig: 131, 129
+  offset: 16, 41
+  index: -1
+images/effects/buff/gongjilijiangdi/jiangdi_058
+  rotate: true
+  xy: 242, 322
+  size: 66, 89
+  orig: 131, 129
+  offset: 34, 11
+  index: -1
+images/effects/buff/gongjilijiangdi/jiangdi_060
+  rotate: true
+  xy: 362, 381
+  size: 69, 88
+  orig: 131, 129
+  offset: 34, 11
+  index: -1
+images/effects/buff/jiansu/jiansu_006
+  rotate: false
+  xy: 122, 327
+  size: 118, 60
+  orig: 153, 98
+  offset: 21, 14
+  index: -1
+images/effects/buff/jiansu/jiansu_008
+  rotate: false
+  xy: 122, 389
+  size: 118, 61
+  orig: 153, 98
+  offset: 21, 15
+  index: -1
+images/effects/buff/jiansu/jiansu_012
+  rotate: false
+  xy: 242, 390
+  size: 118, 60
+  orig: 153, 98
+  offset: 21, 16
+  index: -1
+images/effects/buff/jiansu/jiansu_014
+  rotate: false
+  xy: 2, 320
+  size: 118, 62
+  orig: 153, 98
+  offset: 21, 17
+  index: -1
+images/effects/buff/jiansu/jiansu_018
+  rotate: false
+  xy: 2, 384
+  size: 118, 66
+  orig: 153, 98
+  offset: 21, 15
+  index: -1
+images/effects/buff/jiansu/jiansu_022
+  rotate: true
+  xy: 2, 135
+  size: 118, 60
+  orig: 153, 98
+  offset: 21, 16
+  index: -1
+images/effects/buff/jiansu/jiansu_026
+  rotate: false
+  xy: 2, 255
+  size: 116, 63
+  orig: 153, 98
+  offset: 23, 13
+  index: -1

@@ -1,0 +1,102 @@
+
+effects_10213_skillD1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/glow
+  rotate: false
+  xy: 706, 806
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+effect/skilld/show/BG_000
+  rotate: false
+  xy: 2, 2
+  size: 400, 200
+  orig: 400, 200
+  offset: 0, 0
+  index: -1
+effect/skilld/show/juqi0/juqi0_000
+  rotate: false
+  xy: 2, 556
+  size: 350, 350
+  orig: 350, 350
+  offset: 0, 0
+  index: -1
+effect/skilld/show/juqi0/juqi0_002
+  rotate: false
+  xy: 2, 204
+  size: 350, 350
+  orig: 350, 350
+  offset: 0, 0
+  index: -1
+effect/skilld/show/juqi0/juqi0_004
+  rotate: false
+  xy: 354, 556
+  size: 350, 350
+  orig: 350, 350
+  offset: 0, 0
+  index: -1
+effect/skilld/show/juqi0/juqi0_006
+  rotate: false
+  xy: 354, 204
+  size: 350, 350
+  orig: 350, 350
+  offset: 0, 0
+  index: -1
+
+effects_10213_skillD12.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skilld/show/juqi0/juqi0_008
+  rotate: false
+  xy: 2, 354
+  size: 350, 350
+  orig: 350, 350
+  offset: 0, 0
+  index: -1
+effect/skilld/show/juqi0/juqi0_010
+  rotate: false
+  xy: 2, 3
+  size: 350, 349
+  orig: 350, 350
+  offset: 0, 0
+  index: -1
+effect/skilld/show/juqi0/juqi0_012
+  rotate: false
+  xy: 354, 355
+  size: 350, 349
+  orig: 350, 350
+  offset: 0, 0
+  index: -1
+effect/skilld/show/juqi0/juqi0_018
+  rotate: false
+  xy: 354, 4
+  size: 350, 349
+  orig: 350, 350
+  offset: 0, 1
+  index: -1
+
+effects_10213_skillD13.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skilld/show/juqi0/juqi0_014
+  rotate: false
+  xy: 2, 2
+  size: 350, 343
+  orig: 350, 350
+  offset: 0, 7
+  index: -1
+effect/skilld/show/juqi0/juqi0_016
+  rotate: false
+  xy: 2, 347
+  size: 350, 344
+  orig: 350, 350
+  offset: 0, 6
+  index: -1

@@ -1,0 +1,361 @@
+
+hailang.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: true
+  xy: 1580, 1440
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+02
+  rotate: true
+  xy: 1648, 1440
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+03
+  rotate: false
+  xy: 1716, 1451
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+04
+  rotate: false
+  xy: 1862, 1451
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+05
+  rotate: true
+  xy: 436, 572
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+06
+  rotate: false
+  xy: 436, 504
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+07
+  rotate: true
+  xy: 504, 572
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+08
+  rotate: true
+  xy: 572, 572
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+09
+  rotate: false
+  xy: 582, 504
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+10
+  rotate: true
+  xy: 640, 572
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+11
+  rotate: true
+  xy: 708, 572
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+12
+  rotate: false
+  xy: 728, 504
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+13
+  rotate: true
+  xy: 776, 572
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+14
+  rotate: true
+  xy: 844, 572
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+15
+  rotate: false
+  xy: 874, 504
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+16
+  rotate: true
+  xy: 1020, 572
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+17
+  rotate: true
+  xy: 912, 572
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+18
+  rotate: false
+  xy: 574, 2
+  size: 144, 66
+  orig: 144, 66
+  offset: 0, 0
+  index: -1
+hailang11_000
+  rotate: true
+  xy: 1718, 1519
+  size: 499, 284
+  orig: 499, 284
+  offset: 0, 0
+  index: -1
+xulie/hailang_000
+  rotate: false
+  xy: 2, 1586
+  size: 570, 432
+  orig: 570, 432
+  offset: 0, 0
+  index: -1
+xulie/hailang_001
+  rotate: false
+  xy: 574, 1586
+  size: 570, 432
+  orig: 570, 432
+  offset: 0, 0
+  index: -1
+xulie/hailang_002
+  rotate: false
+  xy: 1146, 1586
+  size: 570, 432
+  orig: 570, 432
+  offset: 0, 0
+  index: -1
+xulie/hailang_003
+  rotate: true
+  xy: 2, 1014
+  size: 570, 432
+  orig: 570, 432
+  offset: 0, 0
+  index: -1
+xulie/hailang_004
+  rotate: false
+  xy: 436, 1152
+  size: 570, 432
+  orig: 570, 432
+  offset: 0, 0
+  index: -1
+xulie/hailang_005
+  rotate: false
+  xy: 1008, 1152
+  size: 570, 432
+  orig: 570, 432
+  offset: 0, 0
+  index: -1
+xulie/hailang_006
+  rotate: true
+  xy: 1580, 868
+  size: 570, 432
+  orig: 570, 432
+  offset: 0, 0
+  index: -1
+xulie/hailang_007
+  rotate: false
+  xy: 436, 718
+  size: 570, 432
+  orig: 570, 432
+  offset: 0, 0
+  index: -1
+xulie/hailang_008
+  rotate: true
+  xy: 2, 442
+  size: 570, 432
+  orig: 570, 432
+  offset: 0, 0
+  index: -1
+xulie/hailang_009
+  rotate: false
+  xy: 1008, 718
+  size: 570, 432
+  orig: 570, 432
+  offset: 0, 0
+  index: -1
+xulie/hailang_010
+  rotate: true
+  xy: 1580, 296
+  size: 570, 432
+  orig: 570, 432
+  offset: 0, 0
+  index: -1
+xulie/hailang_011
+  rotate: false
+  xy: 2, 8
+  size: 570, 432
+  orig: 570, 432
+  offset: 0, 0
+  index: -1
+xulie/hailang_012
+  rotate: false
+  xy: 574, 70
+  size: 570, 432
+  orig: 570, 432
+  offset: 0, 0
+  index: -1
+xulie/hailang_013
+  rotate: true
+  xy: 1146, 146
+  size: 570, 432
+  orig: 570, 432
+  offset: 0, 0
+  index: -1
+
+hailang2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xulie/hailang_014
+  rotate: false
+  xy: 2, 1580
+  size: 570, 432
+  orig: 570, 432
+  offset: 0, 0
+  index: -1
+xulie/hailang_015
+  rotate: true
+  xy: 574, 1442
+  size: 570, 432
+  orig: 570, 432
+  offset: 0, 0
+  index: -1
+xulie/hailang_016
+  rotate: true
+  xy: 2, 1008
+  size: 570, 432
+  orig: 570, 432
+  offset: 0, 0
+  index: -1
+xulie/hailang_017
+  rotate: false
+  xy: 436, 1008
+  size: 570, 432
+  orig: 570, 432
+  offset: 0, 0
+  index: -1
+xulie/hailang_018
+  rotate: true
+  xy: 1008, 1442
+  size: 570, 432
+  orig: 570, 432
+  offset: 0, 0
+  index: -1
+xulie/hailang_019
+  rotate: true
+  xy: 1008, 870
+  size: 570, 432
+  orig: 570, 432
+  offset: 0, 0
+  index: -1
+xulie/hailang_020
+  rotate: true
+  xy: 2, 436
+  size: 570, 432
+  orig: 570, 432
+  offset: 0, 0
+  index: -1
+xulie/hailang_021
+  rotate: true
+  xy: 436, 436
+  size: 570, 432
+  orig: 570, 432
+  offset: 0, 0
+  index: -1
+xulie/hailang_022
+  rotate: false
+  xy: 870, 436
+  size: 570, 432
+  orig: 570, 432
+  offset: 0, 0
+  index: -1
+xulie/hailang_023
+  rotate: false
+  xy: 2, 2
+  size: 570, 432
+  orig: 570, 432
+  offset: 0, 0
+  index: -1
+xulie/hailang_024
+  rotate: false
+  xy: 574, 2
+  size: 570, 432
+  orig: 570, 432
+  offset: 0, 0
+  index: -1
+xulie/hailang_025
+  rotate: false
+  xy: 1146, 2
+  size: 570, 432
+  orig: 570, 432
+  offset: 0, 0
+  index: -1
+xulie/hailang_026
+  rotate: true
+  xy: 1442, 1442
+  size: 570, 432
+  orig: 570, 432
+  offset: 0, 0
+  index: -1
+xulie/hailang_027
+  rotate: true
+  xy: 1442, 870
+  size: 570, 432
+  orig: 570, 432
+  offset: 0, 0
+  index: -1
+xulie/hailang_028
+  rotate: false
+  xy: 1442, 436
+  size: 570, 432
+  orig: 570, 432
+  offset: 0, 0
+  index: -1
+
+hailang3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xulie/hailang_029
+  rotate: false
+  xy: 2, 140
+  size: 570, 432
+  orig: 570, 432
+  offset: 0, 0
+  index: -1

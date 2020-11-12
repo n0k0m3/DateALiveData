@@ -318,4 +318,108 @@ return {
         },
         powerName = 2300108,
     },
+    [22] = {
+        consumePrams = {
+        },
+        id = 22,
+        powerUI = 5,
+        specialEnergyUI = 0,
+        getType = 0,
+        consumeType = 0,
+        getPrams = {
+        },
+        triggerBuff = {
+        },
+        powerName = 2300119,
+    },
+    [23] = {
+        consumePrams = {
+        },
+        id = 23,
+        powerUI = 5,
+        specialEnergyUI = 0,
+        getType = 0,
+        consumeType = 0,
+        getPrams = {
+        },
+        triggerBuff = {
+        },
+        powerName = 2300119,
+    },
+    [24] = {
+        consumePrams = {
+        },
+        id = 24,
+        powerUI = 1,
+        specialEnergyUI = 0,
+        getType = 3,
+        consumeType = 0,
+        getPrams = {
+            [1] = 1000,
+            [2] = 3,
+        },
+        triggerBuff = {
+        },
+        powerName = 2300117,
+    },
+    [25] = {
+        consumePrams = {
+        },
+        id = 25,
+        powerUI = 1,
+        specialEnergyUI = 0,
+        getType = 3,
+        consumeType = 0,
+        getPrams = {
+            [1] = 1000,
+            [2] = 3,
+        },
+        triggerBuff = {
+        },
+        powerName = 2300118,
+    },
+    [26] = {
+        consumePrams = {
+        },
+        id = 26,
+        powerUI = 1,
+        specialEnergyUI = 0,
+        getType = 3,
+        consumeType = 0,
+        getPrams = {
+            [1] = 1000,
+            [2] = 3,
+        },
+        triggerBuff = {
+        },
+        powerName = 2300120,
+    },
+    [27] = {
+        consumePrams = {
+        },
+        id = 27,
+        powerUI = 1,
+        specialEnergyUI = 0,
+        getType = 0,
+        consumeType = 0,
+        getPrams = {
+        },
+        triggerBuff = {
+        },
+        powerName = 2300120,
+    },
+    [28] = {
+        consumePrams = {
+        },
+        id = 28,
+        powerUI = 1,
+        specialEnergyUI = 0,
+        getType = 0,
+        consumeType = 0,
+        getPrams = {
+        },
+        triggerBuff = {
+        },
+        powerName = 2300121,
+    },
 }

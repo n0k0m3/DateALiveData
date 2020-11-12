@@ -1,0 +1,13 @@
+
+effects_31201_yujing.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_L/yujing1_032
+  rotate: false
+  xy: 2, 182
+  size: 250, 70
+  orig: 294, 94
+  offset: 23, 8
+  index: -1

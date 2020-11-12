@@ -1,0 +1,230 @@
+
+effects_cardgame_teleport.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/chuansong/chuansong_000
+  rotate: false
+  xy: 2, 847
+  size: 162, 167
+  orig: 256, 278
+  offset: 55, 47
+  index: -1
+images/chuansong/chuansong_002
+  rotate: false
+  xy: 2, 678
+  size: 162, 167
+  orig: 256, 278
+  offset: 55, 47
+  index: -1
+images/chuansong/chuansong_004
+  rotate: false
+  xy: 166, 847
+  size: 162, 167
+  orig: 256, 278
+  offset: 55, 47
+  index: -1
+images/chuansong/chuansong_006
+  rotate: false
+  xy: 2, 509
+  size: 162, 167
+  orig: 256, 278
+  offset: 55, 47
+  index: -1
+images/chuansong/chuansong_008
+  rotate: false
+  xy: 166, 678
+  size: 162, 167
+  orig: 256, 278
+  offset: 55, 47
+  index: -1
+images/chuansong/chuansong_010
+  rotate: false
+  xy: 330, 847
+  size: 162, 167
+  orig: 256, 278
+  offset: 55, 47
+  index: -1
+images/chuansong/chuansong_012
+  rotate: false
+  xy: 2, 340
+  size: 162, 167
+  orig: 256, 278
+  offset: 55, 47
+  index: -1
+images/chuansong/chuansong_014
+  rotate: false
+  xy: 166, 509
+  size: 162, 167
+  orig: 256, 278
+  offset: 55, 47
+  index: -1
+images/chuansong/chuansong_016
+  rotate: false
+  xy: 330, 678
+  size: 162, 167
+  orig: 256, 278
+  offset: 55, 47
+  index: -1
+images/chuansong/chuansong_018
+  rotate: false
+  xy: 494, 847
+  size: 162, 167
+  orig: 256, 278
+  offset: 55, 47
+  index: -1
+images/chuansong/chuansong_020
+  rotate: false
+  xy: 2, 171
+  size: 162, 167
+  orig: 256, 278
+  offset: 55, 47
+  index: -1
+images/chuansong/chuansong_022
+  rotate: false
+  xy: 166, 340
+  size: 162, 167
+  orig: 256, 278
+  offset: 55, 47
+  index: -1
+images/chuansong/chuansong_024
+  rotate: false
+  xy: 330, 509
+  size: 162, 167
+  orig: 256, 278
+  offset: 55, 47
+  index: -1
+images/chuansong/chuansong_026
+  rotate: false
+  xy: 494, 678
+  size: 162, 167
+  orig: 256, 278
+  offset: 55, 47
+  index: -1
+images/chuansong/chuansong_028
+  rotate: false
+  xy: 658, 847
+  size: 162, 167
+  orig: 256, 278
+  offset: 55, 47
+  index: -1
+images/chuansong/chuansong_030
+  rotate: false
+  xy: 2, 2
+  size: 162, 167
+  orig: 256, 278
+  offset: 55, 47
+  index: -1
+images/chuansong/chuansong_032
+  rotate: false
+  xy: 166, 171
+  size: 162, 167
+  orig: 256, 278
+  offset: 55, 47
+  index: -1
+images/chuansong/chuansong_034
+  rotate: false
+  xy: 330, 340
+  size: 162, 167
+  orig: 256, 278
+  offset: 55, 47
+  index: -1
+images/chuansong/chuansong_036
+  rotate: false
+  xy: 494, 509
+  size: 162, 167
+  orig: 256, 278
+  offset: 55, 47
+  index: -1
+images/chuansong/chuansong_038
+  rotate: false
+  xy: 658, 678
+  size: 162, 167
+  orig: 256, 278
+  offset: 55, 47
+  index: -1
+images/chuansong/chuansong_040
+  rotate: false
+  xy: 822, 847
+  size: 162, 167
+  orig: 256, 278
+  offset: 55, 47
+  index: -1
+images/chuansong/chuansong_042
+  rotate: false
+  xy: 166, 2
+  size: 162, 167
+  orig: 256, 278
+  offset: 55, 47
+  index: -1
+images/chuansong/chuansong_044
+  rotate: false
+  xy: 330, 171
+  size: 162, 167
+  orig: 256, 278
+  offset: 55, 47
+  index: -1
+images/chuansong/chuansong_046
+  rotate: false
+  xy: 494, 340
+  size: 162, 167
+  orig: 256, 278
+  offset: 55, 47
+  index: -1
+images/chuansong/chuansong_048
+  rotate: false
+  xy: 658, 509
+  size: 162, 167
+  orig: 256, 278
+  offset: 55, 47
+  index: -1
+images/chuansong/chuansong_050
+  rotate: false
+  xy: 822, 678
+  size: 162, 167
+  orig: 256, 278
+  offset: 55, 47
+  index: -1
+images/chuansong/chuansong_052
+  rotate: false
+  xy: 330, 2
+  size: 162, 167
+  orig: 256, 278
+  offset: 55, 47
+  index: -1
+images/chuansong/chuansong_054
+  rotate: false
+  xy: 494, 171
+  size: 162, 167
+  orig: 256, 278
+  offset: 55, 47
+  index: -1
+images/chuansong/chuansong_056
+  rotate: false
+  xy: 658, 340
+  size: 162, 167
+  orig: 256, 278
+  offset: 55, 47
+  index: -1
+images/chuansong/chuansong_058
+  rotate: false
+  xy: 822, 509
+  size: 162, 167
+  orig: 256, 278
+  offset: 55, 47
+  index: -1
+images/glow
+  rotate: false
+  xy: 658, 238
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+images/glow_000
+  rotate: true
+  xy: 494, 5
+  size: 164, 147
+  orig: 256, 278
+  offset: 50, 59
+  index: -1

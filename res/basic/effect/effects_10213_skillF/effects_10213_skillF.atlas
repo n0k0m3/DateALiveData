@@ -1,0 +1,437 @@
+
+effects_10213_skillF.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/born/xialuolizi/lizi_10
+  rotate: false
+  xy: 748, 739
+  size: 160, 283
+  orig: 250, 350
+  offset: 56, 43
+  index: -1
+effects/born/xialuolizi/lizi_22
+  rotate: false
+  xy: 911, 79
+  size: 111, 234
+  orig: 250, 350
+  offset: 67, 11
+  index: -1
+effects/skillF/dimian/dimian_11
+  rotate: true
+  xy: 911, 627
+  size: 395, 111
+  orig: 415, 155
+  offset: 20, 16
+  index: -1
+effects/skillF/hit/hit_12
+  rotate: false
+  xy: 301, 6
+  size: 294, 252
+  orig: 342, 333
+  offset: 13, 35
+  index: -1
+effects/skillF/hit/hit_14
+  rotate: false
+  xy: 2, 3
+  size: 297, 255
+  orig: 342, 333
+  offset: 11, 36
+  index: -1
+effects/skillF/hit/hit_24
+  rotate: true
+  xy: 748, 628
+  size: 109, 121
+  orig: 342, 333
+  offset: 119, 116
+  index: -1
+effects/skillF/hua/hua_10
+  rotate: false
+  xy: 597, 12
+  size: 312, 266
+  orig: 450, 400
+  offset: 68, 27
+  index: -1
+effects/skillF/hua/hua_34
+  rotate: true
+  xy: 365, 280
+  size: 360, 381
+  orig: 450, 400
+  offset: 40, 13
+  index: -1
+effects/skillF/hua/hua_36
+  rotate: false
+  xy: 366, 643
+  size: 361, 379
+  orig: 450, 400
+  offset: 39, 13
+  index: -1
+effects/skillF/hua/hua_38
+  rotate: false
+  xy: 2, 260
+  size: 361, 380
+  orig: 450, 400
+  offset: 39, 13
+  index: -1
+effects/skillF/hua/hua_42
+  rotate: false
+  xy: 2, 642
+  size: 362, 380
+  orig: 450, 400
+  offset: 37, 13
+  index: -1
+effects/skillF/hua/hua_8
+  rotate: true
+  xy: 748, 315
+  size: 310, 266
+  orig: 450, 400
+  offset: 70, 38
+  index: -1
+
+effects_10213_skillF2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/born/glow
+  rotate: false
+  xy: 559, 30
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+effects/born/xialuolizi/lizi_4
+  rotate: true
+  xy: 2, 4
+  size: 124, 278
+  orig: 250, 350
+  offset: 78, 64
+  index: -1
+effects/skillF/dimian/dimian_13
+  rotate: false
+  xy: 382, 442
+  size: 374, 107
+  orig: 415, 155
+  offset: 25, 17
+  index: -1
+effects/skillF/dimian/dimian_5
+  rotate: false
+  xy: 2, 793
+  size: 383, 113
+  orig: 415, 155
+  offset: 10, 15
+  index: -1
+effects/skillF/dimian/dimian_7
+  rotate: false
+  xy: 407, 906
+  size: 387, 116
+  orig: 415, 155
+  offset: 15, 13
+  index: -1
+effects/skillF/dimian/dimian_9
+  rotate: false
+  xy: 2, 908
+  size: 403, 114
+  orig: 415, 155
+  offset: 12, 15
+  index: -1
+effects/skillF/hit/hit_10
+  rotate: true
+  xy: 740, 51
+  size: 280, 282
+  orig: 342, 333
+  offset: 22, 35
+  index: -1
+effects/skillF/hit/hit_18
+  rotate: true
+  xy: 282, 9
+  size: 119, 137
+  orig: 342, 333
+  offset: 101, 104
+  index: -1
+effects/skillF/hit/hit_20
+  rotate: true
+  xy: 421, 13
+  size: 117, 136
+  orig: 342, 333
+  offset: 109, 105
+  index: -1
+effects/skillF/hua/hua_26
+  rotate: true
+  xy: 2, 130
+  size: 319, 370
+  orig: 450, 400
+  offset: 62, 22
+  index: -1
+effects/skillF/hua/hua_30
+  rotate: true
+  xy: 2, 451
+  size: 340, 378
+  orig: 450, 400
+  offset: 51, 18
+  index: -1
+effects/skillF/hua/hua_32
+  rotate: true
+  xy: 387, 551
+  size: 353, 381
+  orig: 450, 400
+  offset: 44, 14
+  index: -1
+effects/skillF/hua/hua_44
+  rotate: true
+  xy: 374, 132
+  size: 308, 364
+  orig: 450, 400
+  offset: 62, 24
+  index: -1
+effects/skillF/xialuo/xialuo_11
+  rotate: true
+  xy: 770, 527
+  size: 214, 251
+  orig: 250, 300
+  offset: 7, 28
+  index: -1
+effects/skillF/xialuo/xialuo_15
+  rotate: true
+  xy: 758, 333
+  size: 192, 259
+  orig: 250, 300
+  offset: 25, 14
+  index: -1
+effects/skillF/xialuo/xialuo_7
+  rotate: false
+  xy: 796, 743
+  size: 218, 279
+  orig: 250, 300
+  offset: 5, 6
+  index: -1
+
+effects_10213_skillF3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/born/efc_a_halo0001
+  rotate: false
+  xy: 590, 766
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+effects/born/guangxian_0
+  rotate: false
+  xy: 320, 675
+  size: 298, 68
+  orig: 339, 71
+  offset: 35, 0
+  index: -1
+effects/born/xialuolizi/lizi_14
+  rotate: false
+  xy: 862, 465
+  size: 160, 278
+  orig: 250, 350
+  offset: 50, 33
+  index: -1
+effects/born/xialuolizi/lizi_16
+  rotate: false
+  xy: 866, 745
+  size: 156, 277
+  orig: 250, 350
+  offset: 45, 26
+  index: -1
+effects/born/xialuolizi/lizi_6
+  rotate: true
+  xy: 635, 321
+  size: 142, 282
+  orig: 250, 350
+  offset: 68, 59
+  index: -1
+effects/born/xialuolizi/lizi_8
+  rotate: false
+  xy: 866, 36
+  size: 151, 283
+  orig: 250, 350
+  offset: 63, 52
+  index: -1
+effects/skillF/dimian/dimian_1
+  rotate: false
+  xy: 620, 672
+  size: 240, 71
+  orig: 415, 155
+  offset: 95, 42
+  index: -1
+effects/skillF/hit/hit_6
+  rotate: true
+  xy: 320, 747
+  size: 275, 268
+  orig: 342, 333
+  offset: 21, 35
+  index: -1
+effects/skillF/hit/hit_8
+  rotate: true
+  xy: 317, 16
+  size: 298, 277
+  orig: 342, 333
+  offset: 5, 35
+  index: -1
+effects/skillF/hua/hua_12
+  rotate: false
+  xy: 2, 30
+  size: 313, 284
+  orig: 450, 400
+  offset: 66, 23
+  index: -1
+effects/skillF/hua/hua_14
+  rotate: false
+  xy: 319, 316
+  size: 314, 346
+  orig: 450, 400
+  offset: 65, 22
+  index: -1
+effects/skillF/hua/hua_18
+  rotate: false
+  xy: 2, 316
+  size: 315, 346
+  orig: 450, 400
+  offset: 64, 20
+  index: -1
+effects/skillF/hua/hua_2
+  rotate: true
+  xy: 635, 467
+  size: 203, 191
+  orig: 450, 400
+  offset: 128, 114
+  index: -1
+effects/skillF/hua/hua_22
+  rotate: false
+  xy: 2, 664
+  size: 316, 358
+  orig: 450, 400
+  offset: 63, 22
+  index: -1
+effects/skillF/hua/hua_6
+  rotate: true
+  xy: 596, 7
+  size: 307, 268
+  orig: 450, 400
+  offset: 72, 51
+  index: -1
+
+effects_10213_skillF4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/born/xialuolizi/lizi_12
+  rotate: false
+  xy: 322, 463
+  size: 166, 283
+  orig: 250, 350
+  offset: 50, 35
+  index: -1
+effects/born/xialuolizi/lizi_18
+  rotate: false
+  xy: 490, 471
+  size: 143, 275
+  orig: 250, 350
+  offset: 46, 19
+  index: -1
+effects/born/xialuolizi/lizi_2
+  rotate: true
+  xy: 322, 366
+  size: 95, 270
+  orig: 250, 350
+  offset: 88, 73
+  index: -1
+effects/born/xialuolizi/lizi_20
+  rotate: false
+  xy: 800, 530
+  size: 132, 272
+  orig: 250, 350
+  offset: 51, 12
+  index: -1
+effects/skillF/dimian/dimian_3
+  rotate: true
+  xy: 217, 397
+  size: 345, 103
+  orig: 415, 155
+  offset: 29, 22
+  index: -1
+effects/skillF/hit/hit_0
+  rotate: true
+  xy: 213, 35
+  size: 167, 138
+  orig: 342, 333
+  offset: 73, 97
+  index: -1
+effects/skillF/hit/hit_16
+  rotate: false
+  xy: 319, 224
+  size: 137, 140
+  orig: 342, 333
+  offset: 97, 102
+  index: -1
+effects/skillF/hit/hit_2
+  rotate: true
+  xy: 2, 2
+  size: 216, 209
+  orig: 342, 333
+  offset: 50, 59
+  index: -1
+effects/skillF/hit/hit_4
+  rotate: false
+  xy: 285, 748
+  size: 241, 243
+  orig: 342, 333
+  offset: 36, 44
+  index: -1
+effects/skillF/hua/hua_4
+  rotate: false
+  xy: 2, 744
+  size: 281, 247
+  orig: 450, 400
+  offset: 85, 75
+  index: -1
+effects/skillF/xialuo/xialuo_1
+  rotate: true
+  xy: 217, 204
+  size: 191, 100
+  orig: 250, 300
+  offset: 21, 185
+  index: -1
+effects/skillF/xialuo/xialuo_13
+  rotate: true
+  xy: 528, 785
+  size: 206, 248
+  orig: 250, 300
+  offset: 14, 28
+  index: -1
+effects/skillF/xialuo/xialuo_17
+  rotate: false
+  xy: 635, 509
+  size: 163, 274
+  orig: 250, 300
+  offset: 39, 1
+  index: -1
+effects/skillF/xialuo/xialuo_3
+  rotate: false
+  xy: 778, 804
+  size: 206, 187
+  orig: 250, 300
+  offset: 13, 98
+  index: -1
+effects/skillF/xialuo/xialuo_5
+  rotate: false
+  xy: 2, 220
+  size: 213, 248
+  orig: 250, 300
+  offset: 11, 37
+  index: -1
+effects/skillF/xialuo/xialuo_9
+  rotate: false
+  xy: 2, 470
+  size: 213, 272
+  orig: 250, 300
+  offset: 11, 9
+  index: -1

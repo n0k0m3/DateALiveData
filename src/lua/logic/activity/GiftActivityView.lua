@@ -154,6 +154,11 @@ function GiftActivityView:updateGiftItem(item,data)
         Label_tips:setFontColor( isCanBuy and ccc3(226,182,190) or ccc3(226,182,190))
         Label_leftTime:setFontColor( isCanBuy and ccc3(226,182,190) or ccc3(226,182,190))
         Label_price:setColor( isCanBuy and ccc3(210,94,95) or ccc3(210,94,95))
+
+        --万由里颜色修改
+         Label_buyCount:setFontColor( isCanBuy and ccc3(255,255,255) or ccc3(255,255,255))
+        Label_countdown:setFontColor( isCanBuy and ccc3(255,255,255) or ccc3(255,255,255))
+
         Button_buy:setGrayEnabled(not isCanBuy)
         Button_buy:setTouchEnabled(isCanBuy)
     elseif self.activityInfo_.extendData.activityShowType == EC_ActivityType2.FANSHI_ASSIST then

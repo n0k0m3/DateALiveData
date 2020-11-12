@@ -1,0 +1,97 @@
+
+effects_10213_hit.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/born/glow
+  rotate: false
+  xy: 603, 403
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+images/effects/skillA/yuan_0
+  rotate: false
+  xy: 668, 505
+  size: 240, 238
+  orig: 256, 256
+  offset: 8, 9
+  index: -1
+images/effects/skillB/hit/bao/bao_11
+  rotate: false
+  xy: 650, 745
+  size: 284, 276
+  orig: 330, 307
+  offset: 26, 0
+  index: -1
+images/effects/skillB/hit/bao/bao_13
+  rotate: false
+  xy: 334, 730
+  size: 314, 291
+  orig: 330, 307
+  offset: 10, 0
+  index: -1
+images/effects/skillB/hit/bao/bao_15
+  rotate: false
+  xy: 2, 717
+  size: 330, 304
+  orig: 330, 307
+  offset: 0, 0
+  index: -1
+images/effects/skillB/hit/bao/bao_17
+  rotate: false
+  xy: 2, 408
+  size: 321, 307
+  orig: 330, 307
+  offset: 9, 0
+  index: -1
+images/effects/skillB/hit/bao/bao_19
+  rotate: false
+  xy: 2, 122
+  size: 294, 284
+  orig: 330, 307
+  offset: 30, 4
+  index: -1
+images/effects/skillB/hit/bao/bao_21
+  rotate: false
+  xy: 325, 344
+  size: 276, 257
+  orig: 330, 307
+  offset: 49, 28
+  index: -1
+images/effects/skillB/hit/xian/xian_0
+  rotate: false
+  xy: 334, 603
+  size: 332, 125
+  orig: 451, 159
+  offset: 55, 19
+  index: -1
+images/effects/skillB/hit/xian/xian_1
+  rotate: false
+  xy: 2, 2
+  size: 367, 118
+  orig: 451, 159
+  offset: 38, 23
+  index: -1
+images/effects/skillB/hit/xian/xian_3
+  rotate: false
+  xy: 298, 229
+  size: 416, 113
+  orig: 451, 159
+  offset: 0, 25
+  index: -1
+images/effects/skillB/hit/xian/xian_5
+  rotate: false
+  xy: 371, 21
+  size: 427, 108
+  orig: 451, 159
+  offset: 0, 28
+  index: -1
+images/effects/skillB/hit/xian/xian_7
+  rotate: false
+  xy: 298, 131
+  size: 426, 96
+  orig: 451, 159
+  offset: 5, 34
+  index: -1

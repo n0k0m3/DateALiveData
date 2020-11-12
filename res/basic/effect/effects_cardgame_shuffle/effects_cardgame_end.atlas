@@ -1,0 +1,214 @@
+
+effects_cardgame_end.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/beimian
+  rotate: false
+  xy: 858, 205
+  size: 98, 98
+  orig: 98, 98
+  offset: 0, 0
+  index: -1
+images/heng/heng_127
+  rotate: false
+  xy: 373, 2
+  size: 586, 106
+  orig: 766, 278
+  offset: 106, 83
+  index: -1
+images/shu/shu_083
+  rotate: true
+  xy: 504, 408
+  size: 112, 489
+  orig: 290, 572
+  offset: 84, 58
+  index: -1
+images/xiaoshi1/xiaoshi_002
+  rotate: true
+  xy: 858, 305
+  size: 101, 102
+  orig: 500, 800
+  offset: 200, 349
+  index: -1
+images/xiaoshi1/xiaoshi_003
+  rotate: true
+  xy: 504, 522
+  size: 500, 508
+  orig: 500, 800
+  offset: 0, 146
+  index: -1
+images/xiaoshi1/xiaoshi_005
+  rotate: false
+  xy: 2, 379
+  size: 500, 643
+  orig: 500, 800
+  offset: 0, 79
+  index: -1
+images/xiaoshi1/xiaoshi_007
+  rotate: false
+  xy: 2, 7
+  size: 369, 370
+  orig: 500, 800
+  offset: 66, 215
+  index: -1
+images/xiaoshi1/xiaoshi_009
+  rotate: false
+  xy: 373, 110
+  size: 267, 267
+  orig: 500, 800
+  offset: 117, 267
+  index: -1
+images/xiaoshi1/xiaoshi_015
+  rotate: false
+  xy: 642, 191
+  size: 214, 215
+  orig: 500, 800
+  offset: 143, 293
+  index: -1
+
+effects_cardgame_end2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/heng/heng_124
+  rotate: true
+  xy: 330, 30
+  size: 530, 102
+  orig: 766, 278
+  offset: 135, 85
+  index: -1
+images/heng/heng_125
+  rotate: true
+  xy: 108, 52
+  size: 555, 104
+  orig: 766, 278
+  offset: 131, 84
+  index: -1
+images/heng/heng_126
+  rotate: false
+  xy: 2, 786
+  size: 569, 106
+  orig: 766, 278
+  offset: 115, 83
+  index: -1
+images/heng/heng_128
+  rotate: false
+  xy: 2, 894
+  size: 576, 106
+  orig: 766, 278
+  offset: 112, 83
+  index: -1
+images/heng/heng_129
+  rotate: true
+  xy: 2, 51
+  size: 556, 104
+  orig: 766, 278
+  offset: 124, 84
+  index: -1
+images/heng/heng_130
+  rotate: false
+  xy: 214, 562
+  size: 543, 104
+  orig: 766, 278
+  offset: 142, 84
+  index: -1
+images/heng/heng_131
+  rotate: true
+  xy: 536, 37
+  size: 523, 102
+  orig: 766, 278
+  offset: 165, 85
+  index: -1
+images/shu/shu_081
+  rotate: false
+  xy: 434, 34
+  size: 100, 526
+  orig: 290, 572
+  offset: 90, 33
+  index: -1
+images/shu/shu_082
+  rotate: false
+  xy: 754, 55
+  size: 104, 505
+  orig: 290, 572
+  offset: 88, 48
+  index: -1
+images/shu/shu_084
+  rotate: true
+  xy: 2, 668
+  size: 116, 521
+  orig: 290, 572
+  offset: 82, 26
+  index: -1
+images/shu/shu_085
+  rotate: false
+  xy: 214, 28
+  size: 114, 532
+  orig: 290, 572
+  offset: 83, 21
+  index: -1
+images/shu/shu_086
+  rotate: false
+  xy: 640, 40
+  size: 112, 520
+  orig: 290, 572
+  offset: 84, 18
+  index: -1
+images/shu/shu_087
+  rotate: false
+  xy: 860, 110
+  size: 108, 497
+  orig: 290, 572
+  offset: 86, 19
+  index: -1
+images/xiaoshi1/xiaoshi_011
+  rotate: false
+  xy: 797, 797
+  size: 203, 203
+  orig: 500, 800
+  offset: 149, 299
+  index: -1
+images/xiaoshi1/xiaoshi_013
+  rotate: false
+  xy: 797, 609
+  size: 186, 186
+  orig: 500, 800
+  offset: 157, 308
+  index: -1
+images/xiaoshi1/xiaoshi_016
+  rotate: true
+  xy: 580, 786
+  size: 214, 215
+  orig: 500, 800
+  offset: 143, 293
+  index: -1
+images/zhengmian
+  rotate: false
+  xy: 525, 686
+  size: 98, 98
+  orig: 98, 98
+  offset: 0, 0
+  index: -1
+
+effects_cardgame_end3.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/heng/heng_123
+  rotate: false
+  xy: 2, 393
+  size: 493, 102
+  orig: 766, 278
+  offset: 138, 85
+  index: -1
+images/shu/shu_088
+  rotate: true
+  xy: 2, 287
+  size: 104, 489
+  orig: 290, 572
+  offset: 88, 29
+  index: -1

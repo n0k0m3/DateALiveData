@@ -1,0 +1,215 @@
+
+effects_29002_skillC.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skillA/yan/yan_010
+  rotate: true
+  xy: 956, 908
+  size: 113, 65
+  orig: 180, 100
+  offset: 63, 11
+  index: -1
+effects/skillA/yan/yan_013
+  rotate: false
+  xy: 876, 3
+  size: 139, 84
+  orig: 180, 100
+  offset: 10, 11
+  index: -1
+effects/skillB/shifa/shifa_006
+  rotate: true
+  xy: 295, 501
+  size: 256, 87
+  orig: 256, 100
+  offset: 0, 3
+  index: -1
+effects/skillB/shifa/shifa_007
+  rotate: false
+  xy: 384, 593
+  size: 256, 82
+  orig: 256, 100
+  offset: 0, 7
+  index: -1
+effects/skillB/shifa/shifa_008
+  rotate: false
+  xy: 384, 504
+  size: 253, 87
+  orig: 256, 100
+  offset: 3, 5
+  index: -1
+effects/skillB/shifa/shifa_009
+  rotate: false
+  xy: 651, 2
+  size: 223, 85
+  orig: 256, 100
+  offset: 33, 7
+  index: -1
+effects/skillB/shifa/shifa_010
+  rotate: true
+  xy: 947, 131
+  size: 200, 73
+  orig: 256, 100
+  offset: 34, 19
+  index: -1
+effects/skillC/boom/boom_007
+  rotate: false
+  xy: 956, 767
+  size: 63, 139
+  orig: 360, 330
+  offset: 148, 28
+  index: -1
+effects/skillC/boom/boom_008
+  rotate: true
+  xy: 708, 739
+  size: 282, 246
+  orig: 360, 330
+  offset: 26, 7
+  index: -1
+effects/skillC/boom/boom_010
+  rotate: true
+  xy: 403, 677
+  size: 344, 303
+  orig: 360, 330
+  offset: 4, 7
+  index: -1
+effects/skillC/boom/boom_012
+  rotate: true
+  xy: 2, 415
+  size: 342, 291
+  orig: 360, 330
+  offset: 6, 11
+  index: -1
+effects/skillC/boom/boom_014
+  rotate: true
+  xy: 690, 333
+  size: 342, 274
+  orig: 360, 330
+  offset: 5, 15
+  index: -1
+effects/skillC/boom/boom_016
+  rotate: false
+  xy: 690, 89
+  size: 255, 242
+  orig: 360, 330
+  offset: 41, 33
+  index: -1
+effects/skillC/yanda/yanda_006
+  rotate: false
+  xy: 295, 233
+  size: 393, 266
+  orig: 400, 270
+  offset: 1, 3
+  index: -1
+effects/skillC/yanda/yanda_008
+  rotate: false
+  xy: 2, 759
+  size: 399, 262
+  orig: 400, 270
+  offset: 0, 5
+  index: -1
+effects/skillC/yanda/yanda_010
+  rotate: true
+  xy: 2, 15
+  size: 398, 256
+  orig: 400, 270
+  offset: 0, 5
+  index: -1
+effects/skillC/yanda/yanda_012
+  rotate: false
+  xy: 260, 3
+  size: 389, 228
+  orig: 400, 270
+  offset: 6, 7
+  index: -1
+
+effects_29002_skillC2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/glow
+  rotate: false
+  xy: 377, 8
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+effects/skillA/yan/yan_011
+  rotate: false
+  xy: 530, 674
+  size: 134, 79
+  orig: 180, 100
+  offset: 36, 11
+  index: -1
+effects/skillA/yan/yan_012
+  rotate: false
+  xy: 235, 25
+  size: 140, 83
+  orig: 180, 100
+  offset: 14, 11
+  index: -1
+effects/skillA/yan/yan_014
+  rotate: false
+  xy: 391, 669
+  size: 137, 84
+  orig: 180, 100
+  offset: 10, 11
+  index: -1
+effects/skillA/yan/yan_015
+  rotate: false
+  xy: 380, 583
+  size: 117, 84
+  orig: 180, 100
+  offset: 9, 11
+  index: -1
+effects/skillB/shifa/shifa_011
+  rotate: false
+  xy: 2, 25
+  size: 185, 71
+  orig: 256, 100
+  offset: 42, 21
+  index: -1
+effects/skillC/yanda/yanda_000
+  rotate: false
+  xy: 391, 755
+  size: 368, 251
+  orig: 400, 270
+  offset: 21, 3
+  index: -1
+effects/skillC/yanda/yanda_002
+  rotate: false
+  xy: 2, 483
+  size: 376, 258
+  orig: 400, 270
+  offset: 13, 3
+  index: -1
+effects/skillC/yanda/yanda_004
+  rotate: false
+  xy: 2, 743
+  size: 387, 263
+  orig: 400, 270
+  offset: 5, 3
+  index: -1
+effects/skillC/yanda/yanda_014
+  rotate: true
+  xy: 2, 98
+  size: 383, 231
+  orig: 400, 270
+  offset: 10, 7
+  index: -1
+effects/skillC/yanda/yanda_016
+  rotate: true
+  xy: 235, 110
+  size: 371, 235
+  orig: 400, 270
+  offset: 16, 8
+  index: -1
+effects/skillC/yanda/yanda_018
+  rotate: true
+  xy: 761, 642
+  size: 364, 245
+  orig: 400, 270
+  offset: 24, 5
+  index: -1

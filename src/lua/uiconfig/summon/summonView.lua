@@ -1417,7 +1417,6 @@ local t =
 								relativeToName = "Panel_root",
 							},
 							UItype = "Button",
-							visible = "False",
 							width = "77",
 							ZOrder = "1",
 							components = 
@@ -1481,7 +1480,6 @@ local t =
 									name = "Label_noob_cnt",
 									nTextAlign = "1",
 									nTextHAlign = "1",
-									rotation = "15",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -1491,8 +1489,8 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -1,
-										PositionY = 242,
+										PositionX = 91,
+										PositionY = 144,
 									},
 									width = "71",
 									ZOrder = "1",

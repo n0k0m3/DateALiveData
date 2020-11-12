@@ -1,0 +1,430 @@
+
+effects_10213_skillA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillA/cuanci/cuanci_81
+  rotate: false
+  xy: 301, 12
+  size: 515, 67
+  orig: 522, 100
+  offset: 7, 6
+  index: -1
+images/effects/skillA/shifa/shifa_10
+  rotate: false
+  xy: 2, 5
+  size: 297, 142
+  orig: 339, 173
+  offset: 5, 12
+  index: -1
+images/effects/skillA/shifa/shifa_12
+  rotate: true
+  xy: 859, 158
+  size: 317, 163
+  orig: 339, 173
+  offset: 4, 8
+  index: -1
+images/effects/skillA/shifa2/shifa2_39
+  rotate: true
+  xy: 880, 767
+  size: 255, 130
+  orig: 300, 300
+  offset: 38, 36
+  index: -1
+images/effects/skillA/shifa2/shifa2_45
+  rotate: true
+  xy: 328, 412
+  size: 279, 214
+  orig: 300, 300
+  offset: 16, 9
+  index: -1
+images/effects/skillA/xuli/xuli_55
+  rotate: false
+  xy: 2, 693
+  size: 545, 329
+  orig: 558, 329
+  offset: 0, 0
+  index: -1
+images/effects/skillA/xuli/xuli_59
+  rotate: false
+  xy: 328, 81
+  size: 529, 329
+  orig: 558, 329
+  offset: 0, 0
+  index: -1
+images/effects/skillA/xuli/xuli_61
+  rotate: true
+  xy: 549, 477
+  size: 545, 329
+  orig: 558, 329
+  offset: 0, 0
+  index: -1
+images/effects/skillA/xuli/xuli_65
+  rotate: true
+  xy: 2, 149
+  size: 542, 324
+  orig: 558, 329
+  offset: 0, 0
+  index: -1
+images/effects/skillA/zidan/zidan_0
+  rotate: false
+  xy: 544, 415
+  size: 236, 60
+  orig: 248, 66
+  offset: 5, 4
+  index: -1
+images/effects/skillA/zidan/zidan_2
+  rotate: true
+  xy: 940, 530
+  size: 235, 60
+  orig: 248, 66
+  offset: 7, 4
+  index: -1
+images/effects/skillA/zidan/zidan_8
+  rotate: false
+  xy: 818, 19
+  size: 200, 60
+  orig: 248, 66
+  offset: 40, 4
+  index: -1
+images/effects/skillA/zidan2/zidan2_8
+  rotate: true
+  xy: 880, 492
+  size: 273, 58
+  orig: 350, 100
+  offset: 51, 20
+  index: -1
+
+effects_10213_skillA2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/born/glow
+  rotate: false
+  xy: 850, 400
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+images/effects/skillA/cuanci/cuanci_77
+  rotate: true
+  xy: 868, 502
+  size: 519, 100
+  orig: 522, 100
+  offset: 3, 0
+  index: -1
+images/effects/skillA/cuanci/cuanci_83
+  rotate: false
+  xy: 2, 2
+  size: 362, 55
+  orig: 522, 100
+  offset: 55, 18
+  index: -1
+images/effects/skillA/cuanci/cuanci_85
+  rotate: true
+  xy: 970, 670
+  size: 351, 43
+  orig: 522, 100
+  offset: 62, 28
+  index: -1
+images/effects/skillA/cuanci/cuanci_86
+  rotate: false
+  xy: 366, 14
+  size: 345, 40
+  orig: 522, 100
+  offset: 67, 30
+  index: -1
+images/effects/skillA/fashe/fashe_1
+  rotate: true
+  xy: 504, 56
+  size: 292, 299
+  orig: 365, 306
+  offset: 33, 0
+  index: -1
+images/effects/skillA/fashe/fashe_3
+  rotate: false
+  xy: 520, 350
+  size: 328, 301
+  orig: 365, 306
+  offset: 3, 0
+  index: -1
+images/effects/skillA/fashe/fashe_5
+  rotate: false
+  xy: 531, 715
+  size: 335, 306
+  orig: 365, 306
+  offset: 0, 0
+  index: -1
+images/effects/skillA/fashe/fashe_9
+  rotate: false
+  xy: 805, 42
+  size: 208, 306
+  orig: 365, 306
+  offset: 68, 0
+  index: -1
+images/effects/skillA/xuli/xuli_57
+  rotate: false
+  xy: 2, 382
+  size: 516, 316
+  orig: 558, 329
+  offset: 13, 13
+  index: -1
+images/effects/skillA/xuli/xuli_63
+  rotate: false
+  xy: 2, 59
+  size: 500, 321
+  orig: 558, 329
+  offset: 0, 0
+  index: -1
+images/effects/skillA/xuli/xuli_67
+  rotate: false
+  xy: 2, 700
+  size: 527, 321
+  orig: 558, 329
+  offset: 0, 3
+  index: -1
+images/effects/skillA/zidan2/zidan2_4
+  rotate: false
+  xy: 531, 653
+  size: 332, 60
+  orig: 350, 100
+  offset: 15, 20
+  index: -1
+images/effects/skillA/zidan2/zidan2_9
+  rotate: true
+  xy: 970, 419
+  size: 249, 51
+  orig: 350, 100
+  offset: 51, 23
+  index: -1
+
+effects_10213_skillA3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillA/cuanci/cuanci_79
+  rotate: false
+  xy: 2, 934
+  size: 519, 88
+  orig: 522, 100
+  offset: 3, 0
+  index: -1
+images/effects/skillA/fashe/fashe_0
+  rotate: false
+  xy: 284, 336
+  size: 243, 294
+  orig: 365, 306
+  offset: 73, 0
+  index: -1
+images/effects/skillA/fashe/fashe_7
+  rotate: false
+  xy: 2, 637
+  size: 290, 295
+  orig: 365, 306
+  offset: 0, 0
+  index: -1
+images/effects/skillA/hit/hit_0
+  rotate: false
+  xy: 2, 354
+  size: 280, 281
+  orig: 300, 300
+  offset: 9, 11
+  index: -1
+images/effects/skillA/hit/hit_1
+  rotate: false
+  xy: 2, 71
+  size: 280, 281
+  orig: 300, 300
+  offset: 9, 11
+  index: -1
+images/effects/skillA/hit/hit_3
+  rotate: false
+  xy: 284, 54
+  size: 275, 280
+  orig: 300, 300
+  offset: 11, 11
+  index: -1
+images/effects/skillA/hit/hit_7
+  rotate: true
+  xy: 770, 491
+  size: 261, 250
+  orig: 300, 300
+  offset: 9, 26
+  index: -1
+images/effects/skillA/shifa/shifa_14
+  rotate: false
+  xy: 561, 16
+  size: 313, 165
+  orig: 339, 173
+  offset: 10, 8
+  index: -1
+images/effects/skillA/shifa2/shifa2_41
+  rotate: true
+  xy: 818, 754
+  size: 268, 203
+  orig: 300, 300
+  offset: 23, 13
+  index: -1
+images/effects/skillA/shifa2/shifa2_47
+  rotate: false
+  xy: 527, 765
+  size: 289, 257
+  orig: 300, 300
+  offset: 11, 14
+  index: -1
+images/effects/skillA/shifa2/shifa2_49
+  rotate: true
+  xy: 529, 472
+  size: 291, 239
+  orig: 300, 300
+  offset: 9, 34
+  index: -1
+images/effects/skillA/shifa2/shifa2_51
+  rotate: true
+  xy: 294, 632
+  size: 300, 231
+  orig: 300, 300
+  offset: 0, 46
+  index: -1
+images/effects/skillA/shifa2/shifa2_53
+  rotate: true
+  xy: 561, 183
+  size: 287, 221
+  orig: 300, 300
+  offset: 0, 49
+  index: -1
+images/effects/skillA/shifa2/shifa2_57
+  rotate: true
+  xy: 876, 6
+  size: 241, 116
+  orig: 300, 300
+  offset: 0, 80
+  index: -1
+images/effects/skillA/yuan_0
+  rotate: true
+  xy: 784, 249
+  size: 240, 238
+  orig: 256, 256
+  offset: 8, 9
+  index: -1
+images/effects/skillA/zidan/zidan_4
+  rotate: false
+  xy: 2, 9
+  size: 213, 60
+  orig: 248, 66
+  offset: 28, 4
+  index: -1
+
+effects_10213_skillA4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillA/hit/hit_11
+  rotate: false
+  xy: 823, 831
+  size: 191, 183
+  orig: 300, 300
+  offset: 50, 64
+  index: -1
+images/effects/skillA/hit/hit_5
+  rotate: false
+  xy: 2, 765
+  size: 249, 249
+  orig: 300, 300
+  offset: 18, 24
+  index: -1
+images/effects/skillA/hit/hit_9
+  rotate: false
+  xy: 437, 559
+  size: 227, 228
+  orig: 300, 300
+  offset: 30, 38
+  index: -1
+images/effects/skillA/shifa/shifa_16
+  rotate: true
+  xy: 2, 167
+  size: 305, 164
+  orig: 339, 173
+  offset: 16, 9
+  index: -1
+images/effects/skillA/shifa/shifa_18
+  rotate: false
+  xy: 525, 850
+  size: 296, 164
+  orig: 339, 173
+  offset: 23, 4
+  index: -1
+images/effects/skillA/shifa/shifa_20
+  rotate: true
+  xy: 209, 503
+  size: 260, 103
+  orig: 339, 173
+  offset: 37, 9
+  index: -1
+images/effects/skillA/shifa2/shifa2_43
+  rotate: false
+  xy: 253, 805
+  size: 270, 209
+  orig: 300, 300
+  offset: 24, 14
+  index: -1
+images/effects/skillA/shifa2/shifa2_55
+  rotate: true
+  xy: 2, 474
+  size: 289, 205
+  orig: 300, 300
+  offset: 0, 66
+  index: -1
+images/effects/skillA/zidan/zidan_6
+  rotate: false
+  xy: 437, 497
+  size: 210, 60
+  orig: 248, 66
+  offset: 30, 4
+  index: -1
+images/effects/skillA/zidan2/zidan2_1
+  rotate: true
+  xy: 168, 142
+  size: 330, 60
+  orig: 350, 100
+  offset: 15, 20
+  index: -1
+images/effects/skillA/zidan2/zidan2_2
+  rotate: true
+  xy: 230, 170
+  size: 331, 60
+  orig: 350, 100
+  offset: 15, 20
+  index: -1
+images/effects/skillA/zidan2/zidan2_3
+  rotate: true
+  xy: 292, 170
+  size: 331, 60
+  orig: 350, 100
+  offset: 15, 20
+  index: -1
+images/effects/skillA/zidan2/zidan2_5
+  rotate: true
+  xy: 375, 475
+  size: 328, 60
+  orig: 350, 100
+  offset: 18, 20
+  index: -1
+images/effects/skillA/zidan2/zidan2_6
+  rotate: true
+  xy: 314, 505
+  size: 298, 59
+  orig: 350, 100
+  offset: 47, 20
+  index: -1
+images/effects/skillA/zidan2/zidan2_7
+  rotate: false
+  xy: 525, 789
+  size: 296, 59
+  orig: 350, 100
+  offset: 48, 20
+  index: -1

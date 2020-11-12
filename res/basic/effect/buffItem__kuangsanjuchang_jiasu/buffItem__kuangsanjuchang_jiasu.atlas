@@ -1,0 +1,251 @@
+
+buffItem__kuangsanjuchang_jiasu.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/fanyu
+  rotate: false
+  xy: 2, 459
+  size: 127, 127
+  orig: 167, 150
+  offset: 22, 18
+  index: -1
+images/gongji
+  rotate: false
+  xy: 2, 722
+  size: 136, 136
+  orig: 171, 166
+  offset: 15, 15
+  index: -1
+images/jiaxue
+  rotate: false
+  xy: 2, 860
+  size: 140, 140
+  orig: 165, 165
+  offset: 12, 13
+  index: -1
+images/nenglian
+  rotate: false
+  xy: 408, 874
+  size: 126, 126
+  orig: 169, 164
+  offset: 20, 20
+  index: -1
+images/shanbi
+  rotate: false
+  xy: 2, 588
+  size: 132, 132
+  orig: 176, 176
+  offset: 22, 20
+  index: -1
+images/shangsheng/shangsheng0001
+  rotate: true
+  xy: 347, 822
+  size: 41, 56
+  orig: 151, 197
+  offset: 14, 25
+  index: -1
+images/shangsheng/shangsheng0003
+  rotate: true
+  xy: 109, 69
+  size: 120, 108
+  orig: 151, 197
+  offset: 13, 25
+  index: -1
+images/shangsheng/shangsheng0005
+  rotate: false
+  xy: 408, 775
+  size: 123, 97
+  orig: 151, 197
+  offset: 13, 26
+  index: -1
+images/shangsheng/shangsheng0007
+  rotate: true
+  xy: 123, 334
+  size: 123, 110
+  orig: 151, 197
+  offset: 14, 27
+  index: -1
+images/shangsheng/shangsheng0009
+  rotate: false
+  xy: 536, 884
+  size: 132, 116
+  orig: 151, 197
+  offset: 3, 28
+  index: -1
+images/shangsheng/shangsheng0011
+  rotate: true
+  xy: 2, 56
+  size: 133, 105
+  orig: 151, 197
+  offset: 2, 33
+  index: -1
+images/shangsheng/shangsheng0013
+  rotate: false
+  xy: 804, 795
+  size: 131, 97
+  orig: 151, 197
+  offset: 3, 36
+  index: -1
+images/shangsheng/shangsheng0015
+  rotate: false
+  xy: 144, 865
+  size: 131, 135
+  orig: 151, 197
+  offset: 3, 13
+  index: -1
+images/shangsheng/shangsheng0017
+  rotate: false
+  xy: 277, 865
+  size: 129, 135
+  orig: 151, 197
+  offset: 4, 12
+  index: -1
+images/shangsheng/shangsheng0019
+  rotate: true
+  xy: 804, 894
+  size: 106, 131
+  orig: 151, 197
+  offset: 24, 16
+  index: -1
+images/shangsheng/shangsheng0021
+  rotate: true
+  xy: 536, 773
+  size: 109, 125
+  orig: 151, 197
+  offset: 24, 23
+  index: -1
+images/shangsheng/shangsheng0023
+  rotate: false
+  xy: 937, 881
+  size: 55, 119
+  orig: 151, 197
+  offset: 74, 27
+  index: -1
+images/shangsheng/shangsheng0025
+  rotate: true
+  xy: 2, 191
+  size: 131, 113
+  orig: 151, 197
+  offset: 0, 27
+  index: -1
+images/shangsheng/shangsheng0027
+  rotate: false
+  xy: 670, 892
+  size: 132, 108
+  orig: 151, 197
+  offset: 0, 32
+  index: -1
+images/shangsheng/shangsheng0029
+  rotate: true
+  xy: 2, 324
+  size: 133, 119
+  orig: 151, 197
+  offset: 0, 25
+  index: -1
+images/xuanzhuan/xuanzhuang0001
+  rotate: false
+  xy: 2, 2
+  size: 100, 52
+  orig: 176, 115
+  offset: 36, 29
+  index: -1
+images/xuanzhuan/xuanzhuang0003
+  rotate: true
+  xy: 937, 779
+  size: 100, 52
+  orig: 176, 115
+  offset: 36, 29
+  index: -1
+images/xuanzhuan/xuanzhuang0005
+  rotate: false
+  xy: 109, 16
+  size: 100, 51
+  orig: 176, 115
+  offset: 36, 30
+  index: -1
+images/xuanzhuan/xuanzhuang0007
+  rotate: false
+  xy: 123, 280
+  size: 100, 52
+  orig: 176, 115
+  offset: 36, 29
+  index: -1
+images/xuanzhuan/xuanzhuang0009
+  rotate: false
+  xy: 117, 226
+  size: 100, 52
+  orig: 176, 115
+  offset: 36, 29
+  index: -1
+images/xuanzhuan/xuanzhuang0011
+  rotate: false
+  xy: 670, 838
+  size: 100, 52
+  orig: 176, 115
+  offset: 36, 29
+  index: -1
+images/xuanzhuan/xuanzhuang0013
+  rotate: false
+  xy: 246, 812
+  size: 99, 51
+  orig: 176, 115
+  offset: 37, 30
+  index: -1
+images/xuanzhuan/xuanzhuang0015
+  rotate: false
+  xy: 663, 784
+  size: 100, 52
+  orig: 176, 115
+  offset: 36, 29
+  index: -1
+images/xuanzhuan/xuanzhuang0017
+  rotate: false
+  xy: 663, 730
+  size: 100, 52
+  orig: 176, 115
+  offset: 36, 29
+  index: -1
+images/xuanzhuan/xuanzhuang0019
+  rotate: false
+  xy: 765, 741
+  size: 100, 52
+  orig: 176, 115
+  offset: 36, 29
+  index: -1
+images/xuanzhuan/xuanzhuang0021
+  rotate: false
+  xy: 765, 687
+  size: 100, 52
+  orig: 176, 115
+  offset: 36, 29
+  index: -1
+images/xuanzhuan/xuanzhuang0023
+  rotate: true
+  xy: 867, 693
+  size: 100, 52
+  orig: 176, 115
+  offset: 36, 29
+  index: -1
+images/xuanzhuan/xuanzhuang0025
+  rotate: true
+  xy: 921, 677
+  size: 100, 52
+  orig: 176, 115
+  offset: 36, 29
+  index: -1
+images/xuanzhuan/xuanzhuang0027
+  rotate: true
+  xy: 131, 486
+  size: 100, 51
+  orig: 176, 115
+  offset: 36, 30
+  index: -1
+images/xuanzhuan/xuanzhuang0029
+  rotate: false
+  xy: 144, 811
+  size: 100, 52
+  orig: 176, 115
+  offset: 36, 29
+  index: -1

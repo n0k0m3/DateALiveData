@@ -221,7 +221,7 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -372,
+										PositionX = -356,
 										PositionY = 2,
 									},
 									width = "138",
@@ -274,7 +274,7 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 510,
+								PositionX = 511,
 								PositionY = 39,
 							},
 							width = "142",
@@ -431,7 +431,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = 217,
+												PositionY = 212,
 											},
 											width = "243",
 											ZOrder = "1",
@@ -476,7 +476,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = 179,
+												PositionY = 155,
 											},
 											width = "199",
 											ZOrder = "1",
@@ -670,7 +670,7 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = 131,
-												PositionY = 183,
+												PositionY = 178,
 											},
 											width = "131",
 											ZOrder = "1",
@@ -996,7 +996,7 @@ local t =
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
-											FontColor = "#FFA2A4C8",
+											FontColor = "#FFD25E5F",
 											fontName = "font/MFLiHei_Noncommercial.ttf",
 											fontShadow = 
 											{

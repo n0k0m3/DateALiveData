@@ -1,0 +1,348 @@
+
+effects_29001_skillB.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skillB/baoci/baoci_002
+  rotate: true
+  xy: 700, 136
+  size: 243, 222
+  orig: 280, 280
+  offset: 0, 10
+  index: -1
+effects/skillB/dao1/dao1_047
+  rotate: true
+  xy: 866, 649
+  size: 373, 152
+  orig: 430, 220
+  offset: 57, 64
+  index: -1
+effects/skillB/dao1/dao1_048
+  rotate: false
+  xy: 2, 809
+  size: 430, 213
+  orig: 430, 220
+  offset: 0, 0
+  index: -1
+effects/skillB/dao1/dao1_050
+  rotate: false
+  xy: 434, 832
+  size: 430, 190
+  orig: 430, 220
+  offset: 0, 2
+  index: -1
+effects/skillB/dao1/dao1_052
+  rotate: false
+  xy: 434, 659
+  size: 414, 171
+  orig: 430, 220
+  offset: 0, 16
+  index: -1
+effects/skillB/dao1/dao1_055
+  rotate: false
+  xy: 700, 503
+  size: 316, 144
+  orig: 430, 220
+  offset: 47, 43
+  index: -1
+effects/skillB/daofei/daofei_000
+  rotate: false
+  xy: 2, 280
+  size: 347, 262
+  orig: 350, 280
+  offset: 0, 3
+  index: -1
+effects/skillB/daofei/daofei_002
+  rotate: false
+  xy: 2, 544
+  size: 347, 263
+  orig: 350, 280
+  offset: 0, 2
+  index: -1
+effects/skillB/daofei/daofei_004
+  rotate: false
+  xy: 351, 394
+  size: 347, 263
+  orig: 350, 280
+  offset: 0, 2
+  index: -1
+effects/skillB/daofei/daofei_006
+  rotate: false
+  xy: 351, 130
+  size: 347, 262
+  orig: 350, 280
+  offset: 0, 3
+  index: -1
+effects/skillB/daofei/daofei_008
+  rotate: false
+  xy: 2, 17
+  size: 347, 261
+  orig: 350, 280
+  offset: 0, 4
+  index: -1
+effects/skillB/huo/huo_000
+  rotate: true
+  xy: 924, 179
+  size: 200, 98
+  orig: 200, 100
+  offset: 0, 2
+  index: -1
+effects/tongyong/chuan/chuan_004
+  rotate: false
+  xy: 351, 5
+  size: 335, 123
+  orig: 350, 140
+  offset: 15, 6
+  index: -1
+effects/tongyong/chuan/chuan_006
+  rotate: false
+  xy: 700, 381
+  size: 315, 120
+  orig: 350, 140
+  offset: 35, 9
+  index: -1
+effects/tongyong/yan/yan_053
+  rotate: true
+  xy: 924, 20
+  size: 157, 94
+  orig: 200, 100
+  offset: 11, 1
+  index: -1
+effects/tongyong/yan2/yan2_000
+  rotate: true
+  xy: 351, 690
+  size: 117, 71
+  orig: 200, 100
+  offset: 75, 5
+  index: -1
+effects/tongyong/yan2/yan2_004
+  rotate: false
+  xy: 781, 44
+  size: 140, 90
+  orig: 200, 100
+  offset: 22, 5
+  index: -1
+effects/tongyong/yan2/yan2_006
+  rotate: true
+  xy: 688, 6
+  size: 122, 91
+  orig: 200, 100
+  offset: 21, 5
+  index: -1
+
+effects_29001_skillB2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/glow
+  rotate: false
+  xy: 551, 167
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+effects/skillB/baoci/baoci_000
+  rotate: false
+  xy: 653, 295
+  size: 194, 177
+  orig: 280, 280
+  offset: 0, 25
+  index: -1
+effects/skillB/baoci/baoci_001
+  rotate: false
+  xy: 264, 471
+  size: 225, 209
+  orig: 280, 280
+  offset: 0, 15
+  index: -1
+effects/skillB/baoci/baoci_004
+  rotate: false
+  xy: 2, 761
+  size: 260, 261
+  orig: 280, 280
+  offset: 0, 9
+  index: -1
+effects/skillB/baoci/baoci_006
+  rotate: false
+  xy: 264, 682
+  size: 226, 209
+  orig: 280, 280
+  offset: 29, 20
+  index: -1
+effects/skillB/dao1/dao1_054
+  rotate: true
+  xy: 2, 416
+  size: 343, 149
+  orig: 430, 220
+  offset: 40, 39
+  index: -1
+effects/skillB/huo/huo_002
+  rotate: true
+  xy: 551, 269
+  size: 200, 100
+  orig: 200, 100
+  offset: 0, 0
+  index: -1
+effects/skillB/huo/huo_004
+  rotate: false
+  xy: 653, 193
+  size: 200, 100
+  orig: 200, 100
+  offset: 0, 0
+  index: -1
+effects/skillB/huo/huo_006
+  rotate: false
+  xy: 653, 92
+  size: 200, 99
+  orig: 200, 100
+  offset: 0, 1
+  index: -1
+effects/skillB/huo/huo_008
+  rotate: false
+  xy: 333, 80
+  size: 200, 100
+  orig: 200, 100
+  offset: 0, 0
+  index: -1
+effects/skillB/yujin/yujin_000
+  rotate: false
+  xy: 333, 182
+  size: 107, 287
+  orig: 109, 300
+  offset: 0, 8
+  index: -1
+effects/skillB/yujin/yujin_002
+  rotate: false
+  xy: 113, 121
+  size: 108, 293
+  orig: 109, 300
+  offset: 0, 2
+  index: -1
+effects/skillB/yujin/yujin_004
+  rotate: false
+  xy: 2, 120
+  size: 109, 294
+  orig: 109, 300
+  offset: 0, 1
+  index: -1
+effects/skillB/yujin/yujin_006
+  rotate: true
+  xy: 623, 803
+  size: 108, 293
+  orig: 109, 300
+  offset: 0, 2
+  index: -1
+effects/skillB/yujin/yujin_008
+  rotate: false
+  xy: 442, 182
+  size: 107, 287
+  orig: 109, 300
+  offset: 0, 8
+  index: -1
+effects/skillB/yujin/yujin_010
+  rotate: true
+  xy: 623, 693
+  size: 108, 293
+  orig: 109, 300
+  offset: 0, 2
+  index: -1
+effects/skillB/yujin/yujin_012
+  rotate: false
+  xy: 153, 465
+  size: 109, 294
+  orig: 109, 300
+  offset: 0, 1
+  index: -1
+effects/skillB/yujin/yujin_014
+  rotate: true
+  xy: 623, 583
+  size: 108, 293
+  orig: 109, 300
+  offset: 0, 2
+  index: -1
+effects/skillB/yujin/yujin_016
+  rotate: true
+  xy: 584, 474
+  size: 107, 287
+  orig: 109, 300
+  offset: 0, 8
+  index: -1
+effects/skillB/yujin/yujin_018
+  rotate: false
+  xy: 223, 170
+  size: 108, 293
+  orig: 109, 300
+  offset: 0, 2
+  index: -1
+effects/tongyong/chuan/chuan_000
+  rotate: true
+  xy: 492, 638
+  size: 253, 129
+  orig: 350, 140
+  offset: 12, 3
+  index: -1
+effects/tongyong/chuan/chuan_002
+  rotate: false
+  xy: 264, 893
+  size: 340, 129
+  orig: 350, 140
+  offset: 8, 4
+  index: -1
+effects/tongyong/chuan/chuan_008
+  rotate: false
+  xy: 606, 913
+  size: 293, 109
+  orig: 350, 140
+  offset: 57, 9
+  index: -1
+effects/tongyong/yan/yan_048
+  rotate: true
+  xy: 535, 18
+  size: 147, 90
+  orig: 200, 100
+  offset: 27, 2
+  index: -1
+effects/tongyong/yan/yan_049
+  rotate: true
+  xy: 491, 471
+  size: 165, 91
+  orig: 200, 100
+  offset: 19, 2
+  index: -1
+effects/tongyong/yan/yan_050
+  rotate: true
+  xy: 918, 854
+  size: 168, 92
+  orig: 200, 100
+  offset: 16, 1
+  index: -1
+effects/tongyong/yan/yan_051
+  rotate: true
+  xy: 855, 124
+  size: 169, 93
+  orig: 200, 100
+  offset: 20, 1
+  index: -1
+effects/tongyong/yan/yan_052
+  rotate: true
+  xy: 849, 295
+  size: 177, 93
+  orig: 200, 100
+  offset: 11, 0
+  index: -1
+effects/tongyong/yan2/yan2_001
+  rotate: false
+  xy: 627, 5
+  size: 135, 85
+  orig: 200, 100
+  offset: 48, 5
+  index: -1
+effects/tongyong/yan2/yan2_002
+  rotate: false
+  xy: 2, 2
+  size: 136, 88
+  orig: 200, 100
+  offset: 33, 5
+  index: -1

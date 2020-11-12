@@ -1,0 +1,166 @@
+
+effects_29003_1_skillE.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+R/E/buff/buff_000
+  rotate: false
+  xy: 289, 511
+  size: 279, 230
+  orig: 300, 300
+  offset: 1, 19
+  index: -1
+R/E/buff/buff_002
+  rotate: false
+  xy: 2, 498
+  size: 276, 242
+  orig: 300, 300
+  offset: 20, 8
+  index: -1
+R/E/buff/buff_004
+  rotate: false
+  xy: 555, 2
+  size: 265, 237
+  orig: 300, 300
+  offset: 30, 13
+  index: -1
+R/E/buff/buff_006
+  rotate: false
+  xy: 555, 241
+  size: 271, 249
+  orig: 300, 300
+  offset: 7, 0
+  index: -1
+R/E/buff/buff_008
+  rotate: false
+  xy: 2, 237
+  size: 273, 259
+  orig: 300, 300
+  offset: 11, 9
+  index: -1
+R/E/buff/buff_012
+  rotate: true
+  xy: 576, 767
+  size: 255, 283
+  orig: 300, 300
+  offset: 25, 0
+  index: -1
+R/E/buff/buff_016
+  rotate: false
+  xy: 2, 2
+  size: 252, 233
+  orig: 300, 300
+  offset: 22, 23
+  index: -1
+R/E/buff/buff_018
+  rotate: false
+  xy: 256, 5
+  size: 247, 230
+  orig: 300, 300
+  offset: 29, 24
+  index: -1
+R/E/hundan/hundan_000
+  rotate: true
+  xy: 861, 756
+  size: 132, 138
+  orig: 150, 150
+  offset: 9, 6
+  index: -1
+R/E/hundan/hundan_002
+  rotate: true
+  xy: 857, 622
+  size: 132, 138
+  orig: 150, 150
+  offset: 9, 6
+  index: -1
+R/E/hundan/hundan_004
+  rotate: true
+  xy: 857, 488
+  size: 132, 138
+  orig: 150, 150
+  offset: 9, 6
+  index: -1
+R/E/hundan/hundan_006
+  rotate: true
+  xy: 828, 354
+  size: 132, 138
+  orig: 150, 150
+  offset: 9, 6
+  index: -1
+R/E/hundan/hundan_008
+  rotate: true
+  xy: 861, 890
+  size: 132, 139
+  orig: 150, 150
+  offset: 9, 6
+  index: -1
+R/E/hundan/hundan_010
+  rotate: true
+  xy: 828, 220
+  size: 132, 138
+  orig: 150, 150
+  offset: 9, 6
+  index: -1
+R/hit/hit_002
+  rotate: false
+  xy: 280, 240
+  size: 273, 269
+  orig: 300, 300
+  offset: 15, 16
+  index: -1
+R/hit/hit_004
+  rotate: false
+  xy: 576, 492
+  size: 279, 273
+  orig: 300, 300
+  offset: 10, 12
+  index: -1
+R/hit/hit_006
+  rotate: false
+  xy: 289, 743
+  size: 285, 279
+  orig: 300, 300
+  offset: 7, 9
+  index: -1
+R/hit/hit_008
+  rotate: false
+  xy: 2, 742
+  size: 285, 280
+  orig: 300, 300
+  offset: 7, 9
+  index: -1
+glow
+  rotate: false
+  xy: 822, 118
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+
+effects_29003_1_skillE2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+R/E/buff/buff_010
+  rotate: false
+  xy: 2, 271
+  size: 268, 266
+  orig: 300, 300
+  offset: 20, 0
+  index: -1
+R/E/buff/buff_014
+  rotate: false
+  xy: 2, 2
+  size: 249, 267
+  orig: 300, 300
+  offset: 21, 17
+  index: -1
+R/hit/hit_000
+  rotate: false
+  xy: 272, 290
+  size: 251, 247
+  orig: 300, 300
+  offset: 26, 27
+  index: -1

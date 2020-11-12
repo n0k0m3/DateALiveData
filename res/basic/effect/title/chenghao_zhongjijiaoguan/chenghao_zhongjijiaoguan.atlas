@@ -1,0 +1,83 @@
+
+chenghao_zhongjijiaoguan.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+di
+  rotate: true
+  xy: 2, 93
+  size: 112, 26
+  orig: 112, 26
+  offset: 0, 0
+  index: -1
+guang
+  rotate: false
+  xy: 111, 207
+  size: 92, 35
+  orig: 92, 35
+  offset: 0, 0
+  index: -1
+lizi
+  rotate: false
+  xy: 30, 140
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+saoguang/saoguang_00000
+  rotate: true
+  xy: 205, 207
+  size: 14, 17
+  orig: 122, 42
+  offset: 23, 12
+  index: -1
+saoguang/saoguang_00002
+  rotate: false
+  xy: 30, 155
+  size: 34, 19
+  orig: 122, 42
+  offset: 23, 12
+  index: -1
+saoguang/saoguang_00004
+  rotate: false
+  xy: 205, 223
+  size: 37, 19
+  orig: 122, 42
+  offset: 37, 12
+  index: -1
+saoguang/saoguang_00006
+  rotate: true
+  xy: 2, 52
+  size: 39, 20
+  orig: 122, 42
+  offset: 52, 12
+  index: -1
+saoguang/saoguang_00008
+  rotate: false
+  xy: 120, 185
+  size: 29, 20
+  orig: 122, 42
+  offset: 71, 12
+  index: -1
+saoguang/saoguang_00009
+  rotate: true
+  xy: 2, 28
+  size: 22, 19
+  orig: 122, 42
+  offset: 79, 12
+  index: -1
+shuzhi
+  rotate: false
+  xy: 2, 207
+  size: 107, 35
+  orig: 107, 35
+  offset: 0, 0
+  index: -1
+zi
+  rotate: false
+  xy: 30, 176
+  size: 88, 29
+  orig: 88, 29
+  offset: 0, 0
+  index: -1

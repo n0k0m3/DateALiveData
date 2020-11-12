@@ -1,0 +1,111 @@
+
+buff_fyss.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/buff_7/buff_7_0001
+  rotate: false
+  xy: 594, 857
+  size: 146, 165
+  orig: 512, 512
+  offset: 192, 117
+  index: -1
+effects/buff_7/buff_7_0002
+  rotate: false
+  xy: 2, 186
+  size: 146, 191
+  orig: 512, 512
+  offset: 192, 117
+  index: -1
+effects/buff_7/buff_7_0003
+  rotate: false
+  xy: 2, 796
+  size: 146, 226
+  orig: 512, 512
+  offset: 192, 98
+  index: -1
+effects/buff_7/buff_7_0004
+  rotate: false
+  xy: 150, 816
+  size: 146, 206
+  orig: 512, 512
+  offset: 192, 117
+  index: -1
+effects/buff_7/buff_7_0005
+  rotate: false
+  xy: 2, 379
+  size: 146, 205
+  orig: 512, 512
+  offset: 192, 117
+  index: -1
+effects/buff_7/buff_7_0006
+  rotate: false
+  xy: 150, 609
+  size: 146, 205
+  orig: 512, 512
+  offset: 192, 117
+  index: -1
+effects/buff_7/buff_7_0007
+  rotate: false
+  xy: 2, 586
+  size: 146, 208
+  orig: 512, 512
+  offset: 192, 117
+  index: -1
+effects/buff_7/buff_7_0008
+  rotate: false
+  xy: 298, 823
+  size: 146, 199
+  orig: 512, 512
+  offset: 192, 102
+  index: -1
+effects/buff_7/buff_7_0009
+  rotate: false
+  xy: 150, 420
+  size: 146, 187
+  orig: 512, 512
+  offset: 192, 117
+  index: -1
+effects/buff_7/buff_7_0010
+  rotate: false
+  xy: 298, 462
+  size: 146, 176
+  orig: 512, 512
+  offset: 192, 117
+  index: -1
+effects/buff_7/buff_7_0011
+  rotate: false
+  xy: 446, 668
+  size: 146, 172
+  orig: 512, 512
+  offset: 192, 117
+  index: -1
+effects/buff_7/buff_7_0012
+  rotate: false
+  xy: 2, 2
+  size: 146, 182
+  orig: 512, 512
+  offset: 192, 117
+  index: -1
+effects/buff_7/buff_7_0013
+  rotate: false
+  xy: 298, 640
+  size: 146, 181
+  orig: 512, 512
+  offset: 192, 117
+  index: -1
+effects/buff_7/buff_7_0014
+  rotate: false
+  xy: 446, 842
+  size: 146, 180
+  orig: 512, 512
+  offset: 192, 117
+  index: -1
+effects/buff_7/buff_7_0015
+  rotate: false
+  xy: 150, 238
+  size: 146, 180
+  orig: 512, 512
+  offset: 192, 117
+  index: -1

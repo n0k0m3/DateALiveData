@@ -1,0 +1,395 @@
+
+hua_skillD_show.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/glow
+  rotate: false
+  xy: 695, 209
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+hua1_11
+  rotate: false
+  xy: 561, 4
+  size: 132, 283
+  orig: 133, 284
+  offset: 1, 0
+  index: -1
+hua1_14
+  rotate: true
+  xy: 278, 612
+  size: 193, 359
+  orig: 194, 360
+  offset: 1, 1
+  index: -1
+hua1_19
+  rotate: true
+  xy: 278, 430
+  size: 180, 316
+  orig: 180, 316
+  offset: 0, 0
+  index: -1
+hua1_3
+  rotate: true
+  xy: 645, 291
+  size: 126, 206
+  orig: 126, 206
+  offset: 0, 0
+  index: -1
+hua1_5
+  rotate: false
+  xy: 561, 289
+  size: 82, 139
+  orig: 82, 139
+  offset: 0, 0
+  index: -1
+hua2_12
+  rotate: true
+  xy: 290, 4
+  size: 424, 269
+  orig: 424, 269
+  offset: 0, 0
+  index: -1
+hua2_13
+  rotate: false
+  xy: 695, 2
+  size: 311, 203
+  orig: 311, 203
+  offset: 0, 0
+  index: -1
+hua2_15
+  rotate: true
+  xy: 106, 6
+  size: 411, 182
+  orig: 411, 182
+  offset: 0, 0
+  index: -1
+hua2_16
+  rotate: true
+  xy: 647, 419
+  size: 603, 362
+  orig: 603, 362
+  offset: 0, 0
+  index: -1
+hua2_17
+  rotate: false
+  xy: 2, 419
+  size: 274, 386
+  orig: 274, 386
+  offset: 0, 0
+  index: -1
+hua2_7
+  rotate: true
+  xy: 853, 207
+  size: 210, 169
+  orig: 210, 169
+  offset: 0, 0
+  index: -1
+huarui2_4
+  rotate: false
+  xy: 2, 807
+  size: 643, 215
+  orig: 643, 215
+  offset: 0, 0
+  index: -1
+huarui2_8
+  rotate: false
+  xy: 2, 2
+  size: 102, 415
+  orig: 102, 415
+  offset: 0, 0
+  index: -1
+
+hua_skillD_show2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hua1_10
+  rotate: false
+  xy: 766, 6
+  size: 256, 199
+  orig: 257, 199
+  offset: 0, 0
+  index: -1
+hua1_12
+  rotate: true
+  xy: 565, 10
+  size: 167, 199
+  orig: 168, 199
+  offset: 0, 0
+  index: -1
+hua1_23
+  rotate: true
+  xy: 321, 2
+  size: 122, 242
+  orig: 122, 242
+  offset: 0, 0
+  index: -1
+hua1_24
+  rotate: false
+  xy: 875, 763
+  size: 125, 259
+  orig: 125, 259
+  offset: 0, 0
+  index: -1
+hua1_7
+  rotate: false
+  xy: 2, 17
+  size: 317, 159
+  orig: 317, 159
+  offset: 0, 0
+  index: -1
+hua1_9
+  rotate: false
+  xy: 871, 438
+  size: 151, 251
+  orig: 151, 251
+  offset: 0, 0
+  index: -1
+hua1_di2
+  rotate: true
+  xy: 2, 178
+  size: 458, 325
+  orig: 459, 325
+  offset: 0, 0
+  index: -1
+hua2_10
+  rotate: false
+  xy: 2, 638
+  size: 421, 384
+  orig: 421, 385
+  offset: 0, 0
+  index: -1
+hua2_3
+  rotate: true
+  xy: 871, 207
+  size: 229, 145
+  orig: 229, 146
+  offset: 0, 0
+  index: -1
+huarui2_2
+  rotate: true
+  xy: 329, 126
+  size: 510, 187
+  orig: 510, 187
+  offset: 0, 0
+  index: -1
+huarui2_3
+  rotate: false
+  xy: 714, 231
+  size: 155, 458
+  orig: 156, 458
+  offset: 0, 0
+  index: -1
+huarui2_6
+  rotate: true
+  xy: 425, 691
+  size: 331, 448
+  orig: 331, 448
+  offset: 0, 0
+  index: -1
+huarui2_7
+  rotate: false
+  xy: 518, 179
+  size: 194, 510
+  orig: 194, 510
+  offset: 0, 0
+  index: -1
+
+hua_skillD_show3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hua1_1
+  rotate: false
+  xy: 338, 328
+  size: 86, 242
+  orig: 86, 242
+  offset: 0, 0
+  index: -1
+hua1_13
+  rotate: false
+  xy: 870, 800
+  size: 139, 222
+  orig: 140, 223
+  offset: 1, 1
+  index: -1
+hua1_16
+  rotate: false
+  xy: 870, 561
+  size: 136, 237
+  orig: 137, 238
+  offset: 0, 0
+  index: -1
+hua1_17
+  rotate: true
+  xy: 2, 440
+  size: 130, 334
+  orig: 131, 334
+  offset: 0, 0
+  index: -1
+hua1_18
+  rotate: true
+  xy: 320, 126
+  size: 200, 275
+  orig: 200, 275
+  offset: 0, 0
+  index: -1
+hua1_21
+  rotate: true
+  xy: 2, 572
+  size: 102, 343
+  orig: 102, 343
+  offset: 0, 0
+  index: -1
+hua1_22
+  rotate: true
+  xy: 2, 340
+  size: 98, 268
+  orig: 98, 268
+  offset: 0, 0
+  index: -1
+hua1_4
+  rotate: true
+  xy: 183, 2
+  size: 115, 216
+  orig: 116, 217
+  offset: 0, 1
+  index: -1
+hua1_6
+  rotate: true
+  xy: 641, 7
+  size: 118, 209
+  orig: 118, 209
+  offset: 0, 0
+  index: -1
+hua1_8
+  rotate: true
+  xy: 597, 127
+  size: 329, 154
+  orig: 330, 154
+  offset: 0, 0
+  index: -1
+hua1_di1
+  rotate: false
+  xy: 2, 676
+  size: 427, 166
+  orig: 428, 166
+  offset: 0, 0
+  index: -1
+hua2_1
+  rotate: true
+  xy: 852, 4
+  size: 124, 158
+  orig: 126, 158
+  offset: 1, 0
+  index: -1
+hua2_11
+  rotate: false
+  xy: 2, 844
+  size: 436, 178
+  orig: 436, 178
+  offset: 0, 0
+  index: -1
+hua2_14
+  rotate: false
+  xy: 440, 783
+  size: 428, 239
+  orig: 428, 239
+  offset: 0, 0
+  index: -1
+hua2_2
+  rotate: false
+  xy: 753, 299
+  size: 266, 157
+  orig: 266, 158
+  offset: 0, 1
+  index: -1
+hua2_4
+  rotate: false
+  xy: 753, 130
+  size: 229, 167
+  orig: 229, 167
+  offset: 0, 0
+  index: -1
+hua2_5
+  rotate: true
+  xy: 426, 356
+  size: 134, 168
+  orig: 134, 169
+  offset: 0, 0
+  index: -1
+hua2_6
+  rotate: true
+  xy: 830, 458
+  size: 101, 192
+  orig: 101, 192
+  offset: 0, 0
+  index: -1
+hua2_8
+  rotate: false
+  xy: 183, 119
+  size: 135, 219
+  orig: 135, 219
+  offset: 0, 0
+  index: -1
+huarui2_1
+  rotate: false
+  xy: 401, 2
+  size: 238, 122
+  orig: 238, 122
+  offset: 0, 0
+  index: -1
+huarui2_5
+  rotate: false
+  xy: 431, 492
+  size: 397, 289
+  orig: 398, 290
+  offset: 0, 0
+  index: -1
+huarui2_9
+  rotate: true
+  xy: 2, 4
+  size: 322, 179
+  orig: 324, 179
+  offset: 1, 0
+  index: -1
+
+hua_skillD_show4.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hua1_15
+  rotate: true
+  xy: 2, 37
+  size: 166, 250
+  orig: 166, 251
+  offset: 0, 1
+  index: -1
+hua1_2
+  rotate: false
+  xy: 254, 2
+  size: 98, 257
+  orig: 98, 257
+  offset: 0, 0
+  index: -1
+hua1_20
+  rotate: false
+  xy: 246, 261
+  size: 210, 249
+  orig: 217, 250
+  offset: 4, 0
+  index: -1
+hua2_9
+  rotate: false
+  xy: 2, 205
+  size: 242, 305
+  orig: 242, 305
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,124 @@
+
+shizhiduyue.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_L/dasaoguang/dasaoguang_004
+  rotate: true
+  xy: 670, 2
+  size: 69, 187
+  orig: 412, 193
+  offset: 14, 3
+  index: -1
+effect_L/dasaoguang/dasaoguang_006
+  rotate: false
+  xy: 852, 79
+  size: 146, 190
+  orig: 412, 193
+  offset: 57, 3
+  index: -1
+effect_L/dasaoguang/dasaoguang_007
+  rotate: false
+  xy: 670, 73
+  size: 180, 190
+  orig: 412, 193
+  offset: 78, 3
+  index: -1
+effect_L/dasaoguang/dasaoguang_008
+  rotate: true
+  xy: 286, 19
+  size: 212, 190
+  orig: 412, 193
+  offset: 99, 3
+  index: -1
+effect_L/dasaoguang/dasaoguang_009
+  rotate: true
+  xy: 821, 271
+  size: 243, 190
+  orig: 412, 193
+  offset: 120, 3
+  index: -1
+effect_L/dasaoguang/dasaoguang_010
+  rotate: true
+  xy: 814, 516
+  size: 246, 189
+  orig: 412, 193
+  offset: 125, 3
+  index: -1
+effect_L/dasaoguang/dasaoguang_011
+  rotate: true
+  xy: 437, 241
+  size: 246, 190
+  orig: 412, 193
+  offset: 131, 3
+  index: -1
+effect_L/dasaoguang/dasaoguang_012
+  rotate: true
+  xy: 629, 265
+  size: 246, 190
+  orig: 412, 193
+  offset: 136, 3
+  index: -1
+effect_L/dasaoguang/dasaoguang_013
+  rotate: true
+  xy: 478, 14
+  size: 225, 190
+  orig: 412, 193
+  offset: 166, 3
+  index: -1
+effect_L/lizi1/lizi1_007
+  rotate: false
+  xy: 492, 513
+  size: 320, 249
+  orig: 516, 274
+  offset: 12, 0
+  index: -1
+effect_L/lizi1/lizi1_009
+  rotate: false
+  xy: 2, 233
+  size: 433, 254
+  orig: 516, 274
+  offset: 10, 0
+  index: -1
+effect_L/lizi1/lizi1_013
+  rotate: false
+  xy: 2, 755
+  size: 488, 267
+  orig: 516, 274
+  offset: 15, 0
+  index: -1
+effect_L/lizi1/lizi1_017
+  rotate: false
+  xy: 2, 489
+  size: 477, 264
+  orig: 516, 274
+  offset: 22, 0
+  index: -1
+effect_L/lizi1/lizi1_019
+  rotate: false
+  xy: 492, 764
+  size: 467, 258
+  orig: 516, 274
+  offset: 27, 2
+  index: -1
+effect_L/lizi1/lizi1_021
+  rotate: false
+  xy: 2, 25
+  size: 282, 206
+  orig: 516, 274
+  offset: 203, 15
+  index: -1
+
+shizhiduyue2.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_L/dasaoguang/dasaoguang_005
+  rotate: false
+  xy: 2, 2
+  size: 108, 188
+  orig: 412, 193
+  offset: 35, 3
+  index: -1

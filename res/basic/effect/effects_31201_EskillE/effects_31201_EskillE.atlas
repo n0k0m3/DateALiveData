@@ -1,0 +1,132 @@
+
+effects_31201_EskillE.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_L/EskillE/shandian/shandian_026
+  rotate: false
+  xy: 2, 362
+  size: 155, 73
+  orig: 165, 74
+  offset: 2, 0
+  index: -1
+images/effects_L/EskillE/shandian/shandian_028
+  rotate: false
+  xy: 2, 437
+  size: 164, 66
+  orig: 165, 74
+  offset: 1, 0
+  index: -1
+images/effects_L/EskillE/shandian/shandian_030
+  rotate: true
+  xy: 2, 197
+  size: 163, 55
+  orig: 165, 74
+  offset: 2, 6
+  index: -1
+images/effects_L/EskillE/shandian/shandian_032
+  rotate: false
+  xy: 168, 445
+  size: 162, 58
+  orig: 165, 74
+  offset: 3, 3
+  index: -1
+images/effects_L/EskillE/shandian/shandian_034
+  rotate: true
+  xy: 2, 55
+  size: 140, 38
+  orig: 165, 74
+  offset: 17, 17
+  index: -1
+images/effects_L/EskillE/shandian1/shandian1_029
+  rotate: false
+  xy: 332, 440
+  size: 124, 63
+  orig: 131, 72
+  offset: 7, 0
+  index: -1
+images/effects_L/EskillE/shandian1/shandian1_031
+  rotate: false
+  xy: 59, 188
+  size: 117, 66
+  orig: 131, 72
+  offset: 11, 0
+  index: -1
+images/effects_L/EskillE/shandian1/shandian1_033
+  rotate: false
+  xy: 42, 28
+  size: 112, 64
+  orig: 131, 72
+  offset: 15, 8
+  index: -1
+images/effects_L/EskillE/shandian1/shandian1_035
+  rotate: true
+  xy: 149, 260
+  size: 100, 63
+  orig: 131, 72
+  offset: 24, 8
+  index: -1
+images/effects_L/EskillE/shandian1/shandian1_036
+  rotate: true
+  xy: 222, 109
+  size: 77, 56
+  orig: 131, 72
+  offset: 36, 13
+  index: -1
+images/effects_L/EskillE/shandian4/shandian4_003
+  rotate: false
+  xy: 42, 94
+  size: 96, 92
+  orig: 113, 100
+  offset: 2, 0
+  index: -1
+images/effects_L/EskillE/shandian4/shandian4_005
+  rotate: true
+  xy: 59, 256
+  size: 104, 88
+  orig: 113, 100
+  offset: 9, 5
+  index: -1
+images/effects_L/EskillE/shandian4/shandian4_007
+  rotate: true
+  xy: 140, 95
+  size: 91, 80
+  orig: 113, 100
+  offset: 22, 10
+  index: -1
+images/effects_L/EskillE/shandian4/shandian4_009
+  rotate: false
+  xy: 156, 26
+  size: 86, 67
+  orig: 113, 100
+  offset: 23, 25
+  index: -1
+images/effects_L/EskillE/shandian4/shandian4_010
+  rotate: false
+  xy: 458, 482
+  size: 45, 21
+  orig: 113, 100
+  offset: 56, 63
+  index: -1
+images/effects_L/EskillE/shandian4/shandian4_011
+  rotate: false
+  xy: 244, 39
+  size: 62, 68
+  orig: 113, 100
+  offset: 20, 24
+  index: -1
+images/effects_L/EskillE/shandian4/shandian4_013
+  rotate: false
+  xy: 178, 188
+  size: 63, 70
+  orig: 113, 100
+  offset: 20, 22
+  index: -1
+images/effects_L/Eskillc/glow_025
+  rotate: false
+  xy: 159, 376
+  size: 57, 59
+  orig: 77, 73
+  offset: 11, 6
+  index: -1

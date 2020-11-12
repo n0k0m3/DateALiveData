@@ -51,7 +51,7 @@ function GiftPackMainView:initTabData(panelId)
     -- RechargeDataMgr:getGiftDataByInterfaceType(25)  --每月礼包
 
     local giftTypeList = {12 , 21 , 22 , 23 , 24 , 25}
-    local nameList = {190000102 , 190000103 ,190000104 ,190000105 ,1650009 ,1650010}
+    local nameList = {190000102 , 190000103 ,190000104 ,190000105 ,1650009 ,190000310}
     for k ,v in pairs(giftTypeList) do
         local realGiftDaya = RechargeDataMgr:getGiftDataByInterfaceType(v)
         if #realGiftDaya > 0 then

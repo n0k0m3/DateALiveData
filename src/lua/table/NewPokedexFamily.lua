@@ -211,20 +211,20 @@ return {
         heroId = 111001,
         scale  = 0.4,
         paintPosition = {
-            y = 90,
+            y = 100,
             x = 355,
         },
     },
     [19] = {
-        show = 0,
+        show = 1,
         heroSkinId = 1120011,
         sort = 4,
         id = 19,
         heroId = 112001,
-        scale  = 0.22,
+        scale  = 0.4,
         paintPosition = {
-            y = 220,
-            x = 800,
+            y = 165,
+            x = 115,
         },
     },
     [20] = {

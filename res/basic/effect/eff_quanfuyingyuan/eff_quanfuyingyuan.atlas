@@ -1,0 +1,90 @@
+
+eff_quanfuyingyuan.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/anniu/baiV
+  rotate: true
+  xy: 2, 34
+  size: 55, 50
+  orig: 55, 50
+  offset: 0, 0
+  index: -1
+images/anniu/dasanjiao
+  rotate: false
+  xy: 2, 265
+  size: 122, 111
+  orig: 122, 111
+  offset: 0, 0
+  index: -1
+images/anniu/dasanjiaojiao
+  rotate: true
+  xy: 2, 91
+  size: 172, 53
+  orig: 172, 53
+  offset: 0, 0
+  index: -1
+images/anniu/heisanjiao
+  rotate: false
+  xy: 2, 378
+  size: 145, 129
+  orig: 145, 129
+  offset: 0, 0
+  index: -1
+images/anniu/sanjiaocao
+  rotate: false
+  xy: 271, 400
+  size: 118, 107
+  orig: 118, 107
+  offset: 0, 0
+  index: -1
+images/anniu/sanjiaokuang
+  rotate: false
+  xy: 149, 398
+  size: 120, 109
+  orig: 120, 109
+  offset: 0, 0
+  index: -1
+images/anniu/wenzi
+  rotate: true
+  xy: 126, 335
+  size: 41, 17
+  orig: 41, 17
+  offset: 0, 0
+  index: -1
+images/anniu/xiaosanjiao
+  rotate: false
+  xy: 57, 167
+  size: 49, 48
+  orig: 49, 48
+  offset: 0, 0
+  index: -1
+images/bangzhu/di
+  rotate: false
+  xy: 391, 435
+  size: 78, 72
+  orig: 78, 72
+  offset: 0, 0
+  index: -1
+images/bangzhu/jiao
+  rotate: false
+  xy: 57, 217
+  size: 54, 46
+  orig: 54, 46
+  offset: 0, 0
+  index: -1
+images/bangzhu/toumingsanjiao
+  rotate: true
+  xy: 471, 465
+  size: 42, 36
+  orig: 42, 36
+  offset: 0, 0
+  index: -1
+images/bangzhu/wenhao
+  rotate: false
+  xy: 57, 116
+  size: 43, 49
+  orig: 43, 49
+  offset: 0, 0
+  index: -1

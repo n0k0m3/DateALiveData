@@ -1,0 +1,180 @@
+
+effects_29002_skillG.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/glow
+  rotate: false
+  xy: 108, 5
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+effects/skillD/bao/bao_016
+  rotate: true
+  xy: 454, 729
+  size: 293, 312
+  orig: 330, 330
+  offset: 20, 10
+  index: -1
+effects/skillD/bao/bao_017
+  rotate: true
+  xy: 2, 683
+  size: 293, 312
+  orig: 330, 330
+  offset: 20, 10
+  index: -1
+effects/skillD/bao/bao_018
+  rotate: true
+  xy: 2, 388
+  size: 293, 312
+  orig: 330, 330
+  offset: 20, 10
+  index: -1
+effects/skillD/bao/bao_020
+  rotate: true
+  xy: 444, 444
+  size: 283, 298
+  orig: 330, 330
+  offset: 25, 16
+  index: -1
+effects/skillG/shifa/shifa_002
+  rotate: false
+  xy: 768, 645
+  size: 253, 190
+  orig: 300, 220
+  offset: 30, 16
+  index: -1
+effects/skillG/shifa/shifa_003
+  rotate: true
+  xy: 313, 21
+  size: 226, 189
+  orig: 300, 220
+  offset: 69, 16
+  index: -1
+effects/skillG/shifa/shifa_005
+  rotate: true
+  xy: 825, 272
+  size: 160, 188
+  orig: 300, 220
+  offset: 137, 16
+  index: -1
+effects/skillG/shoulijian/shoulijian_000
+  rotate: true
+  xy: 316, 249
+  size: 239, 119
+  orig: 250, 150
+  offset: 9, 12
+  index: -1
+effects/skillG/shoulijian/shoulijian_002
+  rotate: true
+  xy: 316, 734
+  size: 242, 131
+  orig: 250, 150
+  offset: 8, 8
+  index: -1
+effects/skillG/shoulijian/shoulijian_004
+  rotate: true
+  xy: 316, 490
+  size: 242, 126
+  orig: 250, 150
+  offset: 5, 16
+  index: -1
+effects/skillG/shoulijian/shoulijian_006
+  rotate: true
+  xy: 2, 10
+  size: 237, 104
+  orig: 250, 150
+  offset: 10, 19
+  index: -1
+effects/skillG/shoulijian/shoulijian_008
+  rotate: true
+  xy: 504, 26
+  size: 223, 115
+  orig: 250, 150
+  offset: 12, 14
+  index: -1
+effects/skillG/yan1/yan1_000
+  rotate: true
+  xy: 652, 252
+  size: 180, 171
+  orig: 300, 240
+  offset: 64, 22
+  index: -1
+effects/skillG/yan1/yan1_001
+  rotate: false
+  xy: 768, 837
+  size: 254, 185
+  orig: 300, 240
+  offset: 26, 19
+  index: -1
+effects/skillG/yan1/yan1_003
+  rotate: true
+  xy: 108, 107
+  size: 279, 203
+  orig: 300, 240
+  offset: 14, 13
+  index: -1
+effects/skillG/yan1/yan1_005
+  rotate: false
+  xy: 744, 434
+  size: 276, 209
+  orig: 300, 240
+  offset: 14, 13
+  index: -1
+effects/skillG/yan1/yan1_007
+  rotate: false
+  xy: 621, 37
+  size: 263, 212
+  orig: 300, 240
+  offset: 16, 14
+  index: -1
+effects/skillG/yan1/yan1_009
+  rotate: false
+  xy: 437, 251
+  size: 213, 191
+  orig: 300, 240
+  offset: 30, 33
+  index: -1
+effects/skillG/yujing_000
+  rotate: false
+  xy: 2, 978
+  size: 450, 44
+  orig: 450, 50
+  offset: 0, 2
+  index: -1
+
+effects_29002_skillG2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skillD/bao/bao_022
+  rotate: false
+  xy: 2, 192
+  size: 271, 282
+  orig: 330, 330
+  offset: 31, 25
+  index: -1
+effects/skillD/bao/bao_024
+  rotate: false
+  xy: 275, 7
+  size: 194, 210
+  orig: 330, 330
+  offset: 66, 70
+  index: -1
+effects/skillG/shifa/shifa_000
+  rotate: true
+  xy: 275, 219
+  size: 255, 166
+  orig: 300, 220
+  offset: 8, 38
+  index: -1
+effects/skillG/shifa/shifa_001
+  rotate: false
+  xy: 2, 2
+  size: 270, 188
+  orig: 300, 220
+  offset: 12, 17
+  index: -1

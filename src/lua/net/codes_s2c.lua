@@ -1707,11 +1707,115 @@ s2c.ITEM_USE_ITEM_RESULT = 514
 s2c.OFFICE_EXPLORE_TASKS_COMPLETE = 7104
 
 --[[
-	[1] = {--ResqChasmFightRevive
-		[1] = 'bool':isSuccess
+	[1] = {--HeroInfo
+		[1] = {--ChangeType(enum)
+			'v4':ChangeType
+		},
+		[2] = 'string':id	[ 实例ID]
+		[3] = 'int32':cid	[ 配置ID]
+		[4] = 'int32':lvl	[ 等级]
+		[5] = 'int64':exp	[ 经验]
+		[6] = {--repeated AttributeInfo
+			[1] = 'int32':type	[ 属性类型]
+			[2] = 'int32':val	[ 属性值]
+		},
+		[7] = 'int32':advancedLvl	[ 突破等级]
+		[8] = {--repeated HeroEquipment
+			[1] = 'int32':position	[装备位置]
+			[2] = 'string':equipmentId	[装备id]
+			[3] = {--EquipmentInfo
+				[1] = {--ChangeType(enum)
+					'v4':ChangeType
+				},
+				[2] = 'string':id	[灵装id]
+				[3] = 'int32':cid	[灵装cid]
+				[4] = 'int32':level	[灵装等级]
+				[5] = 'int32':exp	[灵装经验值]
+				[6] = 'string':heroId	[英雄id]
+				[7] = 'int32':position	[装备位置]
+				[8] = {--repeated SpecialAttr
+					[1] = 'int32':cid	[配置id]
+					[2] = 'int32':value	[属性值]
+					[3] = 'int32':index	[属性服务器顺序]
+				},
+				[9] = 'int32':oldAttrIndex	[临时特殊属性:属性位置]
+				[10] = 'int32':newAttrType	[临时特殊属性:新属性类型]
+				[11] = 'int32':newAttrValue	[临时特殊属性:新属性值]
+				[12] = 'int32':outTime	[过期时间]
+				[13] = 'bool':isLock	[是否已经锁定,false:否,ture:是]
+				[14] = 'int32':star	[额外星数]
+				[15] = 'int32':stage	[阶段]
+				[16] = 'int32':num	[数量]
+				[17] = 'int32':step	[质点阶级]
+			},
+		},
+		[9] = 'bool':helpFight	[ 助战]
+		[10] = 'int32':angelLvl	[ 天使等级]
+		[11] = {--repeated AngeSkillInfo
+			[1] = 'int32':type
+			[2] = 'int32':pos
+			[3] = 'int32':lvl
+		},
+		[12] = 'int32':useSkillPiont	[ 已使用技能点]
+		[13] = 'int32':quality	[ 品质(进阶等级)    // 品质(进阶等级)]
+		[14] = 'int32':provide	[出处]
+		[15] = 'int32':fightPower	[ 战斗力]
+		[16] = 'int32':skinCid	[ 皮肤cid]
+		[17] = {--repeated SkillStrategy
+			[1] = 'int32':id
+			[2] = 'string':name
+			[3] = 'int32':alreadyUseSkillPiont
+			[4] = {--repeated AngeSkillInfo
+				[1] = 'int32':type
+				[2] = 'int32':pos
+				[3] = 'int32':lvl
+			},
+			[5] = {--repeated PassiveSkillInfo
+				[1] = 'int32':pos
+				[2] = 'int32':skillId
+			},
+		},
+		[18] = 'int32':useSkillStrategy
+		[19] = {--repeated CrystalInfo
+			[1] = 'int32':rarity
+			[2] = 'int32':gridId
+		},
+		[20] = 'repeated int32':equipSkillIds	[装备激活的skillId,对应PassiveSkills表的id]
+		[21] = {--repeated EuqipFetterInfo
+			[1] = 'int32':index
+			[2] = {--NewEquipmentInfo
+				[1] = {--ChangeType(enum)
+					'v4':ChangeType
+				},
+				[2] = 'string':id	[新装备id]
+				[3] = 'int32':cid	[新装备cid]
+				[4] = 'int32':stage	[新装备阶段等级]
+				[5] = 'int32':level	[新装备等级]
+				[6] = 'string':heroId	[英雄id]
+				[7] = 'int32':position	[装备位置]
+			},
+		},
+		[22] = {--HeroStatus(enum)
+			'v4':HeroStatus
+		},
+		[23] = 'int32':deadLine
+		[24] = {--repeated GemInfo
+			[1] = {--ChangeType(enum)
+				'v4':ChangeType
+			},
+			[2] = 'string':id	[宝石id]
+			[3] = 'int32':cid	[宝石cid]
+			[4] = 'int32':heroId	[英雄id]
+			[5] = 'repeated int32':randSkill	[随机技能]
+			[6] = {--GemRandSkill
+				[1] = 'int32':originalSkill	[ 原始id]
+				[2] = 'int32':newSkill	[ 新id]
+			},
+		},
+		[25] = 'int32':skinCidTemp	[ 皮肤cid]
 	}
 --]]
-s2c.CHASM_RESQ_CHASM_FIGHT_REVIVE = 6146
+s2c.HERO_HERO_INFO = 1026
 
 --[[
 	[1] = {--RepsSwitchFormation
@@ -4253,21 +4357,38 @@ s2c.RECHARGE_GET_RECHARGE_CFG = 4360
 s2c.ELEMENT_COLLECT_UPDATE_ELEMENT = 4867
 
 --[[
-	[1] = {--RespSupplyRecord
-		[1] = {--repeated SupplyRecord
-			[1] = 'string':playerId	[ 领取角色id]
-			[2] = 'string':playerName	[ 领取角色名]
-			[3] = {--repeated RewardsMsg
-				[1] = 'int32':id
-				[2] = 'int32':num
-			},
-			[4] = 'int32':leaderCid	[ 英雄CID(队长)    // 英雄CID(队长)]
-			[5] = 'int32':portraitCid	[ 头像CID]
-			[6] = 'int32':portraitFrameCid	[ 头像框CID]
+	[1] = {--RspRankList
+		[1] = {--repeated RankInfoMsg
+			[1] = 'int32':pid	[玩家id (社团排行的时候为团长信息)    //玩家id (社团排行的时候为团长信息)]
+			[2] = 'string':pName	[玩家名字]
+			[3] = 'int32':headId	[头像]
+			[4] = 'int32':frameId	[头像框]
+			[5] = 'int32':rank	[排名,0则为未上榜]
+			[6] = 'string':params	[排名信息参数   根据排行榜类型--->等级/总战斗力(历史最高)/无尽层数(历史最高)/总充值金额(累计)    //排名信息参数   根据排行榜类型--->等级/总战斗力(历史最高)/无尽层数(历史最高)/总充值金额(累计)]
+			[7] = 'int32':unionId	[社团ID(社团排行榜)    //社团ID(社团排行榜)]
+			[8] = 'int32':unionIcon	[社团徽记]
+			[9] = 'string':unionName	[社团名称]
+			[10] = 'int32':heroId	[ 助战英雄CID]
+			[11] = 'int32':skinCid	[ 助战英雄皮肤CID]
+		},
+		[2] = 'int32':refreshMinu	[刷新周期,分钟]
+		[3] = 'int32':type	[排行榜类别  --->S2CRankMsg.RankType]
+		[4] = {--RankInfoMsg
+			[1] = 'int32':pid	[玩家id (社团排行的时候为团长信息)    //玩家id (社团排行的时候为团长信息)]
+			[2] = 'string':pName	[玩家名字]
+			[3] = 'int32':headId	[头像]
+			[4] = 'int32':frameId	[头像框]
+			[5] = 'int32':rank	[排名,0则为未上榜]
+			[6] = 'string':params	[排名信息参数   根据排行榜类型--->等级/总战斗力(历史最高)/无尽层数(历史最高)/总充值金额(累计)    //排名信息参数   根据排行榜类型--->等级/总战斗力(历史最高)/无尽层数(历史最高)/总充值金额(累计)]
+			[7] = 'int32':unionId	[社团ID(社团排行榜)    //社团ID(社团排行榜)]
+			[8] = 'int32':unionIcon	[社团徽记]
+			[9] = 'string':unionName	[社团名称]
+			[10] = 'int32':heroId	[ 助战英雄CID]
+			[11] = 'int32':skinCid	[ 助战英雄皮肤CID]
 		},
 	}
 --]]
-s2c.UNION_RESP_SUPPLY_RECORD = 6663
+s2c.RANK_RSP_RANK_LIST = 7100
 
 --[[
 	[1] = {--ValentineComposeMsg
@@ -6259,14 +6380,6 @@ s2c.DUNGEON_LEVEL_INFOS = 1804
 s2c.STORE_RESP_DYNAMIC_COMMODITY = 2566
 
 --[[
-	[1] = {--RespFinishProcess
-		[1] = 'int32':id	[完成进度id]
-		[2] = 'int32':chapterId	[章节id]
-	}
---]]
-s2c.ODEUM_RESP_FINISH_PROCESS = 6514
-
---[[
 	[1] = {--RspYouciRank
 		[1] = {--repeated YouciRankInfo
 			[1] = 'int32':pid	[玩家id]
@@ -6291,17 +6404,12 @@ s2c.ODEUM_RESP_FINISH_PROCESS = 6514
 s2c.YOUCI_RSP_YOUCI_RANK = 9104
 
 --[[
-	[1] = {--Resp2019ChristmasDungeon
-		[1] = 'int32':refreshCount	[本日手动刷新次数]
-		[2] = 'int32':refreshTime	[下次自动刷新时间点]
-		[3] = 'int32':helpCount	[协助次数]
-		[4] = {--repeated Christmas2019Level
-			[1] = 'int32':cid	[关卡cid]
-			[2] = 'bool':pass	[是否通关]
-		},
+	[1] = {--RespFinishProcess
+		[1] = 'int32':id	[完成进度id]
+		[2] = 'int32':chapterId	[章节id]
 	}
 --]]
-s2c.CHRISTMAS_RESP2019_CHRISTMAS_DUNGEON = 6613
+s2c.ODEUM_RESP_FINISH_PROCESS = 6514
 
 --[[
 	[1] = {--SettlementNotice
@@ -6323,6 +6431,19 @@ s2c.CHRISTMAS_RESP2019_CHRISTMAS_DUNGEON = 6613
 s2c.SUMMER_COURAGE_SETTLEMENT_NOTICE = 6912
 
 --[[
+	[1] = {--Resp2019ChristmasDungeon
+		[1] = 'int32':refreshCount	[本日手动刷新次数]
+		[2] = 'int32':refreshTime	[下次自动刷新时间点]
+		[3] = 'int32':helpCount	[协助次数]
+		[4] = {--repeated Christmas2019Level
+			[1] = 'int32':cid	[关卡cid]
+			[2] = 'bool':pass	[是否通关]
+		},
+	}
+--]]
+s2c.CHRISTMAS_RESP2019_CHRISTMAS_DUNGEON = 6613
+
+--[[
 	[1] = {--YouciRewardIdMsg
 		[1] = 'int32':rewardId	[本轮奖池ID (客户端需要自己清空	repeated int32 posRewarded = 5; //已领取了奖励的位置)    //本轮奖池ID (客户端需要自己清空	repeated int32 posRewarded = 5; //已领取了奖励的位置)]
 		[2] = 'int64':nextRefreshTime	[下次系统刷新时间戳]
@@ -6331,18 +6452,17 @@ s2c.SUMMER_COURAGE_SETTLEMENT_NOTICE = 6912
 s2c.YOUCI_YOUCI_REWARD_ID = 9105
 
 --[[
-	[1] = {--FormationInfoList
-		[1] = {--repeated FormationInfo
-			[1] = {--ChangeType(enum)
-				'v4':ChangeType
-			},
-			[2] = 'int32':type	[ 阵型类型]
-			[3] = 'int32':status	[ 阵型状态 0 未启用 1 启用]
-			[4] = 'repeated string':stance	[ 阵型英雄]
-		},
+	[1] = {--ResReportAD
+		[1] = 'int32':pid	[被举报的玩家id]
 	}
 --]]
-s2c.PLAYER_FORMATION_INFO_LIST = 265
+s2c.PLAYER_RES_REPORT_AD = 285
+
+--[[
+	[1] = {--RespYearLottoAddress
+	}
+--]]
+s2c.YEAR_LOTTO_RESP_YEAR_LOTTO_ADDRESS = 8705
 
 --[[
 	[1] = {--RespChangeUiChange
@@ -6359,24 +6479,23 @@ s2c.MEDAL_RESP_CHANGE_UI_CHANGE = 3011
 s2c.SYSTEM_TITLE_RESP_EQUIP_SYSTEM_TITLE = 8151
 
 --[[
-	[1] = {--RespYearLottoAddress
-	}
---]]
-s2c.YEAR_LOTTO_RESP_YEAR_LOTTO_ADDRESS = 8705
-
---[[
-	[1] = {--ResAcquireBulletScreen
-		[1] = {--repeated BulletScreenInfo
-			[1] = 'string':playerName
-			[2] = 'string':content
-			[3] = 'int64':sendTime
-			[4] = 'int32':type	[1是自己 0是他人]
+	[1] = {--ResRemouldedGem
+		[1] = {--GemInfo
+			[1] = {--ChangeType(enum)
+				'v4':ChangeType
+			},
+			[2] = 'string':id	[宝石id]
+			[3] = 'int32':cid	[宝石cid]
+			[4] = 'int32':heroId	[英雄id]
+			[5] = 'repeated int32':randSkill	[随机技能]
+			[6] = {--GemRandSkill
+				[1] = 'int32':originalSkill	[ 原始id]
+				[2] = 'int32':newSkill	[ 新id]
+			},
 		},
-		[2] = 'int32':type
-		[3] = 'int32':version	[  版本号]
 	}
 --]]
-s2c.CHAT_RES_ACQUIRE_BULLET_SCREEN = 2316
+s2c.EQUIPMENT_RES_REMOULDED_GEM = 2837
 
 --[[
 	[1] = {--RespYearLottoList
@@ -6405,6 +6524,17 @@ s2c.YEAR_LOTTO_RESP_YEAR_LOTTO_LIST = 8702
 	}
 --]]
 s2c.YEAR_LOTTO_RESP_YEAR_LOTTO_REWARD = 8704
+
+--[[
+	[1] = {--ValentineRankMsg
+		[1] = 'int32':circleMinu	[ 更新周期,分钟]
+		[2] = {--repeated ValentineRankInfo
+			[1] = 'int32':roleid	[ 情人节看板娘id]
+			[2] = 'int64':privity	[ 默契值信息]
+		},
+	}
+--]]
+s2c.VALENTINE_VALENTINE_RANK = 7401
 
 --[[
 	[1] = {--RspNewSpiritInfo
@@ -6448,17 +6578,6 @@ s2c.HERO_SPIRIT_RSP_NEW_SPIRIT_INFO = 8407
 s2c.DUNGEON_REFRESH_DUNGEON_LEVEL_GROUP_LIST = 1801
 
 --[[
-	[1] = {--ValentineRankMsg
-		[1] = 'int32':circleMinu	[ 更新周期,分钟]
-		[2] = {--repeated ValentineRankInfo
-			[1] = 'int32':roleid	[ 情人节看板娘id]
-			[2] = 'int64':privity	[ 默契值信息]
-		},
-	}
---]]
-s2c.VALENTINE_VALENTINE_RANK = 7401
-
---[[
 	[1] = {--Summon
 		[1] = {--repeated RewardsMsg
 			[1] = 'int32':id
@@ -6492,6 +6611,14 @@ s2c.SUMMON_SUMMON = 3329
 	}
 --]]
 s2c.VALENTINE_VALENTINE_NEW_DATING = 7404
+
+--[[
+	[1] = {--LevelUp
+		[1] = 'int32':buildingId	[ 建筑id]
+		[2] = 'int32':targetLevel
+	}
+--]]
+s2c.UNION_LEVEL_UP = 6657
 
 --[[
 	[1] = {--GetMonthCardWelfareInfo
@@ -6544,14 +6671,6 @@ s2c.RECHARGE_GET_MONTH_CARD_WELFARE_INFO = 4365
 	}
 --]]
 s2c.HERO_RES_QUICK_ACTIVE_CRYSTAL = 1050
-
---[[
-	[1] = {--LevelUp
-		[1] = 'int32':buildingId	[ 建筑id]
-		[2] = 'int32':targetLevel
-	}
---]]
-s2c.UNION_LEVEL_UP = 6657
 
 --[[
 	[1] = {--CreateUnion
@@ -6619,22 +6738,6 @@ s2c.UNION_LEVEL_UP = 6657
 s2c.UNION_CREATE_UNION = 6650
 
 --[[
-	[1] = {--OfficeBuffMsg
-		[1] = {--GridBuffMsg
-			[1] = {--repeated GridBuff
-				[1] = 'int32':buffCid	[ buffCid]
-				[2] = 'int32':begining	[ 开启时间点]
-				[3] = 'int32':useCount	[ 使用次数]
-			},
-			[2] = {--ChangeType(enum)
-				'v4':ChangeType
-			},
-		},
-	}
---]]
-s2c.OFFICE_EXPLORE_OFFICE_BUFF = 7225
-
---[[
 	[1] = {--QueryUnionList
 		[1] = {--repeated UnionSnapInfo
 			[1] = 'int32':id
@@ -6658,6 +6761,30 @@ s2c.OFFICE_EXPLORE_OFFICE_BUFF = 7225
 s2c.UNION_QUERY_UNION_LIST = 6651
 
 --[[
+	[1] = {--OfficeBuffMsg
+		[1] = {--GridBuffMsg
+			[1] = {--repeated GridBuff
+				[1] = 'int32':buffCid	[ buffCid]
+				[2] = 'int32':begining	[ 开启时间点]
+				[3] = 'int32':useCount	[ 使用次数]
+			},
+			[2] = {--ChangeType(enum)
+				'v4':ChangeType
+			},
+		},
+	}
+--]]
+s2c.OFFICE_EXPLORE_OFFICE_BUFF = 7225
+
+--[[
+	[1] = {--UpdateDegree
+		[1] = 'int32':degree
+		[2] = 'int32':target
+	}
+--]]
+s2c.UNION_UPDATE_DEGREE = 6653
+
+--[[
 	[1] = {--RespExplore
 		[1] = {--EventInfo
 			[1] = 'int32':eventId	[事件id]
@@ -6669,14 +6796,6 @@ s2c.UNION_QUERY_UNION_LIST = 6651
 	}
 --]]
 s2c.BIRTH_DAY_RESP_EXPLORE = 8102
-
---[[
-	[1] = {--UpdateDegree
-		[1] = 'int32':degree
-		[2] = 'int32':target
-	}
---]]
-s2c.UNION_UPDATE_DEGREE = 6653
 
 --[[
 	[1] = {--RespUnion
@@ -6741,6 +6860,23 @@ s2c.UNION_UPDATE_DEGREE = 6653
 	}
 --]]
 s2c.UNION_RESP_UNION = 6662
+
+--[[
+	[1] = {--RespSupplyRecord
+		[1] = {--repeated SupplyRecord
+			[1] = 'string':playerId	[ 领取角色id]
+			[2] = 'string':playerName	[ 领取角色名]
+			[3] = {--repeated RewardsMsg
+				[1] = 'int32':id
+				[2] = 'int32':num
+			},
+			[4] = 'int32':leaderCid	[ 英雄CID(队长)    // 英雄CID(队长)]
+			[5] = 'int32':portraitCid	[ 头像CID]
+			[6] = 'int32':portraitFrameCid	[ 头像框CID]
+		},
+	}
+--]]
+s2c.UNION_RESP_SUPPLY_RECORD = 6663
 
 --[[
 	[1] = {--WorldPointsRefreshMsg
@@ -7038,10 +7174,20 @@ s2c.ACTIVITY_RESP_ALL_ACTIVITY_ITEM = 5156
 s2c.CHRISTMAS_RESP_CHRISTMAS_DUNGEONS = 6608
 
 --[[
-	[1] = {--RespActivityItemRefresh
+	[1] = {--AreaOutlineMsg
+		[1] = 'int32':curAreaCid	[当前区域cid]
+		[2] = 'repeated int32':openAreas	[已激活的区域]
+		[3] = 'repeated int32':finTasks	[已完成的任务]
+		[4] = {--repeated OfficeComplteEvents
+			[1] = 'int32':areaCid	[ 区域id]
+			[2] = {--repeated OfficeComplteEvent
+				[1] = 'int32':cid	[ 事件id]
+				[2] = 'int32':num	[ 完成数量]
+			},
+		},
 	}
 --]]
-s2c.ACTIVITY_RESP_ACTIVITY_ITEM_REFRESH = 5179
+s2c.OFFICE_EXPLORE_AREA_OUTLINE = 7102
 
 --[[
 	[1] = {--ResChasmReport
@@ -7139,14 +7285,23 @@ s2c.SUMMER_COURAGE_RES_REAL_ENTER = 6916
 s2c.SYSTEM_TITLE_RESP_TAKE_OFF_SYSTEM_TITLE = 8152
 
 --[[
-	[1] = {--OfficeItemsMsg
-		[1] = {--repeated GridItem
-			[1] = 'int32':itemId	[ 道具id]
-			[2] = 'int32':itemNum	[ 道具数量]
+	[1] = {--FightOverMsg
+		[1] = {--LevelInfo
+			[1] = 'int32':cid	[关卡cid]
+			[2] = 'repeated int32':goals	[达成目标的下标]
+			[3] = 'int32':fightCount	[战斗次数]
+			[4] = 'bool':win	[是否胜利]
+			[5] = 'int32':buyCount	[购买次数]
+			[6] = 'int32':freeCount	[ 周卡或者是月卡的免费次数]
 		},
+		[2] = {--repeated RewardsMsg
+			[1] = 'int32':id
+			[2] = 'int32':num
+		},
+		[3] = 'bool':win	[是否胜利]
 	}
 --]]
-s2c.OFFICE_EXPLORE_OFFICE_ITEMS = 7206
+s2c.DUNGEON_FIGHT_OVER = 1794
 
 --[[
 	[1] = {--RespUpdateFinishProcess
@@ -7157,19 +7312,45 @@ s2c.OFFICE_EXPLORE_OFFICE_ITEMS = 7206
 s2c.ODEUM_RESP_UPDATE_FINISH_PROCESS = 6513
 
 --[[
-	[1] = {--GetComposePrize
-		[1] = 'int32':id	[合成id]
-		[2] = {--repeated RewardsMsg
-			[1] = 'int32':id
-			[2] = 'int32':num
+	[1] = {--RespPartTimeJobList
+		[1] = {--JobInfo
+			[1] = 'int32':buildingId	[建筑ID]
+			[2] = 'int32':type	[白天还是黑夜]
+			[3] = {--repeated RewardsMsg
+				[1] = 'int32':id
+				[2] = 'int32':num
+			},
+			[4] = {--repeated RewardsMsg
+				[1] = 'int32':id
+				[2] = 'int32':num
+			},
+			[5] = 'int32':jobId	[兼职ID]
+			[6] = 'int32':jobType	[兼职任务状态]
+			[7] = 'int32':etime	[兼职任务结束时间]
 		},
-		[3] = {--repeated RewardsMsg
-			[1] = 'int32':id
-			[2] = 'int32':num
+		[2] = {--repeated JobInfoList
+			[1] = 'int32':buildingId	[建筑ID]
+			[2] = {--repeated JobInfo
+				[1] = 'int32':buildingId	[建筑ID]
+				[2] = 'int32':type	[白天还是黑夜]
+				[3] = {--repeated RewardsMsg
+					[1] = 'int32':id
+					[2] = 'int32':num
+				},
+				[4] = {--repeated RewardsMsg
+					[1] = 'int32':id
+					[2] = 'int32':num
+				},
+				[5] = 'int32':jobId	[兼职ID]
+				[6] = 'int32':jobType	[兼职任务状态]
+				[7] = 'int32':etime	[兼职任务结束时间]
+			},
+			[3] = 'int32':level	[建筑兼职等级]
+			[4] = 'int64':exp	[建筑兼职经验值]
 		},
 	}
 --]]
-s2c.CHRISTMAS_GET_COMPOSE_PRIZE = 6603
+s2c.NEW_BUILDING_RESP_PART_TIME_JOB_LIST = 2076
 
 --[[
 	[1] = {--RespQueryPlayer
@@ -7347,15 +7528,11 @@ s2c.SUMMON_UPDATE_CARD_NUM = 3347
 s2c.HERO_RES_DECOMPOSE_MATERIALS = 1049
 
 --[[
-	[1] = {--QliphothMissionsMsg
-		[1] = {--repeated QliphothMission
-			[1] = 'int32':missionId	[ 任务id]
-			[2] = 'int32':progress	[ 任务进度]
-		},
-		[2] = 'bool':completed	[ 当前阶段任务是否完成]
+	[1] = {--ParticleWorldAmbushMsg
+		[1] = 'int32':ambushId	[伏击关卡id]
 	}
 --]]
-s2c.QLIPHOTH_QLIPHOTH_MISSIONS = 6207
+s2c.QLIPHOTH_PARTICLE_WORLD_AMBUSH = 6210
 
 --[[
 	[1] = {--ComposeSummon
@@ -7393,12 +7570,46 @@ s2c.SUMMON_COMPOSE_SUMMON = 3330
 s2c.SUMMON_RES_SIMULATE_SUMMON_REPLACE = 3351
 
 --[[
-	[1] = {--ResBulletInfo
-		[1] = 'int32':barrageId	[类型标识]
-		[2] = 'int32':lastSendTime
+	[1] = {--RespHuntingRank
+		[1] = {--repeated HuntingDamage
+			[1] = 'int32':unionId	[社团id]
+			[2] = 'int32':unionLv	[社团等级]
+			[3] = 'string':unionName	[社团名]
+			[4] = 'int32':bossLv	[boss等级]
+			[5] = 'int32':dmgRate	[伤害万分比]
+			[6] = 'int32':rank	[名次]
+			[7] = 'int32':icon	[icon]
+		},
+		[2] = {--HuntingDamage
+			[1] = 'int32':unionId	[社团id]
+			[2] = 'int32':unionLv	[社团等级]
+			[3] = 'string':unionName	[社团名]
+			[4] = 'int32':bossLv	[boss等级]
+			[5] = 'int32':dmgRate	[伤害万分比]
+			[6] = 'int32':rank	[名次]
+			[7] = 'int32':icon	[icon]
+		},
+		[3] = {--repeated HuntingHonor
+			[1] = 'int32':playerId	[玩家id]
+			[2] = 'string':playerName	[玩家id]
+			[3] = 'int32':playerLv	[玩家等级]
+			[4] = 'int32':honor	[荣耀值]
+			[5] = 'int32':fightCount	[挑战次数]
+			[6] = 'int32':rank	[名次]
+			[7] = 'int32':headId	[头像]
+		},
+		[4] = {--HuntingHonor
+			[1] = 'int32':playerId	[玩家id]
+			[2] = 'string':playerName	[玩家id]
+			[3] = 'int32':playerLv	[玩家等级]
+			[4] = 'int32':honor	[荣耀值]
+			[5] = 'int32':fightCount	[挑战次数]
+			[6] = 'int32':rank	[名次]
+			[7] = 'int32':headId	[头像]
+		},
 	}
 --]]
-s2c.CHAT_RES_BULLET_INFO = 2317
+s2c.HUNTING_DUNGEON_RESP_HUNTING_RANK = 8502
 
 --[[
 	[1] = {--QliphothTimeMsg
@@ -7607,11 +7818,10 @@ s2c.SUMMER_COURAGE_RES_GAME_FINISH = 6908
 s2c.ELEMENT_COLLECT_GET_ALL_ELEMENT = 4865
 
 --[[
-	[1] = {--RespEquipMedal
-		[1] = 'bool':success
+	[1] = {--ResUseTrialCard
 	}
 --]]
-s2c.MEDAL_RESP_EQUIP_MEDAL = 3002
+s2c.ITEM_RES_USE_TRIAL_CARD = 517
 
 --[[
 	[1] = {--RespGetHeartState
@@ -7706,11 +7916,16 @@ s2c.SPRING_FESTIVAL_RES_REFRESH_NIAN_BEAST = 6702
 s2c.QLIPHOTH_WORLD_TRANSFORM = 6211
 
 --[[
-	[1] = {--ResReportAD
-		[1] = 'int32':pid	[被举报的玩家id]
+	[1] = {--FormationInfo
+		[1] = {--ChangeType(enum)
+			'v4':ChangeType
+		},
+		[2] = 'int32':type	[ 阵型类型]
+		[3] = 'int32':status	[ 阵型状态 0 未启用 1 启用]
+		[4] = 'repeated string':stance	[ 阵型英雄]
 	}
 --]]
-s2c.PLAYER_RES_REPORT_AD = 285
+s2c.PLAYER_FORMATION_INFO = 264
 
 --[[
 	[1] = {--ResChangeAppearance
@@ -7739,19 +7954,6 @@ s2c.ACTIVITY_RESP_RESET_FLOP_GAME = 5158
 s2c.SIGN_RESULT_SUBMIT_SIGN = 5122
 
 --[[
-	[1] = {--RespLookTriggerMessage
-	}
---]]
-s2c.DATING_RESP_LOOK_TRIGGER_MESSAGE = 1561
-
---[[
-	[1] = {--TakeOffMsg
-		[1] = 'bool':success
-	}
---]]
-s2c.EQUIPMENT_TAKE_OFF = 2818
-
---[[
 	[1] = {--RespSignInfos
 		[1] = {--repeated SignInfo
 			[1] = 'int32':id	[配置id 1:月签到 2:7日签到 3:体力签到 4:次日签到]
@@ -7764,29 +7966,38 @@ s2c.EQUIPMENT_TAKE_OFF = 2818
 s2c.SIGN_RESP_SIGN_INFOS = 5121
 
 --[[
+	[1] = {--TakeOffMsg
+		[1] = 'bool':success
+	}
+--]]
+s2c.EQUIPMENT_TAKE_OFF = 2818
+
+--[[
+	[1] = {--RespLookTriggerMessage
+	}
+--]]
+s2c.DATING_RESP_LOOK_TRIGGER_MESSAGE = 1561
+
+--[[
 	[1] = {--RespOperateFight
 	}
 --]]
 s2c.FIGHT_RESP_OPERATE_FIGHT = 25603
 
 --[[
-	[1] = {--ResRemouldGem
-		[1] = {--GemInfo
-			[1] = {--ChangeType(enum)
-				'v4':ChangeType
+	[1] = {--RespRefreshRecruit
+		[1] = {--RecruitInfo
+			[1] = {--repeated Recruit
+				[1] = 'int32':cid	[招募id]
+				[2] = 'bool':state	[招募状态]
 			},
-			[2] = 'string':id	[宝石id]
-			[3] = 'int32':cid	[宝石cid]
-			[4] = 'int32':heroId	[英雄id]
-			[5] = 'repeated int32':randSkill	[随机技能]
-			[6] = {--GemRandSkill
-				[1] = 'int32':originalSkill	[ 原始id]
-				[2] = 'int32':newSkill	[ 新id]
-			},
+			[2] = 'int32':nextTime	[下一次的免费刷新时间]
+			[3] = 'int32':recruitTimes	[每一天的招募次数]
+			[4] = 'int32':recruitBuyTimes	[每一天的购买刷新次数]
 		},
 	}
 --]]
-s2c.EQUIPMENT_RES_REMOULD_GEM = 2836
+s2c.MAID_ACTIVITY_RESP_REFRESH_RECRUIT = 9154
 
 --[[
 	[1] = {--HiddenEventsMsg
@@ -7807,14 +8018,6 @@ s2c.QLIPHOTH_HIDDEN_EVENTS = 6226
 s2c.SHARE_RESULT_SHARE = 6103
 
 --[[
-	[1] = {--ResTiggerRoleNotice
-		[1] = 'int32':favorDatingId	[Favor表对应id]
-		[2] = 'int32':statue	[0表示章节状态取消显示 1显示]
-	}
---]]
-s2c.EXTRA_DATING_RES_TIGGER_ROLE_NOTICE = 5652
-
---[[
 	[1] = {--ResultSubmitShare
 		[1] = 'int32':id	[提交的分享ID]
 		[2] = {--repeated RewardsMsg
@@ -7824,6 +8027,14 @@ s2c.EXTRA_DATING_RES_TIGGER_ROLE_NOTICE = 5652
 	}
 --]]
 s2c.SHARE_RESULT_SUBMIT_SHARE = 6102
+
+--[[
+	[1] = {--ResTiggerRoleNotice
+		[1] = 'int32':favorDatingId	[Favor表对应id]
+		[2] = 'int32':statue	[0表示章节状态取消显示 1显示]
+	}
+--]]
+s2c.EXTRA_DATING_RES_TIGGER_ROLE_NOTICE = 5652
 
 --[[
 	[1] = {--RespAITriggerType
@@ -7943,45 +8154,19 @@ s2c.LADDER_RSP_REFRESH_LADDER_HERO_COUNT = 8312
 s2c.SUMMON_RES_SIMULATE_SUMMON = 3350
 
 --[[
-	[1] = {--RespPartTimeJobList
-		[1] = {--JobInfo
-			[1] = 'int32':buildingId	[建筑ID]
-			[2] = 'int32':type	[白天还是黑夜]
-			[3] = {--repeated RewardsMsg
-				[1] = 'int32':id
-				[2] = 'int32':num
-			},
-			[4] = {--repeated RewardsMsg
-				[1] = 'int32':id
-				[2] = 'int32':num
-			},
-			[5] = 'int32':jobId	[兼职ID]
-			[6] = 'int32':jobType	[兼职任务状态]
-			[7] = 'int32':etime	[兼职任务结束时间]
+	[1] = {--GetComposePrize
+		[1] = 'int32':id	[合成id]
+		[2] = {--repeated RewardsMsg
+			[1] = 'int32':id
+			[2] = 'int32':num
 		},
-		[2] = {--repeated JobInfoList
-			[1] = 'int32':buildingId	[建筑ID]
-			[2] = {--repeated JobInfo
-				[1] = 'int32':buildingId	[建筑ID]
-				[2] = 'int32':type	[白天还是黑夜]
-				[3] = {--repeated RewardsMsg
-					[1] = 'int32':id
-					[2] = 'int32':num
-				},
-				[4] = {--repeated RewardsMsg
-					[1] = 'int32':id
-					[2] = 'int32':num
-				},
-				[5] = 'int32':jobId	[兼职ID]
-				[6] = 'int32':jobType	[兼职任务状态]
-				[7] = 'int32':etime	[兼职任务结束时间]
-			},
-			[3] = 'int32':level	[建筑兼职等级]
-			[4] = 'int64':exp	[建筑兼职经验值]
+		[3] = {--repeated RewardsMsg
+			[1] = 'int32':id
+			[2] = 'int32':num
 		},
 	}
 --]]
-s2c.NEW_BUILDING_RESP_PART_TIME_JOB_LIST = 2076
+s2c.CHRISTMAS_GET_COMPOSE_PRIZE = 6603
 
 --[[
 	[1] = {--TouchRole
@@ -7994,23 +8179,6 @@ s2c.ROLE_TOUCH_ROLE = 1287
 	}
 --]]
 s2c.ROLE_CHANGE_ROOM = 1288
-
---[[
-	[1] = {--ResBlackWhiteRank
-		[1] = {--repeated BwRank
-			[1] = 'int32':rank	[排名,0则为未上榜]
-			[2] = 'int32':costTime	[总用时]
-			[3] = {--repeated BwRankPlayerInfo
-				[1] = 'int32':pid	[玩家id]
-				[2] = 'string':pName	[玩家名字]
-				[3] = 'int32':level	[等级]
-				[4] = 'int32':headId	[头像]
-				[5] = 'int32':portraitFrameCid	[玩家头像框]
-			},
-		},
-	}
---]]
-s2c.NEW_WORLD_RES_BLACK_WHITE_RANK = 6817
 
 --[[
 	[1] = {--RoleInfoList
@@ -8045,6 +8213,23 @@ s2c.NEW_WORLD_RES_BLACK_WHITE_RANK = 6817
 	}
 --]]
 s2c.ROLE_ROLE_INFO_LIST = 1281
+
+--[[
+	[1] = {--ResBlackWhiteRank
+		[1] = {--repeated BwRank
+			[1] = 'int32':rank	[排名,0则为未上榜]
+			[2] = 'int32':costTime	[总用时]
+			[3] = {--repeated BwRankPlayerInfo
+				[1] = 'int32':pid	[玩家id]
+				[2] = 'string':pName	[玩家名字]
+				[3] = 'int32':level	[等级]
+				[4] = 'int32':headId	[头像]
+				[5] = 'int32':portraitFrameCid	[玩家头像框]
+			},
+		},
+	}
+--]]
+s2c.NEW_WORLD_RES_BLACK_WHITE_RANK = 6817
 
 --[[
 	[1] = {--RespNewYearWelfareUrl
@@ -8134,6 +8319,12 @@ s2c.COMMENT_RESP_SINGLE_COMMENT = 4002
 s2c.LADDER_RSP_LADDER_RANK_LIST = 8302
 
 --[[
+	[1] = {--Dress
+	}
+--]]
+s2c.ROLE_DRESS = 1284
+
+--[[
 	[1] = {--RespHuntingDungeonInfo
 		[1] = {--HuntingStep
 			[1] = 'int32':step	[当前阶段,0 功能未开放, 1 准备期开放, 2 准备期结算, 3 准备期结束, 11 正式挑战开放, 12 正式挑战结算, 13 正式挑战结束]
@@ -8156,12 +8347,6 @@ s2c.LADDER_RSP_LADDER_RANK_LIST = 8302
 	}
 --]]
 s2c.HUNTING_DUNGEON_RESP_HUNTING_DUNGEON_INFO = 8501
-
---[[
-	[1] = {--Dress
-	}
---]]
-s2c.ROLE_DRESS = 1284
 
 --[[
 	[1] = {--RespRotation
@@ -8311,22 +8496,6 @@ s2c.ACTIVITY_NEW_RESQ_YEAR_ACTIVITY_MONTH_PROGRESS = 5144
 s2c.ACTIVITY_RESP_ACTIVITY_NOTICE = 5139
 
 --[[
-	[1] = {--RespUpdateSupportAddress
-		[1] = 'string':address	[邮寄地址]
-	}
---]]
-s2c.ACTIVITY_RESP_UPDATE_SUPPORT_ADDRESS = 5154
-
---[[
-	[1] = {--OfficeExploreTimeMsg
-		[1] = 'int32':startTime	[开启时间点]
-		[2] = 'int32':endTime	[关闭时间点]
-		[3] = 'int32':showTime	[展示时间点]
-	}
---]]
-s2c.OFFICE_EXPLORE_OFFICE_EXPLORE_TIME = 7101
-
---[[
 	[1] = {--RspLadderNewEquip
 		[1] = {--repeated HeroInfo
 			[1] = {--ChangeType(enum)
@@ -8440,6 +8609,22 @@ s2c.OFFICE_EXPLORE_OFFICE_EXPLORE_TIME = 7101
 s2c.LADDER_RSP_LADDER_NEW_EQUIP = 8307
 
 --[[
+	[1] = {--OfficeExploreTimeMsg
+		[1] = 'int32':startTime	[开启时间点]
+		[2] = 'int32':endTime	[关闭时间点]
+		[3] = 'int32':showTime	[展示时间点]
+	}
+--]]
+s2c.OFFICE_EXPLORE_OFFICE_EXPLORE_TIME = 7101
+
+--[[
+	[1] = {--RespUpdateSupportAddress
+		[1] = 'string':address	[邮寄地址]
+	}
+--]]
+s2c.ACTIVITY_RESP_UPDATE_SUPPORT_ADDRESS = 5154
+
+--[[
 	[1] = {--ChallengeInfoMsg
 		[1] = {--repeated ChallengeStatus
 			[1] = 'int32':levelCid	[关卡cid]
@@ -8548,6 +8733,20 @@ s2c.FRIEND_RESP_REWARD_INVITE = 3080
 s2c.YEAR_LOTTO_RESP_YEAR_LOTTO_NEW_PLAYER = 8706
 
 --[[
+	[1] = {--ResAcquireBulletScreen
+		[1] = {--repeated BulletScreenInfo
+			[1] = 'string':playerName
+			[2] = 'string':content
+			[3] = 'int64':sendTime
+			[4] = 'int32':type	[1是自己 0是他人]
+		},
+		[2] = 'int32':type
+		[3] = 'int32':version	[  版本号]
+	}
+--]]
+s2c.CHAT_RES_ACQUIRE_BULLET_SCREEN = 2316
+
+--[[
 	[1] = {--RspLadderDungeonLevel
 		[1] = {--LadderLevelInfo
 			[1] = 'int32':battleScore	[作战积分]
@@ -8582,25 +8781,6 @@ s2c.LADDER_RSP_LADDER_DUNGEON_LEVEL = 8314
 	}
 --]]
 s2c.RECHARGE_RESP_WEEK_CARD_INFO = 4387
-
---[[
-	[1] = {--ResRemouldedGem
-		[1] = {--GemInfo
-			[1] = {--ChangeType(enum)
-				'v4':ChangeType
-			},
-			[2] = 'string':id	[宝石id]
-			[3] = 'int32':cid	[宝石cid]
-			[4] = 'int32':heroId	[英雄id]
-			[5] = 'repeated int32':randSkill	[随机技能]
-			[6] = {--GemRandSkill
-				[1] = 'int32':originalSkill	[ 原始id]
-				[2] = 'int32':newSkill	[ 新id]
-			},
-		},
-	}
---]]
-s2c.EQUIPMENT_RES_REMOULDED_GEM = 2837
 
 --[[
 	[1] = {--ReplaceSpecialAttrMsg
@@ -8771,27 +8951,17 @@ s2c.NEW_BUILDING_RESP_DO_HAND_WORK = 2081
 s2c.ACTIVITY_RESP_WRITE_BE_CALL_PLAYER_ID = 5178
 
 --[[
-	[1] = {--MailInfoList
-		[1] = {--repeated MailInfo
+	[1] = {--RespUiChangeInfo
+		[1] = {--repeated UiChangeInfo
 			[1] = {--ChangeType(enum)
 				'v4':ChangeType
 			},
-			[2] = 'string':id	[ 邮件ID]
-			[3] = 'int32':senderId	[ 发送者id]
-			[4] = 'string':senderName	[ 发送者名字]
-			[5] = 'int32':createTime	[ 创建时间]
-			[6] = 'int32':modifiedTime	[ 邮件时间]
-			[7] = 'int32':status	[ 状态]
-			[8] = 'string':title	[ 邮件标题]
-			[9] = 'string':body	[ 邮件正文]
-			[10] = {--repeated RewardsMsg
-				[1] = 'int32':id
-				[2] = 'int32':num
-			},
+			[2] = 'int32':cid
 		},
+		[2] = 'int32':wearId
 	}
 --]]
-s2c.MAIL_MAIL_INFO_LIST = 772
+s2c.MEDAL_RESP_UI_CHANGE_INFO = 3010
 
 --[[
 	[1] = {--RespDoPartTimeJob
@@ -8872,25 +9042,11 @@ s2c.NEW_BUILDING_RESP_COOK_FOODBASE = 2067
 s2c.HERO_RESP_ANGEL_RESET = 1034
 
 --[[
-	[1] = {--RespKurumiCityRefresh
-		[1] = {--repeated KurumiHistoryCity
-			[1] = 'int32':id	[城市id]
-			[2] = 'int32':dungeon	[当前关卡]
-			[3] = 'bool':resOpen	[是否解锁资源]
-			[4] = 'int32':resCount	[资源可用次数]
-			[5] = 'int32':resUpTime	[下次资源增加时间]
-			[6] = 'bool':invaded	[是否入侵]
-			[7] = 'int32':invadedEnd	[入侵结束时间]
-			[8] = 'repeated int32':invadedCamp	[入侵阵营]
-			[9] = 'int32':resStartTime	[资源开始时间]
-			[10] = 'int32':fightTime	[战斗时间]
-			[11] = 'int32':score	[贡献积分]
-			[12] = 'bool':pass	[是否通关]
-			[13] = 'bool':dunPass	[是否已通过关卡]
-		},
+	[1] = {--ResqChasmFightRevive
+		[1] = 'bool':isSuccess
 	}
 --]]
-s2c.ACTIVITY_RESP_KURUMI_CITY_REFRESH = 5167
+s2c.CHASM_RESQ_CHASM_FIGHT_REVIVE = 6146
 
 --[[
 	[1] = {--OfficeRandomEventsMsg
@@ -8925,6 +9081,27 @@ s2c.OFFICE_EXPLORE_OFFICE_RANDOM_EVENTS = 7223
 	}
 --]]
 s2c.PORTRAIL_RESP_ACTIVATE_PORTRAIT = 7001
+
+--[[
+	[1] = {--RespKurumiCityRefresh
+		[1] = {--repeated KurumiHistoryCity
+			[1] = 'int32':id	[城市id]
+			[2] = 'int32':dungeon	[当前关卡]
+			[3] = 'bool':resOpen	[是否解锁资源]
+			[4] = 'int32':resCount	[资源可用次数]
+			[5] = 'int32':resUpTime	[下次资源增加时间]
+			[6] = 'bool':invaded	[是否入侵]
+			[7] = 'int32':invadedEnd	[入侵结束时间]
+			[8] = 'repeated int32':invadedCamp	[入侵阵营]
+			[9] = 'int32':resStartTime	[资源开始时间]
+			[10] = 'int32':fightTime	[战斗时间]
+			[11] = 'int32':score	[贡献积分]
+			[12] = 'bool':pass	[是否通关]
+			[13] = 'bool':dunPass	[是否已通过关卡]
+		},
+	}
+--]]
+s2c.ACTIVITY_RESP_KURUMI_CITY_REFRESH = 5167
 
 --[[
 	[1] = {--GameEventMsg
@@ -8996,6 +9173,20 @@ s2c.DATINGRESP_PHONE_CHAT = 1555
 s2c.ENDLESS_CLOISTER_RSP_ENDLESS_BUFF = 5382
 
 --[[
+	[1] = {--RespHuntingFDAward
+		[1] = {--repeated RewardsMsg
+			[1] = 'int32':id
+			[2] = 'int32':num
+		},
+		[2] = {--repeated HuntingBossAward
+			[1] = 'int32':dungeon	[副本id]
+			[2] = 'int32':status	[领取状态,1 未满足条件,2 可领取,3 已领取]
+		},
+	}
+--]]
+s2c.HUNTING_DUNGEON_RESP_HUNTING_FDAWARD = 8504
+
+--[[
 	[1] = {--RandomEventsMsg
 		[1] = {--repeated ParticleMapPoint
 			[1] = 'int32':x	[ x位置]
@@ -9012,20 +9203,6 @@ s2c.ENDLESS_CLOISTER_RSP_ENDLESS_BUFF = 5382
 	}
 --]]
 s2c.QLIPHOTH_RANDOM_EVENTS = 6223
-
---[[
-	[1] = {--RespHuntingFDAward
-		[1] = {--repeated RewardsMsg
-			[1] = 'int32':id
-			[2] = 'int32':num
-		},
-		[2] = {--repeated HuntingBossAward
-			[1] = 'int32':dungeon	[副本id]
-			[2] = 'int32':status	[领取状态,1 未满足条件,2 可领取,3 已领取]
-		},
-	}
---]]
-s2c.HUNTING_DUNGEON_RESP_HUNTING_FDAWARD = 8504
 
 --[[
 	[1] = {--GetLevelInfo
@@ -9080,23 +9257,6 @@ s2c.QLIPHOTH_SHOP_INFO = 6213
 	}
 --]]
 s2c.ACTIVITY_NEW_RESULT_SUBMIT_ACTIVITY = 5125
-
---[[
-	[1] = {--OfficeAreaMapPoint
-		[1] = {--GridMapPoint
-			[1] = 'int32':x	[ x位置]
-			[2] = 'int32':y	[ y位置]
-			[3] = 'int32':event	[ 事件id,大于0则有事件]
-			[4] = 'bool':eventValid	[ 事件是否可用]
-			[5] = 'bool':visual	[ 是否可视,即是否开启格子]
-			[6] = {--repeated GridPointInfo
-				[1] = 'int32':x	[ x位置]
-				[2] = 'int32':y	[ y位置]
-			},
-		},
-	}
---]]
-s2c.OFFICE_EXPLORE_OFFICE_AREA_MAP_POINT = 7205
 
 --[[
 	[1] = {--RespAITrainingSubmit
@@ -9316,6 +9476,12 @@ s2c.ENDLESS_CLOISTER_STAGE_HERO_HEALTH = 5381
 s2c.PLAYER_RESP_TARGET_PLAYER_INFO = 271
 
 --[[
+	[1] = {--RespActivityItemRefresh
+	}
+--]]
+s2c.ACTIVITY_RESP_ACTIVITY_ITEM_REFRESH = 5179
+
+--[[
 	[1] = {--NewRespActivitys
 		[1] = {--repeated ActivityConfigMsg
 			[1] = {--ChangeType(enum)
@@ -9435,23 +9601,6 @@ s2c.ACTIVITY_RESP_ACTIVITY_RANK = 5131
 s2c.QLIPHOTH_HIDDEN_EVENT_REWARD = 6227
 
 --[[
-	[1] = {--QliphothTreeInfoMsg
-		[1] = 'int32':openWorldCid	[当前世界cid,为0则还没有开放的世界]
-		[2] = 'int32':missionComplete	[净化任务阶段完成数]
-		[3] = 'int32':qliphothCoin	[卡巴拉代币]
-		[4] = 'int32':qliphothEnergy	[卡巴拉能量]
-		[5] = 'bool':firstUse	[是否首次使用功能]
-		[6] = {--repeated WorldOpenTime
-			[1] = 'int32':worldCid	[ 质点世界id]
-			[2] = 'int32':begining	[ 开启时间点]
-			[3] = 'int32':endTime	[ 结束时间点]
-			[4] = 'int32':beSoon	[ 客户端展示阶段时间]
-		},
-	}
---]]
-s2c.QLIPHOTH_QLIPHOTH_TREE_INFO = 6201
-
---[[
 	[1] = {--ResCompleteSTTask
 		[1] = {--repeated RewardsMsg
 			[1] = 'int32':id
@@ -9477,11 +9626,21 @@ s2c.HERO_RES_COMPLETE_STTASK = 1047
 s2c.NEW_BUILDING_RES_SPEED_PART_TIME_JOB = 2075
 
 --[[
-	[1] = {--ParticleWorldAmbushMsg
-		[1] = 'int32':ambushId	[伏击关卡id]
+	[1] = {--QliphothTreeInfoMsg
+		[1] = 'int32':openWorldCid	[当前世界cid,为0则还没有开放的世界]
+		[2] = 'int32':missionComplete	[净化任务阶段完成数]
+		[3] = 'int32':qliphothCoin	[卡巴拉代币]
+		[4] = 'int32':qliphothEnergy	[卡巴拉能量]
+		[5] = 'bool':firstUse	[是否首次使用功能]
+		[6] = {--repeated WorldOpenTime
+			[1] = 'int32':worldCid	[ 质点世界id]
+			[2] = 'int32':begining	[ 开启时间点]
+			[3] = 'int32':endTime	[ 结束时间点]
+			[4] = 'int32':beSoon	[ 客户端展示阶段时间]
+		},
 	}
 --]]
-s2c.QLIPHOTH_PARTICLE_WORLD_AMBUSH = 6210
+s2c.QLIPHOTH_QLIPHOTH_TREE_INFO = 6201
 
 --[[
 	[1] = {--ResSummonCount
@@ -9678,6 +9837,17 @@ s2c.EXTRA_DATING_RES_FRESH_ROLE_NOTICE = 5661
 s2c.SACRIFICE_RESP_SPRING_SACRIFICE = 8000
 
 --[[
+	[1] = {--QliphothMissionsMsg
+		[1] = {--repeated QliphothMission
+			[1] = 'int32':missionId	[ 任务id]
+			[2] = 'int32':progress	[ 任务进度]
+		},
+		[2] = 'bool':completed	[ 当前阶段任务是否完成]
+	}
+--]]
+s2c.QLIPHOTH_QLIPHOTH_MISSIONS = 6207
+
+--[[
 	[1] = {--ParticleWorldStatusMsg
 		[1] = {--QliphothTreeInfoMsg
 			[1] = 'int32':openWorldCid	[当前世界cid,为0则还没有开放的世界]
@@ -9698,6 +9868,12 @@ s2c.SACRIFICE_RESP_SPRING_SACRIFICE = 8000
 s2c.QLIPHOTH_PARTICLE_WORLD_STATUS = 6221
 
 --[[
+	[1] = {--RespAngelAddBit
+	}
+--]]
+s2c.HERO_RESP_ANGEL_ADD_BIT = 1033
+
+--[[
 	[1] = {--RspOldSpiritFeedback
 		[1] = {--repeated RewardsMsg
 			[1] = 'int32':id
@@ -9706,12 +9882,6 @@ s2c.QLIPHOTH_PARTICLE_WORLD_STATUS = 6221
 	}
 --]]
 s2c.HERO_SPIRIT_RSP_OLD_SPIRIT_FEEDBACK = 8408
-
---[[
-	[1] = {--RespAngelAddBit
-	}
---]]
-s2c.HERO_RESP_ANGEL_ADD_BIT = 1033
 
 --[[
 	[1] = {--InitUnionChatInfo
@@ -9812,17 +9982,6 @@ s2c.DATING_CITY_DATING_INFO = 1549
 s2c.PLAYER_PLAYER_INFO = 267
 
 --[[
-	[1] = {--ResEquipRemouldInfo
-		[1] = 'string':equipmentId	[灵装id]
-		[2] = {--repeated AttrChange
-			[1] = 'int32':index	[属性id]
-			[2] = 'string':value	[变化值]
-		},
-	}
---]]
-s2c.EQUIPMENT_RES_EQUIP_REMOULD_INFO = 2829
-
---[[
 	[1] = {--ChristmasBoxRefresh
 		[1] = {--repeated ChristmasMapBoxes
 			[1] = 'int32':location	[位置信息]
@@ -9833,16 +9992,15 @@ s2c.EQUIPMENT_RES_EQUIP_REMOULD_INFO = 2829
 s2c.CHRISTMAS_CHRISTMAS_BOX_REFRESH = 6611
 
 --[[
-	[1] = {--FormationInfo
-		[1] = {--ChangeType(enum)
-			'v4':ChangeType
+	[1] = {--ResEquipRemouldInfo
+		[1] = 'string':equipmentId	[灵装id]
+		[2] = {--repeated AttrChange
+			[1] = 'int32':index	[属性id]
+			[2] = 'string':value	[变化值]
 		},
-		[2] = 'int32':type	[ 阵型类型]
-		[3] = 'int32':status	[ 阵型状态 0 未启用 1 启用]
-		[4] = 'repeated string':stance	[ 阵型英雄]
 	}
 --]]
-s2c.PLAYER_FORMATION_INFO = 264
+s2c.EQUIPMENT_RES_EQUIP_REMOULD_INFO = 2829
 
 --[[
 	[1] = {--ResArrestNianBeast
@@ -9881,23 +10039,18 @@ s2c.YOUCI_RSP_MAN_REFRESH_YOUCI = 9103
 s2c.FRIEND_RESP_GET_FRIEND_INVITE_INFO = 3078
 
 --[[
-	[1] = {--FightOverMsg
-		[1] = {--LevelInfo
-			[1] = 'int32':cid	[关卡cid]
-			[2] = 'repeated int32':goals	[达成目标的下标]
-			[3] = 'int32':fightCount	[战斗次数]
-			[4] = 'bool':win	[是否胜利]
-			[5] = 'int32':buyCount	[购买次数]
-			[6] = 'int32':freeCount	[ 周卡或者是月卡的免费次数]
+	[1] = {--FormationInfoList
+		[1] = {--repeated FormationInfo
+			[1] = {--ChangeType(enum)
+				'v4':ChangeType
+			},
+			[2] = 'int32':type	[ 阵型类型]
+			[3] = 'int32':status	[ 阵型状态 0 未启用 1 启用]
+			[4] = 'repeated string':stance	[ 阵型英雄]
 		},
-		[2] = {--repeated RewardsMsg
-			[1] = 'int32':id
-			[2] = 'int32':num
-		},
-		[3] = 'bool':win	[是否胜利]
 	}
 --]]
-s2c.DUNGEON_FIGHT_OVER = 1794
+s2c.PLAYER_FORMATION_INFO_LIST = 265
 
 --[[
 	[1] = {--ResSpecialTrain
@@ -9948,14 +10101,14 @@ s2c.SUMMON_SUMMON_VALUE = 3337
 s2c.DUNGEON_RESP_TIME_LINKAGE_INFO = 1815
 
 --[[
-	[1] = {--Resp2019ChristmasProduct
-		[1] = {--repeated RewardsMsg
-			[1] = 'int32':id
-			[2] = 'int32':num
+	[1] = {--OfficeItemsMsg
+		[1] = {--repeated GridItem
+			[1] = 'int32':itemId	[ 道具id]
+			[2] = 'int32':itemNum	[ 道具数量]
 		},
 	}
 --]]
-s2c.CHRISTMAS_RESP2019_CHRISTMAS_PRODUCT = 6617
+s2c.OFFICE_EXPLORE_OFFICE_ITEMS = 7206
 
 --[[
 	[1] = {--RespHeroDispatches
@@ -9977,22 +10130,22 @@ s2c.CHRISTMAS_RESP2019_CHRISTMAS_PRODUCT = 6617
 s2c.HERO_DISPATCH_RESP_HERO_DISPATCHES = 8606
 
 --[[
+	[1] = {--Resp2019ChristmasProduct
+		[1] = {--repeated RewardsMsg
+			[1] = 'int32':id
+			[2] = 'int32':num
+		},
+	}
+--]]
+s2c.CHRISTMAS_RESP2019_CHRISTMAS_PRODUCT = 6617
+
+--[[
 	[1] = {--ResAskSwitch
 		[1] = 'bool':openAsk	[是否开启问卷调查]
 		[2] = 'string':askUrl	[问卷调查地址]
 	}
 --]]
 s2c.PLAYER_RES_ASK_SWITCH = 287
-
---[[
-	[1] = {--ResSetBackground
-		[1] = 'int32':dayBackground	[ 白天背景]
-		[2] = 'int32':nightBackground	[夜晚背景]
-		[3] = 'int32':dayBGM	[白天bgm]
-		[4] = 'int32':nightBGM	[夜晚bgm]
-	}
---]]
-s2c.PLAYER_RES_SET_BACKGROUND = 290
 
 --[[
 	[1] = {--pushChat
@@ -10006,27 +10159,21 @@ s2c.PLAYER_RES_SET_BACKGROUND = 290
 s2c.DATINGPUSH_CHAT = 1556
 
 --[[
+	[1] = {--ResSetBackground
+		[1] = 'int32':dayBackground	[ 白天背景]
+		[2] = 'int32':nightBackground	[夜晚背景]
+		[3] = 'int32':dayBGM	[白天bgm]
+		[4] = 'int32':nightBGM	[夜晚bgm]
+	}
+--]]
+s2c.PLAYER_RES_SET_BACKGROUND = 290
+
+--[[
 	[1] = {--UpdateBackgroundTime
 		[1] = 'int32':time	[ 1白天2夜晚]
 	}
 --]]
 s2c.PLAYER_UPDATE_BACKGROUND_TIME = 292
-
---[[
-	[1] = {--AreaOutlineMsg
-		[1] = 'int32':curAreaCid	[当前区域cid]
-		[2] = 'repeated int32':openAreas	[已激活的区域]
-		[3] = 'repeated int32':finTasks	[已完成的任务]
-		[4] = {--repeated OfficeComplteEvents
-			[1] = 'int32':areaCid	[ 区域id]
-			[2] = {--repeated OfficeComplteEvent
-				[1] = 'int32':cid	[ 事件id]
-				[2] = 'int32':num	[ 完成数量]
-			},
-		},
-	}
---]]
-s2c.OFFICE_EXPLORE_AREA_OUTLINE = 7102
 
 --[[
 	[1] = {--ResAppreciate
@@ -10046,6 +10193,31 @@ s2c.TEAM_RES_APPRECIATE = 5899
 s2c.QLIPHOTH_PARTICLE_WORLD_EVENT = 6203
 
 --[[
+	[1] = {--OfficeAreaMapPoint
+		[1] = {--GridMapPoint
+			[1] = 'int32':x	[ x位置]
+			[2] = 'int32':y	[ y位置]
+			[3] = 'int32':event	[ 事件id,大于0则有事件]
+			[4] = 'bool':eventValid	[ 事件是否可用]
+			[5] = 'bool':visual	[ 是否可视,即是否开启格子]
+			[6] = {--repeated GridPointInfo
+				[1] = 'int32':x	[ x位置]
+				[2] = 'int32':y	[ y位置]
+			},
+		},
+	}
+--]]
+s2c.OFFICE_EXPLORE_OFFICE_AREA_MAP_POINT = 7205
+
+--[[
+	[1] = {--RspStartFightEndless
+		[1] = 'int32':levelCid	[起始关卡id]
+		[2] = 'repeated int32':buff	[当前关卡服务器限定buff,可能为空]
+	}
+--]]
+s2c.ENDLESS_CLOISTER_RSP_START_FIGHT_ENDLESS = 5378
+
+--[[
 	[1] = {--RespFlopSpeedLink
 		[1] = {--SpeedLink
 			[1] = 'int32':location	[位置]
@@ -10057,19 +10229,14 @@ s2c.QLIPHOTH_PARTICLE_WORLD_EVENT = 6203
 s2c.ACTIVITY_RESP_FLOP_SPEED_LINK = 5151
 
 --[[
-	[1] = {--RspStartFightEndless
-		[1] = 'int32':levelCid	[起始关卡id]
-		[2] = 'repeated int32':buff	[当前关卡服务器限定buff,可能为空]
+	[1] = {--RespNodePrizeMsg
+		[1] = {--repeated RewardsMsg
+			[1] = 'int32':id
+			[2] = 'int32':num
+		},
 	}
 --]]
-s2c.ENDLESS_CLOISTER_RSP_START_FIGHT_ENDLESS = 5378
-
---[[
-	[1] = {--ResStrengthenNewEquip
-		[1] = 'bool':isSuccess
-	}
---]]
-s2c.EQUIPMENT_RES_STRENGTHEN_NEW_EQUIP = 2831
+s2c.ODEUM_RESP_NODE_PRIZE = 6504
 
 --[[
 	[1] = {--AreaMoveMsg
@@ -10209,17 +10376,6 @@ s2c.ODEUM_UPDATE_CONTRIBUTION = 6505
 s2c.HERO_DISPATCH_RESP_HERO_DISPATCH_INFO = 8601
 
 --[[
-	[1] = {--RespSelfContriPrize
-		[1] = 'int32':prizeIndex	[奖励索引]
-		[2] = {--repeated RewardsMsg
-			[1] = 'int32':id
-			[2] = 'int32':num
-		},
-	}
---]]
-s2c.ODEUM_RESP_SELF_CONTRI_PRIZE = 6512
-
---[[
 	[1] = {--PracticeInfo
 		[1] = 'int32':startTime	[开启时间点]
 		[2] = 'int32':endTime	[关闭时间点]
@@ -10237,14 +10393,15 @@ s2c.ODEUM_RESP_SELF_CONTRI_PRIZE = 6512
 s2c.HERO_PRACTICE_PRACTICE_INFO = 6401
 
 --[[
-	[1] = {--RespNodePrizeMsg
-		[1] = {--repeated RewardsMsg
+	[1] = {--RespSelfContriPrize
+		[1] = 'int32':prizeIndex	[奖励索引]
+		[2] = {--repeated RewardsMsg
 			[1] = 'int32':id
 			[2] = 'int32':num
 		},
 	}
 --]]
-s2c.ODEUM_RESP_NODE_PRIZE = 6504
+s2c.ODEUM_RESP_SELF_CONTRI_PRIZE = 6512
 
 --[[
 	[1] = {--OfficeMissionsMsg
@@ -10256,6 +10413,13 @@ s2c.ODEUM_RESP_NODE_PRIZE = 6504
 	}
 --]]
 s2c.OFFICE_EXPLORE_OFFICE_MISSIONS = 7207
+
+--[[
+	[1] = {--ResStrengthenNewEquip
+		[1] = 'bool':isSuccess
+	}
+--]]
+s2c.EQUIPMENT_RES_STRENGTHEN_NEW_EQUIP = 2831
 
 --[[
 	[1] = {--ResNewWorldChat
@@ -10281,17 +10445,6 @@ s2c.NEW_WORLD_RES_NEW_WORLD_CHAT = 6808
 s2c.CHRISTMAS_CHRISTMAS_INVADE_REFRESH = 6610
 
 --[[
-	[1] = {--RspPassStageEndless
-		[1] = 'int32':nextLevelCid	[下一关卡id]
-		[2] = {--repeated RewardsMsg
-			[1] = 'int32':id
-			[2] = 'int32':num
-		},
-	}
---]]
-s2c.ENDLESS_CLOISTER_RSP_PASS_STAGE_ENDLESS = 5379
-
---[[
 	[1] = {--ResTrainDungeonInfo
 		[1] = {--repeated TrainDungeonInfo
 			[1] = 'int32':dungeonId
@@ -10308,6 +10461,17 @@ s2c.CHASM_RES_TRAIN_DUNGEON_INFO = 6152
 	}
 --]]
 s2c.EXTRA_DATING_RESP_ENTER = 5662
+
+--[[
+	[1] = {--RspPassStageEndless
+		[1] = 'int32':nextLevelCid	[下一关卡id]
+		[2] = {--repeated RewardsMsg
+			[1] = 'int32':id
+			[2] = 'int32':num
+		},
+	}
+--]]
+s2c.ENDLESS_CLOISTER_RSP_PASS_STAGE_ENDLESS = 5379
 
 --[[
 	[1] = {--ResLimitlessSummon
@@ -10359,6 +10523,22 @@ s2c.NEW_WORLD_RES_PRE_ENTER_NEW_WORLD = 6800
 	}
 --]]
 s2c.NEW_WORLD_RES_NEW_WORLD_MISSION_INFO = 6811
+
+--[[
+	[1] = {--RespAITrainingInfo
+		[1] = 'int32':roleId	[精灵ID]
+		[2] = 'int32':sTime	[调教卡开始时间]
+		[3] = 'int32':eTime	[调教卡结束时间]
+		[4] = 'int32':totalNum	[总通过量]
+		[5] = 'int32':sucNum	[成功通过量]
+		[6] = 'int32':level	[调教等级]
+		[7] = 'int32':exp	[调教经验]
+		[8] = 'int32':days	[调教天数]
+		[9] = 'string':bestQuery	[最赞调教]
+		[10] = 'string':bestReply	[最赞调教]
+	}
+--]]
+s2c.DATING_RESP_AITRAINING_INFO = 1563
 
 --[[
 	[1] = {--RspTakeOffLadderEquipMsg
@@ -10474,22 +10654,6 @@ s2c.NEW_WORLD_RES_NEW_WORLD_MISSION_INFO = 6811
 s2c.LADDER_RSP_TAKE_OFF_LADDER_EQUIP = 8306
 
 --[[
-	[1] = {--RespAITrainingInfo
-		[1] = 'int32':roleId	[精灵ID]
-		[2] = 'int32':sTime	[调教卡开始时间]
-		[3] = 'int32':eTime	[调教卡结束时间]
-		[4] = 'int32':totalNum	[总通过量]
-		[5] = 'int32':sucNum	[成功通过量]
-		[6] = 'int32':level	[调教等级]
-		[7] = 'int32':exp	[调教经验]
-		[8] = 'int32':days	[调教天数]
-		[9] = 'string':bestQuery	[最赞调教]
-		[10] = 'string':bestReply	[最赞调教]
-	}
---]]
-s2c.DATING_RESP_AITRAINING_INFO = 1563
-
---[[
 	[1] = {--UpadteLevelInfo
 		[1] = {--LevelInfos
 			[1] = {--repeated LevelInfo
@@ -10518,12 +10682,6 @@ s2c.DATING_RESP_AITRAINING_INFO = 1563
 	}
 --]]
 s2c.DUNGEON_UPADTE_LEVEL_INFO = 1814
-
---[[
-	[1] = {--ResUseTrialCard
-	}
---]]
-s2c.ITEM_RES_USE_TRIAL_CARD = 517
 
 --[[
 	[1] = {--ResSummerCourageEnter
@@ -10555,17 +10713,11 @@ s2c.ITEM_RES_USE_TRIAL_CARD = 517
 s2c.SUMMER_COURAGE_RES_SUMMER_COURAGE_ENTER = 6909
 
 --[[
-	[1] = {--RespUiChangeInfo
-		[1] = {--repeated UiChangeInfo
-			[1] = {--ChangeType(enum)
-				'v4':ChangeType
-			},
-			[2] = 'int32':cid
-		},
-		[2] = 'int32':wearId
+	[1] = {--RespEquipMedal
+		[1] = 'bool':success
 	}
 --]]
-s2c.MEDAL_RESP_UI_CHANGE_INFO = 3010
+s2c.MEDAL_RESP_EQUIP_MEDAL = 3002
 
 --[[
 	[1] = {--DialogueMsg
@@ -10603,13 +10755,27 @@ s2c.CHRISTMAS_UPDATE_COMPOSE_INFO = 6602
 s2c.PLAYER_RES_NEW_PLAYER_GUIDE = 278
 
 --[[
-	[1] = {--RespChoices
-		[1] = 'int32':datingType	[约会类型1 外传 2 主线]
-		[2] = 'int32':datingValue	[当类型为外传时,值传外传ID,主线则为主线章节]
-		[3] = 'repeated int32':eventId	[id列表]
+	[1] = {--MailInfoList
+		[1] = {--repeated MailInfo
+			[1] = {--ChangeType(enum)
+				'v4':ChangeType
+			},
+			[2] = 'string':id	[ 邮件ID]
+			[3] = 'int32':senderId	[ 发送者id]
+			[4] = 'string':senderName	[ 发送者名字]
+			[5] = 'int32':createTime	[ 创建时间]
+			[6] = 'int32':modifiedTime	[ 邮件时间]
+			[7] = 'int32':status	[ 状态]
+			[8] = 'string':title	[ 邮件标题]
+			[9] = 'string':body	[ 邮件正文]
+			[10] = {--repeated RewardsMsg
+				[1] = 'int32':id
+				[2] = 'int32':num
+			},
+		},
 	}
 --]]
-s2c.EXTRA_DATING_RESP_CHOICES = 5640
+s2c.MAIL_MAIL_INFO_LIST = 772
 
 --[[
 	[1] = {--ResqChasmExitFight
@@ -10618,19 +10784,13 @@ s2c.EXTRA_DATING_RESP_CHOICES = 5640
 s2c.CHASM_RESQ_CHASM_EXIT_FIGHT = 6147
 
 --[[
-	[1] = {--RespRefreshRecruit
-		[1] = {--RecruitInfo
-			[1] = {--repeated Recruit
-				[1] = 'int32':cid	[招募id]
-				[2] = 'bool':state	[招募状态]
-			},
-			[2] = 'int32':nextTime	[下一次的免费刷新时间]
-			[3] = 'int32':recruitTimes	[每一天的招募次数]
-			[4] = 'int32':recruitBuyTimes	[每一天的购买刷新次数]
-		},
+	[1] = {--RespChoices
+		[1] = 'int32':datingType	[约会类型1 外传 2 主线]
+		[2] = 'int32':datingValue	[当类型为外传时,值传外传ID,主线则为主线章节]
+		[3] = 'repeated int32':eventId	[id列表]
 	}
 --]]
-s2c.MAID_ACTIVITY_RESP_REFRESH_RECRUIT = 9154
+s2c.EXTRA_DATING_RESP_CHOICES = 5640
 
 --[[
 	[1] = {--RefreshBuffMsg
@@ -10681,17 +10841,23 @@ s2c.ACTIVITY_RESP_RANK_ACTIVITY = 5132
 s2c.CHASM_RSEP_ENTER_CHASM = 6149
 
 --[[
-	[1] = {--RespHuntingWeaknessInfo
-		[1] = {--HuntingPlayerWeakness
-			[1] = {--repeated HuntingWeakness
-				[1] = 'int32':dungeon	[副本id]
-				[2] = 'int32':count	[通关次数]
+	[1] = {--ResRemouldGem
+		[1] = {--GemInfo
+			[1] = {--ChangeType(enum)
+				'v4':ChangeType
 			},
-			[2] = 'int32':leftCount	[个人剩余次数]
+			[2] = 'string':id	[宝石id]
+			[3] = 'int32':cid	[宝石cid]
+			[4] = 'int32':heroId	[英雄id]
+			[5] = 'repeated int32':randSkill	[随机技能]
+			[6] = {--GemRandSkill
+				[1] = 'int32':originalSkill	[ 原始id]
+				[2] = 'int32':newSkill	[ 新id]
+			},
 		},
 	}
 --]]
-s2c.HUNTING_DUNGEON_RESP_HUNTING_WEAKNESS_INFO = 8509
+s2c.EQUIPMENT_RES_REMOULD_GEM = 2836
 
 --[[
 	[1] = {--ResqOdeumLevelInfo
@@ -10736,6 +10902,19 @@ s2c.QLIPHOTH_WORLD_POINT_EXPLORELO = 6217
 s2c.RECHARGE_RES_TOTAL_PAY_REWARD_INFO = 4361
 
 --[[
+	[1] = {--RespHuntingWeaknessInfo
+		[1] = {--HuntingPlayerWeakness
+			[1] = {--repeated HuntingWeakness
+				[1] = 'int32':dungeon	[副本id]
+				[2] = 'int32':count	[通关次数]
+			},
+			[2] = 'int32':leftCount	[个人剩余次数]
+		},
+	}
+--]]
+s2c.HUNTING_DUNGEON_RESP_HUNTING_WEAKNESS_INFO = 8509
+
+--[[
 	[1] = {--RespHuntingStepInfo
 		[1] = {--HuntingStep
 			[1] = 'int32':step	[当前阶段,0 功能未开放, 1 准备期开放, 2 准备期结算, 3 准备期结束, 11 正式挑战开放, 12 正式挑战结算, 13 正式挑战结束]
@@ -10744,48 +10923,6 @@ s2c.RECHARGE_RES_TOTAL_PAY_REWARD_INFO = 4361
 	}
 --]]
 s2c.HUNTING_DUNGEON_RESP_HUNTING_STEP_INFO = 8507
-
---[[
-	[1] = {--RespHuntingRank
-		[1] = {--repeated HuntingDamage
-			[1] = 'int32':unionId	[社团id]
-			[2] = 'int32':unionLv	[社团等级]
-			[3] = 'string':unionName	[社团名]
-			[4] = 'int32':bossLv	[boss等级]
-			[5] = 'int32':dmgRate	[伤害万分比]
-			[6] = 'int32':rank	[名次]
-			[7] = 'int32':icon	[icon]
-		},
-		[2] = {--HuntingDamage
-			[1] = 'int32':unionId	[社团id]
-			[2] = 'int32':unionLv	[社团等级]
-			[3] = 'string':unionName	[社团名]
-			[4] = 'int32':bossLv	[boss等级]
-			[5] = 'int32':dmgRate	[伤害万分比]
-			[6] = 'int32':rank	[名次]
-			[7] = 'int32':icon	[icon]
-		},
-		[3] = {--repeated HuntingHonor
-			[1] = 'int32':playerId	[玩家id]
-			[2] = 'string':playerName	[玩家id]
-			[3] = 'int32':playerLv	[玩家等级]
-			[4] = 'int32':honor	[荣耀值]
-			[5] = 'int32':fightCount	[挑战次数]
-			[6] = 'int32':rank	[名次]
-			[7] = 'int32':headId	[头像]
-		},
-		[4] = {--HuntingHonor
-			[1] = 'int32':playerId	[玩家id]
-			[2] = 'string':playerName	[玩家id]
-			[3] = 'int32':playerLv	[玩家等级]
-			[4] = 'int32':honor	[荣耀值]
-			[5] = 'int32':fightCount	[挑战次数]
-			[6] = 'int32':rank	[名次]
-			[7] = 'int32':headId	[头像]
-		},
-	}
---]]
-s2c.HUNTING_DUNGEON_RESP_HUNTING_RANK = 8502
 
 --[[
 	[1] = {--ResLimitlessSummonReward
@@ -10814,122 +10951,19 @@ s2c.QLIPHOTH_OPERATE_FORMATION = 6204
 s2c.SUMMER_COURAGE_RES_SUMMER_COURAGE_EXPLORE = 6901
 
 --[[
+	[1] = {--ResBulletInfo
+		[1] = 'int32':barrageId	[类型标识]
+		[2] = 'int32':lastSendTime
+	}
+--]]
+s2c.CHAT_RES_BULLET_INFO = 2317
+
+--[[
 	[1] = {--RespGetZZAllServerMsg
 		[1] = 'int64':serverContribution	[贡献度]
 	}
 --]]
 s2c.ACTIVITY_RESP_GET_ZZALL_SERVER = 5137
-
---[[
-	[1] = {--HeroInfo
-		[1] = {--ChangeType(enum)
-			'v4':ChangeType
-		},
-		[2] = 'string':id	[ 实例ID]
-		[3] = 'int32':cid	[ 配置ID]
-		[4] = 'int32':lvl	[ 等级]
-		[5] = 'int64':exp	[ 经验]
-		[6] = {--repeated AttributeInfo
-			[1] = 'int32':type	[ 属性类型]
-			[2] = 'int32':val	[ 属性值]
-		},
-		[7] = 'int32':advancedLvl	[ 突破等级]
-		[8] = {--repeated HeroEquipment
-			[1] = 'int32':position	[装备位置]
-			[2] = 'string':equipmentId	[装备id]
-			[3] = {--EquipmentInfo
-				[1] = {--ChangeType(enum)
-					'v4':ChangeType
-				},
-				[2] = 'string':id	[灵装id]
-				[3] = 'int32':cid	[灵装cid]
-				[4] = 'int32':level	[灵装等级]
-				[5] = 'int32':exp	[灵装经验值]
-				[6] = 'string':heroId	[英雄id]
-				[7] = 'int32':position	[装备位置]
-				[8] = {--repeated SpecialAttr
-					[1] = 'int32':cid	[配置id]
-					[2] = 'int32':value	[属性值]
-					[3] = 'int32':index	[属性服务器顺序]
-				},
-				[9] = 'int32':oldAttrIndex	[临时特殊属性:属性位置]
-				[10] = 'int32':newAttrType	[临时特殊属性:新属性类型]
-				[11] = 'int32':newAttrValue	[临时特殊属性:新属性值]
-				[12] = 'int32':outTime	[过期时间]
-				[13] = 'bool':isLock	[是否已经锁定,false:否,ture:是]
-				[14] = 'int32':star	[额外星数]
-				[15] = 'int32':stage	[阶段]
-				[16] = 'int32':num	[数量]
-				[17] = 'int32':step	[质点阶级]
-			},
-		},
-		[9] = 'bool':helpFight	[ 助战]
-		[10] = 'int32':angelLvl	[ 天使等级]
-		[11] = {--repeated AngeSkillInfo
-			[1] = 'int32':type
-			[2] = 'int32':pos
-			[3] = 'int32':lvl
-		},
-		[12] = 'int32':useSkillPiont	[ 已使用技能点]
-		[13] = 'int32':quality	[ 品质(进阶等级)    // 品质(进阶等级)]
-		[14] = 'int32':provide	[出处]
-		[15] = 'int32':fightPower	[ 战斗力]
-		[16] = 'int32':skinCid	[ 皮肤cid]
-		[17] = {--repeated SkillStrategy
-			[1] = 'int32':id
-			[2] = 'string':name
-			[3] = 'int32':alreadyUseSkillPiont
-			[4] = {--repeated AngeSkillInfo
-				[1] = 'int32':type
-				[2] = 'int32':pos
-				[3] = 'int32':lvl
-			},
-			[5] = {--repeated PassiveSkillInfo
-				[1] = 'int32':pos
-				[2] = 'int32':skillId
-			},
-		},
-		[18] = 'int32':useSkillStrategy
-		[19] = {--repeated CrystalInfo
-			[1] = 'int32':rarity
-			[2] = 'int32':gridId
-		},
-		[20] = 'repeated int32':equipSkillIds	[装备激活的skillId,对应PassiveSkills表的id]
-		[21] = {--repeated EuqipFetterInfo
-			[1] = 'int32':index
-			[2] = {--NewEquipmentInfo
-				[1] = {--ChangeType(enum)
-					'v4':ChangeType
-				},
-				[2] = 'string':id	[新装备id]
-				[3] = 'int32':cid	[新装备cid]
-				[4] = 'int32':stage	[新装备阶段等级]
-				[5] = 'int32':level	[新装备等级]
-				[6] = 'string':heroId	[英雄id]
-				[7] = 'int32':position	[装备位置]
-			},
-		},
-		[22] = {--HeroStatus(enum)
-			'v4':HeroStatus
-		},
-		[23] = 'int32':deadLine
-		[24] = {--repeated GemInfo
-			[1] = {--ChangeType(enum)
-				'v4':ChangeType
-			},
-			[2] = 'string':id	[宝石id]
-			[3] = 'int32':cid	[宝石cid]
-			[4] = 'int32':heroId	[英雄id]
-			[5] = 'repeated int32':randSkill	[随机技能]
-			[6] = {--GemRandSkill
-				[1] = 'int32':originalSkill	[ 原始id]
-				[2] = 'int32':newSkill	[ 新id]
-			},
-		},
-		[25] = 'int32':skinCidTemp	[ 皮肤cid]
-	}
---]]
-s2c.HERO_HERO_INFO = 1026
 
 --[[
 	[1] = {--RespBindInviteCode

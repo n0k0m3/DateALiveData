@@ -133,7 +133,7 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = 360,
-								PositionY = -131,
+								PositionY = -207,
 							},
 							UItype = "Button",
 							width = "198",
@@ -184,6 +184,7 @@ local t =
 										PositionX = 15,
 										PositionY = -2,
 									},
+									visible = "False",
 									width = "158",
 									ZOrder = "1",
 								},

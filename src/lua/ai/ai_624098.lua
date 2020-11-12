@@ -1,0 +1,195 @@
+return {
+    ["links"] = {
+        ["1318B32C89D34E8FA65BE904F2148CFF"] = {
+            [1] = "840BEB0190204BAF80EC8D67EBD864AF",
+        },
+        ["86A6FD2F080A4780927C080CE636ACD5"] = {
+            [1] = "7E0887D0556D4AC0BDB67635EF2C9977",
+        },
+        ["853D5DC9077A4350B0409768A464A6CC"] = {
+            [1] = "D14237B0B3EF4CBB9A4BB2073ADE6560",
+        },
+        ["D14237B0B3EF4CBB9A4BB2073ADE6560"] = {
+            [1] = "554655F78B40459D9B2EE22810EB5F7D",
+        },
+        ["F704226FA6C74EC6A3C6BF7A0A01030D"] = {
+            [1] = "DAEF690CD617462CA569426EE6683456",
+            [2] = "86A6FD2F080A4780927C080CE636ACD5",
+        },
+        ["7E0887D0556D4AC0BDB67635EF2C9977"] = {
+            [1] = "1318B32C89D34E8FA65BE904F2148CFF",
+        },
+        ["DAEF690CD617462CA569426EE6683456"] = {
+            [1] = "7587C276F0BD4A478265C83CA8F8D51C",
+        },
+        ["7587C276F0BD4A478265C83CA8F8D51C"] = {
+            [1] = "853D5DC9077A4350B0409768A464A6CC",
+        },
+    },
+    ["nodes"] = {
+        ["840BEB0190204BAF80EC8D67EBD864AF"] = {
+            ["Desc"] = "行为",
+            ["Pos"] = {
+                ["y"] = 580,
+                ["x"] = 1280,
+            },
+            ["Weight"] = 0,
+            ["Class"] = "KillMySelfBevNode",
+            ["NodeTag"] = "840BEB0190204BAF80EC8D67EBD864AF",
+            ["Type"] = 0,
+            ["IsCount"] = 2,
+            ["Static"] = false,
+        },
+        ["853D5DC9077A4350B0409768A464A6CC"] = {
+            ["Desc"] = "顺序行为",
+            ["Pos"] = {
+                ["y"] = 318,
+                ["x"] = 885,
+            },
+            ["Weight"] = 0,
+            ["Class"] = "OrderBevNode",
+            ["NodeTag"] = "853D5DC9077A4350B0409768A464A6CC",
+            ["Type"] = 0,
+            ["Static"] = false,
+        },
+        ["7587C276F0BD4A478265C83CA8F8D51C"] = {
+            ["Pos"] = {
+                ["y"] = 351,
+                ["x"] = 615,
+            },
+            ["Class"] = "ConditionInFightTimeoutNode",
+            ["NodeTag"] = "7587C276F0BD4A478265C83CA8F8D51C",
+            ["Duration"] = 7000,
+            ["Type"] = 1,
+            ["Static"] = false,
+        },
+        ["7E0887D0556D4AC0BDB67635EF2C9977"] = {
+            ["Pos"] = {
+                ["y"] = 530,
+                ["x"] = 639,
+            },
+            ["Property"] = 51,
+            ["Class"] = "ConditionPropertyNode",
+            ["NodeTag"] = "7E0887D0556D4AC0BDB67635EF2C9977",
+            ["Value"] = 10000,
+            ["Judge"] = 2,
+            ["Static"] = false,
+        },
+        ["DAEF690CD617462CA569426EE6683456"] = {
+            ["Desc"] = "子节点",
+            ["Duration"] = 0,
+            ["NodeTag"] = "DAEF690CD617462CA569426EE6683456",
+            ["Force"] = 0,
+            ["TriggerType"] = 0,
+            ["Static"] = false,
+            ["Pos"] = {
+                ["y"] = 352,
+                ["x"] = 361,
+            },
+            ["Class"] = "ChildNode",
+            ["Loop"] = 0,
+            ["Priority"] = 0,
+            ["DurationInterval"] = {
+                [1] = 0,
+                [2] = 0,
+            },
+        },
+        ["9B284D83796E4DB0B5424DFF8046086F"] = {
+            ["Desc"] = "行为",
+            ["Pos"] = {
+                ["y"] = 346,
+                ["x"] = 1285,
+            },
+            ["Weight"] = 0,
+            ["Class"] = "DelayBevNode",
+            ["NodeTag"] = "9B284D83796E4DB0B5424DFF8046086F",
+            ["DelayTime"] = 9999999,
+            ["Type"] = 0,
+            ["Static"] = false,
+        },
+        ["86A6FD2F080A4780927C080CE636ACD5"] = {
+            ["Desc"] = "子节点",
+            ["Duration"] = 0,
+            ["NodeTag"] = "86A6FD2F080A4780927C080CE636ACD5",
+            ["Force"] = 0,
+            ["TriggerType"] = 0,
+            ["Static"] = false,
+            ["Pos"] = {
+                ["y"] = 470,
+                ["x"] = 367,
+            },
+            ["Class"] = "ChildNode",
+            ["Loop"] = 0,
+            ["Priority"] = 0,
+            ["DurationInterval"] = {
+                [1] = 0,
+                [2] = 0,
+            },
+        },
+        ["FF324D583A7C48FEBAF32EC9C1B04A9F"] = {
+            ["Desc"] = "施放技能",
+            ["Pos"] = {
+                ["y"] = 198,
+                ["x"] = 1504,
+            },
+            ["Weight"] = 0,
+            ["Class"] = "ReleaseSkillBevNode",
+            ["NodeTag"] = "FF324D583A7C48FEBAF32EC9C1B04A9F",
+            ["ID"] = 103820,
+            ["Type"] = 1,
+            ["Static"] = false,
+        },
+        ["F704226FA6C74EC6A3C6BF7A0A01030D"] = {
+            ["Desc"] = "贝露",
+            ["Pos"] = {
+                ["y"] = 364,
+                ["x"] = 124,
+            },
+            ["Category"] = 1,
+            ["Class"] = "RootNode",
+            ["NodeTag"] = "F704226FA6C74EC6A3C6BF7A0A01030D",
+            ["ID"] = "624098",
+            ["Name"] = "贝露能量球7s",
+            ["Static"] = true,
+        },
+        ["554655F78B40459D9B2EE22810EB5F7D"] = {
+            ["Desc"] = "行为",
+            ["Pos"] = {
+                ["y"] = 245,
+                ["x"] = 1143,
+            },
+            ["Weight"] = 0,
+            ["Class"] = "KillMySelfBevNode",
+            ["NodeTag"] = "554655F78B40459D9B2EE22810EB5F7D",
+            ["Type"] = 0,
+            ["IsCount"] = 2,
+            ["Static"] = false,
+        },
+        ["D14237B0B3EF4CBB9A4BB2073ADE6560"] = {
+            ["Desc"] = "施放技能",
+            ["Pos"] = {
+                ["y"] = 411,
+                ["x"] = 1057,
+            },
+            ["Weight"] = 0,
+            ["Class"] = "ReleaseSkillBevNode",
+            ["NodeTag"] = "D14237B0B3EF4CBB9A4BB2073ADE6560",
+            ["ID"] = 103991,
+            ["Type"] = 1,
+            ["Static"] = false,
+        },
+        ["1318B32C89D34E8FA65BE904F2148CFF"] = {
+            ["Desc"] = "顺序行为",
+            ["Pos"] = {
+                ["y"] = 568,
+                ["x"] = 1044,
+            },
+            ["Weight"] = 0,
+            ["Class"] = "OrderBevNode",
+            ["NodeTag"] = "1318B32C89D34E8FA65BE904F2148CFF",
+            ["Type"] = 0,
+            ["Static"] = false,
+        },
+    },
+    ["root"] = "F704226FA6C74EC6A3C6BF7A0A01030D",
+}

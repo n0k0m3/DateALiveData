@@ -1,0 +1,201 @@
+
+effects_feiji_kaishi.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/kaishi1/guang01_0000
+  rotate: false
+  xy: 2, 701
+  size: 503, 239
+  orig: 512, 256
+  offset: 5, 3
+  index: -1
+images/kaishi1/guangtiao_007
+  rotate: false
+  xy: 2, 942
+  size: 597, 80
+  orig: 604, 225
+  offset: 5, 36
+  index: -1
+images/kaishi1/guangxian_000
+  rotate: false
+  xy: 601, 822
+  size: 400, 200
+  orig: 400, 200
+  offset: 0, 0
+  index: -1
+images/kaishi1/kaishi_002
+  rotate: false
+  xy: 601, 558
+  size: 368, 68
+  orig: 604, 225
+  offset: 211, 31
+  index: -1
+images/kaishi1/kaishi_004
+  rotate: false
+  xy: 601, 724
+  size: 390, 96
+  orig: 604, 225
+  offset: 97, 26
+  index: -1
+images/kaishi1/kaishi_006
+  rotate: true
+  xy: 274, 3
+  size: 336, 90
+  orig: 604, 225
+  offset: 131, 31
+  index: -1
+images/kaishi1/kaishi_008
+  rotate: true
+  xy: 463, 322
+  size: 268, 97
+  orig: 604, 225
+  offset: 164, 31
+  index: -1
+images/kaishi1/kaishi_010
+  rotate: true
+  xy: 2, 4
+  size: 316, 83
+  orig: 604, 225
+  offset: 140, 31
+  index: -1
+images/kaishi1/kaishi_012
+  rotate: false
+  xy: 87, 435
+  size: 364, 90
+  orig: 604, 225
+  offset: 113, 31
+  index: -1
+images/kaishi1/kaishi_014
+  rotate: false
+  xy: 562, 281
+  size: 347, 91
+  orig: 604, 225
+  offset: 122, 31
+  index: -1
+images/kaishi1/kaishi_016
+  rotate: false
+  xy: 460, 188
+  size: 343, 91
+  orig: 604, 225
+  offset: 121, 31
+  index: -1
+images/kaishi1/kaishi_018
+  rotate: false
+  xy: 2, 341
+  size: 343, 92
+  orig: 604, 225
+  offset: 121, 31
+  index: -1
+images/kaishi1/kaishi_020
+  rotate: true
+  xy: 366, 90
+  size: 343, 92
+  orig: 604, 225
+  offset: 121, 31
+  index: -1
+images/kaishi1/kaishi_022
+  rotate: true
+  xy: 87, 2
+  size: 337, 92
+  orig: 604, 225
+  offset: 127, 31
+  index: -1
+images/kaishi1/kaishi_024
+  rotate: true
+  xy: 181, 2
+  size: 337, 91
+  orig: 604, 225
+  offset: 127, 31
+  index: -1
+images/kaishi1/kaishi_034
+  rotate: false
+  xy: 460, 31
+  size: 347, 91
+  orig: 604, 225
+  offset: 127, 31
+  index: -1
+images/kaishi1/kaishi_036
+  rotate: false
+  xy: 562, 374
+  size: 348, 91
+  orig: 604, 225
+  offset: 127, 31
+  index: -1
+images/kaishi1/kaishi_038
+  rotate: true
+  xy: 507, 592
+  size: 348, 92
+  orig: 604, 225
+  offset: 127, 31
+  index: -1
+images/kaishi1/kaishi_040
+  rotate: true
+  xy: 912, 124
+  size: 341, 92
+  orig: 604, 225
+  offset: 127, 31
+  index: -1
+images/kaishi1/kaishi_042
+  rotate: false
+  xy: 601, 628
+  size: 368, 94
+  orig: 604, 225
+  offset: 110, 31
+  index: -1
+images/kaishi1/kaishi_044
+  rotate: false
+  xy: 2, 602
+  size: 467, 97
+  orig: 604, 225
+  offset: 61, 31
+  index: -1
+images/kaishi1/kaishi_046
+  rotate: false
+  xy: 562, 467
+  size: 437, 89
+  orig: 604, 225
+  offset: 117, 31
+  index: -1
+images/kaishi1/kaishi_048
+  rotate: false
+  xy: 2, 527
+  size: 459, 73
+  orig: 604, 225
+  offset: 100, 31
+  index: -1
+
+effects_feiji_kaishi2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/kaishi1/kaishi_026
+  rotate: false
+  xy: 2, 2
+  size: 340, 91
+  orig: 604, 225
+  offset: 127, 31
+  index: -1
+images/kaishi1/kaishi_028
+  rotate: false
+  xy: 2, 95
+  size: 343, 90
+  orig: 604, 225
+  offset: 127, 31
+  index: -1
+images/kaishi1/kaishi_030
+  rotate: false
+  xy: 2, 187
+  size: 345, 90
+  orig: 604, 225
+  offset: 127, 31
+  index: -1
+images/kaishi1/kaishi_032
+  rotate: false
+  xy: 2, 279
+  size: 346, 90
+  orig: 604, 225
+  offset: 127, 31
+  index: -1

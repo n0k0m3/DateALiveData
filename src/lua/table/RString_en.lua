@@ -4989,7 +4989,7 @@ return {
         [1] = {
             baseName = "MFLiHei_Noncommercial",
             name = "font/MFLiHei_Noncommercial.ttf",
-            color = "#000000",
+            color = "#FFFFFF",
             text = "End in",
             clickId = "",
             size = 20,

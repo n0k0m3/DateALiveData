@@ -679,6 +679,9 @@ EV_CLOSE_MAIN_LAYER = "EV_CLOSE_MAIN_LAYER"
 --组队战斗举报成功
 EV_REPORT_SUCCESS = "EV_REPORT_SUCCESS"
 
+--排行更新信息
+EV_RANK_NOTICE_UPDATE = "ev_rank_notice_update"   --排行榜消息更新
+
 
 --社团追猎计划
 EV_HUNTER_RANKLIST_GET = "EV_HUNTER_RANKLIST_GET"

@@ -1,0 +1,264 @@
+
+effects_31201_skillA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillA/dao1/dao_015
+  rotate: false
+  xy: 319, 238
+  size: 398, 285
+  orig: 398, 290
+  offset: 0, 3
+  index: -1
+images/effects/skillA/dao1/dao_017
+  rotate: false
+  xy: 2, 734
+  size: 398, 288
+  orig: 398, 290
+  offset: 0, 2
+  index: -1
+images/effects/skillA/dao2/dao2_028
+  rotate: false
+  xy: 448, 54
+  size: 237, 182
+  orig: 417, 343
+  offset: 40, 70
+  index: -1
+images/effects/skillA/dao2/dao2_029
+  rotate: true
+  xy: 2, 372
+  size: 360, 315
+  orig: 417, 343
+  offset: 39, 9
+  index: -1
+images/effects/skillA/dao2/dao2_030
+  rotate: true
+  xy: 402, 659
+  size: 363, 315
+  orig: 417, 343
+  offset: 27, 9
+  index: -1
+images/effects/skillA/dao2/dao2_031
+  rotate: true
+  xy: 719, 703
+  size: 319, 298
+  orig: 417, 343
+  offset: 97, 9
+  index: -1
+images/effects/skillA/dao2/dao2_033
+  rotate: false
+  xy: 719, 410
+  size: 284, 291
+  orig: 417, 343
+  offset: 110, 9
+  index: -1
+images/effects/skillA/dao2/dao2_035
+  rotate: true
+  xy: 162, 2
+  size: 234, 284
+  orig: 417, 343
+  offset: 160, 9
+  index: -1
+images/effects/skillA/dao2/dao2_037
+  rotate: false
+  xy: 900, 238
+  size: 119, 170
+  orig: 417, 343
+  offset: 243, 9
+  index: -1
+images/effects/skillA/dibao/dibao_031
+  rotate: true
+  xy: 2, 3
+  size: 367, 158
+  orig: 426, 219
+  offset: 21, 19
+  index: -1
+images/effects/skillA/dibao/dibao_035
+  rotate: true
+  xy: 719, 16
+  size: 392, 179
+  orig: 426, 219
+  offset: 8, 14
+  index: -1
+images/effects/skillA/dibao/dibao_041
+  rotate: false
+  xy: 162, 248
+  size: 149, 122
+  orig: 426, 219
+  offset: 137, 33
+  index: -1
+images/effects/skillA/dibao/dibao_043
+  rotate: false
+  xy: 900, 114
+  size: 116, 122
+  orig: 426, 219
+  offset: 163, 33
+  index: -1
+images/effects/skillA/dilie_029
+  rotate: true
+  xy: 319, 525
+  size: 207, 51
+  orig: 207, 69
+  offset: 0, 8
+  index: -1
+images/effects/skillA/dimian/dimian_012
+  rotate: false
+  xy: 372, 529
+  size: 307, 128
+  orig: 331, 162
+  offset: 16, 1
+  index: -1
+images/effects/skillA/shandian/shandian_021
+  rotate: true
+  xy: 900, 10
+  size: 102, 111
+  orig: 182, 164
+  offset: 37, 28
+  index: -1
+
+effects_31201_skillA2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillA/dao1/dao_012
+  rotate: false
+  xy: 2, 535
+  size: 371, 193
+  orig: 398, 290
+  offset: 2, 2
+  index: -1
+images/effects/skillA/dao1/dao_013
+  rotate: false
+  xy: 2, 730
+  size: 386, 278
+  orig: 398, 290
+  offset: 0, 2
+  index: -1
+images/effects/skillA/dao1/dao_020
+  rotate: false
+  xy: 2, 334
+  size: 344, 199
+  orig: 398, 290
+  offset: 27, 64
+  index: -1
+images/effects/skillA/dao1/dao_021
+  rotate: false
+  xy: 375, 504
+  size: 316, 191
+  orig: 398, 290
+  offset: 53, 67
+  index: -1
+images/effects/skillA/dibao/dibao_029
+  rotate: false
+  xy: 361, 225
+  size: 299, 140
+  orig: 426, 219
+  offset: 55, 27
+  index: -1
+images/effects/skillA/dibao/dibao_033
+  rotate: false
+  xy: 390, 841
+  size: 387, 167
+  orig: 426, 219
+  offset: 10, 15
+  index: -1
+images/effects/skillA/dibao/dibao_037
+  rotate: false
+  xy: 2, 149
+  size: 357, 183
+  orig: 426, 219
+  offset: 42, 15
+  index: -1
+images/effects/skillA/dibao/dibao_039
+  rotate: false
+  xy: 2, 4
+  size: 329, 143
+  orig: 426, 219
+  offset: 40, 49
+  index: -1
+images/effects/skillA/dibao/dibao_045
+  rotate: true
+  xy: 908, 737
+  size: 113, 90
+  orig: 426, 219
+  offset: 124, 54
+  index: -1
+images/effects/skillA/dimian/dimian_007
+  rotate: true
+  xy: 908, 852
+  size: 156, 92
+  orig: 331, 162
+  offset: 21, 29
+  index: -1
+images/effects/skillA/dimian/dimian_008
+  rotate: false
+  xy: 361, 100
+  size: 311, 123
+  orig: 331, 162
+  offset: 19, 1
+  index: -1
+images/effects/skillA/dimian/dimian_010
+  rotate: true
+  xy: 779, 699
+  size: 309, 127
+  orig: 331, 162
+  offset: 14, 1
+  index: -1
+images/effects/skillA/dimian/dimian_014
+  rotate: false
+  xy: 348, 367
+  size: 314, 135
+  orig: 331, 162
+  offset: 9, 13
+  index: -1
+images/effects/skillA/dimian/dimian_015
+  rotate: false
+  xy: 390, 697
+  size: 317, 142
+  orig: 331, 162
+  offset: 6, 20
+  index: -1
+images/effects/skillA/glow2
+  rotate: false
+  xy: 908, 665
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+images/effects/skillA/shandian/shandian_019
+  rotate: false
+  xy: 531, 23
+  size: 89, 75
+  orig: 182, 164
+  offset: 44, 32
+  index: -1
+images/effects/skillA/shandian/shandian_020
+  rotate: true
+  xy: 622, 21
+  size: 77, 57
+  orig: 182, 164
+  offset: 50, 49
+  index: -1
+images/effects/skillA/shandian/shandian_022
+  rotate: false
+  xy: 333, 2
+  size: 96, 96
+  orig: 182, 164
+  offset: 41, 36
+  index: -1
+images/effects/skillA/shandian/shandian_023
+  rotate: true
+  xy: 431, 14
+  size: 84, 98
+  orig: 182, 164
+  offset: 43, 36
+  index: -1
+images/effects/skillA/shandian/shandian_024
+  rotate: true
+  xy: 709, 732
+  size: 107, 54
+  orig: 182, 164
+  offset: 30, 60
+  index: -1

@@ -398,6 +398,7 @@ local t =
 										PositionX = -392,
 										PositionY = -6,
 									},
+									visible = "False",
 									width = "130",
 									ZOrder = "1",
 								},
@@ -483,7 +484,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FF622D39",
+									FontColor = "#FFFFFFFF",
 									fontName = "font/fangzheng_zhunyuan.ttf",
 									fontShadow = 
 									{
@@ -529,7 +530,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FF622D39",
+									FontColor = "#FFFFFFFF",
 									fontName = "font/fangzheng_zhunyuan.ttf",
 									fontShadow = 
 									{

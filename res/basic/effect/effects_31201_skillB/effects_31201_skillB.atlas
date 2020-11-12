@@ -1,0 +1,160 @@
+
+effects_31201_skillB.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_L/EskillB/bai_029
+  rotate: false
+  xy: 854, 761
+  size: 125, 91
+  orig: 134, 99
+  offset: 4, 3
+  index: -1
+images/effects_L/EskillB/boom/boom_029
+  rotate: false
+  xy: 266, 678
+  size: 255, 170
+  orig: 276, 172
+  offset: 16, 0
+  index: -1
+images/effects_L/EskillB/boom/boom_030
+  rotate: false
+  xy: 530, 850
+  size: 253, 172
+  orig: 276, 172
+  offset: 9, 0
+  index: -1
+images/effects_L/EskillB/boom/boom_031
+  rotate: false
+  xy: 2, 850
+  size: 264, 172
+  orig: 276, 172
+  offset: 7, 0
+  index: -1
+images/effects_L/EskillB/boom/boom_033
+  rotate: false
+  xy: 2, 676
+  size: 262, 172
+  orig: 276, 172
+  offset: 6, 0
+  index: -1
+images/effects_L/EskillB/boom/boom_035
+  rotate: false
+  xy: 268, 850
+  size: 260, 172
+  orig: 276, 172
+  offset: 4, 0
+  index: -1
+images/effects_L/EskillB/boom/boom_037
+  rotate: false
+  xy: 2, 504
+  size: 260, 170
+  orig: 276, 172
+  offset: 4, 0
+  index: -1
+images/effects_L/EskillB/boom/boom_039
+  rotate: false
+  xy: 785, 854
+  size: 237, 168
+  orig: 276, 172
+  offset: 17, 4
+  index: -1
+images/effects_L/EskillB/boom/boom_041
+  rotate: false
+  xy: 523, 714
+  size: 200, 134
+  orig: 276, 172
+  offset: 17, 12
+  index: -1
+images/effects_L/EskillB/dilie_033
+  rotate: true
+  xy: 2, 182
+  size: 320, 105
+  orig: 320, 121
+  offset: 0, 9
+  index: -1
+images/effects_L/EskillB/kuo_030
+  rotate: true
+  xy: 135, 40
+  size: 145, 98
+  orig: 146, 106
+  offset: 1, 4
+  index: -1
+images/effects_L/EskillB/yanwu/yanwu_006
+  rotate: false
+  xy: 335, 612
+  size: 110, 64
+  orig: 143, 66
+  offset: 12, 2
+  index: -1
+images/effects_L/EskillB/yanwu/yanwu_008
+  rotate: false
+  xy: 854, 694
+  size: 130, 65
+  orig: 143, 66
+  offset: 6, 0
+  index: -1
+images/effects_L/EskillB/yanwu/yanwu_010
+  rotate: true
+  xy: 235, 57
+  size: 128, 65
+  orig: 143, 66
+  offset: 6, 0
+  index: -1
+images/effects_L/EskillB/yanwu/yanwu_012
+  rotate: true
+  xy: 245, 205
+  size: 135, 52
+  orig: 143, 66
+  offset: 8, 0
+  index: -1
+images/effects_L/Eskillc/glow_021
+  rotate: false
+  xy: 523, 666
+  size: 145, 46
+  orig: 150, 61
+  offset: 2, 6
+  index: -1
+images/effects_L/Eskillc/glow_025
+  rotate: false
+  xy: 335, 551
+  size: 57, 59
+  orig: 77, 73
+  offset: 11, 6
+  index: -1
+images/effects_L/skillB/1_023
+  rotate: true
+  xy: 109, 342
+  size: 160, 152
+  orig: 167, 156
+  offset: 1, 4
+  index: -1
+images/effects_L/skillB/1_025
+  rotate: true
+  xy: 109, 187
+  size: 153, 134
+  orig: 167, 156
+  offset: 8, 4
+  index: -1
+images/effects_L/skillB/1_027
+  rotate: true
+  xy: 2, 33
+  size: 147, 131
+  orig: 167, 156
+  offset: 10, 4
+  index: -1
+images/effects_L/skillB/1_029
+  rotate: true
+  xy: 725, 713
+  size: 135, 127
+  orig: 167, 156
+  offset: 16, 4
+  index: -1
+images/effects_L/skillB/1_031
+  rotate: false
+  xy: 264, 548
+  size: 69, 126
+  orig: 167, 156
+  offset: 64, 4
+  index: -1

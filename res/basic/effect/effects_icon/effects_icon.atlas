@@ -1,0 +1,34 @@
+
+effects_icon.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/guang1_000
+  rotate: true
+  xy: 2, 2
+  size: 91, 103
+  orig: 91, 106
+  offset: 0, 0
+  index: -1
+images/guang_000
+  rotate: false
+  xy: 2, 95
+  size: 134, 154
+  orig: 156, 166
+  offset: 8, 0
+  index: -1
+images/tansuo
+  rotate: false
+  xy: 138, 98
+  size: 47, 62
+  orig: 47, 62
+  offset: 0, 0
+  index: -1
+images/tansuo1
+  rotate: false
+  xy: 138, 162
+  size: 62, 87
+  orig: 62, 87
+  offset: 0, 0
+  index: -1

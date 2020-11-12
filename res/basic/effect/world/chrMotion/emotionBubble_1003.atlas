@@ -1,0 +1,20 @@
+
+emotionBubble_1003.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/fanzao_089
+  rotate: false
+  xy: 2, 2
+  size: 82, 80
+  orig: 134, 120
+  offset: 24, 21
+  index: -1
+images/qipao_089
+  rotate: false
+  xy: 2, 84
+  size: 98, 104
+  orig: 167, 156
+  offset: 31, 26
+  index: -1

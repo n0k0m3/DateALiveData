@@ -1,0 +1,153 @@
+
+meirenyubeijing14.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 1374
+  size: 1200, 667
+  orig: 1200, 667
+  offset: 0, 0
+  index: -1
+coral1_1
+  rotate: false
+  xy: 1585, 520
+  size: 380, 125
+  orig: 380, 125
+  offset: 0, 0
+  index: -1
+coral1_2
+  rotate: false
+  xy: 1580, 1076
+  size: 441, 302
+  orig: 441, 302
+  offset: 0, 0
+  index: -1
+coral3_1
+  rotate: true
+  xy: 1082, 345
+  size: 201, 287
+  orig: 201, 287
+  offset: 0, 0
+  index: -1
+coral3_2
+  rotate: true
+  xy: 550, 2
+  size: 258, 433
+  orig: 258, 433
+  offset: 0, 0
+  index: -1
+coral5_1
+  rotate: false
+  xy: 550, 262
+  size: 523, 274
+  orig: 523, 274
+  offset: 0, 0
+  index: -1
+cutstone1
+  rotate: false
+  xy: 550, 538
+  size: 530, 351
+  orig: 530, 351
+  offset: 0, 0
+  index: -1
+cutstone3
+  rotate: false
+  xy: 2, 891
+  size: 1200, 481
+  orig: 1200, 481
+  offset: 0, 0
+  index: -1
+fish
+  rotate: false
+  xy: 1204, 876
+  size: 396, 168
+  orig: 396, 168
+  offset: 0, 0
+  index: -1
+jellyfish1_1
+  rotate: true
+  xy: 1172, 120
+  size: 223, 193
+  orig: 223, 193
+  offset: 0, 0
+  index: -1
+jellyfish1_2
+  rotate: false
+  xy: 1367, 152
+  size: 216, 177
+  orig: 216, 177
+  offset: 0, 0
+  index: -1
+jellyfish1_3
+  rotate: true
+  xy: 1371, 331
+  size: 220, 208
+  orig: 220, 208
+  offset: 0, 0
+  index: -1
+jellyfish1_4
+  rotate: false
+  xy: 985, 23
+  size: 185, 237
+  orig: 185, 237
+  offset: 0, 0
+  index: -1
+watershadow1
+  rotate: true
+  xy: 1204, 1046
+  size: 995, 374
+  orig: 995, 374
+  offset: 0, 0
+  index: -1
+watershadow3
+  rotate: false
+  xy: 2, 119
+  size: 546, 770
+  orig: 546, 770
+  offset: 0, 0
+  index: -1
+watershadow4
+  rotate: true
+  xy: 1580, 1380
+  size: 661, 429
+  orig: 661, 429
+  offset: 0, 0
+  index: -1
+watershadow5
+  rotate: false
+  xy: 1082, 548
+  size: 254, 326
+  orig: 254, 326
+  offset: 0, 0
+  index: -1
+watershadow6
+  rotate: false
+  xy: 1585, 647
+  size: 345, 213
+  orig: 345, 213
+  offset: 0, 0
+  index: -1
+waterweed1
+  rotate: true
+  xy: 1581, 348
+  size: 170, 361
+  orig: 170, 361
+  offset: 0, 0
+  index: -1
+waterweed2
+  rotate: false
+  xy: 1338, 553
+  size: 245, 321
+  orig: 245, 321
+  offset: 0, 0
+  index: -1
+waterweed3
+  rotate: true
+  xy: 1602, 862
+  size: 212, 391
+  orig: 212, 391
+  offset: 0, 0
+  index: -1

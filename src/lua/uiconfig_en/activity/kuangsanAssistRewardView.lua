@@ -94,7 +94,7 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "576",
+							height = "561",
 							ignoreSize = "True",
 							name = "Image_bg",
 							sizepercentx = "100",
@@ -105,15 +105,15 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 568,
-								PositionY = 320,
+								PositionX = 532,
+								PositionY = 359,
 								IsPercent = true,
-								PercentX = 50,
-								PercentY = 50,
+								PercentX = 46.83,
+								PercentY = 56.09,
 								LeftPositon = 118,
 								TopPosition = 70,
 							},
-							width = "1021",
+							width = "1061",
 							ZOrder = "1",
 							components = 
 							{
@@ -158,8 +158,8 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -288,
-										PositionY = 215,
+										PositionX = -217,
+										PositionY = 157,
 									},
 									width = "249",
 									ZOrder = "1",
@@ -187,8 +187,8 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 404,
-										PositionY = 214,
+										PositionX = 474,
+										PositionY = 156,
 									},
 									UItype = "Button",
 									width = "30",
@@ -214,7 +214,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionY = -15,
+										PositionX = 70,
+										PositionY = -72,
 									},
 									visible = "False",
 									width = "975",
@@ -243,8 +244,8 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = -269,
-										PositionY = 102,
+										PositionX = -198,
+										PositionY = 44,
 									},
 									UItype = "Button",
 									width = "64",
@@ -323,8 +324,8 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = -269,
-										PositionY = -82,
+										PositionX = -198,
+										PositionY = -139,
 									},
 									UItype = "Button",
 									width = "64",
@@ -400,8 +401,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 92,
-										PositionY = 178,
+										PositionX = 162,
+										PositionY = 120,
 									},
 									width = "664",
 									ZOrder = "1",
@@ -556,8 +557,8 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = -242,
-										PositionY = -170,
+										PositionX = -171,
+										PositionY = -227,
 									},
 									uipanelviewmodel = 
 									{
@@ -594,8 +595,8 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = -242,
-										PositionY = -170,
+										PositionX = -171,
+										PositionY = -227,
 									},
 									uipanelviewmodel = 
 									{

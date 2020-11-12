@@ -1,0 +1,311 @@
+
+effects_11212_born.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_H/born/cuan/cuan_010
+  rotate: true
+  xy: 2, 2
+  size: 188, 404
+  orig: 208, 414
+  offset: 14, 10
+  index: -1
+images/effects_H/born/cuan/cuan_012
+  rotate: true
+  xy: 408, 14
+  size: 176, 394
+  orig: 208, 414
+  offset: 20, 20
+  index: -1
+images/effects_H/born/hui/hui_051
+  rotate: true
+  xy: 753, 586
+  size: 435, 267
+  orig: 454, 296
+  offset: 11, 3
+  index: -1
+images/effects_H/born/lizi/lizi_002
+  rotate: true
+  xy: 734, 195
+  size: 389, 282
+  orig: 410, 414
+  offset: 21, 132
+  index: -1
+images/effects_H/born/lizi/lizi_016
+  rotate: false
+  xy: 375, 618
+  size: 376, 403
+  orig: 410, 414
+  offset: 21, 11
+  index: -1
+images/effects_H/born/lizi/lizi_018
+  rotate: false
+  xy: 2, 608
+  size: 371, 413
+  orig: 410, 414
+  offset: 23, 1
+  index: -1
+images/effects_H/born/lizi/lizi_020
+  rotate: false
+  xy: 2, 192
+  size: 367, 414
+  orig: 410, 414
+  offset: 24, 0
+  index: -1
+images/effects_H/born/lizi/lizi_022
+  rotate: false
+  xy: 371, 192
+  size: 361, 414
+  orig: 410, 414
+  offset: 27, 0
+  index: -1
+images/effects_H/skillF/yuan2_000
+  rotate: false
+  xy: 804, 47
+  size: 146, 146
+  orig: 150, 150
+  offset: 2, 2
+  index: -1
+
+effects_11212_born2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_H/born/cuan/cuan_014
+  rotate: true
+  xy: 383, 505
+  size: 157, 382
+  orig: 208, 414
+  offset: 29, 32
+  index: -1
+images/effects_H/born/hui/hui_025
+  rotate: true
+  xy: 812, 8
+  size: 258, 210
+  orig: 454, 296
+  offset: 118, 40
+  index: -1
+images/effects_H/born/hui/hui_037
+  rotate: true
+  xy: 822, 306
+  size: 334, 190
+  orig: 454, 296
+  offset: 20, 51
+  index: -1
+images/effects_H/born/hui/hui_045
+  rotate: true
+  xy: 771, 642
+  size: 380, 235
+  orig: 454, 296
+  offset: 8, 14
+  index: -1
+images/effects_H/born/hui/hui_047
+  rotate: false
+  xy: 2, 2
+  size: 394, 243
+  orig: 454, 296
+  offset: 13, 7
+  index: -1
+images/effects_H/born/hui/hui_049
+  rotate: false
+  xy: 398, 3
+  size: 412, 263
+  orig: 454, 296
+  offset: 10, 3
+  index: -1
+images/effects_H/born/hui/hui_053
+  rotate: false
+  xy: 381, 268
+  size: 439, 235
+  orig: 454, 296
+  offset: 15, 37
+  index: -1
+images/effects_H/born/lizi/lizi_010
+  rotate: false
+  xy: 383, 664
+  size: 386, 358
+  orig: 410, 414
+  offset: 18, 56
+  index: -1
+images/effects_H/born/lizi/lizi_012
+  rotate: true
+  xy: 2, 247
+  size: 382, 377
+  orig: 410, 414
+  offset: 19, 37
+  index: -1
+images/effects_H/born/lizi/lizi_014
+  rotate: false
+  xy: 2, 631
+  size: 379, 391
+  orig: 410, 414
+  offset: 20, 23
+  index: -1
+
+effects_11212_born3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_H/born/cuan/cuan_004
+  rotate: false
+  xy: 2, 2
+  size: 208, 405
+  orig: 208, 414
+  offset: 0, 9
+  index: -1
+images/effects_H/born/cuan/cuan_008
+  rotate: true
+  xy: 605, 62
+  size: 198, 407
+  orig: 208, 414
+  offset: 7, 7
+  index: -1
+images/effects_H/born/hui/hui_043
+  rotate: true
+  xy: 766, 262
+  size: 366, 233
+  orig: 454, 296
+  offset: 3, 24
+  index: -1
+images/effects_H/born/hui/hui_055
+  rotate: false
+  xy: 2, 801
+  size: 438, 221
+  orig: 454, 296
+  offset: 16, 52
+  index: -1
+images/effects_H/born/hui/hui_057
+  rotate: false
+  xy: 329, 408
+  size: 435, 220
+  orig: 454, 296
+  offset: 19, 52
+  index: -1
+images/effects_H/born/lizi/lizi_004
+  rotate: false
+  xy: 212, 103
+  size: 391, 303
+  orig: 410, 414
+  offset: 19, 111
+  index: -1
+images/effects_H/born/lizi/lizi_006
+  rotate: true
+  xy: 2, 409
+  size: 390, 325
+  orig: 410, 414
+  offset: 18, 89
+  index: -1
+images/effects_H/born/lizi/lizi_008
+  rotate: true
+  xy: 442, 630
+  size: 392, 342
+  orig: 410, 414
+  offset: 18, 72
+  index: -1
+images/effects_H/glow_000
+  rotate: false
+  xy: 329, 703
+  size: 96, 96
+  orig: 100, 100
+  offset: 2, 2
+  index: -1
+images/effects_H/skillF/guang_001
+  rotate: false
+  xy: 786, 650
+  size: 220, 372
+  orig: 300, 400
+  offset: 44, 19
+  index: -1
+images/effects_H/skillF/yuan_000
+  rotate: true
+  xy: 605, 268
+  size: 138, 139
+  orig: 150, 150
+  offset: 4, 6
+  index: -1
+
+effects_11212_born4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_H/born/cuan/cuan_002
+  rotate: true
+  xy: 778, 511
+  size: 198, 217
+  orig: 208, 414
+  offset: 0, 197
+  index: -1
+images/effects_H/born/cuan/cuan_006
+  rotate: false
+  xy: 2, 370
+  size: 206, 404
+  orig: 208, 414
+  offset: 1, 10
+  index: -1
+images/effects_H/born/hui/hui_027
+  rotate: true
+  xy: 779, 711
+  size: 284, 215
+  orig: 454, 296
+  offset: 108, 48
+  index: -1
+images/effects_H/born/hui/hui_029
+  rotate: true
+  xy: 376, 484
+  size: 290, 204
+  orig: 454, 296
+  offset: 102, 69
+  index: -1
+images/effects_H/born/hui/hui_031
+  rotate: true
+  xy: 197, 78
+  size: 290, 175
+  orig: 454, 296
+  offset: 89, 99
+  index: -1
+images/effects_H/born/hui/hui_033
+  rotate: true
+  xy: 210, 434
+  size: 340, 164
+  orig: 454, 296
+  offset: 35, 110
+  index: -1
+images/effects_H/born/hui/hui_035
+  rotate: false
+  xy: 432, 790
+  size: 345, 205
+  orig: 454, 296
+  offset: 26, 65
+  index: -1
+images/effects_H/born/hui/hui_039
+  rotate: true
+  xy: 582, 504
+  size: 284, 194
+  orig: 454, 296
+  offset: 16, 46
+  index: -1
+images/effects_H/born/hui/hui_041
+  rotate: true
+  xy: 2, 51
+  size: 317, 193
+  orig: 454, 296
+  offset: 10, 42
+  index: -1
+images/effects_H/born/hui/hui_059
+  rotate: false
+  xy: 2, 776
+  size: 428, 219
+  orig: 454, 296
+  offset: 26, 52
+  index: -1
+images/effects_H/skillF/yuan1_000
+  rotate: false
+  xy: 376, 198
+  size: 283, 284
+  orig: 300, 300
+  offset: 8, 7
+  index: -1

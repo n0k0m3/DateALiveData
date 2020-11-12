@@ -7093,6 +7093,38 @@ return {
         icon = "icon/system/025.png",
         isDiban = true,
     },
+    [10006] = {
+        helpDes = 190000308,
+        resource = {
+            [1] = {
+                [1] = 500004,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 500001,
+                [2] = 1,
+            },
+            [3] = {
+                [1] = 500002,
+                [2] = 1,
+            },
+        },
+        dynamic = false,
+        id = 10006,
+        helpTitle = 190000308,
+        fileName = "RankNoticeView",
+        isResource = true,
+        helpInterface = {
+            [1] = 9003,
+        },
+        isHelp = true,
+        help = "",
+        isMain = true,
+        isBack = true,
+        name = "排行榜",
+        icon = "",
+        isDiban = true,
+    },
     [258] = {
         helpDes = 63642,
         resource = {
@@ -7152,7 +7184,7 @@ return {
         help = "",
         isMain = true,
         isBack = true,
-        name = "猩红梦魇",
+        name = "万由里",
         icon = "icon/system/025.png",
         isDiban = true,
     },

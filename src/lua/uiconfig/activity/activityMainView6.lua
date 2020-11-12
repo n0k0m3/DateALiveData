@@ -333,7 +333,7 @@ local t =
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
-											FontColor = "#FFFFA6A7",
+											FontColor = "#FFD7CBA0",
 											fontName = "font/MFLiHei_Noncommercial.ttf",
 											fontShadow = 
 											{
@@ -343,15 +343,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "activityName",
 											nTextAlign = "0",
 											nTextHAlign = "0",
@@ -359,14 +359,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "礼包商店",
+											text = "Pack Store",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 142,
+												PositionX = 154,
 											},
-											width = "91",
+											width = "93",
 											ZOrder = "1",
 										},
 										{
@@ -420,6 +420,7 @@ local t =
 										PositionX = 52,
 										PositionY = 33,
 									},
+									visible = "False",
 									width = "78",
 									ZOrder = "1",
 									components = 
@@ -460,7 +461,7 @@ local t =
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
-											FontColor = "#FFFFFFFF",
+											FontColor = "#FFF9D286",
 											fontName = "font/MFLiHei_Noncommercial.ttf",
 											fontShadow = 
 											{
@@ -470,15 +471,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "20",
 											fontStroke = 
 											{
-												IsStroke = false,
-												StrokeColor = "#FFE6E6E6",
+												IsStroke = true,
+												StrokeColor = "#FF6A1927",
 												StrokeSize = 1,
 											},
-											height = "27",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "activityName",
 											nTextAlign = "0",
 											nTextHAlign = "0",
@@ -486,14 +487,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "礼包商店",
+											text = "Pack Store",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionX = 139,
 											},
-											width = "91",
+											width = "93",
 											ZOrder = "1",
 										},
 										{

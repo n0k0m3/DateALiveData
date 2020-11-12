@@ -1,0 +1,265 @@
+
+effects_gendaya.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/zidan/3/baodian/baodian_000
+  rotate: false
+  xy: 721, 221
+  size: 118, 118
+  orig: 192, 192
+  offset: 42, 34
+  index: -1
+images/effects/zidan/3/baodian/baodian_001
+  rotate: false
+  xy: 721, 101
+  size: 118, 118
+  orig: 192, 192
+  offset: 42, 34
+  index: -1
+images/effects/zidan/3/baodian/baodian_002
+  rotate: true
+  xy: 2, 2
+  size: 124, 118
+  orig: 192, 192
+  offset: 38, 34
+  index: -1
+images/effects/zidan/3/baodian/baodian_004
+  rotate: true
+  xy: 721, 755
+  size: 132, 112
+  orig: 192, 192
+  offset: 35, 40
+  index: -1
+images/effects/zidan/3/baodian/baodian_006
+  rotate: true
+  xy: 331, 492
+  size: 121, 113
+  orig: 192, 192
+  offset: 35, 44
+  index: -1
+images/effects/zidan/3/baodian/baodian_008
+  rotate: false
+  xy: 371, 80
+  size: 119, 110
+  orig: 192, 192
+  offset: 31, 48
+  index: -1
+images/effects/zidan/3/baodian/baodian_010
+  rotate: true
+  xy: 634, 204
+  size: 120, 85
+  orig: 192, 192
+  offset: 30, 50
+  index: -1
+images/effects/zidan/3/zidan_000
+  rotate: false
+  xy: 122, 48
+  size: 164, 48
+  orig: 200, 200
+  offset: 20, 80
+  index: -1
+images/effects_L/gendaya3/hit/hit_033
+  rotate: false
+  xy: 2, 310
+  size: 180, 180
+  orig: 193, 194
+  offset: 11, 3
+  index: -1
+images/effects_L/gendaya3/hit/hit_034
+  rotate: false
+  xy: 2, 128
+  size: 180, 180
+  orig: 193, 194
+  offset: 11, 3
+  index: -1
+images/effects_L/gendaya3/hit/hit_035
+  rotate: false
+  xy: 184, 310
+  size: 180, 180
+  orig: 193, 194
+  offset: 11, 3
+  index: -1
+images/effects_L/gendaya3/hit/hit_037
+  rotate: false
+  xy: 184, 128
+  size: 176, 180
+  orig: 193, 194
+  offset: 13, 3
+  index: -1
+images/effects_L/gendaya3/hit/hit_039
+  rotate: false
+  xy: 446, 465
+  size: 164, 162
+  orig: 193, 194
+  offset: 17, 12
+  index: -1
+images/effects_L/gendaya3/hit/hit_041
+  rotate: false
+  xy: 366, 326
+  size: 142, 137
+  orig: 193, 194
+  offset: 24, 21
+  index: -1
+images/effects_L/gendaya3/hit/hit_043
+  rotate: false
+  xy: 510, 326
+  size: 142, 137
+  orig: 193, 194
+  offset: 24, 21
+  index: -1
+images/effects_L/gendaya3/hit/hit_045
+  rotate: false
+  xy: 510, 202
+  size: 122, 122
+  orig: 193, 194
+  offset: 40, 32
+  index: -1
+images/effects_L/gendaya3/jiguang/jiguang _029
+  rotate: false
+  xy: 758, 901
+  size: 221, 121
+  orig: 376, 137
+  offset: 21, 5
+  index: -1
+images/effects_L/gendaya3/jiguang/jiguang _030
+  rotate: false
+  xy: 2, 885
+  size: 376, 137
+  orig: 376, 137
+  offset: 0, 0
+  index: -1
+images/effects_L/gendaya3/jiguang/jiguang _031
+  rotate: false
+  xy: 2, 748
+  size: 376, 135
+  orig: 376, 137
+  offset: 0, 0
+  index: -1
+images/effects_L/gendaya3/jiguang/jiguang _032
+  rotate: false
+  xy: 2, 615
+  size: 376, 131
+  orig: 376, 137
+  offset: 0, 0
+  index: -1
+images/effects_L/gendaya3/jiguang/jiguang _033
+  rotate: false
+  xy: 380, 889
+  size: 376, 133
+  orig: 376, 137
+  offset: 0, 0
+  index: -1
+images/effects_L/gendaya3/jiguang/jiguang _034
+  rotate: false
+  xy: 380, 759
+  size: 339, 128
+  orig: 376, 137
+  offset: 11, 2
+  index: -1
+images/effects_L/gendaya3/jiguang/jiguang _035
+  rotate: false
+  xy: 380, 728
+  size: 288, 29
+  orig: 376, 137
+  offset: 59, 53
+  index: -1
+images/effects_L/gendaya3/jiguang/jiguang _036
+  rotate: false
+  xy: 2, 492
+  size: 327, 121
+  orig: 376, 137
+  offset: 16, 6
+  index: -1
+images/effects_L/gendaya3/jiguang/jiguang _037
+  rotate: false
+  xy: 380, 629
+  size: 267, 31
+  orig: 376, 137
+  offset: 71, 52
+  index: -1
+images/effects_L/gendaya3/jiguang/jiguang _038
+  rotate: false
+  xy: 380, 693
+  size: 280, 33
+  orig: 376, 137
+  offset: 55, 51
+  index: -1
+images/effects_L/gendaya3/jiguang/jiguang _039
+  rotate: false
+  xy: 380, 662
+  size: 280, 29
+  orig: 376, 137
+  offset: 53, 53
+  index: -1
+images/effects_L/gendaya3/jiguang/jiguang _040
+  rotate: false
+  xy: 122, 98
+  size: 247, 28
+  orig: 376, 137
+  offset: 86, 53
+  index: -1
+images/effects_L/gendaya3/pao_000
+  rotate: false
+  xy: 288, 31
+  size: 71, 65
+  orig: 105, 101
+  offset: 19, 19
+  index: -1
+images/effects_L/gendayazidan2/hit/hit_021
+  rotate: true
+  xy: 612, 485
+  size: 142, 132
+  orig: 142, 132
+  offset: 0, 0
+  index: -1
+images/effects_L/gendayazidan2/hit/hit_022
+  rotate: true
+  xy: 654, 341
+  size: 142, 132
+  orig: 142, 132
+  offset: 0, 0
+  index: -1
+images/effects_L/gendayazidan2/hit/hit_023
+  rotate: false
+  xy: 835, 767
+  size: 142, 132
+  orig: 142, 132
+  offset: 0, 0
+  index: -1
+images/effects_L/gendayazidan2/hit/hit_025
+  rotate: false
+  xy: 366, 192
+  size: 142, 132
+  orig: 142, 132
+  offset: 0, 0
+  index: -1
+images/effects_L/gendayazidan2/hit/hit_027
+  rotate: true
+  xy: 492, 91
+  size: 99, 95
+  orig: 142, 132
+  offset: 27, 19
+  index: -1
+images/effects_L/gendayazidan2/hit/hit_029
+  rotate: true
+  xy: 589, 108
+  size: 92, 86
+  orig: 142, 132
+  offset: 27, 19
+  index: -1
+images/effects_L/gendayazidan2/hit/hit_031
+  rotate: false
+  xy: 589, 20
+  size: 86, 86
+  orig: 142, 132
+  offset: 27, 19
+  index: -1
+images/effects_L/gendayazidan2/zidan_010
+  rotate: false
+  xy: 492, 2
+  size: 87, 87
+  orig: 108, 101
+  offset: 11, 9
+  index: -1

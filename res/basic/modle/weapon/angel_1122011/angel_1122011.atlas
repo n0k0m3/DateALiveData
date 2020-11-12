@@ -1,0 +1,47 @@
+
+angel_1122011.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+2
+  rotate: false
+  xy: 2, 2
+  size: 26, 26
+  orig: 28, 28
+  offset: 1, 1
+  index: -1
+3
+  rotate: false
+  xy: 2, 30
+  size: 802, 802
+  orig: 802, 802
+  offset: 0, 0
+  index: -1
+guang
+  rotate: false
+  xy: 806, 812
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+
+angel_11220112.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 2, 260
+  size: 727, 689
+  orig: 727, 689
+  offset: 0, 0
+  index: -1
+shan
+  rotate: false
+  xy: 2, 2
+  size: 327, 256
+  orig: 327, 256
+  offset: 0, 0
+  index: -1

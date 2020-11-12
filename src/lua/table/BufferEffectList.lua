@@ -9,6 +9,16 @@ return {
         zorder = 1,
         describe = "87号词缀全屏伤害骷髅头",
     },
+    [1041501] = {
+        heroFormId = 1041302,
+        mount = "body",
+        resource = "effects_10415_skillG",
+        action = "buff_xunhuan",
+        id = 1041501,
+        effectsDir = 0,
+        zorder = 1,
+        describe = "强化狂三魔术师",
+    },
     [1030901] = {
         heroFormId = 1030109,
         mount = "root",

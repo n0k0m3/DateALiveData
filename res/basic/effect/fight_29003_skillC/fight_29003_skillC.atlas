@@ -1,0 +1,20 @@
+
+fight_29003_skillC.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skillC-skillC2_0
+  rotate: false
+  xy: 2, 2
+  size: 118, 191
+  orig: 119, 192
+  offset: 0, 0
+  index: -1
+skillC-skillC_0
+  rotate: false
+  xy: 2, 195
+  size: 155, 208
+  orig: 159, 209
+  offset: 0, 0
+  index: -1

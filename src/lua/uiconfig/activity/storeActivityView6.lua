@@ -268,20 +268,20 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "45",
+									height = "50",
 									ignoreSize = "True",
 									name = "Image_resource",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "1",
-									texturePath = "ui/activity/welfareActivity/time_bg.png",
+									texturePath = "ui/activity/assist/kuangsan/gift_005.png",
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
 										PositionX = -298,
 									},
-									width = "283",
+									width = "342",
 									ZOrder = "1",
 								},
 								{
@@ -320,7 +320,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "当前持有",
+									text = "Owned",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -328,7 +328,7 @@ local t =
 										PositionX = -421,
 									},
 									visible = "False",
-									width = "83",
+									width = "63",
 									ZOrder = "1",
 								},
 								{
@@ -340,7 +340,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FFC4C6E5",
+									FontColor = "#FFFFFFFF",
 									fontName = "font/fangzheng_zhunyuan.ttf",
 									fontShadow = 
 									{
@@ -366,14 +366,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "48天20时后结束",
+									text = "Ends in 48d 20h",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										PositionX = -375,
 									},
-									width = "147",
+									width = "138",
 									ZOrder = "1",
 								},
 								{
@@ -474,7 +474,7 @@ local t =
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
-											FontColor = "#FFC4C6E5",
+											FontColor = "#FFFFFFFF",
 											fontName = "font/fangzheng_zhunyuan.ttf",
 											fontShadow = 
 											{
@@ -610,7 +610,7 @@ local t =
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
-											FontColor = "#FFC4C6E5",
+											FontColor = "#FFFFFFFF",
 											fontName = "font/fangzheng_zhunyuan.ttf",
 											fontShadow = 
 											{
@@ -746,7 +746,7 @@ local t =
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
-											FontColor = "#FFC4C6E5",
+											FontColor = "#FFFFFFFF",
 											fontName = "font/fangzheng_zhunyuan.ttf",
 											fontShadow = 
 											{
@@ -942,8 +942,8 @@ local t =
 											fontSize = "18",
 											fontStroke = 
 											{
-												IsStroke = false,
-												StrokeColor = "#FFE6E6E6",
+												IsStroke = true,
+												StrokeColor = "#FFC73C39",
 												StrokeSize = 1,
 											},
 											height = "34",
@@ -955,7 +955,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "限购20次",
+											text = "Buy Quota",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -984,15 +984,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_name",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -1000,14 +1000,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "绿色能量",
+											text = "Green Energy",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionY = 206,
 											},
-											width = "108",
+											width = "222",
 											ZOrder = "1",
 										},
 										{
@@ -1542,7 +1542,7 @@ local t =
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
 													dstBlendFunc = "771",
-													FontColor = "#FFC4C6E5",
+													FontColor = "#FFFFFFFF",
 													fontName = "font/fangzheng_zhunyuan.ttf",
 													fontShadow = 
 													{
@@ -1683,15 +1683,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "26",
+									fontSize = "25",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "32",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_buy",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -1699,14 +1699,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "兑  换",
+									text = "购买",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										PositionY = -153,
 									},
-									width = "66",
+									width = "132",
 									ZOrder = "1",
 								},
 								{
@@ -1865,7 +1865,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "折扣",
+											text = "Discount",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -1873,7 +1873,7 @@ local t =
 												PositionX = 3,
 												PositionY = -29,
 											},
-											width = "23",
+											width = "37",
 											ZOrder = "1",
 										},
 									},
@@ -1895,7 +1895,7 @@ local t =
 		{
 			"ui/activity/001.png",
 			"ui/activity/ad2.png",
-			"ui/activity/welfareActivity/time_bg.png",
+			"ui/activity/assist/kuangsan/gift_005.png",
 			"ui/activity/kuangsan_fuben/shop/001.png",
 			"icon/system/004.png",
 			"ui/activity/kuangsan_fuben/shop/005.png",

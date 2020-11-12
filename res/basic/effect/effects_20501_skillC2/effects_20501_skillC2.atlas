@@ -1,0 +1,96 @@
+
+effects_20501_skillC2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/baozha/baozha_00014_00000
+  rotate: true
+  xy: 770, 742
+  size: 275, 247
+  orig: 400, 400
+  offset: 62, 69
+  index: -1
+images/effects/baozha/baozha_00014_00002
+  rotate: false
+  xy: 2, 670
+  size: 386, 347
+  orig: 400, 400
+  offset: 6, 19
+  index: -1
+images/effects/baozha/baozha_00014_00004
+  rotate: false
+  xy: 390, 671
+  size: 378, 346
+  orig: 400, 400
+  offset: 10, 19
+  index: -1
+images/effects/baozha/baozha_00014_00006
+  rotate: false
+  xy: 390, 323
+  size: 378, 346
+  orig: 400, 400
+  offset: 10, 19
+  index: -1
+images/effects/baozha/baozha_00014_00008
+  rotate: false
+  xy: 2, 322
+  size: 379, 346
+  orig: 400, 400
+  offset: 9, 19
+  index: -1
+images/effects/baozha/baozha_00014_00012
+  rotate: false
+  xy: 2, 3
+  size: 342, 317
+  orig: 400, 400
+  offset: 28, 30
+  index: -1
+images/effects/baozha/baozha_00014_00014
+  rotate: true
+  xy: 346, 51
+  size: 269, 255
+  orig: 400, 400
+  offset: 55, 79
+  index: -1
+images/effects/dilei
+  rotate: false
+  xy: 899, 713
+  size: 56, 27
+  orig: 56, 27
+  offset: 0, 0
+  index: -1
+images/effects/dilei/dilei_00000
+  rotate: false
+  xy: 346, 4
+  size: 87, 45
+  orig: 150, 150
+  offset: 33, 53
+  index: -1
+images/effects/dilei/dilei_00001
+  rotate: false
+  xy: 770, 563
+  size: 95, 48
+  orig: 150, 150
+  offset: 29, 51
+  index: -1
+images/effects/ring
+  rotate: false
+  xy: 770, 613
+  size: 127, 127
+  orig: 127, 127
+  offset: 0, 0
+  index: -1
+
+effects_20501_skillC22.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/baozha/baozha_00014_00010
+  rotate: false
+  xy: 2, 27
+  size: 366, 341
+  orig: 400, 400
+  offset: 16, 20
+  index: -1

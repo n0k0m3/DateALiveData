@@ -1,0 +1,153 @@
+
+effects_31201_Eweek.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_G/Eweek/dian/dian_000
+  rotate: false
+  xy: 130, 221
+  size: 43, 40
+  orig: 180, 140
+  offset: 31, 1
+  index: -1
+images/effects_G/Eweek/dian/dian_002
+  rotate: true
+  xy: 479, 804
+  size: 71, 67
+  orig: 180, 140
+  offset: 13, 2
+  index: -1
+images/effects_G/Eweek/dian/dian_004
+  rotate: true
+  xy: 2, 2
+  size: 147, 137
+  orig: 180, 140
+  offset: 13, 3
+  index: -1
+images/effects_G/Eweek/dian/dian_006
+  rotate: true
+  xy: 719, 882
+  size: 130, 134
+  orig: 180, 140
+  offset: 8, 5
+  index: -1
+images/effects_G/Eweek/dian/dian_008
+  rotate: false
+  xy: 372, 877
+  size: 174, 135
+  orig: 180, 140
+  offset: 3, 0
+  index: -1
+images/effects_G/Eweek/dian/dian_010
+  rotate: false
+  xy: 548, 892
+  size: 169, 120
+  orig: 180, 140
+  offset: 3, 1
+  index: -1
+images/effects_G/Eweek/dian/dian_012
+  rotate: true
+  xy: 2, 151
+  size: 162, 126
+  orig: 180, 140
+  offset: 0, 3
+  index: -1
+images/effects_G/Eweek/dian/dian_014
+  rotate: false
+  xy: 855, 902
+  size: 138, 110
+  orig: 180, 140
+  offset: 11, 9
+  index: -1
+images/effects_G/Eweek/dian/dian_016
+  rotate: false
+  xy: 372, 780
+  size: 105, 95
+  orig: 180, 140
+  offset: 18, 22
+  index: -1
+images/effects_G/Eweek/dian/dian_018
+  rotate: false
+  xy: 678, 859
+  size: 29, 31
+  orig: 180, 140
+  offset: 60, 47
+  index: -1
+images/effects_G/Eweek/hit/hit_001
+  rotate: false
+  xy: 2, 315
+  size: 153, 145
+  orig: 200, 200
+  offset: 0, 30
+  index: -1
+images/effects_G/Eweek/hit/hit_003
+  rotate: false
+  xy: 193, 831
+  size: 177, 181
+  orig: 200, 200
+  offset: 0, 13
+  index: -1
+images/effects_G/Eweek/hit/hit_005
+  rotate: false
+  xy: 2, 814
+  size: 189, 198
+  orig: 200, 200
+  offset: 0, 2
+  index: -1
+images/effects_G/Eweek/hit/hit_007
+  rotate: false
+  xy: 2, 622
+  size: 188, 190
+  orig: 200, 200
+  offset: 0, 9
+  index: -1
+images/effects_G/Eweek/hit/hit_009
+  rotate: false
+  xy: 2, 462
+  size: 182, 158
+  orig: 200, 200
+  offset: 1, 6
+  index: -1
+images/effects_G/Eweek/xuanyun/xuanyun_000
+  rotate: false
+  xy: 548, 811
+  size: 61, 39
+  orig: 65, 40
+  offset: 1, 0
+  index: -1
+images/effects_G/Eweek/xuanyun/xuanyun_002
+  rotate: false
+  xy: 548, 852
+  size: 63, 38
+  orig: 65, 40
+  offset: 0, 2
+  index: -1
+images/effects_G/Eweek/xuanyun/xuanyun_004
+  rotate: true
+  xy: 157, 342
+  size: 57, 40
+  orig: 65, 40
+  offset: 3, 0
+  index: -1
+images/effects_G/Eweek/xuanyun/xuanyun_006
+  rotate: false
+  xy: 613, 853
+  size: 63, 37
+  orig: 65, 40
+  offset: 2, 3
+  index: -1
+images/effects_G/Eweek/xuanyun/xuanyun_008
+  rotate: true
+  xy: 157, 401
+  size: 59, 39
+  orig: 65, 40
+  offset: 5, 0
+  index: -1
+images/effects_G/glow
+  rotate: false
+  xy: 130, 263
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1

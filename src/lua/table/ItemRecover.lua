@@ -16,7 +16,7 @@ return {
         privilegePrice = "",
         id = 2,
         cooldown = -1,
-        resetBuyCountTime = 2,
+        resetBuyCountTime = 1,
         quota = 0,
         price = {
             [1] = {
@@ -60,7 +60,7 @@ return {
         privilegePrice = "500002:25#60",
         id = 4,
         cooldown = 0,
-        resetBuyCountTime = 2,
+        resetBuyCountTime = 1,
         quota = 0,
         price = {
             [1] = {
@@ -163,7 +163,7 @@ return {
         privilegePrice = "",
         id = 5,
         cooldown = -1,
-        resetBuyCountTime = 2,
+        resetBuyCountTime = 1,
         quota = 0,
         price = {
             [1] = {
@@ -356,7 +356,7 @@ return {
         privilegePrice = "",
         id = 6,
         cooldown = -1,
-        resetBuyCountTime = 2,
+        resetBuyCountTime = 1,
         quota = 0,
         price = {
             [1] = {
@@ -472,7 +472,7 @@ return {
         privilegePrice = "",
         id = 8,
         cooldown = 0,
-        resetBuyCountTime = 2,
+        resetBuyCountTime = 1,
         quota = 0,
         price = {
             [1] = {
@@ -588,7 +588,7 @@ return {
         privilegePrice = "",
         id = 10,
         cooldown = 0,
-        resetBuyCountTime = 2,
+        resetBuyCountTime = 1,
         quota = 0,
         price = {
             [1] = {
@@ -704,7 +704,7 @@ return {
         privilegePrice = "",
         id = 12,
         cooldown = -1,
-        resetBuyCountTime = 2,
+        resetBuyCountTime = 1,
         quota = 0,
         price = {
             [1] = {
@@ -739,7 +739,7 @@ return {
         privilegePrice = "",
         id = 14,
         cooldown = 0,
-        resetBuyCountTime = 2,
+        resetBuyCountTime = 1,
         quota = 0,
         price = {
             [1] = {
@@ -842,7 +842,7 @@ return {
         privilegePrice = "",
         id = 15,
         cooldown = -1,
-        resetBuyCountTime = 2,
+        resetBuyCountTime = 1,
         quota = 0,
         price = {
         },
@@ -855,7 +855,7 @@ return {
         privilegePrice = "",
         id = 16,
         cooldown = -1,
-        resetBuyCountTime = 2,
+        resetBuyCountTime = 1,
         quota = 0,
         price = {
             [1] = {
@@ -913,7 +913,7 @@ return {
         privilegePrice = "",
         id = 17,
         cooldown = -1,
-        resetBuyCountTime = 2,
+        resetBuyCountTime = 1,
         quota = 0,
         price = {
             [1] = {
@@ -971,7 +971,7 @@ return {
         privilegePrice = "",
         id = 18,
         cooldown = 432,
-        resetBuyCountTime = 2,
+        resetBuyCountTime = 1,
         quota = 0,
         price = {
             [1] = {
@@ -1095,7 +1095,7 @@ return {
         privilegePrice = "",
         id = 22,
         cooldown = 0,
-        resetBuyCountTime = 2,
+        resetBuyCountTime = 1,
         quota = 0,
         price = {
             [1] = {
@@ -1153,7 +1153,7 @@ return {
         privilegePrice = "",
         id = 23,
         cooldown = -1,
-        resetBuyCountTime = 2,
+        resetBuyCountTime = 1,
         quota = 0,
         price = {
             [1] = {
@@ -1197,7 +1197,7 @@ return {
         privilegePrice = "",
         id = 25,
         cooldown = 0,
-        resetBuyCountTime = 2,
+        resetBuyCountTime = 1,
         quota = 0,
         price = {
             [1] = {
@@ -1268,7 +1268,7 @@ return {
         privilegePrice = "",
         id = 27,
         cooldown = 0,
-        resetBuyCountTime = 2,
+        resetBuyCountTime = 1,
         quota = 0,
         price = {
             [1] = {

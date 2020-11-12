@@ -1,0 +1,108 @@
+{
+"skeleton": { "hash": "ZYnrMuBNButTmzayust4YE35xm0", "spine": "2.1.27", "width": 0, "height": 0, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "bone2", "parent": "root" }
+],
+"slots": [
+	{ "name": "images/qiechang/qiechang_000", "bone": "bone", "blend": "additive" },
+	{ "name": "images/qiechang/qiechang_0", "bone": "bone2" }
+],
+"skins": {
+	"default": {
+		"images/qiechang/qiechang_0": {
+			"images/qiechang/qiechang_000": { "width": 247, "height": 584 },
+			"images/qiechang/qiechang_002": { "width": 247, "height": 584 },
+			"images/qiechang/qiechang_004": { "width": 247, "height": 584 },
+			"images/qiechang/qiechang_006": { "width": 247, "height": 584 },
+			"images/qiechang/qiechang_008": { "width": 247, "height": 584 },
+			"images/qiechang/qiechang_010": { "width": 247, "height": 584 },
+			"images/qiechang/qiechang_012": { "width": 247, "height": 584 },
+			"images/qiechang/qiechang_014": { "width": 247, "height": 584 },
+			"images/qiechang/qiechang_016": { "width": 247, "height": 584 },
+			"images/qiechang/qiechang_018": { "width": 247, "height": 584 },
+			"images/qiechang/qiechang_020": { "width": 247, "height": 584 },
+			"images/qiechang/qiechang_022": { "width": 247, "height": 584 },
+			"images/qiechang/qiechang_024": { "width": 247, "height": 584 },
+			"images/qiechang/qiechang_026": { "width": 247, "height": 584 },
+			"images/qiechang/qiechang_028": { "width": 247, "height": 584 }
+		},
+		"images/qiechang/qiechang_000": {
+			"images/qiechang/qiechang_000": { "width": 247, "height": 584 },
+			"images/qiechang/qiechang_002": { "width": 247, "height": 584 },
+			"images/qiechang/qiechang_004": { "width": 247, "height": 584 },
+			"images/qiechang/qiechang_006": { "width": 247, "height": 584 },
+			"images/qiechang/qiechang_008": { "width": 247, "height": 584 },
+			"images/qiechang/qiechang_010": { "width": 247, "height": 584 },
+			"images/qiechang/qiechang_012": { "width": 247, "height": 584 },
+			"images/qiechang/qiechang_014": { "width": 247, "height": 584 },
+			"images/qiechang/qiechang_016": { "width": 247, "height": 584 },
+			"images/qiechang/qiechang_018": { "width": 247, "height": 584 },
+			"images/qiechang/qiechang_020": { "width": 247, "height": 584 },
+			"images/qiechang/qiechang_022": { "width": 247, "height": 584 },
+			"images/qiechang/qiechang_024": { "width": 247, "height": 584 },
+			"images/qiechang/qiechang_026": { "width": 247, "height": 584 },
+			"images/qiechang/qiechang_028": { "width": 247, "height": 584 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"images/qiechang/qiechang_0": {
+				"attachment": [
+					{ "time": 0, "name": "images/qiechang/qiechang_000" },
+					{ "time": 0.0666, "name": "images/qiechang/qiechang_002" },
+					{ "time": 0.1333, "name": "images/qiechang/qiechang_004" },
+					{ "time": 0.2, "name": "images/qiechang/qiechang_006" },
+					{ "time": 0.2666, "name": "images/qiechang/qiechang_008" },
+					{ "time": 0.3333, "name": "images/qiechang/qiechang_010" },
+					{ "time": 0.4, "name": "images/qiechang/qiechang_012" },
+					{ "time": 0.4666, "name": "images/qiechang/qiechang_014" },
+					{ "time": 0.5333, "name": "images/qiechang/qiechang_016" },
+					{ "time": 0.6, "name": "images/qiechang/qiechang_018" },
+					{ "time": 0.6666, "name": "images/qiechang/qiechang_020" },
+					{ "time": 0.7333, "name": "images/qiechang/qiechang_022" },
+					{ "time": 0.8, "name": "images/qiechang/qiechang_024" },
+					{ "time": 0.8666, "name": "images/qiechang/qiechang_026" },
+					{ "time": 0.9333, "name": "images/qiechang/qiechang_028" },
+					{ "time": 1, "name": null }
+				]
+			},
+			"images/qiechang/qiechang_000": {
+				"attachment": [
+					{ "time": 0, "name": "images/qiechang/qiechang_000" },
+					{ "time": 0.0666, "name": "images/qiechang/qiechang_002" },
+					{ "time": 0.1333, "name": "images/qiechang/qiechang_004" },
+					{ "time": 0.2, "name": "images/qiechang/qiechang_006" },
+					{ "time": 0.2666, "name": "images/qiechang/qiechang_008" },
+					{ "time": 0.3333, "name": "images/qiechang/qiechang_010" },
+					{ "time": 0.4, "name": "images/qiechang/qiechang_012" },
+					{ "time": 0.4666, "name": "images/qiechang/qiechang_014" },
+					{ "time": 0.5333, "name": "images/qiechang/qiechang_016" },
+					{ "time": 0.6, "name": "images/qiechang/qiechang_018" },
+					{ "time": 0.6666, "name": "images/qiechang/qiechang_020" },
+					{ "time": 0.7333, "name": "images/qiechang/qiechang_022" },
+					{ "time": 0.8, "name": "images/qiechang/qiechang_024" },
+					{ "time": 0.8666, "name": "images/qiechang/qiechang_026" },
+					{ "time": 0.9333, "name": "images/qiechang/qiechang_028" },
+					{ "time": 1, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"bone2": {
+				"translate": [
+					{ "time": 0, "x": -24.55, "y": 17.54 }
+				]
+			},
+			"bone": {
+				"translate": [
+					{ "time": 0, "x": -24.55, "y": 17.54 }
+				]
+			}
+		}
+	}
+}
+}

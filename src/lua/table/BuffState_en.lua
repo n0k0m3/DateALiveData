@@ -250,7 +250,7 @@ return {
         id = 46,
         resetId = {
         },
-        name = "Arbiter",
+        name = "Judgment",
         clashId = {
             [1] = 162,
             [2] = 160,

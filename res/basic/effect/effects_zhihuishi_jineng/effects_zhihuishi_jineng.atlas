@@ -1,0 +1,216 @@
+
+effects_zhihuishi_jineng.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/1
+  rotate: false
+  xy: 288, 174
+  size: 112, 104
+  orig: 112, 104
+  offset: 0, 0
+  index: -1
+images/jiesuo/jiesuo_001
+  rotate: true
+  xy: 288, 280
+  size: 132, 96
+  orig: 165, 150
+  offset: 12, 0
+  index: -1
+images/jiesuo/jiesuo_002
+  rotate: false
+  xy: 670, 886
+  size: 158, 121
+  orig: 165, 150
+  offset: 0, 0
+  index: -1
+images/jiesuo/jiesuo_003
+  rotate: false
+  xy: 2, 253
+  size: 165, 146
+  orig: 165, 150
+  offset: 0, 0
+  index: -1
+images/jiesuo/jiesuo_004
+  rotate: false
+  xy: 2, 857
+  size: 165, 150
+  orig: 165, 150
+  offset: 0, 0
+  index: -1
+images/jiesuo/jiesuo_005
+  rotate: false
+  xy: 2, 705
+  size: 165, 150
+  orig: 165, 150
+  offset: 0, 0
+  index: -1
+images/jiesuo/jiesuo_006
+  rotate: false
+  xy: 169, 857
+  size: 165, 150
+  orig: 165, 150
+  offset: 0, 0
+  index: -1
+images/jiesuo/jiesuo_007
+  rotate: false
+  xy: 2, 553
+  size: 165, 150
+  orig: 165, 150
+  offset: 0, 0
+  index: -1
+images/jiesuo/jiesuo_008
+  rotate: false
+  xy: 169, 705
+  size: 165, 150
+  orig: 165, 150
+  offset: 0, 0
+  index: -1
+images/jiesuo/jiesuo_009
+  rotate: false
+  xy: 336, 857
+  size: 165, 150
+  orig: 165, 150
+  offset: 0, 0
+  index: -1
+images/jiesuo/jiesuo_010
+  rotate: false
+  xy: 2, 401
+  size: 165, 150
+  orig: 165, 150
+  offset: 0, 0
+  index: -1
+images/jiesuo/jiesuo_011
+  rotate: false
+  xy: 169, 553
+  size: 165, 150
+  orig: 165, 150
+  offset: 0, 0
+  index: -1
+images/jiesuo/jiesuo_012
+  rotate: false
+  xy: 336, 705
+  size: 165, 150
+  orig: 165, 150
+  offset: 0, 0
+  index: -1
+images/jiesuo/jiesuo_013
+  rotate: false
+  xy: 503, 859
+  size: 165, 148
+  orig: 165, 150
+  offset: 0, 2
+  index: -1
+images/jiesuo/jiesuo_014
+  rotate: false
+  xy: 169, 414
+  size: 165, 137
+  orig: 165, 150
+  offset: 0, 13
+  index: -1
+images/jiesuo/jiesuo_015
+  rotate: false
+  xy: 336, 573
+  size: 165, 130
+  orig: 165, 150
+  offset: 0, 20
+  index: -1
+images/jiesuo/jiesuo_016
+  rotate: false
+  xy: 503, 727
+  size: 156, 130
+  orig: 165, 150
+  offset: 4, 20
+  index: -1
+images/jiesuo/jiesuo_017
+  rotate: false
+  xy: 2, 120
+  size: 133, 131
+  orig: 165, 150
+  offset: 13, 19
+  index: -1
+images/jiesuo/jiesuo_018
+  rotate: true
+  xy: 517, 223
+  size: 113, 112
+  orig: 165, 150
+  offset: 18, 19
+  index: -1
+images/jiesuo/jiesuo_019
+  rotate: false
+  xy: 402, 223
+  size: 113, 113
+  orig: 165, 150
+  offset: 18, 19
+  index: -1
+images/jiesuo/jiesuo_020
+  rotate: false
+  xy: 503, 338
+  size: 114, 115
+  orig: 165, 150
+  offset: 17, 18
+  index: -1
+images/jiesuo/jiesuo_021
+  rotate: false
+  xy: 386, 338
+  size: 115, 115
+  orig: 165, 150
+  offset: 17, 18
+  index: -1
+images/jiesuo/jiesuo_022
+  rotate: true
+  xy: 455, 455
+  size: 116, 115
+  orig: 165, 150
+  offset: 17, 18
+  index: -1
+images/jiesuo/jiesuo_023
+  rotate: false
+  xy: 503, 609
+  size: 116, 116
+  orig: 165, 150
+  offset: 17, 18
+  index: -1
+images/jiesuo/jiesuo_024
+  rotate: false
+  xy: 169, 296
+  size: 117, 116
+  orig: 165, 150
+  offset: 17, 18
+  index: -1
+images/jiesuo/jiesuo_025
+  rotate: false
+  xy: 830, 891
+  size: 116, 116
+  orig: 165, 150
+  offset: 18, 18
+  index: -1
+images/jiesuo/jiesuo_026
+  rotate: false
+  xy: 336, 455
+  size: 117, 116
+  orig: 165, 150
+  offset: 18, 18
+  index: -1
+images/jiesuo/jiesuo_027
+  rotate: false
+  xy: 2, 2
+  size: 116, 116
+  orig: 165, 150
+  offset: 19, 18
+  index: -1
+images/jiesuo/jiesuo_028
+  rotate: false
+  xy: 169, 179
+  size: 117, 115
+  orig: 165, 150
+  offset: 18, 18
+  index: -1
+images/jiesuo/jiesuo_029
+  rotate: false
+  xy: 402, 121
+  size: 116, 100
+  orig: 165, 150
+  offset: 19, 19
+  index: -1

@@ -1,0 +1,237 @@
+
+effects_31201_EskillC.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_L/EskillB/shandian1/shandian1_047
+  rotate: false
+  xy: 790, 598
+  size: 38, 38
+  orig: 82, 75
+  offset: 26, 4
+  index: -1
+images/effects_L/EskillB/shandian1/shandian1_049
+  rotate: false
+  xy: 100, 22
+  size: 58, 56
+  orig: 82, 75
+  offset: 13, 6
+  index: -1
+images/effects_L/EskillB/shandian1/shandian1_052
+  rotate: false
+  xy: 503, 528
+  size: 43, 50
+  orig: 82, 75
+  offset: 17, 9
+  index: -1
+images/effects_L/EskillB/shandian1/shandian1_054
+  rotate: true
+  xy: 100, 80
+  size: 65, 57
+  orig: 82, 75
+  offset: 3, 11
+  index: -1
+images/effects_L/EskillB/shandian1/shandian1_056
+  rotate: false
+  xy: 840, 830
+  size: 2, 3
+  orig: 82, 75
+  offset: 40, 26
+  index: -1
+images/effects_L/EskillB/shandian1/shandian1_058
+  rotate: false
+  xy: 991, 996
+  size: 25, 26
+  orig: 82, 75
+  offset: 7, 26
+  index: -1
+images/effects_L/Eskillc/baofa/baofa_020
+  rotate: true
+  xy: 175, 432
+  size: 164, 166
+  orig: 243, 215
+  offset: 41, 26
+  index: -1
+images/effects_L/Eskillc/baofa/baofa_021
+  rotate: false
+  xy: 640, 824
+  size: 198, 198
+  orig: 243, 215
+  offset: 24, 10
+  index: -1
+images/effects_L/Eskillc/baofa/baofa_022
+  rotate: false
+  xy: 2, 811
+  size: 217, 211
+  orig: 243, 215
+  offset: 10, 0
+  index: -1
+images/effects_L/Eskillc/baofa/baofa_023
+  rotate: false
+  xy: 221, 811
+  size: 208, 211
+  orig: 243, 215
+  offset: 20, 2
+  index: -1
+images/effects_L/Eskillc/baofa/baofa_024
+  rotate: false
+  xy: 136, 598
+  size: 205, 211
+  orig: 243, 215
+  offset: 23, 1
+  index: -1
+images/effects_L/Eskillc/baofa/baofa_025
+  rotate: false
+  xy: 431, 819
+  size: 207, 203
+  orig: 243, 215
+  offset: 18, 2
+  index: -1
+images/effects_L/Eskillc/baofa/baofa_027
+  rotate: false
+  xy: 175, 284
+  size: 149, 146
+  orig: 243, 215
+  offset: 62, 29
+  index: -1
+images/effects_L/Eskillc/baofa/baofa_029
+  rotate: true
+  xy: 326, 312
+  size: 107, 84
+  orig: 243, 215
+  offset: 59, 65
+  index: -1
+images/effects_L/Eskillc/baofa/baofa_031
+  rotate: false
+  xy: 100, 147
+  size: 58, 91
+  orig: 243, 215
+  offset: 107, 61
+  index: -1
+images/effects_L/Eskillc/dimian/dimian_036
+  rotate: false
+  xy: 697, 550
+  size: 91, 86
+  orig: 195, 149
+  offset: 55, 11
+  index: -1
+images/effects_L/Eskillc/dimian/dimian_037
+  rotate: false
+  xy: 844, 684
+  size: 178, 149
+  orig: 195, 149
+  offset: 13, 0
+  index: -1
+images/effects_L/Eskillc/dimian/dimian_038
+  rotate: true
+  xy: 693, 638
+  size: 184, 149
+  orig: 195, 149
+  offset: 8, 0
+  index: -1
+images/effects_L/Eskillc/dimian/dimian_040
+  rotate: true
+  xy: 840, 835
+  size: 187, 149
+  orig: 195, 149
+  offset: 6, 0
+  index: -1
+images/effects_L/Eskillc/dimian/dimian_042
+  rotate: true
+  xy: 550, 623
+  size: 194, 141
+  orig: 195, 149
+  offset: 1, 0
+  index: -1
+images/effects_L/Eskillc/dimian/dimian_044
+  rotate: true
+  xy: 2, 23
+  size: 192, 96
+  orig: 195, 149
+  offset: 3, 22
+  index: -1
+images/effects_L/Eskillc/dimian/dimian_046
+  rotate: false
+  xy: 844, 621
+  size: 174, 61
+  orig: 195, 149
+  offset: 11, 24
+  index: -1
+images/effects_L/Eskillc/dimian_032
+  rotate: false
+  xy: 175, 239
+  size: 148, 43
+  orig: 148, 58
+  offset: 0, 3
+  index: -1
+images/effects_L/Eskillc/glow_021
+  rotate: false
+  xy: 550, 575
+  size: 145, 46
+  orig: 150, 61
+  offset: 2, 6
+  index: -1
+images/effects_L/Eskillc/kuo_021
+  rotate: false
+  xy: 402, 478
+  size: 99, 100
+  orig: 102, 103
+  offset: 1, 2
+  index: -1
+images/effects_L/Eskillc/shandian/shandian_035
+  rotate: true
+  xy: 402, 421
+  size: 55, 107
+  orig: 132, 314
+  offset: 42, 162
+  index: -1
+images/effects_L/Eskillc/shandian/shandian_036
+  rotate: false
+  xy: 2, 217
+  size: 80, 299
+  orig: 132, 314
+  offset: 25, 7
+  index: -1
+images/effects_L/Eskillc/shandian/shandian_037
+  rotate: false
+  xy: 84, 240
+  size: 89, 276
+  orig: 132, 314
+  offset: 25, 6
+  index: -1
+images/effects_L/Eskillc/shandian/shandian_038
+  rotate: false
+  xy: 343, 585
+  size: 95, 224
+  orig: 132, 314
+  offset: 26, 59
+  index: -1
+images/effects_L/Eskillc/shandian/shandian_040
+  rotate: false
+  xy: 2, 518
+  size: 132, 291
+  orig: 132, 314
+  offset: 0, 23
+  index: -1
+images/effects_L/Eskillc/shandian/shandian_042
+  rotate: false
+  xy: 440, 580
+  size: 108, 237
+  orig: 132, 314
+  offset: 24, 34
+  index: -1
+images/effects_L/Eskillc/shanguang_020
+  rotate: false
+  xy: 412, 328
+  size: 94, 91
+  orig: 103, 99
+  offset: 4, 3
+  index: -1
+images/effects_L/yujing_032
+  rotate: true
+  xy: 343, 421
+  size: 162, 57
+  orig: 163, 57
+  offset: 0, 0
+  index: -1

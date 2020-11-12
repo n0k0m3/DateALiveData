@@ -176,7 +176,7 @@ function KuangsanAssistView:selectTabBtn(id)
             TFDirector:getChildByPath(item, "Label_btn_name"):setColor(ccc3(255,255,255))
         else
             TFDirector:getChildByPath(item, "Image_btn_bg"):setTexture("ui/activity/assist/kuangsan/002.png")
-            TFDirector:getChildByPath(item, "Label_btn_name"):setColor(ccc3(153,137,145))
+            TFDirector:getChildByPath(item, "Label_btn_name"):setColor(ccc3(255,255,255))
         end
     end
 end

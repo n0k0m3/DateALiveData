@@ -942,8 +942,8 @@ local t =
 											fontSize = "18",
 											fontStroke = 
 											{
-												IsStroke = false,
-												StrokeColor = "#FFE6E6E6",
+												IsStroke = true,
+												StrokeColor = "#FFC73C39",
 												StrokeSize = 1,
 											},
 											height = "34",
@@ -1542,7 +1542,7 @@ local t =
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
 													dstBlendFunc = "771",
-													FontColor = "#FFC4C6E5",
+													FontColor = "#FFFFFFFF",
 													fontName = "font/fangzheng_zhunyuan.ttf",
 													fontShadow = 
 													{

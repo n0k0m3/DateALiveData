@@ -32,12 +32,12 @@ effect/skilld/chongjizhuan_000
   orig: 330, 108
   offset: 6, 0
   index: -1
-effect/skilld/gouyu_000
+effect/skilld/juju/juju_010
   rotate: false
-  xy: 899, 31
-  size: 120, 120
-  orig: 120, 120
-  offset: 0, 0
+  xy: 884, 293
+  size: 117, 129
+  orig: 180, 180
+  offset: 44, 19
   index: -1
 effect/skilld/julizi1/julizi1_002
   rotate: false
@@ -60,19 +60,12 @@ effect/skilld/julizi2/julizi_009
   orig: 240, 240
   offset: 6, 22
   index: -1
-effect/skilld/juqi/juqi_000
-  rotate: true
-  xy: 903, 813
-  size: 209, 119
-  orig: 270, 180
-  offset: 60, 55
-  index: -1
 effect/skilld/juqi/juqi_001
   rotate: true
-  xy: 899, 153
-  size: 269, 123
+  xy: 899, 27
+  size: 264, 116
   orig: 270, 180
-  offset: 0, 56
+  offset: 2, 60
   index: -1
 effect/skilld/juqi3/juqi3_012
   rotate: false
@@ -83,10 +76,17 @@ effect/skilld/juqi3/juqi3_012
   index: -1
 effect/skilld/shandian/shandian_009
   rotate: true
-  xy: 892, 738
+  xy: 892, 796
   size: 73, 130
   orig: 120, 180
   offset: 38, 0
+  index: -1
+effect/skilld/shandian/shandian_011
+  rotate: false
+  xy: 903, 871
+  size: 119, 151
+  orig: 120, 180
+  offset: 1, 26
   index: -1
 effect/skilld/shangge2/shangge2_000
   rotate: true
@@ -167,7 +167,7 @@ effect/skilld/shitou/shitouu_004
   index: -1
 effect/skilld/wangqiu/wangqiu_001
   rotate: true
-  xy: 889, 591
+  xy: 889, 590
   size: 131, 133
   orig: 210, 210
   offset: 30, 46
@@ -221,284 +221,284 @@ effect/skilld/ztsg/ztsg_000
   orig: 240, 90
   offset: 174, 0
   index: -1
+effect/skilld/ztsg/ztsg_003
+  rotate: false
+  xy: 892, 723
+  size: 130, 71
+  orig: 240, 90
+  offset: 104, 0
+  index: -1
 
 effects_11212_skillD2.png
 size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-effect/glow
-  rotate: false
-  xy: 929, 501
-  size: 60, 60
-  orig: 60, 60
-  offset: 0, 0
-  index: -1
-effect/guangshe_000
-  rotate: false
-  xy: 454, 487
-  size: 81, 78
-  orig: 84, 84
-  offset: 1, 5
-  index: -1
 effect/skilld/fazhen/fazhen_000
-  rotate: true
-  xy: 448, 567
+  rotate: false
+  xy: 2, 2
   size: 288, 97
   orig: 288, 108
   offset: 0, 1
   index: -1
-effect/skilld/juju/juju_000
-  rotate: true
-  xy: 929, 563
-  size: 85, 93
-  orig: 180, 180
-  offset: 39, 80
-  index: -1
-effect/skilld/julizi1/julizi1_004
+effect/skilld/gouyu_000
   rotate: false
-  xy: 289, 421
-  size: 163, 86
-  orig: 180, 132
-  offset: 4, 13
+  xy: 651, 19
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+effect/skilld/juju/juju_008
+  rotate: true
+  xy: 647, 141
+  size: 132, 149
+  orig: 180, 180
+  offset: 42, 10
   index: -1
 effect/skilld/julizi2/julizi_005
-  rotate: false
-  xy: 737, 844
+  rotate: true
+  xy: 254, 615
   size: 209, 178
   orig: 240, 240
   offset: 15, 33
   index: -1
 effect/skilld/julizi2/julizi_011
   rotate: false
-  xy: 2, 650
+  xy: 2, 817
   size: 223, 205
   orig: 240, 240
   offset: 10, 19
   index: -1
 effect/skilld/julizi2/julizi_013
   rotate: false
-  xy: 227, 670
+  xy: 438, 837
   size: 219, 185
   orig: 240, 240
   offset: 8, 41
   index: -1
 effect/skilld/julizi2/julizi_015
-  rotate: false
-  xy: 510, 858
+  rotate: true
+  xy: 2, 101
   size: 225, 164
   orig: 240, 240
   offset: 2, 42
   index: -1
 effect/skilld/julizi2/julizi_017
   rotate: true
-  xy: 2, 9
+  xy: 2, 328
   size: 227, 161
   orig: 240, 240
   offset: 0, 44
   index: -1
-effect/skilld/juqi/juqi_002
+effect/skilld/juqi/juqi_000
   rotate: false
-  xy: 2, 857
-  size: 264, 165
+  xy: 798, 122
+  size: 200, 111
   orig: 270, 180
-  offset: 0, 13
+  offset: 66, 58
+  index: -1
+effect/skilld/juqi/juqi_002
+  rotate: true
+  xy: 2, 557
+  size: 258, 159
+  orig: 270, 180
+  offset: 1, 17
   index: -1
 effect/skilld/juqi/juqi_004
   rotate: false
-  xy: 268, 857
-  size: 240, 165
+  xy: 659, 862
+  size: 233, 160
   orig: 270, 180
-  offset: 0, 12
+  offset: 1, 15
   index: -1
 effect/skilld/juqi/juqi_006
-  rotate: false
-  xy: 547, 487
-  size: 198, 165
-  orig: 270, 180
-  offset: 0, 12
-  index: -1
-effect/skilld/juqi/juqi_008
-  rotate: false
-  xy: 777, 124
-  size: 176, 163
-  orig: 270, 180
-  offset: 1, 13
-  index: -1
-effect/skilld/juqi2/juqi2_000
   rotate: true
-  xy: 500, 2
-  size: 120, 150
-  orig: 198, 162
-  offset: 78, 0
+  xy: 453, 226
+  size: 192, 156
+  orig: 270, 180
+  offset: 3, 16
+  index: -1
+effect/skilld/juqi/juqi_010
+  rotate: false
+  xy: 651, 275
+  size: 160, 147
+  orig: 270, 180
+  offset: 6, 20
   index: -1
 effect/skilld/juqi2/juqi2_004
-  rotate: true
-  xy: 344, 41
-  size: 198, 154
+  rotate: false
+  xy: 615, 424
+  size: 196, 150
   orig: 198, 162
-  offset: 0, 8
+  offset: 1, 10
   index: -1
 effect/skilld/juqi2/juqi2_007
-  rotate: true
-  xy: 782, 289
-  size: 198, 143
+  rotate: false
+  xy: 828, 466
+  size: 194, 137
   orig: 198, 162
-  offset: 0, 17
+  offset: 1, 21
   index: -1
-effect/skilld/juqi2/juqi2_016
-  rotate: false
-  xy: 652, 2
-  size: 129, 120
+effect/skilld/juqi2/juqi2_010
+  rotate: true
+  xy: 894, 831
+  size: 191, 127
   orig: 198, 162
-  offset: 5, 32
+  offset: 2, 28
   index: -1
-effect/skilld/juqi3/juqi3_001
-  rotate: true
-  xy: 667, 124
-  size: 177, 108
-  orig: 180, 168
-  offset: 3, 2
-  index: -1
-effect/skilld/juqi3/juqi3_003
-  rotate: true
-  xy: 500, 124
-  size: 177, 165
-  orig: 180, 168
-  offset: 2, 2
-  index: -1
-effect/skilld/keji1_000
+effect/skilld/juqi2/juqi2_013
   rotate: false
-  xy: 747, 489
-  size: 180, 180
-  orig: 180, 180
-  offset: 0, 0
+  xy: 292, 2
+  size: 177, 122
+  orig: 198, 162
+  offset: 3, 30
   index: -1
-effect/skilld/keji2_000
+effect/skilld/kuoci2_000_000
   rotate: false
-  xy: 317, 241
-  size: 176, 178
-  orig: 180, 180
+  xy: 773, 2
+  size: 118, 118
+  orig: 120, 120
   offset: 2, 1
   index: -1
-effect/skilld/kejiqiu/kejiqiu_006
-  rotate: false
-  xy: 289, 509
-  size: 157, 159
-  orig: 210, 210
-  offset: 28, 25
-  index: -1
-effect/skilld/luoxuan_000
+effect/skilld/kuoci_000
   rotate: true
-  xy: 897, 3
-  size: 119, 113
+  xy: 893, 3
+  size: 117, 116
   orig: 120, 120
-  offset: 1, 1
+  offset: 1, 2
   index: -1
-effect/skilld/qilang/qilang_000
+effect/skilld/luoxuan/luoxuan_000
   rotate: true
-  xy: 783, 2
-  size: 120, 112
-  orig: 198, 156
-  offset: 65, 11
+  xy: 434, 616
+  size: 106, 187
+  orig: 144, 198
+  offset: 19, 6
   index: -1
-effect/skilld/qilang/qilang_004
-  rotate: true
-  xy: 199, 239
-  size: 180, 116
-  orig: 198, 156
-  offset: 9, 29
-  index: -1
-effect/skilld/qilang/qilang_008
-  rotate: true
-  xy: 948, 879
-  size: 143, 70
-  orig: 198, 156
-  offset: 41, 75
-  index: -1
-effect/skilld/shandian/shandian_003
+effect/skilld/qilang/qilang_002
   rotate: false
-  xy: 669, 306
-  size: 111, 179
+  xy: 471, 7
+  size: 178, 125
+  orig: 198, 156
+  offset: 13, 19
+  index: -1
+effect/skilld/shandian/shandian_000
+  rotate: true
+  xy: 887, 761
+  size: 68, 135
   orig: 120, 180
-  offset: 2, 0
+  offset: 49, 43
   index: -1
-effect/skilld/shanguang/shanguang_000
+effect/skilld/shanguang/shanguang_009
   rotate: false
-  xy: 955, 230
-  size: 58, 60
+  xy: 868, 605
+  size: 154, 154
   orig: 180, 180
-  offset: 62, 60
+  offset: 14, 13
+  index: -1
+effect/skilld/shujuzhuan/shujuzhuan_000
+  rotate: false
+  xy: 438, 724
+  size: 203, 111
+  orig: 240, 132
+  offset: 13, 11
+  index: -1
+effect/skilld/shujuzhuan/shujuzhuan_002
+  rotate: false
+  xy: 623, 576
+  size: 203, 109
+  orig: 240, 132
+  offset: 13, 13
+  index: -1
+effect/skilld/shujuzhuan/shujuzhuan_006
+  rotate: false
+  xy: 813, 349
+  size: 203, 115
+  orig: 240, 132
+  offset: 13, 7
+  index: -1
+effect/skilld/shujuzhuan/shujuzhuan_008
+  rotate: false
+  xy: 813, 235
+  size: 202, 112
+  orig: 240, 132
+  offset: 14, 8
   index: -1
 effect/skilld/wangqiu/wangqiu_003
-  rotate: false
-  xy: 735, 671
+  rotate: true
+  xy: 442, 420
   size: 194, 171
   orig: 210, 210
   offset: 9, 15
   index: -1
 effect/skilld/wangqiu/wangqiu_005
   rotate: true
-  xy: 547, 654
+  xy: 254, 411
   size: 202, 186
   orig: 210, 210
   offset: 4, 9
   index: -1
 effect/skilld/wangqiu/wangqiu_009
   rotate: false
-  xy: 2, 238
+  xy: 256, 210
   size: 195, 199
   orig: 210, 210
   offset: 9, 8
   index: -1
 effect/skilld/wangqiu/wangqiu_011
-  rotate: false
-  xy: 2, 439
+  rotate: true
+  xy: 227, 826
   size: 196, 209
   orig: 210, 210
   offset: 6, 1
   index: -1
-effect/skilld/wangqiu/wangqiu_013
-  rotate: false
-  xy: 495, 303
-  size: 172, 182
-  orig: 210, 210
-  offset: 27, 12
-  index: -1
 effect/skilld/ztsg/ztsg_006
-  rotate: true
-  xy: 931, 650
+  rotate: false
+  xy: 453, 134
   size: 192, 90
   orig: 240, 90
   offset: 42, 0
   index: -1
 effect/skilld/ztsg/ztsg_009
   rotate: true
-  xy: 165, 8
+  xy: 163, 587
   size: 228, 89
   orig: 240, 90
   offset: 6, 0
   index: -1
 effect/skilld/ztsg/ztsg_012
   rotate: true
-  xy: 200, 421
+  xy: 165, 358
   size: 227, 87
   orig: 240, 90
   offset: 5, 1
   index: -1
 effect/skilld/ztsg/ztsg_015
-  rotate: true
-  xy: 927, 292
+  rotate: false
+  xy: 256, 126
   size: 195, 82
   orig: 240, 90
   offset: 6, 4
   index: -1
 effect/skilld/ztsg/ztsg_024
   rotate: true
-  xy: 256, 11
+  xy: 168, 130
   size: 226, 86
   orig: 240, 90
   offset: 8, 1
+  index: -1
+effect/skilld/ztsg/ztsg_026
+  rotate: false
+  xy: 659, 774
+  size: 226, 86
+  orig: 240, 90
+  offset: 8, 1
+  index: -1
+effect/skilld/ztsg/ztsg_028
+  rotate: false
+  xy: 643, 687
+  size: 223, 85
+  orig: 240, 90
+  offset: 11, 2
   index: -1
 
 effects_11212_skillD3.png
@@ -506,341 +506,327 @@ size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
+effect/glow
+  rotate: false
+  xy: 917, 3
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
 effect/kuoci_000
   rotate: true
-  xy: 893, 571
+  xy: 917, 65
   size: 139, 94
   orig: 150, 108
   offset: 6, 7
   index: -1
 effect/skilld/guangban2_000
-  rotate: false
-  xy: 160, 103
+  rotate: true
+  xy: 163, 133
   size: 171, 105
   orig: 180, 120
   offset: 4, 10
   index: -1
 effect/skilld/juju/juju_002
   rotate: true
-  xy: 174, 741
+  xy: 373, 739
   size: 111, 169
   orig: 180, 180
   offset: 7, 7
   index: -1
 effect/skilld/juju/juju_004
   rotate: false
-  xy: 2, 327
+  xy: 2, 133
   size: 159, 171
   orig: 180, 180
   offset: 17, 3
   index: -1
-effect/skilld/juju/juju_008
+effect/skilld/juju/juju_006
   rotate: false
-  xy: 877, 420
-  size: 132, 149
+  xy: 608, 33
+  size: 152, 155
   orig: 180, 180
-  offset: 42, 10
+  offset: 25, 7
   index: -1
-effect/skilld/juju/juju_010
-  rotate: true
-  xy: 453, 3
-  size: 117, 129
-  orig: 180, 180
-  offset: 44, 19
+effect/skilld/julizi1/julizi1_004
+  rotate: false
+  xy: 703, 511
+  size: 163, 86
+  orig: 180, 132
+  offset: 4, 13
   index: -1
 effect/skilld/julizi1/julizi1_006
   rotate: false
-  xy: 725, 599
+  xy: 542, 625
   size: 166, 111
   orig: 180, 132
   offset: 5, 11
   index: -1
 effect/skilld/julizi1/julizi1_008
   rotate: false
-  xy: 545, 546
+  xy: 544, 738
   size: 165, 114
   orig: 180, 132
   offset: 8, 10
   index: -1
 effect/skilld/julizi1/julizi1_010
   rotate: false
-  xy: 712, 483
+  xy: 335, 9
   size: 163, 114
   orig: 180, 132
   offset: 10, 10
   index: -1
 effect/skilld/julizi1/julizi1_012
-  rotate: true
-  xy: 792, 165
+  rotate: false
+  xy: 542, 509
   size: 159, 114
   orig: 180, 132
   offset: 14, 10
   index: -1
-effect/skilld/julizi1/julizi1_014
+effect/skilld/julizi2/julizi_001
   rotate: false
-  xy: 537, 338
-  size: 78, 112
-  orig: 180, 132
-  offset: 95, 12
+  xy: 889, 511
+  size: 107, 87
+  orig: 240, 240
+  offset: 69, 76
   index: -1
 effect/skilld/julizi2/julizi_003
-  rotate: false
-  xy: 165, 491
+  rotate: true
+  xy: 881, 850
   size: 172, 140
   orig: 240, 240
   offset: 33, 54
   index: -1
-effect/skilld/juqi/juqi_010
-  rotate: true
-  xy: 2, 155
-  size: 170, 156
+effect/skilld/juqi/juqi_008
+  rotate: false
+  xy: 711, 709
+  size: 166, 153
   orig: 270, 180
-  offset: 1, 17
+  offset: 5, 18
   index: -1
 effect/skilld/juqi2/juqi2_001
+  rotate: false
+  xy: 169, 476
+  size: 166, 156
+  orig: 198, 162
+  offset: 31, 2
+  index: -1
+effect/skilld/juqi3/juqi3_001
+  rotate: false
+  xy: 710, 599
+  size: 177, 108
+  orig: 180, 168
+  offset: 3, 2
+  index: -1
+effect/skilld/juqi3/juqi3_003
   rotate: true
-  xy: 2, 500
-  size: 173, 161
-  orig: 198, 162
-  offset: 25, 0
-  index: -1
-effect/skilld/juqi2/juqi2_010
-  rotate: false
-  xy: 345, 887
-  size: 197, 135
-  orig: 198, 162
-  offset: 0, 23
-  index: -1
-effect/skilld/juqi2/juqi2_013
-  rotate: false
-  xy: 547, 777
-  size: 185, 128
-  orig: 198, 162
-  offset: 0, 26
+  xy: 2, 483
+  size: 177, 165
+  orig: 180, 168
+  offset: 2, 2
   index: -1
 effect/skilld/juqi3/juqi3_006
   rotate: true
-  xy: 2, 675
+  xy: 2, 306
   size: 175, 163
   orig: 180, 168
   offset: 2, 2
   index: -1
 effect/skilld/juqi3/juqi3_009
   rotate: false
-  xy: 163, 331
+  xy: 711, 864
   size: 168, 158
   orig: 180, 168
   offset: 2, 4
   index: -1
+effect/skilld/juqi3/juqi3_015
+  rotate: true
+  xy: 184, 6
+  size: 125, 149
+  orig: 180, 168
+  offset: 4, 9
+  index: -1
+effect/skilld/keji1_000
+  rotate: false
+  xy: 2, 842
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+effect/skilld/keji2_000
+  rotate: false
+  xy: 2, 662
+  size: 176, 178
+  orig: 180, 180
+  offset: 2, 1
+  index: -1
 effect/skilld/kejiqiu/kejiqiu_000
   rotate: false
-  xy: 630, 164
+  xy: 167, 314
   size: 160, 160
   orig: 210, 210
   offset: 25, 25
   index: -1
 effect/skilld/kejiqiu/kejiqiu_002
   rotate: false
-  xy: 630, 2
+  xy: 329, 314
   size: 159, 160
   orig: 210, 210
   offset: 26, 25
   index: -1
 effect/skilld/kejiqiu/kejiqiu_004
   rotate: false
-  xy: 791, 3
+  xy: 598, 348
   size: 158, 159
   orig: 210, 210
   offset: 27, 25
   index: -1
-effect/skilld/kejiqiu/kejiqiu_010
+effect/skilld/kejiqiu/kejiqiu_006
+  rotate: false
+  xy: 758, 350
+  size: 157, 159
+  orig: 210, 210
+  offset: 28, 25
+  index: -1
+effect/skilld/kejiqiu/kejiqiu_008
   rotate: true
-  xy: 718, 326
+  xy: 598, 190
+  size: 156, 159
+  orig: 210, 210
+  offset: 29, 25
+  index: -1
+effect/skilld/kejiqiu/kejiqiu_010
+  rotate: false
+  xy: 759, 191
   size: 155, 157
   orig: 210, 210
   offset: 29, 27
   index: -1
-effect/skilld/kuoci2_000_000
-  rotate: false
-  xy: 333, 2
-  size: 118, 118
-  orig: 120, 120
-  offset: 2, 1
-  index: -1
-effect/skilld/luoxuan/luoxuan_000
-  rotate: true
-  xy: 167, 633
-  size: 106, 187
-  orig: 144, 198
-  offset: 19, 6
-  index: -1
 effect/skilld/luoxuan/luoxuan_002
   rotate: true
-  xy: 356, 539
+  xy: 184, 742
   size: 106, 187
   orig: 144, 198
   offset: 19, 6
   index: -1
 effect/skilld/luoxuan/luoxuan_004
   rotate: true
-  xy: 333, 230
+  xy: 180, 634
   size: 106, 187
   orig: 144, 198
   offset: 19, 6
   index: -1
 effect/skilld/luoxuan/luoxuan_006
-  rotate: true
-  xy: 333, 122
+  rotate: false
+  xy: 383, 125
   size: 106, 187
   orig: 144, 198
   offset: 19, 6
   index: -1
 effect/skilld/luoxuan/luoxuan_008
   rotate: false
-  xy: 522, 149
+  xy: 490, 320
   size: 106, 187
   orig: 144, 198
   offset: 19, 6
   index: -1
-effect/skilld/qilang/qilang_002
+effect/skilld/qilang/qilang_004
   rotate: false
-  xy: 356, 647
-  size: 178, 125
+  xy: 2, 15
+  size: 180, 116
   orig: 198, 156
-  offset: 13, 19
+  offset: 9, 29
   index: -1
 effect/skilld/qilang/qilang_006
-  rotate: false
-  xy: 123, 2
+  rotate: true
+  xy: 491, 142
   size: 176, 99
   orig: 198, 156
   offset: 13, 46
   index: -1
-effect/skilld/shandian/shandian_000
+effect/skilld/qilang/qilang_008
   rotate: false
-  xy: 954, 887
-  size: 68, 135
+  xy: 879, 778
+  size: 143, 70
+  orig: 198, 156
+  offset: 41, 75
+  index: -1
+effect/skilld/shandian/shandian_003
+  rotate: false
+  xy: 270, 133
+  size: 111, 179
   orig: 120, 180
-  offset: 49, 43
+  offset: 2, 0
   index: -1
 effect/skilld/shandian/shandian_005
   rotate: false
-  xy: 908, 214
+  xy: 500, 16
   size: 106, 124
   orig: 120, 180
   offset: 10, 1
   index: -1
 effect/skilld/shandian/shandian_007
   rotate: true
-  xy: 160, 210
+  xy: 369, 622
   size: 115, 171
   orig: 120, 180
   offset: 0, 0
   index: -1
-effect/skilld/shandian/shandian_011
-  rotate: false
-  xy: 2, 2
-  size: 119, 151
-  orig: 120, 180
-  offset: 1, 26
-  index: -1
 effect/skilld/shandian/shandian_013
-  rotate: true
-  xy: 547, 662
+  rotate: false
+  xy: 889, 600
   size: 113, 176
   orig: 120, 180
   offset: 4, 0
   index: -1
+effect/skilld/shanguang/shanguang_003
+  rotate: false
+  xy: 762, 35
+  size: 153, 154
+  orig: 180, 180
+  offset: 14, 13
+  index: -1
 effect/skilld/shanguang/shanguang_005
   rotate: false
-  xy: 2, 852
+  xy: 368, 852
   size: 170, 170
   orig: 180, 180
   offset: 6, 5
   index: -1
 effect/skilld/shanguang/shanguang_007
   rotate: false
-  xy: 174, 854
+  xy: 540, 854
   size: 169, 168
   orig: 180, 180
   offset: 6, 6
   index: -1
-effect/skilld/shitou/shitouu_000
-  rotate: true
-  xy: 617, 339
-  size: 111, 99
-  orig: 120, 120
-  offset: 3, 2
-  index: -1
-effect/skilld/shujuzhuan/shujuzhuan_000
-  rotate: false
-  xy: 749, 911
-  size: 203, 111
-  orig: 240, 132
-  offset: 13, 11
-  index: -1
-effect/skilld/shujuzhuan/shujuzhuan_002
-  rotate: false
-  xy: 749, 800
-  size: 203, 109
-  orig: 240, 132
-  offset: 13, 13
-  index: -1
 effect/skilld/shujuzhuan/shujuzhuan_004
   rotate: false
-  xy: 345, 774
+  xy: 337, 509
   size: 200, 111
   orig: 240, 132
   offset: 15, 9
   index: -1
-effect/skilld/shujuzhuan/shujuzhuan_006
-  rotate: false
-  xy: 544, 907
-  size: 203, 115
-  orig: 240, 132
-  offset: 13, 7
-  index: -1
-effect/skilld/shujuzhuan/shujuzhuan_008
-  rotate: false
-  xy: 333, 338
-  size: 202, 112
-  orig: 240, 132
-  offset: 14, 8
-  index: -1
 effect/skilld/spark_000
-  rotate: true
-  xy: 564, 452
+  rotate: false
+  xy: 917, 392
   size: 92, 117
   orig: 94, 120
   offset: 1, 2
   index: -1
-effect/skilld/ztsg/ztsg_003
+effect/skilld/wangqiu/wangqiu_013
   rotate: true
-  xy: 951, 82
-  size: 130, 71
-  orig: 240, 90
-  offset: 104, 0
+  xy: 184, 850
+  size: 172, 182
+  orig: 210, 210
+  offset: 27, 12
   index: -1
 effect/skilld/ztsg/ztsg_018
-  rotate: false
-  xy: 877, 340
+  rotate: true
+  xy: 916, 206
   size: 142, 78
   orig: 240, 90
   offset: 7, 7
-  index: -1
-effect/skilld/ztsg/ztsg_026
-  rotate: false
-  xy: 734, 712
-  size: 226, 86
-  orig: 240, 90
-  offset: 8, 1
-  index: -1
-effect/skilld/ztsg/ztsg_028
-  rotate: false
-  xy: 339, 452
-  size: 223, 85
-  orig: 240, 90
-  offset: 11, 2
   index: -1
 
 effects_11212_skillD4.png
@@ -848,107 +834,121 @@ size: 512,512
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
+effect/guangshe_000
+  rotate: true
+  xy: 296, 118
+  size: 81, 78
+  orig: 84, 84
+  offset: 1, 5
+  index: -1
 effect/skilld/guangban_000
   rotate: false
-  xy: 419, 316
+  xy: 229, 201
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 effect/skilld/guangshan_000
   rotate: false
-  xy: 405, 408
+  xy: 116, 93
   size: 101, 101
   orig: 120, 120
   offset: 10, 10
   index: -1
-effect/skilld/juju/juju_006
-  rotate: false
-  xy: 157, 37
-  size: 152, 155
+effect/skilld/juju/juju_000
+  rotate: true
+  xy: 116, 6
+  size: 85, 93
   orig: 180, 180
-  offset: 25, 7
+  offset: 39, 80
   index: -1
-effect/skilld/julizi2/julizi_001
-  rotate: false
-  xy: 402, 184
-  size: 107, 87
-  orig: 240, 240
-  offset: 69, 76
+effect/skilld/julizi1/julizi1_014
+  rotate: true
+  xy: 2, 7
+  size: 78, 112
+  orig: 180, 132
+  offset: 95, 12
   index: -1
-effect/skilld/juqi3/juqi3_015
+effect/skilld/juqi2/juqi2_000
   rotate: false
-  xy: 160, 360
-  size: 125, 149
-  orig: 180, 168
-  offset: 4, 9
+  xy: 2, 209
+  size: 114, 146
+  orig: 198, 162
+  offset: 83, 0
+  index: -1
+effect/skilld/juqi2/juqi2_016
+  rotate: true
+  xy: 118, 196
+  size: 95, 109
+  orig: 198, 162
+  offset: 8, 37
   index: -1
 effect/skilld/juqiu_008
   rotate: false
-  xy: 311, 36
+  xy: 296, 38
   size: 78, 78
   orig: 78, 78
   offset: 0, 0
   index: -1
-effect/skilld/kejiqiu/kejiqiu_008
-  rotate: false
-  xy: 2, 350
-  size: 156, 159
-  orig: 210, 210
-  offset: 29, 25
-  index: -1
-effect/skilld/kuoci_000
-  rotate: true
-  xy: 287, 392
-  size: 117, 116
-  orig: 120, 120
-  offset: 1, 2
-  index: -1
 effect/skilld/kuofengcao_000
   rotate: false
-  xy: 158, 198
+  xy: 2, 357
   size: 150, 150
   orig: 150, 150
   offset: 0, 0
   index: -1
-effect/skilld/shanguang/shanguang_001
+effect/skilld/luoxuan_000
+  rotate: false
+  xy: 154, 394
+  size: 119, 113
+  orig: 120, 120
+  offset: 1, 1
+  index: -1
+effect/skilld/qilang/qilang_000
   rotate: true
-  xy: 311, 116
+  xy: 2, 87
+  size: 120, 112
+  orig: 198, 156
+  offset: 65, 11
+  index: -1
+effect/skilld/shanguang/shanguang_000
+  rotate: true
+  xy: 219, 44
+  size: 58, 60
+  orig: 180, 180
+  offset: 62, 60
+  index: -1
+effect/skilld/shanguang/shanguang_001
+  rotate: false
+  xy: 267, 313
   size: 78, 79
   orig: 180, 180
   offset: 52, 51
   index: -1
-effect/skilld/shanguang/shanguang_003
+effect/skilld/shitou/shitouu_000
   rotate: false
-  xy: 2, 38
-  size: 153, 154
-  orig: 180, 180
-  offset: 14, 13
-  index: -1
-effect/skilld/shanguang/shanguang_009
-  rotate: false
-  xy: 2, 194
-  size: 154, 154
-  orig: 180, 180
-  offset: 14, 13
+  xy: 154, 293
+  size: 111, 99
+  orig: 120, 120
+  offset: 3, 2
   index: -1
 effect/skilld/shitou/shitouu_001
-  rotate: false
-  xy: 310, 273
+  rotate: true
+  xy: 275, 400
   size: 107, 117
   orig: 120, 120
   offset: 13, 0
   index: -1
 effect/skilld/shitou/shitouu_002
-  rotate: false
-  xy: 310, 196
+  rotate: true
+  xy: 219, 104
   size: 90, 75
   orig: 120, 120
   offset: 11, 19
   index: -1
 effect/skilld/shitou/shitouu_003
   rotate: true
-  xy: 392, 72
+  xy: 394, 397
   size: 110, 113
   orig: 120, 120
   offset: 6, 7

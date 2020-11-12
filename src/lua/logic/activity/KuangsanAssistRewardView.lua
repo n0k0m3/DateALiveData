@@ -35,7 +35,7 @@ function KuangsanAssistRewardView:initUI(ui)
     label_custom:setFontName("font/fangzheng_zhunyuan.ttf")
     label_custom:setFontSize(15)
     label_custom:setAnchorPoint(ccp(0 , 0.5))
-    label_custom:setPosition(-40 , 207)
+    label_custom:setPosition(50 , 155)
     --label_custom:enableOutline(ccc4(0,0,0,255), 1)
     TFDirector:getChildByPath(ui , "Image_bg"):addChild(label_custom)
     label_custom:setTextById(190000160)
@@ -65,6 +65,12 @@ function KuangsanAssistRewardView:refreshView()
                 count = count + 1
             end
         end
+
+        if i % 2== 1 then
+            item:getChildByName("Image_bg"):setTexture("ui/activity/assist/kuangsan/tip_007.png")
+        else
+            item:getChildByName("Image_bg"):setTexture("ui/activity/assist/kuangsan/tip_008.png")
+        end
     end
 
     local picData = ActivityDataMgr2:getAssistItemInfos(self.activityId, EC_Activity_Assist_Subtype.CG_UNLOCK)
@@ -87,6 +93,12 @@ function KuangsanAssistRewardView:refreshView()
                 goodsItem:AddTo(Image_item_bg):Pos(32 + count * 69, 0):Scale(0.6)
                 count = count + 1
             end
+        end
+
+        if i % 2== 1 then
+            item:getChildByName("Image_bg"):setTexture("ui/activity/assist/kuangsan/tip_007.png")
+        else
+            item:getChildByName("Image_bg"):setTexture("ui/activity/assist/kuangsan/tip_008.png")
         end
     end
 end

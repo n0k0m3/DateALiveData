@@ -104185,7 +104185,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Hehe, your Maid Café is quite good, I can't sit and do nothing ~",
+                text = "Hehe, your Maid Cafe is quite good, I can't sit and do nothing ~",
             },
         },
         actionL = {

@@ -30,6 +30,8 @@ function addActivityItem(self)
 
 Panel_activityItem.ImageSelect = TFDirector:getChildByPath(Panel_activityItem, "ImageSelect")
 Panel_activityItem.ImageNormal = TFDirector:getChildByPath(Panel_activityItem, "ImageNormal")
+Panel_activityItem.ImageSelect:setTexture("") --英文版万由里调整显示
+Panel_activityItem.ImageNormal:setTexture("") --英文版万由里调整显示
 
 
 
@@ -50,9 +52,9 @@ end
 
 Panel_activityItem.setImage = function (self,titleIcon)
     local iconPath = titleIcon
-    self.ImageNormal:setTexture(iconPath)
+    --self.ImageNormal:setTexture(iconPath)
     if iconPath then
-        self.ImageSelect:setTexture(string.sub(iconPath,0,-6) .. "s.png")
+        --self.ImageSelect:setTexture(string.sub(iconPath,0,-6) .. "s.png")
     end
 end
 

@@ -1,0 +1,62 @@
+
+effects_29003_1_skillF.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+R/F/boom_001
+  rotate: true
+  xy: 2, 255
+  size: 400, 345
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+R/F/boom_003
+  rotate: false
+  xy: 391, 695
+  size: 400, 324
+  orig: 400, 400
+  offset: 0, 20
+  index: -1
+R/F/boom_005
+  rotate: false
+  xy: 2, 657
+  size: 387, 362
+  orig: 400, 400
+  offset: 0, 24
+  index: -1
+R/F/boom_007
+  rotate: false
+  xy: 349, 328
+  size: 318, 327
+  orig: 400, 400
+  offset: 25, 39
+  index: -1
+R/F/boom_009
+  rotate: false
+  xy: 2, 5
+  size: 247, 248
+  orig: 400, 400
+  offset: 88, 37
+  index: -1
+R/F/boom_011
+  rotate: true
+  xy: 251, 2
+  size: 251, 238
+  orig: 400, 400
+  offset: 87, 39
+  index: -1
+R/F/boom_013
+  rotate: false
+  xy: 793, 796
+  size: 223, 223
+  orig: 400, 400
+  offset: 87, 50
+  index: -1
+glow
+  rotate: false
+  xy: 793, 694
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1

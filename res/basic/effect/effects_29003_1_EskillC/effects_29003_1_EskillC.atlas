@@ -1,0 +1,201 @@
+
+effects_29003_1_EskillC.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ER/EC/Eboom/Eboom_003
+  rotate: true
+  xy: 764, 404
+  size: 295, 196
+  orig: 320, 260
+  offset: 25, 23
+  index: -1
+ER/EC/Eboom/Eboom_004
+  rotate: true
+  xy: 327, 6
+  size: 288, 206
+  orig: 320, 260
+  offset: 16, 23
+  index: -1
+ER/EC/Eboom/Eboom_005
+  rotate: true
+  xy: 535, 64
+  size: 272, 205
+  orig: 320, 260
+  offset: 16, 24
+  index: -1
+ER/EC/Edao_000
+  rotate: true
+  xy: 535, 2
+  size: 60, 88
+  orig: 100, 100
+  offset: 16, 6
+  index: -1
+ER/EC/Edi/Edi_000
+  rotate: true
+  xy: 331, 296
+  size: 384, 109
+  orig: 400, 120
+  offset: 5, 0
+  index: -1
+ER/EC/Edi/Edi_002
+  rotate: true
+  xy: 888, 2
+  size: 400, 108
+  orig: 400, 120
+  offset: 0, 1
+  index: -1
+ER/EC/Edilie_000
+  rotate: true
+  xy: 946, 783
+  size: 239, 49
+  orig: 250, 50
+  offset: 11, 0
+  index: -1
+ER/Edaoguang/Edaoguang_000
+  rotate: true
+  xy: 742, 63
+  size: 273, 144
+  orig: 400, 350
+  offset: 50, 181
+  index: -1
+ER/Edaoguang/Edaoguang_001
+  rotate: false
+  xy: 2, 682
+  size: 364, 340
+  orig: 400, 350
+  offset: 21, 0
+  index: -1
+ER/Edaoguang/Edaoguang_002
+  rotate: false
+  xy: 368, 686
+  size: 352, 336
+  orig: 400, 350
+  offset: 28, 0
+  index: -1
+ER/Edaoguang/Edaoguang_003
+  rotate: true
+  xy: 2, 311
+  size: 369, 327
+  orig: 400, 350
+  offset: 11, 0
+  index: -1
+ER/Edaoguang/Edaoguang_005
+  rotate: true
+  xy: 442, 338
+  size: 346, 320
+  orig: 400, 350
+  offset: 14, 8
+  index: -1
+ER/Edaoguang/Edaoguang_007
+  rotate: false
+  xy: 2, 4
+  size: 323, 305
+  orig: 400, 350
+  offset: 35, 12
+  index: -1
+ER/Edaoguang/Edaoguang_009
+  rotate: true
+  xy: 722, 701
+  size: 321, 222
+  orig: 400, 350
+  offset: 33, 24
+  index: -1
+ER/Rguangxian_000
+  rotate: true
+  xy: 997, 832
+  size: 190, 25
+  orig: 200, 30
+  offset: 5, 2
+  index: -1
+
+effects_29003_1_EskillC2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ER/EC/Eboom/Eboom_001
+  rotate: false
+  xy: 230, 14
+  size: 253, 140
+  orig: 320, 260
+  offset: 40, 23
+  index: -1
+ER/EC/Eboom/Eboom_006
+  rotate: true
+  xy: 246, 544
+  size: 251, 203
+  orig: 320, 260
+  offset: 20, 26
+  index: -1
+ER/EC/Edi/Edi_004
+  rotate: false
+  xy: 2, 889
+  size: 400, 105
+  orig: 400, 120
+  offset: 0, 2
+  index: -1
+ER/EC/Edi/Edi_006
+  rotate: false
+  xy: 2, 797
+  size: 400, 90
+  orig: 400, 120
+  offset: 0, 10
+  index: -1
+ER/EC/Edi/Edi_008
+  rotate: false
+  xy: 404, 904
+  size: 400, 90
+  orig: 400, 120
+  offset: 0, 10
+  index: -1
+ER/EC/Eshifa/Eshifa_001
+  rotate: true
+  xy: 2, 53
+  size: 245, 226
+  orig: 270, 270
+  offset: 3, 32
+  index: -1
+ER/EC/Eshifa/Eshifa_003
+  rotate: false
+  xy: 2, 559
+  size: 242, 236
+  orig: 270, 270
+  offset: 3, 22
+  index: -1
+ER/EC/Eshifa/Eshifa_004
+  rotate: true
+  xy: 2, 300
+  size: 257, 217
+  orig: 270, 270
+  offset: 3, 41
+  index: -1
+ER/EC/Eshifa/Eshifa_005
+  rotate: false
+  xy: 221, 342
+  size: 256, 200
+  orig: 270, 270
+  offset: 4, 58
+  index: -1
+ER/EC/Eshifa/Eshifa_006
+  rotate: false
+  xy: 230, 156
+  size: 217, 184
+  orig: 270, 270
+  offset: 32, 72
+  index: -1
+ER/EC/Ezidan/Ezidan_000
+  rotate: false
+  xy: 806, 812
+  size: 188, 182
+  orig: 200, 200
+  offset: 10, 15
+  index: -1
+glow
+  rotate: false
+  xy: 404, 802
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1

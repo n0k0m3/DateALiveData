@@ -489,7 +489,7 @@ function AlertManager:hideInVisibleLayer( )
             if idx >= topIndex and tlayer.isShow then
                 table.insert(showList, tlayer) 
             else
-                if tlayer.__cname ~= "BattleResultView" and  tlayer.__cname ~= "OverduePromptView" and  tlayer.__cname ~= "LeagueSendRedPacketView" then
+                if tlayer.__cname ~= "BattleResultView" and  tlayer.__cname ~= "OverduePromptView" and  tlayer.__cname ~= "LeagueSendRedPacketView" and tlayer.__cname~="RankNoticeView" then
                     table.insert(hideList, tlayer) 
                 end
             end
@@ -502,7 +502,6 @@ function AlertManager:hideInVisibleLayer( )
             end
         end
         for i,_layer in ipairs(hideList) do
-            --print(string.format("name %s        istop %s   ", _layer.__cname, tostring(_layer.isTop) ).."    hide")
             if _layer.hideUIWidget then
                 _layer:hideUIWidget()
             end

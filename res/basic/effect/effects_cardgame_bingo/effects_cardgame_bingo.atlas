@@ -1,0 +1,167 @@
+
+effects_cardgame_bingo.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/bao/bao_019
+  rotate: true
+  xy: 754, 212
+  size: 119, 116
+  orig: 298, 262
+  offset: 89, 77
+  index: -1
+images/bao/bao_021
+  rotate: false
+  xy: 828, 830
+  size: 178, 176
+  orig: 298, 262
+  offset: 62, 46
+  index: -1
+images/bao/bao_023
+  rotate: false
+  xy: 2, 25
+  size: 193, 191
+  orig: 298, 262
+  offset: 58, 31
+  index: -1
+images/bao/bao_025
+  rotate: true
+  xy: 553, 493
+  size: 249, 244
+  orig: 298, 262
+  offset: 20, 12
+  index: -1
+images/bao/bao_027
+  rotate: false
+  xy: 570, 754
+  size: 256, 252
+  orig: 298, 262
+  offset: 17, 8
+  index: -1
+images/bao/bao_029
+  rotate: false
+  xy: 288, 485
+  size: 263, 257
+  orig: 298, 262
+  offset: 13, 5
+  index: -1
+images/bao/bao_031
+  rotate: false
+  xy: 2, 218
+  size: 270, 260
+  orig: 298, 262
+  offset: 10, 2
+  index: -1
+images/bao/bao_033
+  rotate: false
+  xy: 290, 744
+  size: 278, 262
+  orig: 298, 262
+  offset: 6, 0
+  index: -1
+images/bao/bao_035
+  rotate: false
+  xy: 2, 480
+  size: 284, 262
+  orig: 298, 262
+  offset: 3, 0
+  index: -1
+images/bao/bao_037
+  rotate: false
+  xy: 2, 744
+  size: 286, 262
+  orig: 298, 262
+  offset: 2, 0
+  index: -1
+images/baoxia/baoxia_022
+  rotate: false
+  xy: 669, 50
+  size: 124, 129
+  orig: 298, 262
+  offset: 93, 67
+  index: -1
+images/baoxia/baoxia_024
+  rotate: true
+  xy: 440, 173
+  size: 147, 149
+  orig: 298, 262
+  offset: 81, 59
+  index: -1
+images/baoxia/baoxia_026
+  rotate: true
+  xy: 440, 322
+  size: 161, 159
+  orig: 298, 262
+  offset: 70, 54
+  index: -1
+images/baoxia/baoxia_028
+  rotate: false
+  xy: 601, 333
+  size: 159, 158
+  orig: 298, 262
+  offset: 71, 54
+  index: -1
+images/baoxia/baoxia_030
+  rotate: false
+  xy: 274, 314
+  size: 164, 164
+  orig: 298, 262
+  offset: 68, 51
+  index: -1
+images/baoxia/baoxia_032
+  rotate: false
+  xy: 828, 660
+  size: 168, 168
+  orig: 298, 262
+  offset: 66, 49
+  index: -1
+images/baoxia/baoxia_033
+  rotate: false
+  xy: 197, 46
+  size: 170, 170
+  orig: 298, 262
+  offset: 65, 48
+  index: -1
+images/baoxia/baoxia_034
+  rotate: false
+  xy: 799, 490
+  size: 168, 168
+  orig: 298, 262
+  offset: 66, 49
+  index: -1
+images/baoxia/baoxia_035
+  rotate: false
+  xy: 762, 337
+  size: 151, 151
+  orig: 298, 262
+  offset: 78, 57
+  index: -1
+images/baoxia/baoxia_036
+  rotate: false
+  xy: 601, 181
+  size: 151, 150
+  orig: 298, 262
+  offset: 78, 58
+  index: -1
+images/baoxia/baoxia_037
+  rotate: false
+  xy: 369, 22
+  size: 149, 149
+  orig: 298, 262
+  offset: 79, 58
+  index: -1
+images/baoxia/baoxia_038
+  rotate: true
+  xy: 520, 23
+  size: 148, 147
+  orig: 298, 262
+  offset: 80, 59
+  index: -1
+images/yuan_021
+  rotate: false
+  xy: 795, 97
+  size: 111, 113
+  orig: 182, 171
+  offset: 38, 30
+  index: -1

@@ -1,0 +1,103 @@
+
+angel_1102103.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 2, 32
+  size: 211, 512
+  orig: 211, 512
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 345, 328
+  size: 210, 694
+  orig: 210, 694
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 557, 487
+  size: 263, 535
+  orig: 263, 535
+  offset: 0, 0
+  index: -1
+4
+  rotate: true
+  xy: 557, 282
+  size: 203, 364
+  orig: 203, 364
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 822, 613
+  size: 165, 409
+  orig: 165, 409
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 516, 2
+  size: 137, 278
+  orig: 139, 278
+  offset: 2, 0
+  index: -1
+7
+  rotate: true
+  xy: 655, 192
+  size: 88, 328
+  orig: 88, 328
+  offset: 0, 0
+  index: -1
+8
+  rotate: true
+  xy: 655, 95
+  size: 95, 224
+  orig: 95, 224
+  offset: 0, 0
+  index: -1
+fx
+  rotate: false
+  xy: 2, 245
+  size: 341, 777
+  orig: 341, 777
+  offset: 0, 0
+  index: -1
+ggg1
+  rotate: false
+  xy: 881, 79
+  size: 111, 111
+  orig: 115, 115
+  offset: 2, 2
+  index: -1
+ggg4
+  rotate: false
+  xy: 2, 7
+  size: 21, 23
+  orig: 21, 23
+  offset: 0, 0
+  index: -1
+shanguan
+  rotate: false
+  xy: 822, 487
+  size: 122, 124
+  orig: 122, 124
+  offset: 0, 0
+  index: -1
+
+angel_11021032.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ggg2
+  rotate: false
+  xy: 2, 2
+  size: 111, 111
+  orig: 111, 111
+  offset: 0, 0
+  index: -1

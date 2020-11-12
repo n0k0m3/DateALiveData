@@ -1,0 +1,300 @@
+
+effects_misuobudaya.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/zidan/4/zidan/baodian_000
+  rotate: false
+  xy: 815, 318
+  size: 79, 79
+  orig: 192, 192
+  offset: 61, 53
+  index: -1
+images/effects/zidan/4/zidan/baodian_001
+  rotate: false
+  xy: 815, 399
+  size: 80, 79
+  orig: 192, 192
+  offset: 61, 53
+  index: -1
+images/effects/zidan/4/zidan/baodian_002
+  rotate: true
+  xy: 897, 387
+  size: 90, 92
+  orig: 192, 192
+  offset: 55, 49
+  index: -1
+images/effects/zidan/4/zidan/baodian_003
+  rotate: true
+  xy: 712, 348
+  size: 102, 101
+  orig: 192, 192
+  offset: 50, 47
+  index: -1
+images/effects/zidan/4/zidan/baodian_004
+  rotate: true
+  xy: 735, 87
+  size: 113, 106
+  orig: 192, 192
+  offset: 42, 46
+  index: -1
+images/effects/zidan/4/zidan/baodian_005
+  rotate: true
+  xy: 562, 179
+  size: 123, 111
+  orig: 192, 192
+  offset: 37, 44
+  index: -1
+images/effects/zidan/4/zidan/baodian_006
+  rotate: true
+  xy: 898, 479
+  size: 118, 112
+  orig: 192, 192
+  offset: 35, 45
+  index: -1
+images/effects/zidan/4/zidan/baodian_007
+  rotate: true
+  xy: 675, 202
+  size: 117, 113
+  orig: 192, 192
+  offset: 33, 45
+  index: -1
+images/effects/zidan/4/zidan/baodian_008
+  rotate: true
+  xy: 623, 58
+  size: 119, 110
+  orig: 192, 192
+  offset: 31, 48
+  index: -1
+images/effects/zidan/4/zidan_000
+  rotate: false
+  xy: 790, 237
+  size: 79, 79
+  orig: 200, 200
+  offset: 60, 60
+  index: -1
+images/effects_L/misuobudayazidan/1/hit/hit_016
+  rotate: false
+  xy: 406, 304
+  size: 174, 173
+  orig: 200, 188
+  offset: 16, 9
+  index: -1
+images/effects_L/misuobudayazidan/1/hit/hit_017
+  rotate: false
+  xy: 882, 599
+  size: 128, 129
+  orig: 200, 188
+  offset: 39, 31
+  index: -1
+images/effects_L/misuobudayazidan/1/hit/hit_018
+  rotate: false
+  xy: 493, 20
+  size: 128, 129
+  orig: 200, 188
+  offset: 39, 31
+  index: -1
+images/effects_L/misuobudayazidan/1/hit/hit_020
+  rotate: false
+  xy: 582, 321
+  size: 128, 129
+  orig: 200, 188
+  offset: 39, 31
+  index: -1
+images/effects_L/misuobudayazidan/1/hit/hit_022
+  rotate: false
+  xy: 353, 8
+  size: 138, 141
+  orig: 200, 188
+  offset: 29, 22
+  index: -1
+images/effects_L/misuobudayazidan/1/hit/hit_024
+  rotate: false
+  xy: 204, 2
+  size: 147, 155
+  orig: 200, 188
+  offset: 20, 13
+  index: -1
+images/effects_L/misuobudayazidan/1/hit/hit_026
+  rotate: false
+  xy: 402, 151
+  size: 158, 151
+  orig: 200, 188
+  offset: 13, 5
+  index: -1
+images/effects_L/misuobudayazidan/1/hit/hit_028
+  rotate: false
+  xy: 2, 5
+  size: 159, 151
+  orig: 200, 188
+  offset: 7, 0
+  index: -1
+images/effects_L/misuobudayazidan/1/hit/hit_030
+  rotate: true
+  xy: 889, 730
+  size: 152, 121
+  orig: 200, 188
+  offset: 3, 19
+  index: -1
+images/effects_L/misuobudayazidan/1/hit/hit_031
+  rotate: false
+  xy: 744, 480
+  size: 152, 110
+  orig: 200, 188
+  offset: 2, 27
+  index: -1
+images/effects_L/misuobudayazidan/1/zidan_001
+  rotate: false
+  xy: 590, 452
+  size: 135, 49
+  orig: 146, 68
+  offset: 5, 8
+  index: -1
+images/effects_L/misuobudayazidan/3/hit/hit_042
+  rotate: false
+  xy: 2, 360
+  size: 200, 200
+  orig: 202, 201
+  offset: 0, 0
+  index: -1
+images/effects_L/misuobudayazidan/3/hit/hit_043
+  rotate: false
+  xy: 2, 158
+  size: 200, 200
+  orig: 202, 201
+  offset: 0, 0
+  index: -1
+images/effects_L/misuobudayazidan/3/hit/hit_044
+  rotate: false
+  xy: 204, 360
+  size: 200, 200
+  orig: 202, 201
+  offset: 0, 0
+  index: -1
+images/effects_L/misuobudayazidan/3/hit/hit_046
+  rotate: false
+  xy: 204, 159
+  size: 196, 199
+  orig: 202, 201
+  offset: 2, 0
+  index: -1
+images/effects_L/misuobudayazidan/3/hit/hit_048
+  rotate: false
+  xy: 406, 479
+  size: 182, 182
+  orig: 202, 201
+  offset: 7, 8
+  index: -1
+images/effects_L/misuobudayazidan/3/hit/hit_050
+  rotate: false
+  xy: 730, 730
+  size: 157, 152
+  orig: 202, 201
+  offset: 15, 19
+  index: -1
+images/effects_L/misuobudayazidan/3/hit/hit_052
+  rotate: true
+  xy: 590, 503
+  size: 158, 152
+  orig: 202, 201
+  offset: 14, 19
+  index: -1
+images/effects_L/misuobudayazidan/3/hit/hit_054
+  rotate: false
+  xy: 744, 592
+  size: 136, 136
+  orig: 202, 201
+  offset: 32, 31
+  index: -1
+images/effects_L/misuobudayazidan/3/jiguang/jiguang_029
+  rotate: false
+  xy: 770, 914
+  size: 223, 108
+  orig: 382, 115
+  offset: 13, 3
+  index: -1
+images/effects_L/misuobudayazidan/3/jiguang/jiguang_030
+  rotate: false
+  xy: 2, 907
+  size: 382, 115
+  orig: 382, 115
+  offset: 0, 0
+  index: -1
+images/effects_L/misuobudayazidan/3/jiguang/jiguang_031
+  rotate: false
+  xy: 2, 790
+  size: 382, 115
+  orig: 382, 115
+  offset: 0, 0
+  index: -1
+images/effects_L/misuobudayazidan/3/jiguang/jiguang_032
+  rotate: false
+  xy: 386, 908
+  size: 382, 114
+  orig: 382, 115
+  offset: 0, 0
+  index: -1
+images/effects_L/misuobudayazidan/3/jiguang/jiguang_033
+  rotate: false
+  xy: 2, 674
+  size: 382, 114
+  orig: 382, 115
+  offset: 0, 0
+  index: -1
+images/effects_L/misuobudayazidan/3/jiguang/jiguang_034
+  rotate: false
+  xy: 386, 793
+  size: 342, 113
+  orig: 382, 115
+  offset: 1, 1
+  index: -1
+images/effects_L/misuobudayazidan/3/jiguang/jiguang_035
+  rotate: false
+  xy: 386, 762
+  size: 290, 29
+  orig: 382, 115
+  offset: 50, 44
+  index: -1
+images/effects_L/misuobudayazidan/3/jiguang/jiguang_036
+  rotate: false
+  xy: 2, 562
+  size: 336, 110
+  orig: 382, 115
+  offset: 1, 3
+  index: -1
+images/effects_L/misuobudayazidan/3/jiguang/jiguang_037
+  rotate: false
+  xy: 386, 663
+  size: 270, 31
+  orig: 382, 115
+  offset: 62, 43
+  index: -1
+images/effects_L/misuobudayazidan/3/jiguang/jiguang_038
+  rotate: false
+  xy: 386, 727
+  size: 280, 33
+  orig: 382, 115
+  offset: 48, 42
+  index: -1
+images/effects_L/misuobudayazidan/3/jiguang/jiguang_039
+  rotate: false
+  xy: 386, 696
+  size: 280, 29
+  orig: 382, 115
+  offset: 46, 44
+  index: -1
+images/effects_L/misuobudayazidan/3/jiguang/jiguang_040
+  rotate: false
+  xy: 770, 884
+  size: 249, 28
+  orig: 382, 115
+  offset: 77, 44
+  index: -1
+images/effects_L/misuobudayazidan/3/pao_000
+  rotate: false
+  xy: 896, 314
+  size: 81, 71
+  orig: 97, 90
+  offset: 11, 9
+  index: -1

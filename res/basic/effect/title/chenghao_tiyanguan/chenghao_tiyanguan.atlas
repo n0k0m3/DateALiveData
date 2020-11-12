@@ -1,0 +1,454 @@
+
+chenghao_tiyanguan.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/di_000
+  rotate: false
+  xy: 2, 928
+  size: 180, 94
+  orig: 180, 100
+  offset: 0, 6
+  index: -1
+images/paobian/paobian_003
+  rotate: true
+  xy: 165, 442
+  size: 49, 27
+  orig: 180, 100
+  offset: 68, 55
+  index: -1
+images/paobian/paobian_005
+  rotate: false
+  xy: 651, 829
+  size: 63, 27
+  orig: 180, 100
+  offset: 61, 55
+  index: -1
+images/paobian/paobian_007
+  rotate: false
+  xy: 572, 829
+  size: 77, 27
+  orig: 180, 100
+  offset: 54, 55
+  index: -1
+images/paobian/paobian_009
+  rotate: false
+  xy: 903, 816
+  size: 91, 29
+  orig: 180, 100
+  offset: 47, 54
+  index: -1
+images/paobian/paobian_011
+  rotate: false
+  xy: 807, 869
+  size: 103, 29
+  orig: 180, 100
+  offset: 41, 54
+  index: -1
+images/paobian/paobian_013
+  rotate: true
+  xy: 211, 513
+  size: 113, 31
+  orig: 180, 100
+  offset: 36, 52
+  index: -1
+images/paobian/paobian_015
+  rotate: true
+  xy: 174, 503
+  size: 119, 35
+  orig: 180, 100
+  offset: 33, 48
+  index: -1
+images/paobian/paobian_017
+  rotate: true
+  xy: 109, 617
+  size: 121, 42
+  orig: 180, 100
+  offset: 32, 41
+  index: -1
+images/paobian/paobian_019
+  rotate: false
+  xy: 42, 442
+  size: 121, 49
+  orig: 180, 100
+  offset: 32, 34
+  index: -1
+images/paobian/paobian_021
+  rotate: true
+  xy: 109, 319
+  size: 121, 58
+  orig: 180, 100
+  offset: 32, 25
+  index: -1
+images/paobian/paobian_023
+  rotate: true
+  xy: 110, 196
+  size: 121, 63
+  orig: 180, 100
+  offset: 32, 20
+  index: -1
+images/paobian/paobian_025
+  rotate: true
+  xy: 42, 617
+  size: 121, 65
+  orig: 180, 100
+  offset: 32, 18
+  index: -1
+images/paobian/paobian_027
+  rotate: true
+  xy: 42, 493
+  size: 122, 64
+  orig: 180, 100
+  offset: 31, 18
+  index: -1
+images/paobian/paobian_029
+  rotate: true
+  xy: 108, 493
+  size: 122, 64
+  orig: 180, 100
+  offset: 31, 18
+  index: -1
+images/paobian/paobian_031
+  rotate: true
+  xy: 43, 318
+  size: 122, 64
+  orig: 180, 100
+  offset: 31, 18
+  index: -1
+images/paobian/paobian_033
+  rotate: true
+  xy: 43, 195
+  size: 121, 65
+  orig: 180, 100
+  offset: 32, 17
+  index: -1
+images/paobian/paobian_035
+  rotate: false
+  xy: 184, 878
+  size: 121, 62
+  orig: 180, 100
+  offset: 32, 17
+  index: -1
+images/paobian/paobian_037
+  rotate: false
+  xy: 307, 884
+  size: 121, 56
+  orig: 180, 100
+  offset: 32, 17
+  index: -1
+images/paobian/paobian_039
+  rotate: false
+  xy: 183, 828
+  size: 121, 48
+  orig: 180, 100
+  offset: 32, 17
+  index: -1
+images/paobian/paobian_041
+  rotate: false
+  xy: 155, 783
+  size: 121, 43
+  orig: 180, 100
+  offset: 32, 17
+  index: -1
+images/paobian/paobian_043
+  rotate: true
+  xy: 153, 624
+  size: 117, 43
+  orig: 180, 100
+  offset: 34, 17
+  index: -1
+images/paobian/paobian_045
+  rotate: true
+  xy: 198, 628
+  size: 113, 44
+  orig: 180, 100
+  offset: 36, 17
+  index: -1
+images/paobian/paobian_047
+  rotate: false
+  xy: 912, 890
+  size: 101, 43
+  orig: 180, 100
+  offset: 42, 18
+  index: -1
+images/paobian/paobian_049
+  rotate: false
+  xy: 929, 979
+  size: 88, 43
+  orig: 180, 100
+  offset: 48, 18
+  index: -1
+images/paobian/paobian_051
+  rotate: true
+  xy: 430, 866
+  size: 74, 43
+  orig: 180, 100
+  offset: 55, 18
+  index: -1
+images/paobian/paobian_053
+  rotate: false
+  xy: 42, 15
+  size: 59, 42
+  orig: 180, 100
+  offset: 63, 18
+  index: -1
+images/paobian/paobian_055
+  rotate: true
+  xy: 765, 852
+  size: 45, 40
+  orig: 180, 100
+  offset: 70, 20
+  index: -1
+images/paobian/paobian_057
+  rotate: false
+  xy: 2, 2
+  size: 38, 34
+  orig: 180, 100
+  offset: 73, 26
+  index: -1
+images/paobian/paobian_059
+  rotate: false
+  xy: 716, 828
+  size: 35, 28
+  orig: 180, 100
+  offset: 75, 31
+  index: -1
+images/xian/xian_000
+  rotate: false
+  xy: 143, 743
+  size: 120, 38
+  orig: 180, 100
+  offset: 50, 31
+  index: -1
+images/xian/xian_001
+  rotate: true
+  xy: 244, 628
+  size: 113, 39
+  orig: 180, 100
+  offset: 57, 31
+  index: -1
+images/xian/xian_002
+  rotate: true
+  xy: 244, 520
+  size: 106, 41
+  orig: 180, 100
+  offset: 64, 31
+  index: -1
+images/xian/xian_003
+  rotate: false
+  xy: 307, 841
+  size: 106, 41
+  orig: 180, 100
+  offset: 64, 31
+  index: -1
+images/xian/xian_004
+  rotate: false
+  xy: 306, 798
+  size: 106, 41
+  orig: 180, 100
+  offset: 64, 31
+  index: -1
+images/xian/xian_005
+  rotate: true
+  xy: 42, 59
+  size: 106, 42
+  orig: 180, 100
+  offset: 64, 31
+  index: -1
+images/xian/xian_006
+  rotate: false
+  xy: 917, 935
+  size: 105, 42
+  orig: 180, 100
+  offset: 65, 31
+  index: -1
+images/xian/xian_007
+  rotate: false
+  xy: 487, 899
+  size: 105, 42
+  orig: 180, 100
+  offset: 65, 31
+  index: -1
+images/xian/xian_008
+  rotate: false
+  xy: 594, 899
+  size: 105, 42
+  orig: 180, 100
+  offset: 65, 31
+  index: -1
+images/xian/xian_009
+  rotate: false
+  xy: 701, 899
+  size: 104, 42
+  orig: 180, 100
+  offset: 66, 31
+  index: -1
+images/xian/xian_010
+  rotate: false
+  xy: 807, 900
+  size: 103, 41
+  orig: 180, 100
+  offset: 66, 31
+  index: -1
+images/xian/xian_011
+  rotate: false
+  xy: 912, 847
+  size: 96, 41
+  orig: 180, 100
+  offset: 67, 31
+  index: -1
+images/xian/xian_012
+  rotate: false
+  xy: 475, 856
+  size: 95, 41
+  orig: 180, 100
+  offset: 68, 31
+  index: -1
+images/xian/xian_013
+  rotate: false
+  xy: 572, 858
+  size: 95, 39
+  orig: 180, 100
+  offset: 68, 31
+  index: -1
+images/xian/xian_014
+  rotate: false
+  xy: 669, 858
+  size: 94, 39
+  orig: 180, 100
+  offset: 69, 31
+  index: -1
+images/xian/xian_015
+  rotate: false
+  xy: 807, 828
+  size: 94, 39
+  orig: 180, 100
+  offset: 69, 31
+  index: -1
+images/xian/xian_016
+  rotate: true
+  xy: 2, 300
+  size: 139, 39
+  orig: 180, 100
+  offset: 20, 31
+  index: -1
+images/xian/xian_017
+  rotate: false
+  xy: 786, 983
+  size: 141, 39
+  orig: 180, 100
+  offset: 19, 31
+  index: -1
+images/xian/xian_018
+  rotate: false
+  xy: 640, 983
+  size: 144, 39
+  orig: 180, 100
+  offset: 19, 31
+  index: -1
+images/xian/xian_019
+  rotate: false
+  xy: 336, 942
+  size: 149, 39
+  orig: 180, 100
+  offset: 19, 31
+  index: -1
+images/xian/xian_020
+  rotate: false
+  xy: 489, 983
+  size: 149, 39
+  orig: 180, 100
+  offset: 19, 31
+  index: -1
+images/xian/xian_021
+  rotate: true
+  xy: 2, 588
+  size: 150, 38
+  orig: 180, 100
+  offset: 19, 32
+  index: -1
+images/xian/xian_022
+  rotate: false
+  xy: 184, 942
+  size: 150, 39
+  orig: 180, 100
+  offset: 19, 31
+  index: -1
+images/xian/xian_023
+  rotate: false
+  xy: 337, 983
+  size: 150, 39
+  orig: 180, 100
+  offset: 19, 31
+  index: -1
+images/xian/xian_024
+  rotate: false
+  xy: 184, 983
+  size: 151, 39
+  orig: 180, 100
+  offset: 19, 31
+  index: -1
+images/xian/xian_025
+  rotate: false
+  xy: 2, 792
+  size: 151, 39
+  orig: 180, 100
+  offset: 19, 31
+  index: -1
+images/xian/xian_026
+  rotate: false
+  xy: 487, 943
+  size: 150, 38
+  orig: 180, 100
+  offset: 20, 31
+  index: -1
+images/xian/xian_027
+  rotate: true
+  xy: 2, 441
+  size: 145, 38
+  orig: 180, 100
+  offset: 25, 31
+  index: -1
+images/xian/xian_028
+  rotate: false
+  xy: 639, 943
+  size: 140, 38
+  orig: 180, 100
+  offset: 30, 31
+  index: -1
+images/xian/xian_029
+  rotate: false
+  xy: 781, 943
+  size: 134, 38
+  orig: 180, 100
+  offset: 36, 31
+  index: -1
+images/xian/xian_030
+  rotate: true
+  xy: 2, 38
+  size: 127, 38
+  orig: 180, 100
+  offset: 43, 31
+  index: -1
+images/yanzhao_000
+  rotate: false
+  xy: 2, 740
+  size: 139, 50
+  orig: 180, 100
+  offset: 21, 25
+  index: -1
+images/zi_000
+  rotate: true
+  xy: 2, 167
+  size: 131, 39
+  orig: 180, 100
+  offset: 24, 31
+  index: -1
+images/ziguang_000
+  rotate: false
+  xy: 2, 833
+  size: 179, 93
+  orig: 180, 100
+  offset: 0, 3
+  index: -1

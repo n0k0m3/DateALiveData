@@ -30,7 +30,9 @@ function DropActivityView:initUI(ui)
     self.Label_limit = TFDirector:getChildByPath(Image_info, "Label_limit")
     self.Label_every_limit_title = TFDirector:getChildByPath(Image_info, "Label_every_limit_title")
     self.Label_every_limit = TFDirector:getChildByPath(Image_info, "Label_every_limit")
-    self.Label_title = TFDirector:getChildByPath(ui, "Label_title")
+
+    self.ListView_des = UIListView:create(TFDirector:getChildByPath(ui, "ScrollView_des"))
+    self.Panel_des_item = TFDirector:getChildByPath(ui , "Panel_des")
 
     self:refreshView()
 end
@@ -69,7 +71,15 @@ function DropActivityView:updateActivity()
         self:updateCountDonw()
 
         local title = string.gsub(self.activityInfo_.activityTitle, "\\n", "\n")
-        self.Label_title:setText(Utils:splitLanguageStringByTag(title))
+
+        self.ListView_des:removeAllItems()
+
+        local Panel_des_item = self.Panel_des_item:clone()
+        Panel_des_item.Label_title = Panel_des_item:getChildByName("Label_title")
+        Panel_des_item.Label_title:setText(Utils:splitLanguageStringByTag(title))
+        Panel_des_item:setContentSize(Panel_des_item.Label_title:getContentSize())
+
+        self.ListView_des:pushBackCustomItem(Panel_des_item)
     end
 end
 

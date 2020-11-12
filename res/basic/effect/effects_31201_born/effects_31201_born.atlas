@@ -1,0 +1,300 @@
+
+effects_31201_born.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_G/born/dilie_000
+  rotate: false
+  xy: 368, 834
+  size: 175, 44
+  orig: 175, 50
+  offset: 0, 3
+  index: -1
+images/effects_G/born/guangquan_000
+  rotate: true
+  xy: 433, 218
+  size: 100, 43
+  orig: 100, 50
+  offset: 0, 3
+  index: -1
+images/effects_G/glow
+  rotate: false
+  xy: 499, 782
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+images/effects_G/tongyong/boom/boom_000
+  rotate: true
+  xy: 436, 116
+  size: 100, 92
+  orig: 225, 169
+  offset: 58, 1
+  index: -1
+images/effects_G/tongyong/boom/boom_002
+  rotate: false
+  xy: 144, 461
+  size: 170, 134
+  orig: 225, 169
+  offset: 22, 4
+  index: -1
+images/effects_G/tongyong/boom/boom_004
+  rotate: false
+  xy: 586, 868
+  size: 188, 154
+  orig: 225, 169
+  offset: 13, 3
+  index: -1
+images/effects_G/tongyong/boom/boom_006
+  rotate: false
+  xy: 158, 863
+  size: 208, 159
+  orig: 225, 169
+  offset: 13, 5
+  index: -1
+images/effects_G/tongyong/boom/boom_008
+  rotate: false
+  xy: 368, 880
+  size: 216, 142
+  orig: 225, 169
+  offset: 9, 5
+  index: -1
+images/effects_G/tongyong/boom/boom_010
+  rotate: true
+  xy: 2, 94
+  size: 199, 109
+  orig: 225, 169
+  offset: 4, 9
+  index: -1
+images/effects_G/tongyong/boom/boom_012
+  rotate: true
+  xy: 423, 662
+  size: 113, 70
+  orig: 225, 169
+  offset: 59, 25
+  index: -1
+images/effects_G/tongyong/boom/boom_014
+  rotate: true
+  xy: 510, 729
+  size: 51, 32
+  orig: 225, 169
+  offset: 66, 44
+  index: -1
+images/effects_G/tongyong/dian1/dian1_000
+  rotate: false
+  xy: 2, 529
+  size: 140, 241
+  orig: 167, 250
+  offset: 0, 9
+  index: -1
+images/effects_G/tongyong/dian1/dian1_002
+  rotate: true
+  xy: 250, 297
+  size: 162, 99
+  orig: 167, 250
+  offset: 0, 8
+  index: -1
+images/effects_G/tongyong/dian1/dian1_004
+  rotate: false
+  xy: 2, 772
+  size: 154, 250
+  orig: 167, 250
+  offset: 6, 0
+  index: -1
+images/effects_G/tongyong/dian1/dian1_006
+  rotate: false
+  xy: 2, 295
+  size: 100, 232
+  orig: 167, 250
+  offset: 37, 0
+  index: -1
+images/effects_G/tongyong/dian1/dian1_008
+  rotate: true
+  xy: 158, 756
+  size: 105, 196
+  orig: 167, 250
+  offset: 30, 7
+  index: -1
+images/effects_G/tongyong/dian1/dian1_010
+  rotate: false
+  xy: 436, 31
+  size: 95, 83
+  orig: 167, 250
+  offset: 69, 12
+  index: -1
+images/effects_G/tongyong/dian3/dian3_000
+  rotate: true
+  xy: 265, 11
+  size: 25, 128
+  orig: 50, 150
+  offset: 15, 10
+  index: -1
+images/effects_G/tongyong/dian3/dian3_001
+  rotate: true
+  xy: 130, 2
+  size: 21, 128
+  orig: 50, 150
+  offset: 15, 10
+  index: -1
+images/effects_G/tongyong/dian3/dian3_002
+  rotate: false
+  xy: 399, 59
+  size: 19, 125
+  orig: 50, 150
+  offset: 16, 10
+  index: -1
+images/effects_G/tongyong/dian3/dian3_003
+  rotate: false
+  xy: 420, 61
+  size: 14, 123
+  orig: 50, 150
+  offset: 19, 10
+  index: -1
+images/effects_G/tongyong/dian3/dian3_004
+  rotate: false
+  xy: 384, 49
+  size: 13, 104
+  orig: 50, 150
+  offset: 20, 10
+  index: -1
+images/effects_G/tongyong/dian3/dian3_005
+  rotate: false
+  xy: 495, 676
+  size: 13, 99
+  orig: 50, 150
+  offset: 20, 10
+  index: -1
+images/effects_G/tongyong/didian/didian_000
+  rotate: false
+  xy: 104, 295
+  size: 144, 164
+  orig: 185, 170
+  offset: 14, 0
+  index: -1
+images/effects_G/tongyong/didian/didian_002
+  rotate: false
+  xy: 259, 155
+  size: 138, 140
+  orig: 185, 170
+  offset: 19, 0
+  index: -1
+images/effects_G/tongyong/didian/didian_004
+  rotate: true
+  xy: 130, 25
+  size: 107, 133
+  orig: 185, 170
+  offset: 49, 7
+  index: -1
+images/effects_G/tongyong/didian/didian_006
+  rotate: false
+  xy: 265, 38
+  size: 117, 115
+  orig: 185, 170
+  offset: 48, 15
+  index: -1
+images/effects_G/tongyong/didian/didian_008
+  rotate: true
+  xy: 113, 134
+  size: 159, 144
+  orig: 185, 170
+  offset: 15, 15
+  index: -1
+images/effects_G/tongyong/didian/didian_010
+  rotate: false
+  xy: 316, 461
+  size: 98, 139
+  orig: 185, 170
+  offset: 75, 20
+  index: -1
+images/effects_G/tongyong/didian/didian_012
+  rotate: false
+  xy: 144, 597
+  size: 166, 157
+  orig: 185, 170
+  offset: 12, 12
+  index: -1
+images/effects_G/tongyong/didian/didian_014
+  rotate: false
+  xy: 776, 870
+  size: 177, 152
+  orig: 185, 170
+  offset: 0, 18
+  index: -1
+images/effects_G/tongyong/didian/didian_016
+  rotate: true
+  xy: 2, 4
+  size: 88, 126
+  orig: 185, 170
+  offset: 51, 42
+  index: -1
+images/effects_G/tongyong/didian/didian_018
+  rotate: false
+  xy: 367, 602
+  size: 32, 30
+  orig: 185, 170
+  offset: 12, 19
+  index: -1
+images/effects_L/skillD/yanwu/yanwu_080
+  rotate: true
+  xy: 104, 473
+  size: 54, 33
+  orig: 161, 68
+  offset: 50, 6
+  index: -1
+images/effects_L/skillD/yanwu/yanwu_082
+  rotate: true
+  xy: 955, 868
+  size: 154, 57
+  orig: 161, 68
+  offset: 6, 4
+  index: -1
+images/effects_L/skillD/yanwu/yanwu_084
+  rotate: true
+  xy: 312, 602
+  size: 152, 53
+  orig: 161, 68
+  offset: 5, 4
+  index: -1
+images/effects_L/skillD/yanwu/yanwu_086
+  rotate: true
+  xy: 351, 314
+  size: 145, 56
+  orig: 161, 68
+  offset: 5, 0
+  index: -1
+images/effects_L/skillD/yanwu/yanwu_088
+  rotate: true
+  xy: 367, 634
+  size: 141, 54
+  orig: 161, 68
+  offset: 5, 0
+  index: -1
+images/effects_L/skillD/yanwu/yanwu_090
+  rotate: false
+  xy: 356, 777
+  size: 141, 55
+  orig: 161, 68
+  offset: 6, 0
+  index: -1
+images/effects_L/skillD/yanwu/yanwu_092
+  rotate: true
+  xy: 409, 320
+  size: 139, 42
+  orig: 161, 68
+  offset: 10, 4
+  index: -1
+images/effects_L/skillD/yanwu/yanwu_094
+  rotate: false
+  xy: 776, 829
+  size: 130, 39
+  orig: 161, 68
+  offset: 11, 0
+  index: -1
+images/effects_L/skillD/yanwu/yanwu_096
+  rotate: true
+  xy: 399, 186
+  size: 126, 32
+  orig: 161, 68
+  offset: 13, 6
+  index: -1

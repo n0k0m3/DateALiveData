@@ -1,0 +1,229 @@
+
+effects_ship1001.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/boom/boom_000
+  rotate: false
+  xy: 2, 74
+  size: 279, 279
+  orig: 300, 300
+  offset: 10, 5
+  index: -1
+effects/boom/boom_001
+  rotate: false
+  xy: 584, 745
+  size: 277, 277
+  orig: 300, 300
+  offset: 11, 6
+  index: -1
+effects/boom/boom_002
+  rotate: false
+  xy: 283, 74
+  size: 279, 279
+  orig: 300, 300
+  offset: 10, 5
+  index: -1
+effects/boom/boom_004
+  rotate: false
+  xy: 583, 466
+  size: 277, 277
+  orig: 300, 300
+  offset: 11, 6
+  index: -1
+effects/boom/boom_006
+  rotate: false
+  xy: 564, 197
+  size: 267, 267
+  orig: 300, 300
+  offset: 16, 11
+  index: -1
+effects/boom/boom_012
+  rotate: true
+  xy: 564, 2
+  size: 193, 188
+  orig: 300, 300
+  offset: 50, 70
+  index: -1
+effects/boom/boom_014
+  rotate: true
+  xy: 833, 253
+  size: 194, 188
+  orig: 300, 300
+  offset: 50, 71
+  index: -1
+effects/feidan/feidan_000
+  rotate: false
+  xy: 833, 226
+  size: 75, 25
+  orig: 100, 50
+  offset: 14, 12
+  index: -1
+effects/feidan/feidan_001
+  rotate: true
+  xy: 525, 496
+  size: 81, 30
+  orig: 100, 50
+  offset: 8, 9
+  index: -1
+effects/jiguang/jiguang_003
+  rotate: false
+  xy: 862, 559
+  size: 146, 166
+  orig: 580, 193
+  offset: 24, 17
+  index: -1
+effects/jiguang/jiguang_005
+  rotate: true
+  xy: 863, 727
+  size: 135, 158
+  orig: 580, 193
+  offset: 31, 24
+  index: -1
+effects/jiguang/jiguang_009
+  rotate: false
+  xy: 948, 162
+  size: 74, 89
+  orig: 580, 193
+  offset: 56, 58
+  index: -1
+effects/jiguang/jiguang_012
+  rotate: false
+  xy: 2, 722
+  size: 579, 141
+  orig: 580, 193
+  offset: 1, 23
+  index: -1
+effects/jiguang/jiguang_013
+  rotate: false
+  xy: 2, 579
+  size: 579, 141
+  orig: 580, 193
+  offset: 1, 23
+  index: -1
+effects/jiguang/jiguang_015
+  rotate: false
+  xy: 2, 865
+  size: 580, 157
+  orig: 580, 193
+  offset: 0, 18
+  index: -1
+effects/jiguang/jiguang_017
+  rotate: false
+  xy: 2, 433
+  size: 521, 144
+  orig: 580, 193
+  offset: 59, 21
+  index: -1
+effects/jiguang/jiguang_019
+  rotate: false
+  xy: 2, 355
+  size: 502, 76
+  orig: 580, 193
+  offset: 78, 62
+  index: -1
+effects/jiguang/jiguang_021
+  rotate: false
+  xy: 2, 23
+  size: 491, 49
+  orig: 580, 193
+  offset: 89, 71
+  index: -1
+effects/shoushun/shoushun_000
+  rotate: false
+  xy: 863, 864
+  size: 158, 158
+  orig: 200, 200
+  offset: 21, 21
+  index: -1
+effects/shoushun/shoushun_002
+  rotate: false
+  xy: 754, 3
+  size: 192, 192
+  orig: 200, 200
+  offset: 4, 4
+  index: -1
+effects/shoushun/shoushun_014
+  rotate: false
+  xy: 862, 449
+  size: 139, 108
+  orig: 200, 200
+  offset: 30, 49
+  index: -1
+
+effects_ship10012.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/boom/boom_008
+  rotate: false
+  xy: 2, 750
+  size: 255, 256
+  orig: 300, 300
+  offset: 22, 16
+  index: -1
+effects/boom/boom_010
+  rotate: false
+  xy: 2, 367
+  size: 190, 187
+  orig: 300, 300
+  offset: 52, 69
+  index: -1
+effects/jiguang/jiguang_001
+  rotate: false
+  xy: 2, 197
+  size: 137, 168
+  orig: 580, 193
+  offset: 28, 16
+  index: -1
+effects/jiguang/jiguang_007
+  rotate: true
+  xy: 639, 809
+  size: 93, 132
+  orig: 580, 193
+  offset: 54, 34
+  index: -1
+effects/jiguang/jiguang_010
+  rotate: false
+  xy: 639, 904
+  size: 202, 102
+  orig: 580, 193
+  offset: 47, 45
+  index: -1
+effects/shoushun/shoushun_004
+  rotate: false
+  xy: 2, 556
+  size: 192, 192
+  orig: 200, 200
+  offset: 4, 4
+  index: -1
+effects/shoushun/shoushun_006
+  rotate: false
+  xy: 259, 814
+  size: 192, 192
+  orig: 200, 200
+  offset: 4, 4
+  index: -1
+effects/shoushun/shoushun_008
+  rotate: false
+  xy: 453, 816
+  size: 184, 190
+  orig: 200, 200
+  offset: 8, 5
+  index: -1
+effects/shoushun/shoushun_010
+  rotate: false
+  xy: 843, 879
+  size: 163, 127
+  orig: 200, 200
+  offset: 20, 38
+  index: -1
+effects/shoushun/shoushun_012
+  rotate: true
+  xy: 2, 29
+  size: 166, 126
+  orig: 200, 200
+  offset: 30, 38
+  index: -1

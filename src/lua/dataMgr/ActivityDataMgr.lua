@@ -14,6 +14,19 @@ function ActivityDataMgr:init()
 	TFDirector:addProto(s2c.SIGN_RESP_SEVEN_CARNIVAL, self, self.revcSevenExList)
 	TFDirector:addProto(s2c.SIGN_RESP_PURCH_STORE, self, self.revcBuySevenExGift)
 	TFDirector:addProto(s2c.ACTIVITY_RESP_NEW_YEAR_WELFARE_URL, self, self.revcNewYear)
+	TFDirector:addProto(s2c.RANK_RSP_RANK_LIST, self, self.recvRankList)  --接收排行信息
+end
+
+--发送根据类型获取排行榜信息请求
+function ActivityDataMgr:sendGetRankByTypeReq(idx )
+	local typeIdx = {1 , 4 , 3, 2 ,5 ,6 , 7 , 8} --1等级 2战斗力 3无尽 4充值
+	TFDirector:send(c2s.RANK_REQ_RANK_LIST , {typeIdx[idx]})
+end
+
+--接收排行数据
+function ActivityDataMgr:recvRankList(event)
+	local data = event.data
+	EventMgr:dispatchEvent(EV_RANK_NOTICE_UPDATE , data)
 end
 
 function ActivityDataMgr:getIsHaveActs( )
