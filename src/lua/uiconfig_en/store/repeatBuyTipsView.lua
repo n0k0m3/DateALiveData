@@ -243,7 +243,7 @@ local t =
 											{
 												
 											},
-											width = "51",
+											width = "81",
 											ZOrder = "1",
 										},
 									},
@@ -267,15 +267,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_tips",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -283,14 +283,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "TextLable",
+									text = "You have the item already. If you buy it again, it will turn to",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										PositionY = 46,
 									},
-									width = "458",
+									width = "572",
 									ZOrder = "1",
 								},
 								{
@@ -393,7 +393,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "34",
 									ignoreSize = "True",
 									name = "Label_name",
 									nTextAlign = "1",
@@ -410,7 +410,7 @@ local t =
 										PositionX = -284,
 										PositionY = 150,
 									},
-									width = "45",
+									width = "48",
 									ZOrder = "1",
 								},
 							},

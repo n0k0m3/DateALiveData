@@ -2007,6 +2007,8 @@ function Utils:MultiLanguageStringDeal(content)
     else
         local bodyStr = string.split(mailInfo.body , ',')
         if #bodyStr > 1 then
+            if not tonumber(bodyStr[i]) then return content end
+
             mailInfo.isStrId = true
             local  symbol  = {}
             local bodyInfo = TextDataMgr:getTextAttrCanNil(bodyStr[1])
@@ -2033,7 +2035,7 @@ function Utils:MultiLanguageStringDeal(content)
             end
             mailInfo.body = TextDataMgr:getText(bodyStr[1] , unpack(symbolInfo))
         else
-            mailInfo.body = tonumber(mailInfo.body)
+            mailInfo.body = tonumber(mailInfo.body) or content
         end
         
     end

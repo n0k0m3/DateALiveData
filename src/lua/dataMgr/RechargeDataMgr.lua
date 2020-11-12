@@ -151,7 +151,7 @@ function RechargeDataMgr:getOrderNO(goodsid, extraInfo)
 			else
 				Utils:openView("store.TokenPopView",goodsid);
 			end
-		elseif goods.item and #goods.item > 0 then
+		elseif goods.item and #goods.item > 0  and tonumber(goodsid) ~=  910004 then
 			Utils:openView("store.BuyConfirmView2", goodsid)
 		else
 			Utils:openView("common.ConfirmBoxViewSmall", goodsid, extraInfo)
