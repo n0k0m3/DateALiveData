@@ -236,7 +236,7 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 311,
+								PositionX = 313,
 								PositionY = 528,
 							},
 							width = "403",

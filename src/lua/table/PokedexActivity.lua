@@ -15,7 +15,7 @@ return {
         },
     },
     [2] = {
-        link = "http://www.datealive.com/gpic",
+        link = "",
         id = 2,
         cgId = 540251,
         des2 = 1701031,

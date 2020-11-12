@@ -45479,7 +45479,7 @@ return {
         sort = 813,
         sortr = "813",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 6,
         type3 = {
             [1] = 106004,

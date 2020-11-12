@@ -723,7 +723,7 @@ return {
         desTextId = 27052,
         cost = 6,
         pileUp = false,
-        illustratedJudge = false,
+        illustratedJudge = true,
         gridMax = 2,
         bagType = 13,
         nameTextId = 27051,
@@ -740,7 +740,7 @@ return {
             [500001] = 1,
         },
         endStar = 4,
-        display = false,
+        display = true,
         star = 3,
         accessId = {
             [1] = 72,
