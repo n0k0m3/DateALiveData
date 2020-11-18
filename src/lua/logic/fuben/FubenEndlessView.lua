@@ -15,10 +15,9 @@ function FubenEndlessView:initData(chapterCid)
     end
 
     self.defalutSelectTabIndex_ = 1
-    --屏蔽竞速模式
-    -- if FubenDataMgr:isEndlessRacingMode(endlessInfo.curStage) then
-    --     self.defalutSelectTabIndex_ = 2
-    -- end
+    if FubenDataMgr:isEndlessRacingMode(endlessInfo.curStage) then
+        self.defalutSelectTabIndex_ = 2
+    end
 
     self.costCid_ = 570005
     self.countDownTimer_ = nil
@@ -34,16 +33,16 @@ function FubenEndlessView:initData(chapterCid)
             function()
                 if endlessInfo.nonStopStage ~= 0 then
                     Utils:openView("fuben.FubenEndlessJumpView")
-                else  --【屏蔽提示通关
-                    -- local levelCid = FubenDataMgr:getCurLevelCid()
-                    -- if levelCid then
-                    --     local levelCfg = FubenDataMgr:getEndlessCloisterLevelCfg(levelCid)
-                    --     if levelCfg and levelCfg.order == self.normalMaxLevel_ and endlessInfo.todayBest >= self.normalMaxLevel_ then
-                    --         local tips = TextDataMgr:getText(310025)
-                    --         showMessageBox(tips, EC_MessageBoxType.ok)
-                    --         FubenDataMgr:setCurLevelCid(nil)
-                    --     end
-                    -- end
+                else 
+                    local levelCid = FubenDataMgr:getCurLevelCid()
+                    if levelCid then
+                        local levelCfg = FubenDataMgr:getEndlessCloisterLevelCfg(levelCid)
+                        if levelCfg and levelCfg.order == self.normalMaxLevel_ and endlessInfo.todayBest >= self.normalMaxLevel_ then
+                            local tips = TextDataMgr:getText(310025)
+                            showMessageBox(tips, EC_MessageBoxType.ok)
+                            FubenDataMgr:setCurLevelCid(nil)
+                        end
+                    end
                 end
             end,
             0
@@ -149,10 +148,6 @@ function FubenEndlessView:initUI(ui)
         item.Image_select = TFDirector:getChildByPath(item.root, "Image_select")
         item.Label_name = TFDirector:getChildByPath(item.root, "Label_name")
         self.Panel_tab[i] = item
-        --屏蔽竞速模式
-        if i == 2 then
-            item.root:hide()
-        end
     end
 
     self.totalRankBtn = {}
@@ -161,7 +156,7 @@ function FubenEndlessView:initUI(ui)
         local Label_total_name = TFDirector:getChildByPath(bg, "Label_total_name")
         Label_total_name:setSkewX(15)
         self.totalRankBtn[i] = TFDirector:getChildByPath(bg, "Button_total_rank")
-        bg:hide()  --屏蔽排行榜按钮
+        
     end
 
     self:refreshView()
@@ -644,10 +639,9 @@ end
 function FubenEndlessView:onJumpLevelEvent(isJump)
     local endlessInfo = FubenDataMgr:getEndlessInfo()
     local tabIndex = 1
-    --屏蔽直通高层后切换至第二标签
-    -- if FubenDataMgr:isEndlessRacingMode(endlessInfo.curStage) then
-    --     tabIndex = 2
-    -- end
+    if FubenDataMgr:isEndlessRacingMode(endlessInfo.curStage) then
+        tabIndex = 2
+    end
     self:selectTab(tabIndex)
 end
 

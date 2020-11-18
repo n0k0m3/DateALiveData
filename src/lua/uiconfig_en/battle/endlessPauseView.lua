@@ -234,7 +234,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "35",
+							height = "34",
 							ignoreSize = "True",
 							name = "Label_totalTime",
 							nTextAlign = "1",
@@ -251,7 +251,7 @@ local t =
 								PositionX = 45,
 								PositionY = 257,
 							},
-							width = "109",
+							width = "82",
 							ZOrder = "1",
 						},
 						{
@@ -280,7 +280,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "31",
+							height = "30",
 							ignoreSize = "True",
 							name = "Label_battleInfo",
 							nTextAlign = "1",
@@ -296,7 +296,7 @@ local t =
 							{
 								PositionY = 197,
 							},
-							width = "279",
+							width = "237",
 							ZOrder = "1",
 						},
 						{
@@ -325,7 +325,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "35",
+							height = "34",
 							ignoreSize = "True",
 							name = "Label_time_title",
 							nTextAlign = "1",
@@ -342,7 +342,7 @@ local t =
 								PositionX = 27,
 								PositionY = 256,
 							},
-							width = "144",
+							width = "100",
 							ZOrder = "1",
 						},
 						{
@@ -519,7 +519,7 @@ local t =
 											{
 												PositionX = -136,
 											},
-											width = "165",
+											width = "131",
 											ZOrder = "1",
 										},
 										{
@@ -566,7 +566,7 @@ local t =
 												PositionY = -13,
 											},
 											visible = "False",
-											width = "40",
+											width = "33",
 											ZOrder = "1",
 										},
 									},
@@ -691,7 +691,7 @@ local t =
 											{
 												PositionX = -136,
 											},
-											width = "192",
+											width = "155",
 											ZOrder = "1",
 										},
 										{
@@ -738,7 +738,7 @@ local t =
 												PositionY = -13,
 											},
 											visible = "False",
-											width = "40",
+											width = "33",
 											ZOrder = "1",
 										},
 									},
@@ -879,7 +879,7 @@ local t =
 											{
 												PositionX = -118,
 											},
-											width = "175",
+											width = "133",
 											ZOrder = "1",
 										},
 										{
@@ -926,7 +926,7 @@ local t =
 												PositionY = -12,
 											},
 											visible = "False",
-											width = "40",
+											width = "33",
 											ZOrder = "1",
 										},
 									},
@@ -1192,7 +1192,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "20",
+							height = "19",
 							ignoreSize = "True",
 							name = "Label_num",
 							nTextAlign = "1",
@@ -1209,7 +1209,7 @@ local t =
 								PositionX = 83,
 								PositionY = 16,
 							},
-							width = "28",
+							width = "23",
 							ZOrder = "1",
 						},
 						{
@@ -1222,7 +1222,7 @@ local t =
 							compPath = "luacomponents.common.MEIconLabel",
 							dstBlendFunc = "771",
 							FontColor = "#FFFFFFFF",
-							fontName = "phanta.ttf",
+							fontName = "font/fangzheng_zhunyuan.ttf",
 							fontShadow = 
 							{
 								IsShadow = false,
@@ -1231,7 +1231,7 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "20",
+							fontSize = "15",
 							fontStroke = 
 							{
 								IsStroke = false,
@@ -1328,7 +1328,7 @@ local t =
 									{
 										PositionX = 8,
 									},
-									width = "65",
+									width = "54",
 									ZOrder = "1",
 								},
 							},
@@ -1404,7 +1404,7 @@ local t =
 									{
 										PositionX = 8,
 									},
-									width = "65",
+									width = "54",
 									ZOrder = "1",
 								},
 							},
