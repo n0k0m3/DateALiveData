@@ -69,7 +69,7 @@ function ConfirmBoxViewSmallNew:refreshView()
     self.Label_ok:setTextById(800010)
     self.Label_content:setText("")
 	local cfg = GoodsDataMgr:getItemCfg(self.data.exchangeCost[1].id)
-	self:setRContent(190000313,self.data.exchangeCost[1].num * self.extData.buyCount, cfg.icon, self.extData.buyCount ,self.data.name)
+	self:setRContent(190000313,self.data.exchangeCost[1].num * self.extData.buyCount, cfg.icon, self.data.name , self.extData.buyCount)
 	self.Label_own:setTextById(15010037, GoodsDataMgr:getItemCount(self.data.exchangeCost[1].id))
 	self.ownImg:setTexture(GoodsDataMgr:getItemCfg(self.data.exchangeCost[1].id).icon)
 end
