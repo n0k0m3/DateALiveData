@@ -1,0 +1,577 @@
+
+effects_12501_skillD.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/guangxian2_000
+  rotate: false
+  xy: 806, 494
+  size: 190, 64
+  orig: 200, 64
+  offset: 2, 0
+  index: -1
+effects/skillD/BG/BG_000
+  rotate: false
+  xy: 2, 782
+  size: 400, 240
+  orig: 400, 240
+  offset: 0, 0
+  index: -1
+effects/skillD/BG/zi2_000
+  rotate: false
+  xy: 404, 782
+  size: 400, 240
+  orig: 400, 240
+  offset: 0, 0
+  index: -1
+effects/skillD/BG/zi_000
+  rotate: true
+  xy: 2, 230
+  size: 400, 240
+  orig: 400, 240
+  offset: 0, 0
+  index: -1
+effects/skillD/bgsan/bgsan_000
+  rotate: true
+  xy: 244, 230
+  size: 400, 240
+  orig: 400, 240
+  offset: 0, 0
+  index: -1
+effects/skillD/canying/canying_017
+  rotate: true
+  xy: 629, 305
+  size: 142, 168
+  orig: 160, 200
+  offset: 12, 5
+  index: -1
+effects/skillD/canying/canying_019
+  rotate: false
+  xy: 486, 290
+  size: 141, 157
+  orig: 160, 200
+  offset: 13, 5
+  index: -1
+effects/skillD/canying/canying_025
+  rotate: true
+  xy: 359, 645
+  size: 135, 125
+  orig: 160, 200
+  offset: 11, 1
+  index: -1
+effects/skillD/dian/dian_005
+  rotate: true
+  xy: 950, 4
+  size: 298, 68
+  orig: 320, 104
+  offset: 8, 19
+  index: -1
+effects/skillD/dianlu/dianlu_003
+  rotate: false
+  xy: 806, 304
+  size: 189, 188
+  orig: 248, 248
+  offset: 30, 30
+  index: -1
+effects/skillD/dianlu/dianlu_005
+  rotate: false
+  xy: 232, 6
+  size: 222, 222
+  orig: 248, 248
+  offset: 13, 13
+  index: -1
+effects/skillD/dianxian_000
+  rotate: false
+  xy: 806, 793
+  size: 195, 187
+  orig: 200, 200
+  offset: 3, 8
+  index: -1
+effects/skillD/guangxian_000
+  rotate: false
+  xy: 806, 560
+  size: 190, 70
+  orig: 240, 80
+  offset: 22, 4
+  index: -1
+effects/skillD/hit/hit_000
+  rotate: false
+  xy: 629, 2
+  size: 319, 300
+  orig: 320, 320
+  offset: 1, 6
+  index: -1
+effects/skillD/huan2_000
+  rotate: true
+  xy: 2, 634
+  size: 146, 160
+  orig: 160, 160
+  offset: 4, 0
+  index: -1
+effects/skillD/huan_000
+  rotate: false
+  xy: 2, 2
+  size: 228, 226
+  orig: 240, 240
+  offset: 6, 7
+  index: -1
+effects/skillD/huangge/huangge_003
+  rotate: false
+  xy: 456, 10
+  size: 171, 218
+  orig: 176, 264
+  offset: 4, 24
+  index: -1
+effects/skillD/huangge/huangge_009
+  rotate: true
+  xy: 806, 632
+  size: 159, 194
+  orig: 176, 264
+  offset: 9, 10
+  index: -1
+effects/skillD/huangge/huangge_011
+  rotate: true
+  xy: 164, 634
+  size: 146, 152
+  orig: 176, 264
+  offset: 16, 13
+  index: -1
+effects/skillD/huangliu/huangliu_001
+  rotate: false
+  xy: 997, 413
+  size: 25, 79
+  orig: 56, 240
+  offset: 18, 147
+  index: -1
+effects/skillD/huangliu/huangliu_005
+  rotate: true
+  xy: 486, 260
+  size: 28, 128
+  orig: 56, 240
+  offset: 13, 24
+  index: -1
+effects/skillD/huangliu/huangliu_007
+  rotate: true
+  xy: 486, 231
+  size: 27, 89
+  orig: 56, 240
+  offset: 13, 24
+  index: -1
+effects/skillD/huangliu2/huangliu2_000
+  rotate: false
+  xy: 318, 636
+  size: 39, 144
+  orig: 60, 224
+  offset: 11, 72
+  index: -1
+effects/skillD/huangliu2/huangliu2_001
+  rotate: true
+  xy: 806, 982
+  size: 40, 199
+  orig: 60, 224
+  offset: 11, 17
+  index: -1
+effects/skillD/xingxing/xingxing_386
+  rotate: true
+  xy: 486, 449
+  size: 331, 318
+  orig: 358, 322
+  offset: 14, 0
+  index: -1
+
+effects_12501_skillD2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/glow_000
+  rotate: false
+  xy: 848, 4
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+effects/skillD/bai_000
+  rotate: false
+  xy: 726, 4
+  size: 120, 80
+  orig: 120, 80
+  offset: 0, 0
+  index: -1
+effects/skillD/bgsan/bgsan_002
+  rotate: false
+  xy: 2, 782
+  size: 400, 240
+  orig: 400, 240
+  offset: 0, 0
+  index: -1
+effects/skillD/bgsan/bgsan_004
+  rotate: false
+  xy: 326, 254
+  size: 400, 240
+  orig: 400, 240
+  offset: 0, 0
+  index: -1
+effects/skillD/canying/canying_007
+  rotate: false
+  xy: 568, 499
+  size: 140, 182
+  orig: 160, 200
+  offset: 11, 11
+  index: -1
+effects/skillD/canying/canying_027
+  rotate: false
+  xy: 2, 14
+  size: 134, 97
+  orig: 160, 200
+  offset: 13, 2
+  index: -1
+effects/skillD/canying/canying_029
+  rotate: false
+  xy: 570, 4
+  size: 126, 76
+  orig: 160, 200
+  offset: 25, 6
+  index: -1
+effects/skillD/dian/dian_007
+  rotate: true
+  xy: 326, 496
+  size: 284, 62
+  orig: 320, 104
+  offset: 15, 27
+  index: -1
+effects/skillD/dianlu/dianlu_008
+  rotate: false
+  xy: 320, 4
+  size: 248, 248
+  orig: 248, 248
+  offset: 0, 0
+  index: -1
+effects/skillD/hit/hit_003
+  rotate: true
+  xy: 728, 86
+  size: 313, 290
+  orig: 320, 320
+  offset: 7, 21
+  index: -1
+effects/skillD/hit/hit_009
+  rotate: true
+  xy: 728, 401
+  size: 318, 291
+  orig: 320, 320
+  offset: 2, 23
+  index: -1
+effects/skillD/huangge/huangge_001
+  rotate: false
+  xy: 570, 82
+  size: 154, 170
+  orig: 176, 264
+  offset: 17, 76
+  index: -1
+effects/skillD/huangliu/huangliu_003
+  rotate: true
+  xy: 138, 40
+  size: 30, 112
+  orig: 56, 240
+  offset: 13, 78
+  index: -1
+effects/skillD/huangliu2/huangliu2_005
+  rotate: true
+  xy: 138, 72
+  size: 39, 149
+  orig: 60, 224
+  offset: 11, 6
+  index: -1
+effects/skillD/shandian/shandian_004
+  rotate: false
+  xy: 390, 507
+  size: 176, 174
+  orig: 176, 176
+  offset: 0, 1
+  index: -1
+effects/skillD/xingxing/hei_026
+  rotate: true
+  xy: 728, 721
+  size: 301, 294
+  orig: 302, 294
+  offset: 1, 0
+  index: -1
+effects/skillD/xingxing/xingxing_380
+  rotate: true
+  xy: 2, 113
+  size: 328, 316
+  orig: 358, 322
+  offset: 16, 0
+  index: -1
+effects/skillD/xingxing/xingxing_382
+  rotate: true
+  xy: 404, 683
+  size: 339, 322
+  orig: 358, 322
+  offset: 10, 0
+  index: -1
+effects/skillD/xingxing/xingxing_384
+  rotate: true
+  xy: 2, 443
+  size: 337, 322
+  orig: 358, 322
+  offset: 11, 0
+  index: -1
+
+effects_12501_skillD3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skillD/bgsan/bgsan_006
+  rotate: false
+  xy: 2, 781
+  size: 400, 240
+  orig: 400, 240
+  offset: 0, 0
+  index: -1
+effects/skillD/bgsan/bgsan_008
+  rotate: false
+  xy: 404, 781
+  size: 400, 240
+  orig: 400, 240
+  offset: 0, 0
+  index: -1
+effects/skillD/canying/canying_001
+  rotate: false
+  xy: 901, 105
+  size: 111, 155
+  orig: 160, 200
+  offset: 21, 25
+  index: -1
+effects/skillD/canying/canying_003
+  rotate: true
+  xy: 849, 623
+  size: 130, 172
+  orig: 160, 200
+  offset: 17, 14
+  index: -1
+effects/skillD/canying/canying_009
+  rotate: true
+  xy: 806, 884
+  size: 137, 182
+  orig: 160, 200
+  offset: 14, 12
+  index: -1
+effects/skillD/canying/canying_013
+  rotate: true
+  xy: 806, 755
+  size: 127, 181
+  orig: 160, 200
+  offset: 18, 13
+  index: -1
+effects/skillD/dian/dian_001
+  rotate: false
+  xy: 2, 12
+  size: 291, 94
+  orig: 320, 104
+  offset: 7, 5
+  index: -1
+effects/skillD/dian/dian_003
+  rotate: false
+  xy: 295, 25
+  size: 300, 81
+  orig: 320, 104
+  offset: 8, 15
+  index: -1
+effects/skillD/dianlu/dianlu_007
+  rotate: false
+  xy: 603, 493
+  size: 244, 244
+  orig: 248, 248
+  offset: 2, 2
+  index: -1
+effects/skillD/hit/hit_005
+  rotate: true
+  xy: 305, 108
+  size: 320, 297
+  orig: 320, 320
+  offset: 0, 17
+  index: -1
+effects/skillD/hit/hit_007
+  rotate: true
+  xy: 2, 108
+  size: 320, 301
+  orig: 320, 320
+  offset: 0, 17
+  index: -1
+effects/skillD/hit/hit_011
+  rotate: false
+  xy: 604, 3
+  size: 295, 257
+  orig: 320, 320
+  offset: 15, 38
+  index: -1
+effects/skillD/huangge/huangge_005
+  rotate: true
+  xy: 788, 262
+  size: 170, 232
+  orig: 176, 264
+  offset: 4, 15
+  index: -1
+effects/skillD/huangliu2/huangliu2_003
+  rotate: true
+  xy: 604, 739
+  size: 40, 181
+  orig: 60, 224
+  offset: 11, 7
+  index: -1
+effects/skillD/shandian/shandian_001
+  rotate: false
+  xy: 604, 262
+  size: 164, 167
+  orig: 176, 176
+  offset: 1, 9
+  index: -1
+effects/skillD/shujuken/shujuken_002
+  rotate: false
+  xy: 788, 434
+  size: 233, 57
+  orig: 240, 80
+  offset: 7, 8
+  index: -1
+effects/skillD/shujuken/shujuken_004
+  rotate: false
+  xy: 319, 431
+  size: 233, 60
+  orig: 240, 80
+  offset: 7, 8
+  index: -1
+effects/skillD/shujuken/shujuken_006
+  rotate: false
+  xy: 554, 431
+  size: 232, 60
+  orig: 240, 80
+  offset: 8, 8
+  index: -1
+effects/skillD/xingxing/xingxing_378
+  rotate: true
+  xy: 319, 493
+  size: 286, 282
+  orig: 358, 322
+  offset: 37, 14
+  index: -1
+effects/skillD/xingxing/xingxing_388
+  rotate: true
+  xy: 2, 430
+  size: 323, 315
+  orig: 358, 322
+  offset: 18, 0
+  index: -1
+
+effects_12501_skillD4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skillD/canying/canying_005
+  rotate: true
+  xy: 782, 879
+  size: 143, 178
+  orig: 160, 200
+  offset: 8, 11
+  index: -1
+effects/skillD/canying/canying_011
+  rotate: true
+  xy: 250, 717
+  size: 129, 172
+  orig: 160, 200
+  offset: 14, 22
+  index: -1
+effects/skillD/canying/canying_015
+  rotate: false
+  xy: 46, 199
+  size: 136, 177
+  orig: 160, 200
+  offset: 15, 10
+  index: -1
+effects/skillD/canying/canying_021
+  rotate: false
+  xy: 231, 557
+  size: 140, 158
+  orig: 160, 200
+  offset: 12, 2
+  index: -1
+effects/skillD/canying/canying_023
+  rotate: false
+  xy: 46, 47
+  size: 142, 150
+  orig: 160, 200
+  offset: 9, 1
+  index: -1
+effects/skillD/dian/dian_009
+  rotate: true
+  xy: 2, 103
+  size: 273, 42
+  orig: 320, 104
+  offset: 26, 32
+  index: -1
+effects/skillD/dianlu/dianlu_001
+  rotate: true
+  xy: 168, 403
+  size: 142, 141
+  orig: 248, 248
+  offset: 53, 54
+  index: -1
+effects/skillD/huangge/huangge_007
+  rotate: false
+  xy: 2, 547
+  size: 165, 231
+  orig: 176, 264
+  offset: 6, 11
+  index: -1
+effects/skillD/shandian/shandian_002
+  rotate: false
+  xy: 2, 378
+  size: 164, 167
+  orig: 176, 176
+  offset: 1, 9
+  index: -1
+effects/skillD/shandian/shandian_005
+  rotate: false
+  xy: 250, 848
+  size: 176, 174
+  orig: 176, 176
+  offset: 0, 1
+  index: -1
+effects/skillD/shandian/shandian_007
+  rotate: false
+  xy: 428, 852
+  size: 176, 170
+  orig: 176, 176
+  offset: 0, 0
+  index: -1
+effects/skillD/shujuken/shujuken_000
+  rotate: true
+  xy: 962, 791
+  size: 231, 60
+  orig: 240, 80
+  offset: 7, 8
+  index: -1
+effects/skillD/shujuken/shujuken_008
+  rotate: true
+  xy: 169, 547
+  size: 231, 60
+  orig: 240, 80
+  offset: 8, 8
+  index: -1
+effects/skillD/xingxing/xingxing_374
+  rotate: false
+  xy: 606, 851
+  size: 174, 171
+  orig: 358, 322
+  offset: 93, 70
+  index: -1
+effects/skillD/xingxing/xingxing_376
+  rotate: false
+  xy: 2, 780
+  size: 246, 242
+  orig: 358, 322
+  offset: 57, 34
+  index: -1

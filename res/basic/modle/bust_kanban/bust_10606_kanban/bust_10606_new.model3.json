@@ -1,0 +1,126 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "bust_10606_new.moc3",
+		"Textures": [
+			"bust_10606_new.1024/texture_00.png",
+			"bust_10606_new.1024/texture_01.png",
+			"bust_10606_new.1024/texture_02.png"
+		],
+		"Physics": "bust_10606_new.physics3.json",
+		"Motions": {
+			"Idle": [
+				{
+					"File": "motions/idle.motion3.json",
+					"FadeInTime": 0.1,
+					"FadeOutTime": 0.1
+				}
+			],
+			"Id_angry": [
+				{
+					"File": "motions/id_angry.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_dress": [
+				{
+					"File": "motions/id_dress.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_favor1_1": [
+				{
+					"File": "motions/id_favor1_1.motion3.json",
+					"Sound": "modle/bust/sounds/DP_07_Mana_3.mp3",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_favor1_2": [
+				{
+					"File": "motions/id_favor1_2.motion3.json",
+					"Sound": "modle/bust/sounds/DP_07_Mana_4.mp3",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_favor1_3": [
+				{
+					"File": "motions/id_favor1_3.motion3.json",
+					"Sound": "modle/bust/sounds/MANA_194.mp3",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_favor2_1": [
+				{
+					"File": "motions/id_favor2_1.motion3.json",
+					"Sound": "modle/bust/sounds/DP_07_Mana_8.mp3",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_favor3_1": [
+				{
+					"File": "motions/id_favor3_1.motion3.json",
+					"Sound": "modle/bust/sounds/DP_07_Mana_6.mp3",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_favor4_1": [
+				{
+					"File": "motions/id_favor4_1.motion3.json",
+					"Sound": "modle/bust/sounds/DP_03_mana15_s.mp3",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_favor5_1": [
+				{
+					"File": "motions/id_favor5_1.motion3.json",
+					"Sound": "modle/bust/sounds/MJ-Mana01.mp3",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_happy": [
+				{
+					"File": "motions/id_happy.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"PARAM_MOUTH_OPEN_Y"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	],
+	"HitAreas": [
+		{
+			"Id": "HitArea",
+			"Name": "head"
+		},
+		{
+			"Id": "HitArea2",
+			"Name": "body"
+		},
+		{
+			"Id": "HitArea3",
+			"Name": "tui"
+		}
+	]
+}

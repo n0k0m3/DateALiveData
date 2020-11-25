@@ -1,0 +1,90 @@
+
+effects_afk_changemap.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/changemap/changemap_001
+  rotate: false
+  xy: 869, 602
+  size: 83, 209
+  orig: 466, 233
+  offset: 16, 15
+  index: -1
+images/changemap/changemap_003
+  rotate: false
+  xy: 869, 813
+  size: 153, 209
+  orig: 466, 233
+  offset: 17, 15
+  index: -1
+images/changemap/changemap_005
+  rotate: true
+  xy: 714, 33
+  size: 217, 213
+  orig: 466, 233
+  offset: 18, 11
+  index: -1
+images/changemap/changemap_007
+  rotate: false
+  xy: 428, 2
+  size: 284, 213
+  orig: 466, 233
+  offset: 18, 11
+  index: -1
+images/changemap/changemap_009
+  rotate: true
+  xy: 644, 252
+  size: 340, 214
+  orig: 466, 233
+  offset: 16, 10
+  index: -1
+images/changemap/changemap_011
+  rotate: true
+  xy: 428, 217
+  size: 375, 214
+  orig: 466, 233
+  offset: 17, 10
+  index: -1
+images/changemap/changemap_013
+  rotate: false
+  xy: 396, 594
+  size: 420, 213
+  orig: 466, 233
+  offset: 16, 11
+  index: -1
+images/changemap/changemap_015
+  rotate: false
+  xy: 2, 809
+  size: 432, 213
+  orig: 466, 233
+  offset: 16, 11
+  index: -1
+images/changemap/changemap_017
+  rotate: false
+  xy: 436, 809
+  size: 431, 213
+  orig: 466, 233
+  offset: 17, 11
+  index: -1
+images/changemap/changemap_019
+  rotate: true
+  xy: 2, 172
+  size: 428, 212
+  orig: 466, 233
+  offset: 19, 11
+  index: -1
+images/changemap/changemap_021
+  rotate: true
+  xy: 216, 167
+  size: 425, 210
+  orig: 466, 233
+  offset: 22, 13
+  index: -1
+images/changemap/changemap_023
+  rotate: false
+  xy: 2, 610
+  size: 392, 197
+  orig: 466, 233
+  offset: 54, 25
+  index: -1

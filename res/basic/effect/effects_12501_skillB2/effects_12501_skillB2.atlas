@@ -1,0 +1,417 @@
+
+effects_12501_skillB2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillA/hit/hit_5
+  rotate: false
+  xy: 265, 33
+  size: 213, 213
+  orig: 240, 240
+  offset: 19, 7
+  index: -1
+images/effects/skillA/shifa3/shifa3_50
+  rotate: true
+  xy: 467, 489
+  size: 286, 101
+  orig: 320, 120
+  offset: 12, 17
+  index: -1
+images/effects/skillB/chuxian/chuxian_0
+  rotate: false
+  xy: 810, 10
+  size: 198, 280
+  orig: 200, 280
+  offset: 0, 0
+  index: -1
+images/effects/skillB/chuxian/chuxian_2
+  rotate: false
+  xy: 570, 507
+  size: 200, 280
+  orig: 200, 280
+  offset: 0, 0
+  index: -1
+images/effects/skillB/chuxian/chuxian_4
+  rotate: false
+  xy: 772, 484
+  size: 200, 280
+  orig: 200, 280
+  offset: 0, 0
+  index: -1
+images/effects/skillB/chuxian2/chuxian2_7
+  rotate: false
+  xy: 461, 248
+  size: 151, 239
+  orig: 176, 320
+  offset: 21, 13
+  index: -1
+images/effects/skillB/ci/ci_1
+  rotate: false
+  xy: 2, 949
+  size: 560, 73
+  orig: 560, 80
+  offset: 0, 1
+  index: -1
+images/effects/skillB/ci/ci_2
+  rotate: false
+  xy: 2, 885
+  size: 560, 62
+  orig: 560, 80
+  offset: 0, 6
+  index: -1
+images/effects/skillB/ci/ci_4
+  rotate: false
+  xy: 2, 830
+  size: 560, 53
+  orig: 560, 80
+  offset: 0, 12
+  index: -1
+images/effects/skillB/ci/ci_6
+  rotate: false
+  xy: 2, 777
+  size: 560, 51
+  orig: 560, 80
+  offset: 0, 14
+  index: -1
+images/effects/skillB/guangxian_0
+  rotate: true
+  xy: 974, 503
+  size: 261, 48
+  orig: 280, 96
+  offset: 11, 24
+  index: -1
+images/effects/skillB/shifa2/shifa2_12
+  rotate: true
+  xy: 614, 265
+  size: 240, 141
+  orig: 240, 160
+  offset: 0, 16
+  index: -1
+images/effects/skillB/shifa2/shifa2_6
+  rotate: true
+  xy: 480, 6
+  size: 240, 134
+  orig: 240, 160
+  offset: 0, 18
+  index: -1
+images/effects/skillB/xiaoshi/xiaoshi_021
+  rotate: false
+  xy: 616, 3
+  size: 192, 260
+  orig: 240, 280
+  offset: 42, 4
+  index: -1
+images/effects/skillB/xunhuan/xuanhuan_000
+  rotate: true
+  xy: 2, 29
+  size: 207, 261
+  orig: 240, 280
+  offset: 3, 0
+  index: -1
+images/effects/skillB/xunhuan/xuanhuan_002
+  rotate: false
+  xy: 231, 514
+  size: 234, 261
+  orig: 240, 280
+  offset: 6, 1
+  index: -1
+images/effects/skillB/xunhuan/xuanhuan_006
+  rotate: false
+  xy: 232, 248
+  size: 227, 264
+  orig: 240, 280
+  offset: 0, 0
+  index: -1
+images/effects/skillB/xunhuan/xuanhuan_008
+  rotate: false
+  xy: 2, 506
+  size: 227, 269
+  orig: 240, 280
+  offset: 0, 0
+  index: -1
+images/effects/skillB/xunhuan/xuanhuan_012
+  rotate: true
+  xy: 757, 292
+  size: 190, 265
+  orig: 240, 280
+  offset: 3, 0
+  index: -1
+images/effects/skillB/xunhuan/xuanhuan_018
+  rotate: false
+  xy: 831, 766
+  size: 191, 256
+  orig: 240, 280
+  offset: 32, 8
+  index: -1
+images/effects/skillB/xunhuan/xuanhuan_024
+  rotate: true
+  xy: 564, 789
+  size: 233, 265
+  orig: 240, 280
+  offset: 0, 0
+  index: -1
+images/effects/skillB/xunhuan/xuanhuan_026
+  rotate: false
+  xy: 2, 238
+  size: 228, 266
+  orig: 240, 280
+  offset: 0, 0
+  index: -1
+
+effects_12501_skillB22.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillA/glow_1
+  rotate: false
+  xy: 202, 10
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+images/effects/skillA/hit/hit_3
+  rotate: false
+  xy: 180, 92
+  size: 202, 206
+  orig: 240, 240
+  offset: 26, 11
+  index: -1
+images/effects/skillA/hit/hit_7
+  rotate: false
+  xy: 793, 570
+  size: 206, 203
+  orig: 240, 240
+  offset: 26, 12
+  index: -1
+images/effects/skillA/shifa3/shifa3_49
+  rotate: false
+  xy: 513, 5
+  size: 184, 93
+  orig: 320, 120
+  offset: 6, 24
+  index: -1
+images/effects/skillA/shifa3/shifa3_51
+  rotate: false
+  xy: 508, 921
+  size: 289, 101
+  orig: 320, 120
+  offset: 16, 16
+  index: -1
+images/effects/skillA/shifa3/shifa3_53
+  rotate: false
+  xy: 508, 825
+  size: 286, 94
+  orig: 320, 120
+  offset: 32, 17
+  index: -1
+images/effects/skillA/shifa3/shifa3_55
+  rotate: false
+  xy: 2, 15
+  size: 198, 62
+  orig: 320, 120
+  offset: 32, 27
+  index: -1
+images/effects/skillB/chuxian2/chuxian2_10
+  rotate: false
+  xy: 2, 708
+  size: 176, 314
+  orig: 176, 320
+  offset: 0, 0
+  index: -1
+images/effects/skillB/chuxian2/chuxian2_12
+  rotate: false
+  xy: 2, 392
+  size: 176, 314
+  orig: 176, 320
+  offset: 0, 0
+  index: -1
+images/effects/skillB/chuxian2/chuxian2_14
+  rotate: false
+  xy: 2, 79
+  size: 176, 311
+  orig: 176, 320
+  offset: 0, 0
+  index: -1
+images/effects/skillB/chuxian2/chuxian2_16
+  rotate: true
+  xy: 202, 855
+  size: 167, 304
+  orig: 176, 320
+  offset: 9, 3
+  index: -1
+images/effects/skillB/chuxian2/chuxian2_8
+  rotate: true
+  xy: 202, 677
+  size: 176, 268
+  orig: 176, 320
+  offset: 0, 0
+  index: -1
+images/effects/skillB/hit2/hit2_11
+  rotate: false
+  xy: 897, 48
+  size: 118, 113
+  orig: 200, 200
+  offset: 50, 41
+  index: -1
+images/effects/skillB/hit2/hit2_5
+  rotate: true
+  xy: 513, 100
+  size: 198, 200
+  orig: 200, 200
+  offset: 2, 0
+  index: -1
+images/effects/skillB/hit2/hit2_9
+  rotate: true
+  xy: 897, 163
+  size: 131, 123
+  orig: 200, 200
+  offset: 39, 35
+  index: -1
+images/effects/skillB/shifa2/shifa2_10
+  rotate: false
+  xy: 796, 775
+  size: 226, 133
+  orig: 240, 160
+  offset: 14, 25
+  index: -1
+images/effects/skillB/shifa2/shifa2_16
+  rotate: false
+  xy: 729, 431
+  size: 240, 137
+  orig: 240, 160
+  offset: 0, 16
+  index: -1
+images/effects/skillB/shifa2/shifa2_18
+  rotate: true
+  xy: 384, 57
+  size: 237, 127
+  orig: 240, 160
+  offset: 0, 22
+  index: -1
+images/effects/skillB/shifa2/shifa2_2
+  rotate: false
+  xy: 461, 300
+  size: 237, 128
+  orig: 240, 160
+  offset: 0, 23
+  index: -1
+images/effects/skillB/shifa2/shifa2_20
+  rotate: false
+  xy: 799, 910
+  size: 208, 112
+  orig: 240, 160
+  offset: 26, 31
+  index: -1
+images/effects/skillB/shifa2/shifa2_22
+  rotate: true
+  xy: 738, 675
+  size: 148, 53
+  orig: 240, 160
+  offset: 69, 62
+  index: -1
+images/effects/skillB/shifa2/shifa2_8
+  rotate: false
+  xy: 729, 296
+  size: 240, 133
+  orig: 240, 160
+  offset: 0, 17
+  index: -1
+images/effects/skillB/xiaoshi/xiaoshi_023
+  rotate: true
+  xy: 202, 300
+  size: 178, 257
+  orig: 240, 280
+  offset: 44, 7
+  index: -1
+images/effects/skillB/xiaoshi/xiaoshi_025
+  rotate: true
+  xy: 472, 630
+  size: 193, 264
+  orig: 240, 280
+  offset: 28, 5
+  index: -1
+images/effects/skillB/xiaoshi/xiaoshi_027
+  rotate: false
+  xy: 715, 58
+  size: 180, 236
+  orig: 240, 280
+  offset: 35, 7
+  index: -1
+images/effects/skillB/xunhuan/xuanhuan_014
+  rotate: true
+  xy: 202, 480
+  size: 195, 263
+  orig: 240, 280
+  offset: 0, 1
+  index: -1
+images/effects/skillB/xunhuan/xuanhuan_020
+  rotate: true
+  xy: 467, 430
+  size: 198, 260
+  orig: 240, 280
+  offset: 42, 4
+  index: -1
+
+effects_12501_skillB23.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillA/hit/hit_0
+  rotate: false
+  xy: 2, 302
+  size: 189, 189
+  orig: 240, 240
+  offset: 30, 25
+  index: -1
+images/effects/skillA/hit/hit_1
+  rotate: false
+  xy: 2, 493
+  size: 189, 195
+  orig: 240, 240
+  offset: 30, 19
+  index: -1
+images/effects/skillA/hit/hit_11
+  rotate: false
+  xy: 538, 781
+  size: 118, 107
+  orig: 240, 240
+  offset: 64, 62
+  index: -1
+images/effects/skillA/hit/hit_9
+  rotate: false
+  xy: 382, 734
+  size: 154, 154
+  orig: 240, 240
+  offset: 46, 39
+  index: -1
+images/effects/skillB/hit2/hit2_3
+  rotate: false
+  xy: 2, 690
+  size: 191, 198
+  orig: 200, 200
+  offset: 9, 0
+  index: -1
+images/effects/skillB/hit2/hit2_7
+  rotate: false
+  xy: 195, 692
+  size: 185, 196
+  orig: 200, 200
+  offset: 8, 0
+  index: -1
+images/effects/skillB/shifa2/shifa2_0
+  rotate: false
+  xy: 2, 2
+  size: 103, 109
+  orig: 240, 160
+  offset: 0, 32
+  index: -1
+images/effects/skillB/xiaoshi/xiaoshi_029
+  rotate: false
+  xy: 2, 113
+  size: 107, 187
+  orig: 240, 280
+  offset: 54, 28
+  index: -1

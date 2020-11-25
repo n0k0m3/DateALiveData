@@ -1,0 +1,20 @@
+
+wutai1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 2, 48
+  size: 698, 732
+  orig: 698, 732
+  offset: 0, 0
+  index: -1
+deng_000
+  rotate: false
+  xy: 2, 2
+  size: 48, 44
+  orig: 48, 44
+  offset: 0, 0
+  index: -1

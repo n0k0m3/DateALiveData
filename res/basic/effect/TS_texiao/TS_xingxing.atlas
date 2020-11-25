@@ -1,0 +1,20 @@
+
+TS_xingxing.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/xingxing
+  rotate: false
+  xy: 2, 2
+  size: 28, 29
+  orig: 28, 29
+  offset: 0, 0
+  index: -1
+images/xingxing1_000
+  rotate: false
+  xy: 2, 33
+  size: 47, 47
+  orig: 50, 50
+  offset: 1, 1
+  index: -1

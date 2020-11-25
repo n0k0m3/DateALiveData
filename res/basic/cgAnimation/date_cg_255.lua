@@ -7,7 +7,7 @@ return {
 },
 -- Table: {2}
 {
-   10,
+   20,
 },
 -- Table: {3}
 {
@@ -51,7 +51,7 @@ return {
 -- Table: {11}
 {
    ["status"]={14},
-   ["filePath"]="F:\\Dal\\bin\\Debug.win32\\../../Resource/res/basic/modle/cg\\main_cg_role_132.png",
+   ["filePath"]="F:\\DAL\\bin\\Debug.win32\\../../Resource/res/basic/modle/cg\\main_cg_role_255.png",
 },
 -- Table: {12}
 {
@@ -61,12 +61,12 @@ return {
 -- Table: {13}
 {
    ["status"]={15},
-   ["filePath"]="F:\\Dal\\bin\\Debug.win32\\../../Resource/res/basic/modle/cg\\main_cg_role_132.png",
+   ["filePath"]="F:\\DAL\\bin\\Debug.win32\\../../Resource/res/basic/modle/cg\\main_cg_role_255.png",
 },
 -- Table: {14}
 {
    ["pos"]={16},
-   ["scale"]=1,
+   ["scale"]=1.2000000476837,
    ["opacity"]=255,
 },
 -- Table: {15}
@@ -77,12 +77,12 @@ return {
 },
 -- Table: {16}
 {
-   ["y"]=481.95538330078,
-   ["x"]=564.21319580078,
+   ["y"]=320,
+   ["x"]=568,
 },
 -- Table: {17}
 {
-   ["y"]=159.9380645752,
-   ["x"]=569.89349365234,
+   ["y"]=319.05279541016,
+   ["x"]=567.05224609375,
 },
 }

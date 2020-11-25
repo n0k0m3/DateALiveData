@@ -1,0 +1,242 @@
+
+effects_12701_skillC.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/glow
+  rotate: false
+  xy: 623, 4
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+effects/guangxian_000
+  rotate: false
+  xy: 2, 2
+  size: 176, 72
+  orig: 180, 72
+  offset: 0, 0
+  index: -1
+effects/skillC/dao2/dao2_001
+  rotate: true
+  xy: 808, 283
+  size: 331, 147
+  orig: 540, 468
+  offset: 140, 150
+  index: -1
+effects/skillC/dao2/dao2_005
+  rotate: true
+  xy: 2, 76
+  size: 508, 424
+  orig: 540, 468
+  offset: 16, 30
+  index: -1
+effects/skillC/dao2/dao2_007
+  rotate: false
+  xy: 2, 586
+  size: 504, 435
+  orig: 540, 468
+  offset: 14, 18
+  index: -1
+effects/skillC/dao2/dao2_009
+  rotate: false
+  xy: 508, 616
+  size: 499, 405
+  orig: 540, 468
+  offset: 7, 49
+  index: -1
+effects/skillC/dao2/dao2_011
+  rotate: true
+  xy: 428, 96
+  size: 488, 378
+  orig: 540, 468
+  offset: 17, 62
+  index: -1
+effects/skillC/shanbi/shanbi_007
+  rotate: false
+  xy: 808, 4
+  size: 202, 277
+  orig: 270, 297
+  offset: 34, 12
+  index: -1
+effects/skillC/yan/yan_000
+  rotate: true
+  xy: 957, 527
+  size: 87, 35
+  orig: 225, 90
+  offset: 57, 9
+  index: -1
+effects/skillC/yan/yan_002
+  rotate: false
+  xy: 180, 6
+  size: 147, 68
+  orig: 225, 90
+  offset: 28, 9
+  index: -1
+effects/skillC/yan/yan_008
+  rotate: false
+  xy: 428, 12
+  size: 193, 82
+  orig: 225, 90
+  offset: 15, 1
+  index: -1
+
+effects_12701_skillC2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skillC/dao1/dao1_000
+  rotate: true
+  xy: 903, 783
+  size: 231, 111
+  orig: 450, 324
+  offset: 188, 34
+  index: -1
+effects/skillC/dao1/dao1_004
+  rotate: false
+  xy: 2, 2
+  size: 386, 286
+  orig: 450, 324
+  offset: 33, 19
+  index: -1
+effects/skillC/dao1/dao1_006
+  rotate: false
+  xy: 2, 290
+  size: 392, 288
+  orig: 450, 324
+  offset: 27, 17
+  index: -1
+effects/skillC/dao1/dao1_008
+  rotate: false
+  xy: 390, 5
+  size: 397, 266
+  orig: 450, 324
+  offset: 22, 40
+  index: -1
+effects/skillC/dao2/dao2_003
+  rotate: false
+  xy: 2, 580
+  size: 454, 434
+  orig: 540, 468
+  offset: 18, 17
+  index: -1
+effects/skillC/dao2/dao2_013
+  rotate: false
+  xy: 458, 643
+  size: 443, 371
+  orig: 540, 468
+  offset: 48, 66
+  index: -1
+effects/skillC/dao2/dao2_015
+  rotate: false
+  xy: 458, 273
+  size: 424, 368
+  orig: 540, 468
+  offset: 54, 66
+  index: -1
+effects/skillC/guangyun_000
+  rotate: false
+  xy: 884, 294
+  size: 109, 108
+  orig: 115, 115
+  offset: 0, 0
+  index: -1
+effects/skillC/shanbi/shanbi_008
+  rotate: false
+  xy: 789, 15
+  size: 157, 256
+  orig: 270, 297
+  offset: 55, 22
+  index: -1
+effects/skillC/yan/yan_004
+  rotate: true
+  xy: 884, 404
+  size: 185, 82
+  orig: 225, 90
+  offset: 18, 6
+  index: -1
+effects/skillC/yan/yan_006
+  rotate: true
+  xy: 903, 591
+  size: 190, 83
+  orig: 225, 90
+  offset: 17, 4
+  index: -1
+
+effects_12701_skillC3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skillC/dao1/dao1_002
+  rotate: false
+  xy: 2, 744
+  size: 372, 271
+  orig: 450, 324
+  offset: 49, 34
+  index: -1
+effects/skillC/dao1/dao1_010
+  rotate: false
+  xy: 2, 491
+  size: 363, 251
+  orig: 450, 324
+  offset: 56, 40
+  index: -1
+effects/skillC/dao1/dao1_012
+  rotate: false
+  xy: 376, 778
+  size: 361, 237
+  orig: 450, 324
+  offset: 57, 44
+  index: -1
+effects/skillC/shanbi/shanbi_001
+  rotate: false
+  xy: 509, 278
+  size: 234, 246
+  orig: 270, 297
+  offset: 18, 23
+  index: -1
+effects/skillC/shanbi/shanbi_002
+  rotate: true
+  xy: 635, 526
+  size: 242, 249
+  orig: 270, 297
+  offset: 14, 24
+  index: -1
+effects/skillC/shanbi/shanbi_003
+  rotate: true
+  xy: 376, 530
+  size: 246, 257
+  orig: 270, 297
+  offset: 12, 20
+  index: -1
+effects/skillC/shanbi/shanbi_004
+  rotate: false
+  xy: 257, 222
+  size: 250, 267
+  orig: 270, 297
+  offset: 10, 15
+  index: -1
+effects/skillC/shanbi/shanbi_005
+  rotate: false
+  xy: 2, 217
+  size: 253, 272
+  orig: 270, 297
+  offset: 7, 13
+  index: -1
+effects/skillC/shanbi/shanbi_006
+  rotate: true
+  xy: 739, 770
+  size: 245, 276
+  orig: 270, 297
+  offset: 10, 12
+  index: -1
+effects/skillC/shanbi/shanbi_009
+  rotate: false
+  xy: 2, 33
+  size: 150, 182
+  orig: 270, 297
+  offset: 61, 60
+  index: -1

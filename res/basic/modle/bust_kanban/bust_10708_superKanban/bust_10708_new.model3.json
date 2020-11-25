@@ -1,0 +1,107 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "bust_10708_new.moc3",
+		"Textures": [
+			"bust_10708_new.1024/texture_00.png",
+			"bust_10708_new.1024/texture_01.png",
+			"bust_10708_new.1024/texture_02.png",
+			"bust_10708_new.1024/texture_03.png",
+			"bust_10708_new.1024/texture_04.png"
+		],
+		"Physics": "bust_10708_new.physics3.json",
+		"Motions": {
+			"Idle": [
+				{
+					"File": "motions/idle.motion3.json",
+					"FadeInTime": 0.1,
+					"FadeOutTime": 0.1
+				}
+			],
+			"Id_favor1_1": [
+				{
+					"File": "motions/id_favor1_1.motion3.json",
+					"Sound": "modle/bust/sounds/DP_05_Kaguya9_A.mp3",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_favor1_2": [
+				{
+					"File": "motions/id_favor1_2.motion3.json",
+					"Sound": "modle/bust/sounds/DP_05_Kaguya15_A.mp3",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_favor1_3": [
+				{
+					"File": "motions/id_favor1_3.motion3.json",
+					"Sound": "modle/bust/sounds/DP_05_Kaguya16_s.mp3",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_favor2_1": [
+				{
+					"File": "motions/id_favor2_1.motion3.json",
+					"Sound": "modle/bust/sounds/DP_05_Kaguya17_A.mp3",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_favor3_1": [
+				{
+					"File": "motions/id_favor3_1.motion3.json",
+					"Sound": "modle/bust/sounds/KAGUYA_91.mp3",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_favor4_1": [
+				{
+					"File": "motions/id_favor4_1.motion3.json",
+					"Sound": "modle/bust/sounds/MJ_Kaguya7_A.mp3",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_favor5_1": [
+				{
+					"File": "motions/id_favor5_1.motion3.json",
+					"Sound": "modle/bust/sounds/DP_05_Kaguya64_A.mp3",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"PARAM_MOUTH_OPEN_Y"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	],
+	"HitAreas": [
+		{
+			"Id": "HitArea",
+			"Name": "head"
+		},
+		{
+			"Id": "HitArea2",
+			"Name": "body"
+		},
+		{
+			"Id": "HitArea3",
+			"Name": "tui"
+		}
+	]
+}

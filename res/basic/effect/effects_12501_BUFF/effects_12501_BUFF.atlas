@@ -1,0 +1,111 @@
+
+effects_12501_BUFF.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/BUFF/putong/putong_000
+  rotate: false
+  xy: 210, 21
+  size: 200, 211
+  orig: 230, 248
+  offset: 16, 20
+  index: -1
+images/effects/BUFF/putong/putong_002
+  rotate: true
+  xy: 438, 661
+  size: 202, 212
+  orig: 230, 248
+  offset: 14, 17
+  index: -1
+images/effects/BUFF/putong/putong_004
+  rotate: false
+  xy: 2, 23
+  size: 206, 208
+  orig: 230, 248
+  offset: 11, 18
+  index: -1
+images/effects/BUFF/putong/putong_006
+  rotate: false
+  xy: 652, 662
+  size: 211, 201
+  orig: 230, 248
+  offset: 10, 18
+  index: -1
+images/effects/BUFF/putong/putong_008
+  rotate: true
+  xy: 224, 445
+  size: 212, 200
+  orig: 230, 248
+  offset: 9, 16
+  index: -1
+images/effects/BUFF/putong/putong_010
+  rotate: false
+  xy: 224, 659
+  size: 212, 204
+  orig: 230, 248
+  offset: 7, 15
+  index: -1
+images/effects/BUFF/putong/putong_012
+  rotate: true
+  xy: 209, 234
+  size: 209, 200
+  orig: 230, 248
+  offset: 9, 16
+  index: -1
+images/effects/BUFF/putong/putong_014
+  rotate: true
+  xy: 411, 238
+  size: 205, 201
+  orig: 230, 248
+  offset: 11, 14
+  index: -1
+images/effects/BUFF/putong/putong_016
+  rotate: false
+  xy: 627, 456
+  size: 203, 203
+  orig: 230, 248
+  offset: 12, 10
+  index: -1
+images/effects/BUFF/putong/putong_018
+  rotate: false
+  xy: 412, 32
+  size: 203, 204
+  orig: 230, 248
+  offset: 12, 10
+  index: -1
+images/effects/BUFF/putong/putong_020
+  rotate: false
+  xy: 426, 453
+  size: 199, 204
+  orig: 230, 248
+  offset: 16, 14
+  index: -1
+images/effects/BUFF/putong/putong_022
+  rotate: true
+  xy: 614, 250
+  size: 201, 199
+  orig: 230, 248
+  offset: 17, 19
+  index: -1
+images/effects/BUFF/putong/putong_024
+  rotate: false
+  xy: 2, 445
+  size: 215, 206
+  orig: 230, 248
+  offset: 14, 12
+  index: -1
+images/effects/BUFF/putong/putong_026
+  rotate: false
+  xy: 2, 653
+  size: 220, 210
+  orig: 230, 248
+  offset: 10, 9
+  index: -1
+images/effects/BUFF/putong/putong_028
+  rotate: false
+  xy: 2, 233
+  size: 205, 210
+  orig: 230, 248
+  offset: 11, 15
+  index: -1

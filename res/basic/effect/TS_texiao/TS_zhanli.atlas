@@ -1,0 +1,223 @@
+
+TS_zhanli.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/TS_zhanli/zhanli/zhanli_000
+  rotate: false
+  xy: 2, 458
+  size: 212, 26
+  orig: 260, 56
+  offset: 24, 15
+  index: -1
+images/TS_zhanli/zhanli/zhanli_001
+  rotate: false
+  xy: 2, 430
+  size: 212, 26
+  orig: 260, 56
+  offset: 24, 15
+  index: -1
+images/TS_zhanli/zhanli/zhanli_002
+  rotate: false
+  xy: 216, 458
+  size: 212, 26
+  orig: 260, 56
+  offset: 24, 15
+  index: -1
+images/TS_zhanli/zhanli/zhanli_003
+  rotate: false
+  xy: 2, 402
+  size: 212, 26
+  orig: 260, 56
+  offset: 24, 15
+  index: -1
+images/TS_zhanli/zhanli/zhanli_004
+  rotate: false
+  xy: 216, 430
+  size: 212, 26
+  orig: 260, 56
+  offset: 24, 15
+  index: -1
+images/TS_zhanli/zhanli/zhanli_005
+  rotate: false
+  xy: 2, 374
+  size: 212, 26
+  orig: 260, 56
+  offset: 24, 15
+  index: -1
+images/TS_zhanli/zhanli/zhanli_006
+  rotate: false
+  xy: 216, 402
+  size: 212, 26
+  orig: 260, 56
+  offset: 24, 15
+  index: -1
+images/TS_zhanli/zhanli/zhanli_007
+  rotate: false
+  xy: 216, 206
+  size: 211, 26
+  orig: 260, 56
+  offset: 24, 15
+  index: -1
+images/TS_zhanli/zhanli/zhanli_008
+  rotate: false
+  xy: 2, 122
+  size: 210, 26
+  orig: 260, 56
+  offset: 24, 15
+  index: -1
+images/TS_zhanli/zhanli/zhanli_009
+  rotate: false
+  xy: 214, 122
+  size: 209, 26
+  orig: 260, 56
+  offset: 24, 15
+  index: -1
+images/TS_zhanli/zhanli/zhanli_010
+  rotate: false
+  xy: 2, 346
+  size: 212, 26
+  orig: 260, 56
+  offset: 24, 15
+  index: -1
+images/TS_zhanli/zhanli/zhanli_011
+  rotate: false
+  xy: 216, 374
+  size: 212, 26
+  orig: 260, 56
+  offset: 24, 15
+  index: -1
+images/TS_zhanli/zhanli/zhanli_012
+  rotate: false
+  xy: 2, 318
+  size: 212, 26
+  orig: 260, 56
+  offset: 24, 15
+  index: -1
+images/TS_zhanli/zhanli/zhanli_013
+  rotate: false
+  xy: 216, 346
+  size: 212, 26
+  orig: 260, 56
+  offset: 24, 15
+  index: -1
+images/TS_zhanli/zhanli/zhanli_014
+  rotate: false
+  xy: 2, 290
+  size: 212, 26
+  orig: 260, 56
+  offset: 24, 15
+  index: -1
+images/TS_zhanli/zhanli/zhanli_015
+  rotate: false
+  xy: 216, 318
+  size: 212, 26
+  orig: 260, 56
+  offset: 24, 15
+  index: -1
+images/TS_zhanli/zhanli/zhanli_016
+  rotate: false
+  xy: 2, 262
+  size: 212, 26
+  orig: 260, 56
+  offset: 24, 15
+  index: -1
+images/TS_zhanli/zhanli/zhanli_017
+  rotate: false
+  xy: 2, 150
+  size: 211, 26
+  orig: 260, 56
+  offset: 24, 15
+  index: -1
+images/TS_zhanli/zhanli/zhanli_018
+  rotate: false
+  xy: 215, 150
+  size: 210, 26
+  orig: 260, 56
+  offset: 24, 15
+  index: -1
+images/TS_zhanli/zhanli/zhanli_019
+  rotate: false
+  xy: 2, 66
+  size: 209, 26
+  orig: 260, 56
+  offset: 24, 15
+  index: -1
+images/TS_zhanli/zhanli/zhanli_020
+  rotate: false
+  xy: 216, 290
+  size: 212, 26
+  orig: 260, 56
+  offset: 24, 15
+  index: -1
+images/TS_zhanli/zhanli/zhanli_021
+  rotate: false
+  xy: 2, 234
+  size: 212, 26
+  orig: 260, 56
+  offset: 24, 15
+  index: -1
+images/TS_zhanli/zhanli/zhanli_022
+  rotate: false
+  xy: 216, 262
+  size: 212, 26
+  orig: 260, 56
+  offset: 24, 15
+  index: -1
+images/TS_zhanli/zhanli/zhanli_023
+  rotate: true
+  xy: 430, 272
+  size: 212, 26
+  orig: 260, 56
+  offset: 24, 15
+  index: -1
+images/TS_zhanli/zhanli/zhanli_024
+  rotate: false
+  xy: 2, 206
+  size: 212, 26
+  orig: 260, 56
+  offset: 24, 15
+  index: -1
+images/TS_zhanli/zhanli/zhanli_025
+  rotate: false
+  xy: 216, 234
+  size: 212, 26
+  orig: 260, 56
+  offset: 24, 15
+  index: -1
+images/TS_zhanli/zhanli/zhanli_026
+  rotate: true
+  xy: 458, 272
+  size: 212, 26
+  orig: 260, 56
+  offset: 24, 15
+  index: -1
+images/TS_zhanli/zhanli/zhanli_027
+  rotate: false
+  xy: 216, 178
+  size: 211, 26
+  orig: 260, 56
+  offset: 24, 15
+  index: -1
+images/TS_zhanli/zhanli/zhanli_028
+  rotate: false
+  xy: 2, 94
+  size: 210, 26
+  orig: 260, 56
+  offset: 24, 15
+  index: -1
+images/TS_zhanli/zhanli/zhanli_029
+  rotate: false
+  xy: 214, 94
+  size: 209, 26
+  orig: 260, 56
+  offset: 24, 15
+  index: -1
+images/TS_zhanli/zhanli/zhanli_030
+  rotate: false
+  xy: 2, 178
+  size: 212, 26
+  orig: 260, 56
+  offset: 24, 15
+  index: -1

@@ -1,0 +1,20 @@
+
+dengta.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 2, 2
+  size: 319, 786
+  orig: 319, 786
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 323, 546
+  size: 387, 242
+  orig: 387, 242
+  offset: 0, 0
+  index: -1

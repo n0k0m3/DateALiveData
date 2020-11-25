@@ -1,0 +1,193 @@
+
+TS_zhujian_1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_L/feijian/feijian_055
+  rotate: false
+  xy: 352, 147
+  size: 216, 230
+  orig: 654, 377
+  offset: 430, 118
+  index: -1
+effect_L/feijian/feijian_057
+  rotate: false
+  xy: 352, 379
+  size: 261, 280
+  orig: 654, 377
+  offset: 385, 83
+  index: -1
+effect_L/feijian/feijian_063
+  rotate: false
+  xy: 615, 77
+  size: 376, 321
+  orig: 654, 377
+  offset: 270, 42
+  index: -1
+effect_L/feijian/feijian_075
+  rotate: true
+  xy: 634, 400
+  size: 621, 356
+  orig: 654, 377
+  offset: 24, 7
+  index: -1
+effect_L/feijian/feijian_077
+  rotate: false
+  xy: 2, 661
+  size: 630, 360
+  orig: 654, 377
+  offset: 15, 3
+  index: -1
+effect_L/feijian/feijian_079
+  rotate: true
+  xy: 2, 41
+  size: 618, 348
+  orig: 654, 377
+  offset: 24, 15
+  index: -1
+effect_L/lizi/lizi_080
+  rotate: true
+  xy: 570, 213
+  size: 164, 39
+  orig: 207, 191
+  offset: 14, 20
+  index: -1
+effect_L/lizi/lizi_082
+  rotate: false
+  xy: 710, 19
+  size: 169, 56
+  orig: 207, 191
+  offset: 12, 25
+  index: -1
+effect_L/lizi/lizi_084
+  rotate: false
+  xy: 536, 2
+  size: 172, 73
+  orig: 207, 191
+  offset: 11, 24
+  index: -1
+effect_L/lizi/lizi_098
+  rotate: false
+  xy: 352, 4
+  size: 182, 141
+  orig: 207, 191
+  offset: 11, 34
+  index: -1
+
+TS_zhujian_12.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_L/feijian/feijian_059
+  rotate: false
+  xy: 341, 17
+  size: 302, 316
+  orig: 654, 377
+  offset: 344, 47
+  index: -1
+effect_L/feijian/feijian_061
+  rotate: false
+  xy: 2, 14
+  size: 337, 319
+  orig: 654, 377
+  offset: 309, 44
+  index: -1
+effect_L/feijian/feijian_065
+  rotate: false
+  xy: 593, 678
+  size: 421, 336
+  orig: 654, 377
+  offset: 224, 27
+  index: -1
+effect_L/feijian/feijian_069
+  rotate: true
+  xy: 645, 183
+  size: 493, 341
+  orig: 654, 377
+  offset: 152, 22
+  index: -1
+effect_L/feijian/feijian_071
+  rotate: false
+  xy: 2, 335
+  size: 540, 333
+  orig: 654, 377
+  offset: 105, 30
+  index: -1
+effect_L/feijian/feijian_073
+  rotate: false
+  xy: 2, 670
+  size: 589, 344
+  orig: 654, 377
+  offset: 56, 19
+  index: -1
+effect_L/lizi/lizi_092
+  rotate: false
+  xy: 645, 35
+  size: 183, 146
+  orig: 207, 191
+  offset: 11, 27
+  index: -1
+effect_L/lizi/lizi_100
+  rotate: false
+  xy: 830, 32
+  size: 180, 149
+  orig: 207, 191
+  offset: 13, 22
+  index: -1
+
+TS_zhujian_13.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_L/feijian/feijian_067
+  rotate: false
+  xy: 2, 479
+  size: 457, 340
+  orig: 654, 377
+  offset: 188, 23
+  index: -1
+effect_L/lizi/lizi_086
+  rotate: false
+  xy: 646, 719
+  size: 173, 100
+  orig: 207, 191
+  offset: 9, 16
+  index: -1
+effect_L/lizi/lizi_088
+  rotate: false
+  xy: 158, 351
+  size: 179, 126
+  orig: 207, 191
+  offset: 10, 9
+  index: -1
+effect_L/lizi/lizi_090
+  rotate: false
+  xy: 461, 682
+  size: 183, 137
+  orig: 207, 191
+  offset: 10, 17
+  index: -1
+effect_L/lizi/lizi_094
+  rotate: false
+  xy: 461, 570
+  size: 183, 110
+  orig: 207, 191
+  offset: 11, 37
+  index: -1
+effect_L/lizi/lizi_096
+  rotate: true
+  xy: 2, 117
+  size: 183, 132
+  orig: 207, 191
+  offset: 11, 29
+  index: -1
+effect_L/lizi/lizi_102
+  rotate: false
+  xy: 2, 302
+  size: 154, 175
+  orig: 207, 191
+  offset: 11, 12
+  index: -1

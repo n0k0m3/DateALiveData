@@ -1,0 +1,690 @@
+
+effects_12401_skillA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/images_H/skillA/beijing/beijing_005
+  rotate: true
+  xy: 312, 318
+  size: 215, 209
+  orig: 300, 300
+  offset: 40, 42
+  index: -1
+images/images_H/skillA/beijing/beijing_007
+  rotate: true
+  xy: 358, 780
+  size: 242, 264
+  orig: 300, 300
+  offset: 29, 18
+  index: -1
+images/images_H/skillA/beijing/beijing_009
+  rotate: true
+  xy: 84, 770
+  size: 252, 272
+  orig: 300, 300
+  offset: 24, 14
+  index: -1
+images/images_H/skillA/beijing/beijing_011
+  rotate: true
+  xy: 2, 263
+  size: 258, 276
+  orig: 300, 300
+  offset: 21, 12
+  index: -1
+images/images_H/skillA/ci/ci_000
+  rotate: true
+  xy: 877, 287
+  size: 348, 136
+  orig: 400, 150
+  offset: 6, 5
+  index: -1
+images/images_H/skillA/ci/ci_001
+  rotate: true
+  xy: 550, 263
+  size: 367, 123
+  orig: 400, 150
+  offset: 4, 12
+  index: -1
+images/images_H/skillA/ci/ci_003
+  rotate: false
+  xy: 624, 784
+  size: 396, 107
+  orig: 400, 150
+  offset: 1, 13
+  index: -1
+images/images_H/skillA/ci/ci_005
+  rotate: false
+  xy: 624, 893
+  size: 396, 129
+  orig: 400, 150
+  offset: 0, 0
+  index: -1
+images/images_H/skillA/dimian/dimian_000
+  rotate: false
+  xy: 800, 6
+  size: 79, 72
+  orig: 128, 105
+  offset: 0, 0
+  index: -1
+images/images_H/skillA/dimian/dimian_004
+  rotate: false
+  xy: 881, 9
+  size: 93, 69
+  orig: 128, 105
+  offset: 17, 16
+  index: -1
+images/images_H/skillA/dimian/dimian_005
+  rotate: false
+  xy: 629, 3
+  size: 86, 75
+  orig: 128, 105
+  offset: 29, 16
+  index: -1
+images/images_H/skillA/glow
+  rotate: false
+  xy: 919, 185
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+images/images_H/skillA/guangxian_068
+  rotate: false
+  xy: 2, 142
+  size: 251, 119
+  orig: 257, 129
+  offset: 2, 3
+  index: -1
+images/images_H/skillA/hit1/hit_009
+  rotate: false
+  xy: 2, 3
+  size: 176, 137
+  orig: 200, 200
+  offset: 14, 33
+  index: -1
+images/images_H/skillA/hit2/hit_down_009
+  rotate: false
+  xy: 279, 3
+  size: 196, 54
+  orig: 250, 100
+  offset: 24, 17
+  index: -1
+images/images_H/skillA/hit2/hit_down_010
+  rotate: false
+  xy: 312, 59
+  size: 200, 55
+  orig: 250, 100
+  offset: 22, 16
+  index: -1
+images/images_H/skillA/hit2/hit_up_005
+  rotate: false
+  xy: 431, 632
+  size: 226, 146
+  orig: 250, 200
+  offset: 13, 24
+  index: -1
+images/images_H/skillA/hit2/hit_up_007
+  rotate: false
+  xy: 692, 139
+  size: 225, 144
+  orig: 250, 200
+  offset: 18, 29
+  index: -1
+images/images_H/skillA/hit2/hit_up_009
+  rotate: false
+  xy: 659, 637
+  size: 226, 145
+  orig: 250, 200
+  offset: 17, 26
+  index: -1
+images/images_H/skillA/hit2/kejidanzhen_006
+  rotate: true
+  xy: 180, 2
+  size: 138, 49
+  orig: 138, 63
+  offset: 0, 5
+  index: -1
+images/images_H/skillA/jiguang/jiguang_001
+  rotate: false
+  xy: 2, 523
+  size: 80, 499
+  orig: 150, 500
+  offset: 36, 0
+  index: -1
+images/images_H/skillA/jiguang/jiguang_002
+  rotate: false
+  xy: 280, 61
+  size: 30, 472
+  orig: 150, 500
+  offset: 61, 27
+  index: -1
+images/images_H/skillA/jiguang/jiguang_004
+  rotate: true
+  xy: 84, 535
+  size: 27, 464
+  orig: 150, 500
+  offset: 62, 35
+  index: -1
+images/images_H/skillA/jiguang/jiguang_008
+  rotate: true
+  xy: 84, 564
+  size: 58, 464
+  orig: 150, 500
+  offset: 46, 35
+  index: -1
+images/images_H/skillA/jiguang/jiguang_010
+  rotate: true
+  xy: 514, 80
+  size: 50, 464
+  orig: 150, 500
+  offset: 50, 35
+  index: -1
+images/images_H/skillA/jiguang/jiguang_014
+  rotate: false
+  xy: 523, 132
+  size: 17, 401
+  orig: 150, 500
+  offset: 67, 98
+  index: -1
+images/images_H/skillA/jiguangdian_000
+  rotate: false
+  xy: 231, 42
+  size: 46, 46
+  orig: 50, 50
+  offset: 2, 2
+  index: -1
+images/images_H/skillA/sanjiao_009
+  rotate: false
+  xy: 231, 5
+  size: 42, 35
+  orig: 47, 46
+  offset: 3, 4
+  index: -1
+images/images_H/skillA/saoguang/saoguang_002
+  rotate: true
+  xy: 980, 5
+  size: 78, 33
+  orig: 105, 133
+  offset: 10, 1
+  index: -1
+images/images_H/skillA/saoguang/saoguang_014
+  rotate: false
+  xy: 919, 134
+  size: 81, 49
+  orig: 105, 133
+  offset: 11, 78
+  index: -1
+images/images_H/skillA/shifa/shifa_000
+  rotate: false
+  xy: 84, 624
+  size: 345, 144
+  orig: 350, 200
+  offset: 0, 26
+  index: -1
+images/images_H/skillA/shifa/shifa_004
+  rotate: true
+  xy: 675, 285
+  size: 350, 200
+  orig: 350, 200
+  offset: 0, 0
+  index: -1
+images/images_H/skillA/shifa1/shifa_002
+  rotate: true
+  xy: 231, 90
+  size: 50, 46
+  orig: 125, 83
+  offset: 8, 31
+  index: -1
+images/images_H/skillA/shifa1/shifa_008
+  rotate: false
+  xy: 514, 2
+  size: 113, 76
+  orig: 125, 83
+  offset: 9, 0
+  index: -1
+images/images_H/skillA/shifa1/shifa_012
+  rotate: false
+  xy: 980, 85
+  size: 40, 47
+  orig: 125, 83
+  offset: 82, 3
+  index: -1
+images/images_H/skillA/shifa1/shifa_014
+  rotate: false
+  xy: 477, 17
+  size: 33, 40
+  orig: 125, 83
+  offset: 87, 9
+  index: -1
+images/images_H/skillA/shifa2/shifa_008
+  rotate: true
+  xy: 887, 637
+  size: 145, 108
+  orig: 164, 185
+  offset: 0, 0
+  index: -1
+images/images_H/skillA/shifa3/shifa3_001
+  rotate: false
+  xy: 717, 5
+  size: 81, 73
+  orig: 203, 131
+  offset: 3, 55
+  index: -1
+images/images_H/skillA/shifa4/shifa4_007
+  rotate: true
+  xy: 542, 132
+  size: 129, 148
+  orig: 235, 198
+  offset: 98, 0
+  index: -1
+images/images_H/skillA/yuan_000
+  rotate: false
+  xy: 312, 116
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+
+effects_12401_skillA2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/images_H/skillA/beijing/beijing_001
+  rotate: true
+  xy: 260, 561
+  size: 109, 113
+  orig: 300, 300
+  offset: 95, 90
+  index: -1
+images/images_H/skillA/ci/ci_007
+  rotate: true
+  xy: 31, 627
+  size: 395, 47
+  orig: 400, 150
+  offset: 0, 46
+  index: -1
+images/images_H/skillA/ci/ci_010
+  rotate: true
+  xy: 230, 2
+  size: 202, 48
+  orig: 400, 150
+  offset: 51, 45
+  index: -1
+images/images_H/skillA/dimian/dimian_001
+  rotate: true
+  xy: 746, 276
+  size: 79, 72
+  orig: 128, 105
+  offset: 0, 0
+  index: -1
+images/images_H/skillA/dimian/dimian_002
+  rotate: true
+  xy: 766, 434
+  size: 87, 53
+  orig: 128, 105
+  offset: 10, 17
+  index: -1
+images/images_H/skillA/dimian/dimian_003
+  rotate: false
+  xy: 603, 732
+  size: 87, 62
+  orig: 128, 105
+  offset: 17, 16
+  index: -1
+images/images_H/skillA/heizhen_001
+  rotate: true
+  xy: 410, 13
+  size: 194, 192
+  orig: 200, 200
+  offset: 3, 4
+  index: -1
+images/images_H/skillA/hit1/hit_000
+  rotate: false
+  xy: 824, 329
+  size: 194, 192
+  orig: 200, 200
+  offset: 3, 4
+  index: -1
+images/images_H/skillA/hit1/hit_001
+  rotate: false
+  xy: 824, 135
+  size: 194, 192
+  orig: 200, 200
+  offset: 3, 4
+  index: -1
+images/images_H/skillA/hit1/hit_011
+  rotate: false
+  xy: 473, 543
+  size: 176, 131
+  orig: 200, 200
+  offset: 14, 33
+  index: -1
+images/images_H/skillA/hit2/hit_down_003
+  rotate: false
+  xy: 466, 676
+  size: 184, 47
+  orig: 250, 100
+  offset: 28, 21
+  index: -1
+images/images_H/skillA/hit2/hit_down_007
+  rotate: false
+  xy: 39, 151
+  size: 187, 53
+  orig: 250, 100
+  offset: 28, 18
+  index: -1
+images/images_H/skillA/hit2/hit_up_000
+  rotate: true
+  xy: 695, 6
+  size: 207, 127
+  orig: 250, 200
+  offset: 29, 19
+  index: -1
+images/images_H/skillA/hit2/hit_up_003
+  rotate: false
+  xy: 694, 887
+  size: 214, 135
+  orig: 250, 200
+  offset: 25, 23
+  index: -1
+images/images_H/skillA/hit2/hit_up_011
+  rotate: false
+  xy: 2, 4
+  size: 226, 132
+  orig: 250, 200
+  offset: 17, 26
+  index: -1
+images/images_H/skillA/jiguang/jiguang_000
+  rotate: false
+  xy: 466, 725
+  size: 44, 297
+  orig: 150, 500
+  offset: 53, 202
+  index: -1
+images/images_H/skillA/jiguang/jiguang_006
+  rotate: false
+  xy: 2, 558
+  size: 27, 464
+  orig: 150, 500
+  offset: 62, 35
+  index: -1
+images/images_H/skillA/jiguang/jiguang_012
+  rotate: false
+  xy: 2, 138
+  size: 35, 418
+  orig: 150, 500
+  offset: 57, 81
+  index: -1
+images/images_H/skillA/saoguang/saoguang_008
+  rotate: false
+  xy: 96, 559
+  size: 82, 111
+  orig: 105, 133
+  offset: 10, 4
+  index: -1
+images/images_H/skillA/saoguang/saoguang_010
+  rotate: true
+  xy: 910, 940
+  size: 82, 103
+  orig: 105, 133
+  offset: 10, 24
+  index: -1
+images/images_H/skillA/shifa/shifa_001
+  rotate: true
+  xy: 282, 676
+  size: 346, 182
+  orig: 350, 200
+  offset: 0, 5
+  index: -1
+images/images_H/skillA/shifa/shifa_002
+  rotate: true
+  xy: 241, 209
+  size: 348, 196
+  orig: 350, 200
+  offset: 0, 0
+  index: -1
+images/images_H/skillA/shifa/shifa_006
+  rotate: true
+  xy: 80, 672
+  size: 350, 200
+  orig: 350, 200
+  offset: 0, 0
+  index: -1
+images/images_H/skillA/shifa/shifa_008
+  rotate: true
+  xy: 39, 206
+  size: 350, 200
+  orig: 350, 200
+  offset: 0, 0
+  index: -1
+images/images_H/skillA/shifa/shifa_010
+  rotate: false
+  xy: 905, 535
+  size: 117, 188
+  orig: 350, 200
+  offset: 133, 4
+  index: -1
+images/images_H/skillA/shifa1/shifa_004
+  rotate: false
+  xy: 512, 726
+  size: 89, 68
+  orig: 125, 83
+  offset: 7, 11
+  index: -1
+images/images_H/skillA/shifa1/shifa_006
+  rotate: true
+  xy: 180, 559
+  size: 111, 78
+  orig: 125, 83
+  offset: 6, 1
+  index: -1
+images/images_H/skillA/shifa2/shifa_001
+  rotate: true
+  xy: 914, 15
+  size: 118, 71
+  orig: 164, 185
+  offset: 26, 114
+  index: -1
+images/images_H/skillA/shifa2/shifa_003
+  rotate: true
+  xy: 439, 211
+  size: 140, 139
+  orig: 164, 185
+  offset: 24, 46
+  index: -1
+images/images_H/skillA/shifa2/shifa_007
+  rotate: false
+  xy: 580, 215
+  size: 164, 136
+  orig: 164, 185
+  offset: 0, 0
+  index: -1
+images/images_H/skillA/shifa3/shifa3_003
+  rotate: true
+  xy: 651, 357
+  size: 164, 113
+  orig: 203, 131
+  offset: 0, 18
+  index: -1
+images/images_H/skillA/shifa3/shifa3_005
+  rotate: true
+  xy: 280, 9
+  size: 198, 128
+  orig: 203, 131
+  offset: 5, 1
+  index: -1
+images/images_H/skillA/shifa3/shifa3_007
+  rotate: true
+  xy: 824, 2
+  size: 131, 88
+  orig: 203, 131
+  offset: 72, 0
+  index: -1
+images/images_H/skillA/shifa3/shifa3_009
+  rotate: false
+  xy: 31, 558
+  size: 63, 67
+  orig: 203, 131
+  offset: 140, 0
+  index: -1
+images/images_H/skillA/shifa4/shifa4_002
+  rotate: true
+  xy: 910, 725
+  size: 213, 100
+  orig: 235, 198
+  offset: 1, 90
+  index: -1
+images/images_H/skillA/shifa4/shifa4_004
+  rotate: true
+  xy: 512, 796
+  size: 226, 180
+  orig: 235, 198
+  offset: 4, 12
+  index: -1
+images/images_H/skillA/shifa4/shifa4_005
+  rotate: false
+  xy: 439, 353
+  size: 210, 188
+  orig: 235, 198
+  offset: 23, 0
+  index: -1
+images/images_H/skillA/shifa4/shifa4_009
+  rotate: true
+  xy: 375, 559
+  size: 115, 96
+  orig: 235, 198
+  offset: 101, 0
+  index: -1
+images/images_H/skillA/zidan/zidan_000
+  rotate: false
+  xy: 694, 796
+  size: 211, 89
+  orig: 211, 89
+  offset: 0, 0
+  index: -1
+images/images_H/skillA/zidan/zidan_002
+  rotate: false
+  xy: 692, 705
+  size: 211, 89
+  orig: 211, 89
+  offset: 0, 0
+  index: -1
+images/images_H/skillA/zidan/zidan_004
+  rotate: false
+  xy: 652, 614
+  size: 211, 89
+  orig: 211, 89
+  offset: 0, 0
+  index: -1
+images/images_H/skillA/zidan/zidan_006
+  rotate: false
+  xy: 651, 523
+  size: 211, 89
+  orig: 211, 89
+  offset: 0, 0
+  index: -1
+images/images_H/skillA/zidan/zidan_008
+  rotate: true
+  xy: 604, 2
+  size: 211, 89
+  orig: 211, 89
+  offset: 0, 0
+  index: -1
+
+effects_12401_skillA3.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/images_H/skillA/beijing/beijing_003
+  rotate: true
+  xy: 198, 325
+  size: 184, 186
+  orig: 300, 300
+  offset: 58, 61
+  index: -1
+images/images_H/skillA/dimian/dimian_006
+  rotate: false
+  xy: 260, 64
+  size: 87, 79
+  orig: 128, 105
+  offset: 31, 17
+  index: -1
+images/images_H/skillA/hit1/hit_003
+  rotate: false
+  xy: 2, 317
+  size: 194, 192
+  orig: 200, 200
+  offset: 3, 4
+  index: -1
+images/images_H/skillA/hit1/hit_005
+  rotate: false
+  xy: 198, 145
+  size: 182, 178
+  orig: 200, 200
+  offset: 7, 11
+  index: -1
+images/images_H/skillA/hit1/hit_007
+  rotate: false
+  xy: 2, 8
+  size: 172, 135
+  orig: 200, 200
+  offset: 15, 34
+  index: -1
+images/images_H/skillA/hit2/hit_down_001
+  rotate: true
+  xy: 438, 325
+  size: 184, 48
+  orig: 250, 100
+  offset: 28, 21
+  index: -1
+images/images_H/skillA/hit2/hit_down_005
+  rotate: true
+  xy: 386, 325
+  size: 184, 50
+  orig: 250, 100
+  offset: 28, 20
+  index: -1
+images/images_H/skillA/hit2/hit_up_001
+  rotate: true
+  xy: 382, 116
+  size: 207, 125
+  orig: 250, 200
+  offset: 29, 21
+  index: -1
+images/images_H/skillA/saoguang/saoguang_004
+  rotate: false
+  xy: 430, 54
+  size: 79, 60
+  orig: 105, 133
+  offset: 10, 1
+  index: -1
+images/images_H/skillA/saoguang/saoguang_006
+  rotate: false
+  xy: 176, 56
+  size: 82, 87
+  orig: 105, 133
+  offset: 10, 1
+  index: -1
+images/images_H/skillA/saoguang/saoguang_012
+  rotate: true
+  xy: 351, 34
+  size: 80, 77
+  orig: 105, 133
+  offset: 12, 50
+  index: -1
+images/images_H/skillA/shifa1/shifa_010
+  rotate: false
+  xy: 260, 2
+  size: 89, 60
+  orig: 125, 83
+  offset: 34, 0
+  index: -1
+images/images_H/skillA/shifa2/shifa_005
+  rotate: true
+  xy: 2, 153
+  size: 162, 183
+  orig: 164, 185
+  offset: 2, 0
+  index: -1

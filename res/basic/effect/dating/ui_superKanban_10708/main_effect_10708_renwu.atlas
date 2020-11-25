@@ -1,0 +1,96 @@
+
+main_effect_10708_renwu.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+meimao
+  rotate: false
+  xy: 129, 48
+  size: 119, 25
+  orig: 123, 29
+  offset: 2, 2
+  index: -1
+shenti
+  rotate: false
+  xy: 2, 228
+  size: 380, 789
+  orig: 384, 793
+  offset: 2, 2
+  index: -1
+shou1
+  rotate: true
+  xy: 712, 611
+  size: 406, 281
+  orig: 410, 285
+  offset: 2, 2
+  index: -1
+shou2
+  rotate: true
+  xy: 2, 75
+  size: 151, 708
+  orig: 155, 712
+  offset: 2, 2
+  index: -1
+tou
+  rotate: true
+  xy: 384, 826
+  size: 191, 208
+  orig: 195, 212
+  offset: 2, 2
+  index: -1
+yanjing
+  rotate: false
+  xy: 2, 20
+  size: 125, 53
+  orig: 129, 57
+  offset: 2, 2
+  index: -1
+yanjing1
+  rotate: false
+  xy: 2, 2
+  size: 75, 16
+  orig: 79, 20
+  offset: 2, 2
+  index: -1
+yifu1
+  rotate: false
+  xy: 384, 283
+  size: 542, 326
+  orig: 546, 330
+  offset: 2, 2
+  index: -1
+yifu2
+  rotate: false
+  xy: 712, 19
+  size: 178, 262
+  orig: 182, 266
+  offset: 2, 2
+  index: -1
+
+main_effect_10708_renwu2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+toufa1
+  rotate: false
+  xy: 357, 346
+  size: 417, 511
+  orig: 421, 515
+  offset: 2, 2
+  index: -1
+toufa2
+  rotate: false
+  xy: 2, 118
+  size: 353, 739
+  orig: 355, 741
+  offset: 2, 0
+  index: -1
+tui
+  rotate: true
+  xy: 357, 15
+  size: 329, 500
+  orig: 333, 504
+  offset: 2, 2
+  index: -1

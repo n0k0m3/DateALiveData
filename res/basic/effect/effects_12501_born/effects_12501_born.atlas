@@ -1,0 +1,194 @@
+
+effects_12501_born.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/born/ren/ren_10
+  rotate: true
+  xy: 387, 2
+  size: 200, 233
+  orig: 200, 240
+  offset: 0, 7
+  index: -1
+images/effects/born/ren/ren_12
+  rotate: true
+  xy: 204, 400
+  size: 200, 240
+  orig: 200, 240
+  offset: 0, 0
+  index: -1
+images/effects/born/ren/ren_14
+  rotate: true
+  xy: 756, 602
+  size: 200, 240
+  orig: 200, 240
+  offset: 0, 0
+  index: -1
+images/effects/born/ren/ren_16
+  rotate: true
+  xy: 756, 400
+  size: 200, 240
+  orig: 200, 240
+  offset: 0, 0
+  index: -1
+images/effects/born/ren/ren_18
+  rotate: true
+  xy: 513, 384
+  size: 200, 240
+  orig: 200, 240
+  offset: 0, 0
+  index: -1
+images/effects/born/ren/ren_6
+  rotate: true
+  xy: 204, 204
+  size: 178, 209
+  orig: 200, 240
+  offset: 22, 18
+  index: -1
+images/effects/born/ren/ren_8
+  rotate: true
+  xy: 415, 207
+  size: 175, 207
+  orig: 200, 240
+  offset: 25, 20
+  index: -1
+images/effects/born/ren1/ren_0
+  rotate: false
+  xy: 2, 701
+  size: 200, 319
+  orig: 200, 320
+  offset: 0, 0
+  index: -1
+images/effects/born/ren1/ren_10
+  rotate: true
+  xy: 755, 200
+  size: 198, 240
+  orig: 200, 320
+  offset: 0, 62
+  index: -1
+images/effects/born/ren1/ren_2
+  rotate: false
+  xy: 2, 380
+  size: 200, 319
+  orig: 200, 320
+  offset: 0, 0
+  index: -1
+images/effects/born/ren1/ren_4
+  rotate: false
+  xy: 2, 61
+  size: 200, 317
+  orig: 200, 320
+  offset: 0, 2
+  index: -1
+images/effects/born/ren1/ren_6
+  rotate: true
+  xy: 204, 820
+  size: 200, 314
+  orig: 200, 320
+  offset: 0, 5
+  index: -1
+images/effects/born/yuan/yuan_17
+  rotate: false
+  xy: 762, 804
+  size: 240, 216
+  orig: 240, 224
+  offset: 0, 0
+  index: -1
+images/effects/born/yuan/yuan_25
+  rotate: false
+  xy: 204, 602
+  size: 240, 216
+  orig: 240, 224
+  offset: 0, 0
+  index: -1
+images/effects/born/yuan/yuan_29
+  rotate: false
+  xy: 514, 586
+  size: 240, 216
+  orig: 240, 224
+  offset: 0, 0
+  index: -1
+images/effects/born/yuan/yuan_3
+  rotate: true
+  xy: 624, 2
+  size: 240, 125
+  orig: 240, 224
+  offset: 0, 0
+  index: -1
+images/effects/born/yuan/yuan_5
+  rotate: false
+  xy: 751, 25
+  size: 240, 173
+  orig: 240, 224
+  offset: 0, 0
+  index: -1
+images/effects/born/yuan/yuan_9
+  rotate: false
+  xy: 520, 804
+  size: 240, 216
+  orig: 240, 224
+  offset: 0, 0
+  index: -1
+images/effects/skillF/dimian/dimian_0
+  rotate: false
+  xy: 446, 755
+  size: 66, 63
+  orig: 200, 200
+  offset: 67, 69
+  index: -1
+images/effects/skillF/dimian/dimian_2
+  rotate: true
+  xy: 624, 244
+  size: 138, 128
+  orig: 200, 200
+  offset: 31, 35
+  index: -1
+images/effects/skillF/dimian/dimian_8
+  rotate: true
+  xy: 204, 13
+  size: 185, 181
+  orig: 200, 200
+  offset: 7, 9
+  index: -1
+images/effects/skillF/guangxian_39
+  rotate: true
+  xy: 446, 554
+  size: 199, 65
+  orig: 231, 101
+  offset: 17, 14
+  index: -1
+
+effects_12501_born2.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/born/yuan/yuan_1
+  rotate: true
+  xy: 176, 8
+  size: 235, 118
+  orig: 240, 224
+  offset: 3, 0
+  index: -1
+images/effects/skillA/glow_1
+  rotate: false
+  xy: 296, 2
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+images/effects/skillF/dimian/dimian_4
+  rotate: true
+  xy: 296, 84
+  size: 159, 162
+  orig: 200, 200
+  offset: 20, 19
+  index: -1
+images/effects/skillF/dimian/dimian_6
+  rotate: false
+  xy: 2, 71
+  size: 172, 172
+  orig: 200, 200
+  offset: 14, 14
+  index: -1

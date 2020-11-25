@@ -1,0 +1,63 @@
+{
+"skeleton": { "hash": "e30cN46f8btKymM3ILwdWlJdtkk", "spine": "2.1.27", "width": 0, "height": 0, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "effect", "parent": "root" },
+	{ "name": "bone", "parent": "effect" }
+],
+"slots": [
+	{ "name": "images/changemap/changemap_000", "bone": "bone", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"images/changemap/changemap_000": {
+			"images/changemap/changemap_001": { "width": 466, "height": 233 },
+			"images/changemap/changemap_003": { "width": 466, "height": 233 },
+			"images/changemap/changemap_005": { "width": 466, "height": 233 },
+			"images/changemap/changemap_007": { "width": 466, "height": 233 },
+			"images/changemap/changemap_009": { "width": 466, "height": 233 },
+			"images/changemap/changemap_011": { "width": 466, "height": 233 },
+			"images/changemap/changemap_013": { "width": 466, "height": 233 },
+			"images/changemap/changemap_015": { "width": 466, "height": 233 },
+			"images/changemap/changemap_017": { "width": 466, "height": 233 },
+			"images/changemap/changemap_019": { "width": 466, "height": 233 },
+			"images/changemap/changemap_021": { "width": 466, "height": 233 },
+			"images/changemap/changemap_023": { "width": 466, "height": 233 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"images/changemap/changemap_000": {
+				"attachment": [
+					{ "time": 0.0333, "name": "images/changemap/changemap_001" },
+					{ "time": 0.1, "name": "images/changemap/changemap_003" },
+					{ "time": 0.1666, "name": "images/changemap/changemap_005" },
+					{ "time": 0.2333, "name": "images/changemap/changemap_007" },
+					{ "time": 0.3, "name": "images/changemap/changemap_009" },
+					{ "time": 0.3666, "name": "images/changemap/changemap_011" },
+					{ "time": 0.4333, "name": "images/changemap/changemap_013" },
+					{ "time": 0.5, "name": "images/changemap/changemap_015" },
+					{ "time": 0.5666, "name": "images/changemap/changemap_017" },
+					{ "time": 0.6333, "name": "images/changemap/changemap_019" },
+					{ "time": 0.7, "name": "images/changemap/changemap_021" },
+					{ "time": 0.7666, "name": "images/changemap/changemap_023" },
+					{ "time": 1, "name": null }
+				],
+				"color": [
+					{ "time": 0.7666, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			}
+		}
+	}
+}
+}

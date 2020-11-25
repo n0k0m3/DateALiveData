@@ -1,0 +1,62 @@
+
+effects_2020wansheng_jiemian1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/deng1_000
+  rotate: false
+  xy: 2, 233
+  size: 173, 90
+  orig: 241, 157
+  offset: 38, 27
+  index: -1
+images/deng2_000
+  rotate: false
+  xy: 2, 157
+  size: 99, 74
+  orig: 104, 94
+  offset: 0, 8
+  index: -1
+images/deng3_000
+  rotate: true
+  xy: 638, 671
+  size: 93, 126
+  orig: 111, 138
+  offset: 5, 6
+  index: -1
+images/deng4_000
+  rotate: true
+  xy: 306, 458
+  size: 56, 53
+  orig: 69, 63
+  offset: 5, 6
+  index: -1
+images/deng5_000
+  rotate: false
+  xy: 361, 540
+  size: 132, 122
+  orig: 132, 122
+  offset: 0, 0
+  index: -1
+images/yuan_000
+  rotate: false
+  xy: 2, 325
+  size: 302, 189
+  orig: 518, 349
+  offset: 103, 81
+  index: -1
+images/yuanglow_000
+  rotate: false
+  xy: 2, 516
+  size: 357, 248
+  orig: 518, 349
+  offset: 76, 51
+  index: -1
+images/yyyyy
+  rotate: true
+  xy: 361, 664
+  size: 100, 275
+  orig: 100, 275
+  offset: 0, 0
+  index: -1

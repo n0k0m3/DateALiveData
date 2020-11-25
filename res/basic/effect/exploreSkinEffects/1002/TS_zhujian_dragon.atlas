@@ -1,0 +1,905 @@
+
+TS_zhujian_dragon.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/deng/deng2_000
+  rotate: true
+  xy: 993, 68
+  size: 34, 28
+  orig: 34, 28
+  offset: 0, 0
+  index: -1
+effects/deng/deng3_000
+  rotate: true
+  xy: 847, 522
+  size: 53, 39
+  orig: 53, 39
+  offset: 0, 0
+  index: -1
+effects/deng/deng4_000
+  rotate: true
+  xy: 847, 472
+  size: 48, 36
+  orig: 48, 36
+  offset: 0, 0
+  index: -1
+effects/deng/deng5_000
+  rotate: true
+  xy: 847, 577
+  size: 56, 41
+  orig: 56, 41
+  offset: 0, 0
+  index: -1
+effects/deng/deng6_000
+  rotate: true
+  xy: 993, 3
+  size: 35, 22
+  orig: 35, 22
+  offset: 0, 0
+  index: -1
+effects/deng/deng9_000
+  rotate: false
+  xy: 993, 40
+  size: 24, 26
+  orig: 24, 26
+  offset: 0, 0
+  index: -1
+effects/xian/xian_001
+  rotate: false
+  xy: 2, 2
+  size: 119, 91
+  orig: 119, 91
+  offset: 0, 0
+  index: -1
+effects/xian/xian_002
+  rotate: false
+  xy: 123, 2
+  size: 119, 91
+  orig: 119, 91
+  offset: 0, 0
+  index: -1
+effects/xian/xian_003
+  rotate: false
+  xy: 244, 2
+  size: 119, 91
+  orig: 119, 91
+  offset: 0, 0
+  index: -1
+effects/xian/xian_004
+  rotate: false
+  xy: 365, 2
+  size: 119, 91
+  orig: 119, 91
+  offset: 0, 0
+  index: -1
+effects/xian/xian_005
+  rotate: false
+  xy: 486, 2
+  size: 119, 91
+  orig: 119, 91
+  offset: 0, 0
+  index: -1
+effects/xian/xian_006
+  rotate: false
+  xy: 607, 2
+  size: 119, 91
+  orig: 119, 91
+  offset: 0, 0
+  index: -1
+effects/xian/xian_007
+  rotate: false
+  xy: 728, 2
+  size: 119, 91
+  orig: 119, 91
+  offset: 0, 0
+  index: -1
+effects/xian2/xian2_081
+  rotate: true
+  xy: 859, 287
+  size: 181, 162
+  orig: 181, 162
+  offset: 0, 0
+  index: -1
+effects/xian2/xian2_082
+  rotate: true
+  xy: 859, 104
+  size: 181, 162
+  orig: 181, 162
+  offset: 0, 0
+  index: -1
+effects/xian2/xian2_083
+  rotate: false
+  xy: 2, 471
+  size: 181, 162
+  orig: 181, 162
+  offset: 0, 0
+  index: -1
+effects/xian2/xian2_084
+  rotate: false
+  xy: 185, 471
+  size: 181, 162
+  orig: 181, 162
+  offset: 0, 0
+  index: -1
+effects/xian2/xian2_085
+  rotate: false
+  xy: 368, 471
+  size: 181, 162
+  orig: 181, 162
+  offset: 0, 0
+  index: -1
+effects/xian2/xian2_086
+  rotate: false
+  xy: 551, 471
+  size: 181, 162
+  orig: 181, 162
+  offset: 0, 0
+  index: -1
+l19
+  rotate: false
+  xy: 2, 635
+  size: 894, 386
+  orig: 894, 386
+  offset: 0, 0
+  index: -1
+l20
+  rotate: false
+  xy: 2, 95
+  size: 855, 373
+  orig: 855, 373
+  offset: 0, 0
+  index: -1
+l23
+  rotate: false
+  xy: 859, 3
+  size: 132, 99
+  orig: 132, 99
+  offset: 0, 0
+  index: -1
+l31
+  rotate: true
+  xy: 734, 492
+  size: 141, 111
+  orig: 141, 111
+  offset: 0, 0
+  index: -1
+l6
+  rotate: true
+  xy: 898, 470
+  size: 414, 118
+  orig: 414, 118
+  offset: 0, 0
+  index: -1
+l9
+  rotate: false
+  xy: 898, 886
+  size: 119, 135
+  orig: 119, 135
+  offset: 0, 0
+  index: -1
+
+TS_zhujian_dragon2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/deng/deng1_000
+  rotate: true
+  xy: 917, 26
+  size: 39, 38
+  orig: 39, 38
+  offset: 0, 0
+  index: -1
+effects/deng/deng7_000
+  rotate: true
+  xy: 970, 775
+  size: 50, 52
+  orig: 50, 52
+  offset: 0, 0
+  index: -1
+effects/deng/deng8_000
+  rotate: false
+  xy: 959, 438
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+effects/xian/xian_008
+  rotate: true
+  xy: 917, 309
+  size: 119, 91
+  orig: 119, 91
+  offset: 0, 0
+  index: -1
+effects/xian/xian_009
+  rotate: true
+  xy: 917, 188
+  size: 119, 91
+  orig: 119, 91
+  offset: 0, 0
+  index: -1
+effects/xian/xian_010
+  rotate: true
+  xy: 917, 67
+  size: 119, 91
+  orig: 119, 91
+  offset: 0, 0
+  index: -1
+effects/xian1/xian1_003
+  rotate: true
+  xy: 755, 835
+  size: 187, 40
+  orig: 187, 40
+  offset: 0, 0
+  index: -1
+effects/xian1/xian1_004
+  rotate: true
+  xy: 797, 835
+  size: 187, 40
+  orig: 187, 40
+  offset: 0, 0
+  index: -1
+effects/xian1/xian1_005
+  rotate: true
+  xy: 970, 586
+  size: 187, 40
+  orig: 187, 40
+  offset: 0, 0
+  index: -1
+effects/xian1/xian1_006
+  rotate: true
+  xy: 917, 430
+  size: 187, 40
+  orig: 187, 40
+  offset: 0, 0
+  index: -1
+l13
+  rotate: false
+  xy: 755, 619
+  size: 213, 206
+  orig: 213, 206
+  offset: 0, 0
+  index: -1
+l17
+  rotate: false
+  xy: 839, 944
+  size: 70, 78
+  orig: 70, 78
+  offset: 0, 0
+  index: -1
+l18
+  rotate: true
+  xy: 917, 827
+  size: 195, 96
+  orig: 195, 96
+  offset: 0, 0
+  index: -1
+l21
+  rotate: true
+  xy: 959, 464
+  size: 120, 55
+  orig: 120, 55
+  offset: 0, 0
+  index: -1
+l25
+  rotate: true
+  xy: 283, 5
+  size: 612, 279
+  orig: 612, 279
+  offset: 0, 0
+  index: -1
+l27
+  rotate: false
+  xy: 2, 619
+  size: 751, 403
+  orig: 751, 403
+  offset: 0, 0
+  index: -1
+l3
+  rotate: true
+  xy: 564, 6
+  size: 611, 351
+  orig: 611, 351
+  offset: 0, 0
+  index: -1
+l7
+  rotate: true
+  xy: 2, 5
+  size: 612, 279
+  orig: 612, 279
+  offset: 0, 0
+  index: -1
+
+TS_zhujian_dragon3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/xian1/xian1_007
+  rotate: false
+  xy: 712, 267
+  size: 187, 40
+  orig: 187, 40
+  offset: 0, 0
+  index: -1
+effects/xian2/xian2_087
+  rotate: true
+  xy: 2, 483
+  size: 181, 162
+  orig: 181, 162
+  offset: 0, 0
+  index: -1
+effects/xian2/xian2_088
+  rotate: true
+  xy: 166, 483
+  size: 181, 162
+  orig: 181, 162
+  offset: 0, 0
+  index: -1
+effects/xian2/xian2_089
+  rotate: true
+  xy: 330, 483
+  size: 181, 162
+  orig: 181, 162
+  offset: 0, 0
+  index: -1
+l11
+  rotate: false
+  xy: 278, 248
+  size: 432, 233
+  orig: 432, 233
+  offset: 0, 0
+  index: -1
+l14
+  rotate: true
+  xy: 491, 6
+  size: 240, 165
+  orig: 240, 165
+  offset: 0, 0
+  index: -1
+l15
+  rotate: false
+  xy: 494, 517
+  size: 229, 147
+  orig: 229, 147
+  offset: 0, 0
+  index: -1
+l22
+  rotate: true
+  xy: 2, 16
+  size: 462, 274
+  orig: 462, 274
+  offset: 0, 0
+  index: -1
+l24
+  rotate: false
+  xy: 278, 3
+  size: 211, 243
+  orig: 211, 243
+  offset: 0, 0
+  index: -1
+l28
+  rotate: false
+  xy: 712, 309
+  size: 308, 169
+  orig: 308, 169
+  offset: 0, 0
+  index: -1
+l29
+  rotate: false
+  xy: 658, 12
+  size: 347, 234
+  orig: 347, 234
+  offset: 0, 0
+  index: -1
+l30
+  rotate: false
+  xy: 2, 666
+  size: 721, 354
+  orig: 721, 354
+  offset: 0, 0
+  index: -1
+l8
+  rotate: true
+  xy: 725, 480
+  size: 540, 291
+  orig: 540, 291
+  offset: 0, 0
+  index: -1
+
+TS_zhujian_dragon4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/xian/xian_011
+  rotate: true
+  xy: 869, 335
+  size: 119, 91
+  orig: 119, 91
+  offset: 0, 0
+  index: -1
+effects/xian/xian_012
+  rotate: false
+  xy: 880, 53
+  size: 119, 91
+  orig: 119, 91
+  offset: 0, 0
+  index: -1
+effects/xian1/xian1_008
+  rotate: true
+  xy: 973, 826
+  size: 187, 40
+  orig: 187, 40
+  offset: 0, 0
+  index: -1
+effects/xian1/xian1_009
+  rotate: true
+  xy: 973, 637
+  size: 187, 40
+  orig: 187, 40
+  offset: 0, 0
+  index: -1
+effects/xian1/xian1_010
+  rotate: false
+  xy: 565, 9
+  size: 187, 40
+  orig: 187, 40
+  offset: 0, 0
+  index: -1
+effects/xian1/xian1_011
+  rotate: true
+  xy: 838, 99
+  size: 187, 40
+  orig: 187, 40
+  offset: 0, 0
+  index: -1
+effects/xian1/xian1_012
+  rotate: true
+  xy: 869, 456
+  size: 187, 40
+  orig: 187, 40
+  offset: 0, 0
+  index: -1
+effects/xian1/xian1_013
+  rotate: true
+  xy: 911, 456
+  size: 187, 40
+  orig: 187, 40
+  offset: 0, 0
+  index: -1
+effects/xian1/xian1_014
+  rotate: true
+  xy: 880, 146
+  size: 187, 40
+  orig: 187, 40
+  offset: 0, 0
+  index: -1
+effects/xian1/xian1_015
+  rotate: true
+  xy: 922, 146
+  size: 187, 40
+  orig: 187, 40
+  offset: 0, 0
+  index: -1
+effects/xian1/xian1_016
+  rotate: false
+  xy: 754, 9
+  size: 187, 40
+  orig: 187, 40
+  offset: 0, 0
+  index: -1
+effects/xian1/xian1_017
+  rotate: true
+  xy: 962, 448
+  size: 187, 40
+  orig: 187, 40
+  offset: 0, 0
+  index: -1
+effects/xian1/xian1_018
+  rotate: true
+  xy: 964, 259
+  size: 187, 40
+  orig: 187, 40
+  offset: 0, 0
+  index: -1
+l1
+  rotate: true
+  xy: 710, 288
+  size: 313, 157
+  orig: 313, 157
+  offset: 0, 0
+  index: -1
+l10
+  rotate: true
+  xy: 522, 260
+  size: 291, 186
+  orig: 291, 186
+  offset: 0, 0
+  index: -1
+l12
+  rotate: false
+  xy: 565, 51
+  size: 271, 207
+  orig: 271, 207
+  offset: 0, 0
+  index: -1
+l16
+  rotate: true
+  xy: 2, 19
+  size: 232, 561
+  orig: 232, 561
+  offset: 0, 0
+  index: -1
+l2
+  rotate: true
+  xy: 639, 603
+  size: 410, 223
+  orig: 410, 223
+  offset: 0, 0
+  index: -1
+l26
+  rotate: false
+  xy: 2, 253
+  size: 518, 298
+  orig: 518, 298
+  offset: 0, 0
+  index: -1
+l4
+  rotate: false
+  xy: 2, 553
+  size: 635, 460
+  orig: 635, 460
+  offset: 0, 0
+  index: -1
+l5
+  rotate: true
+  xy: 864, 645
+  size: 368, 107
+  orig: 368, 107
+  offset: 0, 0
+  index: -1
+
+TS_zhujian_dragon5.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/xian/xian_013
+  rotate: false
+  xy: 368, 270
+  size: 119, 91
+  orig: 119, 91
+  offset: 0, 0
+  index: -1
+effects/xian/xian_014
+  rotate: false
+  xy: 734, 556
+  size: 119, 91
+  orig: 119, 91
+  offset: 0, 0
+  index: -1
+effects/xian/xian_015
+  rotate: true
+  xy: 917, 709
+  size: 119, 91
+  orig: 119, 91
+  offset: 0, 0
+  index: -1
+effects/xian/xian_016
+  rotate: true
+  xy: 740, 435
+  size: 119, 91
+  orig: 119, 91
+  offset: 0, 0
+  index: -1
+effects/xian/xian_017
+  rotate: false
+  xy: 740, 342
+  size: 119, 91
+  orig: 119, 91
+  offset: 0, 0
+  index: -1
+effects/xian/xian_018
+  rotate: true
+  xy: 833, 435
+  size: 119, 91
+  orig: 119, 91
+  offset: 0, 0
+  index: -1
+effects/xian/xian_019
+  rotate: false
+  xy: 855, 556
+  size: 119, 91
+  orig: 119, 91
+  offset: 0, 0
+  index: -1
+effects/xian/xian_020
+  rotate: true
+  xy: 926, 435
+  size: 119, 91
+  orig: 119, 91
+  offset: 0, 0
+  index: -1
+effects/xian/xian_021
+  rotate: false
+  xy: 861, 342
+  size: 119, 91
+  orig: 119, 91
+  offset: 0, 0
+  index: -1
+effects/xian/xian_022
+  rotate: false
+  xy: 489, 266
+  size: 119, 91
+  orig: 119, 91
+  offset: 0, 0
+  index: -1
+effects/xian/xian_023
+  rotate: false
+  xy: 610, 266
+  size: 119, 91
+  orig: 119, 91
+  offset: 0, 0
+  index: -1
+effects/xian/xian_024
+  rotate: false
+  xy: 731, 249
+  size: 119, 91
+  orig: 119, 91
+  offset: 0, 0
+  index: -1
+effects/xian/xian_025
+  rotate: false
+  xy: 852, 249
+  size: 119, 91
+  orig: 119, 91
+  offset: 0, 0
+  index: -1
+effects/xian/xian_026
+  rotate: true
+  xy: 374, 149
+  size: 119, 91
+  orig: 119, 91
+  offset: 0, 0
+  index: -1
+effects/xian/xian_027
+  rotate: true
+  xy: 374, 28
+  size: 119, 91
+  orig: 119, 91
+  offset: 0, 0
+  index: -1
+effects/xian/xian_028
+  rotate: false
+  xy: 467, 173
+  size: 119, 91
+  orig: 119, 91
+  offset: 0, 0
+  index: -1
+effects/xian/xian_029
+  rotate: false
+  xy: 467, 80
+  size: 119, 91
+  orig: 119, 91
+  offset: 0, 0
+  index: -1
+effects/xian1/xian1_019
+  rotate: true
+  xy: 917, 830
+  size: 187, 40
+  orig: 187, 40
+  offset: 0, 0
+  index: -1
+effects/xian1/xian1_020
+  rotate: true
+  xy: 959, 830
+  size: 187, 40
+  orig: 187, 40
+  offset: 0, 0
+  index: -1
+effects/xian1/xian1_021
+  rotate: false
+  xy: 185, 157
+  size: 187, 40
+  orig: 187, 40
+  offset: 0, 0
+  index: -1
+effects/xian1/xian1_022
+  rotate: false
+  xy: 185, 115
+  size: 187, 40
+  orig: 187, 40
+  offset: 0, 0
+  index: -1
+effects/xian1/xian1_023
+  rotate: false
+  xy: 185, 73
+  size: 187, 40
+  orig: 187, 40
+  offset: 0, 0
+  index: -1
+effects/xian1/xian1_024
+  rotate: false
+  xy: 185, 31
+  size: 187, 40
+  orig: 187, 40
+  offset: 0, 0
+  index: -1
+effects/xian1/xian1_025
+  rotate: false
+  xy: 551, 485
+  size: 187, 40
+  orig: 187, 40
+  offset: 0, 0
+  index: -1
+effects/xian1/xian1_026
+  rotate: false
+  xy: 551, 443
+  size: 187, 40
+  orig: 187, 40
+  offset: 0, 0
+  index: -1
+effects/xian1/xian1_027
+  rotate: false
+  xy: 551, 401
+  size: 187, 40
+  orig: 187, 40
+  offset: 0, 0
+  index: -1
+effects/xian1/xian1_028
+  rotate: false
+  xy: 551, 359
+  size: 187, 40
+  orig: 187, 40
+  offset: 0, 0
+  index: -1
+effects/xian1/xian1_029
+  rotate: false
+  xy: 734, 649
+  size: 187, 40
+  orig: 187, 40
+  offset: 0, 0
+  index: -1
+effects/xian2/xian2_090
+  rotate: false
+  xy: 2, 855
+  size: 181, 162
+  orig: 181, 162
+  offset: 0, 0
+  index: -1
+effects/xian2/xian2_091
+  rotate: false
+  xy: 2, 691
+  size: 181, 162
+  orig: 181, 162
+  offset: 0, 0
+  index: -1
+effects/xian2/xian2_092
+  rotate: false
+  xy: 185, 855
+  size: 181, 162
+  orig: 181, 162
+  offset: 0, 0
+  index: -1
+effects/xian2/xian2_093
+  rotate: false
+  xy: 2, 527
+  size: 181, 162
+  orig: 181, 162
+  offset: 0, 0
+  index: -1
+effects/xian2/xian2_094
+  rotate: false
+  xy: 185, 691
+  size: 181, 162
+  orig: 181, 162
+  offset: 0, 0
+  index: -1
+effects/xian2/xian2_095
+  rotate: false
+  xy: 368, 855
+  size: 181, 162
+  orig: 181, 162
+  offset: 0, 0
+  index: -1
+effects/xian2/xian2_096
+  rotate: false
+  xy: 2, 363
+  size: 181, 162
+  orig: 181, 162
+  offset: 0, 0
+  index: -1
+effects/xian2/xian2_097
+  rotate: false
+  xy: 185, 527
+  size: 181, 162
+  orig: 181, 162
+  offset: 0, 0
+  index: -1
+effects/xian2/xian2_098
+  rotate: false
+  xy: 368, 691
+  size: 181, 162
+  orig: 181, 162
+  offset: 0, 0
+  index: -1
+effects/xian2/xian2_099
+  rotate: false
+  xy: 551, 855
+  size: 181, 162
+  orig: 181, 162
+  offset: 0, 0
+  index: -1
+effects/xian2/xian2_100
+  rotate: false
+  xy: 2, 199
+  size: 181, 162
+  orig: 181, 162
+  offset: 0, 0
+  index: -1
+effects/xian2/xian2_101
+  rotate: false
+  xy: 185, 363
+  size: 181, 162
+  orig: 181, 162
+  offset: 0, 0
+  index: -1
+effects/xian2/xian2_102
+  rotate: false
+  xy: 368, 527
+  size: 181, 162
+  orig: 181, 162
+  offset: 0, 0
+  index: -1
+effects/xian2/xian2_103
+  rotate: false
+  xy: 551, 691
+  size: 181, 162
+  orig: 181, 162
+  offset: 0, 0
+  index: -1
+effects/xian2/xian2_104
+  rotate: false
+  xy: 734, 855
+  size: 181, 162
+  orig: 181, 162
+  offset: 0, 0
+  index: -1
+effects/xian2/xian2_105
+  rotate: false
+  xy: 2, 35
+  size: 181, 162
+  orig: 181, 162
+  offset: 0, 0
+  index: -1
+effects/xian2/xian2_106
+  rotate: false
+  xy: 185, 199
+  size: 181, 162
+  orig: 181, 162
+  offset: 0, 0
+  index: -1
+effects/xian2/xian2_107
+  rotate: false
+  xy: 368, 363
+  size: 181, 162
+  orig: 181, 162
+  offset: 0, 0
+  index: -1
+effects/xian2/xian2_108
+  rotate: false
+  xy: 551, 527
+  size: 181, 162
+  orig: 181, 162
+  offset: 0, 0
+  index: -1
+effects/xian2/xian2_109
+  rotate: false
+  xy: 734, 691
+  size: 181, 162
+  orig: 181, 162
+  offset: 0, 0
+  index: -1

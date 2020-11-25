@@ -1,0 +1,34 @@
+
+afk_anniutexiao.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+anniutexiao/huan1
+  rotate: false
+  xy: 2, 101
+  size: 128, 130
+  orig: 128, 130
+  offset: 0, 0
+  index: -1
+anniutexiao/huan2
+  rotate: false
+  xy: 152, 261
+  size: 63, 121
+  orig: 63, 121
+  offset: 0, 0
+  index: -1
+anniutexiao/huan3
+  rotate: false
+  xy: 2, 2
+  size: 62, 97
+  orig: 62, 97
+  offset: 0, 0
+  index: -1
+anniutexiao/huan4
+  rotate: false
+  xy: 2, 233
+  size: 148, 149
+  orig: 148, 149
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,97 @@
+
+TS_dianzizhankai.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/TS_zhankai/kuang
+  rotate: false
+  xy: 2, 1484
+  size: 1146, 511
+  orig: 1146, 511
+  offset: 0, 0
+  index: -1
+images/TS_zhankai/wenli/wenli_001
+  rotate: true
+  xy: 2, 50
+  size: 147, 255
+  orig: 624, 317
+  offset: 272, 32
+  index: -1
+images/TS_zhankai/wenli/wenli_003
+  rotate: false
+  xy: 1726, 1740
+  size: 269, 255
+  orig: 624, 317
+  offset: 189, 32
+  index: -1
+images/TS_zhankai/wenli/wenli_005
+  rotate: false
+  xy: 578, 712
+  size: 418, 255
+  orig: 624, 317
+  offset: 122, 32
+  index: -1
+images/TS_zhankai/wenli/wenli_007
+  rotate: false
+  xy: 1150, 1482
+  size: 472, 256
+  orig: 624, 317
+  offset: 99, 31
+  index: -1
+images/TS_zhankai/wenli/wenli_009
+  rotate: false
+  xy: 578, 969
+  size: 525, 256
+  orig: 624, 317
+  offset: 59, 31
+  index: -1
+images/TS_zhankai/wenli/wenli_011
+  rotate: false
+  xy: 578, 1227
+  size: 566, 255
+  orig: 624, 317
+  offset: 33, 32
+  index: -1
+images/TS_zhankai/wenli/wenli_013
+  rotate: false
+  xy: 2, 1227
+  size: 574, 255
+  orig: 624, 317
+  offset: 25, 32
+  index: -1
+images/TS_zhankai/wenli/wenli_015
+  rotate: false
+  xy: 1150, 1740
+  size: 574, 255
+  orig: 624, 317
+  offset: 25, 32
+  index: -1
+images/TS_zhankai/wenli/wenli_017
+  rotate: false
+  xy: 2, 970
+  size: 574, 255
+  orig: 624, 317
+  offset: 25, 32
+  index: -1
+images/TS_zhankai/wenli/wenli_018
+  rotate: false
+  xy: 2, 713
+  size: 574, 255
+  orig: 624, 317
+  offset: 25, 32
+  index: -1
+images/TS_zhankai/wenli/wenli_020
+  rotate: false
+  xy: 2, 456
+  size: 561, 255
+  orig: 624, 317
+  offset: 29, 32
+  index: -1
+images/TS_zhankai/wenli/wenli_022
+  rotate: false
+  xy: 2, 199
+  size: 494, 255
+  orig: 624, 317
+  offset: 101, 32
+  index: -1

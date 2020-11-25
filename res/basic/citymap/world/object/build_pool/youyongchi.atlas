@@ -1,0 +1,103 @@
+
+youyongchi.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 675, 899
+  size: 94, 81
+  orig: 94, 81
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 2, 157
+  size: 114, 80
+  orig: 114, 80
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 2, 90
+  size: 79, 65
+  orig: 79, 65
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 2, 239
+  size: 671, 741
+  orig: 671, 741
+  offset: 0, 0
+  index: -1
+shuibwx0001
+  rotate: false
+  xy: 118, 205
+  size: 86, 32
+  orig: 86, 32
+  offset: 0, 0
+  index: -1
+shuibwx0002
+  rotate: false
+  xy: 675, 865
+  size: 86, 32
+  orig: 86, 32
+  offset: 0, 0
+  index: -1
+shuibwx0003
+  rotate: false
+  xy: 771, 948
+  size: 86, 32
+  orig: 86, 32
+  offset: 0, 0
+  index: -1
+shuibwx0004
+  rotate: true
+  xy: 2, 2
+  size: 86, 32
+  orig: 86, 32
+  offset: 0, 0
+  index: -1
+shuibwx0005
+  rotate: false
+  xy: 118, 171
+  size: 86, 32
+  orig: 86, 32
+  offset: 0, 0
+  index: -1
+shuibwx0006
+  rotate: false
+  xy: 206, 205
+  size: 86, 32
+  orig: 86, 32
+  offset: 0, 0
+  index: -1
+shuibwx0007
+  rotate: false
+  xy: 675, 831
+  size: 86, 32
+  orig: 86, 32
+  offset: 0, 0
+  index: -1
+shuibwx0008
+  rotate: false
+  xy: 771, 914
+  size: 86, 32
+  orig: 86, 32
+  offset: 0, 0
+  index: -1
+
+youyongchi2.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+7
+  rotate: false
+  xy: 2, 2
+  size: 676, 461
+  orig: 676, 461
+  offset: 0, 0
+  index: -1

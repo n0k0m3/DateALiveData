@@ -1,0 +1,97 @@
+
+effects_12501_skillG.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillG/xishou_002
+  rotate: false
+  xy: 722, 988
+  size: 97, 27
+  orig: 386, 121
+  offset: 148, 50
+  index: -1
+images/effects/skillG/xishou_004
+  rotate: false
+  xy: 2, 903
+  size: 370, 112
+  orig: 386, 121
+  offset: 16, 3
+  index: -1
+images/effects/skillG/xishou_006
+  rotate: false
+  xy: 2, 804
+  size: 361, 97
+  orig: 386, 121
+  offset: 19, 10
+  index: -1
+images/effects/skillG/xishou_008
+  rotate: true
+  xy: 280, 23
+  size: 304, 79
+  orig: 386, 121
+  offset: 47, 19
+  index: -1
+images/effects/skillG/xishou_010
+  rotate: true
+  xy: 92, 9
+  size: 318, 89
+  orig: 386, 121
+  offset: 36, 15
+  index: -1
+images/effects/skillG/xishou_012
+  rotate: true
+  xy: 183, 17
+  size: 310, 95
+  orig: 386, 121
+  offset: 50, 13
+  index: -1
+images/effects/skillG/xishou_014
+  rotate: false
+  xy: 2, 329
+  size: 324, 96
+  orig: 386, 121
+  offset: 50, 13
+  index: -1
+images/effects/skillG/xishou_016
+  rotate: false
+  xy: 2, 615
+  size: 335, 95
+  orig: 386, 121
+  offset: 47, 14
+  index: -1
+images/effects/skillG/xishou_018
+  rotate: false
+  xy: 2, 520
+  size: 333, 93
+  orig: 386, 121
+  offset: 48, 16
+  index: -1
+images/effects/skillG/xishou_020
+  rotate: false
+  xy: 2, 427
+  size: 332, 91
+  orig: 386, 121
+  offset: 47, 17
+  index: -1
+images/effects/skillG/xishou_022
+  rotate: true
+  xy: 2, 2
+  size: 325, 88
+  orig: 386, 121
+  offset: 47, 18
+  index: -1
+images/effects/skillG/xishou_024
+  rotate: false
+  xy: 2, 712
+  size: 343, 90
+  orig: 386, 121
+  offset: 37, 19
+  index: -1
+images/effects/skillG/xishou_026
+  rotate: false
+  xy: 374, 918
+  size: 346, 97
+  orig: 386, 121
+  offset: 34, 16
+  index: -1

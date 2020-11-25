@@ -1,0 +1,20 @@
+
+afk_kaijiqidong.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+kaijiqidong/paizi
+  rotate: false
+  xy: 2, 69
+  size: 194, 265
+  orig: 194, 265
+  offset: 0, 0
+  index: -1
+kaijiqidong/sanjiaoguang
+  rotate: false
+  xy: 2, 2
+  size: 98, 65
+  orig: 98, 65
+  offset: 0, 0
+  index: -1

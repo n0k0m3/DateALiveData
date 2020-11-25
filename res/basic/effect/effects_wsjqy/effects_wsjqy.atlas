@@ -1,0 +1,363 @@
+
+effects_wsjqy.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/lazhu/lazhu_000
+  rotate: false
+  xy: 513, 301
+  size: 78, 87
+  orig: 102, 100
+  offset: 12, 3
+  index: -1
+images/lazhu/lazhu_001
+  rotate: false
+  xy: 513, 301
+  size: 78, 87
+  orig: 102, 100
+  offset: 12, 3
+  index: -1
+images/lazhu/lazhu_035
+  rotate: false
+  xy: 513, 301
+  size: 78, 87
+  orig: 102, 100
+  offset: 12, 3
+  index: -1
+images/lazhu/lazhu_034
+  rotate: false
+  xy: 513, 301
+  size: 78, 87
+  orig: 102, 100
+  offset: 12, 3
+  index: -1
+images/lazhu/lazhu_002
+  rotate: false
+  xy: 513, 212
+  size: 78, 87
+  orig: 102, 100
+  offset: 12, 3
+  index: -1
+images/lazhu/lazhu_003
+  rotate: false
+  xy: 513, 212
+  size: 78, 87
+  orig: 102, 100
+  offset: 12, 3
+  index: -1
+images/lazhu/lazhu_004
+  rotate: false
+  xy: 589, 523
+  size: 78, 87
+  orig: 102, 100
+  offset: 13, 3
+  index: -1
+images/lazhu/lazhu_005
+  rotate: false
+  xy: 589, 523
+  size: 78, 87
+  orig: 102, 100
+  offset: 13, 3
+  index: -1
+images/lazhu/lazhu_006
+  rotate: false
+  xy: 508, 480
+  size: 79, 87
+  orig: 102, 100
+  offset: 12, 3
+  index: -1
+images/lazhu/lazhu_007
+  rotate: false
+  xy: 508, 480
+  size: 79, 87
+  orig: 102, 100
+  offset: 12, 3
+  index: -1
+images/lazhu/lazhu_008
+  rotate: false
+  xy: 752, 613
+  size: 78, 86
+  orig: 102, 100
+  offset: 12, 3
+  index: -1
+images/lazhu/lazhu_009
+  rotate: false
+  xy: 752, 613
+  size: 78, 86
+  orig: 102, 100
+  offset: 12, 3
+  index: -1
+images/lazhu/lazhu_010
+  rotate: true
+  xy: 286, 91
+  size: 78, 86
+  orig: 102, 100
+  offset: 12, 3
+  index: -1
+images/lazhu/lazhu_011
+  rotate: true
+  xy: 286, 91
+  size: 78, 86
+  orig: 102, 100
+  offset: 12, 3
+  index: -1
+images/lazhu/lazhu_012
+  rotate: false
+  xy: 671, 613
+  size: 79, 86
+  orig: 102, 100
+  offset: 11, 3
+  index: -1
+images/lazhu/lazhu_013
+  rotate: false
+  xy: 671, 613
+  size: 79, 86
+  orig: 102, 100
+  offset: 11, 3
+  index: -1
+images/lazhu/lazhu_014
+  rotate: true
+  xy: 197, 91
+  size: 78, 87
+  orig: 102, 100
+  offset: 12, 3
+  index: -1
+images/lazhu/lazhu_015
+  rotate: true
+  xy: 197, 91
+  size: 78, 87
+  orig: 102, 100
+  offset: 12, 3
+  index: -1
+images/lazhu/lazhu_016
+  rotate: false
+  xy: 508, 569
+  size: 79, 88
+  orig: 102, 100
+  offset: 13, 3
+  index: -1
+images/lazhu/lazhu_017
+  rotate: false
+  xy: 508, 569
+  size: 79, 88
+  orig: 102, 100
+  offset: 13, 3
+  index: -1
+images/lazhu/lazhu_018
+  rotate: false
+  xy: 513, 390
+  size: 78, 88
+  orig: 102, 100
+  offset: 13, 3
+  index: -1
+images/lazhu/lazhu_019
+  rotate: false
+  xy: 513, 390
+  size: 78, 88
+  orig: 102, 100
+  offset: 13, 3
+  index: -1
+images/lazhu/lazhu_020
+  rotate: false
+  xy: 148, 2
+  size: 78, 87
+  orig: 102, 100
+  offset: 12, 3
+  index: -1
+images/lazhu/lazhu_021
+  rotate: false
+  xy: 148, 2
+  size: 78, 87
+  orig: 102, 100
+  offset: 12, 3
+  index: -1
+images/lazhu/lazhu_022
+  rotate: false
+  xy: 455, 117
+  size: 78, 86
+  orig: 102, 100
+  offset: 12, 3
+  index: -1
+images/lazhu/lazhu_023
+  rotate: false
+  xy: 455, 117
+  size: 78, 86
+  orig: 102, 100
+  offset: 12, 3
+  index: -1
+images/lazhu/lazhu_024
+  rotate: false
+  xy: 388, 29
+  size: 78, 86
+  orig: 102, 100
+  offset: 12, 3
+  index: -1
+images/lazhu/lazhu_025
+  rotate: false
+  xy: 388, 29
+  size: 78, 86
+  orig: 102, 100
+  offset: 12, 3
+  index: -1
+images/lazhu/lazhu_026
+  rotate: false
+  xy: 374, 117
+  size: 79, 86
+  orig: 102, 100
+  offset: 11, 3
+  index: -1
+images/lazhu/lazhu_027
+  rotate: false
+  xy: 374, 117
+  size: 79, 86
+  orig: 102, 100
+  offset: 11, 3
+  index: -1
+images/lazhu/lazhu_028
+  rotate: false
+  xy: 589, 612
+  size: 80, 87
+  orig: 102, 100
+  offset: 10, 3
+  index: -1
+images/lazhu/lazhu_029
+  rotate: false
+  xy: 589, 612
+  size: 80, 87
+  orig: 102, 100
+  offset: 10, 3
+  index: -1
+images/lazhu/lazhu_030
+  rotate: false
+  xy: 228, 2
+  size: 78, 87
+  orig: 102, 100
+  offset: 11, 3
+  index: -1
+images/lazhu/lazhu_031
+  rotate: false
+  xy: 228, 2
+  size: 78, 87
+  orig: 102, 100
+  offset: 11, 3
+  index: -1
+images/lazhu/lazhu_032
+  rotate: false
+  xy: 308, 2
+  size: 78, 87
+  orig: 102, 100
+  offset: 11, 3
+  index: -1
+images/lazhu/lazhu_033
+  rotate: false
+  xy: 308, 2
+  size: 78, 87
+  orig: 102, 100
+  offset: 11, 3
+  index: -1
+images/lazhuguang_000
+  rotate: false
+  xy: 873, 924
+  size: 102, 98
+  orig: 102, 100
+  offset: 0, 0
+  index: -1
+images/xian
+  rotate: true
+  xy: 197, 171
+  size: 2, 149
+  orig: 2, 149
+  offset: 0, 0
+  index: -1
+images/you_000
+  rotate: true
+  xy: 264, 820
+  size: 202, 314
+  orig: 202, 314
+  offset: 0, 0
+  index: -1
+images/youchuang_000
+  rotate: true
+  xy: 580, 853
+  size: 169, 291
+  orig: 408, 353
+  offset: 113, 39
+  index: -1
+images/yougui_030
+  rotate: true
+  xy: 2, 56
+  size: 75, 144
+  orig: 408, 353
+  offset: 122, 122
+  index: -1
+images/youshu_000
+  rotate: false
+  xy: 197, 175
+  size: 152, 270
+  orig: 408, 353
+  offset: 127, 52
+  index: -1
+images/zhizhu
+  rotate: false
+  xy: 557, 660
+  size: 30, 39
+  orig: 30, 39
+  offset: 0, 0
+  index: -1
+images/zhong_000
+  rotate: false
+  xy: 2, 455
+  size: 246, 274
+  orig: 246, 274
+  offset: 0, 0
+  index: -1
+images/zhongchuang_000
+  rotate: false
+  xy: 2, 731
+  size: 260, 291
+  orig: 446, 363
+  offset: 87, 49
+  index: -1
+images/zhonggui_030
+  rotate: true
+  xy: 351, 205
+  size: 240, 160
+  orig: 446, 363
+  offset: 98, 64
+  index: -1
+images/zhongshu_000
+  rotate: true
+  xy: 250, 447
+  size: 210, 256
+  orig: 446, 363
+  offset: 94, 77
+  index: -1
+images/zuo_000
+  rotate: false
+  xy: 2, 133
+  size: 193, 320
+  orig: 193, 320
+  offset: 0, 0
+  index: -1
+images/zuochuang_000
+  rotate: true
+  xy: 264, 659
+  size: 159, 291
+  orig: 331, 351
+  offset: 81, 38
+  index: -1
+images/zuogui_031
+  rotate: true
+  xy: 799, 730
+  size: 121, 74
+  orig: 331, 351
+  offset: 114, 52
+  index: -1
+images/zuoshu_000
+  rotate: true
+  xy: 580, 701
+  size: 150, 217
+  orig: 331, 351
+  offset: 82, 100
+  index: -1

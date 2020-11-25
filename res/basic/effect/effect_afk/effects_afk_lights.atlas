@@ -1,0 +1,111 @@
+
+effects_afk_lights.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/lights/lights_001
+  rotate: false
+  xy: 406, 249
+  size: 95, 62
+  orig: 273, 148
+  offset: 16, 14
+  index: -1
+images/lights/lights_003
+  rotate: true
+  xy: 423, 128
+  size: 119, 70
+  orig: 273, 148
+  offset: 16, 14
+  index: -1
+images/lights/lights_005
+  rotate: true
+  xy: 197, 49
+  size: 148, 81
+  orig: 273, 148
+  offset: 16, 14
+  index: -1
+images/lights/lights_007
+  rotate: false
+  xy: 229, 203
+  size: 167, 88
+  orig: 273, 148
+  offset: 16, 14
+  index: -1
+images/lights/lights_009
+  rotate: true
+  xy: 2, 5
+  size: 183, 96
+  orig: 273, 148
+  offset: 16, 14
+  index: -1
+images/lights/lights_011
+  rotate: true
+  xy: 406, 313
+  size: 197, 104
+  orig: 273, 148
+  offset: 17, 14
+  index: -1
+images/lights/lights_013
+  rotate: false
+  xy: 204, 396
+  size: 200, 114
+  orig: 273, 148
+  offset: 23, 15
+  index: -1
+images/lights/lights_015
+  rotate: false
+  xy: 2, 394
+  size: 200, 116
+  orig: 273, 148
+  offset: 49, 20
+  index: -1
+images/lights/lights_017
+  rotate: true
+  xy: 2, 190
+  size: 202, 114
+  orig: 273, 148
+  offset: 54, 23
+  index: -1
+images/lights/lights_019
+  rotate: true
+  xy: 118, 199
+  size: 193, 109
+  orig: 273, 148
+  offset: 74, 28
+  index: -1
+images/lights/lights_021
+  rotate: false
+  xy: 229, 293
+  size: 175, 101
+  orig: 273, 148
+  offset: 92, 36
+  index: -1
+images/lights/lights_023
+  rotate: true
+  xy: 100, 32
+  size: 156, 95
+  orig: 273, 148
+  offset: 111, 42
+  index: -1
+images/lights/lights_025
+  rotate: true
+  xy: 280, 61
+  size: 140, 74
+  orig: 273, 148
+  offset: 127, 62
+  index: -1
+images/lights/lights_027
+  rotate: true
+  xy: 356, 76
+  size: 125, 65
+  orig: 273, 148
+  offset: 142, 64
+  index: -1
+images/lights/lights_029
+  rotate: false
+  xy: 423, 83
+  size: 83, 43
+  orig: 273, 148
+  offset: 184, 73
+  index: -1

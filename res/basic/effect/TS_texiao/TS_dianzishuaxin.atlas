@@ -1,0 +1,157 @@
+
+TS_dianzishuaxin.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/TS_dianzishanxin/zhankai_001
+  rotate: true
+  xy: 2, 144
+  size: 25, 259
+  orig: 618, 326
+  offset: 33, 22
+  index: -1
+images/TS_dianzishanxin/zhankai_003
+  rotate: false
+  xy: 800, 171
+  size: 99, 278
+  orig: 618, 326
+  offset: 33, 11
+  index: -1
+images/TS_dianzishanxin/zhankai_005
+  rotate: false
+  xy: 800, 451
+  size: 216, 282
+  orig: 618, 326
+  offset: 33, 7
+  index: -1
+images/TS_dianzishanxin/zhankai_009
+  rotate: false
+  xy: 564, 735
+  size: 453, 282
+  orig: 618, 326
+  offset: 33, 7
+  index: -1
+images/TS_dianzishanxin/zhankai_013
+  rotate: false
+  xy: 2, 736
+  size: 560, 281
+  orig: 618, 326
+  offset: 32, 8
+  index: -1
+images/TS_dianzishanxin/zhankai_015
+  rotate: true
+  xy: 2, 171
+  size: 563, 272
+  orig: 618, 326
+  offset: 37, 17
+  index: -1
+images/TS_dianzishanxin/zhankai_017
+  rotate: true
+  xy: 276, 167
+  size: 567, 263
+  orig: 618, 326
+  offset: 33, 26
+  index: -1
+images/TS_dianzishanxin/zhankai_019
+  rotate: true
+  xy: 541, 166
+  size: 567, 257
+  orig: 618, 326
+  offset: 33, 32
+  index: -1
+
+TS_dianzishuaxin2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/TS_dianzishanxin/zhankai_007
+  rotate: false
+  xy: 570, 115
+  size: 345, 282
+  orig: 618, 326
+  offset: 33, 7
+  index: -1
+images/TS_dianzishanxin/zhankai_011
+  rotate: true
+  xy: 571, 399
+  size: 516, 281
+  orig: 618, 326
+  offset: 33, 8
+  index: -1
+images/TS_dianzishanxin/zhankai_021
+  rotate: false
+  xy: 2, 658
+  size: 567, 257
+  orig: 618, 326
+  offset: 33, 32
+  index: -1
+images/TS_dianzishanxin/zhankai_023
+  rotate: false
+  xy: 2, 399
+  size: 567, 257
+  orig: 618, 326
+  offset: 33, 32
+  index: -1
+images/TS_dianzishanxin/zhankai_025
+  rotate: false
+  xy: 2, 141
+  size: 566, 256
+  orig: 618, 326
+  offset: 33, 33
+  index: -1
+
+TS_dianzishuaxin3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/TS_dianzishanxin/zhankai_027
+  rotate: false
+  xy: 2, 558
+  size: 565, 256
+  orig: 618, 326
+  offset: 33, 33
+  index: -1
+images/TS_dianzishanxin/zhankai_029
+  rotate: false
+  xy: 2, 300
+  size: 554, 256
+  orig: 618, 326
+  offset: 33, 33
+  index: -1
+images/TS_dianzishanxin/zhankai_031
+  rotate: false
+  xy: 2, 42
+  size: 554, 256
+  orig: 618, 326
+  offset: 33, 33
+  index: -1
+images/TS_dianzishanxin/zhankai_033
+  rotate: true
+  xy: 558, 4
+  size: 552, 256
+  orig: 618, 326
+  offset: 33, 33
+  index: -1
+
+TS_dianzishuaxin4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/TS_dianzishanxin/zhankai_035
+  rotate: false
+  xy: 2, 273
+  size: 527, 256
+  orig: 618, 326
+  offset: 33, 33
+  index: -1
+images/TS_dianzishanxin/zhankai_037
+  rotate: false
+  xy: 2, 15
+  size: 527, 256
+  orig: 618, 326
+  offset: 33, 33
+  index: -1

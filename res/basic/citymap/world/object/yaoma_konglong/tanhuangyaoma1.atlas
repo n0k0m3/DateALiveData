@@ -1,0 +1,27 @@
+
+tanhuangyaoma1.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dizuo
+  rotate: false
+  xy: 165, 72
+  size: 79, 41
+  orig: 79, 41
+  offset: 0, 0
+  index: -1
+konglong
+  rotate: false
+  xy: 2, 2
+  size: 161, 111
+  orig: 161, 111
+  offset: 0, 0
+  index: -1
+tanhuang
+  rotate: false
+  xy: 165, 31
+  size: 25, 39
+  orig: 25, 39
+  offset: 0, 0
+  index: -1

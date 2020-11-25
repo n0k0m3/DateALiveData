@@ -1,0 +1,481 @@
+
+effect_main_12404.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/guang1_060
+  rotate: false
+  xy: 1123, 14
+  size: 177, 377
+  orig: 288, 526
+  offset: 34, 84
+  index: -1
+images/guang2_050
+  rotate: false
+  xy: 2, 856
+  size: 732, 389
+  orig: 732, 389
+  offset: 0, 0
+  index: -1
+images/guang3_067
+  rotate: false
+  xy: 1095, 1240
+  size: 742, 374
+  orig: 742, 374
+  offset: 0, 0
+  index: -1
+images/guang4_000
+  rotate: false
+  xy: 1090, 800
+  size: 525, 438
+  orig: 525, 438
+  offset: 0, 0
+  index: -1
+images/guang5_000
+  rotate: false
+  xy: 2, 1247
+  size: 1091, 799
+  orig: 1091, 799
+  offset: 0, 0
+  index: -1
+images/guang_060
+  rotate: true
+  xy: 1095, 1616
+  size: 430, 800
+  orig: 430, 800
+  offset: 0, 0
+  index: -1
+images/lizi_000
+  rotate: false
+  xy: 1839, 1520
+  size: 36, 39
+  orig: 41, 40
+  offset: 2, 1
+  index: -1
+images/shan/shan_002
+  rotate: false
+  xy: 1839, 1561
+  size: 53, 53
+  orig: 529, 410
+  offset: 209, 221
+  index: -1
+images/shan/shan_003
+  rotate: false
+  xy: 395, 15
+  size: 292, 80
+  orig: 529, 410
+  offset: 86, 274
+  index: -1
+images/shan/shan_004
+  rotate: true
+  xy: 1827, 260
+  size: 246, 185
+  orig: 529, 410
+  offset: 209, 116
+  index: -1
+images/shan/shan_006
+  rotate: false
+  xy: 1344, 101
+  size: 266, 343
+  orig: 529, 410
+  offset: 52, 57
+  index: -1
+images/shan/shan_009
+  rotate: true
+  xy: 2, 57
+  size: 449, 391
+  orig: 529, 410
+  offset: 6, 9
+  index: -1
+images/shan/shan_010
+  rotate: true
+  xy: 721, 98
+  size: 408, 400
+  orig: 529, 410
+  offset: 47, 0
+  index: -1
+images/shan/shan_011
+  rotate: true
+  xy: 395, 97
+  size: 409, 324
+  orig: 529, 410
+  offset: 45, 63
+  index: -1
+images/shan/shan_013
+  rotate: true
+  xy: 736, 879
+  size: 366, 352
+  orig: 529, 410
+  offset: 47, 0
+  index: -1
+images/shan/shan_020
+  rotate: true
+  xy: 1831, 508
+  size: 238, 212
+  orig: 529, 410
+  offset: 130, 89
+  index: -1
+images/shan/shan_021
+  rotate: false
+  xy: 736, 708
+  size: 352, 169
+  orig: 529, 410
+  offset: 103, 52
+  index: -1
+images/shan/shan_023
+  rotate: true
+  xy: 689, 15
+  size: 80, 106
+  orig: 529, 410
+  offset: 315, 63
+  index: -1
+images/shan/shan_024
+  rotate: true
+  xy: 1615, 517
+  size: 106, 211
+  orig: 529, 410
+  offset: 209, 63
+  index: -1
+images/shan1/shan1_039
+  rotate: false
+  xy: 876, 643
+  size: 173, 63
+  orig: 1488, 800
+  offset: 665, 532
+  index: -1
+images/shan1/shan1_041
+  rotate: true
+  xy: 1615, 260
+  size: 255, 210
+  orig: 1488, 800
+  offset: 631, 426
+  index: -1
+images/shan1/shan1_042
+  rotate: true
+  xy: 1837, 962
+  size: 261, 209
+  orig: 1488, 800
+  offset: 623, 426
+  index: -1
+images/shan1/shan1_043
+  rotate: true
+  xy: 1839, 1225
+  size: 293, 207
+  orig: 1488, 800
+  offset: 599, 453
+  index: -1
+images/shan1/shan1_049
+  rotate: false
+  xy: 1090, 625
+  size: 253, 173
+  orig: 1488, 800
+  offset: 634, 453
+  index: -1
+images/shan1/shan1_050
+  rotate: true
+  xy: 1612, 5
+  size: 253, 200
+  orig: 1488, 800
+  offset: 645, 431
+  index: -1
+images/shan1/shan1_052
+  rotate: false
+  xy: 1345, 681
+  size: 270, 117
+  orig: 1488, 800
+  offset: 622, 507
+  index: -1
+images/shan1/shan1_053
+  rotate: false
+  xy: 876, 510
+  size: 253, 113
+  orig: 1488, 800
+  offset: 619, 511
+  index: -1
+images/shan1/shan1_055
+  rotate: true
+  xy: 1897, 1520
+  size: 261, 133
+  orig: 1488, 800
+  offset: 621, 522
+  index: -1
+images/shan1/shan1_057
+  rotate: true
+  xy: 1897, 1783
+  size: 263, 144
+  orig: 1488, 800
+  offset: 621, 516
+  index: -1
+images/shan2/shan2_073
+  rotate: true
+  xy: 1837, 748
+  size: 212, 207
+  orig: 409, 392
+  offset: 40, 84
+  index: -1
+images/shan2/shan2_074
+  rotate: true
+  xy: 1131, 393
+  size: 230, 211
+  orig: 409, 392
+  offset: 41, 72
+  index: -1
+images/shan2/shan2_075
+  rotate: false
+  xy: 1814, 36
+  size: 227, 222
+  orig: 409, 392
+  offset: 28, 84
+  index: -1
+images/shan2/shan2_077
+  rotate: true
+  xy: 347, 508
+  size: 346, 325
+  orig: 409, 392
+  offset: 0, 47
+  index: -1
+images/shan2/shan2_080
+  rotate: true
+  xy: 1617, 893
+  size: 345, 218
+  orig: 409, 392
+  offset: 0, 95
+  index: -1
+images/shan2/shan2_083
+  rotate: true
+  xy: 2, 508
+  size: 346, 343
+  orig: 409, 392
+  offset: 0, 29
+  index: -1
+images/shan2/shan2_086
+  rotate: true
+  xy: 1345, 446
+  size: 233, 268
+  orig: 409, 392
+  offset: 2, 104
+  index: -1
+images/shan2/shan2_087
+  rotate: false
+  xy: 674, 509
+  size: 200, 197
+  orig: 409, 392
+  offset: 24, 115
+  index: -1
+images/shan2/shan2_088
+  rotate: true
+  xy: 1617, 625
+  size: 266, 212
+  orig: 409, 392
+  offset: 28, 92
+  index: -1
+images/xian_035
+  rotate: true
+  xy: 2, 4
+  size: 51, 174
+  orig: 51, 174
+  offset: 0, 0
+  index: -1
+
+effect_main_124042.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/shan/shan_005
+  rotate: true
+  xy: 2, 103
+  size: 381, 298
+  orig: 529, 410
+  offset: 74, 0
+  index: -1
+images/shan/shan_007
+  rotate: false
+  xy: 2, 884
+  size: 395, 380
+  orig: 529, 410
+  offset: 60, 0
+  index: -1
+images/shan/shan_008
+  rotate: false
+  xy: 2, 1266
+  size: 405, 381
+  orig: 529, 410
+  offset: 50, 0
+  index: -1
+images/shan/shan_012
+  rotate: false
+  xy: 2, 1649
+  size: 405, 395
+  orig: 529, 410
+  offset: 50, 0
+  index: -1
+images/shan/shan_014
+  rotate: false
+  xy: 409, 1673
+  size: 405, 371
+  orig: 529, 410
+  offset: 50, 9
+  index: -1
+images/shan/shan_015
+  rotate: false
+  xy: 409, 1291
+  size: 374, 380
+  orig: 529, 410
+  offset: 47, 0
+  index: -1
+images/shan/shan_016
+  rotate: true
+  xy: 2, 486
+  size: 396, 320
+  orig: 529, 410
+  offset: 52, 0
+  index: -1
+images/shan/shan_017
+  rotate: true
+  xy: 816, 1710
+  size: 334, 400
+  orig: 529, 410
+  offset: 64, 0
+  index: -1
+images/shan/shan_018
+  rotate: false
+  xy: 1142, 1301
+  size: 312, 221
+  orig: 529, 410
+  offset: 101, 106
+  index: -1
+images/shan/shan_019
+  rotate: true
+  xy: 1218, 1753
+  size: 291, 400
+  orig: 529, 410
+  offset: 130, 0
+  index: -1
+images/shan/shan_022
+  rotate: false
+  xy: 808, 376
+  size: 200, 238
+  orig: 529, 410
+  offset: 89, 36
+  index: -1
+images/shan1/shan1_040
+  rotate: false
+  xy: 556, 1104
+  size: 227, 185
+  orig: 1488, 800
+  offset: 641, 431
+  index: -1
+images/shan1/shan1_044
+  rotate: true
+  xy: 799, 616
+  size: 292, 239
+  orig: 1488, 800
+  offset: 595, 426
+  index: -1
+images/shan1/shan1_045
+  rotate: true
+  xy: 556, 608
+  size: 297, 241
+  orig: 1488, 800
+  offset: 595, 424
+  index: -1
+images/shan1/shan1_046
+  rotate: false
+  xy: 785, 1177
+  size: 322, 232
+  orig: 1488, 800
+  offset: 598, 433
+  index: -1
+images/shan1/shan1_047
+  rotate: false
+  xy: 399, 907
+  size: 280, 195
+  orig: 1488, 800
+  offset: 612, 424
+  index: -1
+images/shan1/shan1_048
+  rotate: false
+  xy: 1109, 1064
+  size: 307, 235
+  orig: 1488, 800
+  offset: 612, 426
+  index: -1
+images/shan1/shan1_051
+  rotate: false
+  xy: 1040, 611
+  size: 295, 154
+  orig: 1488, 800
+  offset: 598, 471
+  index: -1
+images/shan1/shan1_054
+  rotate: false
+  xy: 556, 367
+  size: 250, 239
+  orig: 1488, 800
+  offset: 629, 426
+  index: -1
+images/shan1/shan1_056
+  rotate: false
+  xy: 2, 2
+  size: 262, 99
+  orig: 1488, 800
+  offset: 621, 541
+  index: -1
+images/shan2/shan2_076
+  rotate: true
+  xy: 324, 516
+  size: 366, 230
+  orig: 409, 392
+  offset: 18, 56
+  index: -1
+images/shan2/shan2_078
+  rotate: false
+  xy: 1218, 1524
+  size: 366, 227
+  orig: 409, 392
+  offset: 21, 71
+  index: -1
+images/shan2/shan2_079
+  rotate: true
+  xy: 1090, 767
+  size: 295, 302
+  orig: 409, 392
+  offset: 0, 36
+  index: -1
+images/shan2/shan2_081
+  rotate: false
+  xy: 785, 910
+  size: 303, 265
+  orig: 409, 392
+  offset: 17, 66
+  index: -1
+images/shan2/shan2_082
+  rotate: false
+  xy: 816, 1411
+  size: 324, 297
+  orig: 409, 392
+  offset: 22, 39
+  index: -1
+images/shan2/shan2_084
+  rotate: true
+  xy: 1586, 1430
+  size: 311, 325
+  orig: 409, 392
+  offset: 20, 47
+  index: -1
+images/shan2/shan2_085
+  rotate: false
+  xy: 1620, 1743
+  size: 331, 301
+  orig: 409, 392
+  offset: 0, 66
+  index: -1
+images/shan2/shan2_089
+  rotate: true
+  xy: 1456, 1337
+  size: 185, 127
+  orig: 409, 392
+  offset: 56, 92
+  index: -1

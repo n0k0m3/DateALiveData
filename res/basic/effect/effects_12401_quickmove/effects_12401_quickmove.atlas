@@ -1,0 +1,69 @@
+
+effects_12401_quickmove.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_L/exskillb/glow_097
+  rotate: false
+  xy: 815, 858
+  size: 115, 116
+  orig: 122, 119
+  offset: 6, 1
+  index: -1
+images/effects_L/quickmove/down/down_001
+  rotate: false
+  xy: 2, 403
+  size: 428, 284
+  orig: 453, 285
+  offset: 0, 0
+  index: -1
+images/effects_L/quickmove/down/down_003
+  rotate: false
+  xy: 2, 689
+  size: 431, 285
+  orig: 453, 285
+  offset: 0, 0
+  index: -1
+images/effects_L/quickmove/down/down_005
+  rotate: false
+  xy: 435, 726
+  size: 378, 248
+  orig: 453, 285
+  offset: 55, 5
+  index: -1
+images/effects_L/quickmove/down/down_007
+  rotate: false
+  xy: 2, 169
+  size: 392, 232
+  orig: 453, 285
+  offset: 61, 20
+  index: -1
+images/effects_L/quickmove/down/down_009
+  rotate: false
+  xy: 435, 510
+  size: 360, 214
+  orig: 453, 285
+  offset: 93, 40
+  index: -1
+images/effects_L/quickmove/down/down_011
+  rotate: false
+  xy: 2, 2
+  size: 294, 165
+  orig: 453, 285
+  offset: 159, 67
+  index: -1
+images/effects_L/quickmove/down/down_013
+  rotate: false
+  xy: 432, 380
+  size: 281, 128
+  orig: 453, 285
+  offset: 149, 80
+  index: -1
+images/effects_L/quickmove/up/up_001
+  rotate: false
+  xy: 396, 168
+  size: 224, 210
+  orig: 249, 247
+  offset: 12, 11
+  index: -1

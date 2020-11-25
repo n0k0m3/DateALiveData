@@ -1,0 +1,95 @@
+{
+"skeleton": { "hash": "9i5VvSdtinYIm5iILymIwgmy0j4", "spine": "2.1.27", "width": 0, "height": 0, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "effect", "parent": "root" },
+	{ "name": "glow", "parent": "effect" },
+	{ "name": "shengji", "parent": "effect" }
+],
+"slots": [
+	{ "name": "images/TS_shengji/shengji/shengji_001", "bone": "shengji", "blend": "additive" },
+	{ "name": "images/TS_jinjie/glow2", "bone": "glow", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"images/TS_jinjie/glow2": {
+			"images/TS_jinjie/glow2": { "width": 100, "height": 100 }
+		},
+		"images/TS_shengji/shengji/shengji_001": {
+			"images/TS_shengji/shengji/shengji_003": { "width": 379, "height": 319 },
+			"images/TS_shengji/shengji/shengji_004": { "width": 379, "height": 319 },
+			"images/TS_shengji/shengji/shengji_005": { "width": 379, "height": 319 },
+			"images/TS_shengji/shengji/shengji_006": { "width": 379, "height": 319 },
+			"images/TS_shengji/shengji/shengji_007": { "width": 379, "height": 319 },
+			"images/TS_shengji/shengji/shengji_008": { "width": 379, "height": 319 },
+			"images/TS_shengji/shengji/shengji_009": { "width": 379, "height": 319 },
+			"images/TS_shengji/shengji/shengji_010": { "width": 379, "height": 319 },
+			"images/TS_shengji/shengji/shengji_011": { "width": 379, "height": 319 },
+			"images/TS_shengji/shengji/shengji_012": { "width": 379, "height": 319 },
+			"images/TS_shengji/shengji/shengji_013": { "width": 379, "height": 319 },
+			"images/TS_shengji/shengji/shengji_015": { "width": 379, "height": 319 },
+			"images/TS_shengji/shengji/shengji_017": { "width": 379, "height": 319 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"images/TS_jinjie/glow2": {
+				"attachment": [
+					{ "time": 0.1, "name": "images/TS_jinjie/glow2" }
+				],
+				"color": [
+					{ "time": 0.1, "color": "9ee9ffff" },
+					{ "time": 0.1666, "color": "0084ffff" },
+					{ "time": 0.2666, "color": "000cff00" }
+				]
+			},
+			"images/TS_shengji/shengji/shengji_001": {
+				"attachment": [
+					{ "time": 0, "name": "images/TS_shengji/shengji/shengji_003" },
+					{ "time": 0.0666, "name": "images/TS_shengji/shengji/shengji_003" },
+					{ "time": 0.1, "name": "images/TS_shengji/shengji/shengji_004" },
+					{ "time": 0.1333, "name": "images/TS_shengji/shengji/shengji_005" },
+					{ "time": 0.1666, "name": "images/TS_shengji/shengji/shengji_006" },
+					{ "time": 0.2, "name": "images/TS_shengji/shengji/shengji_007" },
+					{ "time": 0.2333, "name": "images/TS_shengji/shengji/shengji_008" },
+					{ "time": 0.2666, "name": "images/TS_shengji/shengji/shengji_009" },
+					{ "time": 0.3, "name": "images/TS_shengji/shengji/shengji_010" },
+					{ "time": 0.3333, "name": "images/TS_shengji/shengji/shengji_011" },
+					{ "time": 0.3666, "name": "images/TS_shengji/shengji/shengji_012" },
+					{ "time": 0.4, "name": "images/TS_shengji/shengji/shengji_013" },
+					{ "time": 0.4333, "name": "images/TS_shengji/shengji/shengji_015" },
+					{ "time": 0.5, "name": "images/TS_shengji/shengji/shengji_017" },
+					{ "time": 0.5666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.0666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.4333, "color": "ffffffff" },
+					{ "time": 0.5666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"shengji": {
+				"translate": [
+					{ "time": 0, "x": -13.37, "y": 15.6 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2, "curve": "stepped" },
+					{ "time": 0.0666, "x": 2, "y": 2 }
+				]
+			},
+			"glow": {
+				"translate": [
+					{ "time": 0.1, "x": 4.45, "y": 8.91 }
+				],
+				"scale": [
+					{ "time": 0.1, "x": 8.492, "y": 8.083 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,167 @@
+
+TS_jinjie.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/TS_jinjie/bian_002
+  rotate: false
+  xy: 429, 130
+  size: 163, 197
+  orig: 177, 209
+  offset: 7, 6
+  index: -1
+images/TS_jinjie/glow2
+  rotate: false
+  xy: 515, 28
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+images/TS_jinjie/lizi/lizi_004
+  rotate: false
+  xy: 240, 7
+  size: 187, 234
+  orig: 239, 280
+  offset: 20, 0
+  index: -1
+images/TS_jinjie/lizi/lizi_006
+  rotate: false
+  xy: 221, 243
+  size: 206, 252
+  orig: 239, 280
+  offset: 10, 0
+  index: -1
+images/TS_jinjie/lizi/lizi_008
+  rotate: false
+  xy: 2, 233
+  size: 217, 262
+  orig: 239, 280
+  offset: 10, 2
+  index: -1
+images/TS_jinjie/lizi/lizi_010
+  rotate: false
+  xy: 2, 497
+  size: 235, 259
+  orig: 239, 280
+  offset: 4, 12
+  index: -1
+images/TS_jinjie/lizi/lizi_012
+  rotate: false
+  xy: 2, 758
+  size: 238, 264
+  orig: 239, 280
+  offset: 1, 13
+  index: -1
+images/TS_jinjie/lizi/lizi_014
+  rotate: false
+  xy: 242, 763
+  size: 239, 259
+  orig: 239, 280
+  offset: 0, 21
+  index: -1
+images/TS_jinjie/lizi/lizi_016
+  rotate: false
+  xy: 483, 773
+  size: 239, 249
+  orig: 239, 280
+  offset: 0, 31
+  index: -1
+images/TS_jinjie/lizi/lizi_018
+  rotate: false
+  xy: 724, 782
+  size: 238, 240
+  orig: 239, 280
+  offset: 1, 40
+  index: -1
+images/TS_jinjie/lizi/lizi_020
+  rotate: false
+  xy: 483, 540
+  size: 238, 231
+  orig: 239, 280
+  offset: 1, 49
+  index: -1
+images/TS_jinjie/lizi/lizi_022
+  rotate: false
+  xy: 2, 11
+  size: 236, 220
+  orig: 239, 280
+  offset: 3, 60
+  index: -1
+images/TS_jinjie/lizi/lizi_024
+  rotate: false
+  xy: 429, 329
+  size: 221, 209
+  orig: 239, 280
+  offset: 17, 67
+  index: -1
+images/TS_jinjie/lizi/lizi_026
+  rotate: true
+  xy: 652, 338
+  size: 200, 151
+  orig: 239, 280
+  offset: 29, 80
+  index: -1
+images/TS_jinjie/saoguang/saoguang_001
+  rotate: true
+  xy: 964, 889
+  size: 133, 46
+  orig: 177, 209
+  offset: 19, 18
+  index: -1
+images/TS_jinjie/saoguang/saoguang_003
+  rotate: true
+  xy: 617, 13
+  size: 139, 151
+  orig: 177, 209
+  offset: 19, 18
+  index: -1
+images/TS_jinjie/saoguang/saoguang_005
+  rotate: false
+  xy: 805, 467
+  size: 139, 172
+  orig: 177, 209
+  offset: 19, 18
+  index: -1
+images/TS_jinjie/saoguang/saoguang_007
+  rotate: false
+  xy: 594, 154
+  size: 139, 173
+  orig: 177, 209
+  offset: 19, 18
+  index: -1
+images/TS_jinjie/saoguang/saoguang_009
+  rotate: false
+  xy: 735, 163
+  size: 139, 173
+  orig: 177, 209
+  offset: 19, 18
+  index: -1
+images/TS_jinjie/saoguang/saoguang_011
+  rotate: true
+  xy: 724, 641
+  size: 139, 173
+  orig: 177, 209
+  offset: 19, 18
+  index: -1
+images/TS_jinjie/saoguang/saoguang_013
+  rotate: true
+  xy: 242, 622
+  size: 139, 173
+  orig: 177, 209
+  offset: 19, 18
+  index: -1
+images/TS_jinjie/saoguang/saoguang_015
+  rotate: false
+  xy: 770, 12
+  size: 139, 149
+  orig: 177, 209
+  offset: 19, 42
+  index: -1
+images/TS_jinjie/saoguang/saoguang_017
+  rotate: true
+  xy: 429, 2
+  size: 126, 84
+  orig: 177, 209
+  offset: 32, 107
+  index: -1

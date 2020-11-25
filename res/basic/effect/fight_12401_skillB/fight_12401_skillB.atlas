@@ -1,0 +1,348 @@
+
+fight_12401_skillB.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_L/exskillb/c/jiguang_030
+  rotate: false
+  xy: 457, 767
+  size: 438, 78
+  orig: 461, 78
+  offset: 15, 0
+  index: -1
+images/effects_L/exskillb/c/jiguang_031
+  rotate: false
+  xy: 457, 687
+  size: 429, 78
+  orig: 461, 78
+  offset: 24, 0
+  index: -1
+images/effects_L/exskillb/c/jiguang_032
+  rotate: false
+  xy: 457, 607
+  size: 426, 78
+  orig: 461, 78
+  offset: 27, 0
+  index: -1
+images/effects_L/exskillb/c/jiguang_033
+  rotate: true
+  xy: 936, 361
+  size: 418, 78
+  orig: 461, 78
+  offset: 35, 0
+  index: -1
+images/effects_L/skillb/baodian/1_096
+  rotate: false
+  xy: 2, 399
+  size: 272, 257
+  orig: 274, 257
+  offset: 1, 0
+  index: -1
+images/effects_L/skillb/baodian/1_097
+  rotate: false
+  xy: 2, 140
+  size: 272, 257
+  orig: 274, 257
+  offset: 1, 0
+  index: -1
+images/effects_L/skillb/baodian/1_098
+  rotate: false
+  xy: 405, 348
+  size: 272, 257
+  orig: 274, 257
+  offset: 1, 0
+  index: -1
+images/effects_L/skillb/baodian/1_100
+  rotate: true
+  xy: 679, 347
+  size: 258, 255
+  orig: 274, 257
+  offset: 8, 1
+  index: -1
+images/effects_L/skillb/boom/boom_094
+  rotate: false
+  xy: 408, 149
+  size: 258, 197
+  orig: 258, 203
+  offset: 0, 0
+  index: -1
+images/effects_L/skillb/boom/boom_095
+  rotate: false
+  xy: 668, 148
+  size: 258, 197
+  orig: 258, 203
+  offset: 0, 0
+  index: -1
+images/effects_L/skillb/boom/boom_105
+  rotate: true
+  xy: 912, 781
+  size: 238, 107
+  orig: 258, 203
+  offset: 10, 30
+  index: -1
+images/effects_L/skillb/jiguang/jiguang_060
+  rotate: false
+  xy: 616, 4
+  size: 270, 142
+  orig: 490, 181
+  offset: 35, 23
+  index: -1
+images/effects_L/skillb/jiguang/jiguang_061
+  rotate: false
+  xy: 2, 838
+  size: 453, 181
+  orig: 490, 181
+  offset: 27, 0
+  index: -1
+images/effects_L/skillb/jiguang/jiguang_062
+  rotate: false
+  xy: 2, 658
+  size: 453, 178
+  orig: 490, 181
+  offset: 27, 3
+  index: -1
+images/effects_L/skillb/jiguang/jiguang_064
+  rotate: false
+  xy: 457, 847
+  size: 453, 172
+  orig: 490, 181
+  offset: 27, 7
+  index: -1
+images/effects_L/skillb/jiguang/jiguang_066
+  rotate: true
+  xy: 276, 269
+  size: 387, 127
+  orig: 490, 181
+  offset: 35, 30
+  index: -1
+images/effects_L/skillb/jiguang/jiguang_068
+  rotate: false
+  xy: 2, 7
+  size: 373, 131
+  orig: 490, 181
+  offset: 39, 27
+  index: -1
+images/effects_L/skillb/jiguang/jiguang_070
+  rotate: true
+  xy: 928, 30
+  size: 315, 23
+  orig: 490, 181
+  offset: 92, 81
+  index: -1
+images/effects_L/skillb/jiguang/jiguang_071
+  rotate: true
+  xy: 953, 81
+  size: 278, 18
+  orig: 490, 181
+  offset: 129, 85
+  index: -1
+images/effects_L/skillb/wuqi/wuqi_033
+  rotate: true
+  xy: 973, 83
+  size: 85, 44
+  orig: 193, 223
+  offset: 69, 90
+  index: -1
+images/effects_L/skillb/wuqi/wuqi_037
+  rotate: true
+  xy: 408, 5
+  size: 142, 206
+  orig: 193, 223
+  offset: 24, 7
+  index: -1
+images/effects_L/skillb/wuqi/wuqi_049
+  rotate: true
+  xy: 276, 140
+  size: 127, 130
+  orig: 193, 223
+  offset: 17, 0
+  index: -1
+images/pao22
+  rotate: false
+  xy: 973, 170
+  size: 36, 189
+  orig: 36, 189
+  offset: 0, 0
+  index: -1
+
+fight_12401_skillB2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_L/exskillb/c/jiguang_034
+  rotate: false
+  xy: 2, 949
+  size: 408, 73
+  orig: 461, 78
+  offset: 45, 0
+  index: -1
+images/effects_L/exskillb/c/jiguang_035
+  rotate: false
+  xy: 412, 975
+  size: 397, 47
+  orig: 461, 78
+  offset: 49, 13
+  index: -1
+images/effects_L/exskillb/c/jiguang_036
+  rotate: true
+  xy: 201, 332
+  size: 386, 38
+  orig: 461, 78
+  offset: 58, 18
+  index: -1
+images/effects_L/exskillb/glow_097
+  rotate: true
+  xy: 477, 34
+  size: 115, 116
+  orig: 122, 119
+  offset: 6, 1
+  index: -1
+images/effects_L/skillb/baodian/1_102
+  rotate: false
+  xy: 2, 720
+  size: 244, 227
+  orig: 274, 257
+  offset: 7, 15
+  index: -1
+images/effects_L/skillb/baodian/1_104
+  rotate: false
+  xy: 241, 281
+  size: 221, 213
+  orig: 274, 257
+  offset: 18, 22
+  index: -1
+images/effects_L/skillb/baodian/1_106
+  rotate: true
+  xy: 248, 719
+  size: 228, 221
+  orig: 274, 257
+  offset: 17, 18
+  index: -1
+images/effects_L/skillb/baodian/1_108
+  rotate: false
+  xy: 241, 496
+  size: 221, 221
+  orig: 274, 257
+  offset: 24, 18
+  index: -1
+images/effects_L/skillb/baodian/1_110
+  rotate: true
+  xy: 262, 65
+  size: 214, 213
+  orig: 274, 257
+  offset: 28, 22
+  index: -1
+images/effects_L/skillb/boom/boom_097
+  rotate: true
+  xy: 2, 460
+  size: 258, 197
+  orig: 258, 203
+  offset: 0, 0
+  index: -1
+images/effects_L/skillb/boom/boom_099
+  rotate: true
+  xy: 2, 200
+  size: 258, 197
+  orig: 258, 203
+  offset: 0, 0
+  index: -1
+images/effects_L/skillb/boom/boom_101
+  rotate: false
+  xy: 2, 2
+  size: 258, 196
+  orig: 258, 203
+  offset: 0, 0
+  index: -1
+images/effects_L/skillb/boom/boom_103
+  rotate: false
+  xy: 471, 788
+  size: 252, 185
+  orig: 258, 203
+  offset: 3, 0
+  index: -1
+images/effects_L/skillb/wuqi/wuqi_035
+  rotate: false
+  xy: 477, 151
+  size: 123, 132
+  orig: 193, 223
+  offset: 62, 43
+  index: -1
+images/effects_L/skillb/wuqi/wuqi_039
+  rotate: true
+  xy: 471, 611
+  size: 175, 221
+  orig: 193, 223
+  offset: 9, 0
+  index: -1
+images/effects_L/skillb/wuqi/wuqi_041
+  rotate: false
+  xy: 464, 402
+  size: 161, 207
+  orig: 193, 223
+  offset: 9, 0
+  index: -1
+images/effects_L/skillb/wuqi/wuqi_043
+  rotate: false
+  xy: 627, 395
+  size: 150, 214
+  orig: 193, 223
+  offset: 10, 0
+  index: -1
+images/effects_L/skillb/wuqi/wuqi_045
+  rotate: false
+  xy: 725, 808
+  size: 133, 165
+  orig: 193, 223
+  offset: 20, 1
+  index: -1
+images/effects_L/skillb/wuqi/wuqi_047
+  rotate: false
+  xy: 860, 853
+  size: 128, 131
+  orig: 193, 223
+  offset: 20, 0
+  index: -1
+images/effects_L/skillb/wuqi/wuqi_051
+  rotate: true
+  xy: 464, 285
+  size: 115, 126
+  orig: 193, 223
+  offset: 19, 3
+  index: -1
+images/pao11
+  rotate: true
+  xy: 262, 12
+  size: 51, 189
+  orig: 51, 189
+  offset: 0, 0
+  index: -1
+images/pao33
+  rotate: true
+  xy: 592, 296
+  size: 23, 195
+  orig: 23, 195
+  offset: 0, 0
+  index: -1
+images/pao44
+  rotate: true
+  xy: 592, 358
+  size: 35, 189
+  orig: 35, 189
+  offset: 0, 0
+  index: -1
+images/pao55
+  rotate: true
+  xy: 811, 986
+  size: 36, 189
+  orig: 36, 189
+  offset: 0, 0
+  index: -1
+images/pao66
+  rotate: true
+  xy: 592, 321
+  size: 35, 188
+  orig: 35, 188
+  offset: 0, 0
+  index: -1

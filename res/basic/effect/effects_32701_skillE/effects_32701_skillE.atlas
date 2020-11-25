@@ -1,0 +1,125 @@
+
+effects_32701_skillE.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_L/glow_00105
+  rotate: false
+  xy: 666, 558
+  size: 117, 119
+  orig: 134, 125
+  offset: 8, 3
+  index: -1
+images/effects_L/skillE/boom/boom_00021
+  rotate: true
+  xy: 314, 195
+  size: 216, 144
+  orig: 377, 230
+  offset: 109, 19
+  index: -1
+images/effects_L/skillE/boom/boom_00023
+  rotate: false
+  xy: 364, 806
+  size: 319, 197
+  orig: 377, 230
+  offset: 35, 8
+  index: -1
+images/effects_L/skillE/boom/boom_00025
+  rotate: false
+  xy: 2, 594
+  size: 341, 202
+  orig: 377, 230
+  offset: 27, 7
+  index: -1
+images/effects_L/skillE/boom/boom_00027
+  rotate: false
+  xy: 2, 798
+  size: 360, 205
+  orig: 377, 230
+  offset: 17, 4
+  index: -1
+images/effects_L/skillE/boom/boom_00029
+  rotate: false
+  xy: 685, 827
+  size: 318, 176
+  orig: 377, 230
+  offset: 34, 3
+  index: -1
+images/effects_L/skillE/boom/boom_00031
+  rotate: false
+  xy: 2, 413
+  size: 319, 179
+  orig: 377, 230
+  offset: 40, 1
+  index: -1
+images/effects_L/skillE/boom/boom_00033
+  rotate: true
+  xy: 2, 88
+  size: 323, 165
+  orig: 377, 230
+  offset: 43, 15
+  index: -1
+images/effects_L/skillE/boom/boom_00035
+  rotate: true
+  xy: 169, 111
+  size: 300, 143
+  orig: 377, 230
+  offset: 68, 15
+  index: -1
+images/effects_L/skillE/shifa/shifa_00001
+  rotate: true
+  xy: 529, 519
+  size: 124, 135
+  orig: 248, 193
+  offset: 57, 27
+  index: -1
+images/effects_L/skillE/shifa/shifa_00003
+  rotate: false
+  xy: 476, 87
+  size: 134, 138
+  orig: 248, 193
+  offset: 62, 26
+  index: -1
+images/effects_L/skillE/shifa/shifa_00005
+  rotate: false
+  xy: 314, 51
+  size: 160, 142
+  orig: 248, 193
+  offset: 55, 27
+  index: -1
+images/effects_L/skillE/shifa/shifa_00007
+  rotate: true
+  xy: 529, 645
+  size: 159, 129
+  orig: 248, 193
+  offset: 62, 29
+  index: -1
+images/effects_L/skillE/shifa/shifa_00009
+  rotate: false
+  xy: 685, 679
+  size: 235, 146
+  orig: 248, 193
+  offset: 4, 12
+  index: -1
+images/effects_L/skillE/shifa/shifa_00011
+  rotate: true
+  xy: 345, 599
+  size: 197, 182
+  orig: 248, 193
+  offset: 26, 11
+  index: -1
+images/effects_L/skillE/shifa/shifa_00013
+  rotate: true
+  xy: 345, 413
+  size: 184, 174
+  orig: 248, 193
+  offset: 35, 19
+  index: -1
+images/effects_L/skillE/shifa/shifa_00015
+  rotate: true
+  xy: 460, 227
+  size: 184, 163
+  orig: 248, 193
+  offset: 34, 30
+  index: -1

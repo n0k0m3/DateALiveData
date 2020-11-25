@@ -1,0 +1,104 @@
+
+TS_shengji.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/TS_jinjie/glow2
+  rotate: false
+  xy: 889, 913
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+images/TS_shengji/shengji/shengji_003
+  rotate: false
+  xy: 2, 2
+  size: 231, 146
+  orig: 379, 319
+  offset: 83, 48
+  index: -1
+images/TS_shengji/shengji/shengji_004
+  rotate: false
+  xy: 2, 805
+  size: 231, 208
+  orig: 379, 319
+  offset: 83, 42
+  index: -1
+images/TS_shengji/shengji/shengji_005
+  rotate: false
+  xy: 428, 599
+  size: 209, 209
+  orig: 379, 319
+  offset: 87, 46
+  index: -1
+images/TS_shengji/shengji/shengji_006
+  rotate: false
+  xy: 639, 601
+  size: 208, 209
+  orig: 379, 319
+  offset: 87, 51
+  index: -1
+images/TS_shengji/shengji/shengji_007
+  rotate: false
+  xy: 207, 375
+  size: 206, 207
+  orig: 379, 319
+  offset: 87, 56
+  index: -1
+images/TS_shengji/shengji/shengji_008
+  rotate: false
+  xy: 220, 593
+  size: 206, 210
+  orig: 379, 319
+  offset: 86, 57
+  index: -1
+images/TS_shengji/shengji/shengji_009
+  rotate: true
+  xy: 675, 812
+  size: 201, 212
+  orig: 379, 319
+  offset: 91, 57
+  index: -1
+images/TS_shengji/shengji/shengji_010
+  rotate: true
+  xy: 458, 812
+  size: 201, 215
+  orig: 379, 319
+  offset: 92, 57
+  index: -1
+images/TS_shengji/shengji/shengji_011
+  rotate: false
+  xy: 2, 363
+  size: 203, 219
+  orig: 379, 319
+  offset: 94, 56
+  index: -1
+images/TS_shengji/shengji/shengji_012
+  rotate: true
+  xy: 235, 810
+  size: 203, 221
+  orig: 379, 319
+  offset: 95, 56
+  index: -1
+images/TS_shengji/shengji/shengji_013
+  rotate: false
+  xy: 2, 584
+  size: 216, 219
+  orig: 379, 319
+  offset: 81, 60
+  index: -1
+images/TS_shengji/shengji/shengji_015
+  rotate: true
+  xy: 2, 150
+  size: 211, 209
+  orig: 379, 319
+  offset: 81, 73
+  index: -1
+images/TS_shengji/shengji/shengji_017
+  rotate: false
+  xy: 849, 625
+  size: 154, 185
+  orig: 379, 319
+  offset: 105, 97
+  index: -1

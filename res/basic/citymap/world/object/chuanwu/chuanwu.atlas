@@ -1,0 +1,20 @@
+
+chuanwu.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+qizi
+  rotate: false
+  xy: 2, 2
+  size: 79, 97
+  orig: 79, 97
+  offset: 0, 0
+  index: -1
+zhuti
+  rotate: false
+  xy: 2, 101
+  size: 381, 376
+  orig: 381, 376
+  offset: 0, 0
+  index: -1

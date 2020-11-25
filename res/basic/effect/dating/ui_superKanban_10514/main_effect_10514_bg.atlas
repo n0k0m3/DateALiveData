@@ -1,0 +1,55 @@
+
+main_effect_10514_bg.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/2
+  rotate: false
+  xy: 2, 669
+  size: 1488, 625
+  orig: 1488, 625
+  offset: 0, 0
+  index: -1
+images/3
+  rotate: false
+  xy: 2, 140
+  size: 1488, 527
+  orig: 1488, 527
+  offset: 0, 0
+  index: -1
+images/4
+  rotate: false
+  xy: 2, 1296
+  size: 1488, 693
+  orig: 1488, 693
+  offset: 0, 0
+  index: -1
+images/5
+  rotate: false
+  xy: 2, 2
+  size: 744, 136
+  orig: 744, 136
+  offset: 0, 0
+  index: -1
+images/6
+  rotate: true
+  xy: 1492, 1245
+  size: 744, 400
+  orig: 744, 400
+  offset: 0, 0
+  index: -1
+images/bianse_000
+  rotate: true
+  xy: 1492, 125
+  size: 372, 155
+  orig: 422, 258
+  offset: 28, 75
+  index: -1
+images/di
+  rotate: true
+  xy: 1492, 499
+  size: 744, 349
+  orig: 744, 351
+  offset: 0, 0
+  index: -1

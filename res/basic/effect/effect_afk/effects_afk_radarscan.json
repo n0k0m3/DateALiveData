@@ -1,0 +1,166 @@
+{
+"skeleton": { "hash": "WLojS5wAFjVP6lCG924vL68GH3U", "spine": "2.1.27", "width": 0, "height": 0, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "effect", "parent": "root" },
+	{ "name": "bian", "parent": "effect" },
+	{ "name": "bian2", "parent": "effect" },
+	{ "name": "bian3", "parent": "effect" },
+	{ "name": "bian4", "parent": "effect" },
+	{ "name": "bian5", "parent": "effect" },
+	{ "name": "bian6", "parent": "effect" },
+	{ "name": "leida", "parent": "effect" }
+],
+"slots": [
+	{ "name": "images/radarscan/leida_000", "bone": "leida" },
+	{ "name": "images/radarscan/bian_000", "bone": "bian", "blend": "additive" },
+	{ "name": "images/radarscan/bian_0", "bone": "bian2", "blend": "additive" },
+	{ "name": "images/radarscan/bian_1", "bone": "bian3", "blend": "additive" },
+	{ "name": "images/radarscan/bian_2", "bone": "bian4", "blend": "additive" },
+	{ "name": "images/radarscan/bian_3", "bone": "bian5", "blend": "additive" },
+	{ "name": "images/radarscan/bian_4", "bone": "bian6", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"images/radarscan/bian_0": {
+			"images/radarscan/bian_000": { "width": 167, "height": 181 }
+		},
+		"images/radarscan/bian_000": {
+			"images/radarscan/bian_000": { "width": 167, "height": 181 }
+		},
+		"images/radarscan/bian_1": {
+			"images/radarscan/bian_000": { "width": 167, "height": 181 }
+		},
+		"images/radarscan/bian_2": {
+			"images/radarscan/bian_000": { "width": 167, "height": 181 }
+		},
+		"images/radarscan/bian_3": {
+			"images/radarscan/bian_000": { "width": 167, "height": 181 }
+		},
+		"images/radarscan/bian_4": {
+			"images/radarscan/bian_000": { "width": 167, "height": 181 }
+		},
+		"images/radarscan/leida_000": {
+			"images/radarscan/leida_000": { "width": 100, "height": 113 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"images/radarscan/bian_000": {
+				"attachment": [
+					{ "time": 0, "name": "images/radarscan/bian_000" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.1666, "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff00" }
+				]
+			},
+			"images/radarscan/bian_0": {
+				"attachment": [
+					{ "time": 0.1666, "name": "images/radarscan/bian_000" }
+				],
+				"color": [
+					{ "time": 0.1666, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff00" }
+				]
+			},
+			"images/radarscan/bian_1": {
+				"attachment": [
+					{ "time": 0.3333, "name": "images/radarscan/bian_000" }
+				],
+				"color": [
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 0.6666, "color": "ffffff00" }
+				]
+			},
+			"images/radarscan/bian_2": {
+				"attachment": [
+					{ "time": 0.5, "name": "images/radarscan/bian_000" }
+				],
+				"color": [
+					{ "time": 0.5, "color": "ffffff00" },
+					{ "time": 0.6666, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				]
+			},
+			"images/radarscan/bian_3": {
+				"attachment": [
+					{ "time": 0.6666, "name": "images/radarscan/bian_000" }
+				],
+				"color": [
+					{ "time": 0.6666, "color": "ffffff00" },
+					{ "time": 0.8333, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"images/radarscan/bian_4": {
+				"attachment": [
+					{ "time": 0, "name": "images/radarscan/bian_000" },
+					{ "time": 0.8333, "name": "images/radarscan/bian_000" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.1666, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffff00" },
+					{ "time": 1, "color": "ffffffff" }
+				]
+			},
+			"images/radarscan/leida_000": {
+				"attachment": [
+					{ "time": 0, "name": "images/radarscan/leida_000" }
+				]
+			}
+		},
+		"bones": {
+			"bian": {
+				"translate": [
+					{ "time": 0, "x": 0.37, "y": 0.95 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.234, "y": 0.234 }
+				]
+			},
+			"bian2": {
+				"translate": [
+					{ "time": 0.1666, "x": 0.76, "y": 0.76 }
+				],
+				"scale": [
+					{ "time": 0.1666, "x": 0.362, "y": 0.362 }
+				]
+			},
+			"bian3": {
+				"translate": [
+					{ "time": 0.3333, "x": 0.19, "y": 1.15 }
+				],
+				"scale": [
+					{ "time": 0.3333, "x": 0.564, "y": 0.564 }
+				]
+			},
+			"bian4": {
+				"scale": [
+					{ "time": 0.5, "x": 0.714, "y": 0.714 }
+				]
+			},
+			"bian5": {
+				"translate": [
+					{ "time": 0.6666, "x": 0, "y": 1.02 }
+				],
+				"scale": [
+					{ "time": 0.6666, "x": 0.866, "y": 0.866 }
+				]
+			},
+			"bian6": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0.76, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0, "y": 0.76 }
+				]
+			}
+		}
+	}
+}
+}

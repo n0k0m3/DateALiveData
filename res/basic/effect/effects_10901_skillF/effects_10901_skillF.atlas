@@ -6,351 +6,351 @@ filter: Linear,Linear
 repeat: none
 effect/baibao_00027
   rotate: false
-  xy: 684, 390
-  size: 42, 42
-  orig: 48, 48
-  offset: 3, 3
+  xy: 971, 316
+  size: 43, 43
+  orig: 51, 51
+  offset: 4, 4
   index: -1
 effect/skillD/guangtiao_00002
   rotate: false
-  xy: 391, 629
-  size: 189, 91
-  orig: 197, 101
-  offset: 3, 4
+  xy: 732, 799
+  size: 202, 96
+  orig: 210, 108
+  offset: 3, 5
   index: -1
 effect/skillF/dao1a/dao1a_00007
-  rotate: false
-  xy: 717, 918
-  size: 186, 104
-  orig: 215, 135
-  offset: 29, 31
+  rotate: true
+  xy: 416, 662
+  size: 199, 111
+  orig: 229, 144
+  offset: 30, 33
   index: -1
 effect/skillF/dao1a/dao1a_00008
   rotate: true
-  xy: 184, 633
-  size: 207, 108
-  orig: 215, 135
+  xy: 196, 607
+  size: 221, 115
+  orig: 229, 144
   offset: 8, 2
   index: -1
 effect/skillF/dao1a/dao1a_00009
   rotate: true
-  xy: 294, 649
-  size: 191, 95
-  orig: 215, 135
-  offset: 24, 3
+  xy: 313, 625
+  size: 203, 101
+  orig: 229, 144
+  offset: 26, 3
   index: -1
 effect/skillF/dao1a/dao1a_00010
   rotate: false
-  xy: 175, 114
-  size: 138, 68
-  orig: 215, 135
-  offset: 28, 10
+  xy: 525, 372
+  size: 147, 73
+  orig: 229, 144
+  offset: 30, 10
   index: -1
 effect/skillF/dao1m/dao1m_00007
   rotate: false
-  xy: 671, 560
-  size: 159, 90
-  orig: 215, 135
-  offset: 32, 39
+  xy: 529, 602
+  size: 168, 95
+  orig: 229, 144
+  offset: 34, 42
   index: -1
 effect/skillF/dao1m/dao1m_00008
   rotate: false
-  xy: 533, 905
-  size: 182, 117
-  orig: 215, 135
-  offset: 9, 12
+  xy: 732, 897
+  size: 194, 125
+  orig: 229, 144
+  offset: 9, 13
   index: -1
 effect/skillF/dao1m/dao1m_00009
   rotate: false
-  xy: 681, 652
-  size: 173, 91
-  orig: 215, 135
-  offset: 19, 11
+  xy: 2, 18
+  size: 185, 97
+  orig: 229, 144
+  offset: 20, 12
   index: -1
 effect/skillF/dao1m/dao1m_00010
   rotate: false
-  xy: 689, 745
-  size: 176, 89
-  orig: 215, 135
-  offset: 16, 11
+  xy: 690, 701
+  size: 188, 96
+  orig: 229, 144
+  offset: 17, 11
   index: -1
 effect/skillF/dao1m/dao1m_00011
-  rotate: false
-  xy: 671, 499
-  size: 173, 59
-  orig: 215, 135
-  offset: 18, 10
+  rotate: true
+  xy: 353, 439
+  size: 184, 63
+  orig: 229, 144
+  offset: 19, 11
   index: -1
 effect/skillF/dao2a/dao2a_00030
   rotate: true
-  xy: 156, 2
-  size: 109, 61
-  orig: 158, 83
-  offset: 0, 22
+  xy: 928, 906
+  size: 116, 66
+  orig: 168, 89
+  offset: 0, 23
   index: -1
 effect/skillF/dao2a/dao2a_00031
-  rotate: true
-  xy: 591, 496
-  size: 158, 78
-  orig: 158, 83
-  offset: 0, 5
+  rotate: false
+  xy: 699, 616
+  size: 168, 83
+  orig: 168, 89
+  offset: 0, 6
   index: -1
 effect/skillF/dao2a/dao2a_00032
-  rotate: true
-  xy: 257, 189
-  size: 156, 63
-  orig: 158, 83
-  offset: 2, 17
+  rotate: false
+  xy: 699, 546
+  size: 166, 68
+  orig: 168, 89
+  offset: 2, 18
   index: -1
 effect/skillF/dao2a/dao2a_00033
-  rotate: false
-  xy: 867, 725
-  size: 142, 52
-  orig: 158, 83
-  offset: 11, 25
+  rotate: true
+  xy: 180, 290
+  size: 150, 56
+  orig: 168, 89
+  offset: 12, 27
   index: -1
 effect/skillF/dao2a/dao2a_00034
-  rotate: false
-  xy: 329, 439
-  size: 140, 51
-  orig: 158, 83
-  offset: 13, 25
+  rotate: true
+  xy: 166, 131
+  size: 148, 56
+  orig: 168, 89
+  offset: 14, 26
   index: -1
 effect/skillF/dao2m/dao2m_00030
-  rotate: false
-  xy: 579, 447
-  size: 104, 47
-  orig: 158, 83
-  offset: 13, 27
+  rotate: true
+  xy: 969, 411
+  size: 112, 51
+  orig: 168, 89
+  offset: 13, 28
   index: -1
 effect/skillF/dao2m/dao2m_00031
   rotate: false
-  xy: 464, 369
-  size: 136, 62
-  orig: 158, 83
-  offset: 13, 13
+  xy: 505, 304
+  size: 146, 66
+  orig: 168, 89
+  offset: 13, 14
   index: -1
 effect/skillF/dao2m/dao2m_00032
   rotate: false
-  xy: 325, 371
-  size: 137, 66
-  orig: 158, 83
-  offset: 13, 8
+  xy: 674, 327
+  size: 147, 70
+  orig: 168, 89
+  offset: 13, 9
   index: -1
 effect/skillF/dao2m/dao2m_00033
   rotate: true
-  xy: 253, 347
-  size: 139, 70
-  orig: 158, 83
-  offset: 12, 5
+  xy: 238, 300
+  size: 147, 74
+  orig: 168, 89
+  offset: 13, 6
   index: -1
 effect/skillF/dao2m/dao2m_00034
   rotate: false
-  xy: 856, 653
-  size: 136, 70
-  orig: 158, 83
+  xy: 823, 322
+  size: 146, 75
+  orig: 168, 89
   offset: 13, 5
   index: -1
 effect/skillF/dao3a/dao3a_00036
-  rotate: true
-  xy: 471, 433
-  size: 65, 106
-  orig: 153, 113
-  offset: 5, 7
+  rotate: false
+  xy: 936, 791
+  size: 68, 113
+  orig: 163, 120
+  offset: 6, 7
   index: -1
 effect/skillF/dao3a/dao3a_00037
-  rotate: true
-  xy: 169, 331
-  size: 145, 82
-  orig: 153, 113
-  offset: 7, 31
+  rotate: false
+  xy: 867, 525
+  size: 154, 87
+  orig: 163, 120
+  offset: 7, 33
   index: -1
 effect/skillF/dao3a/dao3a_00038
-  rotate: true
-  xy: 175, 184
-  size: 145, 80
-  orig: 153, 113
-  offset: 7, 33
+  rotate: false
+  xy: 869, 614
+  size: 153, 85
+  orig: 163, 120
+  offset: 8, 35
   index: -1
 effect/skillF/dao3a/dao3a_00039
   rotate: false
-  xy: 458, 313
-  size: 105, 54
-  orig: 153, 113
-  offset: 17, 39
+  xy: 352, 135
+  size: 112, 56
+  orig: 163, 120
+  offset: 18, 42
   index: -1
 effect/skillF/dao3m/dao3m_00036
-  rotate: true
-  xy: 685, 434
-  size: 63, 86
-  orig: 153, 113
-  offset: 12, 17
+  rotate: false
+  xy: 310, 41
+  size: 68, 92
+  orig: 163, 120
+  offset: 12, 18
   index: -1
 effect/skillF/dao3m/dao3m_00037
   rotate: false
-  xy: 219, 32
-  size: 127, 80
-  orig: 153, 113
-  offset: 17, 23
+  xy: 880, 702
+  size: 134, 87
+  orig: 163, 120
+  offset: 18, 23
   index: -1
 effect/skillF/dao3m/dao3m_00038
-  rotate: false
-  xy: 322, 191
-  size: 128, 57
-  orig: 153, 113
-  offset: 17, 46
+  rotate: true
+  xy: 443, 333
+  size: 135, 60
+  orig: 163, 120
+  offset: 18, 49
   index: -1
 effect/skillF/dao3m/dao3m_00039
-  rotate: false
-  xy: 322, 250
-  size: 130, 58
-  orig: 153, 113
-  offset: 17, 45
+  rotate: true
+  xy: 224, 149
+  size: 139, 62
+  orig: 163, 120
+  offset: 18, 48
   index: -1
 effect/skillF/dao3m/dao3m_00040
-  rotate: false
-  xy: 325, 310
-  size: 131, 59
-  orig: 153, 113
-  offset: 16, 45
+  rotate: true
+  xy: 288, 159
+  size: 139, 62
+  orig: 163, 120
+  offset: 17, 48
   index: -1
 effect/skillF/guangqiu_00016
   rotate: false
-  xy: 773, 452
-  size: 46, 45
-  orig: 46, 45
+  xy: 971, 361
+  size: 49, 48
+  orig: 49, 48
   offset: 0, 0
   index: -1
 effect/skillF/shanguanga/shanguanga_00015
-  rotate: true
-  xy: 898, 779
-  size: 112, 119
-  orig: 167, 151
-  offset: 35, 29
+  rotate: false
+  xy: 189, 2
+  size: 119, 127
+  orig: 178, 161
+  offset: 38, 31
   index: -1
 effect/skillF/shanguanga/shanguanga_00016
   rotate: true
-  xy: 329, 492
-  size: 135, 140
-  orig: 167, 151
-  offset: 10, 9
+  xy: 680, 399
+  size: 145, 149
+  orig: 178, 161
+  offset: 10, 10
   index: -1
 effect/skillF/shanguanga/shanguanga_00017
   rotate: false
-  xy: 366, 873
-  size: 165, 149
-  orig: 167, 151
+  xy: 390, 863
+  size: 176, 159
+  orig: 178, 161
   offset: 0, 0
   index: -1
 effect/skillF/shanguanga/shanguanga_00018
   rotate: false
-  xy: 2, 327
-  size: 165, 149
-  orig: 167, 151
+  xy: 2, 281
+  size: 176, 159
+  orig: 178, 161
   offset: 0, 0
   index: -1
 effect/skillF/shanguangn/shanguangn_00015
-  rotate: true
-  xy: 602, 374
-  size: 71, 80
-  orig: 134, 123
-  offset: 41, 35
+  rotate: false
+  xy: 380, 49
+  size: 75, 84
+  orig: 143, 131
+  offset: 44, 38
   index: -1
 effect/skillF/shanguangn/shanguangn_00016
   rotate: false
-  xy: 582, 656
-  size: 97, 99
-  orig: 134, 123
-  offset: 16, 18
+  xy: 352, 193
+  size: 103, 106
+  orig: 143, 131
+  offset: 17, 19
   index: -1
 effect/skillF/shanguangn/shanguangn_00017
-  rotate: true
-  xy: 905, 893
-  size: 129, 116
-  orig: 134, 123
-  offset: 2, 6
+  rotate: false
+  xy: 831, 399
+  size: 136, 124
+  orig: 143, 131
+  offset: 4, 6
   index: -1
 effect/skillF/shanguangn/shanguangn_00018
   rotate: true
-  xy: 471, 500
-  size: 127, 118
-  orig: 134, 123
+  xy: 314, 301
+  size: 136, 127
+  orig: 143, 131
   offset: 5, 2
   index: -1
 effect/skillF/tiao1_00016
   rotate: true
-  xy: 156, 113
-  size: 212, 17
-  orig: 212, 17
+  xy: 505, 434
+  size: 226, 18
+  orig: 226, 18
   offset: 0, 0
   index: -1
 effect/skillF/tiao2_00015
-  rotate: false
-  xy: 717, 836
-  size: 179, 80
-  orig: 179, 80
+  rotate: true
+  xy: 418, 470
+  size: 190, 85
+  orig: 190, 85
   offset: 0, 0
   index: -1
 effect/skillF/yueyaa/yueyaa_00000
   rotate: false
-  xy: 2, 842
-  size: 180, 180
-  orig: 180, 180
+  xy: 2, 830
+  size: 192, 192
+  orig: 192, 192
   offset: 0, 0
   index: -1
 effect/skillF/yueyaa/yueyaa_00001
   rotate: false
-  xy: 2, 660
-  size: 180, 180
-  orig: 180, 180
+  xy: 2, 636
+  size: 192, 192
+  orig: 192, 192
   offset: 0, 0
   index: -1
 effect/skillF/yueyaa/yueyaa_00002
   rotate: false
-  xy: 184, 842
-  size: 180, 180
-  orig: 180, 180
+  xy: 196, 830
+  size: 192, 192
+  orig: 192, 192
   offset: 0, 0
   index: -1
 effect/skillF/yueyaa/yueyaa_00003
   rotate: false
-  xy: 2, 478
-  size: 180, 180
-  orig: 180, 180
+  xy: 2, 442
+  size: 192, 192
+  orig: 192, 192
   offset: 0, 0
   index: -1
 effect/skillF/yueyaa/yueyaa_00004
   rotate: false
-  xy: 2, 173
-  size: 152, 152
-  orig: 180, 180
-  offset: 15, 13
+  xy: 2, 117
+  size: 162, 162
+  orig: 192, 192
+  offset: 16, 14
   index: -1
 effect/skillF/yueyam/yueyam_00002
   rotate: false
-  xy: 184, 488
-  size: 143, 143
-  orig: 180, 180
-  offset: 19, 18
+  xy: 525, 447
+  size: 153, 153
+  orig: 192, 192
+  offset: 20, 19
   index: -1
 effect/skillF/yueyam/yueyam_00003
   rotate: false
-  xy: 542, 757
-  size: 145, 146
-  orig: 180, 180
-  offset: 17, 17
+  xy: 196, 449
+  size: 155, 156
+  orig: 192, 192
+  offset: 18, 18
   index: -1
 effect/skillF/yueyam/yueyam_00004
   rotate: false
-  xy: 391, 722
-  size: 149, 149
-  orig: 180, 180
-  offset: 16, 15
+  xy: 529, 699
+  size: 159, 159
+  orig: 192, 192
+  offset: 17, 16
   index: -1
 effect/skillF/yueyam/yueyam_00005
   rotate: false
-  xy: 2, 19
-  size: 152, 152
-  orig: 180, 180
-  offset: 15, 13
+  xy: 568, 860
+  size: 162, 162
+  orig: 192, 192
+  offset: 16, 14
   index: -1

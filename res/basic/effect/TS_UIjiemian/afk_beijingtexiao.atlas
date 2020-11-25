@@ -1,0 +1,83 @@
+
+afk_beijingtexiao.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+beijingtexiao/0
+  rotate: false
+  xy: 2, 2
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+beijingtexiao/wenli10
+  rotate: false
+  xy: 2, 28
+  size: 77, 79
+  orig: 77, 79
+  offset: 0, 0
+  index: -1
+beijingtexiao/wenli11
+  rotate: false
+  xy: 2, 109
+  size: 142, 142
+  orig: 142, 142
+  offset: 0, 0
+  index: -1
+beijingtexiao/wenli2
+  rotate: false
+  xy: 328, 411
+  size: 101, 20
+  orig: 101, 20
+  offset: 0, 0
+  index: -1
+beijingtexiao/wenli3
+  rotate: true
+  xy: 266, 322
+  size: 83, 17
+  orig: 83, 17
+  offset: 0, 0
+  index: -1
+beijingtexiao/wenli4
+  rotate: false
+  xy: 156, 271
+  size: 108, 134
+  orig: 108, 134
+  offset: 0, 0
+  index: -1
+beijingtexiao/wenli5
+  rotate: false
+  xy: 156, 253
+  size: 42, 16
+  orig: 42, 16
+  offset: 0, 0
+  index: -1
+beijingtexiao/wenli6
+  rotate: false
+  xy: 81, 92
+  size: 14, 15
+  orig: 14, 15
+  offset: 0, 0
+  index: -1
+beijingtexiao/wenli7
+  rotate: false
+  xy: 146, 236
+  size: 39, 15
+  orig: 39, 15
+  offset: 0, 0
+  index: -1
+beijingtexiao/wenli8
+  rotate: false
+  xy: 2, 407
+  size: 324, 24
+  orig: 324, 24
+  offset: 0, 0
+  index: -1
+beijingtexiao/wenli9
+  rotate: false
+  xy: 2, 253
+  size: 152, 152
+  orig: 152, 152
+  offset: 0, 0
+  index: -1

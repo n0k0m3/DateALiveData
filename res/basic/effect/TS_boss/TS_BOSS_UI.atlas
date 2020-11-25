@@ -1,0 +1,41 @@
+
+TS_BOSS_UI.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+huan1
+  rotate: false
+  xy: 260, 137
+  size: 174, 173
+  orig: 174, 173
+  offset: 0, 0
+  index: -1
+huan2
+  rotate: false
+  xy: 2, 21
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+huan3
+  rotate: false
+  xy: 2, 223
+  size: 256, 257
+  orig: 256, 257
+  offset: 0, 0
+  index: -1
+sanjiao
+  rotate: false
+  xy: 2, 2
+  size: 15, 17
+  orig: 15, 17
+  offset: 0, 0
+  index: -1
+xianhuan
+  rotate: false
+  xy: 260, 312
+  size: 190, 168
+  orig: 190, 168
+  offset: 0, 0
+  index: -1

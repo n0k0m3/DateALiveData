@@ -1,0 +1,41 @@
+
+wutai3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+31_000
+  rotate: false
+  xy: 2, 559
+  size: 612, 337
+  orig: 682, 423
+  offset: 25, 30
+  index: -1
+daxingxing_000
+  rotate: false
+  xy: 2, 14
+  size: 285, 184
+  orig: 682, 423
+  offset: 191, 127
+  index: -1
+guang_000
+  rotate: false
+  xy: 2, 200
+  size: 591, 357
+  orig: 682, 423
+  offset: 33, 23
+  index: -1
+xiaoxingxing_000
+  rotate: false
+  xy: 616, 608
+  size: 120, 85
+  orig: 141, 120
+  offset: 9, 13
+  index: -1
+xingguang_000
+  rotate: false
+  xy: 616, 695
+  size: 280, 201
+  orig: 284, 202
+  offset: 2, 1
+  index: -1

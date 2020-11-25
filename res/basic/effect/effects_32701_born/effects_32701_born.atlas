@@ -1,0 +1,111 @@
+
+effects_32701_born.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_L/skillB/quan2/quan2_00032
+  rotate: false
+  xy: 161, 20
+  size: 48, 92
+  orig: 169, 194
+  offset: 78, 56
+  index: -1
+images/effects_L/skillB/quan2/quan2_00034
+  rotate: false
+  xy: 111, 114
+  size: 99, 144
+  orig: 169, 194
+  offset: 17, 18
+  index: -1
+images/effects_L/skillB/quan2/quan2_00036
+  rotate: false
+  xy: 220, 300
+  size: 128, 118
+  orig: 169, 194
+  offset: 19, 18
+  index: -1
+images/effects_L/skillB/quan2/quan2_00038
+  rotate: false
+  xy: 2, 265
+  size: 117, 159
+  orig: 169, 194
+  offset: 35, 8
+  index: -1
+images/effects_L/skillB/quan2/quan2_00040
+  rotate: false
+  xy: 2, 106
+  size: 107, 157
+  orig: 169, 194
+  offset: 43, 19
+  index: -1
+images/effects_L/skillB/quan2/quan2_00042
+  rotate: false
+  xy: 121, 260
+  size: 97, 164
+  orig: 169, 194
+  offset: 50, 17
+  index: -1
+images/effects_L/skillB/quan2/quan2_00044
+  rotate: true
+  xy: 257, 420
+  size: 89, 163
+  orig: 169, 194
+  offset: 58, 16
+  index: -1
+images/effects_L/skillD/glow_00013
+  rotate: false
+  xy: 2, 426
+  size: 253, 83
+  orig: 259, 95
+  offset: 4, 4
+  index: -1
+images/effects_L/skillD/yanwu/yanwu_00007
+  rotate: false
+  xy: 220, 258
+  size: 113, 40
+  orig: 189, 74
+  offset: 36, 7
+  index: -1
+images/effects_L/skillD/yanwu/yanwu_00008
+  rotate: false
+  xy: 2, 2
+  size: 148, 49
+  orig: 189, 74
+  offset: 22, 7
+  index: -1
+images/effects_L/skillD/yanwu/yanwu_00009
+  rotate: false
+  xy: 2, 53
+  size: 157, 51
+  orig: 189, 74
+  offset: 19, 7
+  index: -1
+images/effects_L/skillD/yanwu/yanwu_00010
+  rotate: true
+  xy: 350, 256
+  size: 162, 52
+  orig: 189, 74
+  offset: 17, 7
+  index: -1
+images/effects_L/skillD/yanwu/yanwu_00011
+  rotate: true
+  xy: 404, 255
+  size: 163, 52
+  orig: 189, 74
+  offset: 16, 7
+  index: -1
+images/effects_L/skillD/yanwu/yanwu_00012
+  rotate: true
+  xy: 212, 94
+  size: 162, 51
+  orig: 189, 74
+  offset: 17, 7
+  index: -1
+images/effects_L/skillD/yanwu/yanwu_00013
+  rotate: true
+  xy: 265, 95
+  size: 161, 40
+  orig: 189, 74
+  offset: 17, 7
+  index: -1

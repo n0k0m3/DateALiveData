@@ -1,0 +1,808 @@
+
+effects_12501_exskillB2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/exskillb/dian/dian_000
+  rotate: false
+  xy: 908, 243
+  size: 113, 72
+  orig: 240, 160
+  offset: 58, 45
+  index: -1
+effects/exskillb/dian/dian_006
+  rotate: false
+  xy: 485, 351
+  size: 128, 61
+  orig: 240, 160
+  offset: 55, 49
+  index: -1
+effects/exskillb/dian/dian_008
+  rotate: true
+  xy: 485, 138
+  size: 211, 68
+  orig: 240, 160
+  offset: 0, 50
+  index: -1
+effects/exskillb/dian/dian_013
+  rotate: false
+  xy: 485, 414
+  size: 131, 62
+  orig: 240, 160
+  offset: 56, 50
+  index: -1
+effects/exskillb/dibao/dibao_001
+  rotate: false
+  xy: 977, 194
+  size: 45, 47
+  orig: 280, 200
+  offset: 68, 143
+  index: -1
+effects/exskillb/dibao/dibao_006
+  rotate: false
+  xy: 152, 521
+  size: 275, 176
+  orig: 280, 200
+  offset: 5, 1
+  index: -1
+effects/exskillb/dichong/dichong_003
+  rotate: true
+  xy: 2, 2
+  size: 132, 441
+  orig: 160, 448
+  offset: 12, 1
+  index: -1
+effects/exskillb/dichong/dichong_005
+  rotate: true
+  xy: 445, 884
+  size: 138, 430
+  orig: 160, 448
+  offset: 8, 12
+  index: -1
+effects/exskillb/dichong/dichong_007
+  rotate: true
+  xy: 445, 630
+  size: 112, 430
+  orig: 160, 448
+  offset: 22, 12
+  index: -1
+effects/exskillb/dichong/dichong_015
+  rotate: true
+  xy: 445, 516
+  size: 112, 430
+  orig: 160, 448
+  offset: 22, 12
+  index: -1
+effects/exskillb/dichong/dichong_017
+  rotate: true
+  xy: 445, 744
+  size: 138, 430
+  orig: 160, 448
+  offset: 8, 12
+  index: -1
+effects/exskillb/dichong/dichong_020
+  rotate: false
+  xy: 2, 580
+  size: 148, 442
+  orig: 160, 448
+  offset: 6, 0
+  index: -1
+effects/exskillb/dichong/dichong_022
+  rotate: false
+  xy: 2, 136
+  size: 148, 442
+  orig: 160, 448
+  offset: 6, 0
+  index: -1
+effects/exskillb/dikuo/dikuo_001
+  rotate: false
+  xy: 485, 478
+  size: 135, 36
+  orig: 256, 80
+  offset: 61, 22
+  index: -1
+effects/exskillb/dikuo/dikuo_005
+  rotate: true
+  xy: 908, 3
+  size: 238, 67
+  orig: 256, 80
+  offset: 10, 5
+  index: -1
+effects/exskillb/guangxian_000
+  rotate: false
+  xy: 429, 537
+  size: 11, 160
+  orig: 16, 160
+  offset: 2, 0
+  index: -1
+effects/exskillb/hit/hit_001
+  rotate: true
+  xy: 622, 2
+  size: 262, 284
+  orig: 400, 400
+  offset: 73, 57
+  index: -1
+effects/exskillb/hit/hit_006
+  rotate: false
+  xy: 152, 136
+  size: 331, 378
+  orig: 400, 400
+  offset: 29, 11
+  index: -1
+effects/exskillb/hit/hit_008
+  rotate: false
+  xy: 152, 699
+  size: 286, 323
+  orig: 400, 400
+  offset: 60, 36
+  index: -1
+effects/exskillb/hit/hit_010
+  rotate: false
+  xy: 622, 266
+  size: 249, 248
+  orig: 400, 400
+  offset: 73, 81
+  index: -1
+effects/exskillb/kulou/kulou_000
+  rotate: true
+  xy: 877, 846
+  size: 176, 144
+  orig: 176, 144
+  offset: 0, 0
+  index: -1
+effects/exskillb/kulou/kulou_002
+  rotate: true
+  xy: 877, 668
+  size: 176, 144
+  orig: 176, 144
+  offset: 0, 0
+  index: -1
+effects/exskillb/kulou/kulou_004
+  rotate: true
+  xy: 877, 490
+  size: 176, 144
+  orig: 176, 144
+  offset: 0, 0
+  index: -1
+effects/exskillb/shandian/shandian_001
+  rotate: false
+  xy: 445, 2
+  size: 175, 132
+  orig: 205, 205
+  offset: 15, 66
+  index: -1
+effects/exskillb/shandian/shandian_002
+  rotate: true
+  xy: 873, 317
+  size: 171, 149
+  orig: 205, 205
+  offset: 20, 34
+  index: -1
+effects/guangxian2_000
+  rotate: true
+  xy: 555, 159
+  size: 190, 64
+  orig: 200, 64
+  offset: 2, 0
+  index: -1
+
+effects_12501_exskillB22.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/exskillb/dian/dian_015
+  rotate: false
+  xy: 396, 188
+  size: 109, 63
+  orig: 240, 160
+  offset: 65, 49
+  index: -1
+effects/exskillb/dian/dian_018
+  rotate: true
+  xy: 644, 782
+  size: 112, 84
+  orig: 240, 160
+  offset: 49, 54
+  index: -1
+effects/exskillb/dian/dian_027
+  rotate: true
+  xy: 644, 896
+  size: 126, 84
+  orig: 240, 160
+  offset: 75, 62
+  index: -1
+effects/exskillb/dibao/dibao_005
+  rotate: false
+  xy: 711, 254
+  size: 277, 182
+  orig: 280, 200
+  offset: 3, 0
+  index: -1
+effects/exskillb/dibao/dibao_008
+  rotate: false
+  xy: 2, 2
+  size: 275, 158
+  orig: 280, 200
+  offset: 5, 1
+  index: -1
+effects/exskillb/dibao2/dibao2_004
+  rotate: true
+  xy: 388, 7
+  size: 160, 117
+  orig: 224, 160
+  offset: 29, 26
+  index: -1
+effects/exskillb/dibao2/dibao2_006
+  rotate: true
+  xy: 279, 2
+  size: 165, 107
+  orig: 224, 160
+  offset: 26, 26
+  index: -1
+effects/exskillb/dichi/dici_004
+  rotate: false
+  xy: 405, 756
+  size: 237, 266
+  orig: 280, 280
+  offset: 25, 14
+  index: -1
+effects/exskillb/dichong/dichong_001
+  rotate: true
+  xy: 405, 613
+  size: 141, 336
+  orig: 160, 448
+  offset: 8, 0
+  index: -1
+effects/exskillb/dichong/dichong_009
+  rotate: false
+  xy: 2, 593
+  size: 138, 429
+  orig: 160, 448
+  offset: 8, 13
+  index: -1
+effects/exskillb/dichong/dichong_011
+  rotate: false
+  xy: 2, 162
+  size: 112, 429
+  orig: 160, 448
+  offset: 22, 13
+  index: -1
+effects/exskillb/dichong/dichong_013
+  rotate: false
+  xy: 116, 163
+  size: 138, 428
+  orig: 160, 448
+  offset: 8, 14
+  index: -1
+effects/exskillb/dichong/dichong_021
+  rotate: false
+  xy: 256, 169
+  size: 138, 425
+  orig: 160, 448
+  offset: 8, 17
+  index: -1
+effects/exskillb/dichong/dichong_024
+  rotate: false
+  xy: 142, 595
+  size: 111, 427
+  orig: 160, 448
+  offset: 23, 15
+  index: -1
+effects/exskillb/dichong/dichong_026
+  rotate: false
+  xy: 255, 596
+  size: 79, 426
+  orig: 160, 448
+  offset: 38, 16
+  index: -1
+effects/exskillb/dichong/dichong_028
+  rotate: false
+  xy: 336, 611
+  size: 67, 411
+  orig: 160, 448
+  offset: 44, 20
+  index: -1
+effects/exskillb/hit/hit_000
+  rotate: true
+  xy: 738, 756
+  size: 266, 284
+  orig: 400, 400
+  offset: 68, 57
+  index: -1
+effects/exskillb/hit/hit_002
+  rotate: false
+  xy: 743, 438
+  size: 278, 316
+  orig: 400, 400
+  offset: 57, 42
+  index: -1
+effects/exskillb/hit/hit_004
+  rotate: false
+  xy: 396, 253
+  size: 313, 356
+  orig: 400, 400
+  offset: 38, 22
+  index: -1
+effects/exskillb/hit/hit_012
+  rotate: false
+  xy: 507, 4
+  size: 229, 247
+  orig: 400, 400
+  offset: 77, 80
+  index: -1
+effects/exskillb/hit/hit_013
+  rotate: false
+  xy: 738, 5
+  size: 223, 247
+  orig: 400, 400
+  offset: 77, 80
+  index: -1
+
+effects_12501_exskillB23.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/exskillb/dibao/dibao_004
+  rotate: true
+  xy: 2, 486
+  size: 277, 186
+  orig: 280, 200
+  offset: 3, 0
+  index: -1
+effects/exskillb/dibao/dibao_007
+  rotate: true
+  xy: 2, 209
+  size: 275, 171
+  orig: 280, 200
+  offset: 5, 1
+  index: -1
+effects/exskillb/dibao/dibao_009
+  rotate: true
+  xy: 190, 493
+  size: 270, 148
+  orig: 280, 200
+  offset: 10, 2
+  index: -1
+effects/exskillb/dibao2/dibao2_002
+  rotate: false
+  xy: 849, 19
+  size: 149, 101
+  orig: 224, 160
+  offset: 35, 25
+  index: -1
+effects/exskillb/dichi/dici_002
+  rotate: false
+  xy: 340, 531
+  size: 196, 258
+  orig: 280, 280
+  offset: 34, 11
+  index: -1
+effects/exskillb/dichi/dici_006
+  rotate: false
+  xy: 2, 765
+  size: 229, 257
+  orig: 280, 280
+  offset: 27, 22
+  index: -1
+effects/exskillb/dichi/dici_008
+  rotate: false
+  xy: 177, 2
+  size: 224, 224
+  orig: 280, 280
+  offset: 32, 30
+  index: -1
+effects/exskillb/dichi/dici_010
+  rotate: false
+  xy: 538, 271
+  size: 224, 221
+  orig: 280, 280
+  offset: 32, 33
+  index: -1
+effects/exskillb/dichi/dici_012
+  rotate: true
+  xy: 403, 16
+  size: 224, 221
+  orig: 280, 280
+  offset: 32, 33
+  index: -1
+effects/exskillb/dichi/dici_018
+  rotate: true
+  xy: 626, 45
+  size: 224, 221
+  orig: 280, 280
+  offset: 32, 33
+  index: -1
+effects/exskillb/dichi/dici_026
+  rotate: false
+  xy: 771, 561
+  size: 228, 229
+  orig: 280, 280
+  offset: 30, 35
+  index: -1
+effects/exskillb/dichi/dici_028
+  rotate: false
+  xy: 538, 560
+  size: 231, 230
+  orig: 280, 280
+  offset: 29, 36
+  index: -1
+effects/exskillb/dichi/dici_030
+  rotate: false
+  xy: 704, 792
+  size: 232, 230
+  orig: 280, 280
+  offset: 29, 38
+  index: -1
+effects/exskillb/dichi/dici_032
+  rotate: false
+  xy: 233, 791
+  size: 234, 231
+  orig: 280, 280
+  offset: 28, 39
+  index: -1
+effects/exskillb/dichi/dici_034
+  rotate: false
+  xy: 469, 792
+  size: 233, 230
+  orig: 280, 280
+  offset: 28, 41
+  index: -1
+effects/exskillb/dichi/dici_036
+  rotate: false
+  xy: 771, 332
+  size: 229, 227
+  orig: 280, 280
+  offset: 31, 43
+  index: -1
+effects/exskillb/dichong/dichong_000
+  rotate: true
+  xy: 385, 381
+  size: 148, 151
+  orig: 160, 448
+  offset: 6, 0
+  index: -1
+effects/exskillb/dikuo/dikuo_007
+  rotate: true
+  xy: 175, 228
+  size: 256, 71
+  orig: 256, 80
+  offset: 0, 2
+  index: -1
+effects/exskillb/dikuo/dikuo_009
+  rotate: true
+  xy: 248, 235
+  size: 256, 72
+  orig: 256, 80
+  offset: 0, 1
+  index: -1
+effects/exskillb/dikuo/luoxuan_241
+  rotate: true
+  xy: 938, 794
+  size: 228, 64
+  orig: 256, 80
+  offset: 13, 8
+  index: -1
+effects/exskillb/dikuo/luoxuan_243
+  rotate: false
+  xy: 538, 494
+  size: 231, 64
+  orig: 256, 80
+  offset: 13, 8
+  index: -1
+effects/exskillb/diquan/diquan_000
+  rotate: true
+  xy: 322, 251
+  size: 240, 61
+  orig: 240, 80
+  offset: 0, 2
+  index: -1
+effects/exskillb/kulou/kuloub_000
+  rotate: true
+  xy: 849, 122
+  size: 208, 172
+  orig: 208, 176
+  offset: 0, 3
+  index: -1
+effects/exskillb/shandian/shandian_000
+  rotate: true
+  xy: 2, 5
+  size: 202, 173
+  orig: 205, 205
+  offset: 2, 27
+  index: -1
+effects/exskillb/shandian/shandian_003
+  rotate: true
+  xy: 385, 242
+  size: 137, 151
+  orig: 205, 205
+  offset: 38, 38
+  index: -1
+
+effects_12501_exskillB24.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/exskillb/dian/dian_001
+  rotate: true
+  xy: 814, 469
+  size: 174, 69
+  orig: 240, 160
+  offset: 35, 51
+  index: -1
+effects/exskillb/dian/dian_004
+  rotate: false
+  xy: 546, 431
+  size: 219, 68
+  orig: 240, 160
+  offset: 19, 48
+  index: -1
+effects/exskillb/dian/dian_010
+  rotate: false
+  xy: 2, 90
+  size: 203, 74
+  orig: 240, 160
+  offset: 15, 50
+  index: -1
+effects/exskillb/dian/dian_012
+  rotate: false
+  xy: 546, 360
+  size: 195, 69
+  orig: 240, 160
+  offset: 6, 52
+  index: -1
+effects/exskillb/dian/dian_016
+  rotate: false
+  xy: 890, 745
+  size: 104, 98
+  orig: 240, 160
+  offset: 58, 54
+  index: -1
+effects/exskillb/dian/dian_020
+  rotate: false
+  xy: 855, 667
+  size: 111, 76
+  orig: 240, 160
+  offset: 48, 63
+  index: -1
+effects/exskillb/dian/dian_022
+  rotate: true
+  xy: 673, 265
+  size: 93, 69
+  orig: 240, 160
+  offset: 49, 66
+  index: -1
+effects/exskillb/dian/dian_025
+  rotate: true
+  xy: 885, 568
+  size: 97, 64
+  orig: 240, 160
+  offset: 65, 58
+  index: -1
+effects/exskillb/dibao/dibao_002
+  rotate: false
+  xy: 228, 563
+  size: 100, 108
+  orig: 280, 200
+  offset: 44, 82
+  index: -1
+effects/exskillb/dibao/dibao_003
+  rotate: true
+  xy: 546, 284
+  size: 74, 125
+  orig: 280, 200
+  offset: 64, 64
+  index: -1
+effects/exskillb/dibao2/dibao2_008
+  rotate: true
+  xy: 890, 845
+  size: 149, 101
+  orig: 224, 160
+  offset: 37, 32
+  index: -1
+effects/exskillb/dichi/dici_001
+  rotate: false
+  xy: 228, 673
+  size: 141, 175
+  orig: 280, 280
+  offset: 52, 26
+  index: -1
+effects/exskillb/dichi/dici_022
+  rotate: false
+  xy: 2, 775
+  size: 224, 219
+  orig: 280, 280
+  offset: 32, 35
+  index: -1
+effects/exskillb/dichi/dici_024
+  rotate: false
+  xy: 2, 554
+  size: 224, 219
+  orig: 280, 280
+  offset: 32, 35
+  index: -1
+effects/exskillb/dikuo/dikuo_003
+  rotate: true
+  xy: 412, 283
+  size: 225, 65
+  orig: 256, 80
+  offset: 16, 6
+  index: -1
+effects/exskillb/dikuo/luoxuan_237
+  rotate: true
+  xy: 479, 283
+  size: 225, 65
+  orig: 256, 80
+  offset: 16, 7
+  index: -1
+effects/exskillb/dikuo/luoxuan_239
+  rotate: true
+  xy: 346, 281
+  size: 227, 64
+  orig: 256, 80
+  offset: 16, 8
+  index: -1
+effects/exskillb/dikuo/luoxuan_245
+  rotate: true
+  xy: 281, 238
+  size: 229, 63
+  orig: 256, 80
+  offset: 15, 8
+  index: -1
+effects/exskillb/diquan/diquan_002
+  rotate: true
+  xy: 146, 166
+  size: 240, 61
+  orig: 240, 80
+  offset: 0, 2
+  index: -1
+effects/exskillb/diquan/diquan_004
+  rotate: false
+  xy: 406, 789
+  size: 240, 61
+  orig: 240, 80
+  offset: 0, 2
+  index: -1
+effects/exskillb/diquan/diquan_006
+  rotate: false
+  xy: 648, 789
+  size: 240, 61
+  orig: 240, 80
+  offset: 0, 2
+  index: -1
+effects/exskillb/diquan/diquan_008
+  rotate: false
+  xy: 371, 654
+  size: 240, 61
+  orig: 240, 80
+  offset: 0, 2
+  index: -1
+effects/exskillb/kulou/kulou_006
+  rotate: false
+  xy: 228, 850
+  size: 176, 144
+  orig: 176, 144
+  offset: 0, 0
+  index: -1
+effects/exskillb/kulou/kulou_008
+  rotate: false
+  xy: 2, 408
+  size: 176, 144
+  orig: 176, 144
+  offset: 0, 0
+  index: -1
+effects/glow_000
+  rotate: false
+  xy: 885, 486
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+effects/quan/huang/huang_050
+  rotate: false
+  xy: 406, 924
+  size: 240, 70
+  orig: 240, 80
+  offset: 0, 0
+  index: -1
+effects/quan/huang/huang_052
+  rotate: true
+  xy: 2, 166
+  size: 240, 70
+  orig: 240, 80
+  offset: 0, 0
+  index: -1
+effects/quan/huang/huang_054
+  rotate: false
+  xy: 406, 852
+  size: 240, 70
+  orig: 240, 80
+  offset: 0, 0
+  index: -1
+effects/quan/huang/huang_056
+  rotate: false
+  xy: 648, 924
+  size: 240, 70
+  orig: 240, 80
+  offset: 0, 0
+  index: -1
+effects/quan/huang/huang_058
+  rotate: true
+  xy: 74, 166
+  size: 240, 70
+  orig: 240, 80
+  offset: 0, 0
+  index: -1
+effects/quan/lan/lan_050
+  rotate: false
+  xy: 648, 852
+  size: 240, 70
+  orig: 240, 80
+  offset: 0, 0
+  index: -1
+effects/quan/lan/lan_052
+  rotate: false
+  xy: 2, 18
+  size: 240, 70
+  orig: 240, 80
+  offset: 0, 0
+  index: -1
+effects/quan/lan/lan_054
+  rotate: false
+  xy: 371, 717
+  size: 240, 70
+  orig: 240, 80
+  offset: 0, 0
+  index: -1
+effects/quan/lan/lan_056
+  rotate: false
+  xy: 613, 717
+  size: 240, 70
+  orig: 240, 80
+  offset: 0, 0
+  index: -1
+effects/quan/lan/lan_058
+  rotate: false
+  xy: 613, 645
+  size: 240, 70
+  orig: 240, 80
+  offset: 0, 0
+  index: -1
+effects/quan/zi/zi_050
+  rotate: false
+  xy: 330, 582
+  size: 240, 70
+  orig: 240, 80
+  offset: 0, 0
+  index: -1
+effects/quan/zi/zi_052
+  rotate: false
+  xy: 572, 573
+  size: 240, 70
+  orig: 240, 80
+  offset: 0, 0
+  index: -1
+effects/quan/zi/zi_054
+  rotate: false
+  xy: 330, 510
+  size: 240, 70
+  orig: 240, 80
+  offset: 0, 0
+  index: -1
+effects/quan/zi/zi_056
+  rotate: false
+  xy: 572, 501
+  size: 240, 70
+  orig: 240, 80
+  offset: 0, 0
+  index: -1
+effects/quan/zi/zi_058
+  rotate: true
+  xy: 209, 227
+  size: 240, 70
+  orig: 240, 80
+  offset: 0, 0
+  index: -1

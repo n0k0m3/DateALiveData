@@ -1,0 +1,47 @@
+
+TS_zhuye.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_L/fuwen_011
+  rotate: true
+  xy: 445, 108
+  size: 204, 236
+  orig: 216, 239
+  offset: 5, 1
+  index: -1
+effect_L/icon_010
+  rotate: true
+  xy: 2, 2
+  size: 310, 441
+  orig: 316, 445
+  offset: 3, 3
+  index: -1
+effect_L/mian1_014
+  rotate: true
+  xy: 751, 260
+  size: 694, 108
+  orig: 1386, 222
+  offset: 346, 55
+  index: -1
+effect_L/mian3_014
+  rotate: false
+  xy: 2, 314
+  size: 747, 640
+  orig: 758, 640
+  offset: 0, 0
+  index: -1
+
+TS_zhuye2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_L/mian2_014
+  rotate: false
+  xy: 2, 108
+  size: 746, 640
+  orig: 752, 640
+  offset: 6, 0
+  index: -1

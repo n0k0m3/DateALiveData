@@ -1,0 +1,132 @@
+
+effects_afk_reward.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baoxiang
+  rotate: false
+  xy: 261, 408
+  size: 56, 50
+  orig: 56, 50
+  offset: 0, 0
+  index: -1
+baoxiangguang
+  rotate: false
+  xy: 2, 445
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+lizi/lizi_00000
+  rotate: false
+  xy: 377, 401
+  size: 55, 51
+  orig: 1386, 640
+  offset: 663, 290
+  index: -1
+lizi/lizi_00002
+  rotate: true
+  xy: 2, 170
+  size: 61, 56
+  orig: 1386, 640
+  offset: 656, 286
+  index: -1
+lizi/lizi_00004
+  rotate: false
+  xy: 133, 450
+  size: 62, 60
+  orig: 1386, 640
+  offset: 655, 284
+  index: -1
+lizi/lizi_00006
+  rotate: false
+  xy: 197, 460
+  size: 69, 50
+  orig: 1386, 640
+  offset: 655, 287
+  index: -1
+lizi/lizi_00008
+  rotate: true
+  xy: 2, 233
+  size: 69, 52
+  orig: 1386, 640
+  offset: 656, 286
+  index: -1
+lizi/lizi_00010
+  rotate: true
+  xy: 2, 304
+  size: 69, 55
+  orig: 1386, 640
+  offset: 656, 285
+  index: -1
+lizi/lizi_00012
+  rotate: true
+  xy: 2, 375
+  size: 68, 59
+  orig: 1386, 640
+  offset: 657, 287
+  index: -1
+lizi/lizi_00014
+  rotate: false
+  xy: 68, 448
+  size: 63, 62
+  orig: 1386, 640
+  offset: 661, 285
+  index: -1
+lizi/lizi_00016
+  rotate: false
+  xy: 197, 413
+  size: 62, 45
+  orig: 1386, 640
+  offset: 662, 287
+  index: -1
+lizi/lizi_00018
+  rotate: false
+  xy: 268, 460
+  size: 61, 50
+  orig: 1386, 640
+  offset: 662, 287
+  index: -1
+lizi/lizi_00020
+  rotate: false
+  xy: 331, 456
+  size: 60, 54
+  orig: 1386, 640
+  offset: 662, 286
+  index: -1
+lizi/lizi_00022
+  rotate: false
+  xy: 2, 107
+  size: 55, 61
+  orig: 1386, 640
+  offset: 661, 285
+  index: -1
+lizi/lizi_00024
+  rotate: true
+  xy: 393, 454
+  size: 56, 58
+  orig: 1386, 640
+  offset: 662, 288
+  index: -1
+lizi/lizi_00026
+  rotate: true
+  xy: 453, 454
+  size: 56, 57
+  orig: 1386, 640
+  offset: 662, 286
+  index: -1
+lizi/lizi_00028
+  rotate: false
+  xy: 319, 405
+  size: 56, 49
+  orig: 1386, 640
+  offset: 662, 287
+  index: -1
+miaobian
+  rotate: true
+  xy: 2, 45
+  size: 60, 59
+  orig: 60, 59
+  offset: 0, 0
+  index: -1

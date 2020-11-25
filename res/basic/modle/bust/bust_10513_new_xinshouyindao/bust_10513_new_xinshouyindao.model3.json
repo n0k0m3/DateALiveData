@@ -1,0 +1,210 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "bust_10513_new_xinshouyindao.moc3",
+		"Textures": [
+			"bust_10513_new_xinshouyindao.1024/texture_00.png",
+			"bust_10513_new_xinshouyindao.1024/texture_01.png",
+			"bust_10513_new_xinshouyindao.1024/texture_02.png",
+			"bust_10513_new_xinshouyindao.1024/texture_03.png",
+			"bust_10513_new_xinshouyindao.1024/texture_04.png"
+		],
+		"Physics": "bust_10513_new_xinshouyindao.physics3.json",
+		"Motions": {
+			"Idle": [
+				{
+					"File": "motions/idle.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				}
+			],
+			"Id_angry": [
+				{
+					"File": "motions/id_angry.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				}
+			],
+			"Id_dress": [
+				{
+					"File": "motions/id_dress.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				}
+			],
+			"Id_favor1_1": [
+				{
+					"File": "motions/id_favor1_1.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				}
+			],
+			"Id_favor1_2": [
+				{
+					"File": "motions/id_favor1_2.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				}
+			],
+			"Id_favor1_3": [
+				{
+					"File": "motions/id_favor1_3.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				}
+			],
+			"Id_favor2_1": [
+				{
+					"File": "motions/id_favor2_1.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				}
+			],
+			"Id_favor3_1": [
+				{
+					"File": "motions/id_favor3_1.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				}
+			],
+			"Id_favor4_1": [
+				{
+					"File": "motions/id_favor4_1.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				}
+			],
+			"Id_favor5_1": [
+				{
+					"File": "motions/id_favor5_1.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				}
+			],
+			"Id_happy": [
+				{
+					"File": "motions/id_happy.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				}
+			],
+			"Id_normal_1": [
+				{
+					"File": "motions/id_normal_1.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				}
+			],
+			"Id_normal_10": [
+				{
+					"File": "motions/id_normal_10.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				}
+			],
+			"Id_normal_11": [
+				{
+					"File": "motions/id_normal_11.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				}
+			],
+			"Id_normal_12": [
+				{
+					"File": "motions/id_normal_12.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				}
+			],
+			"Id_normal_13": [
+				{
+					"File": "motions/id_normal_13.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				}
+			],
+			"Id_normal_2": [
+				{
+					"File": "motions/id_normal_2.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				}
+			],
+			"Id_normal_3": [
+				{
+					"File": "motions/id_normal_3.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				}
+			],
+			"Id_normal_4": [
+				{
+					"File": "motions/id_normal_4.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				}
+			],
+			"Id_normal_5": [
+				{
+					"File": "motions/id_normal_5.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				}
+			],
+			"Id_normal_6": [
+				{
+					"File": "motions/id_normal_6.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				}
+			],
+			"Id_normal_7": [
+				{
+					"File": "motions/id_normal_7.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				}
+			],
+			"Id_normal_8": [
+				{
+					"File": "motions/id_normal_8.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				}
+			],
+			"Id_normal_9": [
+				{
+					"File": "motions/id_normal_9.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	],
+	"HitAreas": [
+		{
+			"Id": "HitArea",
+			"Name": "head"
+		},
+		{
+			"Id": "HitArea2",
+			"Name": "body"
+		},
+		{
+			"Id": "HitArea3",
+			"Name": "tui"
+		}
+	]
+}

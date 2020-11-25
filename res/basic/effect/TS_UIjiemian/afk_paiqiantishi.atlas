@@ -1,0 +1,104 @@
+
+afk_paiqiantishi.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+paiqiantishi/danzi
+  rotate: false
+  xy: 919, 987
+  size: 100, 32
+  orig: 100, 32
+  offset: 0, 0
+  index: -1
+paiqiantishi/di1
+  rotate: false
+  xy: 2, 924
+  size: 915, 95
+  orig: 915, 95
+  offset: 0, 0
+  index: -1
+paiqiantishi/di2
+  rotate: false
+  xy: 2, 853
+  size: 913, 69
+  orig: 913, 69
+  offset: 0, 0
+  index: -1
+paiqiantishi/di3
+  rotate: false
+  xy: 2, 809
+  size: 913, 42
+  orig: 913, 42
+  offset: 0, 0
+  index: -1
+paiqiantishi/xunhuantiao/xunhuantiao_00000
+  rotate: false
+  xy: 2, 803
+  size: 120, 4
+  orig: 150, 62
+  offset: 16, 27
+  index: -1
+paiqiantishi/xunhuantiao/xunhuantiao_00001
+  rotate: false
+  xy: 2, 797
+  size: 120, 4
+  orig: 150, 62
+  offset: 16, 27
+  index: -1
+paiqiantishi/xunhuantiao/xunhuantiao_00002
+  rotate: false
+  xy: 124, 803
+  size: 120, 4
+  orig: 150, 62
+  offset: 16, 27
+  index: -1
+paiqiantishi/xunhuantiao/xunhuantiao_00003
+  rotate: false
+  xy: 2, 791
+  size: 120, 4
+  orig: 150, 62
+  offset: 16, 27
+  index: -1
+paiqiantishi/xunhuantiao/xunhuantiao_00004
+  rotate: false
+  xy: 124, 797
+  size: 120, 4
+  orig: 150, 62
+  offset: 16, 27
+  index: -1
+paiqiantishi/xunhuantiao/xunhuantiao_00005
+  rotate: false
+  xy: 246, 803
+  size: 120, 4
+  orig: 150, 62
+  offset: 16, 27
+  index: -1
+paiqiantishi/xunhuantiao/xunhuantiao_00006
+  rotate: false
+  xy: 2, 785
+  size: 120, 4
+  orig: 150, 62
+  offset: 16, 27
+  index: -1
+paiqiantishi/xunhuantiao/xunhuantiao_00007
+  rotate: false
+  xy: 124, 791
+  size: 120, 4
+  orig: 150, 62
+  offset: 16, 27
+  index: -1
+paiqiantishi/xunhuantiao/xunhuantiao_00008
+  rotate: false
+  xy: 246, 797
+  size: 120, 4
+  orig: 150, 62
+  offset: 16, 27
+  index: -1
+paiqiantishi/xunhuantiao/xunhuantiao_00009
+  rotate: false
+  xy: 368, 803
+  size: 116, 4
+  orig: 150, 62
+  offset: 18, 27
+  index: -1

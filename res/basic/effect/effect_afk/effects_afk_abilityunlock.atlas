@@ -1,0 +1,27 @@
+
+effects_afk_abilityunlock.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/abilityunlock/bian_000
+  rotate: false
+  xy: 2, 117
+  size: 128, 133
+  orig: 129, 133
+  offset: 1, 0
+  index: -1
+images/abilityunlock/guang_033
+  rotate: true
+  xy: 2, 2
+  size: 113, 121
+  orig: 129, 133
+  offset: 7, 5
+  index: -1
+images/abilityunlock/suotou
+  rotate: false
+  xy: 132, 176
+  size: 72, 74
+  orig: 72, 74
+  offset: 0, 0
+  index: -1

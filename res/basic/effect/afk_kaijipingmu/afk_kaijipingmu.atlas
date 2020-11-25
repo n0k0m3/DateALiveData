@@ -1,0 +1,55 @@
+
+afk_kaijipingmu.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+beijingkaiji/kaijiwenli/kaijiwenli_00000
+  rotate: true
+  xy: 789, 367
+  size: 602, 180
+  orig: 615, 196
+  offset: 7, 7
+  index: -1
+beijingkaiji/kaijiwenli/kaijiwenli_00001
+  rotate: false
+  xy: 2, 788
+  size: 602, 181
+  orig: 615, 196
+  offset: 7, 7
+  index: -1
+beijingkaiji/kaijiwenli/kaijiwenli_00002
+  rotate: false
+  xy: 2, 605
+  size: 602, 181
+  orig: 615, 196
+  offset: 7, 7
+  index: -1
+beijingkaiji/kaijiwenli/kaijiwenli_00003
+  rotate: false
+  xy: 2, 422
+  size: 602, 181
+  orig: 615, 196
+  offset: 7, 7
+  index: -1
+beijingkaiji/kaijiwenli/kaijiwenli_00004
+  rotate: false
+  xy: 2, 239
+  size: 602, 181
+  orig: 615, 196
+  offset: 7, 7
+  index: -1
+beijingkaiji/kaijiwenli/kaijiwenli_00005
+  rotate: true
+  xy: 606, 367
+  size: 602, 181
+  orig: 615, 196
+  offset: 7, 7
+  index: -1
+beijingkaiji/kaijiwenli/kaijiwenli_00006
+  rotate: false
+  xy: 2, 56
+  size: 602, 181
+  orig: 615, 196
+  offset: 7, 7
+  index: -1

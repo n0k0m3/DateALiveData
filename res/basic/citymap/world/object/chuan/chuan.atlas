@@ -1,0 +1,34 @@
+
+chuan.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+c1
+  rotate: false
+  xy: 2, 2
+  size: 404, 244
+  orig: 404, 244
+  offset: 0, 0
+  index: -1
+c3
+  rotate: false
+  xy: 778, 144
+  size: 127, 102
+  orig: 127, 102
+  offset: 0, 0
+  index: -1
+c4
+  rotate: false
+  xy: 778, 89
+  size: 47, 53
+  orig: 47, 53
+  offset: 0, 0
+  index: -1
+shui
+  rotate: false
+  xy: 408, 30
+  size: 368, 216
+  orig: 368, 216
+  offset: 0, 0
+  index: -1

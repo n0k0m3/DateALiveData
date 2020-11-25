@@ -1,0 +1,405 @@
+
+FS_ShadowWolf.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guanzi1
+  rotate: false
+  xy: 2, 5
+  size: 49, 52
+  orig: 53, 56
+  offset: 2, 2
+  index: -1
+guanzi2
+  rotate: true
+  xy: 354, 581
+  size: 54, 52
+  orig: 58, 56
+  offset: 2, 2
+  index: -1
+jiti1
+  rotate: false
+  xy: 525, 908
+  size: 190, 114
+  orig: 194, 118
+  offset: 2, 2
+  index: -1
+jiti2
+  rotate: false
+  xy: 173, 778
+  size: 166, 89
+  orig: 170, 93
+  offset: 2, 2
+  index: -1
+jiti3
+  rotate: true
+  xy: 44, 212
+  size: 129, 65
+  orig: 133, 69
+  offset: 2, 2
+  index: -1
+jiti5
+  rotate: false
+  xy: 2, 869
+  size: 521, 153
+  orig: 525, 157
+  offset: 2, 2
+  index: -1
+jiti6
+  rotate: false
+  xy: 2, 688
+  size: 169, 179
+  orig: 173, 183
+  offset: 2, 2
+  index: -1
+shandian/dian1/dian1_000
+  rotate: true
+  xy: 103, 2
+  size: 36, 37
+  orig: 60, 100
+  offset: 16, 1
+  index: -1
+shandian/dian1/dian1_001
+  rotate: false
+  xy: 928, 812
+  size: 43, 79
+  orig: 60, 100
+  offset: 17, 2
+  index: -1
+shandian/dian1/dian1_002
+  rotate: true
+  xy: 142, 14
+  size: 45, 83
+  orig: 60, 100
+  offset: 15, 4
+  index: -1
+shandian/dian1/dian1_003
+  rotate: false
+  xy: 879, 679
+  size: 41, 45
+  orig: 60, 100
+  offset: 0, 5
+  index: -1
+shandian/dian1/dian1_004
+  rotate: false
+  xy: 927, 714
+  size: 56, 96
+  orig: 60, 100
+  offset: 4, 0
+  index: -1
+shandian/dian1/dian1_005
+  rotate: false
+  xy: 164, 596
+  size: 38, 90
+  orig: 60, 100
+  offset: 20, 10
+  index: -1
+shandian/dian2/dian2_000
+  rotate: true
+  xy: 992, 946
+  size: 76, 23
+  orig: 100, 140
+  offset: 11, 9
+  index: -1
+shandian/dian2/dian2_001
+  rotate: true
+  xy: 293, 611
+  size: 83, 35
+  orig: 100, 140
+  offset: 11, 18
+  index: -1
+shandian/dian2/dian2_002
+  rotate: false
+  xy: 53, 40
+  size: 82, 71
+  orig: 100, 140
+  offset: 11, 27
+  index: -1
+shandian/dian2/dian2_003
+  rotate: true
+  xy: 737, 726
+  size: 87, 97
+  orig: 100, 140
+  offset: 11, 31
+  index: -1
+shandian/dian2/dian2_004
+  rotate: true
+  xy: 137, 150
+  size: 88, 78
+  orig: 100, 140
+  offset: 11, 57
+  index: -1
+shandian/dian3/dian3_006
+  rotate: false
+  xy: 856, 943
+  size: 134, 79
+  orig: 170, 140
+  offset: 35, 21
+  index: -1
+shandian/dian3/dian3_007
+  rotate: false
+  xy: 341, 782
+  size: 144, 85
+  orig: 170, 140
+  offset: 25, 18
+  index: -1
+shandian/dian3/dian3_008
+  rotate: false
+  xy: 173, 696
+  size: 153, 80
+  orig: 170, 140
+  offset: 10, 19
+  index: -1
+shandian/dian3/dian3_009
+  rotate: false
+  xy: 487, 753
+  size: 103, 102
+  orig: 170, 140
+  offset: 7, 21
+  index: -1
+shandian/dian3/dian3_010
+  rotate: false
+  xy: 2, 343
+  size: 130, 111
+  orig: 170, 140
+  offset: 4, 19
+  index: -1
+shandian/dian3/dian3_011
+  rotate: false
+  xy: 2, 568
+  size: 160, 118
+  orig: 170, 140
+  offset: 8, 18
+  index: -1
+shandian/dian3/dian3_012
+  rotate: false
+  xy: 717, 915
+  size: 137, 107
+  orig: 170, 140
+  offset: 33, 22
+  index: -1
+shandian/dian3/dian3_013
+  rotate: false
+  xy: 2, 456
+  size: 134, 110
+  orig: 170, 140
+  offset: 32, 18
+  index: -1
+siwangyan/yan_000
+  rotate: false
+  xy: 353, 507
+  size: 31, 30
+  orig: 128, 128
+  offset: 37, 16
+  index: -1
+siwangyan/yan_001
+  rotate: true
+  xy: 293, 539
+  size: 70, 59
+  orig: 128, 128
+  offset: 12, 16
+  index: -1
+siwangyan/yan_002
+  rotate: true
+  xy: 272, 461
+  size: 76, 79
+  orig: 128, 128
+  offset: 5, 16
+  index: -1
+siwangyan/yan_003
+  rotate: false
+  xy: 53, 113
+  size: 82, 97
+  orig: 128, 128
+  offset: 7, 16
+  index: -1
+siwangyan/yan_004
+  rotate: false
+  xy: 737, 815
+  size: 88, 98
+  orig: 128, 128
+  offset: 7, 16
+  index: -1
+siwangyan/yan_005
+  rotate: false
+  xy: 643, 754
+  size: 92, 101
+  orig: 128, 128
+  offset: 7, 16
+  index: -1
+siwangyan/yan_006
+  rotate: false
+  xy: 111, 240
+  size: 73, 101
+  orig: 128, 128
+  offset: 29, 16
+  index: -1
+siwangyan/yan_007
+  rotate: true
+  xy: 827, 815
+  size: 76, 99
+  orig: 128, 128
+  offset: 30, 16
+  index: -1
+siwangyan/yan_008
+  rotate: true
+  xy: 204, 543
+  size: 70, 87
+  orig: 128, 128
+  offset: 39, 17
+  index: -1
+siwangyan/yan_009
+  rotate: true
+  xy: 643, 693
+  size: 59, 84
+  orig: 128, 128
+  offset: 51, 17
+  index: -1
+siwangyan/yan_010
+  rotate: true
+  xy: 729, 673
+  size: 51, 73
+  orig: 128, 128
+  offset: 63, 17
+  index: -1
+siwangyan/yan_011
+  rotate: true
+  xy: 636, 857
+  size: 49, 73
+  orig: 128, 128
+  offset: 69, 17
+  index: -1
+siwangyan/yan_012
+  rotate: true
+  xy: 922, 659
+  size: 53, 71
+  orig: 128, 128
+  offset: 72, 18
+  index: -1
+siwangyan/yan_013
+  rotate: true
+  xy: 53, 2
+  size: 36, 48
+  orig: 128, 128
+  offset: 86, 19
+  index: -1
+siwangyan/yan_014
+  rotate: false
+  xy: 354, 539
+  size: 32, 40
+  orig: 128, 128
+  offset: 89, 22
+  index: -1
+siwangyan/yan_015
+  rotate: true
+  xy: 879, 649
+  size: 28, 41
+  orig: 128, 128
+  offset: 93, 26
+  index: -1
+weiyan/weiyan_001
+  rotate: true
+  xy: 2, 59
+  size: 109, 49
+  orig: 120, 60
+  offset: 9, 6
+  index: -1
+weiyan/weiyan_003
+  rotate: false
+  xy: 525, 857
+  size: 109, 49
+  orig: 120, 60
+  offset: 9, 6
+  index: -1
+weiyan/weiyan_005
+  rotate: true
+  xy: 592, 748
+  size: 107, 49
+  orig: 120, 60
+  offset: 10, 7
+  index: -1
+weiyan/weiyan_007
+  rotate: false
+  xy: 856, 893
+  size: 109, 48
+  orig: 120, 60
+  offset: 9, 6
+  index: -1
+weiyan/weiyan_009
+  rotate: true
+  xy: 138, 457
+  size: 109, 50
+  orig: 120, 60
+  offset: 9, 6
+  index: -1
+xiaohuobao/boom_000
+  rotate: true
+  xy: 330, 637
+  size: 65, 63
+  orig: 100, 100
+  offset: 18, 7
+  index: -1
+xiaohuobao/boom_001
+  rotate: false
+  xy: 394, 714
+  size: 65, 66
+  orig: 100, 100
+  offset: 18, 6
+  index: -1
+xiaohuobao/boom_002
+  rotate: false
+  xy: 836, 726
+  size: 89, 87
+  orig: 100, 100
+  offset: 9, 0
+  index: -1
+xiaohuobao/boom_003
+  rotate: true
+  xy: 137, 61
+  size: 87, 85
+  orig: 100, 100
+  offset: 7, 1
+  index: -1
+xiaohuobao/boom_004
+  rotate: false
+  xy: 204, 615
+  size: 87, 79
+  orig: 100, 100
+  offset: 5, 5
+  index: -1
+xiaohuobao/boom_005
+  rotate: false
+  xy: 190, 465
+  size: 80, 76
+  orig: 100, 100
+  offset: 8, 7
+  index: -1
+xiaohuobao/boom_006
+  rotate: false
+  xy: 804, 660
+  size: 73, 64
+  orig: 100, 100
+  offset: 14, 17
+  index: -1
+xiaohuobao/boom_007
+  rotate: true
+  xy: 328, 704
+  size: 72, 64
+  orig: 100, 100
+  offset: 14, 18
+  index: -1
+xiaohuobao/boom_008
+  rotate: true
+  xy: 395, 646
+  size: 66, 61
+  orig: 100, 100
+  offset: 19, 19
+  index: -1
+yinqing
+  rotate: true
+  xy: 2, 170
+  size: 171, 40
+  orig: 175, 42
+  offset: 2, 2
+  index: -1

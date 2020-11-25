@@ -1,0 +1,41 @@
+
+qiaoqiaoban.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+qqb1
+  rotate: false
+  xy: 326, 99
+  size: 40, 42
+  orig: 40, 42
+  offset: 0, 0
+  index: -1
+qqb2
+  rotate: false
+  xy: 326, 55
+  size: 40, 42
+  orig: 40, 42
+  offset: 0, 0
+  index: -1
+qqb3
+  rotate: false
+  xy: 326, 143
+  size: 94, 87
+  orig: 94, 87
+  offset: 0, 0
+  index: -1
+qqb4
+  rotate: false
+  xy: 2, 2
+  size: 322, 228
+  orig: 322, 228
+  offset: 0, 0
+  index: -1
+qqb5
+  rotate: true
+  xy: 422, 156
+  size: 74, 88
+  orig: 74, 88
+  offset: 0, 0
+  index: -1

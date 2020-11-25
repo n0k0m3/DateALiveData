@@ -90,7 +90,7 @@
 					"FadeOutTime": 0
 				}
 			],
-			"": [
+			"Id_happy": [
 				{
 					"File": "motions/id_happy.motion3.json",
 					"FadeInTime": 0,

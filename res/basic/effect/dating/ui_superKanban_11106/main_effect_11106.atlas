@@ -1,0 +1,90 @@
+
+main_effect_11106.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/chuanlian/you_000
+  rotate: true
+  xy: 2, 86
+  size: 286, 485
+  orig: 286, 485
+  offset: 0, 0
+  index: -1
+images/chuanlian/zuo_000
+  rotate: true
+  xy: 568, 791
+  size: 228, 389
+  orig: 228, 389
+  offset: 0, 0
+  index: -1
+images/guang1
+  rotate: false
+  xy: 2, 690
+  size: 564, 329
+  orig: 564, 329
+  offset: 0, 0
+  index: -1
+images/guang2
+  rotate: true
+  xy: 516, 378
+  size: 310, 269
+  orig: 310, 269
+  offset: 0, 0
+  index: -1
+images/guang4
+  rotate: false
+  xy: 2, 374
+  size: 512, 314
+  orig: 512, 314
+  offset: 0, 0
+  index: -1
+images/huacao
+  rotate: true
+  xy: 787, 355
+  size: 162, 174
+  orig: 162, 174
+  offset: 0, 0
+  index: -1
+images/qiu
+  rotate: false
+  xy: 787, 519
+  size: 193, 183
+  orig: 193, 183
+  offset: 0, 0
+  index: -1
+images/xingxing
+  rotate: false
+  xy: 959, 967
+  size: 52, 52
+  orig: 52, 52
+  offset: 0, 0
+  index: -1
+images/yun/yun1_000
+  rotate: false
+  xy: 2, 19
+  size: 477, 65
+  orig: 477, 65
+  offset: 0, 0
+  index: -1
+images/yun/yun2_000
+  rotate: true
+  xy: 982, 166
+  size: 536, 37
+  orig: 536, 37
+  offset: 0, 0
+  index: -1
+images/yun/yun3_000
+  rotate: false
+  xy: 568, 740
+  size: 448, 49
+  orig: 448, 49
+  offset: 0, 0
+  index: -1
+images/yun/yun4_000
+  rotate: false
+  xy: 568, 704
+  size: 417, 34
+  orig: 417, 34
+  offset: 0, 0
+  index: -1

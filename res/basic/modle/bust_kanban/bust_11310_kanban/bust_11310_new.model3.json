@@ -6,7 +6,8 @@
 			"bust_11310_new.1024/texture_00.png",
 			"bust_11310_new.1024/texture_01.png",
 			"bust_11310_new.1024/texture_02.png",
-			"bust_11310_new.1024/texture_03.png"
+			"bust_11310_new.1024/texture_03.png",
+			"bust_11310_new.1024/texture_04.png"
 		],
 		"Physics": "bust_11310_new.physics3.json",
 		"Motions": {
@@ -99,15 +100,15 @@
 	"Groups": [
 		{
 			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
 			"Name": "LipSync",
 			"Ids": [
 				"PARAM_MOUTH_OPEN_Y"
 			]
-		},
-		{
-			"Target": "Parameter",
-			"Name": "EyeBlink",
-			"Ids": []
 		}
 	],
 	"HitAreas": [

@@ -1,0 +1,362 @@
+
+effects_12501_skillA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillA/bansuishandian/shandian_11
+  rotate: false
+  xy: 925, 622
+  size: 97, 56
+  orig: 160, 120
+  offset: 25, 33
+  index: -1
+images/effects/skillA/bansuishandian/shandian_15
+  rotate: true
+  xy: 548, 329
+  size: 99, 56
+  orig: 160, 120
+  offset: 23, 34
+  index: -1
+images/effects/skillA/bansuishandian/shandian_18
+  rotate: false
+  xy: 528, 272
+  size: 75, 49
+  orig: 160, 120
+  offset: 47, 27
+  index: -1
+images/effects/skillA/bansuishandian/shandian_2
+  rotate: false
+  xy: 217, 207
+  size: 56, 44
+  orig: 160, 120
+  offset: 26, 42
+  index: -1
+images/effects/skillA/bansuishandian/shandian_7
+  rotate: false
+  xy: 528, 230
+  size: 72, 40
+  orig: 160, 120
+  offset: 26, 36
+  index: -1
+images/effects/skillA/bansuishandian/shandian_8
+  rotate: true
+  xy: 848, 327
+  size: 103, 46
+  orig: 160, 120
+  offset: 23, 33
+  index: -1
+images/effects/skillA/bansuishandian/shandian_9
+  rotate: false
+  xy: 920, 680
+  size: 100, 59
+  orig: 160, 120
+  offset: 25, 31
+  index: -1
+images/effects/skillA/hit/hit_0
+  rotate: false
+  xy: 414, 13
+  size: 189, 189
+  orig: 240, 240
+  offset: 30, 25
+  index: -1
+images/effects/skillA/hit/hit_1
+  rotate: true
+  xy: 217, 13
+  size: 189, 195
+  orig: 240, 240
+  offset: 30, 19
+  index: -1
+images/effects/skillA/hit/hit_3
+  rotate: true
+  xy: 813, 121
+  size: 202, 206
+  orig: 240, 240
+  offset: 26, 11
+  index: -1
+images/effects/skillA/hit/hit_5
+  rotate: false
+  xy: 2, 38
+  size: 213, 213
+  orig: 240, 240
+  offset: 19, 7
+  index: -1
+images/effects/skillA/hit/hit_7
+  rotate: false
+  xy: 605, 120
+  size: 206, 203
+  orig: 240, 240
+  offset: 26, 12
+  index: -1
+images/effects/skillA/shifa/shifa_16
+  rotate: false
+  xy: 286, 204
+  size: 240, 117
+  orig: 240, 160
+  offset: 0, 6
+  index: -1
+images/effects/skillA/shifa/shifa_20
+  rotate: false
+  xy: 606, 325
+  size: 240, 105
+  orig: 240, 160
+  offset: 0, 24
+  index: -1
+images/effects/skillA/shifa1/shifa1_27
+  rotate: false
+  xy: 605, 23
+  size: 227, 95
+  orig: 320, 160
+  offset: 50, 26
+  index: -1
+images/effects/skillA/shifa1/shifa1_29
+  rotate: false
+  xy: 290, 430
+  size: 314, 97
+  orig: 320, 160
+  offset: 5, 30
+  index: -1
+images/effects/skillA/shifa1/shifa1_30
+  rotate: false
+  xy: 309, 529
+  size: 315, 89
+  orig: 320, 160
+  offset: 3, 39
+  index: -1
+images/effects/skillA/shifa1/shifa1_32
+  rotate: false
+  xy: 324, 620
+  size: 304, 89
+  orig: 320, 160
+  offset: 6, 40
+  index: -1
+images/effects/skillA/shifa1/shifa1_33
+  rotate: false
+  xy: 630, 585
+  size: 293, 89
+  orig: 320, 160
+  offset: 7, 40
+  index: -1
+images/effects/skillA/shifa2/shifa2_36
+  rotate: false
+  xy: 2, 402
+  size: 286, 143
+  orig: 320, 160
+  offset: 25, 6
+  index: -1
+images/effects/skillA/shifa2/shifa2_37
+  rotate: false
+  xy: 626, 432
+  size: 275, 151
+  orig: 320, 160
+  offset: 36, 2
+  index: -1
+images/effects/skillA/shifa2/shifa2_39
+  rotate: false
+  xy: 2, 547
+  size: 305, 151
+  orig: 320, 160
+  offset: 6, 2
+  index: -1
+images/effects/skillA/shifa2/shifa2_41
+  rotate: false
+  xy: 324, 711
+  size: 306, 149
+  orig: 320, 160
+  offset: 2, 2
+  index: -1
+images/effects/skillA/shifa2/shifa2_43
+  rotate: false
+  xy: 2, 253
+  size: 282, 147
+  orig: 320, 160
+  offset: 14, 3
+  index: -1
+images/effects/skillA/shifa3/shifa3_49
+  rotate: false
+  xy: 834, 26
+  size: 184, 93
+  orig: 320, 120
+  offset: 6, 24
+  index: -1
+images/effects/skillA/shifa3/shifa3_50
+  rotate: false
+  xy: 632, 676
+  size: 286, 101
+  orig: 320, 120
+  offset: 12, 17
+  index: -1
+images/effects/skillA/shifa3/shifa3_52
+  rotate: true
+  xy: 922, 741
+  size: 281, 100
+  orig: 320, 120
+  offset: 31, 16
+  index: -1
+images/effects/skillA/shifa3/shifa3_54
+  rotate: false
+  xy: 632, 779
+  size: 288, 81
+  orig: 320, 120
+  offset: 32, 21
+  index: -1
+images/effects/skillA/shifa4/shifa4_68
+  rotate: false
+  xy: 290, 323
+  size: 256, 105
+  orig: 320, 160
+  offset: 29, 23
+  index: -1
+images/effects/skillA/shifa4/shifa4_69
+  rotate: false
+  xy: 2, 862
+  size: 320, 160
+  orig: 320, 160
+  offset: 0, 0
+  index: -1
+images/effects/skillA/shifa4/shifa4_70
+  rotate: false
+  xy: 2, 700
+  size: 320, 160
+  orig: 320, 160
+  offset: 0, 0
+  index: -1
+images/effects/skillA/shifa4/shifa4_72
+  rotate: false
+  xy: 324, 862
+  size: 309, 160
+  orig: 320, 160
+  offset: 11, 0
+  index: -1
+images/effects/skillA/shifa4/shifa4_74
+  rotate: false
+  xy: 635, 862
+  size: 285, 160
+  orig: 320, 160
+  offset: 35, 0
+  index: -1
+images/effects/skillA/shifa4/shifa4_76
+  rotate: true
+  xy: 903, 343
+  size: 240, 119
+  orig: 320, 160
+  offset: 38, 21
+  index: -1
+
+effects_12501_skillA2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillA/bansuishandian/shandian_0
+  rotate: false
+  xy: 2, 27
+  size: 58, 40
+  orig: 160, 120
+  offset: 22, 45
+  index: -1
+images/effects/skillA/bansuishandian/shandian_17
+  rotate: true
+  xy: 346, 669
+  size: 77, 45
+  orig: 160, 120
+  offset: 45, 28
+  index: -1
+images/effects/skillA/glow_1
+  rotate: false
+  xy: 264, 666
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+images/effects/skillA/hit/hit_11
+  rotate: true
+  xy: 915, 904
+  size: 118, 107
+  orig: 240, 240
+  offset: 64, 62
+  index: -1
+images/effects/skillA/hit/hit_9
+  rotate: false
+  xy: 264, 748
+  size: 154, 154
+  orig: 240, 240
+  offset: 46, 39
+  index: -1
+images/effects/skillA/shifa/shifa_15
+  rotate: false
+  xy: 465, 843
+  size: 199, 90
+  orig: 240, 160
+  offset: 1, 24
+  index: -1
+images/effects/skillA/shifa/shifa_18
+  rotate: false
+  xy: 2, 900
+  size: 228, 122
+  orig: 240, 160
+  offset: 12, 7
+  index: -1
+images/effects/skillA/shifa/shifa_22
+  rotate: true
+  xy: 2, 424
+  size: 240, 89
+  orig: 240, 160
+  offset: 0, 40
+  index: -1
+images/effects/skillA/shifa/shifa_23
+  rotate: false
+  xy: 465, 935
+  size: 238, 87
+  orig: 240, 160
+  offset: 0, 41
+  index: -1
+images/effects/skillA/shifa1/shifa1_25
+  rotate: true
+  xy: 2, 69
+  size: 119, 64
+  orig: 320, 160
+  offset: 157, 28
+  index: -1
+images/effects/skillA/shifa1/shifa1_26
+  rotate: false
+  xy: 705, 940
+  size: 208, 82
+  orig: 320, 160
+  offset: 69, 26
+  index: -1
+images/effects/skillA/shifa2/shifa2_35
+  rotate: true
+  xy: 121, 692
+  size: 206, 141
+  orig: 320, 160
+  offset: 60, 6
+  index: -1
+images/effects/skillA/shifa3/shifa3_48
+  rotate: true
+  xy: 420, 821
+  size: 81, 41
+  orig: 320, 120
+  offset: 7, 64
+  index: -1
+images/effects/skillA/shifa4/shifa4_67
+  rotate: true
+  xy: 2, 190
+  size: 232, 81
+  orig: 320, 160
+  offset: 20, 30
+  index: -1
+images/effects/skillA/shifa4/shifa4_78
+  rotate: true
+  xy: 2, 666
+  size: 232, 117
+  orig: 320, 160
+  offset: 38, 23
+  index: -1
+images/effects/skillA/shifa4/shifa4_80
+  rotate: false
+  xy: 232, 904
+  size: 231, 118
+  orig: 320, 160
+  offset: 40, 23
+  index: -1

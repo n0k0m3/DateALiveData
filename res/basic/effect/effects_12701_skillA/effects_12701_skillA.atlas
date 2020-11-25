@@ -1,0 +1,773 @@
+
+effects_12701_skillA.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_L/2A/chong/chong_156
+  rotate: false
+  xy: 604, 2
+  size: 278, 249
+  orig: 301, 262
+  offset: 6, 0
+  index: -1
+images/effects_L/2A/chong/chong_157
+  rotate: false
+  xy: 307, 2
+  size: 295, 249
+  orig: 301, 262
+  offset: 0, 0
+  index: -1
+images/effects_L/2A/chong/chong_158
+  rotate: false
+  xy: 330, 496
+  size: 300, 249
+  orig: 301, 262
+  offset: 0, 0
+  index: -1
+images/effects_L/2A/chong/chong_160
+  rotate: false
+  xy: 330, 253
+  size: 296, 241
+  orig: 301, 262
+  offset: 1, 0
+  index: -1
+images/effects_L/2A/chong/chong_176
+  rotate: false
+  xy: 628, 253
+  size: 154, 232
+  orig: 301, 262
+  offset: 67, 0
+  index: -1
+images/effects_L/quan/quan_00024
+  rotate: false
+  xy: 784, 253
+  size: 218, 116
+  orig: 254, 135
+  offset: 14, 14
+  index: -1
+images/effects_L/quan/quan_00036
+  rotate: true
+  xy: 976, 880
+  size: 142, 46
+  orig: 254, 135
+  offset: 55, 73
+  index: -1
+images/effects_L/quan/quan_00038
+  rotate: true
+  xy: 964, 581
+  size: 124, 41
+  orig: 254, 135
+  offset: 65, 78
+  index: -1
+images/effects_L/skillA1AAAA/boom/boom_127
+  rotate: false
+  xy: 338, 747
+  size: 299, 275
+  orig: 355, 276
+  offset: 30, 0
+  index: -1
+images/effects_L/skillA1AAAA/boom/boom_128
+  rotate: false
+  xy: 2, 202
+  size: 303, 274
+  orig: 355, 276
+  offset: 30, 0
+  index: -1
+images/effects_L/skillA1AAAA/boom/boom_130
+  rotate: false
+  xy: 2, 478
+  size: 326, 272
+  orig: 355, 276
+  offset: 21, 0
+  index: -1
+images/effects_L/skillA1AAAA/boom/boom_132
+  rotate: false
+  xy: 2, 752
+  size: 334, 270
+  orig: 355, 276
+  offset: 19, 0
+  index: -1
+images/effects_L/skillA1AAAA/boom/boom_134
+  rotate: false
+  xy: 639, 801
+  size: 335, 221
+  orig: 355, 276
+  offset: 19, 0
+  index: -1
+images/effects_L/skillA1AAAA/boom/boom_136
+  rotate: false
+  xy: 632, 487
+  size: 330, 218
+  orig: 355, 276
+  offset: 21, 0
+  index: -1
+images/effects_L/skillA1AAAA/boom/boom_138
+  rotate: false
+  xy: 2, 12
+  size: 250, 188
+  orig: 355, 276
+  offset: 47, 0
+  index: -1
+images/effects_L/skillA1AAAA/ci/ci_008
+  rotate: true
+  xy: 254, 26
+  size: 174, 20
+  orig: 389, 111
+  offset: 5, 44
+  index: -1
+images/effects_L/skillA1AAAA/ci/ci_009
+  rotate: false
+  xy: 639, 707
+  size: 379, 92
+  orig: 389, 111
+  offset: 4, 9
+  index: -1
+images/effects_L/skillA1AAAA/daoguang1/daoguang1_024
+  rotate: false
+  xy: 784, 371
+  size: 238, 114
+  orig: 341, 134
+  offset: 76, 10
+  index: -1
+images/effects_L/skillA1AAAA/ti/ti_041
+  rotate: false
+  xy: 884, 33
+  size: 133, 218
+  orig: 141, 229
+  offset: 3, 0
+  index: -1
+
+effects_12701_skillA2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillC/shanbi/shanbi_001
+  rotate: false
+  xy: 536, 219
+  size: 182, 191
+  orig: 210, 231
+  offset: 14, 18
+  index: -1
+images/effects/skillC/shanbi/shanbi_005
+  rotate: true
+  xy: 720, 120
+  size: 196, 212
+  orig: 210, 231
+  offset: 6, 10
+  index: -1
+images/effects/skillC/shanbi/shanbi_009
+  rotate: true
+  xy: 711, 2
+  size: 116, 141
+  orig: 210, 231
+  offset: 48, 47
+  index: -1
+images/effects_L/2A/chong/chong_164
+  rotate: false
+  xy: 356, 414
+  size: 212, 227
+  orig: 301, 262
+  offset: 48, 0
+  index: -1
+images/effects_L/2A/chong/chong_166
+  rotate: true
+  xy: 486, 5
+  size: 212, 223
+  orig: 301, 262
+  offset: 47, 0
+  index: -1
+images/effects_L/2A/chong/chong_168
+  rotate: true
+  xy: 2, 5
+  size: 208, 214
+  orig: 301, 262
+  offset: 49, 0
+  index: -1
+images/effects_L/2A/chong/chong_170
+  rotate: false
+  xy: 720, 318
+  size: 204, 223
+  orig: 301, 262
+  offset: 51, 0
+  index: -1
+images/effects_L/2A/chong/chong_172
+  rotate: false
+  xy: 337, 2
+  size: 147, 224
+  orig: 301, 262
+  offset: 70, 0
+  index: -1
+images/effects_L/2A/chong/chong_174
+  rotate: false
+  xy: 570, 412
+  size: 148, 229
+  orig: 301, 262
+  offset: 69, 0
+  index: -1
+images/effects_L/quan/quan_00026
+  rotate: true
+  xy: 218, 2
+  size: 217, 117
+  orig: 254, 135
+  offset: 15, 13
+  index: -1
+images/effects_L/skillA1AAAA/boom/boom_140
+  rotate: false
+  xy: 720, 543
+  size: 246, 187
+  orig: 355, 276
+  offset: 49, 0
+  index: -1
+images/effects_L/skillA1AAAA/boom/boom_148
+  rotate: false
+  xy: 854, 8
+  size: 156, 110
+  orig: 355, 276
+  offset: 91, 0
+  index: -1
+images/effects_L/skillA1AAAA/ci/ci_010
+  rotate: false
+  xy: 2, 932
+  size: 374, 90
+  orig: 389, 111
+  offset: 9, 10
+  index: -1
+images/effects_L/skillA1AAAA/ci/ci_011
+  rotate: false
+  xy: 2, 842
+  size: 372, 88
+  orig: 389, 111
+  offset: 10, 11
+  index: -1
+images/effects_L/skillA1AAAA/ci/ci_013
+  rotate: false
+  xy: 378, 936
+  size: 370, 86
+  orig: 389, 111
+  offset: 10, 11
+  index: -1
+images/effects_L/skillA1AAAA/ci/ci_015
+  rotate: false
+  xy: 2, 668
+  size: 364, 85
+  orig: 389, 111
+  offset: 11, 12
+  index: -1
+images/effects_L/skillA1AAAA/ci/ci_017
+  rotate: false
+  xy: 2, 755
+  size: 365, 85
+  orig: 389, 111
+  offset: 12, 12
+  index: -1
+images/effects_L/skillA1AAAA/ci/ci_019
+  rotate: false
+  xy: 378, 849
+  size: 333, 85
+  orig: 389, 111
+  offset: 14, 12
+  index: -1
+images/effects_L/skillA1AAAA/ci/ci_021
+  rotate: false
+  xy: 368, 643
+  size: 313, 84
+  orig: 389, 111
+  offset: 14, 13
+  index: -1
+images/effects_L/skillA1AAAA/daoguang1/daoguang1_025
+  rotate: true
+  xy: 237, 228
+  size: 319, 117
+  orig: 341, 134
+  offset: 7, 5
+  index: -1
+images/effects_L/skillA1AAAA/daoguang1/daoguang1_026
+  rotate: false
+  xy: 376, 729
+  size: 319, 118
+  orig: 341, 134
+  offset: 7, 5
+  index: -1
+images/effects_L/skillA1AAAA/daoguang1/daoguang1_028
+  rotate: true
+  xy: 119, 221
+  size: 326, 116
+  orig: 341, 134
+  offset: 5, 4
+  index: -1
+images/effects_L/skillA1AAAA/daoguang1/daoguang1_030
+  rotate: false
+  xy: 2, 549
+  size: 331, 117
+  orig: 341, 134
+  offset: 4, 3
+  index: -1
+images/effects_L/skillA1AAAA/daoguang1/daoguang1_032
+  rotate: true
+  xy: 2, 215
+  size: 332, 115
+  orig: 341, 134
+  offset: 1, 5
+  index: -1
+images/effects_L/skillA1AAAA/daoguang1/daoguang1_034
+  rotate: false
+  xy: 697, 732
+  size: 283, 109
+  orig: 341, 134
+  offset: 20, 11
+  index: -1
+images/effects_L/skillA1AAAA/daoguang1/daoguang1_036
+  rotate: false
+  xy: 750, 917
+  size: 254, 105
+  orig: 341, 134
+  offset: 51, 15
+  index: -1
+images/effects_L/skillA1AAAA/dimian/dimian_140
+  rotate: false
+  xy: 713, 843
+  size: 287, 72
+  orig: 291, 81
+  offset: 0, 3
+  index: -1
+images/effects_L/skillA1AAAA/quan_129
+  rotate: true
+  xy: 926, 318
+  size: 223, 69
+  orig: 224, 71
+  offset: 0, 0
+  index: -1
+images/effects_L/skillA1AAAA/ti/ti_050
+  rotate: false
+  xy: 934, 151
+  size: 88, 165
+  orig: 141, 229
+  offset: 19, 11
+  index: -1
+images/effects_L/skillA1AAAA/xingxing/xingxing_080
+  rotate: true
+  xy: 356, 228
+  size: 184, 178
+  orig: 221, 231
+  offset: 16, 16
+  index: -1
+
+effects_12701_skillA3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillC/shanbi/shanbi_003
+  rotate: false
+  xy: 2, 747
+  size: 192, 201
+  orig: 210, 231
+  offset: 9, 15
+  index: -1
+images/effects/skillC/shanbi/shanbi_007
+  rotate: false
+  xy: 837, 521
+  size: 157, 216
+  orig: 210, 231
+  offset: 27, 9
+  index: -1
+images/effects_L/2A/chong/chong_162
+  rotate: true
+  xy: 291, 801
+  size: 221, 201
+  orig: 301, 262
+  offset: 39, 0
+  index: -1
+images/effects_L/2A/chong/chong_180
+  rotate: false
+  xy: 549, 157
+  size: 154, 180
+  orig: 301, 262
+  offset: 67, 0
+  index: -1
+images/effects_L/glow1_128
+  rotate: true
+  xy: 196, 698
+  size: 250, 81
+  orig: 255, 86
+  offset: 5, 0
+  index: -1
+images/effects_L/glow_008
+  rotate: true
+  xy: 693, 10
+  size: 70, 71
+  orig: 87, 79
+  offset: 8, 3
+  index: -1
+images/effects_L/quan/quan_00022
+  rotate: true
+  xy: 181, 2
+  size: 219, 114
+  orig: 254, 135
+  offset: 14, 16
+  index: -1
+images/effects_L/skillA1AAAA/beijing_095
+  rotate: true
+  xy: 867, 843
+  size: 179, 99
+  orig: 179, 99
+  offset: 0, 0
+  index: -1
+images/effects_L/skillA1AAAA/boom/boom_142
+  rotate: true
+  xy: 2, 505
+  size: 240, 183
+  orig: 355, 276
+  offset: 52, 0
+  index: -1
+images/effects_L/skillA1AAAA/boom/boom_144
+  rotate: false
+  xy: 475, 339
+  size: 228, 170
+  orig: 355, 276
+  offset: 58, 0
+  index: -1
+images/effects_L/skillA1AAAA/boom/boom_146
+  rotate: true
+  xy: 362, 240
+  size: 170, 111
+  orig: 355, 276
+  offset: 86, 0
+  index: -1
+images/effects_L/skillA1AAAA/boom/boom_150
+  rotate: false
+  xy: 2, 13
+  size: 152, 94
+  orig: 355, 276
+  offset: 91, 15
+  index: -1
+images/effects_L/skillA1AAAA/dimian/dimian_144
+  rotate: false
+  xy: 2, 950
+  size: 287, 72
+  orig: 291, 81
+  offset: 0, 3
+  index: -1
+images/effects_L/skillA1AAAA/dimian/dimian_148
+  rotate: false
+  xy: 187, 624
+  size: 287, 72
+  orig: 291, 81
+  offset: 0, 3
+  index: -1
+images/effects_L/skillA1AAAA/dimian/dimian_152
+  rotate: true
+  xy: 475, 50
+  size: 287, 72
+  orig: 291, 81
+  offset: 0, 3
+  index: -1
+images/effects_L/skillA1AAAA/kuo_129
+  rotate: false
+  xy: 549, 82
+  size: 274, 73
+  orig: 274, 73
+  offset: 0, 0
+  index: -1
+images/effects_L/skillA1AAAA/ti/ti_045
+  rotate: false
+  xy: 367, 412
+  size: 106, 210
+  orig: 141, 229
+  offset: 5, 0
+  index: -1
+images/effects_L/skillA1AAAA/ti/ti_046
+  rotate: true
+  xy: 811, 739
+  size: 102, 208
+  orig: 141, 229
+  offset: 6, 0
+  index: -1
+images/effects_L/skillA1AAAA/ti/ti_047
+  rotate: false
+  xy: 362, 31
+  size: 103, 207
+  orig: 141, 229
+  offset: 5, 0
+  index: -1
+images/effects_L/skillA1AAAA/ti/ti_049
+  rotate: true
+  xy: 458, 699
+  size: 100, 173
+  orig: 141, 229
+  offset: 8, 5
+  index: -1
+images/effects_L/skillA1AAAA/ti/ti_051
+  rotate: true
+  xy: 549, 6
+  size: 74, 142
+  orig: 141, 229
+  offset: 30, 24
+  index: -1
+images/effects_L/skillA1AAAA/xingxing/xingxing_076
+  rotate: true
+  xy: 279, 699
+  size: 100, 177
+  orig: 221, 231
+  offset: 29, 21
+  index: -1
+images/effects_L/skillA1AAAA/xingxing/xingxing_078
+  rotate: false
+  xy: 883, 166
+  size: 131, 175
+  orig: 221, 231
+  offset: 8, 20
+  index: -1
+images/effects_L/skillA1AAAA/xingxing/xingxing_082
+  rotate: false
+  xy: 883, 343
+  size: 137, 176
+  orig: 221, 231
+  offset: 35, 19
+  index: -1
+images/effects_L/skillA1AAAA/xingxing/xingxing_084
+  rotate: true
+  xy: 825, 6
+  size: 154, 174
+  orig: 221, 231
+  offset: 28, 22
+  index: -1
+images/effects_L/skillA1AAAA/xingxing/xingxing_086
+  rotate: true
+  xy: 633, 699
+  size: 140, 176
+  orig: 221, 231
+  offset: 28, 23
+  index: -1
+images/effects_L/skillA1AAAA/xingxing/xingxing_090
+  rotate: true
+  xy: 705, 162
+  size: 166, 176
+  orig: 221, 231
+  offset: 26, 24
+  index: -1
+images/effects_L/skillA1AAAA/xingxing/xingxing_092
+  rotate: true
+  xy: 705, 330
+  size: 188, 176
+  orig: 221, 231
+  offset: 9, 25
+  index: -1
+images/effects_L/skillA1AAAA/xingxing/xingxing_094
+  rotate: true
+  xy: 2, 304
+  size: 199, 178
+  orig: 221, 231
+  offset: 0, 25
+  index: -1
+images/effects_L/skillA1AAAA/xingxing/xingxing_096
+  rotate: true
+  xy: 2, 109
+  size: 193, 177
+  orig: 221, 231
+  offset: 9, 26
+  index: -1
+images/effects_L/skillA1AAAA/xingxing/xingxing_100
+  rotate: true
+  xy: 187, 414
+  size: 208, 178
+  orig: 221, 231
+  offset: 7, 28
+  index: -1
+images/effects_L/skillA1AAAA/xingxing/xingxing_102
+  rotate: true
+  xy: 182, 223
+  size: 189, 178
+  orig: 221, 231
+  offset: 8, 28
+  index: -1
+images/effects_L/skillA1AAAA/xingxing/xingxing_108
+  rotate: true
+  xy: 657, 520
+  size: 177, 178
+  orig: 221, 231
+  offset: 14, 27
+  index: -1
+images/effects_L/skillA1AAAA/xingxing/xingxing_110
+  rotate: false
+  xy: 682, 843
+  size: 183, 179
+  orig: 221, 231
+  offset: 13, 27
+  index: -1
+images/effects_L/skillA1AAAA/xingxing/xingxing_112
+  rotate: true
+  xy: 476, 511
+  size: 186, 179
+  orig: 221, 231
+  offset: 13, 27
+  index: -1
+images/effects_L/skillA1AAAA/xingxing/xingxing_114
+  rotate: false
+  xy: 494, 841
+  size: 186, 181
+  orig: 221, 231
+  offset: 15, 26
+  index: -1
+
+effects_12701_skillA4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/skillC/shanbi/shanbi_000
+  rotate: false
+  xy: 2, 625
+  size: 162, 202
+  orig: 210, 231
+  offset: 26, 14
+  index: -1
+images/effects_L/2A/chong/chong_178
+  rotate: false
+  xy: 621, 666
+  size: 152, 188
+  orig: 301, 262
+  offset: 67, 0
+  index: -1
+images/effects_L/quan/quan_00028
+  rotate: false
+  xy: 786, 910
+  size: 216, 92
+  orig: 254, 135
+  offset: 18, 37
+  index: -1
+images/effects_L/quan/quan_00030
+  rotate: true
+  xy: 166, 619
+  size: 208, 87
+  orig: 254, 135
+  offset: 25, 38
+  index: -1
+images/effects_L/quan/quan_00032
+  rotate: false
+  xy: 255, 597
+  size: 200, 80
+  orig: 254, 135
+  offset: 29, 41
+  index: -1
+images/effects_L/quan/quan_00034
+  rotate: false
+  xy: 76, 50
+  size: 183, 67
+  orig: 254, 135
+  offset: 32, 52
+  index: -1
+images/effects_L/skillA1AAAA/dimian/dimian_128
+  rotate: false
+  xy: 497, 856
+  size: 284, 72
+  orig: 291, 81
+  offset: 0, 3
+  index: -1
+images/effects_L/skillA1AAAA/dimian/dimian_132
+  rotate: true
+  xy: 2, 48
+  size: 286, 72
+  orig: 291, 81
+  offset: 0, 3
+  index: -1
+images/effects_L/skillA1AAAA/dimian/dimian_136
+  rotate: true
+  xy: 76, 337
+  size: 286, 72
+  orig: 291, 81
+  offset: 0, 3
+  index: -1
+images/effects_L/skillA1AAAA/dimian/dimian_156
+  rotate: false
+  xy: 208, 930
+  size: 287, 72
+  orig: 291, 81
+  offset: 0, 3
+  index: -1
+images/effects_L/skillA1AAAA/dimian/dimian_160
+  rotate: true
+  xy: 2, 336
+  size: 287, 72
+  orig: 291, 81
+  offset: 0, 3
+  index: -1
+images/effects_L/skillA1AAAA/dimian/dimian_164
+  rotate: false
+  xy: 208, 856
+  size: 287, 72
+  orig: 291, 81
+  offset: 0, 3
+  index: -1
+images/effects_L/skillA1AAAA/dimian/dimian_168
+  rotate: false
+  xy: 497, 930
+  size: 287, 72
+  orig: 291, 81
+  offset: 0, 3
+  index: -1
+images/effects_L/skillA1AAAA/ti/ti_042
+  rotate: false
+  xy: 76, 119
+  size: 126, 216
+  orig: 141, 229
+  offset: 5, 0
+  index: -1
+images/effects_L/skillA1AAAA/ti/ti_043
+  rotate: true
+  xy: 783, 785
+  size: 123, 216
+  orig: 141, 229
+  offset: 8, 0
+  index: -1
+images/effects_L/skillA1AAAA/ti/ti_044
+  rotate: true
+  xy: 775, 663
+  size: 120, 213
+  orig: 141, 229
+  offset: 4, 0
+  index: -1
+images/effects_L/skillA1AAAA/ti/ti_048
+  rotate: false
+  xy: 150, 433
+  size: 99, 184
+  orig: 141, 229
+  offset: 9, 1
+  index: -1
+images/effects_L/skillA1AAAA/ti/ti_052
+  rotate: true
+  xy: 457, 610
+  size: 68, 117
+  orig: 141, 229
+  offset: 37, 43
+  index: -1
+images/effects_L/skillA1AAAA/xingxing/xingxing_088
+  rotate: true
+  xy: 251, 430
+  size: 165, 176
+  orig: 221, 231
+  offset: 19, 23
+  index: -1
+images/effects_L/skillA1AAAA/xingxing/xingxing_098
+  rotate: false
+  xy: 2, 829
+  size: 204, 173
+  orig: 221, 231
+  offset: 7, 32
+  index: -1
+images/effects_L/skillA1AAAA/xingxing/xingxing_104
+  rotate: false
+  xy: 255, 679
+  size: 183, 175
+  orig: 221, 231
+  offset: 11, 28
+  index: -1
+images/effects_L/skillA1AAAA/xingxing/xingxing_106
+  rotate: true
+  xy: 440, 680
+  size: 174, 179
+  orig: 221, 231
+  offset: 15, 29
+  index: -1

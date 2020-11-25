@@ -1,0 +1,27 @@
+
+afk_pingmushangsheng.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tansuo/huxiguang
+  rotate: false
+  xy: 2, 140
+  size: 508, 290
+  orig: 508, 290
+  offset: 0, 0
+  index: -1
+tansuo/pingmu
+  rotate: false
+  xy: 2, 452
+  size: 862, 428
+  orig: 862, 428
+  offset: 0, 0
+  index: -1
+tansuo/zhezhao
+  rotate: false
+  xy: 2, 432
+  size: 878, 18
+  orig: 878, 18
+  offset: 0, 0
+  index: -1

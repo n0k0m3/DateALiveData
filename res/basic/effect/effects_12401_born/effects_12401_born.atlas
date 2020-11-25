@@ -1,0 +1,132 @@
+
+effects_12401_born.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_L/born/born_029
+  rotate: false
+  xy: 296, 402
+  size: 217, 60
+  orig: 304, 207
+  offset: 37, 105
+  index: -1
+images/effects_L/born/born_031
+  rotate: false
+  xy: 584, 424
+  size: 246, 117
+  orig: 304, 207
+  offset: 13, 78
+  index: -1
+images/effects_L/born/born_035
+  rotate: false
+  xy: 612, 850
+  size: 304, 171
+  orig: 304, 207
+  offset: 0, 36
+  index: -1
+images/effects_L/born/born_039
+  rotate: false
+  xy: 2, 53
+  size: 285, 175
+  orig: 304, 207
+  offset: 0, 32
+  index: -1
+images/effects_L/born/born_041
+  rotate: false
+  xy: 2, 230
+  size: 285, 180
+  orig: 304, 207
+  offset: 0, 27
+  index: -1
+images/effects_L/born/born_043
+  rotate: false
+  xy: 306, 625
+  size: 289, 187
+  orig: 304, 207
+  offset: 0, 20
+  index: -1
+images/effects_L/born/born_045
+  rotate: false
+  xy: 2, 412
+  size: 292, 191
+  orig: 304, 207
+  offset: 0, 16
+  index: -1
+images/effects_L/born/born_047
+  rotate: false
+  xy: 2, 605
+  size: 302, 207
+  orig: 304, 207
+  offset: 0, 0
+  index: -1
+images/effects_L/born/born_049
+  rotate: false
+  xy: 2, 814
+  size: 304, 207
+  orig: 304, 207
+  offset: 0, 0
+  index: -1
+images/effects_L/born/born_051
+  rotate: false
+  xy: 308, 814
+  size: 302, 207
+  orig: 304, 207
+  offset: 0, 0
+  index: -1
+images/effects_L/born/born_053
+  rotate: false
+  xy: 597, 543
+  size: 286, 140
+  orig: 304, 207
+  offset: 5, 32
+  index: -1
+images/effects_L/born/born_055
+  rotate: false
+  xy: 612, 685
+  size: 290, 163
+  orig: 304, 207
+  offset: 0, 4
+  index: -1
+images/effects_L/born/born_057
+  rotate: false
+  xy: 306, 464
+  size: 276, 159
+  orig: 304, 207
+  offset: 6, 4
+  index: -1
+images/effects_L/born/born_059
+  rotate: false
+  xy: 289, 253
+  size: 184, 147
+  orig: 304, 207
+  offset: 47, 21
+  index: -1
+images/effects_L/born/born_061
+  rotate: false
+  xy: 289, 107
+  size: 178, 144
+  orig: 304, 207
+  offset: 52, 28
+  index: -1
+images/effects_L/born/born_065
+  rotate: true
+  xy: 475, 261
+  size: 139, 113
+  orig: 304, 207
+  offset: 81, 64
+  index: -1
+images/effects_L/born/born_069
+  rotate: true
+  xy: 918, 887
+  size: 134, 103
+  orig: 304, 207
+  offset: 84, 75
+  index: -1
+images/effects_L/born/born_073
+  rotate: false
+  xy: 289, 17
+  size: 130, 88
+  orig: 304, 207
+  offset: 86, 85
+  index: -1

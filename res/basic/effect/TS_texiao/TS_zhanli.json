@@ -1,0 +1,172 @@
+{
+"skeleton": { "hash": "kLJemfQ44ZoZ/Z3vtObXGOqnUxc", "spine": "2.1.27", "width": 0, "height": 0, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "bone3", "parent": "root" }
+],
+"slots": [
+	{ "name": "images/TS_zhanli/zhanli/zhanli_000", "bone": "bone" },
+	{ "name": "images/TS_zhanli/zhanli/zhanli_0", "bone": "bone3" }
+],
+"skins": {
+	"default": {
+		"images/TS_zhanli/zhanli/zhanli_0": {
+			"images/TS_zhanli/zhanli/zhanli_000": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_001": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_002": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_003": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_004": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_005": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_006": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_007": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_008": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_009": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_010": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_011": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_012": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_013": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_014": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_015": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_016": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_017": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_018": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_019": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_020": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_021": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_022": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_023": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_024": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_025": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_026": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_027": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_028": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_029": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_030": { "width": 260, "height": 56 }
+		},
+		"images/TS_zhanli/zhanli/zhanli_000": {
+			"images/TS_zhanli/zhanli/zhanli_000": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_001": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_002": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_003": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_004": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_005": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_006": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_007": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_008": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_009": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_010": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_011": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_012": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_013": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_014": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_015": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_016": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_017": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_018": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_019": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_020": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_021": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_022": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_023": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_024": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_025": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_026": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_027": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_028": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_029": { "width": 260, "height": 56 },
+			"images/TS_zhanli/zhanli/zhanli_030": { "width": 260, "height": 56 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"images/TS_zhanli/zhanli/zhanli_000": {
+				"attachment": [
+					{ "time": 0, "name": "images/TS_zhanli/zhanli/zhanli_000" },
+					{ "time": 0.0333, "name": "images/TS_zhanli/zhanli/zhanli_001" },
+					{ "time": 0.0666, "name": "images/TS_zhanli/zhanli/zhanli_002" },
+					{ "time": 0.1, "name": "images/TS_zhanli/zhanli/zhanli_003" },
+					{ "time": 0.1333, "name": "images/TS_zhanli/zhanli/zhanli_004" },
+					{ "time": 0.1666, "name": "images/TS_zhanli/zhanli/zhanli_005" },
+					{ "time": 0.2, "name": "images/TS_zhanli/zhanli/zhanli_006" },
+					{ "time": 0.2333, "name": "images/TS_zhanli/zhanli/zhanli_007" },
+					{ "time": 0.2666, "name": "images/TS_zhanli/zhanli/zhanli_008" },
+					{ "time": 0.3, "name": "images/TS_zhanli/zhanli/zhanli_009" },
+					{ "time": 0.3333, "name": "images/TS_zhanli/zhanli/zhanli_010" },
+					{ "time": 0.3666, "name": "images/TS_zhanli/zhanli/zhanli_011" },
+					{ "time": 0.4, "name": "images/TS_zhanli/zhanli/zhanli_012" },
+					{ "time": 0.4333, "name": "images/TS_zhanli/zhanli/zhanli_013" },
+					{ "time": 0.4666, "name": "images/TS_zhanli/zhanli/zhanli_014" },
+					{ "time": 0.5, "name": "images/TS_zhanli/zhanli/zhanli_015" },
+					{ "time": 0.5333, "name": "images/TS_zhanli/zhanli/zhanli_016" },
+					{ "time": 0.5666, "name": "images/TS_zhanli/zhanli/zhanli_017" },
+					{ "time": 0.6, "name": "images/TS_zhanli/zhanli/zhanli_018" },
+					{ "time": 0.6333, "name": "images/TS_zhanli/zhanli/zhanli_019" },
+					{ "time": 0.6666, "name": "images/TS_zhanli/zhanli/zhanli_020" },
+					{ "time": 0.7, "name": "images/TS_zhanli/zhanli/zhanli_021" },
+					{ "time": 0.7333, "name": "images/TS_zhanli/zhanli/zhanli_022" },
+					{ "time": 0.7666, "name": "images/TS_zhanli/zhanli/zhanli_023" },
+					{ "time": 0.8, "name": "images/TS_zhanli/zhanli/zhanli_024" },
+					{ "time": 0.8333, "name": "images/TS_zhanli/zhanli/zhanli_025" },
+					{ "time": 0.8666, "name": "images/TS_zhanli/zhanli/zhanli_026" },
+					{ "time": 0.9, "name": "images/TS_zhanli/zhanli/zhanli_027" },
+					{ "time": 0.9333, "name": "images/TS_zhanli/zhanli/zhanli_028" },
+					{ "time": 0.9666, "name": "images/TS_zhanli/zhanli/zhanli_029" },
+					{ "time": 1, "name": "images/TS_zhanli/zhanli/zhanli_030" },
+					{ "time": 1.0333, "name": null }
+				]
+			},
+			"images/TS_zhanli/zhanli/zhanli_0": {
+				"attachment": [
+					{ "time": 0, "name": "images/TS_zhanli/zhanli/zhanli_000" },
+					{ "time": 0.0333, "name": "images/TS_zhanli/zhanli/zhanli_001" },
+					{ "time": 0.0666, "name": "images/TS_zhanli/zhanli/zhanli_002" },
+					{ "time": 0.1, "name": "images/TS_zhanli/zhanli/zhanli_003" },
+					{ "time": 0.1333, "name": "images/TS_zhanli/zhanli/zhanli_004" },
+					{ "time": 0.1666, "name": "images/TS_zhanli/zhanli/zhanli_005" },
+					{ "time": 0.2, "name": "images/TS_zhanli/zhanli/zhanli_006" },
+					{ "time": 0.2333, "name": "images/TS_zhanli/zhanli/zhanli_007" },
+					{ "time": 0.2666, "name": "images/TS_zhanli/zhanli/zhanli_008" },
+					{ "time": 0.3, "name": "images/TS_zhanli/zhanli/zhanli_009" },
+					{ "time": 0.3333, "name": "images/TS_zhanli/zhanli/zhanli_010" },
+					{ "time": 0.3666, "name": "images/TS_zhanli/zhanli/zhanli_011" },
+					{ "time": 0.4, "name": "images/TS_zhanli/zhanli/zhanli_012" },
+					{ "time": 0.4333, "name": "images/TS_zhanli/zhanli/zhanli_013" },
+					{ "time": 0.4666, "name": "images/TS_zhanli/zhanli/zhanli_014" },
+					{ "time": 0.5, "name": "images/TS_zhanli/zhanli/zhanli_015" },
+					{ "time": 0.5333, "name": "images/TS_zhanli/zhanli/zhanli_016" },
+					{ "time": 0.5666, "name": "images/TS_zhanli/zhanli/zhanli_017" },
+					{ "time": 0.6, "name": "images/TS_zhanli/zhanli/zhanli_018" },
+					{ "time": 0.6333, "name": "images/TS_zhanli/zhanli/zhanli_019" },
+					{ "time": 0.6666, "name": "images/TS_zhanli/zhanli/zhanli_020" },
+					{ "time": 0.7, "name": "images/TS_zhanli/zhanli/zhanli_021" },
+					{ "time": 0.7333, "name": "images/TS_zhanli/zhanli/zhanli_022" },
+					{ "time": 0.7666, "name": "images/TS_zhanli/zhanli/zhanli_023" },
+					{ "time": 0.8, "name": "images/TS_zhanli/zhanli/zhanli_024" },
+					{ "time": 0.8333, "name": "images/TS_zhanli/zhanli/zhanli_025" },
+					{ "time": 0.8666, "name": "images/TS_zhanli/zhanli/zhanli_026" },
+					{ "time": 0.9, "name": "images/TS_zhanli/zhanli/zhanli_027" },
+					{ "time": 0.9333, "name": "images/TS_zhanli/zhanli/zhanli_028" },
+					{ "time": 0.9666, "name": "images/TS_zhanli/zhanli/zhanli_029" },
+					{ "time": 1, "name": "images/TS_zhanli/zhanli/zhanli_030" },
+					{ "time": 1.0333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"translate": [
+					{ "time": 0, "x": -255.13, "y": -119 }
+				]
+			},
+			"bone3": {
+				"translate": [
+					{ "time": 0, "x": 255.12, "y": -119 }
+				]
+			}
+		}
+	}
+}
+}

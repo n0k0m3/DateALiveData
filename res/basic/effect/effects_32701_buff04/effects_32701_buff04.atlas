@@ -1,0 +1,13 @@
+
+effects_32701_buff04.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_L/quan_00000
+  rotate: false
+  xy: 2, 2
+  size: 249, 251
+  orig: 256, 256
+  offset: 1, 1
+  index: -1

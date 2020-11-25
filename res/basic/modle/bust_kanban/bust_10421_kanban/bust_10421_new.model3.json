@@ -1,0 +1,128 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "bust_10421_new.moc3",
+		"Textures": [
+			"bust_10421_new.1024/texture_00.png",
+			"bust_10421_new.1024/texture_01.png",
+			"bust_10421_new.1024/texture_02.png",
+			"bust_10421_new.1024/texture_03.png",
+			"bust_10421_new.1024/texture_04.png"
+		],
+		"Physics": "bust_10421_new.physics3.json",
+		"Motions": {
+			"Idle": [
+				{
+					"File": "motions/idle.motion3.json",
+					"FadeInTime": 0.1,
+					"FadeOutTime": 0.1
+				}
+			],
+			"Id_angry": [
+				{
+					"File": "motions/id_angry.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_dress": [
+				{
+					"File": "motions/id_dress.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_favor1_1": [
+				{
+					"File": "motions/id_favor1_1.motion3.json",
+					"Sound": "modle/bust/sounds/KURUMI_94.mp3",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_favor1_2": [
+				{
+					"File": "motions/id_favor1_2.motion3.json",
+					"Sound": "modle/bust/sounds/KURUMI_20.mp3",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_favor1_3": [
+				{
+					"File": "motions/id_favor1_3.motion3.json",
+					"Sound": "modle/bust/sounds/KURUMI_09_A.mp3",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_favor2_1": [
+				{
+					"File": "motions/id_favor2_1.motion3.json",
+					"Sound": "modle/bust/sounds/KURUMI_61_A.mp3",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_favor3_1": [
+				{
+					"File": "motions/id_favor3_1.motion3.json",
+					"Sound": "modle/bust/sounds/KURUMI_312.mp3",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_favor4_1": [
+				{
+					"File": "motions/id_favor4_1.motion3.json",
+					"Sound": "modle/bust/sounds/KURUMI_56.mp3",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_favor5_1": [
+				{
+					"File": "motions/id_favor5_1.motion3.json",
+					"Sound": "modle/bust/sounds/KURUMI_292.mp3",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_happy": [
+				{
+					"File": "motions/id_happy.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"PARAM_MOUTH_OPEN_Y"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	],
+	"HitAreas": [
+		{
+			"Id": "HitArea",
+			"Name": "head"
+		},
+		{
+			"Id": "HitArea2",
+			"Name": "body"
+		},
+		{
+			"Id": "HitArea3",
+			"Name": "tui"
+		}
+	]
+}

@@ -1,0 +1,146 @@
+
+effects_12501_quickmove.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/glow_000
+  rotate: false
+  xy: 665, 305
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+effects/guangxian2_000
+  rotate: false
+  xy: 309, 166
+  size: 190, 64
+  orig: 200, 64
+  offset: 2, 0
+  index: -1
+effects/quickmove/canying_000
+  rotate: false
+  xy: 309, 232
+  size: 136, 136
+  orig: 160, 160
+  offset: 6, 10
+  index: -1
+effects/quickmove/chuan/chuan_000
+  rotate: false
+  xy: 2, 428
+  size: 296, 82
+  orig: 320, 96
+  offset: 19, 4
+  index: -1
+effects/quickmove/chuan/chuan_001
+  rotate: false
+  xy: 2, 349
+  size: 295, 77
+  orig: 320, 96
+  offset: 19, 6
+  index: -1
+effects/quickmove/chuan/chuan_002
+  rotate: true
+  xy: 2, 2
+  size: 251, 53
+  orig: 320, 96
+  offset: 54, 20
+  index: -1
+effects/quickmove/chuan/chuan_003
+  rotate: true
+  xy: 219, 98
+  size: 249, 43
+  orig: 320, 96
+  offset: 54, 25
+  index: -1
+effects/quickmove/chuan/chuan_005
+  rotate: true
+  xy: 264, 108
+  size: 239, 43
+  orig: 320, 96
+  offset: 59, 25
+  index: -1
+effects/quickmove/chuan/chuan_007
+  rotate: false
+  xy: 530, 387
+  size: 203, 43
+  orig: 320, 96
+  offset: 73, 25
+  index: -1
+effects/quickmove/chuan/chuan_009
+  rotate: false
+  xy: 309, 71
+  size: 174, 43
+  orig: 320, 96
+  offset: 102, 25
+  index: -1
+effects/quickmove/chuanhei_002
+  rotate: false
+  xy: 505, 341
+  size: 158, 44
+  orig: 160, 57
+  offset: 2, 7
+  index: -1
+effects/quickmove/dian/dian_000
+  rotate: true
+  xy: 57, 35
+  size: 218, 82
+  orig: 240, 104
+  offset: 0, 6
+  index: -1
+effects/quickmove/dian/dian_001
+  rotate: false
+  xy: 751, 365
+  size: 207, 81
+  orig: 240, 104
+  offset: 10, 7
+  index: -1
+effects/quickmove/dian/dian_002
+  rotate: false
+  xy: 530, 432
+  size: 219, 78
+  orig: 240, 104
+  offset: 0, 8
+  index: -1
+effects/quickmove/dian/dian_003
+  rotate: false
+  xy: 2, 255
+  size: 215, 92
+  orig: 240, 104
+  offset: 7, 9
+  index: -1
+effects/quickmove/dian/dian_004
+  rotate: true
+  xy: 141, 35
+  size: 218, 76
+  orig: 240, 104
+  offset: 0, 10
+  index: -1
+effects/quickmove/dian/dian_005
+  rotate: false
+  xy: 300, 430
+  size: 228, 80
+  orig: 240, 104
+  offset: 6, 13
+  index: -1
+effects/quickmove/dian/dian_006
+  rotate: false
+  xy: 300, 370
+  size: 203, 58
+  orig: 240, 104
+  offset: 8, 24
+  index: -1
+effects/quickmove/dian/dian_007
+  rotate: false
+  xy: 751, 448
+  size: 227, 62
+  orig: 240, 104
+  offset: 13, 16
+  index: -1
+effects/quickmove/dian/dian_008
+  rotate: false
+  xy: 309, 116
+  size: 199, 48
+  orig: 240, 104
+  offset: 13, 30
+  index: -1

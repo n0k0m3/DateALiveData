@@ -1,0 +1,20 @@
+
+effects_afk_radarscan.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/radarscan/bian_000
+  rotate: false
+  xy: 2, 104
+  size: 126, 138
+  orig: 167, 181
+  offset: 20, 21
+  index: -1
+images/radarscan/leida_000
+  rotate: true
+  xy: 2, 2
+  size: 100, 113
+  orig: 100, 113
+  offset: 0, 0
+  index: -1

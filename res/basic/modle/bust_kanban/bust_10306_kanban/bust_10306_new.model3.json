@@ -19,9 +19,79 @@
 					"FadeOutTime": 0.1
 				}
 			],
+			"Id_angry": [
+				{
+					"File": "motions/id_angry.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
 			"Id_dress": [
 				{
 					"File": "motions/id_dress.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_favor1_1": [
+				{
+					"File": "motions/id_favor1_1.motion3.json",
+					"Sound": "modle/bust/sounds/YOSHINO_18.mp3",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_favor1_2": [
+				{
+					"File": "motions/id_favor1_2.motion3.json",
+					"Sound": "modle/bust/sounds/YOSHINO_03.mp3",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_favor1_3": [
+				{
+					"File": "motions/id_favor1_3.motion3.json",
+					"Sound": "modle/bust/sounds/YOSHINO_09.mp3",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_favor3_1": [
+				{
+					"File": "motions/id_favor3_1.motion3.json",
+					"Sound": "modle/bust/sounds/YOSHINON_03.mp3",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_favor4_1": [
+				{
+					"File": "motions/id_favor4_1.motion3.json",
+					"Sound": "modle/bust/sounds/YOSHINO_19.mp3",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_favor5_1": [
+				{
+					"File": "motions/id_favor5_1.motion3.json",
+					"Sound": "modle/bust/sounds/YOSHINO_86.mp3",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_happy": [
+				{
+					"File": "motions/id_happy.motion3.json",
+					"FadeInTime": 0,
+					"FadeOutTime": 0
+				}
+			],
+			"Id_favor2_1": [
+				{
+					"File": "motions/id_favor2_1.motion3.json",
+					"Sound": "modle/bust/sounds/YOSHINO_84.mp3",
 					"FadeInTime": 0,
 					"FadeOutTime": 0
 				}
@@ -53,7 +123,7 @@
 		},
 		{
 			"Id": "HitArea3",
-			"Name": "tui"
+			"Name": "tui                "
 		}
 	]
 }

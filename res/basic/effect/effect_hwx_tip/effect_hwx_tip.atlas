@@ -6,133 +6,133 @@ filter: Linear,Linear
 repeat: none
 images/1
   rotate: false
-  xy: 66, 513
+  xy: 66, 485
   size: 19, 507
   orig: 21, 509
   offset: 1, 1
   index: -1
 images/2
   rotate: false
-  xy: 2, 381
+  xy: 2, 353
   size: 62, 639
   orig: 64, 641
   offset: 1, 1
   index: -1
 images/lizi1/lizi1_00000
   rotate: false
-  xy: 163, 699
+  xy: 163, 671
   size: 347, 159
   orig: 347, 160
   offset: 0, 0
   index: -1
 images/lizi1/lizi1_00002
   rotate: false
-  xy: 163, 860
+  xy: 163, 832
   size: 347, 160
   orig: 347, 160
   offset: 0, 0
   index: -1
 images/lizi1/lizi1_00004
   rotate: false
-  xy: 512, 861
+  xy: 512, 833
   size: 347, 159
   orig: 347, 160
   offset: 0, 1
   index: -1
 images/lizi1/lizi1_00006
   rotate: false
-  xy: 163, 539
+  xy: 163, 511
   size: 347, 158
   orig: 347, 160
   offset: 0, 2
   index: -1
 images/lizi1/lizi1_00008
   rotate: true
-  xy: 2, 32
+  xy: 2, 4
   size: 347, 157
   orig: 347, 160
   offset: 0, 3
   index: -1
 images/lizi1/lizi1_00010
   rotate: false
-  xy: 87, 381
+  xy: 87, 353
   size: 347, 156
   orig: 347, 160
   offset: 0, 4
   index: -1
 images/lizi1/lizi1_00012
   rotate: true
-  xy: 670, 30
+  xy: 670, 2
   size: 347, 150
   orig: 347, 160
   offset: 0, 4
   index: -1
 images/lizi1/lizi1_00026
   rotate: false
-  xy: 512, 700
+  xy: 512, 672
   size: 347, 159
   orig: 347, 160
   offset: 0, 0
   index: -1
 images/lizi1/lizi1_00028
   rotate: true
-  xy: 861, 673
+  xy: 861, 645
   size: 347, 159
   orig: 347, 160
   offset: 0, 0
   index: -1
 images/lizi2/lizi1_00000
   rotate: true
-  xy: 161, 32
+  xy: 161, 4
   size: 347, 158
   orig: 347, 160
   offset: 0, 0
   index: -1
 images/lizi2/lizi1_00002
   rotate: false
-  xy: 512, 539
+  xy: 512, 511
   size: 347, 159
   orig: 347, 160
   offset: 0, 0
   index: -1
 images/lizi2/lizi1_00004
   rotate: false
-  xy: 436, 379
+  xy: 436, 351
   size: 347, 158
   orig: 347, 160
   offset: 0, 1
   index: -1
 images/lizi2/lizi1_00006
   rotate: false
-  xy: 321, 219
+  xy: 321, 191
   size: 347, 158
   orig: 347, 160
   offset: 0, 1
   index: -1
 images/lizi2/lizi1_00008
   rotate: false
-  xy: 321, 59
+  xy: 321, 31
   size: 347, 158
   orig: 347, 160
   offset: 0, 2
   index: -1
 images/lizi2/lizi1_00028
   rotate: true
-  xy: 861, 324
+  xy: 861, 296
   size: 347, 158
   orig: 347, 160
   offset: 0, 0
   index: -1
 images/pian
   rotate: false
-  xy: 87, 578
+  xy: 87, 550
   size: 74, 442
   orig: 150, 500
   offset: 41, 23
   index: -1
 images/xiantiao
   rotate: false
-  xy: 66, 418
+  xy: 66, 390
   size: 5, 93
   orig: 20, 110
   offset: 9, 1
@@ -145,105 +145,105 @@ filter: Linear,Linear
 repeat: none
 images/lizi1/lizi1_00014
   rotate: false
-  xy: 2, 374
+  xy: 2, 302
   size: 347, 150
   orig: 347, 160
   offset: 0, 5
   index: -1
 images/lizi1/lizi1_00016
   rotate: false
-  xy: 351, 535
+  xy: 351, 463
   size: 347, 149
   orig: 347, 160
   offset: 0, 6
   index: -1
 images/lizi1/lizi1_00018
   rotate: false
-  xy: 2, 74
+  xy: 2, 2
   size: 347, 147
   orig: 347, 160
   offset: 0, 8
   index: -1
 images/lizi1/lizi1_00020
   rotate: false
-  xy: 351, 87
+  xy: 351, 15
   size: 347, 146
   orig: 347, 160
   offset: 0, 9
   index: -1
 images/lizi1/lizi1_00022
   rotate: false
-  xy: 351, 235
+  xy: 351, 163
   size: 347, 147
   orig: 347, 160
   offset: 0, 9
   index: -1
 images/lizi1/lizi1_00024
   rotate: true
-  xy: 851, 652
+  xy: 851, 580
   size: 347, 148
   orig: 347, 160
   offset: 0, 10
   index: -1
 images/lizi2/lizi1_00010
   rotate: false
-  xy: 2, 842
+  xy: 2, 770
   size: 347, 157
   orig: 347, 160
   offset: 0, 3
   index: -1
 images/lizi2/lizi1_00012
   rotate: true
-  xy: 700, 652
+  xy: 700, 580
   size: 347, 149
   orig: 347, 160
   offset: 0, 4
   index: -1
 images/lizi2/lizi1_00014
   rotate: false
-  xy: 2, 223
+  xy: 2, 151
   size: 347, 149
   orig: 347, 160
   offset: 0, 5
   index: -1
 images/lizi2/lizi1_00016
   rotate: false
-  xy: 351, 384
+  xy: 351, 312
   size: 347, 149
   orig: 347, 160
   offset: 0, 5
   index: -1
 images/lizi2/lizi1_00018
   rotate: true
-  xy: 700, 303
+  xy: 700, 231
   size: 347, 147
   orig: 347, 160
   offset: 0, 7
   index: -1
 images/lizi2/lizi1_00020
   rotate: false
-  xy: 351, 686
+  xy: 351, 614
   size: 347, 154
   orig: 347, 160
   offset: 0, 0
   index: -1
 images/lizi2/lizi1_00022
   rotate: false
-  xy: 2, 526
+  xy: 2, 454
   size: 347, 155
   orig: 347, 160
   offset: 0, 0
   index: -1
 images/lizi2/lizi1_00024
   rotate: false
-  xy: 2, 683
+  xy: 2, 611
   size: 347, 157
   orig: 347, 160
   offset: 0, 0
   index: -1
 images/lizi2/lizi1_00026
   rotate: false
-  xy: 351, 842
+  xy: 351, 770
   size: 347, 157
   orig: 347, 160
   offset: 0, 0

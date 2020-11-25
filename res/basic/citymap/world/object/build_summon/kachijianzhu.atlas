@@ -1,0 +1,460 @@
+
+kachijianzhu.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guang_029
+  rotate: false
+  xy: 179, 47
+  size: 242, 145
+  orig: 285, 215
+  offset: 22, 28
+  index: -1
+lizi/lizi_000
+  rotate: false
+  xy: 1778, 17
+  size: 189, 175
+  orig: 285, 273
+  offset: 52, 38
+  index: -1
+lizi/lizi_007
+  rotate: true
+  xy: 423, 3
+  size: 189, 192
+  orig: 285, 273
+  offset: 51, 29
+  index: -1
+lizi/lizi_021
+  rotate: false
+  xy: 617, 16
+  size: 192, 176
+  orig: 285, 273
+  offset: 50, 28
+  index: -1
+lizi/lizi_022
+  rotate: false
+  xy: 811, 16
+  size: 192, 176
+  orig: 285, 273
+  offset: 50, 30
+  index: -1
+lizi/lizi_023
+  rotate: false
+  xy: 1005, 16
+  size: 192, 176
+  orig: 285, 273
+  offset: 50, 31
+  index: -1
+lizi/lizi_024
+  rotate: false
+  xy: 1199, 16
+  size: 191, 176
+  orig: 285, 273
+  offset: 51, 32
+  index: -1
+lizi/lizi_025
+  rotate: false
+  xy: 1392, 16
+  size: 191, 176
+  orig: 285, 273
+  offset: 51, 33
+  index: -1
+lizi/lizi_026
+  rotate: false
+  xy: 1585, 17
+  size: 191, 175
+  orig: 285, 273
+  offset: 51, 35
+  index: -1
+lizi/lizi_028
+  rotate: true
+  xy: 2, 2
+  size: 190, 175
+  orig: 285, 273
+  offset: 51, 37
+  index: -1
+zhuanzhou/zhuanzhou_000
+  rotate: false
+  xy: 2, 1739
+  size: 382, 307
+  orig: 469, 459
+  offset: 37, 66
+  index: -1
+zhuanzhou/zhuanzhou_001
+  rotate: false
+  xy: 2, 1430
+  size: 382, 307
+  orig: 469, 459
+  offset: 37, 66
+  index: -1
+zhuanzhou/zhuanzhou_002
+  rotate: false
+  xy: 386, 1739
+  size: 382, 307
+  orig: 469, 459
+  offset: 37, 66
+  index: -1
+zhuanzhou/zhuanzhou_003
+  rotate: false
+  xy: 2, 1121
+  size: 382, 307
+  orig: 469, 459
+  offset: 37, 66
+  index: -1
+zhuanzhou/zhuanzhou_004
+  rotate: false
+  xy: 386, 1430
+  size: 382, 307
+  orig: 469, 459
+  offset: 37, 66
+  index: -1
+zhuanzhou/zhuanzhou_005
+  rotate: false
+  xy: 770, 1739
+  size: 382, 307
+  orig: 469, 459
+  offset: 37, 66
+  index: -1
+zhuanzhou/zhuanzhou_006
+  rotate: false
+  xy: 2, 812
+  size: 382, 307
+  orig: 469, 459
+  offset: 37, 66
+  index: -1
+zhuanzhou/zhuanzhou_007
+  rotate: false
+  xy: 386, 1121
+  size: 382, 307
+  orig: 469, 459
+  offset: 37, 66
+  index: -1
+zhuanzhou/zhuanzhou_008
+  rotate: false
+  xy: 770, 1430
+  size: 382, 307
+  orig: 469, 459
+  offset: 37, 66
+  index: -1
+zhuanzhou/zhuanzhou_009
+  rotate: false
+  xy: 1154, 1739
+  size: 382, 307
+  orig: 469, 459
+  offset: 37, 66
+  index: -1
+zhuanzhou/zhuanzhou_010
+  rotate: false
+  xy: 2, 503
+  size: 382, 307
+  orig: 469, 459
+  offset: 37, 66
+  index: -1
+zhuanzhou/zhuanzhou_011
+  rotate: false
+  xy: 386, 812
+  size: 382, 307
+  orig: 469, 459
+  offset: 37, 66
+  index: -1
+zhuanzhou/zhuanzhou_012
+  rotate: false
+  xy: 770, 1121
+  size: 382, 307
+  orig: 469, 459
+  offset: 37, 66
+  index: -1
+zhuanzhou/zhuanzhou_013
+  rotate: false
+  xy: 1154, 1430
+  size: 382, 307
+  orig: 469, 459
+  offset: 37, 66
+  index: -1
+zhuanzhou/zhuanzhou_014
+  rotate: false
+  xy: 1538, 1739
+  size: 382, 307
+  orig: 469, 459
+  offset: 37, 66
+  index: -1
+zhuanzhou/zhuanzhou_015
+  rotate: false
+  xy: 2, 194
+  size: 382, 307
+  orig: 469, 459
+  offset: 37, 66
+  index: -1
+zhuanzhou/zhuanzhou_016
+  rotate: false
+  xy: 386, 503
+  size: 382, 307
+  orig: 469, 459
+  offset: 37, 66
+  index: -1
+zhuanzhou/zhuanzhou_017
+  rotate: false
+  xy: 770, 812
+  size: 382, 307
+  orig: 469, 459
+  offset: 37, 66
+  index: -1
+zhuanzhou/zhuanzhou_018
+  rotate: false
+  xy: 1154, 1121
+  size: 382, 307
+  orig: 469, 459
+  offset: 37, 66
+  index: -1
+zhuanzhou/zhuanzhou_019
+  rotate: false
+  xy: 1538, 1430
+  size: 382, 307
+  orig: 469, 459
+  offset: 37, 66
+  index: -1
+zhuanzhou/zhuanzhou_020
+  rotate: false
+  xy: 386, 194
+  size: 382, 307
+  orig: 469, 459
+  offset: 37, 66
+  index: -1
+zhuanzhou/zhuanzhou_021
+  rotate: false
+  xy: 770, 503
+  size: 382, 307
+  orig: 469, 459
+  offset: 37, 66
+  index: -1
+zhuanzhou/zhuanzhou_022
+  rotate: false
+  xy: 1154, 812
+  size: 382, 307
+  orig: 469, 459
+  offset: 37, 66
+  index: -1
+zhuanzhou/zhuanzhou_023
+  rotate: false
+  xy: 1538, 1121
+  size: 382, 307
+  orig: 469, 459
+  offset: 37, 66
+  index: -1
+zhuanzhou/zhuanzhou_024
+  rotate: false
+  xy: 770, 194
+  size: 382, 307
+  orig: 469, 459
+  offset: 37, 66
+  index: -1
+zhuanzhou/zhuanzhou_025
+  rotate: false
+  xy: 1154, 503
+  size: 382, 307
+  orig: 469, 459
+  offset: 37, 66
+  index: -1
+zhuanzhou/zhuanzhou_026
+  rotate: false
+  xy: 1538, 812
+  size: 382, 307
+  orig: 469, 459
+  offset: 37, 66
+  index: -1
+zhuanzhou/zhuanzhou_027
+  rotate: false
+  xy: 1154, 194
+  size: 382, 307
+  orig: 469, 459
+  offset: 37, 66
+  index: -1
+zhuanzhou/zhuanzhou_028
+  rotate: false
+  xy: 1538, 503
+  size: 382, 307
+  orig: 469, 459
+  offset: 37, 66
+  index: -1
+zhuanzhou/zhuanzhou_029
+  rotate: false
+  xy: 1538, 194
+  size: 382, 307
+  orig: 469, 459
+  offset: 37, 66
+  index: -1
+
+kachijianzhu2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+2_000
+  rotate: false
+  xy: 386, 1713
+  size: 301, 192
+  orig: 379, 273
+  offset: 42, 16
+  index: -1
+3
+  rotate: true
+  xy: 2, 1206
+  size: 390, 224
+  orig: 394, 228
+  offset: 2, 2
+  index: -1
+lizi/lizi_001
+  rotate: false
+  xy: 805, 1536
+  size: 189, 175
+  orig: 285, 273
+  offset: 52, 39
+  index: -1
+lizi/lizi_002
+  rotate: false
+  xy: 1378, 1537
+  size: 189, 174
+  orig: 285, 273
+  offset: 52, 41
+  index: -1
+lizi/lizi_003
+  rotate: false
+  xy: 421, 1358
+  size: 189, 174
+  orig: 285, 273
+  offset: 52, 42
+  index: -1
+lizi/lizi_004
+  rotate: false
+  xy: 996, 1536
+  size: 189, 175
+  orig: 285, 273
+  offset: 52, 42
+  index: -1
+lizi/lizi_005
+  rotate: false
+  xy: 228, 1225
+  size: 189, 177
+  orig: 285, 273
+  offset: 52, 42
+  index: -1
+lizi/lizi_006
+  rotate: false
+  xy: 421, 1534
+  size: 189, 177
+  orig: 285, 273
+  offset: 51, 43
+  index: -1
+lizi/lizi_008
+  rotate: false
+  xy: 228, 1404
+  size: 191, 192
+  orig: 285, 273
+  offset: 50, 30
+  index: -1
+lizi/lizi_009
+  rotate: false
+  xy: 2, 2
+  size: 191, 194
+  orig: 285, 273
+  offset: 50, 29
+  index: -1
+lizi/lizi_010
+  rotate: true
+  xy: 1690, 1714
+  size: 191, 194
+  orig: 285, 273
+  offset: 50, 30
+  index: -1
+lizi/lizi_011
+  rotate: true
+  xy: 1298, 1713
+  size: 192, 194
+  orig: 285, 273
+  offset: 49, 31
+  index: -1
+lizi/lizi_012
+  rotate: false
+  xy: 2, 198
+  size: 192, 194
+  orig: 285, 273
+  offset: 49, 32
+  index: -1
+lizi/lizi_013
+  rotate: false
+  xy: 2, 394
+  size: 193, 195
+  orig: 285, 273
+  offset: 49, 33
+  index: -1
+lizi/lizi_014
+  rotate: true
+  xy: 1494, 1713
+  size: 192, 194
+  orig: 285, 273
+  offset: 50, 34
+  index: -1
+lizi/lizi_015
+  rotate: true
+  xy: 894, 1713
+  size: 192, 201
+  orig: 285, 273
+  offset: 50, 27
+  index: -1
+lizi/lizi_016
+  rotate: true
+  xy: 689, 1713
+  size: 192, 203
+  orig: 285, 273
+  offset: 50, 26
+  index: -1
+lizi/lizi_017
+  rotate: false
+  xy: 2, 591
+  size: 192, 201
+  orig: 285, 273
+  offset: 50, 26
+  index: -1
+lizi/lizi_018
+  rotate: true
+  xy: 1097, 1713
+  size: 192, 199
+  orig: 285, 273
+  offset: 50, 26
+  index: -1
+lizi/lizi_019
+  rotate: false
+  xy: 2, 999
+  size: 192, 205
+  orig: 285, 273
+  offset: 50, 27
+  index: -1
+lizi/lizi_020
+  rotate: false
+  xy: 2, 794
+  size: 192, 203
+  orig: 285, 273
+  offset: 50, 28
+  index: -1
+lizi/lizi_027
+  rotate: false
+  xy: 612, 1536
+  size: 191, 175
+  orig: 285, 273
+  offset: 51, 36
+  index: -1
+lizi/lizi_029
+  rotate: false
+  xy: 1187, 1535
+  size: 189, 176
+  orig: 285, 273
+  offset: 52, 38
+  index: -1
+zhuanzhou/zhuanzhou_030
+  rotate: false
+  xy: 2, 1598
+  size: 382, 307
+  orig: 469, 459
+  offset: 37, 66
+  index: -1

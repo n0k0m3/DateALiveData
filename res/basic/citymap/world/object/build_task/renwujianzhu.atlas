@@ -1,0 +1,34 @@
+
+renwujianzhu.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+biyan
+  rotate: false
+  xy: 502, 389
+  size: 166, 120
+  orig: 166, 120
+  offset: 0, 0
+  index: -1
+di
+  rotate: false
+  xy: 2, 82
+  size: 498, 427
+  orig: 498, 427
+  offset: 0, 0
+  index: -1
+gantanhao
+  rotate: true
+  xy: 2, 2
+  size: 78, 149
+  orig: 78, 149
+  offset: 0, 0
+  index: -1
+zhengyan
+  rotate: true
+  xy: 502, 213
+  size: 174, 104
+  orig: 174, 104
+  offset: 0, 0
+  index: -1

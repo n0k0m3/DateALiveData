@@ -1,0 +1,173 @@
+
+effects_32701_skillF.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/guangxian_000
+  rotate: true
+  xy: 861, 11
+  size: 220, 66
+  orig: 220, 66
+  offset: 0, 0
+  index: -1
+effect/skillF/bingmian_000
+  rotate: true
+  xy: 861, 233
+  size: 424, 144
+  orig: 450, 150
+  offset: 7, 3
+  index: -1
+effect/skillF/chuanci/chuanci_001
+  rotate: false
+  xy: 664, 871
+  size: 357, 151
+  orig: 660, 250
+  offset: 64, 52
+  index: -1
+effect/skillF/chuanci/chuanci_002
+  rotate: false
+  xy: 2, 773
+  size: 660, 249
+  orig: 660, 250
+  offset: 0, 0
+  index: -1
+effect/skillF/chuanci/chuanci_004
+  rotate: false
+  xy: 2, 524
+  size: 660, 247
+  orig: 660, 250
+  offset: 0, 0
+  index: -1
+effect/skillF/chuanci/chuanci_006
+  rotate: false
+  xy: 2, 284
+  size: 659, 238
+  orig: 660, 250
+  offset: 1, 0
+  index: -1
+effect/skillF/chuanci/chuanci_008
+  rotate: true
+  xy: 664, 38
+  size: 619, 195
+  orig: 660, 250
+  offset: 0, 32
+  index: -1
+effect/skillF/qixuan0/qixuan0_004
+  rotate: false
+  xy: 369, 67
+  size: 291, 215
+  orig: 300, 250
+  offset: 0, 9
+  index: -1
+effect/skillF/qixuan0/qixuan0_006
+  rotate: false
+  xy: 664, 659
+  size: 298, 210
+  orig: 300, 250
+  offset: 2, 16
+  index: -1
+effect/skillF/qixuan1/qixuan_004
+  rotate: true
+  xy: 125, 2
+  size: 280, 119
+  orig: 300, 150
+  offset: 11, 13
+  index: -1
+effect/skillF/qixuan1/qixuan_006
+  rotate: true
+  xy: 2, 2
+  size: 280, 121
+  orig: 300, 150
+  offset: 8, 10
+  index: -1
+effect/skillF/qixuan1/qixuan_008
+  rotate: true
+  xy: 246, 10
+  size: 272, 121
+  orig: 300, 150
+  offset: 13, 14
+  index: -1
+
+effects_32701_skillF2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/glow
+  rotate: false
+  xy: 890, 903
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+effect/skillF/bingzhuia_000
+  rotate: false
+  xy: 2, 2
+  size: 190, 200
+  orig: 200, 200
+  offset: 3, 0
+  index: -1
+effect/skillF/bingzhuib_000
+  rotate: false
+  xy: 531, 437
+  size: 181, 178
+  orig: 200, 200
+  offset: 11, 16
+  index: -1
+effect/skillF/chuanci/chuanci_010
+  rotate: false
+  xy: 2, 813
+  size: 614, 190
+  orig: 660, 250
+  offset: 2, 32
+  index: -1
+effect/skillF/chuanci/chuanci_012
+  rotate: false
+  xy: 2, 631
+  size: 610, 180
+  orig: 660, 250
+  offset: 5, 39
+  index: -1
+effect/skillF/qixuan0/qixuan0_000
+  rotate: false
+  xy: 614, 617
+  size: 217, 143
+  orig: 300, 250
+  offset: 32, 61
+  index: -1
+effect/skillF/qixuan0/qixuan0_002
+  rotate: false
+  xy: 271, 434
+  size: 258, 195
+  orig: 300, 250
+  offset: 0, 10
+  index: -1
+effect/skillF/qixuan0/qixuan0_008
+  rotate: false
+  xy: 2, 415
+  size: 267, 214
+  orig: 300, 250
+  offset: 33, 11
+  index: -1
+effect/skillF/qixuan0/qixuan0_010
+  rotate: false
+  xy: 2, 204
+  size: 263, 209
+  orig: 300, 250
+  offset: 37, 12
+  index: -1
+effect/skillF/qixuan1/qixuan_000
+  rotate: false
+  xy: 618, 762
+  size: 233, 114
+  orig: 300, 150
+  offset: 35, 30
+  index: -1
+effect/skillF/qixuan1/qixuan_002
+  rotate: false
+  xy: 618, 878
+  size: 270, 125
+  orig: 300, 150
+  offset: 21, 13
+  index: -1

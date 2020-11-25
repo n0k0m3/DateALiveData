@@ -1,0 +1,225 @@
+
+TS_zhujian_effects.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/feichuan/feichuan_002
+  rotate: false
+  xy: 324, 88
+  size: 256, 200
+  orig: 665, 560
+  offset: 345, 286
+  index: -1
+images/effects/feichuan/feichuan_004
+  rotate: false
+  xy: 2, 21
+  size: 320, 267
+  orig: 665, 560
+  offset: 291, 215
+  index: -1
+images/effects/feichuan/feichuan_024
+  rotate: false
+  xy: 2, 656
+  size: 604, 364
+  orig: 665, 560
+  offset: 0, 122
+  index: -1
+images/effects/feichuan/feichuan_026
+  rotate: false
+  xy: 2, 290
+  size: 604, 364
+  orig: 665, 560
+  offset: 0, 122
+  index: -1
+images/effects/yanwu/yanwu_009
+  rotate: true
+  xy: 608, 2
+  size: 503, 337
+  orig: 665, 560
+  offset: 162, 183
+  index: -1
+images/effects/yanwu/yanwu_013
+  rotate: true
+  xy: 608, 507
+  size: 513, 395
+  orig: 665, 560
+  offset: 145, 125
+  index: -1
+
+TS_zhujian_effects2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/feichuan/feichuan_016
+  rotate: true
+  xy: 2, 2
+  size: 590, 342
+  orig: 665, 560
+  offset: 0, 131
+  index: -1
+images/effects/feichuan/feichuan_020
+  rotate: false
+  xy: 346, 119
+  size: 599, 356
+  orig: 665, 560
+  offset: 0, 125
+  index: -1
+images/effects/yanwu/yanwu_021
+  rotate: false
+  xy: 2, 594
+  size: 548, 428
+  orig: 665, 560
+  offset: 49, 91
+  index: -1
+images/effects/yanwu/yanwu_023
+  rotate: true
+  xy: 552, 477
+  size: 545, 427
+  orig: 665, 560
+  offset: 51, 92
+  index: -1
+
+TS_zhujian_effects3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/feichuan/feichuan_000
+  rotate: false
+  xy: 2, 527
+  size: 116, 129
+  orig: 665, 560
+  offset: 398, 357
+  index: -1
+images/effects/feichuan/feichuan_006
+  rotate: true
+  xy: 295, 307
+  size: 349, 298
+  orig: 665, 560
+  offset: 241, 177
+  index: -1
+images/effects/feichuan/feichuan_008
+  rotate: true
+  xy: 647, 33
+  size: 451, 342
+  orig: 665, 560
+  offset: 139, 131
+  index: -1
+images/effects/feichuan/feichuan_028
+  rotate: false
+  xy: 2, 658
+  size: 599, 356
+  orig: 665, 560
+  offset: 0, 125
+  index: -1
+images/effects/yanwu/yanwu_001
+  rotate: false
+  xy: 295, 11
+  size: 350, 294
+  orig: 665, 560
+  offset: 315, 227
+  index: -1
+images/effects/yanwu/yanwu_005
+  rotate: true
+  xy: 2, 2
+  size: 482, 291
+  orig: 665, 560
+  offset: 183, 230
+  index: -1
+images/effects/yanwu/yanwu_027
+  rotate: true
+  xy: 603, 486
+  size: 528, 363
+  orig: 665, 560
+  offset: 64, 90
+  index: -1
+
+TS_zhujian_effects4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/feichuan/feichuan_014
+  rotate: true
+  xy: 2, 2
+  size: 574, 342
+  orig: 665, 560
+  offset: 16, 131
+  index: -1
+images/effects/feichuan/feichuan_030
+  rotate: true
+  xy: 508, 429
+  size: 570, 351
+  orig: 665, 560
+  offset: 26, 127
+  index: -1
+images/effects/yanwu/yanwu_017
+  rotate: false
+  xy: 2, 578
+  size: 504, 421
+  orig: 665, 560
+  offset: 110, 99
+  index: -1
+images/effects/yanwu/yanwu_025
+  rotate: false
+  xy: 346, 66
+  size: 543, 361
+  orig: 665, 560
+  offset: 51, 94
+  index: -1
+
+TS_zhujian_effects5.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/feichuan/feichuan_012
+  rotate: true
+  xy: 2, 109
+  size: 536, 342
+  orig: 665, 560
+  offset: 54, 131
+  index: -1
+images/effects/feichuan/feichuan_032
+  rotate: true
+  xy: 346, 97
+  size: 548, 328
+  orig: 665, 560
+  offset: 42, 143
+  index: -1
+images/effects/feichuan/feichuan_034
+  rotate: true
+  xy: 676, 456
+  size: 548, 328
+  orig: 665, 560
+  offset: 42, 143
+  index: -1
+images/effects/yanwu/yanwu_029
+  rotate: false
+  xy: 2, 647
+  size: 528, 357
+  orig: 665, 560
+  offset: 55, 85
+  index: -1
+
+TS_zhujian_effects6.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/feichuan/feichuan_010
+  rotate: false
+  xy: 2, 2
+  size: 520, 341
+  orig: 665, 560
+  offset: 70, 132
+  index: -1
+images/effects/feichuan/feichuan_036
+  rotate: false
+  xy: 2, 345
+  size: 548, 328
+  orig: 665, 560
+  offset: 42, 143
+  index: -1

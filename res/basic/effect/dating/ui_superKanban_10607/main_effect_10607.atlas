@@ -1,0 +1,635 @@
+
+main_effect_10607.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/BG
+  rotate: false
+  xy: 2, 1235
+  size: 1488, 800
+  orig: 1488, 800
+  offset: 0, 0
+  index: -1
+images/cao
+  rotate: true
+  xy: 1535, 80
+  size: 100, 231
+  orig: 100, 231
+  offset: 0, 0
+  index: -1
+images/cao1
+  rotate: false
+  xy: 1814, 522
+  size: 210, 147
+  orig: 210, 147
+  offset: 0, 0
+  index: -1
+images/guang
+  rotate: false
+  xy: 2, 2
+  size: 399, 166
+  orig: 399, 166
+  offset: 0, 0
+  index: -1
+images/qian
+  rotate: true
+  xy: 1492, 547
+  size: 1488, 320
+  orig: 1488, 320
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_000
+  rotate: false
+  xy: 770, 7
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_001
+  rotate: true
+  xy: 1686, 304
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_002
+  rotate: false
+  xy: 1756, 452
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_003
+  rotate: false
+  xy: 1756, 382
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_004
+  rotate: false
+  xy: 1756, 312
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_005
+  rotate: false
+  xy: 1756, 242
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_006
+  rotate: false
+  xy: 1768, 172
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_007
+  rotate: false
+  xy: 1768, 102
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_008
+  rotate: false
+  xy: 1768, 32
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_009
+  rotate: false
+  xy: 1167, 40
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_010
+  rotate: false
+  xy: 1410, 10
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/xiangzi
+  rotate: false
+  xy: 2, 433
+  size: 1488, 800
+  orig: 1488, 800
+  offset: 0, 0
+  index: -1
+images/yangguang
+  rotate: false
+  xy: 1266, 110
+  size: 267, 321
+  orig: 267, 321
+  offset: 0, 0
+  index: -1
+images/yun
+  rotate: false
+  xy: 1492, 433
+  size: 180, 112
+  orig: 180, 112
+  offset: 0, 0
+  index: -1
+images/yun1
+  rotate: false
+  xy: 2, 170
+  size: 1262, 261
+  orig: 1262, 261
+  offset: 0, 0
+  index: -1
+images/yun2
+  rotate: true
+  xy: 1814, 1405
+  size: 630, 216
+  orig: 630, 216
+  offset: 0, 0
+  index: -1
+images/yun3
+  rotate: false
+  xy: 770, 77
+  size: 328, 91
+  orig: 328, 91
+  offset: 0, 0
+  index: -1
+images/yun4
+  rotate: true
+  xy: 1814, 671
+  size: 345, 201
+  orig: 345, 201
+  offset: 0, 0
+  index: -1
+images/yun5
+  rotate: true
+  xy: 1535, 182
+  size: 249, 149
+  orig: 249, 149
+  offset: 0, 0
+  index: -1
+images/yun6
+  rotate: true
+  xy: 1814, 1018
+  size: 385, 213
+  orig: 385, 213
+  offset: 0, 0
+  index: -1
+images/yun7
+  rotate: false
+  xy: 403, 39
+  size: 365, 129
+  orig: 365, 129
+  offset: 0, 0
+  index: -1
+images/yun8
+  rotate: true
+  xy: 1100, 2
+  size: 166, 65
+  orig: 166, 65
+  offset: 0, 0
+  index: -1
+
+main_effect_106072.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/shazi/shazi_011
+  rotate: false
+  xy: 2, 1946
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_012
+  rotate: false
+  xy: 2, 1876
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_013
+  rotate: false
+  xy: 245, 1946
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_014
+  rotate: false
+  xy: 2, 1806
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_015
+  rotate: false
+  xy: 245, 1876
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_016
+  rotate: false
+  xy: 488, 1946
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_017
+  rotate: false
+  xy: 2, 1736
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_018
+  rotate: false
+  xy: 245, 1806
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_019
+  rotate: false
+  xy: 488, 1876
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_020
+  rotate: false
+  xy: 731, 1946
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_021
+  rotate: false
+  xy: 2, 1666
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_022
+  rotate: false
+  xy: 245, 1736
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_023
+  rotate: false
+  xy: 488, 1806
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_024
+  rotate: false
+  xy: 731, 1876
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_025
+  rotate: false
+  xy: 974, 1946
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_026
+  rotate: false
+  xy: 2, 1596
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_027
+  rotate: false
+  xy: 245, 1666
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_028
+  rotate: false
+  xy: 488, 1736
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_029
+  rotate: false
+  xy: 731, 1806
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_030
+  rotate: false
+  xy: 974, 1876
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_031
+  rotate: false
+  xy: 1217, 1946
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_032
+  rotate: false
+  xy: 2, 1526
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_033
+  rotate: false
+  xy: 245, 1596
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_034
+  rotate: false
+  xy: 488, 1666
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_035
+  rotate: false
+  xy: 731, 1736
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_036
+  rotate: false
+  xy: 974, 1806
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_037
+  rotate: false
+  xy: 1217, 1876
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_038
+  rotate: false
+  xy: 1460, 1946
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_039
+  rotate: false
+  xy: 2, 1456
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_040
+  rotate: false
+  xy: 245, 1526
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_041
+  rotate: false
+  xy: 488, 1596
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_042
+  rotate: false
+  xy: 731, 1666
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_043
+  rotate: false
+  xy: 974, 1736
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_044
+  rotate: false
+  xy: 1217, 1806
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_045
+  rotate: false
+  xy: 1460, 1876
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_046
+  rotate: false
+  xy: 1703, 1946
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_047
+  rotate: false
+  xy: 2, 1386
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_048
+  rotate: false
+  xy: 245, 1456
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_049
+  rotate: false
+  xy: 488, 1526
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_050
+  rotate: false
+  xy: 731, 1596
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_051
+  rotate: false
+  xy: 974, 1666
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_052
+  rotate: false
+  xy: 1217, 1736
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_053
+  rotate: false
+  xy: 1460, 1806
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_054
+  rotate: false
+  xy: 1703, 1876
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_055
+  rotate: false
+  xy: 2, 1316
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_056
+  rotate: false
+  xy: 245, 1386
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_057
+  rotate: false
+  xy: 488, 1456
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_058
+  rotate: false
+  xy: 731, 1526
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_059
+  rotate: false
+  xy: 974, 1596
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_060
+  rotate: false
+  xy: 1217, 1666
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_061
+  rotate: false
+  xy: 1460, 1736
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_062
+  rotate: false
+  xy: 1703, 1806
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_063
+  rotate: false
+  xy: 2, 1246
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_064
+  rotate: false
+  xy: 245, 1316
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_065
+  rotate: false
+  xy: 488, 1386
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_066
+  rotate: false
+  xy: 731, 1456
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_067
+  rotate: false
+  xy: 974, 1526
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_068
+  rotate: false
+  xy: 1217, 1596
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_069
+  rotate: false
+  xy: 1460, 1666
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_070
+  rotate: false
+  xy: 1703, 1736
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_071
+  rotate: true
+  xy: 1946, 1773
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1
+images/shazi/shazi_072
+  rotate: false
+  xy: 2, 1176
+  size: 241, 68
+  orig: 241, 68
+  offset: 0, 0
+  index: -1

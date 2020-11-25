@@ -1,0 +1,117 @@
+
+effects_12401_buff.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/buff/buff_000
+  rotate: false
+  xy: 463, 161
+  size: 226, 266
+  orig: 260, 280
+  offset: 29, 2
+  index: -1
+images/effects/buff/buff_002
+  rotate: false
+  xy: 248, 709
+  size: 237, 279
+  orig: 260, 280
+  offset: 23, 0
+  index: -1
+images/effects/buff/buff_004
+  rotate: false
+  xy: 2, 144
+  size: 233, 280
+  orig: 260, 280
+  offset: 27, 0
+  index: -1
+images/effects/buff/buff_006
+  rotate: false
+  xy: 240, 426
+  size: 219, 280
+  orig: 260, 280
+  offset: 28, 0
+  index: -1
+images/effects/buff/buff_008
+  rotate: false
+  xy: 237, 144
+  size: 224, 280
+  orig: 260, 280
+  offset: 24, 0
+  index: -1
+images/effects/buff/buff_010
+  rotate: false
+  xy: 487, 710
+  size: 224, 278
+  orig: 260, 280
+  offset: 23, 0
+  index: -1
+images/effects/buff/buff_012
+  rotate: false
+  xy: 461, 429
+  size: 229, 278
+  orig: 260, 280
+  offset: 24, 0
+  index: -1
+images/effects/buff/buff_014
+  rotate: true
+  xy: 713, 766
+  size: 222, 275
+  orig: 260, 280
+  offset: 23, 0
+  index: -1
+images/effects/buff/buff_016
+  rotate: false
+  xy: 2, 426
+  size: 236, 280
+  orig: 260, 280
+  offset: 19, 0
+  index: -1
+images/effects/buff/buff_018
+  rotate: false
+  xy: 2, 708
+  size: 244, 280
+  orig: 260, 280
+  offset: 15, 0
+  index: -1
+images/effects/buff/buff_020
+  rotate: true
+  xy: 692, 284
+  size: 240, 272
+  orig: 260, 280
+  offset: 17, 0
+  index: -1
+images/effects/buff/buff_022
+  rotate: false
+  xy: 691, 10
+  size: 239, 272
+  orig: 260, 280
+  offset: 16, 0
+  index: -1
+images/effects/buff/buff_024
+  rotate: true
+  xy: 713, 526
+  size: 238, 273
+  orig: 260, 280
+  offset: 16, 6
+  index: -1
+
+effects_12401_buff2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects/buff/buff_026
+  rotate: false
+  xy: 2, 204
+  size: 238, 271
+  orig: 260, 280
+  offset: 22, 3
+  index: -1
+images/effects/buff/buff_028
+  rotate: false
+  xy: 242, 209
+  size: 233, 266
+  orig: 260, 280
+  offset: 26, 0
+  index: -1

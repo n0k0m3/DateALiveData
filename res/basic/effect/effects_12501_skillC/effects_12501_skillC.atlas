@@ -1,0 +1,598 @@
+
+effects_12501_skillC.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/guangxian2_000
+  rotate: true
+  xy: 142, 22
+  size: 190, 64
+  orig: 200, 64
+  offset: 2, 0
+  index: -1
+effects/skillA/shifa/shifa_14
+  rotate: true
+  xy: 75, 582
+  size: 110, 52
+  orig: 240, 160
+  offset: 1, 47
+  index: -1
+effects/skillA/shifa/shifa_16
+  rotate: false
+  xy: 505, 329
+  size: 240, 117
+  orig: 240, 160
+  offset: 0, 6
+  index: -1
+effects/skillC/baochu/baochu_001
+  rotate: false
+  xy: 801, 801
+  size: 221, 221
+  orig: 240, 240
+  offset: 13, 9
+  index: -1
+effects/skillC/baochu/baochu_003
+  rotate: false
+  xy: 801, 578
+  size: 221, 221
+  orig: 240, 240
+  offset: 13, 9
+  index: -1
+effects/skillC/chuan/chuan_001
+  rotate: false
+  xy: 2, 922
+  size: 400, 100
+  orig: 400, 120
+  offset: 0, 8
+  index: -1
+effects/skillC/chuan/chuan_002
+  rotate: false
+  xy: 404, 914
+  size: 395, 108
+  orig: 400, 120
+  offset: 5, 8
+  index: -1
+effects/skillC/chuan/chuan_004
+  rotate: false
+  xy: 2, 819
+  size: 377, 101
+  orig: 400, 120
+  offset: 23, 8
+  index: -1
+effects/skillC/chuan/chuan_006
+  rotate: false
+  xy: 381, 816
+  size: 362, 96
+  orig: 400, 120
+  offset: 38, 10
+  index: -1
+effects/skillC/chuanci/chuanci_000
+  rotate: true
+  xy: 752, 513
+  size: 179, 47
+  orig: 368, 96
+  offset: 19, 24
+  index: -1
+effects/skillC/chuanci/chuanci_001
+  rotate: false
+  xy: 2, 730
+  size: 362, 87
+  orig: 368, 96
+  offset: 6, 0
+  index: -1
+effects/skillC/chuanci/chuanci_002
+  rotate: false
+  xy: 366, 730
+  size: 362, 84
+  orig: 368, 96
+  offset: 6, 0
+  index: -1
+effects/skillC/chuanci/chuanci_003
+  rotate: true
+  xy: 2, 214
+  size: 362, 82
+  orig: 368, 96
+  offset: 6, 0
+  index: -1
+effects/skillC/chuanci/chuanci_004
+  rotate: true
+  xy: 86, 214
+  size: 362, 82
+  orig: 368, 96
+  offset: 6, 0
+  index: -1
+effects/skillC/chuanci/chuanci_006
+  rotate: true
+  xy: 170, 227
+  size: 349, 79
+  orig: 368, 96
+  offset: 19, 2
+  index: -1
+effects/skillC/citu/citu_002
+  rotate: true
+  xy: 129, 583
+  size: 145, 121
+  orig: 160, 144
+  offset: 0, 16
+  index: -1
+effects/skillC/hit/hit_001
+  rotate: false
+  xy: 208, 3
+  size: 280, 222
+  orig: 280, 240
+  offset: 0, 14
+  index: -1
+effects/skillC/hit/hit_003
+  rotate: true
+  xy: 490, 448
+  size: 280, 236
+  orig: 280, 240
+  offset: 0, 4
+  index: -1
+effects/skillC/hit/hit_005
+  rotate: true
+  xy: 252, 448
+  size: 280, 236
+  orig: 280, 240
+  offset: 0, 4
+  index: -1
+effects/skillC/ju/ju_003
+  rotate: true
+  xy: 745, 761
+  size: 151, 54
+  orig: 200, 64
+  offset: 10, 4
+  index: -1
+effects/skillC/ju/ju_004
+  rotate: false
+  xy: 801, 522
+  size: 145, 54
+  orig: 200, 64
+  offset: 10, 5
+  index: -1
+effects/skillC/qiu/qiu_002
+  rotate: false
+  xy: 730, 694
+  size: 68, 65
+  orig: 109, 109
+  offset: 20, 22
+  index: -1
+effects/skillC/qiu/qiu_004
+  rotate: false
+  xy: 601, 232
+  size: 88, 95
+  orig: 109, 109
+  offset: 6, 14
+  index: -1
+effects/skillC/qiu/qiu_006
+  rotate: true
+  xy: 505, 230
+  size: 97, 94
+  orig: 109, 109
+  offset: 6, 9
+  index: -1
+effects/skillC/shifa2/shifa2_000
+  rotate: false
+  xy: 2, 578
+  size: 71, 150
+  orig: 80, 200
+  offset: 4, 50
+  index: -1
+effects/skillC/shuju/shuju1_021
+  rotate: false
+  xy: 251, 229
+  size: 252, 217
+  orig: 288, 288
+  offset: 28, 38
+  index: -1
+effects/skillC/shuju/shuju1_023
+  rotate: true
+  xy: 752, 2
+  size: 250, 257
+  orig: 288, 288
+  offset: 30, 12
+  index: -1
+effects/skillC/shuju/shuju1_055
+  rotate: true
+  xy: 752, 254
+  size: 257, 269
+  orig: 288, 288
+  offset: 18, 0
+  index: -1
+effects/skillC/shuju/shuju1_057
+  rotate: true
+  xy: 490, 3
+  size: 224, 260
+  orig: 288, 288
+  offset: 28, 0
+  index: -1
+effects/skillC/shuju/shuju1_059
+  rotate: false
+  xy: 2, 4
+  size: 138, 208
+  orig: 288, 288
+  offset: 59, 16
+  index: -1
+
+effects_12501_skillC2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skillA/shifa/shifa_18
+  rotate: true
+  xy: 884, 263
+  size: 228, 122
+  orig: 240, 160
+  offset: 12, 7
+  index: -1
+effects/skillA/shifa/shifa_20
+  rotate: true
+  xy: 788, 493
+  size: 240, 105
+  orig: 240, 160
+  offset: 0, 24
+  index: -1
+effects/skillA/shifa/shifa_22
+  rotate: false
+  xy: 636, 11
+  size: 240, 89
+  orig: 240, 160
+  offset: 0, 40
+  index: -1
+effects/skillC/baochu/baochu_005
+  rotate: true
+  xy: 2, 4
+  size: 180, 184
+  orig: 240, 240
+  offset: 38, 29
+  index: -1
+effects/skillC/baochu/baochu_007
+  rotate: false
+  xy: 807, 835
+  size: 179, 187
+  orig: 240, 240
+  offset: 37, 27
+  index: -1
+effects/skillC/canying/canying_004
+  rotate: false
+  xy: 188, 2
+  size: 132, 178
+  orig: 160, 208
+  offset: 6, 24
+  index: -1
+effects/skillC/canying/canying_006
+  rotate: false
+  xy: 906, 73
+  size: 96, 188
+  orig: 160, 208
+  offset: 37, 20
+  index: -1
+effects/skillC/chuan/chuan_000
+  rotate: false
+  xy: 322, 11
+  size: 249, 78
+  orig: 400, 120
+  offset: 0, 20
+  index: -1
+effects/skillC/chuan/chuan_008
+  rotate: true
+  xy: 244, 452
+  size: 296, 55
+  orig: 400, 120
+  offset: 44, 34
+  index: -1
+effects/skillC/chuanci/chuanci_008
+  rotate: false
+  xy: 525, 735
+  size: 276, 45
+  orig: 368, 96
+  offset: 30, 21
+  index: -1
+effects/skillC/ci/ci_000
+  rotate: true
+  xy: 244, 182
+  size: 268, 120
+  orig: 280, 120
+  offset: 0, 0
+  index: -1
+effects/skillC/ci/ci_002
+  rotate: false
+  xy: 366, 91
+  size: 268, 120
+  orig: 280, 120
+  offset: 0, 0
+  index: -1
+effects/skillC/ci/ci_004
+  rotate: false
+  xy: 636, 102
+  size: 268, 120
+  orig: 280, 120
+  offset: 0, 0
+  index: -1
+effects/skillC/ci/ci_006
+  rotate: true
+  xy: 895, 565
+  size: 268, 120
+  orig: 280, 120
+  offset: 0, 0
+  index: -1
+effects/skillC/hit/hit_000
+  rotate: true
+  xy: 301, 478
+  size: 280, 220
+  orig: 280, 240
+  offset: 0, 3
+  index: -1
+effects/skillC/hit/hit_007
+  rotate: true
+  xy: 2, 468
+  size: 280, 240
+  orig: 280, 240
+  offset: 0, 0
+  index: -1
+effects/skillC/hit/hit_009
+  rotate: false
+  xy: 525, 782
+  size: 280, 240
+  orig: 280, 240
+  offset: 0, 0
+  index: -1
+effects/skillC/hit/hit_011
+  rotate: true
+  xy: 2, 186
+  size: 280, 240
+  orig: 280, 240
+  offset: 0, 0
+  index: -1
+effects/skillC/ju/ju_000
+  rotate: false
+  xy: 895, 510
+  size: 121, 53
+  orig: 200, 64
+  offset: 63, 4
+  index: -1
+effects/skillC/ju/ju_005
+  rotate: false
+  xy: 878, 18
+  size: 122, 53
+  orig: 200, 64
+  offset: 10, 6
+  index: -1
+effects/skillC/qiu/qiu_000
+  rotate: false
+  xy: 807, 744
+  size: 82, 89
+  orig: 109, 109
+  offset: 14, 11
+  index: -1
+effects/skillC/shuju/shuju1_025
+  rotate: true
+  xy: 366, 213
+  size: 263, 257
+  orig: 288, 288
+  offset: 17, 12
+  index: -1
+effects/skillC/shuju/shuju1_027
+  rotate: false
+  xy: 523, 489
+  size: 263, 244
+  orig: 288, 288
+  offset: 17, 12
+  index: -1
+effects/skillC/shuju/shuju1_029
+  rotate: true
+  xy: 625, 224
+  size: 263, 257
+  orig: 288, 288
+  offset: 17, 12
+  index: -1
+effects/skillC/shuju/shuju1_051
+  rotate: false
+  xy: 262, 760
+  size: 261, 262
+  orig: 288, 288
+  offset: 15, 10
+  index: -1
+effects/skillC/shuju/shuju1_053
+  rotate: false
+  xy: 2, 750
+  size: 258, 272
+  orig: 288, 288
+  offset: 24, 5
+  index: -1
+
+effects_12501_skillC3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/glow_000
+  rotate: false
+  xy: 919, 778
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+effects/skillC/baochu/baochu_009
+  rotate: true
+  xy: 548, 13
+  size: 163, 179
+  orig: 240, 240
+  offset: 42, 30
+  index: -1
+effects/skillC/canying/canying_000
+  rotate: true
+  xy: 797, 444
+  size: 126, 170
+  orig: 160, 208
+  offset: 20, 0
+  index: -1
+effects/skillC/canying/canying_002
+  rotate: false
+  xy: 797, 572
+  size: 130, 180
+  orig: 160, 208
+  offset: 16, 11
+  index: -1
+effects/skillC/ci/ci_008
+  rotate: false
+  xy: 2, 125
+  size: 268, 120
+  orig: 280, 120
+  offset: 0, 0
+  index: -1
+effects/skillC/ci/ci_010
+  rotate: true
+  xy: 797, 754
+  size: 268, 120
+  orig: 280, 120
+  offset: 0, 0
+  index: -1
+effects/skillC/ci/ci_012
+  rotate: false
+  xy: 272, 125
+  size: 268, 120
+  orig: 280, 120
+  offset: 0, 0
+  index: -1
+effects/skillC/ci/ci_014
+  rotate: false
+  xy: 278, 3
+  size: 268, 120
+  orig: 280, 120
+  offset: 0, 0
+  index: -1
+effects/skillC/citu/citu_000
+  rotate: false
+  xy: 143, 2
+  size: 133, 121
+  orig: 160, 144
+  offset: 0, 16
+  index: -1
+effects/skillC/citu/citu_004
+  rotate: false
+  xy: 2, 2
+  size: 139, 121
+  orig: 160, 144
+  offset: 0, 16
+  index: -1
+effects/skillC/citu/citu_006
+  rotate: false
+  xy: 796, 320
+  size: 139, 122
+  orig: 160, 144
+  offset: 0, 15
+  index: -1
+effects/skillC/ju/ju_001
+  rotate: false
+  xy: 796, 211
+  size: 165, 52
+  orig: 200, 64
+  offset: 19, 4
+  index: -1
+effects/skillC/ju/ju_002
+  rotate: false
+  xy: 796, 265
+  size: 159, 53
+  orig: 200, 64
+  offset: 16, 4
+  index: -1
+effects/skillC/qiu/qiu_008
+  rotate: false
+  xy: 929, 711
+  size: 65, 65
+  orig: 109, 109
+  offset: 22, 22
+  index: -1
+effects/skillC/shifa2/shifa2_002
+  rotate: true
+  xy: 542, 178
+  size: 67, 189
+  orig: 80, 200
+  offset: 8, 5
+  index: -1
+effects/skillC/shifa2/shifa2_004
+  rotate: false
+  xy: 919, 860
+  size: 66, 162
+  orig: 80, 200
+  offset: 8, 4
+  index: -1
+effects/skillC/shuju/shuju1_031
+  rotate: false
+  xy: 2, 765
+  size: 263, 257
+  orig: 288, 288
+  offset: 17, 12
+  index: -1
+effects/skillC/shuju/shuju1_033
+  rotate: false
+  xy: 2, 506
+  size: 263, 257
+  orig: 288, 288
+  offset: 17, 12
+  index: -1
+effects/skillC/shuju/shuju1_035
+  rotate: false
+  xy: 267, 765
+  size: 263, 257
+  orig: 288, 288
+  offset: 17, 12
+  index: -1
+effects/skillC/shuju/shuju1_037
+  rotate: false
+  xy: 532, 247
+  size: 262, 257
+  orig: 288, 288
+  offset: 17, 12
+  index: -1
+effects/skillC/shuju/shuju1_039
+  rotate: false
+  xy: 2, 247
+  size: 263, 257
+  orig: 288, 288
+  offset: 17, 12
+  index: -1
+effects/skillC/shuju/shuju1_041
+  rotate: false
+  xy: 267, 506
+  size: 263, 257
+  orig: 288, 288
+  offset: 17, 12
+  index: -1
+effects/skillC/shuju/shuju1_043
+  rotate: false
+  xy: 532, 765
+  size: 263, 257
+  orig: 288, 288
+  offset: 17, 12
+  index: -1
+effects/skillC/shuju/shuju1_045
+  rotate: false
+  xy: 267, 247
+  size: 263, 257
+  orig: 288, 288
+  offset: 17, 12
+  index: -1
+effects/skillC/shuju/shuju1_047
+  rotate: false
+  xy: 532, 506
+  size: 263, 257
+  orig: 288, 288
+  offset: 17, 12
+  index: -1
+
+effects_12501_skillC4.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/skillC/shuju/shuju1_049
+  rotate: false
+  xy: 2, 3
+  size: 258, 257
+  orig: 288, 288
+  offset: 17, 12
+  index: -1

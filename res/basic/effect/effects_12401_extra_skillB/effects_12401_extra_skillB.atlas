@@ -1,0 +1,493 @@
+
+effects_12401_extra_skillB.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_L/exskillb/c/jiguang_021
+  rotate: false
+  xy: 704, 233
+  size: 169, 70
+  orig: 415, 70
+  offset: 13, 0
+  index: -1
+images/effects_L/exskillb/glow/glow_056
+  rotate: false
+  xy: 2, 3
+  size: 243, 113
+  orig: 255, 113
+  offset: 4, 0
+  index: -1
+images/effects_L/exskillb/glow/glow_064
+  rotate: false
+  xy: 247, 3
+  size: 222, 113
+  orig: 255, 113
+  offset: 14, 0
+  index: -1
+images/effects_L/exskillb/glow/glow_068
+  rotate: false
+  xy: 396, 180
+  size: 68, 28
+  orig: 255, 113
+  offset: 92, 33
+  index: -1
+images/effects_L/exskillb/glow/glow_070
+  rotate: true
+  xy: 1010, 976
+  size: 21, 8
+  orig: 255, 113
+  offset: 115, 43
+  index: -1
+images/effects_L/exskillb/glow_097
+  rotate: false
+  xy: 918, 12
+  size: 104, 104
+  orig: 110, 107
+  offset: 5, 1
+  index: -1
+images/effects_L/exskillb/hit/1_028
+  rotate: false
+  xy: 471, 3
+  size: 223, 205
+  orig: 239, 233
+  offset: 9, 20
+  index: -1
+images/effects_L/exskillb/hit/1_030
+  rotate: false
+  xy: 696, 3
+  size: 220, 205
+  orig: 239, 233
+  offset: 12, 20
+  index: -1
+images/effects_L/exskillb/jiguang/j1_100
+  rotate: false
+  xy: 2, 409
+  size: 700, 197
+  orig: 717, 206
+  offset: 17, 0
+  index: -1
+images/effects_L/exskillb/jiguang/j1_101
+  rotate: false
+  xy: 2, 210
+  size: 700, 197
+  orig: 717, 206
+  offset: 17, 0
+  index: -1
+images/effects_L/exskillb/jiguang/j1_106
+  rotate: false
+  xy: 2, 816
+  size: 700, 206
+  orig: 717, 206
+  offset: 17, 0
+  index: -1
+images/effects_L/exskillb/jiguang/j1_108
+  rotate: false
+  xy: 2, 608
+  size: 700, 206
+  orig: 717, 206
+  offset: 17, 0
+  index: -1
+images/effects_L/exskillb/jiguang/j1_134
+  rotate: true
+  xy: 970, 118
+  size: 620, 49
+  orig: 717, 206
+  offset: 97, 78
+  index: -1
+images/effects_L/exskillb/jiguang1/2_000
+  rotate: false
+  xy: 970, 740
+  size: 52, 69
+  orig: 400, 97
+  offset: 37, 15
+  index: -1
+images/effects_L/exskillb/jiguang1/2_002
+  rotate: false
+  xy: 2, 127
+  size: 392, 81
+  orig: 400, 97
+  offset: 8, 9
+  index: -1
+images/effects_L/exskillb/jiguang1/2_014
+  rotate: false
+  xy: 704, 999
+  size: 310, 23
+  orig: 400, 97
+  offset: 62, 39
+  index: -1
+images/effects_L/exskillb/jiguang1/2_016
+  rotate: false
+  xy: 704, 811
+  size: 298, 20
+  orig: 400, 97
+  offset: 72, 41
+  index: -1
+images/effects_L/exskillb/xuli/xuli_020
+  rotate: false
+  xy: 704, 833
+  size: 304, 164
+  orig: 426, 217
+  offset: 73, 38
+  index: -1
+images/effects_L/exskillb/xuli1/xuli1_078
+  rotate: false
+  xy: 704, 558
+  size: 264, 251
+  orig: 272, 260
+  offset: 4, 0
+  index: -1
+images/effects_L/exskillb/xuli1/xuli1_080
+  rotate: false
+  xy: 704, 305
+  size: 261, 251
+  orig: 272, 260
+  offset: 7, 1
+  index: -1
+images/pao2
+  rotate: false
+  xy: 918, 132
+  size: 45, 171
+  orig: 45, 171
+  offset: 0, 0
+  index: -1
+
+effects_12401_extra_skillB2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_L/exskillb/c/jiguang_023
+  rotate: true
+  xy: 951, 624
+  size: 397, 70
+  orig: 415, 70
+  offset: 11, 0
+  index: -1
+images/effects_L/exskillb/c/jiguang_025
+  rotate: true
+  xy: 894, 61
+  size: 394, 70
+  orig: 415, 70
+  offset: 14, 0
+  index: -1
+images/effects_L/exskillb/c/jiguang_035
+  rotate: false
+  xy: 616, 16
+  size: 358, 43
+  orig: 415, 70
+  offset: 44, 11
+  index: -1
+images/effects_L/exskillb/glow/glow_062
+  rotate: true
+  xy: 514, 2
+  size: 243, 100
+  orig: 255, 113
+  offset: 4, 0
+  index: -1
+images/effects_L/exskillb/hit/1_032
+  rotate: true
+  xy: 894, 457
+  size: 165, 120
+  orig: 239, 233
+  offset: 28, 52
+  index: -1
+images/effects_L/exskillb/jiguang/j1_099
+  rotate: false
+  xy: 2, 629
+  size: 700, 193
+  orig: 717, 206
+  offset: 17, 4
+  index: -1
+images/effects_L/exskillb/jiguang/j1_102
+  rotate: false
+  xy: 2, 824
+  size: 700, 197
+  orig: 717, 206
+  offset: 17, 0
+  index: -1
+images/effects_L/exskillb/jiguang/j1_104
+  rotate: false
+  xy: 2, 426
+  size: 700, 196
+  orig: 717, 206
+  offset: 17, 0
+  index: -1
+images/effects_L/exskillb/jiguang/j1_129
+  rotate: true
+  xy: 704, 61
+  size: 700, 188
+  orig: 717, 206
+  offset: 17, 18
+  index: -1
+images/effects_L/exskillb/jiguang/j1_130
+  rotate: false
+  xy: 2, 247
+  size: 692, 177
+  orig: 717, 206
+  offset: 25, 10
+  index: -1
+images/effects_L/exskillb/jiguang1/2_010
+  rotate: true
+  xy: 966, 91
+  size: 364, 21
+  orig: 400, 97
+  offset: 26, 40
+  index: -1
+images/effects_L/exskillb/jiguang1/2_012
+  rotate: true
+  xy: 989, 120
+  size: 335, 19
+  orig: 400, 97
+  offset: 46, 41
+  index: -1
+images/effects_L/exskillb/xuli1/xuli1_076
+  rotate: false
+  xy: 258, 8
+  size: 254, 237
+  orig: 272, 260
+  offset: 6, 0
+  index: -1
+images/effects_L/exskillb/xuli1/xuli1_082
+  rotate: true
+  xy: 704, 763
+  size: 258, 245
+  orig: 272, 260
+  offset: 9, 6
+  index: -1
+images/effects_L/exskillb/xuli1/xuli1_084
+  rotate: false
+  xy: 2, 3
+  size: 254, 242
+  orig: 272, 260
+  offset: 11, 8
+  index: -1
+
+effects_12401_extra_skillB3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_L/exskillb/c/jiguang_027
+  rotate: false
+  xy: 606, 33
+  size: 394, 70
+  orig: 415, 70
+  offset: 14, 0
+  index: -1
+images/effects_L/exskillb/c/jiguang_029
+  rotate: true
+  xy: 935, 435
+  size: 394, 70
+  orig: 415, 70
+  offset: 14, 0
+  index: -1
+images/effects_L/exskillb/hit/1_022
+  rotate: false
+  xy: 385, 44
+  size: 219, 218
+  orig: 239, 233
+  offset: 11, 4
+  index: -1
+images/effects_L/exskillb/jiguang/j1_098
+  rotate: false
+  xy: 2, 656
+  size: 527, 180
+  orig: 717, 206
+  offset: 20, 17
+  index: -1
+images/effects_L/exskillb/jiguang/j1_132
+  rotate: false
+  xy: 2, 838
+  size: 683, 168
+  orig: 717, 206
+  offset: 34, 16
+  index: -1
+images/effects_L/exskillb/jiguang1/2_006
+  rotate: false
+  xy: 531, 751
+  size: 393, 78
+  orig: 400, 97
+  offset: 7, 11
+  index: -1
+images/effects_L/exskillb/jiguang1/2_008
+  rotate: false
+  xy: 531, 671
+  size: 392, 78
+  orig: 400, 97
+  offset: 8, 11
+  index: -1
+images/effects_L/exskillb/xuli/xuli_002
+  rotate: true
+  xy: 385, 264
+  size: 390, 173
+  orig: 426, 217
+  offset: 16, 17
+  index: -1
+images/effects_L/exskillb/xuli/xuli_004
+  rotate: true
+  xy: 751, 295
+  size: 374, 182
+  orig: 426, 217
+  offset: 25, 1
+  index: -1
+images/effects_L/exskillb/xuli/xuli_006
+  rotate: false
+  xy: 2, 45
+  size: 381, 200
+  orig: 426, 217
+  offset: 25, 0
+  index: -1
+images/effects_L/exskillb/xuli/xuli_008
+  rotate: false
+  xy: 2, 451
+  size: 381, 203
+  orig: 426, 217
+  offset: 25, 0
+  index: -1
+images/effects_L/exskillb/xuli/xuli_010
+  rotate: false
+  xy: 2, 247
+  size: 381, 202
+  orig: 426, 217
+  offset: 25, 1
+  index: -1
+images/effects_L/exskillb/xuli/xuli_012
+  rotate: true
+  xy: 560, 300
+  size: 369, 189
+  orig: 426, 217
+  offset: 25, 14
+  index: -1
+images/effects_L/exskillb/xuli/xuli_014
+  rotate: false
+  xy: 606, 105
+  size: 369, 188
+  orig: 426, 217
+  offset: 25, 15
+  index: -1
+images/effects_L/exskillb/xuli/xuli_018
+  rotate: false
+  xy: 687, 831
+  size: 319, 175
+  orig: 426, 217
+  offset: 58, 27
+  index: -1
+
+effects_12401_extra_skillB4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_L/exskillb/c/jiguang_031
+  rotate: false
+  xy: 362, 930
+  size: 386, 70
+  orig: 415, 70
+  offset: 22, 0
+  index: -1
+images/effects_L/exskillb/c/jiguang_033
+  rotate: true
+  xy: 2, 47
+  size: 376, 70
+  orig: 415, 70
+  offset: 32, 0
+  index: -1
+images/effects_L/exskillb/glow/glow_054
+  rotate: false
+  xy: 750, 897
+  size: 200, 103
+  orig: 255, 113
+  offset: 26, 0
+  index: -1
+images/effects_L/exskillb/glow/glow_058
+  rotate: false
+  xy: 362, 817
+  size: 221, 111
+  orig: 255, 113
+  offset: 15, 0
+  index: -1
+images/effects_L/exskillb/glow/glow_060
+  rotate: false
+  xy: 748, 797
+  size: 200, 98
+  orig: 255, 113
+  offset: 26, 2
+  index: -1
+images/effects_L/exskillb/glow/glow_066
+  rotate: false
+  xy: 302, 307
+  size: 128, 111
+  orig: 255, 113
+  offset: 58, 0
+  index: -1
+images/effects_L/exskillb/hit/1_023
+  rotate: false
+  xy: 82, 597
+  size: 220, 218
+  orig: 239, 233
+  offset: 10, 4
+  index: -1
+images/effects_L/exskillb/hit/1_024
+  rotate: false
+  xy: 304, 648
+  size: 191, 167
+  orig: 239, 233
+  offset: 23, 38
+  index: -1
+images/effects_L/exskillb/hit/1_026
+  rotate: false
+  xy: 74, 188
+  size: 214, 195
+  orig: 239, 233
+  offset: 19, 25
+  index: -1
+images/effects_L/exskillb/hit/1_034
+  rotate: false
+  xy: 304, 552
+  size: 145, 94
+  orig: 239, 233
+  offset: 36, 60
+  index: -1
+images/effects_L/exskillb/jiguang1/2_004
+  rotate: true
+  xy: 2, 425
+  size: 390, 78
+  orig: 400, 97
+  offset: 10, 11
+  index: -1
+images/effects_L/exskillb/xuli/xuli_016
+  rotate: false
+  xy: 2, 817
+  size: 358, 183
+  orig: 426, 217
+  offset: 25, 19
+  index: -1
+images/effects_L/exskillb/xuli1/xuli1_086
+  rotate: false
+  xy: 82, 385
+  size: 218, 210
+  orig: 272, 260
+  offset: 27, 28
+  index: -1
+images/effects_L/exskillb/xuli1/xuli1_088
+  rotate: false
+  xy: 74, 2
+  size: 199, 184
+  orig: 272, 260
+  offset: 36, 39
+  index: -1
+images/effects_L/exskillb/xuli1/xuli1_090
+  rotate: false
+  xy: 585, 775
+  size: 161, 153
+  orig: 272, 260
+  offset: 59, 54
+  index: -1
+images/effects_L/exskillb/xuli1/xuli1_092
+  rotate: false
+  xy: 302, 420
+  size: 135, 130
+  orig: 272, 260
+  offset: 74, 64
+  index: -1

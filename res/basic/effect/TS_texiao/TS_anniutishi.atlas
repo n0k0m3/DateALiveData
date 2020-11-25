@@ -1,0 +1,27 @@
+
+TS_anniutishi.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/TS_anniutishi/guang_015
+  rotate: false
+  xy: 191, 260
+  size: 139, 70
+  orig: 145, 78
+  offset: 3, 4
+  index: -1
+images/TS_anniutishi/kuang
+  rotate: false
+  xy: 2, 230
+  size: 187, 100
+  orig: 187, 100
+  offset: 0, 0
+  index: -1
+images/TS_anniutishi/kuang_000
+  rotate: false
+  xy: 2, 128
+  size: 187, 100
+  orig: 195, 104
+  offset: 4, 2
+  index: -1

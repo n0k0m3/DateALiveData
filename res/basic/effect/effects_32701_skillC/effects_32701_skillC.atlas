@@ -1,0 +1,222 @@
+
+effects_32701_skillC.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_L/glow_00105
+  rotate: true
+  xy: 716, 2
+  size: 117, 119
+  orig: 134, 125
+  offset: 8, 3
+  index: -1
+images/effects_L/skillC/boom/boom_00041
+  rotate: true
+  xy: 614, 2
+  size: 129, 100
+  orig: 290, 223
+  offset: 60, 29
+  index: -1
+images/effects_L/skillC/boom/boom_00042
+  rotate: true
+  xy: 830, 792
+  size: 230, 174
+  orig: 290, 223
+  offset: 42, 0
+  index: -1
+images/effects_L/skillC/boom/boom_00044
+  rotate: false
+  xy: 549, 606
+  size: 271, 198
+  orig: 290, 223
+  offset: 7, 0
+  index: -1
+images/effects_L/skillC/boom/boom_00046
+  rotate: false
+  xy: 549, 806
+  size: 279, 216
+  orig: 290, 223
+  offset: 0, 0
+  index: -1
+images/effects_L/skillC/boom/boom_00048
+  rotate: true
+  xy: 2, 260
+  size: 282, 214
+  orig: 290, 223
+  offset: 0, 0
+  index: -1
+images/effects_L/skillC/boom/boom_00050
+  rotate: true
+  xy: 2, 3
+  size: 255, 221
+  orig: 290, 223
+  offset: 29, 1
+  index: -1
+images/effects_L/skillC/boom/boom_00052
+  rotate: false
+  xy: 586, 387
+  size: 220, 217
+  orig: 290, 223
+  offset: 65, 4
+  index: -1
+images/effects_L/skillC/boom/boom_00054
+  rotate: false
+  xy: 808, 364
+  size: 191, 162
+  orig: 290, 223
+  offset: 95, 31
+  index: -1
+images/effects_L/skillC/daoguang/daoguang_00042
+  rotate: false
+  xy: 2, 781
+  size: 276, 241
+  orig: 302, 261
+  offset: 11, 7
+  index: -1
+images/effects_L/skillC/daoguang/daoguang_00043
+  rotate: false
+  xy: 280, 786
+  size: 267, 236
+  orig: 302, 261
+  offset: 23, 5
+  index: -1
+images/effects_L/skillC/daoguang/daoguang_00045
+  rotate: false
+  xy: 2, 544
+  size: 271, 235
+  orig: 302, 261
+  offset: 18, 16
+  index: -1
+images/effects_L/skillC/daoguang/daoguang_00047
+  rotate: true
+  xy: 225, 3
+  size: 265, 216
+  orig: 302, 261
+  offset: 26, 36
+  index: -1
+images/effects_L/skillC/daoguang/daoguang_00049
+  rotate: true
+  xy: 218, 270
+  size: 272, 213
+  orig: 302, 261
+  offset: 14, 38
+  index: -1
+images/effects_L/skillC/daoguang/daoguang_00051
+  rotate: false
+  xy: 280, 581
+  size: 267, 203
+  orig: 302, 261
+  offset: 12, 45
+  index: -1
+images/effects_L/skillC/feng/feng_00003
+  rotate: false
+  xy: 837, 5
+  size: 133, 114
+  orig: 174, 137
+  offset: 22, 21
+  index: -1
+images/effects_L/skillC/feng/feng_00013
+  rotate: true
+  xy: 931, 216
+  size: 146, 90
+  orig: 174, 137
+  offset: 5, 34
+  index: -1
+images/effects_L/skillC/quan/quan_00022
+  rotate: true
+  xy: 780, 121
+  size: 241, 149
+  orig: 293, 180
+  offset: 15, 19
+  index: -1
+images/effects_L/skillC/quan/quan_00024
+  rotate: true
+  xy: 614, 133
+  size: 252, 164
+  orig: 293, 180
+  offset: 15, 10
+  index: -1
+images/effects_L/skillC/quan/quan_00026
+  rotate: true
+  xy: 822, 528
+  size: 262, 172
+  orig: 293, 180
+  offset: 13, 4
+  index: -1
+images/effects_L/skillC/quan/quan_00028
+  rotate: true
+  xy: 443, 40
+  size: 268, 169
+  orig: 293, 180
+  offset: 10, 3
+  index: -1
+images/effects_L/skillC/quan/quan_00030
+  rotate: true
+  xy: 433, 310
+  size: 269, 151
+  orig: 293, 180
+  offset: 8, 18
+  index: -1
+
+effects_32701_skillC2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_L/skillC/feng/feng_00001
+  rotate: false
+  xy: 153, 35
+  size: 138, 90
+  orig: 174, 137
+  offset: 12, 42
+  index: -1
+images/effects_L/skillC/feng/feng_00005
+  rotate: false
+  xy: 2, 118
+  size: 145, 120
+  orig: 174, 137
+  offset: 19, 11
+  index: -1
+images/effects_L/skillC/feng/feng_00007
+  rotate: false
+  xy: 149, 127
+  size: 151, 111
+  orig: 174, 137
+  offset: 15, 9
+  index: -1
+images/effects_L/skillC/feng/feng_00009
+  rotate: false
+  xy: 268, 387
+  size: 159, 113
+  orig: 174, 137
+  offset: 8, 10
+  index: -1
+images/effects_L/skillC/feng/feng_00011
+  rotate: false
+  xy: 2, 2
+  size: 149, 114
+  orig: 174, 137
+  offset: 6, 10
+  index: -1
+images/effects_L/skillC/quan/quan_00021
+  rotate: false
+  xy: 268, 288
+  size: 163, 97
+  orig: 293, 180
+  offset: 85, 22
+  index: -1
+images/effects_L/skillC/quan/quan_00032
+  rotate: false
+  xy: 2, 354
+  size: 264, 146
+  orig: 293, 180
+  offset: 13, 25
+  index: -1
+images/effects_L/skillC/quan/quan_00034
+  rotate: false
+  xy: 2, 240
+  size: 219, 112
+  orig: 293, 180
+  offset: 36, 40
+  index: -1

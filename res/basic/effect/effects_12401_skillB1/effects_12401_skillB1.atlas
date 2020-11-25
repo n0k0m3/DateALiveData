@@ -1,0 +1,117 @@
+
+effects_12401_skillB1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_L/exskillb/glow_097
+  rotate: true
+  xy: 774, 170
+  size: 115, 116
+  orig: 122, 119
+  offset: 6, 1
+  index: -1
+images/effects_L/skillb/xuli/xuli_004
+  rotate: true
+  xy: 510, 451
+  size: 278, 263
+  orig: 355, 289
+  offset: 43, 0
+  index: -1
+images/effects_L/skillb/xuli/xuli_006
+  rotate: true
+  xy: 245, 95
+  size: 278, 264
+  orig: 355, 289
+  offset: 44, 0
+  index: -1
+images/effects_L/skillb/xuli/xuli_008
+  rotate: true
+  xy: 511, 175
+  size: 274, 261
+  orig: 355, 289
+  offset: 46, 1
+  index: -1
+images/effects_L/skillb/xuli/xuli_010
+  rotate: true
+  xy: 775, 495
+  size: 245, 243
+  orig: 355, 289
+  offset: 59, 14
+  index: -1
+images/effects_L/skillb/xuli/xuli_012
+  rotate: false
+  xy: 775, 287
+  size: 223, 206
+  orig: 355, 289
+  offset: 67, 32
+  index: -1
+images/effects_L/skillb/xuli/xuli_020
+  rotate: false
+  xy: 688, 742
+  size: 301, 276
+  orig: 355, 289
+  offset: 36, 8
+  index: -1
+images/effects_L/skillb/xuli/xuli_022
+  rotate: false
+  xy: 350, 731
+  size: 336, 287
+  orig: 355, 289
+  offset: 19, 2
+  index: -1
+images/effects_L/skillb/xuli/xuli_024
+  rotate: false
+  xy: 2, 729
+  size: 346, 289
+  orig: 355, 289
+  offset: 9, 0
+  index: -1
+images/effects_L/skillb/xuli/xuli_026
+  rotate: true
+  xy: 2, 375
+  size: 352, 279
+  orig: 355, 289
+  offset: 3, 10
+  index: -1
+images/effects_L/skillb/xuli/xuli_028
+  rotate: true
+  xy: 2, 27
+  size: 346, 241
+  orig: 355, 289
+  offset: 9, 17
+  index: -1
+images/effects_L/skillb/xuli/xuli_030
+  rotate: true
+  xy: 283, 425
+  size: 302, 225
+  orig: 355, 289
+  offset: 37, 29
+  index: -1
+
+effects_12401_skillB12.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_L/skillb/xuli/xuli_014
+  rotate: false
+  xy: 2, 2
+  size: 264, 265
+  orig: 355, 289
+  offset: 40, 16
+  index: -1
+images/effects_L/skillb/xuli/xuli_016
+  rotate: false
+  xy: 269, 269
+  size: 264, 265
+  orig: 355, 289
+  offset: 40, 16
+  index: -1
+images/effects_L/skillb/xuli/xuli_018
+  rotate: false
+  xy: 2, 269
+  size: 265, 265
+  orig: 355, 289
+  offset: 40, 16
+  index: -1

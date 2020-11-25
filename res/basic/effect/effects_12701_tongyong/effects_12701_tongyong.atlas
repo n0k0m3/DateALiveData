@@ -1,0 +1,293 @@
+
+effects_12701_tongyong.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effects_H/skillB/baodian/baodian_000
+  rotate: false
+  xy: 208, 444
+  size: 184, 184
+  orig: 210, 210
+  offset: 15, 9
+  index: -1
+images/effects_H/skillB/baodian/baodian_001
+  rotate: false
+  xy: 2, 62
+  size: 184, 186
+  orig: 210, 210
+  offset: 15, 9
+  index: -1
+images/effects_H/skillB/baodian/baodian_002
+  rotate: false
+  xy: 380, 642
+  size: 184, 184
+  orig: 210, 210
+  offset: 15, 9
+  index: -1
+images/effects_H/skillB/baodian/baodian_004
+  rotate: false
+  xy: 394, 456
+  size: 184, 184
+  orig: 210, 210
+  offset: 15, 9
+  index: -1
+images/effects_H/skillB/baodian/baodian_006
+  rotate: true
+  xy: 566, 658
+  size: 180, 160
+  orig: 210, 210
+  offset: 16, 22
+  index: -1
+images/effects_H/skillB/baodian/baodian_008
+  rotate: true
+  xy: 580, 490
+  size: 166, 156
+  orig: 210, 210
+  offset: 23, 26
+  index: -1
+images/effects_H/skillB/baodian/baodian_010
+  rotate: false
+  xy: 738, 517
+  size: 150, 152
+  orig: 210, 210
+  offset: 28, 30
+  index: -1
+images/effects_H/skillB/baodian/baodian_012
+  rotate: false
+  xy: 209, 20
+  size: 131, 122
+  orig: 210, 210
+  offset: 44, 33
+  index: -1
+images/effects_H/skillB/zidan/zidan_000
+  rotate: false
+  xy: 508, 295
+  size: 131, 32
+  orig: 180, 60
+  offset: 25, 13
+  index: -1
+images/effects_H/skillB/zidan/zidan_002
+  rotate: true
+  xy: 854, 349
+  size: 131, 31
+  orig: 180, 60
+  offset: 25, 13
+  index: -1
+images/effects_H/skillB/zidan/zidan_004
+  rotate: false
+  xy: 580, 456
+  size: 137, 32
+  orig: 180, 60
+  offset: 21, 13
+  index: -1
+images/effects_H/skillB/zidan/zidan_006
+  rotate: true
+  xy: 820, 349
+  size: 131, 32
+  orig: 180, 60
+  offset: 27, 13
+  index: -1
+images/effects_H/skillB/zidan/zidan_008
+  rotate: false
+  xy: 2, 28
+  size: 137, 32
+  orig: 180, 60
+  offset: 21, 13
+  index: -1
+images/effects_H/skillB/zidan/zidan_010
+  rotate: true
+  xy: 786, 348
+  size: 132, 32
+  orig: 180, 60
+  offset: 25, 13
+  index: -1
+images/effects_H/skillB/zidan/zidan_012
+  rotate: true
+  xy: 752, 346
+  size: 134, 32
+  orig: 180, 60
+  offset: 23, 13
+  index: -1
+images/effects_H/skillB/zidan/zidan_014
+  rotate: false
+  xy: 738, 482
+  size: 135, 33
+  orig: 180, 60
+  offset: 23, 13
+  index: -1
+images/effects_H/skillB1BA/baodian/baodian_000
+  rotate: false
+  xy: 2, 439
+  size: 184, 187
+  orig: 210, 210
+  offset: 15, 9
+  index: -1
+images/effects_H/skillB1BA/baodian/baodian_001
+  rotate: false
+  xy: 2, 250
+  size: 184, 187
+  orig: 210, 210
+  offset: 15, 9
+  index: -1
+images/effects_H/skillB1BA/baodian/baodian_002
+  rotate: false
+  xy: 194, 630
+  size: 184, 186
+  orig: 210, 210
+  offset: 15, 9
+  index: -1
+images/effects_H/skillB1BA/baodian/baodian_004
+  rotate: false
+  xy: 494, 840
+  size: 190, 182
+  orig: 210, 210
+  offset: 9, 13
+  index: -1
+images/effects_H/skillB1BA/baodian/baodian_006
+  rotate: false
+  xy: 686, 842
+  size: 189, 180
+  orig: 210, 210
+  offset: 4, 16
+  index: -1
+images/effects_H/skillB1BA/baodian/baodian_008
+  rotate: false
+  xy: 2, 628
+  size: 190, 188
+  orig: 210, 210
+  offset: 7, 12
+  index: -1
+images/effects_H/skillB1BA/baodian/baodian_010
+  rotate: false
+  xy: 296, 828
+  size: 196, 194
+  orig: 210, 210
+  offset: 4, 9
+  index: -1
+images/effects_H/skillB1BA/baodian/baodian_012
+  rotate: false
+  xy: 877, 887
+  size: 131, 135
+  orig: 210, 210
+  offset: 44, 30
+  index: -1
+images/effects_H/skillB1BA/baodian1/baodian_000
+  rotate: true
+  xy: 1008, 688
+  size: 197, 14
+  orig: 300, 120
+  offset: 12, 54
+  index: -1
+images/effects_H/skillB1BA/baodian1/baodian_001
+  rotate: false
+  xy: 2, 921
+  size: 292, 101
+  orig: 300, 120
+  offset: 8, 8
+  index: -1
+images/effects_H/skillB1BA/baodian1/baodian_002
+  rotate: false
+  xy: 2, 818
+  size: 292, 101
+  orig: 300, 120
+  offset: 8, 8
+  index: -1
+images/effects_H/skillB1BA/baodian1/baodian_004
+  rotate: true
+  xy: 188, 343
+  size: 283, 18
+  orig: 300, 120
+  offset: 15, 52
+  index: -1
+images/effects_H/skillB1BA/baodian1/baodian_006
+  rotate: true
+  xy: 188, 90
+  size: 251, 19
+  orig: 300, 120
+  offset: 47, 52
+  index: -1
+images/effects_H/skillB2/qiangkou/shouji/shouji_00023
+  rotate: true
+  xy: 728, 671
+  size: 169, 148
+  orig: 248, 194
+  offset: 30, 18
+  index: -1
+images/effects_H/skillB2/qiangkou/shouji/shouji_00024
+  rotate: false
+  xy: 209, 293
+  size: 148, 149
+  orig: 248, 194
+  offset: 51, 18
+  index: -1
+images/effects_H/skillB2/qiangkou/shouji/shouji_00025
+  rotate: false
+  xy: 209, 144
+  size: 147, 147
+  orig: 248, 194
+  offset: 51, 19
+  index: -1
+images/effects_H/skillB2/qiangkou/shouji/shouji_00027
+  rotate: false
+  xy: 359, 295
+  size: 147, 147
+  orig: 248, 194
+  offset: 51, 19
+  index: -1
+images/effects_H/skillB2/qiangkou/shouji/shouji_00029
+  rotate: true
+  xy: 878, 749
+  size: 136, 128
+  orig: 248, 194
+  offset: 54, 29
+  index: -1
+images/effects_H/skillB2/qiangkou/shouji/shouji_00031
+  rotate: false
+  xy: 508, 329
+  size: 125, 125
+  orig: 248, 194
+  offset: 61, 32
+  index: -1
+images/effects_H/skillB2/qiangkou/shouji/shouji_00033
+  rotate: false
+  xy: 635, 333
+  size: 115, 121
+  orig: 248, 194
+  offset: 66, 36
+  index: -1
+images/effects_H/skillB2/zidan/zidan_000
+  rotate: false
+  xy: 878, 711
+  size: 117, 17
+  orig: 121, 25
+  offset: 3, 3
+  index: -1
+images/effects_H/skillB2/zidan/zidan_002
+  rotate: false
+  xy: 878, 671
+  size: 111, 17
+  orig: 121, 25
+  offset: 9, 3
+  index: -1
+images/effects_H/skillB2/zidan/zidan_006
+  rotate: false
+  xy: 878, 690
+  size: 115, 19
+  orig: 121, 25
+  offset: 6, 2
+  index: -1
+images/effects_H/skillB2/zidan/zidan_010
+  rotate: false
+  xy: 2, 9
+  size: 119, 17
+  orig: 121, 25
+  offset: 1, 3
+  index: -1
+images/effects_H/skillB2/zidan/zidan_014
+  rotate: false
+  xy: 878, 730
+  size: 120, 17
+  orig: 121, 25
+  offset: 1, 3
+  index: -1
