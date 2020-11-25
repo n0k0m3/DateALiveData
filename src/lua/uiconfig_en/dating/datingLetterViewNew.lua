@@ -2812,13 +2812,13 @@ local t =
 											controlID = "title_bg_cg_bg_Panel_pageItem_Panel_prefab_Panel-datingLetterViewNew_Layer1_dating_Game",
 											UUID = "c24c7669_79fc_459f_b7cb_f2ebe405b75c",
 											anchorPoint = "False",
-											anchorPointX = "0.5",
+											anchorPointX = "0",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "False",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "MEImage",
 											dstBlendFunc = "771",
 											height = "62",
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "title_bg",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -2828,13 +2828,13 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -364,
-												PositionY = 189,
+												PositionX = -455,
+												PositionY = 194,
 												LeftPositon = 239,
 												TopPosition = 78,
 												relativeToName = "Panel_pageItem",
 											},
-											width = "180",
+											width = "219",
 											ZOrder = "1",
 											components = 
 											{
@@ -2879,7 +2879,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -56,
+														PositionX = 34,
 														PositionY = 10,
 													},
 													width = "51",
@@ -2925,7 +2925,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 29,
+														PositionX = 119,
 														PositionY = 11,
 													},
 													width = "13",
@@ -2950,7 +2950,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "10",
+													fontSize = "15",
 													fontStroke = 
 													{
 														IsStroke = false,
@@ -2961,7 +2961,7 @@ local t =
 													ignoreSize = "False",
 													name = "Label_mainName",
 													nTextAlign = "1",
-													nTextHAlign = "1",
+													nTextHAlign = "0",
 													sizepercentx = "0",
 													sizepercenty = "0",
 													sizeType = "0",
@@ -2971,10 +2971,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -61,
+														PositionX = 29,
 														PositionY = -12,
 													},
-													width = "130",
+													width = "163",
 													ZOrder = "1",
 												},
 											},

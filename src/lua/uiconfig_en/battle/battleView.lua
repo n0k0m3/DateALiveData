@@ -652,14 +652,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "16",
+											fontSize = "15",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FF444444",
 												StrokeSize = 1,
 											},
-											height = "21",
+											height = "20",
 											ignoreSize = "True",
 											name = "Label_sp",
 											nTextAlign = "1",
@@ -673,7 +673,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 90,
+												PositionX = 79,
 												PositionY = -42,
 											},
 											width = "24",
@@ -719,7 +719,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 236,
+												PositionX = 244,
 												PositionY = -42,
 											},
 											width = "33",
@@ -6406,7 +6406,6 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									visible = "False",
 									width = "192",
 									ZOrder = "1",
 									components = 
@@ -6435,7 +6434,6 @@ local t =
 												PositionX = 95,
 												PositionY = 13,
 											},
-											visible = "False",
 											width = "192",
 											ZOrder = "1",
 											components = 
@@ -6566,7 +6564,6 @@ local t =
 												PositionX = -3,
 												PositionY = -30,
 											},
-											visible = "False",
 											width = "193",
 											ZOrder = "1",
 											components = 
@@ -6776,7 +6773,6 @@ local t =
 												PositionX = -3,
 												PositionY = -30,
 											},
-											visible = "False",
 											width = "194",
 											ZOrder = "1",
 											components = 
@@ -7076,7 +7072,6 @@ local t =
 												PositionX = 95,
 												PositionY = -36,
 											},
-											visible = "False",
 											width = "192",
 											ZOrder = "1",
 											components = 
@@ -7207,7 +7202,6 @@ local t =
 												PositionX = 95,
 												PositionY = -95,
 											},
-											visible = "False",
 											width = "218",
 											ZOrder = "1",
 											components = 
@@ -7372,7 +7366,6 @@ local t =
 												Layout="Absolute",
 												nType = "0"
 											},
-											visible = "False",
 											width = "110",
 											ZOrder = "1",
 											components = 
@@ -7623,7 +7616,6 @@ local t =
 												PositionX = 95,
 												PositionY = -34,
 											},
-											visible = "False",
 											width = "194",
 											ZOrder = "1",
 											components = 
@@ -7744,7 +7736,6 @@ local t =
 												PositionX = 95,
 												PositionY = 13,
 											},
-											visible = "False",
 											width = "221",
 											ZOrder = "1",
 											components = 
