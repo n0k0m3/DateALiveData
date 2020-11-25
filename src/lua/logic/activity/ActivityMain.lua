@@ -33,7 +33,11 @@ function ActivityMain:initUI(ui)
     self.actBtnItem     = TFDirector:getChildByPath(ui,"Panel_ActBtn");
     self.Button_receive = TFDirector:getChildByPath(ui,"Button_receive");
 
-    self.Panel_sign     = TFDirector:getChildByPath(ui,"Panel_sign"):hide();
+    self.Panel_sign = TFDirector:getChildByPath(ui,"Panel_sign"):hide();
+    self.Panel_sign.img_signNum = TFDirector:getChildByPath(self.Panel_sign,"img_signNum")
+    self.Panel_sign.lab_signLastNum = TFDirector:getChildByPath(self.Panel_sign.img_signNum,"lab_signLastNum")
+    self.Panel_sign.imgIcon = TFDirector:getChildByPath(self.Panel_sign.img_signNum,"imgIcon")
+    self.Panel_sign.lab_signCost = TFDirector:getChildByPath(self.Panel_sign.img_signNum,"lab_signCost")
 
     self.Panel_seven    = TFDirector:getChildByPath(ui,"Panel_seven"):hide()
 
@@ -54,6 +58,11 @@ function ActivityMain:initUI(ui)
     self.Label_powernum = TFDirector:getChildByPath(self.Panel_power, "Label_powernum")
     self.Label_power_tip2 = TFDirector:getChildByPath(self.Panel_power , "Label_power_tip2")
     self.Label_power_tip2:setTextById(1820006)
+
+    self.Panel_tzr = TFDirector:getChildByPath(self.Panel_root, "Panel_tzr"):hide()
+
+    self.Panel_newGiftEn = TFDirector:getChildByPath(self.Panel_root , "Panel_newGiftEn")
+    self.Panel_newGiftEn:hide()
 
     self.panel_sevenEx = TFDirector:getChildByPath(ui,"Panel_sevenEx"):hide()
     -- local Panel_tehui = TFDirector:getChildByPath(self.panel_sevenEx, "Panel_tehui")
@@ -101,6 +110,8 @@ function ActivityMain:initUI(ui)
         [EC_ActivityType.MONTH_CARD] = self.Panel_monthCard,
         [EC_ActivityType.SUPPORT_STORE] = self.Panel_support_store,
         [EC_ActivityType.NEWGUY_SUMMON] = self.Panel_newGuy,
+        [EC_ActivityType.TOUZIREN] = self.Panel_tzr,
+        [EC_ActivityType2.NEWGIFT_PACK_EN] = self.Panel_newGiftEn
     }
 
     self.actUpdateFun = {
@@ -113,6 +124,8 @@ function ActivityMain:initUI(ui)
         [EC_ActivityType.MONTH_CARD] = self.updateMonthCard,
         [EC_ActivityType.SUPPORT_STORE] = self.updateSupportStore,
         [EC_ActivityType.NEWGUY_SUMMON] = self.updateNewGuySummon,
+        [EC_ActivityType.TOUZIREN] = self.updateTouziren,
+        [EC_ActivityType2.NEWGIFT_PACK_EN] = self.updateNewGiftEn
     }
 
     self.Image_showPowerItem:setTexture("icon/system/001.png")
@@ -217,6 +230,24 @@ function ActivityMain:initActivitysBtn()
         Button.id = EC_ActivityType.CHRISTMAS_SIGN
     end
 
+    local activity = ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.NEWGIFT_PACK_EN)
+    if #activity > 0 then
+        --萌新礼包英文版
+        local Panel_ActBtn = self.actBtnItem:clone()
+        local Button = TFDirector:getChildByName(Panel_ActBtn, "Button")
+        local Label = TFDirector:getChildByName(Button, "Label")
+        local Image_icon = TFDirector:getChildByName(Button, "Image_icon")
+        local RedTip = TFDirector:getChildByName(Panel_ActBtn, "RedTip")
+        Label:setTextById(190000366)
+        Image_icon:setTexture("ui/fuli/icon5.png")
+        self.btnListView:pushBackCustomItem(Panel_ActBtn)
+        self.actBtns[EC_ActivityType2.NEWGIFT_PACK_EN] = Button
+        Button:onClick(function()
+                self:onTouchActBtn(Button)
+        end)
+        Button.id = EC_ActivityType2.NEWGIFT_PACK_EN
+    end
+
     --月卡
     -- local Panel_cardBtn = self.actBtnItem:clone()
     -- local Button = TFDirector:getChildByName(Panel_cardBtn, "Button")
@@ -252,6 +283,22 @@ function ActivityMain:initActivitysBtn()
         end
     end
 
+    if FunctionDataMgr:isOpen(TabDataMgr:getData("Investor",1).systemId) then
+        -- body
+        local btn           = self.actBtnItem:clone();
+        local titleLabel    = TFDirector:getChildByPath(btn,"Label");
+        local icon          = TFDirector:getChildByPath(btn,"Image_icon")
+        titleLabel:setTextById(14300289)
+        self.btnListView:pushBackCustomItem(btn)
+        icon:setTexture("ui/activity/activity_score/009.png")
+        local button        = TFDirector:getChildByPath(btn,"Button");
+        button.id        = EC_ActivityType.TOUZIREN;
+        self.actBtns[ EC_ActivityType.TOUZIREN] = button
+        button:onClick(function()
+            self:onTouchActBtn(button);
+        end)
+    end
+
     if self.curActId and self.actBtns[self.curActId] then
         self:onTouchActBtn(self.actBtns[self.curActId]);
     else
@@ -262,6 +309,31 @@ function ActivityMain:initActivitysBtn()
 
     self:showRedPoint();
 end
+
+function ActivityMain:updateTouziren( ... )
+    if not self.touzirenView_ then
+        self.touzirenView_ = requireNew("lua.logic.activity.Activity_touziren"):new()
+        local x = -1136 * 0.5
+        local y = -640 * 0.5
+        local size = self.touzirenView_:getSize()
+        self.touzirenView_:setPosition(ccp(x, y))
+        self:addLayerToNode(self.touzirenView_, self.Panel_tzr)
+    end
+end
+
+function ActivityMain:updateNewGiftEn( ... )
+    if not self.newGiftPackEnView then
+        local activityId = ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.NEWGIFT_PACK_EN)[1]
+        self.newGiftPackEnView = requireNew("lua.logic.activity.NewGiftByEnglishVerView"):new(activityId)
+        local x = -1136 * 0.5 + 90
+        local y = -640 * 0.5
+        local size = self.newGiftPackEnView:getSize()
+        self.newGiftPackEnView:setPosition(ccp(x, y))
+        self:addLayerToNode(self.newGiftPackEnView, self.Panel_newGiftEn)
+    end
+end
+
+
 
 function ActivityMain:showRedPoint()
     for k,v in pairs(self.actBtns) do
@@ -284,7 +356,15 @@ function ActivityMain:showRedPoint()
             local noobInfo = SummonDataMgr:getNoobInfo()
             isShow = noobInfo and noobInfo.awardState == 1
             redTip:setVisible(isShow)
-
+        elseif v.id == EC_ActivityType.TOUZIREN then
+            isShow = TaskDataMgr:isCanReceiveTask(TabDataMgr:getData("Investor",1).taskType)
+            redTip:setVisible(isShow)
+        elseif v.id == EC_ActivityType2.NEWGIFT_PACK_EN then
+            local activityId =  ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.NEWGIFT_PACK_EN)[1]
+            if activityId then
+                isShow = ActivityDataMgr2:isCanGet(activityId)
+                redTip:setVisible(isShow)
+            end
         else
             isShow= ActivityDataMgr:getIsCanReceive(v.actIdx)
             if isShow then
@@ -337,6 +417,7 @@ function ActivityMain:registerEvents()
     EventMgr:addEventListener(self,EV_RECHARGE_UPDATE,handler(self.updateUI, self))
     EventMgr:addEventListener(self, EV_ACTIVITY_UPDATE_PROGRESS, handler(self.onUpdateProgressEvent, self))
     EventMgr:addEventListener(self, EV_UPDATE_NOOBAWARD, handler(self.onUpdateNoobAward, self))
+    EventMgr:addEventListener(self, EV_STORE_BUY_SUCCESS, handler(self.updateUI, self))
 
     self.Button_receive:onClick(function()
             self:receiveReward();
@@ -383,7 +464,7 @@ function ActivityMain:registerEvents()
             --         Utils:showTips(2100037, level)
             --     end
             -- end
-            Utils:openView("store.GiftPackMainView",3)
+            Utils:openView("supplyNew.SupplyMainNewView",2)
     end)
 
     self.Panel_awardConfirm:onClick(function()
@@ -411,8 +492,8 @@ function ActivityMain:buySevenExGift()
 end
 
 function ActivityMain:receiveReward()
-    local actIdx = ActivityDataMgr:getActIdx(self.curActId);
-    ActivityDataMgr:receiveReward(actIdx);
+    local actIdx = ActivityDataMgr:getActIdx(self.curActId)
+    ActivityDataMgr:receiveReward(actIdx)
 end
 
 function ActivityMain:updateSign()
@@ -429,6 +510,21 @@ function ActivityMain:updateSign()
     local Image_item_bg = TFDirector:getChildByPath(self.Panel_prefab, "Image_item_bg")
     local receivedIdx   = ActivityDataMgr:getReceivedIndex(actIdx);
     local isCanReceive  = ActivityDataMgr:getIsCanReceive(actIdx);
+    
+    local canSignAain, canSignDay,  hadSupplyDays = ActivityDataMgr:isCanSignAgainByIdx(actIdx)
+    local kvpCfg      = ActivityDataMgr:getSignKvpCfg()
+    local goodsCost   = nil
+    local _cfg        = kvpCfg["supplyCost"][hadSupplyDays+ 1]
+    if _cfg then
+        local _id , _num = next(kvpCfg["supplyCost"][hadSupplyDays + 1])
+        goodsCost   = {id = _id, num = _num}
+        self.Panel_sign.imgIcon:setTexture(GoodsDataMgr:getItemCfg(goodsCost.id).icon)
+        local _txt = GoodsDataMgr:getItemCount(goodsCost.id).."/"..goodsCost.num
+        self.Panel_sign.lab_signCost:setText(_txt)
+    end
+    self.Panel_sign.lab_signLastNum:setText(canSignDay)
+    self.Panel_sign.img_signNum:setVisible(nil ~= _cfg)
+
     for index = 1, entryCnt do
         local i = (index-1) % col + 1
         local j = math.ceil(index / col)
@@ -449,15 +545,32 @@ function ActivityMain:updateSign()
         -- end
     end
 
-    self.Button_receive:setGrayEnabled(not isCanReceive);
-    self.Button_receive:setTouchEnabled(isCanReceive);
+    self.Button_receive:setGrayEnabled(not isCanReceive and not canSignAain);
+    self.Button_receive:setTouchEnabled(isCanReceive or canSignAain);
 
     local receiveLabel = TFDirector:getChildByPath(self.Button_receive,"Label_receive");
-    if not isCanReceive then
+    if not isCanReceive and not canSignAain then
         receiveLabel:setTextById(1810002);
+    elseif not isCanReceive and  canSignAain then
+        receiveLabel:setText("补签")
     else
         receiveLabel:setTextById(1810001);
     end
+
+    -- TODO CLOSE
+    -- 屏蔽补签功能
+    -------------------------------------
+    self.Panel_sign.img_signNum:setVisible(false)
+    self.Button_receive:setGrayEnabled(not isCanReceive);
+    self.Button_receive:setTouchEnabled(isCanReceive);
+
+    local receiveLabel = TFDirector:getChildByPath(self.Button_receive,"Label_receive")
+    if not isCanReceive then
+        receiveLabel:setTextById(1810002)
+    else
+        receiveLabel:setTextById(1810001)
+    end
+    -------------------------------------
 end
 
 function ActivityMain:updateOneSignEntry(item,index)

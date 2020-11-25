@@ -78,8 +78,10 @@ function MCardActivated:registerEvents()
     end)
 
     self.Button_Go:onClick(function()
-            Utils:openView("store.GiftPackMainView", 2)
+            --Utils:openView("store.GiftPackMainView", 2)
             AlertManager:closeLayer(self)
+            EventMgr:dispatchEvent(EV_MONTHCARD_RECHARGE_SUCESS)
+			Utils:openView("supplyNew.SupplyMainNewView", 3)
     end)
 end
 

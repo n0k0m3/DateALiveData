@@ -3,10 +3,18 @@ local ActivityDataMgr = class("ActivityDataMgr", BaseDataMgr)
 require("lua.logic.activity.json");
 
 function ActivityDataMgr:ctor()
-	self.actList = {};
+	self:initData()
 	self:init();
 end
 
+function ActivityDataMgr:initData()
+	self:initCfgData()
+	self.actList = {}
+end
+
+function ActivityDataMgr:initCfgData()
+	self.signkvpCfg = Utils:getKVP(90017)
+end
 
 function ActivityDataMgr:init()
 	TFDirector:addProto(s2c.SIGN_RESP_SIGN_INFOS, self, self.recvActivityList)
@@ -15,6 +23,11 @@ function ActivityDataMgr:init()
 	TFDirector:addProto(s2c.SIGN_RESP_PURCH_STORE, self, self.revcBuySevenExGift)
 	TFDirector:addProto(s2c.ACTIVITY_RESP_NEW_YEAR_WELFARE_URL, self, self.revcNewYear)
 	TFDirector:addProto(s2c.RANK_RSP_RANK_LIST, self, self.recvRankList)  --接收排行信息
+
+	TFDirector:addProto(s2c.SIGN_RESULT_SUPPLY_SIGN, self, self.revcReceiveReward)
+	TFDirector:addProto(s2c.WORLD_HELP_RES_RANK_INFO, self, self.onRecvAllServerAssistanceRank)
+	TFDirector:addProto(s2c.WORLD_HELP_RES_REWARD_RECORD, self, self.onRecvAllServerAssistanceProgerss)
+	TFDirector:addProto(s2c.WORLD_HELP_RES_TAKE_REWARD, self, self.onRecvAllServerAssistanceAwards)
 end
 
 --发送根据类型获取排行榜信息请求
@@ -27,6 +40,10 @@ end
 function ActivityDataMgr:recvRankList(event)
 	local data = event.data
 	EventMgr:dispatchEvent(EV_RANK_NOTICE_UPDATE , data)
+end
+
+function ActivityDataMgr:getSignKvpCfg()
+	return self.signkvpCfg
 end
 
 function ActivityDataMgr:getIsHaveActs( )
@@ -268,6 +285,22 @@ function ActivityDataMgr:getIsCanReceive(actIdx)
 	return flag
 end
 
+-- 签到是否可以补签
+function ActivityDataMgr:isCanSignAgainByIdx(actIdx)
+	local flag = false
+	local day  = 0
+	local hadSupplyDays = 0
+	local act  = self:getActList(actIdx)
+	if act and act.supplyLimit then
+		if act.id == EC_ActivityType.SIGN then
+			flag = act.supplyLimit > 0
+			day  = act.supplyLimit
+			hadSupplyDays = table.count(act.supplyDays  or {})
+		end
+	end
+	return flag, day, hadSupplyDays
+end
+
 function ActivityDataMgr:getOneDayShowRedPoint(dayIndex)
 	local flag = false
 	local sevenExTask_ = TaskDataMgr:getTask(EC_TaskType.SEVENEX)
@@ -296,22 +329,41 @@ end
 
 function ActivityDataMgr:receiveReward(actIdx)
 	local isCan = self:getIsCanReceive(actIdx);
+	local act   = self:getActList(actIdx)
+	local isCanSignAgain = false
+	local lastDay   = 0
+	local hadSupplyDays    = nil
+	local goodsCost = nil
+	if act then
+		if act.id == EC_ActivityType.SIGN then
+			isCanSignAgain, lastDay, hadSupplyDays = self:isCanSignAgainByIdx(actIdx)
+			-- maxDay      = self.signkvpCfg["supplyMax"]
+			if isCanSignAgain then
+				local _id , _num = next(self.signkvpCfg["supplyCost"][hadSupplyDays + 1])
+				goodsCost   = {id = _id, num = _num}
+		    end
+		end
+	end
 
-	if not isCan then
+	if not isCan and not isCanSignAgain then
 		Utils:showTips(TextDataMgr:getText(800057));
 		return;
 	end
 
-	self:receiveRewardMsg(actIdx)
-end
-
-function ActivityDataMgr:receiveRewardMsg(actIdx)
 	local actid = self:getActId(actIdx);
 	local msg = {
 		actid,
 	}
-
-	TFDirector:send(c2s.SIGN_SUBMIT_SIGN, msg);
+	if isCan then
+		TFDirector:send(c2s.SIGN_SUBMIT_SIGN, msg);
+	elseif not isCan and isCanSignAgain then -- 可以补签
+		if GoodsDataMgr:currencyIsEnough(goodsCost.id, goodsCost.num) then
+			TFDirector:send(c2s.SIGN_SUPPLY_SIGN, msg)
+		else
+			local commodityId = self.signkvpCfg["item"]
+			Utils:openView("summon.SummonBuyResourceView", commodityId, goodsCost.num - GoodsDataMgr:getItemCount(goodsCost.id), 14300312)
+		end
+	end
 end
 
 function ActivityDataMgr:revcReceiveReward(event)
@@ -324,6 +376,26 @@ function ActivityDataMgr:revcReceiveReward(event)
 			Utils:showReward(reward);
 		end
 	end
+end
+
+function ActivityDataMgr:onRecvAllServerAssistanceRank(event)
+	local data = event.data
+	EventMgr:dispatchEvent(EV_ALLSERVER_ASSISTANCE_RANK, data)
+end
+
+function ActivityDataMgr:onRecvAllServerAssistanceProgerss(event)
+	local data = event.data
+	self.allServerAssistanceScoreData = data
+end
+
+function ActivityDataMgr:onRecvAllServerAssistanceAwards(event)
+	local data = event.data
+	EventMgr:dispatchEvent(EV_ALLSERVER_ASSISTANCE_AWARD, data.type)
+	Utils:showReward(data.rewards)
+end
+
+function ActivityDataMgr:getAllServerAsScoreData()
+	return self.allServerAssistanceScoreData
 end
 
 function ActivityDataMgr:checkRedPoint()
@@ -359,10 +431,18 @@ function ActivityDataMgr:checkRedPoint()
 	if noobInfo and noobInfo.awardState == 1 then
 		ret = true
 	end
-
+	
+	if TaskDataMgr:isCanReceiveTask(TabDataMgr:getData("Investor",1).taskType) then
+		ret = true
+	end
 	-- if RechargeDataMgr:isMonthCardCanSign() then
 	-- 	ret = true
 	-- end
+
+	local activityId =  ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.NEWGIFT_PACK_EN)[1]
+    if activityId and ActivityDataMgr2:isCanGet(activityId) then
+        ret = true
+     end
 
     return ret;
 end
@@ -520,4 +600,15 @@ function ActivityDataMgr:sendNewYear()
 	TFDirector:send(c2s.ACTIVITY_REQ_NEW_YEAR_WELFARE_URL, {});
 end 
 
+function ActivityDataMgr:sendWORLD_HELP_REQ_RANK_INFO(_type)
+	TFDirector:send(c2s.WORLD_HELP_REQ_RANK_INFO, {_type})
+end
+
+function ActivityDataMgr:sendWORLD_HELP_REQ_REWARD_RECORD()
+	TFDirector:send(c2s.WORLD_HELP_REQ_REWARD_RECORD, {});
+end
+
+function ActivityDataMgr:sendWORLD_HELP_REQ_TAKE_REWARD(index, type)
+	TFDirector:send(c2s.WORLD_HELP_REQ_TAKE_REWARD, {index - 1, type});
+end
 return ActivityDataMgr:new()

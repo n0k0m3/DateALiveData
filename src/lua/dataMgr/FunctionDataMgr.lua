@@ -30,7 +30,7 @@ function FunctionDataMgr:initFuncList()
         [45] = self.jBag,    -- 背包
         [46] = self.jEmail,    -- 邮件
         [47] = self.jFragmentStore,    -- 碎片商店
-        [48] = self.jMedal,    -- 勋章管
+        [48] = self.jMedal,    -- 勋章管		
         [60] = self.jPayGift,    -- 充值·礼包
         [61] = self.jClothStore,    -- 服装商店
         [64] = self.jSupportActivity,    -- 应援活动
@@ -84,9 +84,23 @@ function FunctionDataMgr:initFuncList()
         [151] = self.jGMSkill,         --主角光环
         [999] = self.jSpecialFuben,    --特殊活动副本
         [199] = self.jAssistanceCode,
-        [200] = self.jRechargeArray,
+        -- [200] = self.jRechargeArray,
         [305] = self.jNewGuyGiftBag,    --萌新礼包弹窗
-        [306] = self.jHundredLoginView  ---百日活动礼包
+        [306] = self.jHundredLoginView,  ---百日活动礼包
+		[152] = self.jMonStore,         --魔王试炼商店
+        [155] = self.jFlyShip,          --探索
+		[156] = self.jCollectCGView,    -- 跳转CG图鉴
+        [200] = self.jHeroMain,         -- 跳转精灵主界面
+        -- [999] = self.jSpecialFuben,    --特殊活动副本
+        [300] = self.jWorldRoom,    -- 进入大世界
+        [301] = self.jPrivilegeLeague,    -- 乐园特权
+        [302] = self.jPersonInfoBase,    -- 乐园个人信息
+        [303] = self.jFashionStore,    -- 时装商城
+        [304] = self.jStorePack,    -- 乐园商店
+        [405] = self.jBalloon,    -- 气球活动
+        [406] = self.jTurnTable,    -- 转盘活动
+        [307] = self.jSimulateSummon,    -- 模拟召唤
+        [308] = self.jActivityByHasActivity,    -- 活动跳转，强制无活动不打开
     }
     local tempFunc = {}
     for k, v in pairs(self.funcList_) do
@@ -199,6 +213,10 @@ function FunctionDataMgr:__makeAccessItem(desc, open, jumpId, args)
         jumpId = jumpId,
         args = args,
     }
+end
+
+function FunctionDataMgr:isFuncIdExist(id)
+	return self.funcList_[id] ~= nil
 end
 
 function FunctionDataMgr:enterByFuncId(id, ...)
@@ -581,19 +599,40 @@ function FunctionDataMgr:jActivity(activitId)
     Utils:openView("activity.ActivityMainView", activitId, activityShowType)
 end
 
+function FunctionDataMgr:jActivityByHasActivity(activityShowType, activitId)
+    if not self:checkFuncOpen(6) then return end
+    print(activitId, activityShowType)
+    local activityInfo = ActivityDataMgr2:getActivityInfo(activitId, activityShowType)
+
+    if not activityInfo or table.count(activityInfo) == 0 then
+        Utils:showTips(219009)
+        return
+    end
+
+    if activityInfo and (activityInfo.extendData and activityInfo.extendData.activityShowType) or activityShowType then 
+        activityShowType = activityInfo.extendData.activityShowType
+    end
+
+    if self["jActivity"..activityShowType] then
+        self["jActivity"..activityShowType](self, activitId, activityShowType)
+    else
+        Utils:openView("activity.ActivityMainView", activitId, activityShowType)
+    end
+end
+
 function FunctionDataMgr:jActivity3(activitId, activityShowType)
     activityShowType = activityShowType or 3
-    Utils:openView("activity.ActivityMainView3", activitId, activityShowType)
+    Utils:openView("activity.ActivityMainView2", activitId, activityShowType)
 end
 
 function FunctionDataMgr:jActivity4(activitId, activityShowType)
     activityShowType = activityShowType or 4
-    Utils:openView("activity.ActivityMainView4", activitId, activityShowType)
+    Utils:openView("activity.ActivityMainView2", activitId, activityShowType)
 end
 
 function FunctionDataMgr:jActivity5(activitId, activityShowType)
     activityShowType = activityShowType or 5
-    Utils:openView("activity.ActivityMainView5", activitId, activityShowType)
+    Utils:openView("activity.ActivityMainView2", activitId, activityShowType)
 end
 
 function FunctionDataMgr:jActivity6(activitId, activityShowType)
@@ -604,6 +643,11 @@ end
 function FunctionDataMgr:jActivity1001(activitId, activityShowType)
     activityShowType = activityShowType or 1001
     Utils:openView("activity.ActivityMainView1001", activitId, activityShowType)
+end
+
+function FunctionDataMgr:jWorldRoom(roomType)
+    roomType = roomType or WorldRoomType.ZNQ_WORLD
+    TFDirector:send(c2s.NEW_WORLD_REQ_PRE_ENTER_NEW_WORLD,{roomType})
 end
 
 function FunctionDataMgr:jActivity2(activitId, activityShowType)
@@ -665,6 +709,10 @@ function FunctionDataMgr:jFriend( index, jumpInvite )
     Utils:openView("friend.FriendView", index, jumpInvite)
 end
 
+function FunctionDataMgr:jHeroMain( )
+    Utils:openView("fairyNew.FairyMainLayer")
+end
+
 function FunctionDataMgr:jHero()
     if not self:checkFuncOpen() then return end
     HeroDataMgr.showid = HeroDataMgr:getHeroId(1, 1);
@@ -715,8 +763,18 @@ function FunctionDataMgr:jCity(...)
     end,true)
 end
 
-function FunctionDataMgr:jSummon(jumpIndex)
+function FunctionDataMgr:jSummon(jumpIndex, summonId)
     if not self:checkFuncOpen() then return end
+    if summonId then
+        local summon_ = SummonDataMgr:getSummon()
+        for i, v in ipairs(summon_ or {}) do
+            if v[1].id == summonId or v[2].id == summonId then
+                jumpIndex = i
+                break
+            end
+        end
+    end
+
     Utils:openView("summon.SummonView",jumpIndex)
 end
 
@@ -806,6 +864,14 @@ function FunctionDataMgr:jPokedex(playerInfo)
     Utils:openView("collect.CollectMainView")
 end
 
+function FunctionDataMgr:jCollectCGView(tabIndex)
+	if CollectDataMgr:checkPageCanEnter(EC_CollectPage.CG) == false then
+		Utils:showTips(241009)
+		return
+	end
+	Utils:openView("collect.CollectCGView", tabIndex)
+end
+
 function FunctionDataMgr:jGiftStore()
     self:jStore(150000)
 end
@@ -839,11 +905,11 @@ function FunctionDataMgr:jPayGift()
 end
 
 function FunctionDataMgr:jPayWelfare()
-    self:jPay(3)
+    self:jPay(2)
 end
 
 function FunctionDataMgr:jPayMonthCard()
-    self:jPay(4)
+    self:jPay(3)
 end
 
 
@@ -920,6 +986,15 @@ function FunctionDataMgr:jTheaterLevelView(theaterId)
 end
 
 function FunctionDataMgr:jTheaterLevel(extraChapterId,levelCid)
+
+    local chapter,exChapterId = FubenDataMgr:getTheaterChapter(extraChapterId)
+    local exChapterCfg = TabDataMgr:getData("ExtraChapter",exChapterId)
+    local serverTime = ServerDataMgr:getServerTime()
+    if serverTime < exChapterCfg.openTime then
+        Utils:showTips(2106013)
+        return
+    end
+
     local theaterLevelCfg = FubenDataMgr:getTheaterDungeonLevelCfg(levelCid)
     local chapterCfg = FubenDataMgr:getChapterCfg(theaterLevelCfg.chapter)
     local _, condEnabled, timeEnabled, levelEnabeld = FubenDataMgr:checkTheaterChapterEnabled(chapterCfg.id)
@@ -973,7 +1048,18 @@ function FunctionDataMgr:jTheaterLevel(extraChapterId,levelCid)
 end
 
 function FunctionDataMgr:jTheaterHardLevel(extraChapterId,levelCid)
-    local chapter = FubenDataMgr:getTheaterHardChapter(extraChapterId)
+    local chapter,exChapterId = FubenDataMgr:getTheaterHardChapter(extraChapterId)
+    if chapter and #chapter < 1 then
+        return
+    end
+
+    local exChapterCfg = TabDataMgr:getData("ExtraChapter",exChapterId)
+    local serverTime = ServerDataMgr:getServerTime()
+    if serverTime < exChapterCfg.openTime then
+        Utils:showTips(2106013)
+        return
+    end
+
     local chapterCfg = FubenDataMgr:getChapterCfg(chapter[1])
     local _, condEnabled, timeEnabled, levelEnabeld = FubenDataMgr:checkTheaterChapterEnabled(chapterCfg.id)
     if not condEnabled then
@@ -1073,18 +1159,18 @@ end
 function FunctionDataMgr:jWelfare(welfareType)
     if not self:checkFuncOpen() then return end
     if welfareType and welfareType == EC_ActivityType.SUPPORT_STORE then
-        self:jGiftPacks(3)
+        self:jGiftPacks(2,4)
     else
         Utils:openView("activity.ActivityMain", welfareType)
     end
 end
 
 function FunctionDataMgr:jMonthCard()
-    self:jGiftPacks(2)
+    self:jGiftPacks(3)
 end
 
-function FunctionDataMgr:jGiftPacks(panelId)
-    Utils:openView("store.GiftPackMainView",panelId)
+function FunctionDataMgr:jGiftPacks(panelId, topId)
+    Utils:openView("supplyNew.SupplyMainNewView",panelId,topId)
 end
 
 function FunctionDataMgr:jGMSkill()
@@ -1093,43 +1179,107 @@ function FunctionDataMgr:jGMSkill()
 end
 
 function FunctionDataMgr:jUnionHall(tabIdx)
-    if not self:checkFuncOpen() then return end
-    Utils:openView("league.LeagueHallView", {selectIdx = tabIdx})
+    if not self:checkUnionOpen() then return end
+    if LeagueDataMgr:checkSelfInUnion() then
+        if self:checkFuncOpen() then
+            Utils:openView("league.LeagueHallView", {selectIdx = tabIdx})
+        end
+    else
+        Utils:openView("league.NoLeagueLayer")
+    end
 end
 
 function FunctionDataMgr:jUnionMember()
-    if not self:checkFuncOpen() then return end
-    Utils:openView("league.LeagueHallView", {selectIdx = 2})
+    if not self:checkUnionOpen() then return end
+    if LeagueDataMgr:checkSelfInUnion() then
+        if self:checkFuncOpen() then
+            Utils:openView("league.LeagueHallView", {selectIdx = 2})
+        end
+    else
+        Utils:openView("league.NoLeagueLayer")
+    end
 end
 
 function FunctionDataMgr:jUnionSupply()
-    if not self:checkFuncOpen() then return end
-    Utils:openView("league.LeagueSupplyDropView")
+    if not self:checkUnionOpen() then return end
+    if LeagueDataMgr:checkSelfInUnion() then
+        if self:checkFuncOpen() then
+            Utils:openView("league.LeagueSupplyDropView")
+        end
+    else
+        Utils:openView("league.NoLeagueLayer")
+    end
 end
 
 function FunctionDataMgr:jUnionBuilding(buildingType)
-    if not self:checkFuncOpen() then return end
-    Utils:openView("league.LeagueBuildingMainView", buildingType)
+    if not self:checkUnionOpen() then return end
+    if LeagueDataMgr:checkSelfInUnion() then
+        if self:checkFuncOpen() then
+            Utils:openView("league.LeagueBuildingMainView", buildingType)
+        end
+    else
+        Utils:openView("league.NoLeagueLayer")
+    end
 end
 
 function FunctionDataMgr:jUnionStor()
-    if not self:checkFuncOpen() then return end
-    self:jStore(190000)
+    if not self:checkUnionOpen() then return end
+    if LeagueDataMgr:checkSelfInUnion() then
+        if self:checkFuncOpen() then
+            self:jStore(190000)
+        end
+    else
+        Utils:openView("league.NoLeagueLayer")
+    end
 end
 
 function FunctionDataMgr:jUnionInvade()
-    if not self:checkFuncOpen() then return end
+    if not self:checkUnionOpen() then return end
+    if LeagueDataMgr:checkSelfInUnion() then
+        if self:checkFuncOpen() then
+            if not LeagueDataMgr:isWorldBossOpen() then
+                Utils:showTips(16000224)
+                return
+            end
 
+            if not LeagueDataMgr:isPassTimeInWorldBoss() then
+                Utils:showTips(16000221)
+                return 
+            end
+
+            Utils:openView("league.WorldBossView")
+        end
+    else
+        Utils:openView("league.NoLeagueLayer")
+    end
 end
 
 function FunctionDataMgr:jUnionHunt()
-    if not self:checkFuncOpen() then return end
-    LeagueDataMgr:checkAndOpenHunterView()
+    if not self:checkUnionOpen() then return end
+    if LeagueDataMgr:checkSelfInUnion() then
+        if self:checkFuncOpen() then
+            LeagueDataMgr:checkAndOpenHunterView()
+        end
+    else
+        Utils:openView("league.NoLeagueLayer")
+    end
 end
 
 function FunctionDataMgr:jUnionMatrix()
-    if not self:checkFuncOpen() then return end
-    Utils:openView("league.LeagueTrainingView")
+    if not self:checkUnionOpen() then return end
+    if LeagueDataMgr:checkSelfInUnion() then
+        if self:checkFuncOpen() then
+            Utils:openView("league.LeagueTrainingView")
+        end
+    else
+        Utils:openView("league.NoLeagueLayer")
+    end
+end
+
+--社团内部功能的跳转前的判断
+function FunctionDataMgr:checkUnionOpen()
+    --优先判断社团功能是否开放
+    return self:checkFuncOpen(101)
 end
 
 function FunctionDataMgr:jUnion()
@@ -1164,8 +1314,8 @@ function FunctionDataMgr:jUseItem(goodsCid)
     end
 end
 
-function FunctionDataMgr:jElfContract()
-    self:jGiftPacks(4)
+function FunctionDataMgr:jElfContract()  --英文版调整为5 TODO CLOSE
+    self:jGiftPacks(5)
 end
 
 function FunctionDataMgr:jSkyLadder()
@@ -1215,9 +1365,26 @@ function FunctionDataMgr:jHundredLoginView( ... )
     Utils:openView("activity.HundredLoginView")
 end
 
+-- 周年庆版本
 function FunctionDataMgr:isOneYearLoginUI()
     local servertime = MainPlayer:getServerDateBeforeLogin()
     local oneYearTime = Utils:getKVP(60002, "loginLayerUI")
+
+    local opentime = Utils:changStrToDate(oneYearTime.opentime) 
+    local endtime   = Utils:changStrToDate(oneYearTime.endtime)
+
+    local exp1 = Utils:compareDate(servertime, opentime)
+    local exp2 = Utils:compareDate(servertime, endtime)
+    if exp1 and not exp2 then
+        return true
+    end
+    return false
+end
+
+-- 魔禁版本
+function FunctionDataMgr:isMoJingLoginUI()
+    local servertime = MainPlayer:getServerDateBeforeLogin()
+    local oneYearTime = Utils:getKVP(60003, "mojinUi")
 
     local opentime = Utils:changStrToDate(oneYearTime.opentime) 
     local endtime   = Utils:changStrToDate(oneYearTime.endtime)
@@ -1245,11 +1412,16 @@ function FunctionDataMgr:jLinkAge(chapterCid)
     Utils:openView("linkage.LinkageView",chapterCid) 
 end
 
----狂三副本跳转
-function FunctionDataMgr:jKsanFuben()
+function FunctionDataMgr:jFlyShip()
+    if not self:checkFuncOpen(155) then return end
+    Utils:openView("explore.ExploreMainView")
+end
 
+
+--跳转特殊活动副本
+function FunctionDataMgr:jSpecialFuben(activityType)
     local servertime    = ServerDataMgr:getServerTime()
-    local activityIds = ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.KUANGSAN_FUBEN)
+    local activityIds = ActivityDataMgr2:getActivityInfoByType(activityType)
     if not activityIds or not activityIds[1] then
         return
     end
@@ -1262,13 +1434,30 @@ function FunctionDataMgr:jKsanFuben()
     if servertime < activityKsanInfo.startTime then
         local startDate = Utils:getLocalDate(activityKsanInfo.startTime)
         local startDateStr = startDate:fmt("%m月%d日 %H时%M分")
-        Utils:showTips(startDateStr.."开启")
+        local tipStr = startDateStr .. TextDataMgr:getText(2107019)
+        Utils:showTips(tipStr)
         return
     end
 
     if servertime >= activityKsanInfo.startTime and  servertime < activityKsanInfo.endTime then
-        Utils:openView("kuangsanOutbound.MainMapLayer")
+        if activityType == EC_ActivityType2.KUANGSAN_FUBEN then
+            Utils:openView("kuangsanOutbound.MainMapLayer")
+        elseif activityType == EC_ActivityType2.NEWYEAR_FUBEN then
+            Utils:openView("newyearFuben.newYearMainLayer")
+        elseif activityType == EC_ActivityType2.HWX_FUBEN then
+            LinkageHwxDataMgr:Send_cityBaseInfo()
+            Utils:openView("linkageHwx.LinkageHwxMainView")
+        end
     end
+end
+
+function FunctionDataMgr:jMonStore()
+	self:jStore(402000)
+end
+
+---狂三副本跳转
+function FunctionDataMgr:jKsanFuben()
+    self:jSpecialFuben(EC_ActivityType2.KUANGSAN_FUBEN)
 end
 
 ---狂三副本跳转
@@ -1320,6 +1509,24 @@ function FunctionDataMgr:jAssistanceCode( )
     if not self:checkFuncOpen() then return end
     Utils:openView("assistance.AssistanceCodeLayer")
 end
+
+--判断是否跨天
+function FunctionDataMgr:checkFuncAcross(keyString)
+    local playerid = MainPlayer:getPlayerId()
+    local recordTime = CCUserDefault:sharedUserDefault():getStringForKey(keyString .. playerid)
+    local servertime = os.time()
+    if recordTime ~= "" then
+        local recordDay = (os.date("*t",tonumber(recordTime))).day
+        local day = (os.date("*t",tonumber(servertime))).day
+        if recordDay ~= day then
+            recordTime = ""
+            CCUserDefault:sharedUserDefault():setStringForKey(keyString .. playerid, "")
+            CCUserDefault:sharedUserDefault():flush()
+        end
+    end
+    return recordTime == ""
+end
+
 --请求过期物品回收
 function FunctionDataMgr:request_ITEM_REQ_TIME_OUT_ITEM_CONVERT()
     print("请求过期物品回收")
@@ -1333,6 +1540,87 @@ function FunctionDataMgr:onRecyclingItems(event)
     if not data then return end
 
     EventMgr:dispatchEvent(EV_ITEM_RECYCLING_RESULT, data)
+end
+
+function FunctionDataMgr:jDetectiveMain(chapterId)
+    Utils:openView("detective.DetectiveMainView",chapterId)
+end
+
+function FunctionDataMgr:jPrivilegeLeague( ... )
+    -- body
+    local isOpen = ActivityDataMgr2:isInOpenTimeByType(EC_ActivityType2.PRIVILEGE_ACTIVITY_DATA)
+    if not isOpen then
+        Utils:showTips(1710021)
+        return
+    end
+
+    Utils:openView("privilege.PrivilegeLeagueView")
+end
+
+function FunctionDataMgr:jPersonInfoBase( index )
+    -- body
+    if Utils:checkInWorldRoomScene(WorldRoomType.ZNQ_WORLD) then
+        Utils:openView("activity.twoyear.PersonInfoBase",index)
+    end
+end
+
+function FunctionDataMgr:jFashionStore( )
+    -- body
+
+    local isOpen = ActivityDataMgr2:isInOpenTimeByType(EC_ActivityType2.TWOYEAR_FASHION_STORE)
+    if not isOpen then
+        Utils:showTips(1710021)
+        return
+    end
+
+    Utils:openView("activity.twoyear.FashionStore")
+end
+
+function FunctionDataMgr:jStorePack( storeId )
+    local storeIds = StoreDataMgr:getOpenStore(EC_StoreType.TWOYEAR)
+    if #storeIds <= 0 then
+        Utils:showTips(2100109)
+        return
+    end
+
+    local view = requireNew("lua.logic.activity.twoyear.StorePackMainView"):new(storeId)
+    AlertManager:addLayer(view,AlertManager.BLOCK)
+    AlertManager:show()
+end
+
+function FunctionDataMgr:jBalloon( ... )
+
+    local isOpen = ActivityDataMgr2:isInOpenTimeByType(EC_ActivityType2.BALLOON_ACTIVITY)
+    if not isOpen then
+        Utils:showTips(1710021)
+        return
+    end
+
+    Utils:openView("balloon.BalloonMainView")
+end
+
+function FunctionDataMgr:jTurnTable( ... )
+    -- body
+    local isOpen = ActivityDataMgr2:isInOpenTimeByType(EC_ActivityType2.TURNTABLET2)
+    if not isOpen then
+        Utils:showTips(1710021)
+        return
+    end
+    Utils:openView("oneYear.TurnTabletGameView")
+end
+
+function FunctionDataMgr:jSimulateSummon( ... )
+    -- body
+    SimulationSummonDataMgr:reqSimulateSummonInfo()
+end
+
+function FunctionDataMgr:getModifyFuncIsOpen( ... )
+    -- body
+    local info = self:getMainFuncInfo(220)
+    if info then
+        return not info.openWelfare
+    end
+    return true
 end
 
 return FunctionDataMgr:new()

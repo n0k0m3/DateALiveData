@@ -99,7 +99,8 @@ function StoreActivityView:addGoodsItem()
     foo.Label_countLimit = TFDirector:getChildByPath(Image_diban, "Label_countLimit")
     foo.Label_name = TFDirector:getChildByPath(Image_diban, "Label_name")
     foo.Panel_head = TFDirector:getChildByPath(Image_diban, "Panel_head")
-
+    foo.Image_Limit = TFDirector:getChildByPath(Image_diban, "Image_Limit")
+    foo.Label_buy_tip = TFDirector:getChildByPath(foo.root, "Label_buy_tip"):hide()
     foo.Image_back_no_stuff = TFDirector:getChildByPath(foo.root, "Image_back_no_stuff")
     foo.Image_back_active = TFDirector:getChildByPath(foo.root, "Image_back_active")
 
@@ -117,7 +118,24 @@ function StoreActivityView:addGoodsItem()
         bar.Label_countRed = TFDirector:getChildByPath(bar.root, "Label_countRed")
         bar.originPosY_ = bar.root:PosY()
         foo.Panel_cost[i] = bar
+
+
     end
+
+    local label_empyTetx = TFLabel:create()
+        label_empyTetx:setFontName("font/MFLiHei_Noncommercial.ttf")
+        label_empyTetx:setFontSize(15)
+        label_empyTetx:setTextAreaSize(CCSize(200 , 0))
+        label_empyTetx:setAnchorPoint(ccp(0.5 , 0.5))
+        label_empyTetx:setPosition(0 , 40)
+        label_empyTetx:setFontColor(ccc3(155 , 80, 40))
+        
+        foo.label_empyTetx = label_empyTetx
+        --self.label_empyTetx:enableOutline(ccc4(0,0,0,255), 1)
+
+        foo.root:addChild(label_empyTetx , 1)
+
+
     foo.Button_buy = TFDirector:getChildByPath(foo.root, "Button_buy")
     self.goodsItems_[foo.root] = foo
 
@@ -141,6 +159,25 @@ function StoreActivityView:updateGoodsItem(index)
     local goodsCfg = GoodsDataMgr:getItemCfg(goodsId)
     foo.Label_name:setTextById(goodsCfg.nameTextId)
     PrefabDataMgr:setInfo(foo.Panel_goodsItem, goodsId, goodsCount)
+
+    foo.Button_buy:setVisible(true)
+    foo.Image_Limit:setVisible(true)
+    foo.Label_buy_tip:setVisible(false)
+    ---信物特殊处理
+    local tipId = Utils:getStoreBuyTipId(itemInfo.extendData, 1)
+    if tipId then
+        foo.Button_buy:setVisible(not tipId)
+        foo.Image_Limit:setVisible(not tipId)
+        foo.Label_buy_tip:setTextById(tipId)
+        foo.Label_buy_tip:setVisible(tipId)
+    end
+
+    if itemInfo.extendData.comment then
+        foo.label_empyTetx:show()
+        foo.label_empyTetx:setText(Utils:MultiLanguageStringDeal(itemInfo.extendData.comment))
+    else
+        foo.label_empyTetx:hide()
+    end
 
     local costId = {}
     for k, v in pairs(itemInfo.target) do
@@ -198,19 +235,45 @@ function StoreActivityView:updateGoodsItem(index)
     foo.Button_buy:setGrayEnabled(not isCanBuy)
     foo.Button_buy:setTouchEnabled(isCanBuy)
 
+    if not isCanBuy then
+        --优先判断是否能购买
+        foo.Button_buy:setVisible(true)
+        foo.Image_Limit:setVisible(true)
+        foo.Label_buy_tip:setVisible(false)
+    end
+
     if foo.Image_back_no_stuff then 
         foo.Image_back_no_stuff:setVisible(not _isEnough)
     end 
     if foo.Image_back_active then 
         foo.Image_back_active:setVisible(isCanBuy and _isEnough)
     end
+
     foo.Button_buy:onClick(function()
-            local isEnough = ActivityDataMgr2:currencyIsEnough(activityInfo.activityType, itemId)
-            if isEnough then
-                Utils:openView("activity.ActivityBuyConfirmView", activityInfo.id, itemId)
-            else
-                Utils:showTips(302200)
+            local callFunc = function ( ... )  
+                local isEnough = ActivityDataMgr2:currencyIsEnough(activityInfo.activityType, itemId)
+                if isEnough then
+                    Utils:openView("activity.ActivityBuyConfirmView", activityInfo.id, itemId)
+                else
+                    Utils:showTips(302200)
+                end
             end
+
+            local tipId = Utils:getStoreBuyTipId(itemInfo.extendData, 2) 
+            if tipId then
+                local args = {
+                    tittle = 2107025,
+                    reType = "buyGiftTip",
+                    content = TextDataMgr:getText(tipId),
+                    confirmCall = function ( ... )
+                        callFunc();
+                    end,
+                }
+                Utils:showReConfirm(args)
+                return
+            end
+            
+            callFunc()
     end)
 end
 
