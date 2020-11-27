@@ -259,7 +259,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "20",
+													fontSize = "26",
 													fontStroke = 
 													{
 														IsStroke = false,
@@ -282,7 +282,7 @@ local t =
 														PositionY = -3,
 													},
 													vAlignment = "1",
-													width = "520",
+													width = "465",
 													ZOrder = "1",
 												},
 												{
@@ -435,7 +435,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "20",
+													fontSize = "26",
 													fontStroke = 
 													{
 														IsStroke = false,
@@ -458,7 +458,7 @@ local t =
 														PositionY = -3,
 													},
 													vAlignment = "1",
-													width = "520",
+													width = "465",
 													ZOrder = "1",
 												},
 												{
@@ -611,7 +611,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "20",
+													fontSize = "26",
 													fontStroke = 
 													{
 														IsStroke = false,
@@ -634,7 +634,7 @@ local t =
 														PositionY = -4,
 													},
 													vAlignment = "1",
-													width = "520",
+													width = "465",
 													ZOrder = "1",
 												},
 												{

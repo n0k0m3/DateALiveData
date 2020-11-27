@@ -7473,7 +7473,6 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							visible = "False",
 							width = "1012",
 							ZOrder = "1",
 							components = 
@@ -8556,7 +8555,7 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = 20,
-												PositionY = 392,
+												PositionY = 410,
 											},
 											width = "4",
 											ZOrder = "1",
@@ -8635,7 +8634,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "22",
+													height = "0",
 													ignoreSize = "False",
 													name = "label_info",
 													nTextAlign = "0",
@@ -8650,7 +8649,7 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = 6,
-														PositionY = -18,
+														PositionY = -15,
 													},
 													width = "450",
 													ZOrder = "1",
@@ -8675,7 +8674,7 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = 60,
-														PositionY = -77,
+														PositionY = -103,
 													},
 													width = "64",
 													ZOrder = "1",
@@ -8700,7 +8699,7 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = 185,
-														PositionY = -77,
+														PositionY = -103,
 													},
 													width = "64",
 													ZOrder = "1",
@@ -8725,7 +8724,7 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = 310,
-														PositionY = -77,
+														PositionY = -103,
 													},
 													width = "64",
 													ZOrder = "1",
@@ -8753,7 +8752,7 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = 20,
-												PositionY = 262,
+												PositionY = 244,
 											},
 											width = "4",
 											ZOrder = "1",
@@ -8847,7 +8846,7 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = 6,
-														PositionY = -18,
+														PositionY = -17,
 													},
 													width = "450",
 													ZOrder = "1",

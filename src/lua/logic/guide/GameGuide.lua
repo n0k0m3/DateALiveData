@@ -24,12 +24,17 @@ function GameGuide:checkGuide(ui)
 			self.ui = ui
 			self:excuteGuide(guideInfo)
 		end
-
 		if guideInfo.delay and guideInfo.delay > 0 then
 			self:delayToGuide(guideInfo.delay, callBack)
 		else
 			callBack()
 		end
+
+		if guideInfo.guideType == 2 then
+			GuideDataMgr:addServerGuideGroupId(guideInfo.guideId)
+		end
+
+
 		return true
 	else
 		self:clearGuide()
@@ -63,6 +68,11 @@ function GameGuide:isInGuide()
 	end
 end
 
+function GameGuide:skipNewGuide()
+	GuideDataMgr:skipNewGuide()
+	self:clearGuide()
+end
+
 function GameGuide:showGuideLayer(ui, guideInfo, _widget, adjustPos)
 	local widget = _widget
 	if guideInfo.showContinue and not widget then
@@ -90,13 +100,8 @@ function GameGuide:showGuideLayer(ui, guideInfo, _widget, adjustPos)
 	end
 end
 
-function GameGuide:skipNewGuide()
-	GuideDataMgr:skipNewGuide()
-	self:clearGuide()
-end
-
-function GameGuide:skipTeamGuideGroup()
-	GuideDataMgr:skipTeamGuideGroup()
+function GameGuide:skipGuide(isNewGuid)
+	GuideDataMgr:skipGuide(isNewGuid)
 	self:clearGuide()
 end
 
@@ -153,7 +158,11 @@ function GameGuide:excuteGuide(cfg)
     if func then
         func(self.ui, cfg.uiName)
     else
-    	self:guideTargetNode()
+    	local widget = TFDirector:getChildByPath(self.ui,cfg.uiName)
+    	if widget then
+    		widget.resetClickFunc = true
+    	end
+    	self:guideTargetNode(widget)
     end
 end
 

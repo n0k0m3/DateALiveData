@@ -46,15 +46,21 @@ function GuideDataMgr:ctor()
 	self.newGuiding = false
 	self.curPassLevelId = 0
 	self.plotBack = false
+	self.receiveServerStep = false
     self:init()
 end
 
 function GuideDataMgr:init()
 	TFDirector:addProto(s2c.PLAYER_RES_NEW_PLAYER_GUIDE, self, self.recvSaveStep)
-
+	TFDirector:addProto(s2c.EXPLORE_REQ_GUIDE_INFO, self, self.recvServerGuideGroup)
+	TFDirector:addProto(s2c.EXPLORE_RES_ADD_GUIDE_STEP, self, self.recvAddServerGuideGroup)
 end
 
 function GuideDataMgr:onLogin()
+
+	TFDirector:send(c2s.PLAYER_REQ_NEW_PLAYER_GUIDE, {-1})
+	TFDirector:send(c2s.EXPLORE_REQ_GUIDE_INFO, {})
+	return { s2c.PLAYER_RES_NEW_PLAYER_GUIDE,s2c.EXPLORE_REQ_GUIDE_INFO }
 
 end
 
@@ -67,6 +73,7 @@ function GuideDataMgr:onLoginOut()
 	self:resetGuideInfo()
 	self:setIsStart(false)
 	self.bBattleGuideState = false
+	self.receiveServerStep = false
 	self.newGuiding = false
 end
 
@@ -119,6 +126,9 @@ function GuideDataMgr:checkEnablePass()
 end
 
 function GuideDataMgr:checkBattleGuideEnd()
+	if not self.receiveServerStep then
+		return
+	end
 	self:initGuideInfo()
 	local pass = FubenDataMgr:isPassPlotLevel(101101)
     if not pass then
@@ -147,8 +157,12 @@ function GuideDataMgr:resetGuideInfo()
 	self.__step = 0
 end
 
+function GuideDataMgr:getCurStepInfo()
+	return  self.__step,self.__groupId
+end
+
 function GuideDataMgr:checkHasGuideInfo(ui)
-	print("111111111111111111111", self.__step, ui.__cname)
+	print("GuideDataMgr 111111111111111111111", self.__step, ui.__cname)
 	if self.newGuiding then
 		if ui.__cname == "FubenLevelView" then
 			local fCfg = self:getCfgByStep(math.max(self.__step - 1, 1))
@@ -202,30 +216,6 @@ function GuideDataMgr:checkHasGuideInfo(ui)
 	return false
 end
 
-function GuideDataMgr:findCurTeamGuideGroup()
-	local pid = MainPlayer:getPlayerId()
-    if pid == nil then return false end
-	local saveTeamGroup = UserDefalt:getStringForKey("teamguidegroup"..pid)
-	local groupIds = {}
-	if saveTeamGroup ~= "" then
-        local groupTable = string.split(saveTeamGroup,"|")
-        for k,v in ipairs(groupTable) do
-            local group = tonumber(v)
-            if group then
-            	groupIds[group] = 1
-            end
-        end
-    end
-    local playerLv = MainPlayer:getPlayerLv()
-    for i,v in ipairs(self.triggerGuideGroupIds) do
-    	if playerLv >= v.level and not groupIds[v.group] then
-    		self.__groupId = v.group
-    		return true
-    	end
-    end
-    return false
-end
-
 function GuideDataMgr:findCurTriggerGuideGroup()
 	--local pid = MainPlayer:getPlayerId()
 	--local saveTeamGroup = UserDefalt:getStringForKey("teamguidegroup"..pid)
@@ -239,23 +229,28 @@ function GuideDataMgr:findCurTriggerGuideGroup()
     --        end
     --    end
     --end
-	---groupIds:后端存储只和试胆大会活动挂钩
-	local groupIds = CourageDataMgr:getTriggerGuideGroupIds()
-	if groupIds == nil then return false end
+	local serverGroupIds = {}
+	local courageGroupIds = CourageDataMgr:getTriggerGuideGroupIds()
+	table.insertTo(serverGroupIds,courageGroupIds)
+	local commonGroupIds = self:getServerGroupIds()
+	table.insertTo(serverGroupIds,commonGroupIds)
     for i,v in ipairs(self.triggerGuideGroupIds) do
-		local index = table.indexOf(groupIds,v.group)
+		local index = table.indexOf(serverGroupIds,v.group)
 		if index == -1 then
+			local guideState = true
 			if v.funcType == EC_GuideFuncType.Courage then
-				local guideState = CourageDataMgr:getGuideState()
-				if not guideState then
-					return false
-				end
+				guideState = CourageDataMgr:getGuideState()
 			end
-			local isFit = self:checkCondition(v.level,v.triggerCdt)
-			if isFit then
-				self.__groupId = v.group
-				CourageDataMgr:addTriggerGuideGroupId(self.__groupId)
-				return true
+
+			if guideState then
+				local isFit = self:checkCondition(v.level,v.triggerCdt)
+				if isFit then
+					self.__groupId = v.group
+					if v.funcType == EC_GuideFuncType.Courage then
+						CourageDataMgr:addTriggerGuideGroupId(self.__groupId)
+					end
+					return true
+				end
 			end
 		end
     end
@@ -357,7 +352,19 @@ function GuideDataMgr:checkCurGroupOver()
 		        --saveInfoStr = saveInfoStr..self.__groupId.."|"
 		        --UserDefalt:setStringForKey("teamguidegroup"..pid,saveInfoStr)
 		        --UserDefalt:flush()
-				CourageDataMgr:addTriggerGuideGroupId(self.__groupId)
+
+				local funcType = 0
+				for i,v in ipairs(self.triggerGuideGroupIds) do
+					if v.group == self.__groupId then
+						funcType = v.funcType
+						break
+					end
+				end
+				if funcType == EC_GuideFuncType.Courage then
+					CourageDataMgr:addTriggerGuideGroupId(self.__groupId)
+				else
+					self:addServerGuideGroupId(self.__groupId)
+				end
 				self:resetGuideInfo()
 			end
 		end
@@ -477,16 +484,15 @@ function GuideDataMgr:setIsStart(isStart)
 	self._isStart = isStart
 end
 
-function GuideDataMgr:skipNewGuide()
-	self.__step = self.maxNewStep
+function GuideDataMgr:skipGuide(isNewGuid)
+	self.__step = isNewGuid and self.maxNewStep or self:getCurGroupMaxId()
 	self:saveStep()
 end
 
-function GuideDataMgr:skipTeamGuideGroup( )
-    local maxId = self:getCurGroupMaxId()
-    self.__step = maxId
-	self:saveStep()
+function GuideDataMgr:skipNewGuide()
+	self:skipGuide(GuideDataMgr:isInNewGuide())
 end
+
 
 function GuideDataMgr:saveStep(battleState)
 	local msg = {
@@ -505,9 +511,10 @@ function GuideDataMgr:saveStep(battleState)
 	self:checkCurGroupOver()
 end
 
-function GuideDataMgr:getCurGroupMaxId()
+function GuideDataMgr:getCurGroupMaxId(groupId)
+	groupId = groupId or self.__groupId
 	local maxId = 0
-	local group = self.guideGroup[self.__groupId] or {}
+	local group = self.guideGroup[groupId] or {}
 	for k, v in pairs(group) do
 		maxId = math.max(maxId, k)
 	end
@@ -520,13 +527,37 @@ function GuideDataMgr:recvSaveStep(event)
 	if data.guideId then
 		if not self._isStart then
 			self.__step = data.guideId
-			if data.finish then
-				self.newGuiding = false
-			else
-				self.newGuiding = true
-			end
+			self.receiveServerStep = true
+		end
+
+		if data.finish then
+			self.newGuiding = false
+		else
+			self.newGuiding = true
 		end
 	end
+end
+
+function GuideDataMgr:getServerGroupIds()
+	return self.serverGuideGroup
+end
+
+function GuideDataMgr:addServerGuideGroupId(id)
+	table.insert(self.serverGuideGroup,id)
+	TFDirector:send(c2s.EXPLORE_REQ_ADD_GUIDE_STEP, {id})
+end
+
+function GuideDataMgr:recvAddServerGuideGroup(event)
+
+end
+
+function GuideDataMgr:recvServerGuideGroup(event)
+	local data = event.data
+	if not data then
+		return
+	end
+	self.serverGuideGroup = {}
+	self.serverGuideGroup = data.stepInfo or {}
 end
 
 return GuideDataMgr:new();

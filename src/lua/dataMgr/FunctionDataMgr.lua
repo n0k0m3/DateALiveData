@@ -433,9 +433,10 @@ function FunctionDataMgr:isOpenByClient(functionCid)
         isOpen = isOpen and foo
     end
     if functionCfg.openDun > 0 then
-        local foo = FubenDataMgr:isPassPlotLevel(functionCfg.openDun)
+        local foo = FubenDataMgr:isPassPlotLevel(tonumber(functionCfg.openDun))
         isOpen = isOpen and foo
     end
+
     return isOpen
 end
 
@@ -601,7 +602,6 @@ end
 
 function FunctionDataMgr:jActivityByHasActivity(activityShowType, activitId)
     if not self:checkFuncOpen(6) then return end
-    print(activitId, activityShowType)
     local activityInfo = ActivityDataMgr2:getActivityInfo(activitId, activityShowType)
 
     if not activityInfo or table.count(activityInfo) == 0 then

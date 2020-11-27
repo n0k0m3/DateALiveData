@@ -51,6 +51,10 @@ function FubenDataMgr:init()
     --海王星联动
     TFDirector:addProto(s2c.DUNGEON_RESP_TIME_LINKAGE_INFO, self, self.onRevLinkageInfo)
     TFDirector:addProto(s2c.DUNGEON_RESP_TIME_LINKAGE_CG, self, self.onRevLinkageCG)
+	
+	--魔王试炼2020/5/13
+	TFDirector:addProto(s2c.DUNGEON_RESP_GET_EXPERIMENT, self, self.onRecvMonsterTrialInfo)
+	TFDirector:addProto(s2c.DUNGEON_RESP_SETTLE_EXPERIMENT, self, self.onRecvMonsterTrialSettlement)
 
     -- 章节
     self.chapterMap_ = TabDataMgr:getData("DungeonChapter")
@@ -168,6 +172,13 @@ function FubenDataMgr:init()
         self.ksDungeonCityCfgMap[v.dungeon] = v
     end
 
+    ---魔禁副本
+    self.mojinCityDisplayCfgMap = {}
+    local MojinDungeonDisplay = TabDataMgr:getData("MojinDungeonDisplay")
+    for k,v in pairs(MojinDungeonDisplay) do
+        self.mojinCityDisplayCfgMap[v.dungeon] = v
+    end
+
     -- 无尽副本
     self.endlessCloisterLevel_ = {}
     self.endlessCloisterLevelMap_ = TabDataMgr:getData("EndlessCloisterLevel")
@@ -184,6 +195,27 @@ function FubenDataMgr:init()
                        return cfgA.order < cfgB.order
         end)
     end
+
+    ---模拟试炼配置
+    self.simulationTrialChapterInfo_ = {}
+    self.simulationTrialGroupInfo_ = {}
+    self.simulationRewardIds_ = {}
+    self.simulationTrialHighCfg = TabDataMgr:getData("SimulationTrialHigh")
+    for k,v in pairs(self.simulationTrialHighCfg) do
+        table.insert(self.simulationTrialChapterInfo_,v.main.chapterId)
+        table.insert(self.simulationTrialGroupInfo_,v.chapter.groupIds)
+        table.insertTo(self.simulationRewardIds_,v.dropIds)
+    end
+
+    --boss挑战
+    self.NewBossChallenge_ = {}
+    local cfgs = TabDataMgr:getData("NewBossChallenge")
+    for k,v in pairs(cfgs) do
+        table.insert(self.NewBossChallenge_,v)
+    end
+    table.sort(self.NewBossChallenge_, function(a, b)
+        return a.round < b.round
+    end )
 
     -- 所有关卡信息
     self.levelInfo_ = {}
@@ -257,6 +289,17 @@ function FubenDataMgr:reset()
     self.presentRankList = {}
     self.simulationTrialReward = nil
     self.linkageInfo = nil
+
+    ---阵容排序默认排序ID
+    self.formationSortRuleId = 5
+end
+
+function FubenDataMgr:setFormationSortRuleId(ruleId)
+    self.formationSortRuleId = ruleId or self.formationSortRuleId
+end
+
+function FubenDataMgr:getFormationSortRuleId()
+    return self.formationSortRuleId
 end
 
 function FubenDataMgr:onLoginOut()
@@ -295,7 +338,6 @@ function FubenDataMgr:onLogin()
         TFDirector:send(c2s.DUNGEON_LIMIT_HERO_DUNGEON, {firstLevelCid})
         table.insert(waitList, s2c.DUNGEON_LIMIT_HERO_DUNGEON)
     end
-
     return waitList
 end
 
@@ -307,6 +349,43 @@ function FubenDataMgr:onEnterMain()
     self.KEY_FUBEN_SELECT_LEVELGROUP = string.format("key_%s_fuben_select_levelgroup", pid)
     self.KEY_FUBEN_SELECT_FUBENTYPE = string.format("key_%s_fuben_select_fubentype", pid)
 end
+
+function FubenDataMgr:getSimulationTrialCfg(cid)
+    return self.simulationTrialHighCfg[cid]
+end
+
+function FubenDataMgr:isSimulationChapter(chapterCid)
+    local index = table.indexOf(self.simulationTrialChapterInfo_,chapterCid)
+    return index ~= -1
+end
+
+function FubenDataMgr:isSimulationGroup(index,groupCid)
+
+    local isSimulationGroup = false
+    for k,v in ipairs(self.simulationTrialGroupInfo_) do
+        if not index then
+            for _,groupId in ipairs(v) do
+                if groupId == groupCid then
+                    isSimulationGroup = true
+                    break
+                end
+            end
+        else
+            if v[index] == groupCid then
+                isSimulationGroup = true
+                break
+            end
+        end
+    end
+    return isSimulationGroup
+
+end
+
+function FubenDataMgr:isSimulationReward(rewardId)
+    local index = table.indexOf(self.simulationRewardIds_,rewardId)
+    return index ~= -1
+end
+
 
 function FubenDataMgr:getChapterCfg(chapterId)
     if chapterId then
@@ -337,11 +416,7 @@ function FubenDataMgr:getActivityChapterIsOpen(chapterCid)
         isOpen = true
     elseif chapterCid == EC_ActivityFubenType.SKYLADDER then
         isOpen = SkyLadderDataMgr:isOpen()
-    elseif chapterCid == EC_ActivityFubenType.SIMULATION_TRIAL 
-        or chapterCid == EC_ActivityFubenType.SIMULATION_TRIAL_2
-        or chapterCid == EC_ActivityFubenType.SIMULATION_TRIAL_4  
-        or chapterCid == EC_ActivityFubenType.SIMULATION_TRIAL_5  
-        or chapterCid == EC_ActivityFubenType.SIMULATION_TRIAL_3 then --模拟试炼
+    elseif self:isSimulationChapter(chapterCid) then --模拟试炼
         local funcIsOpen = FunctionDataMgr:isOpen(113)
         isOpen = self:getSimulationTrialIsOpen() and funcIsOpen
     end
@@ -557,6 +632,8 @@ function FubenDataMgr:getLevelName(levelCid)
         return TextDataMgr:getText(levelCfg.name)
     elseif levelCfg.dungeonType == EC_FBLevelType.HUNTER then
         return TextDataMgr:getText(levelCfg.name)
+    elseif levelCfg.dungeonType == EC_FBLevelType.MUSIC_GAME then
+        return TextDataMgr:getText(levelCfg.name)
     end
     local levelGroupCfg = self:getLevelGroupCfg(levelCfg.levelGroupId)
     local chapterCfg = self:getChapterCfg(levelGroupCfg.dungeonChapterId)
@@ -637,7 +714,8 @@ function FubenDataMgr:isPassPlotLevelGroup(levelGroupId, diff)
     local levelGroupCfg = self.levelGroupMap_[levelGroupId]
     local isPass = true
     if levelGroupCfg.dungeonType == EC_FBLevelGroupType.NORMAL 
-    or levelGroupCfg.dungeonType == EC_FBLevelGroupType.LINKAGE then
+    or levelGroupCfg.dungeonType == EC_FBLevelGroupType.LINKAGE
+    or levelGroupCfg.dungeonType == EC_FBLevelGroupType.LINKAGEHWX then
         local level = self:getLevel(levelGroupId, diff)
         for i, v in ipairs(level) do
             local levelCfg = self:getLevelCfg(v)
@@ -770,7 +848,8 @@ end
 function FubenDataMgr:getStarRuleDesc(levelId, pos)
     local levelCfg = self.levelMap_[levelId]
     local desc = ""
-    if levelCfg.dungeonType == EC_FBLevelType.FIGHTING or levelCfg.dungeonType == EC_FBLevelType.THEATER_FIGHTING or levelCfg.dungeonType == EC_FBLevelType.KUANGSAN_FIGHTING then
+    if levelCfg.dungeonType == EC_FBLevelType.FIGHTING or levelCfg.dungeonType == EC_FBLevelType.THEATER_FIGHTING
+            or levelCfg.dungeonType == EC_FBLevelType.KUANGSAN_FIGHTING or levelCfg.dungeonType == EC_FBLevelType.HWX then
         local starParam = levelCfg.starParam
         local starRule = levelCfg.starType
         local rule = starRule[pos]
@@ -937,7 +1016,8 @@ function FubenDataMgr:getLevelGroupStarNum(levelGroupId, diff)
     for k, v in pairs(self.levelInfo_) do
         local levelCfg = self:getLevelCfg(k)
         if levelCfg and levelCfg.difficulty == diff and levelCfg.levelGroupId == levelGroupId and v.win and v.goals then
-            if levelCfg.dungeonType == EC_FBLevelType.FIGHTING or levelCfg.dungeonType == EC_FBLevelType.THEATER_FIGHTING or levelCfg.dungeonType == EC_FBLevelType.KUANGSAN_FIGHTING then
+            if levelCfg.dungeonType == EC_FBLevelType.FIGHTING or levelCfg.dungeonType == EC_FBLevelType.THEATER_FIGHTING
+                    or levelCfg.dungeonType == EC_FBLevelType.KUANGSAN_FIGHTING or levelCfg.dungeonType == EC_FBLevelType.HWX then
                 fightStarNum = fightStarNum + self:getStarNum(k)
             else
                 datingStarNum = datingStarNum + self:getStarNum(k)
@@ -953,7 +1033,8 @@ function FubenDataMgr:getLevelGroupTotalStarNum(levelGroupCid, diff)
     local datingStarNum = 0
     for i, v in ipairs(level) do
         local levelCfg = self:getLevelCfg(v)
-        if levelCfg.dungeonType == EC_FBLevelType.FIGHTING or levelCfg.dungeonType == EC_FBLevelType.THEATER_FIGHTING or levelCfg.dungeonType == EC_FBLevelType.KUANGSAN_FIGHTING then
+        if levelCfg.dungeonType == EC_FBLevelType.FIGHTING or levelCfg.dungeonType == EC_FBLevelType.THEATER_FIGHTING
+                or levelCfg.dungeonType == EC_FBLevelType.KUANGSAN_FIGHTING or levelCfg.dungeonType == EC_FBLevelType.HWX then
             fightStarNum = fightStarNum + math.min(maxStarLimit,#levelCfg.starType)
         else
             -- local datingRuleCid = levelCfg.datingID[#levelCfg.datingID]
@@ -988,6 +1069,35 @@ function FubenDataMgr:getChapterStarNum(chapterCid, diff)
         datingStarNum = datingStarNum + bar
     end
     return fightStarNum, datingStarNum
+end
+
+function FubenDataMgr:getChapterGroupLevelPassNum(levelGroupId, diff)
+    local passNum = 0
+    local totalNum = 0
+    local levelGroupCfg = self:getLevelGroupCfg(levelGroupId)
+    local allLevel = self:getLevel(levelGroupId, diff)
+    for k, v in pairs(self.levelInfo_) do
+        local levelCfg = self:getLevelCfg(k)
+        if levelCfg and levelCfg.difficulty == diff and levelCfg.levelGroupId == levelGroupId then
+            if v.win and v.goals then
+                passNum = passNum + 1
+            end
+        end
+    end
+    totalNum = #allLevel
+    return passNum, totalNum
+end
+
+function FubenDataMgr:getChapterPassLevelNum(chapterCid, diff)
+    local levelGroup = self:getLevelGroup(chapterCid)
+    local passNum = 0
+    local totalNum = 0
+    for i, v in ipairs(levelGroup) do
+        local foo, bar = self:getChapterGroupLevelPassNum(v, diff)
+        passNum = passNum + foo
+        totalNum = totalNum + bar
+    end
+    return passNum, totalNum
 end
 
 function FubenDataMgr:canGetLevelGroupStarReward(levelGroupId, diff, id)
@@ -1118,9 +1228,9 @@ function FubenDataMgr:getDailyExpirationTime(levelGroupCid)
 end
 
 function FubenDataMgr:getPlotLevelRemainFightCount(levelCid)
-    local levelCfg = self:getLevelCfg(levelCid)
+    local levelCfg = self:getLevelCfg(levelCid) 
     local levelInfo = self:getLevelInfo(levelCid)
-    local remainCount = levelCfg.fightCount
+    local remainCount = levelCfg.fightCount 
     if levelInfo and levelInfo.fightCount then
         local freeHadFightNum = levelInfo.freeCount or 0
         local buyCount = levelInfo.buyCount or 0
@@ -1304,6 +1414,21 @@ function FubenDataMgr:isEndlessRacingMode(levelCid)
     local endlessCfg = self:getEndlessCloisterLevelCfg(levelCid)
     local normalMaxLevel = self:getEndlessNormalMaxLevel()
     return endlessCfg.order > normalMaxLevel
+end
+
+function FubenDataMgr:isEndlessSkipLevel(levelCid)
+    local endlessCfg = self:getEndlessCloisterLevelCfg(levelCid)
+    local skipLevelInfo = Utils:getKVP(11002, "skipLevel")
+
+    if not skipLevelInfo or not endlessCfg then
+        return false
+    end
+
+    if not endlessCfg.order then
+        return false
+    end
+
+    return endlessCfg.order >= skipLevelInfo[1] and endlessCfg.order <= skipLevelInfo[2]
 end
 
 function FubenDataMgr:getStarNum(levelCid)
@@ -1541,7 +1666,49 @@ function FubenDataMgr:enterPracticeLevel(heroCid,skinCid)
     end  
 end
 
+
+--data 参数 id,eventid,levelCid
+function FubenDataMgr:enterMusicGameLevel(data)
+    if data then
+        if self.requestLimitInfo then
+            return
+        end
+        self.musicLevelData = data
+        self.requestLimitInfo = true
+        self:send_DUNGEON_LIMIT_HERO_DUNGEON(data.levelCid)
+    else
+        self.requestLimitInfo = false
+        local checkExtId = TFAssetsManager:getCheckInfo(5,nil)
+        if checkExtId then
+            TFAssetsManager:downloadAssetsOfFunc(checkExtId,function()
+                local formationData = self:getInitFormation(self.musicLevelData.levelCid)
+                HeroDataMgr:changeDataByFuben(self.musicLevelData.levelCid, formationData)
+                local heros = {}
+                for i, v in ipairs(formationData) do
+                    table.insert(heros, {limitType = v.type, limitCid = v.id, skinCid = v.data.skinCid})
+                end
+                self:setFormation(formationData)
+                self:cachePlayerInfo()
+                local battleController = require("lua.logic.battle.BattleController")
+                battleController.enterBattle(
+                    {
+                        levelCid = self.musicLevelData.levelCid,
+                        limitHeros = heros,
+                        isDuelMod = false,
+                    },
+                    EC_BattleType.COMMON
+                )
+            end,true)
+        end  
+    end
+end
+
+function FubenDataMgr:getMusicGameLevelData()
+    return self.musicLevelData
+end
+
 function FubenDataMgr:getInitFormation(levelCid)
+
     local isLimitHero = false
     local isDisableHero = false
     local isLimitSimulationTrialHero = false
@@ -1658,15 +1825,17 @@ function FubenDataMgr:getSpriteReward(playerLevel)
     playerLevel = playerLevel or MainPlayer:getPlayerLv()
     local challengeRandomMap = TabDataMgr:getData("ChallengeRandom")
     local reward = {}
+    local realDropCid = nil
     for i = #challengeRandomMap, 1, -1 do
         local challengeRandom = challengeRandomMap[i]
         local level = challengeRandom.level
         if playerLevel >= level[1] and playerLevel <= level[2] then
             reward = challengeRandom.dropShow
+            realDropCid = challengeRandom.reaward
             break
         end
     end
-    return reward
+    return reward, realDropCid
 end
 
 function FubenDataMgr:setCurLevelCid(levelCid)
@@ -1862,15 +2031,8 @@ end
 --是否获得反折
 function FubenDataMgr:hasFAN_ZHE(heroId)
     heroId = heroId or self:getSelectSimulationHeroId()
-    local __tab__ =
-    {
-        [110211] = 110210 , --试炼精灵原精灵ID
-        [111411] = 111401 , --试炼精灵原精灵ID
-        [111511] = 111501 , --试炼精灵原精灵ID
-        [110113] = 110103 , --反十
-        [110414] = 110413 , --狂三
-    }
-    return HeroDataMgr:getIsHave(__tab__[heroId])
+    local realHeroId = self:getSimulationTrialCfg(heroId).realHeroId
+    return HeroDataMgr:getIsHave(realHeroId)
 end
 
 function FubenDataMgr:setSelectSimulationHeroId(heroId)
@@ -2182,6 +2344,7 @@ function FubenDataMgr:send_DUNGEON_FIGHT_OVER(levelId, isWin, reachStar, maxComb
     damage =damage or 0
     rating = rating or 0
     skillEnemy = skillEnemy or {}
+    dump({levelId, isWin, reachStar, maxComboNum, pickUpTypeCount, pickUpCount, killTargets, costTime, damage,rating,skillEnemy})
     TFDirector:send(c2s.DUNGEON_FIGHT_OVER, {levelId, isWin, reachStar, maxComboNum, pickUpTypeCount, pickUpCount, killTargets, costTime, damage,rating,skillEnemy})
 end
 
@@ -2337,62 +2500,82 @@ function FubenDataMgr:onRecvFightStart(event)
         battleController.enterBattle(data, EC_BattleType.COMMON)
     elseif levelCfg.dungeonType == EC_FBLevelType.HUNTER then
         battleController.enterBattle(data, EC_BattleType.COMMON)
+    elseif levelCfg.dungeonType == EC_FBLevelType.HWX_TOWER or levelCfg.dungeonType == EC_FBLevelType.HWX then
+        battleController.enterBattle(data, EC_BattleType.COMMON)
+	elseif levelCfg.dungeonType == EC_FBLevelType.MONSTER_TRIAL then
+        battleController.enterBattle(data, EC_BattleType.COMMON)
+    elseif levelCfg.dungeonType == EC_FBLevelType.WORLD_BOSS then
+        battleController.enterBattle(data, EC_BattleType.COMMON)
     end
     self:cachePlayerInfo()
 end
 
 function FubenDataMgr:onRecvFightOver(event)
-	print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~FubenDataMgr:onRecvFightOver=");
+    print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~FubenDataMgr:onRecvFightOver=" );
+
     local data = event.data
     local levelInfo = data.levelInfo
     local dropReward = data.rewards or {}
     local isWin = data.win
     self.simulationTrialReward = nil
     local levelCfg = self:getLevelCfg(levelInfo.cid)
-    if levelInfo and levelInfo.win then
-        local levelGroupCfg = self:getLevelGroupCfg(levelCfg.levelGroupId)
-        local rawUnlock = self:isPassPlotLevel(levelInfo.cid)
+    if levelInfo then
+        if levelInfo.win then
+	        local levelGroupCfg = self:getLevelGroupCfg(levelCfg.levelGroupId)
+	        local rawUnlock = self:isPassPlotLevel(levelInfo.cid)
 
-        if levelGroupCfg.dungeonChapterId == 1 then  --英文版检测第一章是否全通关
-            local dataDisCreateLevel = TabDataMgr:getData("DiscreteData" , 1100008).data
-            for k ,v in pairs(dataDisCreateLevel.levelId) do
-                if not self.levelInfo_[v] then
-                    self.isNeedCheckAllPassWin = true
-                end
-            end
-        end
+	        if levelGroupCfg.dungeonChapterId == 1 then  --英文版检测第一章是否全通关
+	            local dataDisCreateLevel = TabDataMgr:getData("DiscreteData" , 1100008).data
+	            for k ,v in pairs(dataDisCreateLevel.levelId) do
+	                if not self.levelInfo_[v] then
+	                    self.isNeedCheckAllPassWin = true
+	                end
+	            end
+	        end
 
-        self.levelInfo_[data.levelInfo.cid] = levelInfo
-        if not rawUnlock then
-            if levelCfg.lastOne then
-                self:setUnlockNextChapterCid(levelGroupCfg.dungeonChapterId)
-                --记录5星好评价
-                if levelGroupCfg.dungeonChapterId == 2 then
-                    CommonManager:setStarEvaluateFlage(true)
-                end
+	        self.levelInfo_[data.levelInfo.cid] = levelInfo
+	        if not rawUnlock then
+	            if levelCfg.lastOne then
+	                self:setUnlockNextChapterCid(levelGroupCfg.dungeonChapterId)
+	                --记录5星好评价
+	                if levelGroupCfg.dungeonChapterId == 2 then
+	                    CommonManager:setStarEvaluateFlage(true)
+	                end
+	            end
+            end
+
+	            FunctionDataMgr:updateOpenFuncList()
+	            --试炼第一章 奖励
+	            if self:isSimulationGroup(1,levelGroupCfg.id) then
+	                self.simulationTrialReward = {}
+
+	                for i,v in ipairs(dropReward) do
+	                    if self:isSimulationReward(v.id) then
+	                        table.insert(self.simulationTrialReward,v)
+	                    end
+	                end
+	            end
+	            EventMgr:dispatchEvent(EV_FUBEN_LEVELINFOUPDATE)
+        else
+            -- 世界Boss失败也算入战斗次数
+            if levelCfg.dungeonType == EC_FBLevelType.WORLD_BOSS then
+                self.levelInfo_[data.levelInfo.cid] = levelInfo
+                LeagueDataMgr:clearFightWorldBossType()
             end
         end
-        FunctionDataMgr:updateOpenFuncList()
-        --试炼第一章 奖励
-        if levelGroupCfg.id == 500002 
-            or levelGroupCfg.id == 500004
-            or levelGroupCfg.id == 500008
-            or levelGroupCfg.id == 500010
-            or levelGroupCfg.id == 500006 then 
-            self.simulationTrialReward = {}
-            for i,v in ipairs(dropReward) do
-                if v.id >= 599801 and v.id <= 599895 then
-                    table.insert(self.simulationTrialReward,v)
-                end
-            end
-        end
-        EventMgr:dispatchEvent(EV_FUBEN_LEVELINFOUPDATE)
     end
+
     if levelCfg.dungeonType == EC_FBLevelType.FIGHTING then
         BattleDataMgr:setBattleResutlData(dropReward)
         EventMgr:dispatchEvent(EV_BATTLE_FIGHTOVER, dropReward, isWin)
     elseif levelCfg.dungeonType == EC_FBLevelType.DATING or levelCfg.dungeonType == EC_FBLevelType.THEATER_DATING or levelCfg.dungeonType == EC_FBLevelType.KUANGSAN_DATING then
         DatingDataMgr:setIsDating(false)
+        if levelCfg.ifReturn then
+            EventMgr:dispatchEvent(EV_BATTLE_FIGHTOVER, dropReward, isWin)
+            AlertManager:showLevelUpPopView()
+            return 
+        end
+
         if levelCfg.isbirthType ~= 1 and levelCfg.dungeonType ~= EC_FBLevelType.KUANGSAN_DATING then
             self:openFuben()
             AlertManager:showLevelUpPopView()
@@ -2531,6 +2714,9 @@ function FubenDataMgr:onRecvLimitHeros(event)
     self.levelFormation_[data.leveId] = clone(data.limitFormation)
     self.originLevelFormation_[data.leveId] = data.limitFormation
     EventMgr:dispatchEvent(EV_FUBEN_UPDATE_LIMITHERO)
+    if self.requestLimitInfo then
+        self:enterMusicGameLevel()
+    end
 end
 
 function FubenDataMgr:onRecvGroupMultipleReward(event)
@@ -3111,5 +3297,116 @@ function FubenDataMgr:getMonsterBuffByHeroId(heroId)
 	end
 	return ret
 end
+function FubenDataMgr:getMonsterTrialCloseTime()
+    local closeday = Utils:getKVP(90021, "settlement")
+    local date = TFDate(ServerDataMgr:getServerTime()):tolocal()
+    local weekday = date:getweekday()
+    local year, month, day = date:getdate()
+    local baseDate = TFDate(year, month, day)
+    local endDate
+    if weekday ~= closeday then
+        local addDays = 1
+        local day = weekday
+        local i = 1
+        while true do
+            day = day + 1
+            if day > 7 then
+                day = 1
+            end
+            if day ~= closeday then
+                addDays = addDays + 1
+            else
+                break
+            end
+        end
+        addDays = addDays + 1
+        endDate = baseDate:adddays(addDays)
+    else
+        endDate = baseDate:adddays(1)
+    end
+    local offsetDate = endDate:toutc() - TFDate.epoch()
+    local timestamp = offsetDate:spanseconds()
+    return timestamp
+end
 
+function FubenDataMgr:getMonsterTrialOpenTime()
+    local closeday = Utils:getKVP(90021, "settlement")
+    local date = TFDate(ServerDataMgr:getServerTime()):tolocal()
+    local weekday = date:getweekday()
+    local year, month, day = date:getdate()
+    local baseDate = TFDate(year, month, day)
+    local endDate
+    if closeday == weekday then
+        local addDays = 1
+        local day = weekday
+        while true do
+            day = day + 1
+            if day > 7 then
+                day = 1
+            end
+            if day == closeday then
+                addDays = addDays + 1
+            else
+                break
+            end
+        end
+        addDays = addDays + 1
+        endDate = baseDate:adddays(addDays)
+    else
+        endDate = baseDate:adddays(1)
+    end
+    local offsetDate = endDate:toutc() - TFDate.epoch()
+    local timestamp = offsetDate:spanseconds()
+    return timestamp
+end
+local __print = print
+function FubenDataMgr:getBossChallengeTimes()
+    local openTime = 0
+    local closeTime = 0
+    local readyTime = 0
+    local endTime = 0
+    local tempTime = 0
+    local curRound = 0
+    local maxRound = #self.NewBossChallenge_
+    local firstCfg = self.NewBossChallenge_[1]
+    local lastCfg = self.NewBossChallenge_[#self.NewBossChallenge_]
+    if firstCfg then
+        openTime = Utils:getTimeByDate(firstCfg.sTime)
+        tempTime = Utils:getTimeByDate(firstCfg.eTime)
+    end
+    if lastCfg then
+        closeTime = Utils:getTimeByDate(lastCfg.eTime)
+    end
+    local serverTime = ServerDataMgr:getServerTime()
+    if serverTime < openTime then
+        readyTime = openTime
+        curRound = 1
+    elseif serverTime > openTime and serverTime < closeTime then
+        for i,v in ipairs(self.NewBossChallenge_) do
+            local sTime = Utils:getTimeByDate(v.sTime)
+            local eTime = Utils:getTimeByDate(v.eTime)
+            if serverTime > tempTime and serverTime < sTime then
+                readyTime = sTime
+                curRound = v.round
+            end
+            if serverTime > sTime and serverTime < eTime then
+                endTime = eTime
+                curRound = v.round
+                break
+            else
+                tempTime = eTime
+            end
+        end
+    end
+    return openTime,closeTime,readyTime,endTime,curRound,maxRound
+end
+
+function FubenDataMgr:getBossChallengeCurLevel()
+    local openTime,closeTime,readyTime,endTime,curRound,maxRound = self:getBossChallengeTimes()
+    for i,v in ipairs(self.NewBossChallenge_) do
+        if v.round == curRound then
+            return v
+        end
+    end
+end
 return FubenDataMgr:new()

@@ -45,6 +45,7 @@ function FunctionOpenView:onShow()
 end
 
 function FunctionOpenView:refreshView()
+    self.openFuncList_ = FunctionDataMgr:getOpenFuncList()
     for i, v in ipairs(self.openFuncList_) do
         local functionCfg = FunctionDataMgr:getFunctionCfg(v)
         local Panel_funcItem = self.Panel_funcItem:clone()
