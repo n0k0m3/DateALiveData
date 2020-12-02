@@ -2544,14 +2544,14 @@ return {
         sort = 11,
         sortr = "11",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 1,
         type3 = {
             [1] = 201001,
             [2] = 201002,
         },
         id = 1102091,
-        nameTextId = "332001",
+        nameTextId = "3320001",
         subType = 11,
         defaultInfo = {
         },
@@ -2937,7 +2937,7 @@ return {
             [2] = 201003,
         },
         id = 1102104,
-        nameTextId = "332001",
+        nameTextId = "3320001",
         subType = 11,
         defaultInfo = {
         },
@@ -22131,7 +22131,7 @@ return {
         sort = 905,
         sortr = "905",
         name1 = 13316328,
-        isOpen = false,
+        isOpen = true,
         type1 = 5,
         type3 = {
             [1] = 205001,
@@ -22324,7 +22324,7 @@ return {
         sort = 908,
         sortr = "908",
         name1 = 13316331,
-        isOpen = false,
+        isOpen = true,
         type1 = 5,
         type3 = {
             [1] = 205001,
@@ -24491,7 +24491,7 @@ return {
         sort = 1893,
         sortr = "1893",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 9,
         type3 = {
             [1] = 209001,
@@ -25292,7 +25292,7 @@ return {
             [2] = 201002,
         },
         id = 1109011,
-        nameTextId = "332008",
+        nameTextId = "3320008",
         subType = 11,
         defaultInfo = {
         },
@@ -26778,7 +26778,7 @@ return {
             [2] = 201002,
         },
         id = 1107011,
-        nameTextId = "332006",
+        nameTextId = "3320006",
         subType = 11,
         defaultInfo = {
         },
@@ -28278,7 +28278,7 @@ return {
             [2] = 201002,
         },
         id = 1105011,
-        nameTextId = "332004",
+        nameTextId = "3320004",
         subType = 11,
         defaultInfo = {
         },
@@ -28310,7 +28310,7 @@ return {
             [2] = 201002,
         },
         id = 1105012,
-        nameTextId = "332004",
+        nameTextId = "3320004",
         subType = 11,
         defaultInfo = {
         },
@@ -28342,7 +28342,7 @@ return {
             [2] = 201003,
         },
         id = 1105013,
-        nameTextId = "332004",
+        nameTextId = "3320004",
         subType = 11,
         defaultInfo = {
         },
@@ -28692,7 +28692,7 @@ return {
             [2] = 201002,
         },
         id = 1107071,
-        nameTextId = "332006",
+        nameTextId = "3320006",
         subType = 11,
         defaultInfo = {
         },
@@ -29779,7 +29779,7 @@ return {
             [2] = 201002,
         },
         id = 1103011,
-        nameTextId = "332002",
+        nameTextId = "3320002",
         subType = 11,
         defaultInfo = {
         },
@@ -29906,7 +29906,7 @@ return {
             [2] = 201003,
         },
         id = 1103015,
-        nameTextId = "332002",
+        nameTextId = "3320002",
         subType = 11,
         defaultInfo = {
         },
@@ -30099,7 +30099,7 @@ return {
             [2] = 201002,
         },
         id = 1103021,
-        nameTextId = "332002",
+        nameTextId = "3320002",
         subType = 11,
         defaultInfo = {
         },
@@ -31276,7 +31276,7 @@ return {
             [2] = 201002,
         },
         id = 1101011,
-        nameTextId = "332000",
+        nameTextId = "3320000",
         subType = 11,
         defaultInfo = {
         },
@@ -31308,7 +31308,7 @@ return {
             [2] = 201002,
         },
         id = 1101012,
-        nameTextId = "332000",
+        nameTextId = "3320000",
         subType = 11,
         defaultInfo = {
         },
@@ -31340,7 +31340,7 @@ return {
             [2] = 201002,
         },
         id = 1101013,
-        nameTextId = "332000",
+        nameTextId = "3320000",
         subType = 11,
         defaultInfo = {
         },
@@ -31403,7 +31403,7 @@ return {
             [2] = 201002,
         },
         id = 1101015,
-        nameTextId = "332000",
+        nameTextId = "3320000",
         subType = 11,
         defaultInfo = {
         },
@@ -31435,7 +31435,7 @@ return {
             [2] = 201003,
         },
         id = 1101016,
-        nameTextId = "332000",
+        nameTextId = "3320000",
         subType = 11,
         defaultInfo = {
         },
@@ -31973,7 +31973,7 @@ return {
             [2] = 201003,
         },
         id = 1101033,
-        nameTextId = "332000",
+        nameTextId = "3320000",
         subType = 11,
         defaultInfo = {
         },
@@ -33352,7 +33352,7 @@ return {
         sort = 907,
         sortr = "907",
         name1 = 13316330,
-        isOpen = false,
+        isOpen = true,
         type1 = 5,
         type3 = {
             [1] = 205001,
@@ -44754,7 +44754,7 @@ return {
             [2] = 201003,
         },
         id = 1103019,
-        nameTextId = "332002",
+        nameTextId = "3320002",
         subType = 11,
         defaultInfo = {
         },
@@ -44819,7 +44819,7 @@ return {
             [2] = 201002,
         },
         id = 1101031,
-        nameTextId = "332000",
+        nameTextId = "3320000",
         subType = 11,
         defaultInfo = {
         },
@@ -45476,7 +45476,7 @@ return {
         sort = 69,
         sortr = "69",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 2,
         type3 = {
             [1] = 202001,
@@ -49852,7 +49852,7 @@ return {
             [2] = 201002,
         },
         id = 1120011,
-        nameTextId = "332010",
+        nameTextId = "3320010",
         subType = 11,
         defaultInfo = {
         },
@@ -49884,7 +49884,7 @@ return {
             [2] = 201003,
         },
         id = 1120012,
-        nameTextId = "332010",
+        nameTextId = "3320010",
         subType = 11,
         defaultInfo = {
         },
@@ -49950,7 +49950,7 @@ return {
             [2] = 201003,
         },
         id = 1120014,
-        nameTextId = "332010",
+        nameTextId = "3320010",
         subType = 11,
         defaultInfo = {
         },
@@ -55852,7 +55852,7 @@ return {
         sort = 1776,
         sortr = "1776",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 8,
         type3 = {
             [1] = 208001,
@@ -57099,7 +57099,7 @@ return {
             [2] = 201002,
         },
         id = 1110012,
-        nameTextId = "332009",
+        nameTextId = "3320009",
         subType = 11,
         defaultInfo = {
         },
@@ -57353,7 +57353,7 @@ return {
             [2] = 201002,
         },
         id = 1110011,
-        nameTextId = "332009",
+        nameTextId = "3320009",
         subType = 11,
         defaultInfo = {
         },
@@ -57507,7 +57507,7 @@ return {
         sort = 303,
         sortr = "303",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 3,
         type3 = {
             [1] = 203002,
@@ -58866,7 +58866,7 @@ return {
             [2] = 201002,
         },
         id = 1108011,
-        nameTextId = "332007",
+        nameTextId = "3320007",
         subType = 11,
         defaultInfo = {
         },
@@ -59527,7 +59527,7 @@ return {
         sort = 1798,
         sortr = "1798",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 9,
         type3 = {
             [1] = 209001,
@@ -59590,7 +59590,7 @@ return {
         sort = 1799,
         sortr = "1799",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 9,
         type3 = {
             [1] = 209001,
@@ -59654,7 +59654,7 @@ return {
         sort = 1800,
         sortr = "1800",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 9,
         type3 = {
             [1] = 209001,
@@ -59717,7 +59717,7 @@ return {
         sort = 1801,
         sortr = "1801",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 9,
         type3 = {
             [1] = 209001,
@@ -60366,7 +60366,7 @@ return {
             [2] = 201002,
         },
         id = 1106011,
-        nameTextId = "332005",
+        nameTextId = "3320005",
         subType = 11,
         defaultInfo = {
         },
@@ -60398,7 +60398,7 @@ return {
             [2] = 201002,
         },
         id = 1106012,
-        nameTextId = "332005",
+        nameTextId = "3320005",
         subType = 11,
         defaultInfo = {
         },
@@ -60618,7 +60618,7 @@ return {
         sort = 945,
         sortr = "945",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 6,
         type3 = {
             [1] = 106004,
@@ -60688,7 +60688,7 @@ return {
             [2] = 201002,
         },
         id = 1106021,
-        nameTextId = "332005",
+        nameTextId = "3320005",
         subType = 11,
         defaultInfo = {
         },
@@ -60744,7 +60744,7 @@ return {
         sort = 946,
         sortr = "946",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 6,
         type3 = {
             [1] = 106004,
@@ -60782,7 +60782,7 @@ return {
             [2] = 201002,
         },
         id = 1108071,
-        nameTextId = "332007",
+        nameTextId = "3320007",
         subType = 11,
         defaultInfo = {
         },
@@ -60869,7 +60869,7 @@ return {
         sort = 947,
         sortr = "947",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 6,
         type3 = {
             [1] = 106004,
@@ -61184,7 +61184,7 @@ return {
         sort = 304,
         sortr = "304",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 3,
         type3 = {
             [1] = 203002,
@@ -61438,7 +61438,7 @@ return {
         sort = 305,
         sortr = "305",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 3,
         type3 = {
             [1] = 203002,
@@ -61665,7 +61665,7 @@ return {
             [2] = 201003,
         },
         id = 1102102,
-        nameTextId = "332001",
+        nameTextId = "3320001",
         subType = 11,
         defaultInfo = {
         },
@@ -61856,7 +61856,7 @@ return {
             [2] = 201002,
         },
         id = 1104011,
-        nameTextId = "332003",
+        nameTextId = "3320003",
         subType = 11,
         defaultInfo = {
         },
@@ -61921,7 +61921,7 @@ return {
             [2] = 201002,
         },
         id = 1104013,
-        nameTextId = "332003",
+        nameTextId = "3320003",
         subType = 11,
         defaultInfo = {
         },
@@ -61986,7 +61986,7 @@ return {
             [2] = 201003,
         },
         id = 1104015,
-        nameTextId = "332003",
+        nameTextId = "3320003",
         subType = 11,
         defaultInfo = {
         },
@@ -62245,7 +62245,7 @@ return {
             [2] = 201003,
         },
         id = 1104023,
-        nameTextId = "332003",
+        nameTextId = "3320003",
         subType = 11,
         defaultInfo = {
         },
@@ -62308,7 +62308,7 @@ return {
             [2] = 201003,
         },
         id = 1104025,
-        nameTextId = "332003",
+        nameTextId = "3320003",
         subType = 11,
         defaultInfo = {
         },
@@ -63348,7 +63348,7 @@ return {
             [2] = 201002,
         },
         id = 1102011,
-        nameTextId = "332001",
+        nameTextId = "3320001",
         subType = 11,
         defaultInfo = {
         },
@@ -63380,7 +63380,7 @@ return {
             [2] = 201002,
         },
         id = 1102012,
-        nameTextId = "332001",
+        nameTextId = "3320001",
         subType = 11,
         defaultInfo = {
         },
@@ -63566,14 +63566,14 @@ return {
         sort = 10,
         sortr = "10",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 1,
         type3 = {
             [1] = 201001,
             [2] = 201002,
         },
         id = 1102018,
-        nameTextId = "332001",
+        nameTextId = "3320001",
         subType = 11,
         defaultInfo = {
         },
@@ -64048,7 +64048,7 @@ return {
             [2] = 201002,
         },
         id = 1102101,
-        nameTextId = "332001",
+        nameTextId = "3320001",
         subType = 11,
         defaultInfo = {
         },

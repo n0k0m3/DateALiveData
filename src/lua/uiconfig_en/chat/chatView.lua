@@ -8563,7 +8563,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -8587,7 +8587,7 @@ local t =
 										PositionX = 39,
 										PositionY = 26,
 									},
-									width = "80",
+									width = "75",
 									ZOrder = "1",
 								},
 								{

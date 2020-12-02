@@ -651,14 +651,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "18",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "21",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_have",
 											nTextAlign = "1",
@@ -674,7 +674,7 @@ local t =
 											{
 												PositionY = 35,
 											},
-											width = "148",
+											width = "162",
 											ZOrder = "1",
 										},
 										{
@@ -1687,7 +1687,6 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							visible = "False",
 							width = "1136",
 							ZOrder = "1",
 							components = 
@@ -1742,18 +1741,18 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "21",
 									ignoreSize = "True",
 									name = "Label_contract_tips",
 									nTextAlign = "1",
-									nTextHAlign = "1",
+									nTextHAlign = "0",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -1763,10 +1762,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -319,
-										PositionY = -262,
+										PositionX = -306,
+										PositionY = -271,
 									},
-									width = "411",
+									width = "343",
 									ZOrder = "1",
 									components = 
 									{
@@ -1791,7 +1790,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 91,
+												PositionX = 42,
+												PositionY = 23,
 											},
 											width = "84",
 											ZOrder = "1",
@@ -1995,6 +1995,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
+							visible = "False",
 							width = "1136",
 							ZOrder = "1",
 							components = 
@@ -2616,7 +2617,7 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "2",
+											height = "32",
 											ignoreSize = "True",
 											name = "Image_summonView_1",
 											sizepercentx = "0",
@@ -2630,7 +2631,7 @@ local t =
 												PositionX = -2,
 												PositionY = -18,
 											},
-											width = "2",
+											width = "163",
 											ZOrder = "1",
 											components = 
 											{
@@ -2984,7 +2985,7 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "2",
+											height = "32",
 											ignoreSize = "True",
 											name = "Image_summonView_1",
 											sizepercentx = "0",
@@ -2998,7 +2999,7 @@ local t =
 												PositionX = -2,
 												PositionY = -18,
 											},
-											width = "2",
+											width = "163",
 											ZOrder = "1",
 											components = 
 											{
@@ -3166,14 +3167,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "18",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "21",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_have",
 											nTextAlign = "1",
@@ -3187,9 +3188,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = 35,
+												PositionY = 36,
 											},
-											width = "148",
+											width = "162",
 											ZOrder = "1",
 										},
 										{
@@ -3396,7 +3397,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "15",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,

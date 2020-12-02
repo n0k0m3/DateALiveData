@@ -126,8 +126,8 @@ local t =
 									sizeType = "0",
 									spineModel = 
 									{
-										SpinePath = "effect/effect_props/effect_props",
-										animationName = "effect_props_orange_down",
+										SpinePath = "effect/dating/ui_superKanban_10507/effect_main_10507",
+										animationName = "animation",
 										IsLoop = true,
 										IsPlay = true,
 										IsUseQueue = false,
@@ -142,7 +142,6 @@ local t =
 									{
 										
 									},
-									ZOrder = "3",
 								},
 							},
 						},
@@ -166,41 +165,140 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 329,
-								PositionY = 195,
+								
 							},
 							width = "2",
-							ZOrder = "2",
+							ZOrder = "1",
+							components = 
+							{
+								
+								{
+									controlID = "Spine_effectH_Image_role_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
+									UUID = "98603395_7cdd_484c_9e0a_fa01a6059e58",
+									classname = "MESpine",
+									dstBlendFunc = "771",
+									name = "Spine_effectH",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									spineModel = 
+									{
+										SpinePath = "effect/dating/ui_superKanban_10507/effect_main_10507",
+										animationName = "animation",
+										IsLoop = true,
+										IsPlay = true,
+										IsUseQueue = false,
+										AnimationQueue = 
+										{
+											
+										},
+									},
+									srcBlendFunc = "1",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = 567,
+										PositionY = 318,
+									},
+									ZOrder = "5",
+								},
+							},
 						},
 						{
-							controlID = "Spine_effectH_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
-							UUID = "98603395_7cdd_484c_9e0a_fa01a6059e58",
-							classname = "MESpine",
+							controlID = "frontPanel_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
+							UUID = "28d74122_98a7_4e58_a18c_7e87f73d17cd",
+							anchorPoint = "False",
+							anchorPointX = "0",
+							anchorPointY = "0",
+							backGroundScale9Enable = "False",
+							bgColorOpacity = "50",
+							bIsOpenClipping = "False",
+							classname = "MEPanel",
+							colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+							DesignHeight = "640",
+							DesignType = "0",
+							DesignWidth = "960",
 							dstBlendFunc = "771",
-							name = "Spine_effectH",
+							height = "400",
+							ignoreSize = "False",
+							name = "frontPanel",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
-							spineModel = 
-							{
-								SpinePath = "effect/effect_props/effect_props",
-								animationName = "effect_props_orange_down",
-								IsLoop = true,
-								IsPlay = true,
-								IsUseQueue = false,
-								AnimationQueue = 
-								{
-									
-								},
-							},
 							srcBlendFunc = "1",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 568,
-								PositionY = 320,
+								PositionX = 134,
+								PositionY = 11,
 							},
-							ZOrder = "3",
+							uipanelviewmodel = 
+							{
+								Layout="Absolute",
+								nType = "0"
+							},
+							visible = "False",
+							width = "400",
+							ZOrder = "1",
+						},
+						{
+							controlID = "Button_showUI_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
+							UUID = "d845b4c4_2690_4a19_b396_dde55c65d782",
+							anchorPoint = "False",
+							anchorPointX = "0.5",
+							anchorPointY = "0.5",
+							backGroundScale9Enable = "False",
+							classname = "MEButton",
+							ClickHighLightEnabled = "True",
+							dstBlendFunc = "771",
+							flipX = "False",
+							flipY = "False",
+							height = "60",
+							ignoreSize = "True",
+							name = "Button_showUI",
+							normal = "ui/mainLayer/new_ui_1/camera_logo.png",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "1",
+							touchAble = "True",
+							UILayoutViewModel = 
+							{
+								PositionX = 1034,
+								PositionY = 614,
+							},
+							UItype = "Button",
+							width = "60",
+							ZOrder = "1",
+							components = 
+							{
+								
+								{
+									controlID = "Image_huigu_Button_showUI_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
+									UUID = "82b037d0_4e70_488e_80ea_5556aa779315",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MEImage",
+									dstBlendFunc = "771",
+									height = "60",
+									ignoreSize = "True",
+									name = "Image_huigu",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									texturePath = "ui/mainLayer/new_ui_1/camera_logo.png",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										
+									},
+									width = "60",
+									ZOrder = "1",
+								},
+							},
 						},
 						{
 							controlID = "Panel_top_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
@@ -2035,7 +2133,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 293,
+												PositionX = 342,
 												PositionY = 5,
 											},
 											uipanelviewmodel = 
@@ -2736,8 +2834,6 @@ local t =
 											height = "140",
 											ignoreSize = "False",
 											name = "Panel_activity",
-											scaleX = "0.83",
-											scaleY = "0.83",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -2745,7 +2841,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 467,
+												PositionX = 457,
 												PositionY = 408,
 											},
 											uipanelviewmodel = 
@@ -2962,7 +3058,7 @@ local t =
 													DesignType = "0",
 													DesignWidth = "960",
 													dstBlendFunc = "771",
-													height = "100",
+													height = "88",
 													ignoreSize = "False",
 													name = "PageView_Activity",
 													sizepercentx = "0",
@@ -2972,15 +3068,15 @@ local t =
 													touchAble = "True",
 													UILayoutViewModel = 
 													{
-														PositionX = -216,
-														PositionY = -46,
+														PositionX = -206,
+														PositionY = -50,
 													},
 													uipanelviewmodel = 
 													{
 														Layout="Absolute",
 														nType = "0"
 													},
-													width = "440",
+													width = "412",
 													ZOrder = "1",
 												},
 												{
@@ -3123,6 +3219,36 @@ local t =
 													width = "9",
 													ZOrder = "1",
 												},
+												{
+													controlID = "btn_ad_Panel_activity_Panel_clip_Panel_right_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
+													UUID = "42c4ff00_3e9c_4e16_bd70_735f1dff2f37",
+													anchorPoint = "False",
+													anchorPointX = "0.5",
+													anchorPointY = "0.5",
+													backGroundScale9Enable = "False",
+													classname = "MEButton",
+													ClickHighLightEnabled = "True",
+													dstBlendFunc = "771",
+													flipX = "False",
+													flipY = "False",
+													height = "84",
+													ignoreSize = "True",
+													name = "btn_ad",
+													normal = "ui/mainLayer/ad_btn.png",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													srcBlendFunc = "1",
+													touchAble = "True",
+													UILayoutViewModel = 
+													{
+														PositionX = -112,
+														PositionY = 6,
+													},
+													UItype = "Button",
+													width = "64",
+													ZOrder = "1",
+												},
 											},
 										},
 										{
@@ -3149,8 +3275,8 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												PositionX = 247,
-												PositionY = 294,
+												PositionX = 477,
+												PositionY = 61,
 											},
 											UItype = "Button",
 											width = "140",
@@ -3185,6 +3311,7 @@ local t =
 													{
 														
 													},
+													visible = "False",
 													ZOrder = "-100",
 												},
 												{
@@ -3240,6 +3367,7 @@ local t =
 													{
 														
 													},
+													visible = "False",
 													ZOrder = "1",
 												},
 											},
@@ -3407,6 +3535,32 @@ local t =
 													width = "44",
 													ZOrder = "1",
 												},
+												{
+													controlID = "img_bubble_Button_mail_Panel_clip_Panel_right_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
+													UUID = "c2f9db80_d46c_4620_89a1_f43d572115c8",
+													anchorPoint = "False",
+													anchorPointX = "1",
+													anchorPointY = "0",
+													backGroundScale9Enable = "False",
+													classname = "MEImage",
+													dstBlendFunc = "771",
+													height = "68",
+													ignoreSize = "True",
+													name = "img_bubble",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													srcBlendFunc = "1",
+													texturePath = "ui/mail/special_mail/img_bubble.png",
+													touchAble = "False",
+													UILayoutViewModel = 
+													{
+														PositionX = -17,
+														PositionY = 15,
+													},
+													width = "60",
+													ZOrder = "1",
+												},
 											},
 										},
 										{
@@ -3452,7 +3606,7 @@ local t =
 											dstBlendFunc = "771",
 											flipX = "False",
 											flipY = "False",
-											height = "110",
+											height = "114",
 											ignoreSize = "True",
 											name = "button_OneYear",
 											normal = "ui/mainLayer3/c13.png",
@@ -3464,11 +3618,11 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												PositionX = 301,
-												PositionY = 68,
+												PositionX = 486,
+												PositionY = 50,
 											},
 											UItype = "Button",
-											width = "232",
+											width = "184",
 											ZOrder = "1",
 										},
 										{
@@ -3834,8 +3988,8 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 49,
-														PositionY = -2,
+														PositionX = 81,
+														PositionY = 27,
 													},
 													width = "30",
 													ZOrder = "1",
@@ -3925,6 +4079,206 @@ local t =
 													{
 														PositionX = 49,
 														PositionY = -2,
+													},
+													width = "30",
+													ZOrder = "1",
+												},
+											},
+										},
+										{
+											controlID = "activityPos_left_Panel_clip_Panel_right_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
+											UUID = "d2fbeb5e_c188_4926_a3fe_93439e8dfde3",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											bgColorOpacity = "50",
+											bIsOpenClipping = "False",
+											classname = "MEPanel",
+											colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+											DesignHeight = "640",
+											DesignType = "0",
+											DesignWidth = "960",
+											dstBlendFunc = "771",
+											height = "50",
+											ignoreSize = "False",
+											name = "activityPos_left",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = 431,
+												PositionY = 51,
+											},
+											uipanelviewmodel = 
+											{
+												Layout="Absolute",
+												nType = "0"
+											},
+											visible = "False",
+											width = "50",
+											ZOrder = "1",
+										},
+										{
+											controlID = "activityPos_mid_Panel_clip_Panel_right_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
+											UUID = "3c84d144_5dd1_4402_8422_8109298b5457",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											bgColorOpacity = "50",
+											bIsOpenClipping = "False",
+											classname = "MEPanel",
+											colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+											DesignHeight = "640",
+											DesignType = "0",
+											DesignWidth = "960",
+											dstBlendFunc = "771",
+											height = "50",
+											ignoreSize = "False",
+											name = "activityPos_mid",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = 488,
+												PositionY = 63,
+											},
+											uipanelviewmodel = 
+											{
+												Layout="Absolute",
+												nType = "0"
+											},
+											visible = "False",
+											width = "50",
+											ZOrder = "1",
+										},
+										{
+											controlID = "activityPos_right_Panel_clip_Panel_right_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
+											UUID = "aa326fe0_4cb2_47d2_9fcb_89b6e9285cc5",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											bgColorOpacity = "50",
+											bIsOpenClipping = "False",
+											classname = "MEPanel",
+											colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+											DesignHeight = "640",
+											DesignType = "0",
+											DesignWidth = "960",
+											dstBlendFunc = "771",
+											height = "50",
+											ignoreSize = "False",
+											name = "activityPos_right",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = 557,
+												PositionY = 51,
+											},
+											uipanelviewmodel = 
+											{
+												Layout="Absolute",
+												nType = "0"
+											},
+											visible = "False",
+											width = "50",
+											ZOrder = "1",
+										},
+										{
+											controlID = "Button_Activity90_Panel_clip_Panel_right_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
+											UUID = "75999765_4b3d_4298_843f_9a47ec901859",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											classname = "MEButton",
+											ClickHighLightEnabled = "True",
+											dstBlendFunc = "771",
+											flipX = "False",
+											flipY = "False",
+											height = "94",
+											ignoreSize = "True",
+											name = "Button_Activity90",
+											normal = "ui/mainLayer/new_ui_4/rukou.png",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											touchAble = "True",
+											UILayoutViewModel = 
+											{
+												PositionX = 488,
+												PositionY = 62,
+												LeftPositon = 26,
+												TopPosition = 87,
+												relativeToName = "Panel",
+											},
+											UItype = "Button",
+											width = "200",
+											ZOrder = "1",
+											components = 
+											{
+												
+												{
+													controlID = "Image_update_Button_Activity90_Panel_clip_Panel_right_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
+													UUID = "b096559a_d150_4101_b082_03128f2a1e43",
+													anchorPoint = "False",
+													anchorPointX = "0.5",
+													anchorPointY = "0.5",
+													backGroundScale9Enable = "False",
+													classname = "MEImage",
+													dstBlendFunc = "771",
+													height = "50",
+													ignoreSize = "True",
+													name = "Image_update",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													srcBlendFunc = "1",
+													texturePath = "ui/mainLayer/new_ui/btn_ativity.png",
+													touchAble = "False",
+													UILayoutViewModel = 
+													{
+														PositionY = 10,
+													},
+													visible = "False",
+													width = "50",
+													ZOrder = "1",
+												},
+												{
+													controlID = "Image_activity_red90_Button_Activity90_Panel_clip_Panel_right_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
+													UUID = "d7986dd4_f508_480b_b19d_92f11d9baf35",
+													anchorPoint = "False",
+													anchorPointX = "0.5",
+													anchorPointY = "0.5",
+													backGroundScale9Enable = "False",
+													classname = "MEImage",
+													dstBlendFunc = "771",
+													height = "30",
+													ignoreSize = "True",
+													name = "Image_activity_red90",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													srcBlendFunc = "1",
+													texturePath = "ui/common/news_small.png",
+													touchAble = "False",
+													UILayoutViewModel = 
+													{
+														PositionX = 81,
+														PositionY = 27,
 													},
 													width = "30",
 													ZOrder = "1",
@@ -4401,8 +4755,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 86,
-										PositionY = 47,
+										PositionX = -49,
+										PositionY = 45,
 									},
 									width = "60",
 									ZOrder = "1",
@@ -4427,8 +4781,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 178,
-										PositionY = 47,
+										PositionX = 53,
+										PositionY = 45,
 									},
 									width = "60",
 									ZOrder = "1",
@@ -4453,8 +4807,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 277,
-										PositionY = 47,
+										PositionX = 160,
+										PositionY = 48,
 									},
 									width = "60",
 									ZOrder = "1",
@@ -4479,8 +4833,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 378,
-										PositionY = 47,
+										PositionX = 264,
+										PositionY = 45,
 									},
 									width = "60",
 									ZOrder = "1",
@@ -4505,8 +4859,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 471,
-										PositionY = 47,
+										PositionX = 366,
+										PositionY = 45,
 									},
 									width = "60",
 									ZOrder = "1",
@@ -4531,8 +4885,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -6,
-										PositionY = 47,
+										PositionX = 472,
+										PositionY = 45,
 									},
 									width = "60",
 									ZOrder = "1",
@@ -4568,8 +4922,8 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = -5,
-										PositionY = 50,
+										PositionX = -49,
+										PositionY = 46,
 									},
 									UItype = "Button",
 									width = "60",
@@ -4788,8 +5142,8 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 87,
-										PositionY = 50,
+										PositionX = 55,
+										PositionY = 47,
 									},
 									UItype = "Button",
 									width = "60",
@@ -5010,8 +5364,8 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 277,
-										PositionY = 50,
+										PositionX = 263,
+										PositionY = 47,
 									},
 									UItype = "Button",
 									width = "60",
@@ -5283,6 +5637,78 @@ local t =
 									},
 								},
 								{
+									controlID = "Button_explore_Panel_bottom_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
+									UUID = "b938d316_1d51_48f4_9341_85c2c4b07e2a",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MEButton",
+									ClickHighLightEnabled = "True",
+									dstBlendFunc = "771",
+									flipX = "False",
+									flipY = "False",
+									height = "10",
+									HitType = 
+									{
+										nHitType = 1,
+										nXpos = -38,
+										nYpos = -25,
+										nHitWidth = 80,
+										nHitHeight = 80
+									},
+									ignoreSize = "False",
+									name = "Button_explore",
+									normal = "ui/001.png",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									touchAble = "True",
+									UILayoutViewModel = 
+									{
+										PositionX = 595,
+										PositionY = 57,
+									},
+									UItype = "Button",
+									width = "10",
+									ZOrder = "1",
+									components = 
+									{
+										
+										{
+											controlID = "Spine_phone_Button_explore_Panel_bottom_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
+											UUID = "c7d871bd_e1f4_4ca5_bfa2_526ae387cf1f",
+											classname = "MESpine",
+											dstBlendFunc = "771",
+											name = "Spine_phone",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											spineModel = 
+											{
+												SpinePath = "effect/TS_texiao/TS_zhuyerukou",
+												animationName = "TS_zhuyerukou_all",
+												IsLoop = true,
+												IsPlay = true,
+												IsUseQueue = false,
+												AnimationQueue = 
+												{
+													
+												},
+											},
+											srcBlendFunc = "1",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = -2,
+												PositionY = 8,
+											},
+											ZOrder = "1",
+										},
+									},
+								},
+								{
 									controlID = "Button_phone_Panel_bottom_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
 									UUID = "636998c0_59f2_4614_823a_e68b784aadaf",
 									anchorPoint = "False",
@@ -5451,8 +5877,8 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 379,
-										PositionY = 50,
+										PositionX = 367,
+										PositionY = 48,
 									},
 									UItype = "Button",
 									width = "60",
@@ -5564,8 +5990,8 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 472,
-										PositionY = 50,
+										PositionX = 473,
+										PositionY = 48,
 									},
 									UItype = "Button",
 									width = "60",
@@ -5676,7 +6102,7 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 181,
+										PositionX = 160,
 										PositionY = 47,
 									},
 									UItype = "Button",
@@ -5789,8 +6215,35 @@ local t =
 									},
 								},
 								{
+									controlID = "Image_split_line-Copy1_Panel_bottom_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
+									UUID = "71bf51af_8b40_4b57_b787_2b68aeed53b7",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MEImage",
+									dstBlendFunc = "771",
+									height = "20",
+									ignoreSize = "True",
+									name = "Image_split_line-Copy1",
+									opacity = "50",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									texturePath = "ui/mainLayer/new_ui_1/ui_001.png",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = 435,
+										PositionY = 46,
+									},
+									width = "2",
+									ZOrder = "1",
+								},
+								{
 									controlID = "Button_ARCamera_Panel_bottom_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
-									UUID = "dc364b1d_1662_41a3_9dfe_b9e38c27440a",
+									UUID = "3083237e_d8e9_4b15_be5b_c330709fd256",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
@@ -5824,7 +6277,7 @@ local t =
 										
 										{
 											controlID = "Image_newtip_Button_ARCamera_Panel_bottom_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
-											UUID = "9efd650f_d562_4274_9750_8e0115d282f0",
+											UUID = "559d7b8c_b6a3_4495_99ca_7db29d94c826",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
@@ -5850,7 +6303,7 @@ local t =
 										},
 										{
 											controlID = "Label_Game_1_Button_ARCamera_Panel_bottom_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
-											UUID = "6d009ed9_83b7_4038_ad46_04a01b4f6328",
+											UUID = "2307a294_1ae0_49b8_bc87_e681c389ff1c",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
@@ -6189,21 +6642,21 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "2",
+											height = "30",
 											ignoreSize = "True",
 											name = "Image_redPoint",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "1",
-											texturePath = "ui/common/redPoint.png",
+											texturePath = "ui/common/news_small.png",
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
 												PositionX = 23,
 												PositionY = 21,
 											},
-											width = "2",
+											width = "30",
 											ZOrder = "1",
 										},
 										{
@@ -6231,33 +6684,118 @@ local t =
 											width = "35",
 											ZOrder = "1",
 										},
+										{
+											controlID = "Image_aiAdvice_tips_Image_chat_Panel_chat_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
+											UUID = "0eae0377_21db_41ee_9167_c75746cf3d74",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											classname = "MEImage",
+											dstBlendFunc = "771",
+											height = "85",
+											ignoreSize = "True",
+											name = "Image_aiAdvice_tips",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											texturePath = "ui/mainLayer/new_ui/redpack_tips_bg.png",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = 58,
+												PositionY = 60,
+											},
+											width = "89",
+											ZOrder = "1",
+											components = 
+											{
+												
+												{
+													controlID = "Image_aiIcon_Image_aiAdvice_tips_Image_chat_Panel_chat_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
+													UUID = "a7b8807d_56c1_4f81_9b99_3b34c07bda09",
+													anchorPoint = "False",
+													anchorPointX = "0.5",
+													anchorPointY = "0.5",
+													backGroundScale9Enable = "False",
+													classname = "MEImage",
+													dstBlendFunc = "771",
+													height = "80",
+													ignoreSize = "True",
+													name = "Image_aiIcon",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													srcBlendFunc = "1",
+													texturePath = "ui/mainLayer/a004.png",
+													touchAble = "False",
+													UILayoutViewModel = 
+													{
+														PositionY = -4,
+													},
+													width = "80",
+													ZOrder = "1",
+												},
+												{
+													controlID = "Image_aiTimeBar_Image_aiAdvice_tips_Image_chat_Panel_chat_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
+													UUID = "87c1be3e_dae7_4f11_8593_761b97d408cf",
+													anchorPoint = "False",
+													anchorPointX = "0.5",
+													anchorPointY = "0.5",
+													backGroundScale9Enable = "False",
+													classname = "MEImage",
+													dstBlendFunc = "771",
+													height = "4",
+													ignoreSize = "True",
+													name = "Image_aiTimeBar",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													srcBlendFunc = "1",
+													texturePath = "ui/mainLayer/a002.png",
+													touchAble = "False",
+													UILayoutViewModel = 
+													{
+														PositionY = -28,
+													},
+													width = "72",
+													ZOrder = "1",
+													components = 
+													{
+														
+														{
+															controlID = "LoadingBar_aiTime_Image_aiTimeBar_Image_aiAdvice_tips_Image_chat_Panel_chat_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
+															UUID = "ab1ec72d_974d_484c_adf5_d2086093d409",
+															anchorPoint = "False",
+															anchorPointX = "0.5",
+															anchorPointY = "0.5",
+															backGroundScale9Enable = "False",
+															classname = "MELoadingBar",
+															direction = "0",
+															dstBlendFunc = "771",
+															height = "4",
+															ignoreSize = "True",
+															name = "LoadingBar_aiTime",
+															percent = "100",
+															sizepercentx = "0",
+															sizepercenty = "0",
+															sizeType = "0",
+															srcBlendFunc = "1",
+															texture = "ui/mainLayer/a001.png",
+															touchAble = "False",
+															UILayoutViewModel = 
+															{
+																
+															},
+															width = "72",
+															ZOrder = "1",
+														},
+													},
+												},
+											},
+										},
 									},
-								},
-								{
-									controlID = "Image_fenge_Panel_chat_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
-									UUID = "21bc182e_0437_4e32_a501_b39f0eaec221",
-									anchorPoint = "False",
-									anchorPointX = "0.5",
-									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
-									classname = "MEImage",
-									dstBlendFunc = "771",
-									height = "24",
-									ignoreSize = "True",
-									name = "Image_fenge",
-									sizepercentx = "0",
-									sizepercenty = "0",
-									sizeType = "0",
-									srcBlendFunc = "1",
-									texturePath = "ui/005.png",
-									touchAble = "False",
-									UILayoutViewModel = 
-									{
-										PositionX = 400,
-										PositionY = 15,
-									},
-									width = "2",
-									ZOrder = "1",
 								},
 							},
 						},
@@ -6287,6 +6825,7 @@ local t =
 								TopPosition = 11,
 								relativeToName = "Panel",
 							},
+							visible = "False",
 							width = "46",
 							ZOrder = "999",
 							components = 
@@ -6387,10 +6926,10 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -56,
+								PositionX = -58,
 								PositionY = 640,
 								IsPercent = true,
-								PercentX = -5,
+								PercentX = -5.09,
 								PercentY = 100,
 								relativeToName = "Panel",
 							},
@@ -6520,7 +7059,7 @@ local t =
 									HitType = 
 									{
 										nHitType = 2,
-										nRadius = 30,
+										nRadius = 50,
 									},
 									ignoreSize = "True",
 									name = "Button_add_tili",
@@ -6559,7 +7098,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 804,
+										PositionX = 784,
 										PositionY = -31,
 									},
 									width = "110",
@@ -6587,7 +7126,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 750,
+										PositionX = 730,
 										PositionY = -30,
 									},
 									width = "100",
@@ -6633,7 +7172,7 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 830,
+										PositionX = 810,
 										PositionY = -30,
 									},
 									width = "80",
@@ -6655,7 +7194,7 @@ local t =
 									HitType = 
 									{
 										nHitType = 2,
-										nRadius = 30,
+										nRadius = 50,
 									},
 									ignoreSize = "True",
 									name = "Button_add_coin",
@@ -6667,7 +7206,7 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 847,
+										PositionX = 827,
 										PositionY = -28,
 									},
 									UItype = "Button",
@@ -6694,7 +7233,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 964,
+										PositionX = 924,
 										PositionY = -30,
 									},
 									width = "110",
@@ -6722,7 +7261,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 915,
+										PositionX = 875,
 										PositionY = -33,
 									},
 									width = "100",
@@ -6768,7 +7307,7 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 994,
+										PositionX = 954,
 										PositionY = -29,
 									},
 									width = "80",
@@ -6805,7 +7344,7 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 1009,
+										PositionX = 969,
 										PositionY = -29,
 									},
 									UItype = "Button",
@@ -6863,7 +7402,7 @@ local t =
 									dstBlendFunc = "771",
 									flipX = "False",
 									flipY = "False",
-									height = "100",
+									height = "90",
 									ignoreSize = "True",
 									name = "Button_elf_contract",
 									normal = "ui/mainLayer/new_ui/a1.png",
@@ -6878,7 +7417,7 @@ local t =
 										PositionY = 500,
 									},
 									UItype = "Button",
-									width = "100",
+									width = "90",
 									ZOrder = "1",
 									components = 
 									{
@@ -8425,8 +8964,8 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												PositionX = 149,
-												PositionY = 441,
+												PositionX = 115,
+												PositionY = 409,
 												LeftPositon = 26,
 												TopPosition = 87,
 												relativeToName = "Panel",
@@ -8522,10 +9061,10 @@ local t =
 											dstBlendFunc = "771",
 											flipX = "False",
 											flipY = "False",
-											height = "64",
+											height = "80",
 											ignoreSize = "True",
 											name = "Button_ScoreReward",
-											normal = "ui/simulation_trial5/icon2.png",
+											normal = "ui/mainLayer/new_ui_1/btn_tzr.png",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -8540,7 +9079,7 @@ local t =
 												relativeToName = "Panel",
 											},
 											UItype = "Button",
-											width = "60",
+											width = "80",
 											ZOrder = "1",
 											components = 
 											{
@@ -8592,7 +9131,7 @@ local t =
 													ZOrder = "1",
 												},
 												{
-													controlID = "Image_monthCardTip_Button_ScoreReward_Panel_btList_Panel_left_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
+													controlID = "Image_ScoreRewardTip_Button_ScoreReward_Panel_btList_Panel_left_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
 													UUID = "c2c32f5e_1456_40d4_b746_243a1b0b396d",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
@@ -8600,22 +9139,51 @@ local t =
 													backGroundScale9Enable = "False",
 													classname = "MEImage",
 													dstBlendFunc = "771",
-													height = "30",
+													height = "80",
 													ignoreSize = "True",
-													name = "Image_monthCardTip",
+													name = "Image_ScoreRewardTip",
 													sizepercentx = "0",
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "1",
-													texturePath = "ui/common/news_small.png",
+													texturePath = "ui/mainLayer/new_ui_1/btn_tzrnew.png",
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 18,
-														PositionY = 11,
+														
 													},
-													width = "30",
+													width = "80",
 													ZOrder = "1",
+													components = 
+													{
+														
+														{
+															controlID = "Image_updateTip_Image_ScoreRewardTip_Button_ScoreReward_Panel_btList_Panel_left_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
+															UUID = "a6cbd258_df93_4df5_af21_b551649df8bd",
+															anchorPoint = "False",
+															anchorPointX = "0.5",
+															anchorPointY = "0.5",
+															backGroundScale9Enable = "False",
+															classname = "MEImage",
+															dstBlendFunc = "771",
+															height = "30",
+															ignoreSize = "True",
+															name = "Image_updateTip",
+															sizepercentx = "0",
+															sizepercenty = "0",
+															sizeType = "0",
+															srcBlendFunc = "1",
+															texturePath = "ui/common/news_small.png",
+															touchAble = "False",
+															UILayoutViewModel = 
+															{
+																PositionX = 18,
+																PositionY = 11,
+															},
+															width = "30",
+															ZOrder = "1",
+														},
+													},
 												},
 											},
 										},
@@ -8731,7 +9299,7 @@ local t =
 										},
 										{
 											controlID = "Button_rankNotice_Panel_btList_Panel_left_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
-											UUID = "36de6a8b_1a3f_4331_8a03_8796ee391f40",
+											UUID = "071599b8_0145_4b8d_8158_a67ceaca873f",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
@@ -8766,7 +9334,7 @@ local t =
 												
 												{
 													controlID = "Label_title_Button_rankNotice_Panel_btList_Panel_left_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
-													UUID = "d0356420_5031_46e4_bbe3_1cc104fc0925",
+													UUID = "e179f0a0_b45b_40be_99d5_c0e465fb3f5c",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -8812,7 +9380,7 @@ local t =
 												},
 												{
 													controlID = "Image_survey_Button_rankNotice_Panel_btList_Panel_left_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
-													UUID = "c1f0dbb2_cc37_4e66_bb6c_8a8afc44474f",
+													UUID = "6a92c497_b36c_40d3_a26b_b25ee8472106",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -8838,7 +9406,7 @@ local t =
 												},
 												{
 													controlID = "Image_assist_Tip_Button_rankNotice_Panel_btList_Panel_left_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
-													UUID = "71819d1c_a32e_47ab_ba8f_fdd5e1d59d22",
+													UUID = "4840737e_e28f_4f38_b2bc_45e411b68de6",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -8980,7 +9548,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 430,
-										PositionY = 502,
+										PositionY = 500,
 									},
 									UItype = "Button",
 									width = "90",
@@ -9015,6 +9583,32 @@ local t =
 											{
 												
 											},
+											ZOrder = "1",
+										},
+										{
+											controlID = "Image_redTips_Button_gongzhu_Panel_left_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
+											UUID = "257c69b7_a9ca_41fd_8b9b_c6cde1f91507",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											classname = "MEImage",
+											dstBlendFunc = "771",
+											height = "30",
+											ignoreSize = "True",
+											name = "Image_redTips",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											texturePath = "ui/common/news_small.png",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = 21,
+												PositionY = 23,
+											},
+											width = "30",
 											ZOrder = "1",
 										},
 									},
@@ -9158,7 +9752,7 @@ local t =
 											anchorPoint = "False",
 											anchorPointX = "0",
 											anchorPointY = "0",
-											backGroundScale9Enable = "False",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											bgColorOpacity = "50",
 											bIsOpenClipping = "False",
 											classname = "MEPanel",
@@ -9186,7 +9780,7 @@ local t =
 												Layout="Absolute",
 												nType = "0"
 											},
-											width = "336",
+											width = "425",
 											ZOrder = "1",
 											components = 
 											{
@@ -9206,7 +9800,7 @@ local t =
 													height = "60",
 													ignoreSize = "True",
 													name = "Button_preview",
-													normal = "ui/mainLayer/new_ui_1/btn_preview.png",
+													normal = "ui/preview/main_btn.png",
 													sizepercentx = "0",
 													sizepercenty = "0",
 													sizeType = "0",
@@ -9942,13 +10536,119 @@ local t =
 														},
 													},
 												},
+												{
+													controlID = "btn_phone_Panel_btListEx_Button_btnListEx_Panel_left_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
+													UUID = "1a750b1b_2956_47e1_bf0f_367a7b3af8a6",
+													anchorPoint = "False",
+													anchorPointX = "0.5",
+													anchorPointY = "0.5",
+													backGroundScale9Enable = "False",
+													classname = "MEButton",
+													ClickHighLightEnabled = "True",
+													dstBlendFunc = "771",
+													flipX = "False",
+													flipY = "False",
+													height = "60",
+													ignoreSize = "True",
+													name = "btn_phone",
+													normal = "ui/mainLayer/new_ui_1/btn_phone_small.png",
+													pressed = "ui/mainLayer/new_ui_1/btn_phone_small.png",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													srcBlendFunc = "1",
+													touchAble = "True",
+													UILayoutViewModel = 
+													{
+														PositionX = 355,
+														PositionY = 43,
+													},
+													UItype = "Button",
+													width = "60",
+													ZOrder = "1",
+													components = 
+													{
+														
+														{
+															controlID = "Label_title_btn_phone_Panel_btListEx_Button_btnListEx_Panel_left_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
+															UUID = "18a52a48_844b_4efa_97a7_e8afef3ddaa2",
+															anchorPoint = "False",
+															anchorPointX = "0.5",
+															anchorPointY = "0.5",
+															classname = "MELabel",
+															compPath = "luacomponents.common.MEIconLabel",
+															dstBlendFunc = "771",
+															FontColor = "#FFFFFFFF",
+															fontName = "font/fangzheng_zhunyuan.ttf",
+															fontShadow = 
+															{
+																IsShadow = false,
+																ShadowColor = "#FFFFFFFF",
+																ShadowAlpha = 255,
+																OffsetX = 0,
+																OffsetY = 0,
+															},
+															fontSize = "20",
+															fontStroke = 
+															{
+																IsStroke = true,
+																StrokeColor = "#FF000000",
+																StrokeSize = 1,
+															},
+															height = "25",
+															ignoreSize = "True",
+															name = "Label_title",
+															nTextAlign = "1",
+															nTextHAlign = "1",
+															sizepercentx = "0",
+															sizepercenty = "0",
+															sizeType = "0",
+															srcBlendFunc = "770",
+															text = "通讯",
+															touchAble = "False",
+															touchScaleEnable = "False",
+															UILayoutViewModel = 
+															{
+																PositionX = 43,
+															},
+															width = "44",
+															ZOrder = "1",
+														},
+														{
+															controlID = "Image_zhuifan_btn_phone_Panel_btListEx_Button_btnListEx_Panel_left_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
+															UUID = "1fdcf900_ceb8_446d_9fef_411417336bec",
+															anchorPoint = "False",
+															anchorPointX = "0.5",
+															anchorPointY = "0.5",
+															backGroundScale9Enable = "False",
+															classname = "MEImage",
+															dstBlendFunc = "771",
+															height = "30",
+															ignoreSize = "True",
+															name = "Image_zhuifan",
+															sizepercentx = "0",
+															sizepercenty = "0",
+															sizeType = "0",
+															srcBlendFunc = "1",
+															texturePath = "ui/common/news_small.png",
+															touchAble = "False",
+															UILayoutViewModel = 
+															{
+																PositionX = 18,
+																PositionY = 11,
+															},
+															width = "30",
+															ZOrder = "1",
+														},
+													},
+												},
 											},
 										},
 									},
 								},
 								{
 									controlID = "Button_assistance_Panel_left_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
-									UUID = "d71ff41c_cd9f_467f_a77c_aff919b4f796",
+									UUID = "52589860_9528_47b5_bce8_ed3be9885614",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
@@ -9983,7 +10683,7 @@ local t =
 										
 										{
 											controlID = "Label_title_Button_assistance_Panel_left_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
-											UUID = "eca4a29c_4c53_45b4_a794_70c569335c02",
+											UUID = "e571cfa4_798d_4a31_9709_a5e0913a3460",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
@@ -10029,7 +10729,7 @@ local t =
 										},
 										{
 											controlID = "Image_assistance_Button_assistance_Panel_left_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
-											UUID = "80723be1_e77f_4fd6_a4bc_2f2eda675e96",
+											UUID = "1bf23590_a4e1_4962_a11f_eaa605eb9a4f",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
@@ -10055,7 +10755,7 @@ local t =
 										},
 										{
 											controlID = "Image_assistanceTip_Button_assistance_Panel_left_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
-											UUID = "a71e595c_4b63_49f5_a230_a9eded87f16c",
+											UUID = "e57fa071_8fcb_48dd_81d0_c4d8cb21bfac",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
@@ -10082,7 +10782,7 @@ local t =
 										},
 										{
 											controlID = "spine_status_Button_assistance_Panel_left_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
-											UUID = "af646916_e9ce_4a10_b52a_4d6436239a93",
+											UUID = "6083233c_7015_481b_8208_a22d418d3ad9",
 											classname = "MESpine",
 											dstBlendFunc = "771",
 											name = "spine_status",
@@ -10110,42 +10810,6 @@ local t =
 											ZOrder = "1",
 										},
 									},
-								},
-								{
-									controlID = "GiftRoot_Panel_left_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
-									UUID = "689ba90d_4713_4443_a3e4_05b6f11f1aee",
-									anchorPoint = "False",
-									anchorPointX = "0.5",
-									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
-									bgColorOpacity = "50",
-									bIsOpenClipping = "False",
-									classname = "MEPanel",
-									colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
-									DesignHeight = "640",
-									DesignType = "0",
-									DesignWidth = "960",
-									dstBlendFunc = "771",
-									height = "50",
-									ignoreSize = "False",
-									name = "GiftRoot",
-									sizepercentx = "0",
-									sizepercenty = "0",
-									sizeType = "0",
-									srcBlendFunc = "1",
-									touchAble = "False",
-									UILayoutViewModel = 
-									{
-										PositionX = 176,
-										PositionY = 435,
-									},
-									uipanelviewmodel = 
-									{
-										Layout="Absolute",
-										nType = "0"
-									},
-									width = "50",
-									ZOrder = "1",
 								},
 							},
 						},
@@ -10260,6 +10924,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
+							visible = "False",
 							width = "872",
 							ZOrder = "11",
 							components = 
@@ -10697,11 +11362,45 @@ local t =
 							ZOrder = "4",
 						},
 						{
+							controlID = "Spine_changeEffect_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
+							UUID = "6057c415_9b3b_40c7_8889_f40578926c03",
+							classname = "MESpine",
+							dstBlendFunc = "771",
+							name = "Spine_changeEffect",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							spineModel = 
+							{
+								SpinePath = "effect/effect_WK_zhuanchang/effect_WK_zhuanchang",
+								animationName = "animation",
+								IsLoop = true,
+								IsPlay = true,
+								IsUseQueue = false,
+								AnimationQueue = 
+								{
+									
+								},
+							},
+							srcBlendFunc = "1",
+							touchAble = "False",
+							UILayoutViewModel = 
+							{
+								PositionX = 568,
+								PositionY = 320,
+								IsPercent = true,
+								PercentX = 50,
+								PercentY = 50,
+							},
+							visible = "False",
+							ZOrder = "12",
+						},
+						{
 							controlID = "PrefabGift_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
-							UUID = "e9a901a3_829f_41c2_b4a0_efb1b409702f",
+							UUID = "46e948c3_9568_4d05_968b_41df94a2ecbf",
 							anchorPoint = "False",
-							anchorPointX = "0",
-							anchorPointY = "0",
+							anchorPointX = "0.5",
+							anchorPointY = "0.5",
 							backGroundScale9Enable = "False",
 							bgColorOpacity = "50",
 							bIsOpenClipping = "False",
@@ -10736,7 +11435,7 @@ local t =
 								
 								{
 									controlID = "Button_Gift_PrefabGift_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
-									UUID = "1b8daeea_7e7a_4f78_a359_212e2cfc7611",
+									UUID = "fb0c60ed_ac7f_4d6f_aa76_57802c068179",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
@@ -10766,15 +11465,15 @@ local t =
 								},
 								{
 									controlID = "Name_PrefabGift_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
-									UUID = "e2048ea8_05c4_4ac9_a57d_35e7eaeb238f",
+									UUID = "4ce54b29_31be_497f_961d_56a1b5887943",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FFFFFFFF",
-									fontName = "phanta.ttf",
+									FontColor = "#FFCCF1FA",
+									fontName = "font/MFLiHei_Noncommercial.ttf",
 									fontShadow = 
 									{
 										IsShadow = false,
@@ -10786,11 +11485,11 @@ local t =
 									fontSize = "16",
 									fontStroke = 
 									{
-										IsStroke = false,
-										StrokeColor = "#FFE6E6E6",
+										IsStroke = true,
+										StrokeColor = "#FF49557F",
 										StrokeSize = 1,
 									},
-									height = "18",
+									height = "22",
 									ignoreSize = "True",
 									name = "Name",
 									nTextAlign = "1",
@@ -10806,13 +11505,14 @@ local t =
 									{
 										PositionX = -2,
 										PositionY = -31,
+										relativeToName = "Panel",
 									},
-									width = "67",
+									width = "68",
 									ZOrder = "1",
 								},
 								{
 									controlID = "TimeCount_PrefabGift_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
-									UUID = "6c594d0d_ea40_4b5c_b916_94433c9dc77b",
+									UUID = "d95b8f67_36b7_4f4c_be3c_a4e3163c8262",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
@@ -10820,7 +11520,7 @@ local t =
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
 									FontColor = "#FFFFE21F",
-									fontName = "phanta.ttf",
+									fontName = "font/fangzheng_zhunyuan.ttf",
 									fontShadow = 
 									{
 										IsShadow = false,
@@ -10850,18 +11550,55 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										
+										PositionX = -1,
+										PositionY = -13,
 									},
 									width = "57",
 									ZOrder = "1",
 								},
 							},
 						},
+						{
+							controlID = "GiftRoot_Panel_base_Panel-DefaultMainLayer_Layer1_MainScene_Game",
+							UUID = "0133b6dc_953b_4d39_be0d_ed1c348fd11f",
+							anchorPoint = "False",
+							anchorPointX = "0.5",
+							anchorPointY = "0.5",
+							backGroundScale9Enable = "False",
+							bgColorOpacity = "50",
+							bIsOpenClipping = "False",
+							classname = "MEPanel",
+							colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+							DesignHeight = "640",
+							DesignType = "0",
+							DesignWidth = "960",
+							dstBlendFunc = "771",
+							height = "50",
+							ignoreSize = "False",
+							name = "GiftRoot",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "1",
+							touchAble = "False",
+							UILayoutViewModel = 
+							{
+								PositionX = 176,
+								PositionY = 535,
+							},
+							uipanelviewmodel = 
+							{
+								Layout="Absolute",
+								nType = "0"
+							},
+							width = "50",
+							ZOrder = "1",
+						},
 					},
 				},
 				{
 					controlID = "panel_touch_Panel-DefaultMainLayer_Layer1_MainScene_Game",
-					UUID = "f9dd9db2_5f37_40a3_8f75_e64a3c900d05",
+					UUID = "558e95e3_5ce3_4e58_b73e_2bbe3c900c56",
 					anchorPoint = "False",
 					anchorPointX = "0",
 					anchorPointY = "0",
@@ -10902,7 +11639,7 @@ local t =
 						
 						{
 							controlID = "img_menu_bg_panel_touch_Panel-DefaultMainLayer_Layer1_MainScene_Game",
-							UUID = "a4312b86_c110_4b99_9c86_c1a4de0a2d3c",
+							UUID = "1db1974f_b5df_47da_b177_acd0ba9c2126",
 							anchorPoint = "False",
 							anchorPointX = "0.5",
 							anchorPointY = "0",
@@ -10930,7 +11667,7 @@ local t =
 								
 								{
 									controlID = "panel_zhaohuan_img_menu_bg_panel_touch_Panel-DefaultMainLayer_Layer1_MainScene_Game",
-									UUID = "d1e3c251_ffdb_4d10_b7b2_14a6ea2b4b7f",
+									UUID = "d23860df_2919_4a91_b9b8_8e579997f903",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0",
@@ -10967,7 +11704,7 @@ local t =
 										
 										{
 											controlID = "btn_jl_panel_zhaohuan_img_menu_bg_panel_touch_Panel-DefaultMainLayer_Layer1_MainScene_Game",
-											UUID = "0ed7652f_dd0a_42fd_a318_f42519db2635",
+											UUID = "349f779d_80c7_42a4_b699_037fa2714c93",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
@@ -10997,7 +11734,7 @@ local t =
 										},
 										{
 											controlID = "btn_zd_panel_zhaohuan_img_menu_bg_panel_touch_Panel-DefaultMainLayer_Layer1_MainScene_Game",
-											UUID = "1c617287_8aa4_4687_a521_6d2498191277",
+											UUID = "ec4f9601_b2eb_4dc0_b4b1_2cc407155e5f",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
@@ -11029,7 +11766,7 @@ local t =
 								},
 								{
 									controlID = "panel_shop_img_menu_bg_panel_touch_Panel-DefaultMainLayer_Layer1_MainScene_Game",
-									UUID = "f1e755d1_2ad2_49d1_856a_477fed453101",
+									UUID = "87771783_2b8c_43a0_9956_d2bfb4144738",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0",
@@ -11066,7 +11803,7 @@ local t =
 										
 										{
 											controlID = "btn_shop_a_panel_shop_img_menu_bg_panel_touch_Panel-DefaultMainLayer_Layer1_MainScene_Game",
-											UUID = "ecfc84df_d3a9_4b31_ba08_92ecac2788cc",
+											UUID = "1b6eb496_76ff_47f8_80f5_0560e1d2f370",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
@@ -11096,7 +11833,7 @@ local t =
 										},
 										{
 											controlID = "btn_shop_b_panel_shop_img_menu_bg_panel_touch_Panel-DefaultMainLayer_Layer1_MainScene_Game",
-											UUID = "a91cc803_7729_4d83_b98d_aa1c7b4de347",
+											UUID = "bc55853f_4a47_4e79_863e_e14faf60e446",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
@@ -11128,7 +11865,7 @@ local t =
 								},
 								{
 									controlID = "panel_recharge_img_menu_bg_panel_touch_Panel-DefaultMainLayer_Layer1_MainScene_Game",
-									UUID = "d4c12f1d_bc56_4973_b39b_942edf43f0d3",
+									UUID = "995a4e9e_4ba1_471e_b178_91de83d7a1e3",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0",
@@ -11166,7 +11903,7 @@ local t =
 										
 										{
 											controlID = "btn_recharge_a_panel_recharge_img_menu_bg_panel_touch_Panel-DefaultMainLayer_Layer1_MainScene_Game",
-											UUID = "61b9635e_83eb_4350_ae36_49973c7916fc",
+											UUID = "7b4909b2_983f_4bd9_ba6f_828c61972132",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
@@ -11196,7 +11933,7 @@ local t =
 										},
 										{
 											controlID = "btn_recharge_b_panel_recharge_img_menu_bg_panel_touch_Panel-DefaultMainLayer_Layer1_MainScene_Game",
-											UUID = "b4e62137_9e86_4080_ace6_d1a6faa0d569",
+											UUID = "be0f00b8_ee80_4a62_9522_cfb6b5c2aa7b",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
@@ -11225,7 +11962,7 @@ local t =
 										},
 										{
 											controlID = "btn_recharge_c_panel_recharge_img_menu_bg_panel_touch_Panel-DefaultMainLayer_Layer1_MainScene_Game",
-											UUID = "170c41a2_ba2c_47d4_9c90_5a9eb9203d95",
+											UUID = "c96c5678_3e11_4f04_a2ea_d25b3542389b",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
@@ -14232,7 +14969,7 @@ local t =
 						},
 						position = 
 						{
-							x=460,
+							x=467,
 							y=407,
 						},
 						rotate = 0,
@@ -14264,7 +15001,7 @@ local t =
 						},
 						position = 
 						{
-							x=460,
+							x=467,
 							y=407,
 						},
 						rotate = 0,
@@ -14296,7 +15033,7 @@ local t =
 						},
 						position = 
 						{
-							x=460,
+							x=467,
 							y=407,
 						},
 						rotate = 0,
@@ -16631,6 +17368,7 @@ local t =
 		{
 			"ui/mainLayer/new_ui/bg_nightfall.png",
 			"dating/icon/banshenxiang_shixiang.png",
+			"ui/mainLayer/new_ui_1/camera_logo.png",
 			"ui/mainLayer/new_ui_1/top_bar_bg.png",
 			"ui/mainLayer/new_ui_1/ui_008.png",
 			"ui/playerInfo/avatar/TXBK_moren_0.png",
@@ -16644,7 +17382,6 @@ local t =
 			"ui/common/news_small.png",
 			"ui/mainLayer/new_ui/ui_002.png",
 			"ui/003.png",
-			"ui/mainLayer/new_ui_1/camera_logo.png",
 			"ui/mainLayer/new_ui_1/btn_setting.png",
 			"ui/mainLayer/new_ui/ui_004.png",
 			"ui/newCity/build/9.png",
@@ -16675,10 +17412,12 @@ local t =
 			"ui/mainLayer/new_ui/btn_guoqing.png",
 			"ui/mainLayer/new_ui/activity_tab_01.png",
 			"ui/mainLayer/new_ui/activity_tab_02.png",
+			"ui/mainLayer/ad_btn.png",
 			"ui/mainLayer/new_ui/a2.png",
 			"ui/mainLayer/new_ui_1/btn_mail.png",
 			"ui/mainui/mail_logo.png",
 			"ui/mainLayer/new_ui_1/btn_mailnew.png",
+			"ui/mail/special_mail/img_bubble.png",
 			"ui/mainLayer3/c12.png",
 			"ui/mainLayer3/c13.png",
 			"ui/mainLayer3/35.png",
@@ -16689,6 +17428,7 @@ local t =
 			"ui/mainLayer/new_ui_1/btn_contactnew.png",
 			"ui/mainLayer/new_ui/a5.png",
 			"ui/mainLayer/new_ui/a6.png",
+			"ui/mainLayer/new_ui_4/rukou.png",
 			"ui/mainLayer/c2.png",
 			"ui/mainLayer/L1.png",
 			"ui/mainLayer/L3.png",
@@ -16710,6 +17450,7 @@ local t =
 			"ui/summon/024.png",
 			"ui/summon/elf_contract/033.png",
 			"ui/summon/elf_contract/034.png",
+			"ui/001.png",
 			"ui/mainLayer/new_ui_1/btn_phone.png",
 			"ui/mainLayer/new_ui_1/btn_phonenew.png",
 			"ui/mainLayer/new_ui_1/btn_store.png",
@@ -16720,7 +17461,9 @@ local t =
 			"ui/mainLayer/new_ui_1/btn_chat.png",
 			"ui/mainLayer/new_ui/redpack_tips_bg.png",
 			"ui/league/ui_10.png",
-			"ui/005.png",
+			"ui/mainLayer/a004.png",
+			"ui/mainLayer/a002.png",
+			"ui/mainLayer/a001.png",
 			"ui/mainui/camera_logo.png",
 			"ui/mainLayer/new_ui_1/res_bg.png",
 			"icon/system/001.png",
@@ -16747,18 +17490,20 @@ local t =
 			"ui/mainLayer/new_ui/btn_assist.png",
 			"ui/mainLayer/new_ui/btn_back.png",
 			"ui/mainLayer/new_ui/btn_monthcard.png",
-			"ui/simulation_trial5/icon2.png",
+			"ui/mainLayer/new_ui_1/btn_tzr.png",
+			"ui/mainLayer/new_ui_1/btn_tzrnew.png",
 			"ui/mainLayer3/c1005.png",
 			"ui/mainLayer/new_ui/btn_newPlayer.png",
 			"ui/task/01/4.png",
 			"ui/mainLayer/new_ui_1/003.png",
 			"ui/mainLayer/new_ui_1/004.png",
-			"ui/mainLayer/new_ui_1/btn_preview.png",
+			"ui/preview/main_btn.png",
 			"ui/mainLayer/new_ui_1/btn_back.png",
 			"ui/mainLayer/new_ui_1/btn_update.png",
 			"ui/mainLayer/new_ui_1/btn_survey.png",
 			"ui/mainLayer/new_ui_1/9small.png",
 			"ui/mainLayer/new_ui_1/btn_zhuifan.png",
+			"ui/mainLayer/new_ui_1/btn_phone_small.png",
 			"ui/mainLayer/new_ui/btn_friendHelp.png",
 			"ui/mainLayer/new_ui/ai_tip/001.png",
 			"ui/mainLayer/new_ui/ai_tip/002.png",

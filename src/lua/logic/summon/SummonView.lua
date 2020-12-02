@@ -239,7 +239,6 @@ function SummonView:updateNoobReward()
 end
 
 function SummonView:updateSelectInfo()
-
     local summon = self.currentSummon_
     self.viewSelectSummon_ = summon
     local summonCfg = SummonDataMgr:getSummonCfg(summon[1].id)
@@ -268,6 +267,7 @@ function SummonView:updateSelectInfo()
     self.panel_cost_2:getChildByName("Image_cloth_icon"):setTexture(GoodsDataMgr:getItemCfg(566057).icon)
     self.panel_cost_2:getChildByName("Label_cur"):setTextById(800007, GoodsDataMgr:getItemCount(566057))
     self.panel_cost_2:getChildByName("Label_have"):setTextById(1200001, TextDataMgr:getText(GoodsDataMgr:getItemCfg(566057).nameTextId))
+    self.panel_cost_2:getChildByName("Label_have"):setFontSize(18)
 
 
     self.Button_goto:setVisible(false) ---英文版屏蔽高级时装跳转
@@ -385,6 +385,7 @@ function SummonView:updateSelectInfo()
             self.Image_fistIcon:setTexture(firstCostCfg.icon)
             self.Label_fistCur:setTextById(800007, GoodsDataMgr:getItemCount(firstCostId))
             self.Label_fistHave:setTextById(1200001, TextDataMgr:getText(firstCostCfg.nameTextId))
+            self.Label_fistHave:setFontSize(20)
         end
         self.firstCostItemId_ = firstCostId
     end
@@ -411,7 +412,7 @@ function SummonView:updateSelectInfo()
     or summonCfg.summonType == EC_SummonType.CLOTHESE_1 or summonCfg.summonType == EC_SummonType.CLOTHESE_2 then
         if summonInfo then
             local startShow = TFDate(summonInfo.startShow + GV_UTC_TIME_ZONE * 3600):fmt("%Y.%m.%d")
-            local endShow = TFDate(summonInfo.endShow+ GV_UTC_TIME_ZONE * 3600):fmt("%Y.%m.%d %H:%M")
+            local endShow = TFDate(summonInfo.endShow+ GV_UTC_TIME_ZONE * 3600):fmt("%Y.%m.%d ")
             self.Label_tips:setText(TextDataMgr:getText( 14300100, startShow, endShow)..GV_UTC_TIME_STRING)
         end
     end
@@ -420,7 +421,7 @@ function SummonView:updateSelectInfo()
     if summonCfg.summonType == EC_SummonType.CLOTHESE then
        if summonInfo then
             local startShow = TFDate(summonInfo.startShow + GV_UTC_TIME_ZONE * 3600):fmt("%Y.%m.%d")
-            local endShow = TFDate(summonInfo.endShow+ GV_UTC_TIME_ZONE * 3600):fmt("%Y.%m.%d %H:%M")
+            local endShow = TFDate(summonInfo.endShow+ GV_UTC_TIME_ZONE * 3600):fmt("%Y.%m.%d ")
             self.Label_tips:setText(TextDataMgr:getText( 14300100, startShow, endShow)..GV_UTC_TIME_STRING)
         end
     end
@@ -536,7 +537,7 @@ function SummonView:updateSelectInfo()
         local tabData = self.hotSpotData_[self.selectHotTabIndex_]
         local timestamp = SummonDataMgr:getHotSummonEndTime(tabData.loopType)
         local date = TFDate(timestamp + GV_UTC_TIME_ZONE * 3600)
-        local timeStr = date:fmt("%Y-%m-%d %H:%M:%S")
+        local timeStr = date:fmt("%Y-%m-%d ")
         self.Label_tips:setTextById(1200070, timeStr..GV_UTC_TIME_STRING)
         local remainCount = SummonDataMgr:getHotSummonRemainCount(tabData.loopType)
         self.Label_hotCount:setText(remainCount)
@@ -836,7 +837,7 @@ function SummonView:registerEvents()
     end)
 
     self.Image_ownIcon:onClick(function()
-            Utils:showInfo(self.costItemId_, nil, true)
+        Utils:showInfo(self.costItemId_, nil, true)
     end)
 
     self.Button_award:onClick(function()
@@ -1069,6 +1070,10 @@ function SummonView:onRecvNewGuideSelect()
 end
 
 function SummonView:onLimitHeroEvent()
+    local currentScene = Public:currentScene()
+    if currentScene and currentScene:getTopLayer() and currentScene:getTopLayer().__cname ~= "SummonView" then
+        return
+    end
     local summon = self.currentSummon_
     local summonCfg = SummonDataMgr:getSummonCfg(summon[1].id)
     local levelCid = summonCfg.dungeonId1

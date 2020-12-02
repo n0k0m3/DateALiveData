@@ -44,6 +44,16 @@ function SummonMainView:refreshView()
         remainTime = math.max(contractInfo.summonInfo.endTime - ServerDataMgr:getServerTime())
     end
     self.Image_upTips:setVisible(isOpen or remainTime > 0)
+
+    if not self.Image_upTips:isVisible() then
+                    local summon = SummonDataMgr:getSummon()
+                    for k ,v in pairs(summon) do
+                        local summonCfg = SummonDataMgr:getSummonCfg(v[1].id)
+                        if summonCfg.up then
+                            self.Image_upTips:setVisible(summonCfg.up)
+                        end
+                    end
+                end
 end
 
 function SummonMainView:onShow()

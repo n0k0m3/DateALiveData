@@ -489,7 +489,23 @@ function AlertManager:hideInVisibleLayer( )
             if idx >= topIndex and tlayer.isShow then
                 table.insert(showList, tlayer) 
             else
-                if tlayer.__cname ~= "BattleResultView" and  tlayer.__cname ~= "OverduePromptView" and  tlayer.__cname ~= "LeagueSendRedPacketView" and tlayer.__cname~="RankNoticeView" then
+                --TODO  解决弹出弹窗下列弹窗被隐藏bug
+                local removeShowName = {
+                    "BattleResultView",
+                    "OverduePromptView",
+                    "RankNoticeView",
+                    "LeagueSendRedPacketView",
+                    "DetectiveMainView",
+
+                }
+                local isInsert = true
+                for k , v in pairs(removeShowName) do
+                    if tlayer.__cname == v then
+                        isInsert = false
+                        break
+                    end
+                end
+                if isInsert then
                     table.insert(hideList, tlayer) 
                 end
             end
@@ -540,9 +556,6 @@ end
 
 -- 显示UI（弹出框）
 function AlertManager:showLayer(layer)
-    -- if layer.isAcc ~= true then
-    --     TFDeviceInfo:setOpenAccelerometer(false)
-    -- end
     if not layer.isShow then
         if not layer.toScene then
             local currentScene = Public:currentScene();

@@ -6900,7 +6900,7 @@ return {
         groupId = 30,
         order = 5,
         showUpTips = false,
-        noobProbability = 260,
+        noobProbability = 300,
         items = {
         },
         up = false,
@@ -6916,7 +6916,7 @@ return {
         groupId = 30,
         order = 7,
         showUpTips = false,
-        noobProbability = 1700,
+        noobProbability = 2000,
         items = {
         },
         up = false,
@@ -7368,7 +7368,7 @@ return {
         items = {
         },
         up = false,
-        name = "1221011",
+        name = "1221021",
         adIcon = "",
         id = 463,
         summonType = 1,
@@ -7448,7 +7448,7 @@ return {
         items = {
         },
         up = false,
-        name = "1222010",
+        name = "1222017",
         adIcon = "",
         id = 468,
         summonType = 1,

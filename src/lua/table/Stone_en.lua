@@ -3101,7 +3101,7 @@ return {
         },
         id = 1318711,
         heroId = 110209,
-        skillName = "Methratton",
+        skillName = "Metatron",
         des = "1130501",
     },
     [1301321] = {
@@ -13812,7 +13812,7 @@ return {
         },
         id = 1418711,
         heroId = 110209,
-        skillName = "Methratton",
+        skillName = "Metatron",
         des = "1140213",
     },
     [1418641] = {
@@ -14115,7 +14115,7 @@ return {
         },
         id = 1418611,
         heroId = 110209,
-        skillName = "Methratton",
+        skillName = "Metatron",
         des = "1140209",
     },
     [1418541] = {
@@ -14275,7 +14275,7 @@ return {
         },
         id = 1418511,
         heroId = 110209,
-        skillName = "Methratton",
+        skillName = "Metatron",
         des = "1140205",
     },
     [1322131] = {
@@ -17297,7 +17297,7 @@ return {
         },
         id = 1318111,
         heroId = 110209,
-        skillName = "Methratton",
+        skillName = "Metatron",
         des = "1130477",
     },
     [1414511] = {
@@ -21165,7 +21165,7 @@ return {
         },
         id = 1318211,
         heroId = 110209,
-        skillName = "Methratton",
+        skillName = "Metatron",
         des = "1130481",
     },
     [1408621] = {
@@ -24977,7 +24977,7 @@ return {
         },
         id = 1318311,
         heroId = 110209,
-        skillName = "Methratton",
+        skillName = "Metatron",
         des = "1130485",
     },
     [1404511] = {
@@ -28927,7 +28927,7 @@ return {
         },
         id = 1318411,
         heroId = 110209,
-        skillName = "Methratton",
+        skillName = "Metatron",
         des = "1130489",
     },
     [1321622] = {
@@ -32946,7 +32946,7 @@ return {
         },
         id = 1318511,
         heroId = 110209,
-        skillName = "Methratton",
+        skillName = "Metatron",
         des = "1130493",
     },
     [1301121] = {
@@ -37133,7 +37133,7 @@ return {
         },
         id = 1318611,
         heroId = 110209,
-        skillName = "Methratton",
+        skillName = "Metatron",
         des = "1130497",
     },
     [1301221] = {

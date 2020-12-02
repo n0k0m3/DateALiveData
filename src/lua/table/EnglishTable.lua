@@ -135,4 +135,24 @@ return {
         id = 34,
         table_en = "Role_en",
     },
+    [35] = {
+        id = 35,
+        table_en = "DetectiveArchives_en",
+    },
+    [36] = {
+        id = 36,
+        table_en = "DetectiveLog_en",
+    },
+    [37] = {
+        id = 37,
+        table_en = "DetectiveMap_en",
+    },
+    [38] = {
+        id = 38,
+        table_en = "DetectiveMgr_en",
+    },
+    [39] = {
+        id = 39,
+        table_en = "DetectiveScript_en",
+    },
 }
