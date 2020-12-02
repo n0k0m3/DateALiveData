@@ -105,6 +105,11 @@ function GameGuide:skipGuide(isNewGuid)
 	self:clearGuide()
 end
 
+function GameGuide:skipTeamGuideGroup()
+	GuideDataMgr:skipTeamGuideGroup()
+	self:clearGuide()
+end
+
 function GameGuide:checkGuideEnd(uiNameId)
 	if not self.ui then
 		return

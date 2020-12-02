@@ -932,5 +932,10 @@ function DetectiveMainView:registerEvents()
     end)
 end
 
+function DetectiveMainView:specialKeyBackLogic( )
+    self:exitGame()
+    return true
+end
+
 
 return DetectiveMainView

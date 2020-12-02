@@ -493,6 +493,11 @@ function GuideDataMgr:skipNewGuide()
 	self:skipGuide(GuideDataMgr:isInNewGuide())
 end
 
+function GuideDataMgr:skipTeamGuideGroup( )
+    local maxId = self:getCurGroupMaxId()
+    self.__step = maxId
+	self:saveStep()
+end
 
 function GuideDataMgr:saveStep(battleState)
 	local msg = {

@@ -1,4 +1,3 @@
-
 local Utils = Utils or {}
 
 -- scrollView -> TableView
@@ -10,6 +9,7 @@ function Utils:scrollView2TableView(scrollView)
         :ScaleX(scrollView:ScaleX())
         :ScaleY(scrollView:ScaleY())
         :AddTo(scrollView:getParent())
+    tableView:setZOrder(scrollView:getZOrder())
     tableView:setTableViewSize(scrollView:Size())
     tableView:setDirection(scrollView:getDirection())
     tableView:setVerticalFillOrder(TFTableView.TFTabViewFILLTOPDOWN)
@@ -30,6 +30,45 @@ function Utils:showNoticeNode( parent, content )
         end
         layer:addContent(content)
         return layer
+end
+
+function Utils:showAnitAddictionLayer(lastTime, isVisible)
+    if not lastTime then
+        return
+    end
+
+    -- 剩余时间 不超过配置不显示 （第一个为最大时间）
+    local maxSec = Utils:getKVP(20003, "antiwarn")[1] * 60
+    if lastTime > maxSec then
+        return
+    end
+    
+    local node = me.Director:getNotificationNode()
+    local layer
+    if not node:getChildByName("AnitAddictionLayer") then
+        layer = requireNew("lua.logic.common.AntiAddictionlayer"):new(lastTime, node:getScale(), isVisible)
+        layer:setName("AnitAddictionLayer")
+        node:addChild(layer)
+    else
+        layer = node:getChildByName("AnitAddictionLayer")
+        layer:setTime(lastTime)
+    end
+end
+
+function Utils:setVisibleAnitAddictionLayer(isVisible)
+    local node = me.Director:getNotificationNode()
+    local layer = node:getChildByName("AnitAddictionLayer")
+    if layer then
+        layer:setLayerVisilbe(isVisible)
+    end
+end
+
+function Utils:closeAnitAddictionLayer()
+    local node = me.Director:getNotificationNode()
+    local layer = node:getChildByName("AnitAddictionLayer")
+    if layer then
+        layer:removerlayer()
+    end
 end
 
 -- pram = {
@@ -123,8 +162,9 @@ function Utils:blinkRepeatAni(node, duration)
     node:runAction(action)
 end
 
-function Utils:showInfo(cid, id, isShowAccess)
+function Utils:showInfo(cid, id, isShowAccess, isNotShowTry_)
     isShowAccess = tobool(isShowAccess)
+    isNotShowTry_ = tobool(isNotShowTry_)
     local itemCfg = GoodsDataMgr:getItemCfg(cid)
 
     
@@ -150,7 +190,7 @@ function Utils:showInfo(cid, id, isShowAccess)
     elseif itemCfg.superType == EC_ResourceType.BAOSHI then
         Utils:openView("fairyNew.BaoshiDetailView", {id = id or 0,cid = cid,heroId = itemCfg.heroId,pos = itemCfg.skillType,fromBag = true})
     elseif itemCfg.desTextId and itemCfg.desTextId ~= 0 then
-        local itemInfoView = requireNew("lua.logic.bag.ItemInfoView"):new(cid, id, isShowAccess)
+        local itemInfoView = requireNew("lua.logic.bag.ItemInfoView"):new(cid, id, isShowAccess, isNotShowTry_)
         AlertManager:addLayer(itemInfoView, AlertManager.BLOCK_AND_GRAY_CLOSE)
         AlertManager:show()
     end
@@ -176,7 +216,49 @@ function Utils:showAccess(itemCid)
     end
 end
 
-function Utils:showReward(rewardList,staticRewardList,hideCallBack)
+function Utils:showReward(rewardList,staticRewardList,hideCallBack,titleId)
+    staticRewardList = staticRewardList or {}
+    if not next(rewardList) and not next(staticRewardList) then
+        return
+    end
+
+    local cardList = {}
+    local isSkyCardCnt = 0
+    for i = #rewardList,1,-1 do
+        local v = rewardList[i]
+        local itemCfg = GoodsDataMgr:getItemCfg(v.id)
+        if itemCfg.superType == EC_ResourceType.SKYLADDER then
+            if itemCfg.subType == 1 then
+                isSkyCardCnt = isSkyCardCnt + 1
+                table.insert(cardList,{id = v.id,num = v.num})
+            else
+                local cardId = SkyLadderDataMgr:getCovertOrigalId(v.id)
+                if cardId then
+                    isSkyCardCnt = isSkyCardCnt + 1
+                    table.insert(cardList,{id = cardId,num = v.num})
+                end
+            end
+        end
+
+        if itemCfg.isHide then
+            table.remove(rewardList,i)
+        end
+    end
+
+    if table.count(rewardList) == 0 then return end
+
+    local isSkyLadderCardBag = isSkyCardCnt > 0
+
+    if not isSkyLadderCardBag then
+        local view = requireNew("lua.logic.bag.GetItemView"):new(rewardList,staticRewardList,hideCallBack,titleId)
+        AlertManager:addLayer(view)--,AlertManager.BLOCK_AND_GRAY_CLOSE)
+        AlertManager:show()
+    else
+        self:openView("skyLadder.SkyLadderCardPackageView",cardList)
+    end
+end
+
+function Utils:showRewardEx(rewardList,staticRewardList,hideCallBack,titleId)
     if not next(rewardList) and not next(staticRewardList) then
         return
     end
@@ -211,7 +293,7 @@ function Utils:showReward(rewardList,staticRewardList,hideCallBack)
     local isSkyLadderCardBag = isSkyCardCnt > 0
 
     if not isSkyLadderCardBag then
-        local view = requireNew("lua.logic.bag.GetItemView"):new(rewardList,staticRewardList,hideCallBack)
+        local view = requireNew("lua.logic.bag.ExGetItemView"):new(rewardList,staticRewardList,hideCallBack,titleId)
         AlertManager:addLayer(view)--,AlertManager.BLOCK_AND_GRAY_CLOSE)
         AlertManager:show()
     else
@@ -719,6 +801,13 @@ function Utils:createHeroModelByModelId(modelCid, scale)
     model:setScale(scale)
     model:setPosition(offsetPosition)
     return model
+end
+
+function Utils:getHeroModelImgSrc(heroId, _skinId)
+    local skinId = _skinId or HeroDataMgr:getCurSkin(heroId)
+    local skinInfo = TabDataMgr:getData("HeroSkin", skinId)
+    local modelInfo = TabDataMgr:getData("HeroModle",skinInfo.paint)
+    return modelInfo.images
 end
 
 function Utils:createHeroModel(heroId, heroImg, scale,_skinId,notShowParticle)
@@ -1273,18 +1362,21 @@ end
 -- showType: 1.主界面加载  2.约会 3.战斗
 local showDatas = {}
 function Utils:randomAD(showType)
-    if not showDatas[showType] then
-        showDatas[showType] = {}
-        local datas = TabDataMgr:getData("AdWeight")
-        local start = 0
-        for i, data in pairs(datas) do
-            if data.showType == showType then
+    local servertime = ServerDataMgr and ServerDataMgr:getServerTime() or os.time();
+
+    showDatas[showType] = {}
+    local datas = TabDataMgr:getData("AdWeight")
+    local start = 0
+    for i, data in pairs(datas) do
+        if data.showType == showType then
+            if not (data.beginTime ~= 0 and data.endTime ~= 0 and (servertime < data.beginTime or servertime >= data.endTime)) then
                 data.section = data.probability + start
                 start = data.section
-                table.insert(showDatas[showType],data)
+                table.insert(showDatas[showType],data) 
             end
         end
     end
+
     local showData = showDatas[showType]
     if #showData > 0 then
         local maxValue = showData[#showData].section
@@ -1292,6 +1384,14 @@ function Utils:randomAD(showType)
         print("randomAD maxValue:"..maxValue.." ranValue:"..ranValue)
         for i, data in ipairs(showData) do
             if ranValue <= data.section then
+                if data.pseudoRandom then
+                    if Utils.lastLoadingPath ~= data.res then
+                        Utils.lastLoadingPath = data.res
+                        return data.res , data.descID
+                    end
+                end
+
+                Utils.lastLoadingPath = data.res
                 -- print(showType , ranValue ,data)
                 if TFFileUtil:existFile(data.res) then
                     return data.res ,data.descID
@@ -1446,17 +1546,17 @@ function Utils:onKeyBack()
     end
     
     if currentScene ~= nil and currentScene.onKeyBack then
-        if (GuideDataMgr and GuideDataMgr:isInNewGuide()) or (GuideDataMgr and GuideDataMgr:findCurTriggerGuideGroup()) then
-            if GameGuide:isInGuide() or GuideDataMgr:findCurTriggerGuideGroup() then
+        if (GuideDataMgr and GuideDataMgr:isInNewGuide()) --[[or (GuideDataMgr and GuideDataMgr:findCurTriggerGuideGroup())]] then
+            if GameGuide:isInGuide() --[[or GuideDataMgr:findCurTriggerGuideGroup()]] then
                 local topLayer = currentScene:getTopLayer()
                 if not topLayer or topLayer.__cname ~= "ConfirmBoxView" then
                     local view = Utils:openView("common.ConfirmBoxView")
                     view:setCallback(function()   
                         --指挥作战引导
-                        if (GuideDataMgr and GuideDataMgr:findCurTriggerGuideGroup()) then
-                            GameGuide:skipTeamGuideGroup()
-                            return
-                        end                                            
+                        -- if (GuideDataMgr and GuideDataMgr:findCurTriggerGuideGroup()) then
+                        --     GameGuide:skipTeamGuideGroup()
+                        --     return
+                        -- end                                            
                         GameGuide:skipNewGuide()
                     end)
                     view:setContent(TextDataMgr:getText(100000126))--"确定要跳过学前教育吗？")    
@@ -1712,8 +1812,12 @@ function Utils:createEffectByEffectId(effectId)
         effect:addChild(la)
         node:addChild(effect)
         if aniName then
-            effect:play(aniName, true)
-        end
+			if effectData["lag"] > 0 then
+				node:runAction(Sequence:create({DelayTime:create(effectData["lag"]),CallFunc:create(function() effect:play(aniName, effectData["isLoop"]) end)}))
+			else
+				effect:play(aniName, effectData["isLoop"])
+			end
+        end		
     end
 
     if effectData.particle and effectData.particle ~= "" then
@@ -1725,12 +1829,25 @@ function Utils:createEffectByEffectId(effectId)
         end
     end
 
-    if effectData.speBg and effectData.speBg ~= "" then
+	--这不是背景图，而是前景图
+	if effectData.speBg and effectData.speBg ~= "" then
         local effectImage = TFImage:create(effectData.speBg)
         node:addChild(effectImage)
     end
 
-    return node
+	if effectData["scales"] > 0 then
+		node:setScale(effectData["scales"])
+	end
+	if effectData["Zorder"] then
+		node:setZOrder(effectData["Zorder"])
+	end
+	if effectData["offset"] then			
+		local x = (effectData["offset"]["x"] or 0)
+		local y = (effectData["offset"]["y"] or 0)
+		node:setPosition(ccp(x, y))
+	end
+
+    return node, effectData
 end
 
 function Utils:getTimeCountDownString(time,stringType)
@@ -1754,7 +1871,7 @@ function Utils:getTimeCountDownString(time,stringType)
 
 end
 
-function Utils:getActivityDateString(startTime, endTime, stringType)
+function Utils:getActivityDateString(startTime, endTime, stringType,_bool)
     local startDate = self:getUTCDate(startTime ,GV_UTC_TIME_ZONE)
     local startDateStr = startDate:fmt("%Y.%m.%d ")
     local endDate = self:getUTCDate(endTime ,GV_UTC_TIME_ZONE)
@@ -1768,10 +1885,22 @@ function Utils:getActivityDateString(startTime, endTime, stringType)
     --修改显示活动时间
     --local text1 = TextDataMgr:getText(1710002)
 
+    if _bool then
+        text1 = ""
+    end
     local text2 = TextDataMgr:getText(800041, startDateStr, endDateStr)
 
     return --[[text1..]]text2..GV_UTC_TIME_STRING
+end
 
+function Utils:getDateString(time, stringType)
+    local date = Utils:getLocalDate(time)
+    local dateStr = date:fmt("%Y.%m.%d")
+    if stringType == 1 then
+        dateStr = date:fmt("%m.%d")
+    end
+
+    return dateStr
 end
 
 function Utils:getLocalSettingValue(key)
@@ -2007,7 +2136,7 @@ function Utils:MultiLanguageStringDeal(content)
     else
         local bodyStr = string.split(mailInfo.body , ',')
         if #bodyStr > 1 then
-            if not tonumber(bodyStr[i]) then return content end
+            if not tonumber(bodyStr[1]) then return content end
 
             mailInfo.isStrId = true
             local  symbol  = {}
@@ -2035,11 +2164,62 @@ function Utils:MultiLanguageStringDeal(content)
             end
             mailInfo.body = TextDataMgr:getText(bodyStr[1] , unpack(symbolInfo))
         else
-            mailInfo.body = tonumber(mailInfo.body) or content
+            if tonumber(mailInfo.body) then
+                mailInfo.body = TextDataMgr:getText(tonumber(mailInfo.body))
+            else
+                mailInfo.body = content
+            end
+            
         end
         
     end
     
     return mailInfo.body
+end
+
+
+-- 将数值转成3位一个带逗号
+function Utils:converNumWithComma(num)
+    assert(type(num) == "number", "传入值非number类型！")
+    local txtNum = ""
+    local tmpNum = clone(num)
+    local _bool = false
+    while tmpNum >= 1000 do
+        local t = string.format("%03d",tmpNum % 1000)
+        tmpNum = math.floor(tmpNum/1000)
+        if txtNum == "" then
+            txtNum = t
+        else
+            txtNum = t ..","..txtNum
+        end
+        _bool = true
+    end
+    if _bool then
+        if tmpNum ~= 0 then
+            txtNum = tmpNum..","..txtNum
+        end
+    else
+        txtNum = tmpNum
+    end
+    return txtNum
+end
+
+function Utils:checkRedPointStatus( redFunctionId )
+    -- body
+    TFDirector:send(c2s.PLAYER_REQ_RED_POINT,{redFunctionId})
+end
+
+function Utils:getRedPointStatusByServer( redFunctionId )
+    return MainPlayer:getRedPointStatusByServer( redFunctionId )
+end
+
+function Utils:checkInWorldRoomScene(roomType)
+    -- body
+    local currentScene = Public:currentScene()
+
+    if currentScene.__cname == WorldRoomDataMgr:getCurWorldSceneName(roomType) then
+        return true
+    end
+    return false
 end
 return Utils
