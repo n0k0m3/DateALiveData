@@ -173,7 +173,6 @@ local t =
 								PercentX = 50,
 								PercentY = 50,
 							},
-							visible = "False",
 							width = "2",
 							ZOrder = "1",
 						},
@@ -216,7 +215,7 @@ local t =
 								
 								{
 									controlID = "PageView_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-									UUID = "16550f5a_1e64_4e4f_bd4b_47ca4a4c8343",
+									UUID = "ca1f846e_6e50_47e1_93f0_8038b48c71dc",
 									anchorPoint = "False",
 									anchorPointX = "0",
 									anchorPointY = "0",
@@ -254,7 +253,7 @@ local t =
 								},
 								{
 									controlID = "Image_left_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-									UUID = "b694f719_7aa4_4bf0_bbbc_b7562671d1d6",
+									UUID = "d2551922_183c_43ed_8d40_777aa7201108",
 									anchorPoint = "False",
 									anchorPointX = "1",
 									anchorPointY = "0.5",
@@ -280,7 +279,7 @@ local t =
 								},
 								{
 									controlID = "Image_right_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-									UUID = "1f45bc91_b7e1_444c_a149_313f1602153d",
+									UUID = "7ae76fb3_867b_4624_b850_0379a23adff9",
 									anchorPoint = "False",
 									anchorPointX = "0",
 									anchorPointY = "0.5",
@@ -306,7 +305,7 @@ local t =
 								},
 								{
 									controlID = "Panel_tuzhi_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-									UUID = "510015bd_9e6c_457b_bf06_147aaf0d4f56",
+									UUID = "44452586_4473_4ad7_afbb_a68d79a58c59",
 									anchorPoint = "False",
 									anchorPointX = "0",
 									anchorPointY = "0",
@@ -343,7 +342,7 @@ local t =
 										
 										{
 											controlID = "Panel_tuzhi_name_Panel_tuzhi_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-											UUID = "6cb6b763_96dd_4863_9d3a_f0c3b56ad759",
+											UUID = "41cd0443_c1aa_4a24_92a1_113ea728562a",
 											anchorPoint = "False",
 											anchorPointX = "0",
 											anchorPointY = "0",
@@ -382,7 +381,7 @@ local t =
 												
 												{
 													controlID = "Label_name_Panel_tuzhi_name_Panel_tuzhi_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-													UUID = "0cc19727_cbcb_45f9_8833_ee079ed05313",
+													UUID = "4b898675_0c7a_448b_9c71_3976fa985b22",
 													anchorPoint = "False",
 													anchorPointX = "0",
 													anchorPointY = "0.5",
@@ -399,14 +398,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "20",
+													fontSize = "24",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "24",
+													height = "29",
 													ignoreSize = "True",
 													name = "Label_name",
 													nTextAlign = "1",
@@ -421,14 +420,14 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = 8,
-														PositionY = 34,
+														PositionY = 29,
 													},
-													width = "168",
+													width = "201",
 													ZOrder = "1",
 												},
 												{
 													controlID = "Label_EnglishName_Panel_tuzhi_name_Panel_tuzhi_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-													UUID = "624bbeeb_a57b_4957_ba83_0b08ffbf3630",
+													UUID = "40f1811f_9dd1_4949_938c_252d6e2e5d9b",
 													anchorPoint = "False",
 													anchorPointX = "0",
 													anchorPointY = "0.5",
@@ -461,7 +460,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "Choose the drawing",
+													text = "Select Blueprint",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -470,12 +469,12 @@ local t =
 														PositionY = 17,
 													},
 													visible = "False",
-													width = "101",
+													width = "77",
 													ZOrder = "1",
 												},
 												{
 													controlID = "Image_info_line_Panel_tuzhi_name_Panel_tuzhi_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-													UUID = "d98e6fd5_4da9_4205_9707_ffecdd22c54b",
+													UUID = "87ebff37_de31_4c66_a6b4_6a3ab8725b56",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -506,7 +505,7 @@ local t =
 										},
 										{
 											controlID = "Panel_scroll_bg_Panel_tuzhi_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-											UUID = "89e75ff0_5023_4db9_92fe_1233ce62153e",
+											UUID = "f79967aa_47bb_4acf_9e2c_b6c3d6f47a62",
 											anchorPoint = "False",
 											anchorPointX = "0",
 											anchorPointY = "0",
@@ -542,7 +541,7 @@ local t =
 										},
 										{
 											controlID = "ScrollView_tuzhi_Panel_tuzhi_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-											UUID = "8e1a2b88_a79a_4eb5_84dc_eefc1f820e88",
+											UUID = "6180adc2_09be_475e_8781_687ff844f4e5",
 											anchorPoint = "False",
 											anchorPointX = "0",
 											anchorPointY = "0",
@@ -582,7 +581,7 @@ local t =
 								},
 								{
 									controlID = "Panel_quality_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-									UUID = "09127d34_a3b0_40a0_b0db_5aea7644d174",
+									UUID = "67e00146_2e25_4c0f_99c4_1e7611ec278d",
 									anchorPoint = "False",
 									anchorPointX = "0",
 									anchorPointY = "0",
@@ -620,7 +619,7 @@ local t =
 										
 										{
 											controlID = "Image_quality_bg_Panel_quality_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-											UUID = "4390a4c5_1337_46a7_85a2_0a807040f6f3",
+											UUID = "cb1d37b9_60a6_4ee5_999b_99c72dc0812f",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
@@ -646,7 +645,7 @@ local t =
 										},
 										{
 											controlID = "Panel_quality_item_Panel_quality_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-											UUID = "5dea8b29_79db_408b_af92_c2924db9a757",
+											UUID = "57b20fa3_64aa_4db1_9dab_ccaa2951bc07",
 											anchorPoint = "False",
 											anchorPointX = "0",
 											anchorPointY = "0",
@@ -683,7 +682,7 @@ local t =
 												
 												{
 													controlID = "Image_quality1_Panel_quality_item_Panel_quality_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-													UUID = "db1e2263_680e_4f2b_8157_688f3a4491a4",
+													UUID = "e0c870fa_98a5_49d8_a84f_dd20d9a1e15d",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -711,7 +710,7 @@ local t =
 												},
 												{
 													controlID = "Image_quality2_Panel_quality_item_Panel_quality_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-													UUID = "20ffba4a_1fde_40e5_a7a9_92a9427040ef",
+													UUID = "c11c369a_eaa9_437e_8f8d_0cb749b0159c",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -739,7 +738,7 @@ local t =
 												},
 												{
 													controlID = "Image_quality3_Panel_quality_item_Panel_quality_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-													UUID = "fe1ce1ce_9944_482e_882c_8f9d7f700ef1",
+													UUID = "c3d2deac_58f5_4b6a_8605_3cfae0c34f23",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -767,7 +766,7 @@ local t =
 												},
 												{
 													controlID = "Image_quality4_Panel_quality_item_Panel_quality_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-													UUID = "80c4eef0_7a57_47cc_b2eb_2a0d5bab1456",
+													UUID = "d1105e01_35e1_4dd9_bc4e_f6f02d3d3210",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -795,7 +794,7 @@ local t =
 												},
 												{
 													controlID = "Image_quality5_Panel_quality_item_Panel_quality_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-													UUID = "09b3f39e_3e30_49db_8a73_65f2a23f849b",
+													UUID = "199ee66b_9106_4aa3_90f7_033155243156",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -823,7 +822,7 @@ local t =
 												},
 												{
 													controlID = "Image_quality6_Panel_quality_item_Panel_quality_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-													UUID = "734a7cbd_3898_4861_943e_0bbf6eb2904d",
+													UUID = "bf09148c_5b63_4391_83d9_c94212a21bd0",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -851,7 +850,7 @@ local t =
 												},
 												{
 													controlID = "Image_lock_Panel_quality_item_Panel_quality_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-													UUID = "5aa9f509_4deb_4dae_84cf_22a5781cc44f",
+													UUID = "6cb05477_7b06_41a0_88c5_062d0ddefb22",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -883,7 +882,7 @@ local t =
 								},
 								{
 									controlID = "button_left_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-									UUID = "47fcfd00_2433_4aef_9c79_c1a8d31244a1",
+									UUID = "a5016029_08c1_4299_ba2b_d107692246b2",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
@@ -917,7 +916,7 @@ local t =
 								},
 								{
 									controlID = "button_right_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-									UUID = "27dfd403_93d2_4f9e_a079_3c6e66dbc4d4",
+									UUID = "a1bb9b07_e0ad_4c5b_a15d_d1d5ce48d91c",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
@@ -952,7 +951,7 @@ local t =
 								},
 								{
 									controlID = "Label_tuzhi_desc_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-									UUID = "ad56406c_8e1c_47a4_a72b_cfcc51cd8498",
+									UUID = "df395d3d_6478_4109_8c9f_d95c02fca0e9",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
@@ -969,7 +968,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "16",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -985,7 +984,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "夜刀神十香 绝杀技能",
+									text = "Tohka Yatogami Ultimate Skill",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -993,12 +992,12 @@ local t =
 										PositionX = 410,
 										PositionY = 44,
 									},
-									width = "338",
+									width = "343",
 									ZOrder = "1",
 								},
 								{
 									controlID = "Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-									UUID = "9c0e404a_e921_4fa5_a482_d4afe7987f50",
+									UUID = "85e409e6_8fcd_4fae_abd5_284e973a0082",
 									anchorPoint = "False",
 									anchorPointX = "0",
 									anchorPointY = "0",
@@ -1036,7 +1035,7 @@ local t =
 										
 										{
 											controlID = "Image_pos_bg_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-											UUID = "104a6c2f_fe87_4536_aa9b_acec6567326d",
+											UUID = "977d1dd1_9dbe_4ae2_a36e_61d64339485a",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
@@ -1062,7 +1061,7 @@ local t =
 										},
 										{
 											controlID = "Image_tuzhi_icon_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-											UUID = "5d671a2f_4a3f_47d7_8847_6ec1ae23cfe3",
+											UUID = "ef8b16c8_83bd_4775_b497_d63951b26efe",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
@@ -1088,7 +1087,7 @@ local t =
 										},
 										{
 											controlID = "Panel_get_gem_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-											UUID = "8867c1ee_33de_46fd_a52e_c47cf301db6c",
+											UUID = "89f1f2bd_eefd_4fa3_8a35_b7b7e76b980b",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
@@ -1126,7 +1125,7 @@ local t =
 												
 												{
 													controlID = "Image_bg_Panel_get_gem_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-													UUID = "84f094f9_424f_48a2_846b_df24b6671889",
+													UUID = "f37bd60a_7aec_4f58_9388_7e6cac55a907",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -1151,7 +1150,7 @@ local t =
 												},
 												{
 													controlID = "Image_quality_bg_Panel_get_gem_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-													UUID = "a191bdac_f1fc_4d10_b79a_fc3e46ac9516",
+													UUID = "99020758_364c_4ab4_8fe7_bb78cf0c63e5",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -1177,7 +1176,7 @@ local t =
 												},
 												{
 													controlID = "Image_quality_Panel_get_gem_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-													UUID = "18618ee3_f5cc_4507_b354_181046945b2c",
+													UUID = "070dd4f0_bc79_48d7_af2f_8383f832ad04",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -1206,7 +1205,7 @@ local t =
 												},
 												{
 													controlID = "Image_icon_Panel_get_gem_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-													UUID = "377bb9b9_6a78_41da_b18f_a53f3e8a5321",
+													UUID = "dd98cc42_aee6_4ab0_a538_8eea74c7ba7c",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -1233,7 +1232,7 @@ local t =
 										},
 										{
 											controlID = "Panel_pos_1_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-											UUID = "47272cc3_acdb_485c_b8a3_917c3553c07c",
+											UUID = "5953eb50_26db_409e_9975_a326cbb4efff",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
@@ -1271,7 +1270,7 @@ local t =
 												
 												{
 													controlID = "Image_add_Panel_pos_1_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-													UUID = "51f96511_1578_49f0_b8cf_0ba9b262ca19",
+													UUID = "0496c675_7f31_4ba3_96d6_c56b4cfbf8dd",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -1296,7 +1295,7 @@ local t =
 												},
 												{
 													controlID = "Image_bg_Panel_pos_1_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-													UUID = "d7d1e6b2_b046_4300_8d7b_2299452aa07f",
+													UUID = "d3f9c0dc_d0f6_4cff_9576_f959fca49979",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -1321,7 +1320,7 @@ local t =
 												},
 												{
 													controlID = "Image_quality_bg_Panel_pos_1_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-													UUID = "54643bf4_f8fb_4e9e_8193_e040b7b95701",
+													UUID = "671d386a_cdf4_4b95_b456_06014d01eb1d",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -1347,7 +1346,7 @@ local t =
 												},
 												{
 													controlID = "Image_quality_Panel_pos_1_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-													UUID = "c3c03910_457c_426e_9327_2b79bc775459",
+													UUID = "3829f0e7_38bf_44ca_9469_ae5d9c054c1b",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -1376,7 +1375,7 @@ local t =
 												},
 												{
 													controlID = "Image_icon_Panel_pos_1_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-													UUID = "c58c8b9f_623e_4829_9c4c_c0194633c9f0",
+													UUID = "f268a6c3_db20_4292_9992_e991d4e4d777",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -1403,7 +1402,7 @@ local t =
 										},
 										{
 											controlID = "Panel_pos_2_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-											UUID = "67f536c3_2de8_4d15_a1a8_a2b3268f6b12",
+											UUID = "10e443c1_f757_40c6_9b6c_84faa1e7aa7a",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
@@ -1441,7 +1440,7 @@ local t =
 												
 												{
 													controlID = "Image_add_Panel_pos_2_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-													UUID = "1f7abd9d_7353_48c2_be3a_e55399ce2480",
+													UUID = "dae36fa8_8569_4339_bb9b_6617c9e70a26",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -1466,7 +1465,7 @@ local t =
 												},
 												{
 													controlID = "Image_bg_Panel_pos_2_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-													UUID = "eb1d49bc_ca3a_4cc4_83a7_d91a1514116c",
+													UUID = "05b38f68_6355_4033_95fc_526a2b908b69",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -1491,7 +1490,7 @@ local t =
 												},
 												{
 													controlID = "Image_quality_bg_Panel_pos_2_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-													UUID = "c513cd9b_f846_4817_bc7f_d57f71e78b95",
+													UUID = "aa2c548f_0cb6_4ce7_870f_0b6781a64970",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -1517,7 +1516,7 @@ local t =
 												},
 												{
 													controlID = "Image_quality_Panel_pos_2_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-													UUID = "ed08cb87_67df_4145_948f_39e6591f1c5a",
+													UUID = "95f010b4_dbeb_4352_8eca_8dff5e18076b",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -1546,7 +1545,7 @@ local t =
 												},
 												{
 													controlID = "Image_icon_Panel_pos_2_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-													UUID = "30e988c6_0df8_4627_94ca_66ea7431a9e4",
+													UUID = "6db75cb2_e555_4953_a4d1_e1a1cf1798d3",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -1573,7 +1572,7 @@ local t =
 										},
 										{
 											controlID = "Panel_pos_3_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-											UUID = "5ab182fa_4a70_4a57_99c4_e8f547a7df6f",
+											UUID = "640d52a4_7c3e_4ffa_995e_10ccf7493e41",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
@@ -1611,7 +1610,7 @@ local t =
 												
 												{
 													controlID = "Image_add_Panel_pos_3_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-													UUID = "0b5e3f37_f66c_4256_8333_95dc905ebec3",
+													UUID = "d4a1d05d_efca_4ece_9595_d1641e3853e0",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -1636,7 +1635,7 @@ local t =
 												},
 												{
 													controlID = "Image_bg_Panel_pos_3_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-													UUID = "487be698_2e67_4ee5_a07e_5d729214e8f3",
+													UUID = "dd1d96f5_01a5_4f6e_98f5_55ff22d8d176",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -1661,7 +1660,7 @@ local t =
 												},
 												{
 													controlID = "Image_quality_bg_Panel_pos_3_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-													UUID = "b2a2939b_b603_4684_81dd_763f93b1bd09",
+													UUID = "4d74e416_9e5b_43ee_b8ab_204794bc276d",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -1687,7 +1686,7 @@ local t =
 												},
 												{
 													controlID = "Image_quality_Panel_pos_3_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-													UUID = "21a99261_6095_4122_ac84_43555093d668",
+													UUID = "39180d76_d46a_4210_a5f0_d97d622c387d",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -1716,7 +1715,7 @@ local t =
 												},
 												{
 													controlID = "Image_icon_Panel_pos_3_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-													UUID = "cad0f0cb_0a07_4fe7_9a33_3d53431e84ef",
+													UUID = "fd199039_68b9_4a53_9ef3_6b0044b6efbf",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -1743,7 +1742,7 @@ local t =
 										},
 										{
 											controlID = "Panel_pos_4_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-											UUID = "4aaaec52_bf03_4227_a494_4c9b5e026314",
+											UUID = "03782353_6bce_478e_83c9_ed0d4388b453",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
@@ -1781,7 +1780,7 @@ local t =
 												
 												{
 													controlID = "Image_add_Panel_pos_4_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-													UUID = "a7418044_aa58_416c_9cdf_0dc81c62ca8a",
+													UUID = "304db048_0602_4265_b9d7_bd94658bbb02",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -1806,7 +1805,7 @@ local t =
 												},
 												{
 													controlID = "Image_bg_Panel_pos_4_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-													UUID = "0f055964_b07d_4ffd_9597_80f6c3a26b54",
+													UUID = "b807aca8_6395_40a7_9eb4_ace067f34d1e",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -1831,7 +1830,7 @@ local t =
 												},
 												{
 													controlID = "Image_quality_bg_Panel_pos_4_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-													UUID = "66451d95_ac1d_420d_af39_d8bd7e1b5c5b",
+													UUID = "58f1224d_c5f9_4ac0_8aa9_f161d5053882",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -1857,7 +1856,7 @@ local t =
 												},
 												{
 													controlID = "Image_quality_Panel_pos_4_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-													UUID = "d04333cb_c712_49f5_a081_33e1885a0aec",
+													UUID = "fc97985b_0fa4_4b97_8a12_ea04d05c7133",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -1886,7 +1885,7 @@ local t =
 												},
 												{
 													controlID = "Image_icon_Panel_pos_4_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-													UUID = "e7327909_52a8_442a_a38f_41dfe83f8936",
+													UUID = "24330835_b786_48b6_b436_b61e49a5e4f5",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -1913,7 +1912,7 @@ local t =
 										},
 										{
 											controlID = "Panel_pos_5_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-											UUID = "bd579231_a253_4c4c_8969_8747da03dc3a",
+											UUID = "e6468360_5c01_404d_b16c_ee13602477ea",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
@@ -1951,7 +1950,7 @@ local t =
 												
 												{
 													controlID = "Image_add_Panel_pos_5_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-													UUID = "e794e229_d6df_4125_9cac_b68942c8ffdb",
+													UUID = "06a579c4_d056_4b25_8071_ee2cdfc80a30",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -1976,7 +1975,7 @@ local t =
 												},
 												{
 													controlID = "Image_bg_Panel_pos_5_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-													UUID = "87e1df75_3b2d_42b8_97bc_a5aac356ddf6",
+													UUID = "31320f0b_3e31_4279_b13a_56a2e5fd6785",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -2001,7 +2000,7 @@ local t =
 												},
 												{
 													controlID = "Image_quality_bg_Panel_pos_5_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-													UUID = "6921ca82_0384_4e56_badd_c2a139542f07",
+													UUID = "86603476_963e_4ed7_9f9a_92059933bd3c",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -2027,7 +2026,7 @@ local t =
 												},
 												{
 													controlID = "Image_quality_Panel_pos_5_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-													UUID = "e3329478_0637_43d5_a11d_62c9da7f0f9a",
+													UUID = "e5167488_a4b2_42b5_93b6_91b952022e37",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -2056,7 +2055,7 @@ local t =
 												},
 												{
 													controlID = "Image_icon_Panel_pos_5_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-													UUID = "8cd821ca_3e81_433e_82b6_38e53d4d392b",
+													UUID = "483b2200_925e_4e70_911f_12833c2597d4",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -2083,7 +2082,7 @@ local t =
 										},
 										{
 											controlID = "Spine_line1_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-											UUID = "e8d2115c_f952_41d2_b5b2_93d72c5e60c0",
+											UUID = "ae71d6f9_3022_4b60_bf50_15038244c093",
 											classname = "MESpine",
 											dstBlendFunc = "771",
 											name = "Spine_line1",
@@ -2113,7 +2112,7 @@ local t =
 										},
 										{
 											controlID = "Spine_effect1_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-											UUID = "2f8985d4_fd64_46b8_b626_73f4e3bcdc98",
+											UUID = "9b55a2d9_ac90_4584_8ce4_27447d5547c6",
 											classname = "MESpine",
 											dstBlendFunc = "771",
 											name = "Spine_effect1",
@@ -2144,7 +2143,7 @@ local t =
 										},
 										{
 											controlID = "Spine_line2_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-											UUID = "c87438c7_9cc7_44d1_93d2_dc4aa7054a4a",
+											UUID = "7a851223_74f9_431c_862b_ba226771bccf",
 											classname = "MESpine",
 											dstBlendFunc = "771",
 											name = "Spine_line2",
@@ -2174,7 +2173,7 @@ local t =
 										},
 										{
 											controlID = "Spine_effect2_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-											UUID = "c966b437_7b4a_4e8f_b0ff_c9fa87b72fd7",
+											UUID = "a21b59fa_c3ee_48e0_a152_3bd441520442",
 											classname = "MESpine",
 											dstBlendFunc = "771",
 											name = "Spine_effect2",
@@ -2205,7 +2204,7 @@ local t =
 										},
 										{
 											controlID = "Spine_line3_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-											UUID = "a56925bd_54bb_4470_97ce_ec039ef57dee",
+											UUID = "1cb066e9_6bda_4084_9bbf_99a07c64472d",
 											classname = "MESpine",
 											dstBlendFunc = "771",
 											name = "Spine_line3",
@@ -2235,7 +2234,7 @@ local t =
 										},
 										{
 											controlID = "Spine_effect3_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-											UUID = "44715884_3b92_434f_911e_9d3de17ad663",
+											UUID = "ed37d7bc_9867_4bd0_b32c_469b2622ff32",
 											classname = "MESpine",
 											dstBlendFunc = "771",
 											name = "Spine_effect3",
@@ -2266,7 +2265,7 @@ local t =
 										},
 										{
 											controlID = "Spine_line4_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-											UUID = "f32bd06e_ed80_4ff0_9b1d_65028a8b9726",
+											UUID = "77ad1ad2_eb28_4ec1_892d_99d0e935233b",
 											classname = "MESpine",
 											dstBlendFunc = "771",
 											name = "Spine_line4",
@@ -2296,7 +2295,7 @@ local t =
 										},
 										{
 											controlID = "Spine_effect4_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-											UUID = "9d42e847_9cc2_4679_af57_0b779a820ddb",
+											UUID = "020fa17f_881c_43e9_861b_751f16187d78",
 											classname = "MESpine",
 											dstBlendFunc = "771",
 											name = "Spine_effect4",
@@ -2327,7 +2326,7 @@ local t =
 										},
 										{
 											controlID = "Spine_line5_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-											UUID = "d201cbc2_1f46_44f2_99b9_374ba63e4fcc",
+											UUID = "b2bfdca9_a549_4150_9741_398779353ef7",
 											classname = "MESpine",
 											dstBlendFunc = "771",
 											name = "Spine_line5",
@@ -2357,7 +2356,7 @@ local t =
 										},
 										{
 											controlID = "Spine_effect5_Panel_center_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-											UUID = "5fb84aae_8459_4083_8162_9de93526da2f",
+											UUID = "944d99d1_505a_43c8_a950_c9e61552e57e",
 											classname = "MESpine",
 											dstBlendFunc = "771",
 											name = "Spine_effect5",
@@ -2390,7 +2389,7 @@ local t =
 								},
 								{
 									controlID = "Spine_compose_Panel_left_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-									UUID = "ccda67f9_a4f1_44d1_bdaa_f7b2c2f50059",
+									UUID = "b153d309_ca8a_41f9_8ff2_f3846274c0f3",
 									classname = "MESpine",
 									dstBlendFunc = "771",
 									name = "Spine_compose",
@@ -2573,7 +2572,7 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = 15,
-														PositionY = 21,
+														PositionY = 15,
 													},
 													width = "138",
 													ZOrder = "1",
@@ -2613,7 +2612,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "Choose the Gem",
+													text = "Select Gem",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -2622,7 +2621,7 @@ local t =
 														PositionY = 2,
 													},
 													visible = "False",
-													width = "84",
+													width = "58",
 													ZOrder = "1",
 												},
 												{
@@ -2803,15 +2802,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_no_tuzhi",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -2824,10 +2823,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 225,
-												PositionY = 244,
+												PositionX = 226,
+												PositionY = 245,
 											},
-											width = "307",
+											width = "405",
 											ZOrder = "1",
 										},
 									},
@@ -2991,15 +2990,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_compose",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -3014,7 +3013,7 @@ local t =
 											{
 												
 											},
-											width = "51",
+											width = "115",
 											ZOrder = "1",
 										},
 									},
@@ -3289,15 +3288,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_fast_compose",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -3312,7 +3311,7 @@ local t =
 											{
 												
 											},
-											width = "113",
+											width = "115",
 											ZOrder = "1",
 										},
 									},
@@ -3359,28 +3358,32 @@ local t =
 								
 								{
 									controlID = "Image_bg_Panel_tuzhi_item_Panel_base_Panel-baoshiComposeView_Layer1_fairyNew_Game",
-									UUID = "a8be12e0_169b_412e_86b6_459a372ee129",
+									UUID = "c16ab040_f17f_427d_8266_56c50237a85b",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
 									backGroundScale9Enable = "False",
-									classname = "MEImage",
+									classname = "MEButton",
+									ClickHighLightEnabled = "True",
 									dstBlendFunc = "771",
+									flipX = "False",
+									flipY = "False",
 									height = "110",
 									ignoreSize = "True",
 									name = "Image_bg",
+									normal = "ui/common/frame_red.png",
 									scaleX = "0.8",
 									scaleY = "0.8",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "1",
-									texturePath = "ui/common/frame_red.png",
-									touchAble = "False",
+									touchAble = "True",
 									UILayoutViewModel = 
 									{
 										
 									},
+									UItype = "Button",
 									width = "110",
 									ZOrder = "1",
 								},
@@ -3946,7 +3949,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								
+								PositionX = 479,
+								PositionY = -778,
 							},
 							uipanelviewmodel = 
 							{
