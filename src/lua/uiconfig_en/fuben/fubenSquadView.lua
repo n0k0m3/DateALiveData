@@ -17116,7 +17116,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -40,
+												PositionX = -3,
 												PositionY = -32,
 											},
 											width = "79",
@@ -17157,7 +17157,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "In Cool Down",
+											text = "Cool Down",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -17165,7 +17165,7 @@ local t =
 												PositionX = -96,
 												PositionY = -32,
 											},
-											width = "105",
+											width = "86",
 											ZOrder = "1",
 										},
 									},

@@ -6510,7 +6510,7 @@ return {
         skinSettingDesc = 0,
         belongTo = 0,
         convertMax = {
-            [570004] = 120,
+            [566057] = 120,
         },
         kanbanBgm = "sound/bgm/kanban/main_wanyouli_11209.mp3",
         kanbanEffect = {
@@ -6564,7 +6564,7 @@ return {
         roleModel = 211208,
         skinSettingTitle = 0,
         accessId = {
-            [1] = 134,
+            [1] = 4,
         },
         icon = "icon/role/dress_kanban/11209.png",
     },
@@ -9914,7 +9914,7 @@ return {
         skinSettingDesc = 0,
         belongTo = 0,
         convertMax = {
-            [570004] = 120,
+            [566057] = 120,
         },
         kanbanBgm = "sound/bgm/kanban/main_kuangsan_1.mp3",
         kanbanEffect = {
@@ -9966,7 +9966,7 @@ return {
         roleModel = 210406,
         skinSettingTitle = 0,
         accessId = {
-            [1] = 129,
+            [1] = 4,
         },
         icon = "icon/role/dress_kanban/10407.png",
     },

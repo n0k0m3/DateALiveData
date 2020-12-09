@@ -566,7 +566,7 @@ return {
             [1] = "show1",
         },
         actionId = 4230,
-        detection = true,
+        detection = false,
         effectsUp = {
             [1] = {
                 action = "skilld_UI_up",

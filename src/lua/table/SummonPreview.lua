@@ -18226,7 +18226,7 @@ return {
     [3043] = {
         type = 4,
         groupId = 12102,
-        order = 14,
+        order = 16,
         showUpTips = false,
         noobProbability = 800,
         items = {
@@ -18254,6 +18254,22 @@ return {
         summonType = 1,
         typeName = "",
         probability = 1000,
+    },
+    [3059] = {
+        type = 4,
+        groupId = 12102,
+        order = 2,
+        showUpTips = false,
+        noobProbability = 20,
+        items = {
+        },
+        up = false,
+        name = "190000380",
+        adIcon = "",
+        id = 3059,
+        summonType = 1,
+        typeName = "",
+        probability = 20,
     },
     [3004] = {
         type = 4,
@@ -18306,7 +18322,7 @@ return {
     [3036] = {
         type = 4,
         groupId = 12102,
-        order = 7,
+        order = 9,
         showUpTips = false,
         noobProbability = 1000,
         items = {
@@ -18418,7 +18434,7 @@ return {
     [3037] = {
         type = 4,
         groupId = 12102,
-        order = 8,
+        order = 10,
         showUpTips = false,
         noobProbability = 1000,
         items = {
@@ -18459,6 +18475,22 @@ return {
         name = "1223013",
         adIcon = "",
         id = 3053,
+        summonType = 1,
+        typeName = "",
+        probability = 1000,
+    },
+    [3039] = {
+        type = 4,
+        groupId = 12102,
+        order = 12,
+        showUpTips = false,
+        noobProbability = 1000,
+        items = {
+        },
+        up = false,
+        name = "190000069",
+        adIcon = "",
+        id = 3039,
         summonType = 1,
         typeName = "",
         probability = 1000,
@@ -18514,9 +18546,9 @@ return {
     [3030] = {
         type = 4,
         groupId = 12102,
-        order = 1,
+        order = 3,
         showUpTips = false,
-        noobProbability = 20,
+        noobProbability = 12,
         items = {
         },
         up = false,
@@ -18524,13 +18556,13 @@ return {
         adIcon = "",
         id = 3030,
         summonType = 1,
-        typeName = "1200009",
-        probability = 20,
+        typeName = "",
+        probability = 12,
     },
     [3038] = {
         type = 4,
         groupId = 12102,
-        order = 9,
+        order = 11,
         showUpTips = false,
         noobProbability = 1000,
         items = {
@@ -18575,21 +18607,21 @@ return {
         typeName = "",
         probability = 1000,
     },
-    [3039] = {
+    [3050] = {
         type = 4,
-        groupId = 12102,
-        order = 10,
+        groupId = 12103,
+        order = 6,
         showUpTips = false,
-        noobProbability = 1000,
+        noobProbability = 500,
         items = {
         },
         up = false,
-        name = "190000069",
+        name = "1223038",
         adIcon = "",
-        id = 3039,
+        id = 3050,
         summonType = 1,
         typeName = "",
-        probability = 1000,
+        probability = 500,
     },
     [3007] = {
         type = 4,
@@ -18642,9 +18674,9 @@ return {
     [3031] = {
         type = 4,
         groupId = 12102,
-        order = 2,
+        order = 4,
         showUpTips = false,
-        noobProbability = 20,
+        noobProbability = 12,
         items = {
         },
         up = false,
@@ -18653,7 +18685,7 @@ return {
         id = 3031,
         summonType = 1,
         typeName = "",
-        probability = 20,
+        probability = 12,
     },
     [9254] = {
         type = 4,
@@ -18703,21 +18735,21 @@ return {
         typeName = "",
         probability = 1800,
     },
-    [3050] = {
+    [3014] = {
         type = 4,
-        groupId = 12103,
-        order = 6,
+        groupId = 12100,
+        order = 14,
         showUpTips = false,
-        noobProbability = 500,
+        noobProbability = 850,
         items = {
         },
         up = false,
-        name = "1223038",
+        name = "190000070",
         adIcon = "",
-        id = 3050,
+        id = 3014,
         summonType = 1,
         typeName = "",
-        probability = 500,
+        probability = 850,
     },
     [3008] = {
         type = 4,
@@ -18786,7 +18818,7 @@ return {
     [3040] = {
         type = 4,
         groupId = 12102,
-        order = 11,
+        order = 13,
         showUpTips = false,
         noobProbability = 1000,
         items = {
@@ -18898,9 +18930,9 @@ return {
     [3033] = {
         type = 4,
         groupId = 12102,
-        order = 4,
+        order = 6,
         showUpTips = false,
-        noobProbability = 20,
+        noobProbability = 12,
         items = {
         },
         up = false,
@@ -18909,12 +18941,12 @@ return {
         id = 3033,
         summonType = 1,
         typeName = "",
-        probability = 20,
+        probability = 12,
     },
     [3041] = {
         type = 4,
         groupId = 12102,
-        order = 12,
+        order = 14,
         showUpTips = false,
         noobProbability = 1800,
         items = {
@@ -18955,7 +18987,7 @@ return {
         name = "190000241",
         adIcon = "",
         id = 3057,
-        summonType = 1,
+        summonType = 0,
         typeName = "",
         probability = 800,
     },
@@ -19026,9 +19058,9 @@ return {
     [3034] = {
         type = 4,
         groupId = 12102,
-        order = 5,
+        order = 7,
         showUpTips = false,
-        noobProbability = 20,
+        noobProbability = 12,
         items = {
         },
         up = false,
@@ -19037,12 +19069,12 @@ return {
         id = 3034,
         summonType = 1,
         typeName = "",
-        probability = 20,
+        probability = 12,
     },
     [3042] = {
         type = 4,
         groupId = 12102,
-        order = 13,
+        order = 15,
         showUpTips = false,
         noobProbability = 1300,
         items = {
@@ -19071,21 +19103,21 @@ return {
         typeName = "",
         probability = 1250,
     },
-    [3014] = {
+    [3058] = {
         type = 4,
-        groupId = 12100,
-        order = 14,
+        groupId = 12102,
+        order = 1,
         showUpTips = false,
-        noobProbability = 850,
+        noobProbability = 20,
         items = {
         },
         up = false,
-        name = "190000070",
+        name = "190000379",
         adIcon = "",
-        id = 3014,
+        id = 3058,
         summonType = 1,
-        typeName = "",
-        probability = 850,
+        typeName = "1200009",
+        probability = 20,
     },
     [3003] = {
         type = 4,
@@ -19122,9 +19154,9 @@ return {
     [3032] = {
         type = 4,
         groupId = 12102,
-        order = 3,
+        order = 5,
         showUpTips = false,
-        noobProbability = 20,
+        noobProbability = 12,
         items = {
         },
         up = false,
@@ -19133,7 +19165,7 @@ return {
         id = 3032,
         summonType = 1,
         typeName = "",
-        probability = 20,
+        probability = 12,
     },
     [3027] = {
         type = 4,
@@ -19154,7 +19186,7 @@ return {
     [3035] = {
         type = 4,
         groupId = 12102,
-        order = 6,
+        order = 8,
         showUpTips = false,
         noobProbability = 1000,
         items = {

@@ -1,3 +1,5 @@
+local json = require("LuaScript.extends.json")
+
 local AnnouncementLayer = class("AnnouncementLayer", BaseLayer)
 
 function AnnouncementLayer:ctor(helpIds)
@@ -58,34 +60,46 @@ function AnnouncementLayer:initUI(ui)
     self:pageScrollEnd()
 
     self:getAnnouncementInfo()
+
+end
+
+function AnnouncementLayer:setCloseCallBack( closeCallBack )
+   self.closeCallBack = closeCallBack
 end
 
 function AnnouncementLayer:getAnnouncementInfo( ... )
-    print(self.announcementUrl[self.urlIdx])
+    --print(self.announcementUrl[self.urlIdx])
     HttpHelper:get(self.announcementUrl[self.urlIdx],function(data)
         data = json.decode(data)
         if data then
             table.sort(data , function ( a , b )
                 return a.group > b.group
             end)
-            local newGroup = data[1].group
+            local newGroupLen =  math.min(data[1].group ,self.groupLimit)
 
             local usedata = {}
-            for i=0,self.groupLimit - 1 do
-                local getIdx = newGroup - i
+            local getIdx = 1
+            for i=data[1].group,1 , -1 do
+                if getIdx > newGroupLen then
+                    break
+                end
+
                 for k ,v in pairs(data) do
-                    if v.isHide == false then
+                    if v.isHide == false  and i == v.group then
                         usedata[getIdx] = usedata[getIdx] or {}
                         table.insert(usedata[getIdx] , v)
                     end
                 end
+
                 for k ,v in pairs(data) do
-                    if v.group == getIdx then
+                    if v.isHide == true  and i == v.group then
                         usedata[getIdx] = usedata[getIdx] or {}
                         table.insert(usedata[getIdx] , v)
                     end
                 end
+                getIdx = getIdx + 1
             end
+
             self.data = usedata
             self.myData = {}
 
@@ -99,7 +113,9 @@ function AnnouncementLayer:getAnnouncementInfo( ... )
                         color = data.color,
                         text = data.text,
                         clickId = "",
-                        size = data.size,}
+                        size = data.size,
+                        index = data.index
+                        }
                     if data.type == "title" then
                         table.insert(title , textData)
                     else
@@ -115,7 +131,6 @@ function AnnouncementLayer:getAnnouncementInfo( ... )
                    return a.index < b.index
                 end)
                 table.insert(self.myData , {title = title , content = content})
-                print(self.myData)
             end
             self:initScrollInfos()
         else   --如果没有数据
@@ -158,14 +173,16 @@ function AnnouncementLayer:initScrollInfos( ... )
                 sender.label_des = nil
             else
                 self:updateTitleItemIndex(sender.index , true)
+                local panel_content = self.panel_content:clone()
                 sender.label_des = panel_content:getChildByName("Label_des")
-                sender.label_des:setTextAreaSize(CCSize(960 , 0))
+                sender.img_bg = panel_content:getChildByName("Image_bg")
+                --sender.label_des:setTextAreaSize(CCSize(850 , 0))
                 local content = sender.infos.content 
                 sender.label_des:setTextByAttr(content)
                 local index = sender.index
                 local idx = index + 1
-                local panel_content = self.panel_content:clone()
-                panel_content:setContentSize(CCSize(panel_content:getContentSize().width , sender.label_des:getContentSize().height))
+                panel_content:setContentSize(CCSize(panel_content:getContentSize().width , sender.label_des.__richText:getContentSize().height + 80))
+                sender.img_bg:setContentSize(CCSize(sender.img_bg:getContentSize().width , sender.label_des.__richText:getContentSize().height + 80))
                 self.ListView_info:insertCustomItem(panel_content, idx)
                 sender.idx = idx 
                 sender.img_arrow:setTexture("ui/common/announcement/img_up.png")
@@ -173,7 +190,6 @@ function AnnouncementLayer:initScrollInfos( ... )
         end)
         self.ListView_info:pushBackCustomItem(panel_title_item)
         local titleData = infos.title
-        print(titleData)
         panel_title_item.label_title:setTextByAttr(titleData)
         panel_title_item.infos = infos
     end
@@ -271,7 +287,7 @@ function AnnouncementLayer:addBaner(bannerTexture)
     local activityImg = self.Image_banner_item:clone()
     activityImg:setTexture(bannerTexture)
     activityImg:setVisible(true)
-    activityImg:setPosition(100 , 20)
+    activityImg:setPosition(0 , 0)
     layer:addChild(activityImg , 1)
 
     self.PageView_image:addPage(layer)
@@ -300,6 +316,9 @@ end
 
 function AnnouncementLayer:registerEvents()
     self.Button_close:onClick(function()
+        if self.closeCallBack then
+                self.closeCallBack()
+        end
         AlertManager:closeLayer(self)
     end)
 

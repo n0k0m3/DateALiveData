@@ -9,7 +9,7 @@ function LoginLayer:ctor(data)
     self.isEnter = false;
     EventMgr:addEventListener(self, EV_LOGIN_UPDATESERVERNAME, handler(self.updateServerName, self))
 
-	if FunctionDataMgr:isOneYearLoginUI() then
+	if FunctionDataMgr:isMoJingLoginUI() then
 		self:init("lua.uiconfig.loginScene.oneYearloginLayer")
 	else
 		self:init("lua.uiconfig.loginScene.loginLayerNew1")
@@ -161,14 +161,6 @@ function LoginLayer:initUI(ui)
     self.gameServerList:setVisible(false)
     self.gameServerName = TFDirector:getChildByPath(self.gameServerList, "Label_serverName")
 	self.Panel_logo = TFDirector:getChildByPath(ui, "Panel_logo")
-
-	if not FunctionDataMgr:isOneYearLoginUI() then
-		local logoImg = TFImage:create("ui/login/logo.png")
-		logoImg:setAnchorPoint(ccp(0.5, 0.5))
-		logoImg:setPosition(ccp(30,-400))
-		-- self.Panel_logo:addChild(logoImg)
-	end
-
 
 	self.Panel_base = TFDirector:getChildByPath(ui,"Panel_base");
 	local params = {
@@ -467,7 +459,8 @@ function LoginLayer:loginGameServerSuccess(event)
         		end)
         	end
         end
-    end
+	end
+	Utils:setVisibleAnitAddictionLayer(true)
 end
 
 function LoginLayer.enterNextPage(sender)
@@ -557,16 +550,25 @@ function LoginLayer:showWebView()
 		if me.platform == "android" then
 
 			if HeitaoSdk then
-				HeitaoSdk.isFunctionSupported("showAnnouncement");
+				-- TODO CLOSE 使用最新公告
+            	self:openNewNoticeLayer()
+				--HeitaoSdk.isFunctionSupported("showAnnouncement");
+			else
+				-- TODO CLOSE 使用最新公告
+            	self:openNewNoticeLayer()
 			end
 	        
 	    else
 	    	dump("show2")
 	        if tonumber(TFDeviceInfo:getCurAppVersion()) >= 3.10 then
 	        	dump("show3")
-	            HeitaoSdk.isFunctionSupported("showAnnouncement");
+	        	-- TODO CLOSE 使用最新公告
+            	self:openNewNoticeLayer()
+	            --HeitaoSdk.isFunctionSupported("showAnnouncement");
 	        else
-	            HeitaoSdk.isFunctionSupported("showAnnouncement");
+	        	-- TODO CLOSE 使用最新公告
+           		self:openNewNoticeLayer()
+	            --HeitaoSdk.isFunctionSupported("showAnnouncement");
 	        end
 	    end
 	else
@@ -574,6 +576,18 @@ function LoginLayer:showWebView()
 			HeitaoSdk.doAntiAddicationQuery();
 		end
 	end
+end
+
+function LoginLayer:openNewNoticeLayer( ... )
+	local fullModuleName = string.format("lua.logic.%s", "common.AnnouncementLayer")
+	 local view = requireNew(fullModuleName):new()
+	 self:addLayer(view,998)
+	 self.noticeLayer = view
+	 view:setCloseCallBack(function( ... )
+	 	self:removeLayer(self.noticeLayer, true)
+        self.noticeLayer = nil
+	 end)
+
 end
 
 function LoginLayer:chooseBox(index)
@@ -588,9 +602,15 @@ function LoginLayer:chooseBox(index)
 end
 
 function LoginLayer:onKeyBack()
-    if self.cleanUpView then
-        self:removeLayer(self.cleanUpView, true)
-        self.cleanUpView = nil
+    if self.cleanUpView or self.noticeLayer then
+    	if self.noticeLayer then
+    		self:removeLayer(self.noticeLayer, true)
+        	self.noticeLayer = nil
+    	elseif self.cleanUpView then
+    		self:removeLayer(self.cleanUpView, true)
+        	self.cleanUpView = nil
+    	end
+        
     else
         if HeitaoSdk then
             HeitaoSdk.loginExit()

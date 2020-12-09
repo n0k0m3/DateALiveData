@@ -718,7 +718,7 @@ local t =
 									UUID = "ad3fc56c_41cb_482b_94dd_4b6d9de31f56",
 									anchorPoint = "False",
 									anchorPointX = "0.5",
-									anchorPointY = "0.5",
+									anchorPointY = "1",
 									backGroundScale9Enable = "False",
 									bgColorOpacity = "50",
 									bIsOpenClipping = "False",
@@ -751,6 +751,31 @@ local t =
 									components = 
 									{
 										
+										{
+											controlID = "Image_bg_panel_content_Panel_prefab_Panel_root_Panel-announcementLayer_Layer1_common_Game",
+											UUID = "a4316197_2bda_457f_9bda_0db9f863d014",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "1",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
+											classname = "MEImage",
+											dstBlendFunc = "771",
+											height = "30",
+											ignoreSize = "False",
+											name = "Image_bg",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											texturePath = "ui/activity/coffee/change/018.png",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												
+											},
+											width = "972",
+											ZOrder = "1",
+										},
 										{
 											controlID = "Label_des_panel_content_Panel_prefab_Panel_root_Panel-announcementLayer_Layer1_common_Game",
 											UUID = "83bf25d6_bfab_46fc_ad1f_95510e964a56",
@@ -791,9 +816,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = 21,
+												PositionY = -40,
 											},
-											width = "960",
+											width = "920",
 											ZOrder = "1",
 										},
 									},
@@ -845,6 +870,7 @@ local t =
 			"ui/common/scroll_bar_02.png",
 			"ui/common/announcement/img_title_bg.png",
 			"ui/common/announcement/img_down.png",
+			"ui/activity/coffee/change/018.png",
 		},
 		armatures = 
 		{

@@ -1387,7 +1387,10 @@ function Utils:randomAD(showType)
                 if data.pseudoRandom then
                     if Utils.lastLoadingPath ~= data.res then
                         Utils.lastLoadingPath = data.res
-                        return data.res , data.descID
+                        if TFFileUtil:existFile(data.res) then
+                            return data.res ,data.descID
+                        end
+                        return "ui/update/s1.png",data.descID
                     end
                 end
 

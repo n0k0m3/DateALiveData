@@ -1710,27 +1710,27 @@ function MainLayer:registerEvents()
     --     end)
 
     self.Button_notice:onClick(function()
-        --暂时屏蔽新公告
-            --Utils:openView("common.AnnouncementLayer")
+        -- TODO CLOSE 使用最新公告
+            Utils:openView("common.AnnouncementLayer")
             
             --屏蔽旧版公告
-            if me.platform == "win32" then
-                --Utils:openView("login.NoticeBoard")
-            elseif me.platform == "android" then
-                if HeitaoSdk then
-                    HeitaoSdk.isFunctionSupported("showAnnouncement");
-                end               
-            else
-                if tonumber(TFDeviceInfo:getCurAppVersion()) >= 3.10 then
-                    if HeitaoSdk then
-                        HeitaoSdk.isFunctionSupported("showAnnouncement");
-                    end                   
-                else
-                    if HeitaoSdk then
-                        HeitaoSdk.isFunctionSupported("contactCustomerService");
-                    end                    
-                end
-            end
+            -- if me.platform == "win32" then
+            --     --Utils:openView("login.NoticeBoard")
+            -- elseif me.platform == "android" then
+            --     if HeitaoSdk then
+            --         HeitaoSdk.isFunctionSupported("showAnnouncement");
+            --     end               
+            -- else
+            --     if tonumber(TFDeviceInfo:getCurAppVersion()) >= 3.10 then
+            --         if HeitaoSdk then
+            --             HeitaoSdk.isFunctionSupported("showAnnouncement");
+            --         end                   
+            --     else
+            --         if HeitaoSdk then
+            --             HeitaoSdk.isFunctionSupported("contactCustomerService");
+            --         end                    
+            --     end
+            -- end
             --早已屏蔽
             -- Utils:openView("MainScene.NoticeView")
             -- Utils:openView("MainScene.ProclamationView")
