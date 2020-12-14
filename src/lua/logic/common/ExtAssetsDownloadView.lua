@@ -4,6 +4,8 @@ function ExtAssetsDownloadView:ctor()
 	self.super.ctor(self)
 	self.strCfg = require("lua.table.String" ..GAME_LANGUAGE_VAR)
 	self:init("lua.uiconfig.common.extAssetsDownloadView")
+
+	self:onEnterSend()
 end
 
 function ExtAssetsDownloadView:initUI(ui)
@@ -32,9 +34,24 @@ function ExtAssetsDownloadView:initUI(ui)
 	self.tipLabel:setSystemFontText(self.strCfg[190000146].text)
 end
 
+function ExtAssetsDownloadView:onShow()
+	self:onEnterSend()
+end
+
+function ExtAssetsDownloadView:onEnterSend()
+	if CommonManager:getConnectionStatus() == true then
+		TFDirector:send(c2s.SHARE_REQ_INTO_PANEL, {999})
+	end
+end
+
 function ExtAssetsDownloadView:registerEvents()
+	EventMgr:addEventListener(self, EV_RECONECT_EVENT, handler(self.onReconnect, self))
 	EventMgr:addEventListener(self, EV_EXT_ASSET_DOWNLOAD_VIEW_CLOSE, handler(self.onCloseUI, self))
 	self:addMEListener(TFWIDGET_ENTERFRAME,handler(self.update,self))
+end
+
+function ExtAssetsDownloadView:onReconnect()
+	self:onEnterSend()
 end
 
 function ExtAssetsDownloadView:update(target , dt)
@@ -58,6 +75,7 @@ function ExtAssetsDownloadView:transNetSpeed(speed)
 	return speedstr
 end
 function ExtAssetsDownloadView:onCloseUI()
+	EventMgr:removeEventListenerByTarget(self)
 	local currentScene = Public:currentScene()
     if currentScene.__cname == "LoginScene" then
     	self:dispose()
@@ -65,6 +83,12 @@ function ExtAssetsDownloadView:onCloseUI()
     else
     	AlertManager:closeLayer(self)
     end
+end
+
+function ExtAssetsDownloadView:removeUI()
+	self.super.removeUI(self)
+	self:removeMEListener(TFWIDGET_ENTERFRAME)
+	TFDirector:send(c2s.SHARE_REQ_INTO_PANEL, {1000})
 end
 
 return ExtAssetsDownloadView
