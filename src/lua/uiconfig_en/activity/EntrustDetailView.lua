@@ -266,15 +266,15 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "27",
+							fontSize = "20",
 							fontStroke = 
 							{
 								IsStroke = false,
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "33",
-							ignoreSize = "True",
+							height = "0",
+							ignoreSize = "False",
 							name = "label_title",
 							nTextAlign = "0",
 							nTextHAlign = "0",
@@ -290,7 +290,7 @@ local t =
 								PositionX = 394,
 								PositionY = 538,
 							},
-							width = "110",
+							width = "312",
 							ZOrder = "1",
 						},
 						{
@@ -339,7 +339,7 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "22",
+							fontSize = "16",
 							fontStroke = 
 							{
 								IsStroke = false,
@@ -589,7 +589,7 @@ local t =
 									{
 										
 									},
-									width = "58",
+									width = "32",
 									ZOrder = "1",
 								},
 							},
@@ -669,7 +669,7 @@ local t =
 									{
 										
 									},
-									width = "57",
+									width = "59",
 									ZOrder = "1",
 								},
 							},
@@ -700,7 +700,7 @@ local t =
 								StrokeColor = "#FF8C8790",
 								StrokeSize = 1,
 							},
-							height = "32",
+							height = "31",
 							ignoreSize = "True",
 							name = "Label_costNum",
 							nTextAlign = "1",
@@ -717,7 +717,7 @@ local t =
 								PositionX = 518,
 								PositionY = 93,
 							},
-							width = "66",
+							width = "49",
 							ZOrder = "1",
 						},
 						{
@@ -802,18 +802,18 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "20",
+							fontSize = "18",
 							fontStroke = 
 							{
 								IsStroke = false,
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "25",
-							ignoreSize = "True",
+							height = "0",
+							ignoreSize = "False",
 							name = "label_type",
-							nTextAlign = "0",
-							nTextHAlign = "0",
+							nTextAlign = "1",
+							nTextHAlign = "1",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
@@ -826,7 +826,7 @@ local t =
 								PositionX = 571,
 								PositionY = 316,
 							},
-							width = "83",
+							width = "350",
 							ZOrder = "1",
 						},
 					},

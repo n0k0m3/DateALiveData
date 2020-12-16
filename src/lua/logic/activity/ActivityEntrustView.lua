@@ -225,7 +225,7 @@ function ActivityEntrustView:flushEntrustItem(node, data)
 	panel_wdc:setVisible(progressInfo.status ~= EC_TaskStatus.GETED)
 	icon:setTexture(data.extendData.iconShow)
 	btn_bg:setTextureNormal(data.extendData.bgShow)
-	name:setText(data.extendData.des)
+	name:setText(Utils:MultiLanguageStringDeal(data.extendData.des))
 	
 	btn_bg:onClick(function ( ... )
 		if data.extendData.type == 3 or data.extendData.type == 4 then

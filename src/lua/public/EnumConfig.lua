@@ -47,7 +47,8 @@ EC_SItemType = {
     SX_BIRTHDAY_POWER = 500056,  -- 十香生日活动行动力
     REVERSAL = 500057,           -- 十香反转值
     LOVER = 500058,              -- 十香亲密度   
-    TokenMoney = 500096            -- 代币
+    TokenMoney = 500096,           -- 代币
+	SZDY_TOUZI = 500112				-- 时之赌约骰子
 }
 
 -- 副本难度
@@ -64,7 +65,7 @@ EC_FBDiffName = {
     [EC_FBDiff.LIMBO] = 300122,
 }
 
--- 关卡类型
+-- 关卡类型（关卡表dungonType）
 EC_FBLevelType = {
     FIGHTING = 1,    -- 战斗关卡
     DATING = 2,    -- 约会关卡
@@ -86,9 +87,16 @@ EC_FBLevelType = {
     HUNTER = 21,     -- 追猎计划
     TEAMFIGHT_EX_PARENT = 30,     --高级组队主关卡
     TEAMFIGHT_EX_CHILD  = 31,     --高级组队子关卡
+	MONSTER_TRIAL = 35,			--魔王试炼
     KUANGSAN_FIGHTING = 40,    -- 万由里战斗
     KUANGSAN_DATING = 41,    -- 万由里约会
-    NEWYEAR_DATING = 41     --新年魔禁约会
+    NEWYEAR_DATING = 41,     --新年魔禁约会
+    HWX_DATING = 41,            --海王星约会由于表现一样所以还是用一个ID，加个枚举为看扩展
+    HWX = 42,                   --海王星
+    HWX_TOWER = 43,             --海王星爬塔
+    MUSIC_GAME = 44,             --端午音律游戏
+	WORLD_BOSS = 45,           -- 社团世界Boss
+    BOSS_CHALLENGE = 46,           -- Boss挑战
 }
 
 -- 万由里关卡类型
@@ -106,6 +114,8 @@ EC_TheaterLevelType = {
     BOSS_ENTANCE = 11,    -- boss入口
     BOSS_FIGHT = 12,    -- boss入口
     BOSS_FIGHT1 = 13,    -- boss入口
+    BOSS_JUNAI = 14,    -- 鞠奈boss入口
+    LAST_DATING = 15,    -- 最后的约会关卡
 }
 
 -- 万由里boss类型
@@ -128,13 +138,15 @@ EC_TheaterReceiveStatus = {
     GETED = 2,    -- 已领取
 }
 
--- 关卡组类型
+-- 关卡组类型(DungeonLevelGroup dungeonType)
 EC_FBLevelGroupType = {
     MAINLINE = 1,    -- 主线
     NORMAL = 2,    -- 普通
     DAILY = 3,    -- 日常
     THEATER = 9,    -- 万由里
+    KUANGSAN = 23,  -- 狂三
     LINKAGE = 100,  -- 海王星联动
+    LINKAGEHWX = 103, --海王星下卷联动
 }
 
 -- 副本类型(Dungeonchapter type字段)
@@ -146,6 +158,7 @@ EC_FBType = {
     HOLIDAY = 5,    -- 节日活动
     THEATER_BOSS = 6,    -- 万由里boss
     THEATER_HARD = 7,    -- 万由里困难
+	MONSTER_TRIAL = 8,    -- 魔王试炼
     NIANBREAST_LEVEL = 15,    -- 年兽抓捕
     SKYLADDER = 16,     --天梯
     HUNTER = 21,     --追猎计划
@@ -153,7 +166,9 @@ EC_FBType = {
     MEMORY = 31,     --周年庆回忆关卡
 	HOLIDAY2 = 1001, --
 	KSAN_FUBEN = 23,    --狂三副本
-    NEWYEAR_FUBEN = 24,    --新年副本
+	NEWYEAR_FUBEN = 24,
+    HWX_FUBEN = 25,     --海王星副本
+    WORLD_BOSS = 45,    -- 社团世界Boss
 }
 
 -- 活动副本id
@@ -166,6 +181,7 @@ EC_ActivityFubenType = {
     HALLOWEEN = 406,    -- 万圣节活动
     TEAM_PVE = 407,     -- 春季特训
     SKYLADDER = 408,    --天梯
+	MONSTER = 421,		--魔王试炼
     CHRISTMAS = 901,    -- 圣诞节活动
     NEWYEAR = 1001,    -- 新年活动
     BIG_WORLD = 409,     -- 大世界
@@ -174,31 +190,9 @@ EC_ActivityFubenType = {
     SIMULATION_TRIAL_3 = 413,     -- 模拟试炼活动
     SIMULATION_TRIAL_4 = 414,     -- 模拟试炼活动
     SIMULATION_TRIAL_5 = 416,     -- 模拟试炼活动
-	HALLOWEEN2019 = 415,	--万圣节活动2019	
+	HALLOWEEN2019 = 415,	--万圣节活动2019
+    BOSS_CHALLENGE = 422,    --BOSS挑战入口
 }
-
--- 模拟试炼章节
-EC_SimulationTrialChapterType = {
-    CHAPTER_1 = 500002,     -- 经验大作战
-    CHAPTER_2 = 500003,    -- 金币大作战
-}
-EC_SimulationTrialChapterType2 = {
-    CHAPTER_1 = 500004,     
-    CHAPTER_2 = 500005,    
-}
-EC_SimulationTrialChapterType3 = {
-    CHAPTER_1 = 500006, 
-    CHAPTER_2 = 500007,
-}
-EC_SimulationTrialChapterType4 = {
-    CHAPTER_1 = 500008, 
-    CHAPTER_2 = 500009,
-}
-EC_SimulationTrialChapterType5 = {
-    CHAPTER_1 = 500010, 
-    CHAPTER_2 = 500011,
-}
-
 
 -- 活动副本
 EC_DailyType = {
@@ -295,6 +289,9 @@ EC_FBStarRule = {
     LIMIT_KILL         = 12,   --X秒里必须杀死1个敌人
     SKILL_COUNT        = 13,   --使用总技能次数(只包含觉醒和大招)
     TEAM_DEATH         = 14,   --队伍中不能有队员死亡
+    GET_MONSTER_ITEM   = 21,    --吃到X个怪物道具
+    GET_MONSTER_ITEM_COM = 22,  --连续吃到X个怪物道具
+    PASS_LEVEL_NO_ITEM = 23,    --不吃道具通关
     KILL_COUNT = 31,    -- 击杀怪物数量
     SCORE = 32,    -- 积分
     SKILL_DODGE = 33 ,   --使用x次闪避技能
@@ -326,6 +323,9 @@ EC_FBStarRuleStr = {
     [EC_FBStarRule.NOT_USE_DODGE] = 300068, --不使用闪避技能
     [EC_FBStarRule.SCORE3] = 300069,
     [EC_FBStarRule.MORE_REMAINING_TIME]  = 300070,--剩余时间大于
+    [EC_FBStarRule.GET_MONSTER_ITEM]  = 300071,
+    [EC_FBStarRule.GET_MONSTER_ITEM_COM]  = 300072,
+    [EC_FBStarRule.PASS_LEVEL_NO_ITEM]  = 300073,
 }
 
 -- 服务器操作类型
@@ -560,6 +560,8 @@ EC_Bag = {
     FRAGMENT = 19,       --------碎片
     DRAWING = 20,       --------图纸
     MATERIAL_OTHER = 21,    --结晶碎片图纸之外其他材料
+    EXPLORE_TREASURE = 22,   --探索背包
+    EXPLORE_MATERIAL = 23,   --探索背包
     TRAILCARD = 32,          --试用卡
     SKYLADDER_CARD = 40,   -- 天梯卡牌
     TRAILBAG = 50,   --试用道具背包
@@ -616,12 +618,16 @@ EC_ResourceType = {
     SKYLADDER = 40,        --天梯
     BAOSHI = 43,    -- 宝石
     BAOSHITUZHI = 44,    -- 宝石图纸
+    EXPLORE_TREASURE = 45, -- 探索系统宝物
+    EXPLORE_TREASUREPIECE = 46, -- 探索系统碎片
+    EXPLORE_ACCESSORIES = 47,         --探索系统配件
     HUNTINGINVITATIONCARD = 50, -- 悬赏令
     COURAGE_EQUIP = 60,     --试胆大会装备
     COURAGE_ITEM = 61,     --试胆大会普通道具
     COURAGE_USEITEM = 63,     --试胆大会可以使用道具
     FIRST_RECHARGE_ITEM = 66,   --首冲重置券
     CONTRACT_ITEM = 67,         --精灵锲约重置券
+    ACTIVITY_ITEM = 71,         --活动道具类型
     DFW_NEW_CARD = 1001,        -- 新-大富翁道具卡
 }
 
@@ -662,6 +668,25 @@ EC_ChatType = {
     COURAGE = 7,    --试胆大会
     RED_PACK = 8,   --红包
     BIG_WORLD = 10,   --同屏(客户端)
+	DRESSWEEK = 11,  -- 时装周
+    VOTE = 12,  -- 投票
+}
+
+EC_GroupType = {
+	ALL = 1,
+	Friend = 2
+}
+EC_GroupStatus = {
+	NoStart = -1,
+	ING = 0,
+	CANGET = 1,
+	FINISH = 2
+}
+EC_GroupOpenPanel = {
+	Hall = 1,
+	Room =2,
+	Invit = 3,
+	Create = 4
 }
 
 EC_ChatState = {
@@ -674,7 +699,9 @@ EC_ChatState = {
     HERO_SHARE = 7,                 --精灵分享
     RED_PACK1 = 8,                 --红包1
     RED_PACK_RECORD1 = 9,       --红包领取记录1
+	GROUP_PURCHASE = 10,  --团购邀请
     AI_ROBOT = 999,    --Ai机器人(未经服务器)
+    AI_ADVICE = 1000,  -- AI通知
 }
 
 --好感度等级描述
@@ -701,6 +728,14 @@ EC_StoreBuyLimit = {
     WHOLESERVER = 5,    -- 全服限购
 }
 
+EC_StoreLimitString = {
+    [EC_StoreBuyLimit.NONE] = 15010107,
+    [EC_StoreBuyLimit.TIME] = 15010108,
+    [EC_StoreBuyLimit.DAY] = 15010109,
+    [EC_StoreBuyLimit.FOREVER] = 15010110,
+    [EC_StoreBuyLimit.WHOLESERVER] = 15010111,
+}
+
 -- 商店
 EC_StoreType = {
     SUPPLY = 1,    -- 补给
@@ -713,6 +748,8 @@ EC_StoreType = {
     DUANWU = 9,    -- 端午粽子制作
     SUMMER = 10,        --夏日祭
     COURAGE = 11,   --试胆大会
+    TWOYEAR = 12,   --2周年商店
+    NEW_SUPPORT = 15, -- 新特勤支援
     ZNQ = 30 --周年庆
 }
 
@@ -1138,6 +1175,20 @@ EC_Friend = {
     APPLY = 3,    -- 请求
     ADD = 4,    -- 添加
     INVITE = 5,   -- 羁友
+    MASTER = 6,   -- 师徒
+}
+
+-- 好友师徒(对应好友师徒两个分页)
+EC_FriendMaster = {
+    Master = 1,     -- 师门
+    Apprentice = 2  -- 徒弟
+}
+
+-- 师徒申请界面类型 
+EC_FriendMasterApply = {
+    ApplyList = 1,    -- 申请列表
+    ApplyMaster = 2,  -- 拜师
+    GetApprentice = 3 -- 收徒
 }
 
 -- 好友操作类型
@@ -1183,6 +1234,9 @@ EC_SummonType = {
     FRIENDSHIP = 4,    -- 友情点召唤
     CLOTHESE = 7,    -- 时装召唤
     ELF_CONTRACT = 8,    -- 契约召唤
+    SPECIAL_SUMMON = 14,    -- 契约召唤
+    CLOTHESE_1 = 15,  -- 时装召唤1
+    CLOTHESE_2 = 16, -- 时装召唤2
     HOT_ROLE = 998,    -- 热点召唤(角色)
     HOT_EQUIPMENT = 999,    -- 热点召唤(角色)
 }
@@ -1245,6 +1299,7 @@ EC_TaskType = {
     EVERY_DAY  = 31,     --每日任务类型
     EVERY_WEEK = 32,     --每周任务类型
     ROLE_TEACH = 33,     -- 精灵调教成就
+    WORLD_BOSS = 38,     -- 世界boss个人伤害奖励任务类型
     DFW_NEW     = 34,   -- 新-大富翁任务
 }
 
@@ -1340,7 +1395,8 @@ EC_ActivityType = {
     CHRISTMAS_SIGN = 6,    -- 圣诞签到
     MONTH_CARD = 7,     --月卡
     SUPPORT_STORE = 8,    -- 特勤支援商店
-    NEWGUY_SUMMON = 9    --萌新召唤
+    NEWGUY_SUMMON = 9,    --萌新召唤
+    TOUZIREN = 10,    --萌新召唤
 }
 
 
@@ -1443,6 +1499,7 @@ EC_OneLoginStatusType = {
     ReconFirm_CourageEnter = "ReconFirm_CourageEnter",   --试胆大会提示框
     ReconFirm_UpgradeGMSkill = "ReconFirm_UpgradeGMSkill",       --升级共鸣技能
     ReConfirm_AssistanceGameScoreRefresh = "ReConfirm_AssistanceGameScoreRefresh" , --尤茨游戏刷新奖励
+    ReconFirm_PreTeam = "ReconFirm_PreTeam",                     --预设队伍提示
     ReConfirm_AssistanceGameUseScore = "ReConfirm_AssistanceGameUseScore",   ---使用尤茨分数投掷
     ReConfirm_CrazyDiamond = "ReConfirm_CrazyDiamond",   ---疯狂钻石抽取
     ReConfirm_DafuwengRefreashCost = "ReConfirm_DafuwengRefreashCost"  --大富翁刷新二次确认消耗
@@ -1609,7 +1666,6 @@ EC_ActivityType2 = {
     RECHARGE = 9,    -- 充值活动
     ADD_RECHARGE = 10,  --累计充值
     WHITEVALENTINE = 11,    -- 白色情人节活动
-    DAFUWENG = 12,    -- 大富翁
     CLOTHESE_SUMMON = 15,    -- 时装抽奖
     SX_BIRTHDAY = 14,    -- 十香生日活动
     MAID_COFFEE = 16,    -- 女仆咖啡厅
@@ -1626,7 +1682,6 @@ EC_ActivityType2 = {
     CGCOLLECTED = 1007,    -- CG收集活动
     DUANWU_2 = 1008,    -- 端午
     BINGOGAME = 19,     -- 宾果游戏
-    DFW_SUMMER = 20,     -- 大富翁夏日祭
     WELFARE_RECHEAGE = 1009,    -- 福利礼包
     WELFARE_SIGN = 1010,    -- 福利登陆
     WELFARE_TASK = 21,    -- 福利任务
@@ -1656,13 +1711,45 @@ EC_ActivityType2 = {
     CHRISTMAS_PRE = 34,         --圣诞节预售
     FRIEND_BLESS = 44,          -- 好友寄语
     TANGHULU = 45,              -- 糖葫芦活动
-	SCALE_9_GRID = 1016,
+    SCALE_9_GRID = 1016,
+    PRAY_ACTIVITY = 1017,       --暮春祈愿
     NEWYEAR_FUBEN = 42,         --新年副本
+    CALL_BACK = 48,             --回归活动
+    GROUP_PURCHASE = 49,        --团购活动
+    HWX_FUBEN = 51,             --海王星副本
     CRAZY_DIAMOND = 1017, --疯狂砖石
     TURNTABLE = 1075  ,  --占卜罗盘活动
     DFW_NEW = 1076,         -- 新-大富翁活动
     FANSHI_ASSIST = 1001,  --反十应援活动
-    CALL_BACK = 48,             --回归活动
+	LOBARDAY_2020 = 52,         --2020劳动节活动
+    AD_ACTIVITY = 54,           --综合广告宣传活动
+    SZQY = 53,					--时之契约
+    ALLSERVER_ASSISTANCE = 55,  -- 全服应援活动
+    LEAGUE_BACK = 1018,         --社团召回活动
+    EXPLORE = 56,               --探索活动
+	DRESS_VOTE = 57,			--花嫁活动
+	FASHIONWHOLESALE = 58,		--时装批发
+	TREASUREHUNTING = 59,		--宝物狩猎
+    DUANWU_HANGUP = 1019,               --端午挂机
+    DETECTIVE_CHAPTER = 60,               --探索周目
+    DETECTIVE_CLUE = 61,               --探索线索
+    DETECTIVE_VOTE = 62,               --探索投票
+    TURNTABLET2 = 63,          -- 2周年庆翻牌游戏
+    TWOYEAR_FASHION_STORE = 64,  --2周年庆时装商店
+	BALLOON_ACTIVITY = 66,     --气球活动
+    SIMULATION_SUMMON = 67,     --模拟召唤
+    DUNGEON_DROP = 68,         --固定关卡掉落翻倍活动
+    WSJ_2020 = 70,         --固定关卡掉落翻倍活动
+    HALLOWEEN_GHOST  = 69,         --万圣节小鬼活动
+    PRIVILEGE_ACTIVITY_DATA = 1020,      --特权活动数据(这个活动开启，特权功能才有数据)
+	BOSS_CHALLENGE = 1022,               --BOSS挑战
+    NEWGIFT_PACK_EN = 85,       --新手礼包活动
+
+    PINTU_ACTIVITY_EN = 86,  --拼图活动英文版
+
+    LEAGUE_SCORE_ASSIT = 87 , --- 社团助力积分活动
+    LEAGUE_SCORE_RANK = 88,  -- 社团助理排行榜活动
+
 }
 
 EC_Activity_CHRISTMAS_Subtype = {
@@ -1790,6 +1877,8 @@ EC_MainFuncType = {
     SCORE = 214,--积分活动
     ZHUIFAN = 215,--追番
     ZHIBO = 216,--直播
+    ZNQ = 218,  --周年庆回忆
+    --WUJIN = 229,   --无尽模式跳层开关(废弃)
 }
 
 --集会所情报站消息类型
@@ -1858,6 +1947,7 @@ EC_ActivityDropChangeType = {
 EC_ActivityDropInspectType = {
     DROP_ID = 1,    -- 根据dropid检测
     CHAPTER_TYPE = 2,    -- 根据drop配置副本类型
+    DUNGEON_DROP_ID = 4,    -- 固定关卡的掉落翻倍
 }
 
 -- 大凉山关卡类型
@@ -2038,6 +2128,13 @@ EC_SceneSoundTime = {
     Night = 2,
 }
 
+--TODO CLOSE
+-- EC_ReportPlayerType = {
+--     GUANGGAO = 600041,
+--     ZUOBI    = 600042,
+--     SAORAO   = 600043,
+--     GUAJI    = 600045,
+-- }
 EC_ReportPlayerType = {
     GUANGGAO = 600041,
     ZUOBI    = 600042,
@@ -2168,6 +2265,8 @@ EC_DanmuType = {
     CG = 2, -- CG
     VIDEO = 3, -- 视频
     SCRIPT = 4, -- 剧情脚本
+    Dating = 6, -- 约会弹幕
+    EVALUATION = 10, -- 剧情脚本
 }
 
 EC_YearActivityEventType = {
@@ -2249,6 +2348,84 @@ EC_CardPrivilege = {
     Month = 1,
     Week  = 2
 }
+
+-- 师徒相关的类型
+EC_FriendMasterType = {
+    Master = 1,          -- 师父
+    SameGate = 2,        -- 师门
+    Apprentice = 3,      -- 徒弟
+    ApplyApprentice = 4, -- 申请收徒
+    ApplyMaster = 5,     -- 申请拜师
+}
+
+-- 师徒显示标识图片
+EC_MasterTagImgSrc = {
+    OutMaster = "ui/friend/master/tag_1.png",  -- 出师
+    Master = "ui/friend/master/tag_2.png",     -- 师门
+    SameGate = "ui/friend/master/tag_3.png",   -- 同门
+    Apprentice = "ui/friend/master/tag_4.png", -- 徒弟
+    Friend = "ui/friend/master/tag_5.png",     -- 好友
+    Club = "ui/friend/master/tag_6.png",       -- 社团
+}
+
+---AfkActivity id
+EC_AfkActivityID = {
+    Main = 101      ---主线活动
+}
+
+
+ShipRoomType = {
+    COMMAND = 1, -- 指挥室
+    WEAPON = 2, -- 武器室
+    ARMOR = 3, -- 护甲室
+    ACCESSORIES = 4, -- 配件室
+    COLLECT = 5, -- 采集室
+    EXHIBITION = 6, -- 陈列室
+
+}
+
+-- 世界boss状态
+EC_WorldBossType = {
+    REST = 0,   -- 休息
+    Normal = 1, -- 普通boss
+    World = 2,  -- 世界boss
+}
+
+-- 服务器红点功能id
+RedPointFunctionId = {
+    Explore_collectFull = 1, -- 探索搜集已满红点
+}
+
+-- 剧情副本ID
+EC_FUBENTHEATER_ID = {
+    WanYouli = 1,
+    SiSiNai  = 2,
+    JuNai    = 3,
+    KuangSan = 4,
+}
+
+-- 大世界多人房间类型
+WorldRoomType = {
+    OSD_WORLD = 1, -- 夏拉姆大世界普通房间
+    OSD_UNION = 2, -- 夏拉姆大世界社团房间
+    ZNQ_WORLD = 3, -- 周年庆大世界社团房间
+    ZNQ_UNION = 4, -- 周年庆大世界社团房间
+}
+
+-- 大世界多人房间操作类型
+WorldRoomOperateType = {
+    ACTION_BUILD = 1, -- 建筑操作
+    CHANGE_EFFECT = 2, -- 更换特效
+    CHANGE_SKIN = 3, -- 更换皮肤
+    PLAY_ACTION = 4, -- 播放动作，表情 
+    CHANGE_POS = 5, -- 自动移动到目标位置
+}
+
+EC_SWITCH_TYPE = {
+    EXCHANGE_INVITE = 1,    --是否接受气球交易开关
+	TEAM_PRIVACY = 2,		--玩家的阵容隐私开关
+}
+
 --语言类型设置
 EC_LanguageType = 
 {

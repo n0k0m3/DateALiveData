@@ -25,6 +25,7 @@ function TokenPopViewNew:initDta(data, type)
     end
 
     table.sort(self.couponData,function (a,b)
+        print(a , b)
                 if a.cid == b.cid then
                     return a.outTime < b.outTime
                 else

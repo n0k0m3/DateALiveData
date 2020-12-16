@@ -13,13 +13,17 @@ function ChrismasActivityEntry:initUI(ui)
 	self.panel_root = ui:getChildByName("Panel_root") 
 	self.btn_entry = ui:getChildByName("btn_entry") 
 
+	--暂时隐藏文本
+	self.btn_entry:getChildByName("Label"):hide()
+
 	self.activityTime = ui:getChildByName("activityTime") 
 
 	self.activityTime:setText(Utils:getActivityDateString(self.activityInfo.startTime, self.activityInfo.endTime, self.activityInfo.extendData.dateStyle))
 
 
 	self.btn_entry:onClick(function()
-		Utils:openView("simulationTrial.SimulationTrialMainView",EC_ActivityFubenType.SIMULATION_TRIAL)
+		--Utils:openView("simulationTrial.SimulationTrialMainView",EC_ActivityFubenType.SIMULATION_TRIAL)
+		FunctionDataMgr:jHolidayFuben()
 	end)
 end
 

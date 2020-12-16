@@ -264,7 +264,7 @@ end
 
 --情报站指定消息更新检测，客户端本地检测
 function AgoraDataMgr:agoraTopNoticeUpdateCheck()
-    local serverTime = ServerDataMgr:getServerTime()
+    local serverTime = ServerDataMgr:customUtcTimeForServerTimestap()
     local year, month, day = Utils:getDate(serverTime)
     local hour, min, sec = Utils:getTime(serverTime)
     local daysec = hour*3600 + min*60 + sec

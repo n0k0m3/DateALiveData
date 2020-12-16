@@ -42,8 +42,8 @@ function EntrustDetailView:initUI( ui )
 	local Button_close = TFDirector:getChildByPath(ui,"Button_close")
 	local label_title = TFDirector:getChildByPath(ui,"label_title")
 	local label_type = TFDirector:getChildByPath(ui,"label_type")
-	label_title:setText(self.itemInfo.extendData.des)
-	label_type:setText(self.itemInfo.extendData.typeDes or "")
+	label_title:setText(Utils:MultiLanguageStringDeal( self.itemInfo.extendData.des))
+	label_type:setText(Utils:MultiLanguageStringDeal(self.itemInfo.extendData.typeDes or ""))
 	Button_close:onClick(function ( ... )
 		AlertManager:closeLayer(self)
 	end)
@@ -72,7 +72,7 @@ function EntrustDetailView:initUI( ui )
 	    idx = idx + 1
 	end
 
-	label_des:setText(self.itemInfo.extendData.des2)
+	label_des:setText(Utils:MultiLanguageStringDeal(self.itemInfo.extendData.des2))
 	headIcon:setTexture(self.itemInfo.extendData.iconShow)
 
 	btn_go:setVisible(self.progressInfo.status == EC_TaskStatus.ING)

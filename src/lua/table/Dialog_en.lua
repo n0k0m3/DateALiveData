@@ -9374,15 +9374,21 @@ return {
         scriptId = 4003,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 280,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Experimental annihilation suit DW029, White Licorice. Using this, it may be possible to defeat even Efreet.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -11179,7 +11185,7 @@ return {
         text = {
             [1] = {
                 speed = 60,
-                text = "Oh my,",
+                text = "Oh my, ",
                 delay = 1400,
             },
             [2] = {
@@ -15239,7 +15245,7 @@ return {
             },
             [2] = {
                 speed = 60,
-                text = " I've never felt better,",
+                text = " I've never felt better, ",
                 delay = 2520,
             },
             [3] = {
@@ -16684,7 +16690,7 @@ return {
             },
             [2] = {
                 speed = 60,
-                text = "，I thought you knew each other! ",
+                text = ", I thought you knew each other! ",
                 delay = 1960,
             },
             [3] = {
@@ -18924,15 +18930,26 @@ return {
         scriptId = 100008,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 561,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Well,",
+                delay = 800,
+            },
+            [2] = {
+                speed = 40,
+                text = "next is a simulation battle to protect key facilities.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -23703,7 +23720,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Commander,",
+                text = "Commander, ",
                 delay = 650,
             },
             [2] = {
@@ -23742,7 +23759,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Understood.",
+                text = "Understood. ",
                 delay = 650,
             },
             [2] = {
@@ -23815,12 +23832,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Not sure,",
+                text = "Not sure, ",
                 delay = 650,
             },
             [2] = {
                 speed = 40,
-                text = "but we should go and investigate,",
+                text = "but we should go and investigate, ",
                 delay = 650,
             },
             [3] = {
@@ -23859,12 +23876,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "It's so interesting,",
+                text = "It's so interesting. ",
                 delay = 650,
             },
             [2] = {
                 speed = 40,
-                text = "how can Yamai be absent?",
+                text = " How can Yamai be absent?",
             },
         },
         actionL = {
@@ -23889,15 +23906,26 @@ return {
         scriptId = 100018,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 686,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Warning.",
+                delay = 1000,
+            },
+            [2] = {
+                speed = 40,
+                text = "I hope Kaguya won't turn this snow into a blizzard.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -23926,12 +23954,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "We must act quickly,",
+                text = "We must act quickly. ",
                 delay = 650,
             },
             [2] = {
                 speed = 40,
-                text = "let's set off immediately.",
+                text = "Let's set off immediately.",
             },
         },
         actionL = {
@@ -23999,22 +24027,22 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Good!",
+                text = "Good! ",
                 delay = 1000,
             },
             [2] = {
                 speed = 40,
-                text = "Then,",
+                text = "Then, ",
                 delay = 650,
             },
             [3] = {
                 speed = 40,
-                text = "the battle has officially started.",
+                text = "the battle has officially started. ",
                 delay = 650,
             },
             [4] = {
                 speed = 40,
-                text = "for White Christmas!",
+                text = "For White Christmas!",
             },
         },
         actionL = {
@@ -24048,7 +24076,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Oh!",
+                text = "Oh! ",
                 delay = 1000,
             },
             [2] = {
@@ -24087,7 +24115,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "The fact is; it's only snowing in this area.",
+                text = "The fact is that it's only snowing in this area.",
             },
         },
         actionL = {
@@ -24121,7 +24149,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "There are magical traces nearby,",
+                text = "There are magical traces nearby, ",
                 delay = 650,
             },
             [2] = {
@@ -24160,17 +24188,17 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Wait,",
+                text = "Wait, ",
                 delay = 650,
             },
             [2] = {
                 speed = 40,
-                text = "we found the source of the magic reaction.",
+                text = "we found the source of the magic reaction. ",
                 delay = 1000,
             },
             [3] = {
                 speed = 40,
-                text = "This intensity,",
+                text = "This intensity, ",
                 delay = 650,
             },
             [4] = {
@@ -24209,7 +24237,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Ah!",
+                text = "Ah! ",
                 delay = 1000,
             },
             [2] = {
@@ -24252,7 +24280,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Huh?",
+                text = "Huh? ",
                 delay = 1000,
             },
             [2] = {
@@ -24295,7 +24323,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Oh,",
+                text = "Oh, ",
                 delay = 650,
             },
             [2] = {
@@ -24337,7 +24365,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "As I thought,",
+                text = "As I thought, ",
                 delay = 650,
             },
             [2] = {
@@ -24451,12 +24479,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Hmm...",
+                text = "Hmm... ",
                 delay = 1000,
             },
             [2] = {
                 speed = 40,
-                text = "why are they doing that?",
+                text = "why are they doing that? ",
                 delay = 1000,
             },
             [3] = {
@@ -24499,7 +24527,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Whatever their reason is,",
+                text = "Whatever their reason is, ",
                 delay = 650,
             },
             [2] = {
@@ -24572,12 +24600,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Wow,",
+                text = "Wow, ",
                 delay = 650,
             },
             [2] = {
                 speed = 40,
-                text = "there are so many of them.",
+                text = "there are so many of them. ",
                 delay = 650,
             },
             [3] = {
@@ -24616,12 +24644,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Mana,",
+                text = "Mana, ",
                 delay = 650,
             },
             [2] = {
                 speed = 40,
-                text = "you still have the AST comms channel?",
+                text = "you still have the AST comms channel? ",
                 delay = 650,
             },
             [3] = {
@@ -24694,7 +24722,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Origami Tobiichi!",
+                text = "Origami Tobiichi! ",
                 delay = 1000,
             },
             [2] = {
@@ -24738,7 +24766,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "This is official business,",
+                text = "This is official business, ",
                 delay = 650,
             },
             [2] = {
@@ -24777,12 +24805,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Really?",
+                text = "Really? ",
                 delay = 1000,
             },
             [2] = {
                 speed = 40,
-                text = "This time,",
+                text = "This time, ",
                 delay = 650,
             },
             [3] = {
@@ -24821,7 +24849,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Stop it,",
+                text = "Stop it, ",
                 delay = 650,
             },
             [2] = {
@@ -24894,17 +24922,17 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Origami Tobiichi,",
+                text = "Origami Tobiichi, ",
                 delay = 650,
             },
             [2] = {
                 speed = 40,
-                text = "we just want to enjoy White Christmas.",
+                text = "we just want to enjoy White Christmas. ",
                 delay = 650,
             },
             [3] = {
                 speed = 40,
-                text = "Can you tell me,",
+                text = "Can you tell me, ",
                 delay = 650,
             },
             [4] = {
@@ -24977,7 +25005,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Forget about this stubborn guy.",
+                text = "Forget about this stubborn guy. ",
                 delay = 1000,
             },
             [2] = {
@@ -25011,15 +25039,21 @@ return {
         scriptId = 100022,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 714,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Would you like me to use my singing?",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -25051,12 +25085,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Wait.",
+                text = "Wait. ",
                 delay = 1000,
             },
             [2] = {
                 speed = 40,
-                text = "Origami,",
+                text = "Origami, ",
                 delay = 650,
             },
             [3] = {
@@ -25129,7 +25163,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "If it snows,",
+                text = "If it snows, ",
                 delay = 650,
             },
             [2] = {
@@ -25168,12 +25202,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "I see.",
+                text = "I see. ",
                 delay = 1000,
             },
             [2] = {
                 speed = 40,
-                text = "This is an order from my superior,",
+                text = "This is an order from my superior, ",
                 delay = 650,
             },
             [3] = {
@@ -25212,7 +25246,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "To better complete the task,",
+                text = "To better complete the task, ",
                 delay = 650,
             },
             [2] = {
@@ -25251,12 +25285,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Uh...",
+                text = "Uh... ",
                 delay = 1000,
             },
             [2] = {
                 speed = 40,
-                text = "Well... I see.",
+                text = "Well... I see. ",
                 delay = 1000,
             },
             [3] = {
@@ -25295,7 +25329,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "The battle command center is just ahead.",
+                text = "The battle command center is just ahead. ",
                 delay = 1000,
             },
             [2] = {
@@ -25334,7 +25368,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Thanks for your help!",
+                text = "Thanks for your help! ",
                 delay = 1000,
             },
             [2] = {
@@ -25373,12 +25407,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Make haste,",
+                text = "Make haste, ",
                 delay = 650,
             },
             [2] = {
                 speed = 40,
-                text = "centralize the snow in this area and deal with it,",
+                text = "centralize the snow in this area and deal with it, ",
                 delay = 650,
             },
             [3] = {
@@ -25417,7 +25451,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Wait,",
+                text = "Wait, ",
                 delay = 650,
             },
             [2] = {
@@ -25456,12 +25490,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Sorry,",
+                text = "Sorry, ",
                 delay = 650,
             },
             [2] = {
                 speed = 40,
-                text = "we were planning to negotiate with you. But,",
+                text = "we were planning to negotiate with you. But, ",
                 delay = 650,
             },
             [3] = {
@@ -25541,7 +25575,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Oh,",
+                text = "Oh, ",
                 delay = 650,
             },
             [2] = {
@@ -25584,7 +25618,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Captain,",
+                text = "Captain, ",
                 delay = 650,
             },
             [2] = {
@@ -25626,7 +25660,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Master Sargent Origami,",
+                text = "Master Sargent Origami, ",
                 delay = 650,
             },
             [2] = {
@@ -25668,17 +25702,17 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "You people...",
+                text = "You people... ",
                 delay = 1000,
             },
             [2] = {
                 speed = 40,
-                text = "Don't underestimate the grudge of overtime!",
+                text = "Don't underestimate the grudge of overtime! ",
                 delay = 1000,
             },
             [3] = {
                 speed = 40,
-                text = "Extra patrol work on holidays...",
+                text = "Extra patrol work on holidays... ",
                 delay = 1000,
             },
             [4] = {
@@ -25708,15 +25742,46 @@ return {
         scriptId = 100024,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 731,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Darn... ",
+                delay = 1000,
+            },
+            [2] = {
+                speed = 40,
+                text = "Do not interrupt... ",
+                delay = 1000,
+            },
+            [3] = {
+                speed = 40,
+                text = "my work... ",
+                delay = 650,
+            },
+            [4] = {
+                speed = 40,
+                text = "work... ",
+                delay = 650,
+            },
+            [5] = {
+                speed = 40,
+                text = "work... ",
+                delay = 650,
+            },
+            [6] = {
+                speed = 40,
+                text = "work...",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -25816,7 +25881,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "I for one,",
+                text = "I for one, ",
                 delay = 650,
             },
             [2] = {
@@ -25859,7 +25924,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "However,",
+                text = "However, ",
                 delay = 650,
             },
             [2] = {
@@ -25901,17 +25966,17 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "All right. I got it.",
+                text = "All right. I got it. ",
                 delay = 1000,
             },
             [2] = {
                 speed = 40,
-                text = "Accumulated snow, huh?",
+                text = "Accumulated snow, huh? ",
                 delay = 650,
             },
             [3] = {
                 speed = 40,
-                text = "Leave it to me.",
+                text = "Leave it to me. ",
                 delay = 1000,
             },
             [4] = {
@@ -25950,12 +26015,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "What are you...",
+                text = "What are you... ",
                 delay = 1000,
             },
             [2] = {
                 speed = 40,
-                text = "So hot...",
+                text = "So hot... ",
                 delay = 1000,
             },
             [3] = {
@@ -25994,12 +26059,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "You see,",
+                text = "You see, ",
                 delay = 650,
             },
             [2] = {
                 speed = 40,
-                text = "when it comes to snow,",
+                text = "when it comes to snow, ",
                 delay = 650,
             },
             [3] = {
@@ -26038,7 +26103,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Hmm,",
+                text = "Hmm, ",
                 delay = 650,
             },
             [2] = {
@@ -26118,7 +26183,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "There is no other way,",
+                text = "There is no other way, ",
                 delay = 650,
             },
             [2] = {
@@ -26161,7 +26226,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "I will hold a live concert,",
+                text = "I will hold a live concert, ",
                 delay = 650,
             },
             [2] = {
@@ -26203,7 +26268,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "I accept your help...",
+                text = "I accept your help... ",
                 delay = 650,
             },
             [2] = {
@@ -26242,7 +26307,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Humph ~",
+                text = "Humph ~ ",
                 delay = 1000,
             },
             [2] = {
@@ -26349,7 +26414,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Don't worry. Wizards of DEM have been on vacation leave for a long time,",
+                text = "Don't worry. Wizards of DEM have been on vacation leave for a long time, ",
                 delay = 650,
             },
             [2] = {
@@ -26388,12 +26453,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Wow,",
+                text = "Wow, ",
                 delay = 650,
             },
             [2] = {
                 speed = 40,
-                text = "that's inhumane,",
+                text = "that's inhumane, ",
                 delay = 650,
             },
             [3] = {
@@ -26432,7 +26497,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "So,",
+                text = "So, ",
                 delay = 650,
             },
             [2] = {
@@ -26509,7 +26574,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Haha,",
+                text = "Haha, ",
                 delay = 650,
             },
             [2] = {
@@ -26551,7 +26616,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "This is the first time I've tried sneaking quietly,",
+                text = "This is the first time I've tried sneaking quietly, ",
                 delay = 650,
             },
             [2] = {
@@ -26664,17 +26729,17 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Good,",
+                text = "Good, ",
                 delay = 650,
             },
             [2] = {
                 speed = 40,
-                text = "area cleared.",
+                text = "area cleared. ",
                 delay = 1000,
             },
             [3] = {
                 speed = 40,
-                text = "Everyone,",
+                text = "Everyone, ",
                 delay = 650,
             },
             [4] = {
@@ -26738,15 +26803,36 @@ return {
         scriptId = 100026,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 759,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Hmm, ",
+                delay = 650,
+            },
+            [2] = {
+                speed = 40,
+                text = "thank you ~ ",
+                delay = 1000,
+            },
+            [3] = {
+                speed = 40,
+                text = "Everyone, ",
+                delay = 650,
+            },
+            [4] = {
+                speed = 40,
+                text = "it seems that a large weather control device was newly built on the roof of that building.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -26775,7 +26861,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Weather control device?",
+                text = "Weather control device? ",
                 delay = 1000,
             },
             [2] = {
@@ -26814,17 +26900,17 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "It seems so.",
+                text = "It seems so. ",
                 delay = 1000,
             },
             [2] = {
                 speed = 40,
-                text = "Everyone,",
+                text = "Everyone, ",
                 delay = 650,
             },
             [3] = {
                 speed = 40,
-                text = "rest a bit,",
+                text = "rest a bit, ",
                 delay = 650,
             },
             [4] = {
@@ -26901,7 +26987,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "It's been a while,",
+                text = "It's been a while, ",
                 delay = 650,
             },
             [2] = {
@@ -26944,7 +27030,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Brute force seems impossible,",
+                text = "Brute force seems impossible, ",
                 delay = 650,
             },
             [2] = {
@@ -26986,17 +27072,17 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "This network structure... Everyone,",
+                text = "This network structure... Everyone, ",
                 delay = 650,
             },
             [2] = {
                 speed = 40,
-                text = "I propose we go to the sub control room in area C-7,",
+                text = "I propose we go to the sub control room in area C-7, ",
                 delay = 650,
             },
             [3] = {
                 speed = 40,
-                text = "from there we can simply hack into the main system,",
+                text = "from there we can simply hack into the main system, ",
                 delay = 650,
             },
             [4] = {
@@ -27035,7 +27121,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Oh?",
+                text = "Oh? ",
                 delay = 1000,
             },
             [2] = {
@@ -27074,7 +27160,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Amazing.",
+                text = "Amazing. ",
                 delay = 1000,
             },
             [2] = {
@@ -27116,17 +27202,17 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Trojan house huh?",
+                text = "Trojan house huh? ",
                 delay = 1000,
             },
             [2] = {
                 speed = 40,
-                text = "Haha,",
+                text = "Haha, ",
                 delay = 650,
             },
             [3] = {
                 speed = 40,
-                text = "I'll rely on your wisdom this time,",
+                text = "I'll rely on your wisdom this time, ",
                 delay = 650,
             },
             [4] = {
@@ -27168,7 +27254,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Muu,",
+                text = "Muu, ",
                 delay = 650,
             },
             [2] = {
@@ -27211,7 +27297,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Then everyone,",
+                text = "Then everyone, ",
                 delay = 650,
             },
             [2] = {
@@ -27284,12 +27370,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Kannazuki!",
+                text = "Kannazuki! ",
                 delay = 1000,
             },
             [2] = {
                 speed = 40,
-                text = "I have connected the comms into the system,",
+                text = "I have connected the comms into the system, ",
                 delay = 650,
             },
             [3] = {
@@ -27328,7 +27414,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Leave it to me,",
+                text = "Leave it to me, ",
                 delay = 650,
             },
             [2] = {
@@ -27367,7 +27453,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Oh,",
+                text = "Oh, ",
                 delay = 650,
             },
             [2] = {
@@ -27406,7 +27492,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Oh my,",
+                text = "Oh my, ",
                 delay = 650,
             },
             [2] = {
@@ -27487,7 +27573,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "So exciting, like a secret concert,",
+                text = "So exciting, like a secret concert, ",
                 delay = 650,
             },
             [2] = {
@@ -27529,12 +27615,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Haha,",
+                text = "Haha, ",
                 delay = 650,
             },
             [2] = {
                 speed = 40,
-                text = "let here become the center of the Labyrinth of Minos.",
+                text = "let here become the center of the Labyrinth of Minos. ",
                 delay = 650,
             },
             [3] = {
@@ -27576,12 +27662,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Holdfast.",
+                text = "Holdfast. ",
                 delay = 1000,
             },
             [2] = {
                 speed = 40,
-                text = "Hold until Master Origami is finished,",
+                text = "Hold until Master Origami is finished, ",
                 delay = 650,
             },
             [3] = {
@@ -27614,15 +27700,31 @@ return {
         scriptId = 100028,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 780,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Come on, ",
+                delay = 650,
+            },
+            [2] = {
+                speed = 40,
+                text = "for White Christmas, ",
+                delay = 650,
+            },
+            [3] = {
+                speed = 40,
+                text = "let our Date Hack begin!",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -27651,12 +27753,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "You...",
+                text = "You... ",
                 delay = 1000,
             },
             [2] = {
                 speed = 40,
-                text = "how dare you...",
+                text = "how dare you... ",
                 delay = 1000,
             },
             [3] = {
@@ -27695,7 +27797,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Hey!...",
+                text = "Hey!... ",
                 delay = 1000,
             },
             [2] = {
@@ -27737,12 +27839,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "I didn't expect you to be here.",
+                text = "I didn't expect you to be here. ",
                 delay = 1000,
             },
             [2] = {
                 speed = 40,
-                text = "Don't be scared by her,",
+                text = "Don't be scared by her, ",
                 delay = 650,
             },
             [3] = {
@@ -27821,7 +27923,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "No.1 wizard?",
+                text = "No.1 wizard? ",
                 delay = 1000,
             },
             [2] = {
@@ -27864,7 +27966,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Tell me,",
+                text = "Tell me, ",
                 delay = 650,
             },
             [2] = {
@@ -27903,17 +28005,17 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Stop the snow?",
+                text = "Stop the snow? ",
                 delay = 1000,
             },
             [2] = {
                 speed = 40,
-                text = "Humph,",
+                text = "Humph, ",
                 delay = 650,
             },
             [3] = {
                 speed = 40,
-                text = "this world will never see snow again,",
+                text = "this world will never see snow again, ",
                 delay = 650,
             },
             [4] = {
@@ -27952,7 +28054,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Huh?",
+                text = "Huh? ",
                 delay = 1000,
             },
             [2] = {
@@ -27994,7 +28096,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Startled.",
+                text = "Startled. ",
                 delay = 1000,
             },
             [2] = {
@@ -28036,7 +28138,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Is it about your broken heart?",
+                text = "Is it about your broken heart? ",
                 delay = 1000,
             },
             [2] = {
@@ -28078,7 +28180,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "For a reason like that?",
+                text = "For a reason like that? ",
                 delay = 1000,
             },
             [2] = {
@@ -28117,12 +28219,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Defeat me?",
+                text = "Defeat me? ",
                 delay = 1000,
             },
             [2] = {
                 speed = 40,
-                text = "Humph,",
+                text = "Humph, ",
                 delay = 650,
             },
             [3] = {
@@ -28161,12 +28263,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Succeeded.",
+                text = "Succeeded. ",
                 delay = 1000,
             },
             [2] = {
                 speed = 40,
-                text = "System overloaded,",
+                text = "System overloaded, ",
                 delay = 650,
             },
             [3] = {
@@ -28239,7 +28341,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Good job,",
+                text = "Good job, ",
                 delay = 650,
             },
             [2] = {
@@ -28312,7 +28414,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Kannazuki,",
+                text = "Kannazuki, ",
                 delay = 650,
             },
             [2] = {
@@ -28351,7 +28453,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Darn!",
+                text = "Darn! ",
                 delay = 1000,
             },
             [2] = {
@@ -28526,7 +28628,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Discovered.",
+                text = "Discovered. ",
                 delay = 1000,
             },
             [2] = {
@@ -28565,7 +28667,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "The reason for the melting of snow and ice,",
+                text = "The reason for the melting of snow and ice, ",
                 delay = 650,
             },
             [2] = {
@@ -28672,7 +28774,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "We finally drove them away,",
+                text = "We finally drove them away, ",
                 delay = 650,
             },
             [2] = {
@@ -28711,7 +28813,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Whew...",
+                text = "Whew... ",
                 delay = 1000,
             },
             [2] = {
@@ -28818,7 +28920,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Ah...",
+                text = "Ah... ",
                 delay = 1000,
             },
             [2] = {
@@ -28857,7 +28959,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Kannazuki,",
+                text = "Kannazuki, ",
                 delay = 650,
             },
             [2] = {
@@ -28896,7 +28998,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "All data critical.",
+                text = "All data critical. ",
                 delay = 650,
             },
             [2] = {
@@ -28969,7 +29071,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Darn...",
+                text = "Darn... ",
                 delay = 1000,
             },
             [2] = {
@@ -29008,7 +29110,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "This takes forever,",
+                text = "This takes forever, ",
                 delay = 650,
             },
             [2] = {
@@ -29047,7 +29149,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "We will divide into three groups,",
+                text = "We will divide into three groups, ",
                 delay = 650,
             },
             [2] = {
@@ -29086,7 +29188,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Oh ~",
+                text = "Oh ~ ",
                 delay = 1000,
             },
             [2] = {
@@ -29125,22 +29227,22 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Now is not the time,",
+                text = "Now is not the time, ",
                 delay = 650,
             },
             [2] = {
                 speed = 40,
-                text = "Kannazuki Group A,",
+                text = "Kannazuki Group A, ",
                 delay = 650,
             },
             [3] = {
                 speed = 40,
-                text = "Tohka Group B,",
+                text = "Tohka Group B, ",
                 delay = 650,
             },
             [4] = {
                 speed = 40,
-                text = "I'm Group C,",
+                text = "I'm Group C, ",
                 delay = 650,
             },
             [5] = {
@@ -29179,7 +29281,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "For White Christmas,",
+                text = "For White Christmas, ",
                 delay = 650,
             },
             [2] = {
@@ -29218,7 +29320,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Commander,",
+                text = "Commander, ",
                 delay = 650,
             },
             [2] = {
@@ -29359,7 +29461,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "What is...",
+                text = "What is... ",
                 delay = 1000,
             },
             [2] = {
@@ -29398,12 +29500,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Aggregation energy reaction,",
+                text = "Aggregation energy reaction, ",
                 delay = 650,
             },
             [2] = {
                 speed = 40,
-                text = "everyone,",
+                text = "everyone, ",
                 delay = 650,
             },
             [3] = {
@@ -29442,7 +29544,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Origami Tobiichi,",
+                text = "Origami Tobiichi, ",
                 delay = 650,
             },
             [2] = {
@@ -29481,7 +29583,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Umu,",
+                text = "Umu, ",
                 delay = 650,
             },
             [2] = {
@@ -29520,7 +29622,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Be careful,",
+                text = "Be careful, ",
                 delay = 650,
             },
             [2] = {
@@ -29559,7 +29661,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Geez,",
+                text = "Geez, ",
                 delay = 650,
             },
             [2] = {
@@ -29598,7 +29700,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Tough enemy...",
+                text = "Tough enemy... ",
                 delay = 1000,
             },
             [2] = {
@@ -29640,7 +29742,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Not as tough as I thought,",
+                text = "Not as tough as I thought, ",
                 delay = 650,
             },
             [2] = {
@@ -29683,12 +29785,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "We must act now,",
+                text = "We must act now, ",
                 delay = 650,
             },
             [2] = {
                 speed = 40,
-                text = "let's go to the next location,",
+                text = "let's go to the next location, ",
                 delay = 650,
             },
             [3] = {
@@ -29727,7 +29829,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Right,",
+                text = "Right, ",
                 delay = 650,
             },
             [2] = {
@@ -29800,7 +29902,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Finally.",
+                text = "Finally. ",
                 delay = 1000,
             },
             [2] = {
@@ -29839,7 +29941,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Umu,",
+                text = "Umu, ",
                 delay = 650,
             },
             [2] = {
@@ -29878,12 +29980,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Well,",
+                text = "Well, ",
                 delay = 650,
             },
             [2] = {
                 speed = 40,
-                text = "this is the last abnormal area.",
+                text = "this is the last abnormal area. ",
                 delay = 650,
             },
             [3] = {
@@ -29922,7 +30024,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Hmm,",
+                text = "Hmm, ",
                 delay = 650,
             },
             [2] = {
@@ -29961,7 +30063,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Geez,",
+                text = "Geez, ",
                 delay = 650,
             },
             [2] = {
@@ -30000,7 +30102,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "But...",
+                text = "But... ",
                 delay = 1000,
             },
             [2] = {
@@ -30073,7 +30175,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Darn,",
+                text = "Darn, ",
                 delay = 650,
             },
             [2] = {
@@ -30112,7 +30214,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Everyone wants the same,",
+                text = "Everyone wants the same, ",
                 delay = 650,
             },
             [2] = {
@@ -30151,7 +30253,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Finally, we found you,",
+                text = "Finally, we found you, ",
                 delay = 650,
             },
             [2] = {
@@ -30224,7 +30326,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Got it...",
+                text = "Got it... ",
                 delay = 1000,
             },
             [2] = {
@@ -30297,7 +30399,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Umu,",
+                text = "Umu, ",
                 delay = 650,
             },
             [2] = {
@@ -30336,7 +30438,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Their leader told them to hide the snow,",
+                text = "Their leader told them to hide the snow, ",
                 delay = 650,
             },
             [2] = {
@@ -30443,7 +30545,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Humph,",
+                text = "Humph, ",
                 delay = 650,
             },
             [2] = {
@@ -30482,7 +30584,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Mana is right,",
+                text = "Mana is right, ",
                 delay = 650,
             },
             [2] = {
@@ -30589,7 +30691,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "She said...",
+                text = "She said... ",
                 delay = 1000,
             },
             [2] = {
@@ -30628,22 +30730,22 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Ah,",
+                text = "Ah, ",
                 delay = 650,
             },
             [2] = {
                 speed = 40,
-                text = "you meant that,",
+                text = "you meant that, ",
                 delay = 650,
             },
             [3] = {
                 speed = 40,
-                text = "right,",
+                text = "right, ",
                 delay = 650,
             },
             [4] = {
                 speed = 40,
-                text = "it's my doing.",
+                text = "it's my doing. ",
                 delay = 650,
             },
             [5] = {
@@ -30682,12 +30784,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Darn,",
+                text = "Darn, ",
                 delay = 650,
             },
             [2] = {
                 speed = 40,
-                text = "why so righteous?",
+                text = "why so righteous? ",
                 delay = 650,
             },
             [3] = {
@@ -30726,17 +30828,17 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Want it back?",
+                text = "Want it back? ",
                 delay = 1000,
             },
             [2] = {
                 speed = 40,
-                text = "No problem,",
+                text = "No problem, ",
                 delay = 650,
             },
             [3] = {
                 speed = 40,
-                text = "if you can make me happy... or,",
+                text = "if you can make me happy... or, ",
                 delay = 650,
             },
             [4] = {
@@ -30775,7 +30877,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Humph,",
+                text = "Humph, ",
                 delay = 650,
             },
             [2] = {
@@ -30814,7 +30916,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "I didn't expect you to be this strong.",
+                text = "I didn't expect you to be this strong. ",
                 delay = 650,
             },
             [2] = {
@@ -30853,7 +30955,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Darn...",
+                text = "Darn... ",
                 delay = 1000,
             },
             [2] = {
@@ -30892,7 +30994,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "You're pretty strong,",
+                text = "You're pretty strong, ",
                 delay = 650,
             },
             [2] = {
@@ -30931,7 +31033,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "It's a pity...",
+                text = "It's a pity... ",
                 delay = 1000,
             },
             [2] = {
@@ -30970,7 +31072,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Warning.",
+                text = "Warning. ",
                 delay = 650,
             },
             [2] = {
@@ -31014,12 +31116,12 @@ return {
             },
             [2] = {
                 speed = 40,
-                text = "you over there,",
+                text = "you over there, ",
                 delay = 650,
             },
             [3] = {
                 speed = 40,
-                text = "don't move,",
+                text = "don't move, ",
                 delay = 650,
             },
             [4] = {
@@ -31058,12 +31160,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Sorry...",
+                text = "Sorry... ",
                 delay = 1000,
             },
             [2] = {
                 speed = 40,
-                text = "we were blocked outside.",
+                text = "we were blocked outside. ",
                 delay = 650,
             },
             [3] = {
@@ -31102,7 +31204,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Reinforcement has arrived,",
+                text = "Reinforcement has arrived, ",
                 delay = 650,
             },
             [2] = {
@@ -31141,12 +31243,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Oh my...",
+                text = "Oh my... ",
                 delay = 1000,
             },
             [2] = {
                 speed = 40,
-                text = "It's so boisterous.",
+                text = "It's so boisterous. ",
                 delay = 650,
             },
             [3] = {
@@ -31185,12 +31287,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "I won't play with you anymore,",
+                text = "I won't play with you anymore, ",
                 delay = 650,
             },
             [2] = {
                 speed = 40,
-                text = "you can have your snow back,",
+                text = "you can have your snow back, ",
                 delay = 650,
             },
             [3] = {
@@ -31229,7 +31331,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "What a strange...",
+                text = "What a strange... ",
                 delay = 1000,
             },
             [2] = {
@@ -31268,7 +31370,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Now that we have achieved our goal,",
+                text = "Now that we have achieved our goal, ",
                 delay = 650,
             },
             [2] = {
@@ -31307,7 +31409,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Whew,",
+                text = "Whew, ",
                 delay = 650,
             },
             [2] = {
@@ -31380,12 +31482,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Oh my,",
+                text = "Oh my, ",
                 delay = 650,
             },
             [2] = {
                 speed = 40,
-                text = "there is scary energy inside the tear,",
+                text = "there is scary energy inside the tear, ",
                 delay = 650,
             },
             [3] = {
@@ -31424,7 +31526,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "You were that girl...",
+                text = "You were that girl... ",
                 delay = 1000,
             },
             [2] = {
@@ -31466,7 +31568,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "You,",
+                text = "You, ",
                 delay = 650,
             },
             [2] = {
@@ -31508,12 +31610,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Oh my,",
+                text = "Oh my, ",
                 delay = 650,
             },
             [2] = {
                 speed = 40,
-                text = "it's you,",
+                text = "it's you, ",
                 delay = 650,
             },
             [3] = {
@@ -31552,7 +31654,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "... Why are you here,",
+                text = "... Why are you here, ",
                 delay = 650,
             },
             [2] = {
@@ -31591,7 +31693,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Well,",
+                text = "Well, ",
                 delay = 650,
             },
             [2] = {
@@ -31630,7 +31732,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "If it is not resolved,",
+                text = "If it is not resolved, ",
                 delay = 650,
             },
             [2] = {
@@ -31669,12 +31771,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "I'll trust you this time...",
+                text = "I'll trust you this time... ",
                 delay = 1000,
             },
             [2] = {
                 speed = 40,
-                text = "Lead the way,",
+                text = "Lead the way, ",
                 delay = 650,
             },
             [3] = {
@@ -31713,12 +31815,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Oh my,",
+                text = "Oh my, ",
                 delay = 650,
             },
             [2] = {
                 speed = 40,
-                text = "mind your tone when pleading.",
+                text = "mind your tone when pleading. ",
                 delay = 650,
             },
             [3] = {
@@ -31794,7 +31896,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Oh my,",
+                text = "Oh my, ",
                 delay = 650,
             },
             [2] = {
@@ -31867,12 +31969,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Not the same.",
+                text = "Not the same. ",
                 delay = 650,
             },
             [2] = {
                 speed = 40,
-                text = "Even for me,",
+                text = "Even for me, ",
                 delay = 650,
             },
             [3] = {
@@ -31911,7 +32013,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Everyone...",
+                text = "Everyone... ",
                 delay = 1000,
             },
             [2] = {
@@ -31950,7 +32052,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Let's scatter and search again.",
+                text = "Let's scatter and search again. ",
                 delay = 650,
             },
             [2] = {
@@ -31989,7 +32091,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "I can feel it,",
+                text = "I can feel it, ",
                 delay = 650,
             },
             [2] = {
@@ -32065,7 +32167,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Where is the specific position?",
+                text = "Where is the specific position? ",
                 delay = 650,
             },
             [2] = {
@@ -32104,12 +32206,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Hehe,",
+                text = "Hehe, ",
                 delay = 650,
             },
             [2] = {
                 speed = 40,
-                text = "don't worry,",
+                text = "don't worry, ",
                 delay = 650,
             },
             [3] = {
@@ -32185,7 +32287,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Ha,",
+                text = "Ha, ",
                 delay = 650,
             },
             [2] = {
@@ -32224,7 +32326,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Oh my,",
+                text = "Oh my, ",
                 delay = 650,
             },
             [2] = {
@@ -32263,12 +32365,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Coward,",
+                text = "Coward, ",
                 delay = 650,
             },
             [2] = {
                 speed = 40,
-                text = "humph,",
+                text = "humph, ",
                 delay = 650,
             },
             [3] = {
@@ -32310,7 +32412,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "This place...",
+                text = "This place... ",
                 delay = 1000,
             },
             [2] = {
@@ -32352,7 +32454,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "There are less enemies now,",
+                text = "There are less enemies now, ",
                 delay = 650,
             },
             [2] = {
@@ -32391,7 +32493,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "I can see it,",
+                text = "I can see it, ",
                 delay = 650,
             },
             [2] = {
@@ -32467,7 +32569,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Cooperate,",
+                text = "Cooperate, ",
                 delay = 650,
             },
             [2] = {
@@ -32543,12 +32645,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Hehe,",
+                text = "Hehe, ",
                 delay = 650,
             },
             [2] = {
                 speed = 40,
-                text = "leave it to me,",
+                text = "leave it to me, ",
                 delay = 650,
             },
             [3] = {
@@ -32587,7 +32689,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "The Mana level here is decreasing,",
+                text = "The Mana level here is decreasing, ",
                 delay = 650,
             },
             [2] = {
@@ -32626,7 +32728,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Oh my...",
+                text = "Oh my... ",
                 delay = 1000,
             },
             [2] = {
@@ -32704,12 +32806,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "So,",
+                text = "So, ",
                 delay = 650,
             },
             [2] = {
                 speed = 40,
-                text = "next,",
+                text = "next, ",
                 delay = 650,
             },
             [3] = {
@@ -32748,7 +32850,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "The tactic is simple,",
+                text = "The tactic is simple, ",
                 delay = 650,
             },
             [2] = {
@@ -32787,7 +32889,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "No problem,",
+                text = "No problem, ",
                 delay = 650,
             },
             [2] = {
@@ -32867,7 +32969,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Battle alongside Spirits,",
+                text = "Battle alongside Spirits, ",
                 delay = 650,
             },
             [2] = {
@@ -32946,12 +33048,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "A little tired,",
+                text = "A little tired, ",
                 delay = 650,
             },
             [2] = {
                 speed = 40,
-                text = "but,",
+                text = "but, ",
                 delay = 650,
             },
             [3] = {
@@ -33031,7 +33133,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "My black spear has never pulsed like this,",
+                text = "My black spear has never pulsed like this, ",
                 delay = 650,
             },
             [2] = {
@@ -33073,12 +33175,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Inspired.",
+                text = "Inspired. ",
                 delay = 1000,
             },
             [2] = {
                 speed = 40,
-                text = "Fighting alongside everyone,",
+                text = "Fighting alongside everyone, ",
                 delay = 650,
             },
             [3] = {
@@ -33120,7 +33222,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Then,",
+                text = "Then, ",
                 delay = 650,
             },
             [2] = {
@@ -33159,7 +33261,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Kurumi,",
+                text = "Kurumi, ",
                 delay = 650,
             },
             [2] = {
@@ -33198,7 +33300,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Have a little more trust in me, will you?",
+                text = "Have a little more trust in me, will you? ",
                 delay = 1000,
             },
             [2] = {
@@ -33237,12 +33339,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Come on!",
+                text = "Come on! ",
                 delay = 1000,
             },
             [2] = {
                 speed = 40,
-                text = "Come on!",
+                text = "Come on! ",
                 delay = 1000,
             },
             [3] = {
@@ -33284,12 +33386,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Oh,",
+                text = "Oh, ",
                 delay = 650,
             },
             [2] = {
                 speed = 40,
-                text = "amazing,",
+                text = "amazing, ",
                 delay = 650,
             },
             [3] = {
@@ -33328,7 +33430,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Sigh.",
+                text = "Sigh. ",
                 delay = 1000,
             },
             [2] = {
@@ -33370,17 +33472,17 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Ah...",
+                text = "Ah... ",
                 delay = 1000,
             },
             [2] = {
                 speed = 40,
-                text = "So it is done,",
+                text = "So it is done, ",
                 delay = 650,
             },
             [3] = {
                 speed = 40,
-                text = "I can finally get off work.",
+                text = "I can finally get off work. ",
                 delay = 650,
             },
             [4] = {
@@ -33423,7 +33525,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Starting now,",
+                text = "Starting now, ",
                 delay = 650,
             },
             [2] = {
@@ -33465,7 +33567,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Finally...",
+                text = "Finally... ",
                 delay = 1000,
             },
             [2] = {
@@ -33507,7 +33609,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Look,",
+                text = "Look, ",
                 delay = 650,
             },
             [2] = {
@@ -33546,12 +33648,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Oh!",
+                text = "Oh! ",
                 delay = 650,
             },
             [2] = {
                 speed = 40,
-                text = "So this is White Christmas,",
+                text = "So this is White Christmas, ",
                 delay = 650,
             },
             [3] = {
@@ -33590,17 +33692,17 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "An interesting party awaits you.",
+                text = "An interesting party awaits you. ",
                 delay = 1000,
             },
             [2] = {
                 speed = 40,
-                text = "I'd like to join you,",
+                text = "I'd like to join you, ",
                 delay = 650,
             },
             [3] = {
                 speed = 40,
-                text = "but maybe next time.",
+                text = "but maybe next time. ",
                 delay = 1000,
             },
             [4] = {
@@ -33678,7 +33780,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Everyone,",
+                text = "Everyone, ",
                 delay = 650,
             },
             [2] = {
@@ -33751,7 +33853,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Be careful,",
+                text = "Be careful, ",
                 delay = 650,
             },
             [2] = {
@@ -33824,7 +33926,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Anyway,",
+                text = "Anyway, ",
                 delay = 650,
             },
             [2] = {
@@ -33863,7 +33965,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Huh?",
+                text = "Huh? ",
                 delay = 1000,
             },
             [2] = {
@@ -33970,7 +34072,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "To be honest,",
+                text = "To be honest, ",
                 delay = 650,
             },
             [2] = {
@@ -34009,7 +34111,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "I already called other Spirits for support,",
+                text = "I already called other Spirits for support, ",
                 delay = 650,
             },
             [2] = {
@@ -34048,7 +34150,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "No need,",
+                text = "No need, ",
                 delay = 650,
             },
             [2] = {
@@ -34121,7 +34223,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "What?",
+                text = "What? ",
                 delay = 1000,
             },
             [2] = {
@@ -34160,7 +34262,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "We can't allow the enemies to fight in the residential area,",
+                text = "We can't allow the enemies to fight in the residential area, ",
                 delay = 650,
             },
             [2] = {
@@ -34199,7 +34301,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Roger!",
+                text = "Roger! ",
                 delay = 1000,
             },
             [2] = {
@@ -34238,7 +34340,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Enemy reinforcement inbound.",
+                text = "Enemy reinforcement inbound. ",
                 delay = 650,
             },
             [2] = {
@@ -34311,7 +34413,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Be careful,",
+                text = "Be careful, ",
                 delay = 650,
             },
             [2] = {
@@ -34384,7 +34486,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Due to interception,",
+                text = "Due to interception, ",
                 delay = 650,
             },
             [2] = {
@@ -34491,7 +34593,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Not clear yet,",
+                text = "Not clear yet, ",
                 delay = 650,
             },
             [2] = {
@@ -34530,7 +34632,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "What!",
+                text = "What! ",
                 delay = 1000,
             },
             [2] = {
@@ -34569,12 +34671,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Mayuri,",
+                text = "Mayuri, ",
                 delay = 650,
             },
             [2] = {
                 speed = 40,
-                text = "be careful!",
+                text = "be careful! ",
                 delay = 1000,
             },
             [3] = {
@@ -34613,7 +34715,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Use vanguards to deplete battle power,",
+                text = "Use vanguards to deplete battle power, ",
                 delay = 650,
             },
             [2] = {
@@ -34691,7 +34793,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "So far so good,",
+                text = "So far so good, ",
                 delay = 650,
             },
             [2] = {
@@ -34758,7 +34860,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "The power is so strong,",
+                text = "The power is so strong, ",
                 delay = 650,
             },
             [2] = {
@@ -34797,7 +34899,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "The enemies were crippled.",
+                text = "The enemies were crippled. ",
                 delay = 650,
             },
             [2] = {
@@ -34870,7 +34972,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "I don't like using violence...",
+                text = "I don't like using violence... ",
                 delay = 1000,
             },
             [2] = {
@@ -34977,17 +35079,17 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "So...",
+                text = "So... ",
                 delay = 650,
             },
             [2] = {
                 speed = 40,
-                text = "commander...",
+                text = "commander... ",
                 delay = 1000,
             },
             [3] = {
                 speed = 40,
-                text = "the civil evacuation costs...",
+                text = "the civil evacuation costs... ",
                 delay = 1000,
             },
             [4] = {
@@ -35026,7 +35128,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Whew...",
+                text = "Whew... ",
                 delay = 1000,
             },
             [2] = {
@@ -35143,7 +35245,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Closing on target,",
+                text = "Closing on target, ",
                 delay = 300,
             },
             [2] = {
@@ -35309,7 +35411,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Thanks for your hospitality,",
+                text = "Thanks for your hospitality, ",
                 delay = 700,
             },
             [2] = {
@@ -35353,12 +35455,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Captain,",
+                text = "Captain, ",
                 delay = 300,
             },
             [2] = {
                 speed = 40,
-                text = "the Spirit,",
+                text = "the Spirit, ",
                 delay = 300,
             },
             [3] = {
@@ -35441,7 +35543,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "I'm just here to play a little while,",
+                text = "I'm just here to play a little while, ",
                 delay = 700,
             },
             [2] = {
@@ -35519,7 +35621,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Hehe,",
+                text = "Hehe, ",
                 delay = 300,
             },
             [2] = {
@@ -35597,7 +35699,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "So,",
+                text = "So, ",
                 delay = 300,
             },
             [2] = {
@@ -35748,7 +35850,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Please don't follow me anymore,",
+                text = "Please don't follow me anymore, ",
                 delay = 300,
             },
             [2] = {
@@ -35787,7 +35889,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Squad B,",
+                text = "Squad B, ",
                 delay = 300,
             },
             [2] = {
@@ -35899,7 +36001,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "As a Spirit,",
+                text = "As a Spirit, ",
                 delay = 300,
             },
             [2] = {
@@ -35972,12 +36074,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "However,",
+                text = "However, ",
                 delay = 700,
             },
             [2] = {
                 speed = 40,
-                text = "if you like,",
+                text = "if you like, ",
                 delay = 300,
             },
             [3] = {
@@ -36007,15 +36109,21 @@ return {
         scriptId = 100065,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 1046,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "... Haniel!",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -36083,7 +36191,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "You are persistent,",
+                text = "You are persistent, ",
                 delay = 300,
             },
             [2] = {
@@ -36122,7 +36230,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "However,",
+                text = "However, ",
                 delay = 300,
             },
             [2] = {
@@ -36278,7 +36386,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Oh, is Yoshino scared?",
+                text = "Oh, is Yoshino scared? ",
                 delay = 300,
             },
             [2] = {
@@ -36570,7 +36678,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Hmm... I know,",
+                text = "Hmm... I know, ",
                 delay = 300,
             },
             [2] = {
@@ -36714,7 +36822,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Oh, little Kotori,",
+                text = "Oh, little Kotori, ",
                 delay = 300,
             },
             [2] = {
@@ -79344,15 +79452,21 @@ return {
         scriptId = 9291,
         headMirrorL = true,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 2515,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "This device can absorb your Power of Faith as fuel. The effect is better after enhancement...",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -79842,15 +79956,21 @@ return {
         scriptId = 9294,
         headMirrorL = true,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 2533,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Oh my, isn't that obvious? I can't allow DEM to get their hands on a goddess.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -82760,15 +82880,21 @@ return {
         scriptId = 9318,
         headMirrorL = true,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 2643,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Entangled by strange wires... Power of Faith is being sucked away...",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -82788,15 +82914,21 @@ return {
         scriptId = 9318,
         headMirrorL = true,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 2644,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Cannot dodge at all... I underestimated her! My Faith has been taken away by it before... I didn't expect such drastic improvement in such a short time...",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -83700,15 +83832,21 @@ return {
         scriptId = 9323,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 2676,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Impressive, %s. Indeed... the me in front of you now is a clone.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -83762,15 +83900,21 @@ return {
         scriptId = 9323,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 2678,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Do you want us to cut off the energy supply of the whole area outside the base? Not a bad idea.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -83994,15 +84138,21 @@ return {
         scriptId = 9324,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 2686,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Wait? Could this be... Kerubiel?",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -84294,15 +84444,21 @@ return {
         scriptId = 9327,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 2698,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Is this the power of Kerubiel? Why is it here?",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -84322,15 +84478,21 @@ return {
         scriptId = 9327,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 2699,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Maybe Bran Galed had a system disorder when the energy was cut off... and triggered Judgment.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -84350,15 +84512,21 @@ return {
         scriptId = 9327,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 2700,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "Commander! Target that may be Kerubiel is attacking...",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -84582,15 +84750,21 @@ return {
         scriptId = 9328,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 2708,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "It's not a battle of profit, but that power failure just now was probably %s's handy work.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -85278,15 +85452,21 @@ return {
         scriptId = 9333,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 2730,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "This is... a secret spy letter from Mayuri! Neighboring lord assassinated, princess missing!?",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -95396,6 +95576,6194 @@ return {
         textBg = 11,
         bgName = "",
     },
+    [3028] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9399,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3028,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "发现目标！全员准备作战！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "AST队员",
+        cameraAction = 0,
+        headL = "20101_a2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3029] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13001_huangzhang",
+        scriptId = 9399,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3029,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "什么？！追杀神明的人类真的存在啊！……贝尔……你在哪里？！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "赫斯缇雅",
+        cameraAction = 0,
+        headL = "20101_a2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3030] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13001_huangzhang",
+        scriptId = 9399,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3030,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "唔姆！上神大人请让我来保护你吧！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "夜刀神十香",
+        cameraAction = 0,
+        headL = "10101_b2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3031] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9400,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3031,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "你的战力很强，是Level几的冒险者？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "赫斯缇雅",
+        cameraAction = 0,
+        headL = "13001_haoqi",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3032] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10101_e2",
+        scriptId = 9400,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3032,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "冒险者？那是什么？料理等级吗？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "夜刀神十香",
+        cameraAction = 0,
+        headL = "13001_haoqi",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3033] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10101_e2",
+        scriptId = 9400,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3033,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "不是料理……就是……算了，或许这个世界不存在冒险者吧。可以告诉我你的名字吗？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "赫斯缇雅",
+        cameraAction = 0,
+        headL = "13001_weixiao",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3034] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10101_e2",
+        scriptId = 9400,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3034,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "十香！夜刀神十香。这是%s为我取的名字哦。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "夜刀神十香",
+        cameraAction = 0,
+        headL = "13001_weixiao",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3035] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10101_e2",
+        scriptId = 9400,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3035,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "很好听的名字啊！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "赫斯缇雅",
+        cameraAction = 0,
+        headL = "13001_weixiao",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3036] = {
+        order = 6,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10101_e2",
+        scriptId = 9400,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3036,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "请不要放松警惕啊，现在最重要的是到达安全的地方躲起来。请跟我来吧。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "1",
+        cameraAction = 0,
+        headL = "13001_weixiao",
+        conditions = {
+        },
+        textBg = 31,
+        bgName = "",
+    },
+    [3037] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9401,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3037,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "不要再反抗了，“精灵”！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "日下部燎子",
+        cameraAction = 0,
+        headL = "30201_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3038] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13001_haoqi",
+        scriptId = 9401,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3038,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "精灵？你在跟我说话吗？我不是精灵，我是“上神”赫斯缇雅！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "赫斯缇雅",
+        cameraAction = 0,
+        headL = "30201_a1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3039] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9401,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3039,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "“上神”？这是你的识别名吗？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "日下部燎子",
+        cameraAction = 0,
+        headL = "30201_a2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3040] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10701_a2",
+        scriptId = 9401,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3040,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "库咔咔咔——受%s召唤的英雄已经随风而来，颤抖吧！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "耶俱矢",
+        cameraAction = 0,
+        headL = "30201_a2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3041] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10701_a2",
+        scriptId = 9401,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3041,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "拜托你了，耶俱矢。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "1",
+        cameraAction = 0,
+        headL = "30201_a2",
+        conditions = {
+        },
+        textBg = 31,
+        bgName = "",
+    },
+    [3042] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9402,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3042,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "好厉害，和华伦某某一样是风系的冒险者吗？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "赫斯缇雅",
+        cameraAction = 0,
+        headL = "13001_weixiao",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3043] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "30201_b1",
+        scriptId = 9402,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3043,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "可恶……增员部队怎么还没到？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "日下部燎子",
+        cameraAction = 0,
+        headL = "13001_weixiao",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3044] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "30201_b1",
+        scriptId = 9402,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3044,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "邪恶之眼终于睁开，露出恶魔的獠牙了吗？吾是不会退缩的！汝等快速撤离吧！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "耶俱矢",
+        cameraAction = 0,
+        headL = "10701_d1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3045] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "",
+        scriptId = 9402,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3045,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "谢谢你，耶俱矢。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "1",
+        cameraAction = 0,
+        headL = "",
+        conditions = {
+        },
+        textBg = 31,
+        bgName = "",
+    },
+    [3046] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9403,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3046,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "观察。赫斯缇雅小姐似乎没有任何战斗力。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "夕弦",
+        cameraAction = 0,
+        headL = "10801_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3047] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "",
+        scriptId = 9403,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3047,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "是啊，绝对不能让AST的人伤害到她。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "1",
+        cameraAction = 0,
+        headL = "10801_a1",
+        conditions = {
+        },
+        textBg = 31,
+        bgName = "",
+    },
+    [3048] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9403,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3048,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "理解。所以夕弦也来援助了。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "夕弦",
+        cameraAction = 0,
+        headL = "10801_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3049] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9404,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3049,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "你也是冒险者吗？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "赫斯缇雅",
+        cameraAction = 0,
+        headL = "13001_haoqi",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3050] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10801_a1",
+        scriptId = 9404,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3050,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "否认。夕弦是操纵风的双子精灵之一。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "夕弦",
+        cameraAction = 0,
+        headL = "13001_haoqi",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3051] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10801_a1",
+        scriptId = 9404,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3051,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "怪不得你和刚刚那个女孩子长得一样，原来是双胞胎啊！真是厉害！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "赫斯缇雅",
+        cameraAction = 0,
+        headL = "13001_weixiao",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3052] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9405,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3052,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "鸢一折纸……你快让开！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "日下部燎子",
+        cameraAction = 0,
+        headL = "30201_b2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3053] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10201_a1",
+        scriptId = 9405,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3053,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "抱歉，想要伤害%s，请从我的身上踏过去。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "鸢一折纸",
+        cameraAction = 0,
+        headL = "30201_b2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3054] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9406,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3054,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "他们暂时不会追上来了。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "鸢一折纸",
+        cameraAction = 0,
+        headL = "10201_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3055] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "",
+        scriptId = 9406,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3055,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "啊，游客众多的地方，就算是AST也不能擅自行动吧。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "1",
+        cameraAction = 0,
+        headL = "10201_a1",
+        conditions = {
+        },
+        textBg = 31,
+        bgName = "",
+    },
+    [3056] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13001_huangzhang",
+        scriptId = 9406,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3056,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "这个世界……比地下城还可怕啊……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "赫斯缇雅",
+        cameraAction = 0,
+        headL = "10201_a1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3057] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13001_huangzhang",
+        scriptId = 9406,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3057,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "喂喂……你没事吧？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "1",
+        cameraAction = 0,
+        headL = "10201_a1",
+        conditions = {
+        },
+        textBg = 31,
+        bgName = "",
+    },
+    [3058] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13001_huangzhang",
+        scriptId = 9406,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3058,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "她好像体力透支了。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "鸢一折纸",
+        cameraAction = 0,
+        headL = "10201_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3059] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9407,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3059,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "地震了吗？怎么晃动得这么厉害？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "夜刀神十香",
+        cameraAction = 0,
+        headL = "10101_e2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3060] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13001_youyu",
+        scriptId = 9407,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3060,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "敌人又来了吗？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "赫斯缇雅",
+        cameraAction = 0,
+        headL = "10101_e2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3061] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13001_youyu",
+        scriptId = 9407,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3061,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "可恶……这次是DEM的人！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "夜刀神十香",
+        cameraAction = 0,
+        headL = "10101_b1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3062] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13001_youyu",
+        scriptId = 9407,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3062,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "这个世界的危险程度不亚于地下城啊……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "赫斯缇雅",
+        cameraAction = 0,
+        headL = "10101_b1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3063] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9408,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3063,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "感觉好困……怎么回事？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "夜刀神十香",
+        cameraAction = 0,
+        headL = "10101_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3064] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "",
+        scriptId = 9408,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3064,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "十香你还好吧？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "1",
+        cameraAction = 0,
+        headL = "10101_a1",
+        conditions = {
+        },
+        textBg = 31,
+        bgName = "",
+    },
+    [3065] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9408,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3065,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "只是有点头晕……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "夜刀神十香",
+        cameraAction = 0,
+        headL = "10101_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3066] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9409,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3066,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "精灵们的灵压数据突然异常！发生什么了？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10505_b1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3067] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "",
+        scriptId = 9409,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3067,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "我也不知道……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "1",
+        cameraAction = 0,
+        headL = "10505_b1",
+        conditions = {
+        },
+        textBg = 31,
+        bgName = "",
+    },
+    [3068] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10701_a2",
+        scriptId = 9409,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3068,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "可恶的恶之军团啊！吾是不会屈服于邪恶势力的！放马过来吧！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "耶俱矢",
+        cameraAction = 0,
+        headL = "",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3069] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9410,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3069,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "支援。注意阵型！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "夕弦",
+        cameraAction = 0,
+        headL = "10801_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3070] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10701_c2",
+        scriptId = 9410,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3070,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "夕弦你来啦！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "耶俱矢",
+        cameraAction = 0,
+        headL = "10801_a1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3071] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10701_c2",
+        scriptId = 9410,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3071,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "撤退。琴里希望我们尽快回到安全地带。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "夕弦",
+        cameraAction = 0,
+        headL = "10801_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3072] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9411,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3072,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "在我的轰炸范围内，绝对不允许你们前进一步！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "鸢一折纸",
+        cameraAction = 0,
+        headL = "10201_b2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3073] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10701_a2",
+        scriptId = 9411,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3073,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "恶之军团动用了邪恶的法术，吾之神力收到了限制，汝一定要当心啊！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "耶俱矢",
+        cameraAction = 0,
+        headL = "10201_b2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3074] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10701_a2",
+        scriptId = 9411,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3074,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "一切交给我吧，显现装置已经准备好了。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "鸢一折纸",
+        cameraAction = 0,
+        headL = "10201_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3075] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9412,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3075,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "姑且承认你的力量也很不错吧，不过难以与强大的风力匹敌就是了哈哈哈。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "耶俱矢",
+        cameraAction = 0,
+        headL = "10701_d1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3076] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10801_a1",
+        scriptId = 9412,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3076,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "赞美。不愧是折纸大师。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "夕弦",
+        cameraAction = 0,
+        headL = "10701_d1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3077] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10801_a1",
+        scriptId = 9412,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3077,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "我也觉得显现装置的力量有些异常，比平时更为强大，难以掌控。好在DEM暂时撤退了。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "鸢一折纸",
+        cameraAction = 0,
+        headL = "10201_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3078] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9413,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3078,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "这里是……异世界？爱神的诅咒应验了吗？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "艾丝·华伦斯坦",
+        cameraAction = 0,
+        headL = "13101_jingya",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3079] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10901_c2",
+        scriptId = 9413,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3079,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "引发空间震的人就是你吗？精灵。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "艾伦",
+        cameraAction = 0,
+        headL = "13101_jingya",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3080] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10901_c2",
+        scriptId = 9413,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3080,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "精灵？确实我体内拥有仙精之血，不过似乎你说的不是这个？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "艾丝·华伦斯坦",
+        cameraAction = 0,
+        headL = "13101_pingjing",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3081] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10901_c2",
+        scriptId = 9413,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3081,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "你弄坏了我们的风力发电机，本来应该铲除你，不过……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "艾伦",
+        cameraAction = 0,
+        headL = "13101_pingjing",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3082] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10901_h1",
+        scriptId = 9413,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3082,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "艾克对你很感兴趣，和我回基地吧！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "艾伦",
+        cameraAction = 0,
+        headL = "13101_pingjing",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3083] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9414,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3083,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "抱歉……艾克。那个家伙实力很强，让她逃走了。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "艾伦",
+        cameraAction = 0,
+        headL = "10901_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3084] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "31301_c1",
+        scriptId = 9414,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3084,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "追踪下去，她的力量是我们从未见过的。或许是不错的实验品。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "韦斯科特",
+        cameraAction = 0,
+        headL = "10901_a1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3085] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "31301_c1",
+        scriptId = 9414,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3085,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "是。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "艾伦",
+        cameraAction = 0,
+        headL = "10901_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3086] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9415,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3086,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "呵呵呵呵……你真的很有意思呢……你身上的力量很美味的样子呢。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "时崎狂三",
+        cameraAction = 0,
+        headL = "10401L_c1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3087] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13101_pingjing",
+        scriptId = 9415,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3087,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "你是谁？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "艾丝·华伦斯坦",
+        cameraAction = 0,
+        headL = "10401L_c1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3088] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13101_pingjing",
+        scriptId = 9415,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3088,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "啊啊，抱歉，忘记自我介绍了，我是时崎狂三。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "时崎狂三",
+        cameraAction = 0,
+        headL = "10401L_c1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3089] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13101_pingjing",
+        scriptId = 9415,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3089,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "初次见面就提出这个要求有些过分，不过啊……请让我……“饱餐”一顿吧！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "时崎狂三",
+        cameraAction = 0,
+        headL = "10401L_c2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3090] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9416,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3090,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "竟然轻易地消灭了梦魇的分身吗……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "艾伦",
+        cameraAction = 0,
+        headL = "10901_a2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3091] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "31301_c1",
+        scriptId = 9416,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3091,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "有意思，不如让她成为我们的助力吧。或许会对“圭德诺之篮计划”有帮助。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "韦斯科特",
+        cameraAction = 0,
+        headL = "10901_a2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3092] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9417,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3092,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "从这里过去的话，就能找到%s住的地方了吧？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "四糸乃",
+        cameraAction = 0,
+        headL = "10301_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3093] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "11303_d1",
+        scriptId = 9417,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3093,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "当然了！美九告诉我的一定没错！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "七罪",
+        cameraAction = 0,
+        headL = "10301_a1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3094] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = false,
+        headR = "11303_e2",
+        scriptId = 9417,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3094,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "幸好遇到了美九小姐啊……不然我们都找不到%s在哪里呢。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "七罪",
+        cameraAction = 0,
+        headL = "10301_a1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3095] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = true,
+        headR = "11303_e2",
+        scriptId = 9417,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3095,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "嘿嘿，%s看到四糸乃和七罪，一定会感到惊喜吧？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "四糸奈",
+        cameraAction = 0,
+        headL = "10399_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3096] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = false,
+        headR = "11303_e2",
+        scriptId = 9417,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3096,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "呀！……那边……那边……有奇怪的人。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "七罪",
+        cameraAction = 0,
+        headL = "10399_a1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3097] = {
+        order = 6,
+        voice = "",
+        isSpeakingL = true,
+        headR = "11303_e2",
+        scriptId = 9417,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3097,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "DEM的人……怎么会在这里……？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "四糸乃",
+        cameraAction = 0,
+        headL = "10301_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3098] = {
+        order = 7,
+        voice = "",
+        isSpeakingL = false,
+        headR = "11303_b1",
+        scriptId = 9417,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3098,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "人好多……让我来把他们都变成棉花糖好了！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "七罪",
+        cameraAction = 0,
+        headL = "10301_a1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3099] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9418,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3099,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "这里到处都是DEM的人活动的踪迹！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "七罪",
+        cameraAction = 0,
+        headL = "11303_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3100] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10301_a1",
+        scriptId = 9418,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3100,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "难道……他们又在打什么主意？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "四糸乃",
+        cameraAction = 0,
+        headL = "11303_a1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3101] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10301_a1",
+        scriptId = 9418,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3101,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "感觉有不可告人的阴谋！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "七罪",
+        cameraAction = 0,
+        headL = "11303_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3102] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9419,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3102,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "在风力发电机全部维修好之前，就麻烦你来操纵风了。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "艾伦",
+        cameraAction = 0,
+        headL = "10901_c1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3103] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13101_zhanyi",
+        scriptId = 9419,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3103,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "了解，为了捕捉精灵，我会尽力的。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "艾丝·华伦斯坦",
+        cameraAction = 0,
+        headL = "10901_c1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3104] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13101_zhanyi",
+        scriptId = 9419,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3104,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "只要“圭德诺之篮”能够顺利完成，整个或美岛上的精灵都成为你回家的“燃料”。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "艾伦",
+        cameraAction = 0,
+        headL = "10901_c1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3105] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13101_zhanyi",
+        scriptId = 9419,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3105,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "谁在那里？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "艾丝·华伦斯坦",
+        cameraAction = 0,
+        headL = "10901_c1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3106] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13101_zhanyi",
+        scriptId = 9419,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3106,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "被……被发现了……！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "四糸乃",
+        cameraAction = 0,
+        headL = "10301_i1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3107] = {
+        order = 6,
+        voice = "",
+        isSpeakingL = false,
+        headR = "11303_b1",
+        scriptId = 9419,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3107,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "四糸乃，小心！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "七罪",
+        cameraAction = 0,
+        headL = "10301_i1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3108] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9420,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3108,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "圭德诺之篮是什么？为什么那个金发的女人说要把我们都当成“燃料”？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "七罪",
+        cameraAction = 0,
+        headL = "11303_a2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3109] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10301_a2",
+        scriptId = 9420,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3109,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "我也不知道……但是……听起来好可怕，要快点告诉%s才行。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "四糸乃",
+        cameraAction = 0,
+        headL = "11303_a2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3110] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10301_a2",
+        scriptId = 9420,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3110,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "嗯，那个拿着剑的家伙好像很厉害，我们还是先撤退吧……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "七罪",
+        cameraAction = 0,
+        headL = "11303_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3111] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9421,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3111,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "哇啊……被拦截了……你到底是谁？为什么帮DEM做事？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "七罪",
+        cameraAction = 0,
+        headL = "11303_e1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3112] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13101_pingjing",
+        scriptId = 9421,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3112,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "你们也是精灵么？果然很强。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "艾丝·华伦斯坦",
+        cameraAction = 0,
+        headL = "11303_e1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3113] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13101_pingjing",
+        scriptId = 9421,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3113,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "七罪小姐请小心！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "四糸乃",
+        cameraAction = 0,
+        headL = "10301_i1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3114] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9422,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3114,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "四糸乃，你快点去通知琴里和%s！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "七罪",
+        cameraAction = 0,
+        headL = "11303_b1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3115] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10301_i1",
+        scriptId = 9422,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3115,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "可是……我不能丢下你一个……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "四糸乃",
+        cameraAction = 0,
+        headL = "11303_b1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3116] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10301_i1",
+        scriptId = 9422,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3116,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "再不走就来不及了！放心吧，我有办法逃走的。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "七罪",
+        cameraAction = 0,
+        headL = "11303_b1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3117] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10301_i1",
+        scriptId = 9422,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3117,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "好吧……你一定要小心啊……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "四糸乃",
+        cameraAction = 0,
+        headL = "11303_b1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3118] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9423,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3118,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "你就是赫斯缇雅的朋友吧？请冷静一下！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "夜刀神十香",
+        cameraAction = 0,
+        headL = "10101_a2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3119] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13101_jingya",
+        scriptId = 9423,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3119,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "赫斯缇雅？她在精灵手中吗？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "艾丝·华伦斯坦",
+        cameraAction = 0,
+        headL = "10101_a2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3120] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13101_jingya",
+        scriptId = 9423,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3120,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "没错，ratatoskr正在研究金苹果的秘密，一定有办法重新连接你们的世界的！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "夜刀神十香",
+        cameraAction = 0,
+        headL = "10101_e2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3121] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13101_zhanyi",
+        scriptId = 9423,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3121,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "还在打欧拉丽的主意吗？不可原谅。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "艾丝·华伦斯坦",
+        cameraAction = 0,
+        headL = "10101_e2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3122] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13101_zhanyi",
+        scriptId = 9423,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3122,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "啊……美丽的少女好像误会我们了呢！危险危险……不过她拔剑的样子超帅气呀！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "诱宵美九",
+        cameraAction = 0,
+        headL = "11001_c1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3123] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9424,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3123,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "发现了DEM的帮凶！汝等必须接受风之子的制裁！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "耶俱矢",
+        cameraAction = 0,
+        headL = "10701_d1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3124] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10801_a1",
+        scriptId = 9424,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3124,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "提议。一起将敌人撕碎在飓风中吧。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "夕弦",
+        cameraAction = 0,
+        headL = "10701_d1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3125] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10801_a1",
+        scriptId = 9424,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3125,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "操控风的精灵？……来吧。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "艾丝·华伦斯坦",
+        cameraAction = 0,
+        headL = "13101_zhanyi",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3126] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9425,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3126,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "她们好像比想象中还要弱……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "艾丝·华伦斯坦",
+        cameraAction = 0,
+        headL = "13101_jingya",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3127] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10901_c1",
+        scriptId = 9425,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3127,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "呵呵，那当然。风力发电机已经全部维修完毕，圭德诺之篮的动能问题已经解决了。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "艾伦",
+        cameraAction = 0,
+        headL = "13101_jingya",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3128] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10901_c1",
+        scriptId = 9425,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3128,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "原来已经启动了啊。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "艾丝·华伦斯坦",
+        cameraAction = 0,
+        headL = "13101_pingjing",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3129] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10901_c1",
+        scriptId = 9425,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3129,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "接下来的精灵也拜托你来处理一下了。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "艾伦",
+        cameraAction = 0,
+        headL = "13101_pingjing",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3130] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10901_c1",
+        scriptId = 9425,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3130,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "明白。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "艾丝·华伦斯坦",
+        cameraAction = 0,
+        headL = "13101_pingjing",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3131] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9426,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3131,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "别再打了，都冷静一下！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "赫斯缇雅",
+        cameraAction = 0,
+        headL = "13001_haoqi",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3132] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13101_jingya",
+        scriptId = 9426,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3132,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "赫斯缇雅……你没有被她们囚禁吗？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "艾丝·华伦斯坦",
+        cameraAction = 0,
+        headL = "13001_haoqi",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3133] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13101_jingya",
+        scriptId = 9426,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3133,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "囚禁？完全没有啊。你被DEM的人欺骗吗？精灵她们不是坏人啊！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "赫斯缇雅",
+        cameraAction = 0,
+        headL = "13001_haoqi",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3134] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13101_pingjing",
+        scriptId = 9426,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3134,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "她们在撒谎，精灵现世会引起空间震，给人类造成巨大的危害。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "艾丝·华伦斯坦",
+        cameraAction = 0,
+        headL = "13001_haoqi",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3135] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13101_pingjing",
+        scriptId = 9426,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3135,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "但是……她们一直在帮助我！只要好好研究金苹果，我们一定可以找到回去欧拉丽的办法。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "赫斯缇雅",
+        cameraAction = 0,
+        headL = "13001_haoqi",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3136] = {
+        order = 6,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13101_pingjing",
+        scriptId = 9426,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3136,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "回到欧拉丽的方法就是将精灵的灵力作为动力，突破世界之间的屏障。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "艾丝·华伦斯坦",
+        cameraAction = 0,
+        headL = "13001_haoqi",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3137] = {
+        order = 7,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13101_pingjing",
+        scriptId = 9426,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3137,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "灵力……%s身上的能量，也是灵力……难道金苹果真的是靠灵力……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "赫斯缇雅",
+        cameraAction = 0,
+        headL = "13001_youyu",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3138] = {
+        order = 8,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13101_zhanyi",
+        scriptId = 9426,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3138,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "被欺骗的是你才对。就算你不想回去，你的眷族还需要金苹果疗伤……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "艾丝·华伦斯坦",
+        cameraAction = 0,
+        headL = "13001_youyu",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3139] = {
+        order = 9,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13101_pingjing",
+        scriptId = 9426,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3139,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "为了他，请好好考虑一下吧。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "艾丝·华伦斯坦",
+        cameraAction = 0,
+        headL = "13001_youyu",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3140] = {
+        order = 10,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13101_pingjing",
+        scriptId = 9426,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3140,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "不管你们在打什么主意，我是不会让%s受伤的。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "鸢一折纸",
+        cameraAction = 0,
+        headL = "10201_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3141] = {
+        order = 11,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13101_pingjing",
+        scriptId = 9426,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3141,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "做好觉悟吧！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "鸢一折纸",
+        cameraAction = 0,
+        headL = "10201_b2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3142] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9427,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3142,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "虽然不知道你们用了什么办法削弱灵力，并增强显现装置的力量。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "鸢一折纸",
+        cameraAction = 0,
+        headL = "10201_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3143] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9427,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3143,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "不过你们似乎忘记了，我也是会使用显现装置战斗的人。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "鸢一折纸",
+        cameraAction = 0,
+        headL = "10201_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3144] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13101_pingjing",
+        scriptId = 9427,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3144,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "仅凭你是没办法坚持下去的，放弃吧。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "艾丝·华伦斯坦",
+        cameraAction = 0,
+        headL = "10201_a1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3145] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13101_pingjing",
+        scriptId = 9427,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3145,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "休想。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "鸢一折纸",
+        cameraAction = 0,
+        headL = "10201_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3146] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9428,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3146,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "司令！前方探测到DEM舰队！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "神无月恭平",
+        cameraAction = 0,
+        headL = "30501_d1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3147] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9428,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3147,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "全员一级战斗准备！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10505_b1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3148] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10901_a2",
+        scriptId = 9428,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3148,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "居然将fraxinus开过来了！？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "艾伦",
+        cameraAction = 0,
+        headL = "10505_b1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3149] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10901_a2",
+        scriptId = 9428,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3149,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "你们的阴谋我们已经悉数知晓了，不要妄想了！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10505_b2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3150] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9429,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3150,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "这就是庇护精灵的组织ratatoskr吗？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "艾丝·华伦斯坦",
+        cameraAction = 0,
+        headL = "13101_jingya",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3151] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13001_weixiao",
+        scriptId = 9429,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3151,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "是的。他们真的有努力帮助我，所以……相信我的判断吧！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "赫斯缇雅",
+        cameraAction = 0,
+        headL = "13101_jingya",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3152] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13001_weixiao",
+        scriptId = 9429,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3152,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "……仅此一次，我会亲自证明被欺骗的是你。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "艾丝·华伦斯坦",
+        cameraAction = 0,
+        headL = "13101_pingjing",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3153] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9430,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3153,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "啊啦啊啦……被我发现了呢~你们的秘密……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "时崎狂三",
+        cameraAction = 0,
+        headL = "10401L_c2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3154] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9430,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3154,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "维持这么大的动能散热还真是不容易呢~",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "时崎狂三",
+        cameraAction = 0,
+        headL = "10401L_c1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3155] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9431,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3155,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "或美岛……从什么时候开始布置的这一切的呢？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "时崎狂三",
+        cameraAction = 0,
+        headL = "10401L_c1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3156] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9432,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3156,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "呼……变成小石子才躲过追击，真是不容易啊……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "七罪",
+        cameraAction = 0,
+        headL = "11303_e1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3157] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9432,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3157,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "咿？这是什么地方？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "七罪",
+        cameraAction = 0,
+        headL = "11303_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3158] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9433,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3158,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "戒备森严，这里一定有问题。先告诉琴里再说。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "七罪",
+        cameraAction = 0,
+        headL = "11303_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3159] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = false,
+        headR = "",
+        scriptId = 9434,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3159,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "琴里，漩涡正中心下面就是装置的散热口！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "1",
+        cameraAction = 0,
+        headL = "",
+        conditions = {
+        },
+        textBg = 31,
+        bgName = "",
+    },
+    [3160] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9434,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3160,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "我知道，七罪已经告诉我了。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10505_e1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3161] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = false,
+        headR = "",
+        scriptId = 9434,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3161,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "七罪已经回来了？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "1",
+        cameraAction = 0,
+        headL = "10505_e1",
+        conditions = {
+        },
+        textBg = 31,
+        bgName = "",
+    },
+    [3162] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9434,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3162,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "是的，按照我的指示，已经回到fraxinus等待全面检查了。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10505_e1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3163] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10701_d1",
+        scriptId = 9434,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3163,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "库卡卡卡！只要没有海水的话，装置就没办法散热对吧？是时候展现飓风之子的力量了！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "耶俱矢",
+        cameraAction = 0,
+        headL = "10505_e1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3164] = {
+        order = 6,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10701_d1",
+        scriptId = 9434,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3164,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "明白。将海水完全吸走的方法，只要耶俱矢和夕弦办得到。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "夕弦",
+        cameraAction = 0,
+        headL = "10801_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3165] = {
+        order = 7,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10701_d1",
+        scriptId = 9434,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3165,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "你们等等……！不要轻举妄动啊！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "1",
+        cameraAction = 0,
+        headL = "10801_a1",
+        conditions = {
+        },
+        textBg = 31,
+        bgName = "",
+    },
+    [3166] = {
+        order = 8,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10701_a2",
+        scriptId = 9434,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3166,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "觉醒吧！起舞吧！撕裂吧！——龙卷风！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "耶俱矢",
+        cameraAction = 0,
+        headL = "10801_a1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3167] = {
+        order = 9,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10701_a2",
+        scriptId = 9434,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3167,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "坚定。夕弦和耶俱矢联手一定能将这片海域的海水全部吸走。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "夕弦",
+        cameraAction = 0,
+        headL = "10801_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3168] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9435,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3168,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "失败。龙卷风的力量并没能将海水吹走。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "夕弦",
+        cameraAction = 0,
+        headL = "10801_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3169] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10701_a2",
+        scriptId = 9435,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3169,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "呀！风之力量在疯狂觉醒中，好像风力控制不住了！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "耶俱矢",
+        cameraAction = 0,
+        headL = "10801_a1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3170] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10701_a2",
+        scriptId = 9435,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3170,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "糟糕。感觉灵力正在迅速流失。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "夕弦",
+        cameraAction = 0,
+        headL = "10801_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3171] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10505_i",
+        scriptId = 9435,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3171,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "可恶啊，这样大风反而助长了风力发电机的运作……加速为限制精灵力量的显现装置供能。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10801_a1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3172] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10505_b2",
+        scriptId = 9435,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3172,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "大家立刻分头行动，先破坏或美岛上的发电机！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10801_a1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3173] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9436,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3173,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "必须破坏风力发电机，否则大家的灵力都会被削弱的！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "夜刀神十香",
+        cameraAction = 0,
+        headL = "10101_e2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3174] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9436,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3174,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "可恶……我的力量已经……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "夜刀神十香",
+        cameraAction = 0,
+        headL = "10101_b1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3175] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10201_a1",
+        scriptId = 9436,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3175,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "没用的，你不需要逞强了。这边交给我吧。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "鸢一折纸",
+        cameraAction = 0,
+        headL = "10101_b1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3176] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10201_a1",
+        scriptId = 9436,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3176,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "请不要误会，我可不是帮你，只是为了证明——%s只需要依靠我就行了。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "鸢一折纸",
+        cameraAction = 0,
+        headL = "10101_b1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3177] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9437,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3177,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "这种事情，交给我就好了！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "七罪",
+        cameraAction = 0,
+        headL = "11303_b1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3178] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10301_a1",
+        scriptId = 9437,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3178,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "好像灵力变弱了……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "四糸乃",
+        cameraAction = 0,
+        headL = "11303_b1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3179] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10301_a1",
+        scriptId = 9437,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3179,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "破军歌姬！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "诱宵美九",
+        cameraAction = 0,
+        headL = "11001_a2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3180] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10301_d1",
+        scriptId = 9437,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3180,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "得救了！多亏了美九小姐。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "四糸乃",
+        cameraAction = 0,
+        headL = "11001_a2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3181] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10301_d1",
+        scriptId = 9437,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3181,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "你们去破坏风力发电机就好，这里交给我吧！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "诱宵美九",
+        cameraAction = 0,
+        headL = "11001_c2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3182] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9438,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3182,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "嘎嘎~我们这边都已经完成了，四糸乃真是厉害啊。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "四糸奈",
+        cameraAction = 0,
+        headL = "10399_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3183] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "11303_a2",
+        scriptId = 9438,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3183,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "那个……海面上……那边……是不是还有一座啊？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "七罪",
+        cameraAction = 0,
+        headL = "10399_a1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3184] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "11303_a2",
+        scriptId = 9438,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3184,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "糟糕，或许是漏掉了。得马上告诉琴里才行。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "诱宵美九",
+        cameraAction = 0,
+        headL = "11001_a1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3185] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9439,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3185,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "啊啦，还真是大意啊。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "时崎狂三",
+        cameraAction = 0,
+        headL = "10401L_c2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3186] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9439,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3186,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "你们这些漏网之鱼，就乖乖沉入海底吧！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "时崎狂三",
+        cameraAction = 0,
+        headL = "10401L_c2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3187] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9440,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3187,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "任务完成！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10505_e1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3188] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "",
+        scriptId = 9441,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3188,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "可是显现装置还在运作，怎么办？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "1",
+        cameraAction = 0,
+        headL = "10505_e1",
+        conditions = {
+        },
+        textBg = 31,
+        bgName = "",
+    },
+    [3189] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9442,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3189,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "尝试破坏它的散热装置吧，现在只有这个办法了。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10505_e1",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3190] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13101_pingjing",
+        scriptId = 9443,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3190,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "这个任务请交给我吧。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "艾丝·华伦斯坦",
+        cameraAction = 0,
+        headL = "10505_e1",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3191] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13101_pingjing",
+        scriptId = 9444,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3191,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "你有把握吗？",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10505_i",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3192] = {
+        order = 6,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13101_pingjing",
+        scriptId = 9445,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3192,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "有时候只需要微小的力量就能解决问题。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "艾丝·华伦斯坦",
+        cameraAction = 0,
+        headL = "10505_i",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3193] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9441,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3193,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "吸走海水需要的风力太大了。但是，将海水劈开应该可以……我愿意一试。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "艾丝·华伦斯坦",
+        cameraAction = 0,
+        headL = "13101_pingjing",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3194] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9441,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3194,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "飓风之子，请帮助我吧！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "艾丝·华伦斯坦",
+        cameraAction = 0,
+        headL = "13101_zhanyi",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3195] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10701_a2",
+        scriptId = 9441,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3195,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "风之精灵和风之剑姬的命运交汇了！启动吧，真正的飓风之力！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "耶俱矢",
+        cameraAction = 0,
+        headL = "13101_zhanyi",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3196] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10801_a1",
+        scriptId = 9441,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3196,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "小心。需要控制风的力量，集中在一处，才能劈开海面。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "夕弦",
+        cameraAction = 0,
+        headL = "13101_zhanyi",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3197] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10801_a1",
+        scriptId = 9441,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3197,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "那么，拜托了——微型劲风！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "艾丝·华伦斯坦",
+        cameraAction = 0,
+        headL = "13101_zhanyi",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3198] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9442,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3198,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "前所未有的合作！完美的胜利哈哈哈。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "耶俱矢",
+        cameraAction = 0,
+        headL = "10701_x",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3199] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10801_a1",
+        scriptId = 9442,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3199,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "提醒。耶俱矢不太得意忘形了，注意维持风的力量，剩下的就交给fraxinus吧。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "夕弦",
+        cameraAction = 0,
+        headL = "10701_x",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3200] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10801_a1",
+        scriptId = 9442,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3200,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "太厉害了！海面……真的被劈开了。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "1",
+        cameraAction = 0,
+        headL = "10701_x",
+        conditions = {
+        },
+        textBg = 31,
+        bgName = "",
+    },
+    [3201] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13101_pingjing",
+        scriptId = 9442,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3201,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "只能维持很短的时间，请务必抓紧时间。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "艾丝·华伦斯坦",
+        cameraAction = 0,
+        headL = "10701_x",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3202] = {
+        order = 5,
+        voice = "",
+        isSpeakingL = true,
+        headR = "13101_pingjing",
+        scriptId = 9442,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3202,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "明白！神无月恭平，瞄准目标设备，准备发射！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "五河琴里",
+        cameraAction = 0,
+        headL = "10505_b2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3203] = {
+        order = 6,
+        voice = "",
+        isSpeakingL = false,
+        headR = "30501_d1",
+        scriptId = 9442,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3203,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "收到！已瞄准，攻击！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "神无月恭平",
+        cameraAction = 0,
+        headL = "10505_b2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3204] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = false,
+        headR = "",
+        scriptId = 9443,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3204,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "成功了！",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "1",
+        cameraAction = 0,
+        headL = "",
+        conditions = {
+        },
+        textBg = 31,
+        bgName = "",
+    },
+    [3205] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9443,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3205,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "海水已经汇合在一起了，可以说没有造成其他任何影响。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "艾丝·华伦斯坦",
+        cameraAction = 0,
+        headL = "13101_pingjing",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3206] = {
+        order = 3,
+        voice = "",
+        isSpeakingL = false,
+        headR = "10901_a2",
+        scriptId = 9443,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3206,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "你居然投靠了ratatoskr……",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "艾伦",
+        cameraAction = 0,
+        headL = "13101_pingjing",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
+    [3207] = {
+        order = 4,
+        voice = "",
+        isSpeakingL = true,
+        headR = "10901_a2",
+        scriptId = 9443,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3207,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "我已经知道了有关“精灵”的真相，你们无法再迷惑我了。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "艾丝·华伦斯坦",
+        cameraAction = 0,
+        headL = "13101_pingjing",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3208] = {
+        order = 1,
+        voice = "",
+        isSpeakingL = true,
+        headR = "",
+        scriptId = 9444,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = false,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3208,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "真是遗憾……没有灵力作为燃料，你是回不去的。就算是ratatoskr也没有办法。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = false,
+        name = "艾伦",
+        cameraAction = 0,
+        headL = "10901_a2",
+        conditions = {
+        },
+        textBg = 11,
+        bgName = "",
+    },
+    [3209] = {
+        order = 2,
+        voice = "",
+        isSpeakingL = false,
+        headR = "13101_pingjing",
+        scriptId = 9444,
+        headMirrorL = false,
+        showBG = 0,
+        headMirrorR = true,
+        actionR = {
+        },
+        autoShutTime = 0,
+        effect = "",
+        id = 3209,
+        text = {
+            [1] = {
+                speed = 10,
+                text = "我相信我的判断。",
+            },
+        },
+        actionL = {
+        },
+        cameraAction2 = 0,
+        actionText = {
+        },
+        isSpeakingR = true,
+        name = "艾丝·华伦斯坦",
+        cameraAction = 0,
+        headL = "10901_a2",
+        conditions = {
+        },
+        textBg = 21,
+        bgName = "",
+    },
     [10014905] = {
         order = 5,
         voice = "",
@@ -97055,7 +103423,7 @@ return {
             },
             [2] = {
                 speed = 40,
-                text = "Ah, little sister,",
+                text = "Ah, little sister, ",
                 delay = 300,
             },
             [3] = {
@@ -99649,7 +106017,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Guys,",
+                text = "Guys, ",
                 delay = 300,
             },
             [2] = {
@@ -101719,15 +108087,21 @@ return {
         scriptId = 100192,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 10019207,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "I heard that The Eldest Scrolls VI might be out when we're done. Shall we play it together?",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -101858,12 +108232,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "But...",
+                text = "But… ",
                 delay = 300,
             },
             [2] = {
                 speed = 40,
-                text = "Popularity means being liked by everyone?",
+                text = "Popularity means being liked by everyone? ",
                 delay = 700,
             },
             [3] = {
@@ -102038,7 +108412,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "There is no other way,",
+                text = "There is no other way, ",
                 delay = 300,
             },
             [2] = {
@@ -105147,17 +111521,17 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Hmm?",
+                text = "Hmm? ",
                 delay = 300,
             },
             [2] = {
                 speed = 40,
-                text = "Does that mean many people like %s?",
+                text = "Does that mean many people like %s? ",
                 delay = 700,
             },
             [3] = {
                 speed = 40,
-                text = "Muu,",
+                text = "Muu, ",
                 delay = 300,
             },
             [4] = {
@@ -105230,7 +111604,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "This cooperation is quite pleasant,",
+                text = "This cooperation is quite pleasant, ",
                 delay = 300,
             },
             [2] = {
@@ -105721,7 +112095,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Don't scare me,",
+                text = "Don't scare me, ",
                 delay = 300,
             },
             [2] = {
@@ -106032,7 +112406,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Okay,",
+                text = "Okay, ",
                 delay = 300,
             },
             [2] = {
@@ -106543,15 +112917,21 @@ return {
         scriptId = 401002,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 40100203,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Everyone, let's collect a permit and then gather here!",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -107299,32 +113679,32 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Who am I?",
+                text = "Who am I? ",
                 delay = 300,
             },
             [2] = {
                 speed = 40,
-                text = "Where am I?",
+                text = "Where am I? ",
                 delay = 300,
             },
             [3] = {
                 speed = 40,
-                text = "Who is hitting me?",
+                text = "Who is hitting me? ",
                 delay = 700,
             },
             [4] = {
                 speed = 40,
-                text = "Tick...",
+                text = "Tick… ",
                 delay = 300,
             },
             [5] = {
                 speed = 40,
-                text = "Uh?",
+                text = "Uh? ",
                 delay = 300,
             },
             [6] = {
                 speed = 40,
-                text = "Wait,",
+                text = "Wait, ",
                 delay = 300,
             },
             [7] = {
@@ -108238,26 +114618,15 @@ return {
         scriptId = 101001,
         headMirrorL = false,
         showBG = 0,
-        headMirrorR = true,
         actionR = {
         },
-        autoShutTime = 0,
+        headMirrorR = true,
         effect = "",
         id = 10100106,
-        text = {
-            [1] = {
-                speed = 40,
-                text = "A vote in secret?",
-                delay = 300,
-            },
-            [2] = {
-                speed = 40,
-                text = "Everyone is surprisingly popular ~",
-            },
-        },
+        cameraAction2 = 0,
         actionL = {
         },
-        cameraAction2 = 0,
+        autoShutTime = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -108821,12 +115190,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Wait,",
+                text = "Wait, ",
                 delay = 300,
             },
             [2] = {
                 speed = 40,
-                text = "something is wrong,",
+                text = "something is wrong, ",
                 delay = 300,
             },
             [3] = {
@@ -108977,7 +115346,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "I don't know what happened,",
+                text = "I don't know what happened, ",
                 delay = 300,
             },
             [2] = {
@@ -109211,15 +115580,21 @@ return {
         scriptId = 701001,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 70100105,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "The Art Director and Operation Director you want to find are in the innermost room of the passage ~",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -109350,7 +115725,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Please tell me,",
+                text = "Please tell me, ",
                 delay = 300,
             },
             [2] = {
@@ -111430,7 +117805,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Haha,",
+                text = "Haha, ",
                 delay = 700,
             },
             [2] = {
@@ -111746,7 +118121,7 @@ return {
             },
             [2] = {
                 speed = 40,
-                text = "Excuse me,",
+                text = "Excuse me, ",
                 delay = 300,
             },
             [3] = {
@@ -111989,12 +118364,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "I did go astray,",
+                text = "I did go astray, ",
                 delay = 300,
             },
             [2] = {
                 speed = 40,
-                text = "but by finding my original faith,",
+                text = "but by finding my original faith, ",
                 delay = 300,
             },
             [3] = {
@@ -112305,7 +118680,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Yes,",
+                text = "Yes, ",
                 delay = 300,
             },
             [2] = {
@@ -114123,7 +120498,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Wait,",
+                text = "Wait, ",
                 delay = 300,
             },
             [2] = {
@@ -114512,7 +120887,7 @@ return {
             },
             [2] = {
                 speed = 40,
-                text = "I see now,",
+                text = "I see now, ",
                 delay = 300,
             },
             [3] = {
@@ -114522,7 +120897,7 @@ return {
             },
             [4] = {
                 speed = 40,
-                text = "Wait,",
+                text = "Wait, ",
                 delay = 300,
             },
             [5] = {
@@ -115756,7 +122131,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "What the hell,",
+                text = "What the hell, ",
                 delay = 300,
             },
             [2] = {
@@ -116072,12 +122447,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "I did go astray,",
+                text = "I did go astray, ",
                 delay = 300,
             },
             [2] = {
                 speed = 40,
-                text = "but by finding my original faith,",
+                text = "but by finding my original faith, ",
                 delay = 300,
             },
             [3] = {
@@ -117715,7 +124090,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Oh,",
+                text = "Oh, ",
                 delay = 300,
             },
             [2] = {
@@ -117827,7 +124202,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "When it comes to a headcount,",
+                text = "When it comes to a headcount, ",
                 delay = 300,
             },
             [2] = {
@@ -117939,7 +124314,7 @@ return {
             },
             [2] = {
                 speed = 40,
-                text = "No,",
+                text = "No, ",
                 delay = 300,
             },
             [3] = {
@@ -118148,7 +124523,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "So,",
+                text = "So, ",
                 delay = 300,
             },
             [2] = {
@@ -118503,7 +124878,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Okay,",
+                text = "Okay, ",
                 delay = 300,
             },
             [2] = {
@@ -118814,7 +125189,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Wow,",
+                text = "Wow, ",
                 delay = 300,
             },
             [2] = {
@@ -119155,15 +125530,21 @@ return {
         scriptId = 100083,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 10008303,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "In the story of Project Date a Live, the competition of character popularity is quite intense.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -120373,15 +126754,21 @@ return {
         scriptId = 101007,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 10100701,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Everyone, check this out ~ I found this leaflet ~",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -120401,15 +126788,21 @@ return {
         scriptId = 1701002,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 170100202,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "This person has finally woken up, no wonder my voice didn't work. Next...",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -120429,15 +126822,21 @@ return {
         scriptId = 201001,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 20100101,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Look, many people here are holding the leaflets.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -122046,12 +128445,12 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "If you don't mind,",
+                text = "If you don't mind, ",
                 delay = 300,
             },
             [2] = {
                 speed = 40,
-                text = "can you tell me,",
+                text = "can you tell me, ",
                 delay = 300,
             },
             [3] = {
@@ -122124,7 +128523,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Wait,",
+                text = "Wait, ",
                 delay = 300,
             },
             [2] = {
@@ -122533,15 +128932,21 @@ return {
         scriptId = 1501002,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 150100202,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "The hidden door will open if you read password still writing bugs…",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -122740,17 +129145,17 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Haha,",
+                text = "Haha, ",
                 delay = 300,
             },
             [2] = {
                 speed = 40,
-                text = "I'm not lost,",
+                text = "I'm not lost, ",
                 delay = 300,
             },
             [3] = {
                 speed = 40,
-                text = "sorry,",
+                text = "sorry, ",
                 delay = 300,
             },
             [4] = {
@@ -122891,7 +129296,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "That's not right,",
+                text = "That's not right, ",
                 delay = 300,
             },
             [2] = {
@@ -123309,7 +129714,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Wait,",
+                text = "Wait, ",
                 delay = 300,
             },
             [2] = {
@@ -124947,15 +131352,21 @@ return {
         scriptId = 401002,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 40100202,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "It seems that a permit is required to pass.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -124984,7 +131395,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Wow,",
+                text = "Wow, ",
                 delay = 300,
             },
             [2] = {
@@ -125082,15 +131493,21 @@ return {
         scriptId = 901002,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 90100204,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Natsumi... sorry... but we should have created enough extra work, and will soon meet that Art Director.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -125809,15 +132226,21 @@ return {
         scriptId = 1301001,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 130100101,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "This is the so-called operation department? The chief of those Promotion Events is here?",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -126245,15 +132668,21 @@ return {
         scriptId = 701001,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 70100101,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "This is the 3rd floor, Art Department and Operation Department? There is nothing here.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -127502,15 +133931,21 @@ return {
         scriptId = 100082,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 10008201,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Clang ~! Welcome to the Project Date a Live: Ultimate Meeting Room! This program has prepared huge rewards, don't miss it!",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -128074,15 +134509,21 @@ return {
         scriptId = 1701001,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 170100102,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Here is a new map. The innermost is... QA Manager.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -128340,15 +134781,21 @@ return {
         scriptId = 1701001,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 170100103,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Which means, our task is to find this QA Manager?",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -128479,7 +134926,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "That's not right,",
+                text = "That's not right, ",
                 delay = 300,
             },
             [2] = {
@@ -129694,7 +136141,7 @@ return {
             },
             [3] = {
                 speed = 40,
-                text = "Origami?",
+                text = "Origami? ",
                 delay = 500,
             },
             [4] = {
@@ -134076,7 +140523,7 @@ return {
             },
             [2] = {
                 speed = 40,
-                text = "Wait for me, Origami,",
+                text = "Wait for me, Origami, ",
                 delay = 500,
             },
             [3] = {
@@ -139284,15 +145731,21 @@ return {
         scriptId = 100105,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 10010501,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "With the broadcasting of Date a Live Season 3, everyone has been really active lately!",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -142386,7 +148839,7 @@ return {
             },
             [2] = {
                 speed = 40,
-                text = "I see now,",
+                text = "I see now, ",
                 delay = 300,
             },
             [3] = {
@@ -143338,15 +149791,21 @@ return {
         scriptId = 301012,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 30101204,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Oh my, you are too kind. So when do we visit this Hot Games?",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -147617,15 +154076,21 @@ Father... Mother...",
         scriptId = 501002,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 50100202,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Thanks for your timely arrival. It's fortunate that the promotion event attracted your attention.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -147645,15 +154110,21 @@ Father... Mother...",
         scriptId = 2101002,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 210100206,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Let me take her to a safe place. Haniel!",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -148353,15 +154824,21 @@ Father... Mother...",
         scriptId = 1901001,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 190100102,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Shall we take a rest? According to the latest info, we need to defeat front-end main programmer and back-end main programmer at the same time, so...",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -148449,15 +154926,21 @@ Father... Mother...",
         scriptId = 1901001,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 190100101,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "There are more enemies in the programming department than I expected.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -148715,15 +155198,21 @@ Father... Mother...",
         scriptId = 1701001,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = false,
         actionR = {
         },
-        headMirrorR = false,
+        autoShutTime = 0,
         effect = "",
         id = 170100101,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "This seems to be the test department?",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -151496,15 +157985,21 @@ Father... Mother...",
         scriptId = 501002,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 50100204,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "You could say so, but I was hoping that you could save Hot Games!",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -152917,15 +159412,21 @@ Father... Mother...",
         scriptId = 501003,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 50100303,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Thanks for your timely arrival. It's fortunate that the promotion event attracted your attention.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -153149,15 +159650,21 @@ Father... Mother...",
         scriptId = 901001,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 90100107,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "That's easy, you can see the Art Director if you have enough extra work ~",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -155056,12 +161563,12 @@ Father... Mother...",
         text = {
             [1] = {
                 speed = 40,
-                text = "Hot Games (jump),",
+                text = "Hot Games (jump), ",
                 delay = 700,
             },
             [2] = {
                 speed = 40,
-                text = "event (jump),",
+                text = "event (jump), ",
                 delay = 700,
             },
             [3] = {

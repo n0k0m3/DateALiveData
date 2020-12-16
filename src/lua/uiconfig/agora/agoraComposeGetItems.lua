@@ -160,8 +160,8 @@ local t =
 									sizeType = "0",
 									spineModel = 
 									{
-										SpinePath = "effect/effecs_battle_gain/effect_battle_gain",
-										animationName = "ALL",
+										SpinePath = "effect/effect_props/effect_props",
+										animationName = "effect_props_start",
 										IsLoop = false,
 										IsPlay = true,
 										IsUseQueue = false,

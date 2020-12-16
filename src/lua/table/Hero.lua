@@ -1405,6 +1405,7 @@ return {
         optionalSkin = {
             [1] = 1104011,
             [2] = 1104013,
+            [3] = 1104015,
         },
         attrType = 8,
         floorTime = 0,
@@ -3573,7 +3574,8 @@ return {
         title = 30511,
         optionalSkin = {
             [1] = 1105011,
-            [2] = 1105013,
+            [2] = 1105012,
+            [3] = 1105013,
         },
         attrType = 3,
         floorTime = 0,
@@ -4251,6 +4253,7 @@ return {
         title = 31311,
         optionalSkin = {
             [1] = 1113011,
+            [2] = 1113031,
         },
         attrType = 6,
         floorTime = 0,

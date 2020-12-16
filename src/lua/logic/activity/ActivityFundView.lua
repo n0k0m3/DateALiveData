@@ -11,7 +11,8 @@ function ActivityFundView:ctor(...)
     self.super.ctor(self)
     self:initData(...)
     self:showPopAnim(true)
-    self:init("lua.uiconfig.activity.activityFundView")
+    local uiName = self.activityInfo_.extendData.uiName or "activityFundView"
+    self:init("lua.uiconfig.activity."..uiName)
 end
 
 function ActivityFundView:initUI(ui)
@@ -31,7 +32,11 @@ function ActivityFundView:initUI(ui)
     self.Label_buy_time = TFDirector:getChildByPath(self.Panel_root, "Label_buy_time")
     self.Label_desc_2 = TFDirector:getChildByPath(self.Panel_root, "Label_desc_2")
     self.Panel_fundItem = TFDirector:getChildByPath(self.Panel_prefab, "Panel_fundItem")
+    self.Image_icon = TFDirector:getChildByPath(self.Panel_root, "Image_icon")
+    self.Image_geted = TFDirector:getChildByPath(self.Panel_root, "Image_geted")
 
+    self.Image_list_bg = TFDirector:getChildByPath(ui , "Image_list_bg")
+    self.Image_list_bg:setTexture("")
 
     self:updateGiftBagInfo()
 end
@@ -75,6 +80,19 @@ function ActivityFundView:updateGiftBagInfo()
     self.Label_buy_time:runAction(CCRepeatForever:create(act))
 
     self.Label_buy:setTextById(1325305 ,self.giftData.rechargeCfg.price / 100)
+    self.Image_icon:setVisible(self.giftData.buyType == 1)
+    if self.giftData.buyType == 1 then
+        self.Image_icon:setTexture(GoodsDataMgr:getItemCfg(self.giftData.exchangeCost[1].id).icon)
+        self.Label_buy:setText(self.giftData.exchangeCost[1].num)
+
+        local exchangeWidth = self.Image_icon:getContentSize().width * self.Image_icon:getScale()
+        local priceLabelWidth = self.Label_buy:getContentSize().width
+        local totalWidth = exchangeWidth + priceLabelWidth + 5
+        self.Image_icon:setPositionX(exchangeWidth / 2 - totalWidth / 2)
+        self.Label_buy:setPositionX(self.Image_icon:getPositionX() + (exchangeWidth + priceLabelWidth) / 2 + 5)
+    else
+        self.Label_buy:setText("￥ "..self.giftData.rechargeCfg.price)
+    end
 
     local isCanBuy = true
     if self.giftData.buyCount ~= 0 and self.giftData.buyCount - RechargeDataMgr:getBuyCount(self.giftData.rechargeCfg.id) <= 0 then
@@ -83,8 +101,8 @@ function ActivityFundView:updateGiftBagInfo()
 
     self.Label_buy_time:setVisible(isCanBuy)
     self.Label_desc_2:setVisible(isCanBuy)
-    self.Button_buy:setTouchEnabled(isCanBuy)
-    self.Button_buy:setGrayEnabled(not isCanBuy)
+    self.Button_buy:setVisible(isCanBuy)
+    self.Image_geted:setVisible(not isCanBuy)
 
     self.Label_buy_time:setPosition(self.Label_desc_2:getPosition())
 
@@ -102,6 +120,7 @@ function ActivityFundView:updateActivity()
     local gap = #items - #self.goodsData_
 
     self.Image_left:setVisible(#self.goodsData_ > 5)
+    self.Image_left:setVisible(false)
 
     for i = 1, math.abs(gap) do
         if gap > 0 then
@@ -190,7 +209,6 @@ function ActivityFundView:updateGoodsItem(index)
     local goodsCfg = GoodsDataMgr:getItemCfg(goodsId)
     foo.Label_name:setTextById(goodsCfg.nameTextId)
     PrefabDataMgr:setInfo(foo.Panel_goodsItem, goodsId,goodsCount)
-    print(progressInfo.status)
     foo.Image_condition:setVisible(progressInfo.status == EC_TaskStatus.ING)
     foo.Image_canget:setVisible(progressInfo.status == EC_TaskStatus.GET)
     foo.Image_geted:setVisible(progressInfo.status == EC_TaskStatus.GETED)
@@ -215,8 +233,42 @@ function ActivityFundView:registerEvents()
     EventMgr:addEventListener(self, EV_ACTIVITY_SUBMIT_SUCCESS, handler(self.onSubmitSuccessEvent, self))
     EventMgr:addEventListener(self, EV_ACTIVITY_UPDATE_PROGRESS, handler(self.onUpdateProgressEvent, self))
 
-    self.Button_buy:onClick(function()
+    self.actionFunc = function ( self )
         RechargeDataMgr:getOrderNO(self.giftData.rechargeCfg.id);
+    end
+    self.Button_buy:onClick(function()
+        local heroList = self.activityInfo_.extendData.heroId
+        if heroList then
+            local showTips = false 
+            HeroDataMgr:resetShowList(true)
+            for k,v in pairs(heroList) do
+                if not HeroDataMgr:getIsHave(v) then
+                    showTips = true
+                    break
+                end
+            end
+
+            if showTips then
+                local args = {
+                    tittle = 14210305,
+                    cancleId = 14210306,
+                    showCancle = true,
+                    content = TextDataMgr:getText(14210307),
+                    confirmCall = function ( ... )
+                        self:actionFunc()
+                    end,
+
+                    cancleCall = function ( ... )
+                        if self.activityInfo_.extendData.jumpInterface then
+                            FunctionDataMgr:enterByFuncId(self.activityInfo_.extendData.jumpInterface, unpack(self.activityInfo_.extendData.jumpParamters or {}))
+                        end
+                    end
+                }
+                Utils:showReConfirm(args)
+                return
+            end
+        end
+        self:actionFunc()
     end)
 end
 

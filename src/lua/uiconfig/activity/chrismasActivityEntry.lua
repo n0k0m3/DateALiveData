@@ -56,12 +56,12 @@ local t =
 					DesignType = "0",
 					DesignWidth = "960",
 					dstBlendFunc = "771",
-					height = "518",
+					height = "534",
 					ignoreSize = "False",
 					name = "Panel_root",
 					sizepercentx = "90",
 					sizepercenty = "73",
-					sizeType = "1",
+					sizeType = "0",
 					srcBlendFunc = "1",
 					touchAble = "False",
 					UILayoutViewModel = 
@@ -75,7 +75,7 @@ local t =
 						Layout="Absolute",
 						nType = "0"
 					},
-					width = "918",
+					width = "922",
 					ZOrder = "1",
 					components = 
 					{
@@ -230,6 +230,7 @@ local t =
 										PositionX = 15,
 										PositionY = -2,
 									},
+									visible = "False",
 									width = "147",
 									ZOrder = "1",
 								},

@@ -149,7 +149,7 @@ function AgoraTaskView:updateTaskItem(index)
         foo.Label_state:setColor(ccc3(255,255,255));
     end
 
-    foo.Label_desc:setText(itemInfo.extendData.des2)
+    foo.Label_desc:setText(Utils:MultiLanguageStringDeal(itemInfo.extendData.des2))
 
     foo.Image_diban:setVisible(progressInfo.status ~= EC_TaskStatus.GETED)
     foo.Image_finish:setVisible(progressInfo.status == EC_TaskStatus.GETED)

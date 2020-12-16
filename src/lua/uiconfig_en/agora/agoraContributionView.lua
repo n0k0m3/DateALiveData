@@ -262,7 +262,7 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "35",
+							height = "34",
 							ignoreSize = "True",
 							name = "Label_title",
 							nTextAlign = "1",
@@ -279,7 +279,7 @@ local t =
 								PositionX = -433,
 								PositionY = 240,
 							},
-							width = "114",
+							width = "303",
 							ZOrder = "1",
 						},
 						{
@@ -305,6 +305,7 @@ local t =
 								PositionX = -260,
 								PositionY = 242,
 							},
+							visible = "False",
 							width = "2",
 							ZOrder = "1",
 						},
@@ -351,6 +352,7 @@ local t =
 								PositionX = -256,
 								PositionY = 237,
 							},
+							visible = "False",
 							width = "32",
 							ZOrder = "1",
 						},
@@ -405,18 +407,19 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "18",
+									fontSize = "15",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "90",
+									height = "0",
 									ignoreSize = "False",
 									name = "Label_tittle",
 									nTextAlign = "1",
 									nTextHAlign = "1",
+									rotation = "90",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -428,7 +431,7 @@ local t =
 									{
 										
 									},
-									width = "23",
+									width = "80",
 									ZOrder = "1",
 								},
 							},
@@ -484,30 +487,31 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "18",
+									fontSize = "15",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "90",
+									height = "0",
 									ignoreSize = "False",
 									name = "Label_tittle",
 									nTextAlign = "1",
 									nTextHAlign = "1",
+									rotation = "90",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "TextLable",
+									text = "Ind. Contri.",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
 										
 									},
-									width = "23",
+									width = "80",
 									ZOrder = "1",
 								},
 							},
@@ -664,7 +668,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -760,7 +764,7 @@ local t =
 										PositionX = -296,
 										PositionY = -39,
 									},
-									width = "75",
+									width = "118",
 									ZOrder = "1",
 								},
 								{
@@ -961,7 +965,7 @@ local t =
 											{
 												
 											},
-											width = "90",
+											width = "128",
 											ZOrder = "1",
 										},
 									},
@@ -1009,7 +1013,7 @@ local t =
 										PositionX = 342,
 										PositionY = -23,
 									},
-									width = "69",
+									width = "76",
 									ZOrder = "1",
 								},
 								{
@@ -1081,7 +1085,7 @@ local t =
 										PositionX = -25,
 										PositionY = 52,
 									},
-									width = "75",
+									width = "108",
 									ZOrder = "1",
 									components = 
 									{
@@ -1188,7 +1192,7 @@ local t =
 											{
 												
 											},
-											width = "48",
+											width = "30",
 											ZOrder = "1",
 										},
 									},

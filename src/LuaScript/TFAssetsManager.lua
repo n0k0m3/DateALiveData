@@ -3,6 +3,7 @@ local TFAssetsManager = TFAssetsManager or {}
 TFAssetsManager.baseAppVersion = TabDataMgr:getData("PackBranch")[1].version or "1.03"   --小包远程资源版本号
 local strCfg = require("lua.table.String" ..GAME_LANGUAGE_VAR)
 function TFAssetsManager:init( tag )
+	self.connectedArray = TFArray:new()
 	self.normalQuene = {} --静默后台下载队列
 	self.priorityQuene = {} --优先插队下载队列
 	self.priorityAssets = nil --当前需要的远程资源(未开始下载及静默下载中的)
@@ -122,6 +123,8 @@ function TFAssetsManager:getRemoteFileList(bReTry)
 			folderPath = self.extAssetsSavePath,
 			autoRetryTimes = 3,
 		}
+
+		self:checkCdnAndUrlUpdate(task.url)
 	DownloadHelper:start(json.encode(task),
 		function(info)
 			
@@ -835,6 +838,28 @@ end
 
 function TFAssetsManager:getRemoteListDict( )
 	return self.remoteListDict
+end
+
+function TFAssetsManager:checkCdnAndUrlUpdate(url )
+    
+    print("checkAndUpdateUrl"..url)
+    self.connectedArray:push(url)
+    local time = 0
+    for urlValue in self.connectedArray:iterator() do
+        if urlValue == url then
+            time = time + 1
+        end
+    end
+
+    if HeitaoSdk and time <= 1 then
+        --TODO CLOSE
+        if tonumber(TFDeviceInfo:getCurAppVersion()) >= 1.15 and CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID then
+            local tfUrl = require("TFFramework.net.TFUrl")
+            local parsed_url = tfUrl.parse(url)
+            HeitaoSdk.reportNetworkData(parsed_url.host)
+        end
+        
+    end
 end
 
 return TFAssetsManager

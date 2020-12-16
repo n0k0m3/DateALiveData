@@ -5,10 +5,10 @@ return {
         baseLevel = {
             [1] = 1,
         },
-        beginDate = "2018/12/23",
+        beginDate = "2020/12/16",
         beginSec = 0,
         infoId = 151017,
-        endDate = "2018/12/23",
+        endDate = "2020/12/16",
     },
     [2] = {
         endSec = 86400,
@@ -16,10 +16,10 @@ return {
         baseLevel = {
             [1] = 1,
         },
-        beginDate = "2018/12/24",
+        beginDate = "2020/12/17",
         beginSec = 0,
         infoId = 151018,
-        endDate = "2018/12/24",
+        endDate = "2020/12/17",
     },
     [3] = {
         endSec = 86400,
@@ -27,10 +27,10 @@ return {
         baseLevel = {
             [1] = 1,
         },
-        beginDate = "2018/12/25",
+        beginDate = "2020/12/18",
         beginSec = 0,
         infoId = 151019,
-        endDate = "2018/12/25",
+        endDate = "2020/12/18",
     },
     [4] = {
         endSec = 86400,
@@ -38,10 +38,10 @@ return {
         baseLevel = {
             [1] = 1,
         },
-        beginDate = "2018/12/26",
+        beginDate = "2020/12/19",
         beginSec = 0,
         infoId = 151020,
-        endDate = "2018/12/26",
+        endDate = "2020/12/19",
     },
     [5] = {
         endSec = 86400,
@@ -49,10 +49,10 @@ return {
         baseLevel = {
             [1] = 1,
         },
-        beginDate = "2018/12/27",
+        beginDate = "2020/12/20",
         beginSec = 0,
         infoId = 151021,
-        endDate = "2018/12/27",
+        endDate = "2020/12/20",
     },
     [6] = {
         endSec = 86400,
@@ -60,10 +60,10 @@ return {
         baseLevel = {
             [1] = 1,
         },
-        beginDate = "2018/12/28",
+        beginDate = "2020/12/21",
         beginSec = 0,
         infoId = 151022,
-        endDate = "2018/12/28",
+        endDate = "2020/12/21",
     },
     [7] = {
         endSec = 86400,
@@ -71,10 +71,10 @@ return {
         baseLevel = {
             [1] = 1,
         },
-        beginDate = "2018/12/29",
+        beginDate = "2020/12/22",
         beginSec = 0,
         infoId = 151022,
-        endDate = "2018/12/29",
+        endDate = "2020/12/22",
     },
     [8] = {
         endSec = 86400,
@@ -82,10 +82,10 @@ return {
         baseLevel = {
             [1] = 1,
         },
-        beginDate = "2018/12/30",
+        beginDate = "2020/12/23",
         beginSec = 0,
         infoId = 151022,
-        endDate = "2018/12/30",
+        endDate = "2020/12/23",
     },
     [9] = {
         endSec = 86400,
@@ -93,10 +93,10 @@ return {
         baseLevel = {
             [1] = 1,
         },
-        beginDate = "2018/12/31",
+        beginDate = "2020/12/24",
         beginSec = 0,
         infoId = 151022,
-        endDate = "2018/12/31",
+        endDate = "2020/12/24",
     },
     [10] = {
         endSec = 86400,
@@ -104,10 +104,10 @@ return {
         baseLevel = {
             [1] = 1,
         },
-        beginDate = "2019/1/1",
+        beginDate = "2020/12/25",
         beginSec = 0,
         infoId = 151022,
-        endDate = "2019/1/1",
+        endDate = "2020/12/25",
     },
     [11] = {
         endSec = 86400,
@@ -115,10 +115,10 @@ return {
         baseLevel = {
             [1] = 1,
         },
-        beginDate = "2019/1/2",
+        beginDate = "2020/12/26",
         beginSec = 0,
         infoId = 151022,
-        endDate = "2019/1/2",
+        endDate = "2020/12/26",
     },
     [12] = {
         endSec = 86400,
@@ -126,10 +126,10 @@ return {
         baseLevel = {
             [1] = 1,
         },
-        beginDate = "2019/1/3",
+        beginDate = "2020/12/27",
         beginSec = 0,
         infoId = 151022,
-        endDate = "2019/1/3",
+        endDate = "2020/12/27",
     },
     [13] = {
         endSec = 86400,
@@ -137,10 +137,10 @@ return {
         baseLevel = {
             [1] = 1,
         },
-        beginDate = "2019/1/4",
+        beginDate = "2020/12/28",
         beginSec = 0,
         infoId = 151022,
-        endDate = "2019/1/4",
+        endDate = "2020/12/28",
     },
     [14] = {
         endSec = 86400,
@@ -148,10 +148,10 @@ return {
         baseLevel = {
             [1] = 1,
         },
-        beginDate = "2019/1/5",
+        beginDate = "2020/12/29",
         beginSec = 0,
         infoId = 151022,
-        endDate = "2019/1/5",
+        endDate = "2020/12/29",
     },
     [15] = {
         endSec = 86400,
@@ -159,9 +159,9 @@ return {
         baseLevel = {
             [1] = 1,
         },
-        beginDate = "2019/1/6",
+        beginDate = "2020/12/30",
         beginSec = 0,
         infoId = 151022,
-        endDate = "2019/1/6",
+        endDate = "2020/12/30",
     },
 }

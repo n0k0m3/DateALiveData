@@ -14,6 +14,7 @@ function ServerDataMgr:init()
                 "yuxie",
                 "liuwei",
                 "ouyangcheng",
+                "xuzhishun",
             }
         },
         ["eng_dev"] = {
@@ -84,6 +85,14 @@ function ServerDataMgr:customUtcTimeForServerDate( )
     local timeInterval = self:customUtcTimeForServerTimestap(GV_UTC_TIME_ZONE)
     local timeTable = os.date("*t", timeInterval)
     return timeTable
+end
+
+--TODO CLOSE 英文版时间戳换算UTC-7 服务器下发UTC-7时间戳 则本地转换需要同步使用UTC-7计算
+function ServerDataMgr:customUtcTimestap(timestamp, timeZone )
+    timeZone = timeZone or GV_UTC_TIME_ZONE
+    local serverTime = timestamp + (os.time() - self.localTime_)
+    local timeInterval = os.time(os.date("!*t", serverTime)) + timeZone * 3600 + (os.date("*t", time).isdst and -1 or 0) * 3600  --isdst是否夏令时决定加一或者不加1小时
+    return timeInterval
 end
 
 function ServerDataMgr:getOnlineTime()

@@ -417,6 +417,18 @@ function Utils:getTime(timestamp, formating)
     return hour, min, sec
 end
 
+--TODO CLOSE 英文版UTC 时分秒格式化
+function Utils:getUTCDateHMS( timestamp, formating )
+     local date = self:getUTCDate(timestamp)
+    local hour, min, sec = date:gettime()
+    if formating then
+        hour = string.format("%.2d", hour)
+        min = string.format("%.2d", min)
+        sec = string.format("%.2d", sec)
+    end
+    return hour, min, sec
+end
+
 function Utils:getDate(timestamp, formating)
     local date = TFDate(timestamp):tolocal()
     local year, month, day = date:getdate()
@@ -426,6 +438,19 @@ function Utils:getDate(timestamp, formating)
     end
     return year, month, day
 end
+
+--TODO CLOSE 英文版UTC 年月日格式化
+function Utils:getUTCDateYMD( timestamp , formating )
+    local date = self:getUTCDate(timestamp)
+    local year, month, day = date:getdate()
+    if formating then
+        month = string.format("%.2d", month)
+        day = string.format("%.2d", day)
+    end
+    return year, month, day
+end
+
+
 
 -- 模糊时间格式化（秒数不为0则分钟向上取整）
 -- 适合倒计时显示到分的情况

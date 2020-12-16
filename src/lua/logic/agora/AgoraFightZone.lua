@@ -256,11 +256,12 @@ function AgoraFightZone:registerEvents()
 
             local isOpen,openTime = AgoraDataMgr:chapterIsOpen(v.chapterId)
             if not isOpen then
-                local month = tonumber(os.date("%m", openTime));
-                local day = tonumber(os.date("%d", openTime));
-                local hour = tonumber(os.date("%H", openTime));
+                local month = tonumber(os.date("%m", ServerDataMgr:customUtcTimestap(openTime)))
+                local day = tonumber(os.date("%d", ServerDataMgr:customUtcTimestap(openTime)))
+                local hour = tonumber(os.date("%H", ServerDataMgr:customUtcTimestap(openTime)))
+
                 local timsStr = TextDataMgr:getText(303043,month,day,hour)
-                local str = TextDataMgr:getText(303042,timsStr)
+                local str = TextDataMgr:getText(303042,timsStr..GV_UTC_TIME_STRING)
                 Utils:showTips(str)
                 return
             end

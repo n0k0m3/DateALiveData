@@ -99,15 +99,17 @@ function GiftActivityView:updateGiftItem(item,data)
     end
 
     local Label_num     = TFDirector:getChildByPath(item,"Label_num");
-    Label_num:setText(Utils:splitLanguageStringByTag(data.name));
+    Label_num:setText(Utils:MultiLanguageStringDeal(data.name));
 
     local Label_leftTime= TFDirector:getChildByPath(item,"Label_leftTime");
     Label_leftTime:setString(data.buyCount - RechargeDataMgr:getBuyCount(data.rechargeCfg.id));
     Label_leftTime:setVisible(data.buyCount ~= 0);
 
     local Label_buyCount     = TFDirector:getChildByPath(item,"Label_buyCount");
-    Label_buyCount:setText(Utils:splitLanguageStringByTag(data.des2))
+    Label_buyCount:setText(Utils:MultiLanguageStringDeal(data.des2))
     Label_buyCount:setVisible(data.buyCount ~= 0);
+
+
 
     local Label_tips    = TFDirector:getChildByPath(item,"Label_tips");
     Label_tips:setVisible(data.buyCount ~= 0);
@@ -169,6 +171,14 @@ function GiftActivityView:updateGiftItem(item,data)
         Label_leftTime:setFontColor( isCanBuy and ccc3(255,255,255) or ccc3(252,56,112))
         Button_buy:setGrayEnabled(not isCanBuy)
         Button_buy:setTouchEnabled(isCanBuy)
+    elseif self.activityInfo_.extendData.activityShowType == 91 then
+        Label_num:setFontColor( isCanBuy and ccc3(67,26,90) or ccc3(196,198,229))
+        Label_buyCount:setFontColor( isCanBuy and ccc3(255,255,255) or ccc3(196,198,229))
+        Label_tips:setFontColor( isCanBuy and ccc3(255,255,255) or ccc3(196,198,229))
+        Label_leftTime:setFontColor( isCanBuy and ccc3(255,255,255) or ccc3(252,56,112))
+        Button_buy:setGrayEnabled(not isCanBuy)
+        Button_buy:setTouchEnabled(isCanBuy)
+        Label_buyCount:hide()
     else
         Image_diban:setTexture( isCanBuy and "ui/activity/welfareActivity/bg_gift_normal.png" or "ui/activity/welfareActivity/bg_gift_gray.png" )
         Label_num:setFontColor( isCanBuy and ccc3(87,171,229) or ccc3(196,198,229))
@@ -195,11 +205,11 @@ function GiftActivityView:updateGiftItem(item,data)
         local tagType = data.tagIcon or 0
         local buyCount      = RechargeDataMgr:getBuyCount(data.rechargeCfg.id)
         if buyCount == 0 then
-            Label_title_desc:setText(Utils:splitLanguageStringByTag(data.tagDes))
-            Label_title_desc1:setText(Utils:splitLanguageStringByTag(data.tagDes))
+            Label_title_desc:setText(Utils:MultiLanguageStringDeal(data.tagDes))
+            Label_title_desc1:setText(Utils:MultiLanguageStringDeal(data.tagDes))
         elseif data.tagDes2 ~= "" then
-            Label_title_desc:setText(Utils:splitLanguageStringByTag(data.tagDes2))
-            Label_title_desc1:setText(Utils:splitLanguageStringByTag(data.tagDes2))
+            Label_title_desc:setText(Utils:MultiLanguageStringDeal(data.tagDes2))
+            Label_title_desc1:setText(Utils:MultiLanguageStringDeal(data.tagDes2))
         else
             Image_title_di:hide()
         end

@@ -100,7 +100,7 @@ function MainUISettingMgr:CheckLock(id)
 		local beginTime = Utils:getTimeByDate(tb.beginTime)
 		local endTime = Utils:getTimeByDate(tb.endTime)
 		
-		local servertime = ServerDataMgr:getServerTime()
+		local servertime = ServerDataMgr:customUtcTimeForServerTimestap()
 		if servertime > beginTime and servertime < endTime then
 			return false
 		end

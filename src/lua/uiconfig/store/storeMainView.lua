@@ -527,14 +527,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "15",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "19",
 									ignoreSize = "True",
 									name = "Label_deadLine",
 									nTextAlign = "1",
@@ -551,8 +551,7 @@ local t =
 										PositionX = 222,
 										PositionY = 226,
 									},
-									visible = "False",
-									width = "207",
+									width = "158",
 									ZOrder = "1",
 									components = 
 									{

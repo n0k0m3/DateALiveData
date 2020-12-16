@@ -17,6 +17,7 @@ local ForcedUpdateUrl = {
     [170] = "http://app.meizu.com/games/public/detail?package_name=com.heitao.yhdzz.meizu",
     [289] = "http://dmgame.douyucdn.cn/10714_1_300_1_3.00_18_36_12.apk",
     [101] = "http://www.datealive.com",
+    [682] = "http://www.datealive.com",
     [173] = "http://www.datealive.com",
     [100] = "http://www.datealive.com",
 }
@@ -25,7 +26,7 @@ local TFClientUpdate =  TFClientResourceUpdate:GetClientResourceUpdate()
 
 function UpdateLayer_new:ctor(data)
     self.super.ctor(self,data)
-    
+    self.connectedArray = TFArray:new()
     self.strCfg = require("lua.table.String" ..GAME_LANGUAGE_VAR)
     self.config = require("lua.table.Downlaod")
     self.modelCfg = require("lua.table.HeroModle")
@@ -276,10 +277,10 @@ end
 
 function UpdateLayer_new:checkForcedUpdate()
 
-    -- IOS打开强更 2018/12/10
-    -- if CC_PLATFORM_IOS == CC_TARGET_PLATFORM then
-    --     return false;
-    -- end
+    -- 去掉强更逻辑 2020-0928
+    if true then
+        return false;
+    end
 
     local version       =  TFClientUpdate:getCurVersion()
     local LatestVersion =  TFClientUpdate:getLatestVersion()      
@@ -438,6 +439,7 @@ function UpdateLayer_new:updateVision()
     end
     print("new--------------------versionPath  = ", VersionPaths[CDN_INDEX])
     print("new--------------------filePath     = ", FilePaths[CDN_INDEX])
+    self:checkCdnAndUrlUpdate(VersionPaths[CDN_INDEX])
     TFClientUpdate:CheckUpdate(VersionPaths[CDN_INDEX], FilePaths[CDN_INDEX], checkNewVersionCallBack, StatusUpdateHandle)
 end
 -- type == 1检查失败 type == 2 更新失败
@@ -482,6 +484,28 @@ function UpdateLayer_new:CompleteUpdate()
             self:EnterGame()
         end
         self.timeId = me.Scheduler:scheduleScriptFunc(update, 0.5, false)
+    end
+end
+
+function UpdateLayer_new:checkCdnAndUrlUpdate(url )
+    
+    print("checkAndUpdateUrl"..url)
+    self.connectedArray:push(url)
+    local time = 0
+    for urlValue in self.connectedArray:iterator() do
+        if urlValue == url then
+            time = time + 1
+        end
+    end
+
+    if HeitaoSdk and time <= 1 then
+        --TODO CLOSE
+        if tonumber(TFDeviceInfo:getCurAppVersion()) >= 1.15 and CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID then
+            local tfUrl = require("TFFramework.net.TFUrl")
+            local parsed_url = tfUrl.parse(url)
+            HeitaoSdk.reportNetworkData(parsed_url.host)
+        end
+        
     end
 end
 

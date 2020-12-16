@@ -355,14 +355,14 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "22",
+															fontSize = "18",
 															fontStroke = 
 															{
 																IsStroke = true,
 																StrokeColor = "#FF82365A",
 																StrokeSize = 1,
 															},
-															height = "29",
+															height = "24",
 															ignoreSize = "True",
 															name = "Label_name",
 															nTextAlign = "2",
@@ -378,7 +378,7 @@ local t =
 															{
 																PositionY = -36,
 															},
-															width = "157",
+															width = "252",
 															ZOrder = "1",
 														},
 													},
@@ -429,14 +429,14 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "22",
+															fontSize = "18",
 															fontStroke = 
 															{
 																IsStroke = true,
 																StrokeColor = "#FF82365A",
 																StrokeSize = 1,
 															},
-															height = "29",
+															height = "24",
 															ignoreSize = "True",
 															name = "Label_name",
 															nTextAlign = "2",
@@ -452,7 +452,7 @@ local t =
 															{
 																PositionY = -36,
 															},
-															width = "157",
+															width = "252",
 															ZOrder = "1",
 														},
 													},
@@ -503,14 +503,14 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "22",
+															fontSize = "18",
 															fontStroke = 
 															{
 																IsStroke = true,
 																StrokeColor = "#FF18163B",
 																StrokeSize = 1,
 															},
-															height = "29",
+															height = "24",
 															ignoreSize = "True",
 															name = "Label_name",
 															nTextAlign = "2",
@@ -526,7 +526,7 @@ local t =
 															{
 																PositionY = -36,
 															},
-															width = "157",
+															width = "252",
 															ZOrder = "1",
 														},
 													},

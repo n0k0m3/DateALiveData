@@ -12,6 +12,8 @@ function AddRechargeActivityView:ctor(...)
         self:init("lua.uiconfig.activity.addRechargeActivityView6")
     elseif self.activityInfo_.extendData.activityShowType == EC_ActivityType2.FANSHI_ASSIST then
         self:init("lua.uiconfig.activity.addRechargeActivityViewFanshi")
+    elseif self.activityInfo_.extendData.activityShowType == 91 then
+        self:init("lua.uiconfig.activity.whiteQueenAddRechargeActivityView") 
     else
         self:init("lua.uiconfig.activity.addRechargeActivityView")
     end
@@ -140,7 +142,9 @@ function AddRechargeActivityView:updateActivity()
             Panel_notGet:getChild("Label_money"):setTextById(1890020, itemInfo.target)
         elseif progressInfo.status == EC_TaskStatus.GET then
             Panel_get:show()
-            Spine_receive:play("animation", true)
+            if Spine_receive then
+                Spine_receive:play("animation", true)
+            end
             if Spine_receive1 then
                 Spine_receive1:play("animation2", true)
             end
@@ -168,7 +172,11 @@ function AddRechargeActivityView:updateActivity()
     
 
     self:updateCountDonw()
-    self.Image_bg:setTexture(self.activityInfo_.showIcon)
+    if self.activityInfo_.extendData.activityShowType == 91 then   --特殊活动不作处理
+    else
+        self.Image_bg:setTexture(self.activityInfo_.showIcon)
+    end
+
     self.Label_tip1:setText(self.activityInfo_.activityTitle)
     self.Label_tip2:setText(self.activityInfo_.extendData.subtitle)
 end

@@ -468,7 +468,7 @@ local t =
 												PositionX = 592,
 												PositionY = 44,
 											},
-											width = "133",
+											width = "208",
 											ZOrder = "1",
 										},
 										{
@@ -514,7 +514,7 @@ local t =
 												PositionX = 592,
 												PositionY = 80,
 											},
-											width = "123",
+											width = "225",
 											ZOrder = "1",
 										},
 										{
@@ -552,7 +552,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "TextLable",
+											text = "Lv.100",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -560,7 +560,7 @@ local t =
 												PositionX = 205,
 												PositionY = 44,
 											},
-											width = "56",
+											width = "62",
 											ZOrder = "1",
 										},
 									},
@@ -639,7 +639,7 @@ local t =
 											{
 												
 											},
-											width = "63",
+											width = "58",
 											ZOrder = "1",
 										},
 									},
@@ -774,7 +774,7 @@ local t =
 												PositionX = 149,
 												PositionY = -24,
 											},
-											width = "83",
+											width = "88",
 											ZOrder = "1",
 										},
 										{
@@ -869,7 +869,7 @@ local t =
 														StrokeColor = "#FF2D274B",
 														StrokeSize = 1,
 													},
-													height = "32",
+													height = "31",
 													ignoreSize = "True",
 													name = "Label_infoTittle",
 													nTextAlign = "1",
@@ -885,7 +885,7 @@ local t =
 													{
 														PositionY = -12,
 													},
-													width = "144",
+													width = "154",
 													ZOrder = "1",
 												},
 												{
@@ -1228,14 +1228,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Feature",
+											text = "Feature ",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionY = -45,
 											},
-											width = "44",
+											width = "65",
 											ZOrder = "1",
 										},
 										{

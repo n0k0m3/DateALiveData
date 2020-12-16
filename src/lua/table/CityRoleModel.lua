@@ -1402,6 +1402,25 @@ return {
         showPic = "icon/role/SD_modelIcon/410501.png",
         moveSpeedMultiplier = 1,
     },
+    [410119] = {
+        modeHead = "icon/role/mood/101/3.png",
+        flip = true,
+        id = 410119,
+        modelId = 101,
+        isPlyaerControlled = false,
+        iconPos = {
+            y = 230,
+            x = 70,
+        },
+        rolePath = "modle/citymodle/city_10119/city_10119",
+        roleType = 1,
+        rolePath2 = "modle/citymodle/city_410104",
+        role = "",
+        sameModelId = {
+        },
+        showPic = "",
+        moveSpeedMultiplier = 0,
+    },
     [411203] = {
         modeHead = "icon/role/mood/112/3.png",
         flip = false,
@@ -2077,6 +2096,25 @@ return {
         },
         showPic = "",
         moveSpeedMultiplier = 1,
+    },
+    [410416] = {
+        modeHead = "icon/role/mood/104/3.png",
+        flip = false,
+        id = 410416,
+        modelId = 104,
+        isPlyaerControlled = false,
+        iconPos = {
+            y = 230,
+            x = 70,
+        },
+        rolePath = "modle/citymodle/city_10416/city_10416",
+        roleType = 1,
+        rolePath2 = "modle/citymodle/city_410406",
+        role = "",
+        sameModelId = {
+        },
+        showPic = "",
+        moveSpeedMultiplier = 0,
     },
     [420105] = {
         modeHead = "icon/role/mood/peijue/city_420105.png",

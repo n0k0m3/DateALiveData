@@ -10,6 +10,7 @@ function ActivityMainView:initData(selectActivityId,activityShowType)
     self.createModelClass_ = {
         [DEFAULT_SHOW_TYPE] ={  ---默认
             [EC_ActivityType2.TASK] = requireNew("lua.logic.activity.TaskActivityView"),
+            [EC_ActivityType2.NEW_BACKACTIVITY] = requireNew("lua.logic.activity.TaskActivityView"),
             [EC_ActivityType2.STORE] = requireNew("lua.logic.activity.StoreActivityView"),
             [EC_ActivityType2.ENTRUST] = requireNew("lua.logic.activity.JumpActivityView"),
             [EC_ActivityType2.DROP] = requireNew("lua.logic.activity.DropActivityView"),
@@ -18,7 +19,6 @@ function ActivityMainView:initData(selectActivityId,activityShowType)
             [EC_ActivityType2.ADD_RECHARGE] = requireNew("lua.logic.activity.AddRechargeActivityView"),
             [EC_ActivityType2.VALENTINE] = requireNew("lua.logic.activity.ValentineActivityView"),
             [EC_ActivityType2.WHITEVALENTINE] = requireNew("lua.logic.activity.WhiteValentineActivityView"),
-            [EC_ActivityType2.DAFUWENG] = requireNew("lua.logic.activity.ChunrijiActivityView"),
             [EC_ActivityType2.CLOTHESE_SUMMON] = requireNew("lua.logic.activity.ClotheseSummonView"),
             [EC_ActivityType2.SX_BIRTHDAY] = requireNew("lua.logic.activity.SxBirthdayActivityView"),
             [EC_ActivityType2.MAID_COFFEE] = requireNew("lua.logic.activity.CoffeeActivityView"),
@@ -27,7 +27,6 @@ function ActivityMainView:initData(selectActivityId,activityShowType)
             [EC_ActivityType2.DUANWU_1] = requireNew("lua.logic.activity.DuanwuActivityView"),
             --[EC_ActivityType2.DROP] = requireNew("lua.logic.activity.BingoActivityView"),
             [EC_ActivityType2.BINGOGAME] = requireNew("lua.logic.activity.BingoActivityView"),
-            [EC_ActivityType2.DFW_SUMMER] = requireNew("lua.logic.activity.SummerActivityView"),
             [EC_ActivityType2.DFW_AUTUMN] = requireNew("lua.logic.activity.AutumnActivityView"),
             [EC_ActivityType2.WELFARE_RECHEAGE] = requireNew("lua.logic.activity.WelfareRechargeView"),
             [EC_ActivityType2.WELFARE_SIGN] = requireNew("lua.logic.activity.WelfareSignView"),
@@ -48,16 +47,42 @@ function ActivityMainView:initData(selectActivityId,activityShowType)
             [EC_ActivityType2.KUANGSAN_FUBEN] = requireNew("lua.logic.activity.JumpActivityView"),
             [EC_ActivityType2.CHRISTMAS_PRE] = requireNew("lua.logic.activity.ChristmasPreView"),
 			[EC_ActivityType2.SCALE_9_GRID] = requireNew("lua.logic.activity.ActivityScale9"),
+            [EC_ActivityType2.PRAY_ACTIVITY] = requireNew("lua.logic.activity.PrayView"),
             [EC_ActivityType2.CHRISTMAS_FIGHT] = requireNew("lua.logic.activity.MapActivityContainer"),
             [EC_ActivityType2.CRAZY_DIAMOND] = requireNew("lua.logic.activity.CrazyDiamondActivityView"),
             [EC_ActivityType2.TURNTABLE] = requireNew("lua.logic.activity.TurntableActivityView"),
             [EC_ActivityType2.DFW_NEW] = requireNew("lua.logic.activity.DfwNewActivityView"),
-            [EC_ActivityType2.CALL_BACK] = requireNew("lua.logic.activity.CallBackMainView"),
-            [EC_ActivityType2.NEW_BACKACTIVITY] = requireNew("lua.logic.activity.TaskActivityView"),
 
+            [EC_ActivityType2.HANG_UP] = requireNew("lua.logic.activity.HangUpEntrance"),
+            [EC_ActivityType2.YANHUA_COMPOSE] = requireNew("lua.logic.activity.YanHuaActivityEntrance"),
+            [EC_ActivityType2.FRIEND_BLESS] = requireNew("lua.logic.activity.FriendSendWordView"),
+            [EC_ActivityType2.TANGHULU] = requireNew("lua.logic.activity.TanghuluMakeView"),
+            [EC_ActivityType2.NEWYEAR_FUBEN] = requireNew("lua.logic.activity.JumpActivityView"),
+            [EC_ActivityType2.CALL_BACK] = requireNew("lua.logic.activity.CallBackMainView"),
+            [EC_ActivityType2.HWX_FUBEN] = requireNew("lua.logic.activity.JumpActivityView"),
+			[EC_ActivityType2.GROUP_PURCHASE] = requireNew("lua.logic.GroupPurchase.MainEntryView"),
+			[EC_ActivityType2.LOBARDAY_2020] = requireNew("lua.logic.activity.Activity2020LobarDay"),
+            [EC_ActivityType2.SZQY] = requireNew("lua.logic.activity.SzdyEntryView"),
+            [EC_ActivityType2.ALLSERVER_ASSISTANCE] = requireNew("lua.logic.activity.AllServerAssistanceActivity"),
+            [EC_ActivityType2.LEAGUE_BACK] = requireNew("lua.logic.activity.LeagueBackView"),
+			[EC_ActivityType2.DRESS_VOTE] = requireNew("lua.logic.activity.DressVoteEntry"),
+            [EC_ActivityType2.DUANWU_HANGUP] = requireNew("lua.logic.duanwu_hangup.DuanwuHangUpEntrance"),
+			[EC_ActivityType2.FASHIONWHOLESALE] = requireNew("lua.logic.activity.FashionWholesale"),
+			[EC_ActivityType2.TREASUREHUNTING] = requireNew("lua.logic.activity.TreasureHuntingView"),
+            [EC_ActivityType2.DETECTIVE_CHAPTER] = requireNew("lua.logic.activity.DetectiveChapterInfoActivity"),
+            [EC_ActivityType2.DETECTIVE_CLUE] = requireNew("lua.logic.activity.DetectiveClueInfo"),
+            [EC_ActivityType2.DETECTIVE_VOTE] = requireNew("lua.logic.activity.DetectiveVoteInfo"),
+            [EC_ActivityType2.BOSS_CHALLENGE] = requireNew("lua.logic.activity.JumpActivityView"),
+            [EC_ActivityType2.DUNGEON_DROP] = requireNew("lua.logic.activity.DropActivityView"),
+            [EC_ActivityType2.WSJ_2020] = requireNew("lua.logic.activity.JumpActivityView"), 
+            [EC_ActivityType2.ONLINE_SCORE_REWARD] = requireNew("lua.logic.activity.QuanfuzhuliViewEn")
+        },
+        [2] = {
+            [EC_ActivityType2.CGCOLLECTED] = requireNew("lua.logic.activity.JumpActivityView"),
         },
         [3] = {
             [EC_ActivityType2.ONEYEAR_WELFARE] = requireNew("lua.logic.oneYear.WelfareView"),
+            [EC_ActivityType2.HALLOWEEN_GHOST] = requireNew("lua.logic.activity.PreHalloweenView"),
         },
         [4] = {
 
@@ -71,20 +96,29 @@ function ActivityMainView:initData(selectActivityId,activityShowType)
             [EC_ActivityType2.ASSIST] = requireNew("lua.logic.activity.KuangsanAssistView"),
             [EC_ActivityType2.ONEYEAR_CELEBRATION] = requireNew("lua.logic.oneYear.CelebrationView"),
             [EC_ActivityType2.KSAN_CARD] = requireNew("lua.logic.activity.KuangsanTaskView"),
-            [EC_ActivityType2.WELFARE_JUMP] = requireNew("lua.logic.activity.ActivityKuangSanEntry"),
+            [EC_ActivityType2.WELFARE_JUMP] = requireNew("lua.logic.activity.JumpActivityView"),
         },
 		[7] = {
 			[EC_ActivityType2.WELFARE_JUMP] = requireNew("lua.logic.activity.ChrismasActivityEntry"),
 		},
         [EC_ActivityType2.FANSHI_ASSIST] = {
             [EC_ActivityType2.WELFARE_JUMP] = requireNew("lua.logic.activity.ActivityFanShiEntry"),
-        }
+        },
+        [91] = {   --英文版白王应援活动 
+            [EC_ActivityType2.ONLINE_SCORE_REWARD] = requireNew("lua.logic.activity.WhiteQueenSendScoreView"),
+            [EC_ActivityType2.LEAGUE_SCORE_ASSIT] = requireNew("lua.logic.activity.WhiteQueenLeagueScoreView"),
+            [EC_ActivityType2.LEAGUE_SCORE_RANK] = requireNew("lua.logic.activity.WhiteQueenScoreRankView"),
+        },
     }
 
     if activityShowType then
         self.topBarFileName = "ActivityMainView"..activityShowType
         self.activityShowType = activityShowType
+        if activityShowType == 91 then  --英文版单独处理白王应援活动top
+            self.topBarFileName = "ActivityMainView91"
+        end
     end
+
 
 end
 
@@ -98,7 +132,11 @@ function ActivityMainView:ctor(...)
     self:initData(...)
     local uiName = "activityMainView"
     if self.activityShowType then
-        uiName = "activityMainView"..self.activityShowType
+        if self.activityShowType == 90 then  --游乐园入口特殊处理
+            uiName = "activityMainView"..7
+        else
+            uiName = "activityMainView"..self.activityShowType
+        end
     end
     self:init("lua.uiconfig.activity."..uiName)
 end
@@ -135,24 +173,24 @@ end
 function ActivityMainView:updateAllActivity()
 	--print("self.activityShowType=" .. self.activityShowType)
     self.activityInfo_ = ActivityDataMgr2:getActivityInfo(nil ,self.activityShowType)
-
     --在线积分活动不显示在活动窗口里
     for i = 1, #self.activityInfo_ do
         local activityInfo = self.activityInfo_[i]
         local type_ = activityInfo.activityType
-        if type_ == EC_ActivityType2.ONLINE_SCORE_REWARD then
+        if type_ == EC_ActivityType2.NEWGIFT_PACK_EN then
             table.remove(self.activityInfo_, i)
+            break
         end
     end
-    -- 中秋节不显示掉落活动到界面
-    if ActivityDataMgr2:getActivityUIType() == 1 then
-        for i, v in ipairs(self.activityInfo_) do
-            if v.activityType ==  EC_ActivityType2.DROP or v.activityType == EC_ActivityType2.ONEYEAR_DROP then
-                table.remove(self.activityInfo_, i)
-                break
-            end
-        end
-    end
+    -- 中秋节、元宵节不显示掉落活动到界面
+    -- if ActivityDataMgr2:getActivityUIType() == 1 or ActivityDataMgr2:getActivityUIType() == 2 then
+    --     for i, v in ipairs(self.activityInfo_) do
+    --         if v.activityType ==  EC_ActivityType2.DROP or v.activityType == EC_ActivityType2.ONEYEAR_DROP then
+    --             table.remove(self.activityInfo_, i)
+    --             break
+    --         end
+    --     end
+    -- end
     local items = self.ListView_activity:getItems()
     local gap = #self.activityInfo_ - #items
     for i = 1, math.abs(gap) do
@@ -236,6 +274,16 @@ end
 function ActivityMainView:selectActivity(index, force)
     if #self.activityInfo_ == 0 then return end
     if self.selectIndex_ == index and not force then return end
+
+    ---关闭上一个页签model
+    if self.selectIndex_ then
+        local oldActivityInfo = self.activityInfo_[self.selectIndex_]
+        local oldModel = self.activityModel_[oldActivityInfo.id]
+        if oldModel and oldModel.hideActivityModel then
+            oldModel:hideActivityModel()
+        end
+    end
+
     self.selectIndex_ = index
 
     for i, v in ipairs(self.ListView_activity:getItems()) do

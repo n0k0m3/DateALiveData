@@ -640,6 +640,11 @@ function FunctionDataMgr:jActivity6(activitId, activityShowType)
     Utils:openView("activity.ActivityMainView6", activitId, activityShowType)
 end
 
+function FunctionDataMgr:jActivity91(activitId, activityShowType)
+    activityShowType = activityShowType or 91
+    Utils:openView("activity.ActivityMainView2", activitId, activityShowType)
+end
+
 function FunctionDataMgr:jActivity1001(activitId, activityShowType)
     activityShowType = activityShowType or 1001
     Utils:openView("activity.ActivityMainView1001", activitId, activityShowType)

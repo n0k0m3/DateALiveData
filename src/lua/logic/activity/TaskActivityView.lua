@@ -5,6 +5,10 @@ function TaskActivityView:initData(activityId)
     self.activityId_ = activityId
     self.activityInfo_ = ActivityDataMgr2:getActivityInfo(self.activityId_)
     self.taskItems_ = {}
+    self.useNormalTime = false
+    if self.activityInfo_ and self.activityInfo_.extendData then
+        self.useNormalTime = self.activityInfo_.extendData.useNormalTime == 1
+    end
 end
 
 function TaskActivityView:ctor(...)
@@ -14,7 +18,6 @@ function TaskActivityView:ctor(...)
     if self.activityInfo_.extendData.activityShowType == EC_ActivityType2.FANSHI_ASSIST then
         uiName = "taskActivityViewFanshi"
     end
-    print(self.activityInfo_.extendData , "666666666666666")
     self:init("lua.uiconfig.activity."..uiName)
 end
 
@@ -27,17 +30,58 @@ function TaskActivityView:initUI(ui)
     self.Panel_taskItem = TFDirector:getChildByPath(self.Panel_prefab, "Panel_taskItem")
 
     self.Image_ad = TFDirector:getChildByPath(self.Panel_root, "Image_ad")
-    self.Label_date = TFDirector:getChildByPath(self.Image_ad, "Label_date")
-    self.Label_timing = TFDirector:getChildByPath(self.Image_ad, "Label_timing")
+    self.Label_date = TFDirector:getChildByPath(self.Image_ad, "Label_date"):hide()
+    self.Label_timing = TFDirector:getChildByPath(self.Image_ad, "Label_timing"):hide()
+
+    self.Label_time_tip = TFDirector:getChildByPath(self.Image_ad, "Label_time_tip")
+    self.Label_time_begin = TFDirector:getChildByPath(self.Image_ad, "Label_time_begin")
+    self.Label_time_end = TFDirector:getChildByPath(self.Image_ad, "Label_time_end")
+    self.Label_time_begin:setSkewX(10)
+    self.Label_time_end:setSkewX(10)
+    self.Label_time_tip:setSkewX(10)
+
+    self.Label_time_tip:setVisible(self.useNormalTime)
+    self.Label_time_begin:setVisible(self.useNormalTime)
+    self.Label_time_end:setVisible(self.useNormalTime)
+
     local ScrollView_task = TFDirector:getChildByPath(self.Panel_root, "ScrollView_task")
     self.ListView_task = UIListView:create(ScrollView_task)
+
+    self.Panel_refresh = TFDirector:getChildByPath(ui,"Panel_refresh")
+
+    if self.Panel_refresh then 
+        self.cost_icon = TFDirector:getChildByPath(self.Panel_refresh,"cost_icon")
+        self.cost_num = TFDirector:getChildByPath(self.Panel_refresh,"cost_num")
+        self.Button_refresh = TFDirector:getChildByPath(self.Panel_refresh,"Button_refresh")
+        self.Label_reset = TFDirector:getChildByPath(self.Panel_refresh,"Label_reset")
+    end
 
     self:refreshView()
 end
 
 function TaskActivityView:updateActivity()
     self.activityInfo_ = ActivityDataMgr2:getActivityInfo(self.activityId_)
-    self.taskData_ = ActivityDataMgr2:getItems(self.activityId_)
+    local taskData = ActivityDataMgr2:getItems(self.activityId_)
+    self.taskData_ = {}
+    local unLockData = {}
+    local lockData = {}
+    for k,v in ipairs(taskData) do
+        local itemInfo = ActivityDataMgr2:getItemInfo(self.activityInfo_.activityType, v)
+        local isUnlock = true
+        if itemInfo.extendData and itemInfo.extendData.treeLevel then
+            isUnlock = PrivilegeDataMgr:getWishTreeLv() >= itemInfo.extendData.treeLevel
+        end
+
+        if isUnlock then
+            table.insert(unLockData,v)
+        else
+            table.insert(lockData,v)
+        end
+    end
+
+    table.insertTo(self.taskData_,unLockData)
+    table.insertTo(self.taskData_,lockData)
+
 
     local items = self.ListView_task:getItems()
     local gap = #items - #self.taskData_
@@ -56,9 +100,32 @@ function TaskActivityView:updateActivity()
         self:updateTaskItem(i)
     end
 
-    self.Label_date:setText(Utils:getActivityDateString(self.activityInfo_.startTime, self.activityInfo_.endTime, self.activityInfo_.extendData.dateStyle))
+    -- @desc:谷丰让改的
+    self.Label_date:setText(Utils:getActivityDateString(self.activityInfo_.startTime, self.activityInfo_.endTime, self.activityInfo_.extendData.dateStyle, true))
 
     self.Image_ad:setTexture(self.activityInfo_.showIcon)
+
+    if self.Panel_refresh then
+        if not self.activityInfo_.extendData.manualRefreshList then 
+            self.Panel_refresh:hide()
+            return 
+        end
+        self.Panel_refresh:show()
+
+        local hasRefreshNum = self.activityInfo_.extendData.manualRefresh or 0
+        local maxRefreshNum = #self.activityInfo_.extendData.manualRefreshList
+
+        local id = self.activityInfo_.extendData.manualRefreshList[math.min(maxRefreshNum,hasRefreshNum + 1)][1]
+        local num = self.activityInfo_.extendData.manualRefreshList[math.min(maxRefreshNum,hasRefreshNum + 1)][2] 
+        self.cost_num:setText(num)
+        self.cost_icon:setTexture(GoodsDataMgr:getItemCfg(id).icon)
+
+        self.Label_reset:setText(hasRefreshNum.."/"..maxRefreshNum)
+        self.cost_icon:setTouchEnabled(true)
+        self.cost_icon:onClick(function ()
+                Utils:showInfo(id)
+            end)
+    end
 end
 
 
@@ -97,6 +164,8 @@ function TaskActivityView:addTaskItem()
     foo.Image_get = TFDirector:getChildByPath(foo.root, "Image_get")
     foo.Image_getted = TFDirector:getChildByPath(foo.root, "Image_getted")
     foo.Image_getted_mask = TFDirector:getChildByPath(foo.root, "Image_getted_mask")
+    foo.Image_lock = TFDirector:getChildByPath(foo.root, "Image_lock"):hide()
+    foo.Label_lock = TFDirector:getChildByPath(foo.root, "Label_lock")
     self.taskItems_[foo.root] = foo
 
     return Panel_taskItem
@@ -111,6 +180,12 @@ function TaskActivityView:updateTaskItem(index)
 
     local item = self.ListView_task:getItem(index)
     local foo = self.taskItems_[item]
+    local isUnlock = true
+    if itemInfo.extendData and itemInfo.extendData.treeLevel then
+        isUnlock = PrivilegeDataMgr:getWishTreeLv() >= itemInfo.extendData.treeLevel
+        foo.Label_lock:setTextById(15010119,itemInfo.extendData.treeLevel)
+    end
+    foo.Image_lock:setVisible(not isUnlock)
 
     foo.Image_icon:setTexture(itemInfo.extendData.icon)
   
@@ -176,9 +251,21 @@ end
 
 function TaskActivityView:refreshView()
 
+    if self.activityInfo_ and self.useNormalTime then
+        local startDate = Utils:getLocalDate(self.activityInfo_.startTime)
+        local startDateStr = startDate:fmt("%Y.%m.%d")
+        local endDate = Utils:getLocalDate(self.activityInfo_.endTime)
+        local endDateStr = endDate:fmt("%Y.%m.%d")
+        self.Label_time_begin:setText(startDateStr)
+        self.Label_time_end:setText(endDateStr)
+    end
+
 end
 
 function TaskActivityView:updateCountDonw()
+    if self.useNormalTime then
+        return
+    end
     local isEnd = ActivityDataMgr2:isEnd(self.activityId_)
     local serverTime = ServerDataMgr:getServerTime()
     if isEnd then
@@ -202,6 +289,37 @@ end
 
 function TaskActivityView:registerEvents()
 
+    if self.Button_refresh then
+        self.Button_refresh:onClick(function ( ... )
+
+            local hasRefreshNum = self.activityInfo_.extendData.manualRefresh or 0
+            local maxRefreshNum = #self.activityInfo_.extendData.manualRefreshList
+
+            local id = self.activityInfo_.extendData.manualRefreshList[math.min(maxRefreshNum,hasRefreshNum + 1)][1]
+            local num = self.activityInfo_.extendData.manualRefreshList[math.min(maxRefreshNum,hasRefreshNum + 1)][2] 
+
+            if hasRefreshNum >= maxRefreshNum then 
+                Utils:showTips(2460126) 
+                return
+            end
+
+            if GoodsDataMgr:getItemCount(id) < num  then
+                Utils:showTips(2460127)
+                return
+            end
+
+            local args = {
+                tittle = 2107025,
+                reType = "taskActivityRefresh",
+                content = TextDataMgr:getText(2460128),
+                confirmCall = function ( ... )
+                    self:reFreshItem()
+                end,
+            }
+            Utils:showReConfirm(args)
+
+        end)
+    end
 end
 
 function TaskActivityView:onSubmitSuccessEvent(activitId, itemId, reward)
@@ -219,6 +337,11 @@ end
 
 function TaskActivityView:onUpdateCountDownEvent()
     self:updateCountDonw()
+end
+
+function TaskActivityView:reFreshItem()
+    -- body
+    ActivityDataMgr2:send_ACTIVITY_REQ_ACTIVITY_ITEM_REFRESH(self.activityId_)
 end
 
 return TaskActivityView

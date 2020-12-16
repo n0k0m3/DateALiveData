@@ -439,7 +439,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									width = "185",
+									width = "174",
 									ZOrder = "1",
 									components = 
 									{
@@ -450,30 +450,30 @@ local t =
 											anchorPoint = "False",
 											anchorPointX = "0",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
+											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
 											height = "378",
-											ignoreSize = "False",
+											ignoreSize = "True",
 											name = "Image_tab_bg",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "1",
-											texturePath = "ui/common/img_touming.png",
+											texturePath = "ui/setting/uires/001.png",
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
 												PositionY = 210,
 											},
-											width = "185",
+											width = "174",
 											ZOrder = "1",
 											components = 
 											{
 												
 												{
 													controlID = "ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-													UUID = "4fec9d31_7265_4d0e_8c28_4b00e191a434",
+													UUID = "4ed1d370_d433_4d0a_ba27_83cd49afb5ac",
 													anchorPoint = "False",
 													anchorPointX = "0",
 													anchorPointY = "1",
@@ -513,7 +513,7 @@ local t =
 														
 														{
 															controlID = "Button_dating_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "e86d09f4_5c63_4af0_8f6e_d8dde9a40f64",
+															UUID = "88e098e6_4686_44e1_a98b_a8cd554ef1ad",
 															anchorPoint = "False",
 															anchorPointX = "0",
 															anchorPointY = "1",
@@ -548,7 +548,7 @@ local t =
 																
 																{
 																	controlID = "Label_start_Button_dating_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-																	UUID = "cda28f6c_7a0e_4899_a046_4d5d639c50a9",
+																	UUID = "1897e1fe_0397_4d21_9519_8a8820cefcd5",
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
@@ -594,7 +594,7 @@ local t =
 																},
 																{
 																	controlID = "Label_start_en_Button_dating_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-																	UUID = "d175d805_bd22_4bdb_90e1_9eaf73787192",
+																	UUID = "bd0864ea_4bae_4208_8b5c_9042571ca0c9",
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
@@ -642,7 +642,7 @@ local t =
 														},
 														{
 															controlID = "Button_sound_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "fa4e4e4e_7bf7_49d0_ab89_ac4221ccfb2b",
+															UUID = "197ed8a3_40b6_4fd4_9677_b6ee4aa80d8c",
 															anchorPoint = "False",
 															anchorPointX = "0",
 															anchorPointY = "1",
@@ -677,7 +677,7 @@ local t =
 																
 																{
 																	controlID = "Label_start_Button_sound_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-																	UUID = "9a18c247_cec4_4ea9_acd4_9522c8fac006",
+																	UUID = "cae649fc_00e1_4aff_8980_7ace9352bfd5",
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
@@ -723,7 +723,7 @@ local t =
 																},
 																{
 																	controlID = "Label_start_en_Button_sound_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-																	UUID = "b7b294ae_c4fc_451e_a0bc_2bf60ac8867d",
+																	UUID = "1d124cd0_b4fe_43ec_b481_3084c548d16e",
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
@@ -771,7 +771,7 @@ local t =
 														},
 														{
 															controlID = "Button_battle_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "1d665698_0e72_4e43_9585_ae8d68b9cd1b",
+															UUID = "490c1f5a_d14b_4ef0_afab_78da912edd68",
 															anchorPoint = "False",
 															anchorPointX = "0",
 															anchorPointY = "1",
@@ -806,7 +806,7 @@ local t =
 																
 																{
 																	controlID = "Label_start_Button_battle_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-																	UUID = "a2750962_b4bd_495b_9416_1d51e2a16267",
+																	UUID = "6b77017c_38c6_44c0_97de_3ad6c425e3ee",
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
@@ -852,7 +852,7 @@ local t =
 																},
 																{
 																	controlID = "Label_start_en_Button_battle_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-																	UUID = "1d29530d_a227_4907_b844_0918686cb5f8",
+																	UUID = "0be93c2a_fe7d_474c_84c6_de1f0359a570",
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
@@ -900,7 +900,7 @@ local t =
 														},
 														{
 															controlID = "Button_collect_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "1d13a1cc_6e7d_46e1_bf61_88e2e74de7fd",
+															UUID = "d68bda91_3ae3_4f6b_bdf9_1928a59a39f2",
 															anchorPoint = "False",
 															anchorPointX = "0",
 															anchorPointY = "1",
@@ -935,7 +935,7 @@ local t =
 																
 																{
 																	controlID = "Label_start_Button_collect_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-																	UUID = "57561609_6c2a_42ab_a59d_716e17a8cfa6",
+																	UUID = "e49e46a1_1c52_487b_96b7_084b3d84672c",
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
@@ -981,7 +981,7 @@ local t =
 																},
 																{
 																	controlID = "Label_start_en_Button_collect_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-																	UUID = "b1b5f9e0_fa28_4edb_b496_9d68ef560006",
+																	UUID = "6023d25c_4105_4ae8_b051_7998364b3c16",
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
@@ -1029,7 +1029,7 @@ local t =
 														},
 														{
 															controlID = "Button_MainPage_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "2050fd9a_8596_4860_bda5_f22aa9273a76",
+															UUID = "0f2e266f_cdfe_44c1_a949_1e213f7742c5",
 															anchorPoint = "False",
 															anchorPointX = "0",
 															anchorPointY = "1",
@@ -1064,7 +1064,7 @@ local t =
 																
 																{
 																	controlID = "Label_start_Button_MainPage_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-																	UUID = "7f5e4bc3_5ad1_4ba4_a88c_b04bc572a658",
+																	UUID = "821320c0_efb9_45b8_9ff4_afcd496916ea",
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
@@ -1110,7 +1110,7 @@ local t =
 																},
 																{
 																	controlID = "Label_start_en_Button_MainPage_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-																	UUID = "ced86e00_87b0_45f5_89c5_46d3d215bc86",
+																	UUID = "351e1e21_79f7_4c93_9bc4_ab0bf6304d51",
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
@@ -1158,7 +1158,7 @@ local t =
 														},
 														{
 															controlID = "Button_other_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "f87f4c15_147a_4453_b9fb_d6077db2bce5",
+															UUID = "38fc7876_ea8f_4e9b_b1a7_78181c42a095",
 															anchorPoint = "False",
 															anchorPointX = "0",
 															anchorPointY = "1",
@@ -1193,7 +1193,7 @@ local t =
 																
 																{
 																	controlID = "Label_start_Button_other_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-																	UUID = "2d83acd5_0aad_4e23_bb4c_344264d4c80c",
+																	UUID = "14d9028a_8c24_4c84_a4c4_c3476a21d9ff",
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
@@ -1239,7 +1239,7 @@ local t =
 																},
 																{
 																	controlID = "Label_start_en_Button_other_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-																	UUID = "99f9136d_c261_4aca_8bae_dd3df742545f",
+																	UUID = "02223045_9534_4917_8855_7adcd3eee64c",
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
@@ -1287,7 +1287,7 @@ local t =
 														},
 														{
 															controlID = "Button_language_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "b9b07ded_31c4_46e7_813b_039bfde4e229",
+															UUID = "c7125606_a1ae_4541_8ab5_051072465f57",
 															anchorPoint = "False",
 															anchorPointX = "0",
 															anchorPointY = "1",
@@ -1322,7 +1322,7 @@ local t =
 																
 																{
 																	controlID = "Label_start_Button_language_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-																	UUID = "61d52c29_0bc0_4abb_9f4a_91d9daeaeff7",
+																	UUID = "326dad7c_5408_4f4b_b855_448c36ac2a1e",
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
@@ -1368,7 +1368,7 @@ local t =
 																},
 																{
 																	controlID = "Label_start_en_Button_language_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-																	UUID = "ddbcd157_3580_4ee8_a3ff_aeb9e33afcb6",
+																	UUID = "5fac6624_2dce_472f_97a4_285a72570e69",
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
@@ -1416,7 +1416,7 @@ local t =
 														},
 														{
 															controlID = "Button_dark_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "113724b3_fdc0_40e9_9488_98ca61903387",
+															UUID = "45c8e6fe_adb2_4b08_9a43_eb8868223b7a",
 															anchorPoint = "False",
 															anchorPointX = "0",
 															anchorPointY = "1",
@@ -1451,7 +1451,7 @@ local t =
 																
 																{
 																	controlID = "Label_start_Button_dark_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-																	UUID = "47a78a11_3353_441f_a438_7434ec166e30",
+																	UUID = "2eaf692a_f1f8_44b2_aeb5_5b91beaa2795",
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
@@ -1497,7 +1497,7 @@ local t =
 																},
 																{
 																	controlID = "Label_start_en_Button_dark_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-																	UUID = "a96e5970_714c_4133_b09a_7c0e19697875",
+																	UUID = "01b0cfc9_9c45_4dab_ab1b_9b9f8b7279c1",
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
@@ -1545,7 +1545,7 @@ local t =
 														},
 														{
 															controlID = "Button_touch_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "92710b0b_d15a_4243_af14_945447b659cb",
+															UUID = "54fcf802_2d56_4827_a3ae_00005e580ac7",
 															anchorPoint = "False",
 															anchorPointX = "0",
 															anchorPointY = "1",
@@ -1580,7 +1580,7 @@ local t =
 																
 																{
 																	controlID = "Label_start_Button_touch_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-																	UUID = "b8f01b5f_ddbc_4f4f_8048_148da8531a73",
+																	UUID = "bd3c7171_1f83_41b5_9c56_e7ce6f6100e5",
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
@@ -1626,7 +1626,7 @@ local t =
 																},
 																{
 																	controlID = "Label_start_en_Button_touch_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-																	UUID = "5f5d661c_5bbe_4abb_970c_130da0f8e705",
+																	UUID = "770fd595_a4d9_465b_adf5_567004510160",
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
@@ -6602,6 +6602,394 @@ local t =
 														},
 													},
 												},
+												{
+													controlID = "Panel_awake_effect_Panel_battle_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
+													UUID = "2adf4ea3_34b2_440a_a3da_a9ca3f2b5fab",
+													anchorPoint = "False",
+													anchorPointX = "0",
+													anchorPointY = "1",
+													backGroundScale9Enable = "False",
+													bgColorOpacity = "50",
+													bIsOpenClipping = "False",
+													classname = "MEPanel",
+													colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+													DesignHeight = "640",
+													DesignType = "0",
+													DesignWidth = "960",
+													dstBlendFunc = "771",
+													height = "90",
+													ignoreSize = "False",
+													name = "Panel_awake_effect",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													srcBlendFunc = "1",
+													touchAble = "False",
+													UILayoutViewModel = 
+													{
+														PositionY = -285,
+													},
+													uipanelviewmodel = 
+													{
+														Layout="Absolute",
+														nType = "0"
+													},
+													width = "820",
+													ZOrder = "1",
+													components = 
+													{
+														
+														{
+															controlID = "Image_cell_title_bg_Panel_awake_effect_Panel_battle_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
+															UUID = "7afb96da_3453_44f0_b95f_586d44ccf900",
+															anchorPoint = "False",
+															anchorPointX = "0.5",
+															anchorPointY = "0.5",
+															backGroundScale9Enable = "False",
+															classname = "MEImage",
+															dstBlendFunc = "771",
+															height = "86",
+															ignoreSize = "True",
+															name = "Image_cell_title_bg",
+															sizepercentx = "0",
+															sizepercenty = "0",
+															sizeType = "0",
+															srcBlendFunc = "1",
+															texturePath = "ui/setting/uires/006.png",
+															touchAble = "False",
+															UILayoutViewModel = 
+															{
+																PositionX = 410,
+																PositionY = -45,
+															},
+															width = "806",
+															ZOrder = "1",
+														},
+														{
+															controlID = "Image_cell_title_icon_Panel_awake_effect_Panel_battle_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
+															UUID = "2d54957c_29e6_44b5_8602_75da7f01cf0b",
+															anchorPoint = "False",
+															anchorPointX = "0.5",
+															anchorPointY = "0.5",
+															backGroundScale9Enable = "False",
+															classname = "MEImage",
+															dstBlendFunc = "771",
+															height = "30",
+															ignoreSize = "True",
+															name = "Image_cell_title_icon",
+															sizepercentx = "0",
+															sizepercenty = "0",
+															sizeType = "0",
+															srcBlendFunc = "1",
+															texturePath = "ui/setting/uires/019.png",
+															touchAble = "False",
+															UILayoutViewModel = 
+															{
+																PositionX = 35,
+																PositionY = -45,
+															},
+															width = "34",
+															ZOrder = "1",
+														},
+														{
+															controlID = "Label_title_Panel_awake_effect_Panel_battle_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
+															UUID = "4db1fdba_a996_4ab1_9907_2307d8485700",
+															anchorPoint = "False",
+															anchorPointX = "0",
+															anchorPointY = "0.5",
+															classname = "MELabel",
+															compPath = "luacomponents.common.MEIconLabel",
+															dstBlendFunc = "771",
+															FontColor = "#FF49557F",
+															fontName = "font/MFLiHei_Noncommercial.ttf",
+															fontShadow = 
+															{
+																IsShadow = false,
+																ShadowColor = "#FFFFFFFF",
+																ShadowAlpha = 255,
+																OffsetX = 0,
+																OffsetY = 0,
+															},
+															fontSize = "26",
+															fontStroke = 
+															{
+																IsStroke = false,
+																StrokeColor = "#FFE6E6E6",
+																StrokeSize = 1,
+															},
+															height = "32",
+															ignoreSize = "True",
+															name = "Label_title",
+															nTextAlign = "1",
+															nTextHAlign = "1",
+															sizepercentx = "0",
+															sizepercenty = "0",
+															sizeType = "0",
+															srcBlendFunc = "770",
+															text = "觉醒动画",
+															touchAble = "False",
+															touchScaleEnable = "False",
+															UILayoutViewModel = 
+															{
+																PositionX = 65,
+																PositionY = -45,
+															},
+															width = "107",
+															ZOrder = "1",
+														},
+														{
+															controlID = "Image_btn_bg_1_Panel_awake_effect_Panel_battle_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
+															UUID = "b8d4011f_c32d_47fb_9ee1_33da90612e92",
+															anchorPoint = "False",
+															anchorPointX = "0.5",
+															anchorPointY = "0.5",
+															backGroundScale9Enable = "False",
+															classname = "MEImage",
+															dstBlendFunc = "771",
+															height = "62",
+															ignoreSize = "True",
+															name = "Image_btn_bg_1",
+															sizepercentx = "0",
+															sizepercenty = "0",
+															sizeType = "0",
+															srcBlendFunc = "1",
+															texturePath = "ui/setting/uires/010.png",
+															touchAble = "False",
+															UILayoutViewModel = 
+															{
+																PositionX = 360,
+																PositionY = -45,
+															},
+															width = "246",
+															ZOrder = "1",
+														},
+														{
+															controlID = "Button_common_1_Panel_awake_effect_Panel_battle_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
+															UUID = "562f1ab4_4503_4046_b6ea_79df7bce628c",
+															anchorPoint = "False",
+															anchorPointX = "0.5",
+															anchorPointY = "0.5",
+															backGroundScale9Enable = "False",
+															classname = "MEButton",
+															ClickHighLightEnabled = "True",
+															dstBlendFunc = "771",
+															flipX = "False",
+															flipY = "False",
+															height = "40",
+															ignoreSize = "True",
+															name = "Button_common_1",
+															normal = "ui/setting/uires/011.png",
+															sizepercentx = "0",
+															sizepercenty = "0",
+															sizeType = "0",
+															srcBlendFunc = "1",
+															touchAble = "True",
+															UILayoutViewModel = 
+															{
+																PositionX = 272,
+																PositionY = -45,
+															},
+															UItype = "Button",
+															width = "44",
+															ZOrder = "1",
+														},
+														{
+															controlID = "Image_btn_bg_2_Panel_awake_effect_Panel_battle_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
+															UUID = "a79a2ac6_d778_46cf_8c57_ba12a8e145dc",
+															anchorPoint = "False",
+															anchorPointX = "0.5",
+															anchorPointY = "0.5",
+															backGroundScale9Enable = "False",
+															classname = "MEImage",
+															dstBlendFunc = "771",
+															height = "62",
+															ignoreSize = "True",
+															name = "Image_btn_bg_2",
+															sizepercentx = "0",
+															sizepercenty = "0",
+															sizeType = "0",
+															srcBlendFunc = "1",
+															texturePath = "ui/setting/uires/010.png",
+															touchAble = "False",
+															UILayoutViewModel = 
+															{
+																PositionX = 640,
+																PositionY = -45,
+															},
+															width = "246",
+															ZOrder = "1",
+														},
+														{
+															controlID = "Button_common_2_Panel_awake_effect_Panel_battle_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
+															UUID = "59650934_1cd4_422e_8f46_61ad82dd62a8",
+															anchorPoint = "False",
+															anchorPointX = "0.5",
+															anchorPointY = "0.5",
+															backGroundScale9Enable = "False",
+															classname = "MEButton",
+															ClickHighLightEnabled = "True",
+															dstBlendFunc = "771",
+															flipX = "False",
+															flipY = "False",
+															height = "40",
+															ignoreSize = "True",
+															name = "Button_common_2",
+															normal = "ui/setting/uires/011.png",
+															sizepercentx = "0",
+															sizepercenty = "0",
+															sizeType = "0",
+															srcBlendFunc = "1",
+															touchAble = "True",
+															UILayoutViewModel = 
+															{
+																PositionX = 554,
+																PositionY = -45,
+															},
+															UItype = "Button",
+															width = "44",
+															ZOrder = "1",
+														},
+														{
+															controlID = "Label_hz2_Panel_awake_effect_Panel_battle_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
+															UUID = "c13b6be2_b623_4d29_816b_8d1450e0808e",
+															anchorPoint = "False",
+															anchorPointX = "0.5",
+															anchorPointY = "0.5",
+															classname = "MELabel",
+															compPath = "luacomponents.common.MEIconLabel",
+															dstBlendFunc = "771",
+															FontColor = "#FF49557F",
+															fontName = "font/MFLiHei_Noncommercial.ttf",
+															fontShadow = 
+															{
+																IsShadow = false,
+																ShadowColor = "#FFFFFFFF",
+																ShadowAlpha = 255,
+																OffsetX = 0,
+																OffsetY = 0,
+															},
+															fontSize = "22",
+															fontStroke = 
+															{
+																IsStroke = false,
+																StrokeColor = "#FFE6E6E6",
+																StrokeSize = 1,
+															},
+															height = "27",
+															ignoreSize = "True",
+															name = "Label_hz2",
+															nTextAlign = "1",
+															nTextHAlign = "1",
+															sizepercentx = "0",
+															sizepercenty = "0",
+															sizeType = "0",
+															srcBlendFunc = "770",
+															text = "隐藏",
+															touchAble = "False",
+															touchScaleEnable = "False",
+															UILayoutViewModel = 
+															{
+																PositionX = 670,
+																PositionY = -45,
+															},
+															width = "47",
+															ZOrder = "1",
+														},
+														{
+															controlID = "Label_hz1_Panel_awake_effect_Panel_battle_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
+															UUID = "cc635420_9669_42b5_b01c_256515a21ac8",
+															anchorPoint = "False",
+															anchorPointX = "0.5",
+															anchorPointY = "0.5",
+															classname = "MELabel",
+															compPath = "luacomponents.common.MEIconLabel",
+															dstBlendFunc = "771",
+															FontColor = "#FF49557F",
+															fontName = "font/MFLiHei_Noncommercial.ttf",
+															fontShadow = 
+															{
+																IsShadow = false,
+																ShadowColor = "#FFFFFFFF",
+																ShadowAlpha = 255,
+																OffsetX = 0,
+																OffsetY = 0,
+															},
+															fontSize = "22",
+															fontStroke = 
+															{
+																IsStroke = false,
+																StrokeColor = "#FFE6E6E6",
+																StrokeSize = 1,
+															},
+															height = "27",
+															ignoreSize = "True",
+															name = "Label_hz1",
+															nTextAlign = "1",
+															nTextHAlign = "1",
+															sizepercentx = "0",
+															sizepercenty = "0",
+															sizeType = "0",
+															srcBlendFunc = "770",
+															text = "开启",
+															touchAble = "False",
+															touchScaleEnable = "False",
+															UILayoutViewModel = 
+															{
+																PositionX = 390,
+																PositionY = -45,
+															},
+															width = "47",
+															ZOrder = "1",
+														},
+														{
+															controlID = "Label_title1_Panel_awake_effect_Panel_battle_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
+															UUID = "42388b11_ea38_4efa_8273_441310bdd648",
+															anchorPoint = "False",
+															anchorPointX = "0.5",
+															anchorPointY = "0.5",
+															classname = "MELabel",
+															compPath = "luacomponents.common.MEIconLabel",
+															dstBlendFunc = "771",
+															FontColor = "#FF49557F",
+															fontName = "font/MFLiHei_Noncommercial.ttf",
+															fontShadow = 
+															{
+																IsShadow = false,
+																ShadowColor = "#FFFFFFFF",
+																ShadowAlpha = 255,
+																OffsetX = 0,
+																OffsetY = 0,
+															},
+															fontSize = "18",
+															fontStroke = 
+															{
+																IsStroke = false,
+																StrokeColor = "#FFE6E6E6",
+																StrokeSize = 1,
+															},
+															height = "22",
+															ignoreSize = "True",
+															name = "Label_title1",
+															nTextAlign = "1",
+															nTextHAlign = "1",
+															sizepercentx = "0",
+															sizepercenty = "0",
+															sizeType = "0",
+															srcBlendFunc = "770",
+															text = "(释放动画）",
+															touchAble = "False",
+															touchScaleEnable = "False",
+															UILayoutViewModel = 
+															{
+																PositionX = 118,
+																PositionY = -75,
+															},
+															visible = "False",
+															width = "87",
+															ZOrder = "1",
+														},
+													},
+												},
 											},
 										},
 										{
@@ -7212,14 +7600,14 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "22",
+															fontSize = "18",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "27",
+															height = "22",
 															ignoreSize = "True",
 															name = "Label_MainName",
 															nTextAlign = "1",
@@ -7236,7 +7624,7 @@ local t =
 																PositionX = -64,
 																PositionY = -3,
 															},
-															width = "68",
+															width = "56",
 															ZOrder = "1",
 														},
 													},
@@ -7344,8 +7732,8 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -416,
-														PositionY = -1040,
+														PositionX = -415,
+														PositionY = -1042,
 													},
 													uipanelviewmodel = 
 													{
@@ -7936,7 +8324,6 @@ local t =
 												Layout="Absolute",
 												nType = "0"
 											},
-											visible = "False",
 											width = "600",
 											ZOrder = "1",
 											components = 
@@ -8810,7 +9197,7 @@ local t =
 										},
 										{
 											controlID = "Panel_Language_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-											UUID = "74f7c0ad_1aba_415a_8054_2628edeb4009",
+											UUID = "91164b3f_bdca_4d38_bf56_46cd8e7e5f52",
 											anchorPoint = "False",
 											anchorPointX = "0",
 											anchorPointY = "1",
@@ -8848,7 +9235,7 @@ local t =
 												
 												{
 													controlID = "Panel_language_en_Panel_Language_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-													UUID = "890bf721_d72b_42a5_994d_6dec0d2c85b6",
+													UUID = "08dc176a_e97a_4c8d_9b97_e89857fcd69e",
 													anchorPoint = "False",
 													anchorPointX = "0",
 													anchorPointY = "1",
@@ -8885,7 +9272,7 @@ local t =
 														
 														{
 															controlID = "Image_cell_title_bg_Panel_language_en_Panel_Language_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "ee5a62b2_aca8_48f9_a074_9fc2130a291f",
+															UUID = "64420296_2288_47fc_9524_cc6c1fad6e25",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -8911,7 +9298,7 @@ local t =
 														},
 														{
 															controlID = "Image_cell_title_icon_Panel_language_en_Panel_Language_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "95f444ea_af7d_4073_883e_a507abb65f2f",
+															UUID = "7a51b881_147b_4466_8410_5881486c1f14",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -8937,7 +9324,7 @@ local t =
 														},
 														{
 															controlID = "Label_title_Panel_language_en_Panel_Language_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "0af101dc_119e_4778_9b21_49c1012214a8",
+															UUID = "f30be46b_3961_4441_9d83_bc7edbac7531",
 															anchorPoint = "False",
 															anchorPointX = "0",
 															anchorPointY = "0.5",
@@ -8983,7 +9370,7 @@ local t =
 														},
 														{
 															controlID = "Image_btn_bg_1_Panel_language_en_Panel_Language_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "9cecbf0d_d47f_4305_9140_341084d8c543",
+															UUID = "8118ed64_9547_4af9_9689_ed274acf8463",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -9009,7 +9396,7 @@ local t =
 														},
 														{
 															controlID = "Button_common_1_Panel_language_en_Panel_Language_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "e6ff912d_846c_452e_b26e_41d5e61bd4e2",
+															UUID = "1862adb7_1597_47ab_a844_48ef91b24fe7",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -9039,7 +9426,7 @@ local t =
 														},
 														{
 															controlID = "Image_btn_bg_2_Panel_language_en_Panel_Language_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "ae11bccb_f788_4ee1_9047_abe124e60b1c",
+															UUID = "f1377216_e859_49bb_9c7a_a545d8dc73aa",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -9065,7 +9452,7 @@ local t =
 														},
 														{
 															controlID = "Button_common_2_Panel_language_en_Panel_Language_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "43eb63b1_099a_4e21_9ecf_9e17cd394909",
+															UUID = "7cf28118_b815_4858_8c32_3202129de7b3",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -9095,7 +9482,7 @@ local t =
 														},
 														{
 															controlID = "Label_hz2_Panel_language_en_Panel_Language_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "4a34411d_bb52_443b_aff9_9beb97c3a3d1",
+															UUID = "64024572_b743_4b28_9652_ec7a3129164c",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -9141,7 +9528,7 @@ local t =
 														},
 														{
 															controlID = "Label_hz1_Panel_language_en_Panel_Language_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "5cb47d93_00ff_4c5e_a4cc_ea2f8b5c357f",
+															UUID = "1640a49f_26dc_4b7f_af70_73dea6c5f02d",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -9191,7 +9578,7 @@ local t =
 										},
 										{
 											controlID = "Panel_touch_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-											UUID = "eeb76285_ab83_41ee_a518_3c8e8a27e7bc",
+											UUID = "8fe60975_9c60_47b2_8c79_4d39d3552fce",
 											anchorPoint = "False",
 											anchorPointX = "0",
 											anchorPointY = "1",
@@ -9229,7 +9616,7 @@ local t =
 												
 												{
 													controlID = "Panel_power_Panel_touch_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-													UUID = "484f0aad_38e6_4e06_aa05_058f99092e5f",
+													UUID = "9610d667_c978_43e3_a6da_4d05baa87121",
 													anchorPoint = "False",
 													anchorPointX = "0",
 													anchorPointY = "1",
@@ -9266,7 +9653,7 @@ local t =
 														
 														{
 															controlID = "Image_cell_title_bg_Panel_power_Panel_touch_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "5e0d2555_f9ff_4fb5_86ac_9dbee8f91e1c",
+															UUID = "a64aab28_c1de_4d60_95ef_4e13b0e31d4f",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -9292,7 +9679,7 @@ local t =
 														},
 														{
 															controlID = "Image_cell_title_icon_Panel_power_Panel_touch_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "ba0bcacb_bd08_41c4_93b6_8119398d803d",
+															UUID = "497916d5_89eb_4d51_9d72_e0e832c9d44c",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -9318,7 +9705,7 @@ local t =
 														},
 														{
 															controlID = "Label_title_Panel_power_Panel_touch_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "cfee94ef_5433_438d_a132_9338d796f058",
+															UUID = "78b2cd5e_7639_4edb_a88a_e285e9a8c1ea",
 															anchorPoint = "False",
 															anchorPointX = "0",
 															anchorPointY = "0.5",
@@ -9364,7 +9751,7 @@ local t =
 														},
 														{
 															controlID = "Image_btn_bg_Panel_power_Panel_touch_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "1d8b1037_8903_4e7a_ade1_154e83cce290",
+															UUID = "18c649bc_8826_4b01_b2ca_8957d41696b5",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -9390,7 +9777,7 @@ local t =
 														},
 														{
 															controlID = "Label_slow_Panel_power_Panel_touch_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "2bbafcd0_1106_4698_9c1c_9e20964e27a2",
+															UUID = "999f8cae_92fc_4d1e_9ce3_c79421223401",
 															anchorPoint = "False",
 															anchorPointX = "1",
 															anchorPointY = "0.5",
@@ -9436,7 +9823,7 @@ local t =
 														},
 														{
 															controlID = "Label_fast_Panel_power_Panel_touch_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "5523206e_9fcc_48e7_893e_4684f947fa54",
+															UUID = "3ef33d89_f0e9_4f2b_8d93_e1392eb85bb8",
 															anchorPoint = "False",
 															anchorPointX = "0",
 															anchorPointY = "0.5",
@@ -9482,7 +9869,7 @@ local t =
 														},
 														{
 															controlID = "Image_sel_sign_Panel_power_Panel_touch_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "8976c906_0a4c_4197_b5f0_7bdd2b3c4510",
+															UUID = "e003dec8_32a7_42ad_b367_86e478af2491",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -9508,7 +9895,7 @@ local t =
 														},
 														{
 															controlID = "Button_common_4_Panel_power_Panel_touch_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "79c22922_db92_4385_b101_7dbc25633fb7",
+															UUID = "ee9094ee_a235_4af7_b263_e6c5a27d42b5",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -9539,7 +9926,7 @@ local t =
 																
 																{
 																	controlID = "Label_num_Button_common_4_Panel_power_Panel_touch_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-																	UUID = "75e498ff_8785_4247_8709_295ffd32cc85",
+																	UUID = "a46227bc_2d09_44c6_beda_6972690ef8de",
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
@@ -9586,7 +9973,7 @@ local t =
 														},
 														{
 															controlID = "Button_common_3_Panel_power_Panel_touch_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "361f144b_e22b_4199_81d3_4e78d461b51f",
+															UUID = "f3e29a4a_7109_46a3_ba2a_6077b4387832",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -9617,7 +10004,7 @@ local t =
 																
 																{
 																	controlID = "Label_num_Button_common_3_Panel_power_Panel_touch_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-																	UUID = "76fade5e_1a05_40f6_bb57_d173791561ab",
+																	UUID = "577e6a91_e4b0_48de_90ce_80269c66aa78",
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
@@ -9664,7 +10051,7 @@ local t =
 														},
 														{
 															controlID = "Button_common_2_Panel_power_Panel_touch_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "dda458a7_6170_4623_9902_528eea276537",
+															UUID = "ddb6fc83_47bf_46e7_b206_20245ff6fc7e",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -9695,7 +10082,7 @@ local t =
 																
 																{
 																	controlID = "Label_num_Button_common_2_Panel_power_Panel_touch_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-																	UUID = "bc0f181a_7d34_47a5_a94d_cb51f9eb0bf3",
+																	UUID = "6e41b602_9a2c_4dac_a7ee_cf0d9435bbd7",
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
@@ -9742,7 +10129,7 @@ local t =
 														},
 														{
 															controlID = "Button_common_1_Panel_power_Panel_touch_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "da93be5b_b13e_4808_ac5a_d92213c94a8f",
+															UUID = "20183d9d_4c6d_4562_94f6_9022c3846612",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -9773,7 +10160,7 @@ local t =
 																
 																{
 																	controlID = "Label_num_Button_common_1_Panel_power_Panel_touch_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-																	UUID = "6552e21f_6c71_4ac2_9539_d474e029701f",
+																	UUID = "8eaf6180_17a9_4a4a_a118_9dd819574166",
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
@@ -9824,7 +10211,7 @@ local t =
 										},
 										{
 											controlID = "Panel_dark_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-											UUID = "b735a22a_3541_4b32_ad69_8db43db0770d",
+											UUID = "9dbd9d21_78f5_4c8f_bb87_40b5370b5a4c",
 											anchorPoint = "False",
 											anchorPointX = "0",
 											anchorPointY = "1",
@@ -9861,7 +10248,7 @@ local t =
 												
 												{
 													controlID = "Panel_en_dark_Panel_dark_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-													UUID = "c155c3e2_368a_4a08_a196_62a8806f3ebc",
+													UUID = "2f231915_17a0_4882_8727_b46561e243c4",
 													anchorPoint = "False",
 													anchorPointX = "0",
 													anchorPointY = "1",
@@ -9898,7 +10285,7 @@ local t =
 														
 														{
 															controlID = "img_dark_bg_Panel_en_dark_Panel_dark_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "f7bf8983_7244_40a4_8d53_107d9f1d211b",
+															UUID = "3d742adb_df00_44b0_a4d0_09353a0c32d0",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -9924,7 +10311,7 @@ local t =
 														},
 														{
 															controlID = "img_dark_icon_Panel_en_dark_Panel_dark_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "8b6fb5d6_92f7_44d1_a722_b7cba9583c11",
+															UUID = "75e07a77_75d7_455f_949b_a013ae8e71cb",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -9950,7 +10337,7 @@ local t =
 														},
 														{
 															controlID = "label_dark_title_Panel_en_dark_Panel_dark_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "a55f6d63_cbf3_498b_9b22_d1e9d3df7c41",
+															UUID = "d47c91d6_641b_4c19_aca5_7421c5021c09",
 															anchorPoint = "False",
 															anchorPointX = "0",
 															anchorPointY = "0.5",
@@ -9996,7 +10383,7 @@ local t =
 														},
 														{
 															controlID = "img_btn_bg_1_Panel_en_dark_Panel_dark_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "85248f91_b8b7_4132_9690_c1c9ada2b6c9",
+															UUID = "f27ba32b_5a1a_463c_8344_b22b93eaaf8c",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -10022,7 +10409,7 @@ local t =
 														},
 														{
 															controlID = "btn_common_1_Panel_en_dark_Panel_dark_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "65b562e0_ca06_413b_9d2d_147243fa987f",
+															UUID = "1cb77fc2_17d0_40fd_a833_646aa826b029",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -10052,7 +10439,7 @@ local t =
 														},
 														{
 															controlID = "img_btn_bg_2_Panel_en_dark_Panel_dark_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "f603f0d3_4a24_4aa0_a3c7_f1ad7308766e",
+															UUID = "55597cec_1030_4f9f_baa4_5985c372297e",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -10078,7 +10465,7 @@ local t =
 														},
 														{
 															controlID = "btn_common_2_Panel_en_dark_Panel_dark_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "1c4a5bfb_80c9_4d7b_b369_10c5b2242b84",
+															UUID = "620f6232_896e_4223_a58b_9077e314fd53",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -10108,7 +10495,7 @@ local t =
 														},
 														{
 															controlID = "img_btn_bg_3_Panel_en_dark_Panel_dark_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "9c3aa57f_abe4_469a_8eb9_845eb9b63aac",
+															UUID = "411a4847_c3d0_411d_b7cf_d5c1253259be",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -10134,7 +10521,7 @@ local t =
 														},
 														{
 															controlID = "btn_common_3_Panel_en_dark_Panel_dark_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "45992439_4f4f_416a_a1be_ece7d194d04d",
+															UUID = "798cc3b7_3e57_48cd_865f_02e9ed520a62",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -10164,7 +10551,7 @@ local t =
 														},
 														{
 															controlID = "label_dark1_Panel_en_dark_Panel_dark_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "47a3b60f_1404_4c18_a9c6_a16727087445",
+															UUID = "7d89f425_70c9_403a_a7ac_e7804dc183d8",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -10210,7 +10597,7 @@ local t =
 														},
 														{
 															controlID = "label_dark2_Panel_en_dark_Panel_dark_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "1985dfa8_4a96_42fe_ae2c_1cf37fba7673",
+															UUID = "c256776c_93b4_422f_913d_208d4d200d8e",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -10256,7 +10643,7 @@ local t =
 														},
 														{
 															controlID = "label_dark3_Panel_en_dark_Panel_dark_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "d066ff8a_915b_4c0e_9b0d_26a850ee6826",
+															UUID = "77a82371_13a1_4d1c_af64_e6b286f794a8",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -10327,7 +10714,7 @@ local t =
 			"ui/setting/uires/003.png",
 			"ui/common/button_big_blue_n.png",
 			"ui/common/button_big_n.png",
-			"ui/common/img_touming.png",
+			"ui/setting/uires/001.png",
 			"ui/setting/uires/002.png",
 			"ui/setting/uires/004.png",
 			"ui/setting/uires/017.png",

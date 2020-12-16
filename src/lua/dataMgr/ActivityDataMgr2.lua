@@ -132,6 +132,11 @@ function ActivityDataMgr:init()
     TFDirector:addProto(s2c.PLAYER_RESP_PHANTOM_GIFT,self,self.onRespGift)
     TFDirector:addProto(s2c.ACTIVITY_RES_DONATE_ACTIVITY,self,self.OnResDonateActivity)
 
+    --英文版白王应援社团排行
+    TFDirector:addProto(s2c.ACTIVITY_RES_UNION_RANK_ACT_SCORE,self,self.OnActivityUnionRankActScore)
+    TFDirector:addProto(s2c.ACTIVITY_RES_ACTIVITY_UNION_ITEM,self,self.OnActivityUnionItem)
+
+
 
     self.activityInfo_ = {}
     self.activityInfoMap_ = {}
@@ -817,6 +822,26 @@ function ActivityDataMgr:isShowRedPoint(activityId)
             return haveGhost
         elseif activityInfo.activityType == EC_ActivityType2.WSJ_2020 then
 
+        elseif activityInfo.activityType == EC_ActivityType2.ONLINE_SCORE_REWARD then   --这里subtype是2014
+            local taskData = self:getActivityItemsInfoBySubType(activityInfo.id, 2014)
+            for k, v in pairs(taskData) do
+                local progressInfo = ActivityDataMgr2:getProgressInfo(activityInfo.activityType, v.id)
+                if progressInfo.status == EC_TaskStatus.GET then
+                    isShow = true
+                    break
+                end
+            end
+        elseif activityInfo.activityType == EC_ActivityType2.LEAGUE_SCORE_ASSIT then  --社团助理积分使用在线活动id
+            local needActivityId = self:getActivityInfoByType(EC_ActivityType2.ONLINE_SCORE_REWARD)[1]
+            local needActivityInfo = self:getActivityInfo(needActivityId)
+            local taskData = self:getActivityItemsInfoBySubType(needActivityId, 2040)
+            for k, v in pairs(taskData) do
+                local progressInfo = ActivityDataMgr2:getProgressInfo(needActivityInfo.activityType, v.id)
+                if progressInfo.status == EC_TaskStatus.GET then
+                    isShow = true
+                    break
+                end
+            end
         else
             local items = self:getItems(activityInfo.id)
             for _, itemId in ipairs(items) do
@@ -1202,6 +1227,7 @@ function ActivityDataMgr:__handleActivity(activitys)
 	-- print("--------------------------------------------------------ActivityDataMgr:__handleActivity=" .. #activitys)
     for i, v in ipairs(activitys) do
         local activityInfo = self:__parserActivity(v)
+
         --dump(activityInfo)
         --英文版新增DFW_AUTUMN 掉落活动筛选
         if v.activityType == EC_ActivityType2.DUANWU_1 or v.activityType == EC_ActivityType2.DFW_AUTUMN then
@@ -1917,6 +1943,16 @@ function ActivityDataMgr:onRecvOverServerScore(event)
     local data = event.data
     print("查询全服积分返回",data)
     EventMgr:dispatchEvent(EV_ACTIVITY_OVER_SERVER_SCORE,  data)
+end
+
+--全服社团排行请求
+function ActivityDataMgr:request_ACTIVITY_REQ_UNION_RANK_ACT_SCORE(activityId)
+    TFDirector:send(c2s.ACTIVITY_REQ_UNION_RANK_ACT_SCORE, {activityId})
+end
+
+--社团助理积分请求
+function ActivityDataMgr:request_ACTIVITY_REQ_ACTIVITY_UNION_ITEM(activityId)
+    TFDirector:send(c2s.ACTIVITY_REQ_ACTIVITY_UNION_ITEM, {activityId})
 end
 
 ---------------圣诞节开始---------------------
@@ -3061,6 +3097,9 @@ end
 function ActivityDataMgr:getActivityItemsInfoBySubType( id , subType )
     local index = self.activityInfoMap_[id]
     local activityInfo = self.activityInfo_[index]
+    if not activityInfo then
+        return {}
+    end
     local itemInfos = {}
     local items = {}
     for i, v in ipairs(activityInfo.items) do
@@ -3090,5 +3129,20 @@ function ActivityDataMgr:OnResDonateActivity( event)
 
     EventMgr:dispatchEvent(EV_ACTIVITY_RES_DONATE_ACTIVITY , data)
 end
+
+
+function ActivityDataMgr:OnActivityUnionRankActScore( event )
+    local data = event.data
+
+    EventMgr:dispatchEvent(EV_ACTIVITY_RES_UNION_RANK_ACT_SCORE , data)
+    
+end
+
+function ActivityDataMgr:OnActivityUnionItem(event)
+    local data = event.data
+
+    EventMgr:dispatchEvent(EV_ACTIVITY_RES_ACTIVITY_UNION_ITEM , data)
+end
+
 
 return ActivityDataMgr:new()

@@ -4789,6 +4789,23 @@ return {
         icon = "",
         des = "231013",
     },
+    [10999] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 10999,
+        buffs = {
+            [0] = {
+                [1] = 100178,
+            },
+        },
+        icon = "",
+        des = "190000325",
+    },
     [47033] = {
         attributeExtra = {
         },
@@ -8676,6 +8693,57 @@ return {
         icon = "icon/skill/10101_skillE.png",
         des = "411110",
     },
+    [29999] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "190000321",
+        angelSkillFunctions = {
+        },
+        id = 29999,
+        buffs = {
+            [0] = {
+                [1] = 30076,
+            },
+        },
+        icon = "",
+        des = "190000322",
+    },
+    [10998] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "",
+        angelSkillFunctions = {
+        },
+        id = 10998,
+        buffs = {
+            [0] = {
+                [1] = 100177,
+            },
+        },
+        icon = "",
+        des = "190000324",
+    },
+    [41023] = {
+        attributeExtra = {
+        },
+        attribute = {
+        },
+        name = "470039",
+        angelSkillFunctions = {
+            [0] = {
+                [1] = 10123,
+            },
+        },
+        id = 41023,
+        buffs = {
+        },
+        icon = "icon/stone/skill/10.png",
+        des = "471039",
+    },
     [310033] = {
         attributeExtra = {
         },
@@ -9742,6 +9810,8 @@ return {
                 [6] = 6091,
                 [7] = 6092,
                 [8] = 6093,
+                [9] = 6127,
+                [10] = 6130,
             },
         },
         icon = "icon/skill/10301_skillE.png",
@@ -14652,22 +14722,23 @@ return {
         icon = "icon/stone/skill/10.png",
         des = "471045",
     },
-    [41023] = {
+    [10997] = {
         attributeExtra = {
         },
         attribute = {
+            [1002] = 1500,
         },
-        name = "470039",
+        name = "",
         angelSkillFunctions = {
+        },
+        id = 10997,
+        buffs = {
             [0] = {
-                [1] = 10123,
+                [1] = 100176,
             },
         },
-        id = 41023,
-        buffs = {
-        },
-        icon = "icon/stone/skill/10.png",
-        des = "471039",
+        icon = "",
+        des = "190000323",
     },
     [95009] = {
         attributeExtra = {

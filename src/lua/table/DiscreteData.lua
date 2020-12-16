@@ -1172,7 +1172,7 @@ return {
     [46008] = {
         id = 46008,
         data = {
-            endTime = 1923062400000,
+            endTime = 1607529600000,
             beginTime = 1544371200000,
         },
     },
@@ -2705,14 +2705,14 @@ return {
         data = {
             data = {
                 [1] = {
-                    defaultDayScene = 1314008,
+                    defaultDayScene = 1314301,
                     roleId = 101,
-                    defaultNightBgm = 11052,
-                    defaultDayBgm = 11052,
+                    defaultNightBgm = 11061,
+                    defaultDayBgm = 11061,
                     id = 2,
-                    defaultNightScene = 1314008,
-                    uiChangeId = 100005,
-                    activityType = 1020,
+                    defaultNightScene = 1314301,
+                    uiChangeId = 100090,
+                    activityType = 1004,
                 },
             },
         },
@@ -3765,8 +3765,8 @@ return {
         id = 47005,
         data = {
             Time = {
-                [1] = 1545494400,
-                [2] = 1546790399,
+                [1] = 1608102000,
+                [2] = 1609397999,
             },
         },
     },
@@ -5775,8 +5775,8 @@ return {
         id = 28503,
         data = {
             activityParam = {
-                [566065] = {
-                    [1] = "300",
+                [564001] = {
+                    [1] = "320",
                 },
             },
         },

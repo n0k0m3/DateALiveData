@@ -987,15 +987,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "13",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "name",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -1009,9 +1009,9 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = 1,
-												PositionY = -1,
+												PositionY = 2,
 											},
-											width = "105",
+											width = "109",
 											ZOrder = "1",
 										},
 									},
@@ -1245,7 +1245,7 @@ local t =
 									{
 										
 									},
-									width = "51",
+									width = "42",
 									ZOrder = "1",
 								},
 							},
@@ -1489,7 +1489,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
+									height = "29",
 									ignoreSize = "True",
 									name = "btn_label",
 									nTextAlign = "1",
@@ -1505,7 +1505,7 @@ local t =
 									{
 										PositionY = 2,
 									},
-									width = "57",
+									width = "96",
 									ZOrder = "1",
 								},
 							},
@@ -1562,7 +1562,7 @@ local t =
 								StrokeColor = "#FF5D6C7C",
 								StrokeSize = 1,
 							},
-							height = "27",
+							height = "26",
 							ignoreSize = "True",
 							name = "label_tip1",
 							nTextAlign = "1",
@@ -1579,7 +1579,7 @@ local t =
 								PositionX = 865,
 								PositionY = 60,
 							},
-							width = "86",
+							width = "139",
 							ZOrder = "1",
 						},
 						{

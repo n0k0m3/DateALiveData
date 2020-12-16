@@ -600,7 +600,7 @@ return {
         moveType = 0,
         totalMax = 1,
         convertMax = {
-            [570003] = 120,
+            [566057] = 150,
         },
         model = "fight_11303",
         angelSkills = {
@@ -674,7 +674,7 @@ return {
         moveType = 0,
         totalMax = 1,
         convertMax = {
-            [570003] = 120,
+            [566057] = 150,
         },
         model = "fight_10406",
         angelSkills = {
@@ -3858,7 +3858,7 @@ return {
         moveType = 0,
         totalMax = 1,
         convertMax = {
-            [570003] = 30,
+            [566057] = 150,
         },
         model = "fight_10506",
         angelSkills = {

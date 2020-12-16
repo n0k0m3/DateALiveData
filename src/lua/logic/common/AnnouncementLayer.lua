@@ -69,8 +69,12 @@ end
 
 function AnnouncementLayer:getAnnouncementInfo( ... )
     --print(self.announcementUrl[self.urlIdx])
-    HttpHelper:get(self.announcementUrl[self.urlIdx],function(data)
-        data = json.decode(data)
+    
+    HttpHelper:get(self.announcementUrl[self.urlIdx],handler(self.updateNoticeData, self))
+end
+
+function AnnouncementLayer:updateNoticeData( data )
+    data = json.decode(data)
         if data then
             table.sort(data , function ( a , b )
                 return a.group > b.group
@@ -141,7 +145,6 @@ function AnnouncementLayer:getAnnouncementInfo( ... )
             end
             self:getAnnouncementInfo()
         end
-    end)
 end
 
 function AnnouncementLayer:initScrollInfos( ... )

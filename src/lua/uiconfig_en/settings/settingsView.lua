@@ -244,8 +244,8 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -494,
-										PositionY = 228,
+										PositionX = -495,
+										PositionY = 225,
 									},
 									width = "208",
 									ZOrder = "1",
@@ -270,7 +270,7 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = -205,
+										PositionX = -374,
 										PositionY = 225,
 									},
 									visible = "False",
@@ -357,8 +357,8 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 260,
-										PositionY = -219,
+										PositionX = 252,
+										PositionY = -216,
 									},
 									useOutline = "False",
 									useShadow = "False",
@@ -371,13 +371,13 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "METextButton",
 									dstBlendFunc = "771",
 									flipX = "False",
 									flipY = "False",
 									height = "58",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "TextButton_save",
 									normal = "ui/common/button_big_n.png",
 									outlineColor = "#FF921E3F",
@@ -390,18 +390,18 @@ local t =
 									sizeType = "0",
 									srcBlendFunc = "1",
 									titlefontName = "font/fangzheng_zhunyuan.ttf",
-									titlefontSize = "18",
+									titlefontSize = "26",
 									titletext = "Save Changes",
 									titletextColor = "#FFFFFFFF",
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 420,
-										PositionY = -219,
+										PositionX = 412,
+										PositionY = -216,
 									},
 									useOutline = "False",
 									useShadow = "False",
-									width = "134",
+									width = "169",
 									ZOrder = "1",
 								},
 								{
@@ -440,7 +440,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									width = "185",
+									width = "174",
 									ZOrder = "1",
 									components = 
 									{
@@ -451,39 +451,39 @@ local t =
 											anchorPoint = "False",
 											anchorPointX = "0",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
+											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
 											height = "378",
-											ignoreSize = "False",
+											ignoreSize = "True",
 											name = "Image_tab_bg",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "1",
-											texturePath = "ui/common/img_touming.png",
+											texturePath = "ui/setting/uires/001.png",
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
 												PositionY = 210,
 											},
-											width = "185",
+											width = "174",
 											ZOrder = "1",
 											components = 
 											{
 												
 												{
 													controlID = "ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-													UUID = "4fec9d31_7265_4d0e_8c28_4b00e191a434",
+													UUID = "4ed1d370_d433_4d0a_ba27_83cd49afb5ac",
 													anchorPoint = "False",
 													anchorPointX = "0",
-													anchorPointY = "0",
+													anchorPointY = "1",
 													backGroundScale9Enable = "False",
 													bgColorOpacity = "50",
 													bIsOpenClipping = "True",
 													bounceEnable = "False",
 													classname = "MEScrollView",
-													colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+													colorType = "0;SingleColor:#FF0000FF;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
 													direction = "1",
 													dstBlendFunc = "771",
 													height = "378",
@@ -500,7 +500,7 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = 2,
-														PositionY = -193,
+														PositionY = 183,
 													},
 													uipanelviewmodel = 
 													{
@@ -514,7 +514,7 @@ local t =
 														
 														{
 															controlID = "Button_dating_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "e86d09f4_5c63_4af0_8f6e_d8dde9a40f64",
+															UUID = "88e098e6_4686_44e1_a98b_a8cd554ef1ad",
 															anchorPoint = "False",
 															anchorPointX = "0",
 															anchorPointY = "1",
@@ -549,7 +549,7 @@ local t =
 																
 																{
 																	controlID = "Label_start_Button_dating_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-																	UUID = "cda28f6c_7a0e_4899_a046_4d5d639c50a9",
+																	UUID = "1897e1fe_0397_4d21_9519_8a8820cefcd5",
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
@@ -588,14 +588,14 @@ local t =
 																	UILayoutViewModel = 
 																	{
 																		PositionX = 93,
-																		PositionY = -41,
+																		PositionY = -34,
 																	},
 																	width = "60",
 																	ZOrder = "1",
 																},
 																{
 																	controlID = "Label_start_en_Button_dating_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-																	UUID = "d175d805_bd22_4bdb_90e1_9eaf73787192",
+																	UUID = "bd0864ea_4bae_4208_8b5c_9042571ca0c9",
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
@@ -644,7 +644,7 @@ local t =
 														},
 														{
 															controlID = "Button_sound_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "fa4e4e4e_7bf7_49d0_ab89_ac4221ccfb2b",
+															UUID = "197ed8a3_40b6_4fd4_9677_b6ee4aa80d8c",
 															anchorPoint = "False",
 															anchorPointX = "0",
 															anchorPointY = "1",
@@ -679,7 +679,7 @@ local t =
 																
 																{
 																	controlID = "Label_start_Button_sound_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-																	UUID = "9a18c247_cec4_4ea9_acd4_9522c8fac006",
+																	UUID = "cae649fc_00e1_4aff_8980_7ace9352bfd5",
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
@@ -718,14 +718,14 @@ local t =
 																	UILayoutViewModel = 
 																	{
 																		PositionX = 93,
-																		PositionY = -39,
+																		PositionY = -34,
 																	},
 																	width = "82",
 																	ZOrder = "1",
 																},
 																{
 																	controlID = "Label_start_en_Button_sound_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-																	UUID = "b7b294ae_c4fc_451e_a0bc_2bf60ac8867d",
+																	UUID = "1d124cd0_b4fe_43ec_b481_3084c548d16e",
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
@@ -774,7 +774,7 @@ local t =
 														},
 														{
 															controlID = "Button_battle_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "1d665698_0e72_4e43_9585_ae8d68b9cd1b",
+															UUID = "490c1f5a_d14b_4ef0_afab_78da912edd68",
 															anchorPoint = "False",
 															anchorPointX = "0",
 															anchorPointY = "1",
@@ -809,7 +809,7 @@ local t =
 																
 																{
 																	controlID = "Label_start_Button_battle_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-																	UUID = "a2750962_b4bd_495b_9416_1d51e2a16267",
+																	UUID = "6b77017c_38c6_44c0_97de_3ad6c425e3ee",
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
@@ -848,14 +848,14 @@ local t =
 																	UILayoutViewModel = 
 																	{
 																		PositionX = 93,
-																		PositionY = -39,
+																		PositionY = -34,
 																	},
 																	width = "70",
 																	ZOrder = "1",
 																},
 																{
 																	controlID = "Label_start_en_Button_battle_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-																	UUID = "1d29530d_a227_4907_b844_0918686cb5f8",
+																	UUID = "0be93c2a_fe7d_474c_84c6_de1f0359a570",
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
@@ -904,7 +904,7 @@ local t =
 														},
 														{
 															controlID = "Button_collect_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "1d13a1cc_6e7d_46e1_bf61_88e2e74de7fd",
+															UUID = "d68bda91_3ae3_4f6b_bdf9_1928a59a39f2",
 															anchorPoint = "False",
 															anchorPointX = "0",
 															anchorPointY = "1",
@@ -939,7 +939,7 @@ local t =
 																
 																{
 																	controlID = "Label_start_Button_collect_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-																	UUID = "57561609_6c2a_42ab_a59d_716e17a8cfa6",
+																	UUID = "e49e46a1_1c52_487b_96b7_084b3d84672c",
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
@@ -978,14 +978,14 @@ local t =
 																	UILayoutViewModel = 
 																	{
 																		PositionX = 93,
-																		PositionY = -39,
+																		PositionY = -34,
 																	},
 																	width = "97",
 																	ZOrder = "1",
 																},
 																{
 																	controlID = "Label_start_en_Button_collect_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-																	UUID = "b1b5f9e0_fa28_4edb_b496_9d68ef560006",
+																	UUID = "6023d25c_4105_4ae8_b051_7998364b3c16",
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
@@ -1033,138 +1033,8 @@ local t =
 															},
 														},
 														{
-															controlID = "Button_other_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "f87f4c15_147a_4453_b9fb_d6077db2bce5",
-															anchorPoint = "False",
-															anchorPointX = "0",
-															anchorPointY = "1",
-															backGroundScale9Enable = "False",
-															classname = "MEButton",
-															ClickHighLightEnabled = "True",
-															dstBlendFunc = "771",
-															flipX = "False",
-															flipY = "False",
-															height = "78",
-															ignoreSize = "False",
-															name = "Button_other",
-															normal = "ui/setting/uires/002.png",
-															sizepercentx = "0",
-															sizepercenty = "0",
-															sizeType = "0",
-															srcBlendFunc = "1",
-															touchAble = "True",
-															UILayoutViewModel = 
-															{
-																PositionX = 1,
-																PositionY = 400,
-																LeftPositon = 275,
-																TopPosition = 544,
-																relativeToName = "Panel_root",
-															},
-															UItype = "Button",
-															width = "186",
-															ZOrder = "1",
-															components = 
-															{
-																
-																{
-																	controlID = "Label_start_Button_other_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-																	UUID = "2d83acd5_0aad_4e23_bb4c_344264d4c80c",
-																	anchorPoint = "False",
-																	anchorPointX = "0.5",
-																	anchorPointY = "0.5",
-																	classname = "MELabel",
-																	compPath = "luacomponents.common.MEIconLabel",
-																	dstBlendFunc = "771",
-																	FontColor = "#FFFFFFFF",
-																	fontName = "font/MFLiHei_Noncommercial.ttf",
-																	fontShadow = 
-																	{
-																		IsShadow = false,
-																		ShadowColor = "#FFFFFFFF",
-																		ShadowAlpha = 255,
-																		OffsetX = 0,
-																		OffsetY = 0,
-																	},
-																	fontSize = "26",
-																	fontStroke = 
-																	{
-																		IsStroke = false,
-																		StrokeColor = "#FFE6E6E6",
-																		StrokeSize = 1,
-																	},
-																	height = "31",
-																	ignoreSize = "True",
-																	name = "Label_start",
-																	nTextAlign = "1",
-																	nTextHAlign = "1",
-																	sizepercentx = "0",
-																	sizepercenty = "0",
-																	sizeType = "0",
-																	srcBlendFunc = "770",
-																	text = "Others",
-																	touchAble = "False",
-																	touchScaleEnable = "False",
-																	UILayoutViewModel = 
-																	{
-																		PositionX = 93,
-																		PositionY = -39,
-																	},
-																	width = "87",
-																	ZOrder = "1",
-																},
-																{
-																	controlID = "Label_start_en_Button_other_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-																	UUID = "99f9136d_c261_4aca_8bae_dd3df742545f",
-																	anchorPoint = "False",
-																	anchorPointX = "0.5",
-																	anchorPointY = "0.5",
-																	classname = "MELabel",
-																	compPath = "luacomponents.common.MEIconLabel",
-																	dstBlendFunc = "771",
-																	FontColor = "#FFFFFFFF",
-																	fontName = "font/fangzheng_zhunyuan.ttf",
-																	fontShadow = 
-																	{
-																		IsShadow = false,
-																		ShadowColor = "#FFFFFFFF",
-																		ShadowAlpha = 255,
-																		OffsetX = 0,
-																		OffsetY = 0,
-																	},
-																	fontSize = "14",
-																	fontStroke = 
-																	{
-																		IsStroke = false,
-																		StrokeColor = "#FFE6E6E6",
-																		StrokeSize = 1,
-																	},
-																	height = "16",
-																	ignoreSize = "True",
-																	name = "Label_start_en",
-																	nTextAlign = "1",
-																	nTextHAlign = "1",
-																	sizepercentx = "0",
-																	sizepercenty = "0",
-																	sizeType = "0",
-																	srcBlendFunc = "770",
-																	text = "Other Settings",
-																	touchAble = "False",
-																	touchScaleEnable = "False",
-																	UILayoutViewModel = 
-																	{
-																		PositionX = 93,
-																		PositionY = -59,
-																	},
-																	visible = "False",
-																	width = "87",
-																	ZOrder = "1",
-																},
-															},
-														},
-														{
 															controlID = "Button_MainPage_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "2050fd9a_8596_4860_bda5_f22aa9273a76",
+															UUID = "0f2e266f_cdfe_44c1_a949_1e213f7742c5",
 															anchorPoint = "False",
 															anchorPointX = "0",
 															anchorPointY = "1",
@@ -1199,7 +1069,7 @@ local t =
 																
 																{
 																	controlID = "Label_start_Button_MainPage_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-																	UUID = "7f5e4bc3_5ad1_4ba4_a88c_b04bc572a658",
+																	UUID = "821320c0_efb9_45b8_9ff4_afcd496916ea",
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
@@ -1238,14 +1108,14 @@ local t =
 																	UILayoutViewModel = 
 																	{
 																		PositionX = 93,
-																		PositionY = -39,
+																		PositionY = -34,
 																	},
 																	width = "74",
 																	ZOrder = "1",
 																},
 																{
 																	controlID = "Label_start_en_Button_MainPage_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-																	UUID = "ced86e00_87b0_45f5_89c5_46d3d215bc86",
+																	UUID = "351e1e21_79f7_4c93_9bc4_ab0bf6304d51",
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
@@ -1293,8 +1163,138 @@ local t =
 															},
 														},
 														{
+															controlID = "Button_other_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
+															UUID = "38fc7876_ea8f_4e9b_b1a7_78181c42a095",
+															anchorPoint = "False",
+															anchorPointX = "0",
+															anchorPointY = "1",
+															backGroundScale9Enable = "False",
+															classname = "MEButton",
+															ClickHighLightEnabled = "True",
+															dstBlendFunc = "771",
+															flipX = "False",
+															flipY = "False",
+															height = "78",
+															ignoreSize = "False",
+															name = "Button_other",
+															normal = "ui/setting/uires/002.png",
+															sizepercentx = "0",
+															sizepercenty = "0",
+															sizeType = "0",
+															srcBlendFunc = "1",
+															touchAble = "True",
+															UILayoutViewModel = 
+															{
+																PositionX = 1,
+																PositionY = 400,
+																LeftPositon = 275,
+																TopPosition = 544,
+																relativeToName = "Panel_root",
+															},
+															UItype = "Button",
+															width = "186",
+															ZOrder = "1",
+															components = 
+															{
+																
+																{
+																	controlID = "Label_start_Button_other_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
+																	UUID = "14d9028a_8c24_4c84_a4c4_c3476a21d9ff",
+																	anchorPoint = "False",
+																	anchorPointX = "0.5",
+																	anchorPointY = "0.5",
+																	classname = "MELabel",
+																	compPath = "luacomponents.common.MEIconLabel",
+																	dstBlendFunc = "771",
+																	FontColor = "#FFFFFFFF",
+																	fontName = "font/MFLiHei_Noncommercial.ttf",
+																	fontShadow = 
+																	{
+																		IsShadow = false,
+																		ShadowColor = "#FFFFFFFF",
+																		ShadowAlpha = 255,
+																		OffsetX = 0,
+																		OffsetY = 0,
+																	},
+																	fontSize = "26",
+																	fontStroke = 
+																	{
+																		IsStroke = false,
+																		StrokeColor = "#FFE6E6E6",
+																		StrokeSize = 1,
+																	},
+																	height = "31",
+																	ignoreSize = "True",
+																	name = "Label_start",
+																	nTextAlign = "1",
+																	nTextHAlign = "1",
+																	sizepercentx = "0",
+																	sizepercenty = "0",
+																	sizeType = "0",
+																	srcBlendFunc = "770",
+																	text = "Others",
+																	touchAble = "False",
+																	touchScaleEnable = "False",
+																	UILayoutViewModel = 
+																	{
+																		PositionX = 93,
+																		PositionY = -34,
+																	},
+																	width = "87",
+																	ZOrder = "1",
+																},
+																{
+																	controlID = "Label_start_en_Button_other_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
+																	UUID = "02223045_9534_4917_8855_7adcd3eee64c",
+																	anchorPoint = "False",
+																	anchorPointX = "0.5",
+																	anchorPointY = "0.5",
+																	classname = "MELabel",
+																	compPath = "luacomponents.common.MEIconLabel",
+																	dstBlendFunc = "771",
+																	FontColor = "#FFFFFFFF",
+																	fontName = "font/fangzheng_zhunyuan.ttf",
+																	fontShadow = 
+																	{
+																		IsShadow = false,
+																		ShadowColor = "#FFFFFFFF",
+																		ShadowAlpha = 255,
+																		OffsetX = 0,
+																		OffsetY = 0,
+																	},
+																	fontSize = "14",
+																	fontStroke = 
+																	{
+																		IsStroke = false,
+																		StrokeColor = "#FFE6E6E6",
+																		StrokeSize = 1,
+																	},
+																	height = "16",
+																	ignoreSize = "True",
+																	name = "Label_start_en",
+																	nTextAlign = "1",
+																	nTextHAlign = "1",
+																	sizepercentx = "0",
+																	sizepercenty = "0",
+																	sizeType = "0",
+																	srcBlendFunc = "770",
+																	text = "Other Settings",
+																	touchAble = "False",
+																	touchScaleEnable = "False",
+																	UILayoutViewModel = 
+																	{
+																		PositionX = 93,
+																		PositionY = -59,
+																	},
+																	visible = "False",
+																	width = "87",
+																	ZOrder = "1",
+																},
+															},
+														},
+														{
 															controlID = "Button_language_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "cb171cd6_6f7a_4b0d_b6f3_dffcf456cca1",
+															UUID = "c7125606_a1ae_4541_8ab5_051072465f57",
 															anchorPoint = "False",
 															anchorPointX = "0",
 															anchorPointY = "1",
@@ -1329,7 +1329,7 @@ local t =
 																
 																{
 																	controlID = "Label_start_Button_language_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-																	UUID = "804f85ac_ac46_4b1a_a4e5_02bf60cb1d1c",
+																	UUID = "326dad7c_5408_4f4b_b855_448c36ac2a1e",
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
@@ -1346,14 +1346,14 @@ local t =
 																		OffsetX = 0,
 																		OffsetY = 0,
 																	},
-																	fontSize = "24",
+																	fontSize = "26",
 																	fontStroke = 
 																	{
 																		IsStroke = false,
 																		StrokeColor = "#FFE6E6E6",
 																		StrokeSize = 1,
 																	},
-																	height = "29",
+																	height = "31",
 																	ignoreSize = "True",
 																	name = "Label_start",
 																	nTextAlign = "1",
@@ -1368,14 +1368,14 @@ local t =
 																	UILayoutViewModel = 
 																	{
 																		PositionX = 93,
-																		PositionY = -39,
+																		PositionY = -34,
 																	},
-																	width = "114",
+																	width = "122",
 																	ZOrder = "1",
 																},
 																{
 																	controlID = "Label_start_en_Button_language_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-																	UUID = "0a475d72_7717_40cc_808e_233ecb76e333",
+																	UUID = "5fac6624_2dce_472f_97a4_285a72570e69",
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
@@ -1408,7 +1408,7 @@ local t =
 																	sizepercenty = "0",
 																	sizeType = "0",
 																	srcBlendFunc = "770",
-																	text = "Other Settings",
+																	text = "language settings",
 																	touchAble = "False",
 																	touchScaleEnable = "False",
 																	UILayoutViewModel = 
@@ -1417,14 +1417,14 @@ local t =
 																		PositionY = -59,
 																	},
 																	visible = "False",
-																	width = "87",
+																	width = "111",
 																	ZOrder = "1",
 																},
 															},
 														},
 														{
 															controlID = "Button_dark_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "9b0b56cf_e89c_427c_aa7b_83aa1d2f9be8",
+															UUID = "45c8e6fe_adb2_4b08_9a43_eb8868223b7a",
 															anchorPoint = "False",
 															anchorPointX = "0",
 															anchorPointY = "1",
@@ -1459,7 +1459,7 @@ local t =
 																
 																{
 																	controlID = "Label_start_Button_dark_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-																	UUID = "55a715a2_076f_426e_893c_fb916e28bcb3",
+																	UUID = "2eaf692a_f1f8_44b2_aeb5_5b91beaa2795",
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
@@ -1476,14 +1476,14 @@ local t =
 																		OffsetX = 0,
 																		OffsetY = 0,
 																	},
-																	fontSize = "24",
+																	fontSize = "26",
 																	fontStroke = 
 																	{
 																		IsStroke = false,
 																		StrokeColor = "#FFE6E6E6",
 																		StrokeSize = 1,
 																	},
-																	height = "29",
+																	height = "31",
 																	ignoreSize = "True",
 																	name = "Label_start",
 																	nTextAlign = "1",
@@ -1492,20 +1492,20 @@ local t =
 																	sizepercenty = "0",
 																	sizeType = "0",
 																	srcBlendFunc = "770",
-																	text = "Dark theme",
+																	text = "Dark mode",
 																	touchAble = "False",
 																	touchScaleEnable = "False",
 																	UILayoutViewModel = 
 																	{
 																		PositionX = 93,
-																		PositionY = -39,
+																		PositionY = -34,
 																	},
-																	width = "142",
+																	width = "143",
 																	ZOrder = "1",
 																},
 																{
 																	controlID = "Label_start_en_Button_dark_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-																	UUID = "21b7843c_968a_4508_bb96_f5a24053a326",
+																	UUID = "01b0cfc9_9c45_4dab_ab1b_9b9f8b7279c1",
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
@@ -1538,7 +1538,7 @@ local t =
 																	sizepercenty = "0",
 																	sizeType = "0",
 																	srcBlendFunc = "770",
-																	text = "Other Settings",
+																	text = "dark",
 																	touchAble = "False",
 																	touchScaleEnable = "False",
 																	UILayoutViewModel = 
@@ -1547,14 +1547,14 @@ local t =
 																		PositionY = -59,
 																	},
 																	visible = "False",
-																	width = "87",
+																	width = "30",
 																	ZOrder = "1",
 																},
 															},
 														},
 														{
 															controlID = "Button_touch_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "0462af23_d40b_4c41_9163_f7c18d6dc0e8",
+															UUID = "54fcf802_2d56_4827_a3ae_00005e580ac7",
 															anchorPoint = "False",
 															anchorPointX = "0",
 															anchorPointY = "1",
@@ -1575,6 +1575,7 @@ local t =
 															touchAble = "True",
 															UILayoutViewModel = 
 															{
+																PositionX = 1,
 																PositionY = 84,
 																LeftPositon = 275,
 																TopPosition = 544,
@@ -1588,7 +1589,7 @@ local t =
 																
 																{
 																	controlID = "Label_start_Button_touch_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-																	UUID = "0c4aad98_1261_47d7_b3d6_4a89afba29fa",
+																	UUID = "bd3c7171_1f83_41b5_9c56_e7ce6f6100e5",
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
@@ -1626,15 +1627,15 @@ local t =
 																	touchScaleEnable = "False",
 																	UILayoutViewModel = 
 																	{
-																		PositionX = 88,
-																		PositionY = -41,
+																		PositionX = 93,
+																		PositionY = -34,
 																	},
 																	width = "127",
 																	ZOrder = "1",
 																},
 																{
 																	controlID = "Label_start_en_Button_touch_ScrollView_settingsView_1_Image_tab_bg_Panel_btns_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-																	UUID = "b866daec_d851_40a7_b926_076830049ec9",
+																	UUID = "770fd595_a4d9_465b_adf5_567004510160",
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
@@ -1881,8 +1882,8 @@ local t =
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "0",
-															ignoreSize = "False",
+															height = "24",
+															ignoreSize = "True",
 															name = "Label_title",
 															nTextAlign = "1",
 															nTextHAlign = "1",
@@ -1890,7 +1891,7 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
-															text = "Text Display Speed",
+															text = "Text Speed",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
@@ -1898,7 +1899,7 @@ local t =
 																PositionX = 50,
 																PositionY = -45,
 															},
-															width = "120",
+															width = "118",
 															ZOrder = "1",
 														},
 														{
@@ -3394,7 +3395,7 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "25",
+															fontSize = "26",
 															fontStroke = 
 															{
 																IsStroke = false,
@@ -3418,7 +3419,7 @@ local t =
 																PositionX = 65,
 																PositionY = -45,
 															},
-															width = "110",
+															width = "97",
 															ZOrder = "1",
 														},
 														{
@@ -4212,7 +4213,7 @@ local t =
 																PositionX = 65,
 																PositionY = -45,
 															},
-															width = "110",
+															width = "98",
 															ZOrder = "1",
 														},
 														{
@@ -4609,7 +4610,7 @@ local t =
 																PositionX = 65,
 																PositionY = -45,
 															},
-															width = "110",
+															width = "102",
 															ZOrder = "1",
 														},
 														{
@@ -5363,7 +5364,7 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "20",
+															fontSize = "26",
 															fontStroke = 
 															{
 																IsStroke = false,
@@ -5387,7 +5388,7 @@ local t =
 																PositionX = 65,
 																PositionY = -45,
 															},
-															width = "120",
+															width = "104",
 															ZOrder = "1",
 														},
 														{
@@ -5521,14 +5522,14 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "16",
+															fontSize = "22",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "19",
+															height = "26",
 															ignoreSize = "True",
 															name = "Label_yg1",
 															nTextAlign = "1",
@@ -5537,15 +5538,15 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
-															text = "Movable Joystick",
+															text = "Movable",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 384,
+																PositionX = 390,
 																PositionY = -45,
 															},
-															width = "144",
+															width = "95",
 															ZOrder = "1",
 														},
 														{
@@ -5567,14 +5568,14 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "16",
+															fontSize = "22",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "19",
+															height = "26",
 															ignoreSize = "True",
 															name = "Label_yg2",
 															nTextAlign = "1",
@@ -5583,7 +5584,7 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
-															text = "Fixed Joystick",
+															text = "Fixed",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
@@ -5591,7 +5592,7 @@ local t =
 																PositionX = 670,
 																PositionY = -45,
 															},
-															width = "124",
+															width = "65",
 															ZOrder = "1",
 														},
 													},
@@ -5704,7 +5705,7 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "17",
+															fontSize = "26",
 															fontStroke = 
 															{
 																IsStroke = false,
@@ -5725,10 +5726,10 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 58,
-																PositionY = -40,
+																PositionX = 53,
+																PositionY = -36,
 															},
-															width = "110",
+															width = "117",
 															ZOrder = "1",
 														},
 														{
@@ -6194,14 +6195,14 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "16",
+															fontSize = "18",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "19",
+															height = "22",
 															ignoreSize = "True",
 															name = "Label_title1",
 															nTextAlign = "1",
@@ -6218,7 +6219,7 @@ local t =
 																PositionX = 118,
 																PositionY = -75,
 															},
-															width = "122",
+															width = "135",
 															ZOrder = "1",
 														},
 													},
@@ -6339,8 +6340,8 @@ local t =
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "31",
-															ignoreSize = "True",
+															height = "0",
+															ignoreSize = "False",
 															name = "Label_title",
 															nTextAlign = "1",
 															nTextHAlign = "1",
@@ -6353,10 +6354,10 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 65,
-																PositionY = -45,
+																PositionX = 43,
+																PositionY = -36,
 															},
-															width = "239",
+															width = "126",
 															ZOrder = "1",
 														},
 														{
@@ -6611,6 +6612,394 @@ local t =
 														},
 													},
 												},
+												{
+													controlID = "Panel_awake_effect_Panel_battle_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
+													UUID = "2adf4ea3_34b2_440a_a3da_a9ca3f2b5fab",
+													anchorPoint = "False",
+													anchorPointX = "0",
+													anchorPointY = "1",
+													backGroundScale9Enable = "False",
+													bgColorOpacity = "50",
+													bIsOpenClipping = "False",
+													classname = "MEPanel",
+													colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+													DesignHeight = "640",
+													DesignType = "0",
+													DesignWidth = "960",
+													dstBlendFunc = "771",
+													height = "90",
+													ignoreSize = "False",
+													name = "Panel_awake_effect",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													srcBlendFunc = "1",
+													touchAble = "False",
+													UILayoutViewModel = 
+													{
+														PositionY = -285,
+													},
+													uipanelviewmodel = 
+													{
+														Layout="Absolute",
+														nType = "0"
+													},
+													width = "820",
+													ZOrder = "1",
+													components = 
+													{
+														
+														{
+															controlID = "Image_cell_title_bg_Panel_awake_effect_Panel_battle_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
+															UUID = "7afb96da_3453_44f0_b95f_586d44ccf900",
+															anchorPoint = "False",
+															anchorPointX = "0.5",
+															anchorPointY = "0.5",
+															backGroundScale9Enable = "False",
+															classname = "MEImage",
+															dstBlendFunc = "771",
+															height = "86",
+															ignoreSize = "True",
+															name = "Image_cell_title_bg",
+															sizepercentx = "0",
+															sizepercenty = "0",
+															sizeType = "0",
+															srcBlendFunc = "1",
+															texturePath = "ui/setting/uires/006.png",
+															touchAble = "False",
+															UILayoutViewModel = 
+															{
+																PositionX = 410,
+																PositionY = -45,
+															},
+															width = "806",
+															ZOrder = "1",
+														},
+														{
+															controlID = "Image_cell_title_icon_Panel_awake_effect_Panel_battle_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
+															UUID = "2d54957c_29e6_44b5_8602_75da7f01cf0b",
+															anchorPoint = "False",
+															anchorPointX = "0.5",
+															anchorPointY = "0.5",
+															backGroundScale9Enable = "False",
+															classname = "MEImage",
+															dstBlendFunc = "771",
+															height = "30",
+															ignoreSize = "True",
+															name = "Image_cell_title_icon",
+															sizepercentx = "0",
+															sizepercenty = "0",
+															sizeType = "0",
+															srcBlendFunc = "1",
+															texturePath = "ui/setting/uires/019.png",
+															touchAble = "False",
+															UILayoutViewModel = 
+															{
+																PositionX = 35,
+																PositionY = -45,
+															},
+															width = "34",
+															ZOrder = "1",
+														},
+														{
+															controlID = "Label_title_Panel_awake_effect_Panel_battle_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
+															UUID = "4db1fdba_a996_4ab1_9907_2307d8485700",
+															anchorPoint = "False",
+															anchorPointX = "0",
+															anchorPointY = "0.5",
+															classname = "MELabel",
+															compPath = "luacomponents.common.MEIconLabel",
+															dstBlendFunc = "771",
+															FontColor = "#FF49557F",
+															fontName = "font/MFLiHei_Noncommercial.ttf",
+															fontShadow = 
+															{
+																IsShadow = false,
+																ShadowColor = "#FFFFFFFF",
+																ShadowAlpha = 255,
+																OffsetX = 0,
+																OffsetY = 0,
+															},
+															fontSize = "23",
+															fontStroke = 
+															{
+																IsStroke = false,
+																StrokeColor = "#FFE6E6E6",
+																StrokeSize = 1,
+															},
+															height = "0",
+															ignoreSize = "False",
+															name = "Label_title",
+															nTextAlign = "1",
+															nTextHAlign = "1",
+															sizepercentx = "0",
+															sizepercenty = "0",
+															sizeType = "0",
+															srcBlendFunc = "770",
+															text = "Awakening animation",
+															touchAble = "False",
+															touchScaleEnable = "False",
+															UILayoutViewModel = 
+															{
+																PositionX = 44,
+																PositionY = -45,
+															},
+															width = "131",
+															ZOrder = "1",
+														},
+														{
+															controlID = "Image_btn_bg_1_Panel_awake_effect_Panel_battle_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
+															UUID = "b8d4011f_c32d_47fb_9ee1_33da90612e92",
+															anchorPoint = "False",
+															anchorPointX = "0.5",
+															anchorPointY = "0.5",
+															backGroundScale9Enable = "False",
+															classname = "MEImage",
+															dstBlendFunc = "771",
+															height = "62",
+															ignoreSize = "True",
+															name = "Image_btn_bg_1",
+															sizepercentx = "0",
+															sizepercenty = "0",
+															sizeType = "0",
+															srcBlendFunc = "1",
+															texturePath = "ui/setting/uires/010.png",
+															touchAble = "False",
+															UILayoutViewModel = 
+															{
+																PositionX = 360,
+																PositionY = -45,
+															},
+															width = "246",
+															ZOrder = "1",
+														},
+														{
+															controlID = "Button_common_1_Panel_awake_effect_Panel_battle_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
+															UUID = "562f1ab4_4503_4046_b6ea_79df7bce628c",
+															anchorPoint = "False",
+															anchorPointX = "0.5",
+															anchorPointY = "0.5",
+															backGroundScale9Enable = "False",
+															classname = "MEButton",
+															ClickHighLightEnabled = "True",
+															dstBlendFunc = "771",
+															flipX = "False",
+															flipY = "False",
+															height = "40",
+															ignoreSize = "True",
+															name = "Button_common_1",
+															normal = "ui/setting/uires/011.png",
+															sizepercentx = "0",
+															sizepercenty = "0",
+															sizeType = "0",
+															srcBlendFunc = "1",
+															touchAble = "True",
+															UILayoutViewModel = 
+															{
+																PositionX = 272,
+																PositionY = -45,
+															},
+															UItype = "Button",
+															width = "44",
+															ZOrder = "1",
+														},
+														{
+															controlID = "Image_btn_bg_2_Panel_awake_effect_Panel_battle_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
+															UUID = "a79a2ac6_d778_46cf_8c57_ba12a8e145dc",
+															anchorPoint = "False",
+															anchorPointX = "0.5",
+															anchorPointY = "0.5",
+															backGroundScale9Enable = "False",
+															classname = "MEImage",
+															dstBlendFunc = "771",
+															height = "62",
+															ignoreSize = "True",
+															name = "Image_btn_bg_2",
+															sizepercentx = "0",
+															sizepercenty = "0",
+															sizeType = "0",
+															srcBlendFunc = "1",
+															texturePath = "ui/setting/uires/010.png",
+															touchAble = "False",
+															UILayoutViewModel = 
+															{
+																PositionX = 640,
+																PositionY = -45,
+															},
+															width = "246",
+															ZOrder = "1",
+														},
+														{
+															controlID = "Button_common_2_Panel_awake_effect_Panel_battle_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
+															UUID = "59650934_1cd4_422e_8f46_61ad82dd62a8",
+															anchorPoint = "False",
+															anchorPointX = "0.5",
+															anchorPointY = "0.5",
+															backGroundScale9Enable = "False",
+															classname = "MEButton",
+															ClickHighLightEnabled = "True",
+															dstBlendFunc = "771",
+															flipX = "False",
+															flipY = "False",
+															height = "40",
+															ignoreSize = "True",
+															name = "Button_common_2",
+															normal = "ui/setting/uires/011.png",
+															sizepercentx = "0",
+															sizepercenty = "0",
+															sizeType = "0",
+															srcBlendFunc = "1",
+															touchAble = "True",
+															UILayoutViewModel = 
+															{
+																PositionX = 554,
+																PositionY = -45,
+															},
+															UItype = "Button",
+															width = "44",
+															ZOrder = "1",
+														},
+														{
+															controlID = "Label_hz2_Panel_awake_effect_Panel_battle_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
+															UUID = "c13b6be2_b623_4d29_816b_8d1450e0808e",
+															anchorPoint = "False",
+															anchorPointX = "0.5",
+															anchorPointY = "0.5",
+															classname = "MELabel",
+															compPath = "luacomponents.common.MEIconLabel",
+															dstBlendFunc = "771",
+															FontColor = "#FF49557F",
+															fontName = "font/MFLiHei_Noncommercial.ttf",
+															fontShadow = 
+															{
+																IsShadow = false,
+																ShadowColor = "#FFFFFFFF",
+																ShadowAlpha = 255,
+																OffsetX = 0,
+																OffsetY = 0,
+															},
+															fontSize = "22",
+															fontStroke = 
+															{
+																IsStroke = false,
+																StrokeColor = "#FFE6E6E6",
+																StrokeSize = 1,
+															},
+															height = "26",
+															ignoreSize = "True",
+															name = "Label_hz2",
+															nTextAlign = "1",
+															nTextHAlign = "1",
+															sizepercentx = "0",
+															sizepercenty = "0",
+															sizeType = "0",
+															srcBlendFunc = "770",
+															text = "Hide",
+															touchAble = "False",
+															touchScaleEnable = "False",
+															UILayoutViewModel = 
+															{
+																PositionX = 670,
+																PositionY = -45,
+															},
+															width = "53",
+															ZOrder = "1",
+														},
+														{
+															controlID = "Label_hz1_Panel_awake_effect_Panel_battle_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
+															UUID = "cc635420_9669_42b5_b01c_256515a21ac8",
+															anchorPoint = "False",
+															anchorPointX = "0.5",
+															anchorPointY = "0.5",
+															classname = "MELabel",
+															compPath = "luacomponents.common.MEIconLabel",
+															dstBlendFunc = "771",
+															FontColor = "#FF49557F",
+															fontName = "font/MFLiHei_Noncommercial.ttf",
+															fontShadow = 
+															{
+																IsShadow = false,
+																ShadowColor = "#FFFFFFFF",
+																ShadowAlpha = 255,
+																OffsetX = 0,
+																OffsetY = 0,
+															},
+															fontSize = "22",
+															fontStroke = 
+															{
+																IsStroke = false,
+																StrokeColor = "#FFE6E6E6",
+																StrokeSize = 1,
+															},
+															height = "26",
+															ignoreSize = "True",
+															name = "Label_hz1",
+															nTextAlign = "1",
+															nTextHAlign = "1",
+															sizepercentx = "0",
+															sizepercenty = "0",
+															sizeType = "0",
+															srcBlendFunc = "770",
+															text = "Activate",
+															touchAble = "False",
+															touchScaleEnable = "False",
+															UILayoutViewModel = 
+															{
+																PositionX = 390,
+																PositionY = -45,
+															},
+															width = "95",
+															ZOrder = "1",
+														},
+														{
+															controlID = "Label_title1_Panel_awake_effect_Panel_battle_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
+															UUID = "42388b11_ea38_4efa_8273_441310bdd648",
+															anchorPoint = "False",
+															anchorPointX = "0.5",
+															anchorPointY = "0.5",
+															classname = "MELabel",
+															compPath = "luacomponents.common.MEIconLabel",
+															dstBlendFunc = "771",
+															FontColor = "#FF49557F",
+															fontName = "font/MFLiHei_Noncommercial.ttf",
+															fontShadow = 
+															{
+																IsShadow = false,
+																ShadowColor = "#FFFFFFFF",
+																ShadowAlpha = 255,
+																OffsetX = 0,
+																OffsetY = 0,
+															},
+															fontSize = "18",
+															fontStroke = 
+															{
+																IsStroke = false,
+																StrokeColor = "#FFE6E6E6",
+																StrokeSize = 1,
+															},
+															height = "22",
+															ignoreSize = "True",
+															name = "Label_title1",
+															nTextAlign = "1",
+															nTextHAlign = "1",
+															sizepercentx = "0",
+															sizepercenty = "0",
+															sizeType = "0",
+															srcBlendFunc = "770",
+															text = "(Release animation)",
+															touchAble = "False",
+															touchScaleEnable = "False",
+															UILayoutViewModel = 
+															{
+																PositionX = 118,
+																PositionY = -75,
+															},
+															visible = "False",
+															width = "185",
+															ZOrder = "1",
+														},
+													},
+												},
 											},
 										},
 										{
@@ -6798,15 +7187,15 @@ local t =
 																		OffsetX = 0,
 																		OffsetY = 0,
 																	},
-																	fontSize = "20",
+																	fontSize = "26",
 																	fontStroke = 
 																	{
 																		IsStroke = false,
 																		StrokeColor = "#FFE6E6E6",
 																		StrokeSize = 1,
 																	},
-																	height = "0",
-																	ignoreSize = "False",
+																	height = "31",
+																	ignoreSize = "True",
 																	name = "Label_title",
 																	nTextAlign = "1",
 																	nTextHAlign = "1",
@@ -6819,10 +7208,10 @@ local t =
 																	touchScaleEnable = "False",
 																	UILayoutViewModel = 
 																	{
-																		PositionX = 56,
-																		PositionY = -49,
+																		PositionX = 65,
+																		PositionY = -45,
 																	},
-																	width = "140",
+																	width = "186",
 																	ZOrder = "1",
 																},
 																{
@@ -7012,14 +7401,14 @@ local t =
 																		OffsetX = 0,
 																		OffsetY = 0,
 																	},
-																	fontSize = "22",
+																	fontSize = "19",
 																	fontStroke = 
 																	{
 																		IsStroke = false,
 																		StrokeColor = "#FFE6E6E6",
 																		StrokeSize = 1,
 																	},
-																	height = "26",
+																	height = "23",
 																	ignoreSize = "True",
 																	name = "Label_yg1",
 																	nTextAlign = "1",
@@ -7036,7 +7425,7 @@ local t =
 																		PositionX = 325,
 																		PositionY = -45,
 																	},
-																	width = "53",
+																	width = "46",
 																	ZOrder = "1",
 																},
 																{
@@ -7058,15 +7447,15 @@ local t =
 																		OffsetX = 0,
 																		OffsetY = 0,
 																	},
-																	fontSize = "16",
+																	fontSize = "19",
 																	fontStroke = 
 																	{
 																		IsStroke = false,
 																		StrokeColor = "#FFE6E6E6",
 																		StrokeSize = 1,
 																	},
-																	height = "0",
-																	ignoreSize = "False",
+																	height = "23",
+																	ignoreSize = "True",
 																	name = "Label_yg2",
 																	nTextAlign = "1",
 																	nTextHAlign = "1",
@@ -7079,10 +7468,10 @@ local t =
 																	touchScaleEnable = "False",
 																	UILayoutViewModel = 
 																	{
-																		PositionX = 507,
+																		PositionX = 509,
 																		PositionY = -45,
 																	},
-																	width = "110",
+																	width = "121",
 																	ZOrder = "1",
 																},
 																{
@@ -7104,15 +7493,15 @@ local t =
 																		OffsetX = 0,
 																		OffsetY = 0,
 																	},
-																	fontSize = "16",
+																	fontSize = "19",
 																	fontStroke = 
 																	{
 																		IsStroke = false,
 																		StrokeColor = "#FFE6E6E6",
 																		StrokeSize = 1,
 																	},
-																	height = "0",
-																	ignoreSize = "False",
+																	height = "23",
+																	ignoreSize = "True",
 																	name = "Label_yg3",
 																	nTextAlign = "1",
 																	nTextHAlign = "1",
@@ -7125,10 +7514,10 @@ local t =
 																	touchScaleEnable = "False",
 																	UILayoutViewModel = 
 																	{
-																		PositionX = 698,
+																		PositionX = 699,
 																		PositionY = -45,
 																	},
-																	width = "120",
+																	width = "106",
 																	ZOrder = "1",
 																},
 															},
@@ -7169,7 +7558,6 @@ local t =
 												Layout="Absolute",
 												nType = "0"
 											},
-											visible = "False",
 											width = "600",
 											ZOrder = "1",
 											components = 
@@ -7184,8 +7572,8 @@ local t =
 													backGroundScale9Enable = "False",
 													classname = "MEImage",
 													dstBlendFunc = "771",
-													height = "32",
-													ignoreSize = "True",
+													height = "49",
+													ignoreSize = "False",
 													name = "Image_settingsView_1",
 													sizepercentx = "0",
 													sizepercenty = "0",
@@ -7213,7 +7601,7 @@ local t =
 															compPath = "luacomponents.common.MEIconLabel",
 															dstBlendFunc = "771",
 															FontColor = "#FF49557F",
-															fontName = "font/MFLiHei_Noncommercial.ttf",
+															fontName = "font/fangzheng_zhunyuan.ttf",
 															fontShadow = 
 															{
 																IsShadow = false,
@@ -7222,18 +7610,18 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "22",
+															fontSize = "15",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "26",
-															ignoreSize = "True",
+															height = "0",
+															ignoreSize = "False",
 															name = "Label_MainName",
 															nTextAlign = "1",
-															nTextHAlign = "1",
+															nTextHAlign = "0",
 															sizepercentx = "0",
 															sizepercenty = "0",
 															sizeType = "0",
@@ -7244,9 +7632,9 @@ local t =
 															UILayoutViewModel = 
 															{
 																PositionX = -64,
-																PositionY = -3,
+																PositionY = -1,
 															},
-															width = "131",
+															width = "128",
 															ZOrder = "1",
 														},
 													},
@@ -7299,14 +7687,14 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "20",
+															fontSize = "16",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "23",
+															height = "18",
 															ignoreSize = "True",
 															name = "Label_text",
 															nTextAlign = "1",
@@ -7321,10 +7709,10 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = -342,
-																PositionY = -4,
+																PositionX = -383,
+																PositionY = -3,
 															},
-															width = "190",
+															width = "153",
 															ZOrder = "1",
 														},
 													},
@@ -7517,18 +7905,18 @@ local t =
 																								OffsetX = 0,
 																								OffsetY = 0,
 																							},
-																							fontSize = "16",
+																							fontSize = "15",
 																							fontStroke = 
 																							{
 																								IsStroke = false,
 																								StrokeColor = "#FFE6E6E6",
 																								StrokeSize = 1,
 																							},
-																							height = "18",
-																							ignoreSize = "True",
+																							height = "0",
+																							ignoreSize = "False",
 																							name = "Label_name",
 																							nTextAlign = "1",
-																							nTextHAlign = "1",
+																							nTextHAlign = "0",
 																							sizepercentx = "0",
 																							sizepercenty = "0",
 																							sizeType = "0",
@@ -7541,7 +7929,7 @@ local t =
 																								PositionX = -192,
 																								PositionY = 50,
 																							},
-																							width = "64",
+																							width = "168",
 																							ZOrder = "1",
 																						},
 																						{
@@ -7750,18 +8138,18 @@ local t =
 																								OffsetX = 0,
 																								OffsetY = 0,
 																							},
-																							fontSize = "16",
+																							fontSize = "15",
 																							fontStroke = 
 																							{
 																								IsStroke = false,
 																								StrokeColor = "#FFE6E6E6",
 																								StrokeSize = 1,
 																							},
-																							height = "18",
-																							ignoreSize = "True",
+																							height = "0",
+																							ignoreSize = "False",
 																							name = "Label_name",
 																							nTextAlign = "1",
-																							nTextHAlign = "1",
+																							nTextHAlign = "0",
 																							sizepercentx = "0",
 																							sizepercenty = "0",
 																							sizeType = "0",
@@ -7774,7 +8162,7 @@ local t =
 																								PositionX = -192,
 																								PositionY = 50,
 																							},
-																							width = "64",
+																							width = "168",
 																							ZOrder = "1",
 																						},
 																						{
@@ -8820,10 +9208,10 @@ local t =
 										},
 										{
 											controlID = "Panel_Language_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-											UUID = "686aed2d_2749_49c2_b917_9047c46cc4d3",
+											UUID = "91164b3f_bdca_4d38_bf56_46cd8e7e5f52",
 											anchorPoint = "False",
 											anchorPointX = "0",
-											anchorPointY = "0",
+											anchorPointY = "1",
 											backGroundScale9Enable = "False",
 											bgColorOpacity = "50",
 											bIsOpenClipping = "False",
@@ -8840,7 +9228,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "1",
-											touchAble = "False",
+											touchAble = "True",
 											UILayoutViewModel = 
 											{
 												
@@ -8850,15 +9238,14 @@ local t =
 												Layout="Absolute",
 												nType = "0"
 											},
-											visible = "False",
-											width = "400",
+											width = "600",
 											ZOrder = "1",
 											components = 
 											{
 												
 												{
 													controlID = "Panel_language_en_Panel_Language_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-													UUID = "3a9d83af_e6dd_407a_8dbb_ac433cb007cb",
+													UUID = "08dc176a_e97a_4c8d_9b97_e89857fcd69e",
 													anchorPoint = "False",
 													anchorPointX = "0",
 													anchorPointY = "1",
@@ -8881,7 +9268,7 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionY = -7,
+														PositionY = -4,
 													},
 													uipanelviewmodel = 
 													{
@@ -8895,7 +9282,7 @@ local t =
 														
 														{
 															controlID = "Image_cell_title_bg_Panel_language_en_Panel_Language_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "bc30aa48_8113_420b_bc3b_81b31bad453c",
+															UUID = "64420296_2288_47fc_9524_cc6c1fad6e25",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -8921,7 +9308,7 @@ local t =
 														},
 														{
 															controlID = "Image_cell_title_icon_Panel_language_en_Panel_Language_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "0a8a5ad9_6bbc_465d_b144_ad539f0f17f9",
+															UUID = "7a51b881_147b_4466_8410_5881486c1f14",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -8947,7 +9334,7 @@ local t =
 														},
 														{
 															controlID = "Label_title_Panel_language_en_Panel_Language_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "c4b6360d_cf7d_4cbd_8fa9_4ae47fe5f68b",
+															UUID = "f30be46b_3961_4441_9d83_bc7edbac7531",
 															anchorPoint = "False",
 															anchorPointX = "0",
 															anchorPointY = "0.5",
@@ -8985,7 +9372,7 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 65,
+																PositionX = 55,
 																PositionY = -45,
 															},
 															width = "122",
@@ -8993,7 +9380,7 @@ local t =
 														},
 														{
 															controlID = "Image_btn_bg_1_Panel_language_en_Panel_Language_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "de05eca5_c4a8_4d6a_aac1_b4b48402c4bf",
+															UUID = "8118ed64_9547_4af9_9689_ed274acf8463",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -9019,7 +9406,7 @@ local t =
 														},
 														{
 															controlID = "Button_common_1_Panel_language_en_Panel_Language_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "2648bba0_6699_456a_9957_247cc3a7d395",
+															UUID = "1862adb7_1597_47ab_a844_48ef91b24fe7",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -9049,7 +9436,7 @@ local t =
 														},
 														{
 															controlID = "Image_btn_bg_2_Panel_language_en_Panel_Language_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "d8d527a3_56e0_4b06_a31d_fe312fe1d345",
+															UUID = "f1377216_e859_49bb_9c7a_a545d8dc73aa",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -9075,7 +9462,7 @@ local t =
 														},
 														{
 															controlID = "Button_common_2_Panel_language_en_Panel_Language_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "31a18614_00f5_44ef_ae08_953c7d87f157",
+															UUID = "7cf28118_b815_4858_8c32_3202129de7b3",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -9105,7 +9492,7 @@ local t =
 														},
 														{
 															controlID = "Label_hz2_Panel_language_en_Panel_Language_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "522bcb3f_4bad_4486_ad69_ef8e49565069",
+															UUID = "64024572_b743_4b28_9652_ec7a3129164c",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -9122,14 +9509,14 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "22",
+															fontSize = "30",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "26",
+															height = "36",
 															ignoreSize = "True",
 															name = "Label_hz2",
 															nTextAlign = "1",
@@ -9146,12 +9533,12 @@ local t =
 																PositionX = 670,
 																PositionY = -45,
 															},
-															width = "88",
+															width = "118",
 															ZOrder = "1",
 														},
 														{
 															controlID = "Label_hz1_Panel_language_en_Panel_Language_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "ae5284e8_0d7a_43d6_83d9_ba52c7206e58",
+															UUID = "1640a49f_26dc_4b7f_af70_73dea6c5f02d",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -9201,7 +9588,7 @@ local t =
 										},
 										{
 											controlID = "Panel_touch_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-											UUID = "9fd6e37f_02f8_4807_8828_9e37ef197930",
+											UUID = "8fe60975_9c60_47b2_8c79_4d39d3552fce",
 											anchorPoint = "False",
 											anchorPointX = "0",
 											anchorPointY = "1",
@@ -9239,7 +9626,7 @@ local t =
 												
 												{
 													controlID = "Panel_power_Panel_touch_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-													UUID = "92633eab_bde4_4f47_9dac_60d5e67df3b4",
+													UUID = "9610d667_c978_43e3_a6da_4d05baa87121",
 													anchorPoint = "False",
 													anchorPointX = "0",
 													anchorPointY = "1",
@@ -9276,7 +9663,7 @@ local t =
 														
 														{
 															controlID = "Image_cell_title_bg_Panel_power_Panel_touch_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "6daba158_216e_4118_9612_e10a7c807eb7",
+															UUID = "a64aab28_c1de_4d60_95ef_4e13b0e31d4f",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -9302,7 +9689,7 @@ local t =
 														},
 														{
 															controlID = "Image_cell_title_icon_Panel_power_Panel_touch_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "27d44f45_80c0_4e62_b6e6_9a62fa286c5f",
+															UUID = "497916d5_89eb_4d51_9d72_e0e832c9d44c",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -9328,7 +9715,7 @@ local t =
 														},
 														{
 															controlID = "Label_title_Panel_power_Panel_touch_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "6bcd4854_0f33_4641_b2b4_e4ea9879fa86",
+															UUID = "78b2cd5e_7639_4edb_a88a_e285e9a8c1ea",
 															anchorPoint = "False",
 															anchorPointX = "0",
 															anchorPointY = "0.5",
@@ -9345,15 +9732,15 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "18",
+															fontSize = "20",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "0",
-															ignoreSize = "False",
+															height = "24",
+															ignoreSize = "True",
 															name = "Label_title",
 															nTextAlign = "1",
 															nTextHAlign = "1",
@@ -9361,7 +9748,7 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
-															text = "Tap Pressure",
+															text = "Click force",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
@@ -9369,12 +9756,12 @@ local t =
 																PositionX = 50,
 																PositionY = -45,
 															},
-															width = "120",
+															width = "117",
 															ZOrder = "1",
 														},
 														{
 															controlID = "Image_btn_bg_Panel_power_Panel_touch_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "3f6d206b_8138_41e8_98e3_f4e3a03b2712",
+															UUID = "18c649bc_8826_4b01_b2ca_8957d41696b5",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -9400,7 +9787,7 @@ local t =
 														},
 														{
 															controlID = "Label_slow_Panel_power_Panel_touch_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "40990f6d_a38e_4759_8fc6_003f2ffa1742",
+															UUID = "999f8cae_92fc_4d1e_9ce3_c79421223401",
 															anchorPoint = "False",
 															anchorPointX = "1",
 															anchorPointY = "0.5",
@@ -9446,7 +9833,7 @@ local t =
 														},
 														{
 															controlID = "Label_fast_Panel_power_Panel_touch_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "20038f33_4232_482a_9384_4a8745095972",
+															UUID = "3ef33d89_f0e9_4f2b_8d93_e1392eb85bb8",
 															anchorPoint = "False",
 															anchorPointX = "0",
 															anchorPointY = "0.5",
@@ -9492,7 +9879,7 @@ local t =
 														},
 														{
 															controlID = "Image_sel_sign_Panel_power_Panel_touch_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "be32bfa5_0739_47d1_9b7a_b8f7bc63a4d8",
+															UUID = "e003dec8_32a7_42ad_b367_86e478af2491",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -9518,7 +9905,7 @@ local t =
 														},
 														{
 															controlID = "Button_common_4_Panel_power_Panel_touch_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "8bf498c2_f746_4039_80be_b765d30d1724",
+															UUID = "ee9094ee_a235_4af7_b263_e6c5a27d42b5",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -9549,7 +9936,7 @@ local t =
 																
 																{
 																	controlID = "Label_num_Button_common_4_Panel_power_Panel_touch_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-																	UUID = "d18911c3_10e3_4165_adef_93a7d9425f8c",
+																	UUID = "a46227bc_2d09_44c6_beda_6972690ef8de",
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
@@ -9596,7 +9983,7 @@ local t =
 														},
 														{
 															controlID = "Button_common_3_Panel_power_Panel_touch_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "22f9a7e6_a00d_4207_8127_cd9b17a27f42",
+															UUID = "f3e29a4a_7109_46a3_ba2a_6077b4387832",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -9627,7 +10014,7 @@ local t =
 																
 																{
 																	controlID = "Label_num_Button_common_3_Panel_power_Panel_touch_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-																	UUID = "34202ca6_eadb_4213_b0cc_3551456c9d05",
+																	UUID = "577e6a91_e4b0_48de_90ce_80269c66aa78",
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
@@ -9674,7 +10061,7 @@ local t =
 														},
 														{
 															controlID = "Button_common_2_Panel_power_Panel_touch_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "221cd7c6_9b7c_4596_b9ec_620736633fbc",
+															UUID = "ddb6fc83_47bf_46e7_b206_20245ff6fc7e",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -9705,7 +10092,7 @@ local t =
 																
 																{
 																	controlID = "Label_num_Button_common_2_Panel_power_Panel_touch_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-																	UUID = "8f3d9139_f1d6_4393_9305_055f17eb96c8",
+																	UUID = "6e41b602_9a2c_4dac_a7ee_cf0d9435bbd7",
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
@@ -9752,7 +10139,7 @@ local t =
 														},
 														{
 															controlID = "Button_common_1_Panel_power_Panel_touch_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "42ec4962_0fb8_4db5_998b_1610c4307f2d",
+															UUID = "20183d9d_4c6d_4562_94f6_9022c3846612",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -9783,7 +10170,7 @@ local t =
 																
 																{
 																	controlID = "Label_num_Button_common_1_Panel_power_Panel_touch_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-																	UUID = "a6f092a0_a714_4811_a11e_93396d19d05b",
+																	UUID = "8eaf6180_17a9_4a4a_a118_9dd819574166",
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
@@ -9834,10 +10221,10 @@ local t =
 										},
 										{
 											controlID = "Panel_dark_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-											UUID = "5ca0f522_fa9d_4821_a534_ba4d305a0b0e",
+											UUID = "9dbd9d21_78f5_4c8f_bb87_40b5370b5a4c",
 											anchorPoint = "False",
 											anchorPointX = "0",
-											anchorPointY = "0",
+											anchorPointY = "1",
 											backGroundScale9Enable = "False",
 											bgColorOpacity = "50",
 											bIsOpenClipping = "False",
@@ -9854,7 +10241,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "1",
-											touchAble = "False",
+											touchAble = "True",
 											UILayoutViewModel = 
 											{
 												
@@ -9864,14 +10251,14 @@ local t =
 												Layout="Absolute",
 												nType = "0"
 											},
-											width = "400",
+											width = "600",
 											ZOrder = "1",
 											components = 
 											{
 												
 												{
 													controlID = "Panel_en_dark_Panel_dark_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-													UUID = "7493ac71_3096_4387_8fbe_e11125e3d050",
+													UUID = "2f231915_17a0_4882_8727_b46561e243c4",
 													anchorPoint = "False",
 													anchorPointX = "0",
 													anchorPointY = "1",
@@ -9908,7 +10295,7 @@ local t =
 														
 														{
 															controlID = "img_dark_bg_Panel_en_dark_Panel_dark_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "12187354_ab12_4697_a351_a20978a3be30",
+															UUID = "3d742adb_df00_44b0_a4d0_09353a0c32d0",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -9934,7 +10321,7 @@ local t =
 														},
 														{
 															controlID = "img_dark_icon_Panel_en_dark_Panel_dark_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "709f8198_4e59_4cf8_97cb_87d91c3f8cb4",
+															UUID = "75e07a77_75d7_455f_949b_a013ae8e71cb",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -9960,7 +10347,7 @@ local t =
 														},
 														{
 															controlID = "label_dark_title_Panel_en_dark_Panel_dark_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "fa8cfe89_ac22_42f8_a675_b4644e09328e",
+															UUID = "d47c91d6_641b_4c19_aca5_7421c5021c09",
 															anchorPoint = "False",
 															anchorPointX = "0",
 															anchorPointY = "0.5",
@@ -9977,15 +10364,15 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "20",
+															fontSize = "26",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "24",
-															ignoreSize = "True",
+															height = "0",
+															ignoreSize = "False",
 															name = "label_dark_title",
 															nTextAlign = "1",
 															nTextHAlign = "1",
@@ -9993,20 +10380,20 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
-															text = "Dark",
+															text = "Dark mode",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 81,
+																PositionX = 65,
 																PositionY = -45,
 															},
-															width = "50",
+															width = "96",
 															ZOrder = "1",
 														},
 														{
 															controlID = "img_btn_bg_1_Panel_en_dark_Panel_dark_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "91b94a10_348b_49ec_a69f_38cfac3aa519",
+															UUID = "f27ba32b_5a1a_463c_8344_b22b93eaaf8c",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -10032,7 +10419,7 @@ local t =
 														},
 														{
 															controlID = "btn_common_1_Panel_en_dark_Panel_dark_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "15a6f776_a540_453e_b2be_7fc7a8fbe25d",
+															UUID = "1cb77fc2_17d0_40fd_a833_646aa826b029",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -10062,7 +10449,7 @@ local t =
 														},
 														{
 															controlID = "img_btn_bg_2_Panel_en_dark_Panel_dark_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "63ee8160_f1a7_4cc4_8ddb_a2fd7fd25f08",
+															UUID = "55597cec_1030_4f9f_baa4_5985c372297e",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -10088,7 +10475,7 @@ local t =
 														},
 														{
 															controlID = "btn_common_2_Panel_en_dark_Panel_dark_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "987b580d_7e0b_492a_b845_e7a92cf51cd8",
+															UUID = "620f6232_896e_4223_a58b_9077e314fd53",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -10118,7 +10505,7 @@ local t =
 														},
 														{
 															controlID = "img_btn_bg_3_Panel_en_dark_Panel_dark_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "adc5d727_9dbb_4729_b0b2_0145c6d47646",
+															UUID = "411a4847_c3d0_411d_b7cf_d5c1253259be",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -10144,7 +10531,7 @@ local t =
 														},
 														{
 															controlID = "btn_common_3_Panel_en_dark_Panel_dark_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "ef823d4d_78a9_47f3_b657_569f041ca21c",
+															UUID = "798cc3b7_3e57_48cd_865f_02e9ed520a62",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -10174,7 +10561,7 @@ local t =
 														},
 														{
 															controlID = "label_dark1_Panel_en_dark_Panel_dark_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "9e1d9fa7_0927_4ca9_881a_aac8be62a67e",
+															UUID = "7d89f425_70c9_403a_a7ac_e7804dc183d8",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -10191,14 +10578,14 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "22",
+															fontSize = "20",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "26",
+															height = "24",
 															ignoreSize = "True",
 															name = "label_dark1",
 															nTextAlign = "1",
@@ -10207,20 +10594,20 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
-															text = "Auto",
+															text = "Automatic",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 325,
+																PositionX = 315,
 																PositionY = -45,
 															},
-															width = "54",
+															width = "106",
 															ZOrder = "1",
 														},
 														{
 															controlID = "label_dark2_Panel_en_dark_Panel_dark_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "4800a16c_a4a5_4e6c_bb6d_7c71aaf1b036",
+															UUID = "c256776c_93b4_422f_913d_208d4d200d8e",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -10237,14 +10624,14 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "16",
+															fontSize = "20",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "19",
+															height = "24",
 															ignoreSize = "True",
 															name = "label_dark2",
 															nTextAlign = "1",
@@ -10261,12 +10648,12 @@ local t =
 																PositionX = 507,
 																PositionY = -45,
 															},
-															width = "91",
+															width = "111",
 															ZOrder = "1",
 														},
 														{
 															controlID = "label_dark3_Panel_en_dark_Panel_dark_Panel_settings_Panel_setting_pad_Panel_root_Panel-settingsView_Layer1_settings_Game",
-															UUID = "f68e4abe_578e_4b21_abba_8d77fbd24dda",
+															UUID = "77a82371_13a1_4d1c_af64_e6b286f794a8",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -10283,14 +10670,14 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "16",
+															fontSize = "20",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "19",
+															height = "24",
 															ignoreSize = "True",
 															name = "label_dark3",
 															nTextAlign = "1",
@@ -10304,10 +10691,10 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 698,
+																PositionX = 699,
 																PositionY = -45,
 															},
-															width = "97",
+															width = "119",
 															ZOrder = "1",
 														},
 													},
@@ -10337,7 +10724,7 @@ local t =
 			"ui/setting/uires/003.png",
 			"ui/common/button_big_blue_n.png",
 			"ui/common/button_big_n.png",
-			"ui/common/img_touming.png",
+			"ui/setting/uires/001.png",
 			"ui/setting/uires/002.png",
 			"ui/setting/uires/004.png",
 			"ui/setting/uires/017.png",

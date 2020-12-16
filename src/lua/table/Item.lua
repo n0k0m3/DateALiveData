@@ -9631,25 +9631,25 @@ return {
                 items = {
                     [1] = {
                         min = 1,
-                        id = 1412511,
+                        id = 1412611,
                         max = 1,
                         weight = 2500,
                     },
                     [2] = {
                         min = 1,
-                        id = 1412521,
+                        id = 1412621,
                         max = 1,
                         weight = 2500,
                     },
                     [3] = {
                         min = 1,
-                        id = 1412531,
+                        id = 1412631,
                         max = 1,
                         weight = 2500,
                     },
                     [4] = {
                         min = 1,
-                        id = 1412541,
+                        id = 1412641,
                         max = 1,
                         weight = 2500,
                     },
@@ -9806,25 +9806,25 @@ return {
                 items = {
                     [1] = {
                         min = 1,
-                        id = 1412511,
+                        id = 1412711,
                         max = 1,
                         weight = 2500,
                     },
                     [2] = {
                         min = 1,
-                        id = 1412521,
+                        id = 1412721,
                         max = 1,
                         weight = 2500,
                     },
                     [3] = {
                         min = 1,
-                        id = 1412531,
+                        id = 1412731,
                         max = 1,
                         weight = 2500,
                     },
                     [4] = {
                         min = 1,
-                        id = 1412541,
+                        id = 1412741,
                         max = 1,
                         weight = 2500,
                     },
@@ -44900,6 +44900,7 @@ return {
         },
         order = 1,
         accessId = {
+            [1] = 43,
         },
         des = "圣诞限定特殊道具，收集足够的数量可以抽空幸运圣诞树上的所有礼物哦！",
     },
@@ -69936,6 +69937,50 @@ return {
         },
         des = "参与夏日试炼任务活动获取，可用于在夏意小铺兑换丰厚奖励",
     },
+    [564001] = {
+        isHide = false,
+        superType = 6,
+        buyItemRecover = 0,
+        cost = "",
+        showBgPreview = 0,
+        pileUp = true,
+        useProfit = {
+        },
+        bornEffect = false,
+        gridMax = 9999999,
+        outTime = 0,
+        smallType = 0,
+        bagType = 5,
+        autoUse = false,
+        nameTextId = 14075,
+        icon = "icon/item/goods/564001.png",
+        quality = 4,
+        desTextId = 190000418,
+        delete = false,
+        useCast = {
+        },
+        onceUseLimit = 0,
+        id = 564001,
+        sellProfit = {
+            [1] = {
+                [1] = 500001,
+                [2] = 1,
+            },
+        },
+        subType = 4,
+        batchUse = true,
+        convertMax = {
+        },
+        star = 0,
+        iconShow = "",
+        totalMax = 99999999,
+        dealProfit = {
+        },
+        order = 1,
+        accessId = {
+        },
+        des = "圣诞节专属活动道具，活动期间用于解锁商店道具兑换资格以及兑换商店奖励。",
+    },
     [566049] = {
         isHide = false,
         superType = 7,
@@ -69988,6 +70033,50 @@ return {
         },
         des = "满月祭",
     },
+    [564002] = {
+        isHide = false,
+        superType = 6,
+        buyItemRecover = 0,
+        cost = "",
+        showBgPreview = 0,
+        pileUp = true,
+        useProfit = {
+        },
+        bornEffect = false,
+        gridMax = 9999999,
+        outTime = 0,
+        smallType = 0,
+        bagType = 5,
+        autoUse = false,
+        nameTextId = 190000415,
+        icon = "icon/item/goods/564002.png",
+        quality = 4,
+        desTextId = 190000416,
+        delete = false,
+        useCast = {
+        },
+        onceUseLimit = 0,
+        id = 564002,
+        sellProfit = {
+            [1] = {
+                [1] = 500001,
+                [2] = 1,
+            },
+        },
+        subType = 4,
+        batchUse = true,
+        convertMax = {
+        },
+        star = 0,
+        iconShow = "",
+        totalMax = 99999999,
+        dealProfit = {
+        },
+        order = 1,
+        accessId = {
+        },
+        des = "圣诞节专属活动道具，活动期间副本掉落，捐赠后可获得应援积分。 ",
+    },
     [500124] = {
         isHide = false,
         superType = 71,
@@ -70032,6 +70121,50 @@ return {
         },
         des = "",
     },
+    [564003] = {
+        isHide = false,
+        superType = 6,
+        buyItemRecover = 0,
+        cost = "",
+        showBgPreview = 0,
+        pileUp = true,
+        useProfit = {
+        },
+        bornEffect = false,
+        gridMax = 9999999,
+        outTime = 0,
+        smallType = 0,
+        bagType = 5,
+        autoUse = false,
+        nameTextId = 190000417,
+        icon = "icon/item/goods/564003.png",
+        quality = 4,
+        desTextId = 190000416,
+        delete = false,
+        useCast = {
+        },
+        onceUseLimit = 0,
+        id = 564003,
+        sellProfit = {
+            [1] = {
+                [1] = 500001,
+                [2] = 1,
+            },
+        },
+        subType = 4,
+        batchUse = true,
+        convertMax = {
+        },
+        star = 0,
+        iconShow = "",
+        totalMax = 99999999,
+        dealProfit = {
+        },
+        order = 1,
+        accessId = {
+        },
+        des = "圣诞节专属活动道具，活动期间副本掉落，捐赠后可获得应援积分。 ",
+    },
     [566051] = {
         isHide = false,
         superType = 16,
@@ -70071,6 +70204,46 @@ return {
         accessId = {
         },
         des = "参与「猩红梦魇」活动解锁拼图可获得",
+    },
+    [564004] = {
+        isHide = false,
+        superType = 6,
+        buyItemRecover = 0,
+        cost = "",
+        showBgPreview = 1314302,
+        pileUp = true,
+        useProfit = {
+        },
+        bornEffect = false,
+        gridMax = 1,
+        outTime = 0,
+        smallType = 0,
+        bagType = 0,
+        autoUse = false,
+        nameTextId = 190000400,
+        icon = "icon/item/sceneGoods/bg_shengdan.png",
+        quality = 4,
+        desTextId = 190000421,
+        delete = false,
+        useCast = {
+        },
+        onceUseLimit = 0,
+        id = 564004,
+        sellProfit = {
+        },
+        subType = 0,
+        batchUse = false,
+        convertMax = {
+        },
+        star = 0,
+        iconShow = "",
+        totalMax = 1,
+        dealProfit = {
+        },
+        order = 0,
+        accessId = {
+        },
+        des = "",
     },
     [500125] = {
         isHide = false,
@@ -70112,6 +70285,46 @@ return {
         accessId = {
             [1] = 108,
             [2] = 129,
+        },
+        des = "",
+    },
+    [564005] = {
+        isHide = false,
+        superType = 18,
+        buyItemRecover = 0,
+        cost = "",
+        showBgPreview = 0,
+        pileUp = true,
+        useProfit = {
+        },
+        bornEffect = false,
+        gridMax = 1,
+        outTime = 0,
+        smallType = 0,
+        bagType = 0,
+        autoUse = false,
+        nameTextId = 190000383,
+        icon = "icon/item/goods/564005.png",
+        quality = 5,
+        desTextId = 190000422,
+        delete = false,
+        useCast = {
+        },
+        onceUseLimit = 0,
+        id = 564005,
+        sellProfit = {
+        },
+        subType = 0,
+        batchUse = false,
+        convertMax = {
+        },
+        star = 0,
+        iconShow = "",
+        totalMax = 1,
+        dealProfit = {
+        },
+        order = 0,
+        accessId = {
         },
         des = "",
     },

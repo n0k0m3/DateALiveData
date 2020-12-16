@@ -527,15 +527,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "15",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "24",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_deadLine",
 									nTextAlign = "1",
 									nTextHAlign = "0",
@@ -551,8 +551,7 @@ local t =
 										PositionX = 200,
 										PositionY = 226,
 									},
-									visible = "False",
-									width = "132",
+									width = "120",
 									ZOrder = "1",
 									components = 
 									{
@@ -1291,7 +1290,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "18",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -2185,15 +2184,15 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "22",
+															fontSize = "18",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "26",
-															ignoreSize = "True",
+															height = "0",
+															ignoreSize = "False",
 															name = "Label_open_time",
 															nTextAlign = "1",
 															nTextHAlign = "1",
@@ -2208,7 +2207,7 @@ local t =
 															{
 																PositionY = -2,
 															},
-															width = "112",
+															width = "133",
 															ZOrder = "1",
 														},
 													},

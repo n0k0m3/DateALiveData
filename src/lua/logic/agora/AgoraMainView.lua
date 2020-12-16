@@ -18,7 +18,6 @@ function AgoraMainView:registerEvents()
     self.Button_fight:onClick(function()
 
         local serverTime = ServerDataMgr:getServerTime()
-        print(serverTime,self.fightTime[1])
         if self.fightTime and serverTime >= self.fightTime[1] and serverTime<= self.fightTime[2] then
             TFDirector:send(c2s.CHRISTMAS_REQ_CHRISTMAS_DUNGEONS, {})
         else
@@ -41,6 +40,15 @@ end
 function AgoraMainView:onShow()
     self.super.onShow(self)
     self:checkMainRedPoint()
+    
+
+    if self.elvesRole then
+
+        self.elvesRole:removeFromParent()
+        self.elvesRole = nil
+    end
+
+    self:initLive2d()
 end
 
 function AgoraMainView:initData()
@@ -129,7 +137,6 @@ function AgoraMainView:initUI(ui)
     self:createFuncs()
     self:showStationInfo1()
     -- self:updateContribution()
-    self:initLive2d()
 
     EventMgr:dispatchEvent(EV_HIDE_MAIN_LIVE2D)
 
@@ -142,11 +149,11 @@ function AgoraMainView:initUI(ui)
     })))
 
     if self.fightTime then
-        local sy, sm, sd = Utils:getDate(self.fightTime[1])
-        local ey, em, ed = Utils:getDate(self.fightTime[2])
+        local sy, sm, sd = Utils:getUTCDate(self.fightTime[1] , GV_UTC_TIME_ZONE):getdate()
+        local ey, em, ed = Utils:getUTCDate(self.fightTime[2] , GV_UTC_TIME_ZONE):getdate()
         local startstr = TextDataMgr:getText(600024, sm, sd)
         local endstr = TextDataMgr:getText(600024, em, ed)
-        self.Label_time:setText(startstr.." - "..endstr)
+        self.Label_time:setText(startstr.." - "..endstr..GV_UTC_TIME_STRING)
 
     end
 

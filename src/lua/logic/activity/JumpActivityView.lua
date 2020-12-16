@@ -38,10 +38,20 @@ function JumpActivityView:initUI( ui )
 	self.label_date = TFDirector:getChildByPath(ui, "label_date")
 	self.Button_jump = TFDirector:getChildByPath(ui, "Button_jump")
 
-    
-    self.label_date:setText(Utils:getActivityDateString(self.activityInfo.startTime, self.activityInfo.endTime, self.activityInfo.extendData.dateStyle))
+    if self.activityInfo.extendData.dateRstring then
+    	local dateStyle = self.activityInfo.extendData.dateStyle
+    	local startDateStr = Utils:getDateString(self.activityInfo.startTime, dateStyle)
+    	local endDateStr = Utils:getDateString(self.activityInfo.endTime, dateStyle)
+    	self.label_date:setTextById(self.activityInfo.extendData.dateRstring, startDateStr, endDateStr)
+	else
+		self.label_date:setText(Utils:getActivityDateString(self.activityInfo.startTime, self.activityInfo.endTime, self.activityInfo.extendData.dateStyle))
+	end
 
-    self:updateCountDonw()
+	if self.activityInfo.extendData.skewX then
+		self.label_date:setSkewX(self.activityInfo.extendData.skewX)
+		self.label_time:setSkewX(self.activityInfo.extendData.skewX)
+	end
+    self:updateCountDown()
 
     if self.activityInfo.extendData.bgPath then	
     	self.Image_bg:setTexture(self.activityInfo.extendData.bgPath)
@@ -49,10 +59,10 @@ function JumpActivityView:initUI( ui )
 end
 
 function JumpActivityView:onUpdateCountDownEvent()
-    self:updateCountDonw()
+    self:updateCountDown()
 end
 
-function JumpActivityView:updateCountDonw()
+function JumpActivityView:updateCountDown()
     local serverTime = ServerDataMgr:getServerTime()
     local remainTime = math.max(0, self.activityInfo.showEndTime - serverTime)
     local day, hour, min = Utils:getFuzzyDHMS(remainTime, true)
@@ -76,8 +86,14 @@ function JumpActivityView:jumpFunc( )
 		Utils:openView("activity.WelfareTaskView",self.activityId)
 	elseif activityInfo.activityType == EC_ActivityType2.ENTRUST then 
 		Utils:openView("activity.ActivityEntrustView",self.activityId)
+	elseif activityInfo.activityType == EC_ActivityType2.CGCOLLECTED then
+		Utils:openView("activity.ActivitySpecialCgView",self.activityId)
 	elseif activityInfo.activityType == EC_ActivityType2.KUANGSAN_FUBEN then
 		FunctionDataMgr:jKsanFuben()
+	elseif activityInfo.activityType == EC_ActivityType2.NEWYEAR_FUBEN or activityInfo.activityType == EC_ActivityType2.HWX_FUBEN then
+		FunctionDataMgr:jSpecialFuben(activityInfo.activityType)
+	elseif activityInfo.activityType == EC_ActivityType2.WSJ_2020 then
+		Utils:openView("activity.WsjActivityMainView", self.activityId)
 	elseif activityInfo.extendData.jumpInterface  then
 		FunctionDataMgr:enterByFuncId(activityInfo.extendData.jumpInterface, unpack(activityInfo.extendData.jumpParamters or {}))
 	end

@@ -212,7 +212,7 @@ function MainLayer:initUI(ui)
     local __pos = self.Button_wj:getPosition()
 
     if not FunctionDataMgr:isMainLayerOneYearUI() and self:isOneCelebrationMainLayer() then
-        self.Button_wj:setPosition(self.Button_focus:getPosition());
+        self.Button_wj:setPosition(self.Button_focus:getPosition());                                                                                                                                                                                                                                                 
         self.Button_focus:setPosition(__pos);
     end
 
@@ -231,6 +231,9 @@ function MainLayer:initUI(ui)
 
      self.Button_Activity90 = TFDirector:getChildByPath(self.ui, "Button_Activity90")
     self.Image_activity_red90 = TFDirector:getChildByPath(self.ui, "Image_activity_red90"):hide()
+
+    self.Button_Activity91 = TFDirector:getChildByPath(self.ui, "Button_Activity91")
+    self.Image_activity_red91 = TFDirector:getChildByPath(self.ui, "Image_activity_red91"):hide()
 
 
     --创建反十活动图标
@@ -474,11 +477,15 @@ function MainLayer:initUI(ui)
         end
         self.Panel_btListEx:hide()
 
+        local uipathSet = "new_ui"
 
-        self.Button_kefu = self:createCustomBtnOnBear("ui/mainLayer/new_ui/kefu_btn.png" , ccp(52 , 101) , "http://api-en.datealive.com/yhdzz/customer?" , true)
-        self.Button_fb = self:createCustomBtnOnBear("ui/mainLayer/new_ui/btn_fb.png" , ccp(52 , 101) , "https://www.facebook.com/DALSpiritPledge.Global")
-        self.Button_twitter = self:createCustomBtnOnBear("ui/mainLayer/new_ui/btn_twitter.png" , ccp(52 , 101) , "https://twitter.com/SpiritPledgeDAL")
-        self.Button_dis = self:createCustomBtnOnBear("ui/mainLayer/new_ui/btn_dis.png" , ccp(52 , 101) , "https://discord.gg/vC8Uq2z")
+        if MainUISettingMgr:getui() == 100090 or  MainUISettingMgr:getui() == 100091 then   --facebook等按钮圣诞节主题特殊处理
+            uipathSet = "new_ui_en_1"
+        end
+        self.Button_kefu = self:createCustomBtnOnBear("ui/mainLayer/"..uipathSet.."/kefu_btn.png" , ccp(52 , 101) , "http://api-en.datealive.com/yhdzz/customer?" , true)
+        self.Button_fb = self:createCustomBtnOnBear("ui/mainLayer/"..uipathSet.."/btn_fb.png" , ccp(52 , 101) , "https://www.facebook.com/DALSpiritPledge.Global")
+        self.Button_twitter = self:createCustomBtnOnBear("ui/mainLayer/"..uipathSet.."/btn_twitter.png" , ccp(52 , 101) , "https://twitter.com/SpiritPledgeDAL")
+        self.Button_dis = self:createCustomBtnOnBear("ui/mainLayer/"..uipathSet.."/btn_dis.png" , ccp(52 , 101) , "https://discord.gg/vC8Uq2z")
 	end
 
     local activityInfos = ActivityDataMgr2:getActivityInfo(nil,2)
@@ -493,13 +500,16 @@ function MainLayer:initUI(ui)
     local activityInfos = ActivityDataMgr2:getActivityInfo(nil,90)
     self.Button_Activity90:setVisible(#activityInfos > 0)
 
+    local activityInfos = ActivityDataMgr2:getActivityInfo(nil,91)
+    self.Button_Activity91:setVisible(#activityInfos > 0)
+
     local activityInfos = ActivityDataMgr2:getActivityInfo(nil,EC_ActivityType2.FANSHI_ASSIST)
     self.Button_Activity1001:setVisible(#activityInfos > 0)
 
     
     --showType:7 不在主界面用
-    --local activityInfos = ActivityDataMgr2:getActivityInfo(nil,7)
-    --self.Button_Activity7:setVisible((#activityInfos > 0)
+    local activityInfos = ActivityDataMgr2:getActivityInfo(nil,7)
+    self.Button_Activity7:setVisible((#activityInfos > 0))
 
     if self.Button_serverGiftActivity then
         local activityInfos = ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.SERVER_GIFT)
@@ -833,11 +843,11 @@ function MainLayer:showLeftBtnAnim()
     if self.button_OneYear:isVisible() then
         table.insert(threeActivity , self.button_OneYear)
     end
-    if self.Button_Activity90:isVisible() then
-        table.insert(threeActivity , self.Button_Activity90)
+    if self.Button_Activity7:isVisible() then
+        table.insert(threeActivity , self.Button_Activity7)
     end
-    if self.Button_Activity1001:isVisible() then
-        table.insert(threeActivity , self.Button_Activity1001)
+    if self.Button_Activity91:isVisible() then
+        table.insert(threeActivity , self.Button_Activity91)
     end
 
     --多个活动同时存在新增特殊处理 
@@ -1015,12 +1025,14 @@ function MainLayer:setBackGroundByTime()
         local defaultBgDayId = Utils:getKVP(46026,"data")[1]["defaultDayScene"]
             if curDayCid == defaultBgDayId and nil == spbackground then
                 if not spine then
-                    local tempSpine = SkeletonAnimation:create("effect/ui_effect_oneYearKanban/effects_ZNQ_kanban")
-                    tempSpine:setName("yearBgSpine")
-                    tempSpine:play("animation", true)
-                    tempSpine:setVisible(true)
-                    tempSpine:setPosition(self.Spine_effectHB:getPosition())
-                    self.background:addChild(tempSpine, self.Spine_effectHB:getZOrder())
+                    -- local tempSpine = SkeletonAnimation:create("effect/ui_effect_oneYearKanban/effects_ZNQ_kanban")
+                    -- tempSpine:setName("yearBgSpine")
+                    -- tempSpine:play("animation", true)
+                    -- tempSpine:setVisible(true)
+                    -- tempSpine:setPosition(self.Spine_effectHB:getPosition())
+                    -- self.background:addChild(tempSpine, self.Spine_effectHB:getZOrder())
+                    --TODO CLOSE 英文版修改为圣诞节背景
+                    res = "ui/mainLayer/new_ui_en_1/bg_shengdan.png"
                 end
             else
                 if spine then
@@ -1104,7 +1116,7 @@ function MainLayer:addActivity(info)
     local activityImg = self.activityItem:clone()
     activityImg:setTexture(info.adicon)
     
-    activityImg:setContentSize(CCSize(360, 84))
+    activityImg:setContentSize(CCSize(360, 88))
     activityImg:setVisible(true)
     layer:addChild(activityImg)
 
@@ -1879,6 +1891,11 @@ function MainLayer:registerEvents()
     self.Button_Activity90:onClick(function()
         local activityInfo = ActivityDataMgr2:getActivityInfo(nil,90)[1]
         FunctionDataMgr:enterByFuncId(activityInfo.extendData.jumpInterface,unpack(activityInfo.extendData.jumpParamters or {}))
+    end)
+
+     --英文版新的白往应援活动
+    self.Button_Activity91:onClick(function()
+       FunctionDataMgr:jActivity91()
     end)
 
     --反十应援活动
@@ -2836,6 +2853,8 @@ function MainLayer:onRedPointUpdateActivity()
     self.Image_activity_red1001:setVisible(isShow)
     local isShow = ActivityDataMgr2:isShowRedPointInMainView(7)
     self.Image_activity_red7:setVisible(isShow)
+    local isShow = ActivityDataMgr2:isShowRedPointInMainView(91)
+    self.Image_activity_red91:setVisible(isShow)
 
 end
 
@@ -3289,11 +3308,11 @@ function MainLayer:updateOneYearBtns()
             if self.button_OneYear and self.button_OneYear:isVisible() then
                 table.insert(threeActivity , self.button_OneYear)
             end
-            if self.Button_Activity90 and self.Button_Activity90:isVisible() then
-                table.insert(threeActivity , self.Button_Activity90)
+            if self.Button_Activity7 and self.Button_Activity7:isVisible() then
+                table.insert(threeActivity , self.Button_Activity7)
             end
-            if self.Button_Activity1001 and self.Button_Activity1001:isVisible() then
-                table.insert(threeActivity , self.Button_Activity1001)
+            if self.Button_Activity91 and self.Button_Activity1001:isVisible() then
+                table.insert(threeActivity , self.Button_Activity91)
             end
 
 		
@@ -3305,6 +3324,7 @@ function MainLayer:updateOneYearBtns()
 			if  (self.Button_Activity5 and self.Button_Activity5:isVisible()) 
                 or (self.Button_Activity6 and self.Button_Activity6:isVisible()) 
                 or (self.Button_Activity90 and self.Button_Activity90:isVisible()) 
+                or (self.Button_Activity91 and self.Button_Activity91:isVisible()) 
                 or (self.button_OneYear and self.button_OneYear:isVisible()) 
                 or (self.button_Caociyuan and self.button_Caociyuan:isVisible()) 
                 or (self.Button_activity2 and self.Button_activity2:isVisible()) 
@@ -3329,8 +3349,9 @@ function MainLayer:updateOneYearBtns()
 				self.Button_mail:setPosition(ccp(344,351))
 				self.Button_friend:setPosition(ccp(422,369))
 				
-				self.Panel_activity:setPosition(ccp(520,460))
+				
 			end
+            self.Panel_activity:setPosition(ccp(520,460))
 		end
 
         local activityPos_left = TFDirector:getChildByPath(self.ui,"activityPos_left")
@@ -3361,7 +3382,7 @@ function MainLayer:updateOneYearBtns()
                     self.button_OneYear:setPosition(activityPos_mid:getPosition())
                 end 
 
-                if self.Button_Activity7 then
+                if self.Button_Activity7 and #threeActivity <= 1 then
                     self.Button_Activity7:setPosition(activityPos_mid:getPosition())
                 end
                 
@@ -4120,9 +4141,9 @@ function MainLayer:onUpdateActivitysState()
     local activityInfos = ActivityDataMgr2:getActivityInfo(nil,1001)
     self.Button_Activity1001:setVisible(#activityInfos > 0)
 
-    --showType:7 不在主界面用
-    --local activityInfos = ActivityDataMgr2:getActivityInfo(nil,7)
-    --self.Button_Activity7:setVisible(#activityInfos > 0)
+    --showType:7 不在主界面用  --TODO 英文版凛冬活动打开入口
+    local activityInfos = ActivityDataMgr2:getActivityInfo(nil,7)
+    self.Button_Activity7:setVisible(#activityInfos > 0)
 
     if self.button_OneYear then
         local activityInfos = ActivityDataMgr2:getActivityInfo(nil,3)
