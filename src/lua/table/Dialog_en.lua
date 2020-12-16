@@ -23915,7 +23915,7 @@ return {
         text = {
             [1] = {
                 speed = 40,
-                text = "Warning.",
+                text = "Warning. ",
                 delay = 1000,
             },
             [2] = {

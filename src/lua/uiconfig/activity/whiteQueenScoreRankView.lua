@@ -33,12 +33,12 @@ local t =
 			touchAble = "False",
 			UILayoutViewModel = 
 			{
-				nType = 3,
+				
 			},
 			uipanelviewmodel = 
 			{
-				Layout="Relative",
-				nType = "3"
+				Layout="Absolute",
+				nType = "0"
 			},
 			width = "1136",
 			ZOrder = "1",
@@ -70,9 +70,7 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
-						PositionX = -88,
 						relativeToName = "Panel",
-						nType = 3,
 						nGravity = 6,
 						nAlign = 5
 					},
@@ -1484,7 +1482,6 @@ local t =
 						LeftPositon = 6,
 						TopPosition = 795,
 						relativeToName = "Panel",
-						nType = 3,
 					},
 					uipanelviewmodel = 
 					{

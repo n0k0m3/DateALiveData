@@ -1585,7 +1585,7 @@ function Utils:onKeyBack()
                         --     GameGuide:skipTeamGuideGroup()
                         --     return
                         -- end                                            
-                        GameGuide:skipNewGuide()
+                        GameGuide:skipGuide(GuideDataMgr:isInNewGuide())
                     end)
                     view:setContent(TextDataMgr:getText(100000126))--"确定要跳过学前教育吗？")    
                 else
