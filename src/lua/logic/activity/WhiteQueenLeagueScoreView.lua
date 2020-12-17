@@ -38,7 +38,7 @@ function WhiteQueenLeagueScoreView:initUI(ui)
     self.list_for_des = UIListView:create(TFDirector:getChildByPath(self.Panel_root, "ScrollView_des"))
 
 
-    local leagueActivityInfo =  ActivityDataMgr2:getActivityInfo(ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.LEAGUE_SCORE_ASSIT)[1])
+   
 
 
     self.league_scroll_reward = TFDirector:getChildByPath(self.Panel_root, "ScrollView_reward")
@@ -103,7 +103,8 @@ function WhiteQueenLeagueScoreView:updateActivity()
 
         local Panel_scorll_item = self.Panel_scorll_item:clone()
         Panel_scorll_item.Label_title = Panel_scorll_item:getChildByName("Label_title")
-        Panel_scorll_item.Label_title:setText(Utils:splitLanguageStringByTag(self.activityInfo_.activityTitle))
+        local leagueActivityInfo =  ActivityDataMgr2:getActivityInfo(ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.LEAGUE_SCORE_ASSIT)[1])
+        Panel_scorll_item.Label_title:setText(Utils:splitLanguageStringByTag(leagueActivityInfo.activityTitle))
         Panel_scorll_item:setContentSize(Panel_scorll_item.Label_title:getContentSize())
 
         self.list_for_des:pushBackCustomItem(Panel_scorll_item)
