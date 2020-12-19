@@ -11,11 +11,10 @@ end
 function ChristmasPreView:initUI( ui )
     self.super.initUI(self,ui)
 
+    self.btn_help = TFDirector:getChildByPath(ui,"btn_help")
     self.label_time = TFDirector:getChildByPath(ui,"label_time")
     self.label_des = TFDirector:getChildByPath(ui,"label_des")
     self.label_des_ex = TFDirector:getChildByPath(ui,"label_des_ex")
-
-    self.label_des_ex:setFontColor(ccc3(255 , 255 , 255))
 
     self.label_number = TFDirector:getChildByPath(ui,"label_number")
     self.label_tip2 = TFDirector:getChildByPath(ui,"label_tip2")
@@ -72,8 +71,8 @@ function ChristmasPreView:updateBuyNum()
         return
     end
     local curPersonNum = self.activityInfo.extendData.buyCount or 0
-    self.label_des:setText(Utils:splitLanguageStringByTag(self.activityInfo.extendData.des))
-    self.label_des_ex:setText(Utils:splitLanguageStringByTag(self.activityInfo.extendData.des1))
+    self.label_des:setText(Utils:MultiLanguageStringDeal(self.activityInfo.extendData.des))
+    self.label_des_ex:setText(Utils:MultiLanguageStringDeal(self.activityInfo.extendData.des1))
     self.label_number:setTextById(270611, curPersonNum)
     local items = ActivityDataMgr2:getItems(self.activityId_)
     local maxItemId = items[#items]
@@ -130,6 +129,7 @@ function ChristmasPreView:updateItem(item, id)
     if not imageNames then
         return
     end
+    print(imageNames)
     Image_goodbg:setTexture(self.path .. "m1.png")
     Label_ing_num:setText(imageNames[1])
 end
@@ -152,7 +152,7 @@ function ChristmasPreView:updateSellInfo()
     if giftData.buyCount ~= 0 and giftData.buyCount - RechargeDataMgr:getBuyCount(giftData.rechargeCfg.id) <= 0 then
         isBuyPreGift = true
     end
-    --英文版移动图片
+    --Ӣ�İ��ƶ�ͼƬ
     self.Image_title:setPosition(234 , -80)
     if isSellState then
         self.Image_title:setTexture(self.path .. "t2.png")
@@ -317,6 +317,10 @@ function ChristmasPreView:registerEvents()
         end
         local content = TextDataMgr:getText(270604, needNum)
         Utils:openView("common.ReConfirmTipsView", {tittle = 270605, content = content, reType = false, confirmCall = cb,showCancle = true})
+    end)
+
+    self.btn_help:onClick(function()
+        Utils:openView("common.TxtRuleContentShowView", {13500104})
     end)
 end
 

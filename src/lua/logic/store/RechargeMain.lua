@@ -353,10 +353,30 @@ function RechargeMain:updateGiftItem(item, data)
 
     local Button_buy = TFDirector:getChildByPath(item, "Button_buy")
     Button_buy:onClick(function()
+        data.extendData = data.extendData or ""
+        local tipId = Utils:getStoreBuyTipId(json.decode(data.extendData),2)
+        if tipId then
+            local args = {
+                tittle = 2107025,
+                reType = "buyGiftTip",
+                content = TextDataMgr:getText(tipId),
+                confirmCall = function ( ... )
+                     if data.buyCount ~= 0 and data.buyCount - RechargeDataMgr:getBuyCount(data.rechargeCfg.id) <= 0 then
+                        Utils:showTips(800117)
+                        return
+                    end
+                    RechargeDataMgr:getOrderNO(data.rechargeCfg.id)
+                end,
+            }
+            Utils:showReConfirm(args)
+            return
+        end
+
         if data.buyCount ~= 0 and data.buyCount - RechargeDataMgr:getBuyCount(data.rechargeCfg.id) <= 0 then
             Utils:showTips(800117)
             return
         end
+
         RechargeDataMgr:getOrderNO(data.rechargeCfg.id)
     end)
 
@@ -472,7 +492,7 @@ function RechargeMain:updateRechargeItem(item, data, isMonthCard)
     end
 
     local Label_desc    = TFDirector:getChildByPath(item,"Label_desc")
-    Label_desc:setText(data.des1)
+    Label_desc:setText(Utils:MultiLanguageStringDeal(data.des1))
     Label_desc:setVisible(not isMonthCard)
 
     local Label_desc_month = TFDirector:getChildByPath(item,"Label_desc_month")
@@ -516,7 +536,23 @@ function RechargeMain:updateRechargeItem(item, data, isMonthCard)
 
     local Button_buy = TFDirector:getChildByPath(item, "Button_buy")
     Button_buy:onClick(function()
+        data.extendData = data.extendData or ""
+        local tipId = Utils:getStoreBuyTipId(json.decode(data.extendData),2)
+        if tipId then
+            local args = {
+                tittle = 2107025,
+                reType = "buyGiftTip",
+                content = TextDataMgr:getText(tipId),
+                confirmCall = function ( ... )
+                    RechargeDataMgr:getOrderNO(data.rechargeCfg.id)
+                end,
+            }
+            Utils:showReConfirm(args)
+            return
+        end
+
         RechargeDataMgr:getOrderNO(data.rechargeCfg.id)
+
     end)
 
     local zuanWidth = Image_zuan:getContentSize().width * Image_zuan:getScale()
@@ -775,7 +811,7 @@ function RechargeMain:updateMonthCardItem(item, data)
         item.icon_spine:setZOrder(2)
         img_icon:getParent():addChild(item.icon_spine)
     end
-    label_title:setText(data.name)
+    label_title:setText(Utils:MultiLanguageStringDeal(data.name))
     RechargeDataMgr:getMonthCardSignData().subscibeTime = RechargeDataMgr:getMonthCardSignData().subscibeTime or 0
 
     local year, month, day = Utils:getDate(RechargeDataMgr:getMonthCardSignData().subscibeTime)

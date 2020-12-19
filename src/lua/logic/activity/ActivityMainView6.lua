@@ -46,8 +46,8 @@ Panel_activityItem.ImageSelect.activityName:setSkewX(15)
 Panel_activityItem.ImageNormal.activityName:setSkewX(15)
 
 Panel_activityItem.setActivityName = function (self,name)
-    self.ImageSelect.activityName:setText(Utils:splitLanguageStringByTag(name)) 
-    self.ImageNormal.activityName:setText(Utils:splitLanguageStringByTag(name)) 
+    self.ImageSelect.activityName:setText(Utils:MultiLanguageStringDeal(name)) 
+    self.ImageNormal.activityName:setText(Utils:MultiLanguageStringDeal(name)) 
 end
 
 Panel_activityItem.setImage = function (self,titleIcon)

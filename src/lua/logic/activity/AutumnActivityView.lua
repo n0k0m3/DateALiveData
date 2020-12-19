@@ -19,7 +19,6 @@ function AutumnActivityView:initUI(ui)
     self.Panel_root = TFDirector:getChildByPath(ui, "Panel_root")
 
     local Image_content = TFDirector:getChildByPath(self.Panel_root, "Image_content")
-    self.Panel_cg = TFDirector:getChildByPath(Image_content, "Image_frame.Panel_cg")
 
     self.Label_time_title = TFDirector:getChildByPath(self.Panel_root, "Label_time_title")
     self.Label_time = TFDirector:getChildByPath(self.Panel_root, "Label_time")
@@ -61,7 +60,7 @@ end
 function AutumnActivityView:updateActivity()
     self.activityInfo_ = ActivityDataMgr2:getActivityInfo(self.activityId_)
     self.Label_time:setText(Utils:getActivityDateString(self.activityInfo_.startTime, self.activityInfo_.endTime, self.activityInfo_.extendData.dateStyle))
-    self.Label_tip:setText(Utils:splitLanguageStringByTag(self.activityInfo_.extendData.dec))
+    self.Label_tip:setText(Utils:MultiLanguageStringDeal(self.activityInfo_.extendData.dec))
 
     local extendData = self.activityInfo_.extendData or {}
     self.resource = extendData.resourceView or {}

@@ -2041,17 +2041,6 @@ function Utils:showTipTool(targetNode, offsetPos)
 end
 
 
-function Utils:splitLanguageStringByTag(text , tag )
-    tag = tag or "#####"
-    local strName = string.split(text , tag)
-    if GAME_LANGUAGE_VAR == EC_LanguageType.Chinese then
-        text = strName[1]
-    else
-        text = strName[2]
-    end
-    return text or ""
-end
-
 function Utils:getIsDayChangeBySaveData( strName )
     local playerId = MainPlayer:getPlayerId()
     local serverTime =  ServerDataMgr:customUtcTimeForServerTimestap()

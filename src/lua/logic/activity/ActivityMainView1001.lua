@@ -44,8 +44,10 @@ Panel_activityItem.ImageSelect.activityName:setSkewX(15)
 Panel_activityItem.ImageNormal.activityName:setSkewX(15)
 
 Panel_activityItem.setActivityName = function (self,name)
-    self.ImageSelect.activityName:setText(Utils:splitLanguageStringByTag(name)) 
-    self.ImageNormal.activityName:setText(Utils:splitLanguageStringByTag(name))
+    self.ImageSelect.activityName:setText(Utils:MultiLanguageStringDeal(name)) 
+    self.ImageNormal.activityName:setText(Utils:MultiLanguageStringDeal(name))
+
+    
 end
 
 Panel_activityItem.setImage = function (self,titleIcon)
@@ -79,8 +81,11 @@ function updateActivtyItem(self,index)
     local item = self.ListView_activity:getItem(index)
     local foo  = self.activityItem_[item]
     foo:setActivityName(activity.extendData.name)
-    local select = string.sub(activity.titleIcon,1,-5)
-    foo:setImage(activity.titleIcon)
+    --local select = string.sub(activity.titleIcon,1,-5)
+    --感恩节活动暂时屏蔽 TODO
+    --foo:setImage(activity.titleIcon)
+    foo:setImage("")
+
     foo:setTouchEnabled(true)
     foo:onClick(function()
         self:selectActivity(index)

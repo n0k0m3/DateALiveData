@@ -23,6 +23,8 @@ end
 function HotMallView:initUI(ui)
     self.super.initUI(self, ui)
 
+    self.img_tip = TFDirector:getChildByPath(ui, "img_tip"):hide()
+
     self.panel_cell = TFDirector:getChildByPath(ui, "panel_cell"):hide()
 
     self.scroll_list = TFDirector:getChildByPath(ui, "scroll_list")
@@ -133,7 +135,7 @@ function HotMallView:updateGiftItem(item, data)
     Label_price:setTextById(1605003 , string.format("%.2f" ,data.rechargeCfg.price/100))
     
     
-
+    
     local Image_exchange = TFDirector:getChildByPath(item,"Image_exchange")
     
     Label_price:setPositionX(0)
@@ -150,7 +152,7 @@ function HotMallView:updateGiftItem(item, data)
     end
 
     local Label_num = TFDirector:getChildByPath(item,"Label_num")
-    Label_num:setText(data.name)
+    Label_num:setText(Utils:MultiLanguageStringDeal(data.name))
 
     local Label_leftTime= TFDirector:getChildByPath(item,"Label_leftTime")
     Label_leftTime:setString(data.buyCount - RechargeDataMgr:getBuyCount(data.rechargeCfg.id))
@@ -160,7 +162,7 @@ function HotMallView:updateGiftItem(item, data)
     Label_tips:setVisible(data.buyCount ~= 0)
 
     local Label_desc = TFDirector:getChildByPath(item,"Label_desc")
-    Label_desc:setText(data.des2)
+    Label_desc:setText(Utils:MultiLanguageStringDeal(data.des2))
 
     local serverTime = ServerDataMgr:getServerTime()
     local Label_countdown = TFDirector:getChildByPath(item,"Label_countdown")

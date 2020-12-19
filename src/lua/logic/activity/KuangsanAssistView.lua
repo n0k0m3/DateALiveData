@@ -263,7 +263,7 @@ function KuangsanAssistView:updateTaskItem(index)
     local item = self.ListView_task:getItem(index)
     local foo = self.taskItems_[item]
 
-    foo.Label_task_desc:setText(Utils:splitLanguageStringByTag(itemInfo.extendData.des2))
+    foo.Label_task_desc:setText(Utils:MultiLanguageStringDeal(itemInfo.extendData.des2))
     foo.Label_percent_value:setTextById(800005, progress, itemInfo.target)
     if progress > tonumber(itemInfo.target)  then
         foo.Label_percent_value:setTextById(800005, itemInfo.target, itemInfo.target)

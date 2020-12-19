@@ -8,7 +8,9 @@ end
 function DropActivityView:ctor(...)
     self.super.ctor(self)
     self:initData(...)
-    self:init("lua.uiconfig.activity.dropActivityView")
+
+    local uiName = self.activityInfo_ .extendData.uiName or "dropActivityView"
+    self:init("lua.uiconfig.activity."..uiName)
 end
 
 function DropActivityView:initUI(ui)
@@ -34,6 +36,18 @@ function DropActivityView:initUI(ui)
     self.ListView_des = UIListView:create(TFDirector:getChildByPath(ui, "ScrollView_des"))
     self.Panel_des_item = TFDirector:getChildByPath(ui , "Panel_des")
 
+    if self.activityInfo_.extendData.activityShowType == EC_ActivityType2.FANSHI_ASSIST then   --感恩节反十活动修改
+        self.Label_extra_timing:hide()
+         self.Label_multiple_timing:hide()
+         self.Image_ad:getChildByName("Button_get"):onClick(function( ... )
+             FunctionDataMgr:jPlotFuben()
+         end)
+         self.Image_ad:getChildByName("Button_send"):onClick(function( ... )
+             FunctionDataMgr:jActivity(300)
+         end)
+    end
+
+
     self:refreshView()
 end
 
@@ -51,7 +65,11 @@ end
 function DropActivityView:updateActivity()
     if self.extendData_ then
         local progressInfo = ActivityDataMgr2:getProgressInfo(self.activityInfo_.activityType, self.itemId_)
-        PrefabDataMgr:setInfo(self.Panel_goodsItem, self.extendData_.keyItem)
+        self.Panel_goodsItem:hide()
+        if self.extendData_.keyItem then
+            self.Panel_goodsItem:show()
+            PrefabDataMgr:setInfo(self.Panel_goodsItem, self.extendData_.keyItem)
+        end
         self.Label_multiple_timing:hide()
         self.Label_extra_timing:hide()
         if self.extendData_.changeType == EC_ActivityDropChangeType.MULTIPLE then
@@ -76,10 +94,14 @@ function DropActivityView:updateActivity()
 
         local Panel_des_item = self.Panel_des_item:clone()
         Panel_des_item.Label_title = Panel_des_item:getChildByName("Label_title")
-        Panel_des_item.Label_title:setText(Utils:splitLanguageStringByTag(title))
+        Panel_des_item.Label_title:setText(Utils:MultiLanguageStringDeal(title))
         Panel_des_item:setContentSize(Panel_des_item.Label_title:getContentSize())
 
         self.ListView_des:pushBackCustomItem(Panel_des_item)
+
+         if self.activityInfo_.extendData.activityShowType == EC_ActivityType2.FANSHI_ASSIST then   --感恩节反十活动修改
+            self.Label_timing:hide()
+         end
     end
 end
 
