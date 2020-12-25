@@ -6,49 +6,91 @@ filter: Linear,Linear
 repeat: none
 images/bianguang_00000
   rotate: false
-  xy: 2, 149
+  xy: 2, 180
   size: 104, 36
   orig: 157, 57
   offset: 30, 9
   index: -1
 images/di
   rotate: false
-  xy: 2, 187
+  xy: 2, 218
   size: 129, 31
   orig: 129, 34
   offset: 0, 0
   index: -1
+images/es/es_01
+  rotate: false
+  xy: 2, 23
+  size: 69, 25
+  orig: 122, 39
+  offset: 25, 6
+  index: -1
+images/es/es_02
+  rotate: false
+  xy: 133, 196
+  size: 69, 25
+  orig: 122, 37
+  offset: 25, 11
+  index: -1
 images/guozi
   rotate: false
-  xy: 2, 113
+  xy: 2, 144
   size: 102, 34
   orig: 129, 34
   offset: 16, 0
   index: -1
+images/ko/ko_01
+  rotate: true
+  xy: 220, 185
+  size: 64, 29
+  orig: 122, 30
+  offset: 30, 0
+  index: -1
+images/ko/ko_02
+  rotate: false
+  xy: 108, 166
+  size: 62, 28
+  orig: 122, 28
+  offset: 30, 0
+  index: -1
+images/th/th_01
+  rotate: false
+  xy: 2, 77
+  size: 78, 27
+  orig: 122, 33
+  offset: 25, 0
+  index: -1
+images/th/th_02
+  rotate: false
+  xy: 2, 50
+  size: 75, 25
+  orig: 122, 25
+  offset: 25, 0
+  index: -1
 images/zi
   rotate: false
-  xy: 2, 7
+  xy: 172, 166
   size: 45, 28
   orig: 129, 34
   offset: 45, 4
   index: -1
 images/zi2
   rotate: false
-  xy: 133, 192
+  xy: 133, 223
   size: 85, 26
   orig: 136, 36
   offset: 27, 5
   index: -1
 images/ziguang2
   rotate: false
-  xy: 2, 75
+  xy: 2, 106
   size: 93, 36
   orig: 136, 36
   offset: 26, 0
   index: -1
 images/ziguang_00015
   rotate: false
-  xy: 2, 37
+  xy: 106, 128
   size: 52, 36
   orig: 157, 57
   offset: 56, 10

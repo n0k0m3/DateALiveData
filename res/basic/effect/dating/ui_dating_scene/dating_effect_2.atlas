@@ -1,0 +1,146 @@
+
+dating_effect_2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+zidian/BG_000
+  rotate: false
+  xy: 385, 230
+  size: 139, 64
+  orig: 139, 64
+  offset: 0, 0
+  index: -1
+zidian/zidian1_001
+  rotate: false
+  xy: 584, 60
+  size: 356, 160
+  orig: 400, 160
+  offset: 44, 0
+  index: -1
+zidian/zidian1_004
+  rotate: true
+  xy: 806, 222
+  size: 397, 160
+  orig: 400, 160
+  offset: 3, 0
+  index: -1
+zidian/zidian1_006
+  rotate: true
+  xy: 806, 621
+  size: 399, 160
+  orig: 400, 160
+  offset: 1, 0
+  index: -1
+zidian/zidian1_008
+  rotate: false
+  xy: 404, 458
+  size: 392, 160
+  orig: 400, 160
+  offset: 8, 0
+  index: -1
+zidian/zidian1_010
+  rotate: false
+  xy: 2, 319
+  size: 383, 160
+  orig: 400, 160
+  offset: 15, 0
+  index: -1
+zidian/zidian1_012
+  rotate: false
+  xy: 387, 296
+  size: 382, 160
+  orig: 400, 160
+  offset: 18, 0
+  index: -1
+zidian/zidian1_014
+  rotate: false
+  xy: 2, 157
+  size: 381, 160
+  orig: 400, 160
+  offset: 19, 0
+  index: -1
+zidian/zidian1_015
+  rotate: false
+  xy: 2, 860
+  size: 400, 160
+  orig: 400, 160
+  offset: 0, 0
+  index: -1
+zidian/zidian1_016
+  rotate: false
+  xy: 2, 2
+  size: 329, 153
+  orig: 400, 160
+  offset: 0, 0
+  index: -1
+zidian/zidian1_018
+  rotate: false
+  xy: 333, 11
+  size: 249, 144
+  orig: 400, 160
+  offset: 0, 3
+  index: -1
+zidian/zidian2_000
+  rotate: false
+  xy: 385, 160
+  size: 160, 60
+  orig: 400, 160
+  offset: 240, 36
+  index: -1
+zidian/zidian2_001
+  rotate: false
+  xy: 2, 583
+  size: 400, 79
+  orig: 400, 160
+  offset: 0, 45
+  index: -1
+zidian/zidian2_003
+  rotate: false
+  xy: 404, 809
+  size: 400, 103
+  orig: 400, 160
+  offset: 0, 29
+  index: -1
+zidian/zidian2_005
+  rotate: false
+  xy: 2, 481
+  size: 387, 100
+  orig: 400, 160
+  offset: 1, 29
+  index: -1
+zidian/zidian2_007
+  rotate: false
+  xy: 404, 620
+  size: 400, 86
+  orig: 400, 160
+  offset: 0, 42
+  index: -1
+zidian/zidian2_009
+  rotate: false
+  xy: 2, 664
+  size: 400, 91
+  orig: 400, 160
+  offset: 0, 37
+  index: -1
+zidian/zidian2_011
+  rotate: false
+  xy: 404, 708
+  size: 400, 99
+  orig: 400, 160
+  offset: 0, 41
+  index: -1
+zidian/zidian2_013
+  rotate: false
+  xy: 404, 914
+  size: 400, 106
+  orig: 400, 160
+  offset: 0, 35
+  index: -1
+zidian/zidian2_015
+  rotate: false
+  xy: 2, 757
+  size: 400, 101
+  orig: 400, 160
+  offset: 0, 40
+  index: -1

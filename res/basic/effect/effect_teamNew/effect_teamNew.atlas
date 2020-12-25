@@ -1,69 +1,265 @@
 
 effect_teamNew.png
-size: 512,512
+size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-images/01
+images/de_1
   rotate: false
-  xy: 2, 287
+  xy: 358, 938
   size: 130, 84
   orig: 130, 84
   offset: 0, 0
   index: -1
-images/02
+images/de_2
   rotate: false
-  xy: 2, 126
-  size: 130, 73
-  orig: 130, 73
+  xy: 2, 906
+  size: 176, 116
+  orig: 176, 116
   offset: 0, 0
   index: -1
-images/03
+images/de_3
   rotate: false
-  xy: 134, 290
+  xy: 754, 855
   size: 130, 81
   orig: 130, 81
   offset: 0, 0
   index: -1
-images/04
+images/de_4
   rotate: false
-  xy: 2, 201
+  xy: 2, 584
   size: 130, 84
   orig: 130, 84
   offset: 0, 0
   index: -1
-images/chong
+images/en_01
   rotate: false
-  xy: 2, 62
-  size: 91, 62
-  orig: 91, 62
+  xy: 180, 702
+  size: 130, 84
+  orig: 130, 84
   offset: 0, 0
   index: -1
-images/dazhaohu
-  rotate: false
-  xy: 134, 141
-  size: 78, 66
-  orig: 78, 66
-  offset: 0, 0
-  index: -1
-images/fuhuo
-  rotate: false
-  xy: 266, 320
-  size: 104, 51
-  orig: 104, 51
-  offset: 0, 0
-  index: -1
-images/geili
+images/en_02
   rotate: false
   xy: 2, 2
-  size: 82, 58
-  orig: 82, 58
+  size: 130, 73
+  orig: 130, 73
+  offset: 0, 0
+  index: -1
+images/en_03
+  rotate: false
+  xy: 886, 941
+  size: 130, 81
+  orig: 130, 81
+  offset: 0, 0
+  index: -1
+images/en_04
+  rotate: false
+  xy: 358, 852
+  size: 130, 84
+  orig: 130, 84
+  offset: 0, 0
+  index: -1
+images/es_1
+  rotate: false
+  xy: 490, 938
+  size: 130, 84
+  orig: 130, 84
+  offset: 0, 0
+  index: -1
+images/es_2
+  rotate: false
+  xy: 2, 788
+  size: 176, 116
+  orig: 176, 116
+  offset: 0, 0
+  index: -1
+images/es_3
+  rotate: false
+  xy: 2, 243
+  size: 130, 81
+  orig: 130, 81
+  offset: 0, 0
+  index: -1
+images/es_4
+  rotate: false
+  xy: 2, 498
+  size: 130, 84
+  orig: 130, 84
+  offset: 0, 0
+  index: -1
+images/fr_1
+  rotate: false
+  xy: 490, 852
+  size: 130, 84
+  orig: 130, 84
+  offset: 0, 0
+  index: -1
+images/fr_2
+  rotate: false
+  xy: 180, 906
+  size: 176, 116
+  orig: 176, 116
+  offset: 0, 0
+  index: -1
+images/fr_3
+  rotate: false
+  xy: 886, 858
+  size: 130, 81
+  orig: 130, 81
+  offset: 0, 0
+  index: -1
+images/fr_4
+  rotate: false
+  xy: 622, 938
+  size: 130, 84
+  orig: 130, 84
+  offset: 0, 0
+  index: -1
+images/id_1
+  rotate: false
+  xy: 2, 412
+  size: 130, 84
+  orig: 130, 84
+  offset: 0, 0
+  index: -1
+images/id_2
+  rotate: false
+  xy: 2, 670
+  size: 176, 116
+  orig: 176, 116
+  offset: 0, 0
+  index: -1
+images/id_3
+  rotate: false
+  xy: 2, 160
+  size: 130, 81
+  orig: 130, 81
+  offset: 0, 0
+  index: -1
+images/id_4
+  rotate: false
+  xy: 622, 852
+  size: 130, 84
+  orig: 130, 84
+  offset: 0, 0
+  index: -1
+images/ko_chong
+  rotate: true
+  xy: 134, 465
+  size: 97, 64
+  orig: 97, 64
+  offset: 0, 0
+  index: -1
+images/ko_dazhaohu
+  rotate: false
+  xy: 695, 786
+  size: 74, 64
+  orig: 74, 64
+  offset: 0, 0
+  index: -1
+images/ko_fuhuo
+  rotate: false
+  xy: 476, 799
+  size: 111, 51
+  orig: 111, 51
+  offset: 0, 0
+  index: -1
+images/ko_geili
+  rotate: false
+  xy: 771, 796
+  size: 81, 57
+  orig: 81, 57
   offset: 0, 0
   index: -1
 images/liaotiankuang
   rotate: false
-  xy: 134, 209
+  xy: 358, 771
   size: 116, 79
   orig: 116, 79
+  offset: 0, 0
+  index: -1
+images/th_1
+  rotate: false
+  xy: 754, 938
+  size: 130, 84
+  orig: 130, 84
+  offset: 0, 0
+  index: -1
+images/th_2
+  rotate: false
+  xy: 180, 788
+  size: 176, 116
+  orig: 176, 116
+  offset: 0, 0
+  index: -1
+images/th_3
+  rotate: false
+  xy: 2, 77
+  size: 130, 81
+  orig: 130, 81
+  offset: 0, 0
+  index: -1
+images/th_4
+  rotate: false
+  xy: 2, 326
+  size: 130, 84
+  orig: 130, 84
+  offset: 0, 0
+  index: -1
+images/zh_chong
+  rotate: true
+  xy: 134, 368
+  size: 95, 62
+  orig: 95, 62
+  offset: 0, 0
+  index: -1
+images/zh_dazhaohu
+  rotate: true
+  xy: 134, 195
+  size: 78, 66
+  orig: 78, 66
+  offset: 0, 0
+  index: -1
+images/zn_dazhaohu
+  rotate: true
+  xy: 134, 195
+  size: 78, 66
+  orig: 78, 66
+  offset: 0, 0
+  index: -1
+images/zh_fuhuo
+  rotate: false
+  xy: 589, 799
+  size: 104, 51
+  orig: 104, 51
+  offset: 0, 0
+  index: -1
+images/zh_geili
+  rotate: true
+  xy: 134, 111
+  size: 82, 58
+  orig: 82, 58
+  offset: 0, 0
+  index: -1
+images/zn_chong
+  rotate: true
+  xy: 134, 275
+  size: 91, 62
+  orig: 91, 62
+  offset: 0, 0
+  index: -1
+images/zn_fuhuo
+  rotate: true
+  xy: 134, 564
+  size: 104, 51
+  orig: 104, 51
+  offset: 0, 0
+  index: -1
+images/zn_geili
+  rotate: true
+  xy: 134, 27
+  size: 82, 58
+  orig: 82, 58
   offset: 0, 0
   index: -1

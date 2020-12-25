@@ -27,7 +27,7 @@ asd_1
   index: -1
 asd_2
   rotate: false
-  xy: 528, 4
+  xy: 528, 3
   size: 126, 63
   orig: 126, 63
   offset: 0, 0
@@ -55,16 +55,9 @@ biaoqing_0006
   index: -1
 biaoqing_0007
   rotate: false
-  xy: 656, 4
+  xy: 656, 3
   size: 126, 63
   orig: 126, 63
-  offset: 0, 0
-  index: -1
-biaoqing_0008
-  rotate: true
-  xy: 360, 266
-  size: 360, 296
-  orig: 360, 296
   offset: 0, 0
   index: -1
 biaoqing_0009
@@ -97,7 +90,7 @@ biaoqing_0012
   index: -1
 biaoqing_0013
   rotate: false
-  xy: 428, 55
+  xy: 428, 54
   size: 98, 132
   orig: 98, 132
   offset: 0, 0
@@ -111,14 +104,14 @@ biaoqing_0014
   index: -1
 biaoqing_0015
   rotate: true
-  xy: 535, 69
+  xy: 535, 68
   size: 195, 298
   orig: 195, 298
   offset: 0, 0
   index: -1
 biaoqing_0016
   rotate: true
-  xy: 360, 189
+  xy: 360, 188
   size: 75, 173
   orig: 75, 173
   offset: 0, 0
@@ -130,18 +123,25 @@ biaoqing_0018
   orig: 431, 394
   offset: 0, 0
   index: -1
+de_0
+  rotate: true
+  xy: 360, 265
+  size: 361, 296
+  orig: 361, 296
+  offset: 0, 0
+  index: -1
 erduo_0002
   rotate: true
-  xy: 784, 5
+  xy: 784, 4
   size: 62, 75
   orig: 62, 75
   offset: 0, 0
   index: -1
-f_0023
+es_0
   rotate: false
   xy: 658, 293
-  size: 360, 296
-  orig: 360, 296
+  size: 361, 296
+  orig: 361, 296
   offset: 0, 0
   index: -1
 f_neng
@@ -167,28 +167,77 @@ f_xiao
   index: -1
 
 sui_nianshou2.png
-size: 256,256
+size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 biaoqing_0017
-  rotate: false
-  xy: 2, 61
+  rotate: true
+  xy: 728, 869
   size: 101, 105
   orig: 101, 105
   offset: 0, 0
   index: -1
 erduo_0001
   rotate: false
-  xy: 105, 110
+  xy: 909, 914
   size: 61, 56
   orig: 61, 56
   offset: 0, 0
   index: -1
 erduo_0003
   rotate: false
-  xy: 2, 3
+  xy: 835, 914
   size: 72, 56
   orig: 72, 56
+  offset: 0, 0
+  index: -1
+f_0023
+  rotate: true
+  xy: 598, 312
+  size: 360, 296
+  orig: 360, 296
+  offset: 0, 0
+  index: -1
+fr_0
+  rotate: false
+  xy: 2, 674
+  size: 361, 296
+  orig: 361, 296
+  offset: 0, 0
+  index: -1
+id_0
+  rotate: false
+  xy: 365, 674
+  size: 361, 296
+  orig: 361, 296
+  offset: 0, 0
+  index: -1
+ko_0
+  rotate: true
+  xy: 2, 311
+  size: 361, 296
+  orig: 361, 296
+  offset: 0, 0
+  index: -1
+th_0
+  rotate: false
+  xy: 2, 13
+  size: 361, 296
+  orig: 361, 296
+  offset: 0, 0
+  index: -1
+zh_0
+  rotate: true
+  xy: 300, 311
+  size: 361, 296
+  orig: 361, 296
+  offset: 0, 0
+  index: -1
+zn_0
+  rotate: false
+  xy: 365, 13
+  size: 361, 296
+  orig: 361, 296
   offset: 0, 0
   index: -1

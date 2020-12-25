@@ -4,80 +4,213 @@ size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-01
-  rotate: false
-  xy: 745, 877
-  size: 186, 54
-  orig: 196, 56
-  offset: 5, 0
-  index: -1
-02
-  rotate: true
-  xy: 454, 193
-  size: 236, 54
-  orig: 241, 56
-  offset: 3, 0
-  index: -1
-dian_00000
-  rotate: false
-  xy: 2, 29
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
 final_00047_00000
   rotate: false
-  xy: 2, 431
+  xy: 2, 522
   size: 656, 500
   orig: 664, 500
   offset: 8, 0
   index: -1
 huangse
-  rotate: false
-  xy: 304, 88
+  rotate: true
+  xy: 745, 680
   size: 40, 31
   orig: 42, 33
   offset: 1, 1
   index: -1
-ji_00000
+images/de/effect_heroGrow_ui12_de_1_0
+  rotate: true
+  xy: 561, 331
+  size: 189, 56
+  orig: 199, 56
+  offset: 3, 0
+  index: -1
+images/de/effect_heroGrow_ui12_de_2_0
+  rotate: true
+  xy: 454, 234
+  size: 286, 56
+  orig: 305, 56
+  offset: 8, 0
+  index: -1
+images/en/01
   rotate: false
-  xy: 454, 141
+  xy: 785, 794
+  size: 186, 54
+  orig: 196, 56
+  offset: 5, 0
+  index: -1
+images/en/02
+  rotate: false
+  xy: 2, 110
+  size: 236, 54
+  orig: 241, 56
+  offset: 3, 0
+  index: -1
+images/es/effect_heroGrow_ui12_es_1_0
+  rotate: false
+  xy: 785, 908
+  size: 189, 56
+  orig: 199, 56
+  offset: 3, 0
+  index: -1
+images/es/effect_heroGrow_ui12_es_2_0
+  rotate: false
+  xy: 785, 966
+  size: 231, 56
+  orig: 250, 56
+  offset: 10, 0
+  index: -1
+images/fr/effect_heroGrow_ui12_fr_1_0
+  rotate: false
+  xy: 785, 850
+  size: 189, 56
+  orig: 195, 56
+  offset: 3, 0
+  index: -1
+images/fr/effect_heroGrow_ui12_fr_2_0
+  rotate: true
+  xy: 512, 278
+  size: 242, 47
+  orig: 260, 56
+  offset: 11, 9
+  index: -1
+images/id/effect_heroGrow_ui12_id_1_0
+  rotate: false
+  xy: 2, 3
+  size: 195, 47
+  orig: 203, 56
+  offset: 2, 9
+  index: -1
+images/id/effect_heroGrow_ui12_id_2_0
+  rotate: false
+  xy: 2, 52
+  size: 208, 56
+  orig: 228, 56
+  offset: 10, 0
+  index: -1
+images/ko/6
+  rotate: false
+  xy: 290, 113
+  size: 48, 51
+  orig: 52, 52
+  offset: 2, 1
+  index: -1
+images/ko/fang_00000
+  rotate: false
+  xy: 561, 278
+  size: 50, 51
+  orig: 52, 52
+  offset: 2, 1
+  index: -1
+images/ko/gong_00000
+  rotate: true
+  xy: 199, 2
+  size: 48, 52
+  orig: 52, 52
+  offset: 1, 0
+  index: -1
+images/ko/kai_00000
+  rotate: false
+  xy: 240, 112
+  size: 48, 52
+  orig: 52, 52
+  offset: 1, 0
+  index: -1
+images/ko/neng_00000
+  rotate: false
+  xy: 785, 740
+  size: 52, 52
+  orig: 52, 52
+  offset: 0, 0
+  index: -1
+images/ko/xin_00000
+  rotate: false
+  xy: 973, 796
+  size: 49, 52
+  orig: 52, 52
+  offset: 0, 0
+  index: -1
+images/th/effect_heroGrow_ui12_th_1_0
+  rotate: false
+  xy: 2, 166
+  size: 334, 44
+  orig: 352, 56
+  offset: 3, 12
+  index: -1
+images/zh/dian_00000
+  rotate: false
+  xy: 839, 742
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-sheng_00000
+images/zh/ji_00000
   rotate: false
-  xy: 510, 379
+  xy: 891, 742
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+images/zh/sheng_00000
+  rotate: false
+  xy: 512, 226
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+images/zh/zhi_00000
+  rotate: false
+  xy: 564, 226
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+images/zn/dian_00000
+  rotate: false
+  xy: 619, 470
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+images/zn/ji_00000
+  rotate: false
+  xy: 619, 418
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+images/zn/sheng_00000
+  rotate: false
+  xy: 619, 366
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+images/zn/zhi_00000
+  rotate: false
+  xy: 671, 478
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 shenglidi
   rotate: true
-  xy: 660, 439
+  xy: 660, 530
   size: 492, 83
   orig: 494, 85
   offset: 1, 1
   index: -1
 tiao1_00000
   rotate: false
-  xy: 2, 121
+  xy: 2, 212
   size: 450, 308
   orig: 450, 320
   offset: 0, 12
   index: -1
 tiao_00000
-  rotate: false
-  xy: 2, 81
+  rotate: true
+  xy: 745, 722
   size: 300, 38
   orig: 300, 100
   offset: 0, 31
-  index: -1
-zhi_00000
-  rotate: false
-  xy: 745, 825
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
   index: -1

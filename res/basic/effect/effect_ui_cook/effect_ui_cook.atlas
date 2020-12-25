@@ -4,54 +4,54 @@ size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-01
-  rotate: false
-  xy: 472, 9
-  size: 226, 70
-  orig: 274, 70
-  offset: 20, 0
+de/effect_ui_cook_de_2_0
+  rotate: true
+  xy: 745, 691
+  size: 331, 81
+  orig: 337, 112
+  offset: 6, 11
   index: -1
-02
+effect/3
   rotate: false
-  xy: 2, 12
-  size: 274, 70
-  orig: 274, 70
+  xy: 989, 990
+  size: 28, 32
+  orig: 28, 32
   offset: 0, 0
   index: -1
-effect/Nice_69
+effect/Good_34
   rotate: false
-  xy: 660, 485
-  size: 83, 43
-  orig: 83, 43
+  xy: 767, 2
+  size: 99, 45
+  orig: 99, 45
   offset: 0, 0
   index: -1
 effect/Perfect_50
-  rotate: true
-  xy: 975, 217
+  rotate: false
+  xy: 868, 3
   size: 131, 44
   orig: 131, 44
   offset: 0, 0
   index: -1
-effect/baoxing1/baoxing1_000
-  rotate: true
-  xy: 872, 219
-  size: 129, 101
-  orig: 200, 200
-  offset: 42, 54
-  index: -1
 effect/baoxing1/baoxing1_001
-  rotate: false
-  xy: 745, 473
+  rotate: true
+  xy: 745, 528
   size: 161, 132
   orig: 200, 200
   offset: 23, 35
   index: -1
 effect/baoxing1/baoxing1_002
   rotate: false
-  xy: 691, 195
+  xy: 638, 61
   size: 179, 148
   orig: 200, 200
   offset: 14, 24
+  index: -1
+effect/baoxing1/baoxing1_003
+  rotate: false
+  xy: 819, 49
+  size: 189, 160
+  orig: 200, 200
+  offset: 8, 20
   index: -1
 effect/baoxing1/baoxing1_005
   rotate: false
@@ -60,33 +60,19 @@ effect/baoxing1/baoxing1_005
   orig: 200, 200
   offset: 2, 15
   index: -1
-effect/baoxing1/baoxing1_006
+effect/baoxing1/baoxing1_008
   rotate: false
-  xy: 745, 845
-  size: 192, 177
+  xy: 654, 346
+  size: 167, 174
   orig: 200, 200
-  offset: 3, 15
+  offset: 17, 19
   index: -1
-effect/baoxing2/baoxing2_002
+effect/baoxing3/baoxing3_004
   rotate: true
-  xy: 850, 25
-  size: 168, 172
-  orig: 200, 200
-  offset: 12, 17
-  index: -1
-effect/baoxing3/baoxing3_003
-  rotate: false
-  xy: 634, 87
-  size: 214, 106
+  xy: 879, 502
+  size: 225, 121
   orig: 250, 150
-  offset: 19, 21
-  index: -1
-effect/baoxing3/baoxing3_005
-  rotate: false
-  xy: 400, 81
-  size: 232, 128
-  orig: 250, 150
-  offset: 9, 12
+  offset: 13, 15
   index: -1
 effect/baoxing3/baoxing3_006
   rotate: false
@@ -96,39 +82,18 @@ effect/baoxing3/baoxing3_006
   offset: 8, 10
   index: -1
 effect/baoxing3/baoxing3_007
-  rotate: true
-  xy: 745, 607
+  rotate: false
+  xy: 400, 76
   size: 236, 133
   orig: 250, 150
   offset: 7, 10
   index: -1
 effect/baoxing3/baoxing3_008
-  rotate: true
-  xy: 880, 612
+  rotate: false
+  xy: 691, 211
   size: 231, 133
   orig: 250, 150
   offset: 11, 10
-  index: -1
-effect/baoxing3/baoxing3_009
-  rotate: false
-  xy: 654, 345
-  size: 213, 126
-  orig: 250, 150
-  offset: 21, 15
-  index: -1
-effect/guangci_000
-  rotate: false
-  xy: 869, 350
-  size: 111, 121
-  orig: 128, 128
-  offset: 9, 4
-  index: -1
-effect/guangquan3_000
-  rotate: false
-  xy: 908, 496
-  size: 114, 114
-  orig: 128, 128
-  offset: 7, 7
   index: -1
 effect/guangxian_000
   rotate: false
@@ -139,38 +104,66 @@ effect/guangxian_000
   index: -1
 effect/jindutiaotou/jindutiaotou_001
   rotate: true
-  xy: 982, 408
+  xy: 984, 296
   size: 53, 38
   orig: 60, 60
   offset: 7, 11
   index: -1
 effect/jindutiaotou/jindutiaotou_003
   rotate: true
-  xy: 982, 354
+  xy: 984, 242
   size: 52, 38
   orig: 60, 60
   offset: 6, 11
   index: -1
-effect/shandain/shandian_002
+effect/shandain/shandian_000
+  rotate: false
+  xy: 823, 351
+  size: 189, 65
+  orig: 200, 100
+  offset: 11, 15
+  index: -1
+effect/shandain/shandian_001
+  rotate: false
+  xy: 578, 2
+  size: 187, 57
+  orig: 200, 100
+  offset: 13, 22
+  index: -1
+effect/shandain/shandian_005
   rotate: true
-  xy: 939, 845
-  size: 177, 61
+  xy: 924, 213
+  size: 136, 58
   orig: 200, 100
-  offset: 14, 18
+  offset: 42, 19
   index: -1
-effect/shandain/shandian_003
+effect/shandain/shandian_009
   rotate: false
-  xy: 700, 25
-  size: 148, 60
+  xy: 823, 418
+  size: 192, 82
   orig: 200, 100
-  offset: 16, 18
+  offset: 8, 6
   index: -1
-effect/shandain/shandian_011
+en/02
   rotate: false
-  xy: 278, 2
-  size: 192, 77
-  orig: 200, 100
-  offset: 8, 9
+  xy: 302, 4
+  size: 274, 70
+  orig: 274, 70
+  offset: 0, 0
+  index: -1
+es/effect_ui_cook_es_1_0
+  rotate: true
+  xy: 913, 729
+  size: 293, 74
+  orig: 309, 112
+  offset: 0, 16
+  index: -1
+es/effect_ui_cook_es_2_0
+  rotate: true
+  xy: 828, 733
+  size: 289, 83
+  orig: 302, 112
+  offset: 13, 6
   index: -1
 final_00047_00000
   rotate: false
@@ -179,9 +172,16 @@ final_00047_00000
   orig: 664, 500
   offset: 8, 0
   index: -1
-huangse
+fr/effect_ui_cook_fr_1_0
   rotate: false
-  xy: 982, 463
+  xy: 2, 8
+  size: 298, 74
+  orig: 328, 112
+  offset: 13, 16
+  index: -1
+huangse
+  rotate: true
+  xy: 828, 691
   size: 40, 31
   orig: 42, 33
   offset: 1, 1
@@ -206,254 +206,366 @@ size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-cheng2
-  rotate: false
-  xy: 184, 170
-  size: 47, 49
-  orig: 60, 60
-  offset: 8, 5
+de/effect_ui_cook_de_1_0
+  rotate: true
+  xy: 132, 396
+  size: 249, 71
+  orig: 259, 112
+  offset: 0, 21
   index: -1
-effect/3
+effect/Nice_69
   rotate: false
-  xy: 184, 86
-  size: 28, 32
-  orig: 28, 32
+  xy: 939, 725
+  size: 83, 43
+  orig: 83, 43
   offset: 0, 0
   index: -1
-effect/Good_34
+effect/baoxing1/baoxing1_000
   rotate: false
-  xy: 180, 272
-  size: 99, 45
-  orig: 99, 45
-  offset: 0, 0
-  index: -1
-effect/baoxing1/baoxing1_003
-  rotate: false
-  xy: 389, 839
-  size: 189, 160
+  xy: 808, 738
+  size: 129, 101
   orig: 200, 200
-  offset: 8, 20
+  offset: 42, 54
   index: -1
 effect/baoxing1/baoxing1_004
-  rotate: false
-  xy: 2, 830
+  rotate: true
+  xy: 2, 647
   size: 196, 169
   orig: 200, 200
   offset: 4, 17
   index: -1
+effect/baoxing1/baoxing1_006
+  rotate: false
+  xy: 2, 845
+  size: 192, 177
+  orig: 200, 200
+  offset: 3, 15
+  index: -1
 effect/baoxing1/baoxing1_007
-  rotate: true
-  xy: 2, 269
+  rotate: false
+  xy: 196, 846
   size: 186, 176
   orig: 200, 200
   offset: 6, 17
   index: -1
-effect/baoxing1/baoxing1_008
-  rotate: true
-  xy: 364, 603
-  size: 167, 174
-  orig: 200, 200
-  offset: 17, 19
-  index: -1
 effect/baoxing2/baoxing2_000
   rotate: false
-  xy: 540, 571
+  xy: 209, 106
   size: 169, 167
   orig: 200, 200
   offset: 12, 12
   index: -1
+effect/baoxing2/baoxing2_002
+  rotate: false
+  xy: 209, 275
+  size: 168, 172
+  orig: 200, 200
+  offset: 12, 17
+  index: -1
 effect/baoxing2/baoxing2_004
   rotate: false
-  xy: 185, 652
+  xy: 327, 664
   size: 177, 176
   orig: 200, 200
   offset: 13, 17
   index: -1
 effect/baoxing2/baoxing2_006
   rotate: false
-  xy: 2, 86
+  xy: 757, 841
   size: 180, 181
   orig: 200, 200
   offset: 17, 14
   index: -1
 effect/baoxing2/baoxing2_008
-  rotate: false
-  xy: 2, 644
+  rotate: true
+  xy: 571, 841
   size: 181, 184
   orig: 200, 200
   offset: 18, 11
   index: -1
 effect/baoxing2/baoxing2_010
-  rotate: true
-  xy: 2, 457
+  rotate: false
+  xy: 384, 842
   size: 185, 180
   orig: 200, 200
   offset: 15, 10
   index: -1
 effect/baoxing2/baoxing2_012
-  rotate: false
-  xy: 200, 830
+  rotate: true
+  xy: 2, 9
   size: 187, 169
   orig: 200, 200
   offset: 12, 10
   index: -1
 effect/baoxing2/baoxing2_014
-  rotate: false
-  xy: 807, 830
+  rotate: true
+  xy: 205, 449
   size: 179, 169
   orig: 200, 200
   offset: 12, 11
   index: -1
 effect/baoxing3/baoxing3_001
-  rotate: false
-  xy: 367, 545
+  rotate: true
+  xy: 629, 320
   size: 150, 56
   orig: 250, 150
   offset: 50, 43
   index: -1
 effect/baoxing3/baoxing3_002
-  rotate: false
-  xy: 580, 740
+  rotate: true
+  xy: 376, 472
   size: 190, 78
   orig: 250, 150
   offset: 30, 34
   index: -1
-effect/baoxing3/baoxing3_004
-  rotate: false
-  xy: 580, 878
-  size: 225, 121
+effect/baoxing3/baoxing3_003
+  rotate: true
+  xy: 219, 630
+  size: 214, 106
   orig: 250, 150
-  offset: 13, 15
+  offset: 19, 21
+  index: -1
+effect/baoxing3/baoxing3_005
+  rotate: true
+  xy: 2, 413
+  size: 232, 128
+  orig: 250, 150
+  offset: 9, 12
+  index: -1
+effect/baoxing3/baoxing3_009
+  rotate: true
+  xy: 2, 198
+  size: 213, 126
+  orig: 250, 150
+  offset: 21, 15
   index: -1
 effect/glow_000
   rotate: false
-  xy: 318, 281
+  xy: 454, 251
   size: 96, 96
   orig: 100, 100
   offset: 2, 2
   index: -1
+effect/guangci_000
+  rotate: false
+  xy: 454, 349
+  size: 111, 121
+  orig: 128, 128
+  offset: 9, 4
+  index: -1
+effect/guangquan3_000
+  rotate: false
+  xy: 447, 135
+  size: 114, 114
+  orig: 128, 128
+  offset: 7, 7
+  index: -1
 effect/jindutiaotou/jindutiaotou_000
-  rotate: true
-  xy: 235, 222
+  rotate: false
+  xy: 277, 4
   size: 48, 42
   orig: 60, 60
   offset: 12, 9
   index: -1
 effect/jindutiaotou/jindutiaotou_002
   rotate: false
-  xy: 373, 505
+  xy: 173, 8
   size: 50, 38
   orig: 60, 60
   offset: 9, 11
   index: -1
 effect/jindutiaotou/jindutiaotou_004
   rotate: false
-  xy: 416, 284
+  xy: 225, 4
   size: 50, 42
   orig: 60, 60
   offset: 9, 9
   index: -1
 effect/jindutiaotou/jindutiaotou_005
   rotate: false
-  xy: 425, 505
+  xy: 749, 707
   size: 46, 38
   orig: 60, 60
   offset: 12, 11
   index: -1
 effect/jindutiaotou/jindutiaotou_006
   rotate: false
-  xy: 373, 465
+  xy: 447, 95
   size: 48, 38
   orig: 60, 60
   offset: 9, 10
   index: -1
-effect/shandain/shandian_000
+effect/shandain/shandian_002
   rotate: false
-  xy: 389, 772
-  size: 189, 65
+  xy: 456, 533
+  size: 177, 61
   orig: 200, 100
-  offset: 11, 15
+  offset: 14, 18
   index: -1
-effect/shandain/shandian_001
-  rotate: false
-  xy: 184, 465
-  size: 187, 57
+effect/shandain/shandian_003
+  rotate: true
+  xy: 567, 322
+  size: 148, 60
   orig: 200, 100
-  offset: 13, 22
+  offset: 16, 18
   index: -1
 effect/shandain/shandian_004
   rotate: false
-  xy: 185, 591
+  xy: 456, 472
   size: 177, 59
   orig: 200, 100
   offset: 13, 18
   index: -1
-effect/shandain/shandian_005
-  rotate: false
-  xy: 180, 319
-  size: 136, 58
-  orig: 200, 100
-  offset: 42, 19
-  index: -1
 effect/shandain/shandian_006
-  rotate: false
-  xy: 184, 524
+  rotate: true
+  xy: 380, 96
   size: 181, 65
   orig: 200, 100
   offset: 12, 19
   index: -1
 effect/shandain/shandian_007
-  rotate: true
-  xy: 711, 549
+  rotate: false
+  xy: 456, 596
   size: 189, 53
   orig: 200, 100
   offset: 5, 20
   index: -1
 effect/shandain/shandian_008
   rotate: false
-  xy: 580, 820
+  xy: 173, 48
   size: 197, 56
   orig: 200, 100
   offset: 3, 21
   index: -1
-effect/shandain/shandian_009
-  rotate: false
-  xy: 2, 2
-  size: 192, 82
-  orig: 200, 100
-  offset: 8, 6
-  index: -1
 effect/shandain/shandian_010
-  rotate: false
-  xy: 184, 419
+  rotate: true
+  xy: 173, 647
   size: 192, 44
   orig: 200, 100
   offset: 8, 28
   index: -1
+effect/shandain/shandian_011
+  rotate: true
+  xy: 130, 202
+  size: 192, 77
+  orig: 200, 100
+  offset: 8, 9
+  index: -1
+en/01
+  rotate: false
+  xy: 506, 651
+  size: 226, 70
+  orig: 274, 70
+  offset: 20, 0
+  index: -1
+fr/effect_ui_cook_fr_2_0
+  rotate: false
+  xy: 506, 723
+  size: 241, 76
+  orig: 283, 112
+  offset: 17, 16
+  index: -1
+id/effect_ui_cook_id_1_0
+  rotate: true
+  xy: 379, 279
+  size: 191, 73
+  orig: 226, 112
+  offset: 12, 16
+  index: -1
+ko/cheng2
+  rotate: false
+  xy: 612, 260
+  size: 59, 58
+  orig: 59, 58
+  offset: 0, 0
+  index: -1
+ko/wan
+  rotate: false
+  xy: 647, 588
+  size: 62, 61
+  orig: 62, 61
+  offset: 0, 0
+  index: -1
+ko/zhi
+  rotate: false
+  xy: 552, 258
+  size: 58, 62
+  orig: 58, 62
+  offset: 0, 0
+  index: -1
+ko/zuo1
+  rotate: false
+  xy: 635, 524
+  size: 62, 62
+  orig: 62, 62
+  offset: 0, 0
+  index: -1
+th/effect_ui_cook_th_1_0
+  rotate: true
+  xy: 939, 770
+  size: 252, 81
+  orig: 283, 112
+  offset: 12, 17
+  index: -1
 tiao_00000
   rotate: false
-  xy: 180, 379
+  xy: 506, 801
   size: 300, 38
   orig: 300, 100
   offset: 0, 31
   index: -1
-wan
+zh/cheng2
+  rotate: true
+  xy: 563, 201
+  size: 55, 52
+  orig: 60, 60
+  offset: 2, 3
+  index: -1
+zh/wan
   rotate: false
-  xy: 184, 120
+  xy: 749, 747
+  size: 56, 52
+  orig: 60, 60
+  offset: 4, 4
+  index: -1
+zh/zhi
+  rotate: false
+  xy: 617, 205
+  size: 51, 53
+  orig: 60, 60
+  offset: 5, 2
+  index: -1
+zh/zuo1
+  rotate: true
+  xy: 563, 145
+  size: 54, 52
+  orig: 60, 60
+  offset: 5, 4
+  index: -1
+zn/cheng2
+  rotate: true
+  xy: 372, 47
+  size: 47, 49
+  orig: 60, 60
+  offset: 8, 5
+  index: -1
+zn/wan
+  rotate: true
+  xy: 497, 86
   size: 47, 48
   orig: 60, 60
   offset: 8, 6
   index: -1
-zhi
-  rotate: false
-  xy: 416, 328
+zn/zhi
+  rotate: true
+  xy: 635, 472
   size: 50, 49
   orig: 60, 60
   offset: 7, 5
   index: -1
-zuo1
+zn/zuo1
   rotate: false
-  xy: 184, 221
+  xy: 617, 154
   size: 49, 49
   orig: 60, 60
   offset: 7, 5

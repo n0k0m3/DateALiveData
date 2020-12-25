@@ -4,156 +4,184 @@ size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-images/03
+images/de/de_07
   rotate: false
-  xy: 2, 465
+  xy: 2, 6
+  size: 131, 132
+  orig: 131, 152
+  offset: 0, 0
+  index: -1
+images/en/03
+  rotate: false
+  xy: 2, 463
   size: 137, 185
   orig: 137, 185
   offset: 0, 0
   index: -1
+images/es/ui_recharge_monthcard1_07
+  rotate: true
+  xy: 543, 889
+  size: 131, 132
+  orig: 131, 152
+  offset: 0, 0
+  index: -1
+images/fr/ui_recharge_monthcard1_03
+  rotate: false
+  xy: 2, 292
+  size: 137, 169
+  orig: 174, 200
+  offset: 5, 0
+  index: -1
 images/glow
   rotate: false
-  xy: 2, 838
+  xy: 2, 836
   size: 180, 184
   orig: 180, 184
   offset: 0, 0
   index: -1
 images/glow1
   rotate: false
-  xy: 2, 652
+  xy: 2, 650
   size: 180, 184
   orig: 180, 184
   offset: 0, 0
   index: -1
 images/glow2
   rotate: false
-  xy: 184, 848
+  xy: 184, 846
   size: 170, 174
   orig: 170, 174
   offset: 0, 0
   index: -1
+images/id/ui_recharge_monthcard1_07
+  rotate: true
+  xy: 677, 889
+  size: 131, 132
+  orig: 131, 152
+  offset: 0, 0
+  index: -1
+images/ko/yueka1
+  rotate: false
+  xy: 184, 659
+  size: 124, 185
+  orig: 124, 185
+  offset: 0, 0
+  index: -1
 images/lizi/lizi
   rotate: false
-  xy: 2, 13
+  xy: 480, 829
   size: 57, 65
   orig: 57, 65
   offset: 0, 0
   index: -1
 images/lizi/lizi1
   rotate: false
-  xy: 310, 816
+  xy: 310, 764
   size: 30, 30
   orig: 30, 30
   offset: 0, 0
   index: -1
 images/lizi1/lizi
   rotate: false
-  xy: 87, 117
+  xy: 141, 279
   size: 17, 19
   orig: 17, 19
   offset: 0, 0
   index: -1
 images/lizi2/lizi
-  rotate: false
-  xy: 61, 59
+  rotate: true
+  xy: 165, 301
   size: 17, 19
   orig: 17, 19
   offset: 0, 0
   index: -1
-images/nianka
-  rotate: false
-  xy: 184, 661
-  size: 124, 185
-  orig: 124, 185
-  offset: 0, 0
-  index: -1
 images/saoguang/saoguang_00000
   rotate: false
-  xy: 543, 933
+  xy: 310, 745
   size: 20, 17
   orig: 124, 150
   offset: 52, 8
   index: -1
 images/saoguang/saoguang_00001
   rotate: false
-  xy: 975, 986
+  xy: 141, 320
   size: 47, 36
   orig: 124, 150
   offset: 39, 8
   index: -1
 images/saoguang/saoguang_00002
   rotate: false
-  xy: 2, 80
+  xy: 937, 964
   size: 83, 56
   orig: 124, 150
   offset: 27, 11
   index: -1
 images/saoguang/saoguang_00003
-  rotate: false
-  xy: 2, 138
+  rotate: true
+  xy: 141, 540
   size: 108, 66
   orig: 124, 150
   offset: 14, 20
   index: -1
 images/saoguang/saoguang_00004
   rotate: false
-  xy: 2, 206
+  xy: 811, 878
   size: 122, 70
   orig: 124, 150
   offset: 2, 29
   index: -1
 images/saoguang/saoguang_00005
   rotate: false
-  xy: 543, 952
+  xy: 811, 950
   size: 124, 70
   orig: 124, 150
   offset: 0, 38
   index: -1
 images/saoguang/saoguang_00006
   rotate: false
-  xy: 669, 952
+  xy: 356, 824
   size: 122, 70
   orig: 124, 150
   offset: 0, 47
   index: -1
 images/saoguang/saoguang_00007
-  rotate: false
-  xy: 793, 957
+  rotate: true
+  xy: 141, 434
   size: 104, 65
   orig: 124, 150
   offset: 6, 62
   index: -1
 images/saoguang/saoguang_00008
-  rotate: false
-  xy: 899, 969
+  rotate: true
+  xy: 141, 358
   size: 74, 53
   orig: 124, 150
   offset: 24, 83
   index: -1
 images/saoguang/saoguang_00009
   rotate: true
-  xy: 141, 602
+  xy: 310, 796
   size: 48, 37
   orig: 124, 150
   offset: 37, 102
   index: -1
 images/saoguang/saoguang_00010
   rotate: false
-  xy: 356, 878
+  xy: 141, 300
   size: 22, 18
   orig: 124, 150
   offset: 50, 120
   index: -1
-images/yueka
-  rotate: true
-  xy: 356, 898
-  size: 124, 185
-  orig: 124, 185
-  offset: 0, 0
-  index: -1
-images/yueka1
+images/th/ui_recharge_monthcard1_03
   rotate: false
-  xy: 2, 278
+  xy: 2, 140
+  size: 137, 150
+  orig: 168, 187
+  offset: 20, 0
+  index: -1
+images/zn/yueka1
+  rotate: true
+  xy: 356, 896
   size: 124, 185
   orig: 124, 185
   offset: 0, 0

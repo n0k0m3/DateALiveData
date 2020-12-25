@@ -1,19 +1,131 @@
 
 chenghao_jnrq1.png
-size: 256,256
+size: 512,512
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
+images/de/de_01
+  rotate: false
+  xy: 160, 284
+  size: 123, 33
+  orig: 192, 52
+  offset: 37, 7
+  index: -1
+images/de/de_02
+  rotate: false
+  xy: 2, 455
+  size: 156, 55
+  orig: 192, 67
+  offset: 16, 12
+  index: -1
+images/en/chenghao_jnrq1_en_01
+  rotate: true
+  xy: 30, 143
+  size: 115, 46
+  orig: 192, 52
+  offset: 34, 0
+  index: -1
+images/en/chenghao_jnrq1_en_02
+  rotate: false
+  xy: 160, 399
+  size: 156, 54
+  orig: 192, 67
+  offset: 8, 13
+  index: -1
+images/es/es_01
+  rotate: false
+  xy: 160, 319
+  size: 130, 33
+  orig: 192, 52
+  offset: 38, 7
+  index: -1
+images/es/es_02
+  rotate: false
+  xy: 2, 398
+  size: 156, 55
+  orig: 192, 67
+  offset: 15, 7
+  index: -1
+images/fr/fr_01
+  rotate: false
+  xy: 2, 260
+  size: 131, 33
+  orig: 192, 52
+  offset: 32, 8
+  index: -1
+images/fr/fr_02
+  rotate: false
+  xy: 160, 455
+  size: 156, 55
+  orig: 192, 67
+  offset: 15, 8
+  index: -1
+images/id/id_01
+  rotate: true
+  xy: 78, 143
+  size: 115, 46
+  orig: 192, 52
+  offset: 34, 0
+  index: -1
+images/id/id_02
+  rotate: false
+  xy: 318, 456
+  size: 156, 54
+  orig: 192, 67
+  offset: 8, 13
+  index: -1
 images/qishi_000
   rotate: false
-  xy: 2, 106
+  xy: 318, 410
+  size: 156, 44
+  orig: 156, 44
+  offset: 0, 0
+  index: -1
+images/qishiglow_000
+  rotate: true
+  xy: 476, 381
+  size: 129, 34
+  orig: 180, 50
+  offset: 25, 5
+  index: -1
+images/th/th_01
+  rotate: true
+  xy: 2, 121
+  size: 137, 26
+  orig: 192, 52
+  offset: 43, 14
+  index: -1
+images/th/th_02
+  rotate: false
+  xy: 2, 341
+  size: 156, 55
+  orig: 192, 67
+  offset: 15, 7
+  index: -1
+images/zh/zhqishi_000
+  rotate: false
+  xy: 2, 295
+  size: 156, 44
+  orig: 156, 44
+  offset: 0, 0
+  index: -1
+images/zh/zhqishiglow_000
+  rotate: true
+  xy: 126, 140
+  size: 118, 34
+  orig: 180, 50
+  offset: 31, 5
+  index: -1
+images/zn/znqishi_000
+  rotate: false
+  xy: 160, 354
   size: 147, 43
   orig: 180, 50
   offset: 17, 6
   index: -1
-images/qishiglow_000
+images/zn/znqishiglow_000
   rotate: false
-  xy: 2, 65
+  xy: 318, 369
   size: 119, 39
   orig: 180, 50
   offset: 31, 4

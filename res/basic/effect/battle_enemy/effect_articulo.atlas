@@ -1,0 +1,13 @@
+
+effect_articulo.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/biankuang_000001
+  rotate: false
+  xy: 2, 269
+  size: 500, 233
+  orig: 514, 240
+  offset: 8, 4
+  index: -1

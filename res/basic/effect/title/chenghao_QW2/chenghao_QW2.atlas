@@ -1,83 +1,230 @@
 
 chenghao_QW2.png
-size: 256,256
+size: 512,512
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
+de/de_01
+  rotate: false
+  xy: 329, 457
+  size: 129, 32
+  orig: 210, 68
+  offset: 33, 15
+  index: -1
+de/de_02
+  rotate: false
+  xy: 145, 235
+  size: 112, 5
+  orig: 210, 41
+  offset: 43, 16
+  index: -1
+de/de_03
+  rotate: true
+  xy: 129, 30
+  size: 120, 19
+  orig: 210, 64
+  offset: 39, 25
+  index: -1
+es/es_01
+  rotate: true
+  xy: 78, 33
+  size: 123, 19
+  orig: 210, 68
+  offset: 35, 20
+  index: -1
+es/es_02
+  rotate: false
+  xy: 314, 443
+  size: 115, 5
+  orig: 210, 41
+  offset: 39, 16
+  index: -1
+es/es_03
+  rotate: true
+  xy: 2, 10
+  size: 134, 33
+  orig: 210, 64
+  offset: 30, 13
+  index: -1
+fr/fr_01
+  rotate: true
+  xy: 37, 18
+  size: 137, 21
+  orig: 210, 68
+  offset: 30, 23
+  index: -1
+fr/fr_02
+  rotate: false
+  xy: 314, 450
+  size: 126, 5
+  orig: 210, 41
+  offset: 34, 17
+  index: -1
+fr/fr_03
+  rotate: false
+  xy: 178, 457
+  size: 149, 32
+  orig: 210, 64
+  offset: 24, 23
+  index: -1
 gaoguang2
   rotate: false
-  xy: 2, 2
+  xy: 135, 260
   size: 91, 37
   orig: 91, 37
   offset: 0, 0
   index: -1
 guang2
   rotate: false
-  xy: 2, 217
+  xy: 2, 452
   size: 174, 37
   orig: 174, 37
   offset: 0, 0
   index: -1
 huaban2
   rotate: false
-  xy: 2, 133
+  xy: 2, 368
   size: 139, 44
   orig: 139, 44
   offset: 0, 0
   index: -1
 huabangaoguang2
-  rotate: false
-  xy: 2, 59
+  rotate: true
+  xy: 75, 158
   size: 124, 30
   orig: 124, 30
   offset: 0, 0
   index: -1
+id/id_01
+  rotate: false
+  xy: 161, 414
+  size: 120, 6
+  orig: 210, 68
+  offset: 41, 11
+  index: -1
+id/id_02
+  rotate: true
+  xy: 107, 152
+  size: 130, 26
+  orig: 210, 41
+  offset: 30, 0
+  index: -1
+id/id_03
+  rotate: true
+  xy: 2, 146
+  size: 136, 33
+  orig: 210, 64
+  offset: 27, 31
+  index: -1
+ko/kowenzi2
+  rotate: false
+  xy: 136, 321
+  size: 112, 18
+  orig: 112, 18
+  offset: 0, 0
+  index: -1
+ko/kowenzifaguang2
+  rotate: true
+  xy: 99, 29
+  size: 121, 28
+  orig: 121, 28
+  offset: 0, 0
+  index: -1
+ko/kowenzigaoguang2
+  rotate: false
+  xy: 136, 341
+  size: 112, 19
+  orig: 112, 19
+  offset: 0, 0
+  index: -1
 lizi2
   rotate: false
-  xy: 178, 248
+  xy: 2, 2
   size: 6, 6
   orig: 6, 6
   offset: 0, 0
   index: -1
+th/th_01
+  rotate: true
+  xy: 37, 157
+  size: 125, 36
+  orig: 210, 68
+  offset: 36, 15
+  index: -1
+th/th_02
+  rotate: true
+  xy: 135, 153
+  size: 105, 8
+  orig: 210, 41
+  offset: 46, 21
+  index: -1
+th/th_03
+  rotate: false
+  xy: 143, 387
+  size: 113, 25
+  orig: 210, 64
+  offset: 42, 24
+  index: -1
 wenzi2
   rotate: false
-  xy: 95, 16
+  xy: 143, 362
   size: 113, 23
   orig: 113, 23
   offset: 0, 0
   index: -1
 wenzi2_2
-  rotate: false
-  xy: 2, 41
+  rotate: true
+  xy: 60, 17
   size: 138, 16
   orig: 166, 38
   offset: 16, 9
   index: -1
 wenzifaguang2
   rotate: false
-  xy: 2, 91
+  xy: 2, 326
   size: 132, 40
   orig: 132, 40
   offset: 0, 0
   index: -1
 wenzifaguang2_2
   rotate: false
-  xy: 2, 179
+  xy: 2, 414
   size: 157, 36
   orig: 166, 38
   offset: 7, 0
   index: -1
 wenzigaoguang2
-  rotate: true
-  xy: 143, 66
+  rotate: false
+  xy: 145, 242
   size: 111, 16
   orig: 111, 16
   offset: 0, 0
   index: -1
 wenzigaoguang2_2
   rotate: false
-  xy: 95, 7
+  xy: 178, 448
   size: 134, 7
   orig: 166, 38
   offset: 18, 16
+  index: -1
+zh/zhwenzi2
+  rotate: false
+  xy: 161, 422
+  size: 115, 24
+  orig: 115, 24
+  offset: 0, 0
+  index: -1
+zh/zhwenzifaguang2
+  rotate: false
+  xy: 2, 284
+  size: 131, 40
+  orig: 131, 40
+  offset: 0, 0
+  index: -1
+zh/zhwenzigaoguang2
+  rotate: false
+  xy: 135, 299
+  size: 111, 20
+  orig: 111, 20
+  offset: 0, 0
   index: -1

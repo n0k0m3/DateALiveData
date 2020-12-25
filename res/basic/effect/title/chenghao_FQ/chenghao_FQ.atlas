@@ -1,222 +1,306 @@
 
 chenghao_FQ.png
-size: 256,256
+size: 512,512
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
+imange/de/de_01
+  rotate: false
+  xy: 132, 476
+  size: 99, 32
+  orig: 186, 45
+  offset: 41, 0
+  index: -1
+imange/de/de_02
+  rotate: true
+  xy: 2, 302
+  size: 99, 21
+  orig: 186, 40
+  offset: 41, 19
+  index: -1
+imange/es/es_01
+  rotate: false
+  xy: 407, 444
+  size: 69, 36
+  orig: 186, 45
+  offset: 57, 0
+  index: -1
+imange/es/es_02
+  rotate: true
+  xy: 25, 155
+  size: 69, 28
+  orig: 186, 40
+  offset: 57, 12
+  index: -1
+imange/fr/fr_01
+  rotate: false
+  xy: 233, 480
+  size: 98, 28
+  orig: 186, 45
+  offset: 45, 0
+  index: -1
+imange/fr/fr_02
+  rotate: true
+  xy: 2, 202
+  size: 98, 18
+  orig: 186, 40
+  offset: 45, 22
+  index: -1
+imange/id/id_01
+  rotate: false
+  xy: 2, 403
+  size: 91, 36
+  orig: 186, 45
+  offset: 46, 0
+  index: -1
+imange/id/id_02
+  rotate: false
+  xy: 333, 482
+  size: 91, 26
+  orig: 186, 40
+  offset: 46, 14
+  index: -1
+imange/ko/ko_01
+  rotate: true
+  xy: 478, 436
+  size: 44, 28
+  orig: 186, 40
+  offset: 71, 9
+  index: -1
+imange/ko/ko_02
+  rotate: false
+  xy: 25, 126
+  size: 42, 27
+  orig: 186, 45
+  offset: 73, 7
+  index: -1
 imange/shandian
   rotate: false
-  xy: 2, 187
+  xy: 2, 441
   size: 105, 29
   orig: 128, 36
   offset: 7, 4
   index: -1
 imange/shandian/shandian_00001
   rotate: false
-  xy: 61, 97
+  xy: 117, 465
   size: 5, 5
   orig: 151, 50
   offset: 32, 29
   index: -1
 imange/shandian/shandian_00002
-  rotate: false
-  xy: 173, 160
+  rotate: true
+  xy: 172, 432
   size: 5, 7
   orig: 151, 50
   offset: 32, 27
   index: -1
 imange/shandian/shandian_00003
-  rotate: true
-  xy: 50, 14
+  rotate: false
+  xy: 233, 463
   size: 74, 15
   orig: 151, 50
   offset: 32, 25
   index: -1
 imange/shandian/shandian_00004
   rotate: true
-  xy: 27, 14
+  xy: 2, 126
   size: 74, 21
   orig: 151, 50
   offset: 32, 19
   index: -1
 imange/shandian/shandian_00005
   rotate: true
-  xy: 2, 14
+  xy: 2, 50
   size: 74, 23
   orig: 151, 50
   offset: 32, 17
   index: -1
 imange/shandian/shandian_00006
-  rotate: false
-  xy: 2, 133
+  rotate: true
+  xy: 22, 226
   size: 74, 24
   orig: 151, 50
   offset: 32, 16
   index: -1
 imange/shandian/shandian_00007
   rotate: false
-  xy: 108, 161
+  xy: 97, 340
   size: 63, 24
   orig: 151, 50
   offset: 43, 16
   index: -1
 imange/shandian/shandian_00008
   rotate: false
-  xy: 2, 159
+  xy: 426, 482
   size: 74, 26
   orig: 151, 50
   offset: 32, 14
   index: -1
 imange/shandian/shandian_00009
-  rotate: false
-  xy: 108, 121
+  rotate: true
+  xy: 53, 73
   size: 51, 21
   orig: 151, 50
   offset: 43, 18
   index: -1
 imange/shandian/shandian_00010
-  rotate: true
-  xy: 78, 122
+  rotate: false
+  xy: 95, 409
   size: 63, 28
   orig: 151, 50
   offset: 43, 11
   index: -1
 imange/shandian/shandian_00011
-  rotate: false
-  xy: 181, 182
+  rotate: true
+  xy: 27, 73
   size: 51, 24
   orig: 151, 50
   offset: 43, 14
   index: -1
 imange/shandian/shandian_00012
-  rotate: false
-  xy: 161, 125
+  rotate: true
+  xy: 309, 473
   size: 5, 17
   orig: 151, 50
   offset: 89, 16
   index: -1
 imange/shandian/shandian_00013
-  rotate: false
-  xy: 61, 104
+  rotate: true
+  xy: 25, 311
   size: 7, 27
   orig: 151, 50
   offset: 43, 11
   index: -1
 imange/shandian/shandian_00014
   rotate: true
-  xy: 109, 211
+  xy: 209, 469
   size: 5, 18
   orig: 151, 50
   offset: 89, 14
   index: -1
 imange/shandian/shandian_00016
   rotate: false
-  xy: 70, 115
+  xy: 502, 492
   size: 6, 16
   orig: 151, 50
   offset: 32, 14
   index: -1
 imange/shandian/shandian_00018
-  rotate: true
-  xy: 2, 2
+  rotate: false
+  xy: 160, 414
   size: 10, 23
   orig: 151, 50
   offset: 97, 11
   index: -1
 imange/shandian/shandian_00021
-  rotate: false
-  xy: 234, 183
+  rotate: true
+  xy: 181, 438
   size: 20, 23
   orig: 151, 50
   offset: 31, 11
   index: -1
 imange/shandian/shandian_00022
-  rotate: false
-  xy: 245, 238
+  rotate: true
+  xy: 57, 321
   size: 6, 16
   orig: 151, 50
   offset: 88, 14
   index: -1
 imange/shandian/shandian_00023
   rotate: false
-  xy: 132, 208
+  xy: 132, 460
   size: 75, 14
   orig: 151, 50
   offset: 32, 11
   index: -1
 imange/shandian/shandian_00024
   rotate: false
-  xy: 225, 173
+  xy: 27, 51
   size: 5, 7
   orig: 151, 50
   offset: 32, 14
   index: -1
 imange/shandian/shandian_00025
-  rotate: false
-  xy: 27, 2
+  rotate: true
+  xy: 25, 302
   size: 7, 10
   orig: 151, 50
   offset: 99, 11
   index: -1
 imange/shandian/shandian_00026
   rotate: false
-  xy: 108, 144
+  xy: 97, 323
   size: 63, 15
   orig: 151, 50
   offset: 43, 10
   index: -1
 imange/shandian/shandian_00027
   rotate: false
-  xy: 45, 2
+  xy: 109, 460
   size: 6, 10
   orig: 151, 50
   offset: 89, 14
   index: -1
 imange/shandian/shandian_00028
-  rotate: false
-  xy: 36, 2
+  rotate: true
+  xy: 37, 302
   size: 7, 10
   orig: 151, 50
   offset: 44, 11
   index: -1
 imange/shandian/shandian_00029
   rotate: false
-  xy: 173, 169
+  xy: 27, 60
   size: 50, 11
   orig: 151, 50
   offset: 44, 10
   index: -1
+imange/th/th_01
+  rotate: true
+  xy: 57, 329
+  size: 72, 38
+  orig: 186, 45
+  offset: 55, 0
+  index: -1
+imange/th/th_02
+  rotate: false
+  xy: 333, 451
+  size: 72, 29
+  orig: 186, 40
+  offset: 54, 11
+  index: -1
 imange/yun
   rotate: false
-  xy: 2, 218
+  xy: 2, 472
   size: 128, 36
   orig: 128, 36
   offset: 0, 0
   index: -1
 imange/zi
   rotate: true
-  xy: 215, 208
+  xy: 2, 2
   size: 46, 28
   orig: 128, 36
   offset: 35, 6
   index: -1
 imange/zi2
-  rotate: false
-  xy: 132, 224
+  rotate: true
+  xy: 25, 320
   size: 81, 30
   orig: 136, 36
   offset: 25, 2
   index: -1
 imange/ziguang2
   rotate: false
-  xy: 109, 187
+  xy: 109, 439
   size: 70, 19
   orig: 70, 19
   offset: 0, 0
   index: -1
 imange/ziguang_00000
   rotate: false
-  xy: 2, 90
+  xy: 97, 366
   size: 57, 41
   orig: 151, 50
   offset: 42, 7

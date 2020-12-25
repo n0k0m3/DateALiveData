@@ -1,34 +1,132 @@
 
 chenghao_chujijiaoguan.png
-size: 256,256
+size: 512,512
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
+de/de_01
+  rotate: true
+  xy: 35, 164
+  size: 106, 31
+  orig: 136, 40
+  offset: 17, 0
+  index: -1
+de/de_02
+  rotate: true
+  xy: 68, 62
+  size: 96, 14
+  orig: 136, 28
+  offset: 22, 8
+  index: -1
 di
   rotate: true
-  xy: 2, 90
-  size: 120, 28
-  orig: 120, 28
+  xy: 2, 277
+  size: 160, 37
+  orig: 160, 37
   offset: 0, 0
+  index: -1
+en/chenghao_chujijiaoguan_en_01
+  rotate: true
+  xy: 115, 276
+  size: 111, 31
+  orig: 136, 43
+  offset: 13, 3
+  index: -1
+en/chenghao_chujijiaoguan_en_02
+  rotate: false
+  xy: 293, 464
+  size: 122, 31
+  orig: 136, 34
+  offset: 8, 3
+  index: -1
+es/es_01
+  rotate: true
+  xy: 2, 25
+  size: 120, 31
+  orig: 136, 40
+  offset: 12, 0
+  index: -1
+es/es_02
+  rotate: true
+  xy: 68, 160
+  size: 110, 15
+  orig: 136, 28
+  offset: 17, 7
+  index: -1
+fr/fr_01
+  rotate: true
+  xy: 2, 147
+  size: 128, 31
+  orig: 136, 40
+  offset: 8, 0
+  index: -1
+fr/fr_02
+  rotate: false
+  xy: 154, 440
+  size: 118, 15
+  orig: 136, 28
+  offset: 13, 7
   index: -1
 guang
   rotate: false
-  xy: 2, 212
-  size: 113, 42
-  orig: 113, 42
+  xy: 2, 439
+  size: 150, 56
+  orig: 150, 56
   offset: 0, 0
+  index: -1
+id/id_01
+  rotate: true
+  xy: 35, 58
+  size: 104, 31
+  orig: 136, 40
+  offset: 19, 0
+  index: -1
+id/id_02
+  rotate: false
+  xy: 417, 482
+  size: 78, 13
+  orig: 136, 28
+  offset: 31, 12
+  index: -1
+ko/ko_01
+  rotate: false
+  xy: 41, 389
+  size: 106, 48
+  orig: 185, 57
+  offset: 40, 6
+  index: -1
+ko/ko_02
+  rotate: true
+  xy: 80, 274
+  size: 113, 33
+  orig: 200, 63
+  offset: 45, 16
   index: -1
 lizi
   rotate: false
-  xy: 117, 225
-  size: 103, 29
-  orig: 103, 29
+  xy: 154, 457
+  size: 137, 38
+  orig: 137, 38
   offset: 0, 0
+  index: -1
+th/th_01
+  rotate: true
+  xy: 85, 168
+  size: 104, 31
+  orig: 136, 40
+  offset: 19, 0
+  index: -1
+th/th_02
+  rotate: false
+  xy: 417, 463
+  size: 69, 17
+  orig: 136, 39
+  offset: 33, 16
   index: -1
 zi
   rotate: true
-  xy: 2, 2
-  size: 86, 28
-  orig: 86, 28
+  xy: 41, 272
+  size: 115, 37
+  orig: 115, 37
   offset: 0, 0
   index: -1

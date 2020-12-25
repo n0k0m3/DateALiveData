@@ -4,129 +4,213 @@ size: 512,512
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-images/shibai/bai_019
+images/shibai/de/effects_feiji_shibai_de
   rotate: false
-  xy: 329, 373
-  size: 66, 62
-  orig: 105, 99
-  offset: 14, 20
+  xy: 2, 337
+  size: 290, 68
+  orig: 297, 84
+  offset: 2, 8
   index: -1
 images/shibai/di1_000
   rotate: false
-  xy: 2, 443
+  xy: 2, 452
   size: 337, 58
   orig: 358, 76
   offset: 11, 9
   index: -1
 images/shibai/di_000
   rotate: false
-  xy: 2, 398
+  xy: 2, 407
   size: 325, 43
   orig: 325, 62
   offset: 0, 7
   index: -1
-images/shibai/dou_019
+images/shibai/en/shi_019
   rotate: true
-  xy: 317, 311
-  size: 60, 62
-  orig: 88, 99
-  offset: 13, 21
+  xy: 78, 60
+  size: 178, 57
+  orig: 178, 57
+  offset: 0, 0
+  index: -1
+images/shibai/es/effects_feiji_shibai_es
+  rotate: true
+  xy: 137, 60
+  size: 178, 57
+  orig: 222, 84
+  offset: 14, 20
+  index: -1
+images/shibai/fr/effects_feiji_shibai_fr
+  rotate: false
+  xy: 2, 240
+  size: 194, 59
+  orig: 222, 84
+  offset: 14, 20
+  index: -1
+images/shibai/id/effects_feiji_shibai_id
+  rotate: false
+  xy: 78, 2
+  size: 159, 56
+  orig: 297, 84
+  offset: 52, 20
+  index: -1
+images/shibai/ko/bai_034
+  rotate: true
+  xy: 378, 256
+  size: 103, 62
+  orig: 119, 118
+  offset: 6, 27
+  index: -1
+images/shibai/ko/shi_034
+  rotate: false
+  xy: 357, 361
+  size: 107, 62
+  orig: 108, 118
+  offset: 1, 27
   index: -1
 images/shibai/pian_010
-  rotate: false
-  xy: 6, 322
+  rotate: true
+  xy: 2, 27
   size: 211, 42
   orig: 228, 61
   offset: 7, 9
   index: -1
-images/shibai/shi_019
+images/shibai/th/effects_feiji_shibai_th
   rotate: false
-  xy: 397, 373
-  size: 64, 62
-  orig: 80, 99
-  offset: 6, 20
+  xy: 341, 458
+  size: 139, 52
+  orig: 222, 84
+  offset: 29, 20
   index: -1
 images/shibai/xian_010
-  rotate: true
-  xy: 2, 58
+  rotate: false
+  xy: 2, 333
   size: 338, 2
   orig: 358, 20
   offset: 10, 8
   index: -1
 images/shibai/yingwen/yingwen_006
   rotate: true
-  xy: 71, 133
+  xy: 262, 144
   size: 187, 15
   orig: 285, 45
   offset: 74, 20
   index: -1
 images/shibai/yingwen/yingwen_007
   rotate: false
-  xy: 6, 366
+  xy: 2, 301
   size: 238, 30
   orig: 285, 45
   offset: 47, 6
   index: -1
 images/shibai/yingwen/yingwen_008
   rotate: true
-  xy: 6, 97
+  xy: 46, 15
   size: 223, 30
   orig: 285, 45
   offset: 34, 6
   index: -1
 images/shibai/yingwen/yingwen_009
   rotate: true
-  xy: 38, 125
+  xy: 229, 104
   size: 195, 31
   orig: 285, 45
   offset: 34, 5
   index: -1
 images/shibai/yingwen/yingwen_010
   rotate: true
-  xy: 121, 182
+  xy: 312, 193
   size: 138, 31
   orig: 285, 45
   offset: 62, 5
   index: -1
 images/shibai/yingwen/yingwen_011
-  rotate: false
-  xy: 341, 470
+  rotate: true
+  xy: 196, 78
   size: 160, 31
   orig: 285, 45
   offset: 63, 5
   index: -1
 images/shibai/yingwen/yingwen_012
   rotate: true
-  xy: 88, 173
+  xy: 279, 184
   size: 147, 31
   orig: 285, 45
   offset: 70, 5
   index: -1
 images/shibai/yingwen/yingwen_013
   rotate: true
-  xy: 154, 183
+  xy: 345, 198
   size: 137, 31
   orig: 285, 45
   offset: 74, 5
   index: -1
 images/shibai/yingwen/yingwen_014
-  rotate: true
-  xy: 187, 187
+  rotate: false
+  xy: 341, 425
   size: 133, 31
   orig: 285, 45
   offset: 72, 5
   index: -1
 images/shibai/yingwen/yingwen_015
   rotate: false
-  xy: 341, 437
+  xy: 378, 223
   size: 132, 31
   orig: 285, 45
   offset: 66, 5
   index: -1
-images/shibai/zhan_019
+images/shibai/zh/bai_019
   rotate: false
-  xy: 246, 334
+  xy: 239, 41
+  size: 61, 61
+  orig: 83, 85
+  offset: 11, 12
+  index: -1
+images/shibai/zh/dou_019
+  rotate: true
+  xy: 294, 337
+  size: 68, 61
+  orig: 83, 85
+  offset: 5, 10
+  index: -1
+images/shibai/zh/shi_019
+  rotate: true
+  xy: 449, 155
+  size: 66, 61
+  orig: 83, 85
+  offset: 7, 11
+  index: -1
+images/shibai/zh/zhan_019
+  rotate: false
+  xy: 378, 95
+  size: 63, 62
+  orig: 99, 82
+  offset: 18, 10
+  index: -1
+images/shibai/zn/bai_30
+  rotate: true
+  xy: 442, 293
+  size: 66, 62
+  orig: 104, 97
+  offset: 15, 20
+  index: -1
+images/shibai/zn/dou_30
+  rotate: true
+  xy: 443, 93
+  size: 60, 62
+  orig: 94, 97
+  offset: 13, 20
+  index: -1
+images/shibai/zn/shi_30
+  rotate: false
+  xy: 312, 129
+  size: 64, 62
+  orig: 93, 97
+  offset: 12, 20
+  index: -1
+images/shibai/zn/zhan_30
+  rotate: false
+  xy: 378, 159
   size: 69, 62
-  orig: 97, 105
-  offset: 19, 27
+  orig: 112, 97
+  offset: 19, 20
   index: -1

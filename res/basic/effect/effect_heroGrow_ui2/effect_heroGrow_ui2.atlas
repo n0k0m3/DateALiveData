@@ -4,79 +4,191 @@ size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-01
+de/effect_heroGrow_ui19_de_1
   rotate: false
-  xy: 454, 442
+  xy: 2, 67
+  size: 132, 46
+  orig: 132, 46
+  offset: 0, 0
+  index: -1
+de/effect_heroGrow_ui19_de_2
+  rotate: false
+  xy: 2, 115
+  size: 209, 55
+  orig: 209, 55
+  offset: 0, 0
+  index: -1
+en/01
+  rotate: false
+  xy: 304, 175
   size: 130, 35
   orig: 146, 56
   offset: 7, 13
   index: -1
-02
-  rotate: false
-  xy: 745, 940
+en/02
+  rotate: true
+  xy: 605, 396
   size: 124, 39
   orig: 138, 56
   offset: 8, 13
   index: -1
-cheng1
-  rotate: false
-  xy: 745, 876
-  size: 51, 62
-  orig: 53, 64
-  offset: 1, 1
+es/effect_heroGrow_ui19_es_1_0
+  rotate: true
+  xy: 557, 390
+  size: 130, 46
+  orig: 130, 46
+  offset: 0, 0
+  index: -1
+es/effect_heroGrow_ui19_es_2_0
+  rotate: true
+  xy: 454, 289
+  size: 231, 56
+  orig: 231, 56
+  offset: 0, 0
   index: -1
 final_00047_00000
   rotate: false
-  xy: 2, 479
+  xy: 2, 522
   size: 656, 500
   orig: 664, 500
   offset: 8, 0
   index: -1
-gong
+fr/effect_heroGrow_ui19_fr_1_0
+  rotate: true
+  xy: 512, 364
+  size: 156, 43
+  orig: 156, 43
+  offset: 0, 0
+  index: -1
+fr/effect_heroGrow_ui19_fr_2_0
   rotate: false
-  xy: 2, 2
-  size: 53, 59
-  orig: 55, 61
-  offset: 1, 1
+  xy: 745, 969
+  size: 219, 53
+  orig: 219, 53
+  offset: 0, 0
   index: -1
 huangse
   rotate: false
-  xy: 304, 136
+  xy: 512, 331
   size: 40, 31
   orig: 42, 33
   offset: 1, 1
   index: -1
-po
+id/effect_heroGrow_ui19_id_1_0
   rotate: false
-  xy: 454, 376
-  size: 50, 64
-  orig: 52, 66
-  offset: 1, 1
+  xy: 2, 18
+  size: 119, 47
+  orig: 129, 56
+  offset: 2, 9
+  index: -1
+id/effect_heroGrow_ui19_id_2_0
+  rotate: false
+  xy: 745, 876
+  size: 130, 46
+  orig: 142, 56
+  offset: 6, 9
+  index: -1
+ko/jue_00000
+  rotate: false
+  xy: 806, 813
+  size: 58, 61
+  orig: 58, 61
+  offset: 0, 0
+  index: -1
+ko/shi_00000
+  rotate: false
+  xy: 745, 813
+  size: 59, 61
+  orig: 59, 61
+  offset: 0, 0
+  index: -1
+ko/tian_00000
+  rotate: false
+  xy: 745, 749
+  size: 58, 62
+  orig: 58, 62
+  offset: 0, 0
   index: -1
 shenglidi
   rotate: true
-  xy: 660, 487
+  xy: 660, 530
   size: 492, 83
   orig: 494, 85
   offset: 1, 1
   index: -1
+th/effect_heroGrow_ui19_th_1_0
+  rotate: false
+  xy: 745, 924
+  size: 150, 43
+  orig: 161, 56
+  offset: 3, 11
+  index: -1
 tiao1_00000
   rotate: false
-  xy: 2, 169
+  xy: 2, 212
   size: 450, 308
   orig: 450, 320
   offset: 0, 12
   index: -1
 tiao_00000
   rotate: false
-  xy: 2, 129
+  xy: 2, 172
   size: 300, 38
   orig: 300, 100
   offset: 0, 31
   index: -1
-tu
+zh/cheng1
   rotate: false
-  xy: 2, 63
+  xy: 745, 630
+  size: 53, 58
+  orig: 53, 64
+  offset: 0, 4
+  index: -1
+zh/gong
+  rotate: false
+  xy: 745, 690
+  size: 55, 57
+  orig: 55, 61
+  offset: 0, 0
+  index: -1
+zh/po
+  rotate: true
+  xy: 136, 61
+  size: 52, 56
+  orig: 52, 66
+  offset: 0, 6
+  index: -1
+zh/tu
+  rotate: false
+  xy: 745, 572
+  size: 54, 56
+  orig: 58, 66
+  offset: 4, 5
+  index: -1
+zn/cheng1
+  rotate: true
+  xy: 213, 119
+  size: 51, 62
+  orig: 53, 64
+  offset: 1, 1
+  index: -1
+zn/gong
+  rotate: false
+  xy: 805, 752
+  size: 53, 59
+  orig: 55, 61
+  offset: 1, 1
+  index: -1
+zn/po
+  rotate: false
+  xy: 454, 223
+  size: 50, 64
+  orig: 52, 66
+  offset: 1, 1
+  index: -1
+zn/tu
+  rotate: false
+  xy: 966, 958
   size: 56, 64
   orig: 58, 66
   offset: 1, 1

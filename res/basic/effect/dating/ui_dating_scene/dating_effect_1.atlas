@@ -1,0 +1,111 @@
+
+dating_effect_1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+changshizhenyan/zhenyan_000
+  rotate: false
+  xy: 2, 862
+  size: 347, 160
+  orig: 347, 160
+  offset: 0, 0
+  index: -1
+changshizhenyan/zhenyan_004
+  rotate: false
+  xy: 2, 700
+  size: 347, 160
+  orig: 347, 160
+  offset: 0, 0
+  index: -1
+changshizhenyan/zhenyan_005
+  rotate: false
+  xy: 351, 862
+  size: 347, 160
+  orig: 347, 160
+  offset: 0, 0
+  index: -1
+changshizhenyan/zhenyan_006
+  rotate: false
+  xy: 2, 538
+  size: 347, 160
+  orig: 347, 160
+  offset: 0, 0
+  index: -1
+changshizhenyan/zhenyan_007
+  rotate: false
+  xy: 351, 700
+  size: 347, 160
+  orig: 347, 160
+  offset: 0, 0
+  index: -1
+changshizhenyan/zhenyan_008
+  rotate: false
+  xy: 2, 376
+  size: 347, 160
+  orig: 347, 160
+  offset: 0, 0
+  index: -1
+changshizhenyan/zhenyan_009
+  rotate: false
+  xy: 351, 538
+  size: 347, 160
+  orig: 347, 160
+  offset: 0, 0
+  index: -1
+changshizhenyan/zhenyan_010
+  rotate: true
+  xy: 700, 675
+  size: 347, 160
+  orig: 347, 160
+  offset: 0, 0
+  index: -1
+changshizhenyan/zhenyan_011
+  rotate: true
+  xy: 862, 675
+  size: 347, 160
+  orig: 347, 160
+  offset: 0, 0
+  index: -1
+changshizhenyan/zhenyan_012
+  rotate: false
+  xy: 2, 214
+  size: 347, 160
+  orig: 347, 160
+  offset: 0, 0
+  index: -1
+changshizhenyan/zhenyan_013
+  rotate: false
+  xy: 351, 376
+  size: 347, 160
+  orig: 347, 160
+  offset: 0, 0
+  index: -1
+changshizhenyan/zhenyan_014
+  rotate: false
+  xy: 2, 52
+  size: 347, 160
+  orig: 347, 160
+  offset: 0, 0
+  index: -1
+changshizhenyan/zhenyan_015
+  rotate: false
+  xy: 351, 214
+  size: 347, 160
+  orig: 347, 160
+  offset: 0, 0
+  index: -1
+changshizhenyan/zhenyan_016
+  rotate: true
+  xy: 700, 326
+  size: 347, 160
+  orig: 347, 160
+  offset: 0, 0
+  index: -1
+changshizhenyan/zhenyan_017
+  rotate: true
+  xy: 862, 326
+  size: 347, 160
+  orig: 347, 160
+  offset: 0, 0
+  index: -1

@@ -4,12 +4,201 @@ size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-images/kaishi1/guang01_0000
+images/kaishi/de/de_36
+  rotate: true
+  xy: 160, 2
+  size: 348, 89
+  orig: 594, 121
+  offset: 120, 17
+  index: -1
+images/kaishi/de/de_38
+  rotate: true
+  xy: 251, 2
+  size: 348, 89
+  orig: 594, 121
+  offset: 120, 17
+  index: -1
+images/kaishi/de/de_40
   rotate: false
-  xy: 2, 701
-  size: 503, 239
-  orig: 512, 256
-  offset: 5, 3
+  xy: 681, 395
+  size: 341, 89
+  orig: 594, 121
+  offset: 120, 17
+  index: -1
+images/kaishi/en/kaishi_11
+  rotate: true
+  xy: 2, 4
+  size: 533, 76
+  orig: 626, 121
+  offset: 37, 21
+  index: -1
+images/kaishi/en/kaishi_15
+  rotate: false
+  xy: 160, 625
+  size: 431, 79
+  orig: 626, 121
+  offset: 88, 21
+  index: -1
+images/kaishi/en/kaishi_43
+  rotate: true
+  xy: 80, 9
+  size: 528, 78
+  orig: 626, 121
+  offset: 41, 27
+  index: -1
+images/kaishi/en/kaishi_45
+  rotate: false
+  xy: 2, 870
+  size: 590, 70
+  orig: 626, 121
+  offset: 12, 28
+  index: -1
+images/kaishi/en/kaishi_49
+  rotate: true
+  xy: 594, 539
+  size: 401, 4
+  orig: 626, 121
+  offset: 101, 28
+  index: -1
+images/kaishi/en/kaishi_7
+  rotate: false
+  xy: 600, 746
+  size: 417, 104
+  orig: 626, 121
+  offset: 95, 17
+  index: -1
+images/kaishi/es/es_36
+  rotate: true
+  xy: 342, 2
+  size: 348, 89
+  orig: 594, 121
+  offset: 120, 17
+  index: -1
+images/kaishi/es/es_38
+  rotate: true
+  xy: 433, 2
+  size: 348, 89
+  orig: 594, 121
+  offset: 120, 17
+  index: -1
+images/kaishi/es/es_4
+  rotate: false
+  xy: 600, 852
+  size: 422, 78
+  orig: 594, 121
+  offset: 94, 12
+  index: -1
+images/kaishi/es/es_40
+  rotate: false
+  xy: 681, 304
+  size: 341, 89
+  orig: 594, 121
+  offset: 120, 17
+  index: -1
+images/kaishi/es/es_42
+  rotate: false
+  xy: 600, 656
+  size: 415, 88
+  orig: 594, 121
+  offset: 84, 17
+  index: -1
+images/kaishi/es/es_44
+  rotate: false
+  xy: 72, 794
+  size: 514, 74
+  orig: 594, 121
+  offset: 35, 17
+  index: -1
+images/kaishi/fr/fr_2
+  rotate: true
+  xy: 2, 539
+  size: 329, 68
+  orig: 626, 121
+  offset: 218, 17
+  index: -1
+images/kaishi/fr/fr_40
+  rotate: false
+  xy: 681, 213
+  size: 341, 89
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/fr/fr_46
+  rotate: false
+  xy: 600, 582
+  size: 404, 72
+  orig: 626, 121
+  offset: 125, 17
+  index: -1
+images/kaishi/id/id_40
+  rotate: false
+  xy: 681, 122
+  size: 341, 89
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/id/id_6
+  rotate: true
+  xy: 524, 15
+  size: 335, 74
+  orig: 626, 121
+  offset: 159, 17
+  index: -1
+images/kaishi/ko/ko_40
+  rotate: false
+  xy: 681, 31
+  size: 341, 89
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/ko/ko_46
+  rotate: false
+  xy: 160, 449
+  size: 438, 88
+  orig: 626, 121
+  offset: 124, 17
+  index: -1
+images/kaishi/zh/kaishi_12
+  rotate: false
+  xy: 72, 539
+  size: 364, 84
+  orig: 626, 121
+  offset: 120, 17
+  index: -1
+images/kaishi/zh/kaishi_46
+  rotate: false
+  xy: 160, 706
+  size: 432, 86
+  orig: 626, 121
+  offset: 124, 17
+  index: -1
+images/kaishi/zn/kaishi_002
+  rotate: true
+  xy: 600, 2
+  size: 482, 79
+  orig: 569, 157
+  offset: 65, 31
+  index: -1
+images/kaishi/zn/kaishi_004
+  rotate: false
+  xy: 600, 486
+  size: 401, 94
+  orig: 569, 157
+  offset: 81, 26
+  index: -1
+images/kaishi/zn/kaishi_034
+  rotate: false
+  xy: 160, 352
+  size: 434, 95
+  orig: 569, 157
+  offset: 81, 31
+  index: -1
+images/kaishi/zn/kaishi_036
+  rotate: false
+  xy: 601, 932
+  size: 418, 90
+  orig: 569, 157
+  offset: 118, 31
   index: -1
 images/kaishi1/guangtiao_007
   rotate: false
@@ -18,184 +207,1340 @@ images/kaishi1/guangtiao_007
   orig: 604, 225
   offset: 5, 36
   index: -1
-images/kaishi1/guangxian_000
+
+effects_feiji_kaishi2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/kaishi/de/de_42
+  rotate: true
+  xy: 204, 6
+  size: 399, 88
+  orig: 594, 121
+  offset: 86, 17
+  index: -1
+images/kaishi/de/de_44
   rotate: false
-  xy: 601, 822
+  xy: 2, 878
+  size: 497, 80
+  orig: 594, 121
+  offset: 38, 17
+  index: -1
+images/kaishi/de/de_6
+  rotate: true
+  xy: 585, 409
+  size: 372, 74
+  orig: 594, 121
+  offset: 102, 17
+  index: -1
+images/kaishi/en/kaishi_47
+  rotate: false
+  xy: 2, 960
+  size: 504, 62
+  orig: 626, 121
+  offset: 116, 28
+  index: -1
+images/kaishi/en/kaishi_5
+  rotate: false
+  xy: 2, 628
+  size: 469, 78
+  orig: 626, 121
+  offset: 67, 22
+  index: -1
+images/kaishi/fr/fr_48
+  rotate: true
+  xy: 474, 407
+  size: 389, 31
+  orig: 626, 121
+  offset: 107, 17
+  index: -1
+images/kaishi/fr/fr_6
+  rotate: false
+  xy: 742, 432
+  size: 255, 74
+  orig: 626, 121
+  offset: 182, 17
+  index: -1
+images/kaishi/fr/fr_8
+  rotate: false
+  xy: 757, 10
+  size: 236, 80
+  orig: 626, 121
+  offset: 175, 17
+  index: -1
+images/kaishi/id/id_12
+  rotate: true
+  xy: 507, 408
+  size: 373, 76
+  orig: 626, 121
+  offset: 120, 17
+  index: -1
+images/kaishi/id/id_42
+  rotate: false
+  xy: 375, 2
+  size: 380, 88
+  orig: 626, 121
+  offset: 125, 17
+  index: -1
+images/kaishi/id/id_44
+  rotate: false
+  xy: 2, 798
+  size: 483, 78
+  orig: 626, 121
+  offset: 72, 17
+  index: -1
+images/kaishi/id/id_8
+  rotate: true
+  xy: 661, 409
+  size: 289, 79
+  orig: 626, 121
+  offset: 171, 17
+  index: -1
+images/kaishi/ko/ko_44
+  rotate: false
+  xy: 2, 708
+  size: 470, 88
+  orig: 626, 121
+  offset: 67, 17
+  index: -1
+images/kaishi/ko/ko_48
+  rotate: false
+  xy: 561, 333
+  size: 459, 73
+  orig: 626, 121
+  offset: 107, 17
+  index: -1
+images/kaishi/ko/ko_8
+  rotate: false
+  xy: 742, 604
+  size: 275, 94
+  orig: 626, 121
+  offset: 163, 17
+  index: -1
+images/kaishi/th/th_46
+  rotate: true
+  xy: 294, 4
+  size: 439, 79
+  orig: 626, 121
+  offset: 124, 17
+  index: -1
+images/kaishi/th/th_48
+  rotate: false
+  xy: 561, 258
+  size: 459, 73
+  orig: 626, 121
+  offset: 107, 17
+  index: -1
+images/kaishi/th/th_6
+  rotate: true
+  xy: 473, 95
+  size: 310, 86
+  orig: 626, 121
+  offset: 167, 17
+  index: -1
+images/kaishi/th/th_8
+  rotate: false
+  xy: 204, 538
+  size: 267, 88
+  orig: 626, 121
+  offset: 175, 17
+  index: -1
+images/kaishi/zh/kaishi_4
+  rotate: false
+  xy: 561, 92
+  size: 385, 91
+  orig: 626, 121
+  offset: 109, 12
+  index: -1
+images/kaishi/zh/kaishi_44
+  rotate: false
+  xy: 2, 445
+  size: 465, 91
+  orig: 626, 121
+  offset: 66, 17
+  index: -1
+images/kaishi/zh/kaishi_48
+  rotate: false
+  xy: 561, 185
+  size: 459, 71
+  orig: 626, 121
+  offset: 107, 17
+  index: -1
+images/kaishi/zh/kaishi_8
+  rotate: false
+  xy: 742, 508
+  size: 274, 94
+  orig: 626, 121
+  offset: 161, 17
+  index: -1
+images/kaishi/zn/kaishi_008
+  rotate: true
+  xy: 375, 92
+  size: 351, 96
+  orig: 569, 157
+  offset: 69, 31
+  index: -1
+images/kaishi/zn/kaishi_010
+  rotate: false
+  xy: 661, 700
+  size: 361, 81
+  orig: 569, 157
+  offset: 85, 31
+  index: -1
+images/kaishi1/guang01_0000
+  rotate: false
+  xy: 508, 783
+  size: 503, 239
+  orig: 512, 256
+  offset: 5, 3
+  index: -1
+images/kaishi1/guangxian_000
+  rotate: true
+  xy: 2, 5
   size: 400, 200
   orig: 400, 200
   offset: 0, 0
   index: -1
-images/kaishi1/kaishi_002
+
+effects_feiji_kaishi3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/kaishi/de/de_12
   rotate: false
-  xy: 601, 558
+  xy: 470, 472
+  size: 371, 76
+  orig: 594, 121
+  offset: 100, 17
+  index: -1
+images/kaishi/de/de_2
+  rotate: true
+  xy: 273, 106
   size: 368, 68
-  orig: 604, 225
-  offset: 211, 31
+  orig: 594, 121
+  offset: 204, 17
   index: -1
-images/kaishi1/kaishi_004
+images/kaishi/de/de_4
   rotate: false
-  xy: 601, 724
-  size: 390, 96
-  orig: 604, 225
-  offset: 97, 26
+  xy: 457, 869
+  size: 390, 79
+  orig: 594, 121
+  offset: 90, 12
   index: -1
-images/kaishi1/kaishi_006
+images/kaishi/de/de_46
   rotate: true
-  xy: 274, 3
-  size: 336, 90
-  orig: 604, 225
-  offset: 131, 31
+  xy: 141, 486
+  size: 449, 72
+  orig: 594, 121
+  offset: 111, 17
   index: -1
-images/kaishi1/kaishi_008
+images/kaishi/de/de_48
   rotate: true
-  xy: 463, 322
-  size: 268, 97
-  orig: 604, 225
-  offset: 164, 31
+  xy: 215, 476
+  size: 459, 60
+  orig: 594, 121
+  offset: 93, 17
   index: -1
-images/kaishi1/kaishi_010
+images/kaishi/de/de_8
   rotate: true
-  xy: 2, 4
-  size: 316, 83
-  orig: 604, 225
-  offset: 140, 31
+  xy: 837, 25
+  size: 305, 82
+  orig: 594, 121
+  offset: 133, 17
   index: -1
-images/kaishi1/kaishi_012
+images/kaishi/en/kaishi_3
   rotate: false
-  xy: 87, 435
-  size: 364, 90
-  orig: 604, 225
-  offset: 113, 31
+  xy: 470, 264
+  size: 365, 66
+  orig: 626, 121
+  offset: 228, 23
   index: -1
-images/kaishi1/kaishi_014
+images/kaishi/en/kaishi_41
   rotate: false
-  xy: 562, 281
-  size: 347, 91
-  orig: 604, 225
-  offset: 122, 31
+  xy: 451, 790
+  size: 389, 77
+  orig: 626, 121
+  offset: 110, 28
   index: -1
-images/kaishi1/kaishi_016
-  rotate: false
-  xy: 460, 188
-  size: 343, 91
-  orig: 604, 225
-  offset: 121, 31
-  index: -1
-images/kaishi1/kaishi_018
-  rotate: false
-  xy: 2, 341
-  size: 343, 92
-  orig: 604, 225
-  offset: 121, 31
-  index: -1
-images/kaishi1/kaishi_020
+images/kaishi/es/es_12
   rotate: true
-  xy: 366, 90
-  size: 343, 92
-  orig: 604, 225
-  offset: 121, 31
+  xy: 104, 89
+  size: 385, 76
+  orig: 594, 121
+  offset: 99, 17
   index: -1
-images/kaishi1/kaishi_022
+images/kaishi/es/es_2
+  rotate: false
+  xy: 451, 550
+  size: 389, 68
+  orig: 594, 121
+  offset: 204, 17
+  index: -1
+images/kaishi/es/es_46
   rotate: true
-  xy: 87, 2
-  size: 337, 92
-  orig: 604, 225
-  offset: 127, 31
+  xy: 2, 472
+  size: 463, 72
+  orig: 594, 121
+  offset: 111, 17
   index: -1
-images/kaishi1/kaishi_024
+images/kaishi/es/es_48
   rotate: true
-  xy: 181, 2
-  size: 337, 91
-  orig: 604, 225
-  offset: 127, 31
+  xy: 76, 476
+  size: 459, 63
+  orig: 594, 121
+  offset: 93, 17
   index: -1
-images/kaishi1/kaishi_034
+images/kaishi/fr/fr_12
   rotate: false
-  xy: 460, 31
-  size: 347, 91
-  orig: 604, 225
-  offset: 127, 31
+  xy: 470, 3
+  size: 364, 76
+  orig: 626, 121
+  offset: 120, 17
   index: -1
-images/kaishi1/kaishi_036
-  rotate: false
-  xy: 562, 374
-  size: 348, 91
-  orig: 604, 225
-  offset: 127, 31
-  index: -1
-images/kaishi1/kaishi_038
+images/kaishi/fr/fr_42
   rotate: true
-  xy: 507, 592
-  size: 348, 92
-  orig: 604, 225
-  offset: 127, 31
+  xy: 843, 332
+  size: 342, 88
+  orig: 626, 121
+  offset: 134, 17
   index: -1
-images/kaishi1/kaishi_040
+images/kaishi/fr/fr_44
   rotate: true
-  xy: 912, 124
-  size: 341, 92
-  orig: 604, 225
-  offset: 127, 31
+  xy: 277, 537
+  size: 398, 78
+  orig: 626, 121
+  offset: 106, 17
   index: -1
-images/kaishi1/kaishi_042
+images/kaishi/id/id_2
   rotate: false
-  xy: 601, 628
-  size: 368, 94
-  orig: 604, 225
-  offset: 110, 31
+  xy: 470, 402
+  size: 368, 68
+  orig: 626, 121
+  offset: 218, 17
   index: -1
-images/kaishi1/kaishi_044
+images/kaishi/id/id_4
   rotate: false
-  xy: 2, 602
-  size: 467, 97
-  orig: 604, 225
-  offset: 61, 31
+  xy: 451, 620
+  size: 385, 78
+  orig: 626, 121
+  offset: 109, 12
   index: -1
-images/kaishi1/kaishi_046
+images/kaishi/id/id_46
   rotate: false
-  xy: 562, 467
-  size: 437, 89
-  orig: 604, 225
-  offset: 117, 31
+  xy: 457, 950
+  size: 455, 72
+  orig: 626, 121
+  offset: 125, 17
   index: -1
-images/kaishi1/kaishi_048
+images/kaishi/id/id_48
+  rotate: true
+  xy: 2, 11
+  size: 459, 67
+  orig: 626, 121
+  offset: 107, 17
+  index: -1
+images/kaishi/ko/ko_10
+  rotate: true
+  xy: 921, 6
+  size: 309, 79
+  orig: 626, 121
+  offset: 147, 17
+  index: -1
+images/kaishi/ko/ko_12
+  rotate: true
+  xy: 343, 171
+  size: 364, 86
+  orig: 626, 121
+  offset: 120, 17
+  index: -1
+images/kaishi/ko/ko_4
+  rotate: true
+  xy: 357, 554
+  size: 381, 92
+  orig: 626, 121
+  offset: 113, 12
+  index: -1
+images/kaishi/ko/ko_42
+  rotate: true
+  xy: 182, 107
+  size: 367, 89
+  orig: 626, 121
+  offset: 116, 17
+  index: -1
+images/kaishi/th/th_12
   rotate: false
-  xy: 2, 527
-  size: 459, 73
-  orig: 604, 225
+  xy: 104, 2
+  size: 364, 85
+  orig: 626, 121
+  offset: 120, 17
+  index: -1
+images/kaishi/th/th_2
+  rotate: false
+  xy: 470, 332
+  size: 368, 68
+  orig: 626, 121
+  offset: 218, 17
+  index: -1
+images/kaishi/th/th_4
+  rotate: false
+  xy: 470, 81
+  size: 363, 91
+  orig: 626, 121
+  offset: 131, 12
+  index: -1
+images/kaishi/th/th_44
+  rotate: false
+  xy: 2, 937
+  size: 453, 85
+  orig: 626, 121
+  offset: 85, 17
+  index: -1
+images/kaishi/zh/kaishi_42
+  rotate: false
+  xy: 470, 174
+  size: 365, 88
+  orig: 626, 121
+  offset: 115, 17
+  index: -1
+images/kaishi/zn/kaishi_012
+  rotate: false
+  xy: 451, 700
+  size: 378, 88
+  orig: 569, 157
   offset: 100, 31
   index: -1
+images/kaishi/zn/kaishi_014
+  rotate: true
+  xy: 933, 317
+  size: 357, 89
+  orig: 569, 157
+  offset: 113, 31
+  index: -1
+images/kaishi/zn/kaishi_032
+  rotate: true
+  xy: 914, 676
+  size: 346, 92
+  orig: 569, 157
+  offset: 128, 31
+  index: -1
+images/kaishi/zn/kaishi_038
+  rotate: true
+  xy: 71, 81
+  size: 389, 31
+  orig: 569, 157
+  offset: 101, 31
+  index: -1
 
-effects_feiji_kaishi2.png
+effects_feiji_kaishi4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/kaishi/de/de_14
+  rotate: true
+  xy: 697, 496
+  size: 347, 76
+  orig: 594, 121
+  offset: 115, 17
+  index: -1
+images/kaishi/de/de_22
+  rotate: false
+  xy: 352, 33
+  size: 337, 90
+  orig: 594, 121
+  offset: 120, 17
+  index: -1
+images/kaishi/de/de_32
+  rotate: true
+  xy: 513, 497
+  size: 346, 90
+  orig: 594, 121
+  offset: 120, 17
+  index: -1
+images/kaishi/de/de_34
+  rotate: true
+  xy: 588, 148
+  size: 347, 89
+  orig: 594, 121
+  offset: 120, 17
+  index: -1
+images/kaishi/en/kaishi_13
+  rotate: true
+  xy: 432, 138
+  size: 355, 78
+  orig: 626, 121
+  offset: 125, 21
+  index: -1
+images/kaishi/en/kaishi_17
+  rotate: true
+  xy: 771, 144
+  size: 350, 80
+  orig: 626, 121
+  offset: 128, 21
+  index: -1
+images/kaishi/en/kaishi_23
+  rotate: false
+  xy: 360, 845
+  size: 350, 85
+  orig: 626, 121
+  offset: 128, 22
+  index: -1
+images/kaishi/en/kaishi_25
+  rotate: false
+  xy: 2, 844
+  size: 356, 86
+  orig: 626, 121
+  offset: 125, 22
+  index: -1
+images/kaishi/en/kaishi_35
+  rotate: true
+  xy: 352, 125
+  size: 357, 78
+  orig: 626, 121
+  offset: 125, 28
+  index: -1
+images/kaishi/es/es_10
+  rotate: true
+  xy: 945, 325
+  size: 346, 75
+  orig: 594, 121
+  offset: 133, 17
+  index: -1
+images/kaishi/es/es_32
+  rotate: true
+  xy: 605, 497
+  size: 346, 90
+  orig: 594, 121
+  offset: 120, 17
+  index: -1
+images/kaishi/es/es_34
+  rotate: true
+  xy: 775, 673
+  size: 347, 89
+  orig: 594, 121
+  offset: 120, 17
+  index: -1
+images/kaishi/es/es_6
+  rotate: true
+  xy: 512, 138
+  size: 355, 74
+  orig: 594, 121
+  offset: 131, 17
+  index: -1
+images/kaishi/fr/fr_32
+  rotate: true
+  xy: 679, 148
+  size: 346, 90
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/fr/fr_34
+  rotate: true
+  xy: 866, 673
+  size: 347, 89
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/fr/fr_36
+  rotate: false
+  xy: 2, 753
+  size: 348, 89
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/fr/fr_38
+  rotate: false
+  xy: 2, 662
+  size: 348, 89
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/id/id_32
+  rotate: true
+  xy: 853, 325
+  size: 346, 90
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/id/id_36
+  rotate: false
+  xy: 2, 571
+  size: 348, 89
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/id/id_38
+  rotate: false
+  xy: 2, 480
+  size: 348, 89
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/ko/ko_36
+  rotate: false
+  xy: 2, 389
+  size: 348, 89
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/ko/ko_38
+  rotate: false
+  xy: 2, 298
+  size: 348, 89
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/th/th_10
+  rotate: true
+  xy: 853, 4
+  size: 319, 79
+  orig: 626, 121
+  offset: 147, 17
+  index: -1
+images/kaishi/th/th_36
+  rotate: false
+  xy: 2, 207
+  size: 348, 89
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/th/th_38
+  rotate: false
+  xy: 2, 116
+  size: 348, 89
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/th/th_42
+  rotate: false
+  xy: 362, 932
+  size: 354, 88
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/zh/kaishi_10
+  rotate: true
+  xy: 934, 3
+  size: 320, 78
+  orig: 626, 121
+  offset: 137, 17
+  index: -1
+images/kaishi/zh/kaishi_2
+  rotate: true
+  xy: 352, 484
+  size: 358, 68
+  orig: 626, 121
+  offset: 218, 17
+  index: -1
+images/kaishi/zh/kaishi_36
+  rotate: false
+  xy: 2, 25
+  size: 348, 89
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/zh/kaishi_38
+  rotate: true
+  xy: 422, 495
+  size: 348, 89
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/zn/kaishi_006
+  rotate: false
+  xy: 2, 932
+  size: 358, 88
+  orig: 569, 157
+  offset: 96, 31
+  index: -1
+
+effects_feiji_kaishi5.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/kaishi/de/de_28
+  rotate: false
+  xy: 618, 56
+  size: 343, 90
+  orig: 594, 121
+  offset: 120, 17
+  index: -1
+images/kaishi/de/de_30
+  rotate: true
+  xy: 158, 14
+  size: 345, 90
+  orig: 594, 121
+  offset: 120, 17
+  index: -1
+images/kaishi/en/kaishi_19
+  rotate: false
+  xy: 351, 418
+  size: 347, 79
+  orig: 626, 121
+  offset: 128, 22
+  index: -1
+images/kaishi/en/kaishi_27
+  rotate: false
+  xy: 2, 439
+  size: 347, 85
+  orig: 626, 121
+  offset: 130, 22
+  index: -1
+images/kaishi/en/kaishi_31
+  rotate: false
+  xy: 618, 148
+  size: 345, 84
+  orig: 626, 121
+  offset: 134, 23
+  index: -1
+images/kaishi/en/kaishi_33
+  rotate: false
+  xy: 356, 858
+  size: 351, 84
+  orig: 626, 121
+  offset: 130, 23
+  index: -1
+images/kaishi/en/kaishi_37
+  rotate: false
+  xy: 361, 944
+  size: 354, 78
+  orig: 626, 121
+  offset: 128, 28
+  index: -1
+images/kaishi/en/kaishi_39
+  rotate: false
+  xy: 2, 874
+  size: 352, 78
+  orig: 626, 121
+  offset: 131, 28
+  index: -1
+images/kaishi/es/es_14
+  rotate: false
+  xy: 2, 361
+  size: 347, 76
+  orig: 594, 121
+  offset: 115, 17
+  index: -1
+images/kaishi/es/es_16
+  rotate: false
+  xy: 2, 796
+  size: 349, 76
+  orig: 594, 121
+  offset: 114, 17
+  index: -1
+images/kaishi/es/es_30
+  rotate: true
+  xy: 250, 14
+  size: 345, 90
+  orig: 594, 121
+  offset: 120, 17
+  index: -1
+images/kaishi/es/es_8
+  rotate: false
+  xy: 700, 521
+  size: 308, 76
+  orig: 594, 121
+  offset: 144, 17
+  index: -1
+images/kaishi/fr/fr_10
+  rotate: false
+  xy: 717, 947
+  size: 305, 75
+  orig: 626, 121
+  offset: 147, 17
+  index: -1
+images/kaishi/fr/fr_14
+  rotate: true
+  xy: 2, 12
+  size: 347, 76
+  orig: 626, 121
+  offset: 129, 17
+  index: -1
+images/kaishi/fr/fr_30
+  rotate: true
+  xy: 342, 14
+  size: 345, 90
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/fr/fr_4
+  rotate: false
+  xy: 700, 441
+  size: 307, 78
+  orig: 626, 121
+  offset: 164, 12
+  index: -1
+images/kaishi/id/id_14
+  rotate: true
+  xy: 80, 12
+  size: 347, 76
+  orig: 626, 121
+  offset: 129, 17
+  index: -1
+images/kaishi/id/id_30
+  rotate: true
+  xy: 434, 71
+  size: 345, 90
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/id/id_34
+  rotate: false
+  xy: 353, 767
+  size: 347, 89
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/ko/ko_14
+  rotate: false
+  xy: 351, 587
+  size: 347, 87
+  orig: 626, 121
+  offset: 129, 17
+  index: -1
+images/kaishi/ko/ko_2
+  rotate: false
+  xy: 2, 954
+  size: 357, 68
+  orig: 626, 121
+  offset: 218, 17
+  index: -1
+images/kaishi/ko/ko_30
+  rotate: true
+  xy: 526, 71
+  size: 345, 90
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/ko/ko_32
+  rotate: true
+  xy: 717, 599
+  size: 346, 90
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/ko/ko_34
+  rotate: false
+  xy: 2, 705
+  size: 347, 89
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/th/th_14
+  rotate: false
+  xy: 2, 526
+  size: 347, 86
+  orig: 626, 121
+  offset: 129, 17
+  index: -1
+images/kaishi/th/th_30
+  rotate: false
+  xy: 618, 326
+  size: 345, 90
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/th/th_32
+  rotate: true
+  xy: 809, 599
+  size: 346, 90
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/th/th_34
+  rotate: false
+  xy: 351, 676
+  size: 347, 89
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/zh/kaishi_14
+  rotate: false
+  xy: 351, 499
+  size: 347, 86
+  orig: 626, 121
+  offset: 129, 17
+  index: -1
+images/kaishi/zh/kaishi_30
+  rotate: false
+  xy: 618, 234
+  size: 345, 90
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/zh/kaishi_32
+  rotate: true
+  xy: 901, 599
+  size: 346, 90
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/zh/kaishi_34
+  rotate: false
+  xy: 2, 614
+  size: 347, 89
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+
+effects_feiji_kaishi6.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/kaishi/de/de_10
+  rotate: false
+  xy: 336, 944
+  size: 332, 75
+  orig: 594, 121
+  offset: 133, 17
+  index: -1
+images/kaishi/de/de_16
+  rotate: false
+  xy: 2, 558
+  size: 343, 76
+  orig: 594, 121
+  offset: 114, 17
+  index: -1
+images/kaishi/de/de_18
+  rotate: false
+  xy: 670, 944
+  size: 343, 75
+  orig: 594, 121
+  offset: 114, 17
+  index: -1
+images/kaishi/de/de_20
+  rotate: false
+  xy: 2, 867
+  size: 343, 75
+  orig: 594, 121
+  offset: 114, 17
+  index: -1
+images/kaishi/de/de_24
+  rotate: true
+  xy: 693, 362
+  size: 337, 90
+  orig: 594, 121
+  offset: 120, 17
+  index: -1
+images/kaishi/en/kaishi_21
+  rotate: false
+  xy: 342, 377
+  size: 344, 84
+  orig: 626, 121
+  offset: 131, 22
+  index: -1
+images/kaishi/en/kaishi_29
+  rotate: false
+  xy: 341, 291
+  size: 344, 84
+  orig: 626, 121
+  offset: 134, 23
+  index: -1
+images/kaishi/en/kaishi_9
+  rotate: false
+  xy: 2, 946
+  size: 332, 73
+  orig: 626, 121
+  offset: 137, 21
+  index: -1
+images/kaishi/es/es_18
+  rotate: false
+  xy: 347, 867
+  size: 343, 75
+  orig: 594, 121
+  offset: 114, 17
+  index: -1
+images/kaishi/es/es_20
+  rotate: false
+  xy: 2, 790
+  size: 343, 75
+  orig: 594, 121
+  offset: 114, 17
+  index: -1
+images/kaishi/es/es_22
+  rotate: true
+  xy: 785, 362
+  size: 337, 90
+  orig: 594, 121
+  offset: 120, 17
+  index: -1
+images/kaishi/es/es_24
+  rotate: true
+  xy: 877, 362
+  size: 337, 90
+  orig: 594, 121
+  offset: 120, 17
+  index: -1
+images/kaishi/fr/fr_16
+  rotate: false
+  xy: 347, 546
+  size: 343, 76
+  orig: 626, 121
+  offset: 128, 17
+  index: -1
+images/kaishi/fr/fr_18
+  rotate: false
+  xy: 347, 790
+  size: 343, 75
+  orig: 626, 121
+  offset: 128, 17
+  index: -1
+images/kaishi/fr/fr_20
+  rotate: false
+  xy: 2, 713
+  size: 343, 75
+  orig: 626, 121
+  offset: 128, 17
+  index: -1
+images/kaishi/fr/fr_22
+  rotate: true
+  xy: 687, 23
+  size: 337, 90
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/fr/fr_24
+  rotate: true
+  xy: 779, 23
+  size: 337, 90
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/id/id_10
+  rotate: false
+  xy: 347, 713
+  size: 337, 75
+  orig: 626, 121
+  offset: 147, 17
+  index: -1
+images/kaishi/id/id_16
+  rotate: false
+  xy: 2, 480
+  size: 343, 76
+  orig: 626, 121
+  offset: 128, 17
+  index: -1
+images/kaishi/id/id_18
+  rotate: false
+  xy: 2, 636
+  size: 343, 75
+  orig: 626, 121
+  offset: 128, 17
+  index: -1
+images/kaishi/id/id_20
+  rotate: false
+  xy: 347, 624
+  size: 343, 75
+  orig: 626, 121
+  offset: 128, 17
+  index: -1
+images/kaishi/id/id_22
+  rotate: true
+  xy: 871, 23
+  size: 337, 90
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/ko/ko_6
+  rotate: false
+  xy: 686, 701
+  size: 333, 87
+  orig: 626, 121
+  offset: 131, 17
+  index: -1
+images/kaishi/th/th_16
+  rotate: false
+  xy: 341, 114
+  size: 343, 87
+  orig: 626, 121
+  offset: 128, 17
+  index: -1
+images/kaishi/th/th_18
+  rotate: false
+  xy: 341, 25
+  size: 343, 87
+  orig: 626, 121
+  offset: 128, 17
+  index: -1
+images/kaishi/zh/kaishi_16
+  rotate: false
+  xy: 341, 203
+  size: 343, 86
+  orig: 626, 121
+  offset: 128, 17
+  index: -1
+images/kaishi/zh/kaishi_6
+  rotate: false
+  xy: 2, 393
+  size: 338, 85
+  orig: 626, 121
+  offset: 128, 17
+  index: -1
+images/kaishi/zn/kaishi_016
+  rotate: false
+  xy: 2, 302
+  size: 337, 89
+  orig: 569, 157
+  offset: 128, 31
+  index: -1
+images/kaishi/zn/kaishi_018
+  rotate: false
+  xy: 2, 211
+  size: 337, 89
+  orig: 569, 157
+  offset: 128, 31
+  index: -1
+images/kaishi/zn/kaishi_022
+  rotate: false
+  xy: 2, 120
+  size: 337, 89
+  orig: 569, 157
+  offset: 128, 31
+  index: -1
+images/kaishi/zn/kaishi_024
+  rotate: false
+  xy: 2, 29
+  size: 337, 89
+  orig: 569, 157
+  offset: 128, 31
+  index: -1
+images/kaishi/zn/kaishi_030
+  rotate: false
+  xy: 347, 463
+  size: 344, 81
+  orig: 569, 157
+  offset: 128, 31
+  index: -1
+
+effects_feiji_kaishi7.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/kaishi/de/de_26
+  rotate: false
+  xy: 2, 472
+  size: 340, 90
+  orig: 594, 121
+  offset: 120, 17
+  index: -1
+images/kaishi/es/es_26
+  rotate: false
+  xy: 347, 566
+  size: 340, 90
+  orig: 594, 121
+  offset: 120, 17
+  index: -1
+images/kaishi/es/es_28
+  rotate: false
+  xy: 2, 930
+  size: 343, 90
+  orig: 594, 121
+  offset: 120, 17
+  index: -1
+images/kaishi/fr/fr_26
+  rotate: true
+  xy: 782, 680
+  size: 340, 90
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/fr/fr_28
+  rotate: false
+  xy: 2, 838
+  size: 343, 90
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/id/id_24
+  rotate: true
+  xy: 548, 49
+  size: 337, 90
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/id/id_26
+  rotate: false
+  xy: 2, 380
+  size: 340, 90
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/id/id_28
+  rotate: false
+  xy: 347, 930
+  size: 343, 90
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/ko/ko_16
+  rotate: false
+  xy: 347, 748
+  size: 343, 88
+  orig: 626, 121
+  offset: 128, 17
+  index: -1
+images/kaishi/ko/ko_18
+  rotate: false
+  xy: 2, 564
+  size: 343, 88
+  orig: 626, 121
+  offset: 128, 17
+  index: -1
+images/kaishi/ko/ko_20
+  rotate: false
+  xy: 347, 658
+  size: 343, 88
+  orig: 626, 121
+  offset: 128, 17
+  index: -1
+images/kaishi/ko/ko_22
+  rotate: true
+  xy: 640, 49
+  size: 337, 90
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/ko/ko_24
+  rotate: true
+  xy: 732, 338
+  size: 337, 90
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/ko/ko_26
+  rotate: true
+  xy: 874, 680
+  size: 340, 90
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/ko/ko_28
+  rotate: false
+  xy: 2, 746
+  size: 343, 90
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/th/th_20
+  rotate: true
+  xy: 2, 35
+  size: 343, 87
+  orig: 626, 121
+  offset: 128, 17
+  index: -1
+images/kaishi/th/th_22
+  rotate: true
+  xy: 824, 341
+  size: 337, 90
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/th/th_24
+  rotate: true
+  xy: 916, 341
+  size: 337, 90
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/th/th_26
+  rotate: true
+  xy: 91, 38
+  size: 340, 90
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/th/th_28
+  rotate: false
+  xy: 347, 838
+  size: 343, 90
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/th/th_40
+  rotate: true
+  xy: 275, 37
+  size: 341, 89
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/zh/kaishi_18
+  rotate: false
+  xy: 347, 477
+  size: 343, 87
+  orig: 626, 121
+  offset: 128, 17
+  index: -1
+images/kaishi/zh/kaishi_20
+  rotate: false
+  xy: 344, 388
+  size: 343, 87
+  orig: 626, 121
+  offset: 128, 17
+  index: -1
+images/kaishi/zh/kaishi_22
+  rotate: true
+  xy: 824, 2
+  size: 337, 90
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/zh/kaishi_24
+  rotate: true
+  xy: 916, 2
+  size: 337, 90
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/zh/kaishi_26
+  rotate: true
+  xy: 183, 38
+  size: 340, 90
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/zh/kaishi_28
+  rotate: false
+  xy: 2, 654
+  size: 343, 90
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/zh/kaishi_40
+  rotate: true
+  xy: 366, 45
+  size: 341, 89
+  orig: 626, 121
+  offset: 134, 17
+  index: -1
+images/kaishi/zn/kaishi_026
+  rotate: true
+  xy: 457, 46
+  size: 340, 89
+  orig: 569, 157
+  offset: 128, 31
+  index: -1
+images/kaishi/zn/kaishi_028
+  rotate: true
+  xy: 692, 677
+  size: 343, 88
+  orig: 569, 157
+  offset: 128, 31
+  index: -1
+
+effects_feiji_kaishi8.png
 size: 512,512
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-images/kaishi1/kaishi_026
+images/kaishi/zn/kaishi_020
   rotate: false
-  xy: 2, 2
-  size: 340, 91
-  orig: 604, 225
-  offset: 127, 31
-  index: -1
-images/kaishi1/kaishi_028
-  rotate: false
-  xy: 2, 95
-  size: 343, 90
-  orig: 604, 225
-  offset: 127, 31
-  index: -1
-images/kaishi1/kaishi_030
-  rotate: false
-  xy: 2, 187
-  size: 345, 90
-  orig: 604, 225
-  offset: 127, 31
-  index: -1
-images/kaishi1/kaishi_032
-  rotate: false
-  xy: 2, 279
-  size: 346, 90
-  orig: 604, 225
-  offset: 127, 31
+  xy: 2, 249
+  size: 337, 90
+  orig: 569, 157
+  offset: 128, 31
   index: -1

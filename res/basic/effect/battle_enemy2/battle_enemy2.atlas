@@ -6,64 +6,162 @@ filter: Linear,Linear
 repeat: none
 image/biankuang_00000
   rotate: false
-  xy: 2, 729
+  xy: 2, 788
   size: 500, 233
   orig: 514, 240
   offset: 8, 4
   index: -1
-image/bianseziti2
+image/de/battle_enemy_de
   rotate: false
-  xy: 111, 580
+  xy: 677, 37
+  size: 299, 72
+  orig: 464, 100
+  offset: 16, 17
+  index: -1
+image/de/battle_enemy_de_glow_0
+  rotate: false
+  xy: 514, 563
+  size: 383, 154
+  orig: 395, 154
+  offset: 1, 0
+  index: -1
+image/en/bianseziti2
+  rotate: false
+  xy: 514, 414
   size: 380, 147
   orig: 380, 147
   offset: 0, 0
   index: -1
-image/bianseziti_00000
+image/en/qiangdilaixi2
+  rotate: true
+  xy: 906, 157
+  size: 296, 60
+  orig: 330, 100
+  offset: 19, 16
+  index: -1
+image/es/battle_enemy_es
+  rotate: true
+  xy: 951, 705
+  size: 316, 66
+  orig: 464, 100
+  offset: 16, 17
+  index: -1
+image/es/battle_enemy_es_glow_0
   rotate: false
-  xy: 504, 762
-  size: 400, 200
-  orig: 400, 200
-  offset: 0, 0
+  xy: 514, 719
+  size: 400, 145
+  orig: 413, 154
+  offset: 2, 0
   index: -1
 image/fensedi
   rotate: true
-  xy: 30, 160
+  xy: 30, 219
   size: 567, 79
   orig: 569, 81
   offset: 1, 1
   index: -1
+image/fr/battle_enemy_fr
+  rotate: false
+  xy: 356, 43
+  size: 319, 66
+  orig: 464, 100
+  offset: 16, 17
+  index: -1
+image/fr/battle_enemy_fr_glow_0
+  rotate: false
+  xy: 111, 239
+  size: 403, 145
+  orig: 413, 154
+  offset: 2, 0
+  index: -1
 image/heidi
   rotate: false
-  xy: 906, 805
+  xy: 848, 255
   size: 56, 157
   orig: 58, 159
   offset: 1, 1
   index: -1
 image/heidi001
   rotate: false
-  xy: 30, 108
+  xy: 30, 167
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-image/qiangdilaixi
+image/id/battle_enemy_id
   rotate: false
-  xy: 111, 504
-  size: 324, 74
-  orig: 324, 74
+  xy: 516, 168
+  size: 360, 76
+  orig: 464, 100
+  offset: 16, 4
+  index: -1
+image/id/battle_enemy_id_glow_0
+  rotate: false
+  xy: 504, 866
+  size: 445, 155
+  orig: 464, 178
+  offset: 2, 5
+  index: -1
+image/ko/bianseziti_00000
+  rotate: false
+  xy: 111, 137
+  size: 375, 100
+  orig: 400, 100
+  offset: 12, 0
+  index: -1
+image/ko/qiangdilaixi
+  rotate: false
+  xy: 488, 111
+  size: 324, 55
+  orig: 324, 55
   offset: 0, 0
   index: -1
-image/qiangdilaixi2
+image/th/battle_enemy_th
+  rotate: true
+  xy: 899, 455
+  size: 248, 91
+  orig: 464, 100
+  offset: 23, 5
+  index: -1
+image/th/battle_enemy_th_glow_0
   rotate: false
-  xy: 111, 442
-  size: 296, 60
-  orig: 330, 100
-  offset: 19, 16
+  xy: 516, 246
+  size: 330, 166
+  orig: 347, 178
+  offset: 11, 8
   index: -1
 image/tiaoxia
   rotate: true
-  xy: 2, 27
+  xy: 2, 86
   size: 700, 26
   orig: 702, 28
   offset: 1, 1
+  index: -1
+image/zh/bianseziti_00000
+  rotate: true
+  xy: 313, 386
+  size: 400, 199
+  orig: 400, 200
+  offset: 0, 1
+  index: -1
+image/zh/qiangdilaixi
+  rotate: false
+  xy: 2, 2
+  size: 323, 57
+  orig: 324, 74
+  offset: 1, 8
+  index: -1
+image/zn/bianseziti_00000
+  rotate: true
+  xy: 111, 386
+  size: 400, 200
+  orig: 400, 200
+  offset: 0, 0
+  index: -1
+image/zn/qiangdilaixi
+  rotate: false
+  xy: 30, 61
+  size: 324, 74
+  orig: 324, 74
+  offset: 0, 0
   index: -1

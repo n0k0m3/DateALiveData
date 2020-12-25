@@ -4,6 +4,13 @@ size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
+effect/born/glow2_00013
+  rotate: false
+  xy: 688, 2
+  size: 100, 101
+  orig: 129, 130
+  offset: 13, 13
+  index: -1
 effect/born/glow_00022
   rotate: false
   xy: 2, 702
@@ -11,61 +18,173 @@ effect/born/glow_00022
   orig: 417, 320
   offset: 20, 0
   index: -1
-effect/skillb/longjunfen/1_001
-  rotate: true
-  xy: 358, 344
-  size: 336, 340
-  orig: 362, 343
-  offset: 4, 0
-  index: -1
-effect/skillb/longjunfen/1_009
+effect/born/xinxin/1_00019
   rotate: false
-  xy: 356, 2
-  size: 340, 340
-  orig: 362, 343
-  offset: 0, 0
+  xy: 872, 4
+  size: 55, 99
+  orig: 158, 152
+  offset: 47, 43
   index: -1
-effect/skillb/longjunfen/1_017
+effect/born/xinxin/1_00025
+  rotate: false
+  xy: 790, 2
+  size: 80, 101
+  orig: 158, 152
+  offset: 31, 30
+  index: -1
+effect/born/xinxin/1_00029
+  rotate: false
+  xy: 650, 592
+  size: 97, 88
+  orig: 158, 152
+  offset: 23, 49
+  index: -1
+effect/born/xinxin/1_00031
+  rotate: false
+  xy: 594, 366
+  size: 92, 81
+  orig: 158, 152
+  offset: 25, 19
+  index: -1
+effect/born/xinxin/1_00035
+  rotate: true
+  xy: 929, 39
+  size: 64, 91
+  orig: 158, 152
+  offset: 66, 49
+  index: -1
+effect/born/zhunshi/1_00027
+  rotate: true
+  xy: 525, 360
+  size: 87, 67
+  orig: 224, 143
+  offset: 71, 7
+  index: -1
+effect/skilla/dian/1_00079
+  rotate: true
+  xy: 965, 3
+  size: 34, 24
+  orig: 50, 42
+  offset: 6, 6
+  index: -1
+effect/skilla/dian/1_00080
+  rotate: true
+  xy: 965, 3
+  size: 34, 24
+  orig: 50, 42
+  offset: 6, 6
+  index: -1
+effect/skilla/dian/1_00081
+  rotate: false
+  xy: 929, 3
+  size: 34, 34
+  orig: 50, 42
+  offset: 7, 1
+  index: -1
+effect/skilla/dian/1_00082
+  rotate: false
+  xy: 929, 3
+  size: 34, 34
+  orig: 50, 42
+  offset: 7, 1
+  index: -1
+effect/skillb/daoguang/1_00125
+  rotate: false
+  xy: 505, 449
+  size: 143, 172
+  orig: 151, 182
+  offset: 0, 6
+  index: -1
+effect/skillb/daoguang/1_00132
+  rotate: false
+  xy: 362, 623
+  size: 24, 77
+  orig: 151, 182
+  offset: 23, 91
+  index: -1
+effect/skillb/de/de_25
+  rotate: true
+  xy: 2, 3
+  size: 355, 341
+  orig: 365, 345
+  offset: 10, 0
+  index: -1
+effect/skillb/de/de_4
+  rotate: false
+  xy: 688, 105
+  size: 334, 341
+  orig: 365, 345
+  offset: 7, 0
+  index: -1
+effect/skillb/en/1_026
   rotate: false
   xy: 389, 682
-  size: 343, 340
+  size: 358, 340
   orig: 362, 343
   offset: 4, 0
   index: -1
-effect/skillb/longjunfen/1_025
+effect/skillb/es/es_25
+  rotate: true
+  xy: 345, 3
+  size: 355, 341
+  orig: 365, 345
+  offset: 10, 0
+  index: -1
+effect/skillb/hit/1_00088
+  rotate: true
+  xy: 362, 448
+  size: 173, 141
+  orig: 185, 149
+  offset: 7, 4
+  index: -1
+effect/skillb/hit/1_00096
+  rotate: true
+  xy: 650, 457
+  size: 133, 94
+  orig: 185, 149
+  offset: 16, 35
+  index: -1
+effect/skillb/ko/1_00149
   rotate: false
   xy: 2, 360
-  size: 354, 340
+  size: 358, 340
   orig: 362, 343
-  offset: 8, 0
+  offset: 4, 0
   index: -1
-effect/skillb/longjunfen/1_027
+effect/skillb/yanwu/1_00120
   rotate: false
-  xy: 2, 18
-  size: 352, 340
-  orig: 362, 343
-  offset: 4, 0
+  xy: 513, 625
+  size: 112, 55
+  orig: 178, 99
+  offset: 32, 14
   index: -1
-effect/skillb/longjunfen/1_031
-  rotate: true
-  xy: 700, 350
-  size: 330, 322
-  orig: 362, 343
-  offset: 5, 0
+effect/skillb/yanwu/1_00124
+  rotate: false
+  xy: 388, 623
+  size: 123, 57
+  orig: 178, 99
+  offset: 28, 11
   index: -1
-effect/skillb/longjunfen/1_035
-  rotate: true
-  xy: 734, 690
-  size: 332, 281
-  orig: 362, 343
-  offset: 4, 0
+effect/skillb/yanwu/1_00128
+  rotate: false
+  xy: 362, 360
+  size: 161, 86
+  orig: 178, 99
+  offset: 8, 5
   index: -1
-effect/skillb/longjunfen2/1_00149
+effect/skillb/zh/1_00151
   rotate: true
-  xy: 698, 14
-  size: 328, 300
+  xy: 749, 448
+  size: 285, 269
   orig: 362, 343
-  offset: 20, 14
+  offset: 21, 20
+  index: -1
+effect/skillb/zn/1_00151
+  rotate: true
+  xy: 749, 735
+  size: 287, 269
+  orig: 362, 343
+  offset: 20, 20
   index: -1
 
 effects_264012.png
@@ -73,68 +192,89 @@ size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-effect/skillb/longjunfen/1_003
+effect/skilla/dian/1_00083
+  rotate: true
+  xy: 713, 338
+  size: 39, 38
+  orig: 50, 42
+  offset: 7, 0
+  index: -1
+effect/skilla/dian/1_00085
+  rotate: true
+  xy: 822, 340
+  size: 37, 40
+  orig: 50, 42
+  offset: 9, 0
+  index: -1
+effect/skillb/de/de_27
   rotate: false
-  xy: 2, 340
-  size: 336, 340
+  xy: 359, 338
+  size: 352, 341
+  orig: 365, 345
+  offset: 6, 0
+  index: -1
+effect/skillb/de/de_34
+  rotate: false
+  xy: 688, 3
+  size: 332, 333
+  orig: 365, 345
+  offset: 10, 0
+  index: -1
+effect/skillb/en/1_028
+  rotate: true
+  xy: 716, 696
+  size: 326, 305
   orig: 362, 343
   offset: 4, 0
   index: -1
-effect/skillb/longjunfen/1_005
-  rotate: true
-  xy: 678, 690
-  size: 332, 340
-  orig: 362, 343
-  offset: 8, 0
-  index: -1
-effect/skillb/longjunfen/1_007
-  rotate: true
-  xy: 678, 356
-  size: 332, 340
-  orig: 362, 343
-  offset: 8, 0
-  index: -1
-effect/skillb/longjunfen/1_011
-  rotate: false
-  xy: 2, 682
-  size: 338, 340
-  orig: 362, 343
-  offset: 2, 0
-  index: -1
-effect/skillb/longjunfen/1_013
-  rotate: true
-  xy: 344, 3
-  size: 335, 340
-  orig: 362, 343
-  offset: 5, 0
-  index: -1
-effect/skillb/longjunfen/1_015
-  rotate: false
-  xy: 686, 14
-  size: 329, 340
-  orig: 362, 343
-  offset: 11, 0
-  index: -1
-effect/skillb/longjunfen/1_019
+effect/skillb/es/es_4
   rotate: true
   xy: 2, 2
-  size: 336, 340
-  orig: 362, 343
-  offset: 4, 0
+  size: 334, 341
+  orig: 365, 345
+  offset: 7, 0
   index: -1
-effect/skillb/longjunfen/1_021
+effect/skillb/fr/fr_25
   rotate: false
-  xy: 340, 340
-  size: 336, 340
-  orig: 362, 343
-  offset: 4, 0
+  xy: 2, 681
+  size: 355, 341
+  orig: 365, 345
+  offset: 10, 0
   index: -1
-effect/skillb/longjunfen/1_023
+effect/skillb/fr/fr_4
+  rotate: true
+  xy: 345, 2
+  size: 334, 341
+  orig: 365, 345
+  offset: 7, 0
+  index: -1
+effect/skillb/id/id_25
   rotate: false
-  xy: 342, 682
-  size: 334, 340
+  xy: 2, 338
+  size: 355, 341
+  orig: 365, 345
+  offset: 10, 0
+  index: -1
+effect/skillb/th/th_25
+  rotate: false
+  xy: 359, 681
+  size: 355, 341
+  orig: 365, 345
+  offset: 10, 0
+  index: -1
+effect/skillb/yanwu/1_00113
+  rotate: false
+  xy: 753, 345
+  size: 67, 32
+  orig: 178, 99
+  offset: 55, 27
+  index: -1
+effect/skillb/zn/1_00123
+  rotate: false
+  xy: 713, 379
+  size: 309, 300
   orig: 362, 343
-  offset: 8, 0
+  offset: 21, 14
   index: -1
 
 effects_264013.png
@@ -142,278 +282,68 @@ size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-effect/born/xinxin/1_00013
+effect/skillb/de/de_29
   rotate: true
-  xy: 326, 4
-  size: 44, 51
-  orig: 158, 152
-  offset: 66, 64
+  xy: 710, 696
+  size: 326, 310
+  orig: 365, 345
+  offset: 5, 0
   index: -1
-effect/born/xinxin/1_00017
+effect/skillb/es/es_27
+  rotate: false
+  xy: 2, 681
+  size: 352, 341
+  orig: 365, 345
+  offset: 6, 0
+  index: -1
+effect/skillb/es/es_29
+  rotate: true
+  xy: 710, 368
+  size: 326, 310
+  orig: 365, 345
+  offset: 5, 0
+  index: -1
+effect/skillb/es/es_34
+  rotate: false
+  xy: 688, 3
+  size: 332, 333
+  orig: 365, 345
+  offset: 10, 0
+  index: -1
+effect/skillb/fr/fr_27
+  rotate: false
+  xy: 2, 338
+  size: 352, 341
+  orig: 365, 345
+  offset: 6, 0
+  index: -1
+effect/skillb/id/id_27
+  rotate: false
+  xy: 356, 681
+  size: 352, 341
+  orig: 365, 345
+  offset: 6, 0
+  index: -1
+effect/skillb/id/id_4
   rotate: true
   xy: 2, 2
-  size: 43, 94
-  orig: 158, 152
-  offset: 51, 48
-  index: -1
-effect/born/xinxin/1_00021
-  rotate: false
-  xy: 769, 733
-  size: 63, 108
-  orig: 158, 152
-  offset: 40, 38
-  index: -1
-effect/born/xinxin/1_00023
-  rotate: false
-  xy: 834, 910
-  size: 66, 112
-  orig: 158, 152
-  offset: 35, 37
-  index: -1
-effect/born/xinxin/1_00033
-  rotate: false
-  xy: 917, 539
-  size: 105, 123
-  orig: 158, 152
-  offset: 22, 16
-  index: -1
-effect/born/xinxin/1_00035
-  rotate: false
-  xy: 834, 763
-  size: 64, 91
-  orig: 158, 152
-  offset: 66, 49
-  index: -1
-effect/born/xinxin/1_00037
-  rotate: false
-  xy: 917, 296
-  size: 104, 130
-  orig: 158, 152
-  offset: 19, 11
-  index: -1
-effect/born/xinxin/1_00041
-  rotate: false
-  xy: 902, 163
-  size: 118, 131
-  orig: 158, 152
-  offset: 21, 13
-  index: -1
-effect/born/xinxin/1_00043
-  rotate: false
-  xy: 902, 664
-  size: 119, 102
-  orig: 158, 152
-  offset: 19, 10
-  index: -1
-effect/born/zhunshi/1_00032
-  rotate: false
-  xy: 917, 428
-  size: 105, 109
-  orig: 224, 143
-  offset: 71, 10
-  index: -1
-effect/born/zhunshi/1_00034
-  rotate: true
-  xy: 902, 887
-  size: 135, 120
-  orig: 224, 143
-  offset: 52, 10
-  index: -1
-effect/born/zhunshi/1_00040
-  rotate: false
-  xy: 633, 843
-  size: 192, 103
-  orig: 224, 143
-  offset: 21, 2
-  index: -1
-effect/born/zhunshi/1_00042
-  rotate: false
-  xy: 633, 948
-  size: 197, 74
-  orig: 224, 143
-  offset: 18, 2
-  index: -1
-effect/born/zhunshi/1_00050
-  rotate: false
-  xy: 615, 665
-  size: 217, 50
-  orig: 224, 143
-  offset: 2, 2
-  index: -1
-effect/skilla/dian/1_00079
-  rotate: true
-  xy: 300, 11
-  size: 34, 24
-  orig: 50, 42
-  offset: 6, 6
-  index: -1
-effect/skilla/dian/1_00080
-  rotate: true
-  xy: 300, 11
-  size: 34, 24
-  orig: 50, 42
-  offset: 6, 6
-  index: -1
-effect/skilla/dian/1_00081
-  rotate: false
-  xy: 264, 11
-  size: 34, 34
-  orig: 50, 42
-  offset: 7, 1
-  index: -1
-effect/skilla/dian/1_00082
-  rotate: false
-  xy: 264, 11
-  size: 34, 34
-  orig: 50, 42
-  offset: 7, 1
-  index: -1
-effect/skilla/dian/1_00083
-  rotate: true
-  xy: 224, 6
-  size: 39, 38
-  orig: 50, 42
+  size: 334, 341
+  orig: 365, 345
   offset: 7, 0
   index: -1
-effect/skilla/dian/1_00085
+effect/skillb/th/th_27
   rotate: false
-  xy: 185, 5
-  size: 37, 40
-  orig: 50, 42
-  offset: 9, 0
+  xy: 356, 338
+  size: 352, 341
+  orig: 365, 345
+  offset: 6, 0
   index: -1
-effect/skilla/glow3_00117
-  rotate: false
-  xy: 606, 2
-  size: 168, 73
-  orig: 179, 84
-  offset: 7, 2
-  index: -1
-effect/skillb/daoguang/1_00131
+effect/skillb/th/th_4
   rotate: true
-  xy: 834, 856
-  size: 52, 66
-  orig: 151, 182
-  offset: 20, 93
-  index: -1
-effect/skillb/daoguang/1_00132
-  rotate: true
-  xy: 448, 24
-  size: 24, 77
-  orig: 151, 182
-  offset: 23, 91
-  index: -1
-effect/skillb/hit/1_00085
-  rotate: false
-  xy: 902, 768
-  size: 119, 117
-  orig: 185, 149
-  offset: 27, 11
-  index: -1
-effect/skillb/hit/1_00094
-  rotate: true
-  xy: 902, 26
-  size: 135, 117
-  orig: 185, 149
-  offset: 0, 21
-  index: -1
-effect/skillb/hit/1_00098
-  rotate: true
-  xy: 688, 726
-  size: 115, 79
-  orig: 185, 149
-  offset: 38, 40
-  index: -1
-effect/skillb/longjunfen/1_029
-  rotate: true
-  xy: 2, 362
-  size: 326, 309
-  orig: 362, 343
-  offset: 4, 0
-  index: -1
-effect/skillb/longjunfen/1_033
-  rotate: false
-  xy: 2, 690
-  size: 327, 332
-  orig: 362, 343
-  offset: 17, 0
-  index: -1
-effect/skillb/longjunfen2/1_00123
-  rotate: true
-  xy: 313, 379
-  size: 309, 300
-  orig: 362, 343
-  offset: 21, 14
-  index: -1
-effect/skillb/longjunfen2/1_00125
-  rotate: true
-  xy: 331, 717
-  size: 305, 300
-  orig: 362, 343
-  offset: 20, 14
-  index: -1
-effect/skillb/longjunfen2/1_00129
-  rotate: true
-  xy: 615, 379
-  size: 283, 300
-  orig: 362, 343
-  offset: 30, 14
-  index: -1
-effect/skillb/longjunfen2/1_00133
-  rotate: true
-  xy: 304, 50
-  size: 310, 300
-  orig: 362, 343
-  offset: 3, 14
-  index: -1
-effect/skillb/longjunfen2/1_00141
-  rotate: false
-  xy: 606, 77
-  size: 294, 300
-  orig: 362, 343
-  offset: 21, 14
-  index: -1
-effect/skillb/longjunfen2/1_00147
-  rotate: true
-  xy: 2, 47
-  size: 313, 300
-  orig: 362, 343
-  offset: 30, 14
-  index: -1
-effect/skillb/yanwu/1_00113
-  rotate: false
-  xy: 379, 16
-  size: 67, 32
-  orig: 178, 99
-  offset: 55, 27
-  index: -1
-effect/skillb/yanwu/1_00114
-  rotate: false
-  xy: 98, 4
-  size: 85, 41
-  orig: 178, 99
-  offset: 46, 19
-  index: -1
-effect/skillb/yanwu/1_00116
-  rotate: true
-  xy: 834, 667
-  size: 94, 47
-  orig: 178, 99
-  offset: 41, 17
-  index: -1
-effect/skillb/yanwu/1_00122
-  rotate: true
-  xy: 633, 724
-  size: 117, 53
-  orig: 178, 99
-  offset: 29, 15
-  index: -1
-effect/skillb/yanwu/1_00124
-  rotate: false
-  xy: 776, 18
-  size: 123, 57
-  orig: 178, 99
-  offset: 28, 11
+  xy: 345, 2
+  size: 334, 341
+  orig: 365, 345
+  offset: 7, 0
   index: -1
 
 effects_264014.png
@@ -421,19 +351,987 @@ size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-effect/born/glow2_00013
+effect/skillb/de/de_0
   rotate: false
-  xy: 879, 454
-  size: 100, 101
-  orig: 129, 130
-  offset: 13, 13
+  xy: 2, 680
+  size: 351, 341
+  orig: 365, 345
+  offset: 6, 0
+  index: -1
+effect/skillb/de/de_23
+  rotate: true
+  xy: 2, 2
+  size: 333, 341
+  orig: 365, 345
+  offset: 10, 0
+  index: -1
+effect/skillb/es/es_0
+  rotate: false
+  xy: 2, 337
+  size: 351, 341
+  orig: 365, 345
+  offset: 6, 0
+  index: -1
+effect/skillb/es/es_23
+  rotate: true
+  xy: 345, 2
+  size: 333, 341
+  orig: 365, 345
+  offset: 10, 0
+  index: -1
+effect/skillb/fr/fr_0
+  rotate: false
+  xy: 355, 680
+  size: 351, 341
+  orig: 365, 345
+  offset: 6, 0
+  index: -1
+effect/skillb/fr/fr_29
+  rotate: true
+  xy: 708, 695
+  size: 326, 310
+  orig: 365, 345
+  offset: 5, 0
+  index: -1
+effect/skillb/fr/fr_34
+  rotate: false
+  xy: 688, 2
+  size: 332, 333
+  orig: 365, 345
+  offset: 10, 0
+  index: -1
+effect/skillb/id/id_0
+  rotate: false
+  xy: 355, 337
+  size: 351, 341
+  orig: 365, 345
+  offset: 6, 0
+  index: -1
+effect/skillb/id/id_29
+  rotate: true
+  xy: 708, 367
+  size: 326, 310
+  orig: 365, 345
+  offset: 5, 0
+  index: -1
+
+effects_264015.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/born/zhunshi/1_00028
+  rotate: true
+  xy: 947, 3
+  size: 87, 67
+  orig: 224, 143
+  offset: 71, 7
+  index: -1
+effect/born/zhunshi/1_00030
+  rotate: true
+  xy: 697, 2
+  size: 88, 82
+  orig: 224, 143
+  offset: 71, 8
+  index: -1
+effect/skillb/de/de_8
+  rotate: true
+  xy: 2, 2
+  size: 335, 341
+  orig: 365, 345
+  offset: 6, 0
+  index: -1
+effect/skillb/en/1_000
+  rotate: false
+  xy: 355, 682
+  size: 351, 340
+  orig: 362, 343
+  offset: 4, 0
+  index: -1
+effect/skillb/en/1_008
+  rotate: true
+  xy: 355, 2
+  size: 336, 340
+  orig: 362, 343
+  offset: 4, 0
+  index: -1
+effect/skillb/en/1_024
+  rotate: false
+  xy: 355, 340
+  size: 351, 340
+  orig: 362, 343
+  offset: 11, 0
+  index: -1
+effect/skillb/ko/1_00123
+  rotate: false
+  xy: 2, 339
+  size: 351, 340
+  orig: 362, 343
+  offset: 4, 0
+  index: -1
+effect/skillb/th/th_0
+  rotate: false
+  xy: 2, 681
+  size: 351, 341
+  orig: 365, 345
+  offset: 6, 0
+  index: -1
+effect/skillb/th/th_29
+  rotate: true
+  xy: 708, 92
+  size: 326, 310
+  orig: 365, 345
+  offset: 5, 0
+  index: -1
+effect/skillb/yanwu/1_00130
+  rotate: false
+  xy: 781, 3
+  size: 164, 87
+  orig: 178, 99
+  offset: 8, 5
+  index: -1
+effect/skillb/zh/1_00147
+  rotate: false
+  xy: 708, 722
+  size: 313, 300
+  orig: 362, 343
+  offset: 30, 14
+  index: -1
+effect/skillb/zn/1_00147
+  rotate: false
+  xy: 708, 420
+  size: 313, 300
+  orig: 362, 343
+  offset: 30, 14
+  index: -1
+
+effects_264016.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/born/xinxin/1_00013
+  rotate: true
+  xy: 878, 344
+  size: 44, 51
+  orig: 158, 152
+  offset: 66, 64
+  index: -1
+effect/born/xinxin/1_00015
+  rotate: true
+  xy: 698, 339
+  size: 49, 82
+  orig: 158, 152
+  offset: 58, 55
+  index: -1
+effect/skillb/de/de_12
+  rotate: true
+  xy: 2, 2
+  size: 335, 341
+  orig: 365, 345
+  offset: 6, 0
+  index: -1
+effect/skillb/de/de_18
+  rotate: true
+  xy: 345, 2
+  size: 335, 341
+  orig: 365, 345
+  offset: 6, 0
+  index: -1
+effect/skillb/de/de_2
+  rotate: false
+  xy: 355, 681
+  size: 346, 341
+  orig: 365, 345
+  offset: 5, 0
+  index: -1
+effect/skillb/en/1_002
+  rotate: false
+  xy: 350, 339
+  size: 346, 340
+  orig: 362, 343
+  offset: 4, 0
+  index: -1
+effect/skillb/en/1_030
+  rotate: false
+  xy: 703, 707
+  size: 319, 315
+  orig: 362, 343
+  offset: 4, 0
+  index: -1
+effect/skillb/es/es_2
+  rotate: false
+  xy: 2, 339
+  size: 346, 341
+  orig: 365, 345
+  offset: 5, 0
+  index: -1
+effect/skillb/id/id_34
+  rotate: true
+  xy: 688, 5
+  size: 332, 333
+  orig: 365, 345
+  offset: 10, 0
+  index: -1
+effect/skillb/ko/1_00147
+  rotate: false
+  xy: 2, 682
+  size: 351, 340
+  orig: 362, 343
+  offset: 11, 0
+  index: -1
+effect/skillb/ko/1_00153
+  rotate: false
+  xy: 703, 390
+  size: 319, 315
+  orig: 362, 343
+  offset: 4, 0
+  index: -1
+effect/skillb/yanwu/1_00114
+  rotate: false
+  xy: 931, 347
+  size: 85, 41
+  orig: 178, 99
+  offset: 46, 19
+  index: -1
+effect/skillb/yanwu/1_00116
+  rotate: false
+  xy: 782, 341
+  size: 94, 47
+  orig: 178, 99
+  offset: 41, 17
+  index: -1
+
+effects_264017.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skillb/de/de_6
+  rotate: true
+  xy: 345, 3
+  size: 329, 341
+  orig: 365, 345
+  offset: 12, 0
+  index: -1
+effect/skillb/en/1_032
+  rotate: false
+  xy: 693, 6
+  size: 327, 330
+  orig: 362, 343
+  offset: 8, 0
+  index: -1
+effect/skillb/es/es_6
+  rotate: true
+  xy: 2, 2
+  size: 329, 341
+  orig: 365, 345
+  offset: 12, 0
+  index: -1
+effect/skillb/fr/fr_2
+  rotate: false
+  xy: 2, 681
+  size: 346, 341
+  orig: 365, 345
+  offset: 5, 0
+  index: -1
+effect/skillb/fr/fr_6
+  rotate: false
+  xy: 693, 681
+  size: 329, 341
+  orig: 365, 345
+  offset: 12, 0
+  index: -1
+effect/skillb/id/id_2
+  rotate: true
+  xy: 350, 676
+  size: 346, 341
+  orig: 365, 345
+  offset: 5, 0
+  index: -1
+effect/skillb/id/id_6
+  rotate: false
+  xy: 693, 338
+  size: 329, 341
+  orig: 365, 345
+  offset: 12, 0
+  index: -1
+effect/skillb/ko/1_00125
+  rotate: false
+  xy: 345, 334
+  size: 346, 340
+  orig: 362, 343
+  offset: 4, 0
+  index: -1
+effect/skillb/th/th_2
+  rotate: true
+  xy: 2, 333
+  size: 346, 341
+  orig: 365, 345
+  offset: 5, 0
+  index: -1
+
+effects_264018.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skillb/de/de_10
+  rotate: false
+  xy: 2, 680
+  size: 341, 341
+  orig: 365, 345
+  offset: 0, 0
+  index: -1
+effect/skillb/en/1_014
+  rotate: false
+  xy: 688, 338
+  size: 332, 340
+  orig: 362, 343
+  offset: 8, 0
+  index: -1
+effect/skillb/es/es_10
+  rotate: false
+  xy: 2, 337
+  size: 341, 341
+  orig: 365, 345
+  offset: 0, 0
+  index: -1
+effect/skillb/fr/fr_10
+  rotate: false
+  xy: 345, 680
+  size: 341, 341
+  orig: 365, 345
+  offset: 0, 0
+  index: -1
+effect/skillb/fr/fr_23
+  rotate: true
+  xy: 2, 2
+  size: 333, 341
+  orig: 365, 345
+  offset: 10, 0
+  index: -1
+effect/skillb/id/id_10
+  rotate: false
+  xy: 345, 337
+  size: 341, 341
+  orig: 365, 345
+  offset: 0, 0
+  index: -1
+effect/skillb/id/id_23
+  rotate: false
+  xy: 688, 680
+  size: 333, 341
+  orig: 365, 345
+  offset: 10, 0
+  index: -1
+effect/skillb/th/th_23
+  rotate: true
+  xy: 345, 2
+  size: 333, 341
+  orig: 365, 345
+  offset: 10, 0
+  index: -1
+effect/skillb/th/th_34
+  rotate: true
+  xy: 688, 4
+  size: 332, 333
+  orig: 365, 345
+  offset: 10, 0
+  index: -1
+
+effects_264019.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skillb/de/de_21
+  rotate: true
+  xy: 2, 2
+  size: 335, 341
+  orig: 365, 345
+  offset: 6, 0
+  index: -1
+effect/skillb/en/1_004
+  rotate: false
+  xy: 344, 339
+  size: 335, 340
+  orig: 362, 343
+  offset: 5, 0
+  index: -1
+effect/skillb/en/1_010
+  rotate: false
+  xy: 2, 339
+  size: 340, 340
+  orig: 362, 343
+  offset: 0, 0
+  index: -1
+effect/skillb/en/1_016
+  rotate: false
+  xy: 688, 2
+  size: 332, 340
+  orig: 362, 343
+  offset: 8, 0
+  index: -1
+effect/skillb/es/es_12
+  rotate: true
+  xy: 345, 2
+  size: 335, 341
+  orig: 365, 345
+  offset: 6, 0
+  index: -1
+effect/skillb/es/es_18
+  rotate: true
+  xy: 681, 344
+  size: 335, 341
+  orig: 365, 345
+  offset: 6, 0
+  index: -1
+effect/skillb/es/es_8
+  rotate: false
+  xy: 687, 681
+  size: 335, 341
+  orig: 365, 345
+  offset: 6, 0
+  index: -1
+effect/skillb/ko/1_00133
+  rotate: false
+  xy: 345, 682
+  size: 340, 340
+  orig: 362, 343
+  offset: 0, 0
+  index: -1
+effect/skillb/th/th_10
+  rotate: false
+  xy: 2, 681
+  size: 341, 341
+  orig: 365, 345
+  offset: 0, 0
+  index: -1
+
+effects_2640110.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skillb/en/1_012
+  rotate: true
+  xy: 2, 343
+  size: 336, 340
+  orig: 362, 343
+  offset: 4, 0
+  index: -1
+effect/skillb/en/1_018
+  rotate: true
+  xy: 339, 686
+  size: 336, 340
+  orig: 362, 343
+  offset: 4, 0
+  index: -1
+effect/skillb/en/1_020
+  rotate: true
+  xy: 2, 5
+  size: 336, 340
+  orig: 362, 343
+  offset: 4, 0
+  index: -1
+effect/skillb/es/es_21
+  rotate: false
+  xy: 2, 681
+  size: 335, 341
+  orig: 365, 345
+  offset: 6, 0
+  index: -1
+effect/skillb/fr/fr_12
+  rotate: true
+  xy: 681, 345
+  size: 335, 341
+  orig: 365, 345
+  offset: 6, 0
+  index: -1
+effect/skillb/fr/fr_18
+  rotate: false
+  xy: 686, 2
+  size: 335, 341
+  orig: 365, 345
+  offset: 6, 0
+  index: -1
+effect/skillb/fr/fr_8
+  rotate: false
+  xy: 344, 343
+  size: 335, 341
+  orig: 365, 345
+  offset: 6, 0
+  index: -1
+effect/skillb/ko/1_00131
+  rotate: true
+  xy: 344, 5
+  size: 336, 340
+  orig: 362, 343
+  offset: 4, 0
+  index: -1
+effect/skillb/ko/1_00135
+  rotate: false
+  xy: 681, 682
+  size: 336, 340
+  orig: 362, 343
+  offset: 4, 0
+  index: -1
+
+effects_2640111.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skillb/fr/fr_21
+  rotate: false
+  xy: 2, 681
+  size: 335, 341
+  orig: 365, 345
+  offset: 6, 0
+  index: -1
+effect/skillb/id/id_12
+  rotate: true
+  xy: 2, 6
+  size: 335, 341
+  orig: 365, 345
+  offset: 6, 0
+  index: -1
+effect/skillb/id/id_18
+  rotate: true
+  xy: 345, 6
+  size: 335, 341
+  orig: 365, 345
+  offset: 6, 0
+  index: -1
+effect/skillb/id/id_21
+  rotate: false
+  xy: 681, 681
+  size: 335, 341
+  orig: 365, 345
+  offset: 6, 0
+  index: -1
+effect/skillb/id/id_8
+  rotate: false
+  xy: 344, 343
+  size: 335, 341
+  orig: 365, 345
+  offset: 6, 0
+  index: -1
+effect/skillb/ko/1_00137
+  rotate: false
+  xy: 688, 2
+  size: 332, 340
+  orig: 362, 343
+  offset: 8, 0
+  index: -1
+effect/skillb/ko/1_00141
+  rotate: true
+  xy: 2, 343
+  size: 336, 340
+  orig: 362, 343
+  offset: 4, 0
+  index: -1
+effect/skillb/ko/1_00143
+  rotate: true
+  xy: 339, 686
+  size: 336, 340
+  orig: 362, 343
+  offset: 4, 0
+  index: -1
+effect/skillb/th/th_8
+  rotate: true
+  xy: 681, 344
+  size: 335, 341
+  orig: 365, 345
+  offset: 6, 0
+  index: -1
+
+effects_2640112.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skillb/de/de_14
+  rotate: true
+  xy: 2, 11
+  size: 331, 341
+  orig: 365, 345
+  offset: 10, 0
+  index: -1
+effect/skillb/de/de_16
+  rotate: false
+  xy: 687, 5
+  size: 331, 341
+  orig: 365, 345
+  offset: 10, 0
+  index: -1
+effect/skillb/en/1_022
+  rotate: false
+  xy: 345, 345
+  size: 335, 340
+  orig: 362, 343
+  offset: 5, 0
+  index: -1
+effect/skillb/ko/1_00127
+  rotate: true
+  xy: 345, 8
+  size: 335, 340
+  orig: 362, 343
+  offset: 5, 0
+  index: -1
+effect/skillb/ko/1_00139
+  rotate: true
+  xy: 682, 348
+  size: 332, 340
+  orig: 362, 343
+  offset: 8, 0
+  index: -1
+effect/skillb/ko/1_00145
+  rotate: false
+  xy: 682, 682
+  size: 335, 340
+  orig: 362, 343
+  offset: 5, 0
+  index: -1
+effect/skillb/th/th_12
+  rotate: false
+  xy: 2, 681
+  size: 335, 341
+  orig: 365, 345
+  offset: 6, 0
+  index: -1
+effect/skillb/th/th_18
+  rotate: true
+  xy: 2, 344
+  size: 335, 341
+  orig: 365, 345
+  offset: 6, 0
+  index: -1
+effect/skillb/th/th_21
+  rotate: true
+  xy: 339, 687
+  size: 335, 341
+  orig: 365, 345
+  offset: 6, 0
+  index: -1
+
+effects_2640113.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skillb/es/es_14
+  rotate: false
+  xy: 2, 678
+  size: 331, 341
+  orig: 365, 345
+  offset: 10, 0
+  index: -1
+effect/skillb/es/es_16
+  rotate: false
+  xy: 2, 335
+  size: 331, 341
+  orig: 365, 345
+  offset: 10, 0
+  index: -1
+effect/skillb/fr/fr_14
+  rotate: true
+  xy: 2, 2
+  size: 331, 341
+  orig: 365, 345
+  offset: 10, 0
+  index: -1
+effect/skillb/fr/fr_16
+  rotate: false
+  xy: 335, 678
+  size: 331, 341
+  orig: 365, 345
+  offset: 10, 0
+  index: -1
+effect/skillb/id/id_14
+  rotate: false
+  xy: 335, 335
+  size: 331, 341
+  orig: 365, 345
+  offset: 10, 0
+  index: -1
+effect/skillb/id/id_16
+  rotate: true
+  xy: 345, 2
+  size: 331, 341
+  orig: 365, 345
+  offset: 10, 0
+  index: -1
+effect/skillb/th/th_14
+  rotate: true
+  xy: 668, 688
+  size: 331, 341
+  orig: 365, 345
+  offset: 10, 0
+  index: -1
+effect/skillb/th/th_16
+  rotate: false
+  xy: 668, 345
+  size: 331, 341
+  orig: 365, 345
+  offset: 10, 0
+  index: -1
+effect/skillb/th/th_6
+  rotate: false
+  xy: 688, 2
+  size: 329, 341
+  orig: 365, 345
+  offset: 12, 0
+  index: -1
+
+effects_2640114.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skillb/de/de_32
+  rotate: false
+  xy: 336, 21
+  size: 326, 331
+  orig: 365, 345
+  offset: 10, 0
+  index: -1
+effect/skillb/en/1_006
+  rotate: false
+  xy: 2, 678
+  size: 329, 340
+  orig: 362, 343
+  offset: 11, 0
+  index: -1
+effect/skillb/en/1_034
+  rotate: false
+  xy: 2, 2
+  size: 332, 332
+  orig: 362, 343
+  offset: 8, 0
+  index: -1
+effect/skillb/es/es_32
+  rotate: true
+  xy: 662, 358
+  size: 326, 331
+  orig: 365, 345
+  offset: 10, 0
+  index: -1
+effect/skillb/fr/fr_32
+  rotate: false
+  xy: 667, 687
+  size: 326, 331
+  orig: 365, 345
+  offset: 10, 0
+  index: -1
+effect/skillb/id/id_32
+  rotate: false
+  xy: 664, 25
+  size: 326, 331
+  orig: 365, 345
+  offset: 10, 0
+  index: -1
+effect/skillb/ko/1_00129
+  rotate: false
+  xy: 2, 336
+  size: 329, 340
+  orig: 362, 343
+  offset: 11, 0
+  index: -1
+effect/skillb/ko/1_00155
+  rotate: false
+  xy: 333, 354
+  size: 327, 330
+  orig: 362, 343
+  offset: 8, 0
+  index: -1
+effect/skillb/ko/1_00157
+  rotate: false
+  xy: 333, 686
+  size: 332, 332
+  orig: 362, 343
+  offset: 8, 0
+  index: -1
+
+effects_2640115.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/born/zhunshi/1_00042
+  rotate: true
+  xy: 944, 32
+  size: 197, 74
+  orig: 224, 143
+  offset: 18, 2
+  index: -1
+effect/born/zhunshi/1_00044
+  rotate: false
+  xy: 121, 12
+  size: 201, 50
+  orig: 224, 143
+  offset: 16, 2
+  index: -1
+effect/born/zhunshi/1_00046
+  rotate: true
+  xy: 960, 389
+  size: 211, 50
+  orig: 224, 143
+  offset: 8, 2
+  index: -1
+effect/born/zhunshi/1_00050
+  rotate: true
+  xy: 970, 805
+  size: 217, 50
+  orig: 224, 143
+  offset: 2, 2
+  index: -1
+effect/born/zhunshi/1_00052
+  rotate: false
+  xy: 632, 4
+  size: 217, 50
+  orig: 224, 143
+  offset: 2, 2
+  index: -1
+effect/skillb/daoguang/1_00131
+  rotate: false
+  xy: 970, 737
+  size: 52, 66
+  orig: 151, 182
+  offset: 20, 93
+  index: -1
+effect/skillb/de/de_30
+  rotate: false
+  xy: 2, 373
+  size: 318, 316
+  orig: 365, 345
+  offset: 6, 0
+  index: -1
+effect/skillb/es/es_30
+  rotate: false
+  xy: 322, 373
+  size: 318, 316
+  orig: 365, 345
+  offset: 6, 0
+  index: -1
+effect/skillb/fr/fr_30
+  rotate: false
+  xy: 330, 706
+  size: 318, 316
+  orig: 365, 345
+  offset: 6, 0
+  index: -1
+effect/skillb/id/id_30
+  rotate: true
+  xy: 642, 386
+  size: 318, 316
+  orig: 365, 345
+  offset: 6, 0
+  index: -1
+effect/skillb/ko/1_00151
+  rotate: false
+  xy: 2, 64
+  size: 326, 307
+  orig: 362, 343
+  offset: 4, 0
+  index: -1
+effect/skillb/th/th_30
+  rotate: false
+  xy: 650, 706
+  size: 318, 316
+  orig: 365, 345
+  offset: 6, 0
+  index: -1
+effect/skillb/th/th_32
+  rotate: false
+  xy: 2, 691
+  size: 326, 331
+  orig: 365, 345
+  offset: 10, 0
+  index: -1
+effect/skillb/yanwu/1_00118
+  rotate: true
+  xy: 960, 602
+  size: 102, 55
+  orig: 178, 99
+  offset: 37, 16
+  index: -1
+effect/skillb/yanwu/1_00122
+  rotate: false
+  xy: 2, 9
+  size: 117, 53
+  orig: 178, 99
+  offset: 29, 15
+  index: -1
+effect/skillb/yanwu/1_00126
+  rotate: true
+  xy: 944, 231
+  size: 153, 76
+  orig: 178, 99
+  offset: 13, 6
+  index: -1
+effect/skillb/zh/1_00149
+  rotate: true
+  xy: 330, 44
+  size: 327, 300
+  orig: 362, 343
+  offset: 22, 14
+  index: -1
+effect/skillb/zn/1_00149
+  rotate: true
+  xy: 642, 56
+  size: 328, 300
+  orig: 362, 343
+  offset: 20, 14
+  index: -1
+
+effects_2640116.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/born/xinxin/1_00017
+  rotate: true
+  xy: 910, 33
+  size: 43, 94
+  orig: 158, 152
+  offset: 51, 48
+  index: -1
+effect/born/xinxin/1_00021
+  rotate: true
+  xy: 914, 569
+  size: 63, 108
+  orig: 158, 152
+  offset: 40, 38
+  index: -1
+effect/born/xinxin/1_00023
+  rotate: true
+  xy: 910, 78
+  size: 66, 112
+  orig: 158, 152
+  offset: 35, 37
   index: -1
 effect/born/xinxin/1_00027
-  rotate: false
-  xy: 891, 731
+  rotate: true
+  xy: 914, 634
   size: 86, 108
   orig: 158, 152
   offset: 30, 26
+  index: -1
+effect/born/xinxin/1_00033
+  rotate: true
+  xy: 678, 11
+  size: 105, 123
+  orig: 158, 152
+  offset: 22, 16
+  index: -1
+effect/born/xinxin/1_00037
+  rotate: true
+  xy: 546, 12
+  size: 104, 130
+  orig: 158, 152
+  offset: 19, 11
   index: -1
 effect/born/xinxin/1_00039
   rotate: true
@@ -442,289 +1340,357 @@ effect/born/xinxin/1_00039
   orig: 158, 152
   offset: 22, 14
   index: -1
-effect/born/zhunshi/1_00036
-  rotate: false
-  xy: 597, 4
-  size: 166, 128
-  orig: 224, 143
-  offset: 32, 10
-  index: -1
-effect/born/zhunshi/1_00038
+effect/born/xinxin/1_00043
   rotate: true
-  xy: 891, 841
-  size: 181, 125
+  xy: 920, 903
+  size: 119, 102
+  orig: 158, 152
+  offset: 19, 10
+  index: -1
+effect/born/zhunshi/1_00032
+  rotate: false
+  xy: 803, 7
+  size: 105, 109
   orig: 224, 143
-  offset: 24, 8
+  offset: 71, 10
+  index: -1
+effect/born/zhunshi/1_00034
+  rotate: true
+  xy: 898, 283
+  size: 135, 120
+  orig: 224, 143
+  offset: 52, 10
+  index: -1
+effect/born/zhunshi/1_00040
+  rotate: false
+  xy: 133, 13
+  size: 192, 103
+  orig: 224, 143
+  offset: 21, 2
   index: -1
 effect/born/zhunshi/1_00048
-  rotate: true
-  xy: 972, 81
+  rotate: false
+  xy: 327, 14
   size: 215, 50
   orig: 224, 143
   offset: 4, 2
   index: -1
-effect/born/zhunshi/1_00052
-  rotate: false
-  xy: 765, 4
-  size: 217, 50
-  orig: 224, 143
-  offset: 2, 2
-  index: -1
 effect/born/zhunshi/1_00054
-  rotate: true
-  xy: 920, 79
+  rotate: false
+  xy: 327, 66
   size: 217, 50
   orig: 224, 143
   offset: 2, 2
   index: -1
-effect/skillb/daoguang/1_00125
-  rotate: false
-  xy: 879, 557
-  size: 143, 172
-  orig: 151, 182
-  offset: 0, 6
+effect/skilla/glow3_00117
+  rotate: true
+  xy: 920, 733
+  size: 168, 73
+  orig: 179, 84
+  offset: 7, 2
   index: -1
-effect/skillb/daoguang/1_00129
-  rotate: false
-  xy: 883, 298
-  size: 138, 154
-  orig: 151, 182
-  offset: 5, 13
-  index: -1
-effect/skillb/hit/1_00096
-  rotate: false
-  xy: 462, 22
-  size: 133, 94
+effect/skillb/hit/1_00094
+  rotate: true
+  xy: 898, 146
+  size: 135, 117
   orig: 185, 149
-  offset: 16, 35
+  offset: 0, 21
   index: -1
-effect/skillb/longjunfen2/1_00127
+effect/skillb/hit/1_00098
+  rotate: true
+  xy: 914, 452
+  size: 115, 79
+  orig: 185, 149
+  offset: 38, 40
+  index: -1
+effect/skillb/zh/1_00123
   rotate: false
-  xy: 296, 118
-  size: 291, 300
+  xy: 314, 722
+  size: 308, 300
+  orig: 362, 343
+  offset: 23, 14
+  index: -1
+effect/skillb/zh/1_00125
+  rotate: false
+  xy: 314, 420
+  size: 303, 300
   orig: 362, 343
   offset: 22, 14
   index: -1
-effect/skillb/longjunfen2/1_00131
+effect/skillb/zh/1_00133
   rotate: false
   xy: 2, 722
+  size: 310, 300
+  orig: 362, 343
+  offset: 3, 14
+  index: -1
+effect/skillb/zn/1_00125
+  rotate: false
+  xy: 2, 118
+  size: 305, 300
+  orig: 362, 343
+  offset: 20, 14
+  index: -1
+effect/skillb/zn/1_00131
+  rotate: false
+  xy: 309, 118
   size: 293, 300
   orig: 362, 343
   offset: 20, 14
   index: -1
-effect/skillb/longjunfen2/1_00135
+effect/skillb/zn/1_00133
   rotate: false
-  xy: 2, 118
+  xy: 2, 420
+  size: 310, 300
+  orig: 362, 343
+  offset: 3, 14
+  index: -1
+effect/skillb/zn/1_00135
+  rotate: false
+  xy: 604, 118
   size: 292, 300
   orig: 362, 343
   offset: 21, 14
   index: -1
-effect/skillb/longjunfen2/1_00137
+effect/skillb/zn/1_00141
   rotate: false
-  xy: 297, 722
-  size: 289, 300
+  xy: 624, 722
+  size: 294, 300
   orig: 362, 343
-  offset: 24, 14
+  offset: 21, 14
   index: -1
-effect/skillb/longjunfen2/1_00139
+effect/skillb/zn/1_00143
   rotate: false
-  xy: 588, 429
-  size: 289, 300
-  orig: 362, 343
-  offset: 24, 14
-  index: -1
-effect/skillb/longjunfen2/1_00143
-  rotate: false
-  xy: 2, 420
+  xy: 619, 420
   size: 293, 300
   orig: 362, 343
   offset: 20, 14
   index: -1
-effect/skillb/longjunfen2/1_00145
-  rotate: true
-  xy: 589, 731
-  size: 291, 300
-  orig: 362, 343
-  offset: 22, 14
-  index: -1
-effect/skillb/longjunfen2/1_00155
-  rotate: false
-  xy: 297, 428
-  size: 287, 292
-  orig: 362, 343
-  offset: 24, 20
-  index: -1
-effect/skillb/longjunfen2/1_00157
-  rotate: false
-  xy: 589, 134
-  size: 292, 293
-  orig: 362, 343
-  offset: 24, 20
-  index: -1
-effect/skillb/yanwu/1_00126
-  rotate: false
-  xy: 765, 56
-  size: 153, 76
-  orig: 178, 99
-  offset: 13, 6
-  index: -1
-effect/skillb/yanwu/1_00128
-  rotate: false
-  xy: 299, 30
-  size: 161, 86
-  orig: 178, 99
-  offset: 8, 5
-  index: -1
-effect/skillb/yanwu/1_00130
-  rotate: false
-  xy: 133, 29
-  size: 164, 87
-  orig: 178, 99
-  offset: 8, 5
-  index: -1
 
-effects_264015.png
+effects_2640117.png
 size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-effect/born/xinxin/1_00015
-  rotate: false
-  xy: 223, 213
-  size: 49, 82
-  orig: 158, 152
-  offset: 58, 55
-  index: -1
-effect/born/xinxin/1_00019
+effect/born/xinxin/1_00041
   rotate: true
-  xy: 169, 297
-  size: 55, 99
+  xy: 879, 412
+  size: 118, 131
   orig: 158, 152
-  offset: 47, 43
+  offset: 21, 13
   index: -1
-effect/born/xinxin/1_00025
-  rotate: false
-  xy: 283, 768
-  size: 80, 101
-  orig: 158, 152
-  offset: 31, 30
-  index: -1
-effect/born/xinxin/1_00029
-  rotate: false
-  xy: 169, 354
-  size: 97, 88
-  orig: 158, 152
-  offset: 23, 49
-  index: -1
-effect/born/xinxin/1_00031
+effect/born/zhunshi/1_00038
   rotate: true
-  xy: 365, 777
-  size: 92, 81
-  orig: 158, 152
-  offset: 25, 19
-  index: -1
-effect/born/zhunshi/1_00027
-  rotate: false
-  xy: 538, 799
-  size: 87, 67
+  xy: 879, 532
+  size: 181, 125
   orig: 224, 143
-  offset: 71, 7
-  index: -1
-effect/born/zhunshi/1_00028
-  rotate: false
-  xy: 627, 802
-  size: 87, 67
-  orig: 224, 143
-  offset: 71, 7
-  index: -1
-effect/born/zhunshi/1_00030
-  rotate: false
-  xy: 448, 784
-  size: 88, 82
-  orig: 224, 143
-  offset: 71, 8
-  index: -1
-effect/born/zhunshi/1_00044
-  rotate: false
-  xy: 775, 910
-  size: 201, 50
-  orig: 224, 143
-  offset: 16, 2
-  index: -1
-effect/born/zhunshi/1_00046
-  rotate: false
-  xy: 775, 962
-  size: 211, 50
-  orig: 224, 143
-  offset: 8, 2
+  offset: 24, 8
   index: -1
 effect/skillb/daoguang/1_00127
-  rotate: true
-  xy: 622, 871
+  rotate: false
+  xy: 881, 871
   size: 141, 151
   orig: 151, 182
   offset: 2, 6
   index: -1
-effect/skillb/hit/1_00086
+effect/skillb/daoguang/1_00129
   rotate: false
-  xy: 2, 150
-  size: 162, 146
-  orig: 185, 149
-  offset: 13, 3
-  index: -1
-effect/skillb/hit/1_00087
-  rotate: false
-  xy: 2, 2
-  size: 162, 146
-  orig: 185, 149
-  offset: 13, 3
-  index: -1
-effect/skillb/hit/1_00088
-  rotate: false
-  xy: 283, 871
-  size: 173, 141
-  orig: 185, 149
-  offset: 7, 4
+  xy: 881, 715
+  size: 138, 154
+  orig: 151, 182
+  offset: 5, 13
   index: -1
 effect/skillb/hit/1_00090
-  rotate: false
-  xy: 458, 868
+  rotate: true
+  xy: 877, 81
   size: 162, 144
   orig: 185, 149
   offset: 0, 0
   index: -1
 effect/skillb/hit/1_00092
-  rotate: false
-  xy: 2, 298
+  rotate: true
+  xy: 877, 245
   size: 165, 144
   orig: 185, 149
   offset: 0, 0
   index: -1
-effect/skillb/longjunfen2/1_00151
-  rotate: true
-  xy: 2, 444
-  size: 287, 269
-  orig: 362, 343
-  offset: 20, 20
-  index: -1
-effect/skillb/longjunfen2/1_00153
+effect/skillb/zh/1_00127
   rotate: false
-  xy: 2, 733
+  xy: 295, 118
+  size: 289, 300
+  orig: 362, 343
+  offset: 24, 14
+  index: -1
+effect/skillb/zh/1_00131
+  rotate: false
+  xy: 2, 722
+  size: 291, 300
+  orig: 362, 343
+  offset: 22, 14
+  index: -1
+effect/skillb/zh/1_00135
+  rotate: false
+  xy: 2, 420
+  size: 291, 300
+  orig: 362, 343
+  offset: 22, 14
+  index: -1
+effect/skillb/zh/1_00141
+  rotate: false
+  xy: 295, 722
+  size: 291, 300
+  orig: 362, 343
+  offset: 23, 14
+  index: -1
+effect/skillb/zh/1_00143
+  rotate: false
+  xy: 2, 118
+  size: 291, 300
+  orig: 362, 343
+  offset: 22, 14
+  index: -1
+effect/skillb/zh/1_00145
+  rotate: false
+  xy: 588, 420
+  size: 289, 300
+  orig: 362, 343
+  offset: 24, 14
+  index: -1
+effect/skillb/zn/1_00127
+  rotate: false
+  xy: 295, 420
+  size: 291, 300
+  orig: 362, 343
+  offset: 22, 14
+  index: -1
+effect/skillb/zn/1_00137
+  rotate: false
+  xy: 586, 118
+  size: 289, 300
+  orig: 362, 343
+  offset: 24, 14
+  index: -1
+effect/skillb/zn/1_00145
+  rotate: false
+  xy: 588, 722
+  size: 291, 300
+  orig: 362, 343
+  offset: 22, 14
+  index: -1
+
+effects_2640118.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/born/zhunshi/1_00036
+  rotate: true
+  xy: 876, 528
+  size: 166, 128
+  orig: 224, 143
+  offset: 32, 10
+  index: -1
+effect/skillb/hit/1_00085
+  rotate: false
+  xy: 876, 409
+  size: 119, 117
+  orig: 185, 149
+  offset: 27, 11
+  index: -1
+effect/skillb/hit/1_00086
+  rotate: true
+  xy: 875, 860
+  size: 162, 146
+  orig: 185, 149
+  offset: 13, 3
+  index: -1
+effect/skillb/hit/1_00087
+  rotate: true
+  xy: 876, 696
+  size: 162, 146
+  orig: 185, 149
+  offset: 13, 3
+  index: -1
+effect/skillb/zh/1_00129
+  rotate: false
+  xy: 2, 118
+  size: 283, 300
+  orig: 362, 343
+  offset: 30, 14
+  index: -1
+effect/skillb/zh/1_00137
+  rotate: false
+  xy: 2, 420
+  size: 288, 300
+  orig: 362, 343
+  offset: 25, 14
+  index: -1
+effect/skillb/zh/1_00139
+  rotate: false
+  xy: 293, 722
+  size: 286, 300
+  orig: 362, 343
+  offset: 27, 14
+  index: -1
+effect/skillb/zh/1_00155
+  rotate: true
+  xy: 581, 441
+  size: 286, 293
+  orig: 362, 343
+  offset: 25, 20
+  index: -1
+effect/skillb/zh/1_00157
+  rotate: false
+  xy: 287, 124
+  size: 289, 294
+  orig: 362, 343
+  offset: 27, 20
+  index: -1
+effect/skillb/zn/1_00129
+  rotate: false
+  xy: 292, 420
+  size: 283, 300
+  orig: 362, 343
+  offset: 30, 14
+  index: -1
+effect/skillb/zn/1_00139
+  rotate: false
+  xy: 2, 722
+  size: 289, 300
+  orig: 362, 343
+  offset: 24, 14
+  index: -1
+effect/skillb/zn/1_00155
+  rotate: false
+  xy: 578, 147
+  size: 287, 292
+  orig: 362, 343
+  offset: 24, 20
+  index: -1
+effect/skillb/zn/1_00157
+  rotate: false
+  xy: 581, 729
+  size: 292, 293
+  orig: 362, 343
+  offset: 24, 20
+  index: -1
+
+effects_2640119.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/skillb/zh/1_00153
+  rotate: false
+  xy: 2, 283
+  size: 279, 280
+  orig: 362, 343
+  offset: 22, 20
+  index: -1
+effect/skillb/zn/1_00153
+  rotate: false
+  xy: 2, 2
   size: 279, 279
   orig: 362, 343
   offset: 21, 20
-  index: -1
-effect/skillb/yanwu/1_00118
-  rotate: true
-  xy: 166, 79
-  size: 102, 55
-  orig: 178, 99
-  offset: 37, 16
-  index: -1
-effect/skillb/yanwu/1_00120
-  rotate: true
-  xy: 166, 183
-  size: 112, 55
-  orig: 178, 99
-  offset: 32, 14
   index: -1

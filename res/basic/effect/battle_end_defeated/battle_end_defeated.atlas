@@ -4,72 +4,163 @@ size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-bai
+de/battle_end_defeated_de
   rotate: false
-  xy: 666, 761
-  size: 94, 85
-  orig: 100, 100
-  offset: 5, 5
+  xy: 2, 317
+  size: 374, 75
+  orig: 387, 100
+  offset: 7, 6
   index: -1
 di_00000
   rotate: false
-  xy: 2, 230
+  xy: 2, 394
   size: 800, 114
   orig: 800, 150
   offset: 0, 22
   index: -1
-dou
+en/ying
   rotate: false
-  xy: 762, 762
-  size: 84, 84
-  orig: 100, 100
-  offset: 2, 6
+  xy: 2, 252
+  size: 248, 63
+  orig: 360, 100
+  offset: 58, 23
+  index: -1
+es/battle_end_defeated_es
+  rotate: false
+  xy: 378, 329
+  size: 244, 63
+  orig: 387, 100
+  offset: 72, 23
   index: -1
 fense
   rotate: false
-  xy: 98, 156
+  xy: 2, 19
   size: 7, 7
   orig: 11, 11
   offset: 2, 2
   index: -1
 final_00047_00000
   rotate: false
-  xy: 2, 346
+  xy: 2, 510
   size: 662, 500
   orig: 664, 500
   offset: 2, 0
   index: -1
+fr/battle_end_defeated_fr
+  rotate: false
+  xy: 666, 944
+  size: 267, 66
+  orig: 387, 100
+  offset: 72, 23
+  index: -1
 heidi001
   rotate: false
-  xy: 252, 178
+  xy: 666, 510
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 huangse
   rotate: false
-  xy: 2, 69
+  xy: 848, 869
   size: 8, 8
   orig: 12, 12
   offset: 2, 2
   index: -1
-shi
+id/battle_end_defeated_id
   rotate: false
-  xy: 666, 675
+  xy: 666, 879
+  size: 214, 63
+  orig: 387, 100
+  offset: 72, 23
+  index: -1
+ko/bai_00000
+  rotate: false
+  xy: 666, 562
+  size: 75, 70
+  orig: 75, 70
+  offset: 0, 0
+  index: -1
+ko/dou_00000
+  rotate: false
+  xy: 624, 323
+  size: 72, 69
+  orig: 72, 69
+  offset: 0, 0
+  index: -1
+ko/shi_00000
+  rotate: false
+  xy: 698, 323
+  size: 70, 69
+  orig: 70, 69
+  offset: 0, 0
+  index: -1
+ko/zhan_00000
+  rotate: false
+  xy: 252, 247
+  size: 73, 68
+  orig: 73, 68
+  offset: 0, 0
+  index: -1
+th/battle_end_defeated_th
+  rotate: false
+  xy: 2, 186
+  size: 213, 64
+  orig: 387, 100
+  offset: 95, 20
+  index: -1
+zh/bai2
+  rotate: false
+  xy: 2, 28
+  size: 80, 70
+  orig: 80, 70
+  offset: 0, 0
+  index: -1
+zh/dou2
+  rotate: false
+  xy: 98, 115
+  size: 77, 69
+  orig: 77, 69
+  offset: 0, 0
+  index: -1
+zh/shi2
+  rotate: false
+  xy: 666, 634
+  size: 76, 70
+  orig: 76, 70
+  offset: 0, 0
+  index: -1
+zh/zhan2
+  rotate: false
+  xy: 935, 940
+  size: 75, 70
+  orig: 75, 70
+  offset: 0, 0
+  index: -1
+zn/bai
+  rotate: false
+  xy: 666, 792
+  size: 94, 85
+  orig: 100, 100
+  offset: 5, 5
+  index: -1
+zn/dou
+  rotate: false
+  xy: 762, 793
+  size: 84, 84
+  orig: 100, 100
+  offset: 2, 6
+  index: -1
+zn/shi
+  rotate: false
+  xy: 666, 706
   size: 89, 84
   orig: 100, 100
   offset: 4, 6
   index: -1
-ying
+zn/zhan
   rotate: false
-  xy: 2, 165
-  size: 248, 63
-  orig: 360, 100
-  offset: 58, 23
-  index: -1
-zhan
-  rotate: false
-  xy: 2, 79
+  xy: 2, 100
   size: 94, 84
   orig: 100, 100
   offset: 1, 6

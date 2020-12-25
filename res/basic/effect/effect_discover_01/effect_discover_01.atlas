@@ -4,117 +4,131 @@ size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-100
-  rotate: true
-  xy: 668, 12
-  size: 282, 100
-  orig: 282, 100
+Glow_Flare_009
+  rotate: false
+  xy: 739, 14
+  size: 230, 230
+  orig: 230, 230
   offset: 0, 0
+  index: -1
+baodian/baodian_00002
+  rotate: true
+  xy: 630, 335
+  size: 424, 392
+  orig: 450, 450
+  offset: 22, 41
+  index: -1
+de/de_02_0
+  rotate: false
+  xy: 2, 535
+  size: 603, 123
+  orig: 675, 180
+  offset: 37, 28
+  index: -1
+en/02
+  rotate: true
+  xy: 510, 5
+  size: 403, 90
+  orig: 526, 90
+  offset: 79, 0
+  index: -1
+en/02_000
+  rotate: true
+  xy: 418, 4
+  size: 404, 90
+  orig: 526, 90
+  offset: 76, 0
+  index: -1
+es/es_01_0
+  rotate: true
+  xy: 2, 21
+  size: 512, 126
+  orig: 675, 180
+  offset: 99, 28
   index: -1
 fense
-  rotate: true
-  xy: 979, 974
-  size: 13, 19
-  orig: 16, 21
-  offset: 3, 2
-  index: -1
-final_00047_00000
   rotate: false
-  xy: 2, 252
-  size: 664, 500
-  orig: 664, 500
-  offset: 0, 0
+  xy: 708, 901
+  size: 12, 17
+  orig: 14, 19
+  offset: 2, 2
+  index: -1
+fr/fr_01_0
+  rotate: false
+  xy: 130, 410
+  size: 498, 123
+  orig: 675, 180
+  offset: 104, 28
   index: -1
 heidi001
   rotate: false
-  xy: 922, 41
-  size: 50, 50
-  orig: 50, 50
+  xy: 661, 873
+  size: 45, 45
+  orig: 45, 45
   offset: 0, 0
   index: -1
 huangse
   rotate: false
-  xy: 979, 989
-  size: 39, 32
-  orig: 42, 33
-  offset: 3, 1
+  xy: 661, 842
+  size: 36, 29
+  orig: 38, 30
+  offset: 2, 1
+  index: -1
+koxulie/zuozhanchenggongshangceng_00002
+  rotate: false
+  xy: 724, 898
+  size: 297, 124
+  orig: 675, 155
+  offset: 10, 9
+  index: -1
+koxulie/zuozhanchenggongshangceng_00006
+  rotate: false
+  xy: 2, 660
+  size: 626, 128
+  orig: 675, 155
+  offset: 10, 6
+  index: -1
+koxulie/zuozhanchenggongshangceng_00007
+  rotate: false
+  xy: 2, 790
+  size: 657, 128
+  orig: 675, 155
+  offset: 10, 6
   index: -1
 shenglidi
   rotate: false
-  xy: 2, 907
-  size: 800, 114
-  orig: 800, 150
-  offset: 0, 24
+  xy: 2, 920
+  size: 720, 102
+  orig: 720, 135
+  offset: 0, 22
   index: -1
-suo
+th/effect_discover_01_th
   rotate: false
-  xy: 922, 93
-  size: 97, 101
-  orig: 97, 101
-  offset: 0, 0
+  xy: 602, 246
+  size: 410, 87
+  orig: 675, 180
+  offset: 123, 48
   index: -1
 tiao1_00000
   rotate: true
-  xy: 668, 296
-  size: 450, 317
-  orig: 450, 320
-  offset: 0, 3
-  index: -1
-xiaoshi
-  rotate: false
-  xy: 96, 12
-  size: 400, 85
-  orig: 400, 100
-  offset: 0, 6
-  index: -1
-xulie/tansuowancheng_00004
-  rotate: false
-  xy: 2, 5
-  size: 92, 92
-  orig: 700, 250
-  offset: 76, 90
-  index: -1
-xulie/tansuowancheng_00005
-  rotate: false
-  xy: 804, 900
-  size: 173, 121
-  orig: 700, 250
-  offset: 46, 74
+  xy: 130, 3
+  size: 405, 286
+  orig: 405, 288
+  offset: 0, 2
   index: -1
 xulie/tansuowancheng_00006
   rotate: true
-  xy: 770, 30
-  size: 264, 150
-  orig: 700, 250
-  offset: 16, 58
+  xy: 602, 6
+  size: 238, 135
+  orig: 630, 225
+  offset: 14, 52
   index: -1
 xulie/tansuowancheng_00007
   rotate: false
-  xy: 670, 748
-  size: 339, 150
-  orig: 700, 250
-  offset: 16, 58
-  index: -1
-xulie/tansuowancheng_00009
-  rotate: false
-  xy: 2, 99
-  size: 613, 151
-  orig: 700, 250
-  offset: 16, 58
-  index: -1
-xulie/tansuowancheng_00010
-  rotate: false
-  xy: 2, 754
-  size: 666, 151
-  orig: 700, 250
-  offset: 16, 58
-  index: -1
-yan
-  rotate: true
-  xy: 922, 196
-  size: 98, 99
-  orig: 98, 99
-  offset: 0, 0
+  xy: 708, 761
+  size: 306, 135
+  orig: 630, 225
+  offset: 14, 52
   index: -1
 
 effect_discover_012.png
@@ -122,75 +136,103 @@ size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-01
+baodian/baodian_00000
   rotate: false
-  xy: 2, 662
-  size: 538, 100
-  orig: 584, 100
-  offset: 11, 0
+  xy: 604, 641
+  size: 412, 381
+  orig: 450, 450
+  offset: 29, 52
   index: -1
-01_000
+baodian/baodian_00001
   rotate: false
-  xy: 2, 764
-  size: 541, 100
-  orig: 584, 100
-  offset: 14, 0
-  index: -1
-02
-  rotate: false
-  xy: 565, 814
-  size: 447, 100
-  orig: 584, 100
-  offset: 88, 0
-  index: -1
-02_000
-  rotate: false
-  xy: 565, 916
-  size: 449, 100
-  orig: 584, 100
-  offset: 84, 0
-  index: -1
-Glow_Flare_009
-  rotate: false
-  xy: 2, 404
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-baodian/baodian_00002
-  rotate: false
-  xy: 545, 377
-  size: 471, 435
-  orig: 500, 500
-  offset: 24, 46
+  xy: 604, 641
+  size: 412, 381
+  orig: 450, 450
+  offset: 29, 52
   index: -1
 baodian/baodian_00005
-  rotate: false
+  rotate: true
   xy: 2, 2
-  size: 478, 373
-  orig: 500, 500
-  offset: 19, 47
+  size: 430, 336
+  orig: 450, 450
+  offset: 17, 42
   index: -1
-baodian/baodian_00006
+es/02
   rotate: false
-  xy: 482, 87
-  size: 479, 288
-  orig: 500, 500
-  offset: 18, 133
+  xy: 538, 112
+  size: 477, 90
+  orig: 504, 90
+  offset: 3, 0
   index: -1
-mask_18-2
+final_00047_00000
   rotate: false
-  xy: 260, 404
-  size: 256, 256
-  orig: 256, 256
+  xy: 2, 434
+  size: 598, 450
+  orig: 598, 450
   offset: 0, 0
   index: -1
-xulie/tansuowancheng_00008
+fr/01
   rotate: false
-  xy: 2, 866
-  size: 561, 150
-  orig: 700, 250
-  offset: 16, 58
+  xy: 538, 204
+  size: 480, 90
+  orig: 518, 90
+  offset: 34, 0
+  index: -1
+fr/02
+  rotate: false
+  xy: 602, 436
+  size: 373, 77
+  orig: 374, 90
+  offset: 1, 13
+  index: -1
+fr/fr_02_0
+  rotate: false
+  xy: 538, 3
+  size: 392, 107
+  orig: 675, 180
+  offset: 142, 47
+  index: -1
+id/02
+  rotate: true
+  xy: 459, 7
+  size: 287, 77
+  orig: 293, 90
+  offset: 0, 13
+  index: -1
+koxulie/zuozhanchenggongshangceng_00003
+  rotate: false
+  xy: 602, 515
+  size: 380, 124
+  orig: 675, 155
+  offset: 10, 9
+  index: -1
+th/th_01_0
+  rotate: true
+  xy: 340, 4
+  size: 428, 117
+  orig: 675, 180
+  offset: 114, 38
+  index: -1
+xulie/tansuowancheng_00009
+  rotate: false
+  xy: 459, 296
+  size: 552, 136
+  orig: 630, 225
+  offset: 14, 52
+  index: -1
+xulie/tansuowancheng_00010
+  rotate: false
+  xy: 2, 886
+  size: 600, 136
+  orig: 630, 225
+  offset: 14, 52
+  index: -1
+zn/yan
+  rotate: true
+  xy: 932, 22
+  size: 88, 89
+  orig: 88, 89
+  offset: 0, 0
   index: -1
 
 effect_discover_013.png
@@ -198,52 +240,219 @@ size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-baodian/baodian_00000
-  rotate: false
-  xy: 2, 154
-  size: 458, 423
-  orig: 500, 500
-  offset: 32, 58
-  index: -1
-baodian/baodian_00001
-  rotate: false
-  xy: 2, 154
-  size: 458, 423
-  orig: 500, 500
-  offset: 32, 58
-  index: -1
 baodian/baodian_00003
   rotate: false
-  xy: 2, 579
-  size: 481, 434
-  orig: 500, 500
-  offset: 17, 45
+  xy: 2, 631
+  size: 433, 391
+  orig: 450, 450
+  offset: 15, 40
   index: -1
 baodian/baodian_00004
   rotate: false
-  xy: 485, 633
-  size: 481, 380
-  orig: 500, 500
-  offset: 17, 45
+  xy: 2, 286
+  size: 433, 343
+  orig: 450, 450
+  offset: 15, 40
   index: -1
-cheng
+baodian/baodian_00006
   rotate: false
-  xy: 304, 49
-  size: 109, 103
-  orig: 109, 103
+  xy: 2, 25
+  size: 431, 259
+  orig: 450, 450
+  offset: 16, 120
+  index: -1
+de/02
+  rotate: true
+  xy: 694, 434
+  size: 588, 90
+  orig: 590, 90
   offset: 0, 0
   index: -1
-tan
+de/de_01_0
+  rotate: true
+  xy: 799, 30
+  size: 485, 124
+  orig: 585, 180
+  offset: 67, 28
+  index: -1
+en/01_000
+  rotate: true
+  xy: 925, 39
+  size: 487, 90
+  orig: 526, 90
+  offset: 13, 0
+  index: -1
+es/01
+  rotate: true
+  xy: 923, 528
+  size: 494, 90
+  orig: 529, 90
+  offset: 34, 0
+  index: -1
+id/id_01_0
+  rotate: true
+  xy: 566, 2
+  size: 453, 124
+  orig: 675, 180
+  offset: 127, 28
+  index: -1
+id/id_02_0
+  rotate: true
+  xy: 692, 129
+  size: 303, 105
+  orig: 675, 180
+  offset: 184, 47
+  index: -1
+ko/tan
   rotate: false
-  xy: 485, 528
-  size: 106, 103
-  orig: 106, 103
+  xy: 437, 330
+  size: 94, 94
+  orig: 94, 94
+  offset: 0, 0
+  index: -1
+koxulie/zuozhanchenggongshangceng_00004
+  rotate: true
+  xy: 566, 457
+  size: 565, 126
+  orig: 675, 155
+  offset: 10, 7
+  index: -1
+koxulie/zuozhanchenggongshangceng_00005
+  rotate: true
+  xy: 437, 426
+  size: 596, 127
+  orig: 675, 155
+  offset: 10, 7
+  index: -1
+xulie/tansuowancheng_00008
+  rotate: true
+  xy: 786, 517
+  size: 505, 135
+  orig: 630, 225
+  offset: 14, 52
+  index: -1
+zn/100
+  rotate: true
+  xy: 435, 30
+  size: 254, 90
+  orig: 254, 90
+  offset: 0, 0
+  index: -1
+zn/cheng
+  rotate: false
+  xy: 692, 34
+  size: 98, 93
+  orig: 98, 93
+  offset: 0, 0
+  index: -1
+
+effect_discover_014.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+de/01
+  rotate: false
+  xy: 500, 884
+  size: 468, 90
+  orig: 502, 90
+  offset: 34, 0
+  index: -1
+en/01
+  rotate: false
+  xy: 2, 759
+  size: 485, 90
+  orig: 526, 90
+  offset: 10, 0
+  index: -1
+es/es_02_0
+  rotate: false
+  xy: 2, 851
+  size: 496, 123
+  orig: 675, 180
+  offset: 79, 28
+  index: -1
+id/01
+  rotate: false
+  xy: 2, 667
+  size: 439, 90
+  orig: 473, 90
+  offset: 34, 0
+  index: -1
+ko/cheng
+  rotate: false
+  xy: 234, 364
+  size: 93, 94
+  orig: 94, 94
+  offset: 0, 0
+  index: -1
+ko/suo
+  rotate: false
+  xy: 139, 242
+  size: 93, 94
+  orig: 94, 94
+  offset: 0, 0
+  index: -1
+ko/yan
+  rotate: false
+  xy: 234, 460
+  size: 94, 94
+  orig: 94, 94
+  offset: 0, 0
+  index: -1
+koxulie/zuozhanchenggongshangceng_00000
+  rotate: false
+  xy: 330, 490
+  size: 64, 64
+  orig: 675, 155
+  offset: 40, 39
+  index: -1
+koxulie/zuozhanchenggongshangceng_00001
+  rotate: true
+  xy: 2, 2
+  size: 159, 95
+  orig: 675, 155
+  offset: 25, 23
+  index: -1
+mask_18-2
+  rotate: false
+  xy: 2, 435
+  size: 230, 230
+  orig: 230, 230
   offset: 0, 0
   index: -1
 tiao2_00000
+  rotate: true
+  xy: 2, 163
+  size: 270, 135
+  orig: 270, 135
+  offset: 0, 0
+  index: -1
+xulie/tansuowancheng_00004
   rotate: false
-  xy: 2, 2
-  size: 300, 150
-  orig: 300, 150
+  xy: 139, 157
+  size: 83, 83
+  orig: 630, 225
+  offset: 68, 81
+  index: -1
+xulie/tansuowancheng_00005
+  rotate: false
+  xy: 234, 556
+  size: 156, 109
+  orig: 630, 225
+  offset: 41, 67
+  index: -1
+zn/suo
+  rotate: false
+  xy: 234, 271
+  size: 87, 91
+  orig: 87, 91
+  offset: 0, 0
+  index: -1
+zn/tan
+  rotate: true
+  xy: 139, 338
+  size: 95, 93
+  orig: 95, 93
   offset: 0, 0
   index: -1

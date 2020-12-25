@@ -6,21 +6,70 @@ filter: Linear,Linear
 repeat: none
 01
   rotate: false
-  xy: 2, 20
+  xy: 2, 74
   size: 106, 26
   orig: 109, 32
   offset: 1, 4
   index: -1
+KO
+  rotate: true
+  xy: 160, 144
+  size: 101, 20
+  orig: 101, 20
+  offset: 0, 0
+  index: -1
 bian_00000
   rotate: false
-  xy: 2, 78
+  xy: 2, 165
   size: 156, 80
   orig: 200, 100
   offset: 21, 11
   index: -1
+effect_ui3_de
+  rotate: false
+  xy: 2, 23
+  size: 104, 24
+  orig: 109, 32
+  offset: 1, 2
+  index: -1
+effect_ui3_es
+  rotate: false
+  xy: 2, 2
+  size: 103, 19
+  orig: 109, 32
+  offset: 1, 7
+  index: -1
+effect_ui3_fr
+  rotate: true
+  xy: 182, 142
+  size: 103, 19
+  orig: 109, 32
+  offset: 1, 7
+  index: -1
+effect_ui3_id
+  rotate: false
+  xy: 2, 49
+  size: 106, 23
+  orig: 109, 32
+  offset: 2, 6
+  index: -1
+effect_ui3_th
+  rotate: true
+  xy: 203, 188
+  size: 57, 24
+  orig: 109, 32
+  offset: 1, 6
+  index: -1
+qianghua
+  rotate: false
+  xy: 2, 132
+  size: 119, 31
+  orig: 150, 50
+  offset: 11, 10
+  index: -1
 qianghua_00000
   rotate: false
-  xy: 2, 48
+  xy: 2, 102
   size: 108, 28
   orig: 150, 50
   offset: 21, 10

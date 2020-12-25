@@ -4,41 +4,6 @@ size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-01
-  rotate: true
-  xy: 745, 691
-  size: 331, 77
-  orig: 460, 90
-  offset: 59, 0
-  index: -1
-02
-  rotate: false
-  xy: 2, 120
-  size: 425, 90
-  orig: 460, 90
-  offset: 12, 0
-  index: -1
-03
-  rotate: false
-  xy: 2, 42
-  size: 317, 76
-  orig: 460, 90
-  offset: 66, 14
-  index: -1
-04
-  rotate: true
-  xy: 824, 794
-  size: 228, 72
-  orig: 460, 90
-  offset: 111, 9
-  index: -1
-05
-  rotate: true
-  xy: 454, 215
-  size: 305, 82
-  orig: 460, 90
-  offset: 76, 0
-  index: -1
 final_00047_00000
   rotate: false
   xy: 2, 522
@@ -47,128 +12,491 @@ final_00047_00000
   offset: 8, 0
   index: -1
 huangse
-  rotate: true
-  xy: 394, 78
+  rotate: false
+  xy: 979, 730
   size: 40, 31
   orig: 42, 33
   offset: 1, 1
   index: -1
-images/baoshi/bao
+images/baoshi/de/effect_herotest_word_de_1_0
+  rotate: true
+  xy: 258, 22
+  size: 248, 74
+  orig: 283, 94
+  offset: 21, 18
+  index: -1
+images/baoshi/de/effect_herotest_word_de_2_0
+  rotate: true
+  xy: 495, 2
+  size: 230, 74
+  orig: 273, 94
+  offset: 26, 18
+  index: -1
+images/baoshi/es/effect_herotest_word_es_1_0
   rotate: false
-  xy: 898, 962
+  xy: 660, 438
+  size: 269, 84
+  orig: 311, 94
+  offset: 15, 6
+  index: -1
+images/baoshi/es/effect_herotest_word_es_2_0
+  rotate: true
+  xy: 180, 282
+  size: 154, 74
+  orig: 208, 94
+  offset: 34, 6
+  index: -1
+images/baoshi/fr/effect_herotest_word_fr_1_0
+  rotate: false
+  xy: 2, 438
+  size: 212, 82
+  orig: 242, 94
+  offset: 15, 9
+  index: -1
+images/baoshi/fr/effect_herotest_word_fr_2_0
+  rotate: false
+  xy: 460, 446
+  size: 196, 74
+  orig: 239, 94
+  offset: 21, 6
+  index: -1
+images/baoshi/id/effect_herotest_word_id_1_0
+  rotate: false
+  xy: 216, 438
+  size: 166, 82
+  orig: 194, 94
+  offset: 17, 6
+  index: -1
+images/baoshi/id/effect_herotest_word_id_2_0
+  rotate: false
+  xy: 713, 114
+  size: 129, 72
+  orig: 173, 94
+  offset: 20, 17
+  index: -1
+images/baoshi/th/effect_herotest_word_th_1_0
+  rotate: false
+  xy: 660, 600
+  size: 300, 83
+  orig: 335, 93
+  offset: 11, 10
+  index: -1
+images/baoshi/zh/qu
+  rotate: true
+  xy: 962, 613
   size: 70, 60
   orig: 70, 60
   offset: 0, 0
   index: -1
-images/baoshi/shi
+images/baoshi/zn/qu
+  rotate: true
+  xy: 962, 613
+  size: 70, 60
+  orig: 70, 60
+  offset: 0, 0
+  index: -1
+images/baoshi/zn/bao
+  rotate: true
+  xy: 962, 541
+  size: 70, 60
+  orig: 70, 60
+  offset: 0, 0
+  index: -1
+images/baoshi/zn/huo
+  rotate: true
+  xy: 713, 42
+  size: 70, 61
+  orig: 70, 61
+  offset: 0, 0
+  index: -1
+images/nengli/de/effect_herotest_word_de_1_0
+  rotate: true
+  xy: 94, 19
+  size: 251, 86
+  orig: 282, 107
+  offset: 17, 1
+  index: -1
+images/nengli/de/effect_herotest_word_de_2_0
   rotate: false
-  xy: 538, 336
+  xy: 660, 524
+  size: 284, 74
+  orig: 325, 107
+  offset: 11, 12
+  index: -1
+images/nengli/en/01
+  rotate: false
+  xy: 660, 763
+  size: 331, 77
+  orig: 460, 90
+  offset: 59, 0
+  index: -1
+images/nengli/es/effect_heroGrow_ui27_es_1_0
+  rotate: false
+  xy: 640, 188
+  size: 220, 84
+  orig: 247, 107
+  offset: 12, 0
+  index: -1
+images/nengli/es/effect_heroGrow_ui27_es_2_0
+  rotate: true
+  xy: 182, 21
+  size: 249, 74
+  orig: 276, 107
+  offset: 12, 11
+  index: -1
+images/nengli/fr/effect_heroGrow_ui27_fr_1_0
+  rotate: true
+  xy: 862, 3
+  size: 229, 84
+  orig: 255, 104
+  offset: 11, 0
+  index: -1
+images/nengli/fr/effect_heroGrow_ui27_fr_2_0
+  rotate: true
+  xy: 946, 272
+  size: 267, 76
+  orig: 300, 104
+  offset: 17, 8
+  index: -1
+images/nengli/id/effect_herotest_word_id_2_0
+  rotate: true
+  xy: 640, 11
+  size: 175, 71
+  orig: 205, 107
+  offset: 14, 11
+  index: -1
+images/nengli/th/effect_herotest_word_th_1_0
+  rotate: false
+  xy: 460, 274
+  size: 401, 92
+  orig: 425, 107
+  offset: 10, 12
+  index: -1
+images/nengli/zh/ti
+  rotate: false
+  xy: 776, 51
+  size: 70, 61
+  orig: 70, 61
+  offset: 0, 0
+  index: -1
+images/nengli/zn/ti
+  rotate: false
+  xy: 776, 51
+  size: 70, 61
+  orig: 70, 61
+  offset: 0, 0
+  index: -1
+images/tianshi/de/effect_herotest_word_de_1_0
+  rotate: false
+  xy: 660, 842
+  size: 337, 77
+  orig: 361, 104
+  offset: 17, 16
+  index: -1
+images/tianshi/de/effect_herotest_word_de_2_0
+  rotate: true
+  xy: 571, 2
+  size: 230, 67
+  orig: 243, 104
+  offset: 13, 26
+  index: -1
+images/tianshi/en/02
+  rotate: true
+  xy: 2, 11
+  size: 425, 90
+  orig: 460, 90
+  offset: 12, 0
+  index: -1
+images/tianshi/es/effect_herotest_word_es_1_0
+  rotate: false
+  xy: 460, 368
+  size: 183, 76
+  orig: 214, 104
+  offset: 13, 15
+  index: -1
+images/tianshi/es/effect_herotest_word_es_2_0
+  rotate: false
+  xy: 645, 368
+  size: 207, 68
+  orig: 219, 104
+  offset: 9, 24
+  index: -1
+images/tianshi/es/effect_herotest_word_es_3_0
+  rotate: true
+  xy: 854, 368
+  size: 68, 66
+  orig: 97, 104
+  offset: 17, 25
+  index: -1
+images/tianshi/es/effect_herotest_word_es_4_0
+  rotate: true
+  xy: 863, 234
+  size: 132, 77
+  orig: 149, 104
+  offset: 11, 15
+  index: -1
+images/tianshi/fr/effect_herotest_word_fr_1_0
+  rotate: true
+  xy: 420, 30
+  size: 240, 73
+  orig: 268, 118
+  offset: 11, 20
+  index: -1
+images/tianshi/fr/effect_herotest_word_fr_2_0
+  rotate: true
+  xy: 256, 299
+  size: 137, 72
+  orig: 166, 118
+  offset: 14, 20
+  index: -1
+images/tianshi/id/effect_herotest_word_id_2_0
+  rotate: true
+  xy: 94, 278
+  size: 158, 84
+  orig: 184, 104
+  offset: 10, 6
+  index: -1
+images/tianshi/th/effect_herotest_word_th_1_0
+  rotate: false
+  xy: 660, 921
+  size: 343, 101
+  orig: 372, 104
+  offset: 10, 3
+  index: -1
+images/xinwu/de/effect_herotest_word_de_1_0
+  rotate: true
+  xy: 384, 279
+  size: 241, 74
+  orig: 272, 94
+  offset: 16, 12
+  index: -1
+images/xinwu/de/effect_herotest_word_de_2_0
+  rotate: true
+  xy: 948, 44
+  size: 226, 74
+  orig: 255, 94
+  offset: 13, 12
+  index: -1
+images/xinwu/en/03
+  rotate: false
+  xy: 660, 685
+  size: 317, 76
+  orig: 460, 90
+  offset: 66, 14
+  index: -1
+images/xinwu/es/effect_herotest_word_es_1_0
+  rotate: true
+  xy: 334, 25
+  size: 245, 84
+  orig: 270, 94
+  offset: 9, 0
+  index: -1
+
+effect_herotest_word2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/baoshi/en/04
+  rotate: false
+  xy: 235, 421
+  size: 228, 72
+  orig: 460, 90
+  offset: 111, 9
+  index: -1
+images/baoshi/ko/bao
+  rotate: true
+  xy: 208, 257
+  size: 62, 57
+  orig: 62, 58
+  offset: 0, 1
+  index: -1
+images/baoshi/ko/huo
+  rotate: true
+  xy: 212, 130
+  size: 61, 58
+  orig: 62, 58
+  offset: 1, 0
+  index: -1
+images/baoshi/ko/qu
+  rotate: true
+  xy: 427, 359
+  size: 60, 57
+  orig: 62, 58
+  offset: 2, 0
+  index: -1
+images/baoshi/ko/shi
+  rotate: false
+  xy: 270, 241
+  size: 60, 58
+  orig: 62, 58
+  offset: 2, 0
+  index: -1
+images/baoshi/zh/bao
+  rotate: false
+  xy: 2, 190
+  size: 69, 62
+  orig: 69, 62
+  offset: 0, 0
+  index: -1
+images/baoshi/zh/huo
+  rotate: false
+  xy: 2, 126
+  size: 69, 62
+  orig: 69, 62
+  offset: 0, 0
+  index: -1
+images/baoshi/zh/shi
+  rotate: false
+  xy: 2, 65
   size: 68, 59
   orig: 68, 59
   offset: 0, 0
   index: -1
-images/nengli/li
+images/baoshi/zn/shi
   rotate: false
-  xy: 898, 839
+  xy: 2, 65
+  size: 68, 59
+  orig: 68, 59
+  offset: 0, 0
+  index: -1
+images/nengli/id/effect_herotest_word_id_1_0
+  rotate: false
+  xy: 2, 408
+  size: 231, 85
+  orig: 255, 107
+  offset: 13, 0
+  index: -1
+images/nengli/ko/li
+  rotate: false
+  xy: 332, 241
+  size: 60, 58
+  orig: 62, 58
+  offset: 2, 0
+  index: -1
+images/nengli/ko/neng
+  rotate: true
+  xy: 210, 193
+  size: 62, 58
+  orig: 62, 58
+  offset: 0, 0
+  index: -1
+images/nengli/ko/sheng
+  rotate: false
+  xy: 395, 299
+  size: 61, 58
+  orig: 62, 58
+  offset: 1, 0
+  index: -1
+images/nengli/ko/ti
+  rotate: false
+  xy: 235, 361
+  size: 62, 58
+  orig: 62, 58
+  offset: 0, 0
+  index: -1
+images/nengli/zh/li
+  rotate: false
+  xy: 73, 130
   size: 67, 60
   orig: 67, 60
   offset: 0, 0
   index: -1
-images/nengli/neng
+images/nengli/zn/li
   rotate: false
-  xy: 745, 566
+  xy: 73, 130
+  size: 67, 60
+  orig: 67, 60
+  offset: 0, 0
+  index: -1
+images/nengli/zh/neng
+  rotate: false
+  xy: 73, 192
   size: 70, 60
   orig: 70, 60
   offset: 0, 0
   index: -1
-images/xinwu/huo
+images/nengli/zn/neng
   rotate: false
-  xy: 538, 459
-  size: 70, 61
-  orig: 70, 61
-  offset: 0, 0
-  index: -1
-images/xinwu/qu
-  rotate: false
-  xy: 538, 397
+  xy: 73, 192
   size: 70, 60
   orig: 70, 60
   offset: 0, 0
   index: -1
-images/xinwu/wu
+images/nengli/zh/sheng
   rotate: false
-  xy: 321, 57
-  size: 71, 61
-  orig: 71, 61
+  xy: 145, 192
+  size: 63, 60
+  orig: 63, 60
   offset: 0, 0
   index: -1
-images/xinwu/xin
+images/nengli/zn/sheng
   rotate: false
-  xy: 538, 211
-  size: 66, 60
-  orig: 66, 60
+  xy: 145, 192
+  size: 63, 60
+  orig: 63, 60
   offset: 0, 0
   index: -1
-images/zhidian/dian
+images/tianshi/fr/effect_herotest_word_fr_3_0
   rotate: false
-  xy: 824, 731
-  size: 70, 61
-  orig: 70, 61
+  xy: 2, 254
+  size: 204, 65
+  orig: 223, 118
+  offset: 18, 28
+  index: -1
+images/tianshi/id/effect_herotest_word_id_1_0
+  rotate: false
+  xy: 2, 321
+  size: 226, 85
+  orig: 252, 104
+  offset: 13, 6
+  index: -1
+images/tianshi/ko/5
+  rotate: false
+  xy: 299, 361
+  size: 62, 58
+  orig: 62, 58
   offset: 0, 0
   index: -1
-images/zhidian/zhi
+images/tianshi/ko/sheng
   rotate: false
-  xy: 898, 901
-  size: 70, 59
-  orig: 70, 59
+  xy: 363, 361
+  size: 62, 58
+  orig: 62, 58
   offset: 0, 0
   index: -1
-jue_00000
+images/tianshi/ko/shi
   rotate: false
-  xy: 745, 628
-  size: 72, 61
-  orig: 72, 61
+  xy: 267, 301
+  size: 62, 58
+  orig: 62, 58
   offset: 0, 0
   index: -1
-shenglidi
-  rotate: true
-  xy: 660, 530
-  size: 492, 83
-  orig: 494, 85
-  offset: 1, 1
-  index: -1
-shi_00000
+images/tianshi/ko/ti
   rotate: false
-  xy: 538, 273
+  xy: 331, 301
+  size: 62, 58
+  orig: 62, 58
+  offset: 0, 0
+  index: -1
+images/tianshi/ko/tian
+  rotate: false
+  xy: 394, 239
+  size: 60, 58
+  orig: 62, 58
+  offset: 0, 0
+  index: -1
+images/tianshi/zn/shi
+  rotate: false
+  xy: 2, 2
   size: 66, 61
   orig: 66, 61
   offset: 0, 0
   index: -1
-tian_00000
-  rotate: true
-  xy: 610, 452
+images/tianshi/zn/tian
+  rotate: false
+  xy: 142, 131
   size: 68, 59
   orig: 68, 59
-  offset: 0, 0
-  index: -1
-tiao1_00000
-  rotate: false
-  xy: 2, 212
-  size: 450, 308
-  orig: 450, 320
-  offset: 0, 12
-  index: -1
-tiao_00000
-  rotate: false
-  xy: 2, 2
-  size: 300, 38
-  orig: 300, 100
-  offset: 0, 31
-  index: -1
-xing_00000
-  rotate: false
-  xy: 671, 468
-  size: 63, 60
-  orig: 63, 60
   offset: 0, 0
   index: -1

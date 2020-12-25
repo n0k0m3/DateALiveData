@@ -4,79 +4,240 @@ size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-01
+de/effect_heroGrow_ui19_de_1
+  rotate: true
+  xy: 607, 398
+  size: 122, 46
+  orig: 124, 56
+  offset: 2, 9
+  index: -1
+de/effect_heroGrow_ui19_de_2
   rotate: false
-  xy: 454, 386
+  xy: 862, 837
+  size: 17, 42
+  orig: 19, 56
+  offset: 2, 10
+  index: -1
+de/effect_heroGrow_ui19_de_3
+  rotate: false
+  xy: 2, 154
+  size: 315, 56
+  orig: 322, 56
+  offset: 1, 0
+  index: -1
+en/01
+  rotate: true
+  xy: 494, 333
   size: 187, 54
   orig: 196, 56
   offset: 4, 0
   index: -1
-02
+en/02
   rotate: false
-  xy: 745, 889
+  xy: 2, 7
   size: 134, 53
   orig: 144, 56
   offset: 7, 0
   index: -1
-cheng1
-  rotate: true
-  xy: 881, 892
-  size: 50, 61
-  orig: 52, 63
-  offset: 1, 1
+es/effect_heroGrow_ui19_es_1_0
+  rotate: false
+  xy: 745, 980
+  size: 267, 42
+  orig: 267, 42
+  offset: 0, 0
+  index: -1
+es/effect_heroGrow_ui19_es_2_0
+  rotate: false
+  xy: 745, 881
+  size: 149, 40
+  orig: 149, 40
+  offset: 0, 0
   index: -1
 final_00047_00000
   rotate: false
-  xy: 2, 442
+  xy: 2, 522
   size: 656, 500
   orig: 664, 500
   offset: 8, 0
   index: -1
-gong
+fr/effect_heroGrow_ui19_fr_1_0
   rotate: false
-  xy: 454, 324
-  size: 56, 60
-  orig: 58, 62
-  offset: 1, 1
+  xy: 2, 62
+  size: 180, 43
+  orig: 185, 56
+  offset: 1, 9
+  index: -1
+fr/effect_heroGrow_ui19_fr_2_0
+  rotate: false
+  xy: 550, 335
+  size: 47, 46
+  orig: 56, 56
+  offset: 5, 9
+  index: -1
+fr/effect_heroGrow_ui19_fr_3_0
+  rotate: false
+  xy: 745, 835
+  size: 115, 44
+  orig: 124, 56
+  offset: 5, 0
+  index: -1
+fr/effect_heroGrow_ui19_fr_4_0
+  rotate: true
+  xy: 804, 576
+  size: 62, 47
+  orig: 74, 56
+  offset: 5, 9
+  index: -1
+fr/effect_heroGrow_ui19_fr_5_0
+  rotate: false
+  xy: 745, 923
+  size: 173, 55
+  orig: 188, 56
+  offset: 8, 0
   index: -1
 huangse
   rotate: false
-  xy: 304, 99
+  xy: 896, 890
   size: 40, 31
   orig: 42, 33
   offset: 1, 1
   index: -1
-po
+id/effect_heroGrow_ui19_id_1_0
+  rotate: true
+  xy: 550, 383
+  size: 137, 55
+  orig: 142, 56
+  offset: 2, 0
+  index: -1
+id/effect_heroGrow_ui19_id_2_0
   rotate: false
-  xy: 745, 825
-  size: 50, 62
-  orig: 52, 64
-  offset: 1, 1
+  xy: 319, 163
+  size: 127, 47
+  orig: 138, 56
+  offset: 4, 9
+  index: -1
+id/effect_heroGrow_ui19_id_3_0
+  rotate: false
+  xy: 984, 945
+  size: 17, 33
+  orig: 36, 56
+  offset: 11, 10
+  index: -1
+id/effect_heroGrow_ui19_id_4_0
+  rotate: true
+  xy: 804, 640
+  size: 66, 44
+  orig: 78, 56
+  offset: 6, 0
+  index: -1
+ko/jue_00000
+  rotate: false
+  xy: 745, 582
+  size: 57, 61
+  orig: 57, 61
+  offset: 0, 0
+  index: -1
+ko/shi_00000
+  rotate: false
+  xy: 745, 709
+  size: 57, 62
+  orig: 57, 62
+  offset: 0, 0
+  index: -1
+ko/tian_00000
+  rotate: false
+  xy: 745, 645
+  size: 57, 62
+  orig: 57, 62
+  offset: 0, 0
+  index: -1
+ko/xing_00000
+  rotate: false
+  xy: 745, 773
+  size: 61, 60
+  orig: 61, 60
+  offset: 0, 0
   index: -1
 shenglidi
   rotate: true
-  xy: 660, 450
+  xy: 660, 530
   size: 492, 83
   orig: 494, 85
   offset: 1, 1
   index: -1
+th/effect_heroGrow_ui19_th_1_0
+  rotate: false
+  xy: 2, 107
+  size: 255, 45
+  orig: 260, 56
+  offset: 1, 11
+  index: -1
 tiao1_00000
   rotate: false
-  xy: 2, 132
+  xy: 2, 212
   size: 450, 308
   orig: 450, 320
   offset: 0, 12
   index: -1
 tiao_00000
-  rotate: false
-  xy: 2, 92
+  rotate: true
+  xy: 454, 220
   size: 300, 38
   orig: 300, 100
   offset: 0, 31
   index: -1
-tu
+zh/cheng1
+  rotate: true
+  xy: 745, 528
+  size: 52, 57
+  orig: 52, 63
+  offset: 0, 1
+  index: -1
+zh/gong
+  rotate: true
+  xy: 494, 215
+  size: 54, 57
+  orig: 58, 62
+  offset: 0, 1
+  index: -1
+zh/po
+  rotate: true
+  xy: 259, 101
+  size: 51, 54
+  orig: 52, 64
+  offset: 1, 5
+  index: -1
+zh/tu
   rotate: false
-  xy: 2, 28
+  xy: 138, 2
+  size: 55, 58
+  orig: 57, 64
+  offset: 2, 4
+  index: -1
+zn/cheng1
+  rotate: false
+  xy: 808, 772
+  size: 50, 61
+  orig: 52, 63
+  offset: 1, 1
+  index: -1
+zn/gong
+  rotate: false
+  xy: 494, 271
+  size: 56, 60
+  orig: 58, 62
+  offset: 1, 1
+  index: -1
+zn/po
+  rotate: false
+  xy: 804, 708
+  size: 50, 62
+  orig: 52, 64
+  offset: 1, 1
+  index: -1
+zn/tu
+  rotate: true
+  xy: 920, 923
   size: 55, 62
   orig: 57, 64
   offset: 1, 1

@@ -1,61 +1,159 @@
 
 chenghao_XY.png
-size: 256,256
+size: 512,512
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
+images/de/de_01
+  rotate: false
+  xy: 248, 472
+  size: 103, 22
+  orig: 186, 47
+  offset: 42, 0
+  index: -1
+images/de/de_02
+  rotate: false
+  xy: 117, 428
+  size: 103, 33
+  orig: 186, 43
+  offset: 42, 10
+  index: -1
 images/di
-  rotate: true
-  xy: 2, 48
+  rotate: false
+  xy: 117, 463
   size: 129, 31
   orig: 129, 39
   offset: 0, 1
   index: -1
+images/es/es_01
+  rotate: false
+  xy: 117, 403
+  size: 95, 23
+  orig: 186, 47
+  offset: 48, 0
+  index: -1
+images/es/es_02
+  rotate: false
+  xy: 353, 471
+  size: 95, 23
+  orig: 186, 43
+  offset: 48, 17
+  index: -1
+images/fr/fr_01
+  rotate: false
+  xy: 138, 307
+  size: 67, 25
+  orig: 186, 47
+  offset: 52, 0
+  index: -1
+images/fr/fr_02
+  rotate: true
+  xy: 82, 208
+  size: 67, 25
+  orig: 186, 43
+  offset: 52, 16
+  index: -1
+images/id/id_01
+  rotate: true
+  xy: 32, 10
+  size: 88, 24
+  orig: 186, 47
+  offset: 51, 0
+  index: -1
+images/id/id_02
+  rotate: true
+  xy: 58, 21
+  size: 88, 24
+  orig: 186, 43
+  offset: 51, 13
+  index: -1
+images/ko/ko_01
+  rotate: true
+  xy: 44, 111
+  size: 80, 37
+  orig: 186, 47
+  offset: 44, 0
+  index: -1
+images/ko/ko_02
+  rotate: true
+  xy: 2, 193
+  size: 82, 78
+  orig: 186, 78
+  offset: 42, 0
+  index: -1
 images/qipao
   rotate: true
-  xy: 76, 82
+  xy: 2, 3
   size: 95, 28
   orig: 129, 39
   offset: 19, 4
   index: -1
+images/th/th_01
+  rotate: false
+  xy: 138, 334
+  size: 74, 26
+  orig: 186, 47
+  offset: 58, 0
+  index: -1
+images/th/th_02
+  rotate: false
+  xy: 138, 362
+  size: 74, 39
+  orig: 186, 43
+  offset: 58, 4
+  index: -1
 images/yu
   rotate: true
-  xy: 35, 87
+  xy: 70, 307
   size: 90, 39
   orig: 129, 39
   offset: 18, 0
   index: -1
 images/yuguang_00000
-  rotate: false
-  xy: 124, 205
+  rotate: true
+  xy: 2, 100
   size: 91, 40
   orig: 157, 66
   offset: 31, 14
   index: -1
+images/zh/zh1
+  rotate: false
+  xy: 70, 277
+  size: 43, 28
+  orig: 43, 28
+  offset: 0, 0
+  index: -1
+images/zh/zh2
+  rotate: false
+  xy: 2, 399
+  size: 113, 95
+  orig: 113, 95
+  offset: 0, 0
+  index: -1
 images/zi
-  rotate: true
-  xy: 2, 2
+  rotate: false
+  xy: 450, 466
   size: 44, 28
   orig: 129, 39
   offset: 44, 5
   index: -1
 images/zi2
   rotate: false
-  xy: 124, 176
+  xy: 248, 443
   size: 80, 27
   orig: 136, 36
   offset: 29, 5
   index: -1
 images/ziguang_00000
-  rotate: false
-  xy: 2, 179
+  rotate: true
+  xy: 2, 277
   size: 120, 66
   orig: 157, 66
   offset: 20, 0
   index: -1
 images/ziguang_2
-  rotate: false
-  xy: 106, 149
+  rotate: true
+  xy: 111, 319
   size: 78, 25
   orig: 78, 25
   offset: 0, 0

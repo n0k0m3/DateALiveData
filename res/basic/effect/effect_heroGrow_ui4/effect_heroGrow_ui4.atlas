@@ -4,72 +4,142 @@ size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-01
+de/effect_heroGrow_ui19_de_1
   rotate: false
-  xy: 2, 72
+  xy: 2, 163
+  size: 340, 47
+  orig: 352, 56
+  offset: 1, 9
+  index: -1
+en/01
+  rotate: false
+  xy: 2, 118
   size: 310, 43
   orig: 318, 56
   offset: 3, 11
   index: -1
-cheng1
-  rotate: false
-  xy: 494, 364
-  size: 50, 61
-  orig: 52, 63
-  offset: 1, 1
+es/effect_heroGrow_ui19_es_1_0
+  rotate: true
+  xy: 454, 220
+  size: 300, 47
+  orig: 328, 56
+  offset: 1, 9
   index: -1
 final_00047_00000
   rotate: false
-  xy: 2, 427
+  xy: 2, 522
   size: 656, 500
   orig: 664, 500
   offset: 8, 0
   index: -1
-gong
-  rotate: false
-  xy: 745, 856
-  size: 62, 71
-  orig: 64, 73
-  offset: 1, 1
+fr/effect_heroGrow_ui19_fr_1_0
+  rotate: true
+  xy: 745, 713
+  size: 309, 47
+  orig: 331, 56
+  offset: 1, 9
   index: -1
 huangse
   rotate: false
-  xy: 314, 84
+  xy: 344, 179
   size: 40, 31
   orig: 42, 33
   offset: 1, 1
   index: -1
-po
+id/effect_heroGrow_ui19_id_1_0
   rotate: false
-  xy: 745, 794
-  size: 50, 60
-  orig: 52, 62
-  offset: 1, 1
+  xy: 2, 69
+  size: 265, 47
+  orig: 266, 56
+  offset: 1, 9
+  index: -1
+id/effect_heroGrow_ui19_id_2_0
+  rotate: true
+  xy: 745, 536
+  size: 175, 47
+  orig: 191, 56
+  offset: 0, 9
+  index: -1
+ko/jue_00000
+  rotate: true
+  xy: 960, 965
+  size: 57, 62
+  orig: 57, 62
+  offset: 0, 0
+  index: -1
+ko/shi_00000
+  rotate: false
+  xy: 560, 458
+  size: 62, 62
+  orig: 62, 62
+  offset: 0, 0
+  index: -1
+ko/tian_00000
+  rotate: false
+  xy: 898, 962
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+ko/xing_00000
+  rotate: false
+  xy: 834, 888
+  size: 60, 61
+  orig: 60, 61
+  offset: 0, 0
   index: -1
 shenglidi
   rotate: true
-  xy: 660, 435
+  xy: 660, 530
   size: 492, 83
   orig: 494, 85
   offset: 1, 1
   index: -1
+th/effect_heroGrow_ui19_th_1_0
+  rotate: true
+  xy: 503, 345
+  size: 175, 55
+  orig: 197, 56
+  offset: 10, 0
+  index: -1
 tiao1_00000
   rotate: false
-  xy: 2, 117
+  xy: 2, 212
   size: 450, 308
   orig: 450, 320
   offset: 0, 12
   index: -1
 tiao_00000
   rotate: true
-  xy: 454, 125
+  xy: 794, 722
   size: 300, 38
   orig: 300, 100
   offset: 0, 31
   index: -1
-tu
+zn/cheng1
   rotate: false
-  xy: 2, 2
+  xy: 503, 282
+  size: 50, 61
+  orig: 52, 63
+  offset: 1, 1
+  index: -1
+zn/gong
+  rotate: false
+  xy: 834, 951
+  size: 62, 71
+  orig: 64, 73
+  offset: 1, 1
+  index: -1
+zn/po
+  rotate: false
+  xy: 72, 7
+  size: 50, 60
+  orig: 52, 62
+  offset: 1, 1
+  index: -1
+zn/tu
+  rotate: true
+  xy: 2, 7
   size: 60, 68
   orig: 62, 70
   offset: 1, 1

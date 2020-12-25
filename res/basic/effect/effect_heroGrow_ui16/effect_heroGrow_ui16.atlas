@@ -4,66 +4,157 @@ size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-1
-  rotate: false
-  xy: 2, 157
-  size: 140, 13
-  orig: 150, 39
-  offset: 4, 12
-  index: -1
-dian_00000
-  rotate: false
-  xy: 660, 922
-  size: 20, 20
-  orig: 20, 20
-  offset: 0, 0
-  index: -1
 final_00047_00000
   rotate: false
-  xy: 2, 482
+  xy: 2, 502
   size: 656, 500
   orig: 664, 500
   offset: 8, 0
   index: -1
 huangse
   rotate: false
-  xy: 454, 449
+  xy: 962, 971
   size: 40, 31
   orig: 42, 33
   offset: 1, 1
   index: -1
-ji_00000
+images/de/effect_heroGrow_ui16_de
   rotate: false
-  xy: 962, 962
+  xy: 2, 172
+  size: 197, 18
+  orig: 197, 18
+  offset: 0, 0
+  index: -1
+images/en/1
+  rotate: false
+  xy: 2, 157
+  size: 140, 13
+  orig: 150, 39
+  offset: 4, 12
+  index: -1
+images/es/effect_heroGrow_ui16_es
+  rotate: false
+  xy: 454, 482
+  size: 166, 18
+  orig: 166, 18
+  offset: 0, 0
+  index: -1
+images/fr/effect_heroGrow_ui16_fr
+  rotate: false
+  xy: 660, 944
+  size: 143, 18
+  orig: 143, 18
+  offset: 0, 0
+  index: -1
+images/id/effect_heroGrow_ui16_id
+  rotate: false
+  xy: 454, 460
+  size: 119, 20
+  orig: 119, 20
+  offset: 0, 0
+  index: -1
+images/ko/dian_00000
+  rotate: false
+  xy: 144, 158
+  size: 12, 12
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+images/ko/ji_00000
+  rotate: false
+  xy: 279, 179
+  size: 13, 11
+  orig: 13, 11
+  offset: 0, 0
+  index: -1
+images/ko/sheng_00000
+  rotate: false
+  xy: 622, 488
+  size: 14, 12
+  orig: 14, 12
+  offset: 0, 0
+  index: -1
+images/ko/zhi_00000
+  rotate: false
+  xy: 805, 949
+  size: 12, 13
+  orig: 12, 13
+  offset: 0, 0
+  index: -1
+images/th/effect_heroGrow_ui16_th
+  rotate: false
+  xy: 201, 173
+  size: 76, 17
+  orig: 76, 17
+  offset: 0, 0
+  index: -1
+images/zh/dian_00000
+  rotate: false
+  xy: 660, 923
+  size: 22, 19
+  orig: 24, 21
+  offset: 1, 1
+  index: -1
+images/zh/ji_00000
+  rotate: false
+  xy: 454, 438
   size: 20, 20
   orig: 20, 20
   offset: 0, 0
   index: -1
-sheng_00000
+images/zn/ji_00000
+  rotate: false
+  xy: 454, 438
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+images/zh/sheng_00000
+  rotate: false
+  xy: 575, 460
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+images/zn/sheng_00000
+  rotate: false
+  xy: 575, 460
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+images/zh/zhi_00000
   rotate: false
   xy: 2, 135
+  size: 21, 20
+  orig: 24, 21
+  offset: 2, 1
+  index: -1
+images/zn/dian_00000
+  rotate: false
+  xy: 660, 901
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+images/zn/zhi_00000
+  rotate: false
+  xy: 2, 113
   size: 20, 20
   orig: 20, 20
   offset: 0, 0
   index: -1
 tiao1_00000
   rotate: false
-  xy: 2, 172
+  xy: 2, 192
   size: 450, 308
   orig: 450, 320
   offset: 0, 12
   index: -1
 tiao_00000
   rotate: false
-  xy: 660, 944
+  xy: 660, 964
   size: 300, 38
   orig: 300, 100
   offset: 0, 31
-  index: -1
-zhi_00000
-  rotate: false
-  xy: 454, 427
-  size: 20, 20
-  orig: 20, 20
-  offset: 0, 0
   index: -1

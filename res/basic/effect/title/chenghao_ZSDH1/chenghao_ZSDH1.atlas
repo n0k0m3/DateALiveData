@@ -1,68 +1,159 @@
 
 chenghao_ZSDH1.png
-size: 256,256
+size: 512,512
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 images/1di
   rotate: false
-  xy: 2, 214
+  xy: 140, 475
   size: 128, 35
   orig: 128, 35
   offset: 0, 0
   index: -1
 images/1xing
   rotate: true
-  xy: 97, 104
+  xy: 235, 430
   size: 20, 22
   orig: 20, 22
   offset: 0, 0
   index: -1
 images/1xing_1
   rotate: false
-  xy: 132, 228
+  xy: 140, 452
   size: 117, 21
   orig: 117, 21
   offset: 0, 0
   index: -1
 images/1zi
   rotate: true
-  xy: 97, 126
+  xy: 482, 383
   size: 86, 28
   orig: 86, 28
   offset: 0, 0
   index: -1
+images/de/de_01
+  rotate: false
+  xy: 379, 471
+  size: 105, 39
+  orig: 171, 64
+  offset: 25, 0
+  index: -1
+images/de/de_02
+  rotate: false
+  xy: 2, 262
+  size: 120, 62
+  orig: 171, 62
+  offset: 21, 0
+  index: -1
+images/es/es_01
+  rotate: true
+  xy: 37, 78
+  size: 118, 39
+  orig: 171, 64
+  offset: 22, 0
+  index: -1
+images/es/es_02
+  rotate: false
+  xy: 2, 451
+  size: 136, 59
+  orig: 171, 62
+  offset: 18, 3
+  index: -1
+images/fr/fr_01
+  rotate: true
+  xy: 78, 85
+  size: 111, 39
+  orig: 171, 64
+  offset: 25, 0
+  index: -1
+images/fr/fr_02
+  rotate: false
+  xy: 2, 390
+  size: 129, 59
+  orig: 171, 62
+  offset: 21, 3
+  index: -1
+images/id/id_01
+  rotate: false
+  xy: 270, 470
+  size: 107, 40
+  orig: 171, 64
+  offset: 27, 0
+  index: -1
+images/id/id_02
+  rotate: false
+  xy: 2, 198
+  size: 119, 62
+  orig: 171, 62
+  offset: 23, 0
+  index: -1
+images/ko/han1
+  rotate: false
+  xy: 130, 332
+  size: 87, 25
+  orig: 87, 25
+  offset: 0, 0
+  index: -1
+images/th/th_01
+  rotate: false
+  xy: 379, 426
+  size: 101, 43
+  orig: 171, 64
+  offset: 31, 0
+  index: -1
+images/th/th_02
+  rotate: false
+  xy: 2, 326
+  size: 126, 62
+  orig: 171, 62
+  offset: 20, 0
+  index: -1
 images/xingguang_00015
   rotate: false
-  xy: 2, 51
+  xy: 2, 35
   size: 30, 30
   orig: 61, 45
   offset: 13, 9
   index: -1
 images/yingwen
-  rotate: true
-  xy: 37, 104
+  rotate: false
+  xy: 259, 440
   size: 108, 28
   orig: 136, 36
   offset: 14, 4
   index: -1
 images/yingwen2
   rotate: true
-  xy: 67, 104
+  xy: 119, 88
   size: 108, 28
   orig: 136, 36
   offset: 14, 4
   index: -1
+images/zh/zhziguang
+  rotate: false
+  xy: 133, 389
+  size: 90, 29
+  orig: 94, 34
+  offset: 3, 3
+  index: -1
+images/zh/zhzs
+  rotate: false
+  xy: 140, 420
+  size: 93, 30
+  orig: 93, 30
+  offset: 0, 0
+  index: -1
 images/ziguang_00000
   rotate: false
-  xy: 132, 198
+  xy: 130, 359
   size: 85, 28
   orig: 111, 39
   offset: 11, 6
   index: -1
 images/zuanguang_00015
   rotate: true
-  xy: 2, 83
+  xy: 2, 67
   size: 129, 33
   orig: 154, 49
   offset: 12, 9

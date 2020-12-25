@@ -4,206 +4,255 @@ size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-images/01
-  rotate: false
-  xy: 281, 908
-  size: 265, 114
-  orig: 266, 114
-  offset: 0, 0
-  index: -1
 images/aixinlizi/aixinlizi_00000
   rotate: true
-  xy: 548, 885
+  xy: 707, 737
   size: 57, 71
   orig: 104, 101
   offset: 23, 17
   index: -1
 images/aixinlizi/aixinlizi_00002
   rotate: false
-  xy: 240, 706
+  xy: 494, 724
   size: 69, 70
   orig: 104, 101
   offset: 20, 18
   index: -1
 images/aixinlizi/aixinlizi_00004
   rotate: false
-  xy: 281, 838
+  xy: 565, 726
   size: 69, 68
   orig: 104, 101
   offset: 18, 19
   index: -1
 images/aixinlizi/aixinlizi_00006
   rotate: false
-  xy: 352, 838
+  xy: 636, 726
   size: 69, 68
   orig: 104, 101
   offset: 16, 19
   index: -1
 images/aixinlizi/aixinlizi_00008
   rotate: false
-  xy: 155, 699
+  xy: 91, 82
   size: 83, 77
   orig: 104, 101
   offset: 13, 9
   index: -1
 images/aixinlizi/aixinlizi_00010
   rotate: false
-  xy: 637, 945
+  xy: 2, 2
   size: 84, 77
   orig: 104, 101
   offset: 11, 9
   index: -1
 images/aixinlizi/aixinlizi_00012
   rotate: false
-  xy: 68, 699
+  xy: 881, 908
   size: 85, 77
   orig: 104, 101
   offset: 9, 8
   index: -1
 images/aixinlizi/aixinlizi_00014
   rotate: false
-  xy: 548, 944
+  xy: 2, 81
   size: 87, 78
   orig: 104, 101
   offset: 6, 7
   index: -1
 images/aixinlizi/aixinlizi_00016
-  rotate: true
-  xy: 2, 78
+  rotate: false
+  xy: 176, 82
   size: 80, 77
   orig: 104, 101
   offset: 12, 7
   index: -1
 images/aixinlizi/aixinlizi_00018
-  rotate: false
-  xy: 77, 460
+  rotate: true
+  xy: 881, 763
   size: 68, 78
   orig: 104, 101
   offset: 32, 6
   index: -1
 images/aixinlizi/aixinlizi_00020
   rotate: false
-  xy: 77, 380
+  xy: 353, 715
   size: 68, 78
   orig: 104, 101
   offset: 30, 5
   index: -1
 images/aixinlizi/aixinlizi_00022
   rotate: false
-  xy: 77, 301
+  xy: 423, 717
   size: 69, 77
   orig: 104, 101
   offset: 27, 6
   index: -1
 images/aixinlizi/aixinlizi_00024
   rotate: false
-  xy: 77, 622
+  xy: 269, 642
   size: 79, 75
   orig: 104, 101
   offset: 25, 7
   index: -1
 images/aixinlizi/aixinlizi_00026
   rotate: true
-  xy: 77, 540
+  xy: 269, 478
   size: 80, 73
   orig: 104, 101
   offset: 23, 8
   index: -1
 images/aixinlizi/aixinlizi_00028
-  rotate: false
-  xy: 2, 2
+  rotate: true
+  xy: 269, 560
   size: 80, 74
   orig: 104, 101
   offset: 21, 8
   index: -1
 images/aixinlizi/aixinlizi_00030
-  rotate: true
-  xy: 2, 160
+  rotate: false
+  xy: 270, 719
   size: 81, 74
   orig: 104, 101
   offset: 18, 9
   index: -1
 images/aixinlizi/aixinlizi_00032
-  rotate: true
-  xy: 2, 327
+  rotate: false
+  xy: 713, 796
   size: 82, 73
   orig: 104, 101
   offset: 16, 10
   index: -1
 images/aixinlizi/aixinlizi_00034
-  rotate: true
-  xy: 2, 243
+  rotate: false
+  xy: 797, 796
   size: 82, 73
   orig: 104, 101
   offset: 14, 11
   index: -1
 images/aixinlizi/aixinlizi_00036
-  rotate: true
-  xy: 2, 496
+  rotate: false
+  xy: 543, 796
   size: 83, 73
   orig: 104, 101
   offset: 11, 11
   index: -1
 images/aixinlizi/aixinlizi_00038
-  rotate: true
-  xy: 2, 411
+  rotate: false
+  xy: 628, 796
   size: 83, 73
   orig: 104, 101
   offset: 9, 12
   index: -1
 images/aixinlizi/aixinlizi_00040
-  rotate: true
-  xy: 2, 581
+  rotate: false
+  xy: 457, 796
   size: 84, 73
   orig: 104, 101
   offset: 7, 13
   index: -1
 images/aixinlizi/aixinlizi_00042
   rotate: false
-  xy: 899, 949
+  xy: 881, 833
   size: 85, 73
   orig: 104, 101
   offset: 5, 14
   index: -1
 images/aixinlizi/aixinlizi_00044
   rotate: false
-  xy: 723, 948
+  xy: 281, 795
   size: 86, 74
   orig: 104, 101
   offset: 2, 15
   index: -1
 images/aixinlizi/aixinlizi_00046
   rotate: false
-  xy: 811, 949
+  xy: 369, 796
   size: 86, 73
   orig: 104, 101
   offset: 0, 15
   index: -1
 images/aixinlizi/aixinlizi_00048
-  rotate: false
-  xy: 158, 625
+  rotate: true
+  xy: 269, 400
   size: 76, 72
   orig: 104, 101
   offset: 7, 16
   index: -1
+images/chronoBtn_de
+  rotate: false
+  xy: 281, 871
+  size: 265, 114
+  orig: 266, 114
+  offset: 0, 0
+  index: -1
+images/chronoBtn_en
+  rotate: false
+  xy: 281, 871
+  size: 265, 114
+  orig: 266, 114
+  offset: 0, 0
+  index: -1
+images/chronoBtn_es
+  rotate: false
+  xy: 2, 625
+  size: 265, 114
+  orig: 266, 114
+  offset: 0, 0
+  index: -1
+images/chronoBtn_fr
+  rotate: false
+  xy: 548, 871
+  size: 265, 114
+  orig: 266, 114
+  offset: 0, 0
+  index: -1
+images/chronoBtn_id
+  rotate: false
+  xy: 2, 509
+  size: 265, 114
+  orig: 266, 114
+  offset: 0, 0
+  index: -1
+images/chronoBtn_ko
+  rotate: false
+  xy: 2, 277
+  size: 255, 114
+  orig: 258, 116
+  offset: 1, 0
+  index: -1
+images/chronoBtn_th
+  rotate: false
+  xy: 2, 393
+  size: 265, 114
+  orig: 266, 114
+  offset: 0, 0
+  index: -1
+images/chronoBtn_zh
+  rotate: false
+  xy: 2, 161
+  size: 255, 114
+  orig: 255, 114
+  offset: 0, 0
+  index: -1
+images/chronoBtn_zn
+  rotate: false
+  xy: 2, 741
+  size: 266, 114
+  orig: 287, 142
+  offset: 12, 16
+  index: -1
 images/jiantou_00000
   rotate: false
-  xy: 2, 667
+  xy: 815, 876
   size: 64, 109
   orig: 86, 137
   offset: 10, 15
   index: -1
 images/kuangbian_00000
   rotate: false
-  xy: 2, 894
+  xy: 2, 857
   size: 277, 128
   orig: 287, 142
   offset: 2, 6
-  index: -1
-images/yuehui_00000
-  rotate: false
-  xy: 2, 778
-  size: 266, 114
-  orig: 287, 142
-  offset: 12, 16
   index: -1

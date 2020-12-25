@@ -4,87 +4,206 @@ size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-01
-  rotate: false
-  xy: 2, 35
-  size: 122, 70
-  orig: 284, 70
-  offset: 87, 0
-  index: -1
-02
-  rotate: false
-  xy: 745, 919
-  size: 123, 70
-  orig: 284, 70
-  offset: 79, 0
-  index: -1
-03
-  rotate: false
-  xy: 2, 107
-  size: 279, 70
-  orig: 284, 70
-  offset: 4, 0
-  index: -1
 final_00047_00000
   rotate: false
-  xy: 2, 489
+  xy: 2, 522
   size: 656, 500
   orig: 664, 500
   offset: 8, 0
   index: -1
 huangse
   rotate: false
-  xy: 2, 2
+  xy: 2, 13
   size: 40, 31
   orig: 42, 33
   offset: 1, 1
   index: -1
-jue_00000
+images/de/effect_heroGrow_ui24_de_1_0
+  rotate: true
+  xy: 454, 234
+  size: 286, 79
+  orig: 297, 112
+  offset: 4, 11
+  index: -1
+images/de/effect_heroGrow_ui24_de_2_0
+  rotate: true
+  xy: 535, 265
+  size: 255, 79
+  orig: 261, 112
+  offset: 3, 11
+  index: -1
+images/en/01
+  rotate: true
+  xy: 691, 406
+  size: 122, 70
+  orig: 284, 70
+  offset: 87, 0
+  index: -1
+images/en/02
+  rotate: true
+  xy: 745, 534
+  size: 123, 70
+  orig: 284, 70
+  offset: 79, 0
+  index: -1
+images/en/03
   rotate: false
-  xy: 870, 940
+  xy: 2, 46
+  size: 279, 70
+  orig: 284, 70
+  offset: 4, 0
+  index: -1
+images/es/effect_heroGrow_ui24_es_1_0
+  rotate: true
+  xy: 745, 659
+  size: 288, 76
+  orig: 312, 112
+  offset: 13, 16
+  index: -1
+images/es/effect_heroGrow_ui24_es_2_0
+  rotate: true
+  xy: 616, 327
+  size: 193, 73
+  orig: 209, 112
+  offset: 6, 16
+  index: -1
+images/fr/effect_heroGrow_ui24_fr_1_0
+  rotate: false
+  xy: 745, 949
+  size: 277, 73
+  orig: 296, 112
+  offset: 13, 16
+  index: -1
+images/fr/effect_heroGrow_ui24_fr_2_0
+  rotate: true
+  xy: 939, 749
+  size: 198, 76
+  orig: 221, 112
+  offset: 3, 16
+  index: -1
+images/id/effect_heroGrow_ui24_id_1_0
+  rotate: true
+  xy: 863, 721
+  size: 226, 74
+  orig: 248, 112
+  offset: 13, 16
+  index: -1
+images/id/effect_heroGrow_ui24_id_2_0
+  rotate: false
+  xy: 305, 136
+  size: 130, 74
+  orig: 139, 112
+  offset: 3, 16
+  index: -1
+images/ko/jue_00000
+  rotate: false
+  xy: 817, 593
+  size: 48, 52
+  orig: 52, 52
+  offset: 1, 0
+  index: -1
+images/ko/shi_00000
+  rotate: true
+  xy: 870, 503
+  size: 51, 50
+  orig: 52, 52
+  offset: 0, 1
+  index: -1
+images/ko/tian_00000
+  rotate: false
+  xy: 867, 610
+  size: 51, 51
+  orig: 52, 52
+  offset: 1, 1
+  index: -1
+images/ko/xing_00000
+  rotate: false
+  xy: 763, 427
+  size: 52, 51
+  orig: 52, 52
+  offset: 0, 0
+  index: -1
+images/th/effect_heroGrow_ui24_th_1_0
+  rotate: false
+  xy: 2, 118
+  size: 301, 92
+  orig: 316, 112
+  offset: 9, 17
+  index: -1
+images/zh/jue_00000
+  rotate: false
+  xy: 691, 353
+  size: 53, 51
+  orig: 59, 52
+  offset: 3, 1
+  index: -1
+images/zh/shi_00000
+  rotate: false
+  xy: 817, 539
+  size: 51, 52
+  orig: 51, 53
+  offset: 0, 1
+  index: -1
+images/zh/tian_00000
+  rotate: false
+  xy: 863, 663
+  size: 61, 56
+  orig: 61, 56
+  offset: 0, 0
+  index: -1
+images/zh/xing_00000
+  rotate: false
+  xy: 616, 273
+  size: 53, 52
+  orig: 55, 53
+  offset: 1, 0
+  index: -1
+images/zn/jue_00000
+  rotate: true
+  xy: 870, 556
   size: 52, 49
   orig: 52, 49
   offset: 0, 0
   index: -1
-shenglidi
-  rotate: true
-  xy: 660, 497
-  size: 492, 83
-  orig: 494, 85
-  offset: 1, 1
-  index: -1
-shi_00000
+images/zn/shi_00000
   rotate: false
-  xy: 283, 125
+  xy: 763, 480
   size: 52, 52
   orig: 52, 52
   offset: 0, 0
   index: -1
-tian_00000
-  rotate: false
-  xy: 494, 436
+images/zn/tian_00000
+  rotate: true
+  xy: 817, 485
   size: 52, 51
   orig: 52, 51
   offset: 0, 0
   index: -1
+images/zn/xing_00000
+  rotate: true
+  xy: 817, 431
+  size: 52, 51
+  orig: 52, 51
+  offset: 0, 0
+  index: -1
+shenglidi
+  rotate: true
+  xy: 660, 530
+  size: 492, 83
+  orig: 494, 85
+  offset: 1, 1
+  index: -1
 tiao1_00000
   rotate: false
-  xy: 2, 179
+  xy: 2, 212
   size: 450, 308
   orig: 450, 320
   offset: 0, 12
   index: -1
 tiao_00000
   rotate: true
-  xy: 454, 187
+  xy: 823, 647
   size: 300, 38
   orig: 300, 100
   offset: 0, 31
-  index: -1
-xing_00000
-  rotate: false
-  xy: 745, 866
-  size: 52, 51
-  orig: 52, 51
-  offset: 0, 0
   index: -1

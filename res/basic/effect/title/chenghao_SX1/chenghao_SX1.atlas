@@ -18,12 +18,82 @@ chibang1_00000
   orig: 151, 36
   offset: 0, 0
   index: -1
+de/de_01
+  rotate: true
+  xy: 131, 64
+  size: 111, 21
+  orig: 136, 28
+  offset: 13, 0
+  index: -1
+de/de_02
+  rotate: false
+  xy: 122, 7
+  size: 111, 23
+  orig: 136, 31
+  offset: 13, 8
+  index: -1
 di8
   rotate: true
   xy: 2, 32
   size: 143, 29
   orig: 143, 29
   offset: 0, 0
+  index: -1
+es/es_01
+  rotate: true
+  xy: 85, 60
+  size: 115, 21
+  orig: 136, 28
+  offset: 10, 3
+  index: -1
+es/es_02
+  rotate: true
+  xy: 108, 60
+  size: 115, 21
+  orig: 136, 31
+  offset: 10, 8
+  index: -1
+fr/fr_01
+  rotate: true
+  xy: 155, 125
+  size: 101, 21
+  orig: 136, 28
+  offset: 10, 4
+  index: -1
+fr/fr_02
+  rotate: true
+  xy: 178, 125
+  size: 101, 21
+  orig: 136, 31
+  offset: 10, 8
+  index: -1
+id/id_01
+  rotate: false
+  xy: 154, 94
+  size: 100, 23
+  orig: 136, 28
+  offset: 13, 3
+  index: -1
+id/id_02
+  rotate: false
+  xy: 154, 69
+  size: 100, 23
+  orig: 136, 31
+  offset: 13, 8
+  index: -1
+th/th_01
+  rotate: false
+  xy: 85, 32
+  size: 100, 26
+  orig: 136, 59
+  offset: 17, 16
+  index: -1
+th/th_02
+  rotate: false
+  xy: 155, 228
+  size: 95, 26
+  orig: 136, 59
+  offset: 18, 16
   index: -1
 zi1
   rotate: false
@@ -41,7 +111,7 @@ zi1_00000
   index: -1
 zi3
   rotate: true
-  xy: 85, 68
+  xy: 235, 119
   size: 107, 19
   orig: 136, 36
   offset: 15, 10

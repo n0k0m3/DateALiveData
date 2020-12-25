@@ -179,65 +179,113 @@ format: RGBA8888
 filter: Linear,Linear
 repeat: none
 605
-  rotate: false
-  xy: 102, 127
+  rotate: true
+  xy: 728, 782
   size: 100, 105
   orig: 100, 105
   offset: 0, 0
   index: -1
 biaoqing_0001
-  rotate: false
-  xy: 2, 32
+  rotate: true
+  xy: 835, 723
   size: 63, 66
   orig: 63, 66
   offset: 0, 0
   index: -1
-biaoqing_0008
-  rotate: false
-  xy: 2, 234
-  size: 360, 296
-  orig: 360, 296
-  offset: 0, 0
-  index: -1
 biaoqing_0013
-  rotate: false
-  xy: 2, 100
+  rotate: true
+  xy: 728, 884
   size: 98, 132
   orig: 98, 132
   offset: 0, 0
   index: -1
 biaoqing_0017
-  rotate: false
-  xy: 727, 723
+  rotate: true
+  xy: 862, 788
   size: 101, 105
   orig: 101, 105
   offset: 0, 0
   index: -1
-erduo_0001
+de_0
   rotate: false
-  xy: 364, 352
-  size: 61, 56
-  orig: 61, 56
-  offset: 0, 0
-  index: -1
-h_toutao01
-  rotate: false
-  xy: 2, 532
+  xy: 2, 686
   size: 361, 296
   orig: 361, 296
   offset: 0, 0
   index: -1
-l_shizitou
+erduo_0001
   rotate: false
-  xy: 365, 532
+  xy: 728, 724
+  size: 61, 56
+  orig: 61, 56
+  offset: 0, 0
+  index: -1
+es_0
+  rotate: false
+  xy: 365, 686
+  size: 361, 296
+  orig: 361, 296
+  offset: 0, 0
+  index: -1
+fr_0
+  rotate: true
+  xy: 2, 323
+  size: 361, 296
+  orig: 361, 296
+  offset: 0, 0
+  index: -1
+id_0
+  rotate: false
+  xy: 2, 25
+  size: 361, 296
+  orig: 361, 296
+  offset: 0, 0
+  index: -1
+ko_0
+  rotate: false
+  xy: 365, 25
+  size: 360, 296
+  orig: 360, 296
+  offset: 0, 0
+  index: -1
+l_shizitou
+  rotate: true
+  xy: 598, 324
   size: 360, 296
   orig: 360, 296
   offset: 0, 0
   index: -1
 l_zhuzi01
-  rotate: false
-  xy: 364, 410
+  rotate: true
+  xy: 862, 891
   size: 91, 120
   orig: 91, 120
+  offset: 0, 0
+  index: -1
+th_0
+  rotate: true
+  xy: 300, 323
+  size: 361, 296
+  orig: 361, 296
+  offset: 0, 0
+  index: -1
+
+nian_nianshou3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+zh
+  rotate: false
+  xy: 2, 300
+  size: 360, 296
+  orig: 360, 296
+  offset: 0, 0
+  index: -1
+zn
+  rotate: false
+  xy: 2, 2
+  size: 360, 296
+  orig: 360, 296
   offset: 0, 0
   index: -1

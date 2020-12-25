@@ -6,252 +6,350 @@ filter: Linear,Linear
 repeat: none
 images/bian_00000
   rotate: false
-  xy: 2, 438
+  xy: 2, 455
   size: 119, 55
   orig: 156, 62
   offset: 20, 6
   index: -1
 images/chenghao_OH
   rotate: false
-  xy: 47, 3
+  xy: 258, 35
   size: 75, 22
   orig: 136, 36
   offset: 30, 7
   index: -1
+images/de/de_01
+  rotate: false
+  xy: 112, 17
+  size: 97, 28
+  orig: 184, 41
+  offset: 43, 12
+  index: -1
+images/de/de_02
+  rotate: false
+  xy: 39, 315
+  size: 100, 31
+  orig: 184, 42
+  offset: 42, 10
+  index: -1
 images/di
   rotate: false
-  xy: 2, 384
+  xy: 123, 458
   size: 118, 52
   orig: 118, 52
   offset: 0, 0
   index: -1
+images/es/es_01
+  rotate: true
+  xy: 2, 191
+  size: 124, 31
+  orig: 150, 40
+  offset: 14, 6
+  index: -1
+images/es/es_02
+  rotate: true
+  xy: 2, 317
+  size: 136, 35
+  orig: 150, 40
+  offset: 9, 3
+  index: -1
+images/fr/fr_01
+  rotate: true
+  xy: 91, 348
+  size: 105, 31
+  orig: 184, 76
+  offset: 36, 3
+  index: -1
+images/fr/fr_02
+  rotate: false
+  xy: 258, 9
+  size: 74, 24
+  orig: 184, 61
+  offset: 54, 27
+  index: -1
+images/id/id_01
+  rotate: true
+  xy: 431, 56
+  size: 76, 25
+  orig: 184, 41
+  offset: 53, 16
+  index: -1
+images/id/id_02
+  rotate: true
+  xy: 400, 52
+  size: 80, 29
+  orig: 184, 42
+  offset: 51, 10
+  index: -1
+images/ko/ko_01
+  rotate: true
+  xy: 2, 4
+  size: 75, 46
+  orig: 184, 76
+  offset: 43, 10
+  index: -1
+images/ko/ko_02
+  rotate: true
+  xy: 400, 134
+  size: 78, 42
+  orig: 184, 61
+  offset: 40, 10
+  index: -1
 images/ouhuang
   rotate: false
-  xy: 445, 465
+  xy: 211, 17
   size: 45, 28
   orig: 45, 28
   offset: 0, 0
   index: -1
+images/th/th_01
+  rotate: false
+  xy: 234, 222
+  size: 54, 30
+  orig: 184, 76
+  offset: 62, 14
+  index: -1
+images/th/th_02
+  rotate: false
+  xy: 451, 373
+  size: 54, 30
+  orig: 184, 61
+  offset: 63, 16
+  index: -1
 images/wenli/wenli_00000
-  rotate: true
-  xy: 381, 296
+  rotate: false
+  xy: 302, 162
   size: 96, 50
   orig: 156, 62
   offset: 36, 9
   index: -1
 images/wenli/wenli_00001
   rotate: false
-  xy: 256, 99
+  xy: 51, 47
   size: 99, 50
   orig: 156, 62
   offset: 33, 9
   index: -1
 images/wenli/wenli_00002
-  rotate: true
-  xy: 109, 278
+  rotate: false
+  xy: 124, 354
   size: 104, 50
   orig: 156, 62
   offset: 28, 9
   index: -1
 images/wenli/wenli_00003
-  rotate: false
-  xy: 123, 443
+  rotate: true
+  xy: 39, 348
   size: 105, 50
   orig: 156, 62
   offset: 28, 9
   index: -1
 images/wenli/wenli_00004
   rotate: false
-  xy: 2, 332
+  xy: 243, 460
   size: 105, 50
   orig: 156, 62
   offset: 28, 9
   index: -1
 images/wenli/wenli_00005
   rotate: false
-  xy: 230, 443
+  xy: 350, 460
   size: 105, 50
   orig: 156, 62
   offset: 28, 9
   index: -1
 images/wenli/wenli_00006
   rotate: false
-  xy: 2, 280
+  xy: 124, 406
   size: 105, 50
   orig: 156, 62
   offset: 28, 9
   index: -1
 images/wenli/wenli_00007
-  rotate: false
-  xy: 337, 444
+  rotate: true
+  xy: 35, 207
   size: 106, 49
   orig: 156, 62
   offset: 28, 9
   index: -1
 images/wenli/wenli_00008
   rotate: true
-  xy: 2, 172
+  xy: 86, 207
   size: 106, 49
   orig: 156, 62
   offset: 28, 9
   index: -1
 images/wenli/wenli_00009
   rotate: true
-  xy: 2, 64
+  xy: 51, 99
   size: 106, 49
   orig: 156, 62
   offset: 28, 9
   index: -1
 images/wenli/wenli_00010
   rotate: true
-  xy: 53, 172
+  xy: 102, 99
   size: 106, 49
   orig: 156, 62
   offset: 28, 9
   index: -1
 images/wenli/wenli_00011
   rotate: true
-  xy: 53, 63
+  xy: 153, 98
   size: 107, 48
   orig: 156, 62
   offset: 27, 10
   index: -1
 images/wenli/wenli_00012
-  rotate: true
-  xy: 103, 63
+  rotate: false
+  xy: 353, 411
   size: 107, 47
   orig: 156, 62
   offset: 27, 10
   index: -1
 images/wenli/wenli_00013
-  rotate: false
-  xy: 123, 394
+  rotate: true
+  xy: 2, 81
   size: 108, 47
   orig: 156, 62
   offset: 26, 10
   index: -1
 images/wenli/wenli_00014
-  rotate: false
-  xy: 161, 346
+  rotate: true
+  xy: 186, 208
   size: 108, 46
   orig: 156, 62
   offset: 26, 10
   index: -1
 images/wenli/wenli_00015
-  rotate: false
-  xy: 161, 298
+  rotate: true
+  xy: 203, 98
   size: 108, 46
   orig: 156, 62
   offset: 26, 10
   index: -1
 images/wenli/wenli_00016
   rotate: false
-  xy: 271, 346
+  xy: 243, 412
   size: 108, 46
   orig: 156, 62
   offset: 26, 10
   index: -1
 images/wenli/wenli_00017
   rotate: false
-  xy: 271, 298
+  xy: 231, 364
   size: 108, 46
   orig: 156, 62
   offset: 26, 10
   index: -1
 images/wenli/wenli_00018
   rotate: false
-  xy: 161, 250
+  xy: 341, 363
   size: 108, 46
   orig: 156, 62
   offset: 26, 10
   index: -1
 images/wenli/wenli_00019
-  rotate: false
-  xy: 271, 250
+  rotate: true
+  xy: 234, 254
   size: 108, 46
   orig: 156, 62
   offset: 26, 10
   index: -1
 images/wenli/wenli_00020
-  rotate: false
-  xy: 155, 202
+  rotate: true
+  xy: 282, 255
   size: 107, 46
   orig: 156, 62
   offset: 27, 10
   index: -1
 images/wenli/wenli_00021
   rotate: false
-  xy: 264, 202
+  xy: 330, 315
   size: 107, 46
   orig: 156, 62
   offset: 27, 10
   index: -1
 images/wenli/wenli_00022
-  rotate: false
-  xy: 233, 394
+  rotate: true
+  xy: 137, 207
   size: 106, 47
   orig: 156, 62
   offset: 28, 10
   index: -1
 images/wenli/wenli_00023
-  rotate: false
-  xy: 341, 394
+  rotate: true
+  xy: 462, 405
   size: 105, 48
   orig: 156, 62
   offset: 28, 9
   index: -1
 images/wenli/wenli_00024
   rotate: false
-  xy: 155, 152
+  xy: 330, 265
   size: 105, 48
   orig: 156, 62
   offset: 28, 9
   index: -1
 images/wenli/wenli_00025
-  rotate: true
-  xy: 104, 172
+  rotate: false
+  xy: 152, 47
   size: 104, 49
   orig: 156, 62
   offset: 29, 9
   index: -1
 images/wenli/wenli_00026
   rotate: false
-  xy: 262, 151
+  xy: 330, 214
   size: 104, 49
   orig: 156, 62
   offset: 29, 9
   index: -1
 images/wenli/wenli_00027
-  rotate: false
-  xy: 152, 101
+  rotate: true
+  xy: 251, 110
   size: 102, 49
   orig: 156, 62
   offset: 30, 9
   index: -1
 images/wenli/wenli_00028
   rotate: false
-  xy: 152, 50
+  xy: 258, 59
   size: 96, 49
   orig: 156, 62
   offset: 36, 9
   index: -1
 images/wenli/wenli_00029
   rotate: false
-  xy: 250, 47
+  xy: 302, 110
   size: 96, 50
   orig: 156, 62
   offset: 36, 9
   index: -1
-images/ziguang_00015
+images/zh/zh
   rotate: true
-  xy: 2, 2
+  xy: 439, 318
+  size: 43, 27
+  orig: 43, 27
+  offset: 0, 0
+  index: -1
+images/zh/zh2
+  rotate: true
+  xy: 356, 52
+  size: 56, 42
+  orig: 66, 43
+  offset: 5, 0
+  index: -1
+images/ziguang_00015
+  rotate: false
+  xy: 50, 2
   size: 60, 43
   orig: 156, 62
   offset: 49, 6
   index: -1
 images/ziguang_2
   rotate: false
-  xy: 47, 27
+  xy: 141, 318
   size: 85, 34
   orig: 85, 34
   offset: 0, 0

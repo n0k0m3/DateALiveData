@@ -4,79 +4,198 @@ size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-cheng
+de/effect_battle_gain_de_1_0
   rotate: false
-  xy: 668, 795
-  size: 81, 78
-  orig: 100, 100
-  offset: 8, 7
+  xy: 328, 137
+  size: 160, 73
+  orig: 167, 100
+  offset: 2, 15
+  index: -1
+de/effect_battle_gain_de_2_0
+  rotate: true
+  xy: 668, 619
+  size: 403, 84
+  orig: 414, 100
+  offset: 11, 3
+  index: -1
+en/yingwen1
+  rotate: true
+  xy: 617, 357
+  size: 163, 84
+  orig: 164, 100
+  offset: 1, 2
+  index: -1
+en/yingwen2
+  rotate: false
+  xy: 793, 943
+  size: 229, 79
+  orig: 242, 100
+  offset: 0, 5
+  index: -1
+es/effect_battle_gain_es_1_0
+  rotate: false
+  xy: 754, 640
+  size: 174, 80
+  orig: 182, 100
+  offset: 1, 3
+  index: -1
+es/effect_battle_gain_es_2_0
+  rotate: true
+  xy: 454, 233
+  size: 287, 85
+  orig: 336, 100
+  offset: 25, 2
   index: -1
 final_00047_00000
   rotate: false
-  xy: 2, 498
+  xy: 2, 522
   size: 664, 500
   orig: 664, 500
   offset: 0, 0
   index: -1
-gong1
+fr/effect_battle_gain_fr_1_0
   rotate: false
-  xy: 535, 418
-  size: 84, 78
-  orig: 100, 100
-  offset: 7, 10
+  xy: 793, 869
+  size: 211, 72
+  orig: 218, 100
+  offset: 0, 15
+  index: -1
+fr/effect_battle_gain_fr_2_0
+  rotate: true
+  xy: 541, 282
+  size: 238, 74
+  orig: 286, 100
+  offset: 17, 15
   index: -1
 huangse
   rotate: false
-  xy: 970, 972
+  xy: 994, 614
   size: 28, 26
   orig: 30, 28
   offset: 1, 1
   index: -1
+id/effect_battle_gain_id_1_0
+  rotate: false
+  xy: 793, 722
+  size: 182, 72
+  orig: 194, 100
+  offset: 1, 15
+  index: -1
+id/effect_battle_gain_id_2_0
+  rotate: false
+  xy: 793, 796
+  size: 205, 71
+  orig: 264, 100
+  offset: 17, 15
+  index: -1
+ko/cheng
+  rotate: false
+  xy: 617, 251
+  size: 104, 104
+  orig: 110, 110
+  offset: 3, 3
+  index: -1
+ko/gong1
+  rotate: true
+  xy: 703, 424
+  size: 104, 103
+  orig: 110, 110
+  offset: 3, 4
+  index: -1
+ko/zhan
+  rotate: false
+  xy: 754, 534
+  size: 104, 104
+  orig: 110, 110
+  offset: 3, 3
+  index: -1
+ko/zuo
+  rotate: false
+  xy: 860, 534
+  size: 104, 104
+  orig: 110, 110
+  offset: 3, 3
+  index: -1
 shenglidi
   rotate: false
-  xy: 2, 142
+  xy: 2, 72
   size: 282, 44
   orig: 284, 52
   offset: 1, 7
   index: -1
+th/effect_battle_gain_th_1_0
+  rotate: false
+  xy: 2, 118
+  size: 324, 92
+  orig: 346, 100
+  offset: 0, 6
+  index: -1
 tiao1_00000
   rotate: false
-  xy: 2, 188
+  xy: 2, 212
   size: 450, 308
   orig: 450, 320
   offset: 0, 12
   index: -1
 tiao_00000
-  rotate: false
-  xy: 668, 961
+  rotate: true
+  xy: 754, 722
   size: 300, 37
   orig: 300, 100
   offset: 0, 33
   index: -1
-yingwen1
+zh/cheng
   rotate: false
-  xy: 668, 875
-  size: 163, 84
-  orig: 164, 100
-  offset: 1, 2
+  xy: 808, 454
+  size: 99, 78
+  orig: 99, 78
+  offset: 0, 0
   index: -1
-yingwen2
+zh/gong1
+  rotate: false
+  xy: 930, 642
+  size: 92, 78
+  orig: 92, 78
+  offset: 0, 0
+  index: -1
+zh/zhan
+  rotate: false
+  xy: 909, 454
+  size: 83, 78
+  orig: 83, 78
+  offset: 0, 0
+  index: -1
+zh/zuo
+  rotate: false
+  xy: 893, 374
+  size: 82, 78
+  orig: 82, 78
+  offset: 0, 0
+  index: -1
+zn/cheng
+  rotate: false
+  xy: 328, 57
+  size: 81, 78
+  orig: 100, 100
+  offset: 8, 7
+  index: -1
+zn/gong1
   rotate: true
-  xy: 454, 267
-  size: 229, 79
-  orig: 242, 100
-  offset: 0, 5
+  xy: 490, 147
+  size: 84, 78
+  orig: 100, 100
+  offset: 7, 10
   index: -1
-zhan
-  rotate: false
-  xy: 2, 62
+zn/zhan
+  rotate: true
+  xy: 668, 530
   size: 87, 78
   orig: 100, 100
   offset: 5, 7
   index: -1
-zuo
+zn/zuo
   rotate: false
-  xy: 833, 884
+  xy: 808, 377
   size: 83, 75
   orig: 100, 100
   offset: 11, 6

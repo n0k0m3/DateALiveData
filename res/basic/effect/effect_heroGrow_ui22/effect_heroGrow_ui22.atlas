@@ -4,73 +4,199 @@ size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-de
-  rotate: false
-  xy: 745, 863
-  size: 54, 51
-  orig: 54, 51
-  offset: 0, 0
-  index: -1
-effect_heroGrow_ui22
-  rotate: false
-  xy: 2, 55
-  size: 307, 47
-  orig: 360, 50
-  offset: 27, 1
-  index: -1
 final_00047_00000
   rotate: false
-  xy: 2, 414
+  xy: 2, 508
   size: 656, 500
   orig: 664, 500
   offset: 8, 0
   index: -1
 huangse
   rotate: false
-  xy: 311, 71
+  xy: 304, 165
   size: 40, 31
   orig: 42, 33
   offset: 1, 1
   index: -1
-huo
+images/de/effect_heroGrow_ui22_de_1_0
   rotate: false
-  xy: 2, 2
+  xy: 189, 109
+  size: 112, 47
+  orig: 112, 56
+  offset: 0, 9
+  index: -1
+images/de/effect_heroGrow_ui22_de_2_0
+  rotate: false
+  xy: 745, 961
+  size: 209, 47
+  orig: 214, 56
+  offset: 0, 9
+  index: -1
+images/en/effect_heroGrow_ui22_1_0
+  rotate: false
+  xy: 2, 7
+  size: 117, 47
+  orig: 127, 50
+  offset: 5, 1
+  index: -1
+images/en/effect_heroGrow_ui22_1_0_1_0
+  rotate: false
+  xy: 2, 109
+  size: 185, 47
+  orig: 192, 50
+  offset: 4, 1
+  index: -1
+images/es/effect_heroGrow_ui22_es_1_0
+  rotate: true
+  xy: 454, 248
+  size: 258, 41
+  orig: 262, 56
+  offset: 0, 14
+  index: -1
+images/es/effect_heroGrow_ui22_es_2_0
+  rotate: false
+  xy: 2, 56
+  size: 157, 51
+  orig: 165, 56
+  offset: 4, 4
+  index: -1
+images/fr/effect_heroGrow_ui22_fr_1_0
+  rotate: false
+  xy: 161, 60
+  size: 112, 47
+  orig: 112, 56
+  offset: 0, 9
+  index: -1
+images/fr/effect_heroGrow_ui22_fr_2_0
+  rotate: false
+  xy: 745, 912
+  size: 176, 47
+  orig: 180, 56
+  offset: 0, 9
+  index: -1
+images/id/effect_heroGrow_ui22_id_1_0
+  rotate: true
+  xy: 552, 361
+  size: 145, 52
+  orig: 154, 56
+  offset: 0, 0
+  index: -1
+images/id/effect_heroGrow_ui22_id_2_0
+  rotate: false
+  xy: 745, 867
+  size: 134, 43
+  orig: 137, 56
+  offset: 1, 9
+  index: -1
+images/ko/jue_00000
+  rotate: true
+  xy: 956, 962
+  size: 46, 52
+  orig: 52, 52
+  offset: 3, 0
+  index: -1
+images/ko/shi_00000
+  rotate: false
+  xy: 745, 598
+  size: 51, 51
+  orig: 52, 52
+  offset: 0, 0
+  index: -1
+images/ko/tian_00000
+  rotate: false
+  xy: 606, 398
+  size: 48, 52
+  orig: 52, 52
+  offset: 1, 0
+  index: -1
+images/ko/xing_00000
+  rotate: false
+  xy: 745, 547
+  size: 50, 49
+  orig: 52, 52
+  offset: 1, 2
+  index: -1
+images/th/effect_heroGrow_ui22_th_1_0
+  rotate: true
+  xy: 497, 335
+  size: 171, 53
+  orig: 192, 56
+  offset: 13, 0
+  index: -1
+images/zh/de
+  rotate: false
+  xy: 745, 757
+  size: 53, 53
+  orig: 53, 53
+  offset: 0, 0
+  index: -1
+images/zh/huo
+  rotate: true
+  xy: 497, 278
+  size: 55, 53
+  orig: 55, 53
+  offset: 0, 0
+  index: -1
+images/zh/yi
+  rotate: true
+  xy: 606, 452
+  size: 54, 50
+  orig: 54, 50
+  offset: 0, 0
+  index: -1
+images/zh/zeng
+  rotate: false
+  xy: 745, 812
+  size: 54, 53
+  orig: 54, 53
+  offset: 0, 0
+  index: -1
+images/zn/de
+  rotate: true
+  xy: 552, 305
+  size: 54, 51
+  orig: 54, 51
+  offset: 0, 0
+  index: -1
+images/zn/huo
+  rotate: false
+  xy: 801, 814
+  size: 53, 51
+  orig: 53, 51
+  offset: 0, 0
+  index: -1
+images/zn/yi
+  rotate: false
+  xy: 745, 704
+  size: 53, 51
+  orig: 53, 51
+  offset: 0, 0
+  index: -1
+images/zn/zeng
+  rotate: false
+  xy: 745, 651
   size: 53, 51
   orig: 53, 51
   offset: 0, 0
   index: -1
 shenglidi
   rotate: true
-  xy: 660, 422
+  xy: 660, 516
   size: 492, 83
   orig: 494, 85
   offset: 1, 1
   index: -1
 tiao1_00000
   rotate: false
-  xy: 2, 104
+  xy: 2, 198
   size: 450, 308
   orig: 450, 320
   offset: 0, 12
   index: -1
 tiao_00000
-  rotate: true
-  xy: 454, 112
+  rotate: false
+  xy: 2, 158
   size: 300, 38
   orig: 300, 100
   offset: 0, 31
-  index: -1
-yi
-  rotate: false
-  xy: 494, 361
-  size: 53, 51
-  orig: 53, 51
-  offset: 0, 0
-  index: -1
-zeng
-  rotate: false
-  xy: 745, 810
-  size: 53, 51
-  orig: 53, 51
-  offset: 0, 0
   index: -1

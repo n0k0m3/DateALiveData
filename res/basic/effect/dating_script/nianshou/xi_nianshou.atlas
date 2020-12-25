@@ -6,127 +6,182 @@ filter: Linear,Linear
 repeat: none
 biaoqing_0001
   rotate: false
-  xy: 338, 64
+  xy: 958, 359
   size: 63, 66
   orig: 63, 66
   offset: 0, 0
   index: -1
 biaoqing_0003
-  rotate: false
-  xy: 479, 440
+  rotate: true
+  xy: 571, 440
   size: 96, 70
   orig: 96, 70
   offset: 0, 0
   index: -1
 biaoqing_0006
   rotate: false
-  xy: 360, 196
+  xy: 2, 2
   size: 91, 120
   orig: 91, 120
   offset: 0, 0
   index: -1
 biaoqing_0007
-  rotate: false
-  xy: 582, 524
+  rotate: true
+  xy: 398, 432
   size: 126, 63
   orig: 126, 63
   offset: 0, 0
   index: -1
-biaoqing_0008
-  rotate: false
-  xy: 435, 696
-  size: 360, 296
-  orig: 360, 296
-  offset: 0, 0
-  index: -1
 biaoqing_0009
   rotate: false
-  xy: 2, 28
+  xy: 650, 25
   size: 176, 102
   orig: 176, 102
   offset: 0, 0
   index: -1
 biaoqing_0010
-  rotate: true
-  xy: 360, 452
+  rotate: false
+  xy: 95, 5
   size: 144, 117
   orig: 144, 117
   offset: 0, 0
   index: -1
 biaoqing_0011
   rotate: false
-  xy: 610, 589
+  xy: 241, 17
   size: 146, 105
   orig: 146, 105
   offset: 0, 0
   index: -1
 biaoqing_0012
   rotate: false
-  xy: 180, 27
+  xy: 492, 22
   size: 156, 103
   orig: 156, 103
   offset: 0, 0
   index: -1
 biaoqing_0013
-  rotate: false
-  xy: 360, 318
+  rotate: true
+  xy: 360, 560
   size: 98, 132
   orig: 98, 132
   offset: 0, 0
   index: -1
 biaoqing_0014
   rotate: false
-  xy: 2, 132
+  xy: 2, 557
   size: 356, 464
   orig: 356, 464
   offset: 0, 0
   index: -1
 biaoqing_0015
   rotate: false
-  xy: 797, 694
+  xy: 398, 127
   size: 195, 298
   orig: 195, 298
   offset: 0, 0
   index: -1
 biaoqing_0016
-  rotate: true
-  xy: 435, 619
+  rotate: false
+  xy: 494, 427
   size: 75, 173
   orig: 75, 173
   offset: 0, 0
   index: -1
 biaoqing_0017
   rotate: false
-  xy: 479, 512
+  xy: 389, 17
   size: 101, 105
   orig: 101, 105
   offset: 0, 0
   index: -1
 biaoqing_0018
-  rotate: false
-  xy: 2, 598
+  rotate: true
+  xy: 2, 124
   size: 431, 394
   orig: 431, 394
   offset: 0, 0
   index: -1
+de_0
+  rotate: true
+  xy: 360, 660
+  size: 361, 296
+  orig: 361, 296
+  offset: 0, 0
+  index: -1
 erduo_0001
   rotate: false
-  xy: 460, 382
+  xy: 595, 602
   size: 61, 56
   orig: 61, 56
   offset: 0, 0
   index: -1
 erduo_0002
   rotate: true
-  xy: 360, 132
+  xy: 571, 538
   size: 62, 75
   orig: 62, 75
   offset: 0, 0
   index: -1
 erduo_0003
-  rotate: true
-  xy: 710, 515
+  rotate: false
+  xy: 494, 602
   size: 72, 56
   orig: 72, 56
+  offset: 0, 0
+  index: -1
+es_0
+  rotate: false
+  xy: 658, 725
+  size: 361, 296
+  orig: 361, 296
+  offset: 0, 0
+  index: -1
+id_0
+  rotate: false
+  xy: 658, 427
+  size: 361, 296
+  orig: 361, 296
+  offset: 0, 0
+  index: -1
+th_0
+  rotate: false
+  xy: 595, 129
+  size: 361, 296
+  orig: 361, 296
+  offset: 0, 0
+  index: -1
+
+xi_nianshou2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+biaoqing_0008
+  rotate: false
+  xy: 2, 726
+  size: 360, 296
+  orig: 360, 296
+  offset: 0, 0
+  index: -1
+ko_0
+  rotate: false
+  xy: 2, 428
+  size: 360, 296
+  orig: 360, 296
+  offset: 0, 0
+  index: -1
+zh_0
+  rotate: false
+  xy: 364, 726
+  size: 360, 296
+  orig: 360, 296
+  offset: 0, 0
+  index: -1
+zn_0
+  rotate: true
+  xy: 726, 662
+  size: 360, 296
+  orig: 360, 296
   offset: 0, 0
   index: -1
