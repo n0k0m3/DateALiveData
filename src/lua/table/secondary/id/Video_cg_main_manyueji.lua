@@ -1,0 +1,80 @@
+return {
+    [1] = {
+        id = 1,
+        beginTime  = "00:00:01,0",
+        endTime  = "00:00:02,0",
+        content  = "Saat aku membuka mata, aku sudah memasuki dimensi lain",
+    },
+    [2] = {
+        id = 2,
+        beginTime  = "00:00:02,850",
+        endTime  = "00:00:06,0",
+        content  = "Hanya [waktu], dilalui denganmu lah waktu yang sejati.",
+    },
+    [3] = {
+        id = 3,
+        beginTime  = "00:00:06,850",
+        endTime  = "00:00:10,0",
+        content  = "Ara~Mukamu jadi merah~",
+    },
+    [4] = {
+        id = 4,
+        beginTime  = "00:00:10,850",
+        endTime  = "00:00:15,0",
+        content  = "Terima kasih...tidak membiarkanku takut kedinginan...",
+    },
+    [5] = {
+        id = 5,
+        beginTime  = "00:00:15,850",
+        endTime  = "00:00:19,0",
+        content  = "Kamu adalah arti keberadaanku.",
+    },
+    [6] = {
+        id = 6,
+        beginTime  = "00:00:19,850",
+        endTime  = "00:00:22,0",
+        content  = "Perasaan ini takkan kalah dari siapa pun.",
+    },
+    [7] = {
+        id = 7,
+        beginTime  = "00:00:22,850",
+        endTime  = "00:00:25,0",
+        content  = "Janji ya! Harus terus, terus bersama!",
+    },
+    [8] = {
+        id = 8,
+        beginTime  = "00:00:25,850",
+        endTime  = "00:00:28,0",
+        content  = "Onii-chan, aku takkan melepaskan tanganmu...",
+    },
+    [9] = {
+        id = 9,
+        beginTime  = "00:00:28,850",
+        endTime  = "00:00:33,0",
+        content  = "Aku akan terus bernyanyi untukmu~Sayang~",
+    },
+    [10] = {
+        id = 10,
+        beginTime  = "00:00:33,850",
+        endTime  = "00:00:36,0",
+        content  = "Kuhargai ketulusanmu menemaniku sepanjang jalan ini.",
+    },
+    [11] = {
+        id = 11,
+        beginTime  = "00:00:36,850",
+        endTime  = "00:00:40,0",
+        content  = "Setuju. Mulai hari ini, kumohon jalanlah bersama Yamai.",
+    },
+    [12] = {
+        id = 12,
+        beginTime  = "00:00:40,850",
+        endTime  = "00:00:43,0",
+        content  = "Kamu sudah janji...akan mengubahku jadi cantik...",
+    },
+    [13] = {
+        id = 13,
+        beginTime  = "00:00:43,850",
+        endTime  = "00:00:45,0",
+        content  = "Semua hal akan kuberikan untuku.",
+    },
+}

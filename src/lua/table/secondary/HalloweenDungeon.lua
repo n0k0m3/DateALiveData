@@ -1,0 +1,178 @@
+return {
+    [278406] = {
+        isFollow = true,
+        type = 1,
+        icon2 = "ui/Halloween/Main/016",
+        levelTitle = 0,
+        id = 278406,
+        unlockEvent = {
+        },
+        levelDetail = 0,
+        unlockLine = "ui/Halloween/Main/levelbg/002",
+    },
+    [278401] = {
+        isFollow = false,
+        type = 1,
+        icon2 = "",
+        levelTitle = 0,
+        id = 278401,
+        unlockEvent = {
+        },
+        levelDetail = 0,
+        unlockLine = "ui/Halloween/Main/levelbg/007",
+    },
+    [278403] = {
+        isFollow = true,
+        type = 1,
+        icon2 = "",
+        levelTitle = 0,
+        id = 278403,
+        unlockEvent = {
+        },
+        levelDetail = 0,
+        unlockLine = "ui/Halloween/Main/levelbg/010",
+    },
+    [278302] = {
+        isFollow = true,
+        type = 1,
+        icon2 = "",
+        levelTitle = 0,
+        id = 278302,
+        unlockEvent = {
+        },
+        levelDetail = 0,
+        unlockLine = "ui/Halloween/Main/levelbg/009",
+    },
+    [278201] = {
+        isFollow = false,
+        type = 1,
+        icon2 = "",
+        levelTitle = 0,
+        id = 278201,
+        unlockEvent = {
+        },
+        levelDetail = 0,
+        unlockLine = "ui/Halloween/Main/levelbg/005",
+    },
+    [278402] = {
+        isFollow = true,
+        type = 3,
+        icon2 = "ui/Halloween/Main/021",
+        levelTitle = 12101027,
+        id = 278402,
+        unlockEvent = {
+        },
+        levelDetail = 12101049,
+        unlockLine = "ui/Halloween/Main/levelbg/008",
+    },
+    [278404] = {
+        isFollow = true,
+        type = 3,
+        icon2 = "ui/Halloween/Main/020",
+        levelTitle = 12101027,
+        id = 278404,
+        unlockEvent = {
+        },
+        levelDetail = 12101050,
+        unlockLine = "ui/Halloween/Main/levelbg/011",
+    },
+    [278303] = {
+        isFollow = true,
+        type = 1,
+        icon2 = "",
+        levelTitle = 0,
+        id = 278303,
+        unlockEvent = {
+        },
+        levelDetail = 0,
+        unlockLine = "ui/Halloween/Main/levelbg/004",
+    },
+    [278202] = {
+        isFollow = true,
+        type = 1,
+        icon2 = "",
+        levelTitle = 0,
+        id = 278202,
+        unlockEvent = {
+        },
+        levelDetail = 0,
+        unlockLine = "ui/Halloween/Main/levelbg/004",
+    },
+    [278101] = {
+        isFollow = false,
+        type = 1,
+        icon2 = "",
+        levelTitle = 0,
+        id = 278101,
+        unlockEvent = {
+        },
+        levelDetail = 0,
+        unlockLine = "ui/Halloween/Main/levelbg/003",
+    },
+    [278405] = {
+        isFollow = true,
+        type = 4,
+        icon2 = "ui/Halloween/Main/015",
+        levelTitle = 12101026,
+        id = 278405,
+        unlockEvent = {
+        },
+        levelDetail = 12101028,
+        unlockLine = "ui/Halloween/Main/levelbg/005",
+    },
+    [278304] = {
+        isFollow = true,
+        type = 3,
+        icon2 = "ui/Halloween/Main/023",
+        levelTitle = 12101027,
+        id = 278304,
+        unlockEvent = {
+        },
+        levelDetail = 12101048,
+        unlockLine = "ui/Halloween/Main/levelbg/005",
+    },
+    [278203] = {
+        isFollow = false,
+        type = 3,
+        icon2 = "ui/Halloween/Main/022",
+        levelTitle = 12101027,
+        id = 278203,
+        unlockEvent = {
+        },
+        levelDetail = 12101052,
+        unlockLine = "ui/Halloween/Main/levelbg/005",
+    },
+    [278102] = {
+        isFollow = true,
+        type = 3,
+        icon2 = "ui/Halloween/Main/024",
+        levelTitle = 12101027,
+        id = 278102,
+        unlockEvent = {
+        },
+        levelDetail = 12101051,
+        unlockLine = "ui/Halloween/Main/levelbg/002",
+    },
+    [278301] = {
+        isFollow = false,
+        type = 1,
+        icon2 = "",
+        levelTitle = 0,
+        id = 278301,
+        unlockEvent = {
+        },
+        levelDetail = 0,
+        unlockLine = "ui/Halloween/Main/levelbg/006",
+    },
+    [278001] = {
+        isFollow = false,
+        type = 1,
+        icon2 = "",
+        levelTitle = 0,
+        id = 278001,
+        unlockEvent = {
+        },
+        levelDetail = 0,
+        unlockLine = "",
+    },
+}

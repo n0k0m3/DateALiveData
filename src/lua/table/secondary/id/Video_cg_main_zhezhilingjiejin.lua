@@ -1,0 +1,80 @@
+return {
+    [1] = {
+        id = 1,
+        beginTime  = "00:00:00,100",
+        endTime  = "00:00:06,0",
+        content  = "Huff...sampai batas event, ini tidak ada bedanya.",
+    },
+    [2] = {
+        id = 2,
+        beginTime  = "00:00:06,850",
+        endTime  = "00:00:12,0",
+        content  = "Aku menghabiskan stamina untuk mengejar Kekuatan Spirit",
+    },
+    [3] = {
+        id = 3,
+        beginTime  = "00:00:13,0",
+        endTime  = "00:00:24,200",
+        content  = "Sejak saat itu, aku mengorbankan segala hal...\naku tak punya apa-apa lagi...aku…",
+    },
+    [4] = {
+        id = 4,
+        beginTime  = "00:00:25,0",
+        endTime  = "00:00:29,0",
+        content  = "Kau mau kekuatan?",
+    },
+    [5] = {
+        id = 5,
+        beginTime  = "00:00:29,850",
+        endTime  = "00:00:33,0",
+        content  = "Siapa kau? Kau...makhluk apa?",
+    },
+    [6] = {
+        id = 6,
+        beginTime  = "00:00:33,850",
+        endTime  = "00:00:38,0",
+        content  = "Jawab aku, apa kau mau kekuatan?",
+    },
+    [7] = {
+        id = 7,
+        beginTime  = "00:00:38,850",
+        endTime  = "00:00:43,0",
+        content  = "Kekuatan yang tidak akan kalah dari siapapun?",
+    },
+    [8] = {
+        id = 8,
+        beginTime  = "00:00:44,0",
+        endTime  = "00:00:47,0",
+        content  = "...Aku...mau kekuatan",
+    },
+    [9] = {
+        id = 9,
+        beginTime  = "00:00:47,800",
+        endTime  = "00:00:50,0",
+        content  = "Bagaimanapun caranya, apapun yang harus kukorbankan",
+    },
+    [10] = {
+        id = 10,
+        beginTime  = "00:00:51,0",
+        endTime  = "00:00:55,0",
+        content  = "Aku ingin kekuatan untuk meraih hal yang kuinginkan.",
+    },
+    [11] = {
+        id = 11,
+        beginTime  = "00:00:56,0",
+        endTime  = "00:01:42,0",
+        content  = "Kekuatan yang tak ada tandingannya...aku mau itu!",
+    },
+    [12] = {
+        id = 12,
+        beginTime  = "00:01:45,0",
+        endTime  = "00:01:49,0",
+        content  = "Jika mau kekuatan, ulurkanlah tanganmu",
+    },
+    [13] = {
+        id = 13,
+        beginTime  = "00:01:53,0",
+        endTime  = "00:01:57,0",
+        content  = "Aaaaaaaaaaaaaaahh!!",
+    },
+}

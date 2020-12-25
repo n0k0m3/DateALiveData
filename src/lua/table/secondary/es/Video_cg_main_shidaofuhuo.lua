@@ -1,0 +1,80 @@
+return {
+    [1] = {
+        id = 1,
+        beginTime  = "00:00:03,0",
+        endTime  = "00:00:06,0",
+        content  = "¿Planeas despertar pronto?",
+    },
+    [2] = {
+        id = 2,
+        beginTime  = "00:00:08,0",
+        endTime  = "00:00:10,0",
+        content  = "¿Uh? ¿No estoy muerto? ¡Ca-ca-caliente!",
+    },
+    [3] = {
+        id = 3,
+        beginTime  = "00:00:11,0",
+        endTime  = "00:00:13,200",
+        content  = "¡El poder de la princesa está dando vueltas ",
+    },
+    [4] = {
+        id = 4,
+        beginTime  = "00:00:14,0",
+        endTime  = "00:00:16,0",
+        content  = "sin control! ¡Debes apresurarte a sellarlo!",
+    },
+    [5] = {
+        id = 5,
+        beginTime  = "00:00:18,0",
+        endTime  = "00:00:19,200",
+        content  = "¡Tohka!",
+    },
+    [6] = {
+        id = 6,
+        beginTime  = "00:00:20,0",
+        endTime  = "00:00:27,0",
+        content  = "Pensé… ¡Pensé que estabas muerto! ¿En verdad eres tú?",
+    },
+    [7] = {
+        id = 7,
+        beginTime  = "00:00:28,0",
+        endTime  = "00:00:33,0",
+        content  = "Sí, soy yo. ¡Tohka, por favor!\n¡Intenta controlar tu poder!",
+    },
+    [8] = {
+        id = 8,
+        beginTime  = "00:00:34,0",
+        endTime  = "00:00:39,0",
+        content  = "Pero, ¡no puedo!\n¡Ahora Halvanhelv está fuera de mi control!",
+    },
+    [9] = {
+        id = 9,
+        beginTime  = "00:00:40,0",
+        endTime  = "00:00:43,0",
+        content  = "¿Qué podemos hacer? ¡Oh, claro! ",
+    },
+    [10] = {
+        id = 10,
+        beginTime  = "00:00:45,0",
+        endTime  = "00:00:48,899",
+        content  = "¡Intentemos con el método del que me hablaste! ¡Eso del\nbeso o lo que sea que hayas dicho! ¿Cómo lo haces?",
+    },
+    [11] = {
+        id = 11,
+        beginTime  = "00:00:51,0",
+        endTime  = "00:00:53,0",
+        content  = "Bueno, debemos juntar nuestros labios.",
+    },
+    [12] = {
+        id = 12,
+        beginTime  = "00:01:08,0",
+        endTime  = "00:01:12,0",
+        content  = "¿Me llevarás a otra cita?",
+    },
+    [13] = {
+        id = 13,
+        beginTime  = "00:01:12,900",
+        endTime  = "00:01:16,0",
+        content  = "Sí, cuando quieras.",
+    },
+}

@@ -1,0 +1,36 @@
+return {
+    [1] = {
+        getAni = "animation2",
+        victoryLive2d = {
+            [1] = 1102,
+            [2] = 1103,
+            [3] = 1104,
+            [4] = 1105,
+            [5] = 1106,
+            [6] = 1107,
+            [7] = 1108,
+            [8] = 1109,
+        },
+        id = 1,
+        idleAni = "animation",
+        triggerTips = 0,
+        effectPath = "effect/eff_DFW_zhuanpan/eff_DFW_zhuanpan",
+    },
+    [2] = {
+        getAni = "animation2",
+        victoryLive2d = {
+            [1] = 1102,
+            [2] = 1103,
+            [3] = 1104,
+            [4] = 1105,
+            [5] = 1106,
+            [6] = 1107,
+            [7] = 1108,
+            [8] = 1109,
+        },
+        id = 2,
+        idleAni = "animation",
+        triggerTips = 0,
+        effectPath = "effect/eff_DFW_zhuanpan/eff_DFW_zhuanpan",
+    },
+}

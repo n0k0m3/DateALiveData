@@ -1,0 +1,80 @@
+return {
+    [1] = {
+        id = 1,
+        beginTime  = "00:00:03,0",
+        endTime  = "00:00:06,0",
+        content  = "Are you planning to wake up any time soon?",
+    },
+    [2] = {
+        id = 2,
+        beginTime  = "00:00:08,0",
+        endTime  = "00:00:10,0",
+        content  = "Huh? Am I not dead? H-H-Hot!",
+    },
+    [3] = {
+        id = 3,
+        beginTime  = "00:00:11,0",
+        endTime  = "00:00:13,200",
+        content  = "Princess' power is spiraling out of control! ",
+    },
+    [4] = {
+        id = 4,
+        beginTime  = "00:00:14,0",
+        endTime  = "00:00:16,0",
+        content  = "You've gotta hurry up and seal it!",
+    },
+    [5] = {
+        id = 5,
+        beginTime  = "00:00:18,0",
+        endTime  = "00:00:19,200",
+        content  = "Tohka!",
+    },
+    [6] = {
+        id = 6,
+        beginTime  = "00:00:20,0",
+        endTime  = "00:00:27,0",
+        content  = "I thought... I thought you were dead! Is that really you?",
+    },
+    [7] = {
+        id = 7,
+        beginTime  = "00:00:28,0",
+        endTime  = "00:00:33,0",
+        content  = "Yeah, it's me. Tohka, please! Try to control your power!",
+    },
+    [8] = {
+        id = 8,
+        beginTime  = "00:00:34,0",
+        endTime  = "00:00:39,0",
+        content  = "But, I can't! Halvanhelv is beyond my control now!",
+    },
+    [9] = {
+        id = 9,
+        beginTime  = "00:00:40,0",
+        endTime  = "00:00:43,0",
+        content  = "What can we do? Oh, yeah! ",
+    },
+    [10] = {
+        id = 10,
+        beginTime  = "00:00:45,0",
+        endTime  = "00:00:48,899",
+        content  = "Let's try that method you told me about! ",
+    },
+    [11] = {
+        id = 11,
+        beginTime  = "00:00:51,0",
+        endTime  = "00:00:53,0",
+        content  = "Well, we have to put our lips together.",
+    },
+    [12] = {
+        id = 12,
+        beginTime  = "00:01:08,0",
+        endTime  = "00:01:12,0",
+        content  = "Will you take me out on another date?",
+    },
+    [13] = {
+        id = 13,
+        beginTime  = "00:01:12,900",
+        endTime  = "00:01:16,0",
+        content  = "Yeah, anytime.",
+    },
+}

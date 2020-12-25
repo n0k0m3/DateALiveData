@@ -1,0 +1,47 @@
+return {
+    [1602000] = {
+        superType = 70,
+        Note = "世界之眼",
+        order = 1,
+        talent = {
+        },
+        id = 1602000,
+        pileUp = false,
+        totalMax = 1,
+        desTextId = 13322103,
+        gridMax = 1,
+        roleId = 1001,
+        convertMax = {
+        },
+        bagType = 0,
+        isDefault = true,
+        nameTextId = 13322102,
+        icon = "icon/item/goods/1602000.png",
+        quality = 3,
+    },
+    [1602001] = {
+        superType = 70,
+        Note = "尼德霍格",
+        order = 2,
+        talent = {
+            [1] = 67002,
+            [2] = 67003,
+            [3] = 67004,
+            [4] = 67005,
+            [5] = 67001,
+        },
+        id = 1602001,
+        pileUp = false,
+        totalMax = 1,
+        desTextId = 13322106,
+        gridMax = 1,
+        roleId = 1002,
+        convertMax = {
+        },
+        bagType = 0,
+        isDefault = false,
+        nameTextId = 13322105,
+        icon = "icon/item/goods/1602001.png",
+        quality = 4,
+    },
+}

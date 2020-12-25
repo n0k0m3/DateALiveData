@@ -1,0 +1,80 @@
+return {
+    [1] = {
+        id = 1,
+        beginTime  = "00:00:01,0",
+        endTime  = "00:00:02,0",
+        content  = "Quand j'ai rouvert les yeux,\nj'étais dans ce qui semblait être un autre monde.",
+    },
+    [2] = {
+        id = 2,
+        beginTime  = "00:00:02,850",
+        endTime  = "00:00:06,0",
+        content  = "Seul le [temps] passé avec toi est réel.",
+    },
+    [3] = {
+        id = 3,
+        beginTime  = "00:00:06,850",
+        endTime  = "00:00:10,0",
+        content  = "Oh, tu rougis !",
+    },
+    [4] = {
+        id = 4,
+        beginTime  = "00:00:10,850",
+        endTime  = "00:00:15,0",
+        content  = "Merci... de m'avoir libérée de la peur de la froideur...",
+    },
+    [5] = {
+        id = 5,
+        beginTime  = "00:00:15,850",
+        endTime  = "00:00:19,0",
+        content  = "Tu es la raison pour laquelle j'existe ici.",
+    },
+    [6] = {
+        id = 6,
+        beginTime  = "00:00:19,850",
+        endTime  = "00:00:22,0",
+        content  = "Mon amour pour toi est sans pareil.",
+    },
+    [7] = {
+        id = 7,
+        beginTime  = "00:00:22,850",
+        endTime  = "00:00:25,0",
+        content  = "Nous nous étions promis !\nNous serons ensemble ! Pour toujours !",
+    },
+    [8] = {
+        id = 8,
+        beginTime  = "00:00:25,850",
+        endTime  = "00:00:28,0",
+        content  = "Onii chan, je ne lâcherai plus jamais tes mains...",
+    },
+    [9] = {
+        id = 9,
+        beginTime  = "00:00:28,850",
+        endTime  = "00:00:33,0",
+        content  = "Je chanterai toujours pour toi.\nDes chansons d'affection, mon amour !",
+    },
+    [10] = {
+        id = 10,
+        beginTime  = "00:00:33,850",
+        endTime  = "00:00:36,0",
+        content  = "Merci pour ta sincérité et ta compagnie jusqu'ici.",
+    },
+    [11] = {
+        id = 11,
+        beginTime  = "00:00:36,850",
+        endTime  = "00:00:40,0",
+        content  = "Oui. Reste au côté de Yamai comme tu le fais toujours.",
+    },
+    [12] = {
+        id = 12,
+        beginTime  = "00:00:40,850",
+        endTime  = "00:00:43,0",
+        content  = "Tu as promis... que tu me rendrais... plus jolie...",
+    },
+    [13] = {
+        id = 13,
+        beginTime  = "00:00:43,850",
+        endTime  = "00:00:45,0",
+        content  = "Je te donnerai mon tout.",
+    },
+}

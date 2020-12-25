@@ -1,0 +1,80 @@
+return {
+    [1] = {
+        id = 1,
+        beginTime  = "00:00:00,100",
+        endTime  = "00:00:06,0",
+        content  = "Límite de activación… Emparejado, mi trasero…",
+    },
+    [2] = {
+        id = 2,
+        beginTime  = "00:00:06,850",
+        endTime  = "00:00:12,0",
+        content  = "Desperdicié toda mi vida…\n todo se fue en perseguir el poder de un espíritu…",
+    },
+    [3] = {
+        id = 3,
+        beginTime  = "00:00:13,0",
+        endTime  = "00:00:24,200",
+        content  = "Desde entonces, lo he sacrificado todo,\n y aun así...  Ahora no me queda... nada…",
+    },
+    [4] = {
+        id = 4,
+        beginTime  = "00:00:25,0",
+        endTime  = "00:00:29,0",
+        content  = "Oye, ¿deseas tener más poder?",
+    },
+    [5] = {
+        id = 5,
+        beginTime  = "00:00:29,850",
+        endTime  = "00:00:33,0",
+        content  = "¿Qué eres?",
+    },
+    [6] = {
+        id = 6,
+        beginTime  = "00:00:33,850",
+        endTime  = "00:00:38,0",
+        content  = "Respóndeme. ¿Deseas tener más poder?",
+    },
+    [7] = {
+        id = 7,
+        beginTime  = "00:00:38,850",
+        endTime  = "00:00:43,0",
+        content  = "Todo el poder… \nPoder suficiente para vencer a cualquiera.",
+    },
+    [8] = {
+        id = 8,
+        beginTime  = "00:00:44,0",
+        endTime  = "00:00:47,0",
+        content  = "Quiero… poder.",
+    },
+    [9] = {
+        id = 9,
+        beginTime  = "00:00:47,800",
+        endTime  = "00:00:50,0",
+        content  = "Sin importar el costo. Sin importar el sacrificio.",
+    },
+    [10] = {
+        id = 10,
+        beginTime  = "00:00:51,0",
+        endTime  = "00:00:55,0",
+        content  = "Si es suficiente poder para cumplir mi\ndeseo de una vez por todas…",
+    },
+    [11] = {
+        id = 11,
+        beginTime  = "00:00:56,0",
+        endTime  = "00:01:42,0",
+        content  = "Si pudiera tener un poder tal que sea\nincomparable al resto, ¡lo quiero!",
+    },
+    [12] = {
+        id = 12,
+        beginTime  = "00:01:45,0",
+        endTime  = "00:01:49,0",
+        content  = "Si quieres poder, estira tu mano.",
+    },
+    [13] = {
+        id = 13,
+        beginTime  = "00:01:53,0",
+        endTime  = "00:01:57,0",
+        content  = "¡Aaahhh!",
+    },
+}

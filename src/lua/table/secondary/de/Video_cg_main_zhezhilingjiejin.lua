@@ -1,0 +1,80 @@
+return {
+    [1] = {
+        id = 1,
+        beginTime  = "00:00:00,100",
+        endTime  = "00:00:06,0",
+        content  = "Aktivierungslimit... Von wegen ausgeglichen...",
+    },
+    [2] = {
+        id = 2,
+        beginTime  = "00:00:06,850",
+        endTime  = "00:00:12,0",
+        content  = "Ich habe mein ganzes Leben verschwendet…\nalles damit verbracht, die Kraft eines Geistes zu jagen…",
+    },
+    [3] = {
+        id = 3,
+        beginTime  = "00:00:13,0",
+        endTime  = "00:00:24,200",
+        content  = "Seitdem habe ich alles geopfert, aber…\nJetzt habe ich nichts mehr... übrig…",
+    },
+    [4] = {
+        id = 4,
+        beginTime  = "00:00:25,0",
+        endTime  = "00:00:29,0",
+        content  = "Hey, wünschst du dir mehr Macht?",
+    },
+    [5] = {
+        id = 5,
+        beginTime  = "00:00:29,850",
+        endTime  = "00:00:33,0",
+        content  = "Was bist du?",
+    },
+    [6] = {
+        id = 6,
+        beginTime  = "00:00:33,850",
+        endTime  = "00:00:38,0",
+        content  = "Antworte mir. Wünschst du dir mehr Macht?",
+    },
+    [7] = {
+        id = 7,
+        beginTime  = "00:00:38,850",
+        endTime  = "00:00:43,0",
+        content  = "Absolute Macht... \nMacht stark genug, um jeden zu besiegen.",
+    },
+    [8] = {
+        id = 8,
+        beginTime  = "00:00:44,0",
+        endTime  = "00:00:47,0",
+        content  = "Ich... will Stärke.",
+    },
+    [9] = {
+        id = 9,
+        beginTime  = "00:00:47,800",
+        endTime  = "00:00:50,0",
+        content  = "Egal, was es kostet. \nGanz gleich, welches Opfer du bringen musst.",
+    },
+    [10] = {
+        id = 10,
+        beginTime  = "00:00:51,0",
+        endTime  = "00:00:55,0",
+        content  = "Wenn es genug Macht ist, \nmeinen Wunsch ein für alle Mal zu erfüllen…",
+    },
+    [11] = {
+        id = 11,
+        beginTime  = "00:00:56,0",
+        endTime  = "00:01:42,0",
+        content  = "Wenn ich eine solche Macht haben könnte,\ndass sie kein anderer erreichen kann,\ndann will ich sie haben!",
+    },
+    [12] = {
+        id = 12,
+        beginTime  = "00:01:45,0",
+        endTime  = "00:01:49,0",
+        content  = "Wenn du Macht willst, strecke deine Hand aus.",
+    },
+    [13] = {
+        id = 13,
+        beginTime  = "00:01:53,0",
+        endTime  = "00:01:57,0",
+        content  = "Arghhhh!",
+    },
+}

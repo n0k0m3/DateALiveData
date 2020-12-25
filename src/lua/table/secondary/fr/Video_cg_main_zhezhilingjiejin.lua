@@ -1,0 +1,80 @@
+return {
+    [1] = {
+        id = 1,
+        beginTime  = "00:00:00,100",
+        endTime  = "00:00:06,0",
+        content  = "Limite d'activation... Parfaitement adapté, mon œil...",
+    },
+    [2] = {
+        id = 2,
+        beginTime  = "00:00:06,850",
+        endTime  = "00:00:12,0",
+        content  = "J'ai gâché ma vie entière...\nà courir après le pouvoir d'un esprit...",
+    },
+    [3] = {
+        id = 3,
+        beginTime  = "00:00:13,0",
+        endTime  = "00:00:24,200",
+        content  = "Depuis lors, j'ai tout sacrifié, mais...\nMaintenant, il ne me reste... rien...",
+    },
+    [4] = {
+        id = 4,
+        beginTime  = "00:00:25,0",
+        endTime  = "00:00:29,0",
+        content  = "Hé, tu voudrais plus de pouvoir ?",
+    },
+    [5] = {
+        id = 5,
+        beginTime  = "00:00:29,850",
+        endTime  = "00:00:33,0",
+        content  = "Qu'est-ce que tu es ?",
+    },
+    [6] = {
+        id = 6,
+        beginTime  = "00:00:33,850",
+        endTime  = "00:00:38,0",
+        content  = "Réponds à ma question. Désires-tu plus de pouvoir ?",
+    },
+    [7] = {
+        id = 7,
+        beginTime  = "00:00:38,850",
+        endTime  = "00:00:43,0",
+        content  = "Le pouvoir absolu... Assez pour surpasser quiconque.",
+    },
+    [8] = {
+        id = 8,
+        beginTime  = "00:00:44,0",
+        endTime  = "00:00:47,0",
+        content  = "Je veux... je veux du pouvoir.",
+    },
+    [9] = {
+        id = 9,
+        beginTime  = "00:00:47,800",
+        endTime  = "00:00:50,0",
+        content  = "Peu importe ce qu'il en coûte. Peu importe le sacrifice.",
+    },
+    [10] = {
+        id = 10,
+        beginTime  = "00:00:51,0",
+        endTime  = "00:00:55,0",
+        content  = "Si c'est assez puissant pour\nréaliser mon souhait une fois pour toutes...",
+    },
+    [11] = {
+        id = 11,
+        beginTime  = "00:00:56,0",
+        endTime  = "00:01:42,0",
+        content  = "Si je peux avoir un pouvoir incomparable, je le veux!",
+    },
+    [12] = {
+        id = 12,
+        beginTime  = "00:01:45,0",
+        endTime  = "00:01:49,0",
+        content  = "Si tu veux ce pouvoir, tends ta main.",
+    },
+    [13] = {
+        id = 13,
+        beginTime  = "00:01:53,0",
+        endTime  = "00:01:57,0",
+        content  = "Arghhhh !",
+    },
+}

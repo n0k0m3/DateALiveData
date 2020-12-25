@@ -1,0 +1,80 @@
+return {
+    [1] = {
+        id = 1,
+        beginTime  = "00:00:03,0",
+        endTime  = "00:00:06,0",
+        content  = "Hast du vor, demnächst aufzuwachen?",
+    },
+    [2] = {
+        id = 2,
+        beginTime  = "00:00:08,0",
+        endTime  = "00:00:10,0",
+        content  = "Hä? Bin ich nicht tot? H-H-heiß!",
+    },
+    [3] = {
+        id = 3,
+        beginTime  = "00:00:11,0",
+        endTime  = "00:00:13,200",
+        content  = "Die Macht der Prinzessin gerät außer Kontrolle!",
+    },
+    [4] = {
+        id = 4,
+        beginTime  = "00:00:14,0",
+        endTime  = "00:00:16,0",
+        content  = "Du musst dich beeilen und sie versiegeln!",
+    },
+    [5] = {
+        id = 5,
+        beginTime  = "00:00:18,0",
+        endTime  = "00:00:19,200",
+        content  = "Tohka!",
+    },
+    [6] = {
+        id = 6,
+        beginTime  = "00:00:20,0",
+        endTime  = "00:00:27,0",
+        content  = "Ich dachte... Ich dachte, du wärst tot! \nBist das wirklich du?",
+    },
+    [7] = {
+        id = 7,
+        beginTime  = "00:00:28,0",
+        endTime  = "00:00:33,0",
+        content  = "Ja, ich bin's. Tohka, bitte! \nVersuche, deine Kraft zu kontrollieren!",
+    },
+    [8] = {
+        id = 8,
+        beginTime  = "00:00:34,0",
+        endTime  = "00:00:39,0",
+        content  = "Aber, ich kann nicht! \nHalvanhelv ist jetzt nicht mehr unter meiner Kontrolle!",
+    },
+    [9] = {
+        id = 9,
+        beginTime  = "00:00:40,0",
+        endTime  = "00:00:43,0",
+        content  = "Was können wir tun? Oh, ja! ",
+    },
+    [10] = {
+        id = 10,
+        beginTime  = "00:00:45,0",
+        endTime  = "00:00:48,899",
+        content  = "Lass uns die Methode ausprobieren,  \nvon der du mir erzählt hast! \nDieses Kuss-Ding oder was auch immer es war! \nWie macht man das?",
+    },
+    [11] = {
+        id = 11,
+        beginTime  = "00:00:51,0",
+        endTime  = "00:00:53,0",
+        content  = "Nun, wir müssen unsere Lippen zusammenstecken.",
+    },
+    [12] = {
+        id = 12,
+        beginTime  = "00:01:08,0",
+        endTime  = "00:01:12,0",
+        content  = "Wirst du mich zu einem anderen Date ausführen?",
+    },
+    [13] = {
+        id = 13,
+        beginTime  = "00:01:12,900",
+        endTime  = "00:01:16,0",
+        content  = "Ja, jederzeit.",
+    },
+}

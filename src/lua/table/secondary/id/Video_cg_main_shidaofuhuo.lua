@@ -1,0 +1,80 @@
+return {
+    [1] = {
+        id = 1,
+        beginTime  = "00:00:03,0",
+        endTime  = "00:00:06,0",
+        content  = "Kamu mau buang berapa lama waktu lagi?",
+    },
+    [2] = {
+        id = 2,
+        beginTime  = "00:00:08,0",
+        endTime  = "00:00:10,0",
+        content  = "Aku masih hidup? Waaahh! Panas! Panas!",
+    },
+    [3] = {
+        id = 3,
+        beginTime  = "00:00:11,0",
+        endTime  = "00:00:13,200",
+        content  = "Kekuatan Princess sudah di luar kendali!",
+    },
+    [4] = {
+        id = 4,
+        beginTime  = "00:00:14,0",
+        endTime  = "00:00:16,0",
+        content  = "Cepat cari cara untuk menyegelnya!",
+    },
+    [5] = {
+        id = 5,
+        beginTime  = "00:00:18,0",
+        endTime  = "00:00:19,200",
+        content  = "Tohka! !!",
+    },
+    [6] = {
+        id = 6,
+        beginTime  = "00:00:20,0",
+        endTime  = "00:00:27,0",
+        content  = "Ku pikir... Ku pikir kau telah tiada! Apa ini benar kau?",
+    },
+    [7] = {
+        id = 7,
+        beginTime  = "00:00:28,0",
+        endTime  = "00:00:33,0",
+        content  = "Benar, Tohka.Kumohon, kendalikan kekuatanmu!",
+    },
+    [8] = {
+        id = 8,
+        beginTime  = "00:00:34,0",
+        endTime  = "00:00:39,0",
+        content  = "Tapi……Halvanhelev sudah di luar kendali.",
+    },
+    [9] = {
+        id = 9,
+        beginTime  = "00:00:40,0",
+        endTime  = "00:00:43,0",
+        content  = "Huhu……bagaimana ini……oh iya!",
+    },
+    [10] = {
+        id = 10,
+        beginTime  = "00:00:45,0",
+        endTime  = "00:00:48,899",
+        content  = "Cobalah cara yang kamu bilang, ciuman, seperti apa itu?",
+    },
+    [11] = {
+        id = 11,
+        beginTime  = "00:00:51,0",
+        endTime  = "00:00:53,0",
+        content  = "Yaitu……bibir dan bibir menempel satu sama lain.",
+    },
+    [12] = {
+        id = 12,
+        beginTime  = "00:01:08,0",
+        endTime  = "00:01:12,0",
+        content  = "Kelak, masih bisa ajak aku kencan, kan?",
+    },
+    [13] = {
+        id = 13,
+        beginTime  = "00:01:12,900",
+        endTime  = "00:01:16,0",
+        content  = "Tentu saja! Kapan pun Tohka mau, tentu saja boleh.",
+    },
+}

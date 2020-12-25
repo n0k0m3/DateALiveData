@@ -1,0 +1,167 @@
+return {
+    [1] = {
+        endSec = 86400,
+        id = 1,
+        baseLevel = {
+            [1] = 1,
+        },
+        beginDate = "2020/12/16",
+        beginSec = 0,
+        infoId = 151017,
+        endDate = "2020/12/16",
+    },
+    [2] = {
+        endSec = 86400,
+        id = 2,
+        baseLevel = {
+            [1] = 1,
+        },
+        beginDate = "2020/12/17",
+        beginSec = 0,
+        infoId = 151018,
+        endDate = "2020/12/17",
+    },
+    [3] = {
+        endSec = 86400,
+        id = 3,
+        baseLevel = {
+            [1] = 1,
+        },
+        beginDate = "2020/12/18",
+        beginSec = 0,
+        infoId = 151019,
+        endDate = "2020/12/18",
+    },
+    [4] = {
+        endSec = 86400,
+        id = 4,
+        baseLevel = {
+            [1] = 1,
+        },
+        beginDate = "2020/12/19",
+        beginSec = 0,
+        infoId = 151020,
+        endDate = "2020/12/19",
+    },
+    [5] = {
+        endSec = 86400,
+        id = 5,
+        baseLevel = {
+            [1] = 1,
+        },
+        beginDate = "2020/12/20",
+        beginSec = 0,
+        infoId = 151021,
+        endDate = "2020/12/20",
+    },
+    [6] = {
+        endSec = 86400,
+        id = 6,
+        baseLevel = {
+            [1] = 1,
+        },
+        beginDate = "2020/12/21",
+        beginSec = 0,
+        infoId = 151022,
+        endDate = "2020/12/21",
+    },
+    [7] = {
+        endSec = 86400,
+        id = 7,
+        baseLevel = {
+            [1] = 1,
+        },
+        beginDate = "2020/12/22",
+        beginSec = 0,
+        infoId = 151022,
+        endDate = "2020/12/22",
+    },
+    [8] = {
+        endSec = 86400,
+        id = 8,
+        baseLevel = {
+            [1] = 1,
+        },
+        beginDate = "2020/12/23",
+        beginSec = 0,
+        infoId = 151022,
+        endDate = "2020/12/23",
+    },
+    [9] = {
+        endSec = 86400,
+        id = 9,
+        baseLevel = {
+            [1] = 1,
+        },
+        beginDate = "2020/12/24",
+        beginSec = 0,
+        infoId = 151022,
+        endDate = "2020/12/24",
+    },
+    [10] = {
+        endSec = 86400,
+        id = 10,
+        baseLevel = {
+            [1] = 1,
+        },
+        beginDate = "2020/12/25",
+        beginSec = 0,
+        infoId = 151022,
+        endDate = "2020/12/25",
+    },
+    [11] = {
+        endSec = 86400,
+        id = 11,
+        baseLevel = {
+            [1] = 1,
+        },
+        beginDate = "2020/12/26",
+        beginSec = 0,
+        infoId = 151022,
+        endDate = "2020/12/26",
+    },
+    [12] = {
+        endSec = 86400,
+        id = 12,
+        baseLevel = {
+            [1] = 1,
+        },
+        beginDate = "2020/12/27",
+        beginSec = 0,
+        infoId = 151022,
+        endDate = "2020/12/27",
+    },
+    [13] = {
+        endSec = 86400,
+        id = 13,
+        baseLevel = {
+            [1] = 1,
+        },
+        beginDate = "2020/12/28",
+        beginSec = 0,
+        infoId = 151022,
+        endDate = "2020/12/28",
+    },
+    [14] = {
+        endSec = 86400,
+        id = 14,
+        baseLevel = {
+            [1] = 1,
+        },
+        beginDate = "2020/12/29",
+        beginSec = 0,
+        infoId = 151022,
+        endDate = "2020/12/29",
+    },
+    [15] = {
+        endSec = 86400,
+        id = 15,
+        baseLevel = {
+            [1] = 1,
+        },
+        beginDate = "2020/12/30",
+        beginSec = 0,
+        infoId = 151022,
+        endDate = "2020/12/30",
+    },
+}

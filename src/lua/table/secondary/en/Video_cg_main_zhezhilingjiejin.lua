@@ -1,0 +1,80 @@
+return {
+    [1] = {
+        id = 1,
+        beginTime  = "00:00:00,100",
+        endTime  = "00:00:06,0",
+        content  = "Activation limit... Evenly matched, my ass...",
+    },
+    [2] = {
+        id = 2,
+        beginTime  = "00:00:06,850",
+        endTime  = "00:00:12,0",
+        content  = "I wasted my whole life... all spent chasing a Spirit's power...",
+    },
+    [3] = {
+        id = 3,
+        beginTime  = "00:00:13,0",
+        endTime  = "00:00:24,200",
+        content  = "Since then, I've sacrificed everything, yet... \nNow I have nothing... left...",
+    },
+    [4] = {
+        id = 4,
+        beginTime  = "00:00:25,0",
+        endTime  = "00:00:29,0",
+        content  = "Hey, do you wish for more power?",
+    },
+    [5] = {
+        id = 5,
+        beginTime  = "00:00:29,850",
+        endTime  = "00:00:33,0",
+        content  = "What are you?",
+    },
+    [6] = {
+        id = 6,
+        beginTime  = "00:00:33,850",
+        endTime  = "00:00:38,0",
+        content  = "Answer me. Do you wish for more power?",
+    },
+    [7] = {
+        id = 7,
+        beginTime  = "00:00:38,850",
+        endTime  = "00:00:43,0",
+        content  = "Absolute power... Power enough to outmatch anyone.",
+    },
+    [8] = {
+        id = 8,
+        beginTime  = "00:00:44,0",
+        endTime  = "00:00:47,0",
+        content  = "I... want power.",
+    },
+    [9] = {
+        id = 9,
+        beginTime  = "00:00:47,800",
+        endTime  = "00:00:50,0",
+        content  = "No matter what it takes. No matter the sacrifice.",
+    },
+    [10] = {
+        id = 10,
+        beginTime  = "00:00:51,0",
+        endTime  = "00:00:55,0",
+        content  = "If it's enough power to fulfill my wish once and for all...",
+    },
+    [11] = {
+        id = 11,
+        beginTime  = "00:00:56,0",
+        endTime  = "00:01:42,0",
+        content  = "If I could have power such that no one else can compare, I want it!",
+    },
+    [12] = {
+        id = 12,
+        beginTime  = "00:01:45,0",
+        endTime  = "00:01:49,0",
+        content  = "If you want power, reach out your hand.",
+    },
+    [13] = {
+        id = 13,
+        beginTime  = "00:01:53,0",
+        endTime  = "00:01:57,0",
+        content  = "Arghhhh!",
+    },
+}

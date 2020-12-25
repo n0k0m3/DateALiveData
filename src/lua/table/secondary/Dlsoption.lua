@@ -1,0 +1,117 @@
+return {
+    [1] = {
+        optionCostb = {
+        },
+        optionFinish = 0,
+        optionNamec = "",
+        optionParam = 0,
+        optionCost = {
+        },
+        optionNameb = "",
+        optionFinishb = 0,
+        optionFinishc = 0,
+        id = 1,
+        optionType = 0,
+        desc = "",
+        optionCostc = {
+        },
+        optionParamb = 0,
+        title = "",
+        optionTypeb = 0,
+        optionTypec = 0,
+        optionParamc = 0,
+        optionName = "",
+    },
+    [2] = {
+        optionCostb = {
+        },
+        optionFinish = 0,
+        optionNamec = "",
+        optionParam = 0,
+        optionCost = {
+        },
+        optionNameb = "",
+        optionFinishb = 0,
+        optionFinishc = 0,
+        id = 2,
+        optionType = 0,
+        desc = "",
+        optionCostc = {
+        },
+        optionParamb = 0,
+        title = "",
+        optionTypeb = 0,
+        optionTypec = 0,
+        optionParamc = 0,
+        optionName = "",
+    },
+    [3] = {
+        optionCostb = {
+        },
+        optionFinish = 0,
+        optionNamec = "",
+        optionParam = 0,
+        optionCost = {
+        },
+        optionNameb = "",
+        optionFinishb = 0,
+        optionFinishc = 0,
+        id = 3,
+        optionType = 0,
+        desc = "",
+        optionCostc = {
+        },
+        optionParamb = 0,
+        title = "",
+        optionTypeb = 0,
+        optionTypec = 0,
+        optionParamc = 0,
+        optionName = "",
+    },
+    [4] = {
+        optionCostb = {
+        },
+        optionFinish = 0,
+        optionNamec = "",
+        optionParam = 0,
+        optionCost = {
+        },
+        optionNameb = "",
+        optionFinishb = 0,
+        optionFinishc = 0,
+        id = 4,
+        optionType = 0,
+        desc = "",
+        optionCostc = {
+        },
+        optionParamb = 0,
+        title = "",
+        optionTypeb = 0,
+        optionTypec = 0,
+        optionParamc = 0,
+        optionName = "",
+    },
+    [5] = {
+        optionCostb = {
+        },
+        optionFinish = 0,
+        optionNamec = "",
+        optionParam = 0,
+        optionCost = {
+        },
+        optionNameb = "",
+        optionFinishb = 0,
+        optionFinishc = 0,
+        id = 5,
+        optionType = 0,
+        desc = "",
+        optionCostc = {
+        },
+        optionParamb = 0,
+        title = "",
+        optionTypeb = 0,
+        optionTypec = 0,
+        optionParamc = 0,
+        optionName = "",
+    },
+}

@@ -1,0 +1,62 @@
+return {
+    [1101] = {
+        notable = 1325371,
+        id = 1101,
+        target  = 1,
+        reward = {
+            [1] = {
+                [1] = 500001,
+                [2] = 2000,
+            },
+        },
+        spreadTitle = 63670,
+        titleType = 3,
+        numbers = 0,
+        title = 63659,
+        activeTime = 1,
+        spreadContent = 63671,
+        content = 63660,
+        titleTopLimit = 20,
+        bonus = 0,
+    },
+    [1102] = {
+        notable = 1325372,
+        id = 1102,
+        target  = 1,
+        reward = {
+            [1] = {
+                [1] = 500001,
+                [2] = 2000,
+            },
+        },
+        spreadTitle = 63672,
+        titleType = 3,
+        numbers = 0,
+        title = 63661,
+        activeTime = 1,
+        spreadContent = 63673,
+        content = 63662,
+        titleTopLimit = 20,
+        bonus = 0,
+    },
+    [1100] = {
+        notable = 1325370,
+        id = 1100,
+        target  = 1,
+        reward = {
+            [1] = {
+                [1] = 500002,
+                [2] = 5,
+            },
+        },
+        spreadTitle = 63668,
+        titleType = 3,
+        numbers = 0,
+        title = 63657,
+        activeTime = 1,
+        spreadContent = 63669,
+        content = 63658,
+        titleTopLimit = 30,
+        bonus = 0,
+    },
+}
