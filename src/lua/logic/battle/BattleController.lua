@@ -18,6 +18,7 @@ local eRoleType  = enum.eRoleType
 local eEvent     = enum.eEvent
 local eStateEvent= enum.eStateEvent
 local ePlaceType = enum.ePlaceType
+local eHurtType   = enum.eHurtType
 local eAttrType  = enum.eAttrType
 local eGuideAction = enum.eGuideAction
 local eVictoryType = enum.eVictoryType
@@ -283,9 +284,30 @@ function battleController._onLoseHp(hero,hp)
             musicMgr.playInjured(hp)
         end
     elseif campType == eCampType.Monster then
+       -- 鞠奈只统计 对boss的伤害 
+        if this.isWorldBoss() and hero and not hero:isBoss() then
+            return
+        end
+        if not this.enableAddHurt(hero) then
+            return
+        end
         statistics.doHurtValue(hp)
         this.fixHitValue()
+        EventTrigger:_onMakeDamage()
     end
+end
+
+function battleController.enableAddHurt(hero)
+    if not hero then
+        return false
+    end
+    local levelCfg = BattleDataMgr:getLevelCfg()
+    if levelCfg and levelCfg.damageMonsterType and #levelCfg.damageMonsterType > 0 then
+        if table.indexOf(levelCfg.damageMonsterType,hero:getMonsterType()) == -1 then
+            return false
+        end
+    end
+    return true
 end
 --总血量
 function battleController._onNoticeHp(hero,hp)
@@ -370,6 +392,13 @@ function battleController._onPenalty(hero)
     
 
     return 0
+end
+
+--碰撞怪物类道具
+function battleController._eatMonsterItem(hero,monster)
+    if monster:getCamp() == 19 then
+        statistics.eatMonsterItem(hero,monster)
+    end
 end
 
 --修正连击事假
@@ -496,13 +525,19 @@ function battleController.init(data)
     local battleType = this.data.battleType
     if battleType == EC_BattleType.COMMON or
         battleType == EC_BattleType.ENDLESS then
-        if this.levelCfg_.dungeonType ~= EC_FBLevelType.PRACTICE then
+        if this.levelCfg_.dungeonType ~= EC_FBLevelType.PRACTICE and this.levelCfg_.dungeonType ~= EC_FBLevelType.MUSIC_GAME then
             this.bNeedVerifyHurt = true
         end
+    end
+    if BattleDataMgr:isMusicGameLevel() then
+        KeyStateMgr.setEnable(false)
     end
 
     this.skillEx = nil
     this.simpleHeros = {}
+
+    --战斗伤害数据
+    this.damageData = {}
 end
 
 --修正伤害值
@@ -513,6 +548,10 @@ function battleController.fixHitValue()
             statistics.hitValue = math.min(statistics.hitValue,this.data.victoryCfg[1].victoryParam[2])
         end
     end
+end
+
+function battleController.getHitValue()
+    return statistics.hitValue
 end
 
 --是否是挑战关卡
@@ -766,6 +805,28 @@ function battleController.getEnemyWithMaskID(maskID)
     end
 end
 
+--根据maskID查找怪物(包括召唤物)
+function battleController.getAllEnemyWithMaskID(maskID)
+    local enemys = this.team:getMenbers(eCampType.Monster)
+    for i, enemy in ipairs(enemys) do
+        if enemy:getData().markID == maskID then
+            return enemy
+        end
+    end
+    enemys = this.team:getMenbers(eCampType.Other)
+    for i, enemy in ipairs(enemys) do
+        if enemy:getData().markID == maskID then
+            return enemy
+        end
+    end
+    enemys = this.team:getMenbers(eCampType.Call)
+    for i, enemy in ipairs(enemys) do
+        if enemy:getData().markID == maskID then
+            return enemy
+        end
+    end
+end
+
 
 --敌方成员包含整正在死亡的人
 function battleController.getEnemyMember__()
@@ -833,6 +894,7 @@ function battleController.clear()
     --     BattleTimerManager:removeTimer(this.comboTimmer)
     --     this.comboTimmer = nil
     -- end
+    this.damageData = {}
 end
 
 function battleController:isRun()
@@ -955,7 +1017,7 @@ function battleController.getTeamMembers()
     end
     return this.team:getHeros()
 end
---是否是追猎计划
+--是否是追猎计划(追猎技术啊没有失败默认胜利)
 function battleController.isZLJH()
     if this.isLockStep() then
         if this.data.teamType == eTeamType.ZLJH then
@@ -964,6 +1026,31 @@ function battleController.isZLJH()
     end
 end
 
+--boss挑战
+function battleController.isBossChallenge()
+    if this.isLockStep() then
+        if this.data.teamType == eTeamType.BOSS then
+            return true
+        end
+    end
+end
+-- 是否是守鞠奈战斗
+function battleController.isWorldBoss()
+    local levelCfg = BattleDataMgr:getLevelCfg()
+    if levelCfg.dungeonType == EC_FBLevelType.WORLD_BOSS then
+        return true
+    end
+end
+-- 是否是或守鞠奈战斗(第四阶段没有失败 默认胜利)
+function battleController.isWorldBossFour()
+    local type  = LeagueDataMgr:getFightWorldBossType()
+    if not type then  
+        return false
+    end
+    if this.isWorldBoss() and type == EC_WorldBossType.World then
+        return true
+    end
+end
 
 function battleController.showCounDown(callFunc)
     if this.levelCfg_.countOpen then
@@ -1058,7 +1145,7 @@ function battleController.herosEnter()
                 this.bTiming = true --开始计时
                 EventTrigger:start()
                 local levelCfg_ = BattleDataMgr:getLevelCfg()
-                if levelCfg_ and levelCfg_.dungeonType == EC_FBLevelType.PRACTICE then
+                if levelCfg_ and (levelCfg_.dungeonType == EC_FBLevelType.PRACTICE or levelCfg_.dungeonType == EC_FBLevelType.MUSIC_GAME) then
                     AIAgent:setEnabled(false)
                     EventMgr:dispatchEvent(EV_PRACTICE_BRUSH_MONSTER)
                 end
@@ -1190,6 +1277,15 @@ function battleController.requestFightingOver()
             AlertManager:changeScene(SceneType.MainScene)
         elseif levelCfg.dungeonType == EC_FBLevelType.NOOBSUMMON then
              AlertManager:changeScene(SceneType.MainScene)
+		elseif levelCfg.dungeonType == EC_FBLevelType.MONSTER_TRIAL then
+			battleController.sendVerifyFightResult(isWin)
+			local costTime = math.floor(this.getTime())
+	
+			local total = FubenDataMgr:caculationMonsterScore(this.levelCfg_.id, costTime)			
+            FubenDataMgr:send_DUNGEON_FIGHT_OVER(levelId, isWin, {total},
+                                                 maxComboNum, pickUpTypeCount,
+                                                 pickUpCount, killTargets, costTime, hitValue,rating,skillEnemy)
+
         else
             battleController.sendVerifyFightResult(isWin)
             local costTime = math.floor(this.getTime())
@@ -1369,7 +1465,7 @@ end
 --结束战斗
 function battleController.endBattle(bWin)
     --printError("endBattle")
-    if this.isZLJH() then --追猎技术啊没有失败默认胜利
+    if this.isZLJH() or this.isWorldBossFour() then 
         bWin = true
     end
     if this.isClearing then return end
@@ -1541,7 +1637,7 @@ function battleController.eventCheck(hero)
         end
     else
         --木桩副本只要有角色死亡直接结束战斗
-        if this.levelCfg_.dungeonType == EC_FBLevelType.PRACTICE then
+        if this.levelCfg_.dungeonType == EC_FBLevelType.PRACTICE or this.levelCfg_.dungeonType == EC_FBLevelType.MUSIC_GAME then
             if hero:getCampType() == eCampType.Hero then
                 this.endBattle(false)
             end
@@ -1651,6 +1747,26 @@ function battleController.checkAndCreateSkillEx()
     end
 end
 
+--额外的buff加成
+function battleController.getExtBuffList(heroId)
+    local bufferIds = {}
+    local data = BattleDataMgr:getLevelCfg()
+
+	--魔王试炼额外英雄buff
+     if data.dungeonType == EC_FBLevelType.MONSTER_TRIAL then
+		local buff = FubenDataMgr:getMonsterBuffByHeroId(heroId)
+		table.insert(bufferIds, buff)
+     end
+
+    --活动buff
+    local actBuff = BattleDataMgr:getServerData().actBuffId or {}
+    for i,v in ipairs(actBuff) do
+        table.insert(bufferIds, v)  
+    end
+
+    return bufferIds
+end
+
 --获取关卡加成buffer
 function battleController.getPointBuffer(targetType)
     local bufferIds = {}
@@ -1684,6 +1800,15 @@ function battleController.getPointBuffer(targetType)
             end
         end
     end
+	--魔王试炼
+	if data.dungeonType == EC_FBLevelType.MONSTER_TRIAL then
+		local buffCfgList = FubenDataMgr:getMonsterTrialBuffListByLvId(data.id)
+        for k, v in ipairs(buffCfgList) do
+            if v.limitTargetType and v.limitTargetType[1] == targetType then
+                table.insert(bufferIds, v.affixId)
+            end
+        end
+	end
 
     --天梯
     if data.dungeonType == EC_FBLevelType.SKYLADDER then
@@ -1692,6 +1817,30 @@ function battleController.getPointBuffer(targetType)
             local buffCfg = TabDataMgr:getData("RankMatchBuff", v)
             if buffCfg.limitTargetType == targetType then
                 table.insertTo(bufferIds, buffCfg.buffId)
+            end
+        end
+    end
+
+    --海王星Buff
+    if data.dungeonType == EC_FBLevelType.HWX_TOWER then
+
+        ---增益buff
+        local activeBuff_ = LinkageHwxDataMgr:getActiveBuffInfo()
+        for k,v in pairs(activeBuff_) do
+            local buffCfg = LinkageHwxDataMgr:getHwxBuffManageCfg(v)
+            if buffCfg and buffCfg.limitTargetType == targetType then
+                table.insertTo(bufferIds, buffCfg.buffId)
+            end
+        end
+
+        ---主题buff
+        local towerInfo = LinkageHwxDataMgr:getTowerInfo()
+        if towerInfo  then
+            for k,v in ipairs(towerInfo.roundBuff) do
+                local buffCfg = LinkageHwxDataMgr:getHwxBuffManageCfg(v)
+                if buffCfg and buffCfg.limitTargetType == targetType then
+                    table.insertTo(bufferIds, buffCfg.buffId)
+                end
             end
         end
     end
@@ -1710,6 +1859,24 @@ function battleController.getPointBuffer(targetType)
         local buffers = LeagueDataMgr:getBuffers(menbers)
         for i, v in ipairs(buffers) do
             local buffCfg = TabDataMgr:getData("HuntingBuff", v)
+            if buffCfg.limitTargetType == targetType then
+                table.insertTo(bufferIds, buffCfg.buffId)
+            end
+        end
+    end
+    
+    --万圣节组队
+    if this.isLockStep() and TeamFightDataMgr.nTeamType == 9 then 
+        local cfg = TeamFightDataMgr:getBattleCfg()
+        local unableIds = ActivityDataMgr2:getHalloweenUnableSuperBuffIds()
+        local realIds = {}
+        for i,v in ipairs(cfg.buffID) do
+            if table.indexOf(unableIds,v) == -1 then
+                table.insert(realIds,v)
+            end
+        end
+        for k,v in pairs(realIds) do
+            local buffCfg = TabDataMgr:getData("HalloweenBuff", v)
             if buffCfg.limitTargetType == targetType then
                 table.insertTo(bufferIds, buffCfg.buffId)
             end
@@ -1772,6 +1939,14 @@ function battleController.activateAssit()
         hero:castByType(eSkillType.ENTER)
         --助战报幕
         EventMgr:dispatchEvent(eEvent.EVENT_SHOW_ASSIT,hero)
+    end
+end
+
+--释放技能
+function battleController.preCastMixSkill(campType,skillIds,moveDistance)
+    local heros = this.team:getMenbers(campType)
+    for k,hero in pairs(heros) do
+        hero:preCastSkill(moveDistance,skillIds)
     end
 end
 
@@ -1887,6 +2062,113 @@ function battleController.isShowFixHurt()
     if this.data and this.data.teamType ~= 5 then --排除追猎计划
         return not SettingDataMgr:getAttactEffectVal()
     end
+end
+
+--AI同步相关
+function battleController.checkAISyncHost()
+    local hostPid = LockStep.getAISyncHostPid()
+    return tonumber(hostPid) == MainPlayer:getPlayerId()
+end
+
+function battleController.syncAIStepData(markID, lastIdx, cruIdx, params)
+    if this.isLockStep() then
+        LockStep.syncAIStepData(markID, lastIdx, cruIdx, params)
+    end
+end
+--AI同步相关结束
+
+
+
+--战斗伤害统计
+function battleController.setDamageData(srcHero, hurtValue, hurtData, hurtType, buffId)
+    if not BattleConfig.DAMAGE_TEST or srcHero:getCampType() ~= eCampType.Hero then
+        return
+    end
+    local cid = srcHero:getData().id
+    this.damageData[cid] = this.damageData[cid] or {}
+
+    local hurtType1 = battleController.getDamageHurtType(hurtType)
+    this.damageData[cid][hurtType1] = this.damageData[cid][hurtType1] or {}
+    this.damageData[cid][hurtType1].value = this.damageData[cid][hurtType1].value and (this.damageData[cid][hurtType1].value + hurtValue) or hurtValue
+    if hurtValue > 0 then
+        this.damageData[cid][hurtType1].times = this.damageData[cid][hurtType1].times and (this.damageData[cid][hurtType1].times + 1) or 1
+    end
+    local damageAttr = battleController.getDamageAttrType(hurtData)
+    this.damageData[cid][damageAttr] = this.damageData[cid][damageAttr] or {}
+    this.damageData[cid][damageAttr].value = this.damageData[cid][damageAttr].value and (this.damageData[cid][damageAttr].value + hurtValue) or hurtValue
+    if hurtValue > 0 then
+        this.damageData[cid][damageAttr].times = this.damageData[cid][damageAttr].times and (this.damageData[cid][damageAttr].times + 1) or 1
+    end
+
+    this.damageData[cid][100] = this.damageData[cid][100] and (this.damageData[cid][100] + hurtValue) or hurtValue
+
+    local data = this.damageData[cid][99] or {}
+    local damageData
+    if hurtData then
+        damageData = data[hurtData.damageType] or {}
+        local subData = damageData[hurtData.id] or {}
+        subData.value = subData.value and (subData.value + hurtValue) or hurtValue
+        if hurtValue > 0 then
+            subData.times = subData.times and (subData.times + 1) or 1
+        end
+        subData.hurtData = subData.hurtData or {}
+        local hType = battleController.getDamageHurtType(hurtType, true)
+        subData.hurtData[hType] = subData.hurtData[hType] or {}
+        subData.hurtData[hType].value = subData.hurtData[hType].value and (subData.hurtData[hType].value + hurtValue) or hurtValue
+        subData.hurtData[hType].times = subData.hurtData[hType].times and (subData.hurtData[hType].times + 1) or 1
+        damageData[hurtData.id] = subData
+        data[hurtData.damageType] = damageData
+    else
+        damageData = data[888] or {}
+        buffId = buffId or 99999999
+        local subData = damageData[buffId] or {}
+        subData.value = subData.value and (subData.value + hurtValue) or hurtValue
+        subData.times = subData.times and (subData.times + 1) or 1
+        subData.hurtData = subData.hurtData or {}
+        local hType = battleController.getDamageHurtType(nil, true)
+        subData.hurtData[hType] = subData.hurtData[hType] or {}
+        subData.hurtData[hType].value = subData.hurtData[hType].value and (subData.hurtData[hType].value + hurtValue) or hurtValue
+        subData.hurtData[hType].times = subData.hurtData[hType].times and (subData.hurtData[hType].times + 1) or 1
+        damageData[buffId] = subData
+        data[888] = damageData
+    end
+
+    this.damageData[cid][99] = data
+end
+
+function battleController.getDamageAttrType(hurtData)
+    if hurtData then
+        if hurtData.damageAttr == 1 then
+            return 1
+        else
+            return 2
+        end        
+    end
+    return 3
+end
+
+function battleController.getDamageHurtType(hurtType, checkDodge)
+    if hurtType then
+        if hurtType == eHurtType.CRIT then
+            return 12
+        elseif hurtType == eHurtType.PREICE then
+            return 13
+        elseif hurtType == eHurtType.CRIT_PREICE then
+            return 14
+        end
+        if checkDodge and (hurtType == eHurtType.DODGE or hurtType == eHurtType.PARRY) then
+            return 15
+        end
+    end
+    return 11
+end
+
+function battleController.getDamageData()
+    return this.damageData
+end
+
+function battleController.clearDamageData()
+    this.damageData = {}
 end
 
 --应用切换到后台时间派发

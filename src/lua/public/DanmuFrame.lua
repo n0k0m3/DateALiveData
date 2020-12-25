@@ -30,6 +30,7 @@ function DanmuFrame:ctor( data )
 	self.moveSpeed = data.speed or 80
 	self.rowNum = data.row or 99
 	self.autoRun = data.autoRun
+	self.resetIndex = data.resetIndex or false
 	self:init("lua.uiconfig.common.danmuFrame")
 end
 
@@ -76,6 +77,10 @@ function DanmuFrame:removeEvents(  )
 		TFDirector:stopTimer(self.runTimer)
 		TFDirector:removeTimer(self.runTimer)
 		self.runTimer = nil
+	end
+
+	if self.resetIndex then
+		DanmuDataMgr.index[self.type] = nil
 	end
 end
 
@@ -198,6 +203,58 @@ end
 
 function DanmuFrame:updateDanmuItem8(item, data)
 	item:setText(string.format("%s",data.content))
+end
+
+function DanmuFrame:updateDanmuItem9(item, data)
+	-- body
+	local bg = TFDirector:getChildByPath(item,"bg")
+	local bg1 = TFDirector:getChildByPath(item,"bg1")
+	local Label_content = TFDirector:getChildByPath(item,"Label_content")
+	local unprise = TFDirector:getChildByPath(item,"unprise")
+	local prised = TFDirector:getChildByPath(item,"prised")
+	Label_content:setText(data.content)
+	local width = Label_content:getContentSize().width
+	local posX = Label_content:getPositionX()
+	local allItemWidth = posX + width + bg1:getContentSize().width + 7
+	bg1:setPositionX(allItemWidth - 7)
+	local defaultHeight = bg:getContentSize().height
+	local itemHeight = item:getContentSize().height
+	bg:setContentSize(CCSizeMake(allItemWidth,defaultHeight))
+	item:setContentSize(CCSizeMake(allItemWidth,itemHeight))
+	unprise:setVisible(not data.hasPrise)
+	prised:setVisible(data.hasPrise)
+
+	if data.hasPrise then
+		TFDirector:getChildByPath(prised,"upNum"):setText(data.prise)
+	else
+		TFDirector:getChildByPath(unprise,"upNum"):setText(data.prise)
+	end
+end
+
+function DanmuFrame:updateDanmuItem10(item, data)
+	-- body
+	local bg = TFDirector:getChildByPath(item,"bg")
+	local bg1 = TFDirector:getChildByPath(item,"bg1")
+	local Label_content = TFDirector:getChildByPath(item,"Label_content")
+	local unprise = TFDirector:getChildByPath(item,"unprise")
+	local prised = TFDirector:getChildByPath(item,"prised")
+	Label_content:setText(data.content)
+	local width = Label_content:getContentSize().width
+	local posX = Label_content:getPositionX()
+	local allItemWidth = posX + width + bg1:getContentSize().width + 7
+	bg1:setPositionX(allItemWidth - 7)
+	local defaultHeight = bg:getContentSize().height
+	local itemHeight = item:getContentSize().height
+	bg:setContentSize(CCSizeMake(allItemWidth,defaultHeight))
+	item:setContentSize(CCSizeMake(allItemWidth,itemHeight))
+	unprise:setVisible(not data.hasPrise)
+	prised:setVisible(data.hasPrise)
+
+	if data.hasPrise then
+		TFDirector:getChildByPath(prised,"upNum"):setText(data.prise)
+	else
+		TFDirector:getChildByPath(unprise,"upNum"):setText(data.prise)
+	end
 end
 
 function DanmuFrame:onUpdate()

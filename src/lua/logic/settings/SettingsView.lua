@@ -1,6 +1,8 @@
 
 local SettingsView = class("SettingsView", BaseLayer)
 
+local teamPrivacy = {icon = "ui/setting/uires/41.png",name = 15010200}--阵容隐私
+
 function SettingsView:initData(roleCid)
     self.tmsettingData = {dating = {},sound = {},battle = {},push = {},funben = {},other = {} , language = {}, dark = {}, touch = {}}
     self.tmsettingData.dating.common = SettingDataMgr:getSpeedText()
@@ -15,16 +17,19 @@ function SettingsView:initData(roleCid)
     self.tmsettingData.battle.fps = SettingDataMgr:getBattleFPS()
     self.tmsettingData.battle.roke =  SettingDataMgr:getBattleRoke()
     self.tmsettingData.battle.numberOfScreens = SettingDataMgr:getNumberOfScreens()
+    self.tmsettingData.battle.awake = SettingDataMgr:getAwakeEffect()
+
     self.tmsettingData.other.mainRedPack = SettingDataMgr:getMainRedPack()
     self.tmsettingData.other.battleRedPack =  SettingDataMgr:getBattleRedPack()
     self.tmsettingData.other.datingRedPack = SettingDataMgr:getDatingRedPack()
-    self.tmsettingData.language.language_en = SettingDataMgr:getLanguage()
+    self.tmsettingData.language.language = SettingDataMgr:getLanguage()
 
-    self.oldLanguageIdx = self.tmsettingData.language.language_en
+    self.oldLanguageIdx = self.tmsettingData.language.language
 
     self.tmcollectSetting = CollectDataMgr:getShowSetting()
     self.tmsettingData.touch.power = SettingDataMgr:getTouchPower()
     self.tmsettingData.dark.darkModel = SettingDataMgr:getDarkModel()
+	self.collectList = {}
 end
 
 function SettingsView:ctor(...)
@@ -127,7 +132,7 @@ function SettingsView:initPanelbtns()
             SettingDataMgr:setBattleRedPack(self.tmsettingData.other.battleRedPack)
             SettingDataMgr:setMainRedPack(self.tmsettingData.other.mainRedPack)
             SettingDataMgr:setNumberOfScreens(self.tmsettingData.battle.numberOfScreens)
-            SettingDataMgr:setLanguage(self.tmsettingData.language.language_en)
+            SettingDataMgr:setLanguage(self.tmsettingData.language.language)
             SettingDataMgr:setTouchPower(self.tmsettingData.touch.power)
             SettingDataMgr:setDarkModel(self.tmsettingData.dark.darkModel)
             Utils:onTraitCollectionDidChange()
@@ -148,7 +153,7 @@ function SettingsView:initPanelbtns()
             CollectDataMgr:reqChangeShowSetting(self.tmcollectSetting)
 
         end
-        if self.oldLanguageIdx ~= self.tmsettingData.language.language_en then
+        if self.oldLanguageIdx ~= self.tmsettingData.language.language then
             Utils:openView("common.ReConfirmTipsView", {tittle = 190000045, content = TextDataMgr:getText(190000046), reType = nil, confirmCall = function()
                 TFDirector:dispatchGlobalEventWith("Engine_Will_Restart", {})
                 saveDataFunc()
@@ -457,6 +462,27 @@ end
 --     end
 -- end
 
+function SettingsView:setAwakeEffect(value)
+    self.tmsettingData.battle.awake = value
+    self:updateAwakeEffect()
+end
+
+function SettingsView:updateAwakeEffect()
+    local Panel_awake_effect = TFDirector:getChildByPath(self.Panel_battle, "Panel_awake_effect")
+    local attack = self.tmsettingData.battle.awake
+    for i=1,2 do
+        local btn = TFDirector:getChildByPath(Panel_awake_effect, "Button_common_"..i)
+        local btn_bg = TFDirector:getChildByPath(Panel_awake_effect, "Image_btn_bg_"..i)
+        if attack == i then
+            btn:setTextureNormal("ui/setting/uires/011.png") 
+            btn_bg:setTexture("ui/setting/uires/009.png")
+        else
+            btn:setTextureNormal("")
+            btn_bg:setTexture("ui/setting/uires/010.png")
+        end
+    end
+end
+
 function SettingsView:setBattleFPS(fps)
     self.tmsettingData.battle.fps = fps
     self:updateBattleFPS()
@@ -478,25 +504,73 @@ function SettingsView:updateBattleFPS()
     end
 end
 
-function SettingsView:setLanguage(languageIdx)
-    self.tmsettingData.language.language_en = languageIdx
-    self:updateLanguage()
+function SettingsView:setLanguage( language )
+    self.tmsettingData.language.language = language
+    self:updateLanguage(language)
 end
 
-function SettingsView:updateLanguage()
-    local Panel_language_en = TFDirector:getChildByPath(self.Panel_language, "Panel_language_en")
-    local fps = self.tmsettingData.language.language_en
-    for i=1,2 do
-        local btn = TFDirector:getChildByPath(Panel_language_en, "Button_common_"..i)
-        local btn_bg = TFDirector:getChildByPath(Panel_language_en, "Image_btn_bg_"..i)
-        if fps == i then
-            btn:setTextureNormal("ui/setting/uires/011.png") 
-            btn_bg:setTexture("ui/setting/uires/009.png")
+function SettingsView:updateLanguage(language)
+    self.pulldown_winCell:stopAllActions()
+    
+    self.curwindownsize = me.size(self.defaultPulldownCellSize.width,self.defaultPulldownCellSize.height*10)
+    self.btn_pulldown.title = TFLanguageMgr:getLanguageTextId(language)
+    self.btn_pulldown:getChildByName("label_title"):setTextById(self.btn_pulldown.title)
+    self.pulldown_btnlist:removeAllItems()
+    self.pulldown_window:setContentSize(self.curwindownsize)
+    self.pulldown_btnlist:setContentSize(self.curwindownsize)
+    self.pulldown_winCell:setPosition(me.p(0,0))
+
+    -- 根据当前语言来判断
+    local languages = TFLanguageMgr:getLanguages()
+    for _idx,_language in ipairs(languages) do
+        local tmitem = self.pulldown_btnlist:pushBackDefaultItem()
+        tmitem:show()
+        if _idx==1 and _idx < table.count(languages) then
+            tmitem:getChildByName("img_option"):setTexture("ui/playerInfo/medal/ui_09.png")
+        elseif _idx < table.count(languages) then
+            tmitem:getChildByName("img_option"):setTexture("ui/playerInfo/medal/ui_12.png")
         else
-            btn:setTextureNormal("")
-            btn_bg:setTexture("ui/setting/uires/010.png")
+            tmitem:getChildByName("img_option"):setTexture("ui/playerInfo/medal/ui_10.png")
         end
+        tmitem.title = TFLanguageMgr:getLanguageTextId(_language)
+        tmitem:getChildByName("label_title"):setTextById(tmitem.title)
+        tmitem:setTouchEnabled(true)
+        tmitem:onClick(function()
+            if self.btn_pulldown.unclick == true then
+                return
+            end
+            self.btn_pulldown.unclick = true
+            local actionarr = {MoveTo:create(0.1,me.p(0,0)),CallFunc:create(function()
+                self.btn_pulldown.unclick = false
+                self.btn_pulldown.stat = false
+                if self.btn_pulldown.title ~= tmitem.title then
+                    self.btn_pulldown.title = tmitem.title   
+                    self:setLanguage(_language)
+                end
+            end)}
+            self.pulldown_winCell:runAction(Sequence:create(actionarr))
+        end)
     end
+
+    self.btn_pulldown:onClick(function()
+        if self.btn_pulldown.unclick == true then
+            return
+        end
+        self.btn_pulldown.unclick = true
+        if self.btn_pulldown.stat == false then
+            local actionarr = {MoveTo:create(0.1,me.p(0,-self.curwindownsize.height)),CallFunc:create(function()
+                self.btn_pulldown.unclick = false
+                self.btn_pulldown.stat = true
+            end)}
+            self.pulldown_winCell:runAction(Sequence:create(actionarr))
+        else
+            local actionarr = {MoveTo:create(0.1,me.p(0,0)),CallFunc:create(function()
+                self.btn_pulldown.unclick = false
+                self.btn_pulldown.stat = false
+            end)}
+            self.pulldown_winCell:runAction(Sequence:create(actionarr))
+        end
+    end)
 end
 
 function SettingsView:setBattleRoke(roke)
@@ -685,6 +759,41 @@ function SettingsView:initPanelDating()
     self:updateCgSkip()
 end
 
+function SettingsView:initTeamPrivacy()
+	local privacy = MainPlayer:getSwitchByType(EC_SWITCH_TYPE.TEAM_PRIVACY) or 0
+	local settingitem = self.collect_listView:pushBackDefaultItem()
+    settingitem:setVisible(true)
+    settingitem:getChildByName("Image_cell_title_icon"):setTexture(teamPrivacy.icon)
+    settingitem:getChildByName("Label_title"):setTextById(teamPrivacy.name)
+
+	local tab = {2,1,0}
+	local function updateTeamPrivacy(idx)
+		for i=1,3 do
+		    local btn = TFDirector:getChildByPath(settingitem, "Button_common_"..i)
+			btn.privacyVal = tab[i]
+		    local btn_bg = TFDirector:getChildByPath(settingitem, "Image_btn_bg_"..i)
+			btn:setTextureNormal("")
+		    btn_bg:setTexture("ui/battle/practice/new_002.png")
+			if btn.privacyVal == idx then
+		        btn:setTextureNormal("ui/setting/uires/011.png") 
+		        btn_bg:setTexture("ui/battle/practice/new_001.png")
+		    else
+		        btn:setTextureNormal("")
+		        btn_bg:setTexture("ui/battle/practice/new_002.png")
+		    end
+			
+		end
+	end
+	for i=1,3 do
+		local btn = TFDirector:getChildByPath(settingitem, "Button_common_"..i)
+		btn:onClick(function()
+		    updateTeamPrivacy(btn.privacyVal)   			
+			MainPlayer:sendReqChangeSwitch({{EC_SWITCH_TYPE.TEAM_PRIVACY, btn.privacyVal}})         
+		end)
+	end
+	updateTeamPrivacy(privacy) 
+end
+
 function SettingsView:initPanelCollect()
     local scroll_collect = TFDirector:getChildByPath(self.Panel_collect, "ScrollView_collect")
     local collectCell = scroll_collect:getChildByName("Panel_cell")
@@ -706,13 +815,17 @@ function SettingsView:initPanelCollect()
                     self:updateCollectPanel()
                 end)
             end
+			table.insert(self.collectList, settingitem)
         end
     end
+
+	--self:initTeamPrivacy()
+
     self:updateCollectPanel()
 end
 
 function SettingsView:updateCollectPanel()
-    local allItems = self.collect_listView:getItems()
+    local allItems = self.collectList
     for k,v in ipairs(allItems) do
         local pageType = self.tmcollectSetting[v.pageidx].value
         for i=1,3 do
@@ -739,6 +852,11 @@ function SettingsView:initPanelBattle()
 
 
     local Panel_redPack = TFDirector:getChildByPath(self.Panel_battle, "Panel_redPack")
+    local Panel_awake_effect = TFDirector:getChildByPath(self.Panel_battle, "Panel_awake_effect")
+    -- TODO CLOSE
+    -- 屏蔽觉醒动画设置
+    Panel_awake_effect:setVisible(false)
+
     -- for i = 1, 2 do 
     --     local btn = TFDirector:getChildByPath(Image_battle_blur, "Button_common_"..i)
     --     btn:onClick(function()
@@ -790,6 +908,14 @@ function SettingsView:initPanelBattle()
     self:updateNumberOfScreens()
 
 
+    for i = 1, 2 do 
+        local btn = TFDirector:getChildByPath(Panel_awake_effect, "Button_common_"..i)
+        btn:onClick(function()
+            self:setAwakeEffect(i)
+        end)
+    end
+    self:updateAwakeEffect()
+
 end
 
 
@@ -811,16 +937,25 @@ function SettingsView:initPanelMainPage()
 	self:updatePanelMainPage()
 end
 
---[[设置语言界面选项]]
+--[[
+    设置语言界面选项
+]]
 function SettingsView:initPanelLanguage()
-    local Panel_language_en = TFDirector:getChildByPath(self.Panel_language , "Panel_language_en")
-    for i=1,2 do
-        local btn = TFDirector:getChildByPath(Panel_language_en, "Button_common_"..i)
-        btn:onClick(function()
-            self:setLanguage(i)
-        end)
-    end
-    self:updateLanguage()
+    self.Panel_language_en = TFDirector:getChildByPath(self.Panel_language , "Panel_language_en")
+    TFDirector:getChildByPath(self.Panel_language_en , "Label_title"):setTextById(190000045)
+    self.btn_pulldown = self.Panel_language_en:getChildByName("btn_pulldown")
+    self.pulldown_window = self.Panel_language_en:getChildByName("panel_window")
+    self.pulldown_winCell = self.pulldown_window:getChildByName("panel_pullwin")
+    local scroll_menu = self.pulldown_window:getChildByName("scrollView_menu")
+    local pulldown_cell = scroll_menu:getChildByName("panel_cell")
+    self.defaultPulldownCellSize = pulldown_cell:getContentSize()
+    self.btn_pulldown.stat = false
+    self.btn_pulldown.unclick = false
+    self.pulldown_btnlist = UIListView:create(scroll_menu)
+    self.pulldown_btnlist:setItemModel(pulldown_cell)
+    pulldown_cell:setVisible(false)
+
+    self:updateLanguage(TFLanguageMgr:getUsingLanguage())
 end
 
 --[[设置其他选项]]

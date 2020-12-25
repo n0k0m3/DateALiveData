@@ -8,12 +8,12 @@ end
 
 
 
-HeitaoSdk.initcallback 		= nil
-HeitaoSdk.logincallback 	= nil
-HeitaoSdk.loginoutcallback 	= nil
-HeitaoSdk.leavecallback 	= nil
+HeitaoSdk.initcallback      = nil
+HeitaoSdk.logincallback     = nil
+HeitaoSdk.loginoutcallback  = nil
+HeitaoSdk.leavecallback     = nil
 HeitaoSdk.paycallback       = nil
-HeitaoSdk.sharecallback 	= nil
+HeitaoSdk.sharecallback     = nil
 
 HeitaoSdk.LOGIN_IN_SUC      = 1
 HeitaoSdk.LOGIN_IN_FAIL     = 2
@@ -741,5 +741,26 @@ function HeitaoSdk.reportNetworkData( url )
     return HeitaoSdk.checkResult(ok,ret)
 end
 
+function HeitaoSdk.isNewPlayer()
+    local ok,ret = TFLuaOcJava.callStaticMethod(HeitaoSdk.classname, "isNewPlayer", nil, "()Ljava/lang/String;")
+    return HeitaoSdk.checkResult(ok,ret)
+end
+
+function HeitaoSdk.reportClientEvent(name, jsonData)
+    local args = nil
+    local ok  = false
+    local ret = nil
+
+    if CC_TARGET_PLATFORM == CC_PLATFORM_IOS then
+        args = {
+            eventName = name,
+            data =jsonData, 
+        }
+        ok,ret = TFLuaOcJava.callStaticMethod(HeitaoSdk.classname, "reportClientEvent", args)
+    elseif CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID then
+        ok,ret = TFLuaOcJava.callStaticMethod(HeitaoSdk.classname, "reportClientEvent", {name, jsonData}, "(Ljava/lang/String;Ljava/lang/String;)V");
+    end
+    return HeitaoSdk.checkResult(ok,ret)
+end
 
 return HeitaoSdk

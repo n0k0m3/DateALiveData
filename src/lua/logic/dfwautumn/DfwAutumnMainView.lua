@@ -17,8 +17,8 @@ function DfwAutumnMainView:initData()
         Box("夏日祭活动未开启")
     end
 
-    self.maxGridNum_ = 30
-    self.previewGridNum_ = 20
+    self.maxGridNum_ = Utils:getKVP(46012,"lenth")
+    self.previewGridNum_ = Utils:getKVP(46012,"initLenth")
     self.diceData_ = DfwDataMgr:getChessesDice()
     self.gridItems_ = {}
     self.diceItems_ = {}
@@ -54,19 +54,15 @@ function DfwAutumnMainView:initUI(ui)
     self.Panel_far_size = self.Panel_far:Size()
     self.Panel_medium = TFDirector:getChildByPath(self.Panel_backgroud, "Panel_medium")
     self.Panel_medium_size = self.Panel_medium:Size()
-    self.Panel_lang = TFDirector:getChildByPath(self.Panel_root, "Panel_lang")
-    self.Panel_lang_size = self.Panel_lang:Size()
     self.Image_sky = {}
     self.Image_cloud = {}
     self.Image_far = {}
     self.Image_medium = {}
-    self.lang = {}
     for i = 1, 2 do
         self.Image_sky[i] = TFDirector:getChildByPath(self.Panel_sky, "Image_sky_" .. i)
         self.Image_cloud[i] = TFDirector:getChildByPath(self.Panel_cloud, "Image_cloud_" .. i)
         self.Image_far[i] = TFDirector:getChildByPath(self.Panel_far, "Image_far_" .. i )
         self.Image_medium[i] = TFDirector:getChildByPath(self.Panel_medium, "Image_medium_" .. i)
-        self.lang[i] = TFDirector:getChildByPath(self.Panel_lang, "Panel_bolang" .. i)
     end
 
     self.ScrollView_map = TFDirector:getChildByPath(self.Panel_root, "ScrollView_map")
@@ -99,6 +95,7 @@ function DfwAutumnMainView:initUI(ui)
     self.Label_buffDesc = TFDirector:getChildByPath(self.Image_buffDesc, "Label_buffDesc")
     local Panel_dice = TFDirector:getChildByPath(self.Panel_root, "Panel_dice")
     local ScrollView_dice = TFDirector:getChildByPath(Panel_dice, "Panel_mask.ScrollView_dice")
+    self.Panel_dice = Panel_dice
     self.PageView_dice = UIPageView:create(ScrollView_dice)
     self.PageView_dice:setMainIndex(2)
     self.Label_dice_tip = TFDirector:getChildByPath(Panel_dice, "Label_dice_tip")
@@ -109,6 +106,11 @@ function DfwAutumnMainView:initUI(ui)
     self.Label_control_tip = TFDirector:getChildByPath(self.Image_control_dice, "Label_control_tip")
     self.Image_other_dice = TFDirector:getChildByPath(Panel_dice, "Image_other_dice"):hide()
     self.Label_dice_name = TFDirector:getChildByPath(self.Image_other_dice, "Label_dice_name")
+
+    self.Panel_specialUse = TFDirector:getChildByPath(self.Panel_root, "Panel_specialUse")
+    self.Button_cancel = TFDirector:getChildByPath(self.Panel_specialUse, "Button_cancel")
+
+    
     self.Button_dice_point = {}
     for i = 1, 6 do
         self.Button_dice_point[i] = TFDirector:getChildByPath(self.Image_control_dice, "Button_dice_point_" .. i)
@@ -119,7 +121,7 @@ function DfwAutumnMainView:initUI(ui)
 end
 
 function DfwAutumnMainView:initRole()
-    local rolePath = "modle/citymodle/city_10309/city_10309"
+    local rolePath = Utils:getKVP(46012,"roleControl")
     self.Spine_role = SkeletonAnimation:create(rolePath)
     self.Panel_role:addChild(self.Spine_role)
     self.Spine_role:setScale(0.82)
@@ -167,15 +169,7 @@ function DfwAutumnMainView:moveRoleToGrid(curSite, targetSite, isJump)
         end)
         local delay = DelayTime:create(0.3)
         local completeCallfunc = CallFunc:create(function()
-                local cfg = DfwDataMgr:getChessesCfg(self.gridData_[targetSite])
-                if cfg.type == 3 then
-                    Utils:openView("dfwautumn.DfwAutumnEventView", self.eventId_, self.eventRewards_, self.eventExRewards_)
-                end
-                self.isRolling_ = false
-
-                self.Panel_touch:setTouchEnabled(false)
-                self:updateSelectDiceInfo()
-                self:updateMap()
+            self:actionChess(targetSite)
         end)
         table.insert(aniArr, preCompleteCallback)
         table.insert(aniArr, delay)
@@ -184,6 +178,28 @@ function DfwAutumnMainView:moveRoleToGrid(curSite, targetSite, isJump)
         self.Spine_role:runAction(action)
         return duration
     end
+end
+
+function DfwAutumnMainView:actionChess( gridIdx )
+    if DatingDataMgr:getIsDating() then return end
+
+    local cfg = DfwDataMgr:getChessesCfg(self.gridData_[gridIdx])
+
+    if cfg.type == 3 and self.eventId_ then
+        local eventCfg_ = DfwDataMgr:getChessesEventCfg(self.eventId_)
+        if eventCfg_ and eventCfg_.datingId ~= 0  then
+            self.ui:timeOut(function () FunctionDataMgr:jStartDating(eventCfg_.datingId) end, 0)
+        else
+            Utils:openView("dfwautumn.DfwAutumnEventView", self.eventId_, self.eventRewards_, self.eventExRewards_)
+            self.doEvent = false
+        end
+    end
+
+    self.isRolling_ = false
+
+    self.Panel_touch:setTouchEnabled(false)
+    self:updateSelectDiceInfo()
+    self:updateMap()
 end
 
 function DfwAutumnMainView:showFloatTip(index, pos)
@@ -222,6 +238,45 @@ function DfwAutumnMainView:moveToGrid(curSite, targetSite)
     self.Spine_role:play("dice_move", true)
 end
 
+function DfwAutumnMainView:specialAction(...)
+    -- body
+    local param = {...}
+
+
+    local specialItemId = DfwDataMgr:getUseItemStatus()
+    DfwDataMgr:setUseItemStatus(nil)
+
+    DfwDataMgr:send_SACRIFICE_REQ_ADD_BUFF(specialItemId, param[1] )
+end
+
+function DfwAutumnMainView:checkSpecialStatus( i, chessesCfg )
+    local specialItemId = DfwDataMgr:getUseItemStatus()
+    local checkIndex = i - self.cellInfo_.location
+    if specialItemId and chessesCfg then
+        specialItemCfg = DfwDataMgr:getChessesBuffCfg(specialItemId)
+        if specialItemCfg and specialItemCfg.param then -- 所有字段条件满足才能通过 ,通过判断不满足条件能够简便if 判断逻辑扩展
+            self.hasSpecial = true
+            if specialItemCfg.param.useOnTypes and table.find(specialItemCfg.param.useOnTypes,chessesCfg.type) == -1 then
+                return false
+            end
+
+            if specialItemCfg.param.maxIndex and specialItemCfg.param.maxIndex < checkIndex then
+                return false
+            end
+
+            if specialItemCfg.param.minIndex and specialItemCfg.param.minIndex > checkIndex then
+                return false
+            end
+
+            self.checkSuc = self.checkSuc or true
+            return true
+        end
+    end
+    self.hasSpecial = false
+    return false
+end
+
+
 function DfwAutumnMainView:updateMap()
     self.cellInfo_ = DfwDataMgr:getCellInfo()
     self.totalStep_ = self.cellInfo_.totleStep
@@ -234,6 +289,8 @@ function DfwAutumnMainView:updateMap()
         local chessesCfg = DfwDataMgr:getChessesCfg(v)
         local Image_gridItem = self.gridItems_[i]:show()
         local Image_build = TFDirector:getChildByPath(Image_gridItem, "Image_build"):hide()
+        local Image_clickEffect = TFDirector:getChildByPath(Image_gridItem, "Image_clickEffect"):hide()
+
         Image_gridItem:setTexture(chessesCfg.style)
         if #chessesCfg.build > 0 then
             Image_build:show():setTexture(chessesCfg.build)
@@ -245,10 +302,56 @@ function DfwAutumnMainView:updateMap()
         x = x + size.width * chessesCfg.calAp[1]
         local pos = ccpAdd(chessesCfg.gridOffset, ccp(x, 0))
         Image_gridItem:setPosition(pos)
+
+       
+        local function addLightAction( target )
+            -- body
+            local arr = {
+                CCTintTo:create(0.75,248,221,255),
+                
+                CCTintTo:create(0.75,255,255,255),
+            }
+
+            local lightAction = CCRepeatForever:create(Sequence:create(arr))
+            target:runAction(lightAction)
+            target.lightAction = lightAction
+        end
+
+        local function removeLightAction( target )
+            -- body
+            if target.lightAction then
+                target:setColor(ccc3(255,255,255))
+                target:stopAction(target.lightAction)
+                target.lightAction = nil
+            end
+        end
+
+        if self:checkSpecialStatus(i,chessesCfg) then -- 判断是否满足可点击条件，显示特效与回调方法
+            Image_clickEffect:show()
+            addLightAction(Image_gridItem)
+            Image_gridItem:setTouchEnabled(true)
+            Image_gridItem:onClick(function ( ... )
+                -- body
+                self:specialAction(i - self.cellInfo_.location,chessesCfg)
+            end)
+        else
+            removeLightAction(Image_gridItem)
+            Image_gridItem:setTouchEnabled(false)
+        end
+
         x = pos.x + size.width * chessesCfg.calAp[2]
         width = x
     end
 
+    self.Panel_dice:show()
+    if self.hasSpecial and not self.checkSuc then
+        DfwDataMgr:setUseItemStatus(nil)
+        Utils:showTips(13200400)
+    elseif self.hasSpecial then
+        self.Panel_dice:hide()
+    end
+
+    self.Panel_specialUse:setVisible(self.hasSpecial)
     local size = self.ScrollView_map:getSize()
     size.width = width
     self.ScrollView_map:setInnerContainerSize(size)
@@ -290,6 +393,12 @@ function DfwAutumnMainView:updateMap()
     end
     self.Label_step:setText(self.cellInfo_.totleStep)
     self:updateBuff()
+
+    if not self.doEvent and self.cellInfo_.event and not self.cellInfo_.event.status then -- 当前格子未完成,直接进入事件
+        self.doEvent = true
+        self.eventId_ = self.cellInfo_.event.eventId
+        self:actionChess(self.cellInfo_.location)
+    end
 end
 
 function DfwAutumnMainView:initAllGrid()
@@ -397,9 +506,9 @@ function DfwAutumnMainView:updateAllDiceItem()
     for i, v in ipairs(self.PageView_dice:getItems()) do
         local foo = self.diceItems_[v]
         local diceCid = self.diceData_[i]
-        local itemCfg = GoodsDataMgr:getItemCfg(diceCid)
         local diceCfg = DfwDataMgr:getChessesDiceCfg(diceCid)
-        local count = GoodsDataMgr:getItemCount(itemCfg.id)
+        local itemCfg = GoodsDataMgr:getItemCfg(diceCfg.costItem)
+        local count = GoodsDataMgr:getItemCount(diceCfg.costItem)
         foo.Label_count:setTextById(800005, count, itemCfg.totalMax)
     end
 end
@@ -440,12 +549,12 @@ function DfwAutumnMainView:updateSelectDiceInfo()
     local diceCfg = DfwDataMgr:getChessesDiceCfg(diceCid)
     local itemCfg = GoodsDataMgr:getItemCfg(diceCid)
 
-    self.Label_dice_tip:setTextById(itemCfg.desTextId)
+    self.Label_dice_tip:setTextById(diceCfg.desTextId)
     self.Image_other_dice:setVisible(diceCfg.type == 1)
     self.Image_control_dice:setVisible(diceCfg.type == 2)
 
     if self.Image_other_dice:isVisible() then
-        self.Label_dice_name:setTextById(itemCfg.nameTextId)
+        self.Label_dice_name:setTextById(diceCfg.nameTextId)
     end
 
     if self.Image_control_dice:isVisible() then
@@ -464,7 +573,6 @@ function DfwAutumnMainView:onScrollViewChangedEvent()
     local cloudX = self.Panel_cloud:getPositionX()
     local farX = self.Panel_far:getPositionX()
     local mediumX = self.Panel_medium:getPositionX()
-    local langX= self.Panel_lang:getPositionX()
     local offset = self.ScrollView_map:getContentOffset()
     local offsetX = offset.x + self.ScrollView_map_size.width * self.ScrollView_map_ap.x
     local deltaX = offsetX
@@ -476,7 +584,6 @@ function DfwAutumnMainView:onScrollViewChangedEvent()
     self.Panel_cloud:setPositionX(cloudX + deltaX * 0.5)
     self.Panel_far:setPositionX(farX + deltaX * 0.6)
     self.Panel_medium:setPositionX(mediumX + deltaX * 0.7)
-    self.Panel_lang:setPositionX(langX + deltaX * 0.7)
 
     local skyPos = self.Image_sky[1]:getParent():convertToWorldSpaceAR(self.Image_sky[1]:Pos())
     if skyPos.x + self.Panel_sky_size.width <= 0 then
@@ -557,35 +664,13 @@ function DfwAutumnMainView:onScrollViewChangedEvent()
             self.Image_medium[2]:PosX(x)
         end
     end
-
-    local langPos = self.lang[1]:getParent():convertToWorldSpaceAR(self.lang[1]:Pos())
-    if langPos.x + self.Panel_lang_size.width <= 0 then
-        local x = self.lang[2]:PosX() + self.Panel_lang_size.width
-        self.lang[1]:PosX(x)
-    end
-    local langPos2 = self.lang[2]:getParent():convertToWorldSpaceAR(self.lang[2]:Pos())
-    if langPos2.x + self.Panel_lang_size.width <= 0 then
-        local x = self.lang[1]:PosX() + self.Panel_lang_size.width
-        self.lang[2]:PosX(x)
-    end
-    if langPos.x >= 0 and langPos2.x >= 0 then
-        if langPos.x > langPos2.x then
-            local x = self.lang[2]:PosX() - self.Panel_lang_size.width
-            self.lang[1]:PosX(x)
-        else
-            local x = self.lang[1]:PosX() - self.Panel_lang_size.width
-            self.lang[2]:PosX(x)
-        end
-    end
-
     self.preOffsetX_ = offsetX
 end
 
 function DfwAutumnMainView:rollDice(diceCid, point)
-    local count = GoodsDataMgr:getItemCount(diceCid)
-    if count > 0 then
-        self.isRolling_ = true
-        self:moveMapToGrid(self.cellInfo_.location, true)
+    local diceCfg = DfwDataMgr:getChessesDiceCfg(diceCid)
+    local count = GoodsDataMgr:getItemCount(diceCfg.costItem)
+    if count >= diceCfg.costNum then
         DfwDataMgr:send_SACRIFICE_REQGET_AWARD_SACRIFICE(diceCid, point)
         self.Panel_touch:setTouchEnabled(true)
         self.Image_other_dice:hide()
@@ -595,11 +680,24 @@ function DfwAutumnMainView:rollDice(diceCid, point)
     end
 end
 
+function DfwAutumnMainView:datingFinish(  )
+    -- body
+    self.doEvent = nil
+end
+
 function DfwAutumnMainView:registerEvents()
     EventMgr:addEventListener(self, EV_BAG_ITEM_UPDATE, handler(self.onItemUpdateEvent, self))
     EventMgr:addEventListener(self, EV_DFW_ROLL_DICE, handler(self.onRollDiceEvent, self))
     EventMgr:addEventListener(self, EV_DFW_UPDATE_BUFF, handler(self.onUpdateBuffEvent, self))
     EventMgr:addEventListener(self, EV_ACTIVITY_UPDATE_PROGRESS, handler(self.onUpdateProgressEvent, self))
+    EventMgr:addEventListener(self, EV_DFW_USE_SPECIAL_ITEM, handler(self.updateMap, self))
+    EventMgr:addEventListener(self, EV_DATING_EVENT.closeSriptView, handler(self.datingFinish, self))
+    EventMgr:addEventListener(self, EV_RECONECT_EVENT, function ( ... )
+        -- body
+        self.Panel_touch:setTouchEnabled(self.isRolling_)
+    end)
+
+
     self.ScrollView_map:addMEListener(TFSCROLLVIEW_CHANGED, handler(self.onScrollViewChangedEvent, self))
 
     self.Button_store:onClick(function()
@@ -698,11 +796,26 @@ function DfwAutumnMainView:registerEvents()
                 end)
             elseif aniName == "dice_cards" then
                 self.Panel_root:timeOut(function()
-                        self.Spine_role:play("dice_stand", true)
+                        if self.needMoveToGrids then
+                            self.needMoveToGrids = nil
+                            self:moveToGrid(self.originLocation_, self.targetLocation_)
+                        else
+                            self.Spine_role:play("dice_stand", true)
+                        end
                 end)
             end
         end
     )
+    self.Button_cancel:onClick(function ( ... )
+        -- body
+        DfwDataMgr:setUseItemStatus(nil)
+    end)
+end
+
+function DfwAutumnMainView:removeEvents( ... )
+    -- body
+    self.super.removeEvents(self)
+    DfwDataMgr:setUseItemStatus(nil)
 end
 
 function DfwAutumnMainView:onRollDiceEvent(originLocation, awardStep, buffStep, awardInfo, eventAward)
@@ -727,33 +840,39 @@ function DfwAutumnMainView:onRollDiceEvent(originLocation, awardStep, buffStep, 
     end
     local location = originLocation + awardStep + buffStep
 
-    local currentDiceIndex = self.PageView_dice:getCurrentItemIndex()
-    local diceCid = self.diceData_[currentDiceIndex]
-    local item = self.PageView_dice:getItem(currentDiceIndex)
-    local foo = self.diceItems_[item]
-    foo.Spine_dice:addMEListener(
-        TFARMATURE_COMPLETE,
-        function(_, aniName)
-            local state = aniName[#aniName]
-            if state == DiceState.START then
-                local name = self:getDiceAnimation(diceCid, awardStep, DiceState.TURN)
-                foo.Spine_dice:play(name, 0)
-            elseif state == DiceState.TURN then
-                -- local name = self:getDiceAnimation(diceCid, awardStep, DiceState.IDLE)
-                -- foo.Spine_dice:play(name, false)
-                self.Spine_role:play("dice_happy", false)
-            end
-        end
-    )
+    self:moveMapToGrid(self.cellInfo_.location, true)
 
     self.originLocation_ = originLocation
     self.targetLocation_ = location
+    self.isRolling_ = true
+    if awardStep > 0 then
+        local currentDiceIndex = self.PageView_dice:getCurrentItemIndex()
+        local diceCid = self.diceData_[currentDiceIndex]
+        local item = self.PageView_dice:getItem(currentDiceIndex)
+        local foo = self.diceItems_[item]
+        foo.Spine_dice:addMEListener(
+            TFARMATURE_COMPLETE,
+            function(_, aniName)
+                local state = aniName[#aniName]
+                if state == DiceState.START then
+                    local name = self:getDiceAnimation(diceCid, awardStep, DiceState.TURN)
+                    foo.Spine_dice:play(name, 0)
+                elseif state == DiceState.TURN then
+                    -- local name = self:getDiceAnimation(diceCid, awardStep, DiceState.IDLE)
+                    -- foo.Spine_dice:play(name, false)
+                    self.Spine_role:play("dice_happy", false)
+                end
+            end
+        )
 
-    local cachePoint = self.dicePointCache_[diceCid] or 1
-    local name = self:getDiceAnimation(diceCid, cachePoint, DiceState.START)
-    foo.Spine_dice:play(name, false)
-    self.dicePointCache_[diceCid] = awardStep
-    Utils:playSound(5003)
+        local cachePoint = self.dicePointCache_[diceCid] or 1
+        local name = self:getDiceAnimation(diceCid, cachePoint, DiceState.START)
+        foo.Spine_dice:play(name, false)
+        self.dicePointCache_[diceCid] = awardStep
+        Utils:playSound(5003)
+    else
+        self.needMoveToGrids = true
+    end
 end
 
 function DfwAutumnMainView:onUpdateBuffEvent()

@@ -3,8 +3,7 @@ local ValentineComposeView = class("ValentineComposeView", BaseLayer)
 
 function ValentineComposeView:initData()
     local activityInfo = ValentineDataMgr:getActivityInfo()
-    self.composeItems_ = {}
-    self.composeData_ = {580033, 580034, 580035}
+    self.composeData_ = activityInfo.extendData.compose
 end
 
 function ValentineComposeView:ctor(...)
@@ -28,22 +27,25 @@ function ValentineComposeView:initUI(ui)
             local bar = {}
             bar.root = TFDirector:getChildByPath(foo.root, "Panel_good_" .. j)
             bar.Label_cost_notEnough = TFDirector:getChildByPath(bar.root, "Label_cost_notEnough")
-            bar.Image_cost = TFDirector:getChildByPath(bar.root, "Image_cost")
-            bar.Label_cost = TFDirector:getChildByPath(bar.Image_cost, "Label_cost")
+            -- bar.Image_cost = TFDirector:getChildByPath(bar.root, "Image_cost")
+            bar.Label_cost = TFDirector:getChildByPath(bar.root, "Label_cost")
             bar.Panel_goodsItem = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
             bar.Panel_goodsItem:Pos(0, 0):ZO(1):AddTo(bar.root)
+            bar.Panel_goodsItem:setScale(0.7)
             foo.Panel_good[j] = bar
         end
         foo.Panel_target = TFDirector:getChildByPath(foo.root, "Panel_target")
         foo.Panel_target_goodsItem = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
         foo.Panel_target_goodsItem:Pos(0, 0):ZO(1):AddTo(foo.Panel_target)
+        foo.Panel_target_goodsItem:setScale(0.9)
         local Image_target = TFDirector:getChildByPath(foo.Panel_target, "Image_target")
-        foo.Label_have = TFDirector:getChildByPath(Image_target, "Label_have")
-        foo.Label_have_title = TFDirector:getChildByPath(Image_target, "Label_have_title")
+        foo.Label_have = TFDirector:getChildByPath(foo.Panel_target, "Label_have")
+        foo.Label_have_title = TFDirector:getChildByPath(foo.Panel_target, "Label_have_title")
         foo.Button_make = TFDirector:getChildByPath(foo.root, "Button_make")
         foo.Label_make = TFDirector:getChildByPath(foo.Button_make, "Label_make")
         foo.Image_not_enough = TFDirector:getChildByPath(foo.root, "Image_not_enough")
         foo.Label_not_enough = TFDirector:getChildByPath(foo.Image_not_enough, "Label_not_enough")
+        foo.lab_name = TFDirector:getChildByPath(foo.root, "lab_name")
         self.Panel_compose[i] = foo
     end
 
@@ -82,7 +84,7 @@ function ValentineComposeView:updateComposeItem(index)
         PrefabDataMgr:setInfo(bar.Panel_goodsItem, cid)
         order = order + 1
         local isEnough = count >= num
-        bar.Image_cost:setVisible(isEnough)
+        bar.Label_cost:setVisible(isEnough)
         bar.Label_cost_notEnough:setVisible(not isEnough)
         isReach = isReach and isEnough
     end
@@ -90,6 +92,7 @@ function ValentineComposeView:updateComposeItem(index)
     PrefabDataMgr:setInfo(foo.Panel_target_goodsItem, composeCid)
     local count = GoodsDataMgr:getItemCount(composeCid)
     foo.Label_have:setText(count)
+    foo.lab_name:setTextById(GoodsDataMgr:getItemCfg(composeCid).nameTextId)
 
     foo.Button_make:setVisible(isReach)
     foo.Image_not_enough:setVisible(not isReach)

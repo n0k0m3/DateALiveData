@@ -39,7 +39,7 @@ function ServerChoose:showServerGroup()
                 local function callback()
                     ServerDataMgr:setCurrentServerIndex(_serverIndex)
                     self:getParent():removeLayer(self,true)
-                    EventMgr:dispatchEvent(EV_LOGIN_UPDATESERVERNAME, groupName)
+                    EventMgr:dispatchEvent(EV_LOGIN_UPDATESERVERNAME, serverData.group_id, serverData.serverId)
                 end
 
                 if not ServerDataMgr:getCurrentServerHasRole(_serverIndex) and ServerDataMgr:getServerGroupID(_serverIndex) == 8 then

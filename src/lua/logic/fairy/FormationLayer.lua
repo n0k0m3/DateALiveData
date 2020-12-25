@@ -1,12 +1,24 @@
 local FormationLayer = class("FormationLayer", BaseLayer)
 
+local enum_ruleId = {
+    power_up = 1,
+    power_down = 2,
+    level_up = 3,
+    level_down = 4,
+    default = 5
+}
+
 function FormationLayer:ctor(data)
     self.super.ctor(self,data)
     self.showid = HeroDataMgr:getTeamLeaderId();
     self.showidx = 1;
     self.selectCell = nil;
 
+    self.preTeamId = data.preTeamId
+
     self.pos = data._pos;
+    self.selectImg = nil
+
     self.changeToServer = data.changeToServer
     self.limitSimulationTrial = data.limitSimulationTrial
     self.containSimulationTrial = data.containSimulationTrial
@@ -21,19 +33,41 @@ function FormationLayer:ctor(data)
 
     self.isSkyLadder = tobool(data.isSkyLadder)
 
-    HeroDataMgr:resetShowList(true,self.containSimulationTrial);
+    self.isHwx = tobool(data.isHwx)
+
+    local showList = clone(HeroDataMgr:resetShowList(true,self.containSimulationTrial))
+    self.showHeroIds = {}
+    for k,v in ipairs(showList) do
+        local showIndex = HeroDataMgr:getSelectedHeroIdx(v);
+        local heroid = HeroDataMgr:getSelectedHeroId(showIndex)
+        table.insert(self.showHeroIds,heroid)
+    end
+
     self.showCount = HeroDataMgr:getShowCount();
-    local isformation = HeroDataMgr:getIsFormationOn(self.pos);
+
+    local isformation = self.preTeamId and HeroDataMgr:getPreTeamHeroId(self.preTeamId,self.pos) or HeroDataMgr:getIsFormationOn(self.pos);
     if isformation then
-        self.showid = HeroDataMgr:getHeroIdByFormationPos(self.pos);
+        self.showid = self.preTeamId and tonumber(isformation) or HeroDataMgr:getHeroIdByFormationPos(self.pos);
         self.showidx = HeroDataMgr:getShowIdxById(self.showid);
+        
+        ---阵容中的英雄是否在展示列表中
+        local index = table.indexOf(self.showHeroIds,self.showid)
+        if index == -1 then
+            self.showidx,self.showid = HeroDataMgr:getUnFormationFirstId()
+        end
     else
         self.showidx,self.showid = HeroDataMgr:getUnFormationFirstId()
     end
+
     dump({"_________init:",self.showid,self.showidx ,self.pos})
     self.firstTouchIn = false;
 
-    self.heroImg = {}
+
+    self.sortRule = {{lable = 14300313,ruleId = enum_ruleId.power_up,isUp = true},
+                     {lable = 14300314,ruleId = enum_ruleId.power_down,isUp = false},
+                     {lable = 14300315,ruleId = enum_ruleId.level_up,isUp = true},
+                     {lable = 14300316,ruleId = enum_ruleId.level_down,isUp = false},
+                     {lable = 14300317,ruleId = enum_ruleId.default,isUp = true}}
 
     self:showPopAnim(true)
     self:init("lua.uiconfig.fairy.formationLayer")
@@ -45,12 +79,16 @@ function FormationLayer:initUI(ui)
     FormationLayer.ui = ui
     self:addLockLayer()
 
-    self.panel_list    		= TFDirector:getChildByPath(ui,"Panel_scroll");
+    self.tableView          = TFDirector:getChildByPath(ui,"tableView")
     self.panel_item			= TFDirector:getChildByPath(ui,"Panel_item");
     self.armyLabel			= TFDirector:getChildByPath(ui,"Label_up")
     self.Button_army		= TFDirector:getChildByPath(ui,"Button_ok");
-    self.Button_info		= TFDirector:getChildByPath(ui,"Button_info");
+    self.Button_info		= TFDirector:getChildByPath(ui,"Button_info"):hide();
     self.Button_cancel		= TFDirector:getChildByPath(ui,"Button_cancel");
+    self.Panel_hwx          = TFDirector:getChildByPath(ui,"Panel_hwx");
+    self.Label_hwxnum       = TFDirector:getChildByPath(self.Panel_hwx,"Label_num");
+    self.Button_change      = TFDirector:getChildByPath(self.Panel_hwx,"Button_change");
+    self.Image_hwxicon      = TFDirector:getChildByPath(self.Panel_hwx,"Image_icon");
 
     self.qualityImg			= TFDirector:getChildByPath(ui,"Image_hero_puality");
     self.qualityImg:setScale(0.2);
@@ -64,58 +102,80 @@ function FormationLayer:initUI(ui)
     self.Image_back2 = TFDirector:getChildByPath(ui, "Image_back2")
     self.Label_buttom_tip = TFDirector:getChildByPath(ui, "Label_buttom_tip"):hide()
     self.Label_buttom_tip:setTextById(2108112)
-    self.listView = UIListView:create(self.panel_list)
 
-    self:initListView();
+    self.tableViewNew = TFTableView:create()
+    self.tableViewNew:setTableViewSize(self.tableView:getContentSize())
+    self.tableViewNew:setDirection(TFTableView.TFSCROLLHORIZONTAL)
+    self.tableViewNew:setVerticalFillOrder(TFTableView.TFTabViewFILLTOPDOWN)
 
-    -- self:initTableView();
-    -- self.tableView:reloadData()
+    self.tableViewNew:addMEListener(TFTABLEVIEW_SIZEFORINDEX, self.cellSizeForTable)
+    self.tableViewNew:addMEListener(TFTABLEVIEW_SIZEATINDEX, self.tableCellAtIndex)
+    self.tableViewNew:addMEListener(TFTABLEVIEW_NUMOFCELLSINTABLEVIEW, self.numberOfCellsInTableView)
 
+    self.tableViewNew.logic = self
+    self.tableView:addChild(self.tableViewNew)
+
+    
+    self.Button_sort_order = TFDirector:getChildByPath(ui, "Button_sort_order")
+    self.Label_order_name = TFDirector:getChildByPath(self.Button_sort_order, "Label_order_name")
+    self.Image_order_icon = TFDirector:getChildByPath(self.Button_sort_order, "Image_order_icon")
+
+    local ScrollView_rule = TFDirector:getChildByPath(ui, "ScrollView_rule"):hide()
+    self.ListView_rule = UIListView:create(ScrollView_rule)
+    self.Button_rule = TFDirector:getChildByPath(ui, "Button_rule")
+
+    self:updateRuleList()
     self:changeShowOne();
+    self:selectSortRule(self.defaultInfo)
+end
+
+function FormationLayer.cellSizeForTable(table, idx)
+    local self = table.logic
+    local size = self.panel_item:getContentSize() 
+    return size.height, size.width
 end
 
 function FormationLayer:initListView()
     local count = HeroDataMgr:getShowCount();
     self.selectImg = nil;
-    for i=1,count do
-        local heroid = HeroDataMgr:getSelectedHeroId(idx);
-        local item = self.panel_item:clone();
+    -- for i=1,count do
+    --     local heroid = HeroDataMgr:getSelectedHeroId(idx);
+    --     local item = self.panel_item:clone();
 
-        --创建克制icon
-        local startPos = item:getChildByName("Image_duty"):getPosition() + ccp(105 ,-170)
-        item.panel_element = Utils:createElementPanel(item , 1 , startPos , nil , 0.5)
+    --     -- --创建克制icon
+    --     -- local startPos = item:getChildByName("Image_duty"):getPosition() + ccp(105 ,-170)
+    --     -- item.panel_element = Utils:createElementPanel(item , 1 , startPos , nil , 0.5)
 
-        self.listView:pushBackCustomItem(item);
-        self:updateOneHead(item,i);
+    --     -- self.listView:pushBackCustomItem(item);
+    --     -- self:updateOneHead(item,i);
+    -- end
+end
 
-        item:setTouchEnabled(true);
-        item:onClick(function()
-                if self.showidx ~= i then
-                    self.showidx = i
-                    self.firstTouchIn  = true;
-                end
-                self.showid = HeroDataMgr:changeShowOne(i,self.firstTouchIn);
-                self.firstTouchIn  = false;
-                self:changeShowOne();
-
-                local Image_select = TFDirector:getChildByPath(item,"Image_select");
-                if self.showidx == i then
-                    self.selectImg:hide();
-                    Image_select:show()
-                    self.selectImg = Image_select
-                end
-        end)
+function FormationLayer.tableCellAtIndex(table, idx)
+    local self = table.logic
+    local cell = table:dequeueCell()
+    if nil == cell then
+        table.cells = table.cells or {}
+        cell = TFTableViewCell:create()
+        local parentNode = self.panel_item:clone()
+        parentNode:setVisible(true)
+        parentNode:setPosition(ccp(0,0))
+        cell:addChild(parentNode)
+        cell.node = parentNode
+        table.cells[cell] = true
     end
+    local itemNode = cell.node
+    self:updateOneHead(itemNode, idx + 1)
+    return cell
+end
+
+function FormationLayer.numberOfCellsInTableView(table)
+    return HeroDataMgr:getShowCount()
 end
 
 function FormationLayer:updateUI()
-    dump("FormationLayer")
-    local count = HeroDataMgr:getShowCount();
     self.selectImg = nil;
-    for i=1,count do
-        local item = self.listView:getItem(i);
-        self:updateOneHead(item,i,true);
-    end
+    self.tableViewNew:reloadData()
 end
 
 function FormationLayer:onFormationChange(heroid)
@@ -131,112 +191,79 @@ function FormationLayer:fitSkyLadderFight()
     return heroFightCnt ~= 0
 end
 
-function FormationLayer:registerEvents()
-    EventMgr:addEventListener(self,EV_FORMATION_CHANGE,handler(self.onFormationChange, self));
-    EventMgr:addEventListener(self,EV_HERO_LEVEL_UP,handler(self.updateUI, self));
-
-    self.Button_army:onClick(function ()
-        --if self.isSkyLadder then
-        --    local heroFightCnt = SkyLadderDataMgr:getHeroFightCnt(self.showid)
-        --    heroFightCnt = heroFightCnt or 0
-        --    if heroFightCnt == 0 then
-        --        Utils:showTips(100000061)
-        --        return
-        --    end
-        --end
-        if HeroDataMgr:getIsFormationOn(self.pos) and HeroDataMgr:getHeroIdByFormationPos(self.pos) ~= self.showid then
-            if not self.changeToServer then
-                local oldID = HeroDataMgr:getHeroIdByFormationPos(self.pos);
-                HeroDataMgr:setFormationHero(self.pos,self.showid,oldID,self.limitSimulationTrial);
-                EventMgr:dispatchEvent(EV_FORMATION_CHANGE,self.showid,oldID);
-            else
-                ---更换
-                if self.isSkyLadder then
-                    local isFit = self:fitSkyLadderFight()
-                    if not isFit then
-                        Utils:showTips(100000061)
-                        return
-                    end
-                end
-                HeroDataMgr:heroOnBattle(HeroDataMgr:getHeroIdByFormationPos(self.pos),self.showid);
-            end
-        else
-            if not self.changeToServer then
-                HeroDataMgr:setFormationHero(self.pos,self.showid,nil,self.limitSimulationTrial)
-                EventMgr:dispatchEvent(EV_FORMATION_CHANGE,self.showid,nil);
-            else
-                ---编入，移除
-                if not HeroDataMgr:getIsFormationOn(self.pos) then
-                    if self.isSkyLadder then
-                        local isFit = self:fitSkyLadderFight()
-                        if not isFit then
-                            Utils:showTips(100000061)
-                            return
-                        end
-                    end
-                end
-                HeroDataMgr:heroOnBattle(self.showid);
-            end
-        end
-        GameGuide:checkGuideEnd(self.guideFuncId)
-        self.Button_army:setTouchEnabled(false)
-    end)
-
-    self.Button_info:onClick(function()
-            --AlertManager:changeScene(SceneType.MainScene);
-        if self.isSkyLadder then
-            HeroDataMgr.showid = self.showid;
-            Utils:openView("fairyNew.FairyDetailsLayer", {showid= self.showid, friend=false, gotoWhichTab = 3,skyladder = true})
-        else
-            local layer = Utils:openView("fairyNew.FairyDetailsLayer",{showid=self.showid, friend=false})
-            layer:onTouchFairy()
-        end
-    end)
-
-    self.Button_cancel:onClick(function ()
-            AlertManager:close();
-    end)
+function FormationLayer:fitHwxHeroFightCnt()
+    local heroFightCnt = LinkageHwxDataMgr:getHeroBuyCnt(self.showid)
+    local heroBuyCnt = LinkageHwxDataMgr:getHeroBuyCnt(self.showid)
+    local maxFightCnt = LinkageHwxDataMgr:getInitFightCnt() + heroBuyCnt
+    local remainCnt = maxFightCnt - heroFightCnt
+    remainCnt = remainCnt < 0 and 0 or remainCnt
+    return remainCnt ~= 0
 end
 
-function FormationLayer:initTableView()
-    local  tableView =  TFTableView:create()
-    tableView:setName("btnTableView")
-    local tableViewSize = self.panel_list:getContentSize()
-    tableView:setTableViewSize(CCSizeMake(tableViewSize.width, tableViewSize.height))
-    tableView:setDirection(TFTableView.TFSCROLLHORIZONTAL)
-    tableView:setPosition(self.panel_list:getPosition())
-    tableView:setAnchorPoint(self.panel_list:getAnchorPoint());
-    self.tableView = tableView
+function FormationLayer:updateRuleList()
 
-    self.tableView.logic = self
-
-    tableView:addMEListener(TFTABLEVIEW_TOUCHED, FormationLayer.tableCellTouched)
-    tableView:addMEListener(TFTABLEVIEW_SIZEFORINDEX, FormationLayer.cellSizeForTable)
-    tableView:addMEListener(TFTABLEVIEW_SIZEATINDEX, FormationLayer.tableCellAtIndex)
-    tableView:addMEListener(TFTABLEVIEW_NUMOFCELLSINTABLEVIEW, FormationLayer.numberOfCellsInTableView)
-
-
-    tableView:addMEListener(TFTABLEVIEW_CELLISBEGIN, FormationLayer.cellBegin)
-    tableView:addMEListener(TFTABLEVIEW_CELLISEND, FormationLayer.cellEnd)
-
-
-    self.panel_list:getParent():addChild(self.tableView,10)
-end
-
-function FormationLayer.tableCellTouched(table,cell)
-    local self = cell.logic
-
-    if self.showidx ~= cell.idx then
-        self.showidx = cell.idx
-        self.firstTouchIn  = true;
+    self.defaultInfo = self.sortRule[5]
+    self.ruleId = FubenDataMgr:getFormationSortRuleId()
+    if not self.ruleId then
+        self.ruleId = self.defaultInfo.ruleId
+        FubenDataMgr:setFormationSortRuleId(self.ruleId)
     end
-    self.showid = HeroDataMgr:changeShowOne(cell.idx,self.firstTouchIn);
-    self.firstTouchIn  = false;
+    
+    for k,v in ipairs(self.sortRule) do
+        local ruleItem = self.Button_rule:clone()
+        local Label_btn_name = TFDirector:getChildByPath(ruleItem,"Label_btn_name")
+        local Image_btn_icon = TFDirector:getChildByPath(ruleItem,"Image_btn_icon")
+        Label_btn_name:setTextById(v.lable)
+        local scaleY = v.isUp and 1 or -1
+        Image_btn_icon:setScaleY(scaleY)
+        self.ListView_rule:pushBackCustomItem(ruleItem)
+
+        if v.ruleId == self.ruleId then
+            self.defaultInfo = v
+        end
+        ruleItem:onClick(function()
+            self:selectSortRule(v)
+        end)
+    end
+
+    self.Label_order_name:setTextById(self.defaultInfo.lable)
+    local scaleY = self.defaultInfo.isUp and 1 or -1
+    self.Image_order_icon:setScaleY(scaleY)
+end
+
+function FormationLayer:selectSortRule(ruleInfo)
+    self.ruleId = ruleInfo.ruleId
+    FubenDataMgr:setFormationSortRuleId(self.ruleId)
+    self.Label_order_name:setTextById(ruleInfo.lable)
+    local scaleY = ruleInfo.isUp and 1 or -1
+    self.Image_order_icon:setScaleY(scaleY)
+    self.ListView_rule:s():hide()
+    self:sortHeroShowId()
+
+    self.showid = self.ruleId == enum_ruleId.default and HeroDataMgr:changeShowOne(self.showidx,self.firstTouchIn) or self.showHeroIds[self.showidx]
+
     self:changeShowOne();
 
-    if self.tableView then
-        self.tableView:reloadData();
+    self:updateUI()
+end
+
+function FormationLayer:sortHeroShowId()
+
+    local function sortFunc(a,b)
+
+        local heroInfoA = HeroDataMgr:getHero(a)
+        local heroInfoB = HeroDataMgr:getHero(b)
+        if self.ruleId == enum_ruleId.power_up then
+            return heroInfoA.fightPower < heroInfoB.fightPower
+        elseif self.ruleId == enum_ruleId.power_down then
+            return heroInfoA.fightPower > heroInfoB.fightPower
+        elseif self.ruleId == enum_ruleId.level_up then
+            return heroInfoA.lvl < heroInfoB.lvl
+        elseif self.ruleId == enum_ruleId.level_down then
+            return heroInfoA.lvl > heroInfoB.lvl
+        end
     end
+    table.sort(self.showHeroIds,sortFunc)
 end
 
 function FormationLayer:updateBaseInfo( ... )
@@ -254,20 +281,64 @@ function FormationLayer:updateBaseInfo( ... )
         self.moodValueDesc:setString(RoleDataMgr:getMoodDes(roleid)) 
     end
     local hero = HeroDataMgr:getHero(self.showid)
-    if hero then 
+    if hero then
         self.Label_buttom_tip:setVisible(hero.heroStatus == 3)
     else
         self.Label_buttom_tip:hide()
     end
+
+    if self.isSkyLadder then
+        self.Button_info:setVisible(true)
+    end
+
+    local visible = self.Button_info:isVisible()
+    local posX = visible and 218 or 272
+    self.Button_sort_order:setPositionX(posX)
+
+    self:updateHwxCost()
+
 end
 
-function FormationLayer:changeShowOne()
+function FormationLayer:updateHwxCost()
 
-    self:updateBaseInfo();
+    self.Panel_hwx:setVisible(self.isHwx)
+    if not self.isHwx then
+        return
+    end
+    self.Label_buttom_tip:hide()
 
-    local ishave = HeroDataMgr:getIsHave(self.showid);
+    local activityId = ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.HWX_FUBEN)[1]
+    local activityInfo = ActivityDataMgr2:getActivityInfo(activityId)
+
+    if  activityInfo and activityInfo.extendData then
+        local itemId,itemCostCnt
+        local changeInfo = activityInfo.extendData.fightTimeExchange
+        for k,v in pairs(changeInfo) do
+            itemId,itemCostCnt = tonumber(k),v
+            break
+        end
+
+        if not itemId then
+            return
+        end
+
+        local cfg = GoodsDataMgr:getItemCfg(itemId)
+        if not cfg then
+            return
+        end
+        local ownCnt = GoodsDataMgr:getItemCount(itemId)
+        dump(itemId)
+        self.Image_hwxicon:setTexture(cfg.icon)
+        self.Label_hwxnum:setText(itemCostCnt.."/"..ownCnt)
+        local color = ownCnt >= itemCostCnt and ccc3(255, 255, 255) or me.RED
+        self.Label_hwxnum:setColor(color)
+    end
+end
+
+function FormationLayer:updateHandleNormal()
+
     local job = HeroDataMgr:getHeroJob(self.showid);
-        dump({self.showid,self.pos ,job})
+    dump({self.showid,self.pos ,job})
     if job == self.pos and HeroDataMgr:getFormationHeroCnt() == 1 then
         self.armyLabel:setTextById(2100122);
         self.Button_army:setGrayEnabled(true);
@@ -276,7 +347,7 @@ function FormationLayer:changeShowOne()
         self.armyLabel:setTextById(2100122);
         self.Button_army:setGrayEnabled(false);
         self.Button_army:setTouchEnabled(true);
-    elseif job < 4 then 
+    elseif job < 4 then
         self.armyLabel:setTextById(2100123);
         self.Button_army:setGrayEnabled(true);
         self.Button_army:setTouchEnabled(false);
@@ -332,40 +403,87 @@ function FormationLayer:changeShowOne()
             self.Button_army:setTouchEnabled(false);
         end
     end
+end
 
+function FormationLayer:updateHandlePreTeam()
 
-    self.Button_info:setVisible( not ha.Inoperable)
-    self.Button_info:hide()
-    if self.isSkyLadder then
-        self.Button_info:setVisible(true)
+    ---预设队伍所选位置上的英雄
+    local heroId = HeroDataMgr:getPreTeamHeroId(self.preTeamId,self.pos)
+    local preTeamInfo = HeroDataMgr:getPreTeamInfo(self.preTeamId)
+    ---列表中选择的英雄在预设队伍中的位置
+    local teamPos = HeroDataMgr:getPreTeamPosByHeroId(self.preTeamId,tostring(self.showid))
+    print(heroId,teamPos,self.showid)
+    if teamPos == -1 then
+        ---更换
+        if heroId then
+            self.armyLabel:setTextById(2100124)
+            self.Button_army:setGrayEnabled(false)
+            self.Button_army:setTouchEnabled(true)
+        else
+            ---编入队伍
+            self.armyLabel:setTextById(2100125)
+            self.Button_army:setGrayEnabled(false)
+            self.Button_army:setTouchEnabled(true)
+        end
+    else
+        if heroId == tostring(self.showid) then
+            ---移除队伍
+            self.armyLabel:setTextById(2100122)
+            if preTeamInfo and preTeamInfo.formation and #preTeamInfo.formation <= 1 then
+                self.Button_army:setGrayEnabled(true)
+                self.Button_army:setTouchEnabled(false)
+            else
+                self.Button_army:setGrayEnabled(false)
+                self.Button_army:setTouchEnabled(true)
+            end
+        else
+            local selectRoleId = HeroDataMgr:getHeroRoleId(self.showid)
+            local roleId = HeroDataMgr:getHeroRoleId(tonumber(heroId))
+            if selectRoleId == roleId then
+                self.armyLabel:setTextById(2100124)
+                self.Button_army:setGrayEnabled(false)
+                self.Button_army:setTouchEnabled(true)
+            else
+                ---已在队伍中
+                self.armyLabel:setTextById(2100123)
+                self.Button_army:setGrayEnabled(true)
+                self.Button_army:setTouchEnabled(false)
+            end
+
+        end
     end
 end
 
-function FormationLayer.tableCellAtIndex(tab, idx)
-    local self = tab.logic
-    local cell = tab:dequeueCell();
-    --idx = math.abs(idx - self.showCount )
-    idx = idx + 1;
-    if cell == nil then
-        tab.cells = tab.cells or {}
-        cell = TFTableViewCell:create();
-        local item = self.panel_item:clone();
-        item:setAnchorPoint(CCPointMake(0,0))
-        item:setPosition(CCPointMake(0, 0))
-        cell:addChild(item);
-        cell.item = item;
-    end
+function FormationLayer:changeShowOne()
 
-    if cell.item then
-        self:updateOneHead(cell,idx);
-    end
+    self:updateBaseInfo();
 
-    cell.idx = idx
-    cell.logic = self;
-    return cell;
+    if not self.preTeamId then
+        self:updateHandleNormal()
+    else
+        self:updateHandlePreTeam()
+    end
 end
 
 function FormationLayer:updateOneHead(cell,idx,isChange)
+    cell:setTouchEnabled(true);
+    cell:onClick(function()
+        if self.showidx ~= idx then
+            self.showidx = idx
+            self.firstTouchIn  = true;
+        end
+        self.showid = self.ruleId == enum_ruleId.default and HeroDataMgr:changeShowOne(idx,self.firstTouchIn) or self.showHeroIds[idx]
+        self.firstTouchIn  = false;
+        self:changeShowOne();
+
+        local Image_select = TFDirector:getChildByPath(cell,"Image_select");
+        if self.showidx == idx then
+            self.selectImg:hide();
+            Image_select:show()
+            self.selectImg = Image_select
+        end
+    end)
+
     local selectPoints = {}
 
     for i=1,4 do
@@ -374,7 +492,7 @@ function FormationLayer:updateOneHead(cell,idx,isChange)
         table.insert(selectPoints,point);
     end
     --
-    local heroid = HeroDataMgr:getSelectedHeroId(idx);
+    local heroid = self.ruleId == enum_ruleId.default and HeroDataMgr:getSelectedHeroId(idx) or self.showHeroIds[idx]
     local skinid = HeroDataMgr:getCurSkin(heroid);
     local data = TabDataMgr:getData("HeroSkin", skinid)
 
@@ -388,49 +506,20 @@ function FormationLayer:updateOneHead(cell,idx,isChange)
     local trail_flag = TFDirector:getChildByPath(cell, "trail_flag")
     trail_flag:setVisible(HeroDataMgr:getHero(heroid).heroStatus == 2);
 
-    if isChange then
-        self.heroImg[heroid]:removeFromParent();
-        self.heroImg[heroid]:release();
-        self.heroImg[heroid] = nil;
+    if Panel_model.model then
+        Panel_model.model:removeFromParent()
+        Panel_model.model = nil
     end
-
-    --防止直接拖动删除model
-    if not self.heroImg[heroid] then
+    
+    local heroImg = Utils:getHeroModelImgSrc(heroid, skinid)
+    if heroImg then
+        Image_hero:setTexture(heroImg)
+    else
         local model = Utils:createHeroModel(heroid, Panel_model, 0.45, skinid,true)
         model:update(0.1)
         model:stop()
-
-        --截屏
-        local tx = CCRenderTexture:create(140,245)
-        tx:begin()
-        Panel_model:visit();
-        tx:endToLua()
-
-        -- if model then
-        --    model:removeFromParent()
-        --    Panel_model.model = nil
-        -- end
-
-        self.heroImg[heroid] = Sprite:createWithTexture(tx:getSprite():getTexture())
-        self.heroImg[heroid]:setScaleY(-1)
-        self.heroImg[heroid]:setPositionY(0)
-        self.heroImg[heroid]:retain()
-        self.heroImg[heroid]:setName("heroImg")
     end
-
-    -- local heroImg =  Image_hero:getChildByName("heroImg")
-    -- if heroImg then
-    -- Image_hero:removeAllChildren()
-    -- end
-
-    local childs = Image_hero:getChildren();
-
-    --防止self.heroImg[heroid]没有从上一个父节点移除
-    if self.heroImg[heroid]:getParent() then
-        self.heroImg[heroid]:removeFromParent();
-    end
-    Image_hero:addChild(self.heroImg[heroid])
-
+    
     --等级
     local heroLv = HeroDataMgr:getLv(heroid)
     local Image_levelbg = TFDirector:getChildByPath(cell, "Image_levelbg")
@@ -463,7 +552,6 @@ function FormationLayer:updateOneHead(cell,idx,isChange)
         self.selectImg = Image_select;
     end
 
-    local ishave = HeroDataMgr:getIsHave(heroid);
     for i=1,HeroDataMgr:getShowOneCount(idx) do
         --selectPoints[i]:setVisible(true);
         --减少精灵数量，暂时隐藏
@@ -516,26 +604,22 @@ function FormationLayer:updateOneHead(cell,idx,isChange)
         Label_jiyong:setTextById(100000039)
     end
 
-    local panel_element = cell.panel_element
-    PrefabDataMgr:setInfo(panel_element , hero.magicAttribute)
-end
-
-function FormationLayer.numberOfCellsInTableView(table)
-    local self = table.logic
-    return HeroDataMgr:getShowCount();
-end
-
-function FormationLayer.cellBegin(table)
-    local self = table.logic
-end
-
-function FormationLayer.cellEnd(table)
-    local self = table.logic
-end
-
-function FormationLayer.cellSizeForTable(table,idx)
-    self = table.logic
-    return self.panel_item:getSize().height,self.panel_item:getSize().width
+    -- local panel_element = cell.panel_element
+    -- PrefabDataMgr:setInfo(panel_element , hero.magicAttribute)
+    ---海王星
+    Image_skyladder:setVisible(self.isHwx)
+    if self.isHwx then
+        Image_skyladder:setTexture("ui/hwx/fight/008.png")
+        local heroFightCnt = LinkageHwxDataMgr:getHeroFightCnt(heroid)
+        local heroBuyCnt = LinkageHwxDataMgr:getHeroBuyCnt(heroid)
+        local maxFightCnt = LinkageHwxDataMgr:getInitFightCnt() + heroBuyCnt
+        local remainCnt = math.max(maxFightCnt - heroFightCnt,0)
+        local Label_ladder_cnt = TFDirector:getChildByPath(Image_skyladder, "Label_ladder_cnt")
+        Label_ladder_cnt:setText(remainCnt)
+        Image_jinyong:setVisible(remainCnt == 0)
+        local Label_jiyong = TFDirector:getChildByPath(Image_jinyong, "Label_jiyong")
+        Label_jiyong:setTextById(100000039)
+    end
 end
 
 function FormationLayer:onHide()
@@ -559,6 +643,152 @@ function FormationLayer:onShow()
                  end,0)
 end
 
+function FormationLayer:checkCondition()
+
+    if self.isSkyLadder then
+        local isFit = self:fitSkyLadderFight()
+        if not isFit then
+            Utils:showTips(100000061)
+            return false
+        end
+    end
+
+    if self.isHwx then
+        local isFit = self:fitHwxHeroFightCnt()
+        if not isFit then
+            Utils:showTips(100000061)
+            return false
+        end
+    end
+
+    if self.isEndlessRacingMode_ then
+        local percent = FubenDataMgr:getEndlessHeroHpPercent(self.showid)
+        percent = math.floor(percent / 100)
+        if percent <= 0 then
+            Utils:showTips(14300322)
+            return false
+        end
+    end
+
+    return true
+end
+
+function FormationLayer:changeFormationNormal()
+    if HeroDataMgr:getIsFormationOn(self.pos) and HeroDataMgr:getHeroIdByFormationPos(self.pos) ~= self.showid then
+        if not self.changeToServer then
+            local oldID = HeroDataMgr:getHeroIdByFormationPos(self.pos);
+            HeroDataMgr:setFormationHero(self.pos,self.showid,oldID,self.limitSimulationTrial);
+            EventMgr:dispatchEvent(EV_FORMATION_CHANGE,self.showid,oldID);
+        else
+            local pass = self:checkCondition()
+            if not pass then
+                return
+            end
+            HeroDataMgr:heroOnBattle(HeroDataMgr:getHeroIdByFormationPos(self.pos),self.showid);
+        end
+    else
+        if not self.changeToServer then
+            HeroDataMgr:setFormationHero(self.pos,self.showid,nil,self.limitSimulationTrial)
+            EventMgr:dispatchEvent(EV_FORMATION_CHANGE,self.showid,nil);
+        else
+            ---编入，移除
+            if not HeroDataMgr:getIsFormationOn(self.pos) then
+                local pass = self:checkCondition()
+                if not pass then
+                    return
+                end
+            end
+            HeroDataMgr:heroOnBattle(self.showid);
+        end
+    end
+    self.Button_army:setTouchEnabled(false)
+    GameGuide:checkGuideEnd(self.guideFuncId)
+end
+
+function FormationLayer:changeFormationPreTeam()
+
+    local heroId = HeroDataMgr:getPreTeamHeroId(self.preTeamId,self.pos)
+    local teamPos = HeroDataMgr:getPreTeamPosByHeroId(self.preTeamId,tostring(self.showid))
+    if teamPos == -1 then
+        ---更换
+        if heroId then
+            local pass = self:checkCondition()
+            if not pass then
+                return
+            end
+            HeroDataMgr:Send_ChangePreTeam(self.preTeamId,heroId,self.showid)
+        else
+            local pass = self:checkCondition()
+            if not pass then
+                return
+            end
+            ---编入队伍
+            HeroDataMgr:Send_ChangePreTeam(self.preTeamId,self.showid,"")
+        end
+    else
+        if heroId == tostring(self.showid) then
+            ---移除队伍
+            HeroDataMgr:Send_ChangePreTeam(self.preTeamId,heroId,"")
+        else
+            local selectRoleId = HeroDataMgr:getHeroRoleId(self.showid)
+            local roleId = HeroDataMgr:getHeroRoleId(tonumber(heroId))
+            if selectRoleId == roleId then
+                ---更换
+                local pass = self:checkCondition()
+                if not pass then
+                    return
+                end
+                HeroDataMgr:Send_ChangePreTeam(self.preTeamId,heroId,self.showid)
+            end
+        end
+    end
+    self.Button_army:setTouchEnabled(false)
+    GameGuide:checkGuideEnd(self.guideFuncId)
+end
+
+function FormationLayer:registerEvents()
+    EventMgr:addEventListener(self,EV_FORMATION_CHANGE,handler(self.onFormationChange, self));
+    EventMgr:addEventListener(self,EV_HERO_LEVEL_UP,handler(self.updateUI, self));
+    EventMgr:addEventListener(self,EV_UPDATE_BUY_FIGHTCNT,handler(self.updateUI, self));
+    EventMgr:addEventListener(self, EV_BAG_ITEM_UPDATE, handler(self.updateHwxCost, self))
+    EventMgr:addEventListener(self,EV_UPDATE_PRE_TEAM,handler(self.onFormationChange, self));
+
+    self.Button_army:onClick(function ()
+
+        if not self.preTeamId then
+            self:changeFormationNormal()
+        else
+            self:changeFormationPreTeam()
+        end
+    end)
+
+    self.Button_info:onClick(function()
+        --AlertManager:changeScene(SceneType.MainScene);
+        if self.isSkyLadder then
+            HeroDataMgr.showid = self.showid;
+            Utils:openView("fairyNew.FairyDetailsLayer", {showid= self.showid, friend=false, gotoWhichTab = 3,skyladder = true})
+        else
+            local layer = Utils:openView("fairyNew.FairyDetailsLayer",{showid=self.showid, friend=false})
+            layer:onTouchFairy()
+        end
+    end)
+
+    self.Button_cancel:onClick(function ()
+        AlertManager:close();
+    end)
+
+    self.Button_change:onClick(function()
+        if not self.isHwx then
+            return
+        end
+        LinkageHwxDataMgr:Send_buyFightTimes(self.showid)
+    end)
+
+    self.Button_sort_order:onClick(function()
+        local visible = self.ListView_rule:s():isVisible()
+        self.ListView_rule:s():setVisible(not visible)
+    end)
+end
 
 ---------------------------guide------------------------------
 

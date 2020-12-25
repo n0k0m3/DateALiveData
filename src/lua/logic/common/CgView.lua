@@ -56,7 +56,8 @@ function CgView:initSkipBtn()
         return
     end
     self.skipBtn = TFImage:create("ui/dating/skipVideo.png")
-    self.skipBtn:Pos(self.Panel_base:Size().width/2 + GameConfig.WS.width/2 - 80,30)
+    self.skipBtn:setAnchorPoint(ccp(1 , 0.5))
+    self.skipBtn:Pos(self.Panel_base:Size().width/2 + GameConfig.WS.width/2,30)
     self:addChild(self.skipBtn, 100)
     self.skipBtn:Touchable(true)
     self.skipBtn:onClick(function()
@@ -80,6 +81,9 @@ function CgView:playEffect()
             end
         end
 
+    if self.cgAnimation then
+        self.cgAnimation:free()
+    end
     self.cgAnimation = require("lua.logic.common.CgAnimation"):new(self.Panel_base,self.Image_bg,self.id)
     self.cgAnimation:start(callBack)
 end

@@ -45,6 +45,9 @@ function RechargeDataMgr:init()
 	TFDirector:addProto(s2c.RECHARGE_RESP_WEEK_CARD_INFO, self, self.onRecvWeekCardInfo)
 	TFDirector:addProto(s2c.RECHARGE_RESP_GET_WEEK_AWARD, self, self.onRecvWeekSignAward)
 
+	TFDirector:addProto(s2c.RECHARGE_RESP_WEEK_CARD_INFO, self, self.onRecvWeekCardInfo)
+	TFDirector:addProto(s2c.RECHARGE_RESP_GET_WEEK_AWARD, self, self.onRecvWeekSignAward)
+
 	TFDirector:addProto(s2c.RECHARGE_PUSH_CHANGE_RECHARGE_CFG, self, self.recvGoodsList)
 
 	--s2c.RECHARGE_BUY_MONTH_CARD_INFO
@@ -151,7 +154,7 @@ function RechargeDataMgr:getOrderNO(goodsid, extraInfo)
 			else
 				Utils:openView("store.TokenPopView",goodsid);
 			end
-		elseif goods.item and #goods.item > 0  and tonumber(goodsid) ~=  910004 then
+		elseif false then
 			Utils:openView("store.BuyConfirmView2", goodsid)
 		else
 			Utils:openView("common.ConfirmBoxViewSmall", goodsid, extraInfo)
@@ -216,7 +219,9 @@ function RechargeDataMgr:getMonthCardList()
     local ret = {}
     for k,v in pairs(self.goodsList.monthCardCfg) do
     	--if v.type ~= 7 or (me.platform == "ios") or me.platform == "win32" or (me.platform == "android" and HeitaoSdk and ((HeitaoSdk.getplatformId()~=3 and HeitaoSdk.getplatformId() ~= 1) or  (HeitaoSdk.getplatformId() == 1 and tonumber(TFDeviceInfo:getCurAppVersion()) == 1.13)))then
-		if v.type ~= 7 then
+		-- 开启月卡续订
+		--if v.type ~= 7 then
+		if true then
 		    table.insert(ret,v)
         end
     end
@@ -225,7 +230,7 @@ end
 
 function RechargeDataMgr:getSubscribeMonthCardCfg( ... )
 	for k,v in pairs(self.goodsList.monthCardCfg) do
-        if v.type == 7 then
+        if v.type == 7 then			--ios月卡配置
         	return v
         end
     end
@@ -284,58 +289,8 @@ function RechargeDataMgr:getGiftData(giftIds)
 			end
 		end
 	end
-	
-	-- table.sort(list,function (a,b)
 
-	-- 	local buyCnt1 = a.buyCount - self:getBuyCount(a.rechargeCfg.id)
-	-- 	local buyCnt2 = b.buyCount - self:getBuyCount(b.rechargeCfg.id)
-
-	-- 	if buyCnt1 == buyCnt2 then
-
-	-- 		local orderId1 = a.order;--self:getGiftBagOrderId(a.rechargeCfg.id)
-	-- 		local orderId2 = b.order;--self:getGiftBagOrderId(b.rechargeCfg.id)
-
-	-- 		return orderId1 < orderId2
-	-- 	else
-	-- 		return buyCnt1 > buyCnt2
-	-- 	end
-	-- end)
-
-	local tab1 = {}
-	local tab2 = {}
-	for k,v in pairs(list) do
-		local left = v.buyCount - self:getBuyCount(v.rechargeCfg.id)
-		if left > 0 then
-			table.insert(tab1,v)
-		else
-			table.insert(tab2,v)
-		end
-	end
-
-	table.sort(tab1,function (a,b)
-
-		local buyCnt1 = a.buyCount - self:getBuyCount(a.rechargeCfg.id)
-		local buyCnt2 = b.buyCount - self:getBuyCount(b.rechargeCfg.id)
-
-		local orderId1 = a.rechargeCfg.id;--self:getGiftBagOrderId(a.rechargeCfg.id)
-		local orderId2 = b.rechargeCfg.id;--self:getGiftBagOrderId(b.rechargeCfg.id)
-		return orderId1 > orderId2
-	end)
-
-	table.sort(tab2,function (a,b)
-		
-		local buyCnt1 = a.buyCount - self:getBuyCount(a.rechargeCfg.id)
-		local buyCnt2 = b.buyCount - self:getBuyCount(b.rechargeCfg.id)
-		local orderId1 = a.rechargeCfg.id;--self:getGiftBagOrderId(a.rechargeCfg.id)
-		local orderId2 = b.rechargeCfg.id;--self:getGiftBagOrderId(b.rechargeCfg.id)
-		return orderId1 > orderId2
-	end)
-
-	for k,v in pairs(tab2) do
-		tab1[#tab1 + 1] = v
-	end
-
-	list = tab1;
+	list = self:sortGiftList(list)
 	return list;
 end
 
@@ -353,41 +308,7 @@ function RechargeDataMgr:getLimitGiftData()
 		end
 	end
 
-	local tab1 = {}
-	local tab2 = {}
-	for k,v in pairs(list) do
-		local left = v.buyCount - self:getBuyCount(v.rechargeCfg.id)
-		if left > 0 then
-			table.insert(tab1,v)
-		else
-			table.insert(tab2,v)
-		end
-	end
-
-	table.sort(tab1,function (a,b)
-
-		local buyCnt1 = a.buyCount - self:getBuyCount(a.rechargeCfg.id)
-		local buyCnt2 = b.buyCount - self:getBuyCount(b.rechargeCfg.id)
-
-		local orderId1 = a.rechargeCfg.id;--self:getGiftBagOrderId(a.rechargeCfg.id)
-		local orderId2 = b.rechargeCfg.id;--self:getGiftBagOrderId(b.rechargeCfg.id)
-		return orderId1 > orderId2
-	end)
-
-	table.sort(tab2,function (a,b)
-		
-		local buyCnt1 = a.buyCount - self:getBuyCount(a.rechargeCfg.id)
-		local buyCnt2 = b.buyCount - self:getBuyCount(b.rechargeCfg.id)
-		local orderId1 = a.rechargeCfg.id;--self:getGiftBagOrderId(a.rechargeCfg.id)
-		local orderId2 = b.rechargeCfg.id;--self:getGiftBagOrderId(b.rechargeCfg.id)
-		return orderId1 > orderId2
-	end)
-
-	for k,v in pairs(tab2) do
-		tab1[#tab1 + 1] = v
-	end
-
-	list = tab1
+	list = self:sortGiftList(list)
 	return list
 end
 
@@ -458,41 +379,7 @@ function RechargeDataMgr:getNewBirdGiftData()
 		end
 	end
 
-	local tab1 = {}
-	local tab2 = {}
-	for k,v in pairs(list) do
-		local left = v.buyCount - self:getBuyCount(v.rechargeCfg.id)
-		if left > 0 then
-			table.insert(tab1,v)
-		else
-			table.insert(tab2,v)
-		end
-	end
-
-	table.sort(tab1,function (a,b)
-
-		local buyCnt1 = a.buyCount - self:getBuyCount(a.rechargeCfg.id)
-		local buyCnt2 = b.buyCount - self:getBuyCount(b.rechargeCfg.id)
-
-		local orderId1 = a.rechargeCfg.id;--self:getGiftBagOrderId(a.rechargeCfg.id)
-		local orderId2 = b.rechargeCfg.id;--self:getGiftBagOrderId(b.rechargeCfg.id)
-		return orderId1 > orderId2
-	end)
-
-	table.sort(tab2,function (a,b)
-		
-		local buyCnt1 = a.buyCount - self:getBuyCount(a.rechargeCfg.id)
-		local buyCnt2 = b.buyCount - self:getBuyCount(b.rechargeCfg.id)
-		local orderId1 = a.rechargeCfg.id;--self:getGiftBagOrderId(a.rechargeCfg.id)
-		local orderId2 = b.rechargeCfg.id;--self:getGiftBagOrderId(b.rechargeCfg.id)
-		return orderId1 > orderId2
-	end)
-
-	for k,v in pairs(tab2) do
-		tab1[#tab1 + 1] = v
-	end
-
-	list = tab1
+	list = self:sortGiftList(list)
 	return list
 end
 
@@ -506,7 +393,13 @@ function RechargeDataMgr:getWarOrderGiftData()
 			table.insert(list,v)
 		end
 	end
+	list = self:sortGiftList(list)
+	
+	return list
+end
 
+function RechargeDataMgr:sortGiftList(list)
+	list = list or {}
 	local tab1 = {}
 	local tab2 = {}
 	for k,v in pairs(list) do
@@ -534,8 +427,7 @@ function RechargeDataMgr:getWarOrderGiftData()
 		tab1[#tab1 + 1] = v
 	end
 
-	list = tab1
-	return list
+	return tab1
 end
 
 function RechargeDataMgr:recvGoodsList(event)
@@ -1453,6 +1345,81 @@ function RechargeDataMgr:getTokenMoneyData()
 	end
 
 	return list;
+end
+
+--2周年
+function RechargeDataMgr:getAnniversary2yearData()
+	local list = {};
+	if not self.goodsList or not self.goodsList.rechargeGiftBagCfg then
+		return
+	end
+	for k,v in pairs(self.goodsList.rechargeGiftBagCfg) do
+		if v.interfaceType == 15 then
+			table.insert(list,v);
+		end
+	end
+
+	list = self:sortGiftList(list)
+	return list;
+end
+
+--根据面板类型获取对应的礼包列表
+function RechargeDataMgr:getGiftListByType(interfaceType)
+	local list = {}
+	if not self.goodsList or not self.goodsList.rechargeGiftBagCfg then
+		return
+	end
+	for k,v in pairs(self.goodsList.rechargeGiftBagCfg) do
+		if v.interfaceType == interfaceType then
+			table.insert(list, v)
+		end
+	end
+
+	list = self:sortGiftList(list)
+	return list
+end
+
+--根据面板类型获取剩余可购买礼包的数量
+function RechargeDataMgr:getLeftGiftCnt(interfaceType)
+	local leftCnt = 0
+	if not self.goodsList or not self.goodsList.rechargeGiftBagCfg then
+		return leftCnt
+	end
+	local serverTime = ServerDataMgr:getServerTime()
+	for k, v in pairs(self.goodsList.rechargeGiftBagCfg) do
+		local left = v.buyCount - self:getBuyCount(v.rechargeCfg.id)
+		--v.buyCount等于0不限购
+		if v.interfaceType == interfaceType and (v.buyCount == 0 or left > 0) then
+			if v.startDate and v.endDate then
+	            if serverTime >= v.startDate and serverTime < v.endDate then
+	               leftCnt = leftCnt + 1
+	            end
+	        else
+	            leftCnt = leftCnt + 1
+	        end
+		end
+	end
+	return leftCnt
+end
+
+--判断特殊礼包是否可以购买
+function RechargeDataMgr:checkSpecialGiftId(id)
+	if not self.goodsList or not self.goodsList.rechargeGiftBagCfg then
+		return false
+	end
+	local serverTime = ServerDataMgr:getServerTime()
+	for k, v in pairs(self.goodsList.rechargeGiftBagCfg) do
+		local left = v.buyCount - self:getBuyCount(v.rechargeCfg.id)
+		--v.buyCount等于0不限购
+		if v.rechargeCfg.id == id and (v.buyCount == 0 or left > 0) then
+			if v.startDate and v.endDate then
+	            if serverTime >= v.startDate and serverTime < v.endDate then
+	               return true
+	            end
+	        end
+		end
+	end
+	return false
 end
 
 function RechargeDataMgr:RECHARGE_REQ_CHARGE_EXCHANGE(rechargeId,discountId,redPackId,bless,buyCount)

@@ -2425,10 +2425,3 @@ EC_SWITCH_TYPE = {
     EXCHANGE_INVITE = 1,    --是否接受气球交易开关
 	TEAM_PRIVACY = 2,		--玩家的阵容隐私开关
 }
-
---语言类型设置
-EC_LanguageType = 
-{
-    Chinese = "",
-    English = "_en",
-}

@@ -23,6 +23,8 @@ function AngelTabLayer:initUI(ui)
 	self.ListView_tab 			= UIListView:create(ScrollView_tab)
     self.ListView_tab:setItemsMargin(7)
 
+    self.TextField_name     = TFDirector:getChildByPath(ui, "TextField_name")
+
     self.Button_close = TFDirector:getChildByPath(ui, "Button_close")
 
 	self:initAllTabs()
@@ -56,6 +58,20 @@ function AngelTabLayer:registerEvents()
     self.Button_close:onClick(function()
         AlertManager:close()
     end)
+
+    local function onTextFieldChangedHandleAcc(input)
+        self.inputLayer:listener(input:getText())
+    end
+
+    local function onTextFieldAttachAcc(input)
+        self.inputLayer:show()
+        self.inputLayer:listener(input:getText())
+        -- EventMgr:dispatchEvent(PlayerInfoConfig.EV_INPUT)
+    end
+
+    self.TextField_name:addMEListener(TFTEXTFIELD_DETACH, onTextFieldChangedHandleAcc)
+    self.TextField_name:addMEListener(TFTEXTFIELD_ATTACH, onTextFieldAttachAcc)
+    self.TextField_name:addMEListener(TFTEXTFIELD_TEXTCHANGE, onTextFieldChangedHandleAcc)
 end
 
 function AngelTabLayer:initAllTabs()
@@ -118,25 +134,9 @@ function AngelTabLayer:initOneTabItem(item, data, idx)
 	local Label_level = TFDirector:getChildByPath(item, "Label_level")
 	Label_level:setString(totalLevel)
 
-    local function onTextFieldChangedHandleAcc(input)
-        self.inputLayer:listener(input:getText())
-    end
-
-    local function onTextFieldAttachAcc(input)
-        self.inputLayer:show()
-        self.inputLayer:listener(input:getText())
-        -- EventMgr:dispatchEvent(PlayerInfoConfig.EV_INPUT)
-    end
-
-    local TextField_name     = TFDirector:getChildByPath(item, "TextField_name")
-    TextField_name:addMEListener(TFTEXTFIELD_DETACH, onTextFieldChangedHandleAcc)
-    TextField_name:addMEListener(TFTEXTFIELD_ATTACH, onTextFieldAttachAcc)
-    TextField_name:addMEListener(TFTEXTFIELD_TEXTCHANGE, onTextFieldChangedHandleAcc)
-
     local Button_change_name = TFDirector:getChildByPath(item, "Button_change_name")
     Button_change_name:onClick(function()
-        TextField_name:openIME()
-        self.currTextField = TextField_name
+        self.TextField_name:openIME()
         self.tabId = data.id
     end)
 
@@ -167,12 +167,12 @@ end
 
 function AngelTabLayer:onTouchSendBtn()
     print("onTouchSendBtn")
-    local content = self.currTextField:getText()
+    local content = self.TextField_name:getText()
     if content and #content > 0 then
         if not AngelDataMgr:doReqModifyStrategyName(self.heroId,self.tabId,content) then
             Utils:showTips(200006)
         end
-        self.currTextField:setText("")
+        self.TextField_name:setText("")
     else
         Utils:showTips(450031)
     end
@@ -180,8 +180,8 @@ end
 
 function AngelTabLayer:onCloseInputLayer()
     -- EventMgr:dispatchEvent(PlayerInfoConfig.EV_OUTPUT)
-    self.currTextField:closeIME()
-    self.currTextField:setText("")
+    self.TextField_name:closeIME()
+    self.TextField_name:setText("")
 end
 
 function AngelTabLayer:onChangeTabName(data)

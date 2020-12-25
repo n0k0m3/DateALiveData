@@ -327,7 +327,7 @@ end
 
 function SummonActivityView:updateSummonCnt()
     self.label_get_num:hide()
-    if self.activityInfo and self.activityInfo.extendData then
+    if self.activityInfo and self.activityInfo.extendData and self.activityInfo.extendData.dis == 1 then
         local summonTab = self.activityInfo.extendData.summon
         local totalCnt = 0
         for k, v in ipairs(summonTab or {}) do

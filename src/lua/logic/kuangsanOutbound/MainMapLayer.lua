@@ -262,7 +262,6 @@ function MainMapLayer:updateStagePanel3()
 		local score = TFDirector:getChildByPath(item,"score")
 		local Image_rank = TFDirector:getChildByPath(item,"Image_rank")
 		local icon = TFDirector:getChildByPath(item,"icon")
-		--todo 数据填充
 		icon:setTexture("ui/activity/kuangsan_fuben/main/camppoint.png")
 		Image_head:setTexture("ui/activity/kuangsan_fuben/main/boss_smallHead_"..v.camp..".png")
 		score:setText(v.score)
@@ -274,7 +273,6 @@ function MainMapLayer:updateStagePanel3()
 		scrollView_rankList.uiList:pushBackCustomItem(item)
 	end
 end
-
 function MainMapLayer:updateResourcePanel()
 	local showResourceIds = self.activityInfo.extendData.resource or {}
 	for k,v in ipairs(self.resource) do

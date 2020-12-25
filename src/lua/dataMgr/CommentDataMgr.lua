@@ -18,12 +18,12 @@ end
 
 function CommentDataMgr:sendReqAllComments(msg)
 	dump(msg)
+	self.comments = {}
     TFDirector:send(c2s.COMMENT_REQ_COMMENT, msg)
 end
 
 function CommentDataMgr:recvCommentList(event)
 	self.comments = event.data
-	print("commentData ==========================",data)
 	EventMgr:dispatchEvent(EV_COMMENT_GETCOMMENT, self.comments)
 	
 end

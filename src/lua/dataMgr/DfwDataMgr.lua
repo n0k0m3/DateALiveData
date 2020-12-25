@@ -7,6 +7,9 @@ function DfwDataMgr:init()
     TFDirector:addProto(s2c.SACRIFICE_RESP_LUCKY_WHEEL, self, self.onRecvLuckyWheelInfo)
     TFDirector:addProto(s2c.SACRIFICE_RESPGET_AWARD_SACRIFICE, self, self.onRecvRollDice)
     TFDirector:addProto(s2c.SACRIFICE_RESP_ADD_BUFF, self, self.onRecvAddBuff)
+    TFDirector:addProto(s2c.SACRIFICE_CELL_EVENT, self, self.onRecvSpacialCellEvent)
+    TFDirector:addProto(s2c.SACRIFICE_CHANG_CELL_INFO, self, self.onRecvSpacialCellChange)
+    TFDirector:addProto(s2c.SACRIFICE_RECORD_BUFF_LIST, self, self.onRecvUsedBuffId)
 
     -- 新大富翁协议(英文活动)
     TFDirector:addProto(s2c.ZILLIONAIRE_RSP_THROW_DICE, self, self.onRecvThrowDice)
@@ -158,17 +161,20 @@ function DfwDataMgr:send_SACRIFICE_REQGET_AWARD_SACRIFICE(itemId, step)
     TFDirector:send(c2s.SACRIFICE_REQGET_AWARD_SACRIFICE, {itemId, step})
 end
 
-function DfwDataMgr:send_SACRIFICE_REQ_ADD_BUFF(itemId)
-    TFDirector:send(c2s.SACRIFICE_REQ_ADD_BUFF, {itemId})
+function DfwDataMgr:send_SACRIFICE_REQ_ADD_BUFF(itemId, param)
+    TFDirector:send(c2s.SACRIFICE_REQ_ADD_BUFF, {itemId,param})
 end
 
 function DfwDataMgr:__turnInfoHandle()
     if self.turnInfo_ and self.turnInfo_.turnTimes then
         local turnTimes = {}
+        local turnEffects = {}
         for i, v in ipairs(self.turnInfo_.turnTimes) do
             turnTimes[v.turnId] = v.times or 0
+            turnEffects[v.turnId] = v.effectId
         end
         self.turnInfo_.turnTimes = turnTimes
+        self.turnInfo_.turnEffects = turnEffects
     end
 end
 
@@ -187,7 +193,7 @@ function DfwDataMgr:onRecvLuckyWheelInfo(event)
     local data = event.data
     self.turnInfo_ = data.turnInfo
     self:__turnInfoHandle()
-    EventMgr:dispatchEvent(EV_DFW_LUCKY_WHEEL, data.turnInfo, data.rewards)
+    EventMgr:dispatchEvent(EV_DFW_LUCKY_WHEEL, data, data.rewards)
 end
 
 function DfwDataMgr:onRecvRollDice(event)
@@ -282,6 +288,37 @@ function DfwDataMgr:send_ZILLIONAIRE_REQ_REFRESH_TASK()
 end
 function DfwDataMgr:onRecvRefreshTask(event)
     print("DfwDataMgr:onRecvRefreshTask---------------")
+end
+
+function DfwDataMgr:setUseItemStatus( specialItemId )
+    -- body
+    if not self.specialItemId or  not specialItemId then
+        self.specialItemId = specialItemId
+        EventMgr:dispatchEvent(EV_DFW_USE_SPECIAL_ITEM)
+    end
+end
+
+function DfwDataMgr:getUseItemStatus(  )
+    -- body
+    return self.specialItemId 
+end
+
+function DfwDataMgr:onRecvSpacialCellEvent(event)
+    -- body
+    local data = event.data
+    self.cellInfo_.event = data
+end
+
+function DfwDataMgr:onRecvSpacialCellChange(event)
+    -- body
+    local data = event.data
+    self.cellInfo_.cellIds[data.location + self.cellInfo_.location] = data.chessesId
+    EventMgr:dispatchEvent(EV_DFW_USE_SPECIAL_ITEM)
+end
+
+function DfwDataMgr:onRecvUsedBuffId(event)
+    local data = event.data
+    self.cellInfo_.list = buffId
 end
 
 return DfwDataMgr:new()

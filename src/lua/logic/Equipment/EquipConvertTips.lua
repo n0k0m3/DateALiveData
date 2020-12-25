@@ -12,7 +12,7 @@ function EquipConvertTips:ctor(data)
     self.isCallback = false;
     self:showPopAnim(true)
     self:init("lua.uiconfig.Equip.EquipConvertTips")
-    if EquipmentDataMgr:getEquipLv(self.showId) > 1 then
+    if EquipmentDataMgr:getEquipStarLevel(self.showId) < 1  and  EquipmentDataMgr:getEquipLv(self.showId) > 1 then
         EquipmentDataMgr:getEquipRecycleItems(self.showId)
     end
     --EventMgr:addEventListener(self,EV_EQUIPMENT_OPERATION,handler(self.updateUI, self));
@@ -28,7 +28,7 @@ function EquipConvertTips:initUI(ui)
     self.Button_cancel = TFDirector:getChildByPath(ui,"Button_cancel")
     self.Label_returnTips = TFDirector:getChildByPath(ui,"Label_returnTips")
     self.Label_change = TFDirector:getChildByPath(ui,"Label_change")
-    self.Label_returnTips:setVisible(EquipmentDataMgr:getEquipLv(self.showId) > 1)
+    self.Label_returnTips:setVisible(EquipmentDataMgr:getEquipLv(self.showId) > 1 and EquipmentDataMgr:getEquipStarLevel(self.showId) < 1 )
 
     -- self.RichText_item1 = TFDirector:getChildByPath(ui,"Label_tips1");
     -- self.RichText_item2 = TFDirector:getChildByPath(ui,"Label_tips2");
@@ -165,7 +165,7 @@ function EquipConvertTips:onGetRecycleItems(data)
             PrefabDataMgr:setInfo(Panel_goodsItem, v.id, v.num)
             self.GridView_reward:pushBackCustomItem(Panel_goodsItem)
         end
-    else
+    elseif EquipmentDataMgr:getEquipStarLevel(self.showId) < 1 then
         local star = EquipmentDataMgr:getEquiGrowthpStar(self.showId)
         local lv     = EquipmentDataMgr:getEquipLv(self.showId)
         local totalExpCur = EquipmentDataMgr:getEquipCurExp(self.showId)
@@ -222,6 +222,8 @@ function EquipConvertTips:onGetRecycleItems(data)
             PrefabDataMgr:setInfo(Panel_goodsItem, 500001, goldNum)
             self.GridView_reward:pushBackCustomItem(Panel_goodsItem)
         end
+    else
+        self.Label_change:setTextById(492003)
     end
 end
 

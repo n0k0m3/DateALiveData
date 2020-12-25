@@ -47,17 +47,8 @@ function PushGiftView:initUI(ui)
 	self.discountPrice = TFDirector:getChildByPath(ui,"discountPrice")
     self.btn_pay = TFDirector:getChildByPath(ui,"btn_pay")
 	self.nodeGift = TFDirector:getChildByPath(ui,"gifts")
-
-	--屏蔽折扣背景图
-	local img_off_bg = TFDirector:getChildByPath(ui , "imageDiscountTag")
-	if img_off_bg then
-		img_off_bg:hide()
-	end
-	--屏蔽折扣背景图
-	local img_off_bg2 = TFDirector:getChildByPath(ui , "ImageDiscountTag")
-	if img_off_bg2 then
-		img_off_bg2:hide()
-	end
+	self.ImgCost = TFDirector:getChildByPath(ui,"ImgCost")
+	self.imageDiscountTag = TFDirector:getChildByPath(ui,"imageDiscountTag")
 
     self:refresView()
 
@@ -93,11 +84,32 @@ end
 function PushGiftView:refresView()
     self.giftName:setText(self.data["name"])
 	self.DesLabel:setText(self.extendData["showText"])
-	self.originPrice:setTextById(1325320 , self.data["originalPrice"])
-	self.discountTag:setTextById(277004, self.data["discount"])
-	self.originPrice:hide()
-	self.discountTag:hide()
-	self.discountPrice:setTextById(1325320 ,string.format("%.2f" , self.data.rechargeCfg.price / 100))
+	self.discountPrice.x = self.discountPrice:getPositionX()
+	if self.data.buyType == 1 then
+		self.ImgCost:show()
+		self.originPrice:hide()
+		if self.imageDiscountTag then
+			self.imageDiscountTag:hide()
+		end
+		self.discountTag:hide()
+
+		local cfg = GoodsDataMgr:getItemCfg(self.data["exchangeCost"][1]["id"])
+		self.ImgCost:setTexture(cfg.icon)		
+		self.discountPrice:setText(self.data["exchangeCost"][1]["num"])
+	else
+		self.ImgCost:hide()
+		self.originPrice:show()
+		if self.imageDiscountTag then
+			self.imageDiscountTag:show()
+		end
+		self.discountTag:show()
+		self.originPrice:setText("$"..self.data["originalPrice"])
+		self.discountTag:setTextById(277004, self.data["discount"])
+		self.discountPrice:setText("$ ".. self.data["rechargeCfg"]["price"])
+		self.discountPrice:setPositionX(self.discountPrice.x - 20)
+	end
+
+
 	self:refreshTime()
 
 

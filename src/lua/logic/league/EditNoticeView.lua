@@ -25,7 +25,7 @@ function EditNoticeView:initUI(ui)
     local notice = LeagueDataMgr:getUnionNotice()
     local list = string.UTF8ToCharArray(notice)
     self.allStrNum = 100
-    if GAME_LANGUAGE_VAR == "" then
+    if (TFLanguageMgr:getUsingLanguage() == cc.SIMPLIFIED_CHINESE) or (TFLanguageMgr:getUsingLanguage() == cc.TRADITIONAL_CHINESE) then
          self.allStrNum = 100
     else
          self.allStrNum = 200

@@ -16,6 +16,7 @@ function TextDataMgr:init()
     self:cacheFontFace()
     self.rstrTab_ = TabDataMgr:getData("RString")
     self.strTab_ = TabDataMgr:getData("String")
+    self.strStartTab_ = TabDataMgr:getData("StartString")
 end
 
 function TextDataMgr:getText(id, ...)
@@ -65,6 +66,9 @@ function TextDataMgr:getTextAttr(id)
         return self.rstrTab_[id] or {text = "no rstring id :"..(id or "nil")}
     else
         id = tonumber(id)
+        if self.strStartTab_[id] then
+            return self.strStartTab_[id]
+        end
         return self.strTab_[id] or {text = "no rstring id :"..(id or "nil")}
     end
 end
@@ -182,6 +186,9 @@ function TextDataMgr:getTextAttrCanNil(id)
         return self.rstrTab_[id] 
     else
         id = tonumber(id)
+        if self.strStartTab_[id] then
+            return self.strStartTab_[id]
+        end
         return self.strTab_[id]
     end
 end

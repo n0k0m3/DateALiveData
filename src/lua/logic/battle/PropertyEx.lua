@@ -279,6 +279,11 @@ function PropertyEx:fixAttr(attrType)
         value    = math.min(value,maxValue)
         self.dynaPro:setValue(eAttrType.ATTR_MAX_DESPAIR,maxValue)
         self.dynaPro:setValue(eAttrType.ATTR_DESPAIR,value)
+    elseif attrType == eAttrType.ATTR_2105 then --取值范围[0-5]
+        local value = self.dynaPro:getValue(attrType)
+        value = math.max(0,value)
+        value = math.min(value,5)
+        self.dynaPro:setValue(attrType,value)
     end
 end
 

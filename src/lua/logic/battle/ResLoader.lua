@@ -9,6 +9,7 @@ local _print = print
 local print = BattleUtils.print
 _print = print
 local ResLoader = {}
+ResLoader.cacheSpine = {}
 local eLoadType =
 {
     LT_SYNC  = 1 , --同步加载
@@ -211,8 +212,10 @@ function ResLoader.createResList(data)
         -- table.insert(resList,createResInfo(eResType.RT_SOUND,soundName))
     -- end
     --战斗主场景资源
-    local battleView = require("lua.uiconfig.battle.battleView")
-    local ctrlView   = require("lua.uiconfig.battle.ctrlView")
+    
+
+    local battleView = require(TFGlobalUtils:loadUIConfigFilePath("lua.uiconfig.battle.battleView"))
+    local ctrlView   = require(TFGlobalUtils:loadUIConfigFilePath("lua.uiconfig.battle.ctrlView"))
     for k , texture in pairs(battleView.respaths.textures) do
         table.insert(resList,createResInfo(eResType.RT_IMAGE,texture))
     end
@@ -394,8 +397,8 @@ function ResLoader.createResListWidthFlight(data)
     -- table.insert(resList,createResInfo(eResType.RT_SOUND,soundName))
     -- end
     --战斗主场景资源
-    local battleView = require("lua.uiconfig.battle.battleView")
-    local ctrlView   = require("lua.uiconfig.battle.flightCtrlView")
+    local battleView = require(TFGlobalUtils:loadUIConfigFilePath("lua.uiconfig.battle.battleView"))
+    local ctrlView   = require(TFGlobalUtils:loadUIConfigFilePath("lua.uiconfig.battle.flightCtrlView"))
     for k , texture in pairs(battleView.respaths.textures) do
         table.insert(resList,createResInfo(eResType.RT_IMAGE,texture))
     end

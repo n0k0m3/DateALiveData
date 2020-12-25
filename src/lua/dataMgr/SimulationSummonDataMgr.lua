@@ -50,7 +50,7 @@ end
 function SimulationSummonDataMgr:onRecvSimulationSummonInfo(event)
 	--dump(event)
 	print("----------------------------------------------------onRecvSimulationSummonInfo")
-	dump(event)
+	dump(event.data)
 	self.simulationSummonInfos_ = {}
 	if nil ~= event.data.simulateSummons then
 		for i, v in ipairs(event.data.simulateSummons) do
@@ -75,7 +75,9 @@ function SimulationSummonDataMgr:onRecvSimulationSummonInfo(event)
 		--	end)
 		--	
 		--else	
-			Utils:openView("summon.SimulationSummonView",event.data)
+			--TODO暂时屏蔽模拟召唤  2020 11 23
+			Utils:showTips(TextDataMgr:getText(2100109))
+			--Utils:openView("summon.SimulationSummonView",event.data)
 		--end
 	end
 end

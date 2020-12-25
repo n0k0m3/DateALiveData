@@ -323,6 +323,18 @@ function ScriptEvtNode:doPlayTarAnimEvt(cfg)
 end
 
 function ScriptEvtNode:doPlayStoryEvt(cfg)
+	local levelCfg = BattleDataMgr:getLevelCfg()
+	if levelCfg.isPlayOncePlot then
+		local tag   = "IsHadPlayPlotInFight"..MainPlayer:getPlayerId()..levelCfg.id..cfg.groupID
+		local _bool = (Utils:getLocalSettingValue(tag) ~= "")
+		if _bool then
+			self:onComplete()
+			return
+		else
+			Utils:setLocalSettingValue(tag, "true")
+		end
+	end
+
 	local formation = {}
 	if self.battleCtrl.getBench then
 		local teamMembers = self.battleCtrl.getBench()

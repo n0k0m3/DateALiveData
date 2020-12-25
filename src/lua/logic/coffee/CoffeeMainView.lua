@@ -44,6 +44,24 @@ function CoffeeMainView:initUI(ui)
     self.Label_consume = TFDirector:getChildByPath(self.Label_consume_title, "Label_consume")
     self.Image_elf = TFDirector:getChildByPath(self.Panel_root, "Image_elf")
     self.Image_fetters = TFDirector:getChildByPath(self.Image_elf, "Image_fetters")
+
+    self.Button_alarm = TFDirector:getChildByPath(self.Panel_root, "Button_alarm")
+    self.Image_alarm_tips = TFDirector:getChildByPath(self.Panel_root, "Image_alarm_tips"):hide()
+    self.Image_roleChooseBg = TFDirector:getChildByPath(self.Panel_root, "Image_roleChooseBg")
+    self.Image_roleChooseBg:hide()
+    self.pannel_roleBtn = TFDirector:getChildByPath(self.Panel_prefab, "pannel_roleBtn")
+    local roleChooseView = TFDirector:getChildByPath(self.Image_roleChooseBg, "roleChooseView")
+    self.roleIconView = UIListView:create(roleChooseView)
+    self.roleIconView:setItemsMargin(10)
+
+    self.Image_logShow = TFDirector:getChildByPath(self.Panel_root, "Image_logShow")
+    self.Image_logShow:hide()
+    self.lab_logShow = TFDirector:getChildByPath(self.Image_logShow, "lab_logShow")
+
+    self.Image_roleBg = TFDirector:getChildByPath(self.Panel_root, "Image_roleBg")
+    self.lab_roleShow = TFDirector:getChildByPath(self.Image_roleBg, "lab_roleShow")
+    self.Image_roleBg:hide()
+
     self.Label_fetters = {}
     self.Label_noFetters = {}
     for i = 1, 2 do
@@ -87,16 +105,19 @@ function CoffeeMainView:refreshView()
     self.Label_consume_title:setTextById(13410007)
     self.Label_change:setTextById(13410010)
 
-    self:initLive2d()
+    self:refreshLive2d()
     self:addCountDownTimer()
     self:updateCoffeeInfo()
     self:updateElf()
     self:playAni()
+    self:refreshRoleIconView()
+    self:initTimer()
 end
 
 function CoffeeMainView:updateRedPointStatus()
     local isShow = CoffeeDataMgr:isShowRedPoint(1)
-    self.Image_achievement_tips:setVisible(isShow)
+    local isShow1 = CoffeeDataMgr:isGetAllLogReward()
+    self.Image_achievement_tips:setVisible(isShow or not isShow1)
     local isShow = CoffeeDataMgr:isShowRedPoint(2) or CoffeeDataMgr:isShowRedPoint(3)
     self.Image_story_tips:setVisible(isShow)
     local isFree = CoffeeDataMgr:isCanFreeRefresh()
@@ -143,13 +164,65 @@ function CoffeeMainView:playAni()
     self.Image_elf:runAction(action)
 end
 
-function CoffeeMainView:initLive2d()
-    local modelid = 410508
+function CoffeeMainView:refreshRoleIconView()
+    self.roleIconView:removeAllItems()
+    local data = CoffeeDataMgr:getKanBanConfig()
+    for i, v in ipairs(data) do
+        local pannel_roleBtn = self.pannel_roleBtn:clone()
+        pannel_roleBtn:show()
+        local icon_head = TFDirector:getChildByPath(pannel_roleBtn, "icon_head")
+        local imgSelect = TFDirector:getChildByPath(icon_head, "imgSelect")
+        local imgLock = TFDirector:getChildByPath(icon_head, "imgLock")
+        icon_head:setTexture(v.headPortrait)
+        icon_head:setSize(CCSizeMake(68,68))
+        imgLock:setVisible(CoffeeDataMgr:isKanBanLock(v.id))
+        imgSelect:setVisible(CoffeeDataMgr:getCurSelectId() == v.id)
+        self.roleIconView:pushBackCustomItem(pannel_roleBtn)
+        pannel_roleBtn:setTouchEnabled(true)
+        pannel_roleBtn:onClick(function()
+            if CoffeeDataMgr:getCurSelectId() == v.id then
+                return
+            end
+            if not CoffeeDataMgr:isKanBanLock(v.id) then
+                CoffeeDataMgr:send_MAID_ACTIVITY_REQ_CHANGE_ROLE_ID(v.id)
+            else
+                Utils:showTips(244274)
+            end
+        end)
+    end
+end
+
+function CoffeeMainView:initTimer()
+    if not self.logTimer then
+        self.logTimer = TFDirector:addTimer(5000, -1, nil, handler(self.refreshNewLog, self))
+    end
+
+    if not self.roleTimer then
+        self.roleTimer = TFDirector:addTimer(10000, -1, nil, handler(self.refreshRoleShow, self))
+    end
+end
+
+function CoffeeMainView:refreshLive2d()
+    
+    local modelid = tonumber(CoffeeDataMgr:getKanBanConfig(CoffeeDataMgr:getCurSelectId()).level2D)
+    if self.elvesRole then
+        self.elvesRole:removeFromParent()
+        self.elvesRole = nil
+    end
     self.elvesRole = ElvesNpcTable:createLive2dNpcID(modelid,false,false,nil,false).live2d
     self.elvesRole:Scale(0.7)
     self.elvesRole:registerEvents()
     self.Panel_live2d:addChild(self.elvesRole)
-    EventMgr:dispatchEvent(EV_HIDE_MAIN_LIVE2D)
+
+    local disX = 100
+    self.elvesRole:Pos(ccp(-disX,0))
+    local action=  Spawn:create({
+        FadeIn:create(0.8),
+        MoveBy:create(0.3, ccp(disX, 0))
+    })  
+    self.elvesRole:stopAllActions()
+    self.elvesRole:runAction(action)
+    -- EventMgr:dispatchEvent(EV_HIDE_MAIN_LIVE2D)
 end
 
 function CoffeeMainView:updateCoffeeInfo()
@@ -215,7 +288,7 @@ end
 
 function CoffeeMainView:addCountDownTimer()
     if not self.countDownTimer_ then
-        self.countDownTimer_ = TFDirector:addTimer(5000, count, nil, handler(self.onCountDownPer, self))
+        self.countDownTimer_ = TFDirector:addTimer(10000, count, nil, handler(self.onCountDownPer, self))
     end
 end
 
@@ -234,6 +307,9 @@ function CoffeeMainView:registerEvents()
     EventMgr:addEventListener(self, EV_COFFEE_MAID_CHANGE, handler(self.onMaidChangeEvent, self))
     EventMgr:addEventListener(self, EV_COFFEE_MAID_FEED, handler(self.onMaidFeedEvent, self))
     EventMgr:addEventListener(self, EV_COFFEE_MAIDINFO_UPDATE, handler(self.onMaidInfoUpdateEvent, self))
+    EventMgr:addEventListener(self, EV_COFFEE_UPDATE_ROLE, handler(self.onMaidUpdateKanBanEvent, self))
+    EventMgr:addEventListener(self, EV_COFFEE_ISLOCK_ROLE, handler(self.refreshRoleIcon, self))
+    EventMgr:addEventListener(self, EV_COFFEE_UPDATE_LOG, handler(self.refreshNewLog, self))
 
     self.Button_achievement:onClick(function()
             Utils:openView("coffee.CoffeeTaskView")
@@ -254,6 +330,12 @@ function CoffeeMainView:registerEvents()
     self.Button_rank:onClick(function()
             FunctionDataMgr:jStore(303000)
     end)
+
+    self.Button_alarm:onClick(function()
+        self:popAction(self.Image_roleChooseBg)
+        self.Image_alarm_tips:hide()
+        -- self.Image_roleChooseBg:setVisible(not self.Image_roleChooseBg:isVisible())
+    end)
 end
 
 function CoffeeMainView:onMaidChangeEvent()
@@ -268,6 +350,117 @@ function CoffeeMainView:onMaidInfoUpdateEvent(enterType)
     if enterType == 2 then
         self:updateCoffeeInfo()
         self:updateElf()
+    end
+end
+
+function CoffeeMainView:onMaidUpdateKanBanEvent()
+    self:refreshLive2d()
+    self.Image_roleChooseBg:setVisible(false)
+    self:refreshRoleIconView()
+end
+
+function CoffeeMainView:refreshRoleIcon()
+    self.Image_alarm_tips:show()
+    self.Image_roleChooseBg:setVisible(false)
+    self:refreshRoleIconView()
+end
+
+function CoffeeMainView:refreshNewLog()
+    local txt = CoffeeDataMgr:getNewLogStr()
+    if nil == txt then
+        return 
+    end
+    self.lab_logShow:setText(txt)
+    self:popAction(self.Image_logShow)
+end
+
+function CoffeeMainView:popAction(obj, isOpen)
+    local actionOpen = Sequence:create({
+        CallFunc:create(function()
+            obj:setScale(0.1)
+            obj:setVisible(true)
+        end),
+        ScaleTo:create(0.3,1),
+    })
+    local actionClose = Sequence:create({
+        ScaleTo:create(0.3,0),
+        CallFunc:create(function()
+            obj:setVisible(false)
+        end)
+    })
+
+    local _isOpen 
+    if nil == isOpen then
+        _isOpen = not obj:isVisible()
+    else
+        _isOpen = isOpen
+    end
+
+    obj:stopAllActions()
+    if _isOpen then
+        obj:runAction(actionOpen)
+    else
+        obj:runAction(actionClose)
+    end
+end
+
+function CoffeeMainView:refreshRoleShow()
+    local curRoleCfg = CoffeeDataMgr:getKanBanConfig(CoffeeDataMgr:getCurSelectId())
+    local totle = CoffeeDataMgr:getExtraMaidInfo().totle
+    local partTurnover = {}
+    local part = nil
+    for i = 1, 3 do
+        local tmp = {tag = i, value = curRoleCfg["turnover"..i]}
+        table.insert(partTurnover,tmp)
+    end
+    table.sort(partTurnover, function(a, b)
+        return a.value < b.value
+    end)
+    for i, v in ipairs(partTurnover) do
+        if v.value < totle then
+            part = v.tag
+        end
+    end
+    if not part then
+        return
+    end
+
+    local expression = curRoleCfg["expression"..part]
+    local lines = curRoleCfg["lines"..part]
+    local randIdx =  math.random(1, table.count(expression))
+    if self.elvesRole then
+        self.elvesRole:playNovoice()
+        self.elvesRole:newStartAction(expression[randIdx], EC_PRIORITY.NORMAL)
+    end
+    self.lab_roleShow:setTextById(lines[randIdx])
+    -- self.Image_roleBg:setVisible(not self.Image_roleBg:isVisible())
+    self:popAction(self.Image_roleBg)
+
+    if not self.roleLabTimer then
+        self.roleLabTimer = TFDirector:addTimer(3000, 1, function()
+            -- self.Image_roleBg:setVisible(false)
+            if self.elvesRole then
+                self.elvesRole:stopNovoice()
+            end
+            self:popAction(self.Image_roleBg, false)
+            TFDirector:removeTimer(self.roleLabTimer)
+            self.roleLabTimer = nil
+        end)
+    end
+end
+
+function CoffeeMainView:removeEvents()
+    if self.logTimer then
+        TFDirector:removeTimer(self.logTimer)
+        self.logTimer = nil
+    end
+    if self.roleTimer then
+        TFDirector:removeTimer(self.roleTimer)
+        self.roleTimer = nil
+    end
+    if self.roleLabTimer then
+        TFDirector:removeTimer(self.roleLabTimer)
+        self.roleLabTimer = nil
     end
 end
 

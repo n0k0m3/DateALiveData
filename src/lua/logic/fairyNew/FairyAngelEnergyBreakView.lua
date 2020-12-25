@@ -17,7 +17,7 @@ function FairyAngelEnergyBreakView:initUI(ui)
 	self.super.initUI(self,ui)
 	self.ui = ui
 
-
+	self.Label_title = TFDirector:getChildByPath(ui,"Label_title")
 	self.Label_get 	= TFDirector:getChildByPath(ui,"Label_get")
 	self.Image_get_res		= TFDirector:getChildByPath(ui,"Image_get_res")
 	self.old_lv		= TFDirector:getChildByPath(ui,"old_lv")
@@ -27,6 +27,8 @@ function FairyAngelEnergyBreakView:initUI(ui)
 	local Label_tips1 = TFDirector:getChildByPath(ui,"Label_tips1")
 	local Label_tips2 = TFDirector:getChildByPath(ui,"Label_tips2")
 	self.Label_tips3 = TFDirector:getChildByPath(ui,"Label_tips3")
+	self.Label_title:setText(HeroDataMgr:getHeroWeaponName(self.heroid)..TextDataMgr:getText(10931235))
+
 	local weaponType = HeroDataMgr:getHeroWeaponType(self.heroid)
 	if weaponType == 1 then
 		Label_tips1:setTextById(63651)

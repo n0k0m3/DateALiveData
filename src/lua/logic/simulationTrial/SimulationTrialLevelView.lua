@@ -6,82 +6,6 @@ local SimulationTrialLevelView = class("SimulationTrialLevelView",BaseLayer)
 -- 第一章 480001-480005   groupID  500002
 -- 第二章 480006-480017   groupID  500003
 -- local CHAPTERS  = { 500002 , 500003 }
-local ResConfig = 
-{ 
-
-[110211] = {
-    reward_title_textId = 2108156,
-    --UI
-   	topBarFileName = "SimulationTrialLevelView1",
-	ui        = "lua.uiconfig.fuben.simulationTrialLevelView",
-	--星星资源
-	star      = "ui/fuben/fightingStar.png",
-    gray_star = "ui/fuben/fightStar_gray.png",
-	--宝箱资源
-	box_geted  ="ui/simulation_trial/box4.png",
-	box_reach  ="ui/simulation_trial/box1.png",
-	box_normal ="ui/simulation_trial/box2.png",
-	--离散表配置
-	discrete_cfg =29003,
-	--第二章的首个关卡
-	firstLevelCid=480006,
-	chapters   = { 500002 , 500003 }
-},
-[111411] = {
-	reward_title_textId = 2108158,
-	topBarFileName = "SimulationTrialLevelView2",
-	ui        = "lua.uiconfig.fuben.simulationTrialLevelView2",
-    star      = "ui/fuben/linkage/checkpoint/004.png",
-    gray_star = "ui/fuben/linkage/checkpoint/003.png",
-	box_geted  ="ui/simulation_trial2/box4.png",
-	box_reach  ="ui/simulation_trial2/box1.png",
-	box_normal ="ui/simulation_trial2/box2.png",
-	discrete_cfg=29003,
-	firstLevelCid=480106,
-	chapters   = { 500004 , 500005 }
-},
-[111511] = {
-	reward_title_textId = 2108158,
-	topBarFileName = "SimulationTrialLevelView3",
-	ui         = "lua.uiconfig.fuben.simulationTrialLevelView3",
-    star       = "ui/fuben/linkage/checkpoint/004.png",
-    gray_star  = "ui/fuben/linkage/checkpoint/003.png",
-	box_geted  = "ui/simulation_trial2/box4.png",
-	box_reach  = "ui/simulation_trial2/box1.png",
-	box_normal = "ui/simulation_trial2/box2.png",
-	discrete_cfg=29003,
-	firstLevelCid=480206,
-	chapters   = { 500006 , 500007 }
-},
-[110113] = {
-	reward_title_textId = 2108195,
-	topBarFileName = "SimulationTrialLevelView4",
-	ui         = "lua.uiconfig.fuben.simulationTrialLevelView4",
-    star       = "ui/fuben/linkage/checkpoint/004.png",
-    gray_star  = "ui/fuben/linkage/checkpoint/003.png",
-	box_geted  = "ui/simulation_trial4/box4.png",
-	box_reach  = "ui/simulation_trial4/box1.png",
-	box_normal = "ui/simulation_trial4/box2.png",
-	discrete_cfg=29003,
-	firstLevelCid=480306,
-	chapters   = { 500008 , 500009 }
-},
-[110414] = {
-	reward_title_textId = 2108222,
-	topBarFileName = "SimulationTrialLevelView5",
-	ui         = "lua.uiconfig.fuben.simulationTrialLevelView5",
-    star       = "ui/fuben/fightingStar.png",
-    gray_star  = "ui/fuben/fightStar_gray.png",
-	box_geted  = "ui/simulation_trial5/box4.png",
-	box_reach  = "ui/simulation_trial5/box1.png",
-	box_normal = "ui/simulation_trial5/box2.png",
-	discrete_cfg=29003,
-	firstLevelCid=480406,
-	chapters   = { 500010 , 500011}
-}
-
-}
-
 -- 110211
 -- 111301
 -- 111401
@@ -97,9 +21,7 @@ end
 function SimulationTrialLevelView:ctor(...)
     self.super.ctor(self)
     self:initData(...)
-    self:init(self.resConfig.ui)
-
-
+    self:init("lua.uiconfig."..self.resConfig.ui)
 end
 
 function SimulationTrialLevelView:initUI(ui)
@@ -117,7 +39,7 @@ function SimulationTrialLevelView:initUI(ui)
     self.Button_reward1.Spine_effect   = TFDirector:getChildByPath(self.Button_reward1, "Spine_effect")
     self.Button_reward1.Spine_effect:playByIndex(0,1)
     self.Button_reward1.Label_title   = TFDirector:getChildByPath(self.Button_reward1, "Label_title")
-	self.Button_reward1.Label_title:setTextById(self.resConfig.reward_title_textId)
+	self.Button_reward1.Label_title:setTextById(self.resConfig.title)
 
 	self.Button_reward1.Image_redPoint =  self.Button_reward1:getChildByName("Image_reward_redpoint")
 	self.Panel_chapter1.checkPoints = {}
@@ -133,11 +55,9 @@ function SimulationTrialLevelView:initUI(ui)
 
 
     self.Panel_chapter2    = TFDirector:getChildByPath(self.Panel_root, "Panel_chapter2")
-
     self.ScrollView_wave   = TFDirector:getChildByPath(self.Panel_chapter2, "ScrollView_wave")
     self.Image_loadbar_bg  = TFDirector:getChildByPath(self.Panel_chapter2, "Image_loadbar_bg")
     self.LoadingBar_reward = TFDirector:getChildByPath(self.Image_loadbar_bg, "LoadingBar_reward")
-
 
 	--章节选择
 	local Image_left = TFDirector:getChildByPath(self.Panel_root, "Image_left")
@@ -155,8 +75,8 @@ function SimulationTrialLevelView:initUI(ui)
 	self.Panel_tab2.Image_lock  = TFDirector:getChildByPath(self.Panel_tab2, "Image_lock")
 	self.Panel_tab2.setSelect = setSelect
     local datas = TabDataMgr:getData("DungeonLevelGroup")
-	self.Panel_tab1.Label_chapter_name:setText(datas[self.resConfig.chapters[1]].titleName)
-	self.Panel_tab2.Label_chapter_name:setText(datas[self.resConfig.chapters[2]].titleName)
+	self.Panel_tab1.Label_chapter_name:setText(datas[self.resConfig.groupIds[1]].titleName)
+	self.Panel_tab2.Label_chapter_name:setText(datas[self.resConfig.groupIds[2]].titleName)
 
 	self.Panel_checkPoints = TFDirector:getChildByPath(self.ScrollView_wave,"Panel_checkPoints")
 	--关卡和线
@@ -167,6 +87,7 @@ function SimulationTrialLevelView:initUI(ui)
 		node.Image_cp           = node:getChildByName("Image_cp")
 		node.Image_cp_lock      = node:getChildByName("Image_cp_lock")
 		node.Label_title        = node:getChildByName("Label_title")
+		node.Image_finish 		= node:getChildByName("Image_finish")
 		node.starList = {}
 		node.Panel_star = node:getChildByName("Panel_star")
 		for i=1,3 do
@@ -290,9 +211,9 @@ function SimulationTrialLevelView:updateLevelItem2(node, levelCid)
     local levelInfo        = FubenDataMgr:getLevelInfo(levelCid)
    	-- dump({levelCid,enabled, preIsOpen, levelIsOpen ,timeOpen})
     node.Panel_star:setVisible(enabled)
-    node.Image_cp:setVisible(enabled)
+	local starNum = 0
     if enabled  then
-	    local starNum = FubenDataMgr:getStarNum(levelCid)
+		starNum = FubenDataMgr:getStarNum(levelCid)
 	    for i, v in ipairs(node.starList) do
 	        v:show()
 	        if i <= starNum then
@@ -304,7 +225,18 @@ function SimulationTrialLevelView:updateLevelItem2(node, levelCid)
     end
     node.Image_cp:setTouchEnabled(enabled)
     node.Image_cp_lock:setTouchEnabled(not enabled)
-    
+	if node.Image_finish then
+		node.Image_cp:setVisible(enabled and starNum == 0)
+		node.Image_finish:setVisible(enabled and starNum ~= 0)
+		node.Image_finish:setTouchEnabled(enabled)
+		node.Image_finish:onClick(function()
+			Utils:openView("fuben.FubenReadyView", levelCid)
+		end)
+	else
+		node.Image_cp:setVisible(enabled)
+	end
+	node.Image_cp_lock:setVisible(not enabled)
+
     node.Label_title:setTextById(levelCfg.name)
     node.Image_cp:onClick(function()
     	Utils:openView("fuben.FubenReadyView", levelCid)
@@ -329,10 +261,15 @@ end
             -- FubenDataMgr:cacheSelectLevel(levelCid)
 function SimulationTrialLevelView:initData(heroId)
 	self.heroId    = heroId
-	self.resConfig = ResConfig[self.heroId]
-	self.topBarFileName = self.resConfig.topBarFileName
+    local cfg = FubenDataMgr:getSimulationTrialCfg(heroId)
+    if not cfg then
+        Box("no heroId "..tostring(heroId).." in SimulationTrialHigh")
+        return
+    end
+	self.resConfig = cfg.chapter
+	self.topBarFileName = self.resConfig.topHelp
 	self.levelOpenTab = {}
-	local cfg = TabDataMgr:getData("DiscreteData",self.resConfig.discrete_cfg).data
+	local cfg = TabDataMgr:getData("DiscreteData",self.resConfig.discreteId).data
 	for i, _v in ipairs(cfg.dungeon) do
 		if _v.hero == heroId then 
 			for i,v in ipairs(_v.info) do
@@ -342,6 +279,15 @@ function SimulationTrialLevelView:initData(heroId)
 				 	self.levelOpenTab[levelID] =  {time = time ,year = year ,month = month, day = day}
 				end 
 			end
+		end
+	end
+
+	--1:选中 2:常规 3:灰置
+	self.tabColor = {ccc3(255,255,255),ccc3(255,255,255),ccc3(255,255,255)}
+	if self.resConfig.tabInfo then
+		for k,v in ipairs(self.resConfig.tabInfo) do
+			local color = Utils:covertToColorRGB(v)
+			self.tabColor[k] = color
 		end
 	end
 end
@@ -408,6 +354,12 @@ end
 function SimulationTrialLevelView:changeChapter(index)
 	self.Panel_tab1.Image_lock:setVisible(self:isChapterLock(1))
     self.Panel_tab2.Image_lock:setVisible(self:isChapterLock(2))
+
+	local color = self:isChapterLock(1) and self.tabColor[3] or self.tabColor[2]
+	self.Panel_tab1.Label_chapter_name:setColor(color)
+	local color = self:isChapterLock(2) and self.tabColor[3] or self.tabColor[2]
+	self.Panel_tab2.Label_chapter_name:setColor(color)
+
 	if self.chapterIndex == index then
 		return
 	end
@@ -426,11 +378,13 @@ function SimulationTrialLevelView:changeChapter(index)
 		end 
 		return
 	end
+
 	self.chapterIndex = index
 	self.Panel_tab1:setSelect(self.chapterIndex == 1)
     self.Panel_tab2:setSelect(self.chapterIndex == 2)
 
-	self.levelGroupId  = self.resConfig.chapters[self.chapterIndex]
+
+	self.levelGroupId  = self.resConfig.groupIds[self.chapterIndex]
 	self.levels        = FubenDataMgr:getLevel(self.levelGroupId)
 
 
@@ -453,6 +407,10 @@ function SimulationTrialLevelView:changeChapter(index)
 			node:show()
 			self:updateLevelItem1(node,v)
 		end
+		self.Panel_tab1.Label_chapter_name:setColor(self.tabColor[1])
+
+		local color = self:isChapterLock(2) and self.tabColor[3] or self.tabColor[2]
+		self.Panel_tab2.Label_chapter_name:setColor(color)
 	else
 		self.Panel_chapter1:hide()
 		self.Panel_chapter2:show()
@@ -477,6 +435,12 @@ function SimulationTrialLevelView:changeChapter(index)
 		    percet = math.max(math.min(percet,100),0)
 			self.ScrollView_wave:scrollTo(TF_SCROLLVIEW_SCROLL_TO_PERCENT_HORIZONTAL, 0.2, true, -percet, 0)
 		end
+
+		self.Panel_tab2.Label_chapter_name:setColor(self.tabColor[1])
+
+		local color = self:isChapterLock(1) and self.tabColor[3] or self.tabColor[2]
+		self.Panel_tab1.Label_chapter_name:setColor(color)
+
 	end
     self:refreshReward()
     --緩存选中的章节

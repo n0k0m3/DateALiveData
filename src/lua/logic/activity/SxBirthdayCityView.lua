@@ -6,6 +6,7 @@ function SxBirthdayCityView:initData(cityCid)
     self.cityCfg_ = SxBirthdayDataMgr:getActivityCityCfg(self.cityCid_)
     self.costCid_, self.costNum_ = next(self.cityCfg_.cost)
     self.costCfg_ = GoodsDataMgr:getItemCfg(self.costCid_)
+
 end
 
 function SxBirthdayCityView:ctor(...)
@@ -19,8 +20,10 @@ function SxBirthdayCityView:initUI(ui)
 
     self.Panel_root = TFDirector:getChildByPath(ui, "Panel_root")
     self.Panel_prefab = TFDirector:getChildByPath(ui, "Panel_prefab"):hide()
-
-    self.Image_bg = TFDirector:getChildByPath(self.Panel_root, "Image_bg")
+	self.Panel_prefab:setTouchEnabled(true)
+	self.Panel_prefab:setSwallowTouch(true)
+	
+    self.Image_bg = TFDirector:getChildByPath(self.ui, "Image_bg")
     self.Label_name = TFDirector:getChildByPath(self.Panel_root, "Image_name.Label_name")
     local Image_place = TFDirector:getChildByPath(self.Panel_root, "Image_place")
     self.Label_place = TFDirector:getChildByPath(Image_place, "Label_place")
@@ -48,10 +51,9 @@ function SxBirthdayCityView:initUI(ui)
         foo.Image_order_lock = TFDirector:getChildByPath(foo.root, "Image_order_lock")
         local Label_order_lock = TFDirector:getChildByPath(foo.Image_order_lock, "Label_order_lock")
         Label_order_lock:setText(i)
-        foo.Image_complete = TFDirector:getChildByPath(foo.root, "Image_complete")
+		foo.Image_complete = TFDirector:getChildByPath(foo.root, "Image_complete")
+
         foo.Image_icon = TFDirector:getChildByPath(foo.root, "Image_icon")
-        local Label_complete = TFDirector:getChildByPath(foo.Image_complete, "Image_complete2.Label_complete")
-        Label_complete:setTextById(13310005)
         foo.Image_order_complete = TFDirector:getChildByPath(foo.root, "Image_order_complete")
         local Label_order_complete = TFDirector:getChildByPath(foo.Image_order_complete, "Label_order_complete")
         Label_order_complete:setText(i)
@@ -71,7 +73,6 @@ function SxBirthdayCityView:refreshView()
     self.Label_place:setTextById(self.cityCfg_.title1)
     self.Label_desc:setTextById(self.cityCfg_.describe)
     self.Label_get:setTextById(13310002)
-    self.Label_explore:setTextById(13310003)
 
     self.Label_cost_num:setText(self.costNum_)
     self.Image_cost_icon:setTexture(self.costCfg_.icon)
@@ -91,6 +92,7 @@ function SxBirthdayCityView:refreshView()
 end
 
 function SxBirthdayCityView:updatePart()
+	local ret = {};
     local cityInfo = SxBirthdayDataMgr:getCityInfo(self.cityCid_)
     local part = cityInfo.partInfo
     for i, v in ipairs(self.Panel_part) do
@@ -106,11 +108,10 @@ function SxBirthdayCityView:updatePart()
         local partCfg = SxBirthdayDataMgr:getTohkaDatingCfg(partInfo.cityPartId)
         local isCompete = partInfo.state == 2
         v.Image_lock:setVisible(not isUnlock)
-        v.Image_order_lock:setVisible(not isUnlock)
         v.Image_unlock:setVisible(isUnlock and not isCompete)
-        v.Image_order_unlock:setVisible(isUnlock and not isCompete)
-        v.Image_complete:setVisible(isUnlock and isCompete)
-        v.Image_order_complete:setVisible(isUnlock and isCompete)
+		v.Image_complete:setVisible(isCompete)
+		table.insert(ret, isCompete)
+
         if isUnlock then
             local title = TextDataMgr:getText(partCfg.title)
             local state = TextDataMgr:getText(partInfo.state == 0 and 13300270 or 13300271)
@@ -120,10 +121,7 @@ function SxBirthdayCityView:updatePart()
             v.Label_title:setTextById(13310004)
             v.Label_desc:setTextById(13310004)
         end
-        v.Image_icon:setVisible(#partCfg.cg > 0)
-        if v.Image_icon:isVisible() then
-            v.Image_icon:setTexture(partCfg.cg)
-        end
+
         v.Button_dating:setGrayEnabled(partInfo.state == 0)
         v.Button_dating:setTouchEnabled(partInfo.state == 1)
 
@@ -131,6 +129,7 @@ function SxBirthdayCityView:updatePart()
                 FunctionDataMgr:jStartDating(partInfo.cityPartId)
         end)
     end
+	return ret
 end
 
 function SxBirthdayCityView:registerEvents()
@@ -146,23 +145,7 @@ function SxBirthdayCityView:registerEvents()
                     Utils:showTips(800021)
                 end
             else
-                if MainPlayer:getOneLoginStatus(EC_OneLoginStatusType.ReConfirm_SxBirthday) then
-                    SxBirthdayDataMgr:send_BIRTH_DAY_REQ_EXPLORE(self.cityCid_)
-                else
-                    local rstr = TextDataMgr:getTextAttr(13300269)
-                    local content = string.format(rstr.text, self.costNum_, self.costCfg_.icon)
-                    Utils:openView(
-                        "common.ReConfirmTipsView",
-                        {
-                            tittle = 13310003,
-                            content = content,
-                            reType = EC_OneLoginStatusType.ReConfirm_SxBirthday,
-                            confirmCall = function()
-                                SxBirthdayDataMgr:send_BIRTH_DAY_REQ_EXPLORE(self.cityCid_)
-                            end
-                        }
-                    )
-                end
+				Utils:openView("activity.sxBirthdayWheelView", self.cityCid_)
             end
     end)
 end
@@ -172,16 +155,26 @@ function SxBirthdayCityView:onItemUpdateEvent()
 end
 
 function SxBirthdayCityView:onExploreEvent(eventCid, rewards)
-    local eventCfg = SxBirthdayDataMgr:getTohkaEventCfg(eventCid)
-    if eventCfg.type == 1 then
-        Utils:openView("activity.SxBirthdayRewardView", self.cityCid_, eventCid, rewards)
-    elseif eventCfg.type == 2 then
-        Utils:openView("activity.SxBirthdayDatingView", eventCid)
-    end
+--    local eventCfg = SxBirthdayDataMgr:getTohkaEventCfg(eventCid)
+--    if eventCfg.type == EventType.Item then
+--		self.funcExplore = function()
+--			Utils:openView("activity.SxBirthdayRewardView", self.cityCid_, eventCid, rewards)
+--		end
+--		self:launchWheel(eventCid)
+--    elseif eventCfg.type == EventType.Dating then
+--		self.funcExplore = function()
+--			Utils:openView("activity.SxBirthdayDatingView", eventCid)
+--		end
+--		self:launchWheel(DatingEventId)
+--    end
 end
 
 function SxBirthdayCityView:onCityInfoUpdateEvent()
-    self:updatePart()
+    local ret = self:updatePart()
+	if table.indexOf(ret, false) == -1 then
+		AlertManager:closeLayer(self)
+	end
 end
+
 
 return SxBirthdayCityView

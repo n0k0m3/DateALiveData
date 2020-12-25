@@ -61,6 +61,8 @@ function BattleResultShareView:initUI(ui)
     self.Label_playerName =  TFDirector:getChildByPath(self.Panel_info, "Label_playerName")
     self.Label_playerLevel = TFDirector:getChildByPath(self.Panel_info, "Label_playerLevel")
     self.Label_player_power = TFDirector:getChildByPath(self.Panel_info, "Label_player_power")
+    self.Label_player_passTime = TFDirector:getChildByPath(self.Panel_info, "Label_player_passTime"):hide()
+    self.Label_player_attackNum = TFDirector:getChildByPath(self.Panel_info, "Label_player_attackNum"):hide() 
 
     self.Label_role_title = TFDirector:getChildByPath(self.Panel_info, "Label_role_title")
     self.Panel_roles = TFDirector:getChildByPath(self.Panel_info, "Panel_roles")
@@ -119,6 +121,17 @@ function BattleResultShareView:refreshView()
         elseif self.levelCfg_.dungeonType == EC_FBLevelType.HUNTER then
             local levelname = TextDataMgr:getText(3300023) 
             self.Label_title:setTextById(300883, levelname)
+        elseif self.levelCfg_.dungeonType == EC_FBLevelType.WORLD_BOSS then
+            self.Label_title:setTextById(16000303, LeagueDataMgr:getCurInvade().lv)
+            self.Label_player_passTime:show()
+            self.Label_player_attackNum:show()
+            local _, min, sec = Utils:getTime(self.passTime_ * 0.001, true)
+            local _time = TextDataMgr:getText(800014, min, sec)
+            self.Label_player_passTime:setTextById(16000304, _time)
+            self.Label_player_attackNum:setTextById(16000312, Utils:converNumWithComma(self.statistics_.hitValue or 0))
+        elseif self.levelCfg_.dungeonType == EC_FBLevelType.BOSS_CHALLENGE then
+            local levelname = TextDataMgr:getText(12035001) 
+            self.Label_title:setTextById(300883, levelname)
         else
             local levelname = FubenDataMgr:getLevelName(self.levelCid_)
             local diffName = TextDataMgr:getText(self.diffData_[self.levelCfg_.difficulty])
@@ -148,7 +161,8 @@ function BattleResultShareView:refreshView()
             if not dungeonCfg then
                 dungeonCfg = TabDataMgr:getData("DungeonLevel")[self.levelCid_]
             end
-            local levelName = TextDataMgr:getText(dungeonCfg.levelName)
+            local realName = dungeonCfg.name or dungeonCfg.levelName
+            local levelName = TextDataMgr:getText(realName)
             self.Label_title:setTextById(300883, chapterName.." "..levelName)
         end
     end
@@ -170,7 +184,7 @@ function BattleResultShareView:getPassCondDesc(levelId, type_)
     local type_ = self.levelCfg_.victoryType[1]
     local param = self.levelCfg_.victoryParam[1]
     local descId = passtype_[type_]
-    local desc = descId
+    local desc = ""
     if type_ == EC_LevelPassCond.SPECIFICID then
         local monsterCfg = TabDataMgr:getData("Monster", param[1])
         local monsterName = TextDataMgr:getText(monsterCfg.name)
@@ -182,7 +196,9 @@ function BattleResultShareView:getPassCondDesc(levelId, type_)
     elseif type_ == EC_LevelPassCond.SPECIFICCOUNT then
         desc = TextDataMgr:getText(descId)
     else
-        desc = TextDataMgr:getText(descId)
+        if descId then
+            desc = TextDataMgr:getText(descId)
+        end
     end
     return desc
 end

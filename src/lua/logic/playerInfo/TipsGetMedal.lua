@@ -18,12 +18,12 @@ function TipsGetMedal:initUI(ui)
     self.super.initUI(self,ui)
     self:setPosition(ccp(GameConfig.WS.width/2, GameConfig.WS.height - 100))
     local currentScene = Public:currentScene()
-    self:setZOrder(500)
     self:setName("TipsGetMedal")
     TFDirector:getChildByPath(ui, 'text1'):setText(self.text1)
     TFDirector:getChildByPath(ui, 'text2'):setText(self.text2)
 
     currentScene:addLayer(self)
+    self:setZOrder(1000)
     local toY = self:getPosition().y + 80
     local toX = self:getPosition().x
 

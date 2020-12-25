@@ -73,8 +73,10 @@ function Actor:ctor(hero)
 --检查词缀是否带光环
     --TODO 临时增加缀光环
 
-    local affixData = self.hero:getAffixData()
-    if affixData then
+    local affixDatas = self.hero:getAffixData()
+    local affixData
+    if affixDatas and #affixDatas > 0 then
+        affixData = affixDatas[1]
         if ResLoader.isValid(affixData.resource) then
             local skeletonNode = ResLoader.createEffect(affixData.resource)
             skeletonNode:play(affixData.action, 1)
@@ -131,8 +133,9 @@ function Actor:ctor(hero)
     end
     if affixData then
     -- Box("Actor Affix:"..tostring(affixData.affixIcon))
+        local icons = self.hero:getAffixDataIcons()
         for index , imageAffix in ipairs(self.loadBar.imageAffixs) do
-            local affixIcon = affixData["affixIcon"..index]
+            local affixIcon = icons[index]
             if ResLoader.isValid(affixIcon) then 
                 imageAffix:show()
                 imageAffix:setTexture(affixIcon)
@@ -447,7 +450,12 @@ function Actor:showBufferEffectName(colorType,text)
         self.infoNode.labelEffectName:setColor(me.RED)
         effectName = "battle_buff_hint2"
     end
-    self.infoNode.labelEffectName:setText(text)
+    if (type(text) == "number") or tonumber(text) then
+        self.infoNode.labelEffectName:setTextById(text)
+    else
+        self.infoNode.labelEffectName:setText(text)
+    end
+
     local actions = 
     {
         DelayTime:create(2),

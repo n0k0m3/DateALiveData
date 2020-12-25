@@ -25,7 +25,6 @@ end
 
 function FileLoadMgr:ctor()
     self:init()
-    self.strCfg = require("lua.table.String" ..GAME_LANGUAGE_VAR)
     self.needDownlads = {}
     self.nByCEvent = {}
 

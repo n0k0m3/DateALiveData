@@ -81,7 +81,17 @@ end
 
 function CollectMainView:updateCollectToken() --信物
 	
-	self:commonUpdateInfo(self.token_panel,EC_CollectPage.TOKEN)
+	if GlobalFuncDataMgr:isOpen(8) then
+		self:commonUpdateInfo(self.token_panel,EC_CollectPage.TOKEN)
+		self.token_panel:show()
+	else
+		self.token_panel:hide()
+		if not self.token_panel.img_notOpen then
+			self.token_panel.img_notOpen = TFImage:create("ui/collect/TJ_EQUIP_NULL.png")
+			self.token_panel:getParent():addChild(self.token_panel.img_notOpen , 1)
+			self.token_panel.img_notOpen:setPosition(self.token_panel:getPosition())
+		end
+	end
 end
 
 function CollectMainView:updateCollectScene()  --场景

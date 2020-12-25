@@ -29,7 +29,7 @@ function BaoshiSkillTipsView:updateUI()
     self.Label_skill_name:setTextById(tonumber(config.name))
     local cfg = EquipmentDataMgr:getGemCfg(self.gemCid)
     local skillDesc = TextDataMgr:getTextAttr(tonumber(config.des)).text
-    skillDesc = string.gsub(skillDesc, "#", cfg.skillName)
+    skillDesc = string.gsub(skillDesc, "#", TextDataMgr:getText(cfg.skillName))
     self.Label_skill_desc:setText(skillDesc)
 end
 

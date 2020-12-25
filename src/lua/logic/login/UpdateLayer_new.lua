@@ -26,10 +26,11 @@ local TFClientUpdate =  TFClientResourceUpdate:GetClientResourceUpdate()
 
 function UpdateLayer_new:ctor(data)
     self.super.ctor(self,data)
+    self.strCfg = TFGlobalUtils:requireGlobalFile("lua.table.StartString")
+    --self.config = TFGlobalUtils:requireGlobalFile("lua.table.Downlaod")
+    --self.modelCfg = TFGlobalUtils:requireGlobalFile("lua.table.HeroModle")
+
     self.connectedArray = TFArray:new()
-    self.strCfg = require("lua.table.String" ..GAME_LANGUAGE_VAR)
-    self.config = require("lua.table.Downlaod")
-    self.modelCfg = require("lua.table.HeroModle")
     self:init("lua.uiconfig.loginScene.updateLayer")
 end
 
@@ -63,7 +64,7 @@ function UpdateLayer_new:initUI(ui)
     local addLoadNum    = 0
     local maxNum        = loadInfo.total;
 
-    self.txt_update:setSystemFontText(self.strCfg[800092].text)
+    self.txt_update:setText(self.strCfg[800092].text)
     self.bar_load:setPercent((addLoadNum / maxNum) * 100)
 
     --ui
@@ -82,9 +83,9 @@ function UpdateLayer_new:initUI(ui)
     TFDirector:getChildByPath(ui,"Image_updateLayer_3(3)"):hide();
 
     self.Label_percent    = TFDirector:getChildByPath(ui,"Label_percent");
-    self.Label_percent:setSystemFontText("");
+    self.Label_percent:setText("");
     self.Label_percent_2  = TFDirector:getChildByPath(ui,"Label_percent_2");
-    self.Label_percent_2:setSystemFontText("");
+    self.Label_percent_2:setText("");
 
     local pDirector = CCDirector:sharedDirector();
     local frameSize = pDirector:getOpenGLView():getFrameSize();
@@ -107,7 +108,7 @@ function checkFile(filePath)
 end
 
 function UpdateLayer_new:startAction()
-    local count = table.count(self.config);
+    --local count = table.count(self.config);
     -- self.index = CCUserDefault:sharedUserDefault():getIntegerForKey("starIndex") or 1;
     -- if self.index == 0 or not checkFile("ui/update/s"..(self.index)..".png") then
     --     self.index = 1;
@@ -131,8 +132,8 @@ end
 --随机广告图
 local function randomAD()
     local showDatas = {}
-    local datas =  require("lua.table.AdWeight")
-    TFDirector:unRequire("lua.table.AdWeight")
+    local datas =  TFGlobalUtils:requireGlobalFile("lua.table.AdWeight")
+    TFGlobalUtils:unRequireGlobalFile("lua.table.AdWeight")
     local start = 0
     for i, data in pairs(datas) do
         if data.showType == 1 then
@@ -246,7 +247,7 @@ function UpdateLayer_new:updateUI(idx)
         table.sort(desIds)
         local textId = math.random(desIds[2] - desIds[1]) - 1 + desIds[1]
         local text   = TextDataMgr:getText(textId)
-        self.Label_tips:setSystemFontText(string.format("<%s>",text))
+        self.Label_tips:setText(string.format("<%s>",text))
     else
         self.Label_tips:hide()
     end
@@ -341,12 +342,12 @@ function UpdateLayer_new:updateVision()
         nRate  = math.floor(nRate)
 
         self.bar_load:setPercent(nRate)
-        self.Label_percent:setSystemFontText(string.format(self.strCfg[800093].text, nRate));
-        self.Label_percent_2:setSystemFontText(string.format(self.strCfg[800094].text, size1, size2));
+        self.Label_percent:setText(string.format(self.strCfg[800093].text, nRate));
+        self.Label_percent_2:setText(string.format(self.strCfg[800094].text, size1, size2));
     end
 
     local function startUpdate()
-        self.txt_update:setSystemFontText(self.strCfg[800095].text)
+        self.txt_update:setText(self.strCfg[800095].text)
         TFClientUpdate:startDownloadZip(downloadingRecvData)
     end
 
@@ -358,7 +359,7 @@ function UpdateLayer_new:updateVision()
 
         local version       =  TFClientUpdate:getCurVersion()
         local LatestVersion =  TFClientUpdate:getLatestVersion()
-        local Content       =  TFClientUpdate:GetUpdateContent()
+        local Content       =  TFClientUpdate:GetUpdateContent(TFLanguageMgr:getUsingLanguage())
         
 
         print("===========find new version===========")
@@ -409,8 +410,8 @@ function UpdateLayer_new:updateVision()
             print("---------------加载本地文件")
 
             Utils:sendHttpLog("unupdate_loading_G")
-            self.Label_percent:setSystemFontText("");
-            self.Label_percent_2:setSystemFontText("");
+            self.Label_percent:setText("");
+            self.Label_percent_2:setText("");
             self.bar_load:setPercent(0);
             restartLuaEngine("CompleteUpdate")
             return
@@ -418,15 +419,15 @@ function UpdateLayer_new:updateVision()
         elseif ret == 1 then
             print("---------------下载完成准备解压资源")
             local desc  = self.strCfg[800097].text
-            self.txt_update:setSystemFontText(desc)
-            self.Label_percent_2:setSystemFontText("");
+            self.txt_update:setText(desc)
+            self.Label_percent_2:setText("");
         elseif ret == -14 then
             if not self:checkForcedUpdate() then
                 self:showFailDiag(errorType);
             end
         elseif ret < 0 then
             print("---------------更新出错 ret = "..ret)
-            if CDN_INDEX < #VersionPaths then
+            if CDN_INDEX < #URL_CDN_VERSION then
                 self:restart();
             else
                 self:showFailDiag(ret)
@@ -437,10 +438,10 @@ function UpdateLayer_new:updateVision()
     if CDN_INDEX == 0 then
         CDN_INDEX = 1;
     end
-    print("new--------------------versionPath  = ", VersionPaths[CDN_INDEX])
-    print("new--------------------filePath     = ", FilePaths[CDN_INDEX])
-    self:checkCdnAndUrlUpdate(VersionPaths[CDN_INDEX])
-    TFClientUpdate:CheckUpdate(VersionPaths[CDN_INDEX], FilePaths[CDN_INDEX], checkNewVersionCallBack, StatusUpdateHandle)
+    print("new--------------------versionPath  = ", URL_CDN_VERSION[CDN_INDEX])
+    print("new--------------------filePath     = ", URL_CDN_FILE[CDN_INDEX])
+    self:checkCdnAndUrlUpdate(URL_CDN_VERSION[CDN_INDEX])
+    TFClientUpdate:CheckUpdate(URL_CDN_VERSION[CDN_INDEX], URL_CDN_FILE[CDN_INDEX], checkNewVersionCallBack, StatusUpdateHandle)
 end
 -- type == 1检查失败 type == 2 更新失败
 function UpdateLayer_new:showFailDiag(errorType)
@@ -463,7 +464,7 @@ function UpdateLayer_new:restart()
 
     if UPDATE_RETRY_TIME % 2 == 0 then
         CDN_INDEX = CDN_INDEX + 1;
-        if CDN_INDEX > #VersionPaths then
+        if CDN_INDEX > #URL_CDN_VERSION then
             CDN_INDEX = 1
         end
     end
@@ -488,8 +489,6 @@ function UpdateLayer_new:CompleteUpdate()
 end
 
 function UpdateLayer_new:checkCdnAndUrlUpdate(url )
-    
-    print("checkAndUpdateUrl"..url)
     self.connectedArray:push(url)
     local time = 0
     for urlValue in self.connectedArray:iterator() do
@@ -502,8 +501,10 @@ function UpdateLayer_new:checkCdnAndUrlUpdate(url )
         --TODO CLOSE
         if tonumber(TFDeviceInfo:getCurAppVersion()) >= 1.15 and CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID then
             local tfUrl = require("TFFramework.net.TFUrl")
-            local parsed_url = tfUrl.parse(url)
-            HeitaoSdk.reportNetworkData(parsed_url.host)
+            if tfUrl then
+                local parsed_url = tfUrl.parse(url)
+                HeitaoSdk.reportNetworkData(parsed_url.host)
+            end
         end
         
     end

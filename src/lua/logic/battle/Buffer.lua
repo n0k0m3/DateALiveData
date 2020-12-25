@@ -8,9 +8,11 @@ local eBFTriggerType   = enum.eBFTriggerType
 local eBFTriggerObject = enum.eBFTriggerObject
 local eBFTargetType    = enum.eBFTargetType
 local eBFETakeType     = enum.eBFETakeType
+local eBFETakeCondition = enum.eBFETakeCondition
 local eBFAddType       = enum.eBFAddType
 local eRoleType        = enum.eRoleType
 local eAState          = enum.eAState
+local __print = print
 local print = BattleUtils.print
 local bufferMgr = BattleMgr.getBufferMgr()
 
@@ -54,7 +56,7 @@ function Buffer:update(dt)
     end
 end
 function Buffer:clear()
-
+    self:removeFromMgr()
 end
 
 --添加到管理器
@@ -401,6 +403,10 @@ function Buffer:triggerOnce(takeObj,data)
                 return
             end
         end
+
+        if not self:checkEffectCondition(takeObj,data) then
+            return
+        end
         -- Box("self.probability:"..tostring(self.probability))
         --找到生效对象
         local effectId = data.id
@@ -412,7 +418,7 @@ function Buffer:triggerOnce(takeObj,data)
             print("完全叠加各自生效",data.id , "已经叠加", times)
             if times < data.maxSuperposition or data.maxSuperposition == -1 then
                 local effect = BFEffect:new(data)
-                effect:bind(takeObj,self.host,self.triggerObj,self.receiveObj)
+                effect:bind(takeObj,self.host,self.triggerObj,self.receiveObj,self.data.id)
                 effect:setEffectNode(self.effectNode)
                 effect:addTest()
             else
@@ -423,7 +429,7 @@ function Buffer:triggerOnce(takeObj,data)
             local effect = takeObj:getBFEffect(effectId)
             if not effect then
                 effect = BFEffect:new(data)
-                effect:bind(takeObj,self.host,self.triggerObj,self.receiveObj)
+                effect:bind(takeObj,self.host,self.triggerObj,self.receiveObj,self.data.id)
                 effect:setEffectNode(self.effectNode)
                 effect:addTest()
             end
@@ -432,11 +438,11 @@ function Buffer:triggerOnce(takeObj,data)
             local effect = takeObj:getBFEffect(effectId)
             if not effect then
                 effect = BFEffect:new(data)
-                effect:bind(takeObj,self.host,self.triggerObj,self.receiveObj)
+                effect:bind(takeObj,self.host,self.triggerObj,self.receiveObj,self.data.id)
                 effect:setEffectNode(self.effectNode)
                 effect:addTest()
             else --效果替换处理
-                effect:bind(takeObj,self.host,self.triggerObj,self.receiveObj)
+                effect:bind(takeObj,self.host,self.triggerObj,self.receiveObj,self.data.id)
                 effect:setEffectNode(self.effectNode)
                 effect:replace()
             end
@@ -445,14 +451,14 @@ function Buffer:triggerOnce(takeObj,data)
             --叠加和生效效果处理
             local effect = takeObj:getBFEffect(effectId)
             if effect then
-                effect:bind(takeObj,self.host,self.triggerObj,self.receiveObj)
+                effect:bind(takeObj,self.host,self.triggerObj,self.receiveObj,self.data.id)
                 effect:setEffectNode(self.effectNode)
                 --处理叠加
                 effect:addTest()
             else
                 --还未有生效的buf
                 effect = BFEffect:new(data)
-                effect:bind(takeObj,self.host,self.triggerObj,self.receiveObj)
+                effect:bind(takeObj,self.host,self.triggerObj,self.receiveObj,self.data.id)
                 effect:setEffectNode(self.effectNode)
                 effect:addTest()
             end
@@ -461,20 +467,61 @@ function Buffer:triggerOnce(takeObj,data)
             --叠加和生效效果处理
             local effect = takeObj:getBFEffect(effectId)
             if effect then
-                effect:bind(takeObj,self.host,self.triggerObj,self.receiveObj)
+                effect:bind(takeObj,self.host,self.triggerObj,self.receiveObj,self.data.id)
                 effect:setEffectNode(self.effectNode)
                 --处理叠加
                 effect:addTestTime() --时间叠加
             else
                 --还未有生效的buf
                 effect = BFEffect:new(data)
-                effect:bind(takeObj,self.host,self.triggerObj,self.receiveObj)
+                effect:bind(takeObj,self.host,self.triggerObj,self.receiveObj,self.data.id)
                 effect:setEffectNode(self.effectNode)
                 effect:addTest()
             end
         end
     -- end
     self.effectNode = nil
+end
+
+function Buffer:checkEffectCondition(takeObj,data)
+    local condition = data.effectCondition
+    if condition and condition > 0 then
+        local targets = {}
+        if condition == eBFETakeCondition.TC_TARGET_FRIEND then
+            table.insertTo(targets,self:getHost():getAreaFrineds(-1,nil,true))
+            table.insertTo(targets,self:getHost():getCalls(-1,100,1))
+        elseif condition == eBFETakeCondition.TC_TARGET_ENEMY then
+            table.insertTo(targets,self:getHost():getAreaEnemys(-1))
+            table.insertTo(targets,self:getHost():getCalls(-1,100,2))
+        elseif condition == eBFETakeCondition.TC_TARGET_ALL then
+            table.insertTo(targets,battleController.getTeam():getHerosEx())
+        elseif condition == eBFETakeCondition.TC_TARGET_FRIEND_CALL then
+            table.insertTo(targets,self:getHost():getCalls(-1,100,1))
+        elseif condition == eBFETakeCondition.TC_TARGET_ENEMY_CALL then
+            table.insertTo(targets,self:getHost():getCalls(-1,100,2))
+        elseif condition == eBFETakeCondition.TC_TARGET_CALL then
+            table.insertTo(targets,self:getHost():getCalls(-1,100))
+        end
+        if data.bodyCount > 0 then
+            local realTargets = {}
+            if data.bodyType >= 0 then
+                for i,v in ipairs(targets) do
+                    if v:isActive() and v:getBodyType() == data.bodyType then
+                        table.insert(realTargets, v)
+                    end
+                end
+                return #realTargets >= data.bodyCount
+            else
+                for i,v in ipairs(targets) do
+                    if v:isActive() then
+                        table.insert(realTargets, v)
+                    end
+                end
+                return #realTargets >= data.bodyCount
+            end
+        end
+    end
+    return true
 end
 
 --BUFF持有者
@@ -546,9 +593,27 @@ function Buffer:getTakeTarget(effectId)
         elseif effectTarget == eBFTargetType.TT_EVENT_TAR  then --状态对应方(状态目标)
             return {self:getEventTar()}
         elseif effectTarget == eBFTargetType.TT_FRIENT  then --队友
-            return self:getHost():getAreaFrineds(-1)
+            local targerts = self:getHost():getAreaFrineds(-1)
+            if data.targetID == 0 then
+                return targerts
+            end
+            for i,v in ipairs(targerts) do
+                if v:getData().id == data.targetID then 
+                    return {v}
+                end
+            end
+            return {}
         elseif effectTarget == eBFTargetType.TT_ENEMY  then --敌人
-            return self:getHost():getAreaEnemys(-1)
+            local targerts = self:getHost():getAreaEnemys(-1)
+            if data.targetID == 0 then
+                return targerts
+            end
+            for i,v in ipairs(targerts) do
+                if v:getData().id == data.targetID then 
+                    return {v}
+                end
+            end
+            return {}
         elseif effectTarget == eBFTargetType.TT_ENEMY_RANDOM then --随机敌人
             local result = self:getHost():getAreaEnemys(-1)
             local unitNum   = data.unitNum
@@ -578,13 +643,10 @@ function Buffer:getTakeTarget(effectId)
             end
             return result
         elseif effectTarget == eBFTargetType.TT_FRIENT_MONSTER then --友方 怪
-            local heros = self:getHost():getAreaFrineds(-1,nil,true)
+            local heros = self:getHost():getCalls(-1,nil,1)
             local result = {}
             for i,hero in ipairs(heros) do
-                local roleType = hero:getRoleType() 
-                if roleType == eRoleType.Monster then 
-                    table.insert(result,hero)
-                end
+                table.insert(result,hero)
             end
             return result
         end
@@ -611,13 +673,10 @@ function Buffer:getTakeTarget(effectId)
             end
             return result
         elseif effectTarget == eBFTargetType.TT_FRIENT_MONSTER then --友方 怪
-            local heros = target:getAreaFrineds(effectRange,unitNum,true)
+            local heros = target:getCalls(effectRange,unitNum,1)
             local result = {}
             for i,hero in ipairs(heros) do
-                local roleType = hero:getRoleType() 
-                if roleType == eRoleType.Monster then 
-                    table.insert(result,hero)
-                end
+                table.insert(result,hero)
             end
             return result
         else

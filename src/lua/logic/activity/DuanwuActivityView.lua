@@ -12,6 +12,8 @@ function DuanwuActivityView:ctor(...)
     self:initData(...)
     if ActivityDataMgr2:getActivityUIType() == 1 then
         self:init("lua.uiconfig.activity.midAutumnActivityView")
+    elseif ActivityDataMgr2:getActivityUIType() == 2 then
+        self:init("lua.uiconfig.activity.lanternFestivalActivityView")
     else
         self:init("lua.uiconfig.activity.duanwuActivityView")
     end
@@ -25,6 +27,7 @@ function DuanwuActivityView:initUI(ui)
     local Image_content = TFDirector:getChildByPath(self.Panel_root, "Image_content")
     self.Button_goto = TFDirector:getChildByPath(Image_content, "Button_goto")
     self.Label_goto = TFDirector:getChildByPath(self.Button_goto, "Label_goto")
+    self.Label_goto:setSkewX(15)
     
     if ActivityDataMgr2:getActivityUIType() == 1 then
         self.Panel_cg = TFDirector:getChildByPath(Image_content,"Panel_cg")
@@ -32,6 +35,12 @@ function DuanwuActivityView:initUI(ui)
         self.Label_time_title = TFDirector:getChildByPath(pannel_time, "Label_time_title")
         self.Label_time = TFDirector:getChildByPath(pannel_time, "Label_time")
         self.Label_tip = TFDirector:getChildByPath(Image_content, "Image_frame.Label_tip")
+    elseif  ActivityDataMgr2:getActivityUIType() == 2 then
+        self.Panel_cg = TFDirector:getChildByPath(Image_content,"Panel_cg")
+        local pannel_time = TFDirector:getChildByPath(Image_content, "pannel_time")
+        self.Label_time_title = TFDirector:getChildByPath(pannel_time, "Label_time_title")
+        self.Label_time = TFDirector:getChildByPath(pannel_time, "Label_time")
+        self.Label_tip = TFDirector:getChildByPath(Image_content, "Label_tip")
     else
         self.Panel_cg = TFDirector:getChildByPath(Image_content, "Image_frame.Panel_cg")
         local Image_time = TFDirector:getChildByPath(Image_content, "Image_time")
@@ -50,11 +59,7 @@ end
 
 function DuanwuActivityView:updateActivity()
     self.activityInfo_ = ActivityDataMgr2:getActivityInfo(self.activityId_)
-    local startDate = Utils:getLocalDate(self.activityInfo_.startTime)
-    local startDateStr = startDate:fmt("%Y.%m.%d")
-    local endDate = Utils:getLocalDate(self.activityInfo_.endTime)
-    local endDateStr = endDate:fmt("%Y.%m.%d")
-    self.Label_time:setTextById(800041, startDateStr, endDateStr)
+    self.Label_time:setText(Utils:getActivityDateString(self.activityInfo_.startTime, self.activityInfo_.endTime))
 
     if not self.cgView_ then
         if self.activityInfo_.extendData.cg then
@@ -69,7 +74,7 @@ function DuanwuActivityView:updateActivity()
         end
     end
 
-    if ActivityDataMgr2:getActivityUIType() == 1 then
+    if ActivityDataMgr2:getActivityUIType() == 1 or ActivityDataMgr2:getActivityUIType() == 2 then
         local str = self.activityInfo_.activityTitle
         str = string.gsub(str, "\\n", "\n")
         self.Label_tip:setString(str)

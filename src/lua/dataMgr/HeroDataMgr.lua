@@ -26,6 +26,7 @@ function HeroDataMgr:ctor()
 	self.myHaveList = nil;
 	self.myFormation = nil;
 
+	self.preTeamInfo = {}
     self:init()
 end
 
@@ -56,7 +57,13 @@ function HeroDataMgr:init()
 	
 	TFDirector:addProto(s2c.HERO_RES_DECOMPOSE_MATERIALS,self,self.HERO_RES_DECOMPOSE_MATERIALS)
 	TFDirector:addProto(s2c.HERO_RES_QUICK_ACTIVE_CRYSTAL,self,self.HERO_RES_QUICK_ACTIVE_CRYSTAL)
-	
+
+	---队伍预设
+	TFDirector:addProto(s2c.PLAYER_RESP_FORMATION_BACKUP_LIST,self,self.onUpdatePreTeamInfo)
+	TFDirector:addProto(s2c.PLAYER_RESP_FORMATION_BACKUP_HERO,self,self.onRecvChangeTeamInfo)
+	TFDirector:addProto(s2c.PLAYER_RESP_FORMATION_BACKUP_DESC,self,self.onRecvChangeTeamName)
+	TFDirector:addProto(s2c.PLAYER_RESP_FORMATION_BACKUP_USE,self,self.onRecvSelectTeam)
+
 	--self:initShowList();
 
 end
@@ -532,8 +539,11 @@ function HeroDataMgr:getHeroJobIconPath(id)
 	return ""
 end
 
-function HeroDataMgr:getIconPathById(id, skinid)
+function HeroDataMgr:getIconPathById(id, skinid, isDefaultSkin)
 	skinid = skinid or self:getCurSkin(id);
+	if isDefaultSkin and id then
+		skinid = self.heroTable[id].defaultSkin;
+	end
 	return TabDataMgr:getData("HeroSkin",skinid).heroIcon; --self.heroTable[id].icon;
 end
 
@@ -1411,7 +1421,7 @@ function HeroDataMgr:changeDataByFuben(levelID,formationData)
 	self:changeDataByLevelCfg(levelCfg_,formationData)
 end
 
-function HeroDataMgr:changeFormation(_pos,_changeToServer, isEndless, isSkyLadder,limitSimulationTrial,containSimulationTrial)
+function HeroDataMgr:changeFormation(_pos,_changeToServer, isEndless, isSkyLadder,isHwx,limitSimulationTrial,containSimulationTrial,preTeamId)
 	local changeToServer = _changeToServer;
 	if _changeToServer == nil then
 		changeToServer = true
@@ -1497,8 +1507,11 @@ function HeroDataMgr:changeFormation(_pos,_changeToServer, isEndless, isSkyLadde
 		changeToServer = changeToServer,
 		isEndless = isEndless, 
 		isSkyLadder = isSkyLadder ,
+		isHwx = isHwx,
+		preTeamId = preTeamId,
 		limitSimulationTrial  = limitSimulationTrial,
-		containSimulationTrial = containSimulationTrial });
+		containSimulationTrial = containSimulationTrial,
+	});
     AlertManager:addLayer(layer)
     AlertManager:show()
 end
@@ -1714,6 +1727,20 @@ function HeroDataMgr:getSkillTab(heroid,isTeam)
 		end
 	end
 
+	--宝物激活技能
+	if isTeam then
+		if self.heroTable[heroid] then
+			for i,v in ipairs(self.heroTable[heroid].exploreTreasureSkill or {}) do
+				table.insert(skillTab,v)
+			end
+		end
+	else
+		local skills = ExploreDataMgr:getTresureSkills()
+		for i,v in ipairs(skills or {}) do
+			table.insert(skillTab,v)
+		end
+	end
+
 	return skillTab;
 end
 
@@ -1850,6 +1877,9 @@ function HeroDataMgr:getMaxAgr(heroid)
 end
 
 function HeroDataMgr:getSkillPoint(heroid)
+	if self.heroTable[heroid].attr == nil then
+		return 0
+	end
 	local attr = self.heroTable[heroid].attr[EC_Attr.ATTR_SKILL_POINT]
 	if type(attr) == "table" then
 		attr = attr.val
@@ -1860,6 +1890,9 @@ function HeroDataMgr:getSkillPoint(heroid)
 end
 
 function HeroDataMgr:getSkillPointMax(heroid)
+	if self.heroTable[heroid].attr == nil then
+		return 0
+	end
 	local attr = self.heroTable[heroid].attr[EC_Attr.ATTR_SKILL_POINT]
 	if type(attr) == "table" then
 		attr = attr.val
@@ -2481,10 +2514,12 @@ end
 
 function HeroDataMgr:getFriendSkillInfo(heroInfo)
 	local player = {}
+
 	player.heros = {heroInfo}
 	self:changeDataToFriend(player);
 	local angelTalents = self:getAngelTalents(heroInfo.cid);
-	local skillTab = self:getSkillTab(heroInfo.cid);
+
+	local skillTab = self:getSkillTab(heroInfo.cid,true);
 	self:changeDataToSelf();
 	return angelTalents,skillTab
 end
@@ -2908,7 +2943,10 @@ function HeroDataMgr:getGemInfos(heroid, isTrial)
 				gemInfo.id = "stone"..i
 				gemInfo.cid = v
 				gemInfo.heroId = heroid
-				gemInfo.randSkill = stoneCfg[v].specialSkill[1] or {}
+				gemInfo.randSkill = {}
+				for k,v in ipairs(stoneCfg[v].specialSkill) do
+					table.insert(gemInfo.randSkill,v[1])
+				end
 				table.insert(gemInfos,gemInfo)
 			end
 		end
@@ -3001,6 +3039,7 @@ function HeroDataMgr:checkHeroAngelEnableBreakUp(heroId)
 	local limitLevel = data.heroLevel
     local heroRank = data.heroRank
     local quality = self:getQuality(heroId)
+	self.heroTable[heroId].lvl = self.heroTable[heroId].lvl or 0
 	if self.heroTable[heroId].lvl >= limitLevel and quality >= heroRank then
 		return true
 	end
@@ -3137,7 +3176,10 @@ function HeroDataMgr:getHeroAngelBreakCfg(heroId, level)
 	return cfg
 end
 
-function HeroDataMgr:getAngelBreakLevel(heroId)
+function HeroDataMgr:getAngelBreakLevel(heroId, isFriend)
+	if isFriend and self.heroTable[heroId] then 
+		return self.heroTable[heroId].breakLv or 0
+	end
 	local angleSpirits = self.spiritInfo_ and self.spiritInfo_.angleSpirits or {}
 	for k,v in pairs(angleSpirits) do
 		if v.heroCid == heroId then
@@ -3919,6 +3961,122 @@ function HeroDataMgr:HERO_RES_QUICK_ACTIVE_CRYSTAL(event)
 		-- 	index = index + 1
 		-- end)
 	end
+end
+
+
+----队伍预设------
+
+
+function HeroDataMgr:Send_GetPreTeamInfo()
+	TFDirector:send(c2s.PLAYER_REQ_FORMATION_BACKUP_LIST,{})
+end
+
+function HeroDataMgr:Send_ChangePreTeam(teamId,sourceHeroId,targetHeroId)
+
+	local msg = {
+		teamId,
+		tostring(sourceHeroId),
+		tostring(targetHeroId),
+	}
+	TFDirector:send(c2s.PLAYER_REQ_FORMATION_BACKUP_HERO,msg)
+end
+
+function HeroDataMgr:Send_SelectPreTeam(teamId)
+	TFDirector:send(c2s.PLAYER_REQ_FORMATION_BACKUP_USE,{teamId})
+end
+
+function HeroDataMgr:Send_MotifyTeamName(teamId,name)
+	TFDirector:send(c2s.PLAYER_REQ_FORMATION_BACKUP_DESC,{teamId,name})
+end
+
+function HeroDataMgr:getPreTeamInfo(teamId)
+	return self.preTeamInfo[teamId]
+end
+
+function HeroDataMgr:getPreTeamHeroId(teamId,pos)
+
+	local preTeamInfo = self.preTeamInfo[teamId]
+	if not preTeamInfo then
+		return
+	end
+
+	return  preTeamInfo.formation[pos]
+end
+
+function HeroDataMgr:getPreTeamPosByHeroId(teamId,heroId)
+
+	local preTeamInfo = self.preTeamInfo[teamId]
+	if not preTeamInfo then
+		return -1
+	end
+	local index = -1
+	local selectRoleid = self:getHeroRoleId(tonumber(heroId))
+	for k,v in ipairs(preTeamInfo.formation) do
+		local roleId = self:getHeroRoleId(tonumber(v))
+		if roleId == selectRoleid then
+			index =  k
+			break
+		end
+	end
+	return index
+end
+
+function HeroDataMgr:onUpdatePreTeamInfo(event)
+
+	local data = event.data
+	if not data then
+		return
+	end
+
+	self.preTeamInfo = {}
+
+	local formations = data.formations or {}
+	for k,v in ipairs(formations) do
+		self.preTeamInfo[v.id] = {teamId = v.id,teamName =v.desc,formation = v.base.stance or {}}
+	end
+
+	EventMgr:dispatchEvent(EV_UPDATE_PRE_TEAM)
+end
+
+function HeroDataMgr:setPreTeamData(data)
+
+	local formation = data.formation
+	if not formation then
+		return
+	end
+	local teamId = formation.id
+	self.preTeamInfo[teamId] = {teamId = teamId,teamName = formation.desc,formation = formation.base.stance or {}}
+	EventMgr:dispatchEvent(EV_UPDATE_PRE_TEAM,teamId)
+end
+
+---修改名字和预设阵型信息修改返回
+function HeroDataMgr:onRecvChangeTeamInfo(event)
+
+	local data = event.data
+	if not data then
+		return
+	end
+	self:setPreTeamData(data)
+end
+
+function HeroDataMgr:onRecvChangeTeamName(event)
+
+	local data = event.data
+	if not data then
+		return
+	end
+	self:setPreTeamData(data)
+	Utils:showTips(14300320)
+end
+
+---设置预设阵容返回
+function HeroDataMgr:onRecvSelectTeam(event)
+
+	local data = event.data
+	if not data then
+		return
+	end
+	EventMgr:dispatchEvent(EV_SET_PRE_TEAM)
 end
 
 return HeroDataMgr:new()

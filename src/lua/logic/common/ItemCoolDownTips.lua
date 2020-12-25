@@ -29,7 +29,6 @@ function getItemCoolDownTime(itemId)
 end
 
 function initItemCoolDownTimes(recoverTimeList)
-    dump(recoverTimeList)
     if recoverTimeList then
         for i, time in ipairs(recoverTimeList) do
             if i == 1 then
@@ -62,6 +61,12 @@ function initItemCoolDownTimes(recoverTimeList)
                 else
                     itemCoolDownTimes[EC_SItemType.SX_BIRTHDAY_POWER] = ServerDataMgr:getServerTime()
                 end
+			elseif i == 6 then
+                if time > 0 then
+                    itemCoolDownTimes[EC_SItemType.SZDY_TOUZI] = time
+                else
+                    itemCoolDownTimes[EC_SItemType.SZDY_TOUZI] = ServerDataMgr:getServerTime()
+                end
             end
         end
     end
@@ -84,10 +89,16 @@ function updateItemCoolDownTimes(oldItem, newItem)
         elseif itemId == EC_SItemType.SX_BIRTHDAY_POWER then
             local itemCfg = GoodsDataMgr:getItemCfg(itemId)
             maxNum = itemCfg.totalMax
+
+		elseif itemId == EC_SItemType.SZDY_TOUZI then
+            local maxRecoverCount = StoreDataMgr:getItemRecoverCfg(30).maxRecoverCount
+			if maxRecoverCount > 0 then
+				maxNum = maxRecoverCount
+			end
         end
-        if (newItem.num - lastNum == 1) or (lastNum >= maxNum and newItem.num < maxNum) then
-            itemCoolDownTimes[tonumber(newItem.id)] = ServerDataMgr:getServerTime()
-        end
+		if (newItem.num - lastNum == 1) or (lastNum >= maxNum and newItem.num < maxNum) then
+		    itemCoolDownTimes[tonumber(newItem.id)] = ServerDataMgr:getServerTime()
+		end
     end
 end
 
@@ -148,6 +159,11 @@ function ItemCoolDownTips:initUI(ui)
         curNum = 1
         maxNum = 0
         tipsId = 800133
+	elseif self.m_itemId == EC_SItemType.SZDY_TOUZI then
+		recoverCfg = true
+        curNum = 1
+        maxNum = 0
+        tipsId = 800052
     end
     if not recoverCfg or not curNum then
         return
@@ -177,9 +193,12 @@ function ItemCoolDownTips:initUI(ui)
         end
         local day, hour, min, sec = Utils:getDHMS(coolDownTime, true)
         Label_tips_single:setTextById(800050, min, sec)
-        day, hour, min, sec = Utils:getDHMS(math.max(((subNum - 1) * recoverCfg.cooldown + coolDownTime), 0), true)
+        day, hour, min, sec = Utils:getTimeDHMZ(math.max(((subNum - 1) * recoverCfg.cooldown + coolDownTime), 0), true)
+        dump((subNum - 1) * recoverCfg.cooldown + coolDownTime)
+        hour = day*24 + hour
         Label_tips_total:setTextById(800051, hour, min, sec)
     end
+
     local size = self.m_targetNode:getContentSize()
     local anchorPoint = self.m_targetNode:getAnchorPoint()
     local boundingBox = self.m_targetNode:boundingBox()

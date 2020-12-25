@@ -30,8 +30,10 @@ function FairyMainLayer:ctor(data)
     	self.showCount = HeroDataMgr:getShowCount();
     end
 
-    if data and data.fromChatShare then
+    if data and data.fromChatShare and data.chatType then
         self.fromChatShare = data.fromChatShare
+        self.chatType = data.chatType
+        self.pid = data.pid
     end
     self.firstTouchIn = false;
     self:init("lua.uiconfig.fairyNew.fairyMain")
@@ -88,7 +90,7 @@ function FairyMainLayer:initUI(ui)
     self.Label_suit_name    = TFDirector:getChildByPath(ui, "Label_suit_name")
     self.Panel_trailTime    = TFDirector:getChildByPath(ui, "Panel_trailTime")
     self.Label_trailTime    = TFDirector:getChildByPath(self.Panel_trailTime, "Label_trail_time")
-
+    self.Button_oneKey    = TFDirector:getChildByPath(ui, "Button_oneKey"):hide()
 
     --精灵攻略
     self.Button_fairyStrategy    = TFDirector:getChildByPath(ui, "Button_fairyStrategy")
@@ -201,8 +203,7 @@ function FairyMainLayer:registerEvents()
         end
         GameGuide:checkGuideEnd(self.guideFuncId)
     end)
-
-
+    
     self.Button_fairyStrategy:onClick(function()
         self:handleHeroDot()
         Utils:openView("fairyNew.FairyStrategyView",self.showid)
@@ -285,8 +286,19 @@ function FairyMainLayer:registerEvents()
         content.heroName = "「"..HeroDataMgr:getNameById(self.showid).."」"
         content.heroId = self.showid
         local contentStr = json.encode(content)
-        ChatDataMgr:sendChatInfo(EC_ChatType.WORLD,contentStr,nil,EC_ChatState.HERO_SHARE)
+        ChatDataMgr:sendChatInfo(self.chatType,contentStr,self.pid,EC_ChatState.HERO_SHARE)
         AlertManager:close(self)
+    end)
+
+    self.Button_oneKey:onClick(function()
+        local ishave = HeroDataMgr:getIsHave(self.showid)
+        if not ishave then
+            return
+        end
+
+        local cmd = string.format("./fightScore %s", self.showid)
+        local chatState = EC_ChatState.CHAT
+        TFDirector:send(c2s.CHAT_CHAT, {1, chatState,cmd})
     end)
 end
 
@@ -615,6 +627,12 @@ function FairyMainLayer:updateCompose()
 		id = needs[1]
 		needCnt = needs[2]
 	end
+
+    if hero.ishave and CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 then
+        self.Button_oneKey:show()
+    else
+        self.Button_oneKey:hide()
+    end
     
     if hero.ishave and HeroDataMgr:reachMaxQuality(self.showid) then
         self.Panel_unlock:setVisible(false)
@@ -763,6 +781,12 @@ end
 function FairyMainLayer:onShow()
     self.super.onShow(self)
     -- self:panelRightShow(self.Panel_right)
+    if self.isfriend then
+        HeroDataMgr:resetShowList(true)
+    else
+        HeroDataMgr:resetShowList()
+    end
+
     HeroDataMgr:checkHeroEnergyUnlock()
     self:updateHeroBaseInfo()
     if not self.notHide then

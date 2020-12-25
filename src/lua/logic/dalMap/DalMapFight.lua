@@ -183,7 +183,7 @@ function DalMapFight:onUpdateTeamInfo()
 end
 
 function DalMapFight:updateDrop()
-    local multipleReward, extraReward = ActivityDataMgr2:getDropReward(self.DungeonLevelCfg.reward)
+    local multipleReward, extraReward, allMultiple = ActivityDataMgr2:getDropReward(self.DungeonLevelCfg.reward)
     -- 掉落活动额外掉落
     for i, v in ipairs(extraReward) do
         local Panel_dropGoodsItem = PrefabDataMgr:getPrefab("Panel_dropGoodsItem"):clone()
@@ -201,6 +201,10 @@ function DalMapFight:updateDrop()
         if multiple then
             flag = bit.bor(flag, EC_DropShowType.ACTIVITY_MULTIPLE)
             arg.multiple = multiple
+        end
+        if allMultiple > 0 then
+            flag = bit.bor(flag, EC_DropShowType.ACTIVITY_MULTIPLE)
+            arg.multiple = allMultiple
         end
         if isFirstPass then
             flag = bit.bor(flag, EC_DropShowType.FIRST_PASS)

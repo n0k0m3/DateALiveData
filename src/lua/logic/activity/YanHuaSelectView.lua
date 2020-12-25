@@ -35,6 +35,10 @@ function YanHuaSelectView:initUI( ui )
 	self.tip2 = TFDirector:getChildByPath(ui,"tip2");
 	self.btn_sure = TFDirector:getChildByPath(ui,"btn_sure");
 	self.Button_close = TFDirector:getChildByPath(ui,"Button_close");
+	local ScrollView_pos = TFDirector:getChildByPath(ui,"ScrollView_pos");
+	local posItem = TFDirector:getChildByPath(ui,"pos1"):hide();
+
+	self.uiListView = UIListView:create(ScrollView_pos)
 
 	self.tip1:setTextById(13100050)
 	local cfg = TabDataMgr:getData("FireWork")
@@ -53,9 +57,11 @@ function YanHuaSelectView:initUI( ui )
 	self.anis = {}
 	local i = 1
 	for k,v in pairs(self.fireWorks) do
-		local pos = TFDirector:getChildByPath(ui,"pos"..i);
+		local pos = posItem:clone()
+		pos:show()
 		local ani = TFDirector:getChildByPath(pos,"spine_ani");
 		local panel_click = TFDirector:getChildByPath(pos,"panel_click");
+		self.uiListView:pushBackCustomItem(pos)
 		local id = k
 		self.anis[k] = ani
 		ani:playByIndex(0,-1,-1,1)
@@ -78,6 +84,19 @@ function YanHuaSelectView:initUI( ui )
 	    i = i + 1
 	end
 	if self.selectId then
+		local idx = 1
+		for id,i in pairs(self.fireWorks) do
+			if id == self.selectId then
+				break;
+			end
+			idx = idx + 1
+		end
+
+		if idx > 3 then
+			self.uiListView:jumpToRight(idx)
+		else
+			self.uiListView:jumpToLeft(idx)
+		end		
 		self.anis[self.selectId]:setVisible(true)
 	end
 end

@@ -5,7 +5,6 @@ local isTest = false
 
 local DatingConfig = require("lua.logic.dating.DatingConfig")
 local DatingScriptConfig = require("lua.logic.dating.DatingScriptConfig")
-
 local isScriptTest = false
 
 local CTL_ZOrder = {
@@ -13,6 +12,7 @@ local CTL_ZOrder = {
     changeBgFadeZOrder = 2,
     --sceneEffectZOrder_belong1or3 = 3, --加载在背景内部暂时不处理
     normalModelZOrder = 4,
+    damuZorder = 4.5,
     cgZOrder = 5,
     cgInterZOrder = 6,
     sceneEffectZOrder_belong2 = 7,
@@ -127,6 +127,10 @@ function DatingScriptView:resetCTLZOrder(isUpZOrder)
         self.Panel_optionView:setZOrder(disZOrder + CTL_ZOrder.optionZOrder)
     end
 
+    if self.Panel_danmuView then
+        self.Panel_danmuView:setZOrder(disZOrder + CTL_ZOrder.damuZorder)
+    end
+
     if self.phoneSK then
         self.phoneSK:setZOrder(disZOrder + CTL_ZOrder.phoneSpineZOrder)
     end
@@ -176,6 +180,8 @@ function DatingScriptView:ctor(isFubenShowBackBtn,isNoF)
     self.isHaveNpcVoice = false
     self.autoSpeed = 0
 
+    self.isDatingDanMu = true
+
     self:initScriptData()
 
     self.bgm = nil
@@ -199,7 +205,6 @@ function DatingScriptView:initScriptData()
     self.datingType = self.curScript.datingType or EC_DatingScriptType.SHOW_SCRIPT
     self.datingState = self.curScript.state
     self.isDatingFirst = self.curScript.isFirst
-
 
     self.roleId = DatingDataMgr:getDatingRuleRoleId(self.curScript.datingRuleCid) or RoleDataMgr:getCurId()
     RoleDataMgr:setCurId(self.roleId)
@@ -252,10 +257,23 @@ function DatingScriptView:initUI(ui)
     self.Image_datingPhone:setVisible(false)
     self.Image_loadingBar = TFDirector:getChildByPath(self.Panel_main, "Image_loadingBar")
     self.Panel_optionView = TFDirector:getChildByPath(self.ui, "Panel_optionView")
+    self.Panel_danmuView = TFDirector:getChildByPath(self.ui, "Panel_danmuView")
     if self.Image_loadingBar then
         self.Image_loadingBar:hide()
         self.Image_pro = TFDirector:getChildByPath(self.Image_loadingBar, "Image_pro")
     end
+
+    local params = {
+        _type = EC_InputLayerType.SEND,
+        buttonCallback = function()
+            self:onTouchSendBtn()
+        end,
+        closeCallback = function()
+            self:onCloseInputLayer()
+        end
+    }
+    self.inputLayer = require("lua.logic.common.InputLayer"):new(params)
+    self:addLayer(self.inputLayer,1000)
 
     self:initOptionView()
     self:initOther()
@@ -267,6 +285,7 @@ function DatingScriptView:initUI(ui)
     self:initButtonList()
     self:initPanelPro()
 
+    self:initDanMuView()
 
     self:resetCTLZOrder()
 
@@ -305,6 +324,67 @@ function DatingScriptView:initUI(ui)
     self:showScriptMsg()
 end
 
+function DatingScriptView:initDanMuView()
+    dump(self.curScript.datingRuleCid)
+    local barrageCfg = TabDataMgr:getData("Barrage")[self.curScript.datingRuleCid]
+     if barrageCfg and barrageCfg.barrageType == EC_DanmuType.Dating then
+         self:setDanMuPannelVisible(true)
+         self.Panel_danMuOption:setVisible(true)
+         self.isDatingDanMu = true
+         TFDirector:send(c2s.CHAT_REQ_BULLET_INFO,{self.curScript.datingRuleCid})
+         if not self.danmuView then
+             self.danmuView = requireNew("lua.logic.dating.DatingDanMuViewNew"):new(self.curScript.datingRuleCid)
+             self:addLayerToNode(self.danmuView, self.Panel_danmuView)
+         else
+             self.danmuView:resetData(self.curScript.datingRuleCid)
+         end
+     else
+         self:setDanMuPannelVisible(false)
+         self.isDatingDanMu = false
+         self.Panel_danMuOption:setVisible(false)
+     end
+end
+
+function DatingScriptView:insertPageDanMuData()
+    if self.danmuView then
+        self.danmuView:updateDanMuData(self.itemData)
+    end
+end
+
+function DatingScriptView:insertDanMu(str)
+    if self.danmuView then
+        self.danmuView:insertWord(str)
+    end
+end
+
+function DatingScriptView:jumpDanMu()
+
+    if not self.danmuView then
+        return
+    end
+
+
+
+    local selectImg = self.skipButton.select
+    local visible = selectImg:isVisible()
+
+    if not self.cgView then
+        self:setDanMuPannelVisible(not visible)
+    end
+
+    if visible then
+        self.danmuView:stopAllDanum()
+    else
+        self.danmuView:jumpDanMu()
+    end
+end
+
+function DatingScriptView:accelerationDanmu()
+    if self.danmuView then
+        self.danmuView:accelerationDanmu(self.autoSpeed)
+    end
+end
+
 function DatingScriptView:initOptionView()
     self.optionView = require("lua.logic.dating.DatingOptionView"):new(self.scriptTableName,
             function(id, data)
@@ -318,7 +398,8 @@ function DatingScriptView:initOptionView()
                     self.isSkip = false
                     self.isAuto = false
                 end
-                self.itemData = data
+                self.itemData = {}
+                self.itemData.jump = {data.jump[1]}
                 if not self.interCgView then
                     self:sendDialogueMsg(id)
                 end
@@ -507,6 +588,9 @@ function DatingScriptView:showReview()
     self.datingReview = requireNew("lua.logic.dating.DatingReview"):new(data)
     AlertManager:addLayer(self.datingReview, AlertManager.BLOCK)
     AlertManager:show()
+
+    self:setDanMuPannelVisible(false)
+
 end
 
 function DatingScriptView:closeReview()
@@ -514,6 +598,15 @@ function DatingScriptView:closeReview()
     self:showUI()
     self.isJumpOk = true
     self:stopShader()
+    local selectImg = self.skipButton.select
+    local visible = selectImg:isVisible()
+    if  not self.cgView then
+        if not visible then
+            self:setDanMuPannelVisible(true)
+        end
+    end
+
+
 end
 
 function DatingScriptView:showVideoView()
@@ -576,6 +669,12 @@ function DatingScriptView:initPanelPro()
     self.Panel_attribute3 = TFDirector:getChildByPath(self.Panel_pro, "Panel_attribute3")
     self.Panel_attribute3.pro = TFDirector:getChildByPath(self.Panel_attribute3, "LoadingBar_datingScriptView_1")
 
+    self.Panel_danMuOption = TFDirector:getChildByPath(self.Panel_pro, "Panel_danMuOption")
+    self.Button_switch = TFDirector:getChildByPath(self.Panel_danMuOption, "Button_switch")
+    self.Button_talk = TFDirector:getChildByPath(self.Panel_danMuOption, "Button_talk")
+    self.TextField_danmu = TFDirector:getChildByPath(self.Panel_danMuOption,"TextField_danmu")
+    self.TextField_danmu:setMaxLength(30)
+
     self.Panel_attribute1:setVisible(self.showScore)
     self.Panel_attribute2:setVisible(self.showScore)
     self.Panel_attribute3:setVisible(self.showScore)
@@ -592,6 +691,35 @@ function DatingScriptView:initPanelPro()
         self:updateAttributes()
     end
 end
+
+function DatingScriptView:onCloseInputLayer()
+    self.TextField_danmu:closeIME()
+    self.TextField_danmu:setText("")
+end
+
+function DatingScriptView:onTouchSendBtn()
+
+    local barrageCfg = TabDataMgr:getData("Barrage")[self.curScript.datingRuleCid]
+    if not barrageCfg then
+        return
+    end
+    local coolTime = barrageCfg.coolTime
+    local lastSendTime = DanmuDataMgr:getLastSendTimeByType(self.curScript.datingRuleCid)
+    local remandTime = lastSendTime - ServerDataMgr:getServerTime() + coolTime
+    print(coolTime,lastSendTime,ServerDataMgr:getServerTime(),remandTime)
+    if remandTime > 0 then
+        local day,hour, min, sec = Utils:getDHMS(remandTime, true)
+        Utils:showTips(14210328,sec)
+        return
+    end
+
+    local content = self.TextField_danmu:getText()
+    if content and #content > 0 then
+        --self:insertDanMu(content)
+        DanmuDataMgr:sendDanmu(self.curScript.datingRuleCid, content, self.itemData.id)
+    end
+end
+
 
 function DatingScriptView:updateAttributes(quality)
     local datingVariable = TabDataMgr:getData("DatingVariable")
@@ -1057,9 +1185,19 @@ function DatingScriptView:showPicture()
 
     for k,v in pairs(self.itemData.insertPicture) do
         if v.disapr then -- 隐藏图片
-            self.pictureArray[k]:hide()
+            print("=============",k)
+            local arr = {
+                FadeOut:create(0.3),
+                CallFunc:create(function ()
+                self.pictureArray[k]:hide()
+                self.pictureArray[k]:setOpacity(255)
+                end)
+            }
+            self.pictureArray[k]:runAction(CCSequence:create(arr))
+        
         else
             self.pictureArray[k]:show()
+            self.pictureArray[k].isShowAnim = nil
             self.pictureArray[k]:setTexture(v.path)
             v.x = v.x or 0
             v.y = v.y or 0
@@ -1068,10 +1206,12 @@ function DatingScriptView:showPicture()
     end
 
     for i, v in ipairs(self.pictureArray) do
-        v:stopAllActions()
-        if v.isVisible then
+        
+        if v.isVisible and not v.isShowAnim then
+            v:stopAllActions()
             v:setOpacity(0)
             v:fadeIn(0.3)
+            v.isShowAnim = true
         end
     end
 
@@ -1411,6 +1551,8 @@ function DatingScriptView:createElvesNpc(disTime,roleInfo)
                         npc:playMoveRightIn(0.3)
                     elseif self.itemData["roleShowType" .. id] == 5 then
                         npc:playMoveUpIn(0.3)
+                    elseif self.itemData["roleShowType" .. id] == 6 then
+                        npc:playIn(0.15)    
                     end
                 end, 0.3)
             else
@@ -1722,6 +1864,8 @@ function DatingScriptView:showText(deyTime)
 end
 
 function DatingScriptView:showLabelText(deyTime)
+
+    self:insertPageDanMuData()
     self.textarea:setText("")
     deyTime = deyTime or 0
     if self.itemData.text == "" or self.itemData.isVisibleUI == 1 then
@@ -1986,6 +2130,7 @@ function DatingScriptView:refreshButtonListState(selectBtn)
     if (selectBtn and selectBtn.type ~= self.btnType.auto) or not selectBtn then
         self.autoSpeed = 0
     end
+    local isShowDanMu = true
     for i, v in ipairs(self.buttonList) do
         local btn = v
         if btn.select then
@@ -1996,6 +2141,9 @@ function DatingScriptView:refreshButtonListState(selectBtn)
                 end
             else
                 btn.select:hide()
+            end
+            if btn == self.skipButton and btn.select:isVisible() then
+                isShowDanMu = false
             end
         end
     end
@@ -2021,6 +2169,11 @@ function DatingScriptView:refreshButtonListState(selectBtn)
     else
         self.isAuto = false
     end
+
+    --if isShowDanMu then
+        self:jumpDanMu()
+    --end
+    self:accelerationDanmu(self.autoSpeed)
 end
 
 function DatingScriptView:playChangeBgAction(appearType)
@@ -2068,7 +2221,7 @@ function DatingScriptView:playChangeBgAction(appearType)
                 self.skipAction = nil
 
                 if self.isOption or self.isHaveCg then
-                    self.isOption = false
+                    self.isOption = falseImage_auto
                     self.isHaveCg = false
                     if not self.itemData.autoJump then
                         self:jumpToNext()
@@ -2478,7 +2631,10 @@ function DatingScriptView:playCg()
     else
         self:showButtonList(3)
     end
+
     local lastCgView = self.cgView
+    self.Panel_danMuOption:setVisible(false)
+    self:setDanMuPannelVisible(false)
     self.cgView = require("lua.logic.common.CgView"):new(id, bgPath, islockTouch, cgCallBack)
     self:addLayerToNode(self.cgView, self.imageBg:getParent());
     self:resetCTLZOrder()
@@ -2577,10 +2733,23 @@ function DatingScriptView:hideButtonList(time)
     self.reviewButton:fadeOut(time)
     self.Button_camera:fadeOut(time)
     self.setButton:fadeOut(time)
+
     self:setButtonListTouchState(false)
 end
 
 function DatingScriptView:stopCg()
+
+
+    local barrageCfg = TabDataMgr:getData("Barrage")[self.curScript.datingRuleCid]
+    if barrageCfg and barrageCfg.barrageType == EC_DanmuType.Dating then
+        local selectImg = self.skipButton.select
+        local visible = selectImg:isVisible()
+        if not visible then
+            self:setDanMuPannelVisible(true)
+        end
+        self.Panel_danMuOption:setVisible(true)
+    end
+
     if self.cgView then
         self.cgView:removeFromParent()
         self.cgView = nil
@@ -2650,7 +2819,7 @@ function DatingScriptView:jumpToNext()
 
     self.imageTextBg.mask:hide()
     self:stopNovoice()
-    self:hidePicture()
+    -- self:hidePicture()
     self:resetPos()
     if self.showModifyName then
         return
@@ -2821,6 +2990,7 @@ function DatingScriptView:jumpToNext()
         local textDisTime = deyTime
         if self.itemData.isVisibleUI == 1 then
             self:hideUI()
+            print("=============",self.itemData.isVisibleUI,"=============")
         else
             textDisTime = self:showUI(deyTime)
         end
@@ -3013,6 +3183,7 @@ function DatingScriptView:showObsolete()
 end
 
 function DatingScriptView:completeBack(obsolete)
+    self:onCloseInputLayer()
     if isScriptTest then
         AlertManager:closeLayer(self)
         return
@@ -3382,17 +3553,19 @@ function DatingScriptView:registerEvents()
     EventMgr:addEventListener(self, EV_DATING_EVENT.delectCityDating, handler(self.onDelectCityDating, self))
     EventMgr:addEventListener(self, EV_DATING_EVENT.onLogin, handler(self.onLogin, self))
 
+    --EventMgr:addEventListener(self, EV_DANMU_SEND, handler(self.insertDanMu, self))
+
     self.skipButton:onClick(function()
         self:refreshButtonListState(self.skipButton)
         if self.isSkip and not self.isAuto and not(#self.itemData.jump > 1 or self.itemData.optionType == 5)  then
             --self:playChangeBgAction(-2)
             --self.skipButton:hide()
             self:stopAllActions()
-
             for i, v in ipairs(self.npcData_) do
                 v:setVoiceVolume(0)
             end
         end
+        --self:jumpDanMu()
         self:skipFun()
     end)
 
@@ -3496,6 +3669,38 @@ function DatingScriptView:registerEvents()
                 AlertManager:closeLayer(self)
             end)
         end
+    end)
+
+    self.Button_switch:onClick(function ( ... )
+
+        local isVisible = self.Panel_danmuView:isVisible()
+
+        local texture = "ui/danmu/004.png"
+        if not isVisible then
+            texture = "ui/danmu/003.png"
+        end
+        self.Button_switch:setTextureNormal(texture)
+
+        self.isDatingDanMu = not isVisible
+
+        self:setDanMuPannelVisible(not isVisible)
+    end)
+
+    local function onTextFieldChangedHandleAcc(input)
+        self.inputLayer:listener(input:getText())
+    end
+
+    local function onTextFieldAttachAcc(input)
+        self.inputLayer:show()
+        self.inputLayer:listener(input:getText())
+    end
+
+    self.TextField_danmu:addMEListener(TFTEXTFIELD_DETACH, onTextFieldChangedHandleAcc)
+    self.TextField_danmu:addMEListener(TFTEXTFIELD_ATTACH, onTextFieldAttachAcc)
+    self.TextField_danmu:addMEListener(TFTEXTFIELD_TEXTCHANGE, onTextFieldChangedHandleAcc)
+
+    self.Button_talk:onClick(function (  )
+        self.TextField_danmu:openIME()
     end)
 end
 
@@ -3621,6 +3826,7 @@ function DatingScriptView:removeUI()
     me.TextureCache:removeUnusedTextures()
     EventMgr:dispatchEvent(EV_DATING_EVENT.closeSriptView)
     collectgarbage("collect")
+
 end
 
 function DatingScriptView:onClose()
@@ -3649,6 +3855,14 @@ end
 function DatingScriptView:specialKeyBackLogic( )
     GuideDataMgr:setPlotLvlBackState(true)
     return false
+end
+
+function DatingScriptView:setDanMuPannelVisible(visible)
+    if visible then
+        visible = self.isDatingDanMu
+    end
+    self.Panel_danmuView:setVisible(visible)
+
 end
 
 return DatingScriptView;

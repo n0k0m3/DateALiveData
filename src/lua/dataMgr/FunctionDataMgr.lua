@@ -586,6 +586,19 @@ function FunctionDataMgr:jActivityByType( activityType )
     end
 end
 
+--[[
+    TODO 进入活动界面之前下载小包资源
+]]
+function FunctionDataMgr:downloadAssetsBeforeOnEnter(onOpenFunc)
+    local checkExtId = TFAssetsManager:getCheckInfo(12)
+    if checkExtId then
+        TFAssetsManager:downloadAssetsOfFunc(checkExtId, onOpenFunc ,true)
+        return
+    else
+        onOpenFunc()
+    end
+end
+
 function FunctionDataMgr:jActivity(activitId)
     if not self:checkFuncOpen(6) then return end
     local activityInfo = ActivityDataMgr2:getActivityInfo(activitId)
@@ -597,7 +610,9 @@ function FunctionDataMgr:jActivity(activitId)
             return
         end
     end
-    Utils:openView("activity.ActivityMainView", activitId, activityShowType)
+    self:downloadAssetsBeforeOnEnter(function()
+        Utils:openView("activity.ActivityMainView", activitId, activityShowType)
+    end)
 end
 
 function FunctionDataMgr:jActivityByHasActivity(activityShowType, activitId)
@@ -616,28 +631,38 @@ function FunctionDataMgr:jActivityByHasActivity(activityShowType, activitId)
     if self["jActivity"..activityShowType] then
         self["jActivity"..activityShowType](self, activitId, activityShowType)
     else
-        Utils:openView("activity.ActivityMainView", activitId, activityShowType)
+        self:downloadAssetsBeforeOnEnter(function()
+            Utils:openView("activity.ActivityMainView", activitId, activityShowType)
+        end)
     end
 end
 
 function FunctionDataMgr:jActivity3(activitId, activityShowType)
     activityShowType = activityShowType or 3
-    Utils:openView("activity.ActivityMainView2", activitId, activityShowType)
+    self:downloadAssetsBeforeOnEnter(function()
+        Utils:openView("activity.ActivityMainView2", activitId, activityShowType)
+    end)
 end
 
 function FunctionDataMgr:jActivity4(activitId, activityShowType)
     activityShowType = activityShowType or 4
-    Utils:openView("activity.ActivityMainView2", activitId, activityShowType)
+    self:downloadAssetsBeforeOnEnter(function()
+        Utils:openView("activity.ActivityMainView2", activitId, activityShowType)
+    end)
 end
 
 function FunctionDataMgr:jActivity5(activitId, activityShowType)
     activityShowType = activityShowType or 5
-    Utils:openView("activity.ActivityMainView2", activitId, activityShowType)
+    self:downloadAssetsBeforeOnEnter(function()
+        Utils:openView("activity.ActivityMainView2", activitId, activityShowType)
+    end)
 end
 
 function FunctionDataMgr:jActivity6(activitId, activityShowType)
     activityShowType = activityShowType or 6
-    Utils:openView("activity.ActivityMainView6", activitId, activityShowType)
+    self:downloadAssetsBeforeOnEnter(function()
+        Utils:openView("activity.ActivityMainView6", activitId, activityShowType)
+    end)
 end
 
 function FunctionDataMgr:jActivity91(activitId, activityShowType)
@@ -647,7 +672,9 @@ end
 
 function FunctionDataMgr:jActivity1001(activitId, activityShowType)
     activityShowType = activityShowType or 1001
-    Utils:openView("activity.ActivityMainView1001", activitId, activityShowType)
+    self:downloadAssetsBeforeOnEnter(function()
+        Utils:openView("activity.ActivityMainView1001", activitId, activityShowType)
+    end)
 end
 
 function FunctionDataMgr:jWorldRoom(roomType)
@@ -659,12 +686,18 @@ function FunctionDataMgr:jActivity2(activitId, activityShowType)
     if not self:checkFuncOpen() then return end
     self:closeChronoCrossOpenedView(activitId)
     activityShowType = activityShowType or 2
-    Utils:openView("activity.ActivityMainView2", activitId, activityShowType)
+
+    self:downloadAssetsBeforeOnEnter(function()
+        Utils:openView("activity.ActivityMainView2", activitId, activityShowType)
+    end)
 end
 
 function FunctionDataMgr:jActivity7(activitId, activityShowType)
     activityShowType = activityShowType or 7
-    Utils:openView("activity.ActivityMainView2", activitId, activityShowType)
+
+    self:downloadAssetsBeforeOnEnter(function()
+        Utils:openView("activity.ActivityMainView2", activitId, activityShowType)
+    end)
 end
 
 function FunctionDataMgr:closeChronoCrossOpenedView(activitId)
@@ -692,7 +725,20 @@ end
 
 function FunctionDataMgr:jTask(taskType)
     if not self:checkFuncOpen() then return end
-    Utils:openView("task.TaskMainView", taskType)
+
+    -- TODO 小包进入任务界面之前下载资源
+    if GuideDataMgr:isInNewGuide() then
+        Utils:openView("task.TaskMainView", taskType)
+    else
+        local checkExtId = TFAssetsManager:getCheckInfo(11)
+        if checkExtId then
+            TFAssetsManager:downloadAssetsOfFunc(checkExtId,function()
+                Utils:openView("task.TaskMainView", taskType)
+            end,true)
+            return
+        end
+    end
+    -- Utils:openView("task.TaskMainView", taskType)
 end
 
 function FunctionDataMgr:jOnlineStore()
@@ -859,14 +905,41 @@ function FunctionDataMgr:jChat()
 end
 
 function FunctionDataMgr:jPokedex(playerInfo)
+
+    -- TODO 进入图鉴之前下载资源
+    local onDownloadMiniAsset = function ()
+        local checkExtId = TFAssetsManager:getCheckInfo(11)
+        if checkExtId then
+            TFAssetsManager:downloadAssetsOfFunc(checkExtId,function()
+                Utils:openView("collect.CollectMainView")
+            end,true)
+            return
+        end
+    end
+
     if playerInfo then
         CollectDataMgr:readyOtherCollect(playerInfo)
-        Utils:openView("collect.CollectMainView")
+        onDownloadMiniAsset()
         return
     end
     if not self:checkFuncOpen() then return end
     CollectDataMgr:readyOwnCollect()
-    Utils:openView("collect.CollectMainView")
+
+    onDownloadMiniAsset()
+end
+
+--[[
+    跳转到模拟试炼主界面
+]]
+function FunctionDataMgr:jSimulationTrial(chapterId)
+    -- 进入模拟试炼主界面之前下载资源
+    local checkExtId = TFAssetsManager:getCheckInfo(12)
+    if checkExtId then
+        TFAssetsManager:downloadAssetsOfFunc(checkExtId,function()
+            Utils:openView("simulationTrial.SimulationTrialMainView", chapterCid)
+        end,true)
+        return
+    end
 end
 
 function FunctionDataMgr:jCollectCGView(tabIndex)

@@ -9,22 +9,7 @@ local TFUIBase = TFUIBase
 local TFImage = TFImage
 local _create = TFImage.create
 function TFImage:create(texturePath , ...)
-	local language = GAME_LANGUAGE_VAR
-	if language ~= "" and texturePath and texturePath ~= "" then
-		if type(texturePath) ~= "userdata" then --如果是传入pTexture数据则直接调用原函数
-			if LanguageResMgr ~= nil then
-				local pitctureData = LanguageResMgr:getData()
-				if pitctureData[texturePath] then
-					texturePath = pitctureData[texturePath]
-				end
-			else
-				local textureName = string.gsub(texturePath , "%." ,language..".")
-				if TFFileUtil:existFile(textureName) then
-					texturePath = textureName
-				end
-			end
-		end
-	end
+	texturePath = TFGlobalUtils:transTexturePath(texturePath)
 	local obj = _create(TFImage, texturePath , ...)
 	if  not obj then return end
 	TFUIBase:extends(obj)
@@ -54,8 +39,8 @@ rawset(TFImage, "setTexture", function ( self ,texturePath, ... )
 		_setTexture_en(self, texturePath , ...)
 		return
 	end
-	local language = GAME_LANGUAGE_VAR
-	if language ~= "" and texturePath~= "" then
+	local code = TFLanguageMgr:getUsingLanguageCode("_")
+	if code ~= "" and texturePath~= "" then
 		if LanguageResMgr ~= nil then
 			local pitctureData = LanguageResMgr:getData()
 			if pitctureData[texturePath] then
@@ -64,7 +49,7 @@ rawset(TFImage, "setTexture", function ( self ,texturePath, ... )
 				_setTexture_en(self, texturePath,...)
 			end
 		else
-			local textureName = string.gsub(texturePath , "%." ,language..".")
+			local textureName = string.gsub(texturePath , "%." ,code..".")
 			if TFFileUtil:existFile(textureName) then
 				_setTexture_en(self, textureName , ...)
 			else

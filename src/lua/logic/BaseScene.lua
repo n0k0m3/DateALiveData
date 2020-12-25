@@ -148,8 +148,8 @@ function BaseScene:onShow()
 end
 
 -- 添加子panel
-function BaseScene:addLayer(layer)
-    self.baseLayer:addLayer(layer);
+function BaseScene:addLayer(layer, zorder)
+    self.baseLayer:addLayer(layer, zorder);
 end
 
 -- 删除子panel

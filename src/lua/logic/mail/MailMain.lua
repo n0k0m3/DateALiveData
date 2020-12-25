@@ -16,6 +16,13 @@ local showStyle ={
 		tabNameStringId = 63654,
 		tipStringId = 63655,
 		maxEmail = TabDataMgr:getData("DiscreteData", 90009).data.mailUpperLimit,
+	},
+	[3] = {
+		tabIcon = "ui/mail/mail_28.png",
+		tipIcon = "ui/mail/mail_29.png",
+		tabNameStringId = 600044,
+		tipStringId = 63699,
+		maxEmail = TabDataMgr:getData("DiscreteData", 16001).data.maxEmail,
 	}
 }
 
@@ -63,6 +70,7 @@ function MailMain:updateUI()
 	self:updateTabList()
 	self.Label_tips:setTextById(showStyle[self.mailType].tipStringId)
 	self.Image_bottom_icon:setTexture(showStyle[self.mailType].tipIcon)
+	self.Button_oneKey:setVisible(not MailDataMgr:isSpecialMail(self.mailType))
 	MailDataMgr:initShowList(self.mailType);
 	self.tableView:reloadData();
 	self:updateUnReceiveCount()
@@ -226,11 +234,7 @@ function MailMain:updateOneMail(item,idx)
 
 	local Label_title = TFDirector:getChildByPath(item,"Label_title");
 	local Image_new	  = TFDirector:getChildByPath(item,"Image_new");
-	if mailInfo.isStrId then
-		Label_title:setString(mailInfo.title);
-	else
-		Label_title:setTextById(mailInfo.title);
-	end
+	Label_title:setString(mailInfo.title);
 	Image_new:setVisible(mailInfo.status == 0)
 
 	local Label_yidu	  = TFDirector:getChildByPath(item,"Label_yidu");
@@ -238,13 +242,7 @@ function MailMain:updateOneMail(item,idx)
 
 	local Label_concent = TFDirector:getChildByPath(item,"Label_concent");
 	
-	local strBody = ""
-	if mailInfo.isStrId then
-		strBody = mailInfo.body
-	else
-		strBody = TextDataMgr:getText( mailInfo.body)
-	end
-	local exchangeStr	= string.gsub(strBody, "\\n", "\n")
+	local exchangeStr	= string.gsub(mailInfo.body, "\\n", "\n")
 	Label_concent:setString(exchangeStr);
 
 	local Label_time  	= TFDirector:getChildByPath(item,"Label_time");
@@ -272,7 +270,7 @@ function MailMain:updateOneMail(item,idx)
             if mailInfo.status == 0 then
 				MailDataMgr:operationMail(idx,1);
 			else
-				Utils:openView("mail.ShowMail",MailDataMgr:getMailId(idx))
+				MailDataMgr:showMailView(MailDataMgr:getMailId(idx))
 			end
 		end)
 

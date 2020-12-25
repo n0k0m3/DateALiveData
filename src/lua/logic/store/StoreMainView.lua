@@ -121,13 +121,6 @@ function StoreMainView:showStoreList()
         if self.storeDeadLine_[v] then
 
         end
-
-        -- local tagVisible = #storeCfg.storeLabel > 0
-        -- self.tabBtn_[i].Image_tag:setVisible(tagVisible)
-        -- if tagVisible then
-        --     self.tabBtn_[i].Image_tag:setTexture(storeCfg.storeLabel)
-        -- end
-
         self.ListView_store:pushBackCustomItem(item)
     end
     self.ListView_store:scrollToItem(self.defaultSelectIndex_)
@@ -257,6 +250,7 @@ function StoreMainView:updateGoodsList()
             foo.root = item
             foo.Image_diban= Image_diban
             foo.Label_free = TFDirector:getChildByPath(Image_diban, "Label_free")
+            foo.Label_free:setTextById(190000128)
             foo.Panel_head = TFDirector:getChildByPath(Image_diban, "Panel_head")
             foo.Spine_color_down = TFDirector:getChildByPath(foo.Panel_head, "Spine_color_down"):hide()
             foo.Spine_color_up = TFDirector:getChildByPath(foo.Panel_head, "Spine_color_up"):hide()
@@ -344,30 +338,29 @@ function StoreMainView:updateGoodsItem(item, commodityId)
         end)
     
     foo.Button_buy:onClick(function()
-
             local state = StoreDataMgr:getCommodityState(commodityId)
             if state ~= 1 then
                 if state == 3 then
                     Utils:showTips(14210003);
                 else
-                    local extra = StoreDataMgr:getCommodityCfg(commodityId).extra
-                    extra = json.decode(extra)
-                    if extra and extra.date then
-                        Utils:showTips(14210005,extra.date);
+                    if StoreDataMgr:getCommodityCfg(commodityId).extendData.date then
+                        Utils:showTips(14210005,StoreDataMgr:getCommodityCfg(commodityId).extendData.date);
                     end
                 end
                 foo.Button_buy:setGrayEnabled(state ~= 1)
                 return
-            end 
+            end
 
             local callFunc = function ( ... )
-            local isEnough = StoreDataMgr:currencyIsEnough(commodityId)
-            if isBeginBuy then
-                if isEnough then
-                    if goodsCfg.superType == EC_ResourceType.DRESS 
-                    or goodsCfg.superType == EC_ResourceType.REWARD then
-                        if GoodsDataMgr:getItemCount(goodsId) > 0 then
-                            Utils:openView("store.RepeatBuyTipsView", commodityId)
+                local isEnough = StoreDataMgr:currencyIsEnough(commodityId)
+                if isBeginBuy then
+                    if isEnough then
+                        if goodsCfg.superType == EC_ResourceType.DRESS or goodsCfg.superType == EC_ResourceType.REWARD then
+                            if GoodsDataMgr:getItemCount(goodsId) > 0 then
+                                Utils:openView("store.RepeatBuyTipsView", commodityId)
+                            else
+                                Utils:openView("store.BuyConfirmView", commodityId)
+                            end
                         else
                             Utils:openView("store.BuyConfirmView", commodityId)
                         end
@@ -380,22 +373,20 @@ function StoreMainView:updateGoodsItem(item, commodityId)
                             Utils:openView("store.BuyConfirmView", commodityId)
                         end
                     else
-                        Utils:openView("store.BuyConfirmView", commodityId)
-                    end
-                else
-                    local costId = commodityCfg.priceType
-                    local costNum = commodityCfg.priceVal
-                    for i = 1, math.min(#costId, #costNum) do
-                        if not GoodsDataMgr:currencyIsEnough(costId[i], costNum[i] * 1) then
-                            Utils:showAccess(costId[i])
-                            break
+                        local costId = commodityCfg.priceType
+                        local costNum = commodityCfg.priceVal
+                        for i = 1, math.min(#costId, #costNum) do
+                            if not GoodsDataMgr:currencyIsEnough(costId[i], costNum[i] * 1) then
+                                Utils:showAccess(costId[i])
+                                break
+                            end
                         end
                     end
+                else
+                    Utils:showTips(303048)
                 end
-            else
-                Utils:showTips(303048)
             end
-            end
+
             local tipId = Utils:getStoreBuyTipId(StoreDataMgr:getCommodityCfg(commodityId).extendData, 2)
             if tipId then
                 local args = {
@@ -411,6 +402,7 @@ function StoreMainView:updateGoodsItem(item, commodityId)
             end
             
             callFunc();
+            
     end)
 
     foo.Button_buy:setVisible(true)

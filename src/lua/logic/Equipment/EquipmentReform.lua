@@ -522,6 +522,7 @@ end
 
 function EquipmentReform:onShow()
    self.super.onShow(self)
+   self:updateGoodsList()
 end
 
 return EquipmentReform;

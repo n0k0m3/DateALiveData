@@ -183,12 +183,15 @@ function NewSceneShowView:refreshEffect(effectIds,isBgEffect)
     end
 
     for k,effectId in pairs(effectIds) do
-        mgrTab[effectId] = Utils:createEffectByEffectId(effectId)
+        local cfg
+        mgrTab[effectId],cfg = Utils:createEffectByEffectId(effectId)
         if not mgrTab[effectId] then
             return
         end
 
-        mgrTab[effectId]:setPosition(prefab:getPosition())
+        local x = (cfg["offset"]["x"] or 0)
+        local y = (cfg["offset"]["y"] or 0)
+        mgrTab[effectId]:setPosition(ccp(prefab:getPosition().x + x, prefab:getPosition().y + y))
         prefab:getParent():addChild(mgrTab[effectId], prefab:getZOrder())
     end
 end
@@ -207,7 +210,7 @@ function NewSceneShowView:chooseMenu(menuType)
     local posX = menuType == MenuType.Scene and 160 or 73
     self.Button_jump:setPositionX(posX)
 
-    local posX = menuType == MenuType.Scene and 636 or 790
+    local posX = menuType == MenuType.Scene and 494 or 700
     local btnRes = menuType == MenuType.Scene and "ui/role/newScene/icon_01.png" or "ui/role/newScene/icon_07.png"
     self.rollbackIcon:setTexture(btnRes)
     self.Button_rollback:setPositionX(posX)
@@ -282,7 +285,7 @@ function NewSceneShowView:showModelInfo()
     self.model = ElvesNpcTable:createLive2dNpcID(self.curModelId,false,false,nil,true).live2d
     self.Panel_mid:addChild(self.model,1)
     self.model:setScale(0.7); --缩放
-    local pos = ccp(330,-100)
+    local pos = ccp(410,-100)
     self.model:setPosition(pos);--位置
     self.model:playMoveRightIn(0.3)
 

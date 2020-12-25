@@ -50,7 +50,7 @@ function BaoshiSkillShowView:updateSkillItem(item, skillId, gemCfg)
     Label_skill_name:setTextById(skillCfg.name)
     Image_skill_icon:setTexture(skillCfg.icon)
     local skillDesc = TextDataMgr:getTextAttr(tonumber(skillCfg.des)).text
-    skillDesc = string.gsub(skillDesc, "#", gemCfg.skillName)
+    skillDesc = string.gsub(skillDesc, "#", TextDataMgr:getText(gemCfg.skillName))
     Label_skill_desc:setText(skillDesc)
 end
 

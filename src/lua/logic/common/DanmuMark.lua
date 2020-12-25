@@ -110,7 +110,7 @@ function DanmuMark:registerEvents()
 		local lastSendTime = DanmuDataMgr:getLastSendTimeByType(self.danmuId)
 		local remandTime = lastSendTime - ServerDataMgr:getServerTime() + coldTime
 		if remandTime > 0 then
-	    	local day,hour, min, sec = Utils:getFuzzyDHMS(remandTime, true)
+	    	local day,hour, min, sec = Utils:getDHMS(remandTime, true)
 			Utils:showTips(14210173,hour, min, sec)
 			return
 		end

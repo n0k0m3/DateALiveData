@@ -267,7 +267,7 @@ function SummonView:updateSelectInfo()
     self.panel_cost_2:getChildByName("Image_cloth_icon"):setTexture(GoodsDataMgr:getItemCfg(566057).icon)
     self.panel_cost_2:getChildByName("Label_cur"):setTextById(800007, GoodsDataMgr:getItemCount(566057))
     self.panel_cost_2:getChildByName("Label_have"):setTextById(1200001, TextDataMgr:getText(GoodsDataMgr:getItemCfg(566057).nameTextId))
-    self.panel_cost_2:getChildByName("Label_have"):setFontSize(18)
+    self.panel_cost_2:getChildByName("Label_have"):setFontSize(20)
 
 
     self.Button_goto:setVisible(false) ---英文版屏蔽高级时装跳转
@@ -800,16 +800,32 @@ function SummonView:registerEvents()
                         local ownFirstNum = GoodsDataMgr:getItemCount(firstCost.id)
                         local firstIcon = TabDataMgr:getData("Item", firstCost.id).icon
                         if ownFirstNum > 0 then
-                            if isMultiple then
-                                content = string.format(formatStr, ownFirstNum, firstIcon, cost.num - ownFirstNum, costIcon)
-                            else
-                                content = string.format(formatStr, cost.num, firstIcon)
+                            if isMultiple then        
+                                if TFLanguageMgr:getUsingLanguage() == cc.KOREAN then
+                                    content = string.format(formatStr, firstIcon, ownFirstNum, costIcon, cost.num - ownFirstNum)
+                                else
+                                    content = string.format(formatStr, ownFirstNum, firstIcon, cost.num - ownFirstNum, costIcon)
+                                end
+                            else                   
+                                if TFLanguageMgr:getUsingLanguage() == cc.KOREAN then
+                                    content = string.format(formatStr, firstIcon, cost.num)
+                                else
+                                    content = string.format(formatStr, cost.num, firstIcon)
+                                end
                             end
+                        else                          
+                            if TFLanguageMgr:getUsingLanguage() == cc.KOREAN then
+                                content = string.format(formatStr, costIcon, cost.num)
+                            else
+                                content = string.format(formatStr, cost.num, costIcon)
+                            end
+                        end
+                    else
+                        if TFLanguageMgr:getUsingLanguage() == cc.KOREAN then
+                            content = string.format(formatStr, costIcon, cost.num)
                         else
                             content = string.format(formatStr, cost.num, costIcon)
                         end
-                    else
-                        content = string.format(formatStr, cost.num, costIcon)
                     end
                     Utils:openView("common.ReConfirmTipsView", {tittle = 1200041, content = content, reType = EC_OneLoginStatusType.ReConfirm_Summon, confirmCall = reaSummon})
                 end

@@ -37,6 +37,7 @@ function FubenSquadView:initFormationData()
             HeroDataMgr:changeDataByFuben(self.levelCid_, self.formationData_)
         end
     end
+
 end
 
 function FubenSquadView:initAssistanData()
@@ -53,6 +54,9 @@ function FubenSquadView:initAssistanData()
     local isComplete = TFAssetsManager:checkChapterComplete(EC_FBType.PLOT,3)
     local isUnlockChatper = FubenDataMgr:checkPlotChapterEnabled(3, EC_FBDiff.SIMPLE)
     self.isUnlockAssistant_ = isComplete and isUnlockChatper
+    if self.levelCfg_.dungeonType == EC_FBLevelType.HWX then
+        self.isUnlockAssistant_ = true
+    end
 end
 
 function FubenSquadView:initEndlessData()
@@ -60,6 +64,7 @@ function FubenSquadView:initEndlessData()
     local endlessCfg = FubenDataMgr:getEndlessCloisterLevelCfg(self.endlessInfo_.curStage)
     self.endlessCloisterLevel_ = FubenDataMgr:getEndlessCloisterLevel(endlessCfg.week)
     self.showEndlessLevel_  = {}
+    self.levelCfg_ = endlessCfg
 
     local count = 3
     local index = clamp(self.endlessInfo_.todayBest + 1, 1, #self.endlessCloisterLevel_)
@@ -156,15 +161,13 @@ function FubenSquadView:initActivityData(chapterCid, ...)
     elseif chapterCid == EC_ActivityFubenType.SPRITE_EXTRA then
         self:initSpriteExtraData(...)
         self:initFormationData()
-    elseif chapterCid == EC_ActivityFubenType.SIMULATION_TRIAL 
-    or chapterCid == EC_ActivityFubenType.SIMULATION_TRIAL_2
-    or chapterCid == EC_ActivityFubenType.SIMULATION_TRIAL_4 
-    or chapterCid == EC_ActivityFubenType.SIMULATION_TRIAL_5 
-    or chapterCid == EC_ActivityFubenType.SIMULATION_TRIAL_3 then
+	elseif chapterCid == EC_ActivityFubenType.MONSTER then
+		self:initMonsterTrialData(...)
+    elseif FubenDataMgr:isSimulationChapter(chapterCid) then
         local prams = {...}
         self.levelCid_ = prams[1] --关卡ID
         self.levelCfg_ = FubenDataMgr:getLevelCfg(self.levelCid_)
-        self:initFormationData()
+        self:initFormationData()	
     end
 end
 
@@ -228,6 +231,41 @@ function FubenSquadView:initKsanLevelData(data)
     self:initFormationData()
 end
 
+function FubenSquadView:initMojinLevelData(data)
+    self.levelCid_ = data.dungeon
+    self.levelCfg_ = FubenDataMgr:getLevelCfg(self.levelCid_)
+    self.score = data.score
+    self.pass = data.dunPass
+    local activityId = ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.NEWYEAR_FUBEN)[1]
+    self.mojinActivityInfo = ActivityDataMgr2:getActivityInfo(activityId)
+    self:initFormationData()
+end
+
+function FubenSquadView:initHwxLevelData(data,isDuelMod,challengeCount)
+
+    self.levelCid_ = data.dungeon
+    self.levelCfg_ = FubenDataMgr:getLevelCfg(self.levelCid_)
+    self.score = data.score
+    self.pass = data.pass
+    local activityId = ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.HWX_FUBEN)[1]
+    self.hwxActivityInfo = ActivityDataMgr2:getActivityInfo(activityId)
+
+    self.isDuelMod_ = tobool(isDuelMod)
+    self.challengeCount_ = challengeCount or 1
+    self.calChallengeCount_ = math.max(1, self.challengeCount_)
+
+    self:initFormationData()
+    self:initAssistanData()
+end
+
+function FubenSquadView:initMonsterTrialData(lvlId)
+	self.levelCid_ = lvlId
+	self.levelCfg_ = FubenDataMgr:getLevelCfg(self.levelCid_)
+	
+
+	self:initFormationData()
+end
+
 function FubenSquadView:initData(fubenType, ...)
 
     dump({fubenType, {...}})
@@ -249,7 +287,7 @@ function FubenSquadView:initData(fubenType, ...)
         self:initActivityData(...)
     elseif self.fubenType_ == EC_FBType.HOLIDAY or self.fubenType_ == EC_FBType.HOLIDAY2 then
         self:initHolidayData(...)
-    elseif self.fubenType_ == EC_FBType.THEATER or 
+    elseif self.fubenType_ == EC_FBType.THEATER or
             self.fubenType_ == EC_FBType.LINKAGE then
         self:initPlotAndDailyData(...)
     elseif self.fubenType_ == EC_FBType.THEATER_BOSS then
@@ -258,10 +296,35 @@ function FubenSquadView:initData(fubenType, ...)
         self:initPlotAndDailyData(...)
     elseif self.fubenType_ == EC_FBType.SKYLADDER then
         self:initSkyLadderData(...)
-    elseif self.fubenType_ == EC_FBType.HUNTER then
+    elseif self.fubenType_ == EC_FBType.HUNTER or self.fubenType_ == EC_FBType.WORLD_BOSS then
         self:initLeagueHunterData(...)
     elseif self.fubenType_ == EC_FBType.KSAN_FUBEN then
         self:initKsanLevelData(...)
+    elseif self.fubenType_ == EC_FBType.NEWYEAR_FUBEN then
+        self:initMojinLevelData(...)
+    elseif self.fubenType_ == EC_FBType.HWX_FUBEN then
+        self:initHwxLevelData(...)
+    end
+
+end
+
+---刷新共鸣技能列表
+function FubenSquadView:updateGMSkill()
+
+    local infos = ResonanceDataMgr:getEquipedSkills()
+    if not infos then
+        return
+    end
+    for k,v in ipairs(self.gmSkill_) do
+        local equipedCid = infos[k]
+        local cfg = ResonanceDataMgr:getManaResonanceCfg(equipedCid)
+        if cfg then
+            self.gmSkill_[k].iconBg:show()
+            self.gmSkill_[k].skillIcon:setTexture(cfg.icon)
+        else
+            self.gmSkill_[k].iconBg:hide()
+            self.gmSkill_[k].skillIcon:setTexture("")
+        end
     end
 end
 
@@ -273,6 +336,10 @@ function FubenSquadView:ctor(...)
 		self.topBarFileName = "FubenSquadViewEx"
     elseif self.fubenType_ == EC_FBType.KSAN_FUBEN then
         self.topBarFileName = "FubenSquadViewKsan"
+    elseif self.fubenType_ == EC_FBType.NEWYEAR_FUBEN then
+        self.topBarFileName = "FubenSquadViewNewYear"
+    elseif self.fubenType_ == EC_FBType.HWX_FUBEN then
+        self.topBarFileName = "FubenSquadViewHwx"
 	end	
     self:init("lua.uiconfig.fuben.fubenSquadView")
 end
@@ -291,14 +358,40 @@ function FubenSquadView:initUI(ui)
     self.Panel_cardItem = TFDirector:getChildByPath(self.Panel_prefab, "Panel_cardItem")
     self.Panel_effect_item = TFDirector:getChildByPath(self.Panel_prefab, "Panel_effect_item")
     self.Image_card_cost = TFDirector:getChildByPath(self.Panel_prefab, "Image_card_cost")
+	
+
+	self.Panel_MonsterTrial = TFDirector:getChildByPath(self.Panel_root, "Panel_MonsterTrial"):Hide()
+    self.HeroBuffList = UIListView:create(TFDirector:getChildByPath(self.Panel_MonsterTrial, "monsterList"))
 
     self.Panel_formation = TFDirector:getChildByPath(self.Panel_root, "Panel_formation"):hide()
     self.Image_kSanFuben:setVisible(self.fubenType_ == EC_FBType.KSAN_FUBEN)
-    local Panel_formation1 = TFDirector:getChildByPath(self.Panel_root, "Panel_formation1"):hide()
-    if self.fubenType_ == EC_FBType.KSAN_FUBEN then
-        self.Panel_formation = Panel_formation1
+
+    self.gmSkill_ = {}
+    self.Panel_GongMing =  TFDirector:getChildByPath(self.Panel_root, "Panel_GongMing")
+    local isOpen = FunctionDataMgr:isOpen(151)
+    self.Panel_GongMing:setVisible(isOpen)
+    if self.Panel_GongMing then
+        for i=1,4 do
+            local btn = TFDirector:getChildByPath(self.Panel_GongMing, "Button_gm_skill"..i)
+            local Image_icon_bg = TFDirector:getChildByPath(btn, "Image_icon_bg")
+            local icon = TFDirector:getChildByPath(btn, "icon")
+            icon:setScale(0.4)
+            table.insert(self.gmSkill_,{btn = btn, iconBg = Image_icon_bg, skillIcon = icon})
+        end
     end
-    self.Image_kSanFuben:setVisible(self.fubenType_ == EC_FBType.KSAN_FUBEN)
+
+    self.Image_mojin = TFDirector:getChildByPath(ui, "Image_mojin")
+    self.Image_mojin:setVisible(self.fubenType_ == EC_FBType.NEWYEAR_FUBEN)
+    self.Image_mojin_tips = TFDirector:getChildByPath(ui, "Image_mojin_tips")
+    self.Image_mojin_tips:setVisible(self.fubenType_ == EC_FBType.NEWYEAR_FUBEN)
+
+    TFDirector:getChildByPath(ui, "Image_leagueBoss"):setVisible(self.fubenType_ == EC_FBType.WORLD_BOSS)
+
+    self.Image_hwx = TFDirector:getChildByPath(ui, "Image_hwx")
+    self.Image_hwx:setVisible(self.fubenType_ == EC_FBType.HWX_FUBEN)
+    self.Label_hwx_tips = TFDirector:getChildByPath(ui, "Label_hwx_tips")
+    self.Label_hwx_tips:setVisible(self.fubenType_ == EC_FBType.HWX_FUBEN)
+
 
     self.Panel_assistant = TFDirector:getChildByPath(self.Panel_root, "Panel_assistant"):hide()
     self.Panel_endless = TFDirector:getChildByPath(self.Panel_root, "Panel_endless"):hide()
@@ -309,6 +402,11 @@ function FubenSquadView:initUI(ui)
     self.Panel_League_Hunting = TFDirector:getChildByPath(self.Panel_root, "Panel_League_Hunting"):hide()
     self.Panel_halloween2019 = TFDirector:getChildByPath(self.Panel_root, "Panel_halloween2019"):hide()
     self.Panel_KuangSan = TFDirector:getChildByPath(self.Panel_root, "Panel_KuangSan"):hide()
+    self.Panel_mojin = TFDirector:getChildByPath(self.Panel_root, "Panel_mojin"):hide()
+    self.Panel_mojin_award = TFDirector:getChildByPath(self.Panel_mojin, "Panel_mojin_award"):hide()
+
+    self.Panel_hwx = TFDirector:getChildByPath(self.Panel_root, "Panel_hwx"):hide()
+    self.Panel_hwx_award = TFDirector:getChildByPath(self.Panel_hwx, "Panel_hwx_award")
 
     self.Panel_skyladder = TFDirector:getChildByPath(self.Panel_root, "Panel_skyladder"):hide()
     local ScrollView_zone_effect = TFDirector:getChildByPath(self.Panel_skyladder, "ScrollView_zone_effect")
@@ -382,6 +480,12 @@ function FubenSquadView:initUI(ui)
         item.Image_skayladder = TFDirector:getChildByPath(item.Panel_role, "Image_skayladder"):hide()
         item.Label_remain_cnt = TFDirector:getChildByPath(item.Image_skayladder, "Label_remain_cnt")
         item.Button_check = TFDirector:getChildByPath(item.Image_skayladder, "Button_check")
+        item.Panel_mojin_coin = TFDirector:getChildByPath(item.Panel_role, "Panel_mojin_coin"):hide()
+        item.Panel_hwx_tip = TFDirector:getChildByPath(item.Panel_role, "Panel_hwx_tip"):hide()
+        item.Panel_ksan_coin = TFDirector:getChildByPath(item.Panel_role, "Panel_ksan_coin"):hide()
+        if self.fubenType_ == EC_FBType.KSAN_FUBEN then
+            item.Button_add:setTextureNormal("ui/activity/kuangsan_fuben/fightReady/006.png")
+        end
 
         --创建克制icon
         local startPos = item.Label_name:getPosition() + ccp(150 , -100)
@@ -408,6 +512,9 @@ function FubenSquadView:initUI(ui)
     self.Button_lock = TFDirector:getChildByPath(self.Panel_lock, "Button_lock")
     self.Panel_add:setVisible(self.isUnlockAssistant_)
     self.Panel_lock:setVisible(not self.isUnlockAssistant_)
+    self.Panel_assistant_hwx_tip = TFDirector:getChildByPath(Panel_assistantSite, "Panel_hwx_tip"):hide()
+    self.Image_assistant_coin =TFDirector:getChildByPath(self.Panel_assistant_hwx_tip, "Image_coin")
+    self.Label_assistant_coinbuff =TFDirector:getChildByPath(self.Panel_assistant_hwx_tip, "Label_coin_buff")
     --创建克制icon
     local startPos = self.Label_name:getPosition() + ccp(160 , 0)
     self.panel_element = Utils:createElementPanel(self.Panel_role , 1 , startPos , nil , 0.5)
@@ -418,6 +525,7 @@ function FubenSquadView:initUI(ui)
     self.Image_costIcon = TFDirector:getChildByPath(self.Image_cost, "Image_costIcon")
     self.Label_cost = TFDirector:getChildByPath(self.Image_cost, "Label_cost")
     self.Button_fighting = TFDirector:getChildByPath(self.Panel_root, "Button_fighting")
+    self.Button_preTeam = TFDirector:getChildByPath(self.Panel_root, "Button_preTeam")
 
     self.Panel_assistantList = TFDirector:getChildByPath(self.Panel_root, "Panel_assistantList")
     local tableView = TFTableView:create()
@@ -459,6 +567,8 @@ function FubenSquadView:initUI(ui)
     self.Button_sprite_switch = TFDirector:getChildByPath(Image_sprite_cost, "Button_sprite_switch")
     self.Label_sprite_free = TFDirector:getChildByPath(Image_sprite_cost, "Label_sprite_free")
     self.Label_sprite_costTitle = TFDirector:getChildByPath(Image_sprite_cost, "Label_sprite_costTitle")
+
+    self.Panel_leagueBoss = TFDirector:getChildByPath(self.Panel_root, "Panel_leagueBoss"):hide()
 
     self:refreshView()
 end
@@ -503,7 +613,7 @@ function FubenSquadView:showEndless()
             Image_icon:setTexture(endlessCfg.floorIcon)
         end
 
-        local multipleReward, extraReward = ActivityDataMgr2:getDropReward(endlessCfg.reward)
+        local multipleReward, extraReward, allMultiple = ActivityDataMgr2:getDropReward(endlessCfg.reward)
         -- 掉落活动额外掉落
         for i, v in ipairs(extraReward) do
             local Panel_dropGoodsItem = PrefabDataMgr:getPrefab("Panel_dropGoodsItem"):clone()
@@ -521,6 +631,10 @@ function FubenSquadView:showEndless()
             if multiple then
                 flag = bit.bor(flag, EC_DropShowType.ACTIVITY_MULTIPLE)
                 arg.multiple = multiple
+            end
+            if allMultiple > 0 then
+                flag = bit.bor(flag, EC_DropShowType.ACTIVITY_MULTIPLE)
+                arg.multiple = allMultiple
             end
             PrefabDataMgr:setInfo(Panel_dropGoodsItem, {itemCid}, flag, arg)
             ListView_reward:pushBackCustomItem(Panel_dropGoodsItem)
@@ -754,7 +868,7 @@ function FubenSquadView:showKsanLevelData()
         isFirstPass = true
     end
     listview_reward:removeAllItems()
-    local multipleReward, extraReward = ActivityDataMgr2:getDropReward(dropCid)
+    local multipleReward, extraReward, allMultiple = ActivityDataMgr2:getDropReward(dropCid)
     -- 掉落活动额外掉落
     for i, v in ipairs(extraReward) do
         local Panel_dropGoodsItem = PrefabDataMgr:getPrefab("Panel_dropGoodsItem"):clone()
@@ -773,12 +887,300 @@ function FubenSquadView:showKsanLevelData()
             flag = bit.bor(flag, EC_DropShowType.ACTIVITY_MULTIPLE)
             arg.multiple = multiple
         end
+        if allMultiple > 0 then
+            flag = bit.bor(flag, EC_DropShowType.ACTIVITY_MULTIPLE)
+            arg.multiple = allMultiple
+        end
         if isFirstPass then
             flag = bit.bor(flag, EC_DropShowType.FIRST_PASS)
         end
         PrefabDataMgr:setInfo(Panel_dropGoodsItem, {v}, flag, arg)
         listview_reward:pushBackCustomItem(Panel_dropGoodsItem)
     end
+end
+
+function FubenSquadView:showNewYearLevelData( ... )
+    local Image_mojin_buff = TFDirector:getChildByPath(self.Panel_mojin, "Image_mojin_buff"):hide()
+    local ScrollView_award = TFDirector:getChildByPath(self.Panel_mojin, "ScrollView_award")
+    local cfg = FubenDataMgr:getMojinLevelInfo(self.levelCid_)
+    if not cfg then
+        return
+    end
+    local displayDetail = cfg.displayDetail
+    Image_mojin_buff:setVisible(displayDetail == 2 or displayDetail == 3)
+
+    if displayDetail == 2 or displayDetail == 3 then
+        local ScrollView_buff = TFDirector:getChildByPath(Image_mojin_buff, "ScrollView_buff")
+        local listview_buff = UIListView:create(ScrollView_buff)
+        local Label_mojin_buff_desc = TFDirector:getChildByPath(Image_mojin_buff, "Label_mojin_buff_desc"):hide()
+        for k,v in ipairs(cfg.buffDescribe) do
+            local buffDesc = Label_mojin_buff_desc:clone()
+            buffDesc:show()
+            buffDesc:setTextById(v)
+            buffDesc:setDimensions(400,0)
+            listview_buff:pushBackCustomItem(buffDesc)
+        end
+    end
+
+    local Label_mojin_level_desc = TFDirector:getChildByPath(self.Panel_mojin, "Label_mojin_level_desc")
+    local victoryParam = self.levelCfg_.victoryParam
+    if self.levelCfg_.victoryType[1] == 3 then
+        local monsterCid_ = victoryParam[1][1]
+        local monsterCfg_ = TabDataMgr:getData("Monster", monsterCid_)
+        local monserName = TextDataMgr:getText(monsterCfg_.name)
+        Label_mojin_level_desc:setTextById(self.levelCfg_.victoryTypeDescribe[1], monserName,victoryParam[1][2])
+    else
+        Label_mojin_level_desc:setTextById(self.levelCfg_.victoryTypeDescribe[1])
+    end
+
+    ----显示奖励
+    self.Image_cost:hide()
+    if displayDetail ~= 3 then
+        self.Panel_mojin_award:show()
+        self.Image_cost:show()
+        local listview_reward = UIListView:create(ScrollView_award)
+        local isLevelPass = self.pass
+        local dropCid, showReward, isFirstPass
+        if isLevelPass then
+            dropCid = self.levelCfg_.reward
+            showReward = self.levelCfg_.dropShow
+            isFirstPass = false
+        else
+            dropCid = self.levelCfg_.firstReward
+            showReward = self.levelCfg_.firstDropShow
+            isFirstPass = true
+        end
+        listview_reward:removeAllItems()
+        local multipleReward, extraReward, allMultiple = ActivityDataMgr2:getDropReward(dropCid)
+        -- 掉落活动额外掉落
+        for i, v in ipairs(extraReward) do
+            local Panel_dropGoodsItem = PrefabDataMgr:getPrefab("Panel_dropGoodsItem"):clone()
+            Panel_dropGoodsItem:Scale(0.6)
+            PrefabDataMgr:setInfo(Panel_dropGoodsItem, {v}, EC_DropShowType.ACTIVITY_EXTRA)
+            listview_reward:pushBackCustomItem(Panel_dropGoodsItem)
+        end
+        -- 基础掉落
+        for i, v in ipairs(showReward) do
+            local Panel_dropGoodsItem = PrefabDataMgr:getPrefab("Panel_dropGoodsItem"):clone()
+            Panel_dropGoodsItem:Scale(0.6)
+            local flag = 0
+            local arg = {}
+            local multiple = multipleReward[v]
+            if multiple then
+                flag = bit.bor(flag, EC_DropShowType.ACTIVITY_MULTIPLE)
+                arg.multiple = multiple
+            end
+            if allMultiple > 0 then
+                flag = bit.bor(flag, EC_DropShowType.ACTIVITY_MULTIPLE)
+                arg.multiple = allMultiple
+            end
+            if isFirstPass then
+                flag = bit.bor(flag, EC_DropShowType.FIRST_PASS)
+            end
+            PrefabDataMgr:setInfo(Panel_dropGoodsItem, {v}, flag, arg)
+            listview_reward:pushBackCustomItem(Panel_dropGoodsItem)
+        end
+    end
+end
+
+function FubenSquadView:updateHwxLevelData( ... )
+
+    local Image_hwx_buff = TFDirector:getChildByPath(self.Panel_hwx, "Image_hwx_buff")
+    local Image_hwx_boss = TFDirector:getChildByPath(self.Panel_hwx, "Image_hwx_boss")
+
+    local ScrollView_award = TFDirector:getChildByPath(self.Panel_hwx, "ScrollView_award")
+    local cfg = LinkageHwxDataMgr:getCityDisplayCfg(self.levelCid_)
+    if not cfg then
+        return
+    end
+    local displayDetail = cfg.displayDetail
+
+    local isHwxTower = self.levelCfg_.dungeonType == EC_FBLevelType.HWX_TOWER
+    self.Panel_hwx:setVisible(isHwxTower)
+    if not isHwxTower then
+        return
+    end
+
+    ---displayDetail:2 女神关卡 3：boss关卡
+    Image_hwx_buff:setVisible(displayDetail == 2)
+    Image_hwx_boss:setVisible(displayDetail == 3)
+
+    if displayDetail == 2 then
+        local ScrollView_buff = TFDirector:getChildByPath(Image_hwx_buff, "ScrollView_buff")
+        local listview_buff = UIListView:create(ScrollView_buff)
+        local Label_hwx_buff_desc = TFDirector:getChildByPath(Image_hwx_buff, "Label_hwx_buff_desc"):hide()
+        for k,v in ipairs(cfg.buffDescribe) do
+            local buffDesc = Label_hwx_buff_desc:clone()
+            buffDesc:show()
+            buffDesc:setTextById(v)
+            buffDesc:setDimensions(400,0)
+            listview_buff:pushBackCustomItem(buffDesc)
+        end
+    elseif displayDetail == 3 then
+        self.Panel_hwx_award:hide()
+        local Label_time = TFDirector:getChildByPath(Image_hwx_boss, "Label_time")
+        local Label_score = TFDirector:getChildByPath(Image_hwx_boss, "Label_score")
+        local towerInfo = LinkageHwxDataMgr:getTowerInfo()
+        if towerInfo then
+            local day, hour, min, sec = Utils:getDHMS(towerInfo.base.bestTime/1000, true)
+            Label_time:setText(min..":"..sec)
+            Label_time:setVisible(towerInfo.base.bestTime ~= 0)
+            Label_score:setText(towerInfo.base.roundScore)
+            self.Panel_hwx_award:setVisible(towerInfo.base.bestTime == 0)
+        end
+    end
+
+    local Label_hwx_level_desc = TFDirector:getChildByPath(self.Panel_hwx, "Label_hwx_level_desc")
+    local victoryParam = self.levelCfg_.victoryParam
+    if self.levelCfg_.victoryType[1] == 3 then
+        local monsterCid_ = victoryParam[1][1]
+        local monsterCfg_ = TabDataMgr:getData("Monster", monsterCid_)
+        local monserName = TextDataMgr:getText(monsterCfg_.name)
+        Label_hwx_level_desc:setTextById(self.levelCfg_.victoryTypeDescribe[1], monserName,victoryParam[1][2])
+    else
+        Label_hwx_level_desc:setTextById(self.levelCfg_.victoryTypeDescribe[1])
+    end
+
+    ---显示奖励
+    local listview_reward = UIListView:create(ScrollView_award)
+    local isLevelPass = self.pass
+    local dropCid, showReward, isFirstPass
+    if isLevelPass then
+        dropCid = self.levelCfg_.reward
+        showReward = self.levelCfg_.dropShow
+        isFirstPass = false
+    else
+        dropCid = self.levelCfg_.firstReward
+        showReward = self.levelCfg_.firstDropShow
+        isFirstPass = true
+    end
+    listview_reward:removeAllItems()
+    local multipleReward, extraReward, allMultiple = ActivityDataMgr2:getDropReward(dropCid)
+    -- 掉落活动额外掉落
+    for i, v in ipairs(extraReward) do
+        local Panel_dropGoodsItem = PrefabDataMgr:getPrefab("Panel_dropGoodsItem"):clone()
+        Panel_dropGoodsItem:Scale(0.6)
+        PrefabDataMgr:setInfo(Panel_dropGoodsItem, {v}, EC_DropShowType.ACTIVITY_EXTRA)
+        listview_reward:pushBackCustomItem(Panel_dropGoodsItem)
+    end
+    -- 基础掉落
+    for i, v in ipairs(showReward) do
+        local Panel_dropGoodsItem = PrefabDataMgr:getPrefab("Panel_dropGoodsItem"):clone()
+        Panel_dropGoodsItem:Scale(0.6)
+        local flag = 0
+        local arg = {}
+        local multiple = multipleReward[v]
+        if multiple then
+            flag = bit.bor(flag, EC_DropShowType.ACTIVITY_MULTIPLE)
+            arg.multiple = multiple
+        end
+        if allMultiple > 0 then
+            flag = bit.bor(flag, EC_DropShowType.ACTIVITY_MULTIPLE)
+            arg.multiple = allMultiple
+        end
+        if isFirstPass then
+            flag = bit.bor(flag, EC_DropShowType.FIRST_PASS)
+        end
+        PrefabDataMgr:setInfo(Panel_dropGoodsItem, {v}, flag, arg)
+        listview_reward:pushBackCustomItem(Panel_dropGoodsItem)
+    end
+end
+
+function FubenSquadView:updateLeagueBossInfo()
+    local buffListView = UIListView:create(self.Panel_leagueBoss:getChildByName("ScrollView_buff"))
+    local Image_scrollBar = TFDirector:getChildByPath(self.Panel_leagueBoss, "Image_scrollBar")
+    local Image_scrollBarInner = TFDirector:getChildByPath(self.Panel_leagueBoss, "Image_innerScrollBar")
+    local scrollBar = UIScrollBar:create(Image_scrollBar, Image_scrollBarInner)
+    buffListView:setScrollBar(scrollBar)
+    buffListView:setItemsMargin(10)
+    buffListView:removeAllItems()
+
+    local affixs = LeagueDataMgr:getAllBossAffixs()
+    dump(affixs)
+    local prafeb = self.Panel_prefab:getChildByName("Prefab_monster_world")
+    for i, id in ipairs(affixs) do
+        local affixCfg = TabDataMgr:getData("MonsterAffix", id)
+        for i = 1,  #affixCfg.affixName do
+            local item = prafeb:clone()
+            local head = item:getChildByName("buff_icon")
+            local label_buff = item:getChildByName("label_buff")
+            local buff_name = item:getChildByName("buff_name")
+            if affixCfg.affixDesc[i] then
+                label_buff:setTextById(affixCfg.affixDesc[i])
+                label_buff:show()
+            else
+                label_buff:hide()
+            end
+            buff_name:setTextById(affixCfg.affixName[i])
+            local _src = affixCfg[string.format("affixIcon%s",i)]
+            if _src and _src ~= "" then
+                head:setTexture(_src)
+                head:setScale(0.5)
+                head:show()
+            else
+                head:hide()
+            end
+            buffListView:pushBackCustomItem(item)
+        end
+    end
+    local _txt = LeagueDataMgr:getMorale().."%"
+    self.Panel_leagueBoss:getChildByName("lab_moraleUp"):setText(_txt)
+    local lv = "LV"..LeagueDataMgr:getCurInvade().lv
+    self.Panel_leagueBoss:getChildByName("Label_nojin_desc_title"):setSkewX(15)
+    local lab_LeagueBossLv = self.Panel_leagueBoss:getChildByName("lab_LeagueBossLv")
+    lab_LeagueBossLv:setSkewX(15)
+    lab_LeagueBossLv:setText(lv)
+end
+
+function FubenSquadView:updateMonBuffList()
+	self.HeroBuffList:removeAllItems()
+	local prafeb = self.Panel_prefab:getChildByName("Prefab_monster")	
+	local monTrialData = FubenDataMgr:getMonsterTrialInfo()
+
+	for i = 1,#monTrialData.heroBuff do
+		local Item = prafeb:clone()
+
+		local head = TFDirector:getChildByPath(Item, "head")
+		local label_buff = Item:getChildByName("label_buff")
+		local sprite_name = Item:getChildByName("sprite_name")
+
+		local buffer = TabDataMgr:getData("Buffer", monTrialData.heroBuff[i].buffId)
+
+		label_buff:setText(buffer.des)
+
+		local heroName = HeroDataMgr:getName(monTrialData.heroBuff[i].heroId)
+		sprite_name:setText(heroName)
+		head:setTexture(HeroDataMgr:getIconPathById(monTrialData.heroBuff[i].heroId))
+
+		self.HeroBuffList:pushBackCustomItem(Item)
+	end
+
+--	for i = 1,#self.formationData_ do
+--		local isSelect = false
+--		for j = 1,#monTrialData.heroBuff do
+--			if monTrialData.heroBuff[j].heroId == self.formationData_[i].id then
+--				isSelect = true
+--				break;
+--			end
+--		end
+--		if isSelect then
+--			local Item = prafeb:clone()
+
+--			local head = TFDirector:getChildByPath(Item, "head")
+--			local label_buff = Item:getChildByName("label_buff")
+--			local sprite_name = Item:getChildByName("sprite_name")
+
+--			local buffer = TabDataMgr:getData("Buffer", monTrialData.heroBuff[i].buffId)
+
+--			label_buff:setText(buffer.des)
+
+--			local heroName = HeroDataMgr:getName(monTrialData.heroBuff[i].heroId)
+--			sprite_name:setText(heroName)
+--			head:setTexture(HeroDataMgr:getIconPathById(monTrialData.heroBuff[i].heroId))
+
+--			self.HeroBuffList:pushBackCustomItem(Item)
+--		end
+--	end
 end
 
 function FubenSquadView:refreshView()
@@ -800,13 +1202,15 @@ function FubenSquadView:refreshView()
             --desc
             self.Panel_experience:show()
             self.Panel_formation:show()
-        elseif self.chapterCid_ == EC_ActivityFubenType.SIMULATION_TRIAL 
-            or self.chapterCid_ == EC_ActivityFubenType.SIMULATION_TRIAL_2
-            or self.chapterCid_ == EC_ActivityFubenType.SIMULATION_TRIAL_4
-            or self.chapterCid_ == EC_ActivityFubenType.SIMULATION_TRIAL_5
-            or self.chapterCid_ == EC_ActivityFubenType.SIMULATION_TRIAL_3 then
+		elseif self.chapterCid_ == EC_ActivityFubenType.MONSTER then
+			self.Panel_formation:show()
+			self.Panel_MonsterTrial:show()
+			self:updateMonBuffList()
+
+        elseif FubenDataMgr:isSimulationChapter(self.chapterCid_) then
             self.Panel_experience:show()
             self.Panel_formation:show()
+		
         end
     elseif self.fubenType_ == EC_FBType.HOLIDAY or self.fubenType_ == EC_FBType.HOLIDAY2 then
         if self.chapterCid_ == EC_ActivityFubenType.HALLOWEEN then
@@ -820,10 +1224,20 @@ function FubenSquadView:refreshView()
             self.Panel_assistant:show()
             self.Panel_formation:show()
         end
-    elseif self.fubenType_ == EC_FBType.THEATER or self.fubenType_ == EC_FBType.THEATER_HARD 
-        or self.fubenType_ == EC_FBType.LINKAGE then
+    elseif self.fubenType_ == EC_FBType.LINKAGE then
         self.Panel_assistant:show()
         self.Panel_formation:show()
+    elseif self.fubenType_ == EC_FBType.THEATER or
+            self.fubenType_ == EC_FBType.THEATER_HARD then
+
+        local levelGroupCfg = FubenDataMgr:getLevelGroupCfg(self.levelCfg_.levelGroupId)
+        if levelGroupCfg and levelGroupCfg.dungeonType == EC_FBLevelGroupType.KUANGSAN then
+            self.Panel_assistant:hide()
+        else
+            self.Panel_assistant:show()
+        end
+        self.Panel_formation:show()
+
     elseif self.fubenType_ == EC_FBType.THEATER_BOSS then
         self.Panel_formation:show()
         self.Panel_theater:show()
@@ -836,7 +1250,18 @@ function FubenSquadView:refreshView()
     elseif self.fubenType_ == EC_FBType.KSAN_FUBEN then
         self.Panel_formation:show()
         self.Panel_KuangSan:show()
+    elseif self.fubenType_ == EC_FBType.NEWYEAR_FUBEN then
+        self.Panel_formation:show()
+        self.Panel_mojin:show()
+    elseif self.fubenType_ == EC_FBType.HWX_FUBEN then
+        self.Panel_formation:show()
+        self.Panel_hwx:show()
+        self.Panel_assistant:setVisible( self.levelCfg_.dungeonType == EC_FBLevelType.HWX)
+    elseif self.fubenType_ == EC_FBType.WORLD_BOSS then
+        self.Panel_formation:show()
+        self.Panel_leagueBoss:show()
     end
+
 
     if self.levelCfg_ then
         local cost = self.levelCfg_.cost[1]
@@ -907,6 +1332,28 @@ function FubenSquadView:refreshView()
     if self.fubenType_ == EC_FBType.KSAN_FUBEN then
         self:showKsanLevelData()
     end
+
+    self:updateGMSkill()
+
+    if self.fubenType_ == EC_FBType.NEWYEAR_FUBEN then
+        self:showNewYearLevelData()
+    end
+
+    if self.fubenType_ == EC_FBType.HWX_FUBEN then
+        self:updateHwxLevelData()
+    end
+
+    if self.fubenType_ == EC_FBType.WORLD_BOSS then
+        self:updateLeagueBossInfo()
+    end
+
+    local posX = self.Image_cost:isVisible() and 223 or 342
+    self.Button_preTeam:setPositionX(posX)
+    self.Button_preTeam:setVisible(not self.isLimitHero_ and not FubenDataMgr:isSimulationChapter(self.chapterCid_))
+
+    -- TODO CLOSE
+    -- 屏蔽预编队
+    self.Button_preTeam:setVisible(false)
 end
 
 function FubenSquadView:showExperience()
@@ -918,11 +1365,7 @@ function FubenSquadView:showExperience()
     local isLevelPass = FubenDataMgr:isSpriteExtraLevelPass(self.levelCid_)
     --新模拟试炼
     local isGetSimulationTrialFirstReward
-    if self.chapterCid_ == EC_ActivityFubenType.SIMULATION_TRIAL
-    or self.chapterCid_ == EC_ActivityFubenType.SIMULATION_TRIAL_2
-    or self.chapterCid_ == EC_ActivityFubenType.SIMULATION_TRIAL_4
-    or self.chapterCid_ == EC_ActivityFubenType.SIMULATION_TRIAL_5
-    or self.chapterCid_ == EC_ActivityFubenType.SIMULATION_TRIAL_3 then 
+    if FubenDataMgr:isSimulationChapter(self.chapterCid_) then
         isLevelPass = FubenDataMgr:isPassPlotLevel(self.levelCid_)
         isGetSimulationTrialFirstReward = isLevelPass
     end
@@ -938,7 +1381,7 @@ function FubenSquadView:showExperience()
         isFirstPass = true
     end
     listview_reward:removeAllItems()
-    local multipleReward, extraReward = ActivityDataMgr2:getDropReward(dropCid)
+    local multipleReward, extraReward, allMultiple = ActivityDataMgr2:getDropReward(dropCid)
     -- 掉落活动额外掉落
     for i, v in ipairs(extraReward) do
         local Panel_dropGoodsItem = PrefabDataMgr:getPrefab("Panel_dropGoodsItem"):clone()
@@ -956,6 +1399,10 @@ function FubenSquadView:showExperience()
         if multiple then
             flag = bit.bor(flag, EC_DropShowType.ACTIVITY_MULTIPLE)
             arg.multiple = multiple
+        end
+        if allMultiple > 0 then
+            flag = bit.bor(flag, EC_DropShowType.ACTIVITY_MULTIPLE)
+            arg.multiple = allMultiple
         end
         if isFirstPass then
             flag = bit.bor(flag, EC_DropShowType.FIRST_PASS)
@@ -1318,17 +1765,19 @@ function FubenSquadView:onFightingClick()
             else
                 Utils:showTips(2106013)
             end
+		elseif self.chapterCid_ == EC_ActivityFubenType.MONSTER then
+			if FubenDataMgr:isMonsterTrialOpen() then
+				battleController.requestFightStart(self.levelCid_, assistantPlayerId, assistantHeroCid, heros, self.challengeCount_, self.isDuelMod_)
+			else
+                Utils:showTips(2106013)
+            end
         elseif self.chapterCid_ == EC_ActivityFubenType.SPRITE_EXTRA then
             if FubenDataMgr:getSpriteExtraIsOpen() then
                 battleController.requestFightStart(self.levelCid_, assistantPlayerId, assistantHeroCid, heros, self.challengeCount_, self.isDuelMod_)
             else
                 Utils:showTips(2106013)
             end
-        elseif self.chapterCid_ == EC_ActivityFubenType.SIMULATION_TRIAL 
-            or self.chapterCid_ == EC_ActivityFubenType.SIMULATION_TRIAL_2
-            or self.chapterCid_ == EC_ActivityFubenType.SIMULATION_TRIAL_4
-            or self.chapterCid_ == EC_ActivityFubenType.SIMULATION_TRIAL_5
-            or self.chapterCid_ == EC_ActivityFubenType.SIMULATION_TRIAL_3  then
+        elseif FubenDataMgr:isSimulationChapter(self.chapterCid_) then
             -- dump({self.levelCid_, assistantPlayerId, assistantHeroCid, heros, self.challengeCount_, self.isDuelMod_})  
             battleController.requestFightStart(self.levelCid_, assistantPlayerId, assistantHeroCid, heros, self.challengeCount_, self.isDuelMod_)
         end
@@ -1395,9 +1844,34 @@ function FubenSquadView:onFightingClick()
         else
             Utils:showTips(2106013)
         end
-    elseif self.fubenType_ == EC_FBType.HUNTER then
-        battleController.requestFightStart(self.levelCid_, 0, 0, heros, 0, false)
-    elseif self.fubenType_ == EC_FBType.KSAN_FUBEN then
+    elseif self.fubenType_ == EC_FBType.HWX_FUBEN then
+        if self.levelCfg_.dungeonType == EC_FBLevelType.HWX_TOWER then
+            if #self.formationData_ ~= 3 then
+                Utils:showTips(3005006)
+                return
+            end
+
+            local couldFight = true
+            for k,v in ipairs(self.formationData_) do
+                local heroFightCnt = LinkageHwxDataMgr:getHeroFightCnt(v.id)
+                local heroBuyCnt = LinkageHwxDataMgr:getHeroBuyCnt(v.id)
+                local maxFightCnt = LinkageHwxDataMgr:getInitFightCnt() + heroBuyCnt
+                local remainCnt = math.max(maxFightCnt - heroFightCnt,0)
+                if remainCnt == 0 then
+                    couldFight = false
+                    break
+                end
+            end
+
+            if not couldFight then
+                Utils:showTips(310013)
+                return
+            end
+            battleController.requestFightStart(self.levelCid_, 0, 0, heros, 0, false)
+        else
+            battleController.requestFightStart(self.levelCid_, assistantPlayerId, assistantHeroCid, heros, self.challengeCount_, self.isDuelMod_)
+        end
+    else
         battleController.requestFightStart(self.levelCid_, 0, 0, heros, 0, false)
     end
     GameGuide:checkGuideEnd(self.guideFuncId)
@@ -1412,6 +1886,8 @@ function FubenSquadView:registerEvents()
     EventMgr:addEventListener(self, EV_FUBEN_THEATER_BOSS_INFO, handler(self.onTheaterBossInfoEvent, self))
     EventMgr:addEventListener(self, EV_UPDATE_CARD_FORMATION, handler(self.updateSkyLadderInfo, self))
     EventMgr:addEventListener(self, EV_UPDATE_CARD_LV, handler(self.updateSkyLadderInfo, self))
+    EventMgr:addEventListener(self, EV_AFTER_HANDLE_GM_SKILL, handler(self.updateGMSkill, self))
+    EventMgr:addEventListener(self,EV_UPDATE_BUY_FIGHTCNT,handler(self.updateFormation, self));
     self.Button_fighting:onClick(handler(self.onFightingClick, self))
 
     self:setBackBtnCallback(function()
@@ -1469,6 +1945,23 @@ function FubenSquadView:registerEvents()
         --self:quickEquipCards()
     end)
 
+    for k,v in ipairs(self.gmSkill_) do
+        v.btn:onClick(function()
+            FunctionDataMgr:jGMSkill()
+        end)
+    end
+
+    self.Button_preTeam:onClick(function()
+        local isEndless = (self.fubenType_ == EC_FBType.ACTIVITY and self.chapterCid_ == EC_ActivityFubenType.ENDLESS)
+        local isSkyLadder = (self.fubenType_ == EC_FBType.SKYLADDER and self.chapterCid_ == EC_ActivityFubenType.SKYLADDER)
+        local isHwx =  self.levelCfg_.dungeonType == EC_FBLevelType.HWX_TOWER
+        local param = {
+            isSkyLadder = isSkyLadder,
+            isHwx = isHwx,
+            isEndless = isEndless
+        }
+        Utils:openView("fairy.PreTeamSetView",param)
+    end)
 end
 
 function FubenSquadView:quickEquipCards()
@@ -1579,13 +2072,17 @@ function FubenSquadView:updateFormation()
                 v.Label_remain_cnt:setText(heroFightCnt)
                 v.Image_disable_type:setVisible(heroFightCnt == 0)
                 v.Label_disable_type:setTextById(100000039)
+			elseif self.chapterCid_ == EC_ActivityFubenType.MONSTER then
+				self:updateMonBuffList()
             end
-            --更新克制icon
+			--更新克制icon
             v.Panel_ksan_coin:hide()
             PrefabDataMgr:setInfo(v.panel_element , heroData.magicAttribute)
 
-            -- v.Panel_mojin_coin:hide()
-	    if self.fubenType_ == EC_FBType.KSAN_FUBEN then
+            v.Panel_mojin_coin:hide()
+            v.Panel_hwx_tip:hide()
+            v.Panel_ksan_coin:hide()
+            if self.fubenType_ == EC_FBType.KSAN_FUBEN then
                 dump(self.ksanFubenActivityInfo.extendData.herobonus)
                 local herobonus = self.ksanFubenActivityInfo.extendData.herobonus or {}
                 for heroId,bonus in pairs(herobonus) do
@@ -1600,21 +2097,51 @@ function FubenSquadView:updateFormation()
                         end
                     end
                 end
-	    end
-            -- if self.fubenType_ == EC_FBType.NEWYEAR_FUBEN then
-            --     local herobonus = self.mojinActivityInfo.extendData.herobonus
-            --     for heroId,bonus in pairs(herobonus) do
-            --         if tonumber(heroId) == heroData.id then
-            --             v.Panel_mojin_coin:show()
-            --             for itemId,buff in pairs(bonus) do
-            --                 local itemCfg = GoodsDataMgr:getItemCfg(tonumber(itemId))
-            --                 TFDirector:getChildByPath(v.Panel_mojin_coin, "Image_coin"):setTexture(itemCfg.icon)
-            --                 TFDirector:getChildByPath(v.Panel_mojin_coin, "Label_coin_buff"):setTextById(buff <= 10 and 12033022 or 12033021)
-            --                 break
-            --              end 
-            --         end
-            --     end
-            -- end
+            elseif self.fubenType_ == EC_FBType.NEWYEAR_FUBEN then
+                local herobonus = self.mojinActivityInfo.extendData.herobonus
+                for heroId,bonus in pairs(herobonus) do
+                    if tonumber(heroId) == heroData.id then
+                        v.Panel_mojin_coin:show()
+                        for itemId,buff in pairs(bonus) do
+                            local itemCfg = GoodsDataMgr:getItemCfg(tonumber(itemId))
+                            TFDirector:getChildByPath(v.Panel_mojin_coin, "Image_coin"):setTexture(itemCfg.icon)
+                            TFDirector:getChildByPath(v.Panel_mojin_coin, "Label_coin_buff"):setTextById(buff <= 10 and 12033022 or 12033021)
+                            break
+                         end 
+                    end
+                end
+            elseif self.fubenType_ == EC_FBType.HWX_FUBEN then
+                ---第一阶段和第二阶段显示有差异
+                v.Panel_hwx_tip:hide()
+                local isHwxTowerLevel = self.levelCfg_.dungeonType == EC_FBLevelType.HWX_TOWER
+                local Image_hwx_fight = TFDirector:getChildByPath(v.Panel_hwx_tip, "Image_hwx_fight"):hide()
+                local Panel_hwx_coin = TFDirector:getChildByPath(v.Panel_hwx_tip, "Panel_hwx_coin"):hide()
+                if not isHwxTowerLevel then
+                    local herobonus = self.hwxActivityInfo.extendData.heroBattlebonus
+                    local buffInfo = herobonus[tostring(heroData.id)]
+                    if buffInfo then
+                        v.Panel_hwx_tip:show()
+                        Panel_hwx_coin:show()
+                        for itemId,buff in pairs(buffInfo) do
+                            local itemCfg = GoodsDataMgr:getItemCfg(tonumber(itemId))
+                            TFDirector:getChildByPath(Panel_hwx_coin, "Image_coin"):setTexture(itemCfg.icon)
+                            TFDirector:getChildByPath(Panel_hwx_coin, "Label_coin_buff"):setTextById(buff <= 10 and 12033022 or 12033021)
+                            break
+                        end
+                    end
+                else
+                    v.Panel_hwx_tip:show()
+                    Image_hwx_fight:setVisible(true)
+                    local buyCnt = LinkageHwxDataMgr:getHeroBuyCnt(heroData.id)
+                    local fightCnt = LinkageHwxDataMgr:getHeroFightCnt(heroData.id)
+                    local maxCnt = LinkageHwxDataMgr:getInitFightCnt() + buyCnt
+                    local remainCnt = maxCnt - fightCnt
+                    remainCnt = remainCnt < 0 and 0 or remainCnt
+                    TFDirector:getChildByPath(Image_hwx_fight, "Label_remain_cnt"):setText(remainCnt)
+                    v.Image_disable_type:setVisible(remainCnt == 0)
+                    v.Label_disable_type:setTextById(100000039)
+                end
+            end
         end
 
         v.Button_head:onTouch(function(event)
@@ -1680,11 +2207,12 @@ function FubenSquadView:updateFormation()
                     Utils:showTips(300011)
                 else
                     if self.isLimitHero_ or self.isDisableHero_ or self.isLimitSimulationTrialHero_ then
-                        HeroDataMgr:changeFormation(i, false,false,false,self.isLimitSimulationTrialHero_,self.isContainSimulationTrial)
+                        HeroDataMgr:changeFormation(i, false,false,false,false,self.isLimitSimulationTrialHero_,self.isContainSimulationTrial)
                     else
                         local isEndless = (self.fubenType_ == EC_FBType.ACTIVITY and self.chapterCid_ == EC_ActivityFubenType.ENDLESS)
                         local isSkyLadder = (self.fubenType_ == EC_FBType.SKYLADDER and self.chapterCid_ == EC_ActivityFubenType.SKYLADDER)
-                        HeroDataMgr:changeFormation(i, true, isEndless,isSkyLadder,self.isLimitSimulationTrialHero_,self.isContainSimulationTrial)
+                        local isHwx =  self.levelCfg_.dungeonType == EC_FBLevelType.HWX_TOWER
+                        HeroDataMgr:changeFormation(i, true, isEndless,isSkyLadder,isHwx,self.isLimitSimulationTrialHero_,self.isContainSimulationTrial)
                     end
                 end
         end)
@@ -1694,11 +2222,12 @@ function FubenSquadView:updateFormation()
                     Utils:showTips(300011)
                 else
                     if self.isLimitHero_ or self.isDisableHero_ or self.isLimitSimulationTrialHero_ then
-                        HeroDataMgr:changeFormation(i, false,false,false,self.isLimitSimulationTrialHero_,self.isContainSimulationTrial)
+                        HeroDataMgr:changeFormation(i, false,false,false,false,self.isLimitSimulationTrialHero_,self.isContainSimulationTrial)
                     else
                         local isEndless = (self.fubenType_ == EC_FBType.ACTIVITY and self.chapterCid_ == EC_ActivityFubenType.ENDLESS)
                         local isSkyLadder = (self.fubenType_ == EC_FBType.SKYLADDER and self.chapterCid_ == EC_ActivityFubenType.SKYLADDER)
-                        HeroDataMgr:changeFormation(i, true, isEndless,isSkyLadder,self.isLimitSimulationTrialHero_,self.isContainSimulationTrial)
+                        local isHwx =  self.levelCfg_.dungeonType == EC_FBLevelType.HWX_TOWER
+                        HeroDataMgr:changeFormation(i, true, isEndless,isSkyLadder,isHwx,self.isLimitSimulationTrialHero_,self.isContainSimulationTrial)
                     end
                 end
                 GameGuide:checkGuideEnd(self.guideFuncId)
@@ -1763,6 +2292,7 @@ function FubenSquadView:updateAssistantData()
     end)
     table.insertTo(self.assistantData_, noCdFriend)
     table.insertTo(self.assistantData_, cdFriend)
+
 end
 
 function FubenSquadView:updateAssistantItem(item, index)
@@ -1883,6 +2413,21 @@ function FubenSquadView:tableCellTouched(tbl, cell)
         model:stop()
         self.Label_name:setText(data.name)
         PrefabDataMgr:setInfo(self.panel_element , heroCfg.magicAttribute)
+
+        self.Panel_assistant_hwx_tip:hide()
+        if self.levelCfg_.dungeonType == EC_FBLevelType.HWX then
+            local herobonus = self.hwxActivityInfo.extendData.heroAssistbonus
+            local buffInfo = herobonus[tostring(data.helpHeroCid)]
+            if buffInfo then
+                self.Panel_assistant_hwx_tip:show()
+                for itemId,buff in pairs(buffInfo) do
+                    local itemCfg = GoodsDataMgr:getItemCfg(tonumber(itemId))
+                    self.Image_assistant_coin:setTexture(itemCfg.icon)
+                    self.Label_assistant_coinbuff:setTextById(buff <= 10 and 12033022 or 12033021)
+                    break
+                end
+            end
+        end
     end
 
     self.TableView_assistant:reloadData()
@@ -1935,8 +2480,9 @@ function FubenSquadView:onUpdateAssistantEvent(assistantData)
 end
 
 function FubenSquadView:onUpdateFormationEvent(heroCid, oldHeroCid)
+
     if self.isLimitHero_ or self.isDisableHero_ or self.isLimitSimulationTrialHero_  then
-		--Box("1")
+
         local index
         if oldHeroCid then
             if self.isLimitHero_ then

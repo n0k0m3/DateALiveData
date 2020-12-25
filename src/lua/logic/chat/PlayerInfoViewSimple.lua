@@ -41,7 +41,7 @@ function PlayerInfoViewSimple:initUI(ui)
     -- lv
     self._ui.Label_lv:setText(self.playerInfo.lvl or 35)
     -- button
-    self._ui.btnAddFriend:setVisible(not FriendDataMgr:isFriend(self.playerInfo.id))
+    self._ui.btnAddFriend:setVisible(not FriendDataMgr:isFriend(self.playerInfo.pid))
 end
 
 function PlayerInfoViewSimple:registerEvents()
@@ -50,7 +50,7 @@ function PlayerInfoViewSimple:registerEvents()
     end)
 
     self._ui.btnAddFriend:onClick(function()
-        local pid = self.playerInfo.id
+        local pid = self.playerInfo.pid
         AlertManager:close()
         FriendDataMgr:addFriend(pid)
     end)

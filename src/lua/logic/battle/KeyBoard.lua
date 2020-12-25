@@ -69,7 +69,7 @@ function KeyBoard:ctor()
     self.vKeyNodes = {}
     self.super.ctor(self)
     self:init("lua.uiconfig.battle.ctrlView")
-    TFDirector:setTouchSingled(false)
+    me.Director:getEventDispatcher():setSingleEnabled(false)
 
 end
 
@@ -169,6 +169,7 @@ function KeyBoard:initUI(ui)
     EventMgr:addEventListener(self,eEvent.EVENT_CAPTAIN_CHANGE, handler(self.onCaptainChange,self))
     EventMgr:addEventListener(self,eEvent.EVENT_VKSTATE_CHANGE, handler(self.onVKStateChange,self))
     EventMgr:addEventListener(self,eEvent.EVENT_SKILLEX_REFRESH, handler(self.onSkillExChange,self))
+
     self.panel_revive     = TFDirector:getChildByPath(self.panel_root, "Panel_revive"):hide()
     self.button_revive    = TFDirector:getChildByPath(self.panel_root, "Button_revive")
     
@@ -835,7 +836,7 @@ function KeyBoard:removeEvents()
     self:unRegisterPKeyEvent()
     KeyStateMgr.clear()
     EventMgr:removeEventListenerByTarget(self)
-    TFDirector:setTouchSingled(true)
+    me.Director:getEventDispatcher():setSingleEnabled(true)
 end
 function KeyBoard:registerVKeyEvent(vKeyNode,vKeyCode)
     vKeyNode:onTouch(function(event)

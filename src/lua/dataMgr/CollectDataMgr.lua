@@ -264,12 +264,31 @@ end
 --------------------------------------------------
 function CollectDataMgr:checkCollectRedPoint()
 	local showRed = false
-	for k,v in pairs(self.collectPagesRed) do
-		if v == true then
-			showRed = true
-			break
+	repeat
+		for k,v in pairs(self.collectPagesRed) do
+			if v == true then
+				showRed = true
+				break
+			end
 		end
-	end
+
+		if showRed then
+			break;
+		end
+		
+		local CfgList = TabDataMgr:getData("NewPokedexTask")	
+		for k, v in pairs(CfgList) do
+			if v.type == 1 then
+				local taskInfo = TaskDataMgr:getTaskInfo(v.id)
+				if taskInfo and taskInfo.status == EC_TaskStatus.GET then
+					showRed = true
+					break
+				end
+			end
+		end
+
+	until true;
+		
 	return showRed
 end
 

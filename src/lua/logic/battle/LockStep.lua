@@ -88,6 +88,25 @@ end
 
 LockStep.isLock = false
 
+local function print__(...)
+    local n = select('#', ...)
+
+    local tb = {}
+
+    table.insert(tb, '[' .. os.date() .. ']')
+    for i = 1, n do
+        local v = select(i, ...)
+        local str = serialize(v)
+        table.insert(tb, str)
+    end
+
+    local ret = table.concat(tb, '  ')
+
+    print_(ret)
+
+    return ret
+end
+
 function LockStep.trans2Value(text)
     return trans_table1[text]
 end
@@ -146,6 +165,8 @@ function LockStep.initlize()
 
     this.ipArray = TFArray:new()
     this.connectedIpArray = TFArray:new()
+    this.AIHostCheckTime = 0
+    this.syncAIHostPid = nil
 end
 function LockStep.setRunState(state)
     this.nRunState = state
@@ -176,7 +197,7 @@ function LockStep.addOperateFrame(data)
     if this.nOperateFrameIdx < index then
         this.nOperateFrameIdx = index
     end
-    if data.operateFrame or data.dataFrame or data.bossFrame then
+    if data.operateFrame or data.dataFrame or data.bossFrame or data.aiFrame then
         this.frameEvents[index] = data
     end
 end
@@ -192,30 +213,51 @@ function LockStep.closeNetWait()
      NetWait.hide()
 end
 
---同步boss信息(美5秒同步一次位置)
-function LockStep.synchronBossState()
-    local time = LockStep.gettime()
-    if time - this.synchronBossStateTime > BattleConfig.BOSS_STATE_SYNCHRON_TIME then
-        this.synchronBossStateTime =  time
-        local enemys = battleController.getEnemyMember()
-        -- local enemy  = enemys[1]
-        print_("enemys nums:"..tostring(#enemys))
-        for i, enemy in ipairs(enemys) do
-            if enemy then
-                local pos3D = enemy:getPosition3D()
-                local dir   = enemy:getDir()
-                local hp    = enemy:getHp()
-                local sp    = enemy:getResist()
-                local data = {}
-                data[1] = enemy:getData().markID
-                data[2] = math.floor(pos3D.x)
-                data[3] = math.floor(pos3D.y)
-                data[4] = dir
-                data[5] = hp
-                data[6] = MainPlayer:getPlayerId()
-                data[7] = sp
-                this.sendBossState(data)
-            end 
+--同步boss信息(每3秒同步一次血量)
+function LockStep.synchronBossState(markID)
+    if markID then
+        local pid = MainPlayer:getPlayerId()
+        local hero_pid = this.getAISyncHostPid()
+        if pid == hero_pid then
+            local enemys = battleController.getEnemyMember()
+            for i, enemy in ipairs(enemys) do
+                if enemy and markID == enemy:getData().markID then
+                    local pos3D = enemy:getPosition3D()
+                    local dir   = enemy:getDir()
+                    local hp    = enemy:getHp()
+                    local sp    = enemy:getResist()
+                    local data = {}
+                    data[1] = enemy:getData().markID
+                    data[2] = math.floor(pos3D.x)
+                    data[3] = math.floor(pos3D.y)
+                    data[4] = dir
+                    data[5] = hp
+                    data[6] = pid
+                    data[7] = sp
+                    this.sendBossState(data)
+                    break
+                end 
+            end
+        end
+    else
+        local time = LockStep.gettime()
+        if time - this.synchronBossStateTime > BattleConfig.BOSS_STATE_SYNCHRON_TIME then
+            this.synchronBossStateTime =  time
+            local enemys = battleController.getEnemyMember()
+            for i, enemy in ipairs(enemys) do
+                if enemy then
+                    local hp    = enemy:getHp()
+                    local data = {}
+                    data[1] = enemy:getData().markID
+                    data[2] = 0
+                    data[3] = 0
+                    data[4] = 0
+                    data[5] = hp
+                    data[6] = MainPlayer:getPlayerId()
+                    data[7] = enemy:getResist()
+                    this.sendBossState(data)
+                end 
+            end
         end
     end
 end
@@ -259,6 +301,28 @@ function LockStep.synchronHp(hero)
         this.sendBossState(data)
     end
 end
+
+function LockStep.syncAIStepData(markID, lastIdx, cruIdx, params)
+    local playerId = MainPlayer:getPlayerId()
+    local hero_pid = this.getAISyncHostPid()
+    if playerId ~= hero_pid then
+        return
+    end
+    if lastIdx > 0 then
+        this.synchronBossState(markID)
+    end
+    local data = {}
+    data[1] = markID
+    data[2] = playerId
+    data[3] = lastIdx
+    data[4] = cruIdx
+    data[5] = params[1] or -1
+    data[6] = params[2] or -1
+    data[7] = params[3] or -1
+    data[8] = params[4] or -1
+    this.sendAIStepData(data)
+end
+
 --丢弃无效帧数据
 function LockStep.discardingUselessframes()
     -- dump({this.nTotalFrameNum , this.nOperateFrameIdx ,this.nDrawFrameToOperate})
@@ -300,6 +364,7 @@ function LockStep.doFrame( frameDt )
             this.excuteFrameData(frameData.operateFrame)
             this.excuteHeroAction(frameData.dataFrame)
             this.excuteBossAction(frameData.bossFrame)
+            this.excuteAIStepFrame(frameData.aiFrame)
         end
     end
     this.gameView:gameRun(frameDt)
@@ -349,26 +414,6 @@ function LockStep.setNetWorkDelay( timeDelay )
     nF = nF + this.SPEED_INTERVAL_FRAME_VAL  --- 避免临界值误差，缓冲
     -- print("this.nSpeedIntervalFrameVal:",nF)
     this.nSpeedIntervalFrameVal = nF
-end
-
-
-local function print__(...)
-    local n = select('#', ...)
-
-    local tb = {}
-
-    table.insert(tb, '[' .. os.date() .. ']')
-    for i = 1, n do
-        local v = select(i, ...)
-        local str = serialize(v)
-        table.insert(tb, str)
-    end
-
-    local ret = table.concat(tb, '  ')
-
-    print_(ret)
-
-    return ret
 end
 
 
@@ -467,26 +512,41 @@ function LockStep.excuteBossAction( data )
         local enemy  = battleController.getEnemyWithMaskID(dataframe.id)
         if enemy then
             local pid = MainPlayer:getPlayerId()
-            local hero_pid = battleController.getLeaderPid()
-            -- dump({ "excuteBossAction" , this.isLeader() , pid , dataframe.operate ,tostring(not this.isLeader() and pid ~= dataframe.operate)})
+            local hero_pid = this.getAISyncHostPid()
             if pid ~= dataframe.operate then
                 if hero_pid == dataframe.operate then
-                    --同步-----------------LockStep位置
-                    if dataframe.posX ~=0 or dataframe.posY~=0 then
-                        enemy:fix_boss(dataframe.posX , dataframe.posY)
+                    if dataframe.posX ~= 0 or dataframe.posY ~= 0 then
+                        enemy:revStateInfoData(clone(dataframe))  
                     end
-                    dump("同步boss位置:"..enemy:getName()) 
-                    enemy:fix_boss(nil,nil,nil,nil,dataframe.sp)
+                    enemy:fix_boss(dataframe.operate,nil,nil,nil,nil,dataframe.sp)
                 end
-                --按血量最小的为准
-                enemy:fix_boss(nil,nil,nil,dataframe.hp)
+                enemy:fix_boss(dataframe.operate,nil,nil,nil,dataframe.hp)
             end
-
-            -- dump(data)
-
         end
     end
+end
 
+function LockStep.excuteAIStepFrame( data )
+    if data == nil then
+        return
+    end
+    for i, dataframe in ipairs(data) do
+        local enemy  = battleController.getAllEnemyWithMaskID(dataframe.id)
+        if enemy then
+            local pid = MainPlayer:getPlayerId()
+            local hero_pid = this.getAISyncHostPid()
+            if pid ~= dataframe.pid and hero_pid == dataframe.pid then
+                local lastStep = dataframe.lastStep
+                local curStep = dataframe.curStep
+                local params = {}
+                params[1] = dataframe.funcID
+                params[2] = dataframe.param1
+                params[3] = dataframe.param2
+                params[4] = dataframe.param3
+                enemy:revAIStepData(lastStep , curStep, params)
+            end
+        end
+    end
 end
 
 function LockStep.excuteHeroAction( data )
@@ -606,17 +666,85 @@ function LockStep:onRevPong(event)
     LockStep.sendFightPing(time)
     -- dump(data)
     if data.data then
+        this.netDelayTimes = {}
         for i, info in ipairs(data.data) do
             -- dump({info.pid,info.delayTime})
-            this.netDelayTimes[info.pid] = info.delayTime 
+            -- local delayTime = tonumber(info.pid) % 100
+            -- local lastTime = this.netDelayTimes[info.pid]
+            -- if lastTime then
+            --     delayTime = lastTime + 2
+            -- end
+            -- if delayTime > 100 then
+            --     delayTime = tonumber(info.pid) % 100
+            -- end
+            this.netDelayTimes[info.pid] = info.delayTime
         end
     end
+    if this.syncAIHostPid and this.syncAIHostPid ~= data.hostPlayerId then
+        -- local enemys = battleController.getEnemyMember()
+        -- for i, enemy in ipairs(enemys) do
+        --     if enemy then
+        --         enemy:act_delay("id",1.0)
+        --     end 
+        -- end
+    end
+    this.syncAIHostPid =  data.hostPlayerId or battleController.getLeaderPid()
     -- _print("网络延迟:",this.netDelayTimes)
     -- local delayTime = this.getNetDelayTime(MainPlayer:getPlayerId())
     -- local  frameNums = delayTime / (this.DRAW_FRAME_PER_Dt*1000)
     -- this.nSpeedJumpFrameVal = math.floor(frameNums)
     -- print_("delayTime:"..delayTime.."-"..this.nSpeedJumpFrameVal)
     -- this.nSpeedJumpFrameVal = math.min(math.max(math.floor(frameNums),8),25)
+end
+
+function LockStep.checkSyncAIHost(force)
+    local time = LockStep.gettime()
+    if force or (time - this.AIHostCheckTime) > 3000 then
+        local newPid
+        local pid
+        local ping = 99999
+        local curDelayTime
+        for k,v in pairs(this.netDelayTimes) do
+            if v > 0 and v < ping then
+                ping = v
+                pid = tonumber(k)
+            end
+            if this.syncAIHostPid and this.syncAIHostPid == tonumber(k) then
+                curDelayTime = v
+            end
+        end
+        local lastPid = this.syncAIHostPid
+        if this.syncAIHostPid then
+            if curDelayTime then
+                if (curDelayTime - ping) > 100 then
+                    newPid = pid
+                else
+                    newPid = this.syncAIHostPid
+                end
+            else
+                newPid = pid
+            end
+        else
+            newPid = pid
+        end
+        newPid = newPid or battleController.getLeaderPid()
+        if lastPid and lastPid ~= newPid and newPid == MainPlayer:getPlayerId() then
+            local enemys = battleController.getEnemyMember()
+            for i, enemy in ipairs(enemys) do
+                if enemy then
+                    enemy:resetAIStepDatas()
+                    enemy:endToAI()
+                end 
+            end
+        end
+        this.syncAIHostPid = newPid
+        this.AIHostCheckTime = time
+    end
+end
+
+function LockStep.getAISyncHostPid()
+    pid = this.syncAIHostPid or battleController.getLeaderPid()
+    return pid
 end
 
 --战斗结束
@@ -947,7 +1075,9 @@ function LockStep.connect(isReconnect)
     end
     if HeitaoSdk and time <= 1 then
         --TODO CLOSE
-        --HeitaoSdk.reportNetworkData(connectIp)
+        if tonumber(TFDeviceInfo:getCurAppVersion()) >= 1.15 and CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID then
+            --HeitaoSdk.reportNetworkData(connectIp)
+        end
     end
 end
 
@@ -1166,6 +1296,14 @@ function LockStep.synchronBattleTime()
         end
     end
 end 
+
+--请求同步AI信息
+function LockStep.sendAIStepData(data)
+    if this.endData then 
+        return
+    end
+    LockStep.send(c2s.FIGHT_REQ_AISTEP_FRAME, data)
+end
 
 
 --请求同步boss信息

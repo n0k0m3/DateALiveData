@@ -910,7 +910,7 @@ function EquipmentDataMgr:getEquipSpecialAttrs(id)
 		cid = self.equips[id].cid;
 	end
 
-	local attrs = self.equips[id].attrs;
+	local attrs = self.equips[id].attrs or {};
 	local ret = {};
 	for k,v in pairs(attrs) do
 		local _ret = {}
@@ -1659,8 +1659,8 @@ function EquipmentDataMgr:initShowListByConvert(equipId)
 		if not self:isUesing(v.id) and 
 			self:getIsHaveSpecialAttr(v.id) 	and
 			v.id ~= equipId 					and
-			not self:getEquipIsLock(v.id) 		and 
-			self:getEquipStarLevel(v.id) < 1 	then
+			-- self:getEquipStarLevel(v.id) < 1	and  -- 谷峰要求取消升星限制
+			not self:getEquipIsLock(v.id) 		then
 			   	--排除模拟试炼的质点
 			   	if self:getEquipShowType(v.id) == 0 then
 					table.insert(showList,v.id);
@@ -1745,13 +1745,14 @@ function EquipmentDataMgr:getEquipIsLockOrUsing(id)
 	return tobool(self.equips[id].isLock) or self.equips[id].heroId ~= "0"
 end
 
-function EquipmentDataMgr:getXilianNeedGold(starLv, xilianCount)
+function EquipmentDataMgr:getXilianNeedGold(starLv, xilianCount, zihuan)
+	xilianCount = xilianCount == 0 and 1 or xilianCount
 	for k, v in pairs(self.EquipmentXilian) do
 		if v and v.star == starLv and v.attributeNum == xilianCount then
-			return v.gifts[500001] or 0
+			return zihuan and  v.substitutionCost or v.gifts
 		end
 	end
-	return 0
+	return {[500001] = 0}
 end
 
 function EquipmentDataMgr:getEquipRecycleResults(equipmentId)
@@ -2661,6 +2662,9 @@ end
 
 ---装备可升星
 function EquipmentDataMgr:equipCouldUpStar(equipmentId)
+	if not self:getEquipStarGrow(equipmentId) then
+		return false
+	end
 
 	if not self:isUesing(equipmentId) then
 		return false

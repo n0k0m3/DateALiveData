@@ -130,7 +130,8 @@ function RokerView:setRokeVector(vx, vy)
 end
 
 function RokerView:update(dt)
-    if not self.sendDelta or self.sendDelta >= OSDConfig.SYN_POS_TIME then
+    local configTime = self.configTime or OSDConfig.SYN_POS_TIME
+    if not self.sendDelta or self.sendDelta >= configTime then
         --第一次 OR 每个一秒发一次
         if self.delegate then
             if self.prePos ~= self.delegate:getPosition() or self.preVec ~= self.delegate:getRokeVector() then
@@ -145,6 +146,16 @@ function RokerView:update(dt)
     end 
 end
 
+function RokerView:changeSynicTime( dt )
+    -- body
+    self.configTime = dt or OSDConfig.SYN_POS_TIME
+end
+
+function RokerView:getConfigTime( ... )
+    -- body
+    return self.configTime or OSDConfig.SYN_POS_TIME
+end
+
 function RokerView:sendPosRqst()
     local angle = MapUtils:getAngleByVec(self.delegate:getRokeVector())
     local pos = self.delegate:getPosition()
@@ -152,7 +163,7 @@ function RokerView:sendPosRqst()
     pos.y = math.floor(pos.y)
     angle = math.floor(angle)
     -- printBeck("fuck ============= ", pos, angle, self.delegate:getRokeVector())
-    OSDDataMgr:sendPositionChange(pos, angle)
+    WorldRoomDataMgr:sendPositionChange(pos, angle)
 end
 
 --检查是否是有效输入 适配KeystateMgr

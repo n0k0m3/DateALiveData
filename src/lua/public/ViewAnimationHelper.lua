@@ -76,7 +76,7 @@ function ViewAnimationHelper.doScaleAndMoveAction(node, scale, to, duration, cal
     table.insert(arr, CCSpawn:create({act1, act2}))
     if callback then
         local act3 = CCCallFuncN:create(callback)
-        arr:addObject(act3)
+        table.insert(arr, act3)
     end
     node:runAction(CCSequence:create(arr))
 end

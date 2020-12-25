@@ -6,17 +6,32 @@ function LeagueHallView:initData(data)
         {
             txt = 270350,
             idx = 1,
+            isShow = true,
             iconImg = "ui/league/ui_24.png",
         },
         {
             txt = 270351,
             idx = 2,
+            isShow = true,
             iconImg = "ui/league/ui_25.png",
         },
         {
             txt = 270352,
             idx = 3,
+            isShow = true,
             iconImg = "ui/league/ui_23.png",
+        },
+        {
+            txt = 63815,
+            idx = 4,
+            isShow = false,
+            iconImg = "ui/league/ui_62.png",
+        },
+        {
+            txt = 63814,
+            idx = 5,
+            isShow = false,
+            iconImg = "ui/league/ui_63.png",
         },
     }
     self.defaultIdx = data and data.selectIdx or nil
@@ -31,6 +46,7 @@ function LeagueHallView:initData(data)
     self.limitLevel_ = LeagueDataMgr:getJoinLimitLevel()
     self.countryData = TabDataMgr:getData("ClubCountry")
     LeagueDataMgr:setNoticeChangeRedPoint(false)
+    LeagueDataMgr:sendReqGetPlayerUnionReCallRank(1)
 end
 
 function LeagueHallView:ctor(data)
@@ -116,9 +132,29 @@ function LeagueHallView:initUI(ui)
         self.change_flags[i] = Image_flag
     end
 
+    self.Panel_reward = TFDirector:getChildByPath(self.ui, "Panel_reward"):hide()
+    self.label_title = TFDirector:getChildByPath(self.Panel_reward, "label_title")
+    self.label_title:setTextById(63825)
+    self.txt_score = TFDirector:getChildByPath(self.Panel_reward, "txt_score")
+    self.img_score = TFDirector:getChildByPath(self.Panel_reward, "img_score")
+    local reward_scroll = TFDirector:getChildByPath(self.Panel_reward, "reward_scroll")
+    self.rewardList = UIListView:create(reward_scroll)
+    self.rewardList:setItemsMargin(2)
+
+    self.Panel_rank = TFDirector:getChildByPath(self.ui, "Panel_rank"):hide()
+    self.btn_pre = TFDirector:getChildByPath(self.Panel_rank, "btn_pre")
+    self.btn_next = TFDirector:getChildByPath(self.Panel_rank, "btn_next")
+    self.img_page_bg = TFDirector:getChildByPath(self.Panel_rank, "img_page_bg")
+    self.txt_page = TFDirector:getChildByPath(self.Panel_rank, "txt_page")
+    self.panel_list = TFDirector:getChildByPath(self.Panel_rank, "panel_list")
+    self.label_rank_tip = TFDirector:getChildByPath(self.Panel_rank, "label_rank_tip"):hide()
+
+    self.img_award_item = TFDirector:getChildByPath(self.ui, "img_award_item"):hide()
+    self.panel_rank_item = TFDirector:getChildByPath(self.ui, "panel_rank_item"):hide()
+
     local ScrollView_tab = TFDirector:getChildByPath(self.ui, "ScrollView_tab")
     self.ListView_tab = UIListView:create(ScrollView_tab)
-    self.ListView_tab:setItemsMargin(2)
+    self.ListView_tab:setItemsMargin(4)
 
     local Image_scrollBarModel_setting = TFDirector:getChildByPath(self.Panel_right, "Image_scrollBarModel")
     local Image_scrollBarInner_setting = TFDirector:getChildByPath(Image_scrollBarModel_setting, "Image_scrollBarInner")
@@ -137,10 +173,219 @@ function LeagueHallView:initUI(ui)
     self.panel_country_info = Utils:createClubCountryNamePanel(self.Panel_infos:getChildByName("Panel_league_info") , ccp(self.Button_modify_name:getPositionX() - 280 , self.Button_modify_name:getPositionY() - 50)  , true , true , nil , true)
 
     self:initLeft()
+    self:initTabView()
 
+    if self.defaultIdx and self.defaultIdx > 3 then
+        self.defaultIdx = 3
+    end
     self:selectTabBtn(self.defaultIdx or 1)
 
 
+end
+
+--初始化列表
+function LeagueHallView:initTabView()
+    self.tableView = TFTableView:create()
+    self.tableView:setTableViewSize(self.panel_list:getContentSize())
+    self.tableView:setDirection(TFTableView.TFSCROLLVERTICAL)
+    self.tableView:setVerticalFillOrder(TFTableView.TFTabViewFILLTOPDOWN)
+
+    self.tableView:addMEListener(TFTABLEVIEW_SIZEFORINDEX, self.cellSizeForTable)
+    self.tableView:addMEListener(TFTABLEVIEW_SIZEATINDEX, self.tableCellAtIndex)
+    self.tableView:addMEListener(TFTABLEVIEW_NUMOFCELLSINTABLEVIEW, self.numberOfCellsInTableView)
+
+    self.tableView.logic = self
+    self.panel_list:addChild(self.tableView)
+end
+
+function LeagueHallView.cellSizeForTable(table, idx)
+    local self = table.logic
+    local itemSize = self.panel_rank_item:getContentSize()
+    return itemSize.height, itemSize.width
+end
+
+function LeagueHallView.tableCellAtIndex(table, idx)
+    local cell = table:dequeueCell()
+    local self = table.logic
+
+    if nil == cell then
+        cell = TFTableViewCell:create()
+        local itemCell = self.panel_rank_item:clone()
+        itemCell:show()
+        itemCell:setPosition(ccp(0, 0))
+        cell.itemCell = itemCell
+        cell:addChild(itemCell)
+    end
+
+    self:updateRankItem(cell.itemCell, idx + 1)
+
+    return cell
+end
+
+function LeagueHallView:updateRankItem(itemCell, idx)
+    local data = LeagueDataMgr.leagueBackInfo.playerReCallRank[idx]
+    if not data then
+        itemCell:hide()
+        return
+    end
+    itemCell:show()
+    local img_rank = TFDirector:getChildByPath(itemCell, "img_rank")
+    local txt_rank = TFDirector:getChildByPath(itemCell, "txt_rank")
+    local img_head_icon = TFDirector:getChildByPath(itemCell, "img_head_icon")
+    local img_head_frame = TFDirector:getChildByPath(itemCell, "img_head_frame")
+    local img_head_front = TFDirector:getChildByPath(itemCell, "img_head_front")
+    local txt_name = TFDirector:getChildByPath(itemCell, "txt_name")
+    local txt_level = TFDirector:getChildByPath(itemCell, "txt_level")
+    local txt_score = TFDirector:getChildByPath(itemCell, "txt_score")
+
+    if data.rank < 1 then
+        img_rank:setVisible(false)
+        txt_rank:setVisible(true)
+        txt_rank:setTextById(263009)
+    elseif data.rank <= 3 then
+        img_rank:setVisible(true)
+        txt_rank:setVisible(false)
+        local num = 37 + data.rank
+        img_rank:setTexture("ui/activity/assist/0"..num..".png")
+    else
+        txt_rank:setText(data.rank)
+        img_rank:setVisible(false)
+        txt_rank:setVisible(true)
+    end
+    txt_name:setText(data.playerName)
+    txt_score:setText(data.recallScore)
+    txt_level:setText("Lv." .. data.level)
+
+    img_head_icon:setTexture(AvatarDataMgr:getAvatarIconPath(data.portraitCid))
+    local avatarFrameIcon, avatarFrameEffect = AvatarDataMgr:getAvatarFrameIconPath(data.portraitFrameCid)
+    img_head_front:setTexture(avatarFrameIcon)
+    local headFrameEffect = img_head_front:getChildByName("headFrameEffect")
+    if headFrameEffect then
+        headFrameEffect:removeFromParent()
+    end
+    if avatarFrameEffect ~= "" then
+        headFrameEffect = SkeletonAnimation:create(avatarFrameEffect)
+        headFrameEffect:setAnchorPoint(ccp(0,0))
+        headFrameEffect:setPosition(ccp(0,0))
+        headFrameEffect:play("animation", true)
+        headFrameEffect:setName("headFrameEffect")
+        img_head_front:addChild(headFrameEffect, 1)
+    end
+end
+
+function LeagueHallView.numberOfCellsInTableView(table)
+    if LeagueDataMgr.leagueBackInfo then
+        return #LeagueDataMgr.leagueBackInfo.playerReCallRank
+    end
+    return 0
+end
+
+function LeagueHallView:updateBackInfo()
+    self:updateLeftTab()
+    self:updateRank()
+    self:updateMyScore()
+    self:updateBackReward()
+end
+
+function LeagueHallView:updateLeftTab()
+    local isOpen = false
+    if LeagueDataMgr.leagueBackInfo then
+        isOpen = LeagueDataMgr.leagueBackInfo.open
+    end
+    self.btnConfig_[4].isShow = isOpen
+    self.btnConfig_[5].isShow = isOpen
+    self.tabBtn_[4].Panel_tabItem:setVisible(isOpen)
+    self.tabBtn_[5].Panel_tabItem:setVisible(isOpen)
+end
+
+function LeagueHallView:updateRank()
+    self.tableView:reloadData()
+    self.tableView:setScrollToBegin(false)
+    self.btn_pre:hide()
+    self.btn_next:hide()
+    if not LeagueDataMgr.leagueBackInfo or #LeagueDataMgr.leagueBackInfo.playerReCallRank == 0 then 
+        self.img_page_bg:hide()
+        self.label_rank_tip:show()
+        return
+    end
+
+    self.label_rank_tip:hide()
+    self.img_page_bg:setVisible(LeagueDataMgr.leagueBackInfo.total > 1)
+    self.txt_page:setText(LeagueDataMgr.leagueBackInfo.index)
+    if LeagueDataMgr.leagueBackInfo.index > 1 then
+        self.btn_pre:show()
+    end
+
+    if LeagueDataMgr.leagueBackInfo.index < LeagueDataMgr.leagueBackInfo.total then
+        self.btn_next:show()
+    end
+end
+
+function LeagueHallView:updateMyScore()
+    local score = 0
+    if LeagueDataMgr.leagueBackInfo and LeagueDataMgr.leagueBackInfo.score then
+        score = LeagueDataMgr.leagueBackInfo.score
+    end
+    self.txt_score:setText(score)
+    self.img_score:setPositionX(self.txt_score:getPositionX() - self.txt_score:getContentSize().width - 3)
+end
+
+function LeagueHallView:updateBackReward()
+    local awardInfo = {}
+    local myScore = 0
+    if LeagueDataMgr.leagueBackInfo then
+        awardInfo = LeagueDataMgr.leagueBackInfo.awardInfo or {}
+        myScore = LeagueDataMgr.leagueBackInfo.score or 0
+    end
+
+    local items = self.rewardList:getItems()
+    local gap = #awardInfo - #items
+    for i = 1, math.abs(gap) do
+        if gap > 0 then
+            local itemCell = self.img_award_item:clone()
+            itemCell:show()
+            self.rewardList:pushBackCustomItem(itemCell)
+        else
+            self.rewardList:removeItem(1)
+        end
+    end
+
+    for k, v in ipairs(awardInfo) do
+        local item = self.rewardList:getItem(k)
+        self:updateAwardItem(item, v, myScore)
+    end
+end
+
+function LeagueHallView:updateAwardItem(item, data, myScore)
+    local txt_score = TFDirector:getChildByPath(item, "txt_score")
+    local label_state = TFDirector:getChildByPath(item, "label_state")
+    local img_got = TFDirector:getChildByPath(item, "img_got"):hide()
+
+    txt_score:setTextById(63817, data.awardScore)
+    if myScore >= data.awardScore then
+        img_got:show()
+        label_state:hide()
+    else
+        img_got:hide()
+        label_state:show()
+    end
+
+    local rewards = data.rewards or {}
+    for i = 1, 4 do
+        local cell = TFDirector:getChildByPath(item, "img_item" .. i)
+        if not cell.goodsItem then
+            local goodsItem = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
+            goodsItem:setScale(0.7)
+            goodsItem:AddTo(cell):Pos(0,0):ZO(1)
+            cell.goodsItem = goodsItem
+        end
+
+        cell.goodsItem:hide()
+        if i <= #rewards then
+            cell.goodsItem:show()
+            PrefabDataMgr:setInfo(cell.goodsItem, rewards[i].id, rewards[i].num)
+        end
+    end
 end
 
 function LeagueHallView:onShow()
@@ -148,21 +393,19 @@ function LeagueHallView:onShow()
     self:updateRedPoints()
 end
 
-function LeagueHallView:updateRedPoint()
-    
-end
-
 function LeagueHallView:initLeft()
     self.tabBtn_ = {}
     for i, v in ipairs(self.btnConfig_) do
         local Panel_tabItem = self.Panel_tabItem:clone()
         local item = {}
+        Panel_tabItem:setVisible(v.isShow)
+        item.Panel_tabItem = Panel_tabItem
         item.Label_name = TFDirector:getChildByPath(Panel_tabItem, "Label_name")
         item.Image_normal = TFDirector:getChildByPath(Panel_tabItem, "Image_normal")
         item.Image_select = TFDirector:getChildByPath(Panel_tabItem, "Image_select")
         item.Image_icon = TFDirector:getChildByPath(Panel_tabItem, "Image_icon")
         item.Image_touch = TFDirector:getChildByPath(Panel_tabItem, "Image_touch")
-        item.Image_red_tips = TFDirector:getChildByPath(Panel_tabItem, "Image_red_tips")
+        item.Image_red_tips = TFDirector:getChildByPath(Panel_tabItem, "Image_red_tips"):hide()
         self.tabBtn_[v.idx] = item
         item.Image_icon:setTexture(v.iconImg)
         item.Label_name:setTextById(v.txt)
@@ -192,16 +435,34 @@ function LeagueHallView:refreshRight()
         self.Panel_infos:show()
         self.Panel_members:hide()
         self.Panel_setting:hide()
+        self.Panel_reward:hide()
+        self.Panel_rank:hide()
         self:refreshPanelInfos()
     elseif self.selectIndex_ == 2 then
         self.Panel_infos:hide()
         self.Panel_members:show()
         self.Panel_setting:hide()
+        self.Panel_reward:hide()
+        self.Panel_rank:hide()
         self:refreshPanelMembers()
+    elseif self.selectIndex_ == 4 then
+        self.Panel_infos:hide()
+        self.Panel_members:hide()
+        self.Panel_setting:hide()
+        self.Panel_reward:show()
+        self.Panel_rank:hide()
+     elseif self.selectIndex_ == 5 then
+        self.Panel_infos:hide()
+        self.Panel_members:hide()
+        self.Panel_setting:hide()
+        self.Panel_reward:hide()
+        self.Panel_rank:show()
     else
         self.Panel_infos:hide()
         self.Panel_members:hide()
         self.Panel_setting:show()
+        self.Panel_reward:hide()
+        self.Panel_rank:hide()
         self:refreshPanelSetting()
     end
     self:updateRedPoints()
@@ -373,7 +634,8 @@ function LeagueHallView:updateMemberItem(item, data)
         Image_hero_frame_cover:addChild(headFrameEffect, 1)
     end
 
-    Label_name:setText(data.name)
+    local name ,_ = TFGlobalUtils:checkPlayerProvision(data.name)
+    Label_name:setText(name)
     Label_power:setText(tostring(data.fightPower))
     Label_degree:setVisible(data.degree < EC_UNION_DEGREE_Type.MEMBER)
     Label_degree:setText(LeagueDataMgr:getDegreeName(data.degree))
@@ -623,7 +885,7 @@ function LeagueHallView:registerEvents()
     EventMgr:addEventListener(self, EV_UNION_BASE_INFO_UPDATE, handler(self.refreshPanelInfos, self))
     EventMgr:addEventListener(self, EV_UNION_NOTIFY_UPDATE, handler(self.refreshPanelInfos, self))
     EventMgr:addEventListener(self, EV_UNION_MEMBER_UPDATE, handler(self.refreshPanelMembers, self))
-    EventMgr:addEventListener(self,EV_RECV_PLAYERINFO, handler(self.onShowPlayerInfoView, self))
+    EventMgr:addEventListener(self, EV_RECV_PLAYERINFO, handler(self.onShowPlayerInfoView, self))
     EventMgr:addEventListener(self, EV_UNION_KICK_MEMBER, handler(self.refreshPanelMembers, self))
     EventMgr:addEventListener(self, EV_UNION_NOTICE_CHANGE, handler(self.onNoticeUpdate, self))
     EventMgr:addEventListener(self, EV_UNION_QUIT_UNION, handler(self.onQuitUnionBack, self))
@@ -633,8 +895,10 @@ function LeagueHallView:registerEvents()
     EventMgr:addEventListener(self, EV_UNION_APPLY_UPDATE, handler(self.updateRedPoints, self))
     EventMgr:addEventListener(self, EV_UNION_INFO_RESET, handler(self.onInfoChangeRefresh, self))
     EventMgr:addEventListener(self, EV_UNION_MODIFY_NAME, handler(self.onNameUpdate, self))
-    EventMgr:addEventListener(self, EV_UNION_CHANGE_COUNTRY, handler(self.onChangeCountry, self))
 
+    EventMgr:addEventListener(self, EV_LEAGUE_BACK_ALL_INFO, handler(self.updateBackInfo, self))
+    EventMgr:addEventListener(self, EV_LEAGUE_BACK_SCORE_UPDATE, handler(self.updateMyScore, self))
+	EventMgr:addEventListener(self, EV_UNION_CHANGE_COUNTRY, handler(self.onChangeCountry, self))
     
     
     self.Slider_level:addMEListener(
@@ -653,7 +917,11 @@ function LeagueHallView:registerEvents()
         Utils:showTips(600010)
     end)
 
-    self.Button_edit_notice:onClick(function()
+    self.Button_edit_notice:onClick(function() 
+        if not FunctionDataMgr:getModifyFuncIsOpen() then
+            Utils:showTips(63826)
+            return
+        end
         Utils:openView("league.EditNoticeView")
     end)
 
@@ -716,6 +984,10 @@ function LeagueHallView:registerEvents()
     end)
 
     self.Button_edit:onClick(function()
+        if not FunctionDataMgr:getModifyFuncIsOpen() then
+            Utils:showTips(63826)
+            return
+        end
         Utils:openView("league.EditNoticeView")
     end)
 
@@ -736,6 +1008,34 @@ function LeagueHallView:registerEvents()
 
     self.Button_modify:onClick(handler(self.modifyNameHandle, self))
     self.Button_modify_name:onClick(handler(self.modifyNameHandle, self))
+
+    self.btn_pre:onClick(function()
+        local index = 1
+        if LeagueDataMgr.leagueBackInfo and LeagueDataMgr.leagueBackInfo.index then 
+            index = LeagueDataMgr.leagueBackInfo.index
+        end
+        if index <= 1 then
+            return
+        end
+        LeagueDataMgr:sendReqGetPlayerUnionReCallRank(index - 1)
+    end)
+
+    self.btn_next:onClick(function()
+        local index = 1
+        local total = 1
+        if LeagueDataMgr.leagueBackInfo and LeagueDataMgr.leagueBackInfo.index then 
+            index = LeagueDataMgr.leagueBackInfo.index
+            total = LeagueDataMgr.leagueBackInfo.total
+        end
+        if index >= total then
+            return
+        end
+        LeagueDataMgr:sendReqGetPlayerUnionReCallRank(index + 1)
+    end)
+
+    self.Button_modify:onClick(handler(self.modifyNameHandle, self))
+    self.Button_modify_name:onClick(handler(self.modifyNameHandle, self))
+
     local function onTouchBegan(touch, location)
         if self.Panel_operate_frame:isVisible() then
             self.Panel_operate_frame:setVisible(false)
@@ -757,6 +1057,11 @@ function LeagueHallView:registerEvents()
 end
 
 function LeagueHallView:modifyNameHandle(sender)
+      
+    if not FunctionDataMgr:getModifyFuncIsOpen() then
+        Utils:showTips(63826)
+        return
+    end
     Utils:openView("league.LeagueModifyName")
 end
 

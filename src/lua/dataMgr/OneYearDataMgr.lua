@@ -58,6 +58,7 @@ function OneYearDataMgr:initData()
 
     self.cdTime = 60
     self.nextTime = 0
+    self.joinStatus = {}
 end
 
 
@@ -68,8 +69,7 @@ end
 function OneYearDataMgr:onEnterMain()
 
     self.fiilInfo = {}
-    self.joinStatus = false
-    self.rewardStatus = 0
+    -- self.rewardStatus = 0
     self.signPersonNum = 0
     self.luckyLitMap_ = {}
     self.luckyList = {}
@@ -80,7 +80,6 @@ function OneYearDataMgr:onEnterMain()
         if activityInfo_ then
             self:setStageTimeGroup(activityInfo_.extendData.alternately)
             self:setCelebrationRewarsInfo(activityInfo_.extendData.reward)
-
             TFDirector:send(c2s.YEAR_LOTTO_REQ_YEAR_LOTTO_INFO, {})
             return {s2c.YEAR_LOTTO_RESP_YEAR_LOTTO_INFO}
         end
@@ -133,7 +132,7 @@ function OneYearDataMgr:getSignPersonNum()
 end
 
 function OneYearDataMgr:isSign()
-    return self.joinStatus
+    return self.joinStatus[self:getCurTurnIndex()].joinStatus
 end
 
 function OneYearDataMgr:getAwardState()
@@ -195,6 +194,14 @@ end
 ---设置每轮次相关时间组
 function OneYearDataMgr:setStageTimeGroup(alternately)
     self.alternately = alternately or {}
+
+    -- 数据更改 模拟以前结构
+    local activity = ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.ONEYEAR_CELEBRATION)
+    local activityInfo_ = ActivityDataMgr2:getActivityInfo(activity[1])
+    for i, v in ipairs(self.alternately) do
+        v.roundendTime = v.registrationTime + activityInfo_.extendData.endTtime
+    end
+
     self.stageTime = {}
     for k,v in ipairs(self.alternately) do
         if not self.stageTime[k] then
@@ -205,6 +212,30 @@ function OneYearDataMgr:setStageTimeGroup(alternately)
         table.insert(self.stageTime[k],{beginTime = v.drawInfo[2].drawTime,endTime = v.drawInfo[2].closingTime}) --stage 3
         table.insert(self.stageTime[k],{beginTime = v.rewardTime,endTime = v.finishTime}) --stage 4
     end
+end
+
+-- 抽奖活动结束
+function OneYearDataMgr:isOverAllDraw()
+    local activity = ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.ONEYEAR_CELEBRATION)
+    if #activity > 0  and self.alternately then
+        local activityInfo_ = ActivityDataMgr2:getActivityInfo(activity[1])
+        -- local lastDrawOverTime = self.alternately[#self.alternately].registrationTime + activityInfo_.extendData.endTtime
+        local _drawInfo = self.alternately[#self.alternately].drawInfo
+        local lastDrawOverTime = _drawInfo[#_drawInfo].closingTime
+        return lastDrawOverTime < ServerDataMgr:getServerTime()
+    end
+    return true
+end
+
+-- 报名结束
+function OneYearDataMgr:isFinishAllApply()
+    local activity = ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.ONEYEAR_CELEBRATION)
+    if #activity > 0 then
+        local activityInfo_ = ActivityDataMgr2:getActivityInfo(activity[1])
+        local lastTime = self.alternately[#self.alternately].registrationTime + activityInfo_.extendData.endTtime
+        return lastTime < ServerDataMgr:getServerTime()
+    end
+    return true
 end
 
 ---获得当前轮数
@@ -326,7 +357,6 @@ function OneYearDataMgr:Send_submitAddress(jsonData)
         return
     end
     self:setNextTime()
-    dump(jsonData)
     TFDirector:send(c2s.YEAR_LOTTO_REQ_YEAR_LOTTO_ADDRESS, {jsonData})
 end
 
@@ -349,13 +379,14 @@ function OneYearDataMgr:onRecvCelebrateBaseInfo(event)
     if not data then
         return
     end
-    dump(data)
-    self.joinStatus = data.joinStatus
-    self.rewardStatus = data.rewardStatus       ---领奖状态,0 未中奖 1 可领取 2 已领取
+    for i, v in ipairs(data.roundInfo or {}) do
+        self.joinStatus[math.floor(v.round / 1000)] = v
+    end
     self.signPersonNum = data.joinNum
     if data.address then
         self.fiilInfo = json.decode(data.address)
     end
+    
     self.realPrize = data.realPrize or 0        ---实体奖励
     self.realRound = data.realRound or 0        ---实物奖励轮次
     local flag = self:getLuckyTipFlag()
@@ -365,12 +396,67 @@ function OneYearDataMgr:onRecvCelebrateBaseInfo(event)
     EventMgr:dispatchEvent(EV_UPDATE_BASE_ONFO)
 end
 
-function OneYearDataMgr:onRecvLuckyListInfo(event)
+-- 上一轮开奖时红点显隐
+function OneYearDataMgr:isOpenAwardRedShow()
+    local curTime = ServerDataMgr:getServerTime()
+    local curIndex = self:getCurTurnIndex()
+    local sumIndex = #self.alternately
+    curIndex = curIndex == sumIndex and sumIndex or (curIndex - 1)
+    local _data = self:getStageInfoByIndex(curIndex)
+    if _data then
+        local num = #_data.drawInfo
+        local endTime = _data.drawInfo[num].closingTime
+        if curTime > endTime and not self:isOverAllDraw() then 
+            local key = "CelebrationView"..MainPlayer:getPlayerId()
+            local value = Utils:getLocalSettingValue(key)
+            return value == "" or value ~= tostring(endTime)
+        else
+            return false
+        end
+    else
+        return false
+    end
+end
 
+-- 
+function OneYearDataMgr:isCelebrationRedShow()
+    local _bool = false
+    local isOpen =  ActivityDataMgr2:isInOpenTimeByType(EC_ActivityType2.ONEYEAR_CELEBRATION)
+    if isOpen then
+        if not self:isOverAllDraw() then
+            -- not self:isSign() or
+            if self:isOpenAwardRedShow() then
+                _bool = true
+            end
+        end
+    end
+    return _bool
+end
+
+function OneYearDataMgr:setOpenAwardRedHide()
+    local curTime = ServerDataMgr:getServerTime()
+    local curIndex = self:getCurTurnIndex()
+    local sumIndex = #self.alternately
+    curIndex = curIndex == sumIndex and sumIndex or (curIndex - 1)
+    local _data = self:getStageInfoByIndex(curIndex)
+    if _data then
+        local num = #_data.drawInfo
+        local endTime = _data.drawInfo[num].closingTime
+
+        if curTime > endTime and not self:isOverAllDraw() then 
+            local key = "CelebrationView"..MainPlayer:getPlayerId()
+            Utils:setLocalSettingValue(key, endTime)
+        end
+    end
+end
+
+function OneYearDataMgr:onRecvLuckyListInfo(event)
     local data = event.data
     if not data then
         return
     end
+    -- dump(data)
+    -- Box("data")
     local newList = self:newLuckyList(data.list)
     self:updateLuckyPlayer(newList)
     EventMgr:dispatchEvent(EV_UPDATE_NEW_LUCKYPLAYER)
@@ -411,7 +497,6 @@ function OneYearDataMgr:test2(pid)
     end
     local newList = self:newLuckyList(player)
     self:updateLuckyPlayer(newList)
-    dump("11111111111111111111111")
     EventMgr:dispatchEvent(EV_ADD_NEW_LUCKYPLAYER,newList)
 end
 
@@ -440,7 +525,7 @@ function OneYearDataMgr:onRecvAfterReward(event)
     if not data then
         return
     end
-    self.rewardStatus = 2
+    -- self.rewardStatus = 2
     EventMgr:dispatchEvent(EV_ACTIVITY_UPDATE_PROGRESS)
     Utils:showReward(data.rewards or {})
 end

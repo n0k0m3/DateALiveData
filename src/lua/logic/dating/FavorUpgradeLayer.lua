@@ -146,7 +146,7 @@ end
 function FavorUpgradeLayer:initElvesNpc()
     --local roleId = RoleDataMgr:getModel(RoleDataMgr:getCurId())
     local dressTable = TabDataMgr:getData("Dress")
-    local data = dressTable[RoleDataMgr:getRoleInfo(RoleDataMgr:getCurId()).roleModel]
+    local data = dressTable[RoleDataMgr:getRoleInfo(RoleDataMgr:getCurId()).correctRoleModel]
 
     local roleId = data.roleModel --暂时调整为默认模型（避免新出的模型没有升级动画）
     self.Panel_npc = TFDirector:getChildByPath(self.ui, "Panel_npc")

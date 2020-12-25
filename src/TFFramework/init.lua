@@ -35,8 +35,6 @@ ENABLE_DEBUG_FOR_AUTO_TEST  = false
 AUTO_TEST_IP 				= "192.168.10.45"
 AUTO_TEST_PORT 				= 6666
 
-GAME_LANGUAGE_VAR = Director:getInstance():getNewLanguageConfig()
-
 require('TFFramework.SkeletonAnimationEx')
 --[[--
 	Load Base Tools
@@ -63,8 +61,8 @@ require('TFFramework.utils.Bugly')
 require('TFFramework.base.me.initME')
 
 require('TFFramework.utils.TFVisibleUtils')
---require('TFFramework.utils.TFLanguageUtils')
-
+require('TFFramework.utils.TFLanguageUtils')
+require('TFFramework.utils.TFGlobalUtils')
 --[[--
 	Load Algorithm
 ]]

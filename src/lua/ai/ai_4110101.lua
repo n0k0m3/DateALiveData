@@ -34,14 +34,24 @@ return {
             [1] = "1B71AAD961C4461FAAFB7308293C3D49",
         },
         ["4D01484ABDF048239ED5DD1CC7A180D4"] = {
-            [1] = "05961F8AB4FC4634B60F637805B8B38F",
-            [2] = "A92F80CBFFA44F46BB3F3055E79B6E33",
+            [1] = "F16425CC498B436CAF62A68D358E0AD4",
+            [2] = "05961F8AB4FC4634B60F637805B8B38F",
+            [3] = "A92F80CBFFA44F46BB3F3055E79B6E33",
         },
         ["F9BC2061702F4193B5B942E1E4CE3A1C"] = {
             [1] = "13ACEA57DA7347CABE5D6410BE54312D",
         },
+        ["F7FA6A01BE5B4503B38F90AA2957E5E1"] = {
+            [1] = "8A7873E3CFFB4B088FDC2F22BFFC8E59",
+        },
         ["88F0E9A9790E438B863066A4B567635F"] = {
             [1] = "1AF483BFB30B4833A419095439544B69",
+        },
+        ["F16425CC498B436CAF62A68D358E0AD4"] = {
+            [1] = "09CF904A4DA1401CB36E3FB6A2B835FA",
+        },
+        ["09CF904A4DA1401CB36E3FB6A2B835FA"] = {
+            [1] = "F7FA6A01BE5B4503B38F90AA2957E5E1",
         },
         ["11C2129CDB3C4DA681AA8E6CED46B6BB"] = {
             [1] = "5D15E6D1B2CE48B1A4F0DCD735B40A4F",
@@ -123,6 +133,19 @@ return {
             ["Class"] = "OrderBevNode",
             ["NodeTag"] = "1AF483BFB30B4833A419095439544B69",
             ["Type"] = 0,
+            ["Static"] = false,
+        },
+        ["8A7873E3CFFB4B088FDC2F22BFFC8E59"] = {
+            ["Desc"] = "行为",
+            ["Pos"] = {
+                ["y"] = -85,
+                ["x"] = 1503,
+            },
+            ["Weight"] = 0,
+            ["Class"] = "KillMySelfBevNode",
+            ["NodeTag"] = "8A7873E3CFFB4B088FDC2F22BFFC8E59",
+            ["Type"] = 0,
+            ["IsCount"] = 1,
             ["Static"] = false,
         },
         ["A92F80CBFFA44F46BB3F3055E79B6E33"] = {
@@ -228,6 +251,43 @@ return {
             ["Key"] = "11号BOSS",
             ["Type"] = 0,
         },
+        ["F7FA6A01BE5B4503B38F90AA2957E5E1"] = {
+            ["Desc"] = "顺序行为",
+            ["Pos"] = {
+                ["y"] = -109,
+                ["x"] = 1315,
+            },
+            ["Weight"] = 0,
+            ["Class"] = "OrderBevNode",
+            ["NodeTag"] = "F7FA6A01BE5B4503B38F90AA2957E5E1",
+            ["Type"] = 0,
+            ["Static"] = false,
+        },
+        ["09CF904A4DA1401CB36E3FB6A2B835FA"] = {
+            ["Pos"] = {
+                ["y"] = -139,
+                ["x"] = 948,
+            },
+            ["Property"] = 51,
+            ["Class"] = "ConditionPropertyNode",
+            ["NodeTag"] = "09CF904A4DA1401CB36E3FB6A2B835FA",
+            ["Value"] = 5000,
+            ["Judge"] = 3,
+            ["Static"] = false,
+        },
+        ["AADC7BBCA1EB4CD29AB9851762B2A969"] = {
+            ["Desc"] = "行为",
+            ["Pos"] = {
+                ["y"] = 520,
+                ["x"] = 1748,
+            },
+            ["Weight"] = 0,
+            ["Class"] = "KillMySelfBevNode",
+            ["NodeTag"] = "AADC7BBCA1EB4CD29AB9851762B2A969",
+            ["Type"] = 0,
+            ["IsCount"] = 1,
+            ["Static"] = false,
+        },
         ["99EAF3C3A39C4E57AB6785A35DBF4093"] = {
             ["Desc"] = "行为",
             ["Pos"] = {
@@ -302,18 +362,24 @@ return {
             ["Type"] = 1,
             ["Static"] = false,
         },
-        ["AADC7BBCA1EB4CD29AB9851762B2A969"] = {
-            ["Desc"] = "行为",
-            ["Pos"] = {
-                ["y"] = 520,
-                ["x"] = 1748,
-            },
-            ["Weight"] = 0,
-            ["Class"] = "KillMySelfBevNode",
-            ["NodeTag"] = "AADC7BBCA1EB4CD29AB9851762B2A969",
-            ["Type"] = 0,
-            ["IsCount"] = 1,
+        ["F16425CC498B436CAF62A68D358E0AD4"] = {
+            ["Desc"] = "子节点",
+            ["Duration"] = 5000,
+            ["NodeTag"] = "F16425CC498B436CAF62A68D358E0AD4",
+            ["Force"] = 0,
+            ["TriggerType"] = 1,
             ["Static"] = false,
+            ["Pos"] = {
+                ["y"] = -151,
+                ["x"] = 591,
+            },
+            ["Class"] = "ChildNode",
+            ["Loop"] = 0,
+            ["Priority"] = 5,
+            ["DurationInterval"] = {
+                [1] = 0,
+                [2] = 0,
+            },
         },
         ["B5F80467F9A74799AC58A46EA25AD3CA"] = {
             ["Desc"] = "顺序行为",

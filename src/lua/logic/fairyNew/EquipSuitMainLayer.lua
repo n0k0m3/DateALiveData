@@ -394,6 +394,7 @@ function EquipSuitMainLayer:updatePanelInfo()
 
     if string.len(equipCfg.suitId) > 1 then
         self.Image_title_bg:setVisible(true)
+        print("===================equipCfg.suitId " ..equipCfg.suitId)
         local suitCfg = EquipmentDataMgr:getNewEquipSuitCfg(equipCfg.suitId)
         self.Image_title_flag:setTexture(suitCfg.icon)
         local skillCfg = EquipmentDataMgr:getNewEquipSkillCfgBySuitId(equipCfg.suitId)

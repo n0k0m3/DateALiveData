@@ -3,11 +3,11 @@ local BaseDataMgr = import(".BaseDataMgr")
 local LanguageResMgr = class("LanguageResMgr", BaseDataMgr)
 
 function LanguageResMgr:init()
-    local pitctureData = TabDataMgr:getData("PictureTable")
     self.languageResTable = {}
-    local language = GAME_LANGUAGE_VAR
+    local language = TFLanguageMgr:getUsingLanguageCode("_")
+    local pitctureData = TabDataMgr:getData("PictureTable")
     for k ,v in pairs(pitctureData) do
-        self.languageResTable[v["res"]] = v["res"..language]
+        self.languageResTable[v["res"]] = v["res_en"]
     end
 end
 

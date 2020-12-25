@@ -15,6 +15,16 @@ function ValentineGiftView:initData(roleCid)
     for i, v in ipairs(self.giftItemData_) do
         self.giftNum_[i] = 0
     end
+
+    local condData_ = {}
+    local cfg = ValentineDataMgr:getValentineRoleCfg(roleCid)
+    for i, v in ipairs(cfg.dating) do
+        local datingRuleCfg = TabDataMgr:getData("DatingRule", v)
+        local _, num = next(datingRuleCfg.enter_condition.item)
+        condData_[i] = num
+    end
+    self.maxTacit = math.max(unpack(condData_))
+    self.myTacit  =  ValentineDataMgr:getFullServerTacit(roleCid)
 end
 
 function ValentineGiftView:ctor(...)
@@ -105,15 +115,40 @@ function ValentineGiftView:holdDownAction(index, isAddOp)
         end
     end
 
-    self.holdDownTimer_ = TFDirector:addTimer(0, -1, nil, action)
+    -- self.holdDownTimer_ = TFDirector:addTimer(0, -1, nil, action)
 end
 
 function ValentineGiftView:singleGiftOp(index, isAddOp)
+    local _bool = self:isAddTacitBig()
+    if _bool and isAddOp then
+        for i, v in ipairs(self.Panel_item) do
+            v.Button_add:setGrayEnabled(true)
+        end
+        Utils:showTips(2460121)
+        return
+    end
+
     addNum = isAddOp and 1 or -1
     local num = self.giftNum_[index] + addNum
     local haveNum = GoodsDataMgr:getItemCount(self.giftItemData_[index])
     self.giftNum_[index] = clamp(num, 0, haveNum)
+
+    if not isAddOp and not self:isAddTacitBig()  then
+        for i, v in ipairs(self.Panel_item) do
+            v.Button_add:setGrayEnabled(false)
+        end
+    end
     self:updateGiftInfo()
+end
+
+-- 增加的默契是否超多最大值
+function ValentineGiftView:isAddTacitBig()
+    local tacitValue = 0
+    for i, v in ipairs(self.giftItemData_) do
+        local num = self.giftNum_[i]
+        tacitValue = tacitValue + self.giftData_[v] * num
+    end
+    return (tacitValue + self.myTacit) >= self.maxTacit
 end
 
 function ValentineGiftView:registerEvents()
@@ -123,43 +158,54 @@ function ValentineGiftView:registerEvents()
             AlertManager:closeLayer(self)
     end)
 
+    self.Button_gift:setGrayEnabled(self.maxTacit <= self.myTacit)
     self.Button_gift:onClick(function()
-            local gifts = {}
-            for i, v in ipairs(self.giftNum_) do
-                if v > 0 then
-                    table.insert(gifts, {self.giftItemData_[i], v})
-                end
+        if self.maxTacit <= self.myTacit then
+            Utils:showTips(2460121)
+            self.Button_gift:setGrayEnabled(true)
+            return
+        end
+        local gifts = {}
+        for i, v in ipairs(self.giftNum_) do
+            if v > 0 then
+                table.insert(gifts, {self.giftItemData_[i], v})
             end
-            if #gifts > 0 then
-                ValentineDataMgr:send_VALENTINE_VALENTINE_PRESENT(self.roleCid_, gifts)
-            else
-                Utils:showTips(1702083)
-            end
+        end
+        if #gifts > 0 then
+            ValentineDataMgr:send_VALENTINE_VALENTINE_PRESENT(self.roleCid_, gifts)
+        else
+            Utils:showTips(1702083)
+        end
     end)
 
     for i, v in ipairs(self.Panel_item) do
-        v.Button_add:onTouch(function(event)
-                if event.name == "began" then
+        local _bool = self.maxTacit <= self.myTacit
+        v.Button_add:setTouchEnabled(not _bool)
+        v.Button_add:setGrayEnabled(_bool)
+        v.Button_add:onClick(function(event)
+                -- if event.name == "began" then
                     self:singleGiftOp(i, true)
-                    self:holdDownAction(i, true)
-                elseif event.name == "ended" then
-                    if self.holdDownTimer_ then
-                        TFDirector:removeTimer(self.holdDownTimer_)
-                        self.holdDownTimer_ = nil
-                    end
-                end
+                    -- self:holdDownAction(i, true)
+                -- elseif event.name == "ended" then
+                    -- if self.holdDownTimer_ then
+                    --     TFDirector:removeTimer(self.holdDownTimer_)
+                    --     self.holdDownTimer_ = nil
+                    -- end
+                -- end
         end)
 
-        v.Button_sub:onTouch(function(event)
-                if event.name == "began" then
+        v.Button_sub:setTouchEnabled(not _bool)
+        v.Button_sub:setGrayEnabled(_bool)
+        v.Button_sub:onClick(function(event)
+                -- if event.name == "began" then
                     self:singleGiftOp(i, false)
-                    self:holdDownAction(i, false)
-                elseif event.name == "ended" then
-                    if self.holdDownTimer_ then
-                        TFDirector:removeTimer(self.holdDownTimer_)
-                        self.holdDownTimer_ = nil
-                    end
-                end
+                    -- self:holdDownAction(i, false)
+                -- elseif event.name == "ended" then
+                    -- if self.holdDownTimer_ then
+                    --     TFDirector:removeTimer(self.holdDownTimer_)
+                    --     self.holdDownTimer_ = nil
+                    -- end
+                -- end
         end)
     end
 end

@@ -1046,7 +1046,11 @@ function EquipmentInfo:registerEvents()
     end)
 
     self.Button_eval:onClick(function()
-
+        
+        if not FunctionDataMgr:getModifyFuncIsOpen() then
+            Utils:showTips(63826)
+            return
+        end
         local layer = require("lua.logic.fairyNew.EvaluationView"):new({heroOrEquip = 1, 
             heroId = self.equipmentId, callfunc = function()
             

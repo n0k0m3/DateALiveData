@@ -367,7 +367,7 @@ function BingoDivinationView:updateBatchPanel(num)
     local deltaChip = preNum
     local chipNum = BingoDataMgr:getChipNum()
     if chipNum == 0 or chipNum < deltaChip then
-        Utils:showAccess(500066)
+        Utils:showAccess(BingoDataMgr:getChipGoodsId())
         self:stopTimer()
         return
     end

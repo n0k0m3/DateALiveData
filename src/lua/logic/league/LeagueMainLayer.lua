@@ -82,6 +82,7 @@ function LeagueMainLayer:initBuilds()
 
         local nameItem = self.Panel_buld_name:clone()
         self:updateBuildingNameItem(nameItem, cfg)
+
         self.UI_content:addChild(nameItem, 91)
         self.nameItems[cfg.id] = nameItem
     end
@@ -111,16 +112,30 @@ function LeagueMainLayer:updateBuildingNameItem(nameItem, cfg)
     local Image_lock = TFDirector:getChildByPath(nameItem, "Image_lock")
     local Label_build_name = TFDirector:getChildByPath(nameItem, "Label_build_name")
     Label_build_name:setTextById(tonumber(cfg.name))
-    local open = FunctionDataMgr:isOpenByClient(cfg.open)
+    local open
+    if cfg.id == 6 then  -- 次元入侵双重判定
+        open = FunctionDataMgr:isOpen(cfg.open)
+    else
+        open = FunctionDataMgr:isOpenByClient(cfg.open)
+    end
+    
     Image_lock:setVisible(not open)
     local buildPos = cfg.location
     local namePos = cfg.excursion
     nameItem:setPosition(ccp(buildPos[1] + namePos[1],buildPos[2] + namePos[2]))
     -------------
-
+    if cfg.id == 5 and TFLanguageMgr:getUsingLanguage() == cc.SPANISH then
+        nameItem:setPosition(ccp(buildPos[1] + namePos[1] - 50,buildPos[2] + namePos[2] ))
+    end
+    if cfg.id == 7 and TFLanguageMgr:getUsingLanguage() == cc.SPANISH then
+        nameItem:setPosition(ccp(buildPos[1] + namePos[1],buildPos[2] + namePos[2] + 50))
+    end
+    if cfg.id == 8 and TFLanguageMgr:getUsingLanguage() == cc.SPANISH then
+        nameItem:setPosition(ccp(buildPos[1] + namePos[1] + 100,buildPos[2] + namePos[2] + 50))
+    end
     
     local Image_time = TFDirector:getChildByPath(nameItem, "Image_time")
- 
+
     if cfg.id  == 7 then --追猎计划特殊处理
         if open then 
             local huntingDungeonInfo = LeagueDataMgr:getHuntingDungeonInfo()
@@ -140,6 +155,26 @@ function LeagueMainLayer:updateBuildingNameItem(nameItem, cfg)
                 else
                     Label_time:setTextById("r304003", day, hour) --关闭倒计时
                 end
+            else
+                Image_time:hide()
+            end
+        else
+            Image_time:hide()
+        end
+    elseif cfg.id == 6 then -- 次元入侵特殊处理
+        if open then
+            local openTime = Utils:getKVP(51101,"timeOpen")
+            local serverTime = ServerDataMgr:getServerTime()
+            local remainTime = openTime/1000 - serverTime
+            if remainTime > 0 then
+                local day, hour, min, sec = Utils:getTimeDHMZ(remainTime)
+                local Label_time = TFDirector:getChildByPath(Image_time, "Label_time")
+                if tonumber(day) > 0 then 
+                    Label_time:setTextById("r304004", day, hour)  --开启倒计时
+                else
+                    Label_time:setTextById("r304005", hour, min)  --开启倒计时
+                end 
+                Image_time:show()
             else
                 Image_time:hide()
             end
@@ -186,6 +221,9 @@ function LeagueMainLayer:updateRedPoints()
             Image_red_tips:setVisible(LeagueDataMgr:getSupplyCenterRedPoint())
         elseif buildingId == 4 then
             Image_red_tips:setVisible(LeagueDataMgr:getUnionTaskRedPointState())
+        elseif buildingId == 6 then
+            local _bool = LeagueDataMgr:getIsRewardsAndMaxNum() or LeagueDataMgr:isWorldBossOpenRedShow()
+            Image_red_tips:setVisible(_bool)
         elseif buildingId == 7 then
             local visible = LeagueDataMgr:getHasHuntingFDAwardCanGet() or LeagueDataMgr:isHunterDungeonOpen()
             Image_red_tips:setVisible(visible)
@@ -282,7 +320,7 @@ end
 
 function LeagueMainLayer:addCountDownTimer()
     if not self.countDownTimer_ then
-        self.countDownTimer_ = TFDirector:addTimer(60000, -1, nil, handler(self.updateBuildingNameItems, self))
+        self.countDownTimer_ = TFDirector:addTimer(3000, -1, nil, handler(self.updateBuildingNameItems, self))
     end
 end
 function LeagueMainLayer:removeCountDownTimer()

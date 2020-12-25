@@ -106,8 +106,8 @@ function CoffeeRecoverView:updateBatchPanel(num)
     end
 
     local power = math.min(self.addPower_ * self.count_ + self.maidInfo_.strength, self.maidCfg_.strength)
-    self.Label_power:setTextById(800041, CoffeeDataMgr:converPower(self.maidInfo_.strength), CoffeeDataMgr:converPower(power))
-    self.Label_count:setTextById(800005, self.count_, haveCount)
+    self.Label_power:setTextById(244277, CoffeeDataMgr:converPower(self.maidInfo_.strength), CoffeeDataMgr:converPower(power))
+    self.Label_count:setTextById(800005, haveCount, self.count_)
 
     self.Button_recover:setVisible(haveCount > 0 and self.count_ > 0)
     self.Button_get:setVisible(haveCount == 0)

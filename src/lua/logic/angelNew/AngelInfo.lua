@@ -46,6 +46,8 @@ function AngelInfo:ctor(data)
 
     self.enterWithWhichSlot = data.whichSlot
 
+    self.lastUseSkillStrategy = data.lastUseSkillStrategy
+
     self:init("lua.uiconfig.angelNew.angelInfo")
     self:showTopBar();
 end
@@ -56,6 +58,7 @@ function AngelInfo:getClosingStateParams()
     data.skillid = self.skillId
     data.showPageType = self.showPageType
     data.isfriend = self.isfriend
+    data.lastUseSkillStrategy = self.lastUseSkillStrategy
     return {data}
 end
 
@@ -836,7 +839,7 @@ function AngelInfo:updateGemAngleSkillDetailsInfo(pos)
     local gemInfo = HeroDataMgr:getGemInfoByPos(self.heroid, self.gemPos)
     local cfg = EquipmentDataMgr:getGemCfg(gemInfo.cid)
     local skillDesc = TextDataMgr:getTextAttr(tonumber(config.des)).text
-    skillDesc = string.gsub(skillDesc, "#", cfg.skillName)
+    skillDesc = string.gsub(skillDesc, "#", TextDataMgr:getText(cfg.skillName))
     Label_content:setText(skillDesc)
     Label_content:setDimensions(size.width, 0)
     self.ListView_gem_skill_desc:pushBackCustomItem(Label_content)
@@ -1772,6 +1775,10 @@ end
 
 function AngelInfo:removeUI()
     self.super.removeUI(self)
+
+    if self.lastUseSkillStrategy then
+        HeroDataMgr:setTmpUseSkillStrategy(self.heroid, self.lastUseSkillStrategy)
+    end
 end
 
 function AngelInfo:initNativeLanguage()

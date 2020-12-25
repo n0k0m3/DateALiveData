@@ -4,6 +4,7 @@ local TriggerType = {
 	HPTrigger = "HPTrigger",
 	RegionTrigger = "RegionTrigger",
 	AliveCounterTrigger = "AliveCounterTrigger",
+	DamageTrigger = "DamageTrigger",
 	TimerTrigger = "TimerTrigger",
 	MultConditionTrigger = "MultConditionTrigger",
 	TeamAliveTimerTrigger = "TeamAliveTimerTrigger",
@@ -36,6 +37,15 @@ local TriggerCfgModel = {
             ["Active"] = false, 
             ["Duration"] = 1000,  
             ["type"] = "TimerTrigger", 
+            ["Events"] = {},
+		},
+	["DamageTrigger"] = {
+			["Value"] = 0, 
+            ["ID"] = 0, 
+            ["Active"] = false, 
+            ["Duration"] = 0,
+            ["CompareType"] = ">=",  
+            ["type"] = "DamageTrigger", 
             ["Events"] = {},
 		},
 	["RegionTrigger"] = {
@@ -310,6 +320,15 @@ function ExEventTrigger:triggerWithWinOrFail(cfg)
 			end
 			self.BeginTimmerTrigger.Events[#self.BeginTimmerTrigger.Events].ActivateID = m_activeIds
 		end
+	elseif cfg["victoryType"] == 10 then
+		local tmtrigger = clone(TriggerCfgModel.DamageTrigger)
+		local params = cfg.victoryParam[1]
+		tmtrigger.ID = self:getNewTriggerId()
+		tmtrigger.CompareType = ">="
+		tmtrigger.Value = params[2] or 0
+		tmtrigger.Active = true
+
+		tmtriggerList[#tmtriggerList + 1] = tmtrigger
 	else
 
 	end
@@ -708,6 +727,10 @@ function ExEventTrigger:monsterTMode(cfg)
 		tmAliveTrigger.Count = cfg.NumMaxT or 10
 		tmAliveTrigger.CompareType = "<"
 		tmAliveTrigger.Duration = 2000
+		tmAliveTrigger.CampNumMax = cfg.CampNumMax or {}
+		if tmAliveTrigger.CampNumMax and table.count(tmAliveTrigger.CampNumMax) > 0 then
+			tmAliveTrigger.Loop = true
+		end
 		tmAliveTrigger.Events[#tmAliveTrigger.Events + 1] = tmEventT
 		plusTriggers[#plusTriggers + 1] = tmAliveTrigger
 

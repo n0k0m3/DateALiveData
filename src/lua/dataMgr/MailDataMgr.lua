@@ -4,6 +4,7 @@ local MailDataMgr = class("MailDataMgr", BaseDataMgr)
 local MailType = {
 	systemMail = 1,
 	redPackMail = 2,
+	specialMail = 3,
 }
 
 function MailDataMgr:ctor()
@@ -27,6 +28,10 @@ function MailDataMgr:onLogin()
 	return {s2c.MAIL_MAIL_INFO_LIST}
 end
 
+function MailDataMgr:isSpecialMail(mailType)
+	return mailType == MailType.specialMail
+end
+
 function MailDataMgr:getMailCount(mailType)
 	local count = 0
 	for k,v in pairs(self.mails) do
@@ -39,8 +44,10 @@ end
 
 function MailDataMgr:getMailTyps()
 	-- body
-	--屏蔽邮件红包
-	local types = {[MailType.systemMail] = 1,--[[[MailType.redPackMail] = 1]]}
+	-- 屏蔽邮件红包
+	-- TODO CLOSE
+	-- 屏蔽特殊邮件
+	local types = {[MailType.systemMail] = 1} --[[[MailType.redPackMail] = 1]]--, [MailType.specialMail] = 1}
 	for k,v in pairs(self.mails) do
 		types[v.mailType] = 1
 	end
@@ -78,6 +85,10 @@ function MailDataMgr:onLoginOut()
 	self.mails = {};
 end
 
+function MailDataMgr:checkSpecialMailRePoint()
+	return self:checkRedPointByMailType(MailType.specialMail)
+end
+
 function MailDataMgr:checkRedPoint()
 	local ret = false;
 	for k,v in pairs(self.mails) do
@@ -106,55 +117,9 @@ end
 
 function MailDataMgr:getOneMail(idx)
 	local mailInfo = clone(self.showList[idx])
-	local strTag = "#####"
-	mailInfo.isStrId = string.find(mailInfo.title , strTag)
-	if mailInfo.isStrId then
-		local strTitle = string.split(mailInfo.title , strTag)
-		local strBody = string.split(mailInfo.body , strTag)
-
-		if GAME_LANGUAGE_VAR == EC_LanguageType.Chinese then
-			mailInfo.title = strTitle[1]
-			mailInfo.body = strBody[1]
-		else
-			mailInfo.title = strTitle[2] or mailInfo.title
-			mailInfo.body = strBody[2] or mailInfo.body
-		end
-	else
-		local bodyStr = string.split(mailInfo.body , ',')
-		if #bodyStr > 1 then
-			mailInfo.isStrId = true
-			local  symbol  = {}
-			local bodyInfo = TextDataMgr:getTextAttrCanNil(bodyStr[1])
-			if bodyInfo then
-				bodyInfo = TextDataMgr:getText(bodyStr[1])
-			else
-				bodyInfo = bodyStr[1]
-			end
-			for s in string.gmatch(bodyInfo , '(%%%a)') do
-			 	table.insert(symbol , s)
-			end
-			local symbolInfo = {}
-			for i=1 , #symbol , 1 do
-				if symbol[i] == "%s" then
-					local strInfo = TextDataMgr:getTextAttrCanNil(bodyStr[i+1])
-					if strInfo then
-						symbolInfo[i] = TextDataMgr:getText(bodyStr[i+1])
-					else
-						symbolInfo[i] = bodyStr[i+1]
-					end
-				elseif symbol[i] == "%d" then
-					symbolInfo[i] = bodyStr[i+1]
-				end
-			end
-			mailInfo.title = TextDataMgr:getText(mailInfo.title)
-			mailInfo.body = TextDataMgr:getText(bodyStr[1] , symbolInfo[1], symbolInfo[2] ,  symbolInfo[3] ,  symbolInfo[4])
-		else
-			mailInfo.body = tonumber(mailInfo.body)
-			mailInfo.title = tonumber(mailInfo.title)
-		end
-		
-	end
-	
+	--更改邮件为通用多语言读取规则
+	mailInfo.title = Utils:MultiLanguageStringDeal(mailInfo.title)
+	mailInfo.body = Utils:MultiLanguageStringDeal(mailInfo.body)
 	return mailInfo
 end
 
@@ -197,7 +162,7 @@ function MailDataMgr:recvMailList(event)
 		return;
 	end
 	for k,v in pairs(event.data.mails) do
-		v.mailType = MailType.systemMail
+		v.mailType = v.mailType or MailType.systemMail
 		local id = v.id.."/"..v.mailType
 		if not self.mails[id] then
 			self.mails[id] = v
@@ -340,22 +305,34 @@ function MailDataMgr:removeAllReceivedMail()
 	end
 end
 
+function MailDataMgr:showMailView(mailId)
+	local index = self:getMailShowIndex(mailId)
+	local info = self:getOneMail(index) or {}
+	if self:isSpecialMail(info.mailType) then
+		Utils:openView("mail.SpecialMail", mailId)
+	else
+		Utils:openView("mail.ShowMail", mailId)
+	end
+end
+
 function MailDataMgr:revcSeeMail(event)
 	dump(event.data)
 	if self.operationType == 1 then
-		local layer = require("lua.logic.mail.ShowMail"):new(self.seeID)
-        AlertManager:addLayer(layer)
-        AlertManager:show()
+		self:showMailView(self.seeID)
 	end
 
 	if self.operationType == 2 then
 		local index = self:getMailShowIndex(self.seeID);
 		if index > 0 and self.showList[index] then
-			local rewardList = {}
-		    for k,v in pairs(event.data.rewards) do
-		        table.insert(rewardList,Utils:makeRewardItem(v.id, v.num))
-		    end
-			Utils:showReward(rewardList)
+			if event.data.rewards then
+				local rewardList = {}
+			    for k,v in pairs(event.data.rewards) do
+			        table.insert(rewardList,Utils:makeRewardItem(v.id, v.num))
+			    end
+				Utils:showReward(rewardList)
+			else
+				Utils:showTips(202010)
+			end
 		end
 	end
 
@@ -364,11 +341,15 @@ function MailDataMgr:revcSeeMail(event)
 	end
 
 	if self.operationType == "oneKey" then
-		local rewardList = {}
-	    for k,v in pairs(event.data.rewards) do
-	        table.insert(rewardList,Utils:makeRewardItem(v.id, v.num))
-	    end
-		Utils:showReward(rewardList);
+		if event.data.rewards then
+			local rewardList = {}
+		    for k,v in pairs(event.data.rewards) do
+		        table.insert(rewardList,Utils:makeRewardItem(v.id, v.num))
+		    end
+			Utils:showReward(rewardList);
+		else
+			Utils:showTips(202010)
+		end
 	end
 
 	self.operationType = 0;

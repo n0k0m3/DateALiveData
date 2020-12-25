@@ -81,13 +81,13 @@ function CelebrationRuleView:updateAwardInfo()
         local index = 0
         for k,num in pairs(v.show) do
             local Panel_goodsItem = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
-            Panel_goodsItem:setScale(0.6)
+            Panel_goodsItem:setScale(0.7)
             local itemId = tonumber(k)
             if itemId then
                 index = index + 1
                 PrefabDataMgr:setInfo(Panel_goodsItem, itemId, num)
-                local posX = -150 + (index-1)*70
-                Panel_goodsItem:Pos(posX, -15)
+                local posX = -80 + (index-1)*90
+                Panel_goodsItem:Pos(posX, 0)
                 awardItem:addChild(Panel_goodsItem)
             end
         end

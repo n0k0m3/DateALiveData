@@ -91,7 +91,7 @@ function RoleListView:updateRoleInfo(roleId)
     Label_height:setString(useRoleInfo.height)
     --三维
     local Label_threeDimensional = TFDirector:getChildByPath(self.Image_roleInfoBg,"Label_threeDimensional")
-    Label_threeDimensional:setString(useRoleInfo.threeDimensional)
+    Label_threeDimensional:setTextById(useRoleInfo.threeDimensional)
     --名字
     local Label_name = TFDirector:getChildByPath(self.Image_roleInfoBg,"Label_name")
     Label_name:setTextById(useRoleInfo.nameId)
@@ -100,10 +100,10 @@ function RoleListView:updateRoleInfo(roleId)
     Label_theme:setString(TextDataMgr:getText(useRoleInfo.akiraId))
     --生日
     local Label_birthday = TFDirector:getChildByPath(self.Image_roleInfoBg,"Label_birthday")
-    Label_birthday:setString(useRoleInfo.birthday)
+    Label_birthday:setTextById(useRoleInfo.birthday)
     --体重
     local Label_weight = TFDirector:getChildByPath(self.Image_roleInfoBg,"Label_weight")
-    Label_weight:setString(useRoleInfo.weight)
+    Label_weight:setTextById(useRoleInfo.weight)
 end
 
 function RoleListView:initTableView()

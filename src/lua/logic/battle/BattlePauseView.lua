@@ -7,14 +7,15 @@ local eBFAddType    = enum.eBFAddType
 local ResLoader     = import(".ResLoader")
 local PauseView     = class("PauseView", BaseLayer)
 
-function PauseView:initData()
+function PauseView:initData(data)
     self.levelCid_ = BattleDataMgr:getPointId()
     self.levelCfg_ = BattleDataMgr:getLevelCfg()
+    self.data_ = data
 end
 
-function PauseView:ctor(...)
-    self.super.ctor(self, ...)
-    self:initData(...)
+function PauseView:ctor(data)
+    self.super.ctor(self, data)
+    self:initData(data)
     self:init("lua.uiconfig.battle.pauseView")
 end
 
@@ -46,6 +47,11 @@ function PauseView:initUI(ui)
         foo.tip1 = TFDirector:getChildByPath(foo.root, "Label_tip1")
         foo.tip2 = TFDirector:getChildByPath(foo.root, "Label_tip2")
         self.Panel_item[i] = foo
+
+        if self.levelCfg_.dungeonType == EC_FBLevelType.HWX then
+            foo.star:setTexture("ui/hwx/map/023.png")
+            foo.starGray:setTexture("ui/hwx/map/022.png")
+        end
     end
 
     if self.levelCfg_.dungeonType == EC_FBLevelType.SPRITE 
@@ -64,14 +70,14 @@ function PauseView:initUI(ui)
     local panelVictory  = self.Panel_pause:getChildByName("Panel_victory")
     local victoryCfgs  = victoryDecide.getData()
     panelVictory:setVisible(#victoryCfgs > 0)
-    local nodeTips = {}
-    nodeTips[1]   = panelVictory:getChildByName("Label_tip1"):hide()
-    nodeTips[2]   = panelVictory:getChildByName("Label_tip2"):hide()
+    self.nodeTips = {}
+    self.nodeTips[1]   = panelVictory:getChildByName("Label_tip1"):hide()
+    self.nodeTips[2]   = panelVictory:getChildByName("Label_tip2"):hide()
     for index, victoryCfg in ipairs(victoryCfgs) do
         dump(self.levelCid_)
         local text =  FubenDataMgr:getPassCondDesc(self.levelCid_, index)
-        nodeTips[index]:setText(text)
-        nodeTips[index]:show()
+        self.nodeTips[index]:setText(text)
+        self.nodeTips[index]:show()
     end
 
     if self.Image_challenge:isVisible() then
@@ -79,6 +85,8 @@ function PauseView:initUI(ui)
         if self.levelCfg_.dungeonType == EC_FBLevelType.TXJZ then
         elseif self.levelCfg_.dungeonType == EC_FBLevelType.SKYLADDER then
             self:showSkyLadderInfo()
+        elseif self.levelCfg_.dungeonType == EC_FBLevelType.MUSIC_GAME then
+            self:showMusicGameInfo()
         else
             self:showNormalInfo()
         end
@@ -133,7 +141,7 @@ function PauseView:createItem(effect)
         Label_num:hide()
     end
     if data.iconDes then 
-        Label_desc:setText(data.iconDes)
+        Label_desc:setTextById(data.iconDes)
     else
         Label_desc:setText("bufferEffect "..data.id.." 没有配置效果描述")
     end
@@ -222,6 +230,33 @@ function PauseView:showSkyLadderInfo()
             dump({self.levelCfg_.time,cfg.timeRate,curTime,rate})
         end
     end
+end
+
+function PauseView:showMusicGameInfo()
+    TFDirector:getChildByPath(self.Panel_pause, "Panel_b"):hide()
+    TFDirector:getChildByPath(self.Panel_pause, "Image_challenge"):hide()
+    self.Label_dian1:setText("成功率")
+    local rate = math.floor(self.data_.myPoints/self.data_.points*100)
+    local desc = rate.."%".."  ---  ".."(已完成"..self.data_.success.."/"..self.data_.maxround..")"
+    self.nodeTips[1]:setText(desc)
+
+    -- self.Panel_item[1].root:setVisible(true)
+    -- self.Panel_item[1].star:setVisible(false)
+    -- self.Panel_item[1].starGray:setVisible(true)
+    -- self.Panel_item[1].tip1:setText("成功率达到90%")
+    -- self.Panel_item[1].tip2:hide()
+
+    -- self.Panel_item[2].root:setVisible(true)
+    -- self.Panel_item[2].star:setVisible(false)
+    -- self.Panel_item[2].starGray:setVisible(true)
+    -- self.Panel_item[2].tip1:setText("成功率达到75%")
+    -- self.Panel_item[2].tip2:hide()
+
+    -- self.Panel_item[3].root:setVisible(true)
+    -- self.Panel_item[3].star:setVisible(false)
+    -- self.Panel_item[3].starGray:setVisible(true)
+    -- self.Panel_item[3].tip1:setText("成功率达到50%")
+    -- self.Panel_item[3].tip2:hide()
 end
 
 function PauseView:registerEvents()

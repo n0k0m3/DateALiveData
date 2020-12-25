@@ -2,7 +2,7 @@
 local BagView = class("BagView", BaseLayer)
 
 function BagView:initData(mainSelectIndex, selectIndex)
-    self.btnConfig_ = {
+    local btnConfig = {
         -- {
         --     txt = 301001,
         --     bag = {EC_Bag.ANGEL},
@@ -99,26 +99,64 @@ function BagView:initData(mainSelectIndex, selectIndex)
         
     }
 
+    self.btnConfig_ = {}
+    for k ,v in pairs(btnConfig) do
+
+        if k == 4  then
+            if GlobalFuncDataMgr:isOpen(8) then
+                table.insert(self.btnConfig_ , v)
+            end
+        elseif k == 5  then
+            if GlobalFuncDataMgr:isOpen(9) then
+                table.insert(self.btnConfig_ , v)
+            end
+        else
+            table.insert(self.btnConfig_ , v)
+        end
+    end
+    -- 质点
     self.ruleType = {
         Level = 1,
         Quality = 2,
         SubType = 3,
-        Suit = 4,
+        Suit = 4
     }
+    -- 宝石
+    self.baoShiRuleType = {
+        Quality = 1,
+        Hero = 2
+    }
+    
     self.ruleText_ = {
-        [self.ruleType.Level] = 301017,
-        [self.ruleType.Quality] = 301016,
-        [self.ruleType.SubType] = 301015,
-        [self.ruleType.Suit] = 301022,
+        [EC_BagCategory.EQUIPMENT] = {
+            [self.ruleType.Level] = 301017,
+            [self.ruleType.Quality] = 301016,
+            [self.ruleType.SubType] = 301015,
+            [self.ruleType.Suit] = 301022,
+        },
+        [EC_BagCategory.BAOSHI] = {
+            [self.baoShiRuleType.Quality] = 301028,
+            [self.baoShiRuleType.Hero] = 301029,
+        }
     }
+
     self.orderText_ = {301018, 301019}
 
     self.defaultSelectIndex_ = selectIndex or 1
 	self.mainSelectIndex = mainSelectIndex or 1
 
-    self.defaultSelectRuleIndex_ = self.ruleType.Level
-    self.selectRuleIndex_ = self.defaultSelectRuleIndex_
-    self.selectOrderIndex_ = 1
+    self.defaultSelectRuleIndex_ = {
+        [EC_BagCategory.EQUIPMENT] = self.ruleType.Level,
+        [EC_BagCategory.BAOSHI]    = self.baoShiRuleType.Quality
+    }
+    self.selectRuleIndex_ = {
+        [EC_BagCategory.EQUIPMENT] = self.defaultSelectRuleIndex_[EC_BagCategory.EQUIPMENT],
+        [EC_BagCategory.BAOSHI] = self.defaultSelectRuleIndex_[EC_BagCategory.BAOSHI],
+    }
+    self.selectOrderIndex_ = {
+        [EC_BagCategory.EQUIPMENT] = 1,
+        [EC_BagCategory.BAOSHI]    = 1
+    }
     self.lastEquipSellBtnStarIdx = -1
     self.selectBaoshiRarity = -1
 
@@ -199,6 +237,7 @@ function BagView:initUI(ui)
     self.Button_merge    = TFDirector:getChildByPath(self.Panel_bottom,"Button_merge"):hide()
     self.Button_specialCompose    = TFDirector:getChildByPath(self.Panel_bottom,"Button_specialCompose"):hide()
     self.Button_decompose    = TFDirector:getChildByPath(self.Panel_bottom,"Button_decompose"):hide()
+    self.Button_choose    = TFDirector:getChildByPath(self.Panel_bottom,"Button_choose"):hide()
     
 
     self.Panel_sort = TFDirector:getChildByPath(ui, "Panel_sort")
@@ -311,7 +350,6 @@ function BagView:initUI(ui)
     self.Button_rule = {}
     for i = 1, 4 do
         local Button_rule = TFDirector:getChildByPath(self.Panel_sortRule, "Button_rule_" .. i)
-        TFDirector:getChildByPath(Button_rule, "Label_nameSelect"):setTextById(self.ruleText_[i])
         self.Button_rule[i] = Button_rule
     end
 
@@ -350,9 +388,7 @@ function BagView:onShow()
 end
 
 function BagView:refreshView()
-    self.Label_sortRule:setTextById(self.ruleText_[1])
-    self.Label_order_name:setTextById(self.orderText_[1])
-    self.Image_order_icon:setFlipY(self.selectOrderIndex_ == 1)
+    self.Image_order_icon:setFlipY(self.selectOrderIndex_[self.curCategory] == 1)
 
     self:initGridView()
 
@@ -363,6 +399,25 @@ function BagView:refreshView()
     self:selectTabBtn(self.defaultSelectIndex_)
 
     self:addCountDownTimer()
+end
+
+function BagView:refreshRuleBtn()
+    if not self.btnConfig_ or not self.selectIndex_ then return end
+    local arryTxtIds = self.ruleText_[self.curCategory]
+
+    if arryTxtIds then
+        for i, btn in ipairs(self.Button_rule) do
+            local Label_nameSelect = TFDirector:getChildByPath(btn, "Label_nameSelect")
+            local count = table.count(arryTxtIds)
+            btn:setVisible(i <= count)
+            if i <= count then
+                Label_nameSelect:setTextById(arryTxtIds[i])
+            end
+        end
+        local ruleText = self.ruleText_[self.curCategory][self.selectRuleIndex_[self.curCategory]]
+        self.Label_sortRule:setTextById(ruleText)
+        self.Label_order_name:setTextById(self.orderText_[self.selectOrderIndex_[self.curCategory]])
+    end
 end
 
 function BagView:initGridView()
@@ -433,6 +488,7 @@ function BagView:updateBtnView(index)
     end
     if self.selectIndex_ == index and not (config.config_Ex and #config.config_Ex > 0) then return end
     self.selectIndex_ = index
+    self.curCategory = config.category
     local btnConfig = self.btnConfig_[self.selectIndex_]
 
     for i, v in ipairs(self.tabBtn_) do
@@ -458,6 +514,14 @@ function BagView:updateBtnView(index)
         v:setVisible(index == i)
     end
 
+    self.Button_choose:setVisible(btnConfig.category == EC_BagCategory.EQUIPMENT)
+    -- TODO CLOSE
+    -- 屏蔽质点筛选
+    self.Button_choose:setVisible(false)
+
+    -- TODO CLOSE
+    -- 屏蔽宝石排序
+    -- if btnConfig.category == EC_BagCategory.EQUIPMENT or btnConfig.category == EC_BagCategory.BAOSHI then
     if btnConfig.category == EC_BagCategory.EQUIPMENT then
         __opacity()
         self.Panel_sort:show()
@@ -611,11 +675,54 @@ function BagView:updateBag(index)
     self:updateCapacity()
 end
 
+function BagView:getCurCapacity(index)
+    -- body
+    local config = self.btnConfig_[index]
+    local data = {}
+    for _, v in ipairs(config.bag) do
+        local bag = GoodsDataMgr:getBag(v)
+        for _, item in pairs(bag) do
+            local splitGoods = self:splitGoods(item.id)
+            local goodsCfg = GoodsDataMgr:getItemCfg(item.cid)
+            -- if goodsCfg.subType == 100 and goodsCfg.superType == EC_ResourceType.SPIRIT then
+            --     local itemindex = self:getEquipGoodsIndex(index,item.cid)
+            --     local splitGoodClone = clone(splitGoods)[1]
+            --     if not itemindex then
+            --         splitGoodClone.merge = {}
+            --         splitGoodClone.num = 1
+            --         table.insert(splitGoodClone.merge,clone(splitGoods)[1])
+            --         table.insert(self.goodsData_[index], splitGoodClone)
+            --     else
+            --         local mergeitem = self.goodsData_[index][itemindex]
+            --         if not mergeitem.merge then
+            --             mergeitem.merge = {}
+            --         end
+            --         mergeitem.num = mergeitem.num + 1
+            --         table.insert(mergeitem.merge,clone(splitGoods)[1])
+            --     end
+            -- else
+            --end
+            if goodsCfg.superType == EC_ResourceType.FETTERS then
+                if goodsCfg.display then
+                    table.insertTo(data, splitGoods)
+                end
+            elseif goodsCfg.superType == EC_ResourceType.BAOSHI then
+                if goodsCfg.showType == 0 then
+                    table.insertTo(data, splitGoods)
+                end
+            else
+                table.insertTo(data, splitGoods)
+            end
+        end
+    end
+    return #data
+end
+
 function BagView:updateCapacity()
-    local data = self.goodsData_[self.selectIndex_]
-    self.Label_capacity:setTextById(800005, #data, 999)
-    self.Label_capacity_percent:setText(string.format("%0.1f",(#data / 999 * 100)).."%")
-    self.LoadingBar_capacity:setPercent(#data / 999 * 100)
+    local capacity = self:getCurCapacity(self.selectIndex_)
+    self.Label_capacity:setTextById(800005, capacity, 999)
+    self.Label_capacity_percent:setText(string.format("%0.1f",(capacity / 999 * 100)).."%")
+    self.LoadingBar_capacity:setPercent(capacity / 999 * 100)
 end
 
 function BagView:showGoodsItem()
@@ -624,6 +731,7 @@ function BagView:showGoodsItem()
     if goodsData == nil then
         return;
     end
+
     local loadIndex = self.loadItemIndex_[self.selectIndex_]
     local firstData = goodsData[loadIndex]
     if not firstData then return end
@@ -638,6 +746,7 @@ function BagView:showGoodsItem()
             item = self:addGoodsItem()
             item:Alpha(0)
         end
+        item:setVisible(true)
         item:fadeIn(fadeInDuration)
         self:updateGoodsItem(item, goodsData[i])
     end
@@ -658,6 +767,7 @@ function BagView:fillGoodsItem()
     if goodsData == nil then
         return
     end
+
     local data = goodsData[loadIndex]
     if not data then return end
 
@@ -1185,6 +1295,9 @@ function BagView:updateGoodsData(index)
             end
         end
     end
+    if config.category == EC_BagCategory.EQUIPMENT then
+        self.goodsData_[index] = self:getShowEquipData()
+    end
     self:goodsDataSort(index)
 
     self.image_emptyImag:hide()
@@ -1212,10 +1325,16 @@ end
 function BagView:goodsDataSort(index)
     local data = self.goodsData_[index]
     local btnConfig = self.btnConfig_[index]
+
+    local _idx = 1
+    if self.selectRuleIndex_[self.curCategory] then
+        _idx = self.selectRuleIndex_[self.curCategory]
+    end
+
     if btnConfig.category == EC_BagCategory.ANGEL then
     elseif btnConfig.category == EC_BagCategory.EQUIPMENT then
         local function __equipSort(equipList)
-            if self.selectRuleIndex_ == self.ruleType.SubType then
+            if _idx == self.ruleType.SubType then
                 table.sort(equipList, function(a, b)
                                local cfgA = TabDataMgr:getData("Equipment", a.cid)
                                local cfgB = TabDataMgr:getData("Equipment", b.cid)
@@ -1230,7 +1349,7 @@ function BagView:goodsDataSort(index)
                                end
                                return cfgA.subType < cfgB.subType
                 end)
-            elseif self.selectRuleIndex_ == self.ruleType.Quality then
+            elseif _idx == self.ruleType.Quality then
                 table.sort(equipList, function(a, b)
                                local cfgA = TabDataMgr:getData("Equipment", a.cid)
                                local cfgB = TabDataMgr:getData("Equipment", b.cid)
@@ -1245,7 +1364,7 @@ function BagView:goodsDataSort(index)
                                end
                                return cfgA.quality > cfgB.quality
                 end)
-            elseif self.selectRuleIndex_ == self.ruleType.Level then
+            elseif _idx == self.ruleType.Level then
                 table.sort(equipList, function(a, b)
                                local cfgA = TabDataMgr:getData("Equipment", a.cid)
                                local cfgB = TabDataMgr:getData("Equipment", b.cid)
@@ -1260,7 +1379,7 @@ function BagView:goodsDataSort(index)
                                end
                                return a.level > b.level
                 end)
-            elseif self.selectRuleIndex_ == self.ruleType.Suit then
+            elseif _idx == self.ruleType.Suit then
                 table.sort(equipList, function(a, b)
                     local cfgA = TabDataMgr:getData("Equipment", a.cid)
                     local cfgB = TabDataMgr:getData("Equipment", b.cid)
@@ -1286,7 +1405,9 @@ function BagView:goodsDataSort(index)
                 end)
             end
         end
-        self.selectRuleIndex_ = self.selectRuleIndex_ or self.defaultSelectRuleIndex_
+        if self.selectRuleIndex_[self.curCategory] then
+            self.selectRuleIndex_[self.curCategory] = self.selectRuleIndex_[self.curCategory] or self.defaultSelectRuleIndex_[self.curCategory]
+        end
         local carry = {}
         local notCarry = {}
 
@@ -1302,7 +1423,7 @@ function BagView:goodsDataSort(index)
         __equipSort(carry)
         __equipSort(notCarry)
         data = {}
-        if self.selectOrderIndex_ == 1 then
+        if self.selectOrderIndex_[self.curCategory] == 1 then
             for i = 1, #carry, 1 do
                 table.insert(data, carry[i])
             end
@@ -1378,28 +1499,57 @@ function BagView:goodsDataSort(index)
                         return cfgA.order > cfgB.order
                 end)
     elseif btnConfig.category == EC_BagCategory.BAOSHI then
-         table.sort(data, function(a, b)
+        table.sort(data, function(a, b)
                        local cfgA = GoodsDataMgr:getItemCfg(a.cid)
                        local cfgB = GoodsDataMgr:getItemCfg(b.cid)
                        local ause = (EquipmentDataMgr:checkGemInUse(a.id) == true and 1 or 0)
                        local buse = (EquipmentDataMgr:checkGemInUse(b.id) == true and 1 or 0)
-                       if cfgA.type == cfgB.type then
+                       local isNewA = GoodsDataMgr:isNewGet(a.id)
+                       local isNewB = GoodsDataMgr:isNewGet(b.id)
+
+                       local isUp = self.selectOrderIndex_[self.curCategory] == 2 and true or false 
+                      
+                       if isNewA and not isNewB then
+                            return true
+                       elseif not isNewA and isNewB then
+                            return false
+                       elseif cfgA.type == cfgB.type then
                             if ause == buse then
-                               if cfgA.rarity == cfgB.rarity then
-                                   if cfgA.heroId == cfgB.heroId then
-                                        return cfgA.id < cfgB.id
-                                   end
-                                   return cfgA.heroId < cfgB.heroId
-                               else
-                                    return cfgA.rarity > cfgB.rarity
-                               end
+                                if _idx == self.baoShiRuleType.Quality then
+                                    if cfgA.quality == cfgB.quality then
+                                        if cfgA.heroId == cfgB.heroId then
+                                                return cfgA.id < cfgB.id
+                                        end
+                                        return cfgA.heroId < cfgB.heroId
+                                    else
+                                        if not isUp then
+                                            return cfgA.quality > cfgB.quality
+                                        else
+                                            return cfgA.quality < cfgB.quality
+                                        end
+                                    end
+                                elseif _idx == self.baoShiRuleType.Hero then
+                                    if cfgA.heroId == cfgB.heroId then
+                                        if cfgA.quality == cfgB.quality then
+                                                return cfgA.id < cfgB.id
+                                        end
+                                        return cfgA.quality > cfgB.quality
+                                    else
+                                        if not isUp then
+                                            return cfgA.heroId > cfgB.heroId
+                                        else
+                                            return cfgA.heroId < cfgB.heroId
+                                        end
+                                    end
+                                end
                            else
                                 return ause > buse
                            end
+                           
                        else
                             return cfgA.type < cfgB.type
                        end
-                end)
+            end)
     end
     self.goodsData_[index] = data
 end
@@ -1447,10 +1597,16 @@ function BagView:registerEvents()
     EventMgr:addEventListener(self, EV_STORE_SELL_SUCCESS, handler(self.onItemSellEvent, self))
     EventMgr:addEventListener(self, EV_BAG_RECOVER_ITEM, handler(self.onRecoverItem, self))
     EventMgr:addEventListener(self, EV_BAG_GEMS_UPDATE, handler(self.onItemUpdateEvent, self))
+    EventMgr:addEventListener(self, EQUIPMENT_CONVERT_CHOOSE_CONDITION, handler(self.onEquipmentConvertChooseFinish, self))
 
     self.Button_sell:onClick(function()
             self:setSellVisible(true)
             self:updateSellInfo()
+    end)
+
+    self.Button_choose:onClick(function ( ... )
+        -- body
+        Utils:openView("Equipment.EquipConvertChooseCondition")
     end)
 
     self.Button_realSell:onClick(function()
@@ -1547,7 +1703,7 @@ function BagView:registerEvents()
     for i, v in ipairs(self.button_order) do
         v:onClick(function()
                 self:setSellVisible(false)
-                self.selectOrderIndex_ = i
+                self.selectOrderIndex_[self.curCategory] = i
                 self:selectSortOrder()
         end)
     end
@@ -1585,8 +1741,10 @@ function BagView:setSortRuleVisible(visible)
     else
         self.Panel_sortRule:setVisible(true)
     end
-    local ruleText = self.ruleText_[self.selectRuleIndex_]
-    self.Label_sortRule:setTextById(ruleText)
+    if self.ruleText_[self.selectIndex_] then
+        local ruleText = self.ruleText_[self.selectIndex_][self.selectRuleIndex_]
+        self.Label_sortRule:setTextById(ruleText)
+    end
 end
 
 function BagView:setSortOrderVisible(visible)
@@ -1598,16 +1756,17 @@ function BagView:setSortOrderVisible(visible)
 end
 
 function BagView:selectSortOrder()
-    self.Label_order_name:setTextById(self.orderText_[self.selectOrderIndex_])
-    self.Image_order_icon:setFlipY(self.selectOrderIndex_ == 1)
+    self.Label_order_name:setTextById(self.orderText_[self.selectOrderIndex_[self.curCategory]])
+    self.Image_order_icon:setFlipY(self.selectOrderIndex_[self.curCategory] == 1)
     self:updateBag(self.selectIndex_)
     self:setSortOrderVisible(true)
 end
 
 function BagView:selectSortRule(index)
-    self.selectRuleIndex_ = index or self.defaultSelectRuleIndex_
+    self.selectRuleIndex_[self.curCategory] = index or self.selectRuleIndex_[self.curCategory]
     self:updateBag(self.selectIndex_)
     self:setSortRuleVisible(true)
+    self:refreshRuleBtn()
 end
 
 function BagView:removeEvents()
@@ -1729,6 +1888,83 @@ function BagView:isCanSellAction()
     return rets
 end
 
+function BagView:onEquipmentConvertChooseFinish( data )
+    local btnConfig = self.btnConfig_[self.selectIndex_] 
+    if btnConfig.category == EC_BagCategory.EQUIPMENT then
+        self.chooseCondition = data
+        self:updateGoodsData(self.selectIndex_)
+        self.GridView_item[self.selectIndex_]:removeAllItems()
+        self.loadItemIndex_[self.selectIndex_] = 1
+        self:fillGoodsItem()
+    end
+end
+
+function BagView:getShowEquipData()
+    local newList = {}
+    local newCount = {}
+
+    if not self.chooseCondition then
+        return self.goodsData_[self.selectIndex_]
+    end
+
+    for i, v in ipairs(self.goodsData_[self.selectIndex_]) do
+        local id = v.id
+        local isRevert = self.chooseCondition.isRevert
+        local starState = isRevert
+        local suitState = isRevert
+        local colorState = isRevert
+        if #self.chooseCondition.star > 0 then
+            if (table.indexOf(self.chooseCondition.star, EquipmentDataMgr:getEquipStarLv(id)) ~= -1 and EquipmentDataMgr:getEquipStarLevel(id) < 1 ) or (table.indexOf(self.chooseCondition.star, 6) ~= -1 and EquipmentDataMgr:getEquipStarLevel(id) >= 1 ) then
+                starState = not isRevert
+            end
+        else
+            starState = true
+        end
+
+        if #self.chooseCondition.suit > 0 then
+            local suitIds = #EquipmentDataMgr:getEquipSuitInfo(id)
+            if #self.chooseCondition.suit > 1 or (suitIds > 0 and self.chooseCondition.suit[1] == 2) or (suitIds < 1 and self.chooseCondition.suit[1] == 1) then
+                suitState = not isRevert
+            end
+        else
+            suitState = true
+        end
+
+        local attrs = EquipmentDataMgr:getEquipSpecialAttrs(id)
+        if #self.chooseCondition.color > 0 then
+            for k, attr in pairs(attrs) do
+                if table.indexOf(self.chooseCondition.color, attr.level) ~= -1 then
+                    if #self.chooseCondition.word > 0 then
+                        if table.indexOf(self.chooseCondition.word,attr._superType) ~= -1 then
+                            colorState = not isRevert
+                            break
+                        end
+                    else
+                        colorState = not isRevert
+                        break
+                    end
+                end
+            end
+        else
+            if #self.chooseCondition.word > 0 then
+                for k, attr in pairs(attrs) do
+                    if table.indexOf(self.chooseCondition.word,attr._superType) ~= -1 then
+                        colorState = not isRevert
+                        break
+                    end
+                end
+            else
+                colorState = true
+            end
+        end
+        
+        if starState and suitState and colorState then
+            table.insert(newList, v)
+        end
+    end
+    return newList
+end
+
 function BagView:buttonSellStatusUpdate()
     local tabHaveGoods = self:isCurTabHaveGoods() and self.btnConfig_[self.selectIndex_].sellType
     self.Button_sell:setGrayEnabled(not tabHaveGoods)
@@ -1797,6 +2033,7 @@ function BagView:onItemUpdateEvent(oldGoods, goods)
 
     local goodsData = self.goodsData_[self.selectIndex_]
     local gridView = self.GridView_item[self.selectIndex_]
+
 
     if oldGoods and goods then
         local goodsId = goods.id
@@ -1882,6 +2119,19 @@ function BagView:onItemUpdateEvent(oldGoods, goods)
                 for i, v in ipairs(splitGoods) do
                     local item = self:addGoodsItem()
                     self:updateGoodsItem(item, v)
+
+                    -- 获取到的新宝石在最前面
+                    if self.btnConfig_[self.selectIndex_].category == EC_BagCategory.BAOSHI then
+                        local tmpData = clone(goodsData[table.count(goodsData)])
+                        table.remove(goodsData, table.count(goodsData))
+                        table.insert(goodsData, 1, tmpData)
+
+                        item:retain()
+                        local _view = self.GridView_item[self.selectIndex_]
+                        _view:removeLastItem()
+                        _view:insertCustomItem(item,1)
+                        item:release()
+                    end
                 end
             end
         else
@@ -1909,7 +2159,5 @@ function BagView:onRecoverItem( data )
         Utils:openView("bag.RecoverItemView",data)
     end
 end
-
-
 
 return BagView

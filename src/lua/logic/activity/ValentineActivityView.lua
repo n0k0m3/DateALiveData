@@ -16,12 +16,12 @@ function ValentineActivityView:initUI(ui)
     self.super.initUI(self, ui)
 
     self.Panel_root = TFDirector:getChildByPath(ui, "Panel_root")
-
+    
+    self.Panel_cg = TFDirector:getChildByPath(ui, "Panel_cg")
     local Image_content = TFDirector:getChildByPath(self.Panel_root, "Image_content")
-    self.Panel_cg = TFDirector:getChildByPath(Image_content, "Image_frame.Panel_cg")
     local Image_time = TFDirector:getChildByPath(Image_content, "Image_time")
-    self.Label_time_title = TFDirector:getChildByPath(Image_time, "Label_time_title")
-    self.Label_time = TFDirector:getChildByPath(Image_time, "Label_time")
+    self.Label_time_title = TFDirector:getChildByPath(Image_content, "Label_time_title")
+    self.Label_time = TFDirector:getChildByPath(Image_content, "Label_time")
     self.Button_goto = TFDirector:getChildByPath(Image_content, "Button_goto")
     self.Label_goto = TFDirector:getChildByPath(self.Button_goto, "Label_goto")
     self.Label_tip = TFDirector:getChildByPath(Image_content, "Label_tip")

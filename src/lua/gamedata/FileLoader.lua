@@ -86,9 +86,18 @@ local __dataMgr = {
     KVP("BlockGameDataMgr", "lua.dataMgr.BlockGameDataMgr"),
     KVP("KsanCardDataMgr", "lua.dataMgr.KsanCardDataMgr"),
     KVP("FamilyDataMgr", "lua.dataMgr.FamilyDataMgr"),
+    KVP("EnvelopeDataMgr", "lua.dataMgr.EnvelopeDataMgr"),
     KVP("ResonanceDataMgr","lua.dataMgr.ResonanceDataMgr"),
     KVP("AssistanceDataMgr","lua.dataMgr.AssistanceDataMgr"),
+    KVP("LinkageHwxDataMgr","lua.dataMgr.LinkageHwxDataMgr"),
     KVP("CrazyDiamondDataMgr","lua.dataMgr.CrazyDiamondDataMgr"),
+    KVP("ExploreDataMgr","lua.dataMgr.ExploreDataMgr"),
+    KVP("DuanwuHangUpDataMgr","lua.dataMgr.DuanwuHangUpDataMgr"),
+    KVP("DetectiveDataMgr","lua.dataMgr.DetectiveDataMgr"),
+    KVP("WorldRoomDataMgr","lua.dataMgr.WorldRoomDataMgr"),
+    KVP("PrivilegeDataMgr","lua.dataMgr.PrivilegeDataMgr"),
+    KVP("TurnTabletMgr", "lua.dataMgr.TurnTabletMgr"),
+    KVP("GlobalFuncDataMgr","lua.dataMgr.GlobalFuncDataMgr"),
 }
 
 local __loadList = {}

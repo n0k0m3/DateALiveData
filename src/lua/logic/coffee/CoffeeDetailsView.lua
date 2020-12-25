@@ -51,10 +51,18 @@ function CoffeeDetailsView:initUI(ui)
     Label_service_title:setTextById(13410016)
     self.Label_service = TFDirector:getChildByPath(Image_service, "Label_service")
     self.Label_desc = TFDirector:getChildByPath(self.Image_info, "Image_desc.Label_desc")
+
+    self.listView = UIListView:create(TFDirector:getChildByPath(self.Image_info, "listView"))
+    self.listView:setItemsMargin(10)
+
     self.Image_fetters = {}
     for i = 1, 2 do
         local foo = {}
-        foo.root = TFDirector:getChildByPath(self.Image_info, "Image_fetters_" .. i)
+        local item = TFDirector:getChildByPath(self.Image_info, "Image_fetters_" .. i)
+        item:hide()
+        foo.root = item:clone()
+        foo.root:show()
+        self.listView:pushBackCustomItem(foo.root)
         foo.Panel_have = TFDirector:getChildByPath(foo.root, "Panel_have")
         foo.Image_active = TFDirector:getChildByPath(foo.Panel_have, "Image_active")
         foo.Image_notActive = TFDirector:getChildByPath(foo.Panel_have, "Image_notActive")
@@ -74,6 +82,13 @@ function CoffeeDetailsView:initUI(ui)
         Label_notHave:setTextById(13410030)
         self.Image_fetters[i] = foo
     end
+
+    local Image_desc_3 = TFDirector:getChildByPath(self.Image_info, "Image_desc_3")
+    Image_desc_3:hide()
+    self.Image_desc_3_ = Image_desc_3:clone()
+    self.Image_desc_3_:show()
+    self.listView:pushBackCustomItem(self.Image_desc_3_)
+
     self.Button_feeding = TFDirector:getChildByPath(self.Image_info, "Button_feeding")
     self.Label_feeding = TFDirector:getChildByPath(self.Button_feeding, "Label_feeding")
     self:refreshView()
@@ -139,7 +154,19 @@ function CoffeeDetailsView:updateInfo(maidId)
                     local maidCfg = CoffeeDataMgr:getMaidCfg(maidCid)
                     local isHave = CoffeeDataMgr:isHaveSameMaid(maidCid)
                     bar.Image_head:setTexture(maidCfg.icon1)
-                    bar.Image_gou:setVisible(isHave)
+                    if not self.isEmbed_ then
+                        bar.Image_gou:setVisible(false)
+                    else
+                        bar.Image_gou:setVisible(CoffeeDataMgr:isBuffActive(fettersCid))
+                        
+                        if CoffeeDataMgr:isBuffActive(fettersCid) then
+                            foo.Label_desc:setColor(ccc3(133,96,77))
+                            foo.Label_desc:Alpha(1)
+                        else
+                            foo.Label_desc:setColor(ccc3(110,110,111))
+                            foo.Label_desc:Alpha(0.5)
+                        end
+                    end
                     bar.root:Alpha(isHave and 1 or 0.5)
                 end
                 bar.root:setVisible(tobool(maidCid))
@@ -148,6 +175,8 @@ function CoffeeDetailsView:updateInfo(maidId)
         foo.Panel_have:setVisible(tobool(fettersCid))
         foo.Panel_notHave:setVisible(not tobool(fettersCid))
     end
+    local Label_desc3 = TFDirector:getChildByPath(self.Image_desc_3_, "Label_desc")
+    Label_desc3:setTextById(CoffeeDataMgr:getMaidCfg(maidId).maidEventPersonality)
 end
 
 return CoffeeDetailsView

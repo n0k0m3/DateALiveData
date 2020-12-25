@@ -432,9 +432,11 @@ function SummonEquipView:registerEvents()
             local equipconf = TabDataMgr:getData("Equipment", tonumber(equipcid))
             if equipconf then
                 local strTag = ""
-                if GAME_LANGUAGE_VAR ~= "" and i~= #self.selectEquipId then
+                
+                local code = TFLanguageMgr:getUsingLanguage()
+                if (not((code == cc.SIMPLIFIED_CHINESE) or (code == cc.TRADITIONAL_CHINESE))) and i~= #self.selectEquipId then
                     strTag = ", "
-                elseif  GAME_LANGUAGE_VAR == "" then
+                elseif (code == cc.SIMPLIFIED_CHINESE) or (code == cc.TRADITIONAL_CHINESE) then
                     strTag = " "
                 end
                 equipnamestr = equipnamestr .. TextDataMgr:getText(equipconf.nameTextId) .. strTag

@@ -48,21 +48,17 @@ end
 
 function ValentineDataMgr:getValentineRoleRank()
     local valentineRole
-    if self.valentineRankRole_ and (#self.valentineRankRole_ > 0) then
-        valentineRole = clone(self.valentineRankRole_)
-    else
-        valentineRole = clone(self.valentineRole_)
-        table.sort(valentineRole, function(a, b)
-                       local tacitA = self:getFullServerTacit(a)
-                       local tacitB = self:getFullServerTacit(b)
-                       if tacitA == tacitB then
-                           local cfgA = self:getValentineRoleCfg(a)
-                           local cfgB = self:getValentineRoleCfg(b)
-                           return cfgA.order < cfgB.order
-                       end
-                       return tacitA > tacitB
-        end)
-    end
+    valentineRole = clone(self.valentineRole_)
+    table.sort(valentineRole, function(a, b)
+                    local tacitA = self:getFullServerTacit(a)
+                    local tacitB = self:getFullServerTacit(b)
+                    if tacitA == tacitB then
+                        local cfgA = self:getValentineRoleCfg(a)
+                        local cfgB = self:getValentineRoleCfg(b)
+                        return cfgA.order < cfgB.order
+                    end
+                    return tacitA > tacitB
+    end)
     return valentineRole
 end
 
@@ -80,12 +76,13 @@ function ValentineDataMgr:getFullServerTacit(roleCid)
     return tacit
 end
 
-function ValentineDataMgr:getMyTacit(roleCid)
-    local activityInfo = self:getActivityInfo()
-    local itemCid = activityInfo.extendData.privity[roleCid]
-    local count = GoodsDataMgr:getItemCount(itemCid)
-    return count
-end
+-- 以服务器活动排行数据为准（弃用）
+-- function ValentineDataMgr:getMyTacit(roleCid)
+--     local activityInfo = self:getActivityInfo()
+--     local itemCid = activityInfo.extendData.privity[roleCid]
+--     local count = GoodsDataMgr:getItemCount(itemCid)
+--     return count
+-- end
 
 function ValentineDataMgr:getDatingIsComplete(datingCid)
     local isComplete = tobool(self.completedDatings_[datingCid])

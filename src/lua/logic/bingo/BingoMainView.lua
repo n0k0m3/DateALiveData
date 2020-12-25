@@ -76,7 +76,8 @@ function BingoMainView:initUI(ui)
     self.Spine_sceneEffect = TFDirector:getChildByPath(self.ui, "Spine_sceneEffect"):hide()
     self.Spine_effectHB = TFDirector:getChildByPath(self.ui, "Spine_effectHB")
     self.Image_bg = TFDirector:getChildByPath(self.ui, "Image_bg")
-    self.resItemId = {500002,500067,500066}
+    self.resItemId = Utils:getKVP(46037)
+
     self.resInfo = {}
     for i=1,3 do
         local Image_res_bg = TFDirector:getChildByPath(self.Panel_root, "Image_res_bg"..i)

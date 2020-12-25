@@ -62,6 +62,8 @@ function LeagueHunterRankingView:initUI( ui )
 	self.Label_nullList:setTextById(3300034)
 	self.panel_player   = TFDirector:getChildByPath(Panel_top,"panel_player")
 
+    self.image_line3 = TFDirector:getChildByPath(ui,"image_line3")
+
 	local panel_playerTitles ={}
 	for i = 1 , 4 do
 		panel_playerTitles[i] = TFDirector:getChildByPath(self.panel_player,"Label_title"..i)
@@ -118,7 +120,7 @@ function LeagueHunterRankingView:initUI( ui )
 	self.Panel_playerHoner_self_Item.image_boss   = TFDirector:getChildByPath(self.Panel_playerHoner_self_Item ,"image_boss")
 	self.Panel_playerHoner_self_Item.label_tip    = TFDirector:getChildByPath(self.Panel_playerHoner_self_Item ,"label_tip")
 	self.Panel_playerHoner_self_Item.label_noRank = TFDirector:getChildByPath(self.Panel_playerHoner_self_Item ,"label_noRank")
-
+	self.Panel_playerHoner_self_Item.hurtvalue    = TFDirector:getChildByPath(self.Panel_playerHoner_self_Item ,"hurtvalue")
 
 
 
@@ -285,7 +287,10 @@ function LeagueHunterRankingView:showPanelPlayer()
 	self.Panel_playerHoner_self_Item.player_name:setText(MainPlayer:getPlayerName())  
 	self.Panel_playerHoner_self_Item.player_lv:setText("Lv."..MainPlayer:getPlayerLv())  
 	self.Panel_playerHoner_self_Item.count:setText(tostring(data.fightCount))  
-	self.Panel_playerHoner_self_Item.honor:setText(tostring(data.honor))    
+	self.Panel_playerHoner_self_Item.honor:setText(tostring(data.honor))
+	dump(data)
+	local dmgRate = data.dmgRate and data.dmgRate or 0
+	self.Panel_playerHoner_self_Item.hurtvalue:setText(TO_PERCENT(dmgRate))
 	local icon = AvatarDataMgr:getSelfAvatarIconPath()
 	self.Panel_playerHoner_self_Item.image_boss:setTexture(icon)  
 	-- self.Panel_playerHoner_self_Item.label_tip:setText("我的信息")    
@@ -309,6 +314,10 @@ end
 
 
 function LeagueHunterRankingView:setSelect(index,force)
+
+    local posX = index == 1 and 512 or 540
+    self.image_line3:setPositionX(posX)
+
     if self.chooseIndex ~= index  or force then
         self.chooseIndex = index
         for k , tab in ipairs(self.tabs) do
@@ -384,6 +393,7 @@ function LeagueHunterRankingView:updatePlayerHonerItem( item, data )
 	local challengeCount = TFDirector:getChildByPath(item,"challengeCount")
 	local image_head = TFDirector:getChildByPath(item,"image_head")
 	local btn_search = TFDirector:getChildByPath(item,"btn_search")
+	local hurtValue = TFDirector:getChildByPath(item,"hurtValue")
 	setHeadTexture(image_head,data)
 	--排名显示优化
 	if data.rank >= 1 and data.rank  <= 3 then 
@@ -399,6 +409,8 @@ function LeagueHunterRankingView:updatePlayerHonerItem( item, data )
 	player_lv:setText("Lv."..data.playerLv)
 	honer:setText(data.honor)
 	challengeCount:setText(data.fightCount)
+	local dmgRate = data.dmgRate and data.dmgRate or 0
+	hurtValue:setText(TO_PERCENT(dmgRate))
 	if data.playerId ~= MainPlayer:getPlayerId() then
 		btn_search:show()
 		btn_search:onClick(function ( ... )

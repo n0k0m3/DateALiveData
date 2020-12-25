@@ -36,16 +36,14 @@ function GuideMain:initUI(ui)
     self.Panel_skip:onClick(function()
         local view = Utils:openView("common.ConfirmBoxView")
         view:setCallback(function()
-            GameGuide:skipNewGuide()
+            GameGuide:skipGuide(GuideDataMgr:isInNewGuide())
         end)
         view:setContent(TextDataMgr:getText(800082))            
     end)
     self.Panel_skip:setVisible(false)
-    if GuideDataMgr:isInNewGuide() then
-        self:timeOut(function()
-            self.Panel_skip:setVisible(true)
-        end, 5)
-    end
+    self:timeOut(function()
+        self.Panel_skip:setVisible(true)
+    end, 5)
 
     self.panel_base = TFDirector:getChildByPath(ui,"Panel_base")
     self.Panel_root = TFDirector:getChildByPath(ui,"Panel_root")
@@ -122,6 +120,7 @@ function GuideMain:initUI(ui)
     self.Image_talk_bg:setSize(CCSizeMake(288, math.max(60, talkHeight + 50)))
     self.Label_flag_desc = TFDirector:getChildByPath(ui,"Label_flag_desc")
     self.Label_flag_desc:setString(self.cfg.des)
+
 
     if self.cfg.des == "" then
         self.Panel_talk:setVisible(false)
@@ -212,6 +211,16 @@ function GuideMain:initUI(ui)
     if not self.isPlayingWord and self.maskFlag and self.cfg.uiType ~= 0 then
         self:showMaskView()
     end 
+
+    if self.widget and self.widget.resetClickFunc then
+        local widgetClickFunc =  self.widget:getMEListener(TFWIDGET_CLICK)
+        self.widget:onClick(function ( sender )
+            -- body
+            GameGuide:checkGuideEnd(self.targetUI)
+            widgetClickFunc(self.widget)
+            sender:onClick(widgetClickFunc)
+        end)
+    end    
 end
 
 function GuideMain:showMaskView()
@@ -298,35 +307,11 @@ function GuideMain:onClose()
 end
 
 function GuideMain:getFrameImgPath()
-    local path = ""
-    if self.cfg.uiType == 1 then
-        path = "ui/guide/frame_1.png"
-    elseif self.cfg.uiType == 2 then
-        path = "ui/guide/frame_2.png"
-    elseif self.cfg.uiType == 3 then
-        path = "ui/guide/frame_3.png"
-    elseif self.cfg.uiType == 4 then
-        path = "ui/guide/frame_4.png"
-    elseif self.cfg.uiType == 5 then
-        path = "ui/guide/frame_5.png"
-    end
-    return path
+    return "ui/guide/frame_" ..self.cfg.uiType ..".png"
 end
 
 function GuideMain:getMaskImgPath()
-    local path = ""
-    if self.cfg.uiType == 1 then
-        path = "ui/guide/mask_1.png"
-    elseif self.cfg.uiType == 2 then
-        path = "ui/guide/mask_2.png"
-    elseif self.cfg.uiType == 3 then
-        path = "ui/guide/mask_3.png"
-    elseif self.cfg.uiType == 4 then
-        path = "ui/guide/mask_4.png"
-    elseif self.cfg.uiType == 5 then
-        path = "ui/guide/mask_5.png"
-    end
-    return path
+    return "ui/guide/mask_" ..self.cfg.uiType ..".png"
 end
 
 return GuideMain;

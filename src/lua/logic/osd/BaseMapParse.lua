@@ -299,7 +299,7 @@ end
 --初始化出生点
 function BaseMapParse:initBornPts()
 	self.bornPts = {}
-	for index = 1, 3  do
+	for index = 1, 6  do
 		local id = self.data[string.format("BornID%d", index)]
 		if id and id > 0 then
 			local node = self.visualNodes[id]
@@ -442,7 +442,7 @@ function BaseMapParse:getMapLayer(layerType)
 		local data = node.data
 		if data and data.type == MapNodeType.MapLayer then
 			-- printBeck(data.type, data.Mark, data.Name, data.ID, layerType)
-			if data.Mark == layerType then
+			if tonumber(data.Mark) == layerType then
 				return node
 			end 
 		end

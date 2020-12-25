@@ -34,19 +34,20 @@ end
 
 function TabDataMgr:init()
     self.tabData_ = {}
-    self.language = GAME_LANGUAGE_VAR
 end
 
 function TabDataMgr:lazyInit(name)
     if self.tabData_[name] then return end
     local status, data = xpcall(
         function()
-            local data = require("lua.table." .. name)
+            local tabName = "lua.table." .. name
+            local data = TFGlobalUtils:requireGlobalFile(tabName)
+            data = data or TFGlobalUtils:requireGlobalFile(tabName)
             -- self.tabData_[name] = readOnly(data)
             self.tabData_[name] = data
         end,
         function(msg)
-            if not string.find(msg, string.format("'%s' not found:", name)) then
+            if not string.find(msg, string.format("'%s:%s' not found:", name, TFLanguageMgr:getUsingLanguageCode())) then
                 printError("load table error: ", msg)
             end
         end
@@ -55,28 +56,9 @@ end
 
 function TabDataMgr:getData(name, id)
     if not name then return self.tabData_ end
-    --多语言表支持
-    local language = self.language
-    if language~= "" then
-        if not self.LanguageTable  then
-            local tabelStringName = ""
-            
-            local config = require("lua.table.EnglishTable")
-            tabelStringName = "table"..language
-            self.LanguageTable = clone(config)
-            local changeTable = {}
-            for k,v in pairs(self.LanguageTable) do
-                changeTable[v[tabelStringName]] = v.id
-            end
-            self.LanguageTable = changeTable
-        end
-        if self.LanguageTable[name..language] then
-            name = name..language
-        end
-    end
 
     if not self.tabNameFitter_ then
-        local config = require("lua.table.DiscreteData")[51504]
+        local config = TFGlobalUtils:requireGlobalFile("lua.table.DiscreteData")[51504]
         self.tabNameFitter_ = clone(config.data)
     end
 
@@ -112,6 +94,7 @@ function TabDataMgr:getData(name, id)
 end
 
 function TabDataMgr:updateString(key, value)
+    self:lazyInit("String")
     if self.tabData_["String"] and tonumber(key) and value then
         self.tabData_["String"][tonumber(key)] = {id = tonumber(key), text = tostring(value)}
     end

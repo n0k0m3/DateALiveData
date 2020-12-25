@@ -4,7 +4,8 @@ function RoleSwitchSettingView:initData(openType)
 
     self.originalSwitchList = RoleSwitchDataMgr:getSwitchList()
     self.openType = openType
-
+	print("轮播列表")
+	dump(self.originalSwitchList)
 end
 
 function RoleSwitchSettingView:ctor(openType)
@@ -33,6 +34,7 @@ function RoleSwitchSettingView:initUI(ui)
 
     self.Label_tip = TFDirector:getChildByPath(self.ui, "Label_tip")
     self.Label_tip:setTextById(13310402)
+
     self:initHighRoleList()
 end
 
@@ -41,6 +43,8 @@ function RoleSwitchSettingView:initHighRoleList()
     self.switchList = {}
     self.ListView_select:removeAllItems()
     local highDressList = RoleSwitchDataMgr:getAllHighDress()
+	print("轮播设置列表")
+	dump(highDressList)
     table.sort(highDressList,function(a,b)
         local isHaveRoleA = RoleDataMgr:getIsHave(a.roleId)
         local isHaveA = GoodsDataMgr:getDress(a.dressId)
@@ -87,9 +91,8 @@ function RoleSwitchSettingView:updateItem(item,data)
     local Button_cancle = TFDirector:getChildByPath(item, "Button_cancle")
     local Button_ok = TFDirector:getChildByPath(item, "Button_ok")
     local Label_switch_tip = TFDirector:getChildByPath(item, "Label_switch_tip")
-    local name = RoleDataMgr:getName(data.roleId)
-    Label_rolename:setText(name)
     local dressCfg = RoleSwitchDataMgr:getDressCfg(data.dressId)
+    Label_rolename:setTextById(dressCfg.roleName)
     Label_kanbanName:setTextById(dressCfg.nameTextId)
 
     local isHave = RoleDataMgr:getIsHave(data.roleId)
@@ -103,6 +106,13 @@ function RoleSwitchSettingView:updateItem(item,data)
         Image_normal_bg:setVisible(true)
         return
     end
+
+    local isDressRoles = RoleDataMgr:checkRoleHaveByDressId(data.dressId)
+    if not isDressRoles then
+        Image_normal_bg:setVisible(true)
+        return
+    end
+
     Image_normal_bg:setVisible(false)
     local isInSwitchList = RoleSwitchDataMgr:isInSwitchList(data.dressId)
     Image_use:setVisible(isInSwitchList)
@@ -167,6 +177,7 @@ function RoleSwitchSettingView:registerEvents()
             RoleSwitchDataMgr:Send_TurnSwitchState(true)
         end
         local newSwitchList = RoleSwitchDataMgr:getSwitchList()
+		print("轮播新列表")
         dump(newSwitchList)
         RoleSwitchDataMgr:Send_NewSwithList(newSwitchList)
         AlertManager:closeLayer(self)

@@ -91,7 +91,7 @@ function ADD_KEYBOARD_CLOSE_LISTENER(classObj, panel)
                                     okText = TextDataMgr:getText(800112),--"是",
                                     cancelText = TextDataMgr:getText(800113),--"否",
                                     showtype = AlertManager.BLOCK_AND_GRAY,
-                                    uiconfig = "lua.uiconfig_mango_new.common.OperateSure3"
+                                    uiconfig = TFGlobalUtils:loadUIConfigFilePath("lua.uiconfig_mango_new.common.OperateSure3")
                                     }
                             )
                         end

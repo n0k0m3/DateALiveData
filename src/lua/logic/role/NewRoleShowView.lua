@@ -9,20 +9,26 @@ function NewRoleShowView:initData(roleId, dressId)
     self.useId = RoleDataMgr:getUseId()
     self.curId = roleId or self.useId
     self.paramsDressId_ = dressId
-    self.sendMsgType = 0 --1切换看板娘，2换装，3切换看板同时换装
+    self.sendMsgType = 0 --1切换看板娘，2换装，3切换看板同时换装,4设置时装组
     self:refreshData()
     self.dressDatingEvent_ = self:getDressDatingEvent()
     self.roleList = RoleDataMgr:getRoleIdList()
     self.unInfoListItems = {}
     self.dressItemsList = {}
+	self.DressOffsetX = {}
     self.selectDIdx = self:findDressIdx()
     self.selectIdx = -1
+	self.selectLeftListIdx = 1
+	self.isChangeRole = true	--是否切换了角色
     self.isFirst = true
     self.btnType_ = {
         dressType = 1,
         unInfoType = 2,
         infoType = 3,
+		dressSetting = 4
     }
+	self.firstIn = true
+	RoleSwitchDataMgr:initAllHighDress()
 end
 
 function NewRoleShowView:getDressDatingEvent()
@@ -40,6 +46,8 @@ end
 function NewRoleShowView:refreshData()
     self.curRoleFavor = RoleDataMgr:getFavorLevel(self.curId)
     self.dressId_ = RoleDataMgr:getDressIdList(self.curId)
+	dump(self.dressId_)
+
     self.curRoleInfo = RoleDataMgr:getRoleInfo(self.curId)
     self.useDressId = self.curRoleInfo.dressId or self.curRoleInfo.roleModel
     --if self.Panel_base then
@@ -51,6 +59,10 @@ function NewRoleShowView:refreshData()
     self:showUnInfoList()
     self.list_ = RoleDataMgr:getTriggerDatingList(self.curId) or {}
     self:resetList()
+end
+
+function NewRoleShowView:findUseDressId(roleInfo)	
+	return RoleDataMgr:getDressGroupSelect(roleInfo.groupId, dressid)
 end
 
 function NewRoleShowView:resetList()
@@ -65,10 +77,12 @@ end
 
 function NewRoleShowView:findDressIdx()
     for i, v in ipairs(self.dressId_) do
-        if v == self.useDressId then
+        if RoleDataMgr:checkDressUseState(v, self.useDressId) then
             return i
         end
     end
+
+	return 1
 end
 
 function NewRoleShowView:ctor(roleId, dressId)
@@ -98,7 +112,7 @@ function NewRoleShowView:initUI(ui)
     self.Panel_play = TFDirector:getChildByPath(self.Button_switch, "Panel_play")
     self.Image_notplay = TFDirector:getChildByPath(self.Button_switch, "Image_notplay")
     self.Image_circle = TFDirector:getChildByPath(self.Button_switch, "Image_circle")
-
+	self.NpcEffect = TFDirector:getChildByPath(self.ui, "NpcEffect")
 
     if self.Spine_effectHB then
         self.Spine_effectHB:hide()
@@ -111,11 +125,45 @@ function NewRoleShowView:initUI(ui)
     self:initMid()
     --self:enterAction()
 
+    self:initTopLayer()
+
     self:showRoleList()
 
-    self:tableCellTouched(true)
+    --self:tableCellTouched(true)
+	self:selectDefaultDress(true)
 
     self:updateSwitchState()
+end
+
+--[[
+    fix 超框问题
+    单独更新topLayer
+]]
+function NewRoleShowView:initTopLayer()
+    local langCode = TFLanguageMgr:getUsingLanguage()
+    if (langCode == cc.GERMAN) then
+        local topLayer = self.topLayer
+        if(topLayer) then
+            local title1 = TFDirector:getChildByPath(topLayer, "TextArea_title")
+            local title2 = TFDirector:getChildByPath(topLayer, "TextArea_title_1")
+            
+            if (title1) then
+                local pos = title1:getPosition()
+                title1:setPosition(ccp(pos.x + 100, pos.y))
+            end
+
+            if (title2) then
+                local pos = title2:getPosition()
+                title2:setPosition(ccp(pos.x + 100, pos.y))
+            end
+        end
+    end
+end
+
+function NewRoleShowView:selectDefaultDress(dontNeedResetScroll)
+	ViewAnimationHelper.doMoveFadeInAction(self.Panel_mid, {direction = 1, distance = 30, ease = 1})
+	ViewAnimationHelper.doMoveFadeInAction(self.Panel_right, {direction = 2, distance = 30, ease = 1})
+	self:selectOne(self.selectIdx, self.btnType_.dressType, dontNeedResetScroll)
 end
 
 function NewRoleShowView:initMid()
@@ -130,10 +178,10 @@ end
 function NewRoleShowView:refreshMid()
     self.Panel_right:show()
     self.Panel_mid:show()
-    local heroId = HeroDataMgr:getHeroIdByRoleId(self.curId)
+
     self.Label_role_name:setString(RoleDataMgr:getName(self.curId))
-    self.Label_enName:setString(HeroDataMgr:getEnName(heroId))
-    self.Label_enName2:setString(HeroDataMgr:getEnName2(heroId))
+    self.Label_enName:setString(RoleDataMgr:getEnName(self.curId))
+    self.Label_enName2:setString(RoleDataMgr:getEnName2(self.curId))
     self:refreshFavorAndMood()
 end
 
@@ -161,15 +209,36 @@ function NewRoleShowView:initLeft()
 end
 
 function NewRoleShowView:selectBtn(type)
-    self.selectType = type
+	if self.dressSettingSelect and type == self.btnType_.dressType then					--预览未解锁的时装修改了 Dress展示列表，现在策划要求 回到展示panel要变回来
+		local cfg = TabDataMgr:getData("Dress", self.dressId_[self.selectDIdx])
+		local selectid = RoleDataMgr:getDressGroupSelect(cfg.groupId, cfg.id)
+		self.dressId_[self.selectDIdx] = selectid
+		self.dressItemsList[self.selectDIdx].root.id = selectid
+		self:updateRoleInfo()
+		self:updateRoleModel(self.dressItemsList[self.selectDIdx].root.modelId)
+		self:updateDressItem(self.selectDIdx)
 
-    self.Panel_dress:setVisible(type == self.btnType_.dressType)
+		self:refreshDressSettingView()
+	end
+	    		
+	self:changeBtnState(type)
+
+	self.selectType = type
+end
+
+function NewRoleShowView:changeBtnState(type)
+	self.Panel_dress:setVisible(type == self.btnType_.dressType)
+	self.Panel_dress_settting:setVisible(type == self.btnType_.dressSetting)
     self.Panel_info:setVisible(type == self.btnType_.infoType)
     self.Panel_unInfo:setVisible(type == self.btnType_.unInfoType)
+
     self.Button_dress.select:setVisible(type == self.btnType_.dressType)
+	self.Button_dress_set.select:setVisible(type == self.btnType_.dressSetting)
     self.Button_info.select:setVisible(type == self.btnType_.infoType)
     self.Button_unInfo.select:setVisible(type == self.btnType_.unInfoType)
+
     self.Button_dress:setTouchEnabled(type ~= self.btnType_.dressType)
+	self.Button_dress_set:setTouchEnabled(type ~= self.btnType_.dressSetting)
     self.Button_info:setTouchEnabled(type ~= self.btnType_.infoType)
     self.Button_unInfo:setTouchEnabled(type ~= self.btnType_.unInfoType)
 end
@@ -183,17 +252,357 @@ function NewRoleShowView:initRight()
 
     self.Button_dress = TFDirector:getChildByPath(self.Panel_right, "Button_dress")
     self.Button_dress.select = TFDirector:getChildByPath(self.Button_dress, "Image_select")
+	self.Button_dress.originX = self.Button_dress:getPositionX()
+
+	self.Button_dress_set = TFDirector:getChildByPath(self.Panel_right, "Button_dress_set"):hide()
+    self.Button_dress_set.select = TFDirector:getChildByPath(self.Button_dress_set, "Image_select")
+	self.Button_dress_set.originX = self.Button_dress_set:getPositionX()
+
     self.Button_unInfo = TFDirector:getChildByPath(self.Panel_right, "Button_unInfo")
     self.Button_unInfo.select = TFDirector:getChildByPath(self.Button_unInfo, "Image_select")
+	self.Button_unInfo.originX = self.Button_unInfo:getPositionX()
+
+
     self.Button_info = TFDirector:getChildByPath(self.Panel_right, "Button_info")
     self.Button_info.select = TFDirector:getChildByPath(self.Button_info, "Image_select")
+	self.Button_info.originX = self.Button_info:getPositionX()
 
     self.Panel_info = TFDirector:getChildByPath(self.Panel_right, "Panel_info")
     self.Panel_dress = TFDirector:getChildByPath(self.Panel_right, "Panel_dress")
+	self.Panel_dress_settting = TFDirector:getChildByPath(self.Panel_right, "Panel_dress_settting"):hide()
     self.Panel_unInfo = TFDirector:getChildByPath(self.Panel_right, "Panel_unInfo")
 
     self:initPanelDress()
     self:initPanelUnInfo()
+	self:initDressSettingView()
+end
+
+function NewRoleShowView:initDressSettingView()
+	self.Panel_dress_settting.Button_change = TFDirector:getChildByPath(self.Panel_dress_settting, "Button_change")
+	self.Panel_dress_settting.Button_change:onClick(function()
+		local dressid = self.dressSettingData.group[self.dressSettingSelect]
+		if GoodsDataMgr:getDress(dressid) == nil then
+            local str = TextDataMgr:getText(304001)
+            toastMessage(str)
+        else
+			self:onBtnChange()
+        end
+	end)
+	self.Panel_dress_settting.Button_changeScene = TFDirector:getChildByPath(self.Panel_dress_settting, "Button_changeScene")
+	self.dressSettingPrefab = TFDirector:getChildByPath(self.ui, "Panel_dress_setting_item")
+	self.dressSettingPrefab.property = TFDirector:getChildByPath(self.dressSettingPrefab, "property")
+	self.dressSettingPrefab.table = TFDirector:getChildByPath(self.dressSettingPrefab, "table")
+	self.dressSettingPrefab.dressitem = TFDirector:getChildByPath(self.dressSettingPrefab, "dressitem")
+
+	self.Panel_dress_settting.listView = UIListView:create(TFDirector:getChildByPath(self.Panel_dress_settting, "ScrollView_dressSetList"))
+end
+
+function NewRoleShowView:initDressSettingTurnView(item)
+	if item.turnView ~= nil then
+		item.turnView:removeAllItems()
+		item.turnView = nil
+	end
+	item.name = TFDirector:getChildByPath(item, "dressname")
+	item.desc = TFDirector:getChildByPath(item, "desc")
+	item.turnView = UITurnView:create(TFDirector:getChildByPath(item, "listScrollView"))
+	item.turnView:setItemModel(self.dressSettingPrefab.dressitem:clone())
+
+	local unlock_1 = GoodsDataMgr:getDress(self.dressSettingData.group[1])
+
+	local offsetX = {}
+	
+	local function scrollCallback(target, offsetRate, customOffsetRate)
+		item.turnView.isScrolling = true
+		local items = target:getItem()
+		local cameraNearPlane = 10
+		local cameraFieldOfView_half = 60 / 2
+		local Pi_const = 3.1415926
+		for i, item in ipairs(items) do
+		    local rate = offsetRate[i]
+		    if rate then
+		        local rrate = 1 - rate
+		        local customRate = customOffsetRate[i]
+		        --item.mask:setOpacity(255 * rrate)
+		        if customRate then
+					local z = -customRate * 100
+		            item:setPositionZ(z)
+					if offsetX[i] then						
+						item:setPositionX(offsetX[i] + 5 * (-z) * math.tan(cameraFieldOfView_half / Pi_const))
+					end
+		        end
+		        item:setZOrder(rrate * 100)
+			end
+		end
+	end
+
+	local function completeCallBack(target,selectIdx)
+		if self.dressSettingSelect == selectIdx then
+			return
+		end
+		local curSelectId = self.dressSettingData.group[selectIdx]
+		if curSelectId ==nil then
+			return
+		end
+
+		if self.dressSettingSelect then
+			self.dressSettingTable[self.dressSettingSelect].button_touch:hide()
+		end
+		self.dressSettingTable[selectIdx].button_touch:show()
+
+		if self.dressSettingTable[selectIdx].unlock and self.dressSettingTable[1].unlock then
+			self.dressSettingTable[selectIdx].mask:hide()
+		end
+	
+		local cfg = dressTable[curSelectId]
+		item.name:setTextById(cfg.skinSettingTitle)
+		item.desc:setTextById(cfg.skinSettingDesc)
+
+		local unlock = GoodsDataMgr:getDress(curSelectId)
+		local using = false
+		if RoleDataMgr:checkGroupSelect(curSelectId) then
+			using = true
+		end
+		self.Panel_dress_settting.Button_change:setGrayEnabled(not unlock_1 or not unlock or using)
+		self.Panel_dress_settting.Button_change:setTouchEnabled(not unlock_1 and unlock and not using)
+
+		self.dressId_[self.selectDIdx] = curSelectId
+		self:refreshDressScroll(curSelectId,true)
+
+		self:updateDressSetProperties(curSelectId)
+		
+		self.dressSettingSelect = selectIdx
+
+		if next(offsetX) ==nil then
+			for i=1,#self.dressSettingTable do
+				table.insert(offsetX, self.dressSettingTable[i]:getPositionX())
+			end
+		end
+	end
+
+	item.turnView:registerScrollCallback(scrollCallback)
+	item.turnView:registerSelectCallback(completeCallBack)
+
+	self.dressSettingTable = {}
+	local useIdx = 1
+	local bool = true
+	for i=1, #self.dressSettingData.group do
+		local turnItem = item.turnView:pushBackItem()
+		local cfg = dressTable[self.dressSettingData.group[i]]
+		local unlock = GoodsDataMgr:getDress(self.dressSettingData.group[i])
+		turnItem.unlock = unlock
+		turnItem.posx = turnItem:getPositionX()
+
+		turnItem.bg = TFDirector:getChildByPath(turnItem, "bg")
+		turnItem.bg:setTouchEnabled(true)
+		turnItem.bg:setSwallowTouch(true)
+
+		turnItem.lock = TFDirector:getChildByPath(turnItem, "lock"):hide()
+		turnItem.lock:setVisible(not unlock or not unlock_1)
+
+		turnItem.select = TFDirector:getChildByPath(turnItem, "select"):hide()
+		if unlock_1 and self.dressSettingData.group[i] == RoleDataMgr:getDressGroupSelect(cfg.groupId, cfg.id) then
+			turnItem.select:show()
+			turnItem.lock:hide()
+		end
+
+		turnItem.button_touch = TFDirector:getChildByPath(turnItem, "button_touch")
+		turnItem.button_touch:hide()
+		turnItem.button_touch:onClick(function()
+			if not unlock_1 then
+				if unlock then
+					Utils:showTips(13203056)
+				else
+					Utils:showInfo(self.dressSettingData.group[i],nil, not unlock, true)
+				end						
+				return 
+			elseif not unlock then			
+				Utils:showInfo(self.dressSettingData.group[i],nil, not unlock, true)
+				return		
+			end
+
+			if RoleDataMgr:checkGroupSelect(self.dressSettingData.group[i]) then
+				return
+			end
+			self.dressId_[self.selectDIdx] = self.dressSettingData.group[i]	--改变列表信息需要写在设置请求发送之前,不能写在请求的回调里, 因为原有逻useDress方法在发送请求之前用到了列表信息时装self.dressId_
+
+			self:onBtnDressSet(self.dressSettingData.group[i])					
+		end)
+
+		
+
+		turnItem.ImageLock = TFDirector:getChildByPath(turnItem, "ImageLock"):hide()
+		turnItem.ImageLock:setVisible(not unlock or not unlock_1)
+
+		turnItem.mask = TFDirector:getChildByPath(turnItem, "mask"):show():hide()
+		turnItem.mask:setVisible(not unlock or not unlock_1)
+
+		turnItem.nodeDress = TFDirector:getChildByPath(turnItem, "nodeDress")
+		turnItem.nodeDress:setTexture(cfg.skinSettingIcon)
+		turnItem.nodeDress:setTouchEnabled(true)
+		turnItem.nodeDress:setSwallowTouch(true)
+		turnItem.nodeDress:addMEListener(TFWIDGET_CLICK,function()
+			item.turnView:scrollToItem(i)
+		end)
+	
+		if unlock_1 and unlock and bool then
+			useIdx = i
+			bool = false
+		end
+
+		if unlock_1 and RoleDataMgr:checkGroupSelect(self.dressSettingData.group[i]) then
+			useIdx = i
+			turnItem.select:show()
+		end	
+
+		table.insert(self.dressSettingTable, turnItem)
+	end
+	item.turnView:scrollToItem(useIdx)
+end
+
+function NewRoleShowView:updateDressSetProperties(selectId)
+	self.dressSetPropertiesItems = self.dressSetPropertiesItems or{}
+	for i=#self.dressSetPropertiesItems + 1,2, -1 do
+		self.Panel_dress_settting.listView:removeItem(i)
+	end
+
+	self.dressSetPropertiesItems = {}
+
+	local dressCfg = dressTable[selectId]
+
+	for i = 1, #dressCfg.exActionList do
+		local prefab = self.dressSettingPrefab.property:clone()
+		self.Panel_dress_settting.listView:pushBackCustomItem(prefab)
+
+		local interactionId = dressCfg.exActionList[i]
+		local name = TFDirector:getChildByPath(prefab, "itemname"):show()
+		local lock = TFDirector:getChildByPath(prefab, "lock"):hide()
+		local unlock = TFDirector:getChildByPath(prefab, "unlock"):hide()		
+
+		local icfg = iTable[interactionId]
+		name:setTextById(icfg.exActionSettingTitle)
+
+		local enough = GoodsDataMgr:isGoodsEnough(icfg.conditionEx.ownItems)
+		if enough then
+			unlock:show()
+			lock:hide()
+		else
+			unlock:hide()
+			lock:show()
+		end	
+
+		local touchArea = TFDirector:getChildByPath(prefab, "button_touch")
+		touchArea:onClick(function()
+			local itemId;
+			for k, v in pairs( icfg.conditionEx.ownItems or {}) do
+				itemId = k
+				break
+			end
+			if itemId then
+				Utils:showInfo(itemId,nil, true, true)
+			end
+		end)
+
+		table.insert(self.dressSetPropertiesItems, prefab)	
+	end
+end
+
+
+function NewRoleShowView:onBtnDressSet(id)
+	if table.indexOf(self.dressSettingData.group, self.curUseDressId) ~= -1 then--如果当前使用的dressID存在于 当前的时装组中，直接请求更换	
+		--if RoleDataMgr:checkDressUseState(id, self.useDressId) and RoleDataMgr:checkRoleUseState(self.curId) then--如果当前使用的时装就是选中的，暂不处理
+
+		--else
+			self.sendDressGroupType = 1			--1直接更换时装,2只设置时装组
+			TFDirector:send(c2s.ROLE_REQ_SET_DRESS_GROUP, {id})	--请求设置			
+		--end
+	else
+		self.sendDressGroupType = 2	--1直接更换时装,2只设置时装组
+		TFDirector:send(c2s.ROLE_REQ_SET_DRESS_GROUP, {id})	--请求设置
+	end		
+end
+
+function NewRoleShowView:refreshDressScroll(id, bChange)	
+	if bChange then
+		local cfg = dressTable[id]
+		local index = self.selectDIdx
+		for k, val in ipairs (self.dressItemsList) do
+			if cfg.groupId == val.root.data.groupId then
+				index = k
+				break;
+			end
+		end
+		print("------------------"..index.. "--------------")
+--		self.dressItemsList[index].root.data = cfg
+		self.dressItemsList[index].root.id = id		--修改外面的dresslist为时装组中选中的时装
+		
+		for i, v in ipairs(self.dressId_) do
+			self:updateDressItem(i)
+		end
+		self:updateRoleModel(self.dressItemsList[index].root.modelId)
+	else
+		self:updateRoleModel(self.dressItemsList[self.selectDIdx].root.modelId)
+	end
+	self:updateRoleInfo()
+end
+
+function NewRoleShowView:refreshDressSettingView()
+	if table.count(self.dressSettingData.group) < 2 then
+		return
+	end
+	self.dressSettingSelect = nil		--清除当前选中的时装组序号
+	self.Panel_dress_settting.listView:removeAllItems()
+	local prefab = self.dressSettingPrefab.table:clone()
+	self.Panel_dress_settting.listView:pushBackCustomItem(prefab)
+	self:initDressSettingTurnView(prefab)
+end
+
+function NewRoleShowView:showDressSettingBtn(data)
+	local show = false
+	if data and data.skinGroup and table.count(data.skinGroup) > 0 then
+		show = true
+	end
+	self.dressSettingData = {}
+	self.dressSettingData.id = data.id
+	self.dressSettingData.properties = data.exActionList or {}
+	self.dressSettingData.group = data.skinGroup or {}
+
+	self.Button_dress_set:setVisible(show)
+	self.Button_dress_set:setTouchEnabled(true)
+	self.Button_dress_set:setTextureNormal("ui/dresssetting/1.png")
+	self.Button_dress_set.select:setTexture("ui/dresssetting/2.png")
+	local x0 = self.Button_dress.originX - 20
+	local step = 113
+	if show then
+		self.Button_dress:setTextureNormal("ui/dresssetting/1.png")
+		self.Button_dress.select:setTexture("ui/dresssetting/2.png")
+		self.Button_dress:setPositionX(x0)
+
+		self.Button_dress_set:setPositionX(x0 + step * 2)
+
+		self.Button_info:setTextureNormal("ui/dresssetting/1.png")
+		self.Button_info.select:setTexture("ui/dresssetting/2.png")
+		self.Button_info:setPositionX(x0 + step)
+
+		self.Button_unInfo:setTextureNormal("ui/dresssetting/1.png")
+		self.Button_unInfo.select:setTexture("ui/dresssetting/2.png")
+		self.Button_unInfo:setPositionX(x0 + step * 3)
+
+		self:refreshDressSettingView()
+	else
+		self.Button_dress:setTextureNormal("ui/newCity/build/5.png")
+		self.Button_dress.select:setTexture("ui/newCity/build/18.png")
+		self.Button_dress:setPositionX(self.Button_dress.originX)
+
+		self.Button_info:setTextureNormal("ui/newCity/build/5.png")
+		self.Button_info.select:setTexture("ui/newCity/build/18.png")
+		self.Button_info:setPositionX(self.Button_info.originX)
+
+		self.Button_unInfo:setTextureNormal("ui/newCity/build/5.png")
+		self.Button_unInfo.select:setTexture("ui/newCity/build/18.png")
+		self.Button_unInfo:setPositionX(self.Button_unInfo.originX)
+		self.dressSettingSelect = nil		--清除当前选中的时装组序号
+		self.Panel_dress_settting.listView:removeAllItems()
+	end
 end
 
 function NewRoleShowView:initPanelDress()
@@ -233,11 +642,78 @@ function NewRoleShowView:showUnInfoList()
     end
 
     for i, v in ipairs(self.unInfoIdList) do
-        local item = self.Panel_unInfoItem:clone()
-        self:initUnInfoItem(item,i)
-        table.insert(self.unInfoListItems, item)
-        self.unInfoListView:pushBackCustomItem(item)
+		local item = self.Panel_unInfoItem:clone()
+		self:initUnInfoItem(item,i)
+		table.insert(self.unInfoListItems, item)
+		self.unInfoListView:pushBackCustomItem(item)
     end
+
+	local dressCfg = TabDataMgr:getData("Dress", selectId)
+	for i, v in ipairs (dressCfg.exActionList) do
+		local cfg = iTable[v]
+		local enough = GoodsDataMgr:isGoodsEnough(cfg.conditionEx.ownItems)
+		if enough then
+			local item = self.Panel_unInfoItem:clone()
+			self:initUnInfoExItem(item, i, v)
+			table.insert(self.unInfoListItems, item)
+			self.unInfoListView:pushBackCustomItem(item)		
+		end
+	end
+end
+
+
+function NewRoleShowView:initUnInfoExItem(item,idx, actionId)
+	local data = iTable[actionId]
+    item.desTime = 0
+    for i, v in ipairs(data.lineShow) do
+        local time = data.lineStop[i]
+        if time then
+            item.desTime = item.desTime + time
+        end
+    end
+	idx = idx + #self.unInfoIdList
+    local selectId = self.dressId_[self.selectDIdx]
+    local dressData = dressTable[selectId]
+    local Label_des = TFDirector:getChildByPath(item, "Label_des"):show()
+    Label_des:setTextById(dressData.playWord[idx])
+
+    local Label_lockDes = TFDirector:getChildByPath(item, "Label_lockDes"):hide()
+    Label_lockDes:setTextById(dressData.playWord[idx])
+
+    local Panel_unLockT = TFDirector:getChildByPath(item, "Panel_unLockT"):hide()
+
+    local Label_unLockTDes = TFDirector:getChildByPath(Panel_unLockT, "Label_unLockTDes")
+    local Button_c = TFDirector:getChildByPath(item, "Button_c"):show()
+    local ishave = RoleDataMgr:getIsHave(self.curId)
+
+    local defaultFont = 18
+    if dressData.wordSize and #dressData.wordSize > 0 then
+        defaultFont = dressData.wordSize[idx] or 18
+    end
+    Label_des:setFontSize(defaultFont)
+    Label_lockDes:setFontSize(defaultFont)
+
+    item.Button_c = Button_c
+    Button_c:onClick(function()
+        self:updateAllUnInfoItemsState(true)
+        item.Button_c:timeOut(function()
+            self:updateAllUnInfoItemsState(false)
+        end,item.desTime)
+
+        if self.model then
+            if self.voiceHandle then
+                TFAudio.stopEffect(self.voiceHandle)
+                self.voiceHandle = nil
+            end
+
+            local isPlayOk = self.model:newStartAction(data.action1, EC_PRIORITY.FORCE,nil,nil,nil,0,true)
+            if isPlayOk ~= -1  then
+                self.model:showKanbanLines(data,ccp(360,100))
+				self:refreshAnimationEffect(data["kanbanEffect"])
+				self:refreshAnimationEffect(data["backgroundEffect"], true)
+            end
+        end
+    end)
 end
 
 function NewRoleShowView:initUnInfoItem(item,idx)
@@ -261,6 +737,14 @@ function NewRoleShowView:initUnInfoItem(item,idx)
     local Label_unLockTDes = TFDirector:getChildByPath(Panel_unLockT, "Label_unLockTDes")
     local Button_c = TFDirector:getChildByPath(item, "Button_c"):hide()
     local ishave = RoleDataMgr:getIsHave(self.curId)
+
+    local defaultFont = 18
+    if dressData.wordSize and #dressData.wordSize > 0 then
+        defaultFont = dressData.wordSize[idx] or 18
+    end
+    Label_des:setFontSize(defaultFont)
+    Label_lockDes:setFontSize(defaultFont)
+
     if self.curRoleFavor >= data.favor and ishave then
         Button_c:show()
         Label_des:show()
@@ -276,6 +760,12 @@ function NewRoleShowView:initUnInfoItem(item,idx)
             self:updateAllUnInfoItemsState(false)
         end,item.desTime)
         if self.model then
+            --兼容双人看板，只能点击好感等级低的
+            local realFavorLv = RoleDataMgr:getRoleFavorLv(self.curId)
+            if data.favor > realFavorLv then
+                Utils:showTips(13400301)
+                return
+            end
             if self.voiceHandle then
                 TFAudio.stopEffect(self.voiceHandle)
                 self.voiceHandle = nil
@@ -284,9 +774,48 @@ function NewRoleShowView:initUnInfoItem(item,idx)
             local isPlayOk = self.model:newStartAction(live2dParts[data.position].action1, EC_PRIORITY.FORCE,nil,nil,nil,0,true)
             if isPlayOk ~= -1  then
                 self.model:showKanbanLines(live2dParts[data.position],ccp(360,100))
+				self:refreshAnimationEffect(live2dParts[data.position]["kanbanEffect"])
+				self:refreshAnimationEffect(live2dParts[data.position]["backgroundEffect"], true)
             end
         end
     end)
+end
+
+function NewRoleShowView:removeKanbanEffects()
+	self.roleAnimationEffect = self.roleAnimationEffect or  {}
+	for i=1,#self.roleAnimationEffect do
+		self.roleAnimationEffect[i]:hide()
+		self.roleAnimationEffect[i]:removeFromParent()
+		self.roleAnimationEffect[i] = nil
+	end
+end
+
+function NewRoleShowView:refreshAnimationEffect(effectIds, isBgEffect)
+	if effectIds == nil or #effectIds == 0 then
+		return;
+	end
+
+	local prefab = nil
+    if not isBgEffect then
+        prefab = self.Spine_sceneEffect
+    else
+        prefab = self.Spine_effectHB
+    end
+	self.roleAnimationEffect = self.roleAnimationEffect or {}
+	for k, v in pairs(self.roleAnimationEffect) do
+		v:removeFromParent()
+		self.roleAnimationEffect[k] = nil
+	end
+    for k,effectId in pairs(effectIds) do
+        local effect, cfg = Utils:createEffectByEffectId(effectId)
+        if effect then			
+			local x = (cfg["offset"]["x"] or 0)
+			local y = (cfg["offset"]["y"] or 0)
+			effect:setPosition(ccp(prefab:getPositionX() + x, prefab:getPositionY() + y))
+			prefab:getParent():addChild(effect)
+			table.insert(self.roleAnimationEffect, effect)
+        end
+    end
 end
 
 function NewRoleShowView:updateAllUnInfoItemsState(isGay)
@@ -332,13 +861,15 @@ function NewRoleShowView:showDressScroll()
     local realIdx = 1
     if self.firstIn and self.paramsDressId_ then
         for i, v in ipairs(self.dressId_) do
-            if tonumber(v) == self.paramsDressId_ then
+			local cfg = dressTable[v]
+            if tonumber(v) == self.paramsDressId_  or table.indexOf(cfg.skinGroup, self.paramsDressId_) ~= -1 then
                 realIdx = i
                 self.paramsDressId_ = nil
                 break
             end
         end
     end
+	self.firstIn = false
     self.TurnView_dressList:jumpToItem(realIdx)
     self.selectDIdx = realIdx
 
@@ -354,18 +885,65 @@ end
 
 function NewRoleShowView:onPlotTurnViewSelect(target, selectIndex)
     self.TurnView_dressList.isScrolling = false
+	if not self.isChangeRole and self.selectDIdx == selectIndex then
+		return
+	end
+	self.isChangeRole = false
     local foo = self.dressItemsList[selectIndex]
     if not foo then
         return
     end
     local item = foo.root
-    print("item.modelId ",item.modelId)
-    print("self.modelId ",self.modelId)
+
     --if item.modelId == self.modelId then
     --    return
     --end
+
+	self:removeKanbanEffects()
     self.selectDIdx = selectIndex
-    self:updateRoleModel(item.modelId)
+
+    self:updateRoleModel(self.dressItemsList[self.selectDIdx].root.modelId)
+
+	self.paramsDressId_ = item.id
+    --self:updateRoleModel(item.modelId)
+
+	self:updateDressListItem()
+
+	--todo 展示服装设置按钮
+	self:showDressSettingBtn(item.data)
+
+	
+	if next(self.DressOffsetX) ==nil then
+		for i=1,#self.dressItemsList do
+			table.insert(self.DressOffsetX, self.dressItemsList[i].root:getPositionX())
+		end
+	end
+end
+
+function NewRoleShowView:updateDressListItem()
+	local selectId
+	local cfg = TabDataMgr:getData("Dress", self.dressId_[self.selectDIdx])
+	if table.count( cfg.skinGroup) < 2 then
+		selectId = cfg.id
+	else
+		selectId = RoleDataMgr:getDressGroupSelect(cfg.groupId, cfg.id)			
+	end
+	
+	--把当前是时装组中正在使用的作为玩家时装设置项
+	local useId
+	for i = 1,#cfg.skinGroup do
+		if RoleDataMgr:checkDressUseState(cfg.skinGroup[i], self.useDressId) and RoleDataMgr:checkRoleUseState(self.curId) then
+			useId = cfg.skinGroup[i]
+			break;
+		end
+	end
+	if useId then
+		selectId = useId
+	end
+	self.dressId_[self.selectDIdx] = selectId
+
+	self:refreshDressScroll(self.dressId_[self.selectDIdx])
+
 end
 
 function NewRoleShowView:addDressItem(idx)
@@ -384,12 +962,12 @@ function NewRoleShowView:addDressItem(idx)
     item.Image_ok = TFDirector:getChildByPath(item, "Image_ok")
     item.Button_detail:onClick(function()
         --Box("item.id " .. tostring(item.id))
-        Utils:showInfo(item.id,nil,not item.isUnlock)
+        Utils:showInfo(item.id, nil, not item.isUnlock, true)
     end)
     item.Panel_touch:onClick(function()
         self.TurnView_dressList:scrollToItem(idx)
         self.selectDIdx = idx
-        self:updateRoleModel(item.modelId)
+        --self:updateRoleModel(item.modelId)
     end)
     local foo = {}
     foo.root = item
@@ -403,6 +981,10 @@ function NewRoleShowView:addDressItem(idx)
 end
 
 function NewRoleShowView:updateDressItem(idx)
+	if (idx == 1 )then
+		local aaaa = 1
+		local bbb = 1
+	end
 
     local foo = self.dressItemsList[idx]
     local item = foo.root
@@ -431,9 +1013,9 @@ function NewRoleShowView:updateDressItem(idx)
         item.Image_switchBpttom:setVisible(ishave and item.isUnlock and switchState and isInSwitch)
     end
 
-
-    if item.id == self.useDressId and self.curId == self.useId then
+    if RoleDataMgr:checkDressUseState(item.id, self.useDressId) and RoleDataMgr:checkRoleUseState(self.curId) then
         item.Image_useBottom:show()
+		self.curUseDressId = item.id
     end
 end
 
@@ -443,6 +1025,7 @@ end
 
 function NewRoleShowView:useDress()
     local selectId = self.dressId_[self.selectDIdx]
+	print("使用时装",selectId)
     if selectId and self.curRoleInfo.sid then
         if GoodsDataMgr:getDress(selectId) == nil then
             local str = TextDataMgr:getText(304001)
@@ -479,6 +1062,8 @@ function NewRoleShowView:showRoleList()
 end
 
 function NewRoleShowView:tableCellTouchBegan()
+	self.isChangeRole = true
+	self:selectBtn(self.btnType_.dressType)
 end
 
 function NewRoleShowView:tableCellTouched(isFirst)
@@ -487,7 +1072,7 @@ function NewRoleShowView:tableCellTouched(isFirst)
             self.firstIn = isFirst
             ViewAnimationHelper.doMoveFadeInAction(self.Panel_mid, {direction = 1, distance = 30, ease = 1})
             ViewAnimationHelper.doMoveFadeInAction(self.Panel_right, {direction = 2, distance = 30, ease = 1})
-            self:selectOne(self.selectIdx)
+            self:selectOne(self.selectIdx, self.btnType_.dressType)
             print("tableCellTouched self.selectIdx ",self.selectIdx)
             self.selectIdx = -1
         end
@@ -523,7 +1108,7 @@ end
 function NewRoleShowView:updateRoleModel(modelId)
     local selectId = self.dressId_[self.selectDIdx]
     local data = dressTable[selectId]
-    local curModelId = modelId or RoleDataMgr:getModel(self.curId)
+    local curModelId = modelId or RoleDataMgr:getModel(self.curId)                                                
     local isHModel = false
     if data and data.type and data.type == 2 then
         curModelId = data.highRoleModel
@@ -558,8 +1143,6 @@ function NewRoleShowView:updateRoleModel(modelId)
 
     self.modelId = curModelId
 
-    print("updateRoleModel self.modelId ",self.modelId)
-    print("updateRoleModel self.curId ",self.curId)
     if self.model then
         if self.model.effectHandle then
             TFAudio.stopEffect(self.model.effectHandle)
@@ -567,7 +1150,7 @@ function NewRoleShowView:updateRoleModel(modelId)
         end
         self.model:removeFromParent()       
     end
-
+	print("model",self.modelId)
     self.model = ElvesNpcTable:createLive2dNpcID(self.modelId,false,false,nil,true).live2d:hide()
     self.Panel_base:addChild(self.model,1)
     self.model:setScale(0.7); --缩放
@@ -615,11 +1198,11 @@ function NewRoleShowView:updateRoleModel(modelId)
         end
     end
 
-    if data.backgroundEffect and data.backgroundEffect ~= 0 then
+    if data.backgroundEffect and #data.backgroundEffect ~= 0 then
         self:refreshEffect(data.backgroundEffect,true)
     end
 
-    if data.kanbanEffect and data.kanbanEffect ~= 0 then
+    if data.kanbanEffect and #data.kanbanEffect ~= 0 then
         self:refreshEffect(data.kanbanEffect)
     end
 
@@ -643,7 +1226,7 @@ function NewRoleShowView:refreshEffect(effectIds,isBgEffect)
     if not isBgEffect then
         mgrTab = self.effectSK or {}
         self.effectSK = mgrTab
-        prefab = self.Spine_sceneEffect
+        prefab = self.NpcEffect
     else
         mgrTab = self.effectSKB or {}
         self.effectSKB = mgrTab
@@ -662,39 +1245,39 @@ function NewRoleShowView:refreshEffect(effectIds,isBgEffect)
         effectIds = {effectId}
     end
 
-    for k,effectId in pairs(effectIds) do
-        mgrTab[effectId] = Utils:createEffectByEffectId(effectId)
-        if not mgrTab[effectId] then
-            return
+     for k,effectId in pairs(effectIds) do
+        local effect, cfg = Utils:createEffectByEffectId(effectId)
+        if effect then			
+			local x = (cfg["offset"]["x"] or 0)
+			local y = (cfg["offset"]["y"] or 0)
+			effect:setPosition(ccp(prefab:getPositionX() + x, prefab:getPositionY() + y))
+			prefab:getParent():addChild(effect)
+			table.insert(mgrTab, effect)
         end
-
-        mgrTab[effectId]:setPosition(prefab:getPosition())
-        prefab:getParent():addChild(mgrTab[effectId], prefab:getZOrder())
     end
 end
 
 function NewRoleShowView:updateRoleInfo()
-    print("updateRoleInfo self.curId ", self.curId)
     local Label_desc = TFDirector:getChildByPath(self.Image_roleInfoBg,"Label_desc")
     Label_desc:setString(RoleDataMgr:getDesc(self.curId))
 
     local curRoleInfo = RoleDataMgr:getRoleInfo(self.curId)
     --身高
     local Label_height = TFDirector:getChildByPath(self.Image_roleInfoBg,"Label_height")
-    Label_height:setString(curRoleInfo.height .. "cm")
+    Label_height:setString(curRoleInfo.height)
     --三维
     local Label_threeDimensional = TFDirector:getChildByPath(self.Image_roleInfoBg,"Label_threeDimensional")
-    Label_threeDimensional:setString(curRoleInfo.threeDimensional)
+    Label_threeDimensional:setTextById(curRoleInfo.threeDimensional)
     --声优
     local Label_theme = TFDirector:getChildByPath(self.Image_roleInfoBg,"Label_theme")
     local akiraId = curRoleInfo.akiraId2 or curRoleInfo.akiraId
     Label_theme:setString(TextDataMgr:getText(akiraId))
     --生日
     local Label_birthday = TFDirector:getChildByPath(self.Image_roleInfoBg,"Label_birthday")
-    Label_birthday:setString(curRoleInfo.birthday)
+    Label_birthday:setTextById(curRoleInfo.birthday)
     --体重
     local Label_weight = TFDirector:getChildByPath(self.Image_roleInfoBg,"Label_weight")
-    Label_weight:setString(curRoleInfo.weight .. "kg")
+    Label_weight:setTextById(curRoleInfo.weight)
 end
 
 function NewRoleShowView:updateCellInfo(cell,cellIdx)
@@ -705,7 +1288,7 @@ function NewRoleShowView:updateCellInfo(cell,cellIdx)
     local lock = TFDirector:getChildByPath(cell,"Image_lock")
     lock:setVisible(not ishave)
     local Image_use = TFDirector:getChildByPath(cell,"Image_use")
-    Image_use:setVisible(roleId == self.useId)
+    Image_use:setVisible(RoleDataMgr:checkRoleUseState(roleId))	
 end
 
 function NewRoleShowView:selCallback(cell,cellIdx)
@@ -716,23 +1299,30 @@ function NewRoleShowView:selCallback(cell,cellIdx)
     --    self.isFirst = false
     --end
     self.selectIdx = cellIdx
-    print("selCallback cellIdx",cellIdx)
+	self.selectLeftListIdx = cellIdx
+
     cell:runAction(CCMoveBy:create(0.2, ccp(15, 0)))
 end
 
-function NewRoleShowView:selectOne(cellIdx)
-    self:selectBtn(self.btnType_.dressType)
+function NewRoleShowView:selectOne(cellIdx, btnType, dontNeedResetScroll)
+	if self.selectType ~= self.btnType_.dressSetting then	--策划要求当前在时装设置界面 就不切换页签
+		self:selectBtn(btnType)
+	end
     local roleId = RoleDataMgr:getRoleIdByShowIdx(cellIdx)
     self.curId = roleId
     self:refreshData()
-    self:showDressScroll()
+	if not dontNeedResetScroll then
+		self:showDressScroll()
+	end
     self:refreshMid()
 
     local isOk,isUnlock,ishave = self:checkChangeOk()
     self.Button_change:setGrayEnabled(not isOk)
     self.Button_change:setTouchEnabled(isOk)
     self.Button_changeScene:setVisible(isUnlock and ishave and not isOk)
-    self:changeShowOne();
+
+    self:updateRoleInfo()
+    self:updateRoleModel(self.dressItemsList[self.selectDIdx].root.modelId)
 
     if self.voiceHandle then
         TFAudio.stopEffect(self.voiceHandle)
@@ -750,12 +1340,14 @@ function NewRoleShowView:checkChangeOk()
     local sendMsgType = 0
     if ishave then
         if self.curId ~= self.useId then
-            sendMsgType = 1
-            isOk = true
+            sendMsgType = 3
+            if not RoleDataMgr:checkRoleUseState(self.curId) then
+                isOk = true
+            end
         end
     end
     if isUnlock and ishave then
-        if dressId ~= self.useDressId then
+        if not RoleDataMgr:checkDressUseState(dressId, self.useDressId) then
             if sendMsgType == 0 then
                 sendMsgType = 2
             else
@@ -793,6 +1385,8 @@ function NewRoleShowView:onSwitchRole()
     self.Button_change:setGrayEnabled(not isOk)
     self.Button_change:setTouchEnabled(isOk)
     self.Button_changeScene:setVisible(isUnlock and ishave and not isOk)
+
+	--self:selectBtn(self.btnType_.dressType)
 end
 
 function NewRoleShowView:switchRole()
@@ -801,7 +1395,10 @@ end
 
 function NewRoleShowView:onChangeDressOk()
 
+    self:onSwitchRole()
+
     self.useDressId = self.curRoleInfo.dressId
+
     local data = dressTable[self.useDressId]
     if not data then
         Box("数据为空，id: ".. self.useDressId)
@@ -826,6 +1423,22 @@ function NewRoleShowView:onChangeDressOk()
     self.Button_changeScene:setVisible(isUnlock and ishave and not isOk)
 
     self:playBgm()
+
+	local LastType = self.selectType
+
+	self:selectOne(self.selectLeftListIdx, self.btnType_.dressType)	
+
+	if RoleSwitchDataMgr:getSwitchState() then
+		self:changeBtnState(self.btnType_.dressType)
+		self:showDressSettingBtn(data)
+	else
+		if LastType == self.btnType_.dressSetting and table.count(self.dressSettingData.group) >= 2 then
+			self:changeBtnState(LastType)
+		else
+			self:changeBtnState(self.btnType_.dressType)
+			self:showDressSettingBtn(data)
+		end
+	end
 end
 
 function NewRoleShowView:onShow()
@@ -884,13 +1497,51 @@ function NewRoleShowView:updateSwitchState()
 end
 
 function NewRoleShowView:updateSwitchList()
-
     for i, v in ipairs(self.dressId_) do
         self:updateDressItem(i)
     end
 end
 
+function NewRoleShowView:updateRoleList()
+    self:onSwitchRole()
+    local jumpTo = RoleDataMgr:getRoleIdx(self.curId)
+    self.scrollMenu:jumpTo(jumpTo)
+    self.scrollMenu:doLayout()
+end
 
+function NewRoleShowView:onBtnChange()
+
+	local function callback()
+        if self.sendMsgType == 1 then
+            self:setBgm()
+            self:switchRole()
+        elseif self.sendMsgType == 2 then
+            self:setBgm()
+            self:onOk()
+        elseif self.sendMsgType == 3 then
+            self:setBgm()
+            self:switchRole()
+            self:onOk(0.2)
+        end
+
+        RoleSwitchDataMgr:Send_TurnSwitchState(false)
+        -- self.sendMsgType = 0
+    end
+
+    local isSwitch = RoleSwitchDataMgr:getSwitchState()
+    if not isSwitch then
+        callback()
+        return
+    end
+
+    if MainPlayer:getOneLoginStatus(EC_OneLoginStatusType.ReConfirm_SwitchKanBanState) then
+        callback()
+    else
+        local content = "更换看板会关闭轮播模式"
+        Utils:openView("common.ReConfirmTipsView", {tittle = 310019, content = content, reType =EC_OneLoginStatusType.ReConfirm_SwitchKanBanState, confirmCall = callback})
+    end
+
+end
 
 function NewRoleShowView:registerEvents()
 
@@ -898,58 +1549,40 @@ function NewRoleShowView:registerEvents()
     EventMgr:addEventListener(self,EV_UPDATE_SWITCH_STATE,handler(self.updateSwitchState, self))
     EventMgr:addEventListener(self, EV_DATING_EVENT.switchRole, handler(self.onSwitchRole, self))
     EventMgr:addEventListener(self, EV_DATING_EVENT.changeDress, handler(self.onChangeDressOk, self))
+    EventMgr:addEventListener(self, EV_DATING_EVENT.addRole, handler(self.updateRoleList, self))
+	EventMgr:addEventListener(self,EV_DRESS_RECEVIE_GROUP, handler(self.onDressGroup, self))
+	EventMgr:addEventListener(self,EV_DRESS_SET_SCUESS, handler(self.onDressSetSucess, self))
 
     local function scrollCallback(target, offsetRate, customOffsetRate)
         self.TurnView_dressList.isScrolling = true
-        local items = target:getItem()
-        for i, item in ipairs(items) do
-            local rate = offsetRate[i]
-            if rate then
-                local rrate = 1 - rate
-                local customRate = customOffsetRate[i]
-                item:setOpacity(255 * rrate)
-                if customRate then
-                    item:setPositionZ(-customRate * 100)
-                end
-                item:setZOrder(rrate * 100)
-            end
-        end
+		local items = target:getItem()
+		local cameraNearPlane = 10
+		local cameraFieldOfView_half = 60 / 2
+		local Pi_const = 3.1415926
+		for i, item in ipairs(items) do
+		    local rate = offsetRate[i]
+		    if rate then
+		        local rrate = 1 - rate
+		        local customRate = customOffsetRate[i]
+		        if customRate then
+					local z = -customRate * 100
+		            item:setPositionZ(z)
+					if self.DressOffsetX[i] then						
+						item:setPositionX(self.DressOffsetX[i] + 5 * (-z) * math.tan(cameraFieldOfView_half / Pi_const))
+					end
+		        end
+		        item:setZOrder(rrate * 100)
+			end
+		end
     end
     self.TurnView_dressList:registerScrollCallback(scrollCallback)
     self.TurnView_dressList:registerSelectCallback(handler(self.onPlotTurnViewSelect, self))
 
     self.Button_change:onClick(function()
-
-        local function callback()
-            if self.sendMsgType == 1 then
-                self:setBgm()
-                self:switchRole()
-            elseif self.sendMsgType == 2 then
-                self:setBgm()
-                self:onOk()
-            elseif self.sendMsgType == 3 then
-                self:setBgm()
-                self:switchRole()
-                self:onOk(0.2)
-            end
-
-            RoleSwitchDataMgr:Send_TurnSwitchState(false)
-            self.sendMsgType = 0
-        end
-
-        local isSwitch = RoleSwitchDataMgr:getSwitchState()
-        if not isSwitch then
-            callback()
-            return
-        end
-
-        if MainPlayer:getOneLoginStatus(EC_OneLoginStatusType.ReConfirm_SwitchKanBanState) then
-            callback()
-        else
-            local content =  TextDataMgr:getText(111000107)
-            Utils:openView("common.ReConfirmTipsView", {tittle = 310019, content = content, reType = EC_OneLoginStatusType.ReConfirm_SwitchKanBanState, confirmCall = callback})
-        end
-
+		self:onBtnChange()     
+    end)
+	self.Button_dress_set:onClick(function()
+        self:selectBtn(self.btnType_.dressSetting)
     end)
 
     self.Button_dress:onClick(function()
@@ -1063,7 +1696,7 @@ function NewRoleShowView:playBgm()
     local selectId = self.dressId_[self.selectDIdx]
     local data = dressTable[selectId]
 
-    if selectId == self.useDressId and self.curId == self.useId then
+    if RoleDataMgr:checkDressUseState(selectId, self.useDressId) and RoleDataMgr:checkRoleUseState(self.curId) then
         local curDayBgmCid,curNightBgmCid = SceneSoundDataMgr:getTempBgmCid()
         local bgmCid
         local hour = Utils:getTime(ServerDataMgr:getServerTime())
@@ -1091,6 +1724,29 @@ function NewRoleShowView:playBgm()
             end
         end
     end
+end
+
+function NewRoleShowView:onDressGroup(data)
+	
+end
+
+function NewRoleShowView:onDressSetSucess(data)
+	for k,v in ipairs (self.dressSettingData.group or {}) do
+		self.dressSettingTable[k].select:hide()
+		if RoleDataMgr:checkGroupSelect(v) then
+			self.dressSettingTable[k].select:show()
+		end
+	end
+
+	self:refreshDressScroll(data.dressId,true)
+
+	if self.sendDressGroupType == 1 then
+		if not RoleSwitchDataMgr:getSwitchState() then		
+			self:onBtnChange()	--原有更换逻辑
+		end
+	end
+
+	RoleSwitchDataMgr:insertSwitchList(data.dressId)
 end
 
 return NewRoleShowView

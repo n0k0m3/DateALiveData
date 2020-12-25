@@ -32,6 +32,7 @@ function EquipConvert:initUI(ui)
     self.fastBtn        = TFDirector:getChildByPath(ui,"Button_fast");
     self.Panel_gold     = TFDirector:getChildByPath(ui,"Panel_gold");
     self.Label_gold     = TFDirector:getChildByPath(ui,"Label_gold");
+    self.Image_gold     = TFDirector:getChildByPath(ui,"Image_gold");
     self.Label_nothing    = TFDirector:getChildByPath(ui,"Label_nothing");
 
     self.Panel_gold:setVisible(false);
@@ -241,11 +242,22 @@ function EquipConvert:onTouchOneEquip(item)
         self:updateRightEquipInfo();
     end
 
+    self.isChoiceSpecial = not (EquipmentDataMgr:getEquipStarLevel(item.id) < 1)
     if EquipmentDataMgr:getEquipStarLv(item.id) > 1 and (not MainPlayer:getOneLoginStatus(EC_OneLoginStatusType.ReConfirm_EquipConvert)) then
         local view = Utils:openView("common.ConfirmConvertView")
+
+        -- if self.isChoiceSpecial then
+        --     view:setRecoverTipsShow()
+        -- elseif EquipmentDataMgr:getEquipStarLv(item.id) >= 5 then
+        --     view:setGoodTipsShow()
+        -- end
+        
+        -- TODO CLOSE
+        -- 还原为旧的质点提示
         if EquipmentDataMgr:getEquipStarLv(item.id) >= 5 then
             view:setGoodTipsShow()
         end
+
         view:setCallback(function()
                 callback()
         end)
@@ -262,10 +274,19 @@ function EquipConvert:updateNeedGold()
         -- local needGold = TabDataMgr:getData("DiscreteData",4001).data.price[star][500001];
         local attrIdxs = self:getSelectDestAttrIndexs()
         local num      = #attrIdxs
-        local needGold = EquipmentDataMgr:getXilianNeedGold(star,num)
+        local id, needGold = next(EquipmentDataMgr:getXilianNeedGold(star,num, self.isChoiceSpecial))
         --needGold = needGold * star;
+        if num == 0 then
+            needGold = 0
+        end
+        self.Image_gold:setTexture(GoodsDataMgr:getItemCfg(id).icon)
+        self.Image_gold:setScale(0.3)
+        self.Image_gold:setTouchEnabled(true)
+        self.Image_gold:onClick(function ()
+                Utils:showInfo(id)
+            end)
         self.Label_gold:setString(needGold.."");
-        self.Label_gold:setFontColor(needGold>GoodsDataMgr:getItemCount(500001) and ccc3(219,50,50) or ccc3(255,255,255))
+        self.Label_gold:setFontColor(needGold>GoodsDataMgr:getItemCount(id) and ccc3(219,50,50) or ccc3(255,255,255))
     end
 end
 
@@ -550,21 +571,21 @@ function EquipConvert:updateShowData()
     local newCount = {}
     for i, v in ipairs(self.showList) do
         for j, id in ipairs(v) do
-            local starState = false
-            local suitState = false
-            local colorState = false
-            local wordState = false
+            local isRevert = self.chooseCondition.isRevert
+            local starState = isRevert
+            local suitState = isRevert
+            local colorState = isRevert
             if #self.chooseCondition.star > 0 then
-                if table.indexOf(self.chooseCondition.star, EquipmentDataMgr:getEquipStarLv(id)) ~= -1 then
-                    starState = true
+                if (table.indexOf(self.chooseCondition.star, EquipmentDataMgr:getEquipStarLv(id)) ~= -1 and EquipmentDataMgr:getEquipStarLevel(id) < 1 ) or (table.indexOf(self.chooseCondition.star, 6) ~= -1 and EquipmentDataMgr:getEquipStarLevel(id) >= 1 ) then
+                    starState = not isRevert
                 end
             else
                 starState = true
             end
             if #self.chooseCondition.suit > 0 then
                 local suitIds = #EquipmentDataMgr:getEquipSuitInfo(id)
-                if (suitIds > 0 and #self.chooseCondition.suit > 1) or (suitIds > 0 and self.chooseCondition.suit[1] == 2) or (suitIds < 1 and self.chooseCondition.suit[1] == 1) then
-                    suitState = true
+                if #self.chooseCondition.suit > 1 or (suitIds > 0 and self.chooseCondition.suit[1] == 2) or (suitIds < 1 and self.chooseCondition.suit[1] == 1) then
+                    suitState = not isRevert
                 end
             else
                 suitState = true
@@ -575,11 +596,11 @@ function EquipConvert:updateShowData()
                     if table.indexOf(self.chooseCondition.color, attr.level) ~= -1 then
                         if #self.chooseCondition.word > 0 then
                             if table.indexOf(self.chooseCondition.word,attr._superType) ~= -1 then
-                                colorState = true
+                                colorState = not isRevert
                                 break
                             end
                         else
-                            colorState = true
+                            colorState = not isRevert
                             break
                         end
                     end
@@ -588,7 +609,7 @@ function EquipConvert:updateShowData()
                 if #self.chooseCondition.word > 0 then
                     for k, attr in pairs(attrs) do
                         if table.indexOf(self.chooseCondition.word,attr._superType) ~= -1 then
-                            colorState = true
+                            colorState = not isRevert
                             break
                         end
                     end
@@ -668,8 +689,6 @@ function EquipConvert:onTouchChangeBtn()
     self.destAttrIndexs = self:getSelectDestAttrIndexs()
     self.srcAttrIndexs  = self:getSelectSrcAttrIndexs()
 
-    dump(destAttrIndexs);
-    dump(srcAttrIndexs);
     if #self.destAttrIndexs <= 0 then
         toastMessage(TextDataMgr:getText(493002))
         return;
@@ -679,10 +698,11 @@ function EquipConvert:onTouchChangeBtn()
     end
 
     local star = EquipmentDataMgr:getEquipStarLv(self.showId);
-    local needGold = EquipmentDataMgr:getXilianNeedGold(star, #self.destAttrIndexs)
-    local goldCount = GoodsDataMgr:getItemCount(500001);
+
+    local id, needGold = next(EquipmentDataMgr:getXilianNeedGold(star, #self.destAttrIndexs, self.isChoiceSpecial))
+    local goldCount = GoodsDataMgr:getItemCount(id);
     if needGold > goldCount then
-        toastMessage(TextDataMgr:getText(493004));
+        toastMessage(TextDataMgr:getText(493011));
         return;
     end
 

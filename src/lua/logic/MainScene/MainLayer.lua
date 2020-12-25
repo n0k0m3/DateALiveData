@@ -125,6 +125,7 @@ function MainLayer:initUI(ui)
     self.Panel_right        = TFDirector:getChildByPath(ui,"Panel_right");
     self.Panel_feelling_info       = TFDirector:getChildByPath(self.Panel_right,"Panel_feelling_info"):hide()
     self.initFeelingPos = self.Panel_feelling_info:getPosition()
+
     self.Button_notice    = TFDirector:getChildByPath(self.Panel_left,"Button_notice");
     self.Button_ScoreReward = TFDirector:getChildByPath(self.Panel_left, "Button_ScoreReward")
     self.Button_ScoreReward:setVisible(false)
@@ -132,6 +133,9 @@ function MainLayer:initUI(ui)
     self.Image_ScoreRewardTip:setVisible(false)
 
     self.Image_noticeTip = TFDirector:getChildByPath(self.Button_notice, "Image_noticeTip")
+
+    --隐藏主界面公告按钮
+    self.Button_notice:hide()
 
 
     
@@ -380,7 +384,7 @@ function MainLayer:initUI(ui)
     self.label_serverTime:setPosition(5 , -15)
     self.label_serverTime:enableOutline(ccc4(0,0,0,255), 1)
     local  time_s_hour , time_s_min , time_s_sec = ServerDataMgr:customUtcTimeForServer()
-    self.label_serverTime:setString(string.format("%02d:%02d:%02d UTC-7" , time_s_hour , time_s_min , time_s_sec))
+    self.label_serverTime:setString(string.format("%02d:%02d:%02d %s" , time_s_hour , time_s_min , time_s_sec, GV_UTC_TIME_STRING))
 
     self.Panel_player_info_touch:addChild(self.label_serverTime)
 
@@ -553,7 +557,7 @@ function MainLayer:addIPText()
     ipText:setTextAreaSize(CCSize(250, 0))
     ipText:setTextVerticalAlignment(0)
     ipText:setTextHorizontalAlignment(0)
-    ipText:setPosition(ccp(5, -72))
+    ipText:setPosition(ccp(5, -100))
     ipText:setAnchorPoint(ccp(0, 1))
     ipText:setFontColor(ccc3(255, 255, 255))
     ipText:enableStroke(ccc3(0, 0, 0), 1)
@@ -564,14 +568,15 @@ function MainLayer:addIPText()
     if serverInfo then
         local ip = serverInfo.gameServerIp
         local port = serverInfo.gameServerPort
-        local groupName = LogonHelper:getGroupName()
-        local serverName = LogonHelper:getServerName() or "*"
-        local serverGroupConfig = ServerDataMgr:getServerList(groupName)
-        local realName = groupName
-        if serverGroupConfig and serverGroupConfig.name then
-            realName = serverGroupConfig.name
+        local groupCfgId = LogonHelper:getGroupCfgId()
+        local groupId = LogonHelper:getGroupId()
+        local groupName = ServerDataMgr:getGroupNameById(groupCfgId, groupId)
+        local serverId = LogonHelper:getServerId()
+        local serverName = ServerDataMgr:getServerNameById(groupCfgId, serverId)
+        local innerStr = "(" .. groupName .. ")"
+        if serverName then
+            innerStr = serverName ..innerStr
         end
-        local innerStr = realName .. ":" .. serverName .. "(" .. groupName .. ")"
         local str = "server: " .. innerStr .. "\n"
         str = str .."ip: " .. ip .. " port: " .. port
         ipText:setText(str)
@@ -797,7 +802,19 @@ function MainLayer:showLeftBtnAnim()
             v:setPosition(v.pos)
         end
     end
-    if self.Button_newPlayer:isVisible() then
+
+     local threeActivity = {}
+    if self.button_OneYear:isVisible() then
+        table.insert(threeActivity , self.button_OneYear)
+    end
+    if self.Button_Activity7:isVisible() then
+        table.insert(threeActivity , self.Button_Activity7)
+    end
+    if self.Button_Activity91:isVisible() then
+        table.insert(threeActivity , self.Button_Activity91)
+    end
+
+    if self.Button_newPlayer:isVisible()  and #threeActivity<=1 then
         self.Button_newPlayer:setScale(0.85)
         self.Button_newPlayer:setOpacity(0)
         local orgPos = self.Button_newPlayer:getPosition()
@@ -829,7 +846,7 @@ function MainLayer:showLeftBtnAnim()
     --     self.Button_Activity1001:runAction(Spawn:create({FadeIn:create(0.3),MoveTo:create(0.3,orgPos),ScaleTo:create(0.3,1)}))
     -- end
 
-    if self.Button_Activity7:isVisible() then
+    if self.Button_Activity7:isVisible() and #threeActivity<=1 then
         self.Button_Activity7:setScale(0.85)
         self.Button_Activity7:setOpacity(0)
         local orgPos = self.Button_Activity7:getPosition()
@@ -839,16 +856,7 @@ function MainLayer:showLeftBtnAnim()
 
 
 
-    local threeActivity = {}
-    if self.button_OneYear:isVisible() then
-        table.insert(threeActivity , self.button_OneYear)
-    end
-    if self.Button_Activity7:isVisible() then
-        table.insert(threeActivity , self.Button_Activity7)
-    end
-    if self.Button_Activity91:isVisible() then
-        table.insert(threeActivity , self.Button_Activity91)
-    end
+   
 
     --多个活动同时存在新增特殊处理 
     if #threeActivity == 2 then
@@ -1195,18 +1203,23 @@ function MainLayer:updateAction()
                 if not cfgInfo then
                     return
                 end
-
-                --activityType: 0:界面名字跳转 1:福利活动 2:活动 3:function 跳转(暂时这样，需要整理需求)
-                if cfgInfo.activityType == 1 then
-                    if ActivityDataMgr:getIsHaveActs() then
-                        Utils:openActivityPage(tonumber(cfgInfo.jumpId))
-                    end
-                elseif cfgInfo.activityType == 2 then
-                    FunctionDataMgr:jActivity(tonumber(cfgInfo.jumpId))
-                elseif cfgInfo.activityType == 3 then
-                    FunctionDataMgr:enterByFuncId(tonumber(cfgInfo.jumpId))
-                else
-                    Utils:openView(cfgInfo.jumpId)
+                local checkExtId = TFAssetsManager:getCheckInfo(12)
+                if checkExtId then
+                    TFAssetsManager:downloadAssetsOfFunc(checkExtId,function()
+                        --activityType: 0:界面名字跳转 1:福利活动 2:活动 3:function 跳转(暂时这样，需要整理需求)
+                        if cfgInfo.activityType == 1 then
+                            if ActivityDataMgr:getIsHaveActs() then
+                                Utils:openActivityPage(tonumber(cfgInfo.jumpId))
+                            end
+                        elseif cfgInfo.activityType == 2 then
+                            FunctionDataMgr:jActivity(tonumber(cfgInfo.jumpId))
+                        elseif cfgInfo.activityType == 3 then
+                            FunctionDataMgr:enterByFuncId(tonumber(cfgInfo.jumpId))
+                        else
+                            Utils:openView(cfgInfo.jumpId)
+                        end
+                    end,true)
+                    return
                 end
             end
             self.PageView_Activity:stopAllActions()
@@ -1826,9 +1839,18 @@ function MainLayer:registerEvents()
     -- 福利
     self.Button_welfare:onClick(function()
             --Utils:openView("task.TaskSignInView")
+        local callBackFunc= function( )
             if ActivityDataMgr:getIsHaveActs() then
                 Utils:openView("activity.ActivityMain")
             end
+        end
+        local checkExtId = TFAssetsManager:getCheckInfo(12)
+        if checkExtId then
+            TFAssetsManager:downloadAssetsOfFunc(checkExtId, callBackFunc ,true)
+            return
+        else
+            callBackFunc()
+        end
     end)
 
     -- 问卷
@@ -2037,7 +2059,11 @@ function MainLayer:registerEvents()
 
     --社团
     self.Button_league:onClick(function()
-        FunctionDataMgr:jUnion()
+        if GlobalFuncDataMgr:isOpen(5) then 
+             FunctionDataMgr:jUnion()
+        else
+            Utils:showTips(2100109)
+        end
     end)
 
     -- 月卡
@@ -2046,7 +2072,14 @@ function MainLayer:registerEvents()
     end)
     --排行榜
     self.Button_rankNotice:onClick(function()
-            Utils:openView("MainScene.RankNoticeView")
+            -- Utils:openView("MainScene.RankNoticeView")
+        local checkExtId = TFAssetsManager:getCheckInfo(11)
+        if checkExtId then
+            TFAssetsManager:downloadAssetsOfFunc(checkExtId,function()
+                Utils:openView("MainScene.RankNoticeView")
+            end,true)
+            return
+        end
     end)
 
     self.Panel_ai_chat:onClick(function()
@@ -2163,7 +2196,7 @@ function MainLayer:createCustomBtnOnBear(texture , pos , openUrl  , needParam)
             local role_name = string.url_encode(MainPlayer:getPlayerName())
             local role_id = string.url_encode(MainPlayer:getPlayerId())
             local lang = "en"
-            if GAME_LANGUAGE_VAR == EC_LanguageType.Chinese then
+            if (TFLanguageMgr:getUsingLanguage() == cc.SIMPLIFIED_CHINESE) or (TFLanguageMgr:getUsingLanguage() == cc.TRADITIONAL_CHINESE) then
                 lang = "cn"
             end
             if CC_TARGET_PLATFORM == CC_PLATFORM_IOS then
@@ -2970,7 +3003,7 @@ end
 function MainLayer:onCountDownPer(dt)
 
     local  time_s_hour , time_s_min , time_s_sec = ServerDataMgr:customUtcTimeForServer()
-    self.label_serverTime:setString(string.format("%02d:%02d:%02d UTC-7" , time_s_hour , time_s_min , time_s_sec))
+    self.label_serverTime:setString(string.format("%02d:%02d:%02d %s" , time_s_hour , time_s_min , time_s_sec, GV_UTC_TIME_STRING))
 
     if not self.feellingInfoShowTime_ then
         TFDirector:removeTimer(timerUpdate_)
@@ -3177,9 +3210,10 @@ function MainLayer:onShow()
     
     if self.Button_gongzhu then
         self.Button_gongzhu:hide()
-        if ActivityDataMgr2:isWarOrderActivityOpen() then
+        if ActivityDataMgr2:isWarOrderActivityOpen()  and  GlobalFuncDataMgr:isOpen(4) then
             self.Button_gongzhu:show()
         end
+
     end
 	
 	if self.showRffect then
@@ -3370,7 +3404,7 @@ function MainLayer:updateOneYearBtns()
                     self.button_OneYear:setPosition(activityPos_left:getPosition())
                 end 
                 
-                if self.Button_Activity7 then
+                if self.Button_Activity7  and #threeActivity <= 1 then --TODO close 由多个活动入口控制
                     self.Button_Activity7:setPosition(activityPos_left:getPosition())
                 end
             else
@@ -3593,6 +3627,9 @@ end
 
 --未购买萌新礼包的玩家,在跑完新手引导后弹出界面提示
 function MainLayer:checkShowNewGuyGift()
+    if not GlobalFuncDataMgr:isOpen(10) then
+        return false 
+    end
     local cnt =  RechargeDataMgr:getBuyCount(100)
     local isOpen = FunctionDataMgr:isOpenByServer(59)
     local show = (cnt == 0 and isOpen)

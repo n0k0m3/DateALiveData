@@ -1,9 +1,13 @@
 local CollectBaseView = class("CollectBaseView",BaseLayer)
 
-function CollectBaseView:ctor(param)
+function CollectBaseView:ctor(...)
 	self.super.ctor(self)
-	self:init("lua.uiconfig.collect.collectBaseView")
+	self:initData(...)
+	self:init("lua.uiconfig.collect.collectBaseView")	
+end
 
+function CollectBaseView:initData(defaultLeftBar)
+	self.defaultLeftBar = defaultLeftBar or 1
 end
 
 function CollectBaseView:initUI(ui)
@@ -58,8 +62,15 @@ function CollectBaseView:makeLeftBar(param)
 		end
 	end
 	self:makePulldown()
-	local defaultLeftBar = self.left_bar_listview:getItem(1)
-	self:onClickTabbar(defaultLeftBar)
+	self:jumpToTab(self.defaultLeftBar)
+end
+
+function CollectBaseView:jumpToTab(idx)
+	local leftBar = self.left_bar_listview:getItem(idx)
+	if leftBar == nil then
+		return;
+	end
+	self:onClickTabbar(leftBar)
 end
 
 function CollectBaseView:onClickTabbar(tmleftbar)

@@ -199,6 +199,49 @@ function SettingDataMgr:getSoundBgm()
     end
 end
 
+function SettingDataMgr:bgmFade(to, step, duration, useCurFade)
+	step = step or 10
+
+	duration = duration or 50
+
+	if not useCurFade then
+		self.fadeVolume = self:getSoundBgmVal() * 100
+	else
+		self.fadeVolume = self.fadeVolume or 0
+	end
+
+	local counts = math.abs( math.floor((to- self.fadeVolume) / step))
+
+	local perStep = to > self.fadeVolume and 1 or -1
+
+	local function setVol_(vol)
+		AudioEngine:setVolume(AudioExchangePlay.oldId, vol)
+	end
+
+	local timer;
+
+	local function removeTimer_()
+		if timer~= nil then
+			TFDirector:stopTimer(timer)
+			TFDirector:removeTimer(timer)
+			timer = nil
+		end
+	end
+	
+	if timer == nil then
+		timer = TFDirector:addTimer(duration,counts,function()
+				setVol_(to / 100)
+				removeTimer_()
+			end, 
+			function ( ... )
+				local baseVol = self:getSoundMainVal()
+				self.fadeVolume = self.fadeVolume + step * perStep
+				setVol_(self.fadeVolume / 100 * baseVol)
+			end)
+	end
+end
+
+
 function SettingDataMgr:getSoundBgmVal()
     return SOUND_VAL[self:getSoundBgm()]
 end
@@ -264,6 +307,8 @@ end
 function SettingDataMgr:setAttactEffect(value)
     local id = MainPlayer:getPlayerId() or ""
     UserDefalt:setStringForKey("AttactEffect"..id, value)
+    EventMgr:dispatchEvent(EV_UPDATE_TEAM_HANDLE)
+
 end
 
 function SettingDataMgr:getAttactEffect()
@@ -285,6 +330,22 @@ end
 function SettingDataMgr:getIsAutoReady()
     local id = MainPlayer:getPlayerId() or ""
     local value = UserDefalt:getStringForKey("IsAutoReadyOnlineBattle"..id)
+    if value == "" then
+        return 1
+    else
+        return tonumber(value)
+    end
+end
+
+--是否显示觉醒特效
+function SettingDataMgr:setAwakeEffect(value)
+    local id = MainPlayer:getPlayerId() or ""
+    UserDefalt:setStringForKey("AwakeEffect"..id, value)
+end
+
+function SettingDataMgr:getAwakeEffect()
+    local id = MainPlayer:getPlayerId() or ""
+    local value = UserDefalt:getStringForKey("AwakeEffect"..id)
     if value == "" then
         return 1
     else
@@ -353,12 +414,13 @@ function SettingDataMgr:getBattleRoke()
 end
 
 function SettingDataMgr:getLanguage()
-    if GAME_LANGUAGE_VAR == EC_LanguageType.Chinese then
-        return 2
-    elseif GAME_LANGUAGE_VAR == EC_LanguageType.English then
-        return 1
-    end
-    return 2
+    local code = TFLanguageMgr:getUsingLanguage()
+    -- if (code == cc.SIMPLIFIED_CHINESE) or (code == cc.TRADITIONAL_CHINESE) then
+    --     return 2
+    -- elseif code == cc.ENGLISH then
+    --     return 1
+    -- end
+    return code
 end
 
 function SettingDataMgr:setBattleRedPack(redPack)
@@ -406,10 +468,8 @@ function SettingDataMgr:getDatingRedPack()
     end
 end
 
-function SettingDataMgr:setLanguage(languageIdx)
-    local languageType = {EC_LanguageType.English , EC_LanguageType.Chinese}
-    GAME_LANGUAGE_VAR = languageType[languageIdx]
-    UserDefalt:setStringForKey("language" , GAME_LANGUAGE_VAR)
+function SettingDataMgr:setLanguage( language )
+    TFLanguageMgr:setUsingLanguage(language)
 end
 
 function SettingDataMgr:getBattleRokeVal()
@@ -515,6 +575,29 @@ function SettingDataMgr:encodeAllConfig()
     config.BattleRoke = self:getBattleRoke()
     config.Language = self:getLanguage()
     print(json.encode(config))
+end
+
+function SettingDataMgr:getWorldShowName(  )
+    -- body
+    local value = UserDefalt:getStringForKey("WorldShowOtherName")
+    return value ~= "FALSE"
+end
+
+function SettingDataMgr:setWorldShowName( value )
+    -- body
+    UserDefalt:setStringForKey("WorldShowOtherName",value)
+    EventMgr:dispatchEvent(EV_WORLD_ROOM_SETTING_CHANGE)
+end
+
+function SettingDataMgr:getWorldShowEffect(  )
+    -- body
+    local value = UserDefalt:getStringForKey("WorldShowOtherEffect")
+    return value ~= "FALSE"
+end
+
+function SettingDataMgr:setWorldShowEffect( value )
+    UserDefalt:setStringForKey("WorldShowOtherEffect",value)
+    EventMgr:dispatchEvent(EV_WORLD_ROOM_SETTING_CHANGE)
 end
 
 

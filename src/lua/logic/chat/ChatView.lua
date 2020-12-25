@@ -28,11 +28,17 @@ function ChatView:initData(params)
             itemName = "Panel_item"
         },
         [2] = {
-            txt = 600003,
-            chat = EC_ChatType.SYSTEM,
-            itemName = "Panel_system_item"
+            txt = 63654,
+            chat = EC_ChatType.RED_PACK,
+            itemName = "Panel_item",
+            functionId = 143,
         },
         [3] = {
+            txt = 600003,
+            chat = EC_ChatType.SYSTEM,
+            itemName = "Panel_item"
+        },
+        [4] = {
             txt = 600038,
             chat = EC_ChatType.TEAM_YQ,
             itemName = "Panel_item"
@@ -42,12 +48,19 @@ function ChatView:initData(params)
         --    chat = EC_ChatType.COURAGE,
         --    itemName = "Panel_item"
         --},
-        [4] = {
+        [5] = {
             txt = 600004,
             chat = EC_ChatType.WORLD,
             itemName = "Panel_item"
         },
     }
+
+    for i = #self.btnConfig_,1, -1 do
+        local v = self.btnConfig_[i]
+        if v.functionId and not FunctionDataMgr:isOpenByServer(v.functionId) then
+            table.remove(self.btnConfig_,i)
+        end
+    end
 
     if params.showBigWorld then 
         --显示大世界
@@ -57,6 +70,30 @@ function ChatView:initData(params)
             chat = EC_ChatType.BIG_WORLD,
             itemName = "Panel_item"
         }
+    end
+
+	local activityDdata = ActivityDataMgr2:getActivityInfo(10531)
+
+	if activityDdata then
+        --self.btnConfig_[#self.btnConfig_+1] =  
+        local cfg = {
+            txt = 14300296,
+            chat = EC_ChatType.DRESSWEEK,
+            itemName = "Panel_item"
+        }
+		table.insert(self.btnConfig_,1, cfg)
+	end
+
+
+    local voteActivity = ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.DETECTIVE_VOTE)[1]
+
+    if voteActivity then 
+        local cfg = {
+            txt = 13316002,
+            chat = EC_ChatType.VOTE,
+            itemName = "Panel_item"
+        }
+        table.insert(self.btnConfig_,1, cfg)
     end
 
     self.isUnLockSendInfo = true
@@ -103,7 +140,27 @@ function ChatView:initData(params)
     self.douTuData2 = {1,2,3,4,5,6,7,8,9,10}
     self.douTuItems = {}
 
-    self.defaultSelectIndex_ = params.defaultIndex or table.count(self.btnConfig_)
+    -- 通过type指向频道
+    local idx = nil
+    for i, v in ipairs(self.btnConfig_) do
+        if params.defaultType == v.chat then
+            idx = i
+            break
+        end
+    end
+
+    if params.ingoreChannels then
+        for k,v in pairs(params.ingoreChannels) do
+            for i = #self.btnConfig_,1,-1 do
+                local _v = self.btnConfig_[i]
+                if _v.chat == v then
+                    table.remove(self.btnConfig_,i)
+                end
+            end
+        end
+    end
+
+    self.defaultSelectIndex_ = idx or table.count(self.btnConfig_)
 
     self.currSelectEmotion = nil
 
@@ -114,7 +171,7 @@ end
 
 function ChatView:ctor(params)
     self.super.ctor(self)
-
+    self.params = params
     self:initData(params)
     self:init("lua.uiconfig.chat.chatView")
     self.name = "ChatView"
@@ -187,7 +244,7 @@ function ChatView:initUI(ui)
     self.tableView:addMEListener(TFWIDGET_TOUCHBEGAN, handler(self.tableCellTouchBegan,self))
     self.tableView:addMEListener(TFWIDGET_TOUCHENDED, handler(self.tableCellTouched,self))
     self.tableView.oldPos = self.tableView:getPositionY()
-
+    self.tableView.oldSize = self.tableView:getSize()
     self.Button_teamRoom = TFDirector:getChildByPath(self.ui,"Button_teamRoom")
 
     self:refreshPrefabe()
@@ -203,6 +260,12 @@ function ChatView:initUI(ui)
     self.Panel_union = TFDirector:getChildByPath(self.ui,"Panel_union")
     self.Button_red_pack = TFDirector:getChildByPath(self.Panel_union,"Button_red_pack")
     self.Label_online_num = TFDirector:getChildByPath(self.Panel_union,"Label_online_num")
+
+    self.Panel_redPack = TFDirector:getChildByPath(self.ui,"Panel_redPack")
+    self.Button_red_pack1 = TFDirector:getChildByPath(self.Panel_redPack,"Button_red_pack")
+
+    self.Panel_vote = TFDirector:getChildByPath(self.ui,"Panel_vote")
+
 
 
     self:initPanelPrivate()
@@ -663,10 +726,9 @@ end
 
 function ChatView:initScrollTab()
 
-    self.normalTab = TFDirector:getChildByPath(self.ui,"Image_tab_normal")
-    self.selectTab = TFDirector:getChildByPath(self.ui,"Panel_tab_select")
+    self.Panel_tab = TFDirector:getChildByPath(self.ui,"Panel_tab")
 
-    self.listViewHeight = self.normalTab:Size().height*(#self.btnConfig_ - 1) + self.selectTab:Size().height
+    self.listViewHeight = self.Panel_tab:Size().height*#self.btnConfig_ 
 
     local ScrollView_tab = TFDirector:getChildByPath(self.ui, "ScrollView_tab")
 
@@ -677,12 +739,12 @@ function ChatView:initScrollTab()
     self.ListView_tab = UIListView:create(ScrollView_tab)
 
     self:refreshView(self.defaultSelectIndex_)
+
+    self.ListView_tab:jumpToBottom()
 end
 
 function ChatView:refreshView(selectIndex)
     self:initTabBtn(selectIndex)
-
-    self.ListView_tab:jumpToBottom()
 
     for i, v in ipairs(self.tabBtn_) do
         v:setTouchEnabled(true)
@@ -695,9 +757,7 @@ function ChatView:refreshView(selectIndex)
 end
 
 function ChatView:initTabBtn(selectIndex)
-    self.tabBtnNormal_ = {}
-    self.tabBtnSelect_ = {}
-    self.tabBtn_ = {}
+    self.tabBtn_ = self.tabBtn_ or {}
 
     local function setRoom(obj,chanel)
         if obj.chanel == nil then
@@ -712,38 +772,53 @@ function ChatView:initTabBtn(selectIndex)
         return chanel
     end
 
-    self.ListView_tab:removeAllItems()
+    local grap = #self.ListView_tab:getItems() - #self.btnConfig_
+    
+    if grap ~= 0 then
+        for i = 1,math.abs(grap) do
+            if grap < 0 then
+                self.ListView_tab:removeItem(1)
+                table.remove(self.tabBtn_, 1)
+            end
+        end
+    end  
 
     for i, v in ipairs(self.btnConfig_) do
-        self.tabBtnNormal_[i] = self.normalTab:clone()
-        self.tabBtnNormal_[i].name = TFDirector:getChildByPath(self.tabBtnNormal_[i], "Label_name")
-        self.tabBtnNormal_[i].redPoint = TFDirector:getChildByPath(self.tabBtnNormal_[i], "Image_redPoint")
-        self.tabBtnNormal_[i].name:setTextById(v.txt)
+        self.tabBtn_[i] = self.ListView_tab:getItem(i)
+        if not self.tabBtn_[i] then
+            self.tabBtn_[i] = self.Panel_tab:clone()
+            self.tabBtn_[i].normal = TFDirector:getChildByPath(self.tabBtn_[i], "Image_tab_normal")
+            self.tabBtn_[i].normal.name = TFDirector:getChildByPath(self.tabBtn_[i].normal, "Label_name")
+            self.tabBtn_[i].normal.redPoint = TFDirector:getChildByPath(self.tabBtn_[i].normal, "Image_redPoint")
+            self.tabBtn_[i].normal.name:setTextById(v.txt)
 
-        self.tabBtnSelect_[i] = self.selectTab:clone()
-        self.tabBtnSelect_[i].name = TFDirector:getChildByPath(self.tabBtnSelect_[i], "Label_name")
-        self.tabBtnSelect_[i].chanel = TFDirector:getChildByPath(self.tabBtnSelect_[i], "Label_chanel")
-        self.tabBtnSelect_[i].name:setTextById(v.txt)
+            self.tabBtn_[i].select = TFDirector:getChildByPath(self.tabBtn_[i], "Image_tab_select")
+            self.tabBtn_[i].select.name = TFDirector:getChildByPath(self.tabBtn_[i].select, "Label_name")
+            self.tabBtn_[i].select.chanel = TFDirector:getChildByPath(self.tabBtn_[i].select, "Label_chanel")
+            self.tabBtn_[i].select.name:setTextById(v.txt)
+            self.ListView_tab:pushBackCustomItem(self.tabBtn_[i])
+        end
 
+        self.tabBtn_[i].chatType   = v.chat
+        self.tabBtn_[i].select.setRoom  = setRoom
+        
         local roomId = nil
         if selectIndex == i then
-            self.tabBtn_[i] = self.tabBtnSelect_[i]
+            self.tabBtn_[i].select:show()
+            self.tabBtn_[i].normal:hide()
             if v.chat == EC_ChatType.WORLD then
                 roomId = ChatDataMgr:getWorldRoomId()
-                self.tabBtnSelect_[i].chanel:show()
+                self.tabBtn_[i].select.chanel:show()
+                self.tabBtn_[i].room = self.tabBtn_[i].select:setRoom(roomId)
             else
-                self.tabBtnSelect_[i].chanel:hide()
+                self.tabBtn_[i].select.chanel:hide()
             end
         else
-            self.tabBtn_[i] = self.tabBtnNormal_[i]
+            self.tabBtn_[i].normal:show()
+            self.tabBtn_[i].select:hide()
         end
-        self.tabBtn_[i].chatType   = v.chat
-        self.tabBtn_[i].setRoom  = setRoom
-        self.tabBtn_[i].room = self.tabBtn_[i]:setRoom(roomId)
 
-        self.ListView_tab:pushBackCustomItem(self.tabBtn_[i])
     end
-
     self:selectTabBtn(selectIndex)
 end
 
@@ -761,15 +836,10 @@ function ChatView:selectTabBtn(index)
 
     self.Button_teamRoom:setVisible(self.tabBtn_[index].chatType == EC_ChatType.TEAM_YQ)
 
-    for i, v in ipairs(self.tabBtnNormal_) do
-
-    end
-    for i, v in ipairs(self.tabBtnSelect_) do
-
-    end
-
     if self.tabBtn_[index].chatType == EC_ChatType.SYSTEM
-    or self.tabBtn_[index].chatType == EC_ChatType.TEAM_YQ then
+    or self.tabBtn_[index].chatType == EC_ChatType.TEAM_YQ
+	or self.tabBtn_[index].chatType == EC_ChatType.DRESSWEEK
+    or self.tabBtn_[index].chatType == EC_ChatType.RED_PACK then
         self.TextButton_input:Touchable(false)
         self.btn_send:Touchable(false)
         self.btn_send:setGrayEnabled(true)
@@ -790,6 +860,10 @@ function ChatView:selectTabBtn(index)
     self.TextField_roomId.lastText = self.TextField_roomId:getText()
     self:setSelectChanel(self.tabBtn_[index].chatType)
     self:refreshPrivateListItems()
+
+    self.Button_share:setVisible(self.tabBtn_[index].chatType == EC_ChatType.WORLD 
+    or self.tabBtn_[index].chatType == EC_ChatType.PRIVATE
+    or self.tabBtn_[index].chatType == EC_ChatType.GUILD)
 end
 
 -- function ChatView:onShow()
@@ -821,6 +895,7 @@ end
 
 function ChatView:onClose()
     print("ChatView:onClose")
+    EventMgr:dispatchEvent(EV_MAIN_LAYER_CLOSE_CHAT)
 end
 
 function ChatView:tableScroll(tableView)
@@ -889,11 +964,7 @@ function ChatView:cellSize(tableView,idx)
 end
 
 function ChatView:numberOfCells(tableView)
-    local chatInfoList = self:getChatInfoList()
-    if chatInfoList == nil then
-        return 0
-    end
-    return #chatInfoList
+    return  self.chatNum
 end
 
 function ChatView:tableCellAtIndex(tableView, idx)
@@ -923,7 +994,7 @@ function ChatView:updateItem(item, chatInfo)
     local portraitCid = chatInfo.portraitCid
     local portraitFrameCid = chatInfo.portraitFrameCid
     local chatFrameCid = chatInfo.chatFrameCid
-    
+
     if chatInfo.fun == EC_ChatState.AI_ROBOT then
         chatFrameCid = 0
     end
@@ -935,7 +1006,7 @@ function ChatView:updateItem(item, chatInfo)
     local fontcolor = AvatarDataMgr:getBubbleFontColor(chatFrameCid)
     local aiName = TextDataMgr:getText(14240019)
     local aiHeadStr = "icon/hero/aichat/110101.png"
-    if chatInfo.fun and (chatInfo.fun == EC_ChatState.AI_ROBOT or chatInfo.fun == EC_ChatState.SYSTEM) then
+    if chatInfo.fun and (chatInfo.fun == EC_ChatState.AI_ROBOT or chatInfo.fun == EC_ChatState.SYSTEM  or chatInfo.fun == EC_ChatState.AI_ADVICE) then
         local phoneBaseCfg = DatingPhoneDataMgr:getPhoneBaseCfg(portraitCid)
         if phoneBaseCfg then
             aiName = TextDataMgr:getText(phoneBaseCfg.aiNameId)
@@ -947,11 +1018,28 @@ function ChatView:updateItem(item, chatInfo)
     local isFuText      = false
     local battlename = nil
     local levellimit = nil
+    local nMinLevel = nil
+    local joinType = nil
     local icon_path
     local frame_path,headFrameEffect
     local isRedPack = false
     local isHuntingInvitation = false
     local nTeamType = 1
+
+    local Panel_system_item = TFDirector:getChildByPath(item,"Panel_system_item"):show()
+    if chatInfo.fun == EC_ChatState.SYSTEM then
+        local Panel_otherItem = TFDirector:getChildByPath(item, "Panel_otherItem"):hide()
+        local Panel_selfItem = TFDirector:getChildByPath(item, "Panel_selfItem"):hide()
+        local Panel_aiItem = TFDirector:getChildByPath(item, "Panel_aiItem"):hide()
+        item = Panel_system_item
+    else
+        local Panel_otherItem = TFDirector:getChildByPath(item, "Panel_otherItem"):show()
+        local Panel_selfItem = TFDirector:getChildByPath(item, "Panel_selfItem"):show()
+        local Panel_aiItem = TFDirector:getChildByPath(item, "Panel_aiItem"):show()
+        Panel_system_item:hide()
+    end
+
+
     local Panel_otherItem = TFDirector:getChildByPath(item, "Panel_otherItem")
     local Panel_selfItem = TFDirector:getChildByPath(item, "Panel_selfItem")
     local Panel_aiItem = TFDirector:getChildByPath(item, "Panel_aiItem")
@@ -965,7 +1053,7 @@ function ChatView:updateItem(item, chatInfo)
         Panel_otherItem:hide()
         Panel_selfItem:hide()
         isSelf = (id == MainPlayer:getPlayerId() and isSelfInfoSpe) and true or false
-        if chatInfo.fun and chatInfo.fun == EC_ChatState.TEAM or chatInfo.fun == EC_ChatState.RED_PACK_RECORD then
+        if chatInfo.fun and chatInfo.fun == EC_ChatState.TEAM or chatInfo.fun == EC_ChatState.RED_PACK_RECORD or chatInfo.fun == EC_ChatState.RED_PACK_RECORD1 then
             --组队信息和红包记录不区别自己和别人
             isSelf = false
         end
@@ -973,7 +1061,7 @@ function ChatView:updateItem(item, chatInfo)
         item:show()
     end
 
-    if Panel_aiItem and chatInfo.fun and (chatInfo.fun == EC_ChatState.AI_ROBOT or chatInfo.fun == EC_ChatState.SYSTEM) then
+    if Panel_aiItem and chatInfo.fun and (chatInfo.fun == EC_ChatState.AI_ROBOT or chatInfo.fun == EC_ChatState.SYSTEM  or chatInfo.fun == EC_ChatState.AI_ADVICE) then
         Panel_otherItem:hide()
         Panel_selfItem:hide()
         isSelf = false
@@ -1004,7 +1092,9 @@ function ChatView:updateItem(item, chatInfo)
         lab_content:setPosition(ccp(-15, 10))
     else
         lab_content:AnchorPoint(me.p(0, 0))
-        if GAME_LANGUAGE_VAR == "" then
+
+        local code = TFLanguageMgr:getUsingLanguage()
+        if (code == cc.SIMPLIFIED_CHINESE) or (code == cc.TRADITIONAL_CHINESE) then
             lab_content:setPosition(ccp(15, 10))
         else
             lab_content:setPosition(ccp(25, 10))
@@ -1015,8 +1105,14 @@ function ChatView:updateItem(item, chatInfo)
     local Image_dIcon   = item:getChildByName("Image_dIcon")
     local Image_zhudui = TFDirector:getChildByPath(item,"Image_zhudui")
     local Image_red_pack = TFDirector:getChildByPath(item,"Image_red_pack")
+    local Image_red_pack1 = TFDirector:getChildByPath(item,"Image_red_pack1")
     local Panel_redPack_record = TFDirector:getChildByPath(item,"Panel_redPack_record")
+    local Panel_redPack_record1 = TFDirector:getChildByPath(item,"Panel_redPack_record1")
     local Panel_hunting_invitation = TFDirector:getChildByPath(item,"Panel_hunting_invitation")
+    local panne_item = TFDirector:getChildByPath(Image_zhudui,"panne_item")
+    if panne_item then
+        panne_item:hide()
+    end
     panel_content:show()
     image_name:show()
     if Image_zhudui then
@@ -1025,8 +1121,14 @@ function ChatView:updateItem(item, chatInfo)
     if Image_red_pack then
         Image_red_pack:hide()
     end
+    if Image_red_pack1 then
+        Image_red_pack1:hide()
+    end
     if Panel_redPack_record then
         Panel_redPack_record:hide()
+    end
+    if Panel_redPack_record1 then
+        Panel_redPack_record1:hide()
     end
     if Image_dIcon then
         Image_dIcon:hide()
@@ -1037,9 +1139,70 @@ function ChatView:updateItem(item, chatInfo)
         Panel_hunting_invitation:hide()
     end
     
-    if chatInfo.fun and (chatInfo.fun == EC_ChatState.AI_ROBOT or chatInfo.fun == EC_ChatState.SYSTEM) then
+    if chatInfo.fun and (chatInfo.fun == EC_ChatState.AI_ROBOT or chatInfo.fun == EC_ChatState.SYSTEM or chatInfo.fun == EC_ChatState.AI_ADVICE) then
         isFuText = true
     end
+
+    if chatInfo.fun and chatInfo.fun == EC_ChatState.GROUP_PURCHASE then
+        local lastContent = json.decode(content)
+        if not isSelf then
+            Image_zhudui:setTexture("ui/chat/tuangou.png")
+            if nil ~= Image_zhudui then
+                Image_zhudui:show()
+                img_content:setVisible(false)
+            end
+
+            if lastContent.showItemtab then
+                panne_item:show()
+                local goods = panne_item.goods
+                if not goods then
+                    goods = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
+                    goods:setScale(0.5)
+                    goods:AddTo(panne_item):Pos(ccp(0,0))
+                    panne_item:Pos(ccp(77,0))
+                    panne_item.goods = goods
+                end
+                PrefabDataMgr:setInfo(goods,lastContent.showItemtab.id, lastContent.showItemtab.num)
+            end
+
+            if nil ~= Image_zhudui and id ~= MainPlayer:getPlayerId() then
+                local Button_zhudui = Image_zhudui:getChildByName("Button_zhudui")
+                local label_zhudui = Button_zhudui:getChildByName("Label_btn")
+                label_zhudui:hide()
+
+                local function clickFun()
+					local callBack = function()
+						local isEnough, notEnoughItem = RechargeDataMgr:currencyIsEnough(lastContent.cost)
+						if not isEnough then
+						    Utils:showAccess(notEnoughItem.id)
+						    return;
+						end
+						self.GPData = lastContent
+						TFDirector:send(c2s.RECHARGE_REQ_JOIN_GROUP_TEAM, {lastContent.teamId})
+					end
+
+					local rstr = TextDataMgr:getTextAttr(14300298)
+					local content = string.format(rstr.text, lastContent.cost[1].num, TabDataMgr:getData("Item", lastContent.cost[1].id).icon)
+					Utils:openView("common.ReConfirmTipsView", {tittle = 14210305, content = content, reType = false, confirmCall = callBack})
+                end 
+
+                Button_zhudui:setTextureNormal("ui/chat/jinru01.png")
+                Button_zhudui:setTexturePressed("ui/chat/jinru01.png")
+                Button_zhudui:setScale(70/65)
+                Button_zhudui:onClick(function()
+                    clickFun()
+                end)
+                Image_zhudui:Touchable(true)
+                Image_zhudui:onClick(function()
+                    clickFun()
+                end)
+            end
+            isFuText = true
+        else
+            chatInfo.fun = EC_ChatState.CHAT
+            content = lastContent.str
+        end
+	end
 
     if chatInfo.fun and chatInfo.fun == EC_ChatState.TEAM then
         local lastContent = content
@@ -1054,6 +1217,7 @@ function ChatView:updateItem(item, chatInfo)
                 end)}))
             end
             if Image_zhudui then
+                Image_zhudui:setTexture("ui/chat/zhudui.png")
                 Image_zhudui:show()
                 img_content:setVisible(false)
             end
@@ -1063,12 +1227,19 @@ function ChatView:updateItem(item, chatInfo)
             battlename = content.battlename
             levellimit = content.levellimit
             nTeamType = content.nTeamType
-
+            nMinLevel = content.minLv or 1
+            joinType  = content.joinType or EC_JOINTEAM_TYPE.NORAML
             if not battlename then
                 Box("battlename为空")
             end
             if not levellimit then
                 Box("levellimit为空")
+            end
+            if not nMinLevel then
+                Box("nMinLevel为空")
+            end
+            if not joinType then
+                Box("joinType为空")
             end
 			print("self.nTeamBattleId==========================" .. self.nTeamBattleId)
             local battlecfg = TeamFightDataMgr:getTeamLevelCfg(nTeamType,self.nTeamBattleId)
@@ -1082,6 +1253,7 @@ function ChatView:updateItem(item, chatInfo)
                 local image_hard = TFDirector:getChildByPath(Panel_hunting_invitation,"image_hard")
                 local label_level = TFDirector:getChildByPath(Panel_hunting_invitation,"label_level")
                 local label_name = TFDirector:getChildByPath(Panel_hunting_invitation,"label_name")
+                local label_minLv = TFDirector:getChildByPath(Panel_hunting_invitation,"label_minLv")
 				local Image_chatView_1 = TFDirector:getChildByPath(Panel_hunting_invitation,"Image_chatView_1.Image_chatView_2")
 				local Image_chatView = TFDirector:getChildByPath(Panel_hunting_invitation,"Image_chatView_1")
 
@@ -1119,13 +1291,17 @@ function ChatView:updateItem(item, chatInfo)
 					image_hard:setTexture(battlecfg.levelIcon)
 					image_head:show()
 				end
-                label_name:setTextById(battlecfg.levelName)
+                local name = TextDataMgr:getText(battlecfg.levelName)
+                label_name:setText(name)
                 label_level:setTextById(battlecfg.LevelDesc)
+
+                local str = content.joinType == EC_JOINTEAM_TYPE.NORAML and TextDataMgr:getText(14300310 ,content.minLv) or ""
+                label_minLv:setText(str)
 
                 Panel_hunting_invitation:setTouchEnabled(true)
                 Panel_hunting_invitation:onClick(function ( ... )
                     print("请求加入队伍:"..content.teamid,content.nTeamType)
-                    TeamFightDataMgr:requestJoinTeam(content.teamid,content.battleid,content.nTeamType)
+                    TeamFightDataMgr:requestJoinTeam(content.teamid,content.battleid,content.nTeamType,content.joinType)
                 end)
             end
 
@@ -1139,28 +1315,52 @@ function ChatView:updateItem(item, chatInfo)
         end
     end
 
-    if chatInfo.fun and chatInfo.fun == EC_ChatState.RED_PACK then
+    if chatInfo.fun and (chatInfo.fun == EC_ChatState.RED_PACK or chatInfo.fun == EC_ChatState.RED_PACK1) then
         isRedPack = true
         panel_content:hide()
         local lastContent = content
         content = json.decode(content)
         if content then
-            if Image_red_pack then
-                Image_red_pack:show()
+            local packItem = Image_red_pack
+            if chatInfo.fun == EC_ChatState.RED_PACK1 then
+                packItem = Image_red_pack1
             end
-            local Label_zhufuyu = TFDirector:getChildByPath(Image_red_pack,"Label_zhufuyu")
-            local Image_res = TFDirector:getChildByPath(Image_red_pack,"Image_res")
-            local Panel_cover = TFDirector:getChildByPath(Image_red_pack,"Panel_cover")
-            local Label_check = TFDirector:getChildByPath(Image_red_pack,"Label_check")
+
+            if packItem then
+                packItem:show()
+            end
+            local Label_zhufuyu = TFDirector:getChildByPath(packItem,"Label_zhufuyu")
+            local Image_res = TFDirector:getChildByPath(packItem,"Image_res")
+            local Panel_cover = TFDirector:getChildByPath(packItem,"Panel_cover")
+            local Label_check = TFDirector:getChildByPath(packItem,"Label_check")
             Label_zhufuyu:setText(content.bless)
+            
+            if string.match(content.bless,"^[1-9]*") ~= "" then
+                Label_zhufuyu:setTextById(tonumber(content.bless))
+            end
             local packetCfg = LeagueDataMgr:getPacketCfgById(content.cid)
             if packetCfg.type == 1 then
                 Image_res:setTexture("icon/system/003.png")
             elseif packetCfg.type == 2 then
                 Image_res:setTexture("icon/system/005.png")
-            elseif packetCfg.type == 3 then
+			elseif packetCfg.type == 3 then
                 Image_res:setTexture("icon/system/001.png")
+			end
+
+
+            if chatInfo.fun == EC_ChatState.RED_PACK1 then
+                packetCfg = TabDataMgr:getData("Packet", content.cid)
+                local resItem = next(packetCfg.item)
+                Image_res:setTexture(GoodsDataMgr:getItemCfg(resItem).icon)
+            elseif chatInfo.fun == EC_ChatState.RED_PACK then
+                if packetCfg.type == 1 then
+                    Image_res:setTexture("icon/system/003.png")
+                else
+                    Image_res:setTexture("icon/system/005.png")
+                end
+            
             end
+
             local info = ChatDataMgr:getRedPacketStatus(id, content.time)
             if info.count <= 0 then
                 Panel_cover:setVisible(true)
@@ -1172,9 +1372,19 @@ function ChatView:updateItem(item, chatInfo)
                 Panel_cover:setVisible(false)
                 Label_check:setTextById(270493)
             end
-            Image_red_pack:Touchable(true)
-            Image_red_pack:onClick(function()
-                LeagueDataMgr:ReqRedPacket(content.cid, id, content.time)
+            packItem:Touchable(true)
+            packItem:onClick(function()
+                if chatInfo.fun == EC_ChatState.RED_PACK1 then
+                    local packetCfg = TabDataMgr:getData("Packet", content.cid)
+                    local envelopeInfo = EnvelopeDataMgr:getRedEnvelopeInfo(content.cid)
+                    if envelopeInfo.receiveCount >= packetCfg.collect and info.status ~= 1 and not isSelf then
+                        Utils:showTips(14300102, packetCfg.collect)
+                        return
+                    end
+                    EnvelopeDataMgr:reqRedPacket(content.cid, id, content.time)
+                else
+                    LeagueDataMgr:ReqRedPacket(content.cid, id, content.time)
+                end
             end)
         elseif Image_dIcon then
             content = lastContent
@@ -1218,16 +1428,23 @@ function ChatView:updateItem(item, chatInfo)
 
     -- dump(chatInfo)
 
-    if chatInfo.fun and (chatInfo.fun == EC_ChatState.AI_ROBOT or chatInfo.fun == EC_ChatState.SYSTEM) then
-        image_head:setTexture(aiHeadStr)
-        img_content:setTexture("ui/chat/ai_bg.png")
-        --portraitCid
-        image_head:setTouchEnabled(true)
-        image_head:onClick(function()
-            if chatInfo.portraitCid and DatingPhoneDataMgr:getRoleInfoById(chatInfo.portraitCid).openAI then
-                Utils:openView("datingPhone.SceondAIChatView", chatInfo.portraitCid)
-            end
-        end)
+    if chatInfo.fun and (chatInfo.fun == EC_ChatState.AI_ROBOT or chatInfo.fun == EC_ChatState.SYSTEM or chatInfo.fun == EC_ChatState.AI_ADVICE) then
+        if image_head then
+            image_head:setTexture(aiHeadStr)
+            --portraitCid
+            image_head:setTouchEnabled(true)
+            image_head:onClick(function()
+                if chatInfo.portraitCid and DatingPhoneDataMgr:getRoleInfoById(chatInfo.portraitCid).openAI then
+                    Utils:openView("datingPhone.SceondAIChatView", chatInfo.portraitCid)
+                else
+                    Utils:showTips(100000150)
+                end
+            end)
+        end
+
+        if img_content then
+            img_content:setTexture("ui/chat/ai_bg.png") 
+        end
     else
         if image_head and heroCid and heroCid ~= 0 then
             local headIcon    = image_head:getChildByName("Image_icon")
@@ -1298,7 +1515,7 @@ function ChatView:updateItem(item, chatInfo)
     end
 
     --名字处理
-    if chatInfo.fun and (chatInfo.fun == EC_ChatState.AI_ROBOT or chatInfo.fun == EC_ChatState.SYSTEM) then
+    if chatInfo.fun and (chatInfo.fun == EC_ChatState.AI_ROBOT or chatInfo.fun == EC_ChatState.SYSTEM or chatInfo.fun == EC_ChatState.AI_ADVICE) then
         lab_name:setText(aiName)
     else
         lab_name:setText(name)
@@ -1341,7 +1558,7 @@ function ChatView:updateItem(item, chatInfo)
     if isFuText then
         -- lab_content:setWidth(maxTextWidth-50)
         lab_content:hide()
-        if chatInfo.fun == EC_ChatState.AI_ROBOT or chatInfo.fun == EC_ChatState.SYSTEM then
+        if chatInfo.fun == EC_ChatState.AI_ROBOT or chatInfo.fun == EC_ChatState.SYSTEM or chatInfo.fun == EC_ChatState.AI_ADVICE then
             space = 10
             local inputText = string.htmlspecialchars(content)
             local faceCfg = DatingPhoneDataMgr:getFaceEmotion()
@@ -1352,29 +1569,57 @@ function ChatView:updateItem(item, chatInfo)
                     matchCnt = cnt
                 end
             end
-            local textAttr = TextDataMgr:getTextAttr("r301009")
+            local textAttr, text
             inputText = string.gsub(inputText, "\n", "<br/>")
             local palyerName = string.htmlspecialchars(chatInfo.pname)
-            local text = TextDataMgr:getFormatText(textAttr,palyerName,inputText)
-            if not lab_content.labCopy then
-                lab_content.labCopy = TFRichText:create(ccs(maxTextWidth-5, 0)):Text(text):AddTo(lab_content:getParent()):AnchorPoint(lab_content:AnchorPoint()):Pos(lab_content:Pos())
+            
+            if chatInfo.fun == EC_ChatState.AI_ADVICE  then
+                textAttr = TextDataMgr:getTextAttr("r301014")
+                text = TextDataMgr:getFormatText(textAttr,inputText)
             else
-                lab_content.labCopy:setSize(ccs(maxTextWidth-5, 0))
-                lab_content.labCopy:Text(text)
+                textAttr = TextDataMgr:getTextAttr("r301009")
+                text = TextDataMgr:getFormatText(textAttr,palyerName,inputText)
             end
+            
+            if lab_content.labCopy then
+                lab_content.labCopy:removeFromParent()
+            end
+            lab_content.labCopy = TFRichText:create(ccs(maxTextWidth-5, 0)):Text(text):AddTo(lab_content:getParent()):AnchorPoint(lab_content:AnchorPoint()):Pos(lab_content:Pos())
+        elseif chatInfo.fun == EC_ChatState.GROUP_PURCHASE then
+            local lastContent = json.decode(content)
+            content = lastContent.str
+            local textAttr = TextDataMgr:getTextAttr("r307008")
+            local text = TextDataMgr:getFormatText(textAttr,content)
+            local offsetx = 50
+            if lastContent and lastContent.showItemtab then
+                offsetx = 135
+            end
+
+            if lab_content.labCopy then
+                lab_content.labCopy:removeFromParent()
+                lab_content.labCopy = nil
+            end
+            lab_content.labCopy = TFRichText:create(ccs(maxTextWidth - offsetx, 0)):Text(text):AddTo(lab_content:getParent()):AnchorPoint(lab_content:AnchorPoint()):Pos(lab_content:Pos())
         else
-            local textAttr = TextDataMgr:getTextAttr("r60001")
-            local text = TextDataMgr:getFormatText(textAttr,levellimit,battlename)
+            local rstringId = joinType == EC_JOINTEAM_TYPE.NORAML and "r60001" or "r60000"
+            local textAttr = TextDataMgr:getTextAttr(rstringId)
+            local text = TextDataMgr:getFormatText(textAttr,levellimit,battlename,nMinLevel)
             if nTeamType == 2 then
                 textAttr = TextDataMgr:getTextAttr("r60002")
                 text = TextDataMgr:getFormatText(textAttr,battlename)
             end
-            if not lab_content.labCopy then
-                lab_content.labCopy = TFRichText:create(ccs(maxTextWidth-50, 0)):Text(text):AddTo(lab_content:getParent()):AnchorPoint(lab_content:AnchorPoint()):Pos(lab_content:Pos())
-            else
-                lab_content.labCopy:setSize(ccs(maxTextWidth-50, 0))
-                lab_content.labCopy:Text(text)
+            -- if not lab_content.labCopy then
+            --     lab_content.labCopy = TFRichText:create(ccs(maxTextWidth-50, 0)):Text(text):AddTo(lab_content:getParent()):AnchorPoint(lab_content:AnchorPoint()):Pos(lab_content:Pos())
+            -- else
+            --     lab_content.labCopy:setSize(ccs(maxTextWidth-50, 0))
+
+            --     lab_content.labCopy:Text(text)
+            -- end 
+            if lab_content.labCopy then
+                lab_content.labCopy:removeFromParent()
             end
+            lab_content.labCopy = TFRichText:create(ccs(maxTextWidth-50, 0)):Text(text):AddTo(lab_content:getParent()):AnchorPoint(lab_content:AnchorPoint()):Pos(lab_content:Pos())
+           
             --if id ~= MainPlayer:getPlayerId() then
             --    labCopy:setTouchEnabled(true)
             --    labCopy.nTeamId = content.teamid
@@ -1383,14 +1628,23 @@ function ChatView:updateItem(item, chatInfo)
 
             if Image_zhudui and id ~= MainPlayer:getPlayerId() then
                 local Button_zhudui = Image_zhudui:getChildByName("Button_zhudui")
+                local label_zhudui = Button_zhudui:getChildByName("Label_btn")
+                label_zhudui:hide()
+                Button_zhudui:setTextureNormal("ui/chat/jinru.png")
+                Button_zhudui:setTexturePressed("ui/chat/jinru.png")
+                Button_zhudui:setScaleX(1)
+                --Button_zhudui:setScaleY(0.95)
+
+                local joinTeam = function()
+                    TeamFightDataMgr:requestJoinTeam(content.teamid,content.battleid,content.nTeamType,content.joinType)
+                end
+
                 Button_zhudui:onClick(function()
-                    print("请求加入队伍:"..content.teamid,content.nTeamType)
-                    TeamFightDataMgr:requestJoinTeam(content.teamid,content.battleid,content.nTeamType)
+                    joinTeam()
                 end)
                 Image_zhudui:Touchable(true)
                 Image_zhudui:onClick(function()
-                    print("请求加入队伍:"..content.teamid,content.nTeamType)
-                    TeamFightDataMgr:requestJoinTeam(content.teamid,content.battleid,content.nTeamType)
+                    joinTeam()
                 end)
             end
         end
@@ -1399,14 +1653,19 @@ function ChatView:updateItem(item, chatInfo)
 
     elseif isRedPack then
         -- lab_content:setWidth(maxTextWidth-50)
-    elseif chatInfo.fun and chatInfo.fun == EC_ChatState.RED_PACK_RECORD then
+    elseif chatInfo.fun and (chatInfo.fun == EC_ChatState.RED_PACK_RECORD or chatInfo.fun == EC_ChatState.RED_PACK_RECORD1) then
         panel_content:hide()
         image_name:hide()
         Image_red_pack:hide()
-        Panel_redPack_record:show()
+
+        local recodeItem = Panel_redPack_record
+        if chatInfo.fun == EC_ChatState.RED_PACK_RECORD1 then
+            recodeItem = Panel_redPack_record1
+        end
+        recodeItem:show()
         content = json.decode(content)
         if content then
-            local Label_record = TFDirector:getChildByPath(Panel_redPack_record,"Label_record")
+            local Label_record = TFDirector:getChildByPath(recodeItem,"Label_record")
             local itemCfg = GoodsDataMgr:getItemCfg(content.itemId)
             local itemName = TextDataMgr:getText(itemCfg.nameTextId)
             Label_record:setTextById("r301006", content.recver,tostring(content.num),itemName)
@@ -1429,7 +1688,7 @@ function ChatView:updateItem(item, chatInfo)
         panelSize.height = childSize.height + space*2 + bottomSpace
         labCopy:setPosition(ccp(0,37))
         panel_content:setSize(panelSize)
-    elseif chatInfo.fun and chatInfo.fun == EC_ChatState.RED_PACK_RECORD then
+    elseif chatInfo.fun and (chatInfo.fun == EC_ChatState.RED_PACK_RECORD or chatInfo.fun == EC_ChatState.RED_PACK_RECORD1) then
         childSize.width = 420
         childSize.height = 50
         panelSize.width  = maxWidth
@@ -1505,6 +1764,16 @@ function ChatView:updateItem(item, chatInfo)
     else
         itemSize.height = panelSize.height + space + 60
     end
+
+    local Button_zhudui = TFDirector:getChildByPath(panel_content, "Button_zhudui")
+    if Button_zhudui then
+        local label_zhudui = Button_zhudui:getChildByName("Label_btn")
+        label_zhudui:hide()
+        local diSize = panel_content:getContentSize()
+        local size = Button_zhudui:getContentSize()
+        Button_zhudui:setContentSize(CCSizeMake(size.width,diSize.height))
+    end
+
     itemSize.height = itemSize.height - 10
     itemSize.width = itemSize.width
     item:setSize(itemSize)
@@ -1584,16 +1853,6 @@ function ChatView:setRichContent(lab_content,str,fontColor,isSelf)
     ]]--
 end
 
-function ChatView:onTfrichTextClick(...)
-    local data = {...}
-    local obj = data[1]
-    local clickId = data[2]
-    if clickId == 1001 and obj.nTeamId then
-        print("请求加入队伍:"..obj.nTeamId)
-    	TeamFightDataMgr:requestJoinTeam(obj.nTeamId,obj.nTeamBattleId)
-    end
-end
-
 function ChatView:calcuCellSize(idx)
     local chatInfo      = self:getChatInfo(idx)
     if not chatInfo then
@@ -1627,6 +1886,8 @@ function ChatView:calcuCellSize(idx)
     local isHuntingInvitation = false
     local battlename = nil
     local levellimit = nil
+    local nMinLevel = nil
+    local joinType = nil
     local nTeamType = 1
     if chatInfo.fun and chatInfo.fun == EC_ChatState.TEAM then
         content = json.decode(content)
@@ -1637,13 +1898,20 @@ function ChatView:calcuCellSize(idx)
             battlename = content.battlename
             levellimit = content.levellimit
             nTeamType = content.nTeamType
+            nMinLevel = content.minLv or 1
+            joinType  = content.joinType or EC_JOINTEAM_TYPE.NORAML
             if not battlename then
                 Box("battlename为空")
             end
             if not levellimit then
                 Box("levellimit为空")
             end
-
+            if not nMinLevel then
+                Box("nMinLevel为空")
+            end
+            if not joinType then
+                Box("joinType为空")
+            end
             local battlecfg = TeamFightDataMgr:getTeamLevelCfg(nTeamType,self.nTeamBattleId)
 
             if battlecfg.allowInvitation then
@@ -1655,7 +1923,12 @@ function ChatView:calcuCellSize(idx)
             Image_dIcon.isShow = true
         end
     end
-    if chatInfo.fun and chatInfo.fun == EC_ChatState.RED_PACK then
+
+	if chatInfo.fun and chatInfo.fun == EC_ChatState.GROUP_PURCHASE then
+		local lastContent = json.decode(content)
+		content = lastContent.str
+	end	
+    if chatInfo.fun and (chatInfo.fun == EC_ChatState.RED_PACK or chatInfo.fun == EC_ChatState.RED_PACK1) then
         isRedPack = true
         local lastContent = content
         content = json.decode(content)
@@ -1679,10 +1952,8 @@ function ChatView:calcuCellSize(idx)
 
     if isFuText then
         -- lab_content:setWidth(maxTextWidth)
-        labCopy2 = self.prefabe.lab_content:setTextById("r60001", levellimit,battlename)
-        if nTeamType == 2 then
-            labCopy2 = self.prefabe.lab_content:setTextById("r60001", levellimit,battlename)
-        end
+        local rstringId = joinType == EC_JOINTEAM_TYPE.NORAML and "r60001" or "r60000"
+        labCopy2 = self.prefabe.lab_content:setTextById(rstringId, levellimit,battlename,nMinLevel)
         labCopy2:hide()
     elseif isRedPack then
         -- lab_content:setWidth(maxTextWidth)
@@ -1699,7 +1970,7 @@ function ChatView:calcuCellSize(idx)
         panelSize.height = childSize.height + space*2 + bottomSpace + 15
     elseif isRedPack then
         panelSize.height = Image_red_pack:Size().height + space*2 + bottomSpace
-    elseif chatInfo.fun and chatInfo.fun == EC_ChatState.RED_PACK_RECORD then
+    elseif chatInfo.fun and (chatInfo.fun == EC_ChatState.RED_PACK_RECORD or chatInfo.fun == EC_ChatState.RED_PACK_RECORD1) then
         panelSize.height = 30 + space*2 + bottomSpace
     elseif isHuntingInvitation then
         panelSize.height = Panel_hunting_invitation:getSize().height + space*2 + bottomSpace
@@ -1715,7 +1986,7 @@ function ChatView:calcuCellSize(idx)
     end
     local height
     if self.prefabe.playerHead then
-        if chatInfo.fun and chatInfo.fun == EC_ChatState.RED_PACK then
+        if chatInfo.fun and (chatInfo.fun == EC_ChatState.RED_PACK or chatInfo.fun == EC_ChatState.RED_PACK1) then
             height = panelSize.height + self.prefabe.playerHead:Size().height + space
         else
             height = panelSize.height + self.prefabe.playerHead:Size().height + space
@@ -1723,7 +1994,7 @@ function ChatView:calcuCellSize(idx)
     else
         height = panelSize.height + space + 60
     end
-    if chatInfo.fun and chatInfo.fun == EC_ChatState.RED_PACK_RECORD then
+    if chatInfo.fun and (chatInfo.fun == EC_ChatState.RED_PACK_RECORD or chatInfo.fun == EC_ChatState.RED_PACK_RECORD1) then
         height = 80
     end
     if chatInfo.titleId and chatInfo.titleId > 0 then
@@ -1843,7 +2114,7 @@ function ChatView:onTouchSendBtn()
         end
     elseif self.inputTextField and self.inputTextField.type == "tf_input" or self.comeFromEmotion then
         if self.chatType == EC_ChatType.WORLD or self.chatType == EC_ChatType.GUILD or self.chatType == EC_ChatType.PRIVATE or self.chatType == EC_ChatType.TEAM  
-            or self.chatType == EC_ChatType.BIG_WORLD or self.chatType == EC_ChatType.COURAGE  then
+            or self.chatType == EC_ChatType.BIG_WORLD or self.chatType == EC_ChatType.COURAGE or self.chatType == EC_ChatType.VOTE then
             local content = self.tf_input:getText()
             if content and #content > 0 then
                 if not ChatDataMgr:getSendInfoUnLockState() then
@@ -1854,7 +2125,7 @@ function ChatView:onTouchSendBtn()
                 ChatDataMgr:playWaitSendInfo()
                 ChatDataMgr:sendChatInfo(self.chatType,content,self.pId)
                 --DatingPhoneDataMgr:sendAiDialogue(EC_PhoneChatType.Normal, content, 101)
-                self.tf_input:setText("")
+                self.tf_input:setText("") 
             else
                 -- toastMessage("发送内容不能为空")
                 Utils:showTips(800104)
@@ -1888,8 +2159,9 @@ function ChatView:onRefreshRoom()
 end
 
 function ChatView:onQuitUnionBack()
-    AlertManager:closeAll()
-    AlertManager:changeScene(SceneType.MainScene)
+    self:initData(self.params)
+    self:refreshView(self.defaultIndex)
+    self:selectTabBtn(self.defaultIndex)
 end
 
 --难度变更
@@ -1899,9 +2171,17 @@ function ChatView:onDifficultyChange()
     end
 end
 
+function ChatView:onJoinGroupPurchase()
+    Utils:showTips(14300297)
+    
+    FunctionDataMgr:jActivity(nil, self.GPData.activtyID)
+	-- local mainPanel = Utils:openView("activity.ActivityMainView", self.GPData.activtyID)
+	self:timeOut(function()EventMgr:dispatchEvent(EV_GROUP_PURCHASE_OPEN_PANEL, {type =EC_GroupOpenPanel.Room, giftId=self.GPData.giftId})end, 0.05)
+end
+
 function ChatView:registerEvents()
     EventMgr:addEventListener(self,EV_DIFFICULTY_CHANGE, handler(self.onDifficultyChange, self))
-    EventMgr:addEventListener(self,EV_RECV_CHATINFO, handler(self.onAddMessage, self))
+    EventMgr:addEventListener(self,EV_PUSH_CHATINFOS, handler(self.onAddMessage, self))
     EventMgr:addEventListener(self,EV_RED_POINT_UPDATE_CHAT, handler(self.onRedPointUpdate, self))
     EventMgr:addEventListener(self,EV_RECV_PLAYERINFO, handler(self.onShowPlayerInfoView, self))
     EventMgr:addEventListener(self,EV_SWITCH_PRIVATE, handler(self.onSwitchPrivate, self))
@@ -1911,6 +2191,7 @@ function ChatView:registerEvents()
     EventMgr:addEventListener(self,EV_UNION_REDPACKET_INFO, handler(self.onRefreshScroll, self))
     EventMgr:addEventListener(self,EV_CHAT_UPDATE_TEAM_INVITE, handler(self.onRefreshScroll, self))
     EventMgr:addEventListener(self,EV_UNION_QUIT_UNION, handler(self.onQuitUnionBack, self))
+	EventMgr:addEventListener(self, EV_GROUP_PURCHASE_JOIN, handler(self.onJoinGroupPurchase, self))
     --EventMgr:addEventListener(self,EV_DATING_EVENT.robotDialogue, handler(self.onRecvRobotDialogue, self))
     self.Button_filter:onClick(function() 
         Utils:openView("chat.DifficultyChoice")
@@ -1991,6 +2272,10 @@ function ChatView:registerEvents()
         Utils:openView("league.LeagueSendRedPacketView")
     end)
 
+    self.Button_red_pack1:onClick(function()
+        Utils:openView("redPack.CommonRedPack")
+    end)
+
     -- 表情框列表选择
     self.btn_SEmotion:onClick(function()
         self:refreshEmotionSelect(EmotionType.Small)
@@ -2005,7 +2290,14 @@ function ChatView:registerEvents()
     end)
 
     self.Button_share:onClick(function()
-        Utils:openView("fairyNew.FairyMainLayer",{fromChatShare = true})
+        if self.chatType == EC_ChatType.PRIVATE and table.count(self.pListData) == 0 then
+            Utils:showTips(207004)
+            return
+        elseif self.chatType == EC_ChatType.GUILD and not LeagueDataMgr:checkSelfInUnion() then
+            Utils:showTips(270401)
+            return
+        end
+        Utils:openView("fairyNew.FairyMainLayer",{chatType = self.chatType, pid = self.pId, fromChatShare = true})
     end)
 
     self.Button_teamRoom:onClick(function()
@@ -2040,27 +2332,46 @@ end
 function ChatView:setSelectChanel(chatType)
     dump({self.chatType,chatType})
     self.Panel_union:hide()
+    self.Panel_redPack:hide()
+    self.Panel_private:hide()
+    self.Panel_vote:hide()
+    self.Image_room:hide()
     if chatType == EC_ChatType.PRIVATE then
         self:refreshPanelPrivate(nil,nil,true)
-        self.Image_room:hide()
     elseif chatType == EC_ChatType.GUILD then
-        self.Image_room:hide()
         self.Panel_union:show()
         local totalCount = LeagueDataMgr:getUnionMemberCount()
         local onlineCount = LeagueDataMgr:getUnionMemberOnlineCount()
         self.Label_online_num:setText(onlineCount.."/"..totalCount)
         self.Panel_private:hide()
+
+    elseif chatType == EC_ChatType.RED_PACK then
+        self.Panel_redPack:show()
+    elseif chatType == EC_ChatType.VOTE then
+        self.Panel_vote:show()
+        if not self.Panel_vote.showContent then
+            local node = requireNew("lua.logic.activity.DetectiveVoteInfoNode"):new()
+            node:setAnchorPoint(self.Panel_vote:getAnchorPoint())
+            local scaleX = self.Panel_vote:getContentSize().width/node:getContentSize().width
+            local scaleY = self.Panel_vote:getContentSize().height/node:getContentSize().height
+            node:setScale(math.min(scaleX,scaleY))
+            self.Panel_vote:addChild(node)
+            self.Panel_vote.showContent = node
+        end
     else
         self.Panel_private:hide()
         if chatType == EC_ChatType.WORLD then
             self.Image_room:show()
-        else
-            self.Image_room:hide()
         end
         self.pId = nil
     end
     if self.chatType  ~= chatType then
         self.chatType = chatType
+        if self.chatType == EC_ChatType.VOTE then
+            self.tableView:setViewSize(CCSizeMake(self.tableView.oldSize.width,self.tableView.oldSize.height - self.Panel_vote:getContentSize().height))  
+        else
+           self.tableView:setViewSize(self.tableView.oldSize)
+        end
         self:reloadData()
     end
 
@@ -2072,21 +2383,33 @@ function ChatView:setSelectChanel(chatType)
 end
 
 --接收到新的聊天消息
-function ChatView:onAddMessage(chatInfo)
-    if not chatInfo then
+function ChatView:onAddMessage(chatInfos)
+    if not chatInfos or #chatInfos == 0 then
         return
     end
     --if chatInfo.fun and chatInfo.fun == EC_ChatState.TEAM and chatInfo.chatType ~= EC_ChatType.TEAM_YQ then
     --    return
     --end
-
-    if chatInfo.chatType ~= self.chatType then
-        return
+    local flushList
+    for k,v in pairs(chatInfos) do
+        if v.chatType == self.chatType then
+            flushList = true
+            break
+        end
     end
+
     -- dump(chatInfo)
-    self.isNewMsg = true
-    self.isRefreshChat = true
-    self:reloadData(chatInfo)
+    if flushList then
+        self.isNewMsg = true
+        self.isRefreshChat = true
+        self:reloadData(true)
+    end
+end
+
+function ChatView:updateChatNum()
+    -- body
+    local chatLists = self:getChatInfoList()
+    self.chatNum = chatLists and #chatLists or 0
 end
 
 function ChatView:onRecvRobotDialogue(data)
@@ -2159,12 +2482,12 @@ end
 --聊天小红点更新
 function ChatView:onRedPointUpdate()
     for key ,tab in ipairs(self.tabBtn_) do
-        if tab.redPoint then
+        if tab.normal.redPoint then
             local readState = ChatDataMgr:getReadState(tab.chatType)
             if tab.chatType == EC_ChatType.GUILD and readState then
                 readState = not ChatDataMgr:getUnionRedPacketReadState()
             end
-            tab.redPoint:setVisible(not readState)
+            tab.normal.redPoint:setVisible(not readState)
         end
     end
 end
@@ -2178,7 +2501,7 @@ function ChatView:onShowPlayerInfoView(playerInfo)
     else
         HeroDataMgr:changeDataToFriend()
         HeroDataMgr.showid = self.shareHeroId
-        Utils:openView("fairyNew.FairyDetailsLayer", {showid=self.shareHeroId, friend=true, fromChatShare = true})
+        Utils:openView("fairyNew.FairyDetailsLayer", {showid=self.shareHeroId, friend=true, fromChatShare = true,friendLv = playerInfo.lvl})
         self.checkingShareHero = false
     end
 end
@@ -2193,6 +2516,7 @@ function ChatView:reloadData(chatInfo)
         local height,width = self:calcuCellSize(#self:getChatInfoList())
         self.disHeight = height
     end
+    self:updateChatNum()
     self.tableView:reloadData()
     contentOffset.y = contentOffset.y - self.disHeight
     self.tableView:setContentOffset(contentOffset)
@@ -2250,11 +2574,12 @@ function ChatView:onCloseInputLayer()
     end
 end
 
-function ChatView.show(closeListener,isOpenInput,isTeam,showBigWorld,defaultIndex)
+function ChatView.show(closeListener,isOpenInput,isTeam,showBigWorld,defaultType, ingoreChannels)
     local params = { 
         isTeam = isTeam,
         showBigWorld = showBigWorld,
-        defaultIndex = defaultIndex
+        defaultType = defaultType,
+        ingoreChannels = ingoreChannels,
     }
     local chatView = ChatView:new(params)
     chatView:setCloseListener(closeListener)

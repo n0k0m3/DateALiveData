@@ -12,7 +12,11 @@ function LoginLayer:ctor(data)
 	if FunctionDataMgr:isMoJingLoginUI() then
 		self:init("lua.uiconfig.loginScene.oneYearloginLayer")
 	else
-		self:init("lua.uiconfig.loginScene.loginLayerNew1")
+		if TFGlobalUtils:isConnectEnServer() then
+			self:init("lua.uiconfig.loginScene.loginLayerNew1")
+		else
+			self:init("lua.uiconfig.loginScene.loginLayer")
+		end
 	end
 end
 
@@ -44,14 +48,20 @@ function LoginLayer:initUI(ui)
 	self.loginBoard:setVisible(false);
 
 	self.versionLabel = TFDirector:getChildByPath(ui,"version")
-	self.versionLabel:setString("Ver:"..(TFClientUpdate:getCurVersion()));
+	local versionTex = "version:1.01_1.0.01"
+	if not (CC_TARGET_PLATFORM == CC_PLATFORM_WIN32) then
+		local apkVersion = TFDeviceInfo:getCurAppVersion()
+		local updateZipVersion = TFClientUpdate:getCurVersion()
+		versionTex = "version:" ..apkVersion .."_" ..updateZipVersion
+	end
+	self.versionLabel:setText(versionTex)
 
-	self.apkVersionLabel = TFDirector:getChildByPath(ui,"label_apkVersion")
-    local apkVersion = TFDeviceInfo:getCurAppVersion() 
-    if apkVersion then
-        self.apkVersionLabel:show()
-        self.apkVersionLabel:setText("appVer:" .. apkVersion)
-    end 
+	self.apkVersionLabel = TFDirector:getChildByPath(ui,"label_apkVersion"):hide()
+    -- local apkVersion = TFDeviceInfo:getCurAppVersion() 
+    -- if apkVersion then
+    --     self.apkVersionLabel:show()
+    --     self.apkVersionLabel:setText("appVer:" .. apkVersion)
+    -- end 
 
 	self.touchLayer = TFDirector:getChildByPath(ui,"backLayer");
 	self.touchLayer:setTouchEnabled(true);
@@ -94,7 +104,7 @@ function LoginLayer:initUI(ui)
 
 	self.cleanUpBtn = TFDirector:getChildByPath(ui,"Button_cleanup");
 	self.cleanUpBtn:addMEListener(TFWIDGET_CLICK,audioClickfun(function ()
-		--Utils:openView("login.CleanUpView")
+		Utils:openView("login.CleanUpView")
 		local fullModuleName = string.format("lua.logic.%s", "login.CleanUpView")
 	    local view = requireNew(fullModuleName):new()
 	    self:addLayer(view,998)
@@ -152,10 +162,11 @@ function LoginLayer:initUI(ui)
 			})
 		end
 	end));
-
+	
     self.Panel_serverList = TFDirector:getChildByPath(ui, "Panel_serverList")
-    self.Panel_serverList:setVisible(GameConfig.Debug)
+    -- self.Panel_serverList:setVisible(GameConfig.Debug)
     self.Label_serverName = TFDirector:getChildByPath(self.Panel_serverList, "Label_serverName")
+    self.Label_serverName:setTextById(800090)
 
     self.gameServerList = TFDirector:getChildByPath(ui, "game_serverList")
     self.gameServerList:setVisible(false)
@@ -209,6 +220,16 @@ end
 
 function LoginLayer:refreshView()
     self:updateServerName()
+
+    if CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 then
+    	if (TFGlobalUtils:getCacheServer( ) == GLOBAL_SERVER_LIST.SERVER_UNKNOW)  and (not (TFGlobalUtils:getPlayerServerIdx() == GLOBAL_SERVER_LIST.SERVER_ENGLISH)) then
+	    	TFGlobalUtils:setCacheServer(GLOBAL_SERVER_LIST.SERVER_ENGLISH)
+	        -- 重启客户端
+	        TFDirector:dispatchGlobalEventWith("Engine_Will_Restart", {})
+	        restartLuaEngine("")
+	        return
+	    end
+    end
 end
 
 function LoginLayer:autoLogin()
@@ -227,6 +248,25 @@ function LoginLayer:loginAccountSuccess()
 		self.loginBoard:setVisible(false);
 	end
 
+	local newPlayer = false
+    if HeitaoSdk then
+        newPlayer = (tonumber(HeitaoSdk.isNewPlayer()) <= 0)
+    end
+
+    if (TFGlobalUtils:getCacheServer() == GLOBAL_SERVER_LIST.SERVER_UNKNOW) and newPlayer and (not (TFGlobalUtils:getPlayerServerIdx() == GLOBAL_SERVER_LIST.SERVER_ENGLISH)) then
+    	local alertparams = clone(EC_GameAlertParams)
+	    alertparams.msg = 190012011
+	    alertparams.showtype = EC_GameAlertType.comfirm
+	    alertparams.comfirmCallback = function()
+	        TFGlobalUtils:setCacheServer(GLOBAL_SERVER_LIST.SERVER_ENGLISH)
+	        -- 重启客户端
+	        TFDirector:dispatchGlobalEventWith("Engine_Will_Restart", {})
+	        restartLuaEngine("")
+	    end
+	   showGameAlert(alertparams)
+        return
+    end
+	
 	if CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID then
 		if not LogonHelper:isVerification() then
 			LogonHelper:loginVerification();
@@ -384,7 +424,10 @@ function LoginLayer:registerEvents()
 
     self.Panel_serverList:onClick(function()
         --Utils:openView("test.ServerListView")
-        local view = requireNew("lua.logic.test.ServerListView"):new()
+        local group_id = LogonHelper:getGroupId()
+        local serverId = LogonHelper:getServerId()
+        local groupCfgId = LogonHelper:getGroupCfgId()
+        local view = requireNew("lua.logic.test.ServerListView"):new({group_id = group_id, serverId = serverId, groupCfgId = groupCfgId})
         self:addLayer(view, AlertManager.BLOCK)
         --AlertManager:show()
     end)
@@ -514,32 +557,32 @@ function LoginLayer.enterNextPage(sender)
 end
 
 
-function LoginLayer:updateServerName(groupName, serverName)
-    if not groupName then
-        groupName = LogonHelper:getGroupName()
-        serverName = LogonHelper:getServerName()
+function LoginLayer:updateServerName(group_id, serverId, groupCfgId)
+    if not group_id then
+        group_id = LogonHelper:getGroupId()
+        serverId = LogonHelper:getServerId()
+        groupCfgId = LogonHelper:getGroupCfgId()
     end
-    if groupName then
-        serverName = serverName or "*"
-        local serverGroupConfig = ServerDataMgr:getServerList(groupName)
-        local realName = groupName
-	    if serverGroupConfig and serverGroupConfig.name then
-	        realName = serverGroupConfig.name
-	    end
-        self.Label_serverName:setText(string.format("%s:%s", realName, serverName))
+
+	if group_id and groupCfgId then
+		local groupName = ServerDataMgr:getGroupNameById(groupCfgId, group_id)
+		local serverName = ServerDataMgr:getServerNameById(groupCfgId, serverId)
+		local text = groupName
+		if serverName and serverName ~= "" then
+			text = text .."_" ..serverName
+		end
+        self.Label_serverName:setText(text)
     else
         self.Label_serverName:setTextById(800090)
     end
 
     local serverList = ServerDataMgr:getGameServerList();
-    self.gameServerList:setVisible(( serverList and table.count(serverList) > 1))
+    self.gameServerList:setVisible(GameConfig.Debug and (serverList and table.count(serverList) > 0))
     local isShow = self.gameServerList:isVisible()
     if isShow then
     	local name = ServerDataMgr:getCurrentServerName();
-    	dump(name);
     	self.gameServerName:setString(name);
     end
-
 end
 
 function LoginLayer:showWebView()
@@ -579,6 +622,7 @@ function LoginLayer:showWebView()
 end
 
 function LoginLayer:openNewNoticeLayer( ... )
+	if true then return end  --TODO CLOSE 暂时屏蔽公告
 	local fullModuleName = string.format("lua.logic.%s", "common.AnnouncementLayer")
 	 local view = requireNew(fullModuleName):new()
 	 self:addLayer(view,998)

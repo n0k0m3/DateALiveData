@@ -38,9 +38,10 @@ function SimulationSummonView:initUI(ui)
 	--ss
 	self.orangeSummonCfgs_ = {}   		--橙色卡池
 	self.simulationSummonIcons_ = {}	--ui
-	for i = 1, 3 do
+	for i = 1, 4 do
 		local _root = TFDirector:getChildByPath(self.Panel_root, "Image_SimulationSummonIcon" .. i)
 		local _lock = TFDirector:getChildByPath(_root, "Image_lock"):hide()
+        local _lockTip = TFDirector:getChildByPath(_lock, "Label_lock")
 		local _effect = TFDirector:getChildByPath(ui, "Spine_SimulationSummonView_" .. (i + 1))
 		
 		_foo = {}
@@ -48,13 +49,13 @@ function SimulationSummonView:initUI(ui)
 		_foo.root = _root
 		_foo.lock = _lock
 		_foo._effect = _effect
-		
+		_foo._lockTip = _lockTip
 		self.simulationSummonIcons_[i] = _foo
 	end
 	self.simulationSummonIcons_[1].index = 5
 	self.simulationSummonIcons_[2] .index = 4
 	self.simulationSummonIcons_[3] .index = 2
-	
+	self.simulationSummonIcons_[4] .index = 2
 	
 	self.Spine_SimulationSummonView_1 = TFDirector:getChildByPath(ui, "Spine_SimulationSummonView_1")
 	self.Spine_SimulationSummonView_1:playByIndex(1,-1)
@@ -132,7 +133,7 @@ function SimulationSummonView:addSummonItem(i)
     foo.Label_name = TFDirector:getChildByPath(foo.root, "Label_name")
     foo.Image_upTips = TFDirector:getChildByPath(foo.root, "Image_upTips")
 	foo.Image_lock = TFDirector:getChildByPath(foo.root, "Image_lock")
-	
+	foo.Label_lock = TFDirector:getChildByPath(foo.root, "Label_lock")
 	
 	foo.Image_modle = TFDirector:getChildByPath(foo.root, "Image_modle")
     foo.model_pos = foo.Image_modle:getPosition()
@@ -150,6 +151,8 @@ function SimulationSummonView:updateSummonItem2(index)
 	
 	foo.root:setTexture(summonCfg.firework)
 	foo.lock:setVisible(not SimulationSummonDataMgr:checkIsOpenById(summonCfg.id))
+    foo._lockTip:setVisible(summonCfg.unlocklevel ~= 0)
+    foo._lockTip:setTextById(15010119,summonCfg.unlocklevel)
 	foo._effect:setVisible( SimulationSummonDataMgr:checkIsOpenById(summonCfg.id))
 	foo._effect:playByIndex(foo.index, -1)
     
@@ -179,6 +182,8 @@ function SimulationSummonView:updateSummonItem(index)
     --foo.Image_icon:setTexture(summonCfg.smallIcon)
     foo.Label_name:setTextById(summonCfg.name2)
 	foo.Image_lock:setVisible(not SimulationSummonDataMgr:checkIsOpenById(summonCfg.id))
+    foo.Label_lock:setVisible(summonCfg.unlocklevel ~= 0)
+    foo.Label_lock:setTextById(15010119,summonCfg.unlocklevel)
     foo.Image_upTips:setTexture(HeroDataMgr:getQualityPic(summonCfg.spirit, HeroDataMgr:getRarity(summonCfg.spirit)))
 	foo.Image_upTips:Scale(0.3)
 		

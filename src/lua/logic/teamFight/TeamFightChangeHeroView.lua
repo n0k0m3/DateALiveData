@@ -1,5 +1,11 @@
 local TeamFightChangeHeroView = class("TeamFightChangeHeroView", BaseLayer)
-
+local enum_ruleId = {
+    power_up = 1,
+    power_down = 2,
+    level_up = 3,
+    level_down = 4,
+    default = 5
+}
 
 function TeamFightChangeHeroView:ctor(data)
     self.super.ctor(self,data)
@@ -10,21 +16,33 @@ function TeamFightChangeHeroView:ctor(data)
 
     self.showid = TeamFightDataMgr:getMySelHeroCid()
     self.showidx = HeroDataMgr:getShowIdxById(self.showid)
-
+    self.showHeroIds = {}
     if self.showHeros then
         self.showidx = 1
         for k,v in pairs(self.showHeros) do
             if v.id == self.showid then
                 self.showidx = k
             end
+            table.insert(self.showHeroIds,v.id)
         end
     else
-        HeroDataMgr:resetShowList(true)
+        local showList = clone(HeroDataMgr:resetShowList(true))
+        for k,v in ipairs(showList) do
+            local showIndex = HeroDataMgr:getSelectedHeroIdx(v);
+            local heroid = HeroDataMgr:getSelectedHeroId(showIndex)
+            table.insert(self.showHeroIds,heroid)
+        end
     end
+
 
     self.selectCell = nil;
     self.showCount = self.showHeros and #self.showHeros or HeroDataMgr:getShowCount()
-    self.heroImg = {}
+
+    self.sortRule = {{lable = 14300313,ruleId = enum_ruleId.power_up,isUp = true},
+                     {lable = 14300314,ruleId = enum_ruleId.power_down,isUp = false},
+                     {lable = 14300315,ruleId = enum_ruleId.level_up,isUp = true},
+                     {lable = 14300316,ruleId = enum_ruleId.level_down,isUp = false},
+                     {lable = 14300317,ruleId = enum_ruleId.default,isUp = true}}
 
     self:showPopAnim(true)
     self:init("lua.uiconfig.fairy.formationLayer")
@@ -34,7 +52,7 @@ function TeamFightChangeHeroView:initUI(ui)
     self.super.initUI(self,ui)
     self.ui = ui
 
-    self.panel_list         = TFDirector:getChildByPath(ui,"Panel_scroll");
+    self.tableView          = TFDirector:getChildByPath(ui,"tableView")
     self.panel_item         = TFDirector:getChildByPath(ui,"Panel_item");
     self.armyLabel          = TFDirector:getChildByPath(ui,"Label_up")
     self.Button_army        = TFDirector:getChildByPath(ui,"Button_ok");
@@ -50,6 +68,7 @@ function TeamFightChangeHeroView:initUI(ui)
     self.Image_head         = TFDirector:getChildByPath(ui,"Image_head");
     self.moodValueDesc      = TFDirector:getChildByPath(ui,"moodValueDesc");
     self.Label_buttom_tip      = TFDirector:getChildByPath(ui,"Label_buttom_tip");
+    self.Panel_hwx = TFDirector:getChildByPath(ui,"Panel_hwx"):hide();
 
     self.Image_back2 = TFDirector:getChildByPath(ui, "Image_back2")
     self.basePage = TFDirector:getChildByPath(ui,"background")
@@ -57,13 +76,32 @@ function TeamFightChangeHeroView:initUI(ui)
     self.root_panel = TFDirector:getChildByPath(ui,"Panel_base")
     self.ui:setTouchEnabled(true)
 
-    self.listView = UIListView:create(self.panel_list)
+    self.Button_sort_order = TFDirector:getChildByPath(ui, "Button_sort_order")
+    self.Label_order_name = TFDirector:getChildByPath(self.Button_sort_order, "Label_order_name")
+    self.Image_order_icon = TFDirector:getChildByPath(self.Button_sort_order, "Image_order_icon")
 
-    self:initListView();
+    local ScrollView_rule = TFDirector:getChildByPath(ui, "ScrollView_rule"):hide()
+    self.ListView_rule = UIListView:create(ScrollView_rule)
+    self.Button_rule = TFDirector:getChildByPath(ui, "Button_rule")
+
+    self.tableViewNew = TFTableView:create()
+    self.tableViewNew:setTableViewSize(self.tableView:getContentSize())
+    self.tableViewNew:setDirection(TFTableView.TFSCROLLHORIZONTAL)
+    self.tableViewNew:setVerticalFillOrder(TFTableView.TFTabViewFILLTOPDOWN)
+
+    self.tableViewNew:addMEListener(TFTABLEVIEW_SIZEFORINDEX, self.cellSizeForTable)
+    self.tableViewNew:addMEListener(TFTABLEVIEW_SIZEATINDEX, self.tableCellAtIndex)
+    self.tableViewNew:addMEListener(TFTABLEVIEW_NUMOFCELLSINTABLEVIEW, self.numberOfCellsInTableView)
+
+    self.tableViewNew.logic = self
+    self.tableView:addChild(self.tableViewNew)
+
+    self.Button_info:setVisible(not self.showHeros)
+    self.Label_buttom_tip:setVisible(false)
+
+    self:updateRuleList()
 
     self:changeShowOne();
-    self.Button_info:setVisible(not self.showHeros)
-    self.Label_buttom_tip:setVisible(not self.showHeros)
 end
 
 function TeamFightChangeHeroView:registerEvents()
@@ -91,78 +129,98 @@ function TeamFightChangeHeroView:registerEvents()
     self.ui:onClick(function ()
              AlertManager:closeLayer(self)
     end)
+
+    self.Button_sort_order:onClick(function()
+        local visible = self.ListView_rule:s():isVisible()
+        self.ListView_rule:s():setVisible(not visible)
+    end)
 end
 
-function TeamFightChangeHeroView:initListView()
-    local count = self.showCount;
-
-    self.selectImg = nil;
-    for i=1,count do
-        local item = self.panel_item:clone();
-
-        --创建克制icon
-        local startPos = item:getChildByName("Image_duty"):getPosition() + ccp(2 ,-180)
-        item.panel_element = Utils:createElementPanel(item , 1 , startPos , nil , 0.5)
-        self.listView:pushBackCustomItem(item);
-        self:updateOneHead(item,i);
-
-        item:setTouchEnabled(true);
-        item:onClick(function()
-                if self.showidx ~= i then
-                    self.showidx = i
-                    self.firstTouchIn  = true;
-                end
-                self.showid = self.showHeros and self.showHeros[i].id or HeroDataMgr:changeShowOne(i,self.firstTouchIn);
-                self.firstTouchIn  = false;
-                self:changeShowOne();
-
-                local Image_select = TFDirector:getChildByPath(item,"Image_select");
-                if self.showidx == i then
-                    self.selectImg:hide();
-                    Image_select:show()
-                    self.selectImg = Image_select
-                end
-            end)
-    end
+function TeamFightChangeHeroView.cellSizeForTable(table, idx)
+    local self = table.logic
+    local size = self.panel_item:getContentSize() 
+    return size.height, size.width
 end
 
-function TeamFightChangeHeroView:initTableView()
-    local  tableView =  TFTableView:create()
-    tableView:setName("btnTableView")
-    local tableViewSize = self.panel_list:getContentSize()
-    tableView:setTableViewSize(CCSizeMake(tableViewSize.width, tableViewSize.height))
-    tableView:setDirection(TFTableView.TFSCROLLHORIZONTAL)
-    tableView:setPosition(self.panel_list:getPosition())
-    tableView:setAnchorPoint(self.panel_list:getAnchorPoint());
-    self.tableView = tableView
-
-    self.tableView.logic = self
-
-    tableView:addMEListener(TFTABLEVIEW_TOUCHED, TeamFightChangeHeroView.tableCellTouched)
-    tableView:addMEListener(TFTABLEVIEW_SIZEFORINDEX, TeamFightChangeHeroView.cellSizeForTable)
-    tableView:addMEListener(TFTABLEVIEW_SIZEATINDEX, TeamFightChangeHeroView.tableCellAtIndex)
-    tableView:addMEListener(TFTABLEVIEW_NUMOFCELLSINTABLEVIEW, TeamFightChangeHeroView.numberOfCellsInTableView)
+   
+function TeamFightChangeHeroView.tableCellAtIndex(table, idx)
+    local self = table.logic
+    local cell = table:dequeueCell()
+    if nil == cell then
+        table.cells = table.cells or {}
+        cell = TFTableViewCell:create()
+        local parentNode = self.panel_item:clone()
+        parentNode:setVisible(true)
+        parentNode:setPosition(ccp(0,0))
+        cell:addChild(parentNode)
+        cell.node = parentNode
+        table.cells[cell] = true
 
 
-    tableView:addMEListener(TFTABLEVIEW_CELLISBEGIN, TeamFightChangeHeroView.cellBegin)
-    tableView:addMEListener(TFTABLEVIEW_CELLISEND, TeamFightChangeHeroView.cellEnd)
-
-
-    self.panel_list:getParent():addChild(self.tableView,10)
+    end
+    local itemNode = cell.node
+    self:updateOneHead(itemNode, idx + 1)
+    return cell
 end
 
-function TeamFightChangeHeroView.tableCellTouched(table,cell)
-    local self = cell.logic
+function TeamFightChangeHeroView.numberOfCellsInTableView(table)
+    return TeamFightChangeHeroView.showHeros and #TeamFightChangeHeroView.showHeros or HeroDataMgr:getShowCount()
+end
 
-    if self.showidx ~= cell.idx then
-        self.showidx = cell.idx
+function TeamFightChangeHeroView:updateRuleList()
+    for k,v in ipairs(self.sortRule) do
+        local ruleItem = self.Button_rule:clone()
+        local Label_btn_name = TFDirector:getChildByPath(ruleItem,"Label_btn_name")
+        local Image_btn_icon = TFDirector:getChildByPath(ruleItem,"Image_btn_icon")
+        Label_btn_name:setTextById(v.lable)
+        local scaleY = v.isUp and 1 or -1
+        Image_btn_icon:setScaleY(scaleY)
+        self.ListView_rule:pushBackCustomItem(ruleItem)
+        ruleItem:onClick(function()
+            self:selectSortRule(v)
+        end)
     end
-    self.showid = self.showHeros and self.showHeros[self.showidx].id or HeroDataMgr:getSelectedHeroId(self.showidx)
-    self:changeShowOne()
 
-    if self.tableView then
-        self.tableView:reloadData();
+    local defaultInfo = self.sortRule[5]
+    self.ruleId = defaultInfo.ruleId
+    self.Label_order_name:setTextById(defaultInfo.lable)
+    local scaleY = defaultInfo.isUp and 1 or -1
+    self.Image_order_icon:setScaleY(scaleY)
+end
+
+function TeamFightChangeHeroView:selectSortRule(ruleInfo)
+    self.ruleId = ruleInfo.ruleId
+    self.Label_order_name:setTextById(ruleInfo.lable)
+    local scaleY = ruleInfo.isUp and 1 or -1
+    self.Image_order_icon:setScaleY(scaleY)
+    self.ListView_rule:s():hide()
+    self:sortHeroShowId()
+
+    self.showid = self.ruleId == enum_ruleId.default and HeroDataMgr:changeShowOne(self.showidx,self.firstTouchIn) or self.showHeroIds[self.showidx]
+
+    self:changeShowOne();
+
+    self:updateUI()
+end
+
+function TeamFightChangeHeroView:sortHeroShowId()
+
+    local function sortFunc(a,b)
+
+        local heroInfoA = HeroDataMgr:getHero(a)
+        local heroInfoB = HeroDataMgr:getHero(b)
+
+        if self.ruleId == enum_ruleId.power_up then
+            return heroInfoA.fightPower < heroInfoB.fightPower
+        elseif self.ruleId == enum_ruleId.power_down then
+            return heroInfoA.fightPower > heroInfoB.fightPower
+        elseif self.ruleId == enum_ruleId.level_up then
+            return heroInfoA.lvl < heroInfoB.lvl
+        elseif self.ruleId == enum_ruleId.level_down then
+            return heroInfoA.lvl > heroInfoB.lvl
+        end
     end
+    table.sort(self.showHeroIds,sortFunc)
 end
 
 function TeamFightChangeHeroView:updateBaseInfo( ... )
@@ -179,6 +237,10 @@ function TeamFightChangeHeroView:updateBaseInfo( ... )
         self.Image_head:setTexture(RoleDataMgr:getMoodIcon(roleid));
         self.moodValueDesc:setString(RoleDataMgr:getMoodDes(roleid))
     end
+
+    local visible = self.Button_info:isVisible()
+    local posX = visible and 294 or 355
+    self.Button_sort_order:setPositionX(posX)
 end
 
 function TeamFightChangeHeroView:changeShowOne()
@@ -202,41 +264,34 @@ function TeamFightChangeHeroView:changeShowOne()
     end
 end
 
-function TeamFightChangeHeroView.tableCellAtIndex(tab, idx)
-    local self = tab.logic
-    local cell = tab:dequeueCell();
-    --idx = math.abs(idx - self.showCount )
-    idx = idx + 1;
-    if cell == nil then
-        tab.cells = tab.cells or {}
-        cell = TFTableViewCell:create();
-        local item = self.panel_item:clone();
-        item:setAnchorPoint(CCPointMake(0,0))
-        item:setPosition(CCPointMake(0, 0))
-        cell:addChild(item);
-        cell.item = item;
-         
-    end
-
-    if cell.item then
-        self:updateOneHead(cell,idx);
-    end
-
-    cell.idx = idx
-    cell.logic = self;
-    return cell;
-end
-
 function TeamFightChangeHeroView:updateOneHead(cell,idx,isChange)
-    local selectPoints = {}
+    cell:setTouchEnabled(true);
+    cell:onClick(function()
+        if self.showidx ~= idx then
+            self.showidx = idx
+            self.firstTouchIn  = true;
+        end
+        self.showid = self.ruleId == enum_ruleId.default and HeroDataMgr:changeShowOne(idx,self.firstTouchIn) or self.showHeroIds[idx]
+        self.firstTouchIn  = false;
+        self:changeShowOne();
 
+        local Image_select = TFDirector:getChildByPath(cell,"Image_select");
+        if self.showidx == idx and self.selectImg then
+            self.selectImg:hide();
+            Image_select:show()
+            self.selectImg = Image_select
+        end
+    end)
+
+    local selectPoints = {}
     for i=1,4 do
         local point = TFDirector:getChildByPath(cell,"Image_select"..i);
         point:setVisible(false);
         table.insert(selectPoints,point);
     end
     --
-    local heroid = self.showHeros and self.showHeros[idx].id or HeroDataMgr:getSelectedHeroId(idx);
+    local defaultHeroId = self.showHeros and self.showHeros[idx].id or HeroDataMgr:getSelectedHeroId(idx);
+    local heroid = self.ruleId == enum_ruleId.default and defaultHeroId or self.showHeroIds[idx]
 
     local skinid = HeroDataMgr:getCurSkin(heroid);
     local data = TabDataMgr:getData("HeroSkin", skinid)
@@ -251,48 +306,20 @@ function TeamFightChangeHeroView:updateOneHead(cell,idx,isChange)
     local trail_flag = TFDirector:getChildByPath(cell, "trail_flag")
     trail_flag:setVisible(HeroDataMgr:getHero(heroid).heroStatus == 2);
 
-    if isChange then
-        self.heroImg[heroid]:removeFromParent();
-        self.heroImg[heroid]:release();
-        self.heroImg[heroid] = nil;
-    end
 
-    --防止直接拖动删除model
-    if not self.heroImg[heroid] then
+    if Panel_model.model then
+        Panel_model.model:removeFromParent()
+        Panel_model.model = nil
+    end
+    
+    local heroImg = Utils:getHeroModelImgSrc(heroid, skinid)
+    if heroImg then
+        Image_hero:setTexture(heroImg)
+    else
         local model = Utils:createHeroModel(heroid, Panel_model, 0.45, skinid,true)
         model:update(0.1)
         model:stop()
-
-        --截屏
-        local tx = CCRenderTexture:create(140,245)
-        tx:begin()
-        Panel_model:visit();
-        tx:endToLua()
-
-        -- if model then
-        --    model:removeFromParent()
-        --    Panel_model.model = nil
-        -- end
-
-        self.heroImg[heroid] = Sprite:createWithTexture(tx:getSprite():getTexture())
-        self.heroImg[heroid]:setScaleY(-1)
-        self.heroImg[heroid]:setPositionY(0)
-        self.heroImg[heroid]:retain()
-        self.heroImg[heroid]:setName("heroImg")
     end
-
-    -- local heroImg =  Image_hero:getChildByName("heroImg")
-    -- if heroImg then
-    -- Image_hero:removeAllChildren()
-    -- end
-
-    local childs = Image_hero:getChildren();
-
-    --防止self.heroImg[heroid]没有从上一个父节点移除
-    if self.heroImg[heroid]:getParent() then
-        self.heroImg[heroid]:removeFromParent();
-    end
-    Image_hero:addChild(self.heroImg[heroid])
 
     --等级
     local heroLv = HeroDataMgr:getLv(heroid)
@@ -364,13 +391,8 @@ function TeamFightChangeHeroView:updateOneHead(cell,idx,isChange)
     else
         Image_levelbg:PosY(Image_levelbg:PosY() - 12)
     end
-    local panel_element = cell.panel_element
-    PrefabDataMgr:setInfo(panel_element , hero.magicAttribute)
-end
-
-function TeamFightChangeHeroView.numberOfCellsInTableView(table)
-    local self = table.logic
-    return self.showCount;
+    -- local panel_element = cell.panel_element
+    -- PrefabDataMgr:setInfo(panel_element , hero.magicAttribute)
 end
 
 function TeamFightChangeHeroView.cellBegin(table)
@@ -398,17 +420,26 @@ function TeamFightChangeHeroView:removeUI()
     self.super.removeUI(self)
 end
 
+function TeamFightChangeHeroView:updateUI()
+    self.tableViewNew:reloadData()
+end
 
 function TeamFightChangeHeroView:onShow()
-    self.super.onShow(self)
-    if not self.showHeros then
-        HeroDataMgr:resetShowList(true)
+
+    self.showHeroIds = {}
+    if self.showHeros then
+        for k,v in pairs(self.showHeros) do
+            table.insert(self.showHeroIds,v.id)
+        end
+    else
+        local showList = clone(HeroDataMgr:resetShowList(true))
+        for k,v in ipairs(showList) do
+            local showIndex = HeroDataMgr:getSelectedHeroIdx(v);
+            local heroid = HeroDataMgr:getSelectedHeroId(showIndex)
+            table.insert(self.showHeroIds,heroid)
+        end
     end
-    self.showCount = self.showHeros and #self.showHeros or HeroDataMgr:getShowCount()
-    for i=1,self.showCount do
-        local item = self.listView:getItem(i)
-        self:updateOneHead(item,i)
-    end
+    self:updateUI()
 end
 
 return TeamFightChangeHeroView;

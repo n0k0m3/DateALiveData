@@ -47,7 +47,7 @@ function ActivityFundView:updateGiftBagInfo()
         return
     end
 
-    self.Label_desc:setText(Utils:MultiLanguageStringDeal(self.activityInfo_.extendData.des))
+    self.Label_desc:setTextById(self.activityInfo_.extendData.des)
 
     self.giftData = RechargeDataMgr:getOneRechargeCfg(self.activityInfo_.extendData.rechargeId)
 

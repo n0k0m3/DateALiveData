@@ -287,7 +287,10 @@ function BlackAndWhiteMainView:updateHighTeamDungeonInfo(id)
 			id = k
 		end
 		print("cfg.type=" .. cfg.type .. ",cfg.id=" .. cfg.id .. ",costItemId=" .. id)
-		TeamFightDataMgr:requestCreateTeam( cfg.type,cfg.id,id)
+		local callback = function(visibleType,limitLv,isAutoMatch)
+			TeamFightDataMgr:requestCreateTeam( cfg.type,cfg.id,visibleType,limitLv,isAutoMatch,id)
+		end
+		Utils:openView("teamFight.TeamRoomSettingView",true,cfg.type,callback)
 	end)
 	
 	

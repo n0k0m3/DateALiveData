@@ -174,7 +174,8 @@ end
 
 function RoleTeachFuncLayer:teachSelfCompleteFunc()
     if not RoleTeachDataMgr:canTeachRole() then
-        Utils:openView("chronoCross.ChronoTaskConfirmView",
+        Utils:openView("datingPhone.JoinTipView")
+        --[[Utils:openView("chronoCross.ChronoTaskConfirmView",
             {titleStrId = 100000148,tipStrId = 100000149,},
             function()
                 if RoleTeachDataMgr:isHaveBoughtTeachCard() then
@@ -183,9 +184,10 @@ function RoleTeachFuncLayer:teachSelfCompleteFunc()
                     Utils:openView("datingPhone.RoleTeachBuyView")
                 end
             end
-        )
+        )--]]
         return
     end
+
     local quesTxt = self._ui.fieldTeachQues:getString()
     local anwsTxt = self._ui.fieldTeachAnws:getString()
     local ids  = {}
@@ -200,7 +202,8 @@ function RoleTeachFuncLayer:teachSelfCompleteFunc()
     local roleActId, tempTxtID
     local failKvpData    = Utils:getKVP(49006)
     roleActId = failKvpData.emotions[math.random(1,#failKvpData.emotions)]
-    if quesTxt ~= "" and anwsTxt ~= "" then
+
+    if not Utils:getTxtExistSpace(quesTxt,anwsTxt) then
         if  Utils:getCharLength(quesTxt) > 2 and Utils:getCharLength(anwsTxt) > 2 then
             local successKvpData = Utils:getKVP(49005)
             roleActId = successKvpData.emotions[math.random(1,#successKvpData.emotions)]
@@ -220,9 +223,9 @@ function RoleTeachFuncLayer:teachSelfCompleteFunc()
             tempTxtID = 14240004
         end
     else
-        if quesTxt == "" and anwsTxt ~= "" then 
+        if Utils:getTxtExistSpace(quesTxt) and not Utils:getTxtExistSpace(anwsTxt) then 
             tempTxtID = 14240001
-        elseif quesTxt ~= "" and anwsTxt == "" then
+        elseif not Utils:getTxtExistSpace(quesTxt) and Utils:getTxtExistSpace(anwsTxt) then
             tempTxtID = 14240002
         else
             tempTxtID = 14240003
@@ -500,8 +503,8 @@ function RoleTeachFuncLayer:achieveInfoControl()
         item.bg:setTexture("ui/iphoneX/roleTeach/achieve/005.png")
         item.achieveGetViewItemTitle:setTextById(taskCfg.name)
         item.achieveGetViewItemDesc:setTextById(taskCfg.des)
-
-        if not RoleTeachDataMgr:isHaveBoughtTeachCard() then
+        local isBuy = RoleTeachDataMgr:isHaveBoughtTeachCard()
+        if not isBuy then
             item.btnGoTeach:hide()
             item.btnAchieveGetViewItemAward:hide()
         else
@@ -511,6 +514,13 @@ function RoleTeachFuncLayer:achieveInfoControl()
                     item.btnGoTeach:show()
                     item.btnAchieveGetViewItemAward:hide()
                     item.btnGoTeach:onClick(function()
+
+                        local isCanTeach = RoleTeachDataMgr:canTeachRole()
+                        if not isCanTeach then
+                            Utils:openView("datingPhone.JoinTipView")
+                            return
+                        end
+
                         Utils:openView("datingPhone.RoleTeachFuncLayer", 
                             nil,
                             RoleTachMacro.PAGETYPE.TEACH,
@@ -599,7 +609,8 @@ function RoleTeachFuncLayer:teachIssueControl()
             if RoleTeachDataMgr:canTeachRole() then
                 self:ChoosePageDetailFunc(RoleTachMacro.TEACH.TeachSelf, {input:getString(), answer:getString(),listData[i].id})
             else
-                Utils:openView("chronoCross.ChronoTaskConfirmView",
+                Utils:openView("datingPhone.JoinTipView")
+                --[[Utils:openView("chronoCross.ChronoTaskConfirmView",
                     {titleStrId = 100000148,tipStrId = 100000149,},
                     function()
                         if RoleTeachDataMgr:isHaveBoughtTeachCard() then
@@ -608,7 +619,7 @@ function RoleTeachFuncLayer:teachIssueControl()
                             Utils:openView("datingPhone.RoleTeachBuyView")
                         end
                     end
-                )
+                )--]]
             end
         end)
         -- ViewAnimationHelper.doMoveFadeInAction(item,{direction = 1, distance = (4 -i)*200, ease = 1,adjust = (4 -i)*200})

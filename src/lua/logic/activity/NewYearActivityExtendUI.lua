@@ -39,11 +39,11 @@ function NewYearActivityExtendUI:initUI( ui )
 	self.label_tip = TFDirector:getChildByPath(ui,"label_tip")
 
 	self.btn_yanhua:onClick(function (  )
-    	if NewCityDataMgr:getCityDay() == EC_NewCityDayType.SpringFestival_Night then
+    	-- if NewCityDataMgr:getCityDay() == EC_NewCityDayType.SpringFestival_Night then
 			Utils:openView("activity.YanHuaSelectView")
-		else
-			Utils:showTips(13100066)
-		end
+		-- else
+		-- 	Utils:showTips(13100066)
+		-- end
 	end)
 	self.spine_ani:setVisible(false)
 	self.btn_nianshou:onClick(function (  )

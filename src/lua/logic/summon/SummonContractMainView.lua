@@ -20,23 +20,25 @@ function SummonContractMainView:initUI(ui)
     self.Panel_prefab = TFDirector:getChildByPath(ui, "Panel_prefab"):hide()
 
     self.Panel_taskItem = TFDirector:getChildByPath(self.Panel_prefab, "Panel_taskItem")
-
+    local Image_contract = TFDirector:getChildByPath(self.Panel_root, "Image_contract")
     self.Button_details = TFDirector:getChildByPath(self.Panel_root, "Button_details")
     local Image_task = TFDirector:getChildByPath(self.Panel_root, "Image_task")
-    self.Label_title = TFDirector:getChildByPath(Image_task, "Label_title")
-    self.Label_cur_level = TFDirector:getChildByPath(Image_task, "Label_cur_level")
-    self.Label_level = TFDirector:getChildByPath(self.Label_cur_level, "Label_level")
+    -- self.Label_title = TFDirector:getChildByPath(Image_task, "Label_title")
+    -- self.Label_cur_level = TFDirector:getChildByPath(Image_task, "Label_cur_level")
+    self.Label_level = TFDirector:getChildByPath(Image_contract, "Label_cur_level.Label_level")
+    self.lvBar = TFDirector:getChildByPath(Image_contract, "lvBar")
     local Image_scrollBar = TFDirector:getChildByPath(Image_task, "Image_scrollBar")
     local Image_scrollBarInner = TFDirector:getChildByPath(Image_scrollBar, "Image_scrollBarInner")
     local scrollBar = UIScrollBar:create(Image_scrollBar, Image_scrollBarInner)
     local ScrollView_task = TFDirector:getChildByPath(Image_task, "ScrollView_task")
     self.GridView_task = UIGridView:create(ScrollView_task)
     self.GridView_task:setItemModel(self.Panel_taskItem)
-    self.GridView_task:setColumn(3)
+    self.GridView_task:setColumn(1)
     self.GridView_task:setScrollBar(scrollBar)
-    local Image_contract = TFDirector:getChildByPath(self.Panel_root, "Image_contract")
+    
     self.Label_contract = TFDirector:getChildByPath(Image_contract, "Label_contract")
     self.Label_timing = TFDirector:getChildByPath(Image_contract, "Label_timing")
+    self.lab_tip = TFDirector:getChildByPath(Image_contract, "lab_tip")
     self.Label_cond = TFDirector:getChildByPath(Image_contract, "Label_cond")
     self.Image_contract = Image_contract
     self.Button_build = TFDirector:getChildByPath(self.Panel_root, "Button_build")
@@ -60,6 +62,9 @@ function SummonContractMainView:initUI(ui)
 end
 
 function SummonContractMainView:addTaskItem()
+    if not self.idx then
+        self.idx = 1
+    end
     local foo = {}
     foo.root = self.Panel_taskItem:clone()
     foo.panel_root = TFDirector:getChildByPath(foo.root, "panel_root")
@@ -67,14 +72,20 @@ function SummonContractMainView:addTaskItem()
     foo.Label_desc = TFDirector:getChildByPath(foo.Button_task, "Label_desc")
     foo.Image_icon = TFDirector:getChildByPath(foo.Button_task, "Image_icon")
     foo.Label_name = TFDirector:getChildByPath(foo.Button_task, "Label_name")
-    foo.Image_geted = TFDirector:getChildByPath(foo.root, "Image_geted")
-    foo.Image_notGet = TFDirector:getChildByPath(foo.root, "Image_notGet")
-    foo.Image_gou = TFDirector:getChildByPath(foo.root, "Image_gou")
+    foo.img_getted = TFDirector:getChildByPath(foo.Button_task, "img_getted")
+    foo.spine_canGet = TFDirector:getChildByPath(foo.Button_task, "spine_canGet")
+    -- foo.Image_geted = TFDirector:getChildByPath(foo.root, "Image_geted")
+    -- foo.Image_notGet = TFDirector:getChildByPath(foo.root, "Image_notGet")
+    -- foo.Image_gou = TFDirector:getChildByPath(foo.root, "Image_gou")
     foo.spine_effect = TFDirector:getChildByPath(foo.root, "spine_effect"):hide()
-    local Label_geted = TFDirector:getChildByPath(foo.Image_gou, "Label_geted")
-    Label_geted:setTextById(700033)
+    -- local Label_geted = TFDirector:getChildByPath(foo.Image_gou, "Label_geted")
+    -- Label_geted:setTextById(700033)
     self.taskItems_[foo.root] = foo
+    if self.idx % 2 == 0 then
+        foo.Button_task:setPositionX(foo.Button_task:getPositionX() + 50)
+    end
     self.GridView_task:pushBackCustomItem(foo.root)
+    self.idx = self.idx + 1
 end
 
 function SummonContractMainView:removeUI(  )
@@ -88,8 +99,8 @@ function SummonContractMainView:removeUI(  )
 end
 
 function SummonContractMainView:refreshView()
-    self.Label_title:setTextById( 1325301)
-    self.Label_cur_level:setTextById(1325302)
+    -- self.Label_title:setTextById( 1325301)
+    -- self.Label_cur_level:setTextById(1325302)
     self.Label_contract:setTextById(1325304)
     self:updateContractState()
 
@@ -100,7 +111,9 @@ function SummonContractMainView:refreshView()
         end
         local day,hour,min,sec = Utils:getTimeDHMZ(remainTime)
         self.Label_timing:setTextById(1325313, hour, min, sec)
-        self.Image_contract:setVisible(remainTime > 0)
+        self.Label_timing:setVisible(remainTime > 0)
+        self.Label_contract:setVisible(remainTime > 0)
+        self.lab_tip:setVisible(not self.Label_timing:isVisible())
         self.Button_summon:setVisible(remainTime > 0)
     end
     flushLabelTime()
@@ -130,9 +143,22 @@ function SummonContractMainView:updateContractState()
     -- else
     --     self.Label_build:setTextById(1325305)
     -- end
+    local rechargeCost = RechargeDataMgr:getOneRechargeCfg(cfg.SellingPrice).exchangeCost[1]
+    local itemCfg = GoodsDataMgr:getItemCfg(rechargeCost.id)
+    self.Button_build:getChildByName("Image_icon"):setTexture(itemCfg.icon)
 
-    self.Label_build:setTextById(1325305,cfg.Price)
-    self.Label_num:setText(cfg.ShowMultiple)
+    self.Label_build:setTextById(800007,rechargeCost.num)
+    self.Button_build:getChildByName("Image_icon"):show()
+    if canBuy then
+        self.lab_tip:setTextById(1325314)
+    else
+        self.lab_tip:setTextById(1325308)
+    end
+
+    --TODO CLOSE
+    --self.Label_num:setText(cfg.ShowMultiple)
+    self.Label_num:setTextById(cfg.ShowMultiple)
+
     local lastStageBuy = false
 
     if self.contractInfo.actIndentures and #self.contractInfo.actIndentures > 0  then
@@ -147,12 +173,18 @@ function SummonContractMainView:updateContractState()
     if lastStageBuy then
         self.Label_build:setTextById(1325319)
         self.Image_flag:hide()
+        self.Button_build:getChildByName("Image_icon"):hide()
+        self.Label_build:setAlignment(1  , 1)
     end
 
     self.Button_build:setTouchEnabled(canBuy)
     self.Button_build:setGrayEnabled(not canBuy)
 
+    
+    
+
     self.Label_level:setText(MainPlayer:getPlayerLv())
+    self.lvBar:setPercent(MainPlayer:getPlayerLv() / MainPlayer:getMaxPlayerLevel() * 100)
     cfg = cfg or self.contractInfo
     self.Label_raw_costNum:setText(cfg.OriginalCost)
     self.Label_costNum:setText(cfg.Price)
@@ -181,15 +213,29 @@ function SummonContractMainView:updateAllTaskItem()
         local reward = taskCfg.reward[1]
         local rewardCid, rewardNum = reward[1], reward[2]
         local rewardCfg = GoodsDataMgr:getItemCfg(rewardCid)
-        local name = TextDataMgr:getText(rewardCfg.nameTextId)
+        -- local name = TextDataMgr:getText(rewardCfg.nameTextId)
         foo.Image_icon:setTexture(rewardCfg.icon)
-        foo.Label_name:setTextById(800037, name, rewardNum)
+        foo.Label_name:setText("x"..rewardNum)
         foo.Label_desc:setTextById(taskCfg.des)
-
-        foo.Button_task:setTouchEnabled(taskInfo.status ~= EC_TaskStatus.GETED)
-        foo.Image_geted:setVisible(taskInfo.status == EC_TaskStatus.GETED)
-        foo.Image_gou:setVisible(taskInfo.status == EC_TaskStatus.GETED)
-        foo.Image_notGet:setVisible(taskInfo.status == EC_TaskStatus.ING)
+        foo.Label_desc:setSkewX(15)
+        foo.img_getted:setVisible(taskInfo.status == EC_TaskStatus.GETED)
+        if taskInfo.status == EC_TaskStatus.ING then
+            foo.Button_task:setTextureNormal("ui/summon/elf_contract/new_1/007.png")
+            foo.Label_desc:setColor(ccc3(200,223,255))
+        elseif taskInfo.status == EC_TaskStatus.GET then
+            foo.Button_task:setTextureNormal("ui/summon/elf_contract/new_1/008.png")
+            foo.spine_canGet:play("animation",true)
+            foo.Label_desc:enableStroke(ccc3(83,138,183),1)
+        else
+            foo.Button_task:setTextureNormal("ui/summon/elf_contract/new_1/009.png")
+            foo.Label_desc:setColor(ccc3(162,164,200))
+        end
+        foo.spine_canGet:setVisible(taskInfo.status == EC_TaskStatus.GET)
+        
+        -- foo.Button_task:setTouchEnabled(taskInfo.status ~= EC_TaskStatus.GETED)
+        -- foo.Image_geted:setVisible(taskInfo.status == EC_TaskStatus.GETED)
+        -- foo.Image_gou:setVisible(taskInfo.status == EC_TaskStatus.GETED)
+        -- foo.Image_notGet:setVisible(taskInfo.status == EC_TaskStatus.ING)
         foo.Button_task:onClick(function()
                 if not self.contractInfo.actIndentures or table.find(self.contractInfo.actIndentures,self.showCfg.id ) == -1 then
                     Utils:showTips(1325316)
@@ -220,7 +266,7 @@ function SummonContractMainView:registerEvents()
     end)
 
     self.Button_summon:onClick(function()
-            FunctionDataMgr:jSummon(1)
+            FunctionDataMgr:jSummon(1 , 9001)
     end)
 end
 
@@ -287,7 +333,7 @@ function SummonContractMainView:playStageChallengeEffect()
         end)
     self.ui:runAnimation("particle_ani",1)
 
-    self:showTaskItemEffect()
+    -- self:showTaskItemEffect()
     self.GridView_task.scrollView_:scrollToTop()
 end
 

@@ -47,8 +47,9 @@ end)
 --重写接口用于多语言资源载入   设置常态按钮
 local _setTextureNormal_en = TFButton.setTextureNormal
 rawset(TFButton, "setTextureNormal", function ( self ,texturePath, ... )
-	local language = GAME_LANGUAGE_VAR
-	if language ~= "" and texturePath~= "" then
+
+	local code = TFLanguageMgr:getUsingLanguageCode("_")
+	if code ~= "" and texturePath~= "" then
 		if LanguageResMgr ~= nil then
 			local pitctureData = LanguageResMgr:getData()
 			if pitctureData[texturePath] then
@@ -57,7 +58,7 @@ rawset(TFButton, "setTextureNormal", function ( self ,texturePath, ... )
 				_setTextureNormal_en(self, texturePath,...)
 			end
 		else
-			local textureName = string.gsub(texturePath , "%." ,language..".")
+			local textureName = string.gsub(texturePath , "%." ,code..".")
 			if TFFileUtil:existFile(textureName) then
 				_setTextureNormal_en(self, textureName , ...)
 			else
@@ -72,8 +73,8 @@ end)
 --重写接口用于多语言资源载入   设置按下按钮
 local _setTexturePressed_en = TFButton.setTexturePressed
 rawset(TFButton, "setTexturePressed", function ( self ,texturePath, ... )
-	local language = GAME_LANGUAGE_VAR
-	if language ~= "" and texturePath~= "" then
+	local code = TFLanguageMgr:getUsingLanguageCode("_")
+	if code ~= "" and texturePath~= "" then
 		if LanguageResMgr ~= nil then
 			local pitctureData = LanguageResMgr:getData()
 			if pitctureData[texturePath] then
@@ -82,7 +83,7 @@ rawset(TFButton, "setTexturePressed", function ( self ,texturePath, ... )
 				_setTexturePressed_en(self, texturePath,...)
 			end
 		else
-			local textureName = string.gsub(texturePath , "%." ,language..".")
+			local textureName = string.gsub(texturePath , "%." ,code..".")
 			if TFFileUtil:existFile(textureName) then
 				_setTexturePressed_en(self, textureName , ...)
 			else
@@ -98,8 +99,8 @@ end)
 --重写接口用于多语言资源载入   设置取消按钮
 local _setTextureDisabled_en = TFButton.setTextureDisabled
 rawset(TFButton, "setTextureDisabled", function ( self ,texturePath, ... )
-	local language = GAME_LANGUAGE_VAR
-	if language ~= "" and texturePath~= "" then
+	local code = TFLanguageMgr:getUsingLanguageCode("_")
+	if code ~= "" and texturePath~= "" then
 		if LanguageResMgr ~= nil then
 			local pitctureData = LanguageResMgr:getData()
 			if pitctureData[texturePath] then
@@ -108,7 +109,7 @@ rawset(TFButton, "setTextureDisabled", function ( self ,texturePath, ... )
 				_setTextureDisabled_en(self, texturePath,...)
 			end
 		else
-			local textureName = string.gsub(texturePath , "%." ,language..".")
+			local textureName = string.gsub(texturePath , "%." ,code..".")
 			if TFFileUtil:existFile(textureName) then
 				_setTextureDisabled_en(self, textureName , ...)
 			else

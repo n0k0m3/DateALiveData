@@ -81,8 +81,10 @@ function MonthCardView:initUI(ui)
 
     --英文版屏蔽ios月卡续订
     --if me.platform ~= "android" or me.platform == "android" and HeitaoSdk and  ((HeitaoSdk.getplatformId()~=3 and HeitaoSdk.getplatformId() ~= 1) or  (HeitaoSdk.getplatformId() == 1 and tonumber(TFDeviceInfo:getCurAppVersion()) == 1.13)) then
-		if false then
-       self.Button_buyCard_ios:show()
+    -- ios小语种开启月卡续订
+    -- if false then
+    if (true) then
+        self.Button_buyCard_ios:show()
         self.Button_buyCard:hide()
     else
         self.Button_buyCard_ios:hide()

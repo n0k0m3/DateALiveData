@@ -7,8 +7,6 @@ local uiPath = "lua.uiconfig.activity.scale9Activity"
 function ActivityScale9:ctor(...)
 	self.super.ctor(self, ...)
 
-	TFDirector:addProto(s2c.ACTIVITY_NEW_RESP_ACTIVITYS, self, self.onRecvActivitys)
-	
 	self.activityID = ...
 	self.selectTask = nil
 
@@ -21,20 +19,11 @@ function ActivityScale9:ctor(...)
 
 	EventMgr:addEventListener(self, EV_ACTIVITY_SUBMIT_SUCCESS, function(activityID, activitEntryId, rewards)
 		if activityID == self.activityID then		
-			if table.indexOf(self.data.chestId, activitEntryId) ~= -1 then
-				Utils:showReward(rewards)	
-			else
---				local gridFind = nil
---				for i = 1,#self.scale9list do
---					local grid = self.scale9list[i]
---					if grid.config.id == activitEntryId then
---						gridFind = grid
---						break;
---					end
---				end
---				if gridFind then
---					gridFind:setVisible(false)
---				end
+			local curIdx = table.indexOf(self.data.chestId, activitEntryId)
+			if curIdx ~= -1 then
+				local stringId = self.data.stringId or {}
+				local showId = stringId[curIdx]
+				Utils:showReward(rewards, nil, nil, showId)
 			end
 		end	
 	end)
@@ -50,6 +39,8 @@ function ActivityScale9:initUI(ui)
 	self.uiGrids = self.root:getChildByName("Grids")
 	self.uiRewards = self.root:getChildByName("Rewards")
 	self.activityTime = self.root:getChildByName("activityTime")
+	self.txt_desc = TFDirector:getChildByPath(ui,"txt_desc")
+	self.txt_desc:setText(self.data.des1)
 
 	self.activityTime:setText(Utils:getActivityDateString(self.data_.startTime, self.data_.endTime, self.data_.extendData.dateStyle))
 	
@@ -76,7 +67,7 @@ function ActivityScale9:initUI(ui)
 		gridBox.finish:setVisible(false)
 
 		gridBox.index:setText(i)
-		gridBox.des:setText(config.extendData.des2)
+		gridBox.des:setText(Utils:MultiLanguageStringDeal(config.extendData.des2))
 		gridBox.state:setText("0/0")
 
 		gridBox:setTouchEnabled(true)

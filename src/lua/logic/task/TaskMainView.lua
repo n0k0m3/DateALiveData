@@ -26,7 +26,7 @@ function TaskMainView:initData(taskType)
     }
 
 
-    if ActivityDataMgr2:isWarOrderActivityOpen() then
+    if ActivityDataMgr2:isWarOrderActivityOpen() and GlobalFuncDataMgr:isOpen(4) then
         table.insert(self.tabData_,3,{type_ = EC_TaskPage.TRAININIG,icon = "ui/task/tab_5.png",text = 14220070})
         table.insert(self.tabData_,4,{type_ = EC_TaskPage.TRAININIG_TASK,icon = "ui/task/tab_6.png",text = 14220071})
         self.warOrderActivity = ActivityDataMgr2:getWarOrderAcrivityInfo()
@@ -865,8 +865,7 @@ function TaskMainView:showTrainingView()
     self.Button_get_all:show()
     self.Button_shop:show()
     self:updateRedPointStatus()
-    local trainingShopTips = CCUserDefault:sharedUserDefault():getStringForKey("training_shop_tips")
-    self.Image_training_shop_tips:setVisible(trainingShopTips ~= "geted")
+    self:updateTrainingShopTipsState()
     self:timeOut(function()
         self:updatePreviewItems()
     end,0.3)
@@ -1227,20 +1226,20 @@ end
 
 
 function TaskMainView:onUpdateTrainingUI()
-    if not ActivityDataMgr2:isWarOrderActivityOpen() then
-        return
-    end
+    if not self.warOrderActivity then return end
     self:updateTrainingItems()
     self:updateTrainingInfo()
 end
 
 function TaskMainView:onSubmitSuccessEvent(activitId, itemId, reward)
+    if not self.warOrderActivity then return end
     if self.warOrderActivity.id == activitId then
         Utils:showReward(reward)
         self:timeOut(function()
             self:updateTrainingTask()
         end, 0.5)
     end
+    self:updateTrainingShopTipsState()
 end
 
 function TaskMainView:updateRedPointStatus()
@@ -1258,11 +1257,20 @@ function TaskMainView:updateRedPointStatus()
             isCanReceive = TaskDataMgr:isCanReceiveTask(EC_TaskType.ACTIVE)
         elseif tabData.type_ == EC_TaskPage.TRAININIG then
             isCanReceive = TaskDataMgr:checkWarOrderRedPoint()
+            if not isCanReceive then
+                isCanReceive = TaskDataMgr:getTrainingShopTipsState()
+            end
+            self:updateTrainingShopTipsState()
         elseif tabData.type_ == EC_TaskPage.TRAININIG_TASK then
             isCanReceive = ActivityDataMgr2:checkWarOrderTaskRedPoint()
         end
         item.Image_tips:setVisible(isCanReceive)
     end
+end
+
+function TaskMainView:onTrainTaskUpdate()
+    if not self.warOrderActivity then return end
+    self:updateTrainingTask()
 end
 
 function TaskMainView:registerEvents()
@@ -1274,6 +1282,7 @@ function TaskMainView:registerEvents()
     EventMgr:addEventListener(self, EV_ACTIVITY_WAR_ORDER_UPDATE_INFO, handler(self.onUpdateTrainingUI, self))
     EventMgr:addEventListener(self, EV_RECHARGE_UPDATE, handler(self.onUpdateTrainingUI, self))
     EventMgr:addEventListener(self, EV_ACTIVITY_SUBMIT_SUCCESS, handler(self.onSubmitSuccessEvent, self))
+    EventMgr:addEventListener(self, EV_ACTIVITY_UPDATE_PROGRESS, handler(self.onTrainTaskUpdate, self))
 
     for i, v in ipairs(self.ListView_tab:getItems()) do
         local item = self.tabItem_[v]
@@ -1332,8 +1341,9 @@ function TaskMainView:registerEvents()
 
     self.Button_shop:onClick(function()
         CCUserDefault:sharedUserDefault():setStringForKey("training_shop_tips","geted")
-        self.Image_training_shop_tips:hide()
-        Utils:openView("store.WarOrderView")
+        self:updateTrainingShopTipsState()
+        -- Utils:openView("store.WarOrderView")
+        FunctionDataMgr:jGiftPacks(1,5)
     end)
 
     self.Panel_touch:setSwallowTouch(false)
@@ -1341,6 +1351,11 @@ function TaskMainView:registerEvents()
     self.Panel_touch:onTouch(function()
             --self.Image_preview:hide()
     end)
+end
+
+function TaskMainView:updateTrainingShopTipsState()
+    local state = TaskDataMgr:getTrainingShopTipsState()
+    self.Image_training_shop_tips:setVisible(state)
 end
 
 function TaskMainView:onTaskUpdateEvent(taskCid)

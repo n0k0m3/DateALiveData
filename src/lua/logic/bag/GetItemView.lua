@@ -1,7 +1,7 @@
 
 local GetItemView = class("GetItemView", BaseLayer)
 
-function GetItemView:initData(itemList,staticRewardList,hideCallBack)
+function GetItemView:initData(itemList,staticRewardList,hideCallBack,titleId)
     self.directClose = nil
     self.itemList_ = itemList or {}
     self.staticItemList_ = staticRewardList or {}
@@ -13,6 +13,7 @@ function GetItemView:initData(itemList,staticRewardList,hideCallBack)
     self.itemScale = 1
     self.goodsItem_ = {}
     self.hideCallBack = hideCallBack
+    self.titleId = titleId
 end
 
 function GetItemView:ctor(...)
@@ -25,6 +26,7 @@ function GetItemView:initUI(ui)
     self.super.initUI(self, ui)
     self.Panel_root = TFDirector:getChildByPath(ui, "Panel_root")
     self.Panel_touch = TFDirector:getChildByPath(ui, "Panel_bg"):hide()
+    self.Panel_guide = TFDirector:getChildByPath(ui, "Panel_guide")
     self.Panel_prefab = TFDirector:getChildByPath(ui, "Panel_prefab"):hide()
     self.Spine_getItem = TFDirector:getChildByPath(ui, "Spine_getItem")
     self.Spine_before = TFDirector:getChildByPath(ui, "Spine_before")
@@ -35,6 +37,14 @@ function GetItemView:initUI(ui)
     Image_scrollBar:AddTo(self.Image_scrollBarModel:getParent())
     self.scrollBar = UIScrollBar:create(Image_scrollBar, Image_scrollBarInner)
 
+    self.image_game_title = TFDirector:getChildByPath(ui, "image_game_title"):hide()
+    self.label_title = TFDirector:getChildByPath(self.image_game_title, "label_title")
+    if self.titleId then
+        self.image_game_title:show()
+        self.label_title:setTextById(self.titleId)
+        local titleSize = self.image_game_title:getContentSize()
+        self.image_game_title:setContentSize(CCSize(self.label_title:getContentSize().width + 10, titleSize.height))
+    end
     self.Panel_content = TFDirector:getChildByPath(self.Panel_root, "Panel_content")
     self.Panel_goodsItem_prefab = PrefabDataMgr:getPrefab("Panel_goodsItem")
     local ScrollView_reward = TFDirector:getChildByPath(self.Panel_content, "ScrollView_reward")
@@ -281,6 +291,15 @@ function GetItemView:registerEvents()
 		--EventMgr:dispatchEvent(EV_CLOSE_MAIN_LAYER)
 		MainUISettingMgr:closeMainLayer()
     end)
+
+    self.Panel_guide:onClick(function()
+        if self.hideCallBack then
+            self.hideCallBack()
+        end
+        AlertManager:closeLayer(self)
+        --EventMgr:dispatchEvent(EV_CLOSE_MAIN_LAYER)
+        MainUISettingMgr:closeMainLayer()
+    end)
 end
 
 function GetItemView:onShow()
@@ -293,6 +312,9 @@ function GetItemView:onShow()
             end)
         end
     end
+
+    GameGuide:checkGuide(self)
+
 end
 
 function GetItemView:removeEvents()

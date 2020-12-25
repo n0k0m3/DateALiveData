@@ -50,7 +50,7 @@ function KuangsanAssistRewardView:refreshView()
         local item = self.Panel_reward_item:clone()
         self.ListView_ranking:pushBackCustomItem(item)
         local nowDes = v.extendData.des2 or ""
-        TFDirector:getChildByPath(item, "Label_desc"):setText(Utils:MultiLanguageStringDeal(nowDes))
+        TFDirector:getChildByPath(item, "Label_desc"):setTextById(nowDes)
         local Image_item_bg = TFDirector:getChildByPath(item, "Image_item_bg")
         local count = 0
         local goodsId, goodsNum
@@ -79,7 +79,7 @@ function KuangsanAssistRewardView:refreshView()
         self.ListView_pic:pushBackCustomItem(item)
         
         local nowDes = v.extendData.des2 or ""
-        TFDirector:getChildByPath(item, "Label_desc"):setText(Utils:MultiLanguageStringDeal(nowDes))
+        TFDirector:getChildByPath(item, "Label_desc"):setTextById(nowDes)
         local Image_item_bg = TFDirector:getChildByPath(item, "Image_item_bg")
         local count = 0
         local goodsId, goodsNum

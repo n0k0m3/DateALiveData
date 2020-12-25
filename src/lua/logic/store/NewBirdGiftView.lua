@@ -22,6 +22,26 @@ end
 function NewBirdGiftView:initUI(ui)
     self.super.initUI(self, ui)
 
+    self.img_tip = TFDirector:getChildByPath(ui, "img_tip"):show()
+    self.panel_tip = TFDirector:getChildByPath(ui, "panel_tip")
+    self.panel_inner = TFDirector:getChildByPath(ui, "panel_inner")
+    self.txt_tip = TFDirector:getChildByPath(ui, "txt_tip")
+    self.txt_tip:setTextById(14310006)
+
+    local panelSize = self.panel_tip:getContentSize()
+    local detal = 6
+    local move1 = CCMoveTo:create(detal, ccp(-panelSize.width, 0))
+    local callFun = CallFunc:create(function()
+        self.panel_inner:setPositionX(panelSize.width)
+    end)
+    local move2 = CCMoveTo:create(detal, ccp(0, 0))
+    local arr = {}
+    table.insert(arr, move1)
+    table.insert(arr, callFun)
+    table.insert(arr, move2)
+    local seq = CCSequence:create(arr)
+    self.panel_inner:runAction(CCRepeatForever:create(seq))
+
     self.panel_cell = TFDirector:getChildByPath(ui, "panel_cell"):hide()
 
     self.scroll_list = TFDirector:getChildByPath(ui, "scroll_list")
@@ -210,11 +230,11 @@ function NewBirdGiftView:updateGiftItem(item, data)
         local tagType = data.tagIcon or 0
         local buyCount = RechargeDataMgr:getBuyCount(data.rechargeCfg.id)
         if buyCount == 0 then
-            Label_title_desc:setText(data.tagDes)
-            Label_title_desc1:setText(data.tagDes)
+            Label_title_desc:setTextById(data.tagDes)
+            Label_title_desc1:setTextById(data.tagDes)
         elseif data.tagDes2 ~= "" then
-            Label_title_desc:setText(data.tagDes2)
-            Label_title_desc1:setText(data.tagDes2)
+            Label_title_desc:setTextById(data.tagDes2)
+            Label_title_desc1:setTextById(data.tagDes2)
         else
             Image_title_di:hide()
         end

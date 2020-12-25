@@ -130,7 +130,7 @@ function QuanfuzhuliViewEn:updateActivity()
 
         local Panel_des_item = self.Panel_des_item:clone()
         Panel_des_item.Label_title = Panel_des_item:getChildByName("Label_title")
-        Panel_des_item.Label_title:setText(Utils:MultiLanguageStringDeal(self.activityInfo_.activityTitle))
+        Panel_des_item.Label_title:setTextById(self.activityInfo_.activityTitle)
         Panel_des_item:setContentSize(Panel_des_item.Label_title:getContentSize())
 
         self.ListView_des:pushBackCustomItem(Panel_des_item)

@@ -1,62 +1,21 @@
 
 local SimulationTrialReward = class("SimulationTrialReward", BaseLayer)
-local ResConfig = 
-{ 
-    [110211] = {
-        ui = "lua.uiconfig.fuben.simulationTrialRewradView",
-        title_ch_text_id = 2108156,
-        title_en_text_id = 2108157,
-        button_1_text_id = 2108160, 
-        button_2_text_id = 2108161,
-        button_1_texture = "ui/simulation_trial/tab1.png", 
-        },
-    [111411] = {
-        ui = "lua.uiconfig.fuben.simulationTrialRewradView3",
-        title_ch_text_id = 2108158,
-        title_en_text_id = 2108159,
-        button_1_text_id = 2108162, 
-        button_2_text_id = 2108163,
-        button_1_texture = "ui/simulation_trial/tab1.png", 
-        },
-    [111511] = {
-        ui = "lua.uiconfig.fuben.simulationTrialRewradView2",
-        title_ch_text_id = 2108158,
-        title_en_text_id = 2108159,
-        button_1_text_id = 2108162, 
-        button_2_text_id = 2108163,
-        button_1_texture = "ui/simulation_trial/tab1.png", 
-        button_2_texture = "ui/simulation_trial/tab2.png",   
-        },
-    [110113] = {
-        ui = "lua.uiconfig.fuben.simulationTrialRewradView4",
-        title_ch_text_id = 2108195,
-        title_en_text_id = 2108196,
-        button_1_text_id = 2108197, 
-        button_2_text_id = 2108198, 
-        button_1_texture = "ui/simulation_trial4/tab1.png", 
-        } ,
-    [110414] = {
-        ui = "lua.uiconfig.fuben.simulationTrialRewradView5",
-        title_ch_text_id = 2108222,
-        title_en_text_id = 2108223,
-        button_1_text_id = 2108224, 
-        button_2_text_id = 2108225, 
-        button_1_texture = "ui/simulation_trial5/result/btn2.png", 
-        button_2_texture = "ui/simulation_trial5/result/page.png",
-        } 
-}
-
 function SimulationTrialReward:initData(heroId)
     self.missionDatas = TabDataMgr:getData("HerotestMission")
     self.heroId = heroId
-    self.resConfig = ResConfig[self.heroId]
+    local cfg = FubenDataMgr:getSimulationTrialCfg(heroId)
+    if not cfg then
+        Box("no heroId "..tostring(heroId).." in SimulationTrialHigh")
+        return
+    end
+    self.resConfig = cfg.reward
 end
 
 function SimulationTrialReward:ctor(...)
     self.super.ctor(self)
     self:initData(...)
     self:showPopAnim(true)
-    self:init(self.resConfig.ui)
+    self:init("lua.uiconfig."..self.resConfig.ui)
 end
 
 function SimulationTrialReward:initUI(ui)
@@ -65,9 +24,9 @@ function SimulationTrialReward:initUI(ui)
     self.Panel_root       = TFDirector:getChildByPath(ui, "Panel_parent")
     local Image_sign      = TFDirector:getChildByPath(self.Panel_root, "Image_sign")
     local Label_title_en  = TFDirector:getChildByPath(Image_sign, "Label_title_en")
-    Label_title_en:setTextById(self.resConfig.title_en_text_id)
+    Label_title_en:setTextById(self.resConfig.titleEn)
     local Label_title     = TFDirector:getChildByPath(Image_sign, "Label_title")
-    Label_title:setTextById(self.resConfig.title_ch_text_id)
+    Label_title:setTextById(self.resConfig.titleCn)
 
     self.Panel_starItems   = {}
     self.Panel_starItems[1]   = TFDirector:getChildByPath(ui, "Panel_prefab_reward1"):hide()
@@ -83,8 +42,8 @@ function SimulationTrialReward:initUI(ui)
     self.tabs[2] = TFDirector:getChildByPath(self.Panel_btns  , "Button_reward2")
     self.tabs[2].Image_lock = TFDirector:getChildByPath(self.tabs[2]  , "Image_lock")
 
-    TFDirector:getChildByPath(self.tabs[1]  , "Label_name"):setTextById(self.resConfig.button_1_text_id)
-    TFDirector:getChildByPath(self.tabs[2]  , "Label_name"):setTextById(self.resConfig.button_2_text_id)
+    TFDirector:getChildByPath(self.tabs[1]  , "Label_name"):setTextById(self.resConfig.buttonId1)
+    TFDirector:getChildByPath(self.tabs[2]  , "Label_name"):setTextById(self.resConfig.buttonId2)
 
     self:setSelect(1,true)
 end
@@ -106,14 +65,14 @@ function SimulationTrialReward:setSelect(index,force)
         for k , tab in ipairs(self.tabs) do
             if k == self.chooseIndex then
 --                if k == 1 then 
---                    tab:setTextureNormal(self.resConfig.button_1_texture) 
+--                    tab:setTextureNormal(self.resConfig.btnRes1) 
 --                else
---                    tab:setTextureNormal(self.resConfig.button_2_texture or "ui/simulation_trial/tab2.png")
+--                    tab:setTextureNormal(self.resConfig.btnRes2 or "ui/simulation_trial/tab2.png")
 --                end
-                tab:setTextureNormal(self.resConfig.button_1_texture)
+                tab:setTextureNormal(self.resConfig.btnRes1)
                 -- tab:setTouchEnabled(false)
             else
-                tab:setTextureNormal(self.resConfig.button_2_texture or "ui/simulation_trial/tab.png")
+                tab:setTextureNormal(self.resConfig.btnRes2 or "ui/simulation_trial/tab.png")
                 -- tab:setTouchEnabled(true)
             end
         end

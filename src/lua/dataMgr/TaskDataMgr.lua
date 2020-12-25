@@ -5,6 +5,7 @@ local TaskDataMgr = class("TaskDataMgr", BaseDataMgr)
 function TaskDataMgr:init()
     TFDirector:addProto(s2c.TASK_RESP_TASKS, self, self.onRecvTask)
     TFDirector:addProto(s2c.TASK_RESULT_SUBMIT_TASK, self, self.onRecvSubmitTask)
+	TFDirector:addProto(s2c.TASK_RESP_SUBMIT_TASK_LIST, self, self.onRecvSubmitTaskList)
 
     self.taskMap_ = TabDataMgr:getData("Task")
     self.BattlePass = TabDataMgr:getData("BattlePass")
@@ -269,6 +270,11 @@ function TaskDataMgr:send_TASK_SUBMIT_TASK(taskCid)
     TFDirector:send(c2s.TASK_SUBMIT_TASK, {taskCid})
 end
 
+function TaskDataMgr:send_TASK_SUBMIT_TASK_LIST(taskTab)
+    TFDirector:send(c2s.TASK_SUBMIT_TASK_LIST, {taskTab})
+end
+
+
 function TaskDataMgr:onRecvTask(event)
     local data = event.data
     if not data.taks then return end
@@ -292,6 +298,11 @@ end
 function TaskDataMgr:onRecvSubmitTask(event)
     local data = event.data
     EventMgr:dispatchEvent(EV_TASK_RECEIVE, data.rewards, data.taskCid)
+end
+
+function TaskDataMgr:onRecvSubmitTaskList(event)
+	local data = event.data
+    EventMgr:dispatchEvent(EV_TASK_RECEIVE_LIST, data.rewards, data.result)
 end
 
 function TaskDataMgr:getTraningCfgs(group)
@@ -445,6 +456,34 @@ function TaskDataMgr:checkWarOrderRedPoint()
         end
     end
     return false
+end
+
+function TaskDataMgr:getTrainingShopTipsState()
+    local state = false
+    if not ActivityDataMgr2:isWarOrderActivityOpen() then
+        return state
+    end
+    local warOrderActivity = ActivityDataMgr2:getWarOrderAcrivityInfo()
+    local trainingShopTips = CCUserDefault:sharedUserDefault():getStringForKey("training_shop_tips")
+    if trainingShopTips ~= "geted" then
+        state = true
+    end
+    local trainingTaskData = ActivityDataMgr2:getItems(warOrderActivity.id)
+    local itemInfo
+    local progressInfo
+    for i,v in ipairs(trainingTaskData) do
+        if tonumber(warOrderActivity.extendData.daytask) == v then
+            itemInfo = ActivityDataMgr2:getItemInfo(warOrderActivity.activityType, v)
+            break
+        end
+    end
+    if itemInfo then
+        progressInfo = ActivityDataMgr2:getProgressInfo(warOrderActivity.activityType, itemInfo.id)
+        if progressInfo.status == EC_TaskStatus.GET then
+            state = true
+        end
+    end
+    return state
 end
 
 return TaskDataMgr:new()

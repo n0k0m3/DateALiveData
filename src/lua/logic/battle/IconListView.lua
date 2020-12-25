@@ -84,6 +84,11 @@ function IconListView:ctor()
 end
 
 function IconListView:createItem(host,bAction,prefab)
+    local item = self:findItem(host)
+    if item then
+        item:setNum(host:getAddTimes())
+        return
+    end
     local item = Node:create(host,prefab)
     self:addItem(item)
     if bAction then
@@ -142,6 +147,11 @@ end
 
 --删除一个节点
 function IconListView:removeItem(host)
+    local item = self:findItem(host)
+    if not item then
+        return
+    end
+
     for index , item in ipairs(self.itemList) do
         if item.host == host then
             table.remove(self.itemList,index)

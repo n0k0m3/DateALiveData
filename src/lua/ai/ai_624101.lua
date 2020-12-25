@@ -21,8 +21,11 @@ return {
         ["DD2BC2E094A1450A98D2929B42FDF823"] = {
             [1] = "ACD078A247974B348065594DF082540D",
         },
-        ["05297BFFD3C5422ABA04256D4D44BF6E"] = {
-            [1] = "A59E13063FD745118C273CFC2110F0BD",
+        ["36A9C5E61829440D93D25C08A45AB362"] = {
+            [1] = "48FDC31220B3402283F2C7BB653FE0CF",
+        },
+        ["7CFA9E0AA0F448AAB7870D325D68EA47"] = {
+            [1] = "B9E0479831DD4A1AB84D641644AA6CB8",
         },
         ["F704226FA6C74EC6A3C6BF7A0A01030D"] = {
             [1] = "4DCB70DD0676403ABD193461DA7B57BB",
@@ -45,14 +48,14 @@ return {
         ["088CECE2150D40F6A9C98AE28DCF3524"] = {
             [1] = "FF324D583A7C48FEBAF32EC9C1B04A9F",
         },
+        ["C362BF2D809640E2A43FEFA99D0F2D5E"] = {
+            [1] = "ACD078A247974B348065594DF082540D",
+        },
+        ["05297BFFD3C5422ABA04256D4D44BF6E"] = {
+            [1] = "A59E13063FD745118C273CFC2110F0BD",
+        },
         ["A268ECF677794E6B85AD14189185530E"] = {
             [1] = "7C771E8D75534CECA306933BCA5A6BD7",
-        },
-        ["ACD078A247974B348065594DF082540D"] = {
-            [1] = "A268ECF677794E6B85AD14189185530E",
-        },
-        ["7CFA9E0AA0F448AAB7870D325D68EA47"] = {
-            [1] = "B9E0479831DD4A1AB84D641644AA6CB8",
         },
         ["7953E22AC24C47AE90F6D2D5535DD50A"] = {
             [1] = "593A641709F5413889B0CA564581C29D",
@@ -63,15 +66,16 @@ return {
         ["4498B501463B4F13A85B3986D51EAA41"] = {
             [1] = "088CECE2150D40F6A9C98AE28DCF3524",
         },
-        ["299BC0D1C57D4811BA07AC5DF750AD8A"] = {
-            [1] = "48FDC31220B3402283F2C7BB653FE0CF",
+        ["ACD078A247974B348065594DF082540D"] = {
+            [1] = "A268ECF677794E6B85AD14189185530E",
         },
         ["8FA10BB2EB954C6B98C45A65693212EC"] = {
-            [1] = "299BC0D1C57D4811BA07AC5DF750AD8A",
+            [1] = "36A9C5E61829440D93D25C08A45AB362",
         },
         ["4DCB70DD0676403ABD193461DA7B57BB"] = {
             [1] = "A48D641B870B436E8C8574CE5FC5DA25",
             [2] = "DD2BC2E094A1450A98D2929B42FDF823",
+            [3] = "C362BF2D809640E2A43FEFA99D0F2D5E",
         },
         ["FFD88E8BA2A445B38D4845C9CB9B8D44"] = {
             [1] = "84669459F663471D98C6EFF39EAB078B",
@@ -147,8 +151,8 @@ return {
             ["NodeTag"] = "A59E13063FD745118C273CFC2110F0BD",
             ["Static"] = false,
             ["Pos"] = {
-                ["y"] = 986,
-                ["x"] = 1614,
+                ["y"] = 1069,
+                ["x"] = 1787,
             },
             ["Class"] = "ChangeSelfPositionBevNode",
             ["Operation"] = 2,
@@ -236,8 +240,8 @@ return {
         ["8FA10BB2EB954C6B98C45A65693212EC"] = {
             ["Desc"] = "施放技能",
             ["Pos"] = {
-                ["y"] = 848,
-                ["x"] = 1760,
+                ["y"] = 841,
+                ["x"] = 1871,
             },
             ["Weight"] = 0,
             ["Class"] = "ReleaseSkillBevNode",
@@ -263,7 +267,6 @@ return {
             ["Desc"] = "普通攻击",
             ["Duration"] = 0,
             ["NodeTag"] = "9819F6D899A146C68C5BA9627C8AF861",
-            ["Force"] = 1,
             ["TriggerType"] = 0,
             ["Static"] = false,
             ["Pos"] = {
@@ -295,11 +298,26 @@ return {
             },
             ["Static"] = false,
         },
+        ["36A9C5E61829440D93D25C08A45AB362"] = {
+            ["Desc"] = "行为",
+            ["Weight"] = 0,
+            ["NodeTag"] = "36A9C5E61829440D93D25C08A45AB362",
+            ["Static"] = false,
+            ["Pos"] = {
+                ["y"] = 843,
+                ["x"] = 2077,
+            },
+            ["AddValue"] = 1,
+            ["Class"] = "AssociationBevNode",
+            ["DelayTime"] = 0,
+            ["Key"] = "p",
+            ["Type"] = 0,
+        },
         ["48FDC31220B3402283F2C7BB653FE0CF"] = {
             ["Desc"] = "施放技能",
             ["Pos"] = {
-                ["y"] = 841,
-                ["x"] = 2114,
+                ["y"] = 861,
+                ["x"] = 2331,
             },
             ["Weight"] = 0,
             ["Class"] = "ReleaseSkillBevNode",
@@ -347,7 +365,6 @@ return {
             ["Desc"] = "施放技能",
             ["Duration"] = 15000,
             ["NodeTag"] = "F321BD80CB39463F8258E317C001B334",
-            ["Force"] = 1,
             ["TriggerType"] = 0,
             ["Static"] = false,
             ["Pos"] = {
@@ -386,14 +403,25 @@ return {
             ["Type"] = 0,
             ["Static"] = false,
         },
+        ["C362BF2D809640E2A43FEFA99D0F2D5E"] = {
+            ["Pos"] = {
+                ["y"] = 1083,
+                ["x"] = 626,
+            },
+            ["EnemyNum"] = 8,
+            ["Class"] = "ConditionMonsterAliveNode",
+            ["NodeTag"] = "C362BF2D809640E2A43FEFA99D0F2D5E",
+            ["Operator"] = 1,
+            ["Static"] = false,
+        },
         ["7C771E8D75534CECA306933BCA5A6BD7"] = {
             ["Desc"] = "行为",
             ["Weight"] = 0,
             ["NodeTag"] = "7C771E8D75534CECA306933BCA5A6BD7",
             ["Static"] = false,
             ["Pos"] = {
-                ["y"] = 991,
-                ["x"] = 1211,
+                ["y"] = 972,
+                ["x"] = 1242,
             },
             ["Class"] = "ModifyLevelEditorStateBevNode",
             ["Toggle"] = 1,
@@ -416,8 +444,8 @@ return {
         ["05297BFFD3C5422ABA04256D4D44BF6E"] = {
             ["Desc"] = "行为",
             ["Pos"] = {
-                ["y"] = 991,
-                ["x"] = 1407,
+                ["y"] = 923,
+                ["x"] = 1650,
             },
             ["Weight"] = 0,
             ["Class"] = "ChangeDirBevNode",
@@ -425,21 +453,6 @@ return {
             ["Dir"] = 2,
             ["Type"] = 0,
             ["Static"] = false,
-        },
-        ["299BC0D1C57D4811BA07AC5DF750AD8A"] = {
-            ["Desc"] = "行为",
-            ["Weight"] = 0,
-            ["NodeTag"] = "299BC0D1C57D4811BA07AC5DF750AD8A",
-            ["Static"] = false,
-            ["Pos"] = {
-                ["y"] = 846,
-                ["x"] = 1932,
-            },
-            ["AddValue"] = 1,
-            ["Class"] = "AssociationBevNode",
-            ["DelayTime"] = 0,
-            ["Key"] = "p",
-            ["Type"] = 0,
         },
         ["7CFA9E0AA0F448AAB7870D325D68EA47"] = {
             ["Desc"] = "行为",
@@ -491,16 +504,24 @@ return {
             ["WalkDistance"] = 0,
             ["Type"] = 0,
         },
-        ["EB33A5DE88414BD39580766ED5745B34"] = {
-            ["Pos"] = {
-                ["y"] = 366,
-                ["x"] = 664,
-            },
-            ["Class"] = "ConditionInFightTimeoutNode",
-            ["NodeTag"] = "EB33A5DE88414BD39580766ED5745B34",
+        ["4DCB70DD0676403ABD193461DA7B57BB"] = {
+            ["Desc"] = "变身\
+",
             ["Duration"] = 0,
-            ["Type"] = 1,
+            ["NodeTag"] = "4DCB70DD0676403ABD193461DA7B57BB",
+            ["TriggerType"] = 1,
             ["Static"] = false,
+            ["Pos"] = {
+                ["y"] = 836,
+                ["x"] = 392,
+            },
+            ["Class"] = "ChildNode",
+            ["Loop"] = 0,
+            ["Priority"] = 6,
+            ["DurationInterval"] = {
+                [1] = 0,
+                [2] = 0,
+            },
         },
         ["B9E0479831DD4A1AB84D641644AA6CB8"] = {
             ["Desc"] = "施放技能",
@@ -515,16 +536,14 @@ return {
             ["Type"] = 1,
             ["Static"] = false,
         },
-        ["FF9F5350CA484FAE84FC9D798CCBE748"] = {
-            ["Desc"] = "施放技能",
+        ["EB33A5DE88414BD39580766ED5745B34"] = {
             ["Pos"] = {
-                ["y"] = 610,
-                ["x"] = 1160,
+                ["y"] = 366,
+                ["x"] = 664,
             },
-            ["Weight"] = 0,
-            ["Class"] = "ReleaseSkillBevNode",
-            ["NodeTag"] = "FF9F5350CA484FAE84FC9D798CCBE748",
-            ["ID"] = 502570,
+            ["Class"] = "ConditionInFightTimeoutNode",
+            ["NodeTag"] = "EB33A5DE88414BD39580766ED5745B34",
+            ["Duration"] = 0,
             ["Type"] = 1,
             ["Static"] = false,
         },
@@ -561,7 +580,6 @@ return {
             ["Desc"] = "闪避",
             ["Duration"] = 10000,
             ["NodeTag"] = "5C99A113E5944F00B3A093C9AAA536BC",
-            ["Force"] = 1,
             ["TriggerType"] = 0,
             ["Static"] = false,
             ["Pos"] = {
@@ -576,25 +594,18 @@ return {
                 [2] = 0,
             },
         },
-        ["4DCB70DD0676403ABD193461DA7B57BB"] = {
-            ["Desc"] = "变身\
-",
-            ["Duration"] = 0,
-            ["NodeTag"] = "4DCB70DD0676403ABD193461DA7B57BB",
-            ["Force"] = 0,
-            ["TriggerType"] = 1,
-            ["Static"] = false,
+        ["FF9F5350CA484FAE84FC9D798CCBE748"] = {
+            ["Desc"] = "施放技能",
             ["Pos"] = {
-                ["y"] = 836,
-                ["x"] = 392,
+                ["y"] = 610,
+                ["x"] = 1160,
             },
-            ["Class"] = "ChildNode",
-            ["Loop"] = 0,
-            ["Priority"] = 6,
-            ["DurationInterval"] = {
-                [1] = 0,
-                [2] = 0,
-            },
+            ["Weight"] = 0,
+            ["Class"] = "ReleaseSkillBevNode",
+            ["NodeTag"] = "FF9F5350CA484FAE84FC9D798CCBE748",
+            ["ID"] = 502570,
+            ["Type"] = 1,
+            ["Static"] = false,
         },
         ["A48D641B870B436E8C8574CE5FC5DA25"] = {
             ["Pos"] = {
@@ -612,7 +623,6 @@ return {
             ["Desc"] = "巡逻",
             ["Duration"] = 0,
             ["NodeTag"] = "2D6EEDDE2CE0484492D4AAA889C5CBF6",
-            ["Force"] = 0,
             ["TriggerType"] = 0,
             ["Static"] = false,
             ["Pos"] = {

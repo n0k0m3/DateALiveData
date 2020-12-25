@@ -1,10 +1,11 @@
 
 local SummonBuyResourceView = class("SummonBuyResourceView", BaseLayer)
 
-function SummonBuyResourceView:initData(commodityCid, buyCount)
+function SummonBuyResourceView:initData(commodityCid, buyCount, desTxtId)
     self.commodityCid_ = commodityCid
     self.commodityCfg_ = StoreDataMgr:getCommodityCfg(commodityCid)
     self.buyCount_ = buyCount
+    self.desTxtId = desTxtId or 1200048
     local goods = self.commodityCfg_.goodInfo[1]
     local itemId, itemCount = goods.id, goods.num
     self.itemCid_, self.itemCount_ = goods.id, goods.num
@@ -62,7 +63,7 @@ function SummonBuyResourceView:refreshView()
     self.Label_targetNum:setText(self.itemCount_ * self.buyCount_)
 
     --描述
-    self.Label_targetItemDesc:setTextById(1200048, self.buyCount_)
+    self.Label_targetItemDesc:setTextById(self.desTxtId, self.buyCount_)
 end
 
 function SummonBuyResourceView:registerEvents()

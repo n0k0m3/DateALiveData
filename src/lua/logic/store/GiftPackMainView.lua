@@ -27,17 +27,22 @@ function GiftPackMainView:initTabData(panelId)
     self.tabData = {
     {id = 1, name = 14300095,iconRes = "ui/recharge/gifts/new_1/006.png"},
     {id = 2, name = 14300096,iconRes = "ui/recharge/gifts/new_1/004.png"},
-    {id = 3, name = 14300348,iconRes = "ui/recharge/gifts/new_1/011.png"},
     -- {id = 4, name = 14300097,iconRes = "ui/recharge/gifts/new_1/007.png"},
     -- {id = 5, name = 14300099,iconRes = "ui/recharge/gifts/new_1/005.png"},
-    {id = 8, name = 23019,iconRes = "ui/recharge/gifts/new_1/009.png"},
     }
+    if GlobalFuncDataMgr:isOpen(1) then
+        table.insert(self.tabData, {id = 3, name = 14300348,iconRes = "ui/recharge/gifts/new_1/011.png"})
+    end
+    if GlobalFuncDataMgr:isOpen(2) then
+        table.insert(self.tabData, {id = 8, name = 23019,iconRes = "ui/recharge/gifts/new_1/009.png"})
+    end
+
     --local newBirdPacks = RechargeDataMgr:getNewBirdGiftData()
     --if newBirdPacks and #newBirdPacks > 0 then
        -- table.insert(self.tabData,1,{id = 6, name = 14300098, iconRes = "ui/recharge/gifts/new_1/008.png"})
     --end
 
-    -- local limitPacks = RechargeDataMgr:getLimitGiftData() -- ´¥·¢Àñ°ü×ªÒÆµ½Ö÷½çÃæÁË
+    -- local limitPacks = RechargeDataMgr:getLimitGiftData() -- ′￥・￠à?°ü×aò?μ??÷????á?
     -- if limitPacks and #limitPacks > 0 then
     --     table.insert(self.tabData,1,{id = 6, name = 14300094, iconRes = "ui/recharge/gifts/new_1/010.png"})
     -- end
@@ -60,9 +65,48 @@ function GiftPackMainView:initTabData(panelId)
         if v == panelId then
             panelId = 8 + k
         end
+
     end
 
-    return panelId
+    function checkDateLimit(data)
+        local realData = {}
+        local serverTime = ServerDataMgr:getServerTime()
+        for k,v in ipairs(data) do
+            if v.startDate and v.endDate then
+                if serverTime >= v.startDate and serverTime < v.endDate then
+                    table.insert(realData, v)
+                end
+            else
+                table.insert(realData, v)
+            end
+        end
+        return realData
+    end
+    
+
+    local backGiftList = checkDateLimit(RechargeDataMgr:getGiftListByType(16))
+    if backGiftList and #backGiftList > 0 then
+        table.insert(self.tabData, 2, {id = 10, name = 15010168, iconRes = "ui/recharge/gifts/new_1/013.png"})
+    end
+
+    local anniversaryPacks = checkDateLimit(RechargeDataMgr:getAnniversary2yearData())
+    if anniversaryPacks and #anniversaryPacks > 0 then
+        table.insert(self.tabData,1,{id = 9, name = 14071,iconRes = "ui/recharge/gifts/new_1/012.png"})
+    end
+
+    local whitePacks = checkDateLimit(RechargeDataMgr:getGiftListByType(17))
+    if whitePacks and #whitePacks > 0 then
+        table.insert(self.tabData, 1, {id = 11, name = 302209, iconRes = "ui/recharge/gifts/new_1/014.png"})
+    end
+
+    local newBirdPacks = RechargeDataMgr:getNewBirdGiftData()
+    if newBirdPacks and #newBirdPacks > 0 and RechargeDataMgr:getLeftGiftCnt(11) > 0 then
+        table.insert(self.tabData,1,{id = 6, name = 14300098, iconRes = "ui/recharge/gifts/new_1/008.png"})
+    end
+
+    -- if limitPacks and #limitPacks > 0 then
+    --     table.insert(self.tabData,1,{id = 6, name = 14300094, iconRes = "ui/recharge/gifts/new_1/010.png"})
+    -- end
 end
 
 function GiftPackMainView:initUI(ui)
@@ -279,6 +323,36 @@ function GiftPackMainView:updatePanelView3()
     return model
 end
 
+--国服新增 待处理
+function GiftPackMainView:updatePanelView9()
+    local model = self.modelPanel[9]
+    if not model then
+        model = requireNew("lua.logic.store.Anniversary2YearView"):new()
+        self:addLayerToNode(model, self.Panel_content)
+        self.modelPanel[9] = model
+    end
+    return model
+end
+
+function GiftPackMainView:updatePanelView10()
+    local model = self.modelPanel[10]
+    if not model then
+        model = requireNew("lua.logic.store.GiftListView"):new(16)
+        self:addLayerToNode(model, self.Panel_content)
+        self.modelPanel[10] = model
+    end
+    return model
+end
+
+function GiftPackMainView:updatePanelView11()
+    local model = self.modelPanel[11]
+    if not model then
+        model = requireNew("lua.logic.store.GiftListView"):new(17)
+        self:addLayerToNode(model, self.Panel_content)
+        self.modelPanel[11] = model
+    end
+    return model
+end
 function GiftPackMainView:onShow()
     self.super.onShow(self)
     self:showRedPoint()
@@ -306,6 +380,9 @@ function GiftPackMainView:showRedPoint()
         if info.id == 5 then
             local canGetTask = SummonDataMgr:getCanGetTask()
             _isShow =  canGetTask
+        end
+        if info.id == 11 then
+            _isShow =  RechargeDataMgr:checkSpecialGiftId(51120)
         end
         redTip:setVisible(_isShow)
     end

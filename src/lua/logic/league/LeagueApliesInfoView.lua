@@ -73,19 +73,24 @@ function LeagueApliesInfoView:updateItem(item, data)
     Label_power:setText(tostring(data.fightPower))
     Label_level:setText("Lv."..tostring(data.lvl))
 
-    local nowDate = Utils:getUTCDate(ServerDataMgr:getServerTime())
-    local lastLoginDate = Utils:getUTCDate(math.floor(data.lastLoginTime / 1000))
-    local diffDate = TFDate.diff(nowDate, lastLoginDate)
-    local day = diffDate:spandays()
-    local hour = diffDate:spanhours()
-    local min = diffDate:spanminutes()
-    if day >= 1 then
-        Label_last_login:setTextById(700036, math.floor(day))
-    elseif hour >= 1 then
-        Label_last_login:setTextById(700035, math.floor(hour))
+    if data.online  then
+        Label_last_login:setTextById(270446)
     else
-        Label_last_login:setTextById(700010, math.max(1, math.floor(min)))
+        local nowDate = Utils:getUTCDate(ServerDataMgr:getServerTime())
+        local lastLoginDate = Utils:getUTCDate(math.floor(data.lastLoginTime / 1000))
+        local diffDate = TFDate.diff(nowDate, lastLoginDate)
+        local day = diffDate:spandays()
+        local hour = diffDate:spanhours()
+        local min = diffDate:spanminutes()
+        if day >= 1 then
+            Label_last_login:setTextById(700036, math.floor(day))
+        elseif hour >= 1 then
+            Label_last_login:setTextById(700035, math.floor(hour))
+        else
+            Label_last_login:setTextById(700010, math.max(1, math.floor(min)))
+        end
     end
+    
 
     Button_assent:onClick(function()
         LeagueDataMgr:operateUnionMember(EC_UNIONType.ASSENT, {data.playerId})
@@ -93,6 +98,13 @@ function LeagueApliesInfoView:updateItem(item, data)
 
     Button_decline:onClick(function()
         LeagueDataMgr:operateUnionMember(EC_UNIONType.DECLINE, {data.playerId})
+    end)
+
+    Image_head:setTouchEnabled(true)
+    Image_head:onClick(function()
+        if data.playerId ~= MainPlayer:getPlayerId() then
+            MainPlayer:sendPlayerId(data.playerId)
+        end
     end)
 end
 

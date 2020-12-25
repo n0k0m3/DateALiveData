@@ -11,6 +11,8 @@ function DispatchDetailLayer:ctor(data)
 	self.selectChapterIdxs = {}
 	self.curSelectChapter = nil
 	self.hidePanelInfoState = false
+	self.maxTimes = 0
+	self.selectTimes = 0
 	self.addedHeros = {}
 	local hangupMap = TabDataMgr:getData("Hangup")
 	self.tabBtnInfo = {
@@ -102,6 +104,17 @@ function DispatchDetailLayer:initUI(ui)
 
 	self.Button_dispatch = TFDirector:getChildByPath(Panel_dispatch_info, "Button_dispatch")
 	self.Label_dispatch = TFDirector:getChildByPath(self.Button_dispatch, "Label_dispatch")
+
+	self.Panel_select_times = TFDirector:getChildByPath(Panel_content, "Panel_select_times")
+	self.Label_times_name = TFDirector:getChildByPath(self.Panel_select_times, "Label_times_name")
+	self.Button_times_down = TFDirector:getChildByPath(self.Panel_select_times, "Button_times_down")
+	self.Button_times_up = TFDirector:getChildByPath(self.Panel_select_times, "Button_times_up")
+	self.Label_times_num = TFDirector:getChildByPath(self.Panel_select_times, "Label_times_num")
+	self.Label_cost1_title = TFDirector:getChildByPath(self.Panel_select_times, "Label_cost1_title")
+	self.Label_cost1_num = TFDirector:getChildByPath(self.Panel_select_times, "Label_cost1_num")
+	self.Label_cost2_title = TFDirector:getChildByPath(self.Panel_select_times, "Label_cost2_title")
+	self.Label_cost2_num = TFDirector:getChildByPath(self.Panel_select_times, "Label_cost2_num")
+
 
 	for i=1,#self.tabBtnInfo do
 		local info = self.tabBtnInfo[i]
@@ -222,8 +235,8 @@ function DispatchDetailLayer:refreshContentUI()
 	self.Label_dispatch:setTextById(213171)
 	if self.dispatchData then
 		self.selectChapterIdxs = {}
-		self.Button_dispatch:setTextureNormal("ui/common/button_blue_s.png")
-		self.Label_dispatch:setTextById(213172)
+		-- self.Button_dispatch:setTextureNormal("ui/common/button_blue_s.png")
+		-- self.Label_dispatch:setTextById(213172)
 	else
 		for i,v in ipairs(self.hangUpCfgs) do
 			if DispatchDataMgr:checkEnableDiapatch(self.curSelectTab, v.relatedDungeonLevel) then
@@ -231,6 +244,7 @@ function DispatchDetailLayer:refreshContentUI()
 			end
 		end
 	end
+	self:updateDispatchTimesData()
 	self:refreshDispatchInfo()
 	if #self.chapter_items > 0 then
 		self:selectChapter(1)
@@ -254,6 +268,104 @@ function DispatchDetailLayer:refreshContentUI()
 		end
 		self.Button_goto:setPositionX(self.Label_tips:getPositionX() + self.Label_tips:getSize().width + 40)
 	end
+end
+
+function DispatchDetailLayer:updateDispatchTimesData()
+	self.Panel_select_times:hide()
+	self.DispatchTimes = {}
+	self.maxTimes = 0
+	self.selectTimes = 0		
+	if not self.dispatchData and #self.addedHeros > 0 and table.count(self.selectChapterIdxs) > 0 then
+		local levelIds = {}
+		for i, v in ipairs(self.hangUpCfgs) do
+			if self.selectChapterIdxs[i] then
+				table.insert(levelIds, v.relatedDungeonLevel)
+			end
+		end
+		self.DispatchTimes = DispatchDataMgr:getEnableDisPatchTimes(self.curSelectTab, levelIds)
+		for k, v in pairs(self.DispatchTimes) do
+			self.maxTimes = self.maxTimes + v
+		end
+		self.selectTimes = self.maxTimes
+		if self.maxTimes > 0 then
+			self.Panel_select_times:show()
+			self:updateDispatchTimesUI()
+		end
+	end
+end
+
+function DispatchDetailLayer:updateDispatchTimesUI()
+	self.realTimes = {}
+	local excutionCost = 0
+	local subTimes = self.selectTimes
+	for i, v in ipairs(self.hangUpCfgs) do
+		excutionCost = v.consumptionFatigue
+		if self.selectChapterIdxs[i] then
+			self.realTimes[i] = math.min(subTimes, self.DispatchTimes[v.relatedDungeonLevel])
+			subTimes = subTimes - self.realTimes[i]
+		end
+	end
+
+	local effecSuitIds = DispatchDataMgr:getEffectSuitIds(self.curSelectTab)
+    for i,buffId in ipairs(effecSuitIds) do
+        local buffCfg = TabDataMgr:getData("HangupBuff",buffId)
+        for j,effectId in ipairs(buffCfg.fetterEffect) do
+            local effectCfg = TabDataMgr:getData("HangupResult",effectId)
+            if effectCfg.valid == 1 and effectCfg.typesFetters == 2 then
+                excutionCost = (1 - effectCfg.fetterParameter * 0.0001) * excutionCost
+                break
+            end
+        end
+        
+    end
+
+	local config = self.hangUpCfgs[1]
+	local cost = 0
+	if self.curSelectTab == EC_DISPATCHType.DAILY then
+		local levelCfg = FubenDataMgr:getLevelCfg(config.relatedDungeonLevel)
+        local groupId = FubenDataMgr:getLevelCfg(config.relatedDungeonLevel).levelGroupId
+		cost = levelCfg.cost[1][2]
+	elseif self.curSelectTab == EC_DISPATCHType.SPRITE then
+        local levelCfg = FubenDataMgr:getLevelCfg(config.relatedDungeonLevel)
+		cost = levelCfg.cost[1][2]
+	elseif self.curSelectTab == EC_DISPATCHType.THEATER then
+		
+	elseif self.curSelectTab == EC_DISPATCHType.TEAM then
+		local levelCfg = TeamFightDataMgr:getTeamLevelCfg(0,config.relatedDungeonLevel)
+        cost = 0
+        for k,v in pairs(levelCfg.fightCost) do
+            cost = v
+        end
+	elseif self.curSelectTab == EC_DISPATCHType.DATING then
+		cost = 20
+	end
+
+	self.Label_times_num:setText(tostring(self.selectTimes))
+	local titleStr = "派遣次数："
+	for i=1,#self.tabBtnInfo do
+		local info = self.tabBtnInfo[i]
+		if self.curSelectTab == info.ptype then
+			titleStr = info.name..titleStr
+			break
+		end
+	end
+	self.Label_times_name:setText(titleStr)
+	if self.curSelectTab == EC_DISPATCHType.DATING then
+		self.Label_cost1_title:setTextById(213036)
+	else
+		self.Label_cost1_title:setTextById(213035)
+	end
+	if cost > 0 then
+		self.Label_cost1_title:show()
+		self.Label_cost1_num:show()
+		self.Label_cost1_num:setText((self.selectTimes*cost).."点")
+	else
+		self.Label_cost1_title:hide()
+		self.Label_cost1_num:hide()
+	end
+	
+	self.Label_cost2_title:setTextById(213037)
+	self.Label_cost2_num:setText(tostring(excutionCost*self.selectTimes).."点")
 end
 
 function DispatchDetailLayer:selectChapter(idx, force)
@@ -280,6 +392,7 @@ function DispatchDetailLayer:chooseChapter(idx)
 			self.selectChapterIdxs[idx] = 1
 		end
 	end
+	self:updateDispatchTimesData()
 	self:refreshChapterSelectState()
 	self:updateDispatchBtnState()
 	self:refreshDispatchInfo()
@@ -289,11 +402,15 @@ function DispatchDetailLayer:updateDispatchBtnState()
 	self.Button_dispatch:setGrayEnabled(false)
 	self.Button_dispatch:setTouchEnabled(true)
 	if self.dispatchData then
-		
+		self.Button_dispatch:setGrayEnabled(true)
+		self.Button_dispatch:setTouchEnabled(false)
 	elseif #self.addedHeros <= 0 then
 		self.Button_dispatch:setGrayEnabled(true)
 		self.Button_dispatch:setTouchEnabled(false)
 	elseif table.count(self.selectChapterIdxs) <= 0 then
+		self.Button_dispatch:setGrayEnabled(true)
+		self.Button_dispatch:setTouchEnabled(false)
+	elseif self.maxTimes <= 0 then
 		self.Button_dispatch:setGrayEnabled(true)
 		self.Button_dispatch:setTouchEnabled(false)
 	else
@@ -568,6 +685,7 @@ end
 
 function DispatchDetailLayer:onAddHerosBack()
 	self.addedHeros = DispatchDataMgr:getDispathedHeros(self.curSelectTab)
+	self:updateDispatchTimesData()
 	self:refreshDispatchInfo()
 end
 
@@ -661,7 +779,11 @@ function DispatchDetailLayer:registerEvents()
 				elseif self.curSelectTab == EC_DISPATCHType.SPRITE then
 					FunctionDataMgr:jActivityFuben(EC_ActivityFubenType.SPRITE)
 				elseif self.curSelectTab == EC_DISPATCHType.THEATER then
-					FunctionDataMgr:jTheaterBossView()
+					if #self.addedHeros > 0 then
+						Utils:openView("dispatch.DispatchAddHeroLayer",{dungeonType = self.curSelectTab, dungeonCid = 391, heros = self.addedHeros})
+					else
+						FunctionDataMgr:jTheaterBossView()
+					end
 				elseif self.curSelectTab == EC_DISPATCHType.TEAM then
 					FunctionDataMgr:jActivityFuben(EC_ActivityFubenType.TEAM)
 				end
@@ -683,15 +805,15 @@ function DispatchDetailLayer:registerEvents()
 
     self.Button_dispatch:onClick(function()
     	if self.dispatchData then
-    		local function callback()
-	    		DispatchDataMgr:reqCancelHeroDispatch(self.curSelectTab)
-	    	end
-	    	if MainPlayer:getOneLoginStatus("GUAJIQUXIAO") then
-	    		callback()
-	    	else
-	    		local content = TextDataMgr:getText(213188)
-	    		Utils:openView("common.ReConfirmTipsView", {tittle = 213190, content = content, reType = "GUAJIQUXIAO", confirmCall = callback})
-	    	end
+    		-- local function callback()
+	    	-- 	DispatchDataMgr:reqCancelHeroDispatch(self.curSelectTab)
+	    	-- end
+	    	-- if MainPlayer:getOneLoginStatus("GUAJIQUXIAO") then
+	    	-- 	callback()
+	    	-- else
+	    	-- 	local content = TextDataMgr:getText(213188)
+	    	-- 	Utils:openView("common.ReConfirmTipsView", {tittle = 213190, content = content, reType = "GUAJIQUXIAO", confirmCall = callback})
+	    	-- end
     		
     		return
     	end
@@ -699,11 +821,30 @@ function DispatchDetailLayer:registerEvents()
     		return
     	end
     	local cids = {}
+    	local times = {}
     	for k, v in pairs(self.selectChapterIdxs) do
-    		local cfg = self.hangUpCfgs[tonumber(k)]
-    		table.insert(cids, cfg.id)
+    		if self.realTimes[tonumber(k)] > 0 then
+    			local cfg = self.hangUpCfgs[tonumber(k)]
+    			table.insert(cids, cfg.id)
+    			table.insert(times, self.realTimes[tonumber(k)])
+    		end
     	end
-    	DispatchDataMgr:reqAddHeroDispatch(self.curSelectTab, cids)
+    	DispatchDataMgr:reqAddHeroDispatch(self.curSelectTab, cids, times)
+    end)
+
+    self.Button_times_down:onClick(function()
+    	self.selectTimes = math.max(1, (self.selectTimes - 1))
+    	self:updateDispatchTimesUI()
+    end)
+
+    self.Button_times_up:onClick(function()
+    	local times = self.selectTimes + 1
+    	if times > self.maxTimes then
+    		Utils:showTips(63697)
+    		return
+    	end
+    	self.selectTimes = math.min(self.maxTimes, (times))
+    	self:updateDispatchTimesUI()
     end)
 end
 

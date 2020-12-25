@@ -21,15 +21,15 @@
 * 委托活动主入口
 ]]
 
-local EntrustEntanceView = class("EntrustEntanceView",BaseLayer)
+local EntrustEntranceView = class("EntrustEntranceView",BaseLayer)
 
-function EntrustEntanceView:ctor( data )
+function EntrustEntranceView:ctor( data )
 	self.super.ctor(self,data)
 	self.activityId = data
 	self:init("lua.uiconfig.activity.EntrustEntranceView")
 end
 
-function EntrustEntanceView:initUI( ui )
+function EntrustEntranceView:initUI( ui )
 	self.super.initUI(self,ui)
 	self.image_bg = TFDirector:getChildByPath(ui, "image_bg")
 	self.panel_cg = TFDirector:getChildByPath(ui, "panel_cg")
@@ -42,7 +42,7 @@ function EntrustEntanceView:initUI( ui )
 	self:updateActivity()
 end
 
-function EntrustEntanceView:updateActivity( )
+function EntrustEntranceView:updateActivity( )
 	local activityInfo = ActivityDataMgr2:getActivityInfo(self.activityId)
 	self.image_title:setTexture(activityInfo.extendData.nameIcon)
 	self.image_bg:setTexture(activityInfo.extendData.bgIcon)
@@ -68,14 +68,14 @@ function EntrustEntanceView:updateActivity( )
 	end
 end
 
-function EntrustEntanceView:registerEvents()
+function EntrustEntranceView:registerEvents()
 	self.super.registerEvents(self)
 	self.btn_go:onClick(function ( ... )
 		self:jumpFunc()
 	end)
 end
 
-function EntrustEntanceView:jumpFunc( ) 
+function EntrustEntranceView:jumpFunc( ) 
 	local activityInfo = ActivityDataMgr2:getActivityInfo(self.activityId)
 	if activityInfo.activityType == EC_ActivityType2.ENTRUST then 
 		Utils:openView("activity.ActivityEntrustView",self.activityId)
@@ -88,4 +88,4 @@ function EntrustEntanceView:jumpFunc( )
 	end
 end
 
-return EntrustEntanceView
+return EntrustEntranceView

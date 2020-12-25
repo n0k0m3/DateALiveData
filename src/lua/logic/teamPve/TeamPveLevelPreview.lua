@@ -107,10 +107,14 @@ function TeamPveLevelPreview:handleLevelPreviewUI()
     
     self.levelPreviewNodes["open_house_btn"]:onClick(function()
         if self.matchingStat == 0 then
-            self.matchingStat = 2
-            self:refreshView()
-            local selLevelCfg = self.curLevelCfg
-            TeamFightDataMgr:requestCreateTeam( 2,selLevelCfg.id)
+            local callback = function(visibleType,limitLv,isAutoMatch)
+                self.matchingStat = 2
+                self:refreshView()
+                local selLevelCfg = self.curLevelCfg
+                TeamFightDataMgr:requestCreateTeam( EC_NetTeamType.High,selLevelCfg.id,visibleType,limitLv,isAutoMatch)
+            end
+            Utils:openView("teamFight.TeamRoomSettingView",true,EC_NetTeamType.High,callback)
+
         end
     end)
 end
@@ -156,7 +160,7 @@ function TeamPveLevelPreview:refreshLevelPreviewUI()
     end
 
     local dropCid = self.curLevelCfg.reward[1]
-    local multipleReward, extraReward = ActivityDataMgr2:getDropReward(dropCid)
+    local multipleReward, extraReward, allMultiple = ActivityDataMgr2:getDropReward(dropCid)
     -- 掉落活动额外掉落
     for i, v in ipairs(extraReward) do
         local Panel_dropGoodsItem = self.levelPreviewNodes["drop_gridview"]:pushBackDefaultItem()
@@ -171,6 +175,10 @@ function TeamPveLevelPreview:refreshLevelPreviewUI()
         if multiple then
             flag = bit.bor(flag, EC_DropShowType.ACTIVITY_MULTIPLE)
             arg.multiple = multiple
+        end
+        if allMultiple > 0 then
+            flag = bit.bor(flag, EC_DropShowType.ACTIVITY_MULTIPLE)
+            arg.multiple = allMultiple
         end
 
         local Panel_dropGoodsItem = self.levelPreviewNodes["drop_gridview"]:pushBackDefaultItem()

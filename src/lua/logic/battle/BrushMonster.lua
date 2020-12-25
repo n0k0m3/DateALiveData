@@ -123,7 +123,7 @@ function BrushMonster:doSlain(hero)
     if not self:isEnabled() then 
         return 
     end
-    if self.levelType_ == EC_FBLevelType.PRACTICE then
+    if self.levelType_ == EC_FBLevelType.PRACTICE or self.levelType_ == EC_FBLevelType.MUSIC_GAME then
         local data = hero:getData()
         self:brushPracticeMonster(data.practiceSite)
     else
@@ -246,6 +246,9 @@ function BrushMonster:onBurshEvent(brushCfg, params, callback)
         end
         return
     end
+    if not self:resetMonsterPosition(monster, monsterSectionCfg) then
+        return
+    end
 
     local waveMonsterId = self.waveMonsterId_[brushCfg.Count] or {}
     for i, v in ipairs(monster) do
@@ -275,23 +278,122 @@ function BrushMonster:onBurshEvent(brushCfg, params, callback)
 
 end
 
+function BrushMonster:resetMonsterPosition(monsters, monsterSectionCfg)
+    if table.count(monsterSectionCfg.BrushMode) > 0 then
+        local mode = monsterSectionCfg.BrushMode[1]
+        local pType = mode[1]
+        local posCount = #monsterSectionCfg.positions
+        local prePosition
+        if pType == 1 then
+            if mode[2] == 1 then
+                local id = monsterSectionCfg.positions[math.random(1,posCount)]
+                local point = levelParse:getVisualNode(id)
+                if point then
+                    prePosition = {x = point.Position.X, y = point.Position.Y}
+                end
+            end
+            for i,v in ipairs(monsters) do
+                if prePosition then
+                    v.position = prePosition
+                else
+                    local id = monsterSectionCfg.positions[math.random(1,posCount)]
+                    local point = levelParse:getVisualNode(id)
+                    if point then
+                        v.position = {x = point.Position.X, y = point.Position.Y}
+                    end
+                end
+            end
+        elseif pType == 4 then
+            for i,v in ipairs(monsters) do
+                local id = monsterSectionCfg.positions[(i > posCount and i - posCount or i)]
+                local point = levelParse:getVisualNode(id)
+                if point then
+                    v.position = {x = point.Position.X, y = point.Position.Y}
+                end
+            end
+        elseif pType == 2 then
+            local hero = battleController.getMenbers()[1]
+            if not hero then
+                return false
+            end
+            local pos = hero:getPosition()
+            local rect = CCRectMake(pos.x - mode[3], pos.y - mode[3], mode[3] * 2, mode[3] * 2)
+            if mode[2] == 1 then
+                prePosition = levelParse:randomPos(rect)
+            end
+            for i,v in ipairs(monsters) do
+                if prePosition then
+                    v.position = prePosition
+                else
+                    v.position = levelParse:randomPos(rect)
+                end
+            end
+        elseif pType == 3 then
+            local hero = battleController.getTeam():getHeroWithID(mode[4])
+            if not hero then
+                return false
+            end
+            local pos = hero:getPosition()
+            local rect = CCRectMake(pos.x - mode[3], pos.y - mode[3], mode[3] * 2, mode[3] * 2)
+            if mode[2] == 1 then
+                prePosition = levelParse:randomPos(rect)
+            end
+            for i,v in ipairs(monsters) do
+                if prePosition then
+                    v.position = prePosition
+                else
+                    v.position = levelParse:randomPos(rect)
+                end
+            end
+        elseif pType == 5 then
+            local temp = clone(monsterSectionCfg.positions)
+            local points = {}
+            local function func() 
+                local len = #temp 
+                return len > 0
+            end
+            while func() do
+                local randomIdx = math.random(1, #temp)
+                table.insert(points, temp[randomIdx])
+                table.remove(temp, randomIdx)
+            end
+            for i,v in ipairs(monsters) do
+                local id = points[i] or points[1]
+                local point = levelParse:getVisualNode(id)
+                if point then
+                    v.position = {x = point.Position.X, y = point.Position.Y}
+                end
+            end
+        end
+    end
+
+    return true
+end
+
 -- 技能触发刷怪
-function BrushMonster:onSkillBrushEvent(hero, monsterSectionCid, position, level)
+function BrushMonster:onSkillBrushEvent(hero, monsterSectionCid, position, level,dir)
     if not self:isEnabled() then 
         return 
     end
+    local monsterSectionCfg = TabDataMgr:getData("MonsterSection", monsterSectionCid)
     local waveMonster = self:getWaveMonster(monsterSectionCid)
+    local dir = monsterSectionCfg.finalDir
     if #waveMonster > 1 then
         for i, v in ipairs(waveMonster) do
             v.position = nil
             v.level = level
+            v.dir = hero:getDir()
         end
     else
         local _, monster = next(waveMonster)
         if monster then
             monster.position = position
             monster.level = level
+            monster.dir = hero:getDir()
         end
+    end
+    if not self:resetMonsterPosition(waveMonster, monsterSectionCfg) then
+        return
     end
     local team = hero:getTeam()
     team:addMember(waveMonster)
@@ -304,6 +406,9 @@ function BrushMonster:brushPracticeMonster(site)
     end
     BrushMonster:initPracticeSite()
     local practiceData = BattleDataMgr:getPracticeData()
+    if self.levelCfg_.dungeonType == EC_FBLevelType.MUSIC_GAME then
+        practiceData = BattleDataMgr:getMusicGameCustomData()
+    end
     local battleData = battleController.getBattleData()
 
     local waveMonster = {}
@@ -376,6 +481,9 @@ function BrushMonster:onPracticeBrushEvent(mode)
     if self.practiceMode_ == 1 then
         local practiceData = BattleDataMgr:getPracticeData()
         number = practiceData.number
+    end
+    if self.levelCfg_.dungeonType == EC_FBLevelType.MUSIC_GAME then
+        number = 1
     end
     for i = 1, number do
         self:brushPracticeMonster(i)
@@ -509,6 +617,20 @@ function BrushMonster:transData(monsterSectionCid, monster)
                 local offsetLevel = Utils:getKVP(24001, "number")
                 local level = MainPlayer:getPlayerLv() + offsetLevel
                 rawData.level = level
+            elseif self.levelCfg_.dungeonType == EC_FBLevelType.HWX_TOWER then
+                local level = LinkageHwxDataMgr:getFightFloorId(self.levelCfg_.id)
+                if level then
+                    rawData.level = level
+                else
+                    if monsterAttr.levelType == 1 then
+                        rawData.level = MainPlayer:getPlayerLv()
+                        if monsterAttr.offsetLevel then
+                            rawData.level = rawData.level + monsterAttr.offsetLevel
+                        end
+                    else
+                        rawData.level = monsterSectionCfg.level[1]
+                    end
+                end
             elseif self.levelCfg_.dungeonType == EC_FBLevelType.KABALATREE then
                 local offsetLevel = Utils:getKVP(28001, "number")
                 local level = MainPlayer:getPlayerLv() + offsetLevel

@@ -50,10 +50,10 @@ function GameAlertView:initUI(ui)
     local cancel_title = self.cancel_btn:getChildByName("Label_title")
     comfirm_title:setString(self:transText(self.params.confirm_title))
     cancel_title:setString(self:transText(self.params.cancel_title))
-    self.alert_title:setString(self:transText(self.params.title))
+    self.alert_title:setString(Utils:MultiLanguageStringDeal(self:transText(self.params.title)))
     self.close_btn = page_panel:getChildByName("Button_close")
     if self.params.msg then
-        self.msg_label:setString(self:transText(self.params.msg))
+        self.msg_label:setString(Utils:MultiLanguageStringDeal(self.params.msg))
     end
 
 

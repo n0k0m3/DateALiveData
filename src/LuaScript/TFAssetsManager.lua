@@ -1,7 +1,7 @@
 local TFAssetsManager = TFAssetsManager or {}
 
-TFAssetsManager.baseAppVersion = TabDataMgr:getData("PackBranch")[1].version or "1.03"   --小包远程资源版本号
-local strCfg = require("lua.table.String" ..GAME_LANGUAGE_VAR)
+TFAssetsManager.baseAppVersion = TabDataMgr:getData("PackBranch")[1].version or "1.07"   --小包远程资源版本号
+local strCfg = TFGlobalUtils:requireGlobalFile("lua.table.StartString")
 function TFAssetsManager:init( tag )
 	self.connectedArray = TFArray:new()
 	self.normalQuene = {} --静默后台下载队列
@@ -22,7 +22,7 @@ function TFAssetsManager:init( tag )
 	 	end
 	 end
 
-	self.baseAppVersion = TabDataMgr:getData("PackBranch")[1].version or "1.03";
+	self.baseAppVersion = TabDataMgr:getData("PackBranch")[1].version or "1.07";
 	self.allowedPriority = false
 	self.curTasks = {
 		normalTask = nil,
@@ -42,47 +42,23 @@ function TFAssetsManager:init( tag )
 	self.extAssetsSavePath = ""
 	if CC_TARGET_PLATFORM == CC_PLATFORM_IOS then
 	    self.extAssetsSavePath = writablePath .. '../Library/TFDebug/'
-	    self.remoteUrl = {
-			[1] = "https://c-en.datealive.com/dal_eng/ext_assets/release_ios/"..self.baseAppVersion.."/",
-			[2] = "https://c-dal-en.heitaoglobal.com/dal_eng/ext_assets/release_ios/"..self.baseAppVersion.."/",
-			--[2] = "http://c.dal.heitao2014.com/dal/ext_assets/release_ios/"..self.baseAppVersion.."/",
-		}
-		if VERSION_DEBUG == true then
-			self.remoteUrl = {
-				[1] = "http://c-en.datealive.com/dal_eng/ext_assets/debug_ios/"..self.baseAppVersion.."/",
-				[2] = "http://c-dal-en.heitaoglobal.com/dal_eng/ext_assets/debug_ios/"..self.baseAppVersion.."/",
-				--[2] = "http://c.dal.heitao2014.com/dal/ext_assets/debug_ios/"..self.baseAppVersion.."/",
-			}
-		end
 	elseif CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID then
 	    self.extAssetsSavePath = writablePath .. 'TFDebug/'
-	    self.remoteUrl = {
-			[1] = "http://c-en.datealive.com/dal_eng/ext_assets/release_android/"..self.baseAppVersion.."/",
-			[2] = "http://c-dal-en.heitaoglobal.com/dal_eng/ext_assets/release_android/"..self.baseAppVersion.."/",
-			--[2] = "http://c.dal.heitao2014.com/dal/ext_assets/release_android/"..self.baseAppVersion.."/",
-		}
-		if VERSION_DEBUG == true then
-			self.remoteUrl = {
-				[1] = "http://c-en.datealive.com/dal_eng/ext_assets/debug_android/"..self.baseAppVersion.."/",
-				[2] = "http://c-dal-en.heitaoglobal.com/dal_eng/ext_assets/debug_android/"..self.baseAppVersion.."/",
-				--[2] = "http://c.dal.heitao2014.com/dal/ext_assets/debug_android/"..self.baseAppVersion.."/",
-			}
-		end
 	else
 		self.extAssetsSavePath = writablePath .. "../Library/TFDebug/"
-		self.remoteUrl = {
-			[1] = "http://c-en.datealive.com/dal_eng/ext_assets/test/"..self.baseAppVersion.."/",
-			[2] = "http://c-dal-en.heitaoglobal.com/dal_eng/ext_assets/test/"..self.baseAppVersion.."/",
-			--[2] = "http://c.dal.heitao2014.com/dal/ext_assets/test/"..self.baseAppVersion.."/",
-		}
 		-- if VERSION_DEBUG == true then
 		-- 	self.remoteUrl = {
 		-- 		[1] = "http://192.168.10.110/test/"..self.baseAppVersion.."/",
 		-- 		[2] = "http://192.168.10.110/test/"..self.baseAppVersion.."/",
 		-- 	}
 		-- end
-
 	end
+
+	self.remoteUrl = {}
+	for _,_url in ipairs(URL_REMOTE) do
+		table.insert(self.remoteUrl, _url ..self.baseAppVersion.."/")
+	end
+
 	if TFFileUtil:existFile(self.extAssetsSavePath) == false then
 		TFFileUtil:createDir(self.extAssetsSavePath)
 	end
@@ -124,7 +100,7 @@ function TFAssetsManager:getRemoteFileList(bReTry)
 			autoRetryTimes = 3,
 		}
 
-		self:checkCdnAndUrlUpdate(task.url)
+	self:checkCdnAndUrlUpdate(task.url)
 	DownloadHelper:start(json.encode(task),
 		function(info)
 			
@@ -229,7 +205,8 @@ function TFAssetsManager:checkAssets(checkList,isfirst)
 			-- end
 			checkList[tonumber(k)] = 0
 			if isfirst == true then
-				MEAssetsBundle:defaultBundle():load(string.format("%d.awb",tonumber(k)))
+				--MEAssetsBundle:defaultBundle():load(string.format("%d.awb",tonumber(k)))
+				self:loadAssetFile(tonumber(k), false)
 			end
 			local tmppath = string.format("%s%d.temp",self.extAssetsSavePath,tonumber(k))
 			if TFFileUtil:existFile(tmppath) then
@@ -742,7 +719,9 @@ function TFAssetsManager:onFileDownloaded(info)
 		os.remove(savePath)
 	end
 	os.rename(tmppath,savePath)
-	MEAssetsBundle:defaultBundle():load(string.format("%d.awb",tonumber(fileInfo[1])))
+	--MEAssetsBundle:defaultBundle():load(string.format("%d.awb",tonumber(fileInfo[1])))
+	self:loadAssetFile(tonumber(fileInfo[1]), true)
+
 	if self.priorityAssets then
 		if self.priorityAssets[tonumber(fileInfo[1])] then
 			self.priorityAssets[tonumber(fileInfo[1])] = 0
@@ -840,9 +819,40 @@ function TFAssetsManager:getRemoteListDict( )
 	return self.remoteListDict
 end
 
+function TFAssetsManager:loadAssetFile( id, downLoad )
+	if id == nil then return end
+	self.loadedAssetFile = self.loadedAssetFile or {}
+	if self.loadedAssetFile[id] then return end
+
+	if (not downLoad) and self:getLoadedSucAwbFile(id) <= 0 then
+		local awbpath = string.format("%s%d.awb", self.extAssetsSavePath, id)
+		if TFFileUtil:existFile(awbpath) then
+			os.remove(awbpath)
+		end
+	end
+	self:setLoadedSucAwbFile(id, 0)
+	MEAssetsBundle:defaultBundle():load(string.format("%d.awb", id))
+	self:setLoadedSucAwbFile(id, 1)
+	self.loadedAssetFile[id] = true
+end
+
+function TFAssetsManager:setLoadedSucAwbFile( id, value )
+	local KEY_LOADED_AWB_FILE = "KEY_LOADED_AWB_FILE_"
+	if id and (id > 0) then
+		KEY_LOADED_AWB_FILE = KEY_LOADED_AWB_FILE ..id
+		CCUserDefault:sharedUserDefault():setIntegerForKey(KEY_LOADED_AWB_FILE, value)
+	end
+end
+
+function TFAssetsManager:getLoadedSucAwbFile( id )
+	local KEY_LOADED_AWB_FILE = "KEY_LOADED_AWB_FILE_"
+	if id and (id > 0) then
+		KEY_LOADED_AWB_FILE = KEY_LOADED_AWB_FILE ..id
+		return CCUserDefault:sharedUserDefault():getIntegerForKey(KEY_LOADED_AWB_FILE, 0)
+	end
+end
+
 function TFAssetsManager:checkCdnAndUrlUpdate(url )
-    
-    print("checkAndUpdateUrl"..url)
     self.connectedArray:push(url)
     local time = 0
     for urlValue in self.connectedArray:iterator() do
@@ -852,11 +862,12 @@ function TFAssetsManager:checkCdnAndUrlUpdate(url )
     end
 
     if HeitaoSdk and time <= 1 then
-        --TODO CLOSE
         if tonumber(TFDeviceInfo:getCurAppVersion()) >= 1.15 and CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID then
             local tfUrl = require("TFFramework.net.TFUrl")
-            local parsed_url = tfUrl.parse(url)
-            HeitaoSdk.reportNetworkData(parsed_url.host)
+            if tfUrl then
+            	local parsed_url = tfUrl.parse(url)
+            	HeitaoSdk.reportNetworkData(parsed_url.host)
+            end
         end
         
     end

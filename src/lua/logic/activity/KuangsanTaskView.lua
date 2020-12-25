@@ -206,6 +206,17 @@ function KuangsanTaskView:hasCanGetTask()
     return false
 end
 
+function KuangsanTaskView:hasTaskUnFinish()
+    local items = ActivityDataMgr2:getItems(self.activityId_)
+    for k,v in pairs(items) do
+        local progressInfo = ActivityDataMgr2:getProgressInfo(self.activityInfo_.activityType,v)
+        if progressInfo.status == EC_TaskStatus.ING then
+            return true
+        end
+    end
+    return false
+end
+
 function KuangsanTaskView:refreshTask()
 
     if self:hasCanGetTask() then
@@ -226,7 +237,16 @@ function KuangsanTaskView:refreshTask()
     if remainTime > 0 then
         Utils:openView("activity.EntrustGemFlushView", self.activityInfo_)
     else
-        TFDirector:send(c2s.ACTIVITY_REQ_REFRESH_ENTRUST_ACTIVITY_TASK,{self.activityId_ ,1})
+        if self:hasTaskUnFinish() then
+            local alertparams = clone(EC_GameAlertParams)
+            alertparams.msg = 13310470
+            alertparams.comfirmCallback = function()
+                TFDirector:send(c2s.ACTIVITY_REQ_REFRESH_ENTRUST_ACTIVITY_TASK,{self.activityId_ ,1})
+            end
+            showGameAlert(alertparams)
+        else
+            TFDirector:send(c2s.ACTIVITY_REQ_REFRESH_ENTRUST_ACTIVITY_TASK,{self.activityId_ ,1})
+        end
     end
 end
 

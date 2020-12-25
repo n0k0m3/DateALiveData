@@ -10,6 +10,7 @@ function DuanwuMainView:initData()
         Utils:showTips("未配置活动类型为%s的活动", EC_ActivityType2.DUANWU_1)
     end
 
+    local datingAward = json.decode(self.submitActivityInfo_.extendData.datingAward)
     local activity = ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.DUANWU_2)
     if #activity > 0 then
         self.taskActivityId_ = activity[1]
@@ -18,20 +19,14 @@ function DuanwuMainView:initData()
         Utils:showTips("未配置活动类型为%s的活动", EC_ActivityType2.DUANWU_2)
     end
     
-    if ActivityDataMgr2:getActivityUIType() == 1 then
-        if GlobalVarDataMgr:getValue(GV_MIDAUTUMN_IS_FIRSTENTER) then
-            local datingId = Utils:getKVP(29551, "datingInter")
-            GlobalVarDataMgr:setValue(GV_MIDAUTUMN_IS_FIRSTENTER, false)
-            DatingDataMgr:startDating(datingId)
-        end
-    else
-        if GlobalVarDataMgr:getValue(GV_DUANWU_IS_FIRSTENTER) then
-            local datingId = Utils:getKVP(29550, "datingInter")
-            GlobalVarDataMgr:setValue(GV_DUANWU_IS_FIRSTENTER, false)
-            DatingDataMgr:startDating(datingId)
-        end
-    end
-
+    -- local id = self.submitActivityInfo_.extendData.interDating
+    -- if id then
+    --     local value = Utils:getLocalSettingValue("ActivityTpye_DUANWU_1"..id)
+    --     if value == "" then
+    --         FunctionDataMgr:jStartDating(id)
+    --         Utils:setLocalSettingValue("ActivityTpye_DUANWU_1"..id,"true")
+    --     end
+	-- end
 end
 
 function DuanwuMainView:ctor(...)
@@ -40,6 +35,9 @@ function DuanwuMainView:ctor(...)
     if ActivityDataMgr2:getActivityUIType() == 1 then
         self.__cname = "MidAutumnMainView"
         self:init("lua.uiconfig.activity.midAutumnMainView")
+    elseif ActivityDataMgr2:getActivityUIType() == 2 then
+        self.__cname = "LanternFestivalMainView"
+        self:init("lua.uiconfig.activity.lanternFestivalMainView")
     else
         self:init("lua.uiconfig.activity.duanwuMainView")
     end
@@ -65,11 +63,13 @@ function DuanwuMainView:initUI(ui)
         foo.Button_geted = TFDirector:getChildByPath(foo.root, "Button_geted")
         foo.Label_geted = TFDirector:getChildByPath(foo.Button_geted, "Label_geted")
         foo.Spine_get = TFDirector:getChildByPath(foo.root, "Spine_get"):hide()
+        foo.Image_diban = TFDirector:getChildByPath(foo.root, "Image_diban")
+        foo.lab_last = TFDirector:getChildByPath(foo.root, "lab_last")
         self.Panel_task[i] = foo
     end
     local Image_refresh = TFDirector:getChildByPath(self.Panel_root, "Image_refresh")
     local Label_refresh = TFDirector:getChildByPath(Image_refresh, "Label_refresh")
-    Label_refresh:setTextById(100000131)
+    -- Label_refresh:setTextById(100000131)
     self.Button_refresh = TFDirector:getChildByPath(Image_refresh, "Button_refresh")
     self.Image_free_refresh = TFDirector:getChildByPath(self.Button_refresh, "Image_free_refresh")
     self.Label_cost_refresh = TFDirector:getChildByPath(self.Button_refresh, "Label_cost_refresh")
@@ -85,7 +85,11 @@ function DuanwuMainView:initUI(ui)
         foo.Image_reward = TFDirector:getChildByPath(foo.root, "Image_reward")
         self.Image_submit[i] = foo
     end
-    self.Button_submit = TFDirector:getChildByPath(self.Panel_root, "Image_submit.Button_submit")
+    if ActivityDataMgr2:getActivityUIType() == 2 then
+        self.Button_submit = TFDirector:getChildByPath(self.Panel_root, "Button_submit")
+    else
+        self.Button_submit = TFDirector:getChildByPath(self.Panel_root, "Image_submit.Button_submit")
+    end
     self.Image_submit_tips = TFDirector:getChildByPath(self.Button_submit, "Image_submit_tips")
     local Label_submit = TFDirector:getChildByPath(self.Button_submit, "Label_submit")
     Label_submit:setTextById(100000130)
@@ -143,6 +147,25 @@ function DuanwuMainView:updateTask()
             v.Button_receive:onClick(function()
                     ActivityDataMgr2:send_ACTIVITY_NEW_SUBMIT_ACTIVITY(self.taskActivityId_, itemId)
             end)
+
+            if ActivityDataMgr2:getActivityUIType() == 2 then
+                if v.Button_goto:isVisible() then
+                    v.Image_diban:setTexture("ui/activity/lanternFestival/main/012.png")
+                    v.Label_name:setFontColor(ccc3(255,255,255))
+                    v.Label_desc:setFontColor(ccc3(224,191,115))
+                end
+                if v.Button_geted:isVisible() then
+                    v.Image_diban:setTexture("ui/activity/lanternFestival/main/014.png")
+                    v.Label_name:setFontColor(ccc3(246,201,134))
+                    v.Label_desc:setFontColor(ccc3(246,201,134))
+                end
+                if v.Button_receive:isVisible() then
+                    v.Image_diban:setTexture("ui/activity/lanternFestival/main/016.png")
+                    v.Label_name:setFontColor(ccc3(190,16,35))
+                    v.Label_desc:setFontColor(ccc3(190,16,35))
+                end
+                v.lab_last:setText(rewardNum)
+            end
         end
     end
 end
@@ -283,13 +306,15 @@ function DuanwuMainView:registerEvents()
     self.Button_shop:onClick(function()
         if ActivityDataMgr2:getActivityUIType() == 1 then
             FunctionDataMgr:jStore(311000)
+        elseif ActivityDataMgr2:getActivityUIType() == 2 then
+            FunctionDataMgr:jStore(310000)
         else
             FunctionDataMgr:jStore(305000)
         end
     end)
 
     self.Button_make:onClick(function()
-            Utils:openView("activity.DuanwuMakeView")
+            Utils:openView("activity.DuanwuMakeView", self.submitActivityInfo_.extendData.makeDating)
     end)
 
     self.Button_submit:onClick(function()

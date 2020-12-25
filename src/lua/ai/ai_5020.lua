@@ -59,7 +59,7 @@ return {
     ["nodes"] = {
         ["582F571A39DC4FB0A2488D1FAB6E8F9D"] = {
             ["Desc"] = "行为",
-            ["LimitArea"] = 300,
+            ["LimitArea"] = 100,
             ["Weight"] = 20,
             ["NodeTag"] = "582F571A39DC4FB0A2488D1FAB6E8F9D",
             ["RangeOrigin"] = {
@@ -111,7 +111,6 @@ return {
             ["Desc"] = "普攻",
             ["Duration"] = 0,
             ["NodeTag"] = "C195482D0FA046ECABF6E26A48BC1457",
-            ["Force"] = 0,
             ["TriggerType"] = 1,
             ["Static"] = false,
             ["Pos"] = {
@@ -216,7 +215,6 @@ return {
 ",
             ["Duration"] = 0,
             ["NodeTag"] = "81645DE3DA4F458AB1034CA05106324C",
-            ["Force"] = 0,
             ["TriggerType"] = 0,
             ["Static"] = false,
             ["Pos"] = {
@@ -293,7 +291,6 @@ return {
             ["Desc"] = "钻地",
             ["Duration"] = 5000,
             ["NodeTag"] = "2BBE654C406548A0B3A6A044E58594F9",
-            ["Force"] = 0,
             ["TriggerType"] = 1,
             ["Static"] = false,
             ["Pos"] = {

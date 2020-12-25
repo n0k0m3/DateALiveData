@@ -179,6 +179,7 @@ function DatingReview:refreshItem(item,index)
     print("self.reviewTable[index] ",self.reviewTable[index])
 
     local info = self.infoData[self.reviewTable[index]];
+    info.name = info.name or ""
     local nameLabel = TFDirector:getChildByPath(item,"Label_name");
     local Image_nameBottom = TFDirector:getChildByPath(item, "Image_nameBottom")
     local nameCopy = ""

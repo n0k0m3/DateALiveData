@@ -63,6 +63,10 @@ function CollectPortraitView:updateInfoPage(filtInfo)
 	local typeInfos = {}
 	for i,info in ipairs(filtInfo) do
 		local cfg = CollectDataMgr:getPortraitCfg(info.id)
+		if not cfg then
+			local errormsg = string.format("Portrait cfg not found id = %s", tostring(info.id))
+			Box(errormsg)
+		end
 		typeInfos[cfg.titleType] = typeInfos[cfg.titleType] or {}
         table.insert(typeInfos[cfg.titleType], info)
 	end

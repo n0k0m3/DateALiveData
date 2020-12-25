@@ -56,16 +56,33 @@ function SummonDataMgr:init()
     self.preciousDic = {}
     self.summonMap_ = TabDataMgr:getData("Summon")
     local summon = {}
+
+    local tmpKeepGroupId = nil
     for k, v in pairs(self.summonMap_) do
-        summon[v.groupId] = summon[v.groupId] or {}
-        table.insert(summon[v.groupId], {id = v.id,isOpen = true})
+        -- 服装特殊处理 EC_SummonType.CLOTHESE_1和EC_SummonType.CLOTHESE_2 放一个界面
+        local summonType = v.summonType
+        if summonType == EC_SummonType.CLOTHESE_1 or summonType == EC_SummonType.CLOTHESE_2 then
+            if not tmpKeepGroupId then
+                tmpKeepGroupId = v.groupId
+            end
+            summon[tmpKeepGroupId] = summon[tmpKeepGroupId] or {}
+            table.insert(summon[tmpKeepGroupId], {id = v.id,isOpen = true})
+        else
+            summon[v.groupId] = summon[v.groupId] or {}
+            table.insert(summon[v.groupId], {id = v.id,isOpen = true})
+        end
+        
     end
 
     for k, v in pairs(summon) do
         table.sort(v, function(a, b)
                        local infoA = self.summonMap_[a.id]
                        local infoB = self.summonMap_[b.id]
-                       return infoA.cardCount < infoB.cardCount
+                       if infoA.cardCount < infoB.cardCount then
+                            return true
+                       else
+                            return infoA.id < infoB.id
+                       end
         end)
         local info = self.summonMap_[v[1].id]
         if info then
@@ -267,7 +284,7 @@ function SummonDataMgr:onLogin()
     TFDirector:send(c2s.SUMMON_REQ_HOT_SUMMON_INFO, {})
     TFDirector:send(c2s.SUMMON_REQ_SUMMON_PREVIEW, {})
     TFDirector:send(c2s.SUMMON_REQ_FREE_SUMMON, {})
-    --TFDirector:send(c2s.SUMMON_REQ_FREE_SUMMON_TIME, {})
+    TFDirector:send(c2s.SUMMON_REQ_FREE_SUMMON_TIME, {})
 
     return {s2c.SUMMON_GET_COMPOSE_INFO, s2c.SUMMON_SUMMON_PANEL_INFO,
             s2c.SUMMON_RES_SUMMON_COUNT, s2c.SUMMON_RES_NWSUMMON_INFO,
@@ -656,7 +673,9 @@ function SummonDataMgr:resertSummon()
         if cfg then
             if cfg.summonType == EC_SummonType.APPOINT_EQUIPMENT or
                 cfg.summonType == EC_SummonType.APPOINT_HERO or
-                cfg.summonType == EC_SummonType.CLOTHESE then
+                cfg.summonType == EC_SummonType.CLOTHESE or 
+                cfg.summonType == EC_SummonType.CLOTHESE_1 or 
+                cfg.summonType == EC_SummonType.CLOTHESE_2 then
                 data[1].isOpen = self:isInShowStage(data[1].id)
             elseif cfg.summonType == EC_SummonType.ELF_CONTRACT then
                 data[1].isOpen = false
@@ -1002,7 +1021,6 @@ function SummonDataMgr:onRecvSummonPanelInfo(event)
     if not data then
         return
     end
-
     if data.summonInfo then
         for k,info in ipairs(data.summonInfo) do
             local summonId = info.summonId

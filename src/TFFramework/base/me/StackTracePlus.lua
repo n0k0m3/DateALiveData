@@ -274,7 +274,7 @@ function Dumper:DumpLocals (level)
 			else
 				local source = info.short_src
 				if source:sub(2,7) == "string" then
-					source = source:sub(9)	-- uno mивs, por el espacio que viene (string "Baragent.Main", por ejemplo)
+					source = source:sub(9)	-- uno mĐ¸Đ˛s, por el espacio que viene (string "Baragent.Main", por ejemplo)
 				end
 				--for k,v in pairs(info) do print(k,v) end
 				fun_name = fun_name or GuessFunctionName(info)

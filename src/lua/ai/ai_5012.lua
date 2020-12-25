@@ -49,7 +49,6 @@ return {
             ["Desc"] = "自爆",
             ["Duration"] = 3000,
             ["NodeTag"] = "8858CFD1ABB3471082785515F3A95CB4",
-            ["Force"] = 0,
             ["TriggerType"] = 0,
             ["Static"] = false,
             ["Pos"] = {
@@ -91,7 +90,6 @@ return {
             ["Desc"] = "普攻",
             ["Duration"] = 0,
             ["NodeTag"] = "C195482D0FA046ECABF6E26A48BC1457",
-            ["Force"] = 0,
             ["TriggerType"] = 0,
             ["Static"] = false,
             ["Pos"] = {
@@ -337,7 +335,7 @@ return {
         },
         ["582F571A39DC4FB0A2488D1FAB6E8F9D"] = {
             ["Desc"] = "行为",
-            ["LimitArea"] = 300,
+            ["LimitArea"] = 100,
             ["Weight"] = 20,
             ["NodeTag"] = "582F571A39DC4FB0A2488D1FAB6E8F9D",
             ["RangeOrigin"] = {

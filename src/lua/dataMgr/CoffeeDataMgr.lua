@@ -19,7 +19,10 @@ function CoffeeDataMgr:init()
     TFDirector:addProto(s2c.MAID_ACTIVITY_RESP_REFRESH_MAID, self, self.onRecvUpdateMaidInfo)
     TFDirector:addProto(s2c.MAID_ACTIVITY_RESP_FEED_MAID, self, self.onRecvMaidFeed)
     TFDirector:addProto(s2c.MAID_ACTIVITY_RESP_CHANGE_MAID_WORK, self, self.onRecvMaidChange)
-
+    TFDirector:addProto(s2c.MAID_ACTIVITY_RESP_REFRESH_EVENT_LIST, self, self.onRecvEventUpdate) -- 日志事件更新
+    TFDirector:addProto(s2c.MAID_ACTIVITY_RESP_GET_MAID_EVENT_AWARD, self, self.onRecvreward)
+    TFDirector:addProto(s2c.MAID_ACTIVITY_RESP_CHANGE_ROLE_ID, self, self.updateKanbanRole) -- 更换看板精灵
+    
     self.maidMap_ = TabDataMgr:getData("Maid")
     self.maid_ = {}
     for k, v in pairs(self.maidMap_) do
@@ -27,11 +30,15 @@ function CoffeeDataMgr:init()
     end
 
     self.maidBuffMap_ = TabDataMgr:getData("MaidBuff")
+    self.maidKanbanMap = TabDataMgr:getData("MaidKanban")
 
     self.workingMaid_ = {}
     self.maidInfo_ = {}
     self.haveMaid_ = {}
     self.newMaid_ = {}
+    self.eventMapData_ = {} -- 日志事件
+    self.curRoleId = nil -- 当前精灵看板id
+    self.curRoleListMap = {} -- 当前可使用精灵看板列表
 end
 
 function CoffeeDataMgr:reset()
@@ -39,6 +46,9 @@ function CoffeeDataMgr:reset()
     self.maidInfo_ = {}
     self.haveMaid_ = {}
     self.newMaid_ = {}
+    self.eventMapData_ = {}
+    self.curRoleId = nil 
+    self.curRoleListMap = {} 
 end
 
 function CoffeeDataMgr:onLogin()
@@ -58,12 +68,37 @@ function CoffeeDataMgr:getMaidCfg(id)
     return self.maidMap_[cid]
 end
 
+function CoffeeDataMgr:getMaidCfg1(id)
+    return self.maidMap_[cid]
+end
+
 function CoffeeDataMgr:getMaidInfo(id)
     return self.maidInfo_[id]
 end
 
 function CoffeeDataMgr:getMaidBuffCfg(cid)
     return self.maidBuffMap_[cid]
+end
+
+function CoffeeDataMgr:isBuffActive(fettersCid)
+    local _bool = true
+    for i, v in ipairs(self:getMaidBuffCfg(fettersCid).role) do
+        
+        if _bool ~= self:isHaveSameMaid(v) then -- 解锁判断
+            _bool = false
+            break
+        else                                    -- 上阵判断
+            _bool = false
+            for i, maidId in ipairs(self.workingMaid_) do
+                local maidInfo = self:getMaidInfo(maidId)
+                if maidInfo.cid == v then
+                    _bool = true
+                    break
+                end
+            end
+        end
+    end
+    return _bool
 end
 
 function CoffeeDataMgr:getMaid()
@@ -286,6 +321,14 @@ function CoffeeDataMgr:send_MAID_ACTIVITY_REQ_CHANGE_MAID_WORK(changeId, origina
     TFDirector:send(c2s.MAID_ACTIVITY_REQ_CHANGE_MAID_WORK, {changeId, originalId})
 end
 
+function CoffeeDataMgr:send_MAID_ACTIVITY_REQ_GET_MAID_EVENT_AWARD(eventId)
+    TFDirector:send(c2s.MAID_ACTIVITY_REQ_GET_MAID_EVENT_AWARD, {eventId})
+end
+
+function CoffeeDataMgr:send_MAID_ACTIVITY_REQ_CHANGE_ROLE_ID(roleId)
+    TFDirector:send(c2s.MAID_ACTIVITY_REQ_CHANGE_ROLE_ID, {roleId})
+end
+
 function CoffeeDataMgr:onRecvCoffInfo(event)
     local data = event.data
 
@@ -302,6 +345,20 @@ function CoffeeDataMgr:onRecvCoffInfo(event)
 
     self.extraMaidInfo_ = data.maidInfo
     self.recruitInfo_ = data.recruitInfo
+    
+    if data.eventList then
+        for i, v in ipairs(data.eventList) do
+            if v.ct ~= EC_SChangeType.DELETE then
+                self.eventMapData_[v.id] = v
+            end
+        end
+    end
+    if data.maidRole then
+        self.curRoleId = data.maidRole.roleId
+        for j, v in ipairs(data.maidRole.roleList) do
+            self.curRoleListMap[v] = v
+        end
+    end
 
     EventMgr:dispatchEvent(EV_COFFEE_MAIDINFO_UPDATE, data.enterType)
 end
@@ -311,6 +368,10 @@ function CoffeeDataMgr:onRecvRecruitMaid(event)
     self.recruitInfo_ = data.recruitInfo
     local newId = __encodeMaidId(data.addRecruitId)
     self.newMaid_[newId] = true
+    if data.roleId and not self.curRoleListMap[data.roleId] then
+        self.curRoleListMap[data.roleId] = data.roleId
+        EventMgr:dispatchEvent(EV_COFFEE_ISLOCK_ROLE)
+    end
     EventMgr:dispatchEvent(EV_COFFEE_RECRUIT_MAID)
 end
 
@@ -344,6 +405,114 @@ function CoffeeDataMgr:onRecvMaidChange(event)
         end
         EventMgr:dispatchEvent(EV_COFFEE_MAID_CHANGE)
     end
+end
+
+function CoffeeDataMgr:onRecvEventUpdate(event)
+    local data = event.data 
+    for i, v in ipairs(data.eventList or {}) do
+        if v.ct == EC_SChangeType.DELETE then
+            self.eventMapData_[v.id] = nil
+        else
+            self.eventMapData_[v.id] = v
+        end
+    end
+    EventMgr:dispatchEvent(EV_COFFEE_UPDATE_LOG)
+end
+
+function CoffeeDataMgr:onRecvreward(event)
+    local data = event.data
+    if data.rewards and #data.rewards > 0 then
+        Utils:showReward(data.rewards)
+    end
+end
+
+function CoffeeDataMgr:updateKanbanRole(event)
+    local data = event.data
+    if data.roleId then
+        self.curRoleId = data.roleId
+        EventMgr:dispatchEvent(EV_COFFEE_UPDATE_ROLE)
+    end
+end
+
+function CoffeeDataMgr:isKanBanLock(roleId)
+    if nil == self.curRoleListMap[roleId] then
+        return true
+    end
+    return false
+end
+
+function CoffeeDataMgr:getKanBanConfig(roleId)
+    if roleId then
+        return self.maidKanbanMap[roleId]
+    end
+
+    local tmp = {}
+    for i, v in pairs(self.maidKanbanMap) do
+        table.insert(tmp, v)
+    end
+    table.sort(tmp,function(a, b)
+        if a.id == CoffeeDataMgr:getCurSelectId() then
+            return true
+        end
+        return false
+    end)
+    return tmp
+end
+
+function CoffeeDataMgr:getCurSelectId()
+    return self.curRoleId or 1014
+end
+
+function CoffeeDataMgr:getEventData()
+    local tmp = {}
+    for i, v in pairs(self.eventMapData_) do
+        local tag = os.date("%Y%m%d",v.creatAt)
+        if not tmp[tag] then
+            tmp[tag] = {}
+        end
+        table.insert(tmp[tag], v)
+    end
+
+    for j, v in pairs(tmp) do
+        table.sort(v, function(a, b)
+            return a.creatAt < b.creatAt
+        end)
+    end
+    return tmp
+end
+
+function CoffeeDataMgr:getWeekConfigByDay(i)
+    local id = Utils:getKVP(46034, "week")[i]
+    return  Utils:getKVP(id)
+end
+
+-- 是否获取了所有日志奖励
+function CoffeeDataMgr:isGetAllLogReward()
+    for i, v in pairs(self.eventMapData_) do
+        if not v.reward then
+            return false
+        end
+    end
+    return true
+end
+
+-- 获取最新的日志显示
+function CoffeeDataMgr:getNewLogStr()
+    local tmp = {}
+    for i, v in pairs(self.eventMapData_) do
+        table.insert(tmp, v)
+    end
+    if table.count(tmp) == 0 then
+        return nil
+    end
+
+    table.sort(tmp, function(a, b)
+        return a.creatAt > b.creatAt
+    end)
+    local eventConfig = TabDataMgr:getData("MaidEvent")[tmp[1].cfgId]
+    local descTxt = TextDataMgr:getText(eventConfig.describe)
+    local timeTxt = os.date("%H:%M", tmp[1].creatAt)
+    return timeTxt.." "..descTxt
 end
 
 return CoffeeDataMgr:new()

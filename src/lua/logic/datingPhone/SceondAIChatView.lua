@@ -220,6 +220,13 @@ function SceondAIChatView:registerEvents()
         Utils:openView("datingPhone.RoleTeachFuncLayer", self.roleId,RoleTachMacro.PAGETYPE.ACHIEVE)
     end)
     self._ui.btn_Teach:onClick(function()
+
+        local isCanTeach = RoleTeachDataMgr:canTeachRole()
+        if not isCanTeach then
+            Utils:openView("datingPhone.JoinTipView")
+            return
+        end
+
         Utils:openView("datingPhone.RoleTeachFuncLayer", self.roleId,RoleTachMacro.PAGETYPE.TEACH,RoleTachMacro.TEACH.TeachSelf)
     end)
     self._ui.btn_Rank:onClick(function()
@@ -239,7 +246,9 @@ function SceondAIChatView:registerEvents()
     end)
 
     self._ui.btn_addRoleTeachDay:onClick(function()
-        Utils:openView("datingPhone.TeachCardShowView")
+
+        Utils:openView("datingPhone.JoinTipView")
+        --Utils:openView("datingPhone.TeachCardShowView")
     end)
 
     local function onTextFieldAttachAcc(input)
@@ -399,20 +408,19 @@ end
 function SceondAIChatView:onClickSendMsg()
     self._ui.pannel_face:setVisible(false)
 
-    if self.inputTxt and #self.inputTxt > 0 then
+    if self.inputTxt and #self.inputTxt > 0 and not Utils:getTxtExistSpace(self.inputTxt) then
         DatingPhoneDataMgr:sendAiDialogue(EC_PhoneChatType.Normal, self.inputTxt, self.roleId)
-
         -- 保留自己上次提的问题
         self.keepLastInputTxt = self.inputTxt
 
-        self.inputTxt = ""
-        self._ui.txtField_input:setText("")
-        self:setInputText("")
         self.inputView:setVisible(false)
     else
         Utils:showTips(800104)
         self._ui.lab_tip:setVisible(true)
     end
+    self.inputTxt = ""
+    self._ui.txtField_input:setText("")
+    self:setInputText("")
 end
 
 function SceondAIChatView:loadLive2d()

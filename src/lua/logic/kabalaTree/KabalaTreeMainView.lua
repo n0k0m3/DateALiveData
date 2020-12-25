@@ -77,8 +77,8 @@ function KabalaTreeMainView:initUI(ui)
     self.Panel_prefab = TFDirector:getChildByPath(ui, "Panel_prefab"):hide()
 
     self.Panel_site = {}
-    local ScrollView_point = TFDirector:getChildByPath(self.Panel_root, "ScrollView_point")
-    local Image_diban = TFDirector:getChildByPath(ScrollView_point, "Image_diban")
+    self.ScrollView_point = TFDirector:getChildByPath(self.Panel_root, "ScrollView_point")
+    local Image_diban = TFDirector:getChildByPath(self.ScrollView_point, "Image_diban")
     for i=1, 10 do
     	self.Panel_site[i] = TFDirector:getChildByPath(Image_diban, "Panel_site_"..i)
     	self.Panel_site[i]:setBackGroundColorType(0)
@@ -115,6 +115,10 @@ function KabalaTreeMainView:initUI(ui)
     --检查配置
     self.Button_check = TFDirector:getChildByPath(self.Panel_func_btn, "Button_check")
     self.Button_check:setVisible(CC_TARGET_PLATFORM == CC_PLATFORM_WIN32)
+
+    --新增版本
+    self.Button_check_version = TFDirector:getChildByPath(self.Panel_func_btn, "Button_check_version")
+    self.Button_check_version:setVisible(CC_TARGET_PLATFORM == CC_PLATFORM_WIN32)
 
     --罗盘
     self.Panel_luopan_touch= TFDirector:getChildByPath(self.Panel_root, "Image_luopan_bg")
@@ -212,6 +216,8 @@ end
 
 function KabalaTreeMainView:initTreeData()
 
+
+    local openItem
 	for k, v in pairs(self.Panel_site) do
         local worldid = k
         local cfgInfo = self:getWorldInfo(k)
@@ -222,7 +228,45 @@ function KabalaTreeMainView:initTreeData()
         local Panel_pointItem = self:addPointItem(worldid)
         self:setPointItemData(worldid)
         Panel_pointItem:Pos(0, 0):AddTo(v)
+        local state,time = KabalaTreeDataMgr:getWorldState(worldid)
+        if state == Enum_WorldState.State_Opening then
+            openItem = v
+        end
     end
+
+    if openItem then
+        self:jumpToItem(openItem)
+    end
+
+end
+
+function KabalaTreeMainView:jumpToItem(item)
+
+    local innerContainer = self.ScrollView_point:getInnerContainer()
+    local innerSize = innerContainer:getSize()
+    local contentSize = self.ScrollView_point:getSize()
+    local center = ccp(contentSize.width * 0.5, contentSize.height * 0.5)
+    local y_offset = math.min(0,contentSize.height - innerSize.height)
+    local w_offset = math.min(0,contentSize.width - innerSize.width)
+
+    local position = item:getPosition()
+    local wp = item:getParent():convertToWorldSpaceAR(position)
+    local np = innerContainer:convertToNodeSpaceAR(wp)
+
+    local dis = ccpSub(center , np)
+    local percentX = 0
+    if w_offset ~= 0 then
+        percentX = dis.x * 100 / w_offset
+    end
+    local percentY = 0
+    if y_offset ~= 0 then
+        percentY = (100 - dis.y * 100 / y_offset)
+    end
+    percentX = math.max(0,percentX)
+    percentX = math.min(100,percentX)
+    percentY = math.max(0,percentY)
+    percentY = math.min(100,percentY)
+    self.ScrollView_point:scrollTo(TF_SCROLLVIEW_SCROLL_TO_PERCENT_BOTH, 0.2, true, percentX, percentY)
 end
 
 function KabalaTreeMainView:updateTreeData()
@@ -384,6 +428,15 @@ function KabalaTreeMainView:intoWorld(worldId,worldName)
         return
     end
 
+    if CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 then
+        local version = KabalaTreeDataMgr:getKabalaVersion()
+        local oldVersion = KabalaTreeDataMgr:getOldVersion()
+        if version ~= oldVersion then
+            Utils:showTips("版本号不匹配")
+            return
+        end
+    end
+
     --[[取消打完BOSS不能进世界的限制
     if state == Enum_WorldState.State_Opening and finshCnt >= maxCnt then
         Utils:showTips(3005021)
@@ -391,7 +444,7 @@ function KabalaTreeMainView:intoWorld(worldId,worldName)
     end]]
 
     Utils:openView("kabalaTree.KabalaTreeExploreView",worldId)
-      
+
 end
 
 function KabalaTreeMainView:initScrollBtn()
@@ -517,6 +570,11 @@ function KabalaTreeMainView:registerEvents()
     self.Button_check:onClick(function ()
         self:checkCfg()
     end)
+
+    self.Button_check_version:onClick(function ()
+        KabalaTreeDataMgr:checkVersion()
+    end)
+
     self.Panel_luopan_touch:setTouchEnabled(true)
     self.Panel_luopan_touch:setSwallowTouch(false)
     self.Panel_luopan_touch:addMEListener(TFWIDGET_TOUCHBEGAN, handler(self.touchBegin,self));

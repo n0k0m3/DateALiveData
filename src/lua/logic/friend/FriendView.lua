@@ -1,5 +1,6 @@
 
 local FriendView = class("FriendView", BaseLayer)
+local ScrollBar = require("lua.logic.chat.ScrollBar")
 
 function FriendView:initData(selectIndex)
     self.tabData_ = {
@@ -42,8 +43,22 @@ function FriendView:initData(selectIndex)
             icon = "ui/friend/019.png",
             bIcon = "icon/system/045.png",
             type_ = EC_Friend.SHIELDING,
-        },
+        }
     }
+
+    -- TOOD CLOSE
+    -- 屏蔽师徒系统
+    -- if Utils:getKVP(90023,"open") == 1 and MainPlayer:getPlayerLv() >= Utils:getKVP(90023, "openinglevel") then
+    --     table.insert(self.tabData_,{
+    --         text = 1340000,
+    --         title = 700031,
+    --         heading = 700004,
+    --         icon = "ui/friend/master/icon.png",
+    --         bIcon = "icon/system/045.png",
+    --         type_ = EC_Friend.MASTER,
+    --     })
+    -- end
+    
     self.ruleText_ = {700057, 700058, 700060, 700061}
 
     self.tabBtn_ = {}
@@ -51,6 +66,9 @@ function FriendView:initData(selectIndex)
     if selectIndex and selectIndex <= #self.tabData_ then
         self.defaultSelectIndex_ = selectIndex
     end
+
+    self.curIndex = EC_FriendMaster.Master    -- 师徒顶部选中按钮 
+
     self.lastSelectIndex = self.defaultSelectIndex_
     self.friendItem_ = {}
     self.defaultSelectRuleIndex_ = 1
@@ -82,6 +100,10 @@ function FriendView:onShow()
     if self.tabData_[self.selectIndex_].type_ ~= EC_Friend.INVITE then
         FriendDataMgr:send_FRIEND_REQ_GET_FRIEND_INVITE_INFO()
     end
+    if self.selectIndex_ then
+        self:updateSelectTab()
+    end
+    self:refreshBtnsRed()
 end
 
 function FriendView:initUI(ui)
@@ -236,6 +258,36 @@ function FriendView:initUI(ui)
     self.Panel_shielding:addChild(self.label_empyTetx_shielding)
 
 
+
+    -- 师徒
+    self.Panel_master              = TFDirector:getChildByPath(self.Panel_root, "Panel_master")
+    local masterTableview          = TFDirector:getChildByPath(self.Panel_root, "ScrollView_master")
+    self.masterTableview           = Utils:scrollView2TableView(masterTableview):hide()
+    local Image_shieldingScrollBar = TFDirector:getChildByPath(self.Panel_master, "Image_shieldingScrollBar")
+    local Image_scrollBarInner      = TFDirector:getChildByPath(Image_shieldingScrollBar, "Image_scrollBarInner")
+    self.scrollBar                 = UIScrollBar:create(Image_shieldingScrollBar, Image_scrollBarInner)
+    self.lab_masterIsData          = TFDirector:getChildByPath(self.Panel_master, "lab_masterIsData")
+    self.lab_masterTxt             = TFDirector:getChildByPath(self.lab_masterIsData, "lab_masterTxt")
+    self.Panel_masterBtns          = TFDirector:getChildByPath(self.Panel_master, "Panel_masterBtns")
+    self.btn_masterSpec            = TFDirector:getChildByPath(self.Panel_master, "btn_masterSpec")
+    self.btn_task                  = TFDirector:getChildByPath(self.Panel_master, "btn_task")
+    self.btn_apply                 = TFDirector:getChildByPath(self.Panel_master, "btn_apply")
+    self.btn_askMaster             = TFDirector:getChildByPath(self.Panel_master, "btn_askMaster"):show()
+    self.btn_getApprentice         = TFDirector:getChildByPath(self.Panel_master, "btn_getApprentice"):show()
+    self.Panel_masterItem          = TFDirector:getChildByPath(self.Panel_prefab, "Panel_masterItem")
+    TFDirector:getChildByPath(self.Panel_masterBtns, "btn_1.txt"):setTextById(1340023)
+    TFDirector:getChildByPath(self.Panel_masterBtns, "btn_2.txt"):setTextById(1340024)
+    TFDirector:getChildByPath(self.btn_masterSpec, "txt"):setTextById(1340026)
+    TFDirector:getChildByPath(self.btn_task, "txt"):setTextById(1340025)
+    TFDirector:getChildByPath(self.btn_apply, "txt"):setTextById(1340020)
+    TFDirector:getChildByPath(self.btn_askMaster, "txt"):setTextById(1340021)
+    TFDirector:getChildByPath(self.btn_getApprentice, "txt"):setTextById(1340022)
+    -- 师徒相关红点
+    self.btn_masterSpecRed         = TFDirector:getChildByPath(self.btn_masterSpec, "Image_redtip")
+    self.btn_taskRed               = TFDirector:getChildByPath(self.btn_task, "Image_redtip")
+    self.btn_applyRed              = TFDirector:getChildByPath(self.btn_apply, "Image_redtip")
+    self:refreshMasterBtns()
+
     self.Panel_top = TFDirector:getChildByPath(self.Panel_root, "Panel_top")
     local Panel_left = TFDirector:getChildByPath(self.Panel_root, "Panel_left")
     self.Label_count = TFDirector:getChildByPath(self.Panel_top, "Label_count")
@@ -252,6 +304,7 @@ function FriendView:initUI(ui)
 
     self:refreshView()
 end
+
 
 function FriendView:refreshView()
     self:initTabBtn()
@@ -276,6 +329,24 @@ function FriendView:refreshView()
     self.TextField_find:setPlaceHolder(placeHolder)
 
     self:selectTab(self.defaultSelectIndex_)
+end
+
+function FriendView:refreshMasterBtns()
+    local btnAskMasterBool = false
+    local isHadMaster, isHadApprentice = FriendDataMgr:isHaveMasterApprentice()
+    local isOutMaster = FriendDataMgr:isApprenticeFinished()
+    local limitLv  = Utils:getKVP(90023, "apprenticeClass")
+    local playerLv = MainPlayer:getPlayerLv()
+    if limitLv[1] <= playerLv and playerLv <= limitLv[2] then
+        btnAskMasterBool = true
+    end
+    if isHadMaster and not isOutMaster then
+        btnAskMasterBool = true
+    end
+    self.btn_askMaster:setVisible(btnAskMasterBool)
+    self.btn_getApprentice:setVisible(not btnAskMasterBool)
+    self.btn_askMaster:setGrayEnabled(not FriendDataMgr:isCanApplyMater())
+    self.btn_getApprentice:setGrayEnabled(not FriendDataMgr:isCanGetApprentice())
 end
 
 function FriendView:initTabBtn()
@@ -337,6 +408,8 @@ function FriendView:updateRedPointStatus()
                 isCanReceive = FriendDataMgr:isCanRecvFriendShip()
             elseif tabData.type_ == EC_Friend.APPLY then
                 isCanReceive = FriendDataMgr:isHaveFriendRequest()
+            elseif tabData.type_ == EC_Friend.MASTER then
+                isCanReceive = FriendDataMgr:isMasterRelationShow()
             end
             item.Image_tips:setVisible(isCanReceive)
         end
@@ -357,6 +430,8 @@ function FriendView:updateSelectTab()
         self:showShielding()
     elseif tabData.type_ == EC_Friend.INVITE then
         self:showInvite()
+    elseif tabData.type_ == EC_Friend.MASTER then
+        self:showMaster()
     end
 
     self:updateRedPointStatus()
@@ -375,8 +450,9 @@ function FriendView:selectTab(index)
     self.Panel_add:setVisible(tabData.type_ == EC_Friend.ADD)
     self.Panel_invite:setVisible(tabData.type_ == EC_Friend.INVITE)
     self.Panel_shielding:setVisible(tabData.type_ == EC_Friend.SHIELDING)
+    self.Panel_master:setVisible(tabData.type_ == EC_Friend.MASTER) 
 
-    self.Panel_top:setVisible(tabData.type_ ~= EC_Friend.INVITE)
+    self.Panel_top:setVisible(tabData.type_ ~= EC_Friend.INVITE and tabData.type_ ~= EC_Friend.MASTER)
 
     for i, v in ipairs(self.ListView_tab:getItems()) do
         local item = self.tabBtn_[v]
@@ -450,8 +526,12 @@ function FriendView:showInvite()
     -- self:onFriendInviteUpdateEvent()
 end
 
-function FriendView:addFriendItem()
-    local Panel_friendItem = self.Panel_friendItem:clone()
+function FriendView:showMaster()
+    self:selectMaterByIndex(self.curIndex)
+end
+
+function FriendView:addFriendItem(itemCell)
+    local Panel_friendItem = itemCell or self.Panel_friendItem:clone()
 
     local item = {}
     item.root = Panel_friendItem
@@ -474,22 +554,41 @@ function FriendView:addFriendItem()
     -- Label_givingTxt:setTextById(700014)
     item.Button_agree = TFDirector:getChildByPath(item.Image_diban, "Button_agree")
     local Label_agreeTxt = TFDirector:getChildByPath(item.Button_agree, "Label_agreeTxt")
-    Label_agreeTxt:setTextById(700018)
+    
     item.Button_reject = TFDirector:getChildByPath(item.Image_diban, "Button_reject")
     local Label_rejectTxt = TFDirector:getChildByPath(item.Button_reject, "Label_rejectTxt")
-    Label_rejectTxt:setTextById(700019)
+    
     item.Button_add = TFDirector:getChildByPath(item.Image_diban, "Button_add")
     local Label_addTxt = TFDirector:getChildByPath(item.Button_add, "Label_addTxt")
-    Label_addTxt:setTextById(700003)
+   
     item.Button_shielding = TFDirector:getChildByPath(item.Image_diban, "Button_shielding")
     local Label_shieldingTxt = TFDirector:getChildByPath(item.Button_shielding, "Label_shieldingTxt")
-    Label_shieldingTxt:setTextById(700030)
+
+    item.img_relation = TFDirector:getChildByPath(item.Image_diban, "img_relation")
+    
+    if not itemCell then
+        Label_agreeTxt:setTextById(700018)
+        Label_rejectTxt:setTextById(700019)
+        Label_addTxt:setTextById(700003)
+        Label_shieldingTxt:setTextById(700030)
+    end
+    -- 寄语按钮
+    item.Button_sendBless = TFDirector:getChildByPath(item.Image_diban, "Button_sendBless")
 
     item.Panel_friendView_gray = TFDirector:getChildByPath(item.Image_diban, "Panel_friendView_gray")
     item.Image_friendView_select = TFDirector:getChildByPath(item.Image_diban, "Image_friendView_select")
 
-    self.friendItem_[Panel_friendItem] = item
-    return Panel_friendItem
+    -- 师徒item
+    item.btn_masterDelete   = TFDirector:getChildByPath(item.Image_diban, "btn_masterDelete")
+    item.btn_masterGiveGift = TFDirector:getChildByPath(item.Image_diban, "btn_masterGiveGift")
+    item.btn_masterGetGift  = TFDirector:getChildByPath(item.Image_diban, "btn_masterGetGift")
+    item.img_masterRelation = TFDirector:getChildByPath(item.Image_diban, "img_masterRelation")
+    item.img_apprienceState = TFDirector:getChildByPath(item.Image_diban, "img_apprienceState")
+
+    if not itemCell then
+        self.friendItem_[Panel_friendItem] = item
+    end
+    return Panel_friendItem, item
 end
 
 function FriendView:updateFriendListByType(type_)
@@ -594,6 +693,8 @@ function FriendView:updateFriendListByType(type_)
         item.Button_reject:setVisible(type_ == EC_Friend.APPLY)
         item.Button_add:setVisible(type_ == EC_Friend.ADD)
         item.Button_shielding:setVisible(type_ == EC_Friend.SHIELDING)
+        item.Button_sendBless:setVisible(type_ == EC_Friend.FRIEND)
+
         self:setFriendInfo(item, friendInfo)
     end
     local posy = math.abs(offset.y) - listView:getInnerContainerSize().height + listView.scrollView:getSize().height
@@ -606,8 +707,14 @@ function FriendView:updateFriendListByIndex(index)
 end
 
 function FriendView:setFriendInfo(item, friendInfo)
-    local heroCfg = TabDataMgr:getData("Hero", friendInfo.leaderCid)
-    local portraitCid = friendInfo.portraitCid > 0 and friendInfo.portraitCid or friendInfo.leaderCid
+    -- print("44444444444444444",friendInfo)
+    local portraitCid = friendInfo.portraitCid
+    if friendInfo.leaderCid then
+        local heroCfg = TabDataMgr:getData("Hero", friendInfo.leaderCid)
+        item.Image_quality:setTexture(EC_HeroQualitySmallPic[heroCfg.rarity])
+        portraitCid = friendInfo.portraitCid > 0 and friendInfo.portraitCid or friendInfo.leaderCid
+    end
+
     local icon = AvatarDataMgr:getAvatarIconPath(portraitCid)
     item.Image_icon:setTexture(icon)
     local avatarFrameIcon,avatarFrameEffect = AvatarDataMgr:getAvatarFrameIconPath(friendInfo.portraitFrameCid)
@@ -624,11 +731,17 @@ function FriendView:setFriendInfo(item, friendInfo)
         headFrameEffect:setName("headFrameEffect")
         item.Image_icon_cover_frame:addChild(headFrameEffect, 1)
     end
-    item.Image_quality:setTexture(EC_HeroQualitySmallPic[heroCfg.rarity])
-    item.Label_name:setText(friendInfo.name)
+    
+    local name,_count = TFGlobalUtils:checkPlayerProvision(friendInfo.name)
     item.Label_level:setTextById(800006, friendInfo.lvl)
-    item.Label_name:setText(friendInfo.name)
+    if _count > 0 then
+        item.Label_level:setText(name)
+    end
+    item.Label_name:setText(name)
     item.Label_power:setText(friendInfo.fightPower)
+    if _count > 0 then
+        item.Label_power:setText(name)
+    end
     if friendInfo.online then
         item.Label_recentLogin:setTextById(700037)
     else
@@ -642,7 +755,7 @@ function FriendView:setFriendInfo(item, friendInfo)
             item.Label_recentLogin:setTextById(700036, math.floor(day))
         elseif hour >= 1 then
             item.Label_recentLogin:setTextById(700035, math.floor(hour))
-        else
+    else
             item.Label_recentLogin:setTextById(700010, math.max(1, math.floor(min)))
         end
     end
@@ -651,59 +764,134 @@ function FriendView:setFriendInfo(item, friendInfo)
         MainPlayer:sendPlayerId(friendInfo.pid)
     end)
 
-    item.Button_receive:onClick(function()
-        local receiveCount = FriendDataMgr:getReceiveCount()
-        local remainReceiveCount = math.max(0, self.maxReceiveCount_ - receiveCount)
-        if remainReceiveCount > 0 then
-            FriendDataMgr:send_FRIEND_REQ_OPERATE(EC_FriendOp.RECEIVE_GIFT, {friendInfo.pid})
-        else
-            Utils:showTips(700054)
+    -- Panel_masterItem 师徒
+    if item.btn_masterDelete then
+        item.btn_masterGiveGift:setVisible(friendInfo.type == EC_FriendMasterType.Apprentice and not friendInfo.finished and friendInfo.hasGift)
+        item.btn_masterGetGift:setVisible(friendInfo.type == EC_FriendMasterType.Master and friendInfo.hasGift)
+
+        local src = nil
+        if friendInfo.type == EC_FriendMasterType.Master then
+            src = EC_MasterTagImgSrc.Master
+        elseif friendInfo.type == EC_FriendMasterType.SameGate then
+            src = EC_MasterTagImgSrc.SameGate
+        elseif friendInfo.type == EC_FriendMasterType.Apprentice then
+            src = EC_MasterTagImgSrc.Apprentice
         end
-    end)
-    item.Button_giving:onClick(function()
-        FriendDataMgr:send_FRIEND_REQ_OPERATE(EC_FriendOp.GIVE_GIFT, {friendInfo.pid})
-    end)
-    item.Button_agree:onClick(function()
-        if #self.friend_ < self.maxFriendsNum_ then
-            FriendDataMgr:send_FRIEND_REQ_OPERATE(EC_FriendOp.AGREE_APPLY, {friendInfo.pid})
-        else
-            Utils:showTips(210005)
+        item.img_masterRelation:setVisible(nil ~= src)
+        if src then
+            item.img_masterRelation:setTexture(src)
         end
-    end)
-    item.Button_reject:onClick(function()
-        FriendDataMgr:send_FRIEND_REQ_OPERATE(EC_FriendOp.REFUSE_APPLY, {friendInfo.pid})
-    end)
-    item.Button_add:onClick(function()
-        FriendDataMgr:addFriend(friendInfo.pid)
-    end)
-    item.Button_shielding:onClick(function()
-        local view = Utils:openView("common.ConfirmBoxView")
-        view:setCallback(function()
-            FriendDataMgr:send_FRIEND_REQ_OPERATE(EC_FriendOp.LIFTED_SHIELD, {friendInfo.pid})
+
+
+        if friendInfo.type ~= EC_FriendMasterType.Master and friendInfo.finished then
+            item.img_apprienceState:setTexture(EC_MasterTagImgSrc.OutMaster)
+            item.img_apprienceState:show()
+        else
+            item.img_apprienceState:hide()
+        end
+
+        -- 不让解除同门关系
+        item.btn_masterDelete:setVisible(friendInfo.type ~= EC_FriendMasterType.SameGate)
+        -- 解除师徒关系
+        item.btn_masterDelete:onClick(function()
+            local args = {
+                tittle = 2107025,
+                content = TextDataMgr:getText(1340051),
+                confirmCall = function()
+                    local type = FriendDataMgr:getMasterTypeById(friendInfo.pid)
+                    local tag
+                    if type == EC_FriendMaster.Master then
+                        tag = 7
+                    end
+                    if type == EC_FriendMaster.Apprentice then
+                        tag = 8
+                    end
+                    FriendDataMgr:send_APPRENTICE_REQ_HANDLE_APPRENTICE(tag, friendInfo.pid)
+                end,
+            }
+            Utils:showReConfirm(args)
         end)
-        local content = TextDataMgr:getText(700039)
-        view:setContent(content)
-    end)
-    item.Panel_friendView_gray:setVisible(false)
-    item.Image_friendView_select:setVisible(false)
-    item.Image_diban:onClick(function()
-        if self.deletPlayerCids[item] then
-            self.deletPlayerCids[item] = nil
-            item.Image_friendView_select:setVisible(false)
-            item.Panel_friendView_gray:setVisible(false)
-        else
-            self.deletPlayerCids[item] = friendInfo.pid
-            item.Image_friendView_select:setVisible(true)
-            item.Panel_friendView_gray:setVisible(true)
+
+        item.btn_masterGiveGift:onClick(function()
+            Utils:openView("friend.MasterGiveGiftView")
+        end)
+
+        item.btn_masterGetGift:onClick(function()
+            FriendDataMgr:send_APPRENTICE_REQ_FETCH_GIFT()
+        end)
+    end
+
+    -- Panel_friendItem  
+    if item.Button_receive then
+
+        local _src = nil
+        if friendInfo.type == 1 then
+            _src = EC_MasterTagImgSrc.Master
+        elseif friendInfo.type == 2 then
+            _src = EC_MasterTagImgSrc.Apprentice
         end
-        if table.count(self.deletPlayerCids) > 0 then
-            self.Button_delet_sure:setTouchEnabled(true)
-            self.Button_delet_sure:setGrayEnabled(false)
-        else
-            self.Button_delet_sure:setTouchEnabled(false)
-            self.Button_delet_sure:setGrayEnabled(true)
+        item.img_relation:setVisible(friendInfo.type == 1 or friendInfo.type == 2)
+        if _src then
+            item.img_relation:setTexture(_src)
         end
-    end)
+
+        item.Button_receive:onClick(function()
+            local receiveCount = FriendDataMgr:getReceiveCount()
+            local remainReceiveCount = math.max(0, self.maxReceiveCount_ - receiveCount)
+            if remainReceiveCount > 0 then
+                FriendDataMgr:send_FRIEND_REQ_OPERATE(EC_FriendOp.RECEIVE_GIFT, {friendInfo.pid})
+            else
+                Utils:showTips(700054)
+            end
+        end)
+        item.Button_giving:onClick(function()
+            FriendDataMgr:send_FRIEND_REQ_OPERATE(EC_FriendOp.GIVE_GIFT, {friendInfo.pid})
+        end)
+        item.Button_agree:onClick(function()
+            if #self.friend_ < self.maxFriendsNum_ then
+                FriendDataMgr:send_FRIEND_REQ_OPERATE(EC_FriendOp.AGREE_APPLY, {friendInfo.pid})
+            else
+                Utils:showTips(210005)
+            end
+        end)
+        item.Button_reject:onClick(function()
+            FriendDataMgr:send_FRIEND_REQ_OPERATE(EC_FriendOp.REFUSE_APPLY, {friendInfo.pid})
+        end)
+        item.Button_add:onClick(function()
+            FriendDataMgr:addFriend(friendInfo.pid)
+        end)
+        item.Button_shielding:onClick(function()
+            local view = Utils:openView("common.ConfirmBoxView")
+            view:setCallback(function()
+                FriendDataMgr:send_FRIEND_REQ_OPERATE(EC_FriendOp.LIFTED_SHIELD, {friendInfo.pid})
+            end)
+            local content = TextDataMgr:getText(700039)
+            view:setContent(content)
+        end)
+        item.Button_sendBless:onClick(function()
+            Utils:openView("activity.EditBlessView",friendInfo.pid)
+        end)
+        item.Panel_friendView_gray:setVisible(false)
+        item.Image_friendView_select:setVisible(false)
+        item.Image_diban:onClick(function()
+            if self.deletPlayerCids[item] then
+                self.deletPlayerCids[item] = nil
+                item.Image_friendView_select:setVisible(false)
+                item.Panel_friendView_gray:setVisible(false)
+            else
+                self.deletPlayerCids[item] = friendInfo.pid
+                item.Image_friendView_select:setVisible(true)
+                item.Panel_friendView_gray:setVisible(true)
+            end
+            if table.count(self.deletPlayerCids) > 0 then
+                self.Button_delet_sure:setTouchEnabled(true)
+                self.Button_delet_sure:setGrayEnabled(false)
+            else
+                self.Button_delet_sure:setTouchEnabled(false)
+                self.Button_delet_sure:setGrayEnabled(true)
+            end
+        end)
+    end
 end
 
 function FriendView:updateItemSelectState()
@@ -732,6 +920,10 @@ function FriendView:registerEvents()
     EventMgr:addEventListener(self, EV_FRIEND_OPERATEFRIEND, handler(self.onOperateFriendEvent, self))
     EventMgr:addEventListener(self, EV_FRIEND_UPDATE, handler(self.onFriendUpdateEvent, self))
     EventMgr:addEventListener(self, EV_FRIEND_INVITE_UPDATE, handler(self.onFriendInviteUpdateEvent, self))
+    
+    EventMgr:addEventListener(self, EV_FRIEND_MASTER_UPDATE, handler(self.onRefreshMasterList, self))
+    EventMgr:addEventListener(self, EV_FRIEND_MASTERAPPLYLIST_UPDATE, handler(self.refreshBtnsRed, self))
+    EventMgr:addEventListener(self, EV_FREND_MASTERGITGIFT_UPDATE, handler(self.refreshBtnsRed, self))
 
     self.TextField_find:addMEListener(TFTEXTFIELD_DETACH, function(input)
         self.inputLayer_:listener(input:getText())
@@ -924,8 +1116,142 @@ function FriendView:registerEvents()
             self:selectSortRule(i)
         end)
     end
+
+    for i, btn in ipairs(self.Panel_masterBtns:getChildren()) do
+        local index = string.gsub(btn:getName(), "btn_", "")
+        index = tonumber(index)
+        btn:onClick(function()
+            self:selectMaterByIndex(index)
+        end)
+
+        -- 不能收徒前不需要展示徒弟页签
+        if index == EC_FriendMaster.Apprentice then
+            local limitLv  = Utils:getKVP(90023, "apprenticeClass")
+            local playerLv = MainPlayer:getPlayerLv()
+            if  playerLv <= limitLv[2] then
+                btn:hide()
+            end
+        end
+    end
+
+    self.btn_masterSpec:onClick(function()
+        Utils:openView("friend.MasterPrivilegeView")
+    end)  
+
+    self.btn_task:onClick(function()
+        local state1, state2 = FriendDataMgr:isHaveMasterApprentice()
+        if (state1 or state2) and not FriendDataMgr:isApprenticeFinished() then
+            Utils:openView("friend.MasterTaskView", EC_FriendMasterApply.ApplyList)
+        else
+            local limitLv  = Utils:getKVP(90023, "apprenticeLevel")
+            local playerLv = MainPlayer:getPlayerLv()
+            if FriendDataMgr:isApprenticeFinished() then
+                Utils:showTips(1340054)
+                return
+            end
+            if limitLv[1] <= playerLv and playerLv <= limitLv[2] then
+                Utils:showTips(1340004)
+            else
+                Utils:showTips(1340005) 
+            end 
+        end
+    end)        
+
+    local isHadMaster, isHadApprentice = FriendDataMgr:isHaveMasterApprentice()
+    self.btn_apply:onClick(function()
+        Utils:openView("friend.MasterList", EC_FriendMasterApply.ApplyList)
+    end)    
+    
+    self.btn_askMaster:onClick(function()
+        if FriendDataMgr:isCanApplyMater() then
+            Utils:openView("friend.MasterList", EC_FriendMasterApply.ApplyMaster)
+        else
+            local isOutMaster = FriendDataMgr:isApprenticeFinished()
+            if FriendDataMgr:getIsInCD() then
+                Utils:showTips(1340007)
+            elseif isHadMaster and not isOutMaster then
+                Utils:showTips(1340006)
+            elseif isOutMaster then
+                Utils:showTips(1340003)
+            end
+        end
+        self:refreshMasterBtns()
+    end)          
+
+    self.btn_getApprentice:onClick(function()
+        if FriendDataMgr:isCanGetApprentice() then
+            Utils:openView("friend.MasterList", EC_FriendMasterApply.GetApprentice)
+        else
+            if FriendDataMgr:getIsInCD() then
+                Utils:showTips(1340009)
+            elseif isHadApprentice then
+                Utils:showTips(1340008)
+            end
+        end
+        self:refreshMasterBtns()
+    end) 
+
+    self.masterTableview:addMEListener(TFTABLEVIEW_SIZEFORINDEX, handler(self.masterCellSize,self))
+    self.masterTableview:addMEListener(TFTABLEVIEW_NUMOFCELLSINTABLEVIEW, handler(self.masterNumberOfCells,self))
+    self.masterTableview:addMEListener(TFTABLEVIEW_SIZEATINDEX, handler(self.masterCellAtIndex,self))
+    self.masterTableview:addMEListener(TFTABLEVIEW_SCROLL, handler(self.tableScroll,self))
 end
 
+function FriendView:masterCellSize()
+    local size = self.Panel_masterItem:getSize()
+    return size.height + 5, size.width
+end
+
+function FriendView:masterNumberOfCells()
+    return table.count(FriendDataMgr:getMasterDataByType(self.curIndex))
+end
+
+function FriendView:masterCellAtIndex(tableView,idx)
+    local cell = tableView:dequeueCell()
+    local index = idx + 1
+    local item = nil
+
+    if nil == cell then
+        cell = TFTableViewCell:create()
+        item = self.Panel_masterItem:clone()
+
+        if item == nil then
+            return
+        end
+        item:setPosition(ccp(0,0))
+        cell:addChild(item)
+        cell.item = item
+    else
+        item = cell.item
+    end
+
+    self:refreshCellItem(item,index)
+    return cell
+end
+
+function FriendView:refreshCellItem(itemCell, index)
+    if not itemCell.item then
+        local _, _item = self:addFriendItem(itemCell)
+        itemCell.item  = _item
+    end
+    local info = FriendDataMgr:getMasterDataByType(self.curIndex)[index]
+    -- 匹配以前的变量（相同数据 服务器给的名字不一样）
+    info["portraitCid"] = info.portraitCId
+    info["portraitFrameCid"] = info.portraitFrameCId
+    info["lvl"] = info.level
+    info["pid"] = info.playerId
+    self:setFriendInfo(itemCell.item, info)
+end
+
+function FriendView:tableScroll(tableView)
+    local contentOffset = tableView:getContentOffset()
+    local contentSize   = tableView:getContentSize()
+    local size          = tableView:getSize()
+    local length        = contentSize.height - size.height
+    local percent       = -contentOffset.y/length
+    percent = percent <= 1 and percent or 1
+    self.scrollBar:setPercent(percent)
+end
 
 function FriendView:setSortRuleVisible(visible)
     if visible or self.Panel_sortRule:isVisible() then
@@ -955,6 +1281,10 @@ function FriendView:selectSortRule(index)
         end
         local isCanReceive = FriendDataMgr:isCanReceive(pid)
         item.Button_receive:setVisible(isCanReceive and not self.delectState)
+        item.Button_sendBless:setVisible(FriendDataMgr:isWishBtnShow(pid))
+        if not item.Button_receive:isVisible() then
+            item.Button_sendBless:setPosition(item.Button_receive:Pos())
+        end
     end
 
     local count = GoodsDataMgr:getItemCount(EC_SItemType.FRIENDSHIP)
@@ -964,6 +1294,40 @@ function FriendView:selectSortRule(index)
     self.Label_givingCount:setTextById(800005, remainReceiveCount, self.maxReceiveCount_)
 
     self.Label_count:setTextById(800005, #self.friend_, self.maxFriendsNum_)
+end
+
+function FriendView:selectMaterByIndex(idx)
+    for i, btn in ipairs(self.Panel_masterBtns:getChildren()) do
+        if i == idx then
+            btn:setTextureNormal("ui/friend/master/btn_2.png")
+        else
+            btn:setTextureNormal("ui/friend/master/btn_1.png")
+        end
+    end 
+
+    self.curIndex = idx
+    local _data = FriendDataMgr:getMasterDataByType(self.curIndex)
+    if _data and table.count(_data) > 0 then
+        self.masterTableview:reloadData()
+        local innerSize   = self.masterTableview:getContentSize()
+        local size          = self.masterTableview:getSize()
+        local ratio =   size.height / innerSize.height
+        ratio = ratio <= 1 and ratio or 1
+        self.scrollBar:setRatio(ratio)
+        self.scrollBar:setPercent(1)
+        self.masterTableview:show()
+    else
+        self.masterTableview:hide()
+    end
+    self.lab_masterIsData:setVisible(not self.masterTableview:isVisible())
+    local _txtId
+    if self.curIndex == EC_FriendMaster.Master then
+        _txtId = 1340018
+    else
+        _txtId = 1340019
+    end
+    TFDirector:getChildByPath("lab_masterTxt")
+    self.lab_masterTxt:setTextById(_txtId)
 end
 
 function FriendView:onRecommendFriendEvent()
@@ -1097,6 +1461,21 @@ function FriendView:onFriendInviteUpdateEvent(inviteData)
             end
         end
     end
+end
+
+function FriendView:onRefreshMasterList(type)
+    if self.curIndex == type then
+        self:selectMaterByIndex(self.curIndex)
+    end
+    self:refreshMasterBtns()
+    self:refreshBtnsRed()
+end
+
+function FriendView:refreshBtnsRed()
+    self.btn_masterSpecRed:setVisible(FriendDataMgr:isHaveMasterAwardsCanGet())
+    self.btn_taskRed:setVisible(FriendDataMgr:isHaveMasterTaskAwardCanGet())  
+    self.btn_applyRed:setVisible(FriendDataMgr:isApplyBtnRedShow()) 
+    self:updateRedPointStatus()
 end
 
 function FriendView:removeEvents()

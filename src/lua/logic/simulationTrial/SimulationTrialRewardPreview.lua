@@ -28,10 +28,12 @@ function SimulationTrialRewardPreview:initUI(ui)
     self.Label_star_num     = TFDirector:getChildByPath(self.Panel_root, "Label_star_num")
     self.Label_star_num:setText(tostring(self.data.cond[1]))
     self.Image_star         = TFDirector:getChildByPath(self.Panel_root, "Image_star")
-    local heroId = FubenDataMgr:getSelectSimulationHeroId() 
-    if heroId == 111511 or heroId == 111411 then 
-        self.Image_star:setTexture("ui/fuben/linkage/checkpoint/020.png")
+    local heroId = FubenDataMgr:getSelectSimulationHeroId()
+    local cfg = FubenDataMgr:getSimulationTrialCfg(heroId)
+    if cfg and cfg.rewardstar and cfg.rewardstar.rewardstar then
+        self.Image_star:setTexture(cfg.rewardstar.rewardstar)
     end
+
     local count = 0
     for k, v in pairs(self.data.reward) do
         local Panel_goodsItem = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()

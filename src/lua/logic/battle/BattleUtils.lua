@@ -188,7 +188,11 @@ function BattleUtils.triggerHurt(srcHero,tarHero,hurtData,hitedBdboxs)
     -- print("hurtInfo",hurtInfo)
     local hurtType  = hurtInfo.hurtType
     local hurtValue = hurtInfo.hurtValue
-    -- hurtValue = -10
+    -- if srcHero:getCampType() == eCampType.Hero then
+    --     hurtValue = -30000
+    -- else
+    --     hurtValue = -1
+    -- end
     if hurtValue ~= value_0 then
         --连击+1 TODO 是否自计算控制角色的连击
         if srcHero:getCampType() == eCampType.Hero then
@@ -200,6 +204,8 @@ function BattleUtils.triggerHurt(srcHero,tarHero,hurtData,hitedBdboxs)
     if hurtValue < value_0 then
         srcHero:addHurtValue(math.abs(hurtValue),tarHero)
     end
+    battleController.setDamageData(srcHero, math.abs(hurtValue), hurtData, hurtType)
+
     --最近一次造成伤害的值
     srcHero:setHurtValue(math.abs(hurtValue))
     --伤害分摊计算
@@ -214,7 +220,12 @@ function BattleUtils.triggerHurt(srcHero,tarHero,hurtData,hitedBdboxs)
     end
     -- dump({"是否是弱点点伤害:"..tostring(hurtInfo.weakness)})
     --TODO 减血处理
-    hurtInfo.realHurtValue = tarHero:changeHp(hurtValue,hurtType,srcHero,true,hurtInfo.point) or 0
+    if hurtData.isShieldingSkillHurt == 1 then
+        hurtInfo.realHurtValue = tarHero:changeHp(hurtValue,hurtType,srcHero,true,hurtInfo.point, true) or 0
+    else
+        hurtInfo.realHurtValue = tarHero:changeHp(hurtValue,hurtType,srcHero,true,hurtInfo.point) or 0
+    end
+    
     --最近一次被造成伤害的值
     tarHero:setRevHurtValue(math.abs(hurtValue))
 
@@ -222,7 +233,6 @@ function BattleUtils.triggerHurt(srcHero,tarHero,hurtData,hitedBdboxs)
 
     return hurtInfo
 end
-
 
 --屏幕震动
 function BattleUtils.screenWobble(hurtData)
@@ -363,6 +373,7 @@ DMAttrAddTab[eDamageAttr.POISON]  = eAttrType.ATTR_DMADD_POISON
 DMAttrAddTab[eDamageAttr.LIGHT]   = eAttrType.ATTR_DMADD_LIGHT
 DMAttrAddTab[eDamageAttr.DARK]    = eAttrType.ATTR_DMADD_DARK
 DMAttrAddTab[eDamageAttr.MIND]    = eAttrType.ATTR_DMADD_MIND
+DMAttrAddTab[eDamageAttr.SPACE]   = eAttrType.ATTR_DMADD_SPACE
 --属性伤害减免
 local DMAttrSubTab = {}
 DMAttrSubTab[eDamageAttr.PYHSIC]  = eAttrType.ATTR_DMSUB_PYHSIC
@@ -374,6 +385,7 @@ DMAttrSubTab[eDamageAttr.POISON]  = eAttrType.ATTR_DMSUB_POISON
 DMAttrSubTab[eDamageAttr.LIGHT]   = eAttrType.ATTR_DMSUB_LIGHT
 DMAttrSubTab[eDamageAttr.DARK]    = eAttrType.ATTR_DMSUB_DARK
 DMAttrSubTab[eDamageAttr.MIND]    = eAttrType.ATTR_DMSUB_MIND
+DMAttrSubTab[eDamageAttr.SPACE]    = eAttrType.ATTR_DMSUB_SPACE
 --伤害类型暴击率映射
 local DMTypeCritTab = {}
 DMTypeCritTab[eDamageType.PT]  = eAttrType.ATTR_CRIT_PT
@@ -856,6 +868,7 @@ RevHurtAttrEventTab[eDamageAttr.POISON]  = eBFState.E_REV_POISON
 RevHurtAttrEventTab[eDamageAttr.LIGHT]   = eBFState.E_REV_LIGHT
 RevHurtAttrEventTab[eDamageAttr.DARK]    = eBFState.E_REV_DARK
 RevHurtAttrEventTab[eDamageAttr.MIND]    = eBFState.E_REV_MIND
+RevHurtAttrEventTab[eDamageAttr.SPACE]   = eBFState.E_REV_SPACE
 
 --受击
 local RevHitEventTab = {}
@@ -940,6 +953,7 @@ DoHurtAttrEventTab[eDamageAttr.POISON]  = eBFState.E_DO_POISON
 DoHurtAttrEventTab[eDamageAttr.LIGHT]   = eBFState.E_DO_LIGHT
 DoHurtAttrEventTab[eDamageAttr.DARK]    = eBFState.E_DO_DARK
 DoHurtAttrEventTab[eDamageAttr.MIND]    = eBFState.E_DO_MIND
+DoHurtAttrEventTab[eDamageAttr.SPACE]   = eBFState.E_DO_SPACE
 
 -- dump(RevEventCritTa,"RevEventCritTab")
 -- dump(CritEventTab,"CritEventTab")

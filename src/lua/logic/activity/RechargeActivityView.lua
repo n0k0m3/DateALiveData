@@ -107,7 +107,7 @@ function RechargeActivityView:updateActivity()
     self.dayItem_ = {}
     for stage = 1, count do
         local x =  topSize.width / count * (stage - 0.5) - topOffsetX
-        local y = -30
+        local y = -20
         local Panel_dayItem = self.Panel_dayItem:clone()
         local foo = {}
         foo.root = Panel_dayItem
@@ -207,7 +207,7 @@ function RechargeActivityView:updateActivity()
             -- end
     end)
 
-    self.Label_tips:setText(Utils:MultiLanguageStringDeal(self.activityInfo_.activityTitle))
+    self.Label_tips:setTextById(self.activityInfo_.activityTitle)
     self:updateCountDonw()
 end
 

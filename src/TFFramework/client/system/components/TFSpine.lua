@@ -50,4 +50,11 @@ local function initControl(_, val, parent)
 end
 rawset(TFSpine, "initControl", initControl)
 
+local _animationPlay = TFSpine.play
+rawset(TFSpine, "play", function ( self ,name, loop )
+	local aniName = TFGlobalUtils:transAniNameByLanguage(self, name)
+	_animationPlay(self, aniName, loop)
+end)
+
+
 return TFSpine

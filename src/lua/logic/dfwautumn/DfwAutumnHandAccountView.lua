@@ -146,6 +146,13 @@ function DfwAutumnHandAccountView:addContentItem(index)
                                       updatePageState()
     end)
 
+    foo.PageView_cg:addMEListener(TFPAGEVIEW_SCROLLENDED, function()
+            local index = foo.PageView_cg:getCurPageIndex()
+            local page = foo.PageView_cg:getPage(index)
+            page:setClippingEnabled(false)
+            page:setClippingEnabled(true)
+    end)
+
     updatePageState()
 end
 

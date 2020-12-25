@@ -100,6 +100,11 @@ function StoreDataMgr:isOpen(storeCid)
     elseif cfg.openContType == 8 then    -- 十香生日活动开启
         isOpen = true
     end
+
+    if storeCid == 100000 then     -- 普通商店放到补给站
+        isOpen = false
+    end 
+
     return isOpen
 end
 
@@ -146,10 +151,11 @@ end
 
 function StoreDataMgr:isUnlockCommodity(commodityCid)
 
-    local isUnlock = false
+    ---isShow:是否展示出来
+    local isUnlock,isShow = false,false
     local commodityCfg = self:getCommodityCfg(commodityCid)
     if not commodityCfg then
-        return false
+        return false,false
     end
     if commodityCfg.openContType == 1 then    -- 玩家等级
         isUnlock = MainPlayer:getPlayerLv() >= commodityCfg.openContVal
@@ -164,8 +170,11 @@ function StoreDataMgr:isUnlockCommodity(commodityCid)
         isUnlock = true
     elseif commodityCfg.openContType == 8 then    -- 十香生日活动商店
         isUnlock = true
+    elseif commodityCfg.openContType == 14 then ---个人特权
+        isUnlock = PrivilegeDataMgr:getWishTreeLv() >= commodityCfg.openContVal
+        isShow = true
     end
-    return isUnlock
+    return isUnlock,isShow,commodityCfg.openContVal
 end
 
 function StoreDataMgr:getCommodity(storeId)
@@ -174,20 +183,23 @@ function StoreDataMgr:getCommodity(storeId)
     local serverTime = ServerDataMgr:getServerTime()
     for i, v in ipairs(self.commodity_[storeId] or {}) do
         local commodityCfg = self:getCommodityCfg(v)
-        local isUnlock = self:isUnlockCommodity(v)
-        if commodityCfg.showBeginTime and commodityCfg.showEndTime then
-            local isOpen = serverTime >= commodityCfg.showBeginTime and serverTime < commodityCfg.showEndTime
-            isUnlock = isUnlock and isOpen
+        local isUnlock,isShow = self:isUnlockCommodity(v)
+        local isOpen = true
+        if commodityCfg.showBeginTime and commodityCfg.showEndTime and commodityCfg.showBeginTime ~= "" and commodityCfg.showEndTime ~= "" then
+            isOpen = serverTime >= commodityCfg.showBeginTime and serverTime < commodityCfg.showEndTime
         end
-
-        if isUnlock then
-            local isCanBuy = self:getRemainBuyCount(v)
-            if isCanBuy then
-                table.insert(canBuyCommodity, v)
-            else
-                table.insert(notBuyCommodity, v)
+        if isOpen then
+            print(isUnlock,isShow)
+            if isUnlock or isShow then
+                local isCanBuy = self:getRemainBuyCount(v)
+                if isCanBuy then
+                    table.insert(canBuyCommodity, v)
+                else
+                    table.insert(notBuyCommodity, v)
+                end
             end
         end
+
     end
 
     local commodity = {}
@@ -408,6 +420,7 @@ function StoreDataMgr:send_STORE_SELL_GOODS_PREVIEW(goods)
 end
 
 function StoreDataMgr:__handleStoreInfo(storeData)
+
     local storeCid = storeData.storeId
     if storeData.store then
         storeData.store.showCurrency = storeData.store.showCurrency or {}
@@ -416,6 +429,7 @@ function StoreDataMgr:__handleStoreInfo(storeData)
     end
     if storeData.commoditys then
         self.commodity_[storeCid] = {}
+
         for _, commodityCfg in ipairs(storeData.commoditys) do
             commodityCfg.storeId = storeCid
             if commodityCfg.tag then
@@ -467,6 +481,12 @@ function StoreDataMgr:__handleStoreInfo(storeData)
     if storeData.storeRefresh then
         self.storeInfo_[storeCid] = storeData.storeRefresh
     end
+    if storeData.pic then
+        self.storeInfo_[storeCid].pic = storeData.pic
+    end
+    if storeData.groupRefreshTime then
+        self.storeInfo_[storeCid].groupRefreshTime = storeData.groupRefreshTime
+    end
 end
 
 function StoreDataMgr:onRecvStoreInfo(event)
@@ -506,6 +526,7 @@ function StoreDataMgr:onRecvRefreshShop(event)
     end
 end
 
+
 function StoreDataMgr:onRecvBuyInfo(event)
     local data = event.data
     if not data then return end
@@ -535,7 +556,6 @@ function StoreDataMgr:onRecvResourceBuyLog(event)
             target[k] = v
         end
     end
-
     for i, v in ipairs(data.logs) do
         local oldItem, newItem
         if v.ct == EC_SChangeType.DEFAULT then

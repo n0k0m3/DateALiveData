@@ -18,8 +18,31 @@ function FubenChapterView:initData(fubenType, selectChapter, theaterId)
     self.navigationItem_ = {}
     self.theaterChapters_ = TabDataMgr:getData("ExtraChapter")
 
-    self.theaterSortList = TabDataMgr:getData("DiscreteData",46013).data.sort
+    self.theaterSortList = clone(TabDataMgr:getData("DiscreteData",46013).data.sort)
     self.selectTheaterId = theaterId or TabDataMgr:getData("DiscreteData",46013).data.defaultSelect
+
+    local openMaxId
+    for i = #self.theaterSortList,1,-1 do
+        local id = self.theaterSortList[i]
+        local theaterCfg = self.theaterChapters_[id]
+        local isOpen = self:checkTheaterItemTime(theaterCfg.openTime)
+        if not isOpen then
+            table.remove(self.theaterSortList,i)
+        else
+            if not openMaxId then
+                openMaxId = id
+            end
+        end
+    end
+
+    local theaterCfg = self.theaterChapters_[self.selectTheaterId]
+    local selectOpen = self:checkTheaterItemTime(theaterCfg.openTime)
+    if not selectOpen then
+        self.selectTheaterId = openMaxId or 1
+    end
+
+
+
 
     local plot = {
         type_ = EC_FBType.PLOT,
@@ -80,6 +103,27 @@ function FubenChapterView:initData(fubenType, selectChapter, theaterId)
         showTime = true,
     }
 
+    local newyear = {
+        type_ = EC_FBType.NEWYEAR_FUBEN,
+        icon = "ui/activity/newyear_fuben/ui_005.png",
+        name = 12033018,
+        selector = handler(self.flushLinkage, self),
+        data = FubenDataMgr:getChapter(EC_FBType.THEATER), --TODO 临时
+        showTime = true,
+    }
+
+    local linkageHWX = {
+        type_ = EC_FBType.HWX_FUBEN,
+        icon = "ui/hwx/003.png",
+        name = 12030009,
+        selector = handler(self.flushLinkage, self),
+        data = FubenDataMgr:getChapter(EC_FBType.THEATER), --TODO 临时
+        showTime = true,
+    }
+
+    if not GlobalFuncDataMgr:isOpen(3) then
+        theater = nil
+    end
     self.fubenData_ = {plot, daily, activity, theater}
 
     -- 万圣节活动， 圣诞节
@@ -95,7 +139,6 @@ function FubenChapterView:initData(fubenType, selectChapter, theaterId)
     self.linkageData            = clone(TabDataMgr:getData("DiscreteData",90003).data[3001])
     self.linkageData.beginTime      = linkageChapterInfo.begin
     self.linkageData.endTime        = linkageChapterInfo["end"]
-    dump(self.linkageData)
     self.linkageData.chapterCid = 3001
     local year, month, day = Utils:getDate(self.linkageData.endTime, true)
     self.linkageData.tips  = TextDataMgr:getText(12030003,month,day) 
@@ -111,6 +154,24 @@ function FubenChapterView:initData(fubenType, selectChapter, theaterId)
         self.activityKsanInfo = ActivityDataMgr2:getActivityInfo(activityIds[1])
         if self.activityKsanInfo and serverTime >= self.activityKsanInfo.showStartTime and  serverTime < self.activityKsanInfo.showEndTime then
             table.insert(self.fubenData_, kspage)
+        end
+    end
+
+    ---新年副本数据
+    local activityIds = ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.NEWYEAR_FUBEN)
+    if activityIds and activityIds[1] then
+        self.activityNewYear = ActivityDataMgr2:getActivityInfo(activityIds[1])
+        if self.activityNewYear and serverTime >= self.activityNewYear.showStartTime and  serverTime < self.activityNewYear.showEndTime then
+            table.insert(self.fubenData_, newyear)
+        end
+    end
+
+    ---海王星
+    local activityIds = ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.HWX_FUBEN)
+    if activityIds and activityIds[1] then
+        self.activityHwxFuben = ActivityDataMgr2:getActivityInfo(activityIds[1])
+        if self.activityHwxFuben and serverTime >= self.activityHwxFuben.showStartTime and  serverTime < self.activityHwxFuben.showEndTime then
+            table.insert(self.fubenData_, linkageHWX)
         end
     end
 
@@ -268,6 +329,40 @@ function FubenChapterView:initUI(ui)
     self.Panel_kuangsan.Label_start:setSkewX(15)
     self.Panel_kuangsan.Button_start     = TFDirector:getChildByPath(self.Panel_kuangsan, "Button_start")
 
+    ----新年副本
+    self.Panel_newyear = TFDirector:getChildByPath(self.Panel_root, "Panel_newyear")
+    self.Panel_newyear.Label_day_title = TFDirector:getChildByPath(self.Panel_newyear, "Label_day_title")
+    self.Panel_newyear.Label_hour_title       = TFDirector:getChildByPath(self.Panel_newyear, "Label_hour_title")
+    self.Panel_newyear.Label_day_value       = TFDirector:getChildByPath(self.Panel_newyear, "Label_day_value")
+    self.Panel_newyear.Label_hour_value         = TFDirector:getChildByPath(self.Panel_newyear, "Label_hour_value")
+    self.Panel_newyear.Button_start     = TFDirector:getChildByPath(self.Panel_newyear, "Button_start")
+
+    local model = SkeletonAnimation:create("modle/hero/paintshow_11751/paintshow_11751")
+    model:setAnimationFps(GameConfig.ANIM_FPS)
+    model:playByIndex(0, -1, -1, 1)
+    model:setScale(0.65)
+    model:setPosition(ccp(240, -680))
+    TFDirector:getChildByPath(self.Panel_newyear, "Image_background"):addChild(model, 2)
+
+    ---海王星副本
+    self.Panel_hwx = TFDirector:getChildByPath(self.Panel_root, "Panel_hwx")
+    self.Panel_hwx.Label_day_title = TFDirector:getChildByPath(self.Panel_hwx, "Label_day_title")
+    self.Panel_hwx.Label_hour_title       = TFDirector:getChildByPath(self.Panel_hwx, "Label_hour_title")
+    self.Panel_hwx.Label_day_value       = TFDirector:getChildByPath(self.Panel_hwx, "Label_day_value")
+    self.Panel_hwx.Label_hour_value         = TFDirector:getChildByPath(self.Panel_hwx, "Label_hour_value")
+    self.Panel_hwx.Button_start     = TFDirector:getChildByPath(self.Panel_hwx, "Button_start")
+    self.Label_hwx_des = TFDirector:getChildByPath(self.Panel_hwx, "Label_hwx_des")
+    self.Label_hwx_des:setTextById(12031194)
+    self.Panel_hwx.Label_hwx_star = TFDirector:getChildByPath(self.Panel_hwx, "Label_hwx_star")
+    self.Panel_hwx.Panel_time = TFDirector:getChildByPath(self.Panel_hwx, "Panel_time")
+
+    --local model = SkeletonAnimation:create("modle/hero/paintshow_11751/paintshow_11751")
+    --model:setAnimationFps(GameConfig.ANIM_FPS)
+    --model:playByIndex(0, -1, -1, 1)
+    --model:setScale(0.65)
+    --model:setPosition(ccp(240, -680))
+    --TFDirector:getChildByPath(self.Panel_hwx, "Image_background"):addChild(model, 2)
+
     ----
 
     self.Panel_theater = TFDirector:getChildByPath(self.Panel_root, "Panel_theater")
@@ -424,6 +519,66 @@ function FubenChapterView:refreshKsanPage()
 
 end
 
+function FubenChapterView:refreshNewYearPage()
+
+    if not self.activityNewYear then
+        return
+    end
+    local serverTime = ServerDataMgr:getServerTime()
+    local eTime      = self.activityNewYear.extendData.activityduration.battleendtime - serverTime
+
+    if eTime > 0 then
+        local day, hour, min, sec = Utils:getTimeDHMZ(eTime,true)
+        self.Panel_newyear.Label_day_value:setText(tostring(day))
+        self.Panel_newyear.Label_hour_value:setText(tostring(hour))
+    else
+        TFDirector:getChildByPath(self.Panel_newyear, "Image_001"):hide()
+        TFDirector:getChildByPath(self.Panel_newyear, "Image_002"):hide()
+        TFDirector:getChildByPath(self.Panel_newyear, "Panel_time"):hide()
+    end
+
+    local sTime      = self.activityNewYear.showStartTime  - serverTime
+    local showEndTime = self.activityNewYear.showEndTime - serverTime
+    local visible = showEndTime > 0 and sTime < 0
+    self.Panel_newyear.Button_start:setTouchEnabled(visible)
+    self.Panel_newyear.Button_start:setGrayEnabled(not visible)
+end
+
+function FubenChapterView:refreshHwxPage()
+    if not self.activityHwxFuben then
+        return
+    end
+    local serverTime = ServerDataMgr:getServerTime()
+    local eTime      = self.activityHwxFuben.extendData.activityduration.battleendtime - serverTime
+    if eTime > 0 then
+        local day, hour, min, sec = Utils:getTimeDHMZ(eTime,true)
+        local dayStr = tostring(day)
+        self.Panel_hwx.Label_day_value:setText(dayStr[1].." "..dayStr[2])
+        local hourStr = tostring(hour)
+        self.Panel_hwx.Label_hour_value:setText(hourStr[1].." "..hourStr[2])
+    else
+        self.Panel_hwx.Panel_time:hide()
+    end
+
+    local sTime      = self.activityHwxFuben.showStartTime  - serverTime
+    local showEndTime = self.activityHwxFuben.showEndTime - serverTime
+    local visible = showEndTime > 0 and sTime < 0
+    self.Panel_hwx.Button_start:setTouchEnabled(visible)
+    self.Panel_hwx.Button_start:setGrayEnabled(not visible)
+
+    self:updateHwxStar()
+
+end
+
+function FubenChapterView:updateHwxStar()
+
+    local chapter = FubenDataMgr:getChapter(EC_FBType.HWX_FUBEN)
+    local chapterCid = chapter[1]
+    local totalFightStarNum, totalDatingStarNum = FubenDataMgr:getChapterTotalStarNum(chapterCid, 1)
+    local fightStarNum, datingStarNum = FubenDataMgr:getChapterStarNum(chapterCid, 1)
+    self.Panel_hwx.Label_hwx_star:setText(fightStarNum.."/"..totalFightStarNum)
+end
+
 function FubenChapterView:flushTheater(  )
     self:flushTheaterList()
     local theaterCfg = self.theaterChapters_[self.selectTheaterId]
@@ -460,6 +615,12 @@ function FubenChapterView:flushTheaterList( )
         end
         self:updateTheater(index)
     end
+end
+
+function FubenChapterView:checkTheaterItemTime(openTime)
+    openTime = openTime or 0
+    local serverTime = ServerDataMgr:getServerTime()
+    return serverTime >= openTime
 end
 
 function FubenChapterView:addTheaterItem( idx, theaterCfg )
@@ -561,7 +722,22 @@ function FubenChapterView:updateFubenItem(index)
             local timeStr  = TextDataMgr:getText(12030003,dateTime:fmt("%m"),dateTime:fmt("%d"))
             foo.Label_tip:setText(timeStr)
         end
+    elseif fubenData.type_ == EC_FBType.NEWYEAR_FUBEN then
+        if self.activityNewYear then
+            local year, month, day = Utils:getDate(self.activityNewYear.showEndTime, true)
+            local timeStr  = TextDataMgr:getText(12030003,month,day)
+            foo.Label_tip:setScale(0.8)
+            foo.Label_tip:setText(timeStr)
+        end
+    elseif fubenData.type_ == EC_FBType.HWX_FUBEN then
+        if self.activityHwxFuben then
+            local year, month, day = Utils:getDate(self.activityHwxFuben.showEndTime, true)
+            local timeStr  = TextDataMgr:getText(12030003,month,day)
+            foo.Label_tip:setScale(0.8)
+            foo.Label_tip:setText(timeStr)
+        end
     end
+    
     foo.root:onClick(function()
         self:selectFuben(index)
     end)
@@ -587,13 +763,20 @@ function FubenChapterView:selectFuben(index)
     self.Panel_theater:setVisible(type_ == EC_FBType.THEATER)
     self.Panel_linkage:setVisible(type_ == EC_FBType.LINKAGE)
     self.Panel_kuangsan:setVisible(type_ == EC_FBType.KSAN_FUBEN)
+    self.Panel_newyear:setVisible(type_ == EC_FBType.NEWYEAR_FUBEN)
+    self.Panel_hwx:setVisible(type_ == EC_FBType.HWX_FUBEN)
     if type_ == EC_FBType.LINKAGE then
         self:refreshLinkage()
     elseif type_ == EC_FBType.KSAN_FUBEN then
         self:refreshKsanPage()
+    elseif type_ == EC_FBType.NEWYEAR_FUBEN then
+        self:refreshNewYearPage()
+    elseif type_ == EC_FBType.HWX_FUBEN then
+        self:refreshHwxPage()
     end
 
-    local showMask = type_ ~= EC_FBType.THEATER and type_ ~= EC_FBType.LINKAGE and type_ ~= EC_FBType.KSAN_FUBEN
+    local showMask = type_ ~= EC_FBType.THEATER and type_ ~= EC_FBType.LINKAGE and type_ ~= EC_FBType.KSAN_FUBEN and type_ ~= EC_FBType.NEWYEAR_FUBEN
+    and type_ ~= EC_FBType.HWX_FUBEN
     self.Image_turnview_mask_left:setVisible(showMask)
     self.Image_turnview_mask_right:setVisible(showMask)
     self.Button_openRule:setVisible(self.Panel_daily:isVisible())
@@ -927,14 +1110,37 @@ function FubenChapterView:updateActivityTiming(index, chapterCid)
     elseif chapterCid == EC_ActivityFubenType.TEAM then
         self.activityChapterState_[index] = false
         foo.Panel_timing:hide()
+
+	elseif chapterCid == EC_ActivityFubenType.MONSTER then
+        local startTime = FubenDataMgr:getMonsterTrialOpenTime()
+		local endTime = FubenDataMgr:getMonsterTrialCloseTime()
+		local isOpen = FubenDataMgr:isMonsterTrialOpen()
+		if isOpen then
+			local remainTime = math.max(0, endTime - serverTime)
+            local day, hour, min = Utils:getFuzzyDHMS(remainTime, true)
+            if day ~= "00" then
+                foo.Label_timing:setTextById("r80002", day, hour)
+                foo.Label_tips:setTextById("r80011", day, hour)
+            else
+                foo.Label_timing:setTextById("r80001", hour, min)
+                foo.Label_tips:setTextById("r80010", hour, min)
+            end
+		else
+			local remainTime = math.max(0, startTime - serverTime)
+            local day, hour, min = Utils:getFuzzyDHMS(remainTime, true)
+            if day ~= "00" then
+                foo.Label_timing:setTextById("r80004", day, hour)
+                foo.Label_tips:setTextById("r80013", day, hour)
+            else
+                foo.Label_timing:setTextById("r80003", hour, min)
+                foo.Label_tips:setTextById("r80012", hour, min)
+            end
+		end
+
     elseif chapterCid == EC_ActivityFubenType.BIG_WORLD then
         self.activityChapterState_[index] = false
         foo.Panel_timing:hide()
-    elseif chapterCid == EC_ActivityFubenType.SIMULATION_TRIAL
-        or chapterCid == EC_ActivityFubenType.SIMULATION_TRIAL_2
-        or chapterCid == EC_ActivityFubenType.SIMULATION_TRIAL_4  
-        or chapterCid == EC_ActivityFubenType.SIMULATION_TRIAL_5  
-        or chapterCid == EC_ActivityFubenType.SIMULATION_TRIAL_3 then
+    elseif FubenDataMgr:isSimulationChapter(chapterCid) then
         local startTime, endTime = FubenDataMgr:getSimulationTrialActiveTime(chapterCid)
         if startTime and endTime then
             if serverTime < startTime then    -- 未开启
@@ -1096,6 +1302,29 @@ function FubenChapterView:updateActivityTiming(index, chapterCid)
         foo.Image_state:setVisible(not isOpen)
         if not isOpen then
             self.activityChapterState_[index] = false
+            foo.Label_state:setTextById(1890001)
+        end
+    elseif chapterCid == EC_ActivityFubenType.BOSS_CHALLENGE then
+        local openTime,closeTime,readyTime,endTime = FubenDataMgr:getBossChallengeTimes()
+        if openTime > 0 and closeTime > 0 then
+            if serverTime >= closeTime then    -- 关闭
+                self.activityChapterState_[index] = false
+                foo.Image_state:show()
+                foo.Label_state:setTextById(1890001)
+            else
+                local remainTime = math.max(0, closeTime - serverTime)
+                local day, hour, min = Utils:getFuzzyDHMS(remainTime, true)
+                if day ~= "00" then
+                    foo.Label_timing:setTextById("r80002", day, hour)
+                    foo.Label_tips:setTextById("r80011", day, hour)
+                else
+                    foo.Label_timing:setTextById("r80001", hour, min)
+                    foo.Label_tips:setTextById("r80010", hour, min)
+                end
+            end
+        else
+            self.activityChapterState_[index] = false
+            foo.Image_state:show()
             foo.Label_state:setTextById(1890001)
         end
     end
@@ -1458,6 +1687,13 @@ function FubenChapterView:updateActivityChapterItem(index, subIndex)
                         if KabalaTreeDataMgr:isFunctionOpen() then
                             KabalaTreeDataMgr:openKabalaTree()
                         end
+					elseif chapterCid == EC_ActivityFubenType.MONSTER then
+						if FubenDataMgr:isMonsterTrialOpen() then
+							Utils:openView("fuben.FubenMonsterTrialView", chapterCid)
+						else
+							Utils:showTips(2106013)
+						end
+						
                     elseif chapterCid == EC_ActivityFubenType.SPRITE then
                         local funcIsOpen = FunctionDataMgr:checkFuncOpen(58)
                         if funcIsOpen then
@@ -1492,15 +1728,11 @@ function FubenChapterView:updateActivityChapterItem(index, subIndex)
                             local OSDControl = require("lua.logic.osd.OSDControl")
                             OSDControl:enterOSD({})
                         end
-                    elseif chapterCid == EC_ActivityFubenType.SIMULATION_TRIAL 
-                        or chapterCid == EC_ActivityFubenType.SIMULATION_TRIAL_2
-                        or chapterCid == EC_ActivityFubenType.SIMULATION_TRIAL_4 
-                        or chapterCid == EC_ActivityFubenType.SIMULATION_TRIAL_5
-                        or chapterCid == EC_ActivityFubenType.SIMULATION_TRIAL_3 then
+                    elseif FubenDataMgr:isSimulationChapter(chapterCid) then
                         local funcIsOpen = FunctionDataMgr:checkFuncOpen(113)
                         if funcIsOpen then
                             if FubenDataMgr:getSimulationTrialIsOpen(chapterCid) then
-                                Utils:openView("simulationTrial.SimulationTrialMainView",chapterCid)
+                                FunctionDataMgr:jSimulationTrial(chapterCid)
                             else
                                 Utils:showTips(2106013)
                             end
@@ -1509,6 +1741,10 @@ function FubenChapterView:updateActivityChapterItem(index, subIndex)
                         local isOpen = SkyLadderDataMgr:isOpen()
                         if isOpen then
                             Utils:openView("skyLadder.SkyLadderMainView")
+                        end
+                    elseif  chapterCid == EC_ActivityFubenType.BOSS_CHALLENGE then
+                        if self.activityChapterState_[subIndex] then
+                            Utils:openView("fuben.BossChallegeMainView")
                         end
                     end
                 end
@@ -1887,6 +2123,7 @@ function FubenChapterView:registerEvents()
     EventMgr:addEventListener(self, EV_ACTIVITY_UPDATE_ACTIVITY, handler(self.onUpdateActivityEvent, self))
     EventMgr:addEventListener(self, EV_FUBEN_SPRITE_EXTRA_UPDATE_INFO, handler(self.onUpdateActivityEvent, self))
     EventMgr:addEventListener(self, EV_FUBEN_THEATER_BOSS_INFO, handler(self.onTheaterBossInfoEvent, self))
+    EventMgr:addEventListener(self, EV_FUBEN_LEVELGROUPREWARD, handler(self.updateHwxStar, self))
 
     local function scrollCallback(target, offsetRate, customOffsetRate)
         local items = target:getItem()
@@ -1974,6 +2211,14 @@ function FubenChapterView:registerEvents()
         FunctionDataMgr:jKsanFuben()
     end)
 
+    self.Panel_newyear.Button_start:onClick(function ( )
+        FunctionDataMgr:jSpecialFuben(EC_ActivityType2.NEWYEAR_FUBEN)
+    end)
+
+    self.Panel_hwx.Button_start:onClick(function()
+        FunctionDataMgr:jSpecialFuben(EC_ActivityType2.HWX_FUBEN)
+    end)
+
 end
 
 function FubenChapterView:removeEvents()
@@ -2038,6 +2283,10 @@ function FubenChapterView:onCountDownPer()
             self:refreshLinkage()
         elseif v.type_ == EC_FBType.KSAN_FUBEN then
             self:refreshKsanPage()
+        elseif v.type_ == EC_FBType.NEWYEAR_FUBEN then
+            self:refreshNewYearPage()
+        elseif v.type_ == EC_FBType.HWX_FUBEN then
+            self:refreshHwxPage()
         end
     end
 end

@@ -60,7 +60,7 @@ end
 function AutumnActivityView:updateActivity()
     self.activityInfo_ = ActivityDataMgr2:getActivityInfo(self.activityId_)
     self.Label_time:setText(Utils:getActivityDateString(self.activityInfo_.startTime, self.activityInfo_.endTime, self.activityInfo_.extendData.dateStyle))
-    self.Label_tip:setText(Utils:MultiLanguageStringDeal(self.activityInfo_.extendData.dec))
+    self.Label_tip:setTextById(self.activityInfo_.extendData.dec)
 
     local extendData = self.activityInfo_.extendData or {}
     self.resource = extendData.resourceView or {}

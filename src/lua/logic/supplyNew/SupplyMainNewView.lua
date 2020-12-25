@@ -5,36 +5,28 @@
 
 local SupplyMainNewView = class("SupplyMainNewView",BaseLayer)
 
+local ENUM_SUPPLYS = {
+    ZHANLIN = 1,    -- 战令
+    SUPPLY = 2,     -- 补给站
+    MONTH_CARD = 3, -- 月卡
+    WEEK_CARD = 4,  -- 周卡
+    CONTRACT = 5    -- 精灵契约
+}
+
 function SupplyMainNewView:initData(defaultLeftIdx, pageSelectId)
-    self.tabBtnCfg = {
-        [1] = {
-            name = 14300377,
-            icon = "ui/recharge/gifts/new_1/006.png",
-            topBannerDisId = 90038,
-        },
-        [2] = {
-            name = 14300378,
-            icon = "ui/recharge/gifts/new_1/015.png",
-            topBannerDisId = 90039,
-        },
-        -- [3] = {   --屏蔽最新月卡
-        --     name = 14300096, 
-        --     icon = "ui/recharge/gifts/new_1/004.png",
-        -- },
-        
-        [3] = {
-            name = 14300096,
-            icon = "ui/recharge/gifts/new_1/004.png",
-        },
-        [4] = {
-            name = 14300348,
-            icon = "ui/recharge/gifts/new_1/011.png",
-        },
-        [5] = {
-            name = 14300099,
-            icon = "ui/recharge/gifts/new_1/005.png",
-        },
-    }
+    self.tabBtnCfg = { }
+
+    if GlobalFuncDataMgr:isOpen(7) then
+        table.insert(self.tabBtnCfg , {name = 14300377,icon = "ui/recharge/gifts/new_1/006.png",topBannerDisId = 90038, tabType = ENUM_SUPPLYS.ZHANLIN})
+    end
+    table.insert(self.tabBtnCfg , {name = 14300378,icon = "ui/recharge/gifts/new_1/015.png",topBannerDisId = 90039, tabType = ENUM_SUPPLYS.SUPPLY})
+    table.insert(self.tabBtnCfg , {name = 14300096,icon = "ui/recharge/gifts/new_1/004.png", tabType = ENUM_SUPPLYS.MONTH_CARD})
+    if GlobalFuncDataMgr:isOpen(1) then
+        table.insert(self.tabBtnCfg , {name = 14300348,icon = "ui/recharge/gifts/new_1/011.png", tabType = ENUM_SUPPLYS.WEEK_CARD})
+    end
+    if GlobalFuncDataMgr:isOpen(6) then
+        table.insert(self.tabBtnCfg , {name = 14300099,icon = "ui/recharge/gifts/new_1/005.png", tabType = ENUM_SUPPLYS.CONTRACT})
+    end
 
     local giftTypeList = {12 , 21 , 22 , 23 , 24 , 25}
     local nameList = {190000102 , 190000103 ,190000104 ,190000105 ,1650009 ,190000310}
@@ -96,7 +88,10 @@ function SupplyMainNewView:updateAllRed()
     local items = self.leftTabListView:getItems()
     for idx, v in ipairs(items) do
         local isShwow = false
-        if idx == 1 then
+        local btnCfg = self.tabBtnCfg[idx]
+
+        -- 战令
+        if btnCfg.tabType == ENUM_SUPPLYS.ZHANLIN then
             local state5 = TaskDataMgr:getTrainingShopTipsState()
             if self.selectIndex == idx then
                 for i, _item in ipairs(self.topTabListView:getItems()) do
@@ -110,7 +105,8 @@ function SupplyMainNewView:updateAllRed()
             isShwow = state5
         end
 
-        if idx == 2 then
+        -- 补给
+        if btnCfg.tabType == ENUM_SUPPLYS.SUPPLY then
             local isFundRed = RechargeDataMgr:isGrowFundViewShowRed()
             if self.selectIndex == idx then
                 for i, _item in ipairs(self.topTabListView:getItems()) do
@@ -124,18 +120,20 @@ function SupplyMainNewView:updateAllRed()
             isShwow = isFundRed
         end
 
-        if idx == 3 then   
+        -- 月卡
+        if btnCfg.tabType == ENUM_SUPPLYS.MONTH_CARD then   
             local havecard = tobool(RechargeDataMgr:getMonthCardLeftTime() > 0)
             local cansign = RechargeDataMgr:isMonthCardCanSign()
             isShwow = havecard and cansign 
             
         end
-        if idx == 4 then
+        -- 周卡
+        if btnCfg.tabType == ENUM_SUPPLYS.WEEK_CARD then
             local weekCardRed = RechargeDataMgr:getWeekCardCanSign()
             isShwow = weekCardRed or isShwow
         end
-
-        if idx == 5 then
+        -- 精灵锲约
+        if btnCfg.tabType == ENUM_SUPPLYS.CONTRACT then
             isShwow = SummonDataMgr:getCanGetTask()
         end
         v.img_red:setVisible(isShwow)
@@ -175,26 +173,49 @@ function SupplyMainNewView:selectTabIdx(idx)
     end
 
     local addPageToContent = {
-        [1] = function()
-            self.pageViews[idx] = requireNew("lua.logic.supplyNew.RecommondView"):new(topData)
-        end,
-        [2] = function()
-            self.pageViews[idx] = requireNew("lua.logic.supplyNew.DepotView"):new(topData)
-        end,
-        -- [3] = function()  --屏蔽最新月卡
-        --     self.pageViews[idx] = requireNew("lua.logic.store.PrivilageCard"):new()
+        -- [1] = function()
+        --     self.pageViews[idx] = requireNew("lua.logic.supplyNew.RecommondView"):new(topData)
         -- end,
+        -- [2] = function()
+        --     self.pageViews[idx] = requireNew("lua.logic.supplyNew.DepotView"):new(topData)
+        -- end,
+        -- -- [3] = function()  --屏蔽最新月卡
+        -- --     self.pageViews[idx] = requireNew("lua.logic.store.PrivilageCard"):new()
+        -- -- end,
         
-        [3] = function()
-           self.pageViews[idx] = requireNew("lua.logic.activity.MonthCardView"):new()
-        end,
-        [4] = function()
-           self.pageViews[idx] = requireNew("lua.logic.store.WeekCardView"):new()
-        end,
-        [5] = function()
-           self.pageViews[idx] = requireNew("lua.logic.summon.SummonContractMainView"):new()
-        end,
+        -- [3] = function()
+        --    self.pageViews[idx] = requireNew("lua.logic.activity.MonthCardView"):new()
+        -- end,
+        -- [4] = function()
+        --    self.pageViews[idx] = requireNew("lua.logic.store.WeekCardView"):new()
+        -- end,
+        -- [5] = function()
+        --    self.pageViews[idx] = requireNew("lua.logic.summon.SummonContractMainView"):new()
+        -- end,
     }
+
+
+    if GlobalFuncDataMgr:isOpen(7) then
+        table.insert(addPageToContent , function( ... )
+            self.pageViews[idx] = requireNew("lua.logic.supplyNew.RecommondView"):new(topData)
+        end)
+    end
+    table.insert(addPageToContent , function( ... )
+        self.pageViews[idx] = requireNew("lua.logic.supplyNew.DepotView"):new(topData)
+    end)
+    table.insert(addPageToContent , function( ... )
+        self.pageViews[idx] = requireNew("lua.logic.activity.MonthCardView"):new()
+    end)
+    if GlobalFuncDataMgr:isOpen(1) then
+        table.insert(addPageToContent , function( ... )
+            self.pageViews[idx] = requireNew("lua.logic.store.WeekCardView"):new()
+        end)
+    end
+    if GlobalFuncDataMgr:isOpen(6) then
+        table.insert(addPageToContent , function( ... )
+            self.pageViews[idx] = requireNew("lua.logic.summon.SummonContractMainView"):new()
+        end)
+    end
 
     local giftTypeList = {12 , 21 , 22 , 23 , 24 , 25}
     local nameList = {190000102 , 190000103 ,190000104 ,190000105 ,1650009 ,190000310}
@@ -262,12 +283,21 @@ function SupplyMainNewView:getCurTopCanShowData()
     local _data = {}
     local topBannerDisId = self.tabBtnCfg[self.selectIndex].topBannerDisId
     local data = Utils:getKVP(topBannerDisId)
-    if self.selectIndex == 2 then -- 补给站固定
+    local supplyTabIdx = 1
+    if GlobalFuncDataMgr:isOpen(7) then
+        supplyTabIdx = 2
+    end
+    if self.selectIndex == supplyTabIdx then -- 补给站固定
         -- TODO CLOSE
         -- 屏蔽特勤支援
         for k, v in pairs(data) do
             if (v.id == 4) then
                 table.remove(data, k)
+            end
+            if not GlobalFuncDataMgr:isOpen(2) then
+                if (v.id == 3) then
+                    table.remove(data, k)
+                end
             end
         end
 

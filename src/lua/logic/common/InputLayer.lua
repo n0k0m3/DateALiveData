@@ -74,6 +74,14 @@ function InputLayer:hideAction()
     end
 end
 
+function InputLayer:removeUI()
+    self.super.removeUI(self)
+end
+
+function InputLayer:onHide()
+    self.super.onHide(self)
+end
+
 function InputLayer:show()
 
     if self.isShow then

@@ -22,6 +22,8 @@ function DuanwuSubmitView:ctor(...)
 
     if ActivityDataMgr2:getActivityUIType() == 1 then
         self:init("lua.uiconfig.activity.midAutumnSubmitView")
+    elseif ActivityDataMgr2:getActivityUIType() == 2 then
+        self:init("lua.uiconfig.activity.lanternFestivalSubmitView")
     else
         self:init("lua.uiconfig.activity.duanwuSubmitView")
     end
@@ -39,6 +41,7 @@ function DuanwuSubmitView:initUI(ui)
     local Image_dating = TFDirector:getChildByPath(Image_content, "Image_dating")
     self.Label_tips = TFDirector:getChildByPath(Image_dating, "Image_tips.Label_tips")
     self.Button_dating = TFDirector:getChildByPath(Image_content, "Button_dating")
+    self.img_clickGet = TFDirector:getChildByPath(Image_content, "img_clickGet")
     self.Label_dating = TFDirector:getChildByPath(self.Button_dating, "Label_dating")
     local ScrollView_reward = TFDirector:getChildByPath(Image_dating, "ScrollView_reward")
     self.ListView_reward = UIListView:create(ScrollView_reward)
@@ -52,13 +55,14 @@ function DuanwuSubmitView:initUI(ui)
         foo.Panel_goodsItem:AddTo(foo.Panel_reward):Pos(0, 0):Scale(0.85)
         foo.Image_progress = TFDirector:getChildByPath(foo.root, "Image_progress")
         foo.LoadingBar_progress = TFDirector:getChildByPath(foo.Image_progress, "LoadingBar_progress")
-        foo.Label_progress = TFDirector:getChildByPath(foo.Image_progress, "Label_progress")
+        foo.Label_progress = TFDirector:getChildByPath(foo.root, "Label_progress")
         foo.Image_select_num = TFDirector:getChildByPath(foo.root, "Image_select_num")
         foo.Button_down = TFDirector:getChildByPath(foo.Image_select_num, "Button_down")
         foo.Button_up = TFDirector:getChildByPath(foo.Image_select_num, "Button_up")
         foo.Label_num = TFDirector:getChildByPath(foo.Image_select_num, "Label_num")
         foo.Button_submit = TFDirector:getChildByPath(foo.root, "Button_submit")
         foo.Label_submit = TFDirector:getChildByPath(foo.Button_submit, "Label_submit")
+        foo.img_resNoEnough = TFDirector:getChildByPath(foo.root, "img_resNoEnough")
         foo.Image_complete = TFDirector:getChildByPath(foo.root, "Image_complete")
         self.Image_task[i] = foo
     end
@@ -107,10 +111,10 @@ function DuanwuSubmitView:updateSubmitItem(index)
     foo.Label_progress:setTextById(800005, progressInfo.progress, itemInfo.target)
     local percent = clamp(progressInfo.progress / itemInfo.target * 100, 0, 100)
     foo.LoadingBar_progress:setPercent(percent)
-    foo.Button_submit:setVisible(progressInfo.status ~= EC_TaskStatus.GETED)
     local isEnabled = count > 0
+    foo.Button_submit:setVisible(progressInfo.status ~= EC_TaskStatus.GETED and isEnabled)
     foo.Button_submit:setTouchEnabled(isEnabled)
-    foo.Button_submit:setGrayEnabled(not isEnabled)
+    foo.img_resNoEnough:setVisible(not isEnabled)
     foo.Button_down:setTouchEnabled(isEnabled)
     foo.Button_down:setGrayEnabled(not isEnabled)
     foo.Button_up:setTouchEnabled(isEnabled)
@@ -119,6 +123,14 @@ function DuanwuSubmitView:updateSubmitItem(index)
     foo.Image_select_num:setVisible(progressInfo.status ~= EC_TaskStatus.GETED)
     foo.Image_complete:setVisible(progressInfo.status == EC_TaskStatus.GETED)
     foo.Label_num:setTextById(800005, self.submitNum_[index], GoodsDataMgr:getItemCount(rewardCid))
+
+    if ActivityDataMgr2:getActivityUIType() == 2 then
+        if foo.Image_complete:isVisible() then
+            foo.root:setTexture("ui/activity/lanternFestival/achievement/001.png")
+        else
+            foo.root:setTexture("ui/activity/lanternFestival/achievement/006.png")
+        end
+    end
 
     foo.Button_submit:onClick(function()
             ActivityDataMgr2:send_ACTIVITY_NEW_SUBMIT_ACTIVITY(self.activityId_, itemId, self.submitNum_[index])
@@ -208,10 +220,20 @@ function DuanwuSubmitView:updateDating()
     local reward = json.decode(extendData.datingAward)
 
     self.ListView_reward:removeAllItems()
-    local flag = extendData.state == EC_TaskStatus.GETED and EC_DropShowType.GETED or 0
+    local flag = extendData.state or 0
+
     for cid, num in pairs(reward) do
         local Panel_dropGoodsItem = PrefabDataMgr:getPrefab("Panel_dropGoodsItem"):clone()
-        Panel_dropGoodsItem:Scale(0.7)
+        Panel_dropGoodsItem:Scale(0.6)
+        -- 显示状态交换
+        if flag == EC_TaskStatus.GET then
+            flag = EC_TaskStatus.GETED
+            if GoodsDataMgr:getItem(cid) then
+                flag = EC_TaskStatus.GET
+            end
+        elseif flag == EC_TaskStatus.GETED then
+            flag = EC_TaskStatus.GET
+        end
         PrefabDataMgr:setInfo(Panel_dropGoodsItem, {cid, num}, flag)
         self.ListView_reward:pushBackCustomItem(Panel_dropGoodsItem)
     end
@@ -221,6 +243,7 @@ function DuanwuSubmitView:updateDating()
 
     self.Button_dating:setTouchEnabled(extendData.state ~= EC_TaskStatus.ING)
     self.Button_dating:setGrayEnabled(extendData.state == EC_TaskStatus.ING)
+    self.img_clickGet:setVisible(extendData.state ~= EC_TaskStatus.ING)
 end
 
 function DuanwuSubmitView:registerEvents()

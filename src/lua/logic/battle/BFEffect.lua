@@ -11,6 +11,7 @@ local eBFEffectType    = enum.eBFEffectType
 local eBFTriggerObject = enum.eBFTriggerObject
 local eBFTargetType    = enum.eBFTargetType
 local eBFETakeType     = enum.eBFETakeType
+local eBFETakeCondition = enum.eBFETakeCondition
 local eSpecialType     = enum.eSpecialType
 local eDir = enum.eDir
 local eAttrType = enum.eAttrType
@@ -119,6 +120,8 @@ function BFEffect:ctor(data)
     --状态对应方
     self.receiveObj = nil
 
+    self.bufferId = nil
+
     --持续时间
     self.nDuration  = 0
     --生效次数
@@ -137,10 +140,38 @@ function BFEffect:ctor(data)
     -- 事件统计次数
 
     self.nEventTriggerTimes   = {}
+
+    self.enableTakeEffect = true
+    self.realAddTimes = 0
 end
 
 function BFEffect:getData()
     return self.data
+end
+
+function BFEffect:getCoverId()
+    return self.data.coverId
+end
+
+function BFEffect:getPriority()
+    return self.data.priority
+end
+
+function BFEffect:setTakeEffect(enable)
+    if self.enableTakeEffect and not enable then
+        self:removeEffect()
+        self:releaseRenderNode()
+        self:doIconEvent(eBufferEffectIconEvent.REMOVE)
+    end
+    if not self.enableTakeEffect and enable then
+        self:doIconEvent(eBufferEffectIconEvent.ADD)
+        if self.data.effectType ~= eBFEffectType.ET_STATE_CHANGE and 
+           self.data.effectType ~= eBFEffectType.ET_STATE_CHANGE_RANDOM then
+            self:releaseRenderNode()
+            self:createRenderNode()
+        end
+    end
+    self.enableTakeEffect = enable
 end
 
 --是否是负面效果
@@ -338,17 +369,32 @@ function BFEffect:handlInterval(dt)
             self.nTime = 0
             self:onInterval()
         end
+    elseif effectiveWay == eBFETakeType.TT_CHECK_EFFECT then
+        self.nTime  = self.nTime  + dt
+        if self.nTime > self.data.interval then
+            self.nTime = 0
+            if self.data.effectCondition > 0 then
+                if not self:checkEffectCondition(self.host,self.data) then
+                    self:normalDestory()
+                end
+            end
+        end
     end
 end
 
-function BFEffect:bind(host,provideObj,triggerObj,receiveObj)
+function BFEffect:bind(host,provideObj,triggerObj,receiveObj,bufferId)
     self.host       = host
     self.provideObj = provideObj
     self.triggerObj = triggerObj
     self.receiveObj = receiveObj
+    self.bufferId = bufferId
     if self.data.effectType ~= eBFEffectType.ET_STATE_CHANGE and 
        self.data.effectType ~= eBFEffectType.ET_STATE_CHANGE_RANDOM then   
         self:createRenderNode()
+    end
+    if self.data.coverId > 0 then
+        local enableTake = self.host:checkEffectTake(self, true)
+        self:setTakeEffect(enableTake)
     end
 end
 
@@ -381,6 +427,9 @@ end
 function BFEffect:onAtOnce()
     print("-----------onAtOnce---------")
     if self:isVaildTakeType(eBFETakeType.TT_AT_ONECE) then
+        self:takeEffect(1)
+    end
+    if self:isVaildTakeType(eBFETakeType.TT_CHECK_EFFECT) then
         self:takeEffect(1)
     end
 end
@@ -417,7 +466,11 @@ end
 
 --生效处理
 function BFEffect:takeEffect(addTimes)
+    if not self.enableTakeEffect then
+        return
+    end
     print("效果处理....................",self.data.id , self.nAddTimes)
+
     --扣除生效次数
     local value_0 = 0
     local value_1 = 1
@@ -657,6 +710,15 @@ function BFEffect:takeEffect(addTimes)
             for i, skill in ipairs(skills) do
                 skill:reduceCDTime(time)
             end
+        elseif effectType == eBFEffectType.ET_SET_SKILL_CD then -- 设置技能CD上限
+            local skillType = self.data.skillType
+            local solecd      = self.data.solecd
+            local fixed     = self.data.fixed
+            local renovate = self.data.renovate
+            local skills    = target:getSkillsByType(skillType)
+            for i, skill in ipairs(skills) do
+                skill:setCDControl(solecd,fixed,renovate)
+            end
         elseif effectType == eBFEffectType.ET_SHARE_HURT then --伤害分担处理
             -- local state = self.data.effectState
             -- local team  = battleController.getTeam()
@@ -704,6 +766,7 @@ function BFEffect:takeEffect(addTimes)
             local skillType = self.data.useSkillType
             target:castByType(skillType)
         end
+    self.realAddTimes = self.realAddTimes + 1
     self:showEffectName()
     self:takeTimesAdd()
     self:onEventTakeEffect()
@@ -712,6 +775,7 @@ end
 --移除叠加层数
 function BFEffect:removeAddTimes(addTimes)
     self.nAddTimes = self.nAddTimes - addTimes
+    self.realAddTimes = math.max(0, self.realAddTimes - addTimes)
     self:doIconEvent(eBufferEffectIconEvent.UPDATE_ADDTIMES)    
 end
 
@@ -721,7 +785,7 @@ function BFEffect:removeEffect(addTimes)
     print("移除效果处理....................",self.data.id)
     addTimes = addTimes or self.nAddTimes
     addTimes = math.min(addTimes,self.nAddTimes)
-    if addTimes > 0 then
+    if addTimes > 0 and self.realAddTimes > 0 then
         local objectType = self.data.objectType
         -- if objectType == eBFObjectType.OT_HERO then --作用于目标
             local target = self.host
@@ -770,6 +834,12 @@ function BFEffect:removeEffect(addTimes)
                 if timeScale then  --TODO 配置0-100
                     target:changeSelfTimeScale(-timeScale*0.01*addTimes)
                 end
+            elseif effectType == eBFEffectType.ET_SET_SKILL_CD then -- 设置技能CD上限
+                local skillType = self.data.skillType
+                local skills    = target:getSkillsByType(skillType)
+                for i, skill in ipairs(skills) do
+                    skill:setCDControl(0)
+                end
             end
 
         self:removeAddTimes(addTimes)
@@ -796,6 +866,8 @@ function BFEffect:getRefTarget()
         return self.triggerObj
     elseif referenceTarget == eBFRTargetType.RTT_TARGET then --buff作用对象
         return self.host
+    elseif referenceTarget == eBFRTargetType.RTT_PROV then --buff提供者
+        return self.provideObj
     elseif referenceTarget == eBFRTargetType.RTT_EVENT_TAR then --状态对应方
         return self.receiveObj
     end
@@ -849,6 +921,9 @@ function BFEffect:removeSelf()
     self:releaseRenderNode()
     self.bEnabled = false
     self.host:removeBFEffect(self)
+    if self.data.coverId > 0 then
+        self.host:checkEffectTake(self)
+    end
 end
 --重置到非激活状态
 function BFEffect:reset()
@@ -1179,7 +1254,16 @@ function BFEffect:getTakeTarget(data)
             Box("新效果不支持的类型"..tostring(effectTarget))
             return {}
         elseif effectTarget == eBFTargetType.TT_FRIENT  then --队友
-            return self.provideObj:getAreaFrineds(-1)
+            local targerts = self.provideObj:getAreaFrineds(-1)
+            if data.targetID == 0 then
+                return targerts
+            end
+            for i,v in ipairs(targerts) do
+                if v:getData().id == data.targetID then 
+                    return {v}
+                end
+            end
+            return {}
         elseif effectTarget == eBFTargetType.TT_ENEMY  then --敌人
             return self.provideObj:getAreaEnemys(-1)
         elseif effectTarget == eBFTargetType.TT_FRIENT_TEAM  then --队友包涵自己
@@ -1197,13 +1281,10 @@ function BFEffect:getTakeTarget(data)
             end
             return result
         elseif effectTarget == eBFTargetType.TT_FRIENT_MONSTER then --友方 怪
-            local heros = self.provideObj:getAreaFrineds(-1,nil,true)
+            local heros = self.provideObj:getCalls(-1,nil,1)
             local result = {}
             for i,hero in ipairs(heros) do
-                local roleType = hero:getRoleType() 
-                if roleType == eRoleType.Monster then 
-                    table.insert(result,hero)
-                end
+                table.insert(result,hero)
             end
             return result
         end
@@ -1238,6 +1319,10 @@ function BFEffect:_triggerNewEffect(data,takeObj)
         if data.attrDebuff then
             return
         end
+    end
+
+    if not self:checkEffectCondition(takeObj, data) then
+        return
     end
     
     _print("trigger new effect ...",data.id)
@@ -1307,6 +1392,46 @@ function BFEffect:_triggerNewEffect(data,takeObj)
 
 end
 
+function BFEffect:checkEffectCondition(takeObj,data)
+    local condition = data.effectCondition
+    if condition and condition > 0 then
+        local targets = {}
+        if condition == eBFETakeCondition.TC_TARGET_FRIEND then
+            table.insertTo(targets,self.provideObj:getAreaFrineds(-1,nil,true))
+            table.insertTo(targets,self.provideObj:getCalls(-1,100,1))
+        elseif condition == eBFETakeCondition.TC_TARGET_ENEMY then
+            table.insertTo(targets,self.provideObj:getAreaEnemys(-1))
+            table.insertTo(targets,self.provideObj:getCalls(-1,100,2))
+        elseif condition == eBFETakeCondition.TC_TARGET_ALL then
+            table.insertTo(targets,battleController.getTeam():getHerosEx())
+        elseif condition == eBFETakeCondition.TC_TARGET_FRIEND_CALL then
+            table.insertTo(targets,self.provideObj:getCalls(-1,100,1))
+        elseif condition == eBFETakeCondition.TC_TARGET_ENEMY_CALL then
+            table.insertTo(targets,self.provideObj:getCalls(-1,100,2))
+        elseif condition == eBFETakeCondition.TC_TARGET_CALL then
+            table.insertTo(targets,self.provideObj:getCalls(-1,100))
+        end
+        if data.bodyCount > 0 then
+            local realTargets = {}
+            if data.bodyType >= 0 then
+                for i,v in ipairs(targets) do
+                    if v:isActive() and v:getBodyType() == data.bodyType then
+                        table.insert(realTargets, v)
+                    end
+                end
+                return #realTargets >= data.bodyCount
+            else
+                for i,v in ipairs(targets) do
+                    if v:isActive() then
+                        table.insert(realTargets, v)
+                    end
+                end
+                return #realTargets >= data.bodyCount
+            end
+        end
+    end
+    return true
+end
 
 --icon 显示事件
 function BFEffect:doIconEvent(eventType)
@@ -1354,6 +1479,11 @@ end
 function BFEffect:checkHurtValue(target,value)
     if self.provideObj and value < 0 then 
         self.provideObj:addHurtValue(math.abs(value),target)
+        battleController.setDamageData(self.provideObj, math.abs(value), nil, nil, self.bufferId)
     end
+end
+
+function BFEffect:getBindBufferId()
+    return self.bufferId
 end
 return BFEffect

@@ -18,7 +18,7 @@ function ActivityFanShiEntry:initUI(ui)
     local panel_root = ui:getChildByName("Panel_root")
     local ship_btn = panel_root:getChildByName("btn_entry")
     ship_btn:onClick(function(sender)
-        Utils:openView("simulationTrial.SimulationTrialMainView",EC_ActivityFubenType.SIMULATION_TRIAL_4)
+        FunctionDataMgr:jSimulationTrial(EC_ActivityFubenType.SIMULATION_TRIAL_4)
     end)
 end
 

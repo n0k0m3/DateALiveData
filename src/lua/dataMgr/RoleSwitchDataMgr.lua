@@ -90,11 +90,12 @@ function RoleSwitchDataMgr:setDefaultSwitchList()
 end
 
 function RoleSwitchDataMgr:initAllHighDress()
-
+	self.allHighDress = {}
     local roleCnt = RoleDataMgr:getRoleCount()
     for i=1,roleCnt do
         local roleId = RoleDataMgr:getRoleIdByShowIdx(i);
         local dressTab = RoleDataMgr:getDressIdList(roleId)
+
         for k,v in ipairs(dressTab) do
             local dressCfg = self:getDressCfg(v)
             if dressCfg and dressCfg.type == 2 and not dressCfg.notTurnPlay then
@@ -110,6 +111,10 @@ end
 
 function RoleSwitchDataMgr:getSwitchAnimateState()
     return self.animateState
+end
+
+function RoleSwitchDataMgr:getNextDressId()
+    return self.nextDressId or self.switchList[1]
 end
 
 ---看板轮换时间控制
@@ -154,6 +159,13 @@ end
 
 function RoleSwitchDataMgr:setSwitchList(list)
     self.switchList = list or {}
+    for i=#self.switchList,1,-1 do
+        local dressId  = self.switchList[i]
+        local dressCfg = self:getDressCfg(dressId)
+        if not dressCfg or dressCfg.type ~= 2 or dressCfg.notTurnPlay then
+            table.remove(self.switchList,i)
+        end
+    end
 end
 
 function RoleSwitchDataMgr:getSwitchList()
@@ -174,7 +186,6 @@ function RoleSwitchDataMgr:getSwitchState()
 end
 
 function RoleSwitchDataMgr:handleSwitchList(dressId,isTemp)
-
     local isInSwitchList = self:isInSwitchList(dressId)
     if isInSwitchList then
         if #self.switchList == 2 then
@@ -201,19 +212,54 @@ function RoleSwitchDataMgr:removeFromSwitchList(dressId,isTemp)
 end
 
 function RoleSwitchDataMgr:insertSwitchList(dressId,isTemp)
+	
 
+	local function replaceSameId(dressId)
+		local ret
+		local cfg = TabDataMgr:getData("Dress", dressId)
+		if table.count( cfg.skinGroup) >= 2 then
+			for k, v  in pairs( cfg.skinGroup) do
+				local index = table.indexOf(self.switchList, v)
+				if index ~= -1 then	
+					print('存在时装组')
+					ret = index		
+					break; 
+				end
+			end
+			
+		end
+		return ret
+	end
+	
     local newDressCfg = self:getDressCfg(dressId)
-    if newDressCfg and newDressCfg.type and newDressCfg.type == 2 then
+    if newDressCfg and newDressCfg.type and newDressCfg.type == 2 and not newDressCfg.notTurnPlay then
+		local idx = replaceSameId(dressId)
+
         local dressData = RoleDataMgr:useDressFindData()
-        if dressData and dressData.type and dressData.type == 2 then
+        if dressData and dressData.type and dressData.type == 2 and not dressData.notTurnPlay then
             local index = table.indexOf(self.switchList, dressData.id)
             if index ~= -1 then
-                table.insert(self.switchList,index+1,dressId)
+				if idx then
+					table.remove(self.switchList, idx)
+				end
+				table.insert(self.switchList,index+1,dressId)
+
+				local tempTab = {}
+				for k, v in pairs(self.switchList) do
+					table.insert(tempTab, v)
+				end
+				self.switchList = tempTab
             else
-                table.insert(self.switchList,dressId)
+				if idx then
+					table.remove(self.switchList, idx)
+				end
+				table.insert(self.switchList,dressId)
             end
         else
-            table.insert(self.switchList,dressId)
+			if idx then
+				table.remove(self.switchList, idx)
+			end
+			table.insert(self.switchList,dressId)
         end
         if not isTemp then
             self:Send_NewSwithList(self.switchList)
@@ -319,10 +365,19 @@ function RoleSwitchDataMgr:setNextRole()
     if not next(self.switchList) then
         return
     end
+    ---删除不合理的高级看板
+    for i=#self.switchList,1,-1 do
+        local dressId  = self.switchList[i]
+        local dressCfg = self:getDressCfg(dressId)
+        if not dressCfg or dressCfg.type ~= 2 or dressCfg.notTurnPlay then
+            table.remove(self.switchList,i)
+        end
+    end
     dump(self.switchList)
     local nextDressId
     local dressData = RoleDataMgr:useDressFindData()
     local useId = RoleDataMgr:getUseId()
+
     if dressData and dressData.type and dressData.type == 2 then
         local index = table.indexOf(self.switchList, dressData.id)
         if index ~= -1 then
@@ -355,6 +410,11 @@ function RoleSwitchDataMgr:setNextRole()
         return
     end
 
+    local firstFlag = self:getFirstFlag()
+    if firstFlag then
+        return
+    end
+
     self:setBgm(nextDressId)
     if roleId ~= useId then
         self.switchRoleID = roleId
@@ -367,6 +427,10 @@ function RoleSwitchDataMgr:setNextRole()
     else
         self:useDress(roleId,nextDressId)
     end
+
+	self.nextDressId = nextDressId
+
+	return nextDressId
 end
 
 return RoleSwitchDataMgr:new();

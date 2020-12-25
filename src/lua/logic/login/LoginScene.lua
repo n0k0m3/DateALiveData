@@ -33,6 +33,110 @@ function LoginScene:onEnter(re)
 end
 
 function LoginScene:showVideoView(re)
+	if TFGlobalUtils:isConnectEnServer() then
+		self:showVideoViewEngServer(re)
+	else
+		self:showVideoViewMiniServer(re)
+	end
+end
+
+function LoginScene:changeVideo(path)
+	self.videoView:changeVideo(path)
+	self.layer:hide();
+end
+
+function LoginScene:removeVideoView()
+	if self.videoView then
+		self.videoView:removeFromParent();
+		self.videoView = nil;
+	end
+end
+
+function LoginScene:addLoadingLayer(layer)
+	if self.videoView then
+		self.videoView:addLoadingLayer(layer,999)
+	end
+end
+
+function LoginScene:addCustomLayer(layer)
+	if self.videoView then
+		self.videoView:addCustomLayer(layer,999)
+	end
+end
+
+
+function LoginScene:onExit()
+	self.super.onExit(self)
+	Utils.isInMovieScene = false
+end
+
+function LoginScene:onKeyBack()
+    if self.layer then
+    	self.layer:onKeyBack()
+    end
+end
+
+function LoginScene:showVideoViewMiniServer( re )
+	local OldValue = USE_NATIVE_VLC
+    if me.platform == 'android' then
+        USE_NATIVE_VLC = true
+	end
+	
+	local delayTime ,videoPth1, videoPth2
+	if FunctionDataMgr:isOneYearLoginUI() then
+		delayTime = 1
+		videoPth1 = "video/loginPart3.mp4"
+		videoPth2 = "video/loginPart3.mp4"
+	else
+		delayTime = 2
+		videoPth1 = "video/loginPart3.mp4"
+		videoPth2 = "video/loginPart3.mp4"
+	end
+
+	if self.videoView or re then
+		
+		if self.videoView then
+			self.videoView:removeFromParent();
+		end
+
+		local currentScene = Public:currentScene()
+	    local videoView = requireNew("lua.logic.common.VideoView"):new(videoPth2)
+	    videoView:setAnchorPoint(ccp(0.5, 0.5))
+	    videoView:setPosition(ccp((GameConfig.WS.width - videoView:getSize().width)/2 + videoView:getSize().width / 2, (GameConfig.WS.height - videoView:getSize().height)/2 + videoView:getSize().height / 2))
+	    currentScene:addChild(videoView)
+	    videoView:setEndLoop(true)
+	    videoView:setIshowSkip(false)
+	    USE_NATIVE_VLC = OldValue
+
+		local layer = require("lua.logic.login.LoginLayer"):new(self.data)
+		videoView:addTopLayer(layer)
+		layer:setPosition(ccp(-GameConfig.WS.width / 2,-GameConfig.WS.height / 2))
+	    self.videoView = videoView;
+	    self.layer = layer
+	else
+		local currentScene = Public:currentScene()
+	    local videoView = requireNew("lua.logic.common.VideoView"):new(videoPth1,videoPth2)
+	    videoView:setAnchorPoint(ccp(0.5, 0.5))
+	    videoView:setPosition(ccp((GameConfig.WS.width - videoView:getSize().width)/2 + videoView:getSize().width / 2, (GameConfig.WS.height - videoView:getSize().height)/2 + videoView:getSize().height / 2))
+	    currentScene:addChild(videoView)
+	    videoView:setEndLoop(true)
+	    videoView:setIshowSkip(false)
+	    USE_NATIVE_VLC = OldValue
+	    TFAudio.resumeMusic()
+
+	    TimeOut(function()
+	    	Utils:sendHttpLog("cartoon_finish_J")
+	    		local layer = require("lua.logic.login.LoginLayer"):new(self.data)
+				videoView:addTopLayer(layer)
+				layer:setPosition(ccp(-GameConfig.WS.width / 2,-GameConfig.WS.height / 2))
+				self.layer = layer
+	    	end,delayTime)
+
+	    self.videoView = videoView;
+	end
+end
+
+function LoginScene:showVideoViewEngServer( re )
 	local OldValue = USE_NATIVE_VLC
     if me.platform == 'android' then
         USE_NATIVE_VLC = true
@@ -91,42 +195,6 @@ function LoginScene:showVideoView(re)
 
 	    self.videoView = videoView
 	end
-end
-
-function LoginScene:changeVideo(path)
-	self.videoView:changeVideo(path)
-	self.layer:hide();
-end
-
-function LoginScene:removeVideoView()
-	if self.videoView then
-		self.videoView:removeFromParent();
-		self.videoView = nil;
-	end
-end
-
-function LoginScene:addLoadingLayer(layer)
-	if self.videoView then
-		self.videoView:addLoadingLayer(layer,999)
-	end
-end
-
-function LoginScene:addCustomLayer(layer)
-	if self.videoView then
-		self.videoView:addCustomLayer(layer,999)
-	end
-end
-
-
-function LoginScene:onExit()
-	self.super.onExit(self)
-	Utils.isInMovieScene = false
-end
-
-function LoginScene:onKeyBack()
-    if self.layer then
-    	self.layer:onKeyBack()
-    end
 end
 
 return LoginScene;

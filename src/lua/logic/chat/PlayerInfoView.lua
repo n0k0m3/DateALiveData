@@ -2,6 +2,7 @@
 local PlayerInfoView = class("PlayerInfoView", BaseLayer)
 
 function PlayerInfoView:initData(playerInfo,backTag)
+    -- dump(playerInfo)
     self.playerInfo = playerInfo
     self.backTag = backTag
     self.name = playerInfo.name
@@ -16,6 +17,15 @@ function PlayerInfoView:initData(playerInfo,backTag)
     print("self.hId ",self.hId)
     print("self.playerInfo.helpFightHeroCid ",self.playerInfo.helpFightHeroCid)
     self.heroCfg_ = TabDataMgr:getData("Hero", self.playerInfo.helpFightHeroCid)
+	
+--	self.teamSwitch = nil
+--	local queryInfo = MainPlayer:getQueryPlayerInfo() or {}
+--	for k, v in pairs(queryInfo.switch or {}) do
+--		if v.type == EC_SWITCH_TYPE.TEAM_PRIVACY then
+--			self.teamSwitch = tonumber(v.value)
+--			break;
+--		end
+--	end
 end
 
 function PlayerInfoView:ctor(...)
@@ -37,6 +47,11 @@ function PlayerInfoView:initUI(ui)
     self.ScrollView_info_list = UIListView:create(ScrollView_info)
     --self.ScrollView_info:setScrollBar(scrollBar)
     self.Panel_extra_info:removeFromParent()
+    self.Panel_masterTitle = TFDirector:getChildByPath(self.Panel_extra_info, "Panel_masterTitle")
+    if Utils:getKVP(90023,"open") ~= 1 then
+        self.Panel_masterTitle:hide()
+        self.Panel_extra_info:setContentSize(CCSizeMake(548,328))
+    end
     self.ScrollView_info_list:pushBackCustomItem(self.Panel_extra_info)
 
     self.Label_no_title = TFDirector:getChildByPath(self.ui, "Label_no_title")
@@ -50,6 +65,7 @@ function PlayerInfoView:initUI(ui)
     self:initBtn()
     self:initCollect()
     self:refreshUI()
+    self:refreshMasterName()
 end
 --收藏
 function PlayerInfoView:initCollect()
@@ -72,6 +88,12 @@ function PlayerInfoView:refreshCollect()
         self.Label_collect_rank:setTextById(263009)
     else
         self.Label_collect_rank:setTextById(100000121,tostring(element.rank))
+    end
+
+    local name,_count = TFGlobalUtils:checkPlayerProvision(self.name)
+    if _count > 0 then
+        self.Label_collect_rank:setText(name)
+        self.Label_collect_cup:setText(name)
     end
 end
 
@@ -145,10 +167,17 @@ function PlayerInfoView:initPlayerInfo()
 end
 
 function PlayerInfoView:refreshPlayerInfo()
-    self.Label_playerName:setText(self.name)
+    local name,_count = TFGlobalUtils:checkPlayerProvision(self.name)
+    self.Label_playerName:setText(name)
     self.Label_playerId:setText(self.id)
+    if _count > 0 then
+        self.Label_playerId:setText(name)
+    end
+    
     --self.Label_as:setText(self.as or self.Label_as:getText())
-
+    if _count > 0 then
+        self.Button_private:hide()
+    end
 end
 
 function PlayerInfoView:initDeclaration()
@@ -160,6 +189,10 @@ function PlayerInfoView:refreshDeclaration()
         return
     end
     self.Label_dec:setText(self.remark)
+    local name,_count = TFGlobalUtils:checkPlayerProvision(self.name)
+    if _count > 0 then
+        self.Label_dec:setText(name)
+    end
 end
 
 function PlayerInfoView:initBtn()
@@ -172,6 +205,7 @@ function PlayerInfoView:initBtn()
     self.Button_copy = TFDirector:getChildByPath(self.ui,"Button_copy")
     self.Button_report = TFDirector:getChildByPath(self.ui, "Button_report")
     self.Button_medal = TFDirector:getChildByPath(self.ui, "Button_medal")
+    self.Button_exchange = TFDirector:getChildByPath(self.ui, "Button_exchange"):hide()
     self.Button_exit  = TFDirector:getChildByPath(self.ui, "Button_exit")
     self.Button_league = TFDirector:getChildByPath(self.ui, "Button_league")
 end
@@ -184,16 +218,51 @@ function PlayerInfoView:refreshBtn()
     self.Button_lockMessage:setVisible(not isShieldingFriend)
     self.Button_unlockMessage:setVisible(isShieldingFriend)
     self.Button_league:setVisible(self.playerInfo.unionId and self.playerInfo.unionId > 0)
+    self:updateByActivity()
+end
+
+function PlayerInfoView:refreshMasterName()
+    local lab_lv = TFDirector:getChildByPath(self.Panel_extra_info, "Panel_masterTitle.Image_icon.lab_masterLv")
+    local lab_name = TFDirector:getChildByPath(self.Panel_extra_info, "Panel_masterTitle.lab_masterName")
+    local _lv = FriendDataMgr:getFamousLvByExperience(self.playerInfo.famousExp)
+    lab_lv:setText(_lv)
+    if _lv == 0 then
+        lab_name:setTextById(1340073)
+    else
+        lab_name:setText(FriendDataMgr:getInstructorLevelCfg()[_lv].des)
+    end
 end
 
 function PlayerInfoView:onSearchUnionBack(data)
     Utils:openView("league.LeagueSnapInfoView", data.union)
 end
 
+function PlayerInfoView:updateByActivity()
+    local isFriend = FriendDataMgr:isFriend(self.id)
+    local isOpen = ActivityDataMgr2:isInOpenTimeByType(EC_ActivityType2.BALLOON_ACTIVITY)
+    self.Button_exchange:setVisible(isFriend and isOpen)
+end
+
 function PlayerInfoView:registerEvents()
     EventMgr:addEventListener(self, EV_UNION_SEARCH_UNION, handler(self.onSearchUnionBack, self))
+    EventMgr:addEventListener(self, EV_ACTIVITY_UPDATE_ACTIVITY, handler(self.updateByActivity, self))
 
     self.Button_team:onClick(function()
+--		if self.teamSwitch then
+--			local visible = true
+--			if self.teamSwitch == 2 then			--不可见
+--				visible = false
+--			elseif self.teamSwitch == 1 then		--好友可见
+--				if not FriendDataMgr:getFriendInfo(self.id) then
+--					visible = false
+--				end
+--			end
+--			if visible == false then
+--				Utils:showTips(15010199)
+--				return
+--			end
+--		end
+
         HeroDataMgr:changeDataToFriend();
         Utils:openView("fairyNew.FairyMainLayer",{friend = true,backTag = self.backTag, friendLv = self.playerInfo.lvl})
     end)
@@ -206,6 +275,13 @@ function PlayerInfoView:registerEvents()
             playerInfo = nil
         end
         FunctionDataMgr:jPokedex(playerInfo)
+    end)
+
+    self.Button_exchange:onClick(function()
+        if self.playerInfo.pid == MainPlayer:getPlayerId() then
+            return
+        end
+        ActivityDataMgr2:sendReqExchangeApply(self.playerInfo.pid, 1)
     end)
 
     self.Button_addFriends:onClick(function()

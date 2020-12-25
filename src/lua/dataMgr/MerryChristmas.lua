@@ -1,9 +1,14 @@
 local FileCheckMgr = class("FileCheckMgr")
 local UserCenterHttpClient = TFClientNetHttp:GetInstance()
 local TFClientUpdate =  TFClientResourceUpdate:GetClientResourceUpdate()
+
+MD5_DEBUG   = true
+
 --add to update
 function FileCheckMgr:ctor()
-    self.strCfg = require("lua.table.String" ..GAME_LANGUAGE_VAR)
+
+    self.strCfg = TFGlobalUtils:requireGlobalFile("lua.table.StartString")
+
 	--self.checkUrl = "http://192.168.10.16:8000/version_3.0.05.xml"
     self.checkUrl = "http://192.168.101.16:8000/check.xml"
     self.urlIndex = 0;
@@ -11,20 +16,19 @@ function FileCheckMgr:ctor()
 	 -- "http://cdn.datealive.com/dal/",
   --      "http://c.dal.heitao2014.com/dal/",
   --     }
-    --ÔÝÊ±ÆÁ±Îº«·þÉèÖÃ
     if CC_TARGET_PLATFORM == CC_PLATFORM_IOS then
         self.urlHeads = {
-            "https://c-en.datealive.com/dal_eng/",
-            "https://c-dal-en.heitaoglobal.com/dal_eng/",
+            "https://c-ml.datealive.com/dal_global/",
+            "https://c-dal-ml.heitaoglobal.com/dal_global/",
         }
     elseif CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 then
         self.urlHeads = {
-            "http://cdn.datealive.com/dal/",
+            "http://c-ml.datealive.com/dal/",
         }
     else
         self.urlHeads = {
-            "https://c-en.datealive.com/dal_eng/",
-            "https://c-dal-en.heitaoglobal.com/dal_eng/",
+            "https://c-ml.datealive.com/dal_global/",
+            "https://c-dal-ml.heitaoglobal.com/dal_global/",
         }
     end
 
@@ -168,7 +172,6 @@ function FileCheckMgr:startCheckFile()
             self:checkOneFile();
         end
     )
-    --无用代码为了更新
 end
 
 function FileCheckMgr:onFileError()

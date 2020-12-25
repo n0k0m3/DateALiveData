@@ -13,7 +13,7 @@ CREATE_PANEL_FUN(LoadingLayer)
 local loading = nil
 
 function LoadingLayer:ctor(data)
-    self.strCfg = require("lua.table.String" ..GAME_LANGUAGE_VAR)
+    self.strCfg = TFGlobalUtils:requireGlobalFile("lua.table.StartString")
     self.super.ctor(self,data)
 end
 
@@ -116,7 +116,7 @@ function LoadingLayer:show(showType)
         if currentScene.__cname == "LoginScene" then
             currentScene:addLoadingLayer(loading);
         else
-            currentScene:addLayer(loading);
+            currentScene:addLayer(loading, 500);
         end
         loading.toScene = currentScene;
     end

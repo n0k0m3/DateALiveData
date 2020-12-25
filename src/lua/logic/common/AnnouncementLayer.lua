@@ -15,17 +15,9 @@ function AnnouncementLayer:initData(helpIds)
     self.changeTime = 3.0
     self.panel_title_list = {}
 
-    self.announcementUrl = {}
+    self.announcementUrl = URL_ANNOUNCEMENT
     self.data = {}
     self.urlIdx = 1
-
-    if RELEASE_TEST or CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 then
-        self.announcementUrl[1] = "https://c-en.datealive.com/dal_eng/notice_test/announcement"..GAME_LANGUAGE_VAR..".json"
-        self.announcementUrl[2] = "https://c-dal-en.heitaoglobal.com/dal_eng/notice_test/announcement"..GAME_LANGUAGE_VAR..".json"
-    else
-        self.announcementUrl[1] = "https://c-en.datealive.com/dal_eng/notice/announcement"..GAME_LANGUAGE_VAR..".json"
-        self.announcementUrl[2] = "https://c-dal-en.heitaoglobal.com/dal_eng/notice/announcement"..GAME_LANGUAGE_VAR..".json"
-    end
 end
 
 function AnnouncementLayer:initUI(ui)
@@ -74,77 +66,79 @@ function AnnouncementLayer:getAnnouncementInfo( ... )
 end
 
 function AnnouncementLayer:updateNoticeData( data )
-    data = json.decode(data)
-        if data then
-            table.sort(data , function ( a , b )
-                return a.group > b.group
-            end)
-            local newGroupLen =  math.min(data[1].group ,self.groupLimit)
+    if (data and data ~= "") then
+        data = json.decode(data)
+    end
+    if data and data ~= "" then
+        table.sort(data , function ( a , b )
+            return a.group > b.group
+        end)
+        local newGroupLen =  math.min(data[1].group ,self.groupLimit)
 
-            local usedata = {}
-            local getIdx = 1
-            for i=data[1].group,1 , -1 do
-                if getIdx > newGroupLen then
-                    break
-                end
-
-                for k ,v in pairs(data) do
-                    if v.isHide == false  and i == v.group then
-                        usedata[getIdx] = usedata[getIdx] or {}
-                        table.insert(usedata[getIdx] , v)
-                    end
-                end
-
-                for k ,v in pairs(data) do
-                    if v.isHide == true  and i == v.group then
-                        usedata[getIdx] = usedata[getIdx] or {}
-                        table.insert(usedata[getIdx] , v)
-                    end
-                end
-                getIdx = getIdx + 1
+        local usedata = {}
+        local getIdx = 1
+        for i=data[1].group,1 , -1 do
+            if getIdx > newGroupLen then
+                break
             end
 
-            self.data = usedata
-            self.myData = {}
-
-            for k ,v in pairs(self.data) do
-                local title = {}
-                local content = {}
-                for key , data in pairs(v) do
-                    local textData = {
-                        baseName = data.baseName,
-                        name = data.name,
-                        color = data.color,
-                        text = data.text,
-                        clickId = "",
-                        size = data.size,
-                        index = data.index
-                        }
-                    if data.type == "title" then
-                        table.insert(title , textData)
-                    else
-                        table.insert(content , textData)
-                    end
+            for k ,v in pairs(data) do
+                if v.isHide == false  and i == v.group then
+                    usedata[getIdx] = usedata[getIdx] or {}
+                    table.insert(usedata[getIdx] , v)
                 end
-                title.align = "left"
-                table.sort(title ,function(a , b )
-                   return a.index < b.index
-                end)
-                content.align = "left"
-                table.sort(content ,function(a , b )
-                   return a.index < b.index
-                end)
-                table.insert(self.myData , {title = title , content = content})
             end
-            self:initScrollInfos()
-        else   --如果没有数据
-            self.urlIdx = self.urlIdx + 1 
-            if self.urlIdx >= 3 then
-                Utils:showTips(190000204)
-                return
+
+            for k ,v in pairs(data) do
+                if v.isHide == true  and i == v.group then
+                    usedata[getIdx] = usedata[getIdx] or {}
+                    table.insert(usedata[getIdx] , v)
+                end
             end
-            self:getAnnouncementInfo()
+            getIdx = getIdx + 1
         end
+
+        self.data = usedata
+        self.myData = {}
+
+        for k ,v in pairs(self.data) do
+            local title = {}
+            local content = {}
+            for key , data in pairs(v) do
+                local textData = {
+                    baseName = data.baseName,
+                    name = data.name,
+                    color = data.color,
+                    text = data.text,
+                    clickId = "",
+                    size = data.size,
+                    index = data.index
+                    }
+                if data.type == "title" then
+                    table.insert(title , textData)
+                else
+                    table.insert(content , textData)
+                end
+            end
+            title.align = "left"
+            table.sort(title ,function(a , b )
+                return a.index < b.index
+            end)
+            content.align = "left"
+            table.sort(content ,function(a , b )
+                return a.index < b.index
+            end)
+            table.insert(self.myData , {title = title , content = content})
+        end
+        self:initScrollInfos()
+    else   --如果没有数据
+        self.urlIdx = self.urlIdx + 1 
+        if self.urlIdx >= 3 then
+            Utils:showTips(190000204)
+            return
+        end
+        self:getAnnouncementInfo()
+    end
 end
 
 function AnnouncementLayer:initScrollInfos( ... )

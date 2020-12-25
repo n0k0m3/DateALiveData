@@ -13,12 +13,12 @@ end
 
 function NewCityMainScene:onEnter()
     self.super.onEnter(self)
-    --TFDirector:send(c2s.SHARE_REQ_INTO_PANEL,{1})
+    TFDirector:send(c2s.SHARE_REQ_INTO_PANEL,{1})
 end
 
 function NewCityMainScene:onExit()
     self.super.onExit(self)
-    --TFDirector:send(c2s.SHARE_REQ_INTO_PANEL,{0})
+    TFDirector:send(c2s.SHARE_REQ_INTO_PANEL,{0})
 end
 
 function NewCityMainScene:onKeyBack()

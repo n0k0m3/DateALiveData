@@ -13,6 +13,7 @@ function RoleDataMgr:ctor()
     --看板娘小精灵会同时出现多个状态（显示权重最高的一个状态）
     self.elvesStateList = {}
     self:init()
+
 end
 
 function RoleDataMgr:init()
@@ -26,6 +27,8 @@ function RoleDataMgr:init()
     TFDirector:addProto(s2c.EXTRA_DATING_RES_TIGGER_ROLE_NOTICE, self, self.onMainUpdateActivationStateHandel)
     TFDirector:addProto(s2c.EXTRA_DATING_RES_FAVOR_DATING_NOTICES, self, self.onMainUpdateActivationStateSHandel)
     TFDirector:addProto(s2c.EXTRA_DATING_FAVOR_DATING_AWARD, self, self.onRoleMainHandleList)
+	TFDirector:addProto(s2c.ROLE_UPDATE_DRESS_GROUP, self, self.onRecDressGroup)
+	TFDirector:addProto(s2c.ROLE_SET_DRESS_GROUP_SUCC, self, self.onSetDressGroupSucess)
 
     self:listenDress()
     self:listenDonate()
@@ -66,14 +69,14 @@ function RoleDataMgr:onLogin()
     TFDirector:send(c2s.EXTRA_DATING_REQ_FAVOR_DATING_ROLE_STATUE, {})
     TFDirector:send(c2s.EXTRA_DATING_REQ_FAVOR_DATING_AWARD,{})
 
-     --接收玩家数据后发送给服务器语言标识 1 中文 2英文
-    local languageTga = nil
-    if GAME_LANGUAGE_VAR == "" then  --如果是中文
-        languageTga = {1}
-    else
-        languageTga = {2}
-    end
+    --接收玩家数据后发送给服务器语言标识
+    local code = TFLanguageMgr:getUsingLanguage()
+    local languageTga = {}
+    table.insert(languageTga, code)
     TFDirector:send(c2s.SIGN_REQ_LANGUGE_SIGN , languageTga)
+
+	self:requestDressGroup()
+
     return {s2c.ROLE_ROLE_INFO_LIST}
 end
 
@@ -702,6 +705,7 @@ function RoleDataMgr:switchRoleHandle(event)
             if v.sid and v.sid == roleId then
                 v.status = status
                 self.useId = v.id
+				print("设置USE_id")
             else
                 v.status = 0
             end
@@ -761,7 +765,18 @@ function RoleDataMgr:initShowList()
 end
 
 function RoleDataMgr:getIsHave(id)
-    return self.roleTable[id] and self.roleTable[id].ishave;
+    local noDress = false
+
+    if self.roleTable[id] then
+        for k,dressCid in ipairs(self.roleTable[id].dress) do
+            if GoodsDataMgr:getDress(dressCid) then
+                noDress = true
+                break
+            end
+        end
+    end
+
+    return self.roleTable[id] and self.roleTable[id].ishave and noDress;
 end
 
 function RoleDataMgr:setUseId(roleId)
@@ -1135,8 +1150,44 @@ function RoleDataMgr:getDressIdList(roleId)
     local useRoleInfo = self:getRoleInfo(roleId)
     local useDressId = useRoleInfo.dressId
     local dressIdList = {}
+	local dressTable = TabDataMgr:getData("Dress")
+	local unlock = GoodsDataMgr:getDress(value)
     for i,v in ipairs(useRoleInfo.dressIdList) do
-        table.insert(dressIdList,v)
+		local id = v
+		local exsit = false
+		local skinGroup = dressTable[v].skinGroup
+		local unlockId = {}		--查找时装设置列表中已经解锁的ID
+		local relative = false	--外层时装列表中是否存在与时装设置界面列表相关联的时装，如果有了1个，则其他的就不显示在外层时装列表里
+
+		if table.count(skinGroup) > 0 then
+			for j,value in ipairs(skinGroup) do
+				if table.indexOf(dressIdList, value) ~= -1 then
+					relative =	true
+					break;
+				end
+
+				local unlock = GoodsDataMgr:getDress(value)
+				if GoodsDataMgr:getDress(skinGroup[1]) and unlock then
+					table.insert(unlockId, value)
+				end
+			end
+		end
+				
+		if not relative then
+			local exsitUse = false	--查找是否有正在使用的
+			for j,value in ipairs(unlockId) do
+				if self:checkGroupSelect(value) then
+					id = value
+					exsitUse = true
+				end
+			end
+
+			if not exsitUse and table.count(unlockId) > 0 then --如果没有使用中的就取第一个来显示在外层列表中
+				id = unlockId[1]
+			end
+
+			table.insert(dressIdList, id)
+		end
     end
     local function sortFunc(a,b)
         local aIsHave = GoodsDataMgr:getDress(a)
@@ -1817,7 +1868,7 @@ function RoleDataMgr:checkDayRewardState(roleId)
 end
 
 function RoleDataMgr:getElvesShowState(roleId)
-    local list = self.roleTable[roleId].elvesStateList
+    local list = self.roleTable[roleId].elvesStateList or {}
 
     for k,v in pairs(list) do -- 出游约会状态最优先显示
         if v == EC_ElvesState.datingOut then
@@ -2422,6 +2473,92 @@ end
 function RoleDataMgr:getRoleTable( )
     -- body
     return self.roleTable
+end
+
+function RoleDataMgr:onRecDressGroup(event)
+	local data = event.data
+	if data == nil then
+		return 
+	end
+	self.dressGroupData = data.dressGroups or {}
+	
+	RoleSwitchDataMgr:initAllHighDress()	--重新初始化轮播列表
+
+	EventMgr:dispatchEvent(EV_DRESS_RECEVIE_GROUP, data)
+end
+
+function RoleDataMgr:checkGroupSelect(id)
+	local ret = false
+	self.dressGroupData = self.dressGroupData or {}
+	for i=1, #self.dressGroupData do
+		local var = self.dressGroupData[i]
+		if var.curDressId == id then
+			ret = true
+			break 
+		end
+	end
+	return ret
+end
+
+function RoleDataMgr:setDressGroup(groupid, dressid)
+	self.dressGroupData = self.dressGroupData or {}
+	for i=1, #self.dressGroupData do
+		if groupid == self.dressGroupData[i].group then
+			self.dressGroupData[i].curDressId = dressid
+		end
+	end
+end
+
+function RoleDataMgr:getDressGroupSelect(groupid, dressid)
+	local ret
+	self.dressGroupData = self.dressGroupData or {}
+	for i=1, #self.dressGroupData do
+		if groupid == self.dressGroupData[i].group then
+			ret = self.dressGroupData[i].curDressId
+			break;
+		end
+	end
+
+	if ret == nil then
+		local unlock = false
+		local cfg = TabDataMgr:getData("Dress", dressid)
+		for i=1, #cfg.skinGroup do		
+			if GoodsDataMgr:getDress(cfg.skinGroup[1]) and GoodsDataMgr:getDress(cfg.skinGroup[i]) then
+				ret = cfg.skinGroup[i]
+				table.insert( self.dressGroupData, {group = groupid, curDressId = cfg.skinGroup[i]})
+				break;
+			end
+		end
+	end
+
+	if ret == nil then
+		ret = dressid
+		
+		table.insert( self.dressGroupData, {group = groupid, curDressId = dressid})
+	end
+
+	return ret
+end
+
+function RoleDataMgr:onSetDressGroupSucess(event)
+	local data = event.data
+	if data == nil then
+		return 
+	end
+	self.dressGroupData = self.dressGroupData or {}
+	for i=1, #self.dressGroupData do
+		if data.groupId == self.dressGroupData[i].group then
+			self.dressGroupData[i].curDressId = data.dressId
+		end
+	end
+
+	RoleSwitchDataMgr:initAllHighDress()	--重新初始化轮播列表
+
+	EventMgr:dispatchEvent(EV_DRESS_SET_SCUESS, data)
+end
+
+function RoleDataMgr:requestDressGroup()
+	TFDirector:send(c2s.ROLE_REQ_DRESS_GROUP, {})--请求时装分组数据
 end
 
 return RoleDataMgr:new()

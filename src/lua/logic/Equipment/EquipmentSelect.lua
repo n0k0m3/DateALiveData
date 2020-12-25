@@ -408,9 +408,19 @@ function EquipmentSelect:updateEquipInfo()
     end
 
     self.ListView_left:removeAllItems();
+    local scroll_view = TFDirector:getChildByPath(self.GuYouItem,"scroll_view");
     local GuYouDescLabel = TFDirector:getChildByPath(self.GuYouItem,"Label_title");
     local inherentDesc = EquipmentDataMgr:getEquipInherentAttrDesc(self.currentId);
     GuYouDescLabel:setTextById(inherentDesc);
+
+    local scrollSize = scroll_view:getContentSize()
+    local txtSize = GuYouDescLabel:getSize()
+    local realHeight = scrollSize.height
+    if txtSize.height > scrollSize.height then
+        realHeight = txtSize.height
+    end
+    scroll_view:setInnerContainerSize(CCSize(scrollSize.width, realHeight))
+    GuYouDescLabel:setPosition(ccp(0, realHeight))
 
     if EquipmentDataMgr:getIsHaveSpecialAttr(self.currentId) then
         local specialAttrs = EquipmentDataMgr:getEquipSpecialAttrs(self.currentId);

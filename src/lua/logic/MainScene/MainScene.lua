@@ -34,7 +34,6 @@ end
 
 function MainScene:onEnter()
 	self.super.onEnter(self)
-
 	TFAudio.stopMusic()
     HeroDataMgr:changeDataToSelf()
 

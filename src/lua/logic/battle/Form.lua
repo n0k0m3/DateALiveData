@@ -86,6 +86,7 @@ function Form:check(id)
 			local skillId =  triggerTrans[1]
 			local trans   =  triggerTrans[2]
 			if skillId == id then
+
 				self:doTrans(trans)
 			end
 		end

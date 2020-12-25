@@ -298,7 +298,7 @@ function BaoshiComposeView:updateGemPosUI()
     if composeCfg and composeCfg.needDrawing and GoodsDataMgr:getItemCount(composeCfg.drawingId) > 0 then
         local cfg = EquipmentDataMgr:getGemCfg(composeCfg.drawingId)
         local heroName = HeroDataMgr:getName(cfg.heroId)
-        local desc = heroName.." "..cfg.skillName
+        local desc = heroName.." "..TextDataMgr:getText(cfg.skillName)
         self.Label_tuzhi_desc:setVisible(true)
         self.Label_tuzhi_desc:setText(desc)
     end

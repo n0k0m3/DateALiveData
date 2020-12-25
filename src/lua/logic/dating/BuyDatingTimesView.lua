@@ -45,7 +45,9 @@ function BuyDatingTimesView:refreshUI()
 
     local costName = TextDataMgr:getText(costCfg.nameTextId)
     --self.Label_des:setTextById("r50001", costName, targetName, remainCount)
-    if GAME_LANGUAGE_VAR ~= "" then
+
+    local code = TFLanguageMgr:getUsingLanguage()
+    if not((code == cc.SIMPLIFIED_CHINESE) or (code == cc.TRADITIONAL_CHINESE)) then
         self.Label_des:setTextById(190000059)
     end
     self.Label_times2:setText(remainCount)

@@ -1,5 +1,5 @@
 --黑桃
-local strCfg = require("lua.table.String" ..GAME_LANGUAGE_VAR)
+local strCfg = TFGlobalUtils:requireGlobalFile("lua.table.StartString")
 
 function sdkCallback(result, msg)
     -- if result == 100 then
@@ -223,12 +223,22 @@ function roleNameChanged(newName)
 end
 
 function login()
-    local language = ""
-    if GAME_LANGUAGE_VAR == "" then
-        language = "CN"
-    else
-        language = "EN"
+    local languageCodeMap = {}
+    languageCodeMap[cc.FRENCH] = "fr"
+    languageCodeMap[cc.GERMAN] = "de"
+    languageCodeMap[cc.SPANISH] = "es"
+    languageCodeMap[cc.THAI] = "th"
+    languageCodeMap[cc.INDONESIAN] = "id"
+    languageCodeMap[cc.KOREAN] = "ko"
+    languageCodeMap[cc.TRADITIONAL_CHINESE] = "zh-Hant"
+    languageCodeMap[cc.ENGLISH] = "en"
+    languageCodeMap[cc.SIMPLIFIED_CHINESE] = "cn"
+
+    local language = "en"
+    if languageCodeMap[TFLanguageMgr:getUsingLanguage()] then
+        language = languageCodeMap[TFLanguageMgr:getUsingLanguage()]
     end
+
     local ok,ret
      if CC_TARGET_PLATFORM == CC_PLATFORM_IOS then
         ok,ret = TFLuaOcJava.callStaticMethod(HeitaoSdk.classname, "login", {language = language});
@@ -236,7 +246,6 @@ function login()
         ok,ret = TFLuaOcJava.callStaticMethod(HeitaoSdk.classname, "login", {language}, "(Ljava/lang/String;)V")
     end
     
-
     return HeitaoSdk.checkResult(ok,ret)
 end
 

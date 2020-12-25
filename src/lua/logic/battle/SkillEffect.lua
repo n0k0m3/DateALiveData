@@ -56,6 +56,10 @@ local  eParent =
     UI        = 4,   -- 显示在UI层
 }
 
+local eSkeletonScale = 
+{
+    UI = 0.6
+}
 
 local ePlace =
 {
@@ -157,6 +161,7 @@ function Effect:tryTriggerAIMEvent(damageType,target)
     local aimEvent = BattleUtils.getAimEvent(damageType)
     --通用瞄准
     self.srcHero:onEventTrigger(eBFState.E_AIM,target)
+    target:onEventTrigger(eBFState.E_REV_AIM)
     self.srcHero:onEventTrigger(aimEvent,target)
 end
 --清理特效释放者的临时属性
@@ -742,7 +747,6 @@ function Effect:addToParent(target)
         if showParent == 1 then
             self.srcHero:addEffectToList(self)
         end
-        self:syncTimeScale()
     elseif parent == eParent.TARGET then
         if not target then
             Box(""..tostring(self.effectData.id).." not find target !")
@@ -775,6 +779,9 @@ function Effect:addToParent(target)
         end
     else
         printError("Effect parent error")
+    end
+    if self.effectData.showSpeed then
+        self:syncTimeScale()
     end
     if self.effectData.effectType == eEffectType.NORMAL then
         self:setDir(host:getDir())
@@ -923,6 +930,7 @@ function Effect:handlSummonMonster(pramN)
     local monsterSections = self.effectData.callMonsterSection
     local sectionSites    = self.effectData.sectionSite
     local callMount       = self.effectData.callMount
+    local effectLimit = self.effectData.callLimit
     if callEvent == eArmtureEvent.HURT..pramN then
             local positon = self:getWorldPosition()
             local level   = self.srcHero:getData().level or 1
@@ -934,6 +942,23 @@ function Effect:handlSummonMonster(pramN)
             local _monsterSections = {}
             if callType == 0 then --补充召唤  超过上限不再召唤 
                 local canCallNum = callLimit - num --还有招几个
+                if effectLimit > 0 then
+                    local curCount = 0
+                    local monsterIds = {}
+                    for m,sectionid in ipairs(monsterSections) do
+                        local monsterSectionCfg = TabDataMgr:getData("MonsterSection", sectionid)
+                        for n,monsterId in ipairs(monsterSectionCfg.fixedMonster) do
+                            table.insert(monsterIds,monsterId)
+                        end
+                    end
+                    for i,v in ipairs(heros) do
+                        if table.indexOf(monsterIds,v:getData().id) ~= -1 then
+                            curCount = curCount + 1
+                        end
+                    end
+                    canCallNum = effectLimit - curCount
+                    canCallNum = math.min(canCallNum, callLimit - num)
+                end
                 local callIndex = 0
                 while(callIndex < canCallNum and callIndex < #monsterSections) do
                     callIndex = callIndex + 1
@@ -1185,6 +1210,9 @@ function Effect:triggerHurt(target,hurtData)
     if hurtData.isCalHurt == 0 then
         return
     end
+    if hurtData.isShieldingSkillHurt == 2 then --不处理伤害和显示
+        return
+    end
 
 	-- 免疫--无敌时，减益buff不生效、不会有受击动作。有受击特效，会有弹字提示：免疫
 	-- 霸体--无视击退击飞
@@ -1224,7 +1252,7 @@ function Effect:triggerHurt(target,hurtData)
 		local hurtInfo = BattleUtils.triggerHurt(self.srcHero,target,hurtData,self.hitedBdboxs)
         local realHurtValue = hurtInfo.realHurtValue
         --UI Boss 血条更新
-        if target:isBoss() or target:getAffixData() then
+        if target:isBoss() or target:hasAffixData() then
             if hurtInfo.hurtValue ~= 0 then
                 EventMgr:dispatchEvent(eEvent.EVENT_BOSS_CHANGE, target)
             end
@@ -1293,6 +1321,12 @@ function Effect:triggerHurt(target,hurtData)
             --事件触发
             self:tryTriggerEvent(damageType,damageAttr,target,realHurtValue)
 		end
+
+
+        if self:isHitBack(target) then
+            self.srcHero:onEventTrigger(eBFState.E_BACK_SKILL_HURT,target)
+        end
+    
 		-- end
 
 	    --有受击动作播放受击动作，再做死亡判定
@@ -1432,12 +1466,15 @@ end
 --垂直范围判断
 function Effect:checkRoller(target)
     local posY = self.position3D.y
+    local _minV , _maxV = target:getRoller()
+    if self.effectData.yRollerSetShadow then
+        posY = (_minV + _maxV) / 2
+    end
     if self.effectData.parent == eParent.CASTER then
         posY = self.srcHero:getPositionY()
     end
     local minV = posY - self.effectData.yRoller[2]
     local maxV = posY + self.effectData.yRoller[1]
-    local _minV , _maxV = target:getRoller()
     if (_maxV < minV ) or (_minV > maxV ) then   --TODO 还需要验证
         return false
     end
@@ -1502,6 +1539,12 @@ function Effect:hitTest(target,checkRoller)
             else
                 --矩形碰撞
                 local rect = self:getWorldBoundingBox(bdbox_eff)
+                if #self.effectData.boxcorrect > 0 then
+                    rect.origin.x = rect.origin.x + self.effectData.boxcorrect[1] or 0
+                    rect.origin.y = rect.origin.y + self.effectData.boxcorrect[2] or 0
+                    rect.size.width = rect.size.width + self.effectData.boxcorrect[3] or 0
+                    rect.size.height = rect.size.height + self.effectData.boxcorrect[4] or 0
+                end
                 self:drawLine(rect,rollerType)
                 if rect.size.width < 1 or rect.size.height < 1 then
                     _print("hit test box error", rect)
@@ -1567,6 +1610,20 @@ function Effect:skeletonNodeUpdata(dt)
         end
     end
 end
+
+function Effect:getSkeletonModalSize()
+    local scale = self.effectData.scale*self.srcHero:getSkeletonNodeScale()
+    local parent = self.effectData.parent
+    if parent == eParent.UI then
+        scale = scale * eSkeletonScale.UI
+        if me.EGLView:getDesignResolutionSize().width > 1386 then
+            scale = scale + scale * 0.2
+        end
+    else
+        scale = scale * BattleConfig.MODAL_SCALE
+    end
+    return scale
+end
 function Effect:createSkeletonNode()
     if not self.effectData.scale then
         Box("effect data not sacel")
@@ -1574,7 +1631,7 @@ function Effect:createSkeletonNode()
     if self.effectData.resource == "" then
         Box("effect data not resource "..tostring(self.effectData.id))
     end
-    local scale = self.effectData.scale*BattleConfig.MODAL_SCALE*self.srcHero:getSkeletonNodeScale()
+    local scale = self:getSkeletonModalSize()
 	self.skeletonNode = ResLoader.createEffect(self.effectData.resource,scale)
     self.skeletonNode:setScheduleUpdateWhenEnter(false)
     local loop  = self.effectData.loop
@@ -1672,6 +1729,11 @@ function Effect:triggerBuffer(hurtData,target)
     --hurt事件触发
     for i,buffId in ipairs(hurtData.buffId) do    
         self.srcHero:onSkillTrigger(eBFSkillEvent.SE_HURT,buffId,target)
+    end
+
+    --背击buff触发
+    if self:isHitBack(target) then
+        self.srcHero:onEventTrigger(eBFState.E_MAKE_BACK_HURT,target)
     end
 end
 
@@ -2209,6 +2271,7 @@ function NormalEffect:handlHurt2(order)
                     self:cleanTempProperty(target)
                     print("hitTest2----",true)
                     if self.effectData.hurtWay == eHurtWay.HW_HIT_TEST then --帧事件不做移除处理
+                        battleController._eatMonsterItem(target, self.srcHero)
                         table.remove(self.tarList,index)
                     end
                     self:showHitLine(target:getPosition(),hurtData)
@@ -2248,12 +2311,15 @@ end
 --垂直范围判断(特效攻击特效专用)
 function NormalEffect:checkRoller_effect(effect)
     local posY = self.position3D.y
+    local tarY = effect:getWorldPosition3D().y
+    if self.effectData.yRollerSetShadow then
+        posY = tarY
+    end
     if self.effectData.parent == eParent.CASTER then
         posY = self.srcHero:getPositionY()
     end
     local minV = posY - self.effectData.yRoller[2]
     local maxV = posY + self.effectData.yRoller[1]
-    local tarY = effect:getWorldPosition3D().y
     -- print(posY,minV,maxV,tarY)
     if tarY >= minV and tarY <= maxV then
         -- print(">>>>>>>>>>>true>>>>>>>>>>>>>>>")
@@ -2330,7 +2396,7 @@ function NormalEffect:handlHurt(order)
         local effectList  = {}
         for i, effect in ipairs(objects) do
             -- print_("111111111111111111111")
-            if effect.effectData.effectType == eEffectType.EMIT then --放出型特效
+            if effect.effectData.effectType == eEffectType.EMIT and effect.effectData.isEffectHit == 0 then --放出型特效
                 local _camp = effect.srcHero:getCamp() 
                 -- print_("22222222222222222222222222"..tostring(BattleUtils.campState(camp,_camp) ))
                 if BattleUtils.campState(camp,_camp) == 2 then

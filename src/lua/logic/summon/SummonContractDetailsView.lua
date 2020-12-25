@@ -24,9 +24,14 @@ function SummonContractDetailsView:initUI(ui)
     local Image_content = TFDirector:getChildByPath(self.Panel_root, "Image_content")
     self.Button_close = TFDirector:getChildByPath(Image_content, "Button_close")
     self.Label_remainTime = TFDirector:getChildByPath(Image_content, "Label_remainTime")
+    self.lab_tip = TFDirector:getChildByPath(Image_content, "lab_tip")
     self.Label_timing = TFDirector:getChildByPath(Image_content, "Label_timing")
     local ScrollView_welfare = TFDirector:getChildByPath(Image_content, "ScrollView_welfare")
     self.ListView_welfare = UIListView:create(ScrollView_welfare)
+    local Image_scrollBar = TFDirector:getChildByPath(Image_content, "Image_scrollBar")
+    local Image_scrollBarInner = TFDirector:getChildByPath(Image_scrollBar, "Image_scrollBarInner")
+    local scrollBar = UIScrollBar:create(Image_scrollBar, Image_scrollBarInner)
+    self.ListView_welfare:setScrollBar(scrollBar)
     self.Button_build = TFDirector:getChildByPath(Image_content, "Button_build")
     self.Label_build = TFDirector:getChildByPath(self.Button_build, "Label_build")
     self.Image_flag = TFDirector:getChildByPath(self.Panel_root, "Image_flag")
@@ -55,15 +60,24 @@ function SummonContractDetailsView:removeUI(  )
 end
 
 function SummonContractDetailsView:refreshView()
+    local canBuy,cfg = SummonDataMgr:getCanBuildContract()
+    if canBuy then
+        self.lab_tip:setTextById(1325314)
+    else
+        self.lab_tip:setTextById(1325308)
+    end
+    self.Label_remainTime:setTextById(1325304)
     local function flushLabelTime()
         local remainTime = math.max(self.contractInfo.summonInfo.endTime - ServerDataMgr:getServerTime())
         local day,hour,min,sec = Utils:getTimeDHMZ(remainTime)
         self.Label_timing:setTextById(1325313, hour, min, sec)
-        if remainTime > 0 then
-            self.Label_remainTime:setTextById(1325304)
-        else
-            self.Label_remainTime:setTextById(1325314)
-        end
+        -- if remainTime > 0 then
+        --     self.Label_remainTime:setTextById(1325304)
+        -- else
+        --     self.Label_remainTime:setTextById(1325314)
+        -- end
+        self.lab_tip:setVisible(remainTime <= 0)
+        self.Label_remainTime:setVisible(remainTime > 0)
         self.Label_timing:setVisible(remainTime > 0)
         self.Button_summon:setVisible(remainTime > 0)
     end
@@ -75,6 +89,10 @@ end
 function SummonContractDetailsView:updateView()
     for i = 1, #self.contractCfg.Particulars do
         local Panel_welfareItem = self.Panel_welfareItem:clone()
+        local Button_welfare = TFDirector:getChildByPath(Panel_welfareItem, "Button_welfare")
+        if i % 2 == 0 then
+            Button_welfare:setPositionX(Button_welfare:getPositionX() + 50)
+        end
         self.ListView_welfare:pushBackCustomItem(Panel_welfareItem)
 
         local Label_desc = TFDirector:getChildByPath(Panel_welfareItem, "Label_desc")
@@ -104,8 +122,16 @@ function SummonContractDetailsView:updateView()
     --     self.Label_build:setTextById(1325305)
     -- end
 
-    self.Label_build:setTextById(1325305,cfg.Price)
-    self.Label_num:setText(cfg.ShowMultiple)
+    local rechargeCost = RechargeDataMgr:getOneRechargeCfg(cfg.SellingPrice).exchangeCost[1]
+    local itemCfg = GoodsDataMgr:getItemCfg(rechargeCost.id)
+    self.Button_build:getChildByName("Image_icon"):setTexture(itemCfg.icon)
+
+    self.Label_build:setTextById(800007,rechargeCost.num)
+    self.Button_build:getChildByName("Image_icon"):show()
+
+    --TODO CLOSE
+    --self.Label_num:setText(cfg.ShowMultiple)
+    self.Label_num:setTextById(cfg.ShowMultiple)
 
     if self.contractInfo.actIndentures and #self.contractInfo.actIndentures > 0  then
         for k,v in pairs(self.contractInfo.actIndentures) do
@@ -119,6 +145,8 @@ function SummonContractDetailsView:updateView()
     if lastStageBuy then
         self.Label_build:setTextById(1325319)
         self.Image_flag:hide()
+        self.Button_build:getChildByName("Image_icon"):hide()
+        self.Label_build:setAlignment(1  , 1)
     end
     
     self.Button_build:setTouchEnabled(canBuy)
@@ -146,7 +174,7 @@ function SummonContractDetailsView:registerEvents()
     end)
 
     self.Button_summon:onClick(function()
-            FunctionDataMgr:jSummon(1)
+            FunctionDataMgr:jSummon(1 , 9001)
     end)
 end
 

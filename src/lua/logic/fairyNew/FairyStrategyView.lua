@@ -128,6 +128,7 @@ function FairyStrategyView:initUILogic()
 end
 
 function FairyStrategyView:initEquipSuit()
+	local size = self.Panel_suit_model:getSize()
 	local count = 0
 	for i=1,3 do
 		local recommend = self.equipRecommendCfg["recommend"..i]
@@ -135,13 +136,13 @@ function FairyStrategyView:initEquipSuit()
 			count = count + 1
 			local model = self.Panel_suit_model:clone()
 			self.Panel_equip_suit:addChild(model)
-			model:setPosition(ccp(0,-50 - count * 340))
+			model:setPosition(ccp(0,-50 - count * size.height))
 			self:updateSuitModel(model, recommend)
 			model:getChildByName("Label_suit_title"):setTextById(100000151 , i)
 			model:getChildByName("Label_suit_desc"):setTextById(self.equipRecommendCfg["describe"..i])
 		end
 	end
-	self.Panel_equip_suit:setContentSize(CCSizeMake(490, count *340+50))
+	self.Panel_equip_suit:setContentSize(CCSizeMake(490, count *size.height+50))
 	self.ListView:pushBackCustomItem(self.Panel_equip_suit)
 end
 

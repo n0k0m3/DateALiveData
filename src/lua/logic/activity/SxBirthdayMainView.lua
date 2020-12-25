@@ -1,6 +1,12 @@
 
 local SxBirthdayMainView = class("SxBirthdayMainView", BaseLayer)
 
+local BUTTON_TYPE = {
+	LOCK	= "ui/activity/sx_birthday/main/SXSR_bg1.png",
+	UNLOCK	= "ui/activity/sx_birthday/main/SXSR_bg2.png",
+	SELECT	= "ui/activity/sx_birthday/main/SXSR_bg3.png"
+}
+
 function SxBirthdayMainView:initData()
     local activity = ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.SX_BIRTHDAY)
     if #activity > 0 then
@@ -25,35 +31,21 @@ function SxBirthdayMainView:initUI(ui)
 
     self.Panel_cityItem = TFDirector:getChildByPath(self.Panel_prefab, "Panel_cityItem")
 
-    self.Button_travel = TFDirector:getChildByPath(self.Panel_root, "Button_travel")
+    self.Button_travel = TFDirector:getChildByPath(ui, "Button_travel")
     self.Image_travel_tips = TFDirector:getChildByPath(self.Button_travel, "Image_travel_tips")
-    self.Label_travel = TFDirector:getChildByPath(self.Button_travel, "Label_travel")
-    self.Button_store = TFDirector:getChildByPath(self.Panel_root, "Button_store")
-    self.Label_store = TFDirector:getChildByPath(self.Button_store, "Label_store")
+    
+    self.Button_store = TFDirector:getChildByPath(ui, "Button_store")
+
+
 
     self.Button_city = {}
-    for i = 1, 4 do
+    for i = 1, 5 do
         local foo = {}
-        foo.root = TFDirector:getChildByPath(self.Panel_root, "Button_" .. i)
-        local Panel_site = TFDirector:getChildByPath(foo.root, "Panel_site")
-        Panel_site:setBackGroundColorType(0)
-        foo.Panel_city = self.Panel_cityItem:clone():hide()
-        foo.Panel_city:Pos(0, 0):AddTo(Panel_site)
-        foo.Button_unlockCity = TFDirector:getChildByPath(foo.Panel_city, "Button_unlockCity"):hide()
-        foo.Button_unlockCity:Touchable(false)
-        foo.Image_cityIcon = TFDirector:getChildByPath(foo.Button_unlockCity, "Image_cityIcon")
-        foo.Label_unlockCityName = TFDirector:getChildByPath(foo.Button_unlockCity, "Label_unlockCityName")
-        foo.Label_unlockCityName:setSkewX(15)
-        foo.Button_lockCity = TFDirector:getChildByPath(foo.Panel_city, "Button_lockCity")
-        foo.Button_lockCity:Touchable(false)
-        foo.Image_cityIcon_lock = TFDirector:getChildByPath(foo.Button_lockCity, "Image_cityIcon_lock")
-        foo.Label_lockCityName = TFDirector:getChildByPath(foo.Button_lockCity, "Label_lockCityName")
-        foo.Label_lockCityName:setSkewX(15)
-        foo.Button_curCity = TFDirector:getChildByPath(foo.Panel_city, "Button_curCity"):hide()
-        foo.Button_curCity:Touchable(false)
-        foo.Image_curCityTag = TFDirector:getChildByPath(foo.Button_curCity, "Image_curCityTag")
-        foo.Label_curCityName = TFDirector:getChildByPath(foo.Button_curCity, "Label_curCityName")
-        foo.Label_curCityName:setSkewX(15)
+        foo.btn = TFDirector:getChildByPath(self.Panel_root, "Button_" .. i)
+		foo.btn:setTextureNormal(BUTTON_TYPE.LOCK)
+		foo.Image_cityIcon =  TFDirector:getChildByPath(foo.btn, "Image_cityIcon")
+        foo.Label_CityName = TFDirector:getChildByPath(foo.btn, "Label_CityName")
+        foo.Label_CityName:setSkewX(15)
         self.Button_city[i] = foo
     end
 
@@ -61,8 +53,6 @@ function SxBirthdayMainView:initUI(ui)
 end
 
 function SxBirthdayMainView:refreshView()
-    self.Label_travel:setTextById(13310001)
-    self.Label_store:setTextById(1454019)
     self:updateCity()
     self:updateTravelTips()
 end
@@ -76,25 +66,18 @@ function SxBirthdayMainView:updateCity()
         local foo = self.Button_city[cityCfg.site]
         if foo then
             local isUnlock = SxBirthdayDataMgr:isUnlockCity(v)
-            foo.Button_lockCity:setVisible(not isUnlock)
-            foo.Button_unlockCity:setVisible(isUnlock)
-            foo.Panel_city:show()
-            foo.Label_unlockCityName:setTextById(cityCfg.title1)
-            foo.Label_lockCityName:setTextById(cityCfg.title1)
-            foo.Label_curCityName:setTextById(cityCfg.title1)
+			foo.btn:setTextureNormal(isUnlock and BUTTON_TYPE.UNLOCK or BUTTON_TYPE.LOCK)
+     
+            foo.Label_CityName:setTextById(cityCfg.title1)
             foo.Image_cityIcon:setTexture(cityCfg.cityIcon)
-            foo.Button_curCity:hide()
-
-            foo.Image_cityIcon_lock:setVisible(not isUnlock)
-            foo.Image_cityIcon:setVisible(isUnlock)
 
             local o = SxBirthdayDataMgr:getCityOrder(v)
             if o >= order then
                 order = o
-                Button_curCity = foo.Button_curCity
+                Button_curCity = foo.btn
             end
 
-            foo.root:onClick(function()
+            foo.btn:onClick(function()
                     if isUnlock then
                         Utils:openView("activity.SxBirthdayCityView", v)
                     else
@@ -107,8 +90,12 @@ function SxBirthdayMainView:updateCity()
     end
 
     if Button_curCity then
-        Button_curCity:show()
+        Button_curCity:setTextureNormal(BUTTON_TYPE.SELECT)
     end
+end
+
+function SxBirthdayMainView:onReconnect()
+    SxBirthdayDataMgr:send_BIRTH_DAY_REQ_TEN_BIRTH_DAY_INFO()
 end
 
 function SxBirthdayMainView:updateTravelTips()
@@ -117,15 +104,16 @@ function SxBirthdayMainView:updateTravelTips()
 end
 
 function SxBirthdayMainView:registerEvents()
+    EventMgr:addEventListener(self, EV_RECONECT_EVENT, handler(self.onReconnect, self))
     EventMgr:addEventListener(self, EV_SXBIRTHDAY_CITYINFO_UPDATE, handler(self.onCityInfoUpdateEvent, self))
     EventMgr:addEventListener(self, EV_ACTIVITY_UPDATE_PROGRESS, handler(self.onUpdateProgressEvent, self))
 
     self.Button_travel:onClick(function()
-            Utils:openView("activity.SxBirthdayTravelView")
+		Utils:openView("activity.SxBirthdayTravelView")
     end)
 
     self.Button_store:onClick(function()
-            FunctionDataMgr:jStore(302000)
+        FunctionDataMgr:jStore(302000)
     end)
 end
 

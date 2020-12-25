@@ -4,7 +4,7 @@ local BattleResultView = class("BattleResultView", BaseLayer)
 function BattleResultView:initData()
     self.statistics_ = BattleDataMgr:getController().getStatistics()
     self.battleType_ = BattleDataMgr:getBattleType()
-    self.resultData_ = BattleDataMgr:getBattleResultData()
+    self.resultData_ = BattleDataMgr:getBattleResultData() or {}
     local dropReward = {}
     self.rewardList_ = {}
     self.rewardList_simulationTrial = {} --模拟试炼奖励
@@ -15,9 +15,10 @@ function BattleResultView:initData()
         self.passTime_ = self.statistics_.time
     elseif self.battleType_ == EC_BattleType.ENDLESS then
         self.levelCid_ = BattleDataMgr:getPointId()
-        self.levelCfg_ = FubenDataMgr:getLevelCfg(self.levelCid_)
+        self.levelCfg_ = FubenDataMgr:getEndlessCloisterLevelCfg(self.levelCid_)
         dropReward = self.statistics_.endlessReward
-        self.passTime_ = self.statistics_.endlessTime
+        local endlessInfo = FubenDataMgr:getEndlessInfo()
+        self.passTime_ = endlessInfo.todayCostTime
     elseif self.battleType_ == EC_BattleType.TEAM_FIGHT then
         local teamFightEndData = TeamFightDataMgr:getBattleEndData()
         --TODO 临时克隆数据
@@ -44,7 +45,7 @@ function BattleResultView:initData()
         self.huntingHonor =  teamFightEndData.huntingHonor or 0
     end
     
-    for i, v in ipairs(dropReward) do
+    for i, v in ipairs(dropReward or {}) do
         if v.id == EC_SItemType.PLAYEREXP then
             self.playerExp_ = v
         elseif v.id == EC_SItemType.SPIRITEXP then
@@ -129,6 +130,7 @@ function BattleResultView:initUI(ui)
     self.Panel_evaluation = TFDirector:getChildByPath(self.Panel_root, "Panel_evaluation"):hide()
     self.Image_pass_time = TFDirector:getChildByPath(self.Panel_evaluation, "Image_pass_time"):hide()
     self.Label_time_title = TFDirector:getChildByPath(self.Image_pass_time, "Label_time_title")
+    self.Label_time_title_flag = TFDirector:getChildByPath(self.Image_pass_time, "Label_time_title_flag")
     self.Label_pass_time = TFDirector:getChildByPath(self.Image_pass_time, "Label_pass_time")
     self.Image_pass_review = TFDirector:getChildByPath(self.Panel_evaluation, "Image_pass_review"):hide()
     self.Label_review_title = TFDirector:getChildByPath(self.Image_pass_review, "Label_review_title")
@@ -141,6 +143,13 @@ function BattleResultView:initUI(ui)
         item.Label_target = TFDirector:getChildByPath(item.root, "Label_target")
         item.Label_target_gray = TFDirector:getChildByPath(item.root, "Label_target_gray")
         self.Panel_target[i] = item
+
+        if self.levelCfg_ and self.levelCfg_.dungeonType == EC_FBLevelType.HWX then
+            item.Image_star:setTexture("ui/hwx/map/023.png")
+            item.Image_star_gray:setTexture("ui/hwx/map/022.png")
+        end
+
+
     end
     self.Image_effect = {}
     self.Image_effect[1] = TFDirector:getChildByPath(self.Panel_evaluation, "Image_battleResultView_2(3)")
@@ -163,6 +172,14 @@ function BattleResultView:initUI(ui)
     self.Image_skyladder_time = TFDirector:getChildByPath(self.Panel_evaluation, "Image_skyladder_time"):hide()
     self.Label_skyladder_time_score = TFDirector:getChildByPath(self.Image_skyladder_time, "Label_skyladder_time_score")
 
+    self.Image_score = TFDirector:getChildByPath(self.Panel_evaluation, "Image_score"):hide()
+    self.Label_score = TFDirector:getChildByPath(self.Image_score, "Label_score")
+
+	self.Image_monster_score = TFDirector:getChildByPath(self.Panel_evaluation, "Image_monster_score"):Hide()
+	self.Image_monster_score.curScore = TFDirector:getChildByPath(self.Image_monster_score, "score_cur")
+	self.Image_monster_score.historyScore = TFDirector:getChildByPath(self.Image_monster_score, "score_history")
+	self.Image_monster_score.maxScore = TFDirector:getChildByPath(self.Image_monster_score, "score_max")
+
     --试炼精灵
     self.Panel_simlationTrial = TFDirector:getChildByPath(self.Panel_evaluation, "Panel_simlationTrial"):hide()
     self.Panel_simlationTrial.Image_reward1 = TFDirector:getChildByPath(self.Panel_simlationTrial, "Image_reward1")
@@ -171,53 +188,71 @@ function BattleResultView:initUI(ui)
     local Label_con_reward_name2 = TFDirector:getChildByPath(self.Panel_simlationTrial.Image_reward1, "Label_con_reward_name2")
     Label_con_reward_name1:setSkewX(10)
     Label_con_reward_name2:setSkewX(10)
+    local Image_con_reward_1  = TFDirector:getChildByPath(self.Panel_simlationTrial.Image_reward1, "Image_con_reward_1")
+    local Image_con_reward_2  = TFDirector:getChildByPath(self.Panel_simlationTrial.Image_reward1, "Image_con_reward_2")
     local Label_extend_title_ = TFDirector:getChildByPath(self.Panel_simlationTrial.Image_reward1, "Label_extend_title")
     local Image_con_box1  = TFDirector:getChildByPath(self.Panel_simlationTrial.Image_reward1, "Image_con_box1")
     local Image_con_box2  = TFDirector:getChildByPath(self.Panel_simlationTrial.Image_reward1, "Image_con_box2")
     self.Panel_simlationTrial.Image_lock = TFDirector:getChildByPath(self.Panel_simlationTrial, "Image_con_lock")
     local Label_con_tip = TFDirector:getChildByPath(self.Panel_simlationTrial.Image_lock, "Label_con_tip")
     local simulationId = FubenDataMgr:getSelectSimulationHeroId()
-    if simulationId == 110211 then 
-        Label_con_tip:setTextById(2108110)
-		local image = "ui/battle/result/0001.png"
-		local Image_con_reward_1  = TFDirector:getChildByPath(self.Panel_simlationTrial.Image_reward1, "Image_con_reward_1")
-		local Image_con_reward_2  = TFDirector:getChildByPath(self.Panel_simlationTrial.Image_reward1, "Image_con_reward_2")
-		Image_con_reward_1:setTexture(image)
-		Image_con_reward_2:setTexture(image)
-        Image_con_box1:setTexture("ui/battle/result/zhezhi1.png")
-        Image_con_box2:setTexture("ui/battle/result/zhezhi2.png")
-        Label_con_reward_name1:setTextById(2108160)
-        Label_con_reward_name2:setTextById(2108161)
-        Label_extend_title_:setTextById(2108164)
-    elseif simulationId == 111411 then
-        Label_con_tip:setTextById(2108154)
-        Image_con_box1:setTexture("ui/battle/result/00033.png")
-        Image_con_box2:setTexture("ui/battle/result/00044.png")
-        Label_con_reward_name1:setTextById(2108162)
-        Label_con_reward_name2:setTextById(2108163)
-        Label_extend_title_:setTextById(2108165)
-    elseif simulationId == 111511 then
-        Label_con_tip:setTextById(2108155)
-        Image_con_box1:setTexture("ui/battle/result/00033.png")
-        Image_con_box2:setTexture("ui/battle/result/00044.png")
-        Label_con_reward_name1:setTextById(2108162)
-        Label_con_reward_name2:setTextById(2108163)
-        Label_extend_title_:setTextById(2108165)
-    elseif simulationId == 110113 then
-        Label_con_tip:setTextById(2108194)
-        Image_con_box1:setTexture("ui/battle/result/00333.png")
-        Image_con_box2:setTexture("ui/battle/result/00444.png")
-        Label_con_reward_name1:setTextById(2108197)
-        Label_con_reward_name2:setTextById(2108198)
-        Label_extend_title_:setTextById(2108199)   
-    elseif simulationId == 110414 then
-        Label_con_tip:setTextById(2108221)
-        Image_con_box1:setTexture("ui/simulation_trial5/box3_1.png")
-        Image_con_box2:setTexture("ui/simulation_trial5/box3.png")
-        Label_con_reward_name1:setTextById(2108224)
-        Label_con_reward_name2:setTextById(2108225)
-        Label_extend_title_:setTextById(2108226)    
+    local cfg = FubenDataMgr:getSimulationTrialCfg(simulationId)
+    if cfg then
+        local resCfg = cfg.battleResult
+        Label_con_tip:setTextById(resCfg.contip)
+        Image_con_box1:setTexture(resCfg.box1)
+        Image_con_box2:setTexture(resCfg.box2)
+        Label_con_reward_name1:setTextById(resCfg.rewardName1)
+        Label_con_reward_name2:setTextById(resCfg.rewardName2)
+        Label_extend_title_:setTextById(resCfg.extendTitle)
+
+        if resCfg.boxFrame then
+            Image_con_reward_1:setTexture(resCfg.boxFrame)
+            Image_con_reward_2:setTexture(resCfg.boxFrame)
+        end
     end
+
+    --if simulationId == 110211 then
+    --    Label_con_tip:setTextById(2108110)
+	--	local image = "ui/battle/result/0001.png"
+	--	local Image_con_reward_1  = TFDirector:getChildByPath(self.Panel_simlationTrial.Image_reward1, "Image_con_reward_1")
+	--	local Image_con_reward_2  = TFDirector:getChildByPath(self.Panel_simlationTrial.Image_reward1, "Image_con_reward_2")
+	--	Image_con_reward_1:setTexture(image)
+	--	Image_con_reward_2:setTexture(image)
+    --    Image_con_box1:setTexture("ui/battle/result/zhezhi1.png")
+    --    Image_con_box2:setTexture("ui/battle/result/zhezhi2.png")
+    --    Label_con_reward_name1:setTextById(2108160)
+    --    Label_con_reward_name2:setTextById(2108161)
+    --    Label_extend_title_:setTextById(2108164)
+    --elseif simulationId == 111411 then
+    --    Label_con_tip:setTextById(2108154)
+    --    Image_con_box1:setTexture("ui/battle/result/00033.png")
+    --    Image_con_box2:setTexture("ui/battle/result/00044.png")
+    --    Label_con_reward_name1:setTextById(2108162)
+    --    Label_con_reward_name2:setTextById(2108163)
+    --    Label_extend_title_:setTextById(2108165)
+    --elseif simulationId == 111511 then
+    --    Label_con_tip:setTextById(2108155)
+    --    Image_con_box1:setTexture("ui/battle/result/00033.png")
+    --    Image_con_box2:setTexture("ui/battle/result/00044.png")
+    --    Label_con_reward_name1:setTextById(2108162)
+    --    Label_con_reward_name2:setTextById(2108163)
+    --    Label_extend_title_:setTextById(2108165)
+    --elseif simulationId == 110113 then
+    --    Label_con_tip:setTextById(2108194)
+    --    Image_con_box1:setTexture("ui/battle/result/00333.png")
+    --    Image_con_box2:setTexture("ui/battle/result/00444.png")
+    --    Label_con_reward_name1:setTextById(2108197)
+    --    Label_con_reward_name2:setTextById(2108198)
+    --    Label_extend_title_:setTextById(2108199)
+    --elseif simulationId == 110414 then
+    --    Label_con_tip:setTextById(2108221)
+    --    Image_con_box1:setTexture("ui/simulation_trial5/box3_1.png")
+    --    Image_con_box2:setTexture("ui/simulation_trial5/box3.png")
+    --    Label_con_reward_name1:setTextById(2108224)
+    --    Label_con_reward_name2:setTextById(2108225)
+    --    Label_extend_title_:setTextById(2108226)
+    --end
     self.Panel_simlationTrial.ScrollView_reward = TFDirector:getChildByPath(self.Panel_simlationTrial, "ScrollView_reward")
     self.Panel_simlationTrial.list_reward = UIListView:create(self.Panel_simlationTrial.ScrollView_reward)
     self.Panel_simlationTrial.list_reward:setItemsMargin(10)
@@ -228,6 +263,11 @@ function BattleResultView:initUI(ui)
     self.Button_share = TFDirector:getChildByPath(self.Panel_root, "Button_share"):hide()
 
     self.teamAttackPage.Label_passtime_value = self.teamAttackPage:getChildByName("Label_passtime_value")
+    self.teamAttackPage.Image_team_pass_time = self.teamAttackPage:getChildByName("Image_team_pass_time"):hide()
+    self.teamAttackPage.Label_team_pass_time = self.teamAttackPage.Image_team_pass_time:getChildByName("Label_team_pass_time")
+
+    self.Image_attackNum = TFDirector:getChildByPath(self.Panel_evaluation, "Image_attackNum"):Hide()
+    self.Label_attackNum = TFDirector:getChildByPath(self.Image_attackNum, "Label_attackNum")
 
     self:refreshView()
 end
@@ -246,7 +286,7 @@ function BattleResultView:refreshTeamPage()
         posY = -180
         item_model:setScale(0.75)
     else
-        posY = -250
+        posY = -240
         item_model:setScale(1)
     end  
     local TeamItemPosCfg = {
@@ -469,6 +509,48 @@ function BattleResultView:refreshTeamPage()
             panel_item:runAction(Sequence:create(actArr))
         end
     end
+
+    if BattleDataMgr:getController().isBossChallenge() then
+        local Panel_flags = self.teamAttackPage:getChildByName("Panel_flags")
+        local Panel_flag_item = TFDirector:getChildByPath(self.Panel_prefab, "Panel_flag_item")
+        local bossCfg = TeamFightDataMgr:getBattleCfg()
+        local goalDescribe = bossCfg.goalDescribe
+        local medalItems = {500128,500129,500130}
+        for i,desc in ipairs(goalDescribe) do
+            local item = Panel_flag_item:clone()
+            local icon = TFDirector:getChildByPath(item,"Image_icon")
+            local itemCfg = GoodsDataMgr:getItemCfg(medalItems[i])
+            icon:setTexture(itemCfg.icon)
+            TFDirector:getChildByPath(item,"Label_desc"):setText(desc)
+            local isReach = FubenDataMgr:judgeStarIsActive(bossCfg.dungeonID, i)
+            TFDirector:getChildByPath(item,"Image_state"):setVisible(isReach)
+            item:setPosition(ccp(-1,-(i - 1) * item:getContentSize().height))
+            Panel_flags:addChild(item)
+        end
+
+        if playerCount > 1 then
+            for i,v in ipairs(self.teamHeroItems) do
+                v:setScale(v:getScale() * (1- playerCount * 0.07))
+                v:setPositionX(v:getPositionX() - i * (playerCount * 30) - 30)
+            end
+        end
+        Panel_flags:setOpacity(0)
+        Panel_flags:runAction(Sequence:create({DelayTime:create(2.0),FadeIn:create(1.0)}))
+    end
+    if TeamFightDataMgr.nTeamType == 9 then
+        self.teamAttackPage.Image_team_pass_time:show()
+        local _, hour, min, sec = Utils:getDHMS(self.passTime_*0.001, true)
+        local millisecond = math.floor(math.floor(self.passTime_)%1000)
+        local milsec = string.format("%.3d", millisecond)
+        self.teamAttackPage.Label_team_pass_time:setText(string.format("%s:%s:%s" , min, sec,milsec))
+
+        if playerCount > 2 then
+            for i,v in ipairs(self.teamHeroItems) do
+                v:setScale(v:getScale() * 0.9)
+                v:setPositionX(v:getPositionX() - i * 50)
+            end
+        end
+    end
 end
 
 function BattleResultView:getFriendStatus(pid)
@@ -486,15 +568,12 @@ function BattleResultView:refreshView()
 	dump(self.levelCfg_)
     if self.battleType_ == EC_BattleType.COMMON then
         local levelGroupCid = self.levelCfg_.levelGroupId
-        if levelGroupCid == EC_SimulationTrialChapterType.CHAPTER_1
-        or levelGroupCid == EC_SimulationTrialChapterType2.CHAPTER_1 
-        or levelGroupCid == EC_SimulationTrialChapterType4.CHAPTER_1 
-        or levelGroupCid == EC_SimulationTrialChapterType3.CHAPTER_1
-        or levelGroupCid == EC_SimulationTrialChapterType5.CHAPTER_1 then --模拟试炼第一章
+        if FubenDataMgr:isSimulationGroup(1,levelGroupCid) then --模拟试炼第一章
         
             self.Image_pass_time:hide()
             self.Image_pass_review:hide()
             self.Image_endless:hide()
+            self.Image_score:hide()
             for i, v in ipairs(self.Image_effect) do
                 v:hide()
             end
@@ -513,14 +592,25 @@ function BattleResultView:refreshView()
                 self.Panel_simlationTrial.list_reward:pushBackCustomItem(item)
                 PrefabDataMgr:setInfo(item, v.id, v.num)
             end
+        elseif BattleDataMgr:isMusicGameLevel() then
+            self.Image_pass_time:show()
+            self.Image_pass_review:setVisible(false)
+            self.Label_time_title:setTextById(13316479)
+            self.Label_time_title_flag:setVisible(false)
+            self.Label_pass_time:setText(string.format("%.2f",self.resultData_.percent).."%")
         else
             self.Image_pass_time:show()
-            self.Image_pass_review:setVisible(#self.levelCfg_.starType > 0)
-            for i, v in ipairs(self.Panel_target) do
-                v.root:show()
-            end
-            for i, v in ipairs(self.Image_effect) do
-                v:hide()
+
+            if self.levelCfg_.isHideTarget then
+                self.Image_pass_review:hide()
+            else
+                self.Image_pass_review:setVisible(#self.levelCfg_.starType > 0)
+                for i, v in ipairs(self.Panel_target) do
+                    v.root:show()
+                end
+                for i, v in ipairs(self.Image_effect) do
+                    v:hide()
+                end
             end
 
             if self.Image_pass_time:isVisible() then
@@ -545,6 +635,19 @@ function BattleResultView:refreshView()
                         self.Image_lingbo:setVisible(theaterBossInfo.odeumType == EC_TheaterBossType.LINGBO)
                         local _, min, sec = Utils:getTime(self.passTime_ * 0.001, true)
                         self.Label_pass_time:setTextById(800014, min, sec)
+
+
+					elseif self.levelCfg_.dungeonType == EC_FBLevelType.MONSTER_TRIAL then
+						local _, min, sec = Utils:getTime(self.passTime_ * 0.001, true)
+                        self.Label_pass_time:setTextById(800014, min, sec)
+
+						self.Image_pass_review:Hide()
+						self.Image_monster_score:Show()
+						local monsterData = FubenDataMgr:getMonsterTrialSettlementData()
+						self.Image_monster_score.curScore:setText(monsterData.score)
+						self.Image_monster_score.historyScore:setText(monsterData.history)
+						self.Image_monster_score.maxScore:setText(monsterData.maxScore)
+
                     elseif self.levelCfg_.dungeonType == EC_FBLevelType.SKYLADDER then
                         local cfg = SkyLadderDataMgr:getRankMatchLevelCfg(self.levelCfg_.id)
                         if cfg then
@@ -557,11 +660,25 @@ function BattleResultView:refreshView()
                                 local rate = math.floor(cfg.timeRate*remainTime)
                                 dump({self.levelCfg_.time,cfg.timeRate,remainTime,curTime})
                                 self.Image_skyladder_time:setVisible(true)
-                                self.Label_skyladder_time_score:setText(rate)
+                                    self.Label_skyladder_time_score:setText(rate)
                             end
                         end
                         local _, min, sec = Utils:getTime(self.passTime_ * 0.001, true)
                         self.Label_pass_time:setTextById(800014, min, sec)
+                    elseif self.levelCfg_.dungeonType == EC_FBLevelType.HWX_TOWER then
+                        local _, min, sec = Utils:getTime(self.passTime_ * 0.001, true)
+                        self.Label_pass_time:setTextById(800014, min, sec)
+                        local displayCfg = LinkageHwxDataMgr:getCityDisplayCfg(self.levelCid_)
+                        if displayCfg and 3 == displayCfg.displayDetail then
+                            self.Image_skyladder_fight:setVisible(true)
+                            local timeRate = 1
+                            local curTime = math.ceil(self.passTime_ / 1000)
+                            local remainTime = self.levelCfg_.time - curTime
+                            remainTime = remainTime > 0 and remainTime or 0
+                            local rate = math.floor(timeRate*remainTime)
+                            dump({self.levelCfg_.time,timeRate,remainTime,curTime})
+                            self.Label_ladder_fight_core:setText(rate)
+                        end
                     elseif self.levelCfg_.dungeonType == EC_FBLevelType.KUANGSAN_FIGHTING then
                         local _, min, sec = Utils:getTime(self.passTime_ * 0.001, true)
                         self.Label_pass_time:setTextById(800014, min, sec)
@@ -584,6 +701,25 @@ function BattleResultView:refreshView()
                                         self.Label_ladder_fight_core:setText(data.score)
                                     end
                                 end
+                            end
+                        end
+
+                        local displayMap = TabDataMgr:getData("MojinDungeonDisplay")
+                        for k, v in pairs(displayMap) do
+                            if v.dungeon == self.levelCid_ and v.displayDetail == 3 then
+                                self.Image_score:show()
+                                local activityId = ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.NEWYEAR_FUBEN)[1]
+                                local activityInfo = ActivityDataMgr2:getActivityInfo(activityId)
+                                local scoreData = activityInfo.extendData.battlePoints
+                                local score = 0
+                                for i, v in ipairs(scoreData) do
+                                    if self.statistics_.hitValue >= v[1] then
+                                        score = v[2]
+                                        break
+                                    end
+                                end
+                                self.Label_score:setText(score)
+                                break
                             end
                         end
                     else
@@ -663,6 +799,9 @@ function BattleResultView:refreshView()
         end
     end
 
+    local levelCfg = BattleDataMgr:getLevelCfg()
+    self.Image_attackNum:setVisible(levelCfg.dungeonType == EC_FBLevelType.WORLD_BOSS)
+
     -- 通关评价
     if self.Image_pass_review:isVisible() then
         self.Label_review_title:setTextById(300619)
@@ -696,6 +835,10 @@ function BattleResultView:refreshView()
             count = self.contribution_.num
         end
         self.Label_contribution:setTextById(800008, count)
+    end
+    -- 世界boss造成伤害
+    if self.Image_attackNum:isVisible() then
+        self.Label_attackNum:setText(Utils:converNumWithComma(self.statistics_.hitValue or 0))
     end
 
     self.Label_reward_title:setTextById(300620)
@@ -877,6 +1020,9 @@ function BattleResultView:showEvaluationNodesAnim()
     if self.Panel_simlationTrial:isVisible() then 
      actNodes[#actNodes + 1] = self.Panel_simlationTrial
     end
+    if self.Image_attackNum:isVisible() then
+        actNodes[#actNodes + 1] = self.Image_attackNum
+    end
     ViewAnimationHelper.displayMoveNodes(actNodes, {direction = 1, distance = 150, wait = 0, delay = 0.15, time = 0.1})
 
     for i,v in ipairs(self.Panel_target) do
@@ -905,7 +1051,8 @@ function BattleResultView:showRewardsNodesAnim()
         local function animOver()
             local spineRole = SkeletonAnimation:create("effect/battle_end_win_02/out/battle_end_win_01")
             spineRole:setPosition(ccp(0, 14))
-            spineRole:playByIndex(2, -1, -1, 0)
+            spineRole:play("battle_end_win3", false)
+            --spineRole:playByIndex(2, -1, -1, 0)
             item:addChild(spineRole, 5)
         end
         ViewAnimationHelper.doScaleFadeInAction(item, {scale = 0.01, upscale = 1.2, uptime = 0.1, downtime = 0.05, delay = (#self.roles_item - i) * 0.06 + 0.3, callback = animOver})
@@ -968,14 +1115,14 @@ function BattleResultView:playPlayerExpAni()
                     local posX = curPercent / 100 * 200 - 100
                     local spineExp = SkeletonAnimation:create("effect/battle_end_win_02/out/battle_end_win_01")
                     spineExp:setPosition(ccp(posX, 0))
-                    spineExp:playByIndex(3, -1, -1, 0)
+                    spineExp:play("battle_end_win4", false)
                     self.Image_playerExp:addChild(spineExp, 5)
                     local acts = {}
                     acts[#acts + 1] = CCMoveBy:create(0.5, ccp(100 - posX, 0))
                     acts[#acts + 1] = CCCallFunc:create(function ()
                         spineExp:setPosition(ccp(0, 0))
                         spineExp:setScaleX(0.95)
-                        spineExp:playByIndex(4, -1, -1, 0)
+                        spineExp:play("battle_end_win5", false)
                     end)
                     spineExp:runAction(Sequence:create(acts))
                 end
@@ -1282,6 +1429,9 @@ function BattleResultView:registerEvents()
 
                         -- 展示奖励
                         self:runTeamHeroAnim()
+                    elseif BattleDataMgr:isMusicGameLevel() then
+                        AlertManager:changeScene(SceneType.MainScene)
+                        return
                     else
                         self.teamAttackPage:hide()
                         self.Panel_reward:show()
@@ -1292,6 +1442,9 @@ function BattleResultView:registerEvents()
                 else
                     if self.battleType_ == EC_BattleType.TEAM_FIGHT then
                         TeamFightDataMgr:reset()
+                    end
+                    if self.levelCfg_.dungeonType == EC_FBLevelType.HWX then
+                        LinkageHwxDataMgr:Send_cityBaseInfo()
                     end
                     if GuideDataMgr:isInNewGuide() and AlertManager:getMainSceneCacheLayerNum() < 1 then
                         AlertManager:setOpenFubenCom(true)

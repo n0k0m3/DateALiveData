@@ -21,6 +21,7 @@ local eBuffStateType = enum.eBuffStateType
 local eHurtType   = enum.eHurtType
 local eAngerRule   = enum.eAngerRule
 local eVKeyCode    = enum.eVKeyCode
+local eKeyEventType = enum.eKeyEventType
 local eArmtureEvent= enum.eArmtureEvent
 local ePlaceType = enum.ePlaceType
 local eAttrType  = enum.eAttrType
@@ -42,6 +43,7 @@ local StateMachine = import(".StateMachine")
 local AIAgent = import(".AIAgent")
 local CountDown  = import(".CountDown")
 local bufferMgr = BattleMgr.getBufferMgr()
+local __print = print
 local _print = BattleUtils.print
 local print  = BattleUtils.print
 local heroMgr = BattleMgr.getHeroMgr()
@@ -62,6 +64,22 @@ local eMoveState = {
     FixedMove = 3,    -- 助战跟随
 }
 
+local AIactionType = {
+    act_useSkill = 1,
+    act_patrol = 2,
+    act_pathFinding = 3,
+    act_follow = 4,
+    act_switchModel = 5,
+    act_delay = 6,
+    act_setPosition = 7,
+    act_setHpPercent = 8,
+    act_killMySelf = 9,
+    act_playEffect = 10,
+    act_triggetBuffer = 11,
+    act_setDir = 12,
+    act_moveToPositon = 13,
+}
+
 local function __setSkeletonNodeDir( skeletonNode,dir )
     local scaleX = math.abs(skeletonNode:getScaleX())
     if dir == eDir.LEFT then
@@ -80,6 +98,8 @@ skill_type_disable[eAState.E_SKILLTYPE_4_DISABLE] = eVKeyCode.SKILL_E
 skill_type_disable[eAState.E_SKILLTYPE_5_DISABLE] = eVKeyCode.SKILL_B
 skill_type_disable[eAState.E_SKILLTYPE_6_DISABLE] = eVKeyCode.SKILL_F
 skill_type_disable[eAState.E_SKILLTYPE_7_DISABLE] = eVKeyCode.SKILL_I
+skill_type_disable[eAState.E_SKILLTYPE_8_DISABLE] = eVKeyCode.SKILL_H
+skill_type_disable[eAState.E_SKILLTYPE_10_DISABLE] = eVKeyCode.SKILL_G
 
 local skill_type_disable_cd = {}
 skill_type_disable_cd[eAState.E_SKILLTYPE_1_DISABLE_CD] = eVKeyCode.SKILL_A 
@@ -89,6 +109,8 @@ skill_type_disable_cd[eAState.E_SKILLTYPE_4_DISABLE_CD] = eVKeyCode.SKILL_E
 skill_type_disable_cd[eAState.E_SKILLTYPE_5_DISABLE_CD] = eVKeyCode.SKILL_B 
 skill_type_disable_cd[eAState.E_SKILLTYPE_6_DISABLE_CD] = eVKeyCode.SKILL_F 
 skill_type_disable_cd[eAState.E_SKILLTYPE_7_DISABLE_CD] = eVKeyCode.SKILL_I 
+skill_type_disable_cd[eAState.E_SKILLTYPE_8_DISABLE_CD] = eVKeyCode.SKILL_H
+skill_type_disable_cd[eAState.E_SKILLTYPE_10_DISABLE_CD] = eVKeyCode.SKILL_G
 
 
 function Hero:ctor(data,team,host)
@@ -121,14 +143,10 @@ function Hero:ctor(data,team,host)
     -- 技能参数
     self.limitArea = self.data.limitArea
     self.area = self.data.area
+
     --检查是否有词缀
-    if self.data.affix and self.data.affix > 0 then
-        self.affixData = TabDataMgr:getData("MonsterAffix",self.data.affix)
-        if self.affixData then
-            self.affixData = clone(self.affixData)
-            self.affixData.strName = "【"..TextDataMgr:getText(self.affixData.affixName).."】"
-        end
-    end
+    self:checkMonsterAffixs()
+
     --基础属性
     self.property = Property.new()
     self.property:parseFrom(self.data,host)
@@ -149,12 +167,13 @@ function Hero:ctor(data,team,host)
     end
     self.property:setListener(handler(self.onAttrTrigger,self))
 
+    self:addExtraProperty()
+
     self.bufferEffectMap = {}
 
     self.skillMap = {}  --key类型
     self.skillList = {}
     self.dynamicDatas = {}
-    self:createFSM()
 
     -- 速度缩放
     self.nSpeedScale = 1
@@ -212,6 +231,8 @@ function Hero:ctor(data,team,host)
     --创建Actor
     self:createActor()
 
+    self:createFSM()
+
 
     --敌方队伍不需要播放战斗结束动画
     if not self.data.isPlayVictorAction then
@@ -233,9 +254,21 @@ function Hero:ctor(data,team,host)
     -- 寻路检测间隔时间
     self.pathCeckInterval = 1000
 
+    --AI操作数容器
+    self.AIStepDatas = {}
+    self.AIStepCD = 0
+    self.aiUseSkillTime = 10000
+
+    self.preCastSkillData = {}
+
     --互斥音效列表
     self.effectMutexList = {}
     self.recorder = Recorder:new()
+
+    if BattleDataMgr:isMusicGameLevel() then
+         self:setPracticeInfinite(true)
+    end
+    self.skillDamageFlag = 0  --AI技能是否造成伤害
 
 end
 --锤子的范围
@@ -288,9 +321,64 @@ function Hero:doDrop()
     end
 end
 
+--添加额外属性变更
+function Hero:addExtraProperty()
+    --社团士气值影响
+    local attrs = LeagueDataMgr:getFightAttrChange(self:getRoleType())
+    for k,value in pairs(attrs) do
+        self.property:changeValue(tonumber(k), value)
+    end
+end
+
+--检查添加怪物词缀
+function Hero:checkMonsterAffixs()
+    self.affixData = {}
+    if self.data.affix and self.data.affix > 0 then
+        local affixData = TabDataMgr:getData("MonsterAffix",self.data.affix)
+        if affixData then
+            affixData.strName = "【"..TextDataMgr:getText(affixData.affixName).."】"
+            table.insert(self.affixData,affixData)
+        end
+    end
+
+    local monsterType = self:getMonsterType()
+    --社团额外词缀
+    if monsterType == eMonsterType.MT_ELITE or monsterType == eMonsterType.MT_BOSS then
+        local affixs = LeagueDataMgr:getCurBossBuffers()
+        for k,affixId in pairs(affixs or {}) do
+            local affixData = TabDataMgr:getData("MonsterAffix",affixId)
+            if affixData then
+                affixData.strName = "【"..TextDataMgr:getText(affixData.affixName).."】"
+                table.insert(self.affixData,affixData)
+            end
+        end
+    end
+
+end
+
 --怪物词缀
 function Hero:getAffixData()
     return self.affixData
+end
+
+--是否有词缀
+function Hero:hasAffixData()
+    return self.affixData and #self.affixData > 0
+end
+
+function Hero:getAffixDataIcons()
+    local icons = {}
+    if self.affixData then
+        for i,v in ipairs(self.affixData) do
+            for index=1,5 do
+                local affixIcon = v["affixIcon"..index]
+                if ResLoader.isValid(affixIcon) then 
+                    table.insert(icons, affixIcon)
+                end
+            end
+        end
+    end
+    return icons
 end
 
 function Hero:getEnergyData()
@@ -304,10 +392,11 @@ end
 
 --设置阵营(目前只为buff服务,只有普通怪和精英怪生效生效)
 function Hero:setCamp(camp)
-    if self:getMonsterType() == eMonsterType.MT_NORMAL
-        or self:getMonsterType() == eMonsterType.MT_ELITE then
-        self.camp = camp
-    end
+    self.camp = camp
+    -- if self:getMonsterType() == eMonsterType.MT_NORMAL
+    --     or self:getMonsterType() == eMonsterType.MT_ELITE then
+    --     self.camp = camp
+    -- end
 end
 
 --所属阵营
@@ -319,11 +408,11 @@ function Hero:getCampType()
     local camp = self:getCamp()
     if camp == 1 then
         return eCampType.Hero
-    elseif camp >= 2 and camp <= 5 then
+    elseif (camp >= 2 and camp <= 5) or (camp >= 51 and camp <= 70)  then
         return eCampType.Monster
     elseif camp >= 6 and camp <= 10 then
         return eCampType.Other
-    elseif camp >= 11 and camp <= 20 then
+    elseif camp >= 11 and camp <= 50 then
         return eCampType.Call
     else
         return eCampType.Other
@@ -378,10 +467,16 @@ end
 
 --造成的伤害统计
 function Hero:addHurtValue(value,hero)
+    if self.aiAgent then
+        self.skillDamageFlag = BattleUtils.gettime()
+    end
     if battleController.isZLJH() then --组队追猎计划只统计 对boss的伤害 
         if hero and not hero:isBoss() then 
             return
         end
+    end
+    if not battleController.enableAddHurt(hero) then
+        return
     end
     value = math.floor(value)
     if not self.data.hurtValue then
@@ -396,8 +491,16 @@ function Hero:addHurtValue(value,hero)
     end
     --被召唤的角色伤害也要统计为宿主伤害
     if self.host and self.host:isAlive() then
-        self.host:addHurtValue(value)
+        self.host:addHurtValue(value,hero)
     end
+end
+
+function Hero:checkskillDamageFlag(skillId)
+    if self.lastSkillCid and self.lastSkillCid == skillId and (BattleUtils.gettime() -self.skillDamageFlag) < 3000 then
+        self.skillDamageFlag = 0
+        return true
+    end
+    return false
 end
 
 --造成的伤害统计
@@ -453,7 +556,6 @@ function Hero:recoverySkin(objectID)
 end
 
 function Hero:changeSkin(formId,force)
- 
     if self.curForm then 
         if self.curForm:getDataId() == formId then
             return
@@ -641,6 +743,9 @@ function Hero:matchKeyEvent(...)
 end
 
 function Hero:createAndPush(keyCode,eventType)
+    if not self:isFlag(eFlag.FirstUpdate) then
+        return
+    end
     if self:isValidKey(keyCode) then
         self.operate:createAndPush(keyCode,eventType)
     end
@@ -1160,6 +1265,16 @@ function Hero:getBFEffect(id)
         end
     end
 end
+
+
+function Hero:checkBFEffect(id)
+    for k , effect in ipairs(self.bufferEffectMap) do
+        if effect:getId() == id and effect.enableTakeEffect then
+            return effect
+        end
+    end
+end
+
 function Hero:addBFEffect(bufferEffect)
     table.insert(self.bufferEffectMap,bufferEffect)
 end
@@ -1167,11 +1282,69 @@ function Hero:removeBFEffect(bufferEffect)
     -- self.bufferEffectMap[bufferEffect:getObjectID()] = nil
     table.removeItem(self.bufferEffectMap,bufferEffect)
 end
+
+function Hero:getBFEffectIds()
+    local ids = {}
+    for k , effect in ipairs(self.bufferEffectMap) do
+        table.insert(ids, effect:getId())
+    end
+    return ids
+end
+
+function Hero:getAngleFunctionIds()
+    local ids = {}
+    for k,datas in pairs(self:getAngleDatas()) do
+        for dataId,data in pairs(datas) do
+            for i,v in ipairs(data) do
+                table.insert(ids, v.id)
+            end
+        end
+    end
+    return ids
+end
+
 function Hero:handlBufferEffect(dt)
     --TODO 测试貌似在update 里删除 effect 没毛病
     self:walkBufferEffectWalk(function(effect)
         effect:update(dt)
     end)
+end
+
+function Hero:checkEffectTake(target, isRemove)
+    local tempEffects = {}
+    for k , effect in ipairs(self.bufferEffectMap) do 
+        if effect:getCoverId() == target:getCoverId() then
+            table.insert(tempEffects, effect)
+        end
+    end
+    table.sort(tempEffects, function (a,b)
+        return a:getPriority() > b:getPriority()
+    end)
+    local takeFlag = false
+    for i,effect in ipairs(tempEffects) do
+        if isRemove then
+            if not takeFlag then
+                if effect:getPriority() > target:getPriority() then
+                    if effect ~= target then
+                        effect:setTakeEffect(true)
+                        takeFlag = true
+                    end
+                else
+                    effect:setTakeEffect(false)
+                end
+            else
+
+            end
+        else
+            if effect:getPriority() ~= target:getPriority() then
+                if effect ~= target then
+                    effect:setTakeEffect(true)
+                    takeFlag = true
+                end
+            end
+        end
+    end
+    return not takeFlag
 end
 
 --获取buffer效果
@@ -1225,6 +1398,13 @@ function Hero:createBufferList()
             buffIds[buffId] = buffId
         end
     end
+
+    --额外buffer加成
+    local ids = battleController.getExtBuffList(self.data.id)
+    for k, buffId in ipairs(ids) do
+        buffIds[buffId] = buffId
+    end
+
     -- Box("ASDFASDF")
     ---技能
 
@@ -1281,8 +1461,8 @@ function Hero:createBufferList()
         buffIds[buffId] = buffId
     end
     --词缀附带buffer
-    local affixData = self:getAffixData()
-    if affixData then
+    local affixDatas = self:getAffixData()
+    for k,affixData in pairs(affixDatas) do
         for i, buffId in ipairs(affixData.attributeBuffers) do
             buffIds[buffId] = buffId
         end
@@ -1670,6 +1850,7 @@ function Hero:setVisible(visible)
         self.actor:setVisible(visible)
     end
 end
+
 --触发抓取
 function Hero:doGrasp(heroID,host,animation,rotation,duration)
     if self.graspData then --触发新的抓取
@@ -1853,13 +2034,6 @@ function Hero:doGraspHurtAction(dir)
 
 end
 
---显示隐藏模型
-function Hero:setVisible(visible)
-    if self.actor then
-        self.actor:setVisible(visible)
-    end
-end
-
 function Hero:setRotation(rotation)
     if self.actor then
         self.actor:setRotation(rotation)
@@ -1915,15 +2089,17 @@ function Hero:onLeaveSK(event)
     self:cancel(true)
     if self:isManual() then
         self.operate:clearKeyQueue()
-        EventMgr:dispatchEvent(eEvent.EVENT_FIX_CAMERA_Z,0,0)
         if battleController.getCaptain() == self then 
-            EventMgr:dispatchEvent(eEvent.EVENT_SHOW_KEYLIST,"")
+            EventMgr:dispatchEvent(eEvent.EVENT_SHOW_KEYLIST,{})
         end
     end
     self:removeAllEffect()
     self:stopSoundEffect()
     --TODO 闪避技能迷糊shader还原
     --self.actor:setShaderDefault()
+    if self:isInAir() then
+        self:forceToFloor()
+    end
 
     -- 技能被打断终止AI
     if event.to ~= eState.ST_STAND then
@@ -1932,6 +2108,7 @@ function Hero:onLeaveSK(event)
 end
 function Hero:cancel(isCd)
     if self.skill then
+        EventMgr:dispatchEvent(eEvent.EVENT_FIX_CAMERA_Z,self.skill:getCID(),0,0)
         self.skill:cancel(isCd)
         self.skill = nil
     end
@@ -1992,7 +2169,7 @@ function Hero:onFall(arg)
                 -- self:doEvent(eStateEvent.BH_STANDUP)
                     -- 调用起身技能
                 local standUpSkill = self:getSkillByType(eSkillType.STANDUP)
-                if standUpSkill then
+                if standUpSkill and self:enableUseStandUpSkill() then
                     self:castSK(standUpSkill)
                 else
                     _print(self:getName() .. "没有起身攻击技能")
@@ -2004,11 +2181,19 @@ function Hero:onFall(arg)
         end,delayTime)
 end
 
+function Hero:enableUseStandUpSkill()
+    if BattleDataMgr:isMusicGameLevel() then
+        return false
+    end
+    return true
+end
+
 --被攻击倒地
 function Hero:onStandUp(arg)
     self:getActor():playStandUp(function()
             if self:isAlive() then
                 self:doEvent(eStateEvent.BH_STAND)
+                self:checkBornState()
             else
                 self:doEvent(eStateEvent.BH_DIE)
             end
@@ -2050,7 +2235,7 @@ function Hero:onBorn(callback)
     if bornType == 0 then
         local bornEffect = self.data.currencybornEffect
         local bornAction = self.data.currencybornAction
-        _print("bornEffect"..tostring(bornEffect).." bornAction"..tostring(bornAction))
+        --_print("bornEffect"..tostring(bornEffect).." bornAction"..tostring(bornAction))
             -- 通用出场特效
             local scale        = BattleConfig.MODAL_SCALE* self:getSkeletonNodeScale()
             local skeletonNode = self.actor:playEffect(bornEffect,scale,bornAction,onFunc)
@@ -2075,12 +2260,12 @@ function Hero:onBorn(callback)
         self.actor:playBorn(onFunc)
         local bornEffect = self.data.currencybornEffect
         local bornAction = self.data.currencybornAction
-        _print("bornEffect"..tostring(bornEffect).." bornAction"..tostring(bornAction))
+        --_print("bornEffect"..tostring(bornEffect).." bornAction"..tostring(bornAction))
         local scale        = BattleConfig.MODAL_SCALE* self:getSkeletonNodeScale()
         local skeletonNode = self.actor:playEffect(bornEffect,scale,bornAction)
         __setSkeletonNodeDir(skeletonNode,self:getDir())
     else
-        _print("无出场动画和出场特效")
+        --_print("无出场动画和出场特效")
         self.actor.skeletonNode:show()
         onFunc()
     end
@@ -2089,6 +2274,9 @@ end
 function Hero:onStand()
     if self.actor then
         self.actor:playStand()
+    end
+    if self.aiAgent then
+        self.skillDamageFlag = 0
     end
 end
 
@@ -2127,14 +2315,16 @@ function Hero:onCastSkill(actionData)
     local function onAcitonOver ()
         if not self:onSKAcitonOver() then
             -- 技能正常结束继续执行下一个行为
-            if self.aiAgent and self.willUseSkill == self.curSkill then
+            if self.aiAgent and self.skill == self.curSkill then
                 self.curSkill = nil
                 self.willUseSkill = nil
+                self.skillDamageFlag = 0
                 self:doEvent(eStateEvent.BH_STAND)
                 self.aiAgent:next()
             else
                 self:doEvent(eStateEvent.BH_STAND)
             end
+            self:checkBornState()
         end
     end
     self.actor:playSkill(self.skill,actionData,onAcitonOver)
@@ -2160,7 +2350,7 @@ end
 
 --被击
 function Hero:onHurt(arg)
-        -- dump(arg,"----------onHurt--arg")
+        -- dump(arg,"---ds------onHurt--arg")
     -- self:cancel()
     self.actor:playHurt(function()
         if self:isAlive() then
@@ -2170,6 +2360,7 @@ function Hero:onHurt(arg)
                 self:doEvent(eStateEvent.BH_PARALYSIS)
             else
                 self:doEvent(eStateEvent.BH_STAND)
+                self:checkBornState()
             end
         else
             self:doEvent(eStateEvent.BH_DIE)
@@ -2222,7 +2413,7 @@ function Hero:onDie(arg)
                         -- EventMgr:dispatchEvent(eEvent.EVENT_HERO_DEAD, self)
                     end
                 else
-                    self:print("死亡2")
+                    --self:print("死亡2")
                    if self:isAState(eAState.E_RELIVE) then
                         self:clearAState(eAState.E_RELIVE)
                         local hp = self:getValue(eAttrType.ATTR_MAX_HP)/2
@@ -2261,7 +2452,7 @@ function Hero:relive(targetPos)
         self:forceToFloor()
         self:doEvent(eStateEvent.BH_RELIVE)
     else
-        _print("非死亡状态不需要复活")
+        --_print("非死亡状态不需要复活")
     end
 end
 
@@ -2351,6 +2542,9 @@ end
 
 
 function Hero:getAngleDatas()
+    if self.host then
+        return self.host:getAngleDatas()
+    end
     return self.data.angleDatas
 end
 --
@@ -2408,6 +2602,7 @@ function Hero:createActor(position,hide)
     local bornPos  =  self:calculatePoistion()
     self:setPosition3D(bornPos.x,bornPos.y,bornPos.y)
     self:setLastPosition(bornPos.x,bornPos.y,bornPos.y)
+    self.bornPos_ = bornPos
 
 
     -- self.actor:setPosition(bornPos)
@@ -2445,14 +2640,93 @@ function Hero:createActor(position,hide)
 
 end
 
-function Hero:getActor()
-    return self.actor
+function Hero:checkBornState()
+    if not BattleDataMgr:isMusicGameLevel() then
+        return
+    end
+    if #self.preCastSkillData > 0 then
+        return
+    end
+    if self.mixSkills then
+        if #self.mixSkills < 1 then
+            EventMgr:dispatchEvent(eEvent.EVENT_SKILL_OVER)
+            self.mixSkills = nil
+        else
+            return
+        end
+    end
+    if math.abs(self.bornPos_.x - self.position3D.x) > 10 or math.abs(self.bornPos_.y - self.position3D.y) > 10 then
+        self:moveToPos(self.bornPos_, function()
+            self:moveToStand()
+            local dir = self.data.dir or eDir.LEFT
+            self:__setDir(dir)
+        end)
+    end
 end
 
-function Hero:setVisible(value)
-    if self.actor then
-        self.actor:setVisible(value)
+function Hero:castMixSkills()
+    if self.mixSkills and #self.mixSkills > 0 then
+        if self.skill then
+            local skill = self:getSkillByCid(self.mixSkills[1])
+            if self.skill == skill and skill:getSKillType() == eSkillType.GENERAL then
+                self:createAndPush(skill:getKeyCode(),eKeyEventType.DOWN)
+                table.remove(self.mixSkills, 1)
+            end
+        else
+            if self:_checkState(eState.ST_STAND) then
+                local skill = self:getSkillByCid(self.mixSkills[1])
+                self:castSK(skill,true)
+                table.remove(self.mixSkills, 1)
+            end
+        end
     end
+end
+
+function Hero:checkPreCastSkill()
+    if self.mixSkills then
+        return
+    end
+    if BattleDataMgr:isMusicGameLevel() then
+        if self:_checkState(eState.ST_STAND) then
+            local data = table.remove(self.preCastSkillData,1)
+            if data then
+                self.mixSkills = data.skills
+                local movePos
+                if data.dictance > 0 then
+                    local target = self:findTarget()
+                    local bornPos = target.bornPos_
+                    movePos = clone(self.bornPos_)
+                    if bornPos.x > movePos.x then
+                        movePos.x = movePos.x + data.dictance
+                    else
+                        movePos.x = movePos.x - data.dictance
+                    end
+                else
+                    movePos = self.bornPos_
+                end
+                if math.abs(self.position3D.x - movePos.x) > 20 or math.abs(self.position3D.y - movePos.y) > 20 then
+                    self:moveToPos(movePos, function()
+                        self:moveToStand()
+                    end)
+                end
+            end
+        end
+    end 
+end
+
+function Hero:preCastSkill(moveDistance,skillIds)
+    table.insert(self.preCastSkillData,{dictance = moveDistance, skills = skillIds})
+end
+
+
+function Hero:AiEnableEx(enable)
+    if self.aiAgent then
+        self.aiAgent:setEnabledEX(enable)
+    end
+end
+
+function Hero:getActor()
+    return self.actor
 end
 
 function Hero:pause()
@@ -2513,7 +2787,7 @@ function Hero:doFirstTrigger(time)
         --统计我方成员血量
         EventMgr:dispatchEvent(eEvent.EVENT_NOTICE_HP, self,self:getMaxHp())
         EventMgr:dispatchEvent(eEvent.EVENT_HERO_BATTLE, self)
-        if self:isBoss() or self:getAffixData() then
+        if self:isBoss() or self:hasAffixData() then
             EventMgr:dispatchEvent(eEvent.EVENT_BOSS_CHANGE, self)
         end
         --天赋buff触发
@@ -2575,6 +2849,7 @@ function Hero:update(time)
         self:setLastPosition(self.position3D.x,self.position3D.y,self.position3D.z)
     end
     self.recorder:update(time,self)
+    local originTime = time
     time = time * self:getTimeScale()
     self.showTiming_ = self.showTiming_ + time
     self:doFirstTrigger()
@@ -2584,6 +2859,7 @@ function Hero:update(time)
     if not self:isBattle() then
         self:clearFlag(eFlag.HITED)
         if self:isDead() then
+            battleController.synchronHp(self)
             self:onEventTrigger(eBFState.E_DEAD,self)
             if self:isAState(eAState.E_RELIVE) then
                 self:clearAState(eAState.E_RELIVE)
@@ -2609,13 +2885,14 @@ function Hero:update(time)
         self:actorUpdata(time)   --hero spine update
         self:handlSkill(time)
         self:handleEnergyMgr(time)
-        self:handlBufferEffect(time)
+        self:handlBufferEffect(originTime)
         self:graspUpdate(time)--抓取倒计时处理
 
         return
     end
     --死亡
     if self:isDead() then
+        battleController.synchronHp(self)
         if not self:isFlag(eFlag.Dead) then
             self:setFlag(eFlag.Dead)
             --清理负面状态
@@ -2684,7 +2961,7 @@ function Hero:update(time)
         self:actorUpdata(time)   --hero spine update
         self:handlSkill(time)
         self:handleEnergyMgr(time)
-        self:handlBufferEffect(time)
+        self:handlBufferEffect(originTime)
         if self:isManual() then
             self:handlMove(time)
         else
@@ -2692,7 +2969,7 @@ function Hero:update(time)
             -- _print("_____________ai_______________")
         end
     else
-        self:handlBufferEffect(time)
+        self:handlBufferEffect(originTime)
     end
     if self:isFlag(eFlag.HITED) then
         if self.skill then
@@ -2701,6 +2978,8 @@ function Hero:update(time)
         self:clearFlag(eFlag.HITED)
     end
 
+    self:checkPreCastSkill()
+    self:castMixSkills()
     self:checkAndRelease()
 
 end
@@ -2719,7 +2998,8 @@ function Hero:doFloatingProtection(time)
 end
 --找离自己最近的人
 function Hero:findTarget()
-    local heros = self.team:getEnemys(self:getCamp())
+    local objs = self.team:getEnemys(self:getCamp())
+    local heros = self:checkEnableTarget(objs)
     if #heros == 0 then
         return nil
     end
@@ -2803,8 +3083,48 @@ function Hero:getAreaFrineds(length,num,containMe)
     return temp
 end
 
+--精灵召唤物
+function Hero:getCalls(length,num,camp)
+    if num == nil or num == -1 then
+        num = 10
+    end
+    local temp = {}
+    local heroList = battleController.getTeam():getMenbers(eCampType.Call)
+    for i, hero in ipairs(heroList) do
+        if #temp < num then
+            if camp then
+                local host = hero:getHost()
+                if host then
+                    if BattleUtils.campState(host:getCamp(),self:getCamp()) == camp then
+                        if length > 0 then
+                            if self:distance(hero) < length then
+                                table.insert(temp,hero)
+                            end
+                        else
+                            table.insert(temp,hero)
+                        end
+                    end
+                end
+            else
+                if length > 0 then
+                    if self:distance(hero) < length then
+                        table.insert(temp,hero)
+                    end
+                else
+                    table.insert(temp,hero)
+                end
+            end
+        end
+    end
+    return temp
+end
+
 function Hero:getFriends()
     return self.team:getFriends(self:getCamp())
+end
+
+function Hero:getHost()
+    return self.host
 end
 
 local function symbol(value)
@@ -3010,7 +3330,7 @@ end
 
 
 --受护盾影响
-function Hero:changeHp(value,hurtType,target,bAbsorb,point)
+function Hero:changeHp(value,hurtType,target,bAbsorb,point,hideDamage)
     if value < 0 then 
         if self:isAState(eAState.E_MIANYI_LOSH_HP) then 
             self:onEventTrigger(eBFState.E_LOSE_HP_IMMUNE,target)
@@ -3091,9 +3411,22 @@ function Hero:changeHp(value,hurtType,target,bAbsorb,point)
             self:checkBattleEnd(bDead)
         end
     end
-    self:showDamage(value,hurtType,point)
+    if not hideDamage then
+        self:showDamage(value,hurtType,point)
+    end
     if self.actor then
         self.actor:refresh()
+    end
+
+    if value < 0 then
+        local curTime = BattleUtils.gettime()
+        self.hurtTypeInfos = self.hurtTypeInfos or {}
+        self.hurtTypeInfos[hurtType] = self.hurtTypeInfos[hurtType] or {}
+        local frontInfo = self.hurtTypeInfos[hurtType][1]
+        if frontInfo and (curTime - frontInfo.time) > 3000 then
+            table.remove(self.hurtTypeInfos[hurtType],1)
+        end
+        table.insert(self.hurtTypeInfos[hurtType],{time = curTime, hurt = -value})
     end
 
     if value ~= 0 then
@@ -3105,6 +3438,42 @@ function Hero:changeHp(value,hurtType,target,bAbsorb,point)
         battleController.synchronHp(self)
     end
     return value
+end
+
+function Hero:checkInHurtVaild(hurtValue,time,hType)
+    if self.hurtTypeInfos then
+        local nTime = time or 200
+        hurtValue = hurtValue or 100
+        local curTime = BattleUtils.gettime()
+        local totalValue = 0
+        if hType then
+            for hurtType,infos in pairs(self.hurtTypeInfos) do
+                if hType == 1 and tonumber(hurtType) == eHurtType.PUGONG then
+                    for i,v in ipairs(infos) do
+                        if (curTime - v.time) < nTime then
+                            totalValue = totalValue + v.hurt
+                        end
+                    end
+                elseif hType == 2 and tonumber(hurtType) ~= eHurtType.PUGONG then
+                    for i,v in ipairs(infos) do
+                        if (curTime - v.time) < nTime then
+                            totalValue = totalValue + v.hurt
+                        end
+                    end
+                end
+            end
+        else
+            for hurtType,infos in pairs(self.hurtTypeInfos) do
+                for i,v in ipairs(infos) do
+                    if (curTime - v.time) < nTime then
+                        totalValue = totalValue + v.hurt
+                    end
+                end
+            end
+        end
+        return totalValue > 0 and totalValue > hurtValue
+    end
+    return false
 end
 
 --是否真实减血
@@ -3201,7 +3570,6 @@ function Hero:canCast(skill)
     if AwakeMgr.isPlay() then
         return false
     end
-    
     if self:isAState(eAState.E_JING_ZHI) then
         return false
     end
@@ -3229,6 +3597,7 @@ function Hero:canCast(skill)
     if skill:getLevel() > 100 then 
         return true
     end
+
     --检查能量消耗
     if self:getState() == eState.ST_STAND or
         self:getState() == eState.ST_MOVEEX or
@@ -3887,8 +4256,9 @@ end
 
 function Hero:removeAllEffect()
     for key , effectNode in ipairs(self.effetList) do
-        if not tolua.isnull(effectNode) then 
-            effectNode:removeFromParent()
+        if not tolua.isnull(effectNode) then
+            effectNode:preRemove(true)
+            --effectNode:removeFromParent()
         else
             printError("remove not exsit skilleffect")
         end
@@ -4089,7 +4459,8 @@ function Hero:castSK(skill,force)
         skill:tryCast(force)
         return true
     else
-        _print(self:getName().."技能无法释放")
+        self.willUseSkill = self.skill
+       -- _print(self:getName().."技能无法释放")
         return false
     end
 end
@@ -4101,7 +4472,7 @@ function Hero:cast(keyCode)
         return self:castSK(skill)
     end
     if not skill then
-        _print(""..self:getName().."没有skill "..tostring(keyCode))
+        --_print(""..self:getName().."没有skill "..tostring(keyCode))
     end
     return false
 end
@@ -4113,7 +4484,7 @@ function Hero:castByType(skillType)
         return self:castSK(skill,true)
     end
     if not skill then
-        _print(""..self:getName().."没有skill "..tostring(keyCode))
+        --_print(""..self:getName().."没有skill "..tostring(keyCode))
     end
     return false
 end
@@ -4301,9 +4672,6 @@ function Hero:autoMove(time)
         if self.fixTarget then
             target = self.fixTarget
         else
-            if not self.nearTarget then
-                self.nearTarget = self:findTarget()
-            end
             target = self.nearTarget
         end
         if target and target:isAlive() then
@@ -4311,6 +4679,7 @@ function Hero:autoMove(time)
                 -- 寻路结束 -> 使用技能
                 self.pathTiming = 0
                 self.nearTarget = nil
+                self.fixTarget = nil
                 self.pathList = {}
                 -- print("move ok")
                 self:moveToStand()
@@ -4353,6 +4722,7 @@ function Hero:autoMove(time)
             end
         else
             self.nearTarget = nil
+            self.fixTarget = nil
             self:endToAI()
         end
     elseif self.moveState == eMoveState.FixedMove then
@@ -4456,6 +4826,7 @@ function Hero:setAIEnable(isEnable)
 end
 
 function Hero:ai(dt)
+    self.aiUseSkillTime = self.aiUseSkillTime + dt
     if self:getState() == eState.ST_BORN then 
         return
     end
@@ -4465,6 +4836,16 @@ function Hero:ai(dt)
 
     if self.isAIEnable == false then
         return
+    end
+
+    self.AIStepCD = self.AIStepCD + dt
+    if self.AIStepCD > 0.1 then
+        self.AIStepCD = 0
+        local data = table.remove(self.AIStepDatas,1)
+        if data then
+            self.AIStepParams = data[3]
+            self.aiAgent:executeAIStepData(data)
+        end
     end
 
     if self.bFight and self.aiAgent then
@@ -5001,22 +5382,41 @@ function Hero:killMySelf()
 end
 
 --AI 触发buffer
-function Hero:act_triggetBuffer(buffId)
+function Hero:act_triggetBuffer(id,buffId)
+    if self:enableSyncAIstep() then
+        self.aiAgent:syncAIStepData(id,{AIactionType.act_triggetBuffer})
+    else
+        if battleController.isLockStep() then
+            if self:checkAIStep(AIactionType.act_triggetBuffer) then
+                self:updateStateInfo()
+                self.AIStepParams = nil
+            end
+        end
+    end
     self:onSkillTrigger(eBFSkillEvent.SE_HURT,buffId,self)
-    self.aiAgent:next()
 end
 
-function Hero:act_useSkill(skillCid)
-    local target = self:findTarget()
-    local skill = self:getSkillByCid(skillCid)
+function Hero:act_useSkill(id,skillCid)
+    local realCid = skillCid 
+    if battleController.isLockStep() and self.AIStepParams and self.AIStepParams[1] == 1 then
+        realCid = self.AIStepParams[2]
+    end
+    local skill = self:getSkillByCid(realCid)
 	if not skill then 
-		dump({self.curForm.data})
-		dump({self.curForm.data.skills})
-		Box("skillCid:"..tostring(skillCid))
+		return
 	end
+    if self.lastSkillCid and realCid == self.lastSkillCid then
+        if self.aiUseSkillTime < 1000 then
+            self:endToAI()
+            return false
+        end
+        self.aiUseSkillTime = 0
+    end
+    self.lastSkillCid = realCid
     self.willUseSkill = skill
 
     local rets = false
+    local isNext = 0
     if self:_checkState(eState.ST_STAND,eState.ST_MOVEEX,eState.ST_SKILL) then
         if self:isValidKey(skill:getKeyCode()) then
             if self.skill ~= skill then
@@ -5026,7 +5426,41 @@ function Hero:act_useSkill(skillCid)
                 end
             else
                 skill:setNext(true)  --触发连击
+                isNext = 1
                 rets = true
+            end
+        end
+    end
+    
+    if self:enableSyncAIstep() then
+        if rets then
+            self.aiAgent:syncAIStepData(id,{AIactionType.act_useSkill, realCid, isNext})
+        end
+    else
+        if battleController.isLockStep() then
+            if self:checkAIStep(AIactionType.act_useSkill) then
+                self:updateStateInfo()
+                if isNext == 1 and (self.AIStepParams[3] and self.AIStepParams[3] == 0) then
+                    self.skill = nil
+                    skill:clearCD()
+                    self:doEvent(eStateEvent.BH_STAND)
+                    if self:isValidKey(skill:getKeyCode()) then
+                        if self:canCast(skill) then
+                            self:castSK(skill)
+                            rets = true
+                        end
+                    end
+                elseif not rets then
+                    skill:clearCD()
+                    self:doEvent(eStateEvent.BH_STAND)
+                    if self:isValidKey(skill:getKeyCode()) then
+                        if self:canCast(skill) then
+                            self:castSK(skill)
+                            rets = true
+                        end
+                    end
+                end
+                self.AIStepParams = nil
             end
         end
     end
@@ -5036,12 +5470,32 @@ function Hero:act_useSkill(skillCid)
     return rets
 end
 
-function Hero:act_switchModel(modelIndex)
+function Hero:act_switchModel(id,modelIndex)
+    if self:enableSyncAIstep() then
+        self.aiAgent:syncAIStepData(id,{AIactionType.act_switchModel})
+    else
+        if battleController.isLockStep() then
+            if self:checkAIStep(AIactionType.act_switchModel) then
+                self:updateStateInfo()
+                self.AIStepParams = nil
+            end
+        end
+    end
     self:setActionIndex(modelIndex)
     self.aiAgent:next()
 end
 
-function Hero:act_killMySelf(isCount)
+function Hero:act_killMySelf(id,isCount)
+    if self:enableSyncAIstep() then
+        self.aiAgent:syncAIStepData(id,{AIactionType.act_killMySelf})
+    else
+        if battleController.isLockStep() then
+            if self:checkAIStep(AIactionType.act_killMySelf) then
+                self:updateStateInfo()
+                self.AIStepParams = nil
+            end
+        end
+    end
     self.team:remove(self)
     if isCount then
         EventMgr:dispatchEvent(eEvent.EVENT_HERO_DEAD, self)
@@ -5049,7 +5503,17 @@ function Hero:act_killMySelf(isCount)
     self:release()
 end
 
-function Hero:act_moveToPositon(position, speedScale)
+function Hero:act_moveToPositon(id,position, speedScale)
+    if self:enableSyncAIstep() then
+        self.aiAgent:syncAIStepData(id,{AIactionType.act_moveToPositon})
+    else
+        if battleController.isLockStep() then
+            if self:checkAIStep(AIactionType.act_moveToPositon) then
+                self:updateStateInfo()
+                self.AIStepParams = nil
+            end
+        end
+    end
     if levelParse:canMove(position) then
         self.nSpeedScale = speedScale
         self:findPath(position)
@@ -5060,7 +5524,17 @@ function Hero:act_moveToPositon(position, speedScale)
     end
 end
 
-function Hero:act_playEffect(type_, effectName, animationName, order, loopTime, scale)
+function Hero:act_playEffect(id,type_, effectName, animationName, order, loopTime, scale)
+    if self:enableSyncAIstep() then
+        self.aiAgent:syncAIStepData(id,{AIactionType.act_playEffect})
+    else
+        if battleController.isLockStep() then
+            if self:checkAIStep(AIactionType.act_playEffect) then
+                self:updateStateInfo()
+                self.AIStepParams = nil
+            end
+        end
+    end
     local effect = ResLoader.createEffect(effectName, scale)
     if type_ == 1 then    -- 时间
         BattleTimerManager:addTimer(loopTime, 1, function()
@@ -5085,7 +5559,17 @@ function Hero:act_playEffect(type_, effectName, animationName, order, loopTime, 
     EventMgr:dispatchEvent(eEvent.EVENT_EFFECT_ADD_TO_LAYER, effect, order)
 end
 
-function Hero:act_setHpPercent(percent)
+function Hero:act_setHpPercent(id,percent)
+    if self:enableSyncAIstep() then
+        self.aiAgent:syncAIStepData(id,{AIactionType.act_setHpPercent})
+    else
+        if battleController.isLockStep() then
+            if self:checkAIStep(AIactionType.act_setHpPercent) then
+                self:updateStateInfo()
+                self.AIStepParams = nil
+            end
+        end
+    end
     self:setHpPercent(percent)
     if self.actor then
         self.actor:refresh()
@@ -5110,7 +5594,7 @@ function Hero:getShowTiming()
     return self.showTiming_
 end
 
-function Hero:act_pathFinding(range, limitArea, walkDistance, walkWeight, runWeight, fixTargetCid)
+function Hero:act_pathFinding(id,range, limitArea, walkDistance, walkWeight, runWeight, fixTargetCid)
     -- if self:isAState(eAState.E_STOP_MOVE) then
     --     self.aiAgent:next()
     --     return
@@ -5119,6 +5603,7 @@ function Hero:act_pathFinding(range, limitArea, walkDistance, walkWeight, runWei
     self.walkDistance = walkDistance
     self.limitArea = limitArea
     self.atkRect = me.rect(range[1], range[2], range[3], range[4])
+    fixTargetCid = fixTargetCid or 0
     if fixTargetCid then
         if fixTargetCid < 0 then 
             local heroIndex = math.abs(fixTargetCid)
@@ -5132,19 +5617,66 @@ function Hero:act_pathFinding(range, limitArea, walkDistance, walkWeight, runWei
         elseif  fixTargetCid > 0 then
             local team = battleController:getTeam()
             self.fixTarget = team:getHeroWithID(fixTargetCid)
+        else
+            self.nearTarget = self:findTarget()
         end
     end
     local index = BattleUtils.randomProbability({walkWeight, runWeight})
     self.isWalkInNear = (index == 1)
-    local target = self:findTarget()
-    if self.fixTarget or (target  and target:isAlive()) then
-        if self:canDoEvent(eStateEvent.BH_MOVEEX) then
-            self:doEvent(eStateEvent.BH_MOVEEX, eMoveState.Fallow)
+    if self:enableSyncAIstep() then
+        local cid1 = self.fixTarget and self.fixTarget:getData().id or nil
+        local cid2 = self.nearTarget and self.nearTarget:getData().id or nil
+        self.aiAgent:syncAIStepData(id,{AIactionType.act_pathFinding, cid1, cid2})
+        if self.fixTarget or (self.nearTarget  and self.nearTarget:isAlive()) then
+            if self:canDoEvent(eStateEvent.BH_MOVEEX) then
+                self:doEvent(eStateEvent.BH_MOVEEX, eMoveState.Fallow)
+            else
+                self:endToAI()
+            end
         else
             self:endToAI()
         end
-    else
-        self:endToAI()
+    end
+    if not self:enableSyncAIstep() then
+        if battleController.isLockStep() then
+            if self:checkAIStep(AIactionType.act_pathFinding) then
+                self:updateStateInfo()
+                if fixTargetCid < 0 then 
+                    local heros =  battleController.getMenbers() --不包括死亡的队员
+                    for i,v in ipairs(heros) do
+                        if v.id == self.AIStepParams[2] then
+                            self.fixTarget =  heros[i]
+                            break
+                        end
+                    end
+                elseif  fixTargetCid > 0 then
+                    local team = battleController:getTeam()
+                    self.fixTarget = team:getHeroWithID(self.AIStepParams[2])
+                else
+                    self.nearTarget = self:findTarget()
+                end
+                if self.fixTarget or (self.nearTarget  and self.nearTarget:isAlive()) then
+                    if self:canDoEvent(eStateEvent.BH_MOVEEX) then
+                        self:doEvent(eStateEvent.BH_MOVEEX, eMoveState.Fallow)
+                    else
+                        self:endToAI()
+                    end
+                else
+                    self:endToAI()
+                end
+                self.AIStepParams = nil
+                return               
+            end
+        end
+        if self.fixTarget or (self.nearTarget  and self.nearTarget:isAlive()) then
+            if self:canDoEvent(eStateEvent.BH_MOVEEX) then
+                self:doEvent(eStateEvent.BH_MOVEEX, eMoveState.Fallow)
+            else
+                self:endToAI()
+            end
+        else
+            self:endToAI()
+        end
     end
 end
 
@@ -5154,7 +5686,17 @@ function Hero:act_directUseSkill(callback, skillCid)
     self:ai_useSkill()
 end
 
-function Hero:act_delay(delayTime)
+function Hero:act_delay(id,delayTime)
+    if self:enableSyncAIstep() then
+        self.aiAgent:syncAIStepData(id,{AIactionType.act_delay})
+    else
+        if battleController.isLockStep() then
+            if self:checkAIStep(AIactionType.act_delay) then
+                self:updateStateInfo()
+                self.AIStepParams = nil
+            end
+        end
+    end
     BattleTimerManager:addTimer(
         delayTime, 1,
         function()
@@ -5163,7 +5705,17 @@ function Hero:act_delay(delayTime)
     )
 end
 
-function Hero:act_setPosition(type_, position)
+function Hero:act_setPosition(id,type_, position)
+    if self:enableSyncAIstep() then
+        self.aiAgent:syncAIStepData(id,{AIactionType.act_setPosition})
+    else
+        if battleController.isLockStep() then
+            if self:checkAIStep(AIactionType.act_setPosition) then
+                self:updateStateInfo()
+                self.AIStepParams = nil
+            end
+        end
+    end
     if type_ == 1 then    -- 相对坐标
         local pos = self:getPosition3D()
         local x = pos.x + position.x
@@ -5216,7 +5768,18 @@ function Hero:act_run(callback, x, y)
     end
 end
 
-function Hero:act_patrol(type_, walkDistance, walkWeight, runWeight)
+function Hero:checkEnableTarget(targets)
+    local realTargets = {}
+    for k,v in pairs(targets) do
+        if v:isAState(eAState.E_STATE_60) then
+        else
+            table.insert(realTargets,v)
+        end
+    end
+    return realTargets
+end
+
+function Hero:act_patrol(id,type_, walkDistance, walkWeight, runWeight)
     -- if self:isAState(eAState.E_STOP_MOVE) then
     --     self.aiAgent:next()
     --     return
@@ -5227,7 +5790,8 @@ function Hero:act_patrol(type_, walkDistance, walkWeight, runWeight)
     local rets = false
     local maxLoopCount = 100
     if self:_checkState(eState.ST_STAND,eState.ST_MOVEEX) then
-        local targets = self:findTargets()
+        local objs = self:findTargets()
+        local targets = self:checkEnableTarget(objs)
         if #targets > 0 then
             local pos
             local target = targets[RandomGenerator.random(#targets)]
@@ -5267,8 +5831,33 @@ function Hero:act_patrol(type_, walkDistance, walkWeight, runWeight)
                 end
             end
             if pos then
-                self:findPath(pos)
+                if self:enableSyncAIstep() then
+                    self.aiAgent:syncAIStepData(id,{AIactionType.act_patrol, pos.x, pos.y})
+                    self:findPath(pos)
+                    rets = self:doEvent(eStateEvent.BH_MOVEEX,eMoveState.Patrol)
+                elseif battleController.isLockStep() then
+                    if not self.AIStepParams then
+                        self:findPath(pos)
+                        rets = self:doEvent(eStateEvent.BH_MOVEEX,eMoveState.Patrol)
+                    end
+                else
+                    self:findPath(pos)
+                    rets = self:doEvent(eStateEvent.BH_MOVEEX,eMoveState.Patrol)
+                end
+            end
+        end
+    end
+    if not self:enableSyncAIstep() then
+        if battleController.isLockStep() then
+            if self:checkAIStep(AIactionType.act_patrol) then
+                self:updateStateInfo()
+                local state = self:getState()
+                if state ~= eState.BH_STAND then
+                    self:doEvent(eStateEvent.BH_STAND)
+                end
+                self:findPath(ccp(self.AIStepParams[2], self.AIStepParams[3]))
                 rets = self:doEvent(eStateEvent.BH_MOVEEX,eMoveState.Patrol)
+                self.AIStepParams = nil
             end
         end
     end
@@ -5277,12 +5866,22 @@ function Hero:act_patrol(type_, walkDistance, walkWeight, runWeight)
     end
 end
 
-function Hero:act_setDir(dir)
+function Hero:act_setDir(id,dir)
+    if self:enableSyncAIstep() then
+        self.aiAgent:syncAIStepData(id,{AIactionType.act_setDir})
+    else
+        if battleController.isLockStep() then
+            if self:checkAIStep(AIactionType.act_setDir) then
+                self:updateStateInfo()
+                self.AIStepParams = nil
+            end
+        end
+    end
     self:setDir(dir)
     self.aiAgent:next()
 end
 
-function Hero:act_follow(target, distance)
+function Hero:act_follow(id,target, distance)
     -- if self:isAState(eAState.E_STOP_MOVE) then
     --     self.aiAgent:next()
     --     return
@@ -5348,8 +5947,29 @@ function Hero:act_follow(target, distance)
         end
 
         if movePos then
-            self:findPath(movePos)
-            rets = self:doEvent(eStateEvent.BH_MOVEEX, eMoveState.FixedMove)
+            if self:enableSyncAIstep() then
+                self.aiAgent:syncAIStepData(id,{AIactionType.act_follow, movePos.x, movePos.y})
+                self:findPath(movePos)
+                rets = self:doEvent(eStateEvent.BH_MOVEEX, eMoveState.FixedMove)
+            elseif battleController.isLockStep() then
+                if not self.AIStepParams then
+                    self:findPath(movePos)
+                    rets = self:doEvent(eStateEvent.BH_MOVEEX, eMoveState.FixedMove)
+                end
+            else
+                self:findPath(movePos)
+                rets = self:doEvent(eStateEvent.BH_MOVEEX, eMoveState.FixedMove)
+            end
+        end
+    end
+    if not self:enableSyncAIstep() then
+        if battleController.isLockStep() then
+            if self:checkAIStep(AIactionType.act_follow) then
+                self:updateStateInfo()
+                self:findPath(ccp(self.AIStepParams[2], self.AIStepParams[3]))
+                rets = self:doEvent(eStateEvent.BH_MOVEEX,eMoveState.FixedMove)
+                self.AIStepParams = nil
+            end
         end
     end
     if not rets then
@@ -5561,19 +6181,29 @@ function Hero:fix( posX , posY , dir , hp, state)
 end
 
 
-function Hero:fix_boss( posX , posY , dir , hp , sp)
+function Hero:fix_boss(heroId, posX , posY , dir , hp , sp)
     if sp then --强制同步霸体值
         -- if sp < self:getResist() then 
             self:setValue(eAttrType.ATTR_NOW_RST,sp,true)
         -- end
     end
 
-    if hp then
-        local lose = hp - self:getHp()
+    local curHp = self:getHp()
+    if self.showTiming_ < 1500 and curHp > 500000 then
+        return
+    end
+    if curHp > 0 and hp then
+        local lose = hp - curHp
         if  lose < 0 then
             self:setValue(eAttrType.ATTR_NOW_HP,hp,true)
             if battleController.isShowFixHurt() then
                 self:showDamage(lose) --显示掉血
+            end
+            if hp <= 0 then
+                local target = battleController.getPlayer(heroId)
+                if target then
+                    self:onEventTrigger(eBFState.E_DYING,target)
+                end
             end
         end
     end
@@ -5596,6 +6226,39 @@ function Hero:fix_boss( posX , posY , dir , hp , sp)
     end
 end
 
+function Hero:updateStateInfo()
+    if self.stateInfoData then
+        self:fix_boss(self.stateInfoData.operate, self.stateInfoData.posX,self.stateInfoData.posY,self.stateInfoData.dir,self.stateInfoData.hp)
+    end
+    self.stateInfoData = nil
+end
+
+function Hero:revStateInfoData(data)
+    self.stateInfoData = data
+end
+
+function Hero:revAIStepData(lastIdx, cruIdx, params)
+    if not AIAgent:isEnabled() then
+        return
+    end
+    table.insert(self.AIStepDatas, {lastIdx, cruIdx, params})
+end
+
+function Hero:getAIStepParams()
+    return self.AIStepParams
+end
+
+function Hero:resetAIStepDatas()
+    self.AIStepDatas = {}
+end
+
+function Hero:checkAIStep(funcID)
+    if self.AIStepParams and self.AIStepParams[1] == funcID then
+        return true
+    end
+    return false
+end
+
 function Hero:getLockHp()
     for i = 10, 1,-1 do
         if self:isAState(200 + i) then
@@ -5603,6 +6266,34 @@ function Hero:getLockHp()
         end
     end
     return 0
+end
+
+function Hero:enableSyncAIstep()
+    if battleController.isLockStep() and battleController.checkAISyncHost() then
+        return true
+    end
+    return false
+end
+
+function Hero:interruptAIStep()
+    local state = self:getState()
+    if state == eState.ST_SKILL then
+        if self.actor then 
+            self.actor.fixZOrder = nil
+        end
+        self:cancel(true)
+        self:removeAllEffect()
+        self:stopSoundEffect()
+        self:stopAllActions()
+    elseif state == eState.ST_MOVEEX or state == eState.ST_FALL then
+        self:cleanPath()
+        self:stopMoveEffect()
+    end
+    if self:isInAir() then
+        self:forceToFloor()
+    end
+    self:getActor():stopAllActions()
+    self:doEvent(eStateEvent.BH_STAND)
 end
 
 

@@ -30,6 +30,17 @@ function PlayerSetting:initData(data)
         --     iconImg = "ui/playerInfo/new/040.png",
         -- })
     end
+
+    ---灵力共鸣是否开启
+    local isOpen = FunctionDataMgr:isOpen(151)
+    if isOpen then
+        table.insert(self.btnConfig_, {
+            txt = 14221105,
+            idx = 5,
+            iconImg = "ui/fairy/new_ui/gongming/3.png",
+        })
+    end
+
     self.defaultIdx = data and data.selectIdx or nil
     self.selectIndex_ = nil
     self.isFriend_ =  data and data.isFriend or nil
@@ -89,7 +100,7 @@ function PlayerSetting:initUI(ui)
     }
     self.inputLayer = require("lua.logic.common.InputLayer"):new(params)
     self:addLayer(self.inputLayer,1000)
-    self.inputLayer:setPositionX(-(GameConfig.WS.width - 1136) / 2)
+    -- self.inputLayer:setPositionX(-(GameConfig.WS.width - 1136) / 2)
 
     --self.ui:runAnimation("enterAction",1)
 end
@@ -150,6 +161,8 @@ function PlayerSetting:refreshRight()
     self.Panel_zhuzhan_info:hide()
     self.Panel_medal:hide()
     self.Panel_energy:hide()
+    self.Panel_gongming:hide()
+
     if self.selectIndex_ == 1 then
         self.Panel_left:show()
         self.Panel_player_info:show()
@@ -168,6 +181,8 @@ function PlayerSetting:refreshRight()
     elseif self.selectIndex_ == 4 then
         self.Panel_energy:show()
         HeroDataMgr:ReqNewSpiritInfo()
+    elseif self.selectIndex_ == 5 then
+        self.Panel_gongming:show()
     end
 end
 
@@ -189,8 +204,17 @@ function PlayerSetting:initRight()
     self:initHeroInfo()
     self:initMedalInfo()
     self:initEnergyInfo()
+    self:initGongMingInfo()
 end
 
+function PlayerSetting:initGongMingInfo()
+    self.Panel_gongming = TFDirector:getChildByPath(self.ui,"Panel_gongming")
+    local gongMingUi = self.Panel_gongming:getChildByName("gongMingUi")
+    if not gongMingUi then
+        gongMingUi = requireNew("lua.logic.fairyNew.GongMingMainView"):new()
+    end
+    self.Panel_gongming:addChild(gongMingUi)
+end
 
 function PlayerSetting:initInfo()
     self.Panel_player_info = TFDirector:getChildByPath(self.ui,"Panel_player_info")
@@ -245,6 +269,12 @@ function PlayerSetting:initInfo()
     --屏蔽实名认真
     TFDirector:getChildByPath(self.Panel_player_info,"Panel_certification"):hide()
     
+
+
+    self.Label_lv1 = TFDirector:getChildByPath(self.Panel_player_info,"Label_lv1")
+    self.Label_maxLv1 = TFDirector:getChildByPath(self.Panel_player_info, "Label_maxLv1")
+    self.LoadingBar_lv1  = TFDirector:getChildByPath(self.Panel_player_info,"LoadingBar_lv1")
+    self.Label_curExp1 = TFDirector:getChildByPath(self.Panel_player_info,"Label_curExp1")
 end
 
 function PlayerSetting:refreshInfo()
@@ -330,6 +360,13 @@ function PlayerSetting:refreshExtraInfo()
 
     local accountStr = CCUserDefault:sharedUserDefault():getStringForKey("account")
     self.Label_account_info:setString(accountStr)
+
+
+    local level, curProcess, maxProcess, maxLv = MainPlayer:getTouzirenLevel();
+    self.Label_lv1:setText(level)
+    self.LoadingBar_lv1:setPercent( curProcess*100 / maxProcess)
+    self.Label_maxLv1:setText("/"..maxLv)
+    self.Label_curExp1:setText(curProcess.. "/".. maxProcess)
 end
 
 function PlayerSetting:initHeroInfo()
@@ -647,7 +684,7 @@ function PlayerSetting:initEnergyInfo()
     self.Button_add      = TFDirector:getChildByPath(self.Panel_energy, "Button_add")
     self.Button_up      = TFDirector:getChildByPath(self.Panel_energy, "Button_up")
     self.Button_break = TFDirector:getChildByPath(self.Panel_energy, "Button_break")
-    self.Button_reback = TFDirector:getChildByPath(self.Panel_energy, "Button_reback")
+    self.Button_reback = TFDirector:getChildByPath(self.Panel_energy, "Button_reback"):hide()
     self.Image_red = TFDirector:getChildByPath(self.Button_add, "Image_red")
     self.Label_add_title = TFDirector:getChildByPath(self.Button_add, "Label_add_title")
     self.Label_up_title = TFDirector:getChildByPath(self.Button_up, "Label_up_title")
@@ -820,6 +857,7 @@ function PlayerSetting:registerEvents()
     EventMgr:addEventListener(self,EV_HERO_REFRESH_SPRIT,handler(self.spiritInfoChange, self))
     EventMgr:addEventListener(self,EV_HERO_USE_ITEM_UP_SPRIT,handler(self.onLevelUpOver, self))
     EventMgr:addEventListener(self,EV_HERO_UPGRADE_SPRIT_POINTS,handler(self.onBreakOver, self))
+    EventMgr:addEventListener(self,EV_HERO_PROPERTYCHANGE,handler(self.refreshLeft, self));
 
     local function onTextFieldChangedHandleAcc(input)
         self.inputLayer:listener(input:getText())
@@ -836,11 +874,23 @@ function PlayerSetting:registerEvents()
     self.TextField_des:addMEListener(TFTEXTFIELD_TEXTCHANGE, onTextFieldChangedHandleAcc)
 
     self.Button_dec_modify:onClick(function()
+
+        if not FunctionDataMgr:getModifyFuncIsOpen() then
+            Utils:showTips(63826)
+            return
+        end
+
         self.TextField_des:openIME()
     end)
 
     self.Button_modifyName:onClick(function()
         --改名
+        
+        if not FunctionDataMgr:getModifyFuncIsOpen() then
+            Utils:showTips(63826)
+            return
+        end
+
         local modifyNameView = require("lua.logic.playerInfo.ModifyNameView"):new()
         AlertManager:addLayer(modifyNameView)
         AlertManager:show()
@@ -902,7 +952,7 @@ function PlayerSetting:registerEvents()
         end
     end)
     local serverid = ServerDataMgr:getCurrentServerID()
-    if ( (HeitaoSdk and (HeitaoSdk.getplatformId() % 10000 == 101)) or (HeitaoSdk and HeitaoSdk.getplatformId() % 10000 == 173 ) ) and (serverid ~= 999001) then
+    if ( (HeitaoSdk and (HeitaoSdk.getplatformId() % 10000 == 101)) or (HeitaoSdk and HeitaoSdk.getplatformId() % 10000 == 173 ) or (HeitaoSdk and HeitaoSdk.getplatformId() % 10000 == 682) ) and (serverid ~= 999001) then
         self.Button_lianxi:setVisible(true);
         self.Panel_phoneBind:setVisible(true);
     else
@@ -910,7 +960,7 @@ function PlayerSetting:registerEvents()
         self.Panel_phoneBind:setVisible(false);
     end
 
-    if HeitaoSdk and (HeitaoSdk.getplatformId() % 10000 == 101 or HeitaoSdk.getplatformId() % 10000 == 173) then
+    if HeitaoSdk and (HeitaoSdk.getplatformId() % 10000 == 101 or HeitaoSdk.getplatformId() % 10000 == 173 or HeitaoSdk.getplatformId() % 10000 == 682) then
         self.Button_mima:show();
     else
         self.Button_mima:hide();

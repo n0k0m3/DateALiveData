@@ -38,6 +38,7 @@ enum.eTeamType =
     DSJ       = 3,  --大世界
     ZML       = 4,  --招募令
     ZLJH      = 5,  --追猎计划(世界Boss)
+    BOSS      = 8,  --BOSS挑战
 }
 
 
@@ -281,6 +282,7 @@ enum.eDamageAttr =
     LIGHT   = 7 ,  --光属性伤害加
     DARK    = 8 ,  --暗属性伤害加
     MIND    = 9 ,  --精神属性伤害加
+    SPACE   = 10,  --空间伤害加成
 }
 
 --buffer二级属性
@@ -427,6 +429,9 @@ ATTR_DMADD_POISON  = 606 ,  --毒素伤害加成  606 万分比，增加所造�
 ATTR_DMADD_LIGHT   = 607 ,  --光属性伤害加成 607 万分比，增加所造成的光属性伤害。
 ATTR_DMADD_DARK    = 608 ,  --暗属性伤害加成 608 万分比，增加所造成的暗属性伤害。
 ATTR_DMADD_MIND    = 609 ,  --精神伤害加成 609 万分比，增加所造成的精神属性伤害
+ATTR_DMADD_SPACE    = 610 ,  --空间伤害加成 610 万分比，增加所造成的空间属性伤害
+
+
 --Biology, machinery, spirit
 ATTR_DMADD_HERO       = 651, --伤害加成（针对角色）
 ATTR_DMADD_BIOLOGY    = 652, --伤害加成（针对生物）
@@ -456,6 +461,7 @@ ATTR_DMSUB_POISON  = 706 ,  --毒素受伤减免  706 万分比，减少所受�
 ATTR_DMSUB_LIGHT   = 707 ,  --光属性受伤减免 707 万分比，减少所受到的的光属性伤害。
 ATTR_DMSUB_DARK    = 708 ,  --暗属性受伤减免 708 万分比，减少所受到的的暗属性伤害。
 ATTR_DMSUB_MIND    = 709 ,  --精神性受伤减免 708 万分比，减少所受到的精神属性伤害。
+ATTR_DMSUB_SPACE    = 710 ,  --空间性受伤减免 710 万分比，减少所受到的空间属性伤害。
 
 
 --战斗临时属性 (skillHurt damageType)
@@ -681,6 +687,18 @@ enum.eBFETakeType =
     TT_INTERVAL       = 2 , --间隔生效
     TT_SKILL_EFFECT   = 4 , --间隔检查(特效与目标发生碰撞)
     TT_EVENT          = 3 , --事件(条件)触发生效
+    TT_CHECK_EFFECT    = 5 , --条件检查触发生效
+}
+
+--生效额外条件
+enum.eBFETakeCondition =
+{
+    TC_TARGET_FRIEND       = 1 , --友方目标（包括召唤物）
+    TC_TARGET_ENEMY        = 2 , --敌方目标（包括召唤物）
+    TC_TARGET_ALL          = 3 , --所有目标（包括召唤物）
+    TC_TARGET_FRIEND_CALL  = 4 , --友方召唤物
+    TC_TARGET_ENEMY_CALL   = 5,  --敌方召唤物
+    TC_TARGET_CALL         = 6 , --所有召唤物
 }
 
 --    effectiveWay字段配置为3时，效果为持续x次攻击。
@@ -778,6 +796,7 @@ enum.eBFEffectType =
     ET_USE_SKILL            = 12,       -- 释放技能
     ET_TIMESCALE_CHANGE     = 13,       -- 角色时间减缓
     ET_TO_FLASH_BACK        = 14,       -- 回溯
+    ET_SET_SKILL_CD         = 15,       -- 设置固定技能CD使用
 }
 
 
@@ -797,6 +816,7 @@ enum.eBFRTargetType =
     RTT_NONE       = 1 , --无参照对象
     RTT_TRIGGER    = 2 , --buff触发对象
     RTT_TARGET     = 3 , --buff作用对象
+    RTT_PROV       = 4,  --buff提供者
     RTT_EVENT_TAR  = 5 , --状态对应方
 }
 
@@ -921,13 +941,23 @@ E_STATE_56 = 56 ,--时间诅咒
 E_STATE_57 = 57 ,--
 E_STATE_58 = 58 ,--
 E_STATE_59 = 59 ,--
-E_STATE_60 = 60 ,--
+E_STATE_60 = 60 , --该状态中不被怪物追踪
 
 
 E_FORM_1     = 62 ,--处于1形态中   变身相关的状态
 E_FORM_2     = 63 ,--处于2形态中   变身相关的状态
 E_ZM_SHMY    = 64 ,--正面伤害免疫   
 
+E_STATE_70 = 70 ,--暂无使用
+E_STATE_71 = 71 ,--暂无使用
+E_STATE_72 = 72 ,--暂无使用
+E_STATE_73 = 73 ,--暂无使用
+E_STATE_74 = 74 ,--暂无使用
+E_STATE_75 = 75 ,--暂无使用
+E_STATE_76 = 76 ,--暂无使用
+E_STATE_77 = 77 ,--暂无使用
+E_STATE_78 = 78 ,--暂无使用
+E_STATE_79 = 79 ,--暂无使用
 
 E_XUAN_YUN_MY     = 101 ,--眩晕免疫
 E_DONG_JIE_MY     = 102 ,--冻结免疫
@@ -970,6 +1000,10 @@ E_SKILLTYPE_6_DISABLE = 187, --禁用6觉醒技能
 
 E_SKILLTYPE_7_DISABLE = 189, --禁用I
 
+E_SKILLTYPE_8_DISABLE = 184, --禁用H
+
+E_SKILLTYPE_10_DISABLE = 185, --禁用G额外技能
+
 E_SKILLTYPE_1_DISABLE_CD = 191, --禁用普攻和CD
 
 E_SKILLTYPE_2_DISABLE_CD = 192, --禁用2技能一和CD
@@ -983,6 +1017,11 @@ E_SKILLTYPE_5_DISABLE_CD = 198, --禁用5闪避技能和CD
 E_SKILLTYPE_6_DISABLE_CD = 197, --禁用6觉醒技能和CD
 
 E_SKILLTYPE_7_DISABLE_CD = 199, --禁用I技能和CD
+
+E_SKILLTYPE_8_DISABLE_CD = 194, --禁用H技能CD
+
+E_SKILLTYPE_10_DISABLE_CD = 195, --禁用G额外技能CD
+
 E_LOCK_HP_1  = 201, --锁血10%
 E_LOCK_HP_2  = 202, --锁血20%
 E_LOCK_HP_3  = 203, --锁血30%
@@ -1052,6 +1091,8 @@ E_EXTRA_SKILL_3_HURT   = 412, --使用特殊技能3 伤害
 E_EXTRA_SKILL_4_HURT   = 413, --使用特殊技能4 伤害 
 E_EXTRA_SKILL_5_HURT   = 414, --使用特殊技能5 伤害
 
+E_BACK_SKILL_HURT   = 421, --制造背击伤害
+
 E_EXTRA_SKILL_1_CRIT   = 510, --使用特殊技能1 暴击
 E_EXTRA_SKILL_2_CRIT   = 511, --使用特殊技能2 暴击
 E_EXTRA_SKILL_3_CRIT   = 512, --使用特殊技能3 暴击
@@ -1067,6 +1108,7 @@ E_CCJ_AIM       = 254, --发动出场技能 瞄准
 E_DZ_AIM        = 256, --发动大招 瞄准
 E_JX_AIM        = 257, --发动觉醒 瞄准
 
+E_REV_AIM       = 270, --受到通用瞄准
 
 
 E_HITED         = 300, --通用命中
@@ -1118,6 +1160,7 @@ E_REV_REAL_HURT  = 440, --受到通用真实伤害（受击减血）
 
 --通用背击
 E_REV_BACK_HURT      =481, --通用受到背击伤害
+E_MAKE_BACK_HURT      =482, --通用造成背击
 
 E_CRIT          = 500, --通用暴击
 E_PT_CRIT       = 501, --普攻暴击
@@ -1155,6 +1198,7 @@ E_DO_POISON        = 606, --制造毒属性伤害
 E_DO_LIGHT         = 607, --制造光属性伤害
 E_DO_DARK          = 608, --制造暗属性伤害
 E_DO_MIND          = 609, --制造精神伤害
+E_DO_SPACE         = 610, --制造空间伤害
 E_REV_PHYSICAL      = 651, --受到物理伤害
 E_REV_FROZEN        = 652, --受到冰属性伤害
 E_REV_FLAME         = 653, --受到火属性伤害
@@ -1164,6 +1208,7 @@ E_REV_POISON        = 656, --受到毒属性伤害
 E_REV_LIGHT         = 657, --受到光属性伤害
 E_REV_DARK          = 658, --受到暗属性伤害
 E_REV_MIND          = 659, --受到精神伤害
+E_REV_SPACE         = 660, --受到空间伤害
 
 
 }
@@ -1418,6 +1463,8 @@ enum.eEvent = {
     --追猎计划队伍状态刷新
     EVENT_STATUS_HERO              = "event_status_hero" ,--角色伤害刷新
     EVENT_STATUS_BOSS              = "event_status_boss" ,--boss血量刷新
+    EVENT_SKILL_OVER              = "event_skill_over" ,--技能释放完成
+    EVENT_WORLDROOM_LEAVE                    = "EV_LEAVE",    -- 离开
 }
 
 -- 刷怪规则

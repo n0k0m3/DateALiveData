@@ -32,6 +32,8 @@ function TeamRoomView:initUI(ui)
 
     self.Panel_team_group = TFDirector:getChildByPath(self.Panel_root, "Panel_team_group")
 
+	self.TextButton_refresh_auto_join = TFDirector:getChildByPath(self.Panel_root, "TextButton_refresh_auto_join")
+
     self:initRoomType()
 end
 
@@ -74,6 +76,8 @@ function TeamRoomView:chooseRoomType(index)
             self:updateRoomInfo(teamType)
         end
     end
+
+	self.TextButton_refresh_auto_join:setVisible(index == 3)
 end
 
 function TeamRoomView:updateRoomInfo(teamType)
@@ -137,7 +141,7 @@ function TeamRoomView:updateRoomItems(item,data)
             Panel_playerInfo:setVisible(false)
             Button_add:onClick(function()
                 dump({data.teamId,data.battleId,data.teamType})
-                TeamFightDataMgr:requestJoinTeam(data.teamId,data.battleId,data.teamType)
+                TeamFightDataMgr:requestJoinTeam(data.teamId,data.battleId,data.teamType,EC_JOINTEAM_TYPE.NORAML)
             end)
         end
     end
@@ -152,13 +156,22 @@ function TeamRoomView:updateRoomItems(item,data)
     local Label_desc1 = TFDirector:getChildByPath(item, "Label_desc1")
     local Label_desc2 = TFDirector:getChildByPath(item, "Label_desc2")
 
+    local Label_minLv = TFDirector:getChildByPath(item, "Label_minLv")
+
     Image_title2:setVisible(data.teamType ~= EC_NetTeamType.FuShi)
     Image_title:setVisible(data.teamType == EC_NetTeamType.FuShi)
     -- 1,2,3,4
+
+    local posY = data.teamType == EC_NetTeamType.FuShi and 11 or -49
+    Label_minLv:setPositionY(posY)
+
     local cfg = TeamFightDataMgr:getTeamLevelCfg(data.teamType,data.battleId)
     if not cfg then
         return
     end
+
+    local limitLv = data.level_limit or 1
+    Label_minLv:setTextById(14300310,limitLv)
 
     if data.teamType == EC_NetTeamType.FuShi then
         Label_roomName:setTextById(cfg.levelName)
@@ -208,6 +221,16 @@ function TeamRoomView:registerEvents()
         end
         TeamFightDataMgr:Send_getTeamRoomInfo(self.choosedTeamType)
     end)
+
+	self.TextButton_refresh_auto_join:onClick(function()
+		local chapterCfg = FubenDataMgr:getChapterCfg(409)
+		if MainPlayer:getPlayerLv() < chapterCfg.unlockLevel then
+			Utils:showTips(2100037, chapterCfg.unlockLevel)
+			return
+		end
+
+		Utils:openView("teamPve.TeamRoomSelectView")
+	end)
 end
 
 return TeamRoomView

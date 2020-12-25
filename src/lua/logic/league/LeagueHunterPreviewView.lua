@@ -165,7 +165,11 @@ function LeagueHunterPreviewView:registerEvents()
 			self.matchingStat = 2
 			self:refreshView()
 			local selLevelCfg = self.bossCfg
-			TeamFightDataMgr:requestCreateTeam( selLevelCfg.type , selLevelCfg.id)
+			--local callback = function(visibleType,limitLv,isAutoMatch)
+			--	TeamFightDataMgr:requestCreateTeam( selLevelCfg.type,selLevelCfg.id,visibleType,limitLv,isAutoMatch)
+			--end
+			--Utils:openView("teamFight.TeamRoomSettingView",true,selLevelCfg.type,callback
+			TeamFightDataMgr:requestCreateTeam( selLevelCfg.type,selLevelCfg.id,0,1,false)
 		end
 	end)
 

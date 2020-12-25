@@ -39,6 +39,10 @@ function Statistics.init(starCfg)
     this.score = 0    -- 击杀积分
     this.killNum = 0    -- 击杀总人数
     this.killBossNum  = 0 --击杀Boss数量
+    this.eatMonsterCount = 0  --吃到怪物道具数
+    this.conEatMonsterCount = 0  --连续吃到怪物道具数
+    this.maxEatCount = 0
+    
 
     this.controller = BattleDataMgr:getController()
 
@@ -101,6 +105,9 @@ function Statistics.clear( ... )
     this.hitIimes = 0
     -- 产生总伤害
     this.hitValue = 0
+    this.eatMonsterCount = 0
+    this.conEatMonsterCount = 0
+    this.maxEatCount = 0
 end
 
 -- 重置无尽模式数据
@@ -191,6 +198,12 @@ function Statistics.getStarRuleValue(starType,starParam)
         return this.skillDodgeCount
     elseif starType == EC_FBStarRule.NOT_USE_DODGE then --不使用闪避技能
         return this.skillDodgeCount
+    elseif starType == EC_FBStarRule.GET_MONSTER_ITEM then
+        return this.eatMonsterCount
+    elseif starType == EC_FBStarRule.GET_MONSTER_ITEM_COM then
+        return this.maxEatCount
+    elseif starType == EC_FBStarRule.PASS_LEVEL_NO_ITEM then
+        return 0
     end
 end
 
@@ -387,6 +400,16 @@ function Statistics.endlessPassEvent(levelCid, dropReward)
     this.endlessReward = Utils:mergeReward(this.endlessReward)
 end
 
+function Statistics.eatMonsterItem(hero,monster)
+    if hero:getCampType() == 1 then
+        this.eatMonsterCount = this.eatMonsterCount + 1
+        this.conEatMonsterCount = this.conEatMonsterCount + 1
+        this.maxEatCount = math.max(this.conEatMonsterCount,this.maxEatCount)
+    else
+        this.conEatMonsterCount = 0
+    end
+end
+
 --每20%进入提示一次
 function Statistics.percent20Tip(starType)
     local starInfo, index
@@ -534,6 +557,12 @@ function Statistics.getStarIsReach(index)
         isReach = tobool(this.skillDodgeCount <= starParam)
     elseif starType == EC_FBStarRule.NOT_USE_DODGE then --不使用闪避技能
         isReach = tobool(this.skillDodgeCount < 1)
+    elseif starType == EC_FBStarRule.GET_MONSTER_ITEM then
+        isReach = tobool(this.eatMonsterCount >= starParam)
+    elseif starType == EC_FBStarRule.GET_MONSTER_ITEM_COM then
+        isReach = tobool(this.maxEatCount >= starParam)
+    elseif starType == EC_FBStarRule.PASS_LEVEL_NO_ITEM then
+        isReach = tobool(this.eatMonsterCount < 1)
     end
     return isReach
 end
@@ -569,6 +598,7 @@ function Statistics.getAllCondStarType()
         EC_FBStarRule.TEAM_DEATH,
         EC_FBStarRule.SKILL_COUNT,
         EC_FBStarRule.SKILL_DODGE,
+        EC_FBStarRule.PASS_LEVEL_NO_ITEM,
     }
     -- 条件满足达成，不满足进行中
     local condRule2 = {
@@ -582,6 +612,8 @@ function Statistics.getAllCondStarType()
         EC_FBStarRule.SCORE,
         EC_FBStarRule.SCORE3,
         EC_FBStarRule.KILL_COUNT,
+        EC_FBStarRule.GET_MONSTER_ITEM,
+        EC_FBStarRule.GET_MONSTER_ITEM_COM,
     }
     -- 条件满足达成，不满足失败
     local condRule4 = {

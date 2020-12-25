@@ -71,8 +71,8 @@ function ChristmasPreView:updateBuyNum()
         return
     end
     local curPersonNum = self.activityInfo.extendData.buyCount or 0
-    self.label_des:setText(Utils:MultiLanguageStringDeal(self.activityInfo.extendData.des))
-    self.label_des_ex:setText(Utils:MultiLanguageStringDeal(self.activityInfo.extendData.des1))
+    self.label_des:setTextById(self.activityInfo.extendData.des)
+    self.label_des_ex:setTextById(self.activityInfo.extendData.des1)
     self.label_number:setTextById(270611, curPersonNum)
     local items = ActivityDataMgr2:getItems(self.activityId_)
     local maxItemId = items[#items]
@@ -152,7 +152,7 @@ function ChristmasPreView:updateSellInfo()
     if giftData.buyCount ~= 0 and giftData.buyCount - RechargeDataMgr:getBuyCount(giftData.rechargeCfg.id) <= 0 then
         isBuyPreGift = true
     end
-    --Ӣ�İ��ƶ�ͼƬ
+    --Ó¢ÎÄ°æÒÆ¶¯Í¼Æ¬
     self.Image_title:setPosition(234 , -80)
     if isSellState then
         self.Image_title:setTexture(self.path .. "t2.png")

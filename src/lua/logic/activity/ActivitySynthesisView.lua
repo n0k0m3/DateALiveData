@@ -71,7 +71,7 @@ function ActivitySynthesisView:registerEvents( )
 	self.btn_synthesis:onClick(function ( ... )
 		local num,canSythesis = self:getMaxCanSynthesisNum()
 		if self.synthesisNum > 0 and canSythesis then
-    		TFDirector:send(c2s.SPRING_FESTIVAL_REQ_COMPOSE_FIRECRACKER,{self.synthesisNum})
+    		TFDirector:send(c2s.SPRING_FESTIVAL_REQ_COMPOSE_FIRECRACKER,{self.composeCfg.id, self.synthesisNum})
     	elseif self.synthesisNum > 0 and not canSythesis then
     		Utils:showTips(13100077)
     	else

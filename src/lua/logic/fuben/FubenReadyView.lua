@@ -28,7 +28,13 @@ function FubenReadyView:ctor(levelCid,paramData)
     self.super.ctor(self)
     self:initData(levelCid,paramData)
     self:showPopAnim(true)
-    self:init("lua.uiconfig.fuben.fubenReadyView")
+
+    if self.fubenType_ == EC_FBType.HWX_FUBEN then
+        self:init("lua.uiconfig.linkageHwx.fubenReadyView")
+    else
+        self:init("lua.uiconfig.fuben.fubenReadyView")
+    end
+
 end
 
 function FubenReadyView:initUI(ui)
@@ -127,8 +133,8 @@ function FubenReadyView:initUI(ui)
     TFDirector:getChildByPath(self.Image_target_desc, "Label_targetDescTitle2"):setTextById(2108058)
 
     --创建克制icon
-    local startPos = self.Image_multiple_reward:getPosition() + ccp(220 , 0)
-    self.panel_elements = Utils:createElementPanel( self.Panel_fighting ,3 , startPos , 55 )
+    -- local startPos = self.Image_multiple_reward:getPosition() + ccp(220 , 0)
+    -- self.panel_elements = Utils:createElementPanel( self.Panel_fighting ,3 , startPos , 55 )
     
     self:refreshView()
 end
@@ -136,7 +142,7 @@ end
 function FubenReadyView:refreshView()
     local levelType = self.levelCfg_.dungeonType
     self.Panel_dating:hide()
-    if levelType == EC_FBLevelType.FIGHTING or levelType == EC_FBLevelType.THEATER_FIGHTING then
+    if levelType == EC_FBLevelType.FIGHTING or levelType == EC_FBLevelType.THEATER_FIGHTING or levelType == EC_FBLevelType.HWX then
         self.Panel_fighting:show()
         self:updateFighting()
     elseif levelType == EC_FBLevelType.DATING or levelType == EC_FBLevelType.THEATER_DATING or levelType == EC_FBLevelType.CITYDATING then
@@ -185,28 +191,54 @@ function FubenReadyView:updateFighting()
     self.Label_cond:setText(desc)
     self.Button_buyCount:setVisible(self.levelCfg_.isBuy)
 -- Box("xx:"..tostring(self.levelCfg_.superType))
-    if self.levelCfg_.levelGroupId == EC_SimulationTrialChapterType.CHAPTER_1
-    or self.levelCfg_.levelGroupId  == EC_SimulationTrialChapterType2.CHAPTER_1
-    or self.levelCfg_.levelGroupId  == EC_SimulationTrialChapterType4.CHAPTER_1
-    or self.levelCfg_.levelGroupId  == EC_SimulationTrialChapterType5.CHAPTER_1
-    or self.levelCfg_.levelGroupId  == EC_SimulationTrialChapterType3.CHAPTER_1 then 
+
+
+    if FubenDataMgr:isSimulationGroup(1,self.levelCfg_.levelGroupId) then
         self.Image_target:hide()
         self.Image_target_desc:show()
-        self.Image_target_desc.Label_plot_des:setTextById(self.levelCfg_.plotBrief) 
+        self.Image_target_desc.Label_plot_des:setTextById(self.levelCfg_.plotBrief)
+    elseif self.levelCfg_.isHideTarget then
+        self.Image_target:hide()
+        self.Image_target_desc:hide()
     else
+
+        local starResLight,starResDark
+        local isSimulation = FubenDataMgr:isSimulationGroup(2,self.levelCfg_.levelGroupId)
+        if isSimulation then
+            local simulationId = FubenDataMgr:getSelectSimulationHeroId()
+            local cfg = FubenDataMgr:getSimulationTrialCfg(simulationId)
+            if cfg then
+                starResLight,starResDark = cfg.ready.starlight,cfg.ready.stardark
+            end
+        end
+
         self.Image_target:show()
         self.Image_target_desc:hide()
         self.Label_targetTitle:setTextById(300826, TextDataMgr:getText(300836))
         for i, v in ipairs(self.Panel_target) do
             local isReach = FubenDataMgr:judgeStarIsActive(self.levelCid_, i)
             local desc = FubenDataMgr:getStarRuleDesc(self.levelCid_, i)
+
             v.Label_target:setText(desc)
             v.Label_target_gray:setText(desc)
             v.Label_target:setVisible(isReach)
             v.Label_target_gray:setVisible(not isReach)
             v.Image_star:setVisible(isReach)
             v.Image_star_gray:setVisible(not isReach)
+            if starResLight  then
+                v.Image_star:setTexture(starResLight)
+            end
+            if starResDark  then
+                v.Image_star_gray:setTexture(starResDark)
+            end
             v.Image_line:setVisible(i < #self.Panel_target)
+
+            if self.levelCfg_.dungeonType == EC_FBLevelType.HWX then
+                local starParam = self.levelCfg_.starParam[i]
+                if not starParam then
+                    v.root:hide()
+                end
+            end
         end
     end
     self.Label_remainCount:setTextById(3004031)
@@ -235,7 +267,8 @@ function FubenReadyView:updateFighting()
     local realDropCid
     local fbType = self.chapterCfg_.type
     local isFirstPass = false
-    if fbType == EC_FBType.PLOT or fbType == EC_FBType.THEATER or fbType == EC_FBType.THEATER_HARD  or fbType == EC_FBType.LINKAGE then
+    if fbType == EC_FBType.PLOT or fbType == EC_FBType.THEATER or fbType == EC_FBType.THEATER_HARD  or fbType == EC_FBType.LINKAGE
+        or fbType == EC_FBType.HWX_FUBEN then
         local name = FubenDataMgr:getLevelName(self.levelCid_)
         self.Label_name:setText(name)
         local isRandomDrop = FubenDataMgr:isPassPlotLevel(self.levelCid_)
@@ -272,16 +305,12 @@ function FubenReadyView:updateFighting()
         local txt = {350008, 350009, 350010}
         for i, v in ipairs(self.Panel_target) do
             --新模拟试炼第二章不显示
-            if self.levelCfg_.levelGroupId ~= EC_SimulationTrialChapterType.CHAPTER_2 
-            and self.levelCfg_.levelGroupId ~= EC_SimulationTrialChapterType2.CHAPTER_2 
-            and self.levelCfg_.levelGroupId ~= EC_SimulationTrialChapterType4.CHAPTER_2 
-            and self.levelCfg_.levelGroupId ~= EC_SimulationTrialChapterType5.CHAPTER_2 
-            and self.levelCfg_.levelGroupId ~= EC_SimulationTrialChapterType3.CHAPTER_2 then
+            if not FubenDataMgr:isSimulationGroup(2,self.levelCfg_.levelGroupId) then
                 v.Image_multiple:setVisible(true)
             else
                 v.Image_multiple:setVisible(false)
             end
-      
+
             v.Label_multiple:setTextById(txt[i])
         end
         local multiple = FubenDataMgr:getDailyMultiple(self.levelCfg_.levelGroupId)
@@ -290,16 +319,7 @@ function FubenReadyView:updateFighting()
             self.Label_multiple_reward:setText(multiple)
             self.Label_multiple_desc:setTextById(300957)
         end
-        if self.levelCfg_.levelGroupId == EC_SimulationTrialChapterType.CHAPTER_1
-        or self.levelCfg_.levelGroupId == EC_SimulationTrialChapterType2.CHAPTER_1 
-        or self.levelCfg_.levelGroupId == EC_SimulationTrialChapterType3.CHAPTER_1
-        or self.levelCfg_.levelGroupId == EC_SimulationTrialChapterType4.CHAPTER_1   
-        or self.levelCfg_.levelGroupId == EC_SimulationTrialChapterType5.CHAPTER_1 
-        or self.levelCfg_.levelGroupId == EC_SimulationTrialChapterType.CHAPTER_2 
-        or self.levelCfg_.levelGroupId == EC_SimulationTrialChapterType2.CHAPTER_2
-        or self.levelCfg_.levelGroupId == EC_SimulationTrialChapterType4.CHAPTER_2
-        or self.levelCfg_.levelGroupId == EC_SimulationTrialChapterType5.CHAPTER_2
-        or self.levelCfg_.levelGroupId == EC_SimulationTrialChapterType3.CHAPTER_2 then
+        if FubenDataMgr:isSimulationGroup(nil,self.levelCfg_.levelGroupId) then
             isFirstPass = not FubenDataMgr:isPassPlotLevel(self.levelCid_)
             if isFirstPass then
                 showReward  = self.levelCfg_.firstDropShow
@@ -316,7 +336,7 @@ function FubenReadyView:updateFighting()
 
     self.GridView_reward:removeAllItems()
 
-    local multipleReward, extraReward = ActivityDataMgr2:getDropReward(realDropCid)
+    local multipleReward, extraReward, allMultiple = ActivityDataMgr2:getDropReward(realDropCid)
     -- 掉落活动额外掉落
     for i, v in ipairs(extraReward) do
         local Panel_dropGoodsItem = self.GridView_reward:pushBackDefaultItem()
@@ -331,6 +351,10 @@ function FubenReadyView:updateFighting()
             flag = bit.bor(flag, EC_DropShowType.ACTIVITY_MULTIPLE)
             arg.multiple = multiple
         end
+        if allMultiple > 0 then
+            flag = bit.bor(flag, EC_DropShowType.ACTIVITY_MULTIPLE)
+            arg.multiple = allMultiple
+        end
         if isFirstPass then
             flag = bit.bor(flag, EC_DropShowType.FIRST_PASS)
         end
@@ -339,11 +363,7 @@ function FubenReadyView:updateFighting()
     end
     if #self.GridView_reward:getItems() < 1 then 
         --列表为空的时候显示已获得的首通奖励
-        if self.levelCfg_.levelGroupId == EC_SimulationTrialChapterType.CHAPTER_2 
-        or self.levelCfg_.levelGroupId == EC_SimulationTrialChapterType2.CHAPTER_2
-        or self.levelCfg_.levelGroupId == EC_SimulationTrialChapterType4.CHAPTER_2  
-        or self.levelCfg_.levelGroupId == EC_SimulationTrialChapterType5.CHAPTER_2  
-        or self.levelCfg_.levelGroupId == EC_SimulationTrialChapterType3.CHAPTER_2 then 
+        if FubenDataMgr:isSimulationGroup(2,self.levelCfg_.levelGroupId) then
             for i, v in ipairs(self.levelCfg_.firstDropShow) do
                 local arg  = {}
                 local flag = bit.bor(EC_DropShowType.FIRST_PASS, EC_DropShowType.DATING_GETED)
@@ -360,17 +380,17 @@ function FubenReadyView:updateFighting()
         end
     end
 
-    --更新克制icon
-    local levelMagic = self.levelCfg_.magicAttribute
-    for k, v in pairs(self.panel_elements) do
-        if levelMagic[k] then
-            v:show()
-            PrefabDataMgr:setInfo(v , levelMagic[k])
-        else
-            v:hide()
-        end
+    -- --更新克制icon
+    -- local levelMagic = self.levelCfg_.magicAttribute
+    -- for k, v in pairs(self.panel_elements) do
+    --     if levelMagic[k] then
+    --         v:show()
+    --         PrefabDataMgr:setInfo(v , levelMagic[k])
+    --     else
+    --         v:hide()
+    --     end
         
-    end
+    -- end
     
 end
 
@@ -449,6 +469,9 @@ function FubenReadyView:registerEvents()
             else
                 if self.fubenType_ == EC_FBType.ACTIVITY then --and self.chapterCfg_.id == EC_ActivityFubenType.SIMULATION_TRIAL then
                     Utils:openView("fuben.FubenSquadView", self.fubenType_ , self.chapterCfg_.id,self.levelCid_)
+                    AlertManager:closeLayer(self)
+                elseif self.fubenType_ == EC_FBType.HWX_FUBEN then
+                    Utils:openView("fuben.FubenSquadView", self.chapterCfg_.type , self.paramData,isDuelMod, self.challengeCount_)
                     AlertManager:closeLayer(self)
                 else
                     local view = requireNew("lua.logic.fuben.FubenSquadView"):new(self.fubenType_, self.levelCid_, isDuelMod, self.challengeCount_)

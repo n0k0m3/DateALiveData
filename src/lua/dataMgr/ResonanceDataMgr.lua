@@ -21,9 +21,20 @@ function ResonanceDataMgr:init()
     end
 
     ---基础信息
+    self.sortManaResonance = {}
     self.manaResonanceMap_ = TabDataMgr:getData("ManaResonance")
-    self.manaResonanceArray_ = {}
     for k,v in pairs(self.manaResonanceMap_) do
+        table.insert(self.sortManaResonance,v)
+    end
+    table.sort(self.sortManaResonance,function (a,b)
+        if a.quality == b.quality then
+            return a.id < b.id
+        end
+        return a.quality > b.quality
+    end)
+
+    self.manaResonanceArray_ = {}
+    for k,v in pairs(self.sortManaResonance) do
         local skillType = v.skillType
         if not self.manaResonanceArray_[skillType] then
             self.manaResonanceArray_[skillType] = {}
@@ -53,12 +64,11 @@ function ResonanceDataMgr:reset()
     self.unLockSkillMap_ = {}
 end
 
---暂时屏蔽共鸣
--- function ResonanceDataMgr:onLogin()
---     self:reset()
---     TFDirector:send(c2s.MANA_RESONANCE_REQ_ALL_MANA_INFO, {})
---     return {s2c.MANA_RESONANCE_RES_ALL_MANA_INFO}
--- end
+function ResonanceDataMgr:onLogin()
+    self:reset()
+    TFDirector:send(c2s.MANA_RESONANCE_REQ_ALL_MANA_INFO, {})
+    return {s2c.MANA_RESONANCE_RES_ALL_MANA_INFO}
+end
 
 function ResonanceDataMgr:onEnterMain()
 
@@ -86,6 +96,10 @@ end
 
 function ResonanceDataMgr:getManaResonanceArray()
     return self.manaResonanceArray_
+end
+
+function ResonanceDataMgr:getManaMenu()
+    return self.sortManaResonance
 end
 
 function ResonanceDataMgr:getManaCostData(quality,lv)

@@ -14,7 +14,7 @@ end
 function DispatchAddHeroLayer:initData(data)
     self.hangupSystem_ = TabDataMgr:getData("HangupSystem")
     self.dungeonType = data.dungeonType
-    self.dungeonCid = data.dungeonCid
+    self.dungeonCid = data.dungeonCid or 391
     self.selectedHeros = {}
     self.dispatchData = DispatchDataMgr:getDispatchs(self.dungeonType)
     self.addedHeros = {0,0,0}
@@ -161,11 +161,22 @@ function DispatchAddHeroLayer:refreshLeftUI()
                     Image_buff_icon:setGrayEnabled(true)
                     for k,suitId in ipairs(effectSuit) do
                         if fetterList[j] == suitId then
-                            Image_buff_icon:setGrayEnabled(false)
-                            flag = true
+                            local buffCfg = TabDataMgr:getData("HangupBuff",fetterList[j])
+                            if #buffCfg.fetterIcon > 0 then
+                                for m, typeId in ipairs(buffCfg.fetterIcon) do
+                                    if typeId == self.dungeonType then
+                                        Image_buff_icon:setGrayEnabled(false)
+                                        flag = true
+                                        break
+                                    end
+                                end
+                            else
+                                Image_buff_icon:setGrayEnabled(false)
+                                flag = true
+                            end
                         end
                     end
-                    if not flag then
+                    if flag then
                         local buffCfg = TabDataMgr:getData("HangupBuff",fetterList[j])
                         local state = false
                         if #buffCfg.fetterIcon > 0 then
@@ -183,16 +194,16 @@ function DispatchAddHeroLayer:refreshLeftUI()
                                 local herostar = DispatchDataMgr:getHeroStars(heroId)
                                 if self.selectedHeros[heroId] then
                                     if herostar < star then
-                                        flag = true
+                                        flag = false
                                     end
                                 else
                                     herostar = DispatchDataMgr:getHeroStars(self.selectHeroId)
                                     if self.selectHeroId ~= tonumber(heroId) or herostar < star then
-                                        flag = true
+                                        flag = false
                                     end
                                 end
                             end
-                            if not flag then
+                            if flag then
                                 local Spine_effect = SkeletonAnimation:create("effect/effect_zhihuijl/effect_zhihuijl")
                                 Image_buff_icon:addChild(Spine_effect, 0)
                                 Spine_effect:play("effect_zhihuijl1",true)
@@ -259,6 +270,15 @@ function DispatchAddHeroLayer:updateRightUI()
             foo.Label_suit_name:setTextById(tonumber(buffCfg.name))
             foo.Label_suit_desc:setTextById(tonumber(buffCfg.describe))
             local state = true
+            if #buffCfg.fetterIcon > 0 then
+                for m, typeId in ipairs(buffCfg.fetterIcon) do
+                    if typeId ~= self.dungeonType then
+                        state = false
+                    end
+                end
+            else
+                state = true
+            end
             foo.ScrollView_heros:removeAllItems()
             for k, v in pairs(buffCfg.role) do
                 local heroId = tonumber(k)
@@ -284,6 +304,7 @@ function DispatchAddHeroLayer:updateRightUI()
                 end
                 foo.ScrollView_heros:pushBackCustomItem(heroItem)
             end
+
             foo.Image_effect:setVisible(state)
         else
             foo.Panel_suit_info:hide()
@@ -453,6 +474,7 @@ function DispatchAddHeroLayer:onAddDispatchBack()
     self:sortHeroIds()
     self:refreshHeroItems()
     self:refreshLeftUI()
+    self:updateRightUI()
     self:updateDispatchBtn(true)
 end
 

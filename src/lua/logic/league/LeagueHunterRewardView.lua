@@ -24,7 +24,8 @@
 local Tips_String_ids = 
 { 
     3300019, --首通奖励提示
-    3300020  --击杀奖励提示
+    3300020,  --击杀奖励提示
+	3300052  --击杀奖励提示
 }
 
 local LeagueHunterRewardView = class("LeagueHunterRewardView",BaseLayer)
@@ -58,10 +59,12 @@ function LeagueHunterRewardView:initUI( ui )
 	self.Button_close = TFDirector:getChildByPath(ui,"Button_close")
 	self.Button_first = TFDirector:getChildByPath(ui,"Button_first")
 	self.Button_kill  = TFDirector:getChildByPath(ui,"Button_kill")
+	self.Button_hurt  = TFDirector:getChildByPath(ui,"Button_hurt")
 
 	self.tabs = {}
 	self.tabs[1]           = self.Button_first
 	self.tabs[2]           = self.Button_kill
+	self.tabs[3]		   = self.Button_hurt
 	self.label_tip         = TFDirector:getChildByPath(ui,"label_tip")
 	self.Panel_reward_Item = TFDirector:getChildByPath(ui,"Panel_reward_Item")
 	self:setSelect(1,true)
@@ -92,7 +95,7 @@ function LeagueHunterRewardView:tableCellAtIndex( table ,idx )
 
     local itemNode = cell.node
 
-	self:updateRewardItem(itemNode,self.rewardList[idx + 1],self.chooseIndex == 1 )
+	self:updateRewardItem(itemNode,self.rewardList[idx + 1],self.chooseIndex )
 
     return cell
 end
@@ -102,21 +105,38 @@ function LeagueHunterRewardView:setSelect(index,force)
         self.chooseIndex = index
         self.label_tip:setTextById(Tips_String_ids[index])
         for k , tab in ipairs(self.tabs) do
-            if k == self.chooseIndex then
-                tab:setTextureNormal("ui/new_equip/new_001.png") 
-                tab:setTouchEnabled(false)
-            else
-                tab:setTextureNormal("ui/new_equip/new_02.png")
-                tab:setTouchEnabled(true)
-            end
+			local select = tab:getChildByName("Image_select")
+			select:setVisible(k == self.chooseIndex)
+			tab:setTouchEnabled(k ~= self.chooseIndex)
         end
 		if self.chooseIndex == 1 then --首通奖励
 			self.rewardList = self:getFDAward()
-		else --击杀奖励
+		elseif self.chooseIndex == 2 then --首通奖励
 			self.rewardList = self:getPassAward()
+		elseif self.chooseIndex == 3 then --伤害奖励
+			self.rewardList = LeagueDataMgr:getHurtRewardList()
 		end
     	self.listView:reloadData()
+
+    	if index == 3 then
+	    	local awardIndex
+			for k,v in ipairs(self.rewardList) do
+				if v.status == 2 then
+					awardIndex = k
+					break
+				end
+			end
+			if awardIndex then
+				awardIndex = awardIndex < 3 and 3 or awardIndex
+				awardIndex = #self.rewardList - awardIndex + 1
+				local cellHeight = self.Panel_reward_Item:getContentSize().height
+			    local posY =  -((awardIndex-1) * cellHeight)
+			    self.listView:setContentOffset(ccp(0,posY) , 0)
+			end
+		end
+
     end
+
 end
 
 function LeagueHunterRewardView:getFDAward()
@@ -196,21 +216,27 @@ end
 
 function LeagueHunterRewardView:registerEvents()
 	self.super.registerEvents(self)
-	self.Button_first:onClick(function ( ... )
-		self:setSelect(1)
-	end)
-	self.Button_kill:onClick(function ( ... )
-		self:setSelect(2)
-	end)
+	--self.Button_first:onClick(function ( ... )
+	--	self:setSelect(1)
+	--end)
+	--self.Button_kill:onClick(function ( ... )
+	--	self:setSelect(2)
+	--end)
 	self.Button_close:onClick(function ( ... )
 		AlertManager:closeLayer(self)
 	end)
 	EventMgr:addEventListener(self, EV_HUNTER_REWARDLIST_UPDATE, function ( ... )
 		self:refreshView()
 	end)
+
+	for k,v in ipairs(self.tabs) do
+		v:onClick(function()
+			self:setSelect(k)
+		end)
+	end
 end
 
-function LeagueHunterRewardView:updateRewardItem( item ,data, isFd )
+function LeagueHunterRewardView:updateRewardItem( item ,data, chooseIndex )
 	item.dungeon = data.dungeon -- 绑定ID
 	item.Button_get        = TFDirector:getChildByPath(item,"Button_get"):hide()
 	item.Label_alreadyGet  = TFDirector:getChildByPath(item,"Label_alreadyGet"):hide()
@@ -223,14 +249,26 @@ function LeagueHunterRewardView:updateRewardItem( item ,data, isFd )
 	item.uiList_scrollView = UIListView:create(ScrollView_reward)
 	item.Label_pass        = TFDirector:getChildByPath(item,"Label_pass")
 	item.Label_level_name  = TFDirector:getChildByPath(item,"Label_level_name")
-	local bossCfg           = TabDataMgr:getData("HuntingLevel",data.dungeon)
-	item.Label_level_name:setTextById(3300028,bossCfg.bossLevel) 
-	local tb = bossCfg.dropShow
-	if isFd then
-		tb = bossCfg.firstDropShow
-		-- item.Label_pass:setTextById(14110286)
+	local bossCfg = {}
+	if chooseIndex ~= 3 then
+		bossCfg           = TabDataMgr:getData("HuntingLevel",data.dungeon)
+		item.Label_level_name:setTextById(3300028,bossCfg.bossLevel)
 	else
-		-- item.Label_pass:setTextById(14110286)
+		local value = data.value*0.01
+		value = string.format('%.2f%%',value)
+		item.Label_level_name:setText("≥"..value)
+	end
+	dump(data)
+	local tb = {}
+	if chooseIndex == 1 then
+		tb = bossCfg.firstDropShow
+		item.Label_pass:setTextById(1701611)
+	elseif chooseIndex == 2 then
+		tb = bossCfg.dropShow
+		item.Label_pass:setTextById(1701611)
+	elseif chooseIndex == 3 then
+		tb = data.award
+		item.Label_pass:setTextById(3300053)
 	end
 
 	for i, v in pairs(tb) do
@@ -238,7 +276,11 @@ function LeagueHunterRewardView:updateRewardItem( item ,data, isFd )
         local arg = {}
         local Panel_dropGoodsItem = PrefabDataMgr:getPrefab("Panel_dropGoodsItem"):clone()
     	Panel_dropGoodsItem:Scale(0.65)
-        PrefabDataMgr:setInfo(Panel_dropGoodsItem, {i,v}, flag, arg)
+    	if chooseIndex == 3 then
+    		PrefabDataMgr:setInfo(Panel_dropGoodsItem, {v.id,v.num}, flag, arg)
+    	else
+    		PrefabDataMgr:setInfo(Panel_dropGoodsItem, {i,v}, flag, arg)
+    	end
         item.uiList_scrollView:pushBackCustomItem(Panel_dropGoodsItem)
     end
 -- ,1 未满足条件,2 可领取,3 已领取
@@ -256,7 +298,8 @@ function LeagueHunterRewardView:updateRewardItem( item ,data, isFd )
     	item.Button_get:hide()
     	item.Button_get:setTouchEnabled(false)
     	item.Label_alreadyGet:hide()
-    	item.Label_notReach:show()
+    	item.Label_notReach:setVisible(chooseIndex ~= 3)
+
     else
     	item.Button_get:hide()
     	item.Button_get:setTouchEnabled(false)
@@ -266,10 +309,12 @@ function LeagueHunterRewardView:updateRewardItem( item ,data, isFd )
 
     item.Button_get:onClick(function ( ... )
     	--TODO 其他条件限制添加
-    	if isFd then
+    	if chooseIndex == 1 then
 	    	TFDirector:send(c2s.HUNTING_DUNGEON_REQ_HUNTING_FDAWARD,{data.dungeon})
-	    else
+	    elseif chooseIndex == 2 then
 	    	TFDirector:send(c2s.HUNTING_DUNGEON_REQ_HUNTING_PASS_AWARD,{data.dungeon})
+		elseif chooseIndex == 3 then
+			TFDirector:send(c2s.HUNTING_DUNGEON_REQ_HUNTING_DAMAGE_AWARD,{})
 	    end
     end)
 end

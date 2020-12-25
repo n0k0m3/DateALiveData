@@ -38,8 +38,9 @@ function DatingLetterViewNew:initUI(ui)
 
     
 
-
-    self:loadingReward()
+    if GlobalFuncDataMgr:isOpen(8) then
+        self:loadingReward()
+    end
     self:initChapterList()  
     self:updateChapterList()  
     self:loadPageView()

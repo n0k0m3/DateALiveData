@@ -51,7 +51,7 @@ function FlightKeyBoard:ctor()
         ROCKER_SCALE_Y = 0.74
     end
     self:init("lua.uiconfig.battle.flightCtrlView")
-    TFDirector:setTouchSingled(false)
+    me.Director:getEventDispatcher():setSingleEnabled(false)
 end
 
 function FlightKeyBoard:initUI(ui)
@@ -334,7 +334,7 @@ function FlightKeyBoard:removeEvents()
     self:unRegisterPKeyEvent()
     KeyStateMgr.clear()
     EventMgr:removeEventListenerByTarget(self)
-    TFDirector:setTouchSingled(true)
+    me.Director:getEventDispatcher():setSingleEnabled(true)
 end
 
 function FlightKeyBoard:doKeyPressed(keyCode)

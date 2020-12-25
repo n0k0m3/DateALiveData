@@ -944,10 +944,13 @@ function Utils:createTeamHeroModel(heroId, heroImg,_skinId,isHuntingModelPos)
         for index, particleRes in ipairs(particleEffect) do
             local particles_pos = particleEffectOffset[index]
             local particleNode  = TFParticle:create(particleRes)
-            particleNode:resetSystem()
-            particleNode:setZOrder(99)
-            particleNode:setPosition(ccp(particles_pos.x,particles_pos.y))
-            model:addChild(particleNode)
+            if particleNode then
+                particleNode:resetSystem()
+                particleNode:setZOrder(99)
+                particleNode:setPosition(ccp(particles_pos.x,particles_pos.y))
+                model:addChild(particleNode)
+            end
+
             local textAttrs = TFLabel:create()  --没暖用只是用来打断bate
             textAttrs:setText(" ")
             textAttrs:setFontColor(ccc3(0,255,0))
@@ -993,7 +996,7 @@ function Utils:getLocalDate(timestamp)
 end
 
 function Utils:getChineseNumber(number)
-    if GAME_LANGUAGE_VAR ~= "" then
+    if not ((TFLanguageMgr:getUsingLanguage() == cc.SIMPLIFIED_CHINESE) or (TFLanguageMgr:getUsingLanguage() == cc.TRADITIONAL_CHINESE)) then
         return number
     end
     local retTab = {}
@@ -1413,7 +1416,7 @@ function Utils:randomAD(showType)
                     if Utils.lastLoadingPath ~= data.res then
                         Utils.lastLoadingPath = data.res
                         if TFFileUtil:existFile(data.res) then
-                            return data.res ,data.descID
+                            return data.res , data.descID
                         end
                         return "ui/update/s1.png",data.descID
                     end
@@ -1719,18 +1722,32 @@ function Utils:sendHttpLog(flagStr, isClick)
     local osname = "WINDOWS"
 
     local url = ""
-    if CC_TARGET_PLATFORM == CC_PLATFORM_IOS then
-        url = "https://sdk-daac-en.datealive.com:9999/data?type=event_client_event_log"
-        if isClick then
-            url = "https://sdk-daac-en.datealive.com:9999/data?type=event_client_click_log"
+    if TFGlobalUtils:isConnectEnServer() then
+        if CC_TARGET_PLATFORM == CC_PLATFORM_IOS then
+            url = "https://sdk-daac-en.datealive.com:9999/data?type=event_client_event_log"
+            if isClick then
+                url = "https://sdk-daac-en.datealive.com:9999/data?type=event_client_click_log"
+            end
+        else
+            url = "http://sdk-daac-en.datealive.com:9998/data?type=event_client_event_log"
+            if isClick then
+                url = "http://sdk-daac-en.datealive.com:9998/data?type=event_client_click_log"
+            end
         end
     else
-        url = "http://sdk-daac-en.datealive.com:9998/data?type=event_client_event_log"
-        if isClick then
-            url = "http://sdk-daac-en.datealive.com:9998/data?type=event_client_click_log"
+        if CC_TARGET_PLATFORM == CC_PLATFORM_IOS then
+            url = "https://sdk-daac-ml.datealive.com:9999/data?type=event_client_event_log"
+            if isClick then
+                url = "https://sdk-daac-ml.datealive.com:9999/data?type=event_client_click_log"
+            end
+        else
+            url = "http://sdk-daac-ml.datealive.com:9998/data?type=event_client_event_log"
+            if isClick then
+                url = "http://sdk-daac-ml.datealive.com:9998/data?type=event_client_click_log"
+            end
         end
     end
-    
+
     if CC_TARGET_PLATFORM == CC_PLATFORM_IOS then
         osname = "IOS"
     elseif CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID then
@@ -2040,7 +2057,6 @@ function Utils:showTipTool(targetNode, offsetPos)
     tipTool:showAnimIn()
 end
 
-
 function Utils:getIsDayChangeBySaveData( strName )
     local playerId = MainPlayer:getPlayerId()
     local serverTime =  ServerDataMgr:customUtcTimeForServerTimestap()
@@ -2145,11 +2161,26 @@ function Utils:MultiLanguageStringDeal(content)
     mailInfo.isStrId = string.find(mailInfo.body , strTag)
     if mailInfo.isStrId then
         local strBody = string.split(mailInfo.body , strTag)
-        if GAME_LANGUAGE_VAR == EC_LanguageType.Chinese then
-            mailInfo.body = strBody[1]
-        else
-            mailInfo.body = strBody[2] or mailInfo.body
+        local idx = 1
+        local language = TFLanguageMgr:getUsingLanguage()
+        if language == cc.ENGLISH then
+            idx = 2
+        elseif language == cc.TRADITIONAL_CHINESE then
+            idx = 3
+        elseif language == cc.FRENCH then
+            idx = 4
+        elseif language == cc.GERMAN then
+            idx = 5
+        elseif language == cc.SPANISH then
+            idx = 6
+        elseif language == cc.THAI then
+            idx = 7
+        elseif language == cc.INDONESIAN then
+            idx = 8
+        elseif language == cc.KOREAN then
+            idx = 9
         end
+        mailInfo.body = strBody[idx] or mailInfo.body
     else
         local bodyStr = string.split(mailInfo.body , ',')
         if #bodyStr > 1 then

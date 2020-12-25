@@ -61,8 +61,8 @@ rawset(TFPanel, "setBackGroundImage", function ( self ,texturePath, ... )
 		_setBackGroundImage_en(self, texturePath , ...)
 		return
 	end
-	local language = GAME_LANGUAGE_VAR
-	if language ~= "" and texturePath~= "" then
+	local code = TFLanguageMgr:getUsingLanguageCode("_")
+	if code ~= "" and texturePath~= "" then
 		if LanguageResMgr ~= nil then
 			local pitctureData = LanguageResMgr:getData()
 			if pitctureData[texturePath] then
@@ -71,7 +71,7 @@ rawset(TFPanel, "setBackGroundImage", function ( self ,texturePath, ... )
 				_setBackGroundImage_en(self, texturePath,...)
 			end
 		else
-			local textureName = string.gsub(texturePath , "%." ,language..".")
+			local textureName = string.gsub(texturePath , "%." ,code..".")
 			if TFFileUtil:existFile(textureName) then
 				_setBackGroundImage_en(self, textureName , ...)
 			else

@@ -152,7 +152,7 @@ function HotMallView:updateGiftItem(item, data)
     end
 
     local Label_num = TFDirector:getChildByPath(item,"Label_num")
-    Label_num:setText(Utils:MultiLanguageStringDeal(data.name))
+    Label_num:setText(Utils:MultiLanguageStringDeal( data.name))
 
     local Label_leftTime= TFDirector:getChildByPath(item,"Label_leftTime")
     Label_leftTime:setString(data.buyCount - RechargeDataMgr:getBuyCount(data.rechargeCfg.id))
@@ -239,11 +239,11 @@ function HotMallView:updateGiftItem(item, data)
         local tagType = data.tagIcon or 0
         local buyCount = RechargeDataMgr:getBuyCount(data.rechargeCfg.id)
         if buyCount == 0 then
-            Label_title_desc:setText(data.tagDes)
-            Label_title_desc1:setText(data.tagDes)
+            Label_title_desc:setTextById(data.tagDes)
+            Label_title_desc1:setTextById(data.tagDes)
         elseif data.tagDes2 ~= "" then
-            Label_title_desc:setText(data.tagDes2)
-            Label_title_desc1:setText(data.tagDes2)
+            Label_title_desc:setTextById(data.tagDes2)
+            Label_title_desc1:setTextById(data.tagDes2)
         else
             Image_title_di:hide()
         end

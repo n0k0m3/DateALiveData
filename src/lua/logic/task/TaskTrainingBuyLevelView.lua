@@ -126,7 +126,12 @@ function TaskTrainingBuyLevelView:registerEvents()
         else
             local rstr = TextDataMgr:getTextAttr(14220066)
             local formatStr = rstr and rstr.text or ""
-            local content = string.format(formatStr, levelCost, TabDataMgr:getData("Item", EC_SItemType.DIAMOND).icon)
+            local content = ""
+            if TFLanguageMgr:getUsingLanguage() == cc.KOREAN then
+                content = string.format(formatStr, TabDataMgr:getData("Item", EC_SItemType.DIAMOND).icon, levelCost)
+            else
+                content = string.format(formatStr, levelCost, TabDataMgr:getData("Item", EC_SItemType.DIAMOND).icon)
+            end
             Utils:openView("common.ReConfirmTipsView", {tittle = 303001, content = content, reType = "TrainingLevelBuy", confirmCall = function()
                 if GoodsDataMgr:getItemCount(EC_SItemType.DIAMOND) < levelCost then
                     Utils:showAccess(EC_SItemType.DIAMOND)

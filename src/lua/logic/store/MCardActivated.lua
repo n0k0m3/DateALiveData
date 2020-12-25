@@ -81,7 +81,11 @@ function MCardActivated:registerEvents()
             --Utils:openView("store.GiftPackMainView", 2)
             AlertManager:closeLayer(self)
             EventMgr:dispatchEvent(EV_MONTHCARD_RECHARGE_SUCESS)
-			Utils:openView("supplyNew.SupplyMainNewView", 3)
+            if GlobalFuncDataMgr:isOpen(7) then
+                Utils:openView("supplyNew.SupplyMainNewView", 3)
+            else
+                Utils:openView("supplyNew.SupplyMainNewView", 2)
+            end
     end)
 end
 

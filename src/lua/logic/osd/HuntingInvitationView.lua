@@ -156,8 +156,7 @@ function HuntingInvitationView:addCardItem( idx )
         item.imageAffixs[i] = TFDirector:getChildByPath(item.imageAffixBg, "Image_affix"..tostring(i))
         item.imageAffixs[i]:hide()
     end
-   	
-   	
+    item.outTime = GoodsDataMgr:getSingleItem(item.instanceId).outTime
     local foo = {}
     foo.root = item
 
@@ -179,13 +178,17 @@ function HuntingInvitationView:updateCardItem(idx)
     item.item_bg:onClick(function()
         self.TurnView_mainScroll:scrollToItem(idx)
         self.selectDIdx = idx
-        TeamFightDataMgr:requestCreateTeam( dungenCfg.type,dungenCfg.id,item.instanceId)
+        self.itemInstanceId= item.instanceId
+        local callback = function(visibleType,limitLv,isAutoMatch)
+            TeamFightDataMgr:requestCreateTeam(dungenCfg.type,dungenCfg.id,visibleType,limitLv,isAutoMatch,self.itemInstanceId)
+        end
+        Utils:openView("teamFight.TeamRoomSettingView",true,dungenCfg.type,callback)
     end)
     item.icon:setTexture(dungenCfg.bosspic)
     item.Label_name:setTextById(dungenCfg.levelName)
     item.label_1:setTextById(dungenCfg.challangeName)
     item.label_level:setTextById(dungenCfg.LevelDesc)
-    local outTime = GoodsDataMgr:getSingleItem(item.instanceId).outTime
+    local outTime = item.outTime
     local remainTime = 0
 
     if outTime then

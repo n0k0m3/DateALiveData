@@ -112,7 +112,7 @@ function BingoDataMgr:initData()
         table.insert(self.bingoSummonPool[poolType][floor],tab)
     end
 
-    self.chipItemId = 500066
+    self.chipItemId = Utils:getKVP(46036, "showItem")
 
     self.iconRes = {
         "icon/item/goods/".."500066.png",
@@ -565,6 +565,10 @@ function BingoDataMgr:onRecvUpdateGameResult(event)
 
     EventMgr:dispatchEvent(EV_BINGOGAME_RESULT)
 
+end
+
+function BingoDataMgr:getChipGoodsId()
+    return self.chipItemId
 end
 
 return BingoDataMgr:new()

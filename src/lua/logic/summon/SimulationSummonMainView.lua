@@ -42,12 +42,15 @@ function SimulationSummonMainView:initUI(ui)
 	self.dhCount = TFDirector:getChildByPath(ui, "Label_itemCount")
 	self.dhName = TFDirector:getChildByPath(ui, "Label_itemName")
 	self.endTime = TFDirector:getChildByPath(ui, "Label_time")
+    self.endTime:setSkewX(10)
+    self.Label_time_tp = TFDirector:getChildByPath(ui, "Label_time_tp")
+    self.Label_time_tp:setSkewX(10)
 	self.Button_preview = TFDirector:getChildByPath(ui,"Button_preview")
 	self.Label_zmcs = TFDirector:getChildByPath(ui,"Label_zmcs")
 	self.Label_dhcs = TFDirector:getChildByPath(ui,"Label_dhcs")
 	self.Label_dhcst = TFDirector:getChildByPath(ui,"Label_SimulationSummonCont")
 	self.Label_zmcst = TFDirector:getChildByPath(ui,"Label_SimulationSummonCountl")
-	
+
 	self.Image_SimulationSummonsizidi = TFDirector:getChildByPath(ui,"Image_SimulationSummonsizidi")
 	self.Label_SimulationSummonsizi = TFDirector:getChildByPath(ui,"Label_SimulationSummonsizi")
 	
@@ -98,9 +101,9 @@ function SimulationSummonMainView:initUI(ui)
 	self.selectSummonCfg_ = nil
 	self.summonCfg_ = TabDataMgr:getData("Summon",11009)
 	
-	local activity = ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.ZNQ_HG)
+	local activity = ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.SIMULATION_SUMMON)
 	
-	print("=====================ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.ZNQ_HG)")
+	print("=====================ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.SIMULATION_SUMMON)")
     --self.activityId_ = activity[1]
     if #activity > 0 then
 		 self.activityId_ = activity[1]
@@ -132,9 +135,7 @@ function SimulationSummonMainView:onRecvSimulationSummon(data)
 	dump(data)
 	
 	Utils:openView("summon.SimulationSummonResultView", self.selectSummonCfg_.id, data.item or {})
-	local select = self.selectIndex_
-	self.selectIndex_ = -1
-	self:selectSummon(select)
+	self:updateView()
 end
 
 
@@ -160,9 +161,16 @@ function SimulationSummonMainView:removeEvents()
     self:removeCountDownTimer()
 end
 
+function SimulationSummonMainView:updateView()
+	local select = self.selectIndex_
+	self.selectIndex_ = -1
+	self:selectSummon(select)
+end
+
 --[[注册事件]]
 function SimulationSummonMainView:registerEvents()
-		
+
+    EventMgr:addEventListener(self, EV_SUMMON_RES_SIMULATE_SUMMON_EXCHANGE, handler(self.updateView, self))
 	EventMgr:addEventListener(self, EV_SUMMON_RES_SIMULATE_SUMMON, handler(self.onRecvSimulationSummon, self))
 	if not self.countDownTimer_ then
         self.countDownTimer_ = TFDirector:addTimer(1000, count, nil, handler(self.onCountDownPer, self))
@@ -311,6 +319,7 @@ function SimulationSummonMainView:updateSummonItem(index)
     local summonCfg = self.summonCfgs_[index]
     local foo = self.summonItems_[index]
     foo.Label_name:setTextById(summonCfg.name2)
+    foo.Label_name:setSkewX(15)
 	foo.Image_lock:setVisible(not SimulationSummonDataMgr:checkIsOpenById(summonCfg.id))
 	--foo.Image_lock:hide()
     foo.root:onClick(function()
@@ -334,6 +343,10 @@ function SimulationSummonMainView:selectSummon(index)
     self.selectSummonCfg_ = self.summonCfgs_[self.selectIndex_]
     for i, foo in pairs(self.summonItems_) do
         foo.Image_select:setVisible(i == index)
+        local color = i == index and ccc3(255,255,255) or ccc3(175,223,254)
+        foo.Label_name:setColor(color)
+        local outLineColor = i == index and ccc4(88,111,188,255) or ccc4(64,64,139,255)
+        foo.Label_name:enableOutline(outLineColor,2)
     end
 	
 	
@@ -344,7 +357,6 @@ function SimulationSummonMainView:selectSummon(index)
 			if nil ~= _cfgEquip then
 				--dump(_cfgEquip)
 				_foo.name:setTextById(_cfgEquip.name)
-				_foo.name:hide()
 				_foo.icon:setTexture(_cfgEquip.equipPaint)
 				--Utils:openView("Equipment.EquipmentInfo", {equipmentId = equipid, fromBag = true})
 				_foo.icon:onClick(function()
@@ -440,18 +452,18 @@ function SimulationSummonMainView:selectSummon(index)
 	
 	--self.endTime_ = Utils:getTimeByDate(endtime)
 	
-	if quality >= 5 then
-		self.endTime:enableStroke(ccc4(0XAF,0X67,0X26,0XFF),1)
-		self.Label_SimulationSummonMainView_1:enableStroke(ccc4(0XAF,0X67,0X26,0XFF),1)
-		self.Label_dhcst:enableStroke(ccc4(0XAF,0X67,0X26,0XFF),1)
-		self.Label_zmcst:enableStroke(ccc4(0XAF,0X67,0X26,0XFF),1)
-	else
-		self.endTime:enableStroke(ccc4(0X5F,0X2A,0XB7,0XFF),1)
-		self.Label_SimulationSummonMainView_1:enableStroke(ccc4(0X5F,0X2A,0XB7,0XFF),1)
-		self.Label_dhcst:enableStroke(ccc4(0X5F,0X2A,0XB7,0XFF),1)
-		self.Label_zmcst:enableStroke(ccc4(0X5F,0X2A,0XB7,0XFF),1)
-	end
-	
+	--if quality >= 5 then
+	--	self.endTime:enableStroke(ccc4(0XAF,0X67,0X26,0XFF),1)
+	--	self.Label_SimulationSummonMainView_1:enableStroke(ccc4(0XAF,0X67,0X26,0XFF),1)
+	--	self.Label_dhcst:enableStroke(ccc4(0XAF,0X67,0X26,0XFF),1)
+	--	self.Label_zmcst:enableStroke(ccc4(0XAF,0X67,0X26,0XFF),1)
+	--else
+	--	self.endTime:enableStroke(ccc4(0X5F,0X2A,0XB7,0XFF),1)
+	--	self.Label_SimulationSummonMainView_1:enableStroke(ccc4(0X5F,0X2A,0XB7,0XFF),1)
+	--	self.Label_dhcst:enableStroke(ccc4(0X5F,0X2A,0XB7,0XFF),1)
+	--	self.Label_zmcst:enableStroke(ccc4(0X5F,0X2A,0XB7,0XFF),1)
+	--end
+	--
 
 end
 

@@ -1,63 +1,32 @@
 
 local SimulationTrialMainView = class("SimulationTrialMainView", BaseLayer)
-
-local ResConfig = 
-{ 
-    [EC_ActivityFubenType.SIMULATION_TRIAL] = {
-        modelScale    = 1.1,
-        ui            = "lua.uiconfig.fuben.simulationTrialMainView",
-        topBarFileName  = "SimulationTrialMainView1",
-        desc_text_id  = 2110001,
-        time_string_id= 2108103,
-        heroId =110211
-    },
-    [EC_ActivityFubenType.SIMULATION_TRIAL_2] = {
-        modelScale    = 1.08,
-        ui        = "lua.uiconfig.fuben.simulationTrialMainView3",
-        topBarFileName  = "SimulationTrialMainView2",
-        desc_text_id  = 2110012,
-        time_string_id= 2108153,
-        heroId = 111411 --111301
-    },
-    [EC_ActivityFubenType.SIMULATION_TRIAL_3] = {
-        modelScale    = 1.08,
-        ui        = "lua.uiconfig.fuben.simulationTrialMainView2",
-        topBarFileName  = "SimulationTrialMainView3",
-        desc_text_id  = 2110013,
-        time_string_id= 2108153,
-        heroId = 111511 --111401
-    },
-    [EC_ActivityFubenType.SIMULATION_TRIAL_4] = {
-        modelScale    = 1.08,
-        ui        = "lua.uiconfig.fuben.simulationTrialMainView4",
-        topBarFileName  = "SimulationTrialMainView4", 
-        desc_text_id  = 2110014,
-        time_string_id= 2108193,
-        heroId = 110113 
-    },
-    [EC_ActivityFubenType.SIMULATION_TRIAL_5] = {
-        modelScale    = 1.08,
-        ui        = "lua.uiconfig.fuben.simulationTrialMainView5",
-        topBarFileName  = "SimulationTrialMainView5", 
-        desc_text_id  = 2110015,
-        time_string_id= 2108220,
-        heroId = 110414
-    }
-}
-
 function SimulationTrialMainView:initData(chapterId)
     dump(chapterId)
 
-    self.resConfig = ResConfig[chapterId]
-    self.heroId    = self.resConfig.heroId     -- FubenDataMgr:getSimulationTrialMainHeroId()
-    self.topBarFileName = self.resConfig.topBarFileName
+    self.heroId,self.resConfig = self:getResConfig(chapterId)--ResConfig[chapterId]
+    -- FubenDataMgr:getSimulationTrialMainHeroId()
+    dump(self.resConfig)
+    self.topBarFileName = self.resConfig.topHelp
     FubenDataMgr:setSelectSimulationHeroId(self.heroId)
+    --Box("SimulationTrialMainView")
+end
+
+function SimulationTrialMainView:getResConfig(chapterId)
+    local heroId,cfgData
+    local cfg = TabDataMgr:getData("SimulationTrialHigh")
+    for k,v in pairs(cfg) do
+        if v.main.chapterId == chapterId then
+            heroId,cfgData = k,v.main
+            break
+        end
+    end
+    return heroId,cfgData
 end
 
 function SimulationTrialMainView:ctor(...)
     self.super.ctor(self)
     self:initData(...)
-    self:init(self.resConfig.ui)
+    self:init("lua.uiconfig."..self.resConfig.ui)
 end
 
 function SimulationTrialMainView:initUI(ui)
@@ -73,11 +42,11 @@ function SimulationTrialMainView:initUI(ui)
     self.Button_strategy     = TFDirector:getChildByPath(self.Panel_root  , "Button_strategy")
     self.Button_strategy.Image_redpoint    = TFDirector:getChildByPath(self.Button_strategy  , "Image_redpoint"):hide()
     self.Label_desc          = TFDirector:getChildByPath(self.Panel_root  , "Label_desc")
-    self.Label_desc:setTextById(self.resConfig.desc_text_id)
+    self.Label_desc:setTextById(self.resConfig.desc)
     self.Label_desc:setSkewX(8)
     self.Label_time          = TFDirector:getChildByPath(self.Panel_root  , "Label_time")
     self.Label_time:setSkewX(8)        
-    self.Label_time:setTextById(self.resConfig.time_string_id)
+    self.Label_time:setTextById(self.resConfig.timeStr)
     Utils:createHeroModel(self.heroId, self.Image_role,self.resConfig.modelScale)
     --召唤红点
     -- self:onRedPointUpdateSummon()
@@ -124,12 +93,15 @@ function SimulationTrialMainView:onRedPointUpdateSimulationTrialLevel()
     end
     local isShow = false
     --
-    local tasks = FubenDataMgr:getSimulationTrialInfo().tasks
-    if tasks then 
-        for i,v in ipairs(tasks) do
-            if v.status == 2 then 
-                isShow = true
-                break
+    local infos = FubenDataMgr:getSimulationTrialInfo().info_
+
+    if infos then 
+        for i,v in pairs(infos) do
+            for u,k in ipairs(v.tasks) do
+                if k.status == 2 then 
+                    isShow = true
+                    break
+                end
             end
         end
     end

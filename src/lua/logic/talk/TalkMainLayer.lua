@@ -331,7 +331,7 @@ function TalkMainLayer:updateTalkPanel(talk_panel,cfg)
 	local textArea = talk_panel:getChildByName("TextArea_talk")
 	textArea:setPosition(talkBGCfg.textPos)
 	textArea:setRotation(talkBGCfg.textRotation)
-	if GAME_LANGUAGE_VAR == "" then
+	if (TFLanguageMgr:getUsingLanguage() == cc.SIMPLIFIED_CHINESE) or (TFLanguageMgr:getUsingLanguage() == cc.TRADITIONAL_CHINESE) then
 		textArea:setFontSize(talkBGCfg.textFontSize)
 		textArea:setTextAreaSize(talkBGCfg.textAreaSize)
 	else
@@ -398,7 +398,7 @@ function TalkMainLayer:updateContent(textArea,cfg)
 		textInfo[#textInfo + 1] = tmtextCfg
 	end
 	--英文版断行规则关闭 正常断词
-	if GAME_LANGUAGE_VAR ~= "" then
+	if not ((TFLanguageMgr:getUsingLanguage() == cc.SIMPLIFIED_CHINESE) or (TFLanguageMgr:getUsingLanguage() == cc.TRADITIONAL_CHINESE)) then
 		textArea:setLineBreakWithoutSpace(false)
 	else
 		textArea:setLineBreakWithoutSpace(true)

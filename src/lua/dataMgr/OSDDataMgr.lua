@@ -10,24 +10,6 @@ local OSDDataMgr = class("OSDDataMgr", BaseDataMgr)
 
 function OSDDataMgr:init()
 	self:initData()
-	--大世界服信息
-	TFDirector:addProto(s2c.NEW_WORLD_RES_PRE_ENTER_NEW_WORLD, self, self.onRevPreEnterNewWord ,false)
-	--进入大世界
-	TFDirector:addProto(s2c.NEW_WORLD_RES_ENTER_NEW_WORLD, self, self.onRevEnterNewWord,false)
-	--玩家位置同步
-	TFDirector:addProto(s2c.NEW_WORLD_SYNC_AREA_PLAYER_POS, self, self.onRevSyncAreaPlayerPos,false)
-	--玩家换装
-	TFDirector:addProto(s2c.NEW_WORLD_RES_CHANGE_APPEARANCE,self,self.onRevChangeAppearance,false)
-	--玩家进入大世界
-	TFDirector:addProto(s2c.NEW_WORLD_RES_AREA_PLAYER_ENTER,self,self.onRevAreaPlyerEnter,false)
-	--玩家离开场景
-	TFDirector:addProto(s2c.NEW_WORLD_RES_AREA_PLAYER_LEAVE, self, self.onRevAreaPlayerLeave,false)
-	--聊天消息
-	TFDirector:addProto(s2c.NEW_WORLD_RES_NEW_WORLD_CHAT, self, self.onRevChatInfo)
-	--切换房间
-	TFDirector:addProto(s2c.NEW_WORLD_RES_CHANGE_NEW_WORLD_ROOM, self, self.onRevChangeRoom)
-	--切换房间
-	TFDirector:addProto(s2c.NEW_WORLD_RES_ENTER_UNION_ROOM, self, self.onRevChangeRoom)
 	--副本数据
 	TFDirector:addProto(s2c.NEW_WORLD_RES_NEW_WORLD_MISSION_INFO, self, self.onRecvNewWorldMissionInfo)
 	--上次未完成组队战结果
@@ -126,7 +108,7 @@ function OSDDataMgr:transData(data,heroType)
 end
 
 function OSDDataMgr:getRoomID()
-	return self.serverInfo.roomID or 1
+	return self.serverInfo.roomID or "1"
 end
 
 function OSDDataMgr:getMaxRoomID()
@@ -152,27 +134,6 @@ function OSDDataMgr:onEnterMain()
 end
 
 ----------------------------
-
---连接到大世界服务器
-function OSDDataMgr:connectServer()
-	OSDConnector:connect(self.serverInfo)
-end
-
-function OSDDataMgr:closeConnection()
-	OSDConnector:close()
-end
---连接大世界服务器成功
-function OSDDataMgr:onConnected()
-	print("连接成功请求计入大世界")
-	self:sendEnterNewWord()
-end
-
---连击大世界服务器失败
-function OSDDataMgr:onConnectError()
-	print("连接大世界服务器失败")
-	EventMgr:dispatchEvent(EV_OSD.EV_LEAVE)
-end
-
 
 
 
@@ -310,7 +271,7 @@ function OSDDataMgr:onRevEnterNewWord(event)
 	local mainHero = OSDControl:getMainHero()
 	if mainHero then 
 		local pos = mainHero:getPosition()
-		self:sendPositionChange(pos,1)
+		WorldRoomDataMgr:sendPositionChange(pos,1)
 	end
 
 end
@@ -486,19 +447,7 @@ function OSDDataMgr:sendChatInfo(content)
 end
 --请求大世界游戏服的信息(游戏服)
 function OSDDataMgr:sendPreEnterNewWord()
-	TFDirector:send(c2s.NEW_WORLD_REQ_PRE_ENTER_NEW_WORLD,{})
-end
-
---请求进入大世界
-function OSDDataMgr:sendEnterNewWord()
-	local content = 
-	{
-		self:getRoomID(),
-		MainPlayer:getPlayerId()
-	}
-	OSDConnector:send(c2s.NEW_WORLD_REQ_ENTER_NEW_WORLD,content)
-	--设置正式秘钥
-	OSDConnector:setEncodeKeys(OSDConnector.EncodeKeys)
+	TFDirector:send(c2s.NEW_WORLD_REQ_PRE_ENTER_NEW_WORLD,{WorldRoomType.OSD_WORLD})
 end
 
 --请求换装(向游戏服发送)
@@ -522,21 +471,14 @@ end
 --请求切换房间
 function OSDDataMgr:sendChangeRoom(roomId)
 	print("--------------sendChangeRoom------------------",roomId)
-	local content = {roomId}
+	local content = {roomId, WorldRoomType.OSD_WORLD}
 	TFDirector:send(c2s.NEW_WORLD_REQ_CHANGE_NEW_WORLD_ROOM,content)
 end
 
 --请求进入帮会房间
 function OSDDataMgr:sendChangeRoomToUnion()
-	local content = {}
+	local content = {WorldRoomType.OSD_UNION}
 	TFDirector:send(c2s.NEW_WORLD_REQ_ENTER_UNION_ROOM,content)
-end
-
---发送角色移动消息
-function OSDDataMgr:sendPositionChange(pos,dir)
-	local content = { math.floor(pos.x) , math.floor(pos.y) ,math.floor(dir)}
-	-- print("OSDDataMgr:sendPositionChange" ,content)
-	OSDConnector:send(c2s.NEW_WORLD_REQ_POSITION_CHANGE,content)
 end
 
 --请求关卡数据
@@ -596,6 +538,18 @@ function OSDDataMgr:getDungeonFightCount( dungeonId )
 		end
 	end
 	return count
+end
+
+--请求进入大世界
+function OSDDataMgr:sendEnterNewWord()
+	local content = 
+	{
+		self:getRoomID(),
+		MainPlayer:getPlayerId()
+	}
+	OSDConnector:send(c2s.NEW_WORLD_REQ_ENTER_NEW_WORLD,content)
+	--设置正式秘钥
+	OSDConnector:setEncodeKeys(OSDConnector.EncodeKeys)
 end
 
 function OSDDataMgr:sendEnterHuntingInvitation(  ) --上次组队战结果

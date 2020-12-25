@@ -25,7 +25,7 @@ function DfwAutumnTaskView:initUI(ui)
 
     self.Button_refresh = TFDirector:getChildByPath(self.Panel_root, "Button_refresh")
     self.Label_refresh = TFDirector:getChildByPath(self.Button_refresh, "Label_refresh")
-    self.Label_tip_time =TFDirector:getChildByPath(self.Button_refresh, "Label_tip_time")
+    self.Label_tip_time =TFDirector:getChildByPath(self.Panel_root, "Label_tip_time")
     self.Image_cost = TFDirector:getChildByPath(self.Panel_root, "Image_cost")
     self.Image_cost_icon = TFDirector:getChildByPath(self.Image_cost, "Image_cost_icon")
     self.Label_cost_num = TFDirector:getChildByPath(self.Image_cost, "Label_cost_num")
@@ -136,14 +136,13 @@ function DfwAutumnTaskView:updateRefreshInfo()
     --self.Button_refresh:setTouchEnabled(not outOfTime)
 
     self.Image_cost:setVisible(not outOfTime)
-    -- self.Label_tip_time:setVisible(outOfTime)
+    -- self.Label_tip_time:setVisible(not outOfTime)
 
     self.Image_cost_icon:setTexture(itemCfg.icon)
     local refreshCostNum = outOfTime and 0 or self.storeCfg_.refreshCostNum[count]
     self.Label_cost_num:setText(refreshCostNum)
 
     if self.Label_refresh then
-        self.Label_refresh:setVisible(outOfTime)
         local strId = outOfTime and 303041 or 100000131
         self.Label_refresh:setTextById(strId)
     end

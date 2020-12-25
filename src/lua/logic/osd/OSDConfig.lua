@@ -24,7 +24,7 @@
 
 local OSDConfig = {}
 
-OSDConfig.SYN_POS_TIME = 1  		 --位置同步信息发送间隔(单位s)
+OSDConfig.SYN_POS_TIME = 0.1  		 --位置同步信息发送间隔(单位s)
 
 OSDConfig.SHOW_OTHER_PLAYER = true	 --是否显示其他同屏玩家	
 

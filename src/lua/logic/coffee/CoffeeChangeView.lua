@@ -92,6 +92,8 @@ function CoffeeChangeView:refreshView()
 
     self:selectRule(self.defaultSelectRuleIndex_)
     self:updateWorkingMaid()
+    self:selectMaid(self.selectMaidIndex_ or 1)
+    self:selectWorkingMaid(self.selectWorkingIndex_ or 1)
 end
 
 function CoffeeChangeView:registerEvents()
@@ -137,7 +139,7 @@ function CoffeeChangeView:selectRule(index)
     -- self.notHaveMaid_ = {}
 
     self.maidData_ = {}
-    table.insertTo(self.maidData_, self.workingMaid_)
+    -- table.insertTo(self.maidData_, self.workingMaid_)
 
     if index == 1 then
         local fettersMaid = {}
@@ -210,12 +212,13 @@ function CoffeeChangeView:selectRule(index)
 end
 
 function CoffeeChangeView:selectWorkingMaid(index)
-    if self.selectWorkingIndex_ == index then return end
+    if nil == index then return end
     self.selectWorkingIndex_ = index
 
     for i, v in ipairs(self.Button_elf) do
         v.Image_select:setVisible(i == index)
     end
+    self.infoView_:updateInfo(self.workingMaid_[index])
 end
 
 function CoffeeChangeView:selectMaid(index)
@@ -268,13 +271,21 @@ function CoffeeChangeView:updateWorkingMaid()
 
         v.root:onClick(function()
                 self:selectWorkingMaid(i)
-                self:selectMaid(i)
         end)
     end
+    self:selectWorkingMaid(self.selectWorkingIndex_)
 end
 
 function CoffeeChangeView:updateAllElfItems()
     -- local count = #self.workingMaid_ + #self.noWorkingMaid_ + #self.notHaveMaid_
+    for i, v1 in ipairs(self.maidData_) do
+        for j, v2 in ipairs(self.workingMaid_) do
+            if v1 == v2 then
+                table.remove(self.maidData_, i)
+            end
+        end
+    end
+
     local items = self.ListView_elf:getItems()
     local gap = #self.maidData_ - #items
     for i = 1, math.abs(gap) do
@@ -327,25 +338,21 @@ function CoffeeChangeView:updateAllElfItems()
         end
 
         foo.Button_elf:onClick(function()
-                if isWorking then
-                    self:selectWorkingMaid(i)
-                end
                 self:selectMaid(i)
         end)
     end
 
-    local selectMaidIndex = self.defaultSelectMaidIndex_
-    if self.selectMaidIndex_ then
-        if self.selectMaidIndex_ <= #self.maidData_ then
-            selectMaidIndex = self.selectMaidIndex_
-        end
-    end
-    self:selectMaid(selectMaidIndex)
-    local selectWorkingIndex = selectMaidIndex
-    if selectWorkingIndex > #self.workingMaid_ then
-        selectWorkingIndex = self.selectWorkingIndex_ or 1
-    end
-    self:selectWorkingMaid(selectWorkingIndex)
+    -- local selectMaidIndex = self.defaultSelectMaidIndex_
+    -- if self.selectMaidIndex_ then
+    --     if self.selectMaidIndex_ <= #self.maidData_ then
+    --         selectMaidIndex = self.selectMaidIndex_
+    --     end
+    -- end
+    -- self:selectMaid(selectMaidIndex)
+    -- local selectWorkingIndex = selectMaidIndex
+    -- if selectWorkingIndex > #self.workingMaid_ then
+    --     selectWorkingIndex = self.selectWorkingIndex_ or 1
+    -- end
 end
 
 function CoffeeChangeView:getSelectMaidId(index)
@@ -389,7 +396,7 @@ end
 
 function CoffeeChangeView:onMaidInfoUpdateEvent()
     self:selectRule(self.selectRuleIndex_)
-    self:updateWorkingMaid()
+    -- self:updateWorkingMaid()
 end
 
 return CoffeeChangeView

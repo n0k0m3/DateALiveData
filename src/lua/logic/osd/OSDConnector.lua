@@ -19,6 +19,8 @@ end
 function OSDConnector:close()
 	self.bConnected      = false
     self.nReconnectTimes = 0
+    self.nlimitConnect = nil
+    self.nHeartBeatDeal = nil
     self:stopHeartBeatTimer()
     if self.client then 
         self.client:CloseSocket(true)
@@ -34,7 +36,8 @@ function OSDConnector:isConnected()
 end
 --重连
 function OSDConnector:reconnect()
-    if self.nReconnectTimes < MAX_RECONNECT_TIMES*self.ipArray:length() then
+    local limitCount = self.nlimitConnect or MAX_RECONNECT_TIMES
+    if self.nReconnectTimes < limitCount then
         self.nReconnectTimes = self.nReconnectTimes + 1
         print("重连第"..tostring(self.nReconnectTimes).."次")
         self:connect()
@@ -60,7 +63,8 @@ end
 --启动心跳定时器
 function OSDConnector:startHeartBeatTimer()
     if self.heartbeatTimer == nil then
-        self.heartbeatTimer = TFDirector:addTimer(3000,-1,nil,function()
+        local dt = 3000
+        self.heartbeatTimer = TFDirector:addTimer(dt,-1,nil,function()
             OSDConnector:sendHeartbeat()
         end)
     end
@@ -97,14 +101,14 @@ local function onConnected(nResult)
 
         self:setEncodeKeys(OSDConnector.InitialKeys)
          print("OSDServer onConnected ")
-        OSDDataMgr:onConnected()
+        WorldRoomDataMgr:onConnected()
         self:startHeartBeatTimer()
 
     elseif nResult == -1 or nResult == -2 then
         self.bConnected      = false
         if not self:reconnect() then
             print("OSDServer onConnectError 22")
-            OSDDataMgr:onConnectError()
+            WorldRoomDataMgr:onConnectError()
             OSDConnector.showTips(240037)
         end
     end
@@ -116,7 +120,7 @@ local function onConnectError()
     self:stopHeartBeatTimer()
     print("OSDServer onConnectError 11")
     self.bConnected = false
-    OSDDataMgr:onConnectError()
+    WorldRoomDataMgr:onConnectError()
     OSDConnector.showTips(240037) --TODO 这个提示可能需要更换
 end
 
@@ -139,6 +143,13 @@ function OSDConnector:connect(serverInfo)
     end
 
     print("connect OSDServer host:",self.serverInfo.host,"port:",self.serverInfo.port)
+
+    self.ipArray:clear()
+    local split = string.split(tostring(self.serverInfo.host), ",")
+    for _,_ip in ipairs(split) do
+        self.ipArray:push(_ip)
+    end
+
     if self:isConnected() then
         return
     end
@@ -171,7 +182,9 @@ function OSDConnector:connect(serverInfo)
     end
     if HeitaoSdk and time <= 1 then
         --TODO CLOSE
-        --HeitaoSdk.reportNetworkData(connectIp)
+        if tonumber(TFDeviceInfo:getCurAppVersion()) >= 1.15 and CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID then
+            HeitaoSdk.reportNetworkData(connectIp)
+        end
     end
 end
 
@@ -184,11 +197,20 @@ end
 --发送消息
 function OSDConnector:send(nCode,tMsg,rsa)
     if self.bConnected then
-        -- print("OSDConnector send::::::::::::",nCode,tMsg)
         return self.client:Send(nCode,tMsg,rsa)
-    else
-        print("OSDConnector not connect")
+    elseif WorldRoomDataMgr:getRoomType() == 3 or WorldRoomDataMgr:getRoomType() == 4 then
+        Utils:showTips(13202023)
     end
+end
+
+function OSDConnector:setReconnectCount( count )
+    -- body
+    self.nlimitConnect = count
+end
+
+function OSDConnector:setHeartBeatDeal( dt )
+    -- body
+    self.nHeartBeatDeal = dt
 end
 
 OSDConnector:init()

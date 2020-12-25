@@ -33,7 +33,14 @@ function CelebrationLuckyTipView:refreshView()
 
     local prizeId,turnNo = OneYearDataMgr:getPrizeId()
     local award,prizeType,luckyTurnIndex = OneYearDataMgr:getRewardsByPrizeId(prizeId)
-    local str = prizeType == 1 and TextDataMgr:getText(63593) or TextDataMgr:getText(63594)
+    local str
+    if prizeType == 1 then
+        str = TextDataMgr:getText(63593)
+    elseif prizeType == 2 then
+        str = TextDataMgr:getText(63594)
+    else
+        str = TextDataMgr:getText(267009)
+    end
     self.Label_message:setTextById(63604,str)
 end
 

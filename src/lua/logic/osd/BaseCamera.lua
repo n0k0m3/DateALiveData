@@ -43,6 +43,7 @@ function BaseCamera:ctor( initPos)
     self.fixDuration = 0
     self.nDir = nil
     self.nSlow = 0.1
+    self.nSlowDel = 0.001
     self.isInit = false
     self._initPos = initPos or ccp(300,300)
 end
@@ -68,7 +69,7 @@ function BaseCamera:createCamera(cameraFlag, depth, name)
     local size = self.size
     local center = me.Vertex3F(size.width * 0.5, size.height * 0.5, 0)
     local up = me.Vertex3F(0, 1.0, 0)
-    local camera = Camera:createPerspective(60, size.width / size.height, 10, self.zeye + size.height * 2)
+    local camera = Camera:createPerspective(60, size.width / size.height, 10, self.zeye + size.height * 4)
     camera:lookAt(center, up)
     camera:setCameraFlag(cameraFlag)
     -- camera:setDepth(depth)
@@ -118,16 +119,29 @@ function BaseCamera:calcPos3D(focusNode)
     local position3D = me.Vertex3F(nowPos.x, nowPos.y + 50 , self.zeye * 0.85)
     --计算黄金分割线
     local dir = focusNode:getDir()
+    local rate = 0.1 - self.nSlowDel
+    rate = math.max(0,rate)
+    rate = math.min(0.1,rate)
     if dir == eDir.LEFT then
-        position3D.x = position3D.x - self.size.width * 0.1 
+        position3D.x = position3D.x - self.size.width * rate 
     else
-        position3D.x = position3D.x + self.size.width * 0.1 
+        position3D.x = position3D.x + self.size.width * rate
     end
     if dir ~= self.nDir then
         self.nDir = dir
         self.nSlow = 0
     end
     return position3D
+end
+
+function BaseCamera:setFixZ( fixZ )
+    -- body
+    self.fixZ = fixZ
+end
+
+function BaseCamera:setSlowMoveDel( dt )
+    -- body
+    self.nSlowDel = dt
 end
 
 function BaseCamera:checkPos3d(focusNode, range)
@@ -164,7 +178,7 @@ function BaseCamera:slowMove(pos3D)
     local oldPos = self:getPosition3D()
     if oldPos then
         if self.nSlow  < 0.1 then
-            self.nSlow = self.nSlow + 0.001
+            self.nSlow = self.nSlow + self.nSlowDel
         end
         pos3D.x = oldPos.x + self:offset(pos3D.x, oldPos.x) 
         pos3D.y = oldPos.y + self:offset(pos3D.y, oldPos.y) 

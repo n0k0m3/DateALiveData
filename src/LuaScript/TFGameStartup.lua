@@ -7,30 +7,15 @@
 
 CCLog_setDebugFileEnabled(0)
 
--- 测试版本 true为调试版本  false为发布版本
-VERSION_DEBUG = false
 
---是否打开日志
-DEBUG_LOG = false
-
---体验服标识
-EXPERIENCE = false
-
---GM模式
-GM_MODE = false;
-
-
-MD5_DEBUG = false
-
-if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID  and HeitaoSdk and (tonumber(HeitaoSdk.getplatformId()) == 3 or tonumber(HeitaoSdk.getplatformId()) == 4 or tonumber(HeitaoSdk.getplatformId()) == 5 or tonumber(HeitaoSdk.getplatformId()) == 6)) then
-     EX_ASSETS_ENABLE = true
+--谷歌obb 1， iOS 2， 官网3， 亚马逊4，谷歌小包5，华为6
+EX_ASSETS_ENABLE = false
+if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID  and HeitaoSdk and tonumber(HeitaoSdk.getplatformId()) >= 3) then
+    EX_ASSETS_ENABLE = true
 end
 
 -- 如果是模拟器则直接打开调试模式
-if CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 then
-    VERSION_DEBUG = true
-    DEBUG_LOG = true
-else
+if not CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 then
     --非win32下只做日志输出
     Box = function( ... )
         print(...)
@@ -64,47 +49,7 @@ if DEBUG_LOG == false then
     end
 end
 
-VersionPaths = {}
-FilePaths    = {}
 CDN_INDEX    = 0;
--- 外网更新地址
--- if VERSION_DEBUG == true then
---     -- -- --本地
---     VersionPaths[1] = "http://cdn.datealive.com/dal/test/"
---     FilePaths[1]    = "http://cdn.datealive.com/dal/test/"
---     VersionPaths[2] = "http://c.dal.heitao2014.com/dal/test/"
---     FilePaths[2]    = "http://c.dal.heitao2014.com//dal/test/"
--- elseif CC_TARGET_PLATFORM == CC_PLATFORM_IOS then
---     VersionPaths[1] = "https://cdn.datealive.com/dal/release_ios/"
---     FilePaths[1]    = "https://cdn.datealive.com/dal/release_ios/"
---     VersionPaths[2] = "https://c.dal.heitao2014.com/dal/release_ios/"
---     FilePaths[2]    = "https://c.dal.heitao2014.com/dal/release_ios/"
--- elseif CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID then
---     VersionPaths[1] = "http://cdn.datealive.com/dal/release_android/"
---     FilePaths[1]    = "http://cdn.datealive.com/dal/release_android/"
---     VersionPaths[2] = "http://c.dal.heitao2014.com/dal/release_android/"
---     FilePaths[2]    = "http://c.dal.heitao2014.com/dal/release_android/"
--- end
-
-
-
-if VERSION_DEBUG == true then
-    -- -- --本地
-    VersionPaths[1] = "http://128.14.236.150/dal/test/"
-    FilePaths[1]    = "http://128.14.236.150/dal/test/"
-elseif CC_TARGET_PLATFORM == CC_PLATFORM_IOS then
-    VersionPaths[1] = "https://c-en.datealive.com/dal_eng/release_ios/"
-    FilePaths[1]    = "https://c-en.datealive.com/dal_eng/release_ios/"
-    VersionPaths[2] = "https://c-dal-en.heitaoglobal.com/dal_eng/release_ios/"
-    FilePaths[2]    = "https://c-dal-en.heitaoglobal.com/dal_eng/release_ios/"
-elseif CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID then
-    VersionPaths[1] = "http://c-en.datealive.com/dal_eng/release_android/"
-    FilePaths[1]    = "http://c-en.datealive.com/dal_eng/release_android/"
-    VersionPaths[2] = "http://c-dal-en.heitaoglobal.com/dal_eng/release_android/"
-    FilePaths[2]    = "http://c-dal-en.heitaoglobal.com/dal_eng/release_android/"
-end
-
-
 local __addMEListener = CCNode.addMEListener
 local function addMEListener(sender, nType, handle, clickEffectType)
     local self = sender
@@ -265,6 +210,7 @@ function TFGameStartup:run(strrest)
     else
         print("---TFGameStartup:run 有最新的资源更新功能")
     end
+    print("{英语(en)，法语(fr)，德语(de)，西班牙语(es)，泰语(th)，印尼语(id)，韩语(ko)，简体中文(zn)，繁体中文(zh)} using language = " ..tostring(TFLanguageMgr:getUsingLanguage())  .. " code= " ..tostring(TFLanguageMgr:getUsingLanguageCode()))
 
     -- SCREEN_ORIENTATION_PORTRAIT --竖屏
     -- SCREEN_ORIENTATION_LANDSCAPE --横屏
@@ -459,7 +405,7 @@ function TFGameStartup:initSDK()
                 end)
             else
                 print("检测资源更新1")
-                require('lua.table.TFMapArray')
+                TFGlobalUtils:requireGlobalFile("lua.table.TFMapArray")
                 LoadingLayer        = require("lua.logic.common.AudioFun")
                 AlertManager        = require('lua.public.AlertManager')
                 Public              = require("lua.public.Public")
@@ -506,6 +452,7 @@ function TFGameStartup:loadGameInitFile( func, loadBasedata )
     self.func = func
 
     local szGameInitFile = {
+        "lua.UtilHelper",
         "lua.gameinit",
         "lua.gameinitPart1",
         "lua.gameinitPart2",
@@ -513,9 +460,10 @@ function TFGameStartup:loadGameInitFile( func, loadBasedata )
     local addCount = 3
     if loadBasedata then
         szGameInitFile = nil
-        szGameInitFile = {"lua.gameinit"};
+        szGameInitFile = {"lua.UtilHelper","lua.gameinit"};
         addCount = 1
         require(szGameInitFile[1])
+        require(szGameInitFile[2])
 
         if func then
             func()
@@ -523,7 +471,7 @@ function TFGameStartup:loadGameInitFile( func, loadBasedata )
     else
         require(szGameInitFile[1])
         require(szGameInitFile[2])
-        --require(szGameInitFile[3])
+        require(szGameInitFile[3])
     end
 end
 return TFGameStartup

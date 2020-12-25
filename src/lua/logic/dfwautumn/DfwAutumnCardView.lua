@@ -2,7 +2,40 @@
 local DfwAutumnCardView = class("DfwAutumnCardView", BaseLayer)
 
 function DfwAutumnCardView:initData()
-    self.buffData_ = DfwDataMgr:getChessesBuff()
+    local buffCfgs = DfwDataMgr:getChessesBuff()
+    self.buffData_ = {}
+    local cellInfo = DfwDataMgr:getCellInfo()
+    cellInfo.list = cellInfo.list or {}
+    cellInfo.list.buffId = cellInfo.list.buffId or {}
+    for k,v in pairs(buffCfgs) do
+        local count = GoodsDataMgr:getItemCount(v)
+        if count > 0 or table.find(cellInfo.list.buffId,v) ~= -1 then
+            table.insert(self.buffData_,v)
+        end
+    end
+
+
+
+    table.sort(self.buffData_,function ( v1,v2 )
+        local isHaveBuff1 = table.find(cellInfo.buffIds or {}, v1) ~= -1
+        local isHaveBuff2 = table.find(cellInfo.buffIds or {}, v2) ~= -1
+
+        local count1 = GoodsDataMgr:getItemCount(v1)
+        local count2 = GoodsDataMgr:getItemCount(v2)
+
+        if isHaveBuff1 and not isHaveBuff2 then
+            return true
+        elseif not isHaveBuff1 and  isHaveBuff2 then
+            return false
+        elseif count1 == 0 and count2 > 0 then
+            return false
+        elseif count2 == 0 and count1 > 0 then 
+            return true
+        else
+            return v1 < v2
+        end
+    end)
+
     self.defaultSelectIndex_ = 1
 end
 
@@ -17,50 +50,95 @@ function DfwAutumnCardView:initUI(ui)
     self.super.initUI(self, ui)
 
     self.Panel_root = TFDirector:getChildByPath(ui, "Panel_root")
+    self.Button_close = TFDirector:getChildByPath(ui, "Button_close")
+
+    self.Label_empty = TFDirector:getChildByPath(ui, "Label_empty")
+
+    local ScrollView_card = TFDirector:getChildByPath(ui, "ScrollView_card")
     self.Panel_prefab = TFDirector:getChildByPath(ui, "Panel_prefab"):hide()
+    self.Panel_card = TFDirector:getChildByPath(self.Panel_prefab, "Panel_card") 
 
-    self.Panel_card = {}
-    for i = 1, 3 do
-        local foo = {}
-        foo.root = TFDirector:getChildByPath(self.Panel_root, "Panel_card_" .. i)
-        foo.Spine_select = TFDirector:getChildByPath(foo.root, "Spine_select")
-        foo.Spine_select:play("BUFF_up", true)
-        foo.Spine_down = TFDirector:getChildByPath(foo.root, "Spine_down")
-        foo.Spine_down:play("BUFF_down", true)
-        foo.Button_card = TFDirector:getChildByPath(foo.root, "Button_card")
-        foo.Label_num = TFDirector:getChildByPath(foo.root, "Label_num")
-        foo.Label_desc = TFDirector:getChildByPath(foo.root, "Label_desc")
-        foo.Button_use = TFDirector:getChildByPath(foo.root, "Button_use")
-        foo.Label_use = TFDirector:getChildByPath(foo.Button_use, "Label_use")
-        foo.Image_effect = TFDirector:getChildByPath(foo.root, "Image_effect"):hide()
-        foo.Label_effect = TFDirector:getChildByPath(foo.Image_effect, "Label_effect")
-        foo.Label_effect:setTextById(13210019)
-        foo.titleTx = TFDirector:getChildByPath(foo.Button_card, "Label_title")
-        self.Panel_card[i] = foo
-    end
-
+    self.ScrollView_card = UIGridView:create(ScrollView_card)
+    self.ScrollView_card:setItemModel(self.Panel_card)
+    self.ScrollView_card:setColumn(4)
+    self.ScrollView_card:setColumnMargin(5)
+    self.ScrollView_card:setRowMargin(10)
+   
     self:refreshView()
 end
 
 function DfwAutumnCardView:refreshView()
-    for i, v in ipairs(self.Panel_card) do
-        local buffCid = self.buffData_[i]
-        local buffCfg = DfwDataMgr:getChessesBuffCfg(buffCid)
-        local count = GoodsDataMgr:getItemCount(buffCid)
-        dump(buffCid)
-        local itemCfg = GoodsDataMgr:getItemCfg(buffCid)
 
-        v.Label_desc:setTextById(itemCfg.desTextId)
-        v.Label_num:setTextById(800005, count, itemCfg.totalMax)
-        v.Button_card:setTextureNormal(buffCfg.buffCard)
-        v.titleTx:setTextById(buffCfg.title)
+    self.Label_empty:setVisible(#self.buffData_ == 0)
+    if #self.buffData_ > 0 then
+        self.ScrollView_card.scrollView_:show()
+    else
+        self.ScrollView_card.scrollView_:hide()
+        return
+    end
+    local num = #self.ScrollView_card:getItems() - #self.buffData_
+
+    for i = 1,math.abs(num) do
+        if num > 0 then
+            self.ScrollView_card:removeItem(1)
+        else
+            self.ScrollView_card:pushBackDefaultItem()
+        end
+    end
+
+    for i, buffCid in ipairs(self.buffData_) do
+        local item = self.ScrollView_card:getItem(i)
+        self:updateItem( item ,buffCid)
     end
 
     self:selectCard(self.defaultSelectIndex_)
 end
 
+function DfwAutumnCardView:updateItem( item, buffCid )
+    -- body
+    item.Image_select = TFDirector:getChildByPath(item, "Image_select")
+    item.Button_card = TFDirector:getChildByPath(item, "Button_card")
+    item.Image_icon = TFDirector:getChildByPath(item, "Image_icon")
+    item.Label_num = TFDirector:getChildByPath(item, "Label_num")
+    item.Label_desc = TFDirector:getChildByPath(item, "Label_desc")
+    item.Button_use = TFDirector:getChildByPath(item, "Button_use")
+    item.Label_use = TFDirector:getChildByPath(item.Button_use, "Label_use")
+    item.Label_effect = TFDirector:getChildByPath(item, "Label_effect"):hide()
+    item.Label_effect:setTextById(13210019)
+    item.Spine_effect = TFDirector:getChildByPath(item, "Spine_effect")
+
+    if not item.isEffect then
+        item.Spine_effect:playByIndex(0,-1,-1,1)
+        item.isEffect = true
+    end
+
+    local buffCfg = DfwDataMgr:getChessesBuffCfg(buffCid)
+    local count = GoodsDataMgr:getItemCount(buffCid)
+    local itemCfg = GoodsDataMgr:getItemCfg(buffCid)
+
+    item.titleTx = TFDirector:getChildByPath(item.Button_card, "Label_title")
+    item.Label_desc:setTextById(buffCfg.buffDes)
+    item.Label_num:setTextById(800005, count, itemCfg.totalMax)
+    item.Image_icon:setTexture(buffCfg.buffCard)
+    item.Image_icon:setTouchEnabled(true)
+    item.Image_icon:onClick(function ( ... )
+        Utils:showInfo(buffCid)
+    end)
+    item.titleTx:setTextById(buffCfg.title)
+
+    local cellInfo = DfwDataMgr:getCellInfo()
+    local isHaveBuff = table.find(cellInfo.buffIds or {}, buffCid) ~= -1
+
+    item.Label_effect:setVisible(isHaveBuff)
+    item.Spine_effect:setVisible(isHaveBuff)
+    item.Button_card:setTouchEnabled(not isHaveBuff and count > 0)
+    item:setGrayEnabled(not isHaveBuff and count <= 0)
+
+end
+
+
 function DfwAutumnCardView:selectCard(index)
-    if self.selectIndex_ == index then return end
+    if  self.selectIndex_ == index then return end
 
     if self.selectIndex_ then
         Utils:playSound(5005)
@@ -71,26 +149,19 @@ function DfwAutumnCardView:selectCard(index)
 
     local buffCid = self.buffData_[index]
     local count = GoodsDataMgr:getItemCount(buffCid)
-
     local cellInfo = DfwDataMgr:getCellInfo()
-    local isHaveBuff = table.indexOf(cellInfo.buffIds or {}, buffCid) ~= -1
+    local isHaveBuff = table.find(cellInfo.buffIds or {}, buffCid) ~= -1
 
-    for i, v in ipairs(self.Panel_card) do
+    for i, v in ipairs(self.ScrollView_card:getItems()) do
         local isSelect = i == index
-        v.Image_effect:setVisible(isSelect and isHaveBuff)
-        v.Spine_select:setVisible(isSelect)
-        v.Spine_down:setVisible(isSelect)
-    end
-
-    for i, v in ipairs(self.Panel_card) do
-        v.Button_use:setVisible(i == index and count > 0 and not isHaveBuff)
+        v.Image_select:setVisible(isSelect and count > 0 and not isHaveBuff)
     end
 end
 
 function DfwAutumnCardView:registerEvents()
     EventMgr:addEventListener(self, EV_DFW_UPDATE_BUFF, handler(self.onUpdateBuffEvent, self))
 
-    for i, v in ipairs(self.Panel_card) do
+    for i, v in ipairs(self.ScrollView_card:getItems()) do
         local buffCid = self.buffData_[i]
 
         v.Button_card:onClick(function()
@@ -98,9 +169,19 @@ function DfwAutumnCardView:registerEvents()
         end)
 
         v.Button_use:onClick(function()
+                local buffCfg = DfwDataMgr:getChessesBuffCfg(buffCid)
+                if buffCfg.specialUse then
+                    DfwDataMgr:setUseItemStatus(buffCid)
+                    AlertManager:closeLayer(self)
+                    return
+                end
                 DfwDataMgr:send_SACRIFICE_REQ_ADD_BUFF(buffCid)
         end)
     end
+
+    self.Button_close:onClick(function ( ... )
+        AlertManager:closeLayer(self)
+    end)
 end
 
 function DfwAutumnCardView:onUpdateBuffEvent()

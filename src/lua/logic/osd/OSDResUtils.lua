@@ -92,7 +92,7 @@ function OSDResUtils:getResList(mapInfo, heroList)
     -- end
 
     --UI资源
-    local mapView = require("lua.uiconfig.osd.MapLayer")
+    local mapView = require(TFGlobalUtils:loadUIConfigFilePath("lua.uiconfig.osd.MapLayer"))
     for k, texture in pairs(mapView.respaths.textures) do
         table.insert(resList, self:createResInfo(eResType.RT_IMAGE, texture))
     end

@@ -913,12 +913,13 @@ function FubenDataMgr:getPassCondDesc(levelId, pos)
     --TODO 特殊关卡显示描述处理
     if levelId ~= 710006 and levelCfg.time > 0 and type_ ~= EC_LevelPassCond.SURVIVAL then
         local timeStr = TextDataMgr:getText(300825, levelCfg.time)
-        if GAME_LANGUAGE_VAR == "" then
+
+        local code = TFLanguageMgr:getUsingLanguage()
+        if (code == cc.SIMPLIFIED_CHINESE) or (code == cc.TRADITIONAL_CHINESE) then
             desc = timeStr .. desc
         else
             desc = timeStr .." ".. desc
         end
-        
     end
     return desc
 end
@@ -3043,7 +3044,12 @@ function FubenDataMgr:getFreePrivilegeNumById(levelCid)
     local levelCfg = self:getLevelCfg(levelCid)
     local levelGroup = self.levelGroupMap_[levelCfg.levelGroupId]
     local isHavePrivilege1, cfg1 = RechargeDataMgr:getIsHavePrivilegeByType(108)
-    local isHavePrivilege2, cfg2 = RechargeDataMgr:getIsHavePrivilegeByType(109)
+
+    -- 小语种剧场屏蔽
+    local isHavePrivilege2, cfg2 = nil, nil
+    if(GlobalFuncDataMgr:isOpen(3)) then
+        isHavePrivilege2, cfg2 = RechargeDataMgr:getIsHavePrivilegeByType(109)
+    end
     local isHavePrivilege3, cfg3 = RechargeDataMgr:getIsHavePrivilegeByType(110)
     -- 日常困难地狱模式(周卡)
     if isHavePrivilege1 then 

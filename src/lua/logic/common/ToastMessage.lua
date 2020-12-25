@@ -64,6 +64,7 @@ function toastMessageUnlock(textFront, text, textBihand, showTime)
 end
 
 function toastMessage(text,position,size,showType,isAdd, showTime, isLinkMsg, textColor)
+
     if isAdd == nil then
         isAdd = false;
     end

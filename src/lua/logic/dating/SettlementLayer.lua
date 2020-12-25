@@ -232,6 +232,7 @@ function SettlementLayer:initPanelGiftView()
     Panel_goodsItem:Scale(0.8)
     self.ScrollView_info_gift:removeAllItems()
     local count = 0
+
     for i,v in ipairs(self.data_.rewards) do
         if v.id ~= EC_SItemType.PLAYEREXP 
             and v.id ~= EC_SItemType.GOLD
@@ -240,12 +241,17 @@ function SettlementLayer:initPanelGiftView()
             and v.id ~= EC_SItemType.FAVOR
             and v.id ~= EC_SItemType.FUBENFAVOR
             and v.id ~= EC_SItemType.CURMOOD then
-            local giftItem = Panel_goodsItem:clone()
-            giftItem:Scale(0.8)
-            item = cgItem
-            PrefabDataMgr:setInfo(giftItem,v.id,v.num)
-            self.ScrollView_info_gift:pushBackCustomItem(giftItem)
-            count = count + 1
+
+            local itemCfg = GoodsDataMgr:getItemCfg(v.id)
+            if itemCfg  then
+                if not itemCfg.isHide then
+                    local giftItem = Panel_goodsItem:clone()
+                    giftItem:Scale(0.8)
+                    PrefabDataMgr:setInfo(giftItem,v.id,v.num)
+                    self.ScrollView_info_gift:pushBackCustomItem(giftItem)
+                    count = count + 1
+                end
+            end
         end
     end
     local minX = math.min((count * 90), self.ScrollView_gift:getSize().width)

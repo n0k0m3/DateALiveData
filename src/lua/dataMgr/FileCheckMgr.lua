@@ -240,9 +240,9 @@ function FileCheckMgr:checkOneFile()
 
     if (txt_update) then
         if (bar_load:getPercent() >= 100) then
-            txt_update:setSystemFontText(stringUtils.format("加载本地文件完成，准备开始游戏"))
+            txt_update:setText(stringUtils.format("加载本地文件完成，准备开始游戏"))
         else
-            txt_update:setSystemFontText(stringUtils.format("正在加载本地文件（不消耗流量）", currLoad, maxSize))
+            txt_update:setText(stringUtils.format("正在加载本地文件（不消耗流量）", currLoad, maxSize))
         end
     end
 end

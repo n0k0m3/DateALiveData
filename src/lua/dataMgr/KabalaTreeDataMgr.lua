@@ -187,10 +187,12 @@ end
 
 function KabalaTreeDataMgr:getTileMapRes(mapId)
 
-	if not self.KabalaServerDataCfg[self.mapCid] then
+	local tileMapInfo = self.KabalaServerDataCfg[self.mapCid]
+	if not tileMapInfo then
 		return
 	end
-	return self.KabalaServerDataCfg[self.mapCid].mapDocument
+	local tileMapRes = tileMapInfo.mapPath.."/"..tileMapInfo.version.."/"..tileMapInfo.mapName
+	return tileMapRes
 end
 
 function KabalaTreeDataMgr:getTextCoordinate()
@@ -2006,5 +2008,41 @@ function KabalaTreeDataMgr:onReplyGameInfo(event)
 
 	EventMgr:dispatchEvent(EV_REPLY_MINIGAME,data.gameCid,awardList,data.options)
 end
+
+function KabalaTreeDataMgr:checkVersion()
+
+	local oldVersion = self:getOldVersion()
+	local newVersionId = self:getKabalaVersion()
+	local isNewVersion = newVersionId ~= oldVersion
+	print("newVersionId",newVersionId)
+	if CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 and isNewVersion then
+		local fullPath = me.FileUtils:fullPathForFilename("titledmap/kabalamap/"..oldVersion)
+		local newPath = string.gsub(fullPath,"titledmap/kabalamap/"..oldVersion,"titledmap/kabalamap/"..newVersionId)
+		print(fullPath,newPath)
+		os.rename(fullPath,newPath)
+	end
+end
+
+function KabalaTreeDataMgr:getKabalaVersion()
+	local version = 0
+	for mapCid,info in pairs(self.KabalaServerDataCfg) do
+		version = info.version
+		break
+	end
+	return tostring(version)
+end
+
+function KabalaTreeDataMgr:getOldVersion()
+	local path = me.FileUtils:fullPathForFilename("titledmap/kabalamap")
+	local fileName
+	for file in lfs.dir(path) do
+		if file ~= "." and file ~= ".." then
+			fileName = file
+			break
+		end
+	end
+	return fileName
+end
+
 
 return KabalaTreeDataMgr:new()

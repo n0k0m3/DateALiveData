@@ -5,6 +5,8 @@ local FriendDataMgr = class("FriendDataMgr", BaseDataMgr)
 function FriendDataMgr:onLogin()
     TFDirector:send(c2s.FRIEND_REQ_FRIENDS, {})
     self:send_FRIEND_REQ_GET_FRIEND_INVITE_INFO()
+    self:send_APPRENTICE_REQ_APPRENTICE_LIST()
+    self:send_APPRENTICE_REQ_REWARD_STATUS()
     return {s2c.FRIEND_RESP_FRIENDS}
 end
 
@@ -18,6 +20,14 @@ function FriendDataMgr:reset()
     self.receiveCount_ = 0
     self.lastReceiveTime_ = 0
     self.friendInviteInfo_ = {}
+    self.friendWishWordDec = {}
+    self.masterDataDic = {[EC_FriendMaster.Master] = {}, [EC_FriendMaster.Apprentice] = {}}  -- 师门，徒弟
+    self.masterApplyDic = {}     -- 申请列表
+    self.isMasterExist = {state = false, id = nil}     -- 是否有师父
+    self.isApprenticeExist = {state = false, id = nil} -- 是否有徒弟
+    self.isInCD = false -- 师徒是否处于冷却中
+    self.taskListDic = {} -- 领了任务奖励的阶段
+    self.famousListDic = {} -- 领了名师奖励的等级
 end
 
 function FriendDataMgr:init()
@@ -30,7 +40,23 @@ function FriendDataMgr:init()
     TFDirector:addProto(s2c.FRIEND_RESP_GET_FRIEND_INVITE_INFO, self, self.onRecvFriendInviteInfo)
     TFDirector:addProto(s2c.FRIEND_RESP_BIND_INVITE_CODE, self, self.onRecvBindInviteCode)
     TFDirector:addProto(s2c.FRIEND_RESP_REWARD_INVITE, self, self.onRecvRewardInvite)
-
+    -- 寄语
+    TFDirector:addProto(s2c.SPRING_WISH_SPRING_WISH_NOTICE, self, self.onRecvWishWord)
+    TFDirector:addProto(s2c.SPRING_WISH_RES_SEND_SPRING_WISH, self, self.onRecvSendWish)
+    TFDirector:addProto(s2c.SPRING_WISH_RES_READ_SPRING_WISH, self, self.onRecvRewards) 
+    TFDirector:addProto(s2c.SPRING_WISH_RES_READ_ALL_SPRING_WISH, self, self.onRecvRewards) 
+    TFDirector:addProto(s2c.SPRING_WISH_RES_GET_REWARD, self, self.onRecvRewards)
+    -- 师徒
+    TFDirector:addProto(s2c.APPRENTICE_APPRENTICE_NOTICE, self, self.onRecvMasterData) -- 师徒等列表
+    TFDirector:addProto(s2c.APPRENTICE_RES_RECOMMEND_LIST, self, self.onRecvMasteApplyList) -- 师徒申请推荐列表
+    TFDirector:addProto(s2c.APPRENTICE_RES_HANDLE_APPRENTICE, self, self.onRecvMasteAllApply) -- 申请
+    TFDirector:addProto(s2c.APPRENTICE_RES_SEND_GIFT, self, self.onRecvGiveGift)
+    TFDirector:addProto(s2c.APPRENTICE_RES_FETCH_GIFT, self, self.onRecvGetGift)
+    TFDirector:addProto(s2c.APPRENTICE_RES_SEARCH_PLAYER, self, self.onRecvSearchPlayer)
+    TFDirector:addProto(s2c.APPRENTICE_RES_TASK_REWARD, self, self.onRecvGetGift)
+    TFDirector:addProto(s2c.APPRENTICE_RES_FAMOUS_REWARD, self, self.onRecvGetGift)
+    TFDirector:addProto(s2c.APPRENTICE_RES_REWARD_STATUS, self, self.onRecvTaskStatus)
+    
     self.originFriend_ = {}
     self.recommendFriend_ = {}
     self.receiveCount_ = 0
@@ -38,6 +64,27 @@ function FriendDataMgr:init()
     self.friendInviteInfo_ = {}
     self.maxFriendsNum_ = Utils:getKVP(7001, "maxFriendsNum")
     self.maxReceiveCount_ = Utils:getKVP(7001, "receiveFriendshipTimes")
+    self:initCfgs()
+end
+
+function FriendDataMgr:initCfgs()
+    self.instructorLevelCfg = {}
+    local instructorLevelCfg = TabDataMgr:getData("InstructorLevel")
+    for i, v in pairs(instructorLevelCfg) do 
+        table.insert(self.instructorLevelCfg, v)
+    end
+    table.sort(self.instructorLevelCfg, function(a, b)
+        return a.instructorlevel < b.instructorlevel
+    end)
+
+    self.drillmasterTaskCfg = {}
+    local tabCfg = TabDataMgr:getData("DrillmasterTask")
+    for i, v in pairs(tabCfg) do
+        if not self.drillmasterTaskCfg[v.rewardType] then
+            self.drillmasterTaskCfg[v.rewardType] = {}
+        end
+        table.insert(self.drillmasterTaskCfg[v.rewardType], v)
+    end
 end
 
 function FriendDataMgr:getFriend(status)
@@ -49,6 +96,7 @@ function FriendDataMgr:getFriend(status)
             if v.status == status then
                 table.insert(friend, pid)
             end
+
         end
         if status == EC_Friend.FRIEND then
             -- local receiveList = {}
@@ -170,7 +218,10 @@ function FriendDataMgr:removeRecommendFriend(pid)
 end
 
 function FriendDataMgr:getFriendInfo(pid)
-    return self.originFriend_[pid]
+	if pid then
+		return self.originFriend_[pid]
+	end
+	return self.originFriend_
 end
 
 function FriendDataMgr:setFriendHelpCDtime(pid, cdTime)
@@ -220,6 +271,371 @@ function FriendDataMgr:isShowRedPointInMainView()
     return isShow
 end
 
+-- 好友寄语按钮显隐
+function FriendDataMgr:isWishBtnShow(frinedId)
+    local _bool = true
+    -- 活动时间到了关闭了
+    local info = ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.FRIEND_BLESS)
+    if #info == 0 then
+        _bool = false
+    else 
+        local data = ActivityDataMgr2:getActivityInfo(info[1]) 
+        local servertime = ServerDataMgr:getServerTime()
+        if data.endTime < servertime then
+            _bool = false
+        end
+    end
+
+    -- 是否可以发送寄语
+    if self:getFriendWishWordData().sendFriend then
+        for i, id in ipairs(self:getFriendWishWordData().sendFriend) do
+            if id == frinedId then
+                _bool = false
+                break
+            end
+        end 
+    end
+    return _bool
+end
+
+-- 是否有未读寄语
+function FriendDataMgr:isBlessWordNoRead()
+    local words = self:getFriendWishWordDec()
+    local isHave = false
+    if words and  #words ~= 0 then
+        for i, v in ipairs(words) do
+            if not v.read then
+                isHave = true
+            end
+        end
+    end
+    return isHave
+end
+
+-- 是否领取过结算奖励
+function FriendDataMgr:isHadGetLastReward()
+    return self:getFriendWishWordData().getReward
+end
+
+function FriendDataMgr:getFriendWishWordDec()
+    local tab = {}
+    for i, v in pairs(self.friendWishWordDec or {}) do
+        table.insert(tab, v)
+    end
+    return tab
+end
+
+function FriendDataMgr:getFriendWishWordData()
+    return self.friendWishWordData or {}
+end
+
+function FriendDataMgr:splitGoods(goodsId)
+    local goodsInfo = GoodsDataMgr:getSingleItem(goodsId)
+    local goodsCfg = GoodsDataMgr:getItemCfg(goodsInfo.cid)
+    local goods = {}
+    if goodsCfg.pileUp then
+        if goodsCfg.pileUp then
+            local count = math.floor(goodsInfo.num / goodsCfg.gridMax)
+            for i = 1, count do
+                local cItem = clone(goodsInfo)
+                cItem.num = goodsCfg.gridMax
+                local remain = table.insert(goods, cItem)
+            end
+        end
+        local remainNum = math.fmod(goodsInfo.num, goodsCfg.gridMax)
+        if remainNum > 0 then
+            local cItem = clone(goodsInfo)
+            cItem.num = remainNum
+            table.insert(goods, cItem)
+        end
+    else
+        table.insert(goods, clone(goodsInfo))
+    end
+
+    return goods
+end
+
+-- 师傅可赠送背包材料数据
+function FriendDataMgr:getMasterCanGiveData()
+    local data = {["sum"] = {}} 
+    local allBagData = GoodsDataMgr:getAllBagData()
+    local filtData   = Utils:getKVP(90024)
+
+    for key, value in pairs(filtData) do
+        if not data[key] then
+            data[key] = {}
+        end
+    end
+
+    for key, value in pairs(filtData) do
+        -- local tmpData = GoodsDataMgr:getItemsBySuperTyper(value.superType, value.subType)
+        for i, item in ipairs(allBagData) do
+            local _data = GoodsDataMgr:getSingleItem(item.id)
+            local _cfg  = GoodsDataMgr:getItemCfg(_data.cid)
+
+            local _boolType = false
+            if _cfg.superType == value.superType then
+                if not _cfg.subType then
+                    _boolType = true
+                else
+                    if _cfg.subType == value.subType then
+                        _boolType = true
+                    end
+                end
+            end
+
+            local _qualityBool = false
+            for i, _quality in ipairs(value.quality) do
+                if _cfg.quality == _quality then
+                    _qualityBool = true
+                end
+            end
+
+            local _smallTypebBool = true
+            if value.smallType then
+                if value.smallType ~= _cfg.smallType then
+                    _smallTypebBool = false
+                end
+            end
+
+            if _qualityBool and _smallTypebBool and _boolType then
+                 -- 只是涉及部分参数需要
+                 _data["superType"] = _cfg.superType
+                 _data["skillType"] = _cfg.skillType
+                 table.insert(data["sum"], clone(_data))
+                 table.insert(data[key], clone(_data))
+            end
+        end
+    end
+    return data
+end
+
+function FriendDataMgr:getMasterDataByType(type)
+    local tmpData = {}
+    if not self.masterDataDic[type] then return tmpData end
+    for i, v in pairs(self.masterDataDic[type]) do
+        table.insert(tmpData, v)
+    end
+    table.sort(tmpData, function(a, b)
+        local isTopA = a.type == EC_FriendMasterType.Master or a.type == EC_FriendMasterType.Apprentice
+        local isTopB = b.type == EC_FriendMasterType.Master or b.type == EC_FriendMasterType.Apprentice
+        if isTopA and not isTopB then
+            return true
+        elseif not isTopA and isTopB then
+            return false
+        elseif a.type == b.type then
+            if a.finished and not b.finished then
+                return false
+            elseif not a.finished and b.finished then
+                return true
+            end
+        end
+    end)
+    return tmpData
+end
+
+function FriendDataMgr:getMasterApplyList()
+    local tmpData = {}
+    for i, v in pairs(self.masterApplyDic) do
+        table.insert(tmpData, v)
+    end
+    return tmpData
+end
+
+-- 是否可以拜师
+function FriendDataMgr:isCanApplyMater()
+    -- lv< = 60 and 没有师父 and 冷却时间过了 或者 已出师 
+    local limitLv  = Utils:getKVP(90023, "apprenticeClass")
+    local playerLv = MainPlayer:getPlayerLv()
+    if self:isApprenticeFinished() then
+        return false
+    end
+    if self.isInCD then
+        return false
+    end
+    if not self.isMasterExist.state and limitLv[1] <= playerLv and playerLv <= limitLv[2] then
+        return true
+    else
+        return false
+    end
+end
+
+--  是否可以收徒
+function FriendDataMgr:isCanGetApprentice()
+    -- lv > 60 and 没有徒弟 and 冷却时间过了
+    local limitLv  = Utils:getKVP(90023, "apprenticeLevel")
+    local playerLv = MainPlayer:getPlayerLv()
+    if self.isInCD then
+        return false
+    end
+    if not self.isApprenticeExist.state and limitLv[1] <= playerLv and playerLv <= limitLv[2] then
+        return true
+    else
+        return false
+    end
+end
+
+-- 判断师徒对应所属列表Type
+function FriendDataMgr:getMasterTypeById(id)
+    for type, v in pairs(self.masterDataDic) do
+        if v[id] then
+            return type
+        end
+    end
+end
+
+-- 是否有师父、徒弟
+function FriendDataMgr:isHaveMasterApprentice()
+    return self.isMasterExist.state, self.isApprenticeExist.state
+end
+
+-- 返回师父和徒弟的id
+function FriendDataMgr:getBothId()
+    return self.isMasterExist.id, self.isApprenticeExist.id
+end
+
+-- 徒弟是否出师
+function FriendDataMgr:isApprenticeFinished()
+    local limitLv  = Utils:getKVP(90023, "apprenticeClass")
+    local playerLv = MainPlayer:getPlayerLv()
+    if limitLv[1] <= playerLv and playerLv <= limitLv[2] then  -- 作为徒弟 自己是否出师
+        return self.apprenticeFinished or false
+    else  -- 作为师父 自己当前教育的学员是否出师
+        if self.isApprenticeExist.id then
+            local info = self.masterDataDic[EC_FriendMaster.Apprentice][self.isApprenticeExist.id]
+            return info.finished
+        end
+        return false
+    end
+end
+
+-- 拜师收徒是否处于冷却中
+function FriendDataMgr:getIsInCD()
+    return self.isInCD
+end
+
+-- 名师奖励指定等级有没领取
+function FriendDataMgr:getFamousBoolByLv(lv)
+    return nil ~= self.famousListDic[lv]
+end
+
+-- 任务奖励的指定阶段有没有领取
+function FriendDataMgr:getTaskBoolByStage(idx)
+    return nil ~= self.taskListDic[idx]
+end
+
+-- 根据名师经验获得等级
+function FriendDataMgr:getFamousLvByExperience(num)
+    num = num or 0
+    local famousLv = nil
+    for i, v in ipairs(self.instructorLevelCfg) do 
+        if v.updateExp > num and not famousLv then
+            famousLv = v.instructorlevel - 1
+            break
+        elseif v.updateExp == num then
+            famousLv = v.instructorlevel
+            break
+        end
+    end
+    -- 达到最大等级
+    local biggstLvData = self.instructorLevelCfg[#self.instructorLevelCfg]
+    if num >= biggstLvData.updateExp then
+        famousLv = biggstLvData.instructorlevel
+    end
+    return famousLv or 0
+end
+
+function FriendDataMgr:getInstructorLevelCfg()
+    return self.instructorLevelCfg
+end
+
+function FriendDataMgr:getDrillmasterTaskCfg(type)
+    return self.drillmasterTaskCfg[type]
+end
+
+-- 是否有名师奖励可领取
+function FriendDataMgr:isHaveMasterAwardsCanGet()
+    local _bool = false
+    local experienceItemId  = Utils:getKVP(90023, "experienceItemId")
+    local exprienceItemNum = GoodsDataMgr:getItemCount(experienceItemId) or 0
+    local curFamousLv = self:getFamousLvByExperience(exprienceItemNum)
+    for i, v in ipairs(self.instructorLevelCfg) do
+        local isHadGet = self:getFamousBoolByLv(v.instructorlevel)
+        if v.instructorlevel <= curFamousLv and not isHadGet  then
+            _bool = true
+            break
+        end
+    end
+    return _bool
+end
+
+-- 是否有任务奖励可领取
+function FriendDataMgr:isHaveMasterTaskAwardCanGet()
+    local type  = nil
+    local _bool = false
+    if self.isMasterExist.state then
+        type = 2
+    elseif self.isApprenticeExist.state then
+        type = 1
+    end
+
+    if type then
+        for i, v in ipairs(self.drillmasterTaskCfg[type]) do
+            local isHadGet = self:getTaskBoolByStage(v.taskStage)
+            local isFinishAllLittleTask = true
+            for j, taskCid in pairs(v.finishParams) do
+                local taskInfo = TaskDataMgr:getTaskInfo(taskCid)
+                if taskInfo then
+                    if taskInfo.status == EC_TaskStatus.ING then
+                        isFinishAllLittleTask = false
+                        break
+                    end
+                else
+                    isFinishAllLittleTask = false
+                end
+            end
+            if isFinishAllLittleTask and not isHadGet then
+                _bool = true
+                break
+            end 
+        end
+    end
+
+    if self:isApprenticeFinished() then
+        _bool = false
+    end
+
+    return _bool
+end
+
+-- 申请列表红点显隐
+function FriendDataMgr:isApplyBtnRedShow()
+    return table.count(self.masterApplyDic) ~= 0
+end
+
+-- 是否有师父赠礼
+function FriendDataMgr:isHaveMasterGiveGift()
+    local _bool = false
+    if self.isMasterExist.state then
+        local data = self:getMasterDataByType(EC_FriendMaster.Master)
+        for i, v in ipairs(data) do
+            if v.type == EC_FriendMasterType.Master and v.hasGift then
+                _bool = true
+                break
+            end
+        end
+    end
+    return _bool
+end
+
+-- 师徒相关红点显隐
+function FriendDataMgr:isMasterRelationShow()
+    local _bool = false
+    if self:isHaveMasterAwardsCanGet() or self:isHaveMasterTaskAwardCanGet() or self:isApplyBtnRedShow() or self:isHaveMasterGiveGift() then
+        _bool = true
+    end
+    return _bool
+end
 
 ------------------------------------------------------------
 
@@ -256,6 +672,90 @@ function FriendDataMgr:send_FRIEND_REQ_REWARD_INVITE(rewardCid)
     }
     TFDirector:send(c2s.FRIEND_REQ_REWARD_INVITE, msg)
 end
+ 
+-- 7501
+function FriendDataMgr:send_SPRING_WISH_REQ_SEND_SPRING_WISH(friendId, content)
+    TFDirector:send(c2s.SPRING_WISH_REQ_SEND_SPRING_WISH, {friendId, content})
+end
+
+-- 7502
+function FriendDataMgr:send_SPRING_WISH_REQ_READ_SPRING_WISH(id)
+    TFDirector:send(c2s.SPRING_WISH_REQ_READ_SPRING_WISH, {id})
+end
+
+-- 7503
+function FriendDataMgr:send_SPRING_WISH_REQ_READ_ALL_SPRING_WISH()
+    TFDirector:send(c2s.SPRING_WISH_REQ_READ_ALL_SPRING_WISH, {})
+end
+
+-- 7504
+function FriendDataMgr:send_SPRING_WISH_REQ_DELETE_SPRING_WISH(id)
+    TFDirector:send(c2s.SPRING_WISH_REQ_DELETE_SPRING_WISH, {id})
+end
+
+-- 7505
+function FriendDataMgr:send_SPRING_WISH_REQ_GET_REWARD()
+    TFDirector:send(c2s.SPRING_WISH_REQ_GET_REWARD, {})
+end
+
+-- 7901 -- @kind 1请求列表,2刷新   @type 1徒弟推荐列表,2师父推荐列表
+function FriendDataMgr:send_APPRENTICE_REQ_RECOMMEND_LIST(kind, type)
+    TFDirector:send(c2s.APPRENTICE_REQ_RECOMMEND_LIST, {kind, type})
+end
+
+-- 7902
+--[[
+    -- @desc:服务器给的协议备注
+    //type=1，申请收徒，playerId是潜在徒弟id
+    //type=2，申请拜师，playerId是潜在师父id
+    //type=3，同意收徒申请，playerId是申请人id
+    //type=4，拒绝收徒申请，playerId是申请人id
+    //type=5，同意拜师申请，playerId是申请人id
+    //type=6，拒绝拜师申请，playerId是申请人id
+    //type=7，师父解除关系，playerId是徒弟id
+    //type=8，徒弟解除关系，playerId是师父id
+    //type=9，师父点击出师，playerId是徒弟id
+    //type=10，徒弟点击出师，playerId是师父id
+]]
+function FriendDataMgr:send_APPRENTICE_REQ_HANDLE_APPRENTICE(type, playerId)
+    TFDirector:send(c2s.APPRENTICE_REQ_HANDLE_APPRENTICE, {playerId, type})
+end
+
+-- 7903
+function FriendDataMgr:send_APPRENTICE_REQ_APPRENTICE_LIST()
+    TFDirector:send(c2s.APPRENTICE_REQ_APPRENTICE_LIST, {})
+end
+
+-- 7904
+function FriendDataMgr:send_APPRENTICE_REQ_SEND_GIFT(giftsTab)
+    TFDirector:send(c2s.APPRENTICE_REQ_SEND_GIFT, {giftsTab})
+end
+
+-- 7905
+function FriendDataMgr:send_APPRENTICE_REQ_FETCH_GIFT()
+    TFDirector:send(c2s.APPRENTICE_REQ_FETCH_GIFT, {})
+end
+
+-- 7907
+function FriendDataMgr:send_APPRENTICE_REQ_SEARCH_PLAYER(id)
+    TFDirector:send(c2s.APPRENTICE_REQ_SEARCH_PLAYER, {id})
+end
+
+-- 7908
+function FriendDataMgr:send_APPRENTICE_REQ_TASK_REWARD(taskId)
+    TFDirector:send(c2s.APPRENTICE_REQ_TASK_REWARD, {taskId})
+end
+
+-- 7909
+function FriendDataMgr:send_APPRENTICE_REQ_FAMOUS_REWARD(lv)
+    TFDirector:send(c2s.APPRENTICE_REQ_FAMOUS_REWARD, {lv})
+end
+
+-- 7910
+function FriendDataMgr:send_APPRENTICE_REQ_REWARD_STATUS()
+    TFDirector:send(c2s.APPRENTICE_REQ_REWARD_STATUS, {})
+end
+
 
 function FriendDataMgr:onRecvRecommendFriends(event)
     local data = event.data
@@ -402,6 +902,240 @@ function FriendDataMgr:onRecvRewardInvite(event)
             end
         end
     end
+end
+
+-- 7506
+function FriendDataMgr:onRecvWishWord(event)
+    local data = event.data or {}
+    if not self.friendWishWordDec then
+        self.friendWishWordDec = {}
+    end
+
+    self.friendWishWordData = data
+    if data.changeType == EC_SChangeType.DELETE then
+        if data.springWishInfo then
+            for i, v in ipairs(data.springWishInfo) do
+                if self.friendWishWordDec[v.id] then
+                    self.friendWishWordDec[v.id]  = nil
+                end
+            end
+        end
+    else
+        if data.springWishInfo then
+            for i, v in ipairs(data.springWishInfo) do
+                self.friendWishWordDec[v.id] = v
+            end
+        end
+    end
+    EventMgr:dispatchEvent(EV_FRIEND_WISHWORD_UPDATE)
+    EventMgr:dispatchEvent(EV_FRIEND_UPDATE)
+    EventMgr:dispatchEvent(EV_ACTIVITY_UPDATE_PROGRESS)
+end
+
+-- 7501
+function FriendDataMgr:onRecvSendWish(event)
+    local data = event.data 
+    if not data then
+        return
+    end
+    EventMgr:dispatchEvent(EV_FRIEND_SENDWISH_SUCCESS, data)
+end
+
+function FriendDataMgr:onRecvRewards(event)
+    local data = event.data 
+    if not data then
+        return
+    end
+    if data and data.rewards then
+        Utils:showReward(data.rewards)
+    end
+end
+
+-- 7906
+function FriendDataMgr:onRecvMasterData(event)
+    local data = event.data or {}
+    if not data then
+        return
+    end
+    dump(data)
+    self.isInCD = data.isCD
+    self.apprenticeFinished = data.finished  -- 针对作为徒弟是否出师
+    -- @type: 1师父，2师门，3徒弟，4申请收徒，5申请拜师
+    for i, v in ipairs(data.apprenticeList or {}) do
+        if v.ct == EC_SChangeType.DELETE then
+            if v.type == EC_FriendMasterType.Master or v.type == EC_FriendMasterType.SameGate then
+                if v.type == EC_FriendMasterType.Master then  -- 删除对象为师父时 对应师门内容清空(应服务器要求)
+                    self.masterDataDic[EC_FriendMaster.Master]= nil
+                    self.masterDataDic[EC_FriendMaster.Master] = {}
+                    self.isMasterExist = {state = false, id = nil}
+                else
+                    self.masterDataDic[EC_FriendMaster.Master][v.playerId] = nil
+                end
+                EventMgr:dispatchEvent(EV_FRIEND_MASTER_UPDATE, EC_FriendMaster.Master)
+            elseif v.type == EC_FriendMasterType.Apprentice then
+                if self.isApprenticeExist.state and self.isApprenticeExist.id == v.playerId and not v.finished then
+                    self.isApprenticeExist = {state = false, id = nil}
+                end
+                self.masterDataDic[EC_FriendMaster.Apprentice][v.playerId] = nil
+                EventMgr:dispatchEvent(EV_FRIEND_MASTER_UPDATE, EC_FriendMaster.Apprentice)
+            else
+                self.masterApplyDic[v.playerId] = nil
+                EventMgr:dispatchEvent(EV_FRIEND_MASTERAPPLYLIST_UPDATE, self:getMasterApplyList())
+            end
+        else
+            if v.type == EC_FriendMasterType.Master or v.type == EC_FriendMasterType.SameGate then
+                if v.type == EC_FriendMasterType.Master and not data.finished  then
+                    self.isMasterExist = {state = true, id = v.playerId}
+                end
+                if nil == self.masterDataDic[EC_FriendMaster.Master][v.playerId] then
+                    --  服务器可能不会下发的数据 给个默认值
+                    if not v["famousExp"] then
+                        v["famousExp"] = 0
+                    end
+                    self.masterDataDic[EC_FriendMaster.Master][v.playerId] = v
+                else
+                    for key, value in pairs(v) do
+                        self.masterDataDic[EC_FriendMaster.Master][v.playerId][key] = value
+                    end
+                end
+                EventMgr:dispatchEvent(EV_FRIEND_MASTER_UPDATE, EC_FriendMaster.Master)
+            elseif v.type == EC_FriendMasterType.Apprentice then
+                if nil == self.masterDataDic[EC_FriendMaster.Apprentice][v.playerId] and not v.finished then
+                    self.isApprenticeExist = {state = true, id = v.playerId}
+                else
+                    -- 更新
+                    if self.isApprenticeExist.state and self.isApprenticeExist.id == v.playerId and v.finished then
+                        self.isApprenticeExist = {state = false, id = nil}
+                        self.apprenticeFinished = v.finished
+                    end
+                end
+
+                if nil == self.masterDataDic[EC_FriendMaster.Apprentice][v.playerId] then
+                    if not v["famousExp"] then
+                        v["famousExp"] = 0
+                    end
+                    self.masterDataDic[EC_FriendMaster.Apprentice][v.playerId] = v
+                else
+                    for key, value in pairs(v) do
+                        self.masterDataDic[EC_FriendMaster.Apprentice][v.playerId][key] = value
+                    end
+                end
+                EventMgr:dispatchEvent(EV_FRIEND_MASTER_UPDATE, EC_FriendMaster.Apprentice)
+            else
+                if nil == self.masterApplyDic[v.playerId] then
+                    self.masterApplyDic[v.playerId] = v
+                else
+                    for key, value in pairs(self.masterApplyDic[v.playerId]) do
+                        if nil ~= v[key] then
+                            value = v[key]
+                        end
+                    end
+                end
+                EventMgr:dispatchEvent(EV_FRIEND_MASTERAPPLYLIST_UPDATE, self:getMasterApplyList())
+            end
+        end
+    end
+end
+
+function FriendDataMgr:onRecvMasteApplyList(event)
+    local data = event.data 
+    if not data then
+        return
+    end
+    EventMgr:dispatchEvent(EV_FRIEND_MASTERRECOMMEND_UPDATE, data.recommendList or {})
+end
+
+--[[
+    //type=1，申请收徒
+    //type=2，申请拜师
+    //type=3，同意收徒申请
+    //type=4，拒绝收徒申请
+    //type=5，同意拜师申请
+    //type=6，拒绝拜师申请
+    //type=7，师父解除关系
+    //type=8，徒弟解除关系
+    //type=9，师父点击出师
+    //type=10，徒弟点击出师
+]]
+function FriendDataMgr:onRecvMasteAllApply(event)
+    local data = event.data 
+    if not data then
+        return
+    end
+    if data.success then
+        local type = data.type
+        if type == 1 or type == 2 then
+            Utils:showTips(1340058)
+            FriendDataMgr:send_APPRENTICE_REQ_RECOMMEND_LIST(1, type)
+        elseif type == 9 or type == 10 then
+            EventMgr:dispatchEvent(EV_FRIEND_OUTMASTER_UPDATE)
+        end
+    end
+end
+
+function FriendDataMgr:onRecvGiveGift(event)
+    local data = event.data 
+    if not data then
+        return
+    end
+    if data.success then
+        Utils:showTips(1340033)
+        EventMgr:dispatchEvent(EV_FREND_MASTERGIVEGIFT_UPDATE)
+    else
+        Utils:showTips(1340034)
+    end
+end
+
+function FriendDataMgr:onRecvGetGift(event)
+    local data = event.data 
+    if not data then
+        return
+    end
+    if data.rewards then
+        Utils:showReward(data.rewards)
+    end
+    EventMgr:dispatchEvent(EV_FREND_MASTERGITGIFT_UPDATE)
+end
+
+function FriendDataMgr:onRecvSearchPlayer(event)
+    local data = event.data 
+    if not data then
+        return
+    end
+    if data.success then
+        EventMgr:dispatchEvent(EV_FRIEND_MASTERRECOMMEND_UPDATE, data.apprenticeInfo or {})
+    else
+        Utils:showTips(1340035)
+    end
+end
+
+function FriendDataMgr:onRecvTaskStatus(event)
+    local data = event.data 
+    if not data then
+        return
+    end
+
+    data.taskList = data.taskList or {}
+    data.famousList = data.famousList or {}
+
+    if #data.taskList == 0 then
+        self.taskListDic = nil
+        self.taskListDic = {}
+    else
+        for i, v in ipairs(data.taskList) do
+            self.taskListDic[v] = v
+        end
+    end
+
+    if #data.famousList == 0 then
+        self.famousListDic = nil
+        self.famousListDic = {}
+    else
+        for i, v in ipairs(data.famousList) do
+            self.famousListDic[v] = v
+        end
+    end
+    EventMgr:dispatchEvent(EV_FRIEND_MASTERGETREWARD_UPDATE)
 end
 
 return FriendDataMgr:new()

@@ -33,13 +33,28 @@ function FairyDetailsLayer:ctor(data)
 	self.isShowShare = false
 	self.curSelectTab = nil
 	self.tabBtnInfo = {
-	{name = TextDataMgr:getText(1454030), icon = "ui/fairy/new_ui/tab_1.png"},
-	{name = TextDataMgr:getText(1454010), icon = "ui/fairy/new_ui/tab_2.png"},
-	{name = TextDataMgr:getText(1454032), icon = "ui/fairy/new_ui/tab_3.png"},
-	{name = TextDataMgr:getText(1454031), icon = "ui/fairy/new_ui/tab_4.png"},
-	{name = TextDataMgr:getText(1454056), icon = "ui/fairy/new_ui/tab_6.png"},
-	{name = TextDataMgr:getText(1454057), icon = "ui/fairy/new_ui/tab_8.png"},
-	{name = TextDataMgr:getText(900318), icon = "ui/fairy/new_ui/tab_5.png"}}
+	-- {name = TextDataMgr:getText(1454030), icon = "ui/fairy/new_ui/tab_1.png"},
+	-- {name = TextDataMgr:getText(1454010), icon = "ui/fairy/new_ui/tab_2.png"},
+	-- {name = TextDataMgr:getText(1454032), icon = "ui/fairy/new_ui/tab_3.png"},
+	-- {name = TextDataMgr:getText(1454031), icon = "ui/fairy/new_ui/tab_4.png"},
+	-- {name = TextDataMgr:getText(1454056), icon = "ui/fairy/new_ui/tab_6.png"},
+	-- {name = TextDataMgr:getText(1454057), icon = "ui/fairy/new_ui/tab_8.png"},
+	-- {name = TextDataMgr:getText(900318), icon = "ui/fairy/new_ui/tab_5.png"}
+	}
+
+	table.insert(self.tabBtnInfo , {name = TextDataMgr:getText(1454030), icon = "ui/fairy/new_ui/tab_1.png"})
+	table.insert(self.tabBtnInfo , {name = TextDataMgr:getText(1454010), icon = "ui/fairy/new_ui/tab_2.png"})
+	table.insert(self.tabBtnInfo , {name = TextDataMgr:getText(1454032), icon = "ui/fairy/new_ui/tab_3.png"})
+	table.insert(self.tabBtnInfo , {name = TextDataMgr:getText(1454031), icon = "ui/fairy/new_ui/tab_4.png"})
+	if GlobalFuncDataMgr:isOpen(8) then
+		table.insert(self.tabBtnInfo , {name = TextDataMgr:getText(1454056), icon = "ui/fairy/new_ui/tab_6.png"})
+	end
+	if GlobalFuncDataMgr:isOpen(9) then
+		table.insert(self.tabBtnInfo , {name = TextDataMgr:getText(1454057), icon = "ui/fairy/new_ui/tab_8.png"})
+	end
+	table.insert(self.tabBtnInfo , {name = TextDataMgr:getText(900318), icon = "ui/fairy/new_ui/tab_5.png"})
+	
+
 	self.heroPos = data.pos
 	self.gotoWhichTab = data.gotoWhichTab
 	self.skyladder = data.skyladder
@@ -73,6 +88,7 @@ function FairyDetailsLayer:initUI(ui)
 	self.Panel_left			= TFDirector:getChildByPath(ui, "Panel_left")
 	self.Panel_left_details = TFDirector:getChildByPath(ui, "Panel_left_details")
 	self.Panel_right 		= TFDirector:getChildByPath(ui, "Panel_right")
+	self.Panel_right.origin = self.Panel_right:getPosition()
 	self.Panel_crystal_points = TFDirector:getChildByPath(ui, "Panel_crystal_points")
 	self.Panel_tabs			= TFDirector:getChildByPath(ui, "Panel_tabs")
 	self.Panel_share        = TFDirector:getChildByPath(ui, "Panel_share")
@@ -291,13 +307,55 @@ function FairyDetailsLayer:initUI(ui)
 	table.insert(self.tabPanels,{pl = self.Panel_crystal,uiType = EC_FairyDetailUIType.Crystal})
 	table.insert(self.tabPanels,{pl = self.Panel_Equipment,uiType = EC_FairyDetailUIType.Equip})
 	table.insert(self.tabPanels,{pl = self.Panel_angel,uiType = EC_FairyDetailUIType.Angle})
-	table.insert(self.tabPanels,{pl = self.Panel_equip_suit,uiType = EC_FairyDetailUIType.NewEquip})
-	table.insert(self.tabPanels,{pl = self.Panel_baoshi,uiType = EC_FairyDetailUIType.BaoShi})
+	if GlobalFuncDataMgr:isOpen(8) then
+		table.insert(self.tabPanels,{pl = self.Panel_equip_suit,uiType = EC_FairyDetailUIType.NewEquip})
+	end
+	if GlobalFuncDataMgr:isOpen(9) then
+		table.insert(self.tabPanels,{pl = self.Panel_baoshi,uiType = EC_FairyDetailUIType.BaoShi})
+	end
+	
 	table.insert(self.tabPanels,{pl = self.Panel_skin,uiType = EC_FairyDetailUIType.Skin})
 
 	self.ListView_tab = UIListView:create(TFDirector:getChildByPath(ui, "ScrollView_tab"))
 	self.ListView_tab:setItemsMargin(1)
 	self.Button_tab_item = TFDirector:getChildByPath(ui, "Button_tab_item")
+
+	CommentDataMgr:sendReqAllComments({2,self.showHeroId})
+	self.Panel_danmu = TFDirector:getChildByPath(self.Panel_left,"Panel_danmu")
+	local pram = {
+	    parent = self.Panel_danmu,
+	    type = EC_DanmuType.EVALUATION,
+	    autoRun = true,
+	    rowNum = 6,
+	    resetIndex = true,  
+	}
+
+	self.danmuFrame = Utils:createDanmuFrame(pram)
+
+	self.Panel_evaluation = TFDirector:getChildByPath(self.Panel_right,"Panel_evaluation")
+	self.Panel_evaluation.origin = self.Panel_evaluation:getPosition()
+	self.Panel_EvaluationItem = TFDirector:getChildByPath(self.ui,"Panel_EvaluationItem")
+	self.lableItem = TFDirector:getChildByPath(self.ui,"Panel_newCommentLabel")
+
+	local ScrollView_Evaluation = TFDirector:getChildByPath(self.Panel_evaluation,"ScrollView_Evaluation")
+	self.uiList_Evaluation = UIListView:create(ScrollView_Evaluation)
+	self.TextField_Evaluation = TFDirector:getChildByPath(self.Panel_evaluation,"TextField_Evaluation")
+	self.label_evaluation = TFDirector:getChildByPath(self.Panel_evaluation,"label_evaluation")
+
+	self.Button_Evaluation = TFDirector:getChildByPath(self.Panel_evaluation,"Button_Evaluation")
+
+	local params = {
+        _type = EC_InputLayerType.OK,
+        buttonCallback = function()
+            self:onTouchSendBtn()
+        end,
+        closeCallback = function()
+            self:onCloseInputLayer()
+        end
+    }
+    self.inputLayer = require("lua.logic.common.InputLayer"):new(params)
+    self:addLayer(self.inputLayer,1000)
+
 
 	local skyLadderShowId = {[3] = 1,[4] = 1,[5] = 1}
 	for i=1,#self.tabBtnInfo do
@@ -361,6 +419,12 @@ function FairyDetailsLayer:initUI(ui)
 	self:updateLeftBar()
 end
 
+
+
+function FairyDetailsLayer:onTouchSendBtn()
+
+end
+
 function FairyDetailsLayer:updateLeftBar()
 
 	if self.isfriend then
@@ -414,6 +478,100 @@ function FairyDetailsLayer:angelBreakOver()
 	Utils:openView("fairyNew.FairyAngelBreakUpOverView",{heroId = self.showHeroId,lastLevel = self.angelBreakLevel})
 end
 
+function FairyDetailsLayer:onCloseInputLayer()
+    self.TextField_Evaluation:closeIME()
+end
+
+
+
+function FairyDetailsLayer:onCommentResult()
+    local toSendId = self.showHeroId
+
+    local msg = {2, toSendId}
+    CommentDataMgr:sendReqAllComments(msg)
+end
+
+function FairyDetailsLayer:onPriseResult()
+    local toSendId = self.showHeroId
+    local msg = {2, toSendId}
+    CommentDataMgr:sendReqAllComments(msg)
+end
+
+function FairyDetailsLayer:onGetAllComments(data)
+	local contentOffset 
+	if #self.uiList_Evaluation:getItems() > 0 then
+		contentOffset = self.uiList_Evaluation.scrollView_:getContentOffset()
+	end
+    self.uiList_Evaluation:removeAllItems()
+    local function handleEachInfo(info) 
+	    for i, v in ipairs(info) do
+	        local item = self.Panel_EvaluationItem:clone()
+	        local playerName = TFDirector:getChildByPath(item, "Label_name")
+	        local comment = TFDirector:getChildByPath(item, "Label_desc")
+	        local bg_other = TFDirector:getChildByPath(item, "bg_other")
+	        local bg_self = TFDirector:getChildByPath(item, "bg_self")
+	        local Panel_ydz = TFDirector:getChildByPath(item, "Panel_ydz")
+	        local Panel_wdz = TFDirector:getChildByPath(item, "Panel_wdz")
+	        local playerId = TFDirector:getChildByPath(item, "Label_number")
+
+
+	        local playerIcon = TFDirector:getChildByPath(item, "Image_icon")
+	        local upNum
+	        if  CCUserDefault:sharedUserDefault():getStringForKey(MainPlayer:getPlayerId() .. v.playerId .. v.commentDate) == "up" then
+	           	Panel_ydz:show()	
+	           	Panel_wdz:hide()
+				upNum = TFDirector:getChildByPath(Panel_ydz, "Label_up_num")
+	        else
+				upNum = TFDirector:getChildByPath(Panel_wdz, "Label_up_num")
+	        	Panel_wdz:show()
+	        	Panel_ydz:hide()
+	        end
+
+	        bg_self:setVisible(MainPlayer:getPlayerId() == v.playerId)
+	        bg_other:setVisible(MainPlayer:getPlayerId() ~= v.playerId)
+	        local Image_up = TFDirector:getChildByPath(Panel_wdz,"Image_up")
+	        Image_up:setTouchEnabled(true)
+	        Image_up:onClick(function()
+		            if  CCUserDefault:sharedUserDefault():getStringForKey(MainPlayer:getPlayerId() .. v.playerId .. v.commentDate) == "up" then
+		                return
+		            end
+		          	CCUserDefault:sharedUserDefault():setStringForKey(MainPlayer:getPlayerId() .. v.playerId .. v.commentDate, "up")
+		            local tempImg = TFImage:create("ui/fairy/evaluation/003.png")
+		            Image_up:addChild(tempImg)
+		            local scale = ScaleTo:create(0.2, 1.5)
+		            local fade = FadeOut:create(0.2)
+		            local remove = CallFunc:create(function() tempImg:removeFromParent() end)
+		            local spw = {scale, fade}
+		            local seq = {Spawn:create(spw), remove}
+		            tempImg:runAction(Sequence:create(seq))
+		            local toSendId = self.showHeroId
+
+		            local msg = {v.playerId, 2, toSendId, item:getTag()}
+		            CommentDataMgr:sendUp(msg)
+	            end)
+	        playerName:setText(v.name)
+	        comment:setText(v.comment)
+	        upNum:setText(v.prise < 9999 and v.prise or "9999+")
+	        playerId:setText(v.playerId)
+	        item:setTag(v.commentDate)
+	        playerIcon:setTexture(HeroDataMgr:getSmallIconPathByIdInEvaview(v.heroId))
+
+	        self.uiList_Evaluation:pushBackCustomItem(item)
+	    end
+	end
+    if data.hotInfo then
+        handleEachInfo(data.hotInfo)
+    end
+    if data.newInfo then
+        local lableItem = self.lableItem:clone()
+        self.uiList_Evaluation:pushBackCustomItem(lableItem)
+        handleEachInfo(data.newInfo)
+    end
+    if contentOffset then
+	    self.uiList_Evaluation.scrollView_:setContentOffset(contentOffset)
+	end
+end
+
 function FairyDetailsLayer:registerEvents()
 	-- EventMgr:addEventListener(self,EV_FORMATION_CHANGE,handler(self.onFormationChange, self));
     EventMgr:addEventListener(self,EV_HERO_LEVEL_UP,handler(self.heroInfoChange, self));
@@ -433,6 +591,10 @@ function FairyDetailsLayer:registerEvents()
 	EventMgr:addEventListener(self,EV_SKYLADDER_EQUIP,handler(self.onRecvUpdateSkyInfo, self))
 	EventMgr:addEventListener(self,EV_HERO_REFRESH_SPRIT,handler(self.spiritInfoChange, self))
 	EventMgr:addEventListener(self,EV_HERO_ANGEL_BREAK,handler(self.angelBreakOver, self))
+
+    EventMgr:addEventListener(self,EV_COMMENT_COMMENTRESULT,handler(self.onCommentResult, self));
+    EventMgr:addEventListener(self,EV_COMMENT_GETCOMMENT,handler(self.onGetAllComments, self));
+    EventMgr:addEventListener(self,EV_COMMENT_PRISERESULT,handler(self.onPriseResult, self));
 
     self:setBackBtnCallback(function()
     	local showid = self.showHeroId
@@ -456,6 +618,49 @@ function FairyDetailsLayer:registerEvents()
     		GameGuide:checkGuideEnd(self.guideFuncId)
 	    end)
     end
+
+     local function onTextFieldChangedHandleAcc(input)
+        local text = input:getText()
+        local list = string.UTF8ToCharArray(text)
+        if #list <= 40 then
+            local new_text = string.gsub(text, "·", "")
+            input:setText(new_text)	
+	        self.label_evaluation:setText(text)
+	        self.inputLayer:listener(text)
+        end
+    end
+
+    local function onTextFieldAttachAcc(input)
+        local text = ""
+        local new_text = string.gsub(text, "·", "")
+        input:setText(new_text)
+        self.inputLayer:show();
+        self.inputLayer:listener(input:getText())
+    end
+
+    self.TextField_Evaluation:addMEListener(TFTEXTFIELD_DETACH, onTextFieldChangedHandleAcc)
+    self.TextField_Evaluation:addMEListener(TFTEXTFIELD_ATTACH, onTextFieldAttachAcc)
+    self.TextField_Evaluation:addMEListener(TFTEXTFIELD_TEXTCHANGE, onTextFieldChangedHandleAcc)
+ 	self.label_evaluation:onClick(function()
+        self.label_evaluation:setText("")
+        self.label_evaluation.isSet = true
+        self.TextField_Evaluation:openIME()
+    end)
+    self.Button_Evaluation:onClick(function ()
+        local text = self.label_evaluation:getText()
+        if #text == 0 or not self.label_evaluation.isSet then
+            -- toastMessage("发送内容不能为空")
+            Utils:showTips(800104)
+        else
+            local toSendId = self.showHeroId
+
+            self.TextField_Evaluation:setText("")
+            self.label_evaluation:setText("")
+
+            local msg = {2, toSendId, text}
+            CommentDataMgr:sendComment(msg)
+        end
+    end)
 	
 	self.Button_upgrade:onClick(function()
 		self.notHide = true
@@ -506,13 +711,48 @@ function FairyDetailsLayer:registerEvents()
 		-- HeroDataMgr:getCrystalInfo(self.showHeroId)
 		GameGuide:checkGuideEnd(self.guideFuncId)
 	end)
+	
 
 	self.Button_eval:onClick(function()
+		-- 还原弹幕功能为旧的评价功能
+		-- TODO OPEN
 		local layer = require("lua.logic.fairyNew.EvaluationView"):new({heroOrEquip = 2, heroId = self.showHeroId, callfunc = function()
 			
 		end})
         AlertManager:addLayer(layer)
-        AlertManager:show()
+		AlertManager:show()
+
+		-- TO DO CLOSE
+        -- if not FunctionDataMgr:getModifyFuncIsOpen() then
+        --     Utils:showTips(63826)
+        --     return
+        -- end
+		
+  		-- if not self.Panel_danmu:isVisible() then
+	  	-- 	self.Button_eval:setTextureNormal("ui/fairy/evaluation/011.png")
+	  	-- 	self.Panel_danmu:show()
+	  	-- 	self.Panel_evaluation:show()
+	  	-- 	self:panelRightShow(self.Panel_evaluation)
+
+	  	-- 	for i,v in ipairs(self.tabButtons) do
+		-- 		if HeroDataMgr:getIsHave(self.showHeroId) then
+		-- 			v.btn:setTextureNormal("")
+		-- 			self:panelHide(v.panel)
+		-- 		end
+		-- 	end
+		-- else
+		-- 	self.Button_eval:setTextureNormal("ui/fairy/evaluation/012.png")
+		-- 	self.Panel_danmu:hide()
+		-- 	self:panelHide(self.Panel_evaluation)
+		-- 	for i,v in ipairs(self.tabButtons) do
+		-- 		if v.id == self.curSelectTab then
+		-- 			v.btn:setTextureNormal("ui/fairy/new_ui/tab_btn_select.png");
+		-- 			self.curPanel = v.panel
+		-- 			self:panelShow(v.panel)
+		-- 		end
+		-- 	end
+		-- end
+
 	end)
 
 	--微博分享
@@ -701,7 +941,7 @@ function FairyDetailsLayer:registerEvents()
 	end)
 
 	self.Button_angel_break:onClick(function()
-		self.angelBreakLevel = HeroDataMgr:getAngelBreakLevel(self.showHeroId)
+		self.angelBreakLevel = HeroDataMgr:getAngelBreakLevel(self.showHeroId,self.isfriend)
 		Utils:openView("fairyNew.FairyAngelEnergyBreakView",{heroId = self.showHeroId})
 	end)
 
@@ -843,9 +1083,17 @@ function FairyDetailsLayer:updateHeroBaseInfo()
 end
 
 function FairyDetailsLayer:onBottomBtnTouch(idx)
-	if self.curSelectTab == idx then
+	if self.curSelectTab == idx and not self.Panel_danmu:isVisible() then
 		return
 	end
+
+	local dressIdx = 5 
+	local isUseIdx = false
+	if GlobalFuncDataMgr:isOpen(8) and GlobalFuncDataMgr:isOpen(9) then
+		dressIdx = 7
+		isUseIdx = true
+	end
+
 
 	if idx == 2 then
 		if not FunctionDataMgr:checkFuncOpen(29) then
@@ -859,22 +1107,27 @@ function FairyDetailsLayer:onBottomBtnTouch(idx)
 		if not FunctionDataMgr:checkFuncOpen(31) then
 			return
 		end
-	elseif idx == 5 then
+	elseif idx == 5 and isUseIdx then
 		if not FunctionDataMgr:checkFuncOpen(80) then
 			return
 		end
-	elseif idx == 6 then
+	elseif idx == 6 and isUseIdx then
 		if not FunctionDataMgr:checkFuncOpen(107) then
 			return
 		end
 	end
+
+	local isEvaluation = self.Panel_danmu:isVisible()
+	self.Button_eval:setTextureNormal("ui/fairy/evaluation/012.png")
+	self.Panel_danmu:hide()
+	self:panelHide(self.Panel_evaluation)
 
 	self.curSelectTab = idx
 	self.gotoWhichTab = idx
 	for i,v in ipairs(self.tabButtons) do
 		if v.id == idx then
 			v.btn:setTextureNormal("ui/fairy/new_ui/tab_btn_select.png");
-			if self.curPanel ~= v.panel then
+			if self.curPanel ~= v.panel or isEvaluation then
 				self.curPanel = v.panel
 				self:panelShow(v.panel)
 			end
@@ -886,7 +1139,10 @@ function FairyDetailsLayer:onBottomBtnTouch(idx)
 		end
 	end
 
-	if idx == 7 then
+	
+
+
+	if idx == dressIdx then
 		if self.showSkinID ~= HeroDataMgr:getCurSkin(self.showHeroId) then
 			self.anim_hero = Utils:createHeroModel(self.showHeroId, self.Image_hero)
 			self.showSkinID = HeroDataMgr:getCurSkin(self.showHeroId)
@@ -908,7 +1164,7 @@ function FairyDetailsLayer:onBottomBtnTouch(idx)
 	end
 
 	
-	if idx == 7 then
+	if idx == dressIdx then
 		self:updateSkinBtnState()
 	elseif idx == 3 then
 		self:updateEquipLayer()
@@ -916,10 +1172,12 @@ function FairyDetailsLayer:onBottomBtnTouch(idx)
 		self:updateAngelLayer()
 	elseif idx == 2 then
 		self:updateCrystalLayer()
-	elseif idx == 5 then
+	elseif idx == 5 and isUseIdx then
 		self:updateEquipSuitLayer()
-	elseif idx == 6 then
-		self:updateBaoshiLayer()		
+	elseif idx == 6 and isUseIdx then
+		self:updateBaoshiLayer()
+	elseif idx == 1 then	
+		self:updateHeroBaseInfo()	
 	end
 
 	local showAngelFlag = self.curPanel == self.Panel_angel or self.curPanel == self.Panel_baoshi
@@ -949,7 +1207,7 @@ function FairyDetailsLayer:onBottomBtnTouch(idx)
 	self.Image_suit_bg:setVisible(not (btn == self.Button_tab_4))
 	self.Label_suit_name:setVisible(not (btn == self.Button_tab_4))
 
-	if idx == 7 then
+	if idx == dressIdx then
 		self.showSkinID = self.skinItemsList_[1].skinId
 		self.skinScrollView:setVisible(true)
 		self.skinScrollView:setOpacity(0)
@@ -2020,7 +2278,7 @@ function FairyDetailsLayer:panelRightShow(panel)
 
 	panel:stopAllActions();
 	panel:setOpacity(0);
-	panel:setPositionX(panel:getPositionX() + 20)
+	panel:setPositionX(panel.origin.x + 20)
 
 	local actions = {
 		CCMoveBy:create(0.2,ccp(-20,0));
@@ -2288,6 +2546,12 @@ function FairyDetailsLayer:onHide()
 		self:panelRightHide(self.Panel_right)
 		self:panelLeftHide(self.Panel_tabs)
 	end
+end
+
+function FairyDetailsLayer:removeEvents( ... )
+	-- body
+	self.super.removeEvents(self)
+	self.danmuFrame:removeEvents()
 end
 
 

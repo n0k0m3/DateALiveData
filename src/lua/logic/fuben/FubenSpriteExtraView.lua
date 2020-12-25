@@ -173,7 +173,7 @@ function FubenSpriteExtraView:updateLevelDetail()
         isFirstPass = true
     end
     self.listview_reward:removeAllItems()
-    local multipleReward, extraReward = ActivityDataMgr2:getDropReward(dropCid)
+    local multipleReward, extraReward, allMultiple = ActivityDataMgr2:getDropReward(dropCid)
     -- 掉落活动额外掉落
     for i, v in ipairs(extraReward) do
         local Panel_dropGoodsItem = PrefabDataMgr:getPrefab("Panel_dropGoodsItem"):clone()
@@ -191,6 +191,10 @@ function FubenSpriteExtraView:updateLevelDetail()
         if multiple then
             flag = bit.bor(flag, EC_DropShowType.ACTIVITY_MULTIPLE)
             arg.multiple = multiple
+        end
+        if allMultiple > 0 then
+            flag = bit.bor(flag, EC_DropShowType.ACTIVITY_MULTIPLE)
+            arg.multiple = allMultiple
         end
         if isFirstPass then
             flag = bit.bor(flag, EC_DropShowType.FIRST_PASS)

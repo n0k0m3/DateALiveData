@@ -306,11 +306,12 @@ function TeamPveLevelView:playTaskDating(taskId)
     if taskDating then
         local list = taskDating[taskId]
         if list then
-            for k,v in pairs(list) do
-                local isDating = UserDefalt:getStringForKey("isDating"..MainPlayer:getPlayerId().."datingId"..v)
+            local datingId = list[self.trainDungeonCid]
+            if datingId then
+                local isDating = UserDefalt:getStringForKey("isDating"..MainPlayer:getPlayerId().."datingId"..datingId)
                 if isDating ~= "true" then
-                    UserDefalt:setStringForKey("isDating"..MainPlayer:getPlayerId().."datingId"..v,"true")
-                    FunctionDataMgr:jStartDating(v)
+                    UserDefalt:setStringForKey("isDating"..MainPlayer:getPlayerId().."datingId"..datingId,"true")
+                    FunctionDataMgr:jStartDating(datingId)
                     return true
                 end
             end

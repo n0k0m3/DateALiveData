@@ -213,9 +213,9 @@ local function TFLabel_setFontName(self, fontName)
     end
 
     --添加多语言字体切换功能
-    local language = GAME_LANGUAGE_VAR
-    if language ~= "" then
-        local fontFileNew = string.gsub(fontName , "%." ,language..".")
+	local code = TFLanguageMgr:getUsingLanguageCode("_")
+    if code ~= "" then
+        local fontFileNew = string.gsub(fontName , "%." ,code..".")
         if TFFileUtil:existFile(fontFileNew) then 
             fontName = fontFileNew
         end

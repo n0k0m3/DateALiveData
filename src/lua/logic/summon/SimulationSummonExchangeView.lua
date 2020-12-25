@@ -79,7 +79,23 @@ function SimulationSummonExchangeView:registerEvents()
 			Utils:openView("summon.SimulationSummonExchangeTipsView",self.cid_, _foo.record.order, self.replaceDatas_)
 		end
 	end)
-	 
+
+	self.Image_unlock_bg:onClick(function()
+		if self.cid_ then
+			local itemId
+			local cfg = TabDataMgr:getData("SimulatedCall", self.cid_)
+			if cfg then
+				for k, v in pairs(cfg.exchangeConsump) do
+					itemId = k
+					break
+				end
+			end
+			if itemId then
+				Utils:showInfo(itemId)
+			end
+
+		end
+	end)
 end
 
 

@@ -83,12 +83,15 @@ end
 
 function UITurnView:scrollToItem(index)
     self.selectIndex_ = index
-
     if not self.doLayoutDirty_ then
         local w = self.contentSize_.width - self.innerContentSize_.width
         if w ~= 0 then
+            local containerOffset = self.scrollView_:getContentOffset()
+            local _percent = -containerOffset.x*100 / w
             local percent = (index - 1) * self.modelSize_.width * 100 / w
-            self.scrollView_:scrollToPercentHorizontal(percent, 0.5, true)
+            if math.abs(math.abs(percent) - math.abs(_percent)) >= 0 then
+                self.scrollView_:scrollToPercentHorizontal(percent, 0.5, true)
+            end
         end
         if self.selectCallback_ then
             self.selectCallback_(self, index)
@@ -147,6 +150,7 @@ function UITurnView:onChangedEvent()
 
     local offsetRate = {}
     local customOffsetRate = {}
+	local minIndex, minOffsetX
     for i, v in ipairs(self.itemOffset_) do
         local pos = ccpAdd(v, containerOffset)
         local offsetX =  self.middlePosition_.x - pos.x
@@ -155,9 +159,19 @@ function UITurnView:onChangedEvent()
         local rate2 = math.abs(offsetX) / self.customRateOffset_
         offsetRate[i] = rate1
         customOffsetRate[i] = rate2
+
+        if minIndex then
+            if math.abs(offsetX) < math.abs(minOffsetX) then
+                minOffsetX = offsetX
+                minIndex = i
+            end
+        else
+            minIndex = i
+            minOffsetX = offsetX
+        end
     end
     if self.scrollCallback_ then
-        self.scrollCallback_(self, offsetRate, customOffsetRate)
+        self.scrollCallback_(self, offsetRate, customOffsetRate,minIndex)
     end
 end
 

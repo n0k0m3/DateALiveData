@@ -146,7 +146,7 @@ function BaoshiDetailView:refreshInfoUI()
     self.Label_hero_name:setText(HeroDataMgr:getNameById(self.heroId))
     local skillCfg = TabDataMgr:getData("PassiveSkills",cfg.baseSkill)
     local skillDesc = TextDataMgr:getTextAttr(tonumber(skillCfg.des)).text
-    skillDesc = string.gsub(skillDesc, "#", cfg.skillName)
+    skillDesc = string.gsub(skillDesc, "#", TextDataMgr:getText(cfg.skillName))
     self.Label_angel_name:setText(skillDesc)
 
     self.Image_grade:setTexture(EquipmentDataMgr:getGemRarityIcon(cfg.rarity))
@@ -198,7 +198,7 @@ function BaoshiDetailView:refreshSkillItems()
             Image_skill_icon:setTexture(skillCfg.icon)
             local cfg = EquipmentDataMgr:getGemCfg(data.cid)
             local skillDesc = TextDataMgr:getTextAttr(tonumber(skillCfg.des)).text
-            skillDesc = string.gsub(skillDesc, "#", cfg.skillName)
+            skillDesc = string.gsub(skillDesc, "#", TextDataMgr:getText(cfg.skillName))
             Label_skill_desc:setText(skillDesc)
             Button_show:setVisible(true)
         else

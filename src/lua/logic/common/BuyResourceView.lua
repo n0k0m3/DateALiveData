@@ -22,7 +22,7 @@ function BuyResourceView:initData(itemId)
     end
 end
 
-function BuyResourceView:ctor(...)
+function BuyResourceView:ctor(...) 
     self.super.ctor(self)
     self:initData(...)
     self:showPopAnim(true)

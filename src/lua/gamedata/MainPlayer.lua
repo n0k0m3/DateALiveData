@@ -9,7 +9,7 @@ local MainPlayer = class("MainPlayer")
 local TFClientUpdate =  TFClientResourceUpdate:GetClientResourceUpdate()
 
 function MainPlayer:ctor(...)
-    self.strCfg = require("lua.table.String" ..GAME_LANGUAGE_VAR)
+    self.strCfg = TFGlobalUtils:requireGlobalFile("lua.table.StartString")
     self:init()
 
     if DEBUG == 1 then
@@ -35,6 +35,10 @@ function MainPlayer:init()
     TFDirector:addProto(s2c.PLAYER_RES_CHANGE_ANTI_ADDICTION, self, self.resDoAntiAddiction)
     TFDirector:addProto(s2c.PLAYER_RES_REPORT_AD, self, self.onReportPlayer)
     TFDirector:addProto(s2c.PLAYER_UPDATE_REFRESH_TIME, self, self.onRecvRefreshTime)
+    TFDirector:addProto(s2c.PLAYER_RESP_INVESTOR_SCORE_INFO, self, self.onRecvInvestorScoreInfo)
+    TFDirector:addProto(s2c.PLAYER_RESP_RED_POINT, self, self.onRecvRedPointStatusByServer)
+    TFDirector:addProto(s2c.ACTIVITY_RESP_SWITCH_LIST, self, self.onRespSwitchList)
+    TFDirector:addProto(s2c.ACTIVITY_RESP_CHANGE_SWITCH, self, self.onRespChangeSwitch)
 
 
     local enterBackgroundFunc = function()
@@ -77,35 +81,12 @@ function MainPlayer:init()
 
     self.sdkAccountStatus = "0"
     self.sdkAccountTime = ServerDataMgr:getServerTime()
+    --服务器保存的开关列表
+    self.switchList = {}
 end
 
 function MainPlayer:getServerTimeBeforeLoginFuc()
-    --TODO CLOSE
-    -- if  CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 or VERSION_DEBUG == true then
-    --      LOGIN_URL = "http://192.168.20.182:8081/account/querydate"
-    --  else
-    --      if RELEASE_TEST then
-    --          LOGIN_URL = "http://49.233.184.62:8081/account/querydate"
-    --      elseif HeitaoSdk and math.floor(HeitaoSdk.getplatformId() / 10000) == 3 then
-    --          LOGIN_URL = "http://uch.datealive.com:8081/account/querydate"
-    --      else
-    --          LOGIN_URL = "https://uc.datealive.com:8082/account/querydate"
-    --      end
-    --  end
-	
-    --登陆前获取服务器时间改为英文地址
-    if  CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 or VERSION_DEBUG == true then
-        LOGIN_URL = "http://192.168.20.27:8980/account/querydate"
-    else 
-        if CC_TARGET_PLATFORM == CC_PLATFORM_IOS then
-             LOGIN_URL = "https://uc-en.datealive.com:8082/account/querydate"
-        else
-             LOGIN_URL = "http://uc-en.datealive.com:8081/account/querydate"
-        end       
-       
-    end
-
-    HttpHelper:get(LOGIN_URL,function(data)
+    HttpHelper:get(URL_LOGIN_QUERYDATE,function(data)
         data = json.decode(data)
         if data then
             self.localtime = os.time();
@@ -245,14 +226,17 @@ function MainPlayer:loadLocalFile()
     -- 登錄前獲取時間
     self:getServerTimeBeforeLoginFuc();
 
-    self.strCfg = require("lua.table.String" ..GAME_LANGUAGE_VAR)
+    self.strCfg = TFGlobalUtils:requireGlobalFile("lua.table.StartString")
+
     --移除playmore搜索路径
     local sdPath = TFDeviceInfo.getSDPath()
     if sdPath and #sdPath >1 then   
         local sPackName = TFDeviceInfo.getPackageName()
         local playmorePath = sdPath .."playmore/" .. sPackName .. "/TFDebug/" 
         print_("playmorePath:"..tostring(playmorePath))
-        CCFileUtils:sharedFileUtils():removeSearchPath(playmorePath)
+        if not RELEASE_TEST then
+            CCFileUtils:sharedFileUtils():removeSearchPath(playmorePath)
+        end
     end
 
     local function _loadLocalFile(curIndex)
@@ -270,7 +254,7 @@ function MainPlayer:loadLocalFile()
                     bar_load:setPercent(100)
                 end
                 if (txt_update) then
-                    txt_update:setSystemFontText(self.strCfg[800060].text)
+                    txt_update:setText(self.strCfg[800060].text)
                 end
                 _G["MainPlayer"] = MainPlayer:new()
 
@@ -321,9 +305,9 @@ function MainPlayer:loadLocalFile()
 
                 if (txt_update) then
                     if (bar_load:getPercent() >= 100) then
-                        txt_update:setSystemFontText(self.strCfg[800060].text)
+                        txt_update:setText(self.strCfg[800060].text)
                     else
-                        txt_update:setSystemFontText(self.strCfg[800061].text)
+                        txt_update:setText(self.strCfg[800061].text)
                     end
                 end
             end
@@ -385,8 +369,9 @@ function MainPlayer:updateShortcut()
 
     print("建号时间：", self.createTime)
     if self.playerInfo.clientDiscreteData and self.playerInfo.clientDiscreteData ~= "" then
-        self.clientDiscreteData   = json.decode(self.playerInfo.clientDiscreteData);
+        self.clientDiscreteData = json.decode(self.playerInfo.clientDiscreteData);
     end
+
     self:updateStringByServer()
 
     EventMgr:dispatchEvent(EV_UPDATE_PLAYERINFO)
@@ -395,6 +380,17 @@ end
 
 function MainPlayer:updateStringByServer()
     if not self.clientDiscreteData then return end
+
+    local warnTime = self.clientDiscreteData.warnTime
+    if warnTime and self.warnTimeKeep ~= warnTime then
+        if nil == self.warnTimeKeep then
+            Utils:showAnitAddictionLayer(warnTime, false)
+        else
+            Utils:showAnitAddictionLayer(warnTime, true)
+        end
+        self.warnTimeKeep = warnTime
+    end
+
     local clientString = self.clientDiscreteData.clientString
     for k, v in pairs(clientString or {}) do
         TabDataMgr:updateString(k, v)
@@ -483,6 +479,20 @@ function MainPlayer:onRecvRefreshTime(event)
     end
 end
 
+--获取对应的回复时间
+function MainPlayer:getRecoverTime(index)
+    if not self.playerInfo or not self.playerInfo.recoverTimeList then
+        return 0
+    end
+
+    local recoverTimeList = self.playerInfo.recoverTimeList or {}
+    if index > #recoverTimeList then
+        return 0
+    else
+        return recoverTimeList[index]
+    end
+end
+
 function MainPlayer:onReportPlayer(event)
     local data = event.data
     if not data then return end
@@ -546,6 +556,72 @@ function MainPlayer:setAssist(heroId)
     local sid = HeroDataMgr:getHeroSid(heroId)
     local msg = {tostring(sid)}
     TFDirector:send(c2s.PLAYER_CHANGE_HELP_FIGHT_HERO, msg)
+end
+
+function MainPlayer:sendReqInvestorScoreInfo()
+   TFDirector:send(c2s.PLAYER_REQ_INVESTOR_SCORE_INFO, {}) 
+end
+
+function MainPlayer:onRecvInvestorScoreInfo(event)
+    local data = event.data
+    print("投资人积分返回：", data)
+    self.scoreInfo = data
+   
+end
+
+function MainPlayer:onRecvRedPointStatusByServer(event)
+    -- body
+    local data = event.data
+    if not data then return end
+    self.serverRedPointStatus = self.serverRedPointStatus or {}
+    self.serverRedPointStatus[data.id] = data.isShow
+    EventMgr:dispatchEvent(EV_RED_POINT_UPDATE_BY_SERVER)
+end
+
+function MainPlayer:getRedPointStatusByServer( redFunctionId )
+    -- body
+    self.serverRedPointStatus = self.serverRedPointStatus or {}
+    return self.serverRedPointStatus[redFunctionId]
+end
+
+--登录请求开关列表
+function MainPlayer:sendReqSwitchList()
+    TFDirector:send(c2s.ACTIVITY_REQ_SWITCH_LIST, {}) 
+end
+
+--请求改变的开关
+function MainPlayer:sendReqChangeSwitch(switch)
+    TFDirector:send(c2s.ACTIVITY_REQ_CHANGE_SWITCH, {switch}) 
+end
+
+function MainPlayer:onRespSwitchList(event)
+    local data = event.data
+    if not data then return end
+
+    for k, v in ipairs(data.switch or {}) do
+        self.switchList[v.type] = v.value
+    end
+end
+
+function MainPlayer:onRespChangeSwitch(event)
+    local data = event.data
+    if not data then return end
+
+    for k, v in ipairs(data.switch or {}) do
+        self.switchList[v.type] = v.value
+        EventMgr:dispatchEvent(EV_PLAYER_SWITCH_UPDATE)
+    end
+end
+
+function MainPlayer:getSwitchByType(type)
+    return self.switchList[type] or 0
+end
+
+function MainPlayer:checkScoreInfo()
+    if self.scoreInfo and not self.scoreInfo.asked then
+        self.scoreInfo.asked = true
+       Utils:openView("activity.Activity_touzhirenTip",self.scoreInfo)
+    end
 end
 
 function MainPlayer:getAssistId()
@@ -767,7 +843,8 @@ function MainPlayer:onLogin(event)
             end
         end
     end
-
+    self:sendReqInvestorScoreInfo()
+    self:sendReqSwitchList()
     timer = TFDirector:addTimer(0, -1, nil,step);
 end
 
@@ -775,6 +852,8 @@ function MainPlayer:onLoginOut()
     if not self.dataMgr_ then
         return;
     end
+
+    Utils:closeAnitAddictionLayer()
 
     for i, v in ipairs(self.dataMgr_) do
         if type(v.onLoginOut) == "function" then
@@ -786,11 +865,26 @@ function MainPlayer:onLoginOut()
     self.onLoginStatusFlag = {}
 end
 
+--登陆游侠前的数据重置
+function MainPlayer:resteBeforeLogin()
+    if not self.dataMgr_ then
+        return
+    end
+
+    for i, v in ipairs(self.dataMgr_) do
+        if type(v.onLoginOut) == "function" then
+            v:reset()
+            v:onLoginOut()
+        end
+    end
+end
+
 function MainPlayer:reset()
     self.isEnterGame = false;
     self.isNewRole = nil
     self.phoneNum = nil;
     self.antiAddication = 0;
+    self.switchList = {}
     self:stopHeartBeat()
     self:onLoginOut();
 
@@ -823,7 +917,7 @@ function MainPlayer:checkVersion()
         self.CheckingUpdates = false;
         local version       =  TFClientUpdate:getCurVersion()
         local LatestVersion =  TFClientUpdate:getLatestVersion()
-        local Content       =  TFClientUpdate:GetUpdateContent()
+        local Content       =  TFClientUpdate:GetUpdateContent(TFLanguageMgr:getUsingLanguage())
         local totalSize     =  TFClientUpdate:GetTotalDownloadFileSize()
 
         print("===========find new version===========")
@@ -871,7 +965,7 @@ function MainPlayer:checkVersion()
 
             if UPDATE_RETRY_TIME % 2 == 0 then
                 CDN_INDEX = CDN_INDEX + 1;
-                if CDN_INDEX > #VersionPaths then
+                if CDN_INDEX > #URL_CDN_VERSION then
                     CDN_INDEX = 1
                 end
             end
@@ -881,8 +975,8 @@ function MainPlayer:checkVersion()
     if CDN_INDEX == 0 then
         CDN_INDEX = 1;
     end
-    dump({CDN_INDEX,VersionPaths[CDN_INDEX],FilePaths[CDN_INDEX]});
-    TFClientUpdate:CheckUpdate(VersionPaths[CDN_INDEX], FilePaths[CDN_INDEX], checkNewVersionCallBack, StatusUpdateHandle)
+    dump({CDN_INDEX,URL_CDN_VERSION[CDN_INDEX],URL_CDN_FILE[CDN_INDEX]});
+    TFClientUpdate:CheckUpdate(URL_CDN_VERSION[CDN_INDEX], URL_CDN_FILE[CDN_INDEX], checkNewVersionCallBack, StatusUpdateHandle)
 end
 
 function MainPlayer:setOneLoginStatus(statusType, status)
@@ -938,6 +1032,60 @@ function MainPlayer:setShareSdkState(state)
         HeitaoSdk.luaToClient("setScreenshotShareEnabled",json.encode(t))
     end
 
+end
+
+function MainPlayer:getTouzirenLevel()
+    -- body
+    local investorcfg = TabDataMgr:getData("Investor",1)
+    local investorLevelCfg = TabDataMgr:getData("InvestorLevel")
+
+    local curCount = GoodsDataMgr:getItemCount(investorcfg.itemId)
+    local level = 0
+    local maxCount = 0
+
+    for k,v in ipairs(investorLevelCfg) do
+        if curCount*1000 < v.experiences then
+            maxCount = v.experiences
+            break;
+        end
+
+        if k == #investorLevelCfg then
+            maxCount = v.experiences
+        end
+        level = v.lv
+    end
+
+    return level, curCount, math.floor(maxCount/1000), investorLevelCfg[#investorLevelCfg].lv
+end
+
+function MainPlayer:checkTzrTypeInfo()
+    local investorcfg = TabDataMgr:getData("Investor",1)
+    local typeId = investorcfg.battenId
+    local info = FunctionDataMgr:getMainFuncInfo(typeId);
+    if info and info.openWelfare then
+        FunctionDataMgr:send_PLAYER_REQ_OPEN_WELFARE_INFO(info.type)
+    else
+        return
+    end
+    local playerid                      = self:getPlayerId()
+
+    local groupId = 0
+    local pfid = 0
+    if HeitaoSdk then
+        groupId = math.floor(HeitaoSdk.getplatformId() / 10000)
+        pfid = HeitaoSdk.getplatformId() % 10000
+    end
+    local createTime = self:getCreateTime()
+    local playerLv = self:getPlayerLv()
+    local point = GoodsDataMgr:getItemCount(investorcfg.itemId)
+
+    local timestamp = ServerDataMgr:getServerTime()
+    local key = "8ec346ff4c80635f667d1592ae"
+    local token = md5.sumhexa(groupId..pfid..playerid..point..timestamp..key)
+    local attach = "&sid=" .. groupId .. "&role_id=" .. playerid .. "&person_points=" .. point
+    attach = attach .. "&create_time=" .. createTime .. "&timestamp=" .. timestamp .. "&sign=" .. token
+
+    Utils:showWebView(info.welfareUrl, nil, nil, attach) 
 end
 
 return MainPlayer

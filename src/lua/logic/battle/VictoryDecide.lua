@@ -39,6 +39,7 @@ function VictoryDecide.init(data, agent)
     --计算剩余时间
     if this.nViewType == EC_LevelPassCond.DESTORY 
     or this.nViewType == EC_LevelPassCond.SPECIFICID
+    or this.nViewType == EC_LevelPassCond.SPECIFICTYPE
     or this.nViewType == EC_LevelPassCond.SPECIFICCOUNT
     or this.nViewType == EC_LevelPassCond.WAVE  --波次
     or this.nViewType == EC_LevelPassCond.SURVIVAL
@@ -50,6 +51,7 @@ function VictoryDecide.init(data, agent)
     or this.nViewType == EC_LevelPassCond.SCORE3
     or this.nViewType == EC_LevelPassCond.LIMIT_TIME_KILL2 -- 日常副本(限时杀怪)
     or this.nViewType == EC_LevelPassCond.TIMING  -- 日常副本计时
+    or this.nViewType == EC_LevelPassCond.HALLOWEEN_DESTORY
     or this.nViewType == EC_LevelPassCond.GUARDMODE_3 then
         -- this.nSecondTime    = cfg.victoryParam[1]
         -- this.nRemainingTime = cfg.victoryParam[1]*1000
@@ -337,6 +339,7 @@ end
 function VictoryDecide.update(dt)
     if this.nViewType == EC_LevelPassCond.DESTORY 
     or this.nViewType == EC_LevelPassCond.SPECIFICID 
+    or this.nViewType == EC_LevelPassCond.SPECIFICTYPE
     or this.nViewType == EC_LevelPassCond.SPECIFICCOUNT
     or this.nViewType == EC_LevelPassCond.WAVE 
     or this.nViewType == EC_LevelPassCond.SURVIVAL 
@@ -348,6 +351,7 @@ function VictoryDecide.update(dt)
     or this.nViewType == EC_LevelPassCond.SCORE3
     or this.nViewType == EC_LevelPassCond.LIMIT_TIME_KILL2 -- 日常副本(限时杀怪)
     or this.nViewType == EC_LevelPassCond.TIMING  -- 日常副本计时
+    or this.nViewType == EC_LevelPassCond.HALLOWEEN_DESTORY 
     or this.nViewType == EC_LevelPassCond.SCORE then
     -- or this.nViewType == EC_LevelPassCond.GUARDMODE then  --守护模式没有时间限制 @周浩然
         this.scoreUpdate(dt)
@@ -377,9 +381,11 @@ function VictoryDecide.checkResult()
     --只倒计时判定
     if this.nViewType == EC_LevelPassCond.DESTORY 
     or this.nViewType == EC_LevelPassCond.SPECIFICID 
+    or this.nViewType == EC_LevelPassCond.SPECIFICTYPE
     or this.nViewType == EC_LevelPassCond.SPECIFICCOUNT
     -- or this.nViewType == EC_LevelPassCond.SCORE2 
     or this.nViewType == EC_LevelPassCond.GUARDMODE_3
+    or this.nViewType == EC_LevelPassCond.HALLOWEEN_DESTORY
     or this.nViewType == EC_LevelPassCond.WAVE then
     -- or this.nViewType == EC_LevelPassCond.GUARDMODE then --守护模式没有时间限制 @周浩然
     -- or this.nViewType == EC_LevelPassCond.SURVIVAL then --生存模式时间到了不做胜利判定,胜利判定交由触发器完成
@@ -399,12 +405,18 @@ function VictoryDecide.checkResult()
         end
     elseif this.nViewType == EC_LevelPassCond.SURVIVAL_HURT then 
         if this.nRemainingTime <= 0 then
-            if not EventTrigger.controller.flightMode then
-                local isAllDied = EventTrigger.controller.getTeam():isAllDestoryByCampTyp(eCampType.Hero)
-                if isAllDied == true then
+            if this.data[1].victoryParam[3] then
+                if this.data[1].victoryParam[3] == 1 then
                     EventTrigger.controller.endBattle(false)
-                else
-                    EventTrigger.controller.endBattle(true)
+                end
+            else
+                if not EventTrigger.controller.flightMode then
+                    local isAllDied = EventTrigger.controller.getTeam():isAllDestoryByCampTyp(eCampType.Hero)
+                    if isAllDied == true then
+                        EventTrigger.controller.endBattle(false)
+                    else
+                        EventTrigger.controller.endBattle(true)
+                    end
                 end
             end
         else

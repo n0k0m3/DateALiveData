@@ -42,6 +42,7 @@ function SxBirthdayTravelView:addTaskItem()
     foo.Image_receive_bg = TFDirector:getChildByPath(foo.root, "Image_receive_bg")
     foo.Label_name = TFDirector:getChildByPath(foo.Image_receive_bg, "Label_name")
     foo.Image_geted_bg = TFDirector:getChildByPath(foo.root, "Image_geted_bg")
+	foo.finishMask = TFDirector:getChildByPath(foo.root, "finishMask")
     foo.Label_name_geted = TFDirector:getChildByPath(foo.Image_geted_bg, "Label_name_geted")
     foo.Image_percent = TFDirector:getChildByPath(foo.root, "Image_percent")
     foo.LoadingBar_percent = TFDirector:getChildByPath(foo.Image_percent, "LoadingBar_percent")
@@ -52,6 +53,9 @@ function SxBirthdayTravelView:addTaskItem()
     foo.Label_receive = TFDirector:getChildByPath(foo.Button_receive, "Label_receive")
     foo.Label_geted = TFDirector:getChildByPath(foo.root, "Label_geted")
     foo.Label_ing = TFDirector:getChildByPath(foo.root, "Label_ing")
+	foo.Label_Title = TFDirector:getChildByPath(foo.root, "Label_Title")
+	foo.Label_Title:setTextById(13300446)
+
     self.taskItems_[foo.root] = foo
     self.ListView_task:pushBackCustomItem(foo.root)
 end
@@ -64,8 +68,25 @@ function SxBirthdayTravelView:updateAllTaskItem()
     if not self.activityId_ then return end
 
     local taskData = ActivityDataMgr2:getItems(self.activityId_)
+	local tempTaskData = {}
+	for i, val in ipairs(taskData) do
+		local task = {id = val}
+		local progressInfo = ActivityDataMgr2:getProgressInfo(self.activityInfo_.activityType, val)
+		if progressInfo.status == EC_TaskStatus.GET then
+			task.order = 1
+		elseif progressInfo.status == EC_TaskStatus.ING then
+			task.order = 2
+		elseif progressInfo.status == EC_TaskStatus.GETED then
+			task.order = 3
+		end
+		table.insert(tempTaskData, task)
+	end
+	table.sort(tempTaskData, function(a,b)		
+		return a.order < b.order
+	end)
+
     local items = self.ListView_task:getItems()
-    local gap = #taskData - #items
+    local gap = #tempTaskData - #items
     for i = 1, math.abs(gap) do
         if gap > 0 then
             self:addTaskItem()
@@ -76,15 +97,17 @@ function SxBirthdayTravelView:updateAllTaskItem()
         end
     end
 
-    for i, v in ipairs(taskData) do
+    for i, v in ipairs(tempTaskData) do
         local item = self.ListView_task:getItem(i)
         local foo = self.taskItems_[item]
-        local taskInfo = ActivityDataMgr2:getItemInfo(self.activityInfo_.activityType, v)
-        local progressInfo = ActivityDataMgr2:getProgressInfo(self.activityInfo_.activityType, v)
+        local taskInfo = ActivityDataMgr2:getItemInfo(self.activityInfo_.activityType, v.id)
+		dump(taskInfo)
+        local progressInfo = ActivityDataMgr2:getProgressInfo(self.activityInfo_.activityType, v.id)
         foo.Label_name:setText(taskInfo.extendData.des2)
         foo.Label_name_geted:setText(taskInfo.extendData.des2)
         foo.Image_receive_bg:setVisible(progressInfo.status ~= EC_TaskStatus.GETED)
         foo.Image_geted_bg:setVisible(progressInfo.status == EC_TaskStatus.GETED)
+		foo.finishMask:setVisible(progressInfo.status == EC_TaskStatus.GETED)
         foo.Label_ing:setVisible(progressInfo.status == EC_TaskStatus.ING)
         foo.Button_receive:setVisible(progressInfo.status == EC_TaskStatus.GET)
         foo.Label_geted:setVisible(progressInfo.status == EC_TaskStatus.GETED)
@@ -101,7 +124,7 @@ function SxBirthdayTravelView:updateAllTaskItem()
         end
 
         foo.Button_receive:onClick(function()
-                ActivityDataMgr2:send_ACTIVITY_NEW_SUBMIT_ACTIVITY(self.activityId_, v)
+                ActivityDataMgr2:send_ACTIVITY_NEW_SUBMIT_ACTIVITY(self.activityId_, v.id)
         end)
         dump(taskInfo)
     end

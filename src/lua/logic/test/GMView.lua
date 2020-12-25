@@ -80,6 +80,22 @@ function GMView:initUI(ui)
     self.TextField_addItem = TFDirector:getChildByPath(self.Panel_quick, "Panel_addItem.TextField_addItem")
     self.Button_favor = TFDirector:getChildByPath(self.Panel_quick, "Button_favor")
     self.Button_getDate = TFDirector:getChildByPath(self.Panel_quick, "Button_getDate")
+    self.Button_closeSocket = TFDirector:getChildByPath(self.Panel_quick, "Button_closeSocket")
+
+    self.btn_demo = TFDirector:getChildByPath(ui, "btn_demo"):hide()
+    self.Button_funTest = TFDirector:getChildByPath(self.Panel_quick, "Button_funTest")
+    local btn_list = TFDirector:getChildByPath(self.Panel_quick, "btn_list"):hide()
+    self.btnList = UIListView:create(btn_list)
+    self.btnList:setItemsMargin(1)
+    self:addFunBtn("特权")
+    self:addFunBtn("个人特权")
+    self:addFunBtn("时装活动")
+    self:addFunBtn("周年庆商店")
+    self:addFunBtn("气球活动")
+    self:addFunBtn("进入周年庆大世界")
+    self:addFunBtn("新补给站")
+    self:addFunBtn("模拟召唤")
+    self:addFunBtn("周年庆活动")
 
     self.Panel_summon =  TFDirector:getChildByPath(self.Panel_root, "Panel_summon")
     self.TextField_PoolId = TFDirector:getChildByPath(self.Panel_summon, "TextField_PoolId")
@@ -128,6 +144,13 @@ function GMView:initUI(ui)
     self:chooseTestType(TestType.Normal)
 end
 
+function GMView:addFunBtn(name)
+    local btnItem = self.btn_demo:clone()
+    btnItem:show()
+    local btn_label = TFDirector:getChildByPath(btnItem, "btn_label")
+    btn_label:setText(name)
+    self.btnList:pushBackCustomItem(btnItem)
+end
 
 function GMView:initHeadTableView()
     local  tableView =  TFTableView:create()
@@ -462,6 +485,46 @@ function GMView:registerEvents()
     self.Button_close:onClick(function()
         AlertManager:closeLayer(self)
     end)
+
+    self.Button_closeSocket:onClick(function()
+        TFDirector:closeSocket()
+    end)
+
+    for k, v in ipairs(self.btnList:getItems()) do
+        v:onClick(function()
+            self:runFunTest(k)
+        end)
+    end
+
+    self.Button_funTest:onClick(function()
+        self.btnList:setVisible(not self.btnList:s():isVisible())
+    end)
+end
+
+function GMView:runFunTest(index)
+
+    if index == 1 then
+        Utils:openView("privilege.PrivilegeLeagueView")
+    elseif index == 2 then
+        Utils:openView("activity.twoyear.PersonInfoBase",3)
+    elseif index == 3 then
+        Utils:openView("activity.twoyear.FashionStore")
+    elseif index == 4 then
+        Utils:openView("activity.twoyear.StorePackMainView")
+        --SimulationSummonDataMgr:reqSimulateSummonInfo()
+    elseif index == 5 then
+        Utils:openView("balloon.BalloonMainView")
+
+    elseif index == 6 then
+        TFDirector:send(c2s.NEW_WORLD_REQ_PRE_ENTER_NEW_WORLD,{3})
+    elseif index == 7 then
+        -- FunctionDataMgr:jTurnTable()
+         Utils:openView("supplyNew.SupplyMainNewView")
+    elseif index == 8 then
+        SimulationSummonDataMgr:reqSimulateSummonInfo()
+    elseif index == 9 then
+        FunctionDataMgr:jActivity7()
+    end
 end
 
 function GMView:onRecvGMSummon()

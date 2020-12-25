@@ -18,9 +18,9 @@ function ConfirmConvertView:initUI(ui)
     self.Image_select_di = TFDirector:getChildByPath(ui,"Image_select_di")
     self.Image_select  = TFDirector:getChildByPath(ui,"Image_select"):hide()
     self.Label_content = TFDirector:getChildByPath(ui,"Label_content")
-    self.Label_content_good = TFDirector:getChildByPath(ui,"Label_content_good")
     self.Label_change = TFDirector:getChildByPath(ui,"Label_change")
 
+    self.Label_content:setTextById(490026)
     self.Label_change:setTextById(800045)
 end
 
@@ -29,9 +29,12 @@ function ConfirmConvertView:setCallback(callback)
     self.callback = callback
 end
 
+function ConfirmConvertView:setRecoverTipsShow(  )
+    self.Label_content:setTextById(490032)
+end
+
 function ConfirmConvertView:setGoodTipsShow()
-    self.Label_content_good:setVisible(true)
-    self.Label_content:setVisible(false)
+    self.Label_content:setTextById(490027)
 end
 
 function ConfirmConvertView:registerEvents()

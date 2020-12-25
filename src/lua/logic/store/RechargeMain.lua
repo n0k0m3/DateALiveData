@@ -308,7 +308,7 @@ function RechargeMain:updateGiftItem(item, data)
     end
 
     local Label_num = TFDirector:getChildByPath(item,"Label_num")
-    Label_num:setText(data.name)
+    Label_num:setTextById(data.name)
 
     local Label_leftTime= TFDirector:getChildByPath(item,"Label_leftTime")
     Label_leftTime:setString(data.buyCount - RechargeDataMgr:getBuyCount(data.rechargeCfg.id))
@@ -318,7 +318,7 @@ function RechargeMain:updateGiftItem(item, data)
     Label_tips:setVisible(data.buyCount ~= 0)
 
     local Label_desc = TFDirector:getChildByPath(item,"Label_desc")
-    Label_desc:setText(data.des2)
+    Label_desc:setTextById(data.des2)
 
     local serverTime = ServerDataMgr:getServerTime()
     local Label_countdown = TFDirector:getChildByPath(item,"Label_countdown")
@@ -391,11 +391,11 @@ function RechargeMain:updateGiftItem(item, data)
         local tagType = data.tagIcon or 0
         local buyCount = RechargeDataMgr:getBuyCount(data.rechargeCfg.id)
         if buyCount == 0 then
-            Label_title_desc:setText(data.tagDes)
-            Label_title_desc1:setText(data.tagDes)
+            Label_title_desc:setTextById(data.tagDes)
+            Label_title_desc1:setTextById(data.tagDes)
         elseif data.tagDes2 ~= "" then
-            Label_title_desc:setText(data.tagDes2)
-            Label_title_desc1:setText(data.tagDes2)
+            Label_title_desc:setTextById(data.tagDes2)
+            Label_title_desc1:setTextById(data.tagDes2)
         else
             Image_title_di:hide()
         end
@@ -492,11 +492,11 @@ function RechargeMain:updateRechargeItem(item, data, isMonthCard)
     end
 
     local Label_desc    = TFDirector:getChildByPath(item,"Label_desc")
-    Label_desc:setText(Utils:MultiLanguageStringDeal(data.des1))
-    Label_desc:setVisible(not isMonthCard)
+    Label_desc:setTextById(data.des1)
+    Label_desc:setVisible((not isMonthCard) and (not(comid == EC_SItemType.TokenMoney)))
 
     local Label_desc_month = TFDirector:getChildByPath(item,"Label_desc_month")
-    Label_desc_month:setText(data.des1)
+    Label_desc_month:setTextById(data.des1)
     Label_desc_month:setVisible(isMonthCard)
 
     local Label_leftTime = TFDirector:getChildByPath(item,"Label_leftTime")
@@ -516,10 +516,10 @@ function RechargeMain:updateRechargeItem(item, data, isMonthCard)
         local Label_title = TFDirector:getChildByPath(item, "Label_title")
         local buyCount = RechargeDataMgr:getBuyCount(data.rechargeCfg.id)
         if buyCount == 0 then
-            Label_title_desc:setText(data.tagDes)
+            Label_title_desc:setTextById(data.tagDes)
             Label_title_desc1:setTextById(data.tagDes)
         elseif data.tagDes2 ~= "" then
-            Label_title_desc:setText(data.tagDes2)
+            Label_title_desc:setTextById(data.tagDes2)
             Label_title_desc1:setTextById(data.tagDes2)
         else
             Image_title_di:hide()
@@ -811,7 +811,7 @@ function RechargeMain:updateMonthCardItem(item, data)
         item.icon_spine:setZOrder(2)
         img_icon:getParent():addChild(item.icon_spine)
     end
-    label_title:setText(Utils:MultiLanguageStringDeal(data.name))
+    label_title:setTextById(data.name)
     RechargeDataMgr:getMonthCardSignData().subscibeTime = RechargeDataMgr:getMonthCardSignData().subscibeTime or 0
 
     local year, month, day = Utils:getDate(RechargeDataMgr:getMonthCardSignData().subscibeTime)

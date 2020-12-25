@@ -17,7 +17,11 @@ function DuanwuTaskView:ctor(...)
     self.super.ctor(self)
     self:initData(...)
     self:showPopAnim(true)
-    self:init("lua.uiconfig.activity.duanwuTaskView")
+    if ActivityDataMgr2:getActivityUIType() == 2 then
+        self:init("lua.uiconfig.activity.lanternTaskView")
+    else
+        self:init("lua.uiconfig.activity.duanwuTaskView")
+    end
 end
 
 function DuanwuTaskView:initUI(ui)

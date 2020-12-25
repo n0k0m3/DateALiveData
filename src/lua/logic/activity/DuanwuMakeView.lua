@@ -1,9 +1,10 @@
 
 local DuanwuMakeView = class("DuanwuMakeView", BaseLayer)
 
-function DuanwuMakeView:initData()
+function DuanwuMakeView:initData(makeDating)
     self.selectNum_ = {1, 1, 1}
 
+    self.makeDating = makeDating or {}
     local store = StoreDataMgr:getOpenStore(EC_StoreType.DUANWU)
     self.storeCid_ = store[1]
     self.commodity_ = StoreDataMgr:getCommodity(self.storeCid_)
@@ -16,6 +17,9 @@ function DuanwuMakeView:ctor(...)
     if ActivityDataMgr2:getActivityUIType() == 1 then
         self.__cname = "MidAutumnMakeView"
         self:init("lua.uiconfig.activity.midAutumnMakeView")
+    elseif ActivityDataMgr2:getActivityUIType() == 2 then
+        self.__cname = "LanternFestivalMakeView"
+        self:init("lua.uiconfig.activity.lanternFestivalMakeView")
     else
         self:init("lua.uiconfig.activity.duanwuMakeView")
     end
@@ -35,7 +39,7 @@ function DuanwuMakeView:initUI(ui)
         foo.Panel_target = TFDirector:getChildByPath(foo.root, "Panel_target")
         foo.Panel_goodsItem_target = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
         foo.Panel_goodsItem_target:AddTo(foo.Panel_target):Pos(0, 0):Scale(0.8)
-        foo.Label_target_num = TFDirector:getChildByPath(foo.root, "Image_target_num.Label_target_num")
+        foo.Label_target_num = TFDirector:getChildByPath(foo.root, "Label_target_num")
         foo.Panel_item = {}
         for j = 1, 3 do
             local bar = {}
@@ -92,6 +96,15 @@ function DuanwuMakeView:updateMakeInfo()
                 PrefabDataMgr:setInfo(bar.Panel_goodsItem, id)
                 bar.Label_num:setTextById(800005, GoodsDataMgr:getItemCount(id), num)
             end
+
+            if ActivityDataMgr2:getActivityUIType() == 2 then
+                if GoodsDataMgr:currencyIsEnough(id, num) then
+                    bar.Label_num:setFontColor(ccc3(255,194,76))
+                else
+                    bar.Label_num:setFontColor(ccc3(70,170,223))
+                end
+            end
+            
         end
 
         local isEnough = StoreDataMgr:currencyIsEnough(commodityCid, self.selectNum_[i])
@@ -208,43 +221,15 @@ function DuanwuMakeView:onBuySuccessEvent(data)
     Utils:showReward(rewardList)
 
     local reward = rewardList[1]
+    
     if reward then
         local rewardCid = reward.id
-        if rewardCid == 580078 then
-            if GlobalVarDataMgr:getValue(GV_DUANWU_WUGU_FIRSTMAKE) then
-                local datingId = Utils:getKVP(29550, rewardCid)
-                GlobalVarDataMgr:setValue(GV_DUANWU_WUGU_FIRSTMAKE, false)
-                DatingDataMgr:startDating(datingId)
-            end
-        elseif rewardCid == 580079 then
-            if GlobalVarDataMgr:getValue(GV_DUANWU_XIANROU_FIRSTMAKE) then
-                local datingId = Utils:getKVP(29550, rewardCid)
-                GlobalVarDataMgr:setValue(GV_DUANWU_XIANROU_FIRSTMAKE, false)
-                DatingDataMgr:startDating(datingId)
-            end
-        elseif rewardCid == 580080 then
-                if GlobalVarDataMgr:getValue(GV_DUANWU_DOUSHA_FIRSTMAKE) then
-                    local datingId = Utils:getKVP(29550, rewardCid)
-                    GlobalVarDataMgr:setValue(GV_DUANWU_DOUSHA_FIRSTMAKE, false)
-                    DatingDataMgr:startDating(datingId)
-                end
-        elseif rewardCid == 580127 then
-            if GlobalVarDataMgr:getValue(GV_MIDAUTUMN_580127_FIRSTMAKE) then
-                local datingId = Utils:getKVP(29551, rewardCid)
-                GlobalVarDataMgr:setValue(GV_MIDAUTUMN_580127_FIRSTMAKE, false)
-                DatingDataMgr:startDating(datingId)
-            end
-        elseif rewardCid == 580128 then
-            if GlobalVarDataMgr:getValue(GV_MIDAUTUMN_580128_FIRSTMAKE) then
-                local datingId = Utils:getKVP(29551, rewardCid)
-                GlobalVarDataMgr:setValue(GV_MIDAUTUMN_580128_FIRSTMAKE, false)
-                DatingDataMgr:startDating(datingId)
-            end
-        elseif rewardCid == 580129 then
-            if GlobalVarDataMgr:getValue(GV_MIDAUTUMN_580129_FIRSTMAKE) then
-                local datingId = Utils:getKVP(29551, rewardCid)
-                GlobalVarDataMgr:setValue(GV_MIDAUTUMN_580129_FIRSTMAKE, false)
-                DatingDataMgr:startDating(datingId)
+        local datingId  = self.makeDating[tostring(rewardCid)]
+        if datingId then
+            local value = Utils:getLocalSettingValue("ActivityTpye_DUANWU_1"..rewardCid..datingId)
+            if value == "" then
+                FunctionDataMgr:jStartDating(datingId)
+                Utils:setLocalSettingValue("ActivityTpye_DUANWU_1"..rewardCid..datingId,"true")
             end
         end
     end

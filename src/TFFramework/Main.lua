@@ -33,43 +33,6 @@ function gotoGameStart()
         EncryptCode_SetKey(57)
     end
 
-     --暂时加判断 默认显示语言为英文 2020-03-11
-    local isPlay = CCUserDefault:sharedUserDefault():getBoolForKey("isPlayOpenVideoNew");
-    local isPlayOnYearVedio = CCUserDefault:sharedUserDefault():getBoolForKey("isPlayOpenOneYearVideoNew")
-     if not isPlay and not isPlayOnYearVedio then
-        if HeitaoSdk then
-            if CC_TARGET_PLATFORM == CC_PLATFORM_IOS then
-                local deviceLanguage = HeitaoSdk.getDeviceLanguage()
-                --简体中文/繁体中文/繁体中文香港/繁体中文台湾/繁体中文澳门
-                if (deviceLanguage == "zh-Hans-CN") or 
-                    (deviceLanguage == "zh-Hant-CN") or
-                    (deviceLanguage == "zh-Hant-HK") or
-                    (deviceLanguage == "zh-Hant-TW") or
-                    (deviceLanguage == "zh-Hant-MO") then
-                    CCUserDefault:sharedUserDefault():setStringForKey("language" , "")
-                    GAME_LANGUAGE_VAR = ""
-                else
-                    CCUserDefault:sharedUserDefault():setStringForKey("language" , "_en")
-                    GAME_LANGUAGE_VAR = "_en"
-                end
-            else
-                --zh-CN简中 zh-TW繁中 en-US英语
-                local deviceLanguage = HeitaoSdk.getDeviceLanguage()
-                if deviceLanguage == "zh-CN" or deviceLanguage == "zh-TW" then  --如果等于简中或者繁中则显默认中文
-                    CCUserDefault:sharedUserDefault():setStringForKey("language" , "")
-                    GAME_LANGUAGE_VAR = ""
-                else
-                    CCUserDefault:sharedUserDefault():setStringForKey("language" , "_en")
-                    GAME_LANGUAGE_VAR = "_en"
-                end
-            end
-            
-        else
-            CCUserDefault:sharedUserDefault():setStringForKey("language" , "_en")
-            GAME_LANGUAGE_VAR = "_en"
-        end
-    end
-
 	-- TFDirector:startRemoteDebug()
     TFDirector:start()
     me.Director:setDisplayStats(false)

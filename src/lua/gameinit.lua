@@ -7,6 +7,7 @@ NetWork = require("lua.net.NetWork")
 EventMgr = require("lua.public.EventMgr")
 require("lua.public.EnumConfig")
 require("lua.public.EventConfig")
+GameConfig = require("lua.logic.common.GameConfig");
 require("lua.public.GlobalVarConfig")
 require("lua.public.MEMapArray")
 require("lua.public.TPageView")
@@ -16,7 +17,6 @@ Utils = require("lua.public.Utils")
 AlertManager  = require("lua.public.AlertManager")
 Public = require("lua.public.Public")
 stringUtils = require("language.StringUtils_format")
---TFLanguageManager = require("lua.public.TFLanguageUtils")
 TimeRecoverProperty = require("lua.public.TimeRecoverProperty");
 GroupLayerManager  = require("lua.public.GroupLayerManager")
 GroupButtonManager  = require("lua.public.GroupButtonManager")
@@ -27,7 +27,6 @@ GameGuide = require("lua.logic.guide.GameGuide")
 ViewAnimationHelper = require("lua.public.ViewAnimationHelper")
 TFAssetsManager = require('LuaScript.TFAssetsManager')
 
-GameConfig = require("lua.logic.common.GameConfig");
 MainPlayer= require("lua.gamedata.MainPlayer")
 SettingDataMgr= require("lua.dataMgr.SettingDataMgr")
 BaseLayer = require("lua.logic.BaseLayer")

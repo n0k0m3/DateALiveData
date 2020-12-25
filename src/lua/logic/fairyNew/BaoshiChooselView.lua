@@ -154,7 +154,7 @@ function BaoshiChooselView:updateBaoshiItem(idx, item, data)
     Label_name:setColor(EquipmentDataMgr:getGemNameColor(cfg.quality))
     local skillCfg = TabDataMgr:getData("PassiveSkills",cfg.baseSkill)
     local skillDesc = TextDataMgr:getTextAttr(tonumber(skillCfg.des)).text
-    skillDesc = string.gsub(skillDesc, "#", cfg.skillName)
+    skillDesc = string.gsub(skillDesc, "#", TextDataMgr:getText(cfg.skillName))
     Label_desc:setText(skillDesc)
     Image_bg:setTexture(EquipmentDataMgr:getGemItemBg(cfg.quality))
     Image_quality:setTexture(EquipmentDataMgr:getGemRarityIcon(cfg.rarity))

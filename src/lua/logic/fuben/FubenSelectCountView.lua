@@ -4,13 +4,18 @@ local FubenSelectCountView = class("FubenSelectCountView", BaseLayer)
 function FubenSelectCountView:initData(levelCid)
     self.levelCid_ = levelCid
     self.levelCfg_ = FubenDataMgr:getLevelCfg(levelCid)
+    self.fubenType_ = FubenDataMgr:getFubenType(self.levelCid_)
 end
 
 function FubenSelectCountView:ctor(...)
     self.super.ctor(self)
     self:initData(...)
     self:showPopAnim(true)
-    self:init("lua.uiconfig.fuben.fubenSelectCountView")
+    if self.fubenType_ == EC_FBType.HWX_FUBEN then
+        self:init("lua.uiconfig.linkageHwx.fubenSelectCountView")
+    else
+        self:init("lua.uiconfig.fuben.fubenSelectCountView")
+    end
 end
 
 function FubenSelectCountView:initUI(ui)
@@ -63,8 +68,12 @@ function FubenSelectCountView:refreshView()
         local Label_count = TFDirector:getChildByPath(Panel_countItem, "Label_count")
         local Label_desc = TFDirector:getChildByPath(Panel_countItem, "Label_desc")
 
+
+        local Label_info = TFDirector:getChildByPath(Panel_countItem, "Label_info")
+        local Label_desc1 = TFDirector:getChildByPath(Panel_countItem, "Label_desc1")
+        local Label_desc2 = TFDirector:getChildByPath(Panel_countItem, "Label_desc2")
+
         Image_icon:Scale(0.5):setTexture(costCfg.icon)
-        Label_cost:setTextById()
         Label_unlock:setTextById(350005)
         Label_cost:setTextById(350003, costNum * v[1])
         local isUnlock = v[2] <= starNum
@@ -75,8 +84,28 @@ function FubenSelectCountView:refreshView()
         for j, item in ipairs(Image_star) do
             item:setVisible(j <= v[2])
         end
-        Label_count:setTextById("r81001", v[1])
-        Label_desc:setTextById("r81002", v[1])
+
+
+        if self.fubenType_ == EC_FBType.HWX_FUBEN then
+            local color = isUnlock and ccc3(60,90,183) or ccc3(255,255,255)
+            Label_cost:setColor(color)
+            color = isUnlock and ccc3(57,66,94) or ccc3(178,200,234)
+            Label_unlock:setColor(color)
+            color = isUnlock and ccc3(60,90,183) or ccc3(255,208,65)
+            Label_count:setColor(color)
+            Label_count:setText("-"..v[1])
+            Label_count:setSkewX(15)
+            Label_desc:setColor(color)
+            color = isUnlock and ccc3(60,90,183) or ccc3(178,200,234)
+            Label_info:setColor(color)
+            Label_desc:setText(v[1])
+            Label_desc:setSkewX(15)
+            Label_desc1:setColor(color)
+            Label_desc2:setColor(color)
+        else
+            Label_count:setTextById("r81001", v[1])
+            Label_desc:setTextById("r81002", v[1])
+        end
 
         Button_unlock:onClick(function()
                 EventMgr:dispatchEvent(EV_FUBEN_UPDATE_CHALLENGE_COUNT, v[1])

@@ -197,7 +197,7 @@ function BingoTurnPlateView:updateBatchPanel(num)
 
     local ownChipNum = BingoDataMgr:getChipNum()
     if ownChipNum < otherVoteNum + num then
-        Utils:showAccess(500066)
+        Utils:showAccess(BingoDataMgr:getChipGoodsId())
         self:stopTimer()
         return
     end

@@ -22,6 +22,7 @@ local eWitchTimeContinuedType = enum.eWitchTimeContinuedType
 local eWithstandDir = enum.eWithstandDir
 local eAttrType = enum.eAttrType
 local eFlag     = enum.eFlag
+local __print = print
 -- local print = function( ... )
 --     -- body
 -- end
@@ -33,6 +34,7 @@ local eMoveType  =
     Free     = 1, --摇杆自由位移
     Target   = 2, --目标位移
     Target_Shadow   = 3, --目标影子位移
+    Map_Center  = 4,  --地图中央位移
 }
 
 
@@ -51,9 +53,12 @@ function Skill:ctor(data,hero)
     self.actionData = nil
     self.eventData  = nil
     self.nCDTime    = self.data.openCd
+    self.extraCdTime = 0  --临时cd上限使用
     self.bActive    = false
     self.nPercent   = 0  --0 表示冷却完成
     self.next       = false
+    self.solecd = 0 --自定义cd上限
+    self.fixedCd = false  --是否使用固定cd
 --冷却缓存次数
     self.nCacheTimes = 0
     self.bCDing = false
@@ -153,6 +158,17 @@ function Skill:reset()
     end
 end
 
+function Skill:checkIncludeskill()
+    local skills = self.data.includeskill
+    for k,v in pairs(skills) do
+        local skill  = self.hero:getSkillByCid(v)
+        if skill:isVisiable() then
+            skill:checkShiftSkill()
+            break
+        end
+    end
+end
+
 --buff 检查切换
 function Skill:checkShiftSkill()
     local id = self.data.shiftSkill 
@@ -160,6 +176,31 @@ function Skill:checkShiftSkill()
         local skill  = self.hero:getSkillByCid(id)
         self:setVisiable(false)
         skill:setVisiable(true)
+    end
+    local otherSkills = self.data.othershiftSkill
+    if table.count(otherSkills) > 0 then
+        local skillId = 0
+        local weight_ = {}
+        for k,v in pairs(otherSkills) do
+            table.insert(weight_,v)
+        end
+        local rMax = 0
+        table.walk(weight_, function(v, k)
+            rMax = rMax + v
+        end)
+        local rand = RandomGenerator.random(1, rMax)
+        for k,v in pairs(otherSkills) do
+            if rand <= v then
+                id = tonumber(k)
+                break
+            end
+            rand = rand - v
+        end
+        if id and id > 0  then
+            local skill  = self.hero:getSkillByCid(id)
+            self:setVisiable(false)
+            skill:setVisiable(true)
+        end
     end
 end
 
@@ -169,9 +210,9 @@ function Skill:startCD()
     end
     self.nCacheTimes = self.nCacheTimes - 1
     self.nCacheTimes = math.max(self.nCacheTimes,0)
-    if self:isManual() then
+    --if self:isManual() then
         self:handlCD(0)
-    end
+    --end
 end
 
 function Skill:startCDTime()
@@ -184,6 +225,13 @@ end
 
 function Skill:getDataCD()
     local cdRatio = self.hero:getValue(eAttrType.ATTR_CD_RATIO)*0.0001
+    if self.solecd > 0 then
+        if self.fixedCd then
+            return self.solecd
+        else
+            return math.abs(self.solecd * (1 - cdRatio))
+        end
+    end
     return math.abs(self.data.cd * (1 - cdRatio))
 end
 
@@ -211,6 +259,7 @@ function Skill:handlCD(time)
             --cd完成一次
             if  self.nCDTime <= 0 then
                 self.bCDing = false
+                self.extraCdTime = 0
                 self.nCacheTimes = self.nCacheTimes + 1
                 if self:isManual(true) then
                     EventMgr:dispatchEvent(eEvent.EVENT_VKSTATE_CHANGE,self)
@@ -222,11 +271,44 @@ end
 
 --减少CD时间
 function Skill:reduceCDTime(time)
-    if self.nCDTime > 0 then
+    if time < 0 then
+        local orgCd = self:getDataCD()
         self.nCDTime  = self.nCDTime - time
+        if math.abs(time) > orgCd then
+            self.extraCdTime = math.abs(time)
+            self.nCDTime = math.min(self.nCDTime,self.extraCdTime)
+        else
+            self.nCDTime = math.min(self.nCDTime,orgCd)
+        end
         self.nCDTime  = math.max(self.nCDTime,0)
+        if self.nCDTime > 0 and not self.bCDing then
+            self.bCDing = true
+            self.nCacheTimes = self.nCacheTimes - 1
+            self.nCacheTimes = math.max(self.nCacheTimes,0)
+        end
         local percent = self:calcuCDPercent()
         self:setCDPercent(percent)
+    else
+        if self.nCDTime > 0 then
+            self.nCDTime  = self.nCDTime - time
+            self.nCDTime  = math.max(self.nCDTime,0)
+            local percent = self:calcuCDPercent()
+            self:setCDPercent(percent)
+        end
+    end
+end
+
+--减少CD时间
+function Skill:setCDControl(solecd, fixed, renovate)
+    if solecd > 0 then
+        self.solecd = solecd
+        self.fixedCd = fixed
+        if renovate then
+            self.nCDTime = math.min(self.nCDTime,0.01)
+        end
+    else
+        self.solecd = 0
+        self.fixedCd = false
     end
 end
 
@@ -250,6 +332,9 @@ end
 --冷却进度
 function Skill:calcuCDPercent()
     local cdTime = self:getDataCD()
+    if self.nCDTime > 0 and self.extraCdTime > 0 then
+        return math.floor(self.nCDTime*100/self.extraCdTime)
+    end
     if self.nCDTime > 0 and cdTime > 0 then
         return math.floor(self.nCDTime*100/cdTime)
     end
@@ -540,6 +625,7 @@ function Skill:playActionF()
     end
     --檢查節能功能切換
     self:checkShiftSkill()
+    self:checkIncludeskill()
 end
 
 function Skill:cancelWitchTime()
@@ -573,13 +659,13 @@ end
 
 --播放技能动画
 function Skill:playAction(actionID)
-    self.hero:removeAllEffect()
     self.bActive        = true
     self.bActionMove    = false
     self.actionCallFunc = nil
     if actionID  == 0 then  --只用来触发buffer 没有实际动作 
         return
     end
+    self.hero:removeAllEffect()
     local actionData = BattleDataMgr:getActionData(actionID,self.hero:getAngleDatas())
     if not actionData then
         Box("not found SkillAction id:"..tostring(actionID))
@@ -617,7 +703,7 @@ function Skill:playAction(actionID)
         end
     end
     if self:isManual(true) then
-        EventMgr:dispatchEvent(eEvent.EVENT_SHOW_KEYLIST,self.actionData.keyShow)
+        EventMgr:dispatchEvent(eEvent.EVENT_SHOW_KEYLIST,self.actionData)
     end
 
 
@@ -669,7 +755,7 @@ function Skill:onEvent(event)
 end
 
 function Skill:handlCameraEvent(pramN)
-    if self.hero:isManual(true) then
+    if self.hero:isManual(true) or self.hero:isBoss() then
         local actionData = self.actionData
         if actionData then
             local fixParam = actionData.fixCamerZ[pramN]
@@ -678,7 +764,7 @@ function Skill:handlCameraEvent(pramN)
                 local fixZ = fixParam[2]
             -- print("修正摄像机位置")
                 if time ~= 0 and  fixZ ~= 0 then
-                    EventMgr:dispatchEvent(eEvent.EVENT_FIX_CAMERA_Z,time,fixZ)
+                    EventMgr:dispatchEvent(eEvent.EVENT_FIX_CAMERA_Z,self:getCID(),time,fixZ)
                 end
             end
         end
@@ -908,7 +994,59 @@ function Skill:handlMoveEvent(pramN)
                     end
                 end
             end
-
+        elseif moveType == eMoveType.Map_Center then
+            local rect = battleController.getMoveRect()
+            local moveSpeed   = actionData.moveSpeed
+            local fallSpeed   = actionData.fallSpeed 
+            local pos3D       = self.hero:getPosition3D()
+            local tarPos3D    = me.Vertex3F(rect.origin.x + rect.size.width / 2, rect.origin.y + rect.size.height / 2, 0)
+            local loop        = actionData.loop
+            local loopTime    = actionData.loopTime
+            local loopEndType = actionData.loopEndType  --循环结束时间判定（0根据动作循环时间，1位移结束）
+            local moveX       = tarPos3D.x - pos3D.x
+            local moveY       = tarPos3D.y - pos3D.y
+            local moveZ       = moveY
+            local fixTargetX  = actionData.fixTarget 
+            if fixTargetX ~= 0 then
+                -- if math.abs(moveX) > math.abs(fixTargetX) then
+                    if moveX >= 0 then
+                        moveX = moveX + fixTargetX
+                    else
+                        moveX = moveX - fixTargetX
+                    end
+                -- end
+            end
+            if moveX ~= 0 or moveY ~= 0 or moveZ ~= 0 then
+                if self.hero:isInAir() then
+                    moveSpeed = fallSpeed
+                end
+                if fixTargetX ~= 0 then 
+                    if pos3D.x + moveX > tarPos3D.x then 
+                        self.hero:setDir(eDir.LEFT)
+                    else
+                        self.hero:setDir(eDir.RIGHT)
+                    end
+                else
+                    if moveX > 0 then
+                        self.hero:setDir(eDir.RIGHT)
+                    elseif moveX < 0 then
+                        self.hero:setDir(eDir.LEFT)
+                    end
+                end
+                local delta     = me.Vertex3F(moveX, moveY, moveZ )
+                local duration  = math.sqrt(delta.x*delta.x + delta.y*delta.y + delta.z*delta.z)/moveSpeed
+                local moveAction = ActionMgr:createMoveAction()
+                if loop and loopEndType == 1 then  --TODO 可能这个判断多余
+                    moveAction:start(self.hero , duration , delta, self.actionOverFunc) 
+                else
+                    moveAction:start(self.hero , duration , delta) 
+                end
+            else
+                if loop and loopEndType == 1 then
+                    local delay = ActionMgr.createDelayAction()
+                    delay:start(self.hero,0.1,self.actionOverFunc)
+                end
+            end
         end
     end
 end
@@ -923,7 +1061,7 @@ function Skill:handlShowEvent(pramN)
                 flipX = true
             end
             --组队模式下不显示觉醒特写
-            if not battleController.isLockStep() then
+            if not battleController.isLockStep() and SettingDataMgr:getAwakeEffect() == 1 then
                 AwakeMgr.play(showData,flipX,self.hero)
             end
         end

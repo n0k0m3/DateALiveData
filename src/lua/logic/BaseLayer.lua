@@ -164,7 +164,7 @@ end
 function BaseLayer:addLayerToNode(layer,node,zorder)
     local _zorder = zorder or 0;
     if node then
-        node:addChild(layer)
+        node:addChild(layer, _zorder)
         self.childArr:push(layer,_zorder);
     end
 end

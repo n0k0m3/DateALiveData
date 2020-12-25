@@ -19,7 +19,6 @@ function ValentineTaskView:initData(roleCid)
     self.tacitItems_ = {}
     self.maxTacit_ = math.max(unpack(self.condData_))
 
-    ValentineDataMgr:send_VALENTINE_VALENTINE_RANK()
 end
 
 function ValentineTaskView:ctor(...)
@@ -41,6 +40,8 @@ function ValentineTaskView:initUI(ui)
     self.Button_gift = TFDirector:getChildByPath(Image_gift, "Button_gift")
     self.Label_gift = TFDirector:getChildByPath(self.Button_gift, "Label_gift")
     self.Panel_role = TFDirector:getChildByPath(Image_gift, "Panel_role")
+    self.img_labDi  = TFDirector:getChildByPath(Image_gift, "img_labDi")
+    self.lab_role   =  TFDirector:getChildByPath(self.img_labDi, "lab_role")
     self.Panel_role:setBackGroundColorType(0)
     local Image_tacit_task = TFDirector:getChildByPath(self.Panel_root, "Image_tacit_task")
     self.Image_tacit_icon = TFDirector:getChildByPath(Image_tacit_task, "Image_tacit_icon")
@@ -64,10 +65,11 @@ function ValentineTaskView:refreshView()
     self.Spine_role = SkeletonAnimation:create(self.roleModelCfg_.rolePath)
     -- self.Spine_role:setScale(0.8)
     self.Panel_role:addChild(self.Spine_role)
-    self.Spine_role:play(self.roleCfg_.giftIdle, true)
+    self.Spine_role:play(self.roleCfg_.action, true)
 
     self:initTacitTask()
     self:showTask()
+    self:addRoleShowLab()
 end
 
 function ValentineTaskView:showTask()
@@ -88,6 +90,24 @@ function ValentineTaskView:showTask()
     end
 
     self:updateTacitTask()
+end
+
+function ValentineTaskView:addRoleShowLab()
+    local count = table.count(self.roleCfg_.word)
+    self.lab_role:setTextById(self.roleCfg_.word[math.random(1,count)])
+    if not self.timer then
+        self.timer = TFDirector:addTimer(5000,-1, nil,function()
+            local action = Sequence:create({
+                ScaleTo:create(0.3,0),
+                CallFunc:create(function()
+                    self.lab_role:setTextById(self.roleCfg_.word[math.random(1,count)])
+                end),
+                ScaleTo:create(0.3,1)
+            })
+            self.img_labDi:stopAllActions()
+            self.img_labDi:runAction(action)
+        end)
+    end
 end
 
 function ValentineTaskView:updateTaskItem(index)
@@ -116,6 +136,7 @@ function ValentineTaskView:updateTaskItem(index)
 
     foo.Button_receive:setVisible(progressInfo.status == EC_TaskStatus.GET)
     foo.Label_already_received:setVisible(progressInfo.status == EC_TaskStatus.GETED)
+    foo.Image_ing:setVisible(progressInfo.status == EC_TaskStatus.ING)
 
     foo.Button_receive:onClick(function()
             ActivityDataMgr2:send_ACTIVITY_NEW_SUBMIT_ACTIVITY(self.activityInfo_.id, itemId)
@@ -134,11 +155,12 @@ function ValentineTaskView:addTaskItem()
     for i = 1, 3 do
         local Image_reward = TFDirector:getChildByPath(foo.root, "Image_reward_" .. i)
         foo.Panel_goodsItem[i] = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
-        foo.Panel_goodsItem[i]:Pos(0, 0):Scale(0.75):AddTo(Image_reward)
+        foo.Panel_goodsItem[i]:Pos(0, 0):Scale(0.55):AddTo(Image_reward)
     end
     foo.Button_receive = TFDirector:getChildByPath(foo.root, "Button_receive")
     foo.Label_receive = TFDirector:getChildByPath(foo.Button_receive, "Label_receive")
     foo.Label_already_received = TFDirector:getChildByPath(foo.root, "Label_already_received")
+    foo.Image_ing = TFDirector:getChildByPath(foo.root, "Image_ing")
     self.ListView_task:pushBackCustomItem(foo.root)
 
     self.taskItems_[foo.root] = foo
@@ -156,18 +178,29 @@ function ValentineTaskView:initTacitTask()
         foo.Label_canGet = TFDirector:getChildByPath(foo.Button_canGet, "Label_canGet")
         foo.Button_notGet = TFDirector:getChildByPath(foo.root, "Button_notGet")
         foo.Label_notGet = TFDirector:getChildByPath(foo.Button_notGet, "Label_notGet")
-        foo.Label_getValue = TFDirector:getChildByPath(foo.root, "Image_getvalue.Label_getValue")
+        foo.Label_getValue = TFDirector:getChildByPath(foo.root, "Label_getValue")
         self.tacitItems_[i] = foo
 
         foo.Label_getValue:setText(self.condData_[i])
         local percent = self.condData_[i] / self.maxTacit_
-        foo.root:Pos(size.width * percent, -15):AddTo(self.Image_progress, 15)
+        foo.root:Pos(size.width * percent - 25, -15):AddTo(self.Image_progress, 15)
 
         local chineseNum = Utils:getChineseNumber(i)
         local name = TextDataMgr:getText(1702084, chineseNum)
         foo.Label_geted:setText(name)
         foo.Label_canGet:setText(name)
         foo.Label_notGet:setText(name)
+
+        -- 最后一个改为cg图标
+        if i == table.count(self.roleCfg_.dating) then
+            local iconRes = ValentineDataMgr:getValentineRoleCfg(self.roleCid_).showReward
+            foo.Button_canGet:setTextureNormal(iconRes)
+            foo.Button_geted:setTextureNormal(iconRes)
+            foo.Button_notGet:setTextureNormal(iconRes)
+            foo.Label_geted:setVisible(false)
+            foo.Label_canGet:setVisible(false)
+            foo.Label_notGet:setVisible(false)
+        end
     end
 end
 
@@ -176,7 +209,8 @@ function ValentineTaskView:registerEvents()
     EventMgr:addEventListener(self, EV_VALENTINE_COMPLETE_DATING, handler(self.onDatingCompleteEvent, self))
     EventMgr:addEventListener(self, EV_ACTIVITY_SUBMIT_SUCCESS, handler(self.onSubmitSuccessEvent, self))
     EventMgr:addEventListener(self, EV_ACTIVITY_UPDATE_PROGRESS, handler(self.onUpdateProgressEvent, self))
-
+    EventMgr:addEventListener(self, EV_VALENTINE_RANK_UPDATE, handler(self.updateTacitTask, self))
+    
     self.Button_gift:onClick(function()
             Utils:openView("valentine.ValentineGiftView", self.roleCid_)
             -- ValentineDataMgr:getTask(self.roleCid_)
@@ -185,8 +219,8 @@ function ValentineTaskView:registerEvents()
     self.Spine_role:addMEListener(
         TFARMATURE_COMPLETE,
         function(_, aniName)
-            if aniName == self.roleCfg_.gift then
-                self.Spine_role:play(self.roleCfg_.giftIdle, true)
+            if aniName == self.keepActionName then
+                self.Spine_role:play(self.roleCfg_.action, true)
             end
         end
     )
@@ -208,7 +242,7 @@ function ValentineTaskView:registerEvents()
 end
 
 function ValentineTaskView:updateTacitTask()
-    local tacit = ValentineDataMgr:getMyTacit(self.roleCid_)
+    local tacit = ValentineDataMgr:getFullServerTacit(self.roleCid_)
     self.Label_tacit_count:setText(tacit)
 
     local percent = math.min(tacit / self.maxTacit_ * 100, 100)
@@ -232,8 +266,10 @@ function ValentineTaskView:updateTacitTask()
 end
 
 function ValentineTaskView:onGiftEvent()
-    self.Spine_role:play(self.roleCfg_.gift, false)
-    self:updateTacitTask()
+    ValentineDataMgr:send_VALENTINE_VALENTINE_RANK()
+    local tmpRand = self.roleCfg_.happyIdle[math.random(1, table.count(self.roleCfg_.happyIdle))]
+    self.keepActionName = tmpRand
+    self.Spine_role:play(tmpRand, false)
 end
 
 function ValentineTaskView:onDatingCompleteEvent()
@@ -247,6 +283,13 @@ end
 
 function ValentineTaskView:onUpdateProgressEvent()
     self:showTask()
+end
+
+function ValentineTaskView:removeEvents()
+    if self.timer then
+        TFDirector:removeTimer(self.timer)
+        self.timer = nil
+    end
 end
 
 return ValentineTaskView

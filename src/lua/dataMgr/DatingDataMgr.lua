@@ -135,6 +135,16 @@ function DatingDataMgr:getFinishScriptList()
 end
 
 function DatingDataMgr:checkScriptIdIsFinish(ruleCid)
+    if self.isDating then return end
+    local isSingleDating = self:checkIsSingleDating(ruleCid)
+    if isSingleDating then
+        if Utils:getLocalSettingValue("singleDating"..ruleCid) == "true" then -- 纯客户端单机约会添加本地验证
+            return true
+        else
+            return false
+        end
+    end
+
     if table.find(self.finishScriptIds,ruleCid) == -1 then
         return false
     else
@@ -737,6 +747,21 @@ function DatingDataMgr:getDatingState()
     return self.datingState
 end
 
+function DatingDataMgr:checkIsSingleDating( datingRuleId )
+    local datingRuleCfg = TabDataMgr:getData("DatingRule",datingRuleId)
+    if not datingRuleCfg then return false end
+    local datingType = datingRuleCfg.type
+    local styleId = datingType*10 
+    if datingRuleCfg.datingTypeNew then
+        styleId = datingRuleCfg.datingTypeNew
+    end
+    local extentData = TabDataMgr:getData("DatingTypeMgr")[styleId] or TabDataMgr:getData("DatingTypeMgr")[1000]
+    if extentData.optionActType ~= 1 and  extentData.optionActType ~= 2 and (extentData.resultActionType == 5 or extentData.resultActionType == 3) then -- 不需要服务器验证合法性的约会直接开始前端约会
+        return true
+    end
+    return false
+end
+
 function DatingDataMgr:startDating(datingRuleId)
     local datingRuleCfg = TabDataMgr:getData("DatingRule",datingRuleId)
     if not datingRuleCfg then
@@ -747,12 +772,8 @@ function DatingDataMgr:startDating(datingRuleId)
     local datingType = datingRuleCfg.type
     local start_node_id = datingRuleCfg.start_node_id
     self:setScriptTableName(datingTabName)
-    local styleId = datingType*10 
-    if datingRuleCfg and datingRuleCfg.datingTypeNew then
-        styleId = datingRuleCfg.datingTypeNew
-    end
-    local extentData = TabDataMgr:getData("DatingTypeMgr")[styleId] or TabDataMgr:getData("DatingTypeMgr")[1000]
-    if extentData.optionActType ~= 1 and  extentData.optionActType ~= 2 and (extentData.resultActionType == 5 or extentData.resultActionType == 3) then -- 不需要服务器验证合法性的约会直接开始前端约会
+
+    if self:checkIsSingleDating(datingRuleId) then
         local event = {}
         event.data = {}
         event.data.datingRuleCid = datingRuleId
@@ -1969,6 +1990,38 @@ end
 
 function DatingDataMgr:onLoginOut()
     self:reset();
+end
+
+function DatingDataMgr:triggerDating( _cname, triggerType, triggerParam )
+    -- body
+    if self.isDating then return end
+    local triggerCfgs = TabDataMgr:getData("DatingTrigger")
+    for k,v in ipairs(triggerCfgs) do
+        if (v.fileName == "all" or v.fileName == _cname) and triggerType == v.triggerType then
+            local trigger = true
+            if v.triggerParam then
+                for _k,_v in pairs(v.triggerParam) do
+                    if triggerParam and triggerParam[_k] ~= _v then
+                        trigger = false
+                    end
+                 end
+            end
+
+            if not v.isRepeatable and self:checkScriptIdIsFinish(v.datingRuleId) then -- 能否重复触发逻辑
+               trigger = false
+            end
+
+            if trigger then
+                self:setIsDating(true)
+                if self:checkIsSingleDating(v.datingRuleId) then
+                    Utils:setLocalSettingValue("singleDating"..v.datingRuleId,"true")
+                end
+                self:startDating(v.datingRuleId)
+                break;
+            end
+
+        end
+    end
 end
 
 function DatingDataMgr:getFavorRewardList( )

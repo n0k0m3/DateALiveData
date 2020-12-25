@@ -86,6 +86,15 @@ function ChatDataMgr:init()
 
     self:reset()
     self:initConfigData()
+    self.pushTime = TFDirector:addTimer(1000,-1,nil,function ( ... )
+        self:pushChatInfo()
+    end)
+end
+
+function ChatDataMgr:pushChatInfo( ... )
+    if #self.cacheChatInfo == 0 then return end
+    EventMgr:dispatchEvent(EV_PUSH_CHATINFOS,self.cacheChatInfo)
+    self.cacheChatInfo = {}
 end
 
 -- 加载并格式化配置表数据
@@ -115,6 +124,9 @@ function ChatDataMgr:onLogin()
     TFDirector:addProto(s2c.CHAT_RESP_INIT_CHAT_INFO, self, self.onChatRecordWorldInfo)
     TFDirector:send(c2s.CHAT_REQ_INIT_CHAT_INFO, {})
     EventMgr:addEventListener(self,EV_CHAT_UPDATE_TEAM_INVITE, handler(self.onUpdateTeamInvite, self))
+    EventMgr:addEventListener(self,EV_OFFLINE_EVENT, function ( ... )
+        self:reset()
+    end)
     self:loadPlistDatas()
     self:writePlistDatas()
     self:chatRecordPrivateInfo()
@@ -168,11 +180,25 @@ function ChatDataMgr:reset()
     self.isUnLockSendInfo = true
 
     self.unionRedpacketStatus = {}
+    self.commonRedpacketStatus = {}
 
+    self.cacheChatInfo = {}
     if self.timer_ then
         TFDirector:removeTimer(self.timer_)
         self.timer_ = nil
     end
+
+    self:clearAiAdviceData()
+end
+
+-- ai通知数据
+function ChatDataMgr:clearAiAdviceData()
+     self.aiAdviceData = {
+        channel = nil, -- 通知频道
+        aiId    = nil, -- 通知精灵icon
+        state   = nil, -- 通知阅读状态  --0：未读，1：已删除
+        tag     = nil  -- 前端保存的对应序列tag 
+    }
 end
 
 function ChatDataMgr:onLoginOut()
@@ -184,22 +210,33 @@ function ChatDataMgr:clearUnionChatData()
         self.datas[EC_ChatType.GUILD] = {}
         self.readStates[EC_ChatType.GUILD] = true
         self.unionRedpacketStatus = {}
+        self.commonRedpacketStatus = {}
     end
 end
 
 function ChatDataMgr:setReadState(chatType,bRead)
     if self.readStates[chatType] ~= bRead then
+        if chatType == EC_ChatType.GUILD then
+            bRead = bRead and not self:getUnionRedPacketReadState()
+        elseif chatType == EC_ChatType.RED_PACK then
+            bRead = not self:getCommonRedPacketReadState(1)
+        elseif chatType == EC_ChatType.SYSTEM  then
+            bRead = bRead and not self:getCommonRedPacketReadState(2)
+        end
+
         self.readStates[chatType] = bRead
         EventMgr:dispatchEvent(EV_RED_POINT_UPDATE_CHAT)
     end
 end
 
-function ChatDataMgr:getReadState(chatType)
+-- excludeTypes：用于排除不判断红点的频道
+function ChatDataMgr:getReadState(chatType, excludeTypes)
+    excludeTypes = excludeTypes or {}
     if chatType then
         return self.readStates[chatType]
     else
         for key , _chatType in pairs(EC_ChatType) do
-            if not self.readStates[_chatType] then
+            if not excludeTypes[_chatType] and not self.readStates[_chatType] then
                 return false
             end
         end
@@ -222,18 +259,52 @@ function ChatDataMgr:updateUnionRedpacketStatus(playerId, time, count)
     EventMgr:dispatchEvent(EV_RED_POINT_UPDATE_CHAT)
 end
 
+function ChatDataMgr:updateCommonRedpacketStatus(playerId, time, count)
+    local key = playerId..time
+    local  info = self.commonRedpacketStatus[key] or {status = 0, count = 0}
+    self.commonRedpacketStatus[key] = info
+    if count then
+        info.count = count
+    else
+        if info.status == 0 then
+            info.status = 1
+        end
+    end
+    EventMgr:dispatchEvent(EV_UNION_REDPACKET_INFO)
+    EventMgr:dispatchEvent(EV_RED_POINT_UPDATE_CHAT)
+end
+
 function ChatDataMgr:getUnionRedPacketReadState()
     for k, info in pairs(self.unionRedpacketStatus) do
         if info.count > 0 and info.status == 0 then
             return true
         end
     end
+
+    return false
+end
+
+function ChatDataMgr:getCommonRedPacketReadState(packetType)
+    for k, info in pairs(self.commonRedpacketStatus) do
+        local packetCfg = TabDataMgr:getData("Packet",info.cid)
+        if packetCfg and (not packetType or packetType == packetCfg.type)  then
+            local envelopeInfo = EnvelopeDataMgr:getRedEnvelopeInfo(info.cid)
+            if info.count > 0 and info.status == 0 and envelopeInfo.receiveCount < packetCfg.collect  then
+                return true
+            end
+        end
+    end
+
     return false
 end
 
 function ChatDataMgr:getRedPacketStatus(playerId, time)
     local key = playerId..time
     local info = self.unionRedpacketStatus[key]
+
+    if not info then
+        info = self.commonRedpacketStatus[key]
+    end
     return info
 end
 
@@ -282,7 +353,7 @@ function ChatDataMgr:getChatList(chatType)
     for i, v in ipairs(chatInfoList) do
         local info = v
         if info.fun and info.fun == EC_ChatState.TEAM then
-            local isShow,timelong = TeamFightDataMgr:checkInviteMsg(info.content)
+            local isShow,timelong = TeamFightDataMgr:checkInviteMsg(info)
             if isShow then
                 info.timelong = timelong
                 table.insert(newChatinfoList,info)
@@ -367,7 +438,9 @@ function ChatDataMgr:onRecvChatInfo(event)
         chatInfo.isStrId = string.find(chatInfo.content , strTag)
         if chatInfo.isStrId then
             local strContent = string.split(chatInfo.content , strTag)
-            if GAME_LANGUAGE_VAR == EC_LanguageType.Chinese then
+
+            local code = TFLanguageMgr:getUsingLanguage()
+            if (code == cc.SIMPLIFIED_CHINESE) or (code == cc.TRADITIONAL_CHINESE) then
                 chatInfo.content = strContent[1]
             else
                 chatInfo.content = strContent[2] or chatInfo.content
@@ -379,6 +452,7 @@ function ChatDataMgr:onRecvChatInfo(event)
         EventMgr:dispatchEvent(EV_RECV_CHATINFO,chatInfo)
         return
     end
+
     if chatInfo.chatType  == EC_ChatType.TEAM then  --战斗内表情
         if face_filter[chatInfo.content] then 
             EventMgr:dispatchEvent(EV_RECV_CHATINFO,chatInfo)
@@ -403,7 +477,7 @@ function ChatDataMgr:onRecvChatInfo(event)
 
     local redPacketStatus = false
     if chatInfo.fun and chatInfo.fun == EC_ChatState.TEAM then
-        if not TeamFightDataMgr:checkInviteMsg(chatInfo.content) then
+        if not TeamFightDataMgr:checkInviteMsg(chatInfo) then
             return
         end
     end
@@ -432,14 +506,25 @@ function ChatDataMgr:onRecvChatInfo(event)
 
     else
         table.insert(chatInfoList,1,chatInfo)
-        if chatInfo.fun and chatInfo.fun == EC_ChatState.RED_PACK then
+        if chatInfo.fun and (chatInfo.fun == EC_ChatState.RED_PACK or chatInfo.fun == EC_ChatState.RED_PACK1) then
             local content = json.decode(chatInfo.content)
             if content and content.status then
                 local key = chatInfo.pid..content.time
-                local info = {status = content.status, count = content.count}
-                self.unionRedpacketStatus[key] = info
-                if content.status == 1 or content.count == 0 then
-                    redPacketStatus = true
+                local info = {status = content.status, count = content.count, cid = content.cid}
+                if chatInfo.fun == EC_ChatState.RED_PACK then
+                    self.unionRedpacketStatus[key] = info
+                    if content.status == 1 or content.count == 0 then
+                        redPacketStatus = true
+                    end
+                else
+                    self.commonRedpacketStatus[key] = info
+                    local packetCfg = TabDataMgr:getData("Packet",info.cid)
+                    if packetCfg then
+                        local envelopeInfo = EnvelopeDataMgr:getRedEnvelopeInfo(info.cid)
+                        if info.count == 0 or info.status == 1 or  envelopeInfo.receiveCount >= packetCfg.collect  then
+                            redPacketStatus = true
+                        end
+                    end
                 end
             end
         end
@@ -457,9 +542,22 @@ function ChatDataMgr:onRecvChatInfo(event)
         end
     end
 
+    --  ai通知
+    if (chatInfo.channel == EC_ChatType.WORLD or chatInfo.channel == EC_ChatType.SYSTEM) and chatInfo.fun == EC_ChatState.AI_ADVICE then
+        self.aiAdviceData = {
+            channel = chatInfo.channel, 
+            aiId  = chatInfo.portraitCid, 
+            state   = 0,
+            tag     = #chatInfoList
+        }
+        EventMgr:dispatchEvent(EV_AI_ADVICE)
+    end
 --超过最大数量删除最旧的消息
     if #chatInfoList > MAX_MESSAGE_NUM then
         table.remove(chatInfoList,#chatInfoList)
+        if self.aiAdviceData.tag and self.aiAdviceData.tag == #chatInfoList then
+            self.aiAdviceData.state = 1
+        end
     end
 
     if FriendDataMgr:isShieldingFriend(chatInfo.pid) then
@@ -470,7 +568,13 @@ function ChatDataMgr:onRecvChatInfo(event)
 --    if chatInfo.fun and chatInfo.fun == EC_ChatState.TEAM then
 --        self:setReadState(EC_ChatType.TEAM_YQ,false)
 --    else
-    if chatInfo.chatType == EC_ChatType.GUILD then
+    if chatInfo.chatType == EC_ChatType.GUILD 
+        or chatInfo.chatType == EC_ChatType.SYSTEM
+        or chatInfo.chatType == EC_ChatType.RED_PACK then
+        if not redPacketStatus then
+            self:setReadState(chatInfo.chatType,false)
+        end
+    elseif chatInfo.chatType == EC_ChatType.SYSTEM then
         if not redPacketStatus then
             self:setReadState(chatInfo.chatType,false)
         end
@@ -479,6 +583,8 @@ function ChatDataMgr:onRecvChatInfo(event)
     end
     --end
     self.curChatInfo = chatInfo
+    table.insert(self.cacheChatInfo,chatInfo)
+    
 --通知聊天消息变更
     EventMgr:dispatchEvent(EV_RECV_CHATINFO,chatInfo)
 end
@@ -673,6 +779,13 @@ function ChatDataMgr:onRecvMarquree(event)
                 end
             else
                 layer = AlertManager:getLayerBySpecialName(scrollingCfg.LayoutName)
+                if not layer then
+                    local currentScene = Public:currentScene()
+                    local tmpLayer = currentScene:getButtomLayer()
+                    if tmpLayer and tmpLayer.__cname == scrollingCfg.LayoutName then
+                        layer = tmpLayer
+                    end
+                end
             end
             if layer then
                 Utils:showNoticeNode(layer,noticyMsg)
@@ -974,6 +1087,11 @@ function ChatDataMgr:clearBigWorldData()
     if self.datas[EC_ChatType.BIG_WORLD] then
         self.datas[EC_ChatType.BIG_WORLD] = {}
     end
+end
+
+-- ai通知消息
+function ChatDataMgr:getAiAdviceData()
+    return self.aiAdviceData
 end
 
 --社团历史记录消息

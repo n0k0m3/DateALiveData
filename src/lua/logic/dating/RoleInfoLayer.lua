@@ -334,15 +334,15 @@ function RoleInfoLayer:refreshElvesInfoBoard()
     --身高
     self.label_height:setString(self.useRoleInfo.height)
     --三维
-    self.label_threeDimensional:setString(self.useRoleInfo.threeDimensional)
+    self.label_threeDimensional:setTextById(self.useRoleInfo.threeDimensional)
     --名字
     self.Label_name:setTextById(self.useRoleInfo.nameId)
     --声优
     self.Label_theme:setString(TextDataMgr:getText(self.useRoleInfo.akiraId))
     --生日
-    self.Label_birthday:setString(self.useRoleInfo.birthday)
+    self.Label_birthday:setTextById(self.useRoleInfo.birthday)
     --体重
-    self.label_weight:setString(self.useRoleInfo.weight)
+    self.label_weight:setTextById(self.useRoleInfo.weight)
 
 
     print("self.useRoleInfo.openFoodsId ",self.useRoleInfo.openFoodsId)

@@ -24,5 +24,7 @@ SceneType.Phone       		= "lua.logic.datingPhone.PhoneScene"
 SceneType.MOVIE 			= "lua.logic.movie.MovieScene"
 SceneType.OSD 				= "lua.logic.osd.BaseOSDScene"
 SceneType.TRANSITION        = "lua.logic.osd.TransitionScene" --组队战斗场景切换过渡场景
+SceneType.AmusementPack 	= "lua.logic.2020ZNQ.AmusementPackScene"
 SceneType.PACKBRANCH		= "lua.logic.packbranch.PackBranchScene"
+
 return SceneType

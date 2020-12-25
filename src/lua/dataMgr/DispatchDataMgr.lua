@@ -49,8 +49,12 @@ function DispatchDataMgr:onLoginOut()
 end
 
 --请求派遣挂机
-function DispatchDataMgr:reqAddHeroDispatch(dungeonType, dungeonCids)
-    local msg = {dungeonType, dungeonCids}
+function DispatchDataMgr:reqAddHeroDispatch(dungeonType, dungeonCids, times)
+    local dungeonData = {}
+    for i, v in ipairs(dungeonCids) do
+        table.insert(dungeonData,{v,times[i] or 0})
+    end
+    local msg = {dungeonType, dungeonData}
     TFDirector:send(c2s.HERO_DISPATCH_REQ_ADD_HERO_DISPATCH , msg)
 end
 
@@ -350,6 +354,94 @@ function DispatchDataMgr:checkHaustionsEnough(dungeonType, dungeonCids)
         end
     end
     return true
+end
+
+function DispatchDataMgr:getEnableDisPatchTimes(dungeonType, levelIds)
+    local dispatchHeros = self:getDispathedHeros(dungeonType)
+    local times = {}
+    local totalExhaustion = 0
+    local totalCostNum = 0
+    for i, levelId in ipairs(levelIds) do
+        local hangUpCfg = self.hangupLevelMap[levelId]
+        local levelCfg = FubenDataMgr:getLevelCfg(levelId)
+        local remainCount = 0
+        local costId = 0
+        local costNum = 0
+        if dungeonType == EC_DISPATCHType.DAILY then
+            remainCount = FubenDataMgr:getDailyRemainFightCount(levelCfg.levelGroupId)
+            costId = levelCfg.cost[1][1]
+            costNum = levelCfg.cost[1][2]
+        elseif dungeonType == EC_DISPATCHType.SPRITE then
+            remainCount = FubenDataMgr:getSpriteChallengeRemainCount()
+            costId = levelCfg.cost[1][1]
+            costNum = levelCfg.cost[1][2]
+        elseif dungeonType == EC_DISPATCHType.THEATER then
+            remainCount = GoodsDataMgr:getItemCount(EC_SItemType.THEATER_COUNT)
+        elseif dungeonType == EC_DISPATCHType.TEAM then
+            local teamLevelStat = TeamFightDataMgr:getTeamLevelStat()
+            levelCfg = TeamFightDataMgr:getTeamLevelCfg(0, levelId)
+            for k,v in pairs(levelCfg.fightCost) do
+                costId = tonumber(k)
+                costNum = v
+            end
+            if teamLevelStat[levelId].stat ~= 1 then
+                remainCount = 0
+            else
+                remainCount = teamLevelStat[levelId].remainCount
+            end
+        elseif dungeonType == EC_DISPATCHType.DATING then
+            remainCount = DatingDataMgr:getDayDatingTimes()
+            costId = 500024
+            costNum = 20
+        end
+        if remainCount > 0 then
+            exhaustionCost = hangUpCfg.consumptionFatigue
+            local effecSuitIds = self:getEffectSuitIds(dungeonType)
+            for i,buffId in ipairs(effecSuitIds) do
+                local buffCfg = TabDataMgr:getData("HangupBuff",buffId)
+                for j,effectId in ipairs(buffCfg.fetterEffect) do
+                    local effectCfg = TabDataMgr:getData("HangupResult",effectId)
+                    if effectCfg.valid == 1 and effectCfg.typesFetters == 2 then
+                        exhaustionCost = (1 - effectCfg.fetterParameter * 0.0001) * exhaustionCost
+                        break
+                    end
+                end
+                
+            end
+            local exhaustionTimes = #dispatchHeros > 0 and 9999 or 0
+            for j, heroId in ipairs(dispatchHeros) do
+                local exhaustion = self:getHeroExhaustion(heroId)
+                local subexhaustion = (exhaustion - totalExhaustion)
+                if subexhaustion > 0 then
+                    exhaustionTimes = math.min(exhaustionTimes, math.floor(subexhaustion/ exhaustionCost))
+                else
+                    exhaustionTimes = 0
+                end
+                if exhaustionTimes <= 0 then
+                    break
+                end
+            end
+            remainCount = math.min(remainCount, exhaustionTimes)
+            
+            if costId > 0 then
+                local hasNum = GoodsDataMgr:getItemCount(costId)
+                local subCost = hasNum - totalCostNum
+                if subCost > 0 then
+                    local num = math.floor(subCost / costNum)
+                    remainCount = math.min(remainCount, num)
+                else
+                    remainCount = 0
+                end
+            end
+            totalExhaustion = totalExhaustion + (remainCount * exhaustionCost)
+            totalCostNum = totalCostNum + (remainCount * costNum)
+            times[levelId] = remainCount
+        else
+            times[levelId] = 0
+        end
+    end
+
+    return times
 end
 
 function DispatchDataMgr:checkHeroInHangUp(heroId)

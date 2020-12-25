@@ -265,6 +265,21 @@ function M.setEffectsVolume(volume)
 	end
 end
 
+function M.setEffectsVolumeById( handlerId, volume )
+	volume = volume or 1.0
+	if volume < 0.0 then
+		volume = 0.0
+	elseif volume > 1.0 then
+		volume = 1.0
+	end
+
+	if useNewAudioEngine then 
+		AudioEngine:setVolume(handlerId,volume)
+	else
+		sharedEngine:setEffectsVolume(volume)
+	end
+end
+
 function M.pauseEffect(handle)
 	if useNewAudioEngine then
 		AudioEngine:pause(handle)

@@ -36,7 +36,7 @@ function PhoneMainViewAI:initUI(ui)
     self.Image_titleBg:setPositionY(self.centerPos.y + self.winSize.height/2 + self.titleBgSize)
     self.contactPLsize = self.winSize.height - self.titleBgSize
     self.Panel_contacts_View:setPositionY(self.centerPos.y + self.winSize.height/2 - self.titleBgSize)
-    self.contactsListView:setContentSize(CCSizeMake(640, self.contactPLsize))
+    self.contactsListView:setContentSize(CCSizeMake(640, self.contactPLsize - self.titleBgSize))
 
     --聊天界面、
     self.ScrollView_chat = TFDirector:getChildByPath(self.Panel_chat_view,"ScrollView_chat")

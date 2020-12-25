@@ -2,7 +2,7 @@ local ExtAssetsDownloadView = class("ExtAssetsDownloadView",BaseLayer)
 local asserManager = import('LuaScript.TFAssetsManager')
 function ExtAssetsDownloadView:ctor()
 	self.super.ctor(self)
-	self.strCfg = require("lua.table.String" ..GAME_LANGUAGE_VAR)
+	self.strCfg = TFGlobalUtils:requireGlobalFile("lua.table.StartString")
 	self:init("lua.uiconfig.common.extAssetsDownloadView")
 
 	self:onEnterSend()
@@ -30,8 +30,7 @@ function ExtAssetsDownloadView:initUI(ui)
 	self.txt_speed = TFDirector:getChildByPath(self.root_panel,"Label_speed")
 	self.txt_fileSize = TFDirector:getChildByPath(self.root_panel,"Label_filesize")
 	self.tipLabel = TFDirector:getChildByPath(self.root_panel,"Label_title")
-
-	self.tipLabel:setSystemFontText(self.strCfg[190000146].text)
+	self.tipLabel:setText(self.strCfg[190000146].text)
 end
 
 function ExtAssetsDownloadView:onShow()
@@ -88,7 +87,9 @@ end
 function ExtAssetsDownloadView:removeUI()
 	self.super.removeUI(self)
 	self:removeMEListener(TFWIDGET_ENTERFRAME)
-	TFDirector:send(c2s.SHARE_REQ_INTO_PANEL, {1000})
+	if CommonManager:getConnectionStatus() == true then
+		TFDirector:send(c2s.SHARE_REQ_INTO_PANEL, {1000})
+	end
 end
 
 return ExtAssetsDownloadView

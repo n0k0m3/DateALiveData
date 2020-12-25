@@ -5,7 +5,17 @@ function ShowMail:ctor(data)
     self.super.ctor(self,data)
     self.id = data
     self.index = MailDataMgr:getMailShowIndex(data);
-    self.mailInfo		= MailDataMgr:getOneMail(self.index);
+    self.mailInfo = clone(MailDataMgr:getOneMail(self.index))
+
+    local rewards = self.mailInfo.rewards or {}
+	for i = #rewards, 1, -1 do
+		local item = self.mailInfo.rewards[i]
+		local itemCfg = GoodsDataMgr:getItemCfg(item.id)
+		if itemCfg and itemCfg.isHide then
+			table.remove(self.mailInfo.rewards,i)
+		end
+	end
+
     self:showPopAnim(true)
     self:init("lua.uiconfig.mail.showMail")
 end
@@ -25,7 +35,7 @@ function ShowMail:initUI(ui)
 	self.Label_content	= TFDirector:getChildByPath(ui,"tips2");
 	self.Label_button 	= TFDirector:getChildByPath(ui,"Label_button");
 	self.contentPanel	= TFDirector:getChildByPath(ui,"contentPanel");
-	self.Button_copy		= TFDirector:getChildByPath(ui,"Button_copy"):hide()
+	self.Button_copy	= TFDirector:getChildByPath(ui,"Button_copy"):hide()
 	--self.mailInfo		= MailDataMgr:getOneMail(self.index);
 
 
@@ -40,11 +50,7 @@ function ShowMail:updateUI()
 	self.index 			= MailDataMgr:getMailShowIndex(self.id);
 	self.mailInfo		= MailDataMgr:getOneMail(self.index);
 
-	if self.mailInfo.isStrId then
-		self.Label_title:setString(self.mailInfo.title);
-	else
-		self.Label_title:setTextById(self.mailInfo.title);
-	end
+	self.Label_title:setString(self.mailInfo.title);
 	-- if self.mailInfo.title == "应援集结 豪礼" then
 	if self.mailInfo.title == TextDataMgr:getText(213006) or self.mailInfo.title == TextDataMgr:getText(213216) then
 		self.Button_copy:show()
@@ -69,13 +75,7 @@ function ShowMail:updateUI()
 	Label_content:setDimensions(335, 0)
 	Label_content:setTextHorizontalAlignment(0)
 
-	local strBody = ""
-	if self.mailInfo.isStrId then
-		strBody = self.mailInfo.body
-	else
-		strBody = TextDataMgr:getText( self.mailInfo.body)
-	end
-	local exchangeStr	= string.gsub(strBody, "\\n", "\n")
+	local exchangeStr	= string.gsub(self.mailInfo.body, "\\n", "\n")
 	Label_content:setString(exchangeStr);
 	self.Label_content:hide();
 	local inner = self.contentPanel:getInnerContainer();

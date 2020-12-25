@@ -6,44 +6,146 @@ function ServerDataMgr:init()
     self.serverTime_ = 0
     self.onlineTime_ = 0
     self.localTime_ = 0
-    self.server_ = {
-        ["chengxu"] = {
-            sort = 1,
-            name = "内网-程序",
-            list = {
-                "yuxie",
-                "liuwei",
-                "ouyangcheng",
-                "xuzhishun",
+
+    if GameConfig.Debug then
+        self.server_ = {
+            {
+                id = 100001,
+                group_id = 60,
+                groupName = "内网_minlang_dev",
+                serverGroup = "minlang_dev",
+                groupType = GLOBAL_SERVER_LIST.SERVER_NIMILANGUAGE
+            },
+            {
+                id = 100002,
+                group_id = 20,
+                groupName = "内网-eng_dev",
+                serverGroup = "eng_dev",
+                groupType = GLOBAL_SERVER_LIST.SERVER_ENGLISH
+            },
+            {
+                id = 100003,
+                group_id = 65,
+                groupName = "程序自用分组_minlang",
+                serverGroup = "chengxu",
+                list ={
+                    {
+                        serverId = 660,
+                        serverName= "yuxie",
+                    },
+                    {
+                        serverId = 651,
+                        serverName= "liuwei",
+                    },
+                },
+                groupType = GLOBAL_SERVER_LIST.SERVER_NIMILANGUAGE
+            },
+            {
+                id = 100004,
+                group_id = 25,
+                groupName = "程序自用分组_en",
+                serverGroup = "chengxu",
+                list ={
+                    {
+                        serverId = 260,
+                        serverName= "yuxie",
+                    },
+                    {
+                        serverId = 251,
+                        serverName= "liuwei",
+                    },
+                },
+                groupType = GLOBAL_SERVER_LIST.SERVER_ENGLISH
+            },
+
+            {   
+                -- 小语种策划服
+                id = 100005,
+                group_id = 888,
+                groupName = "策划_minlang",
+                serverGroup = "cehua",
+                list ={
+                    {
+                        serverId = 888001,
+                        serverName= "",
+                        url = {
+                            [1] = "http://148.153.75.131:7070/account/login"
+                        }
+                    },
+                },
+                groupType = GLOBAL_SERVER_LIST.SERVER_NIMILANGUAGE
+            },
+            {
+                -- 英文策划服(暂时用小语种)
+                id = 100006,
+                group_id = 888,
+                groupName = "策划_eng",
+                serverGroup = "cehua",
+                list ={
+                    {
+                        serverId = 888001,
+                        serverName= "",
+                        url = {
+                            [1] = "http://148.153.75.131:7070/account/login"
+                        }
+                    },
+                },
+                groupType = GLOBAL_SERVER_LIST.SERVER_ENGLISH
             }
-        },
-        ["eng_dev"] = {
-            sort = 2,
-            name = "内网-eng_dev",
-        },
-
-        ["android_check"] = {
-            sort = 3,
-            url = {[1] = "http://uc-en.datealive.com:8081/account/login"}
-        },
-
-        ["ios_check"] = {
-            sort = 4,
-            url = {[1] = "https://uc-en.datealive.com:8082/account/login"} 
-        },   
-
-        ["cehua"] = {
-            sort = 5,
-            name = "外网-策划",
-            url = {[1] = "http://148.153.55.228:7070/account/login"}
-        }, 
-        ["eng"] = {
-            sort = 6,
-            name = "外网-正式服",
-            url = {[1] = "http://uc-en.datealive.com:8081/account/login"}
         }
-    }
+    else
+        --TODO
+        -- self.server_ = {
+        --     {   
+        --         -- 小语种策划服
+        --         id = 200001,
+        --         group_id = 888,
+        --         groupName = "minlang_cehua",
+        --         serverGroup = "cehua",
+        --         list ={
+        --             {
+        --                 serverId = 888001,
+        --                 serverName= ""
+        --             },
+        --         },
+        --         groupType = GLOBAL_SERVER_LIST.SERVER_NIMILANGUAGE
+        --     },
+        --     {
+        --         -- 英文策划服(暂时用小语种)
+        --         id = 200002,
+        --         group_id = 888,
+        --         groupName = "eng_cehua",
+        --         serverGroup = "cehua",
+        --         list ={
+        --             {
+        --                 serverId = 888001,
+        --                 serverName= ""
+        --             },
+        --         },
+        --         groupType = GLOBAL_SERVER_LIST.SERVER_ENGLISH
+        --     }
+        -- }
 
+        self.server_ = {
+            {
+                -- 英文正式服
+                id = 200003,
+                group_id = 28,
+                groupName = "server I",
+                serverGroup = "eng",
+                groupType = GLOBAL_SERVER_LIST.SERVER_ENGLISH
+            },
+            -- {   
+            --     -- 小语种正式服
+            --     id = 200004,
+            --     group_id = 32,
+            --     groupName = "server II",
+            --     serverGroup = "xyz_server",
+            --     groupType = GLOBAL_SERVER_LIST.SERVER_NIMILANGUAGE
+            -- }
+        }
+    end
+    
     TFDirector:addProto(s2c.LOGIN_RESP_SERVER_TIME, self, self.onRecvServerTime)
 end
 -- [[登录服开始]]--
@@ -112,26 +214,55 @@ function ServerDataMgr:onRecvServerTime(event)
     self:initServerTime(data.serverTime)
 end
 
-function ServerDataMgr:getServerList(serverGroup)
-    if serverGroup then
-        return self.server_[serverGroup]
-    else
-        return self.server_
+function ServerDataMgr:getGroupList( )
+    return self.server_
+end
+
+function ServerDataMgr:getGroupById( groupCfgId, group_id )
+    for _, _server in ipairs(self.server_) do
+        if _server.id == groupCfgId and _server.group_id == group_id then
+            return _server
+        end
     end
 end
+
+function ServerDataMgr:getGroupNameById( groupCfgId, group_id )
+    for _, _server in ipairs(self.server_) do
+        if groupCfgId == _server.id and  _server.group_id == group_id then
+            return _server.groupName
+        end
+    end
+    return ""
+end
+
+function ServerDataMgr:getServerNameById( groupCfgId, serverId )
+    for _, _server in ipairs(self.server_) do
+        if _server.id == groupCfgId then
+            if _server.list then
+                for _,_serverInfo in ipairs(_server.list) do
+                    if _serverInfo.serverId == serverId then
+                        return _serverInfo.serverName
+                    end
+                end
+            end
+        end
+    end
+    return nil
+end
+
 -- [[登录服结束]]--
 
 -- [[游戏服开始]]--
 
 function ServerDataMgr:setGameServerList(serverData)
-    if CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 then
-        self.gameSeverList = {}
-        serverData[2]= clone(serverData[1])
-        serverData[2].groupName = serverData[1].groupName.."2"
-        table.insert(self.gameSeverList,serverData[1]);
-        table.insert(self.gameSeverList,serverData[2]);
-        return
-    end
+    -- if CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 then
+    --     self.gameSeverList = {}
+    --     serverData[2]= clone(serverData[1])
+    --     serverData[2].groupName = serverData[1].groupName.."2"
+    --     table.insert(self.gameSeverList,serverData[1]);
+    --     table.insert(self.gameSeverList,serverData[2]);
+    --     return
+    -- end
 
     self.gameSeverList = serverData;
 end
@@ -205,6 +336,48 @@ end
 function ServerDataMgr:getLocalTime( ... )
     return self.localTime_
 end
+
+function ServerDataMgr:getServerGroupIdByIdx( serverIdx )
+    for i,_info in ipairs(self.server_) do
+        if serverIdx == _info.groupType then
+            return _info.group_id
+        end
+    end
+end
+
+function ServerDataMgr:getServerCfgIdByIdx( serverIdx )
+    for i,_info in ipairs(self.server_) do
+        if serverIdx == _info.groupType then
+            return _info.id
+        end
+    end
+end
+
+function ServerDataMgr:getServerGroupTypeById( id )
+    for i,_info in ipairs(self.server_) do
+        if _info.id == id then
+            return _info.groupType
+        end
+    end
+    return 0
+end
+
+function ServerDataMgr:getDefaultServerGroupCfgId( idx )
+    for i,_info in ipairs(self.server_) do
+        if _info.groupType == idx then
+            return _info.id
+        end
+    end
+end
+
+function ServerDataMgr:getDefaultServerGroupId( idx )
+    for i,_info in ipairs(self.server_) do
+        if _info.groupType == idx then
+            return _info.group_id
+        end
+    end
+end
+
 -- [[游戏服结束]]--
 
 return ServerDataMgr:new()

@@ -73,6 +73,10 @@ end
 
 function FubenTheaterCountView:registerEvents()
     self.Button_ok:onClick(function()
+            local chapter = FubenDataMgr:getChapter(EC_FBType.THEATER_HARD)
+            local chapterCid = chapter[1]
+            FubenDataMgr:cacheSelectFubenType(EC_FBType.THEATER)
+            FubenDataMgr:cacheSelectChapter(chapterCid)
             Utils:openView("fuben.FubenSquadView", EC_FBType.THEATER_BOSS, self.levelCid_, self.selectIndex_)
             AlertManager:closeLayer(self)
     end)

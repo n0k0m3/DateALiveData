@@ -36,12 +36,26 @@ function FubenSpriteRewardView:refreshView()
     self.Label_tips:setTextById(2106060)
     self.Label_title:setTextById(2106061)
 
-    local reward = FubenDataMgr:getSpriteReward()
+    local reward, realDropCid = FubenDataMgr:getSpriteReward()
+    local multipleReward, extraReward, allMultiple = ActivityDataMgr2:getDropReward(realDropCid)
     for i, v in ipairs(reward) do
-        local Panel_goodsItem = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
-        Panel_goodsItem:Scale(0.8)
-        PrefabDataMgr:setInfo(Panel_goodsItem, v[1], v[2])
-        self.ListView_reward:pushBackCustomItem(Panel_goodsItem)
+        local flag = 0
+        local arg = {}
+        local itemId = v[1]
+        local itemNum = v[2]
+        local multiple = multipleReward[itemId]
+        if multiple then
+            flag = bit.bor(flag, EC_DropShowType.ACTIVITY_MULTIPLE)
+            arg.multiple = multiple
+        end
+        if allMultiple > 0 then
+            flag = bit.bor(flag, EC_DropShowType.ACTIVITY_MULTIPLE)
+            arg.multiple = allMultiple
+        end
+        local Panel_dropGoodsItem = PrefabDataMgr:getPrefab("Panel_dropGoodsItem"):clone()
+        Panel_dropGoodsItem:Scale(0.8)
+        PrefabDataMgr:setInfo(Panel_dropGoodsItem, {itemId, itemNum}, flag, arg)
+        self.ListView_reward:pushBackCustomItem(Panel_dropGoodsItem)
     end
     Utils:setAliginCenterByListView(self.ListView_reward, true)
 end

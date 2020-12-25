@@ -108,8 +108,9 @@ function LoadView:initUI(ui)
         if chapterCid == EC_ActivityFubenType.HALLOWEEN then    --节日活动
             adType = 40
         end
+    elseif fubenType == EC_FBType.WORLD_BOSS then -- 或守鞠奈
+        adType = 42
     end     
-
 
     --是否组队模式
     local data = BattleDataMgr:getBattleData()
@@ -232,8 +233,7 @@ function LoadView:initRoleList(heros,leader)
             local fightPower = TeamFightDataMgr:getFightPower(heroData.pid)
             panel_role.Label_fight:setText(fightPower)
             if heroData.titleId and heroData.titleId > 0 then
-                local effect = TitleDataMgr:getTitleEffectSkeletonModle(heroData.titleId,3)
-                effect:setPosition(ccp(104,84))
+                local effect = TitleDataMgr:getTitleEffectSkeletonModle(heroData.titleId,2,{104,84})
                 panel_role:addChild(effect,100)
             end
         end
@@ -284,6 +284,8 @@ function LoadView:registerEvents()
     EventMgr:addEventListener(self,eEvent.EVENT_LEAVE, handler(self.onLeave, self))
     --加载过程中战斗结束直接退出战斗返回关卡
     EventMgr:addEventListener(self,eEvent.EVENT_TEAM_FIGHT_END, handler(self.onErroExit, self))
+    --加载过程中网络波动
+    EventMgr:addEventListener(self,eEvent.EVENT_WORLDROOM_LEAVE, handler(self.onWorldRoomExit, self))
     
 
 end
@@ -327,6 +329,17 @@ function LoadView:onErroExit()
         FubenDataMgr:openFuben()
         Utils:showTips(100000066)
     end
+end
+
+function LoadView:onWorldRoomExit()
+    WorldRoomDataMgr:exitRoom()
+    ResLoader.stopTimer()
+    ResLoader.clean()
+    me.TextureCache:removeUnusedTextures()
+    TFDirector:clearMovieClipCache()
+    me.FrameCache:removeUnusedSpriteFrames()
+    SpineCache:getInstance():clearUnused()
+    AlertManager:changeScene(SceneType.MainScene)
 end
 
 return LoadView

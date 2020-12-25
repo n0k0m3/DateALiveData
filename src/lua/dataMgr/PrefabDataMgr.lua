@@ -177,6 +177,23 @@ function PrefabDataMgr:set_Panel_goodsItem(item, idOrCid, count, level)
                 end
                 ListView_star:pushBackCustomItem(starItem)
             end
+        elseif itemCfg.superType == EC_ResourceType.EXPLORE_TREASURE then
+            local maxStar = #itemCfg.levelCost + 1
+            starNum = 0
+            
+            if  GoodsDataMgr:getItem(cid) then
+                local _,itemData = next(GoodsDataMgr:getItem(cid))
+                starNum = itemData.star
+            end
+
+            for i = 1, maxStar do
+                local starItem = Image_starItem:clone():show()
+                starItem:ZO(starNum - i + 1)
+                if i > starNum then
+                    starItem:setTexture("ui/common/starBack.png")
+                end
+                ListView_star:pushBackCustomItem(starItem)
+            end
         else
             for i = 1, starNum do
                 local starItem = Image_starItem:clone():show()
@@ -244,7 +261,7 @@ function PrefabDataMgr:set_Panel_goodsItem(item, idOrCid, count, level)
         end
 
         item:onClick(function()
-            Utils:showInfo(cid, id, not(GuideDataMgr and GuideDataMgr:isInNewGuide()))
+            Utils:showInfo(cid, id, not(GuideDataMgr and GuideDataMgr:isInNewGuide() and  not isNotAccess))
         end)
     end
 end

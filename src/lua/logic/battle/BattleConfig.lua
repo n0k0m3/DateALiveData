@@ -64,5 +64,11 @@ BattleConfig.SHOW_ATTRS = false  --显示角色属性
 --多人同屏的模型最小缩放比例
 BattleConfig.MMO_MODAL_SCALE = 0.8 
 --Boss状态同步间隔时间
-BattleConfig.BOSS_STATE_SYNCHRON_TIME    = 5000
+BattleConfig.BOSS_STATE_SYNCHRON_TIME    = 500
+
+if CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 then
+	BattleConfig.DAMAGE_TEST                	= true
+else
+	BattleConfig.DAMAGE_TEST                	= false
+end
 return BattleConfig

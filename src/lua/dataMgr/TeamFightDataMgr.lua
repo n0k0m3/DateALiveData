@@ -19,6 +19,10 @@ function TeamFightDataMgr:getTeamLevelCfg( nTeamType, dungeonId )
         battlecfg = TabDataMgr:getData("HuntingLevel")[dungeonId]
     elseif nTeamType == 7 then --追猎计划组队
         battlecfg = TabDataMgr:getData("SnowDungeon")[dungeonId]
+    elseif nTeamType == 8 then --BOSS挑战组队
+        battlecfg = TabDataMgr:getData("NewBossChallenge")[dungeonId]
+    elseif nTeamType == 9 then --万圣节组队
+        battlecfg = TabDataMgr:getData("GhostDungeon")[dungeonId]
     end
     return battlecfg
 end
@@ -47,8 +51,9 @@ function TeamFightDataMgr:init()
     TFDirector:addProto(s2c.TEAM_RESP_ALL_TEAM_INFO, self, self.onRecvRoomInfo)
     TFDirector:addProto(s2c.TEAM_RESP_SET_TEAM_SHOW_TYPE, self, self.onRecvShowInRoomState)
 
-	TFDirector:addProto(s2c.TEAM_RESP_MATCH_RANK, self, self.onRecvMatchRank)
-	
+    TFDirector:addProto(s2c.TEAM_RESP_MATCH_RANK, self, self.onRecvMatchRank)
+	TFDirector:addProto(s2c.TEAM_RESP_BACK_HOME_PAGE, self, self.onRespBackHomePage)
+
 
     self.inviteSendReport = {friend = {},public = {},club = {}}
     self.levelsGroup = TabDataMgr:getData("ChasmDungeonGroup")
@@ -129,6 +134,7 @@ function TeamFightDataMgr:getReviveData()
         params.cost_id    = k
         params.cost_count = v
     end
+
     reviveData.params = params
     return reviveData
 end
@@ -321,6 +327,9 @@ function TeamFightDataMgr:onRecvStartFightInfo(event)
     AlertManager:addLayer(layer,AlertManager.BLOCK)
     AlertManager:show()
     FubenDataMgr:cachePlayerInfo()
+    if self.nTeamType == 9 then --万圣节组队
+        ActivityDataMgr2:reqHalloweenPass()
+    end
 end
 
 function TeamFightDataMgr:reFreshreviveCostData()
@@ -429,6 +438,10 @@ function TeamFightDataMgr:getTeamRoomVisibleType()
     return self.visibleType or 0
 end
 
+function TeamFightDataMgr:onRespBackHomePage()
+    self:reset()
+end
+
 -----------------------------------------------------------------REQUEST
 function TeamFightDataMgr:requestTeamLevelStat()
     TFDirector:send(c2s.CHASM_REQ_ENTER_CHASM,{})
@@ -447,7 +460,7 @@ function TeamFightDataMgr:requestInformPlayer(info)
 end
 
 ---//请求创建队伍
-function TeamFightDataMgr:requestCreateTeam( nTeamType,nBattleId,costItemId)      --@nTeamType 队伍类型 @nBattleId副本id
+function TeamFightDataMgr:requestCreateTeam( nTeamType,nBattleId,visibleType,limitLevel,isAutoMatch,costItemId)      --@nTeamType 队伍类型 @nBattleId副本id
     -- body
 
     self:reset()
@@ -459,8 +472,10 @@ function TeamFightDataMgr:requestCreateTeam( nTeamType,nBattleId,costItemId)    
     }
     self.nTeamType = nTeamType
     self.nBattleId = nBattleId
-    print("=====================================send c2s.TEAM_REQ_CREATE_TEAM")
-    TFDirector:send(c2s.TEAM_REQ_CREATE_TEAM, {enterMsg,costItemId})
+
+    costItemId = costItemId or ""
+	print("=====================================send c2s.TEAM_REQ_CREATE_TEAM")
+    TFDirector:send(c2s.TEAM_REQ_CREATE_TEAM, {enterMsg,costItemId,visibleType,limitLevel,isAutoMatch})
 end
 --//请求变更队伍状态（是否开启自动匹配队员）
 function TeamFightDataMgr:requestChangeTeamStatus( nTeamStatus )            --@nTeamStatus 是否开启队伍自动匹配 1:off 2:on
@@ -539,6 +554,9 @@ function TeamFightDataMgr:requestJoinTeam( nTeamId,nBattleId,nTeamType,joinType)
         elseif nTeamType == 7 then
             openInfo.isOpening = true
             targetBattleCfg.fightCost = targetBattleCfg.cost
+        elseif nTeamType == 8 or nTeamType == 9 then
+            openInfo.isOpening = true
+            targetBattleCfg.fightCost = targetBattleCfg.cost or {}
         else
             local openInfo = self.teamLevelsStat[nBattleId]
             if openInfo then
@@ -553,7 +571,12 @@ function TeamFightDataMgr:requestJoinTeam( nTeamId,nBattleId,nTeamType,joinType)
             costinfo.id = k
             costinfo.num = v
         end
-        costinfo.hasnum = GoodsDataMgr:getItemCount(costinfo.id)
+        if costinfo.id then
+            costinfo.hasnum = GoodsDataMgr:getItemCount(costinfo.id)
+            if costinfo.hasnum < costinfo.num then
+                Utils:showError(2100101)
+            end
+        end
         local maxPlvCheckok = true
         if targetBattleCfg.lvlLimit[2] and targetBattleCfg.lvlLimit[2] < TabDataMgr:getData("DiscreteData")[9002].data.pmaxlvl then
             if myLv > targetBattleCfg.lvlLimit[2] then
@@ -561,9 +584,7 @@ function TeamFightDataMgr:requestJoinTeam( nTeamId,nBattleId,nTeamType,joinType)
             end
         end
 
-        if costinfo.hasnum < costinfo.num then
-            Utils:showError(2100101)
-        elseif myLv < targetBattleCfg.lvlLimit[1] then
+        if myLv < targetBattleCfg.lvlLimit[1] then
             Utils:showError(2100100)
         elseif openInfo.isOpening == false then
             Utils:showError(2100098)
@@ -585,6 +606,11 @@ function TeamFightDataMgr:requestJoinTeam( nTeamId,nBattleId,nTeamType,joinType)
         Utils:showTips(240006)
     end                
         
+end
+
+--点击全屏界面主页按钮
+function TeamFightDataMgr:reqBackHomePage()
+    TFDirector:send(c2s.TEAM_REQ_BACK_HOME_PAGE, {})
 end
 
 --//请求退出队伍
@@ -647,6 +673,7 @@ function TeamFightDataMgr:openTeamView()
     else
         AlertManager:closeAllBeforLayer(layer)
     end
+    EventMgr:dispatchEvent(EV_TEAM_FIGHT_OPEN_TEAM)
 end
 
 function TeamFightDataMgr:openChangeHeroView(heros)
@@ -915,7 +942,7 @@ function TeamFightDataMgr:installTeamInfo( data )
     end
     print("event.data=========>>>>>>>>>>>" , data)
     print("self.strTeamId=========>>>>>>>>>>>" .. self.strTeamId)
-    EventMgr:dispatchEvent(EV_TEAM_FIGHT_TEAM_DATA)
+   EventMgr:dispatchEvent(EV_TEAM_FIGHT_TEAM_DATA)
 end
 
 function TeamFightDataMgr:isAutoMatching( ... )
@@ -983,7 +1010,7 @@ function TeamFightDataMgr:getMySelHeroInfo()
 end
 
 function TeamFightDataMgr:checkIsHeroRepeatWithOther(cid)
-    if self.nTeamType == 7 then
+    if self.nTeamType == 7 or self.nTeamType == 8 or self.nTeamType == 9 then
         return false
     end
 
@@ -1021,10 +1048,12 @@ end
 function TeamFightDataMgr:inviteFriend(friendid)
     local battlecfg = self:getBattleCfg()
     local curtime = ServerDataMgr:getServerTime()
-    local content = {affixID = battlecfg.affixID,teamid = self.strTeamId,battlename = TextDataMgr:getTextAttr(battlecfg.levelName).text,levellimit = battlecfg.lvlLimit[1],battleid = self.nBattleId,sendtime = curtime,nTeamType = self.nTeamType}
+    local content = {affixID = battlecfg.affixID,teamid = self.strTeamId,battlename = TextDataMgr:getTextAttr(battlecfg.levelName).text,
+                     levellimit = battlecfg.lvlLimit[1],battleid = self.nBattleId,sendtime = curtime,nTeamType = self.nTeamType,
+                     joinType = EC_JOINTEAM_TYPE.FRIEND,minLv = self.minLv}
     local contentStr = json.encode(content)
     local msg = {
-        2,
+        EC_ChatType.PRIVATE,
         2,
         contentStr,
         friendid
@@ -1042,10 +1071,12 @@ function TeamFightDataMgr:invitePublic()
     end
     local battlecfg = self:getBattleCfg()
     local curtime = ServerDataMgr:getServerTime()
-    local content = {affixID = battlecfg.affixID, teamid = self.strTeamId,battlename = TextDataMgr:getTextAttr(battlecfg.levelName).text,levellimit = battlecfg.lvlLimit[1],battleid = self.nBattleId,sendtime = curtime,nTeamType = self.nTeamType}
+    local content = {affixID = battlecfg.affixID, teamid = self.strTeamId,battlename = TextDataMgr:getTextAttr(battlecfg.levelName).text,
+                     levellimit = battlecfg.lvlLimit[1], battleid = self.nBattleId,sendtime = curtime,nTeamType = self.nTeamType,
+                     joinType = EC_JOINTEAM_TYPE.NORAML,minLv = self.minLv}
     local contentStr = json.encode(content)
     local msg = {
-        1,
+        EC_ChatType.WORLD,
         2,
         contentStr,
         0
@@ -1075,10 +1106,12 @@ function TeamFightDataMgr:inviteClub()
 
     local battlecfg = self:getBattleCfg()
     local curtime = ServerDataMgr:getServerTime()
-    local content = {affixID = battlecfg.affixID,teamid = self.strTeamId,battlename = TextDataMgr:getTextAttr(battlecfg.levelName).text,levellimit = battlecfg.lvlLimit[1],battleid = self.nBattleId,sendtime = curtime,nTeamType = self.nTeamType}
+    local content = {affixID = battlecfg.affixID,teamid = self.strTeamId,battlename = TextDataMgr:getTextAttr(battlecfg.levelName).text,
+                     levellimit = battlecfg.lvlLimit[1],battleid = self.nBattleId,sendtime = curtime,nTeamType = self.nTeamType,
+                     joinType = EC_JOINTEAM_TYPE.LEAGUE, minLv = self.minLv}
     local contentStr = json.encode(content)
     local msg = {
-        3,
+        EC_ChatType.GUILD,
         2,
         contentStr,
         0,
@@ -1127,7 +1160,8 @@ end
 
 
 --------外部调用----------------
-function TeamFightDataMgr:checkInviteMsg(msg,timestamp)
+function TeamFightDataMgr:checkInviteMsg(chatInfo,timestamp)
+    local msg = chatInfo.content
     local msgInfo = json.decode(msg)
     local livetime
     if timestamp == nil then
@@ -1158,7 +1192,7 @@ function TeamFightDataMgr:checkInviteMsg(msg,timestamp)
 			print("----------3")
             return false
         end
-    elseif nTeamType == 3 or nTeamType == 4 or nTeamType == 5 or nTeamType == 6 or nTeamType == 7 then
+    elseif nTeamType == 3 or nTeamType == 4 or nTeamType == 5 or nTeamType == 6 or nTeamType == 7 or nTeamType == 8 or nTeamType == 9 then
     else
         local levelsStat = self:getTeamLevelStat()
         if levelsStat then
@@ -1181,7 +1215,13 @@ function TeamFightDataMgr:checkInviteMsg(msg,timestamp)
         return false
     end
 
-    
+    local joinType = msgInfo.joinType
+    if joinType and joinType == EC_JOINTEAM_TYPE.NORAML and chatInfo.pid ~= MainPlayer:getPlayerId() then
+        local minLv = msgInfo.minLv or 1
+        if curPlayerPLv < minLv then
+            return false
+        end
+    end
     return true,livetime
 end
 
@@ -1209,9 +1249,8 @@ function TeamFightDataMgr:Send_getTeamRoomInfo(teamType)
     TFDirector:send(c2s.TEAM_REQ_ALL_TEAM_INFO, {teamType,0})
 end
 
-function TeamFightDataMgr:Send_showRoomList(isOpen)
-    self.serverIsOpen = isOpen
-    TFDirector:send(c2s.TEAM_REQ_SET_TEAM_SHOW_TYPE, {isOpen})
+function TeamFightDataMgr:Send_ChangeTeamShowType(show_type)
+    TFDirector:send(c2s.TEAM_REQ_SET_TEAM_SHOW_TYPE, {show_type})
 end
 
 function TeamFightDataMgr:onRecvRoomInfo(event)

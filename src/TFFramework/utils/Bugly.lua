@@ -32,11 +32,70 @@ end
     上报Lua异常
     msg : lua出错时的msg信息
 ]]
-function Bugly:ReportLuaException(msg)
+function Bugly:ReportLuaException(msg, eventName)
+    if (CC_TARGET_PLATFORM == CC_PLATFORM_WIN32) then return end
+
     if self.cachedError[msg] then return end
     self.cachedError[msg] = true
-    
-    buglyReportLuaException(msg or "Null", debug.traceback())
+
+    local exceptionT = {}
+    local platform = ""
+    if CC_TARGET_PLATFORM == CC_PLATFORM_IOS then
+        platform = "IOS"
+    elseif CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID then
+        platform = "ANDROID"
+    end
+    exceptionT.platform = platform
+
+    local systemVersion = TFDeviceInfo:getSystemVersion() or 1
+    exceptionT.system_version = systemVersion
+
+    local apkVersion = TFDeviceInfo:getCurAppVersion()
+    apkVersion = apkVersion or ""
+    exceptionT.apk_version = apkVersion
+
+    local updateVersion = ""
+    require('TFFramework.net.TFClientUpdate')
+    local newUpdateFun = TFClientResourceUpdate:GetClientResourceUpdate()
+    if newUpdateFun and newUpdateFun.getCurVersion then
+        updateVersion = newUpdateFun:getCurVersion()
+    end
+    updateVersion = updateVersion or ""
+    exceptionT.update_version = updateVersion
+
+    local playerId = ""
+    local playerName = ""
+    local playerLv = ""
+    if MainPlayer then
+        playerId = MainPlayer:getPlayerId()
+        playerId = playerId or ""
+        playerName = MainPlayer:getPlayerName()
+        playerName = playerName or ""
+        playerLv = MainPlayer:getPlayerLv()
+        playerLv = playerLv or ""
+    end
+    exceptionT.player_id = playerId
+    exceptionT.player_name = playerName
+    exceptionT.player_lv = playerLv
+
+    msg = string.gsub(msg,'\'','"')
+    exceptionT.lua_exception_msg = msg
+
+    if HeitaoSdk then
+        local platformId = HeitaoSdk.getplatformId()
+        platformId = platformId or ""
+        exceptionT.platform_id = platformId
+
+        local accountId = HeitaoSdk.getuserid() or ""
+        accountId = string.url_encode(accountId)
+        exceptionT.account_id = accountId
+    end
+    local json = require("LuaScript.extends.json")
+    local jsonData = json.encode(exceptionT)
+
+    eventName = eventName or "event_default"
+    HeitaoSdk.reportClientEvent(eventName, jsonData)
+    --buglyReportLuaException(msg or "Null", debug.traceback())
 end
 
 --[[

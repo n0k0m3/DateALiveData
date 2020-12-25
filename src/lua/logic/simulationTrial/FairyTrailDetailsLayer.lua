@@ -21,149 +21,48 @@
 *
 ]]
 local FairyTrailDetailsLayer = class("FairyTrailDetailsLayer", BaseLayer)
-local ResConfig = 	
-{
-    [110211] = {
-    	tab_name_text_ids = {2108166,2108167,2108168,2108169,2108170},
-        topBarFileName      = "FairyTrailDetailsLayer1",
-    	backgroundTexture = "ui/simulation_trial/bg.png",
-		showAcrs = true,
-	 	normalBtnTexture = {
-			"ui/simulation_trial/spriteInfo/icon2.png",
-			"ui/simulation_trial/spriteInfo/icon3.png",
-			"ui/simulation_trial/spriteInfo/icon1.png",
-			"ui/simulation_trial/spriteInfo/icon4.png",
-			"ui/simulation_trial/spriteInfo/icon5.png",
-		},
-
-		selectedBtnTexture = {
-			"ui/simulation_trial/spriteInfo/icon2_select.png",
-			"ui/simulation_trial/spriteInfo/icon3_select.png",
-			"ui/simulation_trial/spriteInfo/icon1_select.png",
-			"ui/simulation_trial/spriteInfo/icon4_select.png",
-			"ui/simulation_trial/spriteInfo/icon5_select.png",
-		},
-		image_lockMsg_texture= "ui/simulation_trial/spriteInfo/bg2.png",
-		btn_fangan_texture= "ui/simulation_trial/spriteInfo/a1.png",
-
-	},
-	 [111411] = {
-	    tab_name_text_ids = {2108166,2108167,2108171,2108169,2108170},
-	    topBarFileName      = "FairyTrailDetailsLayer2",
-	    backgroundTexture = "ui/simulation_trial2/spriteInfo/bg3.png",
-		normalBtnTexture = {
-			"ui/simulation_trial2/spriteInfo/icon2.png",
-			"ui/simulation_trial2/spriteInfo/icon3.png",
-			"ui/simulation_trial2/spriteInfo/icon1.png",
-			"ui/simulation_trial2/spriteInfo/icon4.png",
-			"ui/simulation_trial2/spriteInfo/icon5.png",
-		},
-
-		selectedBtnTexture = {
-			"ui/simulation_trial2/spriteInfo/icon2_select.png",
-			"ui/simulation_trial2/spriteInfo/icon3_select.png",
-			"ui/simulation_trial2/spriteInfo/icon1_select.png",
-			"ui/simulation_trial2/spriteInfo/icon4_select.png",
-			"ui/simulation_trial2/spriteInfo/icon5_select.png",
-		},
-		image_lockMsg_texture= "ui/simulation_trial2/spriteInfo/bg2.png",
-		btn_fangan_texture= "ui/simulation_trial2/spriteInfo/a1.png",
-    },
-    [111511] = {
-        tab_name_text_ids = {2108166,2108167,2108171,2108169,2108170},
-    	topBarFileName      = "FairyTrailDetailsLayer3",
-        backgroundTexture = "ui/simulation_trial2/spriteInfo/bg3.png",
-    	normalBtnTexture = {
-			"ui/simulation_trial2/spriteInfo/icon2.png",
-			"ui/simulation_trial2/spriteInfo/icon3.png",
-			"ui/simulation_trial2/spriteInfo/icon1.png",
-			"ui/simulation_trial2/spriteInfo/icon4.png",
-			"ui/simulation_trial2/spriteInfo/icon5.png",
-		},
-
-		selectedBtnTexture = {
-			"ui/simulation_trial2/spriteInfo/icon2_select.png",
-			"ui/simulation_trial2/spriteInfo/icon3_select.png",
-			"ui/simulation_trial2/spriteInfo/icon1_select.png",
-			"ui/simulation_trial2/spriteInfo/icon4_select.png",
-			"ui/simulation_trial2/spriteInfo/icon5_select.png",
-		},
-		image_lockMsg_texture= "ui/simulation_trial2/spriteInfo/bg2.png",
-		btn_fangan_texture= "ui/simulation_trial2/spriteInfo/a1.png",
-    },
-
-    [110113] = {
-        tab_name_text_ids = {2108166,2108167,2108172,2108169,2108170},
-    	topBarFileName      = "FairyTrailDetailsLayer4",
-        backgroundTexture = "ui/simulation_trial4/spriteInfo/bg3.png",
-    	normalBtnTexture = {
-			"ui/simulation_trial4/spriteInfo/icon2.png",
-			"ui/simulation_trial4/spriteInfo/icon3.png",
-			"ui/simulation_trial4/spriteInfo/icon1.png",
-			"ui/simulation_trial4/spriteInfo/icon4.png",
-			"ui/simulation_trial4/spriteInfo/icon5.png",
-		},
-
-		selectedBtnTexture = {
-			"ui/simulation_trial4/spriteInfo/icon2_select.png",
-			"ui/simulation_trial4/spriteInfo/icon3_select.png",
-			"ui/simulation_trial4/spriteInfo/icon1_select.png",
-			"ui/simulation_trial4/spriteInfo/icon4_select.png",
-			"ui/simulation_trial4/spriteInfo/icon5_select.png",
-		},
-		image_lockMsg_texture= "ui/simulation_trial4/spriteInfo/bg2.png",
-		btn_fangan_texture= "ui/simulation_trial4/spriteInfo/a1.png",
-    },
-    [110414] = {
-        tab_name_text_ids = {2108166,2108167,2108168,2108169,2108170},
-    	topBarFileName      = "FairyTrailDetailsLayer5",
-        backgroundTexture = "ui/simulation_trial5/bg3.png",
-    	normalBtnTexture = {
-			"ui/simulation_trial5/sx.png",
-			"ui/simulation_trial5/zd.png",
-			"ui/simulation_trial5/ts.png",
-			"ui/simulation_trial5/jb.png",
-			"ui/simulation_trial5/bs.png",
-		},
-
-		selectedBtnTexture = {
-			"ui/simulation_trial5/sx-1.png",
-			"ui/simulation_trial5/zd-1.png",
-			"ui/simulation_trial5/ts-1.png",
-			"ui/simulation_trial5/jb-1.png",
-			"ui/simulation_trial5/bs-1.png",
-		},
-		image_lockMsg_texture= "ui/simulation_trial4/spriteInfo/bg2.png",
-		btn_fangan_texture= "ui/simulation_trial4/spriteInfo/a1.png",
-    },
---    [110414] = {
---        tab_name_text_ids = {2108166,2108167,2108168,2108169,2108170},
---    	topBarFileName      = "FairyTrailDetailsLayer4",
---        backgroundTexture = "ui/simulation_trial4/spriteInfo/bg3.png",
---    	normalBtnTexture = {
---			"ui/simulation_trial4/spriteInfo/icon2.png",
---			"ui/simulation_trial4/spriteInfo/icon3.png",
---			"ui/simulation_trial4/spriteInfo/icon1.png",
---			"ui/simulation_trial4/spriteInfo/icon4.png",
---			"ui/simulation_trial4/spriteInfo/icon5.png",
---		},
-
---		selectedBtnTexture = {
---			"ui/simulation_trial4/spriteInfo/icon2_select.png",
---			"ui/simulation_trial4/spriteInfo/icon3_select.png",
---			"ui/simulation_trial4/spriteInfo/icon1_select.png",
---			"ui/simulation_trial4/spriteInfo/icon4_select.png",
---			"ui/simulation_trial4/spriteInfo/icon5_select.png",
---		},
---		image_lockMsg_texture= "ui/simulation_trial4/spriteInfo/bg2.png",
---		btn_fangan_texture= "ui/simulation_trial4/spriteInfo/a1.png",
---    },
-}
-
 function FairyTrailDetailsLayer:initData(heroId)
-	self.resConfig = ResConfig[heroId]
-	self.topBarFileName = self.resConfig.topBarFileName
+    local cfg = FubenDataMgr:getSimulationTrialCfg(heroId)
+    if not cfg then
+        Box("no heroId "..tostring(heroId).." in SimulationTrialHigh")
+        return
+    end
+	self.resConfig = cfg.growUp
+	self.topBarFileName = self.resConfig.topHelp
+    local resPath = string.format("ui/%s/spriteInfo/",self.resConfig.resFile)
+
+    ---背景图片
+    local res = resPath .. "bg3.png"
+    self.bgRes = self.resConfig.bgRes == "" and res or self.resConfig.bgRes
+
+    ---装备加锁图片
+    local res = resPath .. "bg2.png"
+    self.lockRes = self.resConfig.lockRes == "" and res or self.resConfig.lockRes
+
+    ---方案图片
+    local res = resPath .. "a1.png"
+    self.fanganRes = self.resConfig.fanganRes == "" and res or self.resConfig.fanganRes
+
+	---页签图片
+    self.tabRes = {}
+    local tabNormal = {"icon2.png","icon3.png","icon1.png","icon4.png","icon5.png"}
+    local tabSelect = {"icon2_select.png","icon3_select.png","icon1_select.png","icon4_select.png","icon5_select.png"}
+    for k,v in ipairs(tabNormal) do
+        local res = resPath ..tabNormal[k]
+        local normalRes = self.resConfig.normalTabRes[k] == "" and res or self.resConfig.normalTabRes[k]
+        local res = resPath ..tabSelect[k]
+        local selectRes = self.resConfig.selectTabRes[k] == "" and res or self.resConfig.selectTabRes[k]
+        table.insert(self.tabRes,{normal = normalRes,select = selectRes})
+    end
+
+	self.tabColor = {normal = ccc3(255,255,255),select = ccc3(255,255,255)}
+	if self.resConfig.tabInfo then
+		self.tabColor.normal = Utils:covertToColorRGB(self.resConfig.tabInfo[1])
+		self.tabColor.select = Utils:covertToColorRGB(self.resConfig.tabInfo[2])
+	end
+
 end
+
 function FairyTrailDetailsLayer:ctor(data)
     self.super.ctor(self,data)
     self.selectCell = nil
@@ -213,15 +112,33 @@ function FairyTrailDetailsLayer:initUI(ui)
 	
 
 	self.Image_b1           = TFDirector:getChildByPath(ui, "Image_b1")
-	self.Image_b1:setTexture(self.resConfig.backgroundTexture)
+	local size = self.Image_b1:getContentSize()
+	self.Image_b1:setTexture(self.bgRes)
+	self.Image_b1:setContentSize(size)
 	self.Panel_left			= TFDirector:getChildByPath(ui, "Panel_left")
 	self.acrs  				= TFDirector:getChildByPath(self.Panel_left, "arcsBg")
-	self.acrs:setVisible(not not self.resConfig.showAcrs)
+	self.acrs:setVisible(not not self.resConfig.showTabDress)
 
+	self.Spine_effect = TFDirector:getChildByPath(self.Panel_left, "Spine_effect")
+	self.Spine_effect:hide()
+	local effectUIInfo = self.resConfig.effectUI
+	if  self.resConfig.effectUI then
+		self.Spine_effect:show()
+		self.Spine_effect:setFile(effectUIInfo.res)
+		self.Spine_effect:play("animation",true)
+		self.Spine_effect:setPosition(ccp(effectUIInfo.pos[1],effectUIInfo.pos[2]))
+		self.Spine_effect:setScale(effectUIInfo.scale)
+	end
 	self.Panel_left_details = TFDirector:getChildByPath(ui, "Panel_left_details")
 	self.Panel_right 		= TFDirector:getChildByPath(ui, "Panel_right")
 	self.Panel_tabs			= TFDirector:getChildByPath(ui, "Panel_tabs")
-	
+	self.Image_tab_line     = TFDirector:getChildByPath(self.Panel_tabs, "Image_tab_line"):hide()
+
+	if self.resConfig.tabline then
+		self.Image_tab_line:setTexture(self.resConfig.tabline)
+		self.Image_tab_line:show()
+	end
+
 	self.Panel_atts_info 	= TFDirector:getChildByPath(ui, "Panel_atts_info") 	--属性界面
 	self.Panel_Equipment	= TFDirector:getChildByPath(ui, "Panel_Equipment")	--装备界面
 	self.Panel_angel		= TFDirector:getChildByPath(ui, "Panel_angel")		--天使界面
@@ -278,7 +195,7 @@ function FairyTrailDetailsLayer:initUI(ui)
 	self.Image_center_bg_effect 	= TFDirector:getChildByPath(self.Panel_Equipment,"Image_center_bg_effect")
 	self.Image_center_name    = TFDirector:getChildByPath(self.Panel_Equipment,"Image_suitSkillName")
 	local Image_lockMsg = TFDirector:getChildByPath(self.Panel_Equipment,"Image_lockMsg")
-	Image_lockMsg:setTexture(self.resConfig.image_lockMsg_texture)
+	Image_lockMsg:setTexture(self.lockRes)
 
 	for i=1,3 do
 		self["equipPanel"..i] = TFDirector:getChildByPath(self.Panel_Equipment,"Image_equipment_di"..i);
@@ -403,23 +320,28 @@ function FairyTrailDetailsLayer:initUI(ui)
 	self.btn_jiban = TFDirector:getChildByPath(self.Panel_tabs,"btn_jiban")
 	self.btn_bone = TFDirector:getChildByPath(self.Panel_tabs,"btn_bone")
 
-	TFDirector:getChildByPath(self.btn_attr,"label_name"):setTextById(self.resConfig.tab_name_text_ids[1])
-	TFDirector:getChildByPath(self.btn_zhidian,"label_name"):setTextById(self.resConfig.tab_name_text_ids[2])
-	TFDirector:getChildByPath(self.btn_angel,"label_name"):setTextById(self.resConfig.tab_name_text_ids[3])
-	TFDirector:getChildByPath(self.btn_jiban,"label_name"):setTextById(self.resConfig.tab_name_text_ids[4])
-	TFDirector:getChildByPath(self.btn_bone,"label_name"):setTextById(self.resConfig.tab_name_text_ids[5])
+	local attrBtnName = TFDirector:getChildByPath(self.btn_attr,"label_name")
+	attrBtnName:setTextById(self.resConfig.tabText[1])
+	local zhidianBtnName = TFDirector:getChildByPath(self.btn_zhidian,"label_name")
+	zhidianBtnName:setTextById(self.resConfig.tabText[2])
+	local angelBtnName = TFDirector:getChildByPath(self.btn_angel,"label_name")
+	angelBtnName:setTextById(self.resConfig.tabText[3])
+	local jibanBtnName = TFDirector:getChildByPath(self.btn_jiban,"label_name")
+	jibanBtnName:setTextById(self.resConfig.tabText[4])
+	local boneBtnName = TFDirector:getChildByPath(self.btn_bone,"label_name")
+	boneBtnName:setTextById(self.resConfig.tabText[5])
 
-	table.insert(self.tabButtons, {btn = self.btn_attr, panel = self.tabPanels[1].pl,id = 1,uiType = self.tabPanels[1].uiType})
-	table.insert(self.tabButtons, {btn = self.btn_zhidian, panel = self.tabPanels[2].pl,id = 2,uiType = self.tabPanels[2].uiType})
-	table.insert(self.tabButtons, {btn = self.btn_angel, panel = self.tabPanels[3].pl,id = 3,uiType = self.tabPanels[3].uiType})
-	table.insert(self.tabButtons, {btn = self.btn_jiban, panel = self.tabPanels[4].pl,id = 4,uiType = self.tabPanels[4].uiType})
-	table.insert(self.tabButtons, {btn = self.btn_bone, panel = self.tabPanels[5].pl,id = 5,uiType = self.tabPanels[5].uiType})
+	table.insert(self.tabButtons, {btn = self.btn_attr, btnName = attrBtnName,panel = self.tabPanels[1].pl,id = 1,uiType = self.tabPanels[1].uiType})
+	table.insert(self.tabButtons, {btn = self.btn_zhidian, btnName = zhidianBtnName,panel = self.tabPanels[2].pl,id = 2,uiType = self.tabPanels[2].uiType})
+	table.insert(self.tabButtons, {btn = self.btn_angel, btnName = angelBtnName,panel = self.tabPanels[3].pl,id = 3,uiType = self.tabPanels[3].uiType})
+	table.insert(self.tabButtons, {btn = self.btn_jiban, btnName = jibanBtnName,panel = self.tabPanels[4].pl,id = 4,uiType = self.tabPanels[4].uiType})
+	table.insert(self.tabButtons, {btn = self.btn_bone, btnName = boneBtnName,panel = self.tabPanels[5].pl,id = 5,uiType = self.tabPanels[5].uiType})
 
 
 
 
 	for i,v in ipairs(self.tabButtons) do
-		v.btn:setTexturePressed(self.resConfig.selectedBtnTexture[v.id]);
+		v.btn:setTexturePressed(self.tabRes[v.id].select);
 	end
 
 	self:updateHeroBaseInfo()
@@ -613,15 +535,17 @@ function FairyTrailDetailsLayer:onBottomBtnTouch(idx)
 
 	for i,v in ipairs(self.tabButtons) do
 		if v.id == idx then
-			v.btn:setTextureNormal(self.resConfig.selectedBtnTexture[v.id]);
+			v.btn:setTextureNormal(self.tabRes[v.id].select);
 			if self.curPanel ~= v.panel then
 				self.curPanel = v.panel
 				self:panelShow(v.panel)
 			end
 		else
-			v.btn:setTextureNormal(self.resConfig.normalBtnTexture[v.id]);
+			v.btn:setTextureNormal(self.tabRes[v.id].normal);
 			self:panelHide(v.panel)
 		end
+		local color = v.id == idx and self.tabColor.select or self.tabColor.normal
+		v.btnName:setColor(color)
 	end
 
 	if idx == 2 then
@@ -1038,7 +962,8 @@ function FairyTrailDetailsLayer:initAngelLayer()
 	self.fanganBtn = {}
 	for i = 1,3 do
 		local btn = TFDirector:getChildByPath(self.Panel_angel,"btn_fangan"..i)
-		btn:setTexturePressed(self.resConfig.btn_fangan_texture)
+		print(self.fanganRes)
+		btn:setTexturePressed(self.fanganRes)
 		btn.name = TFDirector:getChildByPath(btn,"label_fanganName")
 		self.fanganBtn[i] = btn
 		btn:onClick(function ( ... )
@@ -1063,9 +988,8 @@ function FairyTrailDetailsLayer:initAngelLayer()
 		local skillCfg = TabDataMgr:getData("Skill",skillId)
 		HeroDataMgr:setTmpUseSkillStrategy(self.showHeroId, self.showAngelFangan)
 		Utils:openView("angelNew.AngelInfo", {skillid = skillId,
-						skillType = skillCfg.skillType,idx = 1,heroid = self.showHeroId,isfriend = false,backTag = self.backTag, isPass = false, notAction = true})
-		
-		HeroDataMgr:setTmpUseSkillStrategy(self.showHeroId, lastPage)
+						skillType = skillCfg.skillType,idx = 1, heroid = self.showHeroId,isfriend = false,backTag = self.backTag, 
+						isPass = false, notAction = true, lastUseSkillStrategy = lastPage})
 	end)
 
 	self.btn_changeFangAn:onClick(function ( ... )
@@ -1086,7 +1010,7 @@ function FairyTrailDetailsLayer:updateAngelLayer()
 	for i = 1,3 do
 		local texture = "ui/simulation_trial/spriteInfo/a2.png"
 		if i == self.showAngelFangan then
-			texture = self.resConfig.btn_fangan_texture --"ui/simulation_trial/spriteInfo/a1.png"
+			texture = self.fanganRes --"ui/simulation_trial/spriteInfo/a1.png"
 		end
 		self.fanganBtn[i]:setTextureNormal(texture)
 	end

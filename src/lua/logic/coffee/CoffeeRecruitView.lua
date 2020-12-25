@@ -99,7 +99,7 @@ function CoffeeRecruitView:updateCountDonw()
     self.Button_refresh:setVisible(not isFree and isCanRefresh)
     self.Button_refresh_free:setVisible(not self.Button_refresh:isVisible())
     self.Button_refresh_free:Touchable(isFree)
-    self.Button_refresh_free:setGrayEnabled(not isCanRefresh or not isFree)
+    self.Button_refresh_free:setGrayEnabled(not isFree)
 
     self.Label_timing:setVisible(not isFree)
     self.Label_next_refresh:setVisible(not isFree)

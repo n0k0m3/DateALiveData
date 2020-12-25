@@ -89,12 +89,13 @@ function GuideDataMgr:initGuideInfo()
 
 	local serverid = ServerDataMgr:getCurrentServerID();
 	--TODO close
-	-- if serverid == 888001 then
-	-- 	self:setIsStart(false)
-	-- else
-	-- 	self:setIsStart(true)
-	-- end
-	self:setIsStart(true)
+	-- ios 审核服屏蔽新手引导
+	if serverid == 99901 then
+		self:setIsStart(false)
+	else
+		self:setIsStart(true)
+	end
+	-- self:setIsStart(true)
 end
 
 function GuideDataMgr:checkEnablePass()

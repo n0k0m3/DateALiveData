@@ -22,9 +22,12 @@ function EquipConvertChooseCondition:initData()
     table.sort(self.wordsData,function(a,b)
         return a.id < b.id
     end)
-    self.starData = {{id = 1, name = "一星"},{id = 2, name = "二星"},{id = 3, name = "三星"},{id = 4, name = "四星"},{id = 5, name = "五星"}}
-    self.suitData = {{id = 1, name = "单件"},{id = 2, name = "套装"}}
-    self.colorData = {{id = 1, name = "绿色词缀"},{id = 2, name = "蓝色词缀"},{id = 3, name = "紫色词缀"},{id = 4, name = "橙色词缀"},{id = 5, name = "红色词缀"}}
+    self.starData = Utils:getKVP(90019,"starData")
+    self.suitData = Utils:getKVP(90019,"suitData")
+    self.colorData = Utils:getKVP(90019,"colorData")
+    self.typeData = Utils:getKVP(90019,"typeData")
+    self.selectType = {}
+    self.selectType[1] = true
     self.selectStar = {}
     self.selectSuit = {}
     self.selectColor = {}
@@ -56,10 +59,16 @@ function EquipConvertChooseCondition:initUI(ui)
     self.Panel_scroll_word = TFDirector:getChildByPath(ui, "Panel_scroll_word")
     self.btn_list = {base = self.Button_base,words = self.Button_word}
 
+    self.GridView_type = UIGridView:create(TFDirector:getChildByPath(ui, "ScrollView_type"))
     self.GridView_star = UIGridView:create(TFDirector:getChildByPath(ui, "ScrollView_star"))
     self.GridView_suit = UIGridView:create(TFDirector:getChildByPath(ui, "ScrollView_suit"))
     self.GridView_color = UIGridView:create(TFDirector:getChildByPath(ui, "ScrollView_color"))
     self.GridView_word = UIGridView:create(TFDirector:getChildByPath(ui, "ScrollView_word"))
+
+    self.GridView_type:setItemModel(self.Panel_item)
+    self.GridView_type:setColumn(2)
+    self.GridView_type:setColumnMargin(5)
+    self.GridView_type:setRowMargin(5)
 
     self.GridView_star:setItemModel(self.Panel_item)
     self.GridView_star:setColumn(2)
@@ -90,6 +99,13 @@ function EquipConvertChooseCondition:initPanelItems()
     self.suitItems = {}
     self.colorItems = {}
     self.wordsItems = {}
+    self.typeItems = {}
+    for i, v in ipairs(self.typeData) do
+        local item = self.Panel_item:clone()
+        TFDirector:getChildByPath(item,"Label_item_name"):setText(v.name)
+        self.GridView_type:pushBackCustomItem(item)
+        self.typeItems[i] = item
+    end
     for i, v in ipairs(self.starData) do
         local item = self.Panel_item:clone()
         TFDirector:getChildByPath(item,"Label_item_name"):setText(v.name)
@@ -136,6 +152,7 @@ function EquipConvertChooseCondition:refreshPanelItems()
     if self.tabIdx == 1 then
         self.Panel_scroll_word:hide()
         self.Panel_scroll_base:show()
+        self:updateTypeItems()
         self:updateStarItms()
         self:updateSuitItems()
     else
@@ -144,6 +161,25 @@ function EquipConvertChooseCondition:refreshPanelItems()
         self:updateColorItms()
         self:updateWordItems()
     end 
+end
+
+function EquipConvertChooseCondition:updateTypeItems()
+    for i, item in ipairs(self.typeItems) do
+        TFDirector:getChildByPath(item,"Image_bg"):setTexture("ui/Equipment/new_ui/shaixuan/JLXL_bg_7_1.png")
+        TFDirector:getChildByPath(item,"Label_item_name"):setColor(ccc3(162,164,200))
+        if self.selectType[i] then
+            TFDirector:getChildByPath(item,"Image_bg"):setTexture("ui/Equipment/new_ui/shaixuan/JLXL_bg_7_2.png")
+            TFDirector:getChildByPath(item,"Label_item_name"):setColor(ccc3(255,255,255))
+        end
+        item:setTouchEnabled(true)
+        item:onClick(function()
+            if not self.selectType[i] then
+                self.selectType = {}
+                self.selectType[i] = true
+            end
+            self:updateTypeItems()
+        end)
+    end
 end
 
 function EquipConvertChooseCondition:updateStarItms()
@@ -239,25 +275,71 @@ end
 
 function EquipConvertChooseCondition:registerEvents()
     self.Button_ok:onClick(function ()
+        local isRevert = self.selectType[2] -- 反向选择
         local starId = {}
         local suitId = {}
         local colorId = {}
         local wordsId = {}
+
+        local isRevert = false -- 反向逻辑放到外部出来 此处强制为false
+        if isRevert then
+            for k,v in pairs (self.starData) do
+                table.insert(starId, v.id)
+            end
+
+            for k,v in pairs (self.suitData) do
+                table.insert(suitId, v.id)
+            end
+
+            for k,v in pairs (self.colorData) do
+                table.insert(colorId, v.id)
+            end
+
+            for k,v in pairs (self.wordsData) do
+                table.insert(wordsId, v.id)
+            end
+        end
+
+        local function removeObject( tab, obj )
+            -- body
+            for k,v in pairs(tab) do
+                if v == obj then
+                    table.remove(tab,k)
+                end
+            end
+        end
+
         for k, v in pairs(self.selectStar) do
-            table.insert(starId, self.starData[k].id)
+            if isRevert then
+                removeObject(starId,self.starData[k].id)
+            else
+                table.insert(starId, self.starData[k].id)
+            end
         end
 
         for k, v in pairs(self.selectSuit) do
-            table.insert(suitId, self.suitData[k].id)
+            if isRevert then
+                removeObject(suitId,self.suitData[k].id)
+            else
+                table.insert(suitId, self.suitData[k].id)
+            end
         end
         for k, v in pairs(self.selectColor) do
-            table.insert(colorId, self.colorData[k].id)
+            if isRevert then
+                removeObject(colorId, self.colorData[k].id)
+            else
+                table.insert(colorId, self.colorData[k].id)
+            end
         end
         for k, v in pairs(self.selectWord) do
-            table.insert(wordsId, self.wordsData[k].id)
+            if isRevert then
+                removeObject(wordsId, self.wordsData[k].id)
+            else
+                table.insert(wordsId, self.wordsData[k].id)
+            end
         end
-        EventMgr:dispatchEvent(EQUIPMENT_CONVERT_CHOOSE_CONDITION,{star = starId,suit = suitId,color = colorId,word = wordsId})
-        AlertManager:close(self)
+        EventMgr:dispatchEvent(EQUIPMENT_CONVERT_CHOOSE_CONDITION,{isRevert = self.selectType[2] ,star = starId,suit = suitId,color = colorId,word = wordsId})
+        AlertManager:closeLayer(self)
     end)
 
     self.Button_reset:onClick(function()
@@ -269,7 +351,7 @@ function EquipConvertChooseCondition:registerEvents()
     end)
 
     self.Button_close:onClick(function()
-        AlertManager:close(self)
+        AlertManager:closeLayer(self)
     end)
 
     self.Button_base:onClick(function()

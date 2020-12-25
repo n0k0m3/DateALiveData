@@ -252,7 +252,12 @@ function TitleMainView:updateTitleBaseInfo()
             if attConfig then
                 Label_attr:show()
                 local value = math.abs(tonumber(v) / 100)
-                local attValue = string.format("%."..attConfig.decimal.."f",value)
+                local attValue = value
+                if attConfig.decimal <= 0 then
+                    attValue = math.floor(value)
+                else
+                    attValue = string.format("%."..attConfig.decimal.."f",value)
+                end
                 attValue = string.format(attConfig.displayFormat,attValue)
                 local attrNameStr = TextDataMgr:getText(attConfig.name)
                 Label_attr:setText(attrNameStr.." "..attValue)

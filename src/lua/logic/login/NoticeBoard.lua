@@ -28,7 +28,7 @@ function NoticeBoard:initUI(ui)
 	self.bg = TFDirector:getChildByPath(ui,"Image_bg"):hide();
 	self.viewDi = TFDirector:getChildByPath(ui,"Image_noticeBoard_1"):hide();
 
-	self.redirectUrl = "http://api-en.datealive.com/yhdzz/special/1"
+	self.redirectUrl = URL_NOTICEBOARD
 	TFWebView.AddRedirectUrl(self.redirectUrl)
 	TFDirector:addMEGlobalListener("TFDeviceInfo.NativeCall",function(event)
 			local _type = "OverrideUrlLoading";

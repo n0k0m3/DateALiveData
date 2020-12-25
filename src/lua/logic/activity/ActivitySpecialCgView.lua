@@ -163,6 +163,7 @@ function ActivitySpecialCgView:flushCgPingtu( )
 	self.cgName:setText(self.activityInfo.extendData.cgName)
 	local activityNum = 0
 	for k,v in pairs(self.pingtuNodes) do
+		--self.cgListType[k] = 1
 		if tonumber(self.cgListType[k]) == 1 then
 			v:hide()
 			activityNum = activityNum + 1
@@ -203,6 +204,7 @@ end
 
 function ActivitySpecialCgView:updateTaskItem( node, itemData )
 	-- body
+	local task_bg = TFDirector:getChildByPath(node,"task_bg")
 	local panel_base = TFDirector:getChildByPath(node,"panel_base")
 	local panel_geted = TFDirector:getChildByPath(node,"panel_geted")
 	local panel_ing = TFDirector:getChildByPath(node,"panel_ing")
@@ -224,6 +226,12 @@ function ActivitySpecialCgView:updateTaskItem( node, itemData )
 	panel_geted:setVisible(progressInfo.status ==  EC_TaskStatus.GETED)
 	panel_get:setVisible(progressInfo.status ==  EC_TaskStatus.GET)
 
+	local pic = progressInfo.status ==  EC_TaskStatus.GET and "ui/activity/activity_cg/013.png" or "ui/activity/activity_cg/016.png"
+	task_bg:setTexture(pic)
+
+	local color = progressInfo.status ==  EC_TaskStatus.GET and ccc3(239,95,125) or ccc3(89,121,193)
+	task_title:setColor(color)
+	task_des:setColor(color)
 	task_title:setText(itemData.extendData.des or "")
 	task_des:setText(itemData.extendData.des2 or "")
 	if itemData.extendData.target then

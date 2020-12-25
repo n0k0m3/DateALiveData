@@ -194,7 +194,7 @@ function BingoDiceView:updateBatchPanel(num)
     end
 
     if chipNum < otherVoteNum + num then
-        Utils:showAccess(500066)
+        Utils:showAccess(BingoDataMgr:getChipGoodsId())
         self:stopTimer()
         return
     end

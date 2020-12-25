@@ -293,12 +293,17 @@ function TitleDataMgr:onRecvTakeOffTitle(event)
     EventMgr:dispatchEvent(EV_EQUIP_OR_TAKEOFF_TITLE)
 end
 
-function TitleDataMgr:getTitleEffectSkeletonModle(titleId, posType)
+function TitleDataMgr:getTitleEffectSkeletonModle(titleId, posType, fixPos)
     local cfg = self:getTitleCfg(titleId)
     if not cfg then
         return
     end
     local position = cfg.excursion2[posType or 1]
+    if fixPos then
+        position = clone(position)
+        position[1] = position[1] + fixPos[1]
+        position[2] = position[2] + fixPos[2]
+    end
     local size = cfg.size2[posType or 1]
     local skeletonTitleNode = SkeletonAnimation:create(cfg.showEffect)
     skeletonTitleNode:play("animation", true)

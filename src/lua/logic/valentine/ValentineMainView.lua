@@ -36,16 +36,16 @@ function ValentineMainView:initUI(ui)
     self.Panel_rank = TFDirector:getChildByPath(self.Panel_root, "Panel_rank")
     local ScrollView_rank = TFDirector:getChildByPath(self.Panel_rank, "ScrollView_rank")
     self.ListView_rank = UIListView:create(ScrollView_rank)
-    self.Button_expand = TFDirector:getChildByPath(self.Panel_rank, "Button_expand"):hide()
-    self.Button_collapse = TFDirector:getChildByPath(self.Panel_rank, "Button_collapse"):show()
+    self.Button_expand = TFDirector:getChildByPath(self.Panel_root, "Button_expand"):hide()
+    self.Button_collapse = TFDirector:getChildByPath(self.Panel_root, "Button_collapse"):show()
     self.Button_chocolate = TFDirector:getChildByPath(self.Panel_root, "Button_chocolate")
     self.Label_chocolate = TFDirector:getChildByPath(self.Button_chocolate, "Label_chocolate")
     self.Button_tacit = TFDirector:getChildByPath(self.Panel_root, "Button_tacit")
     self.Label_tacit = TFDirector:getChildByPath(self.Button_tacit, "Label_tacit")
 
     local rankSize = self.Panel_rank:getSize()
-    self.collapseX_ = -GameConfig.WS.width * 0.5 - rankSize.width
-    self.expandX_ = -GameConfig.WS.width * 0.5
+    self.collapseY_ = -GameConfig.WS.height * 0.5 - rankSize.height
+    self.expandY_ = self.Panel_rank:getPosition().y
 
     self:refreshView()
 end
@@ -58,15 +58,16 @@ function ValentineMainView:initMap()
         foo.Spine_role = SkeletonAnimation:create(roleModelCfg.rolePath)
         foo.root:addChild(foo.Spine_role)
         foo.Spine_role:setScale(0.8)
+
+        foo.Spine_role.imgGift = TFImage:create("ui/valentine/new/004.png")
+        foo.Spine_role.imgGift:setAnchorPoint(ccp(0,0))
+        foo.Spine_role.imgGift:setVisible(false)
+        foo.root:addChild(foo.Spine_role.imgGift)
+        foo.Spine_role.imgGift:Pos(me.p(30,170))
+        -- dump(foo.Spine_role:getBoundingBox2("city_10104").size)
+        -- dump(getmetatable(foo.Spine_role))
+        -- getBonePosition
         foo.Spine_role:play(cfg.action, true)
-        foo.Spine_role:addMEListener(
-            TFARMATURE_COMPLETE,
-            function(_, aniName)
-                if aniName == "happy" then
-                    foo.Spine_role:play(roleModelCfg.action, true)
-                end
-            end
-        )
         foo.Spine_role:setTouchEnabled(true)
         foo.root:setScaleX(cfg.flip and -1 or 1)
         foo.Spine_role:onClick(function()
@@ -77,12 +78,69 @@ function ValentineMainView:initMap()
     local size = self.ScrollView_room:getInnerContainerSize()
     local innerContainer = self.ScrollView_room:getInnerContainer()
     innerContainer:setPositionX(-size.width * 0.5)
+
+    self:playRandomAction()
+end
+
+-- 随机动作播放（下次随机排除上次播放的）
+function ValentineMainView:playRandomAction()
+    local function rolePlayRuleFuc()
+        local sumCount = table.count(self.valentineRole_)
+        local tmpTab = {}
+        local randIdx
+
+        if self.playRoleIdx then
+            local lastPlaySpine = self.Panel_site[self.playRoleIdx].Spine_role
+            local cfg_ = ValentineDataMgr:getValentineRoleCfg(self.valentineRole_[self.playRoleIdx])
+            lastPlaySpine:play(cfg_.action, true)
+            lastPlaySpine.imgGift:setVisible(false)
+            for i = 1, sumCount do
+                if i ~= self.playRoleIdx then
+                    table.insert(tmpTab, i)
+                end
+            end
+            randIdx = tmpTab[math.random(1, #tmpTab)]
+        else
+            randIdx = math.random(1, sumCount)
+        end
+
+        local id = self.valentineRole_[randIdx]
+        local cfg = ValentineDataMgr:getValentineRoleCfg(id)
+        local myTacit = ValentineDataMgr:getFullServerTacit(id)
+        local spine = self.Panel_site[randIdx].Spine_role
+        if not spine then
+            return
+        end
+
+        if myTacit < 100  then
+            local tmpRand_1 = cfg.normalIdle[math.random(1, table.count(cfg.normalIdle))]
+            spine:play(tmpRand_1, true)
+        elseif myTacit >= 100 then
+            local tmpRand_2 = cfg.happyIdle[math.random(1, table.count(cfg.happyIdle))]
+            spine:play(tmpRand_2, true)
+        end
+       
+        spine.imgGift:setVisible(true)
+        self.playRoleIdx = randIdx
+        -- foo.Spine_role:addMEListener(
+        --     TFARMATURE_COMPLETE,
+        --     function(_, aniName)
+        --         if aniName == cfg.normalIdle or aniName == cfg.happyIdle then
+        --             foo.Spine_role:play(cfg.action, true)
+        --         end
+        --     end
+        --  )
+    end
+
+    if not self.timer then
+        self.timer = TFDirector:addTimer(5000, -1, nil, rolePlayRuleFuc)
+    end
 end
 
 function ValentineMainView:refreshView()
     self.Label_chocolate:setTextById(1710003)
     self.Label_tacit:setTextById(1710004)
-    self.Panel_rank:PosX(self.expandX_)
+    self.Panel_rank:PosY(self.expandY_)
 
     self:initMap()
 
@@ -101,22 +159,20 @@ function ValentineMainView:addRankItem()
     local Panel_rankItem = self.Panel_rankItem:clone()
     local foo = {}
     foo.root = Panel_rankItem
-    foo.Image_rank = {}
-    for i = 1, 4 do
-        local bar = {}
-        bar.root = TFDirector:getChildByPath(foo.root, "Image_rank_" .. i)
-        bar.Label_name = TFDirector:getChildByPath(bar.root, "Label_name")
-        bar.Label_rank = TFDirector:getChildByPath(bar.root, "Label_rank")
-        bar.Label_order = TFDirector:getChildByPath(bar.root, "Label_order")
-        bar.Image_icon = TFDirector:getChildByPath(bar.root, "Image_icon")
-        foo.Image_rank[i] = bar
-    end
+    foo.Image_rank = TFDirector:getChildByPath(foo.root, "Image_rank_1")
+    foo.Label_name = TFDirector:getChildByPath(foo.Image_rank, "Label_name")
+    foo.Label_name:setSkewX(15)
+    foo.Image_gift = TFDirector:getChildByPath(foo.Image_rank, "Image_gift")
+    foo.Image_icon = TFDirector:getChildByPath(foo.Image_rank, "Image_icon")
+    foo.progressBar = TFDirector:getChildByPath(foo.Image_rank, "img_progressDi.progressBar")
+    foo.lab_Progess = TFDirector:getChildByPath(foo.Image_rank, "lab_Progess")
+    foo.lab_Progess:setSkewX(15)
     return foo
 end
 
 function ValentineMainView:operateRank(isOpen)
-    local x = isOpen and self.expandX_ or self.collapseX_
-    local y = self.Panel_rank:PosY()
+    local x = self.Panel_rank:PosX()
+    local y = isOpen and self.expandY_ or self.collapseY_
     self.Button_expand:setVisible(not isOpen)
     self.Button_collapse:setVisible(isOpen)
     local action = Sequence:create({
@@ -130,19 +186,37 @@ function ValentineMainView:operateRank(isOpen)
 end
 
 function ValentineMainView:updateAllRandItem()
-    for i, v in ipairs(self.valentineRole_) do
+    local data = ValentineDataMgr:getValentineRoleRank()
+    for i, v in ipairs(ValentineDataMgr:getValentineRoleRank()) do
         local foo = self.rankItems_[i]
         local cfg = ValentineDataMgr:getValentineRoleCfg(v)
         local roleModelCfg = TabDataMgr:getData("CityRoleModel", cfg.cityRole)
-        local order = i > 3 and 4 or i
-        for j, bar in ipairs(foo.Image_rank) do
-            bar.root:setVisible(j == order)
-            bar.Label_name:setTextById(cfg.name)
-            bar.Label_rank:setTextById(1710001)
-            bar.Label_order:setText(i)
-            bar.Image_icon:setTexture(roleModelCfg.modeHead)
-            bar.Image_icon:Scale(0.55)
+        foo.root:setVisible(true)
+        if i % 2 == 0 then
+            foo.Image_rank:setTexture("ui/valentine/new/008.png")
+        else
+            foo.Image_rank:setTexture("ui/valentine/new/009.png")
         end
+        foo.Label_name:setTextById(cfg.name)
+        foo.Image_icon:setTexture(roleModelCfg.modeHead)
+        foo.Image_icon:setTouchEnabled(true)
+        foo.Image_gift:setTexture(cfg.showReward)
+        foo.Image_gift:setSize(CCSizeMake(70,70))
+        foo.Image_icon:onClick(function()
+            Utils:openView("valentine.ValentineTaskView", v)
+        end)
+
+        local condData_ = {}
+        for i, v in ipairs(cfg.dating) do
+            local datingRuleCfg = TabDataMgr:getData("DatingRule", v)
+            local _, num = next(datingRuleCfg.enter_condition.item)
+            condData_[i] = num
+        end
+        local maxTacit_ = math.max(unpack(condData_))
+        local percent = ValentineDataMgr:getFullServerTacit(v) / maxTacit_ * 100
+        foo.progressBar:setPercent(percent)
+        foo.lab_Progess:setText(ValentineDataMgr:getFullServerTacit(v).."/"..maxTacit_)
+        foo.Image_icon:Scale(0.55)
     end
 end
 
@@ -168,7 +242,7 @@ function ValentineMainView:registerEvents()
 end
 
 function ValentineMainView:onRankUpdateEvent()
-    self.valentineRole_ = ValentineDataMgr:getValentineRoleRank()
+    -- self.valentineRole_ = ValentineDataMgr:getValentineRoleRank()
     self:updateAllRandItem()
 end
 
@@ -177,6 +251,13 @@ function ValentineMainView:onUpdateActivityEvent()
     if not activityInfo then
         AlertManager:closeAll()
         Utils:showTips(1710021)
+    end
+end
+
+function ValentineMainView:removeEvents()
+    if self.timer then
+        TFDirector:removeTimer(self.timer)
+        self.timer = nil
     end
 end
 

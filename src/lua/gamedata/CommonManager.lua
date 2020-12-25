@@ -111,6 +111,7 @@ function CommonManager:closeConnection()
 end
 
 function CommonManager:closeConnection2()
+    self.tipData = nil
     --self:setAutoConnect(false)
     dump("closeConnection2")
     Utils:setScreenOrientation(SCREEN_ORIENTATION_LANDSCAPE)
@@ -179,6 +180,7 @@ function CommonManager:loginServer(re)
             end
         else
             self:sendLogin(re)
+            MainPlayer:resteBeforeLogin()
         end
     end
 
@@ -239,7 +241,9 @@ function CommonManager:connectServer(requestLogin)
     end
     if HeitaoSdk and time <= 1 then
         --TODO CLOSE
-        --HeitaoSdk.reportNetworkData(connectIp)
+        if tonumber(TFDeviceInfo:getCurAppVersion()) >= 1.15 and CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID then
+            HeitaoSdk.reportNetworkData(connectIp)
+        end
     end
 end
 
@@ -263,6 +267,7 @@ function CommonManager:connectHandle(nResult,requestLogin)
                         self:sendLogin(true);
                         --self.TryReLoginFailTimes = 0
                     end
+                    MainPlayer:resteBeforeLogin()
                 end
             end
         -- 连接失败
@@ -409,11 +414,7 @@ function CommonManager:connectionClosedCallback(nResult)
     connection_status = 0
     hideAllLoading()
 
-    local scene = Public:currentScene();
-    if scene.__cname ~= "LoginScene" then --断线派发事件
-        EventMgr:dispatchEvent(EV_OFFLINE_EVENT)
-    end
-
+    self:dispatchOfflineEvent()
     MainPlayer:stopHeartBeat()
     
     local currentScene = Public:currentScene()
@@ -446,6 +447,13 @@ function CommonManager:connectionClosedCallback(nResult)
     self:reConnectServer(true);
 end
 
+function CommonManager:dispatchOfflineEvent()
+    local scene = Public:currentScene();
+    if scene.__cname ~= "LoginScene" then --断线派发事件
+        print("EventMgr:dispatchEvent(EV_OFFLINE_EVENT)")
+        EventMgr:dispatchEvent(EV_OFFLINE_EVENT)
+    end
+end
 
 function CommonManager:setLoginCompleteState( state )
     self.loginCompleteState = state
@@ -462,6 +470,7 @@ function CommonManager:heartBeatcloseConnection()
     self:setAutoConnect(true)
     MainPlayer.firstLoginMark = false
     TFDirector:closeSocket()
+    self:dispatchOfflineEvent()
     connection_status = 0
     self.TryReLoginFailTimes = 0;
 end

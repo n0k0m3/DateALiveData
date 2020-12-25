@@ -17,6 +17,7 @@ GV_FUBEN_PREPLOT_FLAG = make("GV_FUBEN_PREPLOT_FLAG", "boolean", false, false)
 GV_ELF_CONTRACT_TIP = make("GV_ELF_CONTRACT_TIP", "boolean", false, false)
 -- 是否进入过女仆咖啡厅
 GV_COFFEE_IS_FIRSTENTER = make("GV_COFFEE_IS_FIRSTENTER", "boolean", true, true)
+GV_COFFEE_IS_FIRSTENTER = make("GV_COFFEE_IS_FIRSTENTER_NEW01", "boolean", true, true)
 -- 是否第一次进入端午活动
 GV_DUANWU_IS_FIRSTENTER = make("GV_DUANWU_IS_FIRSTENTER", "boolean", true, true)
 -- 是否第一次制作五谷粽子
@@ -36,6 +37,5 @@ GV_MIDAUTUMN_580128_FIRSTMAKE = make("GV_MIDAUTUMN_580128_FIRSTMAKE", "boolean",
 -- 奖励id:580129
 GV_MIDAUTUMN_580129_FIRSTMAKE = make("GV_MIDAUTUMN_580129_FIRSTMAKE", "boolean", true, true)
 
-
-GV_UTC_TIME_ZONE =  -7 -- + (os.date("*t" , os.time()).isdst and -1 or 0)  ---Utc时区设置 目前 正负即为 对应+ - 时区 另加冬夏令时加减1小时 目前暂时屏蔽冬夏令时判断（美国utc-7冬夏令时时区为加减1小时 所以为-1 or 0 其它时区同理）
+GV_UTC_TIME_ZONE = -7   ---Utc时区设置 目前 正负即为 对应+ - 时区
 GV_UTC_TIME_STRING = "(UTC-7)"

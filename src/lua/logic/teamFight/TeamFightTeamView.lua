@@ -7,7 +7,8 @@ function TeamFightTeamView:initData()
     self.teamItemsPos = {
         [1] = {ccp(0,0)},
         [2] = {ccp(-180,0),ccp(180,0)},
-        [3] = {ccp(-310,0),ccp(0,0),ccp(310,0)},
+        --[3] = {ccp(-310,0),ccp(0,0),ccp(310,0)},
+        [3] = {ccp(-412,0),ccp(-206,0),ccp(0,0),ccp(206,0),ccp(412,0)},
         [4] = {ccp(-360,0),ccp(-120,0),ccp(120,0),ccp(360,0)},
         [5] = {ccp(-412,0),ccp(-206,0),ccp(0,0),ccp(206,0),ccp(412,0)},
     }
@@ -36,16 +37,22 @@ function TeamFightTeamView:initData()
     }
     self.teamItemCtrlCfg = {
         [1] = {
-                [1] = {img = "ui/onlineteam/ctrl_logo_info.png",txt = 2100063}, --查看信息
-                [2] = {img = "ui/onlineteam/ctrl_logo_captain.png",txt = 2100062}, --转移队长
-                [3] = {img = "ui/onlineteam/ctrl_logo_kickout.png",txt = 2100061}, --请出队伍
+                [1] = {img = "ui/onlineteam/ctrl_logo_info.png",btnRes = "ui/onlineteam/ctrl_btn2.png",txt = 2100063,posY = -150}, --查看信息
+                [2] = {img = "ui/onlineteam/ctrl_logo_captain.png",btnRes = "ui/onlineteam/ctrl_btn2.png",txt = 2100062,posY = 0}, --转移队长
+                [3] = {img = "ui/onlineteam/ctrl_logo_kickout.png",btnRes = "ui/onlineteam/ctrl_btn.png",txt = 2100061,posY = 150}, --请出队伍
             },
         [2] = {
-                [1] = {img = "ui/onlineteam/ctrl_logo_club.png",txt = 2100065}, --社团邀请
-                [2] = {img = "ui/onlineteam/ctrl_logo_friend.png",txt = 2100066}, --好友邀请
-                [3] = {img = "ui/onlineteam/ctrl_logo_world.png",txt = 2100064}, --系统邀请
+                [1] = {img = "ui/onlineteam/ctrl_logo_club.png",btnRes = "ui/onlineteam/ctrl_btn.png",txt = 2100065,posY = 150}, --社团邀请
+                [2] = {img = "ui/onlineteam/ctrl_logo_friend.png",btnRes = "ui/onlineteam/ctrl_btn.png",txt = 2100066,posY = 0}, --好友邀请
+                [3] = {img = "ui/onlineteam/ctrl_logo_world.png",btnRes = "ui/onlineteam/ctrl_btn.png",txt = 2100064,posY = -150}, --系统邀请
             },
     }
+
+    self.visiblePic = {[0] = "ui/onlineteam/setting/7.png",
+                       [1] = "ui/onlineteam/setting/6.png",
+                       [2] = "ui/onlineteam/setting/8.png",
+    }
+
     self.btns_click_enable = false
     self.ctrl_pad_func = {
         [1] = {
@@ -76,7 +83,7 @@ function TeamFightTeamView:initData()
                         if self.isTeamLeader == true then
                             local memberData = TeamFightDataMgr:getMemberInfo(itemidx.item_idx)
                             if memberData then
-                                TeamFightDataMgr:requestKickOutTeam(memberData.pid)
+                                Utils:openView("teamFight.KickOutConfirmView",memberData)
                             end
                         else
                             --队长权限
@@ -100,7 +107,21 @@ function TeamFightTeamView:initData()
     if self.curLevelCfg.heroLimitType == EC_LimitHeroType.LIMIT_NJ or self.curLevelCfg.heroLimitType == EC_LimitHeroType.LIMIT_J then
         TFDirector:send(c2s.DUNGEON_LIMIT_HERO_DUNGEON, {self.curLevelCfg.id})
     end
-
+    if TeamFightDataMgr.nTeamType == 9 then --万圣节组队
+        ActivityDataMgr2:reqHalloweenPass()
+        for i,v in ipairs(self.teamRB_btn_title) do
+            if i == 3 then
+                v.color = ccc3(255,255,255)
+                v.img = "ui/activity/activity_2020wsj/figthReady/btn_cancel.png"
+            elseif i == 4 or i == 5 then
+                v.color = ccc3(143,52,87)
+                v.img = "ui/activity/activity_2020wsj/figthReady/btn.png"
+            else
+                v.color = ccc3(143,52,87)
+                v.img = "ui/activity/activity_2020wsj/figthReady/btn_ready.png"
+            end
+        end
+    end
 end
 
 function TeamFightTeamView:ctor(...)
@@ -112,14 +133,44 @@ end
 function TeamFightTeamView:initUI(ui)
     self.super.initUI(self, ui)
     self.Panel_team     = TFDirector:getChildByPath(ui, "Panel_team")
-    if self.teamMaxCount > 3 then 
-        self.prefab_model = self.Panel_team:getChildByName("Panel_member_model"):show()
-        self.Panel_team:getChildByName("Panel_member_model_big"):hide()
-    else
-        self.Panel_team:getChildByName("Panel_member_model"):hide()
-        self.prefab_model = self.Panel_team:getChildByName("Panel_member_model_big"):show()
+    --if self.teamMaxCount > 3 then
+    --    self.prefab_model = self.Panel_team:getChildByName("Panel_member_model"):show()
+    --    self.Panel_team:getChildByName("Panel_member_model_big"):hide()
+    --    Box("11111111111")
+    --else
+    --    self.Panel_team:getChildByName("Panel_member_model"):hide()
+    --    self.prefab_model = self.Panel_team:getChildByName("Panel_member_model_big"):show()
+    --    Box("2222222222")
+    --end
+
+    self.gmSkill_ = {}
+    self.Panel_GongMing =  TFDirector:getChildByPath(ui, "Panel_GongMing")
+    local isOpen = FunctionDataMgr:isOpen(151)
+    self.Panel_GongMing:setVisible(isOpen)
+    if self.Panel_GongMing then
+        for i=1,4 do
+            local btn = TFDirector:getChildByPath(self.Panel_GongMing, "Button_gm_skill"..i)
+            local Image_icon_bg = TFDirector:getChildByPath(btn, "Image_icon_bg")
+            local icon = TFDirector:getChildByPath(btn, "icon")
+            icon:setScale(0.4)
+            table.insert(self.gmSkill_,{btn = btn, iconBg = Image_icon_bg, skillIcon = icon})
+        end
     end
- 
+
+    ---房间操作
+    self.Panel_room_hadle =  TFDirector:getChildByPath(ui, "Panel_room_hadle")
+    self.Image_match_state = TFDirector:getChildByPath(self.Panel_room_hadle, "Image_match_state"):hide()
+    self.Label_match_state =  TFDirector:getChildByPath(self.Panel_room_hadle, "Label_match_state")
+    self.Image_match_state_icon = TFDirector:getChildByPath(self.Panel_room_hadle, "Image_match_state_icon")
+    self.Label_effect_state =  TFDirector:getChildByPath(self.Panel_room_hadle, "Label_effect_state")
+    self.Label_limit_lv =  TFDirector:getChildByPath(self.Panel_room_hadle, "Label_limit_lv")
+    self.Image_effect_state_icon = TFDirector:getChildByPath(self.Panel_room_hadle, "Image_effect_state_icon")
+    self.Image_visibleTypeIcon = TFDirector:getChildByPath(self.Panel_room_hadle, "Image_visibleTypeIcon")
+    self.Panel_room_hadle:setVisible(TeamFightDataMgr.nTeamType ~= EC_NetTeamType.Hunter)
+
+    self.prefab_model = self.Panel_team:getChildByName("Panel_member_model"):show()
+    self.Panel_team:getChildByName("Panel_member_model_big"):hide()
+
     self.root_panel = TFDirector:getChildByPath(ui, "Panel_root")
     local Label_title = self.root_panel:getChildByName("Image_title_bg"):getChildByName("Label_title")
     Label_title:setTextById(self.curLevelCfg.levelName)
@@ -141,6 +192,18 @@ function TeamFightTeamView:initUI(ui)
     self.speak_listView:setItemModel(speak_cell)
     self.speak_listView:removeAllItems()
 
+    local ScrollView_affix = TFDirector:getChildByPath(ui, "ScrollView_affix"):hide()
+    self.ListView_affix = UIListView:create(ScrollView_affix)
+    self.ListView_affix:setItemsMargin(5)
+    self.Image_affix_item = TFDirector:getChildByPath(ui, "Image_affix_item")
+    self.Label_noAffix = TFDirector:getChildByPath(ui, "Label_noAffix"):hide()
+    self.Label_noAffix:setTextById(14110460)
+    self.Image_buff_tip = TFDirector:getChildByPath(ui, "Image_buff_tip"):hide()
+    self.Label_buff_tip = TFDirector:getChildByPath(ui, "Label_buff_tip")
+    self.Panel_buff = TFDirector:getChildByPath(ui, "Panel_buff"):hide()
+    self.buff_listView = UIListView:create(self.Panel_buff:getChildByName("ScrollView_buff"))
+    self.buff_item = self.Panel_buff:getChildByName("Panel_buff_item")
+
     for k,v in ipairs(self.speaksCfg) do
         local item = self.speak_listView:pushBackDefaultItem()
         item:setVisible(true)
@@ -157,9 +220,16 @@ function TeamFightTeamView:initUI(ui)
             self:speaksRefresh(5)
         end)
     end
+    if TeamFightDataMgr.nTeamType == 9 then
+        TFDirector:getChildByPath(ui, "Image_bg"):setTexture("ui/activity/activity_2020wsj/figthReady/bg.png")
+        self.Image_buff_tip:setTexture("ui/activity/activity_2020wsj/figthReady/005.png")
+    end
+
     self:initTeamPart()
     self:initCommonPart()
     self:onHandleTeamData()
+    self:initAffixInfo()
+    self:updateBuffInfos()
 
     self.panelTouchFunc = function()
         if self.isReqCloseLayer == true then
@@ -174,6 +244,86 @@ function TeamFightTeamView:initUI(ui)
         showGameAlert(alertparams)
     end
     self.Button_help:setVisible(self.curLevelCfg.allowTips)
+    self:updateGMSkill()
+
+    ---房间操作
+    self:updateHandleInfo()
+
+    AlertManager:closeLayerByName("ChatView")
+end
+
+function TeamFightTeamView:initAffixInfo()
+
+    if TeamFightDataMgr.nTeamType == EC_NetTeamType.Hunter then
+        return
+    end
+
+    self.ListView_affix:s():setVisible(true)
+
+    self.ListView_affix:removeAllItems()
+    local affixData
+    local affixID = self.curLevelCfg.affixID
+    if affixID and affixID > 0 then
+        affixData = TabDataMgr:getData("MonsterAffix",affixID)
+    end
+    self.Label_noAffix:show()
+    if not affixData then
+        return
+    end
+
+    local affixName = affixData.affixName
+    self.Label_noAffix:setVisible(#affixName <= 0)
+
+    for k,v in ipairs(affixName) do
+        local item = self.Image_affix_item:clone()
+        self.ListView_affix:pushBackCustomItem(item)
+
+        local affixIconRes  = affixData["affixIcon"..tostring(k)]
+        if affixIconRes then
+            local Image_icon = item:getChildByName("Image_icon")
+            Image_icon:setTexture(affixIconRes)
+            Image_icon:setScale(0.7)
+        end
+
+        local Label_name = item:getChildByName("Label_name")
+        Label_name:setTextById(v)
+        Label_name:setSkewX(15)
+
+        local affixDescId = affixData.affixDesc[k]
+        if affixDescId then
+            local Label_desc = item:getChildByName("Label_desc")
+            Label_desc:setTextById(affixDescId)
+        end
+    end
+end
+
+function TeamFightTeamView:updateBuffInfos()
+    if self.curLevelCfg.buffID then
+        if table.count(self.curLevelCfg.buffID) > 0 then
+            self.buff_listView:removeAllItems()
+            self.Panel_buff:show()
+            if self.Label_noAffix:isVisible() then
+                self.Label_noAffix:hide()
+            end
+            local unableBuff = ActivityDataMgr2:getHalloweenUnableSuperBuffIds()
+            for k,v in pairs(self.curLevelCfg.buffID) do
+                local visible = table.indexOf(unableBuff,v) ~= -1
+                local item = self.buff_item:clone()
+                local buffCfg = TabDataMgr:getData("HalloweenBuff", v)
+                local Image_buff_bg = item:getChildByName("Image_buff_bg")
+                local Label_buff_desc = item:getChildByName("Label_buff_desc")
+                local Image_line = item:getChildByName("Image_line")
+                Image_buff_bg:setTexture(visible and "ui/activity/activity_2020wsj/figthReady/003.png" or "ui/activity/activity_2020wsj/figthReady/002.png")
+                Label_buff_desc:setTextById(buffCfg.buffDescribe)
+                Label_buff_desc:setColor(visible and ccc3(98,125,214) or ccc3(191,225,249))
+                Image_line:setVisible(visible)
+
+                self.buff_listView:pushBackCustomItem(item)
+            end
+        else
+            self.Panel_buff:hide()
+        end
+    end
 end
 
 function TeamFightTeamView:speaksRefresh(cdtime)
@@ -232,6 +382,7 @@ function TeamFightTeamView:initTeamPart()
         self.teamItems[i]["player"]["Lv_bg"]:hide() --隐藏等级显示
         self.teamItems[i]["player"]["Image_fightPower"] =  TFDirector:getChildByPath(self.teamItems[i]["item_root"],"Image_fightPower")
         self.teamItems[i]["player"]["Label_fightPower"] =  TFDirector:getChildByPath(self.teamItems[i]["item_root"],"Label_fightPower")
+        self.teamItems[i]["player"]["Image_buff_up"] =  TFDirector:getChildByPath(self.teamItems[i]["item_root"],"Image_buff_up")
         self.teamItems[i]["stat"] = {}
         self.teamItems[i]["stat"]["value"] = 1
 
@@ -247,6 +398,16 @@ function TeamFightTeamView:initTeamPart()
         self.teamItems[i]["ctrl"]["ctrl_root"].ctrl_panel = self.teamItems[i]["ctrl"]["ctrl_root"]:getChildByName("Panel_ctrl")
         self.teamItems[i]["ctrl"]["ctrl_root"].isShow = false
         self.teamItems[i]["player"]["empty"].addBtn:onClick(function()
+            if self.teamItems[i]["ctrl"]["ctrl_root"].isShow == false and self.teamItems[i]["stat"]["value"] ~= 4 and MainPlayer:getPlayerId() == TeamFightDataMgr:getLeaderId() then
+                self:showCtrlPad(self.teamItems[i]["ctrl"]["ctrl_root"])
+            end
+            for j = 1,self.teamMaxCount do
+                if self.teamItems[j]["ctrl"]["ctrl_root"].isShow == true and j ~= i then
+                    self:hideCtrlPad(self.teamItems[j]["ctrl"]["ctrl_root"])
+                end
+            end
+        end)
+        self.teamItems[i]["player"]["empty"]:onClick(function()
             if self.teamItems[i]["ctrl"]["ctrl_root"].isShow == false and self.teamItems[i]["stat"]["value"] ~= 4 and MainPlayer:getPlayerId() == TeamFightDataMgr:getLeaderId() then
                 self:showCtrlPad(self.teamItems[i]["ctrl"]["ctrl_root"])
             end
@@ -409,7 +570,7 @@ function TeamFightTeamView:initCommonPart()
         self.Image_show_effect:hide()
         self.Image_show_effect_tip:hide()
     else
-        self.Image_show_effect:show()
+        --self.Image_show_effect:show()
         if BattleUtils.isLowDevice() then 
             self.Image_show_effect_tip:show()
         else
@@ -465,13 +626,8 @@ function TeamFightTeamView:initCommonPart()
     self.commonWidget["leader"]["img_inteam_on"] = btn_bg:getChildByName("Image_on")
     self.commonWidget["leader"]["Image_in_team"]:setVisible(false)
     btn_bg:onClick(function()
-        if TeamFightDataMgr:isShowInRoomList() == true then
-            TeamFightDataMgr:Send_showRoomList(false)
-        else
-            TeamFightDataMgr:Send_showRoomList(true)
-        end
-    end)
 
+    end)
 
     self.commonWidget["common"] = {}
     self.commonWidget["common"]["btn_c_r_g"] = self.root_panel:getChildByName("Button_c_r_g")
@@ -525,8 +681,9 @@ end
 
 function TeamFightTeamView:updateSwitchInRoomState()
     if self.isTeamLeader == true then
-        self.commonWidget["leader"]["Image_in_team"]:setVisible(TeamFightDataMgr.nTeamType ~= EC_NetTeamType.Hunter)
-
+        --TODO CLOSE
+        --self.commonWidget["leader"]["Image_in_team"]:setVisible(TeamFightDataMgr.nTeamType ~= EC_NetTeamType.Hunter)
+        self.commonWidget["leader"]["Image_in_team"]:hide()
         local showInList = TeamFightDataMgr:isShowInRoomList()
         if showInList  == true then
             self.commonWidget["leader"]["img_inteam_on"]:setPosition(me.p(-22,0))
@@ -535,7 +692,9 @@ function TeamFightTeamView:updateSwitchInRoomState()
         end
 
     else
-        self.commonWidget["leader"]["Image_in_team"]:setVisible(false)
+        --TODO CLOSE
+        --self.commonWidget["leader"]["Image_in_team"]:setVisible(false)
+        self.commonWidget["leader"]["Image_in_team"]:hide()
     end
 end
 
@@ -543,7 +702,25 @@ function TeamFightTeamView:refreshView()
     self:onRedPointUpdateChat()
 end
 
+function TeamFightTeamView:checkTeamBuff()
+    local buffIds = {}
+    if TeamFightDataMgr.nTeamType == 8 then  --挑战活动buff
+        local activityId = ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.BOSS_CHALLENGE)[1]
+        if activityId then 
+            local activityInfo = ActivityDataMgr2:getActivityInfo(activityId) 
+            local addBuff = activityInfo.extendData.addBuff or {}
+            for i,v in ipairs(self.teamInfoData) do
+                if addBuff[v.heroCid] and addBuff[v.heroCid][v.heroQuality] then
+                    buffIds[v.heroCid] = addBuff[v.heroCid][v.heroQuality]
+                end 
+            end
+        end
+    end
+    return buffIds
+end
+
 function TeamFightTeamView:updateTeamPart()
+    local buffIds = self:checkTeamBuff()
     local isTeamFull = true
     local isHuntingModelPos = self.teamMaxCount > 3 
     for i = 1,self.teamMaxCount do
@@ -578,6 +755,8 @@ function TeamFightTeamView:updateTeamPart()
             local skinInfo = TabDataMgr:getData("HeroSkin", tmpHero.skinCid)
             self.teamItems[i]["player"]["hero_bg"]:setTexture(skinInfo.backdrop)
             self.teamItems[i]["player"]["hero_bg"]:setVisible(true)
+            self.teamItems[i]["player"]["Image_buff_up"]:setVisible(buffIds[tmpHero.heroCid] ~= nil)
+
             if tmpHero.pid == TeamFightDataMgr:getLeaderId() then
                 if tmpHero.pid == MainPlayer:getPlayerId() then
                     self.teamItems[i]["stat"]["value"] = 5
@@ -629,6 +808,9 @@ function TeamFightTeamView:updateTeamPart()
         for j = 1,3 do
             self.teamItems[i]["ctrl"]["btn_logo"..j]:setTexture(ctrlPadCfg[j].img)
             self.teamItems[i]["ctrl"]["btn_title"..j]:setTextById(ctrlPadCfg[j].txt)
+            self.teamItems[i]["ctrl"]["btn_"..j]:setTextureNormal(ctrlPadCfg[j].btnRes)
+            self.teamItems[i]["ctrl"]["btn_"..j]:setPositionY(ctrlPadCfg[j].posY)
+
             local timeoutLabel = self.teamItems[i]["ctrl"]["btn_"..j]:getChildByTag(9798)
             if timeoutLabel then
                 timeoutLabel:removeFromParent()
@@ -693,6 +875,14 @@ function TeamFightTeamView:updateTeamPart()
         end
 
     end
+    if table.count(buffIds) > 0 then
+        self.Image_buff_tip:setVisible(true)
+        local cid,buffId = next(buffIds)
+        local bufferCfg = TabDataMgr:getData("Buffer",buffId)
+        self.Label_buff_tip:setText(bufferCfg and bufferCfg.des or "")
+    else
+        self.Image_buff_tip:setVisible(false)
+    end
     if TeamFightDataMgr:isAutoMatching() == true and isTeamFull == false then
         --匹配中
         self:runMatchingAction()
@@ -739,7 +929,9 @@ function TeamFightTeamView:updateCommonPart()
         end
     end
     if self.isTeamLeader == true then
-        self.commonWidget["leader"]["leader_root"]:setVisible(true and not self.curLevelCfg.allowMate and not self.curLevelCfg.disableMatch)
+
+        self.commonWidget["leader"]["leader_root"]:setVisible(TeamFightDataMgr.nTeamType == EC_NetTeamType.Hunter and not self.curLevelCfg.allowMate and not self.curLevelCfg.disableMatch)
+
         local isAutoMatch = TeamFightDataMgr:isAutoMatching()
         if isAutoMatch == true then
             self.commonWidget["leader"]["img_on"]:setPosition(me.p(-22,0))
@@ -770,6 +962,7 @@ function TeamFightTeamView:updateCommonPart()
     self.commonWidget["open_desc"]:setText(tostring(memberNumLimit))
    
     self:updateSwitchInRoomState()
+
 end
 
 function TeamFightTeamView:onHandleTeamData()
@@ -802,63 +995,42 @@ function TeamFightTeamView:onHandleTeamData()
 end
 
 function TeamFightTeamView:onBeKickout()
+    local isLayerInQueue,layer = AlertManager:isLayerInQueue("TeamRoomSettingView")
+    if isLayerInQueue then
+        AlertManager:closeLayer(layer)
+    end
     AlertManager:closeLayer(self)
     Utils:showTips(2100094)
 end
 
 function TeamFightTeamView:onTeamTimeout()
+    local isLayerInQueue,layer = AlertManager:isLayerInQueue("TeamRoomSettingView")
+    if isLayerInQueue then
+        AlertManager:closeLayer(layer)
+    end
     AlertManager:closeLayer(self)
     Utils:showTips(2100119)
 end
 
-function TeamFightTeamView:registerEvents()
-    EventMgr:addEventListener(self, EV_TEAM_FIGHT_TEAM_DATA, handler(self.onHandleTeamData, self))
-    EventMgr:addEventListener(self, EV_TEAM_FIGHT_NOTIFY_KICK_OUT_TEAM, handler(self.onBeKickout, self))
-    EventMgr:addEventListener(self, EV_TEAM_FIGHT_EXIT_TEAM, handler(self.onExitTeamEvent, self))
-    EventMgr:addEventListener(self, EV_RED_POINT_UPDATE_CHAT,handler(self.onRedPointUpdateChat, self))
-    EventMgr:addEventListener(self, EV_RECV_CHATINFO,handler(self.handleTeamChat, self))
-    EventMgr:addEventListener(self, EV_FUNC_STATE_CHANGE,handler(self.funcCloseNotice,self))
-    EventMgr:addEventListener(self, EV_RECV_PLAYERINFO, handler(self.onRecvTeamMemberInfo, self))
-    EventMgr:addEventListener(self, EV_TEAM_FIGHT_TEAMTIME_OUT_TEAM, handler(self.onTeamTimeout, self))
-    EventMgr:addEventListener(self, EV_TEAM_RUN_BATTLE_SCENE,handler(self.stopMatchingAction,self))
-    EventMgr:addEventListener(self, EV_TEAM_IS_SHOWINROOM,handler(self.updateSwitchInRoomState,self))
-    EventMgr:addEventListener(self, EV_FUBEN_UPDATE_LIMITHERO, handler(self.onLimitHeroEvent, self))
-
-    self.chat_img:onClick(function()
-        local ChatView = require("lua.logic.chat.ChatView")
-        ChatView.show(nil,false,true)
-    end)
-    self.btn_speak:onClick(function()
-        self:speaksRefresh()
-    end)
-    self.panel_speaks:onClick(function()
-        self:speaksRefresh()
-    end)
-
-    self.Button_help:onClick(function ( ... )
-        Utils:openView("osd.TeamLevelHelpView",self.curLevelCfg.type,self.curLevelCfg.id)
-    end)
-    --返回
-    self:setBackBtnCallback(handler(self.onClickBack,self))
-    --主页
-    self:setMainBtnCallback(handler(self.onClickMain,self))
-    local dungenCfg = self.curLevelCfg 
-    local affixIDs = {} 
-    if dungenCfg.affixID and dungenCfg.affixID > 0 then
-        table.insert(affixIDs,dungenCfg.affixID)
-    elseif dungenCfg.affixIDs then
-        affixIDs = clone(dungenCfg.affixIDs)
+---刷新共鸣技能列表
+function TeamFightTeamView:updateGMSkill()
+    
+    local infos = ResonanceDataMgr:getEquipedSkills()
+    if not infos then
+        return
     end
-    if #affixIDs > 0 then 
-        self.Button_preview:setTouchEnabled(true)
-        self.Button_preview:show()
-        self.Button_preview:onClick(function()
-            Utils:openView("osd.AffixPreviewLayer",affixIDs)
-        end)
-    else
-        self.Button_preview:setTouchEnabled(false)
-        self.Button_preview:hide()
-    end 
+
+    for k,v in ipairs(self.gmSkill_) do
+        local equipedCid = infos[k]
+        local cfg = ResonanceDataMgr:getManaResonanceCfg(equipedCid)
+        if cfg then
+            self.gmSkill_[k].iconBg:show()
+            self.gmSkill_[k].skillIcon:setTexture(cfg.icon)
+        else
+            self.gmSkill_[k].iconBg:hide()
+            self.gmSkill_[k].skillIcon:setTexture("")
+        end
+    end
 end
 
 function TeamFightTeamView:funcCloseNotice(data)
@@ -870,7 +1042,6 @@ function TeamFightTeamView:funcCloseNotice(data)
 end
 function TeamFightTeamView:onShow()
     self.super.onShow(self)
-    AlertManager:closeLayerByName("ChatView")
 end
 
 function TeamFightTeamView:handleTeamChat(chatInfo)
@@ -941,6 +1112,10 @@ function TeamFightTeamView:onExitTeamEvent()
 
     if self.curLevelCfg.allowQuit then
         Utils:showTips(240038)
+        local isLayerInQueue,layer = AlertManager:isLayerInQueue("TeamRoomSettingView")
+        if isLayerInQueue then
+            AlertManager:closeLayer(layer)
+        end
         AlertManager:closeLayer(self)
         return
     end
@@ -964,4 +1139,92 @@ function TeamFightTeamView:hunterTeamFightError( )
     self.commonWidget["common"]["btn_c_r_g"]:setGrayEnabled(true)   
 end
 
+
+
+function TeamFightTeamView:updateHandleInfo()
+
+    self.Image_match_state:setVisible(true)
+
+    ---自动匹配
+    local isAutoMatch = TeamFightDataMgr:isAutoMatching()
+    local text = isAutoMatch and 2101402 or 2101403
+    self.Label_match_state:setTextById(text)
+    self.Image_match_state_icon:setVisible(isAutoMatch)
+
+    ---队友特效
+    local status = SettingDataMgr:getAttactEffect()
+    local text = status == 1 and 2101402 or 2101403
+    self.Label_effect_state:setTextById(text)
+    self.Image_effect_state_icon:setVisible(status == 1)
+
+    ---等级限制
+    local minLv = TeamFightDataMgr:getLimitLevel()
+    self.Label_limit_lv:setText(minLv)
+
+    local curVisibleType = TeamFightDataMgr:getTeamRoomVisibleType()
+    self.Image_visibleTypeIcon:setTexture(self.visiblePic[curVisibleType])
+end
+
+function TeamFightTeamView:registerEvents()
+    EventMgr:addEventListener(self, EV_TEAM_FIGHT_TEAM_DATA, handler(self.onHandleTeamData, self))
+    EventMgr:addEventListener(self, EV_TEAM_FIGHT_NOTIFY_KICK_OUT_TEAM, handler(self.onBeKickout, self))
+    EventMgr:addEventListener(self, EV_TEAM_FIGHT_EXIT_TEAM, handler(self.onExitTeamEvent, self))
+    EventMgr:addEventListener(self, EV_RED_POINT_UPDATE_CHAT,handler(self.onRedPointUpdateChat, self))
+    EventMgr:addEventListener(self, EV_RECV_CHATINFO,handler(self.handleTeamChat, self))
+    EventMgr:addEventListener(self, EV_FUNC_STATE_CHANGE,handler(self.funcCloseNotice,self))
+    EventMgr:addEventListener(self, EV_RECV_PLAYERINFO, handler(self.onRecvTeamMemberInfo, self))
+    EventMgr:addEventListener(self, EV_TEAM_FIGHT_TEAMTIME_OUT_TEAM, handler(self.onTeamTimeout, self))
+    EventMgr:addEventListener(self, EV_TEAM_RUN_BATTLE_SCENE,handler(self.stopMatchingAction,self))
+    EventMgr:addEventListener(self, EV_TEAM_IS_SHOWINROOM,handler(self.updateSwitchInRoomState,self))
+    EventMgr:addEventListener(self, EV_FUBEN_UPDATE_LIMITHERO, handler(self.onLimitHeroEvent, self))
+    EventMgr:addEventListener(self, EV_AFTER_HANDLE_GM_SKILL, handler(self.updateGMSkill, self))
+    EventMgr:addEventListener(self, EV_UPDATE_TEAM_HANDLE, handler(self.updateHandleInfo, self))
+    EventMgr:addEventListener(self, EV_TEAM_FIGHT_TEAM_DATA, handler(self.updateHandleInfo, self))
+    EventMgr:addEventListener(self, EV_ACTIVITY_HALLOWEEN_PASS_RSP, handler(self.updateBuffInfos, self))
+    self.chat_img:onClick(function()
+        local ChatView = require("lua.logic.chat.ChatView")
+        ChatView.show(nil,false,true)
+    end)
+    self.btn_speak:onClick(function()
+        self:speaksRefresh()
+    end)
+    self.panel_speaks:onClick(function()
+        self:speaksRefresh()
+    end)
+
+    self.Button_help:onClick(function ( ... )
+        Utils:openView("osd.TeamLevelHelpView",self.curLevelCfg.type,self.curLevelCfg.id)
+    end)
+    --返回
+    self:setBackBtnCallback(handler(self.onClickBack,self))
+    --主页
+    self:setMainBtnCallback(handler(self.onClickMain,self))
+    local dungenCfg = self.curLevelCfg
+    local affixIDs = {}
+    if dungenCfg.affixID and dungenCfg.affixID > 0 then
+        table.insert(affixIDs,dungenCfg.affixID)
+    elseif dungenCfg.affixIDs then
+        affixIDs = clone(dungenCfg.affixIDs)
+    end
+    if #affixIDs > 0 then
+        self.Button_preview:setTouchEnabled(true)
+        self.Button_preview:show()
+        self.Button_preview:onClick(function()
+            Utils:openView("osd.AffixPreviewLayer",affixIDs)
+        end)
+    else
+        self.Button_preview:setTouchEnabled(false)
+        self.Button_preview:hide()
+    end
+
+    for k,v in ipairs(self.gmSkill_) do
+        v.btn:onClick(function()
+            FunctionDataMgr:jGMSkill()
+        end)
+    end
+
+    self.Panel_room_hadle:onClick(function()
+        Utils:openView("teamFight.TeamRoomSettingView",false,self.curLevelCfg.type)
+    end)
+end
 return TeamFightTeamView

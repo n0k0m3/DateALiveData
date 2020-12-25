@@ -68,11 +68,27 @@ end
 function SummonContractPreviewView:initUI( ui )
 	self.super.initUI(self,ui)
 	local image_1 = TFDirector:getChildByPath(ui,"image_1")
-	local image_2 = TFDirector:getChildByPath(ui,"image_2")
 	local button_sw1 = TFDirector:getChildByPath(ui,"button_sw1")
-	local button_sw2 = TFDirector:getChildByPath(ui,"button_sw2")
 	image_1:setTexture(self.summonCfg.image_l)
+	local image_2 = TFDirector:getChildByPath(ui,"image_2")
+	local button_sw2 = TFDirector:getChildByPath(ui,"button_sw2")
 	image_2:setTexture(self.summonCfg.image_r)
+	local image_3 = TFDirector:getChildByPath(ui,"image_3")
+	local button_sw3 = TFDirector:getChildByPath(ui,"button_sw3")
+	image_3:setTexture(self.summonCfg.image_m)
+
+
+	--英文版暂时屏蔽反十 TODO  20201124
+	image_3:setColor(ccc3(0 ,0 ,0))
+	image_3:setTouchEnabled(false)
+
+
+	image_1:setZOrder(4)
+	image_2:setZOrder(2)
+	image_3:setZOrder(2)
+	button_sw1:setVisible(true)
+	button_sw2:setVisible(false)
+	button_sw3:setVisible(false)
 
 	local function fight( dungeonId )
 		if not self.selectDungeonId then
@@ -95,18 +111,36 @@ function SummonContractPreviewView:initUI( ui )
 	button_sw2:onClick(function ( ... )
 		fight(self.summonCfg.dungeonId2)
 	end)
+
+	button_sw3:onClick(function ( ... )
+		fight(self.summonCfg.dungeonId3)
+	end)
+
 	image_1:onClick(function ( ... )
 		image_1:setZOrder(4)
 		image_2:setZOrder(2)
+		image_3:setZOrder(2)
 		button_sw1:setVisible(true)
 		button_sw2:setVisible(false)
+		button_sw3:setVisible(false)
 	end)
 
 	image_2:onClick(function ( ... )
 		image_2:setZOrder(4)
 		image_1:setZOrder(2)
+		image_3:setZOrder(2)
 		button_sw2:setVisible(true)
 		button_sw1:setVisible(false)
+		button_sw3:setVisible(false)
+	end)
+
+	image_3:onClick(function ( ... )
+		image_3:setZOrder(4)
+		image_1:setZOrder(2)
+		image_2:setZOrder(2)
+		button_sw3:setVisible(true)
+		button_sw1:setVisible(false)
+		button_sw2:setVisible(false)
 	end)
 end
 

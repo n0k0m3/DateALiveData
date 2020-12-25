@@ -7,6 +7,7 @@ local BaseDataMgr = import(".BaseDataMgr")
 local BattleDataMgr = class("BattleDataMgr", BaseDataMgr)
 local eDir      = enum.eDir
 local eRoleType = enum.eRoleType
+local __print = print
 local eTableName =
 {
     TB_SKILL       = 1 ,--SKILL
@@ -137,6 +138,8 @@ function BattleDataMgr:init()
         self.eventMusics[data.roleId][data.eventType] = self.eventMusics[data.roleId][data.eventType] or {}
         table.insert(self.eventMusics[data.roleId][data.eventType],data)
     end
+
+    self.mixAngleDatas = {}
 end
 
 function BattleDataMgr:onEnterMain()
@@ -208,7 +211,7 @@ function BattleDataMgr:getScriptSoundData(resource,action,event)
     return check(self.musicDatas[3],prams)
 end
 --TODO 处理天使动态数据
-local function handleAngleData(data,angleDatas)
+local function handleAngleData(data,angleDatas,mixDatas)
     if angleDatas then
         local attrs = angleDatas[data.id] --有没有对应ID得数据
         if attrs then
@@ -233,6 +236,26 @@ local function handleAngleData(data,angleDatas)
             end
         end
     end
+    if mixDatas then
+        local attrs = mixDatas[data.id] --有没有对应ID得数据
+        if attrs then
+            for i , attr in ipairs(attrs) do
+                if attr.changeType == eChangeType.MATH or attr.changeType == eChangeType.MATH_EX then     --加减
+                    local _changeValue   = attr["data"..attr.valueType]
+                    data[attr.fieldName] = data[attr.fieldName] + _changeValue
+                    if attr.changeType == eChangeType.MATH then
+                        data[attr.fieldName] = math.max(data[attr.fieldName],0)
+                    end
+                elseif attr.changeType == eChangeType.REPLACE then --替换
+                    data[attr.fieldName] = attr["data"..attr.valueType]
+                elseif attr.changeType == eChangeType.RIDE then --乘
+                    data[attr.fieldName] = data[attr.fieldName] * attr["data"..attr.valueType]
+                elseif attr.changeType == eChangeType.MERGE then -- 数组类型合并 
+                    table.insertTo(data[attr.fieldName],attr["data"..attr.valueType])
+                end
+            end
+        end
+    end 
     return data
 end
 
@@ -240,7 +263,7 @@ end
 function BattleDataMgr:getSkillData(id,angleDatas)
     local skillData = TabDataMgr:getData("Skill", id)
     if skillData and angleDatas then  --处理天使数据
-        skillData = handleAngleData(skillData,angleDatas[eTableName.TB_SKILL])
+        skillData = handleAngleData(skillData,angleDatas[eTableName.TB_SKILL],self.mixAngleDatas[eTableName.TB_SKILL])
     end
     return skillData
 end
@@ -248,7 +271,7 @@ end
 function BattleDataMgr:getActionData(id,angleDatas)
     local actionData = TabDataMgr:getData("SkillAction",id)
     if actionData and angleDatas then  --处理天使数据
-        actionData = handleAngleData(actionData,angleDatas[eTableName.TB_SKILLACTION])
+        actionData = handleAngleData(actionData,angleDatas[eTableName.TB_SKILLACTION],self.mixAngleDatas[eTableName.TB_SKILLACTION])
     end
     return actionData
 end
@@ -256,7 +279,7 @@ end
 function BattleDataMgr:getEffectData(id,angleDatas)
     local effectData = TabDataMgr:getData("SkillEffect",id)
     if effectData and angleDatas then  --处理天使数据
-        effectData = handleAngleData(effectData,angleDatas[eTableName.TB_SKILLEFFECT])
+        effectData = handleAngleData(effectData,angleDatas[eTableName.TB_SKILLEFFECT],self.mixAngleDatas[eTableName.TB_SKILLEFFECT])
     end
     return effectData
 end
@@ -264,7 +287,7 @@ end
 function BattleDataMgr:getHurtData(id,angleDatas)
     local hurtData = TabDataMgr:getData("SkillHurt",id)
     if hurtData and angleDatas then
-        hurtData = handleAngleData(hurtData,angleDatas[eTableName.TB_SKILLHURT])
+        hurtData = handleAngleData(hurtData,angleDatas[eTableName.TB_SKILLHURT],self.mixAngleDatas[eTableName.TB_SKILLHURT])
     end
     return hurtData
 end
@@ -272,13 +295,13 @@ end
 function BattleDataMgr:getEnergyData(id,angleDatas)
     local energyData = TabDataMgr:getData("HeroPower", id)
     if energyData and angleDatas then  --处理天使数据
-        energyData = handleAngleData(energyData,angleDatas[eTableName.TB_HEROPOWER])
+        energyData = handleAngleData(energyData,angleDatas[eTableName.TB_HEROPOWER],self.mixAngleDatas[eTableName.TB_HEROPOWER])
     end
     return energyData
 end
 
 -- hero和monster 转换成同样的结构
-function BattleDataMgr:transData(roleType,data,job,limitCid)
+function BattleDataMgr:transData(roleType,data,job,limitCid,manaInfo)
     job = job or 0
     local levelCfg = self:getLevelCfg()
     local newData
@@ -507,10 +530,18 @@ function BattleDataMgr:transData(roleType,data,job,limitCid)
         -- dump(affixeIDS)
         for i , attrId in ipairs(affixeIDS) do
             local attrData = TabDataMgr:getData("AngelSkillFunction", attrId)
-            newData.angleDatas[attrData.listName] = newData.angleDatas[attrData.listName] or {}
-            for i, dataId in ipairs(attrData.listData) do
-                newData.angleDatas[attrData.listName][dataId] =newData.angleDatas[attrData.listName][dataId] or {}
-                table.insert(newData.angleDatas[attrData.listName][dataId],attrData)
+            if attrData.interchangeable then
+                self.mixAngleDatas[attrData.listName] = self.mixAngleDatas[attrData.listName] or {}
+                for i, dataId in ipairs(attrData.listData) do
+                    self.mixAngleDatas[attrData.listName][dataId] =self.mixAngleDatas[attrData.listName][dataId] or {}
+                    table.insert(self.mixAngleDatas[attrData.listName][dataId],attrData)
+                end
+            else
+                newData.angleDatas[attrData.listName] = newData.angleDatas[attrData.listName] or {}
+                for i, dataId in ipairs(attrData.listData) do
+                    newData.angleDatas[attrData.listName][dataId] =newData.angleDatas[attrData.listName][dataId] or {}
+                    table.insert(newData.angleDatas[attrData.listName][dataId],attrData)
+                end
             end
         end
         newData.camp = 1 --TODO 设置默认阵营
@@ -581,7 +612,7 @@ function BattleDataMgr:transData(roleType,data,job,limitCid)
         -- end
         -- --天使数据
         -- local affixeIDS = {}
-        --被动技能
+        -- --被动技能
         -- for i, skillID in ipairs(newData.passivitySkills) do
         --     local skillData = TabDataMgr:getData("PassiveSkills",skillID)
         --     if skillData then
@@ -608,11 +639,11 @@ function BattleDataMgr:transData(roleType,data,job,limitCid)
         -- dump(affixeIDS)
         -- for i , attrId in ipairs(affixeIDS) do
         --     local attrData = TabDataMgr:getData("AngelSkillFunction", attrId)
-        --     newData.angleDatas[attrData.listName] = newData.angleDatas[attrData.listName] or {}
-            -- for i, dataId in ipairs(attrData.listData) do
-            --     newData.angleDatas[attrData.listName][dataId] =newData.angleDatas[attrData.listName][dataId] or {}
-            --     table.insert(newData.angleDatas[attrData.listName][dataId],attrData)
-            -- end
+        --     self.mixAngleDatas[attrData.listName] = self.mixAngleDatas[attrData.listName] or {}
+        --     for i, dataId in ipairs(attrData.listData) do
+        --         self.mixAngleDatas[attrData.listName][dataId] =self.mixAngleDatas[attrData.listName][dataId] or {}
+        --         table.insert(self.mixAngleDatas[attrData.listName][dataId],attrData)
+        --     end
         -- end
 
         --TODO 助战橘色测试AI
@@ -674,6 +705,15 @@ function BattleDataMgr:transData(roleType,data,job,limitCid)
             table.insert(newData.passivitySkills,_skillID)
         end
 
+        if manaInfo then
+            for k,v in ipairs(manaInfo) do
+                local passiveSkillId = ResonanceDataMgr:getPassiveSkillId(v.id,v.level)
+                if passiveSkillId then
+                    table.insert(newData.passivitySkills,passiveSkillId)
+                end
+            end
+        end
+
         -- --天使数据
         local affixeIDS = {}
         --被动技能附带的天使数据
@@ -702,10 +742,18 @@ function BattleDataMgr:transData(roleType,data,job,limitCid)
         -- dump(affixeIDS)
         for i , attrId in ipairs(affixeIDS) do
             local attrData = TabDataMgr:getData("AngelSkillFunction", attrId)
-            newData.angleDatas[attrData.listName] = newData.angleDatas[attrData.listName] or {}
-            for i, dataId in ipairs(attrData.listData) do
-                newData.angleDatas[attrData.listName][dataId] = newData.angleDatas[attrData.listName][dataId] or {}
-                table.insert(newData.angleDatas[attrData.listName][dataId],attrData)
+            if attrData.interchangeable then
+                self.mixAngleDatas[attrData.listName] = self.mixAngleDatas[attrData.listName] or {}
+                for i, dataId in ipairs(attrData.listData) do
+                    self.mixAngleDatas[attrData.listName][dataId] = self.mixAngleDatas[attrData.listName][dataId] or {}
+                    table.insert(self.mixAngleDatas[attrData.listName][dataId],attrData)
+                end
+            else
+                newData.angleDatas[attrData.listName] = newData.angleDatas[attrData.listName] or {}
+                for i, dataId in ipairs(attrData.listData) do
+                    newData.angleDatas[attrData.listName][dataId] =newData.angleDatas[attrData.listName][dataId] or {}
+                    table.insert(newData.angleDatas[attrData.listName][dataId],attrData)
+                end
             end
         end
         newData.camp = 1 --TODO 设置默认阵营
@@ -722,32 +770,11 @@ function BattleDataMgr:transData(roleType,data,job,limitCid)
     return newData
 end
 
--- function BattleDataMgr:heroData()
---     local dataList = {}
---     for pos = 1 , TEAM_MAX_HEROS do
---         if HeroDataMgr:getIsFormationOn(pos) then
---             local id   = HeroDataMgr:getHeroIdByFormationPos(pos)
---             local data = HeroDataMgr:getHero(id)
---             -- print("data.id ",data.id )
---             -- if data.id == 110201 or  data.id == 110201 then --TODO 测试数据 只有十香生效
---                 data = BattleDataMgr.transData(eRoleType.Hero,data)
---                 -- data.skills = {10,20,30,40,50}
---                 -- data.model  = "fight_10101"
-
---                 -- data.model  = "fight_20201"
---                 -- data.skills = {2000,2100}
---                 table.insert(dataList, data)
---             -- end
---         end
---     end
---     return dataList
--- end
-
 local TEAM_MAX_HEROS = 3
 function BattleDataMgr:heroData()
     local _max_num = TEAM_MAX_HEROS
     local dungeonType = self:getLevelCfg().dungeonType
-    if dungeonType == EC_FBLevelType.PRACTICE then
+    if dungeonType == EC_FBLevelType.PRACTICE or dungeonType == EC_FBLevelType.MUSIC_GAME then
         _max_num =  5
     end
 
@@ -888,6 +915,7 @@ end
 
 --当前战斗的服务器返回的数据
 function BattleDataMgr:setServerData(sData, battleType)
+    self.mixAngleDatas = {}
     self.serverData   = sData --缓存服务器返回的数据
     self.levelCid_ = sData.levelCid
     self.battleType_ = battleType
@@ -940,7 +968,7 @@ function BattleDataMgr:setServerData(sData, battleType)
         end
 
         -- 初始化练习模式数据
-        if levelCfg.dungeonType == EC_FBLevelType.PRACTICE then
+        if levelCfg.dungeonType == EC_FBLevelType.PRACTICE or levelCfg.dungeonType == EC_FBLevelType.MUSIC_GAME then
             self:loadPracticeData()
         end
     elseif battleType == EC_BattleType.ENDLESS then
@@ -953,6 +981,7 @@ function BattleDataMgr:setServerData(sData, battleType)
             data.victoryCfg[index].victoryParam = clone(levelCfg.victoryParam[index])
         end
     end
+
     self.battleData = data
     -- Box("playerID "..tostring(MainPlayer:getPlayerId()))
 end
@@ -962,6 +991,7 @@ function BattleDataMgr:getServerData()
 end
 --当前战斗的服务器返回的数据
 function BattleDataMgr:setServerTeamData(sData)
+    self.mixAngleDatas = {}
     self.serverData   = sData --缓存服务器返回的数据
     self.battleType_  = sData.battleType
     self.racingEndlessBuff_ = {}
@@ -1009,7 +1039,7 @@ function BattleDataMgr:setServerTeamData(sData)
     for i, baseData in ipairs(sData.players) do
         -- dump(baseData)
         -- Box(">>>>>>>>>")
-        local heroData = self:transData(eRoleType.Team,baseData.heros[1])
+        local heroData = self:transData(eRoleType.Team,baseData.heros[1],nil,nil,baseData.manaInfo)
         heroData.pid   = baseData.pid
         heroData.reviveCount = baseData.reviveCount
         heroData.pname       = baseData.pname
@@ -1017,6 +1047,7 @@ function BattleDataMgr:setServerTeamData(sData)
         heroData.unionName   = baseData.unionName
         heroData.titleId     = baseData.titleId
         heroData.portraitFrameId = baseData.portraitFrameId
+        heroData.manaInfo = baseData.manaInfo
         if heroData.portraitCid == 0 then
             heroData.portraitCid = 101
         end
@@ -1037,7 +1068,7 @@ function BattleDataMgr:setServerTeamData(sData)
         end
         table.insert(data.heros, heroData)
     end
-
+ 
 
     data.victoryCfg   = {}
     data.starCfg      = {}
@@ -1059,6 +1090,10 @@ function BattleDataMgr:setServerTeamData(sData)
 
     self.battleData = data
     -- Box("playerID "..tostring(MainPlayer:getPlayerId()))
+end
+
+function BattleDataMgr:getMixAngleDatas()
+    return self.mixAngleDatas
 end
 
 
@@ -1273,7 +1308,11 @@ end
 function BattleDataMgr:setBattleResutlData(data)
     self.resultData_ = {}
     if self.battleType_ == EC_BattleType.COMMON then
-        self.resultData_.dropReward = data
+        if self:getLevelCfg().dungeonType == EC_FBLevelType.MUSIC_GAME then
+            self.resultData_ = data
+        else
+            self.resultData_.dropReward = data
+        end
     elseif self.battleType_ == EC_BattleType.ENDLESS then
 
     elseif self.battleType_ == EC_BattleType.TEAM_FIGHT then
@@ -1318,6 +1357,29 @@ function BattleDataMgr:loadPracticeData()
     self.practiceData_.specialLevelIndex = format(specialLevelIndex, 1)
     self.practiceData_.specialLevel = format(specialLevel, 1)
     self.practiceData_.formation_ = self.formation_
+end
+
+function BattleDataMgr:loadMusicGameCustomData()
+    self.musicGameCustomData = {}
+    self.musicGameCustomData.diffIndex = 1
+    self.musicGameCustomData.levelIndex = 1
+    self.musicGameCustomData.level = 1
+    self.musicGameCustomData.number = 1
+    self.musicGameCustomData.hpIndex = 1
+    self.musicGameCustomData.superIndex = 1
+    self.musicGameCustomData.categoryIndex = 1
+    self.musicGameCustomData.specialHpIndex = 2
+    self.musicGameCustomData.specialCategoryIndex = 1
+    self.musicGameCustomData.specialLevelIndex = 1
+    self.musicGameCustomData.specialLevel = 1
+    self.musicGameCustomData.formation_ = self.formation_
+end
+
+function BattleDataMgr:getMusicGameCustomData()
+    if not self.musicGameCustomData then
+        self:loadMusicGameCustomData()
+    end
+    return clone(self.musicGameCustomData)
 end
 
 function BattleDataMgr:getPracticeData()
@@ -1402,6 +1464,14 @@ function BattleDataMgr:transRoute(_randomDungeons)
     dump(nodes)
     -- Box("xxx")
     return nodes
+end
+
+function BattleDataMgr:isPracticeLevel()
+    return self:getLevelCfg().dungeonType == EC_FBLevelType.PRACTICE
+end
+
+function BattleDataMgr:isMusicGameLevel()
+    return self:getLevelCfg().dungeonType == EC_FBLevelType.MUSIC_GAME
 end
 
 local instace = BattleDataMgr:new()

@@ -1,11 +1,12 @@
 
 local ItemInfoView = class("ItemInfoView", BaseLayer)
 
-function ItemInfoView:initData(itemCid, itemId, isShowAccess)
+function ItemInfoView:initData(itemCid, itemId, isShowAccess, isNotShowTry)
     dump(itemCid)
     self.itemCid_ = itemCid
     self.itemId_ = itemId
     self.isShowAccess_ = tobool(isShowAccess)
+    self.isNotShowTry_ = tobool(isNotShowTry)
     if self.itemId_ then
         self.itemInfo_ = GoodsDataMgr:getSingleItem(self.itemId_)
         self.itemCid_ = self.itemInfo_.cid
@@ -39,6 +40,8 @@ function ItemInfoView:initUI(ui)
     self.Button_use = TFDirector:getChildByPath(Panel_content, "Button_use"):hide()
     self.Label_use = TFDirector:getChildByPath(self.Button_use, "Label_use")
     self.Button_access = TFDirector:getChildByPath(Panel_content, "Button_access")
+    self.Button_try = TFDirector:getChildByPath(Panel_content, "Button_try"):hide()
+    self.Label_try = TFDirector:getChildByPath(self.Button_try, "Label_try")
     self.Button_compose = TFDirector:getChildByPath(Panel_content, "Button_compose")
     self.Label_access = TFDirector:getChildByPath(Panel_content, "Label_access")
     self.Label_countDown = TFDirector:getChildByPath(Panel_content, "Label_countDown"):hide()
@@ -54,6 +57,9 @@ function ItemInfoView:initUI(ui)
     self.Label_num      = TFDirector:getChildByPath(Panel_content,"Label_num");
     self.Label_use:enableOutline(ccc4(0,0,0,50),1)
     self.Label_access:enableOutline(ccc4(0,0,0,50),1)
+    self.Label_try:enableOutline(ccc4(0,0,0,50),1)
+
+	self.Button_mirror = TFDirector:getChildByPath(Panel_content,"Button_mirror"):hide();
 
     self:refreshView()
 end
@@ -76,6 +82,14 @@ function ItemInfoView:refreshView()
         self.Label_count:setText("")
     else
         self.Label_count:setTextById(301013, GoodsDataMgr:getItemCount(self.itemCid_))
+    end
+
+    self.Button_try:hide()
+    if self.itemCfg_.superType == EC_ResourceType.DRESS then
+        self.Button_try:show()
+    end
+    if self.isNotShowTry_ then
+        self.Button_try:hide()
     end
     
     self.Label_desc:setTextById(self.itemCfg_.desTextId)
@@ -124,6 +138,8 @@ function ItemInfoView:refreshView()
     end
 
     self.Button_compose:setVisible(self.itemCfg_.superType == EC_ResourceType.BAOSHITUZHI and GoodsDataMgr:getItemCount(self.itemCid_) > 0)
+
+	self.Button_mirror:setVisible(self.itemCfg_.showBgPreview and self.itemCfg_.showBgPreview > 0)
 end
 
 function ItemInfoView:updateCountDown()
@@ -165,7 +181,6 @@ function ItemInfoView:registerEvents()
             end
 
             if self.itemCfg_.superType == EC_ResourceType.TRAILCARD then
-
                 if MainPlayer:getOneLoginStatus(EC_OneLoginStatusType.ReConfirm_TryUseHero) then
                     GoodsDataMgr:useTrailCard(self.itemId_)
                 else
@@ -179,6 +194,13 @@ function ItemInfoView:registerEvents()
                     }
                     Utils:showReConfirm(args)
                 end
+                return
+            end
+
+            if self.itemCfg_.superType == EC_ResourceType.FIRST_RECHARGE_ITEM or
+                self.itemCfg_.superType == EC_ResourceType.CONTRACT_ITEM then
+                --首冲重置道具 or 精灵锲约重置道具
+                self:useSpeicalItem()
                 return
             end
 
@@ -202,6 +224,10 @@ function ItemInfoView:registerEvents()
 
     self.Button_compose:onClick(function()
         Utils:openView("fairyNew.BaoshiComposeView", {rarity = self.itemCfg_.rarity})
+    end)
+
+    self.Button_try:onClick(function()
+        self:tryOnDress(self.itemCfg_.id)
     end)
 
     self.Button_close:onClick(
@@ -238,6 +264,57 @@ function ItemInfoView:registerEvents()
             local count = self:getOnceUseLimit()
             self:updateBatchPanel(count)
     end)
+
+	self.Button_mirror:onClick(function()
+		Utils:openView("collect.CollectScenePreView", self.itemCfg_.showBgPreview)
+	end)
+end
+
+function ItemInfoView:tryOnDress(dressId)
+    local roleId = nil
+    local roleCfg = TabDataMgr:getData("Role")
+    for k, v in pairs(roleCfg) do
+        if table.indexOf(v.dress, dressId) ~= -1 then
+            roleId = v.id
+            break
+        end
+    end
+
+    if roleId then
+        Utils:openView("role.NewRoleShowView", roleId, dressId)
+    end
+end
+
+function ItemInfoView:useSpeicalItem()
+    local content = ""
+    local tips = ""
+    local reType = false
+    local confirmId = 1329128
+
+    if self.itemCfg_.superType == EC_ResourceType.FIRST_RECHARGE_ITEM then
+        --首冲重置道具
+        confirmId = 13242
+        tips = "r7102"
+        content = TextDataMgr:getText(13241)
+    elseif self.itemCfg_.superType == EC_ResourceType.CONTRACT_ITEM then
+        --精灵锲约重置道具
+        confirmId = 13240
+        tips = "r7101"
+        content = TextDataMgr:getText(13239)
+    end
+
+    local args = {
+        tittle = 2107025,
+        content = content,
+        reType = reType,
+        tips = tips,
+        confirmId = confirmId,
+        showCancle = true,
+        confirmCall = function()
+            GoodsDataMgr:useItem({{self.itemId_, self.selectNum}})
+        end,
+    }
+    Utils:showReConfirm(args)
 end
 
 function ItemInfoView:holdDownAction(isAddOp)

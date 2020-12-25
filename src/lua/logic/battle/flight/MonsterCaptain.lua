@@ -556,7 +556,7 @@ function MonsterCaptain:onAttrTrigger(attrType, value)
     end
 end
 
-function MonsterCaptain:act_useSkill(bulletId)
+function MonsterCaptain:act_useSkill(id,bulletId)
     print("cast ", bulletId)
     local barrages = self.data.flySkills
     local result = false

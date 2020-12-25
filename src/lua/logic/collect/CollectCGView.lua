@@ -1,6 +1,6 @@
 local CollectCGView = class("CollectCGView",BaseLayer)
 
-function CollectCGView:initData()
+function CollectCGView:initData(jumpTabIndex)
 	self.pageUICfg = {}
 	local tmPageUIcfg = CollectDataMgr:getPageUICfg(EC_CollectPage.CG)
 	for k,v in pairs(tmPageUIcfg) do
@@ -10,11 +10,13 @@ function CollectCGView:initData()
 		return a.order < b.order
 	end )
 	self.isActivityCG = false
+
+	self.jumpTabIndex = jumpTabIndex or 1
 end
 
-function CollectCGView:ctor()
+function CollectCGView:ctor(...)
 	self.super.ctor(self)
-	self:initData()
+	self:initData(...)
 	self:init("lua.uiconfig.collect.collectCGView")
 end
 
@@ -23,7 +25,7 @@ function CollectCGView:initUI(ui)
 	self.root_panel = ui:getChildByName("Panel_root")
 	self.Panel_cgRoot = ui:getChildByName("Panel_cgShow")
 	local base_panel = self.root_panel:getChildByName("Panel_base")
-	self.collectBaseView = require("lua.logic.collect.CollectBaseView"):new()
+	self.collectBaseView = require("lua.logic.collect.CollectBaseView"):new(self.jumpTabIndex)
     base_panel:addChild(self.collectBaseView)
     self.childArr:push(self.collectBaseView)
 

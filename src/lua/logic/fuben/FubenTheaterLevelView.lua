@@ -38,6 +38,8 @@ function FubenTheaterContor:init( logic, chapterId, stage)
     self:checkProcess()
 end
 
+
+
 function FubenTheaterContor:distory()
     EventMgr:removeEventListenerByTarget(self)
 end
@@ -286,6 +288,8 @@ function FubenTheaterLevelView:initData(chapterCid, levelCid, exChapterId, ishar
         [EC_TheaterLevelType.BOSS_ENTANCE] = handler(self.addBossItem, self),
         [EC_TheaterLevelType.BOSS_FIGHT] = handler(self.addBossFightItem, self),
         [EC_TheaterLevelType.BOSS_FIGHT1] = handler(self.addBossItem, self),
+        [EC_TheaterLevelType.BOSS_JUNAI] = handler(self.addJuNaiBossItem, self),
+        [EC_TheaterLevelType.LAST_DATING] = handler(self.addDatingMainItem, self),
     }
     self.levelTypeUpdator_ = {
         [EC_TheaterLevelType.MAIN_DATING] = handler(self.updateDatingMainItem, self),
@@ -300,7 +304,10 @@ function FubenTheaterLevelView:initData(chapterCid, levelCid, exChapterId, ishar
         [EC_TheaterLevelType.BOSS_ENTANCE] = handler(self.updateBossItem, self),
         [EC_TheaterLevelType.BOSS_FIGHT] = handler(self.updateBossFightItem, self),
         [EC_TheaterLevelType.BOSS_FIGHT1] = handler(self.updateBossItem1, self),
+        [EC_TheaterLevelType.BOSS_JUNAI] = handler(self.updateJuNaiBossItem, self),
+        [EC_TheaterLevelType.LAST_DATING] = handler(self.updateDatingMainItem, self),
     }
+
 end
 
 function FubenTheaterLevelView:ctor(...)
@@ -347,6 +354,12 @@ function FubenTheaterLevelView:initUI(ui)
     self.Panel_fighting_item1 = TFDirector:getChildByPath(self.Panel_prefab, "Panel_fighting_item1")
     self.Panel_boss_item = TFDirector:getChildByPath(self.Panel_prefab, "Panel_boss_item")
     self.Panel_boss_fight_item = TFDirector:getChildByPath(self.Panel_prefab, "Panel_boss_fight_item")
+    self.Panel_dating_item1 = TFDirector:getChildByPath(self.Panel_prefab, "Panel_dating_item1")
+
+    -- 鞠奈
+    self.Panel_fighting_branch_itemHuoShou = TFDirector:getChildByPath(self.Panel_prefab, "Panel_fighting_branch_itemHuoShou")
+    self.Panel_dating_branch_itemHuoShou = TFDirector:getChildByPath(self.Panel_prefab, "Panel_dating_branch_itemHuoShou")
+    self.Panel_fighting_boss_itemHuoShou = TFDirector:getChildByPath(self.Panel_prefab, "Panel_fighting_boss_itemHuoShou")
     
 
     local ScrollView_chapter = TFDirector:getChildByPath(self.Panel_root, "ScrollView_chapter")
@@ -424,8 +437,12 @@ function FubenTheaterLevelView:refreshView()
 
     if not self.ishardLevel then
         local chapter = FubenDataMgr:getTheaterHardChapter(self.exChapterId)
-        local enabled, condEnabled = FubenDataMgr:checkTheaterChapterEnabled(chapter[1])
-        self.Button_hard:setVisible(condEnabled)
+        if #chapter > 0 then
+            local enabled, condEnabled = FubenDataMgr:checkTheaterChapterEnabled(chapter[1])
+            self.Button_hard:setVisible(condEnabled)
+        else
+            self.Button_hard:setVisible(false)
+        end
     else
         self.Button_hard:setVisible(false)
     end
@@ -511,10 +528,11 @@ function FubenTheaterLevelView:selectChapter(index)
         return
     end
 
-    if not condEnabled then
-        Utils:showTips(12010143, index - 1)
+    if not condEnabled and self.exChapterCfg.lockTips > 0 then
+        Utils:showTips(self.exChapterCfg.lockTips, index - 1)
         return
     end
+
 
     self.selectChapterIndex_ = index
 
@@ -937,11 +955,13 @@ function FubenTheaterLevelView:addChapterItem()
 end
 
 function FubenTheaterLevelView:addDatingCgItem()
-    local Panel_datingCg_item = self.Panel_datingCg_item:clone()
+
     local foo = {}
-    foo.root = Panel_datingCg_item
+    foo.root = self.Panel_datingCg_item:clone()
     foo.Label_name = TFDirector:getChildByPath(foo.root, "Label_name")
     foo.Button_dating = TFDirector:getChildByPath(foo.root, "ClippingNode_dating.Button_dating")
+    foo.bg = TFDirector:getChildByPath(foo.root, "Image_bg")
+    foo.cover = TFDirector:getChildByPath(foo.root, "Image_conver")
     local effect_hint = TFDirector:getChildByPath(foo.root, "effect_hint")
     effect_hint:playByIndex(0,-1,-1,1)
     foo.effect_hint = effect_hint
@@ -1006,9 +1026,8 @@ function FubenTheaterLevelView:addFightResultItem()
 end
 
 function FubenTheaterLevelView:addFightingMainItem()
-    local Panel_fighting_main_item = self.Panel_fighting_main_item:clone()
     local foo = {}
-    foo.root = Panel_fighting_main_item
+    foo.root = self.Panel_fighting_main_item:clone()
     foo.Image_icon = TFDirector:getChildByPath(foo.root, "Image_icon")
     foo.Button_level = TFDirector:getChildByPath(foo.root, "Button_level")
     foo.Label_name = TFDirector:getChildByPath(foo.root, "Label_name")
@@ -1027,9 +1046,9 @@ function FubenTheaterLevelView:addFightingMainItem()
 end
 
 function FubenTheaterLevelView:addDatingMainItem()
-    local Panel_dating_main_item = self.Panel_dating_main_item:clone()
+
     local foo = {}
-    foo.root = Panel_dating_main_item
+    foo.root = self.Panel_dating_main_item:clone()
     foo.Image_icon = TFDirector:getChildByPath(foo.root, "Image_icon")
     foo.Button_dating = TFDirector:getChildByPath(foo.root, "Button_dating")
     foo.Label_name = TFDirector:getChildByPath(foo.root, "Label_name")
@@ -1060,6 +1079,27 @@ function FubenTheaterLevelView:addBossItem()
     return foo
 end
 
+function FubenTheaterLevelView:addJuNaiBossItem()
+    local Panel_fighting_boss_itemHuoShou = self.Panel_fighting_boss_itemHuoShou:clone()
+    local foo = {}
+    foo.root = Panel_fighting_boss_itemHuoShou
+    foo.Image_icon = TFDirector:getChildByPath(foo.root, "Image_icon")
+    foo.Button_level = TFDirector:getChildByPath(foo.root, "Button_level")
+    foo.Label_name = TFDirector:getChildByPath(foo.root, "Label_name")
+    foo.Image_star = {}
+    for i = 1, 3 do
+        local bar = {}
+        bar.root = TFDirector:getChildByPath(foo.root, "Image_star_" .. i)
+        bar.Image_star_light = TFDirector:getChildByPath(bar.root, "Image_star_light")
+        foo.Image_star[i] = bar
+    end
+    local effect_hint = TFDirector:getChildByPath(foo.root, "effect_hint")
+    effect_hint:playByIndex(0,-1,-1,1)
+    foo.effect_hint = effect_hint
+    foo.btn = foo.Button_level
+    return foo
+end
+
 function FubenTheaterLevelView:addBossFightItem()
     local Panel_boss_item = self.Panel_boss_fight_item:clone()
     local foo = {}
@@ -1071,7 +1111,12 @@ function FubenTheaterLevelView:addBossFightItem()
 end
 
 function FubenTheaterLevelView:addFightingBranchItem()
-    local Panel_fighting_branch_item = self.Panel_fighting_branch_item:clone()
+    local Panel_fighting_branch_item
+    if self.exChapterId == EC_FUBENTHEATER_ID.JuNai then
+        Panel_fighting_branch_item = self.Panel_fighting_branch_itemHuoShou:clone()
+    else
+        Panel_fighting_branch_item = self.Panel_fighting_branch_item:clone()
+    end
     local foo = {}
     foo.root = Panel_fighting_branch_item
     foo.Button_level = TFDirector:getChildByPath(foo.root, "Button_level")
@@ -1088,7 +1133,12 @@ function FubenTheaterLevelView:addFightingBranchItem()
 end
 
 function FubenTheaterLevelView:addDatingBranchItem()
-    local Panel_dating_branch_item = self.Panel_dating_branch_item:clone()
+    local Panel_dating_branch_item
+    if self.exChapterId == EC_FUBENTHEATER_ID.JuNai then
+        Panel_dating_branch_item = self.Panel_dating_branch_itemHuoShou:clone()
+    else
+        Panel_dating_branch_item = self.Panel_dating_branch_item:clone()
+    end
     local foo = {}
     foo.root = Panel_dating_branch_item
     foo.Button_dating = TFDirector:getChildByPath(foo.root, "Button_dating")
@@ -1106,6 +1156,13 @@ function FubenTheaterLevelView:updateDatingMainItem(levelCid)
     foo.Image_icon:setTexture(levelCfg.icon)
     local starNum = FubenDataMgr:getStarNum(levelCid)
     foo.Image_star_light:setVisible(starNum == 1)
+
+    if self.exChapterCfg.datingItemRes.bg then
+        foo.Button_dating:setTextureNormal(self.exChapterCfg.datingItemRes.bg)
+    end
+    if self.exChapterCfg.datingItemRes.color then
+        foo.Label_name:setColor(Utils:covertToColorRGB(self.exChapterCfg.datingItemRes.color))
+    end
 
     foo.Button_dating:onClick(function()
             local enabled = FubenDataMgr:checkTheaterLevelEnabled(levelCid)
@@ -1149,6 +1206,26 @@ function FubenTheaterLevelView:updateBossItem1(levelCid)
     end)
 end
 
+function FubenTheaterLevelView:updateJuNaiBossItem(levelCid)
+    local levelCfg = FubenDataMgr:getTheaterDungeonLevelCfg(levelCid)
+    local foo = self.levelItems_[levelCid]
+    foo.Image_icon:setTexture(levelCfg.icon)
+    foo.Label_name:setTextById(levelCfg.storydungeonName)
+    for i, v in ipairs(foo.Image_star) do
+        local num = FubenDataMgr:getStarNum(levelCid)
+        v.Image_star_light:setVisible(i<=num)
+    end
+    
+    foo.Button_level:onClick(function()
+            local enabled = FubenDataMgr:checkTheaterLevelEnabled(levelCid)
+            if enabled then
+                Utils:openView("fuben.FubenReadyView", levelCid)
+            else
+                dump(levelCid)
+            end
+    end)
+end
+
 
 function FubenTheaterLevelView:updateBossFightItem(levelCid)
     local levelCfg = FubenDataMgr:getTheaterDungeonLevelCfg(levelCid)
@@ -1175,6 +1252,13 @@ function FubenTheaterLevelView:updateFightingMainItem(levelCid)
     for i, v in ipairs(foo.Image_star) do
         v.Image_star_light:setVisible(i <= starNum)
     end
+    if self.exChapterCfg.fightItemRes.bg then
+        foo.Button_level:setTextureNormal(self.exChapterCfg.fightItemRes.bg)
+    end 
+
+    if self.exChapterCfg.fightItemRes.color then
+        foo.Label_name:setColor(Utils:covertToColorRGB(self.exChapterCfg.fightItemRes.color))
+    end 
 
     foo.Button_level:onClick(function()
             local enabled = FubenDataMgr:checkTheaterLevelEnabled(levelCid)
@@ -1280,6 +1364,9 @@ function FubenTheaterLevelView:updateDatingCgItem(levelCid)
     foo.Label_name:setTextById(levelCfg.storydungeonName)
     foo.Button_dating:setTextureNormal(levelCfg.icon)
 
+    foo.bg:setTexture(self.exChapterCfg.cgItemRes.bg)
+    foo.cover:setTexture(self.exChapterCfg.cgItemRes.coverbg)
+    
     foo.Button_dating:onClick(function()
             local enabled = FubenDataMgr:checkTheaterLevelEnabled(levelCid)
             if enabled then

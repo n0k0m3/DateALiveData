@@ -26,9 +26,12 @@ end
 
 function createUIByLuaNew(uiPath)
     --添加多语言ui文件读取
-    local language = GAME_LANGUAGE_VAR
-    if language ~= ""then
-        uiPath = string.gsub(uiPath , 'uiconfig' , 'uiconfig'..language)
+    if me.platform == "win32" then
+        print("file Public.lua function createUIByLuaNew ori uiPath " ..uiPath)
+    end
+    uiPath = TFGlobalUtils:loadUIConfigFilePath(uiPath)
+    if me.platform == "win32" then
+        print("file Public.lua function createUIByLuaNew new uiPath " ..uiPath)
     end
     if me.platform == "win32" then
         TFDirector:unRequire(uiPath);

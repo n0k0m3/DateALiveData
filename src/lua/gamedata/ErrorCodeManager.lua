@@ -122,7 +122,8 @@ function ErrorCodeManager:getCodeLayer( type , errorCode)
 	data.type = type
 	data.errorCode = errorCode
 
-    local str = TFLanguageManager:getString(errorCode)
+	local str = ""
+    --local str = TFLanguageMgr:getString(errorCode)
     if str == "" or str == nil then
     	--toastMessage("未知错误：" .. errorCode)
     	toastMessageLink(stringUtils.format(localizable.ErrorCodeManager_unknowen_error, errorCode))

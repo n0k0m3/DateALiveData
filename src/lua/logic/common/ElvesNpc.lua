@@ -7,7 +7,8 @@ local TTFLive2D = class("TTFLive2D",function()
 	return TFLive2D:create()
 end)
 
-function TTFLive2D:ctor(roleInfo)
+function TTFLive2D:ctor(roleInfo,isMainLayer)
+	self.isMainLayer = isMainLayer or false
 
 	self:add(roleInfo.rolePath, roleInfo.roleName)
 	-- 重写setScale()
@@ -36,19 +37,66 @@ function TTFLive2D:ctor(roleInfo)
 	self:setTouchEnabled(true)
 	self.modelId = roleInfo.modelId
 	self.defaultAcName = roleInfo.defaultAcName
+	self:setDefaultAct(roleInfo.defaultAcName)
     self.isShowText = roleInfo.isShowText
-    self.roleTextViewExPos = ccp(330,80)
+
+	self.curTouchPart = nil
+	self.showEffect = true
 
 	self.timer_ = nil
+	self.newActionEventTime = 0
+	self.actionEventtimer_ = nil
 
 	self:setColor(me.WHITE)
 
 	print("new modelId ", self.modelId)
 	self:refreshFavorLevel()
+	self:startActionEventTimer()
 
 	self:addMEListener(TFLIVE2D_TAP, handler(self.onTap,self))
 	self:addMEListener(TFWIDGET_EXIT, handler(self._onCleanUp,self))
 
+end
+
+function TTFLive2D:startActionEventTimer()
+	self.actionEventtimer_ = TFDirector:addTimer(0, -1, nil, function(dt)
+        self.newActionEventTime = self.newActionEventTime + dt
+        if self.curActionEvents then
+        	for eventId,time in pairs(self.curActionEvents) do
+        		if self.newActionEventTime >= time then
+        			self:onUserFrameEventCall(time, eventId)
+        			self.curActionEvents[eventId] = nil
+        		end
+        	end
+        end
+    end)
+end
+
+function TTFLive2D:onUserFrameEventCall(time, value)
+    print("onUserFrameEventCall----------------",time, value )
+    if not time or not value then
+    	return
+    end
+    local cfg = TabDataMgr:getData("InterEventAction",tonumber(value))
+    if cfg then
+    	if #cfg.playAudio > 0 then
+    		local soundCid = cfg.playAudio[math.random(1,#cfg.playAudio)]
+    		Utils:playSound(soundCid)
+    	end
+    	if #cfg.playEffect > 0 then
+    		local effect = SkeletonAnimation:create(cfg.playEffect[1])
+	    	self:getParent():addChild(effect,1000)
+	    	effect:setPosition(self:getPosition())
+	    	effect:play("animation", false)
+	    	effect:addMEListener(TFARMATURE_COMPLETE,function(skeletonNode)
+		        skeletonNode:removeMEListener(TFARMATURE_COMPLETE)
+		        skeletonNode:removeFromParent()
+		    end)
+    	end
+    	if #cfg.voiceFade > 0 then
+    		self:doFadeBgm(cfg.voiceFade)
+    	end
+    end
 end
 
 function TTFLive2D:__setScale(value)
@@ -85,34 +133,50 @@ function TTFLive2D:onTap(sender, idx, x, y)
 		return
 	end
 	local checkStr = ""
+	local part;
 	if sender:checkHit(idx, EC_HIT_AREA_NAME.HEAD, x, y) then
 		print("head")
-		sender:kanbanTouchEvent(sender.head)
+		sender:kanbanTouchEvent(sender.head, EC_HIT_AREA_NAME.HEAD)
 		checkStr = EC_HIT_AREA_NAME.HEAD
+		part = sender.head
 	elseif sender:checkHit(idx, EC_HIT_AREA_NAME.BODY, x, y) then
 		print("body")
-		sender:kanbanTouchEvent(sender.body)
+		sender:kanbanTouchEvent(sender.body, EC_HIT_AREA_NAME.BODY)
 		checkStr = EC_HIT_AREA_NAME.BODY
+		part = sender.body
 	elseif sender:checkHit(idx, EC_HIT_AREA_NAME.FUBU, x, y) then
 		print("fubu")
-		sender:kanbanTouchEvent(sender.fubu)
+		sender:kanbanTouchEvent(sender.fubu, EC_HIT_AREA_NAME.FUBU)
 		checkStr = EC_HIT_AREA_NAME.FUBU
+		part = sender.fubu
 	elseif sender:checkHit(idx, EC_HIT_AREA_NAME.TUI, x, y) then
 		print("tui")
-		sender:kanbanTouchEvent(sender.tui)
+		sender:kanbanTouchEvent(sender.tui, EC_HIT_AREA_NAME.TUI)
 		checkStr = EC_HIT_AREA_NAME.TUI
+		part = sender.tui
 	elseif sender:checkHit(idx, EC_HIT_AREA_NAME.HAND_R, x, y) then
 		print("hand_r")
-		sender:kanbanTouchEvent(sender.hand)
+		sender:kanbanTouchEvent(sender.hand, EC_HIT_AREA_NAME.HAND_R)
 		checkStr = EC_HIT_AREA_NAME.HAND_R
+		part = sender.hand
 	elseif sender:checkHit(idx, EC_HIT_AREA_NAME.HAND_L, x, y) then
 		print("hand_l")
-		sender:kanbanTouchEvent(sender.hand)
+		sender:kanbanTouchEvent(sender.hand, EC_HIT_AREA_NAME.HAND_L)
 		checkStr = EC_HIT_AREA_NAME.HAND_L
+		part = sender.hand
 	end
 
 	if #checkStr > 0 and self.isSendTouch then
-		EventMgr:dispatchEvent(EV_DATING_EVENT.touchRole)
+		local event;
+		if self.showEffect then
+			event = self.curTouchPart
+			self.showEffect = false
+			sender:timeOut(function()   
+				self.showEffect = true
+			end,part.desTime)
+		end
+		EventMgr:dispatchEvent(EV_DATING_EVENT.touchRole, event or {})
+		
 	end
 
 	if sender.clickFun  and sender.isClick == true and #checkStr > 0 then
@@ -141,16 +205,12 @@ function TTFLive2D:refreshFavorLevel()
 	if not self.modelId then
 		return
 	end
-	local lastFavorLevel = self.favorLevel
 	local roleId = RoleDataMgr:getRoleId(self.modelId)
 	local roleInfo = RoleDataMgr:getRoleInfo(roleId)
 	if not roleInfo then
 		return
 	end
-	self.favorLevel = roleInfo.favorLevel
-	-- if lastFavorLevel and lastFavorLevel >= self.favorLevel then
-	-- 	return
-	-- end
+	self.favorLevel = RoleDataMgr:getRoleFavorLv(roleId)
 	local kanBanInfo = self:parseKanBanInfo(self.modelId)
 	if kanBanInfo then
 		self:bindKanBanInfo(kanBanInfo)
@@ -160,21 +220,41 @@ end
 
 function TTFLive2D:parseKanBanInfo(modelId,favorLevel)
 	local favorLevel = favorLevel or self.favorLevel
+
+	self.actionList = {}
 	local kanBanInfo = {}
 	local iTable = TabDataMgr:getData("Interaction")
 	for k,v in pairs(iTable) do
-		if (modelId == nil or (modelId and v.modelId == modelId)) and v.favor == favorLevel then
-			self.defaultAct = v.defaultAct
-			if v.position== EC_HIT_AREA_NAME.HEAD then
-				kanBanInfo.head = v
-			elseif v.position == EC_HIT_AREA_NAME.BODY then
-				kanBanInfo.body = v
-			elseif v.position == EC_HIT_AREA_NAME.FUBU then
-				kanBanInfo.fubu = v
-			elseif v.position == EC_HIT_AREA_NAME.TUI then
-				kanBanInfo.tui = v
-			elseif v.position == "hand" then
-				kanBanInfo.hand = v
+		if (modelId == nil or (modelId and v.modelId == modelId))  then			
+			if v.favor == favorLevel then
+				self:setDefaultAct(v.defaultAct)
+				if v.position== EC_HIT_AREA_NAME.HEAD then
+					kanBanInfo.head = v
+				elseif v.position == EC_HIT_AREA_NAME.BODY then
+					kanBanInfo.body = v
+				elseif v.position == EC_HIT_AREA_NAME.FUBU then
+					kanBanInfo.fubu = v
+				elseif v.position == EC_HIT_AREA_NAME.TUI then
+					kanBanInfo.tui = v
+				elseif v.position == "hand" then
+					kanBanInfo.hand = v
+				end
+			end
+
+			local isInsert = false
+			if v.conditionEx.ownItems then
+				if GoodsDataMgr:isGoodsEnough(v.conditionEx.ownItems) then
+					isInsert = true
+				end
+			else
+				if v.favor <= favorLevel then
+					isInsert = true
+				end
+			end
+
+			if isInsert then
+				self.actionList[v.position] = self.actionList[v.position] or {}
+				table.insert(self.actionList[v.position], v)
 			end
 		 end
 	end
@@ -211,11 +291,62 @@ function TTFLive2D:bindKanBanTouchPartsInfo(live2dParts,kanBanInfoParts)
 	live2dParts.lines2 = kanBanInfoParts.lines2			 --特殊事件台词
 	live2dParts.lineShow = kanBanInfoParts.lineShow		 --看板娘台词组
 	live2dParts.lineStop = kanBanInfoParts.lineStop		 --看板娘台词时间组
-	live2dParts.effect = kanBanInfoParts.effect		 	 --特效名字
+	live2dParts.kanbanEffect = kanBanInfoParts.kanbanEffect		 	 --看板特效
+	live2dParts.backgroundEffect = kanBanInfoParts.backgroundEffect		--背景特效
 	live2dParts.anime = kanBanInfoParts.anime		 	 --特效名字
+
+	live2dParts.desTime = 0
+	for i, v in ipairs(live2dParts.lineShow) do
+	    local time = live2dParts.lineStop[i]
+	    if time then
+	        live2dParts.desTime = live2dParts.desTime + time
+	    end
+	end
+	
 end
 
-function TTFLive2D:kanbanTouchEvent(live2dParts, textPos)
+function TTFLive2D:getRandomAction(part)
+	local function func_(probability)
+		local rMin = 1
+		local rMax = 0
+		table.walk(probability, function(v, k)
+		               rMax = rMax + v.weight
+		end)
+		table.sort(probability, function(v, k)
+		               return v.weight < k.weight
+		end)
+
+		local r = math.random(rMin, rMax)
+		print("随机概率：", r, "概率总和:", rMax)
+		for i, v in ipairs(probability) do
+		    if r <= v.weight then
+		        return i
+		    end
+		    r = r - v.weight
+		end
+	end
+
+	local partActions = {}
+	for k, v in ipairs(self.actionList[part] or {}) do
+		if self.curIdleActionName == v.idleFrom then
+			table.insert(partActions, v)
+		end
+	end
+
+	local partsInfo
+	if #partActions == 0 then
+		--Utils:showTips("当前状态下 没有可以播放的动画")
+	else
+		local rdVal = func_(partActions)			
+		if partActions[rdVal] then
+			partsInfo = partActions[rdVal]
+		end
+	end
+	print("随机值动画ID：", action)
+	return partsInfo
+end
+
+function TTFLive2D:kanbanTouchEvent(live2dParts, part)
 
 	if self.lastTouchPartsName == nil then
 		self.lastTouchPartsName = live2dParts.partsName
@@ -240,53 +371,69 @@ function TTFLive2D:kanbanTouchEvent(live2dParts, textPos)
 			-- 	else
 			-- 		self:playVoice(string.format("sound/role/%s.mp3",live2dParts.voice2))
 			-- 	end
-			 	self:showKanbanLines(live2dParts, textPos)
+			 	self:showKanbanLines(live2dParts)
 			-- 	live2dParts.consecutiveClicks = 0
 			 end
 		else
 			local action1 = nil
 			local voice1 = nil
 			local actIdx = nil
-			if type(live2dParts.action1) == "string" then
-				action1 = live2dParts.action1
-			elseif type(live2dParts.action1) == "table" then
-				actIdx = math.random(1,#live2dParts.action1)
-				action1 = live2dParts.action1[actIdx]
+
+			local partsCfg = clone(live2dParts)
+			
+			if self.isMainLayer then
+				local partInfo = self:getRandomAction(part)
+				if partInfo == nil then
+					return
+				end
+				partsCfg.action1			= partInfo.action1
+				partsCfg.lineShow			= partInfo.lineShow
+				partsCfg.lineStop			= partInfo.lineStop
+				partsCfg.idleToLoopDuration = partInfo.idleToLoopDuration
+				partsCfg.idleFrom			= partInfo.idleFrom
+				partsCfg.idleTo				= partInfo.idleTo				
+			else
+				partsCfg.idleTo = ""
+				partsCfg.idleToLoopDuration = nil
 			end
-			if type(live2dParts.voice1) == "string" then
-				voice1 = live2dParts.voice1
-			elseif type(live2dParts.voice1) == "table" and actIdx then
-				if #live2dParts.voice1 < actIdx then
+
+			local delayTime = 0
+			table.walk(partsCfg.lineStop, function(k,val)
+				delayTime = delayTime + val
+			end)
+
+			if type(partsCfg.action1) == "string" then
+				action1 = partsCfg.action1
+			elseif type(partsCfg.action1) == "table" then
+				actIdx = math.random(1,#partsCfg.action1)
+				action1 = partsCfg.action1[actIdx]
+			end
+			
+			if type(partsCfg.voice1) == "string" then
+				voice1 = partsCfg.voice1
+			elseif type(partsCfg.voice1) == "table" and actIdx then
+				if #partsCfg.voice1 < actIdx then
 					actIdx = 1
 				end
-				voice1 = live2dParts.voice1[actIdx]
+				voice1 = partsCfg.voice1[actIdx]
 			end
 			print("play action1",action1)
-			-- print("play voice1",voice1)
-			isPlayOk = self:newStartAction(action1,EC_PRIORITY.NORMAL,nil,nil,nil,0,true)
-			 if isPlayOk ~= -1 then
+						
+			isPlayOk = self:newStartAction(action1,	EC_PRIORITY.NORMAL,	delayTime,	partsCfg.idleTo,	partsCfg.idleToLoopDuration,	0,true)
+			if isPlayOk ~= -1 then
 			-- 	if tonumber(voice1) == 0 then
 			-- 	else
 			-- 		self:playVoice(string.format("sound/role/%s.mp3",voice1))
 			-- 	end
-			 	self:showKanbanLines(live2dParts, textPos)
-			-- 	live2dParts.consecutiveClicks = live2dParts.consecutiveClicks + 1
-			 end
-		end
-
-		if live2dParts.effect and live2dParts.effect ~= "" then
-			local ske = SkeletonAnimation:create(live2dParts.effect)
-			if live2dParts.anime and live2dParts.anime ~= "" then
-				ske:play(live2dParts.anime,false);
-			else
-				ske:playByIndex(0,-1,-1,0);
+				
+			 	self:showKanbanLines(partsCfg)
+			-- 	partsCfg.consecutiveClicks = partsCfg.consecutiveClicks + 1
+				self.curIdleActionName = partsCfg.idleFrom
 			end
-	        self:addChild(ske)
-	        ske:addMEListener(TFARMATURE_COMPLETE,function ( ... )
-	        	ske:removeMEListener(TFARMATURE_COMPLETE)
-	        	ske:removeFromParent(true)
-	        end)
+			
 		end
+		
+		self.curTouchPart = live2dParts
 
 		if self.isSendTouch and isPlayOk and isPlayOk ~= -1 then
 			if RoleDataMgr:isFavorReachCriticality(RoleDataMgr:getUseId()) then
@@ -302,6 +449,17 @@ function TTFLive2D:kanbanTouchEvent(live2dParts, textPos)
 			end
 		end
 	end
+end
+
+function TTFLive2D:doFadeBgm(voiceFade)
+	if voiceFade == nil or type(voiceFade) ~= 'table' or table.count(voiceFade) ~= 4 then
+		return	
+	end
+
+	SettingDataMgr:bgmFade(voiceFade[1], voiceFade[4])
+	self:timeOut(function()
+		SettingDataMgr:bgmFade(voiceFade[3], voiceFade[4], nil, true)
+	end, voiceFade[2])
 end
 
 function TTFLive2D:showKanbanLines(live2dParts,pos)
@@ -322,9 +480,8 @@ function TTFLive2D:showKanbanLines(live2dParts,pos)
 	showRoleTextView = function(lines)
 		local data = {}
 		data.lines = lines
-		data.pos = pos or self.roleTextViewExPos
+		data.pos = pos or ccp(330,80)
 		self.roleTextView = require("lua.logic.role.RoleTextViewEx"):new(data)
-		self.roleTextView:setRotation(self:getRotation())
 		self:getParent():addChild(self.roleTextView,1000);
 
 		if live2dParts.lineStop and live2dParts.lineStop[idx] then
@@ -348,13 +505,6 @@ function TTFLive2D:showKanbanLines(live2dParts,pos)
 	end
 
 	showRoleTextView(live2dParts.lineShow[idx])
-end
-
-function TTFLive2D:setRoleTextViewExVisible( visible )
-	-- body
-	if self.roleTextView then
-		self.roleTextView:setVisible(visible)
-	end
 end
 
 function TTFLive2D:playVoice(voice)
@@ -382,7 +532,7 @@ end
 function TTFLive2D:newStartPlayLoopAction(interval,acName)
 	self.loopAcName = acName
     self:stopPlayLoopAction()
-	self.timerID_ = TFDirector:addTimer(interval, -1, nil, handler(self.newUpdateLoopAction, self))
+	self.timerID_ = TFDirector:addTimer(interval or 0, -1, nil, handler(self.newUpdateLoopAction, self))
 end
 
 function TTFLive2D:newUpdateLoopAction()
@@ -391,9 +541,9 @@ function TTFLive2D:newUpdateLoopAction()
 	end
 
 	local isOK = self:startMotion(0,self.loopAcName, 0, EC_PRIORITY.IDLE)
-	print("live2d ",self)
-	print("loop play action = ",self.loopAcName)
-	print("isOK = ",isOK)
+--	print("live2d ",self)
+--	print("loop play action = ",self.loopAcName)
+--	print("isOK = ",isOK)
 end
 
 function TTFLive2D:stopPlayLoopAction()
@@ -417,10 +567,15 @@ end
 
 function TTFLive2D:setDefaultAct(defaultAct)
 	self.defaultAct = defaultAct
+	self.curIdleActionName = defaultAct
 end
 
 function TTFLive2D:getVoicePath()
     return self.voicePath
+end
+
+function TTFLive2D:getIdleStatus()
+	return self.curIdleActionName or ""
 end
 
 function TTFLive2D:setVoiceVolume(soundValue)
@@ -430,6 +585,18 @@ function TTFLive2D:setVoiceVolume(soundValue)
         local voiceVol = SettingDataMgr:getSoundVoiceVal()
         AudioEngine:setPathVolume(voicePath,baseVol*voiceVol*soundValue*2)
     end
+end
+
+function TTFLive2D:updateActionEvents(acName)
+	self.curActionEvents = nil
+	local iTable = TabDataMgr:getData("Interaction")
+	for k,v in pairs(iTable) do
+		if (self.modelId and v.modelId == self.modelId) and acName == v.action1 then			
+			self.curActionEvents = clone(v.eventIds)
+			break
+		end
+	end
+	self.newActionEventTime = 0
 end
 
 function TTFLive2D:newStartAction(acName,priority,deyTime,loopName,interval,soundValue,isPlaySound)
@@ -446,13 +613,15 @@ function TTFLive2D:newStartAction(acName,priority,deyTime,loopName,interval,soun
 
     soundValue = soundValue or 1
 	local voicePath = Npc:getModelBindVoicePath(self.modelId,acName)
-	--if voicePath == nil then return end
     self.voicePath = voicePath
 	self:setVoiceVolume(soundValue)
 
 	local isOK = self:startMotion(0,acName, 0, priority)
 	if isOK ~= -1 and (isPlaySound or (self.type == 1 and self.isTouch and self.isSendTouch and AudioEngine.setPathVolume)) then
 		self:playVoice(voicePath)
+	end
+	if isOK ~= -1 then
+		self:updateActionEvents(acName)
 	end
 	--if self.type == 0 then
 	--	local backID = self:getCurrentEffectID(0)
@@ -466,10 +635,11 @@ function TTFLive2D:newStartAction(acName,priority,deyTime,loopName,interval,soun
     --
 	--end
 	print("isOK newStartAction",isOK)
-	if deyTime == nil or not loopName then
+	if deyTime == 0 or not loopName or #loopName==0 then
 		return isOK
 	end
 	local function playFun()
+		self.curIdleActionName = loopName
 		self:newStartPlayLoopAction(interval,loopName)
 	end
 	local acFun = {
@@ -500,6 +670,11 @@ end
 
 function TTFLive2D:removeEvents()
 	TFDirector:removeMEGlobalListener(EV_DATING_EVENT.refreshRole, self.addlisFun)
+	if self.actionEventtimer_ then
+		TFDirector:stopTimer(self.actionEventtimer_)
+	    TFDirector:removeTimer(self.actionEventtimer_)
+	    self.actionEventtimer_ = nil
+	end
 end
 
 function TTFLive2D:_onCleanUp()
@@ -724,8 +899,8 @@ function TTFLive2D:stopRenderAction(isShow)
 	self:setVisible(isShow)
 end
 
-function TTFLive2D:createWithRole(roleInfo)
-	return TTFLive2D:new(roleInfo)
+function TTFLive2D:createWithRole(roleInfo,isMainLayer)
+	return TTFLive2D:new(roleInfo, isMainLayer)
 end
 
 function TTFLive2D:playEyeBlink()
@@ -860,7 +1035,7 @@ function ElvesNpc:createLive2dNpc(roleInfo,expressionInfo)
 	return live2d
 end
 
-function ElvesNpc:createLive2dNpcID(modelId,isTouch,isSendTouch,defaultAcName,isShowText)
+function ElvesNpc:createLive2dNpcID(modelId,isTouch,isSendTouch,defaultAcName,isShowText, isMainLayer)
 	local modelData = self:getModelInfo(modelId)
 	if not modelData then
 		return
@@ -886,13 +1061,13 @@ function ElvesNpc:createLive2dNpcID(modelId,isTouch,isSendTouch,defaultAcName,is
 
 	print("ElvesNpc:createLive2dNpcID roleInfo: ",roleInfo)
 
+	_ElvesNpc.live2d = TTFLive2D:createWithRole(roleInfo, isMainLayer)
 	if not TFFileUtil:existFile(roleInfo.rolePath  .."/" ..roleInfo.roleName) then
 		local errMsg = string.format("ElvesNpc:createLive2dNpcID modelId = %s roleInfo.rolePath  =%s roleInfo.roleName=%s  not exit resource!",tostring(modelId),tostring(roleInfo.rolePath),tostring(roleInfo.roleName))
 		Bugly:ReportLuaException(errMsg)
 		return
 	end
 
-	_ElvesNpc.live2d = TTFLive2D:createWithRole(roleInfo)
 
 	local node = CCNode:create():Size(CCSizeMake(2000,2000))
 	node:OnBegan(function(sender, pos)

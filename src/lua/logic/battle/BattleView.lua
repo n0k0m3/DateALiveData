@@ -15,6 +15,7 @@ local eStateEvent = enum.eStateEvent
 local eEvent      = enum.eEvent
 local eCameraFlag = enum.eCameraFlag
 local eHurtType   = enum.eHurtType
+local eDamageType  = enum.eDamageType
 local eDir        = enum.eDir
 local eShakeType  = enum.eShakeType
 local eShowState  = enum.eShowState
@@ -28,6 +29,7 @@ local GameObject  = import(".GameObject")
 local BattleGuide = import(".BattleGuide")
 local AIAgent = import(".AIAgent")
 local KeyStateMgr    = import(".KeyStateMgr")
+local MusicGameView    = import(".MusicGameView")
 
 local Roulette = import(".Roulette")
 local BattleView = class("BattleView", BaseLayer)
@@ -75,6 +77,10 @@ function BattleView:removeEvents()
     if self.keyBoard then
         self.keyBoard:removeEvents()
     end
+    if self.portDamageFunc then
+        TFDirector:unRegisterKeyDown(119, self.portDamageFunc)
+        self.portDamageFunc = nil
+    end
 end
 
 function BattleView:initData()
@@ -86,6 +92,11 @@ function BattleView:initData()
         AIAgent:setEnabled(self.practice_atk_toggle)
     end
     self.elementCfg = TabDataMgr:getData("Restrain")
+
+    if BattleConfig.DAMAGE_TEST then
+        self.damage_test_toggle = false
+        self.damageTestTime = 0
+    end
 end
 
 function BattleView:ctor(...)
@@ -242,6 +253,8 @@ function BattleView:initUI(ui)
     self.Image_common_victory4.add_time = TFDirector:getChildByPath(self.Image_common_victory4, "Label_add_time"):hide()
     self.Image_common_victory4.label_time:setSkewX(15)
     self.Image_common_victory4.add_time:setSkewX(15)
+
+
     --星级显示
     self.Panel_passcond = TFDirector:getChildByPath(self.Panel_top, "Panel_passcond"):hide()
     self.Panel_passcond.loadbar       = TFDirector:getChildByPath(self.Panel_passcond, "LoadingBar_passcond")
@@ -282,6 +295,20 @@ function BattleView:initUI(ui)
     self.textVictoryTitle:setSkewX(15)
     self.textVictorycontent:setSkewX(15)
 
+    self.Image_mojin_victory = TFDirector:getChildByPath(self.Panel_victory, "Image_mojin_victory"):hide()
+    if self.levelType_ == EC_FBLevelType.KUANGSAN_FIGHTING then
+        local displayMap = TabDataMgr:getData("MojinDungeonDisplay")
+        for k, v in pairs(displayMap) do
+            if v.dungeon == self.levelCid_ and v.displayDetail == 3 then
+                self.Image_common_victory:hide()
+                self.Image_mojin_victory:show()
+                self.Image_common_victory = self.Image_mojin_victory 
+                self.textVictoryTitle  = TFDirector:getChildByPath(self.Image_mojin_victory, "Label_title")
+                self.textVictorycontent = TFDirector:getChildByPath(self.Image_mojin_victory, "Label_content")
+                break
+            end
+        end
+    end
     --守护模式提示下一波
 
     self.image_next_time = TFDirector:getChildByPath(self.Panel_ui, "Image_next_time"):hide()
@@ -361,6 +388,8 @@ function BattleView:initUI(ui)
     --出招表
      self.image_keylist = TFDirector:getChildByPath(self.Panel_top,"Image_keylist"):hide()
      self.image_keylist.label_keylist = TFDirector:getChildByPath(self.image_keylist,"Label_keylist")
+     local subWidth = (me.winSize.width - 1136) / 2
+     self.image_keylist:setPositionX(self.image_keylist:getPositionX() - subWidth)
 
     self.panel_victory_time = TFDirector:getChildByPath(self.Panel_top,"Panel_time")
     self.panel_victory_time.Image_signal = TFDirector:getChildByPath(self.panel_victory_time,"Image_signal"):hide()
@@ -507,6 +536,20 @@ function BattleView:initUI(ui)
     self.Label_eladderBuff_close = TFDirector:getChildByPath(self.Button_ladderBuff_close, "Label_eladderBuff_close")
     local ScrollView_ladderBuff = TFDirector:getChildByPath(self.Panel_ladder_buff, "ScrollView_ladderBuff"):show()
     self.ListView_ladderBuff = UIListView:create(ScrollView_ladderBuff)
+
+    --海王星
+    self.Panel_hwxTime = TFDirector:getChildByPath(self.Panel_top, "Panel_hwxTime"):hide()
+    self.Label_hwx_time =  TFDirector:getChildByPath(self.Panel_hwxTime, "Label_hwx_time")
+    self.Label_hwx_time:setSkewX(15)
+    self.Label_hwx_time_tip =  TFDirector:getChildByPath(self.Panel_hwxTime, "Label_hwx_time_tip")
+    self.Label_hwx_time_tip:setSkewX(15)
+
+	--魔王试炼
+	self.Panel_MonsterTrialTime = TFDirector:getChildByPath(self.Panel_top, "Panel_MonsterTrialTime"):hide()
+    self.Label_monster_time =  TFDirector:getChildByPath(self.Panel_MonsterTrialTime, "Label_monster_time")
+    self.Label_monster_time:setSkewX(15)
+    self.Label_monster_time_tip =  TFDirector:getChildByPath(self.Panel_MonsterTrialTime, "Label_monster_time_tip")
+    self.Label_monster_time_tip:setSkewX(15)
 
     -- 无尽模式
     self.Panel_endlessTip = TFDirector:getChildByPath(self.Panel_top, "Panel_endlessTip"):hide()
@@ -686,8 +729,37 @@ function BattleView:initUI(ui)
         skeletonNode:hide()
     end)
 
+    --伤害统计测试
+    self.Panel_damage_test = TFDirector:getChildByPath(self.Panel_top, "Panel_damage_test"):hide()
+    self.Panel_damage_switch = TFDirector:getChildByPath(self.Panel_damage_test, "Panel_damage_switch")
+    self.Panel_damage_view = TFDirector:getChildByPath(self.Panel_damage_test, "Panel_damage_view"):hide()
+    self.Image_damage_switch_infinite_on = TFDirector:getChildByPath(self.Panel_damage_test, "Image_damage_switch_infinite_on")
+    self.Image_damage_switch_infinite_off = TFDirector:getChildByPath(self.Panel_damage_test, "Image_damage_switch_infinite_off")
+    self.Panel_damage_switch_touch = TFDirector:getChildByPath(self.Panel_damage_test, "Panel_damage_switch_touch")
+    self.Image_damage_switch = TFDirector:getChildByPath(self.Panel_damage_test, "Image_damage_switch")
+    self.Label_damage_text = TFDirector:getChildByPath(self.Panel_prefabs, "Label_damage_text")
+    self.LoadingBar_damage = TFDirector:getChildByPath(self.Panel_prefabs, "LoadingBar_damage")
+    self.ScrollView_damage = TFDirector:getChildByPath(self.Panel_damage_test, "ScrollView_damage")
+    self.ListView_damage = UIListView:create(self.ScrollView_damage)
 
+    self.Panel_damage_view1 = TFDirector:getChildByPath(self.Panel_damage_test, "Panel_damage_view1"):hide()
+    local ScrollView_damage1 = TFDirector:getChildByPath(self.Panel_damage_test, "ScrollView_damage1")
+    self.ListView_damage1 = UIListView:create(ScrollView_damage1)
+    self.Button_damage1 = TFDirector:getChildByPath(self.Panel_damage_test, "Button_damage1")
+    self.Panel_damage_percent1 = TFDirector:getChildByPath(self.Panel_damage_test, "Panel_damage_percent1")
+    self.Button_damage_clear = TFDirector:getChildByPath(self.Panel_damage_test, "Button_damage_clear")
 
+    self.Panel_damage_view2 = TFDirector:getChildByPath(self.Panel_damage_test, "Panel_damage_view2"):hide()
+    local ScrollView_damage2 = TFDirector:getChildByPath(self.Panel_damage_test, "ScrollView_damage2")
+    self.ListView_damage2 = UIListView:create(ScrollView_damage2)
+    self.Button_damage2 = TFDirector:getChildByPath(self.Panel_damage_test, "Button_damage2")
+    self.Panel_damage_percent2 = TFDirector:getChildByPath(self.Panel_damage_test, "Panel_damage_percent2")
+
+    self.Panel_damage_view3 = TFDirector:getChildByPath(self.Panel_damage_test, "Panel_damage_view3"):hide()
+    local ScrollView_damage3 = TFDirector:getChildByPath(self.Panel_damage_test, "ScrollView_damage3")
+    self.ListView_damage3 = UIListView:create(ScrollView_damage3)
+    self.Button_damage3 = TFDirector:getChildByPath(self.Panel_damage_test, "Button_damage3")
+    self.Panel_damage_percent3 = TFDirector:getChildByPath(self.Panel_damage_test, "Panel_damage_percent3")
 
     self.panel_type_guard = self.panel_team_victory:getChildByName("Image_type_guard"):hide()
     self.panel_type_guard.Label_team_title = TFDirector:getChildByPath(self.panel_type_guard , "Label_team_title")
@@ -696,25 +768,93 @@ function BattleView:initUI(ui)
     self.panel_type_guard.Label_team_title:setSkewX(15)
     self.panel_type_guard.Label_percent:setSkewX(15)
 
-
     --暂时添加关卡打印信息
-    if GAME_LANGUAGE_VAR ~= "" then
-        if me.platform == "win32" then
-            if type(self.levelCfg_.levelScript) == "string" then
-                TFDirector:getChildByPath(ui , "Label_level_info"):setText("前关卡的levelScript字段信息为： "..self.levelCfg_.levelScript)
-            else
-                local levelCfgName = ""
-                for k ,v in pairs(self.levelCfg_.levelScript) do
-                    levelCfgName = levelCfgName..v.." "
-                end
-                TFDirector:getChildByPath(ui , "Label_level_info"):setText("前关卡的levelScript字段信息为： "..levelCfgName)
-            end
+    --TODO CLOSE
+    -- local code = TFLanguageMgr:getUsingLanguage()
+    -- if not((code == cc.SIMPLIFIED_CHINESE) or (code == cc.TRADITIONAL_CHINESE)) then
+    --     if me.platform == "win32" then
+    --         if type(self.levelCfg_.levelScript) == "string" then
+    --             TFDirector:getChildByPath(ui , "Label_level_info"):setText("前关卡的levelScript字段信息为： "..self.levelCfg_.levelScript)
+    --         else
+    --             local levelCfgName = ""
+    --             for k ,v in pairs(self.levelCfg_.levelScript) do
+    --                 levelCfgName = levelCfgName..v.." "
+    --             end
+    --             TFDirector:getChildByPath(ui , "Label_level_info"):setText("前关卡的levelScript字段信息为： "..levelCfgName)
+    --         end
             
-        else
-            TFDirector:getChildByPath(ui ,"Label_level_info"):hide()
-        end
+    --     else
+    --         TFDirector:getChildByPath(ui ,"Label_level_info"):hide()
+    --     end
+    -- end
+
+    if me.platform == "win32" then
+        local label_custom = TFLabel:create()
+        label_custom:setFontName("font/MFLiHei_Noncommercial.ttf")
+        label_custom:setFontSize(20)
+        label_custom:setAnchorPoint(ccp(0 , 0))
+        label_custom:setPosition(20 ,50)
+        label_custom:setName("label_custom")
+        self.Panel_ui:addChild(label_custom)
+        label_custom:setText()
+
+        if type(self.levelCfg_.levelScript) == "string" then
+                 label_custom:setText("前关卡的levelScript字段信息为： "..self.levelCfg_.levelScript)
+             else
+                 local levelCfgName = ""
+                 for k ,v in pairs(self.levelCfg_.levelScript) do
+                     levelCfgName = levelCfgName..v.." "
+                 end
+                 label_custom:setText("前关卡的levelScript字段信息为： "..levelCfgName)
+             end
     end
     
+    if BattleDataMgr:isMusicGameLevel() then
+        self.musicGameView = MusicGameView:new(battleController)
+        self.Panel_ui:addChild(self.musicGameView,10)
+        self.keyBoard:setVisible(false)
+        self.Panel_top:setVisible(false)
+    end
+
+    if battleController.isBossChallenge() then
+        self:initChallengeFlags()
+    end
+end
+
+function BattleView:initChallengeFlags()
+    self.Panel_flags = TFDirector:getChildByPath(self.Panel_top, "Panel_flags"):show()
+    self.Panel_flag_item = TFDirector:getChildByPath(self.Panel_prefabs, "Panel_flag_item")
+    self.Panel_flag_items = TFDirector:getChildByPath(self.Panel_flags, "Panel_flag_items"):hide()
+    self.Button_flags = TFDirector:getChildByPath(self.Panel_flags, "Button_flags")
+    if self.Panel_flag_items:isVisible() then
+        self.Button_flags:setTextureNormal("ui/battle/endless/005.png")
+    else
+        self.Button_flags:setTextureNormal("ui/battle/endless/004.png")
+    end
+    local bossCfg = TeamFightDataMgr:getBattleCfg()
+    local medalItems = {500128,500129,500130}
+    local goalDescribe = bossCfg.goalDescribe
+    for i,desc in ipairs(goalDescribe) do
+        local item = self.Panel_flag_item:clone()
+        local icon = TFDirector:getChildByPath(item,"Image_icon")
+        local itemCfg = GoodsDataMgr:getItemCfg(medalItems[i])
+        icon:setTexture(itemCfg.icon)
+        TFDirector:getChildByPath(item,"Label_desc"):setText(desc)
+        local isReach = FubenDataMgr:judgeStarIsActive(bossCfg.dungeonID, i)
+        TFDirector:getChildByPath(item,"Image_state"):setVisible(isReach)
+        item:setPosition(ccp(-20,-(i - 1) * item:getContentSize().height))
+        self.Panel_flag_items:addChild(item)
+    end
+
+    self.Button_flags:onClick(function()
+        if self.Panel_flag_items:isVisible() then
+            self.Panel_flag_items:hide()
+            self.Button_flags:setTextureNormal("ui/battle/endless/004.png")
+        else
+            self.Panel_flag_items:show()
+            self.Button_flags:setTextureNormal("ui/battle/endless/005.png")
+        end
+    end)
 end
 
 --显示下一波倒计时
@@ -758,12 +898,45 @@ end
 
 
 --怪物突破防御
-function BattleView:showKeyList(keys)
-    if keys and #keys > 0 then  
+function BattleView:showKeyList(actionData)
+    if actionData.keyShow and #actionData.keyShow > 0 then  
         self.image_keylist:stopAllActions()
         self.image_keylist:show()
         self.image_keylist:setOpacity(255) 
-        self.image_keylist.label_keylist:setText(keys)
+        self.image_keylist.label_keylist:setText(actionData.keyShow)
+        self.image_keylist.label_keylist:setPositionX(0)
+        local Label_key1 = TFDirector:getChildByPath(self.image_keylist,"Label_key1")
+        local Label_key2 = TFDirector:getChildByPath(self.image_keylist,"Label_key2")
+        local Label_key_name1 = TFDirector:getChildByPath(self.image_keylist,"Label_key_name1")
+        local Label_key_name2 = TFDirector:getChildByPath(self.image_keylist,"Label_key_name2")
+        Label_key2:hide()
+        Label_key1:hide()
+        Label_key_name1:hide()
+        Label_key_name2:hide()
+        if #actionData.keyName > 1 then
+            self.image_keylist.label_keylist:setPosition(ccp(-90, 0))
+            Label_key1:show()
+            Label_key_name1:show()
+            Label_key1:setPosition(ccp(self.image_keylist.label_keylist:getPositionX() + self.image_keylist.label_keylist:getContentSize().width / 2 + 20, 0))
+            local color = self:getKeyShowColor(actionData.keyName[1])
+            Label_key1:setText(actionData.keyName[1])
+            Label_key1:setColor(color)
+            Label_key_name1:setText(actionData.keyName[2] or "")
+            Label_key_name1:setColor(color)
+            if actionData.keyName[3] then
+                Label_key2:show()
+                Label_key_name2:show()
+                Label_key1:setPositionY(18)
+                Label_key2:setPosition(ccp(Label_key1:getPositionX(), -18))
+                local color1 = self:getKeyShowColor(actionData.keyName[3])
+                Label_key2:setText(actionData.keyName[3])
+                Label_key2:setColor(color1)
+                Label_key_name2:setText(actionData.keyName[4] or "")
+                Label_key_name2:setColor(color1)
+            end
+            Label_key_name1:setPosition(ccp(Label_key1:getPositionX() + 42,Label_key1:getPositionY()))
+            Label_key_name2:setPosition(ccp(Label_key2:getPositionX() + 42,Label_key2:getPositionY()))
+        end
     else
         -- if self.image_keylist:isVisible() then 
         --     self.image_keylist:stopAllActions()
@@ -779,6 +952,13 @@ function BattleView:showKeyList(keys)
     end 
 end
 
+function BattleView:getKeyShowColor(key)
+    if key == "A" then
+        return ccc3(251,148,178)
+    else
+        return ccc3(132,197,249)
+    end
+end
 
 
 function BattleView:heroDeadAlertCheck(hero)
@@ -889,10 +1069,11 @@ end
 
 local titleTexts = {300811 ,300812,300813,300814,300814,300868,300875,300811,300811 ,300891,300868,300868,300868,300868,300897,300899,301176
 ,301177,301178}
-function BattleView:refreshCommonVictoryState()
+function BattleView:refreshCommonVictoryState()	
     local victoryDecide = battleController.getVictoryDecide()
     local victoryCfgs = victoryDecide.getData()
     local viewType    = victoryDecide.nViewType
+	print("BattleView:refreshCommonVictoryState", viewType)
     if self.battleType_ ~= EC_BattleType.TEAM_FIGHT then
         self.Panel_victory:setVisible(viewType ~= EC_LevelPassCond.PRACTICE)
     end
@@ -908,18 +1089,25 @@ function BattleView:refreshCommonVictoryState()
         self.textVictorycontent:setText(string.format("%s/%s", stage, maxStage))
         local _, hour, min, sec = Utils:getDHMS(victoryDecide.nSecondTime, true)
         self.label_victory_time:setText(string.format("%s:%s", min, sec))
+        self.Label_hwx_time:setText(string.format("%s:%s", min, sec))
     elseif viewType == EC_LevelPassCond.SURVIVAL then  -- (生存模式)   300815
         local _, hour, min, sec = Utils:getDHMS(victoryDecide.nSecondTime, true)
         self.label_victory_time:setText(string.format("%s:%s", min, sec))
         self.textVictorycontent:setText(string.format("%s:%s", min, sec))
+        self.Label_hwx_time:setText(string.format("%s:%s", min, sec))
     elseif viewType ==  EC_LevelPassCond.SURVIVAL_HURT then
         local _, hour, min, sec = Utils:getDHMS(victoryDecide.nSecondTime, true)
         self.label_victory_time:setText(string.format("%s:%s", min, sec))
+        self.Label_hwx_time:setText(string.format("%s:%s", min, sec))
+        if self.levelType_ == EC_FBLevelType.KUANGSAN_FIGHTING then
+            self.textVictoryTitle:setTextById(12033024)
+        end
         -- self.textVictoryTitle:setText("本次伤害:")
         self.textVictorycontent:setText(tostring(self.statistics_.hitValue))
     elseif viewType == EC_LevelPassCond.WAVE then --波次模式
         local _, hour, min, sec = Utils:getDHMS(victoryDecide.nSecondTime, true)
         self.label_victory_time:setText(string.format("%s:%s", min, sec))
+        self.Label_hwx_time:setText(string.format("%s:%s", min, sec))
         local cfg = victoryCfgs[1]
         local maxWave = cfg.victoryParam[1]  --TODO 读取当前关卡配置？
         local wave    = victoryDecide.getWave()
@@ -928,7 +1116,7 @@ function BattleView:refreshCommonVictoryState()
     elseif viewType == EC_LevelPassCond.SPECIFICID  then --限时击杀
         local _, hour, min, sec = Utils:getDHMS(victoryDecide.nSecondTime, true)
         self.label_victory_time:setText(string.format("%s:%s", min, sec))
-
+        self.Label_hwx_time:setText(string.format("%s:%s", min, sec))
         local maxNum = 0
         local num    = 0
         local desc   = 0
@@ -951,10 +1139,15 @@ function BattleView:refreshCommonVictoryState()
             text = text..string.format("%s/%s",num,maxNum)
             -- self.textVictorycontent:setText(string.format("[%s/%s]",num,maxNum))
         end
+        local _, hour, min, sec = Utils:getDHMS(victoryDecide.nSecondTime, true)
+        self.label_victory_time:setText(string.format("%s:%s", min, sec))
+        self.Label_hwx_time:setText(string.format("%s:%s", min, sec))
+        
         self.textVictorycontent:setText(text)
      elseif viewType == EC_LevelPassCond.SPECIFICCOUNT then
         local _, hour, min, sec = Utils:getDHMS(victoryDecide.nSecondTime, true)
         self.label_victory_time:setText(string.format("%s:%s", min, sec))
+        self.Label_hwx_time:setText(string.format("%s:%s", min, sec))
         local cfg  = victoryCfgs[1]
         local num    = victoryDecide.getKillNum()
         local maxNum = cfg.victoryParam[1]
@@ -967,6 +1160,7 @@ function BattleView:refreshCommonVictoryState()
     elseif viewType == EC_LevelPassCond.GUARDMODE_3 then
         local _, hour, min, sec = Utils:getDHMS(victoryDecide.nSecondTime, true)
         self.label_victory_time:setText(string.format("%s:%s", min, sec))
+        self.Label_hwx_time:setText(string.format("%s:%s", min, sec))
         self.label_victory_time:show() 
         self.Image_common_victory2:show() 
         self.Image_common_victory2.title:setText(TextDataMgr:getText(300830)) --怪物波次
@@ -1016,6 +1210,7 @@ function BattleView:refreshCommonVictoryState()
         --时间刷新
         local _, hour, min, sec = Utils:getDHMS(victoryDecide.nSecondTime, true)
         self.label_victory_time:setText(string.format("%s:%s", min, sec))
+        self.Label_hwx_time:setText(string.format("%s:%s", min, sec))
         self.panel_txjz:show() 
         self.Image_common_victory:hide()
         local score = victoryDecide.getScore()
@@ -1125,6 +1320,14 @@ function BattleView:refreshCommonVictoryState()
         end
     end
 
+	if self.levelType_ == EC_FBLevelType.MONSTER_TRIAL then--魔王试炼
+		local remainTime = FubenDataMgr:getMonsterFullScoreRemainTime(battleController.getTime())		
+		local _, hour, min, sec = Utils:getDHMS(remainTime, true)
+		self.Label_monster_time:setText(string.format("%s:%s", min, sec))
+		if remainTime <= 0 then
+			self.Panel_MonsterTrialTime:Hide()
+		end
+	end
 end
 
 --组队通关条件
@@ -1144,7 +1347,42 @@ function BattleView:refreshTeamFightVictoryState()
         local percent = math.min(100,math.floor(score*100/maxValue)) 
         -- self.panel_type_score.Label_team_value:setText(tostring(score))
         self.panel_type_score.Label_percent:setText(string.format("%s/%s",score,maxValue))   
-        self.panel_type_score.LoadingBar:setPercent(percent)       
+        self.panel_type_score.LoadingBar:setPercent(percent)
+    elseif viewType == EC_LevelPassCond.HALLOWEEN_DESTORY then  -- (万圣节活动-歼灭模式)
+        self.Panel_victory:show()
+        self.image_halloween_1:setPositionX(me.winSize.width - 290)
+        self.image_halloween_2:setPositionX(me.winSize.width - 290)
+        self.Image_common_victory:setPositionX(me.winSize.width - 190)
+        local _, hour, min, sec = Utils:getDHMS(self.statistics_.time*0.001, true)
+        local millisecond = math.floor(math.floor(self.statistics_.time)%1000)
+        local milsec = string.format("%.3d", millisecond)
+        local score = victoryDecide.getScore()
+        if score < 100 then
+            self.image_halloween_1:show()
+            self.image_halloween_2:hide()
+            self.image_halloween_1.label_time:setText(string.format("%s:%s:%s" , min, sec,milsec))
+            self.image_halloween_1.loadingBar_score:setPercent(score)
+            self.image_halloween_1.label_score_percent:setText(string.format("%s%%",score))
+            local textID = self.levelCfg_.victoryTypeDescribe[1]
+            local text   = TextDataMgr:getText(textID)
+            self.textVictoryTitle:setTextById(100000012,text)
+            if score > 0 and self.image_halloween_1._score ~= score then
+                if not self.image_halloween_1.spine_halloween:isVisible() then
+                    self.image_halloween_1.spine_halloween:play("animation",0)
+                    self.image_halloween_1.spine_halloween:show()
+                end
+                self.image_halloween_1._score = score
+            end
+        else
+            self.image_halloween_1:hide()
+            self.image_halloween_2:show()
+            self.image_halloween_2.label_time:setText(string.format("%s:%s:%s" , min, sec,milsec))
+            -- local text = FubenDataMgr:getPassCondDesc(BattleDataMgr:getPointId(), 1)
+            local textID = self.levelCfg_.victoryTypeDescribe[2]
+            local text   = TextDataMgr:getText(textID)
+            self.textVictoryTitle:setTextById(100000012,text)
+        end
+        self.textVictorycontent:hide()
     end
     --网络状态显示
     self.panel_victory_time.Image_signal:setVisible(true)
@@ -1226,6 +1464,46 @@ function BattleView:refreshEndlessVictoryState()
     if isRacingMode then
         local _, hour, min, sec = Utils:getDHMS(self.victoryDecide_.nSecondTime, true)
         self.label_victory_time:setTextById(800014, min, sec)
+
+        --local switchInfo = FunctionDataMgr:getMainFuncInfo(EC_MainFuncType.WUJIN)
+        --local switchOpen = not( switchInfo and switchInfo.openWelfare )
+
+        local isSkipLevel = FubenDataMgr:isEndlessSkipLevel(self.levelCid_)
+        --isSkipLevel = isSkipLevel and switchOpen
+        self.Image_endless_victory:setVisible(isSkipLevel)
+        self.Panel_victory:setVisible(isSkipLevel)
+
+        if isSkipLevel then
+
+            local posY = self.Panel_victory:getPositionY()
+            self.Panel_endlessBuff:setPositionY(posY-25)
+
+            local remainSec = math.max(0, self.levelCfg_.time - self.victoryDecide_.nSecondTime)
+            local jumpLevel = FubenDataMgr:getEndlessJumpLevel(remainSec * 1000)
+            if not self.endlessJumpLevel_ then
+                self.endlessJumpLevel_ = jumpLevel
+            end
+
+            if self.endlessJumpLevel_ ~= jumpLevel then
+                local action = Sequence:create({
+                    ScaleTo:create(0.2, 1.4),
+                    CallFunc:create(function()
+                        self.textVictorycontent:setText(jumpLevel)
+                        self.endlessJumpLevel_ = jumpLevel
+                    end),
+                    ScaleTo:create(0.2, 1.0),
+                })
+                self.Label_endless_jump_level:runAction(action)
+            else
+                self.Label_endless_jump_level:setText(jumpLevel)
+            end
+
+            local _, hour, min, sec = Utils:getDHMS(self.victoryDecide_.nSecondTime, true)
+            self.Label_endless_time:setTextById(800014, min, sec)
+            local percent = math.floor(self.victoryDecide_.nSecondTime / self.levelCfg_.time * 100)
+            self.LoadingBar_endless_time:setPercent(percent)
+        end
+
     else
         self.Image_endless_victory:show()
         local remainSec = math.max(0, self.levelCfg_.time - self.victoryDecide_.nSecondTime)
@@ -1286,6 +1564,26 @@ function BattleView:updateLevelTypeDisplay()
         self.Image_hurt:setVisible(self.practice_hurt_toggle)
 
         self:updatePracticeHurtInfo()
+    elseif self.levelType_ == EC_FBLevelType.HWX_TOWER then
+
+        local displayCfg = LinkageHwxDataMgr:getCityDisplayCfg(self.levelCid_)
+        if not displayCfg then
+            return
+        end
+        local displayType = displayCfg.displayDetail
+        --displayType: 3 BOSS关卡
+        self.panel_victory_time:setVisible(displayType ~= 3)
+        self.Panel_hwxTime:setVisible(displayType == 3)
+	elseif self.levelType_ == EC_FBLevelType.MONSTER_TRIAL then
+		self.Panel_MonsterTrialTime:show()
+    end
+
+    if self.Panel_damage_test then
+        self.Panel_damage_test:setVisible(BattleConfig.DAMAGE_TEST)
+        self.Panel_damage_view:setVisible(self.damage_test_toggle)
+        self.Image_damage_switch_infinite_off:setVisible(not self.damage_test_toggle)
+        self.Image_damage_switch_infinite_on:setVisible(self.damage_test_toggle)
+        self:updateDamageTestView()
     end
 end
 
@@ -1441,7 +1739,7 @@ function BattleView:registerEvents()
     EventMgr:addEventListener(self, EV_FUBEN_ENDLESSFIGHTVICTORY, handler(self.onEndlessPassEvent, self))
     -- 无尽模式继续
     EventMgr:addEventListener(self, EV_FUBEN_ENDLESS_CONTINUE, handler(self.onEndlessContinueEvent,self))
-    -- 复活成功
+    -- 复活成功与否
     EventMgr:addEventListener(self, EV_TEAM_FIGHT_FIGHT_REVIVE, handler(self.onReviveSuccess, self))
 
     EventMgr:addEventListener(self,EV_FUNC_STATE_CHANGE, handler(self.onFuncStateChange,self))
@@ -1472,6 +1770,14 @@ function BattleView:registerEvents()
         layer:changeBtnSelStatus("battle")
     end)
     -- 暂停
+
+    if self.musicGameView then
+        -- self.musicGameView.pause_btn:onClick(function()
+        --     BattleUtils:openView("battle.BattlePauseView")
+        --     self:onPause()
+        --     --self:onLeave()
+        -- end)
+    end
     self.keyBoard.pause_btn:onClick(function()
         --组队模式
         if self.battleType_ == EC_BattleType.TEAM_FIGHT then
@@ -1536,6 +1842,51 @@ function BattleView:registerEvents()
             self.Button_hurt_resume:show()
             self.Button_hurt_pause:hide()
             self:updatePracticeHurtInfo()
+    end)
+
+    --伤害测试开关
+    self.Panel_damage_switch_touch:onClick(function()
+            self.damage_test_toggle = not self.damage_test_toggle
+            self.Panel_damage_view:setVisible(self.damage_test_toggle)
+            self.Panel_damage_view1:hide()
+            self.Panel_damage_view2:hide()
+            self.damageHeroId1 = nil
+            self.damageType1 = nil
+            self.Image_damage_switch_infinite_off:setVisible(not self.damage_test_toggle)
+            self.Image_damage_switch_infinite_on:setVisible(self.damage_test_toggle)
+            self:updateDamageTestView()
+    end)
+
+    self.Button_damage_clear:onClick(function()
+            battleController.clearDamageData()
+            self.Panel_damage_view1:hide()
+            self.Panel_damage_view2:hide()
+            self.Panel_damage_view3:hide()
+            self.damageHeroId1 = nil
+            self.damageType1 = nil
+            self.damageType2 = nil
+            self:updateDamageTestView()
+    end)
+
+    self.Button_damage1:onClick(function()
+            self.Panel_damage_view:show()
+            self.Panel_damage_view1:hide()
+            self.damageHeroId1 = nil
+            self:updateDamageTestView()
+    end)
+
+    self.Button_damage2:onClick(function()
+            self.Panel_damage_view1:show()
+            self.Panel_damage_view2:hide()
+            self.damageType1 = nil
+            self:updateDamageView1()
+    end)
+
+    self.Button_damage3:onClick(function()
+            self.Panel_damage_view2:show()
+            self.Panel_damage_view3:hide()
+            self.damageType2 = nil
+            self:updateDamageView2()
     end)
 
     self.Button_endlessBuff_open:onClick(function()
@@ -1639,6 +1990,29 @@ function BattleView:registerEvents()
     --     end)
 
     EventMgr:addEventListener(self,"applicationDidEnterBackground", handler(self.onApplicationDidEnterBackground, self))
+
+
+    if GameConfig.Debug and TFDirector.registerKeyDown then
+        self.portDamageFunc = function ()
+            if TFDirector.EditorModel then
+                return 
+            end
+            if tipsView then
+                AlertManager:closeLayer(tipsView)
+                tipsView = nil
+            end
+            
+            tipsView = requireNew("lua.logic.common.ConfirmBoxView"):new()
+            tipsView:setContent("确定导出当前伤害数据吗？")
+            tipsView:setCallback(function( )
+                self:portDamageData()
+                AlertManager:close()
+            end)
+            AlertManager:addLayer(tipsView)
+            AlertManager:show()
+        end
+        TFDirector:registerKeyDown(119, {nGap = 500}, self.portDamageFunc)
+    end
 end
 
 
@@ -1844,9 +2218,9 @@ function BattleView:onFuncStateChange(func)
     end
 end
 
-function BattleView:onFixCameraZ(time,fixZ)
+function BattleView:onFixCameraZ(id,time,fixZ)
     if self.camera then
-        self.camera:setFixZ(time,fixZ)
+        self.camera:setFixZ(id,time,fixZ)
     end
 end
 
@@ -2282,10 +2656,11 @@ function BattleView:onBossChange(hero)
         end
 
         self.bossNode.label_name:setText(hero:getName())
-        local affixData = hero:getAffixData()
-        if affixData then
+        local affixDatas = hero:getAffixData()
+        if affixDatas and #affixDatas > 0 then
+            local icons = hero:getAffixDataIcons()
             for index, imageAffix in ipairs(self.bossNode.imageAffixs) do
-                local affixIcon = affixData["affixIcon"..index]
+                local affixIcon = icons[index]
                 if ResLoader.isValid(affixIcon) then 
                     if imageAffix._texture ~= affixIcon then  --保存纹理路径避免重复setTexture
                         imageAffix:show()
@@ -2402,13 +2777,14 @@ end
 function BattleView:timeUpdate()
     local victoryDecide = battleController.getVictoryDecide()
     if victoryDecide.nViewType == EC_LevelPassCond.HALLOWEEN_DESTORY then  -- (万圣节活动-歼灭模式)
-        local millisecond = math.floor(math.floor(self.statistics_.time)%1000*0.1)
+        local millisecond = math.floor(math.floor(self.statistics_.time)%1000)
         local _, hour, min, sec = Utils:getDHMS(self.statistics_.time*0.001, true)
+        local milsec = string.format("%.3d", millisecond)
         local score = victoryDecide.getScore()
         if score < 100 then
-            self.image_halloween_1.label_time:setText(string.format("%s:%s" , min, sec ))
+            self.image_halloween_1.label_time:setText(string.format("%s:%s:%s" , min, sec ,milsec))
         else
-            self.image_halloween_2.label_time:setText(string.format("%s:%s" , min, sec ))
+            self.image_halloween_2.label_time:setText(string.format("%s:%s:%s" , min, sec ,milsec))
         end
     elseif victoryDecide.nViewType == EC_LevelPassCond.LIMIT_TIME_KILL 
         or victoryDecide.nViewType == EC_LevelPassCond.SCORE3
@@ -2442,6 +2818,13 @@ function BattleView:timeUpdate()
         percent = math.max(0,percent)
         self.Panel_combo.loadingBar_time:setPercent(percent)
     end
+    if self.damage_test_toggle then
+        self.damageTestTime = self.damageTestTime + 1
+        if self.damageTestTime > 120 then
+            self.damageTestTime = 0
+            self:updateDamageTestView()
+        end
+    end
 end
 
 
@@ -2461,6 +2844,9 @@ function BattleView:gameRun(deltaTime)
         self:timeUpdate()
         --模糊效果处理
         self:handleShader(deltaTime)
+        if self.musicGameView then
+            self.musicGameView:update(deltaTime*0.001)
+        end
     else
         BattleMgr.loop(deltaTime*0.001)
         -- print("is not run.................")
@@ -2572,9 +2958,16 @@ function BattleView:showAddTime(time)
     }
     add_time:runAction(Sequence:create(actions))
 end
-function BattleView:onReviveSuccess()
-    print("onReviveSuccess=======================>>>.")
-    self.keyBoard:hideRevive()
+function BattleView:onReviveSuccess(isSuccess)
+    if not isSuccess then
+        isSuccess = true
+    end
+    if isSuccess then
+        print("onReviveSuccess=======================>>>.")
+        self.keyBoard:hideRevive()
+    else
+        self.keyBoard:showRevive()
+    end
 end
 
 
@@ -3612,5 +4005,566 @@ function BattleView:specialKeyBackLogic( )
     GuideDataMgr:setPlotLvlBackState(true)
     return false
 end
+
+
+
+--伤害测试
+--------------------------------------------------------------------------------------
+function BattleView:updateDamageTestView()
+    if not BattleConfig.DAMAGE_TEST or not self.damage_test_toggle then
+        self.Panel_damage_view:setVisible(false)
+        return
+    end
+    self:updateDamageView1()
+    self:updateDamageView2()
+    self:updateDamageView3()
+    if not self.Panel_damage_view:isVisible() then
+        return
+    end
+    local offset = self.ScrollView_damage:getContentOffset()
+    self.ListView_damage:removeAllItems()
+    local heroPercent = {}
+    local heroDamage = {}
+    local totalValue = 0
+    local damageData = battleController.getDamageData()
+    for heroId,data in pairs(damageData) do
+        local panel = TFPanel:create()
+        panel:setSize(CCSizeMake(600,50))
+        panel:setAnchorPoint(ccp(0,0.5))
+        self.ListView_damage:pushBackCustomItem(panel)
+        local heroNameLabel = self.Label_damage_text:clone()
+        heroNameLabel:setText(HeroDataMgr:getNameById(tonumber(heroId)))
+        heroNameLabel:setAnchorPoint(ccp(0, 0.5))
+        heroNameLabel:setPosition(ccp(5,0))
+        heroNameLabel:setFontSize(24)
+        panel:addChild(heroNameLabel)
+
+        local damageLabel = self.Label_damage_text:clone()
+        damageLabel:setText(tostring(data[100]))
+        damageLabel:setAnchorPoint(ccp(0.5, 0.5))
+        damageLabel:setPosition(ccp(380,0))
+        panel:addChild(damageLabel)
+        local percentLabel = self.Label_damage_text:clone()
+        percentLabel:setAnchorPoint(ccp(0.5, 0.5))
+        percentLabel:setPosition(ccp(510,0))
+        panel:addChild(percentLabel)
+        panel:setTouchEnabled(true)
+        panel:onClick(function()
+            self.Panel_damage_view:hide()
+            self.Panel_damage_view1:show()
+            self.damageHeroId1 = heroId
+            self:updateDamageView1()
+        end)
+        heroPercent[heroId] = percentLabel
+        local damage = data[100]
+        heroDamage[heroId] = damage
+        totalValue = totalValue + damage
+        local sortData = {}
+        for hurtType,v in pairs(data) do
+            if tonumber(hurtType) < 99 then
+                local info = {}
+                info.type = hurtType
+                info.times = v.times
+                info.value = v.value
+                table.insert(sortData, info)
+            end
+        end
+        table.sort(sortData, function(a, b)
+            return tonumber(a.type) < tonumber(b.type)
+        end)
+        local spliPanel
+        for i,info in ipairs(sortData) do
+            if tonumber(info.type) > 3 and not spliPanel then
+                spliPanel = TFPanel:create()
+                spliPanel:setSize(CCSizeMake(600,15))
+                spliPanel:setAnchorPoint(ccp(0,0.5))
+                self.ListView_damage:pushBackCustomItem(spliPanel)
+            end
+            local panel1 = TFPanel:create()
+            panel1:setSize(CCSizeMake(600,50))
+            panel1:setAnchorPoint(ccp(0,0.5))
+            self.ListView_damage:pushBackCustomItem(panel1)
+            local hurtTypeLabel = self.Label_damage_text:clone()
+            hurtTypeLabel:setText(self:getHurtTypeName(tonumber(info.type)))
+            hurtTypeLabel:setAnchorPoint(ccp(0, 0.5))
+            hurtTypeLabel:setPosition(ccp(5,0))
+            panel1:addChild(hurtTypeLabel)
+            local timesLabel = self.Label_damage_text:clone()
+            timesLabel:setText(info.times)
+            timesLabel:setAnchorPoint(ccp(0.5, 0.5))
+            timesLabel:setPosition(ccp(250,0))
+            panel1:addChild(timesLabel)
+            local hurtLabel = self.Label_damage_text:clone()
+            hurtLabel:setText(info.value)
+            hurtLabel:setAnchorPoint(ccp(0.5, 0.5))
+            hurtLabel:setPosition(ccp(380,0))
+            panel1:addChild(hurtLabel)
+            local percentLabel = self.Label_damage_text:clone()
+            percentLabel:setText(string.format("%.2f", (info.value / damage * 100)).."%")
+            percentLabel:setAnchorPoint(ccp(0.5, 0.5))
+            percentLabel:setPosition(ccp(510,0))
+            panel1:addChild(percentLabel)
+        end
+        local panel2 = TFPanel:create()
+        panel2:setSize(CCSizeMake(600,50))
+        panel2:setAnchorPoint(ccp(0,0.5))
+        self.ListView_damage:pushBackCustomItem(panel2)
+    end
+    for heroId,label in pairs(heroPercent) do
+        label:setText(string.format("%.2f", (heroDamage[heroId] / totalValue * 100)).."%")
+    end
+    self.ScrollView_damage:setContentOffset(offset,0)
+end
+
+function BattleView:updateDamageView1(heroId)
+    if not BattleConfig.DAMAGE_TEST or not self.Panel_damage_view1:isVisible() or not self.damageHeroId1 then
+        return
+    end
+    
+    self.ListView_damage1:removeAllItems()
+    self.Panel_damage_percent1:removeAllChildren()
+    local damageData = battleController.getDamageData()
+    for heroId,data in pairs(damageData) do
+        if self.damageHeroId1 == heroId then
+            for hurtType,hurtData in pairs(data) do
+                local damage = data[100]
+                if tonumber(hurtType) == 99 then
+                    local sortData = {}
+                    for damageType,info in pairs(hurtData) do
+                        local data1 = {}
+                        data1.type = damageType
+                        data1.times = 0
+                        data1.value = 0
+                        for k,v in pairs(info) do
+                            data1.times = data1.times + v.times
+                            data1.value = data1.value + v.value
+                        end
+                        table.insert(sortData, data1)
+                    end
+                    table.sort(sortData, function(a, b)
+                        return a.value > b.value
+                    end)
+                    local angle = 0
+                    local addPercent = 0
+                    for i,info in ipairs(sortData) do
+                        local progress = self.LoadingBar_damage:clone()
+                        self.Panel_damage_percent1:addChild(progress)
+                        local percent = info.value / damage
+                        local floorPercent = math.floor(percent * 100)
+                        if i == #sortData then
+                            floorPercent = 100 - addPercent
+                        end
+                        progress:setPercent(floorPercent)
+                        addPercent = addPercent + floorPercent
+                        progress:setRotation(angle)
+                        angle = addPercent / 100 * 360
+                        local color = self:getDamegeColor(i)
+                        progress:setColor(color)
+
+                        local panel1 = TFPanel:create()
+                        panel1:setSize(CCSizeMake(500,50))
+                        panel1:setAnchorPoint(ccp(0,0.5))
+                        self.ListView_damage1:pushBackCustomItem(panel1)
+
+
+                        local image = TFImage:create("ui/guide/mask_1.png")
+                        image:setScale(0.1)
+                        image:setColor(color)
+                        image:setPosition(ccp(15,0))
+                        panel1:addChild(image)
+                        local damageTypeLabel = self.Label_damage_text:clone()
+                        damageTypeLabel:setText(self:getDamageTypeName(tonumber(info.type)))
+                        damageTypeLabel:setAnchorPoint(ccp(0, 0.5))
+                        damageTypeLabel:setPosition(ccp(30,0))
+                        panel1:addChild(damageTypeLabel)
+                        local timesLabel = self.Label_damage_text:clone()
+                        timesLabel:setText(info.times)
+                        timesLabel:setAnchorPoint(ccp(0.5, 0.5))
+                        timesLabel:setPosition(ccp(185,0))
+                        panel1:addChild(timesLabel)
+                        local hurtLabel = self.Label_damage_text:clone()
+                        hurtLabel:setText(info.value)
+                        hurtLabel:setAnchorPoint(ccp(0.5, 0.5))
+                        hurtLabel:setPosition(ccp(325,0))
+                        panel1:addChild(hurtLabel)
+                        local percentLabel = self.Label_damage_text:clone()
+                        percentLabel:setText(string.format("%.2f", (percent * 100)).."%")
+                        percentLabel:setAnchorPoint(ccp(0.5, 0.5))
+                        percentLabel:setPosition(ccp(465,0))
+                        panel1:addChild(percentLabel)
+                        panel1:setTouchEnabled(true)
+                        panel1:onClick(function()
+                            self.Panel_damage_view1:hide()
+                            self.Panel_damage_view2:show()
+                            self.damageType1 = info.type
+                            self:updateDamageView2()
+                        end)
+                    end
+                end
+            end
+        end
+    end
+end
+
+function BattleView:updateDamageView2()
+    if not BattleConfig.DAMAGE_TEST or not self.Panel_damage_view2:isVisible() or not self.damageType1 then
+        return
+    end
+    
+    self.ListView_damage2:removeAllItems()
+    self.Panel_damage_percent2:removeAllChildren()
+    local damageData = battleController.getDamageData()
+    for heroId,data in pairs(damageData) do
+        if self.damageHeroId1 == heroId then
+            for hurtType,hurtData in pairs(data) do
+                if tonumber(hurtType) == 99 then
+                    for damageType,data1 in pairs(hurtData) do
+                        if damageType == self.damageType1 then
+                            local sortData = {}
+                            local damage = 0
+                            for hurtId,v in pairs(data1) do
+                                local data2 = {}
+                                data2.hurtId = hurtId
+                                data2.times = v.times
+                                data2.value = v.value
+                                damage = damage + v.value
+                                table.insert(sortData, data2)
+                            end
+                            table.sort(sortData, function(a, b)
+                                return a.value > b.value
+                            end)
+                            local angle = 0
+                            local addPercent = 0
+                            for i,hurtData in ipairs(sortData) do
+                                local progress = self.LoadingBar_damage:clone()
+                                self.Panel_damage_percent2:addChild(progress)
+                                local percent = hurtData.value / damage
+                                local floorPercent = math.floor(percent * 100)
+                                if i == #sortData then
+                                    floorPercent = 100 - addPercent
+                                end
+                                progress:setPercent(floorPercent)
+                                addPercent = addPercent + floorPercent
+                                progress:setRotation(angle)
+                                angle = addPercent / 100 * 360
+                                local color = self:getDamegeColor(i)
+                                progress:setColor(color)
+
+                                local panel1 = TFPanel:create()
+                                panel1:setSize(CCSizeMake(500,60))
+                                panel1:setAnchorPoint(ccp(0,0.5))
+                                self.ListView_damage2:pushBackCustomItem(panel1)
+
+                                local image = TFImage:create("ui/guide/mask_1.png")
+                                image:setScale(0.1)
+                                image:setColor(color)
+                                image:setPosition(ccp(15,0))
+                                panel1:addChild(image)
+
+                                local damageTypeLabel = self.Label_damage_text:clone()
+                                damageTypeLabel:setText(self:getSkillHurtName(tonumber(hurtData.hurtId), damageType))
+                                damageTypeLabel:setAnchorPoint(ccp(0, 0.5))
+                                damageTypeLabel:setPosition(ccp(30,0))
+                                damageTypeLabel:setDimensions(220, 0)
+                                panel1:addChild(damageTypeLabel)
+                                
+                                local timesLabel = self.Label_damage_text:clone()
+                                timesLabel:setText(hurtData.times)
+                                timesLabel:setAnchorPoint(ccp(0.5, 0.5))
+                                timesLabel:setPosition(ccp(265,0))
+                                panel1:addChild(timesLabel)
+                                local hurtLabel = self.Label_damage_text:clone()
+                                hurtLabel:setText(hurtData.value)
+                                hurtLabel:setAnchorPoint(ccp(0.5, 0.5))
+                                hurtLabel:setPosition(ccp(365,0))
+                                panel1:addChild(hurtLabel)
+                                local percentLabel = self.Label_damage_text:clone()
+                                percentLabel:setText(string.format("%.2f", (hurtData.value / damage * 100)).."%")
+                                percentLabel:setAnchorPoint(ccp(0.5, 0.5))
+                                percentLabel:setPosition(ccp(465,0))
+                                panel1:addChild(percentLabel)
+
+                                panel1:setTouchEnabled(true)
+                                panel1:onClick(function()
+                                    self.Panel_damage_view2:hide()
+                                    self.Panel_damage_view3:show()
+                                    self.damageType2 = hurtData.hurtId
+                                    self:updateDamageView3()
+                                end)
+                            end
+                        end
+                    end
+                end
+            end
+        end
+    end
+end
+
+function BattleView:updateDamageView3()
+    if not BattleConfig.DAMAGE_TEST or not self.Panel_damage_view3:isVisible() or not self.damageType2 then
+        return
+    end
+    
+    self.ListView_damage3:removeAllItems()
+    local damageData = battleController.getDamageData()
+    for heroId,data in pairs(damageData) do
+        if self.damageHeroId1 == heroId then
+            for hurtType,hurtData in pairs(data) do
+                if tonumber(hurtType) == 99 then
+                    for damageType,data1 in pairs(hurtData) do
+                        if damageType == self.damageType1 then
+                            for k,data2 in pairs(data1) do
+                                if k == self.damageType2 then
+                                    local panel = TFPanel:create()
+                                    panel:setSize(CCSizeMake(600,60))
+                                    panel:setAnchorPoint(ccp(0,0.5))
+                                    self.ListView_damage3:pushBackCustomItem(panel)
+
+                                    local damageTypeLabel = self.Label_damage_text:clone()
+                                    damageTypeLabel:setText(self:getSkillHurtName(tonumber(k), damageType))
+                                    damageTypeLabel:setAnchorPoint(ccp(0, 0.5))
+                                    damageTypeLabel:setPosition(ccp(5,0))
+                                    panel:addChild(damageTypeLabel)
+
+                                    local sortData = {}
+                                    local damage = data2.value
+                                    for hType,v in pairs(data2.hurtData) do
+                                        local data3 = {}
+                                        data3.hType = hType
+                                        data3.times = v.times
+                                        data3.value = v.value
+                                        table.insert(sortData, data3)
+                                    end
+                                    table.sort(sortData, function(a, b)
+                                        return a.value > b.value
+                                    end)
+                                    for i,hurtInfo in ipairs(sortData) do
+                                        local panel1 = TFPanel:create()
+                                        panel1:setSize(CCSizeMake(600,60))
+                                        panel1:setAnchorPoint(ccp(0,0.5))
+                                        self.ListView_damage3:pushBackCustomItem(panel1)
+
+                                        local hurtTypeLabel = self.Label_damage_text:clone()
+                                        hurtTypeLabel:setText(self:getHurtTypeName(tonumber(hurtInfo.hType)))
+                                        hurtTypeLabel:setAnchorPoint(ccp(0, 0.5))
+                                        hurtTypeLabel:setPosition(ccp(5,0))
+                                        hurtTypeLabel:setDimensions(220, 0)
+                                        panel1:addChild(hurtTypeLabel)
+                                        
+                                        local timesLabel = self.Label_damage_text:clone()
+                                        timesLabel:setText(hurtInfo.times)
+                                        timesLabel:setAnchorPoint(ccp(0.5, 0.5))
+                                        timesLabel:setPosition(ccp(250,0))
+                                        panel1:addChild(timesLabel)
+                                        local hurtLabel = self.Label_damage_text:clone()
+                                        hurtLabel:setText(hurtInfo.value)
+                                        hurtLabel:setAnchorPoint(ccp(0.5, 0.5))
+                                        hurtLabel:setPosition(ccp(380,0))
+                                        panel1:addChild(hurtLabel)
+                                        local percentLabel = self.Label_damage_text:clone()
+                                        percentLabel:setText(string.format("%.2f", (hurtInfo.value / damage * 100)).."%")
+                                        percentLabel:setAnchorPoint(ccp(0.5, 0.5))
+                                        percentLabel:setPosition(ccp(510,0))
+                                        panel1:addChild(percentLabel)
+                                    end
+                                    break
+                                end
+                            end
+                            break
+                        end
+                    end
+                end
+            end
+        end
+    end
+end
+
+local damageColor = {ccc3(255,0,0),ccc3(0,255,0),ccc3(0,0,255),ccc3(128,0,128),ccc3(255,165,0),ccc3(255,255,0),ccc3(0,0,0),ccc3(0,128,128),ccc3(65,105,225),ccc3(160,82,45),}
+function BattleView:getDamegeColor(idx)
+    return damageColor[idx] or ccc3(0,0,0)
+end
+
+function BattleView:getSkillHurtName(hurtId, damageType)
+    if tonumber(damageType) == 888 then
+        local buffer = TabDataMgr:getData("Buffer",hurtId)
+        return buffer and buffer.name or ""
+    else
+        return TabDataMgr:getData("SkillHurt",hurtId).name
+    end
+end
+
+function BattleView:getHurtTypeName(hurtType)
+    if hurtType == 1 then
+        return "物理伤害"
+    elseif hurtType == 2 then
+        return "元素伤害"
+    elseif hurtType == 3 then
+        return "buff伤害"
+    elseif hurtType == 11 then
+        return "普通伤害"
+    elseif hurtType == 12 then
+        return "暴击伤害"
+    elseif hurtType == 13 then
+        return "穿透伤害"
+    elseif hurtType == 14 then
+        return "暴击穿透"
+    elseif hurtType == 15 then
+        return "未命中"
+    else
+        return "普通伤害"
+    end
+end
+
+function BattleView:getDamageTypeName(damageType)
+    if damageType == eDamageType.PT then
+        return "普攻"
+    elseif damageType == eDamageType.FZ then
+        return "技能1"
+    elseif damageType == eDamageType.XL then
+        return "技能2"
+    elseif damageType == eDamageType.CCJ then
+        return "出场技"
+    elseif damageType == eDamageType.DZ then
+        return "必杀"
+    elseif damageType == eDamageType.JX then
+        return "觉醒"
+    elseif damageType == eDamageType.EXTRA_SKILL_1 then
+        return "额外技能1"
+    elseif damageType == eDamageType.EXTRA_SKILL_2 then
+        return "额外技能2"
+    elseif damageType == eDamageType.EXTRA_SKILL_3 then
+        return "额外技能3"
+    elseif damageType == eDamageType.EXTRA_SKILL_4 then
+        return "额外技能4"
+    elseif damageType == 888 then
+        return "BUFF伤害"
+    else
+        return "普攻"
+    end
+end
+
+function BattleView:portDamageData()
+    if not BattleConfig.DAMAGE_TEST then
+        return
+    end
+    local function getCharLength(str)
+        str = str or ""
+        local strLength = 0
+        local len = string.len(str)
+        while str do
+            local fontUTF = string.byte(str,1)
+            if fontUTF == nil then
+                break
+            end
+            if fontUTF > 127 then 
+                local tmp = string.sub(str,1,3)
+                strLength = strLength + 2
+                str = string.sub(str,4,len)
+            else
+                local tmp = string.sub(str,1,1)
+                strLength = strLength + 1
+                str = string.sub(str,2,len)
+            end
+        end
+        return strLength
+    end
+    local snap = {}
+    snap[1] = " "
+    for i=2,50 do
+        snap[i] = snap[i - 1].." "
+    end
+    local str = "名称"..snap[46].."伤害次数"..snap[12].."伤害总量"..snap[12].."百分比\n"
+    local damageData = battleController.getDamageData()
+    local totalValue = 0
+    for k,v in pairs(damageData) do
+        totalValue = totalValue + v[100]
+    end
+    for heroId,data in pairs(damageData) do
+        local damage = data[100]
+        local name1 = HeroDataMgr:getNameById(tonumber(heroId))
+        str = str..name1..snap[50 - getCharLength(name1)]..snap[20]..tostring(data[100])..snap[20 - getCharLength(tostring(data[100]))]..string.format("%.2f", (damage / totalValue * 100)).."%\n"
+        
+        local sortData = {}
+        for hurtType,v in pairs(data) do
+            if tonumber(hurtType) < 99 then
+                local info = {}
+                info.type = hurtType
+                info.times = v.times
+                info.value = v.value
+                table.insert(sortData, info)
+            end
+        end
+        table.sort(sortData, function(a, b)
+            return tonumber(a.type) < tonumber(b.type)
+        end)
+        local flag = true 
+        for i,info in ipairs(sortData) do
+            if tonumber(info.type) > 3 and flag then
+                flag = false
+                str = str.."\n"
+            end
+            local name2 = self:getHurtTypeName(tonumber(info.type))
+            str = str..name2..snap[50 - getCharLength(name2)]..info.times..snap[20 - getCharLength(tostring(info.times))]..info.value..snap[20 - getCharLength(tostring(info.value))]..string.format("%.2f", (info.value / damage * 100)).."%\n"
+        end
+        str = str.."\n"
+        local sortData1 = {}
+        for damageType,info in pairs(data[99]) do
+            local data2 = {}
+            data2.type = damageType
+            data2.times = 0
+            data2.value = 0
+            for k,v in pairs(info) do
+                data2.times = data2.times + v.times
+                data2.value = data2.value + v.value
+            end
+            table.insert(sortData1, data2)
+        end
+        table.sort(sortData1, function(a, b)
+            return a.value > b.value
+        end)
+        for i,info in ipairs(sortData1) do
+            local percent = info.value / damage
+            local name3 = self:getDamageTypeName(tonumber(info.type))
+            str = str..name3..snap[50 - getCharLength(name3)]..info.times..snap[20 - getCharLength(tostring(info.times))]..info.value..snap[20 - getCharLength(tostring(info.value))]..string.format("%.2f", (percent * 100)).."%\n"
+        end
+        str = str.."\n"
+        for damageType,info in pairs(data[99]) do
+            local sortData2 = {}
+            local damage = 0
+            for hurtId,v in pairs(info) do
+                local data3 = {}
+                data3.hurtId = hurtId
+                data3.times = v.times
+                data3.value = v.value
+                data3.hurtData = v.hurtData
+                damage = damage + v.value
+                table.insert(sortData2, data3)
+            end
+            table.sort(sortData2, function(a, b)
+                return a.value > b.value
+            end)
+            for i,hurtData in ipairs(sortData2) do
+                local percent = hurtData.value / damage
+                local name4 = self:getSkillHurtName(tonumber(hurtData.hurtId), damageType)
+                str = str..name4..snap[50 - getCharLength(name4)]..hurtData.times..snap[20 - getCharLength(tostring(hurtData.times))]..hurtData.value..snap[20 - getCharLength(tostring(hurtData.value))]..string.format("%.2f", (percent * 100)).."%\n"
+                for hType,hurt in pairs(hurtData.hurtData) do
+                    local name5 = self:getHurtTypeName(tonumber(hType))
+                    str = str..name5..snap[50 - getCharLength(name5)]..hurt.times..snap[20 - getCharLength(tostring(hurt.times))]..hurt.value..snap[20 - getCharLength(tostring(hurt.value))]..string.format("%.2f", (hurt.value / hurtData.value * 100)).."%\n"
+                end
+            end
+            str = str.."\n"
+        end
+        str = str.."\n"
+    end
+    local filePath = me.FileUtils:getWritablePath() .. 'cacheData/testDamageData/'
+    if TFFileUtil:existFile(filePath) == false then
+        TFFileUtil:createDir(filePath)
+    end
+    local playerId = MainPlayer:getPlayerId()
+    local path = string.format("%s%s.txt", filePath,playerId)
+    io.writefile(path, string.format("%s-------------------------------------------------------------------------------- \n%s\n\n", os.date(), str), "a+")
+end
+
+--伤害测试--------------------------------------------------------------------------------------------
 
 return BattleView

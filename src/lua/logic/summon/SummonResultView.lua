@@ -181,20 +181,32 @@ function SummonResultView:doComplete()
     self.Panel_mask_all:hide()
     self.Button_open:hide()
 
+    local function runActionFunc(obj, id, num)
+        local aniSeq = Sequence:create({
+            RotateBy:create(0.5, {x = 0, y = 360, z = 0}),
+            CallFunc:create(function()
+                    PrefabDataMgr:setInfo(obj, id, num)
+            end)
+        })
+        obj:runAction(aniSeq)
+    end
+
     for i, site in ipairs(self.rewardItem_) do
         local reward = self.reward_[i]
         local itemCfg = GoodsDataMgr:getItemCfg(reward.id)
+        local item = self.Panel_reward[site]
         if itemCfg.superType == EC_ResourceType.HERO then
             if SummonDataMgr:isHaveHero(reward.id) then
                 local convert = itemCfg.convert[1]
-                local item = self.Panel_reward[site]
-                local aniSeq = Sequence:create({
-                        RotateBy:create(0.5, {x = 0, y = 360, z = 0}),
-                        CallFunc:create(function()
-                                PrefabDataMgr:setInfo(item.Panel_goodsItem, convert[1], convert[2])
-                        end)
-                })
-                item.Panel_goodsItem:runAction(aniSeq)
+                runActionFunc(item.Panel_goodsItem, convert[1], convert[2])
+            end
+        else
+            local count = SummonDataMgr:getItemOldNum(reward.id)
+            print("sw+++++++++++++++++++++++",reward.id,":",count)
+            local isOverflow = count >= itemCfg.totalMax
+            if table.count(itemCfg.convertMax) ~= 0 and isOverflow then
+                local convertId, num = next(itemCfg.convertMax)
+                runActionFunc(item.Panel_goodsItem, convertId, num)
             end
         end
     end
@@ -445,6 +457,7 @@ end
 function SummonResultView:isHighQuality(index)
     local reward = self.reward_[index]
     local itemCfg = GoodsDataMgr:getItemCfg(reward.id)
+    local superItem = Utils:getKVP(90034,"item",{})
     local isHighQuality = false
     if itemCfg.superType == EC_ResourceType.HERO then
         isHighQuality = itemCfg.rarity >= EC_ItemQuality.GREEN
@@ -456,6 +469,10 @@ function SummonResultView:isHighQuality(index)
         isHighQuality = itemCfg.quality >= EC_ItemQuality.BLUE
     elseif itemCfg.superType == EC_ResourceType.REWARD then
         isHighQuality = itemCfg.quality >= EC_ItemQuality.BLUE
+    end
+
+    if table.find(superItem,reward.id) ~= -1 then --策划添加特殊道具id 显示金色 不判断道具类型
+        isHighQuality = true
     end
     return isHighQuality
 end
@@ -542,6 +559,7 @@ end
 
 function SummonResultView:onClose()
     SummonDataMgr:resetAlreadyHaveHero()
+    SummonDataMgr:resetAlreadyHaveItem()
 end
 
 function SummonResultView:specialKeyBackLogic( )

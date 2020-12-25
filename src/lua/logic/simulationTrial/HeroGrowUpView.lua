@@ -12,14 +12,6 @@ local GROWUP_TYPE =
 
 local TAB_INDEX = { 1,3,4,2,5  }
 -- local CHAPTERS  = { 500002 , 500003 }
-local ResConfig = 
-{ 
-    [110211] = {ui = "lua.uiconfig.fuben.simulationTrialGrowUpView" },
-    [111411] = {ui = "lua.uiconfig.fuben.simulationTrialGrowUpView3"},
-    [111511] = {ui = "lua.uiconfig.fuben.simulationTrialGrowUpView2"},
-    [110113] = {ui = "lua.uiconfig.fuben.simulationTrialGrowUpView4",skeleton_default = true},
-    [110414] = {ui = "lua.uiconfig.fuben.simulationTrialGrowUpView5",skeleton_default = true}
-}
 local function createDelayShowAction(time)
     return Sequence:create({
                 DelayTime:create(time),
@@ -29,8 +21,12 @@ end
 
 function HeroGrowUpView:initData(rewards)
     self.heroId    = FubenDataMgr:getSelectSimulationHeroId() or 110211
-    self.resConfig = ResConfig[self.heroId] 
-
+    local cfg = FubenDataMgr:getSimulationTrialCfg(self.heroId)
+    if not cfg then
+        Box("no heroId "..tostring(self.heroId).." in SimulationTrialHigh")
+        return
+    end
+    self.resConfig = cfg.heroGrowUp
 --     rewards = {
 --     {id=599801},
 --     {id=599802},
@@ -110,7 +106,7 @@ function HeroGrowUpView:ctor(...)
     self.super.ctor(self)
     self:initData(...)
     -- self:showPopAnim(true)
-    self:init(self.resConfig.ui)
+    self:init("lua.uiconfig."..self.resConfig.ui)
 end
 
 function HeroGrowUpView:initUI(ui)

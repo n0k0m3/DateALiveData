@@ -10,6 +10,7 @@ local TriggerType = {
 	DieCounterTrigger = "DieCounterTrigger",
 	HPTrigger = "HPTrigger",
 	RegionTrigger = "RegionTrigger",
+	DamageTrigger = "DamageTrigger",
 	AliveCounterTrigger = "AliveCounterTrigger",
 	TimerTrigger = "TimerTrigger",
 	MultConditionTrigger = "MultConditionTrigger",
@@ -255,6 +256,14 @@ function EventTrigger:_onChangePos(hero)
 	end
 end
 
+function EventTrigger:_onMakeDamage()
+	for k,v in ipairs(self.triggerOrderList) do
+		if v.cfg.type == "DamageTrigger" and v.cfg.Active == true then
+			v:checkFunc()
+		end
+	end
+end
+
 function EventTrigger:initTrigger()
 	for k,v in pairs(self.mapInfo.triggers) do
 		if v.type == TriggerType.DieCounterTrigger then
@@ -271,6 +280,8 @@ function EventTrigger:initTrigger()
 			self:makeMultTrigger(v)
 		elseif v.type == TriggerType.TeamAliveTimerTrigger then
 			-- self:makeTeamAliveTimerTrigger(v)
+		elseif v.type == TriggerType.DamageTrigger then
+			self:makeDamageTrigger(v)
 		else
 			if v.type == "GroupTrigger" then
 				self.groupList[v.ID] = v.List
@@ -465,6 +476,61 @@ function EventTrigger:makeDieTrigger(cfg)
 	self.triggerOrderList[#self.triggerOrderList + 1] = tmTrigger
 end
 
+function EventTrigger:makeDamageTrigger(cfg)
+	local tmTrigger = {cfg = cfg}
+	tmTrigger.checkFunc = function()
+		if tmTrigger.cfg.Active == false then
+			if tmTrigger.timer then
+				BattleTimerManager:removeTimer(tmTrigger.timer)
+				tmTrigger.timer = nil
+			end
+			return
+		end
+		if tmTrigger.cfg.Value <= 0 then
+			return
+		end
+		local hitValue = self.controller.getHitValue()
+		local isMatch = false
+		if tmTrigger.cfg.CompareType == "==" then
+			if hitValue == tmTrigger.cfg.Value then
+				isMatch = true
+			end
+		elseif tmTrigger.cfg.CompareType == ">" then
+			if hitValue > tmTrigger.cfg.Value then
+				isMatch = true
+			end
+		elseif tmTrigger.cfg.CompareType == ">=" then
+			if hitValue >= tmTrigger.cfg.Value then
+				isMatch = true
+			end
+		end
+		if isMatch == true then
+			tmTrigger.cfg.Active = false
+			if tmTrigger.eventFunc and tmTrigger.timer == nil then
+				if tmTrigger.cfg.Duration and tmTrigger.cfg.Duration > 0 then
+					tmTrigger.timer = BattleTimerManager:addTimer(tmTrigger.cfg.Duration,1,function()
+						if tmTrigger.timer then
+							BattleTimerManager:removeTimer(tmTrigger.timer)
+							tmTrigger.timer = nil
+						end
+						for s,t in ipairs(tmTrigger.eventFunc) do
+							t()
+						end
+					end,nil)
+                else
+                    for s,t in ipairs(tmTrigger.eventFunc) do
+						t()
+					end
+				end
+			end
+		end
+
+	end
+	self:bindCommonEventFunc(tmTrigger)
+	self.triggerList[cfg.ID] = tmTrigger
+	self.triggerOrderList[#self.triggerOrderList + 1] = tmTrigger
+end
+
 function EventTrigger:makeMultTrigger(cfg)
 	local tmTrigger = {cfg = cfg}
 	tmTrigger.checkFunc = function()
@@ -527,32 +593,41 @@ function EventTrigger:makeAliveTrigger(cfg)
 
 			end
 		end
+		local limitCount = tmTrigger.cfg.Count
+		if tmTrigger.cfg.CampNumMax and table.count(tmTrigger.cfg.CampNumMax) > 0 then
+			tmTrigger.count = 0
+			limitCount = 0
+			for camp,num in pairs(tmTrigger.cfg.CampNumMax) do
+				local heros = self.controller.getTeam():getMenbers_(tonumber(camp),1)
+				tmTrigger.count = tmTrigger.count + #heros
+				limitCount = limitCount + num
+			end
+		end
 		local isMatch = false
 		if tmTrigger.cfg.CompareType == "<=" then
-			if tmTrigger.count <= tmTrigger.cfg.Count then
+			if tmTrigger.count <= limitCount then
 				isMatch = true
 			end
 		elseif tmTrigger.cfg.CompareType == "<" then
-			if tmTrigger.count < tmTrigger.cfg.Count then
+			if tmTrigger.count < limitCount then
 				isMatch = true
 			end
 		elseif tmTrigger.cfg.CompareType == "==" then
-			if tmTrigger.count == tmTrigger.cfg.Count then
+			if tmTrigger.count == limitCount then
 				isMatch = true
 			end
 		elseif tmTrigger.cfg.CompareType == ">" then
-			if tmTrigger.count > tmTrigger.cfg.Count then
+			if tmTrigger.count > limitCount then
 				isMatch = true
 			end
 		elseif tmTrigger.cfg.CompareType == ">=" then
-			if tmTrigger.count >= tmTrigger.cfg.Count then
+			if tmTrigger.count >= limitCount then
 				isMatch = true
 			end
 		else
 
 		end
 		if isMatch == true then
-			
 			if tmTrigger.eventFunc and tmTrigger.timer == nil then
 				if tmTrigger.cfg.Duration and tmTrigger.cfg.Duration > 0 then
 					tmTrigger.timer = BattleTimerManager:addTimer(tmTrigger.cfg.Duration,1,function()
@@ -569,6 +644,30 @@ function EventTrigger:makeAliveTrigger(cfg)
                 	tmTrigger.cfg.Active = false
                     for k,v in ipairs(tmTrigger.eventFunc) do
 						v()
+					end
+				end
+			end
+		else
+			if tmTrigger.cfg.Loop then
+				if tmTrigger.cfg.Duration and tmTrigger.cfg.Duration > 0 then
+					tmTrigger.timer = BattleTimerManager:addTimer(tmTrigger.cfg.Duration,1,function()
+						if tmTrigger.timer then
+							BattleTimerManager:removeTimer(tmTrigger.timer)
+							tmTrigger.timer = nil
+						end
+						tmTrigger.cfg.Active = false
+						for k,v in pairs(tmTrigger.cfg.Events) do
+							if string.match(v.Class,"Activate") then
+								self:On_OffObj(v.Class,v.TargetID)
+							end
+						end
+					end,nil)
+                else
+                	tmTrigger.cfg.Active = false
+                    for k,v in pairs(tmTrigger.cfg.Events) do
+						if string.match(v.Class,"Activate") then
+							self:On_OffObj(v.Class,v.TargetID)
+						end
 					end
 				end
 			end

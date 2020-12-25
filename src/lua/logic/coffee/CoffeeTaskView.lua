@@ -3,6 +3,7 @@ local CoffeeTaskView = class("CoffeeTaskView", BaseLayer)
 
 function CoffeeTaskView:initData()
     self.taskItems_ = {}
+    self.pages      = {}
 end
 
 function CoffeeTaskView:ctor(...)
@@ -19,29 +20,73 @@ function CoffeeTaskView:initUI(ui)
     self.Panel_prefab = TFDirector:getChildByPath(ui, "Panel_prefab"):hide()
 
     self.Panel_taskItem = TFDirector:getChildByPath(self.Panel_prefab, "Panel_taskItem")
+    self.Pannel_dayItem = TFDirector:getChildByPath(self.Panel_prefab, "Pannel_dayItem")
+    self.Pannel_hourItem = TFDirector:getChildByPath(self.Panel_prefab, "Pannel_hourItem")
 
     local Image_content = TFDirector:getChildByPath(self.Panel_root, "Image_content")
     self.Button_close = TFDirector:getChildByPath(Image_content, "Button_close")
     self.Label_name = TFDirector:getChildByPath(Image_content, "Label_name")
     local ScrollView_task = TFDirector:getChildByPath(Image_content, "ScrollView_task")
     self.ListView_task = UIListView:create(ScrollView_task)
-
-    self:refreshView()
+    self.pannel_log = TFDirector:getChildByPath(Image_content, "pannel_log")
+    local scrollView_log = TFDirector:getChildByPath(self.pannel_log, "ScrollView_log")
+    self.ListView_log = UIListView:create(scrollView_log)
+    self.pannel_noEvent = TFDirector:getChildByPath(self.pannel_log, "pannel_noEvent")
+    self.panelTapBtns = TFDirector:getChildByPath(Image_content, "panelTapBtns")
+    self.btn_getAllLog = TFDirector:getChildByPath(self.pannel_log, "btn_getAllLog")
+    self:chooseViewByIdx(1)
+    -- self:refreshView()
 end
 
-function CoffeeTaskView:refreshView()
-    self.Label_name:setTextById(13210008)
+-- function CoffeeTaskView:refreshView()
+--     -- self.Label_name:setTextById(13210008)
 
-    self:updateAllTaskItem()
-end
+--     self:updateAllTaskItem()
+-- end
 
 function CoffeeTaskView:registerEvents()
     EventMgr:addEventListener(self, EV_ACTIVITY_SUBMIT_SUCCESS, handler(self.onSubmitSuccessEvent, self))
     EventMgr:addEventListener(self, EV_ACTIVITY_UPDATE_PROGRESS, handler(self.onUpdateProgressEvent, self))
+    EventMgr:addEventListener(self, EV_COFFEE_UPDATE_LOG, handler(self.updateAllLogItem, self))
+
+    for i, btn in ipairs(self.panelTapBtns:getChildren()) do
+        btn:onClick(function()
+            self:chooseViewByIdx(i)
+        end)
+    end
 
     self.Button_close:onClick(function()
             AlertManager:closeLayer(self)
     end)
+
+    self.btn_getAllLog:onClick(function()
+        if not CoffeeDataMgr:isGetAllLogReward() then
+            CoffeeDataMgr:send_MAID_ACTIVITY_REQ_GET_MAID_EVENT_AWARD(0)
+        else
+            Utils:showTips(219038)
+        end
+    end)
+end
+
+function CoffeeTaskView:chooseViewByIdx(idx)
+    for i, btn in ipairs(self.panelTapBtns:getChildren()) do
+        local imgSelect = btn:getChildByName("imgSelect")
+        imgSelect:setVisible(idx == i)
+    end
+
+    if not self.pages[idx] then
+        if idx == 1 then
+            self:updateAllTaskItem()
+            self.pages[idx] = self.ListView_task
+        elseif idx == 2 then
+            self:updateAllLogItem()
+            self.pages[idx] = self.pannel_log
+        end
+    end
+    for k, v in pairs(self.pages) do
+        v:setVisible(k == idx)
+    end 
+    
 end
 
 function CoffeeTaskView:addTaskItem()
@@ -142,6 +187,87 @@ function CoffeeTaskView:updateAllTaskItem()
         foo.Button_receive:onClick(function()
                 ActivityDataMgr2:send_ACTIVITY_NEW_SUBMIT_ACTIVITY(activityId, taskId)
         end)
+    end
+end
+
+function CoffeeTaskView:_formatImgUrl(str)
+    return "ui/activity/coffee/pop/"..str..".png"
+end
+
+function CoffeeTaskView:updateAllLogItem()
+    self.ListView_log:removeAllItems()
+    local data = CoffeeDataMgr:getEventData()
+    
+    local count = table.count(data)
+    self.pannel_noEvent:setVisible(count == 0)
+    if count == 0 then
+        return
+    end
+
+    for i, v in pairs(data) do
+        local dayItem = self.Pannel_dayItem:clone()
+        local data_tmp = v[1]
+
+        local weekDay = os.date("%w",data_tmp.creatAt) -- 星期几
+        weekDay = tonumber(weekDay)
+        local weekConfig = CoffeeDataMgr:getWeekConfigByDay(weekDay == 0 and 7 or weekDay)
+
+        local img_week = TFDirector:getChildByPath(dayItem,"img_week")
+        local lab_time = TFDirector:getChildByPath(dayItem,"lab_time")
+        local img_weather = TFDirector:getChildByPath(dayItem,"img_weather")
+        img_week:setTexture(self:_formatImgUrl(weekConfig.picture[2]))
+        lab_time:setText(Utils:getDateString(data_tmp.creatAt))
+        lab_time:setColor(ccc3(weekConfig.colour[1], weekConfig.colour[2], weekConfig.colour[2]))
+        
+        img_weather:setTexture(self:_formatImgUrl(data_tmp.weather))
+        self.ListView_log:pushBackCustomItem(dayItem)
+
+        for j, _data in ipairs(v) do
+            local eventConfig = TabDataMgr:getData("MaidEvent")[_data.cfgId]
+            local timeTxt = os.date("%H:%M",_data.creatAt)
+
+            local hourItem = self.Pannel_hourItem:clone()
+            local img_scalerY = TFDirector:getChildByPath(hourItem,"img_scalerY")
+            local img_tag = TFDirector:getChildByPath(hourItem,"img_tag")
+            local lab_time = TFDirector:getChildByPath(img_tag,"lab_time")
+            local lab_tipShow = TFDirector:getChildByPath(img_tag,"lab_tipShow")
+            local lab_desc = TFDirector:getChildByPath(hourItem,"lab_desc")
+            local img_reward = TFDirector:getChildByPath(hourItem,"img_reward")
+            local pos = TFDirector:getChildByPath(img_reward,"pos")
+            local img_hadGetted = TFDirector:getChildByPath(img_reward,"img_hadGetted")
+            local pannel_touch = TFDirector:getChildByPath(img_reward,"pannel_touch")
+            img_scalerY:setTexture(self:_formatImgUrl(weekConfig.picture[3]))
+            img_tag:setTexture(self:_formatImgUrl(weekConfig.picture[1]))
+            lab_time:setText(timeTxt)
+            lab_tipShow:setVisible(not _data.reward)
+            img_hadGetted:setVisible(_data.reward)
+            if img_hadGetted:isVisible() then
+                img_reward:setTexture(self:_formatImgUrl("036"))
+            end
+            img_reward:setVisible(false)
+            if _data.rewards and table.count(_data.rewards) ~= 0 then
+                local goodsItem = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
+                PrefabDataMgr:setInfo(goodsItem, _data.rewards[1].id, _data.rewards[1].num)
+                goodsItem:setScale(0.55)
+                goodsItem:AddTo(pos,1):Pos(0,0)
+
+                -- type为3也有可能奖励为空 
+                img_reward:setVisible(eventConfig.eventType == 3)
+                if eventConfig.eventType == 3 then
+                    lab_desc:setDimensions(550,0)
+                end
+
+                pannel_touch:setTouchEnabled(true)
+                if not _data.reward then
+                    pannel_touch:onClick(function()
+                        CoffeeDataMgr:send_MAID_ACTIVITY_REQ_GET_MAID_EVENT_AWARD(_data.id)
+                    end)
+                end
+            end
+            lab_desc:setTextById(eventConfig.describe)
+
+            self.ListView_log:pushBackCustomItem(hourItem)
+        end
     end
 end
 

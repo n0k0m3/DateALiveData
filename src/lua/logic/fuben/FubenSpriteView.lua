@@ -132,7 +132,7 @@ function FubenSpriteView:refreshView()
 
     self.ListView_reward:removeAllItems()
 
-    local multipleReward, extraReward = ActivityDataMgr2:getDropReward(self.levelCfg_.reward)
+    local multipleReward, extraReward, allMultiple = ActivityDataMgr2:getDropReward(self.levelCfg_.reward)
     -- 掉落活动额外掉落
     for i, v in ipairs(extraReward) do
         local Panel_dropGoodsItem = PrefabDataMgr:getPrefab("Panel_dropGoodsItem"):clone()
@@ -150,6 +150,10 @@ function FubenSpriteView:refreshView()
         if multiple then
             flag = bit.bor(flag, EC_DropShowType.ACTIVITY_MULTIPLE)
             arg.multiple = multiple
+        end
+        if allMultiple > 0 then
+            flag = bit.bor(flag, EC_DropShowType.ACTIVITY_MULTIPLE)
+            arg.multiple = allMultiple
         end
         PrefabDataMgr:setInfo(Panel_dropGoodsItem, {v}, flag, arg)
         self.ListView_reward:pushBackCustomItem(Panel_dropGoodsItem)

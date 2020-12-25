@@ -11,6 +11,7 @@ function GoodsDataMgr:init()
     TFDirector:addProto(s2c.ITEM_RES_EXPIRE_ITEM_LIST, self, self.onRecoverItem)
     TFDirector:addProto(s2c.ITEM_RESP_USE_WE_CHAT_ITEM, self, self.onRecvUsePhoneAiItem)
     TFDirector:addProto(s2c.ITEM_SPECIAL_ITEM_USE_PUSH, self, self.onRecvSpecialItemUseP)
+    TFDirector:addProto(s2c.ITEM_UPDATE_DIAMOND_DEBT, self, self.onRecvUpdateDiamondDebt)
 
     self.originGoods_ = {}
     self.items_ = {}
@@ -49,6 +50,7 @@ function GoodsDataMgr:reset()
         self.bag_[v] = {}
     end
     self.baseHerosData = nil
+    self.minusDiamond = nil
 end
 
 function GoodsDataMgr:onEnterMain()
@@ -79,17 +81,35 @@ function GoodsDataMgr:getItemCount(cid, isFormat)
             count = 1
         end
     elseif cfg.superType == EC_ResourceType.MEDAL then
-        local medalid = cfg.useProfit.fix.items[1].id
-        if cfg.subType == 1 and MedalDataMgr:getMedelInfoById(medalid) then
+        if MedalDataMgr:getMedelInfoById(cid) then
             count = 1
         end
     elseif cfg.superType == EC_ResourceType.BAOSHI then
         count = 1
         --EquipmentDataMgr:getGemCountByCid(cid)
     else
-        local items = self.items_[cid] or {}
-        for k, v in pairs(items) do
-            count = count + v.num
+        --判断是否有需要关联计数的道具
+        local realItemList = Utils:getKVP(90018, "item")
+        local checkItemList = nil
+        for k, v in ipairs(realItemList) do
+            if table.indexOf(v, cid) ~= -1 then
+                checkItemList = v
+                break
+            end
+        end
+
+        if checkItemList then
+            for m, n in pairs(checkItemList) do
+                local items = self.items_[n] or {}
+                for k, v in pairs(items) do
+                    count = count + v.num
+                end
+            end
+        else
+            local items = self.items_[cid] or {}
+            for k, v in pairs(items) do
+                count = count + v.num
+            end
         end
     end
 
@@ -176,6 +196,16 @@ function GoodsDataMgr:getBag(bagType)
     return self.bag_[bagType]
 end
 
+function GoodsDataMgr:getAllBagData()
+    local _data = {}
+    for type, v in pairs(self.bag_) do
+       for i, item in pairs(v) do
+            table.insert(_data, item)
+       end
+    end
+    return _data
+end
+
 function GoodsDataMgr:isCanUsing(cid)
     local itemCfg = self:getItemCfg(cid)
     local canUsing = false
@@ -201,6 +231,22 @@ function GoodsDataMgr:currencyIsEnough(itemId, itemNum)
     return count >= itemNum
 end
 
+function GoodsDataMgr:isGoodsEnough(goodsList)
+	if goodsList ==nil or type(goodsList) ~= "table" then
+		return false
+	end
+
+	local enough = true
+	for k, v in  pairs( goodsList) do
+		local count = self:getItemCount(k)
+		if count < v then
+			enough = false
+			break;
+		end
+	end
+	return enough
+end
+
 ---------------------------------------------
 
 function GoodsDataMgr:__itemHandle(sItem)
@@ -221,7 +267,8 @@ function GoodsDataMgr:__itemHandle(sItem)
         end
         self.originGoods_[sItem.id] = newItem
         if ct == EC_SChangeType.ADD then
-            if tonumber(sItem.id) == EC_SItemType.POWER or tonumber(sItem.id) == EC_SItemType.ENERGY or tonumber(sItem.id) == EC_SItemType.THEATER_COUNT then
+            if tonumber(sItem.id) == EC_SItemType.POWER or tonumber(sItem.id) == EC_SItemType.ENERGY or tonumber(sItem.id) == EC_SItemType.THEATER_COUNT
+				or tonumber(sItem.id) == EC_SItemType.SZDY_TOUZI then
                 updateItemCoolDownTimes(oldItem, newItem)
             end
         end
@@ -458,6 +505,22 @@ function GoodsDataMgr:onRecvItemLsit(event)
             self:__gemsHandle(v)
         end
     end
+    
+    if data.treasures then
+        for k, v in pairs(data.treasures) do
+            v.num = v.num or 1
+            self:__itemHandle(v)
+        end
+        EventMgr:dispatchEvent(EV_BAG_EXPLORE_TREATURE_UPDATE)
+    end
+    
+    if data.exploreEquip then
+        for k, v in pairs(data.exploreEquip) do
+            v.num = v.num or 1
+            self:__itemHandle(v)
+        end
+        EventMgr:dispatchEvent(EV_BAG_EXPLORE_EQUIP_UPDATE)
+    end
 end
 
 function GoodsDataMgr:__heroInfoHandle(sHero)
@@ -570,6 +633,29 @@ function GoodsDataMgr:onRecvTrailCard(event)
     EventMgr:dispatchEvent(EV_BAG_USE_TRAIL, {})
 end
 
+--特殊道具使用的成功提示
+function GoodsDataMgr:onRecvSpecialItemUseP(event)
+    local data = event.data
+    local itemCfg = self:getItemCfg(data.cid)
+    if not itemCfg then
+        return
+    end
+
+    if itemCfg.superType == EC_ResourceType.FIRST_RECHARGE_ITEM then
+        --首冲重置道具
+        Utils:showTips(13246)
+    elseif itemCfg.superType == EC_ResourceType.CONTRACT_ITEM then
+        --精灵锲约重置道具
+        Utils:showTips(13245)
+    end
+end
+
+function GoodsDataMgr:onRecvUpdateDiamondDebt(event)
+    local data = event.data
+    print("当前负债钻石数：", data.count)
+    self.minusDiamond = data.count
+end
+
 function GoodsDataMgr:resetHeros()
     if not self.heros_ then
         return;
@@ -665,7 +751,7 @@ function GoodsDataMgr:resetNewEquip()
         local itemCfg = self:getItemCfg(item.cid)
         if itemCfg.superType == EC_ResourceType.FETTERS then
             item.ct = EC_SChangeType.DEFAULT
-            EquipmentDataMgr:syncServerNewEquip(item)
+            EquipmentDataMgr:syncServerNewEquip(clone(item))
         end
     end
 end

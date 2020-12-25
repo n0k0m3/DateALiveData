@@ -309,8 +309,9 @@ function RankNoticeView:updateItem_rank( itemCell , idx )
 	    	else
 	    		label_value:setTextById(RANK_LABEL[self.showRankIndex] , rankInfo.params)
 	    	end
-	        	
-	    	Label_player_name:setText(rankInfo.pName)
+	    	
+	        local name ,_ = TFGlobalUtils:checkPlayerProvision(rankInfo.pName)	
+	    	Label_player_name:setText(name)
 	    	image_icon:setScale(0.7)
     	end
 	else---没有数据的时候默认显示虚位以待
@@ -352,7 +353,8 @@ function RankNoticeView:updateTopPanel()
 			if self.showRankIndex == 7 then
 				v.labelPlayerName:setText(rankInfo.unionName)
 			else
-				v.labelPlayerName:setText(rankInfo.pName)
+				local name ,_ = TFGlobalUtils:checkPlayerProvision(rankInfo.pName)
+				v.labelPlayerName:setText(name)
 			end
 			
 

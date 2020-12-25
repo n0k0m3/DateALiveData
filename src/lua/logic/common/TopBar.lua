@@ -39,7 +39,7 @@ function TopBar:initUI(ui)
     --基本信息
     self.Button_main:setVisible(self.topData.isMain);
     self.Button_back:setVisible(self.topData.isBack);
-    self.titleLabel:setString(self.topData.name);
+    self.titleLabel:setString(TextDataMgr:getText(self.topData.name))
     self.Button_help:setVisible(self.topData.isHelp)
 
     --资源道具
@@ -51,6 +51,7 @@ function TopBar:initUI(ui)
             self["item"..k.."Icon"]:setVisible(true);
             self["item"..k.."Add"]:setVisible(v[2] > 0);
             local itemCfg = GoodsDataMgr:getItemCfg(v[1]);
+            self["item"..k.."Icon"].itemId = v[1]
             self["item"..k.."Icon"]:setTexture(itemCfg.icon);
             self["item"..k.."Icon"]:setSize(CCSizeMake(100,100));
 
@@ -59,7 +60,7 @@ function TopBar:initUI(ui)
                     function()
                         dump(itemCfg.buyItemRecover)
                         ---宾果游戏特殊处理
-                        if v[1] == 500067 then
+                        if v[1] == 500125 then
                             FunctionDataMgr:jStore(306000)
                             return
                         end
@@ -160,6 +161,11 @@ function TopBar:registerEvents()
                 return;
             end
 
+            if self.topData.fileName ~= "TeamFightTeamView" then
+                --除开组队界面，点击主页按钮都发送协议，服务器处理队伍相关
+                TeamFightDataMgr:reqBackHomePage()
+            end
+
             if self.mainCallback then
                 if self.mainCallback() then
                     return
@@ -171,6 +177,16 @@ function TopBar:registerEvents()
             if currentScene.__cname == "MainScene" then
                 AlertManager:closeAll()
             elseif currentScene.__cname == "BaseOSDScene" then -- 大世界场景中 所有界面退回主场景弹出提示
+                local args = {
+                    tittle = 2107025,
+                    content = TextDataMgr:getText(14110234),
+                    reType = EC_OneLoginStatusType.ReConfirm_ExitTeamScene,
+                    confirmCall = function()
+                        AlertManager:changeScene(SceneType.MainScene);
+                    end,
+                }
+                Utils:showReConfirm(args) 
+            elseif currentScene.__cname == "AmusementPackScene" then -- 大世界场景中 所有界面退回主场景弹出提示
                 local args = {
                     tittle = 2107025,
                     content = TextDataMgr:getText(14110234),
@@ -200,6 +216,18 @@ function TopBar:registerEvents()
             end
         end
     end)
+
+    for i = 1, 3 do
+        self["item".. i .."Icon"]:setTouchEnabled(true)
+        self["item".. i .."Icon"]:onClick(handler(self.onClickIcon, self))
+    end
+end
+
+function TopBar:onClickIcon(sender)
+    if not sender.itemId or sender.itemId ~= EC_SItemType.DIAMOND then return end
+    if GoodsDataMgr.minusDiamond and GoodsDataMgr.minusDiamond > 0 then
+        Utils:showTipTool(sender, ccp(60, -15))
+    end
 end
 
 function TopBar:onUpdateTopbarEvent(oldItem, item)

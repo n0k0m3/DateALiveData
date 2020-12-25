@@ -247,6 +247,7 @@ end
 function ChronoCrossMainView:updateServerPoint()
     local point = ChronoCrossDataMgr:getServerPoint()
     point = point >= self.maxCnt and self.maxCnt or point
+
     local percent = math.floor(point/self.maxCnt*100)
     local deltaX = percent >= 98 and -20 or -16
     self.LoadingBar:setPercent(percent)
@@ -337,7 +338,7 @@ function ChronoCrossMainView:updateServerTask()
             --end
 
             local Label_num = Panel_awardItem:getChildByName("Label_num")
-            local percent = math.ceil(itemInfo.target/self.maxCnt*100)
+            local percent = math.floor(itemInfo.target/self.maxCnt*100)
             Label_num:setText(percent.."%")
             local x = itemInfo.target/self.maxCnt*w + startPosX
             Panel_awardItem:setPosition(ccp(x,41))
