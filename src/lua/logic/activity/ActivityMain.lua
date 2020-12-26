@@ -827,9 +827,11 @@ function ActivityMain:updateSevenEx()
 
     ---七日狂欢礼包
     local Label_price_now = TFDirector:getChildByPath(self.panel_sevenEx,"Label_price_now");
+    local daibiImg = TFDirector:getChildByPath(self.panel_sevenEx,"img_daibi")  
     local sevenGiftBag = RechargeDataMgr:getSevenGiftBag(self.selectSevenExIdx)
     if sevenGiftBag then
-        Label_price_now:setTextById(1605003 ,string.format("%.2f" ,sevenGiftBag.rechargeCfg.price/100))
+        Label_price_now:setText(sevenGiftBag.exchangeCost[1].num)
+        daibiImg:setTexture(GoodsDataMgr:getItemCfg(sevenGiftBag.exchangeCost[1].id).icon)
 
         if (sevenGiftBag.buyCount ~= 0 and sevenGiftBag.buyCount - RechargeDataMgr:getBuyCount(sevenGiftBag.rechargeCfg.id) <= 0) or self.selectSevenExIdx > curDayTag then
             self.Button_sEx_buy:setTouchEnabled(false)
@@ -842,7 +844,7 @@ function ActivityMain:updateSevenEx()
 
     local curDayCfg = TabDataMgr:getData("SevenGift",self.selectSevenExIdx);
     local Label_price_old = TFDirector:getChildByPath(self.panel_sevenEx,"Label_price_old");
-    Label_price_old:setTextById(1605003 ,string.format("%.2f" ,curDayCfg.saleprice[500002]/100))
+    Label_price_old:setText(curDayCfg.saleprice[500002])
 
     self:showRedPoint()
 end

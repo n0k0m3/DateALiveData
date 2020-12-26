@@ -49,7 +49,7 @@ function SevenExGiftView:initUI(ui)
     end
 
     local Label_price_now = TFDirector:getChildByPath(self.Button_sEx_buy,"Label_price_now");
-    Label_price_now:setTextById(1605003 ,string.format("%.2f" ,self.sevenGiftBag.rechargeCfg.price/100))
+    Label_price_now:setString(self.sevenGiftBag.exchangeCost[1].num)
 
 
     self.Panel_content = TFDirector:getChildByPath(self.Panel_root, "Panel_content")

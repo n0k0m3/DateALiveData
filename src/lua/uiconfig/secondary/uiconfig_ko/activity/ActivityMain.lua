@@ -371,7 +371,7 @@ local t =
 												PositionX = 18,
 												PositionY = -19,
 											},
-											width = "13",
+											width = "12",
 											ZOrder = "1",
 											components = 
 											{
@@ -494,7 +494,7 @@ local t =
 												PositionX = -95,
 												PositionY = 12,
 											},
-											width = "48",
+											width = "51",
 											ZOrder = "1",
 										},
 									},
@@ -749,6 +749,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
+							visible = "False",
 							width = "1136",
 							ZOrder = "1",
 							components = 
@@ -1232,7 +1233,7 @@ local t =
 												PercentY = -50,
 											},
 											visible = "False",
-											width = "37",
+											width = "36",
 											ZOrder = "1",
 										},
 									},
@@ -1365,7 +1366,6 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							visible = "False",
 							width = "1136",
 							ZOrder = "1",
 							components = 
@@ -1514,7 +1514,7 @@ local t =
 											{
 												
 											},
-											width = "16",
+											width = "18",
 											ZOrder = "1",
 										},
 										{
@@ -1687,7 +1687,7 @@ local t =
 											{
 												
 											},
-											width = "19",
+											width = "18",
 											ZOrder = "1",
 										},
 										{
@@ -1860,7 +1860,7 @@ local t =
 											{
 												
 											},
-											width = "19",
+											width = "18",
 											ZOrder = "1",
 										},
 										{
@@ -2033,7 +2033,7 @@ local t =
 											{
 												
 											},
-											width = "20",
+											width = "19",
 											ZOrder = "1",
 										},
 										{
@@ -2379,7 +2379,7 @@ local t =
 											{
 												
 											},
-											width = "20",
+											width = "19",
 											ZOrder = "1",
 										},
 										{
@@ -2552,7 +2552,7 @@ local t =
 											{
 												
 											},
-											width = "18",
+											width = "19",
 											ZOrder = "1",
 										},
 										{
@@ -2980,7 +2980,7 @@ local t =
 													controlID = "Label_price_now_Button_sEx_buy_Panel_tehui_Panel_sevenEx_Panel_root_Panel-ActivityMain_Layer1_activity_Game",
 													UUID = "98943222_4605_4cc5_98b2_1531d038e5a8",
 													anchorPoint = "False",
-													anchorPointX = "0.5",
+													anchorPointX = "0",
 													anchorPointY = "0.5",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
@@ -3016,9 +3016,36 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														
+														PositionX = -7,
 													},
-													width = "36",
+													width = "35",
+													ZOrder = "1",
+												},
+												{
+													controlID = "img_daibi_Button_sEx_buy_Panel_tehui_Panel_sevenEx_Panel_root_Panel-ActivityMain_Layer1_activity_Game",
+													UUID = "43ebe27e_27e2_43ff_8bfe_8b95f3dea5b4",
+													anchorPoint = "False",
+													anchorPointX = "0.5",
+													anchorPointY = "0.5",
+													backGroundScale9Enable = "False",
+													classname = "MEImage",
+													dstBlendFunc = "771",
+													height = "100",
+													ignoreSize = "True",
+													name = "img_daibi",
+													scaleX = "0.4",
+													scaleY = "0.4",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													srcBlendFunc = "1",
+													texturePath = "icon/item/goods/500096.png",
+													touchAble = "False",
+													UILayoutViewModel = 
+													{
+														PositionX = -28,
+													},
+													width = "100",
 													ZOrder = "1",
 												},
 											},
@@ -3139,7 +3166,7 @@ local t =
 														PositionX = -10,
 														PositionY = 4,
 													},
-													width = "47",
+													width = "46",
 													ZOrder = "1",
 												},
 												{
@@ -3745,7 +3772,7 @@ local t =
 														PositionX = -5,
 														PositionY = 12,
 													},
-													width = "88",
+													width = "89",
 													ZOrder = "1",
 												},
 												{
@@ -4221,7 +4248,7 @@ local t =
 										PositionX = 48,
 										PositionY = 24,
 									},
-									width = "47",
+									width = "46",
 									ZOrder = "1",
 								},
 								{
@@ -4527,7 +4554,7 @@ local t =
 										PositionX = 363,
 										PositionY = 49,
 									},
-									width = "28",
+									width = "32",
 									ZOrder = "1",
 								},
 								{
@@ -4701,7 +4728,7 @@ local t =
 													{
 														PositionX = 46,
 													},
-													width = "33",
+													width = "36",
 													ZOrder = "1",
 												},
 											},
@@ -5456,6 +5483,7 @@ local t =
 			"ui/activity/sevenEx/009.png",
 			"ui/activity/sevenEx/011.png",
 			"ui/common/button_big_n.png",
+			"icon/item/goods/500096.png",
 			"ui/activity/sevenEx/012.png",
 			"ui/activity/sevenEx/redLine.png",
 			"ui/activity/sevenEx/021.png",

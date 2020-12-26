@@ -296,7 +296,7 @@ local t =
 											{
 												
 											},
-											width = "63",
+											width = "65",
 											ZOrder = "1",
 										},
 									},
@@ -372,7 +372,7 @@ local t =
 												PositionX = 18,
 												PositionY = -19,
 											},
-											width = "13",
+											width = "12",
 											ZOrder = "1",
 											components = 
 											{
@@ -495,7 +495,7 @@ local t =
 												PositionX = -95,
 												PositionY = 12,
 											},
-											width = "48",
+											width = "51",
 											ZOrder = "1",
 										},
 									},
@@ -709,7 +709,7 @@ local t =
 											{
 												
 											},
-											width = "63",
+											width = "65",
 											ZOrder = "1",
 										},
 									},
@@ -748,6 +748,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
+							visible = "False",
 							width = "1136",
 							ZOrder = "1",
 							components = 
@@ -889,7 +890,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "36",
+													height = "34",
 													ignoreSize = "True",
 													name = "Label_ActivityMain_1",
 													nTextAlign = "1",
@@ -905,7 +906,7 @@ local t =
 													{
 														
 													},
-													width = "123",
+													width = "130",
 													ZOrder = "1",
 												},
 											},
@@ -968,7 +969,7 @@ local t =
 														StrokeColor = "#FFA74257",
 														StrokeSize = 1,
 													},
-													height = "24",
+													height = "23",
 													ignoreSize = "True",
 													name = "Label_powerReceive",
 													nTextAlign = "1",
@@ -984,7 +985,7 @@ local t =
 													{
 														PositionY = 18,
 													},
-													width = "55",
+													width = "59",
 													ZOrder = "1",
 												},
 												{
@@ -1013,7 +1014,7 @@ local t =
 														StrokeColor = "#FFA74257",
 														StrokeSize = 1,
 													},
-													height = "24",
+													height = "23",
 													ignoreSize = "True",
 													name = "Label_powernum",
 													nTextAlign = "1",
@@ -1029,7 +1030,7 @@ local t =
 													{
 														PositionY = -21,
 													},
-													width = "108",
+													width = "106",
 													ZOrder = "1",
 												},
 											},
@@ -1062,7 +1063,7 @@ local t =
 										StrokeColor = "#FF144D75",
 										StrokeSize = 1,
 									},
-									height = "28",
+									height = "27",
 									ignoreSize = "True",
 									name = "Label_powerTime",
 									nTextAlign = "1",
@@ -1079,7 +1080,7 @@ local t =
 										PositionX = -141,
 										PositionY = -263,
 									},
-									width = "45",
+									width = "40",
 									ZOrder = "1",
 								},
 								{
@@ -1108,7 +1109,7 @@ local t =
 										StrokeColor = "#FF144D75",
 										StrokeSize = 1,
 									},
-									height = "28",
+									height = "27",
 									ignoreSize = "True",
 									name = "Label_powerTime2",
 									nTextAlign = "1",
@@ -1125,7 +1126,7 @@ local t =
 										PositionX = 105,
 										PositionY = -263,
 									},
-									width = "45",
+									width = "40",
 									ZOrder = "1",
 								},
 								{
@@ -1231,7 +1232,7 @@ local t =
 												PercentY = -50,
 											},
 											visible = "False",
-											width = "37",
+											width = "36",
 											ZOrder = "1",
 										},
 									},
@@ -1262,7 +1263,7 @@ local t =
 										StrokeColor = "#FF5C1320",
 										StrokeSize = 1,
 									},
-									height = "31",
+									height = "30",
 									ignoreSize = "True",
 									name = "Label_power_tip1",
 									nTextAlign = "1",
@@ -1465,7 +1466,7 @@ local t =
 												PositionX = -12,
 												PositionY = 19,
 											},
-											width = "32",
+											width = "33",
 											ZOrder = "1",
 										},
 										{
@@ -1494,7 +1495,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "24",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_day_tag1",
 											nTextAlign = "1",
@@ -1639,7 +1640,7 @@ local t =
 												PositionX = -12,
 												PositionY = 19,
 											},
-											width = "32",
+											width = "33",
 											ZOrder = "1",
 										},
 										{
@@ -1668,7 +1669,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "24",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_day_tag1",
 											nTextAlign = "1",
@@ -1685,7 +1686,7 @@ local t =
 											{
 												
 											},
-											width = "15",
+											width = "13",
 											ZOrder = "1",
 										},
 										{
@@ -1813,7 +1814,7 @@ local t =
 												PositionX = -12,
 												PositionY = 19,
 											},
-											width = "32",
+											width = "33",
 											ZOrder = "1",
 										},
 										{
@@ -1842,7 +1843,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "24",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_day_tag1",
 											nTextAlign = "1",
@@ -1859,7 +1860,7 @@ local t =
 											{
 												
 											},
-											width = "15",
+											width = "13",
 											ZOrder = "1",
 										},
 										{
@@ -1987,7 +1988,7 @@ local t =
 												PositionX = -12,
 												PositionY = 19,
 											},
-											width = "32",
+											width = "33",
 											ZOrder = "1",
 										},
 										{
@@ -2016,7 +2017,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "24",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_day_tag1",
 											nTextAlign = "1",
@@ -2033,7 +2034,7 @@ local t =
 											{
 												
 											},
-											width = "16",
+											width = "14",
 											ZOrder = "1",
 										},
 										{
@@ -2161,7 +2162,7 @@ local t =
 												PositionX = -12,
 												PositionY = 19,
 											},
-											width = "32",
+											width = "33",
 											ZOrder = "1",
 										},
 										{
@@ -2190,7 +2191,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "24",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_day_tag1",
 											nTextAlign = "1",
@@ -2207,7 +2208,7 @@ local t =
 											{
 												
 											},
-											width = "15",
+											width = "14",
 											ZOrder = "1",
 										},
 										{
@@ -2335,7 +2336,7 @@ local t =
 												PositionX = -12,
 												PositionY = 19,
 											},
-											width = "32",
+											width = "33",
 											ZOrder = "1",
 										},
 										{
@@ -2364,7 +2365,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "24",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_day_tag1",
 											nTextAlign = "1",
@@ -2381,7 +2382,7 @@ local t =
 											{
 												
 											},
-											width = "15",
+											width = "14",
 											ZOrder = "1",
 										},
 										{
@@ -2509,7 +2510,7 @@ local t =
 												PositionX = -12,
 												PositionY = 19,
 											},
-											width = "32",
+											width = "33",
 											ZOrder = "1",
 										},
 										{
@@ -2538,7 +2539,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "24",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_day_tag1",
 											nTextAlign = "1",
@@ -2555,7 +2556,7 @@ local t =
 											{
 												
 											},
-											width = "15",
+											width = "14",
 											ZOrder = "1",
 										},
 										{
@@ -2983,7 +2984,7 @@ local t =
 													controlID = "Label_price_now_Button_sEx_buy_Panel_tehui_Panel_sevenEx_Panel_root_Panel-ActivityMain_Layer1_activity_Game",
 													UUID = "98943222_4605_4cc5_98b2_1531d038e5a8",
 													anchorPoint = "False",
-													anchorPointX = "0.5",
+													anchorPointX = "0",
 													anchorPointY = "0.5",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
@@ -3005,7 +3006,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "24",
+													height = "23",
 													ignoreSize = "True",
 													name = "Label_price_now",
 													nTextAlign = "1",
@@ -3019,9 +3020,36 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														
+														PositionX = -7,
 													},
-													width = "41",
+													width = "35",
+													ZOrder = "1",
+												},
+												{
+													controlID = "img_daibi_Button_sEx_buy_Panel_tehui_Panel_sevenEx_Panel_root_Panel-ActivityMain_Layer1_activity_Game",
+													UUID = "ce2c5b02_e306_4979_840c_2234a64f2779",
+													anchorPoint = "False",
+													anchorPointX = "0.5",
+													anchorPointY = "0.5",
+													backGroundScale9Enable = "False",
+													classname = "MEImage",
+													dstBlendFunc = "771",
+													height = "100",
+													ignoreSize = "True",
+													name = "img_daibi",
+													scaleX = "0.4",
+													scaleY = "0.4",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													srcBlendFunc = "1",
+													texturePath = "icon/item/goods/500096.png",
+													touchAble = "False",
+													UILayoutViewModel = 
+													{
+														PositionX = -28,
+													},
+													width = "100",
 													ZOrder = "1",
 												},
 											},
@@ -3096,7 +3124,7 @@ local t =
 														PositionX = -35,
 														PositionY = 4,
 													},
-													width = "56",
+													width = "57",
 													ZOrder = "1",
 												},
 												{
@@ -3142,7 +3170,7 @@ local t =
 														PositionX = 3,
 														PositionY = 4,
 													},
-													width = "47",
+													width = "46",
 													ZOrder = "1",
 												},
 												{
@@ -3283,7 +3311,7 @@ local t =
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "26",
+															height = "25",
 															ignoreSize = "True",
 															name = "Label_support_store",
 															nTextAlign = "1",
@@ -3299,7 +3327,7 @@ local t =
 															{
 																PositionY = -2,
 															},
-															width = "57",
+															width = "61",
 															ZOrder = "1",
 														},
 													},
@@ -3654,7 +3682,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "31",
+											height = "30",
 											ignoreSize = "True",
 											name = "Label_title",
 											nTextAlign = "1",
@@ -3671,7 +3699,7 @@ local t =
 												PositionX = -254,
 												PositionY = 130,
 											},
-											width = "213",
+											width = "225",
 											ZOrder = "1",
 										},
 										{
@@ -3745,7 +3773,7 @@ local t =
 														PositionX = -5,
 														PositionY = 12,
 													},
-													width = "88",
+													width = "89",
 													ZOrder = "1",
 												},
 												{
@@ -3791,7 +3819,7 @@ local t =
 														PositionX = 253,
 														PositionY = -80,
 													},
-													width = "302",
+													width = "282",
 													ZOrder = "1",
 												},
 											},
@@ -3944,7 +3972,7 @@ local t =
 													{
 														
 													},
-													width = "87",
+													width = "92",
 													ZOrder = "1",
 												},
 											},
@@ -4221,7 +4249,7 @@ local t =
 										PositionX = 48,
 										PositionY = 24,
 									},
-									width = "48",
+									width = "46",
 									ZOrder = "1",
 								},
 								{
@@ -4527,7 +4555,7 @@ local t =
 										PositionX = 363,
 										PositionY = 49,
 									},
-									width = "28",
+									width = "32",
 									ZOrder = "1",
 								},
 								{
@@ -4582,7 +4610,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "31",
+									height = "30",
 									ignoreSize = "True",
 									name = "Label_name",
 									nTextAlign = "1",
@@ -4600,7 +4628,7 @@ local t =
 										PositionY = 17,
 									},
 									visible = "False",
-									width = "152",
+									width = "148",
 									ZOrder = "1",
 									components = 
 									{
@@ -4685,7 +4713,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "22",
+													height = "21",
 													ignoreSize = "True",
 													name = "Label_active_num",
 													nTextAlign = "1",
@@ -4701,7 +4729,7 @@ local t =
 													{
 														PositionX = 46,
 													},
-													width = "35",
+													width = "36",
 													ZOrder = "1",
 												},
 											},
@@ -4777,7 +4805,7 @@ local t =
 										PositionX = -359,
 										PositionY = 45,
 									},
-									width = "123",
+									width = "117",
 									ZOrder = "1",
 								},
 								{
@@ -4932,7 +4960,7 @@ local t =
 											{
 												
 											},
-											width = "30",
+											width = "29",
 											ZOrder = "1",
 										},
 									},
@@ -5114,7 +5142,7 @@ local t =
 										PositionY = 50,
 									},
 									visible = "False",
-									width = "119",
+									width = "114",
 									ZOrder = "1",
 								},
 								{
@@ -5188,7 +5216,7 @@ local t =
 										PositionY = 49,
 									},
 									visible = "False",
-									width = "142",
+									width = "130",
 									ZOrder = "1",
 								},
 								{
@@ -5235,7 +5263,7 @@ local t =
 										PositionY = -15,
 									},
 									visible = "False",
-									width = "76",
+									width = "75",
 									ZOrder = "1",
 								},
 							},
@@ -5456,6 +5484,7 @@ local t =
 			"ui/activity/sevenEx/009.png",
 			"ui/activity/sevenEx/011.png",
 			"ui/common/button_big_n.png",
+			"icon/item/goods/500096.png",
 			"ui/activity/sevenEx/012.png",
 			"ui/activity/sevenEx/redLine.png",
 			"ui/activity/sevenEx/021.png",

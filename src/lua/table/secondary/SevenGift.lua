@@ -9,7 +9,7 @@ return {
         },
         paytimes = 1,
         saleprice = {
-            [500002] = 199,
+            [500002] = 180,
         },
         id = 1,
         day = 1,
@@ -24,7 +24,7 @@ return {
         },
         paytimes = 1,
         saleprice = {
-            [500002] = 299,
+            [500002] = 180,
         },
         id = 2,
         day = 2,
@@ -39,7 +39,7 @@ return {
         },
         paytimes = 1,
         saleprice = {
-            [500002] = 399,
+            [500002] = 180,
         },
         id = 3,
         day = 3,
@@ -54,7 +54,7 @@ return {
         },
         paytimes = 1,
         saleprice = {
-            [500002] = 499,
+            [500002] = 360,
         },
         id = 4,
         day = 4,
@@ -69,7 +69,7 @@ return {
         },
         paytimes = 1,
         saleprice = {
-            [500002] = 599,
+            [500002] = 540,
         },
         id = 5,
         day = 5,
@@ -84,7 +84,7 @@ return {
         },
         paytimes = 1,
         saleprice = {
-            [500002] = 799,
+            [500002] = 900,
         },
         id = 6,
         day = 6,
@@ -99,7 +99,7 @@ return {
         },
         paytimes = 1,
         saleprice = {
-            [500002] = 999,
+            [500002] = 1440,
         },
         id = 7,
         day = 7,
