@@ -4009,7 +4009,7 @@ local t =
 											DesignType = "0",
 											DesignWidth = "960",
 											dstBlendFunc = "771",
-											height = "85",
+											height = "120",
 											ignoreSize = "False",
 											name = "Panel_teshu_title",
 											sizepercentx = "0",
@@ -4020,7 +4020,7 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = 25,
-												PositionY = 66,
+												PositionY = 38,
 												LeftPositon = 84,
 												TopPosition = 429,
 												relativeToName = "Panel_equip",
@@ -4056,7 +4056,7 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = 132,
-														PositionY = 75,
+														PositionY = 110,
 													},
 													width = "278",
 													ZOrder = "1",
@@ -4102,7 +4102,7 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = 4,
-														PositionY = 71,
+														PositionY = 106,
 													},
 													width = "155",
 													ZOrder = "1",
@@ -4149,7 +4149,7 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = 163,
-														PositionY = 69,
+														PositionY = 104,
 													},
 													visible = "False",
 													width = "45",
@@ -4160,7 +4160,7 @@ local t =
 													UUID = "dae1615c_e5cc_4a42_aee6_2ef6cde20047",
 													anchorPoint = "False",
 													anchorPointX = "0",
-													anchorPointY = "0",
+													anchorPointY = "1",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
 													dstBlendFunc = "771",
@@ -4174,14 +4174,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "20",
+													fontSize = "17",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "80",
+													height = "0",
 													ignoreSize = "False",
 													name = "Label_guyou",
 													nTextAlign = "0",
@@ -4196,9 +4196,9 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = 31,
-														PositionY = -29,
+														PositionY = 97,
 													},
-													width = "275",
+													width = "300",
 													ZOrder = "1",
 												},
 											},
@@ -4229,7 +4229,7 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = 25,
-												PositionY = -13,
+												PositionY = -25,
 												LeftPositon = 84,
 												TopPosition = 429,
 												relativeToName = "Panel_equip",

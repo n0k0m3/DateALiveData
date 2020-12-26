@@ -415,7 +415,6 @@ function BattleView:initUI(ui)
     self.plyerNode.imageHead   = TFDirector:getChildByPath(self.plyerNode,"Image_head")
 
     local startPos = self.plyerNode.imageHead:getPosition() + ccp(5 , 15)
-    self.plyerNode.panel_element = Utils:createElementPanel(self.plyerNode.panel_role , 1 ,startPos , nil , 0.5)
     -- self.plyerNode.imageHead:hide()
 
     -- self.plyerNode.panel_heads = self.plyerNode:getChildByName("Panel_heads"):hide()
@@ -517,7 +516,6 @@ function BattleView:initUI(ui)
     self.bossNode.image_bg2      = TFDirector:getChildByPath(self.bossNode,"Image_affix_bg2") --
 
     local startPos = self.bossNode.imageHead:getPosition() + ccp(5 , 15)
-    self.bossNode.panel_element = Utils:createElementPanel( self.bossNode.panel_boss_head , 1 ,startPos , nil , 0.5)
 
 
     -- 守护
@@ -899,11 +897,11 @@ end
 
 --怪物突破防御
 function BattleView:showKeyList(actionData)
-    if actionData.keyShow and #actionData.keyShow > 0 then  
+    if actionData.keyShow and actionData.keyShow ~= "" then  
         self.image_keylist:stopAllActions()
         self.image_keylist:show()
         self.image_keylist:setOpacity(255) 
-        self.image_keylist.label_keylist:setText(actionData.keyShow)
+        self.image_keylist.label_keylist:setText(Utils:MultiLanguageStringDeal(actionData.keyShow))
         self.image_keylist.label_keylist:setPositionX(0)
         local Label_key1 = TFDirector:getChildByPath(self.image_keylist,"Label_key1")
         local Label_key2 = TFDirector:getChildByPath(self.image_keylist,"Label_key2")
@@ -919,9 +917,9 @@ function BattleView:showKeyList(actionData)
             Label_key_name1:show()
             Label_key1:setPosition(ccp(self.image_keylist.label_keylist:getPositionX() + self.image_keylist.label_keylist:getContentSize().width / 2 + 20, 0))
             local color = self:getKeyShowColor(actionData.keyName[1])
-            Label_key1:setText(actionData.keyName[1])
+            Label_key1:setText(Utils:MultiLanguageStringDeal(actionData.keyName[1]))
             Label_key1:setColor(color)
-            Label_key_name1:setText(actionData.keyName[2] or "")
+            Label_key_name1:setText(Utils:MultiLanguageStringDeal(actionData.keyName[2]) or "")
             Label_key_name1:setColor(color)
             if actionData.keyName[3] then
                 Label_key2:show()
@@ -929,9 +927,9 @@ function BattleView:showKeyList(actionData)
                 Label_key1:setPositionY(18)
                 Label_key2:setPosition(ccp(Label_key1:getPositionX(), -18))
                 local color1 = self:getKeyShowColor(actionData.keyName[3])
-                Label_key2:setText(actionData.keyName[3])
+                Label_key2:setText(Utils:MultiLanguageStringDeal(actionData.keyName[3]))
                 Label_key2:setColor(color1)
-                Label_key_name2:setText(actionData.keyName[4] or "")
+                Label_key_name2:setText(Utils:MultiLanguageStringDeal(actionData.keyName[4]) or "")
                 Label_key_name2:setColor(color1)
             end
             Label_key_name1:setPosition(ccp(Label_key1:getPositionX() + 42,Label_key1:getPositionY()))
@@ -2418,7 +2416,6 @@ function BattleView:onHeroAttrChange(hero)
             self.plyerNode.imageHead:setTexture(resPath) --TODO 这不科学
             self.plyerNode.imageHead._resPath = resPath
 
-           PrefabDataMgr:setInfo(self.plyerNode.panel_element , hero:getData().magicAttribute , nil , false)
 
 
            --检查boss克制属性
@@ -2562,31 +2559,6 @@ function BattleView:onBossChange(hero)
         end
 
 
-        if self.lastCaptain ~= battleController:getCaptain() then
-            local heroDat = hero:getData()
-            local playerHeroData = battleController:getCaptain():getData()
-            local pElementCfg = self.elementCfg[playerHeroData.magicAttribute]
-
-            local isRefrain = nil   --是否克制
-            for k ,v in pairs(pElementCfg.Refrain) do
-                if v == heroDat.magicAttribute then
-                    isRefrain = true
-                    break
-                end
-            end
-            if not isRefrain then
-                for k ,v in pairs(pElementCfg.underrestraint) do
-                    if v == heroDat.magicAttribute then
-                        isRefrain = false
-                        break
-                    end
-                end
-            end
-            self.lastCaptain = battleController:getCaptain()
-            PrefabDataMgr:setInfo(self.bossNode.panel_element , heroDat.magicAttribute , isRefrain , false)
-        end
-        
-       
 
         if hero:isUnlimitedHp() then 
             self.bossNode.label_loadbar_num:setText("x???")

@@ -219,7 +219,7 @@ local t =
 								PositionX = 301,
 								PositionY = 450,
 							},
-							width = "114",
+							width = "230",
 							ZOrder = "1",
 							components = 
 							{
@@ -268,7 +268,7 @@ local t =
 										PositionX = 114,
 									},
 									visible = "False",
-									width = "9",
+									width = "10",
 									ZOrder = "1",
 								},
 								{
@@ -315,7 +315,7 @@ local t =
 										PositionY = -2,
 									},
 									visible = "False",
-									width = "58",
+									width = "57",
 									ZOrder = "1",
 								},
 							},
@@ -394,7 +394,7 @@ local t =
 									{
 										
 									},
-									width = "41",
+									width = "45",
 									ZOrder = "1",
 								},
 							},
@@ -560,7 +560,7 @@ local t =
 											{
 												PositionX = -60,
 											},
-											width = "103",
+											width = "65",
 											ZOrder = "1",
 										},
 									},
@@ -647,11 +647,11 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_visible",
-											nTextAlign = "1",
-											nTextHAlign = "1",
+											nTextAlign = "0",
+											nTextHAlign = "0",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -663,7 +663,7 @@ local t =
 											{
 												PositionX = -60,
 											},
-											width = "203",
+											width = "232",
 											ZOrder = "1",
 										},
 										{
@@ -791,7 +791,7 @@ local t =
 											{
 												PositionX = -60,
 											},
-											width = "143",
+											width = "200",
 											ZOrder = "1",
 										},
 										{
@@ -953,7 +953,7 @@ local t =
 													{
 														PositionX = -22,
 													},
-													width = "40",
+													width = "39",
 													ZOrder = "1",
 												},
 												{
@@ -1183,7 +1183,7 @@ local t =
 													{
 														PositionX = -22,
 													},
-													width = "40",
+													width = "39",
 													ZOrder = "1",
 												},
 												{
@@ -1275,7 +1275,7 @@ local t =
 											{
 												PositionY = 32,
 											},
-											width = "70",
+											width = "75",
 											ZOrder = "1",
 										},
 									},
@@ -1324,7 +1324,7 @@ local t =
 									controlID = "Label_join_tip_Panel_limit_level_Panel_root_Panel-teamRoomSettingView_Layer1_teamFight_Game",
 									UUID = "bf9c6596_0617_4e7d_8953_8f9b03c84525",
 									anchorPoint = "False",
-									anchorPointX = "0.5",
+									anchorPointX = "1",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -1346,11 +1346,11 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_join_tip",
-									nTextAlign = "1",
-									nTextHAlign = "1",
+									nTextAlign = "2",
+									nTextHAlign = "2",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -1360,9 +1360,9 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -137,
+										PositionX = -69,
 									},
-									width = "105",
+									width = "131",
 									ZOrder = "1",
 								},
 								{
@@ -1388,8 +1388,7 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = -57,
-										PositionY = -1,
+										PositionX = -42,
 									},
 									UItype = "Button",
 									width = "40",
@@ -1418,7 +1417,8 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 153,
+										PositionX = 167,
+										PositionY = 1,
 									},
 									UItype = "Button",
 									width = "40",
@@ -1448,7 +1448,8 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 47,
+										PositionX = 61,
+										PositionY = 1,
 									},
 									width = "150",
 									ZOrder = "1",

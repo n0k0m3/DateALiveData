@@ -179,7 +179,7 @@ local t =
 									controlID = "Label_tokenPopView_1_bg_Panel_base_Panel-tokenPopView_Layer1_recharge_Game",
 									UUID = "2f84d48d_6e9a_4c40_963a_b2bc91ee3584",
 									anchorPoint = "False",
-									anchorPointX = "0.5",
+									anchorPointX = "0",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -215,10 +215,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -318,
-										PositionY = 180,
+										PositionX = -383,
+										PositionY = 181,
 									},
-									width = "160",
+									width = "178",
 									ZOrder = "1",
 								},
 								{
@@ -264,7 +264,8 @@ local t =
 										PositionX = -197,
 										PositionY = 179,
 									},
-									width = "106",
+									visible = "False",
+									width = "101",
 									ZOrder = "1",
 								},
 								{
@@ -290,6 +291,7 @@ local t =
 										PositionX = -256,
 										PositionY = 182,
 									},
+									visible = "False",
 									width = "2",
 									ZOrder = "1",
 								},
@@ -470,11 +472,11 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "20",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "maskTip",
 									nTextAlign = "1",
-									nTextHAlign = "0",
+									nTextHAlign = "1",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -487,7 +489,7 @@ local t =
 										PositionX = 254,
 										PositionY = 149,
 									},
-									width = "796",
+									width = "400",
 									ZOrder = "1",
 									components = 
 									{
@@ -643,11 +645,12 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "140",
-													ignoreSize = "False",
+													height = "23",
+													ignoreSize = "True",
 													name = "Label_tokenPopView_1",
 													nTextAlign = "1",
 													nTextHAlign = "1",
+													rotation = "90",
 													sizepercentx = "0",
 													sizepercenty = "0",
 													sizeType = "0",
@@ -659,7 +662,7 @@ local t =
 													{
 														
 													},
-													width = "40",
+													width = "80",
 													ZOrder = "1",
 												},
 											},
@@ -747,11 +750,12 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "140",
-													ignoreSize = "False",
+													height = "23",
+													ignoreSize = "True",
 													name = "Label_tokenPopView_1",
 													nTextAlign = "1",
 													nTextHAlign = "1",
+													rotation = "90",
 													sizepercentx = "0",
 													sizepercenty = "0",
 													sizeType = "0",
@@ -763,7 +767,7 @@ local t =
 													{
 														
 													},
-													width = "40",
+													width = "107",
 													ZOrder = "1",
 												},
 											},
@@ -814,7 +818,7 @@ local t =
 										PositionY = 32,
 									},
 									visible = "False",
-									width = "667",
+									width = "629",
 									ZOrder = "1",
 									components = 
 									{
@@ -890,7 +894,7 @@ local t =
 										PositionX = 213,
 										PositionY = 152,
 									},
-									width = "214",
+									width = "203",
 									ZOrder = "1",
 								},
 								{
@@ -1078,7 +1082,7 @@ local t =
 											{
 												PositionY = 126,
 											},
-											width = "172",
+											width = "180",
 											ZOrder = "1",
 										},
 									},
@@ -1238,15 +1242,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_tokenPopView_1",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -1261,7 +1265,7 @@ local t =
 											{
 												
 											},
-											width = "179",
+											width = "120",
 											ZOrder = "1",
 										},
 									},
@@ -1340,7 +1344,7 @@ local t =
 											{
 												
 											},
-											width = "115",
+											width = "109",
 											ZOrder = "1",
 										},
 									},
@@ -1542,7 +1546,7 @@ local t =
 												PositionX = -40,
 											},
 											visible = "False",
-											width = "10",
+											width = "13",
 											ZOrder = "1",
 										},
 									},
@@ -1642,7 +1646,7 @@ local t =
 											{
 												PositionX = -14,
 											},
-											width = "58",
+											width = "61",
 											ZOrder = "1",
 										},
 									},
@@ -1742,7 +1746,7 @@ local t =
 											{
 												PositionX = -14,
 											},
-											width = "58",
+											width = "61",
 											ZOrder = "1",
 										},
 										{
@@ -1815,7 +1819,7 @@ local t =
 													{
 														PositionY = 13,
 													},
-													width = "112",
+													width = "118",
 													ZOrder = "1",
 												},
 											},
@@ -1915,7 +1919,7 @@ local t =
 													{
 														PositionX = -14,
 													},
-													width = "58",
+													width = "61",
 													ZOrder = "1",
 												},
 												{
@@ -2308,7 +2312,7 @@ local t =
 								PositionX = -170,
 								PositionY = -29,
 							},
-							width = "227",
+							width = "203",
 							ZOrder = "1",
 						},
 						{
@@ -2354,7 +2358,7 @@ local t =
 								PositionX = -170,
 								PositionY = 29,
 							},
-							width = "156",
+							width = "149",
 							ZOrder = "1",
 						},
 						{
@@ -2430,7 +2434,7 @@ local t =
 								relativeToName = "Panel",
 							},
 							visible = "False",
-							width = "182",
+							width = "184",
 							ZOrder = "1",
 						},
 						{

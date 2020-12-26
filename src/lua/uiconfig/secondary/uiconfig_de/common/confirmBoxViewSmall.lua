@@ -242,7 +242,7 @@ local t =
 										PositionX = -196,
 										PositionY = 102,
 									},
-									width = "244",
+									width = "252",
 									ZOrder = "1",
 								},
 								{
@@ -273,7 +273,7 @@ local t =
 										PositionY = -96,
 									},
 									UItype = "Button",
-									width = "100",
+									width = "120",
 									ZOrder = "1",
 									components = 
 									{
@@ -318,9 +318,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = -1,
+												
 											},
-											width = "80",
+											width = "77",
 											ZOrder = "1",
 										},
 									},
@@ -451,7 +451,7 @@ local t =
 										PositionY = 98,
 									},
 									visible = "False",
-									width = "147",
+									width = "141",
 									ZOrder = "1",
 								},
 								{

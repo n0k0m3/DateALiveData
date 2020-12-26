@@ -84,7 +84,9 @@ function CityJobView:onReloadJobUI()
 end
 
 function CityJobView:onGiveUpJobSuccess()
-    CCUserDefault:sharedUserDefault():setIntegerForKey("give_up_city_job_time", ServerDataMgr:getServerTime())
+    local pid = MainPlayer:getPlayerId()
+    pid = pid or ""
+    CCUserDefault:sharedUserDefault():setIntegerForKey("give_up_city_job_time_" ..pid, ServerDataMgr:getServerTime())
     self:onRefreshJobUI()
 end
 
@@ -452,7 +454,9 @@ function CityJobView:onJobStateBtnClick(btn)
         if CityJobDataMgr:getJobEventSuplTime() <= 0 then
             CityJobDataMgr:sendReqPartTimeJobAward(self.workingJobInfo.buildingId, self.workingJobInfo.jobId)
         else
-            local lastTime = CCUserDefault:sharedUserDefault():getIntegerForKey("give_up_city_job_time")
+            local pid = MainPlayer:getPlayerId()
+            pid = pid or ""
+            local lastTime = CCUserDefault:sharedUserDefault():getIntegerForKey("give_up_city_job_time_" ..pid)
             if ServerDataMgr:getServerTime() - lastTime < 30 then   --两次放弃兼职间隔最少30秒
                 Utils:showTips(2400020)
                 return

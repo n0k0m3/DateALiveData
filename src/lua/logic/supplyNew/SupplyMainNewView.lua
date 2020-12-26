@@ -10,7 +10,8 @@ local ENUM_SUPPLYS = {
     SUPPLY = 2,     -- 补给站
     MONTH_CARD = 3, -- 月卡
     WEEK_CARD = 4,  -- 周卡
-    CONTRACT = 5    -- 精灵契约
+    CONTRACT = 5,   -- 精灵契约
+    GIFT = 6        -- 礼包
 }
 
 function SupplyMainNewView:initData(defaultLeftIdx, pageSelectId)
@@ -36,6 +37,7 @@ function SupplyMainNewView:initData(defaultLeftIdx, pageSelectId)
             table.insert(self.tabBtnCfg  , {
                 name = nameList[k],
                 icon = "ui/recharge/gifts/new_1/006.png",
+                tabType = ENUM_SUPPLYS.GIFT
             })
         end
     end
@@ -107,7 +109,10 @@ function SupplyMainNewView:updateAllRed()
 
         -- 补给
         if btnCfg.tabType == ENUM_SUPPLYS.SUPPLY then
-            local isFundRed = RechargeDataMgr:isGrowFundViewShowRed()
+            local isFundRed = false
+            if (GlobalFuncDataMgr:isOpen(2)) then
+                isFundRed = RechargeDataMgr:isGrowFundViewShowRed()
+            end
             if self.selectIndex == idx then
                 for i, _item in ipairs(self.topTabListView:getItems()) do
                     local topRedIshow = false
@@ -253,7 +258,9 @@ function SupplyMainNewView:updateTopTabBtn()
         item.img_red = TFDirector:getChildByPath(item, "img_red")
         item.img_icon = TFDirector:getChildByPath(item, "img_icon")
 
-        if self.selectIndex == 2 and v.id == 4 then -- 特权支援图片改为服务器下发
+        -- 判断为补给页签
+        local isSupply = (self.tabBtnCfg[self.selectIndex].tabType == ENUM_SUPPLYS.SUPPLY) and true or false
+        if isSupply and v.id == 4 then -- 特权支援图片改为服务器下发
             local storeData = StoreDataMgr:getOpenStore(EC_StoreType.NEW_SUPPORT)
             if storeData[1] then
                 local srcPic = StoreDataMgr:getStoreInfo(storeData[1]).pic
@@ -267,7 +274,7 @@ function SupplyMainNewView:updateTopTabBtn()
         item.id = v.id
         item:onClick(function()
             self:topBtnClickFunc(i)
-            if self.selectIndex == 2 then
+            if isSupply then
                 if v.id == 3 and not RechargeDataMgr:getDayHadInFundView() then
                     RechargeDataMgr:setDayHadInFundView()
                     self:updateAllRed()
@@ -283,11 +290,11 @@ function SupplyMainNewView:getCurTopCanShowData()
     local _data = {}
     local topBannerDisId = self.tabBtnCfg[self.selectIndex].topBannerDisId
     local data = Utils:getKVP(topBannerDisId)
-    local supplyTabIdx = 1
-    if GlobalFuncDataMgr:isOpen(7) then
-        supplyTabIdx = 2
-    end
-    if self.selectIndex == supplyTabIdx then -- 补给站固定
+
+    -- 判断为补给页签
+    local isSupply = (self.tabBtnCfg[self.selectIndex].tabType == ENUM_SUPPLYS.SUPPLY) and true or false
+
+    if isSupply then -- 补给站固定
         -- TODO CLOSE
         -- 屏蔽特勤支援
         for k, v in pairs(data) do

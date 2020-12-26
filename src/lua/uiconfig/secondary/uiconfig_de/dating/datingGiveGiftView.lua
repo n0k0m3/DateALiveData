@@ -553,7 +553,7 @@ local t =
 												PositionX = 132,
 												PositionY = 80,
 											},
-											width = "70",
+											width = "68",
 											ZOrder = "1",
 										},
 										{
@@ -671,7 +671,7 @@ local t =
 												PositionX = 132,
 												PositionY = 109,
 											},
-											width = "48",
+											width = "46",
 											ZOrder = "1",
 										},
 										{
@@ -795,7 +795,7 @@ local t =
 													{
 														PositionY = -4,
 													},
-													width = "85",
+													width = "79",
 													ZOrder = "1",
 												},
 											},
@@ -907,7 +907,7 @@ local t =
 											{
 												PositionY = -50,
 											},
-											width = "111",
+											width = "106",
 											ZOrder = "1",
 										},
 										{
@@ -1157,7 +1157,7 @@ local t =
 													{
 														PositionY = 10,
 													},
-													width = "48",
+													width = "46",
 													ZOrder = "1",
 												},
 												{
@@ -1260,7 +1260,7 @@ local t =
 														PositionX = 180,
 														PositionY = 10,
 													},
-													width = "48",
+													width = "51",
 													ZOrder = "1",
 												},
 											},
@@ -1345,7 +1345,7 @@ local t =
 													{
 														PositionY = 10,
 													},
-													width = "70",
+													width = "68",
 													ZOrder = "1",
 												},
 												{
@@ -1448,7 +1448,7 @@ local t =
 														PositionX = 180,
 														PositionY = 10,
 													},
-													width = "92",
+													width = "95",
 													ZOrder = "1",
 												},
 											},
@@ -1694,7 +1694,7 @@ local t =
 													{
 														PositionX = 30,
 													},
-													width = "39",
+													width = "31",
 													ZOrder = "1",
 												},
 											},
@@ -1865,7 +1865,7 @@ local t =
 													{
 														PositionX = 30,
 													},
-													width = "39",
+													width = "31",
 													ZOrder = "1",
 												},
 											},
@@ -1960,7 +1960,7 @@ local t =
 							DesignType = "0",
 							DesignWidth = "960",
 							dstBlendFunc = "771",
-							height = "260",
+							height = "397",
 							ignoreSize = "False",
 							name = "Panel_buttonList",
 							sizepercentx = "0",
@@ -1971,14 +1971,14 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = 40,
-								PositionY = 60,
+								PositionY = 84,
 							},
 							uipanelviewmodel = 
 							{
 								Layout="Absolute",
 								nType = "0"
 							},
-							width = "72",
+							width = "89",
 							ZOrder = "10000",
 							components = 
 							{
@@ -2007,7 +2007,7 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionY = 258,
+										PositionY = 237,
 									},
 									UItype = "Button",
 									width = "82",
@@ -2090,7 +2090,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = 12,
+												
 											},
 											width = "48",
 											ZOrder = "1",
@@ -2135,9 +2135,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = -20,
+												PositionY = -53,
 											},
-											width = "47",
+											width = "51",
 											ZOrder = "1",
 										},
 									},
@@ -2166,7 +2166,8 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionY = 78,
+										PositionX = 4,
+										PositionY = 19,
 									},
 									UItype = "Button",
 									width = "82",
@@ -2219,7 +2220,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = 12,
+												
 											},
 											width = "48",
 											ZOrder = "1",
@@ -2264,8 +2265,8 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 2,
-												PositionY = -31,
+												PositionX = 5,
+												PositionY = -67,
 											},
 											width = "120",
 											ZOrder = "1",
@@ -2435,7 +2436,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = 12,
+												
 											},
 											width = "48",
 											ZOrder = "1",
@@ -2480,9 +2481,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = -20,
+												PositionX = 1,
+												PositionY = -52,
 											},
-											width = "70",
+											width = "80",
 											ZOrder = "1",
 										},
 										{
@@ -2528,7 +2530,7 @@ local t =
 												PositionY = -20,
 											},
 											visible = "False",
-											width = "103",
+											width = "111",
 											ZOrder = "1",
 										},
 									},
@@ -2557,7 +2559,7 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionY = 168,
+										PositionY = 131,
 									},
 									UItype = "Button",
 									width = "82",
@@ -2610,7 +2612,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = 12,
+												
 											},
 											width = "48",
 											ZOrder = "1",
@@ -2655,9 +2657,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = -20,
+												PositionY = -53,
 											},
-											width = "72",
+											width = "77",
 											ZOrder = "1",
 										},
 									},
@@ -2756,8 +2758,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 80,
-								PositionY = 42,
+								PositionX = 214,
+								PositionY = 45,
 								LeftPositon = 134,
 								TopPosition = 569,
 								relativeToName = "Panel",
@@ -2849,7 +2851,7 @@ local t =
 										PositionX = 18,
 										PositionY = 6,
 									},
-									width = "51",
+									width = "46",
 									ZOrder = "1",
 								},
 								{
@@ -2895,7 +2897,7 @@ local t =
 										PositionX = -41,
 										PositionY = -4,
 									},
-									width = "21",
+									width = "20",
 									ZOrder = "1",
 								},
 								{
@@ -2941,7 +2943,7 @@ local t =
 										PositionX = -17,
 										PositionY = -19,
 									},
-									width = "15",
+									width = "14",
 									ZOrder = "1",
 								},
 							},
@@ -3723,7 +3725,7 @@ local t =
 						position = 
 						{
 							x=-260,
-							y=60,
+							y=80,
 						},
 						rotate = 0,
 						scale = 
@@ -3755,7 +3757,7 @@ local t =
 						position = 
 						{
 							x=80,
-							y=60,
+							y=80,
 						},
 						rotate = 0,
 						scale = 
@@ -3826,7 +3828,7 @@ local t =
 						},
 						position = 
 						{
-							x=80,
+							x=300,
 							y=42,
 						},
 						rotate = 0,
@@ -3875,7 +3877,7 @@ local t =
 						position = 
 						{
 							x=80,
-							y=60,
+							y=80,
 						},
 						rotate = 0,
 						scale = 
@@ -3907,7 +3909,7 @@ local t =
 						position = 
 						{
 							x=-260,
-							y=60,
+							y=80,
 						},
 						rotate = 0,
 						scale = 
@@ -3946,7 +3948,7 @@ local t =
 						},
 						position = 
 						{
-							x=80,
+							x=300,
 							y=42,
 						},
 						rotate = 0,
@@ -4403,7 +4405,7 @@ local t =
 						position = 
 						{
 							x=1342,
-							y=60,
+							y=80,
 						},
 						rotate = 0,
 						scale = 
@@ -4435,7 +4437,7 @@ local t =
 						position = 
 						{
 							x=1042,
-							y=60,
+							y=80,
 						},
 						rotate = 0,
 						scale = 
@@ -4627,7 +4629,7 @@ local t =
 						position = 
 						{
 							x=1042,
-							y=60,
+							y=80,
 						},
 						rotate = 0,
 						scale = 
@@ -4659,7 +4661,7 @@ local t =
 						position = 
 						{
 							x=1342,
-							y=60,
+							y=80,
 						},
 						rotate = 0,
 						scale = 
@@ -4851,7 +4853,7 @@ local t =
 						position = 
 						{
 							x=-260,
-							y=60,
+							y=80,
 						},
 						rotate = 0,
 						scale = 
@@ -4883,7 +4885,7 @@ local t =
 						position = 
 						{
 							x=80,
-							y=60,
+							y=80,
 						},
 						rotate = 0,
 						scale = 
@@ -4954,7 +4956,7 @@ local t =
 						},
 						position = 
 						{
-							x=80,
+							x=300,
 							y=42,
 						},
 						rotate = 0,
@@ -5075,7 +5077,7 @@ local t =
 						position = 
 						{
 							x=80,
-							y=60,
+							y=80,
 						},
 						rotate = 0,
 						scale = 
@@ -5107,7 +5109,7 @@ local t =
 						position = 
 						{
 							x=-260,
-							y=60,
+							y=80,
 						},
 						rotate = 0,
 						scale = 
@@ -5146,7 +5148,7 @@ local t =
 						},
 						position = 
 						{
-							x=80,
+							x=300,
 							y=42,
 						},
 						rotate = 0,

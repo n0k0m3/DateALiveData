@@ -672,7 +672,7 @@ local t =
 												PositionX = -117,
 												PositionY = -1,
 											},
-											width = "165",
+											width = "177",
 											ZOrder = "1",
 										},
 										{
@@ -717,7 +717,7 @@ local t =
 											{
 												PositionX = 92,
 											},
-											width = "58",
+											width = "70",
 											ZOrder = "1",
 										},
 										{
@@ -817,7 +817,7 @@ local t =
 										PositionX = -401,
 										PositionY = -287,
 									},
-									width = "127",
+									width = "120",
 									ZOrder = "1",
 								},
 								{
@@ -891,7 +891,7 @@ local t =
 										PositionX = -225,
 										PositionY = -287,
 									},
-									width = "57",
+									width = "54",
 									ZOrder = "1",
 								},
 								{
@@ -938,7 +938,7 @@ local t =
 										PositionY = 226,
 									},
 									visible = "False",
-									width = "289",
+									width = "264",
 									ZOrder = "1",
 								},
 								{
@@ -2002,7 +2002,7 @@ local t =
 											{
 												
 											},
-											width = "23",
+											width = "21",
 											ZOrder = "1",
 										},
 									},
@@ -2335,7 +2335,6 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							visible = "False",
 							width = "1136",
 							ZOrder = "1",
 							components = 
@@ -2450,7 +2449,7 @@ local t =
 											{
 												PositionX = -202,
 											},
-											width = "277",
+											width = "300",
 											ZOrder = "1",
 										},
 										{
@@ -2574,7 +2573,7 @@ local t =
 													outlineColor = "#FF000000",
 													outlineSize = "1",
 													passwordEnable = "False",
-													placeHolder = "input TextField",
+													placeHolder = "     ",
 													shadowColor = "#FF000000",
 													shadowHeight = "0",
 													shadowWidth = "0",
@@ -2582,6 +2581,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
+													text = "1",
 													touchAble = "True",
 													UILayoutViewModel = 
 													{
@@ -2658,7 +2658,7 @@ local t =
 											controlID = "Label_closeTips_Panel_inviteClose_Panel_invite_Panel_root_Panel-friendView_Layer1_friend_Game",
 											UUID = "361d8393_649c_4be0_9512_4964a85ec3fd",
 											anchorPoint = "False",
-											anchorPointX = "0",
+											anchorPointX = "1",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
@@ -2693,7 +2693,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 126,
+												PositionX = 502,
 												PositionY = -62,
 											},
 											width = "0",
@@ -2783,7 +2783,7 @@ local t =
 												PositionX = -202,
 												PositionY = 15,
 											},
-											width = "236",
+											width = "256",
 											ZOrder = "1",
 										},
 										{
@@ -3003,7 +3003,7 @@ local t =
 												PositionX = 196,
 												PositionY = -64,
 											},
-											width = "88",
+											width = "86",
 											ZOrder = "1",
 										},
 										{
@@ -3247,7 +3247,7 @@ local t =
 										PositionX = -420,
 										PositionY = -300,
 									},
-									width = "373",
+									width = "353",
 									ZOrder = "1",
 								},
 							},
@@ -4581,7 +4581,7 @@ local t =
 										PositionX = 23,
 										PositionY = 27,
 									},
-									width = "103",
+									width = "110",
 									ZOrder = "1",
 								},
 								{
@@ -4627,7 +4627,7 @@ local t =
 										PositionX = 154,
 										PositionY = 30,
 									},
-									width = "71",
+									width = "83",
 									ZOrder = "1",
 								},
 							},
@@ -4969,7 +4969,7 @@ local t =
 												PositionX = -328,
 												PositionY = -38,
 											},
-											width = "27",
+											width = "29",
 											ZOrder = "1",
 										},
 										{
@@ -5015,7 +5015,7 @@ local t =
 												PositionX = -260,
 												PositionY = 7,
 											},
-											width = "168",
+											width = "157",
 											ZOrder = "1",
 										},
 										{
@@ -5061,7 +5061,7 @@ local t =
 												PositionX = -250,
 												PositionY = -38,
 											},
-											width = "93",
+											width = "90",
 											ZOrder = "1",
 										},
 										{
@@ -5107,7 +5107,7 @@ local t =
 												PositionX = 38,
 												PositionY = 7,
 											},
-											width = "98",
+											width = "108",
 											ZOrder = "1",
 										},
 										{
@@ -5185,15 +5185,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "15",
+											fontSize = "14",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "0",
-											ignoreSize = "False",
+											height = "16",
+											ignoreSize = "True",
 											name = "Label_recentLogin",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -5206,10 +5206,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -142,
-												PositionY = -38,
+												PositionX = -147,
+												PositionY = -35,
 											},
-											width = "210",
+											width = "99",
 											ZOrder = "1",
 										},
 										{
@@ -5312,7 +5312,7 @@ local t =
 														PositionY = -21,
 													},
 													visible = "False",
-													width = "89",
+													width = "83",
 													ZOrder = "1",
 												},
 											},
@@ -5418,7 +5418,7 @@ local t =
 														PositionY = -21,
 													},
 													visible = "False",
-													width = "69",
+													width = "68",
 													ZOrder = "1",
 												},
 											},
@@ -5524,7 +5524,7 @@ local t =
 														PositionY = -21,
 													},
 													visible = "False",
-													width = "76",
+													width = "71",
 													ZOrder = "1",
 												},
 											},
@@ -5630,7 +5630,7 @@ local t =
 														PositionY = -21,
 													},
 													visible = "False",
-													width = "59",
+													width = "58",
 													ZOrder = "1",
 												},
 											},
@@ -5736,7 +5736,7 @@ local t =
 														PositionY = -21,
 													},
 													visible = "False",
-													width = "63",
+													width = "62",
 													ZOrder = "1",
 												},
 											},
@@ -5842,7 +5842,7 @@ local t =
 														PositionY = -21,
 													},
 													visible = "False",
-													width = "92",
+													width = "86",
 													ZOrder = "1",
 												},
 											},
@@ -6132,7 +6132,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "15",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -6319,7 +6319,7 @@ local t =
 										PositionX = -463,
 										PositionY = 43,
 									},
-									width = "139",
+									width = "135",
 									ZOrder = "1",
 								},
 								{
@@ -6500,7 +6500,7 @@ local t =
 											{
 												
 											},
-											width = "91",
+											width = "82",
 											ZOrder = "1",
 										},
 									},
@@ -6862,7 +6862,7 @@ local t =
 												PositionX = -328,
 												PositionY = -38,
 											},
-											width = "27",
+											width = "29",
 											ZOrder = "1",
 										},
 										{
@@ -6908,7 +6908,7 @@ local t =
 												PositionX = -260,
 												PositionY = 7,
 											},
-											width = "168",
+											width = "157",
 											ZOrder = "1",
 										},
 										{
@@ -6954,7 +6954,7 @@ local t =
 												PositionX = -250,
 												PositionY = -38,
 											},
-											width = "93",
+											width = "90",
 											ZOrder = "1",
 										},
 										{
@@ -7000,7 +7000,7 @@ local t =
 												PositionX = 38,
 												PositionY = 7,
 											},
-											width = "98",
+											width = "108",
 											ZOrder = "1",
 										},
 										{
@@ -7078,15 +7078,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "15",
+											fontSize = "14",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "0",
-											ignoreSize = "False",
+											height = "16",
+											ignoreSize = "True",
 											name = "Label_recentLogin",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -7099,10 +7099,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -142,
-												PositionY = -38,
+												PositionX = -147,
+												PositionY = -36,
 											},
-											width = "210",
+											width = "99",
 											ZOrder = "1",
 										},
 										{
@@ -7259,7 +7259,7 @@ local t =
 														
 													},
 													visible = "False",
-													width = "135",
+													width = "125",
 													ZOrder = "1",
 												},
 											},

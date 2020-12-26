@@ -3,19 +3,19 @@ return {
         id = 1,
         beginTime  = "00:00:01,0",
         endTime  = "00:00:09,0",
-        content  = "Diese hat den Codenamen \"Eremit\". \nUnter den Geistern ist sie daf체r bekannt, \nbesonders f체gsam zu sein.",
+        content  = "Diese hat den Codenamen \"Eremit\". \nUnter den Geistern ist sie dafür bekannt, \nbesonders fügsam zu sein.",
     },
     [2] = {
         id = 2,
         beginTime  = "00:00:09,800",
         endTime  = "00:00:12,0",
-        content  = "Warte, das ist... Ich habe dieses M채dchen schon einmal",
+        content  = "Warte, das ist... Ich habe dieses Mädchen schon einmal",
     },
     [3] = {
         id = 3,
         beginTime  = "00:00:13,0",
         endTime  = "00:00:16,0",
-        content  = "beim Schrein getroffen! Was hast du gesagt? \nDu hast Eremit tats채chlich schon getroffen?",
+        content  = "beim Schrein getroffen! Was hast du gesagt? \nDu hast Eremit tatsächlich schon getroffen?",
     },
     [4] = {
         id = 4,

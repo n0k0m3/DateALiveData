@@ -5,10 +5,10 @@ return {
         baseLevel = {
             [1] = 1,
         },
-        beginDate = "2020/12/24",
+        beginDate = "2020/12/23",
         beginSec = 0,
         infoId = 151017,
-        endDate = "2020/12/24",
+        endDate = "2020/12/23",
     },
     [2] = {
         endSec = 86400,
@@ -16,10 +16,10 @@ return {
         baseLevel = {
             [1] = 1,
         },
-        beginDate = "2020/12/25",
+        beginDate = "2020/12/24",
         beginSec = 0,
         infoId = 151018,
-        endDate = "2020/12/25",
+        endDate = "2020/12/24",
     },
     [3] = {
         endSec = 86400,
@@ -27,10 +27,10 @@ return {
         baseLevel = {
             [1] = 1,
         },
-        beginDate = "2020/12/26",
+        beginDate = "2020/12/25",
         beginSec = 0,
         infoId = 151019,
-        endDate = "2020/12/26",
+        endDate = "2020/12/25",
     },
     [4] = {
         endSec = 86400,
@@ -38,10 +38,10 @@ return {
         baseLevel = {
             [1] = 1,
         },
-        beginDate = "2020/12/27",
+        beginDate = "2020/12/26",
         beginSec = 0,
         infoId = 151020,
-        endDate = "2020/12/27",
+        endDate = "2020/12/26",
     },
     [5] = {
         endSec = 86400,
@@ -49,14 +49,25 @@ return {
         baseLevel = {
             [1] = 1,
         },
-        beginDate = "2020/12/28",
+        beginDate = "2020/12/27",
         beginSec = 0,
         infoId = 151021,
-        endDate = "2020/12/28",
+        endDate = "2020/12/27",
     },
     [6] = {
         endSec = 86400,
         id = 6,
+        baseLevel = {
+            [1] = 1,
+        },
+        beginDate = "2020/12/28",
+        beginSec = 0,
+        infoId = 151022,
+        endDate = "2020/12/28",
+    },
+    [7] = {
+        endSec = 86400,
+        id = 7,
         baseLevel = {
             [1] = 1,
         },
@@ -65,9 +76,9 @@ return {
         infoId = 151022,
         endDate = "2020/12/29",
     },
-    [7] = {
+    [8] = {
         endSec = 86400,
-        id = 7,
+        id = 8,
         baseLevel = {
             [1] = 1,
         },
@@ -76,9 +87,9 @@ return {
         infoId = 151022,
         endDate = "2020/12/30",
     },
-    [8] = {
+    [9] = {
         endSec = 86400,
-        id = 8,
+        id = 9,
         baseLevel = {
             [1] = 1,
         },
@@ -87,9 +98,9 @@ return {
         infoId = 151022,
         endDate = "2020/12/31",
     },
-    [9] = {
+    [10] = {
         endSec = 86400,
-        id = 9,
+        id = 10,
         baseLevel = {
             [1] = 1,
         },
@@ -98,9 +109,9 @@ return {
         infoId = 151022,
         endDate = "2021/1/1",
     },
-    [10] = {
+    [11] = {
         endSec = 86400,
-        id = 10,
+        id = 11,
         baseLevel = {
             [1] = 1,
         },
@@ -109,9 +120,9 @@ return {
         infoId = 151022,
         endDate = "2021/1/2",
     },
-    [11] = {
+    [12] = {
         endSec = 86400,
-        id = 11,
+        id = 12,
         baseLevel = {
             [1] = 1,
         },
@@ -120,9 +131,9 @@ return {
         infoId = 151022,
         endDate = "2021/1/3",
     },
-    [12] = {
+    [13] = {
         endSec = 86400,
-        id = 12,
+        id = 13,
         baseLevel = {
             [1] = 1,
         },
@@ -131,9 +142,9 @@ return {
         infoId = 151022,
         endDate = "2021/1/4",
     },
-    [13] = {
+    [14] = {
         endSec = 86400,
-        id = 13,
+        id = 14,
         baseLevel = {
             [1] = 1,
         },
@@ -142,9 +153,9 @@ return {
         infoId = 151022,
         endDate = "2021/1/5",
     },
-    [14] = {
+    [15] = {
         endSec = 86400,
-        id = 14,
+        id = 15,
         baseLevel = {
             [1] = 1,
         },
@@ -152,16 +163,5 @@ return {
         beginSec = 0,
         infoId = 151022,
         endDate = "2021/1/6",
-    },
-    [15] = {
-        endSec = 86400,
-        id = 15,
-        baseLevel = {
-            [1] = 1,
-        },
-        beginDate = "2021/1/7",
-        beginSec = 0,
-        infoId = 151022,
-        endDate = "2021/1/7",
     },
 }

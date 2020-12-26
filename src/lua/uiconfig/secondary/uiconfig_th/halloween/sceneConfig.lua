@@ -1,0 +1,43 @@
+local t = {
+		{
+			name="halloweenTaskView",
+			ui ="halloweenTaskView.lua",
+			x=0,
+			y=0,
+			speed=0,
+			layer="halloween",
+			canLoad=true,
+			logic="",
+		},
+		{
+			name="halloweenBuffView",
+			ui ="halloweenBuffView.lua",
+			x=0,
+			y=0,
+			speed=0,
+			layer="halloween",
+			canLoad=true,
+			logic="",
+		},
+		{
+			name="halloweenRankView",
+			ui ="halloweenRankView.lua",
+			x=0,
+			y=0,
+			speed=0,
+			layer="halloween",
+			canLoad=true,
+			logic="",
+		},
+		{
+			name="halloweenGameView",
+			ui ="halloweenGameView.lua",
+			x=0,
+			y=0,
+			speed=0,
+			layer="halloween",
+			canLoad=true,
+			logic="",
+		},
+}
+return t

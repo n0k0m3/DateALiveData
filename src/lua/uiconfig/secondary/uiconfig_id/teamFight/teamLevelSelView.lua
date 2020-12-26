@@ -183,7 +183,7 @@ local t =
 											controlID = "Label_title_Image_open_time_Panel_level_sel_Panel_root_Panel-teamLevelSelView_Layer1_teamFight_Game",
 											UUID = "ef1959f8_bc6b_43ad_9683_6bd2de20f86e",
 											anchorPoint = "False",
-											anchorPointX = "0.5",
+											anchorPointX = "0",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
@@ -219,10 +219,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -28,
-												PositionY = -4,
+												PositionX = -107,
+												PositionY = -2,
 											},
-											width = "151",
+											width = "160",
 											ZOrder = "1",
 										},
 										{
@@ -265,10 +265,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 72,
-												PositionY = -5,
+												PositionX = 39,
+												PositionY = -36,
 											},
-											width = "249",
+											width = "242",
 											ZOrder = "1",
 										},
 									},
@@ -635,7 +635,7 @@ local t =
 												PositionX = -26,
 												PositionY = 430,
 											},
-											width = "284",
+											width = "306",
 											ZOrder = "1",
 										},
 										{
@@ -734,7 +734,7 @@ local t =
 													{
 														PositionX = -4,
 													},
-													width = "26",
+													width = "25",
 													ZOrder = "1",
 												},
 											},
@@ -764,7 +764,7 @@ local t =
 												StrokeSize = 1,
 											},
 											hAlignment = "0",
-											height = "130",
+											height = "0",
 											ignoreSize = "False",
 											name = "TextArea_desc",
 											sizepercentx = "0",
@@ -968,7 +968,7 @@ local t =
 														PositionX = 2,
 														PositionY = 34,
 													},
-													width = "59",
+													width = "58",
 													ZOrder = "1",
 												},
 												{
@@ -1040,7 +1040,7 @@ local t =
 														PositionX = 90,
 														PositionY = 25,
 													},
-													width = "48",
+													width = "46",
 													ZOrder = "1",
 												},
 											},
@@ -1114,9 +1114,8 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = -185,
-														PositionY = -7,
 													},
-													width = "201",
+													width = "195",
 													ZOrder = "1",
 												},
 												{
@@ -1162,7 +1161,7 @@ local t =
 														PositionX = -25,
 														PositionY = -2,
 													},
-													width = "38",
+													width = "37",
 													ZOrder = "1",
 												},
 												{
@@ -1342,7 +1341,7 @@ local t =
 														PositionX = 95,
 														PositionY = -10,
 													},
-													width = "172",
+													width = "157",
 													ZOrder = "1",
 												},
 												{

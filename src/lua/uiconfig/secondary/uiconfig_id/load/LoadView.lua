@@ -189,14 +189,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "15",
+											fontSize = "14",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "17",
+											height = "16",
 											ignoreSize = "True",
 											name = "Label_xts",
 											nTextAlign = "1",
@@ -212,7 +212,7 @@ local t =
 											{
 												PositionX = -17,
 											},
-											width = "74",
+											width = "76",
 											ZOrder = "1",
 										},
 									},
@@ -330,7 +330,7 @@ local t =
 							controlID = "Label_tip_Panel_base_Panel-LoadView_Layer1_load_Game",
 							UUID = "8117be68_35d5_4f91_9e8e_6a3171737a45",
 							anchorPoint = "False",
-							anchorPointX = "0.5",
+							anchorPointX = "0",
 							anchorPointY = "0.5",
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
@@ -355,8 +355,8 @@ local t =
 							height = "0",
 							ignoreSize = "False",
 							name = "Label_tip",
-							nTextAlign = "1",
-							nTextHAlign = "1",
+							nTextAlign = "0",
+							nTextHAlign = "0",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
@@ -366,10 +366,10 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 577,
-								PositionY = 33,
+								PositionX = 128,
+								PositionY = 31,
 							},
-							width = "700",
+							width = "1000",
 							ZOrder = "1",
 						},
 						{
@@ -418,7 +418,7 @@ local t =
 								PercentX = 47.61,
 								PercentY = 37.54,
 							},
-							width = "72",
+							width = "71",
 							ZOrder = "1",
 						},
 						{
@@ -758,7 +758,7 @@ local t =
 														PositionX = 72,
 														PositionY = -5,
 													},
-													width = "57",
+													width = "64",
 													ZOrder = "1",
 												},
 											},
@@ -862,7 +862,7 @@ local t =
 											{
 												PositionX = 14,
 											},
-											width = "32",
+											width = "31",
 											ZOrder = "1",
 											components = 
 											{
@@ -910,7 +910,7 @@ local t =
 														PositionX = 6,
 														PositionY = -3,
 													},
-													width = "13",
+													width = "12",
 													ZOrder = "1",
 												},
 											},
@@ -1015,7 +1015,7 @@ local t =
 										PositionX = 110,
 										PositionY = 58,
 									},
-									width = "155",
+									width = "144",
 									ZOrder = "1",
 								},
 								{

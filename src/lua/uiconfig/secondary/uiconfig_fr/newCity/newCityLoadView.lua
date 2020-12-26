@@ -212,7 +212,7 @@ local t =
 											{
 												PositionX = -17,
 											},
-											width = "78",
+											width = "82",
 											ZOrder = "1",
 										},
 									},
@@ -310,7 +310,7 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "15",
+							fontSize = "18",
 							fontStroke = 
 							{
 								IsStroke = false,
@@ -320,8 +320,8 @@ local t =
 							height = "0",
 							ignoreSize = "False",
 							name = "Label_tip",
-							nTextAlign = "1",
-							nTextHAlign = "1",
+							nTextAlign = "0",
+							nTextHAlign = "0",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
@@ -331,10 +331,10 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 250,
+								PositionX = 131,
 								PositionY = 33,
 							},
-							width = "660",
+							width = "1000",
 							ZOrder = "1",
 						},
 						{
@@ -383,7 +383,7 @@ local t =
 								PercentX = 50,
 								PercentY = 31.75,
 							},
-							width = "72",
+							width = "71",
 							ZOrder = "1",
 						},
 					},

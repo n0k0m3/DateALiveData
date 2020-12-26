@@ -33,6 +33,7 @@ end
     msg : lua出错时的msg信息
 ]]
 function Bugly:ReportLuaException(msg, eventName)
+    if true then return end
     if (CC_TARGET_PLATFORM == CC_PLATFORM_WIN32) then return end
 
     if self.cachedError[msg] then return end

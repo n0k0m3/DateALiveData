@@ -70,8 +70,7 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
-						PositionX = -147,
-						PositionY = 40,
+						PositionX = -88,
 						relativeToName = "Panel",
 						nType = 3,
 						nGravity = 6,
@@ -113,7 +112,7 @@ local t =
 								PercentX = 50,
 								PercentY = 50,
 							},
-							width = "560",
+							width = "656",
 							ZOrder = "1",
 							components = 
 							{
@@ -140,7 +139,7 @@ local t =
 									{
 										PositionY = 15,
 									},
-									width = "540",
+									width = "627",
 									ZOrder = "1",
 								},
 							},
@@ -169,8 +168,8 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 816,
-								PositionY = 456,
+								PositionX = 854,
+								PositionY = 454,
 							},
 							UItype = "Button",
 							width = "60",
@@ -216,10 +215,10 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 301,
-								PositionY = 450,
+								PositionX = 252,
+								PositionY = 454,
 							},
-							width = "294",
+							width = "307",
 							ZOrder = "1",
 							components = 
 							{
@@ -268,7 +267,7 @@ local t =
 										PositionX = 114,
 									},
 									visible = "False",
-									width = "9",
+									width = "10",
 									ZOrder = "1",
 								},
 								{
@@ -315,7 +314,7 @@ local t =
 										PositionY = -2,
 									},
 									visible = "False",
-									width = "80",
+									width = "69",
 									ZOrder = "1",
 								},
 							},
@@ -424,7 +423,7 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 483,
+								PositionX = 439,
 								PositionY = 334,
 							},
 							uipanelviewmodel = 
@@ -846,8 +845,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 266,
-										PositionY = 32,
+										PositionX = 306,
+										PositionY = 33,
 									},
 									uipanelviewmodel = 
 									{
@@ -930,14 +929,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "10",
+													fontSize = "16",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "11",
+													height = "18",
 													ignoreSize = "True",
 													name = "Label_on",
 													nTextAlign = "1",
@@ -951,9 +950,9 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -22,
+														PositionX = -80,
 													},
-													width = "31",
+													width = "49",
 													ZOrder = "1",
 												},
 												{
@@ -975,14 +974,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "10",
+													fontSize = "16",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "11",
+													height = "18",
 													ignoreSize = "True",
 													name = "Label_off",
 													nTextAlign = "1",
@@ -996,9 +995,9 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 22,
+														PositionX = 82,
 													},
-													width = "46",
+													width = "70",
 													ZOrder = "1",
 												},
 											},
@@ -1045,7 +1044,7 @@ local t =
 											{
 												PositionY = 32,
 											},
-											width = "125",
+											width = "116",
 											ZOrder = "1",
 										},
 									},
@@ -1075,8 +1074,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 266,
-										PositionY = -43,
+										PositionX = 306,
+										PositionY = -41,
 									},
 									uipanelviewmodel = 
 									{
@@ -1159,14 +1158,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "10",
+													fontSize = "16",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "11",
+													height = "17",
 													ignoreSize = "True",
 													name = "Label_on",
 													nTextAlign = "1",
@@ -1180,9 +1179,9 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -22,
+														PositionX = -80,
 													},
-													width = "31",
+													width = "46",
 													ZOrder = "1",
 												},
 												{
@@ -1204,14 +1203,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "10",
+													fontSize = "16",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "11",
+													height = "18",
 													ignoreSize = "True",
 													name = "Label_off",
 													nTextAlign = "1",
@@ -1225,9 +1224,9 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 22,
+														PositionX = 82,
 													},
-													width = "46",
+													width = "70",
 													ZOrder = "1",
 												},
 											},
@@ -1274,7 +1273,7 @@ local t =
 											{
 												PositionY = 32,
 											},
-											width = "166",
+											width = "157",
 											ZOrder = "1",
 										},
 									},
@@ -1361,7 +1360,7 @@ local t =
 									{
 										PositionX = -137,
 									},
-									width = "114",
+									width = "115",
 									ZOrder = "1",
 								},
 								{

@@ -460,7 +460,7 @@ local t =
 												PositionX = -155,
 												PositionY = 75,
 											},
-											width = "298",
+											width = "323",
 											ZOrder = "1",
 										},
 										{
@@ -506,7 +506,7 @@ local t =
 												PositionX = -137,
 												PositionY = -61,
 											},
-											width = "143",
+											width = "141",
 											ZOrder = "1",
 											components = 
 											{
@@ -569,7 +569,7 @@ local t =
 											controlID = "Label_desc_cell_gift_img_di_panel_cell_Panel-hotMallView_Layer1_recharge_Game",
 											UUID = "191935cf_c156_46aa_9495_aa99c232f655",
 											anchorPoint = "False",
-											anchorPointX = "0.5",
+											anchorPointX = "1",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
@@ -605,10 +605,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 101,
+												PositionX = 150,
 												PositionY = -47,
 											},
-											width = "117",
+											width = "120",
 											ZOrder = "1",
 										},
 										{
@@ -654,7 +654,7 @@ local t =
 												PositionX = -130,
 												PositionY = -86,
 											},
-											width = "8",
+											width = "11",
 											ZOrder = "1",
 										},
 										{
@@ -700,7 +700,7 @@ local t =
 												PositionX = -51,
 												PositionY = -86,
 											},
-											width = "135",
+											width = "122",
 											ZOrder = "1",
 										},
 										{
@@ -774,7 +774,7 @@ local t =
 														PositionX = -55,
 														PositionY = 1,
 													},
-													width = "53",
+													width = "57",
 													ZOrder = "1",
 												},
 												{
@@ -821,7 +821,7 @@ local t =
 														PositionY = 1,
 													},
 													visible = "False",
-													width = "382",
+													width = "409",
 													ZOrder = "1",
 												},
 											},
@@ -928,7 +928,7 @@ local t =
 														PositionX = 34,
 														PositionY = -10,
 													},
-													width = "51",
+													width = "53",
 													ZOrder = "1",
 												},
 												{

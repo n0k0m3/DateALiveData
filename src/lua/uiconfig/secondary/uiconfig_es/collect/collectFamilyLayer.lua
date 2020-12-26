@@ -243,7 +243,7 @@ local t =
 										PositionY = 59,
 									},
 									UItype = "Button",
-									width = "292",
+									width = "316",
 									ZOrder = "1",
 									components = 
 									{
@@ -288,10 +288,11 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
+												PositionX = -4,
 												PositionY = -7,
 												relativeToName = "Panel",
 											},
-											width = "199",
+											width = "221",
 											ZOrder = "1",
 										},
 									},

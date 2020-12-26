@@ -120,7 +120,7 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "64",
+							height = "2",
 							ignoreSize = "True",
 							name = "Image_demo",
 							sizepercentx = "0",
@@ -135,7 +135,7 @@ local t =
 								PositionY = 320,
 							},
 							visible = "False",
-							width = "64",
+							width = "2",
 							ZOrder = "1",
 						},
 						{
@@ -538,14 +538,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_medal_name",
 									nTextAlign = "1",
@@ -561,7 +561,7 @@ local t =
 									{
 										PositionY = -100,
 									},
-									width = "91",
+									width = "94",
 									ZOrder = "1",
 								},
 								{
@@ -884,7 +884,7 @@ local t =
 									{
 										PositionY = -49,
 									},
-									width = "91",
+									width = "105",
 									ZOrder = "1",
 								},
 								{

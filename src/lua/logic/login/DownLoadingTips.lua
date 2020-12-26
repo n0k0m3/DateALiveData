@@ -66,6 +66,8 @@ function DownLoadingTips:initUI(ui)
 end
 
 function DownLoadingTips:setUpdateText()
+	--TODO CLOSE 屏蔽热更新界面公告
+	if true then return end
 	local content = self.params.Content
 	local size = self.ListView_desc:getContentSize()
     local Label_content = self.Label_updateItem:clone():Show()

@@ -223,7 +223,7 @@ local t =
 												PositionX = 4,
 												PositionY = -1,
 											},
-											width = "70",
+											width = "83",
 											ZOrder = "1",
 										},
 									},
@@ -316,7 +316,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "90",
+											fontSize = "80",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -339,9 +339,9 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = 954,
-												PositionY = 475,
+												PositionY = 454,
 											},
-											width = "451",
+											width = "421",
 											ZOrder = "1",
 										},
 										{
@@ -628,7 +628,7 @@ local t =
 															{
 																
 															},
-															width = "385",
+															width = "354",
 															ZOrder = "1",
 														},
 													},
@@ -742,7 +742,7 @@ local t =
 															{
 																
 															},
-															width = "385",
+															width = "354",
 															ZOrder = "1",
 														},
 													},
@@ -857,7 +857,7 @@ local t =
 															{
 																
 															},
-															width = "385",
+															width = "354",
 															ZOrder = "1",
 														},
 													},
@@ -909,7 +909,7 @@ local t =
 										PositionX = -200,
 										PositionY = -500,
 									},
-									width = "113",
+									width = "119",
 									ZOrder = "1",
 								},
 							},

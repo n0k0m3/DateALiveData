@@ -391,17 +391,17 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = -153,
+																PositionX = -138,
 																PositionY = 95,
 															},
-															width = "144",
+															width = "135",
 															ZOrder = "1",
 														},
 														{
 															controlID = "Label_skill2_Panel_menuInfo_Panel_Menudetail_Panel_makefood_Panel_content_Panel_root_Panel-makeFoodView_Layer1_newCity_Game",
 															UUID = "f841f5a2_6aa9_4528_8dd2_3926b590f4a7",
 															anchorPoint = "False",
-															anchorPointX = "0",
+															anchorPointX = "1",
 															anchorPointY = "0.5",
 															classname = "MELabel",
 															compPath = "luacomponents.common.MEIconLabel",
@@ -437,10 +437,10 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 11,
-																PositionY = 97,
+																PositionX = 142,
+																PositionY = 95,
 															},
-															width = "144",
+															width = "135",
 															ZOrder = "1",
 														},
 														{
@@ -462,18 +462,18 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "22",
+															fontSize = "18",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "25",
-															ignoreSize = "True",
+															height = "0",
+															ignoreSize = "False",
 															name = "Label_menuName",
-															nTextAlign = "1",
-															nTextHAlign = "1",
+															nTextAlign = "0",
+															nTextHAlign = "0",
 															sizepercentx = "0",
 															sizepercenty = "0",
 															sizeType = "0",
@@ -484,9 +484,9 @@ local t =
 															UILayoutViewModel = 
 															{
 																PositionX = -126,
-																PositionY = 61,
+																PositionY = 64,
 															},
-															width = "188",
+															width = "272",
 															ZOrder = "1",
 														},
 														{
@@ -613,7 +613,7 @@ local t =
 																	{
 																		PositionY = -24,
 																	},
-																	width = "43",
+																	width = "47",
 																	ZOrder = "1",
 																},
 																{
@@ -622,11 +622,11 @@ local t =
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
-																	backGroundScale9Enable = "False",
+																	backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 																	classname = "MEImage",
 																	dstBlendFunc = "771",
 																	height = "26",
-																	ignoreSize = "True",
+																	ignoreSize = "False",
 																	name = "Image_tip",
 																	sizepercentx = "0",
 																	sizepercenty = "0",
@@ -636,10 +636,10 @@ local t =
 																	touchAble = "False",
 																	UILayoutViewModel = 
 																	{
-																		PositionX = 7,
+																		PositionX = -7,
 																		PositionY = 23,
 																	},
-																	width = "58",
+																	width = "85",
 																	ZOrder = "1",
 																	components = 
 																	{
@@ -791,7 +791,7 @@ local t =
 																	{
 																		PositionY = -24,
 																	},
-																	width = "43",
+																	width = "47",
 																	ZOrder = "1",
 																},
 																{
@@ -800,11 +800,11 @@ local t =
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
-																	backGroundScale9Enable = "False",
+																	backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 																	classname = "MEImage",
 																	dstBlendFunc = "771",
 																	height = "26",
-																	ignoreSize = "True",
+																	ignoreSize = "False",
 																	name = "Image_tip",
 																	sizepercentx = "0",
 																	sizepercenty = "0",
@@ -814,10 +814,10 @@ local t =
 																	touchAble = "False",
 																	UILayoutViewModel = 
 																	{
-																		PositionX = 7,
+																		PositionX = -7,
 																		PositionY = 23,
 																	},
-																	width = "58",
+																	width = "85",
 																	ZOrder = "1",
 																	components = 
 																	{
@@ -848,7 +848,7 @@ local t =
 																				StrokeColor = "#FF964052",
 																				StrokeSize = 1,
 																			},
-																			height = "23",
+																			height = "18",
 																			ignoreSize = "True",
 																			name = "Label_tip",
 																			nTextAlign = "1",
@@ -864,7 +864,7 @@ local t =
 																			{
 																				
 																			},
-																			width = "97",
+																			width = "77",
 																			ZOrder = "1",
 																		},
 																	},
@@ -970,7 +970,7 @@ local t =
 																	{
 																		PositionY = -24,
 																	},
-																	width = "43",
+																	width = "47",
 																	ZOrder = "1",
 																},
 																{
@@ -979,11 +979,11 @@ local t =
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
-																	backGroundScale9Enable = "False",
+																	backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 																	classname = "MEImage",
 																	dstBlendFunc = "771",
 																	height = "26",
-																	ignoreSize = "True",
+																	ignoreSize = "False",
 																	name = "Image_tip",
 																	sizepercentx = "0",
 																	sizepercenty = "0",
@@ -993,10 +993,10 @@ local t =
 																	touchAble = "False",
 																	UILayoutViewModel = 
 																	{
-																		PositionX = 7,
+																		PositionX = -7,
 																		PositionY = 23,
 																	},
-																	width = "58",
+																	width = "85",
 																	ZOrder = "1",
 																	components = 
 																	{
@@ -1027,7 +1027,7 @@ local t =
 																				StrokeColor = "#FF964052",
 																				StrokeSize = 1,
 																			},
-																			height = "23",
+																			height = "18",
 																			ignoreSize = "True",
 																			name = "Label_tip",
 																			nTextAlign = "1",
@@ -1043,7 +1043,7 @@ local t =
 																			{
 																				
 																			},
-																			width = "97",
+																			width = "77",
 																			ZOrder = "1",
 																		},
 																	},
@@ -1149,7 +1149,7 @@ local t =
 																	{
 																		PositionY = -24,
 																	},
-																	width = "43",
+																	width = "47",
 																	ZOrder = "1",
 																},
 																{
@@ -1158,11 +1158,11 @@ local t =
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
-																	backGroundScale9Enable = "False",
+																	backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 																	classname = "MEImage",
 																	dstBlendFunc = "771",
 																	height = "26",
-																	ignoreSize = "True",
+																	ignoreSize = "False",
 																	name = "Image_tip",
 																	sizepercentx = "0",
 																	sizepercenty = "0",
@@ -1172,10 +1172,10 @@ local t =
 																	touchAble = "False",
 																	UILayoutViewModel = 
 																	{
-																		PositionX = 7,
+																		PositionX = -7,
 																		PositionY = 23,
 																	},
-																	width = "58",
+																	width = "85",
 																	ZOrder = "1",
 																	components = 
 																	{
@@ -1206,7 +1206,7 @@ local t =
 																				StrokeColor = "#FF964052",
 																				StrokeSize = 1,
 																			},
-																			height = "23",
+																			height = "18",
 																			ignoreSize = "True",
 																			name = "Label_tip",
 																			nTextAlign = "1",
@@ -1222,7 +1222,7 @@ local t =
 																			{
 																				
 																			},
-																			width = "97",
+																			width = "77",
 																			ZOrder = "1",
 																		},
 																	},
@@ -1291,11 +1291,11 @@ local t =
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
-																	backGroundScale9Enable = "False",
+																	backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 																	classname = "MEImage",
 																	dstBlendFunc = "771",
 																	height = "26",
-																	ignoreSize = "True",
+																	ignoreSize = "False",
 																	name = "Image_tip",
 																	sizepercentx = "0",
 																	sizepercenty = "0",
@@ -1305,10 +1305,10 @@ local t =
 																	touchAble = "False",
 																	UILayoutViewModel = 
 																	{
-																		PositionX = 7,
+																		PositionX = -7,
 																		PositionY = 21,
 																	},
-																	width = "58",
+																	width = "85",
 																	ZOrder = "1",
 																	components = 
 																	{
@@ -1339,7 +1339,7 @@ local t =
 																				StrokeColor = "#FF964052",
 																				StrokeSize = 1,
 																			},
-																			height = "23",
+																			height = "18",
 																			ignoreSize = "True",
 																			name = "Label_tip",
 																			nTextAlign = "1",
@@ -1355,7 +1355,7 @@ local t =
 																			{
 																				
 																			},
-																			width = "97",
+																			width = "77",
 																			ZOrder = "1",
 																		},
 																	},
@@ -1402,7 +1402,7 @@ local t =
 																	{
 																		PositionY = -24,
 																	},
-																	width = "43",
+																	width = "47",
 																	ZOrder = "1",
 																},
 															},
@@ -1438,7 +1438,7 @@ local t =
 														TopPosition = 542,
 													},
 													UItype = "Button",
-													width = "140",
+													width = "155",
 													ZOrder = "1",
 													components = 
 													{
@@ -1485,7 +1485,7 @@ local t =
 															{
 																PositionX = 1,
 															},
-															width = "125",
+															width = "136",
 															ZOrder = "1",
 														},
 													},
@@ -1519,7 +1519,7 @@ local t =
 														TopPosition = 542,
 													},
 													UItype = "Button",
-													width = "140",
+													width = "155",
 													ZOrder = "1",
 													components = 
 													{
@@ -1566,7 +1566,7 @@ local t =
 															{
 																
 															},
-															width = "125",
+															width = "136",
 															ZOrder = "1",
 														},
 													},
@@ -1667,8 +1667,8 @@ local t =
 																StrokeColor = "#FF5195C8",
 																StrokeSize = 2,
 															},
-															height = "29",
-															ignoreSize = "True",
+															height = "0",
+															ignoreSize = "False",
 															name = "Label_menuName",
 															nTextAlign = "1",
 															nTextHAlign = "1",
@@ -1684,7 +1684,7 @@ local t =
 																PositionX = -1,
 																PositionY = 449,
 															},
-															width = "104",
+															width = "160",
 															ZOrder = "1",
 														},
 														{
@@ -1783,8 +1783,8 @@ local t =
 																StrokeColor = "#FF80A8AC",
 																StrokeSize = 2,
 															},
-															height = "29",
-															ignoreSize = "True",
+															height = "0",
+															ignoreSize = "False",
 															name = "Label_menuName",
 															nTextAlign = "1",
 															nTextHAlign = "1",
@@ -1800,7 +1800,7 @@ local t =
 																PositionX = -1,
 																PositionY = 449,
 															},
-															width = "104",
+															width = "160",
 															ZOrder = "1",
 														},
 														{
@@ -1899,8 +1899,8 @@ local t =
 																StrokeColor = "#FFD69255",
 																StrokeSize = 2,
 															},
-															height = "29",
-															ignoreSize = "True",
+															height = "0",
+															ignoreSize = "False",
 															name = "Label_menuName",
 															nTextAlign = "1",
 															nTextHAlign = "1",
@@ -1916,7 +1916,7 @@ local t =
 																PositionX = -1,
 																PositionY = 449,
 															},
-															width = "104",
+															width = "160",
 															ZOrder = "1",
 														},
 														{
@@ -2131,7 +2131,7 @@ local t =
 																PositionX = 185,
 																PositionY = 9,
 															},
-															width = "342",
+															width = "375",
 															ZOrder = "1",
 														},
 														{
@@ -3618,7 +3618,7 @@ local t =
 															{
 																
 															},
-															width = "148",
+															width = "145",
 															ZOrder = "1",
 														},
 													},

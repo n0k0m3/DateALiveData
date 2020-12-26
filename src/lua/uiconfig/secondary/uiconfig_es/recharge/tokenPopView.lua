@@ -179,7 +179,7 @@ local t =
 									controlID = "Label_tokenPopView_1_bg_Panel_base_Panel-tokenPopView_Layer1_recharge_Game",
 									UUID = "2f84d48d_6e9a_4c40_963a_b2bc91ee3584",
 									anchorPoint = "False",
-									anchorPointX = "0.5",
+									anchorPointX = "0",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -215,10 +215,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -282,
-										PositionY = 180,
+										PositionX = -383,
+										PositionY = 183,
 									},
-									width = "217",
+									width = "241",
 									ZOrder = "1",
 								},
 								{
@@ -265,7 +265,7 @@ local t =
 										PositionY = 179,
 									},
 									visible = "False",
-									width = "155",
+									width = "140",
 									ZOrder = "1",
 								},
 								{
@@ -662,7 +662,7 @@ local t =
 													{
 														
 													},
-													width = "60",
+													width = "68",
 													ZOrder = "1",
 												},
 											},
@@ -767,7 +767,7 @@ local t =
 													{
 														
 													},
-													width = "77",
+													width = "84",
 													ZOrder = "1",
 												},
 											},
@@ -818,7 +818,7 @@ local t =
 										PositionY = 32,
 									},
 									visible = "False",
-									width = "646",
+									width = "586",
 									ZOrder = "1",
 									components = 
 									{
@@ -894,7 +894,7 @@ local t =
 										PositionX = 213,
 										PositionY = 152,
 									},
-									width = "220",
+									width = "203",
 									ZOrder = "1",
 								},
 								{
@@ -1082,7 +1082,7 @@ local t =
 											{
 												PositionY = 135,
 											},
-											width = "193",
+											width = "209",
 											ZOrder = "1",
 										},
 									},
@@ -1265,7 +1265,7 @@ local t =
 											{
 												
 											},
-											width = "90",
+											width = "87",
 											ZOrder = "1",
 										},
 									},
@@ -1344,7 +1344,7 @@ local t =
 											{
 												
 											},
-											width = "111",
+											width = "113",
 											ZOrder = "1",
 										},
 									},
@@ -1546,7 +1546,7 @@ local t =
 												PositionX = -40,
 											},
 											visible = "False",
-											width = "10",
+											width = "13",
 											ZOrder = "1",
 										},
 									},
@@ -1646,7 +1646,7 @@ local t =
 											{
 												PositionX = -14,
 											},
-											width = "58",
+											width = "61",
 											ZOrder = "1",
 										},
 									},
@@ -1746,7 +1746,7 @@ local t =
 											{
 												PositionX = -14,
 											},
-											width = "58",
+											width = "61",
 											ZOrder = "1",
 										},
 										{
@@ -1923,7 +1923,7 @@ local t =
 													{
 														PositionX = -14,
 													},
-													width = "58",
+													width = "61",
 													ZOrder = "1",
 												},
 												{
@@ -2316,7 +2316,7 @@ local t =
 								PositionX = -170,
 								PositionY = -29,
 							},
-							width = "187",
+							width = "178",
 							ZOrder = "1",
 						},
 						{
@@ -2362,7 +2362,7 @@ local t =
 								PositionX = -170,
 								PositionY = 29,
 							},
-							width = "177",
+							width = "166",
 							ZOrder = "1",
 						},
 						{
@@ -2438,7 +2438,7 @@ local t =
 								relativeToName = "Panel",
 							},
 							visible = "False",
-							width = "117",
+							width = "114",
 							ZOrder = "1",
 						},
 						{

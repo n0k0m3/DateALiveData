@@ -207,7 +207,7 @@ function RechargeActivityView:updateActivity()
             -- end
     end)
 
-    self.Label_tips:setTextById(self.activityInfo_.activityTitle)
+    self.Label_tips:setText(Utils:MultiLanguageStringDeal(self.activityInfo_.activityTitle))
     self:updateCountDonw()
 end
 

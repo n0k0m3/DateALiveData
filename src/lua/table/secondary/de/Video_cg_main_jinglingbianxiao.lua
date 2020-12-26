@@ -45,7 +45,7 @@ return {
         id = 8,
         beginTime  = "00:00:23,0",
         endTime  = "00:00:25,0",
-        content  = "Mein KĂśrper tut nicht das, was ich ihm sage!",
+        content  = "Mein Körper tut nicht das, was ich ihm sage!",
     },
     [9] = {
         id = 9,
@@ -57,6 +57,6 @@ return {
         id = 10,
         beginTime  = "00:00:28,100",
         endTime  = "00:00:31,699",
-        content  = "Warte nur... Ich werde mich rĂ¤chen!",
+        content  = "Warte nur... Ich werde mich rächen!",
     },
 }

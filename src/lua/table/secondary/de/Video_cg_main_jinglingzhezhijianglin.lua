@@ -15,13 +15,13 @@ return {
         id = 3,
         beginTime  = "00:00:30,0",
         endTime  = "00:00:37,0",
-        content  = "Geist? In diesem Fall... Das Ă¤ndert nichts.",
+        content  = "Geist? In diesem Fall... Das ändert nichts.",
     },
     [4] = {
         id = 4,
         beginTime  = "00:00:38,0",
         endTime  = "00:00:44,0",
-        content  = "Ich werde diese Macht ausĂźben,\num alle Geister zu besiegen!",
+        content  = "Ich werde diese Macht ausüben,\num alle Geister zu besiegen!",
     },
     [5] = {
         id = 5,

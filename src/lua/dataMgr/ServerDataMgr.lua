@@ -61,13 +61,11 @@ function ServerDataMgr:init()
             {   
                 -- 小语种策划服
                 id = 100005,
-                group_id = 888,
+                group_id = 38,
                 groupName = "策划_minlang",
                 serverGroup = "cehua",
                 list ={
                     {
-                        serverId = 888001,
-                        serverName= "",
                         url = {
                             [1] = "http://148.153.75.131:7070/account/login"
                         }
@@ -83,10 +81,8 @@ function ServerDataMgr:init()
                 serverGroup = "cehua",
                 list ={
                     {
-                        serverId = 888001,
-                        serverName= "",
                         url = {
-                            [1] = "http://148.153.75.131:7070/account/login"
+                            [1] = "http://148.153.55.228:7070/account/login"
                         }
                     },
                 },
@@ -131,18 +127,18 @@ function ServerDataMgr:init()
                 -- 英文正式服
                 id = 200003,
                 group_id = 28,
-                groupName = "server I",
+                groupName = "Server I",
                 serverGroup = "eng",
                 groupType = GLOBAL_SERVER_LIST.SERVER_ENGLISH
             },
-            -- {   
-            --     -- 小语种正式服
-            --     id = 200004,
-            --     group_id = 32,
-            --     groupName = "server II",
-            --     serverGroup = "xyz_server",
-            --     groupType = GLOBAL_SERVER_LIST.SERVER_NIMILANGUAGE
-            -- }
+            {   
+                -- 小语种正式服
+                id = 200004,
+                group_id = 32,
+                groupName = "Server II",
+                serverGroup = "xyz_server",
+                groupType = GLOBAL_SERVER_LIST.SERVER_NIMILANGUAGE
+            }
         }
     end
     

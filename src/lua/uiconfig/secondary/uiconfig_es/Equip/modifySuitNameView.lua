@@ -236,7 +236,7 @@ local t =
 											{
 												
 											},
-											width = "206",
+											width = "197",
 											ZOrder = "1",
 										},
 									},
@@ -285,7 +285,7 @@ local t =
 										IsPercent = true,
 										PercentY = 21.87,
 									},
-									width = "451",
+									width = "424",
 									ZOrder = "1",
 								},
 								{
@@ -409,7 +409,7 @@ local t =
 											{
 												PositionY = -2,
 											},
-											width = "120",
+											width = "121",
 											ZOrder = "1",
 										},
 									},
@@ -449,7 +449,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Editar nombre preestablecido |",
+									text = "Editar nombre preestablecido",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -457,7 +457,7 @@ local t =
 										PositionX = -249,
 										PositionY = 130,
 									},
-									width = "415",
+									width = "437",
 									ZOrder = "1",
 								},
 								{
@@ -504,7 +504,7 @@ local t =
 										PositionY = 123,
 									},
 									visible = "False",
-									width = "116",
+									width = "114",
 									ZOrder = "1",
 								},
 							},

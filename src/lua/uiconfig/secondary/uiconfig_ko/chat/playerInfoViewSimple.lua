@@ -151,7 +151,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "플레이어 개인 정보|",
+									text = "플레이어 개인 정보",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -159,7 +159,7 @@ local t =
 										PositionX = -255,
 										PositionY = 120,
 									},
-									width = "225",
+									width = "219",
 									ZOrder = "1",
 								},
 								{
@@ -205,7 +205,8 @@ local t =
 										PositionX = -28,
 										PositionY = 107,
 									},
-									width = "115",
+									visible = "False",
+									width = "113",
 									ZOrder = "1",
 								},
 							},
@@ -763,7 +764,7 @@ local t =
 										PositionX = 126,
 										PositionY = -35,
 									},
-									width = "28",
+									width = "27",
 									ZOrder = "1",
 								},
 								{

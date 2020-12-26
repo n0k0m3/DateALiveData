@@ -27,7 +27,7 @@ return {
         id = 5,
         beginTime  = "00:00:23,0",
         endTime  = "00:00:26,0",
-        content  = "Oh, wie kĂśnnte ich das vergessen?",
+        content  = "Oh, wie könnte ich das vergessen?",
     },
     [6] = {
         id = 6,
@@ -39,6 +39,6 @@ return {
         id = 7,
         beginTime  = "00:00:30,0",
         endTime  = "00:00:32,0",
-        content  = "Willkommen zurĂźck, Tohka.",
+        content  = "Willkommen zurück, Tohka.",
     },
 }

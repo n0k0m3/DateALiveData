@@ -836,12 +836,20 @@ function BaoshiComposeView:registerEvents()
     self.Button_compose:onClick(function()
         local composeCfg = self.tuzhiData[self.selectTuzhiIdx or 1] or self.composeCfgs[1]
         for k, v in pairs(composeCfg.currency) do
+
             if GoodsDataMgr:getItemCount(tonumber(k)) < v then
                 if tonumber(k) == EC_SItemType.GOLD then
                     Utils:showTips(493004)
                 elseif tonumber(k) == EC_SItemType.DIAMOND then
                     Utils:showTips(800048)
+                else
+                    local itemCfg = GoodsDataMgr:getItemCfg(k)
+                    if itemCfg and itemCfg.nameTextId then
+                        Utils:showTips(TextDataMgr:getText(2100034 , TextDataMgr:getText(itemCfg.nameTextId)))
+                    end
                 end
+
+                
                 return
             end
         end

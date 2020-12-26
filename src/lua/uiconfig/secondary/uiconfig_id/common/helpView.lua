@@ -300,8 +300,8 @@ local t =
 											controlID = "Label_tittle_Panel_info_Panel_content_Panel_base_Panel-helpView_Layer1_common_Game",
 											UUID = "44b33c5e_4588_4a44_93f1_3e3b61ca49c1",
 											anchorPoint = "False",
-											anchorPointX = "0",
-											anchorPointY = "0",
+											anchorPointX = "1",
+											anchorPointY = "1",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
@@ -325,21 +325,22 @@ local t =
 											height = "0",
 											ignoreSize = "False",
 											name = "Label_tittle",
-											nTextAlign = "2",
-											nTextHAlign = "2",
+											nTextAlign = "0",
+											nTextHAlign = "0",
+											rotation = "90",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "Bantuan",
+											text = "Bantuan Bantuan Bantuan  Bantuan",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 791,
-												PositionY = -10,
+												PositionX = 959,
+												PositionY = 9,
 											},
-											width = "200",
+											width = "466",
 											ZOrder = "1",
 										},
 										{
@@ -626,7 +627,7 @@ local t =
 															{
 																
 															},
-															width = "163",
+															width = "243",
 															ZOrder = "1",
 														},
 													},
@@ -740,7 +741,7 @@ local t =
 															{
 																
 															},
-															width = "163",
+															width = "243",
 															ZOrder = "1",
 														},
 													},
@@ -855,7 +856,7 @@ local t =
 															{
 																
 															},
-															width = "163",
+															width = "243",
 															ZOrder = "1",
 														},
 													},
@@ -907,7 +908,7 @@ local t =
 										PositionX = -200,
 										PositionY = -500,
 									},
-									width = "113",
+									width = "119",
 									ZOrder = "1",
 								},
 							},

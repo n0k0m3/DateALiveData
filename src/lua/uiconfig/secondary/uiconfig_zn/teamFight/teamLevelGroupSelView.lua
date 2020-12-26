@@ -322,7 +322,7 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "76",
+											height = "132",
 											ignoreSize = "True",
 											name = "Image_title",
 											sizepercentx = "0",
@@ -334,9 +334,9 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = -7,
-												PositionY = 454,
+												PositionY = 418,
 											},
-											width = "206",
+											width = "240",
 											ZOrder = "1",
 											components = 
 											{
@@ -367,7 +367,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "22",
+													height = "21",
 													ignoreSize = "True",
 													name = "Label_lv_limit",
 													nTextAlign = "1",
@@ -382,9 +382,9 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = -43,
-														PositionY = 16,
+														PositionY = 46,
 													},
-													width = "59",
+													width = "45",
 													ZOrder = "1",
 												},
 											},
@@ -649,7 +649,7 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "82",
+											height = "116",
 											ignoreSize = "True",
 											name = "Image_title",
 											sizepercentx = "0",
@@ -661,7 +661,7 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = -7,
-												PositionY = 454,
+												PositionY = 423,
 											},
 											width = "262",
 											ZOrder = "1",
@@ -694,7 +694,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "22",
+													height = "21",
 													ignoreSize = "True",
 													name = "Label_lv_limit",
 													nTextAlign = "1",
@@ -709,9 +709,9 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = -15,
-														PositionY = 20,
+														PositionY = 25,
 													},
-													width = "59",
+													width = "45",
 													ZOrder = "1",
 												},
 											},
@@ -975,7 +975,7 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "76",
+											height = "132",
 											ignoreSize = "True",
 											name = "Image_title",
 											sizepercentx = "0",
@@ -990,7 +990,7 @@ local t =
 												PositionY = 454,
 											},
 											visible = "False",
-											width = "206",
+											width = "240",
 											ZOrder = "1",
 											components = 
 											{
@@ -1021,7 +1021,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "22",
+													height = "21",
 													ignoreSize = "True",
 													name = "Label_lv_limit",
 													nTextAlign = "1",
@@ -1038,7 +1038,7 @@ local t =
 														PositionX = -43,
 														PositionY = 16,
 													},
-													width = "59",
+													width = "45",
 													ZOrder = "1",
 												},
 											},

@@ -255,7 +255,7 @@ local t =
 										PositionX = 4,
 										PositionY = 338,
 									},
-									width = "149",
+									width = "162",
 									ZOrder = "1",
 								},
 								{
@@ -277,14 +277,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "25",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "29",
+									height = "21",
 									ignoreSize = "True",
 									name = "Label_state",
 									nTextAlign = "1",
@@ -298,10 +298,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 666,
+										PositionX = 673,
 										PositionY = 250,
 									},
-									width = "144",
+									width = "104",
 									ZOrder = "1",
 								},
 								{
@@ -570,7 +570,7 @@ local t =
 										PositionX = 218,
 										PositionY = 225,
 									},
-									width = "128",
+									width = "120",
 									ZOrder = "1",
 								},
 								{
@@ -613,10 +613,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 335,
+										PositionX = 351,
 										PositionY = 225,
 									},
-									width = "86",
+									width = "84",
 									ZOrder = "1",
 								},
 								{
@@ -638,14 +638,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "21",
 									ignoreSize = "True",
 									name = "Label_get_time",
 									nTextAlign = "1",
@@ -662,7 +662,7 @@ local t =
 										PositionX = 218,
 										PositionY = 255,
 									},
-									width = "189",
+									width = "147",
 									ZOrder = "1",
 								},
 								{
@@ -684,14 +684,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "21",
 									ignoreSize = "True",
 									name = "Label_get_time_value",
 									nTextAlign = "1",
@@ -705,10 +705,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 412,
+										PositionX = 391,
 										PositionY = 253,
 									},
-									width = "87",
+									width = "70",
 									ZOrder = "1",
 								},
 								{

@@ -9,7 +9,7 @@ return {
         id = 2,
         beginTime  = "00:00:05,0",
         endTime  = "00:00:11,0",
-        content  = "Du... hast mich gerettet? Aber warum wĂźrdest du...?",
+        content  = "Du... hast mich gerettet? Aber warum würdest du...?",
     },
     [3] = {
         id = 3,
@@ -21,6 +21,6 @@ return {
         id = 4,
         beginTime  = "00:00:15,0",
         endTime  = "00:00:19,0",
-        content  = "Dass ich dich retten wĂźrde,\nwenn du jemals in der Klemme stecken solltest.",
+        content  = "Dass ich dich retten würde,\nwenn du jemals in der Klemme stecken solltest.",
     },
 }

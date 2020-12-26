@@ -300,7 +300,7 @@ local t =
 											controlID = "Label_tittle_Panel_info_Panel_content_Panel_base_Panel-helpView_Layer1_common_Game",
 											UUID = "44b33c5e_4588_4a44_93f1_3e3b61ca49c1",
 											anchorPoint = "False",
-											anchorPointX = "0",
+											anchorPointX = "1",
 											anchorPointY = "0",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
@@ -315,15 +315,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "90",
+											fontSize = "60",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "0",
-											ignoreSize = "False",
+											height = "69",
+											ignoreSize = "True",
 											name = "Label_tittle",
 											nTextAlign = "2",
 											nTextHAlign = "2",
@@ -336,10 +336,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 791,
-												PositionY = -10,
+												PositionX = 992,
+												PositionY = 7,
 											},
-											width = "200",
+											width = "132",
 											ZOrder = "1",
 										},
 										{
@@ -626,7 +626,7 @@ local t =
 															{
 																
 															},
-															width = "163",
+															width = "564",
 															ZOrder = "1",
 														},
 													},
@@ -740,7 +740,7 @@ local t =
 															{
 																
 															},
-															width = "163",
+															width = "564",
 															ZOrder = "1",
 														},
 													},
@@ -855,7 +855,7 @@ local t =
 															{
 																
 															},
-															width = "163",
+															width = "564",
 															ZOrder = "1",
 														},
 													},

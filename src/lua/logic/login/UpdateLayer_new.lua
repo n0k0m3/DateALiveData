@@ -489,25 +489,21 @@ function UpdateLayer_new:CompleteUpdate()
 end
 
 function UpdateLayer_new:checkCdnAndUrlUpdate(url )
-    self.connectedArray:push(url)
-    local time = 0
-    for urlValue in self.connectedArray:iterator() do
-        if urlValue == url then
-            time = time + 1
-        end
-    end
+    -- self.connectedArray:push(url)
+    -- local time = 0
+    -- for urlValue in self.connectedArray:iterator() do
+    --     if urlValue == url then
+    --         time = time + 1
+    --     end
+    -- end
 
-    if HeitaoSdk and time <= 1 then
-        --TODO CLOSE
-        if tonumber(TFDeviceInfo:getCurAppVersion()) >= 1.15 and CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID then
-            local tfUrl = require("TFFramework.net.TFUrl")
-            if tfUrl then
-                local parsed_url = tfUrl.parse(url)
-                HeitaoSdk.reportNetworkData(parsed_url.host)
-            end
-        end
-        
-    end
+    -- if HeitaoSdk and time <= 1 then
+    --     local tfUrl = require("TFFramework.net.TFUrl")
+    --     if tfUrl then
+    --         local parsed_url = tfUrl.parse(url)
+    --         HeitaoSdk.reportNetworkData(parsed_url.host)
+    --     end
+    -- end
 end
 
 return UpdateLayer_new

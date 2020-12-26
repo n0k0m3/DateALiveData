@@ -593,7 +593,7 @@ local t =
 											{
 												PositionY = -40,
 											},
-											width = "86",
+											width = "82",
 											ZOrder = "1",
 										},
 										{
@@ -719,7 +719,7 @@ local t =
 											{
 												PositionY = -40,
 											},
-											width = "46",
+											width = "44",
 											ZOrder = "1",
 										},
 										{
@@ -897,7 +897,7 @@ local t =
 											{
 												PositionY = -40,
 											},
-											width = "59",
+											width = "55",
 											ZOrder = "1",
 										},
 										{
@@ -1075,7 +1075,7 @@ local t =
 											{
 												PositionY = -40,
 											},
-											width = "69",
+											width = "66",
 											ZOrder = "1",
 										},
 										{
@@ -1253,7 +1253,7 @@ local t =
 											{
 												PositionY = -40,
 											},
-											width = "64",
+											width = "62",
 											ZOrder = "1",
 										},
 										{
@@ -1609,7 +1609,7 @@ local t =
 											{
 												PositionY = -40,
 											},
-											width = "48",
+											width = "45",
 											ZOrder = "1",
 										},
 										{
@@ -3554,14 +3554,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "24",
+													fontSize = "21",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "27",
+													height = "24",
 													ignoreSize = "True",
 													name = "Label_title",
 													nTextAlign = "1",
@@ -3576,9 +3576,9 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = 17,
-														PositionY = 114,
+														PositionY = 118,
 													},
-													width = "172",
+													width = "151",
 													ZOrder = "1",
 												},
 												{
@@ -3626,7 +3626,7 @@ local t =
 														PositionY = 111,
 													},
 													visible = "False",
-													width = "93",
+													width = "90",
 													ZOrder = "1",
 												},
 												{
@@ -3770,7 +3770,7 @@ local t =
 														PositionX = 95,
 														PositionY = 51,
 													},
-													width = "42",
+													width = "45",
 													ZOrder = "1",
 												},
 												{
@@ -3816,7 +3816,7 @@ local t =
 														PositionX = 96,
 														PositionY = 23,
 													},
-													width = "34",
+													width = "40",
 													ZOrder = "1",
 												},
 												{
@@ -3862,7 +3862,7 @@ local t =
 														PositionX = 95,
 														PositionY = 78,
 													},
-													width = "27",
+													width = "28",
 													ZOrder = "1",
 												},
 												{
@@ -4009,7 +4009,7 @@ local t =
 											DesignType = "0",
 											DesignWidth = "960",
 											dstBlendFunc = "771",
-											height = "85",
+											height = "120",
 											ignoreSize = "False",
 											name = "Panel_teshu_title",
 											sizepercentx = "0",
@@ -4020,7 +4020,7 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = 25,
-												PositionY = 66,
+												PositionY = 38,
 												LeftPositon = 84,
 												TopPosition = 429,
 												relativeToName = "Panel_equip",
@@ -4056,7 +4056,7 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = 132,
-														PositionY = 75,
+														PositionY = 111,
 													},
 													width = "278",
 													ZOrder = "1",
@@ -4080,14 +4080,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "24",
+													fontSize = "22",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "27",
+													height = "25",
 													ignoreSize = "True",
 													name = "Label_title",
 													nTextAlign = "1",
@@ -4101,10 +4101,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 16,
-														PositionY = 73,
+														PositionX = 11,
+														PositionY = 116,
 													},
-													width = "160",
+													width = "150",
 													ZOrder = "1",
 												},
 												{
@@ -4133,8 +4133,8 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "18",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "Label_title(2)",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -4149,10 +4149,10 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = 189,
-														PositionY = 73,
+														PositionY = 109,
 													},
 													visible = "False",
-													width = "45",
+													width = "300",
 													ZOrder = "1",
 												},
 												{
@@ -4160,7 +4160,7 @@ local t =
 													UUID = "dae1615c_e5cc_4a42_aee6_2ef6cde20047",
 													anchorPoint = "False",
 													anchorPointX = "0",
-													anchorPointY = "0",
+													anchorPointY = "1",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
 													dstBlendFunc = "771",
@@ -4174,14 +4174,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "20",
+													fontSize = "16",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "80",
+													height = "0",
 													ignoreSize = "False",
 													name = "Label_guyou",
 													nTextAlign = "0",
@@ -4196,9 +4196,9 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = 31,
-														PositionY = -29,
+														PositionY = 83,
 													},
-													width = "275",
+													width = "300",
 													ZOrder = "1",
 												},
 											},
@@ -4229,7 +4229,7 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = 25,
-												PositionY = -13,
+												PositionY = -25,
 												LeftPositon = 84,
 												TopPosition = 429,
 												relativeToName = "Panel_equip",
@@ -4289,14 +4289,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "24",
+													fontSize = "22",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "27",
+													height = "25",
 													ignoreSize = "True",
 													name = "Label_title",
 													nTextAlign = "1",
@@ -4310,10 +4310,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 33,
-														PositionY = 14,
+														PositionX = 36,
+														PositionY = 23,
 													},
-													width = "187",
+													width = "179",
 													ZOrder = "1",
 												},
 												{
@@ -4361,7 +4361,7 @@ local t =
 														PositionY = 7,
 													},
 													visible = "False",
-													width = "50",
+													width = "53",
 													ZOrder = "1",
 												},
 												{
@@ -4407,7 +4407,7 @@ local t =
 														PositionX = 92,
 														PositionY = -19,
 													},
-													width = "208",
+													width = "205",
 													ZOrder = "1",
 												},
 											},
@@ -4498,7 +4498,7 @@ local t =
 												TopPosition = 556,
 												relativeToName = "Panel_equip",
 											},
-											width = "24",
+											width = "23",
 											ZOrder = "1",
 										},
 										{
@@ -4745,7 +4745,7 @@ local t =
 												PositionX = 249,
 												PositionY = 45,
 											},
-											width = "38",
+											width = "44",
 											ZOrder = "1",
 										},
 										{
@@ -4837,7 +4837,7 @@ local t =
 												PositionX = 206,
 												PositionY = 43,
 											},
-											width = "41",
+											width = "39",
 											ZOrder = "1",
 										},
 										{
@@ -4895,7 +4895,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -126,
+										PositionX = -74,
+										PositionY = 1,
 									},
 									uipanelviewmodel = 
 									{
@@ -5119,7 +5120,7 @@ local t =
 													{
 														PositionY = -43,
 													},
-													width = "113",
+													width = "118",
 													ZOrder = "1",
 												},
 											},
@@ -5205,7 +5206,7 @@ local t =
 													{
 														PositionY = -34,
 													},
-													width = "74",
+													width = "72",
 													ZOrder = "1",
 												},
 											},
@@ -5292,7 +5293,7 @@ local t =
 														PositionX = 2,
 														PositionY = -29,
 													},
-													width = "80",
+													width = "75",
 													ZOrder = "1",
 												},
 											},
@@ -5374,7 +5375,7 @@ local t =
 													{
 														PositionY = -35,
 													},
-													width = "92",
+													width = "88",
 													ZOrder = "1",
 												},
 											},
@@ -5636,7 +5637,7 @@ local t =
 												TopPosition = 529,
 												relativeToName = "Panel_equip",
 											},
-											width = "217",
+											width = "231",
 											ZOrder = "1",
 										},
 										{
@@ -6154,7 +6155,7 @@ local t =
 										relativeToName = "Panel_skill_item",
 									},
 									visible = "False",
-									width = "145",
+									width = "138",
 									ZOrder = "1",
 								},
 								{
@@ -6203,7 +6204,7 @@ local t =
 										TopPosition = 1,
 										relativeToName = "Panel_skill_item",
 									},
-									width = "145",
+									width = "138",
 									ZOrder = "1",
 								},
 								{
@@ -6252,7 +6253,7 @@ local t =
 										TopPosition = 1,
 										relativeToName = "Panel_skill_item",
 									},
-									width = "73",
+									width = "74",
 									ZOrder = "1",
 								},
 								{
@@ -6439,7 +6440,7 @@ local t =
 												PositionX = -10,
 												PositionY = 13,
 											},
-											width = "144",
+											width = "143",
 											ZOrder = "1",
 										},
 										{
@@ -6485,7 +6486,7 @@ local t =
 												PositionX = 127,
 												PositionY = 9,
 											},
-											width = "67",
+											width = "63",
 											ZOrder = "1",
 										},
 									},
@@ -6573,7 +6574,7 @@ local t =
 												PositionX = -10,
 												PositionY = 13,
 											},
-											width = "184",
+											width = "181",
 											ZOrder = "1",
 										},
 										{
@@ -6619,7 +6620,7 @@ local t =
 												PositionX = 127,
 												PositionY = 9,
 											},
-											width = "67",
+											width = "63",
 											ZOrder = "1",
 										},
 									},
@@ -7157,7 +7158,7 @@ local t =
 											{
 												PositionX = 16,
 											},
-											width = "80",
+											width = "81",
 											ZOrder = "1",
 										},
 										{
@@ -7423,7 +7424,7 @@ local t =
 									{
 										PositionX = 2,
 									},
-									width = "192",
+									width = "184",
 									ZOrder = "1",
 								},
 							},
@@ -7527,7 +7528,7 @@ local t =
 									{
 										PositionX = 5,
 									},
-									width = "37",
+									width = "35",
 									ZOrder = "1",
 								},
 							},
@@ -7682,7 +7683,7 @@ local t =
 										PositionX = 56,
 										PositionY = 15,
 									},
-									width = "119",
+									width = "118",
 									ZOrder = "1",
 								},
 								{
@@ -7829,7 +7830,7 @@ local t =
 												PositionX = -16,
 												PositionY = -5,
 											},
-											width = "77",
+											width = "68",
 											ZOrder = "1",
 										},
 									},
@@ -7908,7 +7909,7 @@ local t =
 												PositionY = -4,
 											},
 											vAlignment = "0",
-											width = "67",
+											width = "68",
 											ZOrder = "1",
 										},
 									},
@@ -8050,7 +8051,7 @@ local t =
 									{
 										PositionY = 90,
 									},
-									width = "91",
+									width = "82",
 									ZOrder = "1",
 								},
 								{
@@ -8358,7 +8359,7 @@ local t =
 												PositionX = -38,
 												PositionY = -3,
 											},
-											width = "17",
+											width = "19",
 											ZOrder = "1",
 											components = 
 											{
@@ -8403,7 +8404,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 18,
+														PositionX = 20,
 														PositionY = 2,
 														IsPercent = true,
 														PercentX = 103,

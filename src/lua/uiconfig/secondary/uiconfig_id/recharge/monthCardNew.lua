@@ -233,7 +233,7 @@ local t =
 										PositionX = -200,
 										PositionY = -500,
 									},
-									width = "96",
+									width = "101",
 									ZOrder = "1",
 								},
 								{
@@ -272,13 +272,13 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
+									backGroundScale9Enable = "False",
 									classname = "MEButton",
 									ClickHighLightEnabled = "True",
 									dstBlendFunc = "771",
 									flipX = "False",
 									flipY = "False",
-									height = "38",
+									height = "51",
 									ignoreSize = "False",
 									name = "Button_buy_1",
 									normal = "ui/activity/assist/019.png",
@@ -289,11 +289,11 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 106,
+										PositionX = 91,
 										PositionY = 210,
 									},
 									UItype = "Button",
-									width = "140",
+									width = "173",
 									ZOrder = "1",
 									components = 
 									{
@@ -324,8 +324,8 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "21",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_goto",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -333,14 +333,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "恢复续订",
+											text = "Perpanjang Langganan",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -7,
+												PositionX = -10,
 											},
-											width = "75",
+											width = "139",
 											ZOrder = "1",
 										},
 									},
@@ -364,7 +364,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "26",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -417,7 +417,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "22",
+									height = "21",
 									ignoreSize = "True",
 									name = "label_des",
 									nTextAlign = "1",
@@ -433,7 +433,7 @@ local t =
 									{
 										PositionY = 154,
 									},
-									width = "74",
+									width = "210",
 									ZOrder = "1",
 								},
 								{
@@ -478,7 +478,7 @@ local t =
 									{
 										PositionY = -265,
 									},
-									width = "129",
+									width = "210",
 									ZOrder = "1",
 								},
 								{
@@ -532,7 +532,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -548,7 +548,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "使用条款",
+											text = "PERSYARATAN PENGGUNAAN",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -611,7 +611,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -627,7 +627,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "隐私协议",
+											text = "KEBIJAKAN PRIVASI",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 

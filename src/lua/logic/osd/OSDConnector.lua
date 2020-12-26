@@ -174,18 +174,15 @@ function OSDConnector:connect(serverInfo)
     self.connectedIpArray:push(connectIp)
     self.client:Connect(connectIp , self.serverInfo.port ,onConnected, nil,onConnectError)
 
-    local time = 0
-    for _ip in self.connectedIpArray:iterator() do
-        if _ip == connectIp then
-            time = time + 1
-        end
-    end
-    if HeitaoSdk and time <= 1 then
-        --TODO CLOSE
-        if tonumber(TFDeviceInfo:getCurAppVersion()) >= 1.15 and CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID then
-            HeitaoSdk.reportNetworkData(connectIp)
-        end
-    end
+    -- local time = 0
+    -- for _ip in self.connectedIpArray:iterator() do
+    --     if _ip == connectIp then
+    --         time = time + 1
+    --     end
+    -- end
+    -- if HeitaoSdk and time <= 1 then
+    --     HeitaoSdk.reportNetworkData(connectIp)
+    -- end
 end
 
 --心跳要不要

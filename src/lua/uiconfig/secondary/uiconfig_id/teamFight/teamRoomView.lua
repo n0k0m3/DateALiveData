@@ -247,7 +247,7 @@ local t =
 										PositionX = -495,
 										PositionY = 225,
 									},
-									width = "210",
+									width = "227",
 									ZOrder = "1",
 								},
 								{
@@ -359,7 +359,7 @@ local t =
 											{
 												PositionX = 10,
 											},
-											width = "61",
+											width = "57",
 											ZOrder = "1",
 										},
 									},
@@ -409,13 +409,13 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "METextButton",
 									dstBlendFunc = "771",
 									flipX = "False",
 									flipY = "False",
 									height = "58",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "TextButton_refresh_auto_join",
 									normal = "ui/common/button_big_n.png",
 									outlineColor = "#FF921E3F",
@@ -429,17 +429,17 @@ local t =
 									srcBlendFunc = "1",
 									titlefontName = "font/fangzheng_zhunyuan.ttf",
 									titlefontSize = "26",
-									titletext = "自动加入",
+									titletext = "Langsung Bergabung",
 									titletextColor = "#FFFFFFFF",
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 240,
+										PositionX = 224,
 										PositionY = -219,
 									},
 									useOutline = "False",
 									useShadow = "False",
-									width = "134",
+									width = "230",
 									ZOrder = "1",
 								},
 								{
@@ -643,8 +643,8 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "23",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "Label_start",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -659,7 +659,7 @@ local t =
 													{
 														PositionY = -1,
 													},
-													width = "79",
+													width = "133",
 													ZOrder = "1",
 												},
 												{
@@ -705,7 +705,7 @@ local t =
 														PositionY = -20,
 													},
 													visible = "False",
-													width = "80",
+													width = "71",
 													ZOrder = "1",
 												},
 											},
@@ -845,7 +845,7 @@ local t =
 														PositionX = 105,
 														PositionY = 48,
 													},
-													width = "53",
+													width = "56",
 													ZOrder = "1",
 												},
 												{
@@ -891,7 +891,7 @@ local t =
 														PositionX = -143,
 														PositionY = 47,
 													},
-													width = "174",
+													width = "189",
 													ZOrder = "1",
 												},
 												{
@@ -1195,7 +1195,7 @@ local t =
 														PositionX = -140,
 														PositionY = 46,
 													},
-													width = "254",
+													width = "226",
 													ZOrder = "1",
 												},
 											},
@@ -1313,7 +1313,7 @@ local t =
 															{
 																
 															},
-															width = "70",
+															width = "64",
 															ZOrder = "1",
 														},
 														{
@@ -1358,7 +1358,7 @@ local t =
 															{
 																PositionY = 68,
 															},
-															width = "66",
+															width = "62",
 															ZOrder = "1",
 														},
 													},
@@ -1444,7 +1444,7 @@ local t =
 																PositionX = 1,
 																PositionY = 71,
 															},
-															width = "73",
+															width = "74",
 															ZOrder = "1",
 														},
 														{
@@ -1490,7 +1490,7 @@ local t =
 																PositionX = 78,
 																PositionY = -21,
 															},
-															width = "73",
+															width = "74",
 															ZOrder = "1",
 														},
 														{
@@ -1562,7 +1562,7 @@ local t =
 																PositionX = 78,
 																PositionY = 21,
 															},
-															width = "49",
+															width = "52",
 															ZOrder = "1",
 														},
 														{
@@ -1804,7 +1804,7 @@ local t =
 															{
 																
 															},
-															width = "70",
+															width = "64",
 															ZOrder = "1",
 														},
 														{
@@ -1849,7 +1849,7 @@ local t =
 															{
 																PositionY = 68,
 															},
-															width = "66",
+															width = "62",
 															ZOrder = "1",
 														},
 													},
@@ -1935,7 +1935,7 @@ local t =
 																PositionX = 1,
 																PositionY = 71,
 															},
-															width = "73",
+															width = "74",
 															ZOrder = "1",
 														},
 														{
@@ -1981,7 +1981,7 @@ local t =
 																PositionX = 78,
 																PositionY = -21,
 															},
-															width = "73",
+															width = "74",
 															ZOrder = "1",
 														},
 														{
@@ -2053,7 +2053,7 @@ local t =
 																PositionX = 78,
 																PositionY = 21,
 															},
-															width = "69",
+															width = "72",
 															ZOrder = "1",
 														},
 														{
@@ -2295,7 +2295,7 @@ local t =
 															{
 																
 															},
-															width = "70",
+															width = "64",
 															ZOrder = "1",
 														},
 														{
@@ -2340,7 +2340,7 @@ local t =
 															{
 																PositionY = 68,
 															},
-															width = "66",
+															width = "62",
 															ZOrder = "1",
 														},
 													},
@@ -2426,7 +2426,7 @@ local t =
 																PositionX = 1,
 																PositionY = 71,
 															},
-															width = "73",
+															width = "74",
 															ZOrder = "1",
 														},
 														{
@@ -2472,7 +2472,7 @@ local t =
 																PositionX = 78,
 																PositionY = -21,
 															},
-															width = "73",
+															width = "74",
 															ZOrder = "1",
 														},
 														{
@@ -2544,7 +2544,7 @@ local t =
 																PositionX = 78,
 																PositionY = 21,
 															},
-															width = "69",
+															width = "72",
 															ZOrder = "1",
 														},
 														{
@@ -2716,7 +2716,7 @@ local t =
 												PositionX = -111,
 												PositionY = -49,
 											},
-											width = "81",
+											width = "82",
 											ZOrder = "1",
 										},
 									},

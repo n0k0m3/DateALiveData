@@ -27,12 +27,12 @@ return {
         id = 5,
         beginTime  = "00:00:23,0",
         endTime  = "00:00:27,0",
-        content  = "Du willst etwas Ăźber diese Welt wissen, nicht wahr? ",
+        content  = "Du willst etwas über diese Welt wissen, nicht wahr? ",
     },
     [6] = {
         id = 6,
         beginTime  = "00:00:28,0",
         endTime  = "00:00:29,0",
-        content  = "Ich werde dir alles erzĂ¤hlen, was es zu wissen gibt!",
+        content  = "Ich werde dir alles erzählen, was es zu wissen gibt!",
     },
 }

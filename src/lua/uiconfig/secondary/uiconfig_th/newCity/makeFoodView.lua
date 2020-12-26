@@ -258,7 +258,6 @@ local t =
 												Layout="Absolute",
 												nType = "0"
 											},
-											visible = "False",
 											width = "400",
 											ZOrder = "1",
 											components = 
@@ -397,7 +396,7 @@ local t =
 																PositionX = -126,
 																PositionY = 97,
 															},
-															width = "175",
+															width = "174",
 															ZOrder = "1",
 														},
 														{
@@ -445,7 +444,7 @@ local t =
 																PositionX = 142,
 																PositionY = 97,
 															},
-															width = "175",
+															width = "174",
 															ZOrder = "1",
 														},
 														{
@@ -467,18 +466,18 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "22",
+															fontSize = "18",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "25",
-															ignoreSize = "True",
+															height = "0",
+															ignoreSize = "False",
 															name = "Label_menuName",
-															nTextAlign = "1",
-															nTextHAlign = "1",
+															nTextAlign = "0",
+															nTextHAlign = "0",
 															sizepercentx = "0",
 															sizepercenty = "0",
 															sizeType = "0",
@@ -489,9 +488,9 @@ local t =
 															UILayoutViewModel = 
 															{
 																PositionX = -126,
-																PositionY = 61,
+																PositionY = 64,
 															},
-															width = "193",
+															width = "264",
 															ZOrder = "1",
 														},
 														{
@@ -618,7 +617,7 @@ local t =
 																	{
 																		PositionY = -24,
 																	},
-																	width = "43",
+																	width = "47",
 																	ZOrder = "1",
 																},
 																{
@@ -627,10 +626,10 @@ local t =
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
-																	backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
+																	backGroundScale9Enable = "False",
 																	classname = "MEImage",
 																	dstBlendFunc = "771",
-																	height = "26",
+																	height = "35",
 																	ignoreSize = "False",
 																	name = "Image_tip",
 																	sizepercentx = "0",
@@ -641,7 +640,7 @@ local t =
 																	touchAble = "False",
 																	UILayoutViewModel = 
 																	{
-																		PositionX = -8,
+																		PositionX = -7,
 																		PositionY = 23,
 																	},
 																	width = "86",
@@ -796,7 +795,7 @@ local t =
 																	{
 																		PositionY = -24,
 																	},
-																	width = "43",
+																	width = "47",
 																	ZOrder = "1",
 																},
 																{
@@ -805,10 +804,10 @@ local t =
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
-																	backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
+																	backGroundScale9Enable = "False",
 																	classname = "MEImage",
 																	dstBlendFunc = "771",
-																	height = "26",
+																	height = "35",
 																	ignoreSize = "False",
 																	name = "Image_tip",
 																	sizepercentx = "0",
@@ -819,7 +818,7 @@ local t =
 																	touchAble = "False",
 																	UILayoutViewModel = 
 																	{
-																		PositionX = -8,
+																		PositionX = -7,
 																		PositionY = 23,
 																	},
 																	width = "86",
@@ -975,7 +974,7 @@ local t =
 																	{
 																		PositionY = -24,
 																	},
-																	width = "43",
+																	width = "47",
 																	ZOrder = "1",
 																},
 																{
@@ -984,10 +983,10 @@ local t =
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
-																	backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
+																	backGroundScale9Enable = "False",
 																	classname = "MEImage",
 																	dstBlendFunc = "771",
-																	height = "26",
+																	height = "35",
 																	ignoreSize = "False",
 																	name = "Image_tip",
 																	sizepercentx = "0",
@@ -998,7 +997,7 @@ local t =
 																	touchAble = "False",
 																	UILayoutViewModel = 
 																	{
-																		PositionX = -8,
+																		PositionX = -7,
 																		PositionY = 23,
 																	},
 																	width = "86",
@@ -1154,7 +1153,7 @@ local t =
 																	{
 																		PositionY = -24,
 																	},
-																	width = "43",
+																	width = "47",
 																	ZOrder = "1",
 																},
 																{
@@ -1163,10 +1162,10 @@ local t =
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
-																	backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
+																	backGroundScale9Enable = "False",
 																	classname = "MEImage",
 																	dstBlendFunc = "771",
-																	height = "26",
+																	height = "35",
 																	ignoreSize = "False",
 																	name = "Image_tip",
 																	sizepercentx = "0",
@@ -1177,7 +1176,7 @@ local t =
 																	touchAble = "False",
 																	UILayoutViewModel = 
 																	{
-																		PositionX = -8,
+																		PositionX = -7,
 																		PositionY = 23,
 																	},
 																	width = "86",
@@ -1296,10 +1295,10 @@ local t =
 																	anchorPoint = "False",
 																	anchorPointX = "0.5",
 																	anchorPointY = "0.5",
-																	backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
+																	backGroundScale9Enable = "False",
 																	classname = "MEImage",
 																	dstBlendFunc = "771",
-																	height = "26",
+																	height = "35",
 																	ignoreSize = "False",
 																	name = "Image_tip",
 																	sizepercentx = "0",
@@ -1310,7 +1309,7 @@ local t =
 																	touchAble = "False",
 																	UILayoutViewModel = 
 																	{
-																		PositionX = -8,
+																		PositionX = -7,
 																		PositionY = 21,
 																	},
 																	width = "86",
@@ -1407,7 +1406,7 @@ local t =
 																	{
 																		PositionY = -24,
 																	},
-																	width = "43",
+																	width = "47",
 																	ZOrder = "1",
 																},
 															},
@@ -1437,13 +1436,13 @@ local t =
 													touchAble = "True",
 													UILayoutViewModel = 
 													{
-														PositionX = 198,
+														PositionX = 199,
 														PositionY = -280,
 														LeftPositon = 193,
 														TopPosition = 542,
 													},
 													UItype = "Button",
-													width = "100",
+													width = "150",
 													ZOrder = "1",
 													components = 
 													{
@@ -1524,7 +1523,7 @@ local t =
 														TopPosition = 542,
 													},
 													UItype = "Button",
-													width = "100",
+													width = "150",
 													ZOrder = "1",
 													components = 
 													{
@@ -2342,6 +2341,7 @@ local t =
 												Layout="Absolute",
 												nType = "0"
 											},
+											visible = "False",
 											width = "1136",
 											ZOrder = "1",
 											components = 

@@ -464,7 +464,9 @@ function TaskDataMgr:getTrainingShopTipsState()
         return state
     end
     local warOrderActivity = ActivityDataMgr2:getWarOrderAcrivityInfo()
-    local trainingShopTips = CCUserDefault:sharedUserDefault():getStringForKey("training_shop_tips")
+    local pid = MainPlayer:getPlayerId()
+    pid = pid or ""
+    local trainingShopTips = CCUserDefault:sharedUserDefault():getStringForKey("training_shop_tips_" ..pid)
     if trainingShopTips ~= "geted" then
         state = true
     end

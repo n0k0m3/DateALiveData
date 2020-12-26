@@ -1340,7 +1340,9 @@ function TaskMainView:registerEvents()
     end)
 
     self.Button_shop:onClick(function()
-        CCUserDefault:sharedUserDefault():setStringForKey("training_shop_tips","geted")
+        local pid = MainPlayer:getPlayerId()
+        pid = pid or ""
+        CCUserDefault:sharedUserDefault():setStringForKey("training_shop_tips_" ..pid,"geted")
         self:updateTrainingShopTipsState()
         -- Utils:openView("store.WarOrderView")
         FunctionDataMgr:jGiftPacks(1,5)

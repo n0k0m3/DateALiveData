@@ -189,6 +189,17 @@ function LoginLayer:initUI(ui)
     self:refreshView()
 
     self:login();
+
+
+    if (TFGlobalUtils:getCacheServer( ) == GLOBAL_SERVER_LIST.SERVER_UNKNOW) then   --默认打开选服
+    	local group_id = LogonHelper:getGroupId()
+        local serverId = LogonHelper:getServerId()
+        local groupCfgId = LogonHelper:getGroupCfgId()
+        local view = requireNew("lua.logic.test.ServerListView"):new({group_id = group_id, serverId = serverId, groupCfgId = groupCfgId})
+        self:addLayer(view, AlertManager.BLOCK)
+    end
+
+    
 end
 
 function LoginLayer:login()
@@ -253,19 +264,20 @@ function LoginLayer:loginAccountSuccess()
         newPlayer = (tonumber(HeitaoSdk.isNewPlayer()) <= 0)
     end
 
-    if (TFGlobalUtils:getCacheServer() == GLOBAL_SERVER_LIST.SERVER_UNKNOW) and newPlayer and (not (TFGlobalUtils:getPlayerServerIdx() == GLOBAL_SERVER_LIST.SERVER_ENGLISH)) then
-    	local alertparams = clone(EC_GameAlertParams)
-	    alertparams.msg = 190012011
-	    alertparams.showtype = EC_GameAlertType.comfirm
-	    alertparams.comfirmCallback = function()
-	        TFGlobalUtils:setCacheServer(GLOBAL_SERVER_LIST.SERVER_ENGLISH)
-	        -- 重启客户端
-	        TFDirector:dispatchGlobalEventWith("Engine_Will_Restart", {})
-	        restartLuaEngine("")
-	    end
-	   showGameAlert(alertparams)
-        return
-    end
+    --TODO CLOSE 屏蔽切服提醒
+    -- if (TFGlobalUtils:getCacheServer() == GLOBAL_SERVER_LIST.SERVER_UNKNOW) and newPlayer and (not (TFGlobalUtils:getPlayerServerIdx() == GLOBAL_SERVER_LIST.SERVER_ENGLISH)) then
+    -- 	local alertparams = clone(EC_GameAlertParams)
+	   --  alertparams.msg = 190012011
+	   --  alertparams.showtype = EC_GameAlertType.comfirm
+	   --  alertparams.comfirmCallback = function()
+	   --      TFGlobalUtils:setCacheServer(GLOBAL_SERVER_LIST.SERVER_ENGLISH)
+	   --      -- 重启客户端
+	   --      TFDirector:dispatchGlobalEventWith("Engine_Will_Restart", {})
+	   --      restartLuaEngine("")
+	   --  end
+	   -- showGameAlert(alertparams)
+    --     return
+    -- end
 	
 	if CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID then
 		if not LogonHelper:isVerification() then
@@ -622,7 +634,7 @@ function LoginLayer:showWebView()
 end
 
 function LoginLayer:openNewNoticeLayer( ... )
-	if true then return end  --TODO CLOSE 暂时屏蔽公告
+	
 	local fullModuleName = string.format("lua.logic.%s", "common.AnnouncementLayer")
 	 local view = requireNew(fullModuleName):new()
 	 self:addLayer(view,998)

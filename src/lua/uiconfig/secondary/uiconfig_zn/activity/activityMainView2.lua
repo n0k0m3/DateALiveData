@@ -1,0 +1,586 @@
+local t = 
+{
+	version = 1,
+	components = 
+	{
+		
+		{
+			controlID = "Panel-activityMainView2_activityStyleModel_activity_Game",
+			UUID = "de70c817_93f8_43db_91c6_aba616819678",
+			anchorPoint = "False",
+			anchorPointX = "0",
+			anchorPointY = "0",
+			backGroundScale9Enable = "False",
+			bgColorOpacity = "50",
+			bIsOpenClipping = "False",
+			classname = "MEPanel",
+			colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+			DesignHeight = "640",
+			DesignType = "0",
+			DesignWidth = "960",
+			dstBlendFunc = "771",
+			height = "640",
+			ignoreSize = "False",
+			name = "Panel",
+			PanelRelativeSizeModel = 
+			{
+				PanelRelativeEnable = true,
+			},
+			sizepercentx = "100",
+			sizepercenty = "100",
+			sizeType = "1",
+			srcBlendFunc = "1",
+			touchAble = "False",
+			UILayoutViewModel = 
+			{
+				nType = 3,
+			},
+			uipanelviewmodel = 
+			{
+				Layout="Relative",
+				nType = "3"
+			},
+			width = "960",
+			ZOrder = "1",
+			components = 
+			{
+				
+				{
+					controlID = "Panel_root_Panel-activityMainView2_activityStyleModel_activity_Game",
+					UUID = "053aa2a0_550d_4c30_9c97_68d8c382350a",
+					anchorPoint = "False",
+					anchorPointX = "0.5",
+					anchorPointY = "0.5",
+					backGroundScale9Enable = "False",
+					bgColorOpacity = "50",
+					bIsOpenClipping = "False",
+					classname = "MEPanel",
+					colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+					DesignHeight = "640",
+					DesignType = "0",
+					DesignWidth = "960",
+					dstBlendFunc = "771",
+					height = "640",
+					ignoreSize = "False",
+					name = "Panel_root",
+					sizepercentx = "0",
+					sizepercenty = "0",
+					sizeType = "0",
+					srcBlendFunc = "1",
+					touchAble = "False",
+					UILayoutViewModel = 
+					{
+						PositionX = 510,
+						PositionY = 359,
+						relativeToName = "Panel",
+						nType = 3,
+						nGravity = 6,
+						nAlign = 5
+					},
+					uipanelviewmodel = 
+					{
+						Layout="Absolute",
+						nType = "0"
+					},
+					width = "1136",
+					ZOrder = "1",
+					components = 
+					{
+						
+						{
+							controlID = "Image_bg_Panel_root_Panel-activityMainView2_activityStyleModel_activity_Game",
+							UUID = "55d15bca_0959_4d49_825d_be926e9d8d37",
+							anchorPoint = "False",
+							anchorPointX = "0.5",
+							anchorPointY = "0.5",
+							backGroundScale9Enable = "False",
+							classname = "MEImage",
+							dstBlendFunc = "771",
+							height = "640",
+							ignoreSize = "True",
+							name = "Image_bg",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "770",
+							texturePath = "ui/activity/activityMain2/activityBg.png",
+							touchAble = "False",
+							UILayoutViewModel = 
+							{
+								LeftPositon = 536,
+								TopPosition = 288,
+								relativeToName = "Panel",
+							},
+							width = "1386",
+							ZOrder = "1",
+						},
+						{
+							controlID = "ScrollView_activity_Panel_root_Panel-activityMainView2_activityStyleModel_activity_Game",
+							UUID = "5ef14aa6_9ebf_4a68_9840_23bf53c9ad63",
+							anchorPoint = "False",
+							anchorPointX = "0",
+							anchorPointY = "0",
+							backGroundScale9Enable = "False",
+							bgColorOpacity = "50",
+							bIsOpenClipping = "True",
+							bounceEnable = "True",
+							classname = "MEScrollView",
+							colorType = "0;SingleColor:#FFFF0000;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+							direction = "1",
+							dstBlendFunc = "771",
+							height = "550",
+							ignoreSize = "False",
+							innerHeight = "550",
+							innerWidth = "208",
+							name = "ScrollView_activity",
+							showScrollbar = "False",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "1",
+							touchAble = "True",
+							UILayoutViewModel = 
+							{
+								PositionX = -565,
+								PositionY = -318,
+							},
+							uipanelviewmodel = 
+							{
+								Layout="Absolute",
+								nType = "0"
+							},
+							width = "205",
+							ZOrder = "1",
+						},
+						{
+							controlID = "Panel_activity_Panel_root_Panel-activityMainView2_activityStyleModel_activity_Game",
+							UUID = "546ad730_1ff7_4537_a0c1_a6ae31c7a147",
+							anchorPoint = "False",
+							anchorPointX = "0.5",
+							anchorPointY = "0.5",
+							backGroundScale9Enable = "False",
+							bgColorOpacity = "50",
+							bIsOpenClipping = "False",
+							classname = "MEPanel",
+							colorType = "0;SingleColor:#FFFF0000;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+							DesignHeight = "640",
+							DesignType = "0",
+							DesignWidth = "960",
+							dstBlendFunc = "771",
+							height = "548",
+							ignoreSize = "False",
+							name = "Panel_activity",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "1",
+							touchAble = "False",
+							UILayoutViewModel = 
+							{
+								PositionX = 102,
+								PositionY = -35,
+							},
+							uipanelviewmodel = 
+							{
+								Layout="Absolute",
+								nType = "0"
+							},
+							width = "924",
+							ZOrder = "1",
+						},
+					},
+				},
+				{
+					controlID = "Panel_prefab_Panel-activityMainView2_activityStyleModel_activity_Game",
+					UUID = "0adc0289_e0e4_49b5_8903_80a7e8c587a9",
+					anchorPoint = "False",
+					anchorPointX = "0.5",
+					anchorPointY = "0.5",
+					backGroundScale9Enable = "False",
+					bgColorOpacity = "50",
+					bIsOpenClipping = "False",
+					classname = "MEPanel",
+					colorType = "1;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+					DesignHeight = "640",
+					DesignType = "0",
+					DesignWidth = "960",
+					dstBlendFunc = "771",
+					height = "640",
+					ignoreSize = "False",
+					name = "Panel_prefab",
+					sizepercentx = "0",
+					sizepercenty = "0",
+					sizeType = "0",
+					srcBlendFunc = "1",
+					touchAble = "False",
+					UILayoutViewModel = 
+					{
+						PositionX = 556,
+						PositionY = -287,
+						LeftPositon = -12,
+						TopPosition = 686,
+						relativeToName = "Panel",
+						nType = 3,
+						nGravity = 2,
+					},
+					uipanelviewmodel = 
+					{
+						Layout="Absolute",
+						nType = "0"
+					},
+					width = "1136",
+					ZOrder = "1",
+					components = 
+					{
+						
+						{
+							controlID = "Panel_activityItem_Panel_prefab_Panel-activityMainView2_activityStyleModel_activity_Game",
+							UUID = "19b458f5_5e31_4aca_a874_ed8329d29947",
+							anchorPoint = "False",
+							anchorPointX = "0.5",
+							anchorPointY = "0.5",
+							backGroundScale9Enable = "False",
+							bgColorOpacity = "50",
+							bIsOpenClipping = "False",
+							classname = "MEPanel",
+							colorType = "0;SingleColor:#FFF0F8FF;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+							DesignHeight = "640",
+							DesignType = "0",
+							DesignWidth = "960",
+							dstBlendFunc = "771",
+							height = "70",
+							ignoreSize = "False",
+							name = "Panel_activityItem",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "1",
+							touchAble = "False",
+							UILayoutViewModel = 
+							{
+								PositionX = -560,
+							},
+							uipanelviewmodel = 
+							{
+								Layout="Absolute",
+								nType = "0"
+							},
+							width = "206",
+							ZOrder = "1",
+							components = 
+							{
+								
+								{
+									controlID = "ImageNormal_Panel_activityItem_Panel_prefab_Panel-activityMainView2_activityStyleModel_activity_Game",
+									UUID = "f8f92863_1068_4b2c_bb52_57c8a24cea9e",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MEImage",
+									dstBlendFunc = "771",
+									height = "54",
+									ignoreSize = "True",
+									name = "ImageNormal",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									texturePath = "ui/activity/activityMain2/btn_normal.png",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = -60,
+										PositionY = 1,
+									},
+									width = "54",
+									ZOrder = "1",
+									components = 
+									{
+										
+										{
+											controlID = "Image_item_bg_ImageNormal_Panel_activityItem_Panel_prefab_Panel-activityMainView2_activityStyleModel_activity_Game",
+											UUID = "bab59029_b524_4d3e_956b_d452886a14d1",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											classname = "MEImage",
+											dstBlendFunc = "771",
+											height = "16",
+											ignoreSize = "True",
+											name = "Image_item_bg",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											texturePath = "ui/activity/anniversary/ui_010.png",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = 36,
+											},
+											width = "10",
+											ZOrder = "-1",
+										},
+										{
+											controlID = "activityName_ImageNormal_Panel_activityItem_Panel_prefab_Panel-activityMainView2_activityStyleModel_activity_Game",
+											UUID = "c27fb430_fe18_4281_8a2a_2abb72d7551e",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											classname = "MELabel",
+											compPath = "luacomponents.common.MEIconLabel",
+											dstBlendFunc = "771",
+											FontColor = "#FFFFFFFF",
+											fontName = "font/MFLiHei_Noncommercial.ttf",
+											fontShadow = 
+											{
+												IsShadow = false,
+												ShadowColor = "#FFFFFFFF",
+												ShadowAlpha = 255,
+												OffsetX = 0,
+												OffsetY = 0,
+											},
+											fontSize = "22",
+											fontStroke = 
+											{
+												IsStroke = false,
+												StrokeColor = "#FFE6E6E6",
+												StrokeSize = 1,
+											},
+											height = "27",
+											ignoreSize = "True",
+											name = "activityName",
+											nTextAlign = "0",
+											nTextHAlign = "0",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "770",
+											text = "福利来袭",
+											touchAble = "False",
+											touchScaleEnable = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = 97,
+												PositionY = -2,
+											},
+											width = "91",
+											ZOrder = "1",
+										},
+										{
+											controlID = "Image_new_ImageNormal_Panel_activityItem_Panel_prefab_Panel-activityMainView2_activityStyleModel_activity_Game",
+											UUID = "a589fd54_1e7e_4714_99e0_fad6aec632e4",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											classname = "MEImage",
+											dstBlendFunc = "771",
+											height = "30",
+											ignoreSize = "True",
+											name = "Image_new",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											texturePath = "ui/common/news_small.png",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = 18,
+												PositionY = 14,
+											},
+											width = "30",
+											ZOrder = "1",
+										},
+										{
+											controlID = "Image_line_ImageNormal_Panel_activityItem_Panel_prefab_Panel-activityMainView2_activityStyleModel_activity_Game",
+											UUID = "93d44049_0087_4c38_bb91_e6598570853b",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											classname = "MEImage",
+											dstBlendFunc = "771",
+											height = "2",
+											ignoreSize = "True",
+											name = "Image_line",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											texturePath = "ui/activity/activityMain2/c2.png",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = 67,
+												PositionY = -26,
+											},
+											width = "116",
+											ZOrder = "1",
+										},
+									},
+								},
+								{
+									controlID = "ImageSelect_Panel_activityItem_Panel_prefab_Panel-activityMainView2_activityStyleModel_activity_Game",
+									UUID = "61301a30_6359_4271_a7cf_1185f0ce9334",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MEImage",
+									dstBlendFunc = "771",
+									height = "54",
+									ignoreSize = "True",
+									name = "ImageSelect",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									texturePath = "ui/activity/activityMain2/btn_selected.png",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = -47,
+									},
+									width = "54",
+									ZOrder = "1",
+									components = 
+									{
+										
+										{
+											controlID = "Image_item_bg_ImageSelect_Panel_activityItem_Panel_prefab_Panel-activityMainView2_activityStyleModel_activity_Game",
+											UUID = "64d6ae5b_6256_49a1_a64e_2534732a31bf",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											classname = "MEImage",
+											dstBlendFunc = "771",
+											height = "63",
+											ignoreSize = "True",
+											name = "Image_item_bg",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											texturePath = "ui/activity/activityMain2/c1_1.png",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = 51,
+											},
+											width = "200",
+											ZOrder = "-1",
+										},
+										{
+											controlID = "activityName_ImageSelect_Panel_activityItem_Panel_prefab_Panel-activityMainView2_activityStyleModel_activity_Game",
+											UUID = "f6c9dfb6_ef3b_4294_851d_5da6ec5062d8",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											classname = "MELabel",
+											compPath = "luacomponents.common.MEIconLabel",
+											dstBlendFunc = "771",
+											FontColor = "#FFFFFFFF",
+											fontName = "font/MFLiHei_Noncommercial.ttf",
+											fontShadow = 
+											{
+												IsShadow = false,
+												ShadowColor = "#FFFFFFFF",
+												ShadowAlpha = 255,
+												OffsetX = 0,
+												OffsetY = 0,
+											},
+											fontSize = "22",
+											fontStroke = 
+											{
+												IsStroke = true,
+												StrokeColor = "#FFFFFFFF",
+												StrokeSize = 0,
+											},
+											height = "27",
+											ignoreSize = "True",
+											name = "activityName",
+											nTextAlign = "0",
+											nTextHAlign = "0",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "770",
+											text = "登录应援",
+											touchAble = "False",
+											touchScaleEnable = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = 79,
+												PositionY = -2,
+											},
+											width = "89",
+											ZOrder = "1",
+										},
+										{
+											controlID = "Image_new_ImageSelect_Panel_activityItem_Panel_prefab_Panel-activityMainView2_activityStyleModel_activity_Game",
+											UUID = "7b714179_3489_4178_80b8_63f4fb004f95",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											backGroundScale9Enable = "False",
+											classname = "MEImage",
+											dstBlendFunc = "771",
+											height = "30",
+											ignoreSize = "True",
+											name = "Image_new",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											texturePath = "ui/common/news_small.png",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												PositionX = 145,
+												PositionY = 25,
+											},
+											width = "30",
+											ZOrder = "1",
+										},
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+	},
+	actions = 
+	{
+		
+	},
+	respaths = 
+	{
+		textures = 
+		{
+			"ui/activity/activityMain2/activityBg.png",
+			"ui/activity/activityMain2/btn_normal.png",
+			"ui/activity/anniversary/ui_010.png",
+			"ui/common/news_small.png",
+			"ui/activity/activityMain2/c2.png",
+			"ui/activity/activityMain2/btn_selected.png",
+			"ui/activity/activityMain2/c1_1.png",
+		},
+		armatures = 
+		{
+			
+		},
+		movieclips = 
+		{
+			
+		},
+	},
+}
+return t
+

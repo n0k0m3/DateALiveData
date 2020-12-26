@@ -233,7 +233,7 @@ local t =
 										PositionX = -200,
 										PositionY = -500,
 									},
-									width = "96",
+									width = "101",
 									ZOrder = "1",
 								},
 								{
@@ -289,11 +289,11 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 106,
+										PositionX = 74,
 										PositionY = 210,
 									},
 									UItype = "Button",
-									width = "140",
+									width = "209",
 									ZOrder = "1",
 									components = 
 									{
@@ -333,14 +333,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "恢复续订",
+											text = "Renovar suscripción",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionX = -7,
 											},
-											width = "75",
+											width = "148",
 											ZOrder = "1",
 										},
 									},
@@ -364,15 +364,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "26",
+									fontSize = "24",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "0",
-									ignoreSize = "False",
+									height = "28",
+									ignoreSize = "True",
 									name = "Label_monthCard_1",
 									nTextAlign = "1",
 									nTextHAlign = "0",
@@ -388,7 +388,7 @@ local t =
 										PositionX = -174,
 										PositionY = 210,
 									},
-									width = "199",
+									width = "143",
 									ZOrder = "1",
 								},
 								{
@@ -433,7 +433,7 @@ local t =
 									{
 										PositionY = 154,
 									},
-									width = "208",
+									width = "228",
 									ZOrder = "1",
 								},
 								{
@@ -478,7 +478,7 @@ local t =
 									{
 										PositionY = -265,
 									},
-									width = "130",
+									width = "124",
 									ZOrder = "1",
 								},
 								{
@@ -548,7 +548,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "使用条款",
+											text = "TÉRMINOS DEL USO",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -627,7 +627,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "隐私协议",
+											text = "POLÍTICA DE PRIVACIDAD",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 

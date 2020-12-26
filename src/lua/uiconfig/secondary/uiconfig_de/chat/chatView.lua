@@ -284,7 +284,7 @@ local t =
 											useShadow = "False",
 											vAlignment = "0",
 											visible = "False",
-											width = "35",
+											width = "38",
 											ZOrder = "1",
 										},
 										{
@@ -329,7 +329,7 @@ local t =
 											{
 												PositionY = -20,
 											},
-											width = "35",
+											width = "38",
 											ZOrder = "1",
 										},
 									},
@@ -540,7 +540,7 @@ local t =
 																		PositionX = -144,
 																		PositionY = -1,
 																	},
-																	width = "306",
+																	width = "296",
 																	ZOrder = "1",
 																},
 															},
@@ -659,7 +659,7 @@ local t =
 													{
 														
 													},
-													width = "91",
+													width = "85",
 													ZOrder = "1",
 												},
 											},
@@ -1117,7 +1117,7 @@ local t =
 											height = "56",
 											ignoreSize = "True",
 											name = "Button_filter",
-											normal = "ui/chat/filter.png",
+											normal = "ui/chat/filter_de.png",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -1176,7 +1176,7 @@ local t =
 													{
 														PositionY = -2,
 													},
-													width = "188",
+													width = "206",
 													ZOrder = "1",
 												},
 											},
@@ -1754,7 +1754,7 @@ local t =
 																		PositionY = -10,
 																	},
 																	visible = "False",
-																	width = "67",
+																	width = "65",
 																	ZOrder = "1",
 																},
 																{
@@ -1799,7 +1799,7 @@ local t =
 																	{
 																		PositionX = -190,
 																	},
-																	width = "166",
+																	width = "151",
 																	ZOrder = "1",
 																},
 																{
@@ -1844,7 +1844,7 @@ local t =
 																	{
 																		PositionX = -27,
 																	},
-																	width = "118",
+																	width = "132",
 																	ZOrder = "1",
 																},
 																{
@@ -2007,7 +2007,7 @@ local t =
 															{
 																PositionY = -29,
 															},
-															width = "236",
+															width = "229",
 															ZOrder = "1",
 														},
 														{
@@ -2253,7 +2253,7 @@ local t =
 													{
 														PositionY = -1,
 													},
-													width = "46",
+													width = "42",
 													ZOrder = "1",
 												},
 												{
@@ -2325,7 +2325,7 @@ local t =
 															{
 																PositionY = -1,
 															},
-															width = "46",
+															width = "42",
 															ZOrder = "1",
 														},
 													},
@@ -2407,7 +2407,7 @@ local t =
 													{
 														PositionY = -1,
 													},
-													width = "108",
+													width = "103",
 													ZOrder = "1",
 												},
 												{
@@ -2479,7 +2479,7 @@ local t =
 															{
 																PositionY = -1,
 															},
-															width = "108",
+															width = "103",
 															ZOrder = "1",
 														},
 													},
@@ -4822,7 +4822,7 @@ local t =
 												PositionX = 39,
 												PositionY = 100,
 											},
-											width = "115",
+											width = "111",
 											ZOrder = "1",
 										},
 										{
@@ -5375,7 +5375,7 @@ local t =
 													controlID = "Button_zhudui_Image_zhudui_Panel_content_Panel_otherItem_Panel_item_Panel-chatView_Layer1_chat_Game",
 													UUID = "4cebfde4_439c_46a6_b121_49985f40cd09",
 													anchorPoint = "False",
-													anchorPointX = "1",
+													anchorPointX = "0.5",
 													anchorPointY = "0.5",
 													backGroundScale9Enable = "False",
 													classname = "MEButton",
@@ -5529,7 +5529,7 @@ local t =
 												PositionX = 100,
 												PositionY = 20,
 											},
-											width = "88",
+											width = "89",
 											ZOrder = "1",
 										},
 										{
@@ -5575,7 +5575,7 @@ local t =
 												PositionX = 113,
 												PositionY = 20,
 											},
-											width = "191",
+											width = "185",
 											ZOrder = "1",
 										},
 										{
@@ -6174,6 +6174,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
+									visible = "False",
 									width = "372",
 									ZOrder = "1",
 									components = 
@@ -6301,7 +6302,7 @@ local t =
 														PositionX = 264,
 														PositionY = 124,
 													},
-													width = "87",
+													width = "94",
 													ZOrder = "1",
 												},
 												{
@@ -6347,7 +6348,7 @@ local t =
 														PositionX = 14,
 														PositionY = 133,
 													},
-													width = "218",
+													width = "232",
 													ZOrder = "1",
 												},
 												{
@@ -6394,7 +6395,7 @@ local t =
 														PositionX = 344,
 														PositionY = 149,
 													},
-													width = "139",
+													width = "135",
 													ZOrder = "1",
 												},
 												{
@@ -6544,7 +6545,7 @@ local t =
 														PositionX = 16,
 														PositionY = 112,
 													},
-													width = "119",
+													width = "116",
 													ZOrder = "1",
 												},
 												{
@@ -7121,7 +7122,7 @@ local t =
 												PositionX = -67,
 												PositionY = 20,
 											},
-											width = "88",
+											width = "89",
 											ZOrder = "1",
 										},
 										{
@@ -7167,7 +7168,7 @@ local t =
 												PositionX = -80,
 												PositionY = 20,
 											},
-											width = "191",
+											width = "185",
 											ZOrder = "1",
 										},
 										{
@@ -8039,7 +8040,7 @@ local t =
 												PositionY = 20,
 											},
 											visible = "False",
-											width = "88",
+											width = "89",
 											ZOrder = "1",
 										},
 										{
@@ -8085,7 +8086,7 @@ local t =
 												PositionX = 48,
 												PositionY = 20,
 											},
-											width = "58",
+											width = "56",
 											ZOrder = "1",
 										},
 										{
@@ -8255,7 +8256,7 @@ local t =
 												PositionX = 50,
 												PositionY = 20,
 											},
-											width = "191",
+											width = "185",
 											ZOrder = "1",
 										},
 									},
@@ -8509,7 +8510,7 @@ local t =
 										PositionX = 40,
 										PositionY = 20,
 									},
-									width = "31",
+									width = "33",
 									ZOrder = "1",
 								},
 							},
@@ -8723,7 +8724,7 @@ local t =
 							{
 								PositionX = -190,
 							},
-							width = "166",
+							width = "151",
 							ZOrder = "1",
 						},
 						{
@@ -8768,7 +8769,7 @@ local t =
 							{
 								PositionX = -27,
 							},
-							width = "118",
+							width = "132",
 							ZOrder = "1",
 						},
 					},
@@ -8949,7 +8950,7 @@ local t =
 												PositionY = -44,
 											},
 											vAlignment = "0",
-											width = "63",
+											width = "65",
 											ZOrder = "1",
 										},
 									},
@@ -9025,7 +9026,7 @@ local t =
 												PositionY = -44,
 											},
 											vAlignment = "0",
-											width = "63",
+											width = "65",
 											ZOrder = "1",
 										},
 									},
@@ -9101,7 +9102,7 @@ local t =
 												PositionY = -44,
 											},
 											vAlignment = "0",
-											width = "63",
+											width = "65",
 											ZOrder = "1",
 										},
 									},
@@ -9177,7 +9178,7 @@ local t =
 												PositionY = -44,
 											},
 											vAlignment = "0",
-											width = "63",
+											width = "65",
 											ZOrder = "1",
 										},
 									},
@@ -9253,7 +9254,7 @@ local t =
 												PositionY = -44,
 											},
 											vAlignment = "0",
-											width = "63",
+											width = "65",
 											ZOrder = "1",
 										},
 									},
@@ -9603,7 +9604,7 @@ local t =
 			"ui/chat/select.png",
 			"ui/chat/Sicon.png",
 			"ui/chat/Bicon.png",
-			"ui/chat/filter.png",
+			"ui/chat/filter_de.png",
 			"ui/mainLayer/070.png",
 			"ui/chat/117.png",
 			"ui/chat/127.png",

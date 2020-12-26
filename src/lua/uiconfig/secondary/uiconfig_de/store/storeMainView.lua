@@ -406,14 +406,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "21",
 									ignoreSize = "True",
 									name = "Label_countDown",
 									nTextAlign = "1",
@@ -427,10 +427,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 370,
+										PositionX = 385,
 										PositionY = 238,
 									},
-									width = "105",
+									width = "93",
 									ZOrder = "1",
 									components = 
 									{
@@ -480,14 +480,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
+											height = "18",
 											ignoreSize = "True",
 											name = "Label_countdown_time",
 											nTextAlign = "1",
@@ -503,7 +503,7 @@ local t =
 											{
 												PositionY = -22,
 											},
-											width = "80",
+											width = "64",
 											ZOrder = "1",
 										},
 									},
@@ -534,7 +534,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "19",
+									height = "17",
 									ignoreSize = "True",
 									name = "Label_deadLine",
 									nTextAlign = "1",
@@ -548,10 +548,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 222,
+										PositionX = 200,
 										PositionY = 226,
 									},
-									width = "158",
+									width = "140",
 									ZOrder = "1",
 									components = 
 									{
@@ -720,7 +720,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "消耗",
+											text = "Kosten",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -728,7 +728,7 @@ local t =
 												PositionX = 58,
 												PositionY = 51,
 											},
-											width = "43",
+											width = "58",
 											ZOrder = "1",
 										},
 										{
@@ -802,7 +802,7 @@ local t =
 												PositionX = 73,
 												PositionY = 24,
 											},
-											width = "45",
+											width = "44",
 											ZOrder = "1",
 										},
 										{
@@ -1153,7 +1153,7 @@ local t =
 									{
 										PositionX = -37,
 									},
-									width = "59",
+									width = "62",
 									ZOrder = "1",
 								},
 							},
@@ -1290,15 +1290,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "17",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_name",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -1314,7 +1314,7 @@ local t =
 										PositionX = -8,
 										PositionY = -25,
 									},
-									width = "43",
+									width = "83",
 									ZOrder = "1",
 								},
 								{
@@ -1338,7 +1338,7 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										
+										PositionX = 1,
 									},
 									width = "116",
 									ZOrder = "1",
@@ -1560,7 +1560,7 @@ local t =
 													{
 														PositionY = 154,
 													},
-													width = "110",
+													width = "118",
 													ZOrder = "1",
 												},
 												{
@@ -1748,7 +1748,7 @@ local t =
 																nGravity = 5,
 																nAlign = 4
 															},
-															width = "51",
+															width = "50",
 															ZOrder = "1",
 														},
 														{
@@ -1797,7 +1797,7 @@ local t =
 																nGravity = 5,
 																nAlign = 4
 															},
-															width = "51",
+															width = "50",
 															ZOrder = "1",
 														},
 													},
@@ -1916,7 +1916,7 @@ local t =
 																nGravity = 5,
 																nAlign = 4
 															},
-															width = "51",
+															width = "50",
 															ZOrder = "1",
 														},
 														{
@@ -1965,7 +1965,7 @@ local t =
 																nGravity = 5,
 																nAlign = 4
 															},
-															width = "51",
+															width = "50",
 															ZOrder = "1",
 														},
 													},
@@ -2084,7 +2084,7 @@ local t =
 																nGravity = 5,
 																nAlign = 4
 															},
-															width = "51",
+															width = "50",
 															ZOrder = "1",
 														},
 														{
@@ -2133,7 +2133,7 @@ local t =
 																nGravity = 5,
 																nAlign = 4
 															},
-															width = "51",
+															width = "50",
 															ZOrder = "1",
 														},
 													},
@@ -2144,11 +2144,11 @@ local t =
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
-													backGroundScale9Enable = "False",
+													backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 													classname = "MEImage",
 													dstBlendFunc = "771",
-													height = "53",
-													ignoreSize = "True",
+													height = "54",
+													ignoreSize = "False",
 													name = "Image_open_time",
 													sizepercentx = "0",
 													sizepercenty = "0",
@@ -2158,9 +2158,9 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionY = -27,
+														PositionY = -29,
 													},
-													width = "173",
+													width = "193",
 													ZOrder = "1",
 													components = 
 													{
@@ -2184,15 +2184,15 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "22",
+															fontSize = "19",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "27",
-															ignoreSize = "True",
+															height = "0",
+															ignoreSize = "False",
 															name = "Label_open_time",
 															nTextAlign = "1",
 															nTextHAlign = "1",
@@ -2200,14 +2200,14 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
-															text = "12-20开售",
+															text = "Im Angebot am 12-18",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
 																PositionY = -2,
 															},
-															width = "120",
+															width = "183",
 															ZOrder = "1",
 														},
 													},
@@ -2330,15 +2330,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "15",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_name",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -2353,7 +2353,7 @@ local t =
 											{
 												PositionY = 189,
 											},
-											width = "135",
+											width = "200",
 											ZOrder = "1",
 										},
 									},
@@ -2579,7 +2579,7 @@ local t =
 														PositionX = -4,
 														PositionY = -9,
 													},
-													width = "31",
+													width = "30",
 													ZOrder = "1",
 												},
 												{
@@ -2625,7 +2625,7 @@ local t =
 														PositionX = 22,
 														PositionY = -14,
 													},
-													width = "12",
+													width = "11",
 													ZOrder = "1",
 												},
 												{

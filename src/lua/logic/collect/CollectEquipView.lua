@@ -173,6 +173,8 @@ function CollectEquipView:updateThreeSuitPage(filtInfo,filtKey)
 		itemCell:setVisible(true)
 		for j=1,2 do
 			local suitInfo = suitAllCfg[suitAllkeys[2*(i-1)+j]]
+			local item_cell_part = itemCell:getChildByName("Panel_part_"..j)
+			item_cell_part:setVisible(false)
 			if suitInfo == nil then
 				return
 			end

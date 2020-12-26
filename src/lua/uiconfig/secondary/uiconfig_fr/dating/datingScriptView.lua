@@ -674,12 +674,12 @@ local t =
 											bgColorOpacity = "50",
 											bIsOpenClipping = "True",
 											classname = "MEPanel",
-											colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+											colorType = "0;SingleColor:#FFFF6347;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
 											DesignHeight = "640",
 											DesignType = "0",
 											DesignWidth = "960",
 											dstBlendFunc = "771",
-											height = "100",
+											height = "116",
 											ignoreSize = "False",
 											name = "Panel_clip",
 											sizepercentx = "0",
@@ -690,7 +690,7 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = -1261,
-												PositionY = -36,
+												PositionY = -59,
 											},
 											uipanelviewmodel = 
 											{
@@ -728,7 +728,7 @@ local t =
 														StrokeColor = "#FF49557F",
 														StrokeSize = 1,
 													},
-													height = "80",
+													height = "90",
 													ignoreSize = "False",
 													name = "TextArea_talking",
 													nTextAlign = "0",
@@ -737,13 +737,13 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "Fumuaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+													text = "FumuaaaaaaaFumuaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 93,
-														PositionY = -3,
+														PositionX = 54,
+														PositionY = 12,
 													},
 													width = "1040",
 													ZOrder = "1",
@@ -3741,7 +3741,7 @@ local t =
 														PositionX = 183,
 														PositionY = 24,
 													},
-													width = "72",
+													width = "82",
 													ZOrder = "1",
 												},
 												{
@@ -3843,7 +3843,7 @@ local t =
 														PositionX = 38,
 														PositionY = 27,
 													},
-													width = "62",
+													width = "69",
 													ZOrder = "1",
 												},
 												{

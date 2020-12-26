@@ -371,6 +371,7 @@ local t =
 												PositionX = 18,
 												PositionY = 382,
 											},
+											visible = "False",
 											width = "16",
 											ZOrder = "1",
 										},
@@ -500,7 +501,7 @@ local t =
 												PositionX = 8,
 												PositionY = 434,
 											},
-											width = "269",
+											width = "290",
 											ZOrder = "1",
 										},
 										{
@@ -546,7 +547,8 @@ local t =
 												PositionX = 10,
 												PositionY = 380,
 											},
-											width = "57",
+											visible = "False",
+											width = "60",
 											ZOrder = "1",
 										},
 										{
@@ -592,7 +594,8 @@ local t =
 												PositionX = 10,
 												PositionY = 358,
 											},
-											width = "57",
+											visible = "False",
+											width = "60",
 											ZOrder = "1",
 										},
 										{
@@ -757,7 +760,7 @@ local t =
 											{
 												PositionY = -36,
 											},
-											width = "81",
+											width = "78",
 											ZOrder = "1",
 										},
 									},
@@ -1077,7 +1080,7 @@ local t =
 												PositionX = -65,
 												PositionY = -12,
 											},
-											width = "245",
+											width = "247",
 											ZOrder = "1",
 										},
 										{
@@ -1123,7 +1126,7 @@ local t =
 												PositionX = -66,
 												PositionY = 10,
 											},
-											width = "162",
+											width = "182",
 											ZOrder = "1",
 										},
 									},
@@ -1229,7 +1232,7 @@ local t =
 											{
 												PositionY = -36,
 											},
-											width = "83",
+											width = "78",
 											ZOrder = "1",
 										},
 									},
@@ -1349,7 +1352,7 @@ local t =
 										PositionY = 561,
 									},
 									visible = "False",
-									width = "144",
+									width = "141",
 									ZOrder = "1",
 								},
 								{
@@ -1629,7 +1632,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "34",
+													height = "27",
 													ignoreSize = "True",
 													name = "Label_unlock_btn_title",
 													nTextAlign = "1",
@@ -1645,7 +1648,7 @@ local t =
 													{
 														
 													},
-													width = "150",
+													width = "118",
 													ZOrder = "1",
 												},
 												{
@@ -1736,8 +1739,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 19,
-												PositionY = 25,
+												PositionX = -25,
+												PositionY = 26,
 											},
 											width = "82",
 											ZOrder = "1",
@@ -1812,7 +1815,7 @@ local t =
 												PositionX = 234,
 												PositionY = 93,
 											},
-											width = "34",
+											width = "33",
 											ZOrder = "1",
 										},
 										{
@@ -1884,7 +1887,7 @@ local t =
 												PositionX = 257,
 												PositionY = 25,
 											},
-											width = "59",
+											width = "62",
 											ZOrder = "1",
 										},
 										{
@@ -2019,7 +2022,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -126,
+												PositionX = -150,
 												PositionY = 31,
 											},
 											width = "81",
@@ -2094,7 +2097,7 @@ local t =
 												PositionX = 135,
 												PositionY = 29,
 											},
-											width = "199",
+											width = "187",
 											ZOrder = "1",
 										},
 									},
@@ -2175,7 +2178,7 @@ local t =
 												PositionX = -60,
 												PositionY = -13,
 											},
-											width = "70",
+											width = "67",
 											ZOrder = "1",
 										},
 									},

@@ -177,6 +177,8 @@ function TalkMainLayer:initData(data)
 	self.enableNext = true
 	self.clickedSkip = false
 	self.curNextBtn = nil
+
+
 end
 
 function TalkMainLayer:ctor(param)
@@ -335,7 +337,7 @@ function TalkMainLayer:updateTalkPanel(talk_panel,cfg)
 		textArea:setFontSize(talkBGCfg.textFontSize)
 		textArea:setTextAreaSize(talkBGCfg.textAreaSize)
 	else
-		textArea:setFontSize(20)
+		textArea:setFontSize(18)
 	end
 	
 	self:updateContent(textArea,cfg)
@@ -412,6 +414,7 @@ function TalkMainLayer:updateContent(textArea,cfg)
     -- if tmStrLen ~= strlen then
     -- 	Box("M:"..strlen.."|T:"..tmStrLen)
     -- end
+
 
 	for i=1,#textInfo do
 		local cuttxtinfo = textInfo[i]

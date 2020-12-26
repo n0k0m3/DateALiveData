@@ -6,7 +6,7 @@ return {
         needTime = {
             [1] = 2020,
             [2] = 12,
-            [3] = 24,
+            [3] = 23,
             [4] = 0,
         },
         storydungenPic = "ui/agora/level/sence_3.png",
@@ -41,7 +41,7 @@ return {
         needTime = {
             [1] = 2020,
             [2] = 12,
-            [3] = 25,
+            [3] = 24,
             [4] = 0,
         },
         storydungenPic = "ui/agora/level/sence_1.png",
@@ -76,7 +76,7 @@ return {
         needTime = {
             [1] = 2020,
             [2] = 12,
-            [3] = 26,
+            [3] = 25,
             [4] = 0,
         },
         storydungenPic = "ui/agora/level/sence_4.png",
@@ -111,7 +111,7 @@ return {
         needTime = {
             [1] = 2020,
             [2] = 12,
-            [3] = 27,
+            [3] = 26,
             [4] = 0,
         },
         storydungenPic = "ui/agora/level/sence_2.png",
@@ -146,7 +146,7 @@ return {
         needTime = {
             [1] = 2020,
             [2] = 12,
-            [3] = 28,
+            [3] = 27,
             [4] = 0,
         },
         storydungenPic = "ui/agora/level/sence_5.png",

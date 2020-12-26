@@ -41,6 +41,8 @@ function MainLayer:ctor(data)
 	]]
 	--self:init("lua.uiconfig.MainScene.WanKryptonMainLayer")
 
+    
+
 	local uidata = TabDataMgr:getData("Uichange", MainUISettingMgr:getui())
 
 	if uidata then
@@ -134,8 +136,6 @@ function MainLayer:initUI(ui)
 
     self.Image_noticeTip = TFDirector:getChildByPath(self.Button_notice, "Image_noticeTip")
 
-    --隐藏主界面公告按钮
-    self.Button_notice:hide()
 
 
     
@@ -4079,21 +4079,30 @@ end
 
 function MainLayer:updateGiftPacksState()
     self.Button_giftpacks:show()
-
     self.Image_redTips:hide()
+
     local redState = false
-   
-    local stateTraining = TaskDataMgr:getTrainingShopTipsState()
-    local isFundRed = RechargeDataMgr:isGrowFundViewShowRed()
-    local havecard = tobool(RechargeDataMgr:getMonthCardLeftTime() > 0)
-    local cansign = RechargeDataMgr:isMonthCardCanSign()
-    local canGetTask = SummonDataMgr:getCanGetTask()
-    --暂时屏蔽养成基金红点判断
-    --if RechargeDataMgr:isGrowFundViewShowRed() or (havecard and cansign) or canGetTask then
-    local isWeekCardCanSign = RechargeDataMgr:getWeekCardCanSign() 
-    if isFundRed or stateTraining or (havecard and cansign) or isWeekCardCanSign or canGetTask then
-        redState = true
+    -- 战令红点判断
+    if (GlobalFuncDataMgr:isOpen(7)) then
+        redState = redState or TaskDataMgr:getTrainingShopTipsState()
     end
+    -- 养成基金红点判断
+    if (GlobalFuncDataMgr:isOpen(2)) then
+        redState = redState or RechargeDataMgr:isGrowFundViewShowRed()
+    end
+
+    -- 月卡红点判断
+    redState = redState or (tobool(RechargeDataMgr:getMonthCardLeftTime() > 0) and RechargeDataMgr:isMonthCardCanSign())
+
+    -- 精灵契约红点判断
+    if (GlobalFuncDataMgr:isOpen(6)) then
+        redState = redState or SummonDataMgr:getCanGetTask()
+    end
+    -- 周卡红点判断
+    if (GlobalFuncDataMgr:isOpen(1)) then
+        redState = redState or RechargeDataMgr:getWeekCardCanSign() 
+    end
+
     if redState then
         self.Image_redTips:show()        
     end

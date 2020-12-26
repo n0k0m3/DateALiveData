@@ -183,7 +183,7 @@ local t =
 											controlID = "Label_title_Image_open_time_Panel_level_sel_Panel_root_Panel-teamLevelSelView_Layer1_teamFight_Game",
 											UUID = "ef1959f8_bc6b_43ad_9683_6bd2de20f86e",
 											anchorPoint = "False",
-											anchorPointX = "0.5",
+											anchorPointX = "0",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
@@ -219,10 +219,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -28,
+												PositionX = -108,
 												PositionY = -4,
 											},
-											width = "167",
+											width = "178",
 											ZOrder = "1",
 										},
 										{
@@ -265,10 +265,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 72,
-												PositionY = -5,
+												PositionX = 91,
+												PositionY = -34,
 											},
-											width = "240",
+											width = "237",
 											ZOrder = "1",
 										},
 									},
@@ -635,7 +635,7 @@ local t =
 												PositionX = -26,
 												PositionY = 430,
 											},
-											width = "148",
+											width = "160",
 											ZOrder = "1",
 										},
 										{
@@ -734,7 +734,7 @@ local t =
 													{
 														PositionX = -4,
 													},
-													width = "45",
+													width = "42",
 													ZOrder = "1",
 												},
 											},
@@ -756,7 +756,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "15",
+											fontSize = "19",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -776,7 +776,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -270,
+												PositionX = -268,
 												PositionY = 285,
 											},
 											vAlignment = "0",
@@ -968,7 +968,7 @@ local t =
 														PositionX = 2,
 														PositionY = 34,
 													},
-													width = "103",
+													width = "99",
 													ZOrder = "1",
 												},
 												{
@@ -1051,11 +1051,11 @@ local t =
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "False",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "MEImage",
 											dstBlendFunc = "771",
 											height = "47",
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "Image_residue",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -1065,10 +1065,10 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -80,
+												PositionX = -107,
 												PositionY = 535,
 											},
-											width = "388",
+											width = "466",
 											ZOrder = "1",
 											components = 
 											{
@@ -1077,7 +1077,7 @@ local t =
 													controlID = "Label_times_txt_Image_residue_Panel_level_info_Panel_level_sel_Panel_root_Panel-teamLevelSelView_Layer1_teamFight_Game",
 													UUID = "5b577b8d_27bf_4007_af1c_1ee559474cf2",
 													anchorPoint = "False",
-													anchorPointX = "0",
+													anchorPointX = "1",
 													anchorPointY = "0.5",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
@@ -1099,8 +1099,8 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "0",
-													ignoreSize = "False",
+													height = "17",
+													ignoreSize = "True",
 													name = "Label_times_txt",
 													nTextAlign = "1",
 													nTextHAlign = "0",
@@ -1113,10 +1113,9 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -185,
-														PositionY = -5,
+														PositionX = -10,
 													},
-													width = "158",
+													width = "202",
 													ZOrder = "1",
 												},
 												{
@@ -1159,10 +1158,9 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -25,
-														PositionY = -2,
+														PositionX = -7,
 													},
-													width = "66",
+													width = "63",
 													ZOrder = "1",
 												},
 												{
@@ -1188,7 +1186,7 @@ local t =
 													touchAble = "True",
 													UILayoutViewModel = 
 													{
-														PositionX = 40,
+														PositionX = 84,
 													},
 													UItype = "Button",
 													width = "32",
@@ -1342,7 +1340,7 @@ local t =
 														PositionX = 95,
 														PositionY = -10,
 													},
-													width = "58",
+													width = "63",
 													ZOrder = "1",
 												},
 												{

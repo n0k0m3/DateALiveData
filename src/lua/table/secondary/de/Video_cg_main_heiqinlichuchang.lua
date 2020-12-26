@@ -9,7 +9,7 @@ return {
         id = 2,
         beginTime  = "00:00:04,0",
         endTime  = "00:00:06,0",
-        content  = "Ich dachte, du wolltest fĂźr immer schlafen.",
+        content  = "Ich dachte, du wolltest für immer schlafen.",
     },
     [3] = {
         id = 3,

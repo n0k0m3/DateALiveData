@@ -1,11 +1,12 @@
 return {
     [1] = {
-        baseName = "msyh",
-        fontName = "font/msyh.ttf",
+        baseName = "common",
+        fontName = "font/common.ttf",
         fontSize = {
-            [1] = 22,
-            [2] = 24,
-            [3] = 30,
+            [1] = 18,
+            [2] = 20,
+            [3] = 23,
+            [4] = 26,
         },
     },
     [2] = {
@@ -24,13 +25,12 @@ return {
         },
     },
     [3] = {
-        baseName = "common",
-        fontName = "font/common.ttf",
+        baseName = "msyh",
+        fontName = "font/msyh.ttf",
         fontSize = {
-            [1] = 18,
-            [2] = 20,
-            [3] = 23,
-            [4] = 26,
+            [1] = 22,
+            [2] = 24,
+            [3] = 30,
         },
     },
     [4] = {

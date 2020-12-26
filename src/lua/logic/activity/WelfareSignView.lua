@@ -90,9 +90,9 @@ end
 function WelfareSignView:intUILogic()
 
 	if self.activityInfo then
-		local startDate = Utils:getUTCDate(self.activityInfo.startTime)
+		local startDate = Utils:getUTCDate(self.activityInfo.startTime, GV_UTC_TIME_ZONE)
 		local startDateStr = startDate:fmt("%Y.%m.%d")
-		local endDate = Utils:getUTCDate(self.activityInfo.endTime)
+		local endDate = Utils:getUTCDate(self.activityInfo.endTime , GV_UTC_TIME_ZONE)
 		local endDateStr = endDate:fmt("%Y.%m.%d")
 		self.Label_time_begin:setText(startDateStr)
 		self.Label_time_end:setText(endDateStr..GV_UTC_TIME_STRING)

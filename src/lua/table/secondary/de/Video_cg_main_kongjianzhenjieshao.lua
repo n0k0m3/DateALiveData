@@ -27,6 +27,6 @@ return {
         id = 5,
         beginTime  = "00:00:19,0",
         endTime  = "00:00:22,899",
-        content  = "Das MĂ¤dchen, das du kennengelernt hast, \nwar genau das - ein Geist.",
+        content  = "Das Mädchen, das du kennengelernt hast, \nwar genau das - ein Geist.",
     },
 }

@@ -233,18 +233,15 @@ function CommonManager:connectServer(requestLogin)
     function (nResult)
         self:connectionClosedCallback(nResult)
     end)
-    local time = 0
-    for _ip in self.connectedArray:iterator() do
-        if _ip == connectIp then
-            time = time + 1
-        end
-    end
-    if HeitaoSdk and time <= 1 then
-        --TODO CLOSE
-        if tonumber(TFDeviceInfo:getCurAppVersion()) >= 1.15 and CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID then
-            HeitaoSdk.reportNetworkData(connectIp)
-        end
-    end
+    -- local time = 0
+    -- for _ip in self.connectedArray:iterator() do
+    --     if _ip == connectIp then
+    --         time = time + 1
+    --     end
+    -- end
+    -- if HeitaoSdk and time <= 1 then
+    --     HeitaoSdk.reportNetworkData(connectIp)
+    -- end
 end
 
 --连接打开的回调方法，当连接创建成功后会由系统调用此方法

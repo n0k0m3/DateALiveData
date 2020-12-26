@@ -144,7 +144,7 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 570,
+								PositionX = 571,
 								PositionY = 27,
 								IsPercent = true,
 								PercentX = 50.23,
@@ -201,14 +201,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "16",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "18",
+											height = "23",
 											ignoreSize = "True",
 											name = "continue",
 											nTextAlign = "1",
@@ -224,7 +224,7 @@ local t =
 											{
 												
 											},
-											width = "310",
+											width = "422",
 											ZOrder = "1",
 										},
 										{
@@ -270,7 +270,7 @@ local t =
 												PositionX = 521,
 												PositionY = -1,
 											},
-											width = "33",
+											width = "34",
 											ZOrder = "1",
 										},
 									},
@@ -866,7 +866,7 @@ local t =
 											{
 												
 											},
-											width = "100",
+											width = "98",
 											ZOrder = "1",
 										},
 									},
@@ -949,7 +949,7 @@ local t =
 											{
 												
 											},
-											width = "63",
+											width = "65",
 											ZOrder = "1",
 										},
 									},
@@ -997,7 +997,7 @@ local t =
 										PositionX = -309,
 										PositionY = 143,
 									},
-									width = "146",
+									width = "160",
 									ZOrder = "1",
 								},
 								{
@@ -1071,7 +1071,7 @@ local t =
 										PositionY = 140,
 									},
 									visible = "False",
-									width = "138",
+									width = "128",
 									ZOrder = "1",
 								},
 								{
@@ -1231,7 +1231,7 @@ local t =
 								PositionX = 40,
 								PositionY = 26,
 							},
-							width = "145",
+							width = "144",
 							ZOrder = "1",
 						},
 						{
@@ -1341,7 +1341,7 @@ local t =
 											{
 												
 											},
-											width = "206",
+											width = "218",
 											ZOrder = "1",
 										},
 										{
@@ -1481,7 +1481,7 @@ local t =
 											{
 												
 											},
-											width = "91",
+											width = "102",
 											ZOrder = "1",
 										},
 										{

@@ -511,21 +511,20 @@ function LogonHelper:tryLoginUcCenter( localUrl )
     UserCenterHttpClient:httpRequest(TFHTTP_TYPE_GET, urlList[self.urlIdx] ..self.path)
     print(urlList[self.urlIdx] ..self.path)
 
-    local time = 0
-    for url in self.connectedArray:iterator() do
-        if url == urlList[self.urlIdx] then
-            time = time + 1
-        end
-    end
+    -- local time = 0
+    -- for url in self.connectedArray:iterator() do
+    --     if url == urlList[self.urlIdx] then
+    --         time = time + 1
+    --     end
+    -- end
 
-    if HeitaoSdk and time <= 1 then
-        --TODO CLOSE
-        if tonumber(TFDeviceInfo:getCurAppVersion()) >= 1.15 and CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID then
-            local url = require("TFFramework.net.TFUrl")
-            local parsed_url = url.parse(urlList[self.urlIdx])
-            HeitaoSdk.reportNetworkData(parsed_url.host)
-        end
-    end
+    -- if HeitaoSdk and time <= 1 then
+    --     local url = require("TFFramework.net.TFUrl")
+    --     if url then
+    --         local parsed_url = url.parse(urlList[self.urlIdx])
+    --         HeitaoSdk.reportNetworkData(parsed_url.host)
+    --     end
+    -- end
 end
 
 function LogonHelper:getServerUrlList( )

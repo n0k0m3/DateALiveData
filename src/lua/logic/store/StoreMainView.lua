@@ -260,6 +260,8 @@ function StoreMainView:updateGoodsList()
             foo.Label_timeLimit = TFDirector:getChildByPath(Image_diban, "Label_timeLimit"):hide()
             foo.Button_buy = TFDirector:getChildByPath(item, "Button_buy")
             foo.Label_buy = TFDirector:getChildByPath(item, "Label_buy")
+            foo.Label_buy:setTextById(900661)
+
             foo.Image_buyTag = TFDirector:getChildByPath(foo.Button_buy, "Image_buyTag"):hide()
             foo.Label_saleNum = TFDirector:getChildByPath(foo.Image_buyTag, "Label_saleNum")
             foo.Image_open_time = TFDirector:getChildByPath(Image_diban, "Image_open_time"):hide()

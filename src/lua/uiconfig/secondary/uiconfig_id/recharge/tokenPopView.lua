@@ -201,7 +201,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "32",
+									height = "30",
 									ignoreSize = "True",
 									name = "Label_tokenPopView_1",
 									nTextAlign = "1",
@@ -218,7 +218,7 @@ local t =
 										PositionX = -318,
 										PositionY = 180,
 									},
-									width = "105",
+									width = "133",
 									ZOrder = "1",
 								},
 								{
@@ -264,7 +264,8 @@ local t =
 										PositionX = -197,
 										PositionY = 179,
 									},
-									width = "107",
+									visible = "False",
+									width = "100",
 									ZOrder = "1",
 								},
 								{
@@ -290,6 +291,7 @@ local t =
 										PositionX = -256,
 										PositionY = 182,
 									},
+									visible = "False",
 									width = "2",
 									ZOrder = "1",
 								},
@@ -312,14 +314,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "18",
+									fontSize = "14",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "50",
+									height = "0",
 									ignoreSize = "False",
 									name = "useLimitTip",
 									nTextAlign = "1",
@@ -333,7 +335,7 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -145,
+										PositionX = -116,
 										PositionY = -175,
 									},
 									width = "200",
@@ -454,7 +456,7 @@ local t =
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
 									FontColor = "#FFFFFFFF",
-									fontName = "phanta.ttf",
+									fontName = "font/fangzheng_zhunyuan.ttf",
 									fontShadow = 
 									{
 										IsShadow = false,
@@ -470,11 +472,11 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "20",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "maskTip",
 									nTextAlign = "1",
-									nTextHAlign = "0",
+									nTextHAlign = "1",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -487,7 +489,7 @@ local t =
 										PositionX = 254,
 										PositionY = 149,
 									},
-									width = "327",
+									width = "400",
 									ZOrder = "1",
 									components = 
 									{
@@ -644,10 +646,11 @@ local t =
 														StrokeSize = 1,
 													},
 													height = "140",
-													ignoreSize = "False",
+													ignoreSize = "True",
 													name = "Label_tokenPopView_1",
 													nTextAlign = "1",
 													nTextHAlign = "1",
+													rotation = "90",
 													sizepercentx = "0",
 													sizepercenty = "0",
 													sizeType = "0",
@@ -748,10 +751,11 @@ local t =
 														StrokeSize = 1,
 													},
 													height = "140",
-													ignoreSize = "False",
+													ignoreSize = "True",
 													name = "Label_tokenPopView_1",
 													nTextAlign = "1",
 													nTextHAlign = "1",
+													rotation = "90",
 													sizepercentx = "0",
 													sizepercenty = "0",
 													sizeType = "0",
@@ -814,7 +818,7 @@ local t =
 										PositionY = 32,
 									},
 									visible = "False",
-									width = "301",
+									width = "458",
 									ZOrder = "1",
 									components = 
 									{
@@ -890,7 +894,7 @@ local t =
 										PositionX = 213,
 										PositionY = 152,
 									},
-									width = "165",
+									width = "226",
 									ZOrder = "1",
 								},
 								{
@@ -1062,7 +1066,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "28",
 											ignoreSize = "True",
 											name = "GiftPreview",
 											nTextAlign = "1",
@@ -1078,7 +1082,7 @@ local t =
 											{
 												PositionY = 126,
 											},
-											width = "99",
+											width = "208",
 											ZOrder = "1",
 										},
 									},
@@ -1210,11 +1214,11 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 243,
-										PositionY = 148,
+										PositionX = 264,
+										PositionY = 150,
 									},
 									UItype = "Button",
-									width = "124",
+									width = "160",
 									ZOrder = "1",
 									components = 
 									{
@@ -1238,15 +1242,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "26",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_tokenPopView_1",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -1261,7 +1265,7 @@ local t =
 											{
 												
 											},
-											width = "105",
+											width = "160",
 											ZOrder = "1",
 										},
 									},
@@ -1340,7 +1344,7 @@ local t =
 											{
 												
 											},
-											width = "68",
+											width = "39",
 											ZOrder = "1",
 										},
 									},
@@ -1370,8 +1374,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 477,
-										PositionY = 148,
+										PositionX = 499,
+										PositionY = 149,
 									},
 									uipanelviewmodel = 
 									{
@@ -1542,7 +1546,7 @@ local t =
 												PositionX = -40,
 											},
 											visible = "False",
-											width = "10",
+											width = "13",
 											ZOrder = "1",
 										},
 									},
@@ -1642,7 +1646,7 @@ local t =
 											{
 												PositionX = -14,
 											},
-											width = "58",
+											width = "61",
 											ZOrder = "1",
 										},
 									},
@@ -1742,7 +1746,7 @@ local t =
 											{
 												PositionX = -14,
 											},
-											width = "58",
+											width = "61",
 											ZOrder = "1",
 										},
 										{
@@ -1792,14 +1796,14 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "20",
+													fontSize = "15",
 													fontStroke = 
 													{
 														IsStroke = false,
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "25",
+													height = "23",
 													ignoreSize = "True",
 													name = "discountScale",
 													nTextAlign = "1",
@@ -1815,7 +1819,7 @@ local t =
 													{
 														PositionY = 13,
 													},
-													width = "40",
+													width = "122",
 													ZOrder = "1",
 												},
 											},
@@ -1915,7 +1919,7 @@ local t =
 													{
 														PositionX = -14,
 													},
-													width = "58",
+													width = "61",
 													ZOrder = "1",
 												},
 												{
@@ -2308,7 +2312,7 @@ local t =
 								PositionX = -170,
 								PositionY = -29,
 							},
-							width = "83",
+							width = "117",
 							ZOrder = "1",
 						},
 						{
@@ -2354,7 +2358,7 @@ local t =
 								PositionX = -170,
 								PositionY = 29,
 							},
-							width = "123",
+							width = "130",
 							ZOrder = "1",
 						},
 						{
@@ -2430,7 +2434,7 @@ local t =
 								relativeToName = "Panel",
 							},
 							visible = "False",
-							width = "173",
+							width = "208",
 							ZOrder = "1",
 						},
 						{

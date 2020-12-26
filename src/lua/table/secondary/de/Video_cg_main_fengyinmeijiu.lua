@@ -9,7 +9,7 @@ return {
         id = 2,
         beginTime  = "00:00:04,800",
         endTime  = "00:00:08,800",
-        content  = "Und als sie das tat, zerfiel ihr Astral-Kleid\nin Lichtfragmente und lรถste sich in Luft auf.",
+        content  = "Und als sie das tat, zerfiel ihr Astral-Kleid\nin Lichtfragmente und löste sich in Luft auf.",
     },
     [3] = {
         id = 3,

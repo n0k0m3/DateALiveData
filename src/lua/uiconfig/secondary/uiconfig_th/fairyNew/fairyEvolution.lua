@@ -429,7 +429,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 1,
+												PositionX = -10,
 												PositionY = 21,
 											},
 											width = "74",
@@ -445,7 +445,7 @@ local t =
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
 											FontColor = "#FFFFFFFF",
-											fontName = "phanta.ttf",
+											fontName = "font/fangzheng_zhunyuan.ttf",
 											fontShadow = 
 											{
 												IsShadow = false,
@@ -477,7 +477,8 @@ local t =
 											{
 												PositionX = -22,
 											},
-											width = "0",
+											visible = "False",
+											width = "49",
 											ZOrder = "1",
 										},
 										{
@@ -991,7 +992,7 @@ local t =
 										PositionX = 268,
 										PositionY = 116,
 									},
-									width = "89",
+									width = "92",
 									ZOrder = "1",
 								},
 								{
@@ -2039,7 +2040,7 @@ local t =
 												PositionX = 239,
 												PositionY = 25,
 											},
-											width = "35",
+											width = "38",
 											ZOrder = "1",
 										},
 										{
@@ -2085,7 +2086,7 @@ local t =
 												PositionX = 214,
 												PositionY = 25,
 											},
-											width = "23",
+											width = "26",
 											ZOrder = "1",
 										},
 										{

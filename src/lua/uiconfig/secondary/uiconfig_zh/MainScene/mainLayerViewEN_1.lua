@@ -568,7 +568,7 @@ local t =
 												StrokeSize = 1,
 											},
 											hAlignment = "0",
-											height = "24",
+											height = "23",
 											ignoreSize = "True",
 											name = "TextArea_name",
 											sizepercentx = "0",
@@ -739,7 +739,7 @@ local t =
 														PositionX = 1,
 														PositionY = -5,
 													},
-													width = "17",
+													width = "16",
 													ZOrder = "1",
 												},
 												{
@@ -1360,7 +1360,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "30",
+											height = "28",
 											ignoreSize = "True",
 											name = "Label_feelling_name",
 											nTextAlign = "1",
@@ -1423,7 +1423,7 @@ local t =
 												PositionX = 200,
 												PositionY = 76,
 											},
-											width = "16",
+											width = "15",
 											ZOrder = "1",
 										},
 										{
@@ -1569,7 +1569,7 @@ local t =
 												PositionX = 120,
 												PositionY = 50,
 											},
-											width = "48",
+											width = "47",
 											ZOrder = "1",
 										},
 										{
@@ -2312,7 +2312,7 @@ local t =
 														PositionY = -24,
 													},
 													vAlignment = "1",
-													width = "44",
+													width = "43",
 													ZOrder = "1",
 												},
 											},
@@ -2572,7 +2572,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "图鉴",
+													text = "圖鑑",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -2929,7 +2929,7 @@ local t =
 														PercentY = 50,
 													},
 													visible = "False",
-													width = "193",
+													width = "198",
 													ZOrder = "1",
 												},
 												{
@@ -3526,7 +3526,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "邮件",
+													text = "郵件",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -3897,7 +3897,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "联络",
+													text = "聯絡",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -4704,7 +4704,7 @@ local t =
 												PositionX = 1,
 												PositionY = -65,
 											},
-											width = "40",
+											width = "38",
 											ZOrder = "1",
 										},
 										{
@@ -5163,7 +5163,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = " 精灵",
+											text = " 精靈",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -5284,7 +5284,7 @@ local t =
 											{
 												PositionX = 39,
 											},
-											width = "44",
+											width = "43",
 											ZOrder = "1",
 										},
 									},
@@ -5580,7 +5580,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "召唤",
+											text = "召喚",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -5720,7 +5720,7 @@ local t =
 													{
 														PositionY = 2,
 													},
-													width = "71",
+													width = "76",
 													ZOrder = "1",
 												},
 											},
@@ -6122,7 +6122,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "充值",
+											text = "儲值 ",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -6131,7 +6131,7 @@ local t =
 												PositionY = -2,
 											},
 											vAlignment = "1",
-											width = "44",
+											width = "45",
 											ZOrder = "1",
 										},
 										{
@@ -6293,14 +6293,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "社团",
+											text = "社團",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionX = 39,
 											},
-											width = "43",
+											width = "44",
 											ZOrder = "1",
 										},
 									},
@@ -8866,7 +8866,7 @@ local t =
 													sizepercenty = "0",
 													sizeType = "0",
 													srcBlendFunc = "770",
-													text = "应援",
+													text = "應援",
 													touchAble = "False",
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
@@ -9952,7 +9952,7 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
-															text = "预告",
+															text = "預告",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
@@ -10087,7 +10087,7 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
-															text = "回归",
+															text = "回歸",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
@@ -10229,7 +10229,7 @@ local t =
 															{
 																PositionX = 44,
 															},
-															width = "44",
+															width = "45",
 															ZOrder = "1",
 														},
 														{
@@ -10356,7 +10356,7 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
-															text = "问卷",
+															text = "問卷",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
@@ -10515,7 +10515,7 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
-															text = "履历",
+															text = "履歷",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
@@ -10701,7 +10701,7 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
-															text = "通讯",
+															text = "通訊",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
@@ -10821,7 +10821,7 @@ local t =
 												PositionY = -37,
 											},
 											visible = "False",
-											width = "0",
+											width = "97",
 											ZOrder = "1",
 										},
 										{
@@ -11290,7 +11290,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
+									height = "28",
 									ignoreSize = "True",
 									name = "Label_hero_name",
 									nTextAlign = "1",
@@ -11307,7 +11307,7 @@ local t =
 										PositionX = -326,
 										PositionY = -3,
 									},
-									width = "51",
+									width = "50",
 									ZOrder = "1",
 								},
 								{
@@ -11389,7 +11389,7 @@ local t =
 										PositionX = 376,
 										PositionY = -43,
 									},
-									width = "25",
+									width = "22",
 									ZOrder = "1",
 								},
 							},
@@ -11586,7 +11586,7 @@ local t =
 										StrokeColor = "#FF49557F",
 										StrokeSize = 1,
 									},
-									height = "22",
+									height = "20",
 									ignoreSize = "True",
 									name = "Name",
 									nTextAlign = "1",
@@ -11650,7 +11650,7 @@ local t =
 										PositionX = -1,
 										PositionY = -13,
 									},
-									width = "57",
+									width = "54",
 									ZOrder = "1",
 								},
 							},

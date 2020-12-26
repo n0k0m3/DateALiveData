@@ -1,7 +1,7 @@
 --[[--
 	--By:zhangliguo
 ]]
-TFLanguageMgr = TFLanguageMgr or {}
+TFLanguageMgr = class('TFLanguageMgr')
 --多语言处理
 -------------------------------------------------------
 cc = {}
@@ -35,20 +35,18 @@ cc.MALAYSIA = MALAYSIA
 ]]
 function TFLanguageMgr:getLanguages( )
 	--英语(en)，法语(fr)，德语(de)，西班牙语(es)，泰语(th)，印尼语(id)，韩语(ko)，简体中文(zn)，繁体中文(zh)
-	if CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 then
-		return {cc.ENGLISH, cc.FRENCH, cc.GERMAN, cc.SPANISH, cc.THAI, cc.INDONESIAN, cc.KOREAN, cc.TRADITIONAL_CHINESE, cc.SIMPLIFIED_CHINESE}
+	if TFGlobalUtils:isConnectEnServer() then
+		return {cc.ENGLISH, cc.SIMPLIFIED_CHINESE}
 	end
-	return {cc.ENGLISH, cc.SIMPLIFIED_CHINESE}
+	return {cc.ENGLISH, cc.FRENCH, cc.GERMAN, cc.SPANISH, cc.THAI, cc.INDONESIAN, cc.KOREAN, cc.TRADITIONAL_CHINESE, cc.SIMPLIFIED_CHINESE} 
 end
 
 function TFLanguageMgr:getLanguageTextId( language )
-	local textList = {}
-	if CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 then
-		textList = {190012001,190012002,190012003,190012004,190012005,190012006,190012007,190012008,190012009}
-	else
-		textList = {190012001,190012009}
+	local textList = {190012001,190012002,190012003,190012004,190012005,190012006,190012007,190012008,190012009}
+	if TFGlobalUtils:isConnectEnServer() then
+		textList = {190012001, 190012009}
 	end
-
+	
 	local list = self:getLanguages()
 	local idx = table.find(list, language)
 	if idx ~= -1 then

@@ -222,7 +222,7 @@ local t =
 												PositionX = -149,
 												PositionY = -4,
 											},
-											width = "168",
+											width = "180",
 											ZOrder = "1",
 										},
 										{
@@ -268,7 +268,7 @@ local t =
 												PositionX = 212,
 												PositionY = -5,
 											},
-											width = "205",
+											width = "204",
 											ZOrder = "1",
 										},
 									},
@@ -635,7 +635,7 @@ local t =
 												PositionX = -26,
 												PositionY = 430,
 											},
-											width = "374",
+											width = "401",
 											ZOrder = "1",
 										},
 										{
@@ -734,7 +734,7 @@ local t =
 													{
 														PositionX = -4,
 													},
-													width = "26",
+													width = "25",
 													ZOrder = "1",
 												},
 											},
@@ -834,7 +834,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "28",
+													fontSize = "24",
 													fontStroke = 
 													{
 														IsStroke = false,
@@ -968,7 +968,7 @@ local t =
 														PositionX = 2,
 														PositionY = 34,
 													},
-													width = "59",
+													width = "58",
 													ZOrder = "1",
 												},
 												{
@@ -1040,7 +1040,7 @@ local t =
 														PositionX = 90,
 														PositionY = 25,
 													},
-													width = "51",
+													width = "49",
 													ZOrder = "1",
 												},
 											},
@@ -1115,7 +1115,7 @@ local t =
 													{
 														PositionX = -185,
 													},
-													width = "240",
+													width = "221",
 													ZOrder = "1",
 												},
 												{
@@ -1160,7 +1160,7 @@ local t =
 													{
 														PositionX = 67,
 													},
-													width = "38",
+													width = "37",
 													ZOrder = "1",
 												},
 												{
@@ -1340,7 +1340,7 @@ local t =
 														PositionX = 95,
 														PositionY = -10,
 													},
-													width = "47",
+													width = "50",
 													ZOrder = "1",
 												},
 												{

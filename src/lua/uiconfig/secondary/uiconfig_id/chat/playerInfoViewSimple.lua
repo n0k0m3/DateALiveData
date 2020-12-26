@@ -142,7 +142,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_title",
 									nTextAlign = "1",
@@ -151,7 +151,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "Info Pribadi Pemain|",
+									text = "Info Pribadi Pemain",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -159,7 +159,7 @@ local t =
 										PositionX = -255,
 										PositionY = 120,
 									},
-									width = "179",
+									width = "300",
 									ZOrder = "1",
 								},
 								{
@@ -205,7 +205,8 @@ local t =
 										PositionX = -74,
 										PositionY = 107,
 									},
-									width = "115",
+									visible = "False",
+									width = "113",
 									ZOrder = "1",
 								},
 							},
@@ -320,7 +321,7 @@ local t =
 								PositionY = 208,
 							},
 							UItype = "Button",
-							width = "110",
+							width = "120",
 							ZOrder = "1",
 							components = 
 							{
@@ -370,15 +371,15 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_add",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -393,7 +394,7 @@ local t =
 									{
 										
 									},
-									width = "91",
+									width = "120",
 									ZOrder = "1",
 								},
 							},
@@ -472,7 +473,7 @@ local t =
 									{
 										
 									},
-									width = "46",
+									width = "47",
 									ZOrder = "1",
 								},
 							},
@@ -763,7 +764,7 @@ local t =
 										PositionX = 126,
 										PositionY = -35,
 									},
-									width = "28",
+									width = "27",
 									ZOrder = "1",
 								},
 								{
@@ -810,7 +811,7 @@ local t =
 										PositionX = 85,
 										PositionY = 35,
 									},
-									width = "147",
+									width = "201",
 									ZOrder = "1",
 								},
 							},

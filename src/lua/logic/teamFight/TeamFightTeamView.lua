@@ -835,6 +835,13 @@ function TeamFightTeamView:updateTeamPart()
                    
                     end 
 
+                    -- TODO CLOSE 禁用社团邀请
+                    if (not GlobalFuncDataMgr:isOpen(5)) then
+                        if (j == 1) then 
+                            disableInvite = true
+                        end
+                    end
+
                     self.teamItems[i]["ctrl"]["btn_"..j]:setGrayEnabled(disableInvite)
                     self.teamItems[i]["ctrl"]["btn_"..j]:setTouchEnabled(not disableInvite)
                 else

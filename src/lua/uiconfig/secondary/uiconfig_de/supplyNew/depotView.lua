@@ -260,7 +260,7 @@ local t =
 												PositionX = -396,
 												PositionY = 18,
 											},
-											width = "244",
+											width = "265",
 											ZOrder = "1",
 										},
 										{
@@ -306,7 +306,7 @@ local t =
 												PositionX = -387,
 												PositionY = -19,
 											},
-											width = "74",
+											width = "84",
 											ZOrder = "1",
 										},
 										{
@@ -380,7 +380,7 @@ local t =
 														PositionX = 42,
 														PositionY = 9,
 													},
-													width = "59",
+													width = "58",
 													ZOrder = "1",
 												},
 												{
@@ -534,7 +534,7 @@ local t =
 														PositionX = 19,
 														PositionY = -1,
 													},
-													width = "141",
+													width = "140",
 													ZOrder = "1",
 												},
 												{
@@ -608,7 +608,7 @@ local t =
 												PositionX = -509,
 												PositionY = 15,
 											},
-											width = "74",
+											width = "84",
 											ZOrder = "1",
 											components = 
 											{
@@ -1126,7 +1126,7 @@ local t =
 												nType = 3,
 												nGravity = 1,
 											},
-											width = "62",
+											width = "61",
 											ZOrder = "1",
 										},
 										{
@@ -1177,7 +1177,7 @@ local t =
 												nType = 3,
 												nGravity = 1,
 											},
-											width = "62",
+											width = "61",
 											ZOrder = "1",
 										},
 									},
@@ -1353,7 +1353,7 @@ local t =
 									{
 										PositionY = -5,
 									},
-									width = "190",
+									width = "176",
 									ZOrder = "1",
 								},
 							},
@@ -1364,11 +1364,11 @@ local t =
 							anchorPoint = "False",
 							anchorPointX = "0.5",
 							anchorPointY = "0.5",
-							backGroundScale9Enable = "False",
+							backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "21",
-							ignoreSize = "True",
+							height = "53",
+							ignoreSize = "False",
 							name = "img_limitDi",
 							sizepercentx = "0",
 							sizepercenty = "0",
@@ -1378,10 +1378,10 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 49,
-								PositionY = 27,
+								PositionX = 54,
+								PositionY = 10,
 							},
-							width = "141",
+							width = "144",
 							ZOrder = "1",
 							components = 
 							{
@@ -1415,8 +1415,8 @@ local t =
 									height = "0",
 									ignoreSize = "False",
 									name = "Label_limit",
-									nTextAlign = "1",
-									nTextHAlign = "1",
+									nTextAlign = "0",
+									nTextHAlign = "0",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -1426,9 +1426,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
+										PositionX = -1,
 										PositionY = 1,
 									},
-									width = "141",
+									width = "138",
 									ZOrder = "1",
 								},
 							},
@@ -1439,11 +1440,11 @@ local t =
 							anchorPoint = "False",
 							anchorPointX = "0.5",
 							anchorPointY = "0.5",
-							backGroundScale9Enable = "False",
+							backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 							classname = "MEImage",
 							dstBlendFunc = "771",
 							height = "38",
-							ignoreSize = "True",
+							ignoreSize = "False",
 							name = "Image_sale",
 							sizepercentx = "0",
 							sizepercenty = "0",
@@ -1453,10 +1454,10 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 94,
+								PositionX = 80,
 								PositionY = -8,
 							},
-							width = "80",
+							width = "109",
 							ZOrder = "1",
 							components = 
 							{
@@ -1501,10 +1502,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 35,
+										PositionX = 52,
 										PositionY = 4,
 									},
-									width = "90",
+									width = "95",
 									ZOrder = "1",
 								},
 							},
@@ -1552,7 +1553,7 @@ local t =
 								PositionX = -47,
 								PositionY = -18,
 							},
-							width = "18",
+							width = "20",
 							ZOrder = "1",
 						},
 						{
@@ -1599,7 +1600,7 @@ local t =
 								PositionY = -52,
 							},
 							visible = "False",
-							width = "75",
+							width = "51",
 							ZOrder = "1",
 						},
 						{
@@ -1646,7 +1647,7 @@ local t =
 								PositionY = -53,
 							},
 							visible = "False",
-							width = "23",
+							width = "27",
 							ZOrder = "1",
 						},
 					},

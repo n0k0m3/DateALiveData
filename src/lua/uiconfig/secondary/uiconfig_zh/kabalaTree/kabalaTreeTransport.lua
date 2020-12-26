@@ -1,0 +1,586 @@
+local t = 
+{
+	version = 1,
+	components = 
+	{
+		
+		{
+			controlID = "Panel-kabalaTreeTransport_Layer1_kabalaTree_Game",
+			UUID = "3bfa4741_dd66_4c08_b906_9cdb4a45ce42",
+			anchorPoint = "False",
+			anchorPointX = "0",
+			anchorPointY = "0",
+			backGroundScale9Enable = "False",
+			bgColorOpacity = "50",
+			bIsOpenClipping = "False",
+			classname = "MEPanel",
+			colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+			DesignHeight = "640",
+			DesignType = "0",
+			DesignWidth = "960",
+			dstBlendFunc = "771",
+			height = "640",
+			ignoreSize = "False",
+			name = "Panel",
+			PanelRelativeSizeModel = 
+			{
+				PanelRelativeEnable = true,
+			},
+			sizepercentx = "0",
+			sizepercenty = "0",
+			sizeType = "0",
+			srcBlendFunc = "1",
+			touchAble = "False",
+			UILayoutViewModel = 
+			{
+				nType = 3,
+			},
+			uipanelviewmodel = 
+			{
+				Layout="Relative",
+				nType = "3"
+			},
+			width = "1136",
+			ZOrder = "1",
+			components = 
+			{
+				
+				{
+					controlID = "Panel_root_Panel-kabalaTreeTransport_Layer1_kabalaTree_Game",
+					UUID = "5e593df5_2914_4a72_8e22_111213e8971f",
+					anchorPoint = "False",
+					anchorPointX = "0",
+					anchorPointY = "0",
+					backGroundScale9Enable = "False",
+					bgColorOpacity = "50",
+					bIsOpenClipping = "False",
+					classname = "MEPanel",
+					colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+					DesignHeight = "640",
+					DesignType = "0",
+					DesignWidth = "960",
+					dstBlendFunc = "771",
+					height = "640",
+					ignoreSize = "False",
+					name = "Panel_root",
+					sizepercentx = "0",
+					sizepercenty = "0",
+					sizeType = "0",
+					srcBlendFunc = "1",
+					touchAble = "False",
+					UILayoutViewModel = 
+					{
+						relativeToName = "Panel",
+						nType = 3,
+						nGravity = 6,
+						nAlign = 5
+					},
+					uipanelviewmodel = 
+					{
+						Layout="Absolute",
+						nType = "0"
+					},
+					width = "1136",
+					ZOrder = "1",
+					components = 
+					{
+						
+						{
+							controlID = "Image_bg_Panel_root_Panel-kabalaTreeTransport_Layer1_kabalaTree_Game",
+							UUID = "6cf7d0a5_d588_494a_823f_3011fcf122e8",
+							anchorPoint = "False",
+							anchorPointX = "0.5",
+							anchorPointY = "0.5",
+							backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
+							classname = "MEImage",
+							dstBlendFunc = "771",
+							height = "502",
+							ignoreSize = "False",
+							name = "Image_bg",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "1",
+							texturePath = "ui/common/pop_ui/pop_bg_01.png",
+							touchAble = "False",
+							UILayoutViewModel = 
+							{
+								PositionX = 568,
+								PositionY = 320,
+								IsPercent = true,
+								PercentX = 50,
+								PercentY = 50,
+							},
+							width = "382",
+							ZOrder = "1",
+							components = 
+							{
+								
+								{
+									controlID = "Image_innerbg_Image_bg_Panel_root_Panel-kabalaTreeTransport_Layer1_kabalaTree_Game",
+									UUID = "d1e823fb_bc47_4b50_a714_b999b5c5fc1e",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MEImage",
+									dstBlendFunc = "771",
+									height = "430",
+									ignoreSize = "True",
+									name = "Image_innerbg",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									texturePath = "ui/common/pop_ui/pop_bg_02.png",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionY = -14,
+									},
+									width = "356",
+									ZOrder = "1",
+								},
+								{
+									controlID = "Button_close_Image_bg_Panel_root_Panel-kabalaTreeTransport_Layer1_kabalaTree_Game",
+									UUID = "3049aa9d_8cfd_4706_b32c_8c278e09535d",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MEButton",
+									ClickHighLightEnabled = "True",
+									dstBlendFunc = "771",
+									flipX = "False",
+									flipY = "False",
+									height = "60",
+									ignoreSize = "True",
+									name = "Button_close",
+									normal = "ui/common/pop_ui/pop_btn_02.png",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									touchAble = "True",
+									UILayoutViewModel = 
+									{
+										PositionX = 163,
+										PositionY = 221,
+									},
+									UItype = "Button",
+									width = "60",
+									ZOrder = "1",
+								},
+								{
+									controlID = "Label_title_Image_bg_Panel_root_Panel-kabalaTreeTransport_Layer1_kabalaTree_Game",
+									UUID = "f30bd61c_03a9_4d49_9cc2_0e9fc8f83e68",
+									anchorPoint = "False",
+									anchorPointX = "0",
+									anchorPointY = "0.5",
+									classname = "MELabel",
+									compPath = "luacomponents.common.MEIconLabel",
+									dstBlendFunc = "771",
+									FontColor = "#FF30354A",
+									fontName = "font/MFLiHei_Noncommercial.ttf",
+									fontShadow = 
+									{
+										IsShadow = false,
+										ShadowColor = "#FFFFFFFF",
+										ShadowAlpha = 255,
+										OffsetX = 0,
+										OffsetY = 0,
+									},
+									fontSize = "28",
+									fontStroke = 
+									{
+										IsStroke = false,
+										StrokeColor = "#FFE6E6E6",
+										StrokeSize = 1,
+									},
+									height = "35",
+									ignoreSize = "True",
+									name = "Label_title",
+									nTextAlign = "1",
+									nTextHAlign = "1",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "770",
+									text = "傳送",
+									touchAble = "False",
+									touchScaleEnable = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = -179,
+										PositionY = 219,
+									},
+									width = "59",
+									ZOrder = "1",
+								},
+								{
+									controlID = "Image_line_Image_bg_Panel_root_Panel-kabalaTreeTransport_Layer1_kabalaTree_Game",
+									UUID = "593b6da6_b4c5_4f6d_bbfb_ad83a2ac8a3a",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MEImage",
+									dstBlendFunc = "771",
+									height = "20",
+									ignoreSize = "True",
+									name = "Image_line",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									texturePath = "ui/kabalatree/line.png",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionY = 117,
+									},
+									width = "342",
+									ZOrder = "1",
+								},
+								{
+									controlID = "Label_tipTx_Image_bg_Panel_root_Panel-kabalaTreeTransport_Layer1_kabalaTree_Game",
+									UUID = "d9834e50_24df_4c7f_b5fa_d15e3249b772",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									classname = "MELabel",
+									compPath = "luacomponents.common.MEIconLabel",
+									dstBlendFunc = "771",
+									FontColor = "#FFFFFFFF",
+									fontName = "font/fangzheng_zhunyuan.ttf",
+									fontShadow = 
+									{
+										IsShadow = false,
+										ShadowColor = "#FFFFFFFF",
+										ShadowAlpha = 255,
+										OffsetX = 0,
+										OffsetY = 0,
+									},
+									fontSize = "20",
+									fontStroke = 
+									{
+										IsStroke = false,
+										StrokeColor = "#FFE6E6E6",
+										StrokeSize = 1,
+									},
+									height = "23",
+									ignoreSize = "True",
+									name = "Label_tipTx",
+									nTextAlign = "1",
+									nTextHAlign = "1",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "770",
+									text = "選擇要傳送的地點",
+									touchAble = "False",
+									touchScaleEnable = "False",
+									UILayoutViewModel = 
+									{
+										PositionY = 152,
+									},
+									width = "163",
+									ZOrder = "1",
+								},
+								{
+									controlID = "ScrollView_Place_Image_bg_Panel_root_Panel-kabalaTreeTransport_Layer1_kabalaTree_Game",
+									UUID = "6cc16d6b_f72b_48cf_a6b5_3eb521e156fd",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0",
+									backGroundScale9Enable = "False",
+									bgColorOpacity = "50",
+									bIsOpenClipping = "True",
+									bounceEnable = "False",
+									classname = "MEScrollView",
+									colorType = "0;SingleColor:#FFFF6347;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+									direction = "1",
+									dstBlendFunc = "771",
+									height = "300",
+									ignoreSize = "False",
+									innerHeight = "300",
+									innerWidth = "350",
+									name = "ScrollView_Place",
+									showScrollbar = "False",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									touchAble = "True",
+									UILayoutViewModel = 
+									{
+										PositionY = -229,
+									},
+									uipanelviewmodel = 
+									{
+										Layout="Absolute",
+										nType = "0"
+									},
+									width = "350",
+									ZOrder = "1",
+								},
+							},
+						},
+					},
+				},
+				{
+					controlID = "Panel_prefab_Panel-kabalaTreeTransport_Layer1_kabalaTree_Game",
+					UUID = "98ec87b1_8181_4f02_93cf_9aca1d97137a",
+					anchorPoint = "False",
+					anchorPointX = "0",
+					anchorPointY = "0",
+					backGroundScale9Enable = "False",
+					bgColorOpacity = "50",
+					bIsOpenClipping = "False",
+					classname = "MEPanel",
+					colorType = "1;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+					DesignHeight = "640",
+					DesignType = "0",
+					DesignWidth = "960",
+					dstBlendFunc = "771",
+					height = "640",
+					ignoreSize = "False",
+					name = "Panel_prefab",
+					sizepercentx = "100",
+					sizepercenty = "100",
+					sizeType = "1",
+					srcBlendFunc = "1",
+					touchAble = "False",
+					UILayoutViewModel = 
+					{
+						PositionX = 6,
+						PositionY = -795,
+						LeftPositon = 6,
+						TopPosition = 795,
+						relativeToName = "Panel",
+						nType = 3,
+					},
+					uipanelviewmodel = 
+					{
+						Layout="Absolute",
+						nType = "0"
+					},
+					width = "1136",
+					ZOrder = "1",
+					components = 
+					{
+						
+						{
+							controlID = "Image_placeItem_Panel_prefab_Panel-kabalaTreeTransport_Layer1_kabalaTree_Game",
+							UUID = "414e6094_081a_4953_8baf_1de774538065",
+							anchorPoint = "False",
+							anchorPointX = "0",
+							anchorPointY = "0",
+							backGroundScale9Enable = "False",
+							classname = "MEImage",
+							dstBlendFunc = "771",
+							height = "94",
+							ignoreSize = "False",
+							name = "Image_placeItem",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "1",
+							texturePath = "ui/kabalatree/trans_bg1.png",
+							touchAble = "False",
+							UILayoutViewModel = 
+							{
+								PositionX = 378,
+								PositionY = 254,
+							},
+							width = "348",
+							ZOrder = "1",
+							components = 
+							{
+								
+								{
+									controlID = "Image_placeIcon_Image_placeItem_Panel_prefab_Panel-kabalaTreeTransport_Layer1_kabalaTree_Game",
+									UUID = "b839f227_7865_4c62_bf06_9a6c48bed39f",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MEImage",
+									dstBlendFunc = "771",
+									height = "53",
+									ignoreSize = "False",
+									name = "Image_placeIcon",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									texturePath = "ui/kabalatree/floor.png",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = 56,
+										PositionY = 47,
+									},
+									width = "72",
+									ZOrder = "1",
+								},
+								{
+									controlID = "Label_placeName_Image_placeItem_Panel_prefab_Panel-kabalaTreeTransport_Layer1_kabalaTree_Game",
+									UUID = "d3db272b_ca1a_46c6_878b_654fdc6be5e4",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									classname = "MELabel",
+									compPath = "luacomponents.common.MEIconLabel",
+									dstBlendFunc = "771",
+									FontColor = "#FF101117",
+									fontName = "font/fangzheng_zhunyuan.ttf",
+									fontShadow = 
+									{
+										IsShadow = false,
+										ShadowColor = "#FFFFFFFF",
+										ShadowAlpha = 255,
+										OffsetX = 0,
+										OffsetY = 0,
+									},
+									fontSize = "20",
+									fontStroke = 
+									{
+										IsStroke = false,
+										StrokeColor = "#FFE6E6E6",
+										StrokeSize = 1,
+									},
+									height = "23",
+									ignoreSize = "False",
+									name = "Label_placeName",
+									nTextAlign = "1",
+									nTextHAlign = "1",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "770",
+									text = "王冠矩陣#1-2",
+									touchAble = "False",
+									touchScaleEnable = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = 153,
+										PositionY = 47,
+									},
+									width = "125",
+									ZOrder = "1",
+								},
+								{
+									controlID = "Button_transfor_Image_placeItem_Panel_prefab_Panel-kabalaTreeTransport_Layer1_kabalaTree_Game",
+									UUID = "a87a2e41_fb47_491b_bdd7_5fbd4c1251a3",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MEButton",
+									ClickHighLightEnabled = "True",
+									dstBlendFunc = "771",
+									flipX = "False",
+									flipY = "False",
+									height = "54",
+									ignoreSize = "True",
+									name = "Button_transfor",
+									normal = "ui/kabalatree/btn_3.png",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									touchAble = "True",
+									UILayoutViewModel = 
+									{
+										PositionX = 277,
+										PositionY = 47,
+									},
+									UItype = "Button",
+									width = "114",
+									ZOrder = "1",
+									components = 
+									{
+										
+										{
+											controlID = "Label_btn_Button_transfor_Image_placeItem_Panel_prefab_Panel-kabalaTreeTransport_Layer1_kabalaTree_Game",
+											UUID = "e27f6535_41ee_40fb_a9fb_f16ebaf731e9",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											classname = "MELabel",
+											compPath = "luacomponents.common.MEIconLabel",
+											dstBlendFunc = "771",
+											FontColor = "#FFFFFFFF",
+											fontName = "font/fangzheng_zhunyuan.ttf",
+											fontShadow = 
+											{
+												IsShadow = false,
+												ShadowColor = "#FFFFFFFF",
+												ShadowAlpha = 255,
+												OffsetX = 0,
+												OffsetY = 0,
+											},
+											fontSize = "26",
+											fontStroke = 
+											{
+												IsStroke = true,
+												StrokeColor = "#2CB2475D",
+												StrokeSize = 0.3,
+											},
+											height = "30",
+											ignoreSize = "True",
+											name = "Label_btn",
+											nTextAlign = "1",
+											nTextHAlign = "1",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "770",
+											text = "傳  送",
+											touchAble = "False",
+											touchScaleEnable = "False",
+											UILayoutViewModel = 
+											{
+												
+											},
+											width = "69",
+											ZOrder = "1",
+										},
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+	},
+	actions = 
+	{
+		
+	},
+	respaths = 
+	{
+		textures = 
+		{
+			"ui/common/pop_ui/pop_bg_01.png",
+			"ui/common/pop_ui/pop_bg_02.png",
+			"ui/common/pop_ui/pop_btn_02.png",
+			"ui/kabalatree/line.png",
+			"ui/kabalatree/trans_bg1.png",
+			"ui/kabalatree/floor.png",
+			"ui/kabalatree/btn_3.png",
+		},
+		armatures = 
+		{
+			
+		},
+		movieclips = 
+		{
+			
+		},
+	},
+}
+return t
+

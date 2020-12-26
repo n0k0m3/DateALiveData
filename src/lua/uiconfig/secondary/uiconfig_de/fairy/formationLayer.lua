@@ -488,7 +488,7 @@ local t =
 									{
 										PositionY = 8,
 									},
-									width = "131",
+									width = "120",
 									ZOrder = "1",
 								},
 							},
@@ -563,7 +563,7 @@ local t =
 									{
 										PositionX = 16,
 									},
-									width = "41",
+									width = "42",
 									ZOrder = "1",
 								},
 							},
@@ -639,7 +639,7 @@ local t =
 									{
 										PositionX = 16,
 									},
-									width = "62",
+									width = "61",
 									ZOrder = "1",
 								},
 							},
@@ -741,7 +741,7 @@ local t =
 									{
 										PositionX = 2,
 									},
-									width = "81",
+									width = "82",
 									ZOrder = "1",
 								},
 							},
@@ -894,7 +894,7 @@ local t =
 									{
 										PositionY = 11,
 									},
-									width = "29",
+									width = "31",
 									ZOrder = "1",
 								},
 							},
@@ -1027,7 +1027,7 @@ local t =
 									{
 										PositionY = -1,
 									},
-									width = "184",
+									width = "171",
 									ZOrder = "1",
 								},
 								{
@@ -1073,7 +1073,7 @@ local t =
 										PositionX = 53,
 										PositionY = -1,
 									},
-									width = "15",
+									width = "14",
 									ZOrder = "1",
 								},
 							},
@@ -1233,7 +1233,6 @@ local t =
 									{
 										PositionY = 8,
 									},
-									visible = "False",
 									width = "1000",
 									ZOrder = "1",
 								},
@@ -1308,7 +1307,7 @@ local t =
 										PositionY = 219,
 									},
 									visible = "False",
-									width = "127",
+									width = "126",
 									ZOrder = "1",
 								},
 							},
@@ -1356,7 +1355,7 @@ local t =
 								PositionX = -378,
 								PositionY = 227,
 							},
-							width = "224",
+							width = "241",
 							ZOrder = "1",
 						},
 						{
@@ -1719,7 +1718,7 @@ local t =
 										PositionX = 35,
 										PositionY = 32,
 									},
-									width = "23",
+									width = "22",
 									ZOrder = "1",
 								},
 							},
@@ -1871,7 +1870,7 @@ local t =
 								PositionX = -346,
 								PositionY = -113,
 							},
-							width = "217",
+							width = "231",
 							ZOrder = "1",
 						},
 						{
@@ -1917,7 +1916,7 @@ local t =
 								PositionX = -330,
 								PositionY = -152,
 							},
-							width = "33",
+							width = "39",
 							ZOrder = "1",
 						},
 						{
@@ -1963,7 +1962,7 @@ local t =
 								PositionX = -265,
 								PositionY = -151,
 							},
-							width = "81",
+							width = "80",
 							ZOrder = "1",
 						},
 						{
@@ -2159,7 +2158,7 @@ local t =
 												PositionX = -21,
 												PositionY = -13,
 											},
-											width = "13",
+											width = "12",
 											ZOrder = "1",
 										},
 										{
@@ -2205,7 +2204,7 @@ local t =
 												PositionX = -21,
 												PositionY = 11,
 											},
-											width = "59",
+											width = "58",
 											ZOrder = "1",
 										},
 										{
@@ -2326,14 +2325,14 @@ local t =
 							anchorPoint = "False",
 							anchorPointX = "1",
 							anchorPointY = "0.5",
-							backGroundScale9Enable = "False",
+							backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 							classname = "MEButton",
 							ClickHighLightEnabled = "True",
 							dstBlendFunc = "771",
 							flipX = "False",
 							flipY = "False",
 							height = "50",
-							ignoreSize = "True",
+							ignoreSize = "False",
 							name = "Button_sort_order",
 							normal = "ui/onlineteam/preteam/4.png",
 							pressed = "ui/onlineteam/preteam/4.png",
@@ -2348,7 +2347,7 @@ local t =
 								PositionY = -223,
 							},
 							UItype = "Button",
-							width = "150",
+							width = "190",
 							ZOrder = "1",
 							components = 
 							{
@@ -2373,7 +2372,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -6,
+										PositionX = -5,
 										PositionY = 21,
 									},
 									width = "12",
@@ -2419,11 +2418,11 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -75,
+										PositionX = -90,
 										IsPercent = true,
 										PercentX = -50,
 									},
-									width = "111",
+									width = "105",
 									ZOrder = "1",
 								},
 								{
@@ -2446,7 +2445,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -20,
+										PositionX = -35,
 									},
 									visible = "False",
 									width = "30",
@@ -2469,7 +2468,7 @@ local t =
 									height = "175",
 									ignoreSize = "False",
 									innerHeight = "175",
-									innerWidth = "151",
+									innerWidth = "190",
 									name = "ScrollView_rule",
 									showScrollbar = "False",
 									sizepercentx = "0",
@@ -2479,7 +2478,7 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = -150,
+										PositionX = -190,
 										PositionY = 23,
 									},
 									uipanelviewmodel = 
@@ -2487,7 +2486,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									width = "151",
+									width = "190",
 									ZOrder = "1",
 								},
 							},
@@ -2500,14 +2499,14 @@ local t =
 					anchorPoint = "False",
 					anchorPointX = "0.5",
 					anchorPointY = "0.5",
-					backGroundScale9Enable = "False",
+					backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 					classname = "MEButton",
 					ClickHighLightEnabled = "True",
 					dstBlendFunc = "771",
 					flipX = "False",
 					flipY = "False",
 					height = "50",
-					ignoreSize = "True",
+					ignoreSize = "False",
 					name = "Button_rule",
 					normal = "ui/onlineteam/preteam/4.png",
 					pressed = "ui/onlineteam/preteam/4.png",
@@ -2518,7 +2517,7 @@ local t =
 					touchAble = "True",
 					UILayoutViewModel = 
 					{
-						PositionX = 695,
+						PositionX = 710,
 						PositionY = -48,
 						LeftPositon = 620,
 						TopPosition = 663,
@@ -2526,7 +2525,7 @@ local t =
 						nType = 3,
 					},
 					UItype = "Button",
-					width = "150",
+					width = "190",
 					ZOrder = "1",
 					components = 
 					{
@@ -2574,7 +2573,7 @@ local t =
 								PositionX = -14,
 								PositionY = -1,
 							},
-							width = "111",
+							width = "105",
 							ZOrder = "1",
 						},
 						{
@@ -2597,7 +2596,7 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 51,
+								PositionX = 79,
 							},
 							width = "15",
 							ZOrder = "1",

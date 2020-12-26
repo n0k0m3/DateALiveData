@@ -36,7 +36,17 @@ function TeamFightChangeHeroView:ctor(data)
 
 
     self.selectCell = nil;
-    self.showCount = self.showHeros and #self.showHeros or HeroDataMgr:getShowCount()
+
+    local cout = 0
+    for k,v in pairs(self.showHeros or {}) do
+        cout = cout + 1
+    end
+
+    self.showCount = HeroDataMgr:getShowCount()
+    if cout > 0 then
+        self.showCount = cout
+    end
+
 
     self.sortRule = {{lable = 14300313,ruleId = enum_ruleId.power_up,isUp = true},
                      {lable = 14300314,ruleId = enum_ruleId.power_down,isUp = false},
@@ -76,7 +86,10 @@ function TeamFightChangeHeroView:initUI(ui)
     self.root_panel = TFDirector:getChildByPath(ui,"Panel_base")
     self.ui:setTouchEnabled(true)
 
-    self.Button_sort_order = TFDirector:getChildByPath(ui, "Button_sort_order")
+    --TODO CLOSE
+    --self.Button_sort_order = TFDirector:getChildByPath(ui, "Button_sort_order")
+    self.Button_sort_order = TFDirector:getChildByPath(ui, "Button_sort_order"):hide()
+
     self.Label_order_name = TFDirector:getChildByPath(self.Button_sort_order, "Label_order_name")
     self.Image_order_icon = TFDirector:getChildByPath(self.Button_sort_order, "Image_order_icon")
 
@@ -142,7 +155,6 @@ function TeamFightChangeHeroView.cellSizeForTable(table, idx)
     return size.height, size.width
 end
 
-   
 function TeamFightChangeHeroView.tableCellAtIndex(table, idx)
     local self = table.logic
     local cell = table:dequeueCell()
@@ -156,7 +168,7 @@ function TeamFightChangeHeroView.tableCellAtIndex(table, idx)
         cell.node = parentNode
         table.cells[cell] = true
 
-
+        local startPos = parentNode:getChildByName("Image_duty"):getPosition() + ccp(2 ,-180)
     end
     local itemNode = cell.node
     self:updateOneHead(itemNode, idx + 1)
@@ -164,7 +176,8 @@ function TeamFightChangeHeroView.tableCellAtIndex(table, idx)
 end
 
 function TeamFightChangeHeroView.numberOfCellsInTableView(table)
-    return TeamFightChangeHeroView.showHeros and #TeamFightChangeHeroView.showHeros or HeroDataMgr:getShowCount()
+    local self = table.logic
+    return self.showCount
 end
 
 function TeamFightChangeHeroView:updateRuleList()
@@ -271,7 +284,13 @@ function TeamFightChangeHeroView:updateOneHead(cell,idx,isChange)
             self.showidx = idx
             self.firstTouchIn  = true;
         end
-        self.showid = self.ruleId == enum_ruleId.default and HeroDataMgr:changeShowOne(idx,self.firstTouchIn) or self.showHeroIds[idx]
+
+        if self.showHeros then
+            self.showid = self.showHeros[idx].id
+        else
+            self.showid = self.ruleId == enum_ruleId.default and HeroDataMgr:changeShowOne(idx,self.firstTouchIn) or self.showHeroIds[idx]
+        end
+
         self.firstTouchIn  = false;
         self:changeShowOne();
 
@@ -391,8 +410,7 @@ function TeamFightChangeHeroView:updateOneHead(cell,idx,isChange)
     else
         Image_levelbg:PosY(Image_levelbg:PosY() - 12)
     end
-    -- local panel_element = cell.panel_element
-    -- PrefabDataMgr:setInfo(panel_element , hero.magicAttribute)
+   
 end
 
 function TeamFightChangeHeroView.cellBegin(table)

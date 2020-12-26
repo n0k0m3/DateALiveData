@@ -464,7 +464,6 @@ function TFGameStartup:loadGameInitFile( func, loadBasedata )
         addCount = 1
         require(szGameInitFile[1])
         require(szGameInitFile[2])
-
         if func then
             func()
         end

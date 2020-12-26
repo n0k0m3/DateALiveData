@@ -66,6 +66,8 @@ function AnnouncementLayer:getAnnouncementInfo( ... )
 end
 
 function AnnouncementLayer:updateNoticeData( data )
+    if not self.groupLimit then  return end
+    
     if (data and data ~= "") then
         data = json.decode(data)
     end
@@ -152,6 +154,7 @@ function AnnouncementLayer:initScrollInfos( ... )
     local scrollBar = UIScrollBar:create(Image_scrollBar, Image_scrollBarInner)
     self.ListView_info:setScrollBar(scrollBar)
 
+    local firstOpenItem = nil
     for i=1,#self.myData do
         local infos = self.myData[i]
         local panel_title_item = self.panel_title_item:clone()
@@ -161,7 +164,25 @@ function AnnouncementLayer:initScrollInfos( ... )
         panel_title_item.img_arrow = panel_title_item:getChildByName("img_arrow")
         panel_title_item.label_title = panel_title_item:getChildByName("Label_des")
         table.insert(self.panel_title_list , panel_title_item)
-        panel_title_item:onClick(function ( sender )
+        panel_title_item:onClick(handler(self.titleItemClick , self))
+        self.ListView_info:pushBackCustomItem(panel_title_item)
+        local titleData = infos.title
+        panel_title_item.label_title:setTextByAttr(titleData)
+        panel_title_item.infos = infos
+
+        if #self.myData >= 1 and self.isNotFirst == nil and i == 1 then
+            firstOpenItem = panel_title_item
+            self.isNotFirst = false
+        end
+    end
+
+    if firstOpenItem then
+        self:titleItemClick(firstOpenItem)
+    end
+    
+end
+
+function AnnouncementLayer:titleItemClick( sender )
             if sender.idx then
                 self:updateTitleItemIndex(sender.index , false)
                 self.ListView_info:removeItem(sender.idx)
@@ -184,12 +205,6 @@ function AnnouncementLayer:initScrollInfos( ... )
                 sender.idx = idx 
                 sender.img_arrow:setTexture("ui/common/announcement/img_up.png")
             end
-        end)
-        self.ListView_info:pushBackCustomItem(panel_title_item)
-        local titleData = infos.title
-        panel_title_item.label_title:setTextByAttr(titleData)
-        panel_title_item.infos = infos
-    end
 end
 
 function AnnouncementLayer:updateTitleItemIndex(index  , isAdd)

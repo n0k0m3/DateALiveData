@@ -115,36 +115,6 @@ local t =
 							ZOrder = "1",
 						},
 						{
-							controlID = "Image_teamMatchView_1_Panel_root_Panel-teamMatchView_Layer1_teamFight_Game",
-							UUID = "ae7a6b69_c0cc_4310_a761_781c6e847cf7",
-							anchorPoint = "False",
-							anchorPointX = "0.5",
-							anchorPointY = "0.5",
-							backGroundScale9Enable = "False",
-							classname = "MEImage",
-							dstBlendFunc = "771",
-							height = "640",
-							ignoreSize = "True",
-							name = "Image_teamMatchView_1",
-							sizepercentx = "0",
-							sizepercenty = "0",
-							sizeType = "0",
-							srcBlendFunc = "770",
-							texturePath = "ui/activity/activity_2020wsj/figthReady/南瓜大王关卡.png",
-							touchAble = "False",
-							UILayoutViewModel = 
-							{
-								PositionX = 568,
-								PositionY = 320,
-								IsPercent = true,
-								PercentX = 50,
-								PercentY = 50,
-							},
-							visible = "False",
-							width = "1385",
-							ZOrder = "1",
-						},
-						{
 							controlID = "Button_help_Panel_root_Panel-teamMatchView_Layer1_teamFight_Game",
 							UUID = "90668ff9_d0f3_49b2_a8a1_cfff3245c76d",
 							anchorPoint = "False",
@@ -470,7 +440,7 @@ local t =
 														PositionX = 48,
 														PositionY = -3,
 													},
-													width = "65",
+													width = "64",
 													ZOrder = "1",
 												},
 											},
@@ -547,7 +517,7 @@ local t =
 													{
 														
 													},
-													width = "504",
+													width = "487",
 													ZOrder = "1",
 												},
 											},
@@ -705,7 +675,7 @@ local t =
 												PositionX = -86,
 												PositionY = 396,
 											},
-											width = "161",
+											width = "155",
 											ZOrder = "1",
 										},
 										{
@@ -908,7 +878,7 @@ local t =
 														PositionX = 33,
 														PositionY = 2,
 													},
-													width = "54",
+													width = "55",
 													ZOrder = "1",
 												},
 											},
@@ -1279,7 +1249,7 @@ local t =
 																			{
 																				PositionY = -45,
 																			},
-																			width = "114",
+																			width = "107",
 																			ZOrder = "1",
 																		},
 																	},
@@ -1384,7 +1354,7 @@ local t =
 																			{
 																				PositionY = -45,
 																			},
-																			width = "65",
+																			width = "64",
 																			ZOrder = "1",
 																		},
 																	},
@@ -1489,7 +1459,7 @@ local t =
 																			{
 																				PositionY = -45,
 																			},
-																			width = "91",
+																			width = "88",
 																			ZOrder = "1",
 																		},
 																	},
@@ -1835,7 +1805,7 @@ local t =
 													{
 														PositionX = 39,
 													},
-													width = "65",
+													width = "64",
 													ZOrder = "1",
 												},
 											},
@@ -1909,7 +1879,7 @@ local t =
 													{
 														
 													},
-													width = "504",
+													width = "487",
 													ZOrder = "1",
 												},
 											},
@@ -2061,7 +2031,7 @@ local t =
 												PositionX = -135,
 												PositionY = 396,
 											},
-											width = "171",
+											width = "162",
 											ZOrder = "1",
 										},
 										{
@@ -2239,7 +2209,7 @@ local t =
 														PositionX = 13,
 														PositionY = -1,
 													},
-													width = "46",
+													width = "45",
 													ZOrder = "1",
 												},
 											},
@@ -2490,7 +2460,7 @@ local t =
 																	{
 																		PositionY = -45,
 																	},
-																	width = "114",
+																	width = "107",
 																	ZOrder = "1",
 																},
 															},
@@ -2594,7 +2564,7 @@ local t =
 																	{
 																		PositionY = -45,
 																	},
-																	width = "65",
+																	width = "64",
 																	ZOrder = "1",
 																},
 															},
@@ -2698,7 +2668,7 @@ local t =
 																	{
 																		PositionY = -45,
 																	},
-																	width = "91",
+																	width = "88",
 																	ZOrder = "1",
 																},
 															},
@@ -2856,7 +2826,7 @@ local t =
 										PositionX = -141,
 										PositionY = -6,
 									},
-									width = "176",
+									width = "163",
 									ZOrder = "1",
 								},
 								{
@@ -3135,7 +3105,7 @@ local t =
 											{
 												PositionX = -22,
 											},
-											width = "24",
+											width = "28",
 											ZOrder = "1",
 										},
 										{
@@ -3180,7 +3150,7 @@ local t =
 											{
 												PositionX = 22,
 											},
-											width = "32",
+											width = "29",
 											ZOrder = "1",
 										},
 									},
@@ -3231,7 +3201,7 @@ local t =
 										PercentX = 50,
 										PercentY = 141.67,
 									},
-									width = "114",
+									width = "104",
 									ZOrder = "1",
 								},
 							},
@@ -3280,11 +3250,11 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "47",
-									ignoreSize = "True",
+									height = "78",
+									ignoreSize = "False",
 									name = "Image_handle_bg",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -3294,9 +3264,9 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										
+										PositionX = -49,
 									},
-									width = "404",
+									width = "465",
 									ZOrder = "1",
 								},
 								{
@@ -3325,11 +3295,11 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "21",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_join_level_title",
-									nTextAlign = "1",
-									nTextHAlign = "1",
+									nTextAlign = "0",
+									nTextHAlign = "0",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -3339,10 +3309,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -146,
-										PositionY = -12,
+										PositionX = -206,
+										PositionY = -15,
 									},
-									width = "99",
+									width = "143",
 									ZOrder = "1",
 								},
 								{
@@ -3385,17 +3355,17 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -93,
-										PositionY = -12,
+										PositionX = -148,
+										PositionY = -19,
 									},
-									width = "23",
+									width = "22",
 									ZOrder = "1",
 								},
 								{
 									controlID = "Label_handle_title_Panel_room_hadle_Panel_root_Panel-teamMatchView_Layer1_teamFight_Game",
 									UUID = "c36574f1_d510_4361_a955_814e413e9c55",
 									anchorPoint = "False",
-									anchorPointX = "0.5",
+									anchorPointX = "0",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -3431,10 +3401,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -172,
-										PositionY = 10,
+										PositionX = -271,
+										PositionY = 24,
 									},
-									width = "45",
+									width = "54",
 									ZOrder = "1",
 									components = 
 									{
@@ -3461,7 +3431,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 37,
+												PositionX = 80,
+												PositionY = -1,
 											},
 											width = "44",
 											ZOrder = "1",
@@ -3526,7 +3497,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 49,
+												PositionX = 72,
+												PositionY = -12,
 											},
 											width = "12",
 											ZOrder = "1",
@@ -3575,7 +3547,7 @@ local t =
 													{
 														PositionX = 20,
 													},
-													width = "24",
+													width = "28",
 													ZOrder = "1",
 												},
 												{
@@ -3631,8 +3603,8 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "21",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_title",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -3645,9 +3617,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												
+												PositionX = -24,
+												PositionY = -12,
 											},
-											width = "81",
+											width = "160",
 											ZOrder = "1",
 										},
 									},
@@ -3710,7 +3683,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 49,
+												PositionX = 72,
 											},
 											width = "12",
 											ZOrder = "1",
@@ -3759,7 +3732,7 @@ local t =
 													{
 														PositionX = 20,
 													},
-													width = "24",
+													width = "28",
 													ZOrder = "1",
 												},
 												{
@@ -3815,8 +3788,8 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "21",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_title",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -3829,9 +3802,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												
+												PositionX = -23,
 											},
-											width = "81",
+											width = "177",
 											ZOrder = "1",
 										},
 									},
@@ -4004,7 +3977,7 @@ local t =
 											{
 												PositionX = -22,
 											},
-											width = "24",
+											width = "28",
 											ZOrder = "1",
 										},
 										{
@@ -4049,7 +4022,7 @@ local t =
 											{
 												PositionX = 22,
 											},
-											width = "32",
+											width = "29",
 											ZOrder = "1",
 										},
 									},
@@ -4100,7 +4073,7 @@ local t =
 										PercentX = 50,
 										PercentY = 141.67,
 									},
-									width = "121",
+									width = "114",
 									ZOrder = "1",
 								},
 								{
@@ -4271,7 +4244,7 @@ local t =
 											{
 												PositionX = -22,
 											},
-											width = "24",
+											width = "28",
 											ZOrder = "1",
 										},
 										{
@@ -4316,7 +4289,7 @@ local t =
 											{
 												PositionX = 22,
 											},
-											width = "32",
+											width = "29",
 											ZOrder = "1",
 										},
 									},
@@ -4367,7 +4340,7 @@ local t =
 										PercentX = 50,
 										PercentY = 141.67,
 									},
-									width = "169",
+									width = "161",
 									ZOrder = "1",
 								},
 								{
@@ -4531,7 +4504,7 @@ local t =
 											{
 												PositionX = -22,
 											},
-											width = "24",
+											width = "28",
 											ZOrder = "1",
 										},
 										{
@@ -4576,7 +4549,7 @@ local t =
 											{
 												PositionX = 22,
 											},
-											width = "32",
+											width = "29",
 											ZOrder = "1",
 										},
 									},
@@ -4624,7 +4597,7 @@ local t =
 										PositionX = 50,
 										PositionY = 18,
 									},
-									width = "169",
+									width = "161",
 									ZOrder = "1",
 								},
 								{
@@ -4726,7 +4699,7 @@ local t =
 										PositionX = -23,
 										PositionY = -15,
 									},
-									width = "128",
+									width = "127",
 									ZOrder = "1",
 								},
 								{
@@ -4772,7 +4745,7 @@ local t =
 										PositionX = 65,
 										PositionY = -4,
 									},
-									width = "30",
+									width = "29",
 									ZOrder = "1",
 								},
 							},
@@ -5120,8 +5093,8 @@ local t =
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "27",
-															ignoreSize = "True",
+															height = "0",
+															ignoreSize = "False",
 															name = "Label_speak",
 															nTextAlign = "1",
 															nTextHAlign = "1",
@@ -5137,7 +5110,7 @@ local t =
 																PositionX = 180,
 																PositionY = 32,
 															},
-															width = "318",
+															width = "360",
 															ZOrder = "1",
 														},
 													},
@@ -5221,10 +5194,9 @@ local t =
 									DesignType = "0",
 									DesignWidth = "960",
 									dstBlendFunc = "771",
-									height = "42",
+									height = "72",
 									ignoreSize = "False",
 									name = "Panel_show_effects_tip",
-									panelTexturePath = "ui/onlineteam/016.png",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -5232,19 +5204,44 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -362,
-										PositionY = -23,
+										PositionX = -526,
+										PositionY = -43,
 									},
 									uipanelviewmodel = 
 									{
 										Layout="Absolute",
 										nType = "0"
 									},
-									width = "328",
+									width = "500",
 									ZOrder = "1",
 									components = 
 									{
 										
+										{
+											controlID = "Image_teamMatchView_1_Panel_show_effects_tip_Image_show_effects_tip_Panel_root_Panel-teamMatchView_Layer1_teamFight_Game",
+											UUID = "d33283d1_0bfb_4b74_9988_1f0299732c1b",
+											anchorPoint = "False",
+											anchorPointX = "0",
+											anchorPointY = "0",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
+											classname = "MEImage",
+											dstBlendFunc = "771",
+											height = "72",
+											ignoreSize = "False",
+											name = "Image_teamMatchView_1",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "1",
+											texturePath = "ui/onlineteam/016.png",
+											touchAble = "False",
+											UILayoutViewModel = 
+											{
+												
+											},
+											width = "500",
+											ZOrder = "1",
+										},
 										{
 											controlID = "Label_show_effect_tip_Panel_show_effects_tip_Image_show_effects_tip_Panel_root_Panel-teamMatchView_Layer1_teamFight_Game",
 											UUID = "778b7f1e_b9a8_404e_a39f_b4f29c5c1931",
@@ -5271,11 +5268,11 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_show_effect_tip",
-											nTextAlign = "1",
-											nTextHAlign = "1",
+											nTextAlign = "0",
+											nTextHAlign = "0",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -5285,13 +5282,13 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 164,
-												PositionY = 21,
+												PositionX = 250,
+												PositionY = 36,
 												IsPercent = true,
 												PercentX = 50,
 												PercentY = 50,
 											},
-											width = "1082",
+											width = "500",
 											ZOrder = "1",
 										},
 										{
@@ -5314,8 +5311,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 328,
-												PositionY = 21,
+												PositionX = 500,
+												PositionY = 36,
 												IsPercent = true,
 												PercentX = 100,
 												PercentY = 50,
@@ -5425,7 +5422,7 @@ local t =
 										PositionX = 204,
 										PositionY = 26,
 									},
-									width = "104",
+									width = "115",
 									ZOrder = "1",
 								},
 								{
@@ -6326,7 +6323,6 @@ local t =
 		textures = 
 		{
 			"ui/onlineteam/BG.png",
-			"ui/activity/activity_2020wsj/figthReady/南瓜大王关卡.png",
 			"ui/teampve/help/d014.png",
 			"ui/onlineteam/member_bg.png",
 			"icon/hero/backdrop/10101.png",

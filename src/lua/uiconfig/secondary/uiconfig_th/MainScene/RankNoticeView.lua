@@ -65,8 +65,8 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
-						PositionX = 568,
-						PositionY = 320,
+						PositionX = 510,
+						PositionY = 333,
 						relativeToName = "Panel",
 						nType = 3,
 						nGravity = 6,
@@ -101,7 +101,7 @@ local t =
 					UILayoutViewModel = 
 					{
 						PositionX = -58,
-						PositionY = 34,
+						PositionY = 13,
 						relativeToName = "Panel",
 						nType = 3,
 						nGravity = 6,
@@ -532,10 +532,10 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												PositionX = 160,
-												PositionY = 88,
+												PositionX = 159,
+												PositionY = 131,
 												LeftPositon = 134,
-												BottomPosition = 66,
+												BottomPosition = 109,
 												relativeToName = "Panel_rank_1",
 												nType = 3,
 												nGravity = 4,
@@ -554,8 +554,8 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "62",
-											ignoreSize = "True",
+											height = "106",
+											ignoreSize = "False",
 											name = "Image_bottom",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -566,7 +566,8 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = 96,
-												PositionY = 31,
+												PositionY = 54,
+												BottomPosition = 1,
 												relativeToName = "Panel_rank_1",
 												nType = 3,
 												nGravity = 6,
@@ -601,8 +602,8 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_rank_value",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -616,14 +617,14 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = 96,
-												PositionY = 44,
-												BottomPosition = 33,
+												PositionY = 78,
+												BottomPosition = 66,
 												relativeToName = "Panel_rank_1",
 												nType = 3,
 												nGravity = 6,
 												nAlign = 8
 											},
-											width = "84",
+											width = "138",
 											ZOrder = "1",
 										},
 										{
@@ -652,7 +653,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "24",
+											height = "22",
 											ignoreSize = "True",
 											name = "Label_player_name",
 											nTextAlign = "1",
@@ -667,14 +668,14 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = 96,
-												PositionY = 15,
-												BottomPosition = 3,
+												PositionY = 29,
+												BottomPosition = 18,
 												relativeToName = "Panel_rank_1",
 												nType = 3,
 												nGravity = 6,
 												nAlign = 8
 											},
-											width = "117",
+											width = "116",
 											ZOrder = "1",
 										},
 										{
@@ -973,10 +974,10 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												PositionX = 160,
-												PositionY = 88,
+												PositionX = 159,
+												PositionY = 131,
 												LeftPositon = 134,
-												BottomPosition = 66,
+												BottomPosition = 109,
 												relativeToName = "Panel_rank_1",
 												nType = 3,
 												nGravity = 4,
@@ -995,8 +996,8 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "62",
-											ignoreSize = "True",
+											height = "106",
+											ignoreSize = "False",
 											name = "Image_bottom",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -1007,7 +1008,8 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = 96,
-												PositionY = 31,
+												PositionY = 54,
+												BottomPosition = 1,
 												relativeToName = "Panel_rank_2",
 												nType = 3,
 												nGravity = 6,
@@ -1042,8 +1044,8 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_rank_value",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -1057,14 +1059,14 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = 96,
-												PositionY = 44,
-												BottomPosition = 33,
+												PositionY = 78,
+												BottomPosition = 66,
 												relativeToName = "Panel_rank_1",
 												nType = 3,
 												nGravity = 6,
 												nAlign = 8
 											},
-											width = "84",
+											width = "138",
 											ZOrder = "1",
 										},
 										{
@@ -1093,7 +1095,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "24",
+											height = "22",
 											ignoreSize = "True",
 											name = "Label_player_name",
 											nTextAlign = "1",
@@ -1108,14 +1110,14 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = 96,
-												PositionY = 15,
-												BottomPosition = 3,
+												PositionY = 29,
+												BottomPosition = 18,
 												relativeToName = "Panel_rank_1",
 												nType = 3,
 												nGravity = 6,
 												nAlign = 8
 											},
-											width = "117",
+											width = "116",
 											ZOrder = "1",
 										},
 										{
@@ -1414,10 +1416,10 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												PositionX = 160,
-												PositionY = 88,
+												PositionX = 159,
+												PositionY = 131,
 												LeftPositon = 134,
-												BottomPosition = 66,
+												BottomPosition = 109,
 												relativeToName = "Panel_rank_1",
 												nType = 3,
 												nGravity = 4,
@@ -1436,8 +1438,8 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "62",
-											ignoreSize = "True",
+											height = "106",
+											ignoreSize = "False",
 											name = "Image_bottom",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -1448,7 +1450,8 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = 96,
-												PositionY = 31,
+												PositionY = 54,
+												BottomPosition = 1,
 												relativeToName = "Panel_rank_3",
 												nType = 3,
 												nGravity = 6,
@@ -1483,8 +1486,8 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_rank_value",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -1498,14 +1501,14 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = 96,
-												PositionY = 44,
-												BottomPosition = 33,
+												PositionY = 78,
+												BottomPosition = 66,
 												relativeToName = "Panel_rank_1",
 												nType = 3,
 												nGravity = 6,
 												nAlign = 8
 											},
-											width = "84",
+											width = "138",
 											ZOrder = "1",
 										},
 										{
@@ -1534,7 +1537,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "24",
+											height = "22",
 											ignoreSize = "True",
 											name = "Label_player_name",
 											nTextAlign = "1",
@@ -1549,14 +1552,14 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = 96,
-												PositionY = 15,
-												BottomPosition = 3,
+												PositionY = 29,
+												BottomPosition = 18,
 												relativeToName = "Panel_rank_1",
 												nType = 3,
 												nGravity = 6,
 												nAlign = 8
 											},
-											width = "117",
+											width = "116",
 											ZOrder = "1",
 										},
 										{
@@ -2035,7 +2038,7 @@ local t =
 					UILayoutViewModel = 
 					{
 						PositionX = 27,
-						PositionY = -742,
+						PositionY = -784,
 						LeftPositon = 27,
 						TopPosition = 811,
 						relativeToName = "Panel_root",
@@ -2140,7 +2143,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_player_name",
 									nTextAlign = "1",
@@ -2233,7 +2236,7 @@ local t =
 										PositionX = -40,
 										PositionY = -26,
 									},
-									width = "91",
+									width = "94",
 									ZOrder = "1",
 								},
 								{
@@ -2318,7 +2321,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "31",
+									height = "29",
 									ignoreSize = "True",
 									name = "Label_rank_select",
 									nTextAlign = "1",
@@ -2335,7 +2338,7 @@ local t =
 										PositionX = -170,
 										PositionY = -2,
 									},
-									width = "66",
+									width = "44",
 									ZOrder = "1",
 								},
 							},
@@ -2459,8 +2462,8 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_name",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -2476,7 +2479,7 @@ local t =
 										PositionX = -8,
 										PositionY = -25,
 									},
-									width = "83",
+									width = "94",
 									ZOrder = "1",
 								},
 								{

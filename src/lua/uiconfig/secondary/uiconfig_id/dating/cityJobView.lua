@@ -201,7 +201,7 @@ local t =
 								PositionY = 320,
 								nGravity = 1,
 							},
-							width = "359",
+							width = "344",
 							ZOrder = "1",
 						},
 						{
@@ -335,9 +335,9 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 14,
-										PositionY = 554,
+										PositionY = 547,
 									},
-									width = "94",
+									width = "106",
 									ZOrder = "1",
 								},
 								{
@@ -383,7 +383,8 @@ local t =
 										PositionX = 15,
 										PositionY = 534,
 									},
-									width = "66",
+									visible = "False",
+									width = "63",
 									ZOrder = "1",
 								},
 								{
@@ -429,7 +430,7 @@ local t =
 										PositionX = 6,
 										PositionY = 502,
 									},
-									width = "164",
+									width = "168",
 									ZOrder = "1",
 								},
 								{
@@ -712,7 +713,7 @@ local t =
 												PositionX = 52,
 												PositionY = 160,
 											},
-											width = "37",
+											width = "42",
 											ZOrder = "1",
 										},
 										{
@@ -758,7 +759,7 @@ local t =
 												PositionX = 87,
 												PositionY = 47,
 											},
-											width = "132",
+											width = "124",
 											ZOrder = "1",
 										},
 										{
@@ -804,7 +805,7 @@ local t =
 												PositionX = 201,
 												PositionY = 47,
 											},
-											width = "77",
+											width = "78",
 											ZOrder = "1",
 										},
 										{
@@ -850,7 +851,7 @@ local t =
 												PositionX = 240,
 												PositionY = 160,
 											},
-											width = "101",
+											width = "95",
 											ZOrder = "1",
 										},
 										{
@@ -896,7 +897,7 @@ local t =
 												PositionX = 174,
 												PositionY = 213,
 											},
-											width = "25",
+											width = "24",
 											ZOrder = "1",
 										},
 										{
@@ -942,7 +943,7 @@ local t =
 												PositionX = 72,
 												PositionY = 135,
 											},
-											width = "25",
+											width = "24",
 											ZOrder = "1",
 										},
 										{
@@ -988,7 +989,7 @@ local t =
 												PositionX = 87,
 												PositionY = 25,
 											},
-											width = "25",
+											width = "24",
 											ZOrder = "1",
 										},
 										{
@@ -1034,7 +1035,7 @@ local t =
 												PositionX = 201,
 												PositionY = 25,
 											},
-											width = "25",
+											width = "24",
 											ZOrder = "1",
 										},
 										{
@@ -1080,7 +1081,7 @@ local t =
 												PositionX = 223,
 												PositionY = 135,
 											},
-											width = "25",
+											width = "24",
 											ZOrder = "1",
 										},
 									},
@@ -1316,7 +1317,7 @@ local t =
 												PositionX = 180,
 												PositionY = 195,
 											},
-											width = "207",
+											width = "187",
 											ZOrder = "1",
 										},
 										{
@@ -1520,7 +1521,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "16",
+									fontSize = "15",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -1542,9 +1543,9 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 15,
-										PositionY = 561,
+										PositionY = 545,
 									},
-									width = "100",
+									width = "95",
 									ZOrder = "1",
 								},
 								{
@@ -1590,7 +1591,8 @@ local t =
 										PositionX = 15,
 										PositionY = 532,
 									},
-									width = "60",
+									visible = "False",
+									width = "62",
 									ZOrder = "1",
 								},
 								{
@@ -1918,7 +1920,7 @@ local t =
 											{
 												PositionY = -95,
 											},
-											width = "213",
+											width = "202",
 											ZOrder = "1",
 										},
 										{
@@ -2074,7 +2076,7 @@ local t =
 											{
 												PositionY = -113,
 											},
-											width = "293",
+											width = "284",
 											ZOrder = "1",
 										},
 										{
@@ -2148,7 +2150,7 @@ local t =
 										PositionY = 300,
 									},
 									visible = "False",
-									width = "355",
+									width = "343",
 									ZOrder = "1",
 								},
 								{
@@ -2255,9 +2257,9 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = -18,
-												PositionY = 34,
+												PositionY = 29,
 											},
-											width = "161",
+											width = "178",
 											ZOrder = "1",
 										},
 										{
@@ -2303,7 +2305,8 @@ local t =
 												PositionX = -20,
 												PositionY = 13,
 											},
-											width = "66",
+											visible = "False",
+											width = "63",
 											ZOrder = "1",
 										},
 									},
@@ -2515,7 +2518,7 @@ local t =
 												PositionX = 147,
 												PositionY = 19,
 											},
-											width = "37",
+											width = "36",
 											ZOrder = "1",
 										},
 										{
@@ -2562,7 +2565,7 @@ local t =
 												PositionX = 75,
 												PositionY = 78,
 											},
-											width = "45",
+											width = "48",
 											ZOrder = "1",
 										},
 										{
@@ -2802,7 +2805,7 @@ local t =
 										PositionX = 56,
 										PositionY = 52,
 									},
-									width = "26",
+									width = "24",
 									ZOrder = "1",
 								},
 								{
@@ -2989,7 +2992,7 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "18",
+									fontSize = "16",
 									fontStroke = 
 									{
 										IsStroke = false,
@@ -3246,7 +3249,7 @@ local t =
 										PositionY = 30,
 									},
 									visible = "False",
-									width = "120",
+									width = "116",
 									ZOrder = "10",
 								},
 								{
@@ -3358,7 +3361,7 @@ local t =
 												PositionX = 114,
 												PositionY = 25,
 											},
-											width = "36",
+											width = "35",
 											ZOrder = "10",
 										},
 									},
@@ -3468,7 +3471,7 @@ local t =
 										PositionY = 32,
 									},
 									visible = "False",
-									width = "66",
+									width = "61",
 									ZOrder = "21",
 								},
 								{

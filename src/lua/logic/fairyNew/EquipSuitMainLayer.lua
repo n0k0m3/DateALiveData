@@ -610,11 +610,19 @@ function EquipSuitMainLayer:onTouchButtonOpen()
     if self.isOpen then
         self.isOpen = false
         self.Image_arrow:setRotation(0)
-        self.Image_buttons:runAction(CCMoveTo:create(0.1,ccp(60,345)))
+        if TFLanguageMgr:getUsingLanguage() == cc.SPANISH then
+            self.Image_buttons:runAction(CCMoveTo:create(0.1,ccp(70,345)))
+        else
+            self.Image_buttons:runAction(CCMoveTo:create(0.1,ccp(70,345)))
+        end
     else
         self.isOpen = true
         self.Image_arrow:setRotation(180)
-        self.Image_buttons:runAction(CCMoveTo:create(0.1,ccp(60,115)))
+        if TFLanguageMgr:getUsingLanguage() == cc.SPANISH then
+            self.Image_buttons:runAction(CCMoveTo:create(0.1,ccp(70,115)))
+        else
+            self.Image_buttons:runAction(CCMoveTo:create(0.1,ccp(70,115)))
+        end
     end
 end
 

@@ -15,7 +15,7 @@ return {
         id = 3,
         beginTime  = "00:00:08,0",
         endTime  = "00:00:08,500",
-        content  = "Und ich habe gesagt, ich wĂźrde dir einen ausgeben, ",
+        content  = "Und ich habe gesagt, ich würde dir einen ausgeben, ",
     },
     [4] = {
         id = 4,
@@ -27,7 +27,7 @@ return {
         id = 5,
         beginTime  = "00:00:11,0",
         endTime  = "00:00:14,500",
-        content  = "Aber dann ertĂśnte der Raumbebenalarm, \nals ich in der Schule war.",
+        content  = "Aber dann ertönte der Raumbebenalarm, \nals ich in der Schule war.",
     },
     [6] = {
         id = 6,
@@ -45,7 +45,7 @@ return {
         id = 8,
         beginTime  = "00:00:18,0",
         endTime  = "00:00:20,0",
-        content  = "Ich machte mir Sorgen, da es so aussah, \nals wĂźrdest du nicht evakuieren,",
+        content  = "Ich machte mir Sorgen, da es so aussah, \nals würdest du nicht evakuieren,",
     },
     [9] = {
         id = 9,

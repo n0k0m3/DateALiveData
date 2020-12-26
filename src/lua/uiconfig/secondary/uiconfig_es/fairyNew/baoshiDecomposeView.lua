@@ -183,7 +183,7 @@ local t =
 										PositionX = -355,
 										PositionY = 187,
 									},
-									width = "174",
+									width = "189",
 									ZOrder = "1",
 									components = 
 									{
@@ -208,7 +208,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 177,
+												PositionX = 193,
 												PositionY = 1,
 												IsPercent = true,
 												PercentX = 102,
@@ -330,7 +330,7 @@ local t =
 														PositionX = 7,
 														PositionY = -2,
 													},
-													width = "121",
+													width = "130",
 													ZOrder = "1",
 												},
 											},
@@ -577,7 +577,7 @@ local t =
 														PositionX = 7,
 														PositionY = -2,
 													},
-													width = "144",
+													width = "158",
 													ZOrder = "1",
 												},
 											},
@@ -822,7 +822,7 @@ local t =
 														PositionX = 7,
 														PositionY = -2,
 													},
-													width = "229",
+													width = "251",
 													ZOrder = "1",
 												},
 											},
@@ -898,7 +898,7 @@ local t =
 														PositionX = 7,
 														PositionY = -2,
 													},
-													width = "121",
+													width = "130",
 													ZOrder = "1",
 												},
 											},
@@ -1176,7 +1176,7 @@ local t =
 											{
 												
 											},
-											width = "111",
+											width = "100",
 											ZOrder = "1",
 										},
 									},
@@ -1255,7 +1255,7 @@ local t =
 											{
 												
 											},
-											width = "139",
+											width = "130",
 											ZOrder = "1",
 										},
 									},
@@ -1493,7 +1493,7 @@ local t =
 										PositionX = -159,
 										PositionY = -6,
 									},
-									width = "273",
+									width = "252",
 									ZOrder = "1",
 								},
 							},
@@ -1861,7 +1861,7 @@ local t =
 										PositionX = 40,
 										PositionY = -35,
 									},
-									width = "23",
+									width = "33",
 									ZOrder = "1",
 								},
 								{

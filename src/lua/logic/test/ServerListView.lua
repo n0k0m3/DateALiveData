@@ -45,6 +45,13 @@ function ServerListView:showServerGroup()
         local item = self.Button_serverListItem:clone()
         self.ListView_groupList:pushBackCustomItem(item)
         local Label_name = TFDirector:getChildByPath(item, "Label_name")
+
+        if (_group.groupType == GLOBAL_SERVER_LIST.SERVER_NIMILANGUAGE) then
+
+            local imgNew = TFImage:create("ui/recharge/new.png")
+            imgNew:setPosition(80 , 20)
+            item:addChild(imgNew)
+        end
         Label_name:setText(_group.groupName)
 
         item:onClick(function()

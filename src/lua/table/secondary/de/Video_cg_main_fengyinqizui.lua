@@ -9,6 +9,6 @@ return {
         id = 2,
         beginTime  = "00:00:09,0",
         endTime  = "00:00:13,0",
-        content  = "Du hĂ¤ttest mich warnen sollen, \ndass mein Astral-Kleid verschwinden wĂźrde!",
+        content  = "Du hättest mich warnen sollen, \ndass mein Astral-Kleid verschwinden würde!",
     },
 }

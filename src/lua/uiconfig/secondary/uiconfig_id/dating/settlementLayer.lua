@@ -723,7 +723,7 @@ local t =
 												TopPosition = 558,
 												relativeToName = "Panel_content",
 											},
-											width = "123",
+											width = "203",
 											ZOrder = "1",
 										},
 									},
@@ -1092,7 +1092,7 @@ local t =
 																PositionX = 27,
 																PositionY = 107,
 															},
-															width = "103",
+															width = "123",
 															ZOrder = "1",
 															components = 
 															{
@@ -1170,7 +1170,7 @@ local t =
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "30",
+															height = "28",
 															ignoreSize = "True",
 															name = "Label_level",
 															nTextAlign = "1",
@@ -1187,7 +1187,7 @@ local t =
 																PositionX = 24,
 																PositionY = 54,
 															},
-															width = "79",
+															width = "67",
 															ZOrder = "1",
 														},
 														{
@@ -1344,7 +1344,7 @@ local t =
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "22",
+															height = "21",
 															ignoreSize = "True",
 															name = "Label_exp_add",
 															nTextAlign = "1",
@@ -1361,7 +1361,7 @@ local t =
 																PositionX = 321,
 																PositionY = 14,
 															},
-															width = "118",
+															width = "92",
 															ZOrder = "1",
 														},
 													},
@@ -1555,7 +1555,7 @@ local t =
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "35",
+															height = "32",
 															ignoreSize = "True",
 															name = "Label_favor",
 															nTextAlign = "1",
@@ -1572,7 +1572,7 @@ local t =
 																PositionX = 317,
 																PositionY = 26,
 															},
-															width = "68",
+															width = "53",
 															ZOrder = "1",
 														},
 														{
@@ -1618,7 +1618,7 @@ local t =
 																PositionX = 27,
 																PositionY = 36,
 															},
-															width = "78",
+															width = "59",
 															ZOrder = "1",
 															components = 
 															{
@@ -1665,6 +1665,7 @@ local t =
 																	{
 																		PositionY = -23,
 																	},
+																	visible = "False",
 																	width = "41",
 																	ZOrder = "1",
 																},
@@ -1816,7 +1817,7 @@ local t =
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "35",
+															height = "32",
 															ignoreSize = "True",
 															name = "Label_mod",
 															nTextAlign = "1",
@@ -1833,7 +1834,7 @@ local t =
 																PositionX = 317,
 																PositionY = 32,
 															},
-															width = "68",
+															width = "53",
 															ZOrder = "1",
 														},
 														{
@@ -1879,7 +1880,7 @@ local t =
 																PositionX = 27,
 																PositionY = 40,
 															},
-															width = "78",
+															width = "62",
 															ZOrder = "1",
 															components = 
 															{
@@ -1926,6 +1927,7 @@ local t =
 																	{
 																		PositionY = -23,
 																	},
+																	visible = "False",
 																	width = "42",
 																	ZOrder = "1",
 																},
@@ -2043,7 +2045,7 @@ local t =
 														PositionX = 745,
 														PositionY = 163,
 													},
-													width = "102",
+													width = "147",
 													ZOrder = "1",
 													components = 
 													{
@@ -2116,6 +2118,7 @@ local t =
 																PositionX = -103,
 																PositionY = -23,
 															},
+															visible = "False",
 															width = "32",
 															ZOrder = "1",
 														},
@@ -2476,8 +2479,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 196,
-										PositionY = -137,
+										PositionX = -244,
+										PositionY = -102,
 										relativeToName = "Panel_pageItem",
 										nType = 3,
 										nGravity = 6,
@@ -2586,7 +2589,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = -690,
-										PositionY = -389,
+										PositionY = -319,
 										RightPosition = 690,
 										BottomPosition = 321,
 										relativeToName = "Panel_pageItem",

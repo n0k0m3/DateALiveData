@@ -216,7 +216,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_pad_title",
 									nTextAlign = "1",
@@ -225,7 +225,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "公告",
+									text = "ประกาศ",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -233,7 +233,7 @@ local t =
 										PositionX = -492,
 										PositionY = 218,
 									},
-									width = "59",
+									width = "81",
 									ZOrder = "1",
 								},
 								{

@@ -9,12 +9,12 @@ return {
         id = 2,
         beginTime  = "00:00:09,0",
         endTime  = "00:00:10,0",
-        content  = "Was fĂźr ein seltener Anblick.",
+        content  = "Was für ein seltener Anblick.",
     },
     [3] = {
         id = 3,
         beginTime  = "00:00:11,500",
         endTime  = "00:00:16,0",
-        content  = "Wenn ich hierher gezogen werde,\ntreffe ich normalerweise niemanden auĂer dem AST.",
+        content  = "Wenn ich hierher gezogen werde,\ntreffe ich normalerweise niemanden außer dem AST.",
     },
 }

@@ -1936,7 +1936,7 @@ return {
         money = 0,
         attribute2 = 1221,
         callLimit = 1,
-        isOpen = 0,
+        isOpen = 1,
         color2 = {
             [1] = 69,
             [2] = 91,
@@ -3681,7 +3681,7 @@ return {
             },
         },
         accessdes = 0,
-        role = 106,
+        role = 109,
         callReplenish = 0,
         expitem = {
             [1] = 510101,
@@ -4632,7 +4632,7 @@ return {
             },
         },
         accessdes = 0,
-        role = 106,
+        role = 109,
         callReplenish = 0,
         expitem = {
             [1] = 510101,
@@ -4767,7 +4767,7 @@ return {
             },
         },
         accessdes = 0,
-        role = 106,
+        role = 109,
         callReplenish = 0,
         expitem = {
             [1] = 510101,

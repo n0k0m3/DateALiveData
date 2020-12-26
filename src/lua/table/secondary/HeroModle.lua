@@ -2236,7 +2236,7 @@ return {
         },
     },
     [2101012] = {
-        images = "icon/role/roleSkin/10101.png",
+        images = "icon/role/roleSkin/lvxueren.png",
         teamModelPos = {
             y = -175,
             x = 20,
@@ -2278,7 +2278,7 @@ return {
         },
     },
     [2101011] = {
-        images = "icon/role/roleSkin/10101.png",
+        images = "icon/role/roleSkin/hongxueren.png",
         teamModelPos = {
             y = -175,
             x = 20,
@@ -2320,7 +2320,7 @@ return {
         },
     },
     [2101013] = {
-        images = "icon/role/roleSkin/10101.png",
+        images = "icon/role/roleSkin/lanxueren.png",
         teamModelPos = {
             y = -175,
             x = 20,

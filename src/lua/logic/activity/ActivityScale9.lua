@@ -40,7 +40,7 @@ function ActivityScale9:initUI(ui)
 	self.uiRewards = self.root:getChildByName("Rewards")
 	self.activityTime = self.root:getChildByName("activityTime")
 	self.txt_desc = TFDirector:getChildByPath(ui,"txt_desc")
-	self.txt_desc:setText(self.data.des1)
+	self.txt_desc:setText(Utils:MultiLanguageStringDeal(self.data.des1))
 
 	self.activityTime:setText(Utils:getActivityDateString(self.data_.startTime, self.data_.endTime, self.data_.extendData.dateStyle))
 	

@@ -60,7 +60,7 @@ function AgoraTaskView:updateTaskList()
     end
 
     self.activityInfo_ = ActivityDataMgr2:getActivityInfo(self.activityId_)
-
+    dump(self.activityInfo_)
     self.taskData_ = {}
     local itemInfo = ActivityDataMgr2:getItems(self.activityId_)
     for k,v in ipairs(itemInfo) do

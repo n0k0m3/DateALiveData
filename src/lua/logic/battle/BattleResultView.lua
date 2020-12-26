@@ -1227,7 +1227,7 @@ function BattleResultView:updateReward()
         item.LoadingBar_roleExp = TFDirector:getChildByPath(item.root, "LoadingBar_roleExp")
         item.Label_exp = TFDirector:getChildByPath(item.root, "Label_exp")
         item.Image_playerIcon:setTexture(HeroDataMgr:getIconPathById(v.id, v.skinCid))
-        item.Label_level:setText("Lv."..v.lvl)
+        item.Label_level:setTextById(800006, v.lvl)
         item.Image_pinzhi:setTexture(HeroDataMgr:getQualityPic(v.id, v.quality))
 
         self.Panel_role_exps:addChild(item.root)

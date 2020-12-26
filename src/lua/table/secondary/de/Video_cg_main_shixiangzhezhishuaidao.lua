@@ -3,7 +3,7 @@ return {
         id = 1,
         beginTime  = "00:00:00,600",
         endTime  = "00:00:01,200",
-        content  = "HĂ¤? Tohka? Origami?",
+        content  = "Hä? Tohka? Origami?",
     },
     [2] = {
         id = 2,

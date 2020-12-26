@@ -233,7 +233,7 @@ local t =
 										PositionX = -200,
 										PositionY = -500,
 									},
-									width = "113",
+									width = "116",
 									ZOrder = "1",
 								},
 								{
@@ -289,11 +289,11 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 106,
+										PositionX = 100,
 										PositionY = 210,
 									},
 									UItype = "Button",
-									width = "140",
+									width = "163",
 									ZOrder = "1",
 									components = 
 									{
@@ -317,15 +317,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "18",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "21",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_goto",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -333,14 +333,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "恢复续订",
+											text = "Renouveler un abonnement",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionX = -7,
 											},
-											width = "75",
+											width = "139",
 											ZOrder = "1",
 										},
 									},
@@ -433,7 +433,7 @@ local t =
 									{
 										PositionY = 154,
 									},
-									width = "252",
+									width = "268",
 									ZOrder = "1",
 								},
 								{
@@ -478,7 +478,7 @@ local t =
 									{
 										PositionY = -265,
 									},
-									width = "165",
+									width = "158",
 									ZOrder = "1",
 								},
 								{
@@ -532,7 +532,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -548,7 +548,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "使用条款",
+											text = "CONDITIONS GÉNÉRALES",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -611,7 +611,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -627,7 +627,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "隐私协议",
+											text = "POLITIQUE DE CONFIDENTIALITÉ",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 

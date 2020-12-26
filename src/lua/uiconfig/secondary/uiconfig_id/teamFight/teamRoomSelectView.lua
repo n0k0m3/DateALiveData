@@ -70,6 +70,8 @@ local t =
 					touchAble = "True",
 					UILayoutViewModel = 
 					{
+						PositionX = -58,
+						PositionY = 34,
 						relativeToName = "Panel",
 						nType = 3,
 						nGravity = 6,
@@ -229,7 +231,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_pad_title",
 									nTextAlign = "1",
@@ -246,7 +248,7 @@ local t =
 										PositionX = -495,
 										PositionY = 225,
 									},
-									width = "113",
+									width = "227",
 									ZOrder = "1",
 								},
 								{
@@ -272,6 +274,7 @@ local t =
 										PositionX = -374,
 										PositionY = 225,
 									},
+									visible = "False",
 									width = "4",
 									ZOrder = "1",
 									components = 
@@ -319,7 +322,7 @@ local t =
 											{
 												PositionX = 10,
 											},
-											width = "61",
+											width = "57",
 											ZOrder = "1",
 										},
 									},
@@ -387,6 +390,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
+												PositionX = 1,
 												PositionY = 34,
 											},
 											uipanelviewmodel = 
@@ -526,7 +530,7 @@ local t =
 															{
 																PositionY = -70,
 															},
-															width = "63",
+															width = "84",
 															ZOrder = "1",
 														},
 														{
@@ -684,7 +688,7 @@ local t =
 															{
 																PositionY = -70,
 															},
-															width = "63",
+															width = "84",
 															ZOrder = "1",
 														},
 														{
@@ -842,7 +846,7 @@ local t =
 															{
 																PositionY = -70,
 															},
-															width = "63",
+															width = "84",
 															ZOrder = "1",
 														},
 														{
@@ -1000,7 +1004,7 @@ local t =
 															{
 																PositionY = -70,
 															},
-															width = "63",
+															width = "84",
 															ZOrder = "1",
 														},
 														{
@@ -1158,7 +1162,7 @@ local t =
 															{
 																PositionY = -70,
 															},
-															width = "63",
+															width = "84",
 															ZOrder = "1",
 														},
 														{
@@ -1316,7 +1320,7 @@ local t =
 															{
 																PositionY = -70,
 															},
-															width = "63",
+															width = "84",
 															ZOrder = "1",
 														},
 														{
@@ -1394,13 +1398,13 @@ local t =
 											anchorPoint = "False",
 											anchorPointX = "0.5",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "False",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "METextButton",
 											dstBlendFunc = "771",
 											flipX = "False",
 											flipY = "False",
 											height = "58",
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "TextButton_stop_match",
 											normal = "ui/common/button_big_n.png",
 											outlineColor = "#FF921E3F",
@@ -1419,12 +1423,12 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												PositionX = 931,
+												PositionX = 876,
 												PositionY = -35,
 											},
 											useOutline = "False",
 											useShadow = "False",
-											width = "134",
+											width = "250",
 											ZOrder = "1",
 										},
 									},
@@ -1547,7 +1551,7 @@ local t =
 									{
 										PositionY = 154,
 									},
-									width = "339",
+									width = "437",
 									ZOrder = "1",
 								},
 							},
@@ -1595,7 +1599,7 @@ local t =
 								PositionX = 580,
 								PositionY = 221,
 							},
-							width = "51",
+							width = "93",
 							ZOrder = "1",
 						},
 					},

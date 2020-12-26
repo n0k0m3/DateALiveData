@@ -1,12 +1,12 @@
 --用于海外多语言脚本资源处理相关
-TFGlobalUtils = TFGlobalUtils or {}
+TFGlobalUtils = class('TFGlobalUtils')
 
 GLOBAL_SERVER_LIST = {}
 GLOBAL_SERVER_LIST.SERVER_UNKNOW = 0
 GLOBAL_SERVER_LIST.SERVER_NIMILANGUAGE = 1  --小语种服连接标示
 GLOBAL_SERVER_LIST.SERVER_ENGLISH = 2 --英文服连接标示
 
-OPEN_NIMILANGUAGE_SERVER = false
+OPEN_NIMILANGUAGE_SERVER = true
 if CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 then
 	OPEN_NIMILANGUAGE_SERVER = true
 end
@@ -147,6 +147,7 @@ end
 function TFGlobalUtils:setCacheServer( value )
 	if value == nil then return  end
 	CCUserDefault:sharedUserDefault():setIntegerForKey(KEY_CACHE_SERVER_KEY, value)
+	CCUserDefault:sharedUserDefault():flush()
 end
 
 function TFGlobalUtils:isConnectMiniServer( )
@@ -166,7 +167,7 @@ function TFGlobalUtils:getPlayerServerIdx( )
 		return GLOBAL_SERVER_LIST.SERVER_ENGLISH
 	end
     
-    if OPEN_NIMILANGUAGE_SERVER then
+    if OPEN_NIMILANGUAGE_SERVER then  
     	return GLOBAL_SERVER_LIST.SERVER_NIMILANGUAGE
     end
     return GLOBAL_SERVER_LIST.SERVER_ENGLISH

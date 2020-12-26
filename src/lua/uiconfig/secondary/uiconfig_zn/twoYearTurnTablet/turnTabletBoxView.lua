@@ -1,0 +1,570 @@
+local t = 
+{
+	version = 1,
+	components = 
+	{
+		
+		{
+			controlID = "Panel-turnTabletBoxView_Layer1_twoYearTurnTablet_Game",
+			UUID = "6674fd0f_c3b4_463e_a57a_b6884d60fdca",
+			anchorPoint = "False",
+			anchorPointX = "0",
+			anchorPointY = "0",
+			backGroundScale9Enable = "False",
+			bgColorOpacity = "50",
+			bIsOpenClipping = "False",
+			classname = "MEPanel",
+			colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+			DesignHeight = "640",
+			DesignType = "0",
+			DesignWidth = "960",
+			dstBlendFunc = "771",
+			height = "710",
+			ignoreSize = "False",
+			name = "Panel",
+			PanelRelativeSizeModel = 
+			{
+				PanelRelativeEnable = true,
+			},
+			sizepercentx = "100",
+			sizepercenty = "100",
+			sizeType = "1",
+			srcBlendFunc = "1",
+			touchAble = "False",
+			UILayoutViewModel = 
+			{
+				nType = 3,
+			},
+			uipanelviewmodel = 
+			{
+				Layout="Relative",
+				nType = "3"
+			},
+			width = "1020",
+			ZOrder = "1",
+			components = 
+			{
+				
+				{
+					controlID = "Panel_root_Panel-turnTabletBoxView_Layer1_twoYearTurnTablet_Game",
+					UUID = "ae4ecef8_9918_476d_a2c4_f3a7ce472ef0",
+					anchorPoint = "False",
+					anchorPointX = "0.5",
+					anchorPointY = "0.5",
+					backGroundScale9Enable = "False",
+					bgColorOpacity = "50",
+					bIsOpenClipping = "False",
+					classname = "MEPanel",
+					colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+					DesignHeight = "640",
+					DesignType = "0",
+					DesignWidth = "960",
+					dstBlendFunc = "771",
+					height = "640",
+					ignoreSize = "False",
+					name = "Panel_root",
+					sizepercentx = "0",
+					sizepercenty = "0",
+					sizeType = "0",
+					srcBlendFunc = "1",
+					touchAble = "False",
+					UILayoutViewModel = 
+					{
+						PositionX = 510,
+						PositionY = 354,
+						relativeToName = "Panel",
+						nType = 3,
+						nGravity = 6,
+						nAlign = 5
+					},
+					uipanelviewmodel = 
+					{
+						Layout="Absolute",
+						nType = "0"
+					},
+					width = "1136",
+					ZOrder = "1",
+					components = 
+					{
+						
+						{
+							controlID = "Image_bg_Panel_root_Panel-turnTabletBoxView_Layer1_twoYearTurnTablet_Game",
+							UUID = "f6e0ccef_78a3_4b25_b57d_0a5f6dbd13cd",
+							anchorPoint = "False",
+							anchorPointX = "0.5",
+							anchorPointY = "0.5",
+							backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
+							classname = "MEImage",
+							dstBlendFunc = "771",
+							height = "350",
+							ignoreSize = "False",
+							name = "Image_bg",
+							sizepercentx = "100",
+							sizepercenty = "100",
+							sizeType = "0",
+							srcBlendFunc = "1",
+							texturePath = "ui/turnTabletGame/12.png",
+							touchAble = "True",
+							UILayoutViewModel = 
+							{
+								relativeToName = "Panel_root",
+								nGravity = 6,
+								nAlign = 5
+							},
+							width = "600",
+							ZOrder = "1",
+							components = 
+							{
+								
+								{
+									controlID = "Button_close_Image_bg_Panel_root_Panel-turnTabletBoxView_Layer1_twoYearTurnTablet_Game",
+									UUID = "22fec1b3_fa5c_429f_9991_3bbf54b9130f",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MEButton",
+									ClickHighLightEnabled = "True",
+									dstBlendFunc = "771",
+									flipX = "False",
+									flipY = "False",
+									height = "28",
+									ignoreSize = "True",
+									name = "Button_close",
+									normal = "ui/turnTabletGame/11.png",
+									pressed = "ui/turnTabletGame/11.png",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									touchAble = "True",
+									UILayoutViewModel = 
+									{
+										PositionX = 269,
+										PositionY = 147,
+									},
+									UItype = "Button",
+									width = "28",
+									ZOrder = "1",
+								},
+								{
+									controlID = "Label_title_Image_bg_Panel_root_Panel-turnTabletBoxView_Layer1_twoYearTurnTablet_Game",
+									UUID = "195ba33b_5e35_4fc5_bac3_a97e4882531b",
+									anchorPoint = "False",
+									anchorPointX = "0",
+									anchorPointY = "0.5",
+									classname = "MELabel",
+									compPath = "luacomponents.common.MEIconLabel",
+									dstBlendFunc = "771",
+									FontColor = "#FF30354A",
+									fontName = "font/MFLiHei_Noncommercial.ttf",
+									fontShadow = 
+									{
+										IsShadow = false,
+										ShadowColor = "#FFFFFFFF",
+										ShadowAlpha = 255,
+										OffsetX = 0,
+										OffsetY = 0,
+									},
+									fontSize = "30",
+									fontStroke = 
+									{
+										IsStroke = false,
+										StrokeColor = "#FFE6E6E6",
+										StrokeSize = 1,
+									},
+									height = "37",
+									ignoreSize = "True",
+									name = "Label_title",
+									nTextAlign = "1",
+									nTextHAlign = "1",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "770",
+									text = "提示",
+									touchAble = "False",
+									touchScaleEnable = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = -282,
+										PositionY = 144,
+									},
+									width = "62",
+									ZOrder = "1",
+								},
+								{
+									controlID = "Label_title2-Copy1_Image_bg_Panel_root_Panel-turnTabletBoxView_Layer1_twoYearTurnTablet_Game",
+									UUID = "cbec6631_3655_4aa6_a4f6_b5bb618f5beb",
+									anchorPoint = "False",
+									anchorPointX = "0",
+									anchorPointY = "0.5",
+									classname = "MELabel",
+									compPath = "luacomponents.common.MEIconLabel",
+									dstBlendFunc = "771",
+									FontColor = "#FF30354A",
+									fontName = "font/fangzheng_zhunyuan.ttf",
+									fontShadow = 
+									{
+										IsShadow = false,
+										ShadowColor = "#FFFFFFFF",
+										ShadowAlpha = 255,
+										OffsetX = 0,
+										OffsetY = 0,
+									},
+									fontSize = "20",
+									fontStroke = 
+									{
+										IsStroke = false,
+										StrokeColor = "#FFE6E6E6",
+										StrokeSize = 1,
+									},
+									height = "23",
+									ignoreSize = "True",
+									name = "Label_title2-Copy1",
+									nTextAlign = "1",
+									nTextHAlign = "1",
+									scaleY = "1.5",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "770",
+									text = "l",
+									touchAble = "False",
+									touchScaleEnable = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = -218,
+										PositionY = 141,
+									},
+									width = "6",
+									ZOrder = "1",
+								},
+								{
+									controlID = "Label_title2_Image_bg_Panel_root_Panel-turnTabletBoxView_Layer1_twoYearTurnTablet_Game",
+									UUID = "1712f9ca_e335_4723_bbdf_a3e742b1a1dd",
+									anchorPoint = "False",
+									anchorPointX = "0",
+									anchorPointY = "0.5",
+									classname = "MELabel",
+									compPath = "luacomponents.common.MEIconLabel",
+									dstBlendFunc = "771",
+									FontColor = "#FF30354A",
+									fontName = "font/fangzheng_zhunyuan.ttf",
+									fontShadow = 
+									{
+										IsShadow = false,
+										ShadowColor = "#FFFFFFFF",
+										ShadowAlpha = 255,
+										OffsetX = 0,
+										OffsetY = 0,
+									},
+									fontSize = "15",
+									fontStroke = 
+									{
+										IsStroke = false,
+										StrokeColor = "#FFE6E6E6",
+										StrokeSize = 1,
+									},
+									height = "17",
+									ignoreSize = "True",
+									name = "Label_title2",
+									nTextAlign = "1",
+									nTextHAlign = "1",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "770",
+									text = "Infomation",
+									touchAble = "False",
+									touchScaleEnable = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = -210,
+										PositionY = 138,
+									},
+									width = "69",
+									ZOrder = "1",
+								},
+								{
+									controlID = "lab_content_Image_bg_Panel_root_Panel-turnTabletBoxView_Layer1_twoYearTurnTablet_Game",
+									UUID = "99a710c5_91b2_4ff7_b166_e37ad1bb1654",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									classname = "MELabel",
+									compPath = "luacomponents.common.MEIconLabel",
+									dstBlendFunc = "771",
+									FontColor = "#FF000000",
+									fontName = "font/fangzheng_zhunyuan.ttf",
+									fontShadow = 
+									{
+										IsShadow = false,
+										ShadowColor = "#FFFFFFFF",
+										ShadowAlpha = 255,
+										OffsetX = 0,
+										OffsetY = 0,
+									},
+									fontSize = "28",
+									fontStroke = 
+									{
+										IsStroke = false,
+										StrokeColor = "#FFE6E6E6",
+										StrokeSize = 1,
+									},
+									height = "32",
+									ignoreSize = "True",
+									name = "lab_content",
+									nTextAlign = "1",
+									nTextHAlign = "1",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "770",
+									text = "当前已获得本层通关奖励，是否前往下一层？",
+									touchAble = "False",
+									touchScaleEnable = "False",
+									UILayoutViewModel = 
+									{
+										PositionY = 63,
+									},
+									width = "549",
+									ZOrder = "1",
+								},
+								{
+									controlID = "lab_contentTip_Image_bg_Panel_root_Panel-turnTabletBoxView_Layer1_twoYearTurnTablet_Game",
+									UUID = "76320b03_5566_4e85_a23b_bb6e48144631",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									classname = "MELabel",
+									compPath = "luacomponents.common.MEIconLabel",
+									dstBlendFunc = "771",
+									FontColor = "#FFFF0000",
+									fontName = "font/fangzheng_zhunyuan.ttf",
+									fontShadow = 
+									{
+										IsShadow = false,
+										ShadowColor = "#FFFFFFFF",
+										ShadowAlpha = 255,
+										OffsetX = 0,
+										OffsetY = 0,
+									},
+									fontSize = "28",
+									fontStroke = 
+									{
+										IsStroke = false,
+										StrokeColor = "#FFE6E6E6",
+										StrokeSize = 1,
+									},
+									height = "32",
+									ignoreSize = "True",
+									name = "lab_contentTip",
+									nTextAlign = "1",
+									nTextHAlign = "1",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "770",
+									text = "（前往下一层将丢失本层翻牌进度）",
+									touchAble = "False",
+									touchScaleEnable = "False",
+									UILayoutViewModel = 
+									{
+										PositionY = -10,
+									},
+									width = "439",
+									ZOrder = "1",
+								},
+								{
+									controlID = "btn_cancel_Image_bg_Panel_root_Panel-turnTabletBoxView_Layer1_twoYearTurnTablet_Game",
+									UUID = "e196c332_2940_4b6c_9aa8_c00fa587f40b",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
+									classname = "MEButton",
+									ClickHighLightEnabled = "True",
+									dstBlendFunc = "771",
+									flipX = "False",
+									flipY = "False",
+									height = "60",
+									ignoreSize = "False",
+									name = "btn_cancel",
+									normal = "ui/common/button09.png",
+									pressed = "ui/common/button09.png",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									touchAble = "True",
+									UILayoutViewModel = 
+									{
+										PositionX = 161,
+										PositionY = -121,
+									},
+									UItype = "Button",
+									width = "140",
+									ZOrder = "1",
+									components = 
+									{
+										
+										{
+											controlID = "Label_ok_btn_cancel_Image_bg_Panel_root_Panel-turnTabletBoxView_Layer1_twoYearTurnTablet_Game",
+											UUID = "f75e5802_cc43_491c_8001_c179f6314e68",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											classname = "MELabel",
+											compPath = "luacomponents.common.MEIconLabel",
+											dstBlendFunc = "771",
+											FontColor = "#FFFFFFFF",
+											fontName = "font/fangzheng_zhunyuan.ttf",
+											fontShadow = 
+											{
+												IsShadow = false,
+												ShadowColor = "#FFFFFFFF",
+												ShadowAlpha = 255,
+												OffsetX = 0,
+												OffsetY = 0,
+											},
+											fontSize = "28",
+											fontStroke = 
+											{
+												IsStroke = false,
+												StrokeColor = "#FFE6E6E6",
+												StrokeSize = 1,
+											},
+											height = "32",
+											ignoreSize = "True",
+											name = "Label_ok",
+											nTextAlign = "1",
+											nTextHAlign = "1",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "770",
+											text = "取消",
+											touchAble = "False",
+											touchScaleEnable = "False",
+											UILayoutViewModel = 
+											{
+												PositionY = -1,
+											},
+											width = "58",
+											ZOrder = "1",
+										},
+									},
+								},
+								{
+									controlID = "btn_ok_Image_bg_Panel_root_Panel-turnTabletBoxView_Layer1_twoYearTurnTablet_Game",
+									UUID = "cd784ac7_c9ed_4042_bb89_5a5b3b00471d",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
+									classname = "MEButton",
+									ClickHighLightEnabled = "True",
+									dstBlendFunc = "771",
+									flipX = "False",
+									flipY = "False",
+									height = "60",
+									ignoreSize = "False",
+									name = "btn_ok",
+									normal = "ui/common/button_small_blue.png",
+									pressed = "ui/common/button_small_blue.png",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									touchAble = "True",
+									UILayoutViewModel = 
+									{
+										PositionX = -161,
+										PositionY = -121,
+									},
+									UItype = "Button",
+									width = "140",
+									ZOrder = "1",
+									components = 
+									{
+										
+										{
+											controlID = "Label_ok_btn_ok_Image_bg_Panel_root_Panel-turnTabletBoxView_Layer1_twoYearTurnTablet_Game",
+											UUID = "071127d5_77aa_4665_b026_91cbfd215e19",
+											anchorPoint = "False",
+											anchorPointX = "0.5",
+											anchorPointY = "0.5",
+											classname = "MELabel",
+											compPath = "luacomponents.common.MEIconLabel",
+											dstBlendFunc = "771",
+											FontColor = "#FFFFFFFF",
+											fontName = "font/fangzheng_zhunyuan.ttf",
+											fontShadow = 
+											{
+												IsShadow = false,
+												ShadowColor = "#FFFFFFFF",
+												ShadowAlpha = 255,
+												OffsetX = 0,
+												OffsetY = 0,
+											},
+											fontSize = "28",
+											fontStroke = 
+											{
+												IsStroke = false,
+												StrokeColor = "#FFE6E6E6",
+												StrokeSize = 1,
+											},
+											height = "32",
+											ignoreSize = "True",
+											name = "Label_ok",
+											nTextAlign = "1",
+											nTextHAlign = "1",
+											sizepercentx = "0",
+											sizepercenty = "0",
+											sizeType = "0",
+											srcBlendFunc = "770",
+											text = "确认",
+											touchAble = "False",
+											touchScaleEnable = "False",
+											UILayoutViewModel = 
+											{
+												PositionY = -1,
+											},
+											width = "59",
+											ZOrder = "1",
+										},
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+	},
+	actions = 
+	{
+		
+	},
+	respaths = 
+	{
+		textures = 
+		{
+			"ui/turnTabletGame/12.png",
+			"ui/turnTabletGame/11.png",
+			"ui/common/button09.png",
+			"ui/common/button_small_blue.png",
+		},
+		armatures = 
+		{
+			
+		},
+		movieclips = 
+		{
+			
+		},
+	},
+}
+return t
+

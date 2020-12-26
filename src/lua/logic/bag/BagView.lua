@@ -2154,6 +2154,7 @@ function BagView:onItemSellEvent(reward)
     Utils:showReward(reward)
 end
 
+--加个备注测试热更新
 function BagView:onRecoverItem( data )
     if data and data.itemList and #data.itemList > 0 then
         Utils:openView("bag.RecoverItemView",data)

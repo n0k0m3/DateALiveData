@@ -212,7 +212,7 @@ local t =
 											{
 												PositionX = -17,
 											},
-											width = "50",
+											width = "54",
 											ZOrder = "1",
 										},
 									},
@@ -330,7 +330,7 @@ local t =
 							controlID = "Label_tip_Panel_base_Panel-LoadView_Layer1_load_Game",
 							UUID = "8117be68_35d5_4f91_9e8e_6a3171737a45",
 							anchorPoint = "False",
-							anchorPointX = "0.5",
+							anchorPointX = "0",
 							anchorPointY = "0.5",
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
@@ -355,8 +355,8 @@ local t =
 							height = "0",
 							ignoreSize = "False",
 							name = "Label_tip",
-							nTextAlign = "1",
-							nTextHAlign = "1",
+							nTextAlign = "0",
+							nTextHAlign = "0",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
@@ -366,10 +366,10 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 591,
+								PositionX = 124,
 								PositionY = 32,
 							},
-							width = "600",
+							width = "1000",
 							ZOrder = "1",
 						},
 						{
@@ -418,7 +418,7 @@ local t =
 								PercentX = 47.61,
 								PercentY = 37.54,
 							},
-							width = "72",
+							width = "71",
 							ZOrder = "1",
 						},
 						{
@@ -709,7 +709,7 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 27,
+														PositionX = -7,
 														PositionY = -3,
 													},
 													width = "78",
@@ -719,7 +719,7 @@ local t =
 													controlID = "Label_leader_Image_leader_parent_Image_front_Panel_role1_Panel_base_Panel-LoadView_Layer1_load_Game",
 													UUID = "04014ba2_e1b2_453a_96c1_9a0cd8914b6a",
 													anchorPoint = "False",
-													anchorPointX = "0.5",
+													anchorPointX = "0",
 													anchorPointY = "0.5",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
@@ -755,10 +755,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 72,
+														PositionX = 14,
 														PositionY = -5,
 													},
-													width = "74",
+													width = "85",
 													ZOrder = "1",
 												},
 											},
@@ -862,7 +862,7 @@ local t =
 											{
 												PositionX = 14,
 											},
-											width = "32",
+											width = "31",
 											ZOrder = "1",
 											components = 
 											{
@@ -910,7 +910,7 @@ local t =
 														PositionX = 6,
 														PositionY = -3,
 													},
-													width = "13",
+													width = "12",
 													ZOrder = "1",
 												},
 											},
@@ -1015,7 +1015,7 @@ local t =
 										PositionX = 110,
 										PositionY = 58,
 									},
-									width = "107",
+									width = "98",
 									ZOrder = "1",
 								},
 								{

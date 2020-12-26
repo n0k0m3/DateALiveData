@@ -64,9 +64,10 @@ end
 function TokenPopView:initUI(ui)
     self.super.initUI(self,ui) 
 
-	self.Image_tokenPopView_1 = ui:getChildByName("Image_tokenPopView_1")
+    local Panel_bottom = ui:getChildByName("pannelbottom")
+	self.Image_tokenPopView_1 = Panel_bottom:getChildByName("Image_tokenPopView_1")
 	self.Image_tokenPopView_1:setVisible(true)
-	self.Image_tokenPopView_2 = ui:getChildByName("Image_tokenPopView_2")
+	self.Image_tokenPopView_2 = Panel_bottom:getChildByName("Image_tokenPopView_2")
 	self.Image_tokenPopView_2:setVisible(false)
 
     self.listView = UIListView:create(self._ui.listview)

@@ -60,6 +60,8 @@ function SummonActivityView:initUI( ui )
 	local own_prop = TFDirector:getChildByPath(ui,"own_prop")
 	self.ownPropIcon = TFDirector:getChildByPath(own_prop,"Image_icon")
 	self.ownNum = TFDirector:getChildByPath(own_prop,"Label_num")
+    
+    self.image_bg:show()
 
     self:refreshView()
     self:updateSummonInfo()
@@ -315,9 +317,7 @@ function SummonActivityView:updateSummonInfo(  )
 
     self.label_activityTime:setText("")
     if self.activityInfo.startTime and self.activityInfo.endTime then
-        local startShow = TFDate(self.activityInfo.startTime):tolocal():fmt("%Y.%m.%d")
-        local endShow = TFDate(self.activityInfo.endTime):tolocal():fmt("%Y.%m.%d")
-        self.label_activityTime:setTextById(14300100, startShow, endShow)
+        self.label_activityTime:setText(Utils:getActivityDateString(self.activityInfo.startTime, self.activityInfo.endTime))
     end
     local costCfg = GoodsDataMgr:getItemCfg(ownCostId)
     self.ownPropIcon:setTexture(costCfg.icon)

@@ -47,26 +47,36 @@ function TFAssetsManager:init( tag )
 	else
 		self.extAssetsSavePath = writablePath .. "../Library/TFDebug/"
 		-- if VERSION_DEBUG == true then
-		-- 	self.remoteUrl = {
+		-- 	self.remoteUrlList = {
 		-- 		[1] = "http://192.168.10.110/test/"..self.baseAppVersion.."/",
 		-- 		[2] = "http://192.168.10.110/test/"..self.baseAppVersion.."/",
 		-- 	}
 		-- end
 	end
 
-	self.remoteUrl = {}
+	self.tag = tag or 1
+
+	self.remoteUrlIdx = 1
+	self.remoteUrlList = {}
 	for _,_url in ipairs(URL_REMOTE) do
-		table.insert(self.remoteUrl, _url ..self.baseAppVersion.."/")
+		table.insert(self.remoteUrlList, _url ..self.baseAppVersion.."/")
+		table.insert(self.remoteUrlList, _url ..self.baseAppVersion.."/")
+	end
+	self.remoteUrlBasicList = {}
+	for _,_url in ipairs(URL_REMOTE) do
+		table.insert(self.remoteUrlBasicList, _url ..self.baseAppVersion.."/" .."%s.awb")
+		table.insert(self.remoteUrlBasicList, _url ..self.baseAppVersion.."/" .."%s.awb")
+	end
+
+	self.extListFileList = {}
+	for _,_url in ipairs(URL_REMOTE) do
+		table.insert(self.extListFileList, "extlist.json")
+		table.insert(self.extListFileList, "extlist.bin")
 	end
 
 	if TFFileUtil:existFile(self.extAssetsSavePath) == false then
 		TFFileUtil:createDir(self.extAssetsSavePath)
 	end
-	self.remoteUrlIdx = 1
-	self.remoteUrlBasic = self.remoteUrl[self.remoteUrlIdx].."%s.awb"
-	self.remoteListUrl = self.remoteUrl[self.remoteUrlIdx].."extlist.json"
-
-	self.tag = tag or 1
 end
 
 function TFAssetsManager:getCheckInfo(series,param)
@@ -89,12 +99,9 @@ function TFAssetsManager:getCheckInfo(series,param)
 end
 
 function TFAssetsManager:getRemoteFileList(bReTry)
-	local cfgName = "extlist.json"
-	if bReTry == true then
-		cfgName = "extlist.bin"
-	end
+	local cfgName = self.extListFileList[self.remoteUrlIdx]
 	local task = {
-			url = self.remoteListUrl,
+			url = self.remoteUrlList[self.remoteUrlIdx] ..cfgName,
 			fileName = cfgName,
 			folderPath = self.extAssetsSavePath,
 			autoRetryTimes = 3,
@@ -121,24 +128,16 @@ end
 
 function TFAssetsManager:retryGetRemoteList()
 	self.remoteUrlIdx = self.remoteUrlIdx + 1
-	if self.remoteUrl[self.remoteUrlIdx] then
-		self.remoteUrlBasic = self.remoteUrl[self.remoteUrlIdx].."%s.awb"
-		self.remoteListUrl = self.remoteUrl[self.remoteUrlIdx].."extlist.bin"
-		self:getRemoteFileList(true)
-	else
+	if self.remoteUrlIdx > #self.remoteUrlList then
 		self.remoteUrlIdx = 1
-		self.remoteUrlBasic = self.remoteUrl[self.remoteUrlIdx].."%s.awb"
-		self.remoteListUrl = self.remoteUrl[self.remoteUrlIdx].."extlist.bin"
-		self:getRemoteFileList(true)
 	end
+
+	self:getRemoteFileList(true)
 	EventMgr:dispatchEvent(EV_EXT_ASSET_DOWNLOAD_RETRY_EXTLIST)
 end
 
 function TFAssetsManager:onRemoteListGot(bReTry)
-	local cfgName = "extlist.json"
-	if bReTry == true then
-		cfgName = "extlist.bin"
-	end
+	local cfgName = self.extListFileList[self.remoteUrlIdx]
 	local jsonContent = io.readfile(self.extAssetsSavePath..cfgName)
 	self.remoteListDict = json.decode(jsonContent)
 	if self.remoteListDict == nil then
@@ -176,6 +175,7 @@ function TFAssetsManager:getAllCfgFileList()
 	allExtFileList[703] = 1;
 	allExtFileList[303] = 1;
 	allExtFileList[305] = 1;
+	allExtFileList[999] = 1;   --添加英文版补充资源
 	-- if tonumber(TFDeviceInfo:getCurAppVersion()) >= 3.65 then
 	--     --下载默认分包999
 	-- 	allExtFileList[999] = 1;
@@ -385,6 +385,7 @@ function TFAssetsManager:downloadAssetsOfFunc(funcId,callback,isconfirm)
 	for k,v in pairs(funcAssetsList) do
 		checkList[v] = 1
 	end
+	checkList[999] = 1
 	
 	if extHeroCfg then
 		for k,v in pairs(extHeroCfg) do
@@ -622,10 +623,11 @@ function TFAssetsManager:priorityDownload(downloadList)
 end
 
 function TFAssetsManager:handleTaskList(downloadList)
+	local remoteUrlBasic = self.remoteUrlBasicList[self.remoteUrlIdx]
 	local downloadQuene = {}
 	for k,v in pairs(downloadList) do
 		local task = {
-			url = string.format(self.remoteUrlBasic,v),
+			url = string.format(remoteUrlBasic,v),
 			fileName = string.format("%s.temp",v),
 			folderPath = self.extAssetsSavePath,
 			autoRetryTimes = 0,
@@ -824,15 +826,15 @@ function TFAssetsManager:loadAssetFile( id, downLoad )
 	self.loadedAssetFile = self.loadedAssetFile or {}
 	if self.loadedAssetFile[id] then return end
 
-	if (not downLoad) and self:getLoadedSucAwbFile(id) <= 0 then
-		local awbpath = string.format("%s%d.awb", self.extAssetsSavePath, id)
-		if TFFileUtil:existFile(awbpath) then
-			os.remove(awbpath)
-		end
-	end
-	self:setLoadedSucAwbFile(id, 0)
+	-- if (not downLoad) and self:getLoadedSucAwbFile(id) <= 0 then
+	-- 	local awbpath = string.format("%s%d.awb", self.extAssetsSavePath, id)
+	-- 	if TFFileUtil:existFile(awbpath) then
+	-- 		os.remove(awbpath)
+	-- 	end
+	-- end
+	-- self:setLoadedSucAwbFile(id, 0)
 	MEAssetsBundle:defaultBundle():load(string.format("%d.awb", id))
-	self:setLoadedSucAwbFile(id, 1)
+	--self:setLoadedSucAwbFile(id, 1)
 	self.loadedAssetFile[id] = true
 end
 
@@ -841,6 +843,7 @@ function TFAssetsManager:setLoadedSucAwbFile( id, value )
 	if id and (id > 0) then
 		KEY_LOADED_AWB_FILE = KEY_LOADED_AWB_FILE ..id
 		CCUserDefault:sharedUserDefault():setIntegerForKey(KEY_LOADED_AWB_FILE, value)
+		CCUserDefault:sharedUserDefault():flush()
 	end
 end
 
@@ -853,24 +856,21 @@ function TFAssetsManager:getLoadedSucAwbFile( id )
 end
 
 function TFAssetsManager:checkCdnAndUrlUpdate(url )
-    self.connectedArray:push(url)
-    local time = 0
-    for urlValue in self.connectedArray:iterator() do
-        if urlValue == url then
-            time = time + 1
-        end
-    end
+    -- self.connectedArray:push(url)
+    -- local time = 0
+    -- for urlValue in self.connectedArray:iterator() do
+    --     if urlValue == url then
+    --         time = time + 1
+    --     end
+    -- end
 
-    if HeitaoSdk and time <= 1 then
-        if tonumber(TFDeviceInfo:getCurAppVersion()) >= 1.15 and CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID then
-            local tfUrl = require("TFFramework.net.TFUrl")
-            if tfUrl then
-            	local parsed_url = tfUrl.parse(url)
-            	HeitaoSdk.reportNetworkData(parsed_url.host)
-            end
-        end
-        
-    end
+    -- if HeitaoSdk and time <= 1 then
+    --     local tfUrl = require("TFFramework.net.TFUrl")
+    --     if tfUrl then
+    --     	local parsed_url = tfUrl.parse(url)
+    --     	HeitaoSdk.reportNetworkData(parsed_url.host)
+    --     end
+    -- end
 end
 
 return TFAssetsManager

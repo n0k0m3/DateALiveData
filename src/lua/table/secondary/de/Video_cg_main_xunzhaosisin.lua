@@ -15,7 +15,7 @@ return {
         id = 3,
         beginTime  = "00:00:08,410",
         endTime  = "00:00:10,210",
-        content  = "Wo ist deine Puppe?\nKรถnnte das das sein, wonach du suchst?",
+        content  = "Wo ist deine Puppe?\nKönnte das das sein, wonach du suchst?",
     },
     [4] = {
         id = 4,

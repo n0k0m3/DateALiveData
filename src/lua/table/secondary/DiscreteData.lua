@@ -3386,8 +3386,9 @@ return {
             sort = {
                 [1] = 1,
                 [2] = 2,
+                [3] = 4,
             },
-            defaultSelect = 1,
+            defaultSelect = 4,
         },
     },
     [46029] = {

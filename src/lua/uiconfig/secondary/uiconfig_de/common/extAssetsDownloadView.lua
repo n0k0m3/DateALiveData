@@ -200,7 +200,7 @@ local t =
 									controlID = "Label_speed_LoadingBar_process_Panel_root_Panel-extAssetsDownloadView_Layer1_common_Game",
 									UUID = "a4eab8b1_79a9_46cf_a8a0_e30c1f69e694",
 									anchorPoint = "False",
-									anchorPointX = "0.5",
+									anchorPointX = "0",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
@@ -238,7 +238,7 @@ local t =
 									{
 										PositionY = 20,
 									},
-									width = "52",
+									width = "54",
 									ZOrder = "1",
 								},
 								{
@@ -281,10 +281,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -388,
+										PositionX = -173,
 										PositionY = 19,
 									},
-									width = "44",
+									width = "49",
 									ZOrder = "1",
 								},
 							},
@@ -332,7 +332,7 @@ local t =
 								PositionX = 127,
 								PositionY = 29,
 							},
-							width = "147",
+							width = "351",
 							ZOrder = "1",
 						},
 					},

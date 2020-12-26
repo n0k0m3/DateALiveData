@@ -222,7 +222,7 @@ local t =
 												PositionX = -142,
 												PositionY = -2,
 											},
-											width = "202",
+											width = "215",
 											ZOrder = "1",
 										},
 										{
@@ -265,10 +265,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 131,
-												PositionY = -6,
+												PositionX = 47,
+												PositionY = -38,
 											},
-											width = "215",
+											width = "213",
 											ZOrder = "1",
 										},
 									},
@@ -635,7 +635,7 @@ local t =
 												PositionX = -26,
 												PositionY = 430,
 											},
-											width = "232",
+											width = "252",
 											ZOrder = "1",
 										},
 										{
@@ -734,7 +734,7 @@ local t =
 													{
 														PositionX = -4,
 													},
-													width = "26",
+													width = "25",
 													ZOrder = "1",
 												},
 											},
@@ -764,7 +764,7 @@ local t =
 												StrokeSize = 1,
 											},
 											hAlignment = "0",
-											height = "130",
+											height = "0",
 											ignoreSize = "False",
 											name = "TextArea_desc",
 											sizepercentx = "0",
@@ -965,10 +965,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -90,
-														PositionY = 17,
+														PositionX = 3,
+														PositionY = 37,
 													},
-													width = "44",
+													width = "43",
 													ZOrder = "1",
 												},
 												{
@@ -1037,10 +1037,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 90,
+														PositionX = 80,
 														PositionY = 25,
 													},
-													width = "59",
+													width = "58",
 													ZOrder = "1",
 												},
 											},
@@ -1077,7 +1077,7 @@ local t =
 													controlID = "Label_times_txt_Image_residue_Panel_level_info_Panel_level_sel_Panel_root_Panel-teamLevelSelView_Layer1_teamFight_Game",
 													UUID = "5b577b8d_27bf_4007_af1c_1ee559474cf2",
 													anchorPoint = "False",
-													anchorPointX = "0",
+													anchorPointX = "1",
 													anchorPointY = "0.5",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
@@ -1113,10 +1113,9 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -185,
-														PositionY = -7,
+														PositionX = 47,
 													},
-													width = "228",
+													width = "214",
 													ZOrder = "1",
 												},
 												{
@@ -1160,9 +1159,8 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = 49,
-														PositionY = 2,
 													},
-													width = "38",
+													width = "37",
 													ZOrder = "1",
 												},
 												{
@@ -1342,7 +1340,7 @@ local t =
 														PositionX = 95,
 														PositionY = -10,
 													},
-													width = "63",
+													width = "66",
 													ZOrder = "1",
 												},
 												{

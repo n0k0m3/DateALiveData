@@ -2621,7 +2621,7 @@ local t =
 														PositionY = 2,
 													},
 													visible = "False",
-													width = "0",
+													width = "55",
 													ZOrder = "1",
 												},
 												{
@@ -3181,7 +3181,7 @@ local t =
 												PositionX = 26,
 												PositionY = -15,
 											},
-											width = "63",
+											width = "62",
 											ZOrder = "1",
 										},
 										{
@@ -3483,7 +3483,7 @@ local t =
 										PositionX = 40,
 										PositionY = 40,
 									},
-									width = "24",
+									width = "23",
 									ZOrder = "1",
 								},
 								{

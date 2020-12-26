@@ -3,6 +3,6 @@ return {
         id = 1,
         beginTime  = "00:00:02,0",
         endTime  = "00:00:05,0",
-        content  = "ยกManos a la obra, Haniel!",
+        content  = "¡Manos a la obra, Haniel!",
     },
 }

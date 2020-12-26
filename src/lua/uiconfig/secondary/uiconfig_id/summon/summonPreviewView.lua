@@ -182,7 +182,7 @@ local t =
 										PositionX = -355,
 										PositionY = 182,
 									},
-									width = "231",
+									width = "254",
 									ZOrder = "1",
 								},
 								{
@@ -256,7 +256,7 @@ local t =
 										PositionY = 176,
 									},
 									visible = "False",
-									width = "122",
+									width = "120",
 									ZOrder = "1",
 								},
 								{
@@ -1062,7 +1062,7 @@ local t =
 									{
 										PositionY = -2,
 									},
-									width = "126",
+									width = "141",
 									ZOrder = "1",
 								},
 							},
@@ -1227,7 +1227,7 @@ local t =
 										PositionX = -99,
 										PositionY = 27,
 									},
-									width = "152",
+									width = "146",
 									ZOrder = "1",
 								},
 							},
@@ -1350,18 +1350,18 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "18",
+									fontSize = "15",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "21",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_attrTitle",
 									nTextAlign = "1",
-									nTextHAlign = "1",
+									nTextHAlign = "0",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -1373,7 +1373,7 @@ local t =
 									{
 										PositionX = -198,
 									},
-									width = "139",
+									width = "300",
 									ZOrder = "1",
 								},
 								{
@@ -1419,7 +1419,7 @@ local t =
 										PositionX = 210,
 										PositionY = -3,
 									},
-									width = "65",
+									width = "61",
 									ZOrder = "1",
 								},
 								{
@@ -1560,18 +1560,18 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "18",
+									fontSize = "15",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "21",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_attrTitle",
 									nTextAlign = "1",
-									nTextHAlign = "1",
+									nTextHAlign = "0",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -1583,7 +1583,7 @@ local t =
 									{
 										PositionX = -198,
 									},
-									width = "139",
+									width = "300",
 									ZOrder = "1",
 								},
 								{
@@ -1629,7 +1629,7 @@ local t =
 										PositionX = 210,
 										PositionY = -3,
 									},
-									width = "65",
+									width = "61",
 									ZOrder = "1",
 								},
 								{

@@ -9,7 +9,7 @@ return {
         id = 2,
         beginTime  = "00:00:04,800",
         endTime  = "00:00:09,0",
-        content  = "Es ist ein Notfall!\nNatsumis Gl체cksmeter f채llt rapide ab!",
+        content  = "Es ist ein Notfall!\nNatsumis Glücksmeter fällt rapide ab!",
     },
     [3] = {
         id = 3,
@@ -21,7 +21,7 @@ return {
         id = 4,
         beginTime  = "00:00:11,800",
         endTime  = "00:00:13,500",
-        content  = "H채?",
+        content  = "Hä?",
     },
     [5] = {
         id = 5,
@@ -39,6 +39,6 @@ return {
         id = 7,
         beginTime  = "00:00:21,800",
         endTime  = "00:00:24,100",
-        content  = "Dein Leben...! Es wird bald f체r immer vorbei sein!",
+        content  = "Dein Leben...! Es wird bald für immer vorbei sein!",
     },
 }

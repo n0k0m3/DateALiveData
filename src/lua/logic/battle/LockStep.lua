@@ -1067,18 +1067,15 @@ function LockStep.connect(isReconnect)
     this.kcpnet:SetConnTOT(5)
     this.kcpnet:Connect(connectIp , this.port ,onConnected, nil, onConnectError)
 
-    local time = 0
-    for _ip in this.connectedIpArray:iterator() do
-        if _ip == connectIp then
-            time = time + 1
-        end
-    end
-    if HeitaoSdk and time <= 1 then
-        --TODO CLOSE
-        if tonumber(TFDeviceInfo:getCurAppVersion()) >= 1.15 and CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID then
-            --HeitaoSdk.reportNetworkData(connectIp)
-        end
-    end
+    -- local time = 0
+    -- for _ip in this.connectedIpArray:iterator() do
+    --     if _ip == connectIp then
+    --         time = time + 1
+    --     end
+    -- end
+    -- if HeitaoSdk and time <= 1 then
+    --     HeitaoSdk.reportNetworkData(connectIp)
+    -- end
 end
 
 function LockStep.sendHeartbeat()

@@ -594,6 +594,10 @@ function RechargeDataMgr:getIsHavePrivilegeByType(id)
 	if id == 103 then
 		return _bool , cfg
 	end
+	if id == 101 and (not(GlobalFuncDataMgr:isOpen(11))) then
+		return _bool , cfg
+	end
+
 	local tab = TabDataMgr:getData("Privilege")
 	for i, v in pairs(tab) do
 		if v.privilegeId == id then

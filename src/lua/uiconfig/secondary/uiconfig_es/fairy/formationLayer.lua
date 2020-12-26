@@ -283,7 +283,7 @@ local t =
 								PositionX = 85,
 								PositionY = 256,
 							},
-							width = "104",
+							width = "108",
 							ZOrder = "1",
 						},
 						{
@@ -490,7 +490,7 @@ local t =
 									{
 										PositionY = 8,
 									},
-									width = "141",
+									width = "136",
 									ZOrder = "1",
 								},
 							},
@@ -641,7 +641,7 @@ local t =
 									{
 										PositionX = 22,
 									},
-									width = "56",
+									width = "54",
 									ZOrder = "1",
 								},
 							},
@@ -743,7 +743,7 @@ local t =
 									{
 										PositionX = 2,
 									},
-									width = "81",
+									width = "82",
 									ZOrder = "1",
 								},
 							},
@@ -820,7 +820,7 @@ local t =
 										PositionY = -3,
 									},
 									visible = "False",
-									width = "64",
+									width = "60",
 									ZOrder = "1",
 								},
 							},
@@ -1030,7 +1030,7 @@ local t =
 										PositionX = -24,
 										PositionY = -3,
 									},
-									width = "228",
+									width = "202",
 									ZOrder = "1",
 								},
 								{
@@ -1076,7 +1076,7 @@ local t =
 										PositionX = 53,
 										PositionY = -1,
 									},
-									width = "15",
+									width = "14",
 									ZOrder = "1",
 								},
 							},
@@ -1319,7 +1319,7 @@ local t =
 							controlID = "Label_title_Panel_base_Panel-formationLayer_Layer1_fairy_Game",
 							UUID = "af0e4181_ef35_485d_862d_87cdf183d697",
 							anchorPoint = "False",
-							anchorPointX = "0.5",
+							anchorPointX = "0",
 							anchorPointY = "0.5",
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
@@ -1355,10 +1355,10 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -361,
+								PositionX = -495,
 								PositionY = 224,
 							},
-							width = "276",
+							width = "293",
 							ZOrder = "1",
 						},
 						{
@@ -1466,7 +1466,7 @@ local t =
 										PositionX = 2,
 										PositionY = -1,
 									},
-									width = "153",
+									width = "147",
 									ZOrder = "1",
 								},
 							},
@@ -1721,7 +1721,7 @@ local t =
 										PositionX = 35,
 										PositionY = 32,
 									},
-									width = "23",
+									width = "22",
 									ZOrder = "1",
 								},
 							},
@@ -1849,14 +1849,14 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "24",
+							fontSize = "18",
 							fontStroke = 
 							{
 								IsStroke = false,
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "28",
+							height = "21",
 							ignoreSize = "True",
 							name = "Label_name_title",
 							nTextAlign = "1",
@@ -1870,10 +1870,10 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -346,
-								PositionY = -113,
+								PositionX = -345,
+								PositionY = -109,
 							},
-							width = "299",
+							width = "239",
 							ZOrder = "1",
 						},
 						{
@@ -1919,7 +1919,7 @@ local t =
 								PositionX = -330,
 								PositionY = -152,
 							},
-							width = "31",
+							width = "33",
 							ZOrder = "1",
 						},
 						{
@@ -1965,7 +1965,7 @@ local t =
 								PositionX = -265,
 								PositionY = -151,
 							},
-							width = "81",
+							width = "80",
 							ZOrder = "1",
 						},
 						{
@@ -2161,7 +2161,7 @@ local t =
 												PositionX = -21,
 												PositionY = -13,
 											},
-											width = "13",
+											width = "12",
 											ZOrder = "1",
 										},
 										{
@@ -2207,7 +2207,7 @@ local t =
 												PositionX = -21,
 												PositionY = 11,
 											},
-											width = "51",
+											width = "49",
 											ZOrder = "1",
 										},
 										{
@@ -2425,7 +2425,7 @@ local t =
 										IsPercent = true,
 										PercentX = -50,
 									},
-									width = "111",
+									width = "100",
 									ZOrder = "1",
 								},
 								{
@@ -2576,7 +2576,7 @@ local t =
 								PositionX = -14,
 								PositionY = -1,
 							},
-							width = "111",
+							width = "100",
 							ZOrder = "1",
 						},
 						{

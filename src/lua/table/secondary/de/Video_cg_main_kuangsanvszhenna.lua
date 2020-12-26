@@ -9,6 +9,6 @@ return {
         id = 2,
         beginTime  = "00:00:04,950",
         endTime  = "00:00:10,600",
-        content  = "Gegen mich zu kĂ¤mpfen ist \nwie die Angst selbst zu bekĂ¤mpfen!",
+        content  = "Gegen mich zu kämpfen ist \nwie die Angst selbst zu bekämpfen!",
     },
 }

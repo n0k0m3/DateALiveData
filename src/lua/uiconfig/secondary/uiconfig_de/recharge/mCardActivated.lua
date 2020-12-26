@@ -341,14 +341,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "21",
 									ignoreSize = "True",
 									name = "Label_remain_days-Copy1",
 									nTextAlign = "1",
@@ -365,7 +365,7 @@ local t =
 										PositionX = 252,
 										PositionY = -44,
 									},
-									width = "219",
+									width = "190",
 									ZOrder = "1",
 								},
 								{
@@ -387,14 +387,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "21",
 									ignoreSize = "True",
 									name = "Label_headname",
 									nTextAlign = "1",
@@ -411,7 +411,7 @@ local t =
 										PositionX = 59,
 										PositionY = -42,
 									},
-									width = "310",
+									width = "274",
 									ZOrder = "1",
 								},
 								{

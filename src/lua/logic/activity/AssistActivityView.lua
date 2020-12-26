@@ -99,7 +99,9 @@ function AssistActivityView:onUpdateAssistUI(data)
     local cgdata = ActivityDataMgr2:getAssistItemInfos(self.activityId_, EC_Activity_Assist_Subtype.CG_LIST)
     local unlockNum = 0
     local delay = 0
-    local lastNum = CCUserDefault:sharedUserDefault():getIntegerForKey("assist_cg_unlock_num") or 0
+    local pid = MainPlayer:getPlayerId()
+    pid = pid or ""
+    local lastNum = CCUserDefault:sharedUserDefault():getIntegerForKey("assist_cg_unlock_num_" ..pid) or 0
     for i, cgItem in ipairs(self.ScrollView_cg:getItems()) do
         local itemInfo = cgdata[i]
         local Image_cg = TFDirector:getChildByPath(cgItem, "Image_cg")
@@ -127,7 +129,9 @@ function AssistActivityView:onUpdateAssistUI(data)
             end
         end)
     end
-    CCUserDefault:sharedUserDefault():setIntegerForKey("assist_cg_unlock_num", unlockNum)
+    local pid = MainPlayer:getPlayerId()
+    pid = pid or ""
+    CCUserDefault:sharedUserDefault():setIntegerForKey("assist_cg_unlock_num_" ..pid, unlockNum)
 
     local isEnd = ActivityDataMgr2:isEnd(self.activityId_)
     local progressData = ActivityDataMgr2:getAssistProgressData()
@@ -337,7 +341,9 @@ function AssistActivityView:updateAssistCgUnlock(activityInfo)
             if progressInfo.status == EC_Assist_Item_Status.GET then
                 img_red:setVisible(true)
             end
-            local flag = CCUserDefault:sharedUserDefault():getStringForKey("assist_dating_play"..itemInfo.extendData.jumpInterface)
+            local pid = MainPlayer:getPlayerId()
+            pid = pid or ""
+            local flag = CCUserDefault:sharedUserDefault():getStringForKey("assist_dating_play_" ..pid .."_"..itemInfo.extendData.jumpInterface)
             if flag ~= "play" then
                 local spineUnlock = SkeletonAnimation:create("effect/effect_ui6/effect_ui6")
                 spineUnlock:setPosition(ccp(0, 0))
@@ -346,7 +352,7 @@ function AssistActivityView:updateAssistCgUnlock(activityInfo)
                 spineUnlock:addMEListener(TFARMATURE_COMPLETE,function()
                     spineUnlock:setVisible(false)
                 end)
-                CCUserDefault:sharedUserDefault():setStringForKey("assist_dating_play"..itemInfo.extendData.jumpInterface, "play")
+                CCUserDefault:sharedUserDefault():setStringForKey("assist_dating_play_" ..pid .."_"..itemInfo.extendData.jumpInterface, "play")
             end
         else
             Image_line[i]:setTexture("ui/activity/assist/028.png")

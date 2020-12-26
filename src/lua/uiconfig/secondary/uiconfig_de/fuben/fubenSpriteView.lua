@@ -240,7 +240,7 @@ local t =
 										PositionX = -205,
 										PositionY = -5,
 									},
-									width = "56",
+									width = "57",
 									ZOrder = "1",
 								},
 								{
@@ -374,14 +374,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "30",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = true,
 										StrokeColor = "#FF000000",
 										StrokeSize = 1,
 									},
-									height = "36",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_hero_name",
 									nTextAlign = "1",
@@ -398,7 +398,7 @@ local t =
 										PositionX = -189,
 										PositionY = -6,
 									},
-									width = "233",
+									width = "180",
 									ZOrder = "1",
 								},
 								{
@@ -423,8 +423,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 66,
-										PositionY = -1,
+										PositionX = -2,
+										PositionY = -2,
 									},
 									width = "72",
 									ZOrder = "1",
@@ -448,14 +448,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "28",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_cizhui",
 									nTextAlign = "1",
@@ -472,7 +472,7 @@ local t =
 										PositionX = 224,
 										PositionY = -4,
 									},
-									width = "69",
+									width = "67",
 									ZOrder = "1",
 								},
 							},
@@ -548,7 +548,7 @@ local t =
 										PositionX = -192,
 										PositionY = -4,
 									},
-									width = "200",
+									width = "221",
 									ZOrder = "1",
 								},
 								{
@@ -1477,7 +1477,7 @@ local t =
 										PositionX = -207,
 										PositionY = 98,
 									},
-									width = "88",
+									width = "96",
 									ZOrder = "1",
 								},
 								{

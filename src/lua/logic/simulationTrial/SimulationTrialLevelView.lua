@@ -110,12 +110,16 @@ function SimulationTrialLevelView:initUI(ui)
 end
 local key_SimlationChapterIndex = "SimlationChapterIndex_"
 function SimulationTrialLevelView:saveChapterIndex()
-	local key = key_SimlationChapterIndex..self.heroId
+	local pid = MainPlayer:getPlayerId()
+    pid = pid or ""
+	local key = key_SimlationChapterIndex..self.heroId .."_" ..pid
 	UserDefault:setStringForKey(key,tostring(self.chapterIndex))
 end
 
 function SimulationTrialLevelView:getLastChapterIndex()
-	local key   = key_SimlationChapterIndex..self.heroId
+	local pid = MainPlayer:getPlayerId()
+    pid = pid or ""
+	local key   = key_SimlationChapterIndex..self.heroId .."_" ..pid
 	local value = UserDefault:getStringForKey(key)
 	if not value or value == "" then 
 		value = 1

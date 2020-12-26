@@ -118,10 +118,6 @@ function Actor:ctor(hero)
     self.loadBar.loadbarSP = self.loadBar.nodeSP:getChildByName("LoadingBar_sp")
     self.loadBar.loadbarBT = self.loadBar.nodeBT:getChildByName("LoadingBar_bt")
 
-    --创建克制icon
-    local startPos = self.loadBar.nodeSP:getPosition() + ccp(75 , 0)
-    self.loadBar.panel_element = Utils:createElementPanel(self.loadBar , 1 , startPos , nil , 0.5)
-    self.loadBar.panel_element:hide()
 
     -- self.loadBar.loadbarGT = self.loadBar.nodeGT:getChildByName("LoadingBar_gt")
     self.loadBar.imageGuard = self.loadBar:getChildByName("Image_guard") --精英标识
@@ -230,7 +226,6 @@ function Actor:ctor(hero)
         end
 
     elseif roleType == eRoleType.Monster then
-        self.loadBar.panel_element:show()
         if data.healthBar > 0 then
             self.infoNode.nodeSP:show()
             if data.healthColor == 2 then --1 红色(默认) 2 绿色
@@ -549,7 +544,7 @@ end
 
 --影子处理
 function Actor:update(dt)
-    self:updateActorElement()
+    --self:updateActorElement() --TODO CLOSE 屏蔽克制
     -- self.skeletonNode:update(dt*0.001)
     self:updateSkeletonNode(dt*0.001)
    

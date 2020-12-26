@@ -86,38 +86,6 @@ local t =
 					{
 						
 						{
-							controlID = "Image_titleChangeView_1_Panel_root_Panel-titleChangeView_Layer1_playerInfo_Game",
-							UUID = "73bbbb25_a734_4b06_8d8c_4fadc6151522",
-							anchorPoint = "False",
-							anchorPointX = "0.5",
-							anchorPointY = "0.5",
-							backGroundScale9Enable = "False",
-							classname = "MEImage",
-							dstBlendFunc = "771",
-							height = "640",
-							ignoreSize = "True",
-							name = "Image_titleChangeView_1",
-							sizepercentx = "0",
-							sizepercenty = "0",
-							sizeType = "0",
-							srcBlendFunc = "770",
-							texturePath = "ui/title/change/称号2.jpg",
-							touchAble = "False",
-							UILayoutViewModel = 
-							{
-								PositionX = 550,
-								PositionY = 318,
-								LeftPositon = -143,
-								BottomPosition = -2,
-								relativeToName = "Panel_root",
-								nType = 3,
-								nGravity = 4,
-								nAlign = 7
-							},
-							width = "1386",
-							ZOrder = "1",
-						},
-						{
 							controlID = "Panel_title_Panel_root_Panel-titleChangeView_Layer1_playerInfo_Game",
 							UUID = "4ea91b31_3fe4_49cb_8b8b_78d3e366b8e9",
 							anchorPoint = "False",
@@ -211,7 +179,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
+									height = "32",
 									ignoreSize = "True",
 									name = "Label_title",
 									nTextAlign = "1",
@@ -230,7 +198,7 @@ local t =
 										LeftPositon = 12,
 										TopPosition = 4,
 									},
-									width = "115",
+									width = "230",
 									ZOrder = "1",
 									components = 
 									{
@@ -278,7 +246,8 @@ local t =
 												PositionX = 122,
 												PositionY = -5,
 											},
-											width = "92",
+											visible = "False",
+											width = "91",
 											ZOrder = "1",
 										},
 										{
@@ -304,6 +273,7 @@ local t =
 												PositionX = 118,
 												PositionY = 3,
 											},
+											visible = "False",
 											width = "2",
 											ZOrder = "1",
 										},
@@ -459,7 +429,7 @@ local t =
 												StrokeColor = "#FF7E89B0",
 												StrokeSize = 2,
 											},
-											height = "31",
+											height = "29",
 											ignoreSize = "True",
 											name = "Label_type_name",
 											nTextAlign = "1",
@@ -475,7 +445,7 @@ local t =
 											{
 												PositionY = 206,
 											},
-											width = "92",
+											width = "122",
 											ZOrder = "1",
 										},
 										{
@@ -645,7 +615,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
+											height = "25",
 											ignoreSize = "True",
 											name = "Label_show_name",
 											nTextAlign = "1",
@@ -662,7 +632,7 @@ local t =
 												PositionX = 136,
 												PositionY = 432,
 											},
-											width = "47",
+											width = "95",
 											ZOrder = "1",
 										},
 										{
@@ -726,8 +696,8 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "27",
-													ignoreSize = "True",
+													height = "0",
+													ignoreSize = "False",
 													name = "Label_use_frame",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -742,7 +712,7 @@ local t =
 													{
 														
 													},
-													width = "99",
+													width = "120",
 													ZOrder = "1",
 												},
 											},
@@ -942,7 +912,7 @@ local t =
 												PositionX = 4,
 												PositionY = 273,
 											},
-											width = "90",
+											width = "158",
 											ZOrder = "1",
 										},
 										{
@@ -988,7 +958,7 @@ local t =
 												PositionX = 4,
 												PositionY = 240,
 											},
-											width = "90",
+											width = "108",
 											ZOrder = "1",
 										},
 										{
@@ -1383,7 +1353,7 @@ local t =
 											{
 												PositionX = 1,
 											},
-											width = "59",
+											width = "62",
 											ZOrder = "1",
 										},
 									},
@@ -1561,7 +1531,7 @@ local t =
 										PositionX = -55,
 										PositionY = -2,
 									},
-									width = "43",
+									width = "40",
 									ZOrder = "1",
 								},
 							},
@@ -1650,8 +1620,8 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "35",
-									ignoreSize = "True",
+									height = "0",
+									ignoreSize = "False",
 									name = "Label_title",
 									nTextAlign = "1",
 									nTextHAlign = "1",
@@ -1664,9 +1634,9 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionY = 12,
+										
 									},
-									width = "58",
+									width = "128",
 									ZOrder = "1",
 								},
 								{
@@ -1711,7 +1681,8 @@ local t =
 									{
 										PositionY = -16,
 									},
-									width = "70",
+									visible = "False",
+									width = "64",
 									ZOrder = "1",
 								},
 							},
@@ -1729,7 +1700,6 @@ local t =
 	{
 		textures = 
 		{
-			"ui/title/change/称号2.jpg",
 			"ui/common/pop_ui/pop_bg_01.png",
 			"ui/common/pop_ui/pop_ui_02.png",
 			"ui/common/pop_ui/pop_btn_02.png",

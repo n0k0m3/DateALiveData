@@ -240,7 +240,7 @@ local t =
 										PositionX = -205,
 										PositionY = -5,
 									},
-									width = "70",
+									width = "73",
 									ZOrder = "1",
 								},
 								{
@@ -286,7 +286,7 @@ local t =
 										PositionX = -111,
 										PositionY = -7,
 									},
-									width = "108",
+									width = "105",
 									ZOrder = "1",
 								},
 							},
@@ -374,14 +374,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "30",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = true,
 										StrokeColor = "#FF000000",
 										StrokeSize = 1,
 									},
-									height = "36",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_hero_name",
 									nTextAlign = "1",
@@ -395,10 +395,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -189,
-										PositionY = -6,
+										PositionX = -193,
+										PositionY = -3,
 									},
-									width = "233",
+									width = "159",
 									ZOrder = "1",
 								},
 								{
@@ -423,7 +423,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -55,
+										PositionX = 7,
 									},
 									width = "72",
 									ZOrder = "1",
@@ -447,14 +447,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "14",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "28",
+									height = "16",
 									ignoreSize = "True",
 									name = "Label_cizhui",
 									nTextAlign = "1",
@@ -471,7 +471,7 @@ local t =
 										PositionX = 224,
 										PositionY = -4,
 									},
-									width = "129",
+									width = "86",
 									ZOrder = "1",
 								},
 							},
@@ -547,7 +547,7 @@ local t =
 										PositionX = -192,
 										PositionY = -4,
 									},
-									width = "180",
+									width = "203",
 									ZOrder = "1",
 								},
 								{
@@ -1476,7 +1476,7 @@ local t =
 										PositionX = -207,
 										PositionY = 98,
 									},
-									width = "88",
+									width = "96",
 									ZOrder = "1",
 								},
 								{

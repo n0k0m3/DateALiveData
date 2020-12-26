@@ -105,8 +105,8 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
-						PositionX = 568,
-						PositionY = 320,
+						PositionX = 510,
+						PositionY = 354,
 						relativeToName = "Panel",
 						nType = 3,
 						nGravity = 6,
@@ -135,8 +135,8 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
-						PositionX = 568,
-						PositionY = 320,
+						PositionX = 510,
+						PositionY = 354,
 						relativeToName = "Panel",
 						nType = 3,
 						nGravity = 6,
@@ -413,7 +413,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_countDown",
 									nTextAlign = "1",
@@ -430,7 +430,7 @@ local t =
 										PositionX = 370,
 										PositionY = 238,
 									},
-									width = "105",
+									width = "103",
 									ZOrder = "1",
 									components = 
 									{
@@ -480,7 +480,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -534,7 +534,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "19",
+									height = "17",
 									ignoreSize = "True",
 									name = "Label_deadLine",
 									nTextAlign = "1",
@@ -551,7 +551,7 @@ local t =
 										PositionX = 222,
 										PositionY = 226,
 									},
-									width = "158",
+									width = "140",
 									ZOrder = "1",
 									components = 
 									{
@@ -720,7 +720,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "消耗",
+											text = "소모",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -728,7 +728,7 @@ local t =
 												PositionX = 58,
 												PositionY = 51,
 											},
-											width = "43",
+											width = "38",
 											ZOrder = "1",
 										},
 										{
@@ -2191,7 +2191,7 @@ local t =
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "27",
+															height = "25",
 															ignoreSize = "True",
 															name = "Label_open_time",
 															nTextAlign = "1",
@@ -2207,7 +2207,7 @@ local t =
 															{
 																PositionY = -2,
 															},
-															width = "120",
+															width = "107",
 															ZOrder = "1",
 														},
 													},
@@ -2330,15 +2330,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "15",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_name",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -2353,7 +2353,7 @@ local t =
 											{
 												PositionY = 189,
 											},
-											width = "135",
+											width = "200",
 											ZOrder = "1",
 										},
 									},

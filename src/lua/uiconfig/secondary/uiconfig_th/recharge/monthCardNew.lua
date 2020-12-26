@@ -233,7 +233,7 @@ local t =
 										PositionX = -200,
 										PositionY = -500,
 									},
-									width = "96",
+									width = "101",
 									ZOrder = "1",
 								},
 								{
@@ -289,11 +289,11 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 106,
+										PositionX = 89,
 										PositionY = 210,
 									},
 									UItype = "Button",
-									width = "140",
+									width = "181",
 									ZOrder = "1",
 									components = 
 									{
@@ -333,14 +333,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "恢复续订",
+											text = "ต่ออายุการสมัคร",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionX = -7,
 											},
-											width = "75",
+											width = "107",
 											ZOrder = "1",
 										},
 									},
@@ -493,7 +493,7 @@ local t =
 									dstBlendFunc = "771",
 									flipX = "False",
 									flipY = "False",
-									height = "50",
+									height = "65",
 									ignoreSize = "False",
 									name = "Button_shiyong",
 									normal = "ui/task/1101.png",
@@ -548,7 +548,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "使用条款",
+											text = "ข้อตกลงการใช้บริการ",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -572,7 +572,7 @@ local t =
 									dstBlendFunc = "771",
 									flipX = "False",
 									flipY = "False",
-									height = "50",
+									height = "65",
 									ignoreSize = "False",
 									name = "Button_yinsi",
 									normal = "ui/task/1101.png",
@@ -587,7 +587,7 @@ local t =
 										PositionY = -130,
 									},
 									UItype = "Button",
-									width = "150",
+									width = "161",
 									ZOrder = "1",
 									components = 
 									{
@@ -627,7 +627,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "隐私协议",
+											text = "นโยบายความเป็นส่วนตัว",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
