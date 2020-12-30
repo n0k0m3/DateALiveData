@@ -637,7 +637,7 @@ return {
         weight = 1,
         status = 2,
         titleIcon = "ui/activity/activityMain91/001.png",
-        details = "{\"beginTime\":\"2020-12-23 00:00:01\",\"endTime\":\"2021-01-05 23:59:59\",\"activityShowType\":91,\"name\":\"登录有礼#####Login Rewards\",\"bgPath\":\"ui/activity/fanshiAssist/fanshiMainView/btn_7n.png\",\"dayRstring\":\"r305004\",\"hourRstring\":\"r305005\",\"uiName\":\"whiteQueenAssistSignView\",\"SevenItemType\":\"2\",\"isScrollType\":\"2\"}",
+        details = "{\"beginTime\":\"2020-12-23 00:00:01\",\"endTime\":\"2021-01-12 23:59:59\",\"activityShowType\":91,\"name\":\"190000438\",\"bgPath\":\"ui/activity/fanshiAssist/fanshiMainView/btn_7n.png\",\"dayRstring\":\"r305004\",\"hourRstring\":\"r305005\",\"uiName\":\"whiteQueenAssistSignView\",\"SevenItemType\":\"2\",\"isScrollType\":\"2\"}",
         type = 1010,
     },
     [200029] = {
@@ -1000,7 +1000,7 @@ return {
         weight = 4,
         status = 2,
         titleIcon = "ui/activity/picture/icon131.png",
-        details = "{\"beginTime\":\"2020-12-16 00:00:01\",\"endTime\":\"2021-01-05 23:59:59\",\"taskCount\":6,\"taskChance\":{1:\"1:1:1\",2:\"1:2:2\",3:\"198:0:1\",4:\"800:0:1\",5:\"9000:0:6\"},\"refresh\":86400,\"cg\":90,\"des1\":\"\",\"des2\":\"\",\"activityShowType\":7,\"uiName\":\"jumpActivityStyle\",\"name\":\"圣诞大作战#####Christmas Clash\",\"interDating\":618}",
+        details = "{\"beginTime\":\"2020-12-16 00:00:01\",\"endTime\":\"2021-01-05 23:59:59\",\"taskCount\":6,\"taskChance\":{1:\"1:1:1\",2:\"1:2:2\",3:\"198:0:1\",4:\"800:0:1\",5:\"9000:0:6\"},\"refresh\":86400,\"cg\":90,\"des1\":\"\",\"des2\":\"\",\"activityShowType\":7,\"uiName\":\"jumpActivityStyle\",\"name\":\"2130035\",\"interDating\":618}",
         type = 1004,
     },
     [100000] = {

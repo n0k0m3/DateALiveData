@@ -2128,7 +2128,7 @@ return {
             color = "#FFFFFF",
             text = "Lv.",
             clickId = "",
-            size = 23,
+            size = 20,
         },
         [2] = {
             baseName = "fangzheng_zhunyuan",
@@ -2136,7 +2136,7 @@ return {
             color = "#fffd65",
             text = " %s",
             clickId = "",
-            size = 23,
+            size = 20,
         },
         [3] = {
             baseName = "fangzheng_zhunyuan",
@@ -2144,7 +2144,7 @@ return {
             color = "#fffd65",
             text = " %s",
             clickId = "",
-            size = 23,
+            size = 20,
         },
         [4] = {
             baseName = "fangzheng_zhunyuan",
@@ -2152,7 +2152,7 @@ return {
             color = "#FFFFFF",
             text = " ist eröffnet! Schließ dich jetzt dem Kampf an!",
             clickId = "",
-            size = 23,
+            size = 20,
         },
         align = "left",
         id = 60000,
@@ -2920,7 +2920,7 @@ return {
             color = "#FFFFFF",
             text = "Lv.",
             clickId = "",
-            size = 23,
+            size = 20,
         },
         [2] = {
             baseName = "fangzheng_zhunyuan",
@@ -2928,7 +2928,7 @@ return {
             color = "#fffd65",
             text = " %s",
             clickId = "",
-            size = 23,
+            size = 20,
         },
         [3] = {
             baseName = "fangzheng_zhunyuan",
@@ -2936,7 +2936,7 @@ return {
             color = "#fffd65",
             text = " %s",
             clickId = "",
-            size = 23,
+            size = 20,
         },
         [4] = {
             baseName = "fangzheng_zhunyuan",
@@ -2944,7 +2944,7 @@ return {
             color = "#FFFFFF",
             text = " ist eröffnet! Schließ dich jetzt dem Kampf an!",
             clickId = "",
-            size = 23,
+            size = 20,
         },
         align = "left",
         id = 60001,

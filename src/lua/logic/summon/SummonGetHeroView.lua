@@ -39,6 +39,12 @@ function SummonGetHeroView:onShow()
     currentScene:addChild(videoView)
     videoView:setEndLoop(true)
     videoView:setIshowShare(true)
+    videoView:bindJumpCustomFunction(function( ... )
+        videoView:stopVideo()
+        AlertManager:closeLayer(self)
+        videoView:removeFromParent()
+        EventMgr:dispatchEvent(EV_SUMMON_TOUCH_CONTINUE)
+    end)
     videoView:bindVideoClickCallBack(function(index)
             if index > 1 then
                 videoView:stopVideo()
@@ -46,7 +52,7 @@ function SummonGetHeroView:onShow()
                 videoView:removeFromParent()
                 EventMgr:dispatchEvent(EV_SUMMON_TOUCH_CONTINUE)
             end
-            return false
+            return true
     end)
     USE_NATIVE_VLC = OldValue
 

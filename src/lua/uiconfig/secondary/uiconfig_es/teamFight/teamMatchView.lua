@@ -2801,14 +2801,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "22",
+									fontSize = "20",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_title",
 									nTextAlign = "1",
@@ -2822,10 +2822,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -109,
+										PositionX = -115,
 										PositionY = -6,
 									},
-									width = "232",
+									width = "208",
 									ZOrder = "1",
 								},
 								{
@@ -2847,14 +2847,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "34",
+									fontSize = "32",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "39",
+									height = "37",
 									ignoreSize = "True",
 									name = "Label_mtitle",
 									nTextAlign = "1",
@@ -2871,7 +2871,7 @@ local t =
 										PositionX = -163,
 										PositionY = -4,
 									},
-									width = "92",
+									width = "87",
 									ZOrder = "1",
 								},
 								{
@@ -4396,15 +4396,14 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 377,
-								PositionY = 517,
+								PositionX = 386,
+								PositionY = 518,
 							},
 							uipanelviewmodel = 
 							{
 								Layout="Absolute",
 								nType = "0"
 							},
-							visible = "False",
 							width = "200",
 							ZOrder = "1",
 							components = 
@@ -4416,11 +4415,11 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEImage",
 									dstBlendFunc = "771",
 									height = "36",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "Image_auto_bg",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -4430,10 +4429,10 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 171,
-										PositionY = 18,
+										PositionX = 159,
+										PositionY = 19,
 									},
-									width = "96",
+									width = "128",
 									ZOrder = "1",
 									components = 
 									{
@@ -4458,7 +4457,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -42,
+												PositionX = -33,
 											},
 											width = "64",
 											ZOrder = "1",
@@ -4503,7 +4502,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -41,
+												PositionX = -34,
 											},
 											width = "62",
 											ZOrder = "1",
@@ -4548,7 +4547,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 18,
+												PositionX = 29,
 												PositionY = 1,
 											},
 											width = "51",
@@ -4596,8 +4595,8 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 51,
-										PositionY = 19,
+										PositionX = 43,
+										PositionY = 17,
 									},
 									width = "79",
 									ZOrder = "1",

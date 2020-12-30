@@ -206,6 +206,7 @@ function LoginLayer:login()
 	if CC_TARGET_PLATFORM ~= CC_PLATFORM_WIN32 and HeitaoSdk then
 		HeitaoSdk.disableDeviceSleep(true)
 		if not self.isShowLoingBoard then
+			Utils:sendHttpLog("sdk_activate")
 			HeitaoSdk.login();
 		else
 			HeitaoSdk.loginOut();
@@ -500,6 +501,7 @@ function LoginLayer:loginGameServerSuccess(event)
     hideAllLoading()
     TFDirector:removeMEGlobalListener("LoginLayer.LoginComplete", handler(self.loginGameServerSuccess, self))
     dump("loginGameServerSuccess")
+    Utils:sendHttpLog("server_connected")
     local currentScene = Public:currentScene()
     if currentScene ~= nil and currentScene.getTopLayer then
         if currentScene.__cname == "LoginScene" then

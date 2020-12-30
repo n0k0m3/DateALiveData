@@ -4289,7 +4289,7 @@ return {
         sort = 1740,
         sortr = "1740",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 11,
         type3 = {
             [1] = 210001,
@@ -35092,7 +35092,7 @@ return {
         sort = 1741,
         sortr = "1741",
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 11,
         type3 = {
             [1] = 210001,

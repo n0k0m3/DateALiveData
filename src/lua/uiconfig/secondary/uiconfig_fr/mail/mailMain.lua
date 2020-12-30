@@ -728,7 +728,7 @@ local t =
 										PositionX = 627,
 										PositionY = 27,
 									},
-									width = "61",
+									width = "68",
 									ZOrder = "1",
 								},
 								{
@@ -1026,7 +1026,7 @@ local t =
 								PositionX = 616,
 								PositionY = 112,
 							},
-							width = "31",
+							width = "35",
 							ZOrder = "1",
 						},
 						{
@@ -1049,7 +1049,7 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 413,
+								PositionX = 494,
 								PositionY = 112,
 							},
 							width = "68",
@@ -1213,10 +1213,10 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 740,
+								PositionX = 718,
 								PositionY = 112,
 							},
-							width = "203",
+							width = "191",
 							ZOrder = "1",
 						},
 						{
@@ -1262,7 +1262,7 @@ local t =
 								PositionX = 936,
 								PositionY = 112,
 							},
-							width = "140",
+							width = "134",
 							ZOrder = "1",
 						},
 						{
@@ -1339,7 +1339,7 @@ local t =
 									{
 										
 									},
-									width = "36",
+									width = "38",
 									ZOrder = "1",
 								},
 							},
@@ -1418,7 +1418,7 @@ local t =
 									{
 										
 									},
-									width = "89",
+									width = "83",
 									ZOrder = "1",
 								},
 							},
@@ -1499,7 +1499,7 @@ local t =
 									{
 										
 									},
-									width = "90",
+									width = "87",
 									ZOrder = "1",
 								},
 							},

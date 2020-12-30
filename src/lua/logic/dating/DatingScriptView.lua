@@ -1839,8 +1839,9 @@ function DatingScriptView:showText(deyTime)
             self.isJumpOk = false
             self:refreshButtonListState()
             --改名
+            Utils:sendHttpLog("role_create_Q")  --引导玩家创建上报
             local modifyNameView = require("lua.logic.playerInfo.ModifyNameView"):new({ function()
-                Utils:sendHttpLog("role_create_Q")
+                Utils:sendHttpLog("role_created")  --角色改名创建成功上报
                 self.showModifyName = false
                 self.isJumpOk = true
                 self:jumpToNext()

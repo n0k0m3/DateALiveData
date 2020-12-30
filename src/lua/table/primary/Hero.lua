@@ -456,6 +456,7 @@ return {
         optionalSkin = {
             [1] = 1101011,
             [2] = 1101012,
+            [3] = 1101013,
         },
         attrType = 1,
         floorTime = 0,

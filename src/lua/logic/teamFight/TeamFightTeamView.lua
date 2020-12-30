@@ -12,7 +12,7 @@ function TeamFightTeamView:initData()
         [4] = {ccp(-360,0),ccp(-120,0),ccp(120,0),ccp(360,0)},
         [5] = {ccp(-412,0),ccp(-206,0),ccp(0,0),ccp(206,0),ccp(412,0)},
     }
-    self.speaksCfg = {240018,240019,240020,240021,240022}
+    self.speaksCfg = {240018,240019,240020,240021,240022,190000502}
     self.myHeroInfo = {}
     self.isRepeatWithOther = false
     self.isReqCloseLayer = false
@@ -191,6 +191,7 @@ function TeamFightTeamView:initUI(ui)
     self.speak_listView = UIListView:create(speaks_scrollView)
     self.speak_listView:setItemModel(speak_cell)
     self.speak_listView:removeAllItems()
+    self:addScrollBarFunction(self.panel_speaklist)
 
     local ScrollView_affix = TFDirector:getChildByPath(ui, "ScrollView_affix"):hide()
     self.ListView_affix = UIListView:create(ScrollView_affix)
@@ -533,6 +534,11 @@ function TeamFightTeamView:stopMatchingAction()
     end
 end
 local SELECT_POS = {me.p(-22,0),me.p(22,0)}
+local langCode = TFLanguageMgr:getUsingLanguage()
+if (langCode == cc.SPANISH) then
+    SELECT_POS = {me.p(-32,0),me.p(32,0)}
+end
+
 function TeamFightTeamView:initCommonPart()
     local nTeamType = TeamFightDataMgr.nTeamType
     --队友特效开关
@@ -1233,5 +1239,23 @@ function TeamFightTeamView:registerEvents()
     self.Panel_room_hadle:onClick(function()
         Utils:openView("teamFight.TeamRoomSettingView",false,self.curLevelCfg.type)
     end)
+end
+
+function TeamFightTeamView:addScrollBarFunction(panelSpeak )
+    local Image_scrollBarModel = TFImage:create("ui/common/scroll_bar_01.png")
+    Image_scrollBarModel:setScale9Enabled(true)
+    Image_scrollBarModel:setContentSize(CCSize(6 , 326))
+    local Image_scrollBarInner = TFImage:create("ui/common/scroll_bar_02.png")
+    Image_scrollBarInner:setScale9Enabled(true)
+    Image_scrollBarInner:setContentSize(CCSize(6 , 326))
+    Image_scrollBarModel:addChild(Image_scrollBarInner , 1)
+    Image_scrollBarInner:setPosition(0 , 163)
+
+
+    panelSpeak:addChild(Image_scrollBarModel , 1)
+    Image_scrollBarModel:setPosition(362 , 0)
+    Image_scrollBarModel:setAnchorPoint(ccp(0.5 , 0))
+    local bar = UIScrollBar:create(Image_scrollBarModel, Image_scrollBarInner)
+    self.speak_listView:setScrollBar(bar)
 end
 return TeamFightTeamView

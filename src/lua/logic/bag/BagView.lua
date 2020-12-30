@@ -142,8 +142,22 @@ function BagView:initData(mainSelectIndex, selectIndex)
 
     self.orderText_ = {301018, 301019}
 
-    self.defaultSelectIndex_ = selectIndex or 1
-	self.mainSelectIndex = mainSelectIndex or 1
+
+    if mainSelectIndex then
+        local tabIndex = 1
+        for k ,v in pairs(self.btnConfig_) do
+            if mainSelectIndex == v.category then
+                tabIndex = k
+            end
+        end
+        self.defaultSelectIndex_ = tabIndex
+        self.mainSelectIndex = tabIndex
+    else
+        self.defaultSelectIndex_ = selectIndex or 1
+        self.mainSelectIndex = mainSelectIndex or 1
+    end
+
+    
 
     self.defaultSelectRuleIndex_ = {
         [EC_BagCategory.EQUIPMENT] = self.ruleType.Level,

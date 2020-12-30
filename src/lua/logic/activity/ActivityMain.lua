@@ -557,20 +557,6 @@ function ActivityMain:updateSign()
         receiveLabel:setTextById(1810001);
     end
 
-    -- TODO CLOSE
-    -- 屏蔽补签功能
-    -------------------------------------
-    self.Panel_sign.img_signNum:setVisible(false)
-    self.Button_receive:setGrayEnabled(not isCanReceive);
-    self.Button_receive:setTouchEnabled(isCanReceive);
-
-    local receiveLabel = TFDirector:getChildByPath(self.Button_receive,"Label_receive")
-    if not isCanReceive then
-        receiveLabel:setTextById(1810002)
-    else
-        receiveLabel:setTextById(1810001)
-    end
-    -------------------------------------
 end
 
 function ActivityMain:updateOneSignEntry(item,index)

@@ -3,7 +3,7 @@ return {
         superType = 12,
         order = 1,
         exposedview = "icon/item/goods/1200001.png",
-        accessdes = "2470000",
+        accessdes = "190012036",
         skilltitle = "",
         effectivetime = -1,
         star = 3,

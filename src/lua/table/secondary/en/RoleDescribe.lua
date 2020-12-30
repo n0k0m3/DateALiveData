@@ -1227,7 +1227,7 @@ return {
             [4] = 100940,
             [5] = 100990,
         },
-        energyExplain = "She can restores some Magic by attacking enemies. \nEvery 1 Magic increases Ellen's DMG by 0.2% and Pierce Rate by 0.1%. She consumes 3 Magic per second.",
+        energyExplain = "Every 1 Magic increases Ellen's DMG by 0.2% and Pierce Rate by 0.1%. She consumes 3 Magic per second. Has a 30% chance to make targets bleed on hit. [Bleeding targets lose HP equal to 10% of Ellen's ATK every sec. Lasts 5s. Stacks up to 5 times.]",
         camp = "Wizard",
         energyicon = "icon/angleEnergy/1.png",
         colour = "",

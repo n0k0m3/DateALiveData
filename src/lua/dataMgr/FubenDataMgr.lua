@@ -2533,6 +2533,9 @@ function FubenDataMgr:onRecvFightOver(event)
 	                end
 	            end
 	        end
+            if not self.levelInfo_[101101] and levelCfg.id == 101101 then  --首次通关第一关要上报
+                Utils:sendHttpLog("numerical_fight_over")
+            end
 
 	        self.levelInfo_[data.levelInfo.cid] = levelInfo
 	        if not rawUnlock then

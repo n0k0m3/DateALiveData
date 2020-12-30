@@ -16534,10 +16534,10 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
-						PositionX = 28,
-						PositionY = -664,
-						LeftPositon = 28,
-						TopPosition = 664,
+						PositionX = 32,
+						PositionY = -665,
+						LeftPositon = 32,
+						TopPosition = 665,
 						relativeToName = "Panel",
 						nType = 3,
 					},
@@ -17685,8 +17685,8 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = -113,
-										PositionY = 41,
+										PositionX = -59,
+										PositionY = 42,
 									},
 									uipanelviewmodel = 
 									{
@@ -17743,7 +17743,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -17764,7 +17764,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = 4,
+												PositionY = 5,
 											},
 											width = "220",
 											ZOrder = "1",

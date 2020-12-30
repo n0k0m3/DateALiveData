@@ -101,6 +101,27 @@ function TFLanguageMgr:setUsingLanguage( language )
 	TFLanguageManager:shareLanguageManager():setAppUsingLanguage(_language)
 end
 
+
+--返回sdk需要的映射语言值
+function TFLanguageMgr:getSdkUsingLanguage()
+	local languageCodeMap = {}
+    languageCodeMap[cc.FRENCH] = "fr"
+    languageCodeMap[cc.GERMAN] = "de"
+    languageCodeMap[cc.SPANISH] = "es"
+    languageCodeMap[cc.THAI] = "th"
+    languageCodeMap[cc.INDONESIAN] = "id"
+    languageCodeMap[cc.KOREAN] = "ko"
+    languageCodeMap[cc.TRADITIONAL_CHINESE] = "zh-Hant"
+    languageCodeMap[cc.ENGLISH] = "en"
+    languageCodeMap[cc.SIMPLIFIED_CHINESE] = "cn"
+
+    local language = "en"
+    if languageCodeMap[TFLanguageMgr:getUsingLanguage()] then
+        language = languageCodeMap[TFLanguageMgr:getUsingLanguage()]
+    end
+    return language
+end
+
 return TFLanguageMgr
 
 

@@ -25,6 +25,8 @@ function SummonGetEquipmentView:initUI(ui)
     self.Spine_up = TFDirector:getChildByPath(self.Panel_root, "Spine_up")
     self.Image_name = TFDirector:getChildByPath(self.Panel_root, "Image_name")
     self.Spine_ziti = TFDirector:getChildByPath(self.Panel_root, "Spine_ziti"):hide()
+
+    self:initSkipBtn()
     self:refreshView()
 end
 
@@ -116,6 +118,25 @@ function SummonGetEquipmentView:onShow()
                 Utils:gameShare();
             end);
     end
+end
+
+function SummonGetEquipmentView:initSkipBtn()
+    self.skipBtn = TFImage:create("ui/dating/skipVideo.png")
+    self.skipBtn:setAnchorPoint(ccp(1 , 0.5))
+    --self.skipBtn:setOpacity(0)
+    self.skipBtn:Pos(1136,50)
+    self.Panel_root:addChild(self.skipBtn, 70)
+    self.skipBtn:setScale(1.5)
+
+    -- local size = self.skipBtn:getSize();
+    -- self.skipBtn:setSize(ccs(size.width * 2,self.height * 2))
+
+    self.skipBtn:onClick(function()
+        AlertManager:close()
+        EventMgr:dispatchEvent(EV_SUMMON_TOUCH_CONTINUE)
+    end)
+
+    ViewAnimationHelper.doflashAction(self.skipBtn , 1 ,0)
 end
 
 return SummonGetEquipmentView

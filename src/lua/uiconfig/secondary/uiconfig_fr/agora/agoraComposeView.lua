@@ -497,6 +497,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
+									visible = "False",
 									width = "50",
 									ZOrder = "1",
 									components = 
@@ -559,6 +560,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
+									visible = "False",
 									width = "50",
 									ZOrder = "1",
 									components = 
@@ -788,8 +790,8 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "18",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_timeNeed",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -802,9 +804,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												
+												PositionX = -1,
+												PositionY = 18,
 											},
-											width = "96",
+											width = "100",
 											ZOrder = "1",
 										},
 									},
@@ -877,7 +880,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												
+												PositionY = -24,
 											},
 											width = "97",
 											ZOrder = "1",

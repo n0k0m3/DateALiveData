@@ -69,6 +69,7 @@ return {
         },
         icon = "icon/role/dress/10210s.png",
         accessId = {
+            [1] = 4,
         },
         AngelSkillTree = "Angle_skill_10210",
     },
@@ -358,7 +359,7 @@ return {
         },
         icon = "icon/role/dress/11207s.png",
         accessId = {
-            [1] = 4,
+            [1] = 310,
         },
         AngelSkillTree = "Angle_skill_11201",
     },
@@ -432,6 +433,7 @@ return {
         },
         icon = "icon/role/dress/10401s.png",
         accessId = {
+            [1] = 4,
         },
         AngelSkillTree = "Angle_skill_1104",
     },
@@ -505,7 +507,7 @@ return {
         },
         icon = "icon/role/dress/11212s.png",
         accessId = {
-            [1] = 4,
+            [1] = 310,
         },
         AngelSkillTree = "Angle_skill_11201",
     },
@@ -579,6 +581,7 @@ return {
         },
         icon = "icon/role/dress/10405s.png",
         accessId = {
+            [1] = 310,
         },
         AngelSkillTree = "Angle_skill_1104",
     },
@@ -726,6 +729,7 @@ return {
         },
         icon = "icon/role/dress/10407s.png",
         accessId = {
+            [1] = 310,
         },
         AngelSkillTree = "Angle_skill_1104",
     },
@@ -869,6 +873,7 @@ return {
         },
         icon = "icon/role/dress/10413s.png",
         accessId = {
+            [1] = 4,
         },
         AngelSkillTree = "Angle_skill_11501",
     },
@@ -1088,6 +1093,7 @@ return {
         },
         icon = "icon/role/dress/10301s.png",
         accessId = {
+            [1] = 4,
         },
         AngelSkillTree = "Angle_skill_1103",
     },
@@ -1301,7 +1307,7 @@ return {
         },
         icon = "icon/role/dress/10305s.png",
         accessId = {
-            [1] = 4,
+            [1] = 310,
         },
         AngelSkillTree = "Angle_skill_1103",
     },
@@ -1375,7 +1381,7 @@ return {
         },
         icon = "icon/role/dress/10309s.png",
         accessId = {
-            [1] = 4,
+            [1] = 310,
         },
         AngelSkillTree = "Angle_skill_1103",
     },
@@ -1522,6 +1528,7 @@ return {
         },
         icon = "icon/role/dress/11001s.png",
         accessId = {
+            [1] = 4,
         },
         AngelSkillTree = "Angle_skill_1110",
     },
@@ -1595,6 +1602,7 @@ return {
         },
         icon = "icon/role/dress/10201s.png",
         accessId = {
+            [1] = 4,
         },
         AngelSkillTree = "Angle_skill_1102",
     },
@@ -1808,6 +1816,7 @@ return {
         },
         icon = "icon/role/dress/10208s.png",
         accessId = {
+            [1] = 4,
         },
         AngelSkillTree = "Angle_skill_10208",
     },
@@ -1881,6 +1890,7 @@ return {
         },
         icon = "icon/role/dress/12501s.png",
         accessId = {
+            [1] = 4,
         },
         AngelSkillTree = "Angle_skill_11501",
     },
@@ -1954,6 +1964,7 @@ return {
         },
         icon = "icon/role/dress/11701s.png",
         accessId = {
+            [1] = 4,
         },
         AngelSkillTree = "Angle_skill_11501",
     },
@@ -2027,6 +2038,7 @@ return {
         },
         icon = "icon/role/dress/10901s.png",
         accessId = {
+            [1] = 4,
         },
         AngelSkillTree = "Angle_skill_1109",
     },
@@ -2100,6 +2112,7 @@ return {
         },
         icon = "icon/role/dress/10101s.png",
         accessId = {
+            [1] = 4,
         },
         AngelSkillTree = "Angle_skill_1101",
     },
@@ -2390,6 +2403,7 @@ return {
         },
         icon = "icon/role/dress/10102s.png",
         accessId = {
+            [1] = 4,
         },
         AngelSkillTree = "Angle_skill_10102",
     },
@@ -2463,7 +2477,7 @@ return {
         },
         icon = "icon/role/dress/10111s.png",
         accessId = {
-            [1] = 4,
+            [1] = 310,
         },
         AngelSkillTree = "Angle_skill_1101",
     },
@@ -2537,6 +2551,7 @@ return {
         },
         icon = "icon/role/dress/12401s.png",
         accessId = {
+            [1] = 4,
         },
         AngelSkillTree = "Angle_skill_11501",
     },
@@ -2610,6 +2625,7 @@ return {
         },
         icon = "icon/role/dress/11601s.png",
         accessId = {
+            [1] = 4,
         },
         AngelSkillTree = "Angle_skill_11501",
     },
@@ -2683,6 +2699,7 @@ return {
         },
         icon = "icon/role/dress/10801s.png",
         accessId = {
+            [1] = 4,
         },
         AngelSkillTree = "Angle_skill_1108",
     },
@@ -2757,6 +2774,7 @@ return {
         },
         icon = "icon/role/dress/10108s.png",
         accessId = {
+            [1] = 4,
         },
         AngelSkillTree = "Angle_skill_1301",
     },
@@ -2902,6 +2920,7 @@ return {
         },
         icon = "icon/role/dress/10109s.png",
         accessId = {
+            [1] = 310,
         },
         AngelSkillTree = "Angle_skill_1301",
     },
@@ -2975,6 +2994,7 @@ return {
         },
         icon = "icon/role/dress/12301_1s.png",
         accessId = {
+            [1] = 4,
         },
         AngelSkillTree = "Angle_skill_11501",
     },
@@ -3048,6 +3068,7 @@ return {
         },
         icon = "icon/role/dress/11501_1s.png",
         accessId = {
+            [1] = 4,
         },
         AngelSkillTree = "Angle_skill_11501",
     },
@@ -3121,6 +3142,7 @@ return {
         },
         icon = "icon/role/dress/10701s.png",
         accessId = {
+            [1] = 4,
         },
         AngelSkillTree = "Angle_skill_1107",
     },
@@ -3401,6 +3423,7 @@ return {
         },
         icon = "icon/role/dress/12701s.png",
         accessId = {
+            [1] = 4,
         },
         AngelSkillTree = "Angle_skill_10102",
     },
@@ -3547,6 +3570,7 @@ return {
         },
         icon = "icon/role/dress/12201_1s.png",
         accessId = {
+            [1] = 4,
         },
         AngelSkillTree = "Angle_skill_11501",
     },
@@ -3620,6 +3644,7 @@ return {
         },
         icon = "icon/role/dress/11401_1s.png",
         accessId = {
+            [1] = 4,
         },
         AngelSkillTree = "Angle_skill_11401",
     },
@@ -3693,6 +3718,7 @@ return {
         },
         icon = "icon/role/dress/10601s.png",
         accessId = {
+            [1] = 4,
         },
         AngelSkillTree = "Angle_skill_1106",
     },
@@ -4271,6 +4297,7 @@ return {
         },
         icon = "icon/role/dress/12001s.png",
         accessId = {
+            [1] = 4,
         },
         AngelSkillTree = "Angle_skill_11201",
     },
@@ -4778,6 +4805,7 @@ return {
         },
         icon = "icon/role/dress/11301_1s.png",
         accessId = {
+            [1] = 4,
         },
         AngelSkillTree = "Angle_skill_11301",
     },
@@ -4852,6 +4880,7 @@ return {
         },
         icon = "icon/role/dress/10501s.png",
         accessId = {
+            [1] = 4,
         },
         AngelSkillTree = "Angle_skill_1105",
     },
@@ -4925,6 +4954,7 @@ return {
         },
         icon = "icon/role/dress/10209s.png",
         accessId = {
+            [1] = 4,
         },
         AngelSkillTree = "Angle_skill_10209",
     },
@@ -4999,7 +5029,7 @@ return {
         },
         icon = "icon/role/dress/10505s.png",
         accessId = {
-            [1] = 4,
+            [1] = 310,
         },
         AngelSkillTree = "Angle_skill_1105",
     },

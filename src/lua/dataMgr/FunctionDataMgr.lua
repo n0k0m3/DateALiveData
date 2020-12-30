@@ -101,6 +101,8 @@ function FunctionDataMgr:initFuncList()
         [406] = self.jTurnTable,    -- 转盘活动
         [307] = self.jSimulateSummon,    -- 模拟召唤
         [308] = self.jActivityByHasActivity,    -- 活动跳转，强制无活动不打开
+        [500] = self.jWarStore,             --夏拉姆商店跳转
+        [501] = self.jBagAndShowGemDecose,             --打开背包并且打开宝石分解界面
     }
     local tempFunc = {}
     for k, v in pairs(self.funcList_) do
@@ -957,6 +959,12 @@ end
 function FunctionDataMgr:jBag()
     if not self:checkFuncOpen() then return end
     Utils:openView("bag.BagView")
+end
+
+function FunctionDataMgr:jBagAndShowGemDecose( )
+    if not self:checkFuncOpen() then return end
+    Utils:openView("bag.BagView" , EC_BagCategory.BAOSHI)
+    Utils:openView("fairyNew.BaoshiDecomposeView")
 end
 
 function FunctionDataMgr:jEmail()

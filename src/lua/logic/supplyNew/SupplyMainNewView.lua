@@ -29,20 +29,27 @@ function SupplyMainNewView:initData(defaultLeftIdx, pageSelectId)
         table.insert(self.tabBtnCfg , {name = 14300099,icon = "ui/recharge/gifts/new_1/005.png", tabType = ENUM_SUPPLYS.CONTRACT})
     end
 
-    local giftTypeList = {12 , 21 , 22 , 23 , 24 , 25}
-    local nameList = {190000102 , 190000103 ,190000104 ,190000105 ,1650009 ,190000310}
+    local giftTypeList = { 21 , 22 , 23 , 24 , 25}
+    local nameList = { 190000103 ,190000104 ,190000105 ,1650009 ,190000310}
     for k ,v in pairs(giftTypeList) do
         local realGiftDaya = RechargeDataMgr:getGiftDataByInterfaceType(v)
         if #realGiftDaya > 0 then
             table.insert(self.tabBtnCfg  , {
                 name = nameList[k],
                 icon = "ui/recharge/gifts/new_1/006.png",
-                tabType = ENUM_SUPPLYS.GIFT
+                tabType = ENUM_SUPPLYS.GIFT,
+                nowIdx = #self.tabBtnCfg + 1,
+                giftType = v
             })
         end
     end
 
-
+    for k ,v in pairs(self.tabBtnCfg) do
+        if v.giftType and  v.giftType == defaultLeftIdx then
+            defaultLeftIdx = v.nowIdx
+            break
+        end
+    end
     self.defaultLeftIdx = defaultLeftIdx or 1
     self.pageSelectId = pageSelectId
     self.selectIndex = nil
@@ -65,6 +72,9 @@ function SupplyMainNewView:initUI(ui)
 
     self:initLeftTabBtns()
     self:selectTabIdx(self.defaultLeftIdx)
+    if self.defaultLeftIdx >= 5 then
+        self.leftTabListView:scrollToItem(self.defaultLeftIdx)
+    end
 end
 
 function SupplyMainNewView:registerEvents()
@@ -222,8 +232,8 @@ function SupplyMainNewView:selectTabIdx(idx)
         end)
     end
 
-    local giftTypeList = {12 , 21 , 22 , 23 , 24 , 25}
-    local nameList = {190000102 , 190000103 ,190000104 ,190000105 ,1650009 ,190000310}
+    local giftTypeList = { 21 , 22 , 23 , 24 , 25}
+    local nameList = { 190000103 ,190000104 ,190000105 ,1650009 ,190000310}
     for k ,v in pairs(giftTypeList) do
         local realGiftDaya = RechargeDataMgr:getGiftDataByInterfaceType(v)
         if #realGiftDaya > 0 then

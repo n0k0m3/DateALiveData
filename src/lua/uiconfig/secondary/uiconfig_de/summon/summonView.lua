@@ -2346,7 +2346,7 @@ local t =
 											controlID = "Label_hotCount_2_Image_hotCount_Panel_hotSPot_Panel_root_Panel-summonView_Layer1_summon_Game",
 											UUID = "d85188e9_b52d_439c_b421_21dfb50c9bd5",
 											anchorPoint = "False",
-											anchorPointX = "0",
+											anchorPointX = "0.5",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
@@ -2361,7 +2361,7 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "16",
+											fontSize = "14",
 											fontStroke = 
 											{
 												IsStroke = false,
@@ -2372,7 +2372,7 @@ local t =
 											ignoreSize = "False",
 											name = "Label_hotCount_2",
 											nTextAlign = "1",
-											nTextHAlign = "0",
+											nTextHAlign = "1",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -2382,10 +2382,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -135,
-												PositionY = 1,
+												PositionX = 3,
+												PositionY = -3,
 											},
-											width = "300",
+											width = "350",
 											ZOrder = "1",
 										},
 										{
@@ -2407,14 +2407,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "23",
+											height = "18",
 											ignoreSize = "True",
 											name = "Label_hotCount",
 											nTextAlign = "1",
@@ -2428,9 +2428,10 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -142,
+												PositionX = -114,
+												PositionY = -3,
 											},
-											width = "24",
+											width = "20",
 											ZOrder = "1",
 										},
 									},
@@ -3436,6 +3437,8 @@ local t =
 									height = "46",
 									ignoreSize = "True",
 									name = "Image_upTips",
+									scaleX = "0.8",
+									scaleY = "0.8",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -3444,8 +3447,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 52,
-										PositionY = 35,
+										PositionX = 15,
+										PositionY = 36,
 									},
 									width = "168",
 									ZOrder = "1",

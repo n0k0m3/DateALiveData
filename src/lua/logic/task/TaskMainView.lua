@@ -245,12 +245,15 @@ function TaskMainView:showTask()
     if tabData.type_ == EC_TaskPage.MAIN then
         self.Panel_main:show()
         self:showMainTask()
+        self:updateOneKeyGetInfo(self.Panel_main ,EC_TaskType.MAIN)
     elseif tabData.type_ == EC_TaskPage.DAILY then
         self.Panel_daily:show()
         self:showDailyTask()
+        self:updateOneKeyGetInfo(self.Panel_daily ,EC_TaskType.DAILY)
     elseif tabData.type_ == EC_TaskPage.HONOR then
         self.Panel_honor:show()
         self:showHonorTask()
+        self:updateOneKeyGetInfo(self.Panel_honor ,EC_TaskType.HONOR)
     elseif tabData.type_ == EC_TaskPage.ACTIVITY then
         self.Panel_activity:show()
         self:showActivityTask()
@@ -1276,6 +1279,7 @@ end
 function TaskMainView:registerEvents()
     EventMgr:addEventListener(self, EV_TASK_UPDATE, handler(self.onTaskUpdateEvent, self))
     EventMgr:addEventListener(self, EV_TASK_RECEIVE, handler(self.onTaskReceiveEvent, self))
+    EventMgr:addEventListener(self, EV_TASK_RECEIVE_LIST, handler(self.onTaskReceiveEvent, self))
     EventMgr:addEventListener(self, EV_BAG_ITEM_UPDATE, handler(self.onUpdateActiveEvent, self))
 
     EventMgr:addEventListener(self, EV_ACTIVITY_WAR_ORDER_GET_REWARD, handler(self.onUpdateTrainingUI, self))
@@ -1426,6 +1430,89 @@ function TaskMainView:excuteGuideFunc6001(guideFuncId)
 
     self.guideFuncId = guideFuncId
     GameGuide:guideTargetNode(targetNode)
+end
+
+--新增一键领取按钮
+function TaskMainView:updateOneKeyGetInfo(parentNode , taskType)
+    if  not parentNode.oneKeyButton then
+        local oneButton = TFButton:create("ui/task/1101.png")
+        oneButton:setScale9Enabled(true)
+        oneButton:setContentSize(CCSize(40 , 100))
+        oneButton:setPosition(535 , 185)
+        local label_empyTetx = TFLabel:create()
+        label_empyTetx:setFontName("font/MFLiHei_Noncommercial.ttf")
+        
+        label_empyTetx:setAnchorPoint(ccp(0.5 , 0.5))
+        label_empyTetx:setPosition(0 , 0)
+        label_empyTetx:setTextById(700007)
+        --self.label_empyTetx:enableOutline(ccc4(0,0,0,255), 1)
+
+        oneButton:addChild(label_empyTetx , 1)
+        parentNode.oneKeyButton = oneButton
+
+        local code = TFLanguageMgr:getUsingLanguage()
+        if (code == cc.SIMPLIFIED_CHINESE) or (code == cc.TRADITIONAL_CHINESE) then
+            label_empyTetx:setTextAreaSize(CCSize(40 , 100))
+            label_empyTetx:setRotation(0)
+            label_empyTetx:setFontSize(20)
+        else
+            label_empyTetx:setTextAreaSize(CCSize(100 , 0))
+            label_empyTetx:setRotation(90)
+            label_empyTetx:setFontSize(16)
+        end
+
+        parentNode:addChild(oneButton , 1)
+
+        parentNode.oneKeyButton:onClick(function( ... )
+            local rewardList = {}
+            local taskData = TaskDataMgr:getTask(taskType)
+            for i, v in ipairs(taskData) do
+                local taskInfo = TaskDataMgr:getTaskInfo(v)
+                --剔除百日登陆活动红点
+                if taskInfo.status == EC_TaskStatus.GET and v~= 799000 then
+                    table.insert(rewardList , v)
+                end
+            end
+            if taskType == EC_TaskType.DAILY then
+                for k , v in pairs(self.activeTask_) do
+                    local taskInfo = TaskDataMgr:getTaskInfo(v)
+                    if taskInfo.status == EC_TaskStatus.GET and v~= 799000 then
+                        table.insert(rewardList , v)
+                    end
+                end
+                 
+            end
+            if #rewardList > 0 then
+                TaskDataMgr:send_TASK_SUBMIT_TASK_LIST(rewardList)
+            end
+        end)
+    end
+         local rewardList = {}
+            local taskData = TaskDataMgr:getTask(taskType)
+            for i, v in ipairs(taskData) do
+                local taskInfo = TaskDataMgr:getTaskInfo(v)
+                --剔除百日登陆活动红点
+                if taskInfo.status == EC_TaskStatus.GET and v~= 799000 then
+                    table.insert(rewardList , v)
+                end
+            end
+            if taskType == EC_TaskType.DAILY then
+                for k , v in pairs(self.activeTask_) do
+                    local taskInfo = TaskDataMgr:getTaskInfo(v)
+                    if taskInfo.status == EC_TaskStatus.GET and v~= 799000 then
+                        table.insert(rewardList , v)
+                    end
+                end
+                 
+            end
+            if #rewardList > 0 then
+                parentNode.oneKeyButton:setTouchEnabled(true)
+                parentNode.oneKeyButton:setGrayEnabled(false)
+            else
+                parentNode.oneKeyButton:setTouchEnabled(false)
+                parentNode.oneKeyButton:setGrayEnabled(true)
+            end
+       
 end
 
 return TaskMainView

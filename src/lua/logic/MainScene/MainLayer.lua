@@ -2195,10 +2195,7 @@ function MainLayer:createCustomBtnOnBear(texture , pos , openUrl  , needParam)
             local sid = string.url_encode(ServerDataMgr:getServerGroupID())
             local role_name = string.url_encode(MainPlayer:getPlayerName())
             local role_id = string.url_encode(MainPlayer:getPlayerId())
-            local lang = "en"
-            if (TFLanguageMgr:getUsingLanguage() == cc.SIMPLIFIED_CHINESE) or (TFLanguageMgr:getUsingLanguage() == cc.TRADITIONAL_CHINESE) then
-                lang = "cn"
-            end
+            local lang = TFLanguageMgr:getSdkUsingLanguage()
             if CC_TARGET_PLATFORM == CC_PLATFORM_IOS then
                 url = url .."vname=" ..vname .."&uid=" ..uid .."&sid=" ..sid .."&role_name=" ..role_name .."&role_id=" ..role_id .."&lang=" ..lang
                 local idfa = string.url_encode(((TFDeviceInfo:getMachineOnlyID()) or 1))

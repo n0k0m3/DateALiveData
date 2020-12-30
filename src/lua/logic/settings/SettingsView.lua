@@ -126,6 +126,7 @@ function SettingsView:initPanelbtns()
             SettingDataMgr:setSoundEffect(self.tmsettingData.sound.effect)
             SettingDataMgr:setSoundVoice(self.tmsettingData.sound.speak)
             -- SettingDataMgr:setAttactEffect(self.tmsettingData.battle.attack)
+            SettingDataMgr:setAwakeEffect(self.tmsettingData.battle.awake)
             SettingDataMgr:setBattleFPS(self.tmsettingData.battle.fps)
             SettingDataMgr:setBattleRoke(self.tmsettingData.battle.roke)
             SettingDataMgr:setDatingRedPack(self.tmsettingData.other.datingRedPack)
@@ -853,9 +854,6 @@ function SettingsView:initPanelBattle()
 
     local Panel_redPack = TFDirector:getChildByPath(self.Panel_battle, "Panel_redPack")
     local Panel_awake_effect = TFDirector:getChildByPath(self.Panel_battle, "Panel_awake_effect")
-    -- TODO CLOSE
-    -- 屏蔽觉醒动画设置
-    Panel_awake_effect:setVisible(false)
 
     -- for i = 1, 2 do 
     --     local btn = TFDirector:getChildByPath(Image_battle_blur, "Button_common_"..i)

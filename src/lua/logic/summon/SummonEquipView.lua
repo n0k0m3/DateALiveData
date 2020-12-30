@@ -55,6 +55,12 @@ function SummonEquipView:initUI(ui)
     self.Label_tip2 = TFDirector:getChildByPath(self.ui, "Label_tip2")
     self.Label_desc = TFDirector:getChildByPath(self.ui, "Label_desc")
     self:uiLogic()
+
+    self:timeOut(function ( ... )
+        showMessageBox(TextDataMgr:getText(190000503) ,EC_MessageBoxType.ok)
+    end)
+
+    self:createTipsButton(TFDirector:getChildByPath(self.ui, "Panel_root"))
 end
 
 function SummonEquipView:uiLogic()
@@ -113,6 +119,7 @@ function SummonEquipView:addTargetEquip(index,equipId)
     end
     ListView_star:removeAllItems()
 
+    foo.Image_select:runAction(RepeatForever:create(RotateBy:create(0.1 , 5)))
     foo.Image_select:setVisible(false)
 
     --拥有
@@ -483,6 +490,33 @@ end
 
 function SummonEquipView:removeUI()
 	self.super.removeUI(self)
+end
+
+function SummonEquipView:createTipsButton(parentNode )
+    local oneButton = TFButton:create("ui/task/1101.png")
+        oneButton:setScale9Enabled(true)
+        oneButton:setContentSize(CCSize(100 , 40))
+        oneButton:setPosition(146 , -249)
+
+        local label_empyTetx = TFLabel:create()
+        label_empyTetx:setFontName("font/MFLiHei_Noncommercial.ttf")
+        label_empyTetx:setTextAreaSize(CCSize(100 , 0))
+        label_empyTetx:setAnchorPoint(ccp(0.5 , 0.5))
+        label_empyTetx:setPosition(0 ,0)
+        label_empyTetx:setTextById(1702395)
+        if (code == cc.SIMPLIFIED_CHINESE) or (code == cc.TRADITIONAL_CHINESE) then
+            label_empyTetx:setFontSize(20)
+        else
+            label_empyTetx:setFontSize(16)
+        end
+        --self.label_empyTetx:enableOutline(ccc4(0,0,0,255), 1)
+
+        oneButton:addChild(label_empyTetx , 1)
+
+        oneButton:onClick(function( ... )
+            showMessageBox(TextDataMgr:getText(190000503) ,EC_MessageBoxType.ok)
+        end)
+        parentNode:addChild(oneButton , 1)
 end
 
 return SummonEquipView

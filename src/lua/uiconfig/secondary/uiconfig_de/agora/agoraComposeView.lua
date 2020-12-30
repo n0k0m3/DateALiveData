@@ -497,6 +497,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
+									visible = "False",
 									width = "50",
 									ZOrder = "1",
 									components = 
@@ -559,6 +560,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
+									visible = "False",
 									width = "50",
 									ZOrder = "1",
 									components = 
@@ -582,7 +584,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = -75,
+												PositionY = -73,
 											},
 											width = "567",
 											ZOrder = "1",
@@ -788,8 +790,8 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_timeNeed",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -804,7 +806,7 @@ local t =
 											{
 												
 											},
-											width = "97",
+											width = "100",
 											ZOrder = "1",
 										},
 									},
@@ -856,15 +858,15 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "22",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_countDown",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -879,7 +881,7 @@ local t =
 											{
 												
 											},
-											width = "159",
+											width = "100",
 											ZOrder = "1",
 										},
 									},

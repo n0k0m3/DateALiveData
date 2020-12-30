@@ -146,6 +146,9 @@ end
 function VideoView:onVideoPlayComplete(videoPlayer_, isSkip)
     if isSkip and not self.topLayer then
         self:stopVideo()
+        if self.jumpCallBack then
+            self.jumpCallBack()
+        end
         return
     end
 
@@ -220,6 +223,10 @@ function VideoView:onTraitCollectionDidChange( )
     -- body
     if self.videoPlayer_ == nil then return end
     self.videoPlayer_:updateUIUserInterfaceStyle()
+end
+
+function  VideoView:bindJumpCustomFunction(jumpCallBack)
+    self.jumpCallBack = jumpCallBack
 end
 
 return VideoView

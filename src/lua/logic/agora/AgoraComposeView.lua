@@ -234,7 +234,9 @@ function AgoraComposeView:setItem(item, itemdata)
         -- ))
         item.btCompose:setTouchEnabled(false)
         item.btCompose:show()
-        item.imgContdownBar:show()
+
+        -- TODO CLOSE 隐藏进度
+        --item.imgContdownBar:show()
         item.btGet:hide()
     elseif itemdata.status == EC_AgoraComposeStatus.CanGet then
         item.imgCountDown:hide()

@@ -39,6 +39,7 @@ function LogonHelper:HeitaoSdkLoginCallback(code, msg)
     elseif msg == TextDataMgr:getText(800108) then
         --self:loginVerification();
         dump("EventMgr:dispatchEvent(LoginLayer.LoginSuccess)")
+        Utils:sendHttpLog("sdk_login")
         EventMgr:dispatchEvent("LoginLayer.LoginSuccess")
     end
 end

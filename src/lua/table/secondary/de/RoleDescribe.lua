@@ -1227,7 +1227,7 @@ return {
             [4] = 100940,
             [5] = 100990,
         },
-        energyExplain = "Sie kann etwas Magie wiederherstellen, indem sie Feinde angreift. \nJede 1 Magie erhöht Ellens SCH um 0,2% und die Durchbohren-Rate um 0,1%. Sie verbraucht 3 Magie pro Sekunde.",
+        energyExplain = "Jede 1 Magie erhöht Ellens SCH um 0,2% und die Durchbohren-Rate um 0,1%. Sie verbraucht 3 Magie pro Sekunde. Hat eine 30% Chance, getroffenen Zielen Bluten zuzufügen. \n[Blutende Ziele verlieren pro Sekunde HP in Höhe von 10% von Ellens ANG. Dauert 5 Sek. Stapelt bis zu 5 Schichten. ]",
         camp = "Zauberer",
         energyicon = "icon/angleEnergy/1.png",
         colour = "",
