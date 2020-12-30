@@ -307,7 +307,7 @@ return {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 1,
+        order = 2,
         grid = 1,
         priceVal = {
             [1] = 180,
@@ -14454,7 +14454,7 @@ return {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 5,
+        order = 6,
         grid = 17,
         priceVal = {
             [1] = 500,
@@ -14606,7 +14606,7 @@ return {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 6,
+        order = 7,
         grid = 18,
         priceVal = {
             [1] = 200,
@@ -20646,7 +20646,7 @@ return {
         batchBuy = true,
         buyEndTime = {
         },
-        order = 2,
+        order = 3,
         grid = 2,
         priceVal = {
             [1] = 1800,
@@ -24128,7 +24128,7 @@ return {
             hour = 0,
             day = 25,
         },
-        order = 3,
+        order = 4,
         grid = 15,
         priceVal = {
             [1] = 180,
@@ -24563,7 +24563,7 @@ return {
             hour = 0,
             day = 25,
         },
-        order = 4,
+        order = 5,
         grid = 16,
         priceVal = {
             [1] = 1800,
@@ -53364,7 +53364,7 @@ return {
             [570056] = 1,
         },
         showBeginTime = "",
-        openContVal = 99,
+        openContVal = 1,
         title = 0,
         sellDescribtion = "",
         showEndTime = "",

@@ -378,7 +378,7 @@ local t =
 											{
 												
 												{
-													controlID = "lab_signLastNum_lab_signLastNum_img_signNum_Panel_sign_Panel_root_Panel-ActivityMain_Layer1_activity_Game",
+													controlID = "lab_signLastNum-Copy1_lab_signLastNum_img_signNum_Panel_sign_Panel_root_Panel-ActivityMain_Layer1_activity_Game",
 													UUID = "978408bc_b96c_4244_bf22_7472ae49db78",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
@@ -405,7 +405,7 @@ local t =
 													},
 													height = "23",
 													ignoreSize = "True",
-													name = "lab_signLastNum",
+													name = "lab_signLastNum-Copy1",
 													nTextAlign = "1",
 													nTextHAlign = "1",
 													sizepercentx = "0",

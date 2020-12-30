@@ -717,7 +717,7 @@ local t =
 											{
 												PositionX = 92,
 											},
-											width = "72",
+											width = "84",
 											ZOrder = "1",
 										},
 										{
@@ -2569,7 +2569,7 @@ local t =
 													height = "36",
 													ignoreSize = "False",
 													KeyBoradType = "0",
-													maxLengthEnable = "True;maxLength:7",
+													maxLengthEnable = "True;maxLength:8",
 													name = "TextField_inputCode",
 													outlineColor = "#FF000000",
 													outlineSize = "1",
@@ -3247,7 +3247,7 @@ local t =
 										PositionX = -420,
 										PositionY = -300,
 									},
-									width = "195",
+									width = "199",
 									ZOrder = "1",
 								},
 							},
@@ -4626,7 +4626,7 @@ local t =
 										PositionX = 154,
 										PositionY = 30,
 									},
-									width = "71",
+									width = "83",
 									ZOrder = "1",
 								},
 							},
@@ -4968,7 +4968,7 @@ local t =
 												PositionX = -328,
 												PositionY = -38,
 											},
-											width = "27",
+											width = "28",
 											ZOrder = "1",
 										},
 										{
@@ -5014,7 +5014,7 @@ local t =
 												PositionX = -260,
 												PositionY = 7,
 											},
-											width = "184",
+											width = "185",
 											ZOrder = "1",
 										},
 										{
@@ -6861,7 +6861,7 @@ local t =
 												PositionX = -328,
 												PositionY = -38,
 											},
-											width = "27",
+											width = "28",
 											ZOrder = "1",
 										},
 										{
@@ -6907,7 +6907,7 @@ local t =
 												PositionX = -260,
 												PositionY = 7,
 											},
-											width = "184",
+											width = "185",
 											ZOrder = "1",
 										},
 										{

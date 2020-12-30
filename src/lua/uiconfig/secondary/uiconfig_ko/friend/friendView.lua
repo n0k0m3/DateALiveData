@@ -717,7 +717,7 @@ local t =
 											{
 												PositionX = 92,
 											},
-											width = "72",
+											width = "84",
 											ZOrder = "1",
 										},
 										{
@@ -2002,7 +2002,7 @@ local t =
 											{
 												
 											},
-											width = "23",
+											width = "21",
 											ZOrder = "1",
 										},
 									},
@@ -2524,7 +2524,7 @@ local t =
 													{
 														
 													},
-													width = "17",
+													width = "16",
 													ZOrder = "1",
 												},
 											},
@@ -2571,7 +2571,7 @@ local t =
 													height = "36",
 													ignoreSize = "False",
 													KeyBoradType = "0",
-													maxLengthEnable = "True;maxLength:7",
+													maxLengthEnable = "True;maxLength:8",
 													name = "TextField_inputCode",
 													outlineColor = "#FF000000",
 													outlineSize = "1",
@@ -2857,7 +2857,7 @@ local t =
 											{
 												PositionY = 15,
 											},
-											width = "17",
+											width = "16",
 											ZOrder = "1",
 										},
 										{
@@ -3081,7 +3081,7 @@ local t =
 													{
 														
 													},
-													width = "15",
+													width = "14",
 													ZOrder = "1",
 												},
 											},
@@ -3253,7 +3253,7 @@ local t =
 										PositionX = -420,
 										PositionY = -300,
 									},
-									width = "227",
+									width = "235",
 									ZOrder = "1",
 								},
 							},
@@ -4632,7 +4632,7 @@ local t =
 										PositionX = 154,
 										PositionY = 29,
 									},
-									width = "71",
+									width = "83",
 									ZOrder = "1",
 								},
 							},
@@ -5020,7 +5020,7 @@ local t =
 												PositionX = -260,
 												PositionY = 7,
 											},
-											width = "215",
+											width = "217",
 											ZOrder = "1",
 										},
 										{
@@ -5112,7 +5112,7 @@ local t =
 												PositionX = 38,
 												PositionY = 7,
 											},
-											width = "62",
+											width = "69",
 											ZOrder = "1",
 										},
 										{
@@ -6913,7 +6913,7 @@ local t =
 												PositionX = -260,
 												PositionY = 7,
 											},
-											width = "215",
+											width = "217",
 											ZOrder = "1",
 										},
 										{
@@ -7005,7 +7005,7 @@ local t =
 												PositionX = 38,
 												PositionY = 7,
 											},
-											width = "62",
+											width = "69",
 											ZOrder = "1",
 										},
 										{

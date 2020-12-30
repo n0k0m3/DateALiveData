@@ -525,6 +525,15 @@ function ActivityMain:updateSign()
     self.Panel_sign.lab_signLastNum:setText(canSignDay)
     self.Panel_sign.img_signNum:setVisible(nil ~= _cfg)
 
+    --修改多语言补签文本
+    local label_sign = self.Panel_sign.img_signNum:getChildByName("lab_signLastNum-Copy1")
+    label_sign:setTextById(190000541 ,canSignDay)
+    label_sign:setAnchorPoint(ccp(0 , 0.5))
+    label_sign:setPositionX(0)
+    self.Panel_sign.lab_signLastNum:setText("")
+    self.Panel_sign.lab_signLastNum:setPositionX(-120)
+
+
     for index = 1, entryCnt do
         local i = (index-1) % col + 1
         local j = math.ceil(index / col)
@@ -552,7 +561,7 @@ function ActivityMain:updateSign()
     if not isCanReceive and not canSignAain then
         receiveLabel:setTextById(1810002);
     elseif not isCanReceive and  canSignAain then
-        receiveLabel:setText("补签")
+        receiveLabel:setTextById(190000540)
     else
         receiveLabel:setTextById(1810001);
     end

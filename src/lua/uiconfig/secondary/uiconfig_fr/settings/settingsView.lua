@@ -2371,7 +2371,7 @@ local t =
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "23",
+															height = "18",
 															ignoreSize = "True",
 															name = "Label_open",
 															nTextAlign = "1",
@@ -2388,7 +2388,7 @@ local t =
 																PositionX = 738,
 																PositionY = -43,
 															},
-															width = "77",
+															width = "63",
 															ZOrder = "1",
 														},
 														{
@@ -4909,7 +4909,6 @@ local t =
 												Layout="Absolute",
 												nType = "0"
 											},
-											visible = "False",
 											width = "600",
 											ZOrder = "1",
 											components = 
@@ -6736,7 +6735,7 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
-															text = "觉醒动画",
+															text = "Animation d'Éveil",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 

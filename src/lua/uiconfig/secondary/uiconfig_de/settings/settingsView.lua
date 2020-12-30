@@ -4830,7 +4830,6 @@ local t =
 												Layout="Absolute",
 												nType = "0"
 											},
-											visible = "False",
 											width = "600",
 											ZOrder = "1",
 											components = 
@@ -6641,15 +6640,15 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "26",
+															fontSize = "20",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "30",
-															ignoreSize = "True",
+															height = "0",
+															ignoreSize = "False",
 															name = "Label_title",
 															nTextAlign = "1",
 															nTextHAlign = "1",
@@ -6657,7 +6656,7 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
-															text = "觉醒动画",
+															text = "Erwachen-Animation",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
@@ -6665,7 +6664,7 @@ local t =
 																PositionX = 65,
 																PositionY = -45,
 															},
-															width = "106",
+															width = "120",
 															ZOrder = "1",
 														},
 														{

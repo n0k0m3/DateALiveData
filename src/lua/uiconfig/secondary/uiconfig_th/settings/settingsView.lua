@@ -1630,7 +1630,7 @@ local t =
 																		PositionX = 93,
 																		PositionY = -40,
 																	},
-																	width = "100",
+																	width = "103",
 																	ZOrder = "1",
 																},
 																{
@@ -2296,7 +2296,7 @@ local t =
 																PositionX = 50,
 																PositionY = -45,
 															},
-															width = "104",
+															width = "106",
 															ZOrder = "1",
 														},
 														{
@@ -3816,7 +3816,7 @@ local t =
 																PositionX = 65,
 																PositionY = -45,
 															},
-															width = "63",
+															width = "70",
 															ZOrder = "1",
 														},
 														{
@@ -5204,7 +5204,7 @@ local t =
 																PositionX = 670,
 																PositionY = -45,
 															},
-															width = "54",
+															width = "58",
 															ZOrder = "1",
 														},
 														{
@@ -5250,7 +5250,7 @@ local t =
 																PositionX = 390,
 																PositionY = -45,
 															},
-															width = "54",
+															width = "58",
 															ZOrder = "1",
 														},
 													},
@@ -5800,7 +5800,7 @@ local t =
 																PositionX = 225,
 																PositionY = -45,
 															},
-															width = "34",
+															width = "40",
 															ZOrder = "1",
 														},
 														{
@@ -5846,7 +5846,7 @@ local t =
 																PositionX = 750,
 																PositionY = -45,
 															},
-															width = "42",
+															width = "44",
 															ZOrder = "1",
 														},
 														{
@@ -6218,7 +6218,7 @@ local t =
 																PositionX = 118,
 																PositionY = -75,
 															},
-															width = "78",
+															width = "83",
 															ZOrder = "1",
 														},
 													},
@@ -6606,7 +6606,7 @@ local t =
 																PositionX = 118,
 																PositionY = -75,
 															},
-															width = "137",
+															width = "142",
 															ZOrder = "1",
 														},
 													},
@@ -6735,7 +6735,7 @@ local t =
 															sizepercenty = "0",
 															sizeType = "0",
 															srcBlendFunc = "770",
-															text = "觉醒动画",
+															text = "แอนิเมชั่นตื่นตัว",
 															touchAble = "False",
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
@@ -6743,7 +6743,7 @@ local t =
 																PositionX = 65,
 																PositionY = -45,
 															},
-															width = "106",
+															width = "137",
 															ZOrder = "1",
 														},
 														{
@@ -6994,7 +6994,7 @@ local t =
 																PositionY = -75,
 															},
 															visible = "False",
-															width = "91",
+															width = "93",
 															ZOrder = "1",
 														},
 													},
@@ -9375,7 +9375,7 @@ local t =
 																PositionX = 65,
 																PositionY = -45,
 															},
-															width = "123",
+															width = "134",
 															ZOrder = "1",
 														},
 														{
@@ -10111,7 +10111,7 @@ local t =
 																	{
 																		PositionY = -31,
 																	},
-																	width = "44",
+																	width = "42",
 																	ZOrder = "1",
 																},
 															},
@@ -10189,7 +10189,7 @@ local t =
 																	{
 																		PositionY = -31,
 																	},
-																	width = "44",
+																	width = "42",
 																	ZOrder = "1",
 																},
 															},
@@ -10267,7 +10267,7 @@ local t =
 																	{
 																		PositionY = -31,
 																	},
-																	width = "44",
+																	width = "42",
 																	ZOrder = "1",
 																},
 															},
@@ -10345,7 +10345,7 @@ local t =
 																	{
 																		PositionY = -31,
 																	},
-																	width = "44",
+																	width = "42",
 																	ZOrder = "1",
 																},
 															},

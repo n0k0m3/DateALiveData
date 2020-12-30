@@ -5379,4 +5379,9 @@ return {
         res = "ui/fuli/seven_sign/002.png",
         res_en = "ui/fuli/seven_sign/002_fr.png",
     },
+    [1077] = {
+        id = 1077,
+        res = "ui/activity/picture/icon8.png",
+        res_en = "ui/activity/picture/icon8_fr.png",
+    },
 }
