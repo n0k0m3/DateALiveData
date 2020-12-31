@@ -30,7 +30,8 @@ function TaskActivityView:initUI(ui)
     self.Panel_taskItem = TFDirector:getChildByPath(self.Panel_prefab, "Panel_taskItem")
 
     self.Image_ad = TFDirector:getChildByPath(self.Panel_root, "Image_ad")
-    self.Label_date = TFDirector:getChildByPath(self.Image_ad, "Label_date"):hide()
+    self.Label_date = TFDirector:getChildByPath(self.Image_ad, "Label_date")
+    self.Label_date:setFontSize(18)
     self.Label_timing = TFDirector:getChildByPath(self.Image_ad, "Label_timing"):hide()
 
     self.Label_time_tip = TFDirector:getChildByPath(self.Image_ad, "Label_time_tip")

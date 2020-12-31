@@ -636,6 +636,8 @@ function LoginLayer:showWebView()
 end
 
 function LoginLayer:openNewNoticeLayer( ... )
+
+	if true  then return end  ---暂时屏蔽唤起公告界面
 	
 	local fullModuleName = string.format("lua.logic.%s", "common.AnnouncementLayer")
 	 local view = requireNew(fullModuleName):new()

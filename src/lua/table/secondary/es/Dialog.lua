@@ -16139,15 +16139,41 @@ return {
         scriptId = 7019,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 473,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 60,
+                text = "¡Maravilloso! ",
+                delay = 1820,
+            },
+            [2] = {
+                speed = 60,
+                text = "Esta es la primera vez que veo tan excelente inversión. ",
+                delay = 3100,
+            },
+            [3] = {
+                speed = 60,
+                text = "Mira, Ellen. ",
+                delay = 1400,
+            },
+            [4] = {
+                speed = 60,
+                text = "Ese es nuestro sueño, ",
+                delay = 1820,
+            },
+            [5] = {
+                speed = 60,
+                text = "nuestro anhelado deseo.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
