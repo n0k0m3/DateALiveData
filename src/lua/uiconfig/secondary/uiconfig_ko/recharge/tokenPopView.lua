@@ -264,7 +264,7 @@ local t =
 										PositionX = -191,
 										PositionY = 179,
 									},
-									width = "107",
+									width = "100",
 									ZOrder = "1",
 								},
 								{
@@ -938,7 +938,7 @@ local t =
 										PositionX = 217,
 										PositionY = 8,
 									},
-									width = "13",
+									width = "12",
 									ZOrder = "1",
 									components = 
 									{
@@ -1545,7 +1545,7 @@ local t =
 												PositionX = -40,
 											},
 											visible = "False",
-											width = "10",
+											width = "13",
 											ZOrder = "1",
 										},
 									},
@@ -1645,7 +1645,7 @@ local t =
 											{
 												PositionX = -14,
 											},
-											width = "58",
+											width = "61",
 											ZOrder = "1",
 										},
 									},
@@ -1745,7 +1745,7 @@ local t =
 											{
 												PositionX = -14,
 											},
-											width = "58",
+											width = "61",
 											ZOrder = "1",
 										},
 										{
@@ -1918,7 +1918,7 @@ local t =
 													{
 														PositionX = -14,
 													},
-													width = "58",
+													width = "61",
 													ZOrder = "1",
 												},
 												{
@@ -2294,11 +2294,11 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "23",
-							ignoreSize = "True",
+							height = "0",
+							ignoreSize = "False",
 							name = "des",
-							nTextAlign = "1",
-							nTextHAlign = "1",
+							nTextAlign = "0",
+							nTextHAlign = "0",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
@@ -2309,9 +2309,9 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = -170,
-								PositionY = -29,
+								PositionY = -18,
 							},
-							width = "292",
+							width = "420",
 							ZOrder = "1",
 						},
 						{

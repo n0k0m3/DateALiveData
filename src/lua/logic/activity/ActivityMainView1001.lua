@@ -47,7 +47,7 @@ Panel_activityItem.setActivityName = function (self,name)
     self.ImageSelect.activityName:setTextById(name) 
     self.ImageNormal.activityName:setTextById(name)
 
-    
+    self.ImageNormal.activityName:setFontColor(ccc3(235 , 149 , 245))
 end
 
 Panel_activityItem.setImage = function (self,titleIcon)
@@ -82,9 +82,7 @@ function updateActivtyItem(self,index)
     local foo  = self.activityItem_[item]
     foo:setActivityName(activity.extendData.name)
     --local select = string.sub(activity.titleIcon,1,-5)
-    --感恩节活动暂时屏蔽 TODO
-    --foo:setImage(activity.titleIcon)
-    foo:setImage("")
+    foo:setImage(activity.titleIcon)
 
     foo:setTouchEnabled(true)
     foo:onClick(function()

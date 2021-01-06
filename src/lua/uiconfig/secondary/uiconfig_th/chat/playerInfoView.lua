@@ -278,7 +278,6 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = 20,
-														PositionY = 6,
 													},
 													width = "39",
 													ZOrder = "1",
@@ -327,6 +326,7 @@ local t =
 														PositionX = 22,
 														PositionY = -10,
 													},
+													visible = "False",
 													width = "25",
 													ZOrder = "1",
 												},
@@ -965,7 +965,7 @@ local t =
 														PercentX = 8,
 														PercentY = 50,
 													},
-													width = "21",
+													width = "25",
 													ZOrder = "1",
 												},
 												{
@@ -1015,7 +1015,7 @@ local t =
 														PercentX = 110.32,
 														PercentY = 50,
 													},
-													width = "128",
+													width = "127",
 													ZOrder = "1",
 												},
 												{
@@ -1240,7 +1240,7 @@ local t =
 														PositionX = 35,
 														PositionY = 20,
 													},
-													width = "60",
+													width = "64",
 													ZOrder = "1",
 												},
 												{
@@ -1450,7 +1450,7 @@ local t =
 														PositionX = 98,
 														PositionY = 27,
 													},
-													width = "30",
+													width = "29",
 													ZOrder = "1",
 												},
 												{
@@ -1497,7 +1497,7 @@ local t =
 														PositionX = 524,
 														PositionY = 27,
 													},
-													width = "86",
+													width = "85",
 													ZOrder = "1",
 												},
 												{
@@ -2138,7 +2138,7 @@ local t =
 												PositionX = 6,
 												PositionY = -84,
 											},
-											width = "28",
+											width = "27",
 											ZOrder = "1",
 										},
 										{

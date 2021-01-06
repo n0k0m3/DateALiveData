@@ -134,7 +134,7 @@ local t =
 										StrokeColor = "#FF3A1316",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "25",
 									ignoreSize = "True",
 									name = "label_time",
 									nTextAlign = "1",
@@ -153,7 +153,7 @@ local t =
 										PositionY = 165,
 									},
 									visible = "False",
-									width = "140",
+									width = "114",
 									ZOrder = "1",
 								},
 								{
@@ -243,7 +243,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_welfareSignView_1",
 											nTextAlign = "1",
@@ -259,7 +259,7 @@ local t =
 											{
 												
 											},
-											width = "98",
+											width = "78",
 											ZOrder = "1",
 										},
 									},
@@ -324,7 +324,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_welfareSignView_1",
 											nTextAlign = "1",
@@ -340,7 +340,7 @@ local t =
 											{
 												
 											},
-											width = "98",
+											width = "75",
 											ZOrder = "1",
 										},
 									},
@@ -371,7 +371,7 @@ local t =
 										StrokeColor = "#FF474CB6",
 										StrokeSize = 2,
 									},
-									height = "36",
+									height = "34",
 									ignoreSize = "True",
 									name = "Label_desc",
 									nTextAlign = "1",
@@ -390,7 +390,7 @@ local t =
 										PositionY = 172,
 									},
 									visible = "False",
-									width = "212",
+									width = "124",
 									ZOrder = "1",
 								},
 								{
@@ -674,7 +674,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_time_tip",
 									nTextAlign = "0",
@@ -689,10 +689,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -400,
-										PositionY = 237,
+										PositionX = -401,
+										PositionY = -23,
 									},
-									width = "90",
+									width = "99",
 									ZOrder = "1",
 								},
 								{
@@ -721,7 +721,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_time_end",
 									nTextAlign = "0",
@@ -736,10 +736,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -438,
-										PositionY = 175,
+										PositionX = -439,
+										PositionY = -85,
 									},
-									width = "90",
+									width = "99",
 									ZOrder = "1",
 								},
 								{
@@ -768,7 +768,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_time_begin",
 									nTextAlign = "0",
@@ -783,10 +783,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -418,
-										PositionY = 206,
+										PositionX = -419,
+										PositionY = -54,
 									},
-									width = "90",
+									width = "99",
 									ZOrder = "1",
 								},
 								{
@@ -815,7 +815,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "25",
+									height = "23",
 									ignoreSize = "True",
 									name = "Label_tip",
 									nTextAlign = "1",
@@ -833,7 +833,7 @@ local t =
 										PositionY = 246,
 									},
 									visible = "False",
-									width = "84",
+									width = "82",
 									ZOrder = "1",
 								},
 							},
@@ -1058,7 +1058,7 @@ local t =
 														TopPosition = 8,
 														relativeToName = "Panel_reward",
 													},
-													width = "33",
+													width = "36",
 													ZOrder = "1",
 												},
 											},
@@ -1091,7 +1091,7 @@ local t =
 										StrokeColor = "#FF514483",
 										StrokeSize = 1,
 									},
-									height = "27",
+									height = "25",
 									ignoreSize = "True",
 									name = "Label_day",
 									nTextAlign = "1",
@@ -1110,7 +1110,7 @@ local t =
 										PositionY = -37,
 									},
 									visible = "False",
-									width = "65",
+									width = "50",
 									ZOrder = "1",
 								},
 								{
@@ -1182,7 +1182,7 @@ local t =
 										TopPosition = 133,
 										relativeToName = "Panel",
 									},
-									width = "63",
+									width = "50",
 									ZOrder = "1",
 								},
 								{
@@ -1322,7 +1322,7 @@ local t =
 										TopPosition = 8,
 										relativeToName = "Panel_reward",
 									},
-									width = "34",
+									width = "37",
 									ZOrder = "1",
 								},
 								{
@@ -1466,7 +1466,7 @@ local t =
 									{
 										PositionY = 67,
 									},
-									width = "69",
+									width = "52",
 									ZOrder = "1",
 								},
 								{

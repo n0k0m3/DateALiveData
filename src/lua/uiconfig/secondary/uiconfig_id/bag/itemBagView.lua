@@ -1441,14 +1441,14 @@ local t =
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
-													backGroundScale9Enable = "False",
+													backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 													classname = "MEButton",
 													ClickHighLightEnabled = "True",
 													dstBlendFunc = "771",
 													flipX = "False",
 													flipY = "False",
 													height = "50",
-													ignoreSize = "True",
+													ignoreSize = "False",
 													name = "Button_sellStar1",
 													normal = "ui/bag/new_ui/new_14.png",
 													sizepercentx = "0",
@@ -1462,7 +1462,7 @@ local t =
 														PositionY = 36,
 													},
 													UItype = "Button",
-													width = "136",
+													width = "170",
 													ZOrder = "1",
 													components = 
 													{
@@ -1487,7 +1487,7 @@ local t =
 															touchAble = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 43,
+																PositionX = 60,
 															},
 															width = "40",
 															ZOrder = "1",
@@ -1512,7 +1512,7 @@ local t =
 															touchAble = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 43,
+																PositionX = 60,
 															},
 															visible = "False",
 															width = "49",
@@ -1584,7 +1584,7 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = -58,
+																PositionX = -78,
 																PositionY = 9,
 															},
 															width = "107",
@@ -1598,14 +1598,14 @@ local t =
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
-													backGroundScale9Enable = "False",
+													backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 													classname = "MEButton",
 													ClickHighLightEnabled = "True",
 													dstBlendFunc = "771",
 													flipX = "False",
 													flipY = "False",
 													height = "50",
-													ignoreSize = "True",
+													ignoreSize = "False",
 													name = "Button_sellStar2",
 													normal = "ui/bag/new_ui/new_14.png",
 													sizepercentx = "0",
@@ -1615,11 +1615,11 @@ local t =
 													touchAble = "True",
 													UILayoutViewModel = 
 													{
-														PositionX = -80,
+														PositionX = -59,
 														PositionY = 36,
 													},
 													UItype = "Button",
-													width = "136",
+													width = "170",
 													ZOrder = "1",
 													components = 
 													{
@@ -1644,7 +1644,7 @@ local t =
 															touchAble = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 43,
+																PositionX = 60,
 															},
 															width = "40",
 															ZOrder = "1",
@@ -1669,7 +1669,7 @@ local t =
 															touchAble = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 43,
+																PositionX = 60,
 															},
 															visible = "False",
 															width = "49",
@@ -1767,7 +1767,7 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = -58,
+																PositionX = -78,
 																PositionY = 9,
 															},
 															width = "107",
@@ -1781,14 +1781,14 @@ local t =
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
-													backGroundScale9Enable = "False",
+													backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 													classname = "MEButton",
 													ClickHighLightEnabled = "True",
 													dstBlendFunc = "771",
 													flipX = "False",
 													flipY = "False",
 													height = "50",
-													ignoreSize = "True",
+													ignoreSize = "False",
 													name = "Button_sellStar3",
 													normal = "ui/bag/new_ui/new_14.png",
 													sizepercentx = "0",
@@ -1798,11 +1798,11 @@ local t =
 													touchAble = "True",
 													UILayoutViewModel = 
 													{
-														PositionX = 80,
+														PositionX = 123,
 														PositionY = 36,
 													},
 													UItype = "Button",
-													width = "136",
+													width = "170",
 													ZOrder = "1",
 													components = 
 													{
@@ -1827,7 +1827,7 @@ local t =
 															touchAble = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 43,
+																PositionX = 60,
 															},
 															width = "40",
 															ZOrder = "1",
@@ -1852,7 +1852,7 @@ local t =
 															touchAble = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 43,
+																PositionX = 60,
 															},
 															visible = "False",
 															width = "49",
@@ -1976,7 +1976,7 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = -58,
+																PositionX = -77,
 																PositionY = 9,
 															},
 															width = "107",
@@ -2761,7 +2761,7 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 34,
+												PositionX = 45,
 											},
 											width = "30",
 											ZOrder = "1",
@@ -2904,7 +2904,7 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 34,
+														PositionX = 45,
 													},
 													width = "30",
 													ZOrder = "1",
@@ -3008,7 +3008,7 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 34,
+														PositionX = 45,
 													},
 													width = "30",
 													ZOrder = "1",

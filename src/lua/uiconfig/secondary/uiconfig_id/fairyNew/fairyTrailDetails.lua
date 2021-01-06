@@ -1548,6 +1548,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
+									visible = "False",
 									width = "480",
 									ZOrder = "1",
 									components = 
@@ -5281,7 +5282,7 @@ local t =
 													controlID = "Label_skill_2_name_Panel_Panel_Equipment_Panel_right_Panel_base_Panel-fairyTrailDetails_Layer1_fairyNew_Game",
 													UUID = "496fc8be_c09f_420c_a993_e7798c89334e",
 													anchorPoint = "False",
-													anchorPointX = "0.5",
+													anchorPointX = "1",
 													anchorPointY = "0.5",
 													classname = "MELabel",
 													ColorMixing = "#FFF0F8FF",
@@ -5318,7 +5319,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 457,
+														PositionX = 498,
 														PositionY = 276,
 														LeftPositon = 405,
 														TopPosition = 8,
@@ -5368,7 +5369,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 457,
+														PositionX = 440,
 														PositionY = 254,
 														LeftPositon = 373,
 														TopPosition = 365,
@@ -6551,8 +6552,8 @@ local t =
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "30",
-															ignoreSize = "True",
+															height = "0",
+															ignoreSize = "False",
 															name = "label_fangan",
 															nTextAlign = "1",
 															nTextHAlign = "1",
@@ -6567,7 +6568,7 @@ local t =
 															{
 																
 															},
-															width = "97",
+															width = "104",
 															ZOrder = "1",
 														},
 													},

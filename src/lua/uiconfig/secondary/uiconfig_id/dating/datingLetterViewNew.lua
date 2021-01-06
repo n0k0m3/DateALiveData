@@ -1697,8 +1697,8 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -246,
-												PositionY = 188,
+												PositionX = -396,
+												PositionY = 135,
 												relativeToName = "Panel",
 											},
 											width = "79",
@@ -2110,7 +2110,7 @@ local t =
 														PositionX = 172,
 														PositionY = -16,
 													},
-													width = "42",
+													width = "41",
 													ZOrder = "1",
 												},
 												{
@@ -2156,7 +2156,7 @@ local t =
 														PositionX = 105,
 														PositionY = 12,
 													},
-													width = "142",
+													width = "158",
 													ZOrder = "1",
 												},
 												{
@@ -2263,7 +2263,7 @@ local t =
 														PositionX = 17,
 														PositionY = -1,
 													},
-													width = "51",
+													width = "50",
 													ZOrder = "1",
 												},
 												{
@@ -2421,7 +2421,7 @@ local t =
 													{
 														
 													},
-													width = "81",
+													width = "75",
 													ZOrder = "1",
 												},
 											},
@@ -2727,7 +2727,7 @@ local t =
 														PositionY = -158,
 													},
 													visible = "False",
-													width = "208",
+													width = "204",
 													ZOrder = "1",
 												},
 												{
@@ -2774,7 +2774,7 @@ local t =
 														PositionY = -194,
 													},
 													visible = "False",
-													width = "208",
+													width = "204",
 													ZOrder = "1",
 												},
 											},
@@ -2812,13 +2812,13 @@ local t =
 											controlID = "title_bg_cg_bg_Panel_pageItem_Panel_prefab_Panel-datingLetterViewNew_Layer1_dating_Game",
 											UUID = "c24c7669_79fc_459f_b7cb_f2ebe405b75c",
 											anchorPoint = "False",
-											anchorPointX = "0.5",
+											anchorPointX = "0",
 											anchorPointY = "0.5",
-											backGroundScale9Enable = "False",
+											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											classname = "MEImage",
 											dstBlendFunc = "771",
 											height = "62",
-											ignoreSize = "True",
+											ignoreSize = "False",
 											name = "title_bg",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -2828,13 +2828,13 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -364,
+												PositionX = -453,
 												PositionY = 189,
 												LeftPositon = 239,
 												TopPosition = 78,
 												relativeToName = "Panel_pageItem",
 											},
-											width = "180",
+											width = "300",
 											ZOrder = "1",
 											components = 
 											{
@@ -2843,7 +2843,7 @@ local t =
 													controlID = "Label_chapterTitle_title_bg_cg_bg_Panel_pageItem_Panel_prefab_Panel-datingLetterViewNew_Layer1_dating_Game",
 													UUID = "ee021e64_4700_4963_84f6_2e4265c26bbf",
 													anchorPoint = "False",
-													anchorPointX = "0.5",
+													anchorPointX = "1",
 													anchorPointY = "0.5",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
@@ -2879,17 +2879,17 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -37,
+														PositionX = 82,
 														PositionY = 17,
 													},
-													width = "51",
+													width = "48",
 													ZOrder = "1",
 												},
 												{
 													controlID = "Label_chapter_title_bg_cg_bg_Panel_pageItem_Panel_prefab_Panel-datingLetterViewNew_Layer1_dating_Game",
 													UUID = "51516196_f70b_43a0_ab53_e4bbc2599bf5",
 													anchorPoint = "False",
-													anchorPointX = "0.5",
+													anchorPointX = "0",
 													anchorPointY = "0.5",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
@@ -2925,7 +2925,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 19,
+														PositionX = 90,
 														PositionY = 16,
 													},
 													width = "46",
@@ -2935,7 +2935,7 @@ local t =
 													controlID = "Label_mainName_title_bg_cg_bg_Panel_pageItem_Panel_prefab_Panel-datingLetterViewNew_Layer1_dating_Game",
 													UUID = "be49a7ce_5939_4412_a63e_b00349fa38ba",
 													anchorPoint = "False",
-													anchorPointX = "0.5",
+													anchorPointX = "0",
 													anchorPointY = "0.5",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
@@ -2957,8 +2957,8 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "0",
-													ignoreSize = "False",
+													height = "21",
+													ignoreSize = "True",
 													name = "Label_mainName",
 													nTextAlign = "1",
 													nTextHAlign = "1",
@@ -2971,10 +2971,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = -4,
+														PositionX = 35,
 														PositionY = -9,
 													},
-													width = "155",
+													width = "109",
 													ZOrder = "1",
 												},
 											},

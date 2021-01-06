@@ -665,6 +665,33 @@ local t =
 									ZOrder = "1",
 								},
 								{
+									controlID = "img_name_bubble_Panel_avatars_Panel_root_Panel-avatarChangeView_Layer1_playerInfo_Game",
+									UUID = "a4b3fa4a_2f9f_4e95_bee1_2d77917cdb72",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MEImage",
+									dstBlendFunc = "771",
+									height = "65",
+									ignoreSize = "False",
+									name = "img_name_bubble",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									texturePath = "ui/playerInfo/avatar/008_1.png",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = 883,
+										PositionY = 258,
+										relativeToName = "Panel",
+									},
+									width = "218",
+									ZOrder = "1",
+								},
+								{
 									controlID = "panel_head_Panel_avatars_Panel_root_Panel-avatarChangeView_Layer1_playerInfo_Game",
 									UUID = "0d24c51e_a041_4982_ba1c_1345d7e86bf0",
 									anchorPoint = "False",
@@ -948,11 +975,11 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 878,
-										PositionY = 260,
+										PositionY = 255,
 										LeftPositon = 664,
 										TopPosition = 419,
 									},
-									width = "180",
+									width = "126",
 									ZOrder = "1",
 								},
 								{
@@ -1202,7 +1229,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "28",
 											ignoreSize = "True",
 											name = "Label_Txt",
 											nTextAlign = "1",
@@ -1216,9 +1243,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = 2,
+												
 											},
-											width = "100",
+											width = "86",
 											ZOrder = "1",
 											components = 
 											{
@@ -1263,8 +1290,9 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionY = -14,
+														PositionY = -13,
 													},
+													visible = "False",
 													width = "45",
 													ZOrder = "1",
 												},
@@ -1357,7 +1385,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "25",
 											ignoreSize = "True",
 											name = "Label_Txt",
 											nTextAlign = "1",
@@ -1371,9 +1399,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = 2,
+												
 											},
-											width = "187",
+											width = "149",
 											ZOrder = "1",
 											components = 
 											{
@@ -1420,6 +1448,7 @@ local t =
 													{
 														PositionY = -14,
 													},
+													visible = "False",
 													width = "43",
 													ZOrder = "1",
 												},
@@ -1512,7 +1541,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "32",
+											height = "25",
 											ignoreSize = "True",
 											name = "Label_Txt",
 											nTextAlign = "1",
@@ -1526,9 +1555,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = 2,
+												
 											},
-											width = "175",
+											width = "138",
 											ZOrder = "1",
 											components = 
 											{
@@ -1575,6 +1604,7 @@ local t =
 													{
 														PositionY = -14,
 													},
+													visible = "False",
 													width = "47",
 													ZOrder = "1",
 												},
@@ -2438,7 +2468,7 @@ local t =
 											UUID = "d83b0b55_06a6_4988_bf16_9fb9b65cc5c7",
 											anchorPoint = "False",
 											anchorPointX = "0.5",
-											anchorPointY = "0.5",
+											anchorPointY = "0",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
@@ -2462,7 +2492,7 @@ local t =
 											height = "0",
 											ignoreSize = "False",
 											name = "Label_desc",
-											nTextAlign = "1",
+											nTextAlign = "2",
 											nTextHAlign = "1",
 											sizepercentx = "0",
 											sizepercenty = "0",
@@ -2473,7 +2503,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = -66,
+												PositionY = -81,
 											},
 											width = "160",
 											ZOrder = "1",
@@ -2655,6 +2685,7 @@ local t =
 			"ui/common/scroll_bar_01.png",
 			"ui/common/scroll_bar_02.png",
 			"ui/playerInfo/avatar/008.png",
+			"ui/playerInfo/avatar/008_1.png",
 			"ui/playerInfo/avatar/TXBK_moren_0.png",
 			"icon/hero/face/10201.png",
 			"ui/playerInfo/avatar/TXBK_moren_1.png",

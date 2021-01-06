@@ -7910,7 +7910,6 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									visible = "False",
 									width = "750",
 									ZOrder = "1",
 									components = 
@@ -9697,14 +9696,14 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "26",
+															fontSize = "22",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "30",
+															height = "25",
 															ignoreSize = "True",
 															name = "Label_fairyMain_1",
 															nTextAlign = "1",
@@ -9720,7 +9719,7 @@ local t =
 															{
 																
 															},
-															width = "141",
+															width = "117",
 															ZOrder = "1",
 														},
 														{

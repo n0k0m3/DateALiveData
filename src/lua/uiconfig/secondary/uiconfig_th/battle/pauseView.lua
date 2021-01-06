@@ -1002,11 +1002,11 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEImage",
 									dstBlendFunc = "771",
 									height = "40",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "Image_challenge",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -1016,10 +1016,10 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 129,
+										PositionX = 145,
 										PositionY = 171,
 									},
-									width = "148",
+									width = "180",
 									ZOrder = "1",
 									components = 
 									{
@@ -1064,7 +1064,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -63,
+												PositionX = -84,
 											},
 											width = "136",
 											ZOrder = "1",
@@ -1257,11 +1257,11 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEImage",
 									dstBlendFunc = "771",
 									height = "40",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "Image_battleView_2",
 									sizepercentx = "96",
 									sizepercenty = "65",
@@ -1271,10 +1271,10 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 129,
+										PositionX = 152,
 										PositionY = 291,
 									},
-									width = "148",
+									width = "200",
 									ZOrder = "1",
 									components = 
 									{
@@ -1319,7 +1319,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -63,
+												PositionX = -92,
 											},
 											width = "136",
 											ZOrder = "1",
@@ -1445,11 +1445,11 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEImage",
 									dstBlendFunc = "771",
 									height = "40",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "Image_buff",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -1459,10 +1459,10 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 77,
+										PositionX = 98,
 										PositionY = 301,
 									},
-									width = "148",
+									width = "180",
 									ZOrder = "1",
 									components = 
 									{
@@ -1507,7 +1507,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -63,
+												PositionX = -84,
 											},
 											width = "148",
 											ZOrder = "1",
@@ -1552,7 +1552,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -45,
+												PositionX = -84,
 												PositionY = -12,
 											},
 											visible = "False",

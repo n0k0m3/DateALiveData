@@ -429,7 +429,7 @@ local t =
 									srcBlendFunc = "1",
 									titlefontName = "font/fangzheng_zhunyuan.ttf",
 									titlefontSize = "20",
-									titletext = "自动加入",
+									titletext = "เข้าร่วมอัตโนมัติ",
 									titletextColor = "#FFFFFFFF",
 									touchAble = "True",
 									UILayoutViewModel = 
@@ -845,7 +845,7 @@ local t =
 														PositionX = 105,
 														PositionY = 48,
 													},
-													width = "53",
+													width = "55",
 													ZOrder = "1",
 												},
 												{
@@ -1562,7 +1562,7 @@ local t =
 																PositionX = 78,
 																PositionY = 21,
 															},
-															width = "49",
+															width = "52",
 															ZOrder = "1",
 														},
 														{
@@ -2053,7 +2053,7 @@ local t =
 																PositionX = 78,
 																PositionY = 21,
 															},
-															width = "69",
+															width = "72",
 															ZOrder = "1",
 														},
 														{
@@ -2544,7 +2544,7 @@ local t =
 																PositionX = 78,
 																PositionY = 21,
 															},
-															width = "69",
+															width = "72",
 															ZOrder = "1",
 														},
 														{

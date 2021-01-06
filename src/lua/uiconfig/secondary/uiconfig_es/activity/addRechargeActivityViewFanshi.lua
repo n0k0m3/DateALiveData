@@ -575,14 +575,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FFD159A9",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_geted",
 											nTextAlign = "1",
@@ -600,7 +600,7 @@ local t =
 											{
 												PositionY = 11,
 											},
-											width = "118",
+											width = "108",
 											ZOrder = "1",
 										},
 									},
@@ -748,14 +748,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FFD159A9",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_get",
 											nTextAlign = "1",
@@ -773,7 +773,7 @@ local t =
 											{
 												PositionY = 11,
 											},
-											width = "103",
+											width = "94",
 											ZOrder = "1",
 										},
 									},
@@ -860,14 +860,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "18",
 											fontStroke = 
 											{
 												IsStroke = true,
 												StrokeColor = "#FFD159A9",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "23",
 											ignoreSize = "True",
 											name = "Label_money",
 											nTextAlign = "1",
@@ -883,7 +883,7 @@ local t =
 											{
 												PositionY = 10,
 											},
-											width = "37",
+											width = "34",
 											ZOrder = "1",
 										},
 									},

@@ -281,7 +281,6 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							visible = "False",
 							width = "1136",
 							ZOrder = "1",
 							components = 
@@ -863,7 +862,7 @@ local t =
 													classname = "MEImage",
 													dstBlendFunc = "771",
 													height = "32",
-													ignoreSize = "True",
+													ignoreSize = "False",
 													name = "Image_limit_type",
 													sizepercentx = "0",
 													sizepercenty = "0",
@@ -873,11 +872,10 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 46,
+														PositionX = 34,
 														PositionY = 190,
 													},
-													visible = "False",
-													width = "86",
+													width = "108",
 													ZOrder = "1",
 													components = 
 													{
@@ -922,7 +920,7 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 16,
+																PositionX = 22,
 															},
 															width = "59",
 															ZOrder = "1",
@@ -939,7 +937,7 @@ local t =
 													classname = "MEImage",
 													dstBlendFunc = "771",
 													height = "32",
-													ignoreSize = "True",
+													ignoreSize = "False",
 													name = "Image_try_type",
 													sizepercentx = "0",
 													sizepercenty = "0",
@@ -949,11 +947,10 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 46,
+														PositionX = 34,
 														PositionY = 190,
 													},
-													visible = "False",
-													width = "86",
+													width = "108",
 													ZOrder = "1",
 													components = 
 													{
@@ -998,7 +995,7 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 17,
+																PositionX = 22,
 															},
 															width = "59",
 															ZOrder = "1",
@@ -1076,7 +1073,7 @@ local t =
 																PositionX = -68,
 																PositionY = -6,
 															},
-															width = "29",
+															width = "35",
 															ZOrder = "1",
 														},
 														{
@@ -1179,7 +1176,7 @@ local t =
 																PositionX = 88,
 																PositionY = 7,
 															},
-															width = "36",
+															width = "34",
 															ZOrder = "1",
 														},
 													},
@@ -1596,7 +1593,7 @@ local t =
 																PositionX = 41,
 																PositionY = 18,
 															},
-															width = "125",
+															width = "124",
 															ZOrder = "1",
 														},
 													},
@@ -1868,7 +1865,7 @@ local t =
 																		PositionX = 53,
 																		PositionY = 15,
 																	},
-																	width = "113",
+																	width = "111",
 																	ZOrder = "1",
 																},
 																{
@@ -2059,7 +2056,7 @@ local t =
 																PositionX = -41,
 																PositionY = -2,
 															},
-															width = "124",
+															width = "123",
 															ZOrder = "1",
 														},
 														{
@@ -2540,84 +2537,8 @@ local t =
 													ZOrder = "1",
 												},
 												{
-													controlID = "Image_try_type_Panel_role_Panel_memeber_2_Panel_formation_Panel_root_Panel-fubenSquadView_Layer1_fuben_Game",
-													UUID = "adb5a499_1271_4352_bca6_a137354d09bb",
-													anchorPoint = "False",
-													anchorPointX = "0.5",
-													anchorPointY = "0.5",
-													backGroundScale9Enable = "False",
-													classname = "MEImage",
-													dstBlendFunc = "771",
-													height = "32",
-													ignoreSize = "True",
-													name = "Image_try_type",
-													sizepercentx = "0",
-													sizepercenty = "0",
-													sizeType = "0",
-													srcBlendFunc = "1",
-													texturePath = "ui/fuben/level_try.png",
-													touchAble = "False",
-													UILayoutViewModel = 
-													{
-														PositionX = 46,
-														PositionY = 190,
-													},
-													visible = "False",
-													width = "86",
-													ZOrder = "1",
-													components = 
-													{
-														
-														{
-															controlID = "Label_try_type_Image_try_type_Panel_role_Panel_memeber_2_Panel_formation_Panel_root_Panel-fubenSquadView_Layer1_fuben_Game",
-															UUID = "8200c3ef_ee11_4695_a916_da2dabbae933",
-															anchorPoint = "False",
-															anchorPointX = "0.5",
-															anchorPointY = "0.5",
-															classname = "MELabel",
-															compPath = "luacomponents.common.MEIconLabel",
-															dstBlendFunc = "771",
-															FontColor = "#FFFFFFFF",
-															fontName = "font/fangzheng_zhunyuan.ttf",
-															fontShadow = 
-															{
-																IsShadow = false,
-																ShadowColor = "#FFFFFFFF",
-																ShadowAlpha = 255,
-																OffsetX = 0,
-																OffsetY = 0,
-															},
-															fontSize = "20",
-															fontStroke = 
-															{
-																IsStroke = false,
-																StrokeColor = "#FFE6E6E6",
-																StrokeSize = 1,
-															},
-															height = "23",
-															ignoreSize = "True",
-															name = "Label_try_type",
-															nTextAlign = "1",
-															nTextHAlign = "1",
-															sizepercentx = "0",
-															sizepercenty = "0",
-															sizeType = "0",
-															srcBlendFunc = "770",
-															text = "ขีดจำกัด",
-															touchAble = "False",
-															touchScaleEnable = "False",
-															UILayoutViewModel = 
-															{
-																PositionX = 17,
-															},
-															width = "59",
-															ZOrder = "1",
-														},
-													},
-												},
-												{
 													controlID = "Image_limit_type_Panel_role_Panel_memeber_2_Panel_formation_Panel_root_Panel-fubenSquadView_Layer1_fuben_Game",
-													UUID = "3fd43824_b0a3_4f33_8cd4_3f7fec5f5218",
+													UUID = "330192ba_248a_435d_94df_f93f4f261f06",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -2625,7 +2546,7 @@ local t =
 													classname = "MEImage",
 													dstBlendFunc = "771",
 													height = "32",
-													ignoreSize = "True",
+													ignoreSize = "False",
 													name = "Image_limit_type",
 													sizepercentx = "0",
 													sizepercenty = "0",
@@ -2635,18 +2556,17 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 46,
+														PositionX = 34,
 														PositionY = 190,
 													},
-													visible = "False",
-													width = "86",
+													width = "108",
 													ZOrder = "1",
 													components = 
 													{
 														
 														{
 															controlID = "Label_limit_type_Image_limit_type_Panel_role_Panel_memeber_2_Panel_formation_Panel_root_Panel-fubenSquadView_Layer1_fuben_Game",
-															UUID = "688a97bc_d64b_4e35_8f2e_93425a790f5b",
+															UUID = "2aa3124a_7b49_4bce_bb80_ea464a9af877",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -2684,7 +2604,82 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 16,
+																PositionX = 22,
+															},
+															width = "59",
+															ZOrder = "1",
+														},
+													},
+												},
+												{
+													controlID = "Image_try_type_Panel_role_Panel_memeber_2_Panel_formation_Panel_root_Panel-fubenSquadView_Layer1_fuben_Game",
+													UUID = "e280b379_912e_4f2c_918c_35f58f5620af",
+													anchorPoint = "False",
+													anchorPointX = "0.5",
+													anchorPointY = "0.5",
+													backGroundScale9Enable = "False",
+													classname = "MEImage",
+													dstBlendFunc = "771",
+													height = "32",
+													ignoreSize = "False",
+													name = "Image_try_type",
+													sizepercentx = "0",
+													sizepercenty = "0",
+													sizeType = "0",
+													srcBlendFunc = "1",
+													texturePath = "ui/fuben/level_try.png",
+													touchAble = "False",
+													UILayoutViewModel = 
+													{
+														PositionX = 34,
+														PositionY = 190,
+													},
+													width = "108",
+													ZOrder = "1",
+													components = 
+													{
+														
+														{
+															controlID = "Label_try_type_Image_try_type_Panel_role_Panel_memeber_2_Panel_formation_Panel_root_Panel-fubenSquadView_Layer1_fuben_Game",
+															UUID = "bfb8d38b_972b_463e_92fa_0e51ea4c4da2",
+															anchorPoint = "False",
+															anchorPointX = "0.5",
+															anchorPointY = "0.5",
+															classname = "MELabel",
+															compPath = "luacomponents.common.MEIconLabel",
+															dstBlendFunc = "771",
+															FontColor = "#FFFFFFFF",
+															fontName = "font/fangzheng_zhunyuan.ttf",
+															fontShadow = 
+															{
+																IsShadow = false,
+																ShadowColor = "#FFFFFFFF",
+																ShadowAlpha = 255,
+																OffsetX = 0,
+																OffsetY = 0,
+															},
+															fontSize = "20",
+															fontStroke = 
+															{
+																IsStroke = false,
+																StrokeColor = "#FFE6E6E6",
+																StrokeSize = 1,
+															},
+															height = "23",
+															ignoreSize = "True",
+															name = "Label_try_type",
+															nTextAlign = "1",
+															nTextHAlign = "1",
+															sizepercentx = "0",
+															sizepercenty = "0",
+															sizeType = "0",
+															srcBlendFunc = "770",
+															text = "ขีดจำกัด",
+															touchAble = "False",
+															touchScaleEnable = "False",
+															UILayoutViewModel = 
+															{
+																PositionX = 22,
 															},
 															width = "59",
 															ZOrder = "1",
@@ -2762,7 +2757,7 @@ local t =
 																PositionX = -69,
 																PositionY = -6,
 															},
-															width = "29",
+															width = "35",
 															ZOrder = "1",
 														},
 														{
@@ -2865,7 +2860,7 @@ local t =
 																PositionX = 88,
 																PositionY = 7,
 															},
-															width = "36",
+															width = "34",
 															ZOrder = "1",
 														},
 													},
@@ -3279,7 +3274,7 @@ local t =
 																PositionX = 41,
 																PositionY = 18,
 															},
-															width = "125",
+															width = "124",
 															ZOrder = "1",
 														},
 													},
@@ -3550,7 +3545,7 @@ local t =
 																		PositionX = 53,
 																		PositionY = 15,
 																	},
-																	width = "113",
+																	width = "111",
 																	ZOrder = "1",
 																},
 																{
@@ -3741,7 +3736,7 @@ local t =
 																PositionX = -41,
 																PositionY = -2,
 															},
-															width = "124",
+															width = "123",
 															ZOrder = "1",
 														},
 														{
@@ -4223,7 +4218,7 @@ local t =
 												},
 												{
 													controlID = "Image_limit_type_Panel_role_Panel_memeber_3_Panel_formation_Panel_root_Panel-fubenSquadView_Layer1_fuben_Game",
-													UUID = "5114755a_68bf_4b47_acdf_2f99b3f0fef0",
+													UUID = "55c422c4_eb60_4d25_9cd8_7a77ddebd6e2",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -4231,7 +4226,7 @@ local t =
 													classname = "MEImage",
 													dstBlendFunc = "771",
 													height = "32",
-													ignoreSize = "True",
+													ignoreSize = "False",
 													name = "Image_limit_type",
 													sizepercentx = "0",
 													sizepercenty = "0",
@@ -4241,18 +4236,17 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 46,
+														PositionX = 34,
 														PositionY = 190,
 													},
-													visible = "False",
-													width = "86",
+													width = "108",
 													ZOrder = "1",
 													components = 
 													{
 														
 														{
 															controlID = "Label_limit_type_Image_limit_type_Panel_role_Panel_memeber_3_Panel_formation_Panel_root_Panel-fubenSquadView_Layer1_fuben_Game",
-															UUID = "ae498b7d_7bed_40ee_9d16_bb3d0df5e95e",
+															UUID = "72baa019_2493_4565_809e_341672a559f8",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -4290,7 +4284,7 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 17,
+																PositionX = 22,
 															},
 															width = "59",
 															ZOrder = "1",
@@ -4299,7 +4293,7 @@ local t =
 												},
 												{
 													controlID = "Image_try_type_Panel_role_Panel_memeber_3_Panel_formation_Panel_root_Panel-fubenSquadView_Layer1_fuben_Game",
-													UUID = "3f1d0229_34df_48ee_b915_e0afae5c1be3",
+													UUID = "0a231a68_6765_467b_a801_56bffe7a1035",
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
@@ -4307,7 +4301,7 @@ local t =
 													classname = "MEImage",
 													dstBlendFunc = "771",
 													height = "32",
-													ignoreSize = "True",
+													ignoreSize = "False",
 													name = "Image_try_type",
 													sizepercentx = "0",
 													sizepercenty = "0",
@@ -4317,18 +4311,17 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 46,
+														PositionX = 34,
 														PositionY = 190,
 													},
-													visible = "False",
-													width = "86",
+													width = "108",
 													ZOrder = "1",
 													components = 
 													{
 														
 														{
 															controlID = "Label_try_type_Image_try_type_Panel_role_Panel_memeber_3_Panel_formation_Panel_root_Panel-fubenSquadView_Layer1_fuben_Game",
-															UUID = "c15e78b8_feb0_4996_9d2c_08dd599aedad",
+															UUID = "ab46af34_2ee6_46fe_aa41_57bd87b9a04f",
 															anchorPoint = "False",
 															anchorPointX = "0.5",
 															anchorPointY = "0.5",
@@ -4366,7 +4359,7 @@ local t =
 															touchScaleEnable = "False",
 															UILayoutViewModel = 
 															{
-																PositionX = 17,
+																PositionX = 22,
 															},
 															width = "59",
 															ZOrder = "1",
@@ -4443,7 +4436,7 @@ local t =
 																PositionX = -69,
 																PositionY = -6,
 															},
-															width = "29",
+															width = "35",
 															ZOrder = "1",
 														},
 														{
@@ -4546,7 +4539,7 @@ local t =
 																PositionX = 88,
 																PositionY = 7,
 															},
-															width = "36",
+															width = "34",
 															ZOrder = "1",
 														},
 													},
@@ -4961,7 +4954,7 @@ local t =
 																PositionX = 41,
 																PositionY = 18,
 															},
-															width = "125",
+															width = "124",
 															ZOrder = "1",
 														},
 													},
@@ -5233,7 +5226,7 @@ local t =
 																		PositionX = 53,
 																		PositionY = 15,
 																	},
-																	width = "113",
+																	width = "111",
 																	ZOrder = "1",
 																},
 																{
@@ -5424,7 +5417,7 @@ local t =
 																PositionX = -41,
 																PositionY = -2,
 															},
-															width = "124",
+															width = "123",
 															ZOrder = "1",
 														},
 														{
@@ -6262,7 +6255,7 @@ local t =
 																		PositionX = 53,
 																		PositionY = 15,
 																	},
-																	width = "113",
+																	width = "111",
 																	ZOrder = "1",
 																},
 																{
@@ -6839,7 +6832,7 @@ local t =
 										PositionX = -45,
 										PositionY = -4,
 									},
-									width = "29",
+									width = "27",
 									ZOrder = "1",
 								},
 								{
@@ -7177,7 +7170,7 @@ local t =
 												PositionX = -196,
 												PositionY = 51,
 											},
-											width = "73",
+											width = "77",
 											ZOrder = "1",
 										},
 										{
@@ -7629,7 +7622,7 @@ local t =
 											{
 												PositionY = -1,
 											},
-											width = "27",
+											width = "26",
 											ZOrder = "1",
 											components = 
 											{
@@ -7784,7 +7777,7 @@ local t =
 														
 													},
 													visible = "False",
-													width = "136",
+													width = "143",
 													ZOrder = "1",
 												},
 											},
@@ -9337,7 +9330,7 @@ local t =
 														PositionX = 379,
 														PositionY = -2,
 													},
-													width = "38",
+													width = "37",
 													ZOrder = "1",
 												},
 											},
@@ -10395,7 +10388,7 @@ local t =
 																			{
 																				PositionX = 30,
 																			},
-																			width = "15",
+																			width = "14",
 																			ZOrder = "1",
 																		},
 																	},
@@ -10489,7 +10482,7 @@ local t =
 																			{
 																				PositionX = 10,
 																			},
-																			width = "37",
+																			width = "42",
 																			ZOrder = "1",
 																		},
 																	},
@@ -11091,7 +11084,7 @@ local t =
 																			{
 																				PositionX = 30,
 																			},
-																			width = "15",
+																			width = "14",
 																			ZOrder = "1",
 																		},
 																	},
@@ -11185,7 +11178,7 @@ local t =
 																			{
 																				PositionX = 10,
 																			},
-																			width = "37",
+																			width = "42",
 																			ZOrder = "1",
 																		},
 																	},
@@ -11788,7 +11781,7 @@ local t =
 																			{
 																				PositionX = 30,
 																			},
-																			width = "15",
+																			width = "14",
 																			ZOrder = "1",
 																		},
 																	},
@@ -11882,7 +11875,7 @@ local t =
 																			{
 																				PositionX = 10,
 																			},
-																			width = "37",
+																			width = "42",
 																			ZOrder = "1",
 																		},
 																	},
@@ -13843,7 +13836,7 @@ local t =
 														PositionX = 195,
 														PositionY = 18,
 													},
-													width = "57",
+													width = "59",
 													ZOrder = "1",
 												},
 												{
@@ -13889,7 +13882,7 @@ local t =
 														PositionX = 195,
 														PositionY = -20,
 													},
-													width = "75",
+													width = "74",
 													ZOrder = "1",
 												},
 												{
@@ -14069,7 +14062,7 @@ local t =
 										PositionX = -540,
 										PositionY = -272,
 									},
-									width = "453",
+									width = "461",
 									ZOrder = "1",
 								},
 							},
@@ -14333,7 +14326,7 @@ local t =
 												PositionX = 14,
 												PositionY = 13,
 											},
-											width = "61",
+											width = "56",
 											ZOrder = "1",
 										},
 									},
@@ -16171,6 +16164,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
+							visible = "False",
 							width = "1136",
 							ZOrder = "1",
 							components = 
@@ -16293,7 +16287,7 @@ local t =
 												PositionX = 40,
 												PositionY = -2,
 											},
-											width = "50",
+											width = "54",
 											ZOrder = "1",
 										},
 									},
@@ -16461,7 +16455,7 @@ local t =
 										PositionX = -315,
 										PositionY = -285,
 									},
-									width = "25",
+									width = "24",
 									ZOrder = "1",
 									components = 
 									{
@@ -16857,7 +16851,7 @@ local t =
 										PositionX = -67,
 										PositionY = -3,
 									},
-									width = "14",
+									width = "13",
 									ZOrder = "1",
 								},
 								{
@@ -16903,7 +16897,7 @@ local t =
 										PositionX = -67,
 										PositionY = -3,
 									},
-									width = "14",
+									width = "13",
 									ZOrder = "1",
 								},
 								{
@@ -16995,7 +16989,7 @@ local t =
 										PositionX = -94,
 										PositionY = -32,
 									},
-									width = "25",
+									width = "26",
 									ZOrder = "1",
 								},
 								{
@@ -18271,7 +18265,7 @@ local t =
 										PositionX = 392,
 										PositionY = 69,
 									},
-									width = "72",
+									width = "76",
 									ZOrder = "1",
 								},
 							},
@@ -18548,7 +18542,7 @@ local t =
 										PositionX = 122,
 										PositionY = 80,
 									},
-									width = "86",
+									width = "93",
 									ZOrder = "1",
 								},
 							},

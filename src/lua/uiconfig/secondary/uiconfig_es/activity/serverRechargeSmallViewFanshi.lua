@@ -272,7 +272,7 @@ local t =
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
 							dstBlendFunc = "771",
-							FontColor = "#FF694912",
+							FontColor = "#FFADD8E6",
 							fontName = "font/MFLiHei_Noncommercial.ttf",
 							fontShadow = 
 							{
@@ -285,8 +285,8 @@ local t =
 							fontSize = "26",
 							fontStroke = 
 							{
-								IsStroke = true,
-								StrokeColor = "#FF808080",
+								IsStroke = false,
+								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
 							height = "0",
@@ -304,8 +304,8 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -447,
-								PositionY = -9,
+								PositionX = -451,
+								PositionY = -23,
 							},
 							width = "160",
 							ZOrder = "1",
@@ -872,6 +872,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
+									visible = "False",
 									width = "10",
 									ZOrder = "1",
 									components = 
@@ -1025,7 +1026,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "28",
+													fontSize = "32",
 													fontStroke = 
 													{
 														IsStroke = true,
@@ -1050,7 +1051,7 @@ local t =
 														PositionX = 1,
 														PositionY = -2,
 													},
-													width = "200",
+													width = "239",
 													ZOrder = "1",
 												},
 											},

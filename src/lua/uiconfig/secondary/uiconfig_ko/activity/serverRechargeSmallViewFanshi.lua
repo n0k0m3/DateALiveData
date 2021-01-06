@@ -163,7 +163,6 @@ local t =
 							name = "label_time",
 							nTextAlign = "1",
 							nTextHAlign = "1",
-							rotation = "-14",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
@@ -173,8 +172,8 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -435,
-								PositionY = 162,
+								PositionX = -320,
+								PositionY = 234,
 							},
 							width = "107",
 							ZOrder = "1",
@@ -272,7 +271,7 @@ local t =
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
 							dstBlendFunc = "771",
-							FontColor = "#FF694912",
+							FontColor = "#FFADD8E6",
 							fontName = "font/MFLiHei_Noncommercial.ttf",
 							fontShadow = 
 							{
@@ -294,7 +293,7 @@ local t =
 							name = "label_tip1",
 							nTextAlign = "1",
 							nTextHAlign = "1",
-							rotation = "-10",
+							rotation = "-15",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
@@ -304,8 +303,8 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -453,
-								PositionY = -19,
+								PositionX = -457,
+								PositionY = -22,
 							},
 							width = "161",
 							ZOrder = "1",

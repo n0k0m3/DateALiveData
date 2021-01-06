@@ -96,6 +96,14 @@ function WelfareSignView:intUILogic()
 		local endDateStr = endDate:fmt("%Y.%m.%d")
 		self.Label_time_begin:setText(startDateStr)
 		self.Label_time_end:setText(endDateStr..GV_UTC_TIME_STRING)
+
+		--针对反十活动修改字体颜色
+		self.Label_time_begin:setFontColor(ccc3(235 , 149 , 245))
+		self.Label_time_end:setFontColor(ccc3(235 , 149 , 245))
+		self.Label_time_tip:setFontColor(ccc3(235 , 149 , 245))
+		self.Label_time_begin:enableOutline(ccc3(148,14 ,166) , 1)
+		self.Label_time_end:enableOutline(ccc3(148,14 ,166) , 1)
+		self.Label_time_tip:enableOutline(ccc3(148,14 ,166) , 1)
 	end
 
 	self.signItems_ = {}

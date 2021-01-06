@@ -333,7 +333,7 @@ local t =
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
-											FontColor = "#FF85670F",
+											FontColor = "#FFADD8E6",
 											fontName = "font/MFLiHei_Noncommercial.ttf",
 											fontShadow = 
 											{
@@ -350,7 +350,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "23",
 											ignoreSize = "True",
 											name = "activityName",
 											nTextAlign = "0",
@@ -366,7 +366,7 @@ local t =
 											{
 												PositionX = 134,
 											},
-											width = "83",
+											width = "82",
 											ZOrder = "1",
 										},
 										{
@@ -477,7 +477,7 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "23",
 											ignoreSize = "True",
 											name = "activityName",
 											nTextAlign = "0",
@@ -493,7 +493,7 @@ local t =
 											{
 												PositionX = 131,
 											},
-											width = "83",
+											width = "82",
 											ZOrder = "1",
 										},
 										{

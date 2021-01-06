@@ -1548,6 +1548,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
+									visible = "False",
 									width = "480",
 									ZOrder = "1",
 									components = 
@@ -6500,14 +6501,14 @@ local t =
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
-													backGroundScale9Enable = "False",
+													backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 													classname = "MEButton",
 													ClickHighLightEnabled = "True",
 													dstBlendFunc = "771",
 													flipX = "False",
 													flipY = "False",
 													height = "58",
-													ignoreSize = "True",
+													ignoreSize = "False",
 													name = "btn_changeFangAn",
 													normal = "ui/simulation_trial/spriteInfo/a7.png",
 													sizepercentx = "0",
@@ -6521,7 +6522,7 @@ local t =
 														PositionY = 50,
 													},
 													UItype = "Button",
-													width = "140",
+													width = "164",
 													ZOrder = "1",
 													components = 
 													{

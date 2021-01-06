@@ -247,7 +247,7 @@ local t =
 										PositionX = -495,
 										PositionY = 225,
 									},
-									width = "233",
+									width = "258",
 									ZOrder = "1",
 								},
 								{
@@ -321,7 +321,7 @@ local t =
 											{
 												PositionX = 10,
 											},
-											width = "68",
+											width = "64",
 											ZOrder = "1",
 										},
 									},
@@ -545,9 +545,9 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionY = 5,
+														
 													},
-													width = "132",
+													width = "154",
 													ZOrder = "1",
 												},
 												{
@@ -592,7 +592,8 @@ local t =
 													{
 														PositionY = -20,
 													},
-													width = "37",
+													visible = "False",
+													width = "36",
 													ZOrder = "1",
 												},
 											},
@@ -789,7 +790,7 @@ local t =
 													controlID = "Label_tip_Image_normal_bg_Panel_selectItem_Panel_setting_pad_Panel_root_Panel-roleSwitchSettingView_Layer1_role_Game",
 													UUID = "2af2ddc5_4ad9_4db3_8348_a40f130656ef",
 													anchorPoint = "False",
-													anchorPointX = "0",
+													anchorPointX = "1",
 													anchorPointY = "0.5",
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
@@ -825,9 +826,9 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 288,
+														PositionX = 331,
 													},
-													width = "147",
+													width = "141",
 													ZOrder = "1",
 												},
 											},
@@ -933,7 +934,7 @@ local t =
 																PositionX = -26,
 																PositionY = -1,
 															},
-															width = "153",
+															width = "143",
 															ZOrder = "1",
 														},
 														{
@@ -1005,7 +1006,7 @@ local t =
 													{
 														PositionX = 84,
 													},
-													width = "76",
+													width = "72",
 													ZOrder = "1",
 												},
 											},
@@ -1185,7 +1186,7 @@ local t =
 											{
 												PositionX = -335,
 											},
-											width = "139",
+											width = "131",
 											ZOrder = "1",
 										},
 										{
@@ -1230,7 +1231,7 @@ local t =
 											{
 												PositionX = -165,
 											},
-											width = "119",
+											width = "118",
 											ZOrder = "1",
 										},
 									},

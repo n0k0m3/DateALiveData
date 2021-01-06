@@ -4174,7 +4174,7 @@ local t =
 														OffsetX = 0,
 														OffsetY = 0,
 													},
-													fontSize = "16",
+													fontSize = "18",
 													fontStroke = 
 													{
 														IsStroke = false,

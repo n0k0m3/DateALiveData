@@ -265,11 +265,11 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEImage",
 									dstBlendFunc = "771",
 									height = "45",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "Image_resource",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -281,7 +281,7 @@ local t =
 									{
 										PositionX = -298,
 									},
-									width = "297",
+									width = "360",
 									ZOrder = "1",
 								},
 								{
@@ -371,7 +371,8 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -375,
+										PositionX = -411,
+										PositionY = 2,
 									},
 									width = "200",
 									ZOrder = "1",

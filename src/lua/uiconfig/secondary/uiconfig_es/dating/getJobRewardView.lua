@@ -524,7 +524,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							width = "140",
+							width = "200",
 							ZOrder = "1",
 							components = 
 							{
@@ -548,14 +548,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "20",
+									fontSize = "18",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "23",
+									height = "21",
 									ignoreSize = "True",
 									name = "Label_attr_name",
 									nTextAlign = "1",
@@ -569,9 +569,9 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 13,
+										PositionX = 40,
 									},
-									width = "42",
+									width = "39",
 									ZOrder = "1",
 								},
 								{
@@ -593,14 +593,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "28",
+									fontSize = "24",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "32",
+									height = "27",
 									ignoreSize = "True",
 									name = "Label_attr_value",
 									nTextAlign = "1",
@@ -614,10 +614,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 18,
-										PositionY = 1,
+										PositionX = 46,
+										PositionY = 2,
 									},
-									width = "32",
+									width = "28",
 									ZOrder = "1",
 								},
 							},

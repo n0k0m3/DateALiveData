@@ -143,7 +143,7 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -19,
+								PositionX = 4,
 								PositionY = 247,
 							},
 							uipanelviewmodel = 
@@ -162,11 +162,11 @@ local t =
 									anchorPoint = "False",
 									anchorPointX = "0.5",
 									anchorPointY = "0.5",
-									backGroundScale9Enable = "False",
+									backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 									classname = "MEImage",
 									dstBlendFunc = "771",
 									height = "45",
-									ignoreSize = "True",
+									ignoreSize = "False",
 									name = "Image_resource",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -178,7 +178,7 @@ local t =
 									{
 										PositionX = -271,
 									},
-									width = "297",
+									width = "357",
 									ZOrder = "1",
 								},
 								{
@@ -221,7 +221,7 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -355,
+										PositionX = -379,
 										PositionY = 2,
 									},
 									width = "200",
@@ -579,11 +579,11 @@ local t =
 													anchorPoint = "False",
 													anchorPointX = "0.5",
 													anchorPointY = "0.5",
-													backGroundScale9Enable = "False",
+													backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 													classname = "MEImage",
 													dstBlendFunc = "771",
 													height = "25",
-													ignoreSize = "True",
+													ignoreSize = "False",
 													name = "Image_giftActivityView6_1",
 													sizepercentx = "0",
 													sizepercenty = "0",
@@ -595,7 +595,7 @@ local t =
 													{
 														
 													},
-													width = "155",
+													width = "183",
 													ZOrder = "-1",
 												},
 											},
@@ -640,7 +640,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 10,
+												PositionX = -77,
 												PositionY = -216,
 											},
 											width = "26",

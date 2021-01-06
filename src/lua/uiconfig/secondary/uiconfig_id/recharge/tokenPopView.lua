@@ -645,7 +645,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "140",
+													height = "23",
 													ignoreSize = "True",
 													name = "Label_tokenPopView_1",
 													nTextAlign = "1",
@@ -662,7 +662,7 @@ local t =
 													{
 														
 													},
-													width = "40",
+													width = "76",
 													ZOrder = "1",
 												},
 											},
@@ -750,7 +750,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "140",
+													height = "23",
 													ignoreSize = "True",
 													name = "Label_tokenPopView_1",
 													nTextAlign = "1",
@@ -767,7 +767,7 @@ local t =
 													{
 														
 													},
-													width = "40",
+													width = "75",
 													ZOrder = "1",
 												},
 											},
@@ -1803,7 +1803,7 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "23",
+													height = "17",
 													ignoreSize = "True",
 													name = "discountScale",
 													nTextAlign = "1",
@@ -1819,7 +1819,7 @@ local t =
 													{
 														PositionY = 13,
 													},
-													width = "122",
+													width = "91",
 													ZOrder = "1",
 												},
 											},
@@ -2295,11 +2295,11 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "23",
-							ignoreSize = "True",
+							height = "0",
+							ignoreSize = "False",
 							name = "des",
-							nTextAlign = "1",
-							nTextHAlign = "1",
+							nTextAlign = "0",
+							nTextHAlign = "0",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
@@ -2310,9 +2310,9 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = -170,
-								PositionY = -29,
+								PositionY = -21,
 							},
-							width = "117",
+							width = "450",
 							ZOrder = "1",
 						},
 						{
@@ -2356,7 +2356,7 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = -170,
-								PositionY = 29,
+								PositionY = 7,
 							},
 							width = "130",
 							ZOrder = "1",

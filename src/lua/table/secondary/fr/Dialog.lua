@@ -13389,15 +13389,41 @@ return {
         scriptId = 6016,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 392,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 60,
+                text = "Hmm ? ",
+                delay = 880,
+            },
+            [2] = {
+                speed = 60,
+                text = "Je ne t'entends pas très bien... ",
+                delay = 1700,
+            },
+            [3] = {
+                speed = 60,
+                text = "si bien... ",
+                delay = 840,
+            },
+            [4] = {
+                speed = 60,
+                text = "Hold on, ",
+                delay = 1180,
+            },
+            [5] = {
+                speed = 60,
+                text = "Attends, je vais sortir mon oreillette.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -16113,15 +16139,41 @@ return {
         scriptId = 7019,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 473,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 60,
+                text = "Merveilleux ! ",
+                delay = 1820,
+            },
+            [2] = {
+                speed = 60,
+                text = "C'est la première fois que je vois une si belle inversion. ",
+                delay = 3100,
+            },
+            [3] = {
+                speed = 60,
+                text = "Regarde, Ellen. ",
+                delay = 1400,
+            },
+            [4] = {
+                speed = 60,
+                text = "C’est notre rêve, ",
+                delay = 1820,
+            },
+            [5] = {
+                speed = 60,
+                text = "notre souhait le plus cher.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -20417,15 +20469,36 @@ return {
         scriptId = 71006,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 599,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Le nombre d'ennemis a été réduit de façon drastique ! Et...",
+                delay = 1000,
+            },
+            [2] = {
+                speed = 40,
+                text = "Et...",
+                delay = 400,
+            },
+            [3] = {
+                speed = 40,
+                text = "ils ont commencé à battre en retraite ! ",
+                delay = 1000,
+            },
+            [4] = {
+                speed = 40,
+                text = "Est-ce que tout le monde va bien ? ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -21147,15 +21220,46 @@ return {
         scriptId = 71009,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 618,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Tu as raison. ",
+                delay = 400,
+            },
+            [2] = {
+                speed = 40,
+                text = "La sécurité de %s est une priorité absolue. ",
+                delay = 1000,
+            },
+            [3] = {
+                speed = 40,
+                text = "Oh !",
+                delay = 400,
+            },
+            [4] = {
+                speed = 40,
+                text = "Non !",
+                delay = 800,
+            },
+            [5] = {
+                speed = 40,
+                text = "Je ne me fais pas avoir,",
+                delay = 400,
+            },
+            [6] = {
+                speed = 40,
+                text = "Origami Tobiichi !",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -22389,15 +22493,47 @@ return {
         scriptId = 100015,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 649,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Allez,",
+                delay = 400,
+            },
+            [2] = {
+                speed = 40,
+                text = "coupe le désespoir embrassé par cette épée,",
+                delay = 600,
+            },
+            [3] = {
+                speed = 40,
+                text = "avec l'espoir",
+            },
+            [4] = {
+                speed = 40,
+                text = "embarquement",
+            },
+            [5] = {
+                speed = 40,
+                text = "Sandalphon",
+            },
+            [6] = {
+                speed = 40,
+                text = "et",
+            },
+            [7] = {
+                speed = 40,
+                text = "Shekhinah ! ",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = false,
@@ -22676,15 +22812,46 @@ return {
         scriptId = 100016,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 656,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Cependant,",
+                delay = 400,
+            },
+            [2] = {
+                speed = 40,
+                text = "c'était réel,",
+                delay = 400,
+            },
+            [3] = {
+                speed = 40,
+                text = "la machine l'a enregistré.",
+                delay = 400,
+            },
+            [4] = {
+                speed = 40,
+                text = "Il n'a pas disparu.",
+                delay = 400,
+            },
+            [5] = {
+                speed = 40,
+                text = "Un jour,",
+                delay = 400,
+            },
+            [6] = {
+                speed = 40,
+                text = "nous le retrouverons.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -113468,15 +113635,51 @@ return {
         scriptId = 201003,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 20100301,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Qui suis-je ?",
+                delay = 300,
+            },
+            [2] = {
+                speed = 40,
+                text = "Où suis-je ?",
+                delay = 300,
+            },
+            [3] = {
+                speed = 40,
+                text = "Qui me frappe ?",
+                delay = 700,
+            },
+            [4] = {
+                speed = 40,
+                text = "Tick...",
+                delay = 300,
+            },
+            [5] = {
+                speed = 40,
+                text = "Euh ?",
+                delay = 300,
+            },
+            [6] = {
+                speed = 40,
+                text = "Wait,",
+                delay = 300,
+            },
+            [7] = {
+                speed = 40,
+                text = "le Bug semble être corrigé.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -120499,15 +120702,46 @@ return {
         scriptId = 100195,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 10019507,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Ah !",
+                delay = 300,
+            },
+            [2] = {
+                speed = 40,
+                text = "Je vois maintenant,",
+                delay = 300,
+            },
+            [3] = {
+                speed = 40,
+                text = "ce dessin est défectueux !",
+                delay = 700,
+            },
+            [4] = {
+                speed = 40,
+                text = "Attends,",
+                delay = 300,
+            },
+            [5] = {
+                speed = 40,
+                text = "Je veux l'ajuster !",
+                delay = 300,
+            },
+            [6] = {
+                speed = 40,
+                text = "Redémarrons.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,
@@ -132103,15 +132337,41 @@ return {
         scriptId = 100194,
         headMirrorL = false,
         showBG = 0,
+        headMirrorR = true,
         actionR = {
         },
-        headMirrorR = true,
+        autoShutTime = 0,
         effect = "",
         id = 10019407,
-        cameraAction2 = 0,
+        text = {
+            [1] = {
+                speed = 40,
+                text = "Ah !",
+                delay = 300,
+            },
+            [2] = {
+                speed = 40,
+                text = "je comprend maintenant,",
+                delay = 300,
+            },
+            [3] = {
+                speed = 40,
+                text = "il y a un problème dans ce design...",
+                delay = 700,
+            },
+            [4] = {
+                speed = 40,
+                text = "mais...",
+                delay = 300,
+            },
+            [5] = {
+                speed = 40,
+                text = "nous n'avons pas le temps de l'ajuster.",
+            },
+        },
         actionL = {
         },
-        autoShutTime = 0,
+        cameraAction2 = 0,
         actionText = {
         },
         isSpeakingR = true,

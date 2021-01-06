@@ -2299,11 +2299,11 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "23",
-							ignoreSize = "True",
+							height = "0",
+							ignoreSize = "False",
 							name = "des",
-							nTextAlign = "1",
-							nTextHAlign = "1",
+							nTextAlign = "0",
+							nTextHAlign = "0",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
@@ -2314,9 +2314,9 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = -170,
-								PositionY = -29,
+								PositionY = -23,
 							},
-							width = "178",
+							width = "448",
 							ZOrder = "1",
 						},
 						{
@@ -2360,7 +2360,7 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = -170,
-								PositionY = 29,
+								PositionY = 6,
 							},
 							width = "166",
 							ZOrder = "1",

@@ -272,7 +272,7 @@ local t =
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
 							dstBlendFunc = "771",
-							FontColor = "#FF694912",
+							FontColor = "#FFADD8E6",
 							fontName = "font/MFLiHei_Noncommercial.ttf",
 							fontShadow = 
 							{
@@ -289,12 +289,12 @@ local t =
 								StrokeColor = "#FFE6E6E6",
 								StrokeSize = 1,
 							},
-							height = "30",
-							ignoreSize = "True",
+							height = "0",
+							ignoreSize = "False",
 							name = "label_tip1",
 							nTextAlign = "1",
 							nTextHAlign = "1",
-							rotation = "-10",
+							rotation = "-15",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
@@ -307,7 +307,7 @@ local t =
 								PositionX = -453,
 								PositionY = -19,
 							},
-							width = "251",
+							width = "151",
 							ZOrder = "1",
 						},
 						{

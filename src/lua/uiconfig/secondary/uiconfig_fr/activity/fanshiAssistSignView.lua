@@ -679,6 +679,7 @@ local t =
 									name = "Label_time_tip",
 									nTextAlign = "0",
 									nTextHAlign = "0",
+									rotation = "-2",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -688,8 +689,8 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -455,
-										PositionY = 262,
+										PositionX = -446,
+										PositionY = -27,
 									},
 									width = "284",
 									ZOrder = "1",
@@ -725,6 +726,7 @@ local t =
 									name = "Label_time_end",
 									nTextAlign = "0",
 									nTextHAlign = "0",
+									rotation = "-2",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -734,8 +736,8 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -458,
-										PositionY = 208,
+										PositionX = -419,
+										PositionY = -76,
 									},
 									width = "284",
 									ZOrder = "1",
@@ -771,6 +773,7 @@ local t =
 									name = "Label_time_begin",
 									nTextAlign = "0",
 									nTextHAlign = "0",
+									rotation = "-2",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -780,8 +783,8 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -439,
-										PositionY = 235,
+										PositionX = -428,
+										PositionY = -48,
 									},
 									width = "284",
 									ZOrder = "1",

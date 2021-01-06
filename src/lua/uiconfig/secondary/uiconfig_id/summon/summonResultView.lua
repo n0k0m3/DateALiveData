@@ -369,7 +369,7 @@ local t =
 										TopPosition = 543,
 										relativeToName = "Panel_root",
 									},
-									width = "176",
+									width = "177",
 									ZOrder = "1",
 								},
 								{
@@ -2148,10 +2148,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -8,
-												PositionY = -3,
+												PositionX = -6,
 											},
-											width = "124",
+											width = "138",
 											ZOrder = "1",
 										},
 									},
@@ -2881,7 +2880,7 @@ local t =
 												PositionX = 539,
 												PositionY = -27,
 											},
-											width = "242",
+											width = "226",
 											ZOrder = "1",
 										},
 										{

@@ -162,21 +162,30 @@ function HeroGrowUpView:nextPanel()
     end
 end
 
+--[[
+    获得对应的动画名称
+]]
+function HeroGrowUpView:getAnimationNamesByGorwType(growType)
+    local affix = "effect_herotest_word0%s_%s_%s"
+    local suffix = TFLanguageMgr:getUsingLanguageCode()
 
+    local originName = string.format(affix, growType, 0, suffix)
+    local oldName = string.format(affix, growType, 1, suffix)
 
+    return originName, oldName
+end
 
 function HeroGrowUpView:initSkeletonTitle(growType)
-    -- 小语种九种语言,所以索引时要 *18
-    -- 具体可查看动画文件
-    local anmaitonIndex = (growType - 1) * 18
+    local originName, oldName = self:getAnimationNamesByGorwType(growType)
+
     self.skeletonNode_title:setupPoseWhenPlay(true)
-    self.skeletonNode_title:playByIndex(anmaitonIndex,0)
+    self.skeletonNode_title:play(originName, false)
     self.skeletonNode_title:show()
     TFAudio.playEffect("sound/ui/function_014.mp3",false,1,0)
     self.skeletonNode_title:addMEListener(TFARMATURE_COMPLETE,function()
         self.skeletonNode_title:removeMEListener(TFARMATURE_COMPLETE)
         self.skeletonNode_title:setupPoseWhenPlay(false)
-        self.skeletonNode_title:playByIndex(anmaitonIndex + 9, 1)
+        self.skeletonNode_title:play(oldName, true)
     end)
 end
 
